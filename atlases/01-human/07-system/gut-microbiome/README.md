@@ -127,6 +127,15 @@ cross_links:
   - target: 01-human/02-atomic/sulfur
     relation: connects-to
     note: "Sulfate-reducing gut bacteria make hydrogen sulfide: this pungent gas, at high levels, is toxic to the colon lining and has been implicated in ulcerative colitis, a darker side of microbial metabolism."
+  - target: 01-human/02-atomic/oxygen
+    relation: connects-to
+    note: "Oxygen's near-absence defines the gut's microbial world: the colon is anaerobic, and cells lining it burn oxygen to keep it that way, favoring the beneficial anaerobes — when oxygen leaks in, harmful facultative bacteria bloom in dysbiosis."
+  - target: 01-human/01-subatomic/electron
+    relation: connects-to
+    note: "Electron microscopy reveals the microbial city up close: it shows bacterial flagella and pili, the dense biofilms clinging to the gut wall, and the protective mucus layer separating the microbes from the cells beneath."
+  - target: 01-human/06-organ/kidney
+    relation: connects-to
+    note: "The gut and kidney trade toxins: microbes turn dietary compounds into indoxyl sulfate, p-cresyl sulfate, and TMAO that the kidney must clear, so in kidney failure these gut-derived toxins build up and worsen cardiovascular damage."
 ---
 
 # Gut Microbiome
@@ -241,6 +250,9 @@ The microbiome influences CNS function via multiple pathways:
 - `connects-to` → **[Small Intestine](../../06-organ/small-intestine/README.md)** — The small intestine normally holds few microbes; when they overgrow—SIBO—the result is bloating, gas and malabsorption, a disorder of the microbiome appearing in the wrong place.
 - `connects-to` → **[T Helper Cell](../../04-cellular/t-helper-cell/README.md)** — The microbiome trains the immune system: some bacteria drive Th17 helper cells while others expand regulatory T cells, so the microbes tune the balance between defense and tolerance.
 - `connects-to` → **[Sulfur](../../02-atomic/sulfur/README.md)** — Sulfate-reducing gut bacteria make hydrogen sulfide: this pungent gas, at high levels, is toxic to the colon lining and has been implicated in ulcerative colitis, a darker side of microbial metabolism.
+- `connects-to` → **[Oxygen](../../02-atomic/oxygen/README.md)** — Oxygen's near-absence defines the gut's microbial world: the colon is anaerobic, and cells lining it burn oxygen to keep it that way, favoring the beneficial anaerobes — when oxygen leaks in, harmful facultative bacteria bloom in dysbiosis.
+- `connects-to` → **[Electron](../../01-subatomic/electron/README.md)** — Electron microscopy reveals the microbial city up close: it shows bacterial flagella and pili, the dense biofilms clinging to the gut wall, and the protective mucus layer separating the microbes from the cells beneath.
+- `connects-to` → **[Kidney](../../06-organ/kidney/README.md)** — The gut and kidney trade toxins: microbes turn dietary compounds into indoxyl sulfate, p-cresyl sulfate, and TMAO that the kidney must clear, so in kidney failure these gut-derived toxins build up and worsen cardiovascular damage.
 
 ## Pathology
 

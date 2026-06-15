@@ -127,6 +127,15 @@ cross_links:
   - target: 01-human/02-atomic/potassium
     relation: connects-to
     note: "Potassium is a constant worry in heart failure: the disease and its drugs swing it in both directions, and either too-high or too-low potassium triggers the arrhythmias behind sudden cardiac death."
+  - target: 01-human/01-subatomic/electron
+    relation: connects-to
+    note: "Electron microscopy reads the failing heart muscle: it shows swollen, dysfunctional mitochondria and disarrayed sarcomeres, and reveals the tangled amyloid fibrils of cardiac amyloidosis, an increasingly recognized cause of stiff-heart failure."
+  - target: 01-human/02-atomic/magnesium
+    relation: connects-to
+    note: "Magnesium quietly slips away in heart failure: loop and thiazide diuretics flush it out, and the resulting deficiency primes the heart for arrhythmias and amplifies digoxin toxicity, so it is watched alongside potassium."
+  - target: 01-human/04-cellular/erythrocyte
+    relation: connects-to
+    note: "Anemia haunts heart failure: low red-cell counts, driven by kidney dysfunction and iron deficiency, force the failing heart to work harder for less oxygen delivery, worsening symptoms and prognosis in the cardiorenal-anemia syndrome."
 ---
 
 # Heart Failure
@@ -236,6 +245,9 @@ Normal hearts increase stroke volume with increasing preload (Starling curve). T
 - `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — Imaging stages heart failure: chest X-ray photons show an enlarged heart and congested lungs, while cardiac MRI and nuclear scans gauge function and viability to guide treatment.
 - `connects-to` → **[Endothelial Cell](../../04-cellular/endothelial-cell/README.md)** — Failing small vessels drive HFpEF: coronary microvascular endothelial dysfunction is now seen as central to heart failure with preserved ejection fraction, inflaming and stiffening the heart from its tiniest vessels.
 - `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — Potassium is a constant worry in heart failure: the disease and its drugs swing it in both directions, and either too-high or too-low potassium triggers the arrhythmias behind sudden cardiac death.
+- `connects-to` → **[Electron](../../01-subatomic/electron/README.md)** — Electron microscopy reads the failing heart muscle: it shows swollen, dysfunctional mitochondria and disarrayed sarcomeres, and reveals the tangled amyloid fibrils of cardiac amyloidosis, an increasingly recognized cause of stiff-heart failure.
+- `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — Magnesium quietly slips away in heart failure: loop and thiazide diuretics flush it out, and the resulting deficiency primes the heart for arrhythmias and amplifies digoxin toxicity, so it is watched alongside potassium.
+- `connects-to` → **[Erythrocyte](../../04-cellular/erythrocyte/README.md)** — Anemia haunts heart failure: low red-cell counts, driven by kidney dysfunction and iron deficiency, force the failing heart to work harder for less oxygen delivery, worsening symptoms and prognosis in the cardiorenal-anemia syndrome.
 
 ## Pathology
 
