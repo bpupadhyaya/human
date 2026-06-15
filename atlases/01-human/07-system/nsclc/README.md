@@ -157,6 +157,15 @@ cross_links:
   - target: 01-human/02-atomic/magnesium
     relation: connects-to
     note: "Cisplatin wastes the body's magnesium: by injuring the kidney tubule that reclaims it, the platinum chemotherapy for NSCLC drops magnesium and potassium, electrolytes that must be replaced through every cycle of treatment."
+  - target: 01-human/07-system/venous-thromboembolism
+    relation: connects-to
+    note: "Lung adenocarcinoma is among the most clot-prone cancers: tumor tissue factor and chemotherapy combine to drive deep-vein thrombosis and pulmonary embolism, a frequent complication that worsens outcomes and often needs anticoagulation."
+  - target: 01-human/06-organ/thyroid
+    relation: connects-to
+    note: "Immunotherapy can inflame the thyroid: the checkpoint inhibitors central to modern NSCLC treatment commonly trigger autoimmune thyroiditis, causing transient hyperthyroidism then lasting hypothyroidism — one of the most frequent immune-related side effects."
+  - target: 01-human/04-cellular/cardiomyocyte
+    relation: connects-to
+    note: "A rare but lethal immune side effect strikes the heart muscle: checkpoint-inhibitor myocarditis floods the myocardium with T cells attacking cardiomyocytes, an uncommon complication of NSCLC immunotherapy with a high fatality rate demanding urgent steroids."
 ---
 
 # NSCLC
@@ -304,6 +313,9 @@ cross_links:
 - `connects-to` → **[Antibody](../../03-molecular/antibody/README.md)** — Antibodies steer modern NSCLC care: TTF-1 and p40 stains separate adeno from squamous, PD-L1 staining selects who gets checkpoint therapy, and the drugs themselves — anti-PD-1 pembrolizumab and anti-VEGF bevacizumab — are monoclonal antibodies.
 - `connects-to` → **[Kidney](../../06-organ/kidney/README.md)** — The kidney sets limits on treatment: the cisplatin backbone of NSCLC chemotherapy is nephrotoxic, demanding hydration and dose adjustment, and the tumor can drive a paraneoplastic SIADH that drops sodium dangerously low.
 - `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — Cisplatin wastes the body's magnesium: by injuring the kidney tubule that reclaims it, the platinum chemotherapy for NSCLC drops magnesium and potassium, electrolytes that must be replaced through every cycle of treatment.
+- `connects-to` → **[Venous Thromboembolism](../venous-thromboembolism/README.md)** — Lung adenocarcinoma is among the most clot-prone cancers: tumor tissue factor and chemotherapy combine to drive deep-vein thrombosis and pulmonary embolism, a frequent complication that worsens outcomes and often needs anticoagulation.
+- `connects-to` → **[Thyroid Gland](../../06-organ/thyroid/README.md)** — Immunotherapy can inflame the thyroid: the checkpoint inhibitors central to modern NSCLC treatment commonly trigger autoimmune thyroiditis, causing transient hyperthyroidism then lasting hypothyroidism — one of the most frequent immune-related side effects.
+- `connects-to` → **[Cardiomyocyte](../../04-cellular/cardiomyocyte/README.md)** — A rare but lethal immune side effect strikes the heart muscle: checkpoint-inhibitor myocarditis floods the myocardium with T cells attacking cardiomyocytes, an uncommon complication of NSCLC immunotherapy with a high fatality rate demanding urgent steroids.
 
 [^soria-2018-osimertinib-flaura]: Soria JC, Ohe Y, Vansteenkiste J, et al. Osimertinib in untreated EGFR-mutated advanced non-small-cell lung cancer. *N Engl J Med.* 2018;378(2):113-125. [doi:10.1056/NEJMoa1713137](https://doi.org/10.1056/NEJMoa1713137) · [PubMed 29151359](https://pubmed.ncbi.nlm.nih.gov/29151359/)
 [^reck-2016-pembrolizumab-keynote024]: Reck M, Rodríguez-Abreu D, Robinson AG, et al. Pembrolizumab versus chemotherapy for PD-L1-positive non-small-cell lung cancer. *N Engl J Med.* 2016;375(19):1823-1833. [doi:10.1056/NEJMoa1606774](https://doi.org/10.1056/NEJMoa1606774) · [PubMed 27718347](https://pubmed.ncbi.nlm.nih.gov/27718347/)

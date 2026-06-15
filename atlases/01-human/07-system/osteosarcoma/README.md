@@ -151,6 +151,15 @@ cross_links:
   - target: 01-human/02-atomic/magnesium
     relation: connects-to
     note: "Cisplatin in the regimen wastes magnesium: the platinum drug injures the kidney tubule that reclaims it, dropping blood magnesium and potassium so they must be replaced alongside the careful hydration the chemotherapy demands."
+  - target: 01-human/07-system/reproductive-system
+    relation: connects-to
+    note: "Cure threatens fertility in the young: osteosarcoma strikes adolescents, and its high-dose cisplatin and alkylating chemotherapy damages the gonads, so sperm banking and fertility preservation are discussed before the months of treatment begin."
+  - target: 01-human/03-molecular/tert
+    relation: connects-to
+    note: "Osteosarcoma keeps its telomeres long: it sustains division either by reactivating TERT telomerase or through the alternative-lengthening-of-telomeres pathway, the immortality mechanism behind one of the most genomically chaotic of cancers."
+  - target: 01-human/04-cellular/regulatory-t-cell
+    relation: connects-to
+    note: "The tumor stays a step ahead of immunity: osteosarcoma recruits regulatory T cells and tumor-associated macrophages into an immunosuppressive microenvironment, a coldness that has frustrated checkpoint immunotherapy against it."
 ---
 
 # Osteosarcoma
@@ -326,6 +335,9 @@ OS is relatively radiation-resistant (high-dose radiation ~70+ Gy may achieve lo
 - `connects-to` → **[Antibody](../../03-molecular/antibody/README.md)** — Antibody stains read the bone tumor: SATB2 and osteocalcin staining confirm the malignant cells are making bone (osteoid), distinguishing osteosarcoma from other small-cell and spindle-cell sarcomas on a difficult biopsy.
 - `connects-to` → **[Neutrophil](../../04-cellular/neutrophil/README.md)** — The MAP regimen empties the marrow: high-dose methotrexate, doxorubicin, and cisplatin are heavily myelosuppressive, so neutrophil counts crater between cycles and febrile neutropenia is a recurring danger of curative treatment.
 - `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — Cisplatin in the regimen wastes magnesium: the platinum drug injures the kidney tubule that reclaims it, dropping blood magnesium and potassium so they must be replaced alongside the careful hydration the chemotherapy demands.
+- `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — Cure threatens fertility in the young: osteosarcoma strikes adolescents, and its high-dose cisplatin and alkylating chemotherapy damages the gonads, so sperm banking and fertility preservation are discussed before the months of treatment begin.
+- `connects-to` → **[TERT](../../03-molecular/tert/README.md)** — Osteosarcoma keeps its telomeres long: it sustains division either by reactivating TERT telomerase or through the alternative-lengthening-of-telomeres pathway, the immortality mechanism behind one of the most genomically chaotic of cancers.
+- `connects-to` → **[Regulatory T Cell](../../04-cellular/regulatory-t-cell/README.md)** — The tumor stays a step ahead of immunity: osteosarcoma recruits regulatory T cells and tumor-associated macrophages into an immunosuppressive microenvironment, a coldness that has frustrated checkpoint immunotherapy against it.
 
 [^bielack-2002-coss-osteosarcoma]: Bielack SS, Kempf-Bielack B, Delling G, et al. Prognostic factors in high-grade osteosarcoma of the extremities or trunk: an analysis of 1,702 patients treated on neoadjuvant Cooperative Osteosarcoma Study Group protocols. *J Clin Oncol.* 2002;20(3):776-790. [doi:10.1200/JCO.2002.20.3.776](https://doi.org/10.1200/JCO.2002.20.3.776) · [PubMed 11821461](https://pubmed.ncbi.nlm.nih.gov/11821461/)
 [^marina-2016-euramos1-osteosarcoma]: Marina NM, Smeland S, Bielack SS, et al. Comparison of MAPIE versus MAP in patients with a poor response to preoperative chemotherapy for newly diagnosed high-grade osteosarcoma (EURAMOS-1). *Lancet Oncol.* 2016;17(10):1396-1408. [doi:10.1016/S1470-2045(16)30214-5](https://doi.org/10.1016/S1470-2045(16)30214-5) · [PubMed 27569442](https://pubmed.ncbi.nlm.nih.gov/27569442/)
