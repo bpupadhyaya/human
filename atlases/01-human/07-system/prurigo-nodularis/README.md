@@ -166,6 +166,15 @@ cross_links:
   - target: 01-human/04-cellular/macrophage
     relation: connects-to
     note: "Macrophages help build the nodule: drawn into the lesion, they sustain the type-2 and neuroimmune inflammation and the fibrosis that hardens prurigo nodularis into its characteristic firm bumps."
+  - target: 01-human/03-molecular/il-5
+    relation: connects-to
+    note: "Eosinophils answer IL-5 in the nodule: this type-2 cytokine recruits and activates the eosinophils found in prurigo lesions, part of the Th2 milieu that anti-type-2 biologics aim to quiet."
+  - target: 01-human/03-molecular/il-33
+    relation: connects-to
+    note: "A damaged skin barrier releases IL-33: this alarmin from stressed keratinocytes ignites the type-2 and neuroimmune cascade, both amplifying itch-driving sensory nerves and the Th2 inflammation that builds prurigo nodules."
+  - target: 01-human/07-system/generalized-anxiety-disorder
+    relation: connects-to
+    note: "The itch-scratch cycle and the mind feed each other: the relentless pruritus of prurigo nodularis drives anxiety and sleep loss, while stress lowers the itch threshold — a psychodermatologic loop that worsens both conditions."
 ---
 
 # Prurigo Nodularis
@@ -298,6 +307,9 @@ PN affects approximately **72,000 patients** in the US; true prevalence is likel
 - `connects-to` → **[Hepatitis C](../hepatitis-c/README.md)** — Chronic infection can itch the skin into nodules: hepatitis C and the cholestatic liver disease it causes are recognized systemic drivers of pruritus, so an unexplained prurigo nodularis prompts a look at the liver and a viral screen.
 - `connects-to` → **[CGRP](../../03-molecular/cgrp/README.md)** — Sensory nerves inflame their own territory: CGRP released from the skin's itch fibers drives the neurogenic inflammation and nerve sensitization that, with chronic scratching, build the thickened nodules of the disease.
 - `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — Macrophages help build the nodule: drawn into the lesion, they sustain the type-2 and neuroimmune inflammation and the fibrosis that hardens prurigo nodularis into its characteristic firm bumps.
+- `connects-to` → **[Interleukin-5](../../03-molecular/il-5/README.md)** — Eosinophils answer IL-5 in the nodule: this type-2 cytokine recruits and activates the eosinophils found in prurigo lesions, part of the Th2 milieu that anti-type-2 biologics aim to quiet.
+- `connects-to` → **[IL-33](../../03-molecular/il-33/README.md)** — A damaged skin barrier releases IL-33: this alarmin from stressed keratinocytes ignites the type-2 and neuroimmune cascade, both amplifying itch-driving sensory nerves and the Th2 inflammation that builds prurigo nodules.
+- `connects-to` → **[Generalized Anxiety Disorder](../generalized-anxiety-disorder/README.md)** — The itch-scratch cycle and the mind feed each other: the relentless pruritus of prurigo nodularis drives anxiety and sleep loss, while stress lowers the itch threshold — a psychodermatologic loop that worsens both conditions.
 
 [^stander-2020-nemolizumab-pn]: Ständer S, Yosipovitch G, Legat FJ, et al. Trial of nemolizumab in moderate-to-severe prurigo nodularis. *N Engl J Med.* 2020;382(8):706-716. [doi:10.1056/NEJMoa1908316](https://doi.org/10.1056/NEJMoa1908316) · [PubMed 32053299](https://pubmed.ncbi.nlm.nih.gov/32053299/)
 [^briggs-2022-dupilumab-pn-liberty]: Briggs JN, Cho YY, Khanna R, et al. Dupilumab for prurigo nodularis: the LIBERTY-PN PRIME and PRIME2 trials. *N Engl J Med.* 2022;387(18):1683-1693. [doi:10.1056/NEJMoa2205093](https://doi.org/10.1056/NEJMoa2205093) · [PubMed 36300905](https://pubmed.ncbi.nlm.nih.gov/36300905/)

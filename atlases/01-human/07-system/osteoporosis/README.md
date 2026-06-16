@@ -172,6 +172,15 @@ cross_links:
   - target: 01-human/04-cellular/t-cytotoxic-cell
     relation: connects-to
     note: "Immune cells join the bone-loss circuit: in osteoimmunology, activated T cells secrete RANKL and inflammatory cytokines that spur osteoclasts, part of why chronic inflammation and estrogen loss accelerate bone resorption."
+  - target: 01-human/07-system/type-1-diabetes
+    relation: connects-to
+    note: "Type 1 diabetes weakens bone early: insulin and IGF-1 deficiency starve osteoblasts and high glucose stiffens collagen, so patients reach lower peak bone mass and fracture more often despite often-normal bone density."
+  - target: 01-human/03-molecular/leptin
+    relation: connects-to
+    note: "Fat talks to bone through leptin: the adipocyte hormone both restrains bone formation via a hypothalamic relay and supports it peripherally, helping explain why very low body fat (and marrow fat gain) tracks with osteoporosis."
+  - target: 01-human/04-cellular/endothelial-cell
+    relation: connects-to
+    note: "Bone is built around its blood supply: specialized type-H endothelial cells couple angiogenesis to osteogenesis, and their age-related decline starves the niche of osteoblast progenitors, contributing to the bone loss of osteoporosis."
 ---
 
 # Osteoporosis
@@ -305,6 +314,9 @@ All newly diagnosed osteoporosis should be evaluated for secondary causes: CBC (
 - `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — Magnesium is an underappreciated factor in bone health: about half the body's magnesium sits in bone, and it is needed for vitamin D activation and PTH secretion, so chronic magnesium deficiency impairs mineralization and contributes to osteoporosis.
 - `connects-to` → **[Endocrine System](../endocrine-system/README.md)** — Osteoporosis is largely an endocrine disease: estrogen, testosterone, thyroid hormone, parathyroid hormone and cortisol all govern bone turnover, so hormonal shifts (menopause, hyperthyroidism, steroid excess) are leading causes of bone loss.
 - `connects-to` → **[Phosphorus](../../02-atomic/phosphorus/README.md)** — Bone is calcium-phosphate crystal, so phosphorus is as structural as calcium: hydroxyapatite needs balanced phosphate, and disordered phosphate handling—too little (osteomalacia) or the excess of kidney disease—weakens or distorts bone alongside calcium loss.
+- `connects-to` → **[Type 1 Diabetes](../type-1-diabetes/README.md)** — Type 1 diabetes weakens bone early: insulin and IGF-1 deficiency starve osteoblasts and high glucose stiffens collagen, so patients reach lower peak bone mass and fracture more often despite often-normal bone density.
+- `connects-to` → **[Leptin](../../03-molecular/leptin/README.md)** — Fat talks to bone through leptin: the adipocyte hormone both restrains bone formation via a hypothalamic relay and supports it peripherally, helping explain why very low body fat (and marrow fat gain) tracks with osteoporosis.
+- `connects-to` → **[Endothelial Cell](../../04-cellular/endothelial-cell/README.md)** — Bone is built around its blood supply: specialized type-H endothelial cells couple angiogenesis to osteogenesis, and their age-related decline starves the niche of osteoblast progenitors, contributing to the bone loss of osteoporosis.
 - `connects-to` → **[Rheumatoid Arthritis](../rheumatoid-arthritis/README.md)** — Rheumatoid arthritis is a double hit to bone: chronic inflammation (and RANKL) accelerates bone loss, and the glucocorticoids used to treat it cause steroid-induced osteoporosis—so inflammatory arthritis is a leading secondary cause of fragile bones.
 - `connects-to` → **[Digestive System](../digestive-system/README.md)** — Healthy bone depends on the gut: the intestine absorbs the calcium and vitamin D bone needs, so malabsorption from celiac disease, inflammatory bowel disease, or bariatric surgery is an under-recognized cause of osteoporosis.
 - `connects-to` → **[Adipocyte](../../04-cellular/adipocyte/README.md)** — Bone loss in aging tips marrow toward fat: the mesenchymal stem cells that should become bone-building osteoblasts instead become adipocytes, so marrow fills with fat as bone thins—linking the adipocyte-osteoblast balance to osteoporosis.
