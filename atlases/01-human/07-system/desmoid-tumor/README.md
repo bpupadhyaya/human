@@ -160,6 +160,15 @@ cross_links:
   - target: 01-human/06-organ/pancreas
     relation: connects-to
     note: "Mesenteric desmoids crowd the upper abdomen: in FAP they grow at the root of the mesentery and can encase the duodenum and pancreas, complicating surgery and sometimes obstructing the bowel or bile drainage."
+  - target: 01-human/07-system/breast-cancer
+    relation: connects-to
+    note: "Desmoids favor sites of injury: they classically arise in surgical scars, including after breast surgery, so a firm mass at a mastectomy or reconstruction site can be a desmoid rather than recurrent cancer."
+  - target: 01-human/04-cellular/regulatory-t-cell
+    relation: connects-to
+    note: "An immune-cell milieu shapes the tumor: regulatory T cells populate the desmoid microenvironment, part of the stromal-immune context being explored as these locally aggressive fibromatoses resist conventional treatment."
+  - target: 01-human/03-molecular/il-6
+    relation: connects-to
+    note: "Inflammation feeds the fibromatosis: IL-6 and prostaglandin signaling promote desmoid fibroblast growth, a rationale behind the anti-inflammatory NSAIDs long tried to slow these tumors."
 ---
 
 # Desmoid Tumor
@@ -341,6 +350,9 @@ Standard initial approach for newly diagnosed desmoid without symptoms or rapid 
 - `connects-to` → **[Progesterone](../../03-molecular/progesterone/README.md)** — Pregnancy can stir desmoids: many appear or grow during gestation and abdominal-wall desmoids especially, then often stabilize or regress after delivery, a hormone sensitivity to estrogen and progesterone that underlies the anti-hormonal therapies sometimes tried.
 - `connects-to` → **[Osteoblast](../../04-cellular/osteoblast/README.md)** — Pressing on bone, the desmoid remodels it: extra-abdominal tumors abutting the chest wall or limb girdle scallop the cortex and provoke periosteal new bone from osteoblasts, the bony reaction that imaging picks up at the tumor's edge.
 - `connects-to` → **[Pancreas](../../06-organ/pancreas/README.md)** — Mesenteric desmoids crowd the upper abdomen: in FAP they grow at the root of the mesentery and can encase the duodenum and pancreas, complicating surgery and sometimes obstructing the bowel or bile drainage.
+- `connects-to` → **[Breast Cancer](../breast-cancer/README.md)** — Desmoids favor sites of injury: they classically arise in surgical scars, including after breast surgery, so a firm mass at a mastectomy or reconstruction site can be a desmoid rather than recurrent cancer.
+- `connects-to` → **[Regulatory T Cell](../../04-cellular/regulatory-t-cell/README.md)** — An immune-cell milieu shapes the tumor: regulatory T cells populate the desmoid microenvironment, part of the stromal-immune context being explored as these locally aggressive fibromatoses resist conventional treatment.
+- `connects-to` → **[Interleukin-6](../../03-molecular/il-6/README.md)** — Inflammation feeds the fibromatosis: IL-6 and prostaglandin signaling promote desmoid fibroblast growth, a rationale behind the anti-inflammatory NSAIDs long tried to slow these tumors.
 
 ---
 

@@ -160,6 +160,15 @@ cross_links:
   - target: 01-human/06-organ/pancreas
     relation: connects-to
     note: "Dengue can inflame the pancreas: the virus is a recognized cause of acute pancreatitis, with abdominal pain and raised enzymes appearing in severe cases, one of the visceral complications that can accompany the plasma-leak phase."
+  - target: 01-human/03-molecular/il-6
+    relation: connects-to
+    note: "IL-6 helps spring the vascular leak: the cytokine surge of severe dengue, with IL-6 prominent, loosens the endothelial barrier and drives the plasma leakage and shock that define dengue hemorrhagic fever."
+  - target: 01-human/06-organ/ards
+    relation: connects-to
+    note: "The leaking plasma can flood the lungs: severe dengue causes pleural effusions and, at its worst, acute respiratory distress syndrome, the capillary leak filling the alveoli as it does the body cavities."
+  - target: 01-human/07-system/heart-failure
+    relation: connects-to
+    note: "Dengue can strike the heart: viral myocarditis depresses contractility and causes arrhythmia, so cardiac dysfunction and heart failure add to the shock of the severe disease."
 ---
 
 # Dengue Fever
@@ -319,3 +328,6 @@ No approved antiviral therapy for dengue. Management is entirely supportive:
 - `connects-to` → **[TNF-α (Tumor Necrosis Factor-alpha)](../../03-molecular/tnf-alpha/README.md)** — TNF-alpha opens the vessels in severe dengue: the cytokine storm's TNF loosens endothelial junctions, and this surge in vascular permeability is what drives the plasma leak, hemoconcentration and shock that define dengue hemorrhagic fever.
 - `connects-to` → **[T Helper Cell](../../04-cellular/t-helper-cell/README.md)** — Old immunity makes the second infection worse: cross-reactive memory helper T cells from a prior dengue serotype respond to the new one with a distorted, overexuberant cytokine burst — 'original antigenic sin' that helps tip a repeat infection into severe disease.
 - `connects-to` → **[Pancreas](../../06-organ/pancreas/README.md)** — Dengue can inflame the pancreas: the virus is a recognized cause of acute pancreatitis, with abdominal pain and raised enzymes appearing in severe cases, one of the visceral complications that can accompany the plasma-leak phase.
+- `connects-to` → **[Interleukin-6](../../03-molecular/il-6/README.md)** — IL-6 helps spring the vascular leak: the cytokine surge of severe dengue, with IL-6 prominent, loosens the endothelial barrier and drives the plasma leakage and shock that define dengue hemorrhagic fever.
+- `connects-to` → **[Acute Respiratory Distress Syndrome](../../06-organ/ards/README.md)** — The leaking plasma can flood the lungs: severe dengue causes pleural effusions and, at its worst, acute respiratory distress syndrome, the capillary leak filling the alveoli as it does the body cavities.
+- `connects-to` → **[Heart Failure](../heart-failure/README.md)** — Dengue can strike the heart: viral myocarditis depresses contractility and causes arrhythmia, so cardiac dysfunction and heart failure add to the shock of the severe disease.
