@@ -169,6 +169,15 @@ cross_links:
   - target: 01-human/07-system/gambling-disorder
     relation: connects-to
     note: "Addictions cluster around the reward circuit: stimulant use disorder frequently co-occurs with gambling and other behavioral addictions, sharing the dopamine-driven impulsivity that the drugs directly amplify."
+  - target: 01-human/04-cellular/astrocyte
+    relation: connects-to
+    note: "Stimulants scar the brain's support cells: methamphetamine and cocaine provoke reactive astrogliosis and disrupt the blood-brain barrier astrocytes help maintain, contributing to the neurotoxicity and cognitive decline of chronic use."
+  - target: 01-human/03-molecular/nlrp3-inflammasome
+    relation: connects-to
+    note: "Addiction has a neuroinflammatory engine: stimulants activate microglial TLR4 and the NLRP3 inflammasome, and the IL-1β released reinforces drug-seeking and the neurotoxicity behind stimulant brain injury."
+  - target: 01-human/07-system/hepatitis-c
+    relation: connects-to
+    note: "Injection stimulant use spreads hepatitis C: shared needles and the binge-injection pattern of methamphetamine and cocaine make stimulant use disorder a major route of HCV transmission, alongside HIV."
 ---
 
 # Stimulant Use Disorder
@@ -341,6 +350,9 @@ Unlike cocaine, methamphetamine causes **direct neurotoxic damage** to dopaminer
 - `connects-to` → **[HIV](../hiv/README.md)** — Stimulants drive the spread of HIV: injection and the hypersexual, disinhibited behavior of methamphetamine and cocaine raise transmission risk, so stimulant use disorder is a major engine of new HIV infection.
 - `connects-to` → **[Atherosclerosis](../atherosclerosis/README.md)** — Stimulants age the arteries fast: repeated catecholamine surges, hypertension, and vascular inflammation accelerate atherosclerosis, so chronic cocaine and amphetamine use brings premature coronary disease and stroke.
 - `connects-to` → **[Gambling Disorder](../gambling-disorder/README.md)** — Addictions cluster around the reward circuit: stimulant use disorder frequently co-occurs with gambling and other behavioral addictions, sharing the dopamine-driven impulsivity that the drugs directly amplify.
+- `connects-to` → **[Astrocyte](../../04-cellular/astrocyte/README.md)** — Stimulants scar the brain's support cells: methamphetamine and cocaine provoke reactive astrogliosis and disrupt the blood-brain barrier astrocytes help maintain, contributing to the neurotoxicity and cognitive decline of chronic use.
+- `connects-to` → **[NLRP3 Inflammasome](../../03-molecular/nlrp3-inflammasome/README.md)** — Addiction has a neuroinflammatory engine: stimulants activate microglial TLR4 and the NLRP3 inflammasome, and the IL-1β released reinforces drug-seeking and the neurotoxicity behind stimulant brain injury.
+- `connects-to` → **[Hepatitis C](../hepatitis-c/README.md)** — Injection stimulant use spreads hepatitis C: shared needles and the binge-injection pattern of methamphetamine and cocaine make stimulant use disorder a major route of HCV transmission, alongside HIV.
 
 ## Treatment
 

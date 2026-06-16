@@ -172,6 +172,15 @@ cross_links:
   - target: 01-human/07-system/neuropathic-pain
     relation: connects-to
     note: "A stroke can leave the brain in pain: damage to the thalamus or sensory pathways causes central post-stroke pain, a relentless neuropathic burning on the paralyzed side that is hard to treat."
+  - target: 01-human/03-molecular/aquaporin-4
+    relation: connects-to
+    note: "Brain swelling after stroke runs through aquaporin-4: this astrocyte water channel drives the cytotoxic edema that follows ischemia, and its role makes it a target for limiting the dangerous post-stroke brain swelling."
+  - target: 01-human/07-system/heart-failure
+    relation: connects-to
+    note: "The heart and brain share the clot risk: heart failure and the atrial fibrillation that accompanies it throw cardioembolic clots to the brain, while a large stroke can in turn stun the heart — a two-way cardio-cerebral link."
+  - target: 01-human/07-system/ckd
+    relation: connects-to
+    note: "Failing kidneys raise the stroke risk: chronic kidney disease accelerates vascular disease and disturbs clotting, increasing both ischemic and hemorrhagic stroke while complicating the anticoagulation used to prevent them."
 ---
 
 # Stroke
@@ -327,6 +336,9 @@ Normal brain maintains CBF constant (50-150 mmHg MAP range) via autoregulation (
 - `connects-to` → **[Inherited Thrombophilia](../inherited-thrombophilia/README.md)** — Clotting genes cause stroke in the young: inherited thrombophilias raise the risk of cerebral venous thrombosis and, via a patent foramen, paradoxical arterial stroke, so an unexplained young stroke prompts a hypercoagulability workup.
 - `connects-to` → **[Smooth Muscle Cell](../../04-cellular/smooth-muscle-cell/README.md)** — The artery wall's muscle shapes the stroke: vascular smooth muscle builds the cerebral plaques and, in small-vessel disease and vasospasm after hemorrhage, its dysfunction narrows the arteries that feed the brain.
 - `connects-to` → **[Neuropathic Pain](../neuropathic-pain/README.md)** — A stroke can leave the brain in pain: damage to the thalamus or sensory pathways causes central post-stroke pain, a relentless neuropathic burning on the paralyzed side that is hard to treat.
+- `connects-to` → **[Aquaporin-4](../../03-molecular/aquaporin-4/README.md)** — Brain swelling after stroke runs through aquaporin-4: this astrocyte water channel drives the cytotoxic edema that follows ischemia, and its role makes it a target for limiting the dangerous post-stroke brain swelling.
+- `connects-to` → **[Heart Failure](../heart-failure/README.md)** — The heart and brain share the clot risk: heart failure and the atrial fibrillation that accompanies it throw cardioembolic clots to the brain, while a large stroke can in turn stun the heart — a two-way cardio-cerebral link.
+- `connects-to` → **[Chronic Kidney Disease](../ckd/README.md)** — Failing kidneys raise the stroke risk: chronic kidney disease accelerates vascular disease and disturbs clotting, increasing both ischemic and hemorrhagic stroke while complicating the anticoagulation used to prevent them.
 
 [^powers-2019-aha-stroke]: Powers WJ, Rabinstein AA, Ackerson T, et al. Guidelines for the Early Management of Patients With Acute Ischemic Stroke: 2019 Update to the 2018 Guidelines. *Stroke.* 2019;50(12):e344-e418. [doi:10.1161/STR.0000000000000211](https://doi.org/10.1161/STR.0000000000000211) · [PubMed 31662037](https://pubmed.ncbi.nlm.nih.gov/31662037/)
 [^feigin-2021-gbd-stroke]: Feigin VL, Krishnamurthi RV, Parmar P, et al. Update on the Global Burden of Ischemic and Hemorrhagic Stroke in 1990-2013. *Neuroepidemiology.* 2015;45(3):161-176. [doi:10.1159/000441085](https://doi.org/10.1159/000441085) · [PubMed 26505981](https://pubmed.ncbi.nlm.nih.gov/26505981/)
