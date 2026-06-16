@@ -169,6 +169,15 @@ cross_links:
   - target: 01-human/07-system/all
     relation: connects-to
     note: "The storm can be a treatment's price: CAR-T therapy for acute lymphoblastic leukemia routinely sets off cytokine release syndrome as the engineered cells attack, managed with the IL-6 blocker tocilizumab."
+  - target: 01-human/03-molecular/il-2
+    relation: connects-to
+    note: "IL-2 can both cause and characterize the storm: high-dose IL-2 immunotherapy triggers a capillary-leak cytokine-release syndrome, and the IL-2 surge from over-activated T cells is part of the cascade in other storms."
+  - target: 02-pathogen/02-bacteria/streptococcus-pyogenes
+    relation: connects-to
+    note: "Superantigens unleash the storm directly: Streptococcus pyogenes toxins cross-link MHC and T-cell receptors to activate huge numbers of T cells at once, flooding the blood with cytokines in toxic shock syndrome."
+  - target: 01-human/07-system/systemic-lupus-erythematosus
+    relation: connects-to
+    note: "Autoimmune flares can tip into a storm: macrophage activation syndrome — a cytokine storm with runaway ferritin and hemophagocytosis — complicates lupus and other rheumatic diseases, blurring the line between flare and storm."
 ---
 
 # Cytokine Storm
@@ -310,6 +319,9 @@ CS drives a **consumptive coagulopathy (DIC)**:
 - `connects-to` → **[Complement C5](../../03-molecular/complement-c5/README.md)** — Complement pours fuel on the fire: explosive C5a generation recruits and over-activates neutrophils and macrophages, amplifying the cytokine surge — which is why C5 blockade is tested to calm severe COVID and sepsis storms.
 - `connects-to` → **[Dendritic Cell](../../04-cellular/dendritic-cell/README.md)** — Dendritic cells light the first match: by sensing the trigger and over-presenting antigen they drive the T-cell and macrophage activation that snowballs into the self-amplifying cytokine cascade.
 - `connects-to` → **[Acute Lymphoblastic Leukemia](../all/README.md)** — The storm can be a treatment's price: CAR-T therapy for acute lymphoblastic leukemia routinely sets off cytokine release syndrome as the engineered cells attack, managed with the IL-6 blocker tocilizumab.
+- `connects-to` → **[IL-2](../../03-molecular/il-2/README.md)** — IL-2 can both cause and characterize the storm: high-dose IL-2 immunotherapy triggers a capillary-leak cytokine-release syndrome, and the IL-2 surge from over-activated T cells is part of the cascade in other storms.
+- `connects-to` → **[Streptococcus pyogenes](../../../02-pathogen/02-bacteria/streptococcus-pyogenes/README.md)** — Superantigens unleash the storm directly: Streptococcus pyogenes toxins cross-link MHC and T-cell receptors to activate huge numbers of T cells at once, flooding the blood with cytokines in toxic shock syndrome.
+- `connects-to` → **[Systemic Lupus Erythematosus](../systemic-lupus-erythematosus/README.md)** — Autoimmune flares can tip into a storm: macrophage activation syndrome — a cytokine storm with runaway ferritin and hemophagocytosis — complicates lupus and other rheumatic diseases, blurring the line between flare and storm.
 
 ## Pathology
 

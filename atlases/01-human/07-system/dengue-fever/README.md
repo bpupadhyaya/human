@@ -169,6 +169,15 @@ cross_links:
   - target: 01-human/07-system/heart-failure
     relation: connects-to
     note: "Dengue can strike the heart: viral myocarditis depresses contractility and causes arrhythmia, so cardiac dysfunction and heart failure add to the shock of the severe disease."
+  - target: 01-human/03-molecular/histamine
+    relation: connects-to
+    note: "Histamine helps spring the leak: mast-cell histamine released during dengue widens endothelial junctions, contributing to the vascular permeability and plasma leakage that define severe dengue, and its levels track disease severity."
+  - target: 01-human/04-cellular/hepatocyte
+    relation: connects-to
+    note: "Dengue is hepatotropic: the virus replicates in hepatocytes, and the resulting liver-cell injury raises transaminases and, in severe cases, causes the acute liver failure that worsens the bleeding and shock."
+  - target: 01-human/07-system/sepsis
+    relation: connects-to
+    note: "Severe dengue mimics and invites sepsis: dengue shock syndrome resembles septic shock, and the gut-barrier breakdown and immune exhaustion of severe disease open the door to secondary bacterial sepsis."
 ---
 
 # Dengue Fever
@@ -331,3 +340,6 @@ No approved antiviral therapy for dengue. Management is entirely supportive:
 - `connects-to` → **[Interleukin-6](../../03-molecular/il-6/README.md)** — IL-6 helps spring the vascular leak: the cytokine surge of severe dengue, with IL-6 prominent, loosens the endothelial barrier and drives the plasma leakage and shock that define dengue hemorrhagic fever.
 - `connects-to` → **[Acute Respiratory Distress Syndrome](../../06-organ/ards/README.md)** — The leaking plasma can flood the lungs: severe dengue causes pleural effusions and, at its worst, acute respiratory distress syndrome, the capillary leak filling the alveoli as it does the body cavities.
 - `connects-to` → **[Heart Failure](../heart-failure/README.md)** — Dengue can strike the heart: viral myocarditis depresses contractility and causes arrhythmia, so cardiac dysfunction and heart failure add to the shock of the severe disease.
+- `connects-to` → **[Histamine](../../03-molecular/histamine/README.md)** — Histamine helps spring the leak: mast-cell histamine released during dengue widens endothelial junctions, contributing to the vascular permeability and plasma leakage that define severe dengue, and its levels track disease severity.
+- `connects-to` → **[Hepatocyte](../../04-cellular/hepatocyte/README.md)** — Dengue is hepatotropic: the virus replicates in hepatocytes, and the resulting liver-cell injury raises transaminases and, in severe cases, causes the acute liver failure that worsens the bleeding and shock.
+- `connects-to` → **[Sepsis](../sepsis/README.md)** — Severe dengue mimics and invites sepsis: dengue shock syndrome resembles septic shock, and the gut-barrier breakdown and immune exhaustion of severe disease open the door to secondary bacterial sepsis.
