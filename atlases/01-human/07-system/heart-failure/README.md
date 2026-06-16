@@ -163,6 +163,15 @@ cross_links:
   - target: 01-human/07-system/stroke
     relation: connects-to
     note: "A weak heart throws clots to the brain: low ejection fraction and the atrial fibrillation that often accompanies heart failure let thrombi form in the stagnant chambers and embolize, raising stroke risk and prompting anticoagulation."
+  - target: 01-human/07-system/type-2-diabetes
+    relation: connects-to
+    note: "Diabetes weakens the heart directly: beyond accelerating coronary disease, high glucose and insulin resistance cause a diabetic cardiomyopathy that stiffens and fails the muscle — part of why the SGLT2 drugs born for diabetes now treat heart failure itself."
+  - target: 01-human/03-molecular/bradykinin
+    relation: connects-to
+    note: "A vasodilator the drugs deliberately spare: ACE inhibitors and the neprilysin component of sacubitril raise bradykinin, easing afterload and remodeling in heart failure — the same accumulation that causes their hallmark cough and angioedema."
+  - target: 01-human/03-molecular/vegf
+    relation: connects-to
+    note: "The failing heart outgrows its blood supply: inadequate VEGF-driven angiogenesis leaves the hypertrophied and HFpEF myocardium with coronary microvascular rarefaction, starving the muscle of the capillaries it needs."
 ---
 
 # Heart Failure
@@ -284,6 +293,9 @@ Normal hearts increase stroke volume with increasing preload (Starling curve). T
 - `connects-to` → **[Renin](../../03-molecular/renin/README.md)** — The failing heart triggers a damaging feedback loop: falling output makes the kidney release renin, firing up the renin-angiotensin-aldosterone system that retains salt and water and remodels the heart — the very axis ACE inhibitors and ARBs block.
 - `connects-to` → **[Chronic Kidney Disease](../ckd/README.md)** — Heart and kidney fail together: in cardiorenal syndrome poor cardiac output and venous congestion injure the kidneys while fluid overload worsens the heart, a vicious cycle that complicates diuretic dosing in advanced disease.
 - `connects-to` → **[Stroke](../stroke/README.md)** — A weak heart throws clots to the brain: low ejection fraction and the atrial fibrillation that often accompanies heart failure let thrombi form in the stagnant chambers and embolize, raising stroke risk and prompting anticoagulation.
+- `connects-to` → **[Type 2 Diabetes](../type-2-diabetes/README.md)** — Diabetes weakens the heart directly: beyond accelerating coronary disease, high glucose and insulin resistance cause a diabetic cardiomyopathy that stiffens and fails the muscle — part of why the SGLT2 drugs born for diabetes now treat heart failure itself.
+- `connects-to` → **[Bradykinin](../../03-molecular/bradykinin/README.md)** — A vasodilator the drugs deliberately spare: ACE inhibitors and the neprilysin component of sacubitril raise bradykinin, easing afterload and remodeling in heart failure — the same accumulation that causes their hallmark cough and angioedema.
+- `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — The failing heart outgrows its blood supply: inadequate VEGF-driven angiogenesis leaves the hypertrophied and HFpEF myocardium with coronary microvascular rarefaction, starving the muscle of the capillaries it needs.
 
 ## Pathology
 

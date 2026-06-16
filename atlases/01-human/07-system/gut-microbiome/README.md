@@ -163,6 +163,15 @@ cross_links:
   - target: 01-human/07-system/nash
     relation: connects-to
     note: "A leaky gut inflames the liver: dysbiosis lets bacterial endotoxin reach the liver through the portal vein, fueling the inflammation that turns fatty liver into NASH — the gut-liver axis behind much metabolic liver disease."
+  - target: 02-pathogen/06-microbiome/faecalibacterium-prausnitzii
+    relation: connects-to
+    note: "One species is a keystone of gut health: Faecalibacterium prausnitzii is a major butyrate producer that feeds the colon lining and calms inflammation, and its depletion is a consistent marker of dysbiosis in IBD and metabolic disease."
+  - target: 02-pathogen/02-bacteria/escherichia-coli
+    relation: connects-to
+    note: "Dysbiosis lets pathobionts bloom: commensal E. coli normally sits as a minor member, but expansions of proteobacteria like it mark a disturbed microbiome and can tip the balance toward inflammation and even cancer-promoting genotoxins."
+  - target: 01-human/07-system/multiple-sclerosis
+    relation: connects-to
+    note: "The gut helps tune brain autoimmunity: microbiome composition shapes the regulatory and Th17 balance that drives multiple sclerosis, one of the clearest examples of the gut-immune-brain axis in an autoimmune disease far from the bowel."
 ---
 
 # Gut Microbiome
@@ -289,6 +298,9 @@ The microbiome influences CNS function via multiple pathways:
 - `connects-to` → **[Estrogen](../../03-molecular/estrogen/README.md)** — Gut bacteria recycle the body's estrogen: the estrobolome — microbial enzymes that deconjugate estrogens excreted in bile so they re-enter circulation — sets how much estrogen the body keeps, linking dysbiosis to breast cancer and menopausal health.
 - `connects-to` → **[Neuron](../../04-cellular/neuron/README.md)** — Microbes talk to the nervous system: bacterial metabolites and vagal signaling from the gut reach enteric and brain neurons, shaping mood, appetite and pain in the gut-brain axis that underlies the microbiome's effects on behavior.
 - `connects-to` → **[NASH](../nash/README.md)** — A leaky gut inflames the liver: dysbiosis lets bacterial endotoxin reach the liver through the portal vein, fueling the inflammation that turns fatty liver into NASH — the gut-liver axis behind much metabolic liver disease.
+- `connects-to` → **[Faecalibacterium prausnitzii](../../../02-pathogen/06-microbiome/faecalibacterium-prausnitzii/README.md)** — One species is a keystone of gut health: Faecalibacterium prausnitzii is a major butyrate producer that feeds the colon lining and calms inflammation, and its depletion is a consistent marker of dysbiosis in IBD and metabolic disease.
+- `connects-to` → **[Escherichia coli](../../../02-pathogen/02-bacteria/escherichia-coli/README.md)** — Dysbiosis lets pathobionts bloom: commensal E. coli normally sits as a minor member, but expansions of proteobacteria like it mark a disturbed microbiome and can tip the balance toward inflammation and even cancer-promoting genotoxins.
+- `connects-to` → **[Multiple Sclerosis](../multiple-sclerosis/README.md)** — The gut helps tune brain autoimmunity: microbiome composition shapes the regulatory and Th17 balance that drives multiple sclerosis, one of the clearest examples of the gut-immune-brain axis in an autoimmune disease far from the bowel.
 
 ## Pathology
 
