@@ -169,6 +169,15 @@ cross_links:
   - target: 01-human/07-system/cowden-syndrome
     relation: connects-to
     note: "It headlines the polyposis differential: FAP's hundreds of adenomas must be told apart from the hamartomatous polyposes like Cowden and Peutz-Jeghers, each a distinct gene with its own cancer spectrum and surveillance."
+  - target: 01-human/07-system/iron-deficiency-anemia
+    relation: connects-to
+    note: "Hundreds of polyps bleed quietly: chronic occult blood loss from FAP's carpet of colonic adenomas (and any cancer) causes iron-deficiency anemia, sometimes the first clue that prompts the colonoscopy revealing the polyposis."
+  - target: 01-human/07-system/venous-thromboembolism
+    relation: connects-to
+    note: "Major surgery and cancer raise the clot risk: the prophylactic colectomy central to FAP care, and any colorectal cancer that develops, both predispose to perioperative venous thromboembolism needing prophylaxis."
+  - target: 01-human/07-system/sepsis
+    relation: connects-to
+    note: "Surgery brings infectious risk: anastomotic leak and pouchitis after the colectomy or ileal-pouch reconstruction that FAP requires can seed intra-abdominal infection and sepsis."
 ---
 
 # Familial Adenomatous Polyposis
@@ -359,6 +368,9 @@ With modern surveillance and prophylactic colectomy: FAP is no longer an inevita
 - `connects-to` → **[p53](../../03-molecular/p53/README.md)** — p53 loss is the last step to cancer: FAP's polyps start with APC loss, then accumulate KRAS and finally TP53 mutations along the adenoma-carcinoma sequence, p53 failure marking the leap to invasive colorectal cancer.
 - `connects-to` → **[Regulatory T Cell](../../04-cellular/regulatory-t-cell/README.md)** — The immune climate shapes polyp fate: regulatory T cells infiltrate colorectal adenomas and dampen the local antitumor response, part of the microenvironment that lets some of FAP's countless polyps progress.
 - `connects-to` → **[Cowden Syndrome](../cowden-syndrome/README.md)** — It headlines the polyposis differential: FAP's hundreds of adenomas must be told apart from the hamartomatous polyposes like Cowden and Peutz-Jeghers, each a distinct gene with its own cancer spectrum and surveillance.
+- `connects-to` → **[Iron Deficiency Anemia](../iron-deficiency-anemia/README.md)** — Hundreds of polyps bleed quietly: chronic occult blood loss from FAP's carpet of colonic adenomas (and any cancer) causes iron-deficiency anemia, sometimes the first clue that prompts the colonoscopy revealing the polyposis.
+- `connects-to` → **[Venous Thromboembolism](../venous-thromboembolism/README.md)** — Major surgery and cancer raise the clot risk: the prophylactic colectomy central to FAP care, and any colorectal cancer that develops, both predispose to perioperative venous thromboembolism needing prophylaxis.
+- `connects-to` → **[Sepsis](../sepsis/README.md)** — Surgery brings infectious risk: anastomotic leak and pouchitis after the colectomy or ileal-pouch reconstruction that FAP requires can seed intra-abdominal infection and sepsis.
 
 [^kinzler-1991-apc]: Kinzler KW, Nilbert MC, Su LK, et al. Identification of FAP locus genes from chromosome 5q21. *Science.* 1991;253(5020):661-665. [doi:10.1126/science.1651562](https://doi.org/10.1126/science.1651562) · [PubMed 1651562](https://pubmed.ncbi.nlm.nih.gov/1651562/)
 [^fearon-1990-vogelstein]: Fearon ER, Vogelstein B. A genetic model for colorectal tumorigenesis. *Cell.* 1990;61(5):759-767. [doi:10.1016/0092-8674(90)90186-i](https://doi.org/10.1016/0092-8674(90)90186-i) · [PubMed 2188735](https://pubmed.ncbi.nlm.nih.gov/2188735/)

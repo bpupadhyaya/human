@@ -169,6 +169,15 @@ cross_links:
   - target: 01-human/07-system/atypical-teratoid-rhabdoid-tumor
     relation: connects-to
     note: "It sits among the small round blue cell tumors: like ATRT, neuroblastoma, and rhabdomyosarcoma, Ewing's sheets of small round blue cells force a differential resolved by its EWSR1 translocation and CD99 staining."
+  - target: 01-human/03-molecular/cyclin-d1
+    relation: connects-to
+    note: "The fusion drives the cell cycle: EWS-FLI1 transactivates cyclin D1, pushing Ewing cells past the G1 checkpoint — one of the proliferative programs the single oncoprotein switches on."
+  - target: 01-human/04-cellular/dendritic-cell
+    relation: connects-to
+    note: "Immunotherapy must wake the cold tumor: dendritic-cell vaccines and approaches that boost antigen presentation are tested to mount a T-cell response against Ewing, whose few mutations give the immune system little to see."
+  - target: 01-human/07-system/mds
+    relation: connects-to
+    note: "Cure can sow a second cancer: the alkylating agents and topoisomerase inhibitors that treat Ewing damage the marrow, so survivors face a real risk of therapy-related myelodysplastic syndrome and secondary leukemia."
 ---
 
 # Ewing Sarcoma
@@ -342,6 +351,9 @@ After induction → surgical specimen assessed for percent tumor necrosis (Salze
 - `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — STAT3 keeps the fusion-driven cell alive: the EWS-FLI1 program activates STAT3 signaling that sustains Ewing proliferation and survival, a pathway probed for targeted therapy in this hard-to-treat sarcoma.
 - `connects-to` → **[Regulatory T Cell](../../04-cellular/regulatory-t-cell/README.md)** — Ewing is an immunologically cold tumor: its low mutation burden and infiltrating regulatory T cells blunt the antitumor response, a barrier that the immunotherapy and CAR-T trials in Ewing must overcome.
 - `connects-to` → **[Atypical Teratoid/Rhabdoid Tumor](../atypical-teratoid-rhabdoid-tumor/README.md)** — It sits among the small round blue cell tumors: like ATRT, neuroblastoma, and rhabdomyosarcoma, Ewing's sheets of small round blue cells force a differential resolved by its EWSR1 translocation and CD99 staining.
+- `connects-to` → **[Cyclin D1](../../03-molecular/cyclin-d1/README.md)** — The fusion drives the cell cycle: EWS-FLI1 transactivates cyclin D1, pushing Ewing cells past the G1 checkpoint — one of the proliferative programs the single oncoprotein switches on.
+- `connects-to` → **[Dendritic Cell](../../04-cellular/dendritic-cell/README.md)** — Immunotherapy must wake the cold tumor: dendritic-cell vaccines and approaches that boost antigen presentation are tested to mount a T-cell response against Ewing, whose few mutations give the immune system little to see.
+- `connects-to` → **[Myelodysplastic Syndromes](../mds/README.md)** — Cure can sow a second cancer: the alkylating agents and topoisomerase inhibitors that treat Ewing damage the marrow, so survivors face a real risk of therapy-related myelodysplastic syndrome and secondary leukemia.
 
 ---
 
