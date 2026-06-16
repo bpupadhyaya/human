@@ -160,6 +160,15 @@ cross_links:
   - target: 01-human/04-cellular/platelet
     relation: connects-to
     note: "The platinum-etoposide chemotherapy empties the marrow: it suppresses platelet production into thrombocytopenia, a dose-limiting toxicity that raises bleeding risk through the rapid, intensive cycles SCLC demands."
+  - target: 01-human/03-molecular/ctla-4
+    relation: connects-to
+    note: "Immunotherapy reached even this hard target: blocking CTLA-4 alongside PD-L1 adds a modest survival gain in extensive-stage SCLC, releasing T cells against a tumor whose heavy smoking-driven mutation load makes it visible to the immune system."
+  - target: 01-human/07-system/copd
+    relation: connects-to
+    note: "It shares its cause with the airways' disease: the same heavy tobacco smoking that drives SCLC produces COPD, so the two frequently coexist, and the reduced lung reserve of COPD complicates treating the cancer."
+  - target: 01-human/04-cellular/endothelial-cell
+    relation: connects-to
+    note: "It grows a fast, leaky blood supply: SCLC is intensely angiogenic, pushing endothelial cells to build the vasculature that fuels its rapid doubling and early spread — the rationale behind testing antiangiogenic drugs against it."
 ---
 
 # Small Cell Lung Cancer
@@ -317,6 +326,9 @@ SCLC has highest rate of brain metastases among solid tumors (~50% at 2 years); 
 - `connects-to` → **[MYCN](../../03-molecular/mycn/README.md)** — MYC-family amplification splits SCLC into subtypes: alongside MYC, amplification of MYCN or MYCL defines molecular groups with distinct biology and drug sensitivities, layered on the near-universal loss of both RB1 and p53.
 - `connects-to` → **[Venous Thromboembolism](../venous-thromboembolism/README.md)** — Few cancers clot like SCLC: this aggressive tumor pours out procoagulants and, with chemotherapy and central venous catheters, drives one of the highest rates of deep-vein thrombosis and pulmonary embolism among solid cancers.
 - `connects-to` → **[Platelet](../../04-cellular/platelet/README.md)** — The platinum-etoposide chemotherapy empties the marrow: it suppresses platelet production into thrombocytopenia, a dose-limiting toxicity that raises bleeding risk through the rapid, intensive cycles SCLC demands.
+- `connects-to` → **[CTLA-4](../../03-molecular/ctla-4/README.md)** — Immunotherapy reached even this hard target: blocking CTLA-4 alongside PD-L1 adds a modest survival gain in extensive-stage SCLC, releasing T cells against a tumor whose heavy smoking-driven mutation load makes it visible to the immune system.
+- `connects-to` → **[COPD](../copd/README.md)** — It shares its cause with the airways' disease: the same heavy tobacco smoking that drives SCLC produces COPD, so the two frequently coexist, and the reduced lung reserve of COPD complicates treating the cancer.
+- `connects-to` → **[Endothelial Cell](../../04-cellular/endothelial-cell/README.md)** — It grows a fast, leaky blood supply: SCLC is intensely angiogenic, pushing endothelial cells to build the vasculature that fuels its rapid doubling and early spread — the rationale behind testing antiangiogenic drugs against it.
 
 [^horn-2018-impower133]: Horn L, Mansfield AS, Szczęsna A, et al. First-line atezolizumab plus chemotherapy in extensive-stage small-cell lung cancer. *N Engl J Med.* 2018;379(23):2220-2229. [doi:10.1056/NEJMoa1809064](https://doi.org/10.1056/NEJMoa1809064) · [PubMed 30280641](https://pubmed.ncbi.nlm.nih.gov/30280641/)
 [^paz-ares-2019-caspian]: Paz-Ares L, Dvorkin M, Chen Y, et al. Durvalumab plus platinum-etoposide versus platinum-etoposide in first-line treatment of extensive-stage small-cell lung cancer (CASPIAN). *Lancet.* 2019;394(10212):1929-1939. [doi:10.1016/S0140-6736(19)32222-6](https://doi.org/10.1016/S0140-6736(19)32222-6) · [PubMed 31590988](https://pubmed.ncbi.nlm.nih.gov/31590988/)

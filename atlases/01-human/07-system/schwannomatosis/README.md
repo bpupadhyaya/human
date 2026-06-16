@@ -160,6 +160,15 @@ cross_links:
   - target: 01-human/04-cellular/regulatory-t-cell
     relation: connects-to
     note: "The tumor's immune surroundings draw interest: schwannomas recruit regulatory T cells and macrophages into their microenvironment, and SMARCB1-deficient tumors more broadly are studied for how this immune setting might be turned against them."
+  - target: 01-human/03-molecular/glutamate
+    relation: connects-to
+    note: "The pain becomes wired into the cord: persistent input from the schwannomas drives glutamate-NMDA central sensitization in the spinal dorsal horn, amplifying signals so the pain outlasts and outstrips the tumors themselves — a target for drugs like gabapentin."
+  - target: 01-human/03-molecular/bradykinin
+    relation: connects-to
+    note: "Inflammation around the tumor lights up nociceptors: bradykinin released in the irritated tissue directly excites and sensitizes the pain nerve endings of nearby schwannomas, a peripheral trigger of the disorder's defining chronic pain."
+  - target: 01-human/03-molecular/vegf
+    relation: connects-to
+    note: "The tumors recruit their own blood supply: schwannomas express VEGF to drive angiogenesis, and anti-VEGF therapy with bevacizumab — used in related NF2 schwannomas — can shrink them and ease symptoms."
 ---
 
 # Schwannomatosis
@@ -309,6 +318,9 @@ Both NF2 (22q12.2), SMARCB1 (22q11.23), and LZTR1 (22q11.21) are on chromosome 2
 - `connects-to` → **[EZH2](../../03-molecular/ezh2/README.md)** — Losing SMARCB1 hands control to EZH2: the SWI/SNF subunit normally opposes the EZH2-PRC2 complex, so its loss in schwannomatosis tumors leaves them dependent on EZH2 — the vulnerability that EZH2 inhibitors like tazemetostat exploit in SMARCB1-deficient cancers.
 - `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — Inheritance in schwannomatosis is tricky: SMARCB1 and LZTR1 pass dominantly but with incomplete penetrance and frequent mosaicism, so genetic counseling must explain why a parent may be mildly affected yet a child severely so.
 - `connects-to` → **[Regulatory T Cell](../../04-cellular/regulatory-t-cell/README.md)** — The tumor's immune surroundings draw interest: schwannomas recruit regulatory T cells and macrophages into their microenvironment, and SMARCB1-deficient tumors more broadly are studied for how this immune setting might be turned against them.
+- `connects-to` → **[Glutamate](../../03-molecular/glutamate/README.md)** — The pain becomes wired into the cord: persistent input from the schwannomas drives glutamate-NMDA central sensitization in the spinal dorsal horn, amplifying signals so the pain outlasts and outstrips the tumors themselves — a target for drugs like gabapentin.
+- `connects-to` → **[Bradykinin](../../03-molecular/bradykinin/README.md)** — Inflammation around the tumor lights up nociceptors: bradykinin released in the irritated tissue directly excites and sensitizes the pain nerve endings of nearby schwannomas, a peripheral trigger of the disorder's defining chronic pain.
+- `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — The tumors recruit their own blood supply: schwannomas express VEGF to drive angiogenesis, and anti-VEGF therapy with bevacizumab — used in related NF2 schwannomas — can shrink them and ease symptoms.
 
 [^merker-2012-schwannomatosis]: Merker VL, Esparza S, Smith MJ, Stemmer-Rachamimov A, Plotkin SR. Clinical features of schwannomatosis: a retrospective analysis of 87 patients. *Oncologist.* 2012;17(10):1317-1322. [doi:10.1634/theoncologist.2012-0162](https://doi.org/10.1634/theoncologist.2012-0162) · [PubMed 22927469](https://pubmed.ncbi.nlm.nih.gov/22927469/)
 [^piotrowski-2014-lztr1]: Piotrowski A, Xie J, Liu YF, et al. Germline loss-of-function mutations in LZTR1 predispose to an inherited disorder of multiple schwannomas. *Nat Genet.* 2014;46(2):182-187. [doi:10.1038/ng.2855](https://doi.org/10.1038/ng.2855) · [PubMed 24362817](https://pubmed.ncbi.nlm.nih.gov/24362817/)
