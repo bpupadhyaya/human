@@ -167,6 +167,15 @@ cross_links:
   - target: 01-human/07-system/men4-syndrome
     relation: connects-to
     note: "One gene can derail many glands: MEN4, like MEN1, is a hereditary syndrome that spawns synchronous tumors across the parathyroid, pituitary, and pancreas, the endocrine system failing along an inherited fault line."
+  - target: 01-human/03-molecular/oxytocin
+    relation: connects-to
+    note: "Oxytocin is a posterior-pituitary output of the system: synthesized in the hypothalamus and released from the neurohypophysis, it drives labor contractions and milk ejection, a neuroendocrine hormone bridging brain and body."
+  - target: 01-human/03-molecular/vasopressin
+    relation: connects-to
+    note: "Vasopressin completes the posterior-pituitary pair: this hypothalamic hormone conserves water at the kidney and raises blood pressure, and its deficiency or resistance causes diabetes insipidus — an endocrine axis distinct from the anterior pituitary's."
+  - target: 01-human/03-molecular/calcitonin
+    relation: connects-to
+    note: "Calcitonin rounds out calcium control: secreted by thyroid C-cells it lowers blood calcium opposite parathyroid hormone, and as a tumor marker it flags medullary thyroid carcinoma within the endocrine system."
 ---
 
 # Endocrine System
@@ -374,6 +383,9 @@ The endocrine system coordinates fuel metabolism across multiple organs in respo
 - `connects-to` → **[Prolactin](../../03-molecular/prolactin/README.md)** — Prolactin shows the pituitary's reach: this anterior-pituitary hormone drives lactation under hypothalamic dopamine control, and its overproduction — the commonest pituitary tumor — causes infertility and milk discharge.
 - `connects-to` → **[Small Intestine](../../06-organ/small-intestine/README.md)** — The gut is the body's largest endocrine organ: scattered enteroendocrine cells of the small intestine secrete incretins, ghrelin, secretin, and cholecystokinin that tune digestion, appetite, and insulin release.
 - `connects-to` → **[MEN4 Syndrome](../men4-syndrome/README.md)** — One gene can derail many glands: MEN4, like MEN1, is a hereditary syndrome that spawns synchronous tumors across the parathyroid, pituitary, and pancreas, the endocrine system failing along an inherited fault line.
+- `connects-to` → **[Oxytocin](../../03-molecular/oxytocin/README.md)** — Oxytocin is a posterior-pituitary output of the system: synthesized in the hypothalamus and released from the neurohypophysis, it drives labor contractions and milk ejection, a neuroendocrine hormone bridging brain and body.
+- `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — Vasopressin completes the posterior-pituitary pair: this hypothalamic hormone conserves water at the kidney and raises blood pressure, and its deficiency or resistance causes diabetes insipidus — an endocrine axis distinct from the anterior pituitary's.
+- `connects-to` → **[Calcitonin](../../03-molecular/calcitonin/README.md)** — Calcitonin rounds out calcium control: secreted by thyroid C-cells it lowers blood calcium opposite parathyroid hormone, and as a tumor marker it flags medullary thyroid carcinoma within the endocrine system.
 
 ## Pathology
 

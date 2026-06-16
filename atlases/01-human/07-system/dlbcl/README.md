@@ -169,6 +169,15 @@ cross_links:
   - target: 01-human/04-cellular/t-helper-cell
     relation: connects-to
     note: "T cells fill and shape the tumor: follicular-helper and other T cells in the DLBCL microenvironment can either support or restrain the lymphoma, and the T-cell-rich variants behave and respond differently."
+  - target: 01-human/03-molecular/myd88
+    relation: connects-to
+    note: "MYD88 L265P drives the aggressive subtype: this recurrent mutation in activated B-cell DLBCL (and PCNSL) constitutively fires Toll-like/IL-1 signaling into NF-κB, sustaining the tumor and marking a target alongside BTK inhibition."
+  - target: 01-human/07-system/sjogrens-syndrome
+    relation: connects-to
+    note: "Chronic autoimmune stimulation can end in DLBCL: the relentless B-cell drive of Sjögren's syndrome and other autoimmune diseases raises lymphoma risk, with marginal-zone lymphomas able to transform into aggressive DLBCL."
+  - target: 01-human/04-cellular/endothelial-cell
+    relation: connects-to
+    note: "A rare variant lives inside the vessels: intravascular large B-cell lymphoma grows within small-vessel lumens against the endothelium, causing strokes and organ ischemia without forming a mass — a notoriously elusive DLBCL subtype."
 ---
 
 # Diffuse Large B-Cell Lymphoma
@@ -341,6 +350,9 @@ DLBCL is an aggressive malignancy of mature B cells. The normal equivalents are 
 - `connects-to` → **[BAFF](../../03-molecular/baff/README.md)** — BAFF feeds the malignant B cell: the survival cytokine supports DLBCL cells, especially the NF-κB-addicted activated B-cell subtype, one of the microenvironmental lifelines the lymphoma exploits.
 - `connects-to` → **[Cytokine Storm](../cytokine-storm/README.md)** — The newest cure can trigger a storm: CD19 CAR-T therapy for relapsed DLBCL routinely sets off cytokine release syndrome as the engineered cells attack, managed with the IL-6 blocker tocilizumab.
 - `connects-to` → **[T Helper Cell](../../04-cellular/t-helper-cell/README.md)** — T cells fill and shape the tumor: follicular-helper and other T cells in the DLBCL microenvironment can either support or restrain the lymphoma, and the T-cell-rich variants behave and respond differently.
+- `connects-to` → **[MYD88](../../03-molecular/myd88/README.md)** — MYD88 L265P drives the aggressive subtype: this recurrent mutation in activated B-cell DLBCL (and PCNSL) constitutively fires Toll-like/IL-1 signaling into NF-κB, sustaining the tumor and marking a target alongside BTK inhibition.
+- `connects-to` → **[Sjögren's Syndrome](../sjogrens-syndrome/README.md)** — Chronic autoimmune stimulation can end in DLBCL: the relentless B-cell drive of Sjögren's syndrome and other autoimmune diseases raises lymphoma risk, with marginal-zone lymphomas able to transform into aggressive DLBCL.
+- `connects-to` → **[Endothelial Cell](../../04-cellular/endothelial-cell/README.md)** — A rare variant lives inside the vessels: intravascular large B-cell lymphoma grows within small-vessel lumens against the endothelium, causing strokes and organ ischemia without forming a mass — a notoriously elusive DLBCL subtype.
 
 ---
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
