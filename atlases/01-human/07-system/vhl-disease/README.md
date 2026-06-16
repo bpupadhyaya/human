@@ -169,6 +169,15 @@ cross_links:
   - target: 01-human/04-cellular/mast-cell
     relation: connects-to
     note: "Its hallmark brain tumor is built oddly: hemangioblastomas are a tangle of vessels, stromal cells and infiltrating mast cells, whose presence is a recognized histologic feature of these VHL-driven, EPO-secreting growths."
+  - target: 01-human/03-molecular/stat3
+    relation: connects-to
+    note: "Lost pVHL turns on STAT3: in VHL-deficient cells HIF stabilization and STAT3 activation cooperate to drive the proliferation and vascular growth of clear-cell renal cancers and hemangioblastomas."
+  - target: 01-human/03-molecular/nf-kb
+    relation: connects-to
+    note: "pVHL normally restrains NF-κB: the von Hippel-Lindau protein suppresses NF-κB signaling, so its loss lifts that brake and adds pro-survival, pro-inflammatory signaling to the HIF-driven growth of VHL tumors."
+  - target: 01-human/07-system/venous-thromboembolism
+    relation: connects-to
+    note: "Its tumors and thick blood favor clotting: VHL drives clear-cell renal cancer and EPO-driven polycythemia, both of which raise blood viscosity and cancer-associated hypercoagulability, increasing thrombosis risk."
 ---
 
 # VHL Disease
@@ -341,6 +350,9 @@ The genotype-phenotype correlation reflects the degree of pVHL function retained
 - `connects-to` → **[MET](../../03-molecular/met/README.md)** — Losing VHL turns up an invasion receptor: HIF accumulation upregulates the MET receptor for hepatocyte growth factor, driving the scattering and invasiveness of VHL clear cell kidney cancer and offering another targetable kinase.
 - `connects-to` → **[Chronic Kidney Disease](../ckd/README.md)** — Saving the kidneys is a balancing act: recurrent clear cell cancers force repeated nephron-sparing surgeries, so the cumulative loss of kidney tissue across a lifetime of VHL pushes many patients toward chronic kidney disease.
 - `connects-to` → **[Mast Cell](../../04-cellular/mast-cell/README.md)** — Its hallmark brain tumor is built oddly: hemangioblastomas are a tangle of vessels, stromal cells and infiltrating mast cells, whose presence is a recognized histologic feature of these VHL-driven, EPO-secreting growths.
+- `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — Lost pVHL turns on STAT3: in VHL-deficient cells HIF stabilization and STAT3 activation cooperate to drive the proliferation and vascular growth of clear-cell renal cancers and hemangioblastomas.
+- `connects-to` → **[NF-κB](../../03-molecular/nf-kb/README.md)** — pVHL normally restrains NF-κB: the von Hippel-Lindau protein suppresses NF-κB signaling, so its loss lifts that brake and adds pro-survival, pro-inflammatory signaling to the HIF-driven growth of VHL tumors.
+- `connects-to` → **[Venous Thromboembolism](../venous-thromboembolism/README.md)** — Its tumors and thick blood favor clotting: VHL drives clear-cell renal cancer and EPO-driven polycythemia, both of which raise blood viscosity and cancer-associated hypercoagulability, increasing thrombosis risk.
 
 [^lonser-2003-vhl-disease]: Lonser RR, Glenn GM, Walther M, et al. von Hippel-Lindau disease. *Lancet.* 2003;361(9374):2059-2067. [doi:10.1016/S0140-6736(03)13643-4](https://doi.org/10.1016/S0140-6736(03)13643-4) · [PubMed 12814730](https://pubmed.ncbi.nlm.nih.gov/12814730/)
 [^choueiri-2020-hif2-rcc]: Choueiri TK, Kaelin WG Jr. Targeting the HIF2-VEGF axis in renal cell carcinoma. *Nat Med.* 2020;26(10):1519-1530. [doi:10.1038/s41591-020-1093-z](https://doi.org/10.1038/s41591-020-1093-z) · [PubMed 33020650](https://pubmed.ncbi.nlm.nih.gov/33020650/)

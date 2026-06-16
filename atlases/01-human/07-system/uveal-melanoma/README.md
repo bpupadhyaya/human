@@ -169,6 +169,15 @@ cross_links:
   - target: 01-human/04-cellular/mast-cell
     relation: connects-to
     note: "Its immune infiltrate predicts danger: tumor-infiltrating macrophages and mast cells mark the inflammatory, monosomy-3 uveal melanomas with the worst prognosis, so the immune microenvironment is read as a marker of metastatic risk."
+  - target: 01-human/03-molecular/stat3
+    relation: connects-to
+    note: "STAT3 runs downstream of the driver mutation: GNAQ/GNA11 signaling activates STAT3, which supports uveal melanoma proliferation and immune evasion — one of the hubs explored for therapy in a tumor that resists checkpoint drugs."
+  - target: 01-human/03-molecular/nf-kb
+    relation: connects-to
+    note: "NF-κB helps it dodge immunity: the inflammatory, monosomy-3 uveal melanomas show NF-κB-driven signaling that shapes their immunosuppressive microenvironment, part of why these tumors respond poorly to standard immunotherapy."
+  - target: 01-human/07-system/venous-thromboembolism
+    relation: connects-to
+    note: "Liver-metastatic disease raises clot risk: like other advanced solid cancers, metastatic uveal melanoma carries tumor-driven hypercoagulability that increases deep-vein thrombosis and pulmonary embolism risk."
 ---
 
 # Uveal Melanoma
@@ -356,6 +365,9 @@ Uveal melanocytes are neural crest-derived, residing in the uveal stroma and mai
 - `connects-to` → **[CTLA-4](../../03-molecular/ctla-4/README.md)** — Checkpoint drugs barely dent it: unlike cutaneous melanoma, uveal melanoma's low mutation load makes anti-CTLA-4 and anti-PD-1 largely ineffective, which is why the T-cell-redirecting drug tebentafusp, not classic checkpoint blockade, became its breakthrough therapy.
 - `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — The mutant G-protein feeds growth hubs: GNAQ/GNA11 signaling activates PKC-MAPK and the PI3K-AKT-mTOR axis, so mTOR sits among the downstream nodes targeted to slow a tumor lacking the BRAF mutations that drive skin melanoma.
 - `connects-to` → **[Mast Cell](../../04-cellular/mast-cell/README.md)** — Its immune infiltrate predicts danger: tumor-infiltrating macrophages and mast cells mark the inflammatory, monosomy-3 uveal melanomas with the worst prognosis, so the immune microenvironment is read as a marker of metastatic risk.
+- `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — STAT3 runs downstream of the driver mutation: GNAQ/GNA11 signaling activates STAT3, which supports uveal melanoma proliferation and immune evasion — one of the hubs explored for therapy in a tumor that resists checkpoint drugs.
+- `connects-to` → **[NF-κB](../../03-molecular/nf-kb/README.md)** — NF-κB helps it dodge immunity: the inflammatory, monosomy-3 uveal melanomas show NF-κB-driven signaling that shapes their immunosuppressive microenvironment, part of why these tumors respond poorly to standard immunotherapy.
+- `connects-to` → **[Venous Thromboembolism](../venous-thromboembolism/README.md)** — Liver-metastatic disease raises clot risk: like other advanced solid cancers, metastatic uveal melanoma carries tumor-driven hypercoagulability that increases deep-vein thrombosis and pulmonary embolism risk.
 
 ---
 
