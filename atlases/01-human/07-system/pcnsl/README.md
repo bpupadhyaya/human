@@ -169,6 +169,15 @@ cross_links:
   - target: 01-human/07-system/burkitt-lymphoma
     relation: connects-to
     note: "Both lymphomas court the nervous system: like PCNSL, Burkitt lymphoma has a strong tropism for the central nervous system, which is why aggressive B-cell lymphomas demand CNS-penetrating therapy and prophylaxis to reach sanctuary sites."
+  - target: 01-human/07-system/cytokine-storm
+    relation: connects-to
+    note: "CAR-T against PCNSL can storm the brain: CD19 CAR-T therapy for refractory CNS lymphoma triggers cytokine release syndrome and ICANS neurotoxicity, a particular hazard when the tumor sits within the brain itself."
+  - target: 01-human/07-system/sepsis
+    relation: connects-to
+    note: "Deep immunosuppression invites infection: high-dose methotrexate, the steroids it accompanies, and the disease's frequent HIV/immune-deficient context leave PCNSL patients prone to opportunistic infection and sepsis."
+  - target: 01-human/07-system/venous-thromboembolism
+    relation: connects-to
+    note: "Brain tumor and immobility clot the veins: like other CNS malignancies, PCNSL carries a high venous thromboembolism risk, complicated by the bleeding concern of anticoagulating a brain lesion."
 ---
 
 # Primary CNS Lymphoma
@@ -333,6 +342,9 @@ Score 0-1: 2-year OS ~80%; Score 2-3: ~48%; Score 4-5: ~15%
 - `connects-to` → **[BCL-2](../../03-molecular/bcl-2/README.md)** — It often carries a survival overdrive: many CNS lymphomas co-express BCL-2 with MYC as 'double-expressors', the anti-apoptotic signal keeping malignant B cells alive and a rationale for testing the BCL-2 inhibitor venetoclax against the disease.
 - `connects-to` → **[Astrocyte](../../04-cellular/astrocyte/README.md)** — The tumor grows in glial turf: PCNSL infiltrates the brain parenchyma in angiocentric cuffs, surrounded by reactive astrocytes whose microenvironment and the blood-brain barrier shape both its growth and the difficulty of getting drugs to it.
 - `connects-to` → **[Burkitt Lymphoma](../burkitt-lymphoma/README.md)** — Both lymphomas court the nervous system: like PCNSL, Burkitt lymphoma has a strong tropism for the central nervous system, which is why aggressive B-cell lymphomas demand CNS-penetrating therapy and prophylaxis to reach sanctuary sites.
+- `connects-to` → **[Cytokine Storm](../cytokine-storm/README.md)** — CAR-T against PCNSL can storm the brain: CD19 CAR-T therapy for refractory CNS lymphoma triggers cytokine release syndrome and ICANS neurotoxicity, a particular hazard when the tumor sits within the brain itself.
+- `connects-to` → **[Sepsis](../sepsis/README.md)** — Deep immunosuppression invites infection: high-dose methotrexate, the steroids it accompanies, and the disease's frequent HIV/immune-deficient context leave PCNSL patients prone to opportunistic infection and sepsis.
+- `connects-to` → **[Venous Thromboembolism](../venous-thromboembolism/README.md)** — Brain tumor and immobility clot the veins: like other CNS malignancies, PCNSL carries a high venous thromboembolism risk, complicated by the bleeding concern of anticoagulating a brain lesion.
 
 [^bromberg-2019-hovon105]: Bromberg JE, Issa S, Bakunina K, et al. Rituximab in patients with primary CNS lymphoma (HOVON 105/ALLG NHL 24): a randomised, open-label, phase 3 intergroup study. *Lancet Oncol.* 2019;20(2):216-228. [doi:10.1016/S1470-2045(18)30747-2](https://doi.org/10.1016/S1470-2045(18)30747-2) · [PubMed 30528440](https://pubmed.ncbi.nlm.nih.gov/30528440/)
 [^grommes-2017-ibrutinib-pcnsl]: Grommes C, Pastore A, Palaskas N, et al. Ibrutinib unmasks critical role of Bruton tyrosine kinase in primary CNS lymphoma. *Cancer Cell.* 2017;31(6):833-843. [doi:10.1016/j.ccell.2017.04.012](https://doi.org/10.1016/j.ccell.2017.04.012) · [PubMed 28552327](https://pubmed.ncbi.nlm.nih.gov/28552327/)

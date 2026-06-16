@@ -175,6 +175,15 @@ cross_links:
   - target: 01-human/03-molecular/bdnf
     relation: connects-to
     note: "Stress reshapes the fear circuitry: altered BDNF signaling, which governs the synaptic plasticity of the amygdala and hippocampus, is implicated in how chronic stress lowers the threshold for the runaway fear response of a panic attack."
+  - target: 01-human/03-molecular/crh
+    relation: connects-to
+    note: "CRH sets the alarm's sensitivity: the corticotropin-releasing hormone that launches the HPA stress response also acts in the amygdala to heighten fear, and its dysregulation lowers the threshold for the spontaneous surge of a panic attack."
+  - target: 01-human/07-system/copd
+    relation: connects-to
+    note: "Breathlessness and panic feed each other: panic disorder is markedly more common in COPD, where air hunger triggers attacks and CO2-sensitive suffocation alarms misfire, each worsening the other's symptoms and disability."
+  - target: 01-human/07-system/stimulant-use-disorder
+    relation: connects-to
+    note: "Stimulants ignite the panic circuit: caffeine and stimulant drugs provoke the racing heart and hyperarousal that set off attacks, so stimulant use can unmask or worsen panic disorder."
 ---
 
 # Panic Disorder
@@ -372,6 +381,9 @@ The **interoceptive fear conditioning model** (Bouton, Mineka, Barlow) explains 
 - `connects-to` → **[Alcohol Use Disorder](../alcohol-use-disorder/README.md)** — Many self-medicate their way into a second illness: people with panic disorder often drink or take sedatives to quell attacks, and the withdrawal rebound itself provokes panic — a vicious loop that makes alcohol use disorder a frequent companion.
 - `connects-to` → **[Migraine](../migraine/README.md)** — The two travel together: panic disorder and migraine are strongly comorbid, sharing serotonergic and autonomic dysregulation, so each roughly doubles the odds of the other and both can flare under the same stressors.
 - `connects-to` → **[BDNF](../../03-molecular/bdnf/README.md)** — Stress reshapes the fear circuitry: altered BDNF signaling, which governs the synaptic plasticity of the amygdala and hippocampus, is implicated in how chronic stress lowers the threshold for the runaway fear response of a panic attack.
+- `connects-to` → **[CRH](../../03-molecular/crh/README.md)** — CRH sets the alarm's sensitivity: the corticotropin-releasing hormone that launches the HPA stress response also acts in the amygdala to heighten fear, and its dysregulation lowers the threshold for the spontaneous surge of a panic attack.
+- `connects-to` → **[COPD](../copd/README.md)** — Breathlessness and panic feed each other: panic disorder is markedly more common in COPD, where air hunger triggers attacks and CO2-sensitive suffocation alarms misfire, each worsening the other's symptoms and disability.
+- `connects-to` → **[Stimulant Use Disorder](../stimulant-use-disorder/README.md)** — Stimulants ignite the panic circuit: caffeine and stimulant drugs provoke the racing heart and hyperarousal that set off attacks, so stimulant use can unmask or worsen panic disorder.
 
 [^gorman-2000-panic-neurobiology]: Gorman JM, Kent JM, Sullivan GM, Coplan JD. Neuroanatomical hypothesis of panic disorder, revised. *Am J Psychiatry.* 2000;157(4):493-505. [doi:10.1176/appi.ajp.157.4.493](https://doi.org/10.1176/appi.ajp.157.4.493) · [PubMed 10739407](https://pubmed.ncbi.nlm.nih.gov/10739407/)
 [^nardi-2009-clonazepam-panic]: Nardi AE, Freire RC, Zin WA. Panic disorder and control of breathing. *Respir Physiol Neurobiol.* 2009;167(1):133-143. [doi:10.1016/j.resp.2008.07.011](https://doi.org/10.1016/j.resp.2008.07.011) · [PubMed 18708168](https://pubmed.ncbi.nlm.nih.gov/18708168/)
