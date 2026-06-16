@@ -169,6 +169,15 @@ cross_links:
   - target: 01-human/06-organ/ards
     relation: connects-to
     note: "A severe attack can flood the lungs: the systemic inflammation of acute-on-chronic pancreatitis can trigger acute respiratory distress syndrome, the leading early cause of death in a severe flare."
+  - target: 01-human/07-system/neuropathic-pain
+    relation: connects-to
+    note: "Pain is the defining burden: chronic pancreatitis sensitizes pancreatic and central nerves into a relentless neuropathic abdominal pain, often persisting even after the gland burns out — the symptom that dominates these patients' lives."
+  - target: 01-human/07-system/opioid-use-disorder
+    relation: connects-to
+    note: "Decades of pain breed dependence: the severe, lifelong pain of hereditary pancreatitis often leads to chronic opioid therapy and the real risk of opioid use disorder, a hard management dilemma in a young-onset disease."
+  - target: 01-human/04-cellular/mast-cell
+    relation: connects-to
+    note: "Mast cells wire pain into the inflamed gland: they accumulate around pancreatic nerves and, with activated stellate cells, drive the neuroinflammation and fibrosis that generate chronic pancreatitis pain."
 ---
 
 # Hereditary Pancreatitis
@@ -363,6 +372,9 @@ cross_links:
 - `connects-to` → **[TNF-α](../../03-molecular/tnf-alpha/README.md)** — TNF drives the self-digesting gland: prematurely activated trypsin and dying acinar cells unleash TNF-α and other cytokines that recruit the inflammation, turning each attack of hereditary pancreatitis into tissue destruction.
 - `connects-to` → **[Venous Thromboembolism](../venous-thromboembolism/README.md)** — Pancreatic inflammation reaches the deep veins: beyond the splenic vein, severe flares cause portal and mesenteric vein thrombosis and a systemic prothrombotic state, adding venous thromboembolism to the disease's vascular toll.
 - `connects-to` → **[Acute Respiratory Distress Syndrome](../../06-organ/ards/README.md)** — A severe attack can flood the lungs: the systemic inflammation of acute-on-chronic pancreatitis can trigger acute respiratory distress syndrome, the leading early cause of death in a severe flare.
+- `connects-to` → **[Neuropathic Pain](../neuropathic-pain/README.md)** — Pain is the defining burden: chronic pancreatitis sensitizes pancreatic and central nerves into a relentless neuropathic abdominal pain, often persisting even after the gland burns out — the symptom that dominates these patients' lives.
+- `connects-to` → **[Opioid Use Disorder](../opioid-use-disorder/README.md)** — Decades of pain breed dependence: the severe, lifelong pain of hereditary pancreatitis often leads to chronic opioid therapy and the real risk of opioid use disorder, a hard management dilemma in a young-onset disease.
+- `connects-to` → **[Mast Cell](../../04-cellular/mast-cell/README.md)** — Mast cells wire pain into the inflamed gland: they accumulate around pancreatic nerves and, with activated stellate cells, drive the neuroinflammation and fibrosis that generate chronic pancreatitis pain.
 
 [^whitcomb-1996-prss1]: Whitcomb DC, Gorry MC, Preston RA, et al. Hereditary pancreatitis is caused by a mutation in the cationic trypsinogen gene. *Nat Genet.* 1996;14(2):141-145. [doi:10.1038/ng1096-141](https://doi.org/10.1038/ng1096-141) · [PubMed 8841182](https://pubmed.ncbi.nlm.nih.gov/8841182/)
 [^lowenfels-2001-hp-pdac]: Lowenfels AB, Maisonneuve P, DiMagno EP, et al. Hereditary pancreatitis and the risk of pancreatic cancer. *J Natl Cancer Inst.* 2001;93(1):26-31. [doi:10.1093/jnci/93.1.26](https://doi.org/10.1093/jnci/93.1.26) · [PubMed 11136838](https://pubmed.ncbi.nlm.nih.gov/11136838/)

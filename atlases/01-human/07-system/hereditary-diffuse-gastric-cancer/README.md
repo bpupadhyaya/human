@@ -169,6 +169,15 @@ cross_links:
   - target: 01-human/07-system/li-fraumeni-syndrome
     relation: connects-to
     note: "Gastric cancer crosses hereditary syndromes: stomach cancer also features in Li-Fraumeni's TP53 spectrum, so a young diffuse gastric cancer prompts a wider germline search beyond CDH1."
+  - target: 01-human/07-system/iron-deficiency-anemia
+    relation: connects-to
+    note: "The stomach's loss costs iron: bleeding from diffuse gastric cancer, and the prophylactic total gastrectomy that prevents it, both cause iron (and B12) deficiency anemia, a lasting consequence carriers manage for life."
+  - target: 01-human/03-molecular/cdkn2a
+    relation: connects-to
+    note: "A second hit speeds the cancer: beyond the germline CDH1 loss, cooperating mutations such as CDKN2A inactivation help diffuse gastric cancer progress, part of the somatic events layered on the inherited defect."
+  - target: 01-human/07-system/venous-thromboembolism
+    relation: connects-to
+    note: "Cancer and major surgery raise the clot risk: an established diffuse gastric cancer and the total gastrectomy that treats it both predispose to venous thromboembolism, needing perioperative prophylaxis."
 ---
 
 # Hereditary Diffuse Gastric Cancer
@@ -327,6 +336,9 @@ Testing for CDH1 (and CTNNA1) is indicated in any of the following:
 - `connects-to` → **[p53](../../03-molecular/p53/README.md)** — p53 loss helps the diffuse tumor advance: after CDH1 starts the discohesive growth, TP53 mutation is a frequent secondary hit that lets the signet-ring cells progress to invasive, lethal cancer.
 - `connects-to` → **[Cytotoxic T Cell](../../04-cellular/t-cytotoxic-cell/README.md)** — The signet-ring tumor hides from killer T cells: diffuse gastric cancer is typically immune-cold with sparse cytotoxic T-cell infiltration, part of why it responds poorly to the immunotherapy that helps other gastric cancers.
 - `connects-to` → **[Li-Fraumeni Syndrome](../li-fraumeni-syndrome/README.md)** — Gastric cancer crosses hereditary syndromes: stomach cancer also features in Li-Fraumeni's TP53 spectrum, so a young diffuse gastric cancer prompts a wider germline search beyond CDH1.
+- `connects-to` → **[Iron Deficiency Anemia](../iron-deficiency-anemia/README.md)** — The stomach's loss costs iron: bleeding from diffuse gastric cancer, and the prophylactic total gastrectomy that prevents it, both cause iron (and B12) deficiency anemia, a lasting consequence carriers manage for life.
+- `connects-to` → **[CDKN2A](../../03-molecular/cdkn2a/README.md)** — A second hit speeds the cancer: beyond the germline CDH1 loss, cooperating mutations such as CDKN2A inactivation help diffuse gastric cancer progress, part of the somatic events layered on the inherited defect.
+- `connects-to` → **[Venous Thromboembolism](../venous-thromboembolism/README.md)** — Cancer and major surgery raise the clot risk: an established diffuse gastric cancer and the total gastrectomy that treats it both predispose to venous thromboembolism, needing perioperative prophylaxis.
 
 [^van-der-post-2015-hdgc-guidelines]: van der Post RS, Vogelaar IP, Carneiro F, et al. Hereditary diffuse gastric cancer: updated clinical guidelines with an emphasis on germline CDH1 mutation carriers. *J Med Genet.* 2015;52(6):361-374. [doi:10.1136/jmedgenet-2015-103094](https://doi.org/10.1136/jmedgenet-2015-103094) · [PubMed 25979631](https://pubmed.ncbi.nlm.nih.gov/25979631/)
 [^hansford-2015-hdgc]: Hansford S, Kaurah P, Li-Chang H, et al. Hereditary Diffuse Gastric Cancer Syndrome: CDH1 Mutations and Beyond. *JAMA Oncol.* 2015;1(1):23-32. [doi:10.1001/jamaoncol.2014.168](https://doi.org/10.1001/jamaoncol.2014.168) · [PubMed 26182300](https://pubmed.ncbi.nlm.nih.gov/26182300/)
