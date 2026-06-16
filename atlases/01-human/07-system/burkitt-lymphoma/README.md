@@ -160,6 +160,15 @@ cross_links:
   - target: 01-human/04-cellular/erythrocyte
     relation: connects-to
     note: "Marrow takeover drops the red cells: when Burkitt floods the bone marrow it crowds out normal blood production, and the resulting anemia — deepened by chemotherapy — leaves patients pale and fatigued during treatment."
+  - target: 01-human/06-organ/small-intestine
+    relation: connects-to
+    note: "Sporadic Burkitt strikes the gut: it classically presents as a bulky ileocecal mass in the small bowel, the fastest-growing human tumor erupting as an abdominal emergency that can obstruct or perforate."
+  - target: 01-human/07-system/all
+    relation: connects-to
+    note: "Burkitt has a leukemic twin: when it floods the blood and marrow it becomes mature B-cell acute lymphoblastic leukemia (the old L3 ALL), treated on the same intensive Burkitt protocols."
+  - target: 01-human/04-cellular/dendritic-cell
+    relation: connects-to
+    note: "Its birthplace is the germinal center's scaffold: follicular dendritic cells present antigen to the rapidly dividing B cells there, the microenvironment from which the MYC-driven Burkitt clone arises."
 ---
 
 # Burkitt Lymphoma
@@ -342,6 +351,9 @@ FISH for MYC, BCL2, and BCL6 is essential; if BCL2 FISH negative and Ki-67 ~100%
 - `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — MYC needs a partner in Burkitt: recurrent TCF3 and ID3 mutations switch on tonic B-cell-receptor signaling through PI3K-AKT, which cooperates with the translocated MYC to drive the tumor — a survival pathway being targeted by PI3K inhibitors.
 - `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — Sporadic Burkitt favors the abdomen and gonads: bulky ileocecal masses and ovarian or testicular deposits are common presentations, and the intensive multi-agent chemotherapy that cures it can leave survivors infertile.
 - `connects-to` → **[Erythrocyte](../../04-cellular/erythrocyte/README.md)** — Marrow takeover drops the red cells: when Burkitt floods the bone marrow it crowds out normal blood production, and the resulting anemia — deepened by chemotherapy — leaves patients pale and fatigued during treatment.
+- `connects-to` → **[Small Intestine](../../06-organ/small-intestine/README.md)** — Sporadic Burkitt strikes the gut: it classically presents as a bulky ileocecal mass in the small bowel, the fastest-growing human tumor erupting as an abdominal emergency that can obstruct or perforate.
+- `connects-to` → **[Acute Lymphoblastic Leukemia](../all/README.md)** — Burkitt has a leukemic twin: when it floods the blood and marrow it becomes mature B-cell acute lymphoblastic leukemia (the old L3 ALL), treated on the same intensive Burkitt protocols.
+- `connects-to` → **[Dendritic Cell](../../04-cellular/dendritic-cell/README.md)** — Its birthplace is the germinal center's scaffold: follicular dendritic cells present antigen to the rapidly dividing B cells there, the microenvironment from which the MYC-driven Burkitt clone arises.
 
 ---
 

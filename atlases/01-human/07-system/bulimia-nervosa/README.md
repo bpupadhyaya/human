@@ -162,6 +162,15 @@ cross_links:
   - target: 01-human/02-atomic/calcium
     relation: connects-to
     note: "Purging drains calcium: vomiting and laxative abuse waste calcium and other minerals, and low ionized calcium can trigger muscle cramps and tetany, while chronic loss adds to the bone thinning of long-standing disease."
+  - target: 01-human/07-system/heart-failure
+    relation: connects-to
+    note: "Purging can wreck the heart muscle: chronic hypokalemia and, classically, ipecac's cardiotoxin weaken the myocardium into cardiomyopathy and heart failure, one of the deadliest complications of long-standing bulimia."
+  - target: 01-human/06-organ/adrenal-gland
+    relation: connects-to
+    note: "The stress axis stays switched on: bulimia drives HPA-axis overactivity, so the adrenal glands oversecrete cortisol, a hormonal disturbance tied to its mood symptoms and metabolic strain."
+  - target: 01-human/03-molecular/oxytocin
+    relation: connects-to
+    note: "Oxytocin signaling is disturbed in bulimia: altered levels of this appetite- and social-bonding hormone are reported in eating disorders, contributing to the disordered satiety and interpersonal difficulties of the illness."
 ---
 
 # Bulimia Nervosa
@@ -339,6 +348,9 @@ All of the following must be met:
 - `connects-to` → **[Endocrine System](../endocrine-system/README.md)** — Bulimia scrambles the body's hormonal signaling: chronic stress drives the HPA axis and cortisol, while erratic eating dysregulates the leptin, ghrelin and thyroid hormones that govern hunger and metabolism, locking in the binge-purge cycle.
 - `connects-to` → **[Estrogen](../../03-molecular/estrogen/README.md)** — Bulimia can starve bone of estrogen: even at near-normal weight, purging and nutritional stress lower estrogen, and the resulting hypoestrogenemia plus poor calcium intake erode bone density toward early osteopenia.
 - `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — Purging drains calcium: vomiting and laxative abuse waste calcium and other minerals, and low ionized calcium can trigger muscle cramps and tetany, while chronic loss adds to the bone thinning of long-standing disease.
+- `connects-to` → **[Heart Failure](../heart-failure/README.md)** — Purging can wreck the heart muscle: chronic hypokalemia and, classically, ipecac's cardiotoxin weaken the myocardium into cardiomyopathy and heart failure, one of the deadliest complications of long-standing bulimia.
+- `connects-to` → **[Adrenal Gland](../../06-organ/adrenal-gland/README.md)** — The stress axis stays switched on: bulimia drives HPA-axis overactivity, so the adrenal glands oversecrete cortisol, a hormonal disturbance tied to its mood symptoms and metabolic strain.
+- `connects-to` → **[Oxytocin](../../03-molecular/oxytocin/README.md)** — Oxytocin signaling is disturbed in bulimia: altered levels of this appetite- and social-bonding hormone are reported in eating disorders, contributing to the disordered satiety and interpersonal difficulties of the illness.
 
 ## Treatment
 
