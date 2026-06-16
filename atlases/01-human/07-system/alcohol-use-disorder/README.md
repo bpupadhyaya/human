@@ -178,6 +178,15 @@ cross_links:
   - target: 01-human/07-system/hypertension
     relation: connects-to
     note: "Alcohol is a leading reversible cause of high blood pressure: intake raises it dose-dependently through sympathetic and hormonal effects, so cutting back is a frontline step that often lowers blood pressure measurably."
+  - target: 01-human/04-cellular/microglia
+    relation: connects-to
+    note: "Alcohol inflames the brain's immune cells: ethanol and gut-derived endotoxin activate microglial TLR4, and the cytokines they release drive the neuroinflammation behind alcohol-related cognitive decline and craving."
+  - target: 01-human/07-system/stroke
+    relation: connects-to
+    note: "Heavy drinking tips the brain toward bleeding: alcohol raises blood pressure and impairs clotting, sharply increasing hemorrhagic stroke risk, while binge drinking can trigger ischemic stroke through arrhythmia and surges in pressure."
+  - target: 01-human/07-system/bipolar-disorder
+    relation: connects-to
+    note: "Alcohol use disorder shadows bipolar disorder: it is among the commonest comorbidities, used to self-medicate mood swings yet worsening the course, raising suicide risk, and complicating diagnosis and treatment of both."
 ---
 
 # Alcohol Use Disorder
@@ -411,6 +420,9 @@ Prenatal alcohol exposure → leading preventable cause of intellectual disabili
 - `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — Alcohol unmans the hormones: it suppresses testosterone production and speeds its conversion to estrogen, causing the low libido, shrunken testes, and feminization seen in chronic male drinkers.
 - `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — The liver's macrophages drive alcoholic hepatitis: gut-derived endotoxin activates Kupffer cells to pour out TNF and other cytokines, the inflammatory engine that turns fatty liver into hepatitis and fibrosis.
 - `connects-to` → **[Hypertension](../hypertension/README.md)** — Alcohol is a leading reversible cause of high blood pressure: intake raises it dose-dependently through sympathetic and hormonal effects, so cutting back is a frontline step that often lowers blood pressure measurably.
+- `connects-to` → **[Microglia](../../04-cellular/microglia/README.md)** — Alcohol inflames the brain's immune cells: ethanol and gut-derived endotoxin activate microglial TLR4, and the cytokines they release drive the neuroinflammation behind alcohol-related cognitive decline and craving.
+- `connects-to` → **[Stroke](../stroke/README.md)** — Heavy drinking tips the brain toward bleeding: alcohol raises blood pressure and impairs clotting, sharply increasing hemorrhagic stroke risk, while binge drinking can trigger ischemic stroke through arrhythmia and surges in pressure.
+- `connects-to` → **[Bipolar Disorder](../bipolar-disorder/README.md)** — Alcohol use disorder shadows bipolar disorder: it is among the commonest comorbidities, used to self-medicate mood swings yet worsening the course, raising suicide risk, and complicating diagnosis and treatment of both.
 
 [^koob-2013-addiction-neuroscience]: Koob GF, Volkow ND. Neurocircuitry of addiction. *Neuropsychopharmacology.* 2010;35(1):217-238. [doi:10.1038/npp.2009.110](https://doi.org/10.1038/npp.2009.110) · [PubMed 19710631](https://pubmed.ncbi.nlm.nih.gov/19710631/)
 [^anton-2006-combine]: Anton RF, O'Malley SS, Ciraulo DA, et al. Combined pharmacotherapies and behavioral interventions for alcohol dependence: the COMBINE study. *JAMA.* 2006;295(17):2003-2017. [doi:10.1001/jama.295.17.2003](https://doi.org/10.1001/jama.295.17.2003) · [PubMed 16670409](https://pubmed.ncbi.nlm.nih.gov/16670409/)

@@ -169,6 +169,15 @@ cross_links:
   - target: 01-human/04-cellular/macrophage
     relation: connects-to
     note: "The marrow's macrophages shelter the leukemia: tumor-associated macrophages in the niche support blast survival and resistance, and they also mediate the cytokine release that complicates CAR-T and blinatumomab therapy."
+  - target: 01-human/07-system/nervous-system
+    relation: connects-to
+    note: "The CNS is a leukemic sanctuary: ALL blasts hide in the meninges where chemotherapy penetrates poorly, so every patient gets intrathecal therapy and sometimes cranial radiation to prevent and treat CNS relapse."
+  - target: 02-pathogen/03-fungi/pneumocystis-jirovecii
+    relation: connects-to
+    note: "Treatment opens the door to Pneumocystis: the prolonged steroids and chemotherapy of ALL deplete T cells, so PCP pneumonia is a real threat — which is why co-trimoxazole prophylaxis runs through the entire treatment course."
+  - target: 01-human/03-molecular/nf-kb
+    relation: connects-to
+    note: "NF-κB keeps the blast alive: constitutive NF-κB signaling in ALL cells drives survival and anti-apoptotic gene expression and underlies resistance to glucocorticoids, making the pathway a therapeutic target."
 ---
 
 # Acute Lymphoblastic Leukemia
@@ -359,6 +368,9 @@ Childhood ALL survivors (now majority of patients): neurocognitive impairment (M
 - `connects-to` → **[Graft-Versus-Host Disease](../gvhd/README.md)** — Transplant trades one risk for another: high-risk ALL is cured by allogeneic stem-cell transplant, whose graft-versus-leukemia effect helps clear the disease but brings graft-versus-host disease as its dangerous price.
 - `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — Growth signaling fuels the leukemic cell: the PI3K-AKT-mTOR pathway is often hyperactive in ALL, driving proliferation and survival, so mTOR inhibitors are studied to resensitize resistant disease.
 - `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — The marrow's macrophages shelter the leukemia: tumor-associated macrophages in the niche support blast survival and resistance, and they also mediate the cytokine release that complicates CAR-T and blinatumomab therapy.
+- `connects-to` → **[Nervous System](../nervous-system/README.md)** — The CNS is a leukemic sanctuary: ALL blasts hide in the meninges where chemotherapy penetrates poorly, so every patient gets intrathecal therapy and sometimes cranial radiation to prevent and treat CNS relapse.
+- `connects-to` → **[Pneumocystis jirovecii](../../../02-pathogen/03-fungi/pneumocystis-jirovecii/README.md)** — Treatment opens the door to Pneumocystis: the prolonged steroids and chemotherapy of ALL deplete T cells, so PCP pneumonia is a real threat — which is why co-trimoxazole prophylaxis runs through the entire treatment course.
+- `connects-to` → **[NF-κB](../../03-molecular/nf-kb/README.md)** — NF-κB keeps the blast alive: constitutive NF-κB signaling in ALL cells drives survival and anti-apoptotic gene expression and underlies resistance to glucocorticoids, making the pathway a therapeutic target.
 
 [^pui-2018-all-cure]: Pui CH, Yang JJ, Bhakta N, et al. Global efforts toward the cure of childhood acute lymphoblastic leukemia. *Lancet Child Adolesc Health.* 2018;2(6):440-454. [doi:10.1016/S2352-4642(18)30066-X](https://doi.org/10.1016/S2352-4642(18)30066-X) · [PubMed 29976322](https://pubmed.ncbi.nlm.nih.gov/29976322/)
 [^maude-2018-tisagenlecleucel]: Maude SL, Laetsch TW, Buechner J, et al. Tisagenlecleucel in children and young adults with B-cell lymphoblastic leukemia. *N Engl J Med.* 2018;378(5):439-448. [doi:10.1056/NEJMoa1709866](https://doi.org/10.1056/NEJMoa1709866) · [PubMed 29385370](https://pubmed.ncbi.nlm.nih.gov/29385370/)
