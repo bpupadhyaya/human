@@ -166,6 +166,15 @@ cross_links:
   - target: 01-human/04-cellular/platelet
     relation: connects-to
     note: "Platelets help melanoma spread: circulating tumor cells cloak themselves in platelets to hide from natural killer cells and to lodge in distant vessels, a partnership that aids metastasis and makes platelets a studied antimetastatic target."
+  - target: 01-human/03-molecular/il-2
+    relation: connects-to
+    note: "Melanoma launched modern immunotherapy: high-dose IL-2 produced the first durable remissions by goading T cells to attack, the proof-of-concept that the immune system could clear metastatic melanoma and the forerunner of today's checkpoint and cell therapies."
+  - target: 01-human/07-system/type-1-diabetes
+    relation: connects-to
+    note: "Unleashing the immune system has a cost: checkpoint inhibitors used against melanoma can trigger autoimmune attack on the pancreas, causing new-onset type 1 diabetes as an immune-related adverse event — the flip side of releasing the brakes on T cells."
+  - target: 01-human/04-cellular/fibroblast
+    relation: connects-to
+    note: "The tumor's stroma fights back for it: cancer-associated fibroblasts remodel the matrix and secrete growth factors that shield melanoma cells, a niche that blunts BRAF-targeted drugs and helps the tumor regrow after an initial response."
 ---
 
 # Melanoma
@@ -305,6 +314,9 @@ cross_links:
 - `connects-to` → **[Thyroid Gland](../../06-organ/thyroid/README.md)** — Immunotherapy can turn on the thyroid: the checkpoint inhibitors that transformed melanoma treatment commonly trigger autoimmune thyroiditis, causing transient hyperthyroidism then lasting hypothyroidism — one of the most frequent immune-related side effects.
 - `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — Melanoma is the tumor most apt to cross the placenta: in pregnancy it can spread to the placenta and rarely the fetus, and because it is hormonally responsive, its behavior and management in pregnant patients need special care.
 - `connects-to` → **[Platelet](../../04-cellular/platelet/README.md)** — Platelets help melanoma spread: circulating tumor cells cloak themselves in platelets to hide from natural killer cells and to lodge in distant vessels, a partnership that aids metastasis and makes platelets a studied antimetastatic target.
+- `connects-to` → **[IL-2](../../03-molecular/il-2/README.md)** — Melanoma launched modern immunotherapy: high-dose IL-2 produced the first durable remissions by goading T cells to attack, the proof-of-concept that the immune system could clear metastatic melanoma and the forerunner of today's checkpoint and cell therapies.
+- `connects-to` → **[Type 1 Diabetes](../type-1-diabetes/README.md)** — Unleashing the immune system has a cost: checkpoint inhibitors used against melanoma can trigger autoimmune attack on the pancreas, causing new-onset type 1 diabetes as an immune-related adverse event — the flip side of releasing the brakes on T cells.
+- `connects-to` → **[Fibroblast](../../04-cellular/fibroblast/README.md)** — The tumor's stroma fights back for it: cancer-associated fibroblasts remodel the matrix and secrete growth factors that shield melanoma cells, a niche that blunts BRAF-targeted drugs and helps the tumor regrow after an initial response.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 

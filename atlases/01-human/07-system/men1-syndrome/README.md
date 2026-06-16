@@ -160,6 +160,15 @@ cross_links:
   - target: 01-human/03-molecular/wnt-beta-catenin
     relation: connects-to
     note: "Menin is a transcriptional scaffold that touches Wnt: beyond its MLL-histone-methylation role, menin modulates beta-catenin signaling in endocrine cells, so losing it helps unleash the proliferation behind MEN1's parathyroid and islet tumors."
+  - target: 01-human/03-molecular/cdkn1b
+    relation: connects-to
+    note: "Menin works partly through a cell-cycle brake: it drives expression of CDKN1B (p27), so losing menin lowers p27 and lets endocrine cells divide — and germline CDKN1B mutations produce MEN4, a near-twin syndrome that helped reveal this pathway."
+  - target: 01-human/07-system/gastric-cancer
+    relation: connects-to
+    note: "The pancreatic gastrinomas reach the stomach: their relentless acid drives Zollinger-Ellison ulcers, while the high gastrin also stimulates gastric ECL cells into carcinoid tumors — so a duodeno-pancreatic tumor in MEN1 can seed neoplasia in the stomach wall."
+  - target: 01-human/07-system/meningioma
+    relation: connects-to
+    note: "The tumor risk reaches the meninges: beyond its endocrine triad, menin loss raises the incidence of meningiomas and other central-nervous-system tumors, part of the broad neoplastic predisposition that follows losing this tumor-suppressor scaffold."
 ---
 
 # MEN1 Syndrome
@@ -327,6 +336,9 @@ Menin haploinsufficiency (one functional allele) creates susceptibility: cells a
 - `connects-to` → **[Vitamin D (Calciferol)](../../../03-medicine/03-food/vitamin-d/README.md)** — Primary hyperparathyroidism is MEN1's earliest and commonest sign: overactive parathyroid glands push PTH and calcium up while disturbing vitamin D handling, the mineral derangement that drives the kidney stones and bone loss surveillance aims to catch.
 - `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — MEN1 passes down half the family and unsettles the reproductive axis: it is autosomal dominant so each child has a 50% risk, prompting cascade testing, while a prolactin-secreting pituitary tumor can disrupt periods and fertility.
 - `connects-to` → **[Wnt/beta-catenin](../../03-molecular/wnt-beta-catenin/README.md)** — Menin is a transcriptional scaffold that touches Wnt: beyond its MLL-histone-methylation role, menin modulates beta-catenin signaling in endocrine cells, so losing it helps unleash the proliferation behind MEN1's parathyroid and islet tumors.
+- `connects-to` → **[CDKN1B](../../03-molecular/cdkn1b/README.md)** — Menin works partly through a cell-cycle brake: it drives expression of CDKN1B (p27), so losing menin lowers p27 and lets endocrine cells divide — and germline CDKN1B mutations produce MEN4, a near-twin syndrome that helped reveal this pathway.
+- `connects-to` → **[Gastric Cancer](../gastric-cancer/README.md)** — The pancreatic gastrinomas reach the stomach: their relentless acid drives Zollinger-Ellison ulcers, while the high gastrin also stimulates gastric ECL cells into carcinoid tumors — so a duodeno-pancreatic tumor in MEN1 can seed neoplasia in the stomach wall.
+- `connects-to` → **[Meningioma](../meningioma/README.md)** — The tumor risk reaches the meninges: beyond its endocrine triad, menin loss raises the incidence of meningiomas and other central-nervous-system tumors, part of the broad neoplastic predisposition that follows losing this tumor-suppressor scaffold.
 
 ---
 
