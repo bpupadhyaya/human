@@ -171,6 +171,15 @@ cross_links:
   - target: 01-human/07-system/gout
     relation: connects-to
     note: "Kidney and urate trap each other: failing kidneys clear less uric acid, raising it into gout, while urate crystals and the drugs for gout can in turn injure the kidney — a two-way burden in CKD."
+  - target: 01-human/03-molecular/tgf-beta
+    relation: connects-to
+    note: "Fibrosis is the final common path: whatever the initial insult, TGF-β drives tubular cells and fibroblasts to scar the kidney with collagen, the progressive interstitial fibrosis that determines how fast CKD advances."
+  - target: 01-human/07-system/stroke
+    relation: connects-to
+    note: "Failing kidneys imperil the brain's vessels: uremic vasculopathy, hypertension and accelerated atherosclerosis make stroke far more common in CKD, while the bleeding tendency of uremia raises hemorrhagic risk too."
+  - target: 01-human/07-system/renal-cell-carcinoma
+    relation: connects-to
+    note: "Long-standing damage turns malignant: years of CKD and the acquired cystic disease of dialysis sharply raise the risk of renal cell carcinoma arising in the scarred kidneys."
 ---
 
 # Chronic Kidney Disease
@@ -298,6 +307,9 @@ As nephron mass decreases, impaired renal functions accumulate:
 - `connects-to` → **[Renin](../../03-molecular/renin/README.md)** — The failing kidney misreads its own pressure: falling perfusion drives renin and the RAAS into overdrive, raising blood pressure that further scars the kidney — a vicious loop that RAAS blockers are given to interrupt.
 - `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — Macrophages turn injury into scar: they infiltrate the damaged kidney and pour out fibrogenic signals that activate fibroblasts, driving the tubulointerstitial fibrosis that paces the march to kidney failure.
 - `connects-to` → **[Gout](../gout/README.md)** — Kidney and urate trap each other: failing kidneys clear less uric acid, raising it into gout, while urate crystals and the drugs for gout can in turn injure the kidney — a two-way burden in CKD.
+- `connects-to` → **[Transforming Growth Factor Beta](../../03-molecular/tgf-beta/README.md)** — Fibrosis is the final common path: whatever the initial insult, TGF-β drives tubular cells and fibroblasts to scar the kidney with collagen, the progressive interstitial fibrosis that determines how fast CKD advances.
+- `connects-to` → **[Stroke](../stroke/README.md)** — Failing kidneys imperil the brain's vessels: uremic vasculopathy, hypertension and accelerated atherosclerosis make stroke far more common in CKD, while the bleeding tendency of uremia raises hemorrhagic risk too.
+- `connects-to` → **[Renal Cell Carcinoma](../renal-cell-carcinoma/README.md)** — Long-standing damage turns malignant: years of CKD and the acquired cystic disease of dialysis sharply raise the risk of renal cell carcinoma arising in the scarred kidneys.
 
 ## Pathology
 

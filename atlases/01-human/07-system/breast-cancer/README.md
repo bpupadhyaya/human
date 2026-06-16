@@ -172,6 +172,15 @@ cross_links:
   - target: 01-human/04-cellular/regulatory-t-cell
     relation: connects-to
     note: "Tumors recruit Tregs to hide from immunity: regulatory T cells infiltrate the breast tumor microenvironment and suppress the cytotoxic response, a marker of worse prognosis and a barrier to immunotherapy."
+  - target: 01-human/03-molecular/palb2
+    relation: connects-to
+    note: "Another repair gene joins BRCA: germline PALB2 mutations, which partner BRCA2 in homologous recombination, confer a high breast cancer risk and the same sensitivity to PARP inhibitors, widening who gets genetic testing."
+  - target: 01-human/03-molecular/mtor
+    relation: connects-to
+    note: "ER-positive tumors lean on a growth hub: PI3K-AKT-mTOR signaling drives proliferation and resistance to hormone therapy, so the mTOR inhibitor everolimus is added to endocrine treatment when the cancer escapes it."
+  - target: 01-human/03-molecular/myc
+    relation: connects-to
+    note: "Amplification marks the aggressive tumors: MYC is frequently amplified in basal and triple-negative breast cancer, powering relentless proliferation in the subtypes that lack hormonal and HER2 targets."
 ---
 
 # Breast Cancer
@@ -329,6 +338,9 @@ cross_links:
 - `connects-to` → **[p53](../../03-molecular/p53/README.md)** — Losing p53 marks the hardest breast cancers: TP53 mutation is the rule in triple-negative and Li-Fraumeni-driven disease, unleashing genomic instability and an aggressive course that resists hormone and HER2 therapies.
 - `connects-to` → **[Heart Failure](../heart-failure/README.md)** — The cure can wound the heart: anthracyclines and HER2-targeted trastuzumab are cardiotoxic, so cancer-therapy-related heart failure is a key survivorship concern that ties breast oncology to cardiology surveillance.
 - `connects-to` → **[Regulatory T Cell](../../04-cellular/regulatory-t-cell/README.md)** — Tumors recruit Tregs to hide from immunity: regulatory T cells infiltrate the breast tumor microenvironment and suppress the cytotoxic response, a marker of worse prognosis and a barrier to immunotherapy.
+- `connects-to` → **[PALB2](../../03-molecular/palb2/README.md)** — Another repair gene joins BRCA: germline PALB2 mutations, which partner BRCA2 in homologous recombination, confer a high breast cancer risk and the same sensitivity to PARP inhibitors, widening who gets genetic testing.
+- `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — ER-positive tumors lean on a growth hub: PI3K-AKT-mTOR signaling drives proliferation and resistance to hormone therapy, so the mTOR inhibitor everolimus is added to endocrine treatment when the cancer escapes it.
+- `connects-to` → **[MYC](../../03-molecular/myc/README.md)** — Amplification marks the aggressive tumors: MYC is frequently amplified in basal and triple-negative breast cancer, powering relentless proliferation in the subtypes that lack hormonal and HER2 targets.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
