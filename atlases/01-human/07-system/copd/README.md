@@ -166,6 +166,15 @@ cross_links:
   - target: 01-human/04-cellular/adipocyte
     relation: connects-to
     note: "Wasting away marks severe COPD: the high work of breathing and systemic inflammation burn through fat and lean tissue, and the loss of adipocyte mass — a low BMI and fat-free mass — is a strong independent predictor of death in the disease."
+  - target: 01-human/04-cellular/t-helper-cell
+    relation: connects-to
+    note: "T cells, not just neutrophils, scar the airway: CD4 Th1 and Th17 cells accumulate in the COPD lung and sustain the chronic inflammation, an adaptive arm that makes the disease partly autoimmune in flavor."
+  - target: 01-human/07-system/atherosclerosis
+    relation: connects-to
+    note: "COPD is hard on the arteries too: shared smoking plus the disease's systemic inflammation accelerate atherosclerosis, so cardiovascular disease — not respiratory failure — is a leading cause of death in milder COPD."
+  - target: 01-human/03-molecular/il-6
+    relation: connects-to
+    note: "IL-6 carries the inflammation body-wide: spilling from the inflamed lung into the blood, it drives the muscle wasting, weakness, and comorbidity of COPD and rises sharply during exacerbations."
 ---
 
 # COPD
@@ -358,6 +367,9 @@ COPD encompasses two overlapping pathological processes:
 - `connects-to` → **[Heart Failure](../heart-failure/README.md)** — COPD strains the right heart: chronic hypoxia constricts the lung's vessels, and the back-pressure of pulmonary hypertension overworks the right ventricle into cor pulmonale — right heart failure with leg swelling and congestion that worsens prognosis.
 - `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — COPD lowers testosterone: chronic hypoxia, systemic inflammation and corticosteroid use suppress the gonadal axis, and the resulting low testosterone deepens the muscle wasting and fatigue, sometimes prompting replacement in selected men.
 - `connects-to` → **[Adipocyte](../../04-cellular/adipocyte/README.md)** — Wasting away marks severe COPD: the high work of breathing and systemic inflammation burn through fat and lean tissue, and the loss of adipocyte mass — a low BMI and fat-free mass — is a strong independent predictor of death in the disease.
+- `connects-to` → **[T Helper Cell](../../04-cellular/t-helper-cell/README.md)** — T cells, not just neutrophils, scar the airway: CD4 Th1 and Th17 cells accumulate in the COPD lung and sustain the chronic inflammation, an adaptive arm that makes the disease partly autoimmune in flavor.
+- `connects-to` → **[Atherosclerosis](../atherosclerosis/README.md)** — COPD is hard on the arteries too: shared smoking plus the disease's systemic inflammation accelerate atherosclerosis, so cardiovascular disease — not respiratory failure — is a leading cause of death in milder COPD.
+- `connects-to` → **[Interleukin-6](../../03-molecular/il-6/README.md)** — IL-6 carries the inflammation body-wide: spilling from the inflamed lung into the blood, it drives the muscle wasting, weakness, and comorbidity of COPD and rises sharply during exacerbations.
 
 ---
 

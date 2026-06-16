@@ -160,6 +160,15 @@ cross_links:
   - target: 01-human/07-system/vhl-disease
     relation: connects-to
     note: "Cowden joins the hereditary kidney-cancer differential: like von Hippel-Lindau and Birt-Hogg-Dubé it predisposes to renal cell carcinoma, so the pattern of other tumors and skin findings is what tells these germline syndromes apart."
+  - target: 01-human/03-molecular/igf-1
+    relation: connects-to
+    note: "Unchecked growth signaling explains the overgrowth: with PTEN's brake gone, IGF-1-driven PI3K-AKT signaling runs free, behind the macrocephaly, hamartomas, and tissue overgrowth that mark the PTEN syndromes."
+  - target: 01-human/04-cellular/regulatory-t-cell
+    relation: connects-to
+    note: "PTEN steadies the immune system's brakes: it is essential for regulatory T-cell stability, so PTEN loss can destabilize Tregs into autoimmunity — part of the immune dysregulation seen in PTEN hamartoma syndrome."
+  - target: 01-human/07-system/neurofibromatosis-type-1
+    relation: connects-to
+    note: "Two overgrowth syndromes meet in the brain: like neurofibromatosis type 1, Cowden's PTEN loss feeds the RAS-PI3K axis and brings macrocephaly and a raised rate of autism, overlapping neurodevelopmental features across the two."
 ---
 
 # Cowden Syndrome
@@ -387,6 +396,9 @@ cross_links:
 - `connects-to` → **[Liver](../../06-organ/liver/README.md)** — Cowden's hamartomas reach the liver: as a PTEN hamartoma tumor syndrome it can stud the liver with benign hamartomas and hemangiomas, part of the diffuse overgrowth that PTEN loss drives across many organs beyond the classic skin, breast and thyroid sites.
 - `connects-to` → **[Cytotoxic T Cell](../../04-cellular/t-cytotoxic-cell/README.md)** — Losing PTEN can dim antitumor immunity: PTEN loss raises PD-L1 and weakens cytotoxic T-cell killing of the tumor, a mechanism studied in PTEN-driven cancers that may shape how Cowden's malignancies respond to checkpoint immunotherapy.
 - `connects-to` → **[VHL Disease](../vhl-disease/README.md)** — Cowden joins the hereditary kidney-cancer differential: like von Hippel-Lindau and Birt-Hogg-Dubé it predisposes to renal cell carcinoma, so the pattern of other tumors and skin findings is what tells these germline syndromes apart.
+- `connects-to` → **[IGF-1](../../03-molecular/igf-1/README.md)** — Unchecked growth signaling explains the overgrowth: with PTEN's brake gone, IGF-1-driven PI3K-AKT signaling runs free, behind the macrocephaly, hamartomas, and tissue overgrowth that mark the PTEN syndromes.
+- `connects-to` → **[Regulatory T Cell](../../04-cellular/regulatory-t-cell/README.md)** — PTEN steadies the immune system's brakes: it is essential for regulatory T-cell stability, so PTEN loss can destabilize Tregs into autoimmunity — part of the immune dysregulation seen in PTEN hamartoma syndrome.
+- `connects-to` → **[Neurofibromatosis Type 1](../neurofibromatosis-type-1/README.md)** — Two overgrowth syndromes meet in the brain: like neurofibromatosis type 1, Cowden's PTEN loss feeds the RAS-PI3K axis and brings macrocephaly and a raised rate of autism, overlapping neurodevelopmental features across the two.
 
 ---
 
