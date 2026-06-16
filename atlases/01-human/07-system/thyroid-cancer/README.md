@@ -160,6 +160,15 @@ cross_links:
   - target: 01-human/06-organ/kidney
     relation: connects-to
     note: "Its drugs and isotopes pass through the kidney: radioactive iodine is cleared renally, and the multikinase inhibitors for advanced disease cause hypertension and proteinuria, so kidney function shapes both treatments."
+  - target: 01-human/03-molecular/kras
+    relation: connects-to
+    note: "A second oncogene family sorts the subtypes: where BRAF drives most papillary cancers, RAS mutations like KRAS underlie follicular thyroid cancer, a molecular split that increasingly guides diagnosis and targeted treatment."
+  - target: 01-human/07-system/obesity
+    relation: connects-to
+    note: "Excess weight raises the risk: obesity is a consistent risk factor for thyroid cancer, contributing through insulin resistance, chronic inflammation and hormonal changes to the steep rise in its incidence."
+  - target: 01-human/04-cellular/endothelial-cell
+    relation: connects-to
+    note: "Its treatment targets the blood supply: differentiated thyroid cancers are vascular, so the multikinase inhibitors lenvatinib and sorafenib work largely by blocking VEGF receptors on endothelial cells to choke off new vessels."
 ---
 
 # Thyroid Cancer
@@ -351,6 +360,9 @@ Calcitonin doubling time <6 months → poor prognosis → early systemic therapy
 - `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — Follicular thyroid cancer leans on PI3K-AKT: PIK3CA mutation or PTEN loss — the latter underlying Cowden-related thyroid tumors — drives this axis, distinct from the BRAF/RAS-MAPK route of papillary cancer and a target in dedifferentiated disease.
 - `connects-to` → **[Osteoclast](../../04-cellular/osteoclast/README.md)** — Differentiated thyroid cancer favors bone: follicular and papillary tumors seed osteolytic metastases that recruit osteoclasts to resorb bone, and the lifelong TSH-suppressing thyroxine adds its own push toward bone loss.
 - `connects-to` → **[Kidney](../../06-organ/kidney/README.md)** — Its drugs and isotopes pass through the kidney: radioactive iodine is cleared renally, and the multikinase inhibitors for advanced disease cause hypertension and proteinuria, so kidney function shapes both treatments.
+- `connects-to` → **[KRAS](../../03-molecular/kras/README.md)** — A second oncogene family sorts the subtypes: where BRAF drives most papillary cancers, RAS mutations like KRAS underlie follicular thyroid cancer, a molecular split that increasingly guides diagnosis and targeted treatment.
+- `connects-to` → **[Obesity](../obesity/README.md)** — Excess weight raises the risk: obesity is a consistent risk factor for thyroid cancer, contributing through insulin resistance, chronic inflammation and hormonal changes to the steep rise in its incidence.
+- `connects-to` → **[Endothelial Cell](../../04-cellular/endothelial-cell/README.md)** — Its treatment targets the blood supply: differentiated thyroid cancers are vascular, so the multikinase inhibitors lenvatinib and sorafenib work largely by blocking VEGF receptors on endothelial cells to choke off new vessels.
 
 [^schlumberger-2015-lenvatinib]: Schlumberger M, Tahara M, Wirth LJ, et al. Lenvatinib versus placebo in radioiodine-refractory differentiated thyroid cancer. *N Engl J Med.* 2015;372(7):621-630. [doi:10.1056/NEJMoa1406470](https://doi.org/10.1056/NEJMoa1406470) · [PubMed 25671254](https://pubmed.ncbi.nlm.nih.gov/25671254/)
 [^subbiah-2018-atc-dabrafenib]: Subbiah V, Kreitman RJ, Wainberg ZA, et al. Dabrafenib and trametinib treatment in patients with locally advanced or metastatic BRAF V600-mutant anaplastic thyroid cancer. *J Clin Oncol.* 2018;36(1):7-13. [doi:10.1200/JCO.2017.73.6785](https://doi.org/10.1200/JCO.2017.73.6785) · [PubMed 28892432](https://pubmed.ncbi.nlm.nih.gov/28892432/)

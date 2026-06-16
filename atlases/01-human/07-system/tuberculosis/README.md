@@ -160,6 +160,15 @@ cross_links:
   - target: 01-human/06-organ/eye
     relation: connects-to
     note: "TB can settle in the eye: hematogenous spread seeds choroidal tubercles in miliary disease and drives a chronic uveitis, an ocular tuberculosis that can threaten sight and signals disseminated infection."
+  - target: 01-human/05-tissue/alveolus
+    relation: connects-to
+    note: "Infection begins in the air sacs: inhaled bacilli are first engulfed by alveolar macrophages, and it is here in the alveoli that the primary granuloma forms, the foothold from which TB either is contained or spreads."
+  - target: 01-human/03-molecular/autophagy
+    relation: connects-to
+    note: "A cellular self-eating defense is the battleground: macrophage autophagy can capture and destroy the bacilli, so the bug actively blocks phagosome maturation to survive — making autophagy-boosting drugs a host-directed therapy idea against TB."
+  - target: 01-human/03-molecular/nf-kb
+    relation: connects-to
+    note: "The infected macrophage's master switch is hijacked: Mycobacterium tuberculosis manipulates NF-κB signaling to tune inflammation and its own survival, balancing the cytokine storm that builds the granuloma against the cell-death pathways that would clear it."
 ---
 
 # Tuberculosis
@@ -341,6 +350,9 @@ Standard **HRZE** regimen [^nahid-2016-tb-treatment]:
 - `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — TB quietly causes infertility: genitourinary tuberculosis scars the fallopian tubes and epididymis, an important and treatable cause of infertility in high-burden regions, while active TB in pregnancy threatens mother and fetus.
 - `connects-to` → **[Interleukin-10](../../03-molecular/il-10/README.md)** — The bacillus turns the body's brakes against it: M. tuberculosis induces IL-10, the anti-inflammatory cytokine that dampens the protective Th1 response and helps the organism survive inside macrophages as latent infection.
 - `connects-to` → **[Eye](../../06-organ/eye/README.md)** — TB can settle in the eye: hematogenous spread seeds choroidal tubercles in miliary disease and drives a chronic uveitis, an ocular tuberculosis that can threaten sight and signals disseminated infection.
+- `connects-to` → **[Alveolus](../../05-tissue/alveolus/README.md)** — Infection begins in the air sacs: inhaled bacilli are first engulfed by alveolar macrophages, and it is here in the alveoli that the primary granuloma forms, the foothold from which TB either is contained or spreads.
+- `connects-to` → **[Autophagy](../../03-molecular/autophagy/README.md)** — A cellular self-eating defense is the battleground: macrophage autophagy can capture and destroy the bacilli, so the bug actively blocks phagosome maturation to survive — making autophagy-boosting drugs a host-directed therapy idea against TB.
+- `connects-to` → **[NF-κB](../../03-molecular/nf-kb/README.md)** — The infected macrophage's master switch is hijacked: Mycobacterium tuberculosis manipulates NF-κB signaling to tune inflammation and its own survival, balancing the cytokine storm that builds the granuloma against the cell-death pathways that would clear it.
 
 ## See Also
 
