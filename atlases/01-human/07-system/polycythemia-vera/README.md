@@ -160,6 +160,15 @@ cross_links:
   - target: 01-human/03-molecular/akt
     relation: connects-to
     note: "JAK2 fans out beyond STAT: the V617F mutation fires not only JAK-STAT but the PI3K-AKT pathway, an extra survival and proliferation signal that helps the erythroid clone expand and a node targeted to complement JAK inhibition."
+  - target: 01-human/03-molecular/hepcidin
+    relation: connects-to
+    note: "The iron gate stays wide open: the ravenous erythropoiesis of PV releases erythroferrone that suppresses hepcidin, so the gut keeps absorbing iron to feed red-cell production — part of why the disease runs iron-deficient yet overproduces cells."
+  - target: 01-human/03-molecular/tet2
+    relation: connects-to
+    note: "JAK2 rarely acts alone: co-occurring epigenetic mutations like TET2 shape PV's course, sometimes preceding the JAK2 hit and influencing how readily the clone progresses toward myelofibrosis or leukemia."
+  - target: 01-human/07-system/pulmonary-arterial-hypertension
+    relation: connects-to
+    note: "The thickened blood strains the lungs' vessels: the hyperviscosity and clotting tendency of PV, along with megakaryocyte-driven remodeling, can raise pulmonary artery pressure, one of the circulatory complications of an overcrowded bloodstream."
 ---
 
 # Polycythemia Vera
@@ -329,6 +338,9 @@ PV must be distinguished from secondary erythrocytosis (elevated EPO, JAK2 wild-
 - `connects-to` → **[Atherosclerosis](../atherosclerosis/README.md)** — PV's clots strike the arteries too: the thickened blood and hyperactive platelets drive arterial thrombosis on top of atherosclerotic plaque, so heart attack and stroke — not just venous clots — are leading causes of death and the reason for aspirin and hematocrit control.
 - `connects-to` → **[Osteoblast](../../04-cellular/osteoblast/README.md)** — When PV burns out it can turn marrow to bone: progression to post-polycythemic myelofibrosis brings osteosclerosis, where osteoblasts lay down excess bone that crowds out the very blood production the disease once drove into overdrive.
 - `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — JAK2 fans out beyond STAT: the V617F mutation fires not only JAK-STAT but the PI3K-AKT pathway, an extra survival and proliferation signal that helps the erythroid clone expand and a node targeted to complement JAK inhibition.
+- `connects-to` → **[Hepcidin](../../03-molecular/hepcidin/README.md)** — The iron gate stays wide open: the ravenous erythropoiesis of PV releases erythroferrone that suppresses hepcidin, so the gut keeps absorbing iron to feed red-cell production — part of why the disease runs iron-deficient yet overproduces cells.
+- `connects-to` → **[TET2](../../03-molecular/tet2/README.md)** — JAK2 rarely acts alone: co-occurring epigenetic mutations like TET2 shape PV's course, sometimes preceding the JAK2 hit and influencing how readily the clone progresses toward myelofibrosis or leukemia.
+- `connects-to` → **[Pulmonary Arterial Hypertension](../pulmonary-arterial-hypertension/README.md)** — The thickened blood strains the lungs' vessels: the hyperviscosity and clotting tendency of PV, along with megakaryocyte-driven remodeling, can raise pulmonary artery pressure, one of the circulatory complications of an overcrowded bloodstream.
 
 [^vannucchi-2015-response]: Vannucchi AM, Kiladjian JJ, Griesshammer M, et al. Ruxolitinib versus standard therapy for the treatment of polycythemia vera. *N Engl J Med.* 2015;372(5):426-435. [doi:10.1056/NEJMoa1409630](https://doi.org/10.1056/NEJMoa1409630) · [PubMed 25577388](https://pubmed.ncbi.nlm.nih.gov/25577388/)
 [^gisslinger-2020-proud-pv]: Gisslinger H, Gotic M, Holowiecki J, et al. Ropeginterferon alfa-2b versus standard therapy for polycythaemia vera (PROUD-PV and CONTINUATION-PV): a randomised, non-inferiority, phase 3 trial and its extension study. *Lancet Haematol.* 2020;7(3):e196-e208. [doi:10.1016/S2352-3026(19)30236-4](https://doi.org/10.1016/S2352-3026(19)30236-4) · [PubMed 32046833](https://pubmed.ncbi.nlm.nih.gov/32046833/)

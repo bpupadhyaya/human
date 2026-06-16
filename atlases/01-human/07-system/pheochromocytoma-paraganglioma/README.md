@@ -160,6 +160,15 @@ cross_links:
   - target: 01-human/03-molecular/akt
     relation: connects-to
     note: "One molecular cluster of these tumors runs on kinase signaling: RET, NF1, TMEM127 and MAX mutations drive PI3K-AKT-mTOR activation, the growth-signaling group that contrasts with the pseudohypoxic, HIF-driven SDH and VHL cluster."
+  - target: 01-human/07-system/type-2-diabetes
+    relation: connects-to
+    note: "The catecholamine flood disrupts sugar control: adrenaline and noradrenaline suppress insulin release and drive glycogen breakdown, so pheochromocytoma often causes hyperglycemia and secondary diabetes that resolves once the tumor is removed."
+  - target: 01-human/03-molecular/tert
+    relation: connects-to
+    note: "Telomere genes flag the dangerous ones: TERT and ATRX alterations mark the pheochromocytomas and paragangliomas most likely to metastasize, helping pick out aggressive tumors in a disease where malignancy is otherwise hard to predict."
+  - target: 01-human/04-cellular/endothelial-cell
+    relation: connects-to
+    note: "They are intensely vascular tumors: pseudohypoxic SDH and VHL mutations crank up VEGF, so endothelial cells build a dense blood supply — making these tumors hemorrhagic at surgery and their angiogenesis a therapeutic target."
 ---
 
 # Pheochromocytoma/Paraganglioma
@@ -349,6 +358,9 @@ Active in Cluster 1 (MET/AXL co-expressed in SDH-deficient tumors); Phase 2 CABO
 - `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — Pregnancy can turn a pheochromocytoma deadly: an undiagnosed tumor unleashes catecholamine crises during labor and delivery, historically with high maternal and fetal mortality, and the many hereditary forms pass to offspring — so genetic counseling matters.
 - `connects-to` → **[Thyroid Cancer](../thyroid-cancer/README.md)** — RET ties the adrenal medulla to the thyroid: in MEN2, a germline RET mutation causes pheochromocytoma alongside medullary thyroid carcinoma, so finding one tumor triggers a hunt — and prophylactic thyroidectomy — for the other.
 - `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — One molecular cluster of these tumors runs on kinase signaling: RET, NF1, TMEM127 and MAX mutations drive PI3K-AKT-mTOR activation, the growth-signaling group that contrasts with the pseudohypoxic, HIF-driven SDH and VHL cluster.
+- `connects-to` → **[Type 2 Diabetes](../type-2-diabetes/README.md)** — The catecholamine flood disrupts sugar control: adrenaline and noradrenaline suppress insulin release and drive glycogen breakdown, so pheochromocytoma often causes hyperglycemia and secondary diabetes that resolves once the tumor is removed.
+- `connects-to` → **[TERT](../../03-molecular/tert/README.md)** — Telomere genes flag the dangerous ones: TERT and ATRX alterations mark the pheochromocytomas and paragangliomas most likely to metastasize, helping pick out aggressive tumors in a disease where malignancy is otherwise hard to predict.
+- `connects-to` → **[Endothelial Cell](../../04-cellular/endothelial-cell/README.md)** — They are intensely vascular tumors: pseudohypoxic SDH and VHL mutations crank up VEGF, so endothelial cells build a dense blood supply — making these tumors hemorrhagic at surgery and their angiogenesis a therapeutic target.
 
 [^lenders-2014-pheo-guideline]: Lenders JW, Duh QY, Eisenhofer G, et al. Pheochromocytoma and paraganglioma: an endocrine society clinical practice guideline. *J Clin Endocrinol Metab.* 2014;99(6):1915-1942. [doi:10.1210/jc.2014-1498](https://doi.org/10.1210/jc.2014-1498) · [PubMed 24893135](https://pubmed.ncbi.nlm.nih.gov/24893135/)
 [^baudin-2021-firstmappp-sunitinib]: Baudin E, Goichot B, Berruti A, et al. First International Randomized Study in Malignant Progressive Pheochromocytoma and Paragangliomas (FIRSTMAPPP). *Ann Oncol.* 2021;32(10):1245-1254. [doi:10.1016/j.annonc.2021.07.009](https://doi.org/10.1016/j.annonc.2021.07.009) · [PubMed 34246769](https://pubmed.ncbi.nlm.nih.gov/34246769/)
