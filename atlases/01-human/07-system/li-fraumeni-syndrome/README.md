@@ -160,6 +160,15 @@ cross_links:
   - target: 01-human/04-cellular/regulatory-t-cell
     relation: connects-to
     note: "Immune surveillance helps hold the cancers at bay: with every tissue carrying the germline p53 hit, cytotoxic immunity policing emerging tumors matters, and the regulatory T cells that damp that response are a lever immunotherapy aims to release."
+  - target: 01-human/03-molecular/bcl-2
+    relation: connects-to
+    note: "Losing p53 unbalances the death program: p53 normally drives pro-apoptotic genes that overcome the survival signal of BCL-2, so a germline p53 hit leaves damaged cells with BCL-2's brakes on, surviving when they should die and seeding tumors."
+  - target: 01-human/04-cellular/osteoclast
+    relation: connects-to
+    note: "The signature bone tumor subverts remodeling: osteosarcoma in Li-Fraumeni patients hijacks the osteoblast-osteoclast cycle, with osteoclasts resorbing bone as the p53-null tumor lays down disordered osteoid — the turnover loop behind its classic sarcoma."
+  - target: 01-human/07-system/wilms-tumor
+    relation: connects-to
+    note: "The pediatric tumor spectrum is wide: beyond sarcomas and brain tumors, children with the germline p53 mutation can develop kidney cancers including Wilms tumor, part of why the syndrome demands whole-body surveillance from early childhood."
 ---
 
 # Li-Fraumeni Syndrome
@@ -358,6 +367,9 @@ Annual surveillance significantly reduces mortality in LFS carriers (Villani 201
 - `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — The mutation passes down half the family: Li-Fraumeni is autosomal dominant, so each child of a carrier has a 50% chance of inheriting the broken p53, prompting cascade genetic testing and the option of preimplantation testing to spare the next generation.
 - `connects-to` → **[Cyclin D1](../../03-molecular/cyclin-d1/README.md)** — Losing p53 lets the cell cycle run: without p53 to switch on its p21 brake, cyclin D1-CDK drives cells past the G1 checkpoint despite damaged DNA, part of why a single inherited p53 hit seeds so many different cancers.
 - `connects-to` → **[Regulatory T Cell](../../04-cellular/regulatory-t-cell/README.md)** — Immune surveillance helps hold the cancers at bay: with every tissue carrying the germline p53 hit, cytotoxic immunity policing emerging tumors matters, and the regulatory T cells that damp that response are a lever immunotherapy aims to release.
+- `connects-to` → **[BCL-2](../../03-molecular/bcl-2/README.md)** — Losing p53 unbalances the death program: p53 normally drives pro-apoptotic genes that overcome the survival signal of BCL-2, so a germline p53 hit leaves damaged cells with BCL-2's brakes on, surviving when they should die and seeding tumors.
+- `connects-to` → **[Osteoclast](../../04-cellular/osteoclast/README.md)** — The signature bone tumor subverts remodeling: osteosarcoma in Li-Fraumeni patients hijacks the osteoblast-osteoclast cycle, with osteoclasts resorbing bone as the p53-null tumor lays down disordered osteoid — the turnover loop behind its classic sarcoma.
+- `connects-to` → **[Wilms Tumor](../wilms-tumor/README.md)** — The pediatric tumor spectrum is wide: beyond sarcomas and brain tumors, children with the germline p53 mutation can develop kidney cancers including Wilms tumor, part of why the syndrome demands whole-body surveillance from early childhood.
 
 [^bougeard-2015-lfs-chompret]: Bougeard G, Renaux-Petel M, Flaman JM, et al. Revisiting Li-Fraumeni Syndrome From TP53 Mutation Carriers. *J Clin Oncol.* 2015;33(21):2345-2352. [doi:10.1200/JCO.2014.59.5728](https://doi.org/10.1200/JCO.2014.59.5728) · [PubMed 26014290](https://pubmed.ncbi.nlm.nih.gov/26014290/)
 [^villani-2016-lfs-surveillance]: Villani A, Shore A, Wasserman JD, et al. Biochemical and imaging surveillance in germline TP53 mutation carriers with Li-Fraumeni syndrome: 11 year follow-up of a prospective observational study. *Lancet Oncol.* 2016;17(9):1295-1305. [doi:10.1016/S1470-2045(16)30249-2](https://doi.org/10.1016/S1470-2045(16)30249-2) · [PubMed 27501770](https://pubmed.ncbi.nlm.nih.gov/27501770/)
