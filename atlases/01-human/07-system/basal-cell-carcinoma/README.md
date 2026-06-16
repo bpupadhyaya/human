@@ -169,6 +169,15 @@ cross_links:
   - target: 02-pathogen/01-viruses/hpv-16
     relation: connects-to
     note: "Viruses may cofactor with the sun: beta-papillomaviruses are implicated as cocarcinogens in UV-driven non-melanoma skin cancer, especially in the immunosuppressed, adding a viral hit to the genetic damage behind some BCCs."
+  - target: 01-human/07-system/psoriasis
+    relation: connects-to
+    note: "Light therapy for psoriasis carries a cost: long-term PUVA (psoralen plus UVA) phototherapy raises the lifetime risk of non-melanoma skin cancers including basal cell carcinoma, so cumulative dose is tracked and skin surveyed."
+  - target: 01-human/07-system/gvhd
+    relation: connects-to
+    note: "Transplant survivors grow skin cancers: chronic graft-versus-host disease and its prolonged immunosuppression—compounded by photosensitizing voriconazole—drive basal cell and other skin cancers in allogeneic stem-cell transplant recipients."
+  - target: 01-human/04-cellular/adipocyte
+    relation: connects-to
+    note: "Aggressive subtypes burrow into fat: infiltrative and morpheaform basal cell carcinomas extend deep into the subcutaneous adipocyte layer, a spread that widens surgical margins and is why Mohs surgery traces the tumor's edges."
 ---
 
 # Basal Cell Carcinoma
@@ -341,6 +350,9 @@ BCC has a complex immune microenvironment:
 - `connects-to` → **[EGFR](../../03-molecular/egfr/README.md)** — Beyond hedgehog, growth-factor signaling helps: basal cell carcinomas express EGFR, whose activation supports their proliferation and survival and may contribute to resistance when hedgehog inhibitors fail.
 - `connects-to` → **[Cyclin D1](../../03-molecular/cyclin-d1/README.md)** — Hedgehog drives the cell cycle through cyclin D1: unchecked GLI signaling in BCC raises cyclin D1 to push cells past the G1 checkpoint, the proliferative engine downstream of the PTCH1-SMO pathway.
 - `connects-to` → **[HPV-16](../../../02-pathogen/01-viruses/hpv-16/README.md)** — Viruses may cofactor with the sun: beta-papillomaviruses are implicated as cocarcinogens in UV-driven non-melanoma skin cancer, especially in the immunosuppressed, adding a viral hit to the genetic damage behind some BCCs.
+- `connects-to` → **[Psoriasis](../psoriasis/README.md)** — Light therapy for psoriasis carries a cost: long-term PUVA (psoralen plus UVA) phototherapy raises the lifetime risk of non-melanoma skin cancers including basal cell carcinoma, so cumulative dose is tracked and skin surveyed.
+- `connects-to` → **[Graft-Versus-Host Disease](../gvhd/README.md)** — Transplant survivors grow skin cancers: chronic graft-versus-host disease and its prolonged immunosuppression—compounded by photosensitizing voriconazole—drive basal cell and other skin cancers in allogeneic stem-cell transplant recipients.
+- `connects-to` → **[Adipocyte](../../04-cellular/adipocyte/README.md)** — Aggressive subtypes burrow into fat: infiltrative and morpheaform basal cell carcinomas extend deep into the subcutaneous adipocyte layer, a spread that widens surgical margins and is why Mohs surgery traces the tumor's edges.
 
 ---
 

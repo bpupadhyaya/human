@@ -169,6 +169,15 @@ cross_links:
   - target: 01-human/07-system/chordoma
     relation: connects-to
     note: "SMARCB1 loss links them across the midline: poorly-differentiated chordoma deletes the same SMARCB1 gene as ATRT, so the two share a defining epigenetic lesion despite arising from utterly different tissues."
+  - target: 01-human/07-system/epilepsy
+    relation: connects-to
+    note: "The growing mass irritates the cortex: like other brain tumors, ATRT can present with or cause seizures as it expands and raises intracranial pressure, so seizure control is part of the supportive care for these infants."
+  - target: 01-human/07-system/meningioma
+    relation: connects-to
+    note: "SMARCB1 loss spans CNS tumors: germline SMARCB1 inactivation that causes ATRT also predisposes to familial multiple meningiomas and schwannomas, placing them in one SWI-SNF tumor-predisposition spectrum."
+  - target: 01-human/04-cellular/endothelial-cell
+    relation: connects-to
+    note: "ATRT recruits a dense blood supply: the tumor is highly vascular and VEGF-driven, so its endothelial cells sustain rapid growth and make antiangiogenic strategies a line of investigation alongside cytotoxic therapy."
 ---
 
 # Atypical Teratoid/Rhabdoid Tumor
@@ -338,6 +347,9 @@ AT/RT has no established standard of care; protocols are protocol-driven and cen
 - `connects-to` → **[IGF-1](../../03-molecular/igf-1/README.md)** — Growth signaling drives the rhabdoid cell: the IGF-1/IGF1R pathway is active in ATRT and other rhabdoid tumors, fueling proliferation and offering a targeted vulnerability under study.
 - `connects-to` → **[Regulatory T Cell](../../04-cellular/regulatory-t-cell/README.md)** — The tumor builds an immune-cold microenvironment: regulatory T cells and few effector lymphocytes blunt the antitumor response in ATRT, a barrier that checkpoint and other immunotherapies are being tested against.
 - `connects-to` → **[Chordoma](../chordoma/README.md)** — SMARCB1 loss links them across the midline: poorly-differentiated chordoma deletes the same SMARCB1 gene as ATRT, so the two share a defining epigenetic lesion despite arising from utterly different tissues.
+- `connects-to` → **[Epilepsy](../epilepsy/README.md)** — The growing mass irritates the cortex: like other brain tumors, ATRT can present with or cause seizures as it expands and raises intracranial pressure, so seizure control is part of the supportive care for these infants.
+- `connects-to` → **[Meningioma](../meningioma/README.md)** — SMARCB1 loss spans CNS tumors: germline SMARCB1 inactivation that causes ATRT also predisposes to familial multiple meningiomas and schwannomas, placing them in one SWI-SNF tumor-predisposition spectrum.
+- `connects-to` → **[Endothelial Cell](../../04-cellular/endothelial-cell/README.md)** — ATRT recruits a dense blood supply: the tumor is highly vascular and VEGF-driven, so its endothelial cells sustain rapid growth and make antiangiogenic strategies a line of investigation alongside cytotoxic therapy.
 
 ---
 
