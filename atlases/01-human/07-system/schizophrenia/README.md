@@ -169,6 +169,15 @@ cross_links:
   - target: 01-human/07-system/obesity
     relation: connects-to
     note: "Treatment commonly brings weight gain: many antipsychotics, especially olanzapine and clozapine, drive substantial obesity through appetite and metabolic effects, a major reason for the metabolic syndrome and shortened life expectancy in schizophrenia."
+  - target: 01-human/07-system/type-2-diabetes
+    relation: connects-to
+    note: "The sugar disease often follows: schizophrenia carries a raised risk of type 2 diabetes both from antipsychotics that directly impair insulin signaling — sometimes within weeks, beyond their weight effect — and from an intrinsic predisposition shared with the illness."
+  - target: 01-human/04-cellular/t-helper-cell
+    relation: connects-to
+    note: "An immune signature runs alongside: shifts in helper T-cell subsets and raised inflammatory cytokines appear in schizophrenia, supporting a neuroinflammatory contribution that complements the microglial pruning and complement findings."
+  - target: 01-human/03-molecular/melatonin
+    relation: connects-to
+    note: "The body clock is unsettled: melatonin rhythms are blunted and sleep-wake cycles disrupted in schizophrenia, both as a feature of the illness and a target, with melatonin used to ease the insomnia and metabolic effects of treatment."
 ---
 
 # Schizophrenia
@@ -383,6 +392,9 @@ Notably, schizophrenia shares genetic loci with bipolar disorder, ASD, ADHD, maj
 - `connects-to` → **[Insulin](../../03-molecular/insulin/README.md)** — Schizophrenia and insulin resistance are entangled: antipsychotics blunt insulin sensitivity and drive weight gain, and even drug-naive patients show glucose dysregulation, so the metabolic syndrome that shortens lives in schizophrenia is partly built into the illness.
 - `connects-to` → **[Cardiomyocyte](../../04-cellular/cardiomyocyte/README.md)** — One antipsychotic can inflame the heart muscle: clozapine, the most effective drug for resistant schizophrenia, can cause myocarditis and cardiomyopathy by injuring cardiomyocytes, so cardiac monitoring is mandatory when it is started.
 - `connects-to` → **[Obesity](../obesity/README.md)** — Treatment commonly brings weight gain: many antipsychotics, especially olanzapine and clozapine, drive substantial obesity through appetite and metabolic effects, a major reason for the metabolic syndrome and shortened life expectancy in schizophrenia.
+- `connects-to` → **[Type 2 Diabetes](../type-2-diabetes/README.md)** — The sugar disease often follows: schizophrenia carries a raised risk of type 2 diabetes both from antipsychotics that directly impair insulin signaling — sometimes within weeks, beyond their weight effect — and from an intrinsic predisposition shared with the illness.
+- `connects-to` → **[T Helper Cell](../../04-cellular/t-helper-cell/README.md)** — An immune signature runs alongside: shifts in helper T-cell subsets and raised inflammatory cytokines appear in schizophrenia, supporting a neuroinflammatory contribution that complements the microglial pruning and complement findings.
+- `connects-to` → **[Melatonin](../../03-molecular/melatonin/README.md)** — The body clock is unsettled: melatonin rhythms are blunted and sleep-wake cycles disrupted in schizophrenia, both as a feature of the illness and a target, with melatonin used to ease the insomnia and metabolic effects of treatment.
 
 [^howes-2009-dopamine-hypothesis]: Howes OD, Kapur S. The dopamine hypothesis of schizophrenia: version III—the final common pathway. *Schizophr Bull.* 2009;35(3):549-562. [doi:10.1093/schbul/sbp006](https://doi.org/10.1093/schbul/sbp006) · [PubMed 19325164](https://pubmed.ncbi.nlm.nih.gov/19325164/)
 [^moghaddam-2012-glutamate]: Moghaddam B, Javitt D. From revolution to evolution: the glutamate hypothesis of schizophrenia and its implication for treatment. *Neuropsychopharmacology.* 2012;37(1):4-15. [doi:10.1038/npp.2011.181](https://doi.org/10.1038/npp.2011.181) · [PubMed 21956446](https://pubmed.ncbi.nlm.nih.gov/21956446/)

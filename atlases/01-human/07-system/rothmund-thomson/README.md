@@ -160,6 +160,15 @@ cross_links:
   - target: 01-human/06-organ/thymus
     relation: connects-to
     note: "Immune defenses can run low in RTS: some patients show immunodeficiency with poor antibody and T-cell responses, leaving them prone to recurrent infections — a reminder the RECQL4 defect reaches beyond skin, bone and cancer risk."
+  - target: 01-human/07-system/hnscc
+    relation: connects-to
+    note: "Skin cancer is not the only squamous risk: the photodamaged, repair-deficient epithelium of RTS predisposes to squamous cell carcinomas of the skin and head-and-neck mucosa, a second-cancer threat alongside the syndrome's signature osteosarcoma."
+  - target: 01-human/03-molecular/brca2
+    relation: connects-to
+    note: "RECQL4 works in the same repair shop: the helicase helps replication and homologous-recombination repair, the pathway anchored by BRCA2 and RAD51, so its loss leaves the cell unable to fix the breaks that BRCA-deficient cells also fail."
+  - target: 01-human/04-cellular/dendritic-cell
+    relation: connects-to
+    note: "Sun strips away the skin's sentinels: in photosensitive RTS, ultraviolet exposure depletes the dendritic Langerhans cells that police the epidermis, weakening immune surveillance and helping the damaged keratinocytes escape into skin cancer."
 ---
 
 # Rothmund-Thomson Syndrome
@@ -344,6 +353,9 @@ The cardinal features of RTS type II are: (1) **poikiloderma** — the defining 
 - `connects-to` → **[Aplastic Anemia](../aplastic-anemia/README.md)** — A faulty replication helicase can starve the marrow: RECQL4 loss impairs DNA replication in blood stem cells, so some children with RTS develop cytopenias and aplastic anemia alongside their later risk of myelodysplasia and leukemia.
 - `connects-to` → **[TERT](../../03-molecular/tert/README.md)** — RTS belongs to the genome-instability family: its RECQL4 helicase, like the telomere-maintaining TERT, guards genome integrity, and its loss leaves cells with replication stress and the chromosomal chaos that fuels osteosarcoma.
 - `connects-to` → **[Thymus](../../06-organ/thymus/README.md)** — Immune defenses can run low in RTS: some patients show immunodeficiency with poor antibody and T-cell responses, leaving them prone to recurrent infections — a reminder the RECQL4 defect reaches beyond skin, bone and cancer risk.
+- `connects-to` → **[HNSCC](../hnscc/README.md)** — Skin cancer is not the only squamous risk: the photodamaged, repair-deficient epithelium of RTS predisposes to squamous cell carcinomas of the skin and head-and-neck mucosa, a second-cancer threat alongside the syndrome's signature osteosarcoma.
+- `connects-to` → **[BRCA2](../../03-molecular/brca2/README.md)** — RECQL4 works in the same repair shop: the helicase helps replication and homologous-recombination repair, the pathway anchored by BRCA2 and RAD51, so its loss leaves the cell unable to fix the breaks that BRCA-deficient cells also fail.
+- `connects-to` → **[Dendritic Cell](../../04-cellular/dendritic-cell/README.md)** — Sun strips away the skin's sentinels: in photosensitive RTS, ultraviolet exposure depletes the dendritic Langerhans cells that police the epidermis, weakening immune surveillance and helping the damaged keratinocytes escape into skin cancer.
 
 [^kitao-1999-recql4-rts]: Kitao S, Shimamoto A, Goto M, et al. Mutations in RECQL4 cause a subset of cases of Rothmund-Thomson syndrome. *Nat Genet.* 1999;22(1):82-84. [doi:10.1038/8788](https://doi.org/10.1038/8788) · [PubMed 10319867](https://pubmed.ncbi.nlm.nih.gov/10319867/)
 [^wang-2003-rts-cancer]: Wang LL, Gannavarapu A, Kozinetz CA, et al. Association between osteosarcoma and deleterious mutations in the RECQL4 gene in Rothmund-Thomson syndrome. *J Natl Cancer Inst.* 2003;95(9):669-674. [doi:10.1093/jnci/95.9.669](https://doi.org/10.1093/jnci/95.9.669) · [PubMed 12734318](https://pubmed.ncbi.nlm.nih.gov/12734318/)
