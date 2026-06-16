@@ -156,6 +156,15 @@ cross_links:
   - target: 01-human/04-cellular/macrophage
     relation: connects-to
     note: "The mutation reaches the immune cells: macrophages and monocytes carrying mutant huntingtin are hyperreactive and pour out extra cytokines, a peripheral immune activation that parallels the brain's microglial inflammation."
+  - target: 01-human/03-molecular/complement-c3
+    relation: connects-to
+    note: "Complement tags the doomed synapses: C1q and C3 mark striatal synapses for microglial pruning in Huntington's, an over-active version of developmental synapse elimination that contributes to the early circuit loss."
+  - target: 01-human/07-system/insomnia-disorder
+    relation: connects-to
+    note: "Huntington's wrecks the body clock: degeneration of hypothalamic circadian centers and falling melatonin fragment sleep into severe insomnia and day-night reversal, often years before the chorea, worsening cognition and mood."
+  - target: 01-human/07-system/sepsis
+    relation: connects-to
+    note: "Aspiration is how Huntington's kills: as the disease destroys swallowing control, food and saliva enter the lungs, and the resulting aspiration pneumonia and sepsis are the leading cause of death."
 sources:
   - id: gusella-1983-htt-locus
     type: peer-reviewed
@@ -253,3 +262,6 @@ HD disrupts multiple neural circuit functions:
 - `connects-to` → **[Type 2 Diabetes](../type-2-diabetes/README.md)** — Huntington's deranges metabolism too: mutant huntingtin impairs pancreatic beta cells and energy handling, so diabetes is more common even as relentless weight loss strips the body — a peripheral metabolic face of the disease.
 - `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — Clearing the aggregates runs through mTOR: the protein's signaling restrains autophagy, so mTOR inhibitors like rapamycin are studied to boost the disposal of toxic mutant huntingtin.
 - `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — The mutation reaches the immune cells: macrophages and monocytes carrying mutant huntingtin are hyperreactive and pour out extra cytokines, a peripheral immune activation that parallels the brain's microglial inflammation.
+- `connects-to` → **[Complement C3](../../03-molecular/complement-c3/README.md)** — Complement tags the doomed synapses: C1q and C3 mark striatal synapses for microglial pruning in Huntington's, an over-active version of developmental synapse elimination that contributes to the early circuit loss.
+- `connects-to` → **[Insomnia Disorder](../insomnia-disorder/README.md)** — Huntington's wrecks the body clock: degeneration of hypothalamic circadian centers and falling melatonin fragment sleep into severe insomnia and day-night reversal, often years before the chorea, worsening cognition and mood.
+- `connects-to` → **[Sepsis](../sepsis/README.md)** — Aspiration is how Huntington's kills: as the disease destroys swallowing control, food and saliva enter the lungs, and the resulting aspiration pneumonia and sepsis are the leading cause of death.

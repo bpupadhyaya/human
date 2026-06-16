@@ -169,6 +169,15 @@ cross_links:
   - target: 01-human/07-system/heart-failure
     relation: connects-to
     note: "The cure shadows the survivor's heart: anthracycline chemotherapy and mediastinal radiation cause late cardiomyopathy, valve disease, and heart failure, among the leading non-relapse causes of death in long-term Hodgkin survivors."
+  - target: 01-human/03-molecular/il-6
+    relation: connects-to
+    note: "IL-6 carries the B symptoms: Reed-Sternberg cells and their reactive infiltrate pour out IL-6, driving the fevers, night sweats, and weight loss that mark advanced Hodgkin lymphoma and track with worse prognosis."
+  - target: 01-human/07-system/sepsis
+    relation: connects-to
+    note: "Treatment and asplenia open the door to sepsis: chemotherapy neutropenia and the splenectomy or splenic radiation once used leave Hodgkin patients vulnerable to overwhelming infection from encapsulated bacteria."
+  - target: 01-human/07-system/venous-thromboembolism
+    relation: connects-to
+    note: "A bulky mediastinal mass clots the blood: Hodgkin lymphoma, especially with a large mediastinal tumor compressing veins, carries a high venous thromboembolism risk during diagnosis and treatment."
 ---
 
 # Hodgkin Lymphoma
@@ -341,6 +350,9 @@ Modern protocols minimize RT fields and doses (ISRT replacing extended-field RT)
 - `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — JAK-STAT3 keeps the Reed-Sternberg cell alive: constitutive STAT3 signaling, downstream of JAK2 and cytokine loops, sustains the malignant cell and shapes the immunosuppressive milieu around it.
 - `connects-to` → **[Neutrophil](../../04-cellular/neutrophil/README.md)** — Reed-Sternberg cells recruit a reactive crowd: the cytokines they secrete pull in neutrophils, eosinophils, and other inflammatory cells that vastly outnumber the rare tumor cells in the node.
 - `connects-to` → **[Heart Failure](../heart-failure/README.md)** — The cure shadows the survivor's heart: anthracycline chemotherapy and mediastinal radiation cause late cardiomyopathy, valve disease, and heart failure, among the leading non-relapse causes of death in long-term Hodgkin survivors.
+- `connects-to` → **[Interleukin-6](../../03-molecular/il-6/README.md)** — IL-6 carries the B symptoms: Reed-Sternberg cells and their reactive infiltrate pour out IL-6, driving the fevers, night sweats, and weight loss that mark advanced Hodgkin lymphoma and track with worse prognosis.
+- `connects-to` → **[Sepsis](../sepsis/README.md)** — Treatment and asplenia open the door to sepsis: chemotherapy neutropenia and the splenectomy or splenic radiation once used leave Hodgkin patients vulnerable to overwhelming infection from encapsulated bacteria.
+- `connects-to` → **[Venous Thromboembolism](../venous-thromboembolism/README.md)** — A bulky mediastinal mass clots the blood: Hodgkin lymphoma, especially with a large mediastinal tumor compressing veins, carries a high venous thromboembolism risk during diagnosis and treatment.
 
 [^connors-2018-echelon1]: Connors JM, Jurczak W, Straus DJ, et al. Brentuximab vedotin with chemotherapy for stage III or IV Hodgkin's lymphoma. *N Engl J Med.* 2018;378(4):331-344. [doi:10.1056/NEJMoa1708984](https://doi.org/10.1056/NEJMoa1708984) · [PubMed 29360494](https://pubmed.ncbi.nlm.nih.gov/29360494/)
 [^armand-2018-nivo-hl]: Armand P, Engert A, Younes A, et al. Nivolumab for relapsed/refractory classic Hodgkin lymphoma after failure of autologous hematopoietic cell transplantation: extended follow-up of the multicohort single-arm phase II CheckMate 205 trial. *J Clin Oncol.* 2018;36(14):1428-1439. [doi:10.1200/JCO.2017.77.6717](https://doi.org/10.1200/JCO.2017.77.6717) · [PubMed 29584546](https://pubmed.ncbi.nlm.nih.gov/29584546/)
