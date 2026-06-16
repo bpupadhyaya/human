@@ -169,6 +169,15 @@ cross_links:
   - target: 01-human/04-cellular/t-cytotoxic-cell
     relation: connects-to
     note: "Curable but watched for immune escape: Wilms tumor is largely chemo-curable, yet its immune microenvironment and cytotoxic T-cell infiltrate are studied for the relapsed, anaplastic cases that resist standard therapy."
+  - target: 01-human/07-system/venous-thromboembolism
+    relation: connects-to
+    note: "It grows a clot up the great veins: Wilms tumor characteristically extends as a tumor thrombus into the renal vein and inferior vena cava, sometimes reaching the heart — a vascular invasion that must be mapped before surgery."
+  - target: 01-human/03-molecular/stat3
+    relation: connects-to
+    note: "STAT3 supports the blastemal cells: the chemoresistant blastemal component of Wilms tumor shows STAT3 activation that backs its proliferation, a pathway studied in the anaplastic cases that escape standard therapy."
+  - target: 01-human/07-system/sepsis
+    relation: connects-to
+    note: "Intensive chemo opens the door to infection: the multidrug regimens that cure most Wilms tumors cause neutropenia, so febrile neutropenia and sepsis are recurrent treatment hazards in these young children."
 ---
 
 # Wilms Tumor
@@ -348,6 +357,9 @@ Wilms tumor survivors face late effects proportional to treatment intensity:
 - `connects-to` → **[Renal System](../renal-system/README.md)** — It is the kidney's embryonic gone awry: Wilms tumor (nephroblastoma) arises from persistent metanephric blastema that should have matured into nephrons, a recapitulation of failed kidney development within the renal system.
 - `connects-to` → **[Erythropoietin](../../03-molecular/erythropoietin/README.md)** — The tumor can spike the red count: some Wilms tumors secrete erythropoietin, causing a paraneoplastic polycythemia, while others drive renin and hypertension — the embryonic kidney's hormones turned loose by the cancer.
 - `connects-to` → **[Cytotoxic T Cell](../../04-cellular/t-cytotoxic-cell/README.md)** — Curable but watched for immune escape: Wilms tumor is largely chemo-curable, yet its immune microenvironment and cytotoxic T-cell infiltrate are studied for the relapsed, anaplastic cases that resist standard therapy.
+- `connects-to` → **[Venous Thromboembolism](../venous-thromboembolism/README.md)** — It grows a clot up the great veins: Wilms tumor characteristically extends as a tumor thrombus into the renal vein and inferior vena cava, sometimes reaching the heart — a vascular invasion that must be mapped before surgery.
+- `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — STAT3 supports the blastemal cells: the chemoresistant blastemal component of Wilms tumor shows STAT3 activation that backs its proliferation, a pathway studied in the anaplastic cases that escape standard therapy.
+- `connects-to` → **[Sepsis](../sepsis/README.md)** — Intensive chemo opens the door to infection: the multidrug regimens that cure most Wilms tumors cause neutropenia, so febrile neutropenia and sepsis are recurrent treatment hazards in these young children.
 
 [^dome-2015-wilms]: Dome JS, Graf N, Geller JI, et al. Advances in Wilms tumor treatment and biology: progress through international collaboration. *J Clin Oncol.* 2015;33(27):2999-3007. [doi:10.1200/JCO.2015.62.1888](https://doi.org/10.1200/JCO.2015.62.1888) · [PubMed 26261251](https://pubmed.ncbi.nlm.nih.gov/26261251/)
 [^dix-2006-arenl0002]: Dix DB, Bhatt SM, Geller JI, et al. Treatment of Stage IV favorable histology Wilms tumor with incomplete lung metastasis response after chemotherapy: a report from Children's Oncology Group Study AREN0533. *J Clin Oncol.* 2018;36(16):1564-1570. [doi:10.1200/JCO.2017.77.1877](https://doi.org/10.1200/JCO.2017.77.1877) · [PubMed 29584550](https://pubmed.ncbi.nlm.nih.gov/29584550/)
