@@ -169,6 +169,15 @@ cross_links:
   - target: 01-human/07-system/meningioma
     relation: connects-to
     note: "The tumor risk reaches the meninges: beyond its endocrine triad, menin loss raises the incidence of meningiomas and other central-nervous-system tumors, part of the broad neoplastic predisposition that follows losing this tumor-suppressor scaffold."
+  - target: 01-human/04-cellular/fibroblast
+    relation: connects-to
+    note: "MEN1 marks the skin with fibrous tumors: collagenomas and facial angiofibromas — fibroblast-and-collagen proliferations — are common cutaneous clues that, with lipomas, help flag the syndrome before the endocrine tumors declare themselves."
+  - target: 01-human/03-molecular/calcitonin
+    relation: connects-to
+    note: "Calcitonin separates MEN1 from MEN2: the calcitonin-secreting medullary thyroid carcinoma that defines MEN2 is absent in MEN1, so a normal calcitonin and the parathyroid-pituitary-pancreas pattern point away from a RET syndrome."
+  - target: 01-human/07-system/neurofibromatosis-type-1
+    relation: connects-to
+    note: "It shares the endocrine-tumor neighborhood: like neurofibromatosis type 1 — which carries pheochromocytoma and duodenal neuroendocrine tumors — MEN1 is a single-gene syndrome predisposing to endocrine neoplasia, distinguished by its gene and tumor pattern."
 ---
 
 # MEN1 Syndrome
@@ -339,6 +348,9 @@ Menin haploinsufficiency (one functional allele) creates susceptibility: cells a
 - `connects-to` → **[CDKN1B](../../03-molecular/cdkn1b/README.md)** — Menin works partly through a cell-cycle brake: it drives expression of CDKN1B (p27), so losing menin lowers p27 and lets endocrine cells divide — and germline CDKN1B mutations produce MEN4, a near-twin syndrome that helped reveal this pathway.
 - `connects-to` → **[Gastric Cancer](../gastric-cancer/README.md)** — The pancreatic gastrinomas reach the stomach: their relentless acid drives Zollinger-Ellison ulcers, while the high gastrin also stimulates gastric ECL cells into carcinoid tumors — so a duodeno-pancreatic tumor in MEN1 can seed neoplasia in the stomach wall.
 - `connects-to` → **[Meningioma](../meningioma/README.md)** — The tumor risk reaches the meninges: beyond its endocrine triad, menin loss raises the incidence of meningiomas and other central-nervous-system tumors, part of the broad neoplastic predisposition that follows losing this tumor-suppressor scaffold.
+- `connects-to` → **[Fibroblast](../../04-cellular/fibroblast/README.md)** — MEN1 marks the skin with fibrous tumors: collagenomas and facial angiofibromas — fibroblast-and-collagen proliferations — are common cutaneous clues that, with lipomas, help flag the syndrome before the endocrine tumors declare themselves.
+- `connects-to` → **[Calcitonin](../../03-molecular/calcitonin/README.md)** — Calcitonin separates MEN1 from MEN2: the calcitonin-secreting medullary thyroid carcinoma that defines MEN2 is absent in MEN1, so a normal calcitonin and the parathyroid-pituitary-pancreas pattern point away from a RET syndrome.
+- `connects-to` → **[Neurofibromatosis Type 1](../neurofibromatosis-type-1/README.md)** — It shares the endocrine-tumor neighborhood: like neurofibromatosis type 1 — which carries pheochromocytoma and duodenal neuroendocrine tumors — MEN1 is a single-gene syndrome predisposing to endocrine neoplasia, distinguished by its gene and tumor pattern.
 
 ---
 

@@ -169,6 +169,15 @@ cross_links:
   - target: 01-human/07-system/meningioma
     relation: connects-to
     note: "The predisposition can touch the meninges: like MEN1, MEN4 has been reported with meningiomas, so the same p27 loss that drives the endocrine tumors also appears to relax growth control on the coverings of the brain."
+  - target: 01-human/03-molecular/foxo
+    relation: connects-to
+    note: "FOXO governs the p27 brake that MEN4 loses: FOXO transcription factors drive CDKN1B (p27) expression, so the regulatory network upstream of p27 ties into the cell-cycle escape that defines MEN4 endocrine tumors."
+  - target: 01-human/04-cellular/fibroblast
+    relation: connects-to
+    note: "MEN4 can share MEN1's skin signs: angiofibromas and collagenomas — fibroblast-and-collagen lesions — are reported in MEN4 as in MEN1, reflecting how convergent these near-twin syndromes are clinically."
+  - target: 01-human/07-system/tuberous-sclerosis-complex
+    relation: connects-to
+    note: "It joins the mTOR-linked endocrine-tumor syndromes: like tuberous sclerosis, which also seeds pancreatic neuroendocrine tumors through mTOR overactivity, MEN4 predisposes to endocrine neoplasia and is managed with overlapping surveillance."
 ---
 
 # MEN4 Syndrome
@@ -331,6 +340,9 @@ When clinical MEN features are present:
 - `connects-to` → **[Gastric Cancer](../gastric-cancer/README.md)** — Like its MEN1 twin, MEN4 reaches the stomach: gastrin-secreting duodeno-pancreatic neuroendocrine tumors drive Zollinger-Ellison acid disease and stimulate gastric ECL cells toward carcinoid tumors, extending the syndrome's reach into the stomach wall.
 - `connects-to` → **[Thyroid Cancer](../thyroid-cancer/README.md)** — The rare syndrome's tumor list runs wide: case reports of MEN4 include thyroid carcinoma alongside the core parathyroid, pituitary and pancreatic tumors, reflecting how losing the p27 cell-cycle brake can let many endocrine tissues turn neoplastic.
 - `connects-to` → **[Meningioma](../meningioma/README.md)** — The predisposition can touch the meninges: like MEN1, MEN4 has been reported with meningiomas, so the same p27 loss that drives the endocrine tumors also appears to relax growth control on the coverings of the brain.
+- `connects-to` → **[FOXO](../../03-molecular/foxo/README.md)** — FOXO governs the p27 brake that MEN4 loses: FOXO transcription factors drive CDKN1B (p27) expression, so the regulatory network upstream of p27 ties into the cell-cycle escape that defines MEN4 endocrine tumors.
+- `connects-to` → **[Fibroblast](../../04-cellular/fibroblast/README.md)** — MEN4 can share MEN1's skin signs: angiofibromas and collagenomas — fibroblast-and-collagen lesions — are reported in MEN4 as in MEN1, reflecting how convergent these near-twin syndromes are clinically.
+- `connects-to` → **[Tuberous Sclerosis Complex](../tuberous-sclerosis-complex/README.md)** — It joins the mTOR-linked endocrine-tumor syndromes: like tuberous sclerosis, which also seeds pancreatic neuroendocrine tumors through mTOR overactivity, MEN4 predisposes to endocrine neoplasia and is managed with overlapping surveillance.
 
 [^alrezk-2017-men4]: Alrezk R, Hannah-Shmouni F, Stratakis CA. MEN4 and CDKN1B mutations: the latest of the MEN syndromes. *Endocr Relat Cancer.* 2017;24(10):T195-T208. [doi:10.1530/ERC-17-0243](https://doi.org/10.1530/ERC-17-0243) · [PubMed 28894007](https://pubmed.ncbi.nlm.nih.gov/28894007/)
 [^pellegata-2006-cdkn1b-men4]: Pellegata NS, Quintanilla-Martinez L, Siggelkow H, et al. Germ-line mutations in p27Kip1 cause a multiple endocrine neoplasia syndrome in rats and humans. *Proc Natl Acad Sci USA.* 2006;103(42):15558-15563. [doi:10.1073/pnas.0603306103](https://doi.org/10.1073/pnas.0603306103) · [PubMed 17030811](https://pubmed.ncbi.nlm.nih.gov/17030811/)
