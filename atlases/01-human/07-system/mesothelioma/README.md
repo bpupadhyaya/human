@@ -169,6 +169,15 @@ cross_links:
   - target: 01-human/04-cellular/natural-killer-cell
     relation: connects-to
     note: "Innate killers are part of the fight: natural killer cells can lyse mesothelioma, and the disease's heavy immunosuppression dampens them, which is why NK-engaging and CAR-NK strategies are explored alongside the checkpoint drugs now used against it."
+  - target: 01-human/03-molecular/il-6
+    relation: connects-to
+    note: "IL-6 carries mesothelioma's systemic toll: the tumor and its asbestos-driven inflammation pour out IL-6, fueling the paraneoplastic thrombocytosis, fever, and cachexia that mark advanced disease and predict worse outcome."
+  - target: 01-human/07-system/venous-thromboembolism
+    relation: connects-to
+    note: "Few cancers clot like mesothelioma: its pro-coagulant tumor and the surgery and chemotherapy used against it give a high venous thromboembolism risk that complicates the whole treatment course."
+  - target: 01-human/07-system/heart-failure
+    relation: connects-to
+    note: "It can wrap and squeeze the heart: pericardial mesothelioma — and pleural disease encasing the heart — causes effusion and constriction that impair filling, producing a restrictive heart failure."
 ---
 
 # Mesothelioma
@@ -338,6 +347,9 @@ Cytoreductive surgery (CRS) + hyperthermic intraperitoneal chemotherapy (HIPEC):
 - `connects-to` → **[TERT](../../03-molecular/tert/README.md)** — The tumor cheats its clock: TERT promoter mutations switch telomerase back on so mesothelioma cells escape the telomere shortening that should limit their divisions, one of the few recurrent point mutations in a cancer otherwise defined by losing tumor suppressors.
 - `connects-to` → **[Wnt/beta-catenin](../../03-molecular/wnt-beta-catenin/README.md)** — Beyond Hippo, a second developmental pathway fuels it: aberrant Wnt/β-catenin signaling promotes mesothelial proliferation and survival, making the pathway a studied therapeutic target alongside the YAP/Hippo axis disrupted by NF2 loss.
 - `connects-to` → **[Natural Killer Cell](../../04-cellular/natural-killer-cell/README.md)** — Innate killers are part of the fight: natural killer cells can lyse mesothelioma, and the disease's heavy immunosuppression dampens them, which is why NK-engaging and CAR-NK strategies are explored alongside the checkpoint drugs now used against it.
+- `connects-to` → **[Interleukin-6](../../03-molecular/il-6/README.md)** — IL-6 carries mesothelioma's systemic toll: the tumor and its asbestos-driven inflammation pour out IL-6, fueling the paraneoplastic thrombocytosis, fever, and cachexia that mark advanced disease and predict worse outcome.
+- `connects-to` → **[Venous Thromboembolism](../venous-thromboembolism/README.md)** — Few cancers clot like mesothelioma: its pro-coagulant tumor and the surgery and chemotherapy used against it give a high venous thromboembolism risk that complicates the whole treatment course.
+- `connects-to` → **[Heart Failure](../heart-failure/README.md)** — It can wrap and squeeze the heart: pericardial mesothelioma — and pleural disease encasing the heart — causes effusion and constriction that impair filling, producing a restrictive heart failure.
 
 [^baas-2021-checkmate743]: Baas P, Scherpereel A, Nowak AK, et al. First-line nivolumab plus ipilimumab in unresectable malignant pleural mesothelioma (CheckMate 743). *Lancet.* 2021;397(10272):375-386. [doi:10.1016/S0140-6736(20)32714-8](https://doi.org/10.1016/S0140-6736(20)32714-8) · [PubMed 33485464](https://pubmed.ncbi.nlm.nih.gov/33485464/)
 [^vogelzang-2003-pemetrexed]: Vogelzang NJ, Rusthoven JJ, Symanowski J, et al. Phase III study of pemetrexed in combination with cisplatin versus cisplatin alone in patients with malignant pleural mesothelioma. *J Clin Oncol.* 2003;21(14):2636-2644. [doi:10.1200/JCO.2003.11.136](https://doi.org/10.1200/JCO.2003.11.136) · [PubMed 12860938](https://pubmed.ncbi.nlm.nih.gov/12860938/)
