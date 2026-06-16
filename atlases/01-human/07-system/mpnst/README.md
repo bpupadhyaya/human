@@ -160,6 +160,15 @@ cross_links:
   - target: 01-human/04-cellular/platelet
     relation: connects-to
     note: "Like other aggressive sarcomas it drives clotting: MPNST raises the risk of venous thromboembolism through paraneoplastic thrombocytosis and tumor procoagulants, complicating the major surgery its treatment requires."
+  - target: 01-human/03-molecular/egfr
+    relation: connects-to
+    note: "An upstream receptor feeds the runaway signaling: MPNST often overexpresses EGFR, pouring extra input into the RAS-MAPK pathway already unleashed by NF1 loss, and making the receptor a candidate target in a sarcoma stubbornly resistant to chemotherapy."
+  - target: 01-human/04-cellular/regulatory-t-cell
+    relation: connects-to
+    note: "The tumor builds an immune-cold niche: regulatory T cells and suppressive myeloid cells crowd the MPNST microenvironment and blunt T-cell attack, part of why single-agent checkpoint blockade has disappointed and combination immunotherapy is being tried."
+  - target: 01-human/07-system/melanoma
+    relation: connects-to
+    note: "Two neural-crest tumors meet at the Schwann-melanocyte line: MPNST and melanoma share the S100 and SOX10 lineage markers, and rare melanotic variants blur the boundary, reflecting their common origin in the migrating neural crest."
 ---
 
 # MPNST
@@ -339,6 +348,9 @@ Wide local excision with negative margins is the only potentially curative inter
 - `connects-to` → **[Cardiomyocyte](../../04-cellular/cardiomyocyte/README.md)** — The sarcoma chemotherapy strains the heart: when MPNST is treated, the doxorubicin-ifosfamide backbone carries anthracycline cardiotoxicity, injuring cardiomyocytes and demanding cardiac monitoring through the limited chemo that this resistant tumor allows.
 - `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — Most MPNSTs arise in NF1, which is inherited: the syndrome passes to half of a carrier's children, so a diagnosis prompts family genetic counseling, while the cytotoxic chemotherapy adds its own threat to fertility in these often-young patients.
 - `connects-to` → **[Platelet](../../04-cellular/platelet/README.md)** — Like other aggressive sarcomas it drives clotting: MPNST raises the risk of venous thromboembolism through paraneoplastic thrombocytosis and tumor procoagulants, complicating the major surgery its treatment requires.
+- `connects-to` → **[EGFR](../../03-molecular/egfr/README.md)** — An upstream receptor feeds the runaway signaling: MPNST often overexpresses EGFR, pouring extra input into the RAS-MAPK pathway already unleashed by NF1 loss, and making the receptor a candidate target in a sarcoma stubbornly resistant to chemotherapy.
+- `connects-to` → **[Regulatory T Cell](../../04-cellular/regulatory-t-cell/README.md)** — The tumor builds an immune-cold niche: regulatory T cells and suppressive myeloid cells crowd the MPNST microenvironment and blunt T-cell attack, part of why single-agent checkpoint blockade has disappointed and combination immunotherapy is being tried.
+- `connects-to` → **[Melanoma](../melanoma/README.md)** — Two neural-crest tumors meet at the Schwann-melanocyte line: MPNST and melanoma share the S100 and SOX10 lineage markers, and rare melanotic variants blur the boundary, reflecting their common origin in the migrating neural crest.
 
 [^evans-2002-mpnst-nf1]: Evans DGR, Baser ME, McGaughran J, et al. Malignant peripheral nerve sheath tumours in neurofibromatosis 1. *J Med Genet.* 2002;39(5):311-314. [doi:10.1136/jmg.39.5.311](https://doi.org/10.1136/jmg.39.5.311) · [PubMed 12011145](https://pubmed.ncbi.nlm.nih.gov/12011145/)
 [^lee-2014-mpnst-prc2]: Lee W, Teckie S, Wiesner T, et al. PRC2 is recurrently inactivated through EED or SUZ12 loss in malignant peripheral nerve sheath tumors. *Nat Genet.* 2014;46(11):1227-1232. [doi:10.1038/ng.3095](https://doi.org/10.1038/ng.3095) · [PubMed 25240281](https://pubmed.ncbi.nlm.nih.gov/25240281/)

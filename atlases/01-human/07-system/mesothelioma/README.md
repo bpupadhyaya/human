@@ -160,6 +160,15 @@ cross_links:
   - target: 01-human/04-cellular/mast-cell
     relation: connects-to
     note: "Asbestos keeps the pleura inflamed: the indigestible fibers provoke a chronic response in which mast cells and macrophages release mediators that, over decades, foster the mutations and microenvironment from which mesothelioma arises."
+  - target: 01-human/03-molecular/tert
+    relation: connects-to
+    note: "The tumor cheats its clock: TERT promoter mutations switch telomerase back on so mesothelioma cells escape the telomere shortening that should limit their divisions, one of the few recurrent point mutations in a cancer otherwise defined by losing tumor suppressors."
+  - target: 01-human/03-molecular/wnt-beta-catenin
+    relation: connects-to
+    note: "Beyond Hippo, a second developmental pathway fuels it: aberrant Wnt/β-catenin signaling promotes mesothelial proliferation and survival, making the pathway a studied therapeutic target alongside the YAP/Hippo axis disrupted by NF2 loss."
+  - target: 01-human/04-cellular/natural-killer-cell
+    relation: connects-to
+    note: "Innate killers are part of the fight: natural killer cells can lyse mesothelioma, and the disease's heavy immunosuppression dampens them, which is why NK-engaging and CAR-NK strategies are explored alongside the checkpoint drugs now used against it."
 ---
 
 # Mesothelioma
@@ -326,6 +335,9 @@ Cytoreductive surgery (CRS) + hyperthermic intraperitoneal chemotherapy (HIPEC):
 - `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — Losing NF2 unleashes mTOR: merlin normally restrains both the Hippo pathway and mTORC1, so its frequent loss in mesothelioma drives growth through mTOR — a vulnerability probed alongside the Hippo-YAP axis for targeted therapy.
 - `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — BAP1 mesothelioma runs in families: germline BAP1 mutations transmit a tumor-predisposition syndrome down the generations, so a diagnosis can prompt cascade genetic testing and reproductive counseling for relatives at risk.
 - `connects-to` → **[Mast Cell](../../04-cellular/mast-cell/README.md)** — Asbestos keeps the pleura inflamed: the indigestible fibers provoke a chronic response in which mast cells and macrophages release mediators that, over decades, foster the mutations and microenvironment from which mesothelioma arises.
+- `connects-to` → **[TERT](../../03-molecular/tert/README.md)** — The tumor cheats its clock: TERT promoter mutations switch telomerase back on so mesothelioma cells escape the telomere shortening that should limit their divisions, one of the few recurrent point mutations in a cancer otherwise defined by losing tumor suppressors.
+- `connects-to` → **[Wnt/beta-catenin](../../03-molecular/wnt-beta-catenin/README.md)** — Beyond Hippo, a second developmental pathway fuels it: aberrant Wnt/β-catenin signaling promotes mesothelial proliferation and survival, making the pathway a studied therapeutic target alongside the YAP/Hippo axis disrupted by NF2 loss.
+- `connects-to` → **[Natural Killer Cell](../../04-cellular/natural-killer-cell/README.md)** — Innate killers are part of the fight: natural killer cells can lyse mesothelioma, and the disease's heavy immunosuppression dampens them, which is why NK-engaging and CAR-NK strategies are explored alongside the checkpoint drugs now used against it.
 
 [^baas-2021-checkmate743]: Baas P, Scherpereel A, Nowak AK, et al. First-line nivolumab plus ipilimumab in unresectable malignant pleural mesothelioma (CheckMate 743). *Lancet.* 2021;397(10272):375-386. [doi:10.1016/S0140-6736(20)32714-8](https://doi.org/10.1016/S0140-6736(20)32714-8) · [PubMed 33485464](https://pubmed.ncbi.nlm.nih.gov/33485464/)
 [^vogelzang-2003-pemetrexed]: Vogelzang NJ, Rusthoven JJ, Symanowski J, et al. Phase III study of pemetrexed in combination with cisplatin versus cisplatin alone in patients with malignant pleural mesothelioma. *J Clin Oncol.* 2003;21(14):2636-2644. [doi:10.1200/JCO.2003.11.136](https://doi.org/10.1200/JCO.2003.11.136) · [PubMed 12860938](https://pubmed.ncbi.nlm.nih.gov/12860938/)
