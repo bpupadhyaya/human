@@ -163,6 +163,15 @@ cross_links:
   - target: 01-human/07-system/aplastic-anemia
     relation: connects-to
     note: "Kala-azar mimics marrow failure: fever with pancytopenia and a big spleen makes visceral leishmaniasis a key tropical differential of aplastic anemia, but here the marrow teems with parasitized macrophages rather than standing empty."
+  - target: 01-human/07-system/sepsis
+    relation: connects-to
+    note: "Most deaths come from other germs: visceral leishmaniasis cripples immunity and empties the blood counts, so patients succumb to secondary bacterial infections and sepsis — the proximate killer behind the parasite."
+  - target: 01-human/03-molecular/hepcidin
+    relation: connects-to
+    note: "Inflammation locks away the iron: the chronic immune activation of kala-azar drives hepcidin up, trapping iron in macrophages and starving red-cell production — a key mechanism of the anemia that accompanies its huge spleen."
+  - target: 01-human/04-cellular/mast-cell
+    relation: connects-to
+    note: "The fight starts at the bite: mast cells in the skin at the sandfly bite shape the earliest immune response to Leishmania, influencing whether the parasite is contained as a local sore or disseminates to the organs."
 ---
 
 # Leishmaniasis
@@ -313,3 +322,6 @@ HIV-VL co-infection: CD4+ depletion → loss of IFN-γ production → *Leishmani
 - `connects-to` → **[Cytotoxic T Cell](../../04-cellular/t-cytotoxic-cell/README.md)** — CD8 T cells cut both ways in leishmaniasis: their IFN-γ helps macrophages kill the parasite, but in chronic and post-kala-azar dermal disease their cytotoxic attack drives tissue damage, so they protect and injure depending on the setting.
 - `connects-to` → **[Interleukin-6](../../03-molecular/il-6/README.md)** — Visceral leishmaniasis runs hot with IL-6: the cytokine surge fuels the polyclonal B-cell activation and hypergammaglobulinemia of kala-azar, and high IL-6 marks the systemic inflammation and poor outcome of severe disease.
 - `connects-to` → **[Aplastic Anemia](../aplastic-anemia/README.md)** — Kala-azar mimics marrow failure: fever with pancytopenia and a big spleen makes visceral leishmaniasis a key tropical differential of aplastic anemia, but here the marrow teems with parasitized macrophages rather than standing empty.
+- `connects-to` → **[Sepsis](../sepsis/README.md)** — Most deaths come from other germs: visceral leishmaniasis cripples immunity and empties the blood counts, so patients succumb to secondary bacterial infections and sepsis — the proximate killer behind the parasite.
+- `connects-to` → **[Hepcidin](../../03-molecular/hepcidin/README.md)** — Inflammation locks away the iron: the chronic immune activation of kala-azar drives hepcidin up, trapping iron in macrophages and starving red-cell production — a key mechanism of the anemia that accompanies its huge spleen.
+- `connects-to` → **[Mast Cell](../../04-cellular/mast-cell/README.md)** — The fight starts at the bite: mast cells in the skin at the sandfly bite shape the earliest immune response to Leishmania, influencing whether the parasite is contained as a local sore or disseminates to the organs.

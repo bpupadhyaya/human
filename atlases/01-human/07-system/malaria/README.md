@@ -168,6 +168,15 @@ cross_links:
   - target: 01-human/07-system/hiv-aids
     relation: connects-to
     note: "HIV and malaria worsen each other: HIV's weakened immunity makes malaria more frequent and severe, especially in pregnancy, while acute malaria transiently spikes HIV viral load — a vicious interaction across co-endemic regions."
+  - target: 01-human/04-cellular/t-cytotoxic-cell
+    relation: connects-to
+    note: "The liver stage is killed by T cells: cytotoxic CD8 T cells recognize Plasmodium-infected hepatocytes before the blood stage begins, the immunity that the RTS,S and R21 vaccines try to harness to stop infection at its silent start."
+  - target: 01-human/03-molecular/il-10
+    relation: connects-to
+    note: "A counter-cytokine decides severity: IL-10 restrains the TNF-driven inflammation of malaria, so the balance between them shapes whether infection stays mild or tips into cerebral malaria and severe disease."
+  - target: 01-human/04-cellular/natural-killer-cell
+    relation: connects-to
+    note: "Innate killers sound the first alarm: natural killer cells are among the earliest responders to blood-stage parasites, pouring out interferon-gamma that shapes the downstream immune response to the infection."
 ---
 
 # Malaria
@@ -376,6 +385,9 @@ cross_links:
 - `connects-to` → **[Microglia](../../04-cellular/microglia/README.md)** — Cerebral malaria is a brain-wide inflammation: parasitized red cells jam the brain's capillaries while activated microglia pour out cytokines, the combined sequestration and neuroinflammation driving the seizures and coma that can kill.
 - `connects-to` → **[Hepcidin](../../03-molecular/hepcidin/README.md)** — Malaria reshapes the body's iron traffic: inflammation drives hepcidin up, locking iron away in macrophages — starving the marrow into anemia while also denying the parasite the iron it needs, a double-edged host defense.
 - `connects-to` → **[HIV/AIDS](../hiv-aids/README.md)** — HIV and malaria worsen each other: HIV's weakened immunity makes malaria more frequent and severe, especially in pregnancy, while acute malaria transiently spikes HIV viral load — a vicious interaction across co-endemic regions.
+- `connects-to` → **[Cytotoxic T Cell](../../04-cellular/t-cytotoxic-cell/README.md)** — The liver stage is killed by T cells: cytotoxic CD8 T cells recognize Plasmodium-infected hepatocytes before the blood stage begins, the immunity that the RTS,S and R21 vaccines try to harness to stop infection at its silent start.
+- `connects-to` → **[Interleukin-10](../../03-molecular/il-10/README.md)** — A counter-cytokine decides severity: IL-10 restrains the TNF-driven inflammation of malaria, so the balance between them shapes whether infection stays mild or tips into cerebral malaria and severe disease.
+- `connects-to` → **[Natural Killer Cell](../../04-cellular/natural-killer-cell/README.md)** — Innate killers sound the first alarm: natural killer cells are among the earliest responders to blood-stage parasites, pouring out interferon-gamma that shapes the downstream immune response to the infection.
 
 [^who-malaria-report-2023]: World Health Organization. World Malaria Report 2023. WHO; 2023.
 [^white-2014-malaria-lancet]: White NJ, Pukrittayakamee S, Hien TT, et al. Malaria. *Lancet.* 2014;383(9918):723-735. [doi:10.1016/S0140-6736(13)60024-0](https://doi.org/10.1016/S0140-6736(13)60024-0) · [PubMed 23953767](https://pubmed.ncbi.nlm.nih.gov/23953767/)
