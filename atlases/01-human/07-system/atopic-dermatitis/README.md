@@ -169,6 +169,15 @@ cross_links:
   - target: 01-human/07-system/generalized-anxiety-disorder
     relation: connects-to
     note: "The itch wears on the mind: relentless pruritus, broken sleep, and visible skin disease drive anxiety and depression, so atopic dermatitis carries a heavy psychiatric comorbidity that worsens its course."
+  - target: 01-human/07-system/insomnia-disorder
+    relation: connects-to
+    note: "Eczema steals sleep: nighttime itch and scratching fragment sleep in atopic dermatitis, and the chronic sleep loss compounds the daytime fatigue, mood disturbance, and impaired quality of life central to the disease's burden."
+  - target: 01-human/03-molecular/nlrp3-inflammasome
+    relation: connects-to
+    note: "The damaged barrier alarms the inflammasome: irritants and microbes crossing the broken skin activate keratinocyte NLRP3, releasing IL-1β that adds an innate-inflammatory layer to the type-2 immune drive of atopic dermatitis."
+  - target: 01-human/07-system/social-anxiety-disorder
+    relation: connects-to
+    note: "Visible eczema breeds social fear: the appearance of widespread inflamed skin drives embarrassment and avoidance, so atopic dermatitis carries elevated social anxiety distinct from its general mood burden."
 ---
 
 # Atopic Dermatitis
@@ -342,6 +351,9 @@ S. aureus colonizes >90% of AD lesional skin (vs. 20% normal skin):
 - `connects-to` → **[Interleukin-5](../../03-molecular/il-5/README.md)** — The type-2 storm recruits eosinophils: IL-5 from Th2 cells draws eosinophils into the inflamed skin and raises the blood eosinophil count, part of the allergic cytokine signature that ties eczema to asthma and allergy.
 - `connects-to` → **[Candida albicans](../../../02-pathogen/03-fungi/candida-albicans/README.md)** — The broken barrier invites fungi: the impaired skin defense of atopic dermatitis lets Candida and Malassezia colonize and flare the rash, one of the microbial overgrowths that complicate eczema alongside Staph.
 - `connects-to` → **[Generalized Anxiety Disorder](../generalized-anxiety-disorder/README.md)** — The itch wears on the mind: relentless pruritus, broken sleep, and visible skin disease drive anxiety and depression, so atopic dermatitis carries a heavy psychiatric comorbidity that worsens its course.
+- `connects-to` → **[Insomnia Disorder](../insomnia-disorder/README.md)** — Eczema steals sleep: nighttime itch and scratching fragment sleep in atopic dermatitis, and the chronic sleep loss compounds the daytime fatigue, mood disturbance, and impaired quality of life central to the disease's burden.
+- `connects-to` → **[NLRP3 Inflammasome](../../03-molecular/nlrp3-inflammasome/README.md)** — The damaged barrier alarms the inflammasome: irritants and microbes crossing the broken skin activate keratinocyte NLRP3, releasing IL-1β that adds an innate-inflammatory layer to the type-2 immune drive of atopic dermatitis.
+- `connects-to` → **[Social Anxiety Disorder](../social-anxiety-disorder/README.md)** — Visible eczema breeds social fear: the appearance of widespread inflamed skin drives embarrassment and avoidance, so atopic dermatitis carries elevated social anxiety distinct from its general mood burden.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 

@@ -178,6 +178,15 @@ cross_links:
   - target: 01-human/07-system/narcolepsy
     relation: connects-to
     note: "Sleepiness and inattention overlap: ADHD and narcolepsy frequently co-occur and share a hypoarousal that both respond to stimulants, so daytime sleepiness in ADHD prompts a look for an underlying sleep disorder."
+  - target: 01-human/03-molecular/thyroid-hormones
+    relation: connects-to
+    note: "Thyroid imbalance mimics ADHD: both hyper- and hypothyroidism produce inattention, restlessness, or sluggishness, and rare resistance to thyroid hormone is strongly linked to ADHD — so thyroid function is checked when the picture is atypical."
+  - target: 01-human/06-organ/adrenal-gland
+    relation: connects-to
+    note: "The stress axis runs differently in ADHD: a blunted or dysregulated adrenal cortisol response is reported, part of the altered arousal regulation that underlies the disorder and its links to stress and sleep."
+  - target: 01-human/07-system/migraine
+    relation: connects-to
+    note: "Attention and headache travel together: ADHD and migraine are comorbid more than chance, sharing dopaminergic and arousal dysregulation, so each is more common in people who have the other."
 ---
 
 # Attention-Deficit/Hyperactivity Disorder
@@ -377,6 +386,9 @@ ADHD is a clinical diagnosis requiring [^biederman-2005-adhd-adults]:
 - `connects-to` → **[GABA](../../03-molecular/gaba/README.md)** — Attention needs the brain's brakes too: reduced GABAergic inhibition tips the excitation-inhibition balance in ADHD, contributing to the impulsivity and distractibility that stimulant and other therapies try to rein in.
 - `connects-to` → **[Gut Microbiome](../gut-microbiome/README.md)** — The gut may shape attention: altered microbiome composition is reported in ADHD, and through the microbiome-gut-brain axis it can influence the dopamine and stress signaling tied to the disorder.
 - `connects-to` → **[Narcolepsy](../narcolepsy/README.md)** — Sleepiness and inattention overlap: ADHD and narcolepsy frequently co-occur and share a hypoarousal that both respond to stimulants, so daytime sleepiness in ADHD prompts a look for an underlying sleep disorder.
+- `connects-to` → **[Thyroid Hormones (T3/T4)](../../03-molecular/thyroid-hormones/README.md)** — Thyroid imbalance mimics ADHD: both hyper- and hypothyroidism produce inattention, restlessness, or sluggishness, and rare resistance to thyroid hormone is strongly linked to ADHD — so thyroid function is checked when the picture is atypical.
+- `connects-to` → **[Adrenal Gland](../../06-organ/adrenal-gland/README.md)** — The stress axis runs differently in ADHD: a blunted or dysregulated adrenal cortisol response is reported, part of the altered arousal regulation that underlies the disorder and its links to stress and sleep.
+- `connects-to` → **[Migraine](../migraine/README.md)** — Attention and headache travel together: ADHD and migraine are comorbid more than chance, sharing dopaminergic and arousal dysregulation, so each is more common in people who have the other.
 
 [^faraone-2021-adhd-primer]: Faraone SV, Banaschewski T, Coghill D, et al. The World Federation of ADHD International Consensus Statement: 208 Evidence-based conclusions about the disorder. *Neurosci Biobehav Rev.* 2021;128:789-818. [doi:10.1016/j.neubiorev.2021.01.022](https://doi.org/10.1016/j.neubiorev.2021.01.022) · [PubMed 33549739](https://pubmed.ncbi.nlm.nih.gov/33549739/)
 [^arnsten-2009-adhd-neuroscience]: Arnsten AF. Toward a new understanding of ADHD pathophysiology: an important role for prefrontal cortex dysfunction. *CNS Drugs.* 2009;23(Suppl 1):33-41. [doi:10.2165/00023210-200923000-00005](https://doi.org/10.2165/00023210-200923000-00005) · [PubMed 19621976](https://pubmed.ncbi.nlm.nih.gov/19621976/)
