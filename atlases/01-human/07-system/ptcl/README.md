@@ -169,6 +169,15 @@ cross_links:
   - target: 01-human/07-system/mds
     relation: connects-to
     note: "The cure can sow a second cancer: the intensive chemotherapy and autologous transplant used against PTCL damage the marrow, raising the risk of therapy-related myelodysplastic syndromes years later."
+  - target: 01-human/07-system/cytokine-storm
+    relation: connects-to
+    note: "Aggressive T-cell lymphoma can ignite the immune system: PTCL is a leading driver of secondary hemophagocytic lymphohistiocytosis, a cytokine storm of runaway macrophage activation that can be the lethal presenting picture."
+  - target: 01-human/07-system/sepsis
+    relation: connects-to
+    note: "Disease and treatment both gut immunity: the T-cell malignancy itself plus intensive chemotherapy leave PTCL patients profoundly immunosuppressed and prone to opportunistic infection and sepsis."
+  - target: 01-human/03-molecular/nlrp3-inflammasome
+    relation: connects-to
+    note: "Inflammasome activation feeds the cytokine flood: NLRP3-driven IL-1β release contributes to the hyperinflammatory, HLH-like state that can complicate aggressive peripheral T-cell lymphomas."
 ---
 
 # Peripheral T-cell Lymphoma
@@ -364,6 +373,9 @@ Aggressive presentation; generalized lymphadenopathy; extranodal involvement (~6
 - `connects-to` → **[Intestinal Epithelium](../../05-tissue/intestinal-epithelium/README.md)** — One subtype is born in the damaged gut: enteropathy-associated T-cell lymphoma arises from the intraepithelial T cells of the small-bowel lining injured by celiac disease, turning chronic mucosal inflammation into an aggressive intestinal lymphoma.
 - `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — Survival signaling runs through a familiar hub: PI3K-AKT-mTOR activation supports the malignant T cells across PTCL subtypes, so mTOR inhibitors are tested in a group of lymphomas that respond poorly to standard chemotherapy.
 - `connects-to` → **[Myelodysplastic Syndromes](../mds/README.md)** — The cure can sow a second cancer: the intensive chemotherapy and autologous transplant used against PTCL damage the marrow, raising the risk of therapy-related myelodysplastic syndromes years later.
+- `connects-to` → **[Cytokine Storm](../cytokine-storm/README.md)** — Aggressive T-cell lymphoma can ignite the immune system: PTCL is a leading driver of secondary hemophagocytic lymphohistiocytosis, a cytokine storm of runaway macrophage activation that can be the lethal presenting picture.
+- `connects-to` → **[Sepsis](../sepsis/README.md)** — Disease and treatment both gut immunity: the T-cell malignancy itself plus intensive chemotherapy leave PTCL patients profoundly immunosuppressed and prone to opportunistic infection and sepsis.
+- `connects-to` → **[NLRP3 Inflammasome](../../03-molecular/nlrp3-inflammasome/README.md)** — Inflammasome activation feeds the cytokine flood: NLRP3-driven IL-1β release contributes to the hyperinflammatory, HLH-like state that can complicate aggressive peripheral T-cell lymphomas.
 
 ---
 
