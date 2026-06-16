@@ -166,6 +166,15 @@ cross_links:
   - target: 01-human/07-system/insomnia-disorder
     relation: connects-to
     note: "Panic invades sleep: nocturnal panic attacks jolt patients awake in terror, and the resulting fear of sleep feeds an insomnia that worsens daytime anxiety in a self-reinforcing loop."
+  - target: 01-human/07-system/alcohol-use-disorder
+    relation: connects-to
+    note: "Many self-medicate their way into a second illness: people with panic disorder often drink or take sedatives to quell attacks, and the withdrawal rebound itself provokes panic — a vicious loop that makes alcohol use disorder a frequent companion."
+  - target: 01-human/07-system/migraine
+    relation: connects-to
+    note: "The two travel together: panic disorder and migraine are strongly comorbid, sharing serotonergic and autonomic dysregulation, so each roughly doubles the odds of the other and both can flare under the same stressors."
+  - target: 01-human/03-molecular/bdnf
+    relation: connects-to
+    note: "Stress reshapes the fear circuitry: altered BDNF signaling, which governs the synaptic plasticity of the amygdala and hippocampus, is implicated in how chronic stress lowers the threshold for the runaway fear response of a panic attack."
 ---
 
 # Panic Disorder
@@ -360,6 +369,9 @@ The **interoceptive fear conditioning model** (Bouton, Mineka, Barlow) explains 
 - `connects-to` → **[Estrogen](../../03-molecular/estrogen/README.md)** — Hormone shifts sway the panic threshold: attacks often cluster premenstrually, postpartum, and around menopause, as falling estrogen modulates the serotonin and fear circuits — part of why panic disorder is roughly twice as common in women.
 - `connects-to` → **[Mast Cell](../../04-cellular/mast-cell/README.md)** — Mast cells can mimic a panic attack: in mast cell activation syndrome, surges of histamine and mediators cause flushing, palpitations and a sense of doom indistinguishable from panic, a medical mimic worth excluding in atypical cases.
 - `connects-to` → **[Insomnia Disorder](../insomnia-disorder/README.md)** — Panic invades sleep: nocturnal panic attacks jolt patients awake in terror, and the resulting fear of sleep feeds an insomnia that worsens daytime anxiety in a self-reinforcing loop.
+- `connects-to` → **[Alcohol Use Disorder](../alcohol-use-disorder/README.md)** — Many self-medicate their way into a second illness: people with panic disorder often drink or take sedatives to quell attacks, and the withdrawal rebound itself provokes panic — a vicious loop that makes alcohol use disorder a frequent companion.
+- `connects-to` → **[Migraine](../migraine/README.md)** — The two travel together: panic disorder and migraine are strongly comorbid, sharing serotonergic and autonomic dysregulation, so each roughly doubles the odds of the other and both can flare under the same stressors.
+- `connects-to` → **[BDNF](../../03-molecular/bdnf/README.md)** — Stress reshapes the fear circuitry: altered BDNF signaling, which governs the synaptic plasticity of the amygdala and hippocampus, is implicated in how chronic stress lowers the threshold for the runaway fear response of a panic attack.
 
 [^gorman-2000-panic-neurobiology]: Gorman JM, Kent JM, Sullivan GM, Coplan JD. Neuroanatomical hypothesis of panic disorder, revised. *Am J Psychiatry.* 2000;157(4):493-505. [doi:10.1176/appi.ajp.157.4.493](https://doi.org/10.1176/appi.ajp.157.4.493) · [PubMed 10739407](https://pubmed.ncbi.nlm.nih.gov/10739407/)
 [^nardi-2009-clonazepam-panic]: Nardi AE, Freire RC, Zin WA. Panic disorder and control of breathing. *Respir Physiol Neurobiol.* 2009;167(1):133-143. [doi:10.1016/j.resp.2008.07.011](https://doi.org/10.1016/j.resp.2008.07.011) · [PubMed 18708168](https://pubmed.ncbi.nlm.nih.gov/18708168/)

@@ -160,6 +160,15 @@ cross_links:
   - target: 01-human/04-cellular/platelet
     relation: connects-to
     note: "The treatment also drops the platelets: high-dose methotrexate and the cytarabine often added suppress platelet production into thrombocytopenia, raising bleeding risk and limiting dose intensity through the months of therapy."
+  - target: 01-human/03-molecular/bcl-2
+    relation: connects-to
+    note: "It often carries a survival overdrive: many CNS lymphomas co-express BCL-2 with MYC as 'double-expressors', the anti-apoptotic signal keeping malignant B cells alive and a rationale for testing the BCL-2 inhibitor venetoclax against the disease."
+  - target: 01-human/04-cellular/astrocyte
+    relation: connects-to
+    note: "The tumor grows in glial turf: PCNSL infiltrates the brain parenchyma in angiocentric cuffs, surrounded by reactive astrocytes whose microenvironment and the blood-brain barrier shape both its growth and the difficulty of getting drugs to it."
+  - target: 01-human/07-system/burkitt-lymphoma
+    relation: connects-to
+    note: "Both lymphomas court the nervous system: like PCNSL, Burkitt lymphoma has a strong tropism for the central nervous system, which is why aggressive B-cell lymphomas demand CNS-penetrating therapy and prophylaxis to reach sanctuary sites."
 ---
 
 # Primary CNS Lymphoma
@@ -321,6 +330,9 @@ Score 0-1: 2-year OS ~80%; Score 2-3: ~48%; Score 4-5: ~15%
 - `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — PCNSL survives on chronic signaling: alongside MYD88 and NF-kB activation, JAK-STAT3 signaling drives the lymphoma's growth and helps it evade immunity within the brain's sheltered environment, a pathway probed for targeted therapy.
 - `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — The testis is a sanctuary that talks to the brain: testicular lymphoma notoriously relapses in the CNS, both being immune-privileged sites, so testicular DLBCL gets CNS prophylaxis — and PCNSL's intensive chemo threatens fertility in younger patients.
 - `connects-to` → **[Platelet](../../04-cellular/platelet/README.md)** — The treatment also drops the platelets: high-dose methotrexate and the cytarabine often added suppress platelet production into thrombocytopenia, raising bleeding risk and limiting dose intensity through the months of therapy.
+- `connects-to` → **[BCL-2](../../03-molecular/bcl-2/README.md)** — It often carries a survival overdrive: many CNS lymphomas co-express BCL-2 with MYC as 'double-expressors', the anti-apoptotic signal keeping malignant B cells alive and a rationale for testing the BCL-2 inhibitor venetoclax against the disease.
+- `connects-to` → **[Astrocyte](../../04-cellular/astrocyte/README.md)** — The tumor grows in glial turf: PCNSL infiltrates the brain parenchyma in angiocentric cuffs, surrounded by reactive astrocytes whose microenvironment and the blood-brain barrier shape both its growth and the difficulty of getting drugs to it.
+- `connects-to` → **[Burkitt Lymphoma](../burkitt-lymphoma/README.md)** — Both lymphomas court the nervous system: like PCNSL, Burkitt lymphoma has a strong tropism for the central nervous system, which is why aggressive B-cell lymphomas demand CNS-penetrating therapy and prophylaxis to reach sanctuary sites.
 
 [^bromberg-2019-hovon105]: Bromberg JE, Issa S, Bakunina K, et al. Rituximab in patients with primary CNS lymphoma (HOVON 105/ALLG NHL 24): a randomised, open-label, phase 3 intergroup study. *Lancet Oncol.* 2019;20(2):216-228. [doi:10.1016/S1470-2045(18)30747-2](https://doi.org/10.1016/S1470-2045(18)30747-2) · [PubMed 30528440](https://pubmed.ncbi.nlm.nih.gov/30528440/)
 [^grommes-2017-ibrutinib-pcnsl]: Grommes C, Pastore A, Palaskas N, et al. Ibrutinib unmasks critical role of Bruton tyrosine kinase in primary CNS lymphoma. *Cancer Cell.* 2017;31(6):833-843. [doi:10.1016/j.ccell.2017.04.012](https://doi.org/10.1016/j.ccell.2017.04.012) · [PubMed 28552327](https://pubmed.ncbi.nlm.nih.gov/28552327/)
