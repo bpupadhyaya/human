@@ -160,6 +160,15 @@ cross_links:
   - target: 01-human/04-cellular/dendritic-cell
     relation: connects-to
     note: "Dendritic cells are being enlisted against it: vaccines that load a patient's own dendritic cells with tumor antigen (DCVax-L) aim to prime an immune attack on glioblastoma, one of the immunotherapy strategies tested against this cold tumor."
+  - target: 01-human/03-molecular/mtor
+    relation: connects-to
+    note: "PTEN loss unleashes mTOR: the resulting PI3K-AKT-mTOR overdrive fuels glioblastoma growth and survival, a pathway repeatedly targeted — though resistance has frustrated mTOR inhibitors in the clinic."
+  - target: 01-human/04-cellular/natural-killer-cell
+    relation: connects-to
+    note: "Natural killer cells are recruited to fight the cold tumor: glioblastoma evades them through stress-ligand shedding and an immunosuppressive microenvironment, and NK-cell and CAR-NK therapies aim to restore that attack."
+  - target: 01-human/07-system/lynch-syndrome
+    relation: connects-to
+    note: "Mismatch-repair failure can seed it: constitutional MMR deficiency and Lynch (Turcot) syndrome predispose to glioblastoma, and the hypermutated tumors that result are a rare setting where checkpoint immunotherapy may help."
 ---
 
 # Glioblastoma
@@ -337,6 +346,9 @@ The blood-brain barrier (BBB) creates a pharmacological challenge:
 - `connects-to` → **[Venous Thromboembolism](../venous-thromboembolism/README.md)** — Glioblastoma is one of the most clot-prone cancers: the tumor pours out tissue factor while paresis and surgery add stasis, so deep-vein thrombosis and pulmonary embolism strike a large share of patients and complicate their care.
 - `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — STAT3 fuels the tumor's worst traits: it drives the aggressive mesenchymal subtype and reprograms infiltrating microglia and macrophages into an immunosuppressive state, helping glioblastoma evade attack and resist therapy.
 - `connects-to` → **[Dendritic Cell](../../04-cellular/dendritic-cell/README.md)** — Dendritic cells are being enlisted against it: vaccines that load a patient's own dendritic cells with tumor antigen (DCVax-L) aim to prime an immune attack on glioblastoma, one of the immunotherapy strategies tested against this cold tumor.
+- `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — PTEN loss unleashes mTOR: the resulting PI3K-AKT-mTOR overdrive fuels glioblastoma growth and survival, a pathway repeatedly targeted — though resistance has frustrated mTOR inhibitors in the clinic.
+- `connects-to` → **[Natural Killer Cell](../../04-cellular/natural-killer-cell/README.md)** — Natural killer cells are recruited to fight the cold tumor: glioblastoma evades them through stress-ligand shedding and an immunosuppressive microenvironment, and NK-cell and CAR-NK therapies aim to restore that attack.
+- `connects-to` → **[Lynch Syndrome](../lynch-syndrome/README.md)** — Mismatch-repair failure can seed it: constitutional MMR deficiency and Lynch (Turcot) syndrome predispose to glioblastoma, and the hypermutated tumors that result are a rare setting where checkpoint immunotherapy may help.
 
 ---
 

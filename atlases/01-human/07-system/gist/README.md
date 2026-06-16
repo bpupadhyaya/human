@@ -160,6 +160,15 @@ cross_links:
   - target: 01-human/04-cellular/regulatory-t-cell
     relation: connects-to
     note: "Imatinib does more than block KIT: in GIST it also reshapes immunity, lowering regulatory T cells and unleashing natural killer and T-cell attack on the tumor — an off-target immune boost that adds to its direct effect."
+  - target: 01-human/04-cellular/fibroblast
+    relation: connects-to
+    note: "GIST is a true stromal tumor: it arises from the interstitial cells of Cajal, a mesenchymal lineage akin to fibroblasts, which is why it grows in the gut wall rather than the lining and is named for the stroma it springs from."
+  - target: 01-human/07-system/melanoma
+    relation: connects-to
+    note: "A shared KIT mutation links gut to skin: the same activating KIT changes that drive GIST also power a subset of acral and mucosal melanomas, so both can respond to the KIT inhibitor imatinib."
+  - target: 01-human/03-molecular/cyclin-d1
+    relation: connects-to
+    note: "Constitutive KIT signaling pushes the cell cycle: it drives cyclin D1 to release the G1 checkpoint, the proliferative engine downstream of the mutant receptor that defines GIST."
 ---
 
 # GIST
@@ -338,6 +347,9 @@ No approved targeted therapy; sunitinib may have modest activity; clinical trial
 - `connects-to` → **[HIF-1alpha](../../03-molecular/hif-1alpha/README.md)** — SDH-deficient GISTs run pseudo-hypoxic: when succinate dehydrogenase fails, succinate piles up and stabilizes HIF, so these KIT/PDGFRA-wild-type tumors behave as if starved of oxygen — the same pathway that drives their paraganglioma partners in Carney triad.
 - `connects-to` → **[Cardiomyocyte](../../04-cellular/cardiomyocyte/README.md)** — The kinase inhibitors can strain the heart: sunitinib, used when imatinib fails, injures cardiomyocytes and can cause left-ventricular dysfunction and heart failure, so cardiac function is monitored during the long course of therapy.
 - `connects-to` → **[Regulatory T Cell](../../04-cellular/regulatory-t-cell/README.md)** — Imatinib does more than block KIT: in GIST it also reshapes immunity, lowering regulatory T cells and unleashing natural killer and T-cell attack on the tumor — an off-target immune boost that adds to its direct effect.
+- `connects-to` → **[Fibroblast](../../04-cellular/fibroblast/README.md)** — GIST is a true stromal tumor: it arises from the interstitial cells of Cajal, a mesenchymal lineage akin to fibroblasts, which is why it grows in the gut wall rather than the lining and is named for the stroma it springs from.
+- `connects-to` → **[Melanoma](../melanoma/README.md)** — A shared KIT mutation links gut to skin: the same activating KIT changes that drive GIST also power a subset of acral and mucosal melanomas, so both can respond to the KIT inhibitor imatinib.
+- `connects-to` → **[Cyclin D1](../../03-molecular/cyclin-d1/README.md)** — Constitutive KIT signaling pushes the cell cycle: it drives cyclin D1 to release the G1 checkpoint, the proliferative engine downstream of the mutant receptor that defines GIST.
 
 ---
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
