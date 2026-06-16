@@ -175,6 +175,15 @@ cross_links:
   - target: 01-human/06-organ/adrenal-gland
     relation: connects-to
     note: "Chronic opioids quietly switch off the stress axis: they suppress ACTH and cortisol output, causing an opioid-induced adrenal insufficiency that can leave users dangerously unable to mount a stress response."
+  - target: 01-human/03-molecular/nlrp3-inflammasome
+    relation: connects-to
+    note: "Opioids inflame the brain that craves them: morphine activates microglial TLR4 and the NLRP3 inflammasome, releasing IL-1β that paradoxically drives tolerance, hyperalgesia, and dependence — a neuroinflammatory side to addiction."
+  - target: 01-human/04-cellular/mast-cell
+    relation: connects-to
+    note: "Opioids make mast cells leak histamine: morphine triggers non-immune mast-cell degranulation, producing the itch, flushing, and occasional hypotension seen with use — a pharmacological quirk distinct from true allergy."
+  - target: 01-human/07-system/osteoporosis
+    relation: connects-to
+    note: "Long-term opioids thin the bones: by suppressing gonadal hormones (opioid-induced hypogonadism) and disturbing bone turnover, chronic use lowers bone density and raises fracture risk, an under-recognized harm of maintenance opioids."
 ---
 
 # Opioid Use Disorder
@@ -382,6 +391,9 @@ The primary mechanism by which opioids produce euphoria:
 - `connects-to` → **[HIV](../hiv/README.md)** — Injection use drives the HIV epidemic: shared needles transmit the virus, so opioid use disorder is a leading route of HIV spread, and needle exchange and treatment of addiction are core HIV-prevention tools.
 - `connects-to` → **[Orexin](../../03-molecular/orexin/README.md)** — Orexin fuels the craving and the withdrawal: this arousal-and-reward peptide is recruited by chronic opioids, and blocking it dampens drug-seeking and the misery of withdrawal — a target for new addiction therapies.
 - `connects-to` → **[Adrenal Gland](../../06-organ/adrenal-gland/README.md)** — Chronic opioids quietly switch off the stress axis: they suppress ACTH and cortisol output, causing an opioid-induced adrenal insufficiency that can leave users dangerously unable to mount a stress response.
+- `connects-to` → **[NLRP3 Inflammasome](../../03-molecular/nlrp3-inflammasome/README.md)** — Opioids inflame the brain that craves them: morphine activates microglial TLR4 and the NLRP3 inflammasome, releasing IL-1β that paradoxically drives tolerance, hyperalgesia, and dependence — a neuroinflammatory side to addiction.
+- `connects-to` → **[Mast Cell](../../04-cellular/mast-cell/README.md)** — Opioids make mast cells leak histamine: morphine triggers non-immune mast-cell degranulation, producing the itch, flushing, and occasional hypotension seen with use — a pharmacological quirk distinct from true allergy.
+- `connects-to` → **[Osteoporosis](../osteoporosis/README.md)** — Long-term opioids thin the bones: by suppressing gonadal hormones (opioid-induced hypogonadism) and disturbing bone turnover, chronic use lowers bone density and raises fracture risk, an under-recognized harm of maintenance opioids.
 
 [^volkow-2016-opioid-crisis]: Volkow ND, Collins FS. The role of science in addressing the opioid crisis. *N Engl J Med.* 2017;377(4):391-394. [doi:10.1056/NEJMsr1706626](https://doi.org/10.1056/NEJMsr1706626) · [PubMed 28723324](https://pubmed.ncbi.nlm.nih.gov/28723324/)
 [^mattick-2009-bupe-meta]: Mattick RP, Breen C, Kimber J, Davoli M. Buprenorphine maintenance versus placebo or methadone maintenance for opioid dependence. *Cochrane Database Syst Rev.* 2014;2:CD002207. [doi:10.1002/14651858.CD002207.pub4](https://doi.org/10.1002/14651858.CD002207.pub4) · [PubMed 24500948](https://pubmed.ncbi.nlm.nih.gov/24500948/)

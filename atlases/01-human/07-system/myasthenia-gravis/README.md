@@ -172,6 +172,15 @@ cross_links:
   - target: 01-human/06-organ/spleen
     relation: connects-to
     note: "The antibody source hides in lymphoid tissue: long-lived plasma cells in the spleen and marrow keep secreting anti-AChR antibody, which is why B-cell depletion can fail to clear it and plasma exchange is used in crisis."
+  - target: 01-human/05-tissue/synapse
+    relation: connects-to
+    note: "Myasthenia is a disease of one synapse: anti-AChR antibody, complement, and receptor internalization destroy the postsynaptic folds of the neuromuscular junction, so each nerve impulse fails to reach threshold and the muscle fatigues."
+  - target: 01-human/05-tissue/germinal-center
+    relation: connects-to
+    note: "The thymus grows the wrong germinal centers: thymic hyperplasia in myasthenia forms ectopic germinal centers that school autoreactive B cells against AChR, which is why thymectomy can improve the disease."
+  - target: 01-human/03-molecular/il-17a
+    relation: connects-to
+    note: "A Th17 arm drives the autoimmunity: IL-17A from helper T cells promotes germinal-center responses and the anti-AChR antibody production in myasthenia, running higher in more active and refractory disease."
 ---
 
 # Myasthenia Gravis
@@ -334,6 +343,9 @@ cross_links:
 - `connects-to` → **[BAFF](../../03-molecular/baff/README.md)** — BAFF keeps the autoantibody factories alive: the cytokine rescues the autoreactive B cells that make anti-AChR antibody, so it runs high in myasthenia and is a target of B-cell-directed therapy.
 - `connects-to` → **[Systemic Lupus Erythematosus](../systemic-lupus-erythematosus/README.md)** — Myasthenia keeps autoimmune company: it co-occurs with lupus and other autoimmune diseases more often than chance, reflecting a shared genetic susceptibility to losing self-tolerance.
 - `connects-to` → **[Spleen](../../06-organ/spleen/README.md)** — The antibody source hides in lymphoid tissue: long-lived plasma cells in the spleen and marrow keep secreting anti-AChR antibody, which is why B-cell depletion can fail to clear it and plasma exchange is used in crisis.
+- `connects-to` → **[Synapse](../../05-tissue/synapse/README.md)** — Myasthenia is a disease of one synapse: anti-AChR antibody, complement, and receptor internalization destroy the postsynaptic folds of the neuromuscular junction, so each nerve impulse fails to reach threshold and the muscle fatigues.
+- `connects-to` → **[Germinal Center](../../05-tissue/germinal-center/README.md)** — The thymus grows the wrong germinal centers: thymic hyperplasia in myasthenia forms ectopic germinal centers that school autoreactive B cells against AChR, which is why thymectomy can improve the disease.
+- `connects-to` → **[IL-17A](../../03-molecular/il-17a/README.md)** — A Th17 arm drives the autoimmunity: IL-17A from helper T cells promotes germinal-center responses and the anti-AChR antibody production in myasthenia, running higher in more active and refractory disease.
 
 [^gilhus-2016-mg-review]: Gilhus NE. Myasthenia Gravis. *N Engl J Med.* 2016;375(26):2570-2581. [doi:10.1056/NEJMra1602678](https://doi.org/10.1056/NEJMra1602678) · [PubMed 28029925](https://pubmed.ncbi.nlm.nih.gov/28029925/)
 [^howard-2021-efgartigimod-adapt]: Howard JF Jr, Bril V, Vu T, et al. Safety, efficacy, and tolerability of efgartigimod in patients with generalised myasthenia gravis (ADAPT). *Lancet Neurol.* 2021;20(7):526-536. [doi:10.1016/S1474-4422(21)00159-9](https://doi.org/10.1016/S1474-4422(21)00159-9) · [PubMed 34146511](https://pubmed.ncbi.nlm.nih.gov/34146511/)
