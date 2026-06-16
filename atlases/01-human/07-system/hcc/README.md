@@ -166,6 +166,15 @@ cross_links:
   - target: 02-pathogen/03-fungi/aspergillus-fumigatus
     relation: connects-to
     note: "A mold's toxin scars its signature into the genome: Aspergillus growing on stored grain makes aflatoxin, which causes the hallmark p53 R249S mutation, a major driver of HCC where contamination and hepatitis B overlap."
+  - target: 01-human/03-molecular/ctnnb1
+    relation: connects-to
+    note: "One subclass runs on Wnt: activating CTNNB1 (β-catenin) mutations define a major group of liver cancers — and these tumors are typically immune-cold, resisting the checkpoint immunotherapy that helps other HCCs."
+  - target: 01-human/04-cellular/dendritic-cell
+    relation: connects-to
+    note: "Reawakening the immune attack is the new strategy: dendritic cells must present tumor antigens to mount the T-cell response that atezolizumab-bevacizumab unleashes, the immunotherapy that reshaped advanced HCC treatment."
+  - target: 01-human/07-system/venous-thromboembolism
+    relation: connects-to
+    note: "It famously invades the veins: HCC has a strong tendency to grow into the portal and hepatic veins and to provoke cancer-associated venous thromboembolism, complicating both staging and anticoagulation decisions."
 ---
 
 # Hepatocellular Carcinoma
@@ -353,6 +362,9 @@ In high-risk patients (cirrhosis, HBV regardless of cirrhosis): ultrasound ± AF
 - `connects-to` → **[Fibroblast](../../04-cellular/fibroblast/README.md)** — The scar-making cell sets the stage for cancer: activated hepatic stellate cells and cancer-associated fibroblasts lay down the fibrosis that precedes HCC and then build the tumor stroma that shelters and feeds it.
 - `connects-to` → **[Transforming Growth Factor Beta](../../03-molecular/tgf-beta/README.md)** — TGF-β plays both fibrosis and tumor: it drives the stellate-cell scarring that breeds HCC, then in the tumor switches to promoting invasion and suppressing the immune attack, a dual role that makes it a therapeutic target.
 - `connects-to` → **[Aspergillus fumigatus](../../../02-pathogen/03-fungi/aspergillus-fumigatus/README.md)** — A mold's toxin scars its signature into the genome: Aspergillus growing on stored grain makes aflatoxin, which causes the hallmark p53 R249S mutation, a major driver of HCC where contamination and hepatitis B overlap.
+- `connects-to` → **[CTNNB1](../../03-molecular/ctnnb1/README.md)** — One subclass runs on Wnt: activating CTNNB1 (β-catenin) mutations define a major group of liver cancers — and these tumors are typically immune-cold, resisting the checkpoint immunotherapy that helps other HCCs.
+- `connects-to` → **[Dendritic Cell](../../04-cellular/dendritic-cell/README.md)** — Reawakening the immune attack is the new strategy: dendritic cells must present tumor antigens to mount the T-cell response that atezolizumab-bevacizumab unleashes, the immunotherapy that reshaped advanced HCC treatment.
+- `connects-to` → **[Venous Thromboembolism](../venous-thromboembolism/README.md)** — It famously invades the veins: HCC has a strong tendency to grow into the portal and hepatic veins and to provoke cancer-associated venous thromboembolism, complicating both staging and anticoagulation decisions.
 
 [^llovet-2008-sorafenib]: Llovet JM, Ricci S, Mazzaferro V, et al. Sorafenib in advanced hepatocellular carcinoma. *N Engl J Med.* 2008;359(4):378-390. [doi:10.1056/NEJMoa0708857](https://doi.org/10.1056/NEJMoa0708857) · [PubMed 18650514](https://pubmed.ncbi.nlm.nih.gov/18650514/)
 [^finn-2020-imbrave150]: Finn RS, Qin S, Ikeda M, et al. Atezolizumab plus bevacizumab in unresectable hepatocellular carcinoma. *N Engl J Med.* 2020;382(20):1894-1905. [doi:10.1056/NEJMoa1915745](https://doi.org/10.1056/NEJMoa1915745) · [PubMed 32402160](https://pubmed.ncbi.nlm.nih.gov/32402160/)

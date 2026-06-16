@@ -175,6 +175,15 @@ cross_links:
   - target: 01-human/04-cellular/plasma-cell
     relation: connects-to
     note: "B-cell help fails even as antibody floods in: HIV drives a chaotic polyclonal plasma-cell activation and hypergammaglobulinemia, yet the specific, protective antibody response decays — dysregulation, not just deficiency."
+  - target: 01-human/07-system/cervical-cancer
+    relation: connects-to
+    note: "Lost immunity lets HPV run to cancer: with CD4 surveillance gone, human papillomavirus persists and progresses, making invasive cervical cancer an AIDS-defining malignancy and a major cause of cancer death in women with HIV."
+  - target: 01-human/07-system/ckd
+    relation: connects-to
+    note: "The virus scars the kidney: HIV-associated nephropathy, a collapsing glomerulopathy driven by viral genes in kidney cells, drives chronic kidney disease, especially before treatment and in those of African ancestry with APOL1 risk variants."
+  - target: 01-human/07-system/cardiovascular-system
+    relation: connects-to
+    note: "Even controlled HIV ages the arteries: chronic immune activation on top of antiretroviral metabolic effects accelerates atherosclerosis, so cardiovascular disease is now a leading cause of death in the treated, aging HIV population."
 ---
 
 # HIV
@@ -362,6 +371,9 @@ The **latent reservoir** — HIV integrated into quiescent resting memory CD4+ T
 - `connects-to` → **[Thymus](../../06-organ/thymus/README.md)** — HIV cripples the organ that makes T cells: it depletes the thymus and its output of naive CD4 cells, so the gland's failing reserve limits immune reconstitution even once antiretrovirals suppress the virus.
 - `connects-to` → **[Atherosclerosis](../atherosclerosis/README.md)** — Treated HIV ages the arteries early: chronic immune activation plus the dyslipidemia of some antiretrovirals accelerate atherosclerosis, so heart attack and stroke have become leading causes of death in the ART era.
 - `connects-to` → **[Plasma Cell](../../04-cellular/plasma-cell/README.md)** — B-cell help fails even as antibody floods in: HIV drives a chaotic polyclonal plasma-cell activation and hypergammaglobulinemia, yet the specific, protective antibody response decays — dysregulation, not just deficiency.
+- `connects-to` → **[Cervical Cancer](../cervical-cancer/README.md)** — Lost immunity lets HPV run to cancer: with CD4 surveillance gone, human papillomavirus persists and progresses, making invasive cervical cancer an AIDS-defining malignancy and a major cause of cancer death in women with HIV.
+- `connects-to` → **[Chronic Kidney Disease](../ckd/README.md)** — The virus scars the kidney: HIV-associated nephropathy, a collapsing glomerulopathy driven by viral genes in kidney cells, drives chronic kidney disease, especially before treatment and in those of African ancestry with APOL1 risk variants.
+- `connects-to` → **[Cardiovascular system](../cardiovascular-system/README.md)** — Even controlled HIV ages the arteries: chronic immune activation on top of antiretroviral metabolic effects accelerates atherosclerosis, so cardiovascular disease is now a leading cause of death in the treated, aging HIV population.
 
 [^barre-sinoussi-1983-hiv-isolation]: Barré-Sinoussi F, Chermann JC, Rey F, et al. Isolation of a T-lymphotropic retrovirus from a patient at risk for acquired immune deficiency syndrome (AIDS). *Science.* 1983;220(4599):868-871. [doi:10.1126/science.6189183](https://doi.org/10.1126/science.6189183) · [PubMed 6189183](https://pubmed.ncbi.nlm.nih.gov/6189183/)
 [^ho-1995-viral-dynamics]: Ho DD, Neumann AU, Perelson AS, et al. Rapid turnover of plasma virions and CD4 lymphocytes in HIV-1 infection. *Nature.* 1995;373(6510):123-126. [doi:10.1038/373123a0](https://doi.org/10.1038/373123a0) · [PubMed 7816094](https://pubmed.ncbi.nlm.nih.gov/7816094/)
