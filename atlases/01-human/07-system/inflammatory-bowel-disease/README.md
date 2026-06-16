@@ -175,6 +175,15 @@ cross_links:
   - target: 01-human/04-cellular/plasma-cell
     relation: connects-to
     note: "The inflamed mucosa fills with antibody factories: expanded plasma cells secrete IgG and IgA into the bowel wall, and in ulcerative colitis autoantibodies and this B-lineage response form part of the tissue damage alongside the T-cell-driven inflammation."
+  - target: 02-pathogen/02-bacteria/clostridioides-difficile
+    relation: connects-to
+    note: "C. difficile both complicates and mimics IBD: the disrupted microbiome and immunosuppression of IBD raise C. diff risk, and superimposed infection drives flares and toxic megacolon — so stool toxin testing is routine when a patient worsens."
+  - target: 01-human/07-system/iron-deficiency-anemia
+    relation: connects-to
+    note: "Anemia is IBD's commonest extraintestinal complication: chronic gut blood loss plus the iron-sequestering anemia of inflammation drains hemoglobin, so iron status is tracked and intravenous iron often needed."
+  - target: 01-human/03-molecular/nlrp3-inflammasome
+    relation: connects-to
+    note: "The inflammasome stokes the gut wall: microbial breach of the epithelium activates NLRP3 in mucosal macrophages, releasing IL-1β that amplifies the inflammation — a node studied to dampen IBD beyond TNF blockade."
 ---
 
 # Inflammatory Bowel Disease
@@ -355,6 +364,9 @@ IBD is a complex polygenic disease with >240 susceptibility loci (GWAS):
 - `connects-to` → **[Escherichia coli](../../../02-pathogen/02-bacteria/escherichia-coli/README.md)** — A specific microbe is implicated: adherent-invasive E. coli colonize the Crohn's mucosa, invade epithelium, and survive inside macrophages, one of the clearest examples of a gut bacterium tipping a susceptible host into chronic intestinal inflammation.
 - `connects-to` → **[NF-κB](../../03-molecular/nf-kb/README.md)** — NF-κB is the master switch behind the flare: this transcription factor, fired by microbial and cytokine signals in the gut wall, turns on the TNF, IL-6 and chemokine genes that sustain IBD inflammation — the hub many therapies act upstream of.
 - `connects-to` → **[Plasma Cell](../../04-cellular/plasma-cell/README.md)** — The inflamed mucosa fills with antibody factories: expanded plasma cells secrete IgG and IgA into the bowel wall, and in ulcerative colitis autoantibodies and this B-lineage response form part of the tissue damage alongside the T-cell-driven inflammation.
+- `connects-to` → **[Clostridioides difficile](../../../02-pathogen/02-bacteria/clostridioides-difficile/README.md)** — C. difficile both complicates and mimics IBD: the disrupted microbiome and immunosuppression of IBD raise C. diff risk, and superimposed infection drives flares and toxic megacolon — so stool toxin testing is routine when a patient worsens.
+- `connects-to` → **[Iron Deficiency Anemia](../iron-deficiency-anemia/README.md)** — Anemia is IBD's commonest extraintestinal complication: chronic gut blood loss plus the iron-sequestering anemia of inflammation drains hemoglobin, so iron status is tracked and intravenous iron often needed.
+- `connects-to` → **[NLRP3 Inflammasome](../../03-molecular/nlrp3-inflammasome/README.md)** — The inflammasome stokes the gut wall: microbial breach of the epithelium activates NLRP3 in mucosal macrophages, releasing IL-1β that amplifies the inflammation — a node studied to dampen IBD beyond TNF blockade.
 
 [^ng-2017-ibd-epidemiology]: Ng SC, Shi HY, Hamidi N, et al. Worldwide incidence and prevalence of inflammatory bowel disease in the 21st century: a systematic review of population-based studies. *Lancet.* 2018;390(10114):2769-2778. [doi:10.1016/S0140-6736(17)32448-0](https://doi.org/10.1016/S0140-6736(17)32448-0) · [PubMed 29050646](https://pubmed.ncbi.nlm.nih.gov/29050646/)
 [^sandborn-2012-vedolizumab]: Feagan BG, Rutgeerts P, Sands BE, et al. Vedolizumab as induction and maintenance therapy for ulcerative colitis. *N Engl J Med.* 2013;369(8):699-710. [doi:10.1056/NEJMoa1215734](https://doi.org/10.1056/NEJMoa1215734) · [PubMed 23964932](https://pubmed.ncbi.nlm.nih.gov/23964932/)

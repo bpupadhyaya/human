@@ -169,6 +169,15 @@ cross_links:
   - target: 01-human/07-system/esophageal-cancer
     relation: connects-to
     note: "The cancer risk runs the length of the gut: beyond the colon and stomach, the lifelong predisposition extends up the upper tract, so surveillance watches the esophagus and small bowel as well as the sites where polyps cluster most densely."
+  - target: 01-human/03-molecular/p53
+    relation: connects-to
+    note: "A second hit turns the polyp malignant: beyond the germline SMAD4 or BMPR1A loss, somatic TP53 and other mutations accumulate as a juvenile polyp progresses to colorectal or gastric cancer."
+  - target: 01-human/07-system/venous-thromboembolism
+    relation: connects-to
+    note: "Cancer and major surgery raise the clot risk: a colorectal cancer arising in JPS, and the colectomy or gastrectomy used to treat heavy polyposis, both predispose to perioperative venous thromboembolism."
+  - target: 01-human/07-system/sepsis
+    relation: connects-to
+    note: "Surgery carries the infectious risk: the colectomy or gastrectomy that high polyp burden eventually demands can be complicated by anastomotic leak and intra-abdominal sepsis."
 ---
 
 # Juvenile Polyposis Syndrome
@@ -349,6 +358,9 @@ No approved chemopreventive agents specifically for JPS. Options under investiga
 - `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — The polyps are overgrowths driven by spared brakes: where the syndrome overlaps PTEN/Cowden biology, loss of restraint on the PI3K-AKT-mTOR axis lets the gut lining pile up into hamartomatous polyps, making mTOR a candidate target for chemoprevention.
 - `connects-to` → **[Mast Cell](../../04-cellular/mast-cell/README.md)** — Juvenile polyps are inflammatory hamartomas: their loose lamina propria is packed with mast cells, eosinophils and other inflammatory cells around dilated cystic glands, the histology that distinguishes them from the adenomas of other polyposis syndromes.
 - `connects-to` → **[Esophageal Cancer](../esophageal-cancer/README.md)** — The cancer risk runs the length of the gut: beyond the colon and stomach, the lifelong predisposition extends up the upper tract, so surveillance watches the esophagus and small bowel as well as the sites where polyps cluster most densely.
+- `connects-to` → **[p53](../../03-molecular/p53/README.md)** — A second hit turns the polyp malignant: beyond the germline SMAD4 or BMPR1A loss, somatic TP53 and other mutations accumulate as a juvenile polyp progresses to colorectal or gastric cancer.
+- `connects-to` → **[Venous Thromboembolism](../venous-thromboembolism/README.md)** — Cancer and major surgery raise the clot risk: a colorectal cancer arising in JPS, and the colectomy or gastrectomy used to treat heavy polyposis, both predispose to perioperative venous thromboembolism.
+- `connects-to` → **[Sepsis](../sepsis/README.md)** — Surgery carries the infectious risk: the colectomy or gastrectomy that high polyp burden eventually demands can be complicated by anastomotic leak and intra-abdominal sepsis.
 
 [^howe-1998-smad4-jps]: Howe JR, Roth S, Ringold JC, et al. Mutations in the SMAD4/DPC4 gene in juvenile polyposis. *Science.* 1998;280(5366):1086-1088. [doi:10.1126/science.280.5366.1086](https://doi.org/10.1126/science.280.5366.1086) · [PubMed 9582123](https://pubmed.ncbi.nlm.nih.gov/9582123/)
 [^aretz-2007-jps-spectrum]: Aretz S, Stienen D, Uhlhaas S, et al. High proportion of large genomic deletions and a genotype-phenotype update in 80 unrelated families with juvenile polyposis syndrome. *J Med Genet.* 2007;44(11):702-709. [doi:10.1136/jmg.2007.051839](https://doi.org/10.1136/jmg.2007.051839) · [PubMed 17601924](https://pubmed.ncbi.nlm.nih.gov/17601924/)
