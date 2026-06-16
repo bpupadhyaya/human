@@ -175,6 +175,15 @@ cross_links:
   - target: 01-human/04-cellular/plasma-cell
     relation: connects-to
     note: "Plasma cells make the diagnostic antibodies: the myositis-specific autoantibodies — anti-Mi-2, anti-MDA5, anti-TIF1-gamma — are secreted by plasma cells and define clinical subsets, including which patients need urgent cancer screening."
+  - target: 01-human/03-molecular/il-6
+    relation: connects-to
+    note: "IL-6 tracks the inflammation: this cytokine rises with disease activity in dermatomyositis, fueling the muscle and skin inflammation alongside the dominant interferon signature, and is a target tested for refractory disease."
+  - target: 01-human/04-cellular/regulatory-t-cell
+    relation: connects-to
+    note: "Faltering immune restraint lets it run: a deficiency and dysfunction of regulatory T cells helps unleash the autoreactive response against muscle and skin, part of why broad immunosuppression rather than a single target is often needed."
+  - target: 01-human/07-system/sjogrens-syndrome
+    relation: connects-to
+    note: "It keeps autoimmune company: dermatomyositis frequently overlaps other connective-tissue diseases including Sjögren's, sharing the interferon-driven autoimmunity that can blur one syndrome into another."
 ---
 
 # Dermatomyositis
@@ -352,6 +361,9 @@ DM carries a ~3–7× elevated cancer risk overall. Anti-TIF1γ (TRIM33) suppres
 - `connects-to` → **[STAT1](../../03-molecular/stat1/README.md)** — An interferon signature defines dermatomyositis: type-I interferon signals through JAK-STAT1 to drive the gene program seen in affected muscle and skin (perifascicular MxA), the rationale for the JAK inhibitors now used, especially in anti-MDA5 disease.
 - `connects-to` → **[Venous Thromboembolism](../venous-thromboembolism/README.md)** — Active myositis thickens the blood: the systemic inflammation, immobility from muscle weakness, and any underlying malignancy raise the risk of deep-vein thrombosis and pulmonary embolism in dermatomyositis.
 - `connects-to` → **[Plasma Cell](../../04-cellular/plasma-cell/README.md)** — Plasma cells make the diagnostic antibodies: the myositis-specific autoantibodies — anti-Mi-2, anti-MDA5, anti-TIF1-gamma — are secreted by plasma cells and define clinical subsets, including which patients need urgent cancer screening.
+- `connects-to` → **[Interleukin-6](../../03-molecular/il-6/README.md)** — IL-6 tracks the inflammation: this cytokine rises with disease activity in dermatomyositis, fueling the muscle and skin inflammation alongside the dominant interferon signature, and is a target tested for refractory disease.
+- `connects-to` → **[Regulatory T Cell](../../04-cellular/regulatory-t-cell/README.md)** — Faltering immune restraint lets it run: a deficiency and dysfunction of regulatory T cells helps unleash the autoreactive response against muscle and skin, part of why broad immunosuppression rather than a single target is often needed.
+- `connects-to` → **[Sjögren's Syndrome](../sjogrens-syndrome/README.md)** — It keeps autoimmune company: dermatomyositis frequently overlaps other connective-tissue diseases including Sjögren's, sharing the interferon-driven autoimmunity that can blur one syndrome into another.
 
 [^bohan-peter-1975-dm-criteria]: Bohan A, Peter JB. Polymyositis and dermatomyositis. *N Engl J Med.* 1975;292(7):344-347. [doi:10.1056/NEJM197502132920706](https://doi.org/10.1056/NEJM197502132920706) · [PubMed 1090839](https://pubmed.ncbi.nlm.nih.gov/1090839/)
 [^lundberg-2021-iim-classification]: Lundberg IE, et al. 2017 EULAR/ACR classification criteria for adult and juvenile idiopathic inflammatory myopathies. *Arthritis Rheumatol.* 2017;69(12):2271-2282. [doi:10.1002/art.40320](https://doi.org/10.1002/art.40320) · [PubMed 29106061](https://pubmed.ncbi.nlm.nih.gov/29106061/)

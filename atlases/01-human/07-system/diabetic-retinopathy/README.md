@@ -169,6 +169,15 @@ cross_links:
   - target: 01-human/04-cellular/t-helper-cell
     relation: connects-to
     note: "Low-grade immune activation joins the damage: T cells and leukostasis contribute to the chronic inflammation that injures the retinal capillaries, an immune dimension layered on the metabolic insult of hyperglycemia."
+  - target: 01-human/05-tissue/peripheral-nerve
+    relation: connects-to
+    note: "It travels with its neural cousin: diabetic retinopathy and peripheral neuropathy are parallel microvascular complications of the same hyperglycemia, so finding one should prompt screening for the other across the diabetic body."
+  - target: 01-human/03-molecular/tnf-alpha
+    relation: connects-to
+    note: "Inflammatory cytokines stoke the leak: TNF-α released in the diabetic retina breaks down the blood-retinal barrier and drives leukostasis, adding an inflammatory push to the VEGF-driven vascular damage."
+  - target: 01-human/07-system/cardiovascular-system
+    relation: connects-to
+    note: "The eye is a window on the arteries: diabetic retinopathy signals widespread microvascular disease, so its presence flags a markedly higher risk of heart attack, stroke and other cardiovascular events body-wide."
 ---
 
 # Diabetic Retinopathy
@@ -329,6 +338,9 @@ DR encompasses a spectrum from subtle vascular changes to sight-threatening neov
 - `connects-to` → **[Stroke](../stroke/README.md)** — The retina is a window on the whole vasculature: diabetic retinopathy marks systemic microvascular damage and independently predicts stroke and cardiovascular events, so finding it should prompt aggressive control of blood pressure and glucose.
 - `connects-to` → **[Interleukin-6](../../03-molecular/il-6/README.md)** — Inflammation, not just sugar, harms the retina: IL-6 and other cytokines rise in the diabetic eye, driving the vascular leak behind macular edema — why intravitreal steroids help when anti-VEGF alone does not.
 - `connects-to` → **[T Helper Cell](../../04-cellular/t-helper-cell/README.md)** — Low-grade immune activation joins the damage: T cells and leukostasis contribute to the chronic inflammation that injures the retinal capillaries, an immune dimension layered on the metabolic insult of hyperglycemia.
+- `connects-to` → **[Peripheral Nerve](../../05-tissue/peripheral-nerve/README.md)** — It travels with its neural cousin: diabetic retinopathy and peripheral neuropathy are parallel microvascular complications of the same hyperglycemia, so finding one should prompt screening for the other across the diabetic body.
+- `connects-to` → **[TNF-α](../../03-molecular/tnf-alpha/README.md)** — Inflammatory cytokines stoke the leak: TNF-α released in the diabetic retina breaks down the blood-retinal barrier and drives leukostasis, adding an inflammatory push to the VEGF-driven vascular damage.
+- `connects-to` → **[Cardiovascular system](../cardiovascular-system/README.md)** — The eye is a window on the arteries: diabetic retinopathy signals widespread microvascular disease, so its presence flags a markedly higher risk of heart attack, stroke and other cardiovascular events body-wide.
 
 [^fong-2004-dr-review]: Fong DS, Aiello L, Gardner TW, et al. Diabetic retinopathy. *Diabetes Care.* 2004;27(10):2540-2553. [doi:10.2337/diacare.27.10.2540](https://doi.org/10.2337/diacare.27.10.2540) · [PubMed 15451934](https://pubmed.ncbi.nlm.nih.gov/15451934/)
 [^brown-2015-aflibercept-protocol-t]: Diabetic Retinopathy Clinical Research Network; Wells JA, Glassman AR, et al. Aflibercept, Bevacizumab, or Ranibizumab for Diabetic Macular Edema. *N Engl J Med.* 2015;372(13):1193-1203. [doi:10.1056/NEJMoa1414264](https://doi.org/10.1056/NEJMoa1414264) · [PubMed 25692915](https://pubmed.ncbi.nlm.nih.gov/25692915/)
