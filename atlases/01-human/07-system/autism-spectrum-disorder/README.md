@@ -175,6 +175,15 @@ cross_links:
   - target: 01-human/07-system/neurofibromatosis-type-1
     relation: connects-to
     note: "A single-gene road to autism: neurofibromatosis type 1 carries a high rate of autism features, one of the RAS-MAPK 'RASopathies' that, like tuberous sclerosis, show how one mutation can derail the social brain."
+  - target: 01-human/03-molecular/endocannabinoid
+    relation: connects-to
+    note: "The body's cannabis system tunes the social brain: endocannabinoid signaling shapes the synaptic plasticity and reward responses to social cues, and its dysregulation in autism is the rationale behind cannabidiol trials for the condition."
+  - target: 01-human/04-cellular/regulatory-t-cell
+    relation: connects-to
+    note: "An immune imbalance shadows it: reduced regulatory T cells and a tilt toward inflammation accompany autism, fitting the maternal-immune-activation models in which prenatal inflammation reshapes brain development."
+  - target: 01-human/07-system/insomnia-disorder
+    relation: connects-to
+    note: "Sleep rarely comes easy: insomnia and disrupted sleep architecture are strikingly common in autism, tied to altered melatonin rhythms, and poor sleep in turn worsens daytime behavior and core symptoms."
 ---
 
 # Autism Spectrum Disorder
@@ -364,6 +373,9 @@ The neural basis of ASD social deficits involves dysfunction of the **social bra
 - `connects-to` → **[IL-17A](../../03-molecular/il-17a/README.md)** — Maternal IL-17A is a molecular bridge from infection to autism: in maternal immune activation models, this Th17 cytokine crosses into the fetal brain and alters cortical development, producing autism-like behavior in the offspring.
 - `connects-to` → **[Mast Cell](../../04-cellular/mast-cell/README.md)** — Brain mast cells may stoke the neuroinflammation: they sit near the blood-brain barrier and release mediators that activate microglia, and the high rate of allergy and mast-cell activation in autism hints at a role in some cases.
 - `connects-to` → **[Neurofibromatosis Type 1](../neurofibromatosis-type-1/README.md)** — A single-gene road to autism: neurofibromatosis type 1 carries a high rate of autism features, one of the RAS-MAPK 'RASopathies' that, like tuberous sclerosis, show how one mutation can derail the social brain.
+- `connects-to` → **[Endocannabinoid System](../../03-molecular/endocannabinoid/README.md)** — The body's cannabis system tunes the social brain: endocannabinoid signaling shapes the synaptic plasticity and reward responses to social cues, and its dysregulation in autism is the rationale behind cannabidiol trials for the condition.
+- `connects-to` → **[Regulatory T Cell](../../04-cellular/regulatory-t-cell/README.md)** — An immune imbalance shadows it: reduced regulatory T cells and a tilt toward inflammation accompany autism, fitting the maternal-immune-activation models in which prenatal inflammation reshapes brain development.
+- `connects-to` → **[Insomnia Disorder](../insomnia-disorder/README.md)** — Sleep rarely comes easy: insomnia and disrupted sleep architecture are strikingly common in autism, tied to altered melatonin rhythms, and poor sleep in turn worsens daytime behavior and core symptoms.
 
 [^maenner-2023-asd-prevalence]: Maenner MJ, Warren Z, Williams AR, et al. Prevalence and characteristics of autism spectrum disorder among children aged 8 years — ADDM Network, 2020. *MMWR Surveill Summ.* 2023;72(2):1-14. [doi:10.15585/mmwr.ss7202a1](https://doi.org/10.15585/mmwr.ss7202a1) · [PubMed 36952216](https://pubmed.ncbi.nlm.nih.gov/36952216/)
 [^lord-2020-asd-review]: Lord C, Elsabbagh M, Baird G, Veenstra-Vanderweele J. Autism spectrum disorder. *Lancet.* 2018;392(10146):508-520. [doi:10.1016/S0140-6736(18)31129-2](https://doi.org/10.1016/S0140-6736(18)31129-2) · [PubMed 30078460](https://pubmed.ncbi.nlm.nih.gov/30078460/)
