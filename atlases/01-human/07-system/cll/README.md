@@ -169,6 +169,15 @@ cross_links:
   - target: 01-human/04-cellular/t-helper-cell
     relation: connects-to
     note: "The leukemia grooms its own helpers: in the lymph-node proliferation centers, CLL cells recruit and corrupt T-helper cells to support their growth, while the resulting T-cell dysfunction fuels the infections that often kill."
+  - target: 01-human/03-molecular/cxcl12
+    relation: connects-to
+    note: "CXCL12 anchors CLL in its sanctuaries: stromal cells secrete this chemokine to draw leukemic cells via CXCR4 into protective marrow and lymph-node niches, where survival signals shield them from therapy — a homing axis targeted to mobilize the cells."
+  - target: 02-pathogen/03-fungi/pneumocystis-jirovecii
+    relation: connects-to
+    note: "Treatment deepens the immune defect: the purine analogues and other therapies for CLL suppress T cells enough that opportunistic Pneumocystis pneumonia becomes a risk, which is why prophylaxis is given during these regimens."
+  - target: 01-human/07-system/stroke
+    relation: connects-to
+    note: "BTK inhibitors trade one risk for another: ibrutinib used to treat CLL provokes atrial fibrillation and, through off-target platelet effects, both raises embolic stroke risk and complicates the anticoagulation meant to prevent it."
 ---
 
 # CLL
@@ -332,6 +341,9 @@ BCR cross-linking → LYN (SRC kinase) phosphorylates CD79a/b ITAMs → SYK recr
 - `connects-to` → **[BAFF](../../03-molecular/baff/README.md)** — The microenvironment feeds the leukemia with BAFF: stromal and accessory cells supply this survival cytokine (with APRIL) to keep CLL cells alive, one of the external lifelines that anti-apoptotic therapy aims to cut.
 - `connects-to` → **[Basal Cell Carcinoma](../basal-cell-carcinoma/README.md)** — Skin cancers run rampant in CLL: the immune deficit drives numerous, recurrent, and more aggressive basal cell and other non-melanoma skin cancers, making dermatologic surveillance a routine part of care.
 - `connects-to` → **[T Helper Cell](../../04-cellular/t-helper-cell/README.md)** — The leukemia grooms its own helpers: in the lymph-node proliferation centers, CLL cells recruit and corrupt T-helper cells to support their growth, while the resulting T-cell dysfunction fuels the infections that often kill.
+- `connects-to` → **[CXCL12](../../03-molecular/cxcl12/README.md)** — CXCL12 anchors CLL in its sanctuaries: stromal cells secrete this chemokine to draw leukemic cells via CXCR4 into protective marrow and lymph-node niches, where survival signals shield them from therapy — a homing axis targeted to mobilize the cells.
+- `connects-to` → **[Pneumocystis jirovecii](../../../02-pathogen/03-fungi/pneumocystis-jirovecii/README.md)** — Treatment deepens the immune defect: the purine analogues and other therapies for CLL suppress T cells enough that opportunistic Pneumocystis pneumonia becomes a risk, which is why prophylaxis is given during these regimens.
+- `connects-to` → **[Stroke](../stroke/README.md)** — BTK inhibitors trade one risk for another: ibrutinib used to treat CLL provokes atrial fibrillation and, through off-target platelet effects, both raises embolic stroke risk and complicates the anticoagulation meant to prevent it.
 
 ---
 

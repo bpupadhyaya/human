@@ -169,6 +169,15 @@ cross_links:
   - target: 01-human/03-molecular/il-6
     relation: connects-to
     note: "Inflammation feeds the leukemic niche: BCR-ABL drives IL-6 release that remodels the marrow microenvironment to favor the leukemic stem cells over normal hematopoiesis."
+  - target: 01-human/07-system/myelofibrosis
+    relation: connects-to
+    note: "CML can scar the marrow it fills: marrow fibrosis develops with advanced or accelerated disease and, like primary myelofibrosis, reflects the megakaryocyte-driven, cytokine-rich stroma of a myeloproliferative neoplasm."
+  - target: 01-human/03-molecular/bcl-2
+    relation: connects-to
+    note: "Blast crisis leans on anti-apoptosis: BCR-ABL props up BCL-2-family survival signals, and adding the BCL-2 inhibitor venetoclax to a TKI is a strategy to kill the resistant blasts of advanced-phase CML."
+  - target: 01-human/07-system/stroke
+    relation: connects-to
+    note: "Extreme white counts can clog the brain's vessels: the massive leukocytosis of CML can cause leukostasis, a hyperviscosity emergency that sludges cerebral flow and can present as stroke before the diagnosis is even known."
 ---
 
 # Chronic Myeloid Leukemia
@@ -332,6 +341,9 @@ Following the imatinib revolution, the current frontier is achieving **deep mole
 - `connects-to` → **[Graft-Versus-Host Disease](../gvhd/README.md)** — Transplant was CML's first cure: before TKIs, allogeneic stem-cell transplant offered the only cure through its graft-versus-leukemia effect, at the cost of graft-versus-host disease — still the fallback for TKI-resistant or blast-crisis disease.
 - `connects-to` → **[Regulatory T Cell](../../04-cellular/regulatory-t-cell/README.md)** — The immune system can help hold CML down: regulatory T cells that blunt anti-leukemia immunity rise with disease, and their balance shapes the immune control that lets some patients stop TKIs and stay in remission.
 - `connects-to` → **[Interleukin-6](../../03-molecular/il-6/README.md)** — Inflammation feeds the leukemic niche: BCR-ABL drives IL-6 release that remodels the marrow microenvironment to favor the leukemic stem cells over normal hematopoiesis.
+- `connects-to` → **[Myelofibrosis](../myelofibrosis/README.md)** — CML can scar the marrow it fills: marrow fibrosis develops with advanced or accelerated disease and, like primary myelofibrosis, reflects the megakaryocyte-driven, cytokine-rich stroma of a myeloproliferative neoplasm.
+- `connects-to` → **[BCL-2](../../03-molecular/bcl-2/README.md)** — Blast crisis leans on anti-apoptosis: BCR-ABL props up BCL-2-family survival signals, and adding the BCL-2 inhibitor venetoclax to a TKI is a strategy to kill the resistant blasts of advanced-phase CML.
+- `connects-to` → **[Stroke](../stroke/README.md)** — Extreme white counts can clog the brain's vessels: the massive leukocytosis of CML can cause leukostasis, a hyperviscosity emergency that sludges cerebral flow and can present as stroke before the diagnosis is even known.
 
 ---
 
