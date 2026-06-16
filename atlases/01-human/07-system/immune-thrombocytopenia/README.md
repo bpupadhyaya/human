@@ -168,6 +168,15 @@ cross_links:
   - target: 02-pathogen/01-viruses/varicella-zoster-virus
     relation: connects-to
     note: "Childhood ITP often follows a virus: acute self-limited ITP classically appears a week or two after infections such as varicella, when antibodies raised against the virus cross-react with platelets before fading as the child recovers."
+  - target: 01-human/07-system/aplastic-anemia
+    relation: connects-to
+    note: "Two ways to run out of platelets: ITP destroys them in the periphery while the marrow works overtime, whereas aplastic anemia fails to make them at all — the contrast drives the bone-marrow exam that distinguishes peripheral destruction from production failure."
+  - target: 01-human/04-cellular/natural-killer-cell
+    relation: connects-to
+    note: "Destruction is not antibody alone: natural killer and cytotoxic cells contribute to platelet clearance and to the dysregulated immunity of ITP, part of why some cases resist antibody-focused treatments and need broader immune suppression."
+  - target: 01-human/03-molecular/von-willebrand-factor
+    relation: connects-to
+    note: "Bleeding turns on what platelets grip: von Willebrand factor is the glue platelets use to plug vessels, so when ITP drops the platelet count the vWF-platelet plug fails, producing the bruising and mucosal bleeding that define the disease's danger."
 ---
 
 # Immune Thrombocytopenia
@@ -353,6 +362,9 @@ ITP in pregnancy carries risk of neonatal thrombocytopenia (maternal IgG crosses
 - `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — ITP complicates pregnancy two ways: it must be told apart from benign gestational thrombocytopenia, and the platelet-targeting IgG crosses the placenta to lower the baby's count, so mother and newborn are both watched around delivery.
 - `connects-to` → **[BTK](../../03-molecular/btk/README.md)** — Blocking BTK hits ITP from both sides: the kinase drives B-cell antibody production and the macrophage Fc-receptor signaling that destroys platelets, so BTK inhibitors like rilzabrutinib are an emerging targeted treatment.
 - `connects-to` → **[Varicella-Zoster Virus](../../../02-pathogen/01-viruses/varicella-zoster-virus/README.md)** — Childhood ITP often follows a virus: acute self-limited ITP classically appears a week or two after infections such as varicella, when antibodies raised against the virus cross-react with platelets before fading as the child recovers.
+- `connects-to` → **[Aplastic Anemia](../aplastic-anemia/README.md)** — Two ways to run out of platelets: ITP destroys them in the periphery while the marrow works overtime, whereas aplastic anemia fails to make them at all — the contrast drives the bone-marrow exam that distinguishes peripheral destruction from production failure.
+- `connects-to` → **[Natural Killer Cell](../../04-cellular/natural-killer-cell/README.md)** — Destruction is not antibody alone: natural killer and cytotoxic cells contribute to platelet clearance and to the dysregulated immunity of ITP, part of why some cases resist antibody-focused treatments and need broader immune suppression.
+- `connects-to` → **[Von Willebrand Factor](../../03-molecular/von-willebrand-factor/README.md)** — Bleeding turns on what platelets grip: von Willebrand factor is the glue platelets use to plug vessels, so when ITP drops the platelet count the vWF-platelet plug fails, producing the bruising and mucosal bleeding that define the disease's danger.
 
 [^cines-2002-itp-review]: Cines DB, Blanchette VS. Immune thrombocytopenic purpura. *N Engl J Med.* 2002;346(13):995-1008. [doi:10.1056/NEJMra010532](https://doi.org/10.1056/NEJMra010532) · [PubMed 11919310](https://pubmed.ncbi.nlm.nih.gov/11919310/)
 [^neunert-2019-ash-itp-guidelines]: Neunert C, et al. American Society of Hematology 2019 guidelines for immune thrombocytopenia. *Blood Adv.* 2019;3(23):3829-3866. [doi:10.1182/bloodadvances.2019000966](https://doi.org/10.1182/bloodadvances.2019000966) · [PubMed 31794604](https://pubmed.ncbi.nlm.nih.gov/31794604/)

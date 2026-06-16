@@ -166,6 +166,15 @@ cross_links:
   - target: 01-human/04-cellular/fibroblast
     relation: connects-to
     note: "In Crohn's the wall scars shut: chronic transmural inflammation activates fibroblasts to lay down collagen, and the resulting fibrosis stiffens the bowel into the strictures and obstruction that often demand surgery."
+  - target: 02-pathogen/02-bacteria/escherichia-coli
+    relation: connects-to
+    note: "A specific microbe is implicated: adherent-invasive E. coli colonize the Crohn's mucosa, invade epithelium, and survive inside macrophages, one of the clearest examples of a gut bacterium tipping a susceptible host into chronic intestinal inflammation."
+  - target: 01-human/03-molecular/nf-kb
+    relation: connects-to
+    note: "NF-κB is the master switch behind the flare: this transcription factor, fired by microbial and cytokine signals in the gut wall, turns on the TNF, IL-6 and chemokine genes that sustain IBD inflammation — the hub many therapies act upstream of."
+  - target: 01-human/04-cellular/plasma-cell
+    relation: connects-to
+    note: "The inflamed mucosa fills with antibody factories: expanded plasma cells secrete IgG and IgA into the bowel wall, and in ulcerative colitis autoantibodies and this B-lineage response form part of the tissue damage alongside the T-cell-driven inflammation."
 ---
 
 # Inflammatory Bowel Disease
@@ -343,6 +352,9 @@ IBD is a complex polygenic disease with >240 susceptibility loci (GWAS):
 - `connects-to` → **[Venous Thromboembolism](../venous-thromboembolism/README.md)** — Active IBD thickens the blood: the systemic inflammation of a flare drives a hypercoagulable state, so deep-vein thrombosis and pulmonary embolism are markedly more common — which is why hospitalized patients get clot prophylaxis even amid bloody diarrhea.
 - `connects-to` → **[Osteoporosis](../osteoporosis/README.md)** — IBD erodes the skeleton: chronic inflammation, malabsorption of calcium and vitamin D, and repeated steroid courses thin the bones, making osteoporosis and fragility fractures a common long-term complication needing bone monitoring.
 - `connects-to` → **[Fibroblast](../../04-cellular/fibroblast/README.md)** — In Crohn's the wall scars shut: chronic transmural inflammation activates fibroblasts to lay down collagen, and the resulting fibrosis stiffens the bowel into the strictures and obstruction that often demand surgery.
+- `connects-to` → **[Escherichia coli](../../../02-pathogen/02-bacteria/escherichia-coli/README.md)** — A specific microbe is implicated: adherent-invasive E. coli colonize the Crohn's mucosa, invade epithelium, and survive inside macrophages, one of the clearest examples of a gut bacterium tipping a susceptible host into chronic intestinal inflammation.
+- `connects-to` → **[NF-κB](../../03-molecular/nf-kb/README.md)** — NF-κB is the master switch behind the flare: this transcription factor, fired by microbial and cytokine signals in the gut wall, turns on the TNF, IL-6 and chemokine genes that sustain IBD inflammation — the hub many therapies act upstream of.
+- `connects-to` → **[Plasma Cell](../../04-cellular/plasma-cell/README.md)** — The inflamed mucosa fills with antibody factories: expanded plasma cells secrete IgG and IgA into the bowel wall, and in ulcerative colitis autoantibodies and this B-lineage response form part of the tissue damage alongside the T-cell-driven inflammation.
 
 [^ng-2017-ibd-epidemiology]: Ng SC, Shi HY, Hamidi N, et al. Worldwide incidence and prevalence of inflammatory bowel disease in the 21st century: a systematic review of population-based studies. *Lancet.* 2018;390(10114):2769-2778. [doi:10.1016/S0140-6736(17)32448-0](https://doi.org/10.1016/S0140-6736(17)32448-0) · [PubMed 29050646](https://pubmed.ncbi.nlm.nih.gov/29050646/)
 [^sandborn-2012-vedolizumab]: Feagan BG, Rutgeerts P, Sands BE, et al. Vedolizumab as induction and maintenance therapy for ulcerative colitis. *N Engl J Med.* 2013;369(8):699-710. [doi:10.1056/NEJMoa1215734](https://doi.org/10.1056/NEJMoa1215734) · [PubMed 23964932](https://pubmed.ncbi.nlm.nih.gov/23964932/)
