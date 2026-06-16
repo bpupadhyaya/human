@@ -175,6 +175,15 @@ cross_links:
   - target: 01-human/07-system/neuropathic-pain
     relation: connects-to
     note: "Pain and sleeplessness feed each other: chronic neuropathic pain fragments sleep while poor sleep lowers the pain threshold, a reciprocal loop that makes treating one essential to relieving the other."
+  - target: 01-human/03-molecular/nlrp3-inflammasome
+    relation: connects-to
+    note: "Lost sleep lights an inflammatory fire: sleep deprivation activates the NLRP3 inflammasome and raises IL-1β and IL-6, the low-grade inflammation through which chronic insomnia feeds cardiovascular and metabolic disease."
+  - target: 01-human/07-system/stroke
+    relation: connects-to
+    note: "Sleeplessness wears on the brain's vessels: chronic insomnia and short sleep independently raise the risk of stroke through hypertension, inflammation and autonomic strain, beyond their toll on the heart."
+  - target: 01-human/04-cellular/t-helper-cell
+    relation: connects-to
+    note: "Sleep tunes adaptive immunity: deep sleep supports helper T-cell function and immune memory, so chronic insomnia blunts T-cell responses and weakens vaccine protection and infection defense."
 ---
 
 # Insomnia Disorder
@@ -364,6 +373,9 @@ CBT-I directly targets perpetuating factors.
 - `connects-to` → **[Interleukin-6](../../03-molecular/il-6/README.md)** — Lost sleep inflames the body: insomnia and short sleep raise IL-6 and other inflammatory markers, a low-grade activation that helps explain the cardiovascular and metabolic toll of chronic poor sleep.
 - `connects-to` → **[Parkinson's Disease](../parkinsons-disease/README.md)** — Sleep falls apart early in Parkinson's: insomnia and REM-sleep behavior disorder often precede the motor disease by years, and the degeneration of sleep-regulating brainstem nuclei makes broken sleep a core feature.
 - `connects-to` → **[Neuropathic Pain](../neuropathic-pain/README.md)** — Pain and sleeplessness feed each other: chronic neuropathic pain fragments sleep while poor sleep lowers the pain threshold, a reciprocal loop that makes treating one essential to relieving the other.
+- `connects-to` → **[NLRP3 Inflammasome](../../03-molecular/nlrp3-inflammasome/README.md)** — Lost sleep lights an inflammatory fire: sleep deprivation activates the NLRP3 inflammasome and raises IL-1β and IL-6, the low-grade inflammation through which chronic insomnia feeds cardiovascular and metabolic disease.
+- `connects-to` → **[Stroke](../stroke/README.md)** — Sleeplessness wears on the brain's vessels: chronic insomnia and short sleep independently raise the risk of stroke through hypertension, inflammation and autonomic strain, beyond their toll on the heart.
+- `connects-to` → **[T Helper Cell](../../04-cellular/t-helper-cell/README.md)** — Sleep tunes adaptive immunity: deep sleep supports helper T-cell function and immune memory, so chronic insomnia blunts T-cell responses and weakens vaccine protection and infection defense.
 
 [^riemann-2017-insomnia-lancet]: Riemann D, Baglioni C, Bassetti C, et al. European guideline for the diagnosis and treatment of insomnia. *J Sleep Res.* 2017;26(6):675-700. [doi:10.1111/jsr.12594](https://doi.org/10.1111/jsr.12594) · [PubMed 28875581](https://pubmed.ncbi.nlm.nih.gov/28875581/)
 [^trauer-2015-cbti-meta]: Trauer JM, Qian MY, Doyle JS, et al. Cognitive behavioral therapy for chronic insomnia. *Ann Intern Med.* 2015;163(3):191-204. [doi:10.7326/M14-2841](https://doi.org/10.7326/M14-2841) · [PubMed 26054060](https://pubmed.ncbi.nlm.nih.gov/26054060/)

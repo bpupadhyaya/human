@@ -165,6 +165,15 @@ cross_links:
   - target: 01-human/06-organ/lung
     relation: connects-to
     note: "The lung can hide the bleeding: pulmonary hemosiderosis and Goodpasture trap iron in alveolar bleeds rather than recycling it, an occult internal loss that causes iron-deficiency anemia without any visible blood."
+  - target: 01-human/07-system/esophageal-cancer
+    relation: connects-to
+    note: "Chronic iron lack can scar the swallowing tube: Plummer-Vinson syndrome pairs long-standing iron deficiency with esophageal webs and dysphagia, a premalignant state that raises the risk of esophageal squamous cell carcinoma."
+  - target: 02-pathogen/04-parasites/giardia-lamblia
+    relation: connects-to
+    note: "A gut parasite can starve the body of iron: Giardia and other intestinal infections damage the absorptive lining and cause malabsorption, a common cause of iron deficiency where these infections are endemic."
+  - target: 01-human/04-cellular/neutrophil
+    relation: connects-to
+    note: "Defense needs iron too: iron is required for neutrophils' oxidative burst and proliferation, so iron deficiency subtly impairs these front-line cells — even as withholding iron is itself a defense against bacteria."
 ---
 
 # Iron Deficiency Anemia
@@ -334,6 +343,9 @@ Iron is essential for:
 - `connects-to` → **[Liver](../../06-organ/liver/README.md)** — The liver is the body's iron bank and gatekeeper: it stores iron as ferritin and makes the hepcidin and transferrin that govern its traffic, so falling liver iron stores are the first stage of deficiency, well before the anemia shows.
 - `connects-to` → **[Spleen](../../06-organ/spleen/README.md)** — The spleen recycles the body's iron: its macrophages dismantle worn-out red cells and return their iron to the marrow, so this salvage loop normally dwarfs dietary intake and its failure or loss strains the iron balance.
 - `connects-to` → **[Lung](../../06-organ/lung/README.md)** — The lung can hide the bleeding: pulmonary hemosiderosis and Goodpasture trap iron in alveolar bleeds rather than recycling it, an occult internal loss that causes iron-deficiency anemia without any visible blood.
+- `connects-to` → **[Esophageal Cancer](../esophageal-cancer/README.md)** — Chronic iron lack can scar the swallowing tube: Plummer-Vinson syndrome pairs long-standing iron deficiency with esophageal webs and dysphagia, a premalignant state that raises the risk of esophageal squamous cell carcinoma.
+- `connects-to` → **[Giardia lamblia](../../../02-pathogen/04-parasites/giardia-lamblia/README.md)** — A gut parasite can starve the body of iron: Giardia and other intestinal infections damage the absorptive lining and cause malabsorption, a common cause of iron deficiency where these infections are endemic.
+- `connects-to` → **[Neutrophil](../../04-cellular/neutrophil/README.md)** — Defense needs iron too: iron is required for neutrophils' oxidative burst and proliferation, so iron deficiency subtly impairs these front-line cells — even as withholding iron is itself a defense against bacteria.
 
 [^camaschella-2015-iron-deficiency]: Camaschella C. Iron-deficiency anemia. *N Engl J Med.* 2015;372(19):1832-1843. [doi:10.1056/NEJMra1401038](https://doi.org/10.1056/NEJMra1401038) · [PubMed 25946282](https://pubmed.ncbi.nlm.nih.gov/25946282/)
 [^who-ferritin-guideline-2020]: World Health Organization. WHO guideline on use of ferritin concentrations to assess iron status in individuals and populations. WHO; 2020. [WHO publication](https://www.who.int/publications/i/item/9789240000124)
