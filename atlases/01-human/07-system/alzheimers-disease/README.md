@@ -172,6 +172,15 @@ cross_links:
   - target: 01-human/03-molecular/il-6
     relation: connects-to
     note: "Inflammation accelerates the decline: IL-6 from activated microglia and the body's chronic low-grade inflammation correlates with faster cognitive loss, part of the neuroinflammatory arm now seen as a driver, not just a bystander, in Alzheimer's."
+  - target: 01-human/03-molecular/complement-c5
+    relation: connects-to
+    note: "Complement marks synapses for deletion: the cascade through C3 to C5 tags synapses that microglia then prune, an over-activation that drives the early synapse loss best correlating with cognitive decline in Alzheimer's."
+  - target: 01-human/07-system/hypertension
+    relation: connects-to
+    note: "Midlife blood pressure shapes late dementia: hypertension damages the small cerebral vessels and the clearance of amyloid, making it one of the strongest modifiable risk factors for Alzheimer's decades later."
+  - target: 01-human/04-cellular/natural-killer-cell
+    relation: connects-to
+    note: "Innate lymphocytes invade the aging brain: natural killer cells accumulate in the Alzheimer's brain and, by attacking neural cells and stoking inflammation, are emerging as contributors to the neurodegeneration."
 ---
 
 # Alzheimer's Disease
@@ -322,6 +331,9 @@ Microglia play a central, dual role in AD:
 - `connects-to` → **[Insomnia Disorder](../insomnia-disorder/README.md)** — Sleep is when the brain washes out amyloid: deep sleep drives the glymphatic clearance of amyloid-beta, so chronic insomnia lets it accumulate — and the disease in turn wrecks sleep, a vicious loop that may start years before memory fails.
 - `connects-to` → **[Gut Microbiome](../gut-microbiome/README.md)** — A gut-brain axis feeds the plaques: dysbiosis and bacterial products (LPS, microbial amyloids) can prime systemic and brain inflammation, and altered microbiomes are now linked to amyloid burden and cognitive decline in Alzheimer's.
 - `connects-to` → **[Interleukin-6](../../03-molecular/il-6/README.md)** — Inflammation accelerates the decline: IL-6 from activated microglia and the body's chronic low-grade inflammation correlates with faster cognitive loss, part of the neuroinflammatory arm now seen as a driver, not just a bystander, in Alzheimer's.
+- `connects-to` → **[Complement C5](../../03-molecular/complement-c5/README.md)** — Complement marks synapses for deletion: the cascade through C3 to C5 tags synapses that microglia then prune, an over-activation that drives the early synapse loss best correlating with cognitive decline in Alzheimer's.
+- `connects-to` → **[Hypertension](../hypertension/README.md)** — Midlife blood pressure shapes late dementia: hypertension damages the small cerebral vessels and the clearance of amyloid, making it one of the strongest modifiable risk factors for Alzheimer's decades later.
+- `connects-to` → **[Natural Killer Cell](../../04-cellular/natural-killer-cell/README.md)** — Innate lymphocytes invade the aging brain: natural killer cells accumulate in the Alzheimer's brain and, by attacking neural cells and stoking inflammation, are emerging as contributors to the neurodegeneration.
 
 [^selkoe-2016-alzheimer]: Selkoe DJ, Hardy J. The amyloid hypothesis of Alzheimer's disease at 25 years. *EMBO Mol Med.* 2016;8(6):595-608. [doi:10.15252/emmm.201606210](https://doi.org/10.15252/emmm.201606210) · [PubMed 27025652](https://pubmed.ncbi.nlm.nih.gov/27025652/)
 [^jack-2018-nia-aa]: Jack CR Jr, Bennett DA, Blennow K, et al. NIA-AA Research Framework: Toward a biological definition of Alzheimer's disease. *Alzheimers Dement.* 2018;14(4):535-562. [doi:10.1016/j.jalz.2018.02.018](https://doi.org/10.1016/j.jalz.2018.02.018) · [PubMed 29653606](https://pubmed.ncbi.nlm.nih.gov/29653606/)

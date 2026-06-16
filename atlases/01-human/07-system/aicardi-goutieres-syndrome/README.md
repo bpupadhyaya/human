@@ -168,6 +168,15 @@ cross_links:
   - target: 01-human/03-molecular/il-6
     relation: connects-to
     note: "Beyond interferon, IL-6 stokes the neuroinflammation: it rises in the spinal fluid of AGS alongside the interferon signature, adding to the chronic brain inflammation that damages the developing nervous system."
+  - target: 01-human/03-molecular/irf3
+    relation: connects-to
+    note: "The disease is a sensor stuck on: accumulated self nucleic acids that the broken enzymes fail to clear trip the innate sensors, and IRF3 drives the relentless type I interferon that defines this interferonopathy."
+  - target: 01-human/07-system/stroke
+    relation: connects-to
+    note: "It can scar the brain's arteries: some forms, especially SAMHD1-related, cause a cerebral large-vessel vasculopathy with aneurysms and moyamoya-like narrowing, putting affected children at risk of stroke."
+  - target: 01-human/04-cellular/fibroblast
+    relation: connects-to
+    note: "Skin cells reveal the signature: the chilblain lesions and the diagnostic interferon signature both surface in fibroblasts, where the unchecked nucleic-acid sensing drives local interferon production."
 ---
 
 # Aicardi-Goutières Syndrome
@@ -312,6 +321,9 @@ Severe early-onset AGS (TREX1 homozygous, RNASEH2A): death in childhood from res
 - `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — Interferon-stoked macrophages help wreck the brain: activated alongside microglia, they pour out inflammatory mediators that injure white matter and feed the calcification of the basal ganglia seen in AGS.
 - `connects-to` → **[Systemic Sclerosis](../systemic-sclerosis/README.md)** — AGS shares its interferon fingerprint with scleroderma: both carry a strong type-I-interferon signature and the chilblains and Raynaud-like vascular skin changes, placing them on the broad interferonopathy spectrum.
 - `connects-to` → **[Interleukin-6](../../03-molecular/il-6/README.md)** — Beyond interferon, IL-6 stokes the neuroinflammation: it rises in the spinal fluid of AGS alongside the interferon signature, adding to the chronic brain inflammation that damages the developing nervous system.
+- `connects-to` → **[IRF3](../../03-molecular/irf3/README.md)** — The disease is a sensor stuck on: accumulated self nucleic acids that the broken enzymes fail to clear trip the innate sensors, and IRF3 drives the relentless type I interferon that defines this interferonopathy.
+- `connects-to` → **[Stroke](../stroke/README.md)** — It can scar the brain's arteries: some forms, especially SAMHD1-related, cause a cerebral large-vessel vasculopathy with aneurysms and moyamoya-like narrowing, putting affected children at risk of stroke.
+- `connects-to` → **[Fibroblast](../../04-cellular/fibroblast/README.md)** — Skin cells reveal the signature: the chilblain lesions and the diagnostic interferon signature both surface in fibroblasts, where the unchecked nucleic-acid sensing drives local interferon production.
 
 ---
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
