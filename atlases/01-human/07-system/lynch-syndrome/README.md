@@ -169,6 +169,15 @@ cross_links:
   - target: 01-human/04-cellular/astrocyte
     relation: connects-to
     note: "The brain is on the tumor list too: in the Turcot variant, mismatch-repair failure drives gliomas arising from astrocytes, so the same defect that floods the colon with mutations can also seed aggressive brain tumors."
+  - target: 01-human/07-system/iron-deficiency-anemia
+    relation: connects-to
+    note: "Occult bleeding announces the colon cancer: a Lynch-associated colorectal tumor often bleeds slowly, so unexplained iron-deficiency anemia in a carrier prompts the colonoscopy that finds it."
+  - target: 01-human/07-system/venous-thromboembolism
+    relation: connects-to
+    note: "Its cancers clot and its surgery adds risk: the colorectal and other adenocarcinomas of Lynch syndrome carry a raised venous thromboembolism risk, compounded by the resections used to treat them."
+  - target: 01-human/07-system/sepsis
+    relation: connects-to
+    note: "Surgery opens the door to infection: the colectomy and other resections that Lynch cancers require can be complicated by anastomotic leak and intra-abdominal sepsis."
 ---
 
 # Lynch Syndrome
@@ -359,6 +368,9 @@ MSI-H stage II CRC: adjuvant 5-FU/leucovorin does NOT improve OS (may be harmful
 - `connects-to` → **[CTLA-4](../../03-molecular/ctla-4/README.md)** — The hypermutated tumors are immunotherapy magnets: mismatch-repair loss spawns countless neoantigens, so blocking CTLA-4 alongside PD-1 can unleash a strong T-cell attack, making Lynch cancers among the most checkpoint-responsive of all solid tumors.
 - `connects-to` → **[Hereditary Breast and Ovarian Cancer](../hereditary-breast-ovarian-cancer/README.md)** — Two great hereditary-cancer syndromes sit side by side: where BRCA-driven HBOC fails DNA double-strand repair, Lynch fails mismatch repair — both flagged by family history, but each needing its own gene panel, surveillance plan, and tumor-specific therapies.
 - `connects-to` → **[Astrocyte](../../04-cellular/astrocyte/README.md)** — The brain is on the tumor list too: in the Turcot variant, mismatch-repair failure drives gliomas arising from astrocytes, so the same defect that floods the colon with mutations can also seed aggressive brain tumors.
+- `connects-to` → **[Iron Deficiency Anemia](../iron-deficiency-anemia/README.md)** — Occult bleeding announces the colon cancer: a Lynch-associated colorectal tumor often bleeds slowly, so unexplained iron-deficiency anemia in a carrier prompts the colonoscopy that finds it.
+- `connects-to` → **[Venous Thromboembolism](../venous-thromboembolism/README.md)** — Its cancers clot and its surgery adds risk: the colorectal and other adenocarcinomas of Lynch syndrome carry a raised venous thromboembolism risk, compounded by the resections used to treat them.
+- `connects-to` → **[Sepsis](../sepsis/README.md)** — Surgery opens the door to infection: the colectomy and other resections that Lynch cancers require can be complicated by anastomotic leak and intra-abdominal sepsis.
 
 [^bonadona-2011-lynch-risks]: Bonadona V, Bonaïti B, Olschwang S, et al. Cancer risks associated with germline mutations in MLH1, MSH2, and MSH6 genes in Lynch syndrome. *JAMA.* 2011;305(22):2304-2310. [doi:10.1001/jama.2011.743](https://doi.org/10.1001/jama.2011.743) · [PubMed 21642683](https://pubmed.ncbi.nlm.nih.gov/21642683/)
 [^lynch-2015-lynch-review]: Lynch HT, Snyder CL, Shaw TG, et al. Milestones of Lynch syndrome: 1895-2015. *Nat Rev Cancer.* 2015;15(3):181-194. [doi:10.1038/nrc3878](https://doi.org/10.1038/nrc3878) · [PubMed 25673086](https://pubmed.ncbi.nlm.nih.gov/25673086/)

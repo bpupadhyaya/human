@@ -178,6 +178,15 @@ cross_links:
   - target: 01-human/07-system/stroke
     relation: connects-to
     note: "Damaged vessels can darken mood: cerebrovascular disease and stroke produce 'vascular depression', with post-stroke depression striking a large share of survivors and worsening their recovery — depression here a consequence of brain injury, not only a risk factor for it."
+  - target: 01-human/07-system/type-2-diabetes
+    relation: connects-to
+    note: "Depression and diabetes feed each other: depression raises diabetes risk through inactivity, cortisol, and inflammation, while the burden of diabetes deepens depression — a bidirectional loop that worsens control and outcomes in both."
+  - target: 01-human/07-system/generalized-anxiety-disorder
+    relation: connects-to
+    note: "Anxiety is depression's constant companion: generalized anxiety disorder co-occurs with major depression in a large share of patients, the mixed anxiety-depression that shares serotonergic biology and responds to overlapping treatments."
+  - target: 01-human/07-system/ptsd
+    relation: connects-to
+    note: "Trauma sets the stage for depression: PTSD greatly raises the risk of comorbid major depression, the two sharing HPA-axis dysregulation and overlapping symptoms that complicate diagnosis and worsen prognosis."
 ---
 
 # Major Depressive Disorder
@@ -388,6 +397,9 @@ Approximately 30–40% of MDD patients have elevated inflammatory markers:
 - `connects-to` → **[Acetylcholine](../../03-molecular/acetylcholine/README.md)** — An older neurochemical theory still holds: depression may reflect a cholinergic-adrenergic imbalance with acetylcholine signaling tipped too high, which is why the anticholinergic drug scopolamine can lift mood rapidly in some patients.
 - `connects-to` → **[T Helper Cell](../../04-cellular/t-helper-cell/README.md)** — Adaptive immunity joins the inflammatory story: shifts toward Th17 helper T cells and altered T-cell profiles accompany depression, extending the inflammation hypothesis beyond microglia and cytokines into the body's broader immune response.
 - `connects-to` → **[Stroke](../stroke/README.md)** — Damaged vessels can darken mood: cerebrovascular disease and stroke produce 'vascular depression', with post-stroke depression striking a large share of survivors and worsening their recovery — depression here a consequence of brain injury, not only a risk factor for it.
+- `connects-to` → **[Type 2 Diabetes](../type-2-diabetes/README.md)** — Depression and diabetes feed each other: depression raises diabetes risk through inactivity, cortisol, and inflammation, while the burden of diabetes deepens depression — a bidirectional loop that worsens control and outcomes in both.
+- `connects-to` → **[Generalized Anxiety Disorder](../generalized-anxiety-disorder/README.md)** — Anxiety is depression's constant companion: generalized anxiety disorder co-occurs with major depression in a large share of patients, the mixed anxiety-depression that shares serotonergic biology and responds to overlapping treatments.
+- `connects-to` → **[PTSD](../ptsd/README.md)** — Trauma sets the stage for depression: PTSD greatly raises the risk of comorbid major depression, the two sharing HPA-axis dysregulation and overlapping symptoms that complicate diagnosis and worsen prognosis.
 
 [^cipriani-2018-antidepressants-meta]: Cipriani A, Furukawa TA, Salanti G, et al. Comparative efficacy and acceptability of 21 antidepressant drugs for acute treatment of adults with major depressive disorder. *Lancet.* 2018;391(10128):1357-1366. [doi:10.1016/S0140-6736(17)32802-7](https://doi.org/10.1016/S0140-6736(17)32802-7) · [PubMed 29477251](https://pubmed.ncbi.nlm.nih.gov/29477251/)
 [^zarate-2006-ketamine-rapid]: Zarate CA Jr, Singh JB, Carlson PJ, et al. A randomized trial of an N-methyl-D-aspartate antagonist in treatment-resistant major depression. *Arch Gen Psychiatry.* 2006;63(8):856-864. [doi:10.1001/archpsyc.63.8.856](https://doi.org/10.1001/archpsyc.63.8.856) · [PubMed 16894061](https://pubmed.ncbi.nlm.nih.gov/16894061/)
