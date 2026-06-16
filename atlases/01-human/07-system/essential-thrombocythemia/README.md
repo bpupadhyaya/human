@@ -160,6 +160,15 @@ cross_links:
   - target: 01-human/02-atomic/iron
     relation: connects-to
     note: "Iron tells the true thrombocytosis from the false: iron deficiency itself drives a reactive rise in platelets that mimics ET, so checking iron status is a basic step in deciding whether a high platelet count is clonal disease or simple deficiency."
+  - target: 01-human/03-molecular/nf-kb
+    relation: connects-to
+    note: "Chronic inflammation drives the MPN clone: JAK2-activated NF-κB signaling fuels the inflammatory cytokine state behind ET's symptoms and its prothrombotic tendency, a target of interferon and JAK-inhibitor therapy."
+  - target: 01-human/04-cellular/macrophage
+    relation: connects-to
+    note: "Marrow macrophages support the overgrowth: they help build the inflammatory niche that favors the mutant megakaryocyte clone in ET, part of the microenvironment that sustains the disease."
+  - target: 01-human/07-system/pulmonary-arterial-hypertension
+    relation: connects-to
+    note: "The clotting disorder can choke the lungs: ET raises the risk of pulmonary hypertension through in-situ microthrombi, chronic thromboembolism, and extramedullary hematopoiesis, straining the right heart."
 ---
 
 # Essential Thrombocythemia
@@ -325,6 +334,9 @@ Management:
 - `connects-to` → **[Atherosclerosis](../atherosclerosis/README.md)** — ET's clots are mostly arterial: its hyperactive platelets favor arterial thrombosis on top of any atherosclerotic plaque, which is why heart attack and stroke dominate its risk and why low-dose aspirin and cardiovascular-risk control are central to management.
 - `connects-to` → **[TET2](../../03-molecular/tet2/README.md)** — Extra mutations shape the course: TET2 and other clonal-hematopoiesis genes often sit alongside the JAK2 or CALR driver, expanding the malignant clone and adding to the thrombotic risk and the chance of progression to myelofibrosis or leukemia.
 - `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — Iron tells the true thrombocytosis from the false: iron deficiency itself drives a reactive rise in platelets that mimics ET, so checking iron status is a basic step in deciding whether a high platelet count is clonal disease or simple deficiency.
+- `connects-to` → **[NF-κB](../../03-molecular/nf-kb/README.md)** — Chronic inflammation drives the MPN clone: JAK2-activated NF-κB signaling fuels the inflammatory cytokine state behind ET's symptoms and its prothrombotic tendency, a target of interferon and JAK-inhibitor therapy.
+- `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — Marrow macrophages support the overgrowth: they help build the inflammatory niche that favors the mutant megakaryocyte clone in ET, part of the microenvironment that sustains the disease.
+- `connects-to` → **[Pulmonary Arterial Hypertension](../pulmonary-arterial-hypertension/README.md)** — The clotting disorder can choke the lungs: ET raises the risk of pulmonary hypertension through in-situ microthrombi, chronic thromboembolism, and extramedullary hematopoiesis, straining the right heart.
 
 [^harrison-2005-pt1-et]: Harrison CN, Campbell PJ, Buck G, et al. Hydroxyurea compared with anagrelide in high-risk essential thrombocythemia. *N Engl J Med.* 2005;353(1):33-45. [doi:10.1056/NEJMoa043800](https://doi.org/10.1056/NEJMoa043800) · [PubMed 16000354](https://pubmed.ncbi.nlm.nih.gov/16000354/)
 [^barbui-2012-ipset]: Barbui T, Finazzi G, Carobbio A, et al. Development and validation of an International Prognostic Score of thrombosis in World Health Organization-essential thrombocythemia (IPSET-thrombosis). *Blood.* 2012;120(26):5128-5133. [doi:10.1182/blood-2012-07-444067](https://doi.org/10.1182/blood-2012-07-444067) · [PubMed 23086758](https://pubmed.ncbi.nlm.nih.gov/23086758/)

@@ -160,6 +160,15 @@ cross_links:
   - target: 01-human/07-system/bladder-cancer
     relation: connects-to
     note: "Its alkylating drugs scar the bladder and seed later cancer: cyclophosphamide and ifosfamide release acrolein that causes hemorrhagic cystitis (blunted by mesna) and, over decades, raise the risk of secondary bladder cancer in survivors."
+  - target: 01-human/03-molecular/stat3
+    relation: connects-to
+    note: "STAT3 keeps the fusion-driven cell alive: the EWS-FLI1 program activates STAT3 signaling that sustains Ewing proliferation and survival, a pathway probed for targeted therapy in this hard-to-treat sarcoma."
+  - target: 01-human/04-cellular/regulatory-t-cell
+    relation: connects-to
+    note: "Ewing is an immunologically cold tumor: its low mutation burden and infiltrating regulatory T cells blunt the antitumor response, a barrier that the immunotherapy and CAR-T trials in Ewing must overcome."
+  - target: 01-human/07-system/atypical-teratoid-rhabdoid-tumor
+    relation: connects-to
+    note: "It sits among the small round blue cell tumors: like ATRT, neuroblastoma, and rhabdomyosarcoma, Ewing's sheets of small round blue cells force a differential resolved by its EWSR1 translocation and CD99 staining."
 ---
 
 # Ewing Sarcoma
@@ -330,6 +339,9 @@ After induction → surgical specimen assessed for percent tumor necrosis (Salze
 - `connects-to` → **[Cardiomyocyte](../../04-cellular/cardiomyocyte/README.md)** — The doxorubicin that cures it scars the heart: a backbone of Ewing chemotherapy, this anthracycline kills cardiomyocytes through oxidative and topoisomerase damage, so survivors carry a lifelong risk of cardiomyopathy from the cumulative dose.
 - `connects-to` → **[TERT](../../03-molecular/tert/README.md)** — The fusion switches telomerase back on: EWS-FLI1 drives TERT expression, letting Ewing cells rebuild their telomeres and divide without limit — one of the ways the single fusion oncoprotein makes the tumor immortal.
 - `connects-to` → **[Bladder Cancer](../bladder-cancer/README.md)** — Its alkylating drugs scar the bladder and seed later cancer: cyclophosphamide and ifosfamide release acrolein that causes hemorrhagic cystitis (blunted by mesna) and, over decades, raise the risk of secondary bladder cancer in survivors.
+- `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — STAT3 keeps the fusion-driven cell alive: the EWS-FLI1 program activates STAT3 signaling that sustains Ewing proliferation and survival, a pathway probed for targeted therapy in this hard-to-treat sarcoma.
+- `connects-to` → **[Regulatory T Cell](../../04-cellular/regulatory-t-cell/README.md)** — Ewing is an immunologically cold tumor: its low mutation burden and infiltrating regulatory T cells blunt the antitumor response, a barrier that the immunotherapy and CAR-T trials in Ewing must overcome.
+- `connects-to` → **[Atypical Teratoid/Rhabdoid Tumor](../atypical-teratoid-rhabdoid-tumor/README.md)** — It sits among the small round blue cell tumors: like ATRT, neuroblastoma, and rhabdomyosarcoma, Ewing's sheets of small round blue cells force a differential resolved by its EWSR1 translocation and CD99 staining.
 
 ---
 
