@@ -169,6 +169,15 @@ cross_links:
   - target: 01-human/07-system/hypertension
     relation: connects-to
     note: "The tumor can drive up blood pressure: like its catecholamine-secreting cousins, some neuroblastomas pour out norepinephrine and dopamine, producing hypertension, sweating and flushing that can be the clue that leads to diagnosis."
+  - target: 01-human/03-molecular/cdkn2a
+    relation: connects-to
+    note: "Cell-cycle escape marks the aggressive tumor: CDKN2A loss and other cell-cycle lesions cooperate with MYCN amplification in high-risk neuroblastoma, driving the rapid proliferation that defines the lethal subtype."
+  - target: 01-human/07-system/neuropathic-pain
+    relation: connects-to
+    note: "The tumor and its cure both hurt the nerves: paraspinal neuroblastoma compresses nerve roots and the spinal cord, and platinum/vincristine chemotherapy adds a peripheral neuropathy — together a major pain burden in these children."
+  - target: 01-human/07-system/sepsis
+    relation: connects-to
+    note: "Intensive therapy strips the defenses: the high-dose chemotherapy and autologous transplant used for high-risk neuroblastoma cause prolonged neutropenia, making febrile neutropenia and sepsis a central treatment hazard."
 ---
 
 # Neuroblastoma
@@ -356,6 +365,9 @@ Stage MS (metastatic, <18 months, skin/liver/bone marrow only, MYCN wild-type): 
 - `connects-to` → **[ATRX](../../03-molecular/atrx/README.md)** — An alternate route to the same cancer: ATRX mutations mark a distinct, often older-child neuroblastoma that keeps its telomeres long by recombination rather than telomerase, mutually exclusive with MYCN amplification and tied to a chronic, treatment-resistant course.
 - `connects-to` → **[Peripheral Nerve](../../05-tissue/peripheral-nerve/README.md)** — It springs from the body's autonomic wiring: neuroblastoma arises from immature sympathetic neuroblasts of the peripheral nervous system, which is why it appears along the sympathetic chain and adrenal medulla and why favorable tumors can mature into benign nerve tissue.
 - `connects-to` → **[Hypertension](../hypertension/README.md)** — The tumor can drive up blood pressure: like its catecholamine-secreting cousins, some neuroblastomas pour out norepinephrine and dopamine, producing hypertension, sweating and flushing that can be the clue that leads to diagnosis.
+- `connects-to` → **[CDKN2A](../../03-molecular/cdkn2a/README.md)** — Cell-cycle escape marks the aggressive tumor: CDKN2A loss and other cell-cycle lesions cooperate with MYCN amplification in high-risk neuroblastoma, driving the rapid proliferation that defines the lethal subtype.
+- `connects-to` → **[Neuropathic Pain](../neuropathic-pain/README.md)** — The tumor and its cure both hurt the nerves: paraspinal neuroblastoma compresses nerve roots and the spinal cord, and platinum/vincristine chemotherapy adds a peripheral neuropathy — together a major pain burden in these children.
+- `connects-to` → **[Sepsis](../sepsis/README.md)** — Intensive therapy strips the defenses: the high-dose chemotherapy and autologous transplant used for high-risk neuroblastoma cause prolonged neutropenia, making febrile neutropenia and sepsis a central treatment hazard.
 
 [^yu-2010-dinutuximab-nb]: Yu AL, Gilman AL, Ozkaynak MF, et al. Anti-GD2 antibody with GM-CSF, interleukin-2, and isotretinoin for neuroblastoma. *N Engl J Med.* 2010;363(14):1324-1334. [doi:10.1056/NEJMoa0911123](https://doi.org/10.1056/NEJMoa0911123) · [PubMed 20879881](https://pubmed.ncbi.nlm.nih.gov/20879881/)
 [^park-2019-tandem-sct-nb]: Park JR, Kreissman SG, London WB, et al. Effect of tandem autologous stem cell transplant vs single transplant on event-free survival in patients with high-risk neuroblastoma: a randomized clinical trial. *JAMA.* 2019;322(8):746-755. [doi:10.1001/jama.2019.11642](https://doi.org/10.1001/jama.2019.11642) · [PubMed 31454023](https://pubmed.ncbi.nlm.nih.gov/31454023/)

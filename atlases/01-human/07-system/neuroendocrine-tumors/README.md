@@ -169,6 +169,15 @@ cross_links:
   - target: 01-human/03-molecular/norepinephrine
     relation: connects-to
     note: "One NET family floods the body with catecholamines: pheochromocytomas and paragangliomas pour out norepinephrine, causing the pounding hypertension and palpitations that set this secretory subtype apart from the serotonin-driven carcinoids."
+  - target: 01-human/07-system/heart-failure
+    relation: connects-to
+    note: "Serotonin scars the right heart: in carcinoid heart disease, vasoactive amines from a metastatic midgut NET deposit fibrous plaques on the tricuspid and pulmonary valves, driving right-sided heart failure — a leading cause of death in carcinoid syndrome."
+  - target: 01-human/03-molecular/cdkn2a
+    relation: connects-to
+    note: "Cell-cycle control grades the tumor: CDKN2A and other cell-cycle alterations help separate indolent well-differentiated NETs from the aggressive, high-proliferation neuroendocrine carcinomas, informing grade and treatment."
+  - target: 01-human/07-system/venous-thromboembolism
+    relation: connects-to
+    note: "The tumor and its surgery raise the clot risk: like other visceral cancers, neuroendocrine tumors and the major resections they require predispose to venous thromboembolism."
 ---
 
 # Neuroendocrine Tumors
@@ -324,6 +333,9 @@ Treatment identical to SCLC: cisplatin (or carboplatin) + etoposide (4-6 cycles)
 - `connects-to` → **[Neurofibromatosis Type 1](../neurofibromatosis-type-1/README.md)** — Some NETs run in cancer-predisposition families: neurofibromatosis type 1 raises the risk of duodenal somatostatinomas and other neuroendocrine tumors, one of several germline syndromes (with MEN1 and VHL) that seed these tumors decades early.
 - `connects-to` → **[Stomach](../../06-organ/stomach/README.md)** — The stomach grows its own neuroendocrine tumors: gastric carcinoids arise from ECL cells, often driven by the high gastrin of atrophic gastritis or acid-suppressing drugs, a distinct and usually indolent NET tied to how the stomach regulates acid.
 - `connects-to` → **[Norepinephrine](../../03-molecular/norepinephrine/README.md)** — One NET family floods the body with catecholamines: pheochromocytomas and paragangliomas pour out norepinephrine, causing the pounding hypertension and palpitations that set this secretory subtype apart from the serotonin-driven carcinoids.
+- `connects-to` → **[Heart Failure](../heart-failure/README.md)** — Serotonin scars the right heart: in carcinoid heart disease, vasoactive amines from a metastatic midgut NET deposit fibrous plaques on the tricuspid and pulmonary valves, driving right-sided heart failure — a leading cause of death in carcinoid syndrome.
+- `connects-to` → **[CDKN2A](../../03-molecular/cdkn2a/README.md)** — Cell-cycle control grades the tumor: CDKN2A and other cell-cycle alterations help separate indolent well-differentiated NETs from the aggressive, high-proliferation neuroendocrine carcinomas, informing grade and treatment.
+- `connects-to` → **[Venous Thromboembolism](../venous-thromboembolism/README.md)** — The tumor and its surgery raise the clot risk: like other visceral cancers, neuroendocrine tumors and the major resections they require predispose to venous thromboembolism.
 
 [^yao-2011-radiant3]: Yao JC, Shah MH, Ito T, et al. Everolimus for advanced pancreatic neuroendocrine tumors. *N Engl J Med.* 2011;364(6):514-523. [doi:10.1056/NEJMoa1009290](https://doi.org/10.1056/NEJMoa1009290) · [PubMed 21306237](https://pubmed.ncbi.nlm.nih.gov/21306237/)
 [^raymond-2011-sunitinib-pnet]: Raymond E, Dahan L, Raoul JL, et al. Sunitinib malate for the treatment of pancreatic neuroendocrine tumors. *N Engl J Med.* 2011;364(6):501-513. [doi:10.1056/NEJMoa1003825](https://doi.org/10.1056/NEJMoa1003825) · [PubMed 21306236](https://pubmed.ncbi.nlm.nih.gov/21306236/)
