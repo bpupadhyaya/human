@@ -160,6 +160,15 @@ cross_links:
   - target: 01-human/07-system/reproductive-system
     relation: connects-to
     note: "Cure can cost future fertility: the intensive chemotherapy, total-body irradiation, and stem-cell transplant used for high-risk neuroblastoma damage the gonads, so the late effects on growth and fertility are part of survivor care for these children."
+  - target: 01-human/03-molecular/atrx
+    relation: connects-to
+    note: "An alternate route to the same cancer: ATRX mutations mark a distinct, often older-child neuroblastoma that keeps its telomeres long by recombination rather than telomerase, mutually exclusive with MYCN amplification and tied to a chronic, treatment-resistant course."
+  - target: 01-human/05-tissue/peripheral-nerve
+    relation: connects-to
+    note: "It springs from the body's autonomic wiring: neuroblastoma arises from immature sympathetic neuroblasts of the peripheral nervous system, which is why it appears along the sympathetic chain and adrenal medulla and why favorable tumors can mature into benign nerve tissue."
+  - target: 01-human/07-system/hypertension
+    relation: connects-to
+    note: "The tumor can drive up blood pressure: like its catecholamine-secreting cousins, some neuroblastomas pour out norepinephrine and dopamine, producing hypertension, sweating and flushing that can be the clue that leads to diagnosis."
 ---
 
 # Neuroblastoma
@@ -344,6 +353,9 @@ Stage MS (metastatic, <18 months, skin/liver/bone marrow only, MYCN wild-type): 
 - `connects-to` → **[Platelet](../../04-cellular/platelet/README.md)** — The same marrow takeover starves the platelets: tumor flooding the bone marrow suppresses platelet production into thrombocytopenia, so bruising and bleeding join the anemia among the presenting signs of widespread neuroblastoma.
 - `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — Cisplatin in high-risk regimens wastes magnesium: the platinum chemotherapy injures the kidney tubule that reclaims the mineral, so blood magnesium falls and needs replacing, alongside watching for the drug's hearing loss and kidney damage.
 - `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — Cure can cost future fertility: the intensive chemotherapy, total-body irradiation, and stem-cell transplant used for high-risk neuroblastoma damage the gonads, so the late effects on growth and fertility are part of survivor care for these children.
+- `connects-to` → **[ATRX](../../03-molecular/atrx/README.md)** — An alternate route to the same cancer: ATRX mutations mark a distinct, often older-child neuroblastoma that keeps its telomeres long by recombination rather than telomerase, mutually exclusive with MYCN amplification and tied to a chronic, treatment-resistant course.
+- `connects-to` → **[Peripheral Nerve](../../05-tissue/peripheral-nerve/README.md)** — It springs from the body's autonomic wiring: neuroblastoma arises from immature sympathetic neuroblasts of the peripheral nervous system, which is why it appears along the sympathetic chain and adrenal medulla and why favorable tumors can mature into benign nerve tissue.
+- `connects-to` → **[Hypertension](../hypertension/README.md)** — The tumor can drive up blood pressure: like its catecholamine-secreting cousins, some neuroblastomas pour out norepinephrine and dopamine, producing hypertension, sweating and flushing that can be the clue that leads to diagnosis.
 
 [^yu-2010-dinutuximab-nb]: Yu AL, Gilman AL, Ozkaynak MF, et al. Anti-GD2 antibody with GM-CSF, interleukin-2, and isotretinoin for neuroblastoma. *N Engl J Med.* 2010;363(14):1324-1334. [doi:10.1056/NEJMoa0911123](https://doi.org/10.1056/NEJMoa0911123) · [PubMed 20879881](https://pubmed.ncbi.nlm.nih.gov/20879881/)
 [^park-2019-tandem-sct-nb]: Park JR, Kreissman SG, London WB, et al. Effect of tandem autologous stem cell transplant vs single transplant on event-free survival in patients with high-risk neuroblastoma: a randomized clinical trial. *JAMA.* 2019;322(8):746-755. [doi:10.1001/jama.2019.11642](https://doi.org/10.1001/jama.2019.11642) · [PubMed 31454023](https://pubmed.ncbi.nlm.nih.gov/31454023/)

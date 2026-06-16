@@ -160,6 +160,15 @@ cross_links:
   - target: 01-human/03-molecular/akt
     relation: connects-to
     note: "NETs grow along the PI3K-AKT-mTOR axis: signaling through AKT to mTOR sustains these tumors, the rationale behind everolimus and a resistance route when that drug is used, tying their biology to the broader growth-signaling network."
+  - target: 01-human/07-system/neurofibromatosis-type-1
+    relation: connects-to
+    note: "Some NETs run in cancer-predisposition families: neurofibromatosis type 1 raises the risk of duodenal somatostatinomas and other neuroendocrine tumors, one of several germline syndromes (with MEN1 and VHL) that seed these tumors decades early."
+  - target: 01-human/06-organ/stomach
+    relation: connects-to
+    note: "The stomach grows its own neuroendocrine tumors: gastric carcinoids arise from ECL cells, often driven by the high gastrin of atrophic gastritis or acid-suppressing drugs, a distinct and usually indolent NET tied to how the stomach regulates acid."
+  - target: 01-human/03-molecular/norepinephrine
+    relation: connects-to
+    note: "One NET family floods the body with catecholamines: pheochromocytomas and paragangliomas pour out norepinephrine, causing the pounding hypertension and palpitations that set this secretory subtype apart from the serotonin-driven carcinoids."
 ---
 
 # Neuroendocrine Tumors
@@ -312,6 +321,9 @@ Treatment identical to SCLC: cisplatin (or carboplatin) + etoposide (4-6 cycles)
 - `connects-to` → **[Fibroblast](../../04-cellular/fibroblast/README.md)** — Serotonin scars the heart valves: in carcinoid heart disease the tumor's serotonin drives valvular fibroblasts to lay down fibrous plaques on the right-sided valves, stiffening them into the tricuspid and pulmonary lesions that cause right heart failure.
 - `connects-to` → **[Tuberous Sclerosis Complex](../tuberous-sclerosis-complex/README.md)** — Tuberous sclerosis seeds neuroendocrine tumors: TSC1/TSC2 loss unleashes mTOR, predisposing to pancreatic neuroendocrine tumors — the same pathway that makes the mTOR inhibitor everolimus an effective therapy for advanced NETs.
 - `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — NETs grow along the PI3K-AKT-mTOR axis: signaling through AKT to mTOR sustains these tumors, the rationale behind everolimus and a resistance route when that drug is used, tying their biology to the broader growth-signaling network.
+- `connects-to` → **[Neurofibromatosis Type 1](../neurofibromatosis-type-1/README.md)** — Some NETs run in cancer-predisposition families: neurofibromatosis type 1 raises the risk of duodenal somatostatinomas and other neuroendocrine tumors, one of several germline syndromes (with MEN1 and VHL) that seed these tumors decades early.
+- `connects-to` → **[Stomach](../../06-organ/stomach/README.md)** — The stomach grows its own neuroendocrine tumors: gastric carcinoids arise from ECL cells, often driven by the high gastrin of atrophic gastritis or acid-suppressing drugs, a distinct and usually indolent NET tied to how the stomach regulates acid.
+- `connects-to` → **[Norepinephrine](../../03-molecular/norepinephrine/README.md)** — One NET family floods the body with catecholamines: pheochromocytomas and paragangliomas pour out norepinephrine, causing the pounding hypertension and palpitations that set this secretory subtype apart from the serotonin-driven carcinoids.
 
 [^yao-2011-radiant3]: Yao JC, Shah MH, Ito T, et al. Everolimus for advanced pancreatic neuroendocrine tumors. *N Engl J Med.* 2011;364(6):514-523. [doi:10.1056/NEJMoa1009290](https://doi.org/10.1056/NEJMoa1009290) · [PubMed 21306237](https://pubmed.ncbi.nlm.nih.gov/21306237/)
 [^raymond-2011-sunitinib-pnet]: Raymond E, Dahan L, Raoul JL, et al. Sunitinib malate for the treatment of pancreatic neuroendocrine tumors. *N Engl J Med.* 2011;364(6):501-513. [doi:10.1056/NEJMoa1003825](https://doi.org/10.1056/NEJMoa1003825) · [PubMed 21306236](https://pubmed.ncbi.nlm.nih.gov/21306236/)
