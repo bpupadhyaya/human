@@ -165,6 +165,15 @@ cross_links:
   - target: 01-human/04-cellular/plasma-cell
     relation: connects-to
     note: "Antibody is the key to survival: plasma cells must quickly pour out neutralizing IgM and IgG to clear the virus from the blood before it reaches the brain, which is why antibody-deficient people fare so badly."
+  - target: 01-human/03-molecular/irf3
+    relation: connects-to
+    note: "Sensing the virus triggers the interferon defense: West Nile RNA detected through RIG-I/MAVS activates IRF3 to switch on type I interferon, and the virus's NS proteins fight back by blocking this very pathway."
+  - target: 01-human/07-system/epilepsy
+    relation: connects-to
+    note: "Its brain invasion can leave a seizure focus: West Nile encephalitis inflames the cortex and can cause acute seizures and lasting epilepsy, part of the neurologic legacy that lingers in survivors of the neuroinvasive form."
+  - target: 01-human/04-cellular/neutrophil
+    relation: connects-to
+    note: "Neutrophils play a double game: they are recruited early to fight the infection yet can also serve as a reservoir that ferries the virus, and their breaching of the blood-brain barrier helps the virus reach the brain."
 ---
 
 # West Nile Virus
@@ -334,3 +343,6 @@ WNV has evolved a multilayered strategy to evade innate immunity:
 - `connects-to` → **[Endothelial Cell](../../04-cellular/endothelial-cell/README.md)** — The virus breaches the blood-brain barrier through the vessel wall: it infects brain microvascular endothelial cells and, with TNF-driven leakiness, loosens the barrier so the virus and immune cells flood into the brain.
 - `connects-to` → **[Interleukin-6](../../03-molecular/il-6/README.md)** — Neuroinvasive disease runs hot with IL-6: the cytokine pours into the inflamed brain and spinal fluid, and high CSF IL-6 tracks with the severity of West Nile encephalitis.
 - `connects-to` → **[Plasma Cell](../../04-cellular/plasma-cell/README.md)** — Antibody is the key to survival: plasma cells must quickly pour out neutralizing IgM and IgG to clear the virus from the blood before it reaches the brain, which is why antibody-deficient people fare so badly.
+- `connects-to` → **[IRF3](../../03-molecular/irf3/README.md)** — Sensing the virus triggers the interferon defense: West Nile RNA detected through RIG-I/MAVS activates IRF3 to switch on type I interferon, and the virus's NS proteins fight back by blocking this very pathway.
+- `connects-to` → **[Epilepsy](../epilepsy/README.md)** — Its brain invasion can leave a seizure focus: West Nile encephalitis inflames the cortex and can cause acute seizures and lasting epilepsy, part of the neurologic legacy that lingers in survivors of the neuroinvasive form.
+- `connects-to` → **[Neutrophil](../../04-cellular/neutrophil/README.md)** — Neutrophils play a double game: they are recruited early to fight the infection yet can also serve as a reservoir that ferries the virus, and their breaching of the blood-brain barrier helps the virus reach the brain.

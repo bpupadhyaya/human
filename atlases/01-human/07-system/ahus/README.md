@@ -172,6 +172,15 @@ cross_links:
   - target: 01-human/07-system/systemic-sclerosis
     relation: connects-to
     note: "Scleroderma renal crisis is a TMA twin: it injures the same small renal vessels with malignant hypertension and microangiopathic hemolysis, a key differential to separate from complement-driven aHUS at the bedside."
+  - target: 01-human/07-system/antiphospholipid-syndrome
+    relation: connects-to
+    note: "Catastrophic APS mimics it: antiphospholipid antibodies can trigger a widespread thrombotic microangiopathy with renal failure resembling aHUS, another autoimmune cause that must be excluded before settling on complement-driven disease."
+  - target: 01-human/07-system/nervous-system
+    relation: connects-to
+    note: "It is not only a kidney disease: complement-driven microthrombi strike the brain too, causing seizures, confusion and stroke in a large share of patients — a leading extrarenal manifestation of aHUS."
+  - target: 01-human/03-molecular/il-6
+    relation: connects-to
+    note: "Inflammation amplifies the endothelial injury: IL-6 and other cytokines released as complement attacks the vessel lining feed forward into more endothelial activation and microthrombosis, worsening the microangiopathy."
 ---
 
 # Atypical HUS
@@ -385,6 +394,9 @@ Repeated TMA episodes → glomerular fibrosis → CKD → ESRD
 - `connects-to` → **[Streptococcus pneumoniae](../../../02-pathogen/02-bacteria/streptococcus-pneumoniae/README.md)** — Pneumococcus can ignite its own HUS: the bacterium's neuraminidase strips sialic acid to expose the hidden T antigen on red cells and endothelium, triggering a thrombotic microangiopathy distinct from the usual E. coli kind.
 - `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — Glomerular vessels live on VEGF: podocyte VEGF keeps the filtration endothelium healthy, so cancer drugs that block it can unleash a complement-amplified thrombotic microangiopathy that mirrors aHUS.
 - `connects-to` → **[Systemic Sclerosis](../systemic-sclerosis/README.md)** — Scleroderma renal crisis is a TMA twin: it injures the same small renal vessels with malignant hypertension and microangiopathic hemolysis, a key differential to separate from complement-driven aHUS at the bedside.
+- `connects-to` → **[Antiphospholipid Syndrome](../antiphospholipid-syndrome/README.md)** — Catastrophic APS mimics it: antiphospholipid antibodies can trigger a widespread thrombotic microangiopathy with renal failure resembling aHUS, another autoimmune cause that must be excluded before settling on complement-driven disease.
+- `connects-to` → **[Nervous System](../nervous-system/README.md)** — It is not only a kidney disease: complement-driven microthrombi strike the brain too, causing seizures, confusion and stroke in a large share of patients — a leading extrarenal manifestation of aHUS.
+- `connects-to` → **[Interleukin-6](../../03-molecular/il-6/README.md)** — Inflammation amplifies the endothelial injury: IL-6 and other cytokines released as complement attacks the vessel lining feed forward into more endothelial activation and microthrombosis, worsening the microangiopathy.
 
 [^fakhouri-2017-ahus-lancet]: Fakhouri F, Zuber J, Frémeaux-Bacchi V, Loirat C. Haemolytic uraemic syndrome. *Lancet.* 2017;390(10095):681-696. [doi:10.1016/S0140-6736(17)30062-4](https://doi.org/10.1016/S0140-6736(17)30062-4) · [PubMed 28242109](https://pubmed.ncbi.nlm.nih.gov/28242109/)
 [^legendre-2013-eculizumab-ahus-nejm]: Legendre CM, Licht C, Muus P, et al. Terminal complement inhibitor eculizumab in atypical hemolytic-uremic syndrome. *N Engl J Med.* 2013;368(23):2169-2181. [doi:10.1056/NEJMoa1208981](https://doi.org/10.1056/NEJMoa1208981) · [PubMed 23738544](https://pubmed.ncbi.nlm.nih.gov/23738544/)
