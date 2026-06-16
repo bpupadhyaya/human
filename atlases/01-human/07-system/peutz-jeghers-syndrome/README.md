@@ -169,6 +169,15 @@ cross_links:
   - target: 01-human/07-system/cholangiocarcinoma
     relation: connects-to
     note: "The biliary tree is not spared: the syndrome's broad cancer predisposition extends to the bile ducts, so cholangiocarcinoma joins the pancreatic and gastrointestinal tumors that make lifelong, multi-organ surveillance the core of PJS care."
+  - target: 01-human/07-system/lynch-syndrome
+    relation: connects-to
+    note: "It headlines the hereditary GI-cancer differential: PJS's hamartomatous polyps and pigmentation set it apart from the mismatch-repair Lynch syndrome, each a distinct gene with its own cancer spectrum and surveillance."
+  - target: 01-human/07-system/sepsis
+    relation: connects-to
+    note: "Bowel emergencies invite sepsis: intussusception and obstruction from large polyps can lead to bowel ischemia and perforation, and the repeated surgeries PJS requires risk intra-abdominal infection and sepsis."
+  - target: 01-human/07-system/venous-thromboembolism
+    relation: connects-to
+    note: "Repeated surgery and cancer raise the clot risk: the lifetime of polyp resections and any malignancy that develops predispose Peutz-Jeghers patients to perioperative venous thromboembolism."
 ---
 
 # Peutz-Jeghers Syndrome
@@ -343,6 +352,9 @@ Without surveillance: cumulative cancer risk reaches ~85-93% by age 70 (all canc
 - `connects-to` → **[p53](../../03-molecular/p53/README.md)** — The defective kinase reaches the master tumor suppressor: LKB1 normally helps activate p53-dependent apoptosis and growth arrest, so losing it weakens this checkpoint as well, compounding the cancer risk beyond the unleashed mTOR signaling.
 - `connects-to` → **[Small Cell Lung Cancer](../sclc/README.md)** — The lungs are on the long cancer list: Peutz-Jeghers raises the risk of lung cancer, including small cell carcinoma, one of the many epithelial tissues where LKB1 loss removes a brake — a reminder its danger reaches well beyond the gut.
 - `connects-to` → **[Cholangiocarcinoma](../cholangiocarcinoma/README.md)** — The biliary tree is not spared: the syndrome's broad cancer predisposition extends to the bile ducts, so cholangiocarcinoma joins the pancreatic and gastrointestinal tumors that make lifelong, multi-organ surveillance the core of PJS care.
+- `connects-to` → **[Lynch Syndrome](../lynch-syndrome/README.md)** — It headlines the hereditary GI-cancer differential: PJS's hamartomatous polyps and pigmentation set it apart from the mismatch-repair Lynch syndrome, each a distinct gene with its own cancer spectrum and surveillance.
+- `connects-to` → **[Sepsis](../sepsis/README.md)** — Bowel emergencies invite sepsis: intussusception and obstruction from large polyps can lead to bowel ischemia and perforation, and the repeated surgeries PJS requires risk intra-abdominal infection and sepsis.
+- `connects-to` → **[Venous Thromboembolism](../venous-thromboembolism/README.md)** — Repeated surgery and cancer raise the clot risk: the lifetime of polyp resections and any malignancy that develops predispose Peutz-Jeghers patients to perioperative venous thromboembolism.
 
 ---
 

@@ -175,6 +175,15 @@ cross_links:
   - target: 01-human/06-organ/thyroid
     relation: connects-to
     note: "It rarely comes alone: pemphigus clusters with other autoimmune diseases, especially autoimmune thyroid disease, reflecting the shared genetic susceptibility that lets self-tolerance break down across more than one organ."
+  - target: 01-human/03-molecular/tnf-alpha
+    relation: connects-to
+    note: "Inflammatory cytokines amplify the blistering: TNF-α rises in pemphigus lesions and serum, adding an inflammatory layer to the antibody-driven loss of keratinocyte adhesion that forms the blisters."
+  - target: 01-human/07-system/sjogrens-syndrome
+    relation: connects-to
+    note: "Autoimmunity runs in company: pemphigus is over-represented alongside Sjögren's syndrome and other connective-tissue autoimmune diseases, a co-occurrence reflecting shared loss of self-tolerance."
+  - target: 01-human/07-system/venous-thromboembolism
+    relation: connects-to
+    note: "Severe disease and its steroids clot the veins: hospitalization for extensive pemphigus, systemic inflammation, and high-dose corticosteroids together raise the risk of venous thromboembolism."
 ---
 
 # Pemphigus Vulgaris
@@ -371,6 +380,9 @@ Pemphigus belongs to the **pemphigus group of autoimmune bullous diseases** (AIB
 - `connects-to` → **[BTK](../../03-molecular/btk/README.md)** — A kinase offers a gentler way to silence the autoimmunity: BTK inhibitors like rilzabrutinib damp the B-cell receptor signaling that fuels the anti-desmoglein antibody response, an emerging steroid-sparing option that spares broad immunosuppression.
 - `connects-to` → **[Sepsis](../sepsis/README.md)** — The stripped skin becomes a deadly gateway: widespread blistering erosions lose the barrier and weep fluid, so infection and sepsis through the denuded surface — worsened by the immunosuppression used to treat it — are the leading cause of death.
 - `connects-to` → **[Thyroid Gland](../../06-organ/thyroid/README.md)** — It rarely comes alone: pemphigus clusters with other autoimmune diseases, especially autoimmune thyroid disease, reflecting the shared genetic susceptibility that lets self-tolerance break down across more than one organ.
+- `connects-to` → **[TNF-α (Tumor Necrosis Factor-alpha)](../../03-molecular/tnf-alpha/README.md)** — Inflammatory cytokines amplify the blistering: TNF-α rises in pemphigus lesions and serum, adding an inflammatory layer to the antibody-driven loss of keratinocyte adhesion that forms the blisters.
+- `connects-to` → **[Sjögren's Syndrome](../sjogrens-syndrome/README.md)** — Autoimmunity runs in company: pemphigus is over-represented alongside Sjögren's syndrome and other connective-tissue autoimmune diseases, a co-occurrence reflecting shared loss of self-tolerance.
+- `connects-to` → **[Venous Thromboembolism](../venous-thromboembolism/README.md)** — Severe disease and its steroids clot the veins: hospitalization for extensive pemphigus, systemic inflammation, and high-dose corticosteroids together raise the risk of venous thromboembolism.
 
 ---
 
