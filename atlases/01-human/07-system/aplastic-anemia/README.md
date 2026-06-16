@@ -169,6 +169,15 @@ cross_links:
   - target: 01-human/07-system/myelofibrosis
     relation: connects-to
     note: "Both can give a 'dry tap,' but for opposite reasons: aplastic anemia empties the marrow while myelofibrosis scars it solid, so the marrow biopsy — hypocellular versus fibrotic — separates these two causes of marrow failure."
+  - target: 02-pathogen/01-viruses/epstein-barr-virus
+    relation: connects-to
+    note: "A common virus can crash the marrow: Epstein-Barr and other viruses are recognized triggers of acquired aplastic anemia, setting off the autoreactive T-cell attack on hematopoietic stem cells in susceptible people."
+  - target: 01-human/07-system/sepsis
+    relation: connects-to
+    note: "Empty marrow leaves no defense: the profound neutropenia of severe aplastic anemia makes overwhelming bacterial and fungal sepsis the leading cause of death, which is why neutropenic fever is a medical emergency."
+  - target: 01-human/03-molecular/il-2
+    relation: connects-to
+    note: "Autoreactive T cells run on IL-2: the cytokine expands the cytotoxic T-cell clones that destroy stem cells in aplastic anemia, and modulating IL-2 (low-dose, to favor regulatory T cells) is explored to restore tolerance."
 ---
 
 # Aplastic Anemia
@@ -332,6 +341,9 @@ In >80% of acquired AA cases, the disease is **immune-mediated**: autoreactive *
 - `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — Devouring macrophages can mimic marrow failure: in hemophagocytic syndromes overactive macrophages engulf blood cells, causing a pancytopenia that must be told apart from true aplastic anemia on the marrow biopsy.
 - `connects-to` → **[Leishmaniasis](../leishmaniasis/README.md)** — A tropical infection can empty the blood counts: visceral leishmaniasis fills the marrow with parasitized macrophages and enlarges the spleen, producing a pancytopenia that mimics aplastic anemia in endemic regions.
 - `connects-to` → **[Myelofibrosis](../myelofibrosis/README.md)** — Both can give a 'dry tap,' but for opposite reasons: aplastic anemia empties the marrow while myelofibrosis scars it solid, so the marrow biopsy — hypocellular versus fibrotic — separates these two causes of marrow failure.
+- `connects-to` → **[Epstein-Barr Virus](../../../02-pathogen/01-viruses/epstein-barr-virus/README.md)** — A common virus can crash the marrow: Epstein-Barr and other viruses are recognized triggers of acquired aplastic anemia, setting off the autoreactive T-cell attack on hematopoietic stem cells in susceptible people.
+- `connects-to` → **[Sepsis](../sepsis/README.md)** — Empty marrow leaves no defense: the profound neutropenia of severe aplastic anemia makes overwhelming bacterial and fungal sepsis the leading cause of death, which is why neutropenic fever is a medical emergency.
+- `connects-to` → **[IL-2](../../03-molecular/il-2/README.md)** — Autoreactive T cells run on IL-2: the cytokine expands the cytotoxic T-cell clones that destroy stem cells in aplastic anemia, and modulating IL-2 (low-dose, to favor regulatory T cells) is explored to restore tolerance.
 
 ---
 

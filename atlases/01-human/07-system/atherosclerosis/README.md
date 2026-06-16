@@ -175,6 +175,15 @@ cross_links:
   - target: 01-human/07-system/rheumatoid-arthritis
     relation: connects-to
     note: "Chronic inflammation anywhere ages the arteries: rheumatoid arthritis accelerates atherosclerosis through its systemic inflammatory load, giving patients excess heart attacks and the cardiovascular death that shortens their lives."
+  - target: 01-human/03-molecular/nlrp3-inflammasome
+    relation: connects-to
+    note: "Cholesterol crystals ignite the plaque's inflammasome: ingested by lesion macrophages they activate NLRP3 to release IL-1β, the upstream step CANTOS validated by cutting events with IL-1β blockade — proof inflammation, not just lipid, drives atherosclerosis."
+  - target: 01-human/07-system/psoriasis
+    relation: connects-to
+    note: "Skin inflammation reaches the arteries: psoriasis carries excess cardiovascular risk, its systemic Th17/IL-17 inflammation accelerating atherosclerosis, so plaque psoriasis is now treated as a vascular risk factor too."
+  - target: 01-human/07-system/systemic-lupus-erythematosus
+    relation: connects-to
+    note: "Lupus ages arteries decades early: chronic immune-complex inflammation and steroid exposure drive premature, accelerated atherosclerosis, making cardiovascular disease a leading cause of late death in systemic lupus."
 ---
 
 # Atherosclerosis
@@ -341,6 +350,9 @@ The process begins in childhood with **fatty streaks** and progresses silently o
 - `connects-to` → **[Fibrinogen](../../03-molecular/fibrinogen/README.md)** — Fibrinogen is the clot that finishes the plaque: this acute-phase protein is both a marker of vascular inflammation and the substrate that, on a ruptured plaque, forms the occlusive thrombus of heart attack and stroke.
 - `connects-to` → **[Regulatory T Cell](../../04-cellular/regulatory-t-cell/README.md)** — Regulatory T cells are the plaque's brake: they dampen the inflammatory attack on the artery wall, so when their atheroprotective control fails, the lesion grows more inflamed and unstable.
 - `connects-to` → **[Rheumatoid Arthritis](../rheumatoid-arthritis/README.md)** — Chronic inflammation anywhere ages the arteries: rheumatoid arthritis accelerates atherosclerosis through its systemic inflammatory load, giving patients excess heart attacks and the cardiovascular death that shortens their lives.
+- `connects-to` → **[NLRP3 Inflammasome](../../03-molecular/nlrp3-inflammasome/README.md)** — Cholesterol crystals ignite the plaque's inflammasome: ingested by lesion macrophages they activate NLRP3 to release IL-1β, the upstream step CANTOS validated by cutting events with IL-1β blockade — proof inflammation, not just lipid, drives atherosclerosis.
+- `connects-to` → **[Psoriasis](../psoriasis/README.md)** — Skin inflammation reaches the arteries: psoriasis carries excess cardiovascular risk, its systemic Th17/IL-17 inflammation accelerating atherosclerosis, so plaque psoriasis is now treated as a vascular risk factor too.
+- `connects-to` → **[Systemic Lupus Erythematosus](../systemic-lupus-erythematosus/README.md)** — Lupus ages arteries decades early: chronic immune-complex inflammation and steroid exposure drive premature, accelerated atherosclerosis, making cardiovascular disease a leading cause of late death in systemic lupus.
 
 ---
 
