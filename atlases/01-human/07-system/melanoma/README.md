@@ -175,6 +175,15 @@ cross_links:
   - target: 01-human/04-cellular/fibroblast
     relation: connects-to
     note: "The tumor's stroma fights back for it: cancer-associated fibroblasts remodel the matrix and secrete growth factors that shield melanoma cells, a niche that blunts BRAF-targeted drugs and helps the tumor regrow after an initial response."
+  - target: 01-human/03-molecular/stat3
+    relation: connects-to
+    note: "STAT3 helps melanoma hide from immunity: constitutive STAT3 signaling drives survival and an immunosuppressive microenvironment, dampening the antitumor response that checkpoint inhibitors try to restore."
+  - target: 01-human/07-system/endocrine-system
+    relation: connects-to
+    note: "Immunotherapy turns on the glands: checkpoint inhibitors for melanoma commonly cause endocrine immune-related adverse events — hypophysitis, thyroiditis, and adrenal insufficiency — that can be permanent and need hormone replacement."
+  - target: 01-human/04-cellular/mast-cell
+    relation: connects-to
+    note: "Mast cells stock the melanoma stroma: they accumulate around the tumor and release angiogenic and matrix-remodeling mediators that support invasion and new-vessel growth in the microenvironment."
 ---
 
 # Melanoma
@@ -317,6 +326,9 @@ cross_links:
 - `connects-to` → **[IL-2](../../03-molecular/il-2/README.md)** — Melanoma launched modern immunotherapy: high-dose IL-2 produced the first durable remissions by goading T cells to attack, the proof-of-concept that the immune system could clear metastatic melanoma and the forerunner of today's checkpoint and cell therapies.
 - `connects-to` → **[Type 1 Diabetes](../type-1-diabetes/README.md)** — Unleashing the immune system has a cost: checkpoint inhibitors used against melanoma can trigger autoimmune attack on the pancreas, causing new-onset type 1 diabetes as an immune-related adverse event — the flip side of releasing the brakes on T cells.
 - `connects-to` → **[Fibroblast](../../04-cellular/fibroblast/README.md)** — The tumor's stroma fights back for it: cancer-associated fibroblasts remodel the matrix and secrete growth factors that shield melanoma cells, a niche that blunts BRAF-targeted drugs and helps the tumor regrow after an initial response.
+- `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — STAT3 helps melanoma hide from immunity: constitutive STAT3 signaling drives survival and an immunosuppressive microenvironment, dampening the antitumor response that checkpoint inhibitors try to restore.
+- `connects-to` → **[Endocrine System](../endocrine-system/README.md)** — Immunotherapy turns on the glands: checkpoint inhibitors for melanoma commonly cause endocrine immune-related adverse events — hypophysitis, thyroiditis, and adrenal insufficiency — that can be permanent and need hormone replacement.
+- `connects-to` → **[Mast Cell](../../04-cellular/mast-cell/README.md)** — Mast cells stock the melanoma stroma: they accumulate around the tumor and release angiogenic and matrix-remodeling mediators that support invasion and new-vessel growth in the microenvironment.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 

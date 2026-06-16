@@ -169,6 +169,15 @@ cross_links:
   - target: 01-human/07-system/meningioma
     relation: connects-to
     note: "The treatment can seed a second tumor: the cranial radiation that cures medulloblastoma is itself a leading cause of radiation-induced meningiomas decades later, one of the secondary cancers that shadow long-term survivors."
+  - target: 01-human/03-molecular/cdkn2a
+    relation: connects-to
+    note: "Cell-cycle brakes fail in the aggressive subtypes: CDKN2A loss and the resulting CDK4/6 overactivity drive proliferation in MYC-amplified medulloblastomas, marking poor-prognosis tumors and a rationale for CDK4/6 inhibitors."
+  - target: 01-human/07-system/stroke
+    relation: connects-to
+    note: "Radiation scars the brain's arteries: craniospinal irradiation causes a late cerebral vasculopathy — including moyamoya around the circle of Willis — that raises stroke risk in childhood medulloblastoma survivors."
+  - target: 01-human/07-system/sepsis
+    relation: connects-to
+    note: "Intensive therapy strips the defenses: the myelosuppressive chemotherapy used against medulloblastoma produces neutropenia, so febrile neutropenia and sepsis are among the acute treatment hazards."
 ---
 
 # Medulloblastoma
@@ -349,6 +358,9 @@ MB survivors face substantial late effects — inversely proportional to age at 
 - `connects-to` → **[SUFU](../../03-molecular/sufu/README.md)** — A brake on the Hedgehog pathway, when lost, drives one subgroup: SUFU normally restrains SHH signaling, so germline or somatic SUFU loss unleashes the pathway to produce SHH-type medulloblastoma — a target for the same Hedgehog inhibitors aimed at SMO and PTCH1.
 - `connects-to` → **[Endocrine System](../endocrine-system/README.md)** — Cure comes at a hormonal price: craniospinal radiation and surgery near the hypothalamus and pituitary leave survivors with growth-hormone deficiency, thyroid and adrenal shortfalls and delayed puberty, so lifelong endocrine follow-up is part of survivorship.
 - `connects-to` → **[Meningioma](../meningioma/README.md)** — The treatment can seed a second tumor: the cranial radiation that cures medulloblastoma is itself a leading cause of radiation-induced meningiomas decades later, one of the secondary cancers that shadow long-term survivors.
+- `connects-to` → **[CDKN2A](../../03-molecular/cdkn2a/README.md)** — Cell-cycle brakes fail in the aggressive subtypes: CDKN2A loss and the resulting CDK4/6 overactivity drive proliferation in MYC-amplified medulloblastomas, marking poor-prognosis tumors and a rationale for CDK4/6 inhibitors.
+- `connects-to` → **[Stroke](../stroke/README.md)** — Radiation scars the brain's arteries: craniospinal irradiation causes a late cerebral vasculopathy — including moyamoya around the circle of Willis — that raises stroke risk in childhood medulloblastoma survivors.
+- `connects-to` → **[Sepsis](../sepsis/README.md)** — Intensive therapy strips the defenses: the myelosuppressive chemotherapy used against medulloblastoma produces neutropenia, so febrile neutropenia and sepsis are among the acute treatment hazards.
 
 [^packer-2006-std-risk-mb]: Packer RJ, Gajjar A, Vezina G, et al. Phase III study of craniospinal radiation therapy followed by adjuvant chemotherapy for newly diagnosed average-risk medulloblastoma. *J Clin Oncol.* 2006;24(25):4202-4208. [doi:10.1200/JCO.2006.06.4980](https://doi.org/10.1200/JCO.2006.06.4980) · [PubMed 16943538](https://pubmed.ncbi.nlm.nih.gov/16943538/)
 [^taylor-2012-mb-subgroups]: Taylor MD, Northcott PA, Korshunov A, et al. Molecular subgroups of medulloblastoma: the current consensus. *Acta Neuropathol.* 2012;123(4):465-472. [doi:10.1007/s00401-011-0922-z](https://doi.org/10.1007/s00401-011-0922-z) · [PubMed 22134537](https://pubmed.ncbi.nlm.nih.gov/22134537/)
