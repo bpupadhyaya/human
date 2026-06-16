@@ -175,6 +175,15 @@ cross_links:
   - target: 01-human/07-system/alzheimers-disease
     relation: connects-to
     note: "It reaches the aging brain: insulin resistance and chronic hyperglycemia raise the risk of dementia, including Alzheimer's, so strongly that the disease is sometimes called 'type 3 diabetes' for the brain's own faltering insulin signaling."
+  - target: 01-human/03-molecular/nf-kb
+    relation: connects-to
+    note: "NF-κB is the inflammatory hub of insulin resistance: free fatty acids and cytokines activate NF-κB in liver, fat and muscle, blunting insulin signaling — the mechanism behind the chronic low-grade inflammation that drives type 2 diabetes."
+  - target: 01-human/07-system/venous-thromboembolism
+    relation: connects-to
+    note: "High sugar tips the blood toward clotting: type 2 diabetes raises fibrinogen and platelet reactivity and impairs fibrinolysis, contributing to a prothrombotic state that modestly increases deep-vein thrombosis and pulmonary embolism risk."
+  - target: 01-human/07-system/sepsis
+    relation: connects-to
+    note: "It blunts defenses and worsens infection: hyperglycemia impairs neutrophil function and wound healing, making people with diabetes more prone to severe infections and to sepsis when those infections take hold."
 ---
 
 # Type 2 Diabetes
@@ -330,6 +339,9 @@ T2DM, CKD, heart failure, and obesity form the **cardiorenal metabolic (CRM) syn
 - `connects-to` → **[Hepatocyte](../../04-cellular/hepatocyte/README.md)** — The liver pumps out sugar it shouldn't: insulin-resistant hepatocytes keep running gluconeogenesis even when glucose is already high, so excess hepatic glucose output drives the fasting hyperglycemia that metformin works to restrain.
 - `connects-to` → **[Interleukin-6](../../03-molecular/il-6/README.md)** — Inflammation links fat to insulin resistance: IL-6 and other cytokines released by enlarged, stressed adipose tissue interfere with insulin signaling in muscle and liver, part of the low-grade inflammation that ties obesity to type 2 diabetes.
 - `connects-to` → **[Alzheimer's Disease](../alzheimers-disease/README.md)** — It reaches the aging brain: insulin resistance and chronic hyperglycemia raise the risk of dementia, including Alzheimer's, so strongly that the disease is sometimes called 'type 3 diabetes' for the brain's own faltering insulin signaling.
+- `connects-to` → **[NF-κB](../../03-molecular/nf-kb/README.md)** — NF-κB is the inflammatory hub of insulin resistance: free fatty acids and cytokines activate NF-κB in liver, fat and muscle, blunting insulin signaling — the mechanism behind the chronic low-grade inflammation that drives type 2 diabetes.
+- `connects-to` → **[Venous Thromboembolism](../venous-thromboembolism/README.md)** — High sugar tips the blood toward clotting: type 2 diabetes raises fibrinogen and platelet reactivity and impairs fibrinolysis, contributing to a prothrombotic state that modestly increases deep-vein thrombosis and pulmonary embolism risk.
+- `connects-to` → **[Sepsis](../sepsis/README.md)** — It blunts defenses and worsens infection: hyperglycemia impairs neutrophil function and wound healing, making people with diabetes more prone to severe infections and to sepsis when those infections take hold.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 

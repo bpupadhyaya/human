@@ -169,6 +169,15 @@ cross_links:
   - target: 01-human/04-cellular/mast-cell
     relation: connects-to
     note: "Immune cells populate its lesions: mast cells and other inflammatory cells infiltrate the lymphangioleiomyomatosis and angiomyolipoma tissue of TSC, contributing to the remodeling of these mTOR-driven growths."
+  - target: 01-human/03-molecular/stat3
+    relation: connects-to
+    note: "mTOR pushes growth through STAT3 too: the hyperactive mTORC1 of TSC engages STAT3 signaling that supports proliferation in its tumors, one of the pathways that keeps angiomyolipomas and astrocytomas growing."
+  - target: 01-human/03-molecular/nf-kb
+    relation: connects-to
+    note: "mTOR and NF-κB feed each other in its lesions: TSC's unchecked mTORC1 cross-talks with NF-κB inflammatory signaling, contributing to the chronic inflammation found within its slow-growing growths."
+  - target: 01-human/07-system/major-depressive-disorder
+    relation: connects-to
+    note: "Mood disorder is part of the syndrome: TSC-associated neuropsychiatric disorders (TAND) include high rates of depression alongside autism, ADHD and anxiety, reflecting the mTOR pathway's reach into brain function."
 ---
 
 # Tuberous Sclerosis Complex
@@ -359,6 +368,9 @@ With modern management: life expectancy increasingly normal; major risks: renal 
 - `connects-to` → **[Estrogen](../../03-molecular/estrogen/README.md)** — One TSC tumor runs on estrogen: lymphangioleiomyomatosis, the lung disease that strikes women with TSC, is fueled by estrogen, which is why it worsens in pregnancy and around the reproductive years — a hormone steering an mTOR-driven tumor.
 - `connects-to` → **[HIF-1alpha](../../03-molecular/hif-1alpha/README.md)** — Runaway mTOR turns on the hypoxia program: unchecked mTORC1 in TSC stabilizes HIF and drives VEGF, helping explain the rich vascularity of its angiomyolipomas and brain tumors and supporting the logic of mTOR-inhibitor therapy.
 - `connects-to` → **[Mast Cell](../../04-cellular/mast-cell/README.md)** — Immune cells populate its lesions: mast cells and other inflammatory cells infiltrate the lymphangioleiomyomatosis and angiomyolipoma tissue of TSC, contributing to the remodeling of these mTOR-driven growths.
+- `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — mTOR pushes growth through STAT3 too: the hyperactive mTORC1 of TSC engages STAT3 signaling that supports proliferation in its tumors, one of the pathways that keeps angiomyolipomas and astrocytomas growing.
+- `connects-to` → **[NF-κB](../../03-molecular/nf-kb/README.md)** — mTOR and NF-κB feed each other in its lesions: TSC's unchecked mTORC1 cross-talks with NF-κB inflammatory signaling, contributing to the chronic inflammation found within its slow-growing growths.
+- `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — Mood disorder is part of the syndrome: TSC-associated neuropsychiatric disorders (TAND) include high rates of depression alongside autism, ADHD and anxiety, reflecting the mTOR pathway's reach into brain function.
 
 ---
 
