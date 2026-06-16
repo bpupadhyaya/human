@@ -167,6 +167,15 @@ cross_links:
   - target: 01-human/03-molecular/nitric-oxide
     relation: connects-to
     note: "The vessels pump themselves with a gas signal: nitric oxide released by lymphatic endothelium tunes the rhythmic contractions of lymphatic muscle that propel lymph forward, so it helps set the pace of drainage against gravity."
+  - target: 02-pathogen/02-bacteria/streptococcus-pyogenes
+    relation: connects-to
+    note: "Strep inflames the lymphatic channels: Streptococcus pyogenes causes lymphangitis — the red streak tracking up a limb toward the nodes — and recurrent attacks scar the vessels into chronic lymphedema."
+  - target: 01-human/07-system/obesity
+    relation: connects-to
+    note: "Excess fat throttles the lymphatics: obesity impairs lymphatic pumping and damages the vessels, causing a distinct obesity-related lymphedema, while the lymphatic system in turn shapes fat deposition and inflammation."
+  - target: 01-human/07-system/cll
+    relation: connects-to
+    note: "A lymphoid leukemia fills the system: chronic lymphocytic leukemia accumulates malignant B lymphocytes that swell the lymph nodes and spleen, a tumor of the very cells the lymphatic system is built to circulate."
 ---
 
 # Lymphatic System
@@ -326,6 +335,9 @@ Enterocytes package dietary triglycerides + cholesterol + apoB-48 into chylomicr
 - `connects-to` → **[Intestinal Epithelium](../../05-tissue/intestinal-epithelium/README.md)** — The gut feeds the lymph: specialized lacteals inside each intestinal villus collect the fat absorbed by the epithelium, packaging dietary lipids into milky chyle that drains through the lymphatics to the bloodstream — the lymphatic system's role in nutrition.
 - `connects-to` → **[Heart Failure](../heart-failure/README.md)** — When the heart backs up, the lymphatics flood: high venous pressure in heart failure outpaces lymphatic return of interstitial fluid, so the drainage system is overwhelmed and fluid pools as the edema and effusions that mark decompensation.
 - `connects-to` → **[Nitric Oxide](../../03-molecular/nitric-oxide/README.md)** — The vessels pump themselves with a gas signal: nitric oxide released by lymphatic endothelium tunes the rhythmic contractions of lymphatic muscle that propel lymph forward, so it helps set the pace of drainage against gravity.
+- `connects-to` → **[Streptococcus pyogenes](../../../02-pathogen/02-bacteria/streptococcus-pyogenes/README.md)** — Strep inflames the lymphatic channels: Streptococcus pyogenes causes lymphangitis — the red streak tracking up a limb toward the nodes — and recurrent attacks scar the vessels into chronic lymphedema.
+- `connects-to` → **[Obesity](../obesity/README.md)** — Excess fat throttles the lymphatics: obesity impairs lymphatic pumping and damages the vessels, causing a distinct obesity-related lymphedema, while the lymphatic system in turn shapes fat deposition and inflammation.
+- `connects-to` → **[CLL](../cll/README.md)** — A lymphoid leukemia fills the system: chronic lymphocytic leukemia accumulates malignant B lymphocytes that swell the lymph nodes and spleen, a tumor of the very cells the lymphatic system is built to circulate.
 
 ## Pathology
 
