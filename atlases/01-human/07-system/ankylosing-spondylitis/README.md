@@ -178,6 +178,15 @@ cross_links:
   - target: 01-human/07-system/heart-failure
     relation: connects-to
     note: "Inflammation reaches the heart's structure: AS can inflame the aortic root into regurgitation and scar the conduction system, valve and conduction disease that, on top of the cardiovascular risk, can drift into heart failure."
+  - target: 01-human/03-molecular/stat3
+    relation: connects-to
+    note: "STAT3 carries the IL-23 signal into Th17 cells: it is the transcription factor that drives the IL-17-producing T cells central to AS, which is why STAT3-dependent cytokine pathways are prime drug targets in the disease."
+  - target: 01-human/03-molecular/nf-kb
+    relation: connects-to
+    note: "NF-κB transmits the TNF signal: at the inflamed entheses, TNF acts largely through NF-κB to sustain the inflammatory and bone-remodeling programs, the pathway that anti-TNF biologics interrupt to calm AS."
+  - target: 01-human/07-system/venous-thromboembolism
+    relation: connects-to
+    note: "Chronic inflammation raises the clot risk: ankylosing spondylitis carries an increased rate of deep-vein thrombosis and pulmonary embolism, part of the prothrombotic tendency shared across the systemic inflammatory diseases."
 ---
 
 # Ankylosing Spondylitis
@@ -340,6 +349,9 @@ AS originates at the **enthesis** — the site where tendons, ligaments, and joi
 - `connects-to` → **[Interleukin-6](../../03-molecular/il-6/README.md)** — IL-6 fuels both the inflammation and its toll: this cytokine helps drive the Th17 axis and the systemic acute-phase response of AS, contributing to the chronic-disease anemia and fatigue that accompany the spinal disease.
 - `connects-to` → **[Regulatory T Cell](../../04-cellular/regulatory-t-cell/README.md)** — The brakes on inflammation slip: a relative shortfall of regulatory T cells lets the IL-23/Th17 response run unchecked at the entheses, tilting the balance toward the IL-17-driven inflammation that ossifies the spine.
 - `connects-to` → **[Heart Failure](../heart-failure/README.md)** — Inflammation reaches the heart's structure: AS can inflame the aortic root into regurgitation and scar the conduction system, valve and conduction disease that, on top of the cardiovascular risk, can drift into heart failure.
+- `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — STAT3 carries the IL-23 signal into Th17 cells: it is the transcription factor that drives the IL-17-producing T cells central to AS, which is why STAT3-dependent cytokine pathways are prime drug targets in the disease.
+- `connects-to` → **[NF-κB](../../03-molecular/nf-kb/README.md)** — NF-κB transmits the TNF signal: at the inflamed entheses, TNF acts largely through NF-κB to sustain the inflammatory and bone-remodeling programs, the pathway that anti-TNF biologics interrupt to calm AS.
+- `connects-to` → **[Venous Thromboembolism](../venous-thromboembolism/README.md)** — Chronic inflammation raises the clot risk: ankylosing spondylitis carries an increased rate of deep-vein thrombosis and pulmonary embolism, part of the prothrombotic tendency shared across the systemic inflammatory diseases.
 
 [^sieper-2015-ankylosing-spondylitis-review]: Sieper J, Poddubnyy D. Ankylosing spondylitis. *Lancet.* 2017;390(10089):73-84. [doi:10.1016/S0140-6736(16)31591-4](https://doi.org/10.1016/S0140-6736(16)31591-4) · [PubMed 28110981](https://pubmed.ncbi.nlm.nih.gov/28110981/)
 [^baeten-2015-secukinumab-as]: Baeten D, Sieper J, Braun J, et al. Secukinumab, an Interleukin-17A Inhibitor, in Ankylosing Spondylitis. *N Engl J Med.* 2015;373(26):2534-2548. [doi:10.1056/NEJMoa1505066](https://doi.org/10.1056/NEJMoa1505066) · [PubMed 26699169](https://pubmed.ncbi.nlm.nih.gov/26699169/)

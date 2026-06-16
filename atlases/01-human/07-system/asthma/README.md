@@ -178,6 +178,15 @@ cross_links:
   - target: 02-pathogen/02-bacteria/streptococcus-pneumoniae
     relation: connects-to
     note: "The inflamed lung is more vulnerable to a classic pathogen: asthmatics carry a higher risk of invasive pneumococcal disease, which is why pneumococcal vaccination is recommended to protect airways already primed for trouble."
+  - target: 01-human/03-molecular/nf-kb
+    relation: connects-to
+    note: "NF-κB is the airway's inflammation switch: allergens, viruses and pollutants activate NF-κB in bronchial epithelium to pour out the cytokines and chemokines of an asthma attack, and quieting it is much of how inhaled steroids work."
+  - target: 01-human/03-molecular/stat3
+    relation: connects-to
+    note: "STAT3 underlies the steroid-resistant disease: in neutrophilic and severe asthma, IL-6/IL-17-driven STAT3 signaling sustains airway inflammation that responds poorly to corticosteroids, marking it as a target in hard-to-treat cases."
+  - target: 01-human/07-system/venous-thromboembolism
+    relation: connects-to
+    note: "Severe disease tilts the blood toward clotting: asthma — especially severe, exacerbating disease and long courses of oral steroids — is linked to a higher risk of pulmonary embolism and deep-vein thrombosis."
 ---
 
 # Asthma
@@ -340,6 +349,9 @@ Asthma affects approximately **339 million people worldwide** (WHO 2019) and is 
 - `connects-to` → **[Fibroblast](../../04-cellular/fibroblast/README.md)** — Long-standing asthma remodels the airway wall: fibroblasts laying down subepithelial collagen thicken and stiffen the bronchi, a structural scarring that can fix airflow limitation even when the inflammation is controlled.
 - `connects-to` → **[Bradykinin](../../03-molecular/bradykinin/README.md)** — A kinin tightens the airways: bradykinin generated in the inflamed bronchi constricts smooth muscle and stimulates mucus and cough, contributing to airway hyperreactivity — and explaining the cough that ACE inhibitors, which raise bradykinin, can provoke.
 - `connects-to` → **[Streptococcus pneumoniae](../../../02-pathogen/02-bacteria/streptococcus-pneumoniae/README.md)** — The inflamed lung is more vulnerable to a classic pathogen: asthmatics carry a higher risk of invasive pneumococcal disease, which is why pneumococcal vaccination is recommended to protect airways already primed for trouble.
+- `connects-to` → **[NF-κB](../../03-molecular/nf-kb/README.md)** — NF-κB is the airway's inflammation switch: allergens, viruses and pollutants activate NF-κB in bronchial epithelium to pour out the cytokines and chemokines of an asthma attack, and quieting it is much of how inhaled steroids work.
+- `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — STAT3 underlies the steroid-resistant disease: in neutrophilic and severe asthma, IL-6/IL-17-driven STAT3 signaling sustains airway inflammation that responds poorly to corticosteroids, marking it as a target in hard-to-treat cases.
+- `connects-to` → **[Venous Thromboembolism](../venous-thromboembolism/README.md)** — Severe disease tilts the blood toward clotting: asthma — especially severe, exacerbating disease and long courses of oral steroids — is linked to a higher risk of pulmonary embolism and deep-vein thrombosis.
 
 [^gina-2023-asthma]: Global Initiative for Asthma. Global Strategy for Asthma Management and Prevention. 2023. [ginasthma.org](https://ginasthma.org/2023-gina-main-report/)
 [^wenzel-2012-asthma-phenotypes]: Wenzel SE. Asthma phenotypes: the evolution from clinical to molecular approaches. *Nat Med.* 2012;18(5):716-725. [doi:10.1038/nm.2678](https://doi.org/10.1038/nm.2678) · [PubMed 22561835](https://pubmed.ncbi.nlm.nih.gov/22561835/)
