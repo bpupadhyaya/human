@@ -153,6 +153,15 @@ cross_links:
   - target: 01-human/06-organ/adrenal-gland
     relation: connects-to
     note: "Stress hormones trigger the binge: HPA-axis activation pours adrenal cortisol that heightens cravings for calorie-dense food, so stress reactivity is a major driver of binge episodes."
+  - target: 01-human/07-system/hypertension
+    relation: connects-to
+    note: "The weight it drives raises the pressure: binge eating disorder is the most common eating disorder and a major route to obesity, carrying with it the hypertension that follows excess weight and metabolic strain."
+  - target: 01-human/03-molecular/nlrp3-inflammasome
+    relation: connects-to
+    note: "Overeating stokes metabolic inflammation: the obesity that binge eating produces activates the NLRP3 inflammasome in fat tissue, releasing IL-1β that drives the insulin resistance linking the disorder to metabolic disease."
+  - target: 01-human/04-cellular/regulatory-t-cell
+    relation: connects-to
+    note: "Fat's immune balance tips: as binge eating expands adipose tissue, its protective regulatory T cells dwindle and inflammatory cells take over, part of how the disorder's weight gain becomes metabolic disease."
 sources:
   - id: american-psychiatric-2013-bed-dsm5
     type: clinical-guideline
@@ -359,6 +368,9 @@ BED is among the most psychiatrically comorbid of all eating disorders:
 - `connects-to` → **[Orexin](../../03-molecular/orexin/README.md)** — Orexin drives the urge to seek food: this hypothalamic wake-and-reward peptide ramps up motivated eating, and overactive orexin signaling is implicated in the compulsive food-seeking of binge episodes.
 - `connects-to` → **[Gambling Disorder](../gambling-disorder/README.md)** — Binge eating sits on the addiction spectrum: like gambling disorder it is a behavioral addiction of impulsivity and reward, sharing dopamine circuitry and the loss-of-control that frames some binge eating as a 'food addiction.'
 - `connects-to` → **[Adrenal Gland](../../06-organ/adrenal-gland/README.md)** — Stress hormones trigger the binge: HPA-axis activation pours adrenal cortisol that heightens cravings for calorie-dense food, so stress reactivity is a major driver of binge episodes.
+- `connects-to` → **[Hypertension](../hypertension/README.md)** — The weight it drives raises the pressure: binge eating disorder is the most common eating disorder and a major route to obesity, carrying with it the hypertension that follows excess weight and metabolic strain.
+- `connects-to` → **[NLRP3 Inflammasome](../../03-molecular/nlrp3-inflammasome/README.md)** — Overeating stokes metabolic inflammation: the obesity that binge eating produces activates the NLRP3 inflammasome in fat tissue, releasing IL-1β that drives the insulin resistance linking the disorder to metabolic disease.
+- `connects-to` → **[Regulatory T Cell](../../04-cellular/regulatory-t-cell/README.md)** — Fat's immune balance tips: as binge eating expands adipose tissue, its protective regulatory T cells dwindle and inflammatory cells take over, part of how the disorder's weight gain becomes metabolic disease.
 
 [^american-psychiatric-2013-bed-dsm5]: American Psychiatric Association. Binge Eating Disorder (307.51). In: *Diagnostic and Statistical Manual of Mental Disorders, 5th ed.* Arlington, VA: APA; 2013. [doi:10.1176/appi.books.9780890425596](https://doi.org/10.1176/appi.books.9780890425596)
 [^mccallum-2003-bed-review]: McCallum K, Bruton AM. Binge eating disorder: eating disorder or somatic syndrome? *Prim Care Companion J Clin Psychiatry.* 2003;5(Suppl 4):20-25. [PubMed 15213784](https://pubmed.ncbi.nlm.nih.gov/15213784/)
