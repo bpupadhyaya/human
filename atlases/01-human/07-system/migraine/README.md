@@ -175,6 +175,15 @@ cross_links:
   - target: 01-human/07-system/bipolar-disorder
     relation: connects-to
     note: "Migraine and bipolar disorder run together: they share a strong comorbidity and overlapping ion-channel and serotonin biology, and several mood stabilizers (valproate, topiramate) treat both conditions."
+  - target: 01-human/03-molecular/calcitonin
+    relation: connects-to
+    note: "Migraine's key peptide is the calcitonin gene's other product: CGRP arises from alternative splicing of the CALCA gene that also encodes calcitonin, linking the headache's central mediator to calcium-regulating peptide biology."
+  - target: 01-human/07-system/obesity
+    relation: connects-to
+    note: "Obesity worsens migraine: it roughly triples the risk of episodic migraine progressing to chronic daily headache, via adipose-driven inflammation and shared CGRP/leptin signalling — making weight a modifiable factor in headache frequency."
+  - target: 01-human/07-system/ptsd
+    relation: connects-to
+    note: "Trauma and migraine reinforce each other: PTSD is markedly over-represented among people with migraine, especially chronic and medication-overuse forms, with shared stress-axis and serotonergic dysregulation worsening both."
 ---
 
 # Migraine
@@ -364,6 +373,9 @@ Episodic migraine (EM, <15 headache days/month) transforms to **chronic migraine
 - `connects-to` → **[Substance P](../../03-molecular/substance-p/README.md)** — Substance P inflames the meninges: released with CGRP from trigeminal nerve endings, it drives the neurogenic inflammation — vasodilation, plasma leak, and mast-cell activation — that sensitizes the pain fibers in a migraine.
 - `connects-to` → **[Smooth Muscle Cell](../../04-cellular/smooth-muscle-cell/README.md)** — The cranial vessels' muscle joins the attack: vascular smooth muscle in the meningeal and cerebral arteries dilates under CGRP and nitric oxide, the throbbing component of migraine and a target of the older vasoconstrictor triptans.
 - `connects-to` → **[Bipolar Disorder](../bipolar-disorder/README.md)** — Migraine and bipolar disorder run together: they share a strong comorbidity and overlapping ion-channel and serotonin biology, and several mood stabilizers (valproate, topiramate) treat both conditions.
+- `connects-to` → **[Calcitonin](../../03-molecular/calcitonin/README.md)** — Migraine's key peptide is the calcitonin gene's other product: CGRP arises from alternative splicing of the CALCA gene that also encodes calcitonin, linking the headache's central mediator to calcium-regulating peptide biology.
+- `connects-to` → **[Obesity](../obesity/README.md)** — Obesity worsens migraine: it roughly triples the risk of episodic migraine progressing to chronic daily headache, via adipose-driven inflammation and shared CGRP/leptin signalling — making weight a modifiable factor in headache frequency.
+- `connects-to` → **[PTSD](../ptsd/README.md)** — Trauma and migraine reinforce each other: PTSD is markedly over-represented among people with migraine, especially chronic and medication-overuse forms, with shared stress-axis and serotonergic dysregulation worsening both.
 
 [^gbd-2016-migraine-burden]: GBD 2016 Headache Collaborators. Global, regional, and national burden of migraine and tension-type headache, 1990-2016. *Lancet Neurol.* 2018;17(11):954-976. [doi:10.1016/S1474-4422(18)30322-3](https://doi.org/10.1016/S1474-4422(18)30322-3) · [PubMed 30353868](https://pubmed.ncbi.nlm.nih.gov/30353868/)
 [^goadsby-2002-migraine-review]: Goadsby PJ, Lipton RB, Ferrari MD. Migraine — current understanding and treatment. *N Engl J Med.* 2002;346(4):257-270. [doi:10.1056/NEJMra010917](https://doi.org/10.1056/NEJMra010917) · [PubMed 11807151](https://pubmed.ncbi.nlm.nih.gov/11807151/)

@@ -172,6 +172,15 @@ cross_links:
   - target: 01-human/05-tissue/peripheral-nerve
     relation: connects-to
     note: "MS spares the peripheral nerves, which sharpens the diagnosis: it demyelinates only the central oligodendrocyte myelin, so peripheral conduction stays normal — the line that separates it from CIDP and Guillain-Barré, though rare combined forms exist."
+  - target: 01-human/03-molecular/nlrp3-inflammasome
+    relation: connects-to
+    note: "The inflammasome fuels the smouldering side of MS: NLRP3 in microglia and macrophages releases IL-1β and IL-18 that amplify Th17 demyelination and chronic active-lesion damage, making it a target for progressive disease."
+  - target: 01-human/03-molecular/bdnf
+    relation: connects-to
+    note: "Repair in MS rides on BDNF: immune cells and neurons secrete this neurotrophin to support oligodendrocyte survival and remyelination, so boosting it is a neuroprotective strategy beyond suppressing the autoimmune attack."
+  - target: 01-human/07-system/neuropathic-pain
+    relation: connects-to
+    note: "Pain in MS is largely neuropathic: demyelinating lesions in sensory pathways and the spinal cord generate central neuropathic pain, trigeminal neuralgia, and Lhermitte's sign — among the disease's most disabling non-motor symptoms."
 ---
 
 # Multiple Sclerosis
@@ -309,6 +318,9 @@ MS affects approximately **2.8 million people worldwide** (~1 million in the US)
 - `connects-to` → **[Gut Microbiome](../gut-microbiome/README.md)** — The gut microbiome shapes multiple sclerosis risk and activity: altered gut flora can tip the balance between inflammatory and regulatory T cells that attack myelin, so diet and the microbiome are emerging factors in an autoimmune disease of the brain.
 - `connects-to` → **[Regulatory T Cell](../../04-cellular/regulatory-t-cell/README.md)** — MS reflects failed immune tolerance: regulatory T cells that should restrain autoreactive cells are deficient or dysfunctional, letting myelin-attacking T and B cells run unchecked—so restoring regulatory balance is a goal of MS therapy.
 - `connects-to` → **[Plasma Cell](../../04-cellular/plasma-cell/README.md)** — Plasma cells leave MS's diagnostic signature: B cells mature into plasma cells inside the CNS and secrete antibodies detected as oligoclonal bands in spinal fluid, a hallmark that supports diagnosis and reflects the intrathecal immune response.
+- `connects-to` → **[NLRP3 Inflammasome](../../03-molecular/nlrp3-inflammasome/README.md)** — The inflammasome fuels the smouldering side of MS: NLRP3 in microglia and macrophages releases IL-1β and IL-18 that amplify Th17 demyelination and chronic active-lesion damage, making it a target for progressive disease.
+- `connects-to` → **[BDNF](../../03-molecular/bdnf/README.md)** — Repair in MS rides on BDNF: immune cells and neurons secrete this neurotrophin to support oligodendrocyte survival and remyelination, so boosting it is a neuroprotective strategy beyond suppressing the autoimmune attack.
+- `connects-to` → **[Neuropathic Pain](../neuropathic-pain/README.md)** — Pain in MS is largely neuropathic: demyelinating lesions in sensory pathways and the spinal cord generate central neuropathic pain, trigeminal neuralgia, and Lhermitte's sign — among the disease's most disabling non-motor symptoms.
 - `connects-to` → **[MHC Class II](../../03-molecular/mhc-class-ii/README.md)** — MS's strongest genetic risk is an MHC class II allele: HLA-DRB1*15:01 shapes how myelin peptides are presented to T cells, the genetic basis tying the immune system's antigen presentation to attacks on the central nervous system.
 - `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — Macrophages strip myelin in active MS lesions: drawn into the CNS, they (with microglia) phagocytose myelin and damage oligodendrocytes, so myelin-laden macrophages are the histologic signature of an active demyelinating plaque.
 - `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — Iron rims mark MS's smoldering lesions: iron-laden microglia ring chronic active plaques, visible as paramagnetic rim lesions on MRI that flag ongoing, treatment-resistant inflammation driving progression.
