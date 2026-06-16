@@ -160,6 +160,15 @@ cross_links:
   - target: 01-human/04-cellular/regulatory-t-cell
     relation: connects-to
     note: "A failure of immune restraint underlies it: a shortfall of regulatory T cells lets the Th17 and mucosal B-cell responses run unchecked, tipping the balance toward overproduction of the abnormal IgA that drives the nephropathy."
+  - target: 01-human/05-tissue/germinal-center
+    relation: connects-to
+    note: "The faulty antibody is born in germinal centers: it is in these B-cell training grounds, especially at mucosal sites, that class switching to IgA and the affinity maturation go awry, churning out the galactose-deficient IgA1 that later lodges in the glomerulus."
+  - target: 01-human/04-cellular/dendritic-cell
+    relation: connects-to
+    note: "Dendritic cells set the response in motion: mucosal dendritic cells sampling gut and airway antigens drive the IgA class switch and B-cell help, so an exaggerated dendritic-cell signal helps explain the overproduction of pathogenic IgA after infections."
+  - target: 01-human/06-organ/spleen
+    relation: connects-to
+    note: "The spleen and other secondary lymphoid organs harbor the long-lived plasma cells that keep secreting galactose-deficient IgA1, a reservoir that sustains the disease and that B-cell-depleting and plasma-cell-targeted therapies aim to empty."
 ---
 
 # IgA Nephropathy
@@ -291,6 +300,9 @@ IgAN is a **multi-hit disease** described by the Oxford Four-Hit Model:
 - `connects-to` → **[NASH](../nash/README.md)** — A scarred liver can flood the kidney with IgA: cirrhosis — including from NASH — clears IgA poorly, so immune complexes build up and deposit in the mesangium, producing a secondary IgA nephropathy distinct from the primary mucosal-driven disease.
 - `connects-to` → **[Interleukin-6](../../03-molecular/il-6/README.md)** — IL-6 inflames the glomerulus: the cytokine drives mesangial cells to proliferate and helps B cells churn out the galactose-deficient IgA1 that starts the disease, making the IL-6 axis both a marker and a target in IgA nephropathy.
 - `connects-to` → **[Regulatory T Cell](../../04-cellular/regulatory-t-cell/README.md)** — A failure of immune restraint underlies it: a shortfall of regulatory T cells lets the Th17 and mucosal B-cell responses run unchecked, tipping the balance toward overproduction of the abnormal IgA that drives the nephropathy.
+- `connects-to` → **[Germinal Center](../../05-tissue/germinal-center/README.md)** — The faulty antibody is born in germinal centers: it is in these B-cell training grounds, especially at mucosal sites, that class switching to IgA and the affinity maturation go awry, churning out the galactose-deficient IgA1 that later lodges in the glomerulus.
+- `connects-to` → **[Dendritic Cell](../../04-cellular/dendritic-cell/README.md)** — Dendritic cells set the response in motion: mucosal dendritic cells sampling gut and airway antigens drive the IgA class switch and B-cell help, so an exaggerated dendritic-cell signal helps explain the overproduction of pathogenic IgA after infections.
+- `connects-to` → **[Spleen](../../06-organ/spleen/README.md)** — The spleen and other secondary lymphoid organs harbor the long-lived plasma cells that keep secreting galactose-deficient IgA1, a reservoir that sustains the disease and that B-cell-depleting and plasma-cell-targeted therapies aim to empty.
 
 ---
 

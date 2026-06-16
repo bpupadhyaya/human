@@ -160,6 +160,15 @@ cross_links:
   - target: 01-human/04-cellular/t-helper-cell
     relation: connects-to
     note: "The oncometabolite muffles the immune attack: 2-hydroxyglutarate leaks from the tumor and suppresses helper T-cell activation and infiltration, helping IDH-mutant gliomas stay immunologically cold and dampening responses to immunotherapy."
+  - target: 01-human/03-molecular/egfr
+    relation: connects-to
+    note: "EGFR sorts gliomas the other way: amplification of this receptor marks the aggressive IDH-wildtype glioblastomas, so its absence helps confirm the IDH-mutant diagnosis — the two molecular profiles define largely separate diseases with very different prognoses."
+  - target: 01-human/04-cellular/natural-killer-cell
+    relation: connects-to
+    note: "The oncometabolite also blunts innate killing: 2-hydroxyglutarate downregulates NKG2D-ligand display and impairs natural killer cell cytotoxicity, another way IDH-mutant tumors evade immune clearance beyond their effect on T cells."
+  - target: 01-human/03-molecular/atp
+    relation: connects-to
+    note: "The mutation rewires metabolism: instead of making NADPH from isocitrate, mutant IDH burns it to manufacture 2-hydroxyglutarate, perturbing the cell's redox and energy economy that normally feeds ATP production through the TCA cycle."
 ---
 
 # IDH-Mutant Glioma
@@ -339,6 +348,9 @@ IDH-mutant glioma with MGMT methylation shows strong alkylating agent sensitivit
 - `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — These gliomas hit young adults in their reproductive years: the alkylating PCV and temozolomide chemotherapy used against them is gonadotoxic, so fertility preservation is discussed before treating a disease whose long survival makes it matter.
 - `connects-to` → **[DNMT3A](../../03-molecular/dnmt3a/README.md)** — The mutation rewrites the cell's methylation: 2-hydroxyglutarate from mutant IDH blocks the TET demethylases, tipping the balance toward DNMT-driven DNA methylation and the glioma CpG-island methylator phenotype that defines these tumors.
 - `connects-to` → **[T Helper Cell](../../04-cellular/t-helper-cell/README.md)** — The oncometabolite muffles the immune attack: 2-hydroxyglutarate leaks from the tumor and suppresses helper T-cell activation and infiltration, helping IDH-mutant gliomas stay immunologically cold and dampening responses to immunotherapy.
+- `connects-to` → **[EGFR](../../03-molecular/egfr/README.md)** — EGFR sorts gliomas the other way: amplification of this receptor marks the aggressive IDH-wildtype glioblastomas, so its absence helps confirm the IDH-mutant diagnosis — the two molecular profiles define largely separate diseases with very different prognoses.
+- `connects-to` → **[Natural Killer Cell](../../04-cellular/natural-killer-cell/README.md)** — The oncometabolite also blunts innate killing: 2-hydroxyglutarate downregulates NKG2D-ligand display and impairs natural killer cell cytotoxicity, another way IDH-mutant tumors evade immune clearance beyond their effect on T cells.
+- `connects-to` → **[ATP](../../03-molecular/atp/README.md)** — The mutation rewires metabolism: instead of making NADPH from isocitrate, mutant IDH burns it to manufacture 2-hydroxyglutarate, perturbing the cell's redox and energy economy that normally feeds ATP production through the TCA cycle.
 
 [^mellinghoff-2023-vorasidenib-lgg]: Mellinghoff IK, van den Bent MJ, Blumenthal DT, et al. Vorasidenib in IDH1- or IDH2-mutant low-grade glioma. *N Engl J Med.* 2023;389(7):589-601. [doi:10.1056/NEJMoa2304194](https://doi.org/10.1056/NEJMoa2304194) · [PubMed 37272530](https://pubmed.ncbi.nlm.nih.gov/37272530/)
 [^jiao-2012-atrx-glioma]: Jiao Y, Killela PJ, Reitman ZJ, et al. Frequent ATRX, CIC, FUBP1 and IDH mutations refine the classification of malignant gliomas. *Oncotarget.* 2012;3(7):709-722. [doi:10.18632/oncotarget.588](https://doi.org/10.18632/oncotarget.588) · [PubMed 22869205](https://pubmed.ncbi.nlm.nih.gov/22869205/)
