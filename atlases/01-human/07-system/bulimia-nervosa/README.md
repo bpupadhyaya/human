@@ -171,6 +171,15 @@ cross_links:
   - target: 01-human/03-molecular/oxytocin
     relation: connects-to
     note: "Oxytocin signaling is disturbed in bulimia: altered levels of this appetite- and social-bonding hormone are reported in eating disorders, contributing to the disordered satiety and interpersonal difficulties of the illness."
+  - target: 01-human/07-system/esophageal-cancer
+    relation: connects-to
+    note: "Years of self-induced vomiting scar the esophagus: chronic acid exposure causes reflux and Barrett's-type change that raise esophageal cancer risk, alongside the acute tears (Mallory-Weiss) purging can cause."
+  - target: 01-human/07-system/type-1-diabetes
+    relation: connects-to
+    note: "Insulin becomes a purging tool: people with type 1 diabetes and bulimic behavior may omit insulin to lose weight ('diabulimia'), a dangerous practice that drives ketoacidosis and accelerates diabetic complications."
+  - target: 01-human/03-molecular/endocannabinoid
+    relation: connects-to
+    note: "The reward and appetite system is dysregulated: altered endocannabinoid signaling in bulimia disturbs the hedonic drive to eat, part of the neurochemistry that underlies binge episodes and loss of control."
 ---
 
 # Bulimia Nervosa
@@ -351,6 +360,9 @@ All of the following must be met:
 - `connects-to` → **[Heart Failure](../heart-failure/README.md)** — Purging can wreck the heart muscle: chronic hypokalemia and, classically, ipecac's cardiotoxin weaken the myocardium into cardiomyopathy and heart failure, one of the deadliest complications of long-standing bulimia.
 - `connects-to` → **[Adrenal Gland](../../06-organ/adrenal-gland/README.md)** — The stress axis stays switched on: bulimia drives HPA-axis overactivity, so the adrenal glands oversecrete cortisol, a hormonal disturbance tied to its mood symptoms and metabolic strain.
 - `connects-to` → **[Oxytocin](../../03-molecular/oxytocin/README.md)** — Oxytocin signaling is disturbed in bulimia: altered levels of this appetite- and social-bonding hormone are reported in eating disorders, contributing to the disordered satiety and interpersonal difficulties of the illness.
+- `connects-to` → **[Esophageal Cancer](../esophageal-cancer/README.md)** — Years of self-induced vomiting scar the esophagus: chronic acid exposure causes reflux and Barrett's-type change that raise esophageal cancer risk, alongside the acute tears (Mallory-Weiss) purging can cause.
+- `connects-to` → **[Type 1 Diabetes](../type-1-diabetes/README.md)** — Insulin becomes a purging tool: people with type 1 diabetes and bulimic behavior may omit insulin to lose weight ('diabulimia'), a dangerous practice that drives ketoacidosis and accelerates diabetic complications.
+- `connects-to` → **[Endocannabinoid System](../../03-molecular/endocannabinoid/README.md)** — The reward and appetite system is dysregulated: altered endocannabinoid signaling in bulimia disturbs the hedonic drive to eat, part of the neurochemistry that underlies binge episodes and loss of control.
 
 ## Treatment
 

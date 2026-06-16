@@ -169,6 +169,15 @@ cross_links:
   - target: 01-human/04-cellular/plasma-cell
     relation: connects-to
     note: "Antibody output runs short: Bloom's immunodeficiency includes poor plasma-cell function and low immunoglobulin levels, leaving patients prone to the recurrent respiratory and ear infections of childhood."
+  - target: 01-human/07-system/esophageal-cancer
+    relation: connects-to
+    note: "Adult Bloom patients face carcinomas of the gut lining: the genomic instability that brings early leukemia later drives GI carcinomas including esophageal cancer, part of the syndrome's relentless lifelong cancer toll."
+  - target: 01-human/07-system/wilms-tumor
+    relation: connects-to
+    note: "The embryonal tumors appear in childhood: Bloom syndrome's chromosomal instability predisposes to Wilms tumor among other paediatric cancers, reflecting how broadly the loss of BLM helicase destabilizes the genome."
+  - target: 01-human/03-molecular/msh2
+    relation: connects-to
+    note: "BLM works alongside mismatch repair: the BLM helicase cooperates with the MSH2-containing mismatch-repair machinery to resolve recombination intermediates, so its loss compounds the genomic instability that mismatch-repair defects also cause."
 ---
 
 # Bloom Syndrome
@@ -357,6 +366,9 @@ BS is characterized by three cardinal features: **small body size** (the most co
 - `connects-to` → **[IGF-1](../../03-molecular/igf-1/README.md)** — The growth axis runs low in Bloom: despite normal growth hormone, low IGF-1 signaling underlies the profound pre- and postnatal growth deficiency that gives these patients their characteristic small, lean stature.
 - `connects-to` → **[Myelodysplastic Syndromes](../mds/README.md)** — The unstable genome breaks first in the marrow: Bloom syndrome's chromosomal instability drives myelodysplastic syndromes and leukemia at strikingly young ages, among the earliest of its many cancers.
 - `connects-to` → **[Plasma Cell](../../04-cellular/plasma-cell/README.md)** — Antibody output runs short: Bloom's immunodeficiency includes poor plasma-cell function and low immunoglobulin levels, leaving patients prone to the recurrent respiratory and ear infections of childhood.
+- `connects-to` → **[Esophageal Cancer](../esophageal-cancer/README.md)** — Adult Bloom patients face carcinomas of the gut lining: the genomic instability that brings early leukemia later drives GI carcinomas including esophageal cancer, part of the syndrome's relentless lifelong cancer toll.
+- `connects-to` → **[Wilms Tumor](../wilms-tumor/README.md)** — The embryonal tumors appear in childhood: Bloom syndrome's chromosomal instability predisposes to Wilms tumor among other paediatric cancers, reflecting how broadly the loss of BLM helicase destabilizes the genome.
+- `connects-to` → **[MSH2](../../03-molecular/msh2/README.md)** — BLM works alongside mismatch repair: the BLM helicase cooperates with the MSH2-containing mismatch-repair machinery to resolve recombination intermediates, so its loss compounds the genomic instability that mismatch-repair defects also cause.
 
 ---
 
