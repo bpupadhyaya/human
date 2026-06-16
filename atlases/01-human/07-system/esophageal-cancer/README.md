@@ -169,6 +169,15 @@ cross_links:
   - target: 01-human/07-system/systemic-sclerosis
     relation: connects-to
     note: "Scleroderma scars the esophagus into cancer risk: systemic sclerosis paralyzes the lower esophagus, and the relentless reflux that follows drives Barrett's metaplasia and a raised risk of adenocarcinoma."
+  - target: 01-human/03-molecular/pik3ca
+    relation: connects-to
+    note: "PI3K signaling drives the esophageal tumor: PIK3CA mutation and amplification are recurrent in both squamous and adenocarcinoma, switching on the AKT-mTOR growth pathway and offering a targetable vulnerability."
+  - target: 01-human/04-cellular/dendritic-cell
+    relation: connects-to
+    note: "Dendritic cells set the immunotherapy stage: their antigen presentation shapes the T-cell response esophageal cancer must evade, and their dysfunction underlies the immune escape that PD-1 blockade aims to reverse."
+  - target: 01-human/07-system/sepsis
+    relation: connects-to
+    note: "Surgery and obstruction open the door to sepsis: aspiration past an obstructing tumor and anastomotic leak after esophagectomy can seed mediastinitis and bloodstream infection, a leading cause of post-operative death."
 ---
 
 # Esophageal Cancer
@@ -357,6 +366,9 @@ T1a: Lamina propria/muscularis mucosae; T1b: Submucosa; T2: Muscularis propria; 
 - `connects-to` → **[Cyclin D1](../../03-molecular/cyclin-d1/README.md)** — Cyclin D1 pushes the squamous tumor's cycle: CCND1 amplification is among the commonest events in esophageal squamous-cell carcinoma, releasing the G1 checkpoint to drive the rapid proliferation of the cancer.
 - `connects-to` → **[Neutrophil](../../04-cellular/neutrophil/README.md)** — Tumor-driving inflammation shows in the blood: esophageal cancer recruits neutrophils that promote invasion and angiogenesis, and a high neutrophil-to-lymphocyte ratio is a marker of worse prognosis.
 - `connects-to` → **[Systemic Sclerosis](../systemic-sclerosis/README.md)** — Scleroderma scars the esophagus into cancer risk: systemic sclerosis paralyzes the lower esophagus, and the relentless reflux that follows drives Barrett's metaplasia and a raised risk of adenocarcinoma.
+- `connects-to` → **[PIK3CA](../../03-molecular/pik3ca/README.md)** — PI3K signaling drives the esophageal tumor: PIK3CA mutation and amplification are recurrent in both squamous and adenocarcinoma, switching on the AKT-mTOR growth pathway and offering a targetable vulnerability.
+- `connects-to` → **[Dendritic Cell](../../04-cellular/dendritic-cell/README.md)** — Dendritic cells set the immunotherapy stage: their antigen presentation shapes the T-cell response esophageal cancer must evade, and their dysfunction underlies the immune escape that PD-1 blockade aims to reverse.
+- `connects-to` → **[Sepsis](../sepsis/README.md)** — Surgery and obstruction open the door to sepsis: aspiration past an obstructing tumor and anastomotic leak after esophagectomy can seed mediastinitis and bloodstream infection, a leading cause of post-operative death.
 
 ---
 
