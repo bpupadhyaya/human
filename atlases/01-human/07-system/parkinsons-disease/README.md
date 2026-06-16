@@ -169,6 +169,15 @@ cross_links:
   - target: 01-human/04-cellular/t-cytotoxic-cell
     relation: connects-to
     note: "The immune system joins the attack on dopamine neurons: cytotoxic T cells that recognize α-synuclein fragments infiltrate the substantia nigra, an adaptive autoimmune assault that helps drive the neuronal loss of Parkinson's."
+  - target: 01-human/03-molecular/nlrp3-inflammasome
+    relation: connects-to
+    note: "Microglia inflame the dying nigra: α-synuclein aggregates activate the NLRP3 inflammasome in microglia to release IL-1β, a self-amplifying neuroinflammation that accelerates dopamine-neuron loss and is a leading drug target in Parkinson's."
+  - target: 01-human/07-system/type-2-diabetes
+    relation: connects-to
+    note: "Disordered insulin signaling speeds it: type 2 diabetes and brain insulin resistance raise Parkinson's risk and quicken its progression, which is why GLP-1 diabetes drugs are now being trialed to slow the neurodegeneration."
+  - target: 01-human/04-cellular/natural-killer-cell
+    relation: connects-to
+    note: "Innate cells help clear the toxic protein: natural killer cells scavenge α-synuclein aggregates and modulate the neuroinflammation, an innate-immune arm of Parkinson's that complements the cytotoxic T-cell attack."
 ---
 
 # Parkinson's Disease
@@ -358,6 +367,9 @@ PD is primarily a disease of aging (mean onset ~60 years), but **~10–15% of ca
 - `connects-to` → **[Melanoma](../melanoma/README.md)** — Parkinson's and melanoma travel together: people with one carry a higher risk of the other, a bidirectional link rooted in shared pigment and α-synuclein biology rather than in levodopa, prompting skin surveillance in patients.
 - `connects-to` → **[Peripheral Nerve](../../05-tissue/peripheral-nerve/README.md)** — Parkinson's reaches beyond the brain into peripheral nerves: α-synuclein deposits in autonomic fibers of the skin and gut — now sampled by biopsy to diagnose it — and the resulting autonomic neuropathy causes orthostatic drops in blood pressure.
 - `connects-to` → **[Cytotoxic T Cell](../../04-cellular/t-cytotoxic-cell/README.md)** — The immune system joins the attack on dopamine neurons: cytotoxic T cells that recognize α-synuclein fragments infiltrate the substantia nigra, an adaptive autoimmune assault that helps drive the neuronal loss of Parkinson's.
+- `connects-to` → **[NLRP3 Inflammasome](../../03-molecular/nlrp3-inflammasome/README.md)** — Microglia inflame the dying nigra: α-synuclein aggregates activate the NLRP3 inflammasome in microglia to release IL-1β, a self-amplifying neuroinflammation that accelerates dopamine-neuron loss and is a leading drug target in Parkinson's.
+- `connects-to` → **[Type 2 Diabetes](../type-2-diabetes/README.md)** — Disordered insulin signaling speeds it: type 2 diabetes and brain insulin resistance raise Parkinson's risk and quicken its progression, which is why GLP-1 diabetes drugs are now being trialed to slow the neurodegeneration.
+- `connects-to` → **[Natural Killer Cell](../../04-cellular/natural-killer-cell/README.md)** — Innate cells help clear the toxic protein: natural killer cells scavenge α-synuclein aggregates and modulate the neuroinflammation, an innate-immune arm of Parkinson's that complements the cytotoxic T-cell attack.
 
 [^kalia-2015-pd-review]: Kalia LV, Lang AE. Parkinson's disease. *Lancet.* 2015;386(9996):896-912. [doi:10.1016/S0140-6736(14)61393-3](https://doi.org/10.1016/S0140-6736(14)61393-3) · [PubMed 25904081](https://pubmed.ncbi.nlm.nih.gov/25904081/)
 [^spillantini-1997-lewy-body]: Spillantini MG, Schmidt ML, Lee VM, Trojanowski JQ, Jakes R, Goedert M. Alpha-synuclein in Lewy bodies. *Nature.* 1997;388(6645):839-840. [doi:10.1038/42166](https://doi.org/10.1038/42166) · [PubMed 9278044](https://pubmed.ncbi.nlm.nih.gov/9278044/)

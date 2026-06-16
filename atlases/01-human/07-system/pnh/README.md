@@ -163,6 +163,15 @@ cross_links:
   - target: 01-human/03-molecular/erythropoietin
     relation: connects-to
     note: "The marrow's drive to replace lost cells: brisk hemolysis and any underlying marrow failure raise erythropoietin demand, and supplementing it can support red-cell production while complement blockade curbs the destruction."
+  - target: 01-human/07-system/stroke
+    relation: connects-to
+    note: "Its clots can strike the brain: PNH's hallmark thrombosis favors unusual sites including the cerebral venous sinuses, so stroke from venous or arterial clotting is among the gravest, sometimes presenting, complications."
+  - target: 01-human/03-molecular/hepcidin
+    relation: connects-to
+    note: "It bleeds iron into the urine: chronic intravascular hemolysis spills hemoglobin and hemosiderin into the urine, and the brisk erythropoiesis suppresses hepcidin, yet ongoing urinary iron loss can still drive iron deficiency."
+  - target: 01-human/04-cellular/regulatory-t-cell
+    relation: connects-to
+    note: "The clone may escape an immune attack: PNH often grows out of immune-mediated marrow failure, where a faltering of regulatory T-cell restraint lets cytotoxic cells destroy normal stem cells while the GPI-deficient clone is spared."
 ---
 
 # Paroxysmal Nocturnal Hemoglobinuria
@@ -303,6 +312,9 @@ When PIGA is mutated in an HSC → all progeny cells (RBCs, WBCs, platelets) of 
 - `connects-to` → **[Chronic Kidney Disease](../ckd/README.md)** — Chronic hemolysis wears down the kidneys: years of hemoglobin spilling into the urine deposit iron in the tubules and microthrombi in the vessels, so PNH slowly scars the kidney into chronic kidney disease.
 - `connects-to` → **[Iron Deficiency Anemia](../iron-deficiency-anemia/README.md)** — PNH bleeds iron into the urine: unlike most hemolysis, which recycles iron, the intravascular destruction sends free hemoglobin out through the kidney, and the steady urinary iron loss can leave the patient paradoxically iron-deficient.
 - `connects-to` → **[Erythropoietin](../../03-molecular/erythropoietin/README.md)** — The marrow's drive to replace lost cells: brisk hemolysis and any underlying marrow failure raise erythropoietin demand, and supplementing it can support red-cell production while complement blockade curbs the destruction.
+- `connects-to` → **[Stroke](../stroke/README.md)** — Its clots can strike the brain: PNH's hallmark thrombosis favors unusual sites including the cerebral venous sinuses, so stroke from venous or arterial clotting is among the gravest, sometimes presenting, complications.
+- `connects-to` → **[Hepcidin](../../03-molecular/hepcidin/README.md)** — It bleeds iron into the urine: chronic intravascular hemolysis spills hemoglobin and hemosiderin into the urine, and the brisk erythropoiesis suppresses hepcidin, yet ongoing urinary iron loss can still drive iron deficiency.
+- `connects-to` → **[Regulatory T Cell](../../04-cellular/regulatory-t-cell/README.md)** — The clone may escape an immune attack: PNH often grows out of immune-mediated marrow failure, where a faltering of regulatory T-cell restraint lets cytotoxic cells destroy normal stem cells while the GPI-deficient clone is spared.
 
 ---
 
