@@ -169,6 +169,15 @@ cross_links:
   - target: 01-human/04-cellular/regulatory-t-cell
     relation: connects-to
     note: "The tumor cloaks itself in suppression: regulatory T cells accumulate in the rhabdomyosarcoma microenvironment and blunt anti-tumor immunity, part of the immune-cold profile that has frustrated immunotherapy in this childhood sarcoma."
+  - target: 01-human/03-molecular/cdkn2a
+    relation: connects-to
+    note: "Cell-cycle loss marks the fusion-negative tumors: CDKN2A deletion is recurrent in embryonal rhabdomyosarcoma, releasing CDK4/6 to drive proliferation and complementing the cell-cycle amplicons of the fusion-positive subtype."
+  - target: 01-human/07-system/neuropathic-pain
+    relation: connects-to
+    note: "Tumor and treatment hurt the nerves: head-and-neck, paraspinal, and pelvic rhabdomyosarcomas compress nerves, and vincristine adds a peripheral neuropathy, together a real pain burden in these children."
+  - target: 01-human/07-system/sepsis
+    relation: connects-to
+    note: "Intensive chemotherapy invites sepsis: the VAC regimen's deep neutropenia leaves children with rhabdomyosarcoma prone to febrile neutropenia and bloodstream infection through the long treatment course."
 ---
 
 # Rhabdomyosarcoma
@@ -347,6 +356,9 @@ Maximal safe resection with negative margins (R0) wherever achievable without mu
 - `connects-to` → **[MYCN](../../03-molecular/mycn/README.md)** — Amplification marks the worst form: the aggressive alveolar subtype carrying the PAX3-FOXO1 fusion often also amplifies MYCN, a proliferation driver that helps explain its high-risk behavior and resistance to standard chemotherapy.
 - `connects-to` → **[Natural Killer Cell](../../04-cellular/natural-killer-cell/README.md)** — Innate killers are recruited against it: rhabdomyosarcoma is hard for T cells to see, so natural killer cell–based and engineered cell therapies are explored to attack a tumor that resists checkpoint immunotherapy.
 - `connects-to` → **[Regulatory T Cell](../../04-cellular/regulatory-t-cell/README.md)** — The tumor cloaks itself in suppression: regulatory T cells accumulate in the rhabdomyosarcoma microenvironment and blunt anti-tumor immunity, part of the immune-cold profile that has frustrated immunotherapy in this childhood sarcoma.
+- `connects-to` → **[CDKN2A](../../03-molecular/cdkn2a/README.md)** — Cell-cycle loss marks the fusion-negative tumors: CDKN2A deletion is recurrent in embryonal rhabdomyosarcoma, releasing CDK4/6 to drive proliferation and complementing the cell-cycle amplicons of the fusion-positive subtype.
+- `connects-to` → **[Neuropathic Pain](../neuropathic-pain/README.md)** — Tumor and treatment hurt the nerves: head-and-neck, paraspinal, and pelvic rhabdomyosarcomas compress nerves, and vincristine adds a peripheral neuropathy, together a real pain burden in these children.
+- `connects-to` → **[Sepsis](../sepsis/README.md)** — Intensive chemotherapy invites sepsis: the VAC regimen's deep neutropenia leaves children with rhabdomyosarcoma prone to febrile neutropenia and bloodstream infection through the long treatment course.
 
 [^crist-2001-irs4-rms]: Crist WM, Anderson JR, Meza JL, et al. Intergroup rhabdomyosarcoma study-IV: results for patients with nonmetastatic disease. *J Clin Oncol.* 2001;19(12):3091-3102. [doi:10.1200/JCO.2001.19.12.3091](https://doi.org/10.1200/JCO.2001.19.12.3091) · [PubMed 11408506](https://pubmed.ncbi.nlm.nih.gov/11408506/)
 [^oberlin-2012-mmt95-rms]: Oberlin O, Rey A, Sanchez de Toledo J, et al. Randomized comparison of intensified six-drug versus standard three-drug chemotherapy for high-risk nonmetastatic rhabdomyosarcoma and other chemotherapy-sensitive childhood soft tissue sarcomas. *J Clin Oncol.* 2012;30(19):2457-2465. [doi:10.1200/JCO.2011.39.3538](https://doi.org/10.1200/JCO.2011.39.3538) · [PubMed 22665546](https://pubmed.ncbi.nlm.nih.gov/22665546/)

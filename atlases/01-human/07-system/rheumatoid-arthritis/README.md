@@ -175,6 +175,15 @@ cross_links:
   - target: 01-human/07-system/anemia-of-chronic-disease
     relation: connects-to
     note: "Chronic inflammation starves the marrow of iron: RA's high IL-6 drives hepcidin that locks iron away from red-cell production, producing the anemia of chronic disease that commonly shadows active rheumatoid arthritis."
+  - target: 02-pathogen/01-viruses/epstein-barr-virus
+    relation: connects-to
+    note: "EBV is woven into RA's biology: the virus is implicated in triggering the autoimmunity, and reactivation underlies many of the methotrexate-associated lymphoproliferations that can complicate long-term RA treatment."
+  - target: 01-human/07-system/dlbcl
+    relation: connects-to
+    note: "Chronic immune activation raises lymphoma risk: RA — especially highly active disease and immunosuppressive therapy — increases the risk of diffuse large B-cell lymphoma, sometimes EBV-driven and regressing when methotrexate is stopped."
+  - target: 01-human/03-molecular/nlrp3-inflammasome
+    relation: connects-to
+    note: "The inflammasome amplifies the synovitis: NLRP3 in synovial macrophages releases IL-1β that drives cartilage breakdown and osteoclast bone erosion, an innate-immune engine alongside the autoantibody response."
 ---
 
 # Rheumatoid Arthritis
@@ -369,6 +378,9 @@ RA patients have:
 - `connects-to` → **[CTLA-4](../../03-molecular/ctla-4/README.md)** — A brake on T-cell activation became a drug: abatacept is a CTLA-4-Ig fusion that blocks the co-stimulation T cells need, cooling the autoimmune attack on the joints — a treatment built directly from how this checkpoint normally restrains immunity.
 - `connects-to` → **[Endothelial Cell](../../04-cellular/endothelial-cell/README.md)** — The inflamed joint grows new vessels: endothelial cells proliferate to vascularize the invading pannus, feeding the synovial overgrowth with oxygen and ferrying in the immune cells that sustain the destruction.
 - `connects-to` → **[Anemia of Chronic Disease](../anemia-of-chronic-disease/README.md)** — Chronic inflammation starves the marrow of iron: RA's high IL-6 drives hepcidin that locks iron away from red-cell production, producing the anemia of chronic disease that commonly shadows active rheumatoid arthritis.
+- `connects-to` → **[Epstein-Barr Virus](../../../02-pathogen/01-viruses/epstein-barr-virus/README.md)** — EBV is woven into RA's biology: the virus is implicated in triggering the autoimmunity, and reactivation underlies many of the methotrexate-associated lymphoproliferations that can complicate long-term RA treatment.
+- `connects-to` → **[Diffuse Large B-Cell Lymphoma](../dlbcl/README.md)** — Chronic immune activation raises lymphoma risk: RA — especially highly active disease and immunosuppressive therapy — increases the risk of diffuse large B-cell lymphoma, sometimes EBV-driven and regressing when methotrexate is stopped.
+- `connects-to` → **[NLRP3 Inflammasome](../../03-molecular/nlrp3-inflammasome/README.md)** — The inflammasome amplifies the synovitis: NLRP3 in synovial macrophages releases IL-1β that drives cartilage breakdown and osteoclast bone erosion, an innate-immune engine alongside the autoantibody response.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
