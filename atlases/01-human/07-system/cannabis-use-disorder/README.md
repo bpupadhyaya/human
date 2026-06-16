@@ -150,6 +150,15 @@ cross_links:
   - target: 01-human/03-molecular/leptin
     relation: connects-to
     note: "The munchies run through the appetite hormones: THC activates hypothalamic CB1 receptors that interact with leptin and ghrelin signaling, overriding satiety to drive the characteristic surge in appetite."
+  - target: 01-human/07-system/copd
+    relation: connects-to
+    note: "Smoked cannabis injures the airways: chronic use inflames the bronchi into a chronic bronchitis with cough and phlegm, and heavy long-term smoking contributes to the airway damage and air-trapping that overlap COPD."
+  - target: 01-human/06-organ/placenta
+    relation: connects-to
+    note: "It crosses into the womb: THC passes the placenta to reach the fetus, where prenatal cannabis exposure is linked to lower birth weight and altered neurodevelopment, so use in pregnancy is discouraged."
+  - target: 01-human/03-molecular/tnf-alpha
+    relation: connects-to
+    note: "Cannabinoids dial down inflammation: acting through CB2 receptors on immune cells, THC suppresses TNF-α and other pro-inflammatory cytokines, an immunomodulatory effect that blunts immune defenses while being explored therapeutically."
 sources:
   - id: hasin-2015-cannabis-disorder
     type: peer-reviewed
@@ -349,6 +358,9 @@ Paradoxical syndrome in heavy long-term users: cyclic vomiting relieved by hot b
 - `connects-to` → **[Stroke](../stroke/README.md)** — Cannabis can stroke a young brain: heavy use is linked to ischemic stroke and reversible cerebral vasoconstriction, the drug's sympathetic surge and vasospasm striking arteries with no atherosclerotic disease.
 - `connects-to` → **[Cardiomyocyte](../../04-cellular/cardiomyocyte/README.md)** — It stresses the heart muscle: THC raises heart rate and myocardial oxygen demand and can trigger arrhythmias and even myocardial infarction in young users, the cardiomyocytes strained by a sympathetic drive in otherwise healthy hearts.
 - `connects-to` → **[Leptin](../../03-molecular/leptin/README.md)** — The munchies run through the appetite hormones: THC activates hypothalamic CB1 receptors that interact with leptin and ghrelin signaling, overriding satiety to drive the characteristic surge in appetite.
+- `connects-to` → **[COPD](../copd/README.md)** — Smoked cannabis injures the airways: chronic use inflames the bronchi into a chronic bronchitis with cough and phlegm, and heavy long-term smoking contributes to the airway damage and air-trapping that overlap COPD.
+- `connects-to` → **[Placenta](../../06-organ/placenta/README.md)** — It crosses into the womb: THC passes the placenta to reach the fetus, where prenatal cannabis exposure is linked to lower birth weight and altered neurodevelopment, so use in pregnancy is discouraged.
+- `connects-to` → **[TNF-α](../../03-molecular/tnf-alpha/README.md)** — Cannabinoids dial down inflammation: acting through CB2 receptors on immune cells, THC suppresses TNF-α and other pro-inflammatory cytokines, an immunomodulatory effect that blunts immune defenses while being explored therapeutically.
 
 [^hasin-2015-cannabis-disorder]: Hasin DS, Saha TD, Kerridge BT, et al. Prevalence of marijuana use disorders in the United States between 2001-2002 and 2012-2013. *JAMA Psychiatry.* 2015;72(12):1235-1242. [doi:10.1001/jamapsychiatry.2015.1858](https://doi.org/10.1001/jamapsychiatry.2015.1858) · [PubMed 26502112](https://pubmed.ncbi.nlm.nih.gov/26502112/)
 [^budney-2004-cannabis-withdrawal]: Budney AJ, Moore BA, Vandrey RG, Hughes JR. The time course and significance of cannabis withdrawal. *J Abnorm Psychol.* 2003;112(3):393-402. [doi:10.1037/0021-843X.112.3.393](https://doi.org/10.1037/0021-843X.112.3.393) · [PubMed 12943018](https://pubmed.ncbi.nlm.nih.gov/12943018/)

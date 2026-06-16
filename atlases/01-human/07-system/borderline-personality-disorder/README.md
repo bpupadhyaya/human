@@ -169,6 +169,15 @@ cross_links:
   - target: 01-human/04-cellular/t-helper-cell
     relation: connects-to
     note: "BPD carries a low-grade inflammatory signature: raised IL-6 and other cytokines from activated T cells and monocytes accompany the disorder, part of the stress-immune link tying chronic emotional dysregulation to inflammation."
+  - target: 01-human/03-molecular/endocannabinoid
+    relation: connects-to
+    note: "The body's own cannabis system is dysregulated: altered endocannabinoid signaling, which normally tempers stress and emotion, is implicated in the affective instability of BPD and may underlie the high rate of cannabis use among patients."
+  - target: 01-human/07-system/fibromyalgia
+    relation: connects-to
+    note: "Emotional pain travels with bodily pain: fibromyalgia and other chronic pain syndromes are markedly over-represented in BPD, sharing the stress-axis and central-sensitization biology that links early trauma to amplified pain."
+  - target: 01-human/07-system/type-2-diabetes
+    relation: connects-to
+    note: "The body pays for chronic dysregulation: BPD carries raised rates of metabolic disease and type 2 diabetes, driven by chronic stress, disordered eating, and the weight-gaining psychiatric medications often prescribed."
 ---
 
 # Borderline Personality Disorder
@@ -359,6 +368,9 @@ This model directly informs DBT treatment: validate emotional experience (the bi
 - `connects-to` → **[CRH](../../03-molecular/crh/README.md)** — Early trauma rewires the stress axis: childhood adversity, near-universal in BPD, leaves the CRH-driven HPA system dysregulated, so the cortisol response to emotional stress is abnormal — a biological echo of the disorder's developmental roots.
 - `connects-to` → **[Binge Eating Disorder](../binge-eating-disorder/README.md)** — Disordered eating travels with BPD: impulsivity and emotional dysregulation make binge eating and bulimia common comorbidities, food becoming one of the ways acute distress is blunted, much like self-harm or substance use.
 - `connects-to` → **[T Helper Cell](../../04-cellular/t-helper-cell/README.md)** — BPD carries a low-grade inflammatory signature: raised IL-6 and other cytokines from activated T cells and monocytes accompany the disorder, part of the stress-immune link tying chronic emotional dysregulation to inflammation.
+- `connects-to` → **[Endocannabinoid System](../../03-molecular/endocannabinoid/README.md)** — The body's own cannabis system is dysregulated: altered endocannabinoid signaling, which normally tempers stress and emotion, is implicated in the affective instability of BPD and may underlie the high rate of cannabis use among patients.
+- `connects-to` → **[Fibromyalgia](../fibromyalgia/README.md)** — Emotional pain travels with bodily pain: fibromyalgia and other chronic pain syndromes are markedly over-represented in BPD, sharing the stress-axis and central-sensitization biology that links early trauma to amplified pain.
+- `connects-to` → **[Type 2 Diabetes](../type-2-diabetes/README.md)** — The body pays for chronic dysregulation: BPD carries raised rates of metabolic disease and type 2 diabetes, driven by chronic stress, disordered eating, and the weight-gaining psychiatric medications often prescribed.
 
 [^linehan-1993-dbt]: Linehan MM. *Cognitive-Behavioral Treatment of Borderline Personality Disorder.* Guilford; 1993. [PubMed 8192506](https://pubmed.ncbi.nlm.nih.gov/8192506/)
 [^skodol-2002-bpd-neurobiology]: Siever LJ, Davis KL. A psychobiological perspective on the personality disorders. *Am J Psychiatry.* 1991;148(12):1647-1658. [doi:10.1176/ajp.148.12.1647](https://doi.org/10.1176/ajp.148.12.1647) · [PubMed 1957927](https://pubmed.ncbi.nlm.nih.gov/1957927/)
