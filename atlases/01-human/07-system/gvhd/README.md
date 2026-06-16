@@ -172,6 +172,15 @@ cross_links:
   - target: 01-human/07-system/mds
     relation: connects-to
     note: "GVHD is the price of the cure for MDS: the allogeneic transplant given for myelodysplastic syndromes carries a graft-versus-tumor benefit, but the same donor cells that clear the marrow disease can turn on the host."
+  - target: 01-human/03-molecular/ifn-gamma
+    relation: connects-to
+    note: "A donor-T-cell cytokine drives the attack: IFN-γ pours from activated donor T cells to license macrophages and damage host epithelium, a central effector of acute GVHD's gut, skin and liver injury."
+  - target: 01-human/03-molecular/stat1
+    relation: connects-to
+    note: "The inflammatory signal travels through JAK-STAT: IFN and other cytokines act via STAT1 to amplify the alloimmune response, the pathway the JAK inhibitor ruxolitinib blocks to treat steroid-refractory GVHD."
+  - target: 01-human/07-system/all
+    relation: connects-to
+    note: "It rides in with the leukemia cure: allogeneic transplant for acute lymphoblastic leukemia delivers a graft-versus-leukemia effect, but the same donor immunity that hunts residual blasts can turn against the host as GVHD."
 ---
 
 # Graft-Versus-Host Disease
@@ -361,6 +370,9 @@ The protective Treg/IL-10 axis is the key biological counterbalance to alloreact
 - `connects-to` → **[IL-17A](../../03-molecular/il-17a/README.md)** — Th17 cells drive part of the attack: IL-17A from donor T cells fuels the inflammation of skin, gut, and lung GVHD, making the IL-17 axis one of the pathways targeted to tame the disease.
 - `connects-to` → **[Small Intestine](../../06-organ/small-intestine/README.md)** — The small bowel is a primary GVHD target: donor T cells trigger crypt-cell apoptosis and a secretory diarrhea whose volume grades acute gut GVHD, the leak of the damaged mucosa amplifying the systemic inflammation.
 - `connects-to` → **[Myelodysplastic Syndromes](../mds/README.md)** — GVHD is the price of the cure for MDS: the allogeneic transplant given for myelodysplastic syndromes carries a graft-versus-tumor benefit, but the same donor cells that clear the marrow disease can turn on the host.
+- `connects-to` → **[IFN-gamma](../../03-molecular/ifn-gamma/README.md)** — A donor-T-cell cytokine drives the attack: IFN-γ pours from activated donor T cells to license macrophages and damage host epithelium, a central effector of acute GVHD's gut, skin and liver injury.
+- `connects-to` → **[STAT1](../../03-molecular/stat1/README.md)** — The inflammatory signal travels through JAK-STAT: IFN and other cytokines act via STAT1 to amplify the alloimmune response, the pathway the JAK inhibitor ruxolitinib blocks to treat steroid-refractory GVHD.
+- `connects-to` → **[Acute Lymphoblastic Leukemia](../all/README.md)** — It rides in with the leukemia cure: allogeneic transplant for acute lymphoblastic leukemia delivers a graft-versus-leukemia effect, but the same donor immunity that hunts residual blasts can turn against the host as GVHD.
 
 [^ferrara-2009-gvhd-review]: Ferrara JL, Levine JE, Reddy P, Holler E. Graft-versus-host disease. *Lancet.* 2009;373(9674):1550-1561. [doi:10.1016/S0140-6736(09)60237-3](https://doi.org/10.1016/S0140-6736(09)60237-3) · [PubMed 19380114](https://pubmed.ncbi.nlm.nih.gov/19380114/)
 [^zeiser-2020-ruxolitinib-gvhd-reach]: Zeiser R, von Bubnoff N, Butler J, et al. Ruxolitinib for Glucocorticoid-Refractory Acute Graft-versus-Host Disease. *N Engl J Med.* 2020;382(19):1800-1810. [doi:10.1056/NEJMoa1917635](https://doi.org/10.1056/NEJMoa1917635) · [PubMed 32374962](https://pubmed.ncbi.nlm.nih.gov/32374962/)

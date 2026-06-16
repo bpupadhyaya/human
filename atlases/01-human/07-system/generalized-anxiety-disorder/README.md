@@ -175,6 +175,15 @@ cross_links:
   - target: 01-human/07-system/type-2-diabetes
     relation: connects-to
     note: "Worry leaves a metabolic mark: the chronic cortisol of GAD promotes insulin resistance and central fat, and anxiety and type 2 diabetes each raise the risk of the other in a two-way link."
+  - target: 01-human/03-molecular/nlrp3-inflammasome
+    relation: connects-to
+    note: "Chronic stress inflames the brain: NLRP3 inflammasome activation in microglia releases IL-1β that disturbs the mood and fear circuits, part of the neuroinflammation increasingly tied to anxiety disorders."
+  - target: 01-human/03-molecular/oxytocin
+    relation: connects-to
+    note: "A calming hormone opposes the worry: oxytocin dampens amygdala fear responses and buffers stress, the anxiolytic, social-bonding signal whose deficiency may leave the threat circuits of GAD unchecked."
+  - target: 01-human/07-system/hypertension
+    relation: connects-to
+    note: "Sustained alarm raises the pressure: the chronic sympathetic and cortisol drive of GAD keeps blood pressure elevated, one route by which long-term anxiety translates into cardiovascular disease."
 ---
 
 # Generalized Anxiety Disorder
@@ -365,6 +374,9 @@ Allow **4-8 weeks** for onset of anxiolytic effect. Continue treatment ≥12 mon
 - `connects-to` → **[BDNF](../../03-molecular/bdnf/README.md)** — Chronic worry erodes neuroplasticity: GAD is marked by lower BDNF, weakening the synaptic remodeling that lets the brain adapt, and treatments that raise BDNF parallel recovery from anxiety.
 - `connects-to` → **[Mast Cell](../../04-cellular/mast-cell/README.md)** — Stress reaches the mast cell: brain and gut mast cells carry receptors for the stress peptide CRH, releasing mediators that may link anxiety to its headaches, flushing, and the visceral hypersensitivity of an anxious gut.
 - `connects-to` → **[Type 2 Diabetes](../type-2-diabetes/README.md)** — Worry leaves a metabolic mark: the chronic cortisol of GAD promotes insulin resistance and central fat, and anxiety and type 2 diabetes each raise the risk of the other in a two-way link.
+- `connects-to` → **[NLRP3 Inflammasome](../../03-molecular/nlrp3-inflammasome/README.md)** — Chronic stress inflames the brain: NLRP3 inflammasome activation in microglia releases IL-1β that disturbs the mood and fear circuits, part of the neuroinflammation increasingly tied to anxiety disorders.
+- `connects-to` → **[Oxytocin](../../03-molecular/oxytocin/README.md)** — A calming hormone opposes the worry: oxytocin dampens amygdala fear responses and buffers stress, the anxiolytic, social-bonding signal whose deficiency may leave the threat circuits of GAD unchecked.
+- `connects-to` → **[Hypertension](../hypertension/README.md)** — Sustained alarm raises the pressure: the chronic sympathetic and cortisol drive of GAD keeps blood pressure elevated, one route by which long-term anxiety translates into cardiovascular disease.
 
 [^kessler-2005-gad-prevalence]: Kessler RC, Berglund P, Demler O, et al. Lifetime prevalence and age-of-onset distributions of DSM-IV disorders in the NCS Replication. *Arch Gen Psychiatry.* 2005;62(6):593-602. [doi:10.1001/archpsyc.62.6.593](https://doi.org/10.1001/archpsyc.62.6.593) · [PubMed 15939837](https://pubmed.ncbi.nlm.nih.gov/15939837/)
 [^bandelow-2015-anxiety-biology]: Bandelow B, Michaelis S. Epidemiology of anxiety disorders in the 21st century. *Dialogues Clin Neurosci.* 2015;17(3):327-335. [doi:10.31887/DCNS.2015.17.3/bbandelow](https://doi.org/10.31887/DCNS.2015.17.3/bbandelow) · [PubMed 26487812](https://pubmed.ncbi.nlm.nih.gov/26487812/)
