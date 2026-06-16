@@ -160,6 +160,15 @@ cross_links:
   - target: 01-human/07-system/osteoporosis
     relation: connects-to
     note: "Risk-reducing surgery brings early menopause: removing the ovaries and tubes in a young BRCA carrier abruptly cuts off estrogen, accelerating bone loss toward osteoporosis unless hormone or bone-protective therapy is considered."
+  - target: 01-human/03-molecular/pik3ca
+    relation: connects-to
+    note: "PI3K offers a second target alongside the BRCA defect: PIK3CA mutations are common in BRCA-associated breast cancers, so PI3K-AKT inhibitors are combined with the PARP drugs that exploit the homologous-recombination flaw."
+  - target: 01-human/04-cellular/dendritic-cell
+    relation: connects-to
+    note: "Broken DNA repair makes a visible tumor: BRCA loss spawns genomic instability and neoantigens that dendritic cells can present, making these cancers more immunogenic and a rationale for combining PARP inhibitors with immunotherapy."
+  - target: 01-human/07-system/cholangiocarcinoma
+    relation: connects-to
+    note: "BRCA's reach extends to the bile ducts: BRCA2 (and BRCA1) carriers face a raised risk of cholangiocarcinoma, and these homologous-recombination-deficient biliary tumors may respond to platinum and PARP therapy."
 ---
 
 # Hereditary Breast and Ovarian Cancer
@@ -343,6 +352,9 @@ BRCA-mutant cells (HRD):
 - `connects-to` → **[Platelet](../../04-cellular/platelet/README.md)** — The targeted drugs squeeze the marrow: PARP inhibitors like olaparib and niraparib commonly drop platelet and red-cell counts, so blood counts are watched closely and doses adjusted through the long maintenance courses these carriers take.
 - `connects-to` → **[Myelodysplastic Syndromes](../mds/README.md)** — The treatments can seed a second cancer: years of platinum chemotherapy and PARP-inhibitor maintenance carry a small but real risk of therapy-related myelodysplastic syndrome and leukemia, a sobering late cost of controlling the solid tumors.
 - `connects-to` → **[Osteoporosis](../osteoporosis/README.md)** — Risk-reducing surgery brings early menopause: removing the ovaries and tubes in a young BRCA carrier abruptly cuts off estrogen, accelerating bone loss toward osteoporosis unless hormone or bone-protective therapy is considered.
+- `connects-to` → **[PIK3CA](../../03-molecular/pik3ca/README.md)** — PI3K offers a second target alongside the BRCA defect: PIK3CA mutations are common in BRCA-associated breast cancers, so PI3K-AKT inhibitors are combined with the PARP drugs that exploit the homologous-recombination flaw.
+- `connects-to` → **[Dendritic Cell](../../04-cellular/dendritic-cell/README.md)** — Broken DNA repair makes a visible tumor: BRCA loss spawns genomic instability and neoantigens that dendritic cells can present, making these cancers more immunogenic and a rationale for combining PARP inhibitors with immunotherapy.
+- `connects-to` → **[Cholangiocarcinoma](../cholangiocarcinoma/README.md)** — BRCA's reach extends to the bile ducts: BRCA2 (and BRCA1) carriers face a raised risk of cholangiocarcinoma, and these homologous-recombination-deficient biliary tumors may respond to platinum and PARP therapy.
 
 ---
 

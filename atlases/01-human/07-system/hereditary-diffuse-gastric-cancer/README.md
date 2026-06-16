@@ -160,6 +160,15 @@ cross_links:
   - target: 01-human/04-cellular/platelet
     relation: connects-to
     note: "Diffuse gastric cancer drives clotting: like other gastric adenocarcinomas its discohesive, mucin-producing cells trigger paraneoplastic thrombocytosis and a high risk of venous thromboembolism once the disease becomes invasive."
+  - target: 01-human/03-molecular/p53
+    relation: connects-to
+    note: "p53 loss helps the diffuse tumor advance: after CDH1 starts the discohesive growth, TP53 mutation is a frequent secondary hit that lets the signet-ring cells progress to invasive, lethal cancer."
+  - target: 01-human/04-cellular/t-cytotoxic-cell
+    relation: connects-to
+    note: "The signet-ring tumor hides from killer T cells: diffuse gastric cancer is typically immune-cold with sparse cytotoxic T-cell infiltration, part of why it responds poorly to the immunotherapy that helps other gastric cancers."
+  - target: 01-human/07-system/li-fraumeni-syndrome
+    relation: connects-to
+    note: "Gastric cancer crosses hereditary syndromes: stomach cancer also features in Li-Fraumeni's TP53 spectrum, so a young diffuse gastric cancer prompts a wider germline search beyond CDH1."
 ---
 
 # Hereditary Diffuse Gastric Cancer
@@ -315,6 +324,9 @@ Testing for CDH1 (and CTNNA1) is indicated in any of the following:
 - `connects-to` → **[Small Intestine](../../06-organ/small-intestine/README.md)** — After the stomach is removed, the gut is rebuilt: prophylactic total gastrectomy, done young in CDH1 carriers, joins the esophagus to a loop of jejunum, so the small intestine becomes the new reservoir and the site of the lifelong malabsorption that follows.
 - `connects-to` → **[Adipocyte](../../04-cellular/adipocyte/README.md)** — Life without a stomach burns off fat: total gastrectomy leaves carriers eating small, frequent meals with poor fat absorption, so significant weight loss and depleted adipocyte stores are an expected, lifelong consequence needing dietitian support.
 - `connects-to` → **[Platelet](../../04-cellular/platelet/README.md)** — Diffuse gastric cancer drives clotting: like other gastric adenocarcinomas its discohesive, mucin-producing cells trigger paraneoplastic thrombocytosis and a high risk of venous thromboembolism once the disease becomes invasive.
+- `connects-to` → **[p53](../../03-molecular/p53/README.md)** — p53 loss helps the diffuse tumor advance: after CDH1 starts the discohesive growth, TP53 mutation is a frequent secondary hit that lets the signet-ring cells progress to invasive, lethal cancer.
+- `connects-to` → **[Cytotoxic T Cell](../../04-cellular/t-cytotoxic-cell/README.md)** — The signet-ring tumor hides from killer T cells: diffuse gastric cancer is typically immune-cold with sparse cytotoxic T-cell infiltration, part of why it responds poorly to the immunotherapy that helps other gastric cancers.
+- `connects-to` → **[Li-Fraumeni Syndrome](../li-fraumeni-syndrome/README.md)** — Gastric cancer crosses hereditary syndromes: stomach cancer also features in Li-Fraumeni's TP53 spectrum, so a young diffuse gastric cancer prompts a wider germline search beyond CDH1.
 
 [^van-der-post-2015-hdgc-guidelines]: van der Post RS, Vogelaar IP, Carneiro F, et al. Hereditary diffuse gastric cancer: updated clinical guidelines with an emphasis on germline CDH1 mutation carriers. *J Med Genet.* 2015;52(6):361-374. [doi:10.1136/jmedgenet-2015-103094](https://doi.org/10.1136/jmedgenet-2015-103094) · [PubMed 25979631](https://pubmed.ncbi.nlm.nih.gov/25979631/)
 [^hansford-2015-hdgc]: Hansford S, Kaurah P, Li-Chang H, et al. Hereditary Diffuse Gastric Cancer Syndrome: CDH1 Mutations and Beyond. *JAMA Oncol.* 2015;1(1):23-32. [doi:10.1001/jamaoncol.2014.168](https://doi.org/10.1001/jamaoncol.2014.168) · [PubMed 26182300](https://pubmed.ncbi.nlm.nih.gov/26182300/)
