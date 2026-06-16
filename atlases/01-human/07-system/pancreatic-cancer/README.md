@@ -175,6 +175,15 @@ cross_links:
   - target: 01-human/07-system/obesity
     relation: connects-to
     note: "Excess weight stacks the odds: obesity raises pancreatic cancer risk through chronic inflammation, insulin resistance and fatty infiltration of the gland, one of the modifiable contributors to a cancer otherwise dominated by genetics and smoking."
+  - target: 01-human/07-system/neuropathic-pain
+    relation: connects-to
+    note: "Pancreatic cancer is defined by its pain: perineural invasion and tumor wrapping the celiac plexus produce severe, relentless back and abdominal pain, often needing a celiac plexus block — a hallmark of the disease."
+  - target: 01-human/07-system/sepsis
+    relation: connects-to
+    note: "Blocked bile and major surgery breed sepsis: tumor obstruction of the bile duct causes cholangitis, and the Whipple resection it requires can leak and infect, so biliary and post-operative sepsis are real threats."
+  - target: 01-human/03-molecular/stat3
+    relation: connects-to
+    note: "STAT3 drives the desmoplastic tumor: persistent STAT3 signaling in pancreatic cancer cells and their dense stroma promotes proliferation, fibrosis, and immune evasion, marking a node studied for targeted therapy."
 ---
 
 # Pancreatic Cancer
@@ -347,6 +356,9 @@ cross_links:
 - `connects-to` → **[PALB2](../../03-molecular/palb2/README.md)** — Another repair gene marks familial cases: germline PALB2 mutations, BRCA2's binding partner in homologous-recombination repair, predispose to pancreatic cancer and, like BRCA, leave the tumor sensitive to platinum chemotherapy and PARP inhibitors.
 - `connects-to` → **[CXCL12](../../03-molecular/cxcl12/README.md)** — The stroma builds a chemical wall: cancer-associated fibroblasts pour out CXCL12, which coats the tumor and keeps killer T cells out, a key reason pancreatic cancer resists immunotherapy and a target for breaking down that barrier.
 - `connects-to` → **[Obesity](../obesity/README.md)** — Excess weight stacks the odds: obesity raises pancreatic cancer risk through chronic inflammation, insulin resistance and fatty infiltration of the gland, one of the modifiable contributors to a cancer otherwise dominated by genetics and smoking.
+- `connects-to` → **[Neuropathic Pain](../neuropathic-pain/README.md)** — Pancreatic cancer is defined by its pain: perineural invasion and tumor wrapping the celiac plexus produce severe, relentless back and abdominal pain, often needing a celiac plexus block — a hallmark of the disease.
+- `connects-to` → **[Sepsis](../sepsis/README.md)** — Blocked bile and major surgery breed sepsis: tumor obstruction of the bile duct causes cholangitis, and the Whipple resection it requires can leak and infect, so biliary and post-operative sepsis are real threats.
+- `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — STAT3 drives the desmoplastic tumor: persistent STAT3 signaling in pancreatic cancer cells and their dense stroma promotes proliferation, fibrosis, and immune evasion, marking a node studied for targeted therapy.
 
 ---
 

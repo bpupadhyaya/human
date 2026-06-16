@@ -169,6 +169,15 @@ cross_links:
   - target: 01-human/04-cellular/regulatory-t-cell
     relation: connects-to
     note: "The tumor balances its immune visibility with suppression: even as ARID1A loss recruits T cells, regulatory T cells and an immunosuppressive microenvironment temper the response, shaping which clear cell tumors actually benefit from checkpoint blockade."
+  - target: 01-human/03-molecular/stat3
+    relation: connects-to
+    note: "IL-6-STAT3 marks the clear-cell subtype: OCCC is notably IL-6-high, and the downstream STAT3 activation drives growth, the paraneoplastic inflammation, and the platinum resistance that distinguish it from serous ovarian cancer."
+  - target: 01-human/03-molecular/nf-kb
+    relation: connects-to
+    note: "Chronic inflammation switches on NF-κB: born in an inflamed endometriotic niche, OCCC carries constitutive NF-κB activity that supports survival and contributes to its resistance to chemotherapy."
+  - target: 01-human/07-system/sepsis
+    relation: connects-to
+    note: "Advanced pelvic disease invites sepsis: bowel obstruction and perforation from peritoneal spread, plus chemotherapy neutropenia, expose patients to intra-abdominal infection and sepsis."
 ---
 
 # Ovarian Clear Cell Carcinoma
@@ -361,6 +370,9 @@ Comprehensive surgical staging (TAH-BSO, omentectomy, pelvic/para-aortic lymphad
 - `connects-to` → **[Estrogen](../../03-molecular/estrogen/README.md)** — It is born from an estrogen-driven lesion: clear cell ovarian cancer arises within endometriosis, where estrogen-fueled ectopic endometrial tissue and its iron-rich bleeding create the inflamed, mutagenic niche that gives rise to the tumor.
 - `connects-to` → **[MET](../../03-molecular/met/README.md)** — A receptor kinase offers a handle on a chemoresistant tumor: MET amplification and activation help drive clear cell ovarian cancer, which resists standard platinum chemotherapy, so MET and its PI3K-pathway partners are pursued as targets.
 - `connects-to` → **[Regulatory T Cell](../../04-cellular/regulatory-t-cell/README.md)** — The tumor balances its immune visibility with suppression: even as ARID1A loss recruits T cells, regulatory T cells and an immunosuppressive microenvironment temper the response, shaping which clear cell tumors actually benefit from checkpoint blockade.
+- `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — IL-6-STAT3 marks the clear-cell subtype: OCCC is notably IL-6-high, and the downstream STAT3 activation drives growth, the paraneoplastic inflammation, and the platinum resistance that distinguish it from serous ovarian cancer.
+- `connects-to` → **[NF-κB](../../03-molecular/nf-kb/README.md)** — Chronic inflammation switches on NF-κB: born in an inflamed endometriotic niche, OCCC carries constitutive NF-κB activity that supports survival and contributes to its resistance to chemotherapy.
+- `connects-to` → **[Sepsis](../sepsis/README.md)** — Advanced pelvic disease invites sepsis: bowel obstruction and perforation from peritoneal spread, plus chemotherapy neutropenia, expose patients to intra-abdominal infection and sepsis.
 
 ---
 
