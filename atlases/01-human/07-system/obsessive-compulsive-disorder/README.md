@@ -179,6 +179,15 @@ cross_links:
   - target: 01-human/03-molecular/il-6
     relation: connects-to
     note: "Inflammation may stoke the obsessive brain: studies find raised IL-6 and other inflammatory cytokines in OCD, hinting that immune activation contributes to the disorder alongside its serotonin and glutamate disturbances."
+  - target: 01-human/07-system/nervous-system
+    relation: connects-to
+    note: "It is a disorder of a specific brain loop: OCD arises from overactivity in the cortico-striatal-thalamic circuit linking the orbitofrontal cortex and basal ganglia, the wiring whose miscommunication generates intrusive thoughts and the urge to ritualize."
+  - target: 01-human/04-cellular/regulatory-t-cell
+    relation: connects-to
+    note: "An immune arm shows up in some cases: in the PANDAS subtype where strep infection triggers OCD, dysregulated T-cell immunity — including regulatory T cells — lets autoantibodies cross-react with the basal ganglia."
+  - target: 01-human/03-molecular/endocannabinoid
+    relation: connects-to
+    note: "The body's cannabis system modulates compulsivity: endocannabinoid signaling tunes the fear and habit circuits implicated in OCD, and cannabinoid agents are being explored for the obsessions and compulsions that resist standard drugs."
 ---
 
 # Obsessive-Compulsive Disorder
@@ -357,6 +366,9 @@ OCD is often underdiagnosed due to shame and secrecy. Mean time from symptom ons
 - `connects-to` → **[T Helper Cell](../../04-cellular/t-helper-cell/README.md)** — PANDAS makes OCD an autoimmune disease: after strep infection, molecular mimicry drives T helper cells and antibodies against basal-ganglia neurons, sparking the abrupt onset of obsessions and tics in susceptible children.
 - `connects-to` → **[Bulimia Nervosa](../bulimia-nervosa/README.md)** — OCD and eating disorders share a compulsive core: bulimia nervosa frequently co-occurs with OCD, the binge-purge rituals echoing obsessive thoughts and compulsive acts, and the two run together in families.
 - `connects-to` → **[Interleukin-6](../../03-molecular/il-6/README.md)** — Inflammation may stoke the obsessive brain: studies find raised IL-6 and other inflammatory cytokines in OCD, hinting that immune activation contributes to the disorder alongside its serotonin and glutamate disturbances.
+- `connects-to` → **[Nervous System](../nervous-system/README.md)** — It is a disorder of a specific brain loop: OCD arises from overactivity in the cortico-striatal-thalamic circuit linking the orbitofrontal cortex and basal ganglia, the wiring whose miscommunication generates intrusive thoughts and the urge to ritualize.
+- `connects-to` → **[Regulatory T Cell](../../04-cellular/regulatory-t-cell/README.md)** — An immune arm shows up in some cases: in the PANDAS subtype where strep infection triggers OCD, dysregulated T-cell immunity — including regulatory T cells — lets autoantibodies cross-react with the basal ganglia.
+- `connects-to` → **[Endocannabinoid System](../../03-molecular/endocannabinoid/README.md)** — The body's cannabis system modulates compulsivity: endocannabinoid signaling tunes the fear and habit circuits implicated in OCD, and cannabinoid agents are being explored for the obsessions and compulsions that resist standard drugs.
 
 [^abramowitz-2009-ocd-review]: Abramowitz JS, Taylor S, McKay D. Obsessive-compulsive disorder. *Lancet.* 2009;374(9688):491-499. [doi:10.1016/S0140-6736(09)60240-3](https://doi.org/10.1016/S0140-6736(09)60240-3) · [PubMed 19665647](https://pubmed.ncbi.nlm.nih.gov/19665647/)
 [^chamberlain-2008-ocd-neuroscience]: Chamberlain SR, Menzies L, Hampshire A, et al. Orbitofrontal dysfunction in patients with OCD and their unaffected relatives. *Science.* 2008;321(5887):421-422. [doi:10.1126/science.1154433](https://doi.org/10.1126/science.1154433) · [PubMed 18635808](https://pubmed.ncbi.nlm.nih.gov/18635808/)

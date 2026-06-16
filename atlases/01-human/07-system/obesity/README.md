@@ -172,6 +172,15 @@ cross_links:
   - target: 01-human/07-system/gout
     relation: connects-to
     note: "Excess weight crystallizes in the joints: obesity raises uric acid through insulin resistance and higher turnover, so it is a leading and reversible risk factor for gout and its painful attacks."
+  - target: 01-human/03-molecular/resistin
+    relation: connects-to
+    note: "Fat secretes a pro-inflammatory signal: resistin from adipose tissue and macrophages promotes insulin resistance and vascular inflammation, one of the adipokines through which excess fat turns into metabolic and cardiovascular disease."
+  - target: 01-human/07-system/ckd
+    relation: connects-to
+    note: "Excess weight scars the kidneys: obesity hyperfilters the glomeruli and, with the diabetes and hypertension it drives, produces obesity-related glomerulopathy that progresses to chronic kidney disease."
+  - target: 01-human/07-system/stroke
+    relation: connects-to
+    note: "The weight reaches the brain's vessels: through hypertension, diabetes and atherosclerosis, obesity raises the risk of ischemic stroke, extending its cardiovascular toll beyond the heart to the cerebral circulation."
 ---
 
 # Obesity
@@ -363,6 +372,9 @@ This **metainflammation** mechanistically links obesity to type 2 diabetes, athe
 - `connects-to` → **[Interleukin-6](../../03-molecular/il-6/README.md)** — Fat is an inflammatory organ: enlarged adipocytes and their macrophages secrete IL-6 into the blood, driving the liver's C-reactive protein and the insulin resistance that links obesity to diabetes and heart disease.
 - `connects-to` → **[Cytotoxic T Cell](../../04-cellular/t-cytotoxic-cell/README.md)** — Inflammation in fat starts with T cells: CD8 cytotoxic T cells infiltrate expanding adipose tissue early and recruit the macrophages that sustain the chronic low-grade inflammation of obesity.
 - `connects-to` → **[Gout](../gout/README.md)** — Excess weight crystallizes in the joints: obesity raises uric acid through insulin resistance and higher turnover, so it is a leading and reversible risk factor for gout and its painful attacks.
+- `connects-to` → **[Resistin](../../03-molecular/resistin/README.md)** — Fat secretes a pro-inflammatory signal: resistin from adipose tissue and macrophages promotes insulin resistance and vascular inflammation, one of the adipokines through which excess fat turns into metabolic and cardiovascular disease.
+- `connects-to` → **[Chronic Kidney Disease](../ckd/README.md)** — Excess weight scars the kidneys: obesity hyperfilters the glomeruli and, with the diabetes and hypertension it drives, produces obesity-related glomerulopathy that progresses to chronic kidney disease.
+- `connects-to` → **[Stroke](../stroke/README.md)** — The weight reaches the brain's vessels: through hypertension, diabetes and atherosclerosis, obesity raises the risk of ischemic stroke, extending its cardiovascular toll beyond the heart to the cerebral circulation.
 
 [^bluher-2019-obesity-review]: Blüher M. Obesity: global epidemiology and pathogenesis. *Nat Rev Endocrinol.* 2019;15(5):288-298. [doi:10.1038/s41574-019-0176-8](https://doi.org/10.1038/s41574-019-0176-8) · [PubMed 30814686](https://pubmed.ncbi.nlm.nih.gov/30814686/)
 [^wilding-2021-semaglutide-step1]: Wilding JPH, Batterham RL, Calanna S, et al. Once-weekly semaglutide in adults with overweight or obesity. *N Engl J Med.* 2021;384(11):989-1002. [doi:10.1056/NEJMoa2032183](https://doi.org/10.1056/NEJMoa2032183) · [PubMed 33567185](https://pubmed.ncbi.nlm.nih.gov/33567185/)
