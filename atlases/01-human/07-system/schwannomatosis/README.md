@@ -169,6 +169,15 @@ cross_links:
   - target: 01-human/03-molecular/vegf
     relation: connects-to
     note: "The tumors recruit their own blood supply: schwannomas express VEGF to drive angiogenesis, and anti-VEGF therapy with bevacizumab — used in related NF2 schwannomas — can shrink them and ease symptoms."
+  - target: 01-human/03-molecular/stat3
+    relation: connects-to
+    note: "Merlin loss lifts a brake on STAT3: beyond Hippo-YAP, the NF2/SMARCB1-deficient schwannoma cell shows STAT3 activation that supports its survival and growth, a signaling node studied alongside the syndrome's other pathways."
+  - target: 01-human/07-system/venous-thromboembolism
+    relation: connects-to
+    note: "Repeated tumor surgery clots the veins: schwannomatosis often requires multiple operations to remove painful schwannomas, and the immobility and surgery carry a perioperative venous thromboembolism risk."
+  - target: 01-human/07-system/sepsis
+    relation: connects-to
+    note: "Surgery carries infectious risk: the repeated spinal and peripheral-nerve operations used to debulk painful schwannomas can be complicated by wound infection and sepsis."
 ---
 
 # Schwannomatosis
@@ -321,6 +330,9 @@ Both NF2 (22q12.2), SMARCB1 (22q11.23), and LZTR1 (22q11.21) are on chromosome 2
 - `connects-to` → **[Glutamate](../../03-molecular/glutamate/README.md)** — The pain becomes wired into the cord: persistent input from the schwannomas drives glutamate-NMDA central sensitization in the spinal dorsal horn, amplifying signals so the pain outlasts and outstrips the tumors themselves — a target for drugs like gabapentin.
 - `connects-to` → **[Bradykinin](../../03-molecular/bradykinin/README.md)** — Inflammation around the tumor lights up nociceptors: bradykinin released in the irritated tissue directly excites and sensitizes the pain nerve endings of nearby schwannomas, a peripheral trigger of the disorder's defining chronic pain.
 - `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — The tumors recruit their own blood supply: schwannomas express VEGF to drive angiogenesis, and anti-VEGF therapy with bevacizumab — used in related NF2 schwannomas — can shrink them and ease symptoms.
+- `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — Merlin loss lifts a brake on STAT3: beyond Hippo-YAP, the NF2/SMARCB1-deficient schwannoma cell shows STAT3 activation that supports its survival and growth, a signaling node studied alongside the syndrome's other pathways.
+- `connects-to` → **[Venous Thromboembolism](../venous-thromboembolism/README.md)** — Repeated tumor surgery clots the veins: schwannomatosis often requires multiple operations to remove painful schwannomas, and the immobility and surgery carry a perioperative venous thromboembolism risk.
+- `connects-to` → **[Sepsis](../sepsis/README.md)** — Surgery carries infectious risk: the repeated spinal and peripheral-nerve operations used to debulk painful schwannomas can be complicated by wound infection and sepsis.
 
 [^merker-2012-schwannomatosis]: Merker VL, Esparza S, Smith MJ, Stemmer-Rachamimov A, Plotkin SR. Clinical features of schwannomatosis: a retrospective analysis of 87 patients. *Oncologist.* 2012;17(10):1317-1322. [doi:10.1634/theoncologist.2012-0162](https://doi.org/10.1634/theoncologist.2012-0162) · [PubMed 22927469](https://pubmed.ncbi.nlm.nih.gov/22927469/)
 [^piotrowski-2014-lztr1]: Piotrowski A, Xie J, Liu YF, et al. Germline loss-of-function mutations in LZTR1 predispose to an inherited disorder of multiple schwannomas. *Nat Genet.* 2014;46(2):182-187. [doi:10.1038/ng.2855](https://doi.org/10.1038/ng.2855) · [PubMed 24362817](https://pubmed.ncbi.nlm.nih.gov/24362817/)

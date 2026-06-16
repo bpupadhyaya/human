@@ -169,6 +169,15 @@ cross_links:
   - target: 01-human/04-cellular/endothelial-cell
     relation: connects-to
     note: "It grows a fast, leaky blood supply: SCLC is intensely angiogenic, pushing endothelial cells to build the vasculature that fuels its rapid doubling and early spread — the rationale behind testing antiangiogenic drugs against it."
+  - target: 01-human/03-molecular/stat3
+    relation: connects-to
+    note: "STAT3 sustains the neuroendocrine tumor: JAK-STAT3 signaling drives SCLC proliferation and immune evasion, part of the signaling that keeps this fast-growing cancer alive between its near-universal RB1 and p53 losses."
+  - target: 01-human/03-molecular/nf-kb
+    relation: connects-to
+    note: "NF-κB feeds chemoresistance: after an initial dramatic chemo response, SCLC relapses with NF-κB-supported survival signaling, part of why this tumor so reliably returns resistant within months."
+  - target: 01-human/07-system/sepsis
+    relation: connects-to
+    note: "A central tumor and intense chemo invite sepsis: post-obstructive pneumonia behind a bronchial SCLC, plus the deep neutropenia of platinum-etoposide cycles, make pneumonia and sepsis frequent complications."
 ---
 
 # Small Cell Lung Cancer
@@ -329,6 +338,9 @@ SCLC has highest rate of brain metastases among solid tumors (~50% at 2 years); 
 - `connects-to` → **[CTLA-4](../../03-molecular/ctla-4/README.md)** — Immunotherapy reached even this hard target: blocking CTLA-4 alongside PD-L1 adds a modest survival gain in extensive-stage SCLC, releasing T cells against a tumor whose heavy smoking-driven mutation load makes it visible to the immune system.
 - `connects-to` → **[COPD](../copd/README.md)** — It shares its cause with the airways' disease: the same heavy tobacco smoking that drives SCLC produces COPD, so the two frequently coexist, and the reduced lung reserve of COPD complicates treating the cancer.
 - `connects-to` → **[Endothelial Cell](../../04-cellular/endothelial-cell/README.md)** — It grows a fast, leaky blood supply: SCLC is intensely angiogenic, pushing endothelial cells to build the vasculature that fuels its rapid doubling and early spread — the rationale behind testing antiangiogenic drugs against it.
+- `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — STAT3 sustains the neuroendocrine tumor: JAK-STAT3 signaling drives SCLC proliferation and immune evasion, part of the signaling that keeps this fast-growing cancer alive between its near-universal RB1 and p53 losses.
+- `connects-to` → **[NF-κB](../../03-molecular/nf-kb/README.md)** — NF-κB feeds chemoresistance: after an initial dramatic chemo response, SCLC relapses with NF-κB-supported survival signaling, part of why this tumor so reliably returns resistant within months.
+- `connects-to` → **[Sepsis](../sepsis/README.md)** — A central tumor and intense chemo invite sepsis: post-obstructive pneumonia behind a bronchial SCLC, plus the deep neutropenia of platinum-etoposide cycles, make pneumonia and sepsis frequent complications.
 
 [^horn-2018-impower133]: Horn L, Mansfield AS, Szczęsna A, et al. First-line atezolizumab plus chemotherapy in extensive-stage small-cell lung cancer. *N Engl J Med.* 2018;379(23):2220-2229. [doi:10.1056/NEJMoa1809064](https://doi.org/10.1056/NEJMoa1809064) · [PubMed 30280641](https://pubmed.ncbi.nlm.nih.gov/30280641/)
 [^paz-ares-2019-caspian]: Paz-Ares L, Dvorkin M, Chen Y, et al. Durvalumab plus platinum-etoposide versus platinum-etoposide in first-line treatment of extensive-stage small-cell lung cancer (CASPIAN). *Lancet.* 2019;394(10212):1929-1939. [doi:10.1016/S0140-6736(19)32222-6](https://doi.org/10.1016/S0140-6736(19)32222-6) · [PubMed 31590988](https://pubmed.ncbi.nlm.nih.gov/31590988/)
