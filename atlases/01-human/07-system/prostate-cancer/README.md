@@ -169,6 +169,15 @@ cross_links:
   - target: 01-human/02-atomic/selenium
     relation: connects-to
     note: "Selenium promised prostate protection but failed: the large SELECT trial found selenium supplements did not prevent prostate cancer (and vitamin E may have slightly raised risk), tempering the antioxidant chemoprevention hopes."
+  - target: 01-human/03-molecular/pd-1
+    relation: connects-to
+    note: "Most of it resists immunotherapy: prostate cancer is immunologically cold, so PD-1 blockade helps only the rare mismatch-repair-deficient, high-mutation tumors — a reminder that checkpoint drugs need a visible target to work."
+  - target: 01-human/07-system/obesity
+    relation: connects-to
+    note: "Excess weight breeds the aggressive form: obesity is linked less to getting prostate cancer than to developing the high-grade, lethal disease, through insulin, inflammation and altered androgen handling in fat tissue."
+  - target: 01-human/03-molecular/vegf
+    relation: connects-to
+    note: "It builds vessels to spread: prostate tumors drive VEGF-dependent angiogenesis to grow and seed bone, where the new vasculature supports the osteoblastic metastases that define advanced disease."
 ---
 
 # Prostate Cancer
@@ -346,6 +355,9 @@ cross_links:
 - `connects-to` → **[p53](../../03-molecular/p53/README.md)** — Losing p53 turns prostate cancer lethal: TP53 mutation, often with RB loss, drives the shift to aggressive castration-resistant and neuroendocrine disease that escapes hormone therapy and carries a grim prognosis.
 - `connects-to` → **[Osteoporosis](../osteoporosis/README.md)** — The hormone therapy that controls it thins the bones: androgen-deprivation therapy strips the testosterone that maintains the male skeleton, accelerating bone loss and fractures, so patients need bone-density monitoring with calcium, vitamin D, and antiresorptive drugs.
 - `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — Selenium promised prostate protection but failed: the large SELECT trial found selenium supplements did not prevent prostate cancer (and vitamin E may have slightly raised risk), tempering the antioxidant chemoprevention hopes.
+- `connects-to` → **[PD-1](../../03-molecular/pd-1/README.md)** — Most of it resists immunotherapy: prostate cancer is immunologically cold, so PD-1 blockade helps only the rare mismatch-repair-deficient, high-mutation tumors — a reminder that checkpoint drugs need a visible target to work.
+- `connects-to` → **[Obesity](../obesity/README.md)** — Excess weight breeds the aggressive form: obesity is linked less to getting prostate cancer than to developing the high-grade, lethal disease, through insulin, inflammation and altered androgen handling in fat tissue.
+- `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — It builds vessels to spread: prostate tumors drive VEGF-dependent angiogenesis to grow and seed bone, where the new vasculature supports the osteoblastic metastases that define advanced disease.
 
 [^beer-2014-prevail]: Beer TM, Armstrong AJ, Rathkopf D, et al. Enzalutamide in metastatic prostate cancer before chemotherapy. *N Engl J Med.* 2014;371(5):424-433. [doi:10.1056/NEJMoa1405095](https://doi.org/10.1056/NEJMoa1405095) · [PubMed 24881730](https://pubmed.ncbi.nlm.nih.gov/24881730/)
 [^sartor-2021-vision]: Sartor O, de Bono J, Chi KN, et al. Lutetium-PSMA-617 for metastatic castration-resistant prostate cancer. *N Engl J Med.* 2021;385(12):1091-1103. [doi:10.1056/NEJMoa2107322](https://doi.org/10.1056/NEJMoa2107322) · [PubMed 34161051](https://pubmed.ncbi.nlm.nih.gov/34161051/)

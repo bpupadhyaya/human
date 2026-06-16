@@ -169,6 +169,15 @@ cross_links:
   - target: 01-human/07-system/hiv-aids
     relation: connects-to
     note: "HIV paradoxically ignites psoriasis: as immunity collapses the disease often appears or turns severe and treatment-resistant, a striking exception to its T-cell-driven model that improves with antiretroviral therapy."
+  - target: 01-human/03-molecular/stat3
+    relation: connects-to
+    note: "A transcription hub turns on the plaque: IL-23 signals through STAT3 to sustain the Th17/IL-17 response and the keratinocyte overgrowth of psoriasis, the node that TYK2-JAK inhibitors like deucravacitinib block."
+  - target: 02-pathogen/03-fungi/candida-albicans
+    relation: connects-to
+    note: "A fungus can light the fuse: like streptococcal throat infection, Candida colonization acts as a microbial trigger and superantigen that flares psoriasis, and patients carry the yeast more often."
+  - target: 01-human/07-system/stroke
+    relation: connects-to
+    note: "The skin disease reaches the brain's arteries: psoriasis's systemic inflammation accelerates atherosclerosis, raising the risk of stroke and heart attack independently of the usual cardiovascular risk factors."
 ---
 
 # Psoriasis
@@ -334,6 +343,9 @@ Differential: Seborrheic dermatitis (common), pityriasis rosea (herald patch, Ch
 - `connects-to` → **[IL-36](../../03-molecular/il-36/README.md)** — A different cytokine drives the pustular form: in generalized pustular psoriasis, loss of the IL-36 receptor antagonist unleashes IL-36, flooding the skin with neutrophils into sterile pustules — now treatable by the IL-36 blocker spesolimab.
 - `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — Plaques keep their own inflammatory engine: dermal macrophages pour out TNF and recruit more immune cells, sustaining the lesion and feeding the systemic inflammation that links psoriasis to heart and metabolic disease.
 - `connects-to` → **[HIV/AIDS](../hiv-aids/README.md)** — HIV paradoxically ignites psoriasis: as immunity collapses the disease often appears or turns severe and treatment-resistant, a striking exception to its T-cell-driven model that improves with antiretroviral therapy.
+- `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — A transcription hub turns on the plaque: IL-23 signals through STAT3 to sustain the Th17/IL-17 response and the keratinocyte overgrowth of psoriasis, the node that TYK2-JAK inhibitors like deucravacitinib block.
+- `connects-to` → **[Candida albicans](../../../02-pathogen/03-fungi/candida-albicans/README.md)** — A fungus can light the fuse: like streptococcal throat infection, Candida colonization acts as a microbial trigger and superantigen that flares psoriasis, and patients carry the yeast more often.
+- `connects-to` → **[Stroke](../stroke/README.md)** — The skin disease reaches the brain's arteries: psoriasis's systemic inflammation accelerates atherosclerosis, raising the risk of stroke and heart attack independently of the usual cardiovascular risk factors.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
