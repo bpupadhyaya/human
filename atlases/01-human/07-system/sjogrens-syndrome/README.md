@@ -175,6 +175,15 @@ cross_links:
   - target: 01-human/07-system/renal-system
     relation: connects-to
     note: "It reaches past the glands to the kidneys: lymphocytic infiltration of the renal tubules causes tubulointerstitial nephritis and distal renal tubular acidosis, so unexplained low potassium or acidosis can be the clue that points to Sjögren's."
+  - target: 01-human/03-molecular/stat3
+    relation: connects-to
+    note: "STAT3 keeps the autoreactive B cells alive: downstream of IL-6 and IL-21 in the glandular germinal-center-like infiltrates, STAT3 activation supports the B-cell survival that drives Sjögren's toward lymphoma."
+  - target: 01-human/03-molecular/nf-kb
+    relation: connects-to
+    note: "NF-κB fuels the glandular inflammation: BAFF and TNF signaling converge on NF-κB in the salivary-gland infiltrate, sustaining the chronic activation that destroys glandular tissue in Sjögren's."
+  - target: 01-human/07-system/venous-thromboembolism
+    relation: connects-to
+    note: "Chronic autoimmune inflammation thickens the blood: Sjögren's carries a raised risk of deep-vein thrombosis and pulmonary embolism, part of the prothrombotic state shared across the systemic autoimmune diseases."
 ---
 
 # Sjögren's Syndrome
@@ -357,6 +366,9 @@ Sjögren's syndrome can occur:
 - `connects-to` → **[Candida albicans](../../../02-pathogen/03-fungi/candida-albicans/README.md)** — The dried-out mouth invites a fungus: without protective saliva, Candida overgrows into oral thrush and angular cheilitis, a recurrent infection that is one of the most common day-to-day complications of Sjögren's xerostomia.
 - `connects-to` → **[JAK1/2](../../03-molecular/jak1-2/README.md)** — An interferon signature runs the disease: type I interferon signals through the JAK-STAT pathway to sustain the autoimmune attack on the glands, making JAK inhibitors a logical therapy being tested against Sjögren's.
 - `connects-to` → **[Renal System](../renal-system/README.md)** — It reaches past the glands to the kidneys: lymphocytic infiltration of the renal tubules causes tubulointerstitial nephritis and distal renal tubular acidosis, so unexplained low potassium or acidosis can be the clue that points to Sjögren's.
+- `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — STAT3 keeps the autoreactive B cells alive: downstream of IL-6 and IL-21 in the glandular germinal-center-like infiltrates, STAT3 activation supports the B-cell survival that drives Sjögren's toward lymphoma.
+- `connects-to` → **[NF-κB](../../03-molecular/nf-kb/README.md)** — NF-κB fuels the glandular inflammation: BAFF and TNF signaling converge on NF-κB in the salivary-gland infiltrate, sustaining the chronic activation that destroys glandular tissue in Sjögren's.
+- `connects-to` → **[Venous Thromboembolism](../venous-thromboembolism/README.md)** — Chronic autoimmune inflammation thickens the blood: Sjögren's carries a raised risk of deep-vein thrombosis and pulmonary embolism, part of the prothrombotic state shared across the systemic autoimmune diseases.
 
 ---
 

@@ -169,6 +169,15 @@ cross_links:
   - target: 01-human/04-cellular/natural-killer-cell
     relation: connects-to
     note: "It is a flagship for cell therapy: synovial sarcoma expresses the cancer-testis antigen NY-ESO-1, the target of engineered T-cell therapy, and natural killer and other cell-based approaches are pursued against a tumor that resists checkpoint drugs."
+  - target: 01-human/03-molecular/stat3
+    relation: connects-to
+    note: "STAT3 backs its survival signaling: synovial sarcoma cells show STAT3 activation that supports proliferation and immune evasion, one of the cooperating pathways downstream of the SS18-SSX fusion that drives the tumor."
+  - target: 01-human/07-system/venous-thromboembolism
+    relation: connects-to
+    note: "A solid cancer that clots: like other sarcomas, synovial sarcoma raises thrombosis risk through tumor-driven hypercoagulability, with deep-vein thrombosis and pulmonary embolism worsened by major limb surgery and chemotherapy."
+  - target: 01-human/07-system/sepsis
+    relation: connects-to
+    note: "Chemo neutropenia opens the door to infection: the ifosfamide-doxorubicin regimens used against synovial sarcoma cause deep neutropenia, so neutropenic fever and sepsis are recurrent treatment hazards."
 ---
 
 # Synovial Sarcoma
@@ -345,6 +354,9 @@ SS has low TMB (~1-2 mut/Mb) and variable PD-L1 expression; ICB response rates ~
 - `connects-to` → **[BCL-2](../../03-molecular/bcl-2/README.md)** — It survives by blocking its own death: synovial sarcoma strongly and characteristically expresses the anti-apoptotic protein BCL-2 — useful as a diagnostic marker and a hint that drugs disabling this survival signal might work against it.
 - `connects-to` → **[EGFR](../../03-molecular/egfr/README.md)** — A receptor it leans on: synovial sarcoma frequently overexpresses EGFR, feeding growth signals into its proliferation, which has made the receptor a studied (if so far disappointing) target in this fusion-driven sarcoma.
 - `connects-to` → **[Natural Killer Cell](../../04-cellular/natural-killer-cell/README.md)** — It is a flagship for cell therapy: synovial sarcoma expresses the cancer-testis antigen NY-ESO-1, the target of engineered T-cell therapy, and natural killer and other cell-based approaches are pursued against a tumor that resists checkpoint drugs.
+- `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — STAT3 backs its survival signaling: synovial sarcoma cells show STAT3 activation that supports proliferation and immune evasion, one of the cooperating pathways downstream of the SS18-SSX fusion that drives the tumor.
+- `connects-to` → **[Venous Thromboembolism](../venous-thromboembolism/README.md)** — A solid cancer that clots: like other sarcomas, synovial sarcoma raises thrombosis risk through tumor-driven hypercoagulability, with deep-vein thrombosis and pulmonary embolism worsened by major limb surgery and chemotherapy.
+- `connects-to` → **[Sepsis](../sepsis/README.md)** — Chemo neutropenia opens the door to infection: the ifosfamide-doxorubicin regimens used against synovial sarcoma cause deep neutropenia, so neutropenic fever and sepsis are recurrent treatment hazards.
 
 ---
 
