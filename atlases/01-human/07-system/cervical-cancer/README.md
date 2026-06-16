@@ -169,6 +169,15 @@ cross_links:
   - target: 01-human/04-cellular/macrophage
     relation: connects-to
     note: "Tumor macrophages help HPV hide: M2-polarized tumor-associated macrophages in the cervical lesion suppress the antiviral T-cell response and promote invasion, abetting the immune evasion that lets the cancer grow."
+  - target: 01-human/03-molecular/nf-kb
+    relation: connects-to
+    note: "Chronic inflammation keeps NF-κB switched on: HPV infection and the inflamed cervical microenvironment activate NF-κB, driving pro-survival and pro-invasive gene programs that help the transformed cells persist and progress."
+  - target: 01-human/04-cellular/fibroblast
+    relation: connects-to
+    note: "Stromal fibroblasts abet invasion: cancer-associated fibroblasts in the cervical tumor remodel the matrix and secrete factors that promote angiogenesis and help the carcinoma breach the basement membrane."
+  - target: 01-human/07-system/venous-thromboembolism
+    relation: connects-to
+    note: "Pelvic cancer raises the clot risk: advanced cervical cancer and its treatment promote venous thromboembolism, both through the tumor's pro-coagulant state and pelvic vein compression by bulky disease."
 ---
 
 # Cervical Cancer
@@ -342,6 +351,9 @@ The cervical transformation zone (TZ) — the area between the original and new 
 - `connects-to` → **[Chronic Kidney Disease](../ckd/README.md)** — Advanced cervical cancer kills through the kidneys: local spread encases the ureters and blocks urine flow, so obstructive uropathy and the resulting renal failure are a classic and common cause of death from the disease.
 - `connects-to` → **[Interleukin-6](../../03-molecular/il-6/README.md)** — IL-6 fuels the HPV-driven tumor: the cytokine activates STAT3 to drive cervical cancer growth, angiogenesis, and resistance to chemoradiation, and high levels mark a worse prognosis.
 - `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — Tumor macrophages help HPV hide: M2-polarized tumor-associated macrophages in the cervical lesion suppress the antiviral T-cell response and promote invasion, abetting the immune evasion that lets the cancer grow.
+- `connects-to` → **[NF-κB](../../03-molecular/nf-kb/README.md)** — Chronic inflammation keeps NF-κB switched on: HPV infection and the inflamed cervical microenvironment activate NF-κB, driving pro-survival and pro-invasive gene programs that help the transformed cells persist and progress.
+- `connects-to` → **[Fibroblast](../../04-cellular/fibroblast/README.md)** — Stromal fibroblasts abet invasion: cancer-associated fibroblasts in the cervical tumor remodel the matrix and secrete factors that promote angiogenesis and help the carcinoma breach the basement membrane.
+- `connects-to` → **[Venous Thromboembolism](../venous-thromboembolism/README.md)** — Pelvic cancer raises the clot risk: advanced cervical cancer and its treatment promote venous thromboembolism, both through the tumor's pro-coagulant state and pelvic vein compression by bulky disease.
 
 ---
 

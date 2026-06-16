@@ -169,6 +169,15 @@ cross_links:
   - target: 01-human/07-system/lynch-syndrome
     relation: connects-to
     note: "Mismatch-repair failure can seed it: Lynch syndrome raises the risk of biliary tract cancer, and the resulting MSI-high cholangiocarcinomas are among the few that respond well to immune-checkpoint therapy."
+  - target: 01-human/03-molecular/idh2
+    relation: connects-to
+    note: "IDH2, like IDH1, is a targetable driver: a subset of intrahepatic cholangiocarcinomas carry IDH2 mutations that generate the oncometabolite 2-hydroxyglutarate and reprogram the epigenome, defining a molecular subtype with emerging targeted therapy."
+  - target: 01-human/07-system/sepsis
+    relation: connects-to
+    note: "Blocked bile breeds biliary sepsis: tumor obstruction of the ducts causes cholangitis that can escalate to life-threatening Gram-negative sepsis, so urgent biliary drainage is often needed before any cancer treatment."
+  - target: 01-human/04-cellular/mast-cell
+    relation: connects-to
+    note: "Mast cells stoke the desmoplastic tumor: recruited into cholangiocarcinoma they release angiogenic and fibrogenic mediators that feed the dense stroma and new vessels on which the bile-duct cancer depends."
 ---
 
 # Cholangiocarcinoma
@@ -316,6 +325,9 @@ Chronic biliary injury (from PSC, fluke infection, bile acid reflux, biliary sta
 - `connects-to` → **[EGFR](../../03-molecular/egfr/README.md)** — EGFR drives the bile-duct cancer cell: the receptor is frequently overexpressed in cholangiocarcinoma, activating proliferation and survival pathways and offering one of the targeted handles in a cancer otherwise hard to treat.
 - `connects-to` → **[Dendritic Cell](../../04-cellular/dendritic-cell/README.md)** — The dense desmoplastic tumor freezes out immunity: dysfunctional dendritic cells fail to prime an effective T-cell response in cholangiocarcinoma, part of the immune-cold microenvironment that blunts checkpoint therapy.
 - `connects-to` → **[Lynch Syndrome](../lynch-syndrome/README.md)** — Mismatch-repair failure can seed it: Lynch syndrome raises the risk of biliary tract cancer, and the resulting MSI-high cholangiocarcinomas are among the few that respond well to immune-checkpoint therapy.
+- `connects-to` → **[IDH2](../../03-molecular/idh2/README.md)** — IDH2, like IDH1, is a targetable driver: a subset of intrahepatic cholangiocarcinomas carry IDH2 mutations that generate the oncometabolite 2-hydroxyglutarate and reprogram the epigenome, defining a molecular subtype with emerging targeted therapy.
+- `connects-to` → **[Sepsis](../sepsis/README.md)** — Blocked bile breeds biliary sepsis: tumor obstruction of the ducts causes cholangitis that can escalate to life-threatening Gram-negative sepsis, so urgent biliary drainage is often needed before any cancer treatment.
+- `connects-to` → **[Mast Cell](../../04-cellular/mast-cell/README.md)** — Mast cells stoke the desmoplastic tumor: recruited into cholangiocarcinoma they release angiogenic and fibrogenic mediators that feed the dense stroma and new vessels on which the bile-duct cancer depends.
 
 ---
 
