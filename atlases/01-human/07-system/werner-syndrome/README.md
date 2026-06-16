@@ -160,6 +160,15 @@ cross_links:
   - target: 01-human/06-organ/thyroid
     relation: connects-to
     note: "Werner has a striking thyroid-cancer profile: the syndrome markedly raises thyroid cancer risk — especially follicular subtypes, and notably in reported Japanese cohorts — so the gland is watched as part of its broad cancer predisposition."
+  - target: 01-human/03-molecular/recql4
+    relation: connects-to
+    note: "It belongs to a family of broken helicases: WRN is one of the RecQ DNA helicases, kin to RECQL4 (mutated in Rothmund-Thomson) and BLM, so losing it cripples the same genome-maintenance machinery, explaining why these syndromes share instability and cancer risk."
+  - target: 01-human/07-system/wound-healing
+    relation: connects-to
+    note: "Its skin will not knit: chronic, deep ulcers around the ankles and elbows are a hallmark of Werner, as failing fibroblasts and aged tissue cripple wound healing, producing sores that resist closure for years."
+  - target: 01-human/04-cellular/macrophage
+    relation: connects-to
+    note: "Aging cells stew the body in inflammation: senescent fibroblasts pour out a secretory phenotype that activates macrophages into chronic 'inflammaging', fueling the atherosclerosis, diabetes and poor wound healing that mark the premature-aging syndrome."
 ---
 
 # Werner Syndrome
@@ -370,6 +379,9 @@ cross_links:
 - `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — Aging arrives early at the gonads: Werner syndrome brings hypogonadism and reduced fertility, the reproductive system winding down prematurely alongside the graying hair, cataracts and skin changes that mark the accelerated aging.
 - `connects-to` → **[Smooth Muscle Cell](../../04-cellular/smooth-muscle-cell/README.md)** — The vessel walls age fast: WRN loss drives premature senescence of vascular smooth-muscle cells, accelerating the atherosclerosis and medial calcification that make heart attacks a leading cause of early death in Werner syndrome.
 - `connects-to` → **[Thyroid Gland](../../06-organ/thyroid/README.md)** — Werner has a striking thyroid-cancer profile: the syndrome markedly raises thyroid cancer risk — especially follicular subtypes, and notably in reported Japanese cohorts — so the gland is watched as part of its broad cancer predisposition.
+- `connects-to` → **[RECQL4](../../03-molecular/recql4/README.md)** — It belongs to a family of broken helicases: WRN is one of the RecQ DNA helicases, kin to RECQL4 (mutated in Rothmund-Thomson) and BLM, so losing it cripples the same genome-maintenance machinery, explaining why these syndromes share instability and cancer risk.
+- `connects-to` → **[Wound Healing](../wound-healing/README.md)** — Its skin will not knit: chronic, deep ulcers around the ankles and elbows are a hallmark of Werner, as failing fibroblasts and aged tissue cripple wound healing, producing sores that resist closure for years.
+- `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — Aging cells stew the body in inflammation: senescent fibroblasts pour out a secretory phenotype that activates macrophages into chronic 'inflammaging', fueling the atherosclerosis, diabetes and poor wound healing that mark the premature-aging syndrome.
 
 [^yu-1996-wrn]: Yu CE, Oshima J, Fu YH, et al. Positional cloning of the Werner's syndrome gene. *Science.* 1996;272(5259):258-262. [doi:10.1126/science.272.5259.258](https://doi.org/10.1126/science.272.5259.258) · [PubMed 8602509](https://pubmed.ncbi.nlm.nih.gov/8602509/)
 [^lauper-2013-wrn-neoplasia]: Lauper JM, Krause A, Vaughan TL, Monnat RJ Jr. Spectrum and risk of neoplasia in Werner syndrome: a systematic review. *PLoS One.* 2013;8(4):e59709. [doi:10.1371/journal.pone.0059709](https://doi.org/10.1371/journal.pone.0059709) · [PubMed 23579047](https://pubmed.ncbi.nlm.nih.gov/23579047/)
