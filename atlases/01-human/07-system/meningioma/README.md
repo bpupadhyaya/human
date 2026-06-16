@@ -160,6 +160,15 @@ cross_links:
   - target: 01-human/04-cellular/platelet
     relation: connects-to
     note: "Platelets feed the meningioma's clotting tendency: the tumor's tissue factor activates them into the hypercoagulable state behind its thrombosis risk, and they also help build the rich vasculature that makes these tumors bleed at surgery."
+  - target: 01-human/03-molecular/pik3ca
+    relation: connects-to
+    note: "Meningiomas split into molecular flavors: alongside NF2 loss, a subset is driven by activating PIK3CA mutations that fire the PI3K-AKT growth pathway, marking tumors that may respond to PI3K-pathway inhibitors rather than NF2-targeted approaches."
+  - target: 01-human/07-system/epilepsy
+    relation: connects-to
+    note: "Sitting on the cortex, they spark seizures: convexity meningiomas irritate and compress the brain surface, so epilepsy is a common presenting sign and often persists, requiring anticonvulsants even after the tumor is removed."
+  - target: 01-human/04-cellular/regulatory-t-cell
+    relation: connects-to
+    note: "Higher-grade meningiomas wall themselves off immunologically: their microenvironment fills with regulatory T cells and exhausted infiltrate that suppress attack, a feature that worsens with grade and is studied as a target for immunotherapy in aggressive tumors."
 ---
 
 # Meningioma
@@ -324,6 +333,9 @@ VEGF overexpression in meningioma (YAP target); Phase 2 COMBIT (Huang 2019, N=40
 - `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — Hormones explain meningioma's female slant: it is far commoner in women, and long-term high-dose progestins like cyproterone acetate are now a recognized, dose-dependent cause — an iatrogenic link that has reshaped how these drugs are prescribed.
 - `connects-to` → **[Venous Thromboembolism](../venous-thromboembolism/README.md)** — Few cancers clot like a brain tumor patient: meningioma carries a high risk of deep-vein thrombosis and pulmonary embolism from the tumor's procoagulant tissue factor, the immobility around craniotomy, and steroid use, demanding careful prophylaxis.
 - `connects-to` → **[Platelet](../../04-cellular/platelet/README.md)** — Platelets feed the meningioma's clotting tendency: the tumor's tissue factor activates them into the hypercoagulable state behind its thrombosis risk, and they also help build the rich vasculature that makes these tumors bleed at surgery.
+- `connects-to` → **[PIK3CA](../../03-molecular/pik3ca/README.md)** — Meningiomas split into molecular flavors: alongside NF2 loss, a subset is driven by activating PIK3CA mutations that fire the PI3K-AKT growth pathway, marking tumors that may respond to PI3K-pathway inhibitors rather than NF2-targeted approaches.
+- `connects-to` → **[Epilepsy](../epilepsy/README.md)** — Sitting on the cortex, they spark seizures: convexity meningiomas irritate and compress the brain surface, so epilepsy is a common presenting sign and often persists, requiring anticonvulsants even after the tumor is removed.
+- `connects-to` → **[Regulatory T Cell](../../04-cellular/regulatory-t-cell/README.md)** — Higher-grade meningiomas wall themselves off immunologically: their microenvironment fills with regulatory T cells and exhausted infiltrate that suppress attack, a feature that worsens with grade and is studied as a target for immunotherapy in aggressive tumors.
 
 [^brastianos-2013-akt1-meningioma]: Brastianos PK, Horowitz PM, Santagata S, et al. Genomic sequencing of meningiomas identifies oncogenic SMO and AKT1 mutations. *Nat Genet.* 2013;45(3):285-289. [doi:10.1038/ng.2526](https://doi.org/10.1038/ng.2526) · [PubMed 23334667](https://pubmed.ncbi.nlm.nih.gov/23334667/)
 [^nassiri-2021-meningioma-classification]: Nassiri F, Liu J, Patil V, et al. A clinically applicable integrative molecular classification of meningiomas. *Nature.* 2021;597(7874):119-125. [doi:10.1038/s41586-021-03850-3](https://doi.org/10.1038/s41586-021-03850-3) · [PubMed 34385709](https://pubmed.ncbi.nlm.nih.gov/34385709/)
