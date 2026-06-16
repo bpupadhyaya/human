@@ -166,6 +166,15 @@ cross_links:
   - target: 01-human/07-system/stroke
     relation: connects-to
     note: "DIC strikes the brain both ways: showers of microthrombi cause scattered ischemic strokes while the consumed clotting factors invite intracerebral hemorrhage, the combination behind the confusion and focal deficits of severe cases."
+  - target: 01-human/03-molecular/nf-kb
+    relation: connects-to
+    note: "Inflammation flips on the clotting switch: NF-κB activation in sepsis drives tissue-factor expression on monocytes and endothelium, the molecular trigger that launches the runaway coagulation of DIC."
+  - target: 01-human/07-system/all
+    relation: connects-to
+    note: "Acute leukemia bleeds as it clots: leukemic cells — most dramatically in acute promyelocytic leukemia, and at presentation or induction in ALL — release procoagulants that set off DIC, a hematologic emergency at diagnosis."
+  - target: 01-human/06-organ/small-intestine
+    relation: connects-to
+    note: "Microthrombi can starve the bowel: DIC clogs the small-vessel circulation of the gut, causing the ischemia and bleeding that add an abdominal catastrophe to its multi-organ failure."
 ---
 
 # Disseminated Intravascular Coagulation
@@ -346,6 +355,9 @@ DIC is always **secondary** — it does not occur in isolation but as a conseque
 - `connects-to` → **[Prostate Cancer](../prostate-cancer/README.md)** — Metastatic prostate cancer drives a bleeding-type DIC: the tumor releases plasminogen activators that ignite excess fibrinolysis, so unlike most clot-heavy DIC it presents with oozing and bruising — a hyperfibrinolytic state needing its own tailored treatment.
 - `connects-to` → **[Pancreas](../../06-organ/pancreas/README.md)** — Severe acute pancreatitis can set off DIC: leaking pancreatic enzymes and the systemic inflammation they unleash activate the clotting cascade body-wide, one of the noninfectious triggers of the consumptive coagulopathy.
 - `connects-to` → **[Stroke](../stroke/README.md)** — DIC strikes the brain both ways: showers of microthrombi cause scattered ischemic strokes while the consumed clotting factors invite intracerebral hemorrhage, the combination behind the confusion and focal deficits of severe cases.
+- `connects-to` → **[NF-κB](../../03-molecular/nf-kb/README.md)** — Inflammation flips on the clotting switch: NF-κB activation in sepsis drives tissue-factor expression on monocytes and endothelium, the molecular trigger that launches the runaway coagulation of DIC.
+- `connects-to` → **[Acute Lymphoblastic Leukemia](../all/README.md)** — Acute leukemia bleeds as it clots: leukemic cells — most dramatically in acute promyelocytic leukemia, and at presentation or induction in ALL — release procoagulants that set off DIC, a hematologic emergency at diagnosis.
+- `connects-to` → **[Small Intestine](../../06-organ/small-intestine/README.md)** — Microthrombi can starve the bowel: DIC clogs the small-vessel circulation of the gut, causing the ischemia and bleeding that add an abdominal catastrophe to its multi-organ failure.
 
 ---
 

@@ -160,6 +160,15 @@ cross_links:
   - target: 01-human/03-molecular/stat3
     relation: connects-to
     note: "The aggressive ABC subtype runs on chronic signaling: alongside constitutive NF-kB, JAK-STAT3 activation drives survival in activated B-cell DLBCL, marking worse-prognosis tumors and a pathway probed by JAK and STAT inhibitors."
+  - target: 01-human/03-molecular/baff
+    relation: connects-to
+    note: "BAFF feeds the malignant B cell: the survival cytokine supports DLBCL cells, especially the NF-κB-addicted activated B-cell subtype, one of the microenvironmental lifelines the lymphoma exploits."
+  - target: 01-human/07-system/cytokine-storm
+    relation: connects-to
+    note: "The newest cure can trigger a storm: CD19 CAR-T therapy for relapsed DLBCL routinely sets off cytokine release syndrome as the engineered cells attack, managed with the IL-6 blocker tocilizumab."
+  - target: 01-human/04-cellular/t-helper-cell
+    relation: connects-to
+    note: "T cells fill and shape the tumor: follicular-helper and other T cells in the DLBCL microenvironment can either support or restrain the lymphoma, and the T-cell-rich variants behave and respond differently."
 ---
 
 # Diffuse Large B-Cell Lymphoma
@@ -329,6 +338,9 @@ DLBCL is an aggressive malignancy of mature B cells. The normal equivalents are 
 - `connects-to` → **[Cardiomyocyte](../../04-cellular/cardiomyocyte/README.md)** — Anthracyclines kill heart muscle cells directly: doxorubicin poisons topoisomerase-2-beta and floods cardiomyocytes with reactive oxygen, causing irreversible cell loss — the cellular basis of the dose-limiting cardiotoxicity, blunted by dexrazoxane.
 - `connects-to` → **[Hepatitis B](../hepatitis-b/README.md)** — Rituximab can wake a sleeping virus: by stripping out B cells it lifts the immune control of hepatitis B, so patients are screened and given antiviral prophylaxis before R-CHOP to prevent a dangerous viral reactivation.
 - `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — The aggressive ABC subtype runs on chronic signaling: alongside constitutive NF-kB, JAK-STAT3 activation drives survival in activated B-cell DLBCL, marking worse-prognosis tumors and a pathway probed by JAK and STAT inhibitors.
+- `connects-to` → **[BAFF](../../03-molecular/baff/README.md)** — BAFF feeds the malignant B cell: the survival cytokine supports DLBCL cells, especially the NF-κB-addicted activated B-cell subtype, one of the microenvironmental lifelines the lymphoma exploits.
+- `connects-to` → **[Cytokine Storm](../cytokine-storm/README.md)** — The newest cure can trigger a storm: CD19 CAR-T therapy for relapsed DLBCL routinely sets off cytokine release syndrome as the engineered cells attack, managed with the IL-6 blocker tocilizumab.
+- `connects-to` → **[T Helper Cell](../../04-cellular/t-helper-cell/README.md)** — T cells fill and shape the tumor: follicular-helper and other T cells in the DLBCL microenvironment can either support or restrain the lymphoma, and the T-cell-rich variants behave and respond differently.
 
 ---
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
