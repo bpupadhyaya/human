@@ -172,6 +172,15 @@ cross_links:
   - target: 01-human/04-cellular/t-cytotoxic-cell
     relation: connects-to
     note: "Atherosclerosis is also an immune disease: cytotoxic T cells infiltrate the lipid-laden plaque and, alongside the macrophages, drive the inflammation that destabilizes it, so FH's lifelong LDL load is fought partly in the immune cells of the artery wall."
+  - target: 01-human/03-molecular/nf-kb
+    relation: connects-to
+    note: "Trapped LDL ignites a master inflammatory switch: oxidized lipid in the artery wall activates NF-κB in endothelial cells and macrophages, turning on the adhesion molecules and chemokines that recruit the inflammation accelerating FH's plaques."
+  - target: 01-human/04-cellular/mast-cell
+    relation: connects-to
+    note: "Mast cells lurk in the plaque: they cluster in atherosclerotic lesions and release proteases and mediators that destabilize the fibrous cap, contributing to the rupture risk behind FH's early heart attacks."
+  - target: 01-human/03-molecular/thyroid-hormones
+    relation: connects-to
+    note: "The thyroid sets LDL-receptor levels: thyroid hormone drives expression of the very receptor FH lacks, so hypothyroidism worsens the cholesterol and must be corrected before judging the genetic disease's severity."
 ---
 
 # Familial Hypercholesterolemia
@@ -331,6 +340,9 @@ FH is a **monogenic autosomal dominant disorder** caused by mutations in three g
 - `connects-to` → **[Small Intestine](../../06-organ/small-intestine/README.md)** — The gut is the body's other cholesterol tap: the small intestine absorbs dietary and biliary cholesterol via NPC1L1, the target of ezetimibe — a second lever pulled alongside statins when the liver pathway alone can't lower FH's LDL enough.
 - `connects-to` → **[Fibrinogen](../../03-molecular/fibrinogen/README.md)** — High cholesterol travels with a sticky, clot-prone blood: FH raises fibrinogen and other prothrombotic factors, so the atherosclerotic plaques it builds are more likely to clot off into the heart attacks and strokes that strike early.
 - `connects-to` → **[Cytotoxic T Cell](../../04-cellular/t-cytotoxic-cell/README.md)** — Atherosclerosis is also an immune disease: cytotoxic T cells infiltrate the lipid-laden plaque and, alongside the macrophages, drive the inflammation that destabilizes it, so FH's lifelong LDL load is fought partly in the immune cells of the artery wall.
+- `connects-to` → **[NF-κB](../../03-molecular/nf-kb/README.md)** — Trapped LDL ignites a master inflammatory switch: oxidized lipid in the artery wall activates NF-κB in endothelial cells and macrophages, turning on the adhesion molecules and chemokines that recruit the inflammation accelerating FH's plaques.
+- `connects-to` → **[Mast Cell](../../04-cellular/mast-cell/README.md)** — Mast cells lurk in the plaque: they cluster in atherosclerotic lesions and release proteases and mediators that destabilize the fibrous cap, contributing to the rupture risk behind FH's early heart attacks.
+- `connects-to` → **[Thyroid Hormones (T3/T4)](../../03-molecular/thyroid-hormones/README.md)** — The thyroid sets LDL-receptor levels: thyroid hormone drives expression of the very receptor FH lacks, so hypothyroidism worsens the cholesterol and must be corrected before judging the genetic disease's severity.
 
 [^goldstein-1985-ldlr-nobel]: Goldstein JL, Brown MS. The LDL receptor. *Arterioscler Thromb Vasc Biol.* 2009;29(4):431-438. [doi:10.1161/ATVBAHA.108.179564](https://doi.org/10.1161/ATVBAHA.108.179564) · [PubMed 19299327](https://pubmed.ncbi.nlm.nih.gov/19299327/)
 [^raal-2020-inclisiran-fh]: Raal FJ, Kallend D, Ray KK, et al. Inclisiran for the Treatment of Heterozygous Familial Hypercholesterolemia. *N Engl J Med.* 2020;382(16):1520-1530. [doi:10.1056/NEJMoa1913805](https://doi.org/10.1056/NEJMoa1913805) · [PubMed 32197277](https://pubmed.ncbi.nlm.nih.gov/32197277/)

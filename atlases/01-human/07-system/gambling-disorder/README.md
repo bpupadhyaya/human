@@ -153,6 +153,15 @@ cross_links:
   - target: 01-human/07-system/social-anxiety-disorder
     relation: connects-to
     note: "Anxiety often rides alongside: gambling disorder frequently coexists with social and other anxiety disorders, the betting at times a way to escape distress that then deepens the underlying anxiety."
+  - target: 01-human/03-molecular/oxytocin
+    relation: connects-to
+    note: "A social-bonding hormone touches the urge: oxytocin modulates reward, stress and impulsivity in the same circuits gambling hijacks, and it is studied as a way to dampen craving in behavioral addictions."
+  - target: 01-human/07-system/bulimia-nervosa
+    relation: connects-to
+    note: "It shares the loss-of-control core: gambling disorder overlaps the impulse-control and binge spectrum of bulimia, both marked by repeated behavior that feels uncontrollable despite mounting harm."
+  - target: 01-human/03-molecular/nlrp3-inflammasome
+    relation: connects-to
+    note: "Even behavioral addiction shows an inflammatory edge: chronic stress and reward dysregulation in gambling activate inflammasome and cytokine pathways, the same neuroinflammation increasingly tied to substance addictions."
 sources:
   - id: grant-2016-gambling-review
     type: peer-reviewed
@@ -344,6 +353,9 @@ Persistent and recurrent problematic gambling behavior causing distress (≥4 of
 - `connects-to` → **[Orexin](../../03-molecular/orexin/README.md)** — Orexin drives the chase: this arousal-and-reward peptide heightens motivation and stress-induced relapse, and overactive orexin signaling is implicated in the craving that pulls gamblers back to the bet.
 - `connects-to` → **[BDNF](../../03-molecular/bdnf/README.md)** — Repeated wins and near-misses reshape the reward circuit: BDNF-driven synaptic plasticity entrenches the gambling habit in the same way it does substance addiction, helping turn a behavior into a compulsion.
 - `connects-to` → **[Social Anxiety Disorder](../social-anxiety-disorder/README.md)** — Anxiety often rides alongside: gambling disorder frequently coexists with social and other anxiety disorders, the betting at times a way to escape distress that then deepens the underlying anxiety.
+- `connects-to` → **[Oxytocin](../../03-molecular/oxytocin/README.md)** — A social-bonding hormone touches the urge: oxytocin modulates reward, stress and impulsivity in the same circuits gambling hijacks, and it is studied as a way to dampen craving in behavioral addictions.
+- `connects-to` → **[Bulimia Nervosa](../bulimia-nervosa/README.md)** — It shares the loss-of-control core: gambling disorder overlaps the impulse-control and binge spectrum of bulimia, both marked by repeated behavior that feels uncontrollable despite mounting harm.
+- `connects-to` → **[NLRP3 Inflammasome](../../03-molecular/nlrp3-inflammasome/README.md)** — Even behavioral addiction shows an inflammatory edge: chronic stress and reward dysregulation in gambling activate inflammasome and cytokine pathways, the same neuroinflammation increasingly tied to substance addictions.
 
 [^potenza-2014-gambling-neuroscience]: Potenza MN. The neurobiology of pathological gambling and drug addiction: an overview and new findings. *Philos Trans R Soc Lond B Biol Sci.* 2008;363(1507):3181-3189. [doi:10.1098/rstb.2008.0100](https://doi.org/10.1098/rstb.2008.0100) · [PubMed 18640909](https://pubmed.ncbi.nlm.nih.gov/18640909/)
 [^grant-2016-gambling-review]: Grant JE, Chamberlain SR. Gambling disorder and its relationship with substance use disorders. *Am J Addict.* 2015;24(2):126-131. [doi:10.1111/ajad.12112](https://doi.org/10.1111/ajad.12112) · [PubMed 25376793](https://pubmed.ncbi.nlm.nih.gov/25376793/)
