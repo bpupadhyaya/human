@@ -169,6 +169,15 @@ cross_links:
   - target: 01-human/07-system/neurofibromatosis-type-1
     relation: connects-to
     note: "An NF1 background can seed the glioma: loss of the NF1 tumor suppressor is a recurrent driver of diffuse midline glioma, and the syndrome's lifelong predisposition to gliomas links it to this lethal childhood tumor."
+  - target: 01-human/03-molecular/atrx
+    relation: connects-to
+    note: "ATRX loss often joins the H3K27M hit: especially in thalamic and spinal diffuse midline gliomas, ATRX mutation accompanies the histone mutation, driving alternative lengthening of telomeres and genomic instability."
+  - target: 01-human/07-system/epilepsy
+    relation: connects-to
+    note: "The infiltrating glioma irritates the cortex: as diffuse midline glioma spreads from the pons or thalamus it can trigger seizures, and seizure control is part of the supportive care for these children."
+  - target: 01-human/07-system/neuropathic-pain
+    relation: connects-to
+    note: "Brainstem and spinal infiltration brings pain: tumor invasion of sensory pathways causes neuropathic pain and, in spinal diffuse midline glioma, radicular pain — a symptom burden central to palliative management."
 ---
 
 # Diffuse Midline Glioma
@@ -358,6 +367,9 @@ Direct infusion of drugs into the pons via stereotactic catheter; bypasses BBB; 
 - `connects-to` → **[Transforming Growth Factor Beta](../../03-molecular/tgf-beta/README.md)** — TGF-β helps the glioma spread and hide: it drives the diffuse invasion through the brainstem and dampens the local immune response, part of why these tumors are unresectable and immune-resistant.
 - `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — Macrophages fill the tumor but don't fight it: monocyte-derived macrophages, alongside microglia, dominate the DMG microenvironment in an immunosuppressive state that helps the cancer evade attack.
 - `connects-to` → **[Neurofibromatosis Type 1](../neurofibromatosis-type-1/README.md)** — An NF1 background can seed the glioma: loss of the NF1 tumor suppressor is a recurrent driver of diffuse midline glioma, and the syndrome's lifelong predisposition to gliomas links it to this lethal childhood tumor.
+- `connects-to` → **[ATRX](../../03-molecular/atrx/README.md)** — ATRX loss often joins the H3K27M hit: especially in thalamic and spinal diffuse midline gliomas, ATRX mutation accompanies the histone mutation, driving alternative lengthening of telomeres and genomic instability.
+- `connects-to` → **[Epilepsy](../epilepsy/README.md)** — The infiltrating glioma irritates the cortex: as diffuse midline glioma spreads from the pons or thalamus it can trigger seizures, and seizure control is part of the supportive care for these children.
+- `connects-to` → **[Neuropathic Pain](../neuropathic-pain/README.md)** — Brainstem and spinal infiltration brings pain: tumor invasion of sensory pathways causes neuropathic pain and, in spinal diffuse midline glioma, radicular pain — a symptom burden central to palliative management.
 
 ---
 

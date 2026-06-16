@@ -175,6 +175,15 @@ cross_links:
   - target: 01-human/06-organ/small-intestine
     relation: connects-to
     note: "Microthrombi can starve the bowel: DIC clogs the small-vessel circulation of the gut, causing the ischemia and bleeding that add an abdominal catastrophe to its multi-organ failure."
+  - target: 02-pathogen/02-bacteria/neisseria-meningitidis
+    relation: connects-to
+    note: "Meningococcus triggers the most vivid DIC: Neisseria meningitidis endotoxin sets off purpura fulminans with skin necrosis and Waterhouse-Friderichsen adrenal hemorrhage, a fulminant DIC that can kill within hours."
+  - target: 01-human/03-molecular/bradykinin
+    relation: connects-to
+    note: "Contact activation links clotting to shock: the same surface activation that feeds DIC's coagulation also generates bradykinin, whose vasodilation and capillary leak deepen the hypotension of the underlying sepsis."
+  - target: 01-human/07-system/dengue-fever
+    relation: connects-to
+    note: "Severe dengue clots and bleeds at once: the viral hemorrhagic fever activates coagulation while consuming platelets and factors, so DIC underlies the bleeding and shock of its critical phase."
 ---
 
 # Disseminated Intravascular Coagulation
@@ -358,6 +367,9 @@ DIC is always **secondary** — it does not occur in isolation but as a conseque
 - `connects-to` → **[NF-κB](../../03-molecular/nf-kb/README.md)** — Inflammation flips on the clotting switch: NF-κB activation in sepsis drives tissue-factor expression on monocytes and endothelium, the molecular trigger that launches the runaway coagulation of DIC.
 - `connects-to` → **[Acute Lymphoblastic Leukemia](../all/README.md)** — Acute leukemia bleeds as it clots: leukemic cells — most dramatically in acute promyelocytic leukemia, and at presentation or induction in ALL — release procoagulants that set off DIC, a hematologic emergency at diagnosis.
 - `connects-to` → **[Small Intestine](../../06-organ/small-intestine/README.md)** — Microthrombi can starve the bowel: DIC clogs the small-vessel circulation of the gut, causing the ischemia and bleeding that add an abdominal catastrophe to its multi-organ failure.
+- `connects-to` → **[Neisseria meningitidis](../../../02-pathogen/02-bacteria/neisseria-meningitidis/README.md)** — Meningococcus triggers the most vivid DIC: Neisseria meningitidis endotoxin sets off purpura fulminans with skin necrosis and Waterhouse-Friderichsen adrenal hemorrhage, a fulminant DIC that can kill within hours.
+- `connects-to` → **[Bradykinin](../../03-molecular/bradykinin/README.md)** — Contact activation links clotting to shock: the same surface activation that feeds DIC's coagulation also generates bradykinin, whose vasodilation and capillary leak deepen the hypotension of the underlying sepsis.
+- `connects-to` → **[Dengue Fever](../dengue-fever/README.md)** — Severe dengue clots and bleeds at once: the viral hemorrhagic fever activates coagulation while consuming platelets and factors, so DIC underlies the bleeding and shock of its critical phase.
 
 ---
 
