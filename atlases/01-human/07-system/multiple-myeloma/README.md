@@ -175,6 +175,15 @@ cross_links:
   - target: 01-human/04-cellular/adipocyte
     relation: connects-to
     note: "The marrow's fat cells feed the tumor: bone-marrow adipocytes secrete factors that nourish myeloma plasma cells and blunt drug response, helping explain why obesity raises myeloma risk and why the fatty marrow of aging is fertile ground."
+  - target: 02-pathogen/02-bacteria/streptococcus-pneumoniae
+    relation: connects-to
+    note: "Myeloma silences normal antibody: the malignant clone suppresses healthy immunoglobulin production (immunoparesis), leaving patients open to encapsulated bacteria like pneumococcus — infection is a leading cause of death, prompting vaccination and prophylaxis."
+  - target: 01-human/07-system/neuropathic-pain
+    relation: connects-to
+    note: "Pain comes from bone and from the drugs: lytic vertebral lesions and the bortezomib and thalidomide used to treat myeloma both cause severe pain — the chemotherapy a classic dose-limiting peripheral neuropathy."
+  - target: 01-human/07-system/heart-failure
+    relation: connects-to
+    note: "Light chains can poison the heart: AL amyloidosis from myeloma's free light chains deposits in the myocardium, causing a restrictive cardiomyopathy and heart failure that drives much of the disease's mortality."
 ---
 
 # Multiple Myeloma
@@ -356,6 +365,9 @@ MM evolves from precursor conditions through a well-defined continuum:
 - `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — Myeloma cells lean on a survival hub: PI3K-AKT-mTOR signaling driven by marrow cytokines keeps the malignant plasma cells growing and resistant, so mTOR inhibitors are studied to choke this axis alongside proteasome and immune therapies.
 - `connects-to` → **[Chronic Kidney Disease](../ckd/README.md)** — The kidney is a frequent casualty: free light chains precipitate as casts that clog the tubules ('myeloma kidney'), and with hypercalcemia and amyloid they push many patients into chronic kidney disease, sometimes the first sign of the cancer.
 - `connects-to` → **[Adipocyte](../../04-cellular/adipocyte/README.md)** — The marrow's fat cells feed the tumor: bone-marrow adipocytes secrete factors that nourish myeloma plasma cells and blunt drug response, helping explain why obesity raises myeloma risk and why the fatty marrow of aging is fertile ground.
+- `connects-to` → **[Streptococcus pneumoniae](../../../02-pathogen/02-bacteria/streptococcus-pneumoniae/README.md)** — Myeloma silences normal antibody: the malignant clone suppresses healthy immunoglobulin production (immunoparesis), leaving patients open to encapsulated bacteria like pneumococcus — infection is a leading cause of death, prompting vaccination and prophylaxis.
+- `connects-to` → **[Neuropathic Pain](../neuropathic-pain/README.md)** — Pain comes from bone and from the drugs: lytic vertebral lesions and the bortezomib and thalidomide used to treat myeloma both cause severe pain — the chemotherapy a classic dose-limiting peripheral neuropathy.
+- `connects-to` → **[Heart Failure](../heart-failure/README.md)** — Light chains can poison the heart: AL amyloidosis from myeloma's free light chains deposits in the myocardium, causing a restrictive cardiomyopathy and heart failure that drives much of the disease's mortality.
 
 [^kumar-2022-imwg-criteria]: Kumar SK, Callander NS, Adekola K, et al. Multiple myeloma, version 3.2021, NCCN clinical practice guidelines in oncology. *J Natl Compr Canc Netw.* 2020;18(12):1685-1717. [doi:10.6004/jnccn.2020.0057](https://doi.org/10.6004/jnccn.2020.0057) · [PubMed 33285519](https://pubmed.ncbi.nlm.nih.gov/33285519/)
 [^moreau-2022-teclistamab]: Moreau P, Garfall AL, van de Donk NWCJ, et al. Teclistamab in relapsed or refractory multiple myeloma. *N Engl J Med.* 2022;387(6):495-505. [doi:10.1056/NEJMoa2203478](https://doi.org/10.1056/NEJMoa2203478) · [PubMed 35661166](https://pubmed.ncbi.nlm.nih.gov/35661166/)

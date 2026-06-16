@@ -169,6 +169,15 @@ cross_links:
   - target: 01-human/07-system/melanoma
     relation: connects-to
     note: "Two neural-crest tumors meet at the Schwann-melanocyte line: MPNST and melanoma share the S100 and SOX10 lineage markers, and rare melanotic variants blur the boundary, reflecting their common origin in the migrating neural crest."
+  - target: 01-human/07-system/neuropathic-pain
+    relation: connects-to
+    note: "New pain in a neurofibroma is the warning sign: malignant transformation to MPNST classically announces itself with rapid growth and worsening neuropathic pain along the nerve, the symptom that prompts urgent imaging and biopsy in NF1."
+  - target: 01-human/03-molecular/pdgf
+    relation: connects-to
+    note: "Growth-factor receptors feed the sarcoma: MPNST cells express PDGF receptors whose autocrine signaling drives proliferation, one of the receptor tyrosine kinases probed for targeted therapy in this treatment-resistant tumor."
+  - target: 01-human/03-molecular/stat3
+    relation: connects-to
+    note: "STAT3 sustains the malignant Schwann cell: activated STAT3 signaling supports MPNST survival and the immunosuppressive microenvironment, marking another node in a tumor driven mainly by loss of NF1 and PRC2."
 ---
 
 # MPNST
@@ -351,6 +360,9 @@ Wide local excision with negative margins is the only potentially curative inter
 - `connects-to` → **[EGFR](../../03-molecular/egfr/README.md)** — An upstream receptor feeds the runaway signaling: MPNST often overexpresses EGFR, pouring extra input into the RAS-MAPK pathway already unleashed by NF1 loss, and making the receptor a candidate target in a sarcoma stubbornly resistant to chemotherapy.
 - `connects-to` → **[Regulatory T Cell](../../04-cellular/regulatory-t-cell/README.md)** — The tumor builds an immune-cold niche: regulatory T cells and suppressive myeloid cells crowd the MPNST microenvironment and blunt T-cell attack, part of why single-agent checkpoint blockade has disappointed and combination immunotherapy is being tried.
 - `connects-to` → **[Melanoma](../melanoma/README.md)** — Two neural-crest tumors meet at the Schwann-melanocyte line: MPNST and melanoma share the S100 and SOX10 lineage markers, and rare melanotic variants blur the boundary, reflecting their common origin in the migrating neural crest.
+- `connects-to` → **[Neuropathic Pain](../neuropathic-pain/README.md)** — New pain in a neurofibroma is the warning sign: malignant transformation to MPNST classically announces itself with rapid growth and worsening neuropathic pain along the nerve, the symptom that prompts urgent imaging and biopsy in NF1.
+- `connects-to` → **[PDGF](../../03-molecular/pdgf/README.md)** — Growth-factor receptors feed the sarcoma: MPNST cells express PDGF receptors whose autocrine signaling drives proliferation, one of the receptor tyrosine kinases probed for targeted therapy in this treatment-resistant tumor.
+- `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — STAT3 sustains the malignant Schwann cell: activated STAT3 signaling supports MPNST survival and the immunosuppressive microenvironment, marking another node in a tumor driven mainly by loss of NF1 and PRC2.
 
 [^evans-2002-mpnst-nf1]: Evans DGR, Baser ME, McGaughran J, et al. Malignant peripheral nerve sheath tumours in neurofibromatosis 1. *J Med Genet.* 2002;39(5):311-314. [doi:10.1136/jmg.39.5.311](https://doi.org/10.1136/jmg.39.5.311) · [PubMed 12011145](https://pubmed.ncbi.nlm.nih.gov/12011145/)
 [^lee-2014-mpnst-prc2]: Lee W, Teckie S, Wiesner T, et al. PRC2 is recurrently inactivated through EED or SUZ12 loss in malignant peripheral nerve sheath tumors. *Nat Genet.* 2014;46(11):1227-1232. [doi:10.1038/ng.3095](https://doi.org/10.1038/ng.3095) · [PubMed 25240281](https://pubmed.ncbi.nlm.nih.gov/25240281/)
