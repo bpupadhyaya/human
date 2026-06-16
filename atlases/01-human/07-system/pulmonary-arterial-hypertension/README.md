@@ -175,6 +175,15 @@ cross_links:
   - target: 01-human/07-system/copd
     relation: connects-to
     note: "Chronic lung disease raises the pressure too: in COPD, alveolar destruction and chronic hypoxia constrict and remodel the pulmonary arteries, producing the group-3 pulmonary hypertension that worsens breathlessness and strains the right heart."
+  - target: 01-human/03-molecular/nlrp3-inflammasome
+    relation: connects-to
+    note: "The inflammasome stokes vascular remodeling: NLRP3-driven IL-1β release in the pulmonary artery wall promotes the perivascular inflammation and smooth-muscle proliferation that narrow the vessels in PAH."
+  - target: 01-human/07-system/thalassemia
+    relation: connects-to
+    note: "Chronic hemolysis drives pulmonary hypertension: like sickle cell disease, thalassemia releases cell-free hemoglobin that scavenges nitric oxide, and with post-splenectomy thrombosis it produces a hemolysis-associated PAH."
+  - target: 01-human/07-system/stimulant-use-disorder
+    relation: connects-to
+    note: "Stimulants can scar the lung vessels: methamphetamine and other stimulants are an established cause of pulmonary arterial hypertension, producing a drug-induced form indistinguishable from the idiopathic disease."
 ---
 
 # Pulmonary Arterial Hypertension
@@ -350,6 +359,9 @@ Key variables: WHO functional class (I-IV), 6-minute walk distance (6MWD), NT-pr
 - `connects-to` → **[NOTCH](../../03-molecular/notch/README.md)** — A developmental switch drives the vessel narrowing: Notch3 signaling pushes pulmonary smooth-muscle cells to proliferate and resist apoptosis, thickening the arterial wall — a remodeling pathway being explored as a therapeutic target in PAH.
 - `connects-to` → **[Regulatory T Cell](../../04-cellular/regulatory-t-cell/README.md)** — Faulty immune restraint lets the arteries inflame: a deficiency of regulatory T cells permits the perivascular inflammation that drives pulmonary vascular remodeling, one reason PAH clusters with autoimmune diseases like scleroderma and lupus.
 - `connects-to` → **[COPD](../copd/README.md)** — Chronic lung disease raises the pressure too: in COPD, alveolar destruction and chronic hypoxia constrict and remodel the pulmonary arteries, producing the group-3 pulmonary hypertension that worsens breathlessness and strains the right heart.
+- `connects-to` → **[NLRP3 Inflammasome](../../03-molecular/nlrp3-inflammasome/README.md)** — The inflammasome stokes vascular remodeling: NLRP3-driven IL-1β release in the pulmonary artery wall promotes the perivascular inflammation and smooth-muscle proliferation that narrow the vessels in PAH.
+- `connects-to` → **[Thalassemia](../thalassemia/README.md)** — Chronic hemolysis drives pulmonary hypertension: like sickle cell disease, thalassemia releases cell-free hemoglobin that scavenges nitric oxide, and with post-splenectomy thrombosis it produces a hemolysis-associated PAH.
+- `connects-to` → **[Stimulant Use Disorder](../stimulant-use-disorder/README.md)** — Stimulants can scar the lung vessels: methamphetamine and other stimulants are an established cause of pulmonary arterial hypertension, producing a drug-induced form indistinguishable from the idiopathic disease.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 

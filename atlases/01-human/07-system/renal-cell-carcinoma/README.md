@@ -169,6 +169,15 @@ cross_links:
   - target: 01-human/07-system/ckd
     relation: connects-to
     note: "Diseased kidneys breed cancer: long-standing chronic kidney disease and the acquired cystic change of dialysis sharply raise RCC risk, while removing a tumor-bearing kidney can in turn push remaining function toward chronic kidney disease."
+  - target: 01-human/04-cellular/endothelial-cell
+    relation: connects-to
+    note: "RCC is one of the most vascular of tumors: VHL loss floods it with VEGF, recruiting endothelial cells into a dense blood supply that makes the tumor highly enhancing on imaging and exquisitely sensitive to anti-angiogenic drugs."
+  - target: 01-human/07-system/venous-thromboembolism
+    relation: connects-to
+    note: "Beyond its tumor thrombus, RCC clots the blood: it carries a high rate of bland venous thromboembolism (Trousseau), so deep-vein thrombosis and pulmonary embolism complicate the disease and its surgery."
+  - target: 01-human/07-system/stroke
+    relation: connects-to
+    note: "The kidney tumor can reach the brain: RCC's hypercoagulable state, and rarely tumor embolism from IVC extension through a patent foramen, can cause ischemic stroke alongside its frequent brain metastases."
 ---
 
 # Renal Cell Carcinoma
@@ -338,6 +347,9 @@ Kidney → primary site of EPO production under hypoxia; VHL-intact renal inters
 - `connects-to` → **[PDGF](../../03-molecular/pdgf/README.md)** — Its pseudohypoxic drive feeds more than VEGF: VHL loss also raises PDGF, so the tyrosine-kinase inhibitors used against RCC block PDGF receptors alongside VEGFR to starve the tumor's abundant blood supply.
 - `connects-to` → **[CTLA-4](../../03-molecular/ctla-4/README.md)** — RCC is unusually immune-responsive: combining CTLA-4 blockade with anti-PD-1 unleashes T cells against the tumor and is now frontline for advanced disease, making this one of the cancers most transformed by checkpoint immunotherapy.
 - `connects-to` → **[Chronic Kidney Disease](../ckd/README.md)** — Diseased kidneys breed cancer: long-standing chronic kidney disease and the acquired cystic change of dialysis sharply raise RCC risk, while removing a tumor-bearing kidney can in turn push remaining function toward chronic kidney disease.
+- `connects-to` → **[Endothelial Cell](../../04-cellular/endothelial-cell/README.md)** — RCC is one of the most vascular of tumors: VHL loss floods it with VEGF, recruiting endothelial cells into a dense blood supply that makes the tumor highly enhancing on imaging and exquisitely sensitive to anti-angiogenic drugs.
+- `connects-to` → **[Venous Thromboembolism](../venous-thromboembolism/README.md)** — Beyond its tumor thrombus, RCC clots the blood: it carries a high rate of bland venous thromboembolism (Trousseau), so deep-vein thrombosis and pulmonary embolism complicate the disease and its surgery.
+- `connects-to` → **[Stroke](../stroke/README.md)** — The kidney tumor can reach the brain: RCC's hypercoagulable state, and rarely tumor embolism from IVC extension through a patent foramen, can cause ischemic stroke alongside its frequent brain metastases.
 
 [^motzer-2018-checkmate214]: Motzer RJ, Tannir NM, McDermott DF, et al. Nivolumab plus ipilimumab versus sunitinib in advanced renal-cell carcinoma. *N Engl J Med.* 2018;378(14):1277-1290. [doi:10.1056/NEJMoa1712126](https://doi.org/10.1056/NEJMoa1712126) · [PubMed 29562145](https://pubmed.ncbi.nlm.nih.gov/29562145/)
 [^rini-2019-keynote426]: Rini BI, Plimack ER, Stus V, et al. Pembrolizumab plus axitinib versus sunitinib for advanced renal-cell carcinoma. *N Engl J Med.* 2019;380(12):1116-1127. [doi:10.1056/NEJMoa1816714](https://doi.org/10.1056/NEJMoa1816714) · [PubMed 30779529](https://pubmed.ncbi.nlm.nih.gov/30779529/)
