@@ -160,6 +160,15 @@ cross_links:
   - target: 01-human/04-cellular/plasma-cell
     relation: connects-to
     note: "The repair defect leaves an immune fingerprint: MUTYH loss spawns a heavy load of G-to-T mutations and neoantigens, drawing B cells and plasma cells into the tumor — an immune-rich profile that may make these cancers responsive to checkpoint therapy."
+  - target: 01-human/03-molecular/msh2
+    relation: connects-to
+    note: "It breaks a different repair system than Lynch: MAP fails base-excision repair of oxidative damage, whereas Lynch fails mismatch repair through genes like MSH2 — two distinct DNA-maintenance pathways whose loss converges on the same colon, a telling contrast."
+  - target: 01-human/07-system/cowden-syndrome
+    relation: connects-to
+    note: "It sits in the polyposis differential: when many colon polyps appear, MAP must be distinguished from hamartomatous syndromes like Cowden (PTEN), since the gene found dictates the cancer risks, the inheritance pattern, and which relatives to test."
+  - target: 01-human/07-system/hereditary-breast-ovarian-cancer
+    relation: connects-to
+    note: "A second hereditary-cancer comparison: unlike BRCA-driven HBOC which fails double-strand-break repair, MAP fails oxidative base repair, yet both are recessive-versus-dominant lessons in how a single broken DNA-maintenance gene seeds a familial cancer syndrome."
 ---
 
 # MUTYH-Associated Polyposis
@@ -324,6 +333,9 @@ Because MAP is autosomal recessive: siblings of MAP patients are at **25%** risk
 - `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — MAP breaks the dominant-inheritance pattern of its cousins: it is autosomal recessive, so two carrier parents — often with no polyposis themselves — have a 1-in-4 risk each pregnancy, making partner carrier testing and recurrence counseling central to families.
 - `connects-to` → **[Platelet](../../04-cellular/platelet/README.md)** — Aspirin's colorectal protection extends here: blocking platelet COX-1 and the tumor-promoting signals platelets release underpins the chemoprevention studied across hereditary colorectal syndromes, including MUTYH-driven polyposis.
 - `connects-to` → **[Plasma Cell](../../04-cellular/plasma-cell/README.md)** — The repair defect leaves an immune fingerprint: MUTYH loss spawns a heavy load of G-to-T mutations and neoantigens, drawing B cells and plasma cells into the tumor — an immune-rich profile that may make these cancers responsive to checkpoint therapy.
+- `connects-to` → **[MSH2](../../03-molecular/msh2/README.md)** — It breaks a different repair system than Lynch: MAP fails base-excision repair of oxidative damage, whereas Lynch fails mismatch repair through genes like MSH2 — two distinct DNA-maintenance pathways whose loss converges on the same colon, a telling contrast.
+- `connects-to` → **[Cowden Syndrome](../cowden-syndrome/README.md)** — It sits in the polyposis differential: when many colon polyps appear, MAP must be distinguished from hamartomatous syndromes like Cowden (PTEN), since the gene found dictates the cancer risks, the inheritance pattern, and which relatives to test.
+- `connects-to` → **[Hereditary Breast and Ovarian Cancer](../hereditary-breast-ovarian-cancer/README.md)** — A second hereditary-cancer comparison: unlike BRCA-driven HBOC which fails double-strand-break repair, MAP fails oxidative base repair, yet both are recessive-versus-dominant lessons in how a single broken DNA-maintenance gene seeds a familial cancer syndrome.
 
 ---
 
