@@ -169,6 +169,15 @@ cross_links:
   - target: 01-human/04-cellular/dendritic-cell
     relation: connects-to
     note: "The immune system can reject the treatment: in some patients dendritic cells present infused factor VIII as foreign, priming the neutralizing antibodies (inhibitors) that are the most challenging complication of replacement therapy."
+  - target: 01-human/04-cellular/fibroblast
+    relation: connects-to
+    note: "Repeated joint bleeds wreck the joint: blood in the synovium drives a fibroblast-led hypertrophy and fibrosis that, with iron-laden inflammation, destroys cartilage into the crippling hemophilic arthropathy that defines the disease's burden."
+  - target: 01-human/04-cellular/t-cytotoxic-cell
+    relation: connects-to
+    note: "Gene therapy meets the immune system: the AAV vector delivering a working factor VIII gene to liver cells can draw cytotoxic T cells that attack the transduced hepatocytes, an immune response that can erode the durability of the one-time cure."
+  - target: 01-human/07-system/iron-deficiency-anemia
+    relation: connects-to
+    note: "Chronic blood loss drains iron: beyond dramatic joint and muscle bleeds, mucosal and gastrointestinal bleeding in hemophilia steadily depletes iron stores, leaving many patients with a superimposed iron deficiency anemia."
 ---
 
 # Hemophilia A
@@ -340,6 +349,9 @@ FVIII is a critical **amplifier** of the coagulation cascade at the junction bet
 - `connects-to` → **[Osteoclast](../../04-cellular/osteoclast/README.md)** — Bleeding into joints destroys them: recurrent hemarthrosis dumps iron and inflammation into the joint, driving osteoclasts to erode bone and cartilage into the crippling hemophilic arthropathy that defines untreated disease.
 - `connects-to` → **[Osteoporosis](../osteoporosis/README.md)** — Hemophilia thins the skeleton: the pain and arthropathy that limit weight-bearing exercise, plus the disease itself, leave people with hemophilia with reduced bone density and a higher fracture risk than the general population.
 - `connects-to` → **[Dendritic Cell](../../04-cellular/dendritic-cell/README.md)** — The immune system can reject the treatment: in some patients dendritic cells present infused factor VIII as foreign, priming the neutralizing antibodies (inhibitors) that are the most challenging complication of replacement therapy.
+- `connects-to` → **[Fibroblast](../../04-cellular/fibroblast/README.md)** — Repeated joint bleeds wreck the joint: blood in the synovium drives a fibroblast-led hypertrophy and fibrosis that, with iron-laden inflammation, destroys cartilage into the crippling hemophilic arthropathy that defines the disease's burden.
+- `connects-to` → **[Cytotoxic T Cell](../../04-cellular/t-cytotoxic-cell/README.md)** — Gene therapy meets the immune system: the AAV vector delivering a working factor VIII gene to liver cells can draw cytotoxic T cells that attack the transduced hepatocytes, an immune response that can erode the durability of the one-time cure.
+- `connects-to` → **[Iron Deficiency Anemia](../iron-deficiency-anemia/README.md)** — Chronic blood loss drains iron: beyond dramatic joint and muscle bleeds, mucosal and gastrointestinal bleeding in hemophilia steadily depletes iron stores, leaving many patients with a superimposed iron deficiency anemia.
 
 [^oldenburg-2017-emicizumab-haven1]: Oldenburg J, Mahlangu JN, Kim B, et al. Emicizumab prophylaxis in hemophilia A with inhibitors. *N Engl J Med.* 2017;377(9):809-818. [doi:10.1056/NEJMoa1703068](https://doi.org/10.1056/NEJMoa1703068) · [PubMed 28691557](https://pubmed.ncbi.nlm.nih.gov/28691557/)
 [^mahlangu-2018-emicizumab-haven3]: Mahlangu J, Oldenburg J, Paz-Priel I, et al. Emicizumab prophylaxis in patients who have hemophilia A without inhibitors. *N Engl J Med.* 2018;379(9):811-822. [doi:10.1056/NEJMoa1803550](https://doi.org/10.1056/NEJMoa1803550) · [PubMed 30157389](https://pubmed.ncbi.nlm.nih.gov/30157389/)

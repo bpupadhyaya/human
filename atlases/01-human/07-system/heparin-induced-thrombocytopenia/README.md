@@ -169,6 +169,15 @@ cross_links:
   - target: 01-human/07-system/atherosclerosis
     relation: connects-to
     note: "The clots favor diseased arteries: HIT's arterial thromboses — the so-called white clots — tend to form on atherosclerotic plaque, turning a stable vessel into an acute occlusion of a limb, brain or heart."
+  - target: 01-human/04-cellular/mast-cell
+    relation: connects-to
+    note: "The culprit drug is a body molecule: heparin is naturally made and stored in mast cells, so the anticoagulant that triggers HIT is a pharmaceutical version of a mediator these immune cells release into tissues."
+  - target: 01-human/03-molecular/fcrn
+    relation: connects-to
+    note: "The pathogenic antibody is long-lived: the anti-PF4/heparin IgG that drives HIT is recycled and kept in circulation by FcRn, sustaining the prothrombotic state for weeks after heparin is stopped."
+  - target: 01-human/07-system/sepsis
+    relation: connects-to
+    note: "It hides among the critically ill: sepsis and its consumptive coagulopathy commonly drop platelets in the same patients receiving heparin, a key mimic that must be distinguished from HIT before stopping the drug and switching anticoagulants."
 ---
 
 # Heparin-Induced Thrombocytopenia
@@ -363,6 +372,9 @@ Platelet consumption → thrombocytopenia (paradox: clotting despite low platele
 - `connects-to` → **[Cardiomyocyte](../../04-cellular/cardiomyocyte/README.md)** — HIT clots the arteries too: paradoxically, the activated platelets drive arterial as well as venous thrombosis, so myocardial infarction from coronary occlusion is among its feared events, injuring cardiomyocytes in a patient who is also bleeding-prone.
 - `connects-to` → **[Chronic Kidney Disease](../ckd/README.md)** — Dialysis is a setup for HIT: hemodialysis patients are repeatedly exposed to heparin in the circuit, so they are among those who develop the PF4 antibodies, forcing a switch to alternative anticoagulants for their dialysis.
 - `connects-to` → **[Atherosclerosis](../atherosclerosis/README.md)** — The clots favor diseased arteries: HIT's arterial thromboses — the so-called white clots — tend to form on atherosclerotic plaque, turning a stable vessel into an acute occlusion of a limb, brain or heart.
+- `connects-to` → **[Mast Cell](../../04-cellular/mast-cell/README.md)** — The culprit drug is a body molecule: heparin is naturally made and stored in mast cells, so the anticoagulant that triggers HIT is a pharmaceutical version of a mediator these immune cells release into tissues.
+- `connects-to` → **[FcRn](../../03-molecular/fcrn/README.md)** — The pathogenic antibody is long-lived: the anti-PF4/heparin IgG that drives HIT is recycled and kept in circulation by FcRn, sustaining the prothrombotic state for weeks after heparin is stopped.
+- `connects-to` → **[Sepsis](../sepsis/README.md)** — It hides among the critically ill: sepsis and its consumptive coagulopathy commonly drop platelets in the same patients receiving heparin, a key mimic that must be distinguished from HIT before stopping the drug and switching anticoagulants.
 
 [^warkentin-2007-hit-review]: Warkentin TE, Greinacher A. Heparin-induced thrombocytopenia: recognition, treatment, and prevention. *Chest.* 2004;126(3 Suppl):311S-337S. [doi:10.1378/chest.126.3_suppl.311S](https://doi.org/10.1378/chest.126.3_suppl.311S) · [PubMed 15383477](https://pubmed.ncbi.nlm.nih.gov/15383477/)
 [^greinacher-2021-vitt-nejm]: Greinacher A, Thiele T, Warkentin TE, et al. Thrombotic thrombocytopenia after ChAdOx1 nCov-19 vaccination. *N Engl J Med.* 2021;384(22):2092-2101. [doi:10.1056/NEJMoa2104840](https://doi.org/10.1056/NEJMoa2104840) · [PubMed 33835769](https://pubmed.ncbi.nlm.nih.gov/33835769/)
