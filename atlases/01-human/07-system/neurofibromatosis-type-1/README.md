@@ -169,6 +169,15 @@ cross_links:
   - target: 01-human/07-system/autism-spectrum-disorder
     relation: connects-to
     note: "The brain wiring is affected from the start: beyond the learning difficulties and ADHD, a substantial share of children with NF1 meet criteria for autism spectrum disorder, reflecting how RAS-pathway signaling shapes synapse formation and cognition."
+  - target: 01-human/07-system/epilepsy
+    relation: connects-to
+    note: "NF1 brains spark seizures: cortical malformations, gliomas, and the disease's own neuronal effects make epilepsy more common in NF1 than the general population, adding to its neurological burden."
+  - target: 01-human/03-molecular/cdkn2a
+    relation: connects-to
+    note: "A second hit turns a benign tumor deadly: CDKN2A loss is a key step when a plexiform neurofibroma transforms into MPNST, the malignant change that is the leading cause of death in NF1."
+  - target: 01-human/07-system/neuropathic-pain
+    relation: connects-to
+    note: "The nerve tumors hurt: plexiform and spinal neurofibromas compress and infiltrate nerves, producing chronic neuropathic pain that is one of the most disabling everyday symptoms of NF1."
 ---
 
 # Neurofibromatosis Type 1
@@ -332,6 +341,9 @@ In glioma and MPNST: additional alterations required — MPNST requires CDKN2A/2
 - `connects-to` → **[Chronic Myelomonocytic Leukemia](../cmml/README.md)** — The same RAS overdrive reaches the blood: NF1 children have a strong predisposition to juvenile myelomonocytic leukemia, the pediatric cousin of CMML, because losing neurofibromin unleashes RAS signaling in myeloid progenitors just as it does in nerve sheath cells.
 - `connects-to` → **[Stroke](../stroke/README.md)** — NF1 is a disease of blood vessels too: neurofibromin loss weakens and narrows arteries into a vasculopathy, including moyamoya-like cerebral vessel disease, so children and adults face an elevated risk of stroke beyond their tumor burden.
 - `connects-to` → **[Autism Spectrum Disorder](../autism-spectrum-disorder/README.md)** — The brain wiring is affected from the start: beyond the learning difficulties and ADHD, a substantial share of children with NF1 meet criteria for autism spectrum disorder, reflecting how RAS-pathway signaling shapes synapse formation and cognition.
+- `connects-to` → **[Epilepsy](../epilepsy/README.md)** — NF1 brains spark seizures: cortical malformations, gliomas, and the disease's own neuronal effects make epilepsy more common in NF1 than the general population, adding to its neurological burden.
+- `connects-to` → **[CDKN2A](../../03-molecular/cdkn2a/README.md)** — A second hit turns a benign tumor deadly: CDKN2A loss is a key step when a plexiform neurofibroma transforms into MPNST, the malignant change that is the leading cause of death in NF1.
+- `connects-to` → **[Neuropathic Pain](../neuropathic-pain/README.md)** — The nerve tumors hurt: plexiform and spinal neurofibromas compress and infiltrate nerves, producing chronic neuropathic pain that is one of the most disabling everyday symptoms of NF1.
 
 [^gutmann-2017-nf1-primer]: Gutmann DH, Ferner RE, Listernick RH, et al. Neurofibromatosis type 1. *Nat Rev Dis Primers.* 2017;3:17004. [doi:10.1038/nrdp.2017.4](https://doi.org/10.1038/nrdp.2017.4) · [PubMed 28230061](https://pubmed.ncbi.nlm.nih.gov/28230061/)
 [^dombi-2016-selumetinib]: Dombi E, Baldwin A, Marcus LJ, et al. Activity of Selumetinib in Neurofibromatosis Type 1-Related Plexiform Neurofibromas. *N Engl J Med.* 2016;375(26):2550-2560. [doi:10.1056/NEJMoa1605943](https://doi.org/10.1056/NEJMoa1605943) · [PubMed 28029918](https://pubmed.ncbi.nlm.nih.gov/28029918/)
