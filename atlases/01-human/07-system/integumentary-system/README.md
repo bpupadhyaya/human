@@ -161,6 +161,15 @@ cross_links:
   - target: 02-pathogen/03-fungi/candida-albicans
     relation: connects-to
     note: "The skin barrier holds back fungal overgrowth: when warmth, moisture, or immune suppression breach it, Candida colonizes skin folds, nails, and mucocutaneous surfaces, turning a commensal into intertrigo, paronychia, and thrush."
+  - target: 02-pathogen/01-viruses/varicella-zoster-virus
+    relation: connects-to
+    note: "A virus hides in the skin's nerves and returns: after chickenpox, varicella-zoster lies dormant in sensory ganglia and reawakens as shingles, a painful dermatomal rash that maps the very nerve territory supplying that patch of skin."
+  - target: 01-human/03-molecular/acetylcholine
+    relation: connects-to
+    note: "The skin cools itself on an odd nerve signal: eccrine sweat glands are driven by sympathetic fibers that, unusually, release acetylcholine rather than noradrenaline, the cholinergic switch that turns on sweating for thermoregulation."
+  - target: 01-human/04-cellular/neutrophil
+    relation: connects-to
+    note: "When the barrier is breached, neutrophils rush in: they are the front line against skin-invading bacteria, forming the pus of abscesses and cellulitis and clearing the infection that a broken epidermis lets through."
 ---
 
 # Integumentary System
@@ -314,6 +323,9 @@ Wound healing is a precisely orchestrated process in four overlapping phases [^g
 - `connects-to` → **[Neuron](../../04-cellular/neuron/README.md)** — The skin is the body's largest sensory sheet: specialized nerve endings and Merkel-cell complexes wire it for touch, pressure, temperature, and pain, so neurons turn the integument into a vast field of receptors reporting the outside world.
 - `connects-to` → **[Systemic Lupus Erythematosus](../systemic-lupus-erythematosus/README.md)** — The skin is a frontline organ in lupus: photosensitive malar and discoid rashes mark cutaneous SLE, where UV light and autoantibodies drive immune attack at the dermal-epidermal junction, often the disease's first visible sign.
 - `connects-to` → **[Candida albicans](../../../02-pathogen/03-fungi/candida-albicans/README.md)** — The skin barrier holds back fungal overgrowth: when warmth, moisture, or immune suppression breach it, Candida colonizes skin folds, nails, and mucocutaneous surfaces, turning a commensal into intertrigo, paronychia, and thrush.
+- `connects-to` → **[Varicella-Zoster Virus](../../../02-pathogen/01-viruses/varicella-zoster-virus/README.md)** — A virus hides in the skin's nerves and returns: after chickenpox, varicella-zoster lies dormant in sensory ganglia and reawakens as shingles, a painful dermatomal rash that maps the very nerve territory supplying that patch of skin.
+- `connects-to` → **[Acetylcholine](../../03-molecular/acetylcholine/README.md)** — The skin cools itself on an odd nerve signal: eccrine sweat glands are driven by sympathetic fibers that, unusually, release acetylcholine rather than noradrenaline, the cholinergic switch that turns on sweating for thermoregulation.
+- `connects-to` → **[Neutrophil](../../04-cellular/neutrophil/README.md)** — When the barrier is breached, neutrophils rush in: they are the front line against skin-invading bacteria, forming the pus of abscesses and cellulitis and clearing the infection that a broken epidermis lets through.
 
 ## Pathology
 

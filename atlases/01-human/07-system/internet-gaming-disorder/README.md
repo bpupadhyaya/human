@@ -150,6 +150,15 @@ cross_links:
   - target: 01-human/07-system/type-2-diabetes
     relation: connects-to
     note: "Hours of sedentary play feed metabolic disease: prolonged sitting, snacking, and disrupted sleep promote weight gain and insulin resistance, so heavy gaming is increasingly tied to the rising risk of type 2 diabetes in young people."
+  - target: 01-human/07-system/venous-thromboembolism
+    relation: connects-to
+    note: "Marathon gaming can be physically lethal: hours of motionless sitting let clots form in the leg veins — an 'e-thrombosis' that has caused fatal pulmonary emboli in young players, the same immobility risk as a long-haul flight."
+  - target: 01-human/07-system/epilepsy
+    relation: connects-to
+    note: "The screen itself can trigger seizures: flashing lights and patterns in games can provoke photosensitive epilepsy, and the sleep deprivation of binge play further lowers the seizure threshold in susceptible players."
+  - target: 01-human/03-molecular/ghrelin
+    relation: connects-to
+    note: "Gaming overrides the hunger signals: absorbed in play, gamers ignore ghrelin-driven satiety cues and graze on calorie-dense snacks, a dysregulated eating pattern that links the disorder to weight gain."
 sources:
   - id: kuss-2012-gaming-disorder-review
     type: peer-reviewed
@@ -368,6 +377,9 @@ A pattern of persistent or recurrent gaming behavior characterized by:
 - `connects-to` → **[Orexin](../../03-molecular/orexin/README.md)** — Gaming raids the brain's wakefulness switch: orexin neurons that drive arousal and reward salience keep players locked in late-night sessions, and the lost sleep that follows blunts orexin signaling into daytime fatigue and worse impulse control.
 - `connects-to` → **[Opioid Use Disorder](../opioid-use-disorder/README.md)** — It sits on the same addiction spectrum: compulsive gaming engages the endogenous opioid reward circuitry that opioids hijack chemically, and the two often co-occur, sharing craving, tolerance, and loss of control as a behavioral-versus-substance pair.
 - `connects-to` → **[Type 2 Diabetes](../type-2-diabetes/README.md)** — Hours of sedentary play feed metabolic disease: prolonged sitting, snacking, and disrupted sleep promote weight gain and insulin resistance, so heavy gaming is increasingly tied to the rising risk of type 2 diabetes in young people.
+- `connects-to` → **[Venous Thromboembolism](../venous-thromboembolism/README.md)** — Marathon gaming can be physically lethal: hours of motionless sitting let clots form in the leg veins — an 'e-thrombosis' that has caused fatal pulmonary emboli in young players, the same immobility risk as a long-haul flight.
+- `connects-to` → **[Epilepsy](../epilepsy/README.md)** — The screen itself can trigger seizures: flashing lights and patterns in games can provoke photosensitive epilepsy, and the sleep deprivation of binge play further lowers the seizure threshold in susceptible players.
+- `connects-to` → **[Ghrelin](../../03-molecular/ghrelin/README.md)** — Gaming overrides the hunger signals: absorbed in play, gamers ignore ghrelin-driven satiety cues and graze on calorie-dense snacks, a dysregulated eating pattern that links the disorder to weight gain.
 
 [^kuss-2012-gaming-disorder-review]: Kuss DJ, Griffiths MD. Internet gaming addiction: a systematic review of empirical research. *Int J Ment Health Addict.* 2012;10(2):278-296. [doi:10.1007/s11469-011-9318-5](https://doi.org/10.1007/s11469-011-9318-5)
 [^who-icd11-gaming-disorder]: World Health Organization. ICD-11: Gaming Disorder (6C51). Geneva: WHO; 2019. [icd.who.int](https://icd.who.int/browse/2025-01/mms/en#1448597234)
