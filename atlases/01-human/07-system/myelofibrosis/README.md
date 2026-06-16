@@ -163,6 +163,15 @@ cross_links:
   - target: 01-human/07-system/pulmonary-arterial-hypertension
     relation: connects-to
     note: "Blood-making can settle in the lungs: extramedullary hematopoiesis and clot showers from myelofibrosis can raise pulmonary artery pressure, a recognized complication that strains the right heart."
+  - target: 01-human/03-molecular/cxcl12
+    relation: connects-to
+    note: "A homing signal goes awry: disrupted CXCL12-CXCR4 signaling lets hematopoietic stem cells escape the fibrotic marrow into the blood, where they seed the spleen and liver — the extramedullary hematopoiesis behind the massive splenomegaly."
+  - target: 01-human/04-cellular/mast-cell
+    relation: connects-to
+    note: "Clonal mast cells join the fibrotic crowd: mast cells are expanded in myelofibrosis marrow and, like the driver megakaryocytes, secrete profibrotic mediators that help lay down the collagen and reticulin scar."
+  - target: 01-human/07-system/sepsis
+    relation: connects-to
+    note: "The failing marrow leaves patients defenseless: falling neutrophil counts and the immunosuppression of advanced disease and its treatment make infection and sepsis a leading cause of death in myelofibrosis."
 ---
 
 # Myelofibrosis
@@ -339,6 +348,9 @@ Abrupt ruxolitinib cessation → cytokine rebound → fever, splenomegaly surge,
 - `connects-to` → **[Endothelial Cell](../../04-cellular/endothelial-cell/README.md)** — Myelofibrosis spills blood-making into the vessels: the malignant clone also marks endothelial cells, which help home extramedullary hematopoiesis to spleen and liver and contribute to the thrombosis that complicates the disease.
 - `connects-to` → **[NF-κB](../../03-molecular/nf-kb/README.md)** — Myelofibrosis smolders with inflammation: the mutant clone switches on NF-κB, driving the inflammatory cytokine flood behind its fevers and weight loss and the fibrosis-promoting signals that scar the marrow.
 - `connects-to` → **[Pulmonary Arterial Hypertension](../pulmonary-arterial-hypertension/README.md)** — Blood-making can settle in the lungs: extramedullary hematopoiesis and clot showers from myelofibrosis can raise pulmonary artery pressure, a recognized complication that strains the right heart.
+- `connects-to` → **[CXCL12](../../03-molecular/cxcl12/README.md)** — A homing signal goes awry: disrupted CXCL12-CXCR4 signaling lets hematopoietic stem cells escape the fibrotic marrow into the blood, where they seed the spleen and liver — the extramedullary hematopoiesis behind the massive splenomegaly.
+- `connects-to` → **[Mast Cell](../../04-cellular/mast-cell/README.md)** — Clonal mast cells join the fibrotic crowd: mast cells are expanded in myelofibrosis marrow and, like the driver megakaryocytes, secrete profibrotic mediators that help lay down the collagen and reticulin scar.
+- `connects-to` → **[Sepsis](../sepsis/README.md)** — The failing marrow leaves patients defenseless: falling neutrophil counts and the immunosuppression of advanced disease and its treatment make infection and sepsis a leading cause of death in myelofibrosis.
 
 ---
 

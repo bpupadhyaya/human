@@ -169,6 +169,15 @@ cross_links:
   - target: 01-human/07-system/ckd
     relation: connects-to
     note: "Fatty liver shadows the kidney: NASH independently raises the risk of chronic kidney disease through shared insulin resistance, hypertension, and inflammation, so the two metabolic-organ injuries tend to advance together."
+  - target: 01-human/07-system/atherosclerosis
+    relation: connects-to
+    note: "The liver disease kills mostly through the arteries: NASH accelerates atherosclerosis via dyslipidemia and systemic inflammation, so cardiovascular disease — not liver failure — is the leading cause of death in most patients."
+  - target: 01-human/03-molecular/leptin
+    relation: connects-to
+    note: "An adipose hormone turns profibrotic: leptin, high in obesity, activates hepatic stellate cells to lay down scar, an adipokine push toward fibrosis that contrasts with the protective adiponectin also released by fat."
+  - target: 01-human/03-molecular/il-6
+    relation: connects-to
+    note: "Inflamed fat signals the liver: IL-6 released from expanded adipose tissue worsens hepatic insulin resistance and inflammation, helping drive simple fatty liver onward into steatohepatitis."
 ---
 
 # NASH
@@ -308,6 +317,9 @@ NASH pathogenesis is driven by multiple simultaneous and sequential hits, not a 
 - `connects-to` → **[TNF-α](../../03-molecular/tnf-alpha/README.md)** — Inflammation tips fatty liver into steatohepatitis: Kupffer cells and inflamed fat pour out TNF-α, which worsens hepatocyte insulin resistance, fuels cell death, and recruits the immune attack that turns bland steatosis into NASH.
 - `connects-to` → **[B Cell](../../04-cellular/b-cell/README.md)** — The liver's own B cells join the assault: in NASH intrahepatic B cells expand and secrete antibody and cytokines that activate macrophages and stellate cells, pushing inflammation toward fibrosis.
 - `connects-to` → **[Chronic Kidney Disease](../ckd/README.md)** — Fatty liver shadows the kidney: NASH independently raises the risk of chronic kidney disease through shared insulin resistance, hypertension, and inflammation, so the two metabolic-organ injuries tend to advance together.
+- `connects-to` → **[Atherosclerosis](../atherosclerosis/README.md)** — The liver disease kills mostly through the arteries: NASH accelerates atherosclerosis via dyslipidemia and systemic inflammation, so cardiovascular disease — not liver failure — is the leading cause of death in most patients.
+- `connects-to` → **[Leptin](../../03-molecular/leptin/README.md)** — An adipose hormone turns profibrotic: leptin, high in obesity, activates hepatic stellate cells to lay down scar, an adipokine push toward fibrosis that contrasts with the protective adiponectin also released by fat.
+- `connects-to` → **[Interleukin-6](../../03-molecular/il-6/README.md)** — Inflamed fat signals the liver: IL-6 released from expanded adipose tissue worsens hepatic insulin resistance and inflammation, helping drive simple fatty liver onward into steatohepatitis.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
