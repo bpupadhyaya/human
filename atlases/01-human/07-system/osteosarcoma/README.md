@@ -169,6 +169,15 @@ cross_links:
   - target: 01-human/03-molecular/atrx
     relation: connects-to
     note: "It keeps its telomeres long without telomerase: many osteosarcomas lose ATRX and switch on the alternative lengthening of telomeres pathway, an escape from cellular aging that marks aggressive disease and is being explored as a vulnerability."
+  - target: 01-human/03-molecular/myc
+    relation: connects-to
+    note: "MYC amplification drives the aggressive tumor: gains of MYC are recurrent in osteosarcoma's chaotic genome, pushing proliferation and marking metastatic, chemoresistant disease."
+  - target: 01-human/04-cellular/cardiomyocyte
+    relation: connects-to
+    note: "The cure scars the heart: doxorubicin, a backbone of osteosarcoma chemotherapy, poisons cardiomyocytes through oxidative and topoisomerase-2β damage, leaving survivors with a lifelong dose-dependent cardiomyopathy risk."
+  - target: 01-human/07-system/neuropathic-pain
+    relation: connects-to
+    note: "Bone tumor and its surgery both hurt: osteosarcoma causes deep bone pain and can compress nerves, and limb-salvage or amputation leaves neuropathic and phantom-limb pain that shapes long-term rehabilitation."
 ---
 
 # Osteosarcoma
@@ -350,6 +359,9 @@ OS is relatively radiation-resistant (high-dose radiation ~70+ Gy may achieve lo
 - `connects-to` → **[RANKL](../../03-molecular/rankl/README.md)** — It hijacks bone's own demolition signal: osteosarcoma drives RANKL to activate osteoclasts that chew away surrounding bone, feeding a vicious cycle of destruction and tumor growth that makes the RANKL-blocker denosumab a candidate therapy.
 - `connects-to` → **[CDK4/6](../../03-molecular/cdk4-6/README.md)** — One subtype is defined by a cell-cycle amplicon: parosteal and dedifferentiated osteosarcomas co-amplify CDK4 with MDM2, locking the cell cycle on, which both confirms the diagnosis and points to CDK4/6 inhibitors as targeted treatment.
 - `connects-to` → **[ATRX](../../03-molecular/atrx/README.md)** — It keeps its telomeres long without telomerase: many osteosarcomas lose ATRX and switch on the alternative lengthening of telomeres pathway, an escape from cellular aging that marks aggressive disease and is being explored as a vulnerability.
+- `connects-to` → **[MYC](../../03-molecular/myc/README.md)** — MYC amplification drives the aggressive tumor: gains of MYC are recurrent in osteosarcoma's chaotic genome, pushing proliferation and marking metastatic, chemoresistant disease.
+- `connects-to` → **[Cardiomyocyte](../../04-cellular/cardiomyocyte/README.md)** — The cure scars the heart: doxorubicin, a backbone of osteosarcoma chemotherapy, poisons cardiomyocytes through oxidative and topoisomerase-2β damage, leaving survivors with a lifelong dose-dependent cardiomyopathy risk.
+- `connects-to` → **[Neuropathic Pain](../neuropathic-pain/README.md)** — Bone tumor and its surgery both hurt: osteosarcoma causes deep bone pain and can compress nerves, and limb-salvage or amputation leaves neuropathic and phantom-limb pain that shapes long-term rehabilitation.
 
 [^bielack-2002-coss-osteosarcoma]: Bielack SS, Kempf-Bielack B, Delling G, et al. Prognostic factors in high-grade osteosarcoma of the extremities or trunk: an analysis of 1,702 patients treated on neoadjuvant Cooperative Osteosarcoma Study Group protocols. *J Clin Oncol.* 2002;20(3):776-790. [doi:10.1200/JCO.2002.20.3.776](https://doi.org/10.1200/JCO.2002.20.3.776) · [PubMed 11821461](https://pubmed.ncbi.nlm.nih.gov/11821461/)
 [^marina-2016-euramos1-osteosarcoma]: Marina NM, Smeland S, Bielack SS, et al. Comparison of MAPIE versus MAP in patients with a poor response to preoperative chemotherapy for newly diagnosed high-grade osteosarcoma (EURAMOS-1). *Lancet Oncol.* 2016;17(10):1396-1408. [doi:10.1016/S1470-2045(16)30214-5](https://doi.org/10.1016/S1470-2045(16)30214-5) · [PubMed 27569442](https://pubmed.ncbi.nlm.nih.gov/27569442/)

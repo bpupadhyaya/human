@@ -169,6 +169,15 @@ cross_links:
   - target: 01-human/07-system/pancreatic-cancer
     relation: connects-to
     note: "It travels in a shared hereditary cluster: the same BRCA and PALB2 mutations that drive ovarian cancer also raise pancreatic cancer risk, so a family history can span both organs and flag relatives for combined surveillance."
+  - target: 01-human/03-molecular/cxcl12
+    relation: connects-to
+    note: "CXCL12 guides the spread to the omentum: the chemokine, abundant in peritoneal fat, draws CXCR4-bearing ovarian cancer cells to seed the omentum and peritoneum, the characteristic transcoelomic metastasis of the disease."
+  - target: 01-human/07-system/sepsis
+    relation: connects-to
+    note: "Advanced disease invites sepsis: malignant bowel obstruction and perforation from peritoneal spread, plus chemotherapy neutropenia, expose ovarian-cancer patients to intra-abdominal infection and sepsis."
+  - target: 01-human/04-cellular/mast-cell
+    relation: connects-to
+    note: "Mast cells populate the tumor and ascites: they accumulate in the ovarian tumor microenvironment and peritoneal fluid, releasing angiogenic and immunomodulatory mediators that support growth and vessel formation."
 ---
 
 # Ovarian Cancer
@@ -335,6 +344,9 @@ FTSEC ciliated and secretory cells line the Fallopian tube; secretory cells are 
 - `connects-to` → **[PALB2](../../03-molecular/palb2/README.md)** — The BRCA story extends beyond BRCA: germline PALB2 mutations, which partner BRCA2 in homologous-recombination repair, also raise ovarian cancer risk and leave the tumor sensitive to platinum and PARP inhibitors, widening who benefits from genetic testing.
 - `connects-to` → **[Endothelial Cell](../../04-cellular/endothelial-cell/README.md)** — It is a famously vascular tumor: ovarian cancer drives endothelial cells to sprout new vessels and leak fluid, fueling the malignant ascites that swells the abdomen — the rationale for adding the anti-VEGF drug bevacizumab to its treatment.
 - `connects-to` → **[Pancreatic Cancer](../pancreatic-cancer/README.md)** — It travels in a shared hereditary cluster: the same BRCA and PALB2 mutations that drive ovarian cancer also raise pancreatic cancer risk, so a family history can span both organs and flag relatives for combined surveillance.
+- `connects-to` → **[CXCL12](../../03-molecular/cxcl12/README.md)** — CXCL12 guides the spread to the omentum: the chemokine, abundant in peritoneal fat, draws CXCR4-bearing ovarian cancer cells to seed the omentum and peritoneum, the characteristic transcoelomic metastasis of the disease.
+- `connects-to` → **[Sepsis](../sepsis/README.md)** — Advanced disease invites sepsis: malignant bowel obstruction and perforation from peritoneal spread, plus chemotherapy neutropenia, expose ovarian-cancer patients to intra-abdominal infection and sepsis.
+- `connects-to` → **[Mast Cell](../../04-cellular/mast-cell/README.md)** — Mast cells populate the tumor and ascites: they accumulate in the ovarian tumor microenvironment and peritoneal fluid, releasing angiogenic and immunomodulatory mediators that support growth and vessel formation.
 
 [^burger-2011-gog0218]: Burger RA, Brady MF, Bookman MA, et al. Incorporation of bevacizumab in the primary treatment of ovarian cancer. *N Engl J Med.* 2011;365(26):2473-2483. [doi:10.1056/NEJMoa1104390](https://doi.org/10.1056/NEJMoa1104390) · [PubMed 22204724](https://pubmed.ncbi.nlm.nih.gov/22204724/)
 [^moore-2018-olaparib-solo1]: Moore K, Colombo N, Scambia G, et al. Maintenance olaparib in patients with newly diagnosed advanced ovarian cancer. *N Engl J Med.* 2018;379(26):2495-2505. [doi:10.1056/NEJMoa1810858](https://doi.org/10.1056/NEJMoa1810858) · [PubMed 30345884](https://pubmed.ncbi.nlm.nih.gov/30345884/)
