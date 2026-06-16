@@ -158,6 +158,15 @@ cross_links:
   - target: 01-human/03-molecular/tgf-beta
     relation: connects-to
     note: "Scarring chokes the lymph vessels: TGF-beta drives the fibrosis that stiffens lymphatic channels in chronic lymphedema, while also restraining the lymphangiogenesis needed to repair them — a target for keeping lymph flowing."
+  - target: 01-human/05-tissue/intestinal-epithelium
+    relation: connects-to
+    note: "The gut feeds the lymph: specialized lacteals inside each intestinal villus collect the fat absorbed by the epithelium, packaging dietary lipids into milky chyle that drains through the lymphatics to the bloodstream — the lymphatic system's role in nutrition."
+  - target: 01-human/07-system/heart-failure
+    relation: connects-to
+    note: "When the heart backs up, the lymphatics flood: high venous pressure in heart failure outpaces lymphatic return of interstitial fluid, so the drainage system is overwhelmed and fluid pools as the edema and effusions that mark decompensation."
+  - target: 01-human/03-molecular/nitric-oxide
+    relation: connects-to
+    note: "The vessels pump themselves with a gas signal: nitric oxide released by lymphatic endothelium tunes the rhythmic contractions of lymphatic muscle that propel lymph forward, so it helps set the pace of drainage against gravity."
 ---
 
 # Lymphatic System
@@ -314,6 +323,9 @@ Enterocytes package dietary triglycerides + cholesterol + apoB-48 into chylomicr
 - `connects-to` → **[Mycobacterium tuberculosis](../../../02-pathogen/02-bacteria/mycobacterium-tuberculosis/README.md)** — Tuberculosis loves the lymph nodes: when M. tuberculosis seeds the cervical nodes it produces scrofula, a chronic swelling and breakdown of the lymphatic tissue that is one of TB's commonest sites outside the lung.
 - `connects-to` → **[Adipocyte](../../04-cellular/adipocyte/README.md)** — The lymphatics carry the fat from a meal: gut lacteals absorb dietary lipids as chylomicrons and ferry them through lymph into the blood, and leaky or damaged lymphatics promote local fat deposition — linking the system to adipose tissue.
 - `connects-to` → **[Transforming Growth Factor Beta](../../03-molecular/tgf-beta/README.md)** — Scarring chokes the lymph vessels: TGF-beta drives the fibrosis that stiffens lymphatic channels in chronic lymphedema, while also restraining the lymphangiogenesis needed to repair them — a target for keeping lymph flowing.
+- `connects-to` → **[Intestinal Epithelium](../../05-tissue/intestinal-epithelium/README.md)** — The gut feeds the lymph: specialized lacteals inside each intestinal villus collect the fat absorbed by the epithelium, packaging dietary lipids into milky chyle that drains through the lymphatics to the bloodstream — the lymphatic system's role in nutrition.
+- `connects-to` → **[Heart Failure](../heart-failure/README.md)** — When the heart backs up, the lymphatics flood: high venous pressure in heart failure outpaces lymphatic return of interstitial fluid, so the drainage system is overwhelmed and fluid pools as the edema and effusions that mark decompensation.
+- `connects-to` → **[Nitric Oxide](../../03-molecular/nitric-oxide/README.md)** — The vessels pump themselves with a gas signal: nitric oxide released by lymphatic endothelium tunes the rhythmic contractions of lymphatic muscle that propel lymph forward, so it helps set the pace of drainage against gravity.
 
 ## Pathology
 

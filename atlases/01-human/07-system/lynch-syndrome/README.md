@@ -160,6 +160,15 @@ cross_links:
   - target: 01-human/03-molecular/kras
     relation: connects-to
     note: "The mutation count runs high: mismatch-repair failure lets mutations accumulate across genes including KRAS, shaping the tumor's behavior and, with RAS status, guiding which targeted drugs can be added to its treatment."
+  - target: 01-human/03-molecular/ctla-4
+    relation: connects-to
+    note: "The hypermutated tumors are immunotherapy magnets: mismatch-repair loss spawns countless neoantigens, so blocking CTLA-4 alongside PD-1 can unleash a strong T-cell attack, making Lynch cancers among the most checkpoint-responsive of all solid tumors."
+  - target: 01-human/07-system/hereditary-breast-ovarian-cancer
+    relation: connects-to
+    note: "Two great hereditary-cancer syndromes sit side by side: where BRCA-driven HBOC fails DNA double-strand repair, Lynch fails mismatch repair — both flagged by family history, but each needing its own gene panel, surveillance plan, and tumor-specific therapies."
+  - target: 01-human/04-cellular/astrocyte
+    relation: connects-to
+    note: "The brain is on the tumor list too: in the Turcot variant, mismatch-repair failure drives gliomas arising from astrocytes, so the same defect that floods the colon with mutations can also seed aggressive brain tumors."
 ---
 
 # Lynch Syndrome
@@ -347,6 +356,9 @@ MSI-H stage II CRC: adjuvant 5-FU/leucovorin does NOT improve OS (may be harmful
 - `connects-to` → **[Platelet](../../04-cellular/platelet/README.md)** — Aspirin earns its place in Lynch through platelets: the CAPP2 trial showed daily aspirin sharply cuts colorectal cancer in carriers, an effect tied partly to blocking platelet COX-1 and the tumor-promoting signals activated platelets release.
 - `connects-to` → **[Plasma Cell](../../04-cellular/plasma-cell/README.md)** — Lynch tumors teem with immune cells: their mismatch-repair defect spawns countless neoantigens that draw in B cells and plasma cells forming tertiary lymphoid structures, a brisk immune response that underlies their striking sensitivity to checkpoint therapy.
 - `connects-to` → **[KRAS](../../03-molecular/kras/README.md)** — The mutation count runs high: mismatch-repair failure lets mutations accumulate across genes including KRAS, shaping the tumor's behavior and, with RAS status, guiding which targeted drugs can be added to its treatment.
+- `connects-to` → **[CTLA-4](../../03-molecular/ctla-4/README.md)** — The hypermutated tumors are immunotherapy magnets: mismatch-repair loss spawns countless neoantigens, so blocking CTLA-4 alongside PD-1 can unleash a strong T-cell attack, making Lynch cancers among the most checkpoint-responsive of all solid tumors.
+- `connects-to` → **[Hereditary Breast and Ovarian Cancer](../hereditary-breast-ovarian-cancer/README.md)** — Two great hereditary-cancer syndromes sit side by side: where BRCA-driven HBOC fails DNA double-strand repair, Lynch fails mismatch repair — both flagged by family history, but each needing its own gene panel, surveillance plan, and tumor-specific therapies.
+- `connects-to` → **[Astrocyte](../../04-cellular/astrocyte/README.md)** — The brain is on the tumor list too: in the Turcot variant, mismatch-repair failure drives gliomas arising from astrocytes, so the same defect that floods the colon with mutations can also seed aggressive brain tumors.
 
 [^bonadona-2011-lynch-risks]: Bonadona V, Bonaïti B, Olschwang S, et al. Cancer risks associated with germline mutations in MLH1, MSH2, and MSH6 genes in Lynch syndrome. *JAMA.* 2011;305(22):2304-2310. [doi:10.1001/jama.2011.743](https://doi.org/10.1001/jama.2011.743) · [PubMed 21642683](https://pubmed.ncbi.nlm.nih.gov/21642683/)
 [^lynch-2015-lynch-review]: Lynch HT, Snyder CL, Shaw TG, et al. Milestones of Lynch syndrome: 1895-2015. *Nat Rev Cancer.* 2015;15(3):181-194. [doi:10.1038/nrc3878](https://doi.org/10.1038/nrc3878) · [PubMed 25673086](https://pubmed.ncbi.nlm.nih.gov/25673086/)
