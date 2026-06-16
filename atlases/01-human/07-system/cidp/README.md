@@ -168,6 +168,15 @@ cross_links:
   - target: 01-human/06-organ/thymus
     relation: connects-to
     note: "CIDP traces back to broken tolerance: the thymus that should delete self-reactive T cells fails to fully restrain those targeting peripheral myelin, the lapse in central tolerance underlying this T-cell-dependent autoimmune neuropathy."
+  - target: 01-human/03-molecular/baff
+    relation: connects-to
+    note: "BAFF keeps the autoimmune B cells alive: this survival cytokine sustains the antibody-producing B cells that attack peripheral myelin, part of why B-cell-directed rituximab can help refractory CIDP."
+  - target: 01-human/07-system/multiple-myeloma
+    relation: connects-to
+    note: "A rogue antibody can strip the nerves: monoclonal gammopathy and multiple myeloma (notably POEMS) produce paraproteins that attack myelin, causing a demyelinating neuropathy that mimics or overlaps CIDP — so a paraprotein screen is part of the workup."
+  - target: 01-human/07-system/sjogrens-syndrome
+    relation: connects-to
+    note: "Systemic autoimmunity can carry CIDP with it: Sjögren's and other connective-tissue diseases are associated with chronic inflammatory demyelinating neuropathy, a secondary form pointing to a shared loss of tolerance."
 ---
 
 # CIDP
@@ -360,6 +369,9 @@ IgG4 anti-NF155 or anti-CNTN1 disrupts this complex → paranodal loop detachmen
 - `connects-to` → **[HIV](../hiv/README.md)** — HIV can trigger CIDP: a demyelinating polyneuropathy indistinguishable from idiopathic CIDP appears in HIV infection, often around seroconversion, so a new diagnosis warrants HIV testing because the underlying infection changes management.
 - `connects-to` → **[Endothelial Cell](../../04-cellular/endothelial-cell/README.md)** — CIDP breaches the blood-nerve barrier: the tight endothelial cells lining endoneurial vessels normally wall the nerve off from the immune system, and their breakdown is what lets autoantibodies and T cells reach and strip the myelin.
 - `connects-to` → **[Thymus](../../06-organ/thymus/README.md)** — CIDP traces back to broken tolerance: the thymus that should delete self-reactive T cells fails to fully restrain those targeting peripheral myelin, the lapse in central tolerance underlying this T-cell-dependent autoimmune neuropathy.
+- `connects-to` → **[BAFF](../../03-molecular/baff/README.md)** — BAFF keeps the autoimmune B cells alive: this survival cytokine sustains the antibody-producing B cells that attack peripheral myelin, part of why B-cell-directed rituximab can help refractory CIDP.
+- `connects-to` → **[Multiple Myeloma](../multiple-myeloma/README.md)** — A rogue antibody can strip the nerves: monoclonal gammopathy and multiple myeloma (notably POEMS) produce paraproteins that attack myelin, causing a demyelinating neuropathy that mimics or overlaps CIDP — so a paraprotein screen is part of the workup.
+- `connects-to` → **[Sjögren's Syndrome](../sjogrens-syndrome/README.md)** — Systemic autoimmunity can carry CIDP with it: Sjögren's and other connective-tissue diseases are associated with chronic inflammatory demyelinating neuropathy, a secondary form pointing to a shared loss of tolerance.
 
 ---
 

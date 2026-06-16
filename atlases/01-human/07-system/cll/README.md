@@ -160,6 +160,15 @@ cross_links:
   - target: 01-human/07-system/melanoma
     relation: connects-to
     note: "CLL's broken immunity lets other cancers through: with weakened tumor surveillance, patients face a markedly higher risk of second malignancies including melanoma, which tends to behave more aggressively, so regular skin checks are advised."
+  - target: 01-human/03-molecular/baff
+    relation: connects-to
+    note: "The microenvironment feeds the leukemia with BAFF: stromal and accessory cells supply this survival cytokine (with APRIL) to keep CLL cells alive, one of the external lifelines that anti-apoptotic therapy aims to cut."
+  - target: 01-human/07-system/basal-cell-carcinoma
+    relation: connects-to
+    note: "Skin cancers run rampant in CLL: the immune deficit drives numerous, recurrent, and more aggressive basal cell and other non-melanoma skin cancers, making dermatologic surveillance a routine part of care."
+  - target: 01-human/04-cellular/t-helper-cell
+    relation: connects-to
+    note: "The leukemia grooms its own helpers: in the lymph-node proliferation centers, CLL cells recruit and corrupt T-helper cells to support their growth, while the resulting T-cell dysfunction fuels the infections that often kill."
 ---
 
 # CLL
@@ -320,6 +329,9 @@ BCR cross-linking → LYN (SRC kinase) phosphorylates CD79a/b ITAMs → SYK recr
 - `connects-to` → **[Streptococcus pneumoniae](../../../02-pathogen/02-bacteria/streptococcus-pneumoniae/README.md)** — CLL leaves patients open to pneumococcus: the leukemic B cells crowd out normal antibody production, and the hypogammaglobulinemia invites recurrent pneumonia and sepsis from encapsulated bacteria — why pneumococcal vaccination and immunoglobulin replacement are used.
 - `connects-to` → **[NOTCH](../../03-molecular/notch/README.md)** — NOTCH1 is a recurrent driver in CLL: activating NOTCH1 mutations in roughly a tenth of cases sustain the leukemic cells and mark adverse prognosis and resistance to CD20 antibodies, helping risk-stratify whom to treat more aggressively.
 - `connects-to` → **[Melanoma](../melanoma/README.md)** — CLL's broken immunity lets other cancers through: with weakened tumor surveillance, patients face a markedly higher risk of second malignancies including melanoma, which tends to behave more aggressively, so regular skin checks are advised.
+- `connects-to` → **[BAFF](../../03-molecular/baff/README.md)** — The microenvironment feeds the leukemia with BAFF: stromal and accessory cells supply this survival cytokine (with APRIL) to keep CLL cells alive, one of the external lifelines that anti-apoptotic therapy aims to cut.
+- `connects-to` → **[Basal Cell Carcinoma](../basal-cell-carcinoma/README.md)** — Skin cancers run rampant in CLL: the immune deficit drives numerous, recurrent, and more aggressive basal cell and other non-melanoma skin cancers, making dermatologic surveillance a routine part of care.
+- `connects-to` → **[T Helper Cell](../../04-cellular/t-helper-cell/README.md)** — The leukemia grooms its own helpers: in the lymph-node proliferation centers, CLL cells recruit and corrupt T-helper cells to support their growth, while the resulting T-cell dysfunction fuels the infections that often kill.
 
 ---
 
