@@ -169,6 +169,15 @@ cross_links:
   - target: 01-human/03-molecular/il-6
     relation: connects-to
     note: "Inflammation feeds the fibromatosis: IL-6 and prostaglandin signaling promote desmoid fibroblast growth, a rationale behind the anti-inflammatory NSAIDs long tried to slow these tumors."
+  - target: 01-human/07-system/wound-healing
+    relation: connects-to
+    note: "A desmoid is wound healing that won't switch off: it is a clonal myofibroblast proliferation that classically erupts at sites of surgery, trauma, or pregnancy, as if the repair program ran unchecked under activated β-catenin."
+  - target: 01-human/03-molecular/yap1
+    relation: connects-to
+    note: "YAP partners with β-catenin in the desmoid: Hippo-pathway YAP activation cooperates with the driving Wnt/β-catenin signal to sustain the fibroblast proliferation, marking another node studied as a therapeutic target."
+  - target: 01-human/07-system/gastric-cancer
+    relation: connects-to
+    note: "Desmoids cluster with the FAP cancers: arising from the same APC loss, they accompany the colorectal and upper-GI tumors of familial adenomatous polyposis, where fundic-gland and gastric neoplasia round out the syndrome's GI risk."
 ---
 
 # Desmoid Tumor
@@ -353,6 +362,9 @@ Standard initial approach for newly diagnosed desmoid without symptoms or rapid 
 - `connects-to` → **[Breast Cancer](../breast-cancer/README.md)** — Desmoids favor sites of injury: they classically arise in surgical scars, including after breast surgery, so a firm mass at a mastectomy or reconstruction site can be a desmoid rather than recurrent cancer.
 - `connects-to` → **[Regulatory T Cell](../../04-cellular/regulatory-t-cell/README.md)** — An immune-cell milieu shapes the tumor: regulatory T cells populate the desmoid microenvironment, part of the stromal-immune context being explored as these locally aggressive fibromatoses resist conventional treatment.
 - `connects-to` → **[Interleukin-6](../../03-molecular/il-6/README.md)** — Inflammation feeds the fibromatosis: IL-6 and prostaglandin signaling promote desmoid fibroblast growth, a rationale behind the anti-inflammatory NSAIDs long tried to slow these tumors.
+- `connects-to` → **[Wound Healing](../wound-healing/README.md)** — A desmoid is wound healing that won't switch off: it is a clonal myofibroblast proliferation that classically erupts at sites of surgery, trauma, or pregnancy, as if the repair program ran unchecked under activated β-catenin.
+- `connects-to` → **[YAP1](../../03-molecular/yap1/README.md)** — YAP partners with β-catenin in the desmoid: Hippo-pathway YAP activation cooperates with the driving Wnt/β-catenin signal to sustain the fibroblast proliferation, marking another node studied as a therapeutic target.
+- `connects-to` → **[Gastric Cancer](../gastric-cancer/README.md)** — Desmoids cluster with the FAP cancers: arising from the same APC loss, they accompany the colorectal and upper-GI tumors of familial adenomatous polyposis, where fundic-gland and gastric neoplasia round out the syndrome's GI risk.
 
 ---
 

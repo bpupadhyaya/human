@@ -169,6 +169,15 @@ cross_links:
   - target: 01-human/04-cellular/natural-killer-cell
     relation: connects-to
     note: "Innate immunity guards the second hit: natural killer cells help cull the genomically deranged cells of DICER1 tumors, and harnessing them is part of the immunotherapy interest in these pediatric cancers."
+  - target: 01-human/07-system/respiratory-system
+    relation: connects-to
+    note: "The lung is DICER1's signature target: pleuropulmonary blastoma, the syndrome's hallmark tumor, begins as benign lung cysts in early childhood that can transform into an aggressive sarcoma, so detecting cystic lung disease is central to surveillance."
+  - target: 01-human/07-system/neuroblastoma
+    relation: connects-to
+    note: "DICER1 doubles as a broader tumor suppressor: beyond the inherited syndrome, reduced DICER1 and disrupted microRNA biogenesis are seen in aggressive sporadic neuroblastoma, where loss of mature miRNAs lets oncogenic programs run."
+  - target: 01-human/03-molecular/notch
+    relation: connects-to
+    note: "Losing DICER1 derepresses developmental signals: the mature microRNAs it generates normally restrain pathways like Notch, so impaired miRNA processing in DICER1 tumors unleashes the oncogenic signaling that drives embryonal growth."
 ---
 
 # DICER1 Syndrome
@@ -334,6 +343,9 @@ When a child is found to have a thoracic cystic lesion, DICER1 syndrome should b
 - `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — Its embryonal tumors are richly vascular: with normal microRNA control lost, angiogenic signals like VEGF run unchecked, feeding the rapid growth of pleuropulmonary blastoma and the other DICER1 tumors.
 - `connects-to` → **[Endometrial Cancer](../endometrial-cancer/README.md)** — DICER1 reaches the uterus and cervix: it causes embryonal rhabdomyosarcoma of the gynecologic tract, so a young woman's unusual cervical or uterine tumor can be the clue that points to the germline syndrome.
 - `connects-to` → **[Natural Killer Cell](../../04-cellular/natural-killer-cell/README.md)** — Innate immunity guards the second hit: natural killer cells help cull the genomically deranged cells of DICER1 tumors, and harnessing them is part of the immunotherapy interest in these pediatric cancers.
+- `connects-to` → **[Respiratory system](../respiratory-system/README.md)** — The lung is DICER1's signature target: pleuropulmonary blastoma, the syndrome's hallmark tumor, begins as benign lung cysts in early childhood that can transform into an aggressive sarcoma, so detecting cystic lung disease is central to surveillance.
+- `connects-to` → **[Neuroblastoma](../neuroblastoma/README.md)** — DICER1 doubles as a broader tumor suppressor: beyond the inherited syndrome, reduced DICER1 and disrupted microRNA biogenesis are seen in aggressive sporadic neuroblastoma, where loss of mature miRNAs lets oncogenic programs run.
+- `connects-to` → **[NOTCH](../../03-molecular/notch/README.md)** — Losing DICER1 derepresses developmental signals: the mature microRNAs it generates normally restrain pathways like Notch, so impaired miRNA processing in DICER1 tumors unleashes the oncogenic signaling that drives embryonal growth.
 
 ---
 
