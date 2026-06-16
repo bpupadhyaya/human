@@ -169,6 +169,15 @@ cross_links:
   - target: 01-human/04-cellular/endothelial-cell
     relation: connects-to
     note: "Its treatment targets the blood supply: differentiated thyroid cancers are vascular, so the multikinase inhibitors lenvatinib and sorafenib work largely by blocking VEGF receptors on endothelial cells to choke off new vessels."
+  - target: 01-human/03-molecular/stat3
+    relation: connects-to
+    note: "STAT3 helps the aggressive forms grow: anaplastic and advanced thyroid cancers show STAT3 activation that supports proliferation and immune evasion, a pathway studied as a target where BRAF and kinase inhibitors fall short."
+  - target: 01-human/03-molecular/nf-kb
+    relation: connects-to
+    note: "NF-κB drives the deadliest variant: anaplastic thyroid carcinoma relies heavily on NF-κB signaling for its rapid, invasive growth, making the pathway a candidate target in a cancer that otherwise resists therapy."
+  - target: 01-human/07-system/venous-thromboembolism
+    relation: connects-to
+    note: "Advanced disease raises the clot risk: like other solid cancers, progressive thyroid cancer carries tumor-driven hypercoagulability, and the antiangiogenic kinase inhibitors used to treat it add their own thrombotic and bleeding hazards."
 ---
 
 # Thyroid Cancer
@@ -363,6 +372,9 @@ Calcitonin doubling time <6 months → poor prognosis → early systemic therapy
 - `connects-to` → **[KRAS](../../03-molecular/kras/README.md)** — A second oncogene family sorts the subtypes: where BRAF drives most papillary cancers, RAS mutations like KRAS underlie follicular thyroid cancer, a molecular split that increasingly guides diagnosis and targeted treatment.
 - `connects-to` → **[Obesity](../obesity/README.md)** — Excess weight raises the risk: obesity is a consistent risk factor for thyroid cancer, contributing through insulin resistance, chronic inflammation and hormonal changes to the steep rise in its incidence.
 - `connects-to` → **[Endothelial Cell](../../04-cellular/endothelial-cell/README.md)** — Its treatment targets the blood supply: differentiated thyroid cancers are vascular, so the multikinase inhibitors lenvatinib and sorafenib work largely by blocking VEGF receptors on endothelial cells to choke off new vessels.
+- `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — STAT3 helps the aggressive forms grow: anaplastic and advanced thyroid cancers show STAT3 activation that supports proliferation and immune evasion, a pathway studied as a target where BRAF and kinase inhibitors fall short.
+- `connects-to` → **[NF-κB](../../03-molecular/nf-kb/README.md)** — NF-κB drives the deadliest variant: anaplastic thyroid carcinoma relies heavily on NF-κB signaling for its rapid, invasive growth, making the pathway a candidate target in a cancer that otherwise resists therapy.
+- `connects-to` → **[Venous Thromboembolism](../venous-thromboembolism/README.md)** — Advanced disease raises the clot risk: like other solid cancers, progressive thyroid cancer carries tumor-driven hypercoagulability, and the antiangiogenic kinase inhibitors used to treat it add their own thrombotic and bleeding hazards.
 
 [^schlumberger-2015-lenvatinib]: Schlumberger M, Tahara M, Wirth LJ, et al. Lenvatinib versus placebo in radioiodine-refractory differentiated thyroid cancer. *N Engl J Med.* 2015;372(7):621-630. [doi:10.1056/NEJMoa1406470](https://doi.org/10.1056/NEJMoa1406470) · [PubMed 25671254](https://pubmed.ncbi.nlm.nih.gov/25671254/)
 [^subbiah-2018-atc-dabrafenib]: Subbiah V, Kreitman RJ, Wainberg ZA, et al. Dabrafenib and trametinib treatment in patients with locally advanced or metastatic BRAF V600-mutant anaplastic thyroid cancer. *J Clin Oncol.* 2018;36(1):7-13. [doi:10.1200/JCO.2017.73.6785](https://doi.org/10.1200/JCO.2017.73.6785) · [PubMed 28892432](https://pubmed.ncbi.nlm.nih.gov/28892432/)

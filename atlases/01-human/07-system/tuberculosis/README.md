@@ -169,6 +169,15 @@ cross_links:
   - target: 01-human/03-molecular/nf-kb
     relation: connects-to
     note: "The infected macrophage's master switch is hijacked: Mycobacterium tuberculosis manipulates NF-κB signaling to tune inflammation and its own survival, balancing the cytokine storm that builds the granuloma against the cell-death pathways that would clear it."
+  - target: 01-human/03-molecular/stat3
+    relation: connects-to
+    note: "STAT3 tilts the immune response toward tolerance: driven by IL-10 in TB, STAT3 dampens the macrophage's killing program, a regulatory brake the bacillus exploits to persist inside the granuloma."
+  - target: 01-human/07-system/venous-thromboembolism
+    relation: connects-to
+    note: "Chronic infection thickens the blood: active TB is a recognized prothrombotic state, raising deep-vein thrombosis and pulmonary embolism risk through inflammation, immobility and the acute-phase rise in clotting factors."
+  - target: 01-human/07-system/sepsis
+    relation: connects-to
+    note: "Overwhelming disease can mimic bacterial sepsis: disseminated miliary TB, especially in the immunocompromised, produces a fulminant septic picture with shock and multiorgan failure that needs prompt anti-tuberculous therapy."
 ---
 
 # Tuberculosis
@@ -353,6 +362,9 @@ Standard **HRZE** regimen [^nahid-2016-tb-treatment]:
 - `connects-to` → **[Alveolus](../../05-tissue/alveolus/README.md)** — Infection begins in the air sacs: inhaled bacilli are first engulfed by alveolar macrophages, and it is here in the alveoli that the primary granuloma forms, the foothold from which TB either is contained or spreads.
 - `connects-to` → **[Autophagy](../../03-molecular/autophagy/README.md)** — A cellular self-eating defense is the battleground: macrophage autophagy can capture and destroy the bacilli, so the bug actively blocks phagosome maturation to survive — making autophagy-boosting drugs a host-directed therapy idea against TB.
 - `connects-to` → **[NF-κB](../../03-molecular/nf-kb/README.md)** — The infected macrophage's master switch is hijacked: Mycobacterium tuberculosis manipulates NF-κB signaling to tune inflammation and its own survival, balancing the cytokine storm that builds the granuloma against the cell-death pathways that would clear it.
+- `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — STAT3 tilts the immune response toward tolerance: driven by IL-10 in TB, STAT3 dampens the macrophage's killing program, a regulatory brake the bacillus exploits to persist inside the granuloma.
+- `connects-to` → **[Venous Thromboembolism](../venous-thromboembolism/README.md)** — Chronic infection thickens the blood: active TB is a recognized prothrombotic state, raising deep-vein thrombosis and pulmonary embolism risk through inflammation, immobility and the acute-phase rise in clotting factors.
+- `connects-to` → **[Sepsis](../sepsis/README.md)** — Overwhelming disease can mimic bacterial sepsis: disseminated miliary TB, especially in the immunocompromised, produces a fulminant septic picture with shock and multiorgan failure that needs prompt anti-tuberculous therapy.
 
 ## See Also
 
