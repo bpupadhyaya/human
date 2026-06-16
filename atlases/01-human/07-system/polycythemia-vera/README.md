@@ -169,6 +169,15 @@ cross_links:
   - target: 01-human/07-system/pulmonary-arterial-hypertension
     relation: connects-to
     note: "The thickened blood strains the lungs' vessels: the hyperviscosity and clotting tendency of PV, along with megakaryocyte-driven remodeling, can raise pulmonary artery pressure, one of the circulatory complications of an overcrowded bloodstream."
+  - target: 01-human/03-molecular/nlrp3-inflammasome
+    relation: connects-to
+    note: "JAK2 inflames as it proliferates: the mutant clone drives NLRP3-inflammasome activation and IL-1β release, the chronic inflammation that fuels PV's thrombosis risk and constitutional symptoms beyond the raised cell counts."
+  - target: 01-human/07-system/mds
+    relation: connects-to
+    note: "The clone can shift toward dysplasia: as it accumulates secondary mutations, polycythemia vera can transform into a myelodysplastic/MDS-like phase on the path to leukemia, especially after cytoreductive therapy."
+  - target: 01-human/07-system/hypertension
+    relation: connects-to
+    note: "Overcrowded blood pushes the pressure up: the raised red-cell mass and viscosity of PV increase vascular resistance, contributing to hypertension that compounds the disease's cardiovascular and thrombotic risk."
 ---
 
 # Polycythemia Vera
@@ -341,6 +350,9 @@ PV must be distinguished from secondary erythrocytosis (elevated EPO, JAK2 wild-
 - `connects-to` → **[Hepcidin](../../03-molecular/hepcidin/README.md)** — The iron gate stays wide open: the ravenous erythropoiesis of PV releases erythroferrone that suppresses hepcidin, so the gut keeps absorbing iron to feed red-cell production — part of why the disease runs iron-deficient yet overproduces cells.
 - `connects-to` → **[TET2](../../03-molecular/tet2/README.md)** — JAK2 rarely acts alone: co-occurring epigenetic mutations like TET2 shape PV's course, sometimes preceding the JAK2 hit and influencing how readily the clone progresses toward myelofibrosis or leukemia.
 - `connects-to` → **[Pulmonary Arterial Hypertension](../pulmonary-arterial-hypertension/README.md)** — The thickened blood strains the lungs' vessels: the hyperviscosity and clotting tendency of PV, along with megakaryocyte-driven remodeling, can raise pulmonary artery pressure, one of the circulatory complications of an overcrowded bloodstream.
+- `connects-to` → **[NLRP3 Inflammasome](../../03-molecular/nlrp3-inflammasome/README.md)** — JAK2 inflames as it proliferates: the mutant clone drives NLRP3-inflammasome activation and IL-1β release, the chronic inflammation that fuels PV's thrombosis risk and constitutional symptoms beyond the raised cell counts.
+- `connects-to` → **[Myelodysplastic Syndromes](../mds/README.md)** — The clone can shift toward dysplasia: as it accumulates secondary mutations, polycythemia vera can transform into a myelodysplastic/MDS-like phase on the path to leukemia, especially after cytoreductive therapy.
+- `connects-to` → **[Hypertension](../hypertension/README.md)** — Overcrowded blood pushes the pressure up: the raised red-cell mass and viscosity of PV increase vascular resistance, contributing to hypertension that compounds the disease's cardiovascular and thrombotic risk.
 
 [^vannucchi-2015-response]: Vannucchi AM, Kiladjian JJ, Griesshammer M, et al. Ruxolitinib versus standard therapy for the treatment of polycythemia vera. *N Engl J Med.* 2015;372(5):426-435. [doi:10.1056/NEJMoa1409630](https://doi.org/10.1056/NEJMoa1409630) · [PubMed 25577388](https://pubmed.ncbi.nlm.nih.gov/25577388/)
 [^gisslinger-2020-proud-pv]: Gisslinger H, Gotic M, Holowiecki J, et al. Ropeginterferon alfa-2b versus standard therapy for polycythaemia vera (PROUD-PV and CONTINUATION-PV): a randomised, non-inferiority, phase 3 trial and its extension study. *Lancet Haematol.* 2020;7(3):e196-e208. [doi:10.1016/S2352-3026(19)30236-4](https://doi.org/10.1016/S2352-3026(19)30236-4) · [PubMed 32046833](https://pubmed.ncbi.nlm.nih.gov/32046833/)

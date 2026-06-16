@@ -169,6 +169,15 @@ cross_links:
   - target: 01-human/04-cellular/endothelial-cell
     relation: connects-to
     note: "They are intensely vascular tumors: pseudohypoxic SDH and VHL mutations crank up VEGF, so endothelial cells build a dense blood supply — making these tumors hemorrhagic at surgery and their angiogenesis a therapeutic target."
+  - target: 01-human/03-molecular/epas1
+    relation: connects-to
+    note: "EPAS1 anchors the pseudohypoxia cluster: gain-of-function HIF-2α (EPAS1) mutations cause pheochromocytoma/paraganglioma — sometimes with polycythemia (Pacak-Zhuang) — by mimicking a low-oxygen state that drives the tumor."
+  - target: 01-human/03-molecular/fh
+    relation: connects-to
+    note: "Another Krebs-cycle gene joins the cluster: FH mutations, like SDH, flood the cell with an oncometabolite that stabilizes HIF, placing FH-mutant pheochromocytoma/paraganglioma in the pseudohypoxic, often aggressive subgroup."
+  - target: 01-human/07-system/heart-failure
+    relation: connects-to
+    note: "Catecholamines can stun the heart: the adrenaline surges of pheochromocytoma cause a catecholamine cardiomyopathy (including takotsubo) that can precipitate acute heart failure, often reversible once the tumor is removed."
 ---
 
 # Pheochromocytoma/Paraganglioma
@@ -361,6 +370,9 @@ Active in Cluster 1 (MET/AXL co-expressed in SDH-deficient tumors); Phase 2 CABO
 - `connects-to` → **[Type 2 Diabetes](../type-2-diabetes/README.md)** — The catecholamine flood disrupts sugar control: adrenaline and noradrenaline suppress insulin release and drive glycogen breakdown, so pheochromocytoma often causes hyperglycemia and secondary diabetes that resolves once the tumor is removed.
 - `connects-to` → **[TERT](../../03-molecular/tert/README.md)** — Telomere genes flag the dangerous ones: TERT and ATRX alterations mark the pheochromocytomas and paragangliomas most likely to metastasize, helping pick out aggressive tumors in a disease where malignancy is otherwise hard to predict.
 - `connects-to` → **[Endothelial Cell](../../04-cellular/endothelial-cell/README.md)** — They are intensely vascular tumors: pseudohypoxic SDH and VHL mutations crank up VEGF, so endothelial cells build a dense blood supply — making these tumors hemorrhagic at surgery and their angiogenesis a therapeutic target.
+- `connects-to` → **[EPAS1](../../03-molecular/epas1/README.md)** — EPAS1 anchors the pseudohypoxia cluster: gain-of-function HIF-2α (EPAS1) mutations cause pheochromocytoma/paraganglioma — sometimes with polycythemia (Pacak-Zhuang) — by mimicking a low-oxygen state that drives the tumor.
+- `connects-to` → **[FH](../../03-molecular/fh/README.md)** — Another Krebs-cycle gene joins the cluster: FH mutations, like SDH, flood the cell with an oncometabolite that stabilizes HIF, placing FH-mutant pheochromocytoma/paraganglioma in the pseudohypoxic, often aggressive subgroup.
+- `connects-to` → **[Heart Failure](../heart-failure/README.md)** — Catecholamines can stun the heart: the adrenaline surges of pheochromocytoma cause a catecholamine cardiomyopathy (including takotsubo) that can precipitate acute heart failure, often reversible once the tumor is removed.
 
 [^lenders-2014-pheo-guideline]: Lenders JW, Duh QY, Eisenhofer G, et al. Pheochromocytoma and paraganglioma: an endocrine society clinical practice guideline. *J Clin Endocrinol Metab.* 2014;99(6):1915-1942. [doi:10.1210/jc.2014-1498](https://doi.org/10.1210/jc.2014-1498) · [PubMed 24893135](https://pubmed.ncbi.nlm.nih.gov/24893135/)
 [^baudin-2021-firstmappp-sunitinib]: Baudin E, Goichot B, Berruti A, et al. First International Randomized Study in Malignant Progressive Pheochromocytoma and Paragangliomas (FIRSTMAPPP). *Ann Oncol.* 2021;32(10):1245-1254. [doi:10.1016/j.annonc.2021.07.009](https://doi.org/10.1016/j.annonc.2021.07.009) · [PubMed 34246769](https://pubmed.ncbi.nlm.nih.gov/34246769/)
