@@ -160,6 +160,15 @@ cross_links:
   - target: 01-human/04-cellular/regulatory-t-cell
     relation: connects-to
     note: "The tumor is immunologically cold: it carries few mutations to flag and recruits regulatory T cells that suppress attack, an immune-evasive microenvironment that has frustrated immunotherapy and shapes the GD2 CAR-T trials now under way."
+  - target: 01-human/03-molecular/tgf-beta
+    relation: connects-to
+    note: "TGF-β helps the glioma spread and hide: it drives the diffuse invasion through the brainstem and dampens the local immune response, part of why these tumors are unresectable and immune-resistant."
+  - target: 01-human/04-cellular/macrophage
+    relation: connects-to
+    note: "Macrophages fill the tumor but don't fight it: monocyte-derived macrophages, alongside microglia, dominate the DMG microenvironment in an immunosuppressive state that helps the cancer evade attack."
+  - target: 01-human/07-system/neurofibromatosis-type-1
+    relation: connects-to
+    note: "An NF1 background can seed the glioma: loss of the NF1 tumor suppressor is a recurrent driver of diffuse midline glioma, and the syndrome's lifelong predisposition to gliomas links it to this lethal childhood tumor."
 ---
 
 # Diffuse Midline Glioma
@@ -346,6 +355,9 @@ Direct infusion of drugs into the pons via stereotactic catheter; bypasses BBB; 
 - `connects-to` → **[Endocrine System](../endocrine-system/README.md)** — A midline tumor sits beside the master glands: thalamic and pontine gliomas and the radiation aimed at them border the hypothalamus and pituitary, so survivors face deficits of growth, thyroid and sex hormones that need lifelong endocrine follow-up.
 - `connects-to` → **[MYC](../../03-molecular/myc/README.md)** — A subset of these gliomas amplify MYC: alongside the defining H3K27M mutation, MYC or PVT1 amplification drives some diffuse midline gliomas, adding a proliferative push that marks particularly aggressive, fast-growing tumors.
 - `connects-to` → **[Regulatory T Cell](../../04-cellular/regulatory-t-cell/README.md)** — The tumor is immunologically cold: it carries few mutations to flag and recruits regulatory T cells that suppress attack, an immune-evasive microenvironment that has frustrated immunotherapy and shapes the GD2 CAR-T trials now under way.
+- `connects-to` → **[Transforming Growth Factor Beta](../../03-molecular/tgf-beta/README.md)** — TGF-β helps the glioma spread and hide: it drives the diffuse invasion through the brainstem and dampens the local immune response, part of why these tumors are unresectable and immune-resistant.
+- `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — Macrophages fill the tumor but don't fight it: monocyte-derived macrophages, alongside microglia, dominate the DMG microenvironment in an immunosuppressive state that helps the cancer evade attack.
+- `connects-to` → **[Neurofibromatosis Type 1](../neurofibromatosis-type-1/README.md)** — An NF1 background can seed the glioma: loss of the NF1 tumor suppressor is a recurrent driver of diffuse midline glioma, and the syndrome's lifelong predisposition to gliomas links it to this lethal childhood tumor.
 
 ---
 

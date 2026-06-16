@@ -160,6 +160,15 @@ cross_links:
   - target: 01-human/04-cellular/erythrocyte
     relation: connects-to
     note: "Its tumors can bleed and drain the blood: large pleuropulmonary blastomas and the kidney and gynecologic tumors of DICER1 cause chronic blood loss and anemia of malignancy, leaving children pale and tired before treatment even begins."
+  - target: 01-human/03-molecular/vegf
+    relation: connects-to
+    note: "Its embryonal tumors are richly vascular: with normal microRNA control lost, angiogenic signals like VEGF run unchecked, feeding the rapid growth of pleuropulmonary blastoma and the other DICER1 tumors."
+  - target: 01-human/07-system/endometrial-cancer
+    relation: connects-to
+    note: "DICER1 reaches the uterus and cervix: it causes embryonal rhabdomyosarcoma of the gynecologic tract, so a young woman's unusual cervical or uterine tumor can be the clue that points to the germline syndrome."
+  - target: 01-human/04-cellular/natural-killer-cell
+    relation: connects-to
+    note: "Innate immunity guards the second hit: natural killer cells help cull the genomically deranged cells of DICER1 tumors, and harnessing them is part of the immunotherapy interest in these pediatric cancers."
 ---
 
 # DICER1 Syndrome
@@ -322,6 +331,9 @@ When a child is found to have a thoracic cystic lesion, DICER1 syndrome should b
 - `connects-to` → **[Cytotoxic T Cell](../../04-cellular/t-cytotoxic-cell/README.md)** — Immune surveillance shapes who gets cancer: most DICER1 carriers stay tumor-free despite the germline hit, and cytotoxic T cells policing the many tissues at risk are part of that defense — a rationale for exploring immunotherapy in DICER1 tumors.
 - `connects-to` → **[Regulatory T Cell](../../04-cellular/regulatory-t-cell/README.md)** — DICER1 tumors learn to suppress the attack: like other cancers they can recruit regulatory T cells that damp local immunity, helping the second-hit clone grow past the cytotoxic defenses that hold most carriers' tissues in check.
 - `connects-to` → **[Erythrocyte](../../04-cellular/erythrocyte/README.md)** — Its tumors can bleed and drain the blood: large pleuropulmonary blastomas and the kidney and gynecologic tumors of DICER1 cause chronic blood loss and anemia of malignancy, leaving children pale and tired before treatment even begins.
+- `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — Its embryonal tumors are richly vascular: with normal microRNA control lost, angiogenic signals like VEGF run unchecked, feeding the rapid growth of pleuropulmonary blastoma and the other DICER1 tumors.
+- `connects-to` → **[Endometrial Cancer](../endometrial-cancer/README.md)** — DICER1 reaches the uterus and cervix: it causes embryonal rhabdomyosarcoma of the gynecologic tract, so a young woman's unusual cervical or uterine tumor can be the clue that points to the germline syndrome.
+- `connects-to` → **[Natural Killer Cell](../../04-cellular/natural-killer-cell/README.md)** — Innate immunity guards the second hit: natural killer cells help cull the genomically deranged cells of DICER1 tumors, and harnessing them is part of the immunotherapy interest in these pediatric cancers.
 
 ---
 
