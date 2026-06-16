@@ -160,6 +160,15 @@ cross_links:
   - target: 01-human/03-molecular/hif-1alpha
     relation: connects-to
     note: "Hypoxia shapes its spread to the liver: HIF signaling and the angiogenesis it drives help uveal melanoma colonize the liver, its near-exclusive metastatic site, a hypoxic-niche dependence studied as a therapeutic angle."
+  - target: 01-human/03-molecular/ctla-4
+    relation: connects-to
+    note: "Checkpoint drugs barely dent it: unlike cutaneous melanoma, uveal melanoma's low mutation load makes anti-CTLA-4 and anti-PD-1 largely ineffective, which is why the T-cell-redirecting drug tebentafusp, not classic checkpoint blockade, became its breakthrough therapy."
+  - target: 01-human/03-molecular/mtor
+    relation: connects-to
+    note: "The mutant G-protein feeds growth hubs: GNAQ/GNA11 signaling activates PKC-MAPK and the PI3K-AKT-mTOR axis, so mTOR sits among the downstream nodes targeted to slow a tumor lacking the BRAF mutations that drive skin melanoma."
+  - target: 01-human/04-cellular/mast-cell
+    relation: connects-to
+    note: "Its immune infiltrate predicts danger: tumor-infiltrating macrophages and mast cells mark the inflammatory, monosomy-3 uveal melanomas with the worst prognosis, so the immune microenvironment is read as a marker of metastatic risk."
 ---
 
 # Uveal Melanoma
@@ -344,6 +353,9 @@ Uveal melanocytes are neural crest-derived, residing in the uveal stroma and mai
 - `connects-to` → **[Proton](../../01-subatomic/proton/README.md)** — Protons spare the eye: proton-beam radiotherapy and plaque brachytherapy deliver a sharp, contained dose to the ocular tumor while sparing the optic nerve and retina, letting many patients keep the eye instead of losing it to enucleation.
 - `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — Uveal melanoma can run in families: germline BAP1 mutations transmit a tumor-predisposition syndrome — uveal melanoma with mesothelioma, kidney and skin cancers — so a diagnosis can prompt genetic testing and counseling of relatives.
 - `connects-to` → **[HIF-1alpha](../../03-molecular/hif-1alpha/README.md)** — Hypoxia shapes its spread to the liver: HIF signaling and the angiogenesis it drives help uveal melanoma colonize the liver, its near-exclusive metastatic site, a hypoxic-niche dependence studied as a therapeutic angle.
+- `connects-to` → **[CTLA-4](../../03-molecular/ctla-4/README.md)** — Checkpoint drugs barely dent it: unlike cutaneous melanoma, uveal melanoma's low mutation load makes anti-CTLA-4 and anti-PD-1 largely ineffective, which is why the T-cell-redirecting drug tebentafusp, not classic checkpoint blockade, became its breakthrough therapy.
+- `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — The mutant G-protein feeds growth hubs: GNAQ/GNA11 signaling activates PKC-MAPK and the PI3K-AKT-mTOR axis, so mTOR sits among the downstream nodes targeted to slow a tumor lacking the BRAF mutations that drive skin melanoma.
+- `connects-to` → **[Mast Cell](../../04-cellular/mast-cell/README.md)** — Its immune infiltrate predicts danger: tumor-infiltrating macrophages and mast cells mark the inflammatory, monosomy-3 uveal melanomas with the worst prognosis, so the immune microenvironment is read as a marker of metastatic risk.
 
 ---
 

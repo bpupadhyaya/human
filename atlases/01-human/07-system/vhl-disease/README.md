@@ -160,6 +160,15 @@ cross_links:
   - target: 01-human/07-system/stroke
     relation: connects-to
     note: "Two VHL features threaten the brain's circulation: EPO-driven polycythemia thickens the blood toward thrombosis, and CNS hemangioblastomas can bleed, both routes by which the syndrome can cause a stroke."
+  - target: 01-human/03-molecular/met
+    relation: connects-to
+    note: "Losing VHL turns up an invasion receptor: HIF accumulation upregulates the MET receptor for hepatocyte growth factor, driving the scattering and invasiveness of VHL clear cell kidney cancer and offering another targetable kinase."
+  - target: 01-human/07-system/ckd
+    relation: connects-to
+    note: "Saving the kidneys is a balancing act: recurrent clear cell cancers force repeated nephron-sparing surgeries, so the cumulative loss of kidney tissue across a lifetime of VHL pushes many patients toward chronic kidney disease."
+  - target: 01-human/04-cellular/mast-cell
+    relation: connects-to
+    note: "Its hallmark brain tumor is built oddly: hemangioblastomas are a tangle of vessels, stromal cells and infiltrating mast cells, whose presence is a recognized histologic feature of these VHL-driven, EPO-secreting growths."
 ---
 
 # VHL Disease
@@ -329,6 +338,9 @@ The genotype-phenotype correlation reflects the degree of pVHL function retained
 - `connects-to` → **[Cyclin D1](../../03-molecular/cyclin-d1/README.md)** — HIF turns on a growth gene in VHL tumors: with pVHL gone, stabilized HIF-2alpha drives cyclin D1, pushing the renal cells through the cell cycle — one way the loss of a single brake gene seeds the syndrome's kidney cancers.
 - `connects-to` → **[Cytotoxic T Cell](../../04-cellular/t-cytotoxic-cell/README.md)** — VHL's clear cell kidney cancers respond to immunotherapy: their HIF-driven biology and immune microenvironment make checkpoint inhibitors that unleash cytotoxic T cells a mainstay for advanced VHL-related renal cell carcinoma.
 - `connects-to` → **[Stroke](../stroke/README.md)** — Two VHL features threaten the brain's circulation: EPO-driven polycythemia thickens the blood toward thrombosis, and CNS hemangioblastomas can bleed, both routes by which the syndrome can cause a stroke.
+- `connects-to` → **[MET](../../03-molecular/met/README.md)** — Losing VHL turns up an invasion receptor: HIF accumulation upregulates the MET receptor for hepatocyte growth factor, driving the scattering and invasiveness of VHL clear cell kidney cancer and offering another targetable kinase.
+- `connects-to` → **[Chronic Kidney Disease](../ckd/README.md)** — Saving the kidneys is a balancing act: recurrent clear cell cancers force repeated nephron-sparing surgeries, so the cumulative loss of kidney tissue across a lifetime of VHL pushes many patients toward chronic kidney disease.
+- `connects-to` → **[Mast Cell](../../04-cellular/mast-cell/README.md)** — Its hallmark brain tumor is built oddly: hemangioblastomas are a tangle of vessels, stromal cells and infiltrating mast cells, whose presence is a recognized histologic feature of these VHL-driven, EPO-secreting growths.
 
 [^lonser-2003-vhl-disease]: Lonser RR, Glenn GM, Walther M, et al. von Hippel-Lindau disease. *Lancet.* 2003;361(9374):2059-2067. [doi:10.1016/S0140-6736(03)13643-4](https://doi.org/10.1016/S0140-6736(03)13643-4) · [PubMed 12814730](https://pubmed.ncbi.nlm.nih.gov/12814730/)
 [^choueiri-2020-hif2-rcc]: Choueiri TK, Kaelin WG Jr. Targeting the HIF2-VEGF axis in renal cell carcinoma. *Nat Med.* 2020;26(10):1519-1530. [doi:10.1038/s41591-020-1093-z](https://doi.org/10.1038/s41591-020-1093-z) · [PubMed 33020650](https://pubmed.ncbi.nlm.nih.gov/33020650/)
