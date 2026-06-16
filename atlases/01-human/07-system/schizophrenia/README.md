@@ -178,6 +178,15 @@ cross_links:
   - target: 01-human/03-molecular/melatonin
     relation: connects-to
     note: "The body clock is unsettled: melatonin rhythms are blunted and sleep-wake cycles disrupted in schizophrenia, both as a feature of the illness and a target, with melatonin used to ease the insomnia and metabolic effects of treatment."
+  - target: 01-human/03-molecular/nlrp3-inflammasome
+    relation: connects-to
+    note: "Neuroinflammation has an inflammasome arm: NLRP3-driven IL-1β release is implicated in the microglial activation and developmental disruption proposed in schizophrenia, complementing the complement-mediated synaptic pruning findings."
+  - target: 01-human/07-system/alcohol-use-disorder
+    relation: connects-to
+    note: "Substance use runs high: alcohol use disorder is markedly more common in schizophrenia, used to self-medicate symptoms yet worsening psychosis, adherence, and the metabolic and cardiovascular toll of the illness."
+  - target: 01-human/07-system/stroke
+    relation: connects-to
+    note: "The mortality gap reaches the brain: metabolic syndrome, antipsychotic effects, and smoking give schizophrenia a raised stroke risk, part of the cardiovascular disease that shortens life expectancy by 15-20 years."
 ---
 
 # Schizophrenia
@@ -395,6 +404,9 @@ Notably, schizophrenia shares genetic loci with bipolar disorder, ASD, ADHD, maj
 - `connects-to` → **[Type 2 Diabetes](../type-2-diabetes/README.md)** — The sugar disease often follows: schizophrenia carries a raised risk of type 2 diabetes both from antipsychotics that directly impair insulin signaling — sometimes within weeks, beyond their weight effect — and from an intrinsic predisposition shared with the illness.
 - `connects-to` → **[T Helper Cell](../../04-cellular/t-helper-cell/README.md)** — An immune signature runs alongside: shifts in helper T-cell subsets and raised inflammatory cytokines appear in schizophrenia, supporting a neuroinflammatory contribution that complements the microglial pruning and complement findings.
 - `connects-to` → **[Melatonin](../../03-molecular/melatonin/README.md)** — The body clock is unsettled: melatonin rhythms are blunted and sleep-wake cycles disrupted in schizophrenia, both as a feature of the illness and a target, with melatonin used to ease the insomnia and metabolic effects of treatment.
+- `connects-to` → **[NLRP3 Inflammasome](../../03-molecular/nlrp3-inflammasome/README.md)** — Neuroinflammation has an inflammasome arm: NLRP3-driven IL-1β release is implicated in the microglial activation and developmental disruption proposed in schizophrenia, complementing the complement-mediated synaptic pruning findings.
+- `connects-to` → **[Alcohol Use Disorder](../alcohol-use-disorder/README.md)** — Substance use runs high: alcohol use disorder is markedly more common in schizophrenia, used to self-medicate symptoms yet worsening psychosis, adherence, and the metabolic and cardiovascular toll of the illness.
+- `connects-to` → **[Stroke](../stroke/README.md)** — The mortality gap reaches the brain: metabolic syndrome, antipsychotic effects, and smoking give schizophrenia a raised stroke risk, part of the cardiovascular disease that shortens life expectancy by 15-20 years.
 
 [^howes-2009-dopamine-hypothesis]: Howes OD, Kapur S. The dopamine hypothesis of schizophrenia: version III—the final common pathway. *Schizophr Bull.* 2009;35(3):549-562. [doi:10.1093/schbul/sbp006](https://doi.org/10.1093/schbul/sbp006) · [PubMed 19325164](https://pubmed.ncbi.nlm.nih.gov/19325164/)
 [^moghaddam-2012-glutamate]: Moghaddam B, Javitt D. From revolution to evolution: the glutamate hypothesis of schizophrenia and its implication for treatment. *Neuropsychopharmacology.* 2012;37(1):4-15. [doi:10.1038/npp.2011.181](https://doi.org/10.1038/npp.2011.181) · [PubMed 21956446](https://pubmed.ncbi.nlm.nih.gov/21956446/)
