@@ -166,6 +166,15 @@ cross_links:
   - target: 01-human/04-cellular/mast-cell
     relation: connects-to
     note: "Mast cells gather in the diseased arteries: they accumulate around the remodeled pulmonary vessels and plexiform lesions of PAH, releasing mediators that fuel the proliferation and fibrosis narrowing the lumen."
+  - target: 01-human/03-molecular/notch
+    relation: connects-to
+    note: "A developmental switch drives the vessel narrowing: Notch3 signaling pushes pulmonary smooth-muscle cells to proliferate and resist apoptosis, thickening the arterial wall — a remodeling pathway being explored as a therapeutic target in PAH."
+  - target: 01-human/04-cellular/regulatory-t-cell
+    relation: connects-to
+    note: "Faulty immune restraint lets the arteries inflame: a deficiency of regulatory T cells permits the perivascular inflammation that drives pulmonary vascular remodeling, one reason PAH clusters with autoimmune diseases like scleroderma and lupus."
+  - target: 01-human/07-system/copd
+    relation: connects-to
+    note: "Chronic lung disease raises the pressure too: in COPD, alveolar destruction and chronic hypoxia constrict and remodel the pulmonary arteries, producing the group-3 pulmonary hypertension that worsens breathlessness and strains the right heart."
 ---
 
 # Pulmonary Arterial Hypertension
@@ -338,6 +347,9 @@ Key variables: WHO functional class (I-IV), 6-minute walk distance (6MWD), NT-pr
 - `connects-to` → **[Interleukin-6](../../03-molecular/il-6/README.md)** — Inflammation remodels the lung vessels: IL-6 is elevated in pulmonary arterial hypertension and drives the smooth-muscle and endothelial proliferation that narrows the arteries, an inflammatory arm of the disease that tracks with severity and is a therapeutic target.
 - `connects-to` → **[Thyroid Gland](../../06-organ/thyroid/README.md)** — Thyroid disease keeps company with PAH: both autoimmune hypo- and hyperthyroidism are over-represented in pulmonary arterial hypertension, so thyroid function is checked, since correcting it can ease the cardiovascular strain.
 - `connects-to` → **[Mast Cell](../../04-cellular/mast-cell/README.md)** — Mast cells gather in the diseased arteries: they accumulate around the remodeled pulmonary vessels and plexiform lesions of PAH, releasing mediators that fuel the proliferation and fibrosis narrowing the lumen.
+- `connects-to` → **[NOTCH](../../03-molecular/notch/README.md)** — A developmental switch drives the vessel narrowing: Notch3 signaling pushes pulmonary smooth-muscle cells to proliferate and resist apoptosis, thickening the arterial wall — a remodeling pathway being explored as a therapeutic target in PAH.
+- `connects-to` → **[Regulatory T Cell](../../04-cellular/regulatory-t-cell/README.md)** — Faulty immune restraint lets the arteries inflame: a deficiency of regulatory T cells permits the perivascular inflammation that drives pulmonary vascular remodeling, one reason PAH clusters with autoimmune diseases like scleroderma and lupus.
+- `connects-to` → **[COPD](../copd/README.md)** — Chronic lung disease raises the pressure too: in COPD, alveolar destruction and chronic hypoxia constrict and remodel the pulmonary arteries, producing the group-3 pulmonary hypertension that worsens breathlessness and strains the right heart.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 

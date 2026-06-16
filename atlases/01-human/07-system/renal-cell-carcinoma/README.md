@@ -160,6 +160,15 @@ cross_links:
   - target: 01-human/04-cellular/cardiomyocyte
     relation: connects-to
     note: "RCC can climb into the heart: its tumor thrombus grows up the renal vein and inferior vena cava, sometimes reaching the right atrium against the cardiomyocytes — while the TKIs treating it add their own cardiotoxic strain."
+  - target: 01-human/03-molecular/pdgf
+    relation: connects-to
+    note: "Its pseudohypoxic drive feeds more than VEGF: VHL loss also raises PDGF, so the tyrosine-kinase inhibitors used against RCC block PDGF receptors alongside VEGFR to starve the tumor's abundant blood supply."
+  - target: 01-human/03-molecular/ctla-4
+    relation: connects-to
+    note: "RCC is unusually immune-responsive: combining CTLA-4 blockade with anti-PD-1 unleashes T cells against the tumor and is now frontline for advanced disease, making this one of the cancers most transformed by checkpoint immunotherapy."
+  - target: 01-human/07-system/ckd
+    relation: connects-to
+    note: "Diseased kidneys breed cancer: long-standing chronic kidney disease and the acquired cystic change of dialysis sharply raise RCC risk, while removing a tumor-bearing kidney can in turn push remaining function toward chronic kidney disease."
 ---
 
 # Renal Cell Carcinoma
@@ -326,6 +335,9 @@ Kidney → primary site of EPO production under hypoxia; VHL-intact renal inters
 - `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — A sudden left varicocele can betray a kidney tumor: a left RCC invading the renal vein blocks the gonadal vein that drains into it, so a new, non-decompressing left varicocele in a man warrants imaging of the kidney.
 - `connects-to` → **[SDHB](../../03-molecular/sdhb/README.md)** — RCC has a rare metabolic-gene form: germline SDHB and related succinate-dehydrogenase mutations cause a hereditary renal cell carcinoma alongside paraganglioma, the same pseudohypoxic pathway that drives the FH-deficient and VHL kidney cancers.
 - `connects-to` → **[Cardiomyocyte](../../04-cellular/cardiomyocyte/README.md)** — RCC can climb into the heart: its tumor thrombus grows up the renal vein and inferior vena cava, sometimes reaching the right atrium against the cardiomyocytes — while the TKIs treating it add their own cardiotoxic strain.
+- `connects-to` → **[PDGF](../../03-molecular/pdgf/README.md)** — Its pseudohypoxic drive feeds more than VEGF: VHL loss also raises PDGF, so the tyrosine-kinase inhibitors used against RCC block PDGF receptors alongside VEGFR to starve the tumor's abundant blood supply.
+- `connects-to` → **[CTLA-4](../../03-molecular/ctla-4/README.md)** — RCC is unusually immune-responsive: combining CTLA-4 blockade with anti-PD-1 unleashes T cells against the tumor and is now frontline for advanced disease, making this one of the cancers most transformed by checkpoint immunotherapy.
+- `connects-to` → **[Chronic Kidney Disease](../ckd/README.md)** — Diseased kidneys breed cancer: long-standing chronic kidney disease and the acquired cystic change of dialysis sharply raise RCC risk, while removing a tumor-bearing kidney can in turn push remaining function toward chronic kidney disease.
 
 [^motzer-2018-checkmate214]: Motzer RJ, Tannir NM, McDermott DF, et al. Nivolumab plus ipilimumab versus sunitinib in advanced renal-cell carcinoma. *N Engl J Med.* 2018;378(14):1277-1290. [doi:10.1056/NEJMoa1712126](https://doi.org/10.1056/NEJMoa1712126) · [PubMed 29562145](https://pubmed.ncbi.nlm.nih.gov/29562145/)
 [^rini-2019-keynote426]: Rini BI, Plimack ER, Stus V, et al. Pembrolizumab plus axitinib versus sunitinib for advanced renal-cell carcinoma. *N Engl J Med.* 2019;380(12):1116-1127. [doi:10.1056/NEJMoa1816714](https://doi.org/10.1056/NEJMoa1816714) · [PubMed 30779529](https://pubmed.ncbi.nlm.nih.gov/30779529/)
