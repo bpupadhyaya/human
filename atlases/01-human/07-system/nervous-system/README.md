@@ -178,6 +178,15 @@ cross_links:
   - target: 02-pathogen/05-prions/prion-protein
     relation: damaged-by
     note: "PrPSc propagates via axonal transport along synaptic networks; spongiform degeneration (vacuolation, neuronal dropout) spreads anatomically through the nervous system; thalamus in FFI, cerebellar cortex in GSS, cerebral cortex/basal ganglia in sCJD; uniformly fatal."
+  - target: 01-human/05-tissue/synapse
+    relation: connects-to
+    note: "The synapse is where the nervous system computes: chemical and electrical junctions between neurons transmit and weight signals, and their plasticity underlies learning, memory, and the disorders that disrupt connectivity."
+  - target: 01-human/02-atomic/sodium
+    relation: connects-to
+    note: "Sodium carries the nerve impulse: the inrush of sodium ions through voltage-gated channels generates the action potential, the electrical signal on which all nervous-system communication depends."
+  - target: 01-human/07-system/stroke
+    relation: connects-to
+    note: "Stroke is the nervous system starved of blood: a blocked or burst cerebral vessel kills neurons within minutes, the leading cause of acquired neurological disability and a prime example of the brain's dependence on its circulation."
 ---
 
 # Nervous System
@@ -267,6 +276,9 @@ Distributed cortical networks underlie language (Broca's area, Wernicke's area, 
 - `contains` → **[gaba](../../03-molecular/gaba/README.md)** — GABA is the CNS's dominant inhibitory transmitter
 - `connects-to` → **[cardiovascular-system](../../07-system/cardiovascular-system/README.md)** — autonomic nervous system governs cardiac rate, contractility, and vascular tone; the baroreceptor reflex and cerebral autoregulation link the two systems bidirectionally
 - `damaged-by` → **[Prion Protein (PrP)](../../../02-pathogen/05-prions/prion-protein/README.md)** — PrPSc spreads via axonal transport along synaptic networks; spongiform vacuolation propagates through thalamus (FFI), cerebellar cortex (GSS), and cerebral cortex + basal ganglia (sCJD); no disease-modifying treatment exists.
+- `connects-to` → **[Synapse](../../05-tissue/synapse/README.md)** — The synapse is where the nervous system computes: chemical and electrical junctions between neurons transmit and weight signals, and their plasticity underlies learning, memory, and the disorders that disrupt connectivity.
+- `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — Sodium carries the nerve impulse: the inrush of sodium ions through voltage-gated channels generates the action potential, the electrical signal on which all nervous-system communication depends.
+- `connects-to` → **[Stroke](../stroke/README.md)** — Stroke is the nervous system starved of blood: a blocked or burst cerebral vessel kills neurons within minutes, the leading cause of acquired neurological disability and a prime example of the brain's dependence on its circulation.
 
 ## Pathology
 

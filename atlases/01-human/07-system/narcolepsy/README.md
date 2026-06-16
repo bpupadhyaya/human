@@ -156,6 +156,15 @@ cross_links:
   - target: 01-human/03-molecular/ghrelin
     relation: connects-to
     note: "Appetite signals run awry: orexin normally integrates the hunger hormone ghrelin with arousal, so its loss in narcolepsy unbalances the appetite-energy axis, contributing to the increased eating and weight gain that accompany the disorder."
+  - target: 01-human/03-molecular/tnf-alpha
+    relation: connects-to
+    note: "Post-infectious inflammation may help trigger it: TNF-α and other cytokines rise after the infections (H1N1, streptococcus) that precede type 1 narcolepsy, part of the immune storm thought to unmask the autoimmune attack on orexin neurons."
+  - target: 01-human/07-system/generalized-anxiety-disorder
+    relation: connects-to
+    note: "The mind carries the burden of broken sleep: anxiety and depression are markedly more common in narcolepsy, both from the disorder's neurobiology and the strain of unpredictable sleepiness and cataplexy on daily life."
+  - target: 01-human/07-system/migraine
+    relation: connects-to
+    note: "Headache shadows the sleep disorder: migraine occurs more often in people with narcolepsy, the two sharing dysregulation of the hypothalamic and monoaminergic circuits that govern arousal and pain."
 sources:
   - id: scammell-2015-narcolepsy-review
     type: peer-reviewed
@@ -342,6 +351,9 @@ Cataplexy is the **pathognomonic** feature of NT1 — sudden, bilateral loss of 
 - `connects-to` → **[Type 2 Diabetes](../type-2-diabetes/README.md)** — Losing orexin disturbs metabolism: beyond weight gain, narcolepsy carries a higher rate of insulin resistance and type 2 diabetes, since the orexin system helps regulate glucose and energy balance, not just wakefulness.
 - `connects-to` → **[Hypertension](../hypertension/README.md)** — The night-time blood pressure stays high: narcoleptics often lose the normal nocturnal dip in blood pressure, a non-dipping pattern linked to orexin loss and fragmented sleep that adds to their long-term cardiovascular risk.
 - `connects-to` → **[Ghrelin](../../03-molecular/ghrelin/README.md)** — Appetite signals run awry: orexin normally integrates the hunger hormone ghrelin with arousal, so its loss in narcolepsy unbalances the appetite-energy axis, contributing to the increased eating and weight gain that accompany the disorder.
+- `connects-to` → **[TNF-α (Tumor Necrosis Factor-alpha)](../../03-molecular/tnf-alpha/README.md)** — Post-infectious inflammation may help trigger it: TNF-α and other cytokines rise after the infections (H1N1, streptococcus) that precede type 1 narcolepsy, part of the immune storm thought to unmask the autoimmune attack on orexin neurons.
+- `connects-to` → **[Generalized Anxiety Disorder](../generalized-anxiety-disorder/README.md)** — The mind carries the burden of broken sleep: anxiety and depression are markedly more common in narcolepsy, both from the disorder's neurobiology and the strain of unpredictable sleepiness and cataplexy on daily life.
+- `connects-to` → **[Migraine](../migraine/README.md)** — Headache shadows the sleep disorder: migraine occurs more often in people with narcolepsy, the two sharing dysregulation of the hypothalamic and monoaminergic circuits that govern arousal and pain.
 
 [^scammell-2015-narcolepsy-review]: Scammell TE. Narcolepsy. *N Engl J Med.* 2015;373(27):2654-2662. [doi:10.1056/NEJMra1500587](https://doi.org/10.1056/NEJMra1500587) · [PubMed 26716917](https://pubmed.ncbi.nlm.nih.gov/26716917/)
 [^dauvilliers-2007-narcolepsy-clinical]: Dauvilliers Y, Arnulf I, Mignot E. Narcolepsy with cataplexy. *Lancet.* 2007;369(9560):499-511. [doi:10.1016/S0140-6736(07)60237-2](https://doi.org/10.1016/S0140-6736(07)60237-2) · [PubMed 17292770](https://pubmed.ncbi.nlm.nih.gov/17292770/)
