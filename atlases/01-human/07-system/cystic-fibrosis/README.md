@@ -169,6 +169,15 @@ cross_links:
   - target: 01-human/04-cellular/dendritic-cell
     relation: connects-to
     note: "Immune sensing goes awry in the CF lung: dysregulated dendritic cells fail to resolve infection and instead help sustain the damaging inflammation, part of why the CF airway cannot clear its chronic colonizers."
+  - target: 01-human/03-molecular/il-17a
+    relation: connects-to
+    note: "A Th17 arm recruits the destructive neutrophils: IL-17A is elevated in CF airways and drives the neutrophil influx and mucin production that wreck the lung, making the IL-17 axis a candidate anti-inflammatory target."
+  - target: 01-human/07-system/sepsis
+    relation: connects-to
+    note: "Infection can break out of the lung: severe exacerbations and Burkholderia cepacia 'cepacia syndrome,' along with long-term indwelling venous catheters, expose CF patients to bloodstream infection and sepsis."
+  - target: 01-human/04-cellular/mast-cell
+    relation: connects-to
+    note: "Allergy compounds the CF airway: mast cells drive the allergic bronchopulmonary aspergillosis and airway hyper-reactivity that often complicate cystic fibrosis on top of its chronic bacterial infection."
 ---
 
 # Cystic Fibrosis
@@ -347,6 +356,9 @@ AND
 - `connects-to` → **[Type 1 Diabetes](../type-1-diabetes/README.md)** — CF carries its own diabetes: scarring of the pancreas destroys the insulin-making islets, producing CF-related diabetes — an insulin-deficient disease like type 1 that becomes common as patients live longer.
 - `connects-to` → **[Interleukin-6](../../03-molecular/il-6/README.md)** — The CF airway runs hot with IL-6: persistent neutrophilic infection drives high IL-6 and other cytokines, the chronic inflammation that progressively destroys the lung even between exacerbations.
 - `connects-to` → **[Dendritic Cell](../../04-cellular/dendritic-cell/README.md)** — Immune sensing goes awry in the CF lung: dysregulated dendritic cells fail to resolve infection and instead help sustain the damaging inflammation, part of why the CF airway cannot clear its chronic colonizers.
+- `connects-to` → **[IL-17A](../../03-molecular/il-17a/README.md)** — A Th17 arm recruits the destructive neutrophils: IL-17A is elevated in CF airways and drives the neutrophil influx and mucin production that wreck the lung, making the IL-17 axis a candidate anti-inflammatory target.
+- `connects-to` → **[Sepsis](../sepsis/README.md)** — Infection can break out of the lung: severe exacerbations and Burkholderia cepacia 'cepacia syndrome,' along with long-term indwelling venous catheters, expose CF patients to bloodstream infection and sepsis.
+- `connects-to` → **[Mast Cell](../../04-cellular/mast-cell/README.md)** — Allergy compounds the CF airway: mast cells drive the allergic bronchopulmonary aspergillosis and airway hyper-reactivity that often complicate cystic fibrosis on top of its chronic bacterial infection.
 
 ---
 

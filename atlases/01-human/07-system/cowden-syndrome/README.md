@@ -169,6 +169,15 @@ cross_links:
   - target: 01-human/07-system/neurofibromatosis-type-1
     relation: connects-to
     note: "Two overgrowth syndromes meet in the brain: like neurofibromatosis type 1, Cowden's PTEN loss feeds the RAS-PI3K axis and brings macrocephaly and a raised rate of autism, overlapping neurodevelopmental features across the two."
+  - target: 01-human/03-molecular/collagen
+    relation: connects-to
+    note: "A collagen tumor is a diagnostic clue: the sclerotic fibroma (storiform collagenoma) of the skin, a whorled mass of dense collagen, is a characteristic Cowden lesion alongside the trichilemmomas that flag the syndrome."
+  - target: 01-human/07-system/gastric-cancer
+    relation: connects-to
+    note: "The polyps reach the stomach: Cowden studs the GI tract with hamartomatous polyps and carries an increased risk of gastric and other upper-GI cancers, extending its surveillance beyond the colon."
+  - target: 01-human/07-system/hereditary-breast-ovarian-cancer
+    relation: connects-to
+    note: "It is part of the hereditary breast-cancer differential: Cowden's PTEN-driven breast cancer risk overlaps clinically with BRCA-related hereditary breast and ovarian cancer, so the wider tumor and skin pattern is what distinguishes the syndromes and guides gene testing."
 ---
 
 # Cowden Syndrome
@@ -399,6 +408,9 @@ cross_links:
 - `connects-to` → **[IGF-1](../../03-molecular/igf-1/README.md)** — Unchecked growth signaling explains the overgrowth: with PTEN's brake gone, IGF-1-driven PI3K-AKT signaling runs free, behind the macrocephaly, hamartomas, and tissue overgrowth that mark the PTEN syndromes.
 - `connects-to` → **[Regulatory T Cell](../../04-cellular/regulatory-t-cell/README.md)** — PTEN steadies the immune system's brakes: it is essential for regulatory T-cell stability, so PTEN loss can destabilize Tregs into autoimmunity — part of the immune dysregulation seen in PTEN hamartoma syndrome.
 - `connects-to` → **[Neurofibromatosis Type 1](../neurofibromatosis-type-1/README.md)** — Two overgrowth syndromes meet in the brain: like neurofibromatosis type 1, Cowden's PTEN loss feeds the RAS-PI3K axis and brings macrocephaly and a raised rate of autism, overlapping neurodevelopmental features across the two.
+- `connects-to` → **[Collagen](../../03-molecular/collagen/README.md)** — A collagen tumor is a diagnostic clue: the sclerotic fibroma (storiform collagenoma) of the skin, a whorled mass of dense collagen, is a characteristic Cowden lesion alongside the trichilemmomas that flag the syndrome.
+- `connects-to` → **[Gastric Cancer](../gastric-cancer/README.md)** — The polyps reach the stomach: Cowden studs the GI tract with hamartomatous polyps and carries an increased risk of gastric and other upper-GI cancers, extending its surveillance beyond the colon.
+- `connects-to` → **[Hereditary Breast and Ovarian Cancer](../hereditary-breast-ovarian-cancer/README.md)** — It is part of the hereditary breast-cancer differential: Cowden's PTEN-driven breast cancer risk overlaps clinically with BRCA-related hereditary breast and ovarian cancer, so the wider tumor and skin pattern is what distinguishes the syndromes and guides gene testing.
 
 ---
 
