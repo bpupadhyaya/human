@@ -169,6 +169,15 @@ cross_links:
   - target: 01-human/03-molecular/kit
     relation: connects-to
     note: "KIT mutation reshapes the good-risk leukemias: in core-binding-factor AML — the t(8;21) and inv(16) subtypes — an activating KIT mutation worsens the otherwise favorable prognosis and offers a target for KIT-directed therapy."
+  - target: 01-human/03-molecular/wnt-beta-catenin
+    relation: connects-to
+    note: "Self-renewal is hijacked from stem-cell biology: aberrant Wnt/β-catenin signaling sustains the leukemic stem cells that seed relapse, making the pathway a target for trying to exhaust the reservoir standard chemotherapy leaves behind."
+  - target: 01-human/07-system/sepsis
+    relation: connects-to
+    note: "The danger is the empty marrow: AML and its chemotherapy wipe out functioning neutrophils, so overwhelming infection and septic shock through the resulting profound neutropenia are the leading cause of death."
+  - target: 01-human/04-cellular/macrophage
+    relation: connects-to
+    note: "The leukemia bends the niche to its needs: bone-marrow macrophages are reprogrammed to shelter and feed AML cells, and in monocytic subtypes the malignant clone itself differentiates toward macrophages that infiltrate gums and skin."
 ---
 
 # AML
@@ -330,6 +339,9 @@ AML requires cooperative mutations in at least 2 functional categories (Gillilan
 - `connects-to` → **[Cardiomyocyte](../../04-cellular/cardiomyocyte/README.md)** — Induction leans on a cardiotoxic drug: the anthracycline in the '7+3' regimen (daunorubicin or idarubicin) injures cardiomyocytes in a cumulative way, so cardiac function is checked before and during the intensive chemotherapy AML demands.
 - `connects-to` → **[Graft-Versus-Host Disease](../gvhd/README.md)** — Transplant trades one disease for another's risk: allogeneic stem-cell transplant cures high-risk AML partly through a graft-versus-leukemia effect, but the same donor cells can turn on the host as graft-versus-host disease.
 - `connects-to` → **[KIT](../../03-molecular/kit/README.md)** — KIT mutation reshapes the good-risk leukemias: in core-binding-factor AML — the t(8;21) and inv(16) subtypes — an activating KIT mutation worsens the otherwise favorable prognosis and offers a target for KIT-directed therapy.
+- `connects-to` → **[Wnt/beta-catenin](../../03-molecular/wnt-beta-catenin/README.md)** — Self-renewal is hijacked from stem-cell biology: aberrant Wnt/β-catenin signaling sustains the leukemic stem cells that seed relapse, making the pathway a target for trying to exhaust the reservoir standard chemotherapy leaves behind.
+- `connects-to` → **[Sepsis](../sepsis/README.md)** — The danger is the empty marrow: AML and its chemotherapy wipe out functioning neutrophils, so overwhelming infection and septic shock through the resulting profound neutropenia are the leading cause of death.
+- `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — The leukemia bends the niche to its needs: bone-marrow macrophages are reprogrammed to shelter and feed AML cells, and in monocytic subtypes the malignant clone itself differentiates toward macrophages that infiltrate gums and skin.
 
 [^dinardo-2020-viale-a]: DiNardo CD, Jonas BA, Pullarkat V, et al. Azacitidine and venetoclax in previously untreated acute myeloid leukemia. *N Engl J Med.* 2020;383(7):617-629. [doi:10.1056/NEJMoa2012971](https://doi.org/10.1056/NEJMoa2012971) · [PubMed 32786187](https://pubmed.ncbi.nlm.nih.gov/32786187/)
 [^stone-2017-midostaurin]: Stone RM, Mandrekar SJ, Sanford BL, et al. Midostaurin plus chemotherapy for acute myeloid leukemia with a FLT3 mutation. *N Engl J Med.* 2017;377(5):454-464. [doi:10.1056/NEJMoa1614359](https://doi.org/10.1056/NEJMoa1614359) · [PubMed 28644114](https://pubmed.ncbi.nlm.nih.gov/28644114/)

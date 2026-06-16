@@ -166,6 +166,15 @@ cross_links:
   - target: 01-human/07-system/ckd
     relation: connects-to
     note: "Failing kidneys slow every wound: the uremia, anemia, and poor perfusion of chronic kidney disease blunt the inflammatory and proliferative phases, making non-healing wounds and ulcers a common, stubborn problem in these patients."
+  - target: 01-human/03-molecular/tnf-alpha
+    relation: connects-to
+    note: "Inflammation that won't switch off stalls repair: TNF-α drives the early inflammatory phase, but its persistence — as in diabetic and chronic wounds — keeps the wound stuck in inflammation, degrading matrix and blocking the move to proliferation and closure."
+  - target: 01-human/03-molecular/histamine
+    relation: connects-to
+    note: "The first responders open the vessels: histamine released by mast cells at the injury dilates capillaries and raises their permeability, letting plasma, clotting factors and immune cells flood in to begin the healing cascade."
+  - target: 01-human/03-molecular/bradykinin
+    relation: connects-to
+    note: "A kinin both inflames and rebuilds: bradykinin generated at the wound widens vessels and signals pain, but also stimulates the fibroblast proliferation and angiogenesis that drive the repair, linking the inflammatory and rebuilding phases."
 ---
 
 # Wound Healing
@@ -334,6 +343,9 @@ cross_links:
 - `connects-to` → **[Estrogen](../../03-molecular/estrogen/README.md)** — Estrogen speeds repair: it boosts collagen deposition and dampens the excessive inflammation that stalls healing, which is why wounds close more slowly after menopause and topical estrogen has been tried to accelerate them.
 - `connects-to` → **[Adipocyte](../../04-cellular/adipocyte/README.md)** — Fat cells join the repair crew: dermal adipocytes and adipose-derived stem cells help recruit fibroblasts and rebuild the wound bed, while the dysfunctional adipose of obesity instead impairs healing.
 - `connects-to` → **[Chronic Kidney Disease](../ckd/README.md)** — Failing kidneys slow every wound: the uremia, anemia, and poor perfusion of chronic kidney disease blunt the inflammatory and proliferative phases, making non-healing wounds and ulcers a common, stubborn problem in these patients.
+- `connects-to` → **[TNF-α](../../03-molecular/tnf-alpha/README.md)** — Inflammation that won't switch off stalls repair: TNF-α drives the early inflammatory phase, but its persistence — as in diabetic and chronic wounds — keeps the wound stuck in inflammation, degrading matrix and blocking the move to proliferation and closure.
+- `connects-to` → **[Histamine](../../03-molecular/histamine/README.md)** — The first responders open the vessels: histamine released by mast cells at the injury dilates capillaries and raises their permeability, letting plasma, clotting factors and immune cells flood in to begin the healing cascade.
+- `connects-to` → **[Bradykinin](../../03-molecular/bradykinin/README.md)** — A kinin both inflames and rebuilds: bradykinin generated at the wound widens vessels and signals pain, but also stimulates the fibroblast proliferation and angiogenesis that drive the repair, linking the inflammatory and rebuilding phases.
 
 [^singer-1999-wound-healing-review]: Singer AJ, Clark RA. Cutaneous wound healing. *N Engl J Med.* 1999;341(10):738-746. [doi:10.1056/NEJM199909023411006](https://doi.org/10.1056/NEJM199909023411006) · [PubMed 10471461](https://pubmed.ncbi.nlm.nih.gov/10471461/)
 [^gurtner-2008-wound-repair-regeneration]: Gurtner GC, Werner S, Barrandon Y, Longaker MT. Wound repair and regeneration. *Nature.* 2008;453(7193):314-321. [doi:10.1038/nature07039](https://doi.org/10.1038/nature07039) · [PubMed 18480812](https://pubmed.ncbi.nlm.nih.gov/18480812/)
