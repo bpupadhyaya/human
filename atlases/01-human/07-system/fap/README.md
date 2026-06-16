@@ -160,6 +160,15 @@ cross_links:
   - target: 01-human/04-cellular/platelet
     relation: connects-to
     note: "Aspirin's polyp-shrinking effect runs partly through platelets: blocking platelet COX-1 — alongside COX-2 in the polyps — underlies why aspirin and other NSAIDs reduce colorectal adenoma burden, a chemoprevention strategy studied in FAP."
+  - target: 01-human/03-molecular/p53
+    relation: connects-to
+    note: "p53 loss is the last step to cancer: FAP's polyps start with APC loss, then accumulate KRAS and finally TP53 mutations along the adenoma-carcinoma sequence, p53 failure marking the leap to invasive colorectal cancer."
+  - target: 01-human/04-cellular/regulatory-t-cell
+    relation: connects-to
+    note: "The immune climate shapes polyp fate: regulatory T cells infiltrate colorectal adenomas and dampen the local antitumor response, part of the microenvironment that lets some of FAP's countless polyps progress."
+  - target: 01-human/07-system/cowden-syndrome
+    relation: connects-to
+    note: "It headlines the polyposis differential: FAP's hundreds of adenomas must be told apart from the hamartomatous polyposes like Cowden and Peutz-Jeghers, each a distinct gene with its own cancer spectrum and surveillance."
 ---
 
 # Familial Adenomatous Polyposis
@@ -347,6 +356,9 @@ With modern surveillance and prophylactic colectomy: FAP is no longer an inevita
 - `connects-to` → **[Cyclin D1](../../03-molecular/cyclin-d1/README.md)** — Losing APC unleashes the growth genes: stabilized beta-catenin switches on cyclin D1 and MYC, pushing the colonic cells through the cell cycle — the molecular engine that turns the thousands of FAP polyps into ever-larger adenomas.
 - `connects-to` → **[Hepatocyte](../../04-cellular/hepatocyte/README.md)** — FAP children risk a liver tumor: hepatoblastoma, arising from immature hepatocyte precursors, is hundreds of times more common in FAP infants, so screening with alpha-fetoprotein and ultrasound is offered in the early years.
 - `connects-to` → **[Platelet](../../04-cellular/platelet/README.md)** — Aspirin's polyp-shrinking effect runs partly through platelets: blocking platelet COX-1 — alongside COX-2 in the polyps — underlies why aspirin and other NSAIDs reduce colorectal adenoma burden, a chemoprevention strategy studied in FAP.
+- `connects-to` → **[p53](../../03-molecular/p53/README.md)** — p53 loss is the last step to cancer: FAP's polyps start with APC loss, then accumulate KRAS and finally TP53 mutations along the adenoma-carcinoma sequence, p53 failure marking the leap to invasive colorectal cancer.
+- `connects-to` → **[Regulatory T Cell](../../04-cellular/regulatory-t-cell/README.md)** — The immune climate shapes polyp fate: regulatory T cells infiltrate colorectal adenomas and dampen the local antitumor response, part of the microenvironment that lets some of FAP's countless polyps progress.
+- `connects-to` → **[Cowden Syndrome](../cowden-syndrome/README.md)** — It headlines the polyposis differential: FAP's hundreds of adenomas must be told apart from the hamartomatous polyposes like Cowden and Peutz-Jeghers, each a distinct gene with its own cancer spectrum and surveillance.
 
 [^kinzler-1991-apc]: Kinzler KW, Nilbert MC, Su LK, et al. Identification of FAP locus genes from chromosome 5q21. *Science.* 1991;253(5020):661-665. [doi:10.1126/science.1651562](https://doi.org/10.1126/science.1651562) · [PubMed 1651562](https://pubmed.ncbi.nlm.nih.gov/1651562/)
 [^fearon-1990-vogelstein]: Fearon ER, Vogelstein B. A genetic model for colorectal tumorigenesis. *Cell.* 1990;61(5):759-767. [doi:10.1016/0092-8674(90)90186-i](https://doi.org/10.1016/0092-8674(90)90186-i) · [PubMed 2188735](https://pubmed.ncbi.nlm.nih.gov/2188735/)

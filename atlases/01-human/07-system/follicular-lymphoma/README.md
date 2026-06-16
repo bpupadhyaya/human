@@ -160,6 +160,15 @@ cross_links:
   - target: 01-human/04-cellular/neutrophil
     relation: connects-to
     note: "Its therapies leave patients open to infection: rituximab can cause a late-onset neutropenia and bendamustine deeply suppresses immunity, so falling neutrophil counts and opportunistic infections are watched for through the long course of treatment."
+  - target: 01-human/03-molecular/baff
+    relation: connects-to
+    note: "BAFF nurtures the follicular clone: the survival cytokine, supplied by the follicle's accessory cells, helps keep the BCL-2-protected lymphoma cells alive — one of the microenvironmental dependencies of this indolent disease."
+  - target: 01-human/04-cellular/mast-cell
+    relation: connects-to
+    note: "Mast cells in the node carry prognostic weight: their density in the follicular lymphoma microenvironment correlates with outcome, part of the tumor-supporting stroma that shapes how the indolent disease behaves."
+  - target: 01-human/07-system/cytokine-storm
+    relation: connects-to
+    note: "The newest immunotherapies can spark a storm: CD20xCD3 bispecific antibodies and CAR-T for relapsed follicular lymphoma set off cytokine release syndrome as the T cells engage, managed with tocilizumab."
 ---
 
 # Follicular Lymphoma
@@ -333,6 +342,9 @@ High-risk subset (progression within 24 months of first chemoimmunotherapy): Con
 - `connects-to` → **[Hepatitis B](../hepatitis-b/README.md)** — Anti-CD20 therapy can reawaken hepatitis B: rituximab and obinutuzumab deplete the B cells that help hold the virus in check, so patients are screened and given antiviral prophylaxis before treatment to prevent a dangerous reactivation.
 - `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — Relapsed follicular lymphoma leans on PI3K-AKT: chronic B-cell-receptor signaling through this pathway sustains the indolent tumor, the target of the PI3K-delta inhibitors (idelalisib, copanlisib) developed for repeatedly relapsing disease.
 - `connects-to` → **[Neutrophil](../../04-cellular/neutrophil/README.md)** — Its therapies leave patients open to infection: rituximab can cause a late-onset neutropenia and bendamustine deeply suppresses immunity, so falling neutrophil counts and opportunistic infections are watched for through the long course of treatment.
+- `connects-to` → **[BAFF](../../03-molecular/baff/README.md)** — BAFF nurtures the follicular clone: the survival cytokine, supplied by the follicle's accessory cells, helps keep the BCL-2-protected lymphoma cells alive — one of the microenvironmental dependencies of this indolent disease.
+- `connects-to` → **[Mast Cell](../../04-cellular/mast-cell/README.md)** — Mast cells in the node carry prognostic weight: their density in the follicular lymphoma microenvironment correlates with outcome, part of the tumor-supporting stroma that shapes how the indolent disease behaves.
+- `connects-to` → **[Cytokine Storm](../cytokine-storm/README.md)** — The newest immunotherapies can spark a storm: CD20xCD3 bispecific antibodies and CAR-T for relapsed follicular lymphoma set off cytokine release syndrome as the T cells engage, managed with tocilizumab.
 
 ---
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
