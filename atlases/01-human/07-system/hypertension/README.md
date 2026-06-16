@@ -160,6 +160,15 @@ cross_links:
   - target: 01-human/03-molecular/vasopressin
     relation: connects-to
     note: "Vasopressin nudges pressure up two ways: the pituitary hormone constricts vessels through V1 receptors and makes the kidney retain water through V2, expanding volume — a lesser arm of blood-pressure control beyond the renin-angiotensin system."
+  - target: 01-human/07-system/obesity
+    relation: connects-to
+    note: "Excess weight is a leading driver of high pressure: obesity raises blood volume, sympathetic tone, and aldosterone while compressing the kidneys, so weight gain accounts for much of the hypertension in rich and rising populations."
+  - target: 01-human/04-cellular/t-cytotoxic-cell
+    relation: connects-to
+    note: "Hypertension has an immune arm: CD8 cytotoxic T cells infiltrate the kidney and vessel wall and sustain the salt retention and vascular inflammation that keep blood pressure high, a mechanism that reframes part of the disease as immune-driven."
+  - target: 01-human/03-molecular/epinephrine
+    relation: connects-to
+    note: "Adrenaline drives the pressure surges: epinephrine from sympathetic activation and the adrenal medulla speeds the heart and constricts vessels, behind stress-related spikes and the extreme swings of pheochromocytoma."
 ---
 
 # Hypertension
@@ -298,6 +307,9 @@ Blood pressure is determined by: BP = Cardiac Output × Peripheral Vascular Resi
 - `connects-to` → **[Podocyte](../../04-cellular/podocyte/README.md)** — High pressure shears the kidney's filter cells: chronic hypertension batters the glomerular podocytes, and as these hard-to-replace cells detach, protein leaks into the urine and nephrosclerosis sets in — a main route by which hypertension drives chronic kidney disease.
 - `connects-to` → **[Alzheimer's Disease](../alzheimers-disease/README.md)** — Midlife hypertension is a leading modifiable risk for dementia: years of high pressure damage small cerebral vessels, starving the brain and adding vascular injury that hastens cognitive decline and Alzheimer's, so blood-pressure control helps protect the aging brain.
 - `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — Vasopressin nudges pressure up two ways: the pituitary hormone constricts vessels through V1 receptors and makes the kidney retain water through V2, expanding volume — a lesser arm of blood-pressure control beyond the renin-angiotensin system.
+- `connects-to` → **[Obesity](../obesity/README.md)** — Excess weight is a leading driver of high pressure: obesity raises blood volume, sympathetic tone, and aldosterone while compressing the kidneys, so weight gain accounts for much of the hypertension in rich and rising populations.
+- `connects-to` → **[Cytotoxic T Cell](../../04-cellular/t-cytotoxic-cell/README.md)** — Hypertension has an immune arm: CD8 cytotoxic T cells infiltrate the kidney and vessel wall and sustain the salt retention and vascular inflammation that keep blood pressure high, a mechanism that reframes part of the disease as immune-driven.
+- `connects-to` → **[Epinephrine](../../03-molecular/epinephrine/README.md)** — Adrenaline drives the pressure surges: epinephrine from sympathetic activation and the adrenal medulla speeds the heart and constricts vessels, behind stress-related spikes and the extreme swings of pheochromocytoma.
 
 ## Pathology
 
