@@ -166,6 +166,15 @@ cross_links:
   - target: 01-human/02-atomic/chloride
     relation: connects-to
     note: "Dry mouth and eyes come down to ion transport: saliva and tears form when acinar cells pump chloride to draw water across the gland, and the autoimmune attack that wrecks these cells shuts down that secretion."
+  - target: 02-pathogen/03-fungi/candida-albicans
+    relation: connects-to
+    note: "The dried-out mouth invites a fungus: without protective saliva, Candida overgrows into oral thrush and angular cheilitis, a recurrent infection that is one of the most common day-to-day complications of Sjögren's xerostomia."
+  - target: 01-human/03-molecular/jak1-2
+    relation: connects-to
+    note: "An interferon signature runs the disease: type I interferon signals through the JAK-STAT pathway to sustain the autoimmune attack on the glands, making JAK inhibitors a logical therapy being tested against Sjögren's."
+  - target: 01-human/07-system/renal-system
+    relation: connects-to
+    note: "It reaches past the glands to the kidneys: lymphocytic infiltration of the renal tubules causes tubulointerstitial nephritis and distal renal tubular acidosis, so unexplained low potassium or acidosis can be the clue that points to Sjögren's."
 ---
 
 # Sjögren's Syndrome
@@ -345,6 +354,9 @@ Sjögren's syndrome can occur:
 - `connects-to` → **[STAT1](../../03-molecular/stat1/README.md)** — An interferon signature defines Sjogren's: type-I interferon signals through JAK-STAT1 to switch on the gene program seen in the salivary glands and blood, a central driver of the autoimmunity and a target of JAK inhibitors under study.
 - `connects-to` → **[Waldenström Macroglobulinemia](../waldenstrom-macroglobulinemia/README.md)** — Sustained B-cell drive courts lymphoma: Sjogren's carries one of the highest lymphoma risks of any autoimmune disease, the chronic B-cell stimulation favoring MALT and other low-grade lymphomas including lymphoplasmacytic Waldenström-type disease.
 - `connects-to` → **[Chloride](../../02-atomic/chloride/README.md)** — Dry mouth and eyes come down to ion transport: saliva and tears form when acinar cells pump chloride to draw water across the gland, and the autoimmune attack that wrecks these cells shuts down that secretion.
+- `connects-to` → **[Candida albicans](../../../02-pathogen/03-fungi/candida-albicans/README.md)** — The dried-out mouth invites a fungus: without protective saliva, Candida overgrows into oral thrush and angular cheilitis, a recurrent infection that is one of the most common day-to-day complications of Sjögren's xerostomia.
+- `connects-to` → **[JAK1/2](../../03-molecular/jak1-2/README.md)** — An interferon signature runs the disease: type I interferon signals through the JAK-STAT pathway to sustain the autoimmune attack on the glands, making JAK inhibitors a logical therapy being tested against Sjögren's.
+- `connects-to` → **[Renal System](../renal-system/README.md)** — It reaches past the glands to the kidneys: lymphocytic infiltration of the renal tubules causes tubulointerstitial nephritis and distal renal tubular acidosis, so unexplained low potassium or acidosis can be the clue that points to Sjögren's.
 
 ---
 

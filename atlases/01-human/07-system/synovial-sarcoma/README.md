@@ -160,6 +160,15 @@ cross_links:
   - target: 01-human/03-molecular/hif-1alpha
     relation: connects-to
     note: "It is a hypoxic, vessel-hungry tumor: synovial sarcoma stabilizes HIF and pours out VEGF to feed its growth, the angiogenic drive behind the activity of anti-VEGF tyrosine-kinase inhibitors like pazopanib against it."
+  - target: 01-human/03-molecular/bcl-2
+    relation: connects-to
+    note: "It survives by blocking its own death: synovial sarcoma strongly and characteristically expresses the anti-apoptotic protein BCL-2 — useful as a diagnostic marker and a hint that drugs disabling this survival signal might work against it."
+  - target: 01-human/03-molecular/egfr
+    relation: connects-to
+    note: "A receptor it leans on: synovial sarcoma frequently overexpresses EGFR, feeding growth signals into its proliferation, which has made the receptor a studied (if so far disappointing) target in this fusion-driven sarcoma."
+  - target: 01-human/04-cellular/natural-killer-cell
+    relation: connects-to
+    note: "It is a flagship for cell therapy: synovial sarcoma expresses the cancer-testis antigen NY-ESO-1, the target of engineered T-cell therapy, and natural killer and other cell-based approaches are pursued against a tumor that resists checkpoint drugs."
 ---
 
 # Synovial Sarcoma
@@ -333,6 +342,9 @@ SS has low TMB (~1-2 mut/Mb) and variable PD-L1 expression; ICB response rates ~
 - `connects-to` → **[Cardiomyocyte](../../04-cellular/cardiomyocyte/README.md)** — The doxorubicin-ifosfamide chemotherapy strains the heart: the anthracycline backbone for synovial sarcoma is cumulatively cardiotoxic to cardiomyocytes, so cardiac function is checked across treatment in these often-young patients.
 - `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — Cure can cost fertility: synovial sarcoma strikes adolescents and young adults, and its alkylating ifosfamide and any pelvic radiation damage the gonads, so fertility preservation is discussed before treatment begins.
 - `connects-to` → **[HIF-1alpha](../../03-molecular/hif-1alpha/README.md)** — It is a hypoxic, vessel-hungry tumor: synovial sarcoma stabilizes HIF and pours out VEGF to feed its growth, the angiogenic drive behind the activity of anti-VEGF tyrosine-kinase inhibitors like pazopanib against it.
+- `connects-to` → **[BCL-2](../../03-molecular/bcl-2/README.md)** — It survives by blocking its own death: synovial sarcoma strongly and characteristically expresses the anti-apoptotic protein BCL-2 — useful as a diagnostic marker and a hint that drugs disabling this survival signal might work against it.
+- `connects-to` → **[EGFR](../../03-molecular/egfr/README.md)** — A receptor it leans on: synovial sarcoma frequently overexpresses EGFR, feeding growth signals into its proliferation, which has made the receptor a studied (if so far disappointing) target in this fusion-driven sarcoma.
+- `connects-to` → **[Natural Killer Cell](../../04-cellular/natural-killer-cell/README.md)** — It is a flagship for cell therapy: synovial sarcoma expresses the cancer-testis antigen NY-ESO-1, the target of engineered T-cell therapy, and natural killer and other cell-based approaches are pursued against a tumor that resists checkpoint drugs.
 
 ---
 
