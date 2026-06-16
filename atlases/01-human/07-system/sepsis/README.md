@@ -172,6 +172,15 @@ cross_links:
   - target: 01-human/04-cellular/dendritic-cell
     relation: connects-to
     note: "Sepsis turns immune-suppressive after the storm: it depletes dendritic cells and cripples their antigen presentation, a key part of the immunoparalysis that leaves survivors prey to secondary infection."
+  - target: 01-human/03-molecular/cortisol
+    relation: connects-to
+    note: "The stress axis falters in sepsis: cortisol surges early, but critical-illness-related corticosteroid insufficiency can leave the response inadequate for the vasodilatory shock, which is why low-dose hydrocortisone is given in refractory septic shock."
+  - target: 02-pathogen/02-bacteria/neisseria-meningitidis
+    relation: connects-to
+    note: "Meningococcus causes the most fulminant sepsis: Neisseria meningitidis endotoxin can trigger purpura fulminans and Waterhouse-Friderichsen adrenal hemorrhage, killing previously well young people within hours."
+  - target: 01-human/06-organ/spleen
+    relation: connects-to
+    note: "The spleen is the guard against overwhelming sepsis: it clears encapsulated bacteria from the blood, so asplenic patients face fulminant OPSI from pneumococcus and meningococcus and need vaccination and standby antibiotics."
 ---
 
 # Sepsis
@@ -329,6 +338,9 @@ Sepsis is not localized to one system — it manifests as dysfunction across mul
 - `connects-to` → **[Bradykinin](../../03-molecular/bradykinin/README.md)** — Sepsis unleashes the kinin cascade: contact activation generates bradykinin, a potent vasodilator that drops blood pressure and leaks the capillaries, contributing to the shock and edema of severe infection.
 - `connects-to` → **[Candida albicans](../../../02-pathogen/03-fungi/candida-albicans/README.md)** — Not all sepsis is bacterial: Candida bloodstream infection is a leading cause of fungal sepsis in the ICU, hard to clear, slow to diagnose, and carrying a high mortality in the immunocompromised.
 - `connects-to` → **[Dendritic Cell](../../04-cellular/dendritic-cell/README.md)** — Sepsis turns immune-suppressive after the storm: it depletes dendritic cells and cripples their antigen presentation, a key part of the immunoparalysis that leaves survivors prey to secondary infection.
+- `connects-to` → **[Cortisol](../../03-molecular/cortisol/README.md)** — The stress axis falters in sepsis: cortisol surges early, but critical-illness-related corticosteroid insufficiency can leave the response inadequate for the vasodilatory shock, which is why low-dose hydrocortisone is given in refractory septic shock.
+- `connects-to` → **[Neisseria meningitidis](../../../02-pathogen/02-bacteria/neisseria-meningitidis/README.md)** — Meningococcus causes the most fulminant sepsis: Neisseria meningitidis endotoxin can trigger purpura fulminans and Waterhouse-Friderichsen adrenal hemorrhage, killing previously well young people within hours.
+- `connects-to` → **[Spleen](../../06-organ/spleen/README.md)** — The spleen is the guard against overwhelming sepsis: it clears encapsulated bacteria from the blood, so asplenic patients face fulminant OPSI from pneumococcus and meningococcus and need vaccination and standby antibiotics.
 - `treated-by` → **[Vancomycin](../../../03-medicine/01-modern/06-antimicrobial/vancomycin/README.md)** — First-line empiric IV therapy for MRSA bacteremia and gram-positive sepsis; added to beta-lactam empiric regimens when MRSA risk is elevated; AUC/MIC-guided dosing (IDSA 2021); MIC ≤1 mg/L required for endocarditis; daptomycin alternative for high MIC.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*

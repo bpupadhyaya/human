@@ -171,6 +171,15 @@ cross_links:
   - target: 01-human/07-system/rsv
     relation: connects-to
     note: "RSV is the leading cause of infant lower-respiratory infection: it inflames and plugs the small bronchioles, the commonest reason babies are hospitalized for trouble breathing."
+  - target: 01-human/03-molecular/histamine
+    relation: connects-to
+    note: "Histamine narrows the airways: released from bronchial mast cells it constricts smooth muscle, swells the mucosa, and floods secretions, the rapid mediator behind allergic wheeze and a driver of airway hyper-reactivity."
+  - target: 01-human/07-system/influenza
+    relation: connects-to
+    note: "Influenza is the recurring epidemic threat to the respiratory system: the virus strips the airway epithelium and can progress to viral pneumonia and ARDS, and its seasonal waves drive much of winter respiratory illness."
+  - target: 01-human/07-system/obesity
+    relation: connects-to
+    note: "Obesity mechanically loads the respiratory system: excess chest and abdominal fat restrict lung expansion and, with upper-airway crowding, cause obstructive sleep apnoea and obesity hypoventilation that blunt ventilation."
 taxonomy:
   uberon: "UBERON:0001004"
   fma: "FMA:7161"
@@ -303,6 +312,9 @@ The mucociliary escalator (ciliated cells + goblet cell mucus) continuously clea
 - **Damaged-by** → [Acute Respiratory Distress Syndrome](../../06-organ/ards/README.md): ARDS is the respiratory system's final common failure: diffuse alveolar injury floods the gas-exchange surface with fluid, collapsing oxygenation and forcing the mechanical ventilation that defines critical respiratory illness.
 - **Damaged-by** → [Tuberculosis](../tuberculosis/README.md): Tuberculosis is the archetypal chronic lung infection: Mycobacterium tuberculosis cavitates the parenchyma over months and remains among the leading infectious killers worldwide, a defining disease of the respiratory tract.
 - **Damaged-by** → [RSV](../rsv/README.md): RSV is the leading cause of infant lower-respiratory infection: it inflames and plugs the small bronchioles, the commonest reason babies are hospitalized for trouble breathing.
+- **Connects-to** → [Histamine](../../03-molecular/histamine/README.md): Histamine narrows the airways: released from bronchial mast cells it constricts smooth muscle, swells the mucosa, and floods secretions, the rapid mediator behind allergic wheeze and a driver of airway hyper-reactivity.
+- **Connects-to** → [Influenza](../influenza/README.md): Influenza is the recurring epidemic threat to the respiratory system: the virus strips the airway epithelium and can progress to viral pneumonia and ARDS, and its seasonal waves drive much of winter respiratory illness.
+- **Connects-to** → [Obesity](../obesity/README.md): Obesity mechanically loads the respiratory system: excess chest and abdominal fat restrict lung expansion and, with upper-airway crowding, cause obstructive sleep apnoea and obesity hypoventilation that blunt ventilation.
 - `prevented-by` → **[PCV13 (Prevnar 13)](../../../../04-vaccine/08-conjugate/pcv13/README.md)** — CAPiTA RCT (N=84,496 adults ≥65): PCV13 achieved 45.6% VE against vaccine-type CAP and 75% VE against invasive pneumococcal disease; prevents pneumococcal pneumonia, the leading infectious cause of respiratory hospitalisation in older adults.
 
 ## Pathology
