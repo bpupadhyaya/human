@@ -161,6 +161,15 @@ cross_links:
   - target: 01-human/06-organ/small-intestine
     relation: connects-to
     note: "The skeleton is mineralized from the gut: the small intestine absorbs dietary calcium and phosphate under vitamin D's control, so malabsorption starves bone of its raw material and drives osteomalacia and fracture."
+  - target: 01-human/03-molecular/wnt-beta-catenin
+    relation: connects-to
+    note: "Bone is built on a Wnt switch: Wnt/β-catenin signaling drives osteoblasts to lay down bone, which is why the natural Wnt-brake sclerostin restrains it and why blocking sclerostin builds bone in osteoporosis."
+  - target: 01-human/04-cellular/adipocyte
+    relation: connects-to
+    note: "Fat infiltrates the aging frame: marrow fills with adipocytes as bone is lost, and fat marbles aging muscle as myosteatosis, so the same shift toward fat weakens both bone and muscle in sarcopenic obesity."
+  - target: 01-human/07-system/ckd
+    relation: connects-to
+    note: "Failing kidneys derange the skeleton: chronic kidney disease disrupts the phosphate, vitamin D and PTH balance, producing renal osteodystrophy — the brittle, painful bone disease of CKD-mineral and bone disorder."
 ---
 
 # Musculoskeletal System
@@ -345,6 +354,9 @@ Chronic exercise drives profound musculoskeletal remodelling [^guyton-hall]:
 - `connects-to` → **[RANKL](../../03-molecular/rankl/README.md)** — Bone is rebuilt by a molecular tug-of-war: osteoblasts release RANKL to wake the osteoclasts that resorb bone, and decoy osteoprotegerin restrains them, so this RANKL/OPG balance sets whether the skeleton thickens or thins.
 - `connects-to` → **[Myasthenia Gravis](../myasthenia-gravis/README.md)** — Muscle is only as strong as its nerve signal: in myasthenia gravis antibodies block the acetylcholine receptors at the neuromuscular junction, so intact muscle fatigues and fails despite its machinery, the system crippled at its electrical switch.
 - `connects-to` → **[Small Intestine](../../06-organ/small-intestine/README.md)** — The skeleton is mineralized from the gut: the small intestine absorbs dietary calcium and phosphate under vitamin D's control, so malabsorption starves bone of its raw material and drives osteomalacia and fracture.
+- `connects-to` → **[Wnt/beta-catenin](../../03-molecular/wnt-beta-catenin/README.md)** — Bone is built on a Wnt switch: Wnt/β-catenin signaling drives osteoblasts to lay down bone, which is why the natural Wnt-brake sclerostin restrains it and why blocking sclerostin builds bone in osteoporosis.
+- `connects-to` → **[Adipocyte](../../04-cellular/adipocyte/README.md)** — Fat infiltrates the aging frame: marrow fills with adipocytes as bone is lost, and fat marbles aging muscle as myosteatosis, so the same shift toward fat weakens both bone and muscle in sarcopenic obesity.
+- `connects-to` → **[Chronic Kidney Disease](../ckd/README.md)** — Failing kidneys derange the skeleton: chronic kidney disease disrupts the phosphate, vitamin D and PTH balance, producing renal osteodystrophy — the brittle, painful bone disease of CKD-mineral and bone disorder.
 
 ## Pathology
 

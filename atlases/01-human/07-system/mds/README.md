@@ -163,6 +163,15 @@ cross_links:
   - target: 01-human/04-cellular/natural-killer-cell
     relation: connects-to
     note: "Immune surveillance falters in MDS: natural killer cells that should cull the dysplastic clone are reduced and functionally impaired, helping the abnormal stem cells expand and dimming the marrow's own defense."
+  - target: 01-human/03-molecular/tgf-beta
+    relation: connects-to
+    note: "Excess TGF-β strangles red-cell maturation: overactive TGF-β/SMAD signaling blocks late erythroid maturation in MDS, the ineffective erythropoiesis that the trap drug luspatercept relieves to lift the anemia."
+  - target: 01-human/04-cellular/osteoblast
+    relation: connects-to
+    note: "The soil can drive the disease, not just the seed: a dysfunctional bone-marrow niche — including its osteoblast and mesenchymal cells — fosters and shelters the dysplastic clone, making the microenvironment part of MDS pathogenesis."
+  - target: 01-human/07-system/cardiovascular-system
+    relation: connects-to
+    note: "Chronic anemia and iron overload tax the heart: years of low hemoglobin force a high-output strain while transfusional iron deposits in the myocardium, so cardiovascular complications are a major cause of death in MDS."
 ---
 
 # Myelodysplastic Syndromes
@@ -322,6 +331,9 @@ MDS → AML transformation rate: ~10% at 1 year for very-low risk; ~40-50% at 2 
 - `connects-to` → **[RUNX1](../../03-molecular/runx1/README.md)** — RUNX1 sits at the heart of MDS biology: somatic mutations of this master hematopoietic transcription factor drive dysplasia and progression to AML, and inherited RUNX1 defects (familial platelet disorder) predispose to MDS decades early.
 - `connects-to` → **[Paroxysmal Nocturnal Hemoglobinuria](../pnh/README.md)** — MDS and PNH are overlapping marrow-failure clones: small PNH clones often lurk in hypoplastic MDS, and the shared immune-mediated attack on the marrow blurs the line between clonal escape and aplasia.
 - `connects-to` → **[Natural Killer Cell](../../04-cellular/natural-killer-cell/README.md)** — Immune surveillance falters in MDS: natural killer cells that should cull the dysplastic clone are reduced and functionally impaired, helping the abnormal stem cells expand and dimming the marrow's own defense.
+- `connects-to` → **[Transforming Growth Factor Beta](../../03-molecular/tgf-beta/README.md)** — Excess TGF-β strangles red-cell maturation: overactive TGF-β/SMAD signaling blocks late erythroid maturation in MDS, the ineffective erythropoiesis that the trap drug luspatercept relieves to lift the anemia.
+- `connects-to` → **[Osteoblast](../../04-cellular/osteoblast/README.md)** — The soil can drive the disease, not just the seed: a dysfunctional bone-marrow niche — including its osteoblast and mesenchymal cells — fosters and shelters the dysplastic clone, making the microenvironment part of MDS pathogenesis.
+- `connects-to` → **[Cardiovascular system](../cardiovascular-system/README.md)** — Chronic anemia and iron overload tax the heart: years of low hemoglobin force a high-output strain while transfusional iron deposits in the myocardium, so cardiovascular complications are a major cause of death in MDS.
 
 [^fenaux-2009-aza001]: Fenaux P, Mufti GJ, Hellstrom-Lindberg E, et al. Efficacy of azacitidine compared with conventional care regimens in patients with higher-risk myelodysplastic syndromes. *Lancet Oncol.* 2009;10(3):223-232. [doi:10.1016/S1470-2045(09)70003-8](https://doi.org/10.1016/S1470-2045(09)70003-8) · [PubMed 19230772](https://pubmed.ncbi.nlm.nih.gov/19230772/)
 [^fenaux-2020-medalist]: Fenaux P, Platzbecker U, Mufti GJ, et al. Luspatercept in patients with lower-risk myelodysplastic syndromes. *N Engl J Med.* 2020;382(2):140-151. [doi:10.1056/NEJMoa1908892](https://doi.org/10.1056/NEJMoa1908892) · [PubMed 31914241](https://pubmed.ncbi.nlm.nih.gov/31914241/)
