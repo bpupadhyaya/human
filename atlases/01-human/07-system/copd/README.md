@@ -175,6 +175,15 @@ cross_links:
   - target: 01-human/03-molecular/il-6
     relation: connects-to
     note: "IL-6 carries the inflammation body-wide: spilling from the inflamed lung into the blood, it drives the muscle wasting, weakness, and comorbidity of COPD and rises sharply during exacerbations."
+  - target: 01-human/03-molecular/hif-1alpha
+    relation: connects-to
+    note: "Chronic hypoxia switches on HIF-1α: low alveolar oxygen in advanced COPD stabilizes this transcription factor, driving the erythropoietin-fueled secondary polycythemia and the pulmonary-vascular remodeling that ends in cor pulmonale."
+  - target: 02-pathogen/03-fungi/aspergillus-fumigatus
+    relation: connects-to
+    note: "Damaged airways invite Aspergillus: structurally altered COPD lungs and inhaled-steroid use foster Aspergillus colonization, sensitization, and occasionally chronic or invasive pulmonary aspergillosis that worsens the disease."
+  - target: 01-human/07-system/venous-thromboembolism
+    relation: connects-to
+    note: "Exacerbations carry hidden clots: COPD raises the risk of pulmonary embolism, and a PE can both mimic and precipitate an exacerbation, so unexplained worsening prompts a search for venous thromboembolism."
 ---
 
 # COPD
@@ -370,6 +379,9 @@ COPD encompasses two overlapping pathological processes:
 - `connects-to` → **[T Helper Cell](../../04-cellular/t-helper-cell/README.md)** — T cells, not just neutrophils, scar the airway: CD4 Th1 and Th17 cells accumulate in the COPD lung and sustain the chronic inflammation, an adaptive arm that makes the disease partly autoimmune in flavor.
 - `connects-to` → **[Atherosclerosis](../atherosclerosis/README.md)** — COPD is hard on the arteries too: shared smoking plus the disease's systemic inflammation accelerate atherosclerosis, so cardiovascular disease — not respiratory failure — is a leading cause of death in milder COPD.
 - `connects-to` → **[Interleukin-6](../../03-molecular/il-6/README.md)** — IL-6 carries the inflammation body-wide: spilling from the inflamed lung into the blood, it drives the muscle wasting, weakness, and comorbidity of COPD and rises sharply during exacerbations.
+- `connects-to` → **[HIF-1alpha](../../03-molecular/hif-1alpha/README.md)** — Chronic hypoxia switches on HIF-1α: low alveolar oxygen in advanced COPD stabilizes this transcription factor, driving the erythropoietin-fueled secondary polycythemia and the pulmonary-vascular remodeling that ends in cor pulmonale.
+- `connects-to` → **[Aspergillus fumigatus](../../../02-pathogen/03-fungi/aspergillus-fumigatus/README.md)** — Damaged airways invite Aspergillus: structurally altered COPD lungs and inhaled-steroid use foster Aspergillus colonization, sensitization, and occasionally chronic or invasive pulmonary aspergillosis that worsens the disease.
+- `connects-to` → **[Venous Thromboembolism](../venous-thromboembolism/README.md)** — Exacerbations carry hidden clots: COPD raises the risk of pulmonary embolism, and a PE can both mimic and precipitate an exacerbation, so unexplained worsening prompts a search for venous thromboembolism.
 
 ---
 

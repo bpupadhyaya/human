@@ -169,6 +169,15 @@ cross_links:
   - target: 01-human/04-cellular/t-helper-cell
     relation: connects-to
     note: "The clone unbalances the immune system: skewed T-helper populations and cytokine output in CMML both abet the leukemic monocytes and drive the autoinflammatory complications that shadow the disease."
+  - target: 01-human/03-molecular/nlrp3-inflammasome
+    relation: connects-to
+    note: "The clone is wired to inflame: NLRP3-driven IL-1β release from the dysplastic monocytes underlies the autoinflammatory state of CMML, linking the somatic mutations to the fevers and tissue inflammation that accompany the cytopenias."
+  - target: 01-human/07-system/polycythemia-vera
+    relation: connects-to
+    note: "CMML straddles the myeloid divide: as an MDS/MPN-overlap neoplasm it shares proliferative features with classic MPNs like polycythemia vera, the proliferative subtype showing the high counts and splenomegaly of its MPN cousins."
+  - target: 01-human/07-system/aplastic-anemia
+    relation: connects-to
+    note: "Marrow failure poses the differential: a hypocellular CMML can resemble aplastic anemia on biopsy, so monocytosis, dysplasia, and clonal mutations are what separate a proliferating clone from an empty, failing marrow."
 ---
 
 # Chronic Myelomonocytic Leukemia
@@ -345,6 +354,9 @@ CMML → AML transformation (~15-30% at 5 years): Treat as secondary AML; CPX-35
 - `connects-to` → **[Graft-Versus-Host Disease](../gvhd/README.md)** — Transplant is CMML's only cure, with a catch: allogeneic stem-cell transplant can eradicate the clone via graft-versus-leukemia, but graft-versus-host disease and relapse limit it, so it is reserved for fit, higher-risk patients.
 - `connects-to` → **[ANCA Vasculitis](../anca-vasculitis/README.md)** — CMML smolders with autoimmunity: it is strikingly associated with systemic inflammatory and autoimmune disease, including vasculitis and neutrophilic dermatoses, the dysplastic clone driving an inflammatory state alongside the cytopenias.
 - `connects-to` → **[T Helper Cell](../../04-cellular/t-helper-cell/README.md)** — The clone unbalances the immune system: skewed T-helper populations and cytokine output in CMML both abet the leukemic monocytes and drive the autoinflammatory complications that shadow the disease.
+- `connects-to` → **[NLRP3 Inflammasome](../../03-molecular/nlrp3-inflammasome/README.md)** — The clone is wired to inflame: NLRP3-driven IL-1β release from the dysplastic monocytes underlies the autoinflammatory state of CMML, linking the somatic mutations to the fevers and tissue inflammation that accompany the cytopenias.
+- `connects-to` → **[Polycythemia Vera](../polycythemia-vera/README.md)** — CMML straddles the myeloid divide: as an MDS/MPN-overlap neoplasm it shares proliferative features with classic MPNs like polycythemia vera, the proliferative subtype showing the high counts and splenomegaly of its MPN cousins.
+- `connects-to` → **[Aplastic Anemia](../aplastic-anemia/README.md)** — Marrow failure poses the differential: a hypocellular CMML can resemble aplastic anemia on biopsy, so monocytosis, dysplasia, and clonal mutations are what separate a proliferating clone from an empty, failing marrow.
 
 ---
 
