@@ -169,6 +169,15 @@ cross_links:
   - target: 01-human/03-molecular/atp
     relation: connects-to
     note: "The mutation rewires metabolism: instead of making NADPH from isocitrate, mutant IDH burns it to manufacture 2-hydroxyglutarate, perturbing the cell's redox and energy economy that normally feeds ATP production through the TCA cycle."
+  - target: 01-human/03-molecular/hif-1alpha
+    relation: connects-to
+    note: "The oncometabolite perturbs the oxygen sensor: 2-hydroxyglutarate competitively inhibits the α-ketoglutarate-dependent prolyl hydroxylases that regulate HIF-1α, disturbing the hypoxia-response pathway as part of IDH-mutant tumor metabolism."
+  - target: 01-human/07-system/stroke
+    relation: connects-to
+    note: "Brain irradiation injures the vessels: the radiotherapy used for IDH-mutant glioma causes a late cerebral vasculopathy that raises stroke risk in these often long-surviving patients, a delayed cost of treatment."
+  - target: 01-human/07-system/neuropathic-pain
+    relation: connects-to
+    note: "Tumor and treatment can hurt the nerves: infiltrating glioma and the surgery and radiation used against it injure sensory pathways, contributing to headache and neuropathic pain in the disease course."
 ---
 
 # IDH-Mutant Glioma
@@ -351,6 +360,9 @@ IDH-mutant glioma with MGMT methylation shows strong alkylating agent sensitivit
 - `connects-to` → **[EGFR](../../03-molecular/egfr/README.md)** — EGFR sorts gliomas the other way: amplification of this receptor marks the aggressive IDH-wildtype glioblastomas, so its absence helps confirm the IDH-mutant diagnosis — the two molecular profiles define largely separate diseases with very different prognoses.
 - `connects-to` → **[Natural Killer Cell](../../04-cellular/natural-killer-cell/README.md)** — The oncometabolite also blunts innate killing: 2-hydroxyglutarate downregulates NKG2D-ligand display and impairs natural killer cell cytotoxicity, another way IDH-mutant tumors evade immune clearance beyond their effect on T cells.
 - `connects-to` → **[ATP](../../03-molecular/atp/README.md)** — The mutation rewires metabolism: instead of making NADPH from isocitrate, mutant IDH burns it to manufacture 2-hydroxyglutarate, perturbing the cell's redox and energy economy that normally feeds ATP production through the TCA cycle.
+- `connects-to` → **[HIF-1alpha](../../03-molecular/hif-1alpha/README.md)** — The oncometabolite perturbs the oxygen sensor: 2-hydroxyglutarate competitively inhibits the α-ketoglutarate-dependent prolyl hydroxylases that regulate HIF-1α, disturbing the hypoxia-response pathway as part of IDH-mutant tumor metabolism.
+- `connects-to` → **[Stroke](../stroke/README.md)** — Brain irradiation injures the vessels: the radiotherapy used for IDH-mutant glioma causes a late cerebral vasculopathy that raises stroke risk in these often long-surviving patients, a delayed cost of treatment.
+- `connects-to` → **[Neuropathic Pain](../neuropathic-pain/README.md)** — Tumor and treatment can hurt the nerves: infiltrating glioma and the surgery and radiation used against it injure sensory pathways, contributing to headache and neuropathic pain in the disease course.
 
 [^mellinghoff-2023-vorasidenib-lgg]: Mellinghoff IK, van den Bent MJ, Blumenthal DT, et al. Vorasidenib in IDH1- or IDH2-mutant low-grade glioma. *N Engl J Med.* 2023;389(7):589-601. [doi:10.1056/NEJMoa2304194](https://doi.org/10.1056/NEJMoa2304194) · [PubMed 37272530](https://pubmed.ncbi.nlm.nih.gov/37272530/)
 [^jiao-2012-atrx-glioma]: Jiao Y, Killela PJ, Reitman ZJ, et al. Frequent ATRX, CIC, FUBP1 and IDH mutations refine the classification of malignant gliomas. *Oncotarget.* 2012;3(7):709-722. [doi:10.18632/oncotarget.588](https://doi.org/10.18632/oncotarget.588) · [PubMed 22869205](https://pubmed.ncbi.nlm.nih.gov/22869205/)
