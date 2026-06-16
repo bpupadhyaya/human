@@ -160,6 +160,15 @@ cross_links:
   - target: 01-human/02-atomic/hydrogen
     relation: connects-to
     note: "Chordoma is treated with hydrogen nuclei: proton-beam radiation — accelerated bare hydrogen nuclei — deposits its dose at a sharp Bragg peak, letting high doses hit clival and sacral tumors while sparing the brainstem and spinal cord just millimeters away."
+  - target: 01-human/03-molecular/smarcb1
+    relation: connects-to
+    note: "A rare aggressive variant loses SMARCB1: poorly-differentiated chordoma deletes this chromatin-remodeling gene, the same loss that defines rhabdoid tumors, marking a more lethal subtype that strikes the young."
+  - target: 01-human/07-system/atypical-teratoid-rhabdoid-tumor
+    relation: connects-to
+    note: "SMARCB1 loss links them across tissues: poorly-differentiated chordoma and ATRT share deletion of the same chromatin-remodeling gene, an epigenetic lesion that ties a notochordal bone tumor to a brain rhabdoid tumor."
+  - target: 01-human/04-cellular/natural-killer-cell
+    relation: connects-to
+    note: "Immunotherapy aims past the cold tumor: brachyury-targeted vaccines and natural-killer-cell-engaging approaches are being tested to attack chordoma, whose poor blood supply and immune evasion resist conventional treatment."
 ---
 
 # Chordoma
@@ -342,6 +351,9 @@ CDKN2A deletion in ~30-40% → CDK4/6 hyperactivation → RB1 phosphorylation; p
 - `connects-to` → **[Tuberous Sclerosis Complex](../tuberous-sclerosis-complex/README.md)** — Chordoma turns up in tuberous sclerosis: pediatric chordomas are reported in TSC patients, a link that fits chordoma's reliance on PI3K-AKT-mTOR signaling — the same pathway that TSC1/TSC2 loss unleashes — and points to mTOR inhibitors as therapy.
 - `connects-to` → **[Regulatory T Cell](../../04-cellular/regulatory-t-cell/README.md)** — Chordoma is an immunologically cold tumor: it expresses PD-L1 and recruits regulatory T cells that suppress local immunity, a microenvironment that helps it evade attack and is the rationale for testing checkpoint blockade in this radioresistant cancer.
 - `connects-to` → **[Hydrogen](../../02-atomic/hydrogen/README.md)** — Chordoma is treated with hydrogen nuclei: proton-beam radiation — accelerated bare hydrogen nuclei — deposits its dose at a sharp Bragg peak, letting high doses hit clival and sacral tumors while sparing the brainstem and spinal cord just millimeters away.
+- `connects-to` → **[SMARCB1](../../03-molecular/smarcb1/README.md)** — A rare aggressive variant loses SMARCB1: poorly-differentiated chordoma deletes this chromatin-remodeling gene, the same loss that defines rhabdoid tumors, marking a more lethal subtype that strikes the young.
+- `connects-to` → **[Atypical Teratoid/Rhabdoid Tumor](../atypical-teratoid-rhabdoid-tumor/README.md)** — SMARCB1 loss links them across tissues: poorly-differentiated chordoma and ATRT share deletion of the same chromatin-remodeling gene, an epigenetic lesion that ties a notochordal bone tumor to a brain rhabdoid tumor.
+- `connects-to` → **[Natural Killer Cell](../../04-cellular/natural-killer-cell/README.md)** — Immunotherapy aims past the cold tumor: brachyury-targeted vaccines and natural-killer-cell-engaging approaches are being tested to attack chordoma, whose poor blood supply and immune evasion resist conventional treatment.
 
 ---
 

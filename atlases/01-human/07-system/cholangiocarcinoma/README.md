@@ -160,6 +160,15 @@ cross_links:
   - target: 01-human/04-cellular/platelet
     relation: connects-to
     note: "Biliary cancer is intensely pro-thrombotic: like other pancreatobiliary tumors it carries a high risk of venous thromboembolism, and paraneoplastic thrombocytosis often accompanies it and marks a worse outlook."
+  - target: 01-human/03-molecular/egfr
+    relation: connects-to
+    note: "EGFR drives the bile-duct cancer cell: the receptor is frequently overexpressed in cholangiocarcinoma, activating proliferation and survival pathways and offering one of the targeted handles in a cancer otherwise hard to treat."
+  - target: 01-human/04-cellular/dendritic-cell
+    relation: connects-to
+    note: "The dense desmoplastic tumor freezes out immunity: dysfunctional dendritic cells fail to prime an effective T-cell response in cholangiocarcinoma, part of the immune-cold microenvironment that blunts checkpoint therapy."
+  - target: 01-human/07-system/lynch-syndrome
+    relation: connects-to
+    note: "Mismatch-repair failure can seed it: Lynch syndrome raises the risk of biliary tract cancer, and the resulting MSI-high cholangiocarcinomas are among the few that respond well to immune-checkpoint therapy."
 ---
 
 # Cholangiocarcinoma
@@ -304,6 +313,9 @@ Chronic biliary injury (from PSC, fluke infection, bile acid reflux, biliary sta
 - `connects-to` → **[Gut Microbiome](../gut-microbiome/README.md)** — The bile carries a microbial signal: gut and biliary bacteria reshape the bile-acid pool and fuel the chronic inflammation that promotes cholangiocarcinoma, a microbiome-bile-acid axis now studied as a driver and possible target in biliary cancer.
 - `connects-to` → **[Spleen](../../06-organ/spleen/README.md)** — Perihilar tumors can dam the portal vein: invasion or compression at the liver hilum raises portal pressure, enlarging the spleen and dropping platelet and white-cell counts through hypersplenism on top of the obstructive jaundice.
 - `connects-to` → **[Platelet](../../04-cellular/platelet/README.md)** — Biliary cancer is intensely pro-thrombotic: like other pancreatobiliary tumors it carries a high risk of venous thromboembolism, and paraneoplastic thrombocytosis often accompanies it and marks a worse outlook.
+- `connects-to` → **[EGFR](../../03-molecular/egfr/README.md)** — EGFR drives the bile-duct cancer cell: the receptor is frequently overexpressed in cholangiocarcinoma, activating proliferation and survival pathways and offering one of the targeted handles in a cancer otherwise hard to treat.
+- `connects-to` → **[Dendritic Cell](../../04-cellular/dendritic-cell/README.md)** — The dense desmoplastic tumor freezes out immunity: dysfunctional dendritic cells fail to prime an effective T-cell response in cholangiocarcinoma, part of the immune-cold microenvironment that blunts checkpoint therapy.
+- `connects-to` → **[Lynch Syndrome](../lynch-syndrome/README.md)** — Mismatch-repair failure can seed it: Lynch syndrome raises the risk of biliary tract cancer, and the resulting MSI-high cholangiocarcinomas are among the few that respond well to immune-checkpoint therapy.
 
 ---
 
