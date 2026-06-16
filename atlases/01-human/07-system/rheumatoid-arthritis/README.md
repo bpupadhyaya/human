@@ -166,6 +166,15 @@ cross_links:
   - target: 01-human/03-molecular/il-1b
     relation: connects-to
     note: "IL-1 beta helps drive the joint destruction: secreted by synovial macrophages, it spurs cartilage breakdown and osteoclast bone erosion, the rationale for the IL-1 blocker anakinra in disease resistant to other biologics."
+  - target: 01-human/03-molecular/ctla-4
+    relation: connects-to
+    note: "A brake on T-cell activation became a drug: abatacept is a CTLA-4-Ig fusion that blocks the co-stimulation T cells need, cooling the autoimmune attack on the joints — a treatment built directly from how this checkpoint normally restrains immunity."
+  - target: 01-human/04-cellular/endothelial-cell
+    relation: connects-to
+    note: "The inflamed joint grows new vessels: endothelial cells proliferate to vascularize the invading pannus, feeding the synovial overgrowth with oxygen and ferrying in the immune cells that sustain the destruction."
+  - target: 01-human/07-system/anemia-of-chronic-disease
+    relation: connects-to
+    note: "Chronic inflammation starves the marrow of iron: RA's high IL-6 drives hepcidin that locks iron away from red-cell production, producing the anemia of chronic disease that commonly shadows active rheumatoid arthritis."
 ---
 
 # Rheumatoid Arthritis
@@ -357,6 +366,9 @@ RA patients have:
 - `connects-to` → **[Atherosclerosis](../atherosclerosis/README.md)** — Inflammation hardens the arteries: chronic RA accelerates atherosclerosis, so heart attack and stroke — not the joints — are the leading cause of death, and controlling disease activity is itself cardiovascular prevention.
 - `connects-to` → **[Mast Cell](../../04-cellular/mast-cell/README.md)** — Mast cells crowd the inflamed joint: abundant in rheumatoid synovium, they release TNF, histamine and proteases that amplify inflammation and angiogenesis, an innate-immune contributor to the pannus that erodes cartilage and bone.
 - `connects-to` → **[IL-1β](../../03-molecular/il-1b/README.md)** — IL-1 beta helps drive the joint destruction: secreted by synovial macrophages, it spurs cartilage breakdown and osteoclast bone erosion, the rationale for the IL-1 blocker anakinra in disease resistant to other biologics.
+- `connects-to` → **[CTLA-4](../../03-molecular/ctla-4/README.md)** — A brake on T-cell activation became a drug: abatacept is a CTLA-4-Ig fusion that blocks the co-stimulation T cells need, cooling the autoimmune attack on the joints — a treatment built directly from how this checkpoint normally restrains immunity.
+- `connects-to` → **[Endothelial Cell](../../04-cellular/endothelial-cell/README.md)** — The inflamed joint grows new vessels: endothelial cells proliferate to vascularize the invading pannus, feeding the synovial overgrowth with oxygen and ferrying in the immune cells that sustain the destruction.
+- `connects-to` → **[Anemia of Chronic Disease](../anemia-of-chronic-disease/README.md)** — Chronic inflammation starves the marrow of iron: RA's high IL-6 drives hepcidin that locks iron away from red-cell production, producing the anemia of chronic disease that commonly shadows active rheumatoid arthritis.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 

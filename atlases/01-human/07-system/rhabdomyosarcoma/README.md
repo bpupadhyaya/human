@@ -160,6 +160,15 @@ cross_links:
   - target: 01-human/04-cellular/platelet
     relation: connects-to
     note: "The multi-drug chemotherapy empties the marrow: the vincristine-actinomycin-cyclophosphamide backbone suppresses platelet production into thrombocytopenia, adding bleeding risk to the long, intensive treatment these tumors demand."
+  - target: 01-human/03-molecular/mycn
+    relation: connects-to
+    note: "Amplification marks the worst form: the aggressive alveolar subtype carrying the PAX3-FOXO1 fusion often also amplifies MYCN, a proliferation driver that helps explain its high-risk behavior and resistance to standard chemotherapy."
+  - target: 01-human/04-cellular/natural-killer-cell
+    relation: connects-to
+    note: "Innate killers are recruited against it: rhabdomyosarcoma is hard for T cells to see, so natural killer cell–based and engineered cell therapies are explored to attack a tumor that resists checkpoint immunotherapy."
+  - target: 01-human/04-cellular/regulatory-t-cell
+    relation: connects-to
+    note: "The tumor cloaks itself in suppression: regulatory T cells accumulate in the rhabdomyosarcoma microenvironment and blunt anti-tumor immunity, part of the immune-cold profile that has frustrated immunotherapy in this childhood sarcoma."
 ---
 
 # Rhabdomyosarcoma
@@ -335,6 +344,9 @@ Maximal safe resection with negative margins (R0) wherever achievable without mu
 - `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — Ifosfamide injures the kidney's salt handling: the alkylating drug central to RMS chemotherapy damages the proximal tubule into a Fanconi-like state that wastes magnesium and phosphate, electrolytes replaced through the course of treatment.
 - `connects-to` → **[CDK4/6](../../03-molecular/cdk4-6/README.md)** — Fusion-positive RMS amplifies the cell-cycle engine: alveolar tumors driven by PAX3-FOXO1 often co-amplify CDK4 and MDM2, pushing cells past the cycle checkpoint and making CDK4/6 inhibition an actively studied target.
 - `connects-to` → **[Platelet](../../04-cellular/platelet/README.md)** — The multi-drug chemotherapy empties the marrow: the vincristine-actinomycin-cyclophosphamide backbone suppresses platelet production into thrombocytopenia, adding bleeding risk to the long, intensive treatment these tumors demand.
+- `connects-to` → **[MYCN](../../03-molecular/mycn/README.md)** — Amplification marks the worst form: the aggressive alveolar subtype carrying the PAX3-FOXO1 fusion often also amplifies MYCN, a proliferation driver that helps explain its high-risk behavior and resistance to standard chemotherapy.
+- `connects-to` → **[Natural Killer Cell](../../04-cellular/natural-killer-cell/README.md)** — Innate killers are recruited against it: rhabdomyosarcoma is hard for T cells to see, so natural killer cell–based and engineered cell therapies are explored to attack a tumor that resists checkpoint immunotherapy.
+- `connects-to` → **[Regulatory T Cell](../../04-cellular/regulatory-t-cell/README.md)** — The tumor cloaks itself in suppression: regulatory T cells accumulate in the rhabdomyosarcoma microenvironment and blunt anti-tumor immunity, part of the immune-cold profile that has frustrated immunotherapy in this childhood sarcoma.
 
 [^crist-2001-irs4-rms]: Crist WM, Anderson JR, Meza JL, et al. Intergroup rhabdomyosarcoma study-IV: results for patients with nonmetastatic disease. *J Clin Oncol.* 2001;19(12):3091-3102. [doi:10.1200/JCO.2001.19.12.3091](https://doi.org/10.1200/JCO.2001.19.12.3091) · [PubMed 11408506](https://pubmed.ncbi.nlm.nih.gov/11408506/)
 [^oberlin-2012-mmt95-rms]: Oberlin O, Rey A, Sanchez de Toledo J, et al. Randomized comparison of intensified six-drug versus standard three-drug chemotherapy for high-risk nonmetastatic rhabdomyosarcoma and other chemotherapy-sensitive childhood soft tissue sarcomas. *J Clin Oncol.* 2012;30(19):2457-2465. [doi:10.1200/JCO.2011.39.3538](https://doi.org/10.1200/JCO.2011.39.3538) · [PubMed 22665546](https://pubmed.ncbi.nlm.nih.gov/22665546/)
