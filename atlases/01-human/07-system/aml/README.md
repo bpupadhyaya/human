@@ -178,6 +178,15 @@ cross_links:
   - target: 01-human/04-cellular/macrophage
     relation: connects-to
     note: "The leukemia bends the niche to its needs: bone-marrow macrophages are reprogrammed to shelter and feed AML cells, and in monocytic subtypes the malignant clone itself differentiates toward macrophages that infiltrate gums and skin."
+  - target: 01-human/03-molecular/nf-kb
+    relation: connects-to
+    note: "NF-κB keeps the leukemic stem cell alive: AML stem cells show constitutive NF-κB activity that normal blood stem cells lack, a survival signal that makes the pathway an attractive target for sparing healthy marrow."
+  - target: 01-human/03-molecular/stat3
+    relation: connects-to
+    note: "STAT3 carries the FLT3 growth signal: downstream of mutated FLT3 and cytokine receptors, STAT3 activation drives AML proliferation and survival, and high STAT3 activity marks a worse prognosis."
+  - target: 01-human/07-system/venous-thromboembolism
+    relation: connects-to
+    note: "A cancer that both clots and bleeds: AML's tumor burden and procoagulant blasts raise venous thrombosis risk even as the disease destroys platelets, a treacherous balance most extreme in its promyelocytic subtype."
 ---
 
 # AML
@@ -342,6 +351,9 @@ AML requires cooperative mutations in at least 2 functional categories (Gillilan
 - `connects-to` → **[Wnt/beta-catenin](../../03-molecular/wnt-beta-catenin/README.md)** — Self-renewal is hijacked from stem-cell biology: aberrant Wnt/β-catenin signaling sustains the leukemic stem cells that seed relapse, making the pathway a target for trying to exhaust the reservoir standard chemotherapy leaves behind.
 - `connects-to` → **[Sepsis](../sepsis/README.md)** — The danger is the empty marrow: AML and its chemotherapy wipe out functioning neutrophils, so overwhelming infection and septic shock through the resulting profound neutropenia are the leading cause of death.
 - `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — The leukemia bends the niche to its needs: bone-marrow macrophages are reprogrammed to shelter and feed AML cells, and in monocytic subtypes the malignant clone itself differentiates toward macrophages that infiltrate gums and skin.
+- `connects-to` → **[NF-κB](../../03-molecular/nf-kb/README.md)** — NF-κB keeps the leukemic stem cell alive: AML stem cells show constitutive NF-κB activity that normal blood stem cells lack, a survival signal that makes the pathway an attractive target for sparing healthy marrow.
+- `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — STAT3 carries the FLT3 growth signal: downstream of mutated FLT3 and cytokine receptors, STAT3 activation drives AML proliferation and survival, and high STAT3 activity marks a worse prognosis.
+- `connects-to` → **[Venous Thromboembolism](../venous-thromboembolism/README.md)** — A cancer that both clots and bleeds: AML's tumor burden and procoagulant blasts raise venous thrombosis risk even as the disease destroys platelets, a treacherous balance most extreme in its promyelocytic subtype.
 
 [^dinardo-2020-viale-a]: DiNardo CD, Jonas BA, Pullarkat V, et al. Azacitidine and venetoclax in previously untreated acute myeloid leukemia. *N Engl J Med.* 2020;383(7):617-629. [doi:10.1056/NEJMoa2012971](https://doi.org/10.1056/NEJMoa2012971) · [PubMed 32786187](https://pubmed.ncbi.nlm.nih.gov/32786187/)
 [^stone-2017-midostaurin]: Stone RM, Mandrekar SJ, Sanford BL, et al. Midostaurin plus chemotherapy for acute myeloid leukemia with a FLT3 mutation. *N Engl J Med.* 2017;377(5):454-464. [doi:10.1056/NEJMoa1614359](https://doi.org/10.1056/NEJMoa1614359) · [PubMed 28644114](https://pubmed.ncbi.nlm.nih.gov/28644114/)

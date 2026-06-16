@@ -175,6 +175,15 @@ cross_links:
   - target: 01-human/03-molecular/bradykinin
     relation: connects-to
     note: "A kinin both inflames and rebuilds: bradykinin generated at the wound widens vessels and signals pain, but also stimulates the fibroblast proliferation and angiogenesis that drive the repair, linking the inflammatory and rebuilding phases."
+  - target: 01-human/03-molecular/stat3
+    relation: connects-to
+    note: "STAT3 drives the skin to close: downstream of IL-6 and growth factors, STAT3 signaling pushes keratinocyte migration and proliferation across the wound bed, so its loss markedly slows re-epithelialization."
+  - target: 01-human/03-molecular/nf-kb
+    relation: connects-to
+    note: "NF-κB runs the inflammatory phase: activated in immune cells and keratinocytes at the injury, it switches on the cytokines and antimicrobial defenses that clear debris and pathogens before the rebuilding phase can begin."
+  - target: 01-human/07-system/venous-thromboembolism
+    relation: connects-to
+    note: "The same clotting that seals wounds can misfire: the surgery and immobility that accompany major wound repair, layered on the body's natural post-injury hypercoagulable state, raise the risk of deep-vein thrombosis."
 ---
 
 # Wound Healing
@@ -346,6 +355,9 @@ cross_links:
 - `connects-to` → **[TNF-α](../../03-molecular/tnf-alpha/README.md)** — Inflammation that won't switch off stalls repair: TNF-α drives the early inflammatory phase, but its persistence — as in diabetic and chronic wounds — keeps the wound stuck in inflammation, degrading matrix and blocking the move to proliferation and closure.
 - `connects-to` → **[Histamine](../../03-molecular/histamine/README.md)** — The first responders open the vessels: histamine released by mast cells at the injury dilates capillaries and raises their permeability, letting plasma, clotting factors and immune cells flood in to begin the healing cascade.
 - `connects-to` → **[Bradykinin](../../03-molecular/bradykinin/README.md)** — A kinin both inflames and rebuilds: bradykinin generated at the wound widens vessels and signals pain, but also stimulates the fibroblast proliferation and angiogenesis that drive the repair, linking the inflammatory and rebuilding phases.
+- `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — STAT3 drives the skin to close: downstream of IL-6 and growth factors, STAT3 signaling pushes keratinocyte migration and proliferation across the wound bed, so its loss markedly slows re-epithelialization.
+- `connects-to` → **[NF-κB](../../03-molecular/nf-kb/README.md)** — NF-κB runs the inflammatory phase: activated in immune cells and keratinocytes at the injury, it switches on the cytokines and antimicrobial defenses that clear debris and pathogens before the rebuilding phase can begin.
+- `connects-to` → **[Venous Thromboembolism](../venous-thromboembolism/README.md)** — The same clotting that seals wounds can misfire: the surgery and immobility that accompany major wound repair, layered on the body's natural post-injury hypercoagulable state, raise the risk of deep-vein thrombosis.
 
 [^singer-1999-wound-healing-review]: Singer AJ, Clark RA. Cutaneous wound healing. *N Engl J Med.* 1999;341(10):738-746. [doi:10.1056/NEJM199909023411006](https://doi.org/10.1056/NEJM199909023411006) · [PubMed 10471461](https://pubmed.ncbi.nlm.nih.gov/10471461/)
 [^gurtner-2008-wound-repair-regeneration]: Gurtner GC, Werner S, Barrandon Y, Longaker MT. Wound repair and regeneration. *Nature.* 2008;453(7193):314-321. [doi:10.1038/nature07039](https://doi.org/10.1038/nature07039) · [PubMed 18480812](https://pubmed.ncbi.nlm.nih.gov/18480812/)
