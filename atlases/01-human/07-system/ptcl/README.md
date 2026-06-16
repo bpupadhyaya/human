@@ -160,6 +160,15 @@ cross_links:
   - target: 01-human/07-system/reproductive-system
     relation: connects-to
     note: "Cure can cost fertility: the multi-agent and high-dose chemotherapy, sometimes with transplant, used against these aggressive lymphomas damages the gonads, so fertility preservation is discussed before treating younger patients."
+  - target: 01-human/05-tissue/intestinal-epithelium
+    relation: connects-to
+    note: "One subtype is born in the damaged gut: enteropathy-associated T-cell lymphoma arises from the intraepithelial T cells of the small-bowel lining injured by celiac disease, turning chronic mucosal inflammation into an aggressive intestinal lymphoma."
+  - target: 01-human/03-molecular/mtor
+    relation: connects-to
+    note: "Survival signaling runs through a familiar hub: PI3K-AKT-mTOR activation supports the malignant T cells across PTCL subtypes, so mTOR inhibitors are tested in a group of lymphomas that respond poorly to standard chemotherapy."
+  - target: 01-human/07-system/mds
+    relation: connects-to
+    note: "The cure can sow a second cancer: the intensive chemotherapy and autologous transplant used against PTCL damage the marrow, raising the risk of therapy-related myelodysplastic syndromes years later."
 ---
 
 # Peripheral T-cell Lymphoma
@@ -352,6 +361,9 @@ Aggressive presentation; generalized lymphadenopathy; extranodal involvement (~6
 - `connects-to` → **[Cardiomyocyte](../../04-cellular/cardiomyocyte/README.md)** — The CHOP backbone strains the heart: the doxorubicin in standard PTCL chemotherapy is cumulatively cardiotoxic to cardiomyocytes, so cardiac function is checked before and during the anthracycline-based regimens these aggressive lymphomas require.
 - `connects-to` → **[JAK2](../../03-molecular/jak2/README.md)** — Many PTCLs run on JAK-STAT: recurrent activation of the JAK2-STAT3 pathway drives several subtypes, especially the NK/T-cell and ALK-negative anaplastic forms, making JAK inhibition an actively studied targeted approach.
 - `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — Cure can cost fertility: the multi-agent and high-dose chemotherapy, sometimes with transplant, used against these aggressive lymphomas damages the gonads, so fertility preservation is discussed before treating younger patients.
+- `connects-to` → **[Intestinal Epithelium](../../05-tissue/intestinal-epithelium/README.md)** — One subtype is born in the damaged gut: enteropathy-associated T-cell lymphoma arises from the intraepithelial T cells of the small-bowel lining injured by celiac disease, turning chronic mucosal inflammation into an aggressive intestinal lymphoma.
+- `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — Survival signaling runs through a familiar hub: PI3K-AKT-mTOR activation supports the malignant T cells across PTCL subtypes, so mTOR inhibitors are tested in a group of lymphomas that respond poorly to standard chemotherapy.
+- `connects-to` → **[Myelodysplastic Syndromes](../mds/README.md)** — The cure can sow a second cancer: the intensive chemotherapy and autologous transplant used against PTCL damage the marrow, raising the risk of therapy-related myelodysplastic syndromes years later.
 
 ---
 
