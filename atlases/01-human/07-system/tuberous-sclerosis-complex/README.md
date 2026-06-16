@@ -160,6 +160,15 @@ cross_links:
   - target: 01-human/07-system/generalized-anxiety-disorder
     relation: connects-to
     note: "The heaviest TSC burden is often behavioral: TSC-associated neuropsychiatric disorders (TAND) include high rates of anxiety and depression beyond the autism and ADHD, a frequently under-recognized and under-treated dimension of the syndrome."
+  - target: 01-human/03-molecular/estrogen
+    relation: connects-to
+    note: "One TSC tumor runs on estrogen: lymphangioleiomyomatosis, the lung disease that strikes women with TSC, is fueled by estrogen, which is why it worsens in pregnancy and around the reproductive years — a hormone steering an mTOR-driven tumor."
+  - target: 01-human/03-molecular/hif-1alpha
+    relation: connects-to
+    note: "Runaway mTOR turns on the hypoxia program: unchecked mTORC1 in TSC stabilizes HIF and drives VEGF, helping explain the rich vascularity of its angiomyolipomas and brain tumors and supporting the logic of mTOR-inhibitor therapy."
+  - target: 01-human/04-cellular/mast-cell
+    relation: connects-to
+    note: "Immune cells populate its lesions: mast cells and other inflammatory cells infiltrate the lymphangioleiomyomatosis and angiomyolipoma tissue of TSC, contributing to the remodeling of these mTOR-driven growths."
 ---
 
 # Tuberous Sclerosis Complex
@@ -347,6 +356,9 @@ With modern management: life expectancy increasingly normal; major risks: renal 
 - `connects-to` → **[GABA](../../03-molecular/gaba/README.md)** — TSC seizures yield to a GABA drug: vigabatrin, which raises brain GABA by blocking its breakdown, is uniquely effective first-line for the infantile spasms of TSC, reflecting the GABAergic imbalance the tubers create in the developing cortex.
 - `connects-to` → **[Microglia](../../04-cellular/microglia/README.md)** — Overactive mTOR inflames the brain's resident immune cells: microglia around the cortical tubers turn reactive and help drive the epileptogenic, inflamed circuitry, a process that mTOR inhibitors may calm alongside their effect on the neurons.
 - `connects-to` → **[Generalized Anxiety Disorder](../generalized-anxiety-disorder/README.md)** — The heaviest TSC burden is often behavioral: TSC-associated neuropsychiatric disorders (TAND) include high rates of anxiety and depression beyond the autism and ADHD, a frequently under-recognized and under-treated dimension of the syndrome.
+- `connects-to` → **[Estrogen](../../03-molecular/estrogen/README.md)** — One TSC tumor runs on estrogen: lymphangioleiomyomatosis, the lung disease that strikes women with TSC, is fueled by estrogen, which is why it worsens in pregnancy and around the reproductive years — a hormone steering an mTOR-driven tumor.
+- `connects-to` → **[HIF-1alpha](../../03-molecular/hif-1alpha/README.md)** — Runaway mTOR turns on the hypoxia program: unchecked mTORC1 in TSC stabilizes HIF and drives VEGF, helping explain the rich vascularity of its angiomyolipomas and brain tumors and supporting the logic of mTOR-inhibitor therapy.
+- `connects-to` → **[Mast Cell](../../04-cellular/mast-cell/README.md)** — Immune cells populate its lesions: mast cells and other inflammatory cells infiltrate the lymphangioleiomyomatosis and angiomyolipoma tissue of TSC, contributing to the remodeling of these mTOR-driven growths.
 
 ---
 

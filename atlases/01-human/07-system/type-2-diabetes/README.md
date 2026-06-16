@@ -166,6 +166,15 @@ cross_links:
   - target: 01-human/07-system/reproductive-system
     relation: connects-to
     note: "Diabetes reaches reproductive health: vascular and nerve damage cause erectile dysfunction in men, insulin resistance underlies the PCOS often preceding it in women, and poorly controlled glucose in pregnancy harms the fetus."
+  - target: 01-human/04-cellular/hepatocyte
+    relation: connects-to
+    note: "The liver pumps out sugar it shouldn't: insulin-resistant hepatocytes keep running gluconeogenesis even when glucose is already high, so excess hepatic glucose output drives the fasting hyperglycemia that metformin works to restrain."
+  - target: 01-human/03-molecular/il-6
+    relation: connects-to
+    note: "Inflammation links fat to insulin resistance: IL-6 and other cytokines released by enlarged, stressed adipose tissue interfere with insulin signaling in muscle and liver, part of the low-grade inflammation that ties obesity to type 2 diabetes."
+  - target: 01-human/07-system/alzheimers-disease
+    relation: connects-to
+    note: "It reaches the aging brain: insulin resistance and chronic hyperglycemia raise the risk of dementia, including Alzheimer's, so strongly that the disease is sometimes called 'type 3 diabetes' for the brain's own faltering insulin signaling."
 ---
 
 # Type 2 Diabetes
@@ -318,6 +327,9 @@ T2DM, CKD, heart failure, and obesity form the **cardiorenal metabolic (CRM) syn
 - `connects-to` → **[NASH](../nash/README.md)** — Diabetes and fatty liver feed each other: insulin resistance drives fat into the liver, and the resulting NASH worsens glucose control while progressing toward cirrhosis — a metabolic pairing that GLP-1 and related drugs now target together.
 - `connects-to` → **[Podocyte](../../04-cellular/podocyte/README.md)** — High sugar shears the kidney's filter cells: chronic hyperglycemia and glomerular hyperfiltration injure the podocytes, and as these hard-to-replace cells detach, albumin leaks into the urine — the first sign of diabetic kidney disease.
 - `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — Diabetes reaches reproductive health: vascular and nerve damage cause erectile dysfunction in men, insulin resistance underlies the PCOS often preceding it in women, and poorly controlled glucose in pregnancy harms the fetus.
+- `connects-to` → **[Hepatocyte](../../04-cellular/hepatocyte/README.md)** — The liver pumps out sugar it shouldn't: insulin-resistant hepatocytes keep running gluconeogenesis even when glucose is already high, so excess hepatic glucose output drives the fasting hyperglycemia that metformin works to restrain.
+- `connects-to` → **[Interleukin-6](../../03-molecular/il-6/README.md)** — Inflammation links fat to insulin resistance: IL-6 and other cytokines released by enlarged, stressed adipose tissue interfere with insulin signaling in muscle and liver, part of the low-grade inflammation that ties obesity to type 2 diabetes.
+- `connects-to` → **[Alzheimer's Disease](../alzheimers-disease/README.md)** — It reaches the aging brain: insulin resistance and chronic hyperglycemia raise the risk of dementia, including Alzheimer's, so strongly that the disease is sometimes called 'type 3 diabetes' for the brain's own faltering insulin signaling.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
