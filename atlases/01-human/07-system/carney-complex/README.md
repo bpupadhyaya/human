@@ -169,6 +169,15 @@ cross_links:
   - target: 01-human/04-cellular/adipocyte
     relation: connects-to
     note: "The complex sprouts fatty and myxoid tumors: Carney patients develop lipomas and myxomas of skin and heart, mesenchymal growths in which adipocytes and myxoid stroma expand under unrestrained PKA signaling."
+  - target: 01-human/07-system/heart-failure
+    relation: connects-to
+    note: "The cardiac myxoma can obstruct the heart: large atrial myxomas in Carney complex block valve inflow and cause heart failure or syncope, which—with their tendency to embolize and recur—is why they are resected and the heart surveyed lifelong."
+  - target: 01-human/07-system/ovarian-cancer
+    relation: connects-to
+    note: "Carney reaches the gonads: women develop ovarian cysts and tumors as part of the syndrome's broad endocrine-tumor spectrum, so pelvic surveillance accompanies the cardiac and adrenal monitoring."
+  - target: 01-human/07-system/tuberous-sclerosis-complex
+    relation: connects-to
+    note: "It belongs to the multi-organ hamartoma syndromes: like tuberous sclerosis, Carney complex is an autosomal-dominant disorder that seeds tumors across many organs, demanding the same lifelong multi-system surveillance approach."
 ---
 
 # Carney Complex
@@ -341,6 +350,9 @@ PRKAR1A somatic LOH occurs in ~15-20% of sporadic adrenocortical adenomas and ca
 - `connects-to` → **[Interleukin-6](../../03-molecular/il-6/README.md)** — Carney's cardiac myxomas secrete IL-6: the tumor pours out this cytokine, producing fevers, weight loss, and raised inflammatory markers that can masquerade as infection or autoimmune disease before the heart tumor is found.
 - `connects-to` → **[Peutz-Jeghers Syndrome](../peutz-jeghers-syndrome/README.md)** — Two syndromes spotted by their freckles: like Peutz-Jeghers, Carney complex announces itself with mucocutaneous lentigines — pigmented spots that flag a single-gene disorder carrying a lifelong tumor risk.
 - `connects-to` → **[Adipocyte](../../04-cellular/adipocyte/README.md)** — The complex sprouts fatty and myxoid tumors: Carney patients develop lipomas and myxomas of skin and heart, mesenchymal growths in which adipocytes and myxoid stroma expand under unrestrained PKA signaling.
+- `connects-to` → **[Heart Failure](../heart-failure/README.md)** — The cardiac myxoma can obstruct the heart: large atrial myxomas in Carney complex block valve inflow and cause heart failure or syncope, which—with their tendency to embolize and recur—is why they are resected and the heart surveyed lifelong.
+- `connects-to` → **[Ovarian Cancer](../ovarian-cancer/README.md)** — Carney reaches the gonads: women develop ovarian cysts and tumors as part of the syndrome's broad endocrine-tumor spectrum, so pelvic surveillance accompanies the cardiac and adrenal monitoring.
+- `connects-to` → **[Tuberous Sclerosis Complex](../tuberous-sclerosis-complex/README.md)** — It belongs to the multi-organ hamartoma syndromes: like tuberous sclerosis, Carney complex is an autosomal-dominant disorder that seeds tumors across many organs, demanding the same lifelong multi-system surveillance approach.
 
 ---
 

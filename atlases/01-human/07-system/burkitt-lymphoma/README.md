@@ -169,6 +169,15 @@ cross_links:
   - target: 01-human/04-cellular/dendritic-cell
     relation: connects-to
     note: "Its birthplace is the germinal center's scaffold: follicular dendritic cells present antigen to the rapidly dividing B cells there, the microenvironment from which the MYC-driven Burkitt clone arises."
+  - target: 01-human/07-system/sepsis
+    relation: connects-to
+    note: "Cure comes at the cost of deep immunosuppression: the intensive multi-agent chemotherapy for Burkitt produces severe neutropenia, so febrile neutropenia and sepsis are among the leading treatment-related dangers."
+  - target: 01-human/03-molecular/nf-kb
+    relation: connects-to
+    note: "Burkitt is the NF-κB-independent lymphoma: unlike activated B-cell DLBCL it survives on tonic BCR/PI3K and MYC rather than chronic NF-κB signaling, a distinction that shapes which targeted therapies can work."
+  - target: 01-human/07-system/multiple-myeloma
+    relation: connects-to
+    note: "Two ends of the B-cell lineage: Burkitt is an aggressive germinal-center B-cell tumor while myeloma is a malignancy of terminal plasma cells, contrasting points on the maturation path that both rely on MYC dysregulation."
 ---
 
 # Burkitt Lymphoma
@@ -354,6 +363,9 @@ FISH for MYC, BCL2, and BCL6 is essential; if BCL2 FISH negative and Ki-67 ~100%
 - `connects-to` → **[Small Intestine](../../06-organ/small-intestine/README.md)** — Sporadic Burkitt strikes the gut: it classically presents as a bulky ileocecal mass in the small bowel, the fastest-growing human tumor erupting as an abdominal emergency that can obstruct or perforate.
 - `connects-to` → **[Acute Lymphoblastic Leukemia](../all/README.md)** — Burkitt has a leukemic twin: when it floods the blood and marrow it becomes mature B-cell acute lymphoblastic leukemia (the old L3 ALL), treated on the same intensive Burkitt protocols.
 - `connects-to` → **[Dendritic Cell](../../04-cellular/dendritic-cell/README.md)** — Its birthplace is the germinal center's scaffold: follicular dendritic cells present antigen to the rapidly dividing B cells there, the microenvironment from which the MYC-driven Burkitt clone arises.
+- `connects-to` → **[Sepsis](../sepsis/README.md)** — Cure comes at the cost of deep immunosuppression: the intensive multi-agent chemotherapy for Burkitt produces severe neutropenia, so febrile neutropenia and sepsis are among the leading treatment-related dangers.
+- `connects-to` → **[NF-κB](../../03-molecular/nf-kb/README.md)** — Burkitt is the NF-κB-independent lymphoma: unlike activated B-cell DLBCL it survives on tonic BCR/PI3K and MYC rather than chronic NF-κB signaling, a distinction that shapes which targeted therapies can work.
+- `connects-to` → **[Multiple Myeloma](../multiple-myeloma/README.md)** — Two ends of the B-cell lineage: Burkitt is an aggressive germinal-center B-cell tumor while myeloma is a malignancy of terminal plasma cells, contrasting points on the maturation path that both rely on MYC dysregulation.
 
 ---
 
