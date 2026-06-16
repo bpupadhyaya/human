@@ -171,6 +171,15 @@ cross_links:
   - target: 01-human/06-organ/small-intestine
     relation: connects-to
     note: "The gut over-absorbs iron in thalassemia: the expanded, ineffective erythropoiesis suppresses hepcidin, so the small intestine keeps drinking in dietary iron and drives overload even in patients who are never transfused."
+  - target: 01-human/07-system/pulmonary-arterial-hypertension
+    relation: connects-to
+    note: "Chronic hemolysis pushes thalassemia toward pulmonary hypertension: free hemoglobin scavenges nitric oxide and the hypercoagulable, post-splenectomy state remodels the lung vessels, making PAH a leading cause of right heart failure and death."
+  - target: 01-human/07-system/hepatitis-c
+    relation: connects-to
+    note: "Decades of transfusion brought hepatitis C: before reliable blood screening, transfusion-dependent thalassemia carried high HCV rates, and the resulting chronic hepatitis compounds the iron overload that already injures the liver."
+  - target: 01-human/03-molecular/nitric-oxide
+    relation: connects-to
+    note: "Hemolysis robs the vessels of nitric oxide: cell-free hemoglobin released by fragile thalassemic red cells scavenges NO, so the vasodilator runs short — driving the endothelial dysfunction, pulmonary hypertension, and thrombosis of the disease."
 ---
 
 # Thalassemia
@@ -366,6 +375,9 @@ Untransfused or undertransfused β-thal major:
 - `connects-to` → **[Venous Thromboembolism](../venous-thromboembolism/README.md)** — Thalassemia tips the blood toward clotting: abnormal red-cell membranes and the loss of the spleen's filtering leave a hypercoagulable state, so non-transfusion-dependent and splenectomized patients carry a raised risk of venous thrombosis.
 - `connects-to` → **[Osteoblast](../../04-cellular/osteoblast/README.md)** — Thalassemic bone disease starts in the builder cell: iron and marrow expansion suppress osteoblasts while osteoclasts run on, tipping the balance to the early, severe osteoporosis characteristic of the disease.
 - `connects-to` → **[Small Intestine](../../06-organ/small-intestine/README.md)** — The gut over-absorbs iron in thalassemia: the expanded, ineffective erythropoiesis suppresses hepcidin, so the small intestine keeps drinking in dietary iron and drives overload even in patients who are never transfused.
+- `connects-to` → **[Pulmonary Arterial Hypertension](../pulmonary-arterial-hypertension/README.md)** — Chronic hemolysis pushes thalassemia toward pulmonary hypertension: free hemoglobin scavenges nitric oxide and the hypercoagulable, post-splenectomy state remodels the lung vessels, making PAH a leading cause of right heart failure and death.
+- `connects-to` → **[Hepatitis C](../hepatitis-c/README.md)** — Decades of transfusion brought hepatitis C: before reliable blood screening, transfusion-dependent thalassemia carried high HCV rates, and the resulting chronic hepatitis compounds the iron overload that already injures the liver.
+- `connects-to` → **[Nitric Oxide](../../03-molecular/nitric-oxide/README.md)** — Hemolysis robs the vessels of nitric oxide: cell-free hemoglobin released by fragile thalassemic red cells scavenges NO, so the vasodilator runs short — driving the endothelial dysfunction, pulmonary hypertension, and thrombosis of the disease.
 
 [^weatherall-2008-thalassemia-review]: Weatherall DJ. The inherited diseases of hemoglobin are an emerging global health burden. *Blood.* 2010;115(22):4331-4336. [doi:10.1182/blood-2010-01-251348](https://doi.org/10.1182/blood-2010-01-251348) · [PubMed 20233970](https://pubmed.ncbi.nlm.nih.gov/20233970/)
 [^cappellini-2014-thalassemia-guidelines]: Cappellini MD, Cohen A, Porter J, et al. (eds). Guidelines for the Management of Transfusion Dependent Thalassaemia (TDT). 3rd ed. Thalassaemia International Federation; 2014.

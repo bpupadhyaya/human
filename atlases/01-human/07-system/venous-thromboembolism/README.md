@@ -172,6 +172,15 @@ cross_links:
   - target: 01-human/07-system/inflammatory-bowel-disease
     relation: connects-to
     note: "Gut inflammation clots the veins: active inflammatory bowel disease is a strong acquired risk for VTE, the systemic inflammation raising clotting factors and platelets, so hospitalized flares get thromboprophylaxis."
+  - target: 01-human/07-system/sepsis
+    relation: connects-to
+    note: "Sepsis clots the small and large veins alike: systemic inflammation activates coagulation (immunothrombosis), so septic patients face both DIC and limb and pulmonary VTE — one reason thromboprophylaxis is standard in critical illness."
+  - target: 01-human/07-system/glioblastoma
+    relation: connects-to
+    note: "Few cancers clot like glioblastoma: brain tumors express abundant tissue factor and carry one of the highest VTE rates of any malignancy, posing the hard problem of anticoagulating a patient prone to intracranial bleeding."
+  - target: 01-human/03-molecular/nlrp3-inflammasome
+    relation: connects-to
+    note: "Inflammation seeds the venous clot: NLRP3-driven IL-1β and the neutrophil extracellular traps it promotes provide the scaffold for immunothrombosis, linking the inflammasome to the pathogenesis of venous thromboembolism."
 ---
 
 # Venous Thromboembolism
@@ -342,6 +351,9 @@ cross_links:
 - `connects-to` → **[Heart Failure](../heart-failure/README.md)** — Stasis and strain tie the clot to the failing heart: the sluggish circulation of heart failure breeds venous clots, while a large pulmonary embolism can acutely overwhelm the right heart into failure — a two-way danger.
 - `connects-to` → **[Nitric Oxide](../../03-molecular/nitric-oxide/README.md)** — The healthy vessel resists clotting with nitric oxide: endothelial NO keeps platelets quiet and vessels open, so when endothelial dysfunction cuts NO, the balance tips toward the thrombosis of VTE.
 - `connects-to` → **[Inflammatory Bowel Disease](../inflammatory-bowel-disease/README.md)** — Gut inflammation clots the veins: active inflammatory bowel disease is a strong acquired risk for VTE, the systemic inflammation raising clotting factors and platelets, so hospitalized flares get thromboprophylaxis.
+- `connects-to` → **[Sepsis](../sepsis/README.md)** — Sepsis clots the small and large veins alike: systemic inflammation activates coagulation (immunothrombosis), so septic patients face both DIC and limb and pulmonary VTE — one reason thromboprophylaxis is standard in critical illness.
+- `connects-to` → **[Glioblastoma](../glioblastoma/README.md)** — Few cancers clot like glioblastoma: brain tumors express abundant tissue factor and carry one of the highest VTE rates of any malignancy, posing the hard problem of anticoagulating a patient prone to intracranial bleeding.
+- `connects-to` → **[NLRP3 Inflammasome](../../03-molecular/nlrp3-inflammasome/README.md)** — Inflammation seeds the venous clot: NLRP3-driven IL-1β and the neutrophil extracellular traps it promotes provide the scaffold for immunothrombosis, linking the inflammasome to the pathogenesis of venous thromboembolism.
 
 [^agnelli-2013-amplify-apixaban-vte]: Agnelli G, Buller HR, Cohen A, et al. Oral apixaban for the treatment of acute venous thromboembolism. *N Engl J Med.* 2013;369(9):799-808. [doi:10.1056/NEJMoa1302507](https://doi.org/10.1056/NEJMoa1302507) · [PubMed 23808982](https://pubmed.ncbi.nlm.nih.gov/23808982/)
 [^bauersachs-2010-einstein-rivaroxaban]: EINSTEIN Investigators. Oral rivaroxaban for symptomatic venous thromboembolism. *N Engl J Med.* 2010;363(26):2499-2510. [doi:10.1056/NEJMoa1007903](https://doi.org/10.1056/NEJMoa1007903) · [PubMed 21128814](https://pubmed.ncbi.nlm.nih.gov/21128814/)
