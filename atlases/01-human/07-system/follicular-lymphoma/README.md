@@ -169,6 +169,15 @@ cross_links:
   - target: 01-human/07-system/cytokine-storm
     relation: connects-to
     note: "The newest immunotherapies can spark a storm: CD20xCD3 bispecific antibodies and CAR-T for relapsed follicular lymphoma set off cytokine release syndrome as the T cells engage, managed with tocilizumab."
+  - target: 01-human/03-molecular/cxcl12
+    relation: connects-to
+    note: "CXCL12 keeps the clone in its follicle: stromal cells secrete this chemokine to retain follicular lymphoma cells via CXCR4 in the protective germinal-center niche, where survival signals shield them from therapy."
+  - target: 02-pathogen/01-viruses/epstein-barr-virus
+    relation: connects-to
+    note: "EBV can ride along with the lymphoma: the virus is found in a subset of follicular lymphomas and, with the immunosuppression of treatment, can drive EBV-positive transformation and lymphoproliferation."
+  - target: 01-human/07-system/sepsis
+    relation: connects-to
+    note: "Repeated immunosuppression invites infection: the B-cell depletion and chemotherapy used over the long course of relapsing follicular lymphoma leave patients hypogammaglobulinemic and prone to sepsis."
 ---
 
 # Follicular Lymphoma
@@ -345,6 +354,9 @@ High-risk subset (progression within 24 months of first chemoimmunotherapy): Con
 - `connects-to` → **[BAFF](../../03-molecular/baff/README.md)** — BAFF nurtures the follicular clone: the survival cytokine, supplied by the follicle's accessory cells, helps keep the BCL-2-protected lymphoma cells alive — one of the microenvironmental dependencies of this indolent disease.
 - `connects-to` → **[Mast Cell](../../04-cellular/mast-cell/README.md)** — Mast cells in the node carry prognostic weight: their density in the follicular lymphoma microenvironment correlates with outcome, part of the tumor-supporting stroma that shapes how the indolent disease behaves.
 - `connects-to` → **[Cytokine Storm](../cytokine-storm/README.md)** — The newest immunotherapies can spark a storm: CD20xCD3 bispecific antibodies and CAR-T for relapsed follicular lymphoma set off cytokine release syndrome as the T cells engage, managed with tocilizumab.
+- `connects-to` → **[CXCL12](../../03-molecular/cxcl12/README.md)** — CXCL12 keeps the clone in its follicle: stromal cells secrete this chemokine to retain follicular lymphoma cells via CXCR4 in the protective germinal-center niche, where survival signals shield them from therapy.
+- `connects-to` → **[Epstein-Barr Virus](../../../02-pathogen/01-viruses/epstein-barr-virus/README.md)** — EBV can ride along with the lymphoma: the virus is found in a subset of follicular lymphomas and, with the immunosuppression of treatment, can drive EBV-positive transformation and lymphoproliferation.
+- `connects-to` → **[Sepsis](../sepsis/README.md)** — Repeated immunosuppression invites infection: the B-cell depletion and chemotherapy used over the long course of relapsing follicular lymphoma leave patients hypogammaglobulinemic and prone to sepsis.
 
 ---
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*

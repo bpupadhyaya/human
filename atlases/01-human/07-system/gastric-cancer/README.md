@@ -169,6 +169,15 @@ cross_links:
   - target: 01-human/07-system/breast-cancer
     relation: connects-to
     note: "One gene ties stomach to breast: germline CDH1 (E-cadherin) loss causes hereditary diffuse gastric cancer and lobular breast cancer together, so a CDH1 carrier needs surveillance — or surgery — for both organs."
+  - target: 01-human/03-molecular/mlh1
+    relation: connects-to
+    note: "MLH1 silencing defines a gastric subtype: epigenetic loss of this mismatch-repair gene produces the microsatellite-unstable, hypermutated gastric cancers — a TCGA molecular class that is especially responsive to immune-checkpoint therapy."
+  - target: 01-human/04-cellular/mast-cell
+    relation: connects-to
+    note: "Mast cells crowd the gastric tumor stroma: their density correlates with angiogenesis and worse prognosis, part of the inflammatory microenvironment that Helicobacter-driven gastritis builds before cancer arises."
+  - target: 01-human/07-system/venous-thromboembolism
+    relation: connects-to
+    note: "Gastric cancer is strongly pro-thrombotic: like other GI adenocarcinomas it drives a high rate of venous thromboembolism (Trousseau), complicating the chemotherapy and major gastrectomy its treatment requires."
 ---
 
 # Gastric Cancer
@@ -366,6 +375,9 @@ H. pylori eradication: Reduces GC incidence by ~35-40% (meta-analyses); most ben
 - `connects-to` → **[PIK3CA](../../03-molecular/pik3ca/README.md)** — PI3K signaling drives a major subtype: PIK3CA mutations are common in gastric cancer, especially the Epstein-Barr-virus-positive group, switching on the AKT growth pathway and marking a targetable vulnerability.
 - `connects-to` → **[Dendritic Cell](../../04-cellular/dendritic-cell/README.md)** — How the tumor handles antigen decides immunotherapy's reach: dendritic-cell-driven T-cell priming is most effective in the EBV-positive and microsatellite-unstable gastric cancers, the subtypes that respond to checkpoint blockade.
 - `connects-to` → **[Breast Cancer](../breast-cancer/README.md)** — One gene ties stomach to breast: germline CDH1 (E-cadherin) loss causes hereditary diffuse gastric cancer and lobular breast cancer together, so a CDH1 carrier needs surveillance — or surgery — for both organs.
+- `connects-to` → **[MLH1](../../03-molecular/mlh1/README.md)** — MLH1 silencing defines a gastric subtype: epigenetic loss of this mismatch-repair gene produces the microsatellite-unstable, hypermutated gastric cancers — a TCGA molecular class that is especially responsive to immune-checkpoint therapy.
+- `connects-to` → **[Mast Cell](../../04-cellular/mast-cell/README.md)** — Mast cells crowd the gastric tumor stroma: their density correlates with angiogenesis and worse prognosis, part of the inflammatory microenvironment that Helicobacter-driven gastritis builds before cancer arises.
+- `connects-to` → **[Venous Thromboembolism](../venous-thromboembolism/README.md)** — Gastric cancer is strongly pro-thrombotic: like other GI adenocarcinomas it drives a high rate of venous thromboembolism (Trousseau), complicating the chemotherapy and major gastrectomy its treatment requires.
 
 [^bang-2010-toga]: Bang YJ, Van Cutsem E, Feyereislova A, et al. Trastuzumab in combination with chemotherapy versus chemotherapy alone for treatment of HER2-positive advanced gastric or gastro-oesophageal junction cancer (ToGA): a phase 3, open-label, randomised controlled trial. *Lancet.* 2010;376(9742):687-697. [doi:10.1016/S0140-6736(10)61121-X](https://doi.org/10.1016/S0140-6736(10)61121-X) · [PubMed 20728210](https://pubmed.ncbi.nlm.nih.gov/20728210/)
 [^janjigian-2021-checkmate649]: Janjigian YY, Shitara K, Moehler M, et al. First-line nivolumab plus chemotherapy versus chemotherapy alone for advanced gastric, gastro-oesophageal junction, and oesophageal adenocarcinoma (CheckMate 649). *Lancet.* 2021;398(10294):27-40. [doi:10.1016/S0140-6736(21)00797-2](https://doi.org/10.1016/S0140-6736(21)00797-2) · [PubMed 34102137](https://pubmed.ncbi.nlm.nih.gov/34102137/)
