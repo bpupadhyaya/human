@@ -160,6 +160,15 @@ cross_links:
   - target: 01-human/04-cellular/osteoclast
     relation: connects-to
     note: "Noonan unsettles bone remodeling: RAS-MAPK dysregulation skews the osteoclast-osteoblast balance toward resorption, contributing to the reduced bone density and skeletal anomalies like pectus deformity seen across the syndrome."
+  - target: 01-human/07-system/heart-failure
+    relation: connects-to
+    note: "The heart is the syndrome's gravest organ: hypertrophic cardiomyopathy and pulmonary valve stenosis from RAS-MAPK overdrive can thicken and obstruct the heart, driving some Noonan patients toward heart failure as a leading cause of early death."
+  - target: 01-human/06-organ/thyroid
+    relation: connects-to
+    note: "Autoimmunity rides along: Noonan carries an increased rate of autoimmune thyroiditis and hypothyroidism, so thyroid antibodies and function are monitored as part of routine care even though the syndrome's core defect is in growth signaling."
+  - target: 01-human/07-system/autism-spectrum-disorder
+    relation: connects-to
+    note: "RAS-pathway signaling shapes the developing brain: beyond the learning difficulties and ADHD common in Noonan, autism spectrum features occur more often than in the general population, reflecting how this growth-signaling cascade tunes synapse formation."
 ---
 
 # Noonan Syndrome
@@ -345,6 +354,9 @@ NS is characterized by four cardinal features: **(1) short stature** (below 3rd 
 - `connects-to` → **[Attention-Deficit/Hyperactivity Disorder](../attention-deficit-hyperactivity-disorder/README.md)** — The RASopathy reaches the developing brain: most children with Noonan have learning difficulties and attention problems, as the same overactive RAS-MAPK signaling that shapes the face and heart disturbs the circuits underlying learning and focus.
 - `connects-to` → **[Chronic Myelomonocytic Leukemia](../cmml/README.md)** — Noonan's signaling defect predisposes to monocytic leukemia: germline PTPN11 mutations drive juvenile myelomonocytic leukemia, the childhood RAS-pathway counterpart of the adult chronic myelomonocytic leukemia, both fueled by hyperactive SHP2.
 - `connects-to` → **[Osteoclast](../../04-cellular/osteoclast/README.md)** — Noonan unsettles bone remodeling: RAS-MAPK dysregulation skews the osteoclast-osteoblast balance toward resorption, contributing to the reduced bone density and skeletal anomalies like pectus deformity seen across the syndrome.
+- `connects-to` → **[Heart Failure](../heart-failure/README.md)** — The heart is the syndrome's gravest organ: hypertrophic cardiomyopathy and pulmonary valve stenosis from RAS-MAPK overdrive can thicken and obstruct the heart, driving some Noonan patients toward heart failure as a leading cause of early death.
+- `connects-to` → **[Thyroid Gland](../../06-organ/thyroid/README.md)** — Autoimmunity rides along: Noonan carries an increased rate of autoimmune thyroiditis and hypothyroidism, so thyroid antibodies and function are monitored as part of routine care even though the syndrome's core defect is in growth signaling.
+- `connects-to` → **[Autism Spectrum Disorder](../autism-spectrum-disorder/README.md)** — RAS-pathway signaling shapes the developing brain: beyond the learning difficulties and ADHD common in Noonan, autism spectrum features occur more often than in the general population, reflecting how this growth-signaling cascade tunes synapse formation.
 
 [^tartaglia-2001-ptpn11-noonan]: Tartaglia M, Mehler EL, Goldberg R, et al. Mutations in PTPN11, encoding the protein tyrosine phosphatase SHP-2, cause Noonan syndrome. *Nat Genet.* 2001;29(4):465-468. [doi:10.1038/ng772](https://doi.org/10.1038/ng772) · [PubMed 11704759](https://pubmed.ncbi.nlm.nih.gov/11704759/)
 [^van-der-burgt-2007-noonan-review]: van der Burgt I. Noonan syndrome. *Orphanet J Rare Dis.* 2007;2:4. [doi:10.1186/1750-1172-2-4](https://doi.org/10.1186/1750-1172-2-4) · [PubMed 17222357](https://pubmed.ncbi.nlm.nih.gov/17222357/)

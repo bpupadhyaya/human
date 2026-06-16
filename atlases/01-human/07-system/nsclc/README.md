@@ -166,6 +166,15 @@ cross_links:
   - target: 01-human/04-cellular/cardiomyocyte
     relation: connects-to
     note: "A rare but lethal immune side effect strikes the heart muscle: checkpoint-inhibitor myocarditis floods the myocardium with T cells attacking cardiomyocytes, an uncommon complication of NSCLC immunotherapy with a high fatality rate demanding urgent steroids."
+  - target: 01-human/03-molecular/her2
+    relation: connects-to
+    note: "Another driver joins the targetable list: HER2 mutations and amplification power a subset of lung adenocarcinomas, now hit by antibody-drug conjugates like trastuzumab deruxtecan, extending the precision-oncology approach beyond EGFR and ALK."
+  - target: 01-human/03-molecular/tert
+    relation: connects-to
+    note: "The tumor reawakens its immortality switch: TERT promoter activation restores telomerase so NSCLC cells escape the telomere erosion that limits normal divisions, a common step that lets the smoking-damaged epithelium keep proliferating."
+  - target: 01-human/05-tissue/alveolus
+    relation: connects-to
+    note: "Adenocarcinoma grows from the gas-exchange lining: NSCLC's most common subtype arises in the peripheral alveoli, spreading along the delicate walls in a lepidic pattern that can fill air sacs and erode the lung's capacity to oxygenate blood."
 ---
 
 # NSCLC
@@ -316,6 +325,9 @@ cross_links:
 - `connects-to` → **[Venous Thromboembolism](../venous-thromboembolism/README.md)** — Lung adenocarcinoma is among the most clot-prone cancers: tumor tissue factor and chemotherapy combine to drive deep-vein thrombosis and pulmonary embolism, a frequent complication that worsens outcomes and often needs anticoagulation.
 - `connects-to` → **[Thyroid Gland](../../06-organ/thyroid/README.md)** — Immunotherapy can inflame the thyroid: the checkpoint inhibitors central to modern NSCLC treatment commonly trigger autoimmune thyroiditis, causing transient hyperthyroidism then lasting hypothyroidism — one of the most frequent immune-related side effects.
 - `connects-to` → **[Cardiomyocyte](../../04-cellular/cardiomyocyte/README.md)** — A rare but lethal immune side effect strikes the heart muscle: checkpoint-inhibitor myocarditis floods the myocardium with T cells attacking cardiomyocytes, an uncommon complication of NSCLC immunotherapy with a high fatality rate demanding urgent steroids.
+- `connects-to` → **[HER2](../../03-molecular/her2/README.md)** — Another driver joins the targetable list: HER2 mutations and amplification power a subset of lung adenocarcinomas, now hit by antibody-drug conjugates like trastuzumab deruxtecan, extending the precision-oncology approach beyond EGFR and ALK.
+- `connects-to` → **[TERT](../../03-molecular/tert/README.md)** — The tumor reawakens its immortality switch: TERT promoter activation restores telomerase so NSCLC cells escape the telomere erosion that limits normal divisions, a common step that lets the smoking-damaged epithelium keep proliferating.
+- `connects-to` → **[Alveolus](../../05-tissue/alveolus/README.md)** — Adenocarcinoma grows from the gas-exchange lining: NSCLC's most common subtype arises in the peripheral alveoli, spreading along the delicate walls in a lepidic pattern that can fill air sacs and erode the lung's capacity to oxygenate blood.
 
 [^soria-2018-osimertinib-flaura]: Soria JC, Ohe Y, Vansteenkiste J, et al. Osimertinib in untreated EGFR-mutated advanced non-small-cell lung cancer. *N Engl J Med.* 2018;378(2):113-125. [doi:10.1056/NEJMoa1713137](https://doi.org/10.1056/NEJMoa1713137) · [PubMed 29151359](https://pubmed.ncbi.nlm.nih.gov/29151359/)
 [^reck-2016-pembrolizumab-keynote024]: Reck M, Rodríguez-Abreu D, Robinson AG, et al. Pembrolizumab versus chemotherapy for PD-L1-positive non-small-cell lung cancer. *N Engl J Med.* 2016;375(19):1823-1833. [doi:10.1056/NEJMoa1606774](https://doi.org/10.1056/NEJMoa1606774) · [PubMed 27718347](https://pubmed.ncbi.nlm.nih.gov/27718347/)
