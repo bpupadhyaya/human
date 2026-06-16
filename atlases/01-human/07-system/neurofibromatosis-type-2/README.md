@@ -160,6 +160,15 @@ cross_links:
   - target: 01-human/07-system/stroke
     relation: connects-to
     note: "Its anti-VEGF therapy carries a vascular price: prolonged bevacizumab raises the risk of hypertension and arterial thromboembolic events including stroke, a trade-off weighed against the hearing it can save in NF2."
+  - target: 01-human/03-molecular/egfr
+    relation: connects-to
+    note: "Merlin's day job is restraining receptors: the NF2 protein holds EGFR and other growth-factor receptors in check at the cell membrane and enforces contact inhibition, so losing it lets EGFR-driven signaling run on and feed the schwannomas and meningiomas."
+  - target: 01-human/07-system/epilepsy
+    relation: connects-to
+    note: "Its brain tumors can spark seizures: the meningiomas and ependymomas that stud the nervous system in NF2 irritate the cortex, so epilepsy is among the ways the disease declares itself beyond the hallmark hearing loss."
+  - target: 01-human/04-cellular/mast-cell
+    relation: connects-to
+    note: "The tumors recruit inflammatory help: like the nerve-sheath tumors of NF1, NF2 schwannomas harbor infiltrating mast cells whose mediators are thought to support the tumor microenvironment and its slow, relentless growth."
 ---
 
 # Neurofibromatosis Type 2
@@ -327,6 +336,9 @@ Merlin has an N-terminal FERM domain (α, β, γ lobes) that binds membrane lipi
 - `connects-to` → **[Platelet](../../04-cellular/platelet/README.md)** — Bevacizumab is the main systemic NF2 drug: this anti-VEGF antibody can shrink vestibular schwannomas and preserve hearing, but by impairing the vessel lining it raises bleeding, clotting and platelet-related complications that must be watched.
 - `connects-to` → **[Regulatory T Cell](../../04-cellular/regulatory-t-cell/README.md)** — NF2's tumors are immunologically quiet: schwannomas and meningiomas recruit regulatory T cells and few effectors, a cold microenvironment that has limited immunotherapy and is studied to make these slow tumors more visible to attack.
 - `connects-to` → **[Stroke](../stroke/README.md)** — Its anti-VEGF therapy carries a vascular price: prolonged bevacizumab raises the risk of hypertension and arterial thromboembolic events including stroke, a trade-off weighed against the hearing it can save in NF2.
+- `connects-to` → **[EGFR](../../03-molecular/egfr/README.md)** — Merlin's day job is restraining receptors: the NF2 protein holds EGFR and other growth-factor receptors in check at the cell membrane and enforces contact inhibition, so losing it lets EGFR-driven signaling run on and feed the schwannomas and meningiomas.
+- `connects-to` → **[Epilepsy](../epilepsy/README.md)** — Its brain tumors can spark seizures: the meningiomas and ependymomas that stud the nervous system in NF2 irritate the cortex, so epilepsy is among the ways the disease declares itself beyond the hallmark hearing loss.
+- `connects-to` → **[Mast Cell](../../04-cellular/mast-cell/README.md)** — The tumors recruit inflammatory help: like the nerve-sheath tumors of NF1, NF2 schwannomas harbor infiltrating mast cells whose mediators are thought to support the tumor microenvironment and its slow, relentless growth.
 
 [^asthagiri-2009-nf2-lancet]: Asthagiri AR, Parry DM, Butman JA, et al. Neurofibromatosis type 2. *Lancet.* 2009;373(9679):1974-1986. [doi:10.1016/S0140-6736(09)60259-2](https://doi.org/10.1016/S0140-6736(09)60259-2) · [PubMed 19476995](https://pubmed.ncbi.nlm.nih.gov/19476995/)
 [^plotkin-2009-nf2-bevacizumab]: Plotkin SR, Stemmer-Rachamimov AO, Barker FG 2nd, et al. Hearing improvement after bevacizumab in patients with neurofibromatosis type 2. *N Engl J Med.* 2009;361(4):358-367. [doi:10.1056/NEJMoa0902579](https://doi.org/10.1056/NEJMoa0902579) · [PubMed 19587327](https://pubmed.ncbi.nlm.nih.gov/19587327/)

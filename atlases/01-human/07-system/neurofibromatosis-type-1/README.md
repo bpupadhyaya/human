@@ -160,6 +160,15 @@ cross_links:
   - target: 01-human/04-cellular/osteoclast
     relation: connects-to
     note: "Bone fails to knit in NF1: losing neurofibromin tips bone remodeling toward overactive osteoclast resorption, which underlies the non-healing pseudarthrosis of the tibia and the dysplasia and scoliosis that mark the skeleton."
+  - target: 01-human/07-system/cmml
+    relation: connects-to
+    note: "The same RAS overdrive reaches the blood: NF1 children have a strong predisposition to juvenile myelomonocytic leukemia, the pediatric cousin of CMML, because losing neurofibromin unleashes RAS signaling in myeloid progenitors just as it does in nerve sheath cells."
+  - target: 01-human/07-system/stroke
+    relation: connects-to
+    note: "NF1 is a disease of blood vessels too: neurofibromin loss weakens and narrows arteries into a vasculopathy, including moyamoya-like cerebral vessel disease, so children and adults face an elevated risk of stroke beyond their tumor burden."
+  - target: 01-human/07-system/autism-spectrum-disorder
+    relation: connects-to
+    note: "The brain wiring is affected from the start: beyond the learning difficulties and ADHD, a substantial share of children with NF1 meet criteria for autism spectrum disorder, reflecting how RAS-pathway signaling shapes synapse formation and cognition."
 ---
 
 # Neurofibromatosis Type 1
@@ -320,6 +329,9 @@ In glioma and MPNST: additional alterations required — MPNST requires CDKN2A/2
 - `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — NF1 is autosomal dominant with a striking twist: each child of a carrier has a 50% risk, yet about half of all cases are new de novo mutations, so genetic counseling and preimplantation options matter even in families with no prior history.
 - `connects-to` → **[Attention-Deficit/Hyperactivity Disorder](../attention-deficit-hyperactivity-disorder/README.md)** — The commonest NF1 complication is in the mind, not the nerves: learning disabilities and ADHD affect most children with the syndrome, as loss of neurofibromin's RAS control disturbs the signaling that underpins attention and learning.
 - `connects-to` → **[Osteoclast](../../04-cellular/osteoclast/README.md)** — Bone fails to knit in NF1: losing neurofibromin tips bone remodeling toward overactive osteoclast resorption, which underlies the non-healing pseudarthrosis of the tibia and the dysplasia and scoliosis that mark the skeleton.
+- `connects-to` → **[Chronic Myelomonocytic Leukemia](../cmml/README.md)** — The same RAS overdrive reaches the blood: NF1 children have a strong predisposition to juvenile myelomonocytic leukemia, the pediatric cousin of CMML, because losing neurofibromin unleashes RAS signaling in myeloid progenitors just as it does in nerve sheath cells.
+- `connects-to` → **[Stroke](../stroke/README.md)** — NF1 is a disease of blood vessels too: neurofibromin loss weakens and narrows arteries into a vasculopathy, including moyamoya-like cerebral vessel disease, so children and adults face an elevated risk of stroke beyond their tumor burden.
+- `connects-to` → **[Autism Spectrum Disorder](../autism-spectrum-disorder/README.md)** — The brain wiring is affected from the start: beyond the learning difficulties and ADHD, a substantial share of children with NF1 meet criteria for autism spectrum disorder, reflecting how RAS-pathway signaling shapes synapse formation and cognition.
 
 [^gutmann-2017-nf1-primer]: Gutmann DH, Ferner RE, Listernick RH, et al. Neurofibromatosis type 1. *Nat Rev Dis Primers.* 2017;3:17004. [doi:10.1038/nrdp.2017.4](https://doi.org/10.1038/nrdp.2017.4) · [PubMed 28230061](https://pubmed.ncbi.nlm.nih.gov/28230061/)
 [^dombi-2016-selumetinib]: Dombi E, Baldwin A, Marcus LJ, et al. Activity of Selumetinib in Neurofibromatosis Type 1-Related Plexiform Neurofibromas. *N Engl J Med.* 2016;375(26):2550-2560. [doi:10.1056/NEJMoa1605943](https://doi.org/10.1056/NEJMoa1605943) · [PubMed 28029918](https://pubmed.ncbi.nlm.nih.gov/28029918/)
