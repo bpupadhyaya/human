@@ -160,6 +160,15 @@ cross_links:
   - target: 01-human/04-cellular/t-cytotoxic-cell
     relation: connects-to
     note: "Immunotherapy joins the HLRCC toolkit: its aggressive FH-deficient kidney cancers can respond to checkpoint inhibitors that unleash cytotoxic T cells, used alongside the bevacizumab-erlotinib backbone against this hard-to-treat tumor."
+  - target: 01-human/04-cellular/fibroblast
+    relation: connects-to
+    note: "The benign tumors are mesenchymal: HLRCC's hallmark cutaneous and uterine leiomyomas are smooth-muscle and fibroblast-like growths of FH-deficient cells, the skin nodules and fibroids that flag the syndrome before the kidney cancer."
+  - target: 01-human/03-molecular/ampk
+    relation: connects-to
+    note: "A blocked Krebs cycle starves the cell of energy: FH loss stalls the TCA cycle and forces a Warburg shift, a metabolic stress sensed by AMPK as the FH-deficient cell rewires its metabolism to survive."
+  - target: 01-human/07-system/neurofibromatosis-type-1
+    relation: connects-to
+    note: "It joins the multisystem tumor-suppressor syndromes: like neurofibromatosis type 1, HLRCC is a single-gene disorder with cutaneous tumors and a predisposition to renal and adrenal/paraganglionic tumors, distinguished by its gene and metabolic mechanism."
 ---
 
 # Hereditary Leiomyomatosis and Renal Cell Carcinoma
@@ -339,6 +348,9 @@ Cutaneous:
 - `connects-to` → **[Erythropoietin](../../03-molecular/erythropoietin/README.md)** — The pseudo-hypoxia can overfill the blood: FH loss stabilizes HIF, which switches on erythropoietin, so HLRCC kidney tumors can drive a paraneoplastic erythrocytosis — too many red cells from a falsely sensed lack of oxygen.
 - `connects-to` → **[MET](../../03-molecular/met/README.md)** — HLRCC sits opposite the other inherited papillary kidney cancer: its FH-driven type 2 papillary RCC contrasts with MET-activated hereditary papillary RCC type 1, so the gene at fault tells which papillary syndrome — and which course — a patient has.
 - `connects-to` → **[Cytotoxic T Cell](../../04-cellular/t-cytotoxic-cell/README.md)** — Immunotherapy joins the HLRCC toolkit: its aggressive FH-deficient kidney cancers can respond to checkpoint inhibitors that unleash cytotoxic T cells, used alongside the bevacizumab-erlotinib backbone against this hard-to-treat tumor.
+- `connects-to` → **[Fibroblast](../../04-cellular/fibroblast/README.md)** — The benign tumors are mesenchymal: HLRCC's hallmark cutaneous and uterine leiomyomas are smooth-muscle and fibroblast-like growths of FH-deficient cells, the skin nodules and fibroids that flag the syndrome before the kidney cancer.
+- `connects-to` → **[AMPK](../../03-molecular/ampk/README.md)** — A blocked Krebs cycle starves the cell of energy: FH loss stalls the TCA cycle and forces a Warburg shift, a metabolic stress sensed by AMPK as the FH-deficient cell rewires its metabolism to survive.
+- `connects-to` → **[Neurofibromatosis Type 1](../neurofibromatosis-type-1/README.md)** — It joins the multisystem tumor-suppressor syndromes: like neurofibromatosis type 1, HLRCC is a single-gene disorder with cutaneous tumors and a predisposition to renal and adrenal/paraganglionic tumors, distinguished by its gene and metabolic mechanism.
 
 [^tomlinson-2002-fh]: Tomlinson IP, Alam NA, Rowan AJ, et al. Germline mutations in FH predispose to dominantly inherited uterine fibroids, skin leiomyomata and papillary renal cell cancer. *Nat Genet.* 2002;30(4):406-410. [doi:10.1038/ng849](https://doi.org/10.1038/ng849) · [PubMed 11865300](https://pubmed.ncbi.nlm.nih.gov/11865300/)
 [^linehan-2013-fh-review]: Linehan WM, Rouault TA. Molecular pathways: fumarate hydratase-deficient kidney cancer — targeting the Warburg effect in cancer. *Clin Cancer Res.* 2013;19(13):3345-3352. [doi:10.1158/1078-0432.CCR-13-0304](https://doi.org/10.1158/1078-0432.CCR-13-0304) · [PubMed 23836472](https://pubmed.ncbi.nlm.nih.gov/23836472/)
