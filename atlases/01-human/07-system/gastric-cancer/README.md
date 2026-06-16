@@ -160,6 +160,15 @@ cross_links:
   - target: 01-human/04-cellular/platelet
     relation: connects-to
     note: "Gastric adenocarcinoma is a classic clot-maker: its mucin-secreting cells trigger paraneoplastic thrombocytosis and the migratory thrombophlebitis of Trousseau syndrome, driving a high rate of venous thromboembolism."
+  - target: 01-human/03-molecular/pik3ca
+    relation: connects-to
+    note: "PI3K signaling drives a major subtype: PIK3CA mutations are common in gastric cancer, especially the Epstein-Barr-virus-positive group, switching on the AKT growth pathway and marking a targetable vulnerability."
+  - target: 01-human/04-cellular/dendritic-cell
+    relation: connects-to
+    note: "How the tumor handles antigen decides immunotherapy's reach: dendritic-cell-driven T-cell priming is most effective in the EBV-positive and microsatellite-unstable gastric cancers, the subtypes that respond to checkpoint blockade."
+  - target: 01-human/07-system/breast-cancer
+    relation: connects-to
+    note: "One gene ties stomach to breast: germline CDH1 (E-cadherin) loss causes hereditary diffuse gastric cancer and lobular breast cancer together, so a CDH1 carrier needs surveillance — or surgery — for both organs."
 ---
 
 # Gastric Cancer
@@ -354,6 +363,9 @@ H. pylori eradication: Reduces GC incidence by ~35-40% (meta-analyses); most ben
 - `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — Gastric cancer can drop seeds in the ovary: signet-ring cells spreading through the peritoneum implant on the ovaries as Krukenberg tumors, sometimes the presenting finding in a young woman whose stomach primary is still silent.
 - `connects-to` → **[MET](../../03-molecular/met/README.md)** — A minority of gastric cancers are MET-driven: amplification or overexpression of the MET receptor marks aggressive, fast-spreading tumors and a poor prognosis, an actionable target probed by MET-directed therapies.
 - `connects-to` → **[Platelet](../../04-cellular/platelet/README.md)** — Gastric adenocarcinoma is a classic clot-maker: its mucin-secreting cells trigger paraneoplastic thrombocytosis and the migratory thrombophlebitis of Trousseau syndrome, driving a high rate of venous thromboembolism.
+- `connects-to` → **[PIK3CA](../../03-molecular/pik3ca/README.md)** — PI3K signaling drives a major subtype: PIK3CA mutations are common in gastric cancer, especially the Epstein-Barr-virus-positive group, switching on the AKT growth pathway and marking a targetable vulnerability.
+- `connects-to` → **[Dendritic Cell](../../04-cellular/dendritic-cell/README.md)** — How the tumor handles antigen decides immunotherapy's reach: dendritic-cell-driven T-cell priming is most effective in the EBV-positive and microsatellite-unstable gastric cancers, the subtypes that respond to checkpoint blockade.
+- `connects-to` → **[Breast Cancer](../breast-cancer/README.md)** — One gene ties stomach to breast: germline CDH1 (E-cadherin) loss causes hereditary diffuse gastric cancer and lobular breast cancer together, so a CDH1 carrier needs surveillance — or surgery — for both organs.
 
 [^bang-2010-toga]: Bang YJ, Van Cutsem E, Feyereislova A, et al. Trastuzumab in combination with chemotherapy versus chemotherapy alone for treatment of HER2-positive advanced gastric or gastro-oesophageal junction cancer (ToGA): a phase 3, open-label, randomised controlled trial. *Lancet.* 2010;376(9742):687-697. [doi:10.1016/S0140-6736(10)61121-X](https://doi.org/10.1016/S0140-6736(10)61121-X) · [PubMed 20728210](https://pubmed.ncbi.nlm.nih.gov/20728210/)
 [^janjigian-2021-checkmate649]: Janjigian YY, Shitara K, Moehler M, et al. First-line nivolumab plus chemotherapy versus chemotherapy alone for advanced gastric, gastro-oesophageal junction, and oesophageal adenocarcinoma (CheckMate 649). *Lancet.* 2021;398(10294):27-40. [doi:10.1016/S0140-6736(21)00797-2](https://doi.org/10.1016/S0140-6736(21)00797-2) · [PubMed 34102137](https://pubmed.ncbi.nlm.nih.gov/34102137/)

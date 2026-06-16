@@ -160,6 +160,15 @@ cross_links:
   - target: 02-pathogen/01-viruses/varicella-zoster-virus
     relation: connects-to
     note: "A viral trigger has been proposed: varicella-zoster virus antigen was reported in some inflamed temporal arteries, raising the idea that the reactivated virus helps ignite GCA — a link that remains debated and unproven."
+  - target: 01-human/03-molecular/il-23
+    relation: connects-to
+    note: "IL-23 sustains the Th17 arm of the attack: alongside the IL-12/Th1 axis, IL-23 drives the IL-17-producing T cells that inflame the artery wall in GCA, part of why cytokine-directed therapy is explored beyond IL-6 blockade."
+  - target: 01-human/04-cellular/natural-killer-cell
+    relation: connects-to
+    note: "Natural killer cells join the vascular infiltrate: they accumulate in the inflamed arterial wall and contribute, with T cells and macrophages, to the granulomatous destruction of the vessel."
+  - target: 01-human/07-system/type-2-diabetes
+    relation: connects-to
+    note: "The cure brings its own disease: the prolonged high-dose glucocorticoids needed to control GCA commonly induce steroid diabetes, one of the metabolic harms that make sparing the steroid a goal of newer therapy."
 ---
 
 # Giant Cell Arteritis
@@ -322,6 +331,9 @@ The temporal arteries supply scalp, temporalis muscle, and dura. In GCA, transmu
 - `connects-to` → **[Platelet](../../04-cellular/platelet/README.md)** — Platelets both flag and threaten in GCA: a raised platelet count is a useful diagnostic clue alongside the inflammatory markers, and because the inflamed artery clots, low-dose aspirin is often added to guard against the dreaded vision loss and stroke.
 - `connects-to` → **[Osteoporosis](../osteoporosis/README.md)** — The treatment thins the bones: the months to years of high-dose glucocorticoids that control GCA are a leading cause of steroid-induced osteoporosis, so calcium, vitamin D and a bone-protecting drug are started alongside the prednisone.
 - `connects-to` → **[Varicella-Zoster Virus](../../../02-pathogen/01-viruses/varicella-zoster-virus/README.md)** — A viral trigger has been proposed: varicella-zoster virus antigen was reported in some inflamed temporal arteries, raising the idea that the reactivated virus helps ignite GCA — a link that remains debated and unproven.
+- `connects-to` → **[IL-23](../../03-molecular/il-23/README.md)** — IL-23 sustains the Th17 arm of the attack: alongside the IL-12/Th1 axis, IL-23 drives the IL-17-producing T cells that inflame the artery wall in GCA, part of why cytokine-directed therapy is explored beyond IL-6 blockade.
+- `connects-to` → **[Natural Killer Cell](../../04-cellular/natural-killer-cell/README.md)** — Natural killer cells join the vascular infiltrate: they accumulate in the inflamed arterial wall and contribute, with T cells and macrophages, to the granulomatous destruction of the vessel.
+- `connects-to` → **[Type 2 Diabetes](../type-2-diabetes/README.md)** — The cure brings its own disease: the prolonged high-dose glucocorticoids needed to control GCA commonly induce steroid diabetes, one of the metabolic harms that make sparing the steroid a goal of newer therapy.
 
 [^stone-2017-giact]: Stone JH, Tuckwell K, Dimonaco S, et al. Trial of tocilizumab in giant-cell arteritis. *N Engl J Med.* 2017;377(4):317-328. [doi:10.1056/NEJMoa1613849](https://doi.org/10.1056/NEJMoa1613849) · [PubMed 28745999](https://pubmed.ncbi.nlm.nih.gov/28745999/)
 [^weyand-2014-gca-review]: Weyand CM, Goronzy JJ. Clinical practice. Giant-cell arteritis and polymyalgia rheumatica. *N Engl J Med.* 2014;371(1):50-57. [doi:10.1056/NEJMcp1214926](https://doi.org/10.1056/NEJMcp1214926) · [PubMed 24988557](https://pubmed.ncbi.nlm.nih.gov/24988557/)
