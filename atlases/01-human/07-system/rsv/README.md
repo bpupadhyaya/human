@@ -165,6 +165,15 @@ cross_links:
   - target: 01-human/03-molecular/il-6
     relation: connects-to
     note: "RSV lights up IL-6 in the airway: infected epithelium and macrophages pour out this cytokine, and high IL-6 in nasal secretions tracks with the inflammation and severity of infant bronchiolitis."
+  - target: 01-human/03-molecular/irf3
+    relation: connects-to
+    note: "Sensing the virus flips the interferon switch: RSV RNA detected through the RIG-I/MAVS pathway activates IRF3, the transcription factor that turns on type I interferon — and which the virus's NS proteins work to suppress."
+  - target: 02-pathogen/02-bacteria/staphylococcus-aureus
+    relation: connects-to
+    note: "The damaged airway invites a second germ: RSV strips the respiratory epithelium and blunts defenses, opening the door to bacterial superinfection by Staphylococcus aureus and other organisms that worsen the pneumonia."
+  - target: 01-human/04-cellular/fibroblast
+    relation: connects-to
+    note: "Early infection may reshape the lung for life: RSV bronchiolitis activates airway fibroblasts and remodeling, part of why severe infant infection is linked to later wheezing and asthma."
 ---
 
 # RSV
@@ -358,3 +367,6 @@ Radiological findings: Hyperinflation, peribronchial thickening, occasional atel
 - `connects-to` → **[Streptococcus pneumoniae](../../../02-pathogen/02-bacteria/streptococcus-pneumoniae/README.md)** — RSV opens the door to bacteria: by stripping the airway lining and blunting defenses it primes the lung for secondary pneumococcal pneumonia, a viral-bacterial synergy that drives much of the severe illness and death in infants and the elderly.
 - `connects-to` → **[Regulatory T Cell](../../04-cellular/regulatory-t-cell/README.md)** — Regulatory T cells decide how much the infection hurts: they rein in the antiviral response so it clears RSV without shredding the airway, and too few of them tip the balance toward immunopathology and a Th2-skewed, wheezy course.
 - `connects-to` → **[Interleukin-6](../../03-molecular/il-6/README.md)** — RSV lights up IL-6 in the airway: infected epithelium and macrophages pour out this cytokine, and high IL-6 in nasal secretions tracks with the inflammation and severity of infant bronchiolitis.
+- `connects-to` → **[IRF3](../../03-molecular/irf3/README.md)** — Sensing the virus flips the interferon switch: RSV RNA detected through the RIG-I/MAVS pathway activates IRF3, the transcription factor that turns on type I interferon — and which the virus's NS proteins work to suppress.
+- `connects-to` → **[Staphylococcus aureus](../../../02-pathogen/02-bacteria/staphylococcus-aureus/README.md)** — The damaged airway invites a second germ: RSV strips the respiratory epithelium and blunts defenses, opening the door to bacterial superinfection by Staphylococcus aureus and other organisms that worsen the pneumonia.
+- `connects-to` → **[Fibroblast](../../04-cellular/fibroblast/README.md)** — Early infection may reshape the lung for life: RSV bronchiolitis activates airway fibroblasts and remodeling, part of why severe infant infection is linked to later wheezing and asthma.
