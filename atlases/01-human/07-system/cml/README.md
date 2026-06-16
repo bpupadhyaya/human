@@ -160,6 +160,15 @@ cross_links:
   - target: 01-human/02-atomic/calcium
     relation: connects-to
     note: "Long-term imatinib reshapes bone mineral handling: by blocking PDGFR and KIT on bone cells it lowers bone turnover and can disturb calcium and phosphate balance, an under-recognized metabolic effect of years on TKI therapy."
+  - target: 01-human/07-system/gvhd
+    relation: connects-to
+    note: "Transplant was CML's first cure: before TKIs, allogeneic stem-cell transplant offered the only cure through its graft-versus-leukemia effect, at the cost of graft-versus-host disease — still the fallback for TKI-resistant or blast-crisis disease."
+  - target: 01-human/04-cellular/regulatory-t-cell
+    relation: connects-to
+    note: "The immune system can help hold CML down: regulatory T cells that blunt anti-leukemia immunity rise with disease, and their balance shapes the immune control that lets some patients stop TKIs and stay in remission."
+  - target: 01-human/03-molecular/il-6
+    relation: connects-to
+    note: "Inflammation feeds the leukemic niche: BCR-ABL drives IL-6 release that remodels the marrow microenvironment to favor the leukemic stem cells over normal hematopoiesis."
 ---
 
 # Chronic Myeloid Leukemia
@@ -320,6 +329,9 @@ Following the imatinib revolution, the current frontier is achieving **deep mole
 - `connects-to` → **[Endothelial Cell](../../04-cellular/endothelial-cell/README.md)** — Some TKIs injure the vessel lining: nilotinib and ponatinib damage endothelial cells and accelerate atherosclerosis, raising the risk of arterial occlusion, peripheral artery disease and heart attack — the vascular toxicity that shapes which drug a CML patient receives.
 - `connects-to` → **[Transforming Growth Factor Beta](../../03-molecular/tgf-beta/README.md)** — TGF-beta hides CML from cure: it keeps the leukemic stem cells quiescent through FOXO signaling, and these dormant cells survive even deep BCR-ABL inhibition — why most patients must keep taking TKIs and why stem-cell-targeting strategies are sought.
 - `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — Long-term imatinib reshapes bone mineral handling: by blocking PDGFR and KIT on bone cells it lowers bone turnover and can disturb calcium and phosphate balance, an under-recognized metabolic effect of years on TKI therapy.
+- `connects-to` → **[Graft-Versus-Host Disease](../gvhd/README.md)** — Transplant was CML's first cure: before TKIs, allogeneic stem-cell transplant offered the only cure through its graft-versus-leukemia effect, at the cost of graft-versus-host disease — still the fallback for TKI-resistant or blast-crisis disease.
+- `connects-to` → **[Regulatory T Cell](../../04-cellular/regulatory-t-cell/README.md)** — The immune system can help hold CML down: regulatory T cells that blunt anti-leukemia immunity rise with disease, and their balance shapes the immune control that lets some patients stop TKIs and stay in remission.
+- `connects-to` → **[Interleukin-6](../../03-molecular/il-6/README.md)** — Inflammation feeds the leukemic niche: BCR-ABL drives IL-6 release that remodels the marrow microenvironment to favor the leukemic stem cells over normal hematopoiesis.
 
 ---
 

@@ -160,6 +160,15 @@ cross_links:
   - target: 01-human/04-cellular/mast-cell
     relation: connects-to
     note: "CMML can travel with mast-cell disease: it is a recognized partner in systemic mastocytosis with an associated hematologic neoplasm, where a shared KIT-mutant or RAS-driven clone produces both the abnormal mast cells and the monocytic leukemia."
+  - target: 01-human/07-system/gvhd
+    relation: connects-to
+    note: "Transplant is CMML's only cure, with a catch: allogeneic stem-cell transplant can eradicate the clone via graft-versus-leukemia, but graft-versus-host disease and relapse limit it, so it is reserved for fit, higher-risk patients."
+  - target: 01-human/07-system/anca-vasculitis
+    relation: connects-to
+    note: "CMML smolders with autoimmunity: it is strikingly associated with systemic inflammatory and autoimmune disease, including vasculitis and neutrophilic dermatoses, the dysplastic clone driving an inflammatory state alongside the cytopenias."
+  - target: 01-human/04-cellular/t-helper-cell
+    relation: connects-to
+    note: "The clone unbalances the immune system: skewed T-helper populations and cytokine output in CMML both abet the leukemic monocytes and drive the autoinflammatory complications that shadow the disease."
 ---
 
 # Chronic Myelomonocytic Leukemia
@@ -333,6 +342,9 @@ CMML → AML transformation (~15-30% at 5 years): Treat as secondary AML; CPX-35
 - `connects-to` → **[Streptococcus pneumoniae](../../../02-pathogen/02-bacteria/streptococcus-pneumoniae/README.md)** — CMML's monocytes are abundant but defective: despite the high monocyte count, these cells function poorly, so patients suffer recurrent bacterial infections like pneumococcal pneumonia — infection, alongside transformation, is a leading cause of death.
 - `connects-to` → **[p53](../../03-molecular/p53/README.md)** — TP53 mutation marks the worst CMML: though uncommon, p53 loss predicts rapid progression to acute leukemia and resistance to hypomethylating agents, flagging patients who need transplant or trial therapy rather than standard treatment.
 - `connects-to` → **[Mast Cell](../../04-cellular/mast-cell/README.md)** — CMML can travel with mast-cell disease: it is a recognized partner in systemic mastocytosis with an associated hematologic neoplasm, where a shared KIT-mutant or RAS-driven clone produces both the abnormal mast cells and the monocytic leukemia.
+- `connects-to` → **[Graft-Versus-Host Disease](../gvhd/README.md)** — Transplant is CMML's only cure, with a catch: allogeneic stem-cell transplant can eradicate the clone via graft-versus-leukemia, but graft-versus-host disease and relapse limit it, so it is reserved for fit, higher-risk patients.
+- `connects-to` → **[ANCA Vasculitis](../anca-vasculitis/README.md)** — CMML smolders with autoimmunity: it is strikingly associated with systemic inflammatory and autoimmune disease, including vasculitis and neutrophilic dermatoses, the dysplastic clone driving an inflammatory state alongside the cytopenias.
+- `connects-to` → **[T Helper Cell](../../04-cellular/t-helper-cell/README.md)** — The clone unbalances the immune system: skewed T-helper populations and cytokine output in CMML both abet the leukemic monocytes and drive the autoinflammatory complications that shadow the disease.
 
 ---
 
