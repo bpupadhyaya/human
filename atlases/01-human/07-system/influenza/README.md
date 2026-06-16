@@ -166,6 +166,15 @@ cross_links:
   - target: 01-human/06-organ/eye
     relation: connects-to
     note: "The eye can be flu's doorway: avian strains like H7 bind receptors on the conjunctiva, causing conjunctivitis and offering the virus a route of entry that bypasses the airway."
+  - target: 01-human/07-system/cardiovascular-system
+    relation: connects-to
+    note: "Flu can stop the heart: the acute inflammation of influenza sharply raises the risk of heart attack and stroke in the days after infection, which is why flu vaccination measurably lowers cardiovascular events."
+  - target: 01-human/07-system/copd
+    relation: connects-to
+    note: "It tips chronic lungs over the edge: influenza is a leading trigger of COPD exacerbations, turning manageable airflow limitation into respiratory failure — the reason annual vaccination is urged in these patients."
+  - target: 01-human/07-system/asthma
+    relation: connects-to
+    note: "It sets off the wheeze: influenza is a common trigger of severe asthma attacks, inflaming already twitchy airways, so asthmatics are a priority group for the flu vaccine."
 ---
 
 # Influenza
@@ -351,3 +360,6 @@ Influenza damages mucociliary clearance and exposes basal lamina glycoproteins �
 - `connects-to` → **[Dendritic Cell](../../04-cellular/dendritic-cell/README.md)** — Dendritic cells set the immune response: they carry flu antigen from the airway to the lymph nodes to prime T and B cells, and plasmacytoid DCs pour out the type I interferon that mounts the early antiviral defense.
 - `connects-to` → **[Heart Failure](../heart-failure/README.md)** — Flu is hard on a failing heart: the infection triggers acute decompensation, myocardial infarction, and myocarditis in the weeks after onset, which is why influenza vaccination measurably cuts cardiovascular events.
 - `connects-to` → **[Eye](../../06-organ/eye/README.md)** — The eye can be flu's doorway: avian strains like H7 bind receptors on the conjunctiva, causing conjunctivitis and offering the virus a route of entry that bypasses the airway.
+- `connects-to` → **[Cardiovascular system](../cardiovascular-system/README.md)** — Flu can stop the heart: the acute inflammation of influenza sharply raises the risk of heart attack and stroke in the days after infection, which is why flu vaccination measurably lowers cardiovascular events.
+- `connects-to` → **[COPD](../copd/README.md)** — It tips chronic lungs over the edge: influenza is a leading trigger of COPD exacerbations, turning manageable airflow limitation into respiratory failure — the reason annual vaccination is urged in these patients.
+- `connects-to` → **[Asthma](../asthma/README.md)** — It sets off the wheeze: influenza is a common trigger of severe asthma attacks, inflaming already twitchy airways, so asthmatics are a priority group for the flu vaccine.

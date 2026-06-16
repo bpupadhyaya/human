@@ -166,6 +166,15 @@ cross_links:
   - target: 01-human/04-cellular/natural-killer-cell
     relation: connects-to
     note: "Innate defense falters too: natural killer cells fall in number and function in advanced HIV, weakening the early control of viruses and tumors that lets opportunistic infections and AIDS cancers take hold."
+  - target: 01-human/07-system/gut-microbiome
+    relation: connects-to
+    note: "The gut is ground zero: HIV depletes the mucosal CD4 and Th17 cells early, breaching the gut barrier so microbial products leak into the blood — a microbial translocation that drives the chronic immune activation behind AIDS progression."
+  - target: 01-human/07-system/ckd
+    relation: connects-to
+    note: "The virus and its drugs strain the kidney: HIV-associated nephropathy plus the toxicity of some antiretrovirals make chronic kidney disease a common comorbidity, especially in untreated or African-ancestry patients."
+  - target: 01-human/07-system/cardiovascular-system
+    relation: connects-to
+    note: "Survival exposes a new killer: with opportunistic infections controlled, the chronic inflammation of treated HIV accelerates atherosclerosis, making cardiovascular disease a leading cause of death in the aging AIDS-era population."
 ---
 
 # HIV/AIDS
@@ -330,6 +339,9 @@ HIV-1 pathogenesis is primarily driven by CD4⁺ T cell loss:
 - `connects-to` → **[Mycobacterium tuberculosis](../../../02-pathogen/02-bacteria/mycobacterium-tuberculosis/README.md)** — Tuberculosis is the great killer of AIDS: the failing CD4 defense lets Mycobacterium tuberculosis reactivate and spread, making TB the leading cause of death in people with HIV worldwide.
 - `connects-to` → **[Malaria](../malaria/README.md)** — HIV and malaria amplify each other: the immune deficit makes malaria more frequent and severe, especially in pregnancy, while acute malaria transiently raises HIV viral load across their co-endemic regions.
 - `connects-to` → **[Natural Killer Cell](../../04-cellular/natural-killer-cell/README.md)** — Innate defense falters too: natural killer cells fall in number and function in advanced HIV, weakening the early control of viruses and tumors that lets opportunistic infections and AIDS cancers take hold.
+- `connects-to` → **[Gut Microbiome](../gut-microbiome/README.md)** — The gut is ground zero: HIV depletes the mucosal CD4 and Th17 cells early, breaching the gut barrier so microbial products leak into the blood — a microbial translocation that drives the chronic immune activation behind AIDS progression.
+- `connects-to` → **[Chronic Kidney Disease](../ckd/README.md)** — The virus and its drugs strain the kidney: HIV-associated nephropathy plus the toxicity of some antiretrovirals make chronic kidney disease a common comorbidity, especially in untreated or African-ancestry patients.
+- `connects-to` → **[Cardiovascular system](../cardiovascular-system/README.md)** — Survival exposes a new killer: with opportunistic infections controlled, the chronic inflammation of treated HIV accelerates atherosclerosis, making cardiovascular disease a leading cause of death in the aging AIDS-era population.
 
 ## See Also
 
