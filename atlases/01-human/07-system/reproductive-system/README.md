@@ -158,6 +158,15 @@ cross_links:
   - target: 01-human/07-system/hereditary-breast-ovarian-cancer
     relation: connects-to
     note: "Germline BRCA strikes the reproductive organs: it sharply raises ovarian, breast and prostate cancer risk, so carriers face decisions about risk-reducing removal of the ovaries and tubes that bring early surgical menopause."
+  - target: 01-human/03-molecular/cortisol
+    relation: connects-to
+    note: "Stress shuts down reproduction: cortisol from the stress axis suppresses GnRH and the gonadotropins above the gonads, so chronic stress can halt ovulation and lower fertility — the body deferring reproduction when conditions seem unsafe."
+  - target: 01-human/07-system/iron-deficiency-anemia
+    relation: connects-to
+    note: "Menstruation drains iron: the monthly blood loss of the reproductive cycle is the leading cause of iron deficiency anemia in menstruating people, and heavy bleeding from fibroids or disorders can deepen it into symptomatic anemia."
+  - target: 02-pathogen/01-viruses/zika-virus
+    relation: connects-to
+    note: "A virus that targets reproduction: Zika is sexually transmitted and crosses the placenta to disrupt fetal brain development, making it a reproductive-tract pathogen whose gravest harm falls on the developing offspring."
 ---
 
 # Reproductive System
@@ -320,6 +329,9 @@ Testosterone binds androgen receptor (AR, nuclear receptor NR3C4) → AR dimeriz
 - `connects-to` → **[Neuron](../../04-cellular/neuron/README.md)** — Nerves run the reproductive acts: autonomic neurons drive erection (parasympathetic) and ejaculation (sympathetic), and neural reflexes govern labor and orgasm, so nerve injury from surgery, diabetes or spinal damage commonly causes sexual dysfunction.
 - `connects-to` → **[HIV](../hiv/README.md)** — The reproductive tract is HIV's main gateway: the virus spreads through sexual contact across genital and rectal mucosa and passes from mother to child in pregnancy, birth and breastfeeding, making reproductive health central to its prevention.
 - `connects-to` → **[Hereditary Breast and Ovarian Cancer](../hereditary-breast-ovarian-cancer/README.md)** — Germline BRCA strikes the reproductive organs: it sharply raises ovarian, breast and prostate cancer risk, so carriers face decisions about risk-reducing removal of the ovaries and tubes that bring early surgical menopause.
+- `connects-to` → **[Cortisol](../../03-molecular/cortisol/README.md)** — Stress shuts down reproduction: cortisol from the stress axis suppresses GnRH and the gonadotropins above the gonads, so chronic stress can halt ovulation and lower fertility — the body deferring reproduction when conditions seem unsafe.
+- `connects-to` → **[Iron Deficiency Anemia](../iron-deficiency-anemia/README.md)** — Menstruation drains iron: the monthly blood loss of the reproductive cycle is the leading cause of iron deficiency anemia in menstruating people, and heavy bleeding from fibroids or disorders can deepen it into symptomatic anemia.
+- `connects-to` → **[Zika Virus (ZIKV)](../../../02-pathogen/01-viruses/zika-virus/README.md)** — A virus that targets reproduction: Zika is sexually transmitted and crosses the placenta to disrupt fetal brain development, making it a reproductive-tract pathogen whose gravest harm falls on the developing offspring.
 
 ## Pathology
 

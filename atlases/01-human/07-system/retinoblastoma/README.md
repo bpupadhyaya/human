@@ -160,6 +160,15 @@ cross_links:
   - target: 01-human/06-organ/kidney
     relation: connects-to
     note: "The platinum chemotherapy taxes the kidneys: carboplatin used against retinoblastoma is cleared renally and can injure the tubules, wasting magnesium and other electrolytes that must be monitored in these small children."
+  - target: 01-human/03-molecular/tert
+    relation: connects-to
+    note: "It must still solve the immortality problem: with RB1 lost, retinoblastoma reactivates telomerase via TERT to keep dividing, escaping the telomere shortening that would otherwise limit the runaway growth the missing checkpoint allows."
+  - target: 01-human/07-system/bladder-cancer
+    relation: connects-to
+    note: "The germline defect echoes in adulthood: heritable retinoblastoma survivors carry a lifelong raised risk of second cancers including bladder cancer, where RB1 loss is also a common driver — the same broken gene surfacing decades and organs apart."
+  - target: 01-human/04-cellular/natural-killer-cell
+    relation: connects-to
+    note: "Innate killers are enlisted against it: retinoblastoma is relatively immune-cold, so harnessing natural killer cells is among the immunotherapy strategies explored to spare the eye in tumors that resist chemotherapy."
 ---
 
 # Retinoblastoma
@@ -320,6 +329,9 @@ Standard regimen: **vincristine + carboplatin + etoposide (VCE)**, 6 cycles; red
 - `connects-to` → **[Thyroid Cancer](../thyroid-cancer/README.md)** — Radiation comes back to haunt survivors: heritable retinoblastoma carries a high lifetime risk of second cancers, and external-beam radiation to the head adds radiation-induced thyroid cancer to the osteosarcoma and melanoma these patients already face.
 - `connects-to` → **[Platelet](../../04-cellular/platelet/README.md)** — Systemic chemotherapy lowers the platelets: the carboplatin-etoposide-vincristine regimens used to shrink the tumor suppress platelet production into thrombocytopenia, so blood counts are watched and dosing adjusted through treatment.
 - `connects-to` → **[Kidney](../../06-organ/kidney/README.md)** — The platinum chemotherapy taxes the kidneys: carboplatin used against retinoblastoma is cleared renally and can injure the tubules, wasting magnesium and other electrolytes that must be monitored in these small children.
+- `connects-to` → **[TERT](../../03-molecular/tert/README.md)** — It must still solve the immortality problem: with RB1 lost, retinoblastoma reactivates telomerase via TERT to keep dividing, escaping the telomere shortening that would otherwise limit the runaway growth the missing checkpoint allows.
+- `connects-to` → **[Bladder Cancer](../bladder-cancer/README.md)** — The germline defect echoes in adulthood: heritable retinoblastoma survivors carry a lifelong raised risk of second cancers including bladder cancer, where RB1 loss is also a common driver — the same broken gene surfacing decades and organs apart.
+- `connects-to` → **[Natural Killer Cell](../../04-cellular/natural-killer-cell/README.md)** — Innate killers are enlisted against it: retinoblastoma is relatively immune-cold, so harnessing natural killer cells is among the immunotherapy strategies explored to spare the eye in tumors that resist chemotherapy.
 
 [^knudson-1971-two-hit]: Knudson AG Jr. Mutation and cancer: statistical study of retinoblastoma. *Proc Natl Acad Sci USA.* 1971;68(4):820-823. [doi:10.1073/pnas.68.4.820](https://doi.org/10.1073/pnas.68.4.820) · [PubMed 5279523](https://pubmed.ncbi.nlm.nih.gov/5279523/)
 [^shields-2008-retinoblastoma]: Shields CL, Shields JA. Retinoblastoma management: advances in enucleation, intravenous chemoreduction, and intra-arterial chemotherapy. *Curr Opin Ophthalmol.* 2010;21(3):203-212. [doi:10.1097/ICU.0b013e328338676a](https://doi.org/10.1097/ICU.0b013e328338676a) · [PubMed 20224400](https://pubmed.ncbi.nlm.nih.gov/20224400/)
