@@ -166,6 +166,15 @@ cross_links:
   - target: 01-human/03-molecular/complement-c5
     relation: connects-to
     note: "Complement tells the microangiopathies apart: TTP comes from ADAMTS13 deficiency, while its look-alike aHUS is driven by uncontrolled complement at C5 — the distinction that decides between plasma exchange and the C5 blocker eculizumab."
+  - target: 01-human/03-molecular/fcrn
+    relation: connects-to
+    note: "The disease lives on a recycled antibody: the anti-ADAMTS13 IgG that causes immune TTP is kept in circulation by FcRn, so FcRn blockers that speed IgG clearance are an emerging way to lower the autoantibody without broad immunosuppression."
+  - target: 02-pathogen/02-bacteria/escherichia-coli
+    relation: connects-to
+    note: "A bacterial toxin makes the look-alike: Shiga-toxin E. coli causes typical hemolytic uremic syndrome, a thrombotic microangiopathy that mimics TTP's clotting and red-cell shredding but spares ADAMTS13 and centers on the kidney."
+  - target: 01-human/07-system/sepsis
+    relation: connects-to
+    note: "Severe infection can fracture the picture: sepsis triggers its own microangiopathy and consumptive coagulopathy that overlaps TTP's low platelets and organ damage, a key mimic that must be sorted out before committing to plasma exchange."
 ---
 
 # Thrombotic Thrombocytopenic Purpura
@@ -370,6 +379,9 @@ In healthy individuals, ADAMTS13 (~190 kDa plasma glycoprotein; hepatic synthesi
 - `connects-to` → **[Neutrophil](../../04-cellular/neutrophil/README.md)** — Neutrophils help weave the clots: NETs — webs of DNA and enzymes the neutrophils cast out — provide a scaffold for the von Willebrand factor strings and platelets that occlude the microvessels in TTP, amplifying the thrombotic storm.
 - `connects-to` → **[Graft-Versus-Host Disease](../gvhd/README.md)** — A transplant can trigger a TTP-like illness: transplant-associated thrombotic microangiopathy, driven by endothelial injury from conditioning, calcineurin inhibitors and graft-versus-host disease, mimics TTP but stems from complement rather than ADAMTS13 loss.
 - `connects-to` → **[Complement C5](../../03-molecular/complement-c5/README.md)** — Complement tells the microangiopathies apart: TTP comes from ADAMTS13 deficiency, while its look-alike aHUS is driven by uncontrolled complement at C5 — the distinction that decides between plasma exchange and the C5 blocker eculizumab.
+- `connects-to` → **[FcRn](../../03-molecular/fcrn/README.md)** — The disease lives on a recycled antibody: the anti-ADAMTS13 IgG that causes immune TTP is kept in circulation by FcRn, so FcRn blockers that speed IgG clearance are an emerging way to lower the autoantibody without broad immunosuppression.
+- `connects-to` → **[Escherichia coli](../../../02-pathogen/02-bacteria/escherichia-coli/README.md)** — A bacterial toxin makes the look-alike: Shiga-toxin E. coli causes typical hemolytic uremic syndrome, a thrombotic microangiopathy that mimics TTP's clotting and red-cell shredding but spares ADAMTS13 and centers on the kidney.
+- `connects-to` → **[Sepsis](../sepsis/README.md)** — Severe infection can fracture the picture: sepsis triggers its own microangiopathy and consumptive coagulopathy that overlaps TTP's low platelets and organ damage, a key mimic that must be sorted out before committing to plasma exchange.
 
 ---
 

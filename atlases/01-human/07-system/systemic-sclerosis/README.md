@@ -166,6 +166,15 @@ cross_links:
   - target: 01-human/06-organ/thyroid
     relation: connects-to
     note: "Scleroderma keeps autoimmune company: autoimmune thyroid disease, both Hashimoto's hypothyroidism and Graves', is over-represented in systemic sclerosis, so thyroid function is part of the routine workup."
+  - target: 01-human/03-molecular/il-13
+    relation: connects-to
+    note: "Allergy-type cytokines turn fibrotic here: IL-13 with IL-4 from a Th2-skewed response goads fibroblasts into making collagen, an arm of the fibrotic drive alongside TGF-β that is a target for the antifibrotic strategies in scleroderma."
+  - target: 01-human/04-cellular/cardiomyocyte
+    relation: connects-to
+    note: "The heart muscle scars from within: microvascular damage and fibrosis lay down collagen between cardiomyocytes, producing the myocardial fibrosis, conduction problems and heart failure that make cardiac involvement a leading cause of death in scleroderma."
+  - target: 01-human/07-system/ckd
+    relation: connects-to
+    note: "The kidneys can fail abruptly or slowly: scleroderma renal crisis brings sudden hypertensive kidney failure, while chronic vascular injury erodes function over time, leaving chronic kidney disease as a lasting toll of the vasculopathy."
 ---
 
 # Systemic Sclerosis
@@ -329,6 +338,9 @@ Identical to IPAH: medial hypertrophy, intimal fibrosis, concentric laminar inti
 - `connects-to` → **[Wnt/beta-catenin](../../03-molecular/wnt-beta-catenin/README.md)** — Wnt keeps the fibroblasts switched on: persistent Wnt/beta-catenin signaling drives the fibroblast-to-myofibroblast transition that lays down relentless collagen, a pathway that helps explain why scleroderma's fibrosis self-perpetuates.
 - `connects-to` → **[Regulatory T Cell](../../04-cellular/regulatory-t-cell/README.md)** — Broken immune restraint feeds the fibrosis: a shortfall and dysfunction of regulatory T cells lets profibrotic Th2 and Th17 responses run unchecked, tying the autoimmunity of scleroderma to its scarring.
 - `connects-to` → **[Thyroid Gland](../../06-organ/thyroid/README.md)** — Scleroderma keeps autoimmune company: autoimmune thyroid disease, both Hashimoto's hypothyroidism and Graves', is over-represented in systemic sclerosis, so thyroid function is part of the routine workup.
+- `connects-to` → **[Interleukin-13](../../03-molecular/il-13/README.md)** — Allergy-type cytokines turn fibrotic here: IL-13 with IL-4 from a Th2-skewed response goads fibroblasts into making collagen, an arm of the fibrotic drive alongside TGF-β that is a target for the antifibrotic strategies in scleroderma.
+- `connects-to` → **[Cardiomyocyte](../../04-cellular/cardiomyocyte/README.md)** — The heart muscle scars from within: microvascular damage and fibrosis lay down collagen between cardiomyocytes, producing the myocardial fibrosis, conduction problems and heart failure that make cardiac involvement a leading cause of death in scleroderma.
+- `connects-to` → **[Chronic Kidney Disease](../ckd/README.md)** — The kidneys can fail abruptly or slowly: scleroderma renal crisis brings sudden hypertensive kidney failure, while chronic vascular injury erodes function over time, leaving chronic kidney disease as a lasting toll of the vasculopathy.
 
 [^denton-2017-ssc-review]: Denton CP, Khanna D. Systemic sclerosis. *Lancet.* 2017;390(10103):1685-1699. [doi:10.1016/S0140-6736(17)30933-9](https://doi.org/10.1016/S0140-6736(17)30933-9) · [PubMed 28413064](https://pubmed.ncbi.nlm.nih.gov/28413064/)
 [^distler-2019-nintedanib-senscis]: Distler O, Highland KB, Gahlemann M, et al. Nintedanib for Systemic Sclerosis-Associated Interstitial Lung Disease. *N Engl J Med.* 2019;380(26):2518-2528. [doi:10.1056/NEJMoa1903076](https://doi.org/10.1056/NEJMoa1903076) · [PubMed 31112379](https://pubmed.ncbi.nlm.nih.gov/31112379/)
