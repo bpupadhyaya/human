@@ -175,6 +175,15 @@ cross_links:
   - target: 01-human/06-organ/small-intestine
     relation: connects-to
     note: "The gut is gout's second drain: about a third of uric acid is excreted through the intestine via the ABCG2 transporter, so impaired gut elimination — not just the kidney — can raise urate into gout."
+  - target: 01-human/03-molecular/insulin
+    relation: connects-to
+    note: "Insulin resistance fuels hyperuricemia: high insulin tells the kidney to retain urate, so the hyperinsulinemia of metabolic syndrome raises uric acid into gout — one reason gout clusters with obesity and type 2 diabetes."
+  - target: 01-human/07-system/polycythemia-vera
+    relation: connects-to
+    note: "High cell turnover overproduces urate: the expanded marrow of polycythemia vera and other myeloproliferative disease floods the blood with purines, causing a secondary gout that can be the presenting clue to the hematologic disorder."
+  - target: 01-human/07-system/stroke
+    relation: connects-to
+    note: "Hyperuricemia is an independent vascular risk: beyond its joint disease, elevated urate promotes endothelial dysfunction and is associated with a raised risk of stroke, part of gout's broader cardiovascular shadow."
 ---
 
 # Gout
@@ -320,6 +329,9 @@ The central mechanism linking MSU crystals to acute gouty arthritis is **NLRP3 i
 - `connects-to` → **[TNF-α](../../03-molecular/tnf-alpha/README.md)** — TNF amplifies the crystal storm: released by activated macrophages alongside IL-1β, it deepens the recruitment and activation of neutrophils that make the gout flare so exquisitely painful.
 - `connects-to` → **[Endothelial Cell](../../04-cellular/endothelial-cell/README.md)** — Urate injures the vessel lining: high uric acid impairs endothelial nitric-oxide and promotes inflammation, a mechanism tying gout to the hypertension and cardiovascular disease that shadow it.
 - `connects-to` → **[Small Intestine](../../06-organ/small-intestine/README.md)** — The gut is gout's second drain: about a third of uric acid is excreted through the intestine via the ABCG2 transporter, so impaired gut elimination — not just the kidney — can raise urate into gout.
+- `connects-to` → **[Insulin](../../03-molecular/insulin/README.md)** — Insulin resistance fuels hyperuricemia: high insulin tells the kidney to retain urate, so the hyperinsulinemia of metabolic syndrome raises uric acid into gout — one reason gout clusters with obesity and type 2 diabetes.
+- `connects-to` → **[Polycythemia Vera](../polycythemia-vera/README.md)** — High cell turnover overproduces urate: the expanded marrow of polycythemia vera and other myeloproliferative disease floods the blood with purines, causing a secondary gout that can be the presenting clue to the hematologic disorder.
+- `connects-to` → **[Stroke](../stroke/README.md)** — Hyperuricemia is an independent vascular risk: beyond its joint disease, elevated urate promotes endothelial dysfunction and is associated with a raised risk of stroke, part of gout's broader cardiovascular shadow.
 
 [^dalbeth-2019-gout-primer]: Dalbeth N, Choi HK, Joosten LAB, et al. Gout. *Nat Rev Dis Primers.* 2019;5(1):69. [doi:10.1038/s41572-019-0115-y](https://doi.org/10.1038/s41572-019-0115-y) · [PubMed 31558729](https://pubmed.ncbi.nlm.nih.gov/31558729/)
 [^martinon-2006-nlrp3-gout]: Martinon F, Pétrilli V, Mayor A, Tardivel A, Tschopp J. Gout-associated uric acid crystals activate the NALP3 inflammasome. *Nature.* 2006;440(7081):237-241. [doi:10.1038/nature04516](https://doi.org/10.1038/nature04516) · [PubMed 16407889](https://pubmed.ncbi.nlm.nih.gov/16407889/)

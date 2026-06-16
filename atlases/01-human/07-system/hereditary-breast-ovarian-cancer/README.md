@@ -169,6 +169,15 @@ cross_links:
   - target: 01-human/07-system/cholangiocarcinoma
     relation: connects-to
     note: "BRCA's reach extends to the bile ducts: BRCA2 (and BRCA1) carriers face a raised risk of cholangiocarcinoma, and these homologous-recombination-deficient biliary tumors may respond to platinum and PARP therapy."
+  - target: 01-human/07-system/gastric-cancer
+    relation: connects-to
+    note: "BRCA2 widens the cancer net to the stomach: carriers, especially of BRCA2, face an increased risk of gastric cancer, one of the extra-breast/ovarian tumors that shape the surveillance of these families."
+  - target: 01-human/07-system/aml
+    relation: connects-to
+    note: "The therapy can end in leukemia: years of platinum chemotherapy and PARP-inhibitor maintenance occasionally cause therapy-related acute myeloid leukemia, the frank-leukemia end of the marrow damage these treatments inflict."
+  - target: 01-human/03-molecular/myc
+    relation: connects-to
+    note: "MYC amplification drives the BRCA1 tumor: the basal-like, triple-negative breast cancers typical of BRCA1 carriers frequently amplify MYC, adding a proliferative push to the homologous-recombination defect."
 ---
 
 # Hereditary Breast and Ovarian Cancer
@@ -355,6 +364,9 @@ BRCA-mutant cells (HRD):
 - `connects-to` → **[PIK3CA](../../03-molecular/pik3ca/README.md)** — PI3K offers a second target alongside the BRCA defect: PIK3CA mutations are common in BRCA-associated breast cancers, so PI3K-AKT inhibitors are combined with the PARP drugs that exploit the homologous-recombination flaw.
 - `connects-to` → **[Dendritic Cell](../../04-cellular/dendritic-cell/README.md)** — Broken DNA repair makes a visible tumor: BRCA loss spawns genomic instability and neoantigens that dendritic cells can present, making these cancers more immunogenic and a rationale for combining PARP inhibitors with immunotherapy.
 - `connects-to` → **[Cholangiocarcinoma](../cholangiocarcinoma/README.md)** — BRCA's reach extends to the bile ducts: BRCA2 (and BRCA1) carriers face a raised risk of cholangiocarcinoma, and these homologous-recombination-deficient biliary tumors may respond to platinum and PARP therapy.
+- `connects-to` → **[Gastric Cancer](../gastric-cancer/README.md)** — BRCA2 widens the cancer net to the stomach: carriers, especially of BRCA2, face an increased risk of gastric cancer, one of the extra-breast/ovarian tumors that shape the surveillance of these families.
+- `connects-to` → **[AML](../aml/README.md)** — The therapy can end in leukemia: years of platinum chemotherapy and PARP-inhibitor maintenance occasionally cause therapy-related acute myeloid leukemia, the frank-leukemia end of the marrow damage these treatments inflict.
+- `connects-to` → **[MYC](../../03-molecular/myc/README.md)** — MYC amplification drives the BRCA1 tumor: the basal-like, triple-negative breast cancers typical of BRCA1 carriers frequently amplify MYC, adding a proliferative push to the homologous-recombination defect.
 
 ---
 
