@@ -160,6 +160,15 @@ cross_links:
   - target: 01-human/03-molecular/akt
     relation: connects-to
     note: "MCL leans on PI3K-AKT beyond BTK: chronic B-cell-receptor signaling feeds the AKT-mTOR axis, a survival route that drives resistance to BTK inhibitors and is targeted by PI3K and mTOR inhibitors in relapsed disease."
+  - target: 01-human/05-tissue/intestinal-epithelium
+    relation: connects-to
+    note: "The bowel is a classic hideout: MCL frequently studs the gastrointestinal lining with lymphomatous polyposis, so even apparently localized disease is often found seeded through the gut epithelium when biopsied, shaping staging and follow-up."
+  - target: 01-human/04-cellular/fibroblast
+    relation: connects-to
+    note: "The lymph-node stroma is a protective niche: fibroblastic reticular and other stromal cells supply survival signals that shelter MCL cells, and part of how BTK inhibitors work is by evicting the lymphoma from this supportive microenvironment into the blood."
+  - target: 01-human/07-system/mds
+    relation: connects-to
+    note: "Treatment leaves a later shadow: the intensive chemo and stem-cell transplants used against MCL can damage the marrow, raising the risk of therapy-related myelodysplastic syndromes years afterward — a long-term cost of aggressive cure attempts."
 ---
 
 # Mantle Cell Lymphoma
@@ -329,6 +338,9 @@ For SOX11−, mutated IGHV, non-bulky, asymptomatic nnMCL: Observation is safe; 
 - `connects-to` → **[Hepatitis B](../hepatitis-b/README.md)** — Anti-CD20 therapy can reactivate hepatitis B: rituximab strips out the B cells that help hold the virus in check, so MCL patients are screened and given antiviral prophylaxis before treatment to prevent a dangerous viral flare.
 - `connects-to` → **[Cardiomyocyte](../../04-cellular/cardiomyocyte/README.md)** — Its intensive regimens strain the heart: the anthracycline in R-CHOP and the high-dose cytarabine of induction carry cardiotoxic risk, so cardiac function is checked before the aggressive chemotherapy MCL often demands.
 - `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — MCL leans on PI3K-AKT beyond BTK: chronic B-cell-receptor signaling feeds the AKT-mTOR axis, a survival route that drives resistance to BTK inhibitors and is targeted by PI3K and mTOR inhibitors in relapsed disease.
+- `connects-to` → **[Intestinal Epithelium](../../05-tissue/intestinal-epithelium/README.md)** — The bowel is a classic hideout: MCL frequently studs the gastrointestinal lining with lymphomatous polyposis, so even apparently localized disease is often found seeded through the gut epithelium when biopsied, shaping staging and follow-up.
+- `connects-to` → **[Fibroblast](../../04-cellular/fibroblast/README.md)** — The lymph-node stroma is a protective niche: fibroblastic reticular and other stromal cells supply survival signals that shelter MCL cells, and part of how BTK inhibitors work is by evicting the lymphoma from this supportive microenvironment into the blood.
+- `connects-to` → **[Myelodysplastic Syndromes](../mds/README.md)** — Treatment leaves a later shadow: the intensive chemo and stem-cell transplants used against MCL can damage the marrow, raising the risk of therapy-related myelodysplastic syndromes years afterward — a long-term cost of aggressive cure attempts.
 
 ---
 

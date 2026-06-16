@@ -169,6 +169,15 @@ cross_links:
   - target: 01-human/04-cellular/platelet
     relation: connects-to
     note: "Depression makes platelets sticky: their serotonin handling overlaps the brain's, and in depression platelets become hyperreactive — a link to the raised heart-attack and stroke risk, partly offset by SSRIs that blunt platelet aggregation."
+  - target: 01-human/03-molecular/acetylcholine
+    relation: connects-to
+    note: "An older neurochemical theory still holds: depression may reflect a cholinergic-adrenergic imbalance with acetylcholine signaling tipped too high, which is why the anticholinergic drug scopolamine can lift mood rapidly in some patients."
+  - target: 01-human/04-cellular/t-helper-cell
+    relation: connects-to
+    note: "Adaptive immunity joins the inflammatory story: shifts toward Th17 helper T cells and altered T-cell profiles accompany depression, extending the inflammation hypothesis beyond microglia and cytokines into the body's broader immune response."
+  - target: 01-human/07-system/stroke
+    relation: connects-to
+    note: "Damaged vessels can darken mood: cerebrovascular disease and stroke produce 'vascular depression', with post-stroke depression striking a large share of survivors and worsening their recovery — depression here a consequence of brain injury, not only a risk factor for it."
 ---
 
 # Major Depressive Disorder
@@ -376,6 +385,9 @@ Approximately 30–40% of MDD patients have elevated inflammatory markers:
 - `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — Depression tracks the reproductive hormones: it surges around the premenstrual phase, after childbirth, and through the menopause transition, the timing that ties mood to estrogen and progesterone shifts and shapes perinatal screening and treatment.
 - `connects-to` → **[NLRP3 Inflammasome](../../03-molecular/nlrp3-inflammasome/README.md)** — Inflammation may help drive depression: stress activates the NLRP3 inflammasome in microglia to release IL-1β and IL-6, and this neuroinflammation is one explanation for the depressive symptoms seen in inflammatory illness and a target for novel therapies.
 - `connects-to` → **[Platelet](../../04-cellular/platelet/README.md)** — Depression makes platelets sticky: their serotonin handling overlaps the brain's, and in depression platelets become hyperreactive — a link to the raised heart-attack and stroke risk, partly offset by SSRIs that blunt platelet aggregation.
+- `connects-to` → **[Acetylcholine](../../03-molecular/acetylcholine/README.md)** — An older neurochemical theory still holds: depression may reflect a cholinergic-adrenergic imbalance with acetylcholine signaling tipped too high, which is why the anticholinergic drug scopolamine can lift mood rapidly in some patients.
+- `connects-to` → **[T Helper Cell](../../04-cellular/t-helper-cell/README.md)** — Adaptive immunity joins the inflammatory story: shifts toward Th17 helper T cells and altered T-cell profiles accompany depression, extending the inflammation hypothesis beyond microglia and cytokines into the body's broader immune response.
+- `connects-to` → **[Stroke](../stroke/README.md)** — Damaged vessels can darken mood: cerebrovascular disease and stroke produce 'vascular depression', with post-stroke depression striking a large share of survivors and worsening their recovery — depression here a consequence of brain injury, not only a risk factor for it.
 
 [^cipriani-2018-antidepressants-meta]: Cipriani A, Furukawa TA, Salanti G, et al. Comparative efficacy and acceptability of 21 antidepressant drugs for acute treatment of adults with major depressive disorder. *Lancet.* 2018;391(10128):1357-1366. [doi:10.1016/S0140-6736(17)32802-7](https://doi.org/10.1016/S0140-6736(17)32802-7) · [PubMed 29477251](https://pubmed.ncbi.nlm.nih.gov/29477251/)
 [^zarate-2006-ketamine-rapid]: Zarate CA Jr, Singh JB, Carlson PJ, et al. A randomized trial of an N-methyl-D-aspartate antagonist in treatment-resistant major depression. *Arch Gen Psychiatry.* 2006;63(8):856-864. [doi:10.1001/archpsyc.63.8.856](https://doi.org/10.1001/archpsyc.63.8.856) · [PubMed 16894061](https://pubmed.ncbi.nlm.nih.gov/16894061/)
