@@ -169,6 +169,15 @@ cross_links:
   - target: 01-human/07-system/mds
     relation: connects-to
     note: "Treatment leaves a later shadow: the intensive chemo and stem-cell transplants used against MCL can damage the marrow, raising the risk of therapy-related myelodysplastic syndromes years afterward — a long-term cost of aggressive cure attempts."
+  - target: 01-human/03-molecular/stat3
+    relation: connects-to
+    note: "STAT3 backs up the survival signal: alongside constitutive NF-κB, JAK-STAT3 activation sustains mantle cell lymphoma and contributes to its resistance to BTK inhibitors, marking another targetable node."
+  - target: 01-human/07-system/cytokine-storm
+    relation: connects-to
+    note: "CAR-T cure can spark a storm: brexucabtagene autoleucel for relapsed mantle cell lymphoma routinely triggers cytokine release syndrome as the engineered cells engage, managed with the IL-6 blocker tocilizumab."
+  - target: 01-human/07-system/venous-thromboembolism
+    relation: connects-to
+    note: "Lymphoma and its therapy clot the veins: bulky mantle cell lymphoma and its chemotherapy raise venous thromboembolism risk, a complication watched for through the disease's aggressive treatment course."
 ---
 
 # Mantle Cell Lymphoma
@@ -341,6 +350,9 @@ For SOX11−, mutated IGHV, non-bulky, asymptomatic nnMCL: Observation is safe; 
 - `connects-to` → **[Intestinal Epithelium](../../05-tissue/intestinal-epithelium/README.md)** — The bowel is a classic hideout: MCL frequently studs the gastrointestinal lining with lymphomatous polyposis, so even apparently localized disease is often found seeded through the gut epithelium when biopsied, shaping staging and follow-up.
 - `connects-to` → **[Fibroblast](../../04-cellular/fibroblast/README.md)** — The lymph-node stroma is a protective niche: fibroblastic reticular and other stromal cells supply survival signals that shelter MCL cells, and part of how BTK inhibitors work is by evicting the lymphoma from this supportive microenvironment into the blood.
 - `connects-to` → **[Myelodysplastic Syndromes](../mds/README.md)** — Treatment leaves a later shadow: the intensive chemo and stem-cell transplants used against MCL can damage the marrow, raising the risk of therapy-related myelodysplastic syndromes years afterward — a long-term cost of aggressive cure attempts.
+- `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — STAT3 backs up the survival signal: alongside constitutive NF-κB, JAK-STAT3 activation sustains mantle cell lymphoma and contributes to its resistance to BTK inhibitors, marking another targetable node.
+- `connects-to` → **[Cytokine Storm](../cytokine-storm/README.md)** — CAR-T cure can spark a storm: brexucabtagene autoleucel for relapsed mantle cell lymphoma routinely triggers cytokine release syndrome as the engineered cells engage, managed with the IL-6 blocker tocilizumab.
+- `connects-to` → **[Venous Thromboembolism](../venous-thromboembolism/README.md)** — Lymphoma and its therapy clot the veins: bulky mantle cell lymphoma and its chemotherapy raise venous thromboembolism risk, a complication watched for through the disease's aggressive treatment course.
 
 ---
 

@@ -169,6 +169,15 @@ cross_links:
   - target: 01-human/07-system/copd
     relation: connects-to
     note: "The lung's scaffolding fails diffusely too: beyond the dramatic spontaneous pneumothorax, defective elastin leaves the airspaces prone to emphysema-like destruction and accelerated decline in lung function, a quieter respiratory toll of the connective-tissue defect."
+  - target: 01-human/03-molecular/nitric-oxide
+    relation: connects-to
+    note: "The aortic endothelium loses its NO balance: dysregulated endothelial nitric-oxide signaling in Marfan contributes to the stiffening and weakening of the aortic wall, part of the vascular dysfunction behind aneurysm formation."
+  - target: 01-human/03-molecular/endothelin-1
+    relation: connects-to
+    note: "Vasoactive signaling remodels the wall: raised endothelin-1 promotes smooth-muscle and matrix changes in the Marfan aorta, adding a vasoconstrictor-driven arm to the TGF-β-led remodeling that grows the aneurysm."
+  - target: 01-human/07-system/venous-thromboembolism
+    relation: connects-to
+    note: "Major aortic surgery brings clot risk: the prophylactic aortic root and valve operations central to Marfan care carry a perioperative venous thromboembolism risk requiring prophylaxis."
 ---
 
 # Marfan Syndrome
@@ -358,6 +367,9 @@ MFS is a **multi-system disorder** defined by cardiovascular, ocular, and skelet
 - `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — The damage runs through a side channel: the excess TGF-β freed by fibrillin-1 loss fires the non-canonical ERK1/2 (MAPK) pathway in the aortic wall, a driver of aneurysm growth that losartan helps blunt — explaining why an angiotensin blocker protects the aorta.
 - `connects-to` → **[Heart Failure](../heart-failure/README.md)** — The valves can wear the heart out: chronic aortic and mitral regurgitation from Marfan's stretched valve tissue overloads the ventricle for years, so beyond the dissection threat the disease can drift into heart failure if the leaks go uncorrected.
 - `connects-to` → **[COPD](../copd/README.md)** — The lung's scaffolding fails diffusely too: beyond the dramatic spontaneous pneumothorax, defective elastin leaves the airspaces prone to emphysema-like destruction and accelerated decline in lung function, a quieter respiratory toll of the connective-tissue defect.
+- `connects-to` → **[Nitric Oxide](../../03-molecular/nitric-oxide/README.md)** — The aortic endothelium loses its NO balance: dysregulated endothelial nitric-oxide signaling in Marfan contributes to the stiffening and weakening of the aortic wall, part of the vascular dysfunction behind aneurysm formation.
+- `connects-to` → **[Endothelin-1](../../03-molecular/endothelin-1/README.md)** — Vasoactive signaling remodels the wall: raised endothelin-1 promotes smooth-muscle and matrix changes in the Marfan aorta, adding a vasoconstrictor-driven arm to the TGF-β-led remodeling that grows the aneurysm.
+- `connects-to` → **[Venous Thromboembolism](../venous-thromboembolism/README.md)** — Major aortic surgery brings clot risk: the prophylactic aortic root and valve operations central to Marfan care carry a perioperative venous thromboembolism risk requiring prophylaxis.
 
 ---
 
