@@ -169,6 +169,15 @@ cross_links:
   - target: 01-human/07-system/hereditary-breast-ovarian-cancer
     relation: connects-to
     note: "A second hereditary-cancer comparison: unlike BRCA-driven HBOC which fails double-strand-break repair, MAP fails oxidative base repair, yet both are recessive-versus-dominant lessons in how a single broken DNA-maintenance gene seeds a familial cancer syndrome."
+  - target: 01-human/07-system/iron-deficiency-anemia
+    relation: connects-to
+    note: "The polyps bleed unseen: chronic occult blood loss from MAP's colonic adenomas or an arising cancer causes iron-deficiency anemia, sometimes the finding that triggers the colonoscopy revealing the polyposis."
+  - target: 01-human/07-system/venous-thromboembolism
+    relation: connects-to
+    note: "Cancer and its surgery raise the clot risk: a colorectal cancer developing in MAP and the colectomy used to treat heavy polyposis both predispose to perioperative venous thromboembolism."
+  - target: 01-human/07-system/sepsis
+    relation: connects-to
+    note: "Bowel surgery carries infectious risk: the colectomy that high polyp burden eventually requires can be complicated by anastomotic leak and intra-abdominal sepsis."
 ---
 
 # MUTYH-Associated Polyposis
@@ -336,6 +345,9 @@ Because MAP is autosomal recessive: siblings of MAP patients are at **25%** risk
 - `connects-to` → **[MSH2](../../03-molecular/msh2/README.md)** — It breaks a different repair system than Lynch: MAP fails base-excision repair of oxidative damage, whereas Lynch fails mismatch repair through genes like MSH2 — two distinct DNA-maintenance pathways whose loss converges on the same colon, a telling contrast.
 - `connects-to` → **[Cowden Syndrome](../cowden-syndrome/README.md)** — It sits in the polyposis differential: when many colon polyps appear, MAP must be distinguished from hamartomatous syndromes like Cowden (PTEN), since the gene found dictates the cancer risks, the inheritance pattern, and which relatives to test.
 - `connects-to` → **[Hereditary Breast and Ovarian Cancer](../hereditary-breast-ovarian-cancer/README.md)** — A second hereditary-cancer comparison: unlike BRCA-driven HBOC which fails double-strand-break repair, MAP fails oxidative base repair, yet both are recessive-versus-dominant lessons in how a single broken DNA-maintenance gene seeds a familial cancer syndrome.
+- `connects-to` → **[Iron Deficiency Anemia](../iron-deficiency-anemia/README.md)** — The polyps bleed unseen: chronic occult blood loss from MAP's colonic adenomas or an arising cancer causes iron-deficiency anemia, sometimes the finding that triggers the colonoscopy revealing the polyposis.
+- `connects-to` → **[Venous Thromboembolism](../venous-thromboembolism/README.md)** — Cancer and its surgery raise the clot risk: a colorectal cancer developing in MAP and the colectomy used to treat heavy polyposis both predispose to perioperative venous thromboembolism.
+- `connects-to` → **[Sepsis](../sepsis/README.md)** — Bowel surgery carries infectious risk: the colectomy that high polyp burden eventually requires can be complicated by anastomotic leak and intra-abdominal sepsis.
 
 ---
 
