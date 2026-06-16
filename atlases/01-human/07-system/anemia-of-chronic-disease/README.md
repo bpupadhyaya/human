@@ -172,6 +172,15 @@ cross_links:
   - target: 01-human/07-system/colorectal-cancer
     relation: connects-to
     note: "Cancer wears two anemia hats at once: a colorectal tumor both bleeds to cause iron deficiency and drives inflammatory hepcidin to lock away stores, so its anemia is often a mixed picture and a clue prompting the search for the tumor."
+  - target: 01-human/03-molecular/nf-kb
+    relation: connects-to
+    note: "Inflammation runs through a master switch: NF-κB activated by inflammatory signals turns on the IL-6 that drives hepcidin, the upstream hub linking chronic disease to the iron-locking that starves red-cell production."
+  - target: 01-human/07-system/sepsis
+    relation: connects-to
+    note: "Acute inflammation drops iron within hours: sepsis triggers a hepcidin surge that pulls iron out of the blood, an evolved defense to starve microbes that simultaneously chokes erythropoiesis into the anemia of critical illness."
+  - target: 01-human/04-cellular/t-cytotoxic-cell
+    relation: connects-to
+    note: "T cells help suppress the marrow: interferon-gamma from cytotoxic and helper T cells directly inhibits erythroid progenitors, an immune brake on red-cell production layered on the hepcidin-driven iron restriction."
 ---
 
 # Anemia of Chronic Disease
@@ -347,6 +356,9 @@ This adaptive rationale explains why **aggressive iron supplementation during ac
 - `connects-to` → **[Malaria](../malaria/README.md)** — Repeated malaria grinds out anemia of inflammation: the parasite's chronic immune activation drives hepcidin up to lock away iron, compounding the hemolysis and marrow suppression that make malarial anemia a leading childhood killer.
 - `connects-to` → **[Neutrophil](../../04-cellular/neutrophil/README.md)** — Neutrophils help hide the iron: in chronic infection they release lactoferrin that scavenges iron away from microbes, and their inflammatory signals push hepcidin up, reinforcing the iron sequestration behind the anemia.
 - `connects-to` → **[Colorectal Cancer](../colorectal-cancer/README.md)** — Cancer wears two anemia hats at once: a colorectal tumor both bleeds to cause iron deficiency and drives inflammatory hepcidin to lock away stores, so its anemia is often a mixed picture and a clue prompting the search for the tumor.
+- `connects-to` → **[NF-κB](../../03-molecular/nf-kb/README.md)** — Inflammation runs through a master switch: NF-κB activated by inflammatory signals turns on the IL-6 that drives hepcidin, the upstream hub linking chronic disease to the iron-locking that starves red-cell production.
+- `connects-to` → **[Sepsis](../sepsis/README.md)** — Acute inflammation drops iron within hours: sepsis triggers a hepcidin surge that pulls iron out of the blood, an evolved defense to starve microbes that simultaneously chokes erythropoiesis into the anemia of critical illness.
+- `connects-to` → **[Cytotoxic T Cell](../../04-cellular/t-cytotoxic-cell/README.md)** — T cells help suppress the marrow: interferon-gamma from cytotoxic and helper T cells directly inhibits erythroid progenitors, an immune brake on red-cell production layered on the hepcidin-driven iron restriction.
 
 [^weiss-2005-acd-review]: Weiss G, Goodnough LT. Anemia of chronic disease. *N Engl J Med.* 2005;352(10):1011-1023. [doi:10.1056/NEJMra041809](https://doi.org/10.1056/NEJMra041809) · [PubMed 15758012](https://pubmed.ncbi.nlm.nih.gov/15758012/)
 [^nemeth-2004-il6-hepcidin]: Nemeth E, Rivera S, Gabayan V, et al. IL-6 mediates hypoferremia of inflammation by inducing the synthesis of the iron regulatory hormone hepcidin. *J Clin Invest.* 2004;113(9):1271-1276. [doi:10.1172/JCI200420945](https://doi.org/10.1172/JCI200420945) · [PubMed 15124018](https://pubmed.ncbi.nlm.nih.gov/15124018/)

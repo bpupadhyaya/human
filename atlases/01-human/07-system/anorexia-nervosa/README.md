@@ -175,6 +175,15 @@ cross_links:
   - target: 01-human/03-molecular/il-6
     relation: connects-to
     note: "Anorexia carries a quiet inflammatory edge: despite the loss of fat, IL-6 and other cytokines can run high, contributing to the bone loss and the appetite-suppressing, sickness-like state of the disorder."
+  - target: 01-human/03-molecular/igf-1
+    relation: connects-to
+    note: "Starvation creates growth-hormone resistance: the liver stops making IGF-1 even as GH rises, an adaptive uncoupling that, with low estrogen, drives the severe bone loss and growth arrest of anorexia."
+  - target: 01-human/07-system/heart-failure
+    relation: connects-to
+    note: "The starved heart shrinks and falters: prolonged malnutrition atrophies the myocardium, producing bradycardia, low blood pressure and arrhythmias that make sudden cardiac death and heart failure the leading medical killer in anorexia."
+  - target: 01-human/07-system/aplastic-anemia
+    relation: connects-to
+    note: "The marrow can wither too: severe anorexia causes gelatinous marrow transformation, with fat and stroma replacing blood-forming cells and the counts falling toward a marrow-failure picture that resolves with refeeding."
 ---
 
 # Anorexia Nervosa
@@ -368,6 +377,9 @@ In healthy individuals, food cues activate the mesolimbic reward circuit (VTA �
 - `connects-to` → **[Adrenal Gland](../../06-organ/adrenal-gland/README.md)** — Starvation keeps the stress axis switched on: anorexia drives chronic HPA-axis overactivity, so the adrenal glands pour out cortisol that worsens bone loss and the metabolic shutdown of the illness.
 - `connects-to` → **[Gut Microbiome](../gut-microbiome/README.md)** — Starvation reshapes the gut's flora: severe restriction shifts the microbiome toward calorie-scavenging and inflammatory species, and these changes may feed back on appetite and mood, complicating both the illness and refeeding.
 - `connects-to` → **[Interleukin-6](../../03-molecular/il-6/README.md)** — Anorexia carries a quiet inflammatory edge: despite the loss of fat, IL-6 and other cytokines can run high, contributing to the bone loss and the appetite-suppressing, sickness-like state of the disorder.
+- `connects-to` → **[IGF-1](../../03-molecular/igf-1/README.md)** — Starvation creates growth-hormone resistance: the liver stops making IGF-1 even as GH rises, an adaptive uncoupling that, with low estrogen, drives the severe bone loss and growth arrest of anorexia.
+- `connects-to` → **[Heart Failure](../heart-failure/README.md)** — The starved heart shrinks and falters: prolonged malnutrition atrophies the myocardium, producing bradycardia, low blood pressure and arrhythmias that make sudden cardiac death and heart failure the leading medical killer in anorexia.
+- `connects-to` → **[Aplastic Anemia](../aplastic-anemia/README.md)** — The marrow can wither too: severe anorexia causes gelatinous marrow transformation, with fat and stroma replacing blood-forming cells and the counts falling toward a marrow-failure picture that resolves with refeeding.
 
 [^treasure-2010-an-lancet]: Treasure J, Claudino AM, Zucker N. Eating disorders. *Lancet.* 2010;375(9714):583-593. [doi:10.1016/S0140-6736(09)61748-7](https://doi.org/10.1016/S0140-6736(09)61748-7) · [PubMed 19931176](https://pubmed.ncbi.nlm.nih.gov/19931176/)
 [^lock-2010-fbt-an]: Lock J, Le Grange D, Agras WS, et al. Randomized clinical trial comparing family-based treatment with adolescent-focused individual therapy for adolescents with anorexia nervosa. *Arch Gen Psychiatry.* 2010;67(10):1025-1032. [doi:10.1001/archgenpsychiatry.2010.128](https://doi.org/10.1001/archgenpsychiatry.2010.128) · [PubMed 20921118](https://pubmed.ncbi.nlm.nih.gov/20921118/)
