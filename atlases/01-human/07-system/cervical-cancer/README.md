@@ -160,6 +160,15 @@ cross_links:
   - target: 01-human/02-atomic/zinc
     relation: connects-to
     note: "HPV's oncoproteins are built around zinc: both E6 and E7 fold into zinc-binding domains that they need to grip and degrade p53 and Rb, so the metal ion is structurally essential to the very proteins that transform the cell."
+  - target: 01-human/07-system/ckd
+    relation: connects-to
+    note: "Advanced cervical cancer kills through the kidneys: local spread encases the ureters and blocks urine flow, so obstructive uropathy and the resulting renal failure are a classic and common cause of death from the disease."
+  - target: 01-human/03-molecular/il-6
+    relation: connects-to
+    note: "IL-6 fuels the HPV-driven tumor: the cytokine activates STAT3 to drive cervical cancer growth, angiogenesis, and resistance to chemoradiation, and high levels mark a worse prognosis."
+  - target: 01-human/04-cellular/macrophage
+    relation: connects-to
+    note: "Tumor macrophages help HPV hide: M2-polarized tumor-associated macrophages in the cervical lesion suppress the antiviral T-cell response and promote invasion, abetting the immune evasion that lets the cancer grow."
 ---
 
 # Cervical Cancer
@@ -330,6 +339,9 @@ The cervical transformation zone (TZ) — the area between the original and new 
 - `connects-to` → **[T Helper Cell](../../04-cellular/t-helper-cell/README.md)** — Clearing HPV is a CD4 job: a strong Th1 helper-T response normally eliminates the virus, so when helper-T immunity falters — in HIV or other immunosuppression — the infection persists and progresses toward cancer, why screening is intensified in these patients.
 - `connects-to` → **[Estrogen](../../03-molecular/estrogen/README.md)** — Estrogen is a cofactor in cervical carcinogenesis: in HPV-infected tissue estrogen signaling cooperates with the E6/E7 oncoproteins to drive progression, consistent with the modest extra risk seen with very long-term combined oral contraceptive use.
 - `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — HPV's oncoproteins are built around zinc: both E6 and E7 fold into zinc-binding domains that they need to grip and degrade p53 and Rb, so the metal ion is structurally essential to the very proteins that transform the cell.
+- `connects-to` → **[Chronic Kidney Disease](../ckd/README.md)** — Advanced cervical cancer kills through the kidneys: local spread encases the ureters and blocks urine flow, so obstructive uropathy and the resulting renal failure are a classic and common cause of death from the disease.
+- `connects-to` → **[Interleukin-6](../../03-molecular/il-6/README.md)** — IL-6 fuels the HPV-driven tumor: the cytokine activates STAT3 to drive cervical cancer growth, angiogenesis, and resistance to chemoradiation, and high levels mark a worse prognosis.
+- `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — Tumor macrophages help HPV hide: M2-polarized tumor-associated macrophages in the cervical lesion suppress the antiviral T-cell response and promote invasion, abetting the immune evasion that lets the cancer grow.
 
 ---
 

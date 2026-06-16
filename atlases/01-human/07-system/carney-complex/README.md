@@ -160,6 +160,15 @@ cross_links:
   - target: 01-human/03-molecular/akt
     relation: connects-to
     note: "Losing PRKAR1A unleashes signaling that feeds growth: the inhibitory PKA subunit normally restrains cAMP-PKA output, and its loss lets PKA crosstalk amplify AKT-mTOR proliferative signals across the endocrine and mesenchymal tissues that form Carney's tumors."
+  - target: 01-human/03-molecular/il-6
+    relation: connects-to
+    note: "Carney's cardiac myxomas secrete IL-6: the tumor pours out this cytokine, producing fevers, weight loss, and raised inflammatory markers that can masquerade as infection or autoimmune disease before the heart tumor is found."
+  - target: 01-human/07-system/peutz-jeghers-syndrome
+    relation: connects-to
+    note: "Two syndromes spotted by their freckles: like Peutz-Jeghers, Carney complex announces itself with mucocutaneous lentigines — pigmented spots that flag a single-gene disorder carrying a lifelong tumor risk."
+  - target: 01-human/04-cellular/adipocyte
+    relation: connects-to
+    note: "The complex sprouts fatty and myxoid tumors: Carney patients develop lipomas and myxomas of skin and heart, mesenchymal growths in which adipocytes and myxoid stroma expand under unrestrained PKA signaling."
 ---
 
 # Carney Complex
@@ -329,6 +338,9 @@ PRKAR1A somatic LOH occurs in ~15-20% of sporadic adrenocortical adenomas and ca
 - `connects-to` → **[Stroke](../stroke/README.md)** — A cardiac myxoma can announce Carney complex as a stroke: in a young person with no vascular risk factors, sudden embolic stroke is a classic presentation that prompts the echocardiogram revealing the atrial tumor and the syndrome behind it.
 - `connects-to` → **[Osteoclast](../../04-cellular/osteoclast/README.md)** — Carney has its own bone tumor: osteochondromyxoma, a rare myxoid bone lesion of infancy, remodels bone through coupled osteoclast resorption and new formation — a component tumor that helped define the syndrome's reach beyond heart and skin.
 - `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — Losing PRKAR1A unleashes signaling that feeds growth: the inhibitory PKA subunit normally restrains cAMP-PKA output, and its loss lets PKA crosstalk amplify AKT-mTOR proliferative signals across the endocrine and mesenchymal tissues that form Carney's tumors.
+- `connects-to` → **[Interleukin-6](../../03-molecular/il-6/README.md)** — Carney's cardiac myxomas secrete IL-6: the tumor pours out this cytokine, producing fevers, weight loss, and raised inflammatory markers that can masquerade as infection or autoimmune disease before the heart tumor is found.
+- `connects-to` → **[Peutz-Jeghers Syndrome](../peutz-jeghers-syndrome/README.md)** — Two syndromes spotted by their freckles: like Peutz-Jeghers, Carney complex announces itself with mucocutaneous lentigines — pigmented spots that flag a single-gene disorder carrying a lifelong tumor risk.
+- `connects-to` → **[Adipocyte](../../04-cellular/adipocyte/README.md)** — The complex sprouts fatty and myxoid tumors: Carney patients develop lipomas and myxomas of skin and heart, mesenchymal growths in which adipocytes and myxoid stroma expand under unrestrained PKA signaling.
 
 ---
 
