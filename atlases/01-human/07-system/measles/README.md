@@ -173,6 +173,15 @@ cross_links:
   - target: 01-human/07-system/epilepsy
     relation: connects-to
     note: "The brain complications bring seizures: acute measles encephalitis and the late SSPE both injure the cortex, causing seizures — in SSPE the characteristic periodic myoclonic jerks that mark its relentless course."
+  - target: 01-human/03-molecular/rig-i
+    relation: connects-to
+    note: "RIG-I is the front-line sensor of measles: it detects MV 5′-triphosphate RNA replication intermediates and signals through MAVS to launch type I interferon — which the virus's V and C proteins fight to suppress, a tug-of-war that sets infection outcome."
+  - target: 01-human/06-organ/spleen
+    relation: connects-to
+    note: "The spleen is a hub of measles immune amnesia: MV reaches splenic white pulp and infects the SLAM-high memory B and T cells massed there, depleting the antibody repertoire and leaving lasting susceptibility to other pathogens."
+  - target: 01-human/04-cellular/endothelial-cell
+    relation: connects-to
+    note: "The measles rash is endothelial: virus-laden T cells deliver MV to dermal capillary endothelium, where infection plus the host T-cell response produces the perivascular inflammation seen as the classic maculopapular exanthem and Koplik spots."
 ---
 
 # Measles
@@ -328,6 +337,9 @@ Beyond immune amnesia (memory B cell depletion), MV causes acute immune suppress
 - `connects-to` → **[Dendritic Cell](../../04-cellular/dendritic-cell/README.md)** — MV-H binds SLAM/CD150 on DCs → productive DC infection → impaired IL-12/IFN-α production and reduced T cell priming; MV-infected DCs poorly present antigens; DC dysfunction is a core driver of measles immune amnesia lasting 2-3 years.
 - `connects-to` → **[Immune System](../../immune-system/README.md)** — Measles immune amnesia (Mina 2019): MV SLAM/CD150 tropism infects SLAM-high memory B cells → erases 20-70% of pre-existing antibody diversity; naive B cells cannot reconstitute pathogen-specific memory → 2-3 years re-susceptibility to other infections.
 - `connects-to` → **[B Cell](../../04-cellular/b-cell/README.md)** — Measles erases immune memory by destroying memory B cells: these cells carry the most SLAM/CD150 (3-10× naive B cells), exactly the receptor measles H protein binds, so the virus preferentially infects and deletes them — wiping out 20-70% of a child's antibody repertoire.
+- `connects-to` → **[RIG-I](../../03-molecular/rig-i/README.md)** — RIG-I is the front-line sensor of measles: it detects MV 5′-triphosphate RNA replication intermediates and signals through MAVS to launch type I interferon — which the virus's V and C proteins fight to suppress, a tug-of-war that sets infection outcome.
+- `connects-to` → **[Spleen](../../06-organ/spleen/README.md)** — The spleen is a hub of measles immune amnesia: MV reaches splenic white pulp and infects the SLAM-high memory B and T cells massed there, depleting the antibody repertoire and leaving lasting susceptibility to other pathogens.
+- `connects-to` → **[Endothelial Cell](../../04-cellular/endothelial-cell/README.md)** — The measles rash is endothelial: virus-laden T cells deliver MV to dermal capillary endothelium, where infection plus the host T-cell response produces the perivascular inflammation seen as the classic maculopapular exanthem and Koplik spots.
 - `connects-to` → **[Brain](../../06-organ/brain/README.md)** — Measles attacks the brain in several ways: acute post-infectious encephalitis and ADEM, and — years to decades later — SSPE, a fatal degeneration driven by hypermutated measles virus persisting in neurons; the MMR vaccine essentially eliminates all of these.
 - `connects-to` → **[Tuberculosis](../tuberculosis/README.md)** — Measles induces a profound, lasting immunosuppression that can reactivate latent tuberculosis: measles-infected dendritic cells make less IL-12, crippling the Th1 response that contains TB — one way post-measles immune amnesia raises susceptibility to other infections for years.
 - `connects-to` → **[Influenza](../influenza/README.md)** — Both are vaccine-preventable respiratory viruses but differ sharply: measles (paramyxovirus) is among the most contagious pathogens (R0 12-18) and causes immune amnesia, while influenza (orthomyxovirus) drifts and shifts antigenically, needing annual reformulated vaccines.

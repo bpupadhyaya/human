@@ -175,6 +175,15 @@ cross_links:
   - target: 01-human/07-system/melanoma
     relation: connects-to
     note: "Synucleinopathies and melanoma travel together: as in Parkinson's, Lewy body disease carries a higher melanoma risk, a bidirectional link rooted in shared pigment and α-synuclein biology."
+  - target: 01-human/03-molecular/nlrp3-inflammasome
+    relation: connects-to
+    note: "Misfolded α-synuclein is a danger signal: it activates microglial NLRP3, driving IL-1β release and chronic neuroinflammation that amplifies neuronal loss — making NLRP3 a candidate target to slow Lewy body disease."
+  - target: 01-human/04-cellular/regulatory-t-cell
+    relation: connects-to
+    note: "The immune brake is loosened in synucleinopathy: regulatory T cells normally restrain microglial reactivity to α-synuclein, and their declining number and function lets neuroinflammation run unchecked, accelerating degeneration."
+  - target: 01-human/07-system/neuropathic-pain
+    relation: connects-to
+    note: "Pain is an under-recognized burden of Lewy body disease: α-synuclein degeneration of small autonomic and sensory fibres plus central pain-modulation deficits produce neuropathic and central pain alongside the parkinsonism."
 ---
 
 # Lewy Body Dementia
@@ -315,6 +324,9 @@ Approximately 25-50% of clinically diagnosed DLB cases have significant AD co-pa
 - `connects-to` → **[Gambling Disorder](../gambling-disorder/README.md)** — Treating the parkinsonism of Lewy body dementia with dopamine agonists can unleash impulse-control disorders (gambling, hypersexuality, compulsive shopping) by over-stimulating mesolimbic reward circuits; recognizing and dose-reducing is essential.
 - `connects-to` → **[Neuron](../../04-cellular/neuron/README.md)** — Lewy bodies are intraneuronal inclusions of misfolded alpha-synuclein; in DLB they fill cortical and limbic neurons, and selective loss of cholinergic, dopaminergic, and noradrenergic neurons produces the dementia, parkinsonism, and dysautonomia.
 - `connects-to` → **[Insomnia Disorder](../insomnia-disorder/README.md)** — Sleep disorder is a core, often first feature of Lewy body dementia: REM sleep behavior disorder—acting out dreams from loss of REM atonia—can precede dementia by years and strongly predicts a synucleinopathy; LBD also brings fragmented sleep and daytime somnolence.
+- `connects-to` → **[NLRP3 Inflammasome](../../03-molecular/nlrp3-inflammasome/README.md)** — Misfolded α-synuclein is a danger signal: it activates microglial NLRP3, driving IL-1β release and chronic neuroinflammation that amplifies neuronal loss — making NLRP3 a candidate target to slow Lewy body disease.
+- `connects-to` → **[Regulatory T Cell](../../04-cellular/regulatory-t-cell/README.md)** — The immune brake is loosened in synucleinopathy: regulatory T cells normally restrain microglial reactivity to α-synuclein, and their declining number and function lets neuroinflammation run unchecked, accelerating degeneration.
+- `connects-to` → **[Neuropathic Pain](../neuropathic-pain/README.md)** — Pain is an under-recognized burden of Lewy body disease: α-synuclein degeneration of small autonomic and sensory fibres plus central pain-modulation deficits produce neuropathic and central pain alongside the parkinsonism.
 - `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — Depression is common and often early in Lewy body dementia: degeneration of monoaminergic brainstem nuclei (serotonin, noradrenaline) plus cognitive and motor decline drive mood symptoms that can predate the dementia, complicating the distinction from late-life depression.
 - `connects-to` → **[Microglia](../../04-cellular/microglia/README.md)** — Neuroinflammation accompanies Lewy body dementia: microglia activated by misfolded α-synuclein release pro-inflammatory cytokines and reactive species that amplify neuronal injury and may spread pathology; PET shows microglial activation tracking disease, a therapeutic target.
 - `connects-to` → **[Narcolepsy](../narcolepsy/README.md)** — REM sleep behavior disorder bridges Lewy body dementia and narcolepsy: RBD—acting out dreams from lost REM muscle atonia—is an early marker that often precedes Lewy body dementia by years, while narcolepsy disrupts the same REM gating from orexin loss.
