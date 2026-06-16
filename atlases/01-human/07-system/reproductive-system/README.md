@@ -167,6 +167,15 @@ cross_links:
   - target: 02-pathogen/01-viruses/zika-virus
     relation: connects-to
     note: "A virus that targets reproduction: Zika is sexually transmitted and crosses the placenta to disrupt fetal brain development, making it a reproductive-tract pathogen whose gravest harm falls on the developing offspring."
+  - target: 01-human/04-cellular/adipocyte
+    relation: connects-to
+    note: "Fat is a reproductive organ: adipocytes aromatize androgens to estrogen and secrete leptin that signals energy sufficiency to the HPG axis, so too little or too much body fat disrupts puberty, ovulation, and fertility."
+  - target: 01-human/07-system/venous-thromboembolism
+    relation: connects-to
+    note: "Estrogen tips the blood toward clotting: pregnancy and estrogen-containing contraception or HRT are major acquired risk factors for venous thromboembolism, a key safety consideration across reproductive care."
+  - target: 01-human/07-system/gut-microbiome
+    relation: connects-to
+    note: "The gut microbiome tunes sex hormones: the 'estrobolome' — gut bacteria that deconjugate estrogens — regulates circulating estrogen levels, linking the gut flora to reproductive and hormone-driven disease."
 ---
 
 # Reproductive System
@@ -332,6 +341,9 @@ Testosterone binds androgen receptor (AR, nuclear receptor NR3C4) → AR dimeriz
 - `connects-to` → **[Cortisol](../../03-molecular/cortisol/README.md)** — Stress shuts down reproduction: cortisol from the stress axis suppresses GnRH and the gonadotropins above the gonads, so chronic stress can halt ovulation and lower fertility — the body deferring reproduction when conditions seem unsafe.
 - `connects-to` → **[Iron Deficiency Anemia](../iron-deficiency-anemia/README.md)** — Menstruation drains iron: the monthly blood loss of the reproductive cycle is the leading cause of iron deficiency anemia in menstruating people, and heavy bleeding from fibroids or disorders can deepen it into symptomatic anemia.
 - `connects-to` → **[Zika Virus (ZIKV)](../../../02-pathogen/01-viruses/zika-virus/README.md)** — A virus that targets reproduction: Zika is sexually transmitted and crosses the placenta to disrupt fetal brain development, making it a reproductive-tract pathogen whose gravest harm falls on the developing offspring.
+- `connects-to` → **[Adipocyte](../../04-cellular/adipocyte/README.md)** — Fat is a reproductive organ: adipocytes aromatize androgens to estrogen and secrete leptin that signals energy sufficiency to the HPG axis, so too little or too much body fat disrupts puberty, ovulation, and fertility.
+- `connects-to` → **[Venous Thromboembolism](../venous-thromboembolism/README.md)** — Estrogen tips the blood toward clotting: pregnancy and estrogen-containing contraception or HRT are major acquired risk factors for venous thromboembolism, a key safety consideration across reproductive care.
+- `connects-to` → **[Gut Microbiome](../gut-microbiome/README.md)** — The gut microbiome tunes sex hormones: the 'estrobolome' — gut bacteria that deconjugate estrogens — regulates circulating estrogen levels, linking the gut flora to reproductive and hormone-driven disease.
 
 ## Pathology
 

@@ -169,6 +169,15 @@ cross_links:
   - target: 01-human/04-cellular/natural-killer-cell
     relation: connects-to
     note: "Innate killers are enlisted against it: retinoblastoma is relatively immune-cold, so harnessing natural killer cells is among the immunotherapy strategies explored to spare the eye in tumors that resist chemotherapy."
+  - target: 01-human/07-system/sepsis
+    relation: connects-to
+    note: "Chemotherapy exposes the child to sepsis: the systemic carboplatin-etoposide-vincristine regimens drop neutrophils, so febrile neutropenia and bloodstream infection are constant dangers in treating these infants."
+  - target: 01-human/07-system/stroke
+    relation: connects-to
+    note: "Radiation scars the young brain's vessels: external-beam radiation to the orbit and head in heritable retinoblastoma causes a late cerebral vasculopathy (including moyamoya) that raises stroke risk in survivors."
+  - target: 01-human/07-system/venous-thromboembolism
+    relation: connects-to
+    note: "Central lines and chemotherapy clot the veins: the indwelling venous access and pro-thrombotic chemotherapy used in retinoblastoma treatment predispose to catheter-associated venous thromboembolism."
 ---
 
 # Retinoblastoma
@@ -332,6 +341,9 @@ Standard regimen: **vincristine + carboplatin + etoposide (VCE)**, 6 cycles; red
 - `connects-to` → **[TERT](../../03-molecular/tert/README.md)** — It must still solve the immortality problem: with RB1 lost, retinoblastoma reactivates telomerase via TERT to keep dividing, escaping the telomere shortening that would otherwise limit the runaway growth the missing checkpoint allows.
 - `connects-to` → **[Bladder Cancer](../bladder-cancer/README.md)** — The germline defect echoes in adulthood: heritable retinoblastoma survivors carry a lifelong raised risk of second cancers including bladder cancer, where RB1 loss is also a common driver — the same broken gene surfacing decades and organs apart.
 - `connects-to` → **[Natural Killer Cell](../../04-cellular/natural-killer-cell/README.md)** — Innate killers are enlisted against it: retinoblastoma is relatively immune-cold, so harnessing natural killer cells is among the immunotherapy strategies explored to spare the eye in tumors that resist chemotherapy.
+- `connects-to` → **[Sepsis](../sepsis/README.md)** — Chemotherapy exposes the child to sepsis: the systemic carboplatin-etoposide-vincristine regimens drop neutrophils, so febrile neutropenia and bloodstream infection are constant dangers in treating these infants.
+- `connects-to` → **[Stroke](../stroke/README.md)** — Radiation scars the young brain's vessels: external-beam radiation to the orbit and head in heritable retinoblastoma causes a late cerebral vasculopathy (including moyamoya) that raises stroke risk in survivors.
+- `connects-to` → **[Venous Thromboembolism](../venous-thromboembolism/README.md)** — Central lines and chemotherapy clot the veins: the indwelling venous access and pro-thrombotic chemotherapy used in retinoblastoma treatment predispose to catheter-associated venous thromboembolism.
 
 [^knudson-1971-two-hit]: Knudson AG Jr. Mutation and cancer: statistical study of retinoblastoma. *Proc Natl Acad Sci USA.* 1971;68(4):820-823. [doi:10.1073/pnas.68.4.820](https://doi.org/10.1073/pnas.68.4.820) · [PubMed 5279523](https://pubmed.ncbi.nlm.nih.gov/5279523/)
 [^shields-2008-retinoblastoma]: Shields CL, Shields JA. Retinoblastoma management: advances in enucleation, intravenous chemoreduction, and intra-arterial chemotherapy. *Curr Opin Ophthalmol.* 2010;21(3):203-212. [doi:10.1097/ICU.0b013e328338676a](https://doi.org/10.1097/ICU.0b013e328338676a) · [PubMed 20224400](https://pubmed.ncbi.nlm.nih.gov/20224400/)
