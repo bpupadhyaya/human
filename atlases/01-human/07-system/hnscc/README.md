@@ -160,6 +160,15 @@ cross_links:
   - target: 01-human/04-cellular/platelet
     relation: connects-to
     note: "These tumors run a clotting risk: paraneoplastic thrombocytosis is common and marks worse prognosis, while the cisplatin chemoradiation that treats them can conversely drop platelet counts during therapy."
+  - target: 01-human/03-molecular/akt
+    relation: connects-to
+    note: "PI3K-AKT is a central growth circuit: downstream of frequent PIK3CA and EGFR activation, AKT drives proliferation and survival in head and neck cancer, a much-pursued therapeutic target."
+  - target: 01-human/04-cellular/neutrophil
+    relation: connects-to
+    note: "Tumor-promoting neutrophils crowd the blood: head and neck cancer recruits neutrophils that aid invasion, and a high neutrophil-to-lymphocyte ratio is a consistent marker of worse prognosis."
+  - target: 01-human/07-system/bladder-cancer
+    relation: connects-to
+    note: "Smoking sows cancer across many linings: head-and-neck and bladder cancers share tobacco and carcinogen exposure, so field cancerization gives a patient with one a raised risk of the other."
 ---
 
 # HNSCC
@@ -322,6 +331,9 @@ HPV+ oropharyngeal: Node staging based on number (not laterality); HPV-negative 
 - `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — A rising share is sexually transmitted: HPV-driven oropharyngeal cancer of the tonsil and base of tongue is spreading the virus's reach from the genital tract to the throat, giving these tumors a younger, better-prognosis profile distinct from smoking-related disease.
 - `connects-to` → **[Thyroid Gland](../../06-organ/thyroid/README.md)** — The radiation field catches the thyroid: neck irradiation for head and neck cancer commonly damages the thyroid into hypothyroidism months to years later, and carries a small long-term risk of radiation-induced thyroid cancer.
 - `connects-to` → **[Platelet](../../04-cellular/platelet/README.md)** — These tumors run a clotting risk: paraneoplastic thrombocytosis is common and marks worse prognosis, while the cisplatin chemoradiation that treats them can conversely drop platelet counts during therapy.
+- `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — PI3K-AKT is a central growth circuit: downstream of frequent PIK3CA and EGFR activation, AKT drives proliferation and survival in head and neck cancer, a much-pursued therapeutic target.
+- `connects-to` → **[Neutrophil](../../04-cellular/neutrophil/README.md)** — Tumor-promoting neutrophils crowd the blood: head and neck cancer recruits neutrophils that aid invasion, and a high neutrophil-to-lymphocyte ratio is a consistent marker of worse prognosis.
+- `connects-to` → **[Bladder Cancer](../bladder-cancer/README.md)** — Smoking sows cancer across many linings: head-and-neck and bladder cancers share tobacco and carcinogen exposure, so field cancerization gives a patient with one a raised risk of the other.
 
 [^burtness-2019-keynote048]: Burtness B, Harrington KJ, Greil R, et al. Pembrolizumab alone or with chemotherapy versus cetuximab with chemotherapy for recurrent or metastatic squamous cell carcinoma of the head and neck (KEYNOTE-048). *Lancet.* 2019;394(10212):1915-1928. [doi:10.1016/S0140-6736(19)32591-7](https://doi.org/10.1016/S0140-6736(19)32591-7) · [PubMed 31679945](https://pubmed.ncbi.nlm.nih.gov/31679945/)
 [^vermorken-2008-extreme]: Vermorken JB, Mesia R, Rivera F, et al. Platinum-based chemotherapy plus cetuximab in head and neck cancer. *N Engl J Med.* 2008;359(11):1116-1127. [doi:10.1056/NEJMoa0802656](https://doi.org/10.1056/NEJMoa0802656) · [PubMed 18784101](https://pubmed.ncbi.nlm.nih.gov/18784101/)
