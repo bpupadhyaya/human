@@ -160,6 +160,15 @@ cross_links:
   - target: 01-human/04-cellular/t-helper-cell
     relation: connects-to
     note: "ARID1A loss makes OCCC visible to the immune system: the resulting mutational and microsatellite instability draws in T cells, so clear cell ovarian cancer responds to checkpoint immunotherapy more often than the commoner serous type."
+  - target: 01-human/03-molecular/estrogen
+    relation: connects-to
+    note: "It is born from an estrogen-driven lesion: clear cell ovarian cancer arises within endometriosis, where estrogen-fueled ectopic endometrial tissue and its iron-rich bleeding create the inflamed, mutagenic niche that gives rise to the tumor."
+  - target: 01-human/03-molecular/met
+    relation: connects-to
+    note: "A receptor kinase offers a handle on a chemoresistant tumor: MET amplification and activation help drive clear cell ovarian cancer, which resists standard platinum chemotherapy, so MET and its PI3K-pathway partners are pursued as targets."
+  - target: 01-human/04-cellular/regulatory-t-cell
+    relation: connects-to
+    note: "The tumor balances its immune visibility with suppression: even as ARID1A loss recruits T cells, regulatory T cells and an immunosuppressive microenvironment temper the response, shaping which clear cell tumors actually benefit from checkpoint blockade."
 ---
 
 # Ovarian Clear Cell Carcinoma
@@ -349,6 +358,9 @@ Comprehensive surgical staging (TAH-BSO, omentectomy, pelvic/para-aortic lymphad
 - `connects-to` → **[NRF2](../../03-molecular/nfe2l2/README.md)** — OCCC turns up its antioxidant defenses: chronically bathed in oxidative stress, the tumor activates the NRF2 pathway to neutralize reactive oxygen, an adaptation that also helps explain its notorious resistance to platinum chemotherapy.
 - `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — PI3K-AKT is OCCC's growth engine: frequent PIK3CA mutations and PTEN loss funnel through AKT to mTOR, a dominant signaling axis in clear cell ovarian cancer and a target for PI3K-pathway inhibitors in this hard-to-treat subtype.
 - `connects-to` → **[T Helper Cell](../../04-cellular/t-helper-cell/README.md)** — ARID1A loss makes OCCC visible to the immune system: the resulting mutational and microsatellite instability draws in T cells, so clear cell ovarian cancer responds to checkpoint immunotherapy more often than the commoner serous type.
+- `connects-to` → **[Estrogen](../../03-molecular/estrogen/README.md)** — It is born from an estrogen-driven lesion: clear cell ovarian cancer arises within endometriosis, where estrogen-fueled ectopic endometrial tissue and its iron-rich bleeding create the inflamed, mutagenic niche that gives rise to the tumor.
+- `connects-to` → **[MET](../../03-molecular/met/README.md)** — A receptor kinase offers a handle on a chemoresistant tumor: MET amplification and activation help drive clear cell ovarian cancer, which resists standard platinum chemotherapy, so MET and its PI3K-pathway partners are pursued as targets.
+- `connects-to` → **[Regulatory T Cell](../../04-cellular/regulatory-t-cell/README.md)** — The tumor balances its immune visibility with suppression: even as ARID1A loss recruits T cells, regulatory T cells and an immunosuppressive microenvironment temper the response, shaping which clear cell tumors actually benefit from checkpoint blockade.
 
 ---
 

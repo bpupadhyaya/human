@@ -166,6 +166,15 @@ cross_links:
   - target: 01-human/07-system/melanoma
     relation: connects-to
     note: "One gene ties pancreas to skin: germline CDKN2A mutations cause the FAMMM syndrome, raising the risk of both pancreatic cancer and melanoma, so families with clustered melanomas warrant pancreatic surveillance."
+  - target: 01-human/03-molecular/palb2
+    relation: connects-to
+    note: "Another repair gene marks familial cases: germline PALB2 mutations, BRCA2's binding partner in homologous-recombination repair, predispose to pancreatic cancer and, like BRCA, leave the tumor sensitive to platinum chemotherapy and PARP inhibitors."
+  - target: 01-human/03-molecular/cxcl12
+    relation: connects-to
+    note: "The stroma builds a chemical wall: cancer-associated fibroblasts pour out CXCL12, which coats the tumor and keeps killer T cells out, a key reason pancreatic cancer resists immunotherapy and a target for breaking down that barrier."
+  - target: 01-human/07-system/obesity
+    relation: connects-to
+    note: "Excess weight stacks the odds: obesity raises pancreatic cancer risk through chronic inflammation, insulin resistance and fatty infiltration of the gland, one of the modifiable contributors to a cancer otherwise dominated by genetics and smoking."
 ---
 
 # Pancreatic Cancer
@@ -335,6 +344,9 @@ cross_links:
 - `connects-to` → **[Adipocyte](../../04-cellular/adipocyte/README.md)** — Pancreatic cancer melts the body away: it drives a profound cachexia that burns through adipocyte fat stores and muscle, and its disruption of insulin and digestion brings new-onset diabetes and weight loss that are often the first clues to the tumor.
 - `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — Depression can precede the diagnosis: pancreatic cancer is classically linked to depression that appears before any pain or jaundice, a paraneoplastic mood change thought to be biologically driven rather than merely a reaction to illness.
 - `connects-to` → **[Melanoma](../melanoma/README.md)** — One gene ties pancreas to skin: germline CDKN2A mutations cause the FAMMM syndrome, raising the risk of both pancreatic cancer and melanoma, so families with clustered melanomas warrant pancreatic surveillance.
+- `connects-to` → **[PALB2](../../03-molecular/palb2/README.md)** — Another repair gene marks familial cases: germline PALB2 mutations, BRCA2's binding partner in homologous-recombination repair, predispose to pancreatic cancer and, like BRCA, leave the tumor sensitive to platinum chemotherapy and PARP inhibitors.
+- `connects-to` → **[CXCL12](../../03-molecular/cxcl12/README.md)** — The stroma builds a chemical wall: cancer-associated fibroblasts pour out CXCL12, which coats the tumor and keeps killer T cells out, a key reason pancreatic cancer resists immunotherapy and a target for breaking down that barrier.
+- `connects-to` → **[Obesity](../obesity/README.md)** — Excess weight stacks the odds: obesity raises pancreatic cancer risk through chronic inflammation, insulin resistance and fatty infiltration of the gland, one of the modifiable contributors to a cancer otherwise dominated by genetics and smoking.
 
 ---
 
