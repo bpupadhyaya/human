@@ -147,6 +147,15 @@ cross_links:
   - target: 01-human/04-cellular/b-cell
     relation: connects-to
     note: "Antibodies join the attack on orexin: B cells in narcolepsy produce autoantibodies such as anti-TRIB2, and the post-H1N1-vaccine surge in cases points to a humoral, molecular-mimicry arm alongside the cytotoxic T cells."
+  - target: 01-human/07-system/type-2-diabetes
+    relation: connects-to
+    note: "Losing orexin disturbs metabolism: beyond weight gain, narcolepsy carries a higher rate of insulin resistance and type 2 diabetes, since the orexin system helps regulate glucose and energy balance, not just wakefulness."
+  - target: 01-human/07-system/hypertension
+    relation: connects-to
+    note: "The night-time blood pressure stays high: narcoleptics often lose the normal nocturnal dip in blood pressure, a non-dipping pattern linked to orexin loss and fragmented sleep that adds to their long-term cardiovascular risk."
+  - target: 01-human/03-molecular/ghrelin
+    relation: connects-to
+    note: "Appetite signals run awry: orexin normally integrates the hunger hormone ghrelin with arousal, so its loss in narcolepsy unbalances the appetite-energy axis, contributing to the increased eating and weight gain that accompany the disorder."
 sources:
   - id: scammell-2015-narcolepsy-review
     type: peer-reviewed
@@ -330,6 +339,9 @@ Cataplexy is the **pathognomonic** feature of NT1 — sudden, bilateral loss of 
 - `connects-to` → **[Thymus](../../06-organ/thymus/README.md)** — Narcolepsy type 1 is an autoimmune disease at heart: orexin neurons are destroyed by a T-cell attack, and the thymus that should delete such self-reactive T cells fails to, a breakdown of central tolerance acting on an HLA-DQB1*06:02 background.
 - `connects-to` → **[Attention-Deficit/Hyperactivity Disorder](../attention-deficit-hyperactivity-disorder/README.md)** — Sleepiness can masquerade as inattention: narcolepsy and ADHD overlap heavily, with daytime drowsiness mimicking and worsening attention problems, and both responding to the same wakefulness-promoting stimulants — a link that complicates telling them apart.
 - `connects-to` → **[B Cell](../../04-cellular/b-cell/README.md)** — Antibodies join the attack on orexin: B cells in narcolepsy produce autoantibodies such as anti-TRIB2, and the post-H1N1-vaccine surge in cases points to a humoral, molecular-mimicry arm alongside the cytotoxic T cells.
+- `connects-to` → **[Type 2 Diabetes](../type-2-diabetes/README.md)** — Losing orexin disturbs metabolism: beyond weight gain, narcolepsy carries a higher rate of insulin resistance and type 2 diabetes, since the orexin system helps regulate glucose and energy balance, not just wakefulness.
+- `connects-to` → **[Hypertension](../hypertension/README.md)** — The night-time blood pressure stays high: narcoleptics often lose the normal nocturnal dip in blood pressure, a non-dipping pattern linked to orexin loss and fragmented sleep that adds to their long-term cardiovascular risk.
+- `connects-to` → **[Ghrelin](../../03-molecular/ghrelin/README.md)** — Appetite signals run awry: orexin normally integrates the hunger hormone ghrelin with arousal, so its loss in narcolepsy unbalances the appetite-energy axis, contributing to the increased eating and weight gain that accompany the disorder.
 
 [^scammell-2015-narcolepsy-review]: Scammell TE. Narcolepsy. *N Engl J Med.* 2015;373(27):2654-2662. [doi:10.1056/NEJMra1500587](https://doi.org/10.1056/NEJMra1500587) · [PubMed 26716917](https://pubmed.ncbi.nlm.nih.gov/26716917/)
 [^dauvilliers-2007-narcolepsy-clinical]: Dauvilliers Y, Arnulf I, Mignot E. Narcolepsy with cataplexy. *Lancet.* 2007;369(9560):499-511. [doi:10.1016/S0140-6736(07)60237-2](https://doi.org/10.1016/S0140-6736(07)60237-2) · [PubMed 17292770](https://pubmed.ncbi.nlm.nih.gov/17292770/)

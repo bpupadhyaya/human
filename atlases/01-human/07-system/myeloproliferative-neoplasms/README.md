@@ -160,6 +160,15 @@ cross_links:
   - target: 01-human/03-molecular/vegf
     relation: connects-to
     note: "The overgrown marrow grows its own vessels: MPNs, especially myelofibrosis, raise VEGF and marrow microvessel density, an angiogenic drive that supports the expanding malignant clone and tracks with disease burden."
+  - target: 01-human/03-molecular/tet2
+    relation: connects-to
+    note: "The driver mutation rarely acts alone: epigenetic hits like TET2 (with DNMT3A and ASXL1) often precede or accompany the JAK2 driver, shaping which MPN appears, how it evolves, and its risk of turning into acute leukemia."
+  - target: 01-human/07-system/atherosclerosis
+    relation: connects-to
+    note: "The mutant clone inflames the arteries: JAK2-mutated blood cells, a form of clonal hematopoiesis, accelerate atherosclerosis and arterial thrombosis, so MPNs raise heart-attack and stroke risk beyond what their high cell counts alone would predict."
+  - target: 01-human/04-cellular/macrophage
+    relation: connects-to
+    note: "Clonal macrophages help scar the marrow: monocytes and macrophages derived from the malignant clone pour out TGF-β and other fibrogenic signals that drive the reticulin and collagen fibrosis of myelofibrosis, remodeling the marrow they grow in."
 ---
 
 # Myeloproliferative Neoplasms
@@ -351,6 +360,9 @@ In PV and ET, JAK2 V617F also affects myeloid progenitors → granulocytosis and
 - `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — MPNs complicate pregnancy: the prothrombotic clone, especially JAK2-mutant, raises the risk of miscarriage, placental thrombosis and maternal clots, so affected women are managed with aspirin, low-molecular-weight heparin and pregnancy-safe interferon.
 - `connects-to` → **[Osteoblast](../../04-cellular/osteoblast/README.md)** — The marrow can turn to bone: in the myelofibrosis subtype the fibrotic drive spills into osteosclerosis, where osteoblasts lay down excess bone that further crowds out blood production and shows as dense marrow on imaging.
 - `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — The overgrown marrow grows its own vessels: MPNs, especially myelofibrosis, raise VEGF and marrow microvessel density, an angiogenic drive that supports the expanding malignant clone and tracks with disease burden.
+- `connects-to` → **[TET2](../../03-molecular/tet2/README.md)** — The driver mutation rarely acts alone: epigenetic hits like TET2 (with DNMT3A and ASXL1) often precede or accompany the JAK2 driver, shaping which MPN appears, how it evolves, and its risk of turning into acute leukemia.
+- `connects-to` → **[Atherosclerosis](../atherosclerosis/README.md)** — The mutant clone inflames the arteries: JAK2-mutated blood cells, a form of clonal hematopoiesis, accelerate atherosclerosis and arterial thrombosis, so MPNs raise heart-attack and stroke risk beyond what their high cell counts alone would predict.
+- `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — Clonal macrophages help scar the marrow: monocytes and macrophages derived from the malignant clone pour out TGF-β and other fibrogenic signals that drive the reticulin and collagen fibrosis of myelofibrosis, remodeling the marrow they grow in.
 
 [^verstovsek-2012-comfort-i]: Verstovsek S, Mesa RA, Gotlib J, et al. A double-blind, placebo-controlled trial of ruxolitinib for myelofibrosis. *N Engl J Med.* 2012;366(9):799-807. [doi:10.1056/NEJMoa1110557](https://doi.org/10.1056/NEJMoa1110557) · [PubMed 22375971](https://pubmed.ncbi.nlm.nih.gov/22375971/)
 [^vannucchi-2015-response]: Vannucchi AM, Kiladjian JJ, Griesshammer M, et al. Ruxolitinib versus standard therapy for the treatment of polycythemia vera. *N Engl J Med.* 2015;372(5):426-435. [doi:10.1056/NEJMoa1409002](https://doi.org/10.1056/NEJMoa1409002) · [PubMed 25426978](https://pubmed.ncbi.nlm.nih.gov/25426978/)
