@@ -160,6 +160,15 @@ cross_links:
   - target: 01-human/04-cellular/t-cytotoxic-cell
     relation: connects-to
     note: "Immunotherapy is a fallback for the rare aggressive case: when a basal cell carcinoma turns advanced or metastatic and outruns hedgehog inhibitors, anti-PD-1 drugs like cemiplimab unleash cytotoxic T cells against it."
+  - target: 01-human/03-molecular/bcl-2
+    relation: connects-to
+    note: "Hedgehog keeps the tumor cell from dying: unchecked GLI signaling raises the anti-apoptotic protein BCL-2 in Gorlin's basal cell carcinomas and medulloblastomas, helping the cells survive that the syndrome's mutation sets loose."
+  - target: 01-human/04-cellular/endothelial-cell
+    relation: connects-to
+    note: "Hedgehog also builds the tumor's blood supply: SHH signaling drives endothelial recruitment and angiogenesis, feeding the basal cell carcinomas and the cardiac and ovarian fibromas that stud the syndrome."
+  - target: 01-human/07-system/cowden-syndrome
+    relation: connects-to
+    note: "It joins the inherited tumor-and-skin syndromes: like Cowden, Gorlin is a single-gene disorder announced by characteristic skin and developmental signs and a lifelong, organ-spanning tumor risk, distinguished by its gene and its tumor pattern."
 ---
 
 # Gorlin Syndrome
@@ -318,6 +327,9 @@ Both are two-hit tumor suppressors: germline heterozygous LOF + somatic second h
 - `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — Tumors escape hedgehog blockade through other pathways: PI3K-AKT signaling crosstalks with the hedgehog axis and helps Gorlin's basal cell carcinomas grow resistant to SMO inhibitors like vismodegib, a route to relapse being targeted with combination therapy.
 - `connects-to` → **[Osteoclast](../../04-cellular/osteoclast/README.md)** — The jaw cysts eat into bone: Gorlin's odontogenic keratocysts expand through the mandible and maxilla by recruiting osteoclasts to resorb bone, the painless swellings that often bring a young patient to diagnosis.
 - `connects-to` → **[Cytotoxic T Cell](../../04-cellular/t-cytotoxic-cell/README.md)** — Immunotherapy is a fallback for the rare aggressive case: when a basal cell carcinoma turns advanced or metastatic and outruns hedgehog inhibitors, anti-PD-1 drugs like cemiplimab unleash cytotoxic T cells against it.
+- `connects-to` → **[BCL-2](../../03-molecular/bcl-2/README.md)** — Hedgehog keeps the tumor cell from dying: unchecked GLI signaling raises the anti-apoptotic protein BCL-2 in Gorlin's basal cell carcinomas and medulloblastomas, helping the cells survive that the syndrome's mutation sets loose.
+- `connects-to` → **[Endothelial Cell](../../04-cellular/endothelial-cell/README.md)** — Hedgehog also builds the tumor's blood supply: SHH signaling drives endothelial recruitment and angiogenesis, feeding the basal cell carcinomas and the cardiac and ovarian fibromas that stud the syndrome.
+- `connects-to` → **[Cowden Syndrome](../cowden-syndrome/README.md)** — It joins the inherited tumor-and-skin syndromes: like Cowden, Gorlin is a single-gene disorder announced by characteristic skin and developmental signs and a lifelong, organ-spanning tumor risk, distinguished by its gene and its tumor pattern.
 
 ---
 

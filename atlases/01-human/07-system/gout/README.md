@@ -166,6 +166,15 @@ cross_links:
   - target: 01-human/03-molecular/complement-c3
     relation: connects-to
     note: "Crystals also rouse the complement system: monosodium urate activates complement on its surface, generating C5a that pulls neutrophils into the joint — an arm of the acute flare working alongside the NLRP3-IL-1 pathway."
+  - target: 01-human/03-molecular/tnf-alpha
+    relation: connects-to
+    note: "TNF amplifies the crystal storm: released by activated macrophages alongside IL-1β, it deepens the recruitment and activation of neutrophils that make the gout flare so exquisitely painful."
+  - target: 01-human/04-cellular/endothelial-cell
+    relation: connects-to
+    note: "Urate injures the vessel lining: high uric acid impairs endothelial nitric-oxide and promotes inflammation, a mechanism tying gout to the hypertension and cardiovascular disease that shadow it."
+  - target: 01-human/06-organ/small-intestine
+    relation: connects-to
+    note: "The gut is gout's second drain: about a third of uric acid is excreted through the intestine via the ABCG2 transporter, so impaired gut elimination — not just the kidney — can raise urate into gout."
 ---
 
 # Gout
@@ -308,6 +317,9 @@ The central mechanism linking MSU crystals to acute gouty arthritis is **NLRP3 i
 - `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — Estrogen shields women from gout: the hormone is uricosuric, helping the kidney dump urate, so gout is uncommon before menopause and its incidence in women climbs once that protection is lost.
 - `connects-to` → **[Psoriasis](../psoriasis/README.md)** — Rapid skin turnover feeds the urate pool: psoriasis's accelerated proliferation breaks down purines into extra uric acid, so gout is more common in psoriasis — and the two arthritides can be hard to tell apart in an inflamed joint.
 - `connects-to` → **[Complement C3](../../03-molecular/complement-c3/README.md)** — Crystals also rouse the complement system: monosodium urate activates complement on its surface, generating C5a that pulls neutrophils into the joint — an arm of the acute flare working alongside the NLRP3-IL-1 pathway.
+- `connects-to` → **[TNF-α](../../03-molecular/tnf-alpha/README.md)** — TNF amplifies the crystal storm: released by activated macrophages alongside IL-1β, it deepens the recruitment and activation of neutrophils that make the gout flare so exquisitely painful.
+- `connects-to` → **[Endothelial Cell](../../04-cellular/endothelial-cell/README.md)** — Urate injures the vessel lining: high uric acid impairs endothelial nitric-oxide and promotes inflammation, a mechanism tying gout to the hypertension and cardiovascular disease that shadow it.
+- `connects-to` → **[Small Intestine](../../06-organ/small-intestine/README.md)** — The gut is gout's second drain: about a third of uric acid is excreted through the intestine via the ABCG2 transporter, so impaired gut elimination — not just the kidney — can raise urate into gout.
 
 [^dalbeth-2019-gout-primer]: Dalbeth N, Choi HK, Joosten LAB, et al. Gout. *Nat Rev Dis Primers.* 2019;5(1):69. [doi:10.1038/s41572-019-0115-y](https://doi.org/10.1038/s41572-019-0115-y) · [PubMed 31558729](https://pubmed.ncbi.nlm.nih.gov/31558729/)
 [^martinon-2006-nlrp3-gout]: Martinon F, Pétrilli V, Mayor A, Tardivel A, Tschopp J. Gout-associated uric acid crystals activate the NALP3 inflammasome. *Nature.* 2006;440(7081):237-241. [doi:10.1038/nature04516](https://doi.org/10.1038/nature04516) · [PubMed 16407889](https://pubmed.ncbi.nlm.nih.gov/16407889/)
