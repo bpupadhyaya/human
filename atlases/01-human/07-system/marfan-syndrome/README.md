@@ -160,6 +160,15 @@ cross_links:
   - target: 01-human/07-system/generalized-anxiety-disorder
     relation: connects-to
     note: "Living with a fragile aorta weighs on the mind: rates of anxiety and depression run high in Marfan, driven by the constant threat of dissection, lifelong activity limits and body-image concerns, so psychological support is part of comprehensive care."
+  - target: 01-human/03-molecular/erk1-2
+    relation: connects-to
+    note: "The damage runs through a side channel: the excess TGF-β freed by fibrillin-1 loss fires the non-canonical ERK1/2 (MAPK) pathway in the aortic wall, a driver of aneurysm growth that losartan helps blunt — explaining why an angiotensin blocker protects the aorta."
+  - target: 01-human/07-system/heart-failure
+    relation: connects-to
+    note: "The valves can wear the heart out: chronic aortic and mitral regurgitation from Marfan's stretched valve tissue overloads the ventricle for years, so beyond the dissection threat the disease can drift into heart failure if the leaks go uncorrected."
+  - target: 01-human/07-system/copd
+    relation: connects-to
+    note: "The lung's scaffolding fails diffusely too: beyond the dramatic spontaneous pneumothorax, defective elastin leaves the airspaces prone to emphysema-like destruction and accelerated decline in lung function, a quieter respiratory toll of the connective-tissue defect."
 ---
 
 # Marfan Syndrome
@@ -346,6 +355,9 @@ MFS is a **multi-system disorder** defined by cardiovascular, ocular, and skelet
 - `connects-to` → **[Osteoporosis](../osteoporosis/README.md)** — The long Marfan bones are also thin: despite their height, patients often have reduced bone mineral density and osteopenia, likely tied to the disturbed fibrillin-TGF-beta signaling that governs bone as well as connective tissue.
 - `connects-to` → **[Adipocyte](../../04-cellular/adipocyte/README.md)** — Marfan bodies carry little fat: the classic tall, slender build comes with scant subcutaneous adipose and low muscle mass, the lean habitus that — with long limbs and arachnodactyly — helps flag the syndrome on sight.
 - `connects-to` → **[Generalized Anxiety Disorder](../generalized-anxiety-disorder/README.md)** — Living with a fragile aorta weighs on the mind: rates of anxiety and depression run high in Marfan, driven by the constant threat of dissection, lifelong activity limits and body-image concerns, so psychological support is part of comprehensive care.
+- `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — The damage runs through a side channel: the excess TGF-β freed by fibrillin-1 loss fires the non-canonical ERK1/2 (MAPK) pathway in the aortic wall, a driver of aneurysm growth that losartan helps blunt — explaining why an angiotensin blocker protects the aorta.
+- `connects-to` → **[Heart Failure](../heart-failure/README.md)** — The valves can wear the heart out: chronic aortic and mitral regurgitation from Marfan's stretched valve tissue overloads the ventricle for years, so beyond the dissection threat the disease can drift into heart failure if the leaks go uncorrected.
+- `connects-to` → **[COPD](../copd/README.md)** — The lung's scaffolding fails diffusely too: beyond the dramatic spontaneous pneumothorax, defective elastin leaves the airspaces prone to emphysema-like destruction and accelerated decline in lung function, a quieter respiratory toll of the connective-tissue defect.
 
 ---
 

@@ -160,6 +160,15 @@ cross_links:
   - target: 01-human/04-cellular/platelet
     relation: connects-to
     note: "The intensive chemotherapy empties the marrow: the multi-drug regimens for medulloblastoma suppress platelet production into thrombocytopenia, so bleeding risk and transfusion needs are watched through the long months of treatment."
+  - target: 01-human/03-molecular/sufu
+    relation: connects-to
+    note: "A brake on the Hedgehog pathway, when lost, drives one subgroup: SUFU normally restrains SHH signaling, so germline or somatic SUFU loss unleashes the pathway to produce SHH-type medulloblastoma — a target for the same Hedgehog inhibitors aimed at SMO and PTCH1."
+  - target: 01-human/07-system/endocrine-system
+    relation: connects-to
+    note: "Cure comes at a hormonal price: craniospinal radiation and surgery near the hypothalamus and pituitary leave survivors with growth-hormone deficiency, thyroid and adrenal shortfalls and delayed puberty, so lifelong endocrine follow-up is part of survivorship."
+  - target: 01-human/07-system/meningioma
+    relation: connects-to
+    note: "The treatment can seed a second tumor: the cranial radiation that cures medulloblastoma is itself a leading cause of radiation-induced meningiomas decades later, one of the secondary cancers that shadow long-term survivors."
 ---
 
 # Medulloblastoma
@@ -337,6 +346,9 @@ MB survivors face substantial late effects — inversely proportional to age at 
 - `connects-to` → **[Growth Hormone](../../03-molecular/growth-hormone/README.md)** — Curing the brain stunts the body: craniospinal radiation damages the pituitary's growth-hormone output and the spine's own growth plates, so survivors fall off the height curve — growth-hormone deficiency is among the commonest late effects of treatment.
 - `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — Treatment reaches the reproductive axis: radiation to the brain disturbs the hormones timing puberty while alkylating chemotherapy damages the gonads, so survivors face precocious or delayed puberty and impaired fertility, prompting preservation counseling.
 - `connects-to` → **[Platelet](../../04-cellular/platelet/README.md)** — The intensive chemotherapy empties the marrow: the multi-drug regimens for medulloblastoma suppress platelet production into thrombocytopenia, so bleeding risk and transfusion needs are watched through the long months of treatment.
+- `connects-to` → **[SUFU](../../03-molecular/sufu/README.md)** — A brake on the Hedgehog pathway, when lost, drives one subgroup: SUFU normally restrains SHH signaling, so germline or somatic SUFU loss unleashes the pathway to produce SHH-type medulloblastoma — a target for the same Hedgehog inhibitors aimed at SMO and PTCH1.
+- `connects-to` → **[Endocrine System](../endocrine-system/README.md)** — Cure comes at a hormonal price: craniospinal radiation and surgery near the hypothalamus and pituitary leave survivors with growth-hormone deficiency, thyroid and adrenal shortfalls and delayed puberty, so lifelong endocrine follow-up is part of survivorship.
+- `connects-to` → **[Meningioma](../meningioma/README.md)** — The treatment can seed a second tumor: the cranial radiation that cures medulloblastoma is itself a leading cause of radiation-induced meningiomas decades later, one of the secondary cancers that shadow long-term survivors.
 
 [^packer-2006-std-risk-mb]: Packer RJ, Gajjar A, Vezina G, et al. Phase III study of craniospinal radiation therapy followed by adjuvant chemotherapy for newly diagnosed average-risk medulloblastoma. *J Clin Oncol.* 2006;24(25):4202-4208. [doi:10.1200/JCO.2006.06.4980](https://doi.org/10.1200/JCO.2006.06.4980) · [PubMed 16943538](https://pubmed.ncbi.nlm.nih.gov/16943538/)
 [^taylor-2012-mb-subgroups]: Taylor MD, Northcott PA, Korshunov A, et al. Molecular subgroups of medulloblastoma: the current consensus. *Acta Neuropathol.* 2012;123(4):465-472. [doi:10.1007/s00401-011-0922-z](https://doi.org/10.1007/s00401-011-0922-z) · [PubMed 22134537](https://pubmed.ncbi.nlm.nih.gov/22134537/)
