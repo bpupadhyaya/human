@@ -169,6 +169,15 @@ cross_links:
   - target: 01-human/07-system/bladder-cancer
     relation: connects-to
     note: "Smoking sows cancer across many linings: head-and-neck and bladder cancers share tobacco and carcinogen exposure, so field cancerization gives a patient with one a raised risk of the other."
+  - target: 01-human/03-molecular/stat3
+    relation: connects-to
+    note: "STAT3 is a master driver of HNSCC: constitutively active STAT3, often downstream of EGFR, sustains proliferation and survival while reprogramming the microenvironment into an immunosuppressive state — a node tied to therapy resistance."
+  - target: 01-human/04-cellular/mast-cell
+    relation: connects-to
+    note: "Mast cells stock the tumor stroma: they accumulate in head-and-neck cancers and release angiogenic and matrix-remodeling mediators, their density correlating with invasion and prognosis."
+  - target: 01-human/07-system/sepsis
+    relation: connects-to
+    note: "The disease and its treatment invite sepsis: airway tumors cause aspiration pneumonia, and chemoradiation plus major surgery (with tracheostomy and feeding access) open routes to bloodstream infection and sepsis."
 ---
 
 # HNSCC
@@ -334,6 +343,9 @@ HPV+ oropharyngeal: Node staging based on number (not laterality); HPV-negative 
 - `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — PI3K-AKT is a central growth circuit: downstream of frequent PIK3CA and EGFR activation, AKT drives proliferation and survival in head and neck cancer, a much-pursued therapeutic target.
 - `connects-to` → **[Neutrophil](../../04-cellular/neutrophil/README.md)** — Tumor-promoting neutrophils crowd the blood: head and neck cancer recruits neutrophils that aid invasion, and a high neutrophil-to-lymphocyte ratio is a consistent marker of worse prognosis.
 - `connects-to` → **[Bladder Cancer](../bladder-cancer/README.md)** — Smoking sows cancer across many linings: head-and-neck and bladder cancers share tobacco and carcinogen exposure, so field cancerization gives a patient with one a raised risk of the other.
+- `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — STAT3 is a master driver of HNSCC: constitutively active STAT3, often downstream of EGFR, sustains proliferation and survival while reprogramming the microenvironment into an immunosuppressive state — a node tied to therapy resistance.
+- `connects-to` → **[Mast Cell](../../04-cellular/mast-cell/README.md)** — Mast cells stock the tumor stroma: they accumulate in head-and-neck cancers and release angiogenic and matrix-remodeling mediators, their density correlating with invasion and prognosis.
+- `connects-to` → **[Sepsis](../sepsis/README.md)** — The disease and its treatment invite sepsis: airway tumors cause aspiration pneumonia, and chemoradiation plus major surgery (with tracheostomy and feeding access) open routes to bloodstream infection and sepsis.
 
 [^burtness-2019-keynote048]: Burtness B, Harrington KJ, Greil R, et al. Pembrolizumab alone or with chemotherapy versus cetuximab with chemotherapy for recurrent or metastatic squamous cell carcinoma of the head and neck (KEYNOTE-048). *Lancet.* 2019;394(10212):1915-1928. [doi:10.1016/S0140-6736(19)32591-7](https://doi.org/10.1016/S0140-6736(19)32591-7) · [PubMed 31679945](https://pubmed.ncbi.nlm.nih.gov/31679945/)
 [^vermorken-2008-extreme]: Vermorken JB, Mesia R, Rivera F, et al. Platinum-based chemotherapy plus cetuximab in head and neck cancer. *N Engl J Med.* 2008;359(11):1116-1127. [doi:10.1056/NEJMoa0802656](https://doi.org/10.1056/NEJMoa0802656) · [PubMed 18784101](https://pubmed.ncbi.nlm.nih.gov/18784101/)

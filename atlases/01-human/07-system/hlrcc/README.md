@@ -169,6 +169,15 @@ cross_links:
   - target: 01-human/07-system/neurofibromatosis-type-1
     relation: connects-to
     note: "It joins the multisystem tumor-suppressor syndromes: like neurofibromatosis type 1, HLRCC is a single-gene disorder with cutaneous tumors and a predisposition to renal and adrenal/paraganglionic tumors, distinguished by its gene and metabolic mechanism."
+  - target: 01-human/03-molecular/sdhb
+    relation: connects-to
+    note: "FH and SDH are sister Krebs-cycle tumor suppressors: like SDHB loss, FH loss floods the cell with an oncometabolite (fumarate) that stabilizes HIF and reprograms the epigenome — a shared pseudo-hypoxic mechanism across the metabolic cancer syndromes."
+  - target: 01-human/07-system/iron-deficiency-anemia
+    relation: connects-to
+    note: "The uterine leiomyomas bleed: women with HLRCC develop numerous, often symptomatic uterine fibroids whose heavy menstrual bleeding causes iron-deficiency anemia, frequently the first sign that brings them to attention."
+  - target: 01-human/07-system/venous-thromboembolism
+    relation: connects-to
+    note: "Its renal cancer is aggressive and clot-prone: HLRCC-associated renal cell carcinoma metastasizes early, and like other advanced cancers it carries a raised risk of venous thromboembolism through surgery and treatment."
 ---
 
 # Hereditary Leiomyomatosis and Renal Cell Carcinoma
@@ -351,6 +360,9 @@ Cutaneous:
 - `connects-to` → **[Fibroblast](../../04-cellular/fibroblast/README.md)** — The benign tumors are mesenchymal: HLRCC's hallmark cutaneous and uterine leiomyomas are smooth-muscle and fibroblast-like growths of FH-deficient cells, the skin nodules and fibroids that flag the syndrome before the kidney cancer.
 - `connects-to` → **[AMPK](../../03-molecular/ampk/README.md)** — A blocked Krebs cycle starves the cell of energy: FH loss stalls the TCA cycle and forces a Warburg shift, a metabolic stress sensed by AMPK as the FH-deficient cell rewires its metabolism to survive.
 - `connects-to` → **[Neurofibromatosis Type 1](../neurofibromatosis-type-1/README.md)** — It joins the multisystem tumor-suppressor syndromes: like neurofibromatosis type 1, HLRCC is a single-gene disorder with cutaneous tumors and a predisposition to renal and adrenal/paraganglionic tumors, distinguished by its gene and metabolic mechanism.
+- `connects-to` → **[SDHB](../../03-molecular/sdhb/README.md)** — FH and SDH are sister Krebs-cycle tumor suppressors: like SDHB loss, FH loss floods the cell with an oncometabolite (fumarate) that stabilizes HIF and reprograms the epigenome — a shared pseudo-hypoxic mechanism across the metabolic cancer syndromes.
+- `connects-to` → **[Iron Deficiency Anemia](../iron-deficiency-anemia/README.md)** — The uterine leiomyomas bleed: women with HLRCC develop numerous, often symptomatic uterine fibroids whose heavy menstrual bleeding causes iron-deficiency anemia, frequently the first sign that brings them to attention.
+- `connects-to` → **[Venous Thromboembolism](../venous-thromboembolism/README.md)** — Its renal cancer is aggressive and clot-prone: HLRCC-associated renal cell carcinoma metastasizes early, and like other advanced cancers it carries a raised risk of venous thromboembolism through surgery and treatment.
 
 [^tomlinson-2002-fh]: Tomlinson IP, Alam NA, Rowan AJ, et al. Germline mutations in FH predispose to dominantly inherited uterine fibroids, skin leiomyomata and papillary renal cell cancer. *Nat Genet.* 2002;30(4):406-410. [doi:10.1038/ng849](https://doi.org/10.1038/ng849) · [PubMed 11865300](https://pubmed.ncbi.nlm.nih.gov/11865300/)
 [^linehan-2013-fh-review]: Linehan WM, Rouault TA. Molecular pathways: fumarate hydratase-deficient kidney cancer — targeting the Warburg effect in cancer. *Clin Cancer Res.* 2013;19(13):3345-3352. [doi:10.1158/1078-0432.CCR-13-0304](https://doi.org/10.1158/1078-0432.CCR-13-0304) · [PubMed 23836472](https://pubmed.ncbi.nlm.nih.gov/23836472/)
