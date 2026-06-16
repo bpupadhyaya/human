@@ -172,6 +172,15 @@ cross_links:
   - target: 01-human/06-organ/small-intestine
     relation: connects-to
     note: "Vaso-occlusion can strike the gut: sickled cells clog the mesenteric vessels in a crisis, starving the bowel into the ischemic abdominal pain of the 'girdle syndrome,' a visceral face of the disease."
+  - target: 01-human/03-molecular/adenosine
+    relation: connects-to
+    note: "Adenosine has a double role in sickle disease: signaling through the A2B receptor it raises red-cell 2,3-BPG and promotes sickling, while via A2A it dampens the inflammatory pain of crises — a pathway probed for new therapies."
+  - target: 01-human/04-cellular/mast-cell
+    relation: connects-to
+    note: "Mast cells stoke the pain of sickle crises: activated in the vaso-occlusive milieu they release substance P and inflammatory mediators that sensitize nerves and worsen the neurogenic component of sickle pain."
+  - target: 01-human/07-system/sepsis
+    relation: connects-to
+    note: "Functional asplenia makes sepsis the great killer in sickle disease: repeated infarction destroys the spleen, so encapsulated bacteria can cause overwhelming sepsis — the reason for penicillin prophylaxis and pneumococcal vaccination from infancy."
 ---
 
 # Sickle Cell Disease
@@ -382,6 +391,9 @@ SCD vaso-occlusion is not just from sickled RBCs mechanically blocking vessels �
 - `connects-to` → **[Interleukin-6](../../03-molecular/il-6/README.md)** — Sickle disease smolders with inflammation: even between crises IL-6 and other cytokines run high, priming the endothelium and white cells that drive the vaso-occlusion at the heart of the disease.
 - `connects-to` → **[Aplastic Anemia](../aplastic-anemia/README.md)** — A virus can stall the marrow's overdrive: parvovirus B19 shuts down red-cell production for days, and in sickle disease — where survival depends on furious red-cell turnover — this triggers a sudden, dangerous aplastic crisis.
 - `connects-to` → **[Small Intestine](../../06-organ/small-intestine/README.md)** — Vaso-occlusion can strike the gut: sickled cells clog the mesenteric vessels in a crisis, starving the bowel into the ischemic abdominal pain of the 'girdle syndrome,' a visceral face of the disease.
+- `connects-to` → **[Adenosine](../../03-molecular/adenosine/README.md)** — Adenosine has a double role in sickle disease: signaling through the A2B receptor it raises red-cell 2,3-BPG and promotes sickling, while via A2A it dampens the inflammatory pain of crises — a pathway probed for new therapies.
+- `connects-to` → **[Mast Cell](../../04-cellular/mast-cell/README.md)** — Mast cells stoke the pain of sickle crises: activated in the vaso-occlusive milieu they release substance P and inflammatory mediators that sensitize nerves and worsen the neurogenic component of sickle pain.
+- `connects-to` → **[Sepsis](../sepsis/README.md)** — Functional asplenia makes sepsis the great killer in sickle disease: repeated infarction destroys the spleen, so encapsulated bacteria can cause overwhelming sepsis — the reason for penicillin prophylaxis and pneumococcal vaccination from infancy.
 
 [^steinberg-1999-scd-management]: Steinberg MH. Management of sickle cell disease. *N Engl J Med.* 1999;340(13):1021-1030. [doi:10.1056/NEJM199904013401307](https://doi.org/10.1056/NEJM199904013401307) · [PubMed 10099145](https://pubmed.ncbi.nlm.nih.gov/10099145/)
 [^vichinsky-2000-acs-scd]: Vichinsky EP, Neumayr LD, Earles AN, et al. Causes and outcomes of the acute chest syndrome in sickle cell disease. *N Engl J Med.* 2000;342(25):1855-1865. [doi:10.1056/NEJM200006223422502](https://doi.org/10.1056/NEJM200006223422502) · [PubMed 10861320](https://pubmed.ncbi.nlm.nih.gov/10861320/)

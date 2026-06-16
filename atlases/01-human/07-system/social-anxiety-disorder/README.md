@@ -172,6 +172,15 @@ cross_links:
   - target: 01-human/07-system/bipolar-disorder
     relation: connects-to
     note: "Anxiety shadows mood disorder: social anxiety co-occurs with bipolar disorder far more than chance, often preceding it, and the comorbidity worsens the course and complicates treatment of both."
+  - target: 01-human/03-molecular/glutamate
+    relation: connects-to
+    note: "Glutamate sets the fear circuit's gain: excess excitatory signaling in the amygdala and prefrontal cortex sustains the threat over-appraisal of social anxiety, and glutamate-modulating agents like d-cycloserine are studied to speed exposure therapy."
+  - target: 01-human/07-system/stimulant-use-disorder
+    relation: connects-to
+    note: "Stimulants and social anxiety pull in both directions: caffeine and stimulant drugs provoke the palpitations and jitteriness that ignite social fear, yet some sufferers misuse substances to self-medicate, raising addiction risk."
+  - target: 01-human/07-system/psoriasis
+    relation: connects-to
+    note: "A visible skin disease breeds social fear: the stigma of psoriasis plaques drives marked social anxiety and avoidance, one of the clearest examples of how a chronic dermatologic condition shapes mental health."
 ---
 
 # Social Anxiety Disorder
@@ -353,6 +362,9 @@ The unique **dopaminergic social reward deficit** in SAD has clinical implicatio
 - `connects-to` → **[CRH](../../03-molecular/crh/README.md)** — The stress axis fires at the thought of judgment: CRH launches the HPA cascade, and an over-reactive CRH-cortisol response underlies the racing heart and dread that social situations trigger in the disorder.
 - `connects-to` → **[Thyroid Gland](../../06-organ/thyroid/README.md)** — An overactive thyroid can masquerade as social anxiety: hyperthyroidism brings tremor, palpitations, sweating, and nervousness that mimic and worsen it, so thyroid function is checked when anxiety appears or flares.
 - `connects-to` → **[Bipolar Disorder](../bipolar-disorder/README.md)** — Anxiety shadows mood disorder: social anxiety co-occurs with bipolar disorder far more than chance, often preceding it, and the comorbidity worsens the course and complicates treatment of both.
+- `connects-to` → **[Glutamate](../../03-molecular/glutamate/README.md)** — Glutamate sets the fear circuit's gain: excess excitatory signaling in the amygdala and prefrontal cortex sustains the threat over-appraisal of social anxiety, and glutamate-modulating agents like d-cycloserine are studied to speed exposure therapy.
+- `connects-to` → **[Stimulant Use Disorder](../stimulant-use-disorder/README.md)** — Stimulants and social anxiety pull in both directions: caffeine and stimulant drugs provoke the palpitations and jitteriness that ignite social fear, yet some sufferers misuse substances to self-medicate, raising addiction risk.
+- `connects-to` → **[Psoriasis](../psoriasis/README.md)** — A visible skin disease breeds social fear: the stigma of psoriasis plaques drives marked social anxiety and avoidance, one of the clearest examples of how a chronic dermatologic condition shapes mental health.
 
 [^liebowitz-1987-sad-scale]: Liebowitz MR. Social phobia. *Mod Probl Pharmacopsychiatry.* 1987;22:141-173. [PubMed 2885745](https://pubmed.ncbi.nlm.nih.gov/2885745/)
 [^stein-2008-sad-review]: Stein MB, Stein DJ. Social anxiety disorder. *Lancet.* 2008;371(9618):1115-1125. [doi:10.1016/S0140-6736(08)60488-2](https://doi.org/10.1016/S0140-6736(08)60488-2) · [PubMed 18374843](https://pubmed.ncbi.nlm.nih.gov/18374843/)
