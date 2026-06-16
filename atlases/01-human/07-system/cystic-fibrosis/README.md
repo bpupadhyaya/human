@@ -160,6 +160,15 @@ cross_links:
   - target: 01-human/02-atomic/iron
     relation: connects-to
     note: "Iron fuels the airway invaders: the CF lung's mucus is iron-rich, and Pseudomonas exploits that iron to build the biofilms that entrench chronic infection, making iron acquisition both a bacterial strategy and a potential treatment target."
+  - target: 01-human/07-system/type-1-diabetes
+    relation: connects-to
+    note: "CF carries its own diabetes: scarring of the pancreas destroys the insulin-making islets, producing CF-related diabetes — an insulin-deficient disease like type 1 that becomes common as patients live longer."
+  - target: 01-human/03-molecular/il-6
+    relation: connects-to
+    note: "The CF airway runs hot with IL-6: persistent neutrophilic infection drives high IL-6 and other cytokines, the chronic inflammation that progressively destroys the lung even between exacerbations."
+  - target: 01-human/04-cellular/dendritic-cell
+    relation: connects-to
+    note: "Immune sensing goes awry in the CF lung: dysregulated dendritic cells fail to resolve infection and instead help sustain the damaging inflammation, part of why the CF airway cannot clear its chronic colonizers."
 ---
 
 # Cystic Fibrosis
@@ -335,6 +344,9 @@ AND
 - `connects-to` → **[Spleen](../../06-organ/spleen/README.md)** — CF liver disease can enlarge the spleen: thick bile scars the liver into focal biliary cirrhosis, and the resulting portal hypertension swells the spleen and drops platelet and white-cell counts through hypersplenism, a serious extrapulmonary complication.
 - `connects-to` → **[Osteoclast](../../04-cellular/osteoclast/README.md)** — CF thins bone from the cellular level up: chronic inflammation, vitamin D and K malabsorption, and steroid use tip the balance toward osteoclast bone resorption, producing the early osteopenia and fracture risk of CF bone disease.
 - `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — Iron fuels the airway invaders: the CF lung's mucus is iron-rich, and Pseudomonas exploits that iron to build the biofilms that entrench chronic infection, making iron acquisition both a bacterial strategy and a potential treatment target.
+- `connects-to` → **[Type 1 Diabetes](../type-1-diabetes/README.md)** — CF carries its own diabetes: scarring of the pancreas destroys the insulin-making islets, producing CF-related diabetes — an insulin-deficient disease like type 1 that becomes common as patients live longer.
+- `connects-to` → **[Interleukin-6](../../03-molecular/il-6/README.md)** — The CF airway runs hot with IL-6: persistent neutrophilic infection drives high IL-6 and other cytokines, the chronic inflammation that progressively destroys the lung even between exacerbations.
+- `connects-to` → **[Dendritic Cell](../../04-cellular/dendritic-cell/README.md)** — Immune sensing goes awry in the CF lung: dysregulated dendritic cells fail to resolve infection and instead help sustain the damaging inflammation, part of why the CF airway cannot clear its chronic colonizers.
 
 ---
 

@@ -160,6 +160,15 @@ cross_links:
   - target: 01-human/07-system/malaria
     relation: connects-to
     note: "Severe malaria is a parasitic cytokine storm: falciparum infection drives a TNF- and IFN-gamma-rich surge that fuels cerebral malaria, lactic acidosis and shock, the same dysregulated inflammation seen in its viral and bacterial triggers."
+  - target: 01-human/03-molecular/complement-c5
+    relation: connects-to
+    note: "Complement pours fuel on the fire: explosive C5a generation recruits and over-activates neutrophils and macrophages, amplifying the cytokine surge — which is why C5 blockade is tested to calm severe COVID and sepsis storms."
+  - target: 01-human/04-cellular/dendritic-cell
+    relation: connects-to
+    note: "Dendritic cells light the first match: by sensing the trigger and over-presenting antigen they drive the T-cell and macrophage activation that snowballs into the self-amplifying cytokine cascade."
+  - target: 01-human/07-system/all
+    relation: connects-to
+    note: "The storm can be a treatment's price: CAR-T therapy for acute lymphoblastic leukemia routinely sets off cytokine release syndrome as the engineered cells attack, managed with the IL-6 blocker tocilizumab."
 ---
 
 # Cytokine Storm
@@ -298,6 +307,9 @@ CS drives a **consumptive coagulopathy (DIC)**:
 - `connects-to` → **[Interleukin-10](../../03-molecular/il-10/README.md)** — The brake fails as the storm rages: IL-10, the body's main anti-inflammatory cytokine, surges in a compensatory bid to quell the storm, and its high levels track with severity — a sign the counter-regulation is overwhelmed rather than winning.
 - `connects-to` → **[Cardiomyocyte](../../04-cellular/cardiomyocyte/README.md)** — The storm stuns the heart muscle: IL-6 and TNF directly depress cardiomyocyte contractility, producing the reversible cytokine-mediated cardiomyopathy and falling cardiac output seen in sepsis, severe COVID and CAR-T toxicity.
 - `connects-to` → **[Malaria](../malaria/README.md)** — Severe malaria is a parasitic cytokine storm: falciparum infection drives a TNF- and IFN-gamma-rich surge that fuels cerebral malaria, lactic acidosis and shock, the same dysregulated inflammation seen in its viral and bacterial triggers.
+- `connects-to` → **[Complement C5](../../03-molecular/complement-c5/README.md)** — Complement pours fuel on the fire: explosive C5a generation recruits and over-activates neutrophils and macrophages, amplifying the cytokine surge — which is why C5 blockade is tested to calm severe COVID and sepsis storms.
+- `connects-to` → **[Dendritic Cell](../../04-cellular/dendritic-cell/README.md)** — Dendritic cells light the first match: by sensing the trigger and over-presenting antigen they drive the T-cell and macrophage activation that snowballs into the self-amplifying cytokine cascade.
+- `connects-to` → **[Acute Lymphoblastic Leukemia](../all/README.md)** — The storm can be a treatment's price: CAR-T therapy for acute lymphoblastic leukemia routinely sets off cytokine release syndrome as the engineered cells attack, managed with the IL-6 blocker tocilizumab.
 
 ## Pathology
 
