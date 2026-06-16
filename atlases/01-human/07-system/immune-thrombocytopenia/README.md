@@ -177,6 +177,15 @@ cross_links:
   - target: 01-human/03-molecular/von-willebrand-factor
     relation: connects-to
     note: "Bleeding turns on what platelets grip: von Willebrand factor is the glue platelets use to plug vessels, so when ITP drops the platelet count the vWF-platelet plug fails, producing the bruising and mucosal bleeding that define the disease's danger."
+  - target: 01-human/03-molecular/complement-c5
+    relation: connects-to
+    note: "Complement helps clear the platelets: antiplatelet antibodies fix complement to opsonize and lyse platelets in ITP, a pathway that complement inhibitors (e.g. sutimlimab) are explored to interrupt."
+  - target: 01-human/07-system/venous-thromboembolism
+    relation: connects-to
+    note: "A bleeding disorder that paradoxically clots: ITP carries a raised thrombosis risk, amplified by thrombopoietin-receptor agonists and splenectomy, so venous thromboembolism is a real hazard even amid low platelets."
+  - target: 01-human/07-system/covid-19-disease
+    relation: connects-to
+    note: "Infection and its vaccines can trigger it: COVID-19, like other viral illnesses, precipitates secondary immune thrombocytopenia, and rare post-vaccination ITP is recognized — examples of infection-driven autoimmunity against platelets."
 ---
 
 # Immune Thrombocytopenia
@@ -365,6 +374,9 @@ ITP in pregnancy carries risk of neonatal thrombocytopenia (maternal IgG crosses
 - `connects-to` → **[Aplastic Anemia](../aplastic-anemia/README.md)** — Two ways to run out of platelets: ITP destroys them in the periphery while the marrow works overtime, whereas aplastic anemia fails to make them at all — the contrast drives the bone-marrow exam that distinguishes peripheral destruction from production failure.
 - `connects-to` → **[Natural Killer Cell](../../04-cellular/natural-killer-cell/README.md)** — Destruction is not antibody alone: natural killer and cytotoxic cells contribute to platelet clearance and to the dysregulated immunity of ITP, part of why some cases resist antibody-focused treatments and need broader immune suppression.
 - `connects-to` → **[Von Willebrand Factor](../../03-molecular/von-willebrand-factor/README.md)** — Bleeding turns on what platelets grip: von Willebrand factor is the glue platelets use to plug vessels, so when ITP drops the platelet count the vWF-platelet plug fails, producing the bruising and mucosal bleeding that define the disease's danger.
+- `connects-to` → **[Complement C5](../../03-molecular/complement-c5/README.md)** — Complement helps clear the platelets: antiplatelet antibodies fix complement to opsonize and lyse platelets in ITP, a pathway that complement inhibitors (e.g. sutimlimab) are explored to interrupt.
+- `connects-to` → **[Venous Thromboembolism](../venous-thromboembolism/README.md)** — A bleeding disorder that paradoxically clots: ITP carries a raised thrombosis risk, amplified by thrombopoietin-receptor agonists and splenectomy, so venous thromboembolism is a real hazard even amid low platelets.
+- `connects-to` → **[COVID-19 Disease](../covid-19-disease/README.md)** — Infection and its vaccines can trigger it: COVID-19, like other viral illnesses, precipitates secondary immune thrombocytopenia, and rare post-vaccination ITP is recognized — examples of infection-driven autoimmunity against platelets.
 
 [^cines-2002-itp-review]: Cines DB, Blanchette VS. Immune thrombocytopenic purpura. *N Engl J Med.* 2002;346(13):995-1008. [doi:10.1056/NEJMra010532](https://doi.org/10.1056/NEJMra010532) · [PubMed 11919310](https://pubmed.ncbi.nlm.nih.gov/11919310/)
 [^neunert-2019-ash-itp-guidelines]: Neunert C, et al. American Society of Hematology 2019 guidelines for immune thrombocytopenia. *Blood Adv.* 2019;3(23):3829-3866. [doi:10.1182/bloodadvances.2019000966](https://doi.org/10.1182/bloodadvances.2019000966) · [PubMed 31794604](https://pubmed.ncbi.nlm.nih.gov/31794604/)

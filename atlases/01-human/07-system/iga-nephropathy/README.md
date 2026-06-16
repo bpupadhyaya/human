@@ -169,6 +169,15 @@ cross_links:
   - target: 01-human/06-organ/spleen
     relation: connects-to
     note: "The spleen and other secondary lymphoid organs harbor the long-lived plasma cells that keep secreting galactose-deficient IgA1, a reservoir that sustains the disease and that B-cell-depleting and plasma-cell-targeted therapies aim to empty."
+  - target: 01-human/03-molecular/il-17a
+    relation: connects-to
+    note: "A Th17 arm drives the mucosal overreaction: IL-17A from mucosal helper T cells promotes the aberrant IgA response and renal inflammation of IgA nephropathy, part of the gut-kidney immune axis behind the disease."
+  - target: 01-human/07-system/ankylosing-spondylitis
+    relation: connects-to
+    note: "Spondyloarthritis carries the nephropathy with it: IgA nephropathy is the commonest glomerulonephritis in ankylosing spondylitis, reflecting the shared dysregulated mucosal IgA immunity of these HLA-linked diseases."
+  - target: 01-human/04-cellular/mast-cell
+    relation: connects-to
+    note: "Mast cells mark the progressing kidney: their accumulation in the renal interstitium of IgA nephropathy correlates with fibrosis and worse outcome, contributing to the scarring that drives chronic kidney disease."
 ---
 
 # IgA Nephropathy
@@ -303,6 +312,9 @@ IgAN is a **multi-hit disease** described by the Oxford Four-Hit Model:
 - `connects-to` → **[Germinal Center](../../05-tissue/germinal-center/README.md)** — The faulty antibody is born in germinal centers: it is in these B-cell training grounds, especially at mucosal sites, that class switching to IgA and the affinity maturation go awry, churning out the galactose-deficient IgA1 that later lodges in the glomerulus.
 - `connects-to` → **[Dendritic Cell](../../04-cellular/dendritic-cell/README.md)** — Dendritic cells set the response in motion: mucosal dendritic cells sampling gut and airway antigens drive the IgA class switch and B-cell help, so an exaggerated dendritic-cell signal helps explain the overproduction of pathogenic IgA after infections.
 - `connects-to` → **[Spleen](../../06-organ/spleen/README.md)** — The spleen and other secondary lymphoid organs harbor the long-lived plasma cells that keep secreting galactose-deficient IgA1, a reservoir that sustains the disease and that B-cell-depleting and plasma-cell-targeted therapies aim to empty.
+- `connects-to` → **[IL-17A](../../03-molecular/il-17a/README.md)** — A Th17 arm drives the mucosal overreaction: IL-17A from mucosal helper T cells promotes the aberrant IgA response and renal inflammation of IgA nephropathy, part of the gut-kidney immune axis behind the disease.
+- `connects-to` → **[Ankylosing Spondylitis](../ankylosing-spondylitis/README.md)** — Spondyloarthritis carries the nephropathy with it: IgA nephropathy is the commonest glomerulonephritis in ankylosing spondylitis, reflecting the shared dysregulated mucosal IgA immunity of these HLA-linked diseases.
+- `connects-to` → **[Mast Cell](../../04-cellular/mast-cell/README.md)** — Mast cells mark the progressing kidney: their accumulation in the renal interstitium of IgA nephropathy correlates with fibrosis and worse outcome, contributing to the scarring that drives chronic kidney disease.
 
 ---
 
