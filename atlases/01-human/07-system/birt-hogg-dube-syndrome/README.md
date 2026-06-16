@@ -169,6 +169,15 @@ cross_links:
   - target: 01-human/07-system/peutz-jeghers-syndrome
     relation: connects-to
     note: "It sits among the hamartoma-and-cancer syndromes: like Peutz-Jeghers, BHD is a single-gene disorder that sprouts benign hamartomas (here hair-follicle and lung) alongside a raised risk of specific cancers."
+  - target: 01-human/07-system/copd
+    relation: connects-to
+    note: "BHD's lung cysts mimic emphysema: its basal pulmonary cysts and recurrent spontaneous pneumothoraces can be mistaken for COPD on imaging, but lung function is usually preserved — the distinction matters because BHD signals hereditary kidney-cancer risk."
+  - target: 01-human/03-molecular/tgf-beta
+    relation: connects-to
+    note: "Folliculin shapes TGF-β signaling: FLCN loss in BHD dysregulates the TGF-β pathway, contributing to the abnormal cell differentiation behind its fibrofolliculomas, lung cysts, and renal tumors."
+  - target: 01-human/03-molecular/p53
+    relation: connects-to
+    note: "Renal tumors accumulate a second hit: beyond the germline FLCN loss, secondary TP53 mutations are found in BHD-associated chromophobe and oncocytic renal carcinomas, marking progression toward malignancy."
 ---
 
 # Birt-Hogg-Dubé Syndrome
@@ -360,6 +369,9 @@ Definite BHD: 1 major OR 2 minor criteria (European BHD Consortium definition)
 - `connects-to` → **[Melanoma](../melanoma/README.md)** — FLCN reaches the pigment cells too: Birt-Hogg-Dubé carries a reported increased risk of melanoma, reflecting folliculin's role beyond the kidney and lung in the skin's melanocytes.
 - `connects-to` → **[Cyclin D1](../../03-molecular/cyclin-d1/README.md)** — Losing FLCN releases the cell cycle: unrestrained mTOR signaling raises cyclin D1 to drive the proliferation behind BHD's hamartomas and renal tumors, the growth engine downstream of folliculin loss.
 - `connects-to` → **[Peutz-Jeghers Syndrome](../peutz-jeghers-syndrome/README.md)** — It sits among the hamartoma-and-cancer syndromes: like Peutz-Jeghers, BHD is a single-gene disorder that sprouts benign hamartomas (here hair-follicle and lung) alongside a raised risk of specific cancers.
+- `connects-to` → **[COPD](../copd/README.md)** — BHD's lung cysts mimic emphysema: its basal pulmonary cysts and recurrent spontaneous pneumothoraces can be mistaken for COPD on imaging, but lung function is usually preserved — the distinction matters because BHD signals hereditary kidney-cancer risk.
+- `connects-to` → **[Transforming Growth Factor Beta](../../03-molecular/tgf-beta/README.md)** — Folliculin shapes TGF-β signaling: FLCN loss in BHD dysregulates the TGF-β pathway, contributing to the abnormal cell differentiation behind its fibrofolliculomas, lung cysts, and renal tumors.
+- `connects-to` → **[p53](../../03-molecular/p53/README.md)** — Renal tumors accumulate a second hit: beyond the germline FLCN loss, secondary TP53 mutations are found in BHD-associated chromophobe and oncocytic renal carcinomas, marking progression toward malignancy.
 
 ---
 

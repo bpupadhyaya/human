@@ -175,6 +175,15 @@ cross_links:
   - target: 01-human/07-system/hnscc
     relation: connects-to
     note: "Smoking sows cancer across many linings: bladder and head-and-neck squamous cancers share tobacco and carcinogen exposure, so a field-cancerized patient with one carries a raised risk of the other."
+  - target: 01-human/07-system/copd
+    relation: connects-to
+    note: "The same smoke that scars the lungs lines the bladder: most bladder-cancer patients are smokers and carry COPD as a comorbidity, which raises the anesthetic and surgical risk of the cystectomy their cancer demands."
+  - target: 01-human/07-system/colorectal-cancer
+    relation: connects-to
+    note: "Lynch syndrome ties bladder to bowel: the mismatch-repair defect that drives colorectal cancer also raises the risk of upper-tract and bladder urothelial cancer, so a Lynch family history changes urologic surveillance."
+  - target: 01-human/07-system/gut-microbiome
+    relation: connects-to
+    note: "The urinary microbiome shapes the response: the bladder is not sterile, and its microbial community influences both carcinogenesis and the inflammatory clearance that intravesical BCG immunotherapy relies on."
 ---
 
 # Bladder Cancer
@@ -348,6 +357,9 @@ NMIBC and MIBC have distinct molecular landscapes:
 - `connects-to` → **[PIK3CA](../../03-molecular/pik3ca/README.md)** — PI3K signaling is a core bladder-cancer driver: PIK3CA mutations are among the commonest in luminal urothelial tumors, switching on the AKT-mTOR growth pathway and marking a targetable vulnerability.
 - `connects-to` → **[B Cell](../../04-cellular/b-cell/README.md)** — B cells gathered in the tumor predict response: tertiary lymphoid structures rich in B cells within bladder tumors forecast better outcomes with immune-checkpoint therapy, a sign the local antibody response matters.
 - `connects-to` → **[HNSCC](../hnscc/README.md)** — Smoking sows cancer across many linings: bladder and head-and-neck squamous cancers share tobacco and carcinogen exposure, so a field-cancerized patient with one carries a raised risk of the other.
+- `connects-to` → **[COPD](../copd/README.md)** — The same smoke that scars the lungs lines the bladder: most bladder-cancer patients are smokers and carry COPD as a comorbidity, which raises the anesthetic and surgical risk of the cystectomy their cancer demands.
+- `connects-to` → **[Colorectal Cancer](../colorectal-cancer/README.md)** — Lynch syndrome ties bladder to bowel: the mismatch-repair defect that drives colorectal cancer also raises the risk of upper-tract and bladder urothelial cancer, so a Lynch family history changes urologic surveillance.
+- `connects-to` → **[Gut Microbiome](../gut-microbiome/README.md)** — The urinary microbiome shapes the response: the bladder is not sterile, and its microbial community influences both carcinogenesis and the inflammatory clearance that intravesical BCG immunotherapy relies on.
 
 ---
 
