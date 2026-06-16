@@ -163,6 +163,15 @@ cross_links:
   - target: 01-human/04-cellular/natural-killer-cell
     relation: connects-to
     note: "Rituximab leans on natural killer cells: the anti-CD20 antibody tags the tumor B cells for NK-mediated killing (ADCC), so the strength of the NK response shapes how well this mainstay therapy works."
+  - target: 01-human/03-molecular/il-10
+    relation: connects-to
+    note: "The MYD88 mutation feeds an autocrine loop: constitutive NF-κB signaling drives the tumor cells to secrete IL-10 and IL-6 that loop back to sustain their own growth, a survival circuit downstream of the defining mutation."
+  - target: 01-human/07-system/immune-thrombocytopenia
+    relation: connects-to
+    note: "The monoclonal IgM turns on the body: it can act as an autoantibody, driving immune thrombocytopenia, cold agglutinin hemolysis and neuropathy — paraneoplastic phenomena that can dominate the picture more than the tumor bulk."
+  - target: 01-human/04-cellular/macrophage
+    relation: connects-to
+    note: "The marrow niche nurtures the clone: supportive macrophages and mast cells in the bone marrow supply CD40L and APRIL signals that help the lymphoplasmacytic cells survive, part of the microenvironment targeted alongside the tumor."
 ---
 
 # Waldenström Macroglobulinemia
@@ -329,6 +338,9 @@ For symptomatic hyperviscosity → removes IgM immediately; does not treat under
 - `connects-to` → **[Neuropathic Pain](../neuropathic-pain/README.md)** — The IgM can attack the nerves: in many patients it binds myelin-associated glycoprotein, stripping the peripheral nerves into a slow demyelinating neuropathy with numb, tingling, unsteady feet — sometimes the first sign of the disease.
 - `connects-to` → **[Interleukin-6](../../03-molecular/il-6/README.md)** — IL-6 fuels the IgM factory: the cytokine pushes the malignant B cells toward plasma-cell differentiation and antibody output, helping sustain the monoclonal IgM that defines and harms in Waldenström's.
 - `connects-to` → **[Natural Killer Cell](../../04-cellular/natural-killer-cell/README.md)** — Rituximab leans on natural killer cells: the anti-CD20 antibody tags the tumor B cells for NK-mediated killing (ADCC), so the strength of the NK response shapes how well this mainstay therapy works.
+- `connects-to` → **[Interleukin-10](../../03-molecular/il-10/README.md)** — The MYD88 mutation feeds an autocrine loop: constitutive NF-κB signaling drives the tumor cells to secrete IL-10 and IL-6 that loop back to sustain their own growth, a survival circuit downstream of the defining mutation.
+- `connects-to` → **[Immune Thrombocytopenia](../immune-thrombocytopenia/README.md)** — The monoclonal IgM turns on the body: it can act as an autoantibody, driving immune thrombocytopenia, cold agglutinin hemolysis and neuropathy — paraneoplastic phenomena that can dominate the picture more than the tumor bulk.
+- `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — The marrow niche nurtures the clone: supportive macrophages and mast cells in the bone marrow supply CD40L and APRIL signals that help the lymphoplasmacytic cells survive, part of the microenvironment targeted alongside the tumor.
 
 [^treon-2015-ibrutinib-wm]: Treon SP, Tripsas CK, Meid K, et al. Ibrutinib in previously treated Waldenström's macroglobulinemia. *N Engl J Med.* 2015;373(18):1765-1774. [doi:10.1056/NEJMoa1501548](https://doi.org/10.1056/NEJMoa1501548) · [PubMed 26352686](https://pubmed.ncbi.nlm.nih.gov/26352686/)
 [^tam-2020-aspen]: Tam CS, Opat S, D'Sa S, et al. A randomized phase 3 trial of zanubrutinib vs ibrutinib in symptomatic Waldenström macroglobulinemia: the ASPEN study. *Blood.* 2020;136(18):2038-2050. [doi:10.1182/blood.2020006844](https://doi.org/10.1182/blood.2020006844) · [PubMed 32828187](https://pubmed.ncbi.nlm.nih.gov/32828187/)

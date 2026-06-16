@@ -169,6 +169,15 @@ cross_links:
   - target: 01-human/06-organ/small-intestine
     relation: connects-to
     note: "The gut helps set off islet autoimmunity: a leaky small-bowel barrier and dietary antigens prime the immune system, and the strong overlap with celiac disease ties intestinal immunity to the onset of type 1 diabetes."
+  - target: 01-human/03-molecular/nlrp3-inflammasome
+    relation: connects-to
+    note: "Innate inflammation joins the islet attack: NLRP3 inflammasome activation in islet-infiltrating immune cells releases IL-1β that is directly toxic to beta cells, an innate arm layered on the T-cell-driven autoimmunity."
+  - target: 01-human/04-cellular/neutrophil
+    relation: connects-to
+    note: "The earliest invaders may be neutrophils: neutrophils and their NETs infiltrate the islets early in the disease, an innate trigger thought to help initiate the autoimmune insulitis before T cells finish the job."
+  - target: 01-human/07-system/anorexia-nervosa
+    relation: connects-to
+    note: "A dangerous way to control weight: some young people with type 1 diabetes deliberately skip insulin to lose weight ('diabulimia'), a disordered-eating behavior that overlaps anorexia and drives repeated ketoacidosis and early complications."
 ---
 
 # Type 1 Diabetes
@@ -315,6 +324,9 @@ cross_links:
 - `connects-to` → **[IL-2](../../03-molecular/il-2/README.md)** — Type 1 diabetes is partly an IL-2 problem: weak IL-2 signaling starves the regulatory T cells that should restrain islet autoimmunity, so low-dose IL-2 to expand Tregs is a leading strategy to halt beta-cell destruction.
 - `connects-to` → **[Natural Killer Cell](../../04-cellular/natural-killer-cell/README.md)** — Natural killer cells join the islet assault: they infiltrate the inflamed pancreatic islets and help kill insulin-making beta cells, adding an innate arm to the T-cell-driven autoimmunity of type 1 diabetes.
 - `connects-to` → **[Small Intestine](../../06-organ/small-intestine/README.md)** — The gut helps set off islet autoimmunity: a leaky small-bowel barrier and dietary antigens prime the immune system, and the strong overlap with celiac disease ties intestinal immunity to the onset of type 1 diabetes.
+- `connects-to` → **[NLRP3 Inflammasome](../../03-molecular/nlrp3-inflammasome/README.md)** — Innate inflammation joins the islet attack: NLRP3 inflammasome activation in islet-infiltrating immune cells releases IL-1β that is directly toxic to beta cells, an innate arm layered on the T-cell-driven autoimmunity.
+- `connects-to` → **[Neutrophil](../../04-cellular/neutrophil/README.md)** — The earliest invaders may be neutrophils: neutrophils and their NETs infiltrate the islets early in the disease, an innate trigger thought to help initiate the autoimmune insulitis before T cells finish the job.
+- `connects-to` → **[Anorexia Nervosa](../anorexia-nervosa/README.md)** — A dangerous way to control weight: some young people with type 1 diabetes deliberately skip insulin to lose weight ('diabulimia'), a disordered-eating behavior that overlaps anorexia and drives repeated ketoacidosis and early complications.
 
 [^atkinson-2014-t1d-lancet]: Atkinson MA, Eisenbarth GS, Michels AW. Type 1 diabetes. *Lancet.* 2014;383(9911):69-82. [doi:10.1016/S0140-6736(13)60591-7](https://doi.org/10.1016/S0140-6736(13)60591-7) · [PubMed 23890997](https://pubmed.ncbi.nlm.nih.gov/23890997/)
 [^herold-2019-teplizumab-t1d]: Herold KC, Bundy BN, Long SA, et al. An anti-CD3 antibody, teplizumab, in relatives at risk for type 1 diabetes. *N Engl J Med.* 2019;381(7):603-613. [doi:10.1056/NEJMoa1905155](https://doi.org/10.1056/NEJMoa1905155) · [PubMed 31180675](https://pubmed.ncbi.nlm.nih.gov/31180675/)
