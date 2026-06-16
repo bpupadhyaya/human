@@ -175,6 +175,15 @@ cross_links:
   - target: 01-human/07-system/rheumatoid-arthritis
     relation: connects-to
     note: "NMO travels with systemic autoimmunity: patients carry higher rates of coexisting diseases like rheumatoid arthritis, reflecting a shared autoimmune diathesis and overlapping B-cell- and IL-6-targeted treatments."
+  - target: 01-human/07-system/neuropathic-pain
+    relation: connects-to
+    note: "Its myelitis leaves searing pain: damage to the spinal cord in NMO causes severe neuropathic pain and painful tonic spasms that often persist between attacks, a leading driver of disability between relapses."
+  - target: 01-human/07-system/epilepsy
+    relation: connects-to
+    note: "When it reaches the brain it can spark seizures: although NMO favors the optic nerves and cord, cerebral lesions — common in AQP4-rich regions and in pediatric disease — can irritate the cortex and provoke epilepsy."
+  - target: 01-human/04-cellular/dendritic-cell
+    relation: connects-to
+    note: "The autoimmune attack must first be taught: dendritic cells present aquaporin-4 peptides to T cells, licensing the helper response that drives B cells to make the pathogenic anti-AQP4 antibody."
 ---
 
 # NMOSD
@@ -373,6 +382,9 @@ NMOSD impairs CNS function through three attack-related mechanisms:
 - `connects-to` → **[Microglia](../../04-cellular/microglia/README.md)** — When astrocytes die, microglia take over the damage: AQP4-antibody attack strips away astrocytes, and the reactive microglia that move in pour out inflammatory mediators that injure neurons and oligodendrocytes in the secondary wave of an NMO lesion.
 - `connects-to` → **[BAFF](../../03-molecular/baff/README.md)** — NMO is a B-cell disease fed by BAFF: this survival cytokine keeps alive the plasmablasts that pump out aquaporin-4 antibody, so high BAFF marks active disease and B-cell-targeted therapy is a mainstay.
 - `connects-to` → **[Rheumatoid Arthritis](../rheumatoid-arthritis/README.md)** — NMO travels with systemic autoimmunity: patients carry higher rates of coexisting diseases like rheumatoid arthritis, reflecting a shared autoimmune diathesis and overlapping B-cell- and IL-6-targeted treatments.
+- `connects-to` → **[Neuropathic Pain](../neuropathic-pain/README.md)** — Its myelitis leaves searing pain: damage to the spinal cord in NMO causes severe neuropathic pain and painful tonic spasms that often persist between attacks, a leading driver of disability between relapses.
+- `connects-to` → **[Epilepsy](../epilepsy/README.md)** — When it reaches the brain it can spark seizures: although NMO favors the optic nerves and cord, cerebral lesions — common in AQP4-rich regions and in pediatric disease — can irritate the cortex and provoke epilepsy.
+- `connects-to` → **[Dendritic Cell](../../04-cellular/dendritic-cell/README.md)** — The autoimmune attack must first be taught: dendritic cells present aquaporin-4 peptides to T cells, licensing the helper response that drives B cells to make the pathogenic anti-AQP4 antibody.
 
 [^wingerchuk-2015-nmosd-criteria]: Wingerchuk DM, Banwell B, Bennett JL, et al. International consensus diagnostic criteria for neuromyelitis optica spectrum disorders. *Neurology.* 2015;85(2):177-189. [doi:10.1212/WNL.0000000000001729](https://doi.org/10.1212/WNL.0000000000001729) · [PubMed 26092914](https://pubmed.ncbi.nlm.nih.gov/26092914/)
 [^pittock-2019-eculizumab-prevent]: Pittock SJ, Berthele A, Fujihara K, et al. Eculizumab in Aquaporin-4-Positive Neuromyelitis Optica Spectrum Disorder. *N Engl J Med.* 2019;381(7):614-625. [doi:10.1056/NEJMoa1900866](https://doi.org/10.1056/NEJMoa1900866) · [PubMed 31050279](https://pubmed.ncbi.nlm.nih.gov/31050279/)

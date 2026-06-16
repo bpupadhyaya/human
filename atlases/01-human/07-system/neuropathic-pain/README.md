@@ -150,6 +150,15 @@ cross_links:
   - target: 01-human/07-system/hiv-aids
     relation: connects-to
     note: "HIV is a global cause of painful neuropathy: the virus and some antiretroviral drugs both damage long sensory axons, producing a distal symmetric polyneuropathy with burning feet that is among the infection's most common neurologic complications."
+  - target: 01-human/07-system/ckd
+    relation: connects-to
+    note: "Failing kidneys poison the nerves: uremic toxins that build up in chronic kidney disease damage peripheral axons, producing a uremic polyneuropathy with burning, restless legs that improves only with dialysis or transplant."
+  - target: 01-human/03-molecular/prostaglandins
+    relation: connects-to
+    note: "Inflammation lowers the firing threshold: prostaglandins released at injured tissue sensitize nociceptor endings, a peripheral sensitization that primes the nerves and feeds the central amplification of neuropathic pain."
+  - target: 01-human/04-cellular/regulatory-t-cell
+    relation: connects-to
+    note: "The immune system can also quiet pain: regulatory T cells help resolve neuropathic pain by damping the neuroinflammation around injured nerves, so their relative deficiency lets pain persist — a neuroimmune lever for new therapies."
 sources:
   - id: jensen-2011-neuropathic-pain-review
     type: peer-reviewed
@@ -357,6 +366,9 @@ Chronic neuropathic pain carries significant psychological burden:
 - `connects-to` → **[Interleukin-6](../../03-molecular/il-6/README.md)** — Cytokines sensitize the injured nerve: IL-6 released after nerve damage lowers the firing threshold of pain neurons and recruits immune cells, helping turn a transient injury into the persistent firing of neuropathic pain.
 - `connects-to` → **[Sjögren's Syndrome](../sjogrens-syndrome/README.md)** — Autoimmune dryness can attack the nerves: Sjögren's syndrome causes a sensory neuronopathy and small-fiber neuropathy, the immune assault on dorsal root ganglia producing burning, painful numbness even with little joint disease.
 - `connects-to` → **[HIV/AIDS](../hiv-aids/README.md)** — HIV is a global cause of painful neuropathy: the virus and some antiretroviral drugs both damage long sensory axons, producing a distal symmetric polyneuropathy with burning feet that is among the infection's most common neurologic complications.
+- `connects-to` → **[Chronic Kidney Disease](../ckd/README.md)** — Failing kidneys poison the nerves: uremic toxins that build up in chronic kidney disease damage peripheral axons, producing a uremic polyneuropathy with burning, restless legs that improves only with dialysis or transplant.
+- `connects-to` → **[Prostaglandins (Eicosanoids)](../../03-molecular/prostaglandins/README.md)** — Inflammation lowers the firing threshold: prostaglandins released at injured tissue sensitize nociceptor endings, a peripheral sensitization that primes the nerves and feeds the central amplification of neuropathic pain.
+- `connects-to` → **[Regulatory T Cell](../../04-cellular/regulatory-t-cell/README.md)** — The immune system can also quiet pain: regulatory T cells help resolve neuropathic pain by damping the neuroinflammation around injured nerves, so their relative deficiency lets pain persist — a neuroimmune lever for new therapies.
 
 [^jensen-2011-neuropathic-pain-review]: Jensen TS, Baron R, Haanpää M, et al. A new definition of neuropathic pain. *Pain.* 2011;152(10):2204-2205. [doi:10.1016/j.pain.2011.06.017](https://doi.org/10.1016/j.pain.2011.06.017) · [PubMed 21764514](https://pubmed.ncbi.nlm.nih.gov/21764514/)
 [^dworkin-2010-neuropathic-pain-treatment]: Dworkin RH, O'Connor AB, Audette J, et al. Recommendations for the pharmacological management of neuropathic pain. *Mayo Clin Proc.* 2010;85(3 Suppl):S3-14. [doi:10.4065/mcp.2009.0649](https://doi.org/10.4065/mcp.2009.0649) · [PubMed 20194146](https://pubmed.ncbi.nlm.nih.gov/20194146/)
