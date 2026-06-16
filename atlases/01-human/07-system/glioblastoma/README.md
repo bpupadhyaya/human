@@ -169,6 +169,15 @@ cross_links:
   - target: 01-human/07-system/lynch-syndrome
     relation: connects-to
     note: "Mismatch-repair failure can seed it: constitutional MMR deficiency and Lynch (Turcot) syndrome predispose to glioblastoma, and the hypermutated tumors that result are a rare setting where checkpoint immunotherapy may help."
+  - target: 01-human/03-molecular/atrx
+    relation: connects-to
+    note: "ATRX loss marks the astrocytic lineage: especially in IDH-mutant glioblastomas, ATRX inactivation drives alternative lengthening of telomeres and helps distinguish astrocytoma-derived tumors from oligodendroglial ones."
+  - target: 01-human/03-molecular/nf-kb
+    relation: connects-to
+    note: "NF-κB powers the mesenchymal subtype: constitutive NF-κB signaling (often with NF1 loss) drives the aggressive, treatment-resistant mesenchymal glioblastoma and its immunosuppressive, inflamed microenvironment."
+  - target: 01-human/07-system/stroke
+    relation: connects-to
+    note: "The tumor and its therapy strike the brain's vessels: glioblastoma's hypercoagulable state and the radiation used to treat it injure cerebral arteries, raising the risk of ischemic stroke alongside the tumor itself."
 ---
 
 # Glioblastoma
@@ -349,6 +358,9 @@ The blood-brain barrier (BBB) creates a pharmacological challenge:
 - `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — PTEN loss unleashes mTOR: the resulting PI3K-AKT-mTOR overdrive fuels glioblastoma growth and survival, a pathway repeatedly targeted — though resistance has frustrated mTOR inhibitors in the clinic.
 - `connects-to` → **[Natural Killer Cell](../../04-cellular/natural-killer-cell/README.md)** — Natural killer cells are recruited to fight the cold tumor: glioblastoma evades them through stress-ligand shedding and an immunosuppressive microenvironment, and NK-cell and CAR-NK therapies aim to restore that attack.
 - `connects-to` → **[Lynch Syndrome](../lynch-syndrome/README.md)** — Mismatch-repair failure can seed it: constitutional MMR deficiency and Lynch (Turcot) syndrome predispose to glioblastoma, and the hypermutated tumors that result are a rare setting where checkpoint immunotherapy may help.
+- `connects-to` → **[ATRX](../../03-molecular/atrx/README.md)** — ATRX loss marks the astrocytic lineage: especially in IDH-mutant glioblastomas, ATRX inactivation drives alternative lengthening of telomeres and helps distinguish astrocytoma-derived tumors from oligodendroglial ones.
+- `connects-to` → **[NF-κB](../../03-molecular/nf-kb/README.md)** — NF-κB powers the mesenchymal subtype: constitutive NF-κB signaling (often with NF1 loss) drives the aggressive, treatment-resistant mesenchymal glioblastoma and its immunosuppressive, inflamed microenvironment.
+- `connects-to` → **[Stroke](../stroke/README.md)** — The tumor and its therapy strike the brain's vessels: glioblastoma's hypercoagulable state and the radiation used to treat it injure cerebral arteries, raising the risk of ischemic stroke alongside the tumor itself.
 
 ---
 

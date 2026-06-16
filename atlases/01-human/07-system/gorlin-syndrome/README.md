@@ -169,6 +169,15 @@ cross_links:
   - target: 01-human/07-system/cowden-syndrome
     relation: connects-to
     note: "It joins the inherited tumor-and-skin syndromes: like Cowden, Gorlin is a single-gene disorder announced by characteristic skin and developmental signs and a lifelong, organ-spanning tumor risk, distinguished by its gene and its tumor pattern."
+  - target: 01-human/03-molecular/cdkn2a
+    relation: connects-to
+    note: "A second hit speeds the basal cell carcinoma: CDKN2A loss is among the cooperating mutations, beyond the germline PTCH1 defect, that let Gorlin's basal cell carcinomas progress to invasive tumors."
+  - target: 01-human/07-system/heart-failure
+    relation: connects-to
+    note: "Gorlin grows a tumor in the heart: cardiac fibromas are a recognized feature, and a large one can obstruct flow or trigger arrhythmia and heart failure, so cardiac imaging is part of the syndrome's surveillance."
+  - target: 01-human/01-subatomic/proton
+    relation: connects-to
+    note: "Radiation is hazardous in Gorlin: these patients are radiosensitive, and radiotherapy — whether photon or proton — can induce a crop of new basal cell carcinomas in the treated field, so it is avoided where possible (notably for their medulloblastomas)."
 ---
 
 # Gorlin Syndrome
@@ -330,6 +339,9 @@ Both are two-hit tumor suppressors: germline heterozygous LOF + somatic second h
 - `connects-to` → **[BCL-2](../../03-molecular/bcl-2/README.md)** — Hedgehog keeps the tumor cell from dying: unchecked GLI signaling raises the anti-apoptotic protein BCL-2 in Gorlin's basal cell carcinomas and medulloblastomas, helping the cells survive that the syndrome's mutation sets loose.
 - `connects-to` → **[Endothelial Cell](../../04-cellular/endothelial-cell/README.md)** — Hedgehog also builds the tumor's blood supply: SHH signaling drives endothelial recruitment and angiogenesis, feeding the basal cell carcinomas and the cardiac and ovarian fibromas that stud the syndrome.
 - `connects-to` → **[Cowden Syndrome](../cowden-syndrome/README.md)** — It joins the inherited tumor-and-skin syndromes: like Cowden, Gorlin is a single-gene disorder announced by characteristic skin and developmental signs and a lifelong, organ-spanning tumor risk, distinguished by its gene and its tumor pattern.
+- `connects-to` → **[CDKN2A](../../03-molecular/cdkn2a/README.md)** — A second hit speeds the basal cell carcinoma: CDKN2A loss is among the cooperating mutations, beyond the germline PTCH1 defect, that let Gorlin's basal cell carcinomas progress to invasive tumors.
+- `connects-to` → **[Heart Failure](../heart-failure/README.md)** — Gorlin grows a tumor in the heart: cardiac fibromas are a recognized feature, and a large one can obstruct flow or trigger arrhythmia and heart failure, so cardiac imaging is part of the syndrome's surveillance.
+- `connects-to` → **[Proton](../../01-subatomic/proton/README.md)** — Radiation is hazardous in Gorlin: these patients are radiosensitive, and radiotherapy — whether photon or proton — can induce a crop of new basal cell carcinomas in the treated field, so it is avoided where possible (notably for their medulloblastomas).
 
 ---
 
