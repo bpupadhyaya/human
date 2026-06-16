@@ -169,6 +169,15 @@ cross_links:
   - target: 01-human/07-system/atherosclerosis
     relation: connects-to
     note: "Chronic inflammation hardens the arteries: AS raises cardiovascular risk through accelerated atherosclerosis, so heart attack and stroke become important causes of death and disease control doubles as cardiovascular protection."
+  - target: 01-human/03-molecular/il-6
+    relation: connects-to
+    note: "IL-6 fuels both the inflammation and its toll: this cytokine helps drive the Th17 axis and the systemic acute-phase response of AS, contributing to the chronic-disease anemia and fatigue that accompany the spinal disease."
+  - target: 01-human/04-cellular/regulatory-t-cell
+    relation: connects-to
+    note: "The brakes on inflammation slip: a relative shortfall of regulatory T cells lets the IL-23/Th17 response run unchecked at the entheses, tilting the balance toward the IL-17-driven inflammation that ossifies the spine."
+  - target: 01-human/07-system/heart-failure
+    relation: connects-to
+    note: "Inflammation reaches the heart's structure: AS can inflame the aortic root into regurgitation and scar the conduction system, valve and conduction disease that, on top of the cardiovascular risk, can drift into heart failure."
 ---
 
 # Ankylosing Spondylitis
@@ -328,6 +337,9 @@ AS originates at the **enthesis** — the site where tendons, ligaments, and joi
 - `connects-to` → **[Prostaglandins (Eicosanoids)](../../03-molecular/prostaglandins/README.md)** — NSAIDs are AS's first-line drug: by blocking COX and the prostaglandins that mediate the inflammatory pain, they relieve symptoms and, taken continuously, may even slow the spinal new-bone formation that fuses the spine.
 - `connects-to` → **[Mast Cell](../../04-cellular/mast-cell/README.md)** — Mast cells inflame the enthesis: resident at the tendon-and-ligament insertions where AS begins, they are a major innate source of IL-17, helping ignite the enthesitis that is the disease's defining lesion.
 - `connects-to` → **[Atherosclerosis](../atherosclerosis/README.md)** — Chronic inflammation hardens the arteries: AS raises cardiovascular risk through accelerated atherosclerosis, so heart attack and stroke become important causes of death and disease control doubles as cardiovascular protection.
+- `connects-to` → **[Interleukin-6](../../03-molecular/il-6/README.md)** — IL-6 fuels both the inflammation and its toll: this cytokine helps drive the Th17 axis and the systemic acute-phase response of AS, contributing to the chronic-disease anemia and fatigue that accompany the spinal disease.
+- `connects-to` → **[Regulatory T Cell](../../04-cellular/regulatory-t-cell/README.md)** — The brakes on inflammation slip: a relative shortfall of regulatory T cells lets the IL-23/Th17 response run unchecked at the entheses, tilting the balance toward the IL-17-driven inflammation that ossifies the spine.
+- `connects-to` → **[Heart Failure](../heart-failure/README.md)** — Inflammation reaches the heart's structure: AS can inflame the aortic root into regurgitation and scar the conduction system, valve and conduction disease that, on top of the cardiovascular risk, can drift into heart failure.
 
 [^sieper-2015-ankylosing-spondylitis-review]: Sieper J, Poddubnyy D. Ankylosing spondylitis. *Lancet.* 2017;390(10089):73-84. [doi:10.1016/S0140-6736(16)31591-4](https://doi.org/10.1016/S0140-6736(16)31591-4) · [PubMed 28110981](https://pubmed.ncbi.nlm.nih.gov/28110981/)
 [^baeten-2015-secukinumab-as]: Baeten D, Sieper J, Braun J, et al. Secukinumab, an Interleukin-17A Inhibitor, in Ankylosing Spondylitis. *N Engl J Med.* 2015;373(26):2534-2548. [doi:10.1056/NEJMoa1505066](https://doi.org/10.1056/NEJMoa1505066) · [PubMed 26699169](https://pubmed.ncbi.nlm.nih.gov/26699169/)

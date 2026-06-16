@@ -169,6 +169,15 @@ cross_links:
   - target: 01-human/03-molecular/il-17a
     relation: connects-to
     note: "Not all asthma is type-2: a neutrophilic, often steroid-resistant phenotype is driven by Th17 cells and IL-17A rather than eosinophils, explaining why some severe asthmatics respond poorly to the usual eosinophil-targeting biologics."
+  - target: 01-human/04-cellular/fibroblast
+    relation: connects-to
+    note: "Long-standing asthma remodels the airway wall: fibroblasts laying down subepithelial collagen thicken and stiffen the bronchi, a structural scarring that can fix airflow limitation even when the inflammation is controlled."
+  - target: 01-human/03-molecular/bradykinin
+    relation: connects-to
+    note: "A kinin tightens the airways: bradykinin generated in the inflamed bronchi constricts smooth muscle and stimulates mucus and cough, contributing to airway hyperreactivity — and explaining the cough that ACE inhibitors, which raise bradykinin, can provoke."
+  - target: 02-pathogen/02-bacteria/streptococcus-pneumoniae
+    relation: connects-to
+    note: "The inflamed lung is more vulnerable to a classic pathogen: asthmatics carry a higher risk of invasive pneumococcal disease, which is why pneumococcal vaccination is recommended to protect airways already primed for trouble."
 ---
 
 # Asthma
@@ -328,6 +337,9 @@ Asthma affects approximately **339 million people worldwide** (WHO 2019) and is 
 - `connects-to` → **[Aspergillus fumigatus](../../../02-pathogen/03-fungi/aspergillus-fumigatus/README.md)** — A mould can hijack the asthmatic airway: sensitization to Aspergillus drives allergic bronchopulmonary aspergillosis, where the fungus colonizing the bronchi triggers fierce eosinophilic inflammation, mucus plugging and bronchiectasis atop the asthma.
 - `connects-to` → **[ANCA Vasculitis](../anca-vasculitis/README.md)** — Severe eosinophilic asthma can herald a vasculitis: eosinophilic granulomatosis with polyangiitis (Churg-Strauss) begins with adult-onset asthma and blood eosinophilia before progressing to an ANCA-associated small-vessel vasculitis.
 - `connects-to` → **[IL-17A](../../03-molecular/il-17a/README.md)** — Not all asthma is type-2: a neutrophilic, often steroid-resistant phenotype is driven by Th17 cells and IL-17A rather than eosinophils, explaining why some severe asthmatics respond poorly to the usual eosinophil-targeting biologics.
+- `connects-to` → **[Fibroblast](../../04-cellular/fibroblast/README.md)** — Long-standing asthma remodels the airway wall: fibroblasts laying down subepithelial collagen thicken and stiffen the bronchi, a structural scarring that can fix airflow limitation even when the inflammation is controlled.
+- `connects-to` → **[Bradykinin](../../03-molecular/bradykinin/README.md)** — A kinin tightens the airways: bradykinin generated in the inflamed bronchi constricts smooth muscle and stimulates mucus and cough, contributing to airway hyperreactivity — and explaining the cough that ACE inhibitors, which raise bradykinin, can provoke.
+- `connects-to` → **[Streptococcus pneumoniae](../../../02-pathogen/02-bacteria/streptococcus-pneumoniae/README.md)** — The inflamed lung is more vulnerable to a classic pathogen: asthmatics carry a higher risk of invasive pneumococcal disease, which is why pneumococcal vaccination is recommended to protect airways already primed for trouble.
 
 [^gina-2023-asthma]: Global Initiative for Asthma. Global Strategy for Asthma Management and Prevention. 2023. [ginasthma.org](https://ginasthma.org/2023-gina-main-report/)
 [^wenzel-2012-asthma-phenotypes]: Wenzel SE. Asthma phenotypes: the evolution from clinical to molecular approaches. *Nat Med.* 2012;18(5):716-725. [doi:10.1038/nm.2678](https://doi.org/10.1038/nm.2678) · [PubMed 22561835](https://pubmed.ncbi.nlm.nih.gov/22561835/)
