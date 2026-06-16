@@ -160,6 +160,15 @@ cross_links:
   - target: 01-human/04-cellular/regulatory-t-cell
     relation: connects-to
     note: "The tumor stays a step ahead of immunity: osteosarcoma recruits regulatory T cells and tumor-associated macrophages into an immunosuppressive microenvironment, a coldness that has frustrated checkpoint immunotherapy against it."
+  - target: 01-human/03-molecular/rankl
+    relation: connects-to
+    note: "It hijacks bone's own demolition signal: osteosarcoma drives RANKL to activate osteoclasts that chew away surrounding bone, feeding a vicious cycle of destruction and tumor growth that makes the RANKL-blocker denosumab a candidate therapy."
+  - target: 01-human/03-molecular/cdk4-6
+    relation: connects-to
+    note: "One subtype is defined by a cell-cycle amplicon: parosteal and dedifferentiated osteosarcomas co-amplify CDK4 with MDM2, locking the cell cycle on, which both confirms the diagnosis and points to CDK4/6 inhibitors as targeted treatment."
+  - target: 01-human/03-molecular/atrx
+    relation: connects-to
+    note: "It keeps its telomeres long without telomerase: many osteosarcomas lose ATRX and switch on the alternative lengthening of telomeres pathway, an escape from cellular aging that marks aggressive disease and is being explored as a vulnerability."
 ---
 
 # Osteosarcoma
@@ -338,6 +347,9 @@ OS is relatively radiation-resistant (high-dose radiation ~70+ Gy may achieve lo
 - `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — Cure threatens fertility in the young: osteosarcoma strikes adolescents, and its high-dose cisplatin and alkylating chemotherapy damages the gonads, so sperm banking and fertility preservation are discussed before the months of treatment begin.
 - `connects-to` → **[TERT](../../03-molecular/tert/README.md)** — Osteosarcoma keeps its telomeres long: it sustains division either by reactivating TERT telomerase or through the alternative-lengthening-of-telomeres pathway, the immortality mechanism behind one of the most genomically chaotic of cancers.
 - `connects-to` → **[Regulatory T Cell](../../04-cellular/regulatory-t-cell/README.md)** — The tumor stays a step ahead of immunity: osteosarcoma recruits regulatory T cells and tumor-associated macrophages into an immunosuppressive microenvironment, a coldness that has frustrated checkpoint immunotherapy against it.
+- `connects-to` → **[RANKL](../../03-molecular/rankl/README.md)** — It hijacks bone's own demolition signal: osteosarcoma drives RANKL to activate osteoclasts that chew away surrounding bone, feeding a vicious cycle of destruction and tumor growth that makes the RANKL-blocker denosumab a candidate therapy.
+- `connects-to` → **[CDK4/6](../../03-molecular/cdk4-6/README.md)** — One subtype is defined by a cell-cycle amplicon: parosteal and dedifferentiated osteosarcomas co-amplify CDK4 with MDM2, locking the cell cycle on, which both confirms the diagnosis and points to CDK4/6 inhibitors as targeted treatment.
+- `connects-to` → **[ATRX](../../03-molecular/atrx/README.md)** — It keeps its telomeres long without telomerase: many osteosarcomas lose ATRX and switch on the alternative lengthening of telomeres pathway, an escape from cellular aging that marks aggressive disease and is being explored as a vulnerability.
 
 [^bielack-2002-coss-osteosarcoma]: Bielack SS, Kempf-Bielack B, Delling G, et al. Prognostic factors in high-grade osteosarcoma of the extremities or trunk: an analysis of 1,702 patients treated on neoadjuvant Cooperative Osteosarcoma Study Group protocols. *J Clin Oncol.* 2002;20(3):776-790. [doi:10.1200/JCO.2002.20.3.776](https://doi.org/10.1200/JCO.2002.20.3.776) · [PubMed 11821461](https://pubmed.ncbi.nlm.nih.gov/11821461/)
 [^marina-2016-euramos1-osteosarcoma]: Marina NM, Smeland S, Bielack SS, et al. Comparison of MAPIE versus MAP in patients with a poor response to preoperative chemotherapy for newly diagnosed high-grade osteosarcoma (EURAMOS-1). *Lancet Oncol.* 2016;17(10):1396-1408. [doi:10.1016/S1470-2045(16)30214-5](https://doi.org/10.1016/S1470-2045(16)30214-5) · [PubMed 27569442](https://pubmed.ncbi.nlm.nih.gov/27569442/)
