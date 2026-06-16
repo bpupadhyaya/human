@@ -160,6 +160,15 @@ cross_links:
   - target: 01-human/04-cellular/adipocyte
     relation: connects-to
     note: "The faulty gene sits at the body's energy controls: LKB1-AMPK signaling governs how adipocytes and other tissues sense and store energy, so the syndrome's defect reaches a metabolic network far beyond the gut polyps it is known for."
+  - target: 01-human/03-molecular/p53
+    relation: connects-to
+    note: "The defective kinase reaches the master tumor suppressor: LKB1 normally helps activate p53-dependent apoptosis and growth arrest, so losing it weakens this checkpoint as well, compounding the cancer risk beyond the unleashed mTOR signaling."
+  - target: 01-human/07-system/sclc
+    relation: connects-to
+    note: "The lungs are on the long cancer list: Peutz-Jeghers raises the risk of lung cancer, including small cell carcinoma, one of the many epithelial tissues where LKB1 loss removes a brake — a reminder its danger reaches well beyond the gut."
+  - target: 01-human/07-system/cholangiocarcinoma
+    relation: connects-to
+    note: "The biliary tree is not spared: the syndrome's broad cancer predisposition extends to the bile ducts, so cholangiocarcinoma joins the pancreatic and gastrointestinal tumors that make lifelong, multi-organ surveillance the core of PJS care."
 ---
 
 # Peutz-Jeghers Syndrome
@@ -331,6 +340,9 @@ Without surveillance: cumulative cancer risk reaches ~85-93% by age 70 (all canc
 - `connects-to` → **[Insulin](../../03-molecular/insulin/README.md)** — STK11 is the master switch above AMPK: losing it deranges the LKB1-AMPK energy sensor that ties metabolism to growth, which is why metformin — an AMPK activator that improves insulin signaling — is studied as chemoprevention in Peutz-Jeghers.
 - `connects-to` → **[Cytotoxic T Cell](../../04-cellular/t-cytotoxic-cell/README.md)** — Losing LKB1 turns tumors cold: STK11/LKB1 loss reshapes the microenvironment to exclude and disarm cytotoxic T cells, a recognized driver of resistance to checkpoint immunotherapy in the lung and other cancers it predisposes to.
 - `connects-to` → **[Adipocyte](../../04-cellular/adipocyte/README.md)** — The faulty gene sits at the body's energy controls: LKB1-AMPK signaling governs how adipocytes and other tissues sense and store energy, so the syndrome's defect reaches a metabolic network far beyond the gut polyps it is known for.
+- `connects-to` → **[p53](../../03-molecular/p53/README.md)** — The defective kinase reaches the master tumor suppressor: LKB1 normally helps activate p53-dependent apoptosis and growth arrest, so losing it weakens this checkpoint as well, compounding the cancer risk beyond the unleashed mTOR signaling.
+- `connects-to` → **[Small Cell Lung Cancer](../sclc/README.md)** — The lungs are on the long cancer list: Peutz-Jeghers raises the risk of lung cancer, including small cell carcinoma, one of the many epithelial tissues where LKB1 loss removes a brake — a reminder its danger reaches well beyond the gut.
+- `connects-to` → **[Cholangiocarcinoma](../cholangiocarcinoma/README.md)** — The biliary tree is not spared: the syndrome's broad cancer predisposition extends to the bile ducts, so cholangiocarcinoma joins the pancreatic and gastrointestinal tumors that make lifelong, multi-organ surveillance the core of PJS care.
 
 ---
 

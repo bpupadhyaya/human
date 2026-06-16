@@ -166,6 +166,15 @@ cross_links:
   - target: 03-medicine/03-food/vitamin-d
     relation: connects-to
     note: "Long steroid courses demand bone protection: the high-dose corticosteroids that control pemphigus drive bone loss, so vitamin D and calcium are given alongside to guard against the steroid-induced osteoporosis that shadows treatment."
+  - target: 01-human/03-molecular/btk
+    relation: connects-to
+    note: "A kinase offers a gentler way to silence the autoimmunity: BTK inhibitors like rilzabrutinib damp the B-cell receptor signaling that fuels the anti-desmoglein antibody response, an emerging steroid-sparing option that spares broad immunosuppression."
+  - target: 01-human/07-system/sepsis
+    relation: connects-to
+    note: "The stripped skin becomes a deadly gateway: widespread blistering erosions lose the barrier and weep fluid, so infection and sepsis through the denuded surface — worsened by the immunosuppression used to treat it — are the leading cause of death."
+  - target: 01-human/06-organ/thyroid
+    relation: connects-to
+    note: "It rarely comes alone: pemphigus clusters with other autoimmune diseases, especially autoimmune thyroid disease, reflecting the shared genetic susceptibility that lets self-tolerance break down across more than one organ."
 ---
 
 # Pemphigus Vulgaris
@@ -359,6 +368,9 @@ Pemphigus belongs to the **pemphigus group of autoimmune bullous diseases** (AIB
 - `connects-to` → **[BAFF](../../03-molecular/baff/README.md)** — Autoreactive B cells live on BAFF: the survival factor keeps alive the clones making anti-desmoglein antibodies, so depleting B cells with rituximab — and targeting the BAFF axis — has become a mainstay that drives lasting remission.
 - `connects-to` → **[CLL](../cll/README.md)** — A lymphoma can hide behind the blisters: paraneoplastic pemphigus, a severe variant, is driven by underlying B-cell cancers like CLL and lymphoma, so resistant or atypical disease warrants a search for an occult lymphoproliferative tumor.
 - `connects-to` → **[Vitamin D (Calciferol)](../../../03-medicine/03-food/vitamin-d/README.md)** — Long steroid courses demand bone protection: the high-dose corticosteroids that control pemphigus drive bone loss, so vitamin D and calcium are given alongside to guard against the steroid-induced osteoporosis that shadows treatment.
+- `connects-to` → **[BTK](../../03-molecular/btk/README.md)** — A kinase offers a gentler way to silence the autoimmunity: BTK inhibitors like rilzabrutinib damp the B-cell receptor signaling that fuels the anti-desmoglein antibody response, an emerging steroid-sparing option that spares broad immunosuppression.
+- `connects-to` → **[Sepsis](../sepsis/README.md)** — The stripped skin becomes a deadly gateway: widespread blistering erosions lose the barrier and weep fluid, so infection and sepsis through the denuded surface — worsened by the immunosuppression used to treat it — are the leading cause of death.
+- `connects-to` → **[Thyroid Gland](../../06-organ/thyroid/README.md)** — It rarely comes alone: pemphigus clusters with other autoimmune diseases, especially autoimmune thyroid disease, reflecting the shared genetic susceptibility that lets self-tolerance break down across more than one organ.
 
 ---
 
