@@ -166,6 +166,15 @@ cross_links:
   - target: 01-human/07-system/peutz-jeghers-syndrome
     relation: connects-to
     note: "An STK11 syndrome raises the risk: Peutz-Jeghers syndrome predisposes to endometrial cancer and the rare cervical adenoma malignum, one of the inherited routes to gynecologic cancer beyond Lynch and Cowden."
+  - target: 01-human/03-molecular/arid1a
+    relation: connects-to
+    note: "A chromatin gene falters early: ARID1A, part of the SWI/SNF remodeling complex, is frequently mutated in endometrioid endometrial cancer, loosening gene regulation as one of the disease's commonest driver events."
+  - target: 01-human/03-molecular/kras
+    relation: connects-to
+    note: "RAS pushes the endometrioid type: activating KRAS mutations fire the MAPK growth pathway in the estrogen-driven endometrioid subtype, often alongside PTEN and PIK3CA loss in the same tumor."
+  - target: 01-human/03-molecular/msh2
+    relation: connects-to
+    note: "Lynch lands hardest on the womb: germline mismatch-repair defects in genes like MSH2 make endometrial cancer the sentinel cancer of Lynch syndrome in women, and the resulting MSI makes these tumors immunotherapy-responsive."
 ---
 
 # Endometrial Cancer
@@ -340,6 +349,9 @@ cross_links:
 - `connects-to` → **[IGF-1](../../03-molecular/igf-1/README.md)** — The obesity-diabetes link runs through IGF-1: hyperinsulinemia raises bioactive IGF-1, a potent mitogen that, with excess estrogen, fuels endometrial proliferation — a molecular reason metabolic disease drives this cancer.
 - `connects-to` → **[Regulatory T Cell](../../04-cellular/regulatory-t-cell/README.md)** — Regulatory T cells help the tumor hide: they accumulate in the endometrial tumor microenvironment and damp the antitumor response, a dynamic that matters most in the mismatch-repair-deficient tumors targeted by immunotherapy.
 - `connects-to` → **[Peutz-Jeghers Syndrome](../peutz-jeghers-syndrome/README.md)** — An STK11 syndrome raises the risk: Peutz-Jeghers syndrome predisposes to endometrial cancer and the rare cervical adenoma malignum, one of the inherited routes to gynecologic cancer beyond Lynch and Cowden.
+- `connects-to` → **[ARID1A](../../03-molecular/arid1a/README.md)** — A chromatin gene falters early: ARID1A, part of the SWI/SNF remodeling complex, is frequently mutated in endometrioid endometrial cancer, loosening gene regulation as one of the disease's commonest driver events.
+- `connects-to` → **[KRAS](../../03-molecular/kras/README.md)** — RAS pushes the endometrioid type: activating KRAS mutations fire the MAPK growth pathway in the estrogen-driven endometrioid subtype, often alongside PTEN and PIK3CA loss in the same tumor.
+- `connects-to` → **[MSH2](../../03-molecular/msh2/README.md)** — Lynch lands hardest on the womb: germline mismatch-repair defects in genes like MSH2 make endometrial cancer the sentinel cancer of Lynch syndrome in women, and the resulting MSI makes these tumors immunotherapy-responsive.
 
 [^konstantinopoulos-2019-dostarlimab]: Konstantinopoulos PA, Lheureux S, Moore KN. PARP inhibitors for ovarian and endometrial cancers: state of the art and clinical perspectives. *J Clin Oncol.* 2020;38(25):2896-2909. [doi:10.1200/JCO.20.00571](https://doi.org/10.1200/JCO.20.00571) · [PubMed 32706635](https://pubmed.ncbi.nlm.nih.gov/32706635/)
 [^eskander-2023-ruby]: Eskander RN, Sill MW, Beffa L, et al. Pembrolizumab plus chemotherapy in advanced endometrial cancer. *N Engl J Med.* 2023;388(23):2159-2170. [doi:10.1056/NEJMoa2302312](https://doi.org/10.1056/NEJMoa2302312) · [PubMed 37166384](https://pubmed.ncbi.nlm.nih.gov/37166384/)

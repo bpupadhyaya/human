@@ -175,6 +175,15 @@ cross_links:
   - target: 01-human/03-molecular/il-6
     relation: connects-to
     note: "Inflammation lowers the seizure threshold: seizures trigger a surge of IL-6 and other cytokines, and this neuroinflammation in turn makes neurons more excitable, a feed-forward loop now seen as part of epileptogenesis."
+  - target: 01-human/03-molecular/nlrp3-inflammasome
+    relation: connects-to
+    note: "An inflammasome fuels the feed-forward loop: NLRP3 activation in microglia releases IL-1β that heightens neuronal excitability, a driver of epileptogenesis being targeted to halt seizures that resist standard drugs."
+  - target: 01-human/07-system/malaria
+    relation: connects-to
+    note: "A parasite is a major global cause: cerebral malaria seizes the brain acutely and leaves many survivors with chronic epilepsy, making it — with neurocysticercosis — a leading cause of acquired seizures in endemic regions."
+  - target: 01-human/04-cellular/t-helper-cell
+    relation: connects-to
+    note: "Sometimes the immune system causes the seizures: in autoimmune epilepsy, T cells and the antibodies they help generate against neuronal proteins inflame the cortex, a treatable cause distinct from the structural and genetic forms."
 ---
 
 # Epilepsy
@@ -379,6 +388,9 @@ Anti-NMDAR encephalitis is the most common autoimmune encephalitis (~37% of auto
 - `connects-to` → **[Meningioma](../meningioma/README.md)** — A slow-growing tumor can announce itself as a seizure: a meningioma pressing on the cortex irritates the neurons beneath it, so a new seizure in an adult prompts brain imaging to find such a structural cause.
 - `connects-to` → **[West Nile Virus](../west-nile-virus/README.md)** — Brain infection sparks seizures: West Nile and other encephalitides inflame the cortex into acute seizures, and the scar they leave can become a focus for later epilepsy.
 - `connects-to` → **[Interleukin-6](../../03-molecular/il-6/README.md)** — Inflammation lowers the seizure threshold: seizures trigger a surge of IL-6 and other cytokines, and this neuroinflammation in turn makes neurons more excitable, a feed-forward loop now seen as part of epileptogenesis.
+- `connects-to` → **[NLRP3 Inflammasome](../../03-molecular/nlrp3-inflammasome/README.md)** — An inflammasome fuels the feed-forward loop: NLRP3 activation in microglia releases IL-1β that heightens neuronal excitability, a driver of epileptogenesis being targeted to halt seizures that resist standard drugs.
+- `connects-to` → **[Malaria](../malaria/README.md)** — A parasite is a major global cause: cerebral malaria seizes the brain acutely and leaves many survivors with chronic epilepsy, making it — with neurocysticercosis — a leading cause of acquired seizures in endemic regions.
+- `connects-to` → **[T Helper Cell](../../04-cellular/t-helper-cell/README.md)** — Sometimes the immune system causes the seizures: in autoimmune epilepsy, T cells and the antibodies they help generate against neuronal proteins inflame the cortex, a treatable cause distinct from the structural and genetic forms.
 
 [^fisher-2017-ilae-classification]: Fisher RS, Cross JH, D'Souza C, et al. Instruction manual for the ILAE 2017 operational classification of seizure types. *Epilepsia.* 2017;58(4):531-542. [doi:10.1111/epi.13671](https://doi.org/10.1111/epi.13671) · [PubMed 28276060](https://pubmed.ncbi.nlm.nih.gov/28276060/)
 [^devinsky-2018-epilepsy-review]: Devinsky O, Vezzani A, O'Brien TJ, et al. Epilepsy. *Nat Rev Dis Primers.* 2018;4:18024. [doi:10.1038/nrdp.2018.24](https://doi.org/10.1038/nrdp.2018.24) · [PubMed 29722352](https://pubmed.ncbi.nlm.nih.gov/29722352/)
