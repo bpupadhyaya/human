@@ -150,6 +150,15 @@ cross_links:
   - target: 01-human/07-system/obesity
     relation: connects-to
     note: "Weight and pain worsen each other: obesity is common in fibromyalgia and amplifies pain and fatigue through inflammation, poor sleep and deconditioning, so weight management and exercise are core to treatment."
+  - target: 01-human/07-system/nervous-system
+    relation: connects-to
+    note: "It is increasingly seen as a nervous-system disorder: fibromyalgia is a disease of how the brain and cord process pain, amplifying ordinary signals through central sensitization rather than arising from damaged tissue at the painful sites."
+  - target: 01-human/03-molecular/nlrp3-inflammasome
+    relation: connects-to
+    note: "Glial inflammation may stoke the pain: activation of the NLRP3 inflammasome in microglia and the periphery releases IL-1β and other mediators implicated in the neuroinflammation thought to underlie fibromyalgia's amplified pain."
+  - target: 01-human/04-cellular/natural-killer-cell
+    relation: connects-to
+    note: "Its immune profile is subtly off: reduced natural killer cell number and function are reported in fibromyalgia, part of the immune dysregulation it shares with chronic fatigue syndrome that hints at a low-grade immune component."
 sources:
   - id: wolfe-2016-fibromyalgia-criteria
     type: peer-reviewed
@@ -354,6 +363,9 @@ FM is not a single-etiology disorder but a convergent syndrome resulting from th
 - `connects-to` → **[Estrogen](../../03-molecular/estrogen/README.md)** — A hormonal tilt may explain the female predominance: fibromyalgia overwhelmingly affects women and often flares perimenstrually and around menopause, hinting that falling estrogen — which modulates pain and serotonin pathways — lowers the pain threshold.
 - `connects-to` → **[T Helper Cell](../../04-cellular/t-helper-cell/README.md)** — A faint immune signal underlies the pain: fibromyalgia shows low-grade neuroinflammation with raised cytokines from activated T cells and glia, evidence the disorder is more than purely psychological even without overt tissue damage.
 - `connects-to` → **[Obesity](../obesity/README.md)** — Weight and pain worsen each other: obesity is common in fibromyalgia and amplifies pain and fatigue through inflammation, poor sleep and deconditioning, so weight management and exercise are core to treatment.
+- `connects-to` → **[Nervous System](../nervous-system/README.md)** — It is increasingly seen as a nervous-system disorder: fibromyalgia is a disease of how the brain and cord process pain, amplifying ordinary signals through central sensitization rather than arising from damaged tissue at the painful sites.
+- `connects-to` → **[NLRP3 Inflammasome](../../03-molecular/nlrp3-inflammasome/README.md)** — Glial inflammation may stoke the pain: activation of the NLRP3 inflammasome in microglia and the periphery releases IL-1β and other mediators implicated in the neuroinflammation thought to underlie fibromyalgia's amplified pain.
+- `connects-to` → **[Natural Killer Cell](../../04-cellular/natural-killer-cell/README.md)** — Its immune profile is subtly off: reduced natural killer cell number and function are reported in fibromyalgia, part of the immune dysregulation it shares with chronic fatigue syndrome that hints at a low-grade immune component.
 
 [^wolfe-2016-fibromyalgia-criteria]: Wolfe F, Clauw DJ, Fitzcharles MA, et al. 2016 Revisions to the 2010/2011 fibromyalgia diagnostic criteria. *Semin Arthritis Rheum.* 2016;46(3):319-329. [doi:10.1016/j.semarthrit.2016.08.012](https://doi.org/10.1016/j.semarthrit.2016.08.012) · [PubMed 27916278](https://pubmed.ncbi.nlm.nih.gov/27916278/)
 [^clauw-2014-fibromyalgia-review]: Clauw DJ. Fibromyalgia: a clinical review. *JAMA.* 2014;311(15):1547-1555. [doi:10.1001/jama.2014.3266](https://doi.org/10.1001/jama.2014.3266) · [PubMed 24737367](https://pubmed.ncbi.nlm.nih.gov/24737367/)

@@ -181,6 +181,15 @@ cross_links:
   - target: 01-human/07-system/reproductive-system
     relation: connects-to
     note: "Gut microbes help set circulating estrogen: the estrobolome — bacterial enzymes that deconjugate estrogens for reabsorption — links the digestive tract to reproductive and hormonal health across the body."
+  - target: 01-human/07-system/inflammatory-bowel-disease
+    relation: connects-to
+    note: "When gut tolerance breaks, the wall inflames: inflammatory bowel disease is the digestive system turning on itself, as a misfired immune response to the microbiome ulcerates the bowel — the chronic counterpart to the gut's normal restraint."
+  - target: 01-human/04-cellular/dendritic-cell
+    relation: connects-to
+    note: "The gut decides friend from foe through dendritic cells: they reach between epithelial cells to sample luminal antigens, then teach tolerance to food and flora or mount defense against pathogens — the gatekeepers of intestinal immunity."
+  - target: 01-human/03-molecular/histamine
+    relation: connects-to
+    note: "Histamine drives the stomach's acid: enterochromaffin-like cells release it to stimulate parietal-cell acid secretion through H2 receptors, the pathway that H2-blockers shut down to treat ulcers and reflux."
 taxonomy:
   uberon: "UBERON:0001007"
 ---
@@ -324,6 +333,9 @@ The ENS can function autonomously without extrinsic innervation (Hirschsprung's 
 - **Connects to:** [Neuron](../../04-cellular/neuron/README.md) — the gut runs its own nervous system: the enteric nervous system, a mesh of millions of neurons in the bowel wall, coordinates peristalsis and secretion largely on its own, earning the gut its name as the body's second brain.
 - **Connects to:** [GLP-1](../../03-molecular/glp-1/README.md) — the gut is an endocrine organ: L-cells release GLP-1 after a meal to spur insulin, slow gastric emptying and curb appetite, the incretin axis now harnessed by the blockbuster GLP-1 weight and diabetes drugs.
 - **Connects to:** [Reproductive System](../reproductive-system/README.md) — gut microbes help set circulating estrogen: the estrobolome — bacterial enzymes that deconjugate estrogens for reabsorption — links the digestive tract to reproductive and hormonal health across the body.
+- **Connects to:** [Inflammatory Bowel Disease](../inflammatory-bowel-disease/README.md) — when gut tolerance breaks, the wall inflames: inflammatory bowel disease is the digestive system turning on itself, as a misfired immune response to the microbiome ulcerates the bowel — the chronic counterpart to the gut's normal restraint.
+- **Connects to:** [Dendritic Cell](../../04-cellular/dendritic-cell/README.md) — the gut decides friend from foe through dendritic cells: they reach between epithelial cells to sample luminal antigens, then teach tolerance to food and flora or mount defense against pathogens — the gatekeepers of intestinal immunity.
+- **Connects to:** [Histamine](../../03-molecular/histamine/README.md) — histamine drives the stomach's acid: enterochromaffin-like cells release it to stimulate parietal-cell acid secretion through H2 receptors, the pathway that H2-blockers shut down to treat ulcers and reflux.
 
 ## Pathology
 
