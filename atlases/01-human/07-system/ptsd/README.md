@@ -171,6 +171,15 @@ cross_links:
   - target: 01-human/07-system/neuropathic-pain
     relation: connects-to
     note: "PTSD and chronic pain feed each other: they co-occur strikingly often, sharing central sensitization and stress circuitry, so trauma amplifies neuropathic pain while persistent pain keeps the traumatic memory alive."
+  - target: 01-human/07-system/hypertension
+    relation: connects-to
+    note: "Chronic alarm raises the pressure: the sustained sympathetic and HPA-axis overdrive of PTSD keeps blood pressure elevated, a major route by which trauma translates into long-term cardiovascular disease."
+  - target: 01-human/07-system/type-2-diabetes
+    relation: connects-to
+    note: "Stress hormones disturb metabolism: chronically high cortisol with poor sleep and lifestyle disruption raises the risk of insulin resistance and type 2 diabetes among people with PTSD."
+  - target: 01-human/07-system/generalized-anxiety-disorder
+    relation: connects-to
+    note: "It overlaps the broader anxiety spectrum: PTSD shares fear-circuit dysregulation and frequently co-occurs with generalized anxiety disorder, the two amplifying each other's worry and hypervigilance."
 ---
 
 # PTSD
@@ -357,6 +366,9 @@ Not all trauma leads to PTSD. Risk and resilience factors include:
 - `connects-to` → **[Interleukin-6](../../03-molecular/il-6/README.md)** — Trauma leaves an inflammatory signature: PTSD runs with elevated IL-6 and other inflammatory markers, a low-grade immune activation thought to link the disorder to its heart and metabolic complications and even to influence fear circuitry.
 - `connects-to` → **[Gut Microbiome](../gut-microbiome/README.md)** — The traumatized brain talks to the gut and back: PTSD is marked by an altered microbiome, and through the microbiome-gut-brain axis these shifts may shape stress reactivity, inflammation, and the disorder's resilience or severity.
 - `connects-to` → **[Neuropathic Pain](../neuropathic-pain/README.md)** — PTSD and chronic pain feed each other: they co-occur strikingly often, sharing central sensitization and stress circuitry, so trauma amplifies neuropathic pain while persistent pain keeps the traumatic memory alive.
+- `connects-to` → **[Hypertension](../hypertension/README.md)** — Chronic alarm raises the pressure: the sustained sympathetic and HPA-axis overdrive of PTSD keeps blood pressure elevated, a major route by which trauma translates into long-term cardiovascular disease.
+- `connects-to` → **[Type 2 Diabetes](../type-2-diabetes/README.md)** — Stress hormones disturb metabolism: chronically high cortisol with poor sleep and lifestyle disruption raises the risk of insulin resistance and type 2 diabetes among people with PTSD.
+- `connects-to` → **[Generalized Anxiety Disorder](../generalized-anxiety-disorder/README.md)** — It overlaps the broader anxiety spectrum: PTSD shares fear-circuit dysregulation and frequently co-occurs with generalized anxiety disorder, the two amplifying each other's worry and hypervigilance.
 
 [^yehuda-2015-ptsd-review]: Yehuda R, Hoge CW, McFarlane AC, et al. Post-traumatic stress disorder. *Nat Rev Dis Primers.* 2015;1:15057. [doi:10.1038/nrdp.2015.57](https://doi.org/10.1038/nrdp.2015.57) · [PubMed 27189040](https://pubmed.ncbi.nlm.nih.gov/27189040/)
 [^foa-2019-ptsd-treatments]: Foa EB, McLean CP. The efficacy of exposure therapy for anxiety and related disorders. *Annu Rev Clin Psychol.* 2016;12:1-28. [doi:10.1146/annurev-clinpsy-021815-093533](https://doi.org/10.1146/annurev-clinpsy-021815-093533) · [PubMed 26928206](https://pubmed.ncbi.nlm.nih.gov/26928206/)

@@ -172,6 +172,15 @@ cross_links:
   - target: 01-human/03-molecular/fgf23
     relation: connects-to
     note: "Bone signals the kidney about phosphate: FGF23 from bone tells the nephron to dump phosphate and curb active vitamin D, and as kidneys fail FGF23 climbs early, an opening move in the mineral-bone disorder of CKD."
+  - target: 01-human/03-molecular/sglt2
+    relation: connects-to
+    note: "The proximal tubule reclaims the body's sugar: SGLT2 there reabsorbs nearly all filtered glucose, and blocking it spills glucose into the urine — drugs that lower sugar while unexpectedly protecting the kidney and heart."
+  - target: 01-human/04-cellular/fibroblast
+    relation: connects-to
+    note: "One kidney cell wears two hats: peritubular fibroblasts make the erythropoietin that drives red-cell production, yet when injured they transform into myofibroblasts that lay down the scar of chronic kidney disease."
+  - target: 01-human/07-system/systemic-lupus-erythematosus
+    relation: connects-to
+    note: "Autoimmunity often lands on the kidney: lupus nephritis, where immune complexes inflame the glomeruli, is among the most serious manifestations of SLE and a leading reason the disease becomes life-threatening."
 taxonomy:
   uberon: "UBERON:0001008"
 ---
@@ -318,6 +327,9 @@ Natriuretic counterpoint:
 - **Connects to:** [Adrenal Gland](../../06-organ/adrenal-gland/README.md) — the kidney and adrenal run the salt axis together: the kidney's renin triggers the adrenal cortex to release aldosterone, which acts back on the nephron to retain sodium and excrete potassium, closing the loop that sets blood volume and pressure.
 - **Connects to:** [Type 2 Diabetes](../type-2-diabetes/README.md) — diabetes is the leading destroyer of the renal system: chronic high glucose thickens and scars the glomerulus into diabetic nephropathy, the single biggest cause of kidney failure and dialysis worldwide.
 - **Connects to:** [FGF23](../../03-molecular/fgf23/README.md) — bone signals the kidney about phosphate: FGF23 from bone tells the nephron to dump phosphate and curb active vitamin D, and as kidneys fail FGF23 climbs early, an opening move in the mineral-bone disorder of CKD.
+- **Connects to:** [SGLT2](../../03-molecular/sglt2/README.md) — the proximal tubule reclaims the body's sugar: SGLT2 there reabsorbs nearly all filtered glucose, and blocking it spills glucose into the urine — drugs that lower sugar while unexpectedly protecting the kidney and heart.
+- **Connects to:** [Fibroblast](../../04-cellular/fibroblast/README.md) — one kidney cell wears two hats: peritubular fibroblasts make the erythropoietin that drives red-cell production, yet when injured they transform into myofibroblasts that lay down the scar of chronic kidney disease.
+- **Connects to:** [Systemic Lupus Erythematosus](../systemic-lupus-erythematosus/README.md) — autoimmunity often lands on the kidney: lupus nephritis, where immune complexes inflame the glomeruli, is among the most serious manifestations of SLE and a leading reason the disease becomes life-threatening.
 - **Treated by:** ACE inhibitors — renoprotection in CKD.
 - **Treated by:** Loop diuretics — fluid management.
 
