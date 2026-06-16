@@ -178,6 +178,15 @@ cross_links:
   - target: 01-human/07-system/huntingtons-disease
     relation: connects-to
     note: "ALS sits in a family of protein-aggregation neurodegenerations: like Huntington's it stems from a toxic misfolded protein and a repeat-expansion gene (C9orf72), the two sharing mechanisms of aggregation and neuronal death."
+  - target: 01-human/03-molecular/tbk1
+    relation: connects-to
+    note: "TBK1 mutations cause ALS-FTD: loss of this kinase, which links autophagy and innate-immune signaling, impairs clearance of aggregated TDP-43 and stokes neuroinflammation, tying a single gene to both motor and frontotemporal degeneration."
+  - target: 01-human/03-molecular/nlrp3-inflammasome
+    relation: connects-to
+    note: "Dying motor neurons light the inflammasome: misfolded SOD1 and TDP-43 activate microglial NLRP3, and the IL-1β it releases amplifies the neuroinflammation that accelerates motor-neuron loss in ALS."
+  - target: 01-human/07-system/venous-thromboembolism
+    relation: connects-to
+    note: "Paralysis breeds clots: the progressive immobility of ALS markedly raises the risk of deep-vein thrombosis and pulmonary embolism, a preventable complication that warrants vigilance as the limbs weaken."
 ---
 
 # ALS
@@ -371,6 +380,9 @@ ALS diagnosis is **clinical** — no single definitive biomarker test (though Nf
 - `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — A growth factor for blood doubles as a nerve protector: VEGF keeps motor neurons alive, and animals engineered with low VEGF develop an ALS-like disease, implicating its deficiency in human motor-neuron degeneration.
 - `connects-to` → **[Neutrophil](../../04-cellular/neutrophil/README.md)** — The blood's inflammation tracks the decline: a rising neutrophil-to-lymphocyte ratio marks the systemic inflammation of ALS and predicts faster progression, a peripheral readout of a central disease.
 - `connects-to` → **[Huntington Disease](../huntingtons-disease/README.md)** — ALS sits in a family of protein-aggregation neurodegenerations: like Huntington's it stems from a toxic misfolded protein and a repeat-expansion gene (C9orf72), the two sharing mechanisms of aggregation and neuronal death.
+- `connects-to` → **[TBK1](../../03-molecular/tbk1/README.md)** — TBK1 mutations cause ALS-FTD: loss of this kinase, which links autophagy and innate-immune signaling, impairs clearance of aggregated TDP-43 and stokes neuroinflammation, tying a single gene to both motor and frontotemporal degeneration.
+- `connects-to` → **[NLRP3 Inflammasome](../../03-molecular/nlrp3-inflammasome/README.md)** — Dying motor neurons light the inflammasome: misfolded SOD1 and TDP-43 activate microglial NLRP3, and the IL-1β it releases amplifies the neuroinflammation that accelerates motor-neuron loss in ALS.
+- `connects-to` → **[Venous Thromboembolism](../venous-thromboembolism/README.md)** — Paralysis breeds clots: the progressive immobility of ALS markedly raises the risk of deep-vein thrombosis and pulmonary embolism, a preventable complication that warrants vigilance as the limbs weaken.
 
 [^brown-2017-als-review]: Brown RH, Al-Chalabi A. Amyotrophic lateral sclerosis. *N Engl J Med.* 2017;377(2):162-172. [doi:10.1056/NEJMra1603471](https://doi.org/10.1056/NEJMra1603471) · [PubMed 28700839](https://pubmed.ncbi.nlm.nih.gov/28700839/)
 [^edaravone-als-2017]: Writing Group, Edaravone ALS 19 Study Group. Safety and efficacy of edaravone in well defined patients with amyotrophic lateral sclerosis. *Lancet Neurol.* 2017;16(7):505-512. [doi:10.1016/S1474-4422(17)30115-1](https://doi.org/10.1016/S1474-4422(17)30115-1) · [PubMed 28522180](https://pubmed.ncbi.nlm.nih.gov/28522180/)

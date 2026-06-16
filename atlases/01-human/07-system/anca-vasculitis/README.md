@@ -181,6 +181,15 @@ cross_links:
   - target: 01-human/07-system/inflammatory-bowel-disease
     relation: connects-to
     note: "ANCA blurs into bowel disease: an atypical perinuclear ANCA is a hallmark antibody of ulcerative colitis, one of the overlaps where the same autoantibody family marks both vasculitis and inflammatory bowel disease."
+  - target: 01-human/03-molecular/il-17a
+    relation: connects-to
+    note: "A Th17 arm drives the autoimmunity: IL-17A from autoreactive helper T cells promotes neutrophil recruitment and the granulomatous inflammation of GPA, running higher in active ANCA vasculitis."
+  - target: 01-human/05-tissue/germinal-center
+    relation: connects-to
+    note: "Autoantibodies are schooled in lymphoid tissue: ectopic germinal centers, including those in inflamed nasal mucosa in GPA, generate the B cells that make anti-PR3 and anti-MPO — which is why germinal-center-directed B-cell depletion works."
+  - target: 01-human/07-system/heart-failure
+    relation: connects-to
+    note: "The heart is a hidden target: ANCA vasculitis—especially eosinophilic GPA—can inflame the myocardium and coronary vessels, and the resulting cardiomyopathy is a leading cause of death, so cardiac screening matters even when symptoms are quiet."
 ---
 
 # ANCA Vasculitis
@@ -367,6 +376,9 @@ EGPA is mechanistically distinct — eosinophils, not neutrophils, mediate tissu
 - `connects-to` → **[Podocyte](../../04-cellular/podocyte/README.md)** — The kidney's filter is wrecked from above: pauci-immune necrotizing glomerulonephritis ruptures the capillary tuft and forms crescents that crush the podocytes, producing the hematuria and rapidly rising creatinine that make renal ANCA disease an emergency.
 - `connects-to` → **[BAFF](../../03-molecular/baff/README.md)** — BAFF keeps the ANCA factories alive: the cytokine sustains the autoreactive B cells that make anti-MPO and anti-PR3 antibodies, the rationale behind rituximab and the B-cell-targeted control of the disease.
 - `connects-to` → **[Inflammatory Bowel Disease](../inflammatory-bowel-disease/README.md)** — ANCA blurs into bowel disease: an atypical perinuclear ANCA is a hallmark antibody of ulcerative colitis, one of the overlaps where the same autoantibody family marks both vasculitis and inflammatory bowel disease.
+- `connects-to` → **[IL-17A](../../03-molecular/il-17a/README.md)** — A Th17 arm drives the autoimmunity: IL-17A from autoreactive helper T cells promotes neutrophil recruitment and the granulomatous inflammation of GPA, running higher in active ANCA vasculitis.
+- `connects-to` → **[Germinal Center](../../05-tissue/germinal-center/README.md)** — Autoantibodies are schooled in lymphoid tissue: ectopic germinal centers, including those in inflamed nasal mucosa in GPA, generate the B cells that make anti-PR3 and anti-MPO — which is why germinal-center-directed B-cell depletion works.
+- `connects-to` → **[Heart Failure](../heart-failure/README.md)** — The heart is a hidden target: ANCA vasculitis—especially eosinophilic GPA—can inflame the myocardium and coronary vessels, and the resulting cardiomyopathy is a leading cause of death, so cardiac screening matters even when symptoms are quiet.
 
 [^yates-2022-anca-review]: Yates M, Watts RA, Bajema IM, et al. EULAR/ERA-EDTA recommendations for the management of ANCA-associated vasculitis. *Ann Rheum Dis.* 2016;75(9):1583-1594. [doi:10.1136/annrheumdis-2016-209133](https://doi.org/10.1136/annrheumdis-2016-209133) · [PubMed 27338776](https://pubmed.ncbi.nlm.nih.gov/27338776/)
 [^stone-2010-rituximab-gpa-rave]: Stone JH, Merkel PA, Spiera R, et al. Rituximab versus cyclophosphamide for ANCA-associated vasculitis. *N Engl J Med.* 2010;363(3):221-232. [doi:10.1056/NEJMoa0909905](https://doi.org/10.1056/NEJMoa0909905) · [PubMed 20647199](https://pubmed.ncbi.nlm.nih.gov/20647199/)
