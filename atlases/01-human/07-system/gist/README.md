@@ -169,6 +169,15 @@ cross_links:
   - target: 01-human/03-molecular/cyclin-d1
     relation: connects-to
     note: "Constitutive KIT signaling pushes the cell cycle: it drives cyclin D1 to release the G1 checkpoint, the proliferative engine downstream of the mutant receptor that defines GIST."
+  - target: 01-human/07-system/iron-deficiency-anemia
+    relation: connects-to
+    note: "GISTs bleed into the gut: ulcerating over the bowel lumen, they cause chronic occult or overt GI bleeding, so iron-deficiency anemia (or melena) is a common way the tumor first declares itself."
+  - target: 01-human/03-molecular/autophagy
+    relation: connects-to
+    note: "Autophagy is how GIST survives imatinib: rather than dying, KIT-inhibited cells enter an autophagy-dependent dormancy, a survival mechanism behind residual disease and relapse that combination autophagy blockade aims to overcome."
+  - target: 01-human/07-system/venous-thromboembolism
+    relation: connects-to
+    note: "The tumor and its surgery raise the clot risk: like other abdominal malignancies GIST predisposes to venous thromboembolism, a perioperative hazard during the resections its treatment requires."
 ---
 
 # GIST
@@ -350,6 +359,9 @@ No approved targeted therapy; sunitinib may have modest activity; clinical trial
 - `connects-to` → **[Fibroblast](../../04-cellular/fibroblast/README.md)** — GIST is a true stromal tumor: it arises from the interstitial cells of Cajal, a mesenchymal lineage akin to fibroblasts, which is why it grows in the gut wall rather than the lining and is named for the stroma it springs from.
 - `connects-to` → **[Melanoma](../melanoma/README.md)** — A shared KIT mutation links gut to skin: the same activating KIT changes that drive GIST also power a subset of acral and mucosal melanomas, so both can respond to the KIT inhibitor imatinib.
 - `connects-to` → **[Cyclin D1](../../03-molecular/cyclin-d1/README.md)** — Constitutive KIT signaling pushes the cell cycle: it drives cyclin D1 to release the G1 checkpoint, the proliferative engine downstream of the mutant receptor that defines GIST.
+- `connects-to` → **[Iron Deficiency Anemia](../iron-deficiency-anemia/README.md)** — GISTs bleed into the gut: ulcerating over the bowel lumen, they cause chronic occult or overt GI bleeding, so iron-deficiency anemia (or melena) is a common way the tumor first declares itself.
+- `connects-to` → **[Autophagy](../../03-molecular/autophagy/README.md)** — Autophagy is how GIST survives imatinib: rather than dying, KIT-inhibited cells enter an autophagy-dependent dormancy, a survival mechanism behind residual disease and relapse that combination autophagy blockade aims to overcome.
+- `connects-to` → **[Venous Thromboembolism](../venous-thromboembolism/README.md)** — The tumor and its surgery raise the clot risk: like other abdominal malignancies GIST predisposes to venous thromboembolism, a perioperative hazard during the resections its treatment requires.
 
 ---
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*

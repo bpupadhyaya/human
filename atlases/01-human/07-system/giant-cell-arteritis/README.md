@@ -169,6 +169,15 @@ cross_links:
   - target: 01-human/07-system/type-2-diabetes
     relation: connects-to
     note: "The cure brings its own disease: the prolonged high-dose glucocorticoids needed to control GCA commonly induce steroid diabetes, one of the metabolic harms that make sparing the steroid a goal of newer therapy."
+  - target: 01-human/03-molecular/jak1-2
+    relation: connects-to
+    note: "JAK-STAT carries the vascular inflammation: IL-6 and interferon-γ signal through JAK1/2 to sustain the arterial-wall attack in GCA, the rationale behind the JAK inhibitors (upadacitinib) now trialed as steroid-sparing therapy."
+  - target: 01-human/07-system/cmml
+    relation: connects-to
+    note: "Large-vessel vasculitis can flag a myeloid clone: GCA and other vasculitides are over-represented in CMML and the VEXAS spectrum, where a somatic marrow mutation drives systemic inflammation alongside the cytopenias."
+  - target: 01-human/07-system/heart-failure
+    relation: connects-to
+    note: "The aorta is in the firing line: GCA aortitis can cause aortic aneurysm and regurgitation that overload the left ventricle into heart failure, why large-vessel imaging follow-up is part of long-term care."
 ---
 
 # Giant Cell Arteritis
@@ -334,6 +343,9 @@ The temporal arteries supply scalp, temporalis muscle, and dura. In GCA, transmu
 - `connects-to` → **[IL-23](../../03-molecular/il-23/README.md)** — IL-23 sustains the Th17 arm of the attack: alongside the IL-12/Th1 axis, IL-23 drives the IL-17-producing T cells that inflame the artery wall in GCA, part of why cytokine-directed therapy is explored beyond IL-6 blockade.
 - `connects-to` → **[Natural Killer Cell](../../04-cellular/natural-killer-cell/README.md)** — Natural killer cells join the vascular infiltrate: they accumulate in the inflamed arterial wall and contribute, with T cells and macrophages, to the granulomatous destruction of the vessel.
 - `connects-to` → **[Type 2 Diabetes](../type-2-diabetes/README.md)** — The cure brings its own disease: the prolonged high-dose glucocorticoids needed to control GCA commonly induce steroid diabetes, one of the metabolic harms that make sparing the steroid a goal of newer therapy.
+- `connects-to` → **[JAK1/2](../../03-molecular/jak1-2/README.md)** — JAK-STAT carries the vascular inflammation: IL-6 and interferon-γ signal through JAK1/2 to sustain the arterial-wall attack in GCA, the rationale behind the JAK inhibitors (upadacitinib) now trialed as steroid-sparing therapy.
+- `connects-to` → **[Chronic Myelomonocytic Leukemia](../cmml/README.md)** — Large-vessel vasculitis can flag a myeloid clone: GCA and other vasculitides are over-represented in CMML and the VEXAS spectrum, where a somatic marrow mutation drives systemic inflammation alongside the cytopenias.
+- `connects-to` → **[Heart Failure](../heart-failure/README.md)** — The aorta is in the firing line: GCA aortitis can cause aortic aneurysm and regurgitation that overload the left ventricle into heart failure, why large-vessel imaging follow-up is part of long-term care.
 
 [^stone-2017-giact]: Stone JH, Tuckwell K, Dimonaco S, et al. Trial of tocilizumab in giant-cell arteritis. *N Engl J Med.* 2017;377(4):317-328. [doi:10.1056/NEJMoa1613849](https://doi.org/10.1056/NEJMoa1613849) · [PubMed 28745999](https://pubmed.ncbi.nlm.nih.gov/28745999/)
 [^weyand-2014-gca-review]: Weyand CM, Goronzy JJ. Clinical practice. Giant-cell arteritis and polymyalgia rheumatica. *N Engl J Med.* 2014;371(1):50-57. [doi:10.1056/NEJMcp1214926](https://doi.org/10.1056/NEJMcp1214926) · [PubMed 24988557](https://pubmed.ncbi.nlm.nih.gov/24988557/)
