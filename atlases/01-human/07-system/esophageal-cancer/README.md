@@ -160,6 +160,15 @@ cross_links:
   - target: 01-human/04-cellular/platelet
     relation: connects-to
     note: "Esophageal cancer runs the clotting risk hot: like other gastrointestinal tumors it drives paraneoplastic thrombocytosis and a high rate of venous thromboembolism, complicating the chemotherapy and major surgery its treatment requires."
+  - target: 01-human/03-molecular/cyclin-d1
+    relation: connects-to
+    note: "Cyclin D1 pushes the squamous tumor's cycle: CCND1 amplification is among the commonest events in esophageal squamous-cell carcinoma, releasing the G1 checkpoint to drive the rapid proliferation of the cancer."
+  - target: 01-human/04-cellular/neutrophil
+    relation: connects-to
+    note: "Tumor-driving inflammation shows in the blood: esophageal cancer recruits neutrophils that promote invasion and angiogenesis, and a high neutrophil-to-lymphocyte ratio is a marker of worse prognosis."
+  - target: 01-human/07-system/systemic-sclerosis
+    relation: connects-to
+    note: "Scleroderma scars the esophagus into cancer risk: systemic sclerosis paralyzes the lower esophagus, and the relentless reflux that follows drives Barrett's metaplasia and a raised risk of adenocarcinoma."
 ---
 
 # Esophageal Cancer
@@ -345,6 +354,9 @@ T1a: Lamina propria/muscularis mucosae; T1b: Submucosa; T2: Muscularis propria; 
 - `connects-to` → **[Heart](../../06-organ/heart/README.md)** — The tumor and its treatment sit on the heart: a mid-esophageal cancer lies against the heart and great vessels, so the radiation that treats it irradiates the myocardium and the major esophagectomy that removes it carries real cardiac risk.
 - `connects-to` → **[NOTCH](../../03-molecular/notch/README.md)** — NOTCH1 is a frequent casualty in esophageal squamous cancer: inactivating NOTCH1 mutations are among its commonest events, removing a brake on squamous-cell growth — one of the genetic hallmarks separating it from the lower-esophagus adenocarcinoma.
 - `connects-to` → **[Platelet](../../04-cellular/platelet/README.md)** — Esophageal cancer runs the clotting risk hot: like other gastrointestinal tumors it drives paraneoplastic thrombocytosis and a high rate of venous thromboembolism, complicating the chemotherapy and major surgery its treatment requires.
+- `connects-to` → **[Cyclin D1](../../03-molecular/cyclin-d1/README.md)** — Cyclin D1 pushes the squamous tumor's cycle: CCND1 amplification is among the commonest events in esophageal squamous-cell carcinoma, releasing the G1 checkpoint to drive the rapid proliferation of the cancer.
+- `connects-to` → **[Neutrophil](../../04-cellular/neutrophil/README.md)** — Tumor-driving inflammation shows in the blood: esophageal cancer recruits neutrophils that promote invasion and angiogenesis, and a high neutrophil-to-lymphocyte ratio is a marker of worse prognosis.
+- `connects-to` → **[Systemic Sclerosis](../systemic-sclerosis/README.md)** — Scleroderma scars the esophagus into cancer risk: systemic sclerosis paralyzes the lower esophagus, and the relentless reflux that follows drives Barrett's metaplasia and a raised risk of adenocarcinoma.
 
 ---
 

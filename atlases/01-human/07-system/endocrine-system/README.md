@@ -158,6 +158,15 @@ cross_links:
   - target: 01-human/07-system/pheochromocytoma-paraganglioma
     relation: connects-to
     note: "A tumor can hijack the stress hormones: pheochromocytoma of the adrenal medulla floods the body with catecholamines, causing pounding spells of hypertension, palpitations and sweating — endocrine signaling turned into a dangerous excess."
+  - target: 01-human/03-molecular/prolactin
+    relation: connects-to
+    note: "Prolactin shows the pituitary's reach: this anterior-pituitary hormone drives lactation under hypothalamic dopamine control, and its overproduction — the commonest pituitary tumor — causes infertility and milk discharge."
+  - target: 01-human/06-organ/small-intestine
+    relation: connects-to
+    note: "The gut is the body's largest endocrine organ: scattered enteroendocrine cells of the small intestine secrete incretins, ghrelin, secretin, and cholecystokinin that tune digestion, appetite, and insulin release."
+  - target: 01-human/07-system/men4-syndrome
+    relation: connects-to
+    note: "One gene can derail many glands: MEN4, like MEN1, is a hereditary syndrome that spawns synchronous tumors across the parathyroid, pituitary, and pancreas, the endocrine system failing along an inherited fault line."
 ---
 
 # Endocrine System
@@ -362,6 +371,9 @@ The endocrine system coordinates fuel metabolism across multiple organs in respo
 - `connects-to` → **[Leptin](../../03-molecular/leptin/README.md)** — Fat itself is an endocrine organ: adipocytes secrete leptin in proportion to fat stores, and the hormone signals the hypothalamus to curb appetite — the discovery that recast adipose tissue as part of the endocrine system rather than inert storage.
 - `connects-to` → **[Vitamin D (Calciferol)](../../../03-medicine/03-food/vitamin-d/README.md)** — Vitamin D is really a hormone: the skin and kidney convert it to calcitriol, a steroid hormone that acts through nuclear receptors to raise calcium absorption, placing this 'vitamin' squarely within the endocrine system's calcium control.
 - `connects-to` → **[Pheochromocytoma/Paraganglioma](../pheochromocytoma-paraganglioma/README.md)** — A tumor can hijack the stress hormones: pheochromocytoma of the adrenal medulla floods the body with catecholamines, causing pounding spells of hypertension, palpitations and sweating — endocrine signaling turned into a dangerous excess.
+- `connects-to` → **[Prolactin](../../03-molecular/prolactin/README.md)** — Prolactin shows the pituitary's reach: this anterior-pituitary hormone drives lactation under hypothalamic dopamine control, and its overproduction — the commonest pituitary tumor — causes infertility and milk discharge.
+- `connects-to` → **[Small Intestine](../../06-organ/small-intestine/README.md)** — The gut is the body's largest endocrine organ: scattered enteroendocrine cells of the small intestine secrete incretins, ghrelin, secretin, and cholecystokinin that tune digestion, appetite, and insulin release.
+- `connects-to` → **[MEN4 Syndrome](../men4-syndrome/README.md)** — One gene can derail many glands: MEN4, like MEN1, is a hereditary syndrome that spawns synchronous tumors across the parathyroid, pituitary, and pancreas, the endocrine system failing along an inherited fault line.
 
 ## Pathology
 
