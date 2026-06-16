@@ -169,6 +169,15 @@ cross_links:
   - target: 01-human/07-system/ckd
     relation: connects-to
     note: "The kidney can manufacture an acquired thrombophilia: nephrotic syndrome leaks antithrombin into the urine while raising clotting factors, and layered on an inherited defect it sharply raises the risk of renal vein thrombosis and VTE."
+  - target: 01-human/07-system/pancreatic-cancer
+    relation: connects-to
+    note: "Cancer is the great acquired thrombophilia: tumors — pancreatic cancer especially — pour out tissue factor and mucins that ignite clotting, the migratory Trousseau thrombophlebitis whose unexplained appearance can be the first clue to an occult malignancy."
+  - target: 01-human/07-system/covid-19-disease
+    relation: connects-to
+    note: "Severe infection flips on clotting: COVID-19 drives an intense acquired prothrombotic state through endothelial injury and inflammation, multiplying thrombosis risk in patients who may also carry an inherited predisposition."
+  - target: 01-human/07-system/sepsis
+    relation: connects-to
+    note: "Overwhelming infection consumes the clotting system: sepsis-induced coagulopathy activates clotting bodywide toward microthrombi and DIC, an acquired hypercoagulable state that an underlying inherited thrombophilia can worsen."
 ---
 
 # Inherited Thrombophilia
@@ -378,6 +387,9 @@ Antithrombin (ATIII) is the primary plasma inhibitor of thrombin, FXa, FIXa, and
 - `connects-to` → **[Complement C5](../../03-molecular/complement-c5/README.md)** — Clotting and complement amplify each other: thrombin cleaves C5 and terminal complement spurs tissue-factor and platelet activation, so inherited hypercoagulability shares a thrombo-inflammatory loop with complement-driven thrombosis like PNH and aHUS.
 - `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — Macrophages drive a clot's fate: they invade an organizing thrombus, express tissue factor that seeds clotting, and orchestrate the remodeling that either resolves a deep vein thrombosis or scars the vein into post-thrombotic syndrome.
 - `connects-to` → **[Chronic Kidney Disease](../ckd/README.md)** — The kidney can manufacture an acquired thrombophilia: nephrotic syndrome leaks antithrombin into the urine while raising clotting factors, and layered on an inherited defect it sharply raises the risk of renal vein thrombosis and VTE.
+- `connects-to` → **[Pancreatic Cancer](../pancreatic-cancer/README.md)** — Cancer is the great acquired thrombophilia: tumors — pancreatic cancer especially — pour out tissue factor and mucins that ignite clotting, the migratory Trousseau thrombophlebitis whose unexplained appearance can be the first clue to an occult malignancy.
+- `connects-to` → **[COVID-19 Disease](../covid-19-disease/README.md)** — Severe infection flips on clotting: COVID-19 drives an intense acquired prothrombotic state through endothelial injury and inflammation, multiplying thrombosis risk in patients who may also carry an inherited predisposition.
+- `connects-to` → **[Sepsis](../sepsis/README.md)** — Overwhelming infection consumes the clotting system: sepsis-induced coagulopathy activates clotting bodywide toward microthrombi and DIC, an acquired hypercoagulable state that an underlying inherited thrombophilia can worsen.
 
 [^bertina-1994-factor-v-leiden]: Bertina RM, Koeleman BP, Koster T, et al. Mutation in blood coagulation factor V associated with resistance to activated protein C. *Nature.* 1994;369(6475):64-67. [doi:10.1038/369064a0](https://doi.org/10.1038/369064a0) · [PubMed 8164741](https://pubmed.ncbi.nlm.nih.gov/8164741/)
 [^dahlback-2008-protein-c-review]: Dahlbäck B. Advances in understanding pathogenic mechanisms of thrombophilic disorders. *Blood.* 2008;112(1):19-27. [doi:10.1182/blood-2008-01-077909](https://doi.org/10.1182/blood-2008-01-077909) · [PubMed 18574048](https://pubmed.ncbi.nlm.nih.gov/18574048/)
