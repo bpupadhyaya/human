@@ -169,6 +169,15 @@ cross_links:
   - target: 01-human/03-molecular/pik3ca
     relation: connects-to
     note: "PIK3CA links the tumor to aspirin: mutations in this gene activate PI3K signaling in a subset of colorectal cancers, and the chemopreventive benefit of aspirin appears concentrated in these PIK3CA-mutant tumors."
+  - target: 01-human/03-molecular/ctnnb1
+    relation: connects-to
+    note: "The Wnt switch is thrown at the gene that APC guards: when APC fails, β-catenin (CTNNB1) escapes degradation, enters the nucleus and turns on growth genes — the molecular heart of the adenoma-carcinoma sequence, and the rare driver when CTNNB1 itself is mutated."
+  - target: 02-pathogen/02-bacteria/escherichia-coli
+    relation: connects-to
+    note: "A gut bacterium can be a carcinogen: strains of E. coli carrying the pks island make colibactin, a genotoxin that scars colon-cell DNA with a signature mutation pattern, directly implicating the microbiome in colorectal tumor initiation."
+  - target: 01-human/04-cellular/hepatocyte
+    relation: connects-to
+    note: "The liver is its favored landing site: colorectal cells seeding the portal blood lodge among hepatocytes to grow liver metastases, the disease's commonest spread and the reason a resectable liver lesion can still mean cure."
 ---
 
 # Colorectal Cancer
@@ -335,6 +344,9 @@ The step-wise genetic progression from normal epithelium to carcinoma in CRC was
 - `connects-to` → **[Venous Thromboembolism](../venous-thromboembolism/README.md)** — Colorectal cancer thickens the blood: tumor procoagulants, surgery, and chemotherapy combine to make deep-vein thrombosis and pulmonary embolism common, so clot prophylaxis is routine around treatment of this cancer.
 - `connects-to` → **[Cardiomyocyte](../../04-cellular/cardiomyocyte/README.md)** — The 5-FU backbone can stun the heart: fluoropyrimidine chemotherapy (5-FU, capecitabine) provokes coronary vasospasm and direct cardiomyocyte injury, causing chest pain and even infarction that interrupts colorectal cancer treatment.
 - `connects-to` → **[PIK3CA](../../03-molecular/pik3ca/README.md)** — PIK3CA links the tumor to aspirin: mutations in this gene activate PI3K signaling in a subset of colorectal cancers, and the chemopreventive benefit of aspirin appears concentrated in these PIK3CA-mutant tumors.
+- `connects-to` → **[CTNNB1](../../03-molecular/ctnnb1/README.md)** — The Wnt switch is thrown at the gene that APC guards: when APC fails, β-catenin (CTNNB1) escapes degradation, enters the nucleus and turns on growth genes — the molecular heart of the adenoma-carcinoma sequence, and the rare driver when CTNNB1 itself is mutated.
+- `connects-to` → **[Escherichia coli](../../../02-pathogen/02-bacteria/escherichia-coli/README.md)** — A gut bacterium can be a carcinogen: strains of E. coli carrying the pks island make colibactin, a genotoxin that scars colon-cell DNA with a signature mutation pattern, directly implicating the microbiome in colorectal tumor initiation.
+- `connects-to` → **[Hepatocyte](../../04-cellular/hepatocyte/README.md)** — The liver is its favored landing site: colorectal cells seeding the portal blood lodge among hepatocytes to grow liver metastases, the disease's commonest spread and the reason a resectable liver lesion can still mean cure.
 
 ---
 

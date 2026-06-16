@@ -169,6 +169,15 @@ cross_links:
   - target: 01-human/06-organ/thyroid
     relation: connects-to
     note: "COVID can inflame the thyroid: subacute (de Quervain) thyroiditis is a recognized sequela, transiently disturbing thyroid function weeks after the infection through immune-mediated gland injury."
+  - target: 01-human/03-molecular/bradykinin
+    relation: connects-to
+    note: "Disabling ACE2 may unleash a 'bradykinin storm': because ACE2 normally degrades bradykinin, the virus's hijacking of the receptor lets this vasodilator build up, a proposed driver of the vascular leak and fluid-filled lungs of severe COVID."
+  - target: 01-human/05-tissue/guillain-barre
+    relation: connects-to
+    note: "It can misdirect the immune attack onto nerves: COVID is among the infections that trigger Guillain-Barré syndrome, an autoimmune assault on peripheral nerve myelin causing ascending weakness in the weeks after illness."
+  - target: 01-human/04-cellular/mast-cell
+    relation: connects-to
+    note: "Overactive mast cells may fuel the worst of it: mast cell activation contributes to the cytokine surge of severe disease and is a leading suspect in the lingering, multi-system symptoms of long COVID."
 ---
 
 # COVID-19 Disease
@@ -284,6 +293,9 @@ Symptoms persisting >4 weeks: fatigue (most common), cognitive impairment ("brai
 - `connects-to` → **[Cardiomyocyte](../../04-cellular/cardiomyocyte/README.md)** — COVID reaches the heart muscle: the virus and the inflammation it ignites injure cardiomyocytes, causing a troponin rise, myocarditis and arrhythmias in acute illness and lingering palpitations and chest pain in long COVID.
 - `connects-to` → **[NLRP3 Inflammasome](../../03-molecular/nlrp3-inflammasome/README.md)** — The virus trips an inflammatory alarm: SARS-CoV-2 activates the NLRP3 inflammasome in macrophages to release IL-1β, a key spark of the cytokine storm that drives severe COVID and a target of anti-inflammatory therapy.
 - `connects-to` → **[Thyroid Gland](../../06-organ/thyroid/README.md)** — COVID can inflame the thyroid: subacute (de Quervain) thyroiditis is a recognized sequela, transiently disturbing thyroid function weeks after the infection through immune-mediated gland injury.
+- `connects-to` → **[Bradykinin](../../03-molecular/bradykinin/README.md)** — Disabling ACE2 may unleash a 'bradykinin storm': because ACE2 normally degrades bradykinin, the virus's hijacking of the receptor lets this vasodilator build up, a proposed driver of the vascular leak and fluid-filled lungs of severe COVID.
+- `connects-to` → **[Guillain-Barré Syndrome](../../05-tissue/guillain-barre/README.md)** — It can misdirect the immune attack onto nerves: COVID is among the infections that trigger Guillain-Barré syndrome, an autoimmune assault on peripheral nerve myelin causing ascending weakness in the weeks after illness.
+- `connects-to` → **[Mast Cell](../../04-cellular/mast-cell/README.md)** — Overactive mast cells may fuel the worst of it: mast cell activation contributes to the cytokine surge of severe disease and is a leading suspect in the lingering, multi-system symptoms of long COVID.
 
 ## Pathology
 
