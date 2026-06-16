@@ -165,6 +165,15 @@ cross_links:
   - target: 01-human/04-cellular/platelet
     relation: connects-to
     note: "Chronic HBV erodes the platelet count: as it scars the liver into cirrhosis, portal hypertension enlarges the spleen and sequesters platelets, while the disease can also trigger an immune thrombocytopenia."
+  - target: 01-human/03-molecular/tert
+    relation: connects-to
+    note: "The virus can switch on immortality by where it lands: HBV DNA integrates into the host genome, often near the TERT promoter, reactivating telomerase — a direct, integration-driven route to liver cancer even without cirrhosis."
+  - target: 01-human/03-molecular/ctnnb1
+    relation: connects-to
+    note: "It drives a signature liver-cancer mutation: HBV-related hepatocellular carcinomas frequently activate β-catenin (CTNNB1), throwing the Wnt growth switch that, with TERT activation, transforms the chronically infected hepatocyte."
+  - target: 01-human/07-system/ckd
+    relation: connects-to
+    note: "The immune response can scar the kidney: circulating HBV antigen-antibody complexes deposit in the glomeruli, causing membranous nephropathy and other glomerulonephritis that can progress to chronic kidney disease."
 ---
 
 # Hepatitis B
@@ -349,3 +358,6 @@ HDV is a satellite RNA virus that requires HBsAg for virion assembly:
 - `connects-to` → **[STAT1](../../03-molecular/stat1/README.md)** — Interferon fights the virus through STAT1: the type-I interferon response signals via JAK-STAT1 to switch on antiviral genes in infected hepatocytes, the pathway harnessed by pegylated interferon, one of the two main HBV treatments.
 - `connects-to` → **[Diffuse Large B-Cell Lymphoma](../dlbcl/README.md)** — Treating a lymphoma can reawaken HBV: rituximab and chemotherapy for diffuse large B-cell lymphoma strip the immune control of the virus, causing a dangerous reactivation, so HBV screening and antiviral prophylaxis precede such treatment.
 - `connects-to` → **[Platelet](../../04-cellular/platelet/README.md)** — Chronic HBV erodes the platelet count: as it scars the liver into cirrhosis, portal hypertension enlarges the spleen and sequesters platelets, while the disease can also trigger an immune thrombocytopenia.
+- `connects-to` → **[TERT](../../03-molecular/tert/README.md)** — The virus can switch on immortality by where it lands: HBV DNA integrates into the host genome, often near the TERT promoter, reactivating telomerase — a direct, integration-driven route to liver cancer even without cirrhosis.
+- `connects-to` → **[CTNNB1](../../03-molecular/ctnnb1/README.md)** — It drives a signature liver-cancer mutation: HBV-related hepatocellular carcinomas frequently activate β-catenin (CTNNB1), throwing the Wnt growth switch that, with TERT activation, transforms the chronically infected hepatocyte.
+- `connects-to` → **[Chronic Kidney Disease](../ckd/README.md)** — The immune response can scar the kidney: circulating HBV antigen-antibody complexes deposit in the glomeruli, causing membranous nephropathy and other glomerulonephritis that can progress to chronic kidney disease.

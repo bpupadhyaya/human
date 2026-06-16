@@ -165,6 +165,15 @@ cross_links:
   - target: 01-human/04-cellular/fibroblast
     relation: connects-to
     note: "The liver's stellate cells lay down the scar: chronic HCV inflammation activates hepatic stellate cells into collagen-secreting myofibroblasts, the engine of the fibrosis that progresses to cirrhosis over decades."
+  - target: 01-human/03-molecular/insulin
+    relation: connects-to
+    note: "It deranges glucose handling: HCV directly impairs insulin signaling in the liver, so chronic infection causes insulin resistance and type 2 diabetes more often than other liver diseases — a metabolic effect that often improves after cure."
+  - target: 01-human/04-cellular/endothelial-cell
+    relation: connects-to
+    note: "Immune complexes attack small vessels: HCV-driven cryoglobulins lodge in capillary walls and inflame endothelium, producing the cryoglobulinemic vasculitis that damages skin, nerves and kidneys far from the liver."
+  - target: 01-human/07-system/mantle-cell-lymphoma
+    relation: connects-to
+    note: "Chronic B-cell stimulation can turn malignant: by relentlessly driving B cells, HCV raises the risk of several non-Hodgkin lymphomas, and antiviral cure can sometimes regress these virus-driven lymphoproliferative disorders."
 ---
 
 # Hepatitis C
@@ -340,3 +349,6 @@ HCV cirrhosis → HCC risk 1–5% per year (annual ultrasound surveillance ± AF
 - `connects-to` → **[Waldenström Macroglobulinemia](../waldenstrom-macroglobulinemia/README.md)** — Chronic HCV can drive a B-cell cancer: relentless antigen stimulation of B cells underlies its mixed cryoglobulinemia and a raised risk of B-cell lymphomas including marginal-zone and lymphoplasmacytic Waldenström-type disease, some of which regress when the virus is cured.
 - `connects-to` → **[Spleen](../../06-organ/spleen/README.md)** — HCV cirrhosis backs up into the spleen: portal hypertension enlarges it and traps platelets and white cells through hypersplenism, the low counts often the first laboratory hint of advanced liver scarring.
 - `connects-to` → **[Fibroblast](../../04-cellular/fibroblast/README.md)** — The liver's stellate cells lay down the scar: chronic HCV inflammation activates hepatic stellate cells into collagen-secreting myofibroblasts, the engine of the fibrosis that progresses to cirrhosis over decades.
+- `connects-to` → **[Insulin](../../03-molecular/insulin/README.md)** — It deranges glucose handling: HCV directly impairs insulin signaling in the liver, so chronic infection causes insulin resistance and type 2 diabetes more often than other liver diseases — a metabolic effect that often improves after cure.
+- `connects-to` → **[Endothelial Cell](../../04-cellular/endothelial-cell/README.md)** — Immune complexes attack small vessels: HCV-driven cryoglobulins lodge in capillary walls and inflame endothelium, producing the cryoglobulinemic vasculitis that damages skin, nerves and kidneys far from the liver.
+- `connects-to` → **[Mantle Cell Lymphoma](../mantle-cell-lymphoma/README.md)** — Chronic B-cell stimulation can turn malignant: by relentlessly driving B cells, HCV raises the risk of several non-Hodgkin lymphomas, and antiviral cure can sometimes regress these virus-driven lymphoproliferative disorders.
