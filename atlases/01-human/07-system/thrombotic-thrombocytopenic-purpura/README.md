@@ -175,6 +175,15 @@ cross_links:
   - target: 01-human/07-system/sepsis
     relation: connects-to
     note: "Severe infection can fracture the picture: sepsis triggers its own microangiopathy and consumptive coagulopathy that overlaps TTP's low platelets and organ damage, a key mimic that must be sorted out before committing to plasma exchange."
+  - target: 01-human/03-molecular/stat3
+    relation: connects-to
+    note: "STAT3 keeps the autoantibody factory running: acquired TTP is driven by anti-ADAMTS13 IgG, and STAT3 signaling supports the survival of the plasma cells that secrete it — part of why B-cell-directed rituximab quiets relapsing disease."
+  - target: 01-human/03-molecular/nf-kb
+    relation: connects-to
+    note: "NF-κB primes the endothelium that clots: inflammatory activation of endothelial cells through NF-κB promotes release of ultralarge von Willebrand factor multimers, the very strings that uncleaved ADAMTS13 fails to cut in TTP."
+  - target: 01-human/03-molecular/il-6
+    relation: connects-to
+    note: "IL-6 rises with the acute storm: levels of this inflammatory cytokine climb during acute TTP episodes and track with severity, reflecting the systemic inflammation that accompanies the microvascular thrombosis."
 ---
 
 # Thrombotic Thrombocytopenic Purpura
@@ -382,6 +391,9 @@ In healthy individuals, ADAMTS13 (~190 kDa plasma glycoprotein; hepatic synthesi
 - `connects-to` → **[FcRn](../../03-molecular/fcrn/README.md)** — The disease lives on a recycled antibody: the anti-ADAMTS13 IgG that causes immune TTP is kept in circulation by FcRn, so FcRn blockers that speed IgG clearance are an emerging way to lower the autoantibody without broad immunosuppression.
 - `connects-to` → **[Escherichia coli](../../../02-pathogen/02-bacteria/escherichia-coli/README.md)** — A bacterial toxin makes the look-alike: Shiga-toxin E. coli causes typical hemolytic uremic syndrome, a thrombotic microangiopathy that mimics TTP's clotting and red-cell shredding but spares ADAMTS13 and centers on the kidney.
 - `connects-to` → **[Sepsis](../sepsis/README.md)** — Severe infection can fracture the picture: sepsis triggers its own microangiopathy and consumptive coagulopathy that overlaps TTP's low platelets and organ damage, a key mimic that must be sorted out before committing to plasma exchange.
+- `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — STAT3 keeps the autoantibody factory running: acquired TTP is driven by anti-ADAMTS13 IgG, and STAT3 signaling supports the survival of the plasma cells that secrete it — part of why B-cell-directed rituximab quiets relapsing disease.
+- `connects-to` → **[NF-κB](../../03-molecular/nf-kb/README.md)** — NF-κB primes the endothelium that clots: inflammatory activation of endothelial cells through NF-κB promotes release of ultralarge von Willebrand factor multimers, the very strings that uncleaved ADAMTS13 fails to cut in TTP.
+- `connects-to` → **[Interleukin-6](../../03-molecular/il-6/README.md)** — IL-6 rises with the acute storm: levels of this inflammatory cytokine climb during acute TTP episodes and track with severity, reflecting the systemic inflammation that accompanies the microvascular thrombosis.
 
 ---
 

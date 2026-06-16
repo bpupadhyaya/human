@@ -175,6 +175,15 @@ cross_links:
   - target: 01-human/07-system/ckd
     relation: connects-to
     note: "The kidneys can fail abruptly or slowly: scleroderma renal crisis brings sudden hypertensive kidney failure, while chronic vascular injury erodes function over time, leaving chronic kidney disease as a lasting toll of the vasculopathy."
+  - target: 01-human/03-molecular/stat3
+    relation: connects-to
+    note: "STAT3 links inflammation to fibrosis: downstream of IL-6, STAT3 activation in fibroblasts and immune cells drives the collagen-producing program, making it a studied node in scleroderma's self-sustaining fibrotic loop."
+  - target: 01-human/07-system/venous-thromboembolism
+    relation: connects-to
+    note: "The vasculopathy raises clot risk: systemic sclerosis carries an increased rate of deep-vein thrombosis and pulmonary embolism, layered on top of its hallmark microvascular and pulmonary-arterial disease."
+  - target: 01-human/07-system/sepsis
+    relation: connects-to
+    note: "Skin and lung breaches invite infection: digital ulcers from Raynaud-driven ischemia and aspiration into fibrotic lungs from esophageal dysmotility give scleroderma several routes to serious infection and sepsis."
 ---
 
 # Systemic Sclerosis
@@ -341,6 +350,9 @@ Identical to IPAH: medial hypertrophy, intimal fibrosis, concentric laminar inti
 - `connects-to` → **[Interleukin-13](../../03-molecular/il-13/README.md)** — Allergy-type cytokines turn fibrotic here: IL-13 with IL-4 from a Th2-skewed response goads fibroblasts into making collagen, an arm of the fibrotic drive alongside TGF-β that is a target for the antifibrotic strategies in scleroderma.
 - `connects-to` → **[Cardiomyocyte](../../04-cellular/cardiomyocyte/README.md)** — The heart muscle scars from within: microvascular damage and fibrosis lay down collagen between cardiomyocytes, producing the myocardial fibrosis, conduction problems and heart failure that make cardiac involvement a leading cause of death in scleroderma.
 - `connects-to` → **[Chronic Kidney Disease](../ckd/README.md)** — The kidneys can fail abruptly or slowly: scleroderma renal crisis brings sudden hypertensive kidney failure, while chronic vascular injury erodes function over time, leaving chronic kidney disease as a lasting toll of the vasculopathy.
+- `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — STAT3 links inflammation to fibrosis: downstream of IL-6, STAT3 activation in fibroblasts and immune cells drives the collagen-producing program, making it a studied node in scleroderma's self-sustaining fibrotic loop.
+- `connects-to` → **[Venous Thromboembolism](../venous-thromboembolism/README.md)** — The vasculopathy raises clot risk: systemic sclerosis carries an increased rate of deep-vein thrombosis and pulmonary embolism, layered on top of its hallmark microvascular and pulmonary-arterial disease.
+- `connects-to` → **[Sepsis](../sepsis/README.md)** — Skin and lung breaches invite infection: digital ulcers from Raynaud-driven ischemia and aspiration into fibrotic lungs from esophageal dysmotility give scleroderma several routes to serious infection and sepsis.
 
 [^denton-2017-ssc-review]: Denton CP, Khanna D. Systemic sclerosis. *Lancet.* 2017;390(10103):1685-1699. [doi:10.1016/S0140-6736(17)30933-9](https://doi.org/10.1016/S0140-6736(17)30933-9) · [PubMed 28413064](https://pubmed.ncbi.nlm.nih.gov/28413064/)
 [^distler-2019-nintedanib-senscis]: Distler O, Highland KB, Gahlemann M, et al. Nintedanib for Systemic Sclerosis-Associated Interstitial Lung Disease. *N Engl J Med.* 2019;380(26):2518-2528. [doi:10.1056/NEJMoa1903076](https://doi.org/10.1056/NEJMoa1903076) · [PubMed 31112379](https://pubmed.ncbi.nlm.nih.gov/31112379/)
