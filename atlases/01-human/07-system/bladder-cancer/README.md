@@ -166,6 +166,15 @@ cross_links:
   - target: 01-human/04-cellular/platelet
     relation: connects-to
     note: "Bladder cancer drives a clotting state: paraneoplastic thrombocytosis is common and marks worse prognosis, and the tumor's pro-coagulant milieu raises the risk of venous thromboembolism that complicates surgery and chemotherapy."
+  - target: 01-human/03-molecular/pik3ca
+    relation: connects-to
+    note: "PI3K signaling is a core bladder-cancer driver: PIK3CA mutations are among the commonest in luminal urothelial tumors, switching on the AKT-mTOR growth pathway and marking a targetable vulnerability."
+  - target: 01-human/04-cellular/b-cell
+    relation: connects-to
+    note: "B cells gathered in the tumor predict response: tertiary lymphoid structures rich in B cells within bladder tumors forecast better outcomes with immune-checkpoint therapy, a sign the local antibody response matters."
+  - target: 01-human/07-system/hnscc
+    relation: connects-to
+    note: "Smoking sows cancer across many linings: bladder and head-and-neck squamous cancers share tobacco and carcinogen exposure, so a field-cancerized patient with one carries a raised risk of the other."
 ---
 
 # Bladder Cancer
@@ -336,6 +345,9 @@ NMIBC and MIBC have distinct molecular landscapes:
 - `connects-to` → **[Mycobacterium tuberculosis](../../../02-pathogen/02-bacteria/mycobacterium-tuberculosis/README.md)** — Bladder cancer is treated with a live mycobacterium: intravesical BCG — the attenuated M. bovis strain kin to the TB bacillus — is the standard adjuvant for high-risk non-muscle-invasive disease, igniting a Th1 response that clears tumor cells and can resemble disseminated TB.
 - `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — Radical cystectomy reaches the reproductive organs: removing the bladder for muscle-invasive cancer usually takes the prostate and seminal vesicles in men, or the uterus and ovaries in women, costing fertility and sexual function alongside urinary diversion.
 - `connects-to` → **[Platelet](../../04-cellular/platelet/README.md)** — Bladder cancer drives a clotting state: paraneoplastic thrombocytosis is common and marks worse prognosis, and the tumor's pro-coagulant milieu raises the risk of venous thromboembolism that complicates surgery and chemotherapy.
+- `connects-to` → **[PIK3CA](../../03-molecular/pik3ca/README.md)** — PI3K signaling is a core bladder-cancer driver: PIK3CA mutations are among the commonest in luminal urothelial tumors, switching on the AKT-mTOR growth pathway and marking a targetable vulnerability.
+- `connects-to` → **[B Cell](../../04-cellular/b-cell/README.md)** — B cells gathered in the tumor predict response: tertiary lymphoid structures rich in B cells within bladder tumors forecast better outcomes with immune-checkpoint therapy, a sign the local antibody response matters.
+- `connects-to` → **[HNSCC](../hnscc/README.md)** — Smoking sows cancer across many linings: bladder and head-and-neck squamous cancers share tobacco and carcinogen exposure, so a field-cancerized patient with one carries a raised risk of the other.
 
 ---
 

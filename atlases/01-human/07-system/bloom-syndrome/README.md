@@ -160,6 +160,15 @@ cross_links:
   - target: 01-human/04-cellular/t-cytotoxic-cell
     relation: connects-to
     note: "Bloom's failing immunity meets its cancer risk: weakened cytotoxic T-cell surveillance lets genomically unstable, mutation-riddled cells slip past immune killing, compounding the extraordinary lifetime cancer predisposition that defines the syndrome."
+  - target: 01-human/03-molecular/igf-1
+    relation: connects-to
+    note: "The growth axis runs low in Bloom: despite normal growth hormone, low IGF-1 signaling underlies the profound pre- and postnatal growth deficiency that gives these patients their characteristic small, lean stature."
+  - target: 01-human/07-system/mds
+    relation: connects-to
+    note: "The unstable genome breaks first in the marrow: Bloom syndrome's chromosomal instability drives myelodysplastic syndromes and leukemia at strikingly young ages, among the earliest of its many cancers."
+  - target: 01-human/04-cellular/plasma-cell
+    relation: connects-to
+    note: "Antibody output runs short: Bloom's immunodeficiency includes poor plasma-cell function and low immunoglobulin levels, leaving patients prone to the recurrent respiratory and ear infections of childhood."
 ---
 
 # Bloom Syndrome
@@ -345,6 +354,9 @@ BS is characterized by three cardinal features: **small body size** (the most co
 - `connects-to` → **[Thymus](../../06-organ/thymus/README.md)** — Bloom syndrome comes with immune deficiency: poor antibody responses and reduced thymus-derived T-cell function leave children prone to recurrent ear, sinus and lung infections, part of why infections rival cancer as a cause of early death.
 - `connects-to` → **[Insulin](../../03-molecular/insulin/README.md)** — Bloom bodies resist insulin: many patients develop insulin resistance and early type 2 diabetes despite their small, lean frames, a metabolic derangement tied to the syndrome that adds to its lifelong health burden.
 - `connects-to` → **[Cytotoxic T Cell](../../04-cellular/t-cytotoxic-cell/README.md)** — Bloom's failing immunity meets its cancer risk: weakened cytotoxic T-cell surveillance lets genomically unstable, mutation-riddled cells slip past immune killing, compounding the extraordinary lifetime cancer predisposition that defines the syndrome.
+- `connects-to` → **[IGF-1](../../03-molecular/igf-1/README.md)** — The growth axis runs low in Bloom: despite normal growth hormone, low IGF-1 signaling underlies the profound pre- and postnatal growth deficiency that gives these patients their characteristic small, lean stature.
+- `connects-to` → **[Myelodysplastic Syndromes](../mds/README.md)** — The unstable genome breaks first in the marrow: Bloom syndrome's chromosomal instability drives myelodysplastic syndromes and leukemia at strikingly young ages, among the earliest of its many cancers.
+- `connects-to` → **[Plasma Cell](../../04-cellular/plasma-cell/README.md)** — Antibody output runs short: Bloom's immunodeficiency includes poor plasma-cell function and low immunoglobulin levels, leaving patients prone to the recurrent respiratory and ear infections of childhood.
 
 ---
 
