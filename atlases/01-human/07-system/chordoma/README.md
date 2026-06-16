@@ -169,6 +169,15 @@ cross_links:
   - target: 01-human/04-cellular/natural-killer-cell
     relation: connects-to
     note: "Immunotherapy aims past the cold tumor: brachyury-targeted vaccines and natural-killer-cell-engaging approaches are being tested to attack chordoma, whose poor blood supply and immune evasion resist conventional treatment."
+  - target: 01-human/03-molecular/yap1
+    relation: connects-to
+    note: "Hippo-YAP signaling feeds the notochordal tumor: YAP1 activity cooperates with brachyury to sustain chordoma cell proliferation and survival, marking the Hippo pathway as a candidate target in a cancer with few effective drugs."
+  - target: 01-human/07-system/neuropathic-pain
+    relation: connects-to
+    note: "Chordoma hurts by crushing nerves: as it grows in the sacrum or clivus it compresses nerve roots and the spinal cord, causing the radicular and neuropathic pain that is often its first symptom."
+  - target: 01-human/07-system/multiple-myeloma
+    relation: connects-to
+    note: "A destructive axial bone lesion poses a differential: a lytic sacral or vertebral mass on imaging must be told apart from myeloma and metastasis, since chordoma's notochordal origin and brachyury staining set it apart and change treatment."
 ---
 
 # Chordoma
@@ -354,6 +363,9 @@ CDKN2A deletion in ~30-40% → CDK4/6 hyperactivation → RB1 phosphorylation; p
 - `connects-to` → **[SMARCB1](../../03-molecular/smarcb1/README.md)** — A rare aggressive variant loses SMARCB1: poorly-differentiated chordoma deletes this chromatin-remodeling gene, the same loss that defines rhabdoid tumors, marking a more lethal subtype that strikes the young.
 - `connects-to` → **[Atypical Teratoid/Rhabdoid Tumor](../atypical-teratoid-rhabdoid-tumor/README.md)** — SMARCB1 loss links them across tissues: poorly-differentiated chordoma and ATRT share deletion of the same chromatin-remodeling gene, an epigenetic lesion that ties a notochordal bone tumor to a brain rhabdoid tumor.
 - `connects-to` → **[Natural Killer Cell](../../04-cellular/natural-killer-cell/README.md)** — Immunotherapy aims past the cold tumor: brachyury-targeted vaccines and natural-killer-cell-engaging approaches are being tested to attack chordoma, whose poor blood supply and immune evasion resist conventional treatment.
+- `connects-to` → **[YAP1](../../03-molecular/yap1/README.md)** — Hippo-YAP signaling feeds the notochordal tumor: YAP1 activity cooperates with brachyury to sustain chordoma cell proliferation and survival, marking the Hippo pathway as a candidate target in a cancer with few effective drugs.
+- `connects-to` → **[Neuropathic Pain](../neuropathic-pain/README.md)** — Chordoma hurts by crushing nerves: as it grows in the sacrum or clivus it compresses nerve roots and the spinal cord, causing the radicular and neuropathic pain that is often its first symptom.
+- `connects-to` → **[Multiple Myeloma](../multiple-myeloma/README.md)** — A destructive axial bone lesion poses a differential: a lytic sacral or vertebral mass on imaging must be told apart from myeloma and metastasis, since chordoma's notochordal origin and brachyury staining set it apart and change treatment.
 
 ---
 

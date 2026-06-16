@@ -177,6 +177,15 @@ cross_links:
   - target: 01-human/07-system/sjogrens-syndrome
     relation: connects-to
     note: "Systemic autoimmunity can carry CIDP with it: Sjögren's and other connective-tissue diseases are associated with chronic inflammatory demyelinating neuropathy, a secondary form pointing to a shared loss of tolerance."
+  - target: 01-human/03-molecular/il-17a
+    relation: connects-to
+    note: "A Th17 arm helps strip the myelin: IL-17A from autoreactive helper T cells promotes the inflammatory attack on peripheral nerve in CIDP, part of the cytokine milieu that breaks immune tolerance to myelin."
+  - target: 01-human/04-cellular/natural-killer-cell
+    relation: connects-to
+    note: "Faltering NK regulation lets autoimmunity run: natural killer cells normally help restrain autoreactive T cells, and their reduced number and function in CIDP is one of the immune-regulatory failures behind the chronic demyelination."
+  - target: 01-human/07-system/hepatitis-c
+    relation: connects-to
+    note: "Chronic infection can drive the neuropathy: hepatitis C is associated with demyelinating and cryoglobulinemic neuropathies that overlap CIDP, so viral serology is part of the workup because it changes treatment."
 ---
 
 # CIDP
@@ -372,6 +381,9 @@ IgG4 anti-NF155 or anti-CNTN1 disrupts this complex → paranodal loop detachmen
 - `connects-to` → **[BAFF](../../03-molecular/baff/README.md)** — BAFF keeps the autoimmune B cells alive: this survival cytokine sustains the antibody-producing B cells that attack peripheral myelin, part of why B-cell-directed rituximab can help refractory CIDP.
 - `connects-to` → **[Multiple Myeloma](../multiple-myeloma/README.md)** — A rogue antibody can strip the nerves: monoclonal gammopathy and multiple myeloma (notably POEMS) produce paraproteins that attack myelin, causing a demyelinating neuropathy that mimics or overlaps CIDP — so a paraprotein screen is part of the workup.
 - `connects-to` → **[Sjögren's Syndrome](../sjogrens-syndrome/README.md)** — Systemic autoimmunity can carry CIDP with it: Sjögren's and other connective-tissue diseases are associated with chronic inflammatory demyelinating neuropathy, a secondary form pointing to a shared loss of tolerance.
+- `connects-to` → **[IL-17A](../../03-molecular/il-17a/README.md)** — A Th17 arm helps strip the myelin: IL-17A from autoreactive helper T cells promotes the inflammatory attack on peripheral nerve in CIDP, part of the cytokine milieu that breaks immune tolerance to myelin.
+- `connects-to` → **[Natural Killer Cell](../../04-cellular/natural-killer-cell/README.md)** — Faltering NK regulation lets autoimmunity run: natural killer cells normally help restrain autoreactive T cells, and their reduced number and function in CIDP is one of the immune-regulatory failures behind the chronic demyelination.
+- `connects-to` → **[Hepatitis C](../hepatitis-c/README.md)** — Chronic infection can drive the neuropathy: hepatitis C is associated with demyelinating and cryoglobulinemic neuropathies that overlap CIDP, so viral serology is part of the workup because it changes treatment.
 
 ---
 
