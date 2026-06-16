@@ -160,6 +160,15 @@ cross_links:
   - target: 01-human/06-organ/thyroid
     relation: connects-to
     note: "Old radiation seeds later skin cancer: childhood radiotherapy to fields like the head and neck — the same exposure that risks thyroid cancer — raises the chance of basal cell carcinoma arising in the irradiated skin decades on."
+  - target: 01-human/03-molecular/egfr
+    relation: connects-to
+    note: "Beyond hedgehog, growth-factor signaling helps: basal cell carcinomas express EGFR, whose activation supports their proliferation and survival and may contribute to resistance when hedgehog inhibitors fail."
+  - target: 01-human/03-molecular/cyclin-d1
+    relation: connects-to
+    note: "Hedgehog drives the cell cycle through cyclin D1: unchecked GLI signaling in BCC raises cyclin D1 to push cells past the G1 checkpoint, the proliferative engine downstream of the PTCH1-SMO pathway."
+  - target: 02-pathogen/01-viruses/hpv-16
+    relation: connects-to
+    note: "Viruses may cofactor with the sun: beta-papillomaviruses are implicated as cocarcinogens in UV-driven non-melanoma skin cancer, especially in the immunosuppressed, adding a viral hit to the genetic damage behind some BCCs."
 ---
 
 # Basal Cell Carcinoma
@@ -329,6 +338,9 @@ BCC has a complex immune microenvironment:
 - `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — Hedgehog drugs are fiercely teratogenic: because Sonic hedgehog patterns the embryo, vismodegib and sonidegib can cause severe birth defects, demanding strict contraception and a ban on blood donation during and after treatment.
 - `connects-to` → **[Neutrophil](../../04-cellular/neutrophil/README.md)** — Failing immune surveillance unleashes BCC: organ-transplant recipients and CLL patients, their neutrophils and lymphocytes suppressed, develop numerous and more aggressive basal cell carcinomas as the skin's immune guard falls.
 - `connects-to` → **[Thyroid Gland](../../06-organ/thyroid/README.md)** — Old radiation seeds later skin cancer: childhood radiotherapy to fields like the head and neck — the same exposure that risks thyroid cancer — raises the chance of basal cell carcinoma arising in the irradiated skin decades on.
+- `connects-to` → **[EGFR](../../03-molecular/egfr/README.md)** — Beyond hedgehog, growth-factor signaling helps: basal cell carcinomas express EGFR, whose activation supports their proliferation and survival and may contribute to resistance when hedgehog inhibitors fail.
+- `connects-to` → **[Cyclin D1](../../03-molecular/cyclin-d1/README.md)** — Hedgehog drives the cell cycle through cyclin D1: unchecked GLI signaling in BCC raises cyclin D1 to push cells past the G1 checkpoint, the proliferative engine downstream of the PTCH1-SMO pathway.
+- `connects-to` → **[HPV-16](../../../02-pathogen/01-viruses/hpv-16/README.md)** — Viruses may cofactor with the sun: beta-papillomaviruses are implicated as cocarcinogens in UV-driven non-melanoma skin cancer, especially in the immunosuppressed, adding a viral hit to the genetic damage behind some BCCs.
 
 ---
 

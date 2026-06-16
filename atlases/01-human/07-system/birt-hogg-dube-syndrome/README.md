@@ -160,6 +160,15 @@ cross_links:
   - target: 01-human/04-cellular/erythrocyte
     relation: connects-to
     note: "BHD's kidney surgery costs red cells: repeated nephron-sparing resections of its recurrent renal tumors, and the loss of functioning kidney tissue that makes erythropoietin, can leave carriers anemic over a lifetime of tumor surveillance and surgery."
+  - target: 01-human/07-system/melanoma
+    relation: connects-to
+    note: "FLCN reaches the pigment cells too: Birt-Hogg-Dubé carries a reported increased risk of melanoma, reflecting folliculin's role beyond the kidney and lung in the skin's melanocytes."
+  - target: 01-human/03-molecular/cyclin-d1
+    relation: connects-to
+    note: "Losing FLCN releases the cell cycle: unrestrained mTOR signaling raises cyclin D1 to drive the proliferation behind BHD's hamartomas and renal tumors, the growth engine downstream of folliculin loss."
+  - target: 01-human/07-system/peutz-jeghers-syndrome
+    relation: connects-to
+    note: "It sits among the hamartoma-and-cancer syndromes: like Peutz-Jeghers, BHD is a single-gene disorder that sprouts benign hamartomas (here hair-follicle and lung) alongside a raised risk of specific cancers."
 ---
 
 # Birt-Hogg-Dubé Syndrome
@@ -348,6 +357,9 @@ Definite BHD: 1 major OR 2 minor criteria (European BHD Consortium definition)
 - `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — BHD is autosomal dominant: a single germline FLCN mutation passes to half of a carrier's children, so diagnosis triggers cascade genetic testing of relatives and the option of preimplantation or prenatal testing to keep the kidney and lung risk from reaching the next generation.
 - `connects-to` → **[Basal Cell Carcinoma](../basal-cell-carcinoma/README.md)** — BHD's facial papules mimic skin cancer: its fibrofolliculomas are benign hair-follicle hamartomas that can be mistaken clinically for basal cell carcinoma, so a biopsy distinguishing the two is what often first points to the underlying FLCN syndrome.
 - `connects-to` → **[Erythrocyte](../../04-cellular/erythrocyte/README.md)** — BHD's kidney surgery costs red cells: repeated nephron-sparing resections of its recurrent renal tumors, and the loss of functioning kidney tissue that makes erythropoietin, can leave carriers anemic over a lifetime of tumor surveillance and surgery.
+- `connects-to` → **[Melanoma](../melanoma/README.md)** — FLCN reaches the pigment cells too: Birt-Hogg-Dubé carries a reported increased risk of melanoma, reflecting folliculin's role beyond the kidney and lung in the skin's melanocytes.
+- `connects-to` → **[Cyclin D1](../../03-molecular/cyclin-d1/README.md)** — Losing FLCN releases the cell cycle: unrestrained mTOR signaling raises cyclin D1 to drive the proliferation behind BHD's hamartomas and renal tumors, the growth engine downstream of folliculin loss.
+- `connects-to` → **[Peutz-Jeghers Syndrome](../peutz-jeghers-syndrome/README.md)** — It sits among the hamartoma-and-cancer syndromes: like Peutz-Jeghers, BHD is a single-gene disorder that sprouts benign hamartomas (here hair-follicle and lung) alongside a raised risk of specific cancers.
 
 ---
 
