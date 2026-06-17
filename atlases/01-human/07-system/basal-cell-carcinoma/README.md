@@ -187,6 +187,15 @@ cross_links:
   - target: 01-human/07-system/sepsis
     relation: connects-to
     note: "A neglected giant tumor can become infected: although basal cell carcinoma almost never metastasizes, large ulcerated or neglected lesions—especially in immunosuppressed patients—can develop wound infection that progresses to sepsis."
+  - target: 01-human/07-system/hiv
+    relation: connects-to
+    note: "Immune loss multiplies the lesions: HIV-related immunosuppression raises the incidence of basal cell carcinoma and can make it more aggressive and recurrent, part of the broader skin-cancer excess in immunocompromised hosts."
+  - target: 01-human/07-system/wound-healing
+    relation: connects-to
+    note: "It can erode into a non-healing ulcer: untreated basal cell carcinoma slowly destroys tissue as a 'rodent ulcer,' a chronic non-healing wound that gnaws into skin, cartilage and even bone."
+  - target: 01-human/07-system/major-depressive-disorder
+    relation: connects-to
+    note: "Facial disfigurement weighs on mood: basal cell carcinoma and its surgical removal commonly involve cosmetically sensitive areas of the face, and the resulting scarring and disfigurement can drive depression."
 ---
 
 # Basal Cell Carcinoma
@@ -365,6 +374,9 @@ BCC has a complex immune microenvironment:
 - `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — UV and inflammation activate STAT3 in the skin: STAT3 signaling promotes keratinocyte survival and proliferation after UV damage, contributing to the non-melanoma skin carcinogenesis that gives rise to basal cell carcinoma.
 - `connects-to` → **[CLL](../cll/README.md)** — A leukemia that lets skin cancers run: chronic lymphocytic leukemia's immune dysfunction sharply raises the incidence and aggressiveness of basal cell and other skin cancers, which behave more invasively in these patients.
 - `connects-to` → **[Sepsis](../sepsis/README.md)** — A neglected giant tumor can become infected: although basal cell carcinoma almost never metastasizes, large ulcerated or neglected lesions—especially in immunosuppressed patients—can develop wound infection that progresses to sepsis.
+- `connects-to` → **[HIV](../hiv/README.md)** — Immune loss multiplies the lesions: HIV-related immunosuppression raises the incidence of basal cell carcinoma and can make it more aggressive and recurrent, part of the broader skin-cancer excess in immunocompromised hosts.
+- `connects-to` → **[Wound Healing](../wound-healing/README.md)** — It can erode into a non-healing ulcer: untreated basal cell carcinoma slowly destroys tissue as a 'rodent ulcer,' a chronic non-healing wound that gnaws into skin, cartilage and even bone.
+- `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — Facial disfigurement weighs on mood: basal cell carcinoma and its surgical removal commonly involve cosmetically sensitive areas of the face, and the resulting scarring and disfigurement can drive depression.
 
 ---
 

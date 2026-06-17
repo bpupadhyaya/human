@@ -187,6 +187,15 @@ cross_links:
   - target: 01-human/07-system/sepsis
     relation: connects-to
     note: "Intensive infant therapy invites infection: the high-dose chemotherapy and sometimes stem-cell rescue used against ATRT cause profound neutropenia, making febrile neutropenia and sepsis a major treatment hazard in these young children."
+  - target: 02-pathogen/03-fungi/aspergillus-fumigatus
+    relation: connects-to
+    note: "Prolonged neutropenia opens the lung to mold: the deep neutropenia of high-dose ATRT chemotherapy and stem-cell rescue lets inhaled Aspergillus invade as pulmonary aspergillosis, a dangerous infection in these infants."
+  - target: 01-human/07-system/ckd
+    relation: connects-to
+    note: "Its platinum chemo is hard on small kidneys: the cisplatin and ifosfamide in ATRT regimens are nephrotoxic, and in an infant the tubular and electrolyte injury can leave lasting chronic kidney impairment."
+  - target: 01-human/07-system/heart-failure
+    relation: connects-to
+    note: "Its anthracyclines can scar the developing heart: doxorubicin used against ATRT is dose-dependently cardiotoxic, risking a cardiomyopathy and heart failure that can surface years into survivorship."
 ---
 
 # Atypical Teratoid/Rhabdoid Tumor
@@ -362,6 +371,9 @@ AT/RT has no established standard of care; protocols are protocol-driven and cen
 - `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — Rhabdoid cells lean on STAT3: SMARCB1-deficient ATRT shows STAT3 activation supporting proliferation and survival, one of the signaling dependencies explored where this aggressive infant tumor resists standard therapy.
 - `connects-to` → **[NF-κB](../../03-molecular/nf-kb/README.md)** — Loss of the SWI/SNF brake lifts NF-κB: SMARCB1 loss in ATRT derepresses inflammatory and survival signaling including NF-κB, contributing to the tumor's growth in the absence of its chromatin-remodeling tumor suppressor.
 - `connects-to` → **[Sepsis](../sepsis/README.md)** — Intensive infant therapy invites infection: the high-dose chemotherapy and sometimes stem-cell rescue used against ATRT cause profound neutropenia, making febrile neutropenia and sepsis a major treatment hazard in these young children.
+- `connects-to` → **[Aspergillus fumigatus](../../../02-pathogen/03-fungi/aspergillus-fumigatus/README.md)** — Prolonged neutropenia opens the lung to mold: the deep neutropenia of high-dose ATRT chemotherapy and stem-cell rescue lets inhaled Aspergillus invade as pulmonary aspergillosis, a dangerous infection in these infants.
+- `connects-to` → **[Chronic Kidney Disease](../ckd/README.md)** — Its platinum chemo is hard on small kidneys: the cisplatin and ifosfamide in ATRT regimens are nephrotoxic, and in an infant the tubular and electrolyte injury can leave lasting chronic kidney impairment.
+- `connects-to` → **[Heart Failure](../heart-failure/README.md)** — Its anthracyclines can scar the developing heart: doxorubicin used against ATRT is dose-dependently cardiotoxic, risking a cardiomyopathy and heart failure that can surface years into survivorship.
 
 ---
 
