@@ -185,6 +185,15 @@ cross_links:
   - target: 01-human/07-system/sepsis
     relation: connects-to
     note: "The lymphatics are a highway for infection: pathogens draining through lymph cause lymphangitis and lymphadenitis, and when the nodes are overwhelmed the infection can spill into the blood as sepsis."
+  - target: 01-human/07-system/hiv-aids
+    relation: connects-to
+    note: "It is a disease of the lymphoid organs: HIV replicates in and progressively destroys the CD4 T cells and lymphoid tissue of the lymphatic system, with persistent lymphadenopathy and eventual collapse of nodal architecture."
+  - target: 01-human/07-system/tuberculosis
+    relation: connects-to
+    note: "It classically inflames the nodes: Mycobacterium tuberculosis causes lymphadenitis — scrofula in the neck — a granulomatous infection of the lymphatic system that can persist or drain through the skin."
+  - target: 01-human/07-system/ptcl
+    relation: connects-to
+    note: "Its own T cells can turn malignant: peripheral T-cell lymphomas arise from the mature T lymphocytes that populate the lymph nodes, an aggressive cancer of the lymphatic system's cellular residents."
 ---
 
 # Lymphatic System
@@ -350,6 +359,9 @@ Enterocytes package dietary triglycerides + cholesterol + apoB-48 into chylomicr
 - `connects-to` → **[Burkitt Lymphoma](../burkitt-lymphoma/README.md)** — The fastest cancer grows in its tissue: Burkitt lymphoma is an explosive germinal-center B-cell tumor of the lymphatic system, the most rapidly proliferating human cancer, often presenting as a bulky nodal or abdominal mass.
 - `connects-to` → **[Epstein-Barr Virus](../../../02-pathogen/01-viruses/epstein-barr-virus/README.md)** — A virus makes the lymphatic system its home: Epstein-Barr virus infects B lymphocytes, causing the lymphadenopathy of mononucleosis and driving several lymphomas that arise from the cells it transforms.
 - `connects-to` → **[Sepsis](../sepsis/README.md)** — The lymphatics are a highway for infection: pathogens draining through lymph cause lymphangitis and lymphadenitis, and when the nodes are overwhelmed the infection can spill into the blood as sepsis.
+- `connects-to` → **[HIV/AIDS](../hiv-aids/README.md)** — It is a disease of the lymphoid organs: HIV replicates in and progressively destroys the CD4 T cells and lymphoid tissue of the lymphatic system, with persistent lymphadenopathy and eventual collapse of nodal architecture.
+- `connects-to` → **[Tuberculosis](../tuberculosis/README.md)** — It classically inflames the nodes: Mycobacterium tuberculosis causes lymphadenitis — scrofula in the neck — a granulomatous infection of the lymphatic system that can persist or drain through the skin.
+- `connects-to` → **[Peripheral T-cell Lymphoma](../ptcl/README.md)** — Its own T cells can turn malignant: peripheral T-cell lymphomas arise from the mature T lymphocytes that populate the lymph nodes, an aggressive cancer of the lymphatic system's cellular residents.
 
 ## Pathology
 
