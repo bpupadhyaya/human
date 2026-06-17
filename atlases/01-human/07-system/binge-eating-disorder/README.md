@@ -162,6 +162,15 @@ cross_links:
   - target: 01-human/04-cellular/regulatory-t-cell
     relation: connects-to
     note: "Fat's immune balance tips: as binge eating expands adipose tissue, its protective regulatory T cells dwindle and inflammatory cells take over, part of how the disorder's weight gain becomes metabolic disease."
+  - target: 01-human/07-system/nervous-system
+    relation: connects-to
+    note: "It is rooted in the brain's reward and control circuits: binge eating disorder reflects dysregulated reward, impulse-control and stress circuitry of the nervous system, the same networks implicated in substance addictions."
+  - target: 01-human/03-molecular/il-6
+    relation: connects-to
+    note: "The weight it adds turns inflammatory: the obesity driven by binge eating raises IL-6 from expanded fat, fueling the low-grade systemic inflammation that links the disorder to insulin resistance and cardiovascular risk."
+  - target: 01-human/07-system/atherosclerosis
+    relation: connects-to
+    note: "Its metabolic toll reaches the arteries: through obesity, dyslipidemia and insulin resistance, binge eating disorder accelerates atherosclerosis, extending its harm to the cardiovascular system."
 sources:
   - id: american-psychiatric-2013-bed-dsm5
     type: clinical-guideline
@@ -371,6 +380,9 @@ BED is among the most psychiatrically comorbid of all eating disorders:
 - `connects-to` → **[Hypertension](../hypertension/README.md)** — The weight it drives raises the pressure: binge eating disorder is the most common eating disorder and a major route to obesity, carrying with it the hypertension that follows excess weight and metabolic strain.
 - `connects-to` → **[NLRP3 Inflammasome](../../03-molecular/nlrp3-inflammasome/README.md)** — Overeating stokes metabolic inflammation: the obesity that binge eating produces activates the NLRP3 inflammasome in fat tissue, releasing IL-1β that drives the insulin resistance linking the disorder to metabolic disease.
 - `connects-to` → **[Regulatory T Cell](../../04-cellular/regulatory-t-cell/README.md)** — Fat's immune balance tips: as binge eating expands adipose tissue, its protective regulatory T cells dwindle and inflammatory cells take over, part of how the disorder's weight gain becomes metabolic disease.
+- `connects-to` → **[Nervous System](../nervous-system/README.md)** — It is rooted in the brain's reward and control circuits: binge eating disorder reflects dysregulated reward, impulse-control and stress circuitry of the nervous system, the same networks implicated in substance addictions.
+- `connects-to` → **[Interleukin-6](../../03-molecular/il-6/README.md)** — The weight it adds turns inflammatory: the obesity driven by binge eating raises IL-6 from expanded fat, fueling the low-grade systemic inflammation that links the disorder to insulin resistance and cardiovascular risk.
+- `connects-to` → **[Atherosclerosis](../atherosclerosis/README.md)** — Its metabolic toll reaches the arteries: through obesity, dyslipidemia and insulin resistance, binge eating disorder accelerates atherosclerosis, extending its harm to the cardiovascular system.
 
 [^american-psychiatric-2013-bed-dsm5]: American Psychiatric Association. Binge Eating Disorder (307.51). In: *Diagnostic and Statistical Manual of Mental Disorders, 5th ed.* Arlington, VA: APA; 2013. [doi:10.1176/appi.books.9780890425596](https://doi.org/10.1176/appi.books.9780890425596)
 [^mccallum-2003-bed-review]: McCallum K, Bruton AM. Binge eating disorder: eating disorder or somatic syndrome? *Prim Care Companion J Clin Psychiatry.* 2003;5(Suppl 4):20-25. [PubMed 15213784](https://pubmed.ncbi.nlm.nih.gov/15213784/)

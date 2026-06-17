@@ -184,6 +184,15 @@ cross_links:
   - target: 01-human/04-cellular/t-helper-cell
     relation: connects-to
     note: "Peripheral immunity shifts with the mood state: altered helper T-cell profiles accompany mania and depression, extending bipolar's neuroinflammatory signature beyond the cytokines into the adaptive immune system."
+  - target: 01-human/03-molecular/nf-kb
+    relation: connects-to
+    note: "Mood episodes ride a wave of inflammation: NF-κB activation drives the cytokine surges seen in mania and depression, the transcriptional engine behind bipolar's well-documented neuroinflammatory signature."
+  - target: 01-human/07-system/atherosclerosis
+    relation: connects-to
+    note: "It shortens life through the heart: bipolar disorder carries markedly elevated cardiovascular mortality, with chronic inflammation, metabolic side effects of medication and lifestyle accelerating atherosclerosis decades early."
+  - target: 01-human/07-system/ckd
+    relation: connects-to
+    note: "Its mainstay drug can scar the kidneys: years of lithium therapy cause nephrogenic diabetes insipidus and chronic interstitial nephritis, so long-term treatment carries a real risk of chronic kidney disease."
 ---
 
 # Bipolar Disorder
@@ -369,6 +378,9 @@ During bipolar depression (often longer and more disabling than mania):
 - `connects-to` → **[Type 2 Diabetes](../type-2-diabetes/README.md)** — Body and mind share the burden: bipolar disorder carries a high rate of type 2 diabetes, driven both by the illness's metabolic biology and by the weight-gaining mood stabilizers and antipsychotics used to treat it.
 - `connects-to` → **[Endocannabinoid System](../../03-molecular/endocannabinoid/README.md)** — The body's cannabis system sways mood: endocannabinoid signaling modulates the emotion and reward circuits disturbed in bipolar disorder, a link reflected in the high rate of cannabis use and its effect on episodes.
 - `connects-to` → **[T Helper Cell](../../04-cellular/t-helper-cell/README.md)** — Peripheral immunity shifts with the mood state: altered helper T-cell profiles accompany mania and depression, extending bipolar's neuroinflammatory signature beyond the cytokines into the adaptive immune system.
+- `connects-to` → **[NF-κB](../../03-molecular/nf-kb/README.md)** — Mood episodes ride a wave of inflammation: NF-κB activation drives the cytokine surges seen in mania and depression, the transcriptional engine behind bipolar's well-documented neuroinflammatory signature.
+- `connects-to` → **[Atherosclerosis](../atherosclerosis/README.md)** — It shortens life through the heart: bipolar disorder carries markedly elevated cardiovascular mortality, with chronic inflammation, metabolic side effects of medication and lifestyle accelerating atherosclerosis decades early.
+- `connects-to` → **[Chronic Kidney Disease](../ckd/README.md)** — Its mainstay drug can scar the kidneys: years of lithium therapy cause nephrogenic diabetes insipidus and chronic interstitial nephritis, so long-term treatment carries a real risk of chronic kidney disease.
 
 [^grande-2016-bipolar-review]: Grande I, Berk M, Birmaher B, Vieta E. Bipolar disorder. *Lancet.* 2016;387(10027):1561-1572. [doi:10.1016/S0140-6736(15)00241-X](https://doi.org/10.1016/S0140-6736(15)00241-X) · [PubMed 26388529](https://pubmed.ncbi.nlm.nih.gov/26388529/)
 [^geddes-2013-bipolar-treatment]: Geddes JR, Miklowitz DJ. Treatment of bipolar disorder. *Lancet.* 2013;381(9878):1672-1682. [doi:10.1016/S0140-6736(13)60857-0](https://doi.org/10.1016/S0140-6736(13)60857-0) · [PubMed 23663953](https://pubmed.ncbi.nlm.nih.gov/23663953/)
