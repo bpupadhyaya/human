@@ -184,6 +184,15 @@ cross_links:
   - target: 01-human/07-system/stroke
     relation: connects-to
     note: "Lung cancer clots the circulation: NSCLC is strongly pro-thrombotic (Trousseau), and tumor-driven hypercoagulability plus nonbacterial thrombotic endocarditis can throw emboli to the brain, causing ischemic stroke."
+  - target: 01-human/03-molecular/nf-kb
+    relation: connects-to
+    note: "Smoking inflames the lung toward cancer through NF-κB: cigarette carcinogens activate NF-κB in bronchial epithelium, driving the survival and inflammatory signaling that underlies much of NSCLC's carcinogenesis and treatment resistance."
+  - target: 01-human/03-molecular/stat3
+    relation: connects-to
+    note: "IL-6 feeds the tumor through STAT3: the inflamed NSCLC microenvironment activates STAT3, promoting proliferation and immune evasion, a pathway especially active in the KRAS-driven and inflamed tumors."
+  - target: 01-human/07-system/anemia-of-chronic-disease
+    relation: connects-to
+    note: "Chronic disease and chemo wear down the blood: the inflammatory cytokines of NSCLC and its marrow-suppressing chemotherapy produce an anemia of chronic disease that worsens fatigue and breathlessness."
 ---
 
 # NSCLC
@@ -340,6 +349,9 @@ cross_links:
 - `connects-to` → **[CDKN2A](../../03-molecular/cdkn2a/README.md)** — Cell-cycle brakes fail in lung cancer: CDKN2A loss is a recurrent event in NSCLC, releasing CDK4/6 to drive proliferation and marking tumors studied for CDK4/6-inhibitor combinations.
 - `connects-to` → **[Sepsis](../sepsis/README.md)** — An obstructing tumor breeds infection: NSCLC blocking a bronchus causes post-obstructive pneumonia, and chemotherapy neutropenia adds to the risk, so pneumonia and sepsis are common in the disease course.
 - `connects-to` → **[Stroke](../stroke/README.md)** — Lung cancer clots the circulation: NSCLC is strongly pro-thrombotic (Trousseau), and tumor-driven hypercoagulability plus nonbacterial thrombotic endocarditis can throw emboli to the brain, causing ischemic stroke.
+- `connects-to` → **[NF-κB](../../03-molecular/nf-kb/README.md)** — Smoking inflames the lung toward cancer through NF-κB: cigarette carcinogens activate NF-κB in bronchial epithelium, driving the survival and inflammatory signaling that underlies much of NSCLC's carcinogenesis and treatment resistance.
+- `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — IL-6 feeds the tumor through STAT3: the inflamed NSCLC microenvironment activates STAT3, promoting proliferation and immune evasion, a pathway especially active in the KRAS-driven and inflamed tumors.
+- `connects-to` → **[Anemia of Chronic Disease](../anemia-of-chronic-disease/README.md)** — Chronic disease and chemo wear down the blood: the inflammatory cytokines of NSCLC and its marrow-suppressing chemotherapy produce an anemia of chronic disease that worsens fatigue and breathlessness.
 
 [^soria-2018-osimertinib-flaura]: Soria JC, Ohe Y, Vansteenkiste J, et al. Osimertinib in untreated EGFR-mutated advanced non-small-cell lung cancer. *N Engl J Med.* 2018;378(2):113-125. [doi:10.1056/NEJMoa1713137](https://doi.org/10.1056/NEJMoa1713137) · [PubMed 29151359](https://pubmed.ncbi.nlm.nih.gov/29151359/)
 [^reck-2016-pembrolizumab-keynote024]: Reck M, Rodríguez-Abreu D, Robinson AG, et al. Pembrolizumab versus chemotherapy for PD-L1-positive non-small-cell lung cancer. *N Engl J Med.* 2016;375(19):1823-1833. [doi:10.1056/NEJMoa1606774](https://doi.org/10.1056/NEJMoa1606774) · [PubMed 27718347](https://pubmed.ncbi.nlm.nih.gov/27718347/)

@@ -178,6 +178,15 @@ cross_links:
   - target: 01-human/07-system/wilms-tumor
     relation: connects-to
     note: "Embryonal tumors join the spectrum: beyond the JMML predisposition, Noonan's RAS-MAPK overdrive carries a raised risk of childhood embryonal cancers including Wilms tumor, part of its tumor surveillance."
+  - target: 01-human/03-molecular/stat3
+    relation: connects-to
+    note: "SHP2 feeds JAK-STAT as well as RAS: the PTPN11/SHP2 mutations of Noonan amplify not only RAS-MAPK but STAT signaling, a crosstalk that contributes to its developmental features and leukemia predisposition."
+  - target: 01-human/03-molecular/nf-kb
+    relation: connects-to
+    note: "RAS-MAPK overdrive engages NF-κB: the constitutive RAS signaling of Noonan's RASopathy mutations activates NF-κB-linked survival and inflammatory pathways alongside the MAPK cascade."
+  - target: 01-human/07-system/major-depressive-disorder
+    relation: connects-to
+    note: "The syndrome carries a psychosocial toll: short stature, distinctive features, learning differences and cardiac disease in Noonan contribute to elevated rates of depression and anxiety."
 ---
 
 # Noonan Syndrome
@@ -369,6 +378,9 @@ NS is characterized by four cardinal features: **(1) short stature** (below 3rd 
 - `connects-to` → **[SPRED1](../../03-molecular/spred1/README.md)** — It belongs to the RASopathy family: SPRED1 loss causes Legius syndrome, a milder NF1-like RASopathy, so SPRED1 anchors the overlapping RAS-MAPK disorders that Noonan must be distinguished from on the gene panel.
 - `connects-to` → **[Pulmonary Arterial Hypertension](../pulmonary-arterial-hypertension/README.md)** — The lymphatic-vascular defect reaches the lung circulation: Noonan and related RASopathies carry a recognized association with pulmonary arterial hypertension, compounding their congenital heart disease.
 - `connects-to` → **[Wilms Tumor](../wilms-tumor/README.md)** — Embryonal tumors join the spectrum: beyond the JMML predisposition, Noonan's RAS-MAPK overdrive carries a raised risk of childhood embryonal cancers including Wilms tumor, part of its tumor surveillance.
+- `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — SHP2 feeds JAK-STAT as well as RAS: the PTPN11/SHP2 mutations of Noonan amplify not only RAS-MAPK but STAT signaling, a crosstalk that contributes to its developmental features and leukemia predisposition.
+- `connects-to` → **[NF-κB](../../03-molecular/nf-kb/README.md)** — RAS-MAPK overdrive engages NF-κB: the constitutive RAS signaling of Noonan's RASopathy mutations activates NF-κB-linked survival and inflammatory pathways alongside the MAPK cascade.
+- `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — The syndrome carries a psychosocial toll: short stature, distinctive features, learning differences and cardiac disease in Noonan contribute to elevated rates of depression and anxiety.
 
 [^tartaglia-2001-ptpn11-noonan]: Tartaglia M, Mehler EL, Goldberg R, et al. Mutations in PTPN11, encoding the protein tyrosine phosphatase SHP-2, cause Noonan syndrome. *Nat Genet.* 2001;29(4):465-468. [doi:10.1038/ng772](https://doi.org/10.1038/ng772) · [PubMed 11704759](https://pubmed.ncbi.nlm.nih.gov/11704759/)
 [^van-der-burgt-2007-noonan-review]: van der Burgt I. Noonan syndrome. *Orphanet J Rare Dis.* 2007;2:4. [doi:10.1186/1750-1172-2-4](https://doi.org/10.1186/1750-1172-2-4) · [PubMed 17222357](https://pubmed.ncbi.nlm.nih.gov/17222357/)
