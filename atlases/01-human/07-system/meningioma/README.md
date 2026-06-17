@@ -178,6 +178,15 @@ cross_links:
   - target: 01-human/07-system/stroke
     relation: connects-to
     note: "A meningioma can choke the brain's drainage: parasagittal tumors invade the dural venous sinuses, and the resulting venous obstruction (or peritumoral edema) can precipitate venous infarction and stroke-like deficits."
+  - target: 01-human/03-molecular/stat3
+    relation: connects-to
+    note: "Merlin loss activates STAT3: NF2/merlin-deficient meningiomas show STAT3 signaling that supports their growth, paralleling the schwannoma biology of the same tumor-suppressor loss."
+  - target: 01-human/03-molecular/nf-kb
+    relation: connects-to
+    note: "Merlin normally restrains NF-κB: its loss in meningioma lifts that brake, engaging NF-κB-driven survival and inflammatory signaling among the pathways downstream of NF2 inactivation."
+  - target: 01-human/07-system/sepsis
+    relation: connects-to
+    note: "Craniotomy carries infectious risk: the surgery used to resect meningiomas can be complicated by wound infection or meningitis, which in the postoperative patient can progress to sepsis."
 ---
 
 # Meningioma
@@ -348,6 +357,9 @@ VEGF overexpression in meningioma (YAP target); Phase 2 COMBIT (Huang 2019, N=40
 - `connects-to` → **[SMARCB1](../../03-molecular/smarcb1/README.md)** — Chromatin-remodeling genes drive familial meningiomas: germline SMARCB1 and SMARCE1 (SWI-SNF) mutations cause multiple and clear-cell/spinal meningiomas, a distinct genetic route apart from the common NF2-loss tumors.
 - `connects-to` → **[Gorlin Syndrome](../gorlin-syndrome/README.md)** — Hedgehog-pathway syndromes seed them too: a subset of meningiomas is driven by SMO/SHH activation, the same pathway deranged in Gorlin syndrome, linking these dural tumors to hedgehog-pathway predisposition.
 - `connects-to` → **[Stroke](../stroke/README.md)** — A meningioma can choke the brain's drainage: parasagittal tumors invade the dural venous sinuses, and the resulting venous obstruction (or peritumoral edema) can precipitate venous infarction and stroke-like deficits.
+- `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — Merlin loss activates STAT3: NF2/merlin-deficient meningiomas show STAT3 signaling that supports their growth, paralleling the schwannoma biology of the same tumor-suppressor loss.
+- `connects-to` → **[NF-κB](../../03-molecular/nf-kb/README.md)** — Merlin normally restrains NF-κB: its loss in meningioma lifts that brake, engaging NF-κB-driven survival and inflammatory signaling among the pathways downstream of NF2 inactivation.
+- `connects-to` → **[Sepsis](../sepsis/README.md)** — Craniotomy carries infectious risk: the surgery used to resect meningiomas can be complicated by wound infection or meningitis, which in the postoperative patient can progress to sepsis.
 
 [^brastianos-2013-akt1-meningioma]: Brastianos PK, Horowitz PM, Santagata S, et al. Genomic sequencing of meningiomas identifies oncogenic SMO and AKT1 mutations. *Nat Genet.* 2013;45(3):285-289. [doi:10.1038/ng.2526](https://doi.org/10.1038/ng.2526) · [PubMed 23334667](https://pubmed.ncbi.nlm.nih.gov/23334667/)
 [^nassiri-2021-meningioma-classification]: Nassiri F, Liu J, Patil V, et al. A clinically applicable integrative molecular classification of meningiomas. *Nature.* 2021;597(7874):119-125. [doi:10.1038/s41586-021-03850-3](https://doi.org/10.1038/s41586-021-03850-3) · [PubMed 34385709](https://pubmed.ncbi.nlm.nih.gov/34385709/)

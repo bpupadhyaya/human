@@ -178,6 +178,15 @@ cross_links:
   - target: 01-human/07-system/heart-failure
     relation: connects-to
     note: "It can wrap and squeeze the heart: pericardial mesothelioma — and pleural disease encasing the heart — causes effusion and constriction that impair filling, producing a restrictive heart failure."
+  - target: 01-human/03-molecular/stat3
+    relation: connects-to
+    note: "Asbestos-driven inflammation feeds STAT3: the chronic IL-6-rich inflammation that asbestos provokes in the pleura activates STAT3, a survival and proliferation signal central to mesothelioma's inflammation-to-cancer origin."
+  - target: 01-human/07-system/sepsis
+    relation: connects-to
+    note: "An infected pleural space turns dangerous: recurrent pleural effusions, indwelling drains, pleurodesis and major surgery for mesothelioma can seed empyema and bloodstream infection that progress to sepsis."
+  - target: 01-human/07-system/anemia-of-chronic-disease
+    relation: connects-to
+    note: "Chronic inflammation wears down the blood: the IL-6-driven inflammatory state of mesothelioma suppresses erythropoiesis, producing an anemia of chronic disease that contributes to the fatigue of advanced disease."
 ---
 
 # Mesothelioma
@@ -350,6 +359,9 @@ Cytoreductive surgery (CRS) + hyperthermic intraperitoneal chemotherapy (HIPEC):
 - `connects-to` → **[Interleukin-6](../../03-molecular/il-6/README.md)** — IL-6 carries mesothelioma's systemic toll: the tumor and its asbestos-driven inflammation pour out IL-6, fueling the paraneoplastic thrombocytosis, fever, and cachexia that mark advanced disease and predict worse outcome.
 - `connects-to` → **[Venous Thromboembolism](../venous-thromboembolism/README.md)** — Few cancers clot like mesothelioma: its pro-coagulant tumor and the surgery and chemotherapy used against it give a high venous thromboembolism risk that complicates the whole treatment course.
 - `connects-to` → **[Heart Failure](../heart-failure/README.md)** — It can wrap and squeeze the heart: pericardial mesothelioma — and pleural disease encasing the heart — causes effusion and constriction that impair filling, producing a restrictive heart failure.
+- `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — Asbestos-driven inflammation feeds STAT3: the chronic IL-6-rich inflammation that asbestos provokes in the pleura activates STAT3, a survival and proliferation signal central to mesothelioma's inflammation-to-cancer origin.
+- `connects-to` → **[Sepsis](../sepsis/README.md)** — An infected pleural space turns dangerous: recurrent pleural effusions, indwelling drains, pleurodesis and major surgery for mesothelioma can seed empyema and bloodstream infection that progress to sepsis.
+- `connects-to` → **[Anemia of Chronic Disease](../anemia-of-chronic-disease/README.md)** — Chronic inflammation wears down the blood: the IL-6-driven inflammatory state of mesothelioma suppresses erythropoiesis, producing an anemia of chronic disease that contributes to the fatigue of advanced disease.
 
 [^baas-2021-checkmate743]: Baas P, Scherpereel A, Nowak AK, et al. First-line nivolumab plus ipilimumab in unresectable malignant pleural mesothelioma (CheckMate 743). *Lancet.* 2021;397(10272):375-386. [doi:10.1016/S0140-6736(20)32714-8](https://doi.org/10.1016/S0140-6736(20)32714-8) · [PubMed 33485464](https://pubmed.ncbi.nlm.nih.gov/33485464/)
 [^vogelzang-2003-pemetrexed]: Vogelzang NJ, Rusthoven JJ, Symanowski J, et al. Phase III study of pemetrexed in combination with cisplatin versus cisplatin alone in patients with malignant pleural mesothelioma. *J Clin Oncol.* 2003;21(14):2636-2644. [doi:10.1200/JCO.2003.11.136](https://doi.org/10.1200/JCO.2003.11.136) · [PubMed 12860938](https://pubmed.ncbi.nlm.nih.gov/12860938/)
