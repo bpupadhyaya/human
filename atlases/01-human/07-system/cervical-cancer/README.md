@@ -187,6 +187,15 @@ cross_links:
   - target: 01-human/07-system/anemia-of-chronic-disease
     relation: connects-to
     note: "Chronic bleeding and inflammation drain the blood: ongoing vaginal blood loss plus the cancer's inflammatory cytokines produce anemia that not only weakens patients but blunts the tumor's response to radiotherapy."
+  - target: 01-human/07-system/hiv
+    relation: connects-to
+    note: "Immune loss lets HPV run to cancer: HIV impairs clearance of human papillomavirus, so cervical cancer occurs more often, at younger ages and more aggressively — making it an AIDS-defining malignancy."
+  - target: 01-human/07-system/iron-deficiency-anemia
+    relation: connects-to
+    note: "Steady vaginal bleeding depletes iron: the abnormal and postcoital bleeding of cervical cancer causes chronic blood loss, draining iron stores into an iron-deficiency anemia that often prompts the diagnosis."
+  - target: 01-human/07-system/major-depressive-disorder
+    relation: connects-to
+    note: "Diagnosis and its sexual toll weigh on mood: a cancer affecting fertility, sexual function and often younger women carries a substantial psychological burden, with high rates of depression."
 ---
 
 # Cervical Cancer
@@ -366,6 +375,9 @@ The cervical transformation zone (TZ) — the area between the original and new 
 - `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — HPV oncoproteins switch on STAT3: E6/E7 and the inflamed cervical microenvironment activate STAT3, driving proliferation and immune evasion in the progression from HPV infection to invasive cancer.
 - `connects-to` → **[Sepsis](../sepsis/README.md)** — Bulky pelvic disease opens routes to infection: tumor obstruction of the ureters causes pyelonephritis and urosepsis, while necrotic tumor and fistulae into bladder or bowel can seed pelvic infection and sepsis.
 - `connects-to` → **[Anemia of Chronic Disease](../anemia-of-chronic-disease/README.md)** — Chronic bleeding and inflammation drain the blood: ongoing vaginal blood loss plus the cancer's inflammatory cytokines produce anemia that not only weakens patients but blunts the tumor's response to radiotherapy.
+- `connects-to` → **[HIV](../hiv/README.md)** — Immune loss lets HPV run to cancer: HIV impairs clearance of human papillomavirus, so cervical cancer occurs more often, at younger ages and more aggressively — making it an AIDS-defining malignancy.
+- `connects-to` → **[Iron Deficiency Anemia](../iron-deficiency-anemia/README.md)** — Steady vaginal bleeding depletes iron: the abnormal and postcoital bleeding of cervical cancer causes chronic blood loss, draining iron stores into an iron-deficiency anemia that often prompts the diagnosis.
+- `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — Diagnosis and its sexual toll weigh on mood: a cancer affecting fertility, sexual function and often younger women carries a substantial psychological burden, with high rates of depression.
 
 ---
 

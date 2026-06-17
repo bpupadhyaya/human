@@ -187,6 +187,15 @@ cross_links:
   - target: 01-human/07-system/venous-thromboembolism
     relation: connects-to
     note: "A cholestatic cancer that still clots: despite the deranged clotting of biliary obstruction, cholangiocarcinoma's tumor-driven hypercoagulability raises venous thromboembolism risk, compounded by biliary stenting and surgery."
+  - target: 01-human/07-system/ckd
+    relation: connects-to
+    note: "Obstruction and chemo strain the kidney: deep cholestatic jaundice predisposes to a hepatorenal-type injury and post-procedure acute kidney injury, while cisplatin-gemcitabine chemotherapy adds nephrotoxicity threatening chronic kidney disease."
+  - target: 01-human/07-system/anemia-of-chronic-disease
+    relation: connects-to
+    note: "Chronic biliary inflammation blunts the marrow: the IL-6-rich inflammation of cholangiocarcinoma and its biliary disease raise hepcidin and suppress erythropoiesis, producing an anemia of chronic disease."
+  - target: 01-human/07-system/major-depressive-disorder
+    relation: connects-to
+    note: "A grim prognosis weighs on mood: cholangiocarcinoma's late presentation, obstructive jaundice with intractable itch and poor survival impose a heavy psychological burden, with high rates of depression."
 ---
 
 # Cholangiocarcinoma
@@ -340,6 +349,9 @@ Chronic biliary injury (from PSC, fluke infection, bile acid reflux, biliary sta
 - `connects-to` → **[NF-κB](../../03-molecular/nf-kb/README.md)** — Chronic biliary inflammation switches on NF-κB: the inflamed, fluke- or PSC-damaged bile ducts activate NF-κB in cholangiocytes, driving the survival and proliferation signals that turn chronic cholangitis into cancer.
 - `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — IL-6 from the inflamed ducts feeds STAT3: cholangiocarcinoma cells respond to IL-6 with STAT3 activation that drives proliferation and resistance, a central inflammation-to-cancer axis in the bile-duct epithelium.
 - `connects-to` → **[Venous Thromboembolism](../venous-thromboembolism/README.md)** — A cholestatic cancer that still clots: despite the deranged clotting of biliary obstruction, cholangiocarcinoma's tumor-driven hypercoagulability raises venous thromboembolism risk, compounded by biliary stenting and surgery.
+- `connects-to` → **[Chronic Kidney Disease](../ckd/README.md)** — Obstruction and chemo strain the kidney: deep cholestatic jaundice predisposes to a hepatorenal-type injury and post-procedure acute kidney injury, while cisplatin-gemcitabine chemotherapy adds nephrotoxicity threatening chronic kidney disease.
+- `connects-to` → **[Anemia of Chronic Disease](../anemia-of-chronic-disease/README.md)** — Chronic biliary inflammation blunts the marrow: the IL-6-rich inflammation of cholangiocarcinoma and its biliary disease raise hepcidin and suppress erythropoiesis, producing an anemia of chronic disease.
+- `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — A grim prognosis weighs on mood: cholangiocarcinoma's late presentation, obstructive jaundice with intractable itch and poor survival impose a heavy psychological burden, with high rates of depression.
 
 ---
 
