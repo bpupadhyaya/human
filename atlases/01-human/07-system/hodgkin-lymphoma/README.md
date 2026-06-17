@@ -178,6 +178,15 @@ cross_links:
   - target: 01-human/07-system/venous-thromboembolism
     relation: connects-to
     note: "A bulky mediastinal mass clots the blood: Hodgkin lymphoma, especially with a large mediastinal tumor compressing veins, carries a high venous thromboembolism risk during diagnosis and treatment."
+  - target: 01-human/07-system/anemia-of-chronic-disease
+    relation: connects-to
+    note: "Its cytokines blunt the marrow: the IL-6 and inflammatory output of Hodgkin lymphoma — the same drive behind its B symptoms — suppresses erythropoiesis, producing an anemia of chronic disease that tracks with tumor burden."
+  - target: 01-human/07-system/nsclc
+    relation: connects-to
+    note: "Cure casts a long shadow: decades after thoracic (mantle) radiotherapy, Hodgkin survivors face a markedly raised risk of second cancers including lung cancer, a central concern of long-term survivorship care."
+  - target: 02-pathogen/03-fungi/pneumocystis-jirovecii
+    relation: connects-to
+    note: "Impaired cell-mediated immunity invites an opportunist: Hodgkin lymphoma classically weakens T-cell immunity, and with chemotherapy this leaves patients at risk of Pneumocystis pneumonia, prompting prophylaxis."
 ---
 
 # Hodgkin Lymphoma
@@ -353,6 +362,9 @@ Modern protocols minimize RT fields and doses (ISRT replacing extended-field RT)
 - `connects-to` → **[Interleukin-6](../../03-molecular/il-6/README.md)** — IL-6 carries the B symptoms: Reed-Sternberg cells and their reactive infiltrate pour out IL-6, driving the fevers, night sweats, and weight loss that mark advanced Hodgkin lymphoma and track with worse prognosis.
 - `connects-to` → **[Sepsis](../sepsis/README.md)** — Treatment and asplenia open the door to sepsis: chemotherapy neutropenia and the splenectomy or splenic radiation once used leave Hodgkin patients vulnerable to overwhelming infection from encapsulated bacteria.
 - `connects-to` → **[Venous Thromboembolism](../venous-thromboembolism/README.md)** — A bulky mediastinal mass clots the blood: Hodgkin lymphoma, especially with a large mediastinal tumor compressing veins, carries a high venous thromboembolism risk during diagnosis and treatment.
+- `connects-to` → **[Anemia of Chronic Disease](../anemia-of-chronic-disease/README.md)** — Its cytokines blunt the marrow: the IL-6 and inflammatory output of Hodgkin lymphoma — the same drive behind its B symptoms — suppresses erythropoiesis, producing an anemia of chronic disease that tracks with tumor burden.
+- `connects-to` → **[NSCLC](../nsclc/README.md)** — Cure casts a long shadow: decades after thoracic (mantle) radiotherapy, Hodgkin survivors face a markedly raised risk of second cancers including lung cancer, a central concern of long-term survivorship care.
+- `connects-to` → **[Pneumocystis jirovecii](../../../02-pathogen/03-fungi/pneumocystis-jirovecii/README.md)** — Impaired cell-mediated immunity invites an opportunist: Hodgkin lymphoma classically weakens T-cell immunity, and with chemotherapy this leaves patients at risk of Pneumocystis pneumonia, prompting prophylaxis.
 
 [^connors-2018-echelon1]: Connors JM, Jurczak W, Straus DJ, et al. Brentuximab vedotin with chemotherapy for stage III or IV Hodgkin's lymphoma. *N Engl J Med.* 2018;378(4):331-344. [doi:10.1056/NEJMoa1708984](https://doi.org/10.1056/NEJMoa1708984) · [PubMed 29360494](https://pubmed.ncbi.nlm.nih.gov/29360494/)
 [^armand-2018-nivo-hl]: Armand P, Engert A, Younes A, et al. Nivolumab for relapsed/refractory classic Hodgkin lymphoma after failure of autologous hematopoietic cell transplantation: extended follow-up of the multicohort single-arm phase II CheckMate 205 trial. *J Clin Oncol.* 2018;36(14):1428-1439. [doi:10.1200/JCO.2017.77.6717](https://doi.org/10.1200/JCO.2017.77.6717) · [PubMed 29584546](https://pubmed.ncbi.nlm.nih.gov/29584546/)

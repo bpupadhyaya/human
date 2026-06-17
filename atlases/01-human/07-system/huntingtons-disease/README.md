@@ -165,6 +165,15 @@ cross_links:
   - target: 01-human/07-system/sepsis
     relation: connects-to
     note: "Aspiration is how Huntington's kills: as the disease destroys swallowing control, food and saliva enter the lungs, and the resulting aspiration pneumonia and sepsis are the leading cause of death."
+  - target: 01-human/03-molecular/nlrp3-inflammasome
+    relation: connects-to
+    note: "Mutant huntingtin inflames the brain: it activates microglia and the NLRP3 inflammasome, releasing IL-1β that adds a neuroinflammatory accelerant to the striatal neuron loss of Huntington's."
+  - target: 01-human/07-system/bipolar-disorder
+    relation: connects-to
+    note: "Mood swings can precede the chorea: Huntington's psychiatric prodrome includes irritability, mania and depression resembling bipolar disorder, reflecting the disease's early reach into mood-regulating circuits."
+  - target: 01-human/04-cellular/cardiomyocyte
+    relation: connects-to
+    note: "The mutant protein also harms the heart: huntingtin is expressed in cardiomyocytes, and Huntington's carries a cardiomyopathy and autonomic dysfunction that make cardiac disease a major non-neurological cause of death."
 sources:
   - id: gusella-1983-htt-locus
     type: peer-reviewed
@@ -265,3 +274,6 @@ HD disrupts multiple neural circuit functions:
 - `connects-to` → **[Complement C3](../../03-molecular/complement-c3/README.md)** — Complement tags the doomed synapses: C1q and C3 mark striatal synapses for microglial pruning in Huntington's, an over-active version of developmental synapse elimination that contributes to the early circuit loss.
 - `connects-to` → **[Insomnia Disorder](../insomnia-disorder/README.md)** — Huntington's wrecks the body clock: degeneration of hypothalamic circadian centers and falling melatonin fragment sleep into severe insomnia and day-night reversal, often years before the chorea, worsening cognition and mood.
 - `connects-to` → **[Sepsis](../sepsis/README.md)** — Aspiration is how Huntington's kills: as the disease destroys swallowing control, food and saliva enter the lungs, and the resulting aspiration pneumonia and sepsis are the leading cause of death.
+- `connects-to` → **[NLRP3 Inflammasome](../../03-molecular/nlrp3-inflammasome/README.md)** — Mutant huntingtin inflames the brain: it activates microglia and the NLRP3 inflammasome, releasing IL-1β that adds a neuroinflammatory accelerant to the striatal neuron loss of Huntington's.
+- `connects-to` → **[Bipolar Disorder](../bipolar-disorder/README.md)** — Mood swings can precede the chorea: Huntington's psychiatric prodrome includes irritability, mania and depression resembling bipolar disorder, reflecting the disease's early reach into mood-regulating circuits.
+- `connects-to` → **[Cardiomyocyte](../../04-cellular/cardiomyocyte/README.md)** — The mutant protein also harms the heart: huntingtin is expressed in cardiomyocytes, and Huntington's carries a cardiomyopathy and autonomic dysfunction that make cardiac disease a major non-neurological cause of death.
