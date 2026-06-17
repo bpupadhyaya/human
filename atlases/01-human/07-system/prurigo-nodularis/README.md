@@ -193,6 +193,15 @@ cross_links:
   - target: 01-human/07-system/hcc
     relation: connects-to
     note: "Cholestatic liver disease drives the itch: bile-salt retention from advanced liver disease and biliary obstruction in hepatocellular carcinoma causes intense pruritus that can manifest as prurigo nodularis."
+  - target: 02-pathogen/02-bacteria/staphylococcus-aureus
+    relation: connects-to
+    note: "Relentless scratching opens the skin to Staph: the excoriated nodules of prurigo nodularis are repeatedly broken open, readily colonized and infected by Staphylococcus aureus, which in turn intensifies the itch."
+  - target: 01-human/07-system/wound-healing
+    relation: connects-to
+    note: "Constant scratching defeats repair: the compulsive scratching of prurigo nodularis reopens lesions faster than they can heal, perpetuating the thickened, eroded nodules in an itch-scratch cycle."
+  - target: 01-human/07-system/dlbcl
+    relation: connects-to
+    note: "Severe itch can flag a lymphoma: persistent prurigo nodularis is a recognized paraneoplastic sign of underlying lymphoma, prompting evaluation for Hodgkin and non-Hodgkin lymphomas such as DLBCL."
 ---
 
 # Prurigo Nodularis
@@ -334,6 +343,9 @@ PN affects approximately **72,000 patients** in the US; true prevalence is likel
 - `connects-to` → **[HIV](../hiv/README.md)** — It can be a marker of HIV: severe, treatment-resistant prurigo nodularis is a recognized cutaneous sign of HIV, the immune dysregulation amplifying the itch-scratch cycle, sometimes prompting HIV testing.
 - `connects-to` → **[Obsessive-Compulsive Disorder](../obsessive-compulsive-disorder/README.md)** — The scratching can take on a compulsive quality: the relentless itch-scratch cycle of prurigo nodularis overlaps with skin-picking and obsessive-compulsive-spectrum behavior, each reinforcing the other.
 - `connects-to` → **[Hepatocellular Carcinoma](../hcc/README.md)** — Cholestatic liver disease drives the itch: bile-salt retention from advanced liver disease and biliary obstruction in hepatocellular carcinoma causes intense pruritus that can manifest as prurigo nodularis.
+- `connects-to` → **[Staphylococcus aureus](../../../02-pathogen/02-bacteria/staphylococcus-aureus/README.md)** — Relentless scratching opens the skin to Staph: the excoriated nodules of prurigo nodularis are repeatedly broken open, readily colonized and infected by Staphylococcus aureus, which in turn intensifies the itch.
+- `connects-to` → **[Wound Healing](../wound-healing/README.md)** — Constant scratching defeats repair: the compulsive scratching of prurigo nodularis reopens lesions faster than they can heal, perpetuating the thickened, eroded nodules in an itch-scratch cycle.
+- `connects-to` → **[DLBCL](../dlbcl/README.md)** — Severe itch can flag a lymphoma: persistent prurigo nodularis is a recognized paraneoplastic sign of underlying lymphoma, prompting evaluation for Hodgkin and non-Hodgkin lymphomas such as DLBCL.
 
 [^stander-2020-nemolizumab-pn]: Ständer S, Yosipovitch G, Legat FJ, et al. Trial of nemolizumab in moderate-to-severe prurigo nodularis. *N Engl J Med.* 2020;382(8):706-716. [doi:10.1056/NEJMoa1908316](https://doi.org/10.1056/NEJMoa1908316) · [PubMed 32053299](https://pubmed.ncbi.nlm.nih.gov/32053299/)
 [^briggs-2022-dupilumab-pn-liberty]: Briggs JN, Cho YY, Khanna R, et al. Dupilumab for prurigo nodularis: the LIBERTY-PN PRIME and PRIME2 trials. *N Engl J Med.* 2022;387(18):1683-1693. [doi:10.1056/NEJMoa2205093](https://doi.org/10.1056/NEJMoa2205093) · [PubMed 36300905](https://pubmed.ncbi.nlm.nih.gov/36300905/)
