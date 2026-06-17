@@ -196,6 +196,15 @@ cross_links:
   - target: 01-human/07-system/ckd
     relation: connects-to
     note: "Advanced disease and its chemo strain the kidney: the platinum chemotherapy for diffuse gastric cancer is nephrotoxic, and poor intake after gastrectomy adds dehydration, together risking chronic kidney disease."
+  - target: 01-human/07-system/generalized-anxiety-disorder
+    relation: connects-to
+    note: "A genetic verdict and prophylactic gastrectomy breed worry: CDH1 carriers face the decision to remove a healthy stomach and lifelong cancer risk, fostering profound health anxiety."
+  - target: 01-human/07-system/wound-healing
+    relation: connects-to
+    note: "Total gastrectomy is a major wound to heal: the prophylactic or therapeutic removal of the entire stomach creates a high-risk esophageal anastomosis prone to leak and slow healing."
+  - target: 01-human/07-system/neuropathic-pain
+    relation: connects-to
+    note: "Surgery, chemo and B12 loss injure nerves: post-gastrectomy adhesive pain, platinum chemotherapy neuropathy and the B12 deficiency of an absent stomach combine to produce neuropathic pain."
 ---
 
 # Hereditary Diffuse Gastric Cancer
@@ -363,6 +372,9 @@ Testing for CDH1 (and CTNNA1) is indicated in any of the following:
 - `connects-to` → **[Osteoporosis](../osteoporosis/README.md)** — Removing the stomach costs the bones: total gastrectomy impairs absorption of calcium and vitamin D and disrupts gut hormones, so metabolic bone disease and osteoporosis are recognized long-term consequences.
 - `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — A drastic preventive choice weighs on the mind: facing a high inherited risk of an aggressive stomach cancer, and choosing prophylactic total gastrectomy with its lifelong eating changes, carries a heavy psychological burden.
 - `connects-to` → **[Chronic Kidney Disease](../ckd/README.md)** — Advanced disease and its chemo strain the kidney: the platinum chemotherapy for diffuse gastric cancer is nephrotoxic, and poor intake after gastrectomy adds dehydration, together risking chronic kidney disease.
+- `connects-to` → **[Generalized Anxiety Disorder](../generalized-anxiety-disorder/README.md)** — A genetic verdict and prophylactic gastrectomy breed worry: CDH1 carriers face the decision to remove a healthy stomach and lifelong cancer risk, fostering profound health anxiety.
+- `connects-to` → **[Wound Healing](../wound-healing/README.md)** — Total gastrectomy is a major wound to heal: the prophylactic or therapeutic removal of the entire stomach creates a high-risk esophageal anastomosis prone to leak and slow healing.
+- `connects-to` → **[Neuropathic Pain](../neuropathic-pain/README.md)** — Surgery, chemo and B12 loss injure nerves: post-gastrectomy adhesive pain, platinum chemotherapy neuropathy and the B12 deficiency of an absent stomach combine to produce neuropathic pain.
 
 [^van-der-post-2015-hdgc-guidelines]: van der Post RS, Vogelaar IP, Carneiro F, et al. Hereditary diffuse gastric cancer: updated clinical guidelines with an emphasis on germline CDH1 mutation carriers. *J Med Genet.* 2015;52(6):361-374. [doi:10.1136/jmedgenet-2015-103094](https://doi.org/10.1136/jmedgenet-2015-103094) · [PubMed 25979631](https://pubmed.ncbi.nlm.nih.gov/25979631/)
 [^hansford-2015-hdgc]: Hansford S, Kaurah P, Li-Chang H, et al. Hereditary Diffuse Gastric Cancer Syndrome: CDH1 Mutations and Beyond. *JAMA Oncol.* 2015;1(1):23-32. [doi:10.1001/jamaoncol.2014.168](https://doi.org/10.1001/jamaoncol.2014.168) · [PubMed 26182300](https://pubmed.ncbi.nlm.nih.gov/26182300/)

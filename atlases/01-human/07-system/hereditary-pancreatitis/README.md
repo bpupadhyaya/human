@@ -196,6 +196,15 @@ cross_links:
   - target: 01-human/07-system/cholangiocarcinoma
     relation: connects-to
     note: "Chronic ductal inflammation can turn the bile ducts malignant: long-standing hereditary pancreatitis inflames the pancreaticobiliary region and, beyond pancreatic cancer, is associated with an elevated risk of cholangiocarcinoma."
+  - target: 01-human/07-system/iron-deficiency-anemia
+    relation: connects-to
+    note: "Exocrine failure starves the body of iron: the fat and nutrient malabsorption of chronic pancreatic insufficiency in hereditary pancreatitis impairs iron uptake, contributing to anemia."
+  - target: 01-human/07-system/wound-healing
+    relation: connects-to
+    note: "Malnutrition and surgery hinder repair: the protein-energy and fat-soluble-vitamin malabsorption of hereditary pancreatitis, plus its repeated pancreatic operations, leave wounds slow to heal."
+  - target: 01-human/07-system/generalized-anxiety-disorder
+    relation: connects-to
+    note: "Unrelenting pain and cancer risk breed worry: the recurrent severe abdominal pain, opioid dependence and lifelong pancreatic-cancer surveillance of hereditary pancreatitis foster chronic anxiety alongside depression."
 ---
 
 # Hereditary Pancreatitis
@@ -399,6 +408,9 @@ cross_links:
 - `connects-to` → **[Anemia of Chronic Disease](../anemia-of-chronic-disease/README.md)** — Chronic inflammation and malabsorption lower the count: the persistent pancreatic inflammation of hereditary pancreatitis raises hepcidin while exocrine insufficiency impairs nutrient uptake, producing an anemia of chronic disease.
 - `connects-to` → **[Chronic Kidney Disease](../ckd/README.md)** — Severe attacks can injure the kidney: acute-on-chronic flares of hereditary pancreatitis cause hypovolemia and systemic inflammation that precipitate acute kidney injury, which over repeated episodes can leave chronic kidney impairment.
 - `connects-to` → **[Cholangiocarcinoma](../cholangiocarcinoma/README.md)** — Chronic ductal inflammation can turn the bile ducts malignant: long-standing hereditary pancreatitis inflames the pancreaticobiliary region and, beyond pancreatic cancer, is associated with an elevated risk of cholangiocarcinoma.
+- `connects-to` → **[Iron-Deficiency Anemia](../iron-deficiency-anemia/README.md)** — Exocrine failure starves the body of iron: the fat and nutrient malabsorption of chronic pancreatic insufficiency in hereditary pancreatitis impairs iron uptake, contributing to anemia.
+- `connects-to` → **[Wound Healing](../wound-healing/README.md)** — Malnutrition and surgery hinder repair: the protein-energy and fat-soluble-vitamin malabsorption of hereditary pancreatitis, plus its repeated pancreatic operations, leave wounds slow to heal.
+- `connects-to` → **[Generalized Anxiety Disorder](../generalized-anxiety-disorder/README.md)** — Unrelenting pain and cancer risk breed worry: the recurrent severe abdominal pain, opioid dependence and lifelong pancreatic-cancer surveillance of hereditary pancreatitis foster chronic anxiety alongside depression.
 
 [^whitcomb-1996-prss1]: Whitcomb DC, Gorry MC, Preston RA, et al. Hereditary pancreatitis is caused by a mutation in the cationic trypsinogen gene. *Nat Genet.* 1996;14(2):141-145. [doi:10.1038/ng1096-141](https://doi.org/10.1038/ng1096-141) · [PubMed 8841182](https://pubmed.ncbi.nlm.nih.gov/8841182/)
 [^lowenfels-2001-hp-pdac]: Lowenfels AB, Maisonneuve P, DiMagno EP, et al. Hereditary pancreatitis and the risk of pancreatic cancer. *J Natl Cancer Inst.* 2001;93(1):26-31. [doi:10.1093/jnci/93.1.26](https://doi.org/10.1093/jnci/93.1.26) · [PubMed 11136838](https://pubmed.ncbi.nlm.nih.gov/11136838/)
