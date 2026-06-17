@@ -186,6 +186,15 @@ cross_links:
   - target: 01-human/07-system/venous-thromboembolism
     relation: connects-to
     note: "Severe disease tips the blood toward clotting: falciparum malaria activates endothelium and coagulation, a prothrombotic state that, alongside its consumptive coagulopathy, raises the risk of venous thrombosis."
+  - target: 01-human/07-system/epilepsy
+    relation: connects-to
+    note: "Cerebral malaria scars the brain into seizures: the microvascular brain injury of cerebral malaria, especially in children, causes acute seizures and leaves many survivors with epilepsy and lasting neurocognitive impairment."
+  - target: 01-human/07-system/heart-failure
+    relation: connects-to
+    note: "Profound anemia overworks the heart: the massive red-cell destruction of severe malaria can drop hemoglobin so low that the heart must pump in overdrive, precipitating high-output cardiac failure in vulnerable patients."
+  - target: 01-human/07-system/major-depressive-disorder
+    relation: connects-to
+    note: "Its neurological aftermath darkens mood: survivors of cerebral and severe malaria carry higher rates of depression and cognitive sequelae, from the brain injury itself and the burden of recurrent, debilitating illness."
 ---
 
 # Malaria
@@ -400,6 +409,9 @@ cross_links:
 - `connects-to` → **[NF-κB](../../03-molecular/nf-kb/README.md)** — Parasite debris lights the inflammatory fuse: hemozoin pigment and GPI anchors released when red cells rupture activate NF-κB in immune cells, driving the TNF surge that underlies the fever cycles and the cytokine storm of severe malaria.
 - `connects-to` → **[Stroke](../stroke/README.md)** — Cerebral malaria can stroke the brain: infected red cells sequester in and obstruct the brain's microvessels, causing the coma of cerebral malaria and leaving some survivors with focal deficits and stroke-like injury.
 - `connects-to` → **[Venous Thromboembolism](../venous-thromboembolism/README.md)** — Severe disease tips the blood toward clotting: falciparum malaria activates endothelium and coagulation, a prothrombotic state that, alongside its consumptive coagulopathy, raises the risk of venous thrombosis.
+- `connects-to` → **[Epilepsy](../epilepsy/README.md)** — Cerebral malaria scars the brain into seizures: the microvascular brain injury of cerebral malaria, especially in children, causes acute seizures and leaves many survivors with epilepsy and lasting neurocognitive impairment.
+- `connects-to` → **[Heart Failure](../heart-failure/README.md)** — Profound anemia overworks the heart: the massive red-cell destruction of severe malaria can drop hemoglobin so low that the heart must pump in overdrive, precipitating high-output cardiac failure in vulnerable patients.
+- `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — Its neurological aftermath darkens mood: survivors of cerebral and severe malaria carry higher rates of depression and cognitive sequelae, from the brain injury itself and the burden of recurrent, debilitating illness.
 
 [^who-malaria-report-2023]: World Health Organization. World Malaria Report 2023. WHO; 2023.
 [^white-2014-malaria-lancet]: White NJ, Pukrittayakamee S, Hien TT, et al. Malaria. *Lancet.* 2014;383(9918):723-735. [doi:10.1016/S0140-6736(13)60024-0](https://doi.org/10.1016/S0140-6736(13)60024-0) · [PubMed 23953767](https://pubmed.ncbi.nlm.nih.gov/23953767/)

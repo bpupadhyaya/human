@@ -181,6 +181,15 @@ cross_links:
   - target: 01-human/03-molecular/tgf-beta
     relation: connects-to
     note: "An immunosuppressive cytokine helps it persist: Leishmania induces TGF-β that dampens protective Th1 immunity and promotes parasite survival, tilting the balance toward progressive, disseminated infection."
+  - target: 01-human/07-system/ckd
+    relation: connects-to
+    note: "Both disease and drug strain the kidney: visceral leishmaniasis can deposit immune complexes in the glomeruli, and amphotericin B — its mainstay treatment — is nephrotoxic, together threatening chronic kidney injury."
+  - target: 02-pathogen/03-fungi/pneumocystis-jirovecii
+    relation: connects-to
+    note: "It deepens immune collapse: visceral leishmaniasis, especially with HIV co-infection, profoundly suppresses cellular immunity, opening the door to opportunistic infections like Pneumocystis pneumonia."
+  - target: 01-human/07-system/heart-failure
+    relation: connects-to
+    note: "Its old drugs are hard on the heart: pentavalent antimonials used for leishmaniasis cause QT prolongation and cardiotoxicity, and profound anemia of advanced visceral disease can drive high-output cardiac strain."
 ---
 
 # Leishmaniasis
@@ -337,3 +346,6 @@ HIV-VL co-infection: CD4+ depletion → loss of IFN-γ production → *Leishmani
 - `connects-to` → **[NF-κB](../../03-molecular/nf-kb/README.md)** — The parasite silences the macrophage's alarm: Leishmania actively blocks NF-κB activation in the very cell it lives in, shutting down the nitric-oxide and cytokine killing program so it can survive inside the phagosome.
 - `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — It flips the macrophage to a tolerant state through STAT3: by inducing IL-10, Leishmania drives STAT3 signaling that deactivates the macrophage, a key switch toward the non-healing, parasite-permissive response of visceral disease.
 - `connects-to` → **[Transforming Growth Factor Beta](../../03-molecular/tgf-beta/README.md)** — An immunosuppressive cytokine helps it persist: Leishmania induces TGF-β that dampens protective Th1 immunity and promotes parasite survival, tilting the balance toward progressive, disseminated infection.
+- `connects-to` → **[Chronic Kidney Disease](../ckd/README.md)** — Both disease and drug strain the kidney: visceral leishmaniasis can deposit immune complexes in the glomeruli, and amphotericin B — its mainstay treatment — is nephrotoxic, together threatening chronic kidney injury.
+- `connects-to` → **[Pneumocystis jirovecii](../../../02-pathogen/03-fungi/pneumocystis-jirovecii/README.md)** — It deepens immune collapse: visceral leishmaniasis, especially with HIV co-infection, profoundly suppresses cellular immunity, opening the door to opportunistic infections like Pneumocystis pneumonia.
+- `connects-to` → **[Heart Failure](../heart-failure/README.md)** — Its old drugs are hard on the heart: pentavalent antimonials used for leishmaniasis cause QT prolongation and cardiotoxicity, and profound anemia of advanced visceral disease can drive high-output cardiac strain.
