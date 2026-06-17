@@ -193,6 +193,15 @@ cross_links:
   - target: 01-human/07-system/venous-thromboembolism
     relation: connects-to
     note: "Arterial and venous clots share a soil: although atherosclerosis is an arterial disease, it shares risk factors and systemic inflammation with venous thromboembolism, and the two cluster together more than chance."
+  - target: 01-human/07-system/heart-failure
+    relation: connects-to
+    note: "Clogged coronaries weaken the pump: atherosclerosis of the coronary arteries causes myocardial infarction and chronic ischemia, the leading cause of the ischemic cardiomyopathy that drives heart failure."
+  - target: 01-human/07-system/wound-healing
+    relation: connects-to
+    note: "Starved limbs cannot heal: atherosclerotic peripheral arterial disease cuts blood flow to the legs, producing ischemic ulcers that resist healing and, in critical limb ischemia, progress to gangrene and amputation."
+  - target: 01-human/07-system/major-depressive-disorder
+    relation: connects-to
+    note: "Hardened brain vessels darken mood: cerebral small-vessel atherosclerosis underlies the 'vascular depression' of later life, a late-onset, often treatment-resistant depression tied to ischemic white-matter injury."
 ---
 
 # Atherosclerosis
@@ -365,6 +374,9 @@ The process begins in childhood with **fatty streaks** and progresses silently o
 - `connects-to` → **[NF-κB](../../03-molecular/nf-kb/README.md)** — NF-κB is the inflammatory switch in the artery wall: activated by oxidized LDL and disturbed flow in endothelium and macrophages, it drives the adhesion molecules and cytokines that recruit immune cells and build the plaque.
 - `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — STAT3 shapes the plaque's macrophages: IL-6-driven STAT3 signaling tunes the inflammatory macrophage response within the lesion, contributing to the chronic inflammation that destabilizes atherosclerotic plaque.
 - `connects-to` → **[Venous Thromboembolism](../venous-thromboembolism/README.md)** — Arterial and venous clots share a soil: although atherosclerosis is an arterial disease, it shares risk factors and systemic inflammation with venous thromboembolism, and the two cluster together more than chance.
+- `connects-to` → **[Heart Failure](../heart-failure/README.md)** — Clogged coronaries weaken the pump: atherosclerosis of the coronary arteries causes myocardial infarction and chronic ischemia, the leading cause of the ischemic cardiomyopathy that drives heart failure.
+- `connects-to` → **[Wound Healing](../wound-healing/README.md)** — Starved limbs cannot heal: atherosclerotic peripheral arterial disease cuts blood flow to the legs, producing ischemic ulcers that resist healing and, in critical limb ischemia, progress to gangrene and amputation.
+- `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — Hardened brain vessels darken mood: cerebral small-vessel atherosclerosis underlies the 'vascular depression' of later life, a late-onset, often treatment-resistant depression tied to ischemic white-matter injury.
 
 ---
 

@@ -187,6 +187,15 @@ cross_links:
   - target: 01-human/07-system/venous-thromboembolism
     relation: connects-to
     note: "An emerging PNH clone tips toward clotting: aplastic anemia frequently harbors a paroxysmal nocturnal hemoglobinuria clone whose complement-driven hemolysis creates a prothrombotic state and venous thromboembolism risk."
+  - target: 02-pathogen/03-fungi/aspergillus-fumigatus
+    relation: connects-to
+    note: "Empty marrow leaves the lung defenseless: the profound, prolonged neutropenia of severe aplastic anemia lets inhaled Aspergillus invade as angioinvasive pulmonary aspergillosis, a leading infectious cause of death."
+  - target: 02-pathogen/03-fungi/candida-albicans
+    relation: connects-to
+    note: "Lost neutrophils let the yeast bloodstream: severe neutropenia in aplastic anemia, compounded by immunosuppressive therapy, allows Candida to invade from the gut into the blood as invasive candidiasis."
+  - target: 01-human/07-system/heart-failure
+    relation: connects-to
+    note: "Transfusions and chronic anemia burden the heart: the repeated red-cell transfusions for aplastic anemia deposit iron in the myocardium while the sustained anemia adds high-output strain, together risking heart failure."
 ---
 
 # Aplastic Anemia
@@ -356,6 +365,9 @@ In >80% of acquired AA cases, the disease is **immune-mediated**: autoreactive *
 - `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — STAT3-mutant T-cell clones drive the attack: clonal large granular lymphocytes carrying STAT3 mutations are found in immune aplastic anemia, marking the autoreactive cytotoxic cells that destroy the marrow stem-cell pool.
 - `connects-to` → **[NF-κB](../../03-molecular/nf-kb/README.md)** — Inflammatory signaling fuels the assault: NF-κB activation in the autoreactive T cells and the marrow microenvironment supports the cytokine output that suppresses and kills hematopoietic stem cells in aplastic anemia.
 - `connects-to` → **[Venous Thromboembolism](../venous-thromboembolism/README.md)** — An emerging PNH clone tips toward clotting: aplastic anemia frequently harbors a paroxysmal nocturnal hemoglobinuria clone whose complement-driven hemolysis creates a prothrombotic state and venous thromboembolism risk.
+- `connects-to` → **[Aspergillus fumigatus](../../../02-pathogen/03-fungi/aspergillus-fumigatus/README.md)** — Empty marrow leaves the lung defenseless: the profound, prolonged neutropenia of severe aplastic anemia lets inhaled Aspergillus invade as angioinvasive pulmonary aspergillosis, a leading infectious cause of death.
+- `connects-to` → **[Candida albicans](../../../02-pathogen/03-fungi/candida-albicans/README.md)** — Lost neutrophils let the yeast bloodstream: severe neutropenia in aplastic anemia, compounded by immunosuppressive therapy, allows Candida to invade from the gut into the blood as invasive candidiasis.
+- `connects-to` → **[Heart Failure](../heart-failure/README.md)** — Transfusions and chronic anemia burden the heart: the repeated red-cell transfusions for aplastic anemia deposit iron in the myocardium while the sustained anemia adds high-output strain, together risking heart failure.
 
 ---
 
