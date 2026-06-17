@@ -175,6 +175,15 @@ cross_links:
   - target: 01-human/07-system/venous-thromboembolism
     relation: connects-to
     note: "It famously invades the veins: HCC has a strong tendency to grow into the portal and hepatic veins and to provoke cancer-associated venous thromboembolism, complicating both staging and anticoagulation decisions."
+  - target: 01-human/03-molecular/stat3
+    relation: connects-to
+    note: "IL-6 drives the inflamed liver to cancer through STAT3: chronic hepatitis raises IL-6, whose STAT3 signaling pushes hepatocyte survival and proliferation — a central link from inflammation to hepatocellular carcinoma."
+  - target: 01-human/07-system/sepsis
+    relation: connects-to
+    note: "The cirrhotic liver beneath it invites infection: most HCC arises in cirrhosis, where impaired immunity and bacterial translocation make spontaneous bacterial peritonitis and sepsis frequent, life-threatening events."
+  - target: 01-human/07-system/anemia-of-chronic-disease
+    relation: connects-to
+    note: "Chronic liver disease and cancer blunt the marrow: the inflammation of HCC and its underlying cirrhosis raises hepcidin and cytokines that suppress erythropoiesis, layering an anemia of chronic disease onto any bleeding or hypersplenism."
 ---
 
 # Hepatocellular Carcinoma
@@ -365,6 +374,9 @@ In high-risk patients (cirrhosis, HBV regardless of cirrhosis): ultrasound ± AF
 - `connects-to` → **[CTNNB1](../../03-molecular/ctnnb1/README.md)** — One subclass runs on Wnt: activating CTNNB1 (β-catenin) mutations define a major group of liver cancers — and these tumors are typically immune-cold, resisting the checkpoint immunotherapy that helps other HCCs.
 - `connects-to` → **[Dendritic Cell](../../04-cellular/dendritic-cell/README.md)** — Reawakening the immune attack is the new strategy: dendritic cells must present tumor antigens to mount the T-cell response that atezolizumab-bevacizumab unleashes, the immunotherapy that reshaped advanced HCC treatment.
 - `connects-to` → **[Venous Thromboembolism](../venous-thromboembolism/README.md)** — It famously invades the veins: HCC has a strong tendency to grow into the portal and hepatic veins and to provoke cancer-associated venous thromboembolism, complicating both staging and anticoagulation decisions.
+- `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — IL-6 drives the inflamed liver to cancer through STAT3: chronic hepatitis raises IL-6, whose STAT3 signaling pushes hepatocyte survival and proliferation — a central link from inflammation to hepatocellular carcinoma.
+- `connects-to` → **[Sepsis](../sepsis/README.md)** — The cirrhotic liver beneath it invites infection: most HCC arises in cirrhosis, where impaired immunity and bacterial translocation make spontaneous bacterial peritonitis and sepsis frequent, life-threatening events.
+- `connects-to` → **[Anemia of Chronic Disease](../anemia-of-chronic-disease/README.md)** — Chronic liver disease and cancer blunt the marrow: the inflammation of HCC and its underlying cirrhosis raises hepcidin and cytokines that suppress erythropoiesis, layering an anemia of chronic disease onto any bleeding or hypersplenism.
 
 [^llovet-2008-sorafenib]: Llovet JM, Ricci S, Mazzaferro V, et al. Sorafenib in advanced hepatocellular carcinoma. *N Engl J Med.* 2008;359(4):378-390. [doi:10.1056/NEJMoa0708857](https://doi.org/10.1056/NEJMoa0708857) · [PubMed 18650514](https://pubmed.ncbi.nlm.nih.gov/18650514/)
 [^finn-2020-imbrave150]: Finn RS, Qin S, Ikeda M, et al. Atezolizumab plus bevacizumab in unresectable hepatocellular carcinoma. *N Engl J Med.* 2020;382(20):1894-1905. [doi:10.1056/NEJMoa1915745](https://doi.org/10.1056/NEJMoa1915745) · [PubMed 32402160](https://pubmed.ncbi.nlm.nih.gov/32402160/)

@@ -184,6 +184,15 @@ cross_links:
   - target: 01-human/07-system/cardiovascular-system
     relation: connects-to
     note: "Even controlled HIV ages the arteries: chronic immune activation on top of antiretroviral metabolic effects accelerates atherosclerosis, so cardiovascular disease is now a leading cause of death in the treated, aging HIV population."
+  - target: 02-pathogen/03-fungi/pneumocystis-jirovecii
+    relation: connects-to
+    note: "It hands the lungs to an opportunist: as CD4 counts fall below 200, Pneumocystis jirovecii pneumonia becomes the classic AIDS-defining infection, the reason prophylaxis is started at that threshold."
+  - target: 02-pathogen/04-parasites/toxoplasma-gondii
+    relation: connects-to
+    note: "A latent parasite reawakens in the brain: with advanced immunosuppression, Toxoplasma gondii reactivates into the ring-enhancing brain abscesses of cerebral toxoplasmosis, a leading cause of AIDS-related focal neurological disease."
+  - target: 01-human/03-molecular/stat3
+    relation: connects-to
+    note: "The virus exploits host signaling: HIV manipulates STAT3 and JAK-STAT pathways in infected cells to favor its persistence and the chronic immune activation that smolders even under treatment."
 ---
 
 # HIV
@@ -374,6 +383,9 @@ The **latent reservoir** — HIV integrated into quiescent resting memory CD4+ T
 - `connects-to` → **[Cervical Cancer](../cervical-cancer/README.md)** — Lost immunity lets HPV run to cancer: with CD4 surveillance gone, human papillomavirus persists and progresses, making invasive cervical cancer an AIDS-defining malignancy and a major cause of cancer death in women with HIV.
 - `connects-to` → **[Chronic Kidney Disease](../ckd/README.md)** — The virus scars the kidney: HIV-associated nephropathy, a collapsing glomerulopathy driven by viral genes in kidney cells, drives chronic kidney disease, especially before treatment and in those of African ancestry with APOL1 risk variants.
 - `connects-to` → **[Cardiovascular system](../cardiovascular-system/README.md)** — Even controlled HIV ages the arteries: chronic immune activation on top of antiretroviral metabolic effects accelerates atherosclerosis, so cardiovascular disease is now a leading cause of death in the treated, aging HIV population.
+- `connects-to` → **[Pneumocystis jirovecii](../../../02-pathogen/03-fungi/pneumocystis-jirovecii/README.md)** — It hands the lungs to an opportunist: as CD4 counts fall below 200, Pneumocystis jirovecii pneumonia becomes the classic AIDS-defining infection, the reason prophylaxis is started at that threshold.
+- `connects-to` → **[Toxoplasma gondii](../../../02-pathogen/04-parasites/toxoplasma-gondii/README.md)** — A latent parasite reawakens in the brain: with advanced immunosuppression, Toxoplasma gondii reactivates into the ring-enhancing brain abscesses of cerebral toxoplasmosis, a leading cause of AIDS-related focal neurological disease.
+- `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — The virus exploits host signaling: HIV manipulates STAT3 and JAK-STAT pathways in infected cells to favor its persistence and the chronic immune activation that smolders even under treatment.
 
 [^barre-sinoussi-1983-hiv-isolation]: Barré-Sinoussi F, Chermann JC, Rey F, et al. Isolation of a T-lymphotropic retrovirus from a patient at risk for acquired immune deficiency syndrome (AIDS). *Science.* 1983;220(4599):868-871. [doi:10.1126/science.6189183](https://doi.org/10.1126/science.6189183) · [PubMed 6189183](https://pubmed.ncbi.nlm.nih.gov/6189183/)
 [^ho-1995-viral-dynamics]: Ho DD, Neumann AU, Perelson AS, et al. Rapid turnover of plasma virions and CD4 lymphocytes in HIV-1 infection. *Nature.* 1995;373(6510):123-126. [doi:10.1038/373123a0](https://doi.org/10.1038/373123a0) · [PubMed 7816094](https://pubmed.ncbi.nlm.nih.gov/7816094/)
