@@ -194,6 +194,15 @@ cross_links:
   - target: 01-human/07-system/ptcl
     relation: connects-to
     note: "Its own T cells can turn malignant: peripheral T-cell lymphomas arise from the mature T lymphocytes that populate the lymph nodes, an aggressive cancer of the lymphatic system's cellular residents."
+  - target: 01-human/07-system/wound-healing
+    relation: connects-to
+    note: "When lymph drainage fails, the skin breaks down: lymphedema from damaged or removed lymphatics causes chronic swelling, fibrotic skin changes and ulcers that heal poorly without drainage."
+  - target: 02-pathogen/02-bacteria/staphylococcus-aureus
+    relation: connects-to
+    note: "Stagnant lymph invites recurrent infection: lymphedema impairs immune surveillance in the swollen limb, predisposing to repeated cellulitis and erysipelas, often from staphylococci and streptococci."
+  - target: 01-human/07-system/major-depressive-disorder
+    relation: connects-to
+    note: "Chronic swelling and disfigurement weigh on mood: the disabling, visible and progressive nature of lymphedema, and the burden of lymphatic cancers, contribute to depression and reduced quality of life."
 ---
 
 # Lymphatic System
@@ -362,6 +371,9 @@ Enterocytes package dietary triglycerides + cholesterol + apoB-48 into chylomicr
 - `connects-to` → **[HIV/AIDS](../hiv-aids/README.md)** — It is a disease of the lymphoid organs: HIV replicates in and progressively destroys the CD4 T cells and lymphoid tissue of the lymphatic system, with persistent lymphadenopathy and eventual collapse of nodal architecture.
 - `connects-to` → **[Tuberculosis](../tuberculosis/README.md)** — It classically inflames the nodes: Mycobacterium tuberculosis causes lymphadenitis — scrofula in the neck — a granulomatous infection of the lymphatic system that can persist or drain through the skin.
 - `connects-to` → **[Peripheral T-cell Lymphoma](../ptcl/README.md)** — Its own T cells can turn malignant: peripheral T-cell lymphomas arise from the mature T lymphocytes that populate the lymph nodes, an aggressive cancer of the lymphatic system's cellular residents.
+- `connects-to` → **[Wound Healing](../wound-healing/README.md)** — When lymph drainage fails, the skin breaks down: lymphedema from damaged or removed lymphatics causes chronic swelling, fibrotic skin changes and ulcers that heal poorly without drainage.
+- `connects-to` → **[Staphylococcus aureus](../../../02-pathogen/02-bacteria/staphylococcus-aureus/README.md)** — Stagnant lymph invites recurrent infection: lymphedema impairs immune surveillance in the swollen limb, predisposing to repeated cellulitis and erysipelas, often from staphylococci and streptococci.
+- `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — Chronic swelling and disfigurement weigh on mood: the disabling, visible and progressive nature of lymphedema, and the burden of lymphatic cancers, contribute to depression and reduced quality of life.
 
 ## Pathology
 

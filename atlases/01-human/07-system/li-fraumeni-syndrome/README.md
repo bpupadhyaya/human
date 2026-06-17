@@ -196,6 +196,15 @@ cross_links:
   - target: 01-human/07-system/anemia-of-chronic-disease
     relation: connects-to
     note: "Recurrent cancers and chemo blunt the marrow: the many malignancies of Li-Fraumeni with their inflammatory burden and myelosuppressive treatment depress erythropoiesis into an anemia of chronic disease."
+  - target: 01-human/07-system/generalized-anxiety-disorder
+    relation: connects-to
+    note: "Relentless cancer risk and surveillance breed worry: living with a near-certain lifetime risk of multiple cancers and the demanding whole-body screening of Li-Fraumeni fosters profound health anxiety."
+  - target: 02-pathogen/03-fungi/aspergillus-fumigatus
+    relation: connects-to
+    note: "Treating its many cancers opens the lung to mold: the repeated chemotherapy for the diverse malignancies of Li-Fraumeni causes neutropenia that can let inhaled Aspergillus invade."
+  - target: 01-human/07-system/neuropathic-pain
+    relation: connects-to
+    note: "Its chemotherapy injures the nerves: the vincristine, platinum and taxane agents used across the sarcomas and carcinomas of Li-Fraumeni cause peripheral neuropathy with neuropathic pain."
 ---
 
 # Li-Fraumeni Syndrome
@@ -406,6 +415,9 @@ Annual surveillance significantly reduces mortality in LFS carriers (Villani 201
 - `connects-to` → **[Heart Failure](../heart-failure/README.md)** — Anthracyclines across many cancers scar the heart: the doxorubicin used to treat the sarcomas, breast cancers and leukemias of Li-Fraumeni is dose-dependently cardiotoxic, and carriers also avoid radiation, leaning on cardiotoxic chemo.
 - `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — Lifelong cancer threat weighs on the mind: living with an extreme inherited cancer risk, intensive surveillance and repeated diagnoses gives Li-Fraumeni carriers and families a heavy burden of depression and anxiety.
 - `connects-to` → **[Anemia of Chronic Disease](../anemia-of-chronic-disease/README.md)** — Recurrent cancers and chemo blunt the marrow: the many malignancies of Li-Fraumeni with their inflammatory burden and myelosuppressive treatment depress erythropoiesis into an anemia of chronic disease.
+- `connects-to` → **[Generalized Anxiety Disorder](../generalized-anxiety-disorder/README.md)** — Relentless cancer risk and surveillance breed worry: living with a near-certain lifetime risk of multiple cancers and the demanding whole-body screening of Li-Fraumeni fosters profound health anxiety.
+- `connects-to` → **[Aspergillus fumigatus](../../../02-pathogen/03-fungi/aspergillus-fumigatus/README.md)** — Treating its many cancers opens the lung to mold: the repeated chemotherapy for the diverse malignancies of Li-Fraumeni causes neutropenia that can let inhaled Aspergillus invade.
+- `connects-to` → **[Neuropathic Pain](../neuropathic-pain/README.md)** — Its chemotherapy injures the nerves: the vincristine, platinum and taxane agents used across the sarcomas and carcinomas of Li-Fraumeni cause peripheral neuropathy with neuropathic pain.
 
 [^bougeard-2015-lfs-chompret]: Bougeard G, Renaux-Petel M, Flaman JM, et al. Revisiting Li-Fraumeni Syndrome From TP53 Mutation Carriers. *J Clin Oncol.* 2015;33(21):2345-2352. [doi:10.1200/JCO.2014.59.5728](https://doi.org/10.1200/JCO.2014.59.5728) · [PubMed 26014290](https://pubmed.ncbi.nlm.nih.gov/26014290/)
 [^villani-2016-lfs-surveillance]: Villani A, Shore A, Wasserman JD, et al. Biochemical and imaging surveillance in germline TP53 mutation carriers with Li-Fraumeni syndrome: 11 year follow-up of a prospective observational study. *Lancet Oncol.* 2016;17(9):1295-1305. [doi:10.1016/S1470-2045(16)30249-2](https://doi.org/10.1016/S1470-2045(16)30249-2) · [PubMed 27501770](https://pubmed.ncbi.nlm.nih.gov/27501770/)
