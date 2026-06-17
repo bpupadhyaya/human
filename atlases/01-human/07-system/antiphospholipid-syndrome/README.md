@@ -175,6 +175,15 @@ cross_links:
   - target: 01-human/07-system/ahus
     relation: connects-to
     note: "Catastrophic APS becomes a thrombotic microangiopathy: in its fulminant form, widespread small-vessel clotting and organ failure overlap atypical HUS, a complement-amplified emergency that must be told apart from it."
+  - target: 01-human/03-molecular/nf-kb
+    relation: connects-to
+    note: "The antibodies switch endothelium to clot mode through NF-κB: antiphospholipid antibodies signal via TLR4 to activate NF-κB in endothelial cells and monocytes, driving the tissue factor expression that makes APS relentlessly prothrombotic."
+  - target: 01-human/07-system/ckd
+    relation: connects-to
+    note: "It clots the kidney's small vessels: APS nephropathy is a thrombotic microangiopathy of the renal microcirculation that, with recurrent renal vein or artery thrombosis, can erode kidney function into chronic kidney disease."
+  - target: 01-human/07-system/epilepsy
+    relation: connects-to
+    note: "It can spark seizures directly: beyond stroke, antiphospholipid antibodies are linked to epilepsy through microthrombi and possible direct binding to neuronal tissue, one of the disease's range of neurological manifestations."
 ---
 
 # Antiphospholipid Syndrome
@@ -373,6 +382,9 @@ In APS, anti-B2GPI IgG bound to B2GPI on phospholipid surfaces converts this ant
 - `connects-to` → **[TLR4](../../03-molecular/tlr4/README.md)** — The autoantibody switches cells into a clotting mode: anti-β2-glycoprotein-I antibodies signal through TLR4 on endothelial cells and monocytes, driving tissue factor and the prothrombotic activation behind APS thrombosis.
 - `connects-to` → **[Heart Failure](../heart-failure/README.md)** — It scars the heart valves: APS causes Libman-Sacks endocarditis with sterile valve vegetations, and that valve damage plus microthrombi in the myocardium can drift toward heart failure.
 - `connects-to` → **[Atypical HUS](../ahus/README.md)** — Catastrophic APS becomes a thrombotic microangiopathy: in its fulminant form, widespread small-vessel clotting and organ failure overlap atypical HUS, a complement-amplified emergency that must be told apart from it.
+- `connects-to` → **[NF-κB](../../03-molecular/nf-kb/README.md)** — The antibodies switch endothelium to clot mode through NF-κB: antiphospholipid antibodies signal via TLR4 to activate NF-κB in endothelial cells and monocytes, driving the tissue factor expression that makes APS relentlessly prothrombotic.
+- `connects-to` → **[Chronic Kidney Disease](../ckd/README.md)** — It clots the kidney's small vessels: APS nephropathy is a thrombotic microangiopathy of the renal microcirculation that, with recurrent renal vein or artery thrombosis, can erode kidney function into chronic kidney disease.
+- `connects-to` → **[Epilepsy](../epilepsy/README.md)** — It can spark seizures directly: beyond stroke, antiphospholipid antibodies are linked to epilepsy through microthrombi and possible direct binding to neuronal tissue, one of the disease's range of neurological manifestations.
 
 [^miyakis-2006-sydney-aps]: Miyakis S, Lockshin MD, Atsumi T, et al. International consensus statement on an update of the classification criteria for definite antiphospholipid syndrome (APS). *J Thromb Haemost.* 2006;4(2):295-306. [doi:10.1111/j.1538-7836.2006.01753.x](https://doi.org/10.1111/j.1538-7836.2006.01753.x) · [PubMed 16420554](https://pubmed.ncbi.nlm.nih.gov/16420554/)
 [^barbhaiya-2023-acreular-aps]: Barbhaiya M, Zuily S, Naden R, et al. The 2023 ACR/EULAR antiphospholipid syndrome classification criteria. *Ann Rheum Dis.* 2023;82(10):1258-1270. [doi:10.1136/ard-2023-224609](https://doi.org/10.1136/ard-2023-224609) · [PubMed 37643823](https://pubmed.ncbi.nlm.nih.gov/37643823/)

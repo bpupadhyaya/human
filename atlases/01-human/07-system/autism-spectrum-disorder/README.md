@@ -184,6 +184,15 @@ cross_links:
   - target: 01-human/07-system/insomnia-disorder
     relation: connects-to
     note: "Sleep rarely comes easy: insomnia and disrupted sleep architecture are strikingly common in autism, tied to altered melatonin rhythms, and poor sleep in turn worsens daytime behavior and core symptoms."
+  - target: 01-human/03-molecular/nf-kb
+    relation: connects-to
+    note: "Neuroinflammation runs through NF-κB: maternal immune activation and microglial activation in autism converge on NF-κB-driven cytokine signaling, part of the inflammatory thread woven through its neurodevelopment."
+  - target: 01-human/03-molecular/pten
+    relation: connects-to
+    note: "One gene ties autism to overgrowth: PTEN mutations cause a macrocephaly-autism syndrome, and because PTEN restrains the mTOR pathway, its loss drives the synaptic overgrowth linking this monogenic cause to the broader spectrum."
+  - target: 01-human/07-system/digestive-system
+    relation: connects-to
+    note: "The gut speaks loudly in autism: constipation, diarrhea and abdominal pain are far more common than in peers, a GI burden tied to the gut-brain axis and to the altered microbiome that accompanies the condition."
 ---
 
 # Autism Spectrum Disorder
@@ -376,6 +385,9 @@ The neural basis of ASD social deficits involves dysfunction of the **social bra
 - `connects-to` → **[Endocannabinoid System](../../03-molecular/endocannabinoid/README.md)** — The body's cannabis system tunes the social brain: endocannabinoid signaling shapes the synaptic plasticity and reward responses to social cues, and its dysregulation in autism is the rationale behind cannabidiol trials for the condition.
 - `connects-to` → **[Regulatory T Cell](../../04-cellular/regulatory-t-cell/README.md)** — An immune imbalance shadows it: reduced regulatory T cells and a tilt toward inflammation accompany autism, fitting the maternal-immune-activation models in which prenatal inflammation reshapes brain development.
 - `connects-to` → **[Insomnia Disorder](../insomnia-disorder/README.md)** — Sleep rarely comes easy: insomnia and disrupted sleep architecture are strikingly common in autism, tied to altered melatonin rhythms, and poor sleep in turn worsens daytime behavior and core symptoms.
+- `connects-to` → **[NF-κB](../../03-molecular/nf-kb/README.md)** — Neuroinflammation runs through NF-κB: maternal immune activation and microglial activation in autism converge on NF-κB-driven cytokine signaling, part of the inflammatory thread woven through its neurodevelopment.
+- `connects-to` → **[PTEN](../../03-molecular/pten/README.md)** — One gene ties autism to overgrowth: PTEN mutations cause a macrocephaly-autism syndrome, and because PTEN restrains the mTOR pathway, its loss drives the synaptic overgrowth linking this monogenic cause to the broader spectrum.
+- `connects-to` → **[Digestive System](../digestive-system/README.md)** — The gut speaks loudly in autism: constipation, diarrhea and abdominal pain are far more common than in peers, a GI burden tied to the gut-brain axis and to the altered microbiome that accompanies the condition.
 
 [^maenner-2023-asd-prevalence]: Maenner MJ, Warren Z, Williams AR, et al. Prevalence and characteristics of autism spectrum disorder among children aged 8 years — ADDM Network, 2020. *MMWR Surveill Summ.* 2023;72(2):1-14. [doi:10.15585/mmwr.ss7202a1](https://doi.org/10.15585/mmwr.ss7202a1) · [PubMed 36952216](https://pubmed.ncbi.nlm.nih.gov/36952216/)
 [^lord-2020-asd-review]: Lord C, Elsabbagh M, Baird G, Veenstra-Vanderweele J. Autism spectrum disorder. *Lancet.* 2018;392(10146):508-520. [doi:10.1016/S0140-6736(18)31129-2](https://doi.org/10.1016/S0140-6736(18)31129-2) · [PubMed 30078460](https://pubmed.ncbi.nlm.nih.gov/30078460/)
