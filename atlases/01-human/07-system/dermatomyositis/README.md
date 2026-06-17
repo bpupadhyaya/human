@@ -184,6 +184,15 @@ cross_links:
   - target: 01-human/07-system/sjogrens-syndrome
     relation: connects-to
     note: "It keeps autoimmune company: dermatomyositis frequently overlaps other connective-tissue diseases including Sjögren's, sharing the interferon-driven autoimmunity that can blur one syndrome into another."
+  - target: 01-human/03-molecular/stat3
+    relation: connects-to
+    note: "STAT3 carries the IL-6 inflammation into muscle: downstream of the IL-6 elevated in dermatomyositis, STAT3 signaling helps sustain the inflammatory attack on muscle and skin, part of the cytokine network targeted by JAK inhibitors."
+  - target: 01-human/07-system/sepsis
+    relation: connects-to
+    note: "Treatment trades autoimmunity for infection risk: the high-dose steroids and immunosuppressants used to control dermatomyositis leave patients prone to serious infection and sepsis, a leading cause of death in the disease."
+  - target: 02-pathogen/03-fungi/pneumocystis-jirovecii
+    relation: connects-to
+    note: "An opportunistic fungus exploits the immunosuppression: dermatomyositis patients on steroids and other immunosuppressants are at risk of Pneumocystis pneumonia, which is why prophylaxis is often given alongside treatment."
 ---
 
 # Dermatomyositis
@@ -364,6 +373,9 @@ DM carries a ~3–7× elevated cancer risk overall. Anti-TIF1γ (TRIM33) suppres
 - `connects-to` → **[Interleukin-6](../../03-molecular/il-6/README.md)** — IL-6 tracks the inflammation: this cytokine rises with disease activity in dermatomyositis, fueling the muscle and skin inflammation alongside the dominant interferon signature, and is a target tested for refractory disease.
 - `connects-to` → **[Regulatory T Cell](../../04-cellular/regulatory-t-cell/README.md)** — Faltering immune restraint lets it run: a deficiency and dysfunction of regulatory T cells helps unleash the autoreactive response against muscle and skin, part of why broad immunosuppression rather than a single target is often needed.
 - `connects-to` → **[Sjögren's Syndrome](../sjogrens-syndrome/README.md)** — It keeps autoimmune company: dermatomyositis frequently overlaps other connective-tissue diseases including Sjögren's, sharing the interferon-driven autoimmunity that can blur one syndrome into another.
+- `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — STAT3 carries the IL-6 inflammation into muscle: downstream of the IL-6 elevated in dermatomyositis, STAT3 signaling helps sustain the inflammatory attack on muscle and skin, part of the cytokine network targeted by JAK inhibitors.
+- `connects-to` → **[Sepsis](../sepsis/README.md)** — Treatment trades autoimmunity for infection risk: the high-dose steroids and immunosuppressants used to control dermatomyositis leave patients prone to serious infection and sepsis, a leading cause of death in the disease.
+- `connects-to` → **[Pneumocystis jirovecii](../../../02-pathogen/03-fungi/pneumocystis-jirovecii/README.md)** — An opportunistic fungus exploits the immunosuppression: dermatomyositis patients on steroids and other immunosuppressants are at risk of Pneumocystis pneumonia, which is why prophylaxis is often given alongside treatment.
 
 [^bohan-peter-1975-dm-criteria]: Bohan A, Peter JB. Polymyositis and dermatomyositis. *N Engl J Med.* 1975;292(7):344-347. [doi:10.1056/NEJM197502132920706](https://doi.org/10.1056/NEJM197502132920706) · [PubMed 1090839](https://pubmed.ncbi.nlm.nih.gov/1090839/)
 [^lundberg-2021-iim-classification]: Lundberg IE, et al. 2017 EULAR/ACR classification criteria for adult and juvenile idiopathic inflammatory myopathies. *Arthritis Rheumatol.* 2017;69(12):2271-2282. [doi:10.1002/art.40320](https://doi.org/10.1002/art.40320) · [PubMed 29106061](https://pubmed.ncbi.nlm.nih.gov/29106061/)

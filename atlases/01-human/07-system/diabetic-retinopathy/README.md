@@ -178,6 +178,15 @@ cross_links:
   - target: 01-human/07-system/cardiovascular-system
     relation: connects-to
     note: "The eye is a window on the arteries: diabetic retinopathy signals widespread microvascular disease, so its presence flags a markedly higher risk of heart attack, stroke and other cardiovascular events body-wide."
+  - target: 01-human/03-molecular/stat3
+    relation: connects-to
+    note: "STAT3 links inflammation to the leaking vessels: driven by IL-6 and high glucose in the retina, STAT3 activation in endothelial and glial cells stokes the inflammation and VEGF output behind the barrier breakdown of diabetic retinopathy."
+  - target: 01-human/03-molecular/glp-1
+    relation: connects-to
+    note: "Rapid glucose-lowering can transiently worsen it: GLP-1 receptor agonists like semaglutide sharply improve control but carry a noted signal of early retinopathy progression, the same paradox seen with any abrupt tightening of blood sugar."
+  - target: 01-human/07-system/nervous-system
+    relation: connects-to
+    note: "It is a neural disease as much as a vascular one: diabetic retinal neurodegeneration damages the retina's neurons and glia — part of the nervous system — before vessels visibly fail, so neural dysfunction can precede classic retinopathy."
 ---
 
 # Diabetic Retinopathy
@@ -341,6 +350,9 @@ DR encompasses a spectrum from subtle vascular changes to sight-threatening neov
 - `connects-to` → **[Peripheral Nerve](../../05-tissue/peripheral-nerve/README.md)** — It travels with its neural cousin: diabetic retinopathy and peripheral neuropathy are parallel microvascular complications of the same hyperglycemia, so finding one should prompt screening for the other across the diabetic body.
 - `connects-to` → **[TNF-α](../../03-molecular/tnf-alpha/README.md)** — Inflammatory cytokines stoke the leak: TNF-α released in the diabetic retina breaks down the blood-retinal barrier and drives leukostasis, adding an inflammatory push to the VEGF-driven vascular damage.
 - `connects-to` → **[Cardiovascular system](../cardiovascular-system/README.md)** — The eye is a window on the arteries: diabetic retinopathy signals widespread microvascular disease, so its presence flags a markedly higher risk of heart attack, stroke and other cardiovascular events body-wide.
+- `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — STAT3 links inflammation to the leaking vessels: driven by IL-6 and high glucose in the retina, STAT3 activation in endothelial and glial cells stokes the inflammation and VEGF output behind the barrier breakdown of diabetic retinopathy.
+- `connects-to` → **[GLP-1](../../03-molecular/glp-1/README.md)** — Rapid glucose-lowering can transiently worsen it: GLP-1 receptor agonists like semaglutide sharply improve control but carry a noted signal of early retinopathy progression, the same paradox seen with any abrupt tightening of blood sugar.
+- `connects-to` → **[Nervous System](../nervous-system/README.md)** — It is a neural disease as much as a vascular one: diabetic retinal neurodegeneration damages the retina's neurons and glia — part of the nervous system — before vessels visibly fail, so neural dysfunction can precede classic retinopathy.
 
 [^fong-2004-dr-review]: Fong DS, Aiello L, Gardner TW, et al. Diabetic retinopathy. *Diabetes Care.* 2004;27(10):2540-2553. [doi:10.2337/diacare.27.10.2540](https://doi.org/10.2337/diacare.27.10.2540) · [PubMed 15451934](https://pubmed.ncbi.nlm.nih.gov/15451934/)
 [^brown-2015-aflibercept-protocol-t]: Diabetic Retinopathy Clinical Research Network; Wells JA, Glassman AR, et al. Aflibercept, Bevacizumab, or Ranibizumab for Diabetic Macular Edema. *N Engl J Med.* 2015;372(13):1193-1203. [doi:10.1056/NEJMoa1414264](https://doi.org/10.1056/NEJMoa1414264) · [PubMed 25692915](https://pubmed.ncbi.nlm.nih.gov/25692915/)
