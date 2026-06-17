@@ -178,6 +178,15 @@ cross_links:
   - target: 01-human/03-molecular/vegf
     relation: connects-to
     note: "It builds vessels to spread: prostate tumors drive VEGF-dependent angiogenesis to grow and seed bone, where the new vasculature supports the osteoblastic metastases that define advanced disease."
+  - target: 01-human/03-molecular/nf-kb
+    relation: connects-to
+    note: "NF-κB helps it shake off hormone therapy: constitutive NF-κB signaling supports survival and androgen-receptor-independent growth, a route by which prostate cancer escapes castration into the lethal castration-resistant state."
+  - target: 01-human/07-system/venous-thromboembolism
+    relation: connects-to
+    note: "The cancer and its hormone therapy both clot the blood: advanced prostate cancer is prothrombotic, and androgen-deprivation therapy further raises the risk of deep-vein thrombosis and pulmonary embolism."
+  - target: 01-human/07-system/sepsis
+    relation: connects-to
+    note: "It blocks the urinary tract and seeds infection: locally advanced prostate cancer obstructs the bladder outlet and ureters, and the resulting urinary stasis and instrumentation make urosepsis a real hazard."
 ---
 
 # Prostate Cancer
@@ -358,6 +367,9 @@ cross_links:
 - `connects-to` → **[PD-1](../../03-molecular/pd-1/README.md)** — Most of it resists immunotherapy: prostate cancer is immunologically cold, so PD-1 blockade helps only the rare mismatch-repair-deficient, high-mutation tumors — a reminder that checkpoint drugs need a visible target to work.
 - `connects-to` → **[Obesity](../obesity/README.md)** — Excess weight breeds the aggressive form: obesity is linked less to getting prostate cancer than to developing the high-grade, lethal disease, through insulin, inflammation and altered androgen handling in fat tissue.
 - `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — It builds vessels to spread: prostate tumors drive VEGF-dependent angiogenesis to grow and seed bone, where the new vasculature supports the osteoblastic metastases that define advanced disease.
+- `connects-to` → **[NF-κB](../../03-molecular/nf-kb/README.md)** — NF-κB helps it shake off hormone therapy: constitutive NF-κB signaling supports survival and androgen-receptor-independent growth, a route by which prostate cancer escapes castration into the lethal castration-resistant state.
+- `connects-to` → **[Venous Thromboembolism](../venous-thromboembolism/README.md)** — The cancer and its hormone therapy both clot the blood: advanced prostate cancer is prothrombotic, and androgen-deprivation therapy further raises the risk of deep-vein thrombosis and pulmonary embolism.
+- `connects-to` → **[Sepsis](../sepsis/README.md)** — It blocks the urinary tract and seeds infection: locally advanced prostate cancer obstructs the bladder outlet and ureters, and the resulting urinary stasis and instrumentation make urosepsis a real hazard.
 
 [^beer-2014-prevail]: Beer TM, Armstrong AJ, Rathkopf D, et al. Enzalutamide in metastatic prostate cancer before chemotherapy. *N Engl J Med.* 2014;371(5):424-433. [doi:10.1056/NEJMoa1405095](https://doi.org/10.1056/NEJMoa1405095) · [PubMed 24881730](https://pubmed.ncbi.nlm.nih.gov/24881730/)
 [^sartor-2021-vision]: Sartor O, de Bono J, Chi KN, et al. Lutetium-PSMA-617 for metastatic castration-resistant prostate cancer. *N Engl J Med.* 2021;385(12):1091-1103. [doi:10.1056/NEJMoa2107322](https://doi.org/10.1056/NEJMoa2107322) · [PubMed 34161051](https://pubmed.ncbi.nlm.nih.gov/34161051/)

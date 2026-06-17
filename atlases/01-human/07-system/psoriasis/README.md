@@ -178,6 +178,15 @@ cross_links:
   - target: 01-human/07-system/stroke
     relation: connects-to
     note: "The skin disease reaches the brain's arteries: psoriasis's systemic inflammation accelerates atherosclerosis, raising the risk of stroke and heart attack independently of the usual cardiovascular risk factors."
+  - target: 01-human/07-system/venous-thromboembolism
+    relation: connects-to
+    note: "Chronic inflammation clots the veins too: beyond its arterial risk, severe psoriasis is independently linked to a higher rate of deep-vein thrombosis and pulmonary embolism, part of the prothrombotic state of systemic inflammatory disease."
+  - target: 01-human/07-system/alcohol-use-disorder
+    relation: connects-to
+    note: "Drink and disease worsen each other: alcohol use disorder is over-represented in psoriasis and both triggers flares and blunts treatment response, a bidirectional link tangled with the disease's psychological burden."
+  - target: 01-human/07-system/sepsis
+    relation: connects-to
+    note: "Severe forms strip the skin's defense: erythrodermic and generalized pustular psoriasis breach the barrier across most of the body, letting bacteria invade — a route to bloodstream infection and sepsis compounded by immunosuppressive therapy."
 ---
 
 # Psoriasis
@@ -346,6 +355,9 @@ Differential: Seborrheic dermatitis (common), pityriasis rosea (herald patch, Ch
 - `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — A transcription hub turns on the plaque: IL-23 signals through STAT3 to sustain the Th17/IL-17 response and the keratinocyte overgrowth of psoriasis, the node that TYK2-JAK inhibitors like deucravacitinib block.
 - `connects-to` → **[Candida albicans](../../../02-pathogen/03-fungi/candida-albicans/README.md)** — A fungus can light the fuse: like streptococcal throat infection, Candida colonization acts as a microbial trigger and superantigen that flares psoriasis, and patients carry the yeast more often.
 - `connects-to` → **[Stroke](../stroke/README.md)** — The skin disease reaches the brain's arteries: psoriasis's systemic inflammation accelerates atherosclerosis, raising the risk of stroke and heart attack independently of the usual cardiovascular risk factors.
+- `connects-to` → **[Venous Thromboembolism](../venous-thromboembolism/README.md)** — Chronic inflammation clots the veins too: beyond its arterial risk, severe psoriasis is independently linked to a higher rate of deep-vein thrombosis and pulmonary embolism, part of the prothrombotic state of systemic inflammatory disease.
+- `connects-to` → **[Alcohol Use Disorder](../alcohol-use-disorder/README.md)** — Drink and disease worsen each other: alcohol use disorder is over-represented in psoriasis and both triggers flares and blunts treatment response, a bidirectional link tangled with the disease's psychological burden.
+- `connects-to` → **[Sepsis](../sepsis/README.md)** — Severe forms strip the skin's defense: erythrodermic and generalized pustular psoriasis breach the barrier across most of the body, letting bacteria invade — a route to bloodstream infection and sepsis compounded by immunosuppressive therapy.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
