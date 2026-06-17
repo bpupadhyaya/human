@@ -190,6 +190,15 @@ cross_links:
   - target: 01-human/07-system/major-depressive-disorder
     relation: connects-to
     note: "It weighs heavily on mood: depression is common in heart failure, driven by the limits of breathlessness and fatigue and by shared inflammatory pathways, and it independently predicts hospitalization and death."
+  - target: 01-human/07-system/alzheimers-disease
+    relation: connects-to
+    note: "A failing pump starves the brain: chronically low cardiac output and recurrent hypoperfusion reduce cerebral blood flow, and heart failure is an independent risk factor for vascular and Alzheimer-type cognitive decline."
+  - target: 01-human/07-system/nash
+    relation: connects-to
+    note: "Backed-up venous pressure congests the liver: right-sided heart failure engorges the liver, and the shared metabolic syndrome links cardiac disease with fatty-liver disease, together driving congestive hepatopathy and fibrosis."
+  - target: 01-human/07-system/sepsis
+    relation: connects-to
+    note: "Congestion and frailty invite severe infection: pulmonary congestion predisposes to pneumonia, and the debilitated, often hospitalized heart-failure patient is vulnerable to infections that can escalate to sepsis."
 ---
 
 # Heart Failure
@@ -320,6 +329,9 @@ Normal hearts increase stroke volume with increasing preload (Starling curve). T
 - `connects-to` → **[Pulmonary Arterial Hypertension](../pulmonary-arterial-hypertension/README.md)** — Left-sided failure backs pressure into the lungs: chronically raised left-atrial pressure transmits to the pulmonary circulation, causing the post-capillary (group 2) pulmonary hypertension that complicates and worsens heart failure.
 - `connects-to` → **[Gout](../gout/README.md)** — Diuretics and low output raise uric acid: loop diuretics and reduced renal perfusion in heart failure cut urate excretion, so hyperuricemia and gout flares are common, and high uric acid itself tracks with worse prognosis.
 - `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — It weighs heavily on mood: depression is common in heart failure, driven by the limits of breathlessness and fatigue and by shared inflammatory pathways, and it independently predicts hospitalization and death.
+- `connects-to` → **[Alzheimer's Disease](../alzheimers-disease/README.md)** — A failing pump starves the brain: chronically low cardiac output and recurrent hypoperfusion reduce cerebral blood flow, and heart failure is an independent risk factor for vascular and Alzheimer-type cognitive decline.
+- `connects-to` → **[NASH](../nash/README.md)** — Backed-up venous pressure congests the liver: right-sided heart failure engorges the liver, and the shared metabolic syndrome links cardiac disease with fatty-liver disease, together driving congestive hepatopathy and fibrosis.
+- `connects-to` → **[Sepsis](../sepsis/README.md)** — Congestion and frailty invite severe infection: pulmonary congestion predisposes to pneumonia, and the debilitated, often hospitalized heart-failure patient is vulnerable to infections that can escalate to sepsis.
 
 ## Pathology
 

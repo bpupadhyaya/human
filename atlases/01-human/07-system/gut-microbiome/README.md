@@ -190,6 +190,15 @@ cross_links:
   - target: 01-human/07-system/ckd
     relation: connects-to
     note: "A gut-kidney axis runs both ways: dysbiosis lets the gut generate uremic toxins like indoxyl sulfate that injure the kidney, while failing kidneys in turn reshape the flora, a vicious cycle in chronic kidney disease."
+  - target: 01-human/07-system/generalized-anxiety-disorder
+    relation: connects-to
+    note: "The gut-brain axis shapes anxiety: microbial metabolites and vagal signaling modulate GABA and the stress axis, and dysbiosis is linked to heightened anxiety, with probiotics under study to ease it."
+  - target: 01-human/07-system/autism-spectrum-disorder
+    relation: connects-to
+    note: "Microbes and behavior intertwine in development: GI symptoms are common in autism, and altered gut flora and its metabolites are implicated through the gut-brain axis in the behavioral phenotype."
+  - target: 01-human/07-system/gout
+    relation: connects-to
+    note: "Bacteria help handle the body's urate: the gut microbiome degrades a meaningful share of purines and uric acid, and dysbiosis that impairs this disposal contributes to the hyperuricemia behind gout."
 ---
 
 # Gut Microbiome
@@ -325,6 +334,9 @@ The microbiome influences CNS function via multiple pathways:
 - `connects-to` → **[Alzheimer's Disease](../alzheimers-disease/README.md)** — Dysbiosis may stoke the aging brain: gut bacteria shape systemic inflammation and amyloid metabolism along the gut-brain axis, and altered microbiomes are increasingly linked to the neuroinflammation of Alzheimer's disease.
 - `connects-to` → **[Atopic Dermatitis](../atopic-dermatitis/README.md)** — The gut tunes the skin's immunity: a gut-skin axis means early-life dysbiosis biases the immune system toward allergy, and reduced microbial diversity in infancy is associated with developing atopic dermatitis.
 - `connects-to` → **[Chronic Kidney Disease](../ckd/README.md)** — A gut-kidney axis runs both ways: dysbiosis lets the gut generate uremic toxins like indoxyl sulfate that injure the kidney, while failing kidneys in turn reshape the flora, a vicious cycle in chronic kidney disease.
+- `connects-to` → **[Generalized Anxiety Disorder](../generalized-anxiety-disorder/README.md)** — The gut-brain axis shapes anxiety: microbial metabolites and vagal signaling modulate GABA and the stress axis, and dysbiosis is linked to heightened anxiety, with probiotics under study to ease it.
+- `connects-to` → **[Autism Spectrum Disorder](../autism-spectrum-disorder/README.md)** — Microbes and behavior intertwine in development: GI symptoms are common in autism, and altered gut flora and its metabolites are implicated through the gut-brain axis in the behavioral phenotype.
+- `connects-to` → **[Gout](../gout/README.md)** — Bacteria help handle the body's urate: the gut microbiome degrades a meaningful share of purines and uric acid, and dysbiosis that impairs this disposal contributes to the hyperuricemia behind gout.
 
 ## Pathology
 
