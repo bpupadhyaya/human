@@ -202,6 +202,15 @@ cross_links:
   - target: 01-human/07-system/major-depressive-disorder
     relation: connects-to
     note: "Mind and wound feed back on each other: the cortisol and inflammation of depression measurably slow wound closure, while chronic non-healing wounds, pain and disability in turn drive depression."
+  - target: 01-human/07-system/immune-system
+    relation: connects-to
+    note: "Immune cells orchestrate repair: neutrophils and macrophages clear debris and release the growth factors that drive proliferation, so immunodeficiency, neutropenia and immunosuppressive drugs all delay healing."
+  - target: 01-human/07-system/lymphatic-system
+    relation: connects-to
+    note: "Lymphatic drainage is needed to close a wound: the lymphatics clear interstitial fluid and inflammatory debris from the wound bed, so lymphedema leaves a swollen, stagnant field where chronic ulcers fail to heal."
+  - target: 02-pathogen/02-bacteria/streptococcus-pyogenes
+    relation: connects-to
+    note: "A breached barrier invites invasive strep: an open wound is a portal for Streptococcus pyogenes, which causes wound cellulitis, erysipelas and, at its worst, rapidly spreading necrotising fasciitis."
 ---
 
 # Wound Healing
@@ -382,6 +391,9 @@ cross_links:
 - `connects-to` → **[Rheumatoid Arthritis](../rheumatoid-arthritis/README.md)** — Its drugs impair the healing it needs after surgery: corticosteroids, methotrexate and biologics used in rheumatoid arthritis blunt inflammation and collagen synthesis, raising the rate of wound dehiscence and infection after operations.
 - `connects-to` → **[Osteoporosis](../osteoporosis/README.md)** — Bone repair is wound healing of the skeleton: fracture union recapitulates the same inflammatory, proliferative and remodeling phases, so the impaired healing of aging and chronic disease also delays the union of osteoporotic fractures.
 - `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — Mind and wound feed back on each other: the cortisol and inflammation of depression measurably slow wound closure, while chronic non-healing wounds, pain and disability in turn drive depression.
+- `connects-to` → **[Immune System](../immune-system/README.md)** — Immune cells orchestrate repair: neutrophils and macrophages clear debris and release the growth factors that drive proliferation, so immunodeficiency, neutropenia and immunosuppressive drugs all delay healing.
+- `connects-to` → **[Lymphatic System](../lymphatic-system/README.md)** — Lymphatic drainage is needed to close a wound: the lymphatics clear interstitial fluid and inflammatory debris from the wound bed, so lymphedema leaves a swollen, stagnant field where chronic ulcers fail to heal.
+- `connects-to` → **[Streptococcus pyogenes](../../../02-pathogen/02-bacteria/streptococcus-pyogenes/README.md)** — A breached barrier invites invasive strep: an open wound is a portal for Streptococcus pyogenes, which causes wound cellulitis, erysipelas and, at its worst, rapidly spreading necrotising fasciitis.
 
 [^singer-1999-wound-healing-review]: Singer AJ, Clark RA. Cutaneous wound healing. *N Engl J Med.* 1999;341(10):738-746. [doi:10.1056/NEJM199909023411006](https://doi.org/10.1056/NEJM199909023411006) · [PubMed 10471461](https://pubmed.ncbi.nlm.nih.gov/10471461/)
 [^gurtner-2008-wound-repair-regeneration]: Gurtner GC, Werner S, Barrandon Y, Longaker MT. Wound repair and regeneration. *Nature.* 2008;453(7193):314-321. [doi:10.1038/nature07039](https://doi.org/10.1038/nature07039) · [PubMed 18480812](https://pubmed.ncbi.nlm.nih.gov/18480812/)

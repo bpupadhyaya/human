@@ -205,6 +205,15 @@ cross_links:
   - target: 01-human/07-system/major-depressive-disorder
     relation: connects-to
     note: "An abrupt, life-threatening diagnosis and long isolation weigh on mood: AML's sudden onset, prolonged inpatient induction and transplant impose a heavy psychological burden that contributes to depression and anxiety."
+  - target: 02-pathogen/01-viruses/varicella-zoster-virus
+    relation: connects-to
+    note: "Chemotherapy and transplant reawaken shingles: the deep, prolonged immune suppression of AML induction and stem-cell transplant lets latent varicella-zoster reactivate, so antiviral prophylaxis is standard."
+  - target: 01-human/07-system/aplastic-anemia
+    relation: connects-to
+    note: "Marrow failure can transform into leukaemia: acquired aplastic anemia carries a real risk of clonal evolution to MDS and acute myeloid leukaemia, linking the empty marrow to the malignant one."
+  - target: 01-human/07-system/generalized-anxiety-disorder
+    relation: connects-to
+    note: "A sudden, relapse-prone cancer breeds dread: the abrupt life-threatening onset, intensive therapy and constant relapse risk of AML fuel chronic anxiety alongside the depression its course imposes."
 ---
 
 # AML
@@ -378,6 +387,9 @@ AML requires cooperative mutations in at least 2 functional categories (Gillilan
 - `connects-to` → **[Chronic Kidney Disease](../ckd/README.md)** — Tumor lysis and nephrotoxic drugs batter the kidneys: the massive cell turnover at AML induction triggers tumor lysis syndrome, and the chemotherapy and antifungals it requires add nephrotoxicity, together risking acute and chronic kidney injury.
 - `connects-to` → **[Pneumocystis jirovecii](../../../02-pathogen/03-fungi/pneumocystis-jirovecii/README.md)** — Prolonged immunosuppression invites Pneumocystis: the deep, sustained T-cell suppression of AML therapy and stem-cell transplant predisposes to Pneumocystis pneumonia, so prophylaxis is given through treatment.
 - `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — An abrupt, life-threatening diagnosis and long isolation weigh on mood: AML's sudden onset, prolonged inpatient induction and transplant impose a heavy psychological burden that contributes to depression and anxiety.
+- `connects-to` → **[Varicella-Zoster Virus](../../../02-pathogen/01-viruses/varicella-zoster-virus/README.md)** — Chemotherapy and transplant reawaken shingles: the deep, prolonged immune suppression of AML induction and stem-cell transplant lets latent varicella-zoster reactivate, so antiviral prophylaxis is standard.
+- `connects-to` → **[Aplastic Anemia](../aplastic-anemia/README.md)** — Marrow failure can transform into leukaemia: acquired aplastic anemia carries a real risk of clonal evolution to MDS and acute myeloid leukaemia, linking the empty marrow to the malignant one.
+- `connects-to` → **[Generalized Anxiety Disorder](../generalized-anxiety-disorder/README.md)** — A sudden, relapse-prone cancer breeds dread: the abrupt life-threatening onset, intensive therapy and constant relapse risk of AML fuel chronic anxiety alongside the depression its course imposes.
 
 [^dinardo-2020-viale-a]: DiNardo CD, Jonas BA, Pullarkat V, et al. Azacitidine and venetoclax in previously untreated acute myeloid leukemia. *N Engl J Med.* 2020;383(7):617-629. [doi:10.1056/NEJMoa2012971](https://doi.org/10.1056/NEJMoa2012971) · [PubMed 32786187](https://pubmed.ncbi.nlm.nih.gov/32786187/)
 [^stone-2017-midostaurin]: Stone RM, Mandrekar SJ, Sanford BL, et al. Midostaurin plus chemotherapy for acute myeloid leukemia with a FLT3 mutation. *N Engl J Med.* 2017;377(5):454-464. [doi:10.1056/NEJMoa1614359](https://doi.org/10.1056/NEJMoa1614359) · [PubMed 28644114](https://pubmed.ncbi.nlm.nih.gov/28644114/)
