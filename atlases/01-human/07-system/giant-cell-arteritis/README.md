@@ -196,6 +196,15 @@ cross_links:
   - target: 01-human/07-system/major-depressive-disorder
     relation: connects-to
     note: "Steroids and vision loss weigh on mood: the high-dose glucocorticoids for GCA cause mood disturbance and depression, compounded by the fear and disability of the irreversible blindness the disease can cause."
+  - target: 02-pathogen/03-fungi/aspergillus-fumigatus
+    relation: connects-to
+    note: "Its high-dose steroids open the lung to mold: the prolonged glucocorticoids needed to control giant-cell arteritis deeply suppress immunity, occasionally permitting invasive aspergillosis."
+  - target: 01-human/07-system/wound-healing
+    relation: connects-to
+    note: "Arterial occlusion and steroids starve tissue: severe giant-cell arteritis can cause ischemic scalp and tongue necrosis, and its chronic steroids thin skin and slow the healing of the resulting wounds."
+  - target: 01-human/07-system/generalized-anxiety-disorder
+    relation: connects-to
+    note: "Steroids and the threat of blindness breed worry: the psychiatric effects of high-dose glucocorticoids and the fear of sudden irreversible vision loss in GCA foster anxiety alongside depression."
 ---
 
 # Giant Cell Arteritis
@@ -370,6 +379,9 @@ The temporal arteries supply scalp, temporalis muscle, and dura. In GCA, transmu
 - `connects-to` → **[Anemia of Chronic Disease](../anemia-of-chronic-disease/README.md)** — Its inflammation blunts the marrow: GCA's intense IL-6-driven acute-phase response raises hepcidin and suppresses erythropoiesis, so a normocytic anemia of chronic disease is a common and supportive diagnostic clue.
 - `connects-to` → **[Pneumocystis jirovecii](../../../02-pathogen/03-fungi/pneumocystis-jirovecii/README.md)** — Prolonged high-dose steroids open the lung: the months of glucocorticoids that control GCA deplete T-cell defenses, raising Pneumocystis pneumonia risk enough that prophylaxis is considered in higher-dose regimens.
 - `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — Steroids and vision loss weigh on mood: the high-dose glucocorticoids for GCA cause mood disturbance and depression, compounded by the fear and disability of the irreversible blindness the disease can cause.
+- `connects-to` → **[Aspergillus fumigatus](../../../02-pathogen/03-fungi/aspergillus-fumigatus/README.md)** — Its high-dose steroids open the lung to mold: the prolonged glucocorticoids needed to control giant-cell arteritis deeply suppress immunity, occasionally permitting invasive aspergillosis.
+- `connects-to` → **[Wound Healing](../wound-healing/README.md)** — Arterial occlusion and steroids starve tissue: severe giant-cell arteritis can cause ischemic scalp and tongue necrosis, and its chronic steroids thin skin and slow the healing of the resulting wounds.
+- `connects-to` → **[Generalized Anxiety Disorder](../generalized-anxiety-disorder/README.md)** — Steroids and the threat of blindness breed worry: the psychiatric effects of high-dose glucocorticoids and the fear of sudden irreversible vision loss in GCA foster anxiety alongside depression.
 
 [^stone-2017-giact]: Stone JH, Tuckwell K, Dimonaco S, et al. Trial of tocilizumab in giant-cell arteritis. *N Engl J Med.* 2017;377(4):317-328. [doi:10.1056/NEJMoa1613849](https://doi.org/10.1056/NEJMoa1613849) · [PubMed 28745999](https://pubmed.ncbi.nlm.nih.gov/28745999/)
 [^weyand-2014-gca-review]: Weyand CM, Goronzy JJ. Clinical practice. Giant-cell arteritis and polymyalgia rheumatica. *N Engl J Med.* 2014;371(1):50-57. [doi:10.1056/NEJMcp1214926](https://doi.org/10.1056/NEJMcp1214926) · [PubMed 24988557](https://pubmed.ncbi.nlm.nih.gov/24988557/)

@@ -196,6 +196,15 @@ cross_links:
   - target: 01-human/07-system/ckd
     relation: connects-to
     note: "Later-line TKIs are hard on the kidney: sunitinib and regorafenib used in advanced GIST cause hypertension and proteinuria with glomerular injury, which over prolonged therapy can progress to chronic kidney disease."
+  - target: 01-human/07-system/wound-healing
+    relation: connects-to
+    note: "Its anti-angiogenic TKIs impair healing: sunitinib and regorafenib block VEGF signaling needed for tissue repair, so wounds and surgical sites heal poorly, and GI bleeding from the tumor adds to the burden."
+  - target: 01-human/07-system/neuropathic-pain
+    relation: connects-to
+    note: "Advanced disease and its drugs hurt nerves: bone and nerve involvement by metastatic GIST, plus the muscle cramps and sensory effects of long-term tyrosine-kinase inhibitors, produce chronic and neuropathic pain."
+  - target: 01-human/07-system/major-depressive-disorder
+    relation: connects-to
+    note: "Lifelong targeted therapy weighs on mood: the open-ended daily TKI treatment, its chronic side effects and the threat of resistance and recurrence in GIST contribute to depression."
 ---
 
 # GIST
@@ -386,6 +395,9 @@ No approved targeted therapy; sunitinib may have modest activity; clinical trial
 - `connects-to` → **[Anemia of Chronic Disease](../anemia-of-chronic-disease/README.md)** — Chronic GI bleeding and inflammation lower the count: beyond the iron-deficiency anemia from tumor ulceration, the inflammatory burden of GIST adds an anemia-of-chronic-disease component, especially in advanced disease.
 - `connects-to` → **[Heart Failure](../heart-failure/README.md)** — Its targeted drugs can strain the heart: sunitinib and other later-line tyrosine-kinase inhibitors for GIST cause hypertension and a cardiotoxicity that can precipitate left-ventricular dysfunction and heart failure.
 - `connects-to` → **[Chronic Kidney Disease](../ckd/README.md)** — Later-line TKIs are hard on the kidney: sunitinib and regorafenib used in advanced GIST cause hypertension and proteinuria with glomerular injury, which over prolonged therapy can progress to chronic kidney disease.
+- `connects-to` → **[Wound Healing](../wound-healing/README.md)** — Its anti-angiogenic TKIs impair healing: sunitinib and regorafenib block VEGF signaling needed for tissue repair, so wounds and surgical sites heal poorly, and GI bleeding from the tumor adds to the burden.
+- `connects-to` → **[Neuropathic Pain](../neuropathic-pain/README.md)** — Advanced disease and its drugs hurt nerves: bone and nerve involvement by metastatic GIST, plus the muscle cramps and sensory effects of long-term tyrosine-kinase inhibitors, produce chronic and neuropathic pain.
+- `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — Lifelong targeted therapy weighs on mood: the open-ended daily TKI treatment, its chronic side effects and the threat of resistance and recurrence in GIST contribute to depression.
 
 ---
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
