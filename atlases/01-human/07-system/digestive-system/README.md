@@ -190,6 +190,15 @@ cross_links:
   - target: 01-human/03-molecular/histamine
     relation: connects-to
     note: "Histamine drives the stomach's acid: enterochromaffin-like cells release it to stimulate parietal-cell acid secretion through H2 receptors, the pathway that H2-blockers shut down to treat ulcers and reflux."
+  - target: 01-human/07-system/colorectal-cancer
+    relation: connects-to
+    note: "Its most common cancer grows from the lining: colorectal cancer arises from the glandular epithelium of the large bowel, the digestive system's leading malignancy and the reason colonoscopy screens the tract for precancerous polyps."
+  - target: 01-human/07-system/gastric-cancer
+    relation: connects-to
+    note: "Chronic injury to the stomach turns malignant: gastric cancer develops from the gastric mucosa after years of H. pylori infection, inflammation and atrophy, a digestive-tract cancer still common worldwide."
+  - target: 01-human/07-system/pancreatic-cancer
+    relation: connects-to
+    note: "An accessory organ harbors a lethal cancer: pancreatic adenocarcinoma arises from the ductal cells of the pancreas, a digestive gland, and its silent deep location makes it one of the deadliest cancers of the system."
 taxonomy:
   uberon: "UBERON:0001007"
 ---
@@ -336,6 +345,9 @@ The ENS can function autonomously without extrinsic innervation (Hirschsprung's 
 - **Connects to:** [Inflammatory Bowel Disease](../inflammatory-bowel-disease/README.md) — when gut tolerance breaks, the wall inflames: inflammatory bowel disease is the digestive system turning on itself, as a misfired immune response to the microbiome ulcerates the bowel — the chronic counterpart to the gut's normal restraint.
 - **Connects to:** [Dendritic Cell](../../04-cellular/dendritic-cell/README.md) — the gut decides friend from foe through dendritic cells: they reach between epithelial cells to sample luminal antigens, then teach tolerance to food and flora or mount defense against pathogens — the gatekeepers of intestinal immunity.
 - **Connects to:** [Histamine](../../03-molecular/histamine/README.md) — histamine drives the stomach's acid: enterochromaffin-like cells release it to stimulate parietal-cell acid secretion through H2 receptors, the pathway that H2-blockers shut down to treat ulcers and reflux.
+- **Connects to:** [Colorectal Cancer](../colorectal-cancer/README.md) — its most common cancer grows from the lining: colorectal cancer arises from the glandular epithelium of the large bowel, the digestive system's leading malignancy and the reason colonoscopy screens the tract for precancerous polyps.
+- **Connects to:** [Gastric Cancer](../gastric-cancer/README.md) — chronic injury to the stomach turns malignant: gastric cancer develops from the gastric mucosa after years of H. pylori infection, inflammation and atrophy, a digestive-tract cancer still common worldwide.
+- **Connects to:** [Pancreatic Cancer](../pancreatic-cancer/README.md) — an accessory organ harbors a lethal cancer: pancreatic adenocarcinoma arises from the ductal cells of the pancreas, a digestive gland, and its silent deep location makes it one of the deadliest cancers of the system.
 
 ## Pathology
 
