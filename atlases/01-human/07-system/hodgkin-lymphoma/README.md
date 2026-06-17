@@ -187,6 +187,15 @@ cross_links:
   - target: 02-pathogen/03-fungi/pneumocystis-jirovecii
     relation: connects-to
     note: "Impaired cell-mediated immunity invites an opportunist: Hodgkin lymphoma classically weakens T-cell immunity, and with chemotherapy this leaves patients at risk of Pneumocystis pneumonia, prompting prophylaxis."
+  - target: 01-human/07-system/aml
+    relation: connects-to
+    note: "Its cure can sow a leukemia: the alkylators and etoposide used to treat Hodgkin lymphoma carry a real risk of therapy-related myelodysplasia and acute myeloid leukemia years later, a feared late effect."
+  - target: 01-human/07-system/sclc
+    relation: connects-to
+    note: "Mantle radiation breeds lung cancer: decades after chest radiotherapy, and amplified by smoking, Hodgkin survivors face a sharply raised risk of lung cancer including the aggressive small cell type."
+  - target: 01-human/07-system/stroke
+    relation: connects-to
+    note: "Neck and chest radiation scar the arteries: mediastinal and cervical radiotherapy for Hodgkin lymphoma accelerates carotid and coronary atherosclerosis, raising the long-term risk of stroke in survivors."
 ---
 
 # Hodgkin Lymphoma
@@ -365,6 +374,9 @@ Modern protocols minimize RT fields and doses (ISRT replacing extended-field RT)
 - `connects-to` → **[Anemia of Chronic Disease](../anemia-of-chronic-disease/README.md)** — Its cytokines blunt the marrow: the IL-6 and inflammatory output of Hodgkin lymphoma — the same drive behind its B symptoms — suppresses erythropoiesis, producing an anemia of chronic disease that tracks with tumor burden.
 - `connects-to` → **[NSCLC](../nsclc/README.md)** — Cure casts a long shadow: decades after thoracic (mantle) radiotherapy, Hodgkin survivors face a markedly raised risk of second cancers including lung cancer, a central concern of long-term survivorship care.
 - `connects-to` → **[Pneumocystis jirovecii](../../../02-pathogen/03-fungi/pneumocystis-jirovecii/README.md)** — Impaired cell-mediated immunity invites an opportunist: Hodgkin lymphoma classically weakens T-cell immunity, and with chemotherapy this leaves patients at risk of Pneumocystis pneumonia, prompting prophylaxis.
+- `connects-to` → **[AML](../aml/README.md)** — Its cure can sow a leukemia: the alkylators and etoposide used to treat Hodgkin lymphoma carry a real risk of therapy-related myelodysplasia and acute myeloid leukemia years later, a feared late effect.
+- `connects-to` → **[Small Cell Lung Cancer](../sclc/README.md)** — Mantle radiation breeds lung cancer: decades after chest radiotherapy, and amplified by smoking, Hodgkin survivors face a sharply raised risk of lung cancer including the aggressive small cell type.
+- `connects-to` → **[Stroke](../stroke/README.md)** — Neck and chest radiation scar the arteries: mediastinal and cervical radiotherapy for Hodgkin lymphoma accelerates carotid and coronary atherosclerosis, raising the long-term risk of stroke in survivors.
 
 [^connors-2018-echelon1]: Connors JM, Jurczak W, Straus DJ, et al. Brentuximab vedotin with chemotherapy for stage III or IV Hodgkin's lymphoma. *N Engl J Med.* 2018;378(4):331-344. [doi:10.1056/NEJMoa1708984](https://doi.org/10.1056/NEJMoa1708984) · [PubMed 29360494](https://pubmed.ncbi.nlm.nih.gov/29360494/)
 [^armand-2018-nivo-hl]: Armand P, Engert A, Younes A, et al. Nivolumab for relapsed/refractory classic Hodgkin lymphoma after failure of autologous hematopoietic cell transplantation: extended follow-up of the multicohort single-arm phase II CheckMate 205 trial. *J Clin Oncol.* 2018;36(14):1428-1439. [doi:10.1200/JCO.2017.77.6717](https://doi.org/10.1200/JCO.2017.77.6717) · [PubMed 29584546](https://pubmed.ncbi.nlm.nih.gov/29584546/)

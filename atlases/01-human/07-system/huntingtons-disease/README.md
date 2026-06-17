@@ -174,6 +174,15 @@ cross_links:
   - target: 01-human/04-cellular/cardiomyocyte
     relation: connects-to
     note: "The mutant protein also harms the heart: huntingtin is expressed in cardiomyocytes, and Huntington's carries a cardiomyopathy and autonomic dysfunction that make cardiac disease a major non-neurological cause of death."
+  - target: 01-human/07-system/heart-failure
+    relation: connects-to
+    note: "Its cardiomyopathy can fail the heart: mutant huntingtin's direct cardiac toxicity and autonomic dysfunction predispose to a cardiomyopathy and heart failure, a leading non-neurological cause of death in Huntington's."
+  - target: 01-human/07-system/osteoporosis
+    relation: connects-to
+    note: "Wasting and falls fracture fragile bones: the relentless weight loss, immobility and frequent falls of advancing Huntington's leave low bone density and a high risk of osteoporotic fracture."
+  - target: 01-human/07-system/generalized-anxiety-disorder
+    relation: connects-to
+    note: "Anxiety is part of its psychiatric face: marked anxiety, often preceding the motor signs, is common in Huntington's, arising from the same striatal-cortical degeneration that drives its mood and behavioral changes."
 sources:
   - id: gusella-1983-htt-locus
     type: peer-reviewed
@@ -277,3 +286,6 @@ HD disrupts multiple neural circuit functions:
 - `connects-to` → **[NLRP3 Inflammasome](../../03-molecular/nlrp3-inflammasome/README.md)** — Mutant huntingtin inflames the brain: it activates microglia and the NLRP3 inflammasome, releasing IL-1β that adds a neuroinflammatory accelerant to the striatal neuron loss of Huntington's.
 - `connects-to` → **[Bipolar Disorder](../bipolar-disorder/README.md)** — Mood swings can precede the chorea: Huntington's psychiatric prodrome includes irritability, mania and depression resembling bipolar disorder, reflecting the disease's early reach into mood-regulating circuits.
 - `connects-to` → **[Cardiomyocyte](../../04-cellular/cardiomyocyte/README.md)** — The mutant protein also harms the heart: huntingtin is expressed in cardiomyocytes, and Huntington's carries a cardiomyopathy and autonomic dysfunction that make cardiac disease a major non-neurological cause of death.
+- `connects-to` → **[Heart Failure](../heart-failure/README.md)** — Its cardiomyopathy can fail the heart: mutant huntingtin's direct cardiac toxicity and autonomic dysfunction predispose to a cardiomyopathy and heart failure, a leading non-neurological cause of death in Huntington's.
+- `connects-to` → **[Osteoporosis](../osteoporosis/README.md)** — Wasting and falls fracture fragile bones: the relentless weight loss, immobility and frequent falls of advancing Huntington's leave low bone density and a high risk of osteoporotic fracture.
+- `connects-to` → **[Generalized Anxiety Disorder](../generalized-anxiety-disorder/README.md)** — Anxiety is part of its psychiatric face: marked anxiety, often preceding the motor signs, is common in Huntington's, arising from the same striatal-cortical degeneration that drives its mood and behavioral changes.
