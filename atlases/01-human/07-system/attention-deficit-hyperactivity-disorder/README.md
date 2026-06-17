@@ -205,6 +205,15 @@ cross_links:
   - target: 01-human/07-system/hypertension
     relation: connects-to
     note: "Its stimulant treatment nudges up the pressure: the methylphenidate and amphetamine medications for ADHD raise heart rate and blood pressure, so cardiovascular monitoring is part of long-term treatment."
+  - target: 01-human/07-system/wound-healing
+    relation: connects-to
+    note: "Impulsivity and inattention court injury: ADHD carries markedly higher rates of accidents, falls and burns, producing wounds and fractures more often than in the general population."
+  - target: 01-human/07-system/asthma
+    relation: connects-to
+    note: "It travels with atopic and respiratory disease: ADHD is comorbid with asthma at elevated rates, the two sharing inflammatory and neurodevelopmental links and complicating each other's management."
+  - target: 01-human/07-system/ptsd
+    relation: connects-to
+    note: "Trauma and attention deficits intertwine: ADHD and PTSD frequently co-occur, sharing impulsivity and arousal dysregulation, and childhood ADHD raises vulnerability to traumatic events."
 ---
 
 # Attention-Deficit/Hyperactivity Disorder
@@ -413,6 +422,9 @@ ADHD is a clinical diagnosis requiring [^biederman-2005-adhd-adults]:
 - `connects-to` → **[Type 2 Diabetes](../type-2-diabetes/README.md)** — Impulsive eating and obesity raise the metabolic stakes: ADHD's impulsivity and reward dysregulation drive disordered eating and obesity, translating over time into a higher risk of type 2 diabetes.
 - `connects-to` → **[Social Anxiety Disorder](../social-anxiety-disorder/README.md)** — Years of social missteps breed fear: the inattention and impulsivity of ADHD cause repeated social difficulties that can foster social anxiety, a common comorbidity that compounds functional impairment.
 - `connects-to` → **[Hypertension](../hypertension/README.md)** — Its stimulant treatment nudges up the pressure: the methylphenidate and amphetamine medications for ADHD raise heart rate and blood pressure, so cardiovascular monitoring is part of long-term treatment.
+- `connects-to` → **[Wound Healing](../wound-healing/README.md)** — Impulsivity and inattention court injury: ADHD carries markedly higher rates of accidents, falls and burns, producing wounds and fractures more often than in the general population.
+- `connects-to` → **[Asthma](../asthma/README.md)** — It travels with atopic and respiratory disease: ADHD is comorbid with asthma at elevated rates, the two sharing inflammatory and neurodevelopmental links and complicating each other's management.
+- `connects-to` → **[PTSD](../ptsd/README.md)** — Trauma and attention deficits intertwine: ADHD and PTSD frequently co-occur, sharing impulsivity and arousal dysregulation, and childhood ADHD raises vulnerability to traumatic events.
 
 [^faraone-2021-adhd-primer]: Faraone SV, Banaschewski T, Coghill D, et al. The World Federation of ADHD International Consensus Statement: 208 Evidence-based conclusions about the disorder. *Neurosci Biobehav Rev.* 2021;128:789-818. [doi:10.1016/j.neubiorev.2021.01.022](https://doi.org/10.1016/j.neubiorev.2021.01.022) · [PubMed 33549739](https://pubmed.ncbi.nlm.nih.gov/33549739/)
 [^arnsten-2009-adhd-neuroscience]: Arnsten AF. Toward a new understanding of ADHD pathophysiology: an important role for prefrontal cortex dysfunction. *CNS Drugs.* 2009;23(Suppl 1):33-41. [doi:10.2165/00023210-200923000-00005](https://doi.org/10.2165/00023210-200923000-00005) · [PubMed 19621976](https://pubmed.ncbi.nlm.nih.gov/19621976/)

@@ -196,6 +196,15 @@ cross_links:
   - target: 01-human/07-system/type-2-diabetes
     relation: connects-to
     note: "Chronic inflammation nudges toward metabolic disease: severe atopic dermatitis is associated with features of the metabolic syndrome, its systemic type-2 and innate inflammation contributing to insulin resistance and type 2 diabetes risk."
+  - target: 01-human/07-system/wound-healing
+    relation: connects-to
+    note: "Scratching breaks the barrier it depends on: the relentless itch of atopic dermatitis drives excoriation that erodes the skin and impairs its barrier, leaving wounds slow to heal and prone to infection."
+  - target: 02-pathogen/02-bacteria/streptococcus-pyogenes
+    relation: connects-to
+    note: "Broken eczematous skin invites strep: alongside Staphylococcus, the disrupted barrier of atopic dermatitis is readily superinfected by Streptococcus pyogenes, causing impetiginized eczema and cellulitis."
+  - target: 01-human/07-system/obsessive-compulsive-disorder
+    relation: connects-to
+    note: "The itch-scratch cycle meets compulsion: the chronic urge to scratch in atopic dermatitis overlaps with OCD-spectrum skin-picking, the two reinforcing each other and worsening skin damage."
 ---
 
 # Atopic Dermatitis
@@ -378,6 +387,9 @@ S. aureus colonizes >90% of AD lesional skin (vs. 20% normal skin):
 - `connects-to` → **[Attention-Deficit/Hyperactivity Disorder](../attention-deficit-hyperactivity-disorder/README.md)** — The itch-disrupted brain wires toward inattention: atopic dermatitis is associated with a higher rate of ADHD, mediated partly by sleep disruption from nocturnal itch and shared inflammatory effects on the developing brain.
 - `connects-to` → **[Obesity](../obesity/README.md)** — Severe eczema and obesity reinforce each other: obesity's adipokine-driven inflammation worsens atopic dermatitis, and the sleep loss and reduced activity of severe disease in turn promote weight gain.
 - `connects-to` → **[Type 2 Diabetes](../type-2-diabetes/README.md)** — Chronic inflammation nudges toward metabolic disease: severe atopic dermatitis is associated with features of the metabolic syndrome, its systemic type-2 and innate inflammation contributing to insulin resistance and type 2 diabetes risk.
+- `connects-to` → **[Wound Healing](../wound-healing/README.md)** — Scratching breaks the barrier it depends on: the relentless itch of atopic dermatitis drives excoriation that erodes the skin and impairs its barrier, leaving wounds slow to heal and prone to infection.
+- `connects-to` → **[Streptococcus pyogenes](../../../02-pathogen/02-bacteria/streptococcus-pyogenes/README.md)** — Broken eczematous skin invites strep: alongside Staphylococcus, the disrupted barrier of atopic dermatitis is readily superinfected by Streptococcus pyogenes, causing impetiginized eczema and cellulitis.
+- `connects-to` → **[Obsessive-Compulsive Disorder](../obsessive-compulsive-disorder/README.md)** — The itch-scratch cycle meets compulsion: the chronic urge to scratch in atopic dermatitis overlaps with OCD-spectrum skin-picking, the two reinforcing each other and worsening skin damage.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
