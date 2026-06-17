@@ -196,6 +196,15 @@ cross_links:
   - target: 01-human/07-system/major-depressive-disorder
     relation: connects-to
     note: "Craniospinal radiation leaves lasting scars on the mind: medulloblastoma survivors face neurocognitive decline, endocrine failure and the trauma of childhood cancer, carrying a heavy burden of depression."
+  - target: 01-human/07-system/neuropathic-pain
+    relation: connects-to
+    note: "Vincristine and tumor injure the nerves: the vincristine central to medulloblastoma chemotherapy causes peripheral neuropathy, and posterior-fossa disease adds neurological pain in survivors."
+  - target: 01-human/07-system/type-2-diabetes
+    relation: connects-to
+    note: "Radiation and steroids disturb glucose: craniospinal radiation damages the hypothalamic-pituitary axis and the dexamethasone for edema induces insulin resistance, predisposing survivors to diabetes."
+  - target: 01-human/07-system/wound-healing
+    relation: connects-to
+    note: "Posterior-fossa surgery and steroids hinder repair: the craniotomy for medulloblastoma risks CSF leak and poor wound healing, worsened by the chronic dexamethasone used to control edema."
 ---
 
 # Medulloblastoma
@@ -385,6 +394,9 @@ MB survivors face substantial late effects — inversely proportional to age at 
 - `connects-to` → **[Aspergillus fumigatus](../../../02-pathogen/03-fungi/aspergillus-fumigatus/README.md)** — Intensive chemo strips the lung's defenses: the dose-dense, often high-dose chemotherapy for medulloblastoma causes profound neutropenia, letting inhaled Aspergillus invade as pulmonary aspergillosis.
 - `connects-to` → **[Chronic Kidney Disease](../ckd/README.md)** — Its platinum chemo scars young kidneys: cisplatin central to medulloblastoma regimens is nephrotoxic and ototoxic, and in a child the tubular injury and electrolyte wasting can leave lasting chronic kidney impairment.
 - `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — Craniospinal radiation leaves lasting scars on the mind: medulloblastoma survivors face neurocognitive decline, endocrine failure and the trauma of childhood cancer, carrying a heavy burden of depression.
+- `connects-to` → **[Neuropathic Pain](../neuropathic-pain/README.md)** — Vincristine and tumor injure the nerves: the vincristine central to medulloblastoma chemotherapy causes peripheral neuropathy, and posterior-fossa disease adds neurological pain in survivors.
+- `connects-to` → **[Type 2 Diabetes](../type-2-diabetes/README.md)** — Radiation and steroids disturb glucose: craniospinal radiation damages the hypothalamic-pituitary axis and the dexamethasone for edema induces insulin resistance, predisposing survivors to diabetes.
+- `connects-to` → **[Wound Healing](../wound-healing/README.md)** — Posterior-fossa surgery and steroids hinder repair: the craniotomy for medulloblastoma risks CSF leak and poor wound healing, worsened by the chronic dexamethasone used to control edema.
 
 [^packer-2006-std-risk-mb]: Packer RJ, Gajjar A, Vezina G, et al. Phase III study of craniospinal radiation therapy followed by adjuvant chemotherapy for newly diagnosed average-risk medulloblastoma. *J Clin Oncol.* 2006;24(25):4202-4208. [doi:10.1200/JCO.2006.06.4980](https://doi.org/10.1200/JCO.2006.06.4980) · [PubMed 16943538](https://pubmed.ncbi.nlm.nih.gov/16943538/)
 [^taylor-2012-mb-subgroups]: Taylor MD, Northcott PA, Korshunov A, et al. Molecular subgroups of medulloblastoma: the current consensus. *Acta Neuropathol.* 2012;123(4):465-472. [doi:10.1007/s00401-011-0922-z](https://doi.org/10.1007/s00401-011-0922-z) · [PubMed 22134537](https://pubmed.ncbi.nlm.nih.gov/22134537/)

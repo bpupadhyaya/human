@@ -202,6 +202,15 @@ cross_links:
   - target: 01-human/07-system/major-depressive-disorder
     relation: connects-to
     note: "Its therapies and threat weigh on mood: historically interferon-α treatment caused depression, and the diagnosis, disfiguring surgery and metastatic threat of melanoma carry a substantial psychological burden."
+  - target: 01-human/07-system/heart-failure
+    relation: connects-to
+    note: "Its immunotherapy can inflame the heart: the checkpoint inhibitors central to melanoma treatment occasionally cause an immune-mediated myocarditis, a rare but often fatal route to acute heart failure."
+  - target: 01-human/07-system/ckd
+    relation: connects-to
+    note: "Checkpoint immunotherapy can scar the kidneys: the PD-1 and CTLA-4 inhibitors used for advanced melanoma can provoke an immune-mediated interstitial nephritis that, if recurrent, leaves chronic kidney impairment."
+  - target: 01-human/07-system/generalized-anxiety-disorder
+    relation: connects-to
+    note: "Recurrence risk and skin surveillance breed worry: the threat of metastasis and the lifelong monitoring for new primaries in melanoma foster chronic health anxiety alongside depression."
 ---
 
 # Melanoma
@@ -353,6 +362,9 @@ cross_links:
 - `connects-to` → **[Cytokine Storm](../cytokine-storm/README.md)** — Its immunotherapy can ignite the immune system: the checkpoint inhibitors central to melanoma treatment can trigger immune-related adverse events and, occasionally, a cytokine-release-like storm of systemic inflammation.
 - `connects-to` → **[Stroke](../stroke/README.md)** — It seeds the brain and bleeds: melanoma is among the most brain-metastatic cancers, and its metastases are characteristically hemorrhagic, causing intracranial bleeding and stroke.
 - `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — Its therapies and threat weigh on mood: historically interferon-α treatment caused depression, and the diagnosis, disfiguring surgery and metastatic threat of melanoma carry a substantial psychological burden.
+- `connects-to` → **[Heart Failure](../heart-failure/README.md)** — Its immunotherapy can inflame the heart: the checkpoint inhibitors central to melanoma treatment occasionally cause an immune-mediated myocarditis, a rare but often fatal route to acute heart failure.
+- `connects-to` → **[Chronic Kidney Disease](../ckd/README.md)** — Checkpoint immunotherapy can scar the kidneys: the PD-1 and CTLA-4 inhibitors used for advanced melanoma can provoke an immune-mediated interstitial nephritis that, if recurrent, leaves chronic kidney impairment.
+- `connects-to` → **[Generalized Anxiety Disorder](../generalized-anxiety-disorder/README.md)** — Recurrence risk and skin surveillance breed worry: the threat of metastasis and the lifelong monitoring for new primaries in melanoma foster chronic health anxiety alongside depression.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
