@@ -178,6 +178,15 @@ cross_links:
   - target: 01-human/07-system/heart-failure
     relation: connects-to
     note: "Arterial clots can wreck the heart: ET's thrombotic risk includes coronary events whose myocardial damage leads to heart failure, the cardiac counterpart of its stroke and limb-ischemia complications."
+  - target: 01-human/07-system/hcc
+    relation: connects-to
+    note: "It clots the liver's veins: ET is a leading cause of Budd-Chiari syndrome, hepatic vein thrombosis that congests the liver toward cirrhosis and, over years, hepatocellular carcinoma — sometimes the first sign of the MPN."
+  - target: 01-human/07-system/inherited-thrombophilia
+    relation: connects-to
+    note: "An acquired thrombophilia stacked on inherited ones: ET's overproduced, hyperreactive platelets create an acquired prothrombotic state that multiplies clot risk when a co-existing inherited thrombophilia is also present."
+  - target: 01-human/07-system/pnh
+    relation: connects-to
+    note: "It shares the unusual-site clotting puzzle: like paroxysmal nocturnal hemoglobinuria, ET is an acquired clonal disorder that causes thrombosis in unusual sites such as the splanchnic veins, both considered when such clots appear unexplained."
 ---
 
 # Essential Thrombocythemia
@@ -349,6 +358,9 @@ Management:
 - `connects-to` → **[DNMT3A](../../03-molecular/dnmt3a/README.md)** — Epigenetic mutations stack on the driver: DNMT3A and other clonal-hematopoiesis mutations co-occur with JAK2/CALR/MPL in ET, shaping clonal evolution and the risk of progression to myelofibrosis or leukemia.
 - `connects-to` → **[Myelodysplastic Syndromes](../mds/README.md)** — The clone can shift toward dysplasia: ET sits on the myeloid spectrum and can evolve into a myelodysplastic/myeloproliferative overlap or secondary MDS, especially after cytotoxic therapy.
 - `connects-to` → **[Heart Failure](../heart-failure/README.md)** — Arterial clots can wreck the heart: ET's thrombotic risk includes coronary events whose myocardial damage leads to heart failure, the cardiac counterpart of its stroke and limb-ischemia complications.
+- `connects-to` → **[Hepatocellular Carcinoma](../hcc/README.md)** — It clots the liver's veins: ET is a leading cause of Budd-Chiari syndrome, hepatic vein thrombosis that congests the liver toward cirrhosis and, over years, hepatocellular carcinoma — sometimes the first sign of the MPN.
+- `connects-to` → **[Inherited Thrombophilia](../inherited-thrombophilia/README.md)** — An acquired thrombophilia stacked on inherited ones: ET's overproduced, hyperreactive platelets create an acquired prothrombotic state that multiplies clot risk when a co-existing inherited thrombophilia is also present.
+- `connects-to` → **[Paroxysmal Nocturnal Hemoglobinuria](../pnh/README.md)** — It shares the unusual-site clotting puzzle: like paroxysmal nocturnal hemoglobinuria, ET is an acquired clonal disorder that causes thrombosis in unusual sites such as the splanchnic veins, both considered when such clots appear unexplained.
 
 [^harrison-2005-pt1-et]: Harrison CN, Campbell PJ, Buck G, et al. Hydroxyurea compared with anagrelide in high-risk essential thrombocythemia. *N Engl J Med.* 2005;353(1):33-45. [doi:10.1056/NEJMoa043800](https://doi.org/10.1056/NEJMoa043800) · [PubMed 16000354](https://pubmed.ncbi.nlm.nih.gov/16000354/)
 [^barbui-2012-ipset]: Barbui T, Finazzi G, Carobbio A, et al. Development and validation of an International Prognostic Score of thrombosis in World Health Organization-essential thrombocythemia (IPSET-thrombosis). *Blood.* 2012;120(26):5128-5133. [doi:10.1182/blood-2012-07-444067](https://doi.org/10.1182/blood-2012-07-444067) · [PubMed 23086758](https://pubmed.ncbi.nlm.nih.gov/23086758/)

@@ -178,6 +178,15 @@ cross_links:
   - target: 01-human/07-system/sepsis
     relation: connects-to
     note: "Surgery and obstruction open the door to sepsis: aspiration past an obstructing tumor and anastomotic leak after esophagectomy can seed mediastinitis and bloodstream infection, a leading cause of post-operative death."
+  - target: 01-human/03-molecular/stat3
+    relation: connects-to
+    note: "Chronic reflux and inflammation drive STAT3: IL-6-fueled STAT3 signaling promotes the survival and proliferation of esophageal cells along the Barrett's-to-adenocarcinoma path, tying inflammation to the cancer."
+  - target: 01-human/07-system/venous-thromboembolism
+    relation: connects-to
+    note: "A cancer and an operation that both clot: esophageal cancer's hypercoagulability plus the long, complex esophagectomy make venous thromboembolism a major perioperative and disease-related risk."
+  - target: 01-human/07-system/anemia-of-chronic-disease
+    relation: connects-to
+    note: "Chronic bleeding and inflammation drain the blood: beyond the iron loss of tumor bleeding, the inflammatory cytokines of esophageal cancer suppress erythropoiesis, adding an anemia of chronic disease that weakens patients before surgery."
 ---
 
 # Esophageal Cancer
@@ -369,6 +378,9 @@ T1a: Lamina propria/muscularis mucosae; T1b: Submucosa; T2: Muscularis propria; 
 - `connects-to` → **[PIK3CA](../../03-molecular/pik3ca/README.md)** — PI3K signaling drives the esophageal tumor: PIK3CA mutation and amplification are recurrent in both squamous and adenocarcinoma, switching on the AKT-mTOR growth pathway and offering a targetable vulnerability.
 - `connects-to` → **[Dendritic Cell](../../04-cellular/dendritic-cell/README.md)** — Dendritic cells set the immunotherapy stage: their antigen presentation shapes the T-cell response esophageal cancer must evade, and their dysfunction underlies the immune escape that PD-1 blockade aims to reverse.
 - `connects-to` → **[Sepsis](../sepsis/README.md)** — Surgery and obstruction open the door to sepsis: aspiration past an obstructing tumor and anastomotic leak after esophagectomy can seed mediastinitis and bloodstream infection, a leading cause of post-operative death.
+- `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — Chronic reflux and inflammation drive STAT3: IL-6-fueled STAT3 signaling promotes the survival and proliferation of esophageal cells along the Barrett's-to-adenocarcinoma path, tying inflammation to the cancer.
+- `connects-to` → **[Venous Thromboembolism](../venous-thromboembolism/README.md)** — A cancer and an operation that both clot: esophageal cancer's hypercoagulability plus the long, complex esophagectomy make venous thromboembolism a major perioperative and disease-related risk.
+- `connects-to` → **[Anemia of Chronic Disease](../anemia-of-chronic-disease/README.md)** — Chronic bleeding and inflammation drain the blood: beyond the iron loss of tumor bleeding, the inflammatory cytokines of esophageal cancer suppress erythropoiesis, adding an anemia of chronic disease that weakens patients before surgery.
 
 ---
 
