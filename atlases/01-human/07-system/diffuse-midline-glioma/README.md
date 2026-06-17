@@ -178,6 +178,15 @@ cross_links:
   - target: 01-human/07-system/neuropathic-pain
     relation: connects-to
     note: "Brainstem and spinal infiltration brings pain: tumor invasion of sensory pathways causes neuropathic pain and, in spinal diffuse midline glioma, radicular pain — a symptom burden central to palliative management."
+  - target: 01-human/03-molecular/stat3
+    relation: connects-to
+    note: "STAT3 supports the H3K27M-driven tumor: diffuse midline glioma cells show STAT3 activation that backs proliferation and immune evasion, a pathway studied for this almost uniformly fatal childhood brainstem tumor."
+  - target: 01-human/07-system/venous-thromboembolism
+    relation: connects-to
+    note: "Brain tumors are strongly prothrombotic: like other high-grade gliomas, diffuse midline glioma raises venous thromboembolism risk through tumor tissue factor and the immobility that progressive brainstem disease brings."
+  - target: 01-human/07-system/sepsis
+    relation: connects-to
+    note: "Brainstem failure routes food to the lungs: as the tumor disables swallowing and airway protection, aspiration pneumonia becomes common, and it with the immunosuppression of high-dose steroids can progress to sepsis."
 ---
 
 # Diffuse Midline Glioma
@@ -370,6 +379,9 @@ Direct infusion of drugs into the pons via stereotactic catheter; bypasses BBB; 
 - `connects-to` → **[ATRX](../../03-molecular/atrx/README.md)** — ATRX loss often joins the H3K27M hit: especially in thalamic and spinal diffuse midline gliomas, ATRX mutation accompanies the histone mutation, driving alternative lengthening of telomeres and genomic instability.
 - `connects-to` → **[Epilepsy](../epilepsy/README.md)** — The infiltrating glioma irritates the cortex: as diffuse midline glioma spreads from the pons or thalamus it can trigger seizures, and seizure control is part of the supportive care for these children.
 - `connects-to` → **[Neuropathic Pain](../neuropathic-pain/README.md)** — Brainstem and spinal infiltration brings pain: tumor invasion of sensory pathways causes neuropathic pain and, in spinal diffuse midline glioma, radicular pain — a symptom burden central to palliative management.
+- `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — STAT3 supports the H3K27M-driven tumor: diffuse midline glioma cells show STAT3 activation that backs proliferation and immune evasion, a pathway studied for this almost uniformly fatal childhood brainstem tumor.
+- `connects-to` → **[Venous Thromboembolism](../venous-thromboembolism/README.md)** — Brain tumors are strongly prothrombotic: like other high-grade gliomas, diffuse midline glioma raises venous thromboembolism risk through tumor tissue factor and the immobility that progressive brainstem disease brings.
+- `connects-to` → **[Sepsis](../sepsis/README.md)** — Brainstem failure routes food to the lungs: as the tumor disables swallowing and airway protection, aspiration pneumonia becomes common, and it with the immunosuppression of high-dose steroids can progress to sepsis.
 
 ---
 

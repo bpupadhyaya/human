@@ -184,6 +184,15 @@ cross_links:
   - target: 01-human/07-system/dengue-fever
     relation: connects-to
     note: "Severe dengue clots and bleeds at once: the viral hemorrhagic fever activates coagulation while consuming platelets and factors, so DIC underlies the bleeding and shock of its critical phase."
+  - target: 01-human/07-system/ckd
+    relation: connects-to
+    note: "Microthrombi shut down the kidney: fibrin clots clogging the glomerular capillaries cause acute kidney injury and, in severe cases, renal cortical necrosis that can leave lasting chronic kidney disease."
+  - target: 01-human/06-organ/ards
+    relation: connects-to
+    note: "The lungs fill with microclots and fluid: pulmonary microthrombi and the shared sepsis inflammation make DIC a frequent companion of acute respiratory distress syndrome, each worsening the other."
+  - target: 01-human/07-system/venous-thromboembolism
+    relation: connects-to
+    note: "Beyond the microclots, large veins can clot too: the systemic hypercoagulable drive of DIC raises the risk of macrovascular venous thromboembolism even as consumption of factors paradoxically causes bleeding."
 ---
 
 # Disseminated Intravascular Coagulation
@@ -370,6 +379,9 @@ DIC is always **secondary** — it does not occur in isolation but as a conseque
 - `connects-to` → **[Neisseria meningitidis](../../../02-pathogen/02-bacteria/neisseria-meningitidis/README.md)** — Meningococcus triggers the most vivid DIC: Neisseria meningitidis endotoxin sets off purpura fulminans with skin necrosis and Waterhouse-Friderichsen adrenal hemorrhage, a fulminant DIC that can kill within hours.
 - `connects-to` → **[Bradykinin](../../03-molecular/bradykinin/README.md)** — Contact activation links clotting to shock: the same surface activation that feeds DIC's coagulation also generates bradykinin, whose vasodilation and capillary leak deepen the hypotension of the underlying sepsis.
 - `connects-to` → **[Dengue Fever](../dengue-fever/README.md)** — Severe dengue clots and bleeds at once: the viral hemorrhagic fever activates coagulation while consuming platelets and factors, so DIC underlies the bleeding and shock of its critical phase.
+- `connects-to` → **[Chronic Kidney Disease](../ckd/README.md)** — Microthrombi shut down the kidney: fibrin clots clogging the glomerular capillaries cause acute kidney injury and, in severe cases, renal cortical necrosis that can leave lasting chronic kidney disease.
+- `connects-to` → **[Acute Respiratory Distress Syndrome](../../06-organ/ards/README.md)** — The lungs fill with microclots and fluid: pulmonary microthrombi and the shared sepsis inflammation make DIC a frequent companion of acute respiratory distress syndrome, each worsening the other.
+- `connects-to` → **[Venous Thromboembolism](../venous-thromboembolism/README.md)** — Beyond the microclots, large veins can clot too: the systemic hypercoagulable drive of DIC raises the risk of macrovascular venous thromboembolism even as consumption of factors paradoxically causes bleeding.
 
 ---
 
