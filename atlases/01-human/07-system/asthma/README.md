@@ -187,6 +187,15 @@ cross_links:
   - target: 01-human/07-system/venous-thromboembolism
     relation: connects-to
     note: "Severe disease tilts the blood toward clotting: asthma — especially severe, exacerbating disease and long courses of oral steroids — is linked to a higher risk of pulmonary embolism and deep-vein thrombosis."
+  - target: 02-pathogen/03-fungi/candida-albicans
+    relation: connects-to
+    note: "Its inhalers seed oral thrush: inhaled corticosteroids deposit on the oropharynx and locally suppress immunity, allowing Candida to overgrow into oral candidiasis — the reason spacers and mouth-rinsing are advised after each dose."
+  - target: 01-human/07-system/osteoporosis
+    relation: connects-to
+    note: "Steroid courses thin the bone: repeated oral-corticosteroid bursts for exacerbations, and high-dose inhaled steroids in severe asthma, accelerate bone loss and raise the long-term risk of osteoporotic fracture."
+  - target: 01-human/07-system/generalized-anxiety-disorder
+    relation: connects-to
+    note: "Breathlessness and anxiety feed each other: asthma carries high rates of anxiety, and the fear of an attack — plus the overlap of hyperventilation with asthma symptoms — can worsen perceived control and trigger exacerbations."
 ---
 
 # Asthma
@@ -352,6 +361,9 @@ Asthma affects approximately **339 million people worldwide** (WHO 2019) and is 
 - `connects-to` → **[NF-κB](../../03-molecular/nf-kb/README.md)** — NF-κB is the airway's inflammation switch: allergens, viruses and pollutants activate NF-κB in bronchial epithelium to pour out the cytokines and chemokines of an asthma attack, and quieting it is much of how inhaled steroids work.
 - `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — STAT3 underlies the steroid-resistant disease: in neutrophilic and severe asthma, IL-6/IL-17-driven STAT3 signaling sustains airway inflammation that responds poorly to corticosteroids, marking it as a target in hard-to-treat cases.
 - `connects-to` → **[Venous Thromboembolism](../venous-thromboembolism/README.md)** — Severe disease tilts the blood toward clotting: asthma — especially severe, exacerbating disease and long courses of oral steroids — is linked to a higher risk of pulmonary embolism and deep-vein thrombosis.
+- `connects-to` → **[Candida albicans](../../../02-pathogen/03-fungi/candida-albicans/README.md)** — Its inhalers seed oral thrush: inhaled corticosteroids deposit on the oropharynx and locally suppress immunity, allowing Candida to overgrow into oral candidiasis — the reason spacers and mouth-rinsing are advised after each dose.
+- `connects-to` → **[Osteoporosis](../osteoporosis/README.md)** — Steroid courses thin the bone: repeated oral-corticosteroid bursts for exacerbations, and high-dose inhaled steroids in severe asthma, accelerate bone loss and raise the long-term risk of osteoporotic fracture.
+- `connects-to` → **[Generalized Anxiety Disorder](../generalized-anxiety-disorder/README.md)** — Breathlessness and anxiety feed each other: asthma carries high rates of anxiety, and the fear of an attack — plus the overlap of hyperventilation with asthma symptoms — can worsen perceived control and trigger exacerbations.
 
 [^gina-2023-asthma]: Global Initiative for Asthma. Global Strategy for Asthma Management and Prevention. 2023. [ginasthma.org](https://ginasthma.org/2023-gina-main-report/)
 [^wenzel-2012-asthma-phenotypes]: Wenzel SE. Asthma phenotypes: the evolution from clinical to molecular approaches. *Nat Med.* 2012;18(5):716-725. [doi:10.1038/nm.2678](https://doi.org/10.1038/nm.2678) · [PubMed 22561835](https://pubmed.ncbi.nlm.nih.gov/22561835/)

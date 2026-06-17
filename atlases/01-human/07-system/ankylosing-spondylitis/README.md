@@ -187,6 +187,15 @@ cross_links:
   - target: 01-human/07-system/venous-thromboembolism
     relation: connects-to
     note: "Chronic inflammation raises the clot risk: ankylosing spondylitis carries an increased rate of deep-vein thrombosis and pulmonary embolism, part of the prothrombotic tendency shared across the systemic inflammatory diseases."
+  - target: 01-human/07-system/tuberculosis
+    relation: connects-to
+    note: "Its TNF biologics can wake latent TB: the anti-TNF agents that transformed AS treatment disable the granuloma containing Mycobacterium tuberculosis, so latent-TB screening and treatment precede therapy to prevent reactivation."
+  - target: 01-human/07-system/anemia-of-chronic-disease
+    relation: connects-to
+    note: "Sustained inflammation dulls the marrow: the chronic IL-6 drive of active ankylosing spondylitis raises hepcidin and blunts erythropoiesis, producing the anemia of chronic disease that tracks with disease activity."
+  - target: 01-human/07-system/ckd
+    relation: connects-to
+    note: "Decades of inflammation can scar the kidney: long-standing AS can deposit secondary AA amyloid in the kidney and, alongside its associated IgA nephropathy, progress to chronic kidney disease."
 ---
 
 # Ankylosing Spondylitis
@@ -352,6 +361,9 @@ AS originates at the **enthesis** — the site where tendons, ligaments, and joi
 - `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — STAT3 carries the IL-23 signal into Th17 cells: it is the transcription factor that drives the IL-17-producing T cells central to AS, which is why STAT3-dependent cytokine pathways are prime drug targets in the disease.
 - `connects-to` → **[NF-κB](../../03-molecular/nf-kb/README.md)** — NF-κB transmits the TNF signal: at the inflamed entheses, TNF acts largely through NF-κB to sustain the inflammatory and bone-remodeling programs, the pathway that anti-TNF biologics interrupt to calm AS.
 - `connects-to` → **[Venous Thromboembolism](../venous-thromboembolism/README.md)** — Chronic inflammation raises the clot risk: ankylosing spondylitis carries an increased rate of deep-vein thrombosis and pulmonary embolism, part of the prothrombotic tendency shared across the systemic inflammatory diseases.
+- `connects-to` → **[Tuberculosis](../tuberculosis/README.md)** — Its TNF biologics can wake latent TB: the anti-TNF agents that transformed AS treatment disable the granuloma containing Mycobacterium tuberculosis, so latent-TB screening and treatment precede therapy to prevent reactivation.
+- `connects-to` → **[Anemia of Chronic Disease](../anemia-of-chronic-disease/README.md)** — Sustained inflammation dulls the marrow: the chronic IL-6 drive of active ankylosing spondylitis raises hepcidin and blunts erythropoiesis, producing the anemia of chronic disease that tracks with disease activity.
+- `connects-to` → **[Chronic Kidney Disease](../ckd/README.md)** — Decades of inflammation can scar the kidney: long-standing AS can deposit secondary AA amyloid in the kidney and, alongside its associated IgA nephropathy, progress to chronic kidney disease.
 
 [^sieper-2015-ankylosing-spondylitis-review]: Sieper J, Poddubnyy D. Ankylosing spondylitis. *Lancet.* 2017;390(10089):73-84. [doi:10.1016/S0140-6736(16)31591-4](https://doi.org/10.1016/S0140-6736(16)31591-4) · [PubMed 28110981](https://pubmed.ncbi.nlm.nih.gov/28110981/)
 [^baeten-2015-secukinumab-as]: Baeten D, Sieper J, Braun J, et al. Secukinumab, an Interleukin-17A Inhibitor, in Ankylosing Spondylitis. *N Engl J Med.* 2015;373(26):2534-2548. [doi:10.1056/NEJMoa1505066](https://doi.org/10.1056/NEJMoa1505066) · [PubMed 26699169](https://pubmed.ncbi.nlm.nih.gov/26699169/)
