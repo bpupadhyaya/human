@@ -178,6 +178,15 @@ cross_links:
   - target: 01-human/03-molecular/notch
     relation: connects-to
     note: "Losing DICER1 derepresses developmental signals: the mature microRNAs it generates normally restrain pathways like Notch, so impaired miRNA processing in DICER1 tumors unleashes the oncogenic signaling that drives embryonal growth."
+  - target: 01-human/03-molecular/stat3
+    relation: connects-to
+    note: "Lost microRNA control lifts the brake on STAT3: DICER1-deficient cells lose mature miRNAs that normally restrain growth pathways, derepressing signaling including STAT3 that helps drive its embryonal tumors."
+  - target: 01-human/07-system/ckd
+    relation: connects-to
+    note: "Its kidney tumors cost nephrons: cystic nephroma and anaplastic sarcoma of the kidney are DICER1 tumors that require nephron-sparing surgery or nephrectomy, so cumulative renal loss can reduce kidney function over time."
+  - target: 01-human/07-system/sepsis
+    relation: connects-to
+    note: "Treating its childhood tumors invites infection: the chemotherapy used against pleuropulmonary blastoma and other DICER1 cancers causes neutropenia, making febrile neutropenia and sepsis a treatment hazard in affected children."
 ---
 
 # DICER1 Syndrome
@@ -346,6 +355,9 @@ When a child is found to have a thoracic cystic lesion, DICER1 syndrome should b
 - `connects-to` → **[Respiratory system](../respiratory-system/README.md)** — The lung is DICER1's signature target: pleuropulmonary blastoma, the syndrome's hallmark tumor, begins as benign lung cysts in early childhood that can transform into an aggressive sarcoma, so detecting cystic lung disease is central to surveillance.
 - `connects-to` → **[Neuroblastoma](../neuroblastoma/README.md)** — DICER1 doubles as a broader tumor suppressor: beyond the inherited syndrome, reduced DICER1 and disrupted microRNA biogenesis are seen in aggressive sporadic neuroblastoma, where loss of mature miRNAs lets oncogenic programs run.
 - `connects-to` → **[NOTCH](../../03-molecular/notch/README.md)** — Losing DICER1 derepresses developmental signals: the mature microRNAs it generates normally restrain pathways like Notch, so impaired miRNA processing in DICER1 tumors unleashes the oncogenic signaling that drives embryonal growth.
+- `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — Lost microRNA control lifts the brake on STAT3: DICER1-deficient cells lose mature miRNAs that normally restrain growth pathways, derepressing signaling including STAT3 that helps drive its embryonal tumors.
+- `connects-to` → **[Chronic Kidney Disease](../ckd/README.md)** — Its kidney tumors cost nephrons: cystic nephroma and anaplastic sarcoma of the kidney are DICER1 tumors that require nephron-sparing surgery or nephrectomy, so cumulative renal loss can reduce kidney function over time.
+- `connects-to` → **[Sepsis](../sepsis/README.md)** — Treating its childhood tumors invites infection: the chemotherapy used against pleuropulmonary blastoma and other DICER1 cancers causes neutropenia, making febrile neutropenia and sepsis a treatment hazard in affected children.
 
 ---
 

@@ -178,6 +178,15 @@ cross_links:
   - target: 01-human/07-system/gastric-cancer
     relation: connects-to
     note: "Desmoids cluster with the FAP cancers: arising from the same APC loss, they accompany the colorectal and upper-GI tumors of familial adenomatous polyposis, where fundic-gland and gastric neoplasia round out the syndrome's GI risk."
+  - target: 01-human/03-molecular/stat3
+    relation: connects-to
+    note: "IL-6 feeds the fibromatosis through STAT3: the inflamed desmoid stroma's IL-6 activates STAT3, adding a proliferative signal alongside the driving Wnt/β-catenin pathway in this locally aggressive tumor."
+  - target: 01-human/07-system/ckd
+    relation: connects-to
+    note: "A retroperitoneal mass can strangle the ureters: large mesenteric or retroperitoneal desmoids compress the ureters into hydronephrosis, and prolonged obstruction can erode kidney function toward chronic kidney disease."
+  - target: 01-human/07-system/venous-thromboembolism
+    relation: connects-to
+    note: "Bulky abdominal tumors compress the veins: mesenteric desmoids can obstruct venous return, and the major surgery they sometimes require adds to the risk of deep-vein thrombosis."
 ---
 
 # Desmoid Tumor
@@ -365,6 +374,9 @@ Standard initial approach for newly diagnosed desmoid without symptoms or rapid 
 - `connects-to` → **[Wound Healing](../wound-healing/README.md)** — A desmoid is wound healing that won't switch off: it is a clonal myofibroblast proliferation that classically erupts at sites of surgery, trauma, or pregnancy, as if the repair program ran unchecked under activated β-catenin.
 - `connects-to` → **[YAP1](../../03-molecular/yap1/README.md)** — YAP partners with β-catenin in the desmoid: Hippo-pathway YAP activation cooperates with the driving Wnt/β-catenin signal to sustain the fibroblast proliferation, marking another node studied as a therapeutic target.
 - `connects-to` → **[Gastric Cancer](../gastric-cancer/README.md)** — Desmoids cluster with the FAP cancers: arising from the same APC loss, they accompany the colorectal and upper-GI tumors of familial adenomatous polyposis, where fundic-gland and gastric neoplasia round out the syndrome's GI risk.
+- `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — IL-6 feeds the fibromatosis through STAT3: the inflamed desmoid stroma's IL-6 activates STAT3, adding a proliferative signal alongside the driving Wnt/β-catenin pathway in this locally aggressive tumor.
+- `connects-to` → **[Chronic Kidney Disease](../ckd/README.md)** — A retroperitoneal mass can strangle the ureters: large mesenteric or retroperitoneal desmoids compress the ureters into hydronephrosis, and prolonged obstruction can erode kidney function toward chronic kidney disease.
+- `connects-to` → **[Venous Thromboembolism](../venous-thromboembolism/README.md)** — Bulky abdominal tumors compress the veins: mesenteric desmoids can obstruct venous return, and the major surgery they sometimes require adds to the risk of deep-vein thrombosis.
 
 ---
 
