@@ -168,6 +168,15 @@ cross_links:
   - target: 01-human/07-system/insomnia-disorder
     relation: connects-to
     note: "Pain and sleeplessness feed each other: neuropathic pain flares at night and fragments sleep, while the resulting insomnia lowers pain tolerance the next day, a vicious cycle that worsens both."
+  - target: 01-human/07-system/stroke
+    relation: connects-to
+    note: "A brain infarct can itself become a pain generator: damage to the thalamus or spinothalamic pathways produces central post-stroke pain (Dejerine-Roussy), a relentless neuropathic pain arising from the injured central nervous system."
+  - target: 01-human/07-system/diabetic-retinopathy
+    relation: connects-to
+    note: "Two faces of the same microvascular damage: painful diabetic neuropathy and diabetic retinopathy arise from the same chronic hyperglycemic injury to small vessels and nerves, so they commonly travel together in long-standing diabetes."
+  - target: 01-human/07-system/generalized-anxiety-disorder
+    relation: connects-to
+    note: "Anxiety turns up the pain volume: chronic worry heightens attention to pain and lowers its threshold, and persistent neuropathic pain in turn fuels anxiety — a two-way amplification rooted in shared limbic circuitry."
 sources:
   - id: jensen-2011-neuropathic-pain-review
     type: peer-reviewed
@@ -381,6 +390,9 @@ Chronic neuropathic pain carries significant psychological burden:
 - `connects-to` → **[NF-κB](../../03-molecular/nf-kb/README.md)** — Glial inflammation runs on NF-κB: activated microglia and astrocytes around injured nerves switch on NF-κB to pour out the cytokines that sensitize pain pathways, a central engine of the chronic neuroinflammation behind neuropathic pain.
 - `connects-to` → **[Type 1 Diabetes](../type-1-diabetes/README.md)** — Even tightly controlled diabetes can hurt the nerves: type 1 diabetes causes a distal sensorimotor polyneuropathy through chronic hyperglycemia and microvascular nerve injury, one of the commonest sources of painful peripheral neuropathy.
 - `connects-to` → **[Insomnia Disorder](../insomnia-disorder/README.md)** — Pain and sleeplessness feed each other: neuropathic pain flares at night and fragments sleep, while the resulting insomnia lowers pain tolerance the next day, a vicious cycle that worsens both.
+- `connects-to` → **[Stroke](../stroke/README.md)** — A brain infarct can itself become a pain generator: damage to the thalamus or spinothalamic pathways produces central post-stroke pain (Dejerine-Roussy), a relentless neuropathic pain arising from the injured central nervous system.
+- `connects-to` → **[Diabetic Retinopathy](../diabetic-retinopathy/README.md)** — Two faces of the same microvascular damage: painful diabetic neuropathy and diabetic retinopathy arise from the same chronic hyperglycemic injury to small vessels and nerves, so they commonly travel together in long-standing diabetes.
+- `connects-to` → **[Generalized Anxiety Disorder](../generalized-anxiety-disorder/README.md)** — Anxiety turns up the pain volume: chronic worry heightens attention to pain and lowers its threshold, and persistent neuropathic pain in turn fuels anxiety — a two-way amplification rooted in shared limbic circuitry.
 
 [^jensen-2011-neuropathic-pain-review]: Jensen TS, Baron R, Haanpää M, et al. A new definition of neuropathic pain. *Pain.* 2011;152(10):2204-2205. [doi:10.1016/j.pain.2011.06.017](https://doi.org/10.1016/j.pain.2011.06.017) · [PubMed 21764514](https://pubmed.ncbi.nlm.nih.gov/21764514/)
 [^dworkin-2010-neuropathic-pain-treatment]: Dworkin RH, O'Connor AB, Audette J, et al. Recommendations for the pharmacological management of neuropathic pain. *Mayo Clin Proc.* 2010;85(3 Suppl):S3-14. [doi:10.4065/mcp.2009.0649](https://doi.org/10.4065/mcp.2009.0649) · [PubMed 20194146](https://pubmed.ncbi.nlm.nih.gov/20194146/)
