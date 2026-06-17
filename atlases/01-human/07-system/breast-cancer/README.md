@@ -190,6 +190,15 @@ cross_links:
   - target: 01-human/07-system/sepsis
     relation: connects-to
     note: "Chemo strips the body's defenses: the cytotoxic regimens used against breast cancer cause neutropenia, making febrile neutropenia and sepsis a recurring hazard of treatment."
+  - target: 01-human/07-system/osteoporosis
+    relation: connects-to
+    note: "Its hormone therapy strips the bone: aromatase inhibitors and ovarian suppression for estrogen-receptor-positive breast cancer cut estrogen sharply, accelerating bone loss so that osteoporosis monitoring and treatment accompany therapy."
+  - target: 01-human/07-system/anemia-of-chronic-disease
+    relation: connects-to
+    note: "Tumor inflammation and chemo blunt the marrow: the IL-6 of advanced breast cancer raises hepcidin while cytotoxic therapy suppresses erythropoiesis, adding an anemia-of-chronic-disease component to treatment cytopenias."
+  - target: 01-human/07-system/major-depressive-disorder
+    relation: connects-to
+    note: "The diagnosis and its toll weigh on mood: depression is common across the breast-cancer journey, driven by the threat to life, the effects of surgery and chemotherapy, and the menopausal symptoms of endocrine therapy."
 ---
 
 # Breast Cancer
@@ -353,6 +362,9 @@ cross_links:
 - `connects-to` → **[NF-κB](../../03-molecular/nf-kb/README.md)** — NF-κB drives the hardest-to-treat subtype: constitutive NF-κB signaling supports survival, inflammation and metastasis in ER-negative and triple-negative breast cancer, a pathway studied where hormonal and HER2 targets are absent.
 - `connects-to` → **[Venous Thromboembolism](../venous-thromboembolism/README.md)** — The cancer and its therapy both clot: breast cancer raises thrombosis risk, compounded by tamoxifen and chemotherapy, so deep-vein thrombosis and pulmonary embolism are recognized complications of treatment.
 - `connects-to` → **[Sepsis](../sepsis/README.md)** — Chemo strips the body's defenses: the cytotoxic regimens used against breast cancer cause neutropenia, making febrile neutropenia and sepsis a recurring hazard of treatment.
+- `connects-to` → **[Osteoporosis](../osteoporosis/README.md)** — Its hormone therapy strips the bone: aromatase inhibitors and ovarian suppression for estrogen-receptor-positive breast cancer cut estrogen sharply, accelerating bone loss so that osteoporosis monitoring and treatment accompany therapy.
+- `connects-to` → **[Anemia of Chronic Disease](../anemia-of-chronic-disease/README.md)** — Tumor inflammation and chemo blunt the marrow: the IL-6 of advanced breast cancer raises hepcidin while cytotoxic therapy suppresses erythropoiesis, adding an anemia-of-chronic-disease component to treatment cytopenias.
+- `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — The diagnosis and its toll weigh on mood: depression is common across the breast-cancer journey, driven by the threat to life, the effects of surgery and chemotherapy, and the menopausal symptoms of endocrine therapy.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 

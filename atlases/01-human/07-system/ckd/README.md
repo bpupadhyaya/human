@@ -189,6 +189,15 @@ cross_links:
   - target: 01-human/07-system/venous-thromboembolism
     relation: connects-to
     note: "Failing kidneys tip the blood toward clots: CKD, especially with heavy proteinuria, creates a hypercoagulable state that raises the risk of deep-vein thrombosis and pulmonary embolism."
+  - target: 01-human/07-system/osteoporosis
+    relation: connects-to
+    note: "It deranges the whole skeleton: CKD-mineral and bone disorder disturbs phosphate, vitamin D and PTH balance into renal osteodystrophy, leaving bone that is both low in density and poor in quality, with high fracture risk."
+  - target: 01-human/07-system/major-depressive-disorder
+    relation: connects-to
+    note: "Dialysis and decline weigh on the mind: depression is the commonest psychiatric problem in CKD, driven by the burden of dialysis, lost function and uremic effects on the brain, and it worsens outcomes."
+  - target: 01-human/07-system/pulmonary-arterial-hypertension
+    relation: connects-to
+    note: "Fluid overload and uremia stiffen the lung vessels: CKD is an under-recognized cause of pulmonary hypertension, driven by volume overload, the arteriovenous dialysis fistula and uremic vascular changes."
 ---
 
 # Chronic Kidney Disease
@@ -322,6 +331,9 @@ As nephron mass decreases, impaired renal functions accumulate:
 - `connects-to` → **[NF-κB](../../03-molecular/nf-kb/README.md)** — Inflammation scars the kidney forward: NF-κB activation in tubular and immune cells sustains the tubulointerstitial inflammation that, alongside TGF-β, drives the relentless fibrosis of progressive chronic kidney disease.
 - `connects-to` → **[Sepsis](../sepsis/README.md)** — Uremia and dialysis lines invite infection: impaired uremic immunity and the catheters used for dialysis make bloodstream infection and sepsis a leading cause of death in advanced kidney disease.
 - `connects-to` → **[Venous Thromboembolism](../venous-thromboembolism/README.md)** — Failing kidneys tip the blood toward clots: CKD, especially with heavy proteinuria, creates a hypercoagulable state that raises the risk of deep-vein thrombosis and pulmonary embolism.
+- `connects-to` → **[Osteoporosis](../osteoporosis/README.md)** — It deranges the whole skeleton: CKD-mineral and bone disorder disturbs phosphate, vitamin D and PTH balance into renal osteodystrophy, leaving bone that is both low in density and poor in quality, with high fracture risk.
+- `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — Dialysis and decline weigh on the mind: depression is the commonest psychiatric problem in CKD, driven by the burden of dialysis, lost function and uremic effects on the brain, and it worsens outcomes.
+- `connects-to` → **[Pulmonary Arterial Hypertension](../pulmonary-arterial-hypertension/README.md)** — Fluid overload and uremia stiffen the lung vessels: CKD is an under-recognized cause of pulmonary hypertension, driven by volume overload, the arteriovenous dialysis fistula and uremic vascular changes.
 
 ## Pathology
 
