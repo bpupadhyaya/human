@@ -178,6 +178,15 @@ cross_links:
   - target: 01-human/07-system/venous-thromboembolism
     relation: connects-to
     note: "Repeated surgery and cancer raise the clot risk: the lifetime of polyp resections and any malignancy that develops predispose Peutz-Jeghers patients to perioperative venous thromboembolism."
+  - target: 01-human/03-molecular/stat3
+    relation: connects-to
+    note: "Losing the LKB1 brake unleashes it: STK11/LKB1 loss in PJS-associated tumors relieves a restraint on inflammatory and STAT3 signaling, a driver pathway implicated in the lung and GI cancers these patients are prone to."
+  - target: 01-human/03-molecular/nf-kb
+    relation: connects-to
+    note: "The tumor-suppressor restrains inflammation: LKB1 loss in Peutz-Jeghers tissue de-represses NF-κB-driven inflammatory signaling, linking the hamartomatous, cancer-prone polyps to a pro-inflammatory microenvironment."
+  - target: 01-human/07-system/anemia-of-chronic-disease
+    relation: connects-to
+    note: "Beyond bleeding, chronic disease blunts the marrow: alongside iron-deficiency anemia from chronic polyp bleeding, longstanding inflammation and any malignancy in PJS can add a component of anemia of chronic disease."
 ---
 
 # Peutz-Jeghers Syndrome
@@ -355,6 +364,9 @@ Without surveillance: cumulative cancer risk reaches ~85-93% by age 70 (all canc
 - `connects-to` → **[Lynch Syndrome](../lynch-syndrome/README.md)** — It headlines the hereditary GI-cancer differential: PJS's hamartomatous polyps and pigmentation set it apart from the mismatch-repair Lynch syndrome, each a distinct gene with its own cancer spectrum and surveillance.
 - `connects-to` → **[Sepsis](../sepsis/README.md)** — Bowel emergencies invite sepsis: intussusception and obstruction from large polyps can lead to bowel ischemia and perforation, and the repeated surgeries PJS requires risk intra-abdominal infection and sepsis.
 - `connects-to` → **[Venous Thromboembolism](../venous-thromboembolism/README.md)** — Repeated surgery and cancer raise the clot risk: the lifetime of polyp resections and any malignancy that develops predispose Peutz-Jeghers patients to perioperative venous thromboembolism.
+- `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — Losing the LKB1 brake unleashes it: STK11/LKB1 loss in PJS-associated tumors relieves a restraint on inflammatory and STAT3 signaling, a driver pathway implicated in the lung and GI cancers these patients are prone to.
+- `connects-to` → **[NF-κB](../../03-molecular/nf-kb/README.md)** — The tumor-suppressor restrains inflammation: LKB1 loss in Peutz-Jeghers tissue de-represses NF-κB-driven inflammatory signaling, linking the hamartomatous, cancer-prone polyps to a pro-inflammatory microenvironment.
+- `connects-to` → **[Anemia of Chronic Disease](../anemia-of-chronic-disease/README.md)** — Beyond bleeding, chronic disease blunts the marrow: alongside iron-deficiency anemia from chronic polyp bleeding, longstanding inflammation and any malignancy in PJS can add a component of anemia of chronic disease.
 
 ---
 

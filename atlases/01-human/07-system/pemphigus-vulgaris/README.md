@@ -184,6 +184,15 @@ cross_links:
   - target: 01-human/07-system/venous-thromboembolism
     relation: connects-to
     note: "Severe disease and its steroids clot the veins: hospitalization for extensive pemphigus, systemic inflammation, and high-dose corticosteroids together raise the risk of venous thromboembolism."
+  - target: 01-human/03-molecular/stat3
+    relation: connects-to
+    note: "The cytokine wiring runs through it: IL-6 and other autoimmune cytokines elevated in pemphigus signal via JAK-STAT3, and JAK inhibitors that blunt this axis are being explored when rituximab and steroids fail."
+  - target: 02-pathogen/03-fungi/pneumocystis-jirovecii
+    relation: connects-to
+    note: "Heavy immunosuppression opens the lung to it: the rituximab plus high-dose steroids that control severe pemphigus deplete the T-cell defenses against Pneumocystis, so prophylaxis is weighed during prolonged therapy."
+  - target: 02-pathogen/03-fungi/candida-albicans
+    relation: connects-to
+    note: "Raw mucosa and steroids invite the yeast: painful oral erosions of pemphigus combined with corticosteroid immunosuppression readily superinfect with Candida, complicating the eating difficulty and mouth pain."
 ---
 
 # Pemphigus Vulgaris
@@ -383,6 +392,9 @@ Pemphigus belongs to the **pemphigus group of autoimmune bullous diseases** (AIB
 - `connects-to` → **[TNF-α (Tumor Necrosis Factor-alpha)](../../03-molecular/tnf-alpha/README.md)** — Inflammatory cytokines amplify the blistering: TNF-α rises in pemphigus lesions and serum, adding an inflammatory layer to the antibody-driven loss of keratinocyte adhesion that forms the blisters.
 - `connects-to` → **[Sjögren's Syndrome](../sjogrens-syndrome/README.md)** — Autoimmunity runs in company: pemphigus is over-represented alongside Sjögren's syndrome and other connective-tissue autoimmune diseases, a co-occurrence reflecting shared loss of self-tolerance.
 - `connects-to` → **[Venous Thromboembolism](../venous-thromboembolism/README.md)** — Severe disease and its steroids clot the veins: hospitalization for extensive pemphigus, systemic inflammation, and high-dose corticosteroids together raise the risk of venous thromboembolism.
+- `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — The cytokine wiring runs through it: IL-6 and other autoimmune cytokines elevated in pemphigus signal via JAK-STAT3, and JAK inhibitors that blunt this axis are being explored when rituximab and steroids fail.
+- `connects-to` → **[Pneumocystis jirovecii](../../../02-pathogen/03-fungi/pneumocystis-jirovecii/README.md)** — Heavy immunosuppression opens the lung to it: the rituximab plus high-dose steroids that control severe pemphigus deplete the T-cell defenses against Pneumocystis, so prophylaxis is weighed during prolonged therapy.
+- `connects-to` → **[Candida albicans](../../../02-pathogen/03-fungi/candida-albicans/README.md)** — Raw mucosa and steroids invite the yeast: painful oral erosions of pemphigus combined with corticosteroid immunosuppression readily superinfect with Candida, complicating the eating difficulty and mouth pain.
 
 ---
 
