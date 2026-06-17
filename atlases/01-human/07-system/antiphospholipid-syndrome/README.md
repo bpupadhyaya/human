@@ -184,6 +184,15 @@ cross_links:
   - target: 01-human/07-system/epilepsy
     relation: connects-to
     note: "It can spark seizures directly: beyond stroke, antiphospholipid antibodies are linked to epilepsy through microthrombi and possible direct binding to neuronal tissue, one of the disease's range of neurological manifestations."
+  - target: 01-human/07-system/sepsis
+    relation: connects-to
+    note: "Infection can ignite its deadliest form: catastrophic antiphospholipid syndrome — widespread small-vessel thrombosis and multiorgan failure — is frequently triggered by infection and clinically overlaps with sepsis."
+  - target: 01-human/07-system/major-depressive-disorder
+    relation: connects-to
+    note: "It reaches the mind as well as the vessels: cerebral microthrombi and direct antibody effects contribute to cognitive impairment and depression in APS, beyond the burden of a chronic relapsing thrombotic disease."
+  - target: 01-human/07-system/ovarian-cancer
+    relation: connects-to
+    note: "Cancer can drive the antibodies: antiphospholipid antibodies and thrombosis can arise as a paraneoplastic phenomenon, so a new APS-like clotting state — particularly with adenocarcinomas like ovarian cancer — prompts a malignancy search."
 ---
 
 # Antiphospholipid Syndrome
@@ -385,6 +394,9 @@ In APS, anti-B2GPI IgG bound to B2GPI on phospholipid surfaces converts this ant
 - `connects-to` → **[NF-κB](../../03-molecular/nf-kb/README.md)** — The antibodies switch endothelium to clot mode through NF-κB: antiphospholipid antibodies signal via TLR4 to activate NF-κB in endothelial cells and monocytes, driving the tissue factor expression that makes APS relentlessly prothrombotic.
 - `connects-to` → **[Chronic Kidney Disease](../ckd/README.md)** — It clots the kidney's small vessels: APS nephropathy is a thrombotic microangiopathy of the renal microcirculation that, with recurrent renal vein or artery thrombosis, can erode kidney function into chronic kidney disease.
 - `connects-to` → **[Epilepsy](../epilepsy/README.md)** — It can spark seizures directly: beyond stroke, antiphospholipid antibodies are linked to epilepsy through microthrombi and possible direct binding to neuronal tissue, one of the disease's range of neurological manifestations.
+- `connects-to` → **[Sepsis](../sepsis/README.md)** — Infection can ignite its deadliest form: catastrophic antiphospholipid syndrome — widespread small-vessel thrombosis and multiorgan failure — is frequently triggered by infection and clinically overlaps with sepsis.
+- `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — It reaches the mind as well as the vessels: cerebral microthrombi and direct antibody effects contribute to cognitive impairment and depression in APS, beyond the burden of a chronic relapsing thrombotic disease.
+- `connects-to` → **[Ovarian Cancer](../ovarian-cancer/README.md)** — Cancer can drive the antibodies: antiphospholipid antibodies and thrombosis can arise as a paraneoplastic phenomenon, so a new APS-like clotting state — particularly with adenocarcinomas like ovarian cancer — prompts a malignancy search.
 
 [^miyakis-2006-sydney-aps]: Miyakis S, Lockshin MD, Atsumi T, et al. International consensus statement on an update of the classification criteria for definite antiphospholipid syndrome (APS). *J Thromb Haemost.* 2006;4(2):295-306. [doi:10.1111/j.1538-7836.2006.01753.x](https://doi.org/10.1111/j.1538-7836.2006.01753.x) · [PubMed 16420554](https://pubmed.ncbi.nlm.nih.gov/16420554/)
 [^barbhaiya-2023-acreular-aps]: Barbhaiya M, Zuily S, Naden R, et al. The 2023 ACR/EULAR antiphospholipid syndrome classification criteria. *Ann Rheum Dis.* 2023;82(10):1258-1270. [doi:10.1136/ard-2023-224609](https://doi.org/10.1136/ard-2023-224609) · [PubMed 37643823](https://pubmed.ncbi.nlm.nih.gov/37643823/)

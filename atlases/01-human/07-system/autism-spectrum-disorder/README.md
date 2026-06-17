@@ -193,6 +193,15 @@ cross_links:
   - target: 01-human/07-system/digestive-system
     relation: connects-to
     note: "The gut speaks loudly in autism: constipation, diarrhea and abdominal pain are far more common than in peers, a GI burden tied to the gut-brain axis and to the altered microbiome that accompanies the condition."
+  - target: 01-human/07-system/social-anxiety-disorder
+    relation: connects-to
+    note: "Social difficulty breeds social fear: social anxiety is among the most common comorbidities in autism, as repeated misread interactions and rejection foster intense anticipatory fear of social situations."
+  - target: 01-human/07-system/major-depressive-disorder
+    relation: connects-to
+    note: "Isolation and burnout darken mood: depression is markedly elevated in autistic people, driven by loneliness, the exhaustion of masking, and the cumulative toll of navigating an unaccommodating world."
+  - target: 01-human/07-system/obesity
+    relation: connects-to
+    note: "Several forces tip toward weight gain: restricted food preferences, reduced physical activity, and the appetite-stimulating antipsychotics often prescribed in autism combine to raise the rate of obesity."
 ---
 
 # Autism Spectrum Disorder
@@ -388,6 +397,9 @@ The neural basis of ASD social deficits involves dysfunction of the **social bra
 - `connects-to` → **[NF-κB](../../03-molecular/nf-kb/README.md)** — Neuroinflammation runs through NF-κB: maternal immune activation and microglial activation in autism converge on NF-κB-driven cytokine signaling, part of the inflammatory thread woven through its neurodevelopment.
 - `connects-to` → **[PTEN](../../03-molecular/pten/README.md)** — One gene ties autism to overgrowth: PTEN mutations cause a macrocephaly-autism syndrome, and because PTEN restrains the mTOR pathway, its loss drives the synaptic overgrowth linking this monogenic cause to the broader spectrum.
 - `connects-to` → **[Digestive System](../digestive-system/README.md)** — The gut speaks loudly in autism: constipation, diarrhea and abdominal pain are far more common than in peers, a GI burden tied to the gut-brain axis and to the altered microbiome that accompanies the condition.
+- `connects-to` → **[Social Anxiety Disorder](../social-anxiety-disorder/README.md)** — Social difficulty breeds social fear: social anxiety is among the most common comorbidities in autism, as repeated misread interactions and rejection foster intense anticipatory fear of social situations.
+- `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — Isolation and burnout darken mood: depression is markedly elevated in autistic people, driven by loneliness, the exhaustion of masking, and the cumulative toll of navigating an unaccommodating world.
+- `connects-to` → **[Obesity](../obesity/README.md)** — Several forces tip toward weight gain: restricted food preferences, reduced physical activity, and the appetite-stimulating antipsychotics often prescribed in autism combine to raise the rate of obesity.
 
 [^maenner-2023-asd-prevalence]: Maenner MJ, Warren Z, Williams AR, et al. Prevalence and characteristics of autism spectrum disorder among children aged 8 years — ADDM Network, 2020. *MMWR Surveill Summ.* 2023;72(2):1-14. [doi:10.15585/mmwr.ss7202a1](https://doi.org/10.15585/mmwr.ss7202a1) · [PubMed 36952216](https://pubmed.ncbi.nlm.nih.gov/36952216/)
 [^lord-2020-asd-review]: Lord C, Elsabbagh M, Baird G, Veenstra-Vanderweele J. Autism spectrum disorder. *Lancet.* 2018;392(10146):508-520. [doi:10.1016/S0140-6736(18)31129-2](https://doi.org/10.1016/S0140-6736(18)31129-2) · [PubMed 30078460](https://pubmed.ncbi.nlm.nih.gov/30078460/)
