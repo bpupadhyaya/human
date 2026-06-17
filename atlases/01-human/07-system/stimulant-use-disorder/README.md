@@ -187,6 +187,15 @@ cross_links:
   - target: 01-human/07-system/ckd
     relation: connects-to
     note: "Stimulants grind down the kidneys: cocaine and methamphetamine cause vasoconstriction, malignant hypertension and rhabdomyolysis-driven acute kidney injury that can accumulate into chronic kidney disease."
+  - target: 01-human/07-system/heart-failure
+    relation: connects-to
+    note: "Stimulants wear out the heart: chronic cocaine and methamphetamine cause a toxic cardiomyopathy through catecholamine excess, tachycardia and ischemia, a leading cause of heart failure in young users."
+  - target: 01-human/07-system/pulmonary-arterial-hypertension
+    relation: connects-to
+    note: "Methamphetamine scars the lung's vessels: it is an established cause of pulmonary arterial hypertension, producing a severe drug-induced form indistinguishable from the idiopathic disease."
+  - target: 01-human/07-system/sepsis
+    relation: connects-to
+    note: "Injection breaches the body's barriers: non-sterile injection stimulant use seeds the blood and heart valves with bacteria, so endocarditis, abscesses and bloodstream infection can progress to sepsis."
 ---
 
 # Stimulant Use Disorder
@@ -365,6 +374,9 @@ Unlike cocaine, methamphetamine causes **direct neurotoxic damage** to dopaminer
 - `connects-to` → **[NF-κB](../../03-molecular/nf-kb/README.md)** — Stimulants inflame the brain through NF-κB: cocaine and methamphetamine activate microglial NF-κB signaling, driving the cytokine output and neurotoxicity that underlie addiction-related brain injury.
 - `connects-to` → **[Candida albicans](../../../02-pathogen/03-fungi/candida-albicans/README.md)** — The needle can seed a fungus: injection stimulant use causes Candida bloodstream infection that lodges in the eyes and heart valves, the candidemia and endocarditis shared with other injection drug use.
 - `connects-to` → **[Chronic Kidney Disease](../ckd/README.md)** — Stimulants grind down the kidneys: cocaine and methamphetamine cause vasoconstriction, malignant hypertension and rhabdomyolysis-driven acute kidney injury that can accumulate into chronic kidney disease.
+- `connects-to` → **[Heart Failure](../heart-failure/README.md)** — Stimulants wear out the heart: chronic cocaine and methamphetamine cause a toxic cardiomyopathy through catecholamine excess, tachycardia and ischemia, a leading cause of heart failure in young users.
+- `connects-to` → **[Pulmonary Arterial Hypertension](../pulmonary-arterial-hypertension/README.md)** — Methamphetamine scars the lung's vessels: it is an established cause of pulmonary arterial hypertension, producing a severe drug-induced form indistinguishable from the idiopathic disease.
+- `connects-to` → **[Sepsis](../sepsis/README.md)** — Injection breaches the body's barriers: non-sterile injection stimulant use seeds the blood and heart valves with bacteria, so endocarditis, abscesses and bloodstream infection can progress to sepsis.
 
 ## Treatment
 
