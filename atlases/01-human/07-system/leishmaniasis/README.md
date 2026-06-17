@@ -199,6 +199,15 @@ cross_links:
   - target: 01-human/07-system/major-depressive-disorder
     relation: connects-to
     note: "A disfiguring, chronic disease weighs on the mind: the visible scarring of cutaneous and mucocutaneous leishmaniasis and the debilitating course of visceral disease carry stigma and contribute to depression."
+  - target: 01-human/07-system/integumentary-system
+    relation: connects-to
+    note: "Its commonest form is a skin disease: cutaneous leishmaniasis produces chronic ulcerating skin lesions that scar, and post-kala-azar dermal leishmaniasis seeds the skin with parasite-laden nodules."
+  - target: 01-human/07-system/digestive-system
+    relation: connects-to
+    note: "Visceral disease swells the gut organs: kala-azar grossly enlarges the liver and spleen, while mucocutaneous leishmaniasis destroys the mucosa of the mouth, nose and pharynx."
+  - target: 01-human/07-system/generalized-anxiety-disorder
+    relation: connects-to
+    note: "Disfigurement and chronic illness breed worry: the visible facial scarring, social stigma and prolonged debilitating course of leishmaniasis foster chronic anxiety alongside depression."
 ---
 
 # Leishmaniasis
@@ -361,3 +370,6 @@ HIV-VL co-infection: CD4+ depletion → loss of IFN-γ production → *Leishmani
 - `connects-to` → **[Wound Healing](../wound-healing/README.md)** — Its skin lesions ulcerate and scar: cutaneous leishmaniasis produces chronic non-healing ulcers, and the mucocutaneous form destroys nasal and oral tissue, leaving disfiguring scars that heal slowly.
 - `connects-to` → **[Disseminated Intravascular Coagulation](../disseminated-intravascular-coagulation/README.md)** — Advanced visceral disease can derange clotting: severe kala-azar with its hepatosplenic involvement, thrombocytopenia and secondary sepsis can tip into disseminated intravascular coagulation and bleeding.
 - `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — A disfiguring, chronic disease weighs on the mind: the visible scarring of cutaneous and mucocutaneous leishmaniasis and the debilitating course of visceral disease carry stigma and contribute to depression.
+- `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — Its commonest form is a skin disease: cutaneous leishmaniasis produces chronic ulcerating skin lesions that scar, and post-kala-azar dermal leishmaniasis seeds the skin with parasite-laden nodules.
+- `connects-to` → **[Digestive System](../digestive-system/README.md)** — Visceral disease swells the gut organs: kala-azar grossly enlarges the liver and spleen, while mucocutaneous leishmaniasis destroys the mucosa of the mouth, nose and pharynx.
+- `connects-to` → **[Generalized Anxiety Disorder](../generalized-anxiety-disorder/README.md)** — Disfigurement and chronic illness breed worry: the visible facial scarring, social stigma and prolonged debilitating course of leishmaniasis foster chronic anxiety alongside depression.

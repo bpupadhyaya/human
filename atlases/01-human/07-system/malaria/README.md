@@ -204,6 +204,15 @@ cross_links:
   - target: 01-human/07-system/ptsd
     relation: connects-to
     note: "Surviving a life-threatening attack can scar the mind: the terror of cerebral malaria, intensive-care treatment and recurrent severe episodes can leave post-traumatic stress in survivors and families."
+  - target: 01-human/07-system/nervous-system
+    relation: connects-to
+    note: "It can seize the brain itself: cerebral malaria, from sequestration of infected red cells in cerebral capillaries, causes coma and seizures and leaves lasting neurological and cognitive deficits in survivors."
+  - target: 01-human/07-system/respiratory-system
+    relation: connects-to
+    note: "Severe malaria floods the lungs: it can cause acute respiratory distress syndrome and pulmonary oedema from capillary leak, a life-threatening complication even as parasites are cleared."
+  - target: 01-human/07-system/digestive-system
+    relation: connects-to
+    note: "It enlarges the liver and yellows the skin: malaria causes hepatosplenomegaly and, from massive haemolysis and hepatic dysfunction, the jaundice and dark urine of blackwater fever."
 ---
 
 # Malaria
@@ -424,6 +433,9 @@ cross_links:
 - `connects-to` → **[Salmonella Typhi](../../../02-pathogen/02-bacteria/salmonella-typhi/README.md)** — It opens the door to invasive Salmonella: malaria classically predisposes to non-typhoidal and typhoidal Salmonella bloodstream infection, through hemolysis-impaired macrophage function and gut barrier breakdown.
 - `connects-to` → **[Sepsis](../sepsis/README.md)** — Severe malaria blurs into sepsis: high parasite loads with cytokine storm, and frequent gram-negative bacterial co-infection, produce a septic-shock picture that drives much of malaria's mortality.
 - `connects-to` → **[PTSD](../ptsd/README.md)** — Surviving a life-threatening attack can scar the mind: the terror of cerebral malaria, intensive-care treatment and recurrent severe episodes can leave post-traumatic stress in survivors and families.
+- `connects-to` → **[Nervous System](../nervous-system/README.md)** — It can seize the brain itself: cerebral malaria, from sequestration of infected red cells in cerebral capillaries, causes coma and seizures and leaves lasting neurological and cognitive deficits in survivors.
+- `connects-to` → **[Respiratory System](../respiratory-system/README.md)** — Severe malaria floods the lungs: it can cause acute respiratory distress syndrome and pulmonary oedema from capillary leak, a life-threatening complication even as parasites are cleared.
+- `connects-to` → **[Digestive System](../digestive-system/README.md)** — It enlarges the liver and yellows the skin: malaria causes hepatosplenomegaly and, from massive haemolysis and hepatic dysfunction, the jaundice and dark urine of blackwater fever.
 
 [^who-malaria-report-2023]: World Health Organization. World Malaria Report 2023. WHO; 2023.
 [^white-2014-malaria-lancet]: White NJ, Pukrittayakamee S, Hien TT, et al. Malaria. *Lancet.* 2014;383(9918):723-735. [doi:10.1016/S0140-6736(13)60024-0](https://doi.org/10.1016/S0140-6736(13)60024-0) · [PubMed 23953767](https://pubmed.ncbi.nlm.nih.gov/23953767/)
