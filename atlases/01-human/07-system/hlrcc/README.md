@@ -196,6 +196,15 @@ cross_links:
   - target: 01-human/07-system/major-depressive-disorder
     relation: connects-to
     note: "An aggressive hereditary cancer weighs on the mind: living with the high risk of an early, aggressive kidney cancer and the demands of lifelong surveillance imposes a substantial psychological burden in HLRCC."
+  - target: 01-human/07-system/neuropathic-pain
+    relation: connects-to
+    note: "Its leiomyomas are notoriously painful: the cutaneous leiomyomas of HLRCC cause cold- and touch-triggered pain, and uterine fibroids add severe pelvic pain, together producing chronic neuropathic and nociceptive pain."
+  - target: 01-human/07-system/wound-healing
+    relation: connects-to
+    note: "Repeated tumor surgery taxes healing: the excisions of multiple cutaneous leiomyomas and nephron-sparing or radical kidney surgery in HLRCC leave recurrent wounds to heal."
+  - target: 01-human/07-system/generalized-anxiety-disorder
+    relation: connects-to
+    note: "Aggressive cancer risk and surveillance breed worry: the threat of an early, aggressive type 2 papillary kidney cancer and the lifelong imaging surveillance of HLRCC foster chronic health anxiety."
 ---
 
 # Hereditary Leiomyomatosis and Renal Cell Carcinoma
@@ -387,6 +396,9 @@ Cutaneous:
 - `connects-to` → **[Anemia of Chronic Disease](../anemia-of-chronic-disease/README.md)** — Its aggressive kidney cancer drags the count down: the inflammatory burden of HLRCC's early-metastasizing renal cell carcinoma, with nephron loss and surgery, contributes an anemia of chronic disease.
 - `connects-to` → **[Heart Failure](../heart-failure/README.md)** — Its antiangiogenic therapy strains the heart: the bevacizumab-erlotinib and VEGF-targeted regimens used for HLRCC-associated renal cancer cause hypertension and cardiotoxicity that can contribute to heart failure.
 - `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — An aggressive hereditary cancer weighs on the mind: living with the high risk of an early, aggressive kidney cancer and the demands of lifelong surveillance imposes a substantial psychological burden in HLRCC.
+- `connects-to` → **[Neuropathic Pain](../neuropathic-pain/README.md)** — Its leiomyomas are notoriously painful: the cutaneous leiomyomas of HLRCC cause cold- and touch-triggered pain, and uterine fibroids add severe pelvic pain, together producing chronic neuropathic and nociceptive pain.
+- `connects-to` → **[Wound Healing](../wound-healing/README.md)** — Repeated tumor surgery taxes healing: the excisions of multiple cutaneous leiomyomas and nephron-sparing or radical kidney surgery in HLRCC leave recurrent wounds to heal.
+- `connects-to` → **[Generalized Anxiety Disorder](../generalized-anxiety-disorder/README.md)** — Aggressive cancer risk and surveillance breed worry: the threat of an early, aggressive type 2 papillary kidney cancer and the lifelong imaging surveillance of HLRCC foster chronic health anxiety.
 
 [^tomlinson-2002-fh]: Tomlinson IP, Alam NA, Rowan AJ, et al. Germline mutations in FH predispose to dominantly inherited uterine fibroids, skin leiomyomata and papillary renal cell cancer. *Nat Genet.* 2002;30(4):406-410. [doi:10.1038/ng849](https://doi.org/10.1038/ng849) · [PubMed 11865300](https://pubmed.ncbi.nlm.nih.gov/11865300/)
 [^linehan-2013-fh-review]: Linehan WM, Rouault TA. Molecular pathways: fumarate hydratase-deficient kidney cancer — targeting the Warburg effect in cancer. *Clin Cancer Res.* 2013;19(13):3345-3352. [doi:10.1158/1078-0432.CCR-13-0304](https://doi.org/10.1158/1078-0432.CCR-13-0304) · [PubMed 23836472](https://pubmed.ncbi.nlm.nih.gov/23836472/)

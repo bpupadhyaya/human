@@ -196,6 +196,15 @@ cross_links:
   - target: 02-pathogen/03-fungi/aspergillus-fumigatus
     relation: connects-to
     note: "Damaged sinonasal tissue and immunosuppression let mold in: radiation injury, mucosal breakdown and chemotherapy in head-and-neck cancer can permit invasive sinonasal or pulmonary aspergillosis."
+  - target: 01-human/07-system/neuropathic-pain
+    relation: connects-to
+    note: "Tumor, surgery and radiation savage the nerves: head-and-neck cancer invades cranial nerves, and its surgery, cisplatin and radiation produce severe, often refractory neuropathic pain."
+  - target: 01-human/07-system/wound-healing
+    relation: connects-to
+    note: "Irradiated tissue heals badly: head-and-neck radiation causes osteoradionecrosis of the jaw, fistulas and flap failure, so wounds in the treated field heal slowly and break down."
+  - target: 02-pathogen/02-bacteria/streptococcus-pneumoniae
+    relation: connects-to
+    note: "Lost swallow sends food to the lungs: tumor, surgery and radiation impair swallowing and the airway in head-and-neck cancer, and the resulting aspiration pneumonia — often pneumococcal — is a common cause of death."
 ---
 
 # HNSCC
@@ -370,6 +379,9 @@ HPV+ oropharyngeal: Node staging based on number (not laterality); HPV-negative 
 - `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — Disfigurement and lost speech devastate: head-and-neck cancer disrupts the face, voice and swallowing, and carries among the highest rates of depression and suicide of any cancer.
 - `connects-to` → **[Anemia of Chronic Disease](../anemia-of-chronic-disease/README.md)** — Chronic disease and treatment lower the count: tumor bleeding, the inflammatory burden of HNSCC and the marrow effects of chemoradiation combine to produce an anemia that also blunts radiotherapy response.
 - `connects-to` → **[Aspergillus fumigatus](../../../02-pathogen/03-fungi/aspergillus-fumigatus/README.md)** — Damaged sinonasal tissue and immunosuppression let mold in: radiation injury, mucosal breakdown and chemotherapy in head-and-neck cancer can permit invasive sinonasal or pulmonary aspergillosis.
+- `connects-to` → **[Neuropathic Pain](../neuropathic-pain/README.md)** — Tumor, surgery and radiation savage the nerves: head-and-neck cancer invades cranial nerves, and its surgery, cisplatin and radiation produce severe, often refractory neuropathic pain.
+- `connects-to` → **[Wound Healing](../wound-healing/README.md)** — Irradiated tissue heals badly: head-and-neck radiation causes osteoradionecrosis of the jaw, fistulas and flap failure, so wounds in the treated field heal slowly and break down.
+- `connects-to` → **[Streptococcus pneumoniae](../../../02-pathogen/02-bacteria/streptococcus-pneumoniae/README.md)** — Lost swallow sends food to the lungs: tumor, surgery and radiation impair swallowing and the airway in head-and-neck cancer, and the resulting aspiration pneumonia — often pneumococcal — is a common cause of death.
 
 [^burtness-2019-keynote048]: Burtness B, Harrington KJ, Greil R, et al. Pembrolizumab alone or with chemotherapy versus cetuximab with chemotherapy for recurrent or metastatic squamous cell carcinoma of the head and neck (KEYNOTE-048). *Lancet.* 2019;394(10212):1915-1928. [doi:10.1016/S0140-6736(19)32591-7](https://doi.org/10.1016/S0140-6736(19)32591-7) · [PubMed 31679945](https://pubmed.ncbi.nlm.nih.gov/31679945/)
 [^vermorken-2008-extreme]: Vermorken JB, Mesia R, Rivera F, et al. Platinum-based chemotherapy plus cetuximab in head and neck cancer. *N Engl J Med.* 2008;359(11):1116-1127. [doi:10.1056/NEJMoa0802656](https://doi.org/10.1056/NEJMoa0802656) · [PubMed 18784101](https://pubmed.ncbi.nlm.nih.gov/18784101/)
