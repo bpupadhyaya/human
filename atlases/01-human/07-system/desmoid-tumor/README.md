@@ -196,6 +196,15 @@ cross_links:
   - target: 01-human/07-system/major-depressive-disorder
     relation: connects-to
     note: "A relentless, recurring tumor wears on the mind: chronic pain, disfigurement and the high recurrence of desmoid tumors despite their benign label carry a substantial psychological burden and depression."
+  - target: 01-human/07-system/heart-failure
+    relation: connects-to
+    note: "Its targeted drugs strain the heart: the sorafenib and other tyrosine-kinase inhibitors used to control aggressive desmoid tumors raise blood pressure and are cardiotoxic, risking heart failure."
+  - target: 01-human/07-system/anemia-of-chronic-disease
+    relation: connects-to
+    note: "A large infiltrative tumor drains the blood: bulky mesenteric or abdominal desmoids with their inflammatory burden, and any associated bleeding, can produce an anemia of chronic disease."
+  - target: 01-human/07-system/generalized-anxiety-disorder
+    relation: connects-to
+    note: "Unpredictable recurrence breeds worry: the locally aggressive, frequently recurring behavior of desmoid tumors and the need for ongoing imaging surveillance foster chronic health anxiety."
 ---
 
 # Desmoid Tumor
@@ -389,6 +398,9 @@ Standard initial approach for newly diagnosed desmoid without symptoms or rapid 
 - `connects-to` → **[Neuropathic Pain](../neuropathic-pain/README.md)** — Infiltrating fibrosis traps the nerves: desmoid tumors invade locally and compress or encase nerves, causing chronic neuropathic pain that is often the dominant symptom of these aggressive but non-metastasizing growths.
 - `connects-to` → **[Sepsis](../sepsis/README.md)** — Abdominal desmoids can breach the bowel: mesenteric tumors and their resection can cause bowel obstruction, fistula or perforation, spilling gut flora into the abdomen and seeding sepsis.
 - `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — A relentless, recurring tumor wears on the mind: chronic pain, disfigurement and the high recurrence of desmoid tumors despite their benign label carry a substantial psychological burden and depression.
+- `connects-to` → **[Heart Failure](../heart-failure/README.md)** — Its targeted drugs strain the heart: the sorafenib and other tyrosine-kinase inhibitors used to control aggressive desmoid tumors raise blood pressure and are cardiotoxic, risking heart failure.
+- `connects-to` → **[Anemia of Chronic Disease](../anemia-of-chronic-disease/README.md)** — A large infiltrative tumor drains the blood: bulky mesenteric or abdominal desmoids with their inflammatory burden, and any associated bleeding, can produce an anemia of chronic disease.
+- `connects-to` → **[Generalized Anxiety Disorder](../generalized-anxiety-disorder/README.md)** — Unpredictable recurrence breeds worry: the locally aggressive, frequently recurring behavior of desmoid tumors and the need for ongoing imaging surveillance foster chronic health anxiety.
 
 ---
 

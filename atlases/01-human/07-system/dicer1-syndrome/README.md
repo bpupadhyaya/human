@@ -196,6 +196,15 @@ cross_links:
   - target: 01-human/07-system/major-depressive-disorder
     relation: connects-to
     note: "Lifelong tumor surveillance weighs on families and patients: living with an inherited predisposition to multiple childhood and adult tumors, and the repeated screening it demands, carries a real psychological burden."
+  - target: 01-human/07-system/heart-failure
+    relation: connects-to
+    note: "Treating its tumors strains the heart: the anthracycline and alkylator chemotherapy for the sarcomas and blastomas DICER1 predisposes to is cardiotoxic, risking cardiomyopathy and heart failure in survivors."
+  - target: 02-pathogen/03-fungi/aspergillus-fumigatus
+    relation: connects-to
+    note: "Its cancer chemotherapy opens the lung to mold: the neutropenia from treating DICER1-related tumors such as pleuropulmonary blastoma can let inhaled Aspergillus invade as pulmonary aspergillosis."
+  - target: 01-human/07-system/generalized-anxiety-disorder
+    relation: connects-to
+    note: "Constant multi-organ surveillance breeds worry: the lifelong screening for the many tumors of DICER1 syndrome, often beginning in childhood, fosters chronic health anxiety in patients and families."
 ---
 
 # DICER1 Syndrome
@@ -370,6 +379,9 @@ When a child is found to have a thoracic cystic lesion, DICER1 syndrome should b
 - `connects-to` → **[Anemia of Chronic Disease](../anemia-of-chronic-disease/README.md)** — Its tumors and their chemo blunt the marrow: the malignancies of DICER1 syndrome and the myelosuppressive chemotherapy they require depress erythropoiesis, adding an anemia-of-chronic-disease component to treatment cytopenias.
 - `connects-to` → **[Venous Thromboembolism](../venous-thromboembolism/README.md)** — Cancer and its surgery raise the clot risk: the tumors of DICER1 syndrome and the operations and central lines used to treat them predispose to venous thromboembolism, as in other childhood cancers.
 - `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — Lifelong tumor surveillance weighs on families and patients: living with an inherited predisposition to multiple childhood and adult tumors, and the repeated screening it demands, carries a real psychological burden.
+- `connects-to` → **[Heart Failure](../heart-failure/README.md)** — Treating its tumors strains the heart: the anthracycline and alkylator chemotherapy for the sarcomas and blastomas DICER1 predisposes to is cardiotoxic, risking cardiomyopathy and heart failure in survivors.
+- `connects-to` → **[Aspergillus fumigatus](../../../02-pathogen/03-fungi/aspergillus-fumigatus/README.md)** — Its cancer chemotherapy opens the lung to mold: the neutropenia from treating DICER1-related tumors such as pleuropulmonary blastoma can let inhaled Aspergillus invade as pulmonary aspergillosis.
+- `connects-to` → **[Generalized Anxiety Disorder](../generalized-anxiety-disorder/README.md)** — Constant multi-organ surveillance breeds worry: the lifelong screening for the many tumors of DICER1 syndrome, often beginning in childhood, fosters chronic health anxiety in patients and families.
 
 ---
 
