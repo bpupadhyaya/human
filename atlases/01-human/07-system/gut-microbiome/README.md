@@ -181,6 +181,15 @@ cross_links:
   - target: 02-pathogen/02-bacteria/salmonella-typhi
     relation: connects-to
     note: "A healthy flora is a barrier against invaders: the resident microbiome provides colonization resistance, and antibiotics or dysbiosis that thin it leave the gut open to enteric pathogens like Salmonella to take hold."
+  - target: 01-human/07-system/alzheimers-disease
+    relation: connects-to
+    note: "Dysbiosis may stoke the aging brain: gut bacteria shape systemic inflammation and amyloid metabolism along the gut-brain axis, and altered microbiomes are increasingly linked to the neuroinflammation of Alzheimer's disease."
+  - target: 01-human/07-system/atopic-dermatitis
+    relation: connects-to
+    note: "The gut tunes the skin's immunity: a gut-skin axis means early-life dysbiosis biases the immune system toward allergy, and reduced microbial diversity in infancy is associated with developing atopic dermatitis."
+  - target: 01-human/07-system/ckd
+    relation: connects-to
+    note: "A gut-kidney axis runs both ways: dysbiosis lets the gut generate uremic toxins like indoxyl sulfate that injure the kidney, while failing kidneys in turn reshape the flora, a vicious cycle in chronic kidney disease."
 ---
 
 # Gut Microbiome
@@ -313,6 +322,9 @@ The microbiome influences CNS function via multiple pathways:
 - `connects-to` → **[Histamine](../../03-molecular/histamine/README.md)** — Some gut bacteria make histamine themselves: histamine-producing species decarboxylate dietary histidine in the lumen, and an overgrowth of them is thought to underlie histamine intolerance with its flushing, headaches and gut upset.
 - `connects-to` → **[Asthma](../asthma/README.md)** — The gut shapes the airways through a gut-lung axis: early-life microbial diversity trains immune tolerance, and dysbiosis in infancy is linked to a higher risk of developing asthma and allergic airway disease.
 - `connects-to` → **[Salmonella typhi](../../../02-pathogen/02-bacteria/salmonella-typhi/README.md)** — A healthy flora is a barrier against invaders: the resident microbiome provides colonization resistance, and antibiotics or dysbiosis that thin it leave the gut open to enteric pathogens like Salmonella to take hold.
+- `connects-to` → **[Alzheimer's Disease](../alzheimers-disease/README.md)** — Dysbiosis may stoke the aging brain: gut bacteria shape systemic inflammation and amyloid metabolism along the gut-brain axis, and altered microbiomes are increasingly linked to the neuroinflammation of Alzheimer's disease.
+- `connects-to` → **[Atopic Dermatitis](../atopic-dermatitis/README.md)** — The gut tunes the skin's immunity: a gut-skin axis means early-life dysbiosis biases the immune system toward allergy, and reduced microbial diversity in infancy is associated with developing atopic dermatitis.
+- `connects-to` → **[Chronic Kidney Disease](../ckd/README.md)** — A gut-kidney axis runs both ways: dysbiosis lets the gut generate uremic toxins like indoxyl sulfate that injure the kidney, while failing kidneys in turn reshape the flora, a vicious cycle in chronic kidney disease.
 
 ## Pathology
 

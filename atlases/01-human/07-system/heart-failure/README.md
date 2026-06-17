@@ -181,6 +181,15 @@ cross_links:
   - target: 01-human/07-system/anemia-of-chronic-disease
     relation: connects-to
     note: "Anemia and heart failure feed each other: chronic inflammation, kidney dysfunction and iron deficiency make anemia common in heart failure, worsening symptoms and prognosis in the cardiorenal-anemia syndrome."
+  - target: 01-human/07-system/pulmonary-arterial-hypertension
+    relation: connects-to
+    note: "Left-sided failure backs pressure into the lungs: chronically raised left-atrial pressure transmits to the pulmonary circulation, causing the post-capillary (group 2) pulmonary hypertension that complicates and worsens heart failure."
+  - target: 01-human/07-system/gout
+    relation: connects-to
+    note: "Diuretics and low output raise uric acid: loop diuretics and reduced renal perfusion in heart failure cut urate excretion, so hyperuricemia and gout flares are common, and high uric acid itself tracks with worse prognosis."
+  - target: 01-human/07-system/major-depressive-disorder
+    relation: connects-to
+    note: "It weighs heavily on mood: depression is common in heart failure, driven by the limits of breathlessness and fatigue and by shared inflammatory pathways, and it independently predicts hospitalization and death."
 ---
 
 # Heart Failure
@@ -308,6 +317,9 @@ Normal hearts increase stroke volume with increasing preload (Starling curve). T
 - `connects-to` → **[NF-κB](../../03-molecular/nf-kb/README.md)** — Inflammation drives the remodeling: NF-κB activation in the stressed myocardium switches on the cytokines and hypertrophic genes that progressively scar and dilate the failing heart, a target of interest beyond the standard neurohormonal blockade.
 - `connects-to` → **[Venous Thromboembolism](../venous-thromboembolism/README.md)** — Sluggish circulation favors clots: the low cardiac output, venous congestion and reduced mobility of heart failure create a prothrombotic state that raises the risk of deep-vein thrombosis and pulmonary embolism.
 - `connects-to` → **[Anemia of Chronic Disease](../anemia-of-chronic-disease/README.md)** — Anemia and heart failure feed each other: chronic inflammation, kidney dysfunction and iron deficiency make anemia common in heart failure, worsening symptoms and prognosis in the cardiorenal-anemia syndrome.
+- `connects-to` → **[Pulmonary Arterial Hypertension](../pulmonary-arterial-hypertension/README.md)** — Left-sided failure backs pressure into the lungs: chronically raised left-atrial pressure transmits to the pulmonary circulation, causing the post-capillary (group 2) pulmonary hypertension that complicates and worsens heart failure.
+- `connects-to` → **[Gout](../gout/README.md)** — Diuretics and low output raise uric acid: loop diuretics and reduced renal perfusion in heart failure cut urate excretion, so hyperuricemia and gout flares are common, and high uric acid itself tracks with worse prognosis.
+- `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — It weighs heavily on mood: depression is common in heart failure, driven by the limits of breathlessness and fatigue and by shared inflammatory pathways, and it independently predicts hospitalization and death.
 
 ## Pathology
 
