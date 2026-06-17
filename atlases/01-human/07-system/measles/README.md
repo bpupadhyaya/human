@@ -200,6 +200,15 @@ cross_links:
   - target: 02-pathogen/03-fungi/candida-albicans
     relation: connects-to
     note: "A weakened host invites the yeast: measles immunosuppression and its painful oral mucosal lesions favor oral and esophageal candidiasis, one of the opportunistic infections riding on its immune amnesia."
+  - target: 02-pathogen/02-bacteria/staphylococcus-aureus
+    relation: connects-to
+    note: "Damaged mucosa and lost immunity invite Staph: measles strips the airway epithelium and erases immune memory, so secondary Staphylococcus aureus pneumonia and skin infection are common, dangerous complications."
+  - target: 02-pathogen/01-viruses/rotavirus
+    relation: connects-to
+    note: "Immune amnesia opens the gut to other infections: by wiping out immune memory, measles leaves children vulnerable for months to enteric pathogens like rotavirus, contributing to post-measles diarrheal deaths."
+  - target: 02-pathogen/02-bacteria/escherichia-coli
+    relation: connects-to
+    note: "Erased immunity invites invasive bacteria: the prolonged immunosuppression after measles leaves children prone to severe bacterial infections, including E. coli sepsis, part of its delayed mortality."
 ---
 
 # Measles
@@ -405,6 +414,9 @@ Beyond immune amnesia (memory B cell depletion), MV causes acute immune suppress
 - `connects-to` → **[Sepsis](../sepsis/README.md)** — Immune amnesia opens the door to deadly infection: measles erases existing immune memory and depletes lymphocytes for months, leaving children prone to secondary bacterial infections that disseminate into sepsis.
 - `connects-to` → **[Aspergillus fumigatus](../../../02-pathogen/03-fungi/aspergillus-fumigatus/README.md)** — Post-measles immune collapse lets mold in: the profound lymphopenia and immune amnesia after measles can permit opportunistic fungal infections like invasive aspergillosis, especially in malnourished or immunocompromised children.
 - `connects-to` → **[Candida albicans](../../../02-pathogen/03-fungi/candida-albicans/README.md)** — A weakened host invites the yeast: measles immunosuppression and its painful oral mucosal lesions favor oral and esophageal candidiasis, one of the opportunistic infections riding on its immune amnesia.
+- `connects-to` → **[Staphylococcus aureus](../../../02-pathogen/02-bacteria/staphylococcus-aureus/README.md)** — Damaged mucosa and lost immunity invite Staph: measles strips the airway epithelium and erases immune memory, so secondary Staphylococcus aureus pneumonia and skin infection are common, dangerous complications.
+- `connects-to` → **[Rotavirus](../../../02-pathogen/01-viruses/rotavirus/README.md)** — Immune amnesia opens the gut to other infections: by wiping out immune memory, measles leaves children vulnerable for months to enteric pathogens like rotavirus, contributing to post-measles diarrheal deaths.
+- `connects-to` → **[Escherichia coli](../../../02-pathogen/02-bacteria/escherichia-coli/README.md)** — Erased immunity invites invasive bacteria: the prolonged immunosuppression after measles leaves children prone to severe bacterial infections, including E. coli sepsis, part of its delayed mortality.
 
 [^panum-1847-faroe-measles]: Panum PL. Observations made during the epidemic of measles on the Faroe Islands in the year 1846. *Med Classics.* 1939;3:829-886.
 [^mina-2019-immune-amnesia]: Mina MJ, Kula T, Leng Y, et al. Measles virus infection diminishes preexisting antibodies that offer protection from other pathogens. *Science.* 2019;366(6465):599-606. [doi:10.1126/science.aay6485](https://doi.org/10.1126/science.aay6485) · [PubMed 31672891](https://pubmed.ncbi.nlm.nih.gov/31672891/)
