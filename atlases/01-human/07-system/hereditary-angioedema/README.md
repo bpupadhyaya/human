@@ -187,6 +187,15 @@ cross_links:
   - target: 01-human/07-system/generalized-anxiety-disorder
     relation: connects-to
     note: "Living between attacks breeds chronic worry: beyond acute fear, the constant vigilance over triggers, rescue medication and the unpredictability of the next swelling fosters a persistent generalized anxiety that constrains daily life."
+  - target: 01-human/07-system/hcc
+    relation: connects-to
+    note: "Its old prophylactic drug can grow liver tumors: long-term attenuated androgens like danazol, once a mainstay of HAE prevention, cause hepatic adenomas that can transform, a reason these agents are now used cautiously."
+  - target: 01-human/07-system/venous-thromboembolism
+    relation: connects-to
+    note: "Both the disease's treatments raise clot risk: attenuated androgens used for prophylaxis and C1-inhibitor concentrate given for attacks each carry a recognized thrombotic risk, so venous thromboembolism is a treatment hazard in HAE."
+  - target: 01-human/07-system/type-2-diabetes
+    relation: connects-to
+    note: "Androgen prophylaxis skews metabolism: the weight gain, dyslipidemia and insulin resistance from long-term attenuated androgens like danazol push HAE patients toward type 2 diabetes, part of why safer therapies are preferred."
 ---
 
 # Hereditary Angioedema
@@ -378,6 +387,9 @@ Fluid extravasation → ANGIOEDEMA
 - `connects-to` → **[Intestinal Epithelium](../../05-tissue/intestinal-epithelium/README.md)** — Attacks swell the gut wall from within: bradykinin-driven edema of the intestinal submucosa beneath the epithelium causes cramping pain, vomiting and even bowel obstruction, abdominal attacks so severe they are often mistaken for a surgical emergency.
 - `connects-to` → **[ACE2](../../03-molecular/ace2/README.md)** — A second enzyme helps clear the trigger: ACE2 degrades the active bradykinin metabolite des-Arg9-bradykinin, so its activity helps terminate attacks — a counterpart to the ACE inhibition that, by blocking bradykinin breakdown, can precipitate angioedema.
 - `connects-to` → **[Generalized Anxiety Disorder](../generalized-anxiety-disorder/README.md)** — Living between attacks breeds chronic worry: beyond acute fear, the constant vigilance over triggers, rescue medication and the unpredictability of the next swelling fosters a persistent generalized anxiety that constrains daily life.
+- `connects-to` → **[Hepatocellular Carcinoma](../hcc/README.md)** — Its old prophylactic drug can grow liver tumors: long-term attenuated androgens like danazol, once a mainstay of HAE prevention, cause hepatic adenomas that can transform, a reason these agents are now used cautiously.
+- `connects-to` → **[Venous Thromboembolism](../venous-thromboembolism/README.md)** — Both the disease's treatments raise clot risk: attenuated androgens used for prophylaxis and C1-inhibitor concentrate given for attacks each carry a recognized thrombotic risk, so venous thromboembolism is a treatment hazard in HAE.
+- `connects-to` → **[Type 2 Diabetes](../type-2-diabetes/README.md)** — Androgen prophylaxis skews metabolism: the weight gain, dyslipidemia and insulin resistance from long-term attenuated androgens like danazol push HAE patients toward type 2 diabetes, part of why safer therapies are preferred.
 
 [^cicardi-2010-icatibant-nejm]: Cicardi M, Banerji A, Bracho F, et al. Icatibant, a new bradykinin-receptor antagonist, in hereditary angioedema. *N Engl J Med.* 2010;363(6):532-541. [doi:10.1056/NEJMoa0906393](https://doi.org/10.1056/NEJMoa0906393) · [PubMed 20818873](https://pubmed.ncbi.nlm.nih.gov/20818873/)
 [^maurer-2018-lanadelumab-help]: Banerji A, Riedl MA, Bernstein JA, et al. Effect of lanadelumab compared with placebo on prevention of hereditary angioedema attacks. *JAMA.* 2018;320(20):2108-2121. [doi:10.1001/jama.2018.16773](https://doi.org/10.1001/jama.2018.16773) · [PubMed 30480729](https://pubmed.ncbi.nlm.nih.gov/30480729/)

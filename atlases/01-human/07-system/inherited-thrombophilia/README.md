@@ -187,6 +187,15 @@ cross_links:
   - target: 01-human/07-system/essential-thrombocythemia
     relation: connects-to
     note: "An acquired cousin works through platelets: JAK2-mutant essential thrombocythemia raises clot risk via overproduced, hyperreactive platelets — an acquired thrombophilia distinct from the clotting-factor defects of the inherited forms that can compound them when both coexist."
+  - target: 01-human/07-system/heart-failure
+    relation: connects-to
+    note: "It threatens the failing heart's chambers and veins: low-flow stasis in heart failure plus an inherited clotting tendency raises the risk of intracardiac thrombus and venous thromboembolism, complicating an already congested circulation."
+  - target: 01-human/07-system/ovarian-cancer
+    relation: connects-to
+    note: "An unprovoked clot can unmask hidden cancer: ovarian and other adenocarcinomas are themselves prothrombotic, and a venous thrombosis in someone with inherited thrombophilia can be the event that prompts the workup uncovering an occult tumor."
+  - target: 01-human/07-system/gastric-cancer
+    relation: connects-to
+    note: "It compounds Trousseau's syndrome: gastric adenocarcinoma classically causes migratory thrombophlebitis through tumor procoagulants, and a coexisting inherited thrombophilia magnifies the already high cancer-associated clotting risk."
 ---
 
 # Inherited Thrombophilia
@@ -402,6 +411,9 @@ Antithrombin (ATIII) is the primary plasma inhibitor of thrombin, FXa, FIXa, and
 - `connects-to` → **[NF-κB](../../03-molecular/nf-kb/README.md)** — Inflammation turns the vessel wall procoagulant: NF-κB activation induces tissue factor and suppresses anticoagulant pathways on the endothelium, the thromboinflammatory link by which inflammation amplifies an inherited clotting tendency into overt thrombosis.
 - `connects-to` → **[Hepatocellular Carcinoma](../hcc/README.md)** — It can clot the liver's own outflow: thrombophilia is a leading cause of Budd-Chiari syndrome, hepatic vein thrombosis that congests the liver into cirrhosis and, over years, can give rise to hepatocellular carcinoma.
 - `connects-to` → **[Essential Thrombocythemia](../essential-thrombocythemia/README.md)** — An acquired cousin works through platelets: JAK2-mutant essential thrombocythemia raises clot risk via overproduced, hyperreactive platelets — an acquired thrombophilia distinct from the clotting-factor defects of the inherited forms that can compound them when both coexist.
+- `connects-to` → **[Heart Failure](../heart-failure/README.md)** — It threatens the failing heart's chambers and veins: low-flow stasis in heart failure plus an inherited clotting tendency raises the risk of intracardiac thrombus and venous thromboembolism, complicating an already congested circulation.
+- `connects-to` → **[Ovarian Cancer](../ovarian-cancer/README.md)** — An unprovoked clot can unmask hidden cancer: ovarian and other adenocarcinomas are themselves prothrombotic, and a venous thrombosis in someone with inherited thrombophilia can be the event that prompts the workup uncovering an occult tumor.
+- `connects-to` → **[Gastric Cancer](../gastric-cancer/README.md)** — It compounds Trousseau's syndrome: gastric adenocarcinoma classically causes migratory thrombophlebitis through tumor procoagulants, and a coexisting inherited thrombophilia magnifies the already high cancer-associated clotting risk.
 
 [^bertina-1994-factor-v-leiden]: Bertina RM, Koeleman BP, Koster T, et al. Mutation in blood coagulation factor V associated with resistance to activated protein C. *Nature.* 1994;369(6475):64-67. [doi:10.1038/369064a0](https://doi.org/10.1038/369064a0) · [PubMed 8164741](https://pubmed.ncbi.nlm.nih.gov/8164741/)
 [^dahlback-2008-protein-c-review]: Dahlbäck B. Advances in understanding pathogenic mechanisms of thrombophilic disorders. *Blood.* 2008;112(1):19-27. [doi:10.1182/blood-2008-01-077909](https://doi.org/10.1182/blood-2008-01-077909) · [PubMed 18574048](https://pubmed.ncbi.nlm.nih.gov/18574048/)
