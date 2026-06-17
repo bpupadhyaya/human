@@ -178,6 +178,15 @@ cross_links:
   - target: 01-human/07-system/type-2-diabetes
     relation: connects-to
     note: "The body pays for chronic dysregulation: BPD carries raised rates of metabolic disease and type 2 diabetes, driven by chronic stress, disordered eating, and the weight-gaining psychiatric medications often prescribed."
+  - target: 01-human/07-system/panic-disorder
+    relation: connects-to
+    note: "Anxiety rides alongside the instability: panic attacks and panic disorder are common in BPD, the acute fear and autonomic surges blending with the disorder's rapid emotional swings and feelings of impending crisis."
+  - target: 01-human/07-system/stimulant-use-disorder
+    relation: connects-to
+    note: "Impulsivity reaches for stimulants too: alongside alcohol and opioids, cocaine and amphetamine use disorders are frequent in BPD, the impulsive reward-seeking and chronic emptiness driving substance use across many classes."
+  - target: 01-human/07-system/nervous-system
+    relation: connects-to
+    note: "At root it is a disorder of brain circuits: BPD reflects altered function across the limbic and prefrontal networks of the nervous system, the emotion-regulation machinery whose dysregulation produces its instability."
 ---
 
 # Borderline Personality Disorder
@@ -371,6 +380,9 @@ This model directly informs DBT treatment: validate emotional experience (the bi
 - `connects-to` → **[Endocannabinoid System](../../03-molecular/endocannabinoid/README.md)** — The body's own cannabis system is dysregulated: altered endocannabinoid signaling, which normally tempers stress and emotion, is implicated in the affective instability of BPD and may underlie the high rate of cannabis use among patients.
 - `connects-to` → **[Fibromyalgia](../fibromyalgia/README.md)** — Emotional pain travels with bodily pain: fibromyalgia and other chronic pain syndromes are markedly over-represented in BPD, sharing the stress-axis and central-sensitization biology that links early trauma to amplified pain.
 - `connects-to` → **[Type 2 Diabetes](../type-2-diabetes/README.md)** — The body pays for chronic dysregulation: BPD carries raised rates of metabolic disease and type 2 diabetes, driven by chronic stress, disordered eating, and the weight-gaining psychiatric medications often prescribed.
+- `connects-to` → **[Panic Disorder](../panic-disorder/README.md)** — Anxiety rides alongside the instability: panic attacks and panic disorder are common in BPD, the acute fear and autonomic surges blending with the disorder's rapid emotional swings and feelings of impending crisis.
+- `connects-to` → **[Stimulant Use Disorder](../stimulant-use-disorder/README.md)** — Impulsivity reaches for stimulants too: alongside alcohol and opioids, cocaine and amphetamine use disorders are frequent in BPD, the impulsive reward-seeking and chronic emptiness driving substance use across many classes.
+- `connects-to` → **[Nervous System](../nervous-system/README.md)** — At root it is a disorder of brain circuits: BPD reflects altered function across the limbic and prefrontal networks of the nervous system, the emotion-regulation machinery whose dysregulation produces its instability.
 
 [^linehan-1993-dbt]: Linehan MM. *Cognitive-Behavioral Treatment of Borderline Personality Disorder.* Guilford; 1993. [PubMed 8192506](https://pubmed.ncbi.nlm.nih.gov/8192506/)
 [^skodol-2002-bpd-neurobiology]: Siever LJ, Davis KL. A psychobiological perspective on the personality disorders. *Am J Psychiatry.* 1991;148(12):1647-1658. [doi:10.1176/ajp.148.12.1647](https://doi.org/10.1176/ajp.148.12.1647) · [PubMed 1957927](https://pubmed.ncbi.nlm.nih.gov/1957927/)
