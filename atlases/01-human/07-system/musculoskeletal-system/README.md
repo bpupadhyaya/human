@@ -197,6 +197,15 @@ cross_links:
   - target: 01-human/07-system/major-depressive-disorder
     relation: connects-to
     note: "Chronic pain and disability weigh on mood: persistent musculoskeletal pain and the loss of mobility and independence it brings are strongly tied to depression, each amplifying the other."
+  - target: 01-human/07-system/digestive-system
+    relation: connects-to
+    note: "Bone and muscle depend on what the gut absorbs: calcium and vitamin D uptake builds bone, and protein absorption sustains muscle, so malabsorption causes osteomalacia and sarcopenia."
+  - target: 01-human/07-system/respiratory-system
+    relation: connects-to
+    note: "Muscles and the rib cage power breathing: the diaphragm and intercostals drive ventilation, so neuromuscular weakness and chest-wall deformities like scoliosis cause restrictive respiratory failure."
+  - target: 01-human/07-system/lymphatic-system
+    relation: connects-to
+    note: "Bones house the blood-and-immune factory: the marrow within the skeleton is where haematopoiesis and B-cell development occur, making the musculoskeletal system a primary site of the lymphatic and immune system."
 ---
 
 # Musculoskeletal System
@@ -393,6 +402,9 @@ Chronic exercise drives profound musculoskeletal remodelling [^guyton-hall]:
 - `connects-to` → **[Type 2 Diabetes](../type-2-diabetes/README.md)** — Muscle is the body's main glucose sink: skeletal muscle takes up most insulin-stimulated glucose, so its mass and insulin sensitivity drive metabolic health, while diabetes in turn causes sarcopenia and stiff-joint syndromes.
 - `connects-to` → **[Obesity](../obesity/README.md)** — Excess load wears the joints: obesity mechanically overloads weight-bearing joints toward osteoarthritis, and adipose-muscle crosstalk worsens the sarcopenia and inflammation of the musculoskeletal system.
 - `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — Chronic pain and disability weigh on mood: persistent musculoskeletal pain and the loss of mobility and independence it brings are strongly tied to depression, each amplifying the other.
+- `connects-to` → **[Digestive System](../digestive-system/README.md)** — Bone and muscle depend on what the gut absorbs: calcium and vitamin D uptake builds bone, and protein absorption sustains muscle, so malabsorption causes osteomalacia and sarcopenia.
+- `connects-to` → **[Respiratory System](../respiratory-system/README.md)** — Muscles and the rib cage power breathing: the diaphragm and intercostals drive ventilation, so neuromuscular weakness and chest-wall deformities like scoliosis cause restrictive respiratory failure.
+- `connects-to` → **[Lymphatic System](../lymphatic-system/README.md)** — Bones house the blood-and-immune factory: the marrow within the skeleton is where haematopoiesis and B-cell development occur, making the musculoskeletal system a primary site of the lymphatic and immune system.
 
 ## Pathology
 
