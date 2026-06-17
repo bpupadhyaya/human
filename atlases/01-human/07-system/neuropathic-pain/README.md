@@ -159,6 +159,15 @@ cross_links:
   - target: 01-human/04-cellular/regulatory-t-cell
     relation: connects-to
     note: "The immune system can also quiet pain: regulatory T cells help resolve neuropathic pain by damping the neuroinflammation around injured nerves, so their relative deficiency lets pain persist — a neuroimmune lever for new therapies."
+  - target: 01-human/03-molecular/nf-kb
+    relation: connects-to
+    note: "Glial inflammation runs on NF-κB: activated microglia and astrocytes around injured nerves switch on NF-κB to pour out the cytokines that sensitize pain pathways, a central engine of the chronic neuroinflammation behind neuropathic pain."
+  - target: 01-human/07-system/type-1-diabetes
+    relation: connects-to
+    note: "Even tightly controlled diabetes can hurt the nerves: type 1 diabetes causes a distal sensorimotor polyneuropathy through chronic hyperglycemia and microvascular nerve injury, one of the commonest sources of painful peripheral neuropathy."
+  - target: 01-human/07-system/insomnia-disorder
+    relation: connects-to
+    note: "Pain and sleeplessness feed each other: neuropathic pain flares at night and fragments sleep, while the resulting insomnia lowers pain tolerance the next day, a vicious cycle that worsens both."
 sources:
   - id: jensen-2011-neuropathic-pain-review
     type: peer-reviewed
@@ -369,6 +378,9 @@ Chronic neuropathic pain carries significant psychological burden:
 - `connects-to` → **[Chronic Kidney Disease](../ckd/README.md)** — Failing kidneys poison the nerves: uremic toxins that build up in chronic kidney disease damage peripheral axons, producing a uremic polyneuropathy with burning, restless legs that improves only with dialysis or transplant.
 - `connects-to` → **[Prostaglandins (Eicosanoids)](../../03-molecular/prostaglandins/README.md)** — Inflammation lowers the firing threshold: prostaglandins released at injured tissue sensitize nociceptor endings, a peripheral sensitization that primes the nerves and feeds the central amplification of neuropathic pain.
 - `connects-to` → **[Regulatory T Cell](../../04-cellular/regulatory-t-cell/README.md)** — The immune system can also quiet pain: regulatory T cells help resolve neuropathic pain by damping the neuroinflammation around injured nerves, so their relative deficiency lets pain persist — a neuroimmune lever for new therapies.
+- `connects-to` → **[NF-κB](../../03-molecular/nf-kb/README.md)** — Glial inflammation runs on NF-κB: activated microglia and astrocytes around injured nerves switch on NF-κB to pour out the cytokines that sensitize pain pathways, a central engine of the chronic neuroinflammation behind neuropathic pain.
+- `connects-to` → **[Type 1 Diabetes](../type-1-diabetes/README.md)** — Even tightly controlled diabetes can hurt the nerves: type 1 diabetes causes a distal sensorimotor polyneuropathy through chronic hyperglycemia and microvascular nerve injury, one of the commonest sources of painful peripheral neuropathy.
+- `connects-to` → **[Insomnia Disorder](../insomnia-disorder/README.md)** — Pain and sleeplessness feed each other: neuropathic pain flares at night and fragments sleep, while the resulting insomnia lowers pain tolerance the next day, a vicious cycle that worsens both.
 
 [^jensen-2011-neuropathic-pain-review]: Jensen TS, Baron R, Haanpää M, et al. A new definition of neuropathic pain. *Pain.* 2011;152(10):2204-2205. [doi:10.1016/j.pain.2011.06.017](https://doi.org/10.1016/j.pain.2011.06.017) · [PubMed 21764514](https://pubmed.ncbi.nlm.nih.gov/21764514/)
 [^dworkin-2010-neuropathic-pain-treatment]: Dworkin RH, O'Connor AB, Audette J, et al. Recommendations for the pharmacological management of neuropathic pain. *Mayo Clin Proc.* 2010;85(3 Suppl):S3-14. [doi:10.4065/mcp.2009.0649](https://doi.org/10.4065/mcp.2009.0649) · [PubMed 20194146](https://pubmed.ncbi.nlm.nih.gov/20194146/)

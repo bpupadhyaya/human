@@ -184,6 +184,15 @@ cross_links:
   - target: 01-human/04-cellular/dendritic-cell
     relation: connects-to
     note: "The autoimmune attack must first be taught: dendritic cells present aquaporin-4 peptides to T cells, licensing the helper response that drives B cells to make the pathogenic anti-AQP4 antibody."
+  - target: 01-human/03-molecular/nf-kb
+    relation: connects-to
+    note: "The antibody attack inflames through NF-κB: AQP4-IgG binding and complement on astrocytes drive NF-κB-dependent cytokine and chemokine release, amplifying the neutrophil-rich inflammation that destroys tissue in an NMO lesion."
+  - target: 01-human/07-system/sepsis
+    relation: connects-to
+    note: "Complement-blocking therapy opens a dangerous door: eculizumab, used to prevent NMO relapses, blocks the membrane attack complex and sharply raises the risk of meningococcal and other encapsulated-organism infection and sepsis, mandating vaccination."
+  - target: 01-human/07-system/venous-thromboembolism
+    relation: connects-to
+    note: "Paralyzing attacks bring clot risk: a severe transverse myelitis relapse can leave a patient immobile for weeks, and the resulting venous stasis raises the risk of deep-vein thrombosis and pulmonary embolism."
 ---
 
 # NMOSD
@@ -385,6 +394,9 @@ NMOSD impairs CNS function through three attack-related mechanisms:
 - `connects-to` → **[Neuropathic Pain](../neuropathic-pain/README.md)** — Its myelitis leaves searing pain: damage to the spinal cord in NMO causes severe neuropathic pain and painful tonic spasms that often persist between attacks, a leading driver of disability between relapses.
 - `connects-to` → **[Epilepsy](../epilepsy/README.md)** — When it reaches the brain it can spark seizures: although NMO favors the optic nerves and cord, cerebral lesions — common in AQP4-rich regions and in pediatric disease — can irritate the cortex and provoke epilepsy.
 - `connects-to` → **[Dendritic Cell](../../04-cellular/dendritic-cell/README.md)** — The autoimmune attack must first be taught: dendritic cells present aquaporin-4 peptides to T cells, licensing the helper response that drives B cells to make the pathogenic anti-AQP4 antibody.
+- `connects-to` → **[NF-κB](../../03-molecular/nf-kb/README.md)** — The antibody attack inflames through NF-κB: AQP4-IgG binding and complement on astrocytes drive NF-κB-dependent cytokine and chemokine release, amplifying the neutrophil-rich inflammation that destroys tissue in an NMO lesion.
+- `connects-to` → **[Sepsis](../sepsis/README.md)** — Complement-blocking therapy opens a dangerous door: eculizumab, used to prevent NMO relapses, blocks the membrane attack complex and sharply raises the risk of meningococcal and other encapsulated-organism infection and sepsis, mandating vaccination.
+- `connects-to` → **[Venous Thromboembolism](../venous-thromboembolism/README.md)** — Paralyzing attacks bring clot risk: a severe transverse myelitis relapse can leave a patient immobile for weeks, and the resulting venous stasis raises the risk of deep-vein thrombosis and pulmonary embolism.
 
 [^wingerchuk-2015-nmosd-criteria]: Wingerchuk DM, Banwell B, Bennett JL, et al. International consensus diagnostic criteria for neuromyelitis optica spectrum disorders. *Neurology.* 2015;85(2):177-189. [doi:10.1212/WNL.0000000000001729](https://doi.org/10.1212/WNL.0000000000001729) · [PubMed 26092914](https://pubmed.ncbi.nlm.nih.gov/26092914/)
 [^pittock-2019-eculizumab-prevent]: Pittock SJ, Berthele A, Fujihara K, et al. Eculizumab in Aquaporin-4-Positive Neuromyelitis Optica Spectrum Disorder. *N Engl J Med.* 2019;381(7):614-625. [doi:10.1056/NEJMoa1900866](https://doi.org/10.1056/NEJMoa1900866) · [PubMed 31050279](https://pubmed.ncbi.nlm.nih.gov/31050279/)
