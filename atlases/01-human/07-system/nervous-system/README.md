@@ -187,6 +187,15 @@ cross_links:
   - target: 01-human/07-system/stroke
     relation: connects-to
     note: "Stroke is the nervous system starved of blood: a blocked or burst cerebral vessel kills neurons within minutes, the leading cause of acquired neurological disability and a prime example of the brain's dependence on its circulation."
+  - target: 01-human/07-system/alzheimers-disease
+    relation: connects-to
+    note: "The commonest way the nervous system degenerates: Alzheimer's disease destroys cortical and hippocampal neurons through amyloid and tau pathology, the leading cause of dementia and the archetypal neurodegenerative disease."
+  - target: 01-human/07-system/parkinsons-disease
+    relation: connects-to
+    note: "A movement disorder of dying neurons: Parkinson's disease kills the dopaminergic neurons of the substantia nigra through α-synuclein pathology, the second commonest neurodegenerative disease of the nervous system."
+  - target: 01-human/07-system/multiple-sclerosis
+    relation: connects-to
+    note: "Autoimmunity strips the nervous system's insulation: multiple sclerosis is an immune attack on central myelin, the leading non-traumatic cause of neurological disability in young adults."
 ---
 
 # Nervous System
@@ -279,6 +288,9 @@ Distributed cortical networks underlie language (Broca's area, Wernicke's area, 
 - `connects-to` → **[Synapse](../../05-tissue/synapse/README.md)** — The synapse is where the nervous system computes: chemical and electrical junctions between neurons transmit and weight signals, and their plasticity underlies learning, memory, and the disorders that disrupt connectivity.
 - `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — Sodium carries the nerve impulse: the inrush of sodium ions through voltage-gated channels generates the action potential, the electrical signal on which all nervous-system communication depends.
 - `connects-to` → **[Stroke](../stroke/README.md)** — Stroke is the nervous system starved of blood: a blocked or burst cerebral vessel kills neurons within minutes, the leading cause of acquired neurological disability and a prime example of the brain's dependence on its circulation.
+- `connects-to` → **[Alzheimer's Disease](../alzheimers-disease/README.md)** — The commonest way the nervous system degenerates: Alzheimer's disease destroys cortical and hippocampal neurons through amyloid and tau pathology, the leading cause of dementia and the archetypal neurodegenerative disease.
+- `connects-to` → **[Parkinson's Disease](../parkinsons-disease/README.md)** — A movement disorder of dying neurons: Parkinson's disease kills the dopaminergic neurons of the substantia nigra through α-synuclein pathology, the second commonest neurodegenerative disease of the nervous system.
+- `connects-to` → **[Multiple Sclerosis](../multiple-sclerosis/README.md)** — Autoimmunity strips the nervous system's insulation: multiple sclerosis is an immune attack on central myelin, the leading non-traumatic cause of neurological disability in young adults.
 
 ## Pathology
 

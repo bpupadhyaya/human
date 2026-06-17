@@ -165,6 +165,15 @@ cross_links:
   - target: 01-human/07-system/migraine
     relation: connects-to
     note: "Headache shadows the sleep disorder: migraine occurs more often in people with narcolepsy, the two sharing dysregulation of the hypothalamic and monoaminergic circuits that govern arousal and pain."
+  - target: 01-human/03-molecular/stat3
+    relation: connects-to
+    note: "An autoimmune T-cell attack runs on STAT3: type 1 narcolepsy is driven by HLA-restricted, likely Th17-skewed T cells destroying orexin neurons, and STAT3 sits at the heart of that autoreactive T-cell program."
+  - target: 01-human/07-system/bipolar-disorder
+    relation: connects-to
+    note: "Mood disorder rides with the sleepiness: bipolar disorder and depression are over-represented in narcolepsy, the shared dysregulation of sleep, reward and monoamine systems blurring the boundary and complicating treatment."
+  - target: 01-human/07-system/panic-disorder
+    relation: connects-to
+    note: "Sudden sleep phenomena breed fear: the frightening sleep paralysis and hypnagogic hallucinations of narcolepsy, and its disrupted arousal, feed high rates of panic and anxiety disorders."
 sources:
   - id: scammell-2015-narcolepsy-review
     type: peer-reviewed
@@ -354,6 +363,9 @@ Cataplexy is the **pathognomonic** feature of NT1 — sudden, bilateral loss of 
 - `connects-to` → **[TNF-α (Tumor Necrosis Factor-alpha)](../../03-molecular/tnf-alpha/README.md)** — Post-infectious inflammation may help trigger it: TNF-α and other cytokines rise after the infections (H1N1, streptococcus) that precede type 1 narcolepsy, part of the immune storm thought to unmask the autoimmune attack on orexin neurons.
 - `connects-to` → **[Generalized Anxiety Disorder](../generalized-anxiety-disorder/README.md)** — The mind carries the burden of broken sleep: anxiety and depression are markedly more common in narcolepsy, both from the disorder's neurobiology and the strain of unpredictable sleepiness and cataplexy on daily life.
 - `connects-to` → **[Migraine](../migraine/README.md)** — Headache shadows the sleep disorder: migraine occurs more often in people with narcolepsy, the two sharing dysregulation of the hypothalamic and monoaminergic circuits that govern arousal and pain.
+- `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — An autoimmune T-cell attack runs on STAT3: type 1 narcolepsy is driven by HLA-restricted, likely Th17-skewed T cells destroying orexin neurons, and STAT3 sits at the heart of that autoreactive T-cell program.
+- `connects-to` → **[Bipolar Disorder](../bipolar-disorder/README.md)** — Mood disorder rides with the sleepiness: bipolar disorder and depression are over-represented in narcolepsy, the shared dysregulation of sleep, reward and monoamine systems blurring the boundary and complicating treatment.
+- `connects-to` → **[Panic Disorder](../panic-disorder/README.md)** — Sudden sleep phenomena breed fear: the frightening sleep paralysis and hypnagogic hallucinations of narcolepsy, and its disrupted arousal, feed high rates of panic and anxiety disorders.
 
 [^scammell-2015-narcolepsy-review]: Scammell TE. Narcolepsy. *N Engl J Med.* 2015;373(27):2654-2662. [doi:10.1056/NEJMra1500587](https://doi.org/10.1056/NEJMra1500587) · [PubMed 26716917](https://pubmed.ncbi.nlm.nih.gov/26716917/)
 [^dauvilliers-2007-narcolepsy-clinical]: Dauvilliers Y, Arnulf I, Mignot E. Narcolepsy with cataplexy. *Lancet.* 2007;369(9560):499-511. [doi:10.1016/S0140-6736(07)60237-2](https://doi.org/10.1016/S0140-6736(07)60237-2) · [PubMed 17292770](https://pubmed.ncbi.nlm.nih.gov/17292770/)
