@@ -178,6 +178,15 @@ cross_links:
   - target: 01-human/07-system/hypertension
     relation: connects-to
     note: "Overcrowded blood pushes the pressure up: the raised red-cell mass and viscosity of PV increase vascular resistance, contributing to hypertension that compounds the disease's cardiovascular and thrombotic risk."
+  - target: 01-human/03-molecular/tnf-alpha
+    relation: connects-to
+    note: "The cytokine that lets the mutant clone win: JAK2-V617F cells are resistant to TNF-α while normal progenitors are suppressed by it, so the high TNF-α of PV actively selects for the malignant clone — inflammation feeding the neoplasm."
+  - target: 01-human/03-molecular/nf-kb
+    relation: connects-to
+    note: "Constitutive JAK2 signaling fires it up: the V617F mutation drives chronic NF-κB activation in PV, sustaining the inflammatory cytokine milieu that underlies symptoms, thrombosis risk and fibrotic progression."
+  - target: 01-human/07-system/anemia-of-chronic-disease
+    relation: connects-to
+    note: "The polycythemia can flip to anemia: as PV exhausts into a spent, myelofibrotic phase, marrow fibrosis and chronic inflammation replace the red-cell excess with an anemia carrying a chronic-disease component."
 ---
 
 # Polycythemia Vera
@@ -353,6 +362,9 @@ PV must be distinguished from secondary erythrocytosis (elevated EPO, JAK2 wild-
 - `connects-to` → **[NLRP3 Inflammasome](../../03-molecular/nlrp3-inflammasome/README.md)** — JAK2 inflames as it proliferates: the mutant clone drives NLRP3-inflammasome activation and IL-1β release, the chronic inflammation that fuels PV's thrombosis risk and constitutional symptoms beyond the raised cell counts.
 - `connects-to` → **[Myelodysplastic Syndromes](../mds/README.md)** — The clone can shift toward dysplasia: as it accumulates secondary mutations, polycythemia vera can transform into a myelodysplastic/MDS-like phase on the path to leukemia, especially after cytoreductive therapy.
 - `connects-to` → **[Hypertension](../hypertension/README.md)** — Overcrowded blood pushes the pressure up: the raised red-cell mass and viscosity of PV increase vascular resistance, contributing to hypertension that compounds the disease's cardiovascular and thrombotic risk.
+- `connects-to` → **[TNF-α (Tumor Necrosis Factor-alpha)](../../03-molecular/tnf-alpha/README.md)** — The cytokine that lets the mutant clone win: JAK2-V617F cells are resistant to TNF-α while normal progenitors are suppressed by it, so the high TNF-α of PV actively selects for the malignant clone — inflammation feeding the neoplasm.
+- `connects-to` → **[NF-κB](../../03-molecular/nf-kb/README.md)** — Constitutive JAK2 signaling fires it up: the V617F mutation drives chronic NF-κB activation in PV, sustaining the inflammatory cytokine milieu that underlies symptoms, thrombosis risk and fibrotic progression.
+- `connects-to` → **[Anemia of Chronic Disease](../anemia-of-chronic-disease/README.md)** — The polycythemia can flip to anemia: as PV exhausts into a spent, myelofibrotic phase, marrow fibrosis and chronic inflammation replace the red-cell excess with an anemia carrying a chronic-disease component.
 
 [^vannucchi-2015-response]: Vannucchi AM, Kiladjian JJ, Griesshammer M, et al. Ruxolitinib versus standard therapy for the treatment of polycythemia vera. *N Engl J Med.* 2015;372(5):426-435. [doi:10.1056/NEJMoa1409630](https://doi.org/10.1056/NEJMoa1409630) · [PubMed 25577388](https://pubmed.ncbi.nlm.nih.gov/25577388/)
 [^gisslinger-2020-proud-pv]: Gisslinger H, Gotic M, Holowiecki J, et al. Ropeginterferon alfa-2b versus standard therapy for polycythaemia vera (PROUD-PV and CONTINUATION-PV): a randomised, non-inferiority, phase 3 trial and its extension study. *Lancet Haematol.* 2020;7(3):e196-e208. [doi:10.1016/S2352-3026(19)30236-4](https://doi.org/10.1016/S2352-3026(19)30236-4) · [PubMed 32046833](https://pubmed.ncbi.nlm.nih.gov/32046833/)

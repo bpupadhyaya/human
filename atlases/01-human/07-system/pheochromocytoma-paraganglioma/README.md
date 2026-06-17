@@ -178,6 +178,15 @@ cross_links:
   - target: 01-human/07-system/heart-failure
     relation: connects-to
     note: "Catecholamines can stun the heart: the adrenaline surges of pheochromocytoma cause a catecholamine cardiomyopathy (including takotsubo) that can precipitate acute heart failure, often reversible once the tumor is removed."
+  - target: 01-human/03-molecular/stat3
+    relation: connects-to
+    note: "Some of these tumors secrete IL-6: an IL-6-producing pheochromocytoma can cause fever, weight loss and an inflammatory syndrome driven through JAK-STAT3, a paraneoplastic picture that resolves once the tumor is resected."
+  - target: 01-human/07-system/sepsis
+    relation: connects-to
+    note: "A pheo crisis can masquerade as septic shock: catecholamine storm produces fever, lactic acidosis and multi-organ failure that mimic sepsis, a dangerous mimicry since the usual fluids-and-pressors response can worsen the crisis."
+  - target: 01-human/07-system/ckd
+    relation: connects-to
+    note: "Years of catecholamine hypertension scar the kidney: sustained or paroxysmal pressure surges from the tumor drive hypertensive nephrosclerosis, and the renal damage can persist as chronic kidney disease even after cure."
 ---
 
 # Pheochromocytoma/Paraganglioma
@@ -373,6 +382,9 @@ Active in Cluster 1 (MET/AXL co-expressed in SDH-deficient tumors); Phase 2 CABO
 - `connects-to` → **[EPAS1](../../03-molecular/epas1/README.md)** — EPAS1 anchors the pseudohypoxia cluster: gain-of-function HIF-2α (EPAS1) mutations cause pheochromocytoma/paraganglioma — sometimes with polycythemia (Pacak-Zhuang) — by mimicking a low-oxygen state that drives the tumor.
 - `connects-to` → **[FH](../../03-molecular/fh/README.md)** — Another Krebs-cycle gene joins the cluster: FH mutations, like SDH, flood the cell with an oncometabolite that stabilizes HIF, placing FH-mutant pheochromocytoma/paraganglioma in the pseudohypoxic, often aggressive subgroup.
 - `connects-to` → **[Heart Failure](../heart-failure/README.md)** — Catecholamines can stun the heart: the adrenaline surges of pheochromocytoma cause a catecholamine cardiomyopathy (including takotsubo) that can precipitate acute heart failure, often reversible once the tumor is removed.
+- `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — Some of these tumors secrete IL-6: an IL-6-producing pheochromocytoma can cause fever, weight loss and an inflammatory syndrome driven through JAK-STAT3, a paraneoplastic picture that resolves once the tumor is resected.
+- `connects-to` → **[Sepsis](../sepsis/README.md)** — A pheo crisis can masquerade as septic shock: catecholamine storm produces fever, lactic acidosis and multi-organ failure that mimic sepsis, a dangerous mimicry since the usual fluids-and-pressors response can worsen the crisis.
+- `connects-to` → **[Chronic Kidney Disease](../ckd/README.md)** — Years of catecholamine hypertension scar the kidney: sustained or paroxysmal pressure surges from the tumor drive hypertensive nephrosclerosis, and the renal damage can persist as chronic kidney disease even after cure.
 
 [^lenders-2014-pheo-guideline]: Lenders JW, Duh QY, Eisenhofer G, et al. Pheochromocytoma and paraganglioma: an endocrine society clinical practice guideline. *J Clin Endocrinol Metab.* 2014;99(6):1915-1942. [doi:10.1210/jc.2014-1498](https://doi.org/10.1210/jc.2014-1498) · [PubMed 24893135](https://pubmed.ncbi.nlm.nih.gov/24893135/)
 [^baudin-2021-firstmappp-sunitinib]: Baudin E, Goichot B, Berruti A, et al. First International Randomized Study in Malignant Progressive Pheochromocytoma and Paragangliomas (FIRSTMAPPP). *Ann Oncol.* 2021;32(10):1245-1254. [doi:10.1016/j.annonc.2021.07.009](https://doi.org/10.1016/j.annonc.2021.07.009) · [PubMed 34246769](https://pubmed.ncbi.nlm.nih.gov/34246769/)
