@@ -178,6 +178,15 @@ cross_links:
   - target: 01-human/07-system/stroke
     relation: connects-to
     note: "The kidney tumor can reach the brain: RCC's hypercoagulable state, and rarely tumor embolism from IVC extension through a patent foramen, can cause ischemic stroke alongside its frequent brain metastases."
+  - target: 01-human/03-molecular/il-6
+    relation: connects-to
+    note: "It is a classic IL-6-producing tumor: RCC secretes IL-6, driving a paraneoplastic constitutional syndrome of fever, weight loss and raised inflammatory markers, plus Stauffer's non-metastatic hepatic dysfunction."
+  - target: 01-human/07-system/anemia-of-chronic-disease
+    relation: connects-to
+    note: "Despite an EPO-making kidney, the marrow can lag: the IL-6 and inflammation of RCC raise hepcidin and suppress erythropoiesis, so an anemia of chronic disease is common and paradoxically coexists with the EPO-driven polycythemia in others."
+  - target: 01-human/07-system/sepsis
+    relation: connects-to
+    note: "Surgery and immunotherapy open the door: major nephrectomy in often older patients and the immune perturbations of checkpoint-inhibitor therapy leave advanced-RCC patients vulnerable to serious infection and sepsis."
 ---
 
 # Renal Cell Carcinoma
@@ -350,6 +359,9 @@ Kidney → primary site of EPO production under hypoxia; VHL-intact renal inters
 - `connects-to` → **[Endothelial Cell](../../04-cellular/endothelial-cell/README.md)** — RCC is one of the most vascular of tumors: VHL loss floods it with VEGF, recruiting endothelial cells into a dense blood supply that makes the tumor highly enhancing on imaging and exquisitely sensitive to anti-angiogenic drugs.
 - `connects-to` → **[Venous Thromboembolism](../venous-thromboembolism/README.md)** — Beyond its tumor thrombus, RCC clots the blood: it carries a high rate of bland venous thromboembolism (Trousseau), so deep-vein thrombosis and pulmonary embolism complicate the disease and its surgery.
 - `connects-to` → **[Stroke](../stroke/README.md)** — The kidney tumor can reach the brain: RCC's hypercoagulable state, and rarely tumor embolism from IVC extension through a patent foramen, can cause ischemic stroke alongside its frequent brain metastases.
+- `connects-to` → **[Interleukin-6](../../03-molecular/il-6/README.md)** — It is a classic IL-6-producing tumor: RCC secretes IL-6, driving a paraneoplastic constitutional syndrome of fever, weight loss and raised inflammatory markers, plus Stauffer's non-metastatic hepatic dysfunction.
+- `connects-to` → **[Anemia of Chronic Disease](../anemia-of-chronic-disease/README.md)** — Despite an EPO-making kidney, the marrow can lag: the IL-6 and inflammation of RCC raise hepcidin and suppress erythropoiesis, so an anemia of chronic disease is common and paradoxically coexists with the EPO-driven polycythemia in others.
+- `connects-to` → **[Sepsis](../sepsis/README.md)** — Surgery and immunotherapy open the door: major nephrectomy in often older patients and the immune perturbations of checkpoint-inhibitor therapy leave advanced-RCC patients vulnerable to serious infection and sepsis.
 
 [^motzer-2018-checkmate214]: Motzer RJ, Tannir NM, McDermott DF, et al. Nivolumab plus ipilimumab versus sunitinib in advanced renal-cell carcinoma. *N Engl J Med.* 2018;378(14):1277-1290. [doi:10.1056/NEJMoa1712126](https://doi.org/10.1056/NEJMoa1712126) · [PubMed 29562145](https://pubmed.ncbi.nlm.nih.gov/29562145/)
 [^rini-2019-keynote426]: Rini BI, Plimack ER, Stus V, et al. Pembrolizumab plus axitinib versus sunitinib for advanced renal-cell carcinoma. *N Engl J Med.* 2019;380(12):1116-1127. [doi:10.1056/NEJMoa1816714](https://doi.org/10.1056/NEJMoa1816714) · [PubMed 30779529](https://pubmed.ncbi.nlm.nih.gov/30779529/)

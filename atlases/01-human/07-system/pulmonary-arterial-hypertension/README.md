@@ -184,6 +184,15 @@ cross_links:
   - target: 01-human/07-system/stimulant-use-disorder
     relation: connects-to
     note: "Stimulants can scar the lung vessels: methamphetamine and other stimulants are an established cause of pulmonary arterial hypertension, producing a drug-induced form indistinguishable from the idiopathic disease."
+  - target: 01-human/03-molecular/stat3
+    relation: connects-to
+    note: "IL-6 remodels the vessel through it: the elevated IL-6 of PAH signals via JAK-STAT3 in pulmonary artery smooth muscle and endothelium, driving the proliferative obliteration of small vessels that raises pressure."
+  - target: 01-human/07-system/ckd
+    relation: connects-to
+    note: "A failing right heart backs up into the kidneys: the venous congestion and low output of advanced PAH and cor pulmonale impair renal perfusion, a cardiorenal mechanism that drives chronic kidney disease."
+  - target: 01-human/07-system/anemia-of-chronic-disease
+    relation: connects-to
+    note: "Chronic inflammation drags the hemoglobin down: the IL-6 milieu of PAH raises hepcidin and blunts erythropoiesis, and the resulting anemia of chronic disease worsens oxygen delivery and is a marker of poor prognosis."
 ---
 
 # Pulmonary Arterial Hypertension
@@ -362,6 +371,9 @@ Key variables: WHO functional class (I-IV), 6-minute walk distance (6MWD), NT-pr
 - `connects-to` → **[NLRP3 Inflammasome](../../03-molecular/nlrp3-inflammasome/README.md)** — The inflammasome stokes vascular remodeling: NLRP3-driven IL-1β release in the pulmonary artery wall promotes the perivascular inflammation and smooth-muscle proliferation that narrow the vessels in PAH.
 - `connects-to` → **[Thalassemia](../thalassemia/README.md)** — Chronic hemolysis drives pulmonary hypertension: like sickle cell disease, thalassemia releases cell-free hemoglobin that scavenges nitric oxide, and with post-splenectomy thrombosis it produces a hemolysis-associated PAH.
 - `connects-to` → **[Stimulant Use Disorder](../stimulant-use-disorder/README.md)** — Stimulants can scar the lung vessels: methamphetamine and other stimulants are an established cause of pulmonary arterial hypertension, producing a drug-induced form indistinguishable from the idiopathic disease.
+- `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — IL-6 remodels the vessel through it: the elevated IL-6 of PAH signals via JAK-STAT3 in pulmonary artery smooth muscle and endothelium, driving the proliferative obliteration of small vessels that raises pressure.
+- `connects-to` → **[Chronic Kidney Disease](../ckd/README.md)** — A failing right heart backs up into the kidneys: the venous congestion and low output of advanced PAH and cor pulmonale impair renal perfusion, a cardiorenal mechanism that drives chronic kidney disease.
+- `connects-to` → **[Anemia of Chronic Disease](../anemia-of-chronic-disease/README.md)** — Chronic inflammation drags the hemoglobin down: the IL-6 milieu of PAH raises hepcidin and blunts erythropoiesis, and the resulting anemia of chronic disease worsens oxygen delivery and is a marker of poor prognosis.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
