@@ -178,6 +178,15 @@ cross_links:
   - target: 01-human/07-system/aplastic-anemia
     relation: connects-to
     note: "Marrow failure poses the differential: a hypocellular CMML can resemble aplastic anemia on biopsy, so monocytosis, dysplasia, and clonal mutations are what separate a proliferating clone from an empty, failing marrow."
+  - target: 01-human/03-molecular/stat3
+    relation: connects-to
+    note: "CMML cells are hypersensitive to GM-CSF through JAK-STAT: the clone's exaggerated response to GM-CSF activates STAT signaling including STAT3/STAT5, a dependency that makes the JAK-STAT axis a therapeutic target."
+  - target: 01-human/07-system/sepsis
+    relation: connects-to
+    note: "Plentiful but dysfunctional monocytes still fail: despite the monocytosis, the cells of CMML work poorly and the disease causes neutropenia, so infection and sepsis are a leading cause of death."
+  - target: 01-human/07-system/venous-thromboembolism
+    relation: connects-to
+    note: "A myeloid neoplasm that can clot: like other MDS/MPN-overlap disorders, CMML carries an increased thrombosis risk through its abnormal, activated myeloid cells and inflammatory milieu."
 ---
 
 # Chronic Myelomonocytic Leukemia
@@ -357,6 +366,9 @@ CMML → AML transformation (~15-30% at 5 years): Treat as secondary AML; CPX-35
 - `connects-to` → **[NLRP3 Inflammasome](../../03-molecular/nlrp3-inflammasome/README.md)** — The clone is wired to inflame: NLRP3-driven IL-1β release from the dysplastic monocytes underlies the autoinflammatory state of CMML, linking the somatic mutations to the fevers and tissue inflammation that accompany the cytopenias.
 - `connects-to` → **[Polycythemia Vera](../polycythemia-vera/README.md)** — CMML straddles the myeloid divide: as an MDS/MPN-overlap neoplasm it shares proliferative features with classic MPNs like polycythemia vera, the proliferative subtype showing the high counts and splenomegaly of its MPN cousins.
 - `connects-to` → **[Aplastic Anemia](../aplastic-anemia/README.md)** — Marrow failure poses the differential: a hypocellular CMML can resemble aplastic anemia on biopsy, so monocytosis, dysplasia, and clonal mutations are what separate a proliferating clone from an empty, failing marrow.
+- `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — CMML cells are hypersensitive to GM-CSF through JAK-STAT: the clone's exaggerated response to GM-CSF activates STAT signaling including STAT3/STAT5, a dependency that makes the JAK-STAT axis a therapeutic target.
+- `connects-to` → **[Sepsis](../sepsis/README.md)** — Plentiful but dysfunctional monocytes still fail: despite the monocytosis, the cells of CMML work poorly and the disease causes neutropenia, so infection and sepsis are a leading cause of death.
+- `connects-to` → **[Venous Thromboembolism](../venous-thromboembolism/README.md)** — A myeloid neoplasm that can clot: like other MDS/MPN-overlap disorders, CMML carries an increased thrombosis risk through its abnormal, activated myeloid cells and inflammatory milieu.
 
 ---
 

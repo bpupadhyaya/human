@@ -184,6 +184,15 @@ cross_links:
   - target: 01-human/07-system/venous-thromboembolism
     relation: connects-to
     note: "Exacerbations carry hidden clots: COPD raises the risk of pulmonary embolism, and a PE can both mimic and precipitate an exacerbation, so unexplained worsening prompts a search for venous thromboembolism."
+  - target: 01-human/03-molecular/nf-kb
+    relation: connects-to
+    note: "Cigarette smoke throws the airway's inflammation switch: oxidants and irritants activate NF-κB in bronchial epithelium and macrophages, driving the cytokine and protease output that destroys alveoli and scars airways in COPD."
+  - target: 01-human/07-system/sepsis
+    relation: connects-to
+    note: "Exacerbations can spiral into systemic infection: bacterial and viral exacerbations cause pneumonia and respiratory failure, and in frail COPD patients these can progress to sepsis requiring critical care."
+  - target: 01-human/07-system/anemia-of-chronic-disease
+    relation: connects-to
+    note: "Chronic lung inflammation blunts the marrow: although hypoxia can raise red cells, the systemic inflammation of COPD often instead produces an anemia of chronic disease that worsens breathlessness and exercise tolerance."
 ---
 
 # COPD
@@ -382,6 +391,9 @@ COPD encompasses two overlapping pathological processes:
 - `connects-to` → **[HIF-1alpha](../../03-molecular/hif-1alpha/README.md)** — Chronic hypoxia switches on HIF-1α: low alveolar oxygen in advanced COPD stabilizes this transcription factor, driving the erythropoietin-fueled secondary polycythemia and the pulmonary-vascular remodeling that ends in cor pulmonale.
 - `connects-to` → **[Aspergillus fumigatus](../../../02-pathogen/03-fungi/aspergillus-fumigatus/README.md)** — Damaged airways invite Aspergillus: structurally altered COPD lungs and inhaled-steroid use foster Aspergillus colonization, sensitization, and occasionally chronic or invasive pulmonary aspergillosis that worsens the disease.
 - `connects-to` → **[Venous Thromboembolism](../venous-thromboembolism/README.md)** — Exacerbations carry hidden clots: COPD raises the risk of pulmonary embolism, and a PE can both mimic and precipitate an exacerbation, so unexplained worsening prompts a search for venous thromboembolism.
+- `connects-to` → **[NF-κB](../../03-molecular/nf-kb/README.md)** — Cigarette smoke throws the airway's inflammation switch: oxidants and irritants activate NF-κB in bronchial epithelium and macrophages, driving the cytokine and protease output that destroys alveoli and scars airways in COPD.
+- `connects-to` → **[Sepsis](../sepsis/README.md)** — Exacerbations can spiral into systemic infection: bacterial and viral exacerbations cause pneumonia and respiratory failure, and in frail COPD patients these can progress to sepsis requiring critical care.
+- `connects-to` → **[Anemia of Chronic Disease](../anemia-of-chronic-disease/README.md)** — Chronic lung inflammation blunts the marrow: although hypoxia can raise red cells, the systemic inflammation of COPD often instead produces an anemia of chronic disease that worsens breathlessness and exercise tolerance.
 
 ---
 
