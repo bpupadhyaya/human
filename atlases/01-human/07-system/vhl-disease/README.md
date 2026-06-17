@@ -196,6 +196,15 @@ cross_links:
   - target: 01-human/07-system/neuropathic-pain
     relation: connects-to
     note: "Spinal hemangioblastomas press on the cord: VHL's recurrent tumors of the spinal cord and nerve roots compress neural tissue, producing chronic neuropathic pain and sensory loss alongside weakness."
+  - target: 01-human/07-system/anemia-of-chronic-disease
+    relation: connects-to
+    note: "Its HIF-2α inhibitor flips erythropoiesis to anemia: belzutifan, used to shrink VHL tumours, blocks the HIF pathway that drives EPO, commonly causing anemia — the mirror image of VHL's polycythemia."
+  - target: 01-human/07-system/wound-healing
+    relation: connects-to
+    note: "A lifetime of tumour surgery means a lifetime of wounds: the repeated craniotomies, spinal operations and partial nephrectomies VHL demands leave many surgical wounds that must heal over the years."
+  - target: 01-human/07-system/generalized-anxiety-disorder
+    relation: connects-to
+    note: "Endless tumours in many organs breed worry: the lifelong surveillance of brain, eye, kidney, adrenal and pancreas and the certainty of new tumours in VHL foster chronic health anxiety alongside depression."
 ---
 
 # VHL Disease
@@ -377,6 +386,9 @@ The genotype-phenotype correlation reflects the degree of pVHL function retained
 - `connects-to` → **[Heart Failure](../heart-failure/README.md)** — Its pheochromocytomas can flood and stun the heart: the catecholamine-secreting adrenal tumors of VHL drive paroxysmal hypertension and can precipitate a catecholamine cardiomyopathy, a route toward acute heart failure.
 - `connects-to` → **[Type 2 Diabetes](../type-2-diabetes/README.md)** — Pancreatic tumors and surgery disturb glucose: VHL's pancreatic neuroendocrine tumors and cysts, and the resections they require, can damage islet function enough to produce diabetes.
 - `connects-to` → **[Neuropathic Pain](../neuropathic-pain/README.md)** — Spinal hemangioblastomas press on the cord: VHL's recurrent tumors of the spinal cord and nerve roots compress neural tissue, producing chronic neuropathic pain and sensory loss alongside weakness.
+- `connects-to` → **[Anemia of Chronic Disease](../anemia-of-chronic-disease/README.md)** — Its HIF-2α inhibitor flips erythropoiesis to anemia: belzutifan, used to shrink VHL tumours, blocks the HIF pathway that drives EPO, commonly causing anemia — the mirror image of VHL's polycythemia.
+- `connects-to` → **[Wound Healing](../wound-healing/README.md)** — A lifetime of tumour surgery means a lifetime of wounds: the repeated craniotomies, spinal operations and partial nephrectomies VHL demands leave many surgical wounds that must heal over the years.
+- `connects-to` → **[Generalized Anxiety Disorder](../generalized-anxiety-disorder/README.md)** — Endless tumours in many organs breed worry: the lifelong surveillance of brain, eye, kidney, adrenal and pancreas and the certainty of new tumours in VHL foster chronic health anxiety alongside depression.
 
 [^lonser-2003-vhl-disease]: Lonser RR, Glenn GM, Walther M, et al. von Hippel-Lindau disease. *Lancet.* 2003;361(9374):2059-2067. [doi:10.1016/S0140-6736(03)13643-4](https://doi.org/10.1016/S0140-6736(03)13643-4) · [PubMed 12814730](https://pubmed.ncbi.nlm.nih.gov/12814730/)
 [^choueiri-2020-hif2-rcc]: Choueiri TK, Kaelin WG Jr. Targeting the HIF2-VEGF axis in renal cell carcinoma. *Nat Med.* 2020;26(10):1519-1530. [doi:10.1038/s41591-020-1093-z](https://doi.org/10.1038/s41591-020-1093-z) · [PubMed 33020650](https://pubmed.ncbi.nlm.nih.gov/33020650/)

@@ -196,6 +196,15 @@ cross_links:
   - target: 01-human/07-system/ckd
     relation: connects-to
     note: "Checkpoint immunotherapy can scar the kidneys: the PD-1 and CTLA-4 inhibitors given for advanced uveal melanoma can provoke an immune-mediated interstitial nephritis that, if it recurs, leaves chronic kidney impairment."
+  - target: 01-human/07-system/digestive-system
+    relation: connects-to
+    note: "It spreads almost only to the liver: uveal melanoma is strikingly hepatotropic, with the great majority of metastases lodging in the liver, so surveillance and treatment centre on hepatic disease."
+  - target: 01-human/07-system/wound-healing
+    relation: connects-to
+    note: "Enucleation is a healing challenge: removing the eye for a large uveal melanoma and fitting an orbital implant leaves a socket that must heal, and any prior plaque brachytherapy compromises the tissue."
+  - target: 01-human/07-system/generalized-anxiety-disorder
+    relation: connects-to
+    note: "Vision loss and lifelong liver-metastasis surveillance breed worry: the threat of late hepatic spread years after treatment and the loss of an eye foster chronic health anxiety alongside depression."
 ---
 
 # Uveal Melanoma
@@ -392,6 +401,9 @@ Uveal melanocytes are neural crest-derived, residing in the uveal stroma and mai
 - `connects-to` → **[Type 1 Diabetes](../type-1-diabetes/README.md)** — Its immunotherapy can trigger autoimmune diabetes: the checkpoint inhibitors and tebentafusp used in metastatic uveal melanoma can unleash autoimmunity against pancreatic islets, causing fulminant insulin-dependent diabetes.
 - `connects-to` → **[Heart Failure](../heart-failure/README.md)** — Immune-activating therapy can inflame the heart: checkpoint inhibitors used against metastatic uveal melanoma occasionally cause myocarditis, and tebentafusp's cytokine release stresses the circulation, both routes toward acute heart failure.
 - `connects-to` → **[Chronic Kidney Disease](../ckd/README.md)** — Checkpoint immunotherapy can scar the kidneys: the PD-1 and CTLA-4 inhibitors given for advanced uveal melanoma can provoke an immune-mediated interstitial nephritis that, if it recurs, leaves chronic kidney impairment.
+- `connects-to` → **[Digestive System](../digestive-system/README.md)** — It spreads almost only to the liver: uveal melanoma is strikingly hepatotropic, with the great majority of metastases lodging in the liver, so surveillance and treatment centre on hepatic disease.
+- `connects-to` → **[Wound Healing](../wound-healing/README.md)** — Enucleation is a healing challenge: removing the eye for a large uveal melanoma and fitting an orbital implant leaves a socket that must heal, and any prior plaque brachytherapy compromises the tissue.
+- `connects-to` → **[Generalized Anxiety Disorder](../generalized-anxiety-disorder/README.md)** — Vision loss and lifelong liver-metastasis surveillance breed worry: the threat of late hepatic spread years after treatment and the loss of an eye foster chronic health anxiety alongside depression.
 
 ---
 
