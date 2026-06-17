@@ -178,6 +178,15 @@ cross_links:
   - target: 01-human/07-system/sepsis
     relation: connects-to
     note: "Intensive chemo opens the door to infection: the multidrug regimens that cure most Wilms tumors cause neutropenia, so febrile neutropenia and sepsis are recurrent treatment hazards in these young children."
+  - target: 01-human/07-system/ckd
+    relation: connects-to
+    note: "Losing a kidney leaves the other to compensate: nephrectomy for Wilms tumor, and bilateral or syndromic disease especially, reduces nephron mass, so hyperfiltration injury and chronic kidney disease are long-term survivor concerns."
+  - target: 01-human/07-system/heart-failure
+    relation: connects-to
+    note: "Its anthracycline scars the heart: doxorubicin used in higher-stage Wilms tumor is cardiotoxic, and the cumulative dose can cause a dose-dependent cardiomyopathy and heart failure that may surface years into survivorship."
+  - target: 01-human/07-system/anemia-of-chronic-disease
+    relation: connects-to
+    note: "Tumor and chemo blunt the marrow: an advanced Wilms tumor's inflammatory burden plus myelosuppressive chemotherapy depress erythropoiesis, adding an anemia-of-chronic-disease component to treatment-related cytopenias."
 ---
 
 # Wilms Tumor
@@ -360,6 +369,9 @@ Wilms tumor survivors face late effects proportional to treatment intensity:
 - `connects-to` → **[Venous Thromboembolism](../venous-thromboembolism/README.md)** — It grows a clot up the great veins: Wilms tumor characteristically extends as a tumor thrombus into the renal vein and inferior vena cava, sometimes reaching the heart — a vascular invasion that must be mapped before surgery.
 - `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — STAT3 supports the blastemal cells: the chemoresistant blastemal component of Wilms tumor shows STAT3 activation that backs its proliferation, a pathway studied in the anaplastic cases that escape standard therapy.
 - `connects-to` → **[Sepsis](../sepsis/README.md)** — Intensive chemo opens the door to infection: the multidrug regimens that cure most Wilms tumors cause neutropenia, so febrile neutropenia and sepsis are recurrent treatment hazards in these young children.
+- `connects-to` → **[Chronic Kidney Disease](../ckd/README.md)** — Losing a kidney leaves the other to compensate: nephrectomy for Wilms tumor, and bilateral or syndromic disease especially, reduces nephron mass, so hyperfiltration injury and chronic kidney disease are long-term survivor concerns.
+- `connects-to` → **[Heart Failure](../heart-failure/README.md)** — Its anthracycline scars the heart: doxorubicin used in higher-stage Wilms tumor is cardiotoxic, and the cumulative dose can cause a dose-dependent cardiomyopathy and heart failure that may surface years into survivorship.
+- `connects-to` → **[Anemia of Chronic Disease](../anemia-of-chronic-disease/README.md)** — Tumor and chemo blunt the marrow: an advanced Wilms tumor's inflammatory burden plus myelosuppressive chemotherapy depress erythropoiesis, adding an anemia-of-chronic-disease component to treatment-related cytopenias.
 
 [^dome-2015-wilms]: Dome JS, Graf N, Geller JI, et al. Advances in Wilms tumor treatment and biology: progress through international collaboration. *J Clin Oncol.* 2015;33(27):2999-3007. [doi:10.1200/JCO.2015.62.1888](https://doi.org/10.1200/JCO.2015.62.1888) · [PubMed 26261251](https://pubmed.ncbi.nlm.nih.gov/26261251/)
 [^dix-2006-arenl0002]: Dix DB, Bhatt SM, Geller JI, et al. Treatment of Stage IV favorable histology Wilms tumor with incomplete lung metastasis response after chemotherapy: a report from Children's Oncology Group Study AREN0533. *J Clin Oncol.* 2018;36(16):1564-1570. [doi:10.1200/JCO.2017.77.1877](https://doi.org/10.1200/JCO.2017.77.1877) · [PubMed 29584550](https://pubmed.ncbi.nlm.nih.gov/29584550/)

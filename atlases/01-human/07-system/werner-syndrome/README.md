@@ -178,6 +178,15 @@ cross_links:
   - target: 01-human/07-system/venous-thromboembolism
     relation: connects-to
     note: "Aged vessels and inactivity invite clots: Werner's accelerated atherosclerosis, leg ulcers and reduced mobility combine into a prothrombotic state that raises the risk of deep-vein thrombosis."
+  - target: 01-human/07-system/stroke
+    relation: connects-to
+    note: "Premature atherosclerosis reaches the brain: the accelerated vascular aging of Werner syndrome drives early cerebrovascular disease, making ischemic stroke — alongside myocardial infarction — a leading cause of its shortened lifespan."
+  - target: 01-human/07-system/heart-failure
+    relation: connects-to
+    note: "The aged heart fails early: decades-premature coronary atherosclerosis and ischemic damage in Werner syndrome lead to early myocardial infarction and heart failure, the cardiovascular disease that is its commonest cause of death."
+  - target: 01-human/07-system/mds
+    relation: connects-to
+    note: "Genome instability courts the marrow: the WRN helicase defect predisposes Werner patients to myelodysplastic syndromes and other myeloid neoplasms, part of the broad cancer spectrum its impaired DNA repair produces."
 ---
 
 # Werner Syndrome
@@ -394,6 +403,9 @@ cross_links:
 - `connects-to` → **[NF-κB](../../03-molecular/nf-kb/README.md)** — NF-κB is the master switch behind that inflammation: it is the transcription factor that drives the senescence-associated secretory phenotype, so WRN loss accelerates senescence and tips NF-κB toward the chronic inflammatory output of Werner.
 - `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — STAT3 amplifies the senescent secretome: responding to the IL-6 that senescent Werner cells release, STAT3 signaling helps sustain the inflammatory loop that propagates premature aging through the tissues.
 - `connects-to` → **[Venous Thromboembolism](../venous-thromboembolism/README.md)** — Aged vessels and inactivity invite clots: Werner's accelerated atherosclerosis, leg ulcers and reduced mobility combine into a prothrombotic state that raises the risk of deep-vein thrombosis.
+- `connects-to` → **[Stroke](../stroke/README.md)** — Premature atherosclerosis reaches the brain: the accelerated vascular aging of Werner syndrome drives early cerebrovascular disease, making ischemic stroke — alongside myocardial infarction — a leading cause of its shortened lifespan.
+- `connects-to` → **[Heart Failure](../heart-failure/README.md)** — The aged heart fails early: decades-premature coronary atherosclerosis and ischemic damage in Werner syndrome lead to early myocardial infarction and heart failure, the cardiovascular disease that is its commonest cause of death.
+- `connects-to` → **[Myelodysplastic Syndromes](../mds/README.md)** — Genome instability courts the marrow: the WRN helicase defect predisposes Werner patients to myelodysplastic syndromes and other myeloid neoplasms, part of the broad cancer spectrum its impaired DNA repair produces.
 
 [^yu-1996-wrn]: Yu CE, Oshima J, Fu YH, et al. Positional cloning of the Werner's syndrome gene. *Science.* 1996;272(5259):258-262. [doi:10.1126/science.272.5259.258](https://doi.org/10.1126/science.272.5259.258) · [PubMed 8602509](https://pubmed.ncbi.nlm.nih.gov/8602509/)
 [^lauper-2013-wrn-neoplasia]: Lauper JM, Krause A, Vaughan TL, Monnat RJ Jr. Spectrum and risk of neoplasia in Werner syndrome: a systematic review. *PLoS One.* 2013;8(4):e59709. [doi:10.1371/journal.pone.0059709](https://doi.org/10.1371/journal.pone.0059709) · [PubMed 23579047](https://pubmed.ncbi.nlm.nih.gov/23579047/)
