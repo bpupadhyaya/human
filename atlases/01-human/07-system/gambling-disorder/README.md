@@ -162,6 +162,15 @@ cross_links:
   - target: 01-human/03-molecular/nlrp3-inflammasome
     relation: connects-to
     note: "Even behavioral addiction shows an inflammatory edge: chronic stress and reward dysregulation in gambling activate inflammasome and cytokine pathways, the same neuroinflammation increasingly tied to substance addictions."
+  - target: 01-human/07-system/schizophrenia
+    relation: connects-to
+    note: "It is over-represented in psychosis: problem and disordered gambling occur at elevated rates in schizophrenia, where impaired reward processing and impulsivity, sometimes worsened by dopaminergic medication, fuel the behavior."
+  - target: 01-human/07-system/panic-disorder
+    relation: connects-to
+    note: "Anxiety rides with the compulsion: panic disorder and other anxiety conditions commonly accompany gambling disorder, with some gamblers chasing relief from acute anxiety even as losses deepen it."
+  - target: 01-human/07-system/anorexia-nervosa
+    relation: connects-to
+    note: "It shares the impulse-control spectrum with eating disorders: gambling disorder co-occurs with anorexia and other eating disorders, all marked by rigid, harmful behavior pursued despite escalating cost."
 sources:
   - id: grant-2016-gambling-review
     type: peer-reviewed
@@ -356,6 +365,9 @@ Persistent and recurrent problematic gambling behavior causing distress (≥4 of
 - `connects-to` → **[Oxytocin](../../03-molecular/oxytocin/README.md)** — A social-bonding hormone touches the urge: oxytocin modulates reward, stress and impulsivity in the same circuits gambling hijacks, and it is studied as a way to dampen craving in behavioral addictions.
 - `connects-to` → **[Bulimia Nervosa](../bulimia-nervosa/README.md)** — It shares the loss-of-control core: gambling disorder overlaps the impulse-control and binge spectrum of bulimia, both marked by repeated behavior that feels uncontrollable despite mounting harm.
 - `connects-to` → **[NLRP3 Inflammasome](../../03-molecular/nlrp3-inflammasome/README.md)** — Even behavioral addiction shows an inflammatory edge: chronic stress and reward dysregulation in gambling activate inflammasome and cytokine pathways, the same neuroinflammation increasingly tied to substance addictions.
+- `connects-to` → **[Schizophrenia](../schizophrenia/README.md)** — It is over-represented in psychosis: problem and disordered gambling occur at elevated rates in schizophrenia, where impaired reward processing and impulsivity, sometimes worsened by dopaminergic medication, fuel the behavior.
+- `connects-to` → **[Panic Disorder](../panic-disorder/README.md)** — Anxiety rides with the compulsion: panic disorder and other anxiety conditions commonly accompany gambling disorder, with some gamblers chasing relief from acute anxiety even as losses deepen it.
+- `connects-to` → **[Anorexia Nervosa](../anorexia-nervosa/README.md)** — It shares the impulse-control spectrum with eating disorders: gambling disorder co-occurs with anorexia and other eating disorders, all marked by rigid, harmful behavior pursued despite escalating cost.
 
 [^potenza-2014-gambling-neuroscience]: Potenza MN. The neurobiology of pathological gambling and drug addiction: an overview and new findings. *Philos Trans R Soc Lond B Biol Sci.* 2008;363(1507):3181-3189. [doi:10.1098/rstb.2008.0100](https://doi.org/10.1098/rstb.2008.0100) · [PubMed 18640909](https://pubmed.ncbi.nlm.nih.gov/18640909/)
 [^grant-2016-gambling-review]: Grant JE, Chamberlain SR. Gambling disorder and its relationship with substance use disorders. *Am J Addict.* 2015;24(2):126-131. [doi:10.1111/ajad.12112](https://doi.org/10.1111/ajad.12112) · [PubMed 25376793](https://pubmed.ncbi.nlm.nih.gov/25376793/)

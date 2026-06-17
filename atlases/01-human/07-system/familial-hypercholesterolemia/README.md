@@ -181,6 +181,15 @@ cross_links:
   - target: 01-human/03-molecular/thyroid-hormones
     relation: connects-to
     note: "The thyroid sets LDL-receptor levels: thyroid hormone drives expression of the very receptor FH lacks, so hypothyroidism worsens the cholesterol and must be corrected before judging the genetic disease's severity."
+  - target: 01-human/04-cellular/cardiomyocyte
+    relation: connects-to
+    note: "The heart muscle pays for the genes: lifelong sky-high LDL gives FH patients premature coronary disease and heart attacks, killing cardiomyocytes decades early — the reason untreated homozygous FH can be fatal in childhood."
+  - target: 01-human/04-cellular/dendritic-cell
+    relation: connects-to
+    note: "Immune cells gorge on the excess cholesterol: dendritic cells and macrophages in the artery wall engulf oxidized LDL to become lipid-laden foam cells and present lipid antigens, an immune arm of the atherogenesis FH accelerates."
+  - target: 01-human/07-system/venous-thromboembolism
+    relation: connects-to
+    note: "Its prothrombotic milieu reaches the veins too: beyond arterial disease, the raised fibrinogen and endothelial dysfunction of severe hypercholesterolemia are linked to a modestly higher risk of venous thromboembolism."
 ---
 
 # Familial Hypercholesterolemia
@@ -343,6 +352,9 @@ FH is a **monogenic autosomal dominant disorder** caused by mutations in three g
 - `connects-to` → **[NF-κB](../../03-molecular/nf-kb/README.md)** — Trapped LDL ignites a master inflammatory switch: oxidized lipid in the artery wall activates NF-κB in endothelial cells and macrophages, turning on the adhesion molecules and chemokines that recruit the inflammation accelerating FH's plaques.
 - `connects-to` → **[Mast Cell](../../04-cellular/mast-cell/README.md)** — Mast cells lurk in the plaque: they cluster in atherosclerotic lesions and release proteases and mediators that destabilize the fibrous cap, contributing to the rupture risk behind FH's early heart attacks.
 - `connects-to` → **[Thyroid Hormones (T3/T4)](../../03-molecular/thyroid-hormones/README.md)** — The thyroid sets LDL-receptor levels: thyroid hormone drives expression of the very receptor FH lacks, so hypothyroidism worsens the cholesterol and must be corrected before judging the genetic disease's severity.
+- `connects-to` → **[Cardiomyocyte](../../04-cellular/cardiomyocyte/README.md)** — The heart muscle pays for the genes: lifelong sky-high LDL gives FH patients premature coronary disease and heart attacks, killing cardiomyocytes decades early — the reason untreated homozygous FH can be fatal in childhood.
+- `connects-to` → **[Dendritic Cell](../../04-cellular/dendritic-cell/README.md)** — Immune cells gorge on the excess cholesterol: dendritic cells and macrophages in the artery wall engulf oxidized LDL to become lipid-laden foam cells and present lipid antigens, an immune arm of the atherogenesis FH accelerates.
+- `connects-to` → **[Venous Thromboembolism](../venous-thromboembolism/README.md)** — Its prothrombotic milieu reaches the veins too: beyond arterial disease, the raised fibrinogen and endothelial dysfunction of severe hypercholesterolemia are linked to a modestly higher risk of venous thromboembolism.
 
 [^goldstein-1985-ldlr-nobel]: Goldstein JL, Brown MS. The LDL receptor. *Arterioscler Thromb Vasc Biol.* 2009;29(4):431-438. [doi:10.1161/ATVBAHA.108.179564](https://doi.org/10.1161/ATVBAHA.108.179564) · [PubMed 19299327](https://pubmed.ncbi.nlm.nih.gov/19299327/)
 [^raal-2020-inclisiran-fh]: Raal FJ, Kallend D, Ray KK, et al. Inclisiran for the Treatment of Heterozygous Familial Hypercholesterolemia. *N Engl J Med.* 2020;382(16):1520-1530. [doi:10.1056/NEJMoa1913805](https://doi.org/10.1056/NEJMoa1913805) · [PubMed 32197277](https://pubmed.ncbi.nlm.nih.gov/32197277/)
