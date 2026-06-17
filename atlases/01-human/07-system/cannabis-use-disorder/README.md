@@ -168,6 +168,15 @@ cross_links:
   - target: 01-human/07-system/respiratory-system
     relation: connects-to
     note: "Smoked cannabis taxes the whole airway: beyond bronchitis, habitual smoking deposits tar and irritants throughout the respiratory system, raising cough, wheeze and the risk of chronic airway disease."
+  - target: 02-pathogen/03-fungi/aspergillus-fumigatus
+    relation: connects-to
+    note: "Mold on the plant can reach the lung: cannabis is frequently contaminated with Aspergillus spores, and smoking it has caused invasive pulmonary aspergillosis in immunocompromised users, a hazard behind calls for product testing."
+  - target: 01-human/07-system/asthma
+    relation: connects-to
+    note: "Inhaled smoke and irritants can trigger bronchospasm: smoked cannabis introduces particulates and allergens that provoke cough and wheeze, and can precipitate acute bronchospasm in people with asthma."
+  - target: 01-human/07-system/social-anxiety-disorder
+    relation: connects-to
+    note: "People self-medicate social fear with it: cannabis is commonly used to ease social anxiety, a self-medication that fosters dependence while heavy use can in turn worsen anxiety, a bidirectional and reinforcing link."
 sources:
   - id: hasin-2015-cannabis-disorder
     type: peer-reviewed
@@ -373,6 +382,9 @@ Paradoxical syndrome in heavy long-term users: cyclic vomiting relieved by hot b
 - `connects-to` → **[Norepinephrine](../../03-molecular/norepinephrine/README.md)** — Withdrawal turns up the noradrenaline: stopping heavy cannabis triggers a noradrenergic rebound — irritability, restlessness, sweating and a racing heart — as the sympathetic system, long damped by daily THC, surges back.
 - `connects-to` → **[Nervous System](../nervous-system/README.md)** — It acts on the brain's own cannabinoid network: THC hijacks the endocannabinoid signaling that tunes neurotransmission across the nervous system, the basis of its effects on memory, mood, coordination and reward.
 - `connects-to` → **[Respiratory system](../respiratory-system/README.md)** — Smoked cannabis taxes the whole airway: beyond bronchitis, habitual smoking deposits tar and irritants throughout the respiratory system, raising cough, wheeze and the risk of chronic airway disease.
+- `connects-to` → **[Aspergillus fumigatus](../../../02-pathogen/03-fungi/aspergillus-fumigatus/README.md)** — Mold on the plant can reach the lung: cannabis is frequently contaminated with Aspergillus spores, and smoking it has caused invasive pulmonary aspergillosis in immunocompromised users, a hazard behind calls for product testing.
+- `connects-to` → **[Asthma](../asthma/README.md)** — Inhaled smoke and irritants can trigger bronchospasm: smoked cannabis introduces particulates and allergens that provoke cough and wheeze, and can precipitate acute bronchospasm in people with asthma.
+- `connects-to` → **[Social Anxiety Disorder](../social-anxiety-disorder/README.md)** — People self-medicate social fear with it: cannabis is commonly used to ease social anxiety, a self-medication that fosters dependence while heavy use can in turn worsen anxiety, a bidirectional and reinforcing link.
 
 [^hasin-2015-cannabis-disorder]: Hasin DS, Saha TD, Kerridge BT, et al. Prevalence of marijuana use disorders in the United States between 2001-2002 and 2012-2013. *JAMA Psychiatry.* 2015;72(12):1235-1242. [doi:10.1001/jamapsychiatry.2015.1858](https://doi.org/10.1001/jamapsychiatry.2015.1858) · [PubMed 26502112](https://pubmed.ncbi.nlm.nih.gov/26502112/)
 [^budney-2004-cannabis-withdrawal]: Budney AJ, Moore BA, Vandrey RG, Hughes JR. The time course and significance of cannabis withdrawal. *J Abnorm Psychol.* 2003;112(3):393-402. [doi:10.1037/0021-843X.112.3.393](https://doi.org/10.1037/0021-843X.112.3.393) · [PubMed 12943018](https://pubmed.ncbi.nlm.nih.gov/12943018/)

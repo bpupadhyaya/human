@@ -187,6 +187,15 @@ cross_links:
   - target: 01-human/07-system/nervous-system
     relation: connects-to
     note: "At root it is a disorder of brain circuits: BPD reflects altered function across the limbic and prefrontal networks of the nervous system, the emotion-regulation machinery whose dysregulation produces its instability."
+  - target: 02-pathogen/01-viruses/hepatitis-c-virus
+    relation: connects-to
+    note: "Impulsive risk-taking exposes it to the virus: the injection drug use and unprotected sex driven by BPD impulsivity raise hepatitis C exposure, and prevalence of the virus is markedly elevated in this population."
+  - target: 01-human/07-system/obesity
+    relation: connects-to
+    note: "Emotional eating and medication add weight: binge eating to soothe distress, plus the weight gain from the mood stabilizers and antipsychotics often prescribed in BPD, contribute to a high rate of obesity."
+  - target: 01-human/07-system/sepsis
+    relation: connects-to
+    note: "Self-harm and injection breach the skin's barrier: repeated self-inflicted wounds and injection drug use give bacteria entry to the bloodstream, so soft-tissue infection and sepsis are recurrent medical complications in BPD."
 ---
 
 # Borderline Personality Disorder
@@ -383,6 +392,9 @@ This model directly informs DBT treatment: validate emotional experience (the bi
 - `connects-to` → **[Panic Disorder](../panic-disorder/README.md)** — Anxiety rides alongside the instability: panic attacks and panic disorder are common in BPD, the acute fear and autonomic surges blending with the disorder's rapid emotional swings and feelings of impending crisis.
 - `connects-to` → **[Stimulant Use Disorder](../stimulant-use-disorder/README.md)** — Impulsivity reaches for stimulants too: alongside alcohol and opioids, cocaine and amphetamine use disorders are frequent in BPD, the impulsive reward-seeking and chronic emptiness driving substance use across many classes.
 - `connects-to` → **[Nervous System](../nervous-system/README.md)** — At root it is a disorder of brain circuits: BPD reflects altered function across the limbic and prefrontal networks of the nervous system, the emotion-regulation machinery whose dysregulation produces its instability.
+- `connects-to` → **[Hepatitis C Virus](../../../02-pathogen/01-viruses/hepatitis-c-virus/README.md)** — Impulsive risk-taking exposes it to the virus: the injection drug use and unprotected sex driven by BPD impulsivity raise hepatitis C exposure, and prevalence of the virus is markedly elevated in this population.
+- `connects-to` → **[Obesity](../obesity/README.md)** — Emotional eating and medication add weight: binge eating to soothe distress, plus the weight gain from the mood stabilizers and antipsychotics often prescribed in BPD, contribute to a high rate of obesity.
+- `connects-to` → **[Sepsis](../sepsis/README.md)** — Self-harm and injection breach the skin's barrier: repeated self-inflicted wounds and injection drug use give bacteria entry to the bloodstream, so soft-tissue infection and sepsis are recurrent medical complications in BPD.
 
 [^linehan-1993-dbt]: Linehan MM. *Cognitive-Behavioral Treatment of Borderline Personality Disorder.* Guilford; 1993. [PubMed 8192506](https://pubmed.ncbi.nlm.nih.gov/8192506/)
 [^skodol-2002-bpd-neurobiology]: Siever LJ, Davis KL. A psychobiological perspective on the personality disorders. *Am J Psychiatry.* 1991;148(12):1647-1658. [doi:10.1176/ajp.148.12.1647](https://doi.org/10.1176/ajp.148.12.1647) · [PubMed 1957927](https://pubmed.ncbi.nlm.nih.gov/1957927/)
