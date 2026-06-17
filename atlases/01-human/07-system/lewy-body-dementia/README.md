@@ -193,6 +193,15 @@ cross_links:
   - target: 01-human/07-system/sepsis
     relation: connects-to
     note: "Swallowing fails late in the disease: advancing Lewy body dementia brings dysphagia and aspiration, so aspiration pneumonia and the sepsis it triggers are a frequent terminal event."
+  - target: 01-human/07-system/heart-failure
+    relation: connects-to
+    note: "Its autonomic failure reaches the heart: Lewy body disease causes cardiac sympathetic denervation and severe orthostatic hypotension, and the dysautonomia complicates and overlaps with heart failure in these frail patients."
+  - target: 01-human/07-system/stroke
+    relation: connects-to
+    note: "Vascular injury muddies the picture: cerebrovascular disease frequently coexists with Lewy body pathology, and stroke can add to or be mistaken for its fluctuating cognition in a mixed dementia."
+  - target: 01-human/07-system/generalized-anxiety-disorder
+    relation: connects-to
+    note: "Anxiety rides the cognitive fluctuations: marked anxiety is common in Lewy body dementia, worsened by the disease's fluctuating attention, visual hallucinations and autonomic instability."
 ---
 
 # Lewy Body Dementia
@@ -377,6 +386,9 @@ Approximately 25-50% of clinically diagnosed DLB cases have significant AD co-pa
 - `connects-to` → **[NF-κB](../../03-molecular/nf-kb/README.md)** — Microglia inflame the synuclein-laden brain: α-synuclein activates NF-κB in microglia, driving the cytokine output and NLRP3 priming that accelerate the neuronal loss of Lewy body disease.
 - `connects-to` → **[Osteoporosis](../osteoporosis/README.md)** — Falls meet fragile bones: the parkinsonism, orthostatic hypotension and cognitive lapses of Lewy body dementia cause frequent falls, while immobility and low vitamin D thin the bones — a combination that makes fractures common.
 - `connects-to` → **[Sepsis](../sepsis/README.md)** — Swallowing fails late in the disease: advancing Lewy body dementia brings dysphagia and aspiration, so aspiration pneumonia and the sepsis it triggers are a frequent terminal event.
+- `connects-to` → **[Heart Failure](../heart-failure/README.md)** — Its autonomic failure reaches the heart: Lewy body disease causes cardiac sympathetic denervation and severe orthostatic hypotension, and the dysautonomia complicates and overlaps with heart failure in these frail patients.
+- `connects-to` → **[Stroke](../stroke/README.md)** — Vascular injury muddies the picture: cerebrovascular disease frequently coexists with Lewy body pathology, and stroke can add to or be mistaken for its fluctuating cognition in a mixed dementia.
+- `connects-to` → **[Generalized Anxiety Disorder](../generalized-anxiety-disorder/README.md)** — Anxiety rides the cognitive fluctuations: marked anxiety is common in Lewy body dementia, worsened by the disease's fluctuating attention, visual hallucinations and autonomic instability.
 
 [^mckeith-2017-dlb-criteria]: McKeith IG, Boeve BF, Dickson DW, et al. Diagnosis and management of dementia with Lewy bodies: Fourth consensus report of the DLB Consortium. *Neurology.* 2017;89(1):88-100. [doi:10.1212/WNL.0000000000004058](https://doi.org/10.1212/WNL.0000000000004058) · [PubMed 28592453](https://pubmed.ncbi.nlm.nih.gov/28592453/)
 [^spillantini-1997-lewy-body]: Spillantini MG, Schmidt ML, Lee VM, Trojanowski JQ, Jakes R, Goedert M. Alpha-synuclein in Lewy bodies. *Nature.* 1997;388(6645):839-840. [doi:10.1038/42166](https://doi.org/10.1038/42166) · [PubMed 9278044](https://pubmed.ncbi.nlm.nih.gov/9278044/)

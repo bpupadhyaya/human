@@ -191,6 +191,15 @@ cross_links:
   - target: 02-pathogen/06-environmental/diarrheal-disease
     relation: connects-to
     note: "It empties the gut as well as the immune system: measles infects the intestinal lining and, compounded by immune amnesia, causes severe diarrhea that is a major cause of measles mortality in malnourished children."
+  - target: 01-human/07-system/sepsis
+    relation: connects-to
+    note: "Immune amnesia opens the door to deadly infection: measles erases existing immune memory and depletes lymphocytes for months, leaving children prone to secondary bacterial infections that disseminate into sepsis."
+  - target: 02-pathogen/03-fungi/aspergillus-fumigatus
+    relation: connects-to
+    note: "Post-measles immune collapse lets mold in: the profound lymphopenia and immune amnesia after measles can permit opportunistic fungal infections like invasive aspergillosis, especially in malnourished or immunocompromised children."
+  - target: 02-pathogen/03-fungi/candida-albicans
+    relation: connects-to
+    note: "A weakened host invites the yeast: measles immunosuppression and its painful oral mucosal lesions favor oral and esophageal candidiasis, one of the opportunistic infections riding on its immune amnesia."
 ---
 
 # Measles
@@ -393,6 +402,9 @@ Beyond immune amnesia (memory B cell depletion), MV causes acute immune suppress
 - `connects-to` → **[NF-κB](../../03-molecular/nf-kb/README.md)** — The virus tampers with the inflammation switch: measles proteins modulate NF-κB signaling as part of the immune disruption that drives both the acute cytokine response and the profound immunosuppression of the infection.
 - `connects-to` → **[Acute Respiratory Distress Syndrome](../../06-organ/ards/README.md)** — Its pneumonia can drown the lungs: severe measles produces a giant-cell pneumonia that, especially in the immunocompromised, can progress to acute respiratory distress syndrome — a leading cause of measles death.
 - `connects-to` → **[Diarrheal Disease](../../../02-pathogen/06-environmental/diarrheal-disease/README.md)** — It empties the gut as well as the immune system: measles infects the intestinal lining and, compounded by immune amnesia, causes severe diarrhea that is a major cause of measles mortality in malnourished children.
+- `connects-to` → **[Sepsis](../sepsis/README.md)** — Immune amnesia opens the door to deadly infection: measles erases existing immune memory and depletes lymphocytes for months, leaving children prone to secondary bacterial infections that disseminate into sepsis.
+- `connects-to` → **[Aspergillus fumigatus](../../../02-pathogen/03-fungi/aspergillus-fumigatus/README.md)** — Post-measles immune collapse lets mold in: the profound lymphopenia and immune amnesia after measles can permit opportunistic fungal infections like invasive aspergillosis, especially in malnourished or immunocompromised children.
+- `connects-to` → **[Candida albicans](../../../02-pathogen/03-fungi/candida-albicans/README.md)** — A weakened host invites the yeast: measles immunosuppression and its painful oral mucosal lesions favor oral and esophageal candidiasis, one of the opportunistic infections riding on its immune amnesia.
 
 [^panum-1847-faroe-measles]: Panum PL. Observations made during the epidemic of measles on the Faroe Islands in the year 1846. *Med Classics.* 1939;3:829-886.
 [^mina-2019-immune-amnesia]: Mina MJ, Kula T, Leng Y, et al. Measles virus infection diminishes preexisting antibodies that offer protection from other pathogens. *Science.* 2019;366(6465):599-606. [doi:10.1126/science.aay6485](https://doi.org/10.1126/science.aay6485) · [PubMed 31672891](https://pubmed.ncbi.nlm.nih.gov/31672891/)
