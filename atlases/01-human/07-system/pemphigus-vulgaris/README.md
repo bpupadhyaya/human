@@ -202,6 +202,15 @@ cross_links:
   - target: 01-human/07-system/major-depressive-disorder
     relation: connects-to
     note: "A chronic, painful, disfiguring disease wears on mood: the relentless blistering, eating difficulty and visible erosions of pemphigus, compounded by corticosteroid mood effects, drive substantial depression and impaired quality of life."
+  - target: 02-pathogen/01-viruses/varicella-zoster-virus
+    relation: connects-to
+    note: "Its immunosuppression reawakens shingles: the rituximab and high-dose steroids used to control pemphigus deplete B- and T-cell immunity, allowing latent varicella-zoster to reactivate, so antiviral prophylaxis is considered."
+  - target: 02-pathogen/01-viruses/hepatitis-b-virus
+    relation: connects-to
+    note: "Rituximab can resurrect hepatitis B: the B-cell-depleting therapy for refractory pemphigus removes the immune control of latent HBV, risking viral reactivation and hepatitis, so screening before treatment is mandatory."
+  - target: 01-human/07-system/generalized-anxiety-disorder
+    relation: connects-to
+    note: "An unpredictable relapsing disease breeds worry: the flares, painful mucosal erosions and long immunosuppressive treatment of pemphigus foster chronic health anxiety alongside its well-known depression."
 ---
 
 # Pemphigus Vulgaris
@@ -407,6 +416,9 @@ Pemphigus belongs to the **pemphigus group of autoimmune bullous diseases** (AIB
 - `connects-to` → **[Type 2 Diabetes](../type-2-diabetes/README.md)** — Its long steroid courses raise blood sugar: controlling pemphigus often requires months of high-dose corticosteroids, which induce insulin resistance and frequently unmask or precipitate steroid-induced diabetes.
 - `connects-to` → **[Aspergillus fumigatus](../../../02-pathogen/03-fungi/aspergillus-fumigatus/README.md)** — Combined immunosuppression opens the lung to mold: high-dose steroids plus rituximab or other immunosuppressants for refractory pemphigus deeply blunt immunity, occasionally allowing inhaled Aspergillus to invade as pulmonary aspergillosis.
 - `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — A chronic, painful, disfiguring disease wears on mood: the relentless blistering, eating difficulty and visible erosions of pemphigus, compounded by corticosteroid mood effects, drive substantial depression and impaired quality of life.
+- `connects-to` → **[Varicella-Zoster Virus](../../../02-pathogen/01-viruses/varicella-zoster-virus/README.md)** — Its immunosuppression reawakens shingles: the rituximab and high-dose steroids used to control pemphigus deplete B- and T-cell immunity, allowing latent varicella-zoster to reactivate, so antiviral prophylaxis is considered.
+- `connects-to` → **[Hepatitis B Virus](../../../02-pathogen/01-viruses/hepatitis-b-virus/README.md)** — Rituximab can resurrect hepatitis B: the B-cell-depleting therapy for refractory pemphigus removes the immune control of latent HBV, risking viral reactivation and hepatitis, so screening before treatment is mandatory.
+- `connects-to` → **[Generalized Anxiety Disorder](../generalized-anxiety-disorder/README.md)** — An unpredictable relapsing disease breeds worry: the flares, painful mucosal erosions and long immunosuppressive treatment of pemphigus foster chronic health anxiety alongside its well-known depression.
 
 ---
 

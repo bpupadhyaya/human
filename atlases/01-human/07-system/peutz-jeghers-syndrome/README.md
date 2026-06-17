@@ -196,6 +196,15 @@ cross_links:
   - target: 01-human/07-system/major-depressive-disorder
     relation: connects-to
     note: "Lifelong surveillance and surgery weigh on the mind: the constant cancer-screening regimen, recurrent operations and pervasive malignancy risk of Peutz-Jeghers impose a chronic psychological burden that raises depression and anxiety."
+  - target: 01-human/07-system/wound-healing
+    relation: connects-to
+    note: "Recurrent bowel surgery means recurrent wounds: the repeated laparotomies for intussusception and polypectomy in PJS, sometimes in malnourished patients, leave abdominal wounds and anastomoses prone to slow healing."
+  - target: 01-human/07-system/endocrine-system
+    relation: connects-to
+    note: "Its rare gonadal tumours disturb hormones: PJS predisposes to large-cell calcifying Sertoli cell tumours of the testis and sex-cord tumours of the ovary, which secrete oestrogen to cause gynaecomastia and precocious puberty."
+  - target: 01-human/07-system/generalized-anxiety-disorder
+    relation: connects-to
+    note: "Pervasive cancer risk breeds worry: the very high lifetime malignancy risk, lifelong multi-organ screening and recurrent surgery of Peutz-Jeghers foster chronic health anxiety alongside depression."
 ---
 
 # Peutz-Jeghers Syndrome
@@ -379,6 +388,9 @@ Without surveillance: cumulative cancer risk reaches ~85-93% by age 70 (all canc
 - `connects-to` → **[Esophageal Cancer](../esophageal-cancer/README.md)** — Its cancer risk runs the whole gut tube: STK11 loss in Peutz-Jeghers elevates malignancy across the gastrointestinal tract, including the esophagus, adding it to the well-known stomach, small-bowel, colon and pancreatic risks.
 - `connects-to` → **[Osteoporosis](../osteoporosis/README.md)** — Repeated bowel surgery starves bone of nutrients: recurrent intussusception forces small-bowel resections in PJS, and the resulting malabsorption of calcium and vitamin D over a lifetime drives loss of bone density toward osteoporosis.
 - `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — Lifelong surveillance and surgery weigh on the mind: the constant cancer-screening regimen, recurrent operations and pervasive malignancy risk of Peutz-Jeghers impose a chronic psychological burden that raises depression and anxiety.
+- `connects-to` → **[Wound Healing](../wound-healing/README.md)** — Recurrent bowel surgery means recurrent wounds: the repeated laparotomies for intussusception and polypectomy in PJS, sometimes in malnourished patients, leave abdominal wounds and anastomoses prone to slow healing.
+- `connects-to` → **[Endocrine System](../endocrine-system/README.md)** — Its rare gonadal tumours disturb hormones: PJS predisposes to large-cell calcifying Sertoli cell tumours of the testis and sex-cord tumours of the ovary, which secrete oestrogen to cause gynaecomastia and precocious puberty.
+- `connects-to` → **[Generalized Anxiety Disorder](../generalized-anxiety-disorder/README.md)** — Pervasive cancer risk breeds worry: the very high lifetime malignancy risk, lifelong multi-organ screening and recurrent surgery of Peutz-Jeghers foster chronic health anxiety alongside depression.
 
 ---
 
