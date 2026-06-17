@@ -187,6 +187,15 @@ cross_links:
   - target: 01-human/07-system/mds
     relation: connects-to
     note: "Genome instability courts the marrow: the WRN helicase defect predisposes Werner patients to myelodysplastic syndromes and other myeloid neoplasms, part of the broad cancer spectrum its impaired DNA repair produces."
+  - target: 01-human/07-system/aml
+    relation: connects-to
+    note: "Its faulty DNA repair can tip into acute leukemia: beyond myelodysplasia, the genome instability of Werner syndrome raises the risk of acute myeloid leukemia, completing a myeloid-malignancy spectrum driven by WRN loss."
+  - target: 02-pathogen/02-bacteria/staphylococcus-aureus
+    relation: connects-to
+    note: "Its chronic ankle ulcers get colonized and infected: the intractable, slow-healing skin ulcers over the ankles and feet that typify Werner syndrome are readily invaded by Staphylococcus aureus, risking cellulitis and deep infection."
+  - target: 01-human/07-system/major-depressive-disorder
+    relation: connects-to
+    note: "Premature aging and disfigurement weigh on mood: the early greying, cataracts, skin changes and the awareness of accelerated aging and cancer risk in Werner syndrome contribute to depression and impaired quality of life."
 ---
 
 # Werner Syndrome
@@ -406,6 +415,9 @@ cross_links:
 - `connects-to` → **[Stroke](../stroke/README.md)** — Premature atherosclerosis reaches the brain: the accelerated vascular aging of Werner syndrome drives early cerebrovascular disease, making ischemic stroke — alongside myocardial infarction — a leading cause of its shortened lifespan.
 - `connects-to` → **[Heart Failure](../heart-failure/README.md)** — The aged heart fails early: decades-premature coronary atherosclerosis and ischemic damage in Werner syndrome lead to early myocardial infarction and heart failure, the cardiovascular disease that is its commonest cause of death.
 - `connects-to` → **[Myelodysplastic Syndromes](../mds/README.md)** — Genome instability courts the marrow: the WRN helicase defect predisposes Werner patients to myelodysplastic syndromes and other myeloid neoplasms, part of the broad cancer spectrum its impaired DNA repair produces.
+- `connects-to` → **[Acute Myeloid Leukemia](../aml/README.md)** — Its faulty DNA repair can tip into acute leukemia: beyond myelodysplasia, the genome instability of Werner syndrome raises the risk of acute myeloid leukemia, completing a myeloid-malignancy spectrum driven by WRN loss.
+- `connects-to` → **[Staphylococcus aureus](../../../02-pathogen/02-bacteria/staphylococcus-aureus/README.md)** — Its chronic ankle ulcers get colonized and infected: the intractable, slow-healing skin ulcers over the ankles and feet that typify Werner syndrome are readily invaded by Staphylococcus aureus, risking cellulitis and deep infection.
+- `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — Premature aging and disfigurement weigh on mood: the early greying, cataracts, skin changes and the awareness of accelerated aging and cancer risk in Werner syndrome contribute to depression and impaired quality of life.
 
 [^yu-1996-wrn]: Yu CE, Oshima J, Fu YH, et al. Positional cloning of the Werner's syndrome gene. *Science.* 1996;272(5259):258-262. [doi:10.1126/science.272.5259.258](https://doi.org/10.1126/science.272.5259.258) · [PubMed 8602509](https://pubmed.ncbi.nlm.nih.gov/8602509/)
 [^lauper-2013-wrn-neoplasia]: Lauper JM, Krause A, Vaughan TL, Monnat RJ Jr. Spectrum and risk of neoplasia in Werner syndrome: a systematic review. *PLoS One.* 2013;8(4):e59709. [doi:10.1371/journal.pone.0059709](https://doi.org/10.1371/journal.pone.0059709) · [PubMed 23579047](https://pubmed.ncbi.nlm.nih.gov/23579047/)
