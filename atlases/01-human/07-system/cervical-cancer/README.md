@@ -178,6 +178,15 @@ cross_links:
   - target: 01-human/07-system/venous-thromboembolism
     relation: connects-to
     note: "Pelvic cancer raises the clot risk: advanced cervical cancer and its treatment promote venous thromboembolism, both through the tumor's pro-coagulant state and pelvic vein compression by bulky disease."
+  - target: 01-human/03-molecular/stat3
+    relation: connects-to
+    note: "HPV oncoproteins switch on STAT3: E6/E7 and the inflamed cervical microenvironment activate STAT3, driving proliferation and immune evasion in the progression from HPV infection to invasive cancer."
+  - target: 01-human/07-system/sepsis
+    relation: connects-to
+    note: "Bulky pelvic disease opens routes to infection: tumor obstruction of the ureters causes pyelonephritis and urosepsis, while necrotic tumor and fistulae into bladder or bowel can seed pelvic infection and sepsis."
+  - target: 01-human/07-system/anemia-of-chronic-disease
+    relation: connects-to
+    note: "Chronic bleeding and inflammation drain the blood: ongoing vaginal blood loss plus the cancer's inflammatory cytokines produce anemia that not only weakens patients but blunts the tumor's response to radiotherapy."
 ---
 
 # Cervical Cancer
@@ -354,6 +363,9 @@ The cervical transformation zone (TZ) — the area between the original and new 
 - `connects-to` → **[NF-κB](../../03-molecular/nf-kb/README.md)** — Chronic inflammation keeps NF-κB switched on: HPV infection and the inflamed cervical microenvironment activate NF-κB, driving pro-survival and pro-invasive gene programs that help the transformed cells persist and progress.
 - `connects-to` → **[Fibroblast](../../04-cellular/fibroblast/README.md)** — Stromal fibroblasts abet invasion: cancer-associated fibroblasts in the cervical tumor remodel the matrix and secrete factors that promote angiogenesis and help the carcinoma breach the basement membrane.
 - `connects-to` → **[Venous Thromboembolism](../venous-thromboembolism/README.md)** — Pelvic cancer raises the clot risk: advanced cervical cancer and its treatment promote venous thromboembolism, both through the tumor's pro-coagulant state and pelvic vein compression by bulky disease.
+- `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — HPV oncoproteins switch on STAT3: E6/E7 and the inflamed cervical microenvironment activate STAT3, driving proliferation and immune evasion in the progression from HPV infection to invasive cancer.
+- `connects-to` → **[Sepsis](../sepsis/README.md)** — Bulky pelvic disease opens routes to infection: tumor obstruction of the ureters causes pyelonephritis and urosepsis, while necrotic tumor and fistulae into bladder or bowel can seed pelvic infection and sepsis.
+- `connects-to` → **[Anemia of Chronic Disease](../anemia-of-chronic-disease/README.md)** — Chronic bleeding and inflammation drain the blood: ongoing vaginal blood loss plus the cancer's inflammatory cytokines produce anemia that not only weakens patients but blunts the tumor's response to radiotherapy.
 
 ---
 

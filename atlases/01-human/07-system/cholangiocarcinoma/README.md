@@ -178,6 +178,15 @@ cross_links:
   - target: 01-human/04-cellular/mast-cell
     relation: connects-to
     note: "Mast cells stoke the desmoplastic tumor: recruited into cholangiocarcinoma they release angiogenic and fibrogenic mediators that feed the dense stroma and new vessels on which the bile-duct cancer depends."
+  - target: 01-human/03-molecular/nf-kb
+    relation: connects-to
+    note: "Chronic biliary inflammation switches on NF-κB: the inflamed, fluke- or PSC-damaged bile ducts activate NF-κB in cholangiocytes, driving the survival and proliferation signals that turn chronic cholangitis into cancer."
+  - target: 01-human/03-molecular/stat3
+    relation: connects-to
+    note: "IL-6 from the inflamed ducts feeds STAT3: cholangiocarcinoma cells respond to IL-6 with STAT3 activation that drives proliferation and resistance, a central inflammation-to-cancer axis in the bile-duct epithelium."
+  - target: 01-human/07-system/venous-thromboembolism
+    relation: connects-to
+    note: "A cholestatic cancer that still clots: despite the deranged clotting of biliary obstruction, cholangiocarcinoma's tumor-driven hypercoagulability raises venous thromboembolism risk, compounded by biliary stenting and surgery."
 ---
 
 # Cholangiocarcinoma
@@ -328,6 +337,9 @@ Chronic biliary injury (from PSC, fluke infection, bile acid reflux, biliary sta
 - `connects-to` → **[IDH2](../../03-molecular/idh2/README.md)** — IDH2, like IDH1, is a targetable driver: a subset of intrahepatic cholangiocarcinomas carry IDH2 mutations that generate the oncometabolite 2-hydroxyglutarate and reprogram the epigenome, defining a molecular subtype with emerging targeted therapy.
 - `connects-to` → **[Sepsis](../sepsis/README.md)** — Blocked bile breeds biliary sepsis: tumor obstruction of the ducts causes cholangitis that can escalate to life-threatening Gram-negative sepsis, so urgent biliary drainage is often needed before any cancer treatment.
 - `connects-to` → **[Mast Cell](../../04-cellular/mast-cell/README.md)** — Mast cells stoke the desmoplastic tumor: recruited into cholangiocarcinoma they release angiogenic and fibrogenic mediators that feed the dense stroma and new vessels on which the bile-duct cancer depends.
+- `connects-to` → **[NF-κB](../../03-molecular/nf-kb/README.md)** — Chronic biliary inflammation switches on NF-κB: the inflamed, fluke- or PSC-damaged bile ducts activate NF-κB in cholangiocytes, driving the survival and proliferation signals that turn chronic cholangitis into cancer.
+- `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — IL-6 from the inflamed ducts feeds STAT3: cholangiocarcinoma cells respond to IL-6 with STAT3 activation that drives proliferation and resistance, a central inflammation-to-cancer axis in the bile-duct epithelium.
+- `connects-to` → **[Venous Thromboembolism](../venous-thromboembolism/README.md)** — A cholestatic cancer that still clots: despite the deranged clotting of biliary obstruction, cholangiocarcinoma's tumor-driven hypercoagulability raises venous thromboembolism risk, compounded by biliary stenting and surgery.
 
 ---
 
