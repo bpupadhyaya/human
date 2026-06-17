@@ -178,6 +178,15 @@ cross_links:
   - target: 01-human/07-system/neuropathic-pain
     relation: connects-to
     note: "Bone tumor and its surgery both hurt: osteosarcoma causes deep bone pain and can compress nerves, and limb-salvage or amputation leaves neuropathic and phantom-limb pain that shapes long-term rehabilitation."
+  - target: 01-human/03-molecular/stat3
+    relation: connects-to
+    note: "STAT3 supports the osteosarcoma cell: activated STAT3 signaling drives proliferation, metastasis and chemoresistance in osteosarcoma, a pathway studied for this tumor that has seen little therapeutic progress in decades."
+  - target: 01-human/07-system/venous-thromboembolism
+    relation: connects-to
+    note: "A sarcoma and major bone surgery clot the veins: osteosarcoma's hypercoagulability, plus the limb-salvage or amputation surgery and immobility of treatment, make venous thromboembolism a significant risk."
+  - target: 01-human/07-system/sepsis
+    relation: connects-to
+    note: "Chemo and prosthetic surgery invite infection: dose-dense chemotherapy causes neutropenia, and the endoprosthetic implants of limb-salvage surgery can become infected — both routes to sepsis."
 ---
 
 # Osteosarcoma
@@ -362,6 +371,9 @@ OS is relatively radiation-resistant (high-dose radiation ~70+ Gy may achieve lo
 - `connects-to` → **[MYC](../../03-molecular/myc/README.md)** — MYC amplification drives the aggressive tumor: gains of MYC are recurrent in osteosarcoma's chaotic genome, pushing proliferation and marking metastatic, chemoresistant disease.
 - `connects-to` → **[Cardiomyocyte](../../04-cellular/cardiomyocyte/README.md)** — The cure scars the heart: doxorubicin, a backbone of osteosarcoma chemotherapy, poisons cardiomyocytes through oxidative and topoisomerase-2β damage, leaving survivors with a lifelong dose-dependent cardiomyopathy risk.
 - `connects-to` → **[Neuropathic Pain](../neuropathic-pain/README.md)** — Bone tumor and its surgery both hurt: osteosarcoma causes deep bone pain and can compress nerves, and limb-salvage or amputation leaves neuropathic and phantom-limb pain that shapes long-term rehabilitation.
+- `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — STAT3 supports the osteosarcoma cell: activated STAT3 signaling drives proliferation, metastasis and chemoresistance in osteosarcoma, a pathway studied for this tumor that has seen little therapeutic progress in decades.
+- `connects-to` → **[Venous Thromboembolism](../venous-thromboembolism/README.md)** — A sarcoma and major bone surgery clot the veins: osteosarcoma's hypercoagulability, plus the limb-salvage or amputation surgery and immobility of treatment, make venous thromboembolism a significant risk.
+- `connects-to` → **[Sepsis](../sepsis/README.md)** — Chemo and prosthetic surgery invite infection: dose-dense chemotherapy causes neutropenia, and the endoprosthetic implants of limb-salvage surgery can become infected — both routes to sepsis.
 
 [^bielack-2002-coss-osteosarcoma]: Bielack SS, Kempf-Bielack B, Delling G, et al. Prognostic factors in high-grade osteosarcoma of the extremities or trunk: an analysis of 1,702 patients treated on neoadjuvant Cooperative Osteosarcoma Study Group protocols. *J Clin Oncol.* 2002;20(3):776-790. [doi:10.1200/JCO.2002.20.3.776](https://doi.org/10.1200/JCO.2002.20.3.776) · [PubMed 11821461](https://pubmed.ncbi.nlm.nih.gov/11821461/)
 [^marina-2016-euramos1-osteosarcoma]: Marina NM, Smeland S, Bielack SS, et al. Comparison of MAPIE versus MAP in patients with a poor response to preoperative chemotherapy for newly diagnosed high-grade osteosarcoma (EURAMOS-1). *Lancet Oncol.* 2016;17(10):1396-1408. [doi:10.1016/S1470-2045(16)30214-5](https://doi.org/10.1016/S1470-2045(16)30214-5) · [PubMed 27569442](https://pubmed.ncbi.nlm.nih.gov/27569442/)

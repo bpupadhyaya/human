@@ -178,6 +178,15 @@ cross_links:
   - target: 01-human/04-cellular/mast-cell
     relation: connects-to
     note: "Mast cells populate the tumor and ascites: they accumulate in the ovarian tumor microenvironment and peritoneal fluid, releasing angiogenic and immunomodulatory mediators that support growth and vessel formation."
+  - target: 01-human/03-molecular/nf-kb
+    relation: connects-to
+    note: "The inflamed peritoneal milieu runs on NF-κB: ovarian cancer's ascites is rich in cytokines that activate NF-κB, driving the tumor-cell survival, chemoresistance and immune evasion behind its peritoneal spread."
+  - target: 01-human/07-system/ckd
+    relation: connects-to
+    note: "Pelvic disease and platinum strain the kidneys: bulky tumor obstructing the ureters causes hydronephrosis, and the cisplatin used to treat ovarian cancer is nephrotoxic — together a real risk of chronic kidney disease."
+  - target: 01-human/07-system/anemia-of-chronic-disease
+    relation: connects-to
+    note: "Chronic disease and chemo drain the blood: the inflammatory cytokines of ovarian cancer and its marrow-suppressing platinum chemotherapy produce a prominent anemia of chronic disease."
 ---
 
 # Ovarian Cancer
@@ -347,6 +356,9 @@ FTSEC ciliated and secretory cells line the Fallopian tube; secretory cells are 
 - `connects-to` → **[CXCL12](../../03-molecular/cxcl12/README.md)** — CXCL12 guides the spread to the omentum: the chemokine, abundant in peritoneal fat, draws CXCR4-bearing ovarian cancer cells to seed the omentum and peritoneum, the characteristic transcoelomic metastasis of the disease.
 - `connects-to` → **[Sepsis](../sepsis/README.md)** — Advanced disease invites sepsis: malignant bowel obstruction and perforation from peritoneal spread, plus chemotherapy neutropenia, expose ovarian-cancer patients to intra-abdominal infection and sepsis.
 - `connects-to` → **[Mast Cell](../../04-cellular/mast-cell/README.md)** — Mast cells populate the tumor and ascites: they accumulate in the ovarian tumor microenvironment and peritoneal fluid, releasing angiogenic and immunomodulatory mediators that support growth and vessel formation.
+- `connects-to` → **[NF-κB](../../03-molecular/nf-kb/README.md)** — The inflamed peritoneal milieu runs on NF-κB: ovarian cancer's ascites is rich in cytokines that activate NF-κB, driving the tumor-cell survival, chemoresistance and immune evasion behind its peritoneal spread.
+- `connects-to` → **[Chronic Kidney Disease](../ckd/README.md)** — Pelvic disease and platinum strain the kidneys: bulky tumor obstructing the ureters causes hydronephrosis, and the cisplatin used to treat ovarian cancer is nephrotoxic — together a real risk of chronic kidney disease.
+- `connects-to` → **[Anemia of Chronic Disease](../anemia-of-chronic-disease/README.md)** — Chronic disease and chemo drain the blood: the inflammatory cytokines of ovarian cancer and its marrow-suppressing platinum chemotherapy produce a prominent anemia of chronic disease.
 
 [^burger-2011-gog0218]: Burger RA, Brady MF, Bookman MA, et al. Incorporation of bevacizumab in the primary treatment of ovarian cancer. *N Engl J Med.* 2011;365(26):2473-2483. [doi:10.1056/NEJMoa1104390](https://doi.org/10.1056/NEJMoa1104390) · [PubMed 22204724](https://pubmed.ncbi.nlm.nih.gov/22204724/)
 [^moore-2018-olaparib-solo1]: Moore K, Colombo N, Scambia G, et al. Maintenance olaparib in patients with newly diagnosed advanced ovarian cancer. *N Engl J Med.* 2018;379(26):2495-2505. [doi:10.1056/NEJMoa1810858](https://doi.org/10.1056/NEJMoa1810858) · [PubMed 30345884](https://pubmed.ncbi.nlm.nih.gov/30345884/)
