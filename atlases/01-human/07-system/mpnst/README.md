@@ -187,6 +187,15 @@ cross_links:
   - target: 01-human/07-system/sepsis
     relation: connects-to
     note: "Intensive treatment and large tumors invite infection: the chemotherapy used against this aggressive sarcoma causes neutropenia, and extensive resections risk wound infection — both routes to sepsis."
+  - target: 01-human/07-system/heart-failure
+    relation: connects-to
+    note: "Its anthracycline scars the heart: the doxorubicin in MPNST chemotherapy is dose-dependently cardiotoxic, risking a cardiomyopathy and heart failure in survivors of this aggressive sarcoma."
+  - target: 02-pathogen/03-fungi/aspergillus-fumigatus
+    relation: connects-to
+    note: "Chemo neutropenia opens the lung to mold: the dose-intensive doxorubicin-ifosfamide regimens for MPNST cause deep neutropenia, letting inhaled Aspergillus invade as pulmonary aspergillosis."
+  - target: 01-human/07-system/major-depressive-disorder
+    relation: connects-to
+    note: "An aggressive cancer on top of NF1 weighs on mood: MPNST's poor prognosis, disfiguring surgery and frequent arising in the burden of neurofibromatosis type 1 carry a substantial psychological toll."
 ---
 
 # MPNST
@@ -375,6 +384,9 @@ Wide local excision with negative margins is the only potentially curative inter
 - `connects-to` → **[NF-κB](../../03-molecular/nf-kb/README.md)** — Loss of NF1 routes RAS into NF-κB: unrestrained RAS signaling in MPNST engages NF-κB-driven survival and inflammation, part of the network that makes this NF1-associated sarcoma so aggressive and treatment-resistant.
 - `connects-to` → **[Venous Thromboembolism](../venous-thromboembolism/README.md)** — A bulky sarcoma that clots: MPNST carries tumor-driven hypercoagulability, and the major limb or trunk surgery and chemotherapy it requires add to the venous thromboembolism risk.
 - `connects-to` → **[Sepsis](../sepsis/README.md)** — Intensive treatment and large tumors invite infection: the chemotherapy used against this aggressive sarcoma causes neutropenia, and extensive resections risk wound infection — both routes to sepsis.
+- `connects-to` → **[Heart Failure](../heart-failure/README.md)** — Its anthracycline scars the heart: the doxorubicin in MPNST chemotherapy is dose-dependently cardiotoxic, risking a cardiomyopathy and heart failure in survivors of this aggressive sarcoma.
+- `connects-to` → **[Aspergillus fumigatus](../../../02-pathogen/03-fungi/aspergillus-fumigatus/README.md)** — Chemo neutropenia opens the lung to mold: the dose-intensive doxorubicin-ifosfamide regimens for MPNST cause deep neutropenia, letting inhaled Aspergillus invade as pulmonary aspergillosis.
+- `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — An aggressive cancer on top of NF1 weighs on mood: MPNST's poor prognosis, disfiguring surgery and frequent arising in the burden of neurofibromatosis type 1 carry a substantial psychological toll.
 
 [^evans-2002-mpnst-nf1]: Evans DGR, Baser ME, McGaughran J, et al. Malignant peripheral nerve sheath tumours in neurofibromatosis 1. *J Med Genet.* 2002;39(5):311-314. [doi:10.1136/jmg.39.5.311](https://doi.org/10.1136/jmg.39.5.311) · [PubMed 12011145](https://pubmed.ncbi.nlm.nih.gov/12011145/)
 [^lee-2014-mpnst-prc2]: Lee W, Teckie S, Wiesner T, et al. PRC2 is recurrently inactivated through EED or SUZ12 loss in malignant peripheral nerve sheath tumors. *Nat Genet.* 2014;46(11):1227-1232. [doi:10.1038/ng.3095](https://doi.org/10.1038/ng.3095) · [PubMed 25240281](https://pubmed.ncbi.nlm.nih.gov/25240281/)

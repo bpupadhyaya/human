@@ -193,6 +193,15 @@ cross_links:
   - target: 01-human/07-system/anemia-of-chronic-disease
     relation: connects-to
     note: "The marrow and inflammation both blunt the blood: plasma-cell crowding of the marrow plus the inflammatory cytokines and kidney disease of myeloma produce a prominent anemia of chronic disease."
+  - target: 02-pathogen/03-fungi/pneumocystis-jirovecii
+    relation: connects-to
+    note: "Hypogammaglobulinemia and its therapy open the lung: myeloma's suppressed normal antibodies plus high-dose steroids and novel agents leave patients at risk of Pneumocystis pneumonia, often warranting prophylaxis."
+  - target: 02-pathogen/01-viruses/hepatitis-b-virus
+    relation: connects-to
+    note: "Anti-CD38 and immunosuppression can reactivate it: daratumumab and the deep immunosuppression of myeloma therapy can reawaken latent hepatitis B, so screening and antiviral prophylaxis precede treatment."
+  - target: 01-human/07-system/major-depressive-disorder
+    relation: connects-to
+    note: "An incurable, painful cancer weighs on mood: the relentless bone pain, fractures and relapsing course of multiple myeloma, plus steroid mood effects, carry a substantial burden of depression."
 ---
 
 # Multiple Myeloma
@@ -380,6 +389,9 @@ MM evolves from precursor conditions through a well-defined continuum:
 - `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — IL-6 from the marrow niche signals through STAT3: bone-marrow stromal IL-6 activates STAT3 in myeloma plasma cells, a survival pathway central to their dependence on the microenvironment and resistance to therapy.
 - `connects-to` → **[Sepsis](../sepsis/README.md)** — Immune paralysis makes infection the great killer: myeloma suppresses normal antibody production and its therapy adds neutropenia, so overwhelming infection and sepsis are a leading cause of death.
 - `connects-to` → **[Anemia of Chronic Disease](../anemia-of-chronic-disease/README.md)** — The marrow and inflammation both blunt the blood: plasma-cell crowding of the marrow plus the inflammatory cytokines and kidney disease of myeloma produce a prominent anemia of chronic disease.
+- `connects-to` → **[Pneumocystis jirovecii](../../../02-pathogen/03-fungi/pneumocystis-jirovecii/README.md)** — Hypogammaglobulinemia and its therapy open the lung: myeloma's suppressed normal antibodies plus high-dose steroids and novel agents leave patients at risk of Pneumocystis pneumonia, often warranting prophylaxis.
+- `connects-to` → **[Hepatitis B Virus](../../../02-pathogen/01-viruses/hepatitis-b-virus/README.md)** — Anti-CD38 and immunosuppression can reactivate it: daratumumab and the deep immunosuppression of myeloma therapy can reawaken latent hepatitis B, so screening and antiviral prophylaxis precede treatment.
+- `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — An incurable, painful cancer weighs on mood: the relentless bone pain, fractures and relapsing course of multiple myeloma, plus steroid mood effects, carry a substantial burden of depression.
 
 [^kumar-2022-imwg-criteria]: Kumar SK, Callander NS, Adekola K, et al. Multiple myeloma, version 3.2021, NCCN clinical practice guidelines in oncology. *J Natl Compr Canc Netw.* 2020;18(12):1685-1717. [doi:10.6004/jnccn.2020.0057](https://doi.org/10.6004/jnccn.2020.0057) · [PubMed 33285519](https://pubmed.ncbi.nlm.nih.gov/33285519/)
 [^moreau-2022-teclistamab]: Moreau P, Garfall AL, van de Donk NWCJ, et al. Teclistamab in relapsed or refractory multiple myeloma. *N Engl J Med.* 2022;387(6):495-505. [doi:10.1056/NEJMoa2203478](https://doi.org/10.1056/NEJMoa2203478) · [PubMed 35661166](https://pubmed.ncbi.nlm.nih.gov/35661166/)
