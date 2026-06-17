@@ -202,6 +202,15 @@ cross_links:
   - target: 01-human/07-system/anemia-of-chronic-disease
     relation: connects-to
     note: "Chronic autoimmune inflammation blunts the marrow: the sustained IL-6 and inflammatory drive of active dermatomyositis raise hepcidin and suppress erythropoiesis, contributing an anemia of chronic disease."
+  - target: 01-human/07-system/pulmonary-arterial-hypertension
+    relation: connects-to
+    note: "Its lung disease can pressurize the pulmonary arteries: the interstitial lung disease that accompanies dermatomyositis, especially anti-synthetase and MDA5 subtypes, can lead to pulmonary hypertension."
+  - target: 02-pathogen/03-fungi/aspergillus-fumigatus
+    relation: connects-to
+    note: "Its heavy immunosuppression opens the lung to mold: high-dose corticosteroids combined with methotrexate, azathioprine or rituximab for dermatomyositis can let inhaled Aspergillus invade as pulmonary aspergillosis."
+  - target: 01-human/07-system/major-depressive-disorder
+    relation: connects-to
+    note: "A disfiguring, weakening disease wears on mood: the visible rash, muscle weakness, chronic course and looming cancer risk of dermatomyositis impair quality of life and contribute to depression."
 ---
 
 # Dermatomyositis
@@ -388,6 +397,9 @@ DM carries a ~3–7× elevated cancer risk overall. Anti-TIF1γ (TRIM33) suppres
 - `connects-to` → **[Osteoporosis](../osteoporosis/README.md)** — Its steroids erode the skeleton: the prolonged high-dose corticosteroids used to control dermatomyositis, combined with muscle weakness and inactivity, accelerate bone loss and raise the risk of osteoporotic fracture.
 - `connects-to` → **[Chronic Kidney Disease](../ckd/README.md)** — Muscle breakdown can spill into the kidney: severe myositis releases myoglobin that injures the renal tubules, and this insult — with nephrotoxic immunosuppressants — can leave lasting chronic kidney impairment.
 - `connects-to` → **[Anemia of Chronic Disease](../anemia-of-chronic-disease/README.md)** — Chronic autoimmune inflammation blunts the marrow: the sustained IL-6 and inflammatory drive of active dermatomyositis raise hepcidin and suppress erythropoiesis, contributing an anemia of chronic disease.
+- `connects-to` → **[Pulmonary Arterial Hypertension](../pulmonary-arterial-hypertension/README.md)** — Its lung disease can pressurize the pulmonary arteries: the interstitial lung disease that accompanies dermatomyositis, especially anti-synthetase and MDA5 subtypes, can lead to pulmonary hypertension.
+- `connects-to` → **[Aspergillus fumigatus](../../../02-pathogen/03-fungi/aspergillus-fumigatus/README.md)** — Its heavy immunosuppression opens the lung to mold: high-dose corticosteroids combined with methotrexate, azathioprine or rituximab for dermatomyositis can let inhaled Aspergillus invade as pulmonary aspergillosis.
+- `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — A disfiguring, weakening disease wears on mood: the visible rash, muscle weakness, chronic course and looming cancer risk of dermatomyositis impair quality of life and contribute to depression.
 
 [^bohan-peter-1975-dm-criteria]: Bohan A, Peter JB. Polymyositis and dermatomyositis. *N Engl J Med.* 1975;292(7):344-347. [doi:10.1056/NEJM197502132920706](https://doi.org/10.1056/NEJM197502132920706) · [PubMed 1090839](https://pubmed.ncbi.nlm.nih.gov/1090839/)
 [^lundberg-2021-iim-classification]: Lundberg IE, et al. 2017 EULAR/ACR classification criteria for adult and juvenile idiopathic inflammatory myopathies. *Arthritis Rheumatol.* 2017;69(12):2271-2282. [doi:10.1002/art.40320](https://doi.org/10.1002/art.40320) · [PubMed 29106061](https://pubmed.ncbi.nlm.nih.gov/29106061/)

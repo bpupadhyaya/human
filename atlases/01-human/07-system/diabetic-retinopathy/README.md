@@ -196,6 +196,15 @@ cross_links:
   - target: 01-human/07-system/major-depressive-disorder
     relation: connects-to
     note: "Losing sight weighs on the mind: progressive vision loss and the threat of blindness from diabetic retinopathy carry a substantial psychological burden, with high rates of depression among affected patients."
+  - target: 01-human/07-system/generalized-anxiety-disorder
+    relation: connects-to
+    note: "Fear of going blind breeds chronic worry: the threat of irreversible vision loss and the burden of repeated injections and laser treatment in diabetic retinopathy fuel persistent anxiety alongside depression."
+  - target: 02-pathogen/03-fungi/candida-albicans
+    relation: connects-to
+    note: "Diabetes and intravitreal injections risk fungal eye infection: poorly controlled diabetes predisposes to endogenous Candida endophthalmitis, and the repeated intravitreal anti-VEGF injections for retinopathy add a route for infection of the eye."
+  - target: 01-human/07-system/alzheimers-disease
+    relation: connects-to
+    note: "Retinal microvascular damage mirrors the brain's: diabetic retinopathy is a window onto systemic small-vessel disease, and its presence tracks with the cerebral microvascular injury that contributes to vascular and Alzheimer-type dementia."
 ---
 
 # Diabetic Retinopathy
@@ -365,6 +374,9 @@ DR encompasses a spectrum from subtle vascular changes to sight-threatening neov
 - `connects-to` → **[Anemia of Chronic Disease](../anemia-of-chronic-disease/README.md)** — Low hemoglobin starves the retina of oxygen: the anemia accompanying diabetic kidney disease and chronic inflammation worsens retinal hypoxia, and anemia is an independent risk factor for retinopathy progression.
 - `connects-to` → **[Heart Failure](../heart-failure/README.md)** — It flags wider microvascular disease: diabetic retinopathy severity tracks with the small-vessel damage and diabetic cardiomyopathy that drive heart failure, making the retina a visible window onto systemic microvascular risk.
 - `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — Losing sight weighs on the mind: progressive vision loss and the threat of blindness from diabetic retinopathy carry a substantial psychological burden, with high rates of depression among affected patients.
+- `connects-to` → **[Generalized Anxiety Disorder](../generalized-anxiety-disorder/README.md)** — Fear of going blind breeds chronic worry: the threat of irreversible vision loss and the burden of repeated injections and laser treatment in diabetic retinopathy fuel persistent anxiety alongside depression.
+- `connects-to` → **[Candida albicans](../../../02-pathogen/03-fungi/candida-albicans/README.md)** — Diabetes and intravitreal injections risk fungal eye infection: poorly controlled diabetes predisposes to endogenous Candida endophthalmitis, and the repeated intravitreal anti-VEGF injections for retinopathy add a route for infection of the eye.
+- `connects-to` → **[Alzheimer's Disease](../alzheimers-disease/README.md)** — Retinal microvascular damage mirrors the brain's: diabetic retinopathy is a window onto systemic small-vessel disease, and its presence tracks with the cerebral microvascular injury that contributes to vascular and Alzheimer-type dementia.
 
 [^fong-2004-dr-review]: Fong DS, Aiello L, Gardner TW, et al. Diabetic retinopathy. *Diabetes Care.* 2004;27(10):2540-2553. [doi:10.2337/diacare.27.10.2540](https://doi.org/10.2337/diacare.27.10.2540) · [PubMed 15451934](https://pubmed.ncbi.nlm.nih.gov/15451934/)
 [^brown-2015-aflibercept-protocol-t]: Diabetic Retinopathy Clinical Research Network; Wells JA, Glassman AR, et al. Aflibercept, Bevacizumab, or Ranibizumab for Diabetic Macular Edema. *N Engl J Med.* 2015;372(13):1193-1203. [doi:10.1056/NEJMoa1414264](https://doi.org/10.1056/NEJMoa1414264) · [PubMed 25692915](https://pubmed.ncbi.nlm.nih.gov/25692915/)
