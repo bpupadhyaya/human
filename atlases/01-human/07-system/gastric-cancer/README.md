@@ -187,6 +187,15 @@ cross_links:
   - target: 01-human/07-system/anemia-of-chronic-disease
     relation: connects-to
     note: "Beyond bleeding, inflammation suppresses the marrow: gastric cancer's chronic blood loss causes iron deficiency, but its inflammatory cytokines also drive an anemia of chronic disease, and gastrectomy adds B12 malabsorption."
+  - target: 01-human/07-system/ckd
+    relation: connects-to
+    note: "Its platinum chemo and obstruction strain the kidney: the cisplatin and oxaliplatin used against gastric cancer are nephrotoxic, and outlet obstruction with poor intake adds prerenal injury, together threatening chronic kidney disease."
+  - target: 01-human/07-system/heart-failure
+    relation: connects-to
+    note: "Its fluoropyrimidine chemo can wound the heart: the 5-fluorouracil and capecitabine in gastric-cancer regimens cause coronary vasospasm and cardiotoxicity that can precipitate ischemia and cardiac dysfunction."
+  - target: 01-human/07-system/major-depressive-disorder
+    relation: connects-to
+    note: "Gastrectomy and a poor prognosis weigh on mood: loss of the stomach, the eating difficulties of dumping and weight loss, and a guarded outlook give gastric cancer a substantial burden of depression."
 ---
 
 # Gastric Cancer
@@ -390,6 +399,9 @@ H. pylori eradication: Reduces GC incidence by ~35-40% (meta-analyses); most ben
 - `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — Helicobacter inflammation drives the stomach to cancer through STAT3: chronic gastritis raises IL-6 and IL-11 that activate STAT3 in gastric epithelium, a central inflammation-to-cancer pathway in gastric carcinogenesis.
 - `connects-to` → **[Sepsis](../sepsis/README.md)** — An obstructing or perforating tumor seeds infection: gastric cancer that blocks the outlet or breaches the wall spills contents into the peritoneum, and gastrectomy and chemotherapy add their own routes to sepsis.
 - `connects-to` → **[Anemia of Chronic Disease](../anemia-of-chronic-disease/README.md)** — Beyond bleeding, inflammation suppresses the marrow: gastric cancer's chronic blood loss causes iron deficiency, but its inflammatory cytokines also drive an anemia of chronic disease, and gastrectomy adds B12 malabsorption.
+- `connects-to` → **[Chronic Kidney Disease](../ckd/README.md)** — Its platinum chemo and obstruction strain the kidney: the cisplatin and oxaliplatin used against gastric cancer are nephrotoxic, and outlet obstruction with poor intake adds prerenal injury, together threatening chronic kidney disease.
+- `connects-to` → **[Heart Failure](../heart-failure/README.md)** — Its fluoropyrimidine chemo can wound the heart: the 5-fluorouracil and capecitabine in gastric-cancer regimens cause coronary vasospasm and cardiotoxicity that can precipitate ischemia and cardiac dysfunction.
+- `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — Gastrectomy and a poor prognosis weigh on mood: loss of the stomach, the eating difficulties of dumping and weight loss, and a guarded outlook give gastric cancer a substantial burden of depression.
 
 [^bang-2010-toga]: Bang YJ, Van Cutsem E, Feyereislova A, et al. Trastuzumab in combination with chemotherapy versus chemotherapy alone for treatment of HER2-positive advanced gastric or gastro-oesophageal junction cancer (ToGA): a phase 3, open-label, randomised controlled trial. *Lancet.* 2010;376(9742):687-697. [doi:10.1016/S0140-6736(10)61121-X](https://doi.org/10.1016/S0140-6736(10)61121-X) · [PubMed 20728210](https://pubmed.ncbi.nlm.nih.gov/20728210/)
 [^janjigian-2021-checkmate649]: Janjigian YY, Shitara K, Moehler M, et al. First-line nivolumab plus chemotherapy versus chemotherapy alone for advanced gastric, gastro-oesophageal junction, and oesophageal adenocarcinoma (CheckMate 649). *Lancet.* 2021;398(10294):27-40. [doi:10.1016/S0140-6736(21)00797-2](https://doi.org/10.1016/S0140-6736(21)00797-2) · [PubMed 34102137](https://pubmed.ncbi.nlm.nih.gov/34102137/)

@@ -187,6 +187,15 @@ cross_links:
   - target: 01-human/07-system/anemia-of-chronic-disease
     relation: connects-to
     note: "Marrow infiltration and inflammation lower the count: follicular lymphoma commonly involves the bone marrow and raises inflammatory cytokines, producing an anemia of chronic disease alongside any marrow crowding."
+  - target: 02-pathogen/01-viruses/hepatitis-b-virus
+    relation: connects-to
+    note: "Anti-CD20 therapy can reactivate it: the rituximab and obinutuzumab central to follicular lymphoma treatment deplete B cells and can reawaken latent hepatitis B, so screening and antiviral prophylaxis precede therapy."
+  - target: 02-pathogen/03-fungi/pneumocystis-jirovecii
+    relation: connects-to
+    note: "Bendamustine-rituximab deeply depletes T cells: this common follicular lymphoma regimen causes prolonged lymphopenia, raising Pneumocystis pneumonia risk enough that prophylaxis is recommended during and after treatment."
+  - target: 01-human/07-system/heart-failure
+    relation: connects-to
+    note: "Anthracyclines for transformation scar the heart: when follicular lymphoma transforms and is treated with R-CHOP, the doxorubicin is dose-dependently cardiotoxic, risking a later cardiomyopathy and heart failure."
 ---
 
 # Follicular Lymphoma
@@ -369,6 +378,9 @@ High-risk subset (progression within 24 months of first chemoimmunotherapy): Con
 - `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — The supportive niche signals through STAT3: follicular lymphoma depends heavily on its microenvironment, where cytokines like IL-4 drive STAT signaling that sustains the slow-growing, niche-addicted B-cell clone.
 - `connects-to` → **[Venous Thromboembolism](../venous-thromboembolism/README.md)** — An indolent lymphoma that still clots: like other lymphomas, follicular lymphoma raises venous thromboembolism risk through tumor-driven hypercoagulability and the catheters and immobility of treatment.
 - `connects-to` → **[Anemia of Chronic Disease](../anemia-of-chronic-disease/README.md)** — Marrow infiltration and inflammation lower the count: follicular lymphoma commonly involves the bone marrow and raises inflammatory cytokines, producing an anemia of chronic disease alongside any marrow crowding.
+- `connects-to` → **[Hepatitis B Virus](../../../02-pathogen/01-viruses/hepatitis-b-virus/README.md)** — Anti-CD20 therapy can reactivate it: the rituximab and obinutuzumab central to follicular lymphoma treatment deplete B cells and can reawaken latent hepatitis B, so screening and antiviral prophylaxis precede therapy.
+- `connects-to` → **[Pneumocystis jirovecii](../../../02-pathogen/03-fungi/pneumocystis-jirovecii/README.md)** — Bendamustine-rituximab deeply depletes T cells: this common follicular lymphoma regimen causes prolonged lymphopenia, raising Pneumocystis pneumonia risk enough that prophylaxis is recommended during and after treatment.
+- `connects-to` → **[Heart Failure](../heart-failure/README.md)** — Anthracyclines for transformation scar the heart: when follicular lymphoma transforms and is treated with R-CHOP, the doxorubicin is dose-dependently cardiotoxic, risking a later cardiomyopathy and heart failure.
 
 ---
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
