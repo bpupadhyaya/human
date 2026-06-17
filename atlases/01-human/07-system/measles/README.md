@@ -182,6 +182,15 @@ cross_links:
   - target: 01-human/04-cellular/endothelial-cell
     relation: connects-to
     note: "The measles rash is endothelial: virus-laden T cells deliver MV to dermal capillary endothelium, where infection plus the host T-cell response produces the perivascular inflammation seen as the classic maculopapular exanthem and Koplik spots."
+  - target: 01-human/03-molecular/nf-kb
+    relation: connects-to
+    note: "The virus tampers with the inflammation switch: measles proteins modulate NF-κB signaling as part of the immune disruption that drives both the acute cytokine response and the profound immunosuppression of the infection."
+  - target: 01-human/06-organ/ards
+    relation: connects-to
+    note: "Its pneumonia can drown the lungs: severe measles produces a giant-cell pneumonia that, especially in the immunocompromised, can progress to acute respiratory distress syndrome — a leading cause of measles death."
+  - target: 02-pathogen/06-environmental/diarrheal-disease
+    relation: connects-to
+    note: "It empties the gut as well as the immune system: measles infects the intestinal lining and, compounded by immune amnesia, causes severe diarrhea that is a major cause of measles mortality in malnourished children."
 ---
 
 # Measles
@@ -381,6 +390,9 @@ Beyond immune amnesia (memory B cell depletion), MV causes acute immune suppress
 - `connects-to` → **[Microglia](../../04-cellular/microglia/README.md)** — Years later the virus can smolder in the brain: in subacute sclerosing panencephalitis a persistent measles strain drives chronic microglial activation and demyelination, a fatal late neurodegeneration after early-childhood infection.
 - `connects-to` → **[Streptococcus pneumoniae](../../../02-pathogen/02-bacteria/streptococcus-pneumoniae/README.md)** — Measles erases immune memory and opens the door: by depleting memory B and T cells it leaves children prey to secondary pneumococcal pneumonia and otitis, the bacterial superinfections behind much of its death toll.
 - `connects-to` → **[Epilepsy](../epilepsy/README.md)** — The brain complications bring seizures: acute measles encephalitis and the late SSPE both injure the cortex, causing seizures — in SSPE the characteristic periodic myoclonic jerks that mark its relentless course.
+- `connects-to` → **[NF-κB](../../03-molecular/nf-kb/README.md)** — The virus tampers with the inflammation switch: measles proteins modulate NF-κB signaling as part of the immune disruption that drives both the acute cytokine response and the profound immunosuppression of the infection.
+- `connects-to` → **[Acute Respiratory Distress Syndrome](../../06-organ/ards/README.md)** — Its pneumonia can drown the lungs: severe measles produces a giant-cell pneumonia that, especially in the immunocompromised, can progress to acute respiratory distress syndrome — a leading cause of measles death.
+- `connects-to` → **[Diarrheal Disease](../../../02-pathogen/06-environmental/diarrheal-disease/README.md)** — It empties the gut as well as the immune system: measles infects the intestinal lining and, compounded by immune amnesia, causes severe diarrhea that is a major cause of measles mortality in malnourished children.
 
 [^panum-1847-faroe-measles]: Panum PL. Observations made during the epidemic of measles on the Faroe Islands in the year 1846. *Med Classics.* 1939;3:829-886.
 [^mina-2019-immune-amnesia]: Mina MJ, Kula T, Leng Y, et al. Measles virus infection diminishes preexisting antibodies that offer protection from other pathogens. *Science.* 2019;366(6465):599-606. [doi:10.1126/science.aay6485](https://doi.org/10.1126/science.aay6485) · [PubMed 31672891](https://pubmed.ncbi.nlm.nih.gov/31672891/)

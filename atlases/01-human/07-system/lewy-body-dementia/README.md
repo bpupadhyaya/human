@@ -184,6 +184,15 @@ cross_links:
   - target: 01-human/07-system/neuropathic-pain
     relation: connects-to
     note: "Pain is an under-recognized burden of Lewy body disease: α-synuclein degeneration of small autonomic and sensory fibres plus central pain-modulation deficits produce neuropathic and central pain alongside the parkinsonism."
+  - target: 01-human/03-molecular/nf-kb
+    relation: connects-to
+    note: "Microglia inflame the synuclein-laden brain: α-synuclein activates NF-κB in microglia, driving the cytokine output and NLRP3 priming that accelerate the neuronal loss of Lewy body disease."
+  - target: 01-human/07-system/osteoporosis
+    relation: connects-to
+    note: "Falls meet fragile bones: the parkinsonism, orthostatic hypotension and cognitive lapses of Lewy body dementia cause frequent falls, while immobility and low vitamin D thin the bones — a combination that makes fractures common."
+  - target: 01-human/07-system/sepsis
+    relation: connects-to
+    note: "Swallowing fails late in the disease: advancing Lewy body dementia brings dysphagia and aspiration, so aspiration pneumonia and the sepsis it triggers are a frequent terminal event."
 ---
 
 # Lewy Body Dementia
@@ -365,6 +374,9 @@ Approximately 25-50% of clinically diagnosed DLB cases have significant AD co-pa
 - `connects-to` → **[Cytotoxic T Cell](../../04-cellular/t-cytotoxic-cell/README.md)** — The immune system reads α-synuclein as foreign: cytotoxic T cells recognizing synuclein peptides are found in synucleinopathies and may help kill the neurons, adding an autoimmune arm to Lewy body disease.
 - `connects-to` → **[Serotonin](../../03-molecular/serotonin/README.md)** — Lewy pathology dims more than dopamine: degeneration of the serotonergic raphe lowers serotonin, contributing to the depression, anxiety, and REM-sleep disturbance that often shadow the cognitive decline.
 - `connects-to` → **[Melanoma](../melanoma/README.md)** — Synucleinopathies and melanoma travel together: as in Parkinson's, Lewy body disease carries a higher melanoma risk, a bidirectional link rooted in shared pigment and α-synuclein biology.
+- `connects-to` → **[NF-κB](../../03-molecular/nf-kb/README.md)** — Microglia inflame the synuclein-laden brain: α-synuclein activates NF-κB in microglia, driving the cytokine output and NLRP3 priming that accelerate the neuronal loss of Lewy body disease.
+- `connects-to` → **[Osteoporosis](../osteoporosis/README.md)** — Falls meet fragile bones: the parkinsonism, orthostatic hypotension and cognitive lapses of Lewy body dementia cause frequent falls, while immobility and low vitamin D thin the bones — a combination that makes fractures common.
+- `connects-to` → **[Sepsis](../sepsis/README.md)** — Swallowing fails late in the disease: advancing Lewy body dementia brings dysphagia and aspiration, so aspiration pneumonia and the sepsis it triggers are a frequent terminal event.
 
 [^mckeith-2017-dlb-criteria]: McKeith IG, Boeve BF, Dickson DW, et al. Diagnosis and management of dementia with Lewy bodies: Fourth consensus report of the DLB Consortium. *Neurology.* 2017;89(1):88-100. [doi:10.1212/WNL.0000000000004058](https://doi.org/10.1212/WNL.0000000000004058) · [PubMed 28592453](https://pubmed.ncbi.nlm.nih.gov/28592453/)
 [^spillantini-1997-lewy-body]: Spillantini MG, Schmidt ML, Lee VM, Trojanowski JQ, Jakes R, Goedert M. Alpha-synuclein in Lewy bodies. *Nature.* 1997;388(6645):839-840. [doi:10.1038/42166](https://doi.org/10.1038/42166) · [PubMed 9278044](https://pubmed.ncbi.nlm.nih.gov/9278044/)
