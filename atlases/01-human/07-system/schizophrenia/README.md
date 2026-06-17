@@ -205,6 +205,15 @@ cross_links:
   - target: 01-human/07-system/osteoporosis
     relation: connects-to
     note: "Prolactin-raising drugs thin the bones: many antipsychotics block dopamine to raise prolactin, suppressing sex hormones, and the resulting hypogonadism — with inactivity and smoking — accelerates bone loss toward osteoporosis."
+  - target: 01-human/07-system/obsessive-compulsive-disorder
+    relation: connects-to
+    note: "Obsessions commonly accompany psychosis: a substantial minority with schizophrenia have comorbid obsessive-compulsive symptoms (schizo-obsessive presentations), and some antipsychotics can themselves provoke them."
+  - target: 01-human/07-system/digestive-system
+    relation: connects-to
+    note: "Clozapine can paralyse the gut: the most effective antipsychotic causes severe gastrointestinal hypomotility, with constipation that can progress to ileus, obstruction and life-threatening bowel complications."
+  - target: 01-human/07-system/generalized-anxiety-disorder
+    relation: connects-to
+    note: "Anxiety pervades the illness: prominent anxiety and worry accompany the prodrome, active psychosis and insight into schizophrenia, frequently meeting criteria for a comorbid generalized anxiety disorder."
 ---
 
 # Schizophrenia
@@ -431,6 +440,9 @@ Notably, schizophrenia shares genetic loci with bipolar disorder, ASD, ADHD, maj
 - `connects-to` → **[Heart Failure](../heart-failure/README.md)** — Its antipsychotics and metabolic burden weaken the heart: clozapine can cause myocarditis and cardiomyopathy, and the diabetes, obesity and dyslipidemia driven by antipsychotics accelerate the cardiac disease that shortens schizophrenia lifespans.
 - `connects-to` → **[COPD](../copd/README.md)** — Very high smoking rates scar the lungs: people with schizophrenia smoke heavily, and the resulting chronic obstructive pulmonary disease is a major contributor to their markedly reduced life expectancy.
 - `connects-to` → **[Osteoporosis](../osteoporosis/README.md)** — Prolactin-raising drugs thin the bones: many antipsychotics block dopamine to raise prolactin, suppressing sex hormones, and the resulting hypogonadism — with inactivity and smoking — accelerates bone loss toward osteoporosis.
+- `connects-to` → **[Obsessive-Compulsive Disorder](../obsessive-compulsive-disorder/README.md)** — Obsessions commonly accompany psychosis: a substantial minority with schizophrenia have comorbid obsessive-compulsive symptoms (schizo-obsessive presentations), and some antipsychotics can themselves provoke them.
+- `connects-to` → **[Digestive System](../digestive-system/README.md)** — Clozapine can paralyse the gut: the most effective antipsychotic causes severe gastrointestinal hypomotility, with constipation that can progress to ileus, obstruction and life-threatening bowel complications.
+- `connects-to` → **[Generalized Anxiety Disorder](../generalized-anxiety-disorder/README.md)** — Anxiety pervades the illness: prominent anxiety and worry accompany the prodrome, active psychosis and insight into schizophrenia, frequently meeting criteria for a comorbid generalized anxiety disorder.
 
 [^howes-2009-dopamine-hypothesis]: Howes OD, Kapur S. The dopamine hypothesis of schizophrenia: version III—the final common pathway. *Schizophr Bull.* 2009;35(3):549-562. [doi:10.1093/schbul/sbp006](https://doi.org/10.1093/schbul/sbp006) · [PubMed 19325164](https://pubmed.ncbi.nlm.nih.gov/19325164/)
 [^moghaddam-2012-glutamate]: Moghaddam B, Javitt D. From revolution to evolution: the glutamate hypothesis of schizophrenia and its implication for treatment. *Neuropsychopharmacology.* 2012;37(1):4-15. [doi:10.1038/npp.2011.181](https://doi.org/10.1038/npp.2011.181) · [PubMed 21956446](https://pubmed.ncbi.nlm.nih.gov/21956446/)
