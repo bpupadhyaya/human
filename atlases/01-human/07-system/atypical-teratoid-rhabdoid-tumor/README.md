@@ -196,6 +196,15 @@ cross_links:
   - target: 01-human/07-system/heart-failure
     relation: connects-to
     note: "Its anthracyclines can scar the developing heart: doxorubicin used against ATRT is dose-dependently cardiotoxic, risking a cardiomyopathy and heart failure that can surface years into survivorship."
+  - target: 01-human/07-system/neuropathic-pain
+    relation: connects-to
+    note: "Vincristine and CNS injury leave lasting pain: the vincristine in ATRT regimens causes peripheral neuropathy, and tumor or surgery affecting the spinal cord adds neuropathic pain in these young patients."
+  - target: 01-human/07-system/anemia-of-chronic-disease
+    relation: connects-to
+    note: "Intensive therapy and tumor blunt the marrow: the aggressive multi-agent chemotherapy for ATRT plus the inflammatory burden of an advanced tumor suppress erythropoiesis into an anemia of chronic disease."
+  - target: 01-human/07-system/major-depressive-disorder
+    relation: connects-to
+    note: "A devastating infant brain cancer strains families: the dire prognosis, intensive treatment and neurological injury of ATRT impose a heavy psychological burden on survivors and their parents."
 ---
 
 # Atypical Teratoid/Rhabdoid Tumor
@@ -374,6 +383,9 @@ AT/RT has no established standard of care; protocols are protocol-driven and cen
 - `connects-to` → **[Aspergillus fumigatus](../../../02-pathogen/03-fungi/aspergillus-fumigatus/README.md)** — Prolonged neutropenia opens the lung to mold: the deep neutropenia of high-dose ATRT chemotherapy and stem-cell rescue lets inhaled Aspergillus invade as pulmonary aspergillosis, a dangerous infection in these infants.
 - `connects-to` → **[Chronic Kidney Disease](../ckd/README.md)** — Its platinum chemo is hard on small kidneys: the cisplatin and ifosfamide in ATRT regimens are nephrotoxic, and in an infant the tubular and electrolyte injury can leave lasting chronic kidney impairment.
 - `connects-to` → **[Heart Failure](../heart-failure/README.md)** — Its anthracyclines can scar the developing heart: doxorubicin used against ATRT is dose-dependently cardiotoxic, risking a cardiomyopathy and heart failure that can surface years into survivorship.
+- `connects-to` → **[Neuropathic Pain](../neuropathic-pain/README.md)** — Vincristine and CNS injury leave lasting pain: the vincristine in ATRT regimens causes peripheral neuropathy, and tumor or surgery affecting the spinal cord adds neuropathic pain in these young patients.
+- `connects-to` → **[Anemia of Chronic Disease](../anemia-of-chronic-disease/README.md)** — Intensive therapy and tumor blunt the marrow: the aggressive multi-agent chemotherapy for ATRT plus the inflammatory burden of an advanced tumor suppress erythropoiesis into an anemia of chronic disease.
+- `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — A devastating infant brain cancer strains families: the dire prognosis, intensive treatment and neurological injury of ATRT impose a heavy psychological burden on survivors and their parents.
 
 ---
 

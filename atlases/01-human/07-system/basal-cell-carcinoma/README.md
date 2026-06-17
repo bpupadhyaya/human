@@ -196,6 +196,15 @@ cross_links:
   - target: 01-human/07-system/major-depressive-disorder
     relation: connects-to
     note: "Facial disfigurement weighs on mood: basal cell carcinoma and its surgical removal commonly involve cosmetically sensitive areas of the face, and the resulting scarring and disfigurement can drive depression."
+  - target: 01-human/07-system/bladder-cancer
+    relation: connects-to
+    note: "Arsenic links skin and bladder cancer: chronic arsenic exposure causes basal cell carcinomas (often multiple and on covered skin) alongside an elevated risk of bladder cancer, a shared environmental carcinogenesis."
+  - target: 01-human/07-system/ckd
+    relation: connects-to
+    note: "Transplant immunosuppression multiplies skin cancer: the chronic immunosuppression after kidney transplantation markedly raises the risk and aggressiveness of basal cell and other skin carcinomas."
+  - target: 01-human/07-system/generalized-anxiety-disorder
+    relation: connects-to
+    note: "Visible lesions and recurrence breed worry: the cosmetically sensitive sites and tendency to develop further skin cancers in basal cell carcinoma fuel health anxiety alongside depression."
 ---
 
 # Basal Cell Carcinoma
@@ -377,6 +386,9 @@ BCC has a complex immune microenvironment:
 - `connects-to` → **[HIV](../hiv/README.md)** — Immune loss multiplies the lesions: HIV-related immunosuppression raises the incidence of basal cell carcinoma and can make it more aggressive and recurrent, part of the broader skin-cancer excess in immunocompromised hosts.
 - `connects-to` → **[Wound Healing](../wound-healing/README.md)** — It can erode into a non-healing ulcer: untreated basal cell carcinoma slowly destroys tissue as a 'rodent ulcer,' a chronic non-healing wound that gnaws into skin, cartilage and even bone.
 - `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — Facial disfigurement weighs on mood: basal cell carcinoma and its surgical removal commonly involve cosmetically sensitive areas of the face, and the resulting scarring and disfigurement can drive depression.
+- `connects-to` → **[Bladder Cancer](../bladder-cancer/README.md)** — Arsenic links skin and bladder cancer: chronic arsenic exposure causes basal cell carcinomas (often multiple and on covered skin) alongside an elevated risk of bladder cancer, a shared environmental carcinogenesis.
+- `connects-to` → **[Chronic Kidney Disease](../ckd/README.md)** — Transplant immunosuppression multiplies skin cancer: the chronic immunosuppression after kidney transplantation markedly raises the risk and aggressiveness of basal cell and other skin carcinomas.
+- `connects-to` → **[Generalized Anxiety Disorder](../generalized-anxiety-disorder/README.md)** — Visible lesions and recurrence breed worry: the cosmetically sensitive sites and tendency to develop further skin cancers in basal cell carcinoma fuel health anxiety alongside depression.
 
 ---
 
