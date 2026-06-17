@@ -181,6 +181,15 @@ cross_links:
   - target: 01-human/04-cellular/endothelial-cell
     relation: connects-to
     note: "Bone is built around its blood supply: specialized type-H endothelial cells couple angiogenesis to osteogenesis, and their age-related decline starves the niche of osteoblast progenitors, contributing to the bone loss of osteoporosis."
+  - target: 01-human/03-molecular/nf-kb
+    relation: connects-to
+    note: "It is the master switch that makes bone-eating cells: RANKL signals through NF-κB to drive osteoclast differentiation and activity, the central pathway whose unchecked activity tips the balance toward bone loss in osteoporosis."
+  - target: 01-human/07-system/copd
+    relation: connects-to
+    note: "Lung disease quietly thins the skeleton: COPD drives secondary osteoporosis through systemic inflammation, inactivity, low vitamin D and the corticosteroids used to treat it, so fractures are a common comorbidity."
+  - target: 01-human/07-system/inflammatory-bowel-disease
+    relation: connects-to
+    note: "An inflamed gut weakens the bones: inflammatory bowel disease causes osteoporosis via chronic inflammation, malabsorption of calcium and vitamin D, and repeated courses of corticosteroids."
 ---
 
 # Osteoporosis
@@ -343,6 +352,9 @@ All newly diagnosed osteoporosis should be evaluated for secondary causes: CBC (
 - `connects-to` → **[Chronic Kidney Disease](../ckd/README.md)** — Failing kidneys derange the bone: CKD's retained phosphate, low active vitamin D, and high PTH and FGF23 produce renal osteodystrophy, a complex mineral-bone disease that weakens the skeleton beyond ordinary osteoporosis.
 - `connects-to` → **[Growth Hormone](../../03-molecular/growth-hormone/README.md)** — Growth hormone keeps building bone through life: GH and the IGF-1 it drives stimulate osteoblasts and bone turnover, so the decline of the GH axis with age and adult GH deficiency contributes to thinning bone.
 - `connects-to` → **[Cytotoxic T Cell](../../04-cellular/t-cytotoxic-cell/README.md)** — Immune cells join the bone-loss circuit: in osteoimmunology, activated T cells secrete RANKL and inflammatory cytokines that spur osteoclasts, part of why chronic inflammation and estrogen loss accelerate bone resorption.
+- `connects-to` → **[NF-κB](../../03-molecular/nf-kb/README.md)** — It is the master switch that makes bone-eating cells: RANKL signals through NF-κB to drive osteoclast differentiation and activity, the central pathway whose unchecked activity tips the balance toward bone loss in osteoporosis.
+- `connects-to` → **[COPD](../copd/README.md)** — Lung disease quietly thins the skeleton: COPD drives secondary osteoporosis through systemic inflammation, inactivity, low vitamin D and the corticosteroids used to treat it, so fractures are a common comorbidity.
+- `connects-to` → **[Inflammatory Bowel Disease](../inflammatory-bowel-disease/README.md)** — An inflamed gut weakens the bones: inflammatory bowel disease causes osteoporosis via chronic inflammation, malabsorption of calcium and vitamin D, and repeated courses of corticosteroids.
 
 [^kanis-2019-who-osteoporosis]: Kanis JA, Cooper C, Rizzoli R, Reginster JY. European guidance for the diagnosis and management of osteoporosis in postmenopausal women. *Osteoporos Int.* 2019;30(1):3-44. [doi:10.1007/s00198-018-4704-5](https://doi.org/10.1007/s00198-018-4704-5) · [PubMed 30324412](https://pubmed.ncbi.nlm.nih.gov/30324412/)
 [^cosman-2016-romosozumab]: Cosman F, Crittenden DB, Adachi JD, et al. Romosozumab treatment in postmenopausal women with osteoporosis. *N Engl J Med.* 2016;375(16):1532-1543. [doi:10.1056/NEJMoa1607948](https://doi.org/10.1056/NEJMoa1607948) · [PubMed 27641143](https://pubmed.ncbi.nlm.nih.gov/27641143/)

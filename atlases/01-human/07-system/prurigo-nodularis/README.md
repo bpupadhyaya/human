@@ -175,6 +175,15 @@ cross_links:
   - target: 01-human/07-system/generalized-anxiety-disorder
     relation: connects-to
     note: "The itch-scratch cycle and the mind feed each other: the relentless pruritus of prurigo nodularis drives anxiety and sleep loss, while stress lowers the itch threshold — a psychodermatologic loop that worsens both conditions."
+  - target: 01-human/03-molecular/stat3
+    relation: connects-to
+    note: "The itch cytokines all funnel through JAK-STAT3: IL-31, IL-13 and IL-4 signal via STAT3 in sensory neurons and immune cells to drive pruritus and nodule formation, which is why JAK inhibitors quiet prurigo nodularis."
+  - target: 01-human/03-molecular/nf-kb
+    relation: connects-to
+    note: "Chronic scratching and inflammation feed NF-κB: repeated skin trauma and type-2 cytokines activate NF-κB in keratinocytes and immune cells, sustaining the inflammation that thickens the nodules of the disease."
+  - target: 01-human/07-system/opioid-use-disorder
+    relation: connects-to
+    note: "Opioids and itch are entwined: chronic opioid use causes pruritus that can drive a prurigo-like picture through the mu-opioid system, while kappa-opioid-modulating drugs are used to treat the intractable itch."
 ---
 
 # Prurigo Nodularis
@@ -310,6 +319,9 @@ PN affects approximately **72,000 patients** in the US; true prevalence is likel
 - `connects-to` → **[Interleukin-5](../../03-molecular/il-5/README.md)** — Eosinophils answer IL-5 in the nodule: this type-2 cytokine recruits and activates the eosinophils found in prurigo lesions, part of the Th2 milieu that anti-type-2 biologics aim to quiet.
 - `connects-to` → **[IL-33](../../03-molecular/il-33/README.md)** — A damaged skin barrier releases IL-33: this alarmin from stressed keratinocytes ignites the type-2 and neuroimmune cascade, both amplifying itch-driving sensory nerves and the Th2 inflammation that builds prurigo nodules.
 - `connects-to` → **[Generalized Anxiety Disorder](../generalized-anxiety-disorder/README.md)** — The itch-scratch cycle and the mind feed each other: the relentless pruritus of prurigo nodularis drives anxiety and sleep loss, while stress lowers the itch threshold — a psychodermatologic loop that worsens both conditions.
+- `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — The itch cytokines all funnel through JAK-STAT3: IL-31, IL-13 and IL-4 signal via STAT3 in sensory neurons and immune cells to drive pruritus and nodule formation, which is why JAK inhibitors quiet prurigo nodularis.
+- `connects-to` → **[NF-κB](../../03-molecular/nf-kb/README.md)** — Chronic scratching and inflammation feed NF-κB: repeated skin trauma and type-2 cytokines activate NF-κB in keratinocytes and immune cells, sustaining the inflammation that thickens the nodules of the disease.
+- `connects-to` → **[Opioid Use Disorder](../opioid-use-disorder/README.md)** — Opioids and itch are entwined: chronic opioid use causes pruritus that can drive a prurigo-like picture through the mu-opioid system, while kappa-opioid-modulating drugs are used to treat the intractable itch.
 
 [^stander-2020-nemolizumab-pn]: Ständer S, Yosipovitch G, Legat FJ, et al. Trial of nemolizumab in moderate-to-severe prurigo nodularis. *N Engl J Med.* 2020;382(8):706-716. [doi:10.1056/NEJMoa1908316](https://doi.org/10.1056/NEJMoa1908316) · [PubMed 32053299](https://pubmed.ncbi.nlm.nih.gov/32053299/)
 [^briggs-2022-dupilumab-pn-liberty]: Briggs JN, Cho YY, Khanna R, et al. Dupilumab for prurigo nodularis: the LIBERTY-PN PRIME and PRIME2 trials. *N Engl J Med.* 2022;387(18):1683-1693. [doi:10.1056/NEJMoa2205093](https://doi.org/10.1056/NEJMoa2205093) · [PubMed 36300905](https://pubmed.ncbi.nlm.nih.gov/36300905/)
