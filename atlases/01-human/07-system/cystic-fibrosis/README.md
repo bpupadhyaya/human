@@ -196,6 +196,15 @@ cross_links:
   - target: 01-human/07-system/major-depressive-disorder
     relation: connects-to
     note: "A demanding lifelong illness weighs on mood: the daily treatment burden, recurrent infections and shortened life expectancy of CF carry high rates of depression and anxiety, now routinely screened for."
+  - target: 01-human/07-system/venous-thromboembolism
+    relation: connects-to
+    note: "Its indwelling lines clot the veins: the long-term central venous catheters and ports CF patients need for repeated IV antibiotics, plus chronic inflammation, raise the risk of venous thromboembolism."
+  - target: 01-human/07-system/hcc
+    relation: connects-to
+    note: "Its liver disease can scar toward cancer: CF-related liver disease causes biliary cirrhosis in a subset of patients, and the resulting cirrhosis carries a risk of hepatocellular carcinoma."
+  - target: 01-human/07-system/generalized-anxiety-disorder
+    relation: connects-to
+    note: "A relentless treatment burden breeds worry: the constant therapies, fear of infection and uncertain prognosis of CF drive anxiety alongside depression, now part of routine mental-health screening."
 ---
 
 # Cystic Fibrosis
@@ -383,6 +392,9 @@ AND
 - `connects-to` → **[Chronic Kidney Disease](../ckd/README.md)** — Lifelong aminoglycosides scar the kidney: the repeated courses of nephrotoxic aminoglycosides for chronic Pseudomonas infection, plus dehydration from salt loss, leave many CF patients with chronic kidney disease.
 - `connects-to` → **[Pancreatic Cancer](../pancreatic-cancer/README.md)** — Chronic pancreatic damage raises the cancer risk: the recurrent pancreatic inflammation and duct injury of CF are associated with an elevated risk of pancreatic and other digestive-tract cancers in adults.
 - `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — A demanding lifelong illness weighs on mood: the daily treatment burden, recurrent infections and shortened life expectancy of CF carry high rates of depression and anxiety, now routinely screened for.
+- `connects-to` → **[Venous Thromboembolism](../venous-thromboembolism/README.md)** — Its indwelling lines clot the veins: the long-term central venous catheters and ports CF patients need for repeated IV antibiotics, plus chronic inflammation, raise the risk of venous thromboembolism.
+- `connects-to` → **[Hepatocellular Carcinoma](../hcc/README.md)** — Its liver disease can scar toward cancer: CF-related liver disease causes biliary cirrhosis in a subset of patients, and the resulting cirrhosis carries a risk of hepatocellular carcinoma.
+- `connects-to` → **[Generalized Anxiety Disorder](../generalized-anxiety-disorder/README.md)** — A relentless treatment burden breeds worry: the constant therapies, fear of infection and uncertain prognosis of CF drive anxiety alongside depression, now part of routine mental-health screening.
 
 ---
 

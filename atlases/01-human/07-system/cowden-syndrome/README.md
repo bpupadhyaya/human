@@ -196,6 +196,15 @@ cross_links:
   - target: 01-human/07-system/ckd
     relation: connects-to
     note: "Recurrent kidney tumors cost nephrons: Cowden's high lifetime risk of renal cell carcinoma demands repeated nephron-sparing surgeries, so the cumulative loss of kidney tissue can progress to chronic kidney disease."
+  - target: 01-human/07-system/epilepsy
+    relation: connects-to
+    note: "Brain hamartomas can spark seizures: Cowden's PTEN defect causes macrocephaly, cortical malformations and the cerebellar Lhermitte-Duclos lesion, raising the risk of seizures and epilepsy."
+  - target: 02-pathogen/03-fungi/aspergillus-fumigatus
+    relation: connects-to
+    note: "Treating its many cancers opens the lung to mold: the chemotherapy for the breast, thyroid and other cancers Cowden predisposes to causes neutropenia, allowing inhaled Aspergillus to invade."
+  - target: 01-human/07-system/generalized-anxiety-disorder
+    relation: connects-to
+    note: "Constant cancer surveillance breeds worry: the lifelong multi-organ cancer screening of Cowden, often alongside its associated autism and anxiety traits, fosters chronic health anxiety."
 ---
 
 # Cowden Syndrome
@@ -435,6 +444,9 @@ cross_links:
 - `connects-to` → **[Venous Thromboembolism](../venous-thromboembolism/README.md)** — A lifetime of cancers and surgery raises the clot risk: the multiple malignancies of Cowden syndrome and the repeated operations they require bring tumor-associated hypercoagulability and perioperative venous thromboembolism.
 - `connects-to` → **[Anemia of Chronic Disease](../anemia-of-chronic-disease/README.md)** — Bleeding hamartomas and cancer lower the count: the GI hamartomatous polyps of Cowden bleed chronically while its cancers add inflammation, together producing iron loss and an anemia-of-chronic-disease component.
 - `connects-to` → **[Chronic Kidney Disease](../ckd/README.md)** — Recurrent kidney tumors cost nephrons: Cowden's high lifetime risk of renal cell carcinoma demands repeated nephron-sparing surgeries, so the cumulative loss of kidney tissue can progress to chronic kidney disease.
+- `connects-to` → **[Epilepsy](../epilepsy/README.md)** — Brain hamartomas can spark seizures: Cowden's PTEN defect causes macrocephaly, cortical malformations and the cerebellar Lhermitte-Duclos lesion, raising the risk of seizures and epilepsy.
+- `connects-to` → **[Aspergillus fumigatus](../../../02-pathogen/03-fungi/aspergillus-fumigatus/README.md)** — Treating its many cancers opens the lung to mold: the chemotherapy for the breast, thyroid and other cancers Cowden predisposes to causes neutropenia, allowing inhaled Aspergillus to invade.
+- `connects-to` → **[Generalized Anxiety Disorder](../generalized-anxiety-disorder/README.md)** — Constant cancer surveillance breeds worry: the lifelong multi-organ cancer screening of Cowden, often alongside its associated autism and anxiety traits, fosters chronic health anxiety.
 
 ---
 
