@@ -193,6 +193,15 @@ cross_links:
   - target: 01-human/07-system/major-depressive-disorder
     relation: connects-to
     note: "Survivors carry a lasting mental toll: even after ADAMTS13 recovers, TTP survivors have high rates of depression and cognitive impairment, a long-term neuropsychiatric sequela of the cerebral microvascular injury and traumatic illness."
+  - target: 01-human/07-system/ptsd
+    relation: connects-to
+    note: "A sudden life-threatening, relapsing illness can scar the mind: surviving acute TTP and living under the threat of relapse leaves many patients with post-traumatic stress symptoms, a recognized psychological aftermath of the disease."
+  - target: 02-pathogen/01-viruses/hepatitis-b-virus
+    relation: connects-to
+    note: "Its rituximab can reactivate dormant hepatitis B: the anti-CD20 antibody used to treat and prevent relapse in immune TTP depletes B cells, so screening and antiviral prophylaxis for hepatitis B precede therapy."
+  - target: 02-pathogen/03-fungi/pneumocystis-jirovecii
+    relation: connects-to
+    note: "Rituximab and steroids blunt defense against Pneumocystis: the B-cell depletion and corticosteroids used in immune TTP suppress immunity enough that Pneumocystis pneumonia becomes a risk, sometimes prompting prophylaxis."
 ---
 
 # Thrombotic Thrombocytopenic Purpura
@@ -406,6 +415,9 @@ In healthy individuals, ADAMTS13 (~190 kDa plasma glycoprotein; hepatic synthesi
 - `connects-to` → **[Chronic Kidney Disease](../ckd/README.md)** — Microthrombi scar the kidney over time: even when acute renal failure is milder than in HUS, the renal microvascular injury of repeated TTP episodes can leave residual chronic kidney disease in survivors.
 - `connects-to` → **[Heart Failure](../heart-failure/README.md)** — The heart is a hidden target: microvascular thrombi in the myocardium during acute TTP cause troponin rise, arrhythmia and cardiac dysfunction — a leading cause of death — that can leave lasting heart failure.
 - `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — Survivors carry a lasting mental toll: even after ADAMTS13 recovers, TTP survivors have high rates of depression and cognitive impairment, a long-term neuropsychiatric sequela of the cerebral microvascular injury and traumatic illness.
+- `connects-to` → **[PTSD](../ptsd/README.md)** — A sudden life-threatening, relapsing illness can scar the mind: surviving acute TTP and living under the threat of relapse leaves many patients with post-traumatic stress symptoms, a recognized psychological aftermath of the disease.
+- `connects-to` → **[Hepatitis B virus](../../../02-pathogen/01-viruses/hepatitis-b-virus/README.md)** — Its rituximab can reactivate dormant hepatitis B: the anti-CD20 antibody used to treat and prevent relapse in immune TTP depletes B cells, so screening and antiviral prophylaxis for hepatitis B precede therapy.
+- `connects-to` → **[Pneumocystis jirovecii](../../../02-pathogen/03-fungi/pneumocystis-jirovecii/README.md)** — Rituximab and steroids blunt defense against Pneumocystis: the B-cell depletion and corticosteroids used in immune TTP suppress immunity enough that Pneumocystis pneumonia becomes a risk, sometimes prompting prophylaxis.
 
 ---
 
