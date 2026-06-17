@@ -193,6 +193,15 @@ cross_links:
   - target: 01-human/07-system/cannabis-use-disorder
     relation: connects-to
     note: "Cannabis cuts both ways with panic: it can acutely trigger panic attacks and, with heavy use and withdrawal, worsen the disorder, even as some users turn to it to self-medicate anxiety."
+  - target: 01-human/07-system/hypertension
+    relation: connects-to
+    note: "Repeated catecholamine surges press on the arteries: each panic attack floods the body with adrenaline and noradrenaline, and the chronic autonomic arousal of panic disorder is linked to higher rates of sustained hypertension."
+  - target: 01-human/07-system/heart-failure
+    relation: connects-to
+    note: "Acute panic can stun the heart: an intense surge of stress hormones during a severe attack can precipitate takotsubo (stress) cardiomyopathy, a transient but real cause of acute heart failure that mimics a heart attack."
+  - target: 01-human/07-system/stroke
+    relation: connects-to
+    note: "Chronic panic tracks with cerebrovascular risk: the autonomic arousal, hypertension and platelet activation tied to panic disorder, plus its overlap with smoking and inactivity, are associated with an elevated long-term risk of stroke."
 ---
 
 # Panic Disorder
@@ -396,6 +405,9 @@ The **interoceptive fear conditioning model** (Bouton, Mineka, Barlow) explains 
 - `connects-to` → **[NF-κB](../../03-molecular/nf-kb/README.md)** — Chronic alarm leaves an inflammatory mark: the repeated stress responses of panic disorder activate NF-κB-driven cytokine signaling, a low-grade inflammation tied to its physical-health comorbidities.
 - `connects-to` → **[Bipolar Disorder](../bipolar-disorder/README.md)** — Panic rides with mood instability: panic disorder is over-represented in bipolar disorder, the comorbidity worsening its course and raising suicide risk, a pairing that shapes treatment choices.
 - `connects-to` → **[Cannabis Use Disorder](../cannabis-use-disorder/README.md)** — Cannabis cuts both ways with panic: it can acutely trigger panic attacks and, with heavy use and withdrawal, worsen the disorder, even as some users turn to it to self-medicate anxiety.
+- `connects-to` → **[Hypertension](../hypertension/README.md)** — Repeated catecholamine surges press on the arteries: each panic attack floods the body with adrenaline and noradrenaline, and the chronic autonomic arousal of panic disorder is linked to higher rates of sustained hypertension.
+- `connects-to` → **[Heart Failure](../heart-failure/README.md)** — Acute panic can stun the heart: an intense surge of stress hormones during a severe attack can precipitate takotsubo (stress) cardiomyopathy, a transient but real cause of acute heart failure that mimics a heart attack.
+- `connects-to` → **[Stroke](../stroke/README.md)** — Chronic panic tracks with cerebrovascular risk: the autonomic arousal, hypertension and platelet activation tied to panic disorder, plus its overlap with smoking and inactivity, are associated with an elevated long-term risk of stroke.
 
 [^gorman-2000-panic-neurobiology]: Gorman JM, Kent JM, Sullivan GM, Coplan JD. Neuroanatomical hypothesis of panic disorder, revised. *Am J Psychiatry.* 2000;157(4):493-505. [doi:10.1176/appi.ajp.157.4.493](https://doi.org/10.1176/appi.ajp.157.4.493) · [PubMed 10739407](https://pubmed.ncbi.nlm.nih.gov/10739407/)
 [^nardi-2009-clonazepam-panic]: Nardi AE, Freire RC, Zin WA. Panic disorder and control of breathing. *Respir Physiol Neurobiol.* 2009;167(1):133-143. [doi:10.1016/j.resp.2008.07.011](https://doi.org/10.1016/j.resp.2008.07.011) · [PubMed 18708168](https://pubmed.ncbi.nlm.nih.gov/18708168/)

@@ -187,6 +187,15 @@ cross_links:
   - target: 01-human/07-system/ckd
     relation: connects-to
     note: "Its mainstay drug is hard on the kidneys: high-dose methotrexate, the backbone of PCNSL therapy, is nephrotoxic and itself cleared renally, so impaired or injured kidneys both threaten and are threatened by treatment."
+  - target: 02-pathogen/03-fungi/pneumocystis-jirovecii
+    relation: connects-to
+    note: "Its therapy's deep immunosuppression invites Pneumocystis: high-dose methotrexate, rituximab and corticosteroids leave PCNSL patients profoundly T-cell-suppressed, so prophylaxis against Pneumocystis pneumonia is routine throughout treatment."
+  - target: 02-pathogen/03-fungi/aspergillus-fumigatus
+    relation: connects-to
+    note: "Prolonged neutropenia and steroids open the door to mold: the intensive chemoimmunotherapy for PCNSL causes deep neutropenia and immune suppression, letting inhaled Aspergillus invade as life-threatening pulmonary or cerebral aspergillosis."
+  - target: 01-human/07-system/major-depressive-disorder
+    relation: connects-to
+    note: "A brain cancer and its toxic therapy darken mood: PCNSL itself disrupts cerebral function, and the steroids, methotrexate neurotoxicity and possible whole-brain radiation add cognitive and depressive symptoms on top of the diagnosis."
 ---
 
 # Primary CNS Lymphoma
@@ -357,6 +366,9 @@ Score 0-1: 2-year OS ~80%; Score 2-3: ~48%; Score 4-5: ~15%
 - `connects-to` → **[Toxoplasma gondii](../../../02-pathogen/04-parasites/toxoplasma-gondii/README.md)** — Its great mimic in AIDS is a parasite: a ring-enhancing brain lesion in an immunocompromised patient forces the distinction between PCNSL and cerebral toxoplasmosis, sometimes settled only by EBV PCR, thallium scan or biopsy.
 - `connects-to` → **[Epilepsy](../epilepsy/README.md)** — A brain mass can spark seizures: PCNSL infiltrating the cerebral cortex can irritate it into seizures, part of the neurological presentation alongside cognitive and focal deficits.
 - `connects-to` → **[Chronic Kidney Disease](../ckd/README.md)** — Its mainstay drug is hard on the kidneys: high-dose methotrexate, the backbone of PCNSL therapy, is nephrotoxic and itself cleared renally, so impaired or injured kidneys both threaten and are threatened by treatment.
+- `connects-to` → **[Pneumocystis jirovecii](../../../02-pathogen/03-fungi/pneumocystis-jirovecii/README.md)** — Its therapy's deep immunosuppression invites Pneumocystis: high-dose methotrexate, rituximab and corticosteroids leave PCNSL patients profoundly T-cell-suppressed, so prophylaxis against Pneumocystis pneumonia is routine throughout treatment.
+- `connects-to` → **[Aspergillus fumigatus](../../../02-pathogen/03-fungi/aspergillus-fumigatus/README.md)** — Prolonged neutropenia and steroids open the door to mold: the intensive chemoimmunotherapy for PCNSL causes deep neutropenia and immune suppression, letting inhaled Aspergillus invade as life-threatening pulmonary or cerebral aspergillosis.
+- `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — A brain cancer and its toxic therapy darken mood: PCNSL itself disrupts cerebral function, and the steroids, methotrexate neurotoxicity and possible whole-brain radiation add cognitive and depressive symptoms on top of the diagnosis.
 
 [^bromberg-2019-hovon105]: Bromberg JE, Issa S, Bakunina K, et al. Rituximab in patients with primary CNS lymphoma (HOVON 105/ALLG NHL 24): a randomised, open-label, phase 3 intergroup study. *Lancet Oncol.* 2019;20(2):216-228. [doi:10.1016/S1470-2045(18)30747-2](https://doi.org/10.1016/S1470-2045(18)30747-2) · [PubMed 30528440](https://pubmed.ncbi.nlm.nih.gov/30528440/)
 [^grommes-2017-ibrutinib-pcnsl]: Grommes C, Pastore A, Palaskas N, et al. Ibrutinib unmasks critical role of Bruton tyrosine kinase in primary CNS lymphoma. *Cancer Cell.* 2017;31(6):833-843. [doi:10.1016/j.ccell.2017.04.012](https://doi.org/10.1016/j.ccell.2017.04.012) · [PubMed 28552327](https://pubmed.ncbi.nlm.nih.gov/28552327/)
