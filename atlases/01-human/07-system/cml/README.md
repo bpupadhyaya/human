@@ -187,6 +187,15 @@ cross_links:
   - target: 01-human/07-system/sepsis
     relation: connects-to
     note: "Advanced disease strips the defenses: blast crisis and its intensive chemotherapy cause the neutropenia and immune failure that make febrile neutropenia and sepsis a danger in progressive CML."
+  - target: 01-human/07-system/pulmonary-arterial-hypertension
+    relation: connects-to
+    note: "One of its drugs scars the lung vessels: dasatinib, a second-generation TKI for CML, causes pleural effusions and a reversible pulmonary arterial hypertension, a distinctive class toxicity needing monitoring."
+  - target: 01-human/07-system/heart-failure
+    relation: connects-to
+    note: "Later TKIs strain the heart: nilotinib and ponatinib used in CML carry cardiovascular toxicity — arterial events, hypertension and cardiac dysfunction — that can contribute to heart failure over long-term therapy."
+  - target: 01-human/07-system/major-depressive-disorder
+    relation: connects-to
+    note: "Lifelong treatment weighs on mood: the open-ended daily TKI therapy, its chronic side effects and the psychological weight of living with leukemia contribute to depression and reduced quality of life in CML."
 ---
 
 # Chronic Myeloid Leukemia
@@ -356,6 +365,9 @@ Following the imatinib revolution, the current frontier is achieving **deep mole
 - `connects-to` → **[NF-κB](../../03-molecular/nf-kb/README.md)** — BCR-ABL routes survival through NF-κB: the fusion kinase activates NF-κB among its downstream pathways, supporting leukemic-cell survival and contributing to the resistance that emerges in advanced-phase disease.
 - `connects-to` → **[Venous Thromboembolism](../venous-thromboembolism/README.md)** — Some of its drugs damage vessels: the later-generation TKIs nilotinib and especially ponatinib cause arterial and venous vascular events, so thrombosis is a recognized hazard of long-term CML therapy.
 - `connects-to` → **[Sepsis](../sepsis/README.md)** — Advanced disease strips the defenses: blast crisis and its intensive chemotherapy cause the neutropenia and immune failure that make febrile neutropenia and sepsis a danger in progressive CML.
+- `connects-to` → **[Pulmonary Arterial Hypertension](../pulmonary-arterial-hypertension/README.md)** — One of its drugs scars the lung vessels: dasatinib, a second-generation TKI for CML, causes pleural effusions and a reversible pulmonary arterial hypertension, a distinctive class toxicity needing monitoring.
+- `connects-to` → **[Heart Failure](../heart-failure/README.md)** — Later TKIs strain the heart: nilotinib and ponatinib used in CML carry cardiovascular toxicity — arterial events, hypertension and cardiac dysfunction — that can contribute to heart failure over long-term therapy.
+- `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — Lifelong treatment weighs on mood: the open-ended daily TKI therapy, its chronic side effects and the psychological weight of living with leukemia contribute to depression and reduced quality of life in CML.
 
 ---
 

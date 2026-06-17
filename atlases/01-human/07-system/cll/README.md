@@ -187,6 +187,15 @@ cross_links:
   - target: 01-human/07-system/venous-thromboembolism
     relation: connects-to
     note: "The malignancy and its drugs raise clot risk: CLL carries an increased venous thromboembolism rate, and some targeted agents add their own thrombotic and bleeding hazards on top of the disease's baseline risk."
+  - target: 02-pathogen/03-fungi/aspergillus-fumigatus
+    relation: connects-to
+    note: "Its immune defects and BTK inhibitors invite mold: CLL's profound immune dysfunction, and ibrutinib in particular, are associated with invasive aspergillosis, a serious opportunistic infection in these patients."
+  - target: 02-pathogen/01-viruses/hepatitis-b-virus
+    relation: connects-to
+    note: "Anti-CD20 therapy can reactivate it: the rituximab and obinutuzumab used against CLL deplete B cells and can reawaken latent hepatitis B, so screening and antiviral prophylaxis precede treatment."
+  - target: 01-human/07-system/anemia-of-chronic-disease
+    relation: connects-to
+    note: "Marrow takeover and inflammation lower the count: alongside its autoimmune hemolytic anemia, CLL crowds the marrow and drives inflammation that suppresses erythropoiesis into an anemia of chronic disease."
 ---
 
 # CLL
@@ -356,6 +365,9 @@ BCR cross-linking → LYN (SRC kinase) phosphorylates CD79a/b ITAMs → SYK recr
 - `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — STAT3 keeps the leukemic B cell alive: microenvironmental cytokines activate STAT3 in CLL cells, supporting their survival and helping the clone resist apoptosis within its protective lymph-node niche.
 - `connects-to` → **[Sepsis](../sepsis/README.md)** — Immune failure is the great killer: progressive hypogammaglobulinemia and T-cell dysfunction, deepened by therapy, leave CLL patients prone to overwhelming infection, and sepsis is a leading cause of death.
 - `connects-to` → **[Venous Thromboembolism](../venous-thromboembolism/README.md)** — The malignancy and its drugs raise clot risk: CLL carries an increased venous thromboembolism rate, and some targeted agents add their own thrombotic and bleeding hazards on top of the disease's baseline risk.
+- `connects-to` → **[Aspergillus fumigatus](../../../02-pathogen/03-fungi/aspergillus-fumigatus/README.md)** — Its immune defects and BTK inhibitors invite mold: CLL's profound immune dysfunction, and ibrutinib in particular, are associated with invasive aspergillosis, a serious opportunistic infection in these patients.
+- `connects-to` → **[Hepatitis B Virus](../../../02-pathogen/01-viruses/hepatitis-b-virus/README.md)** — Anti-CD20 therapy can reactivate it: the rituximab and obinutuzumab used against CLL deplete B cells and can reawaken latent hepatitis B, so screening and antiviral prophylaxis precede treatment.
+- `connects-to` → **[Anemia of Chronic Disease](../anemia-of-chronic-disease/README.md)** — Marrow takeover and inflammation lower the count: alongside its autoimmune hemolytic anemia, CLL crowds the marrow and drives inflammation that suppresses erythropoiesis into an anemia of chronic disease.
 
 ---
 
