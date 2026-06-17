@@ -202,6 +202,15 @@ cross_links:
   - target: 01-human/07-system/anemia-of-chronic-disease
     relation: connects-to
     note: "Chronic inflammation and renal disease lower the count: longstanding tophaceous gout's persistent inflammation, compounded by the chronic kidney disease that so often accompanies it, can produce an anemia of chronic disease."
+  - target: 01-human/07-system/wound-healing
+    relation: connects-to
+    note: "Tophi erode through the skin: large chronic tophi can ulcerate and discharge chalky urate, leaving open wounds over joints that are slow to heal and prone to infection."
+  - target: 02-pathogen/02-bacteria/staphylococcus-aureus
+    relation: connects-to
+    note: "Ulcerated tophi invite Staph: when a tophus breaks through the skin, Staphylococcus aureus readily colonizes and infects it, risking cellulitis, septic arthritis and bloodstream infection."
+  - target: 01-human/07-system/osteoporosis
+    relation: connects-to
+    note: "Chronic inflammation and immobility cost bone: longstanding gout's persistent inflammation, joint damage and reduced mobility are associated with lower bone density and a raised fracture risk."
 ---
 
 # Gout
@@ -356,6 +365,9 @@ The central mechanism linking MSU crystals to acute gouty arthritis is **NLRP3 i
 - `connects-to` → **[NASH](../nash/README.md)** — Hyperuricemia and fatty liver cluster: gout sits squarely in the metabolic syndrome, and its insulin resistance and fructose metabolism strongly associate it with non-alcoholic steatohepatitis.
 - `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — Recurrent disabling pain weighs on mood: the unpredictable, intensely painful flares and chronic joint damage of tophaceous gout reduce quality of life and carry an elevated rate of depression.
 - `connects-to` → **[Anemia of Chronic Disease](../anemia-of-chronic-disease/README.md)** — Chronic inflammation and renal disease lower the count: longstanding tophaceous gout's persistent inflammation, compounded by the chronic kidney disease that so often accompanies it, can produce an anemia of chronic disease.
+- `connects-to` → **[Wound Healing](../wound-healing/README.md)** — Tophi erode through the skin: large chronic tophi can ulcerate and discharge chalky urate, leaving open wounds over joints that are slow to heal and prone to infection.
+- `connects-to` → **[Staphylococcus aureus](../../../02-pathogen/02-bacteria/staphylococcus-aureus/README.md)** — Ulcerated tophi invite Staph: when a tophus breaks through the skin, Staphylococcus aureus readily colonizes and infects it, risking cellulitis, septic arthritis and bloodstream infection.
+- `connects-to` → **[Osteoporosis](../osteoporosis/README.md)** — Chronic inflammation and immobility cost bone: longstanding gout's persistent inflammation, joint damage and reduced mobility are associated with lower bone density and a raised fracture risk.
 
 [^dalbeth-2019-gout-primer]: Dalbeth N, Choi HK, Joosten LAB, et al. Gout. *Nat Rev Dis Primers.* 2019;5(1):69. [doi:10.1038/s41572-019-0115-y](https://doi.org/10.1038/s41572-019-0115-y) · [PubMed 31558729](https://pubmed.ncbi.nlm.nih.gov/31558729/)
 [^martinon-2006-nlrp3-gout]: Martinon F, Pétrilli V, Mayor A, Tardivel A, Tschopp J. Gout-associated uric acid crystals activate the NALP3 inflammasome. *Nature.* 2006;440(7081):237-241. [doi:10.1038/nature04516](https://doi.org/10.1038/nature04516) · [PubMed 16407889](https://pubmed.ncbi.nlm.nih.gov/16407889/)

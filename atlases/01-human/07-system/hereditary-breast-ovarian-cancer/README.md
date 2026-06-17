@@ -196,6 +196,15 @@ cross_links:
   - target: 01-human/07-system/ckd
     relation: connects-to
     note: "Platinum chemo strains the kidney: the cisplatin and carboplatin central to treating the ovarian cancers of HBOC carriers are nephrotoxic, and cumulative exposure can leave chronic kidney impairment."
+  - target: 01-human/07-system/generalized-anxiety-disorder
+    relation: connects-to
+    note: "A genetic verdict and hard choices breed worry: learning of a BRCA mutation, weighing risk-reducing mastectomy and oophorectomy, and lifelong screening foster chronic health anxiety in HBOC carriers."
+  - target: 01-human/07-system/neuropathic-pain
+    relation: connects-to
+    note: "Its chemotherapy injures the nerves: the platinum and taxane chemotherapy and post-mastectomy surgery in HBOC carriers cause peripheral and post-surgical neuropathic pain."
+  - target: 02-pathogen/03-fungi/aspergillus-fumigatus
+    relation: connects-to
+    note: "Chemotherapy opens the lung to mold: the neutropenia from chemotherapy for the breast and ovarian cancers of HBOC carriers can let inhaled Aspergillus invade as pulmonary aspergillosis."
 ---
 
 # Hereditary Breast and Ovarian Cancer
@@ -391,6 +400,9 @@ BRCA-mutant cells (HRD):
 - `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — Carrying the mutation weighs on the mind: learning of a high inherited cancer risk and facing prophylactic mastectomy and oophorectomy impose a heavy psychological burden, with depression common among carriers.
 - `connects-to` → **[Heart Failure](../heart-failure/README.md)** — Breast-cancer therapy can wound the heart: the anthracyclines and HER2-directed trastuzumab used to treat cancers in HBOC carriers are cardiotoxic, risking a cardiomyopathy and heart failure.
 - `connects-to` → **[Chronic Kidney Disease](../ckd/README.md)** — Platinum chemo strains the kidney: the cisplatin and carboplatin central to treating the ovarian cancers of HBOC carriers are nephrotoxic, and cumulative exposure can leave chronic kidney impairment.
+- `connects-to` → **[Generalized Anxiety Disorder](../generalized-anxiety-disorder/README.md)** — A genetic verdict and hard choices breed worry: learning of a BRCA mutation, weighing risk-reducing mastectomy and oophorectomy, and lifelong screening foster chronic health anxiety in HBOC carriers.
+- `connects-to` → **[Neuropathic Pain](../neuropathic-pain/README.md)** — Its chemotherapy injures the nerves: the platinum and taxane chemotherapy and post-mastectomy surgery in HBOC carriers cause peripheral and post-surgical neuropathic pain.
+- `connects-to` → **[Aspergillus fumigatus](../../../02-pathogen/03-fungi/aspergillus-fumigatus/README.md)** — Chemotherapy opens the lung to mold: the neutropenia from chemotherapy for the breast and ovarian cancers of HBOC carriers can let inhaled Aspergillus invade as pulmonary aspergillosis.
 
 ---
 
