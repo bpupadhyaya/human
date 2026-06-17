@@ -196,6 +196,15 @@ cross_links:
   - target: 01-human/07-system/major-depressive-disorder
     relation: connects-to
     note: "A chronic, flushing cancer wears on mood: the years-long course of metastatic NETs, the disabling diarrhea and flushing of carcinoid syndrome, and serotonin diversion away from the brain combine to raise depression risk."
+  - target: 01-human/07-system/generalized-anxiety-disorder
+    relation: connects-to
+    note: "Unpredictable flushing and a chronic cancer breed worry: the episodic carcinoid attacks, lifelong indolent-but-incurable course and continual imaging surveillance of NETs foster persistent health anxiety."
+  - target: 01-human/07-system/wound-healing
+    relation: connects-to
+    note: "Resecting the tumour and its liver deposits heals slowly: surgery for primary NETs and hepatic debulking, sometimes in malnourished patients with carcinoid diarrhoea, leaves wounds prone to delayed closure."
+  - target: 01-human/07-system/anemia-of-chronic-disease
+    relation: connects-to
+    note: "A smouldering tumour blunts the marrow: the chronic inflammatory state of metastatic NETs, compounded by GI blood loss from bowel primaries, produces a normocytic anemia of chronic disease."
 ---
 
 # Neuroendocrine Tumors
@@ -360,6 +369,9 @@ Treatment identical to SCLC: cisplatin (or carboplatin) + etoposide (4-6 cycles)
 - `connects-to` → **[Type 2 Diabetes](../type-2-diabetes/README.md)** — Their hormones and therapy unbalance glucose: pancreatic NETs like glucagonoma and somatostatinoma directly disturb glucose handling, and the somatostatin-analogue treatment used for most NETs suppresses insulin, together provoking diabetes.
 - `connects-to` → **[Chronic Kidney Disease](../ckd/README.md)** — Their radioligand therapy stresses the kidneys: peptide-receptor radionuclide therapy with lutetium-DOTATATE concentrates in the renal tubules, and the cumulative radiation can drive a slow decline into chronic kidney disease.
 - `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — A chronic, flushing cancer wears on mood: the years-long course of metastatic NETs, the disabling diarrhea and flushing of carcinoid syndrome, and serotonin diversion away from the brain combine to raise depression risk.
+- `connects-to` → **[Generalized Anxiety Disorder](../generalized-anxiety-disorder/README.md)** — Unpredictable flushing and a chronic cancer breed worry: the episodic carcinoid attacks, lifelong indolent-but-incurable course and continual imaging surveillance of NETs foster persistent health anxiety.
+- `connects-to` → **[Wound Healing](../wound-healing/README.md)** — Resecting the tumour and its liver deposits heals slowly: surgery for primary NETs and hepatic debulking, sometimes in malnourished patients with carcinoid diarrhoea, leaves wounds prone to delayed closure.
+- `connects-to` → **[Anemia of Chronic Disease](../anemia-of-chronic-disease/README.md)** — A smouldering tumour blunts the marrow: the chronic inflammatory state of metastatic NETs, compounded by GI blood loss from bowel primaries, produces a normocytic anemia of chronic disease.
 
 [^yao-2011-radiant3]: Yao JC, Shah MH, Ito T, et al. Everolimus for advanced pancreatic neuroendocrine tumors. *N Engl J Med.* 2011;364(6):514-523. [doi:10.1056/NEJMoa1009290](https://doi.org/10.1056/NEJMoa1009290) · [PubMed 21306237](https://pubmed.ncbi.nlm.nih.gov/21306237/)
 [^raymond-2011-sunitinib-pnet]: Raymond E, Dahan L, Raoul JL, et al. Sunitinib malate for the treatment of pancreatic neuroendocrine tumors. *N Engl J Med.* 2011;364(6):501-513. [doi:10.1056/NEJMoa1003825](https://doi.org/10.1056/NEJMoa1003825) · [PubMed 21306236](https://pubmed.ncbi.nlm.nih.gov/21306236/)

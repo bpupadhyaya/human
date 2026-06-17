@@ -196,6 +196,15 @@ cross_links:
   - target: 01-human/07-system/ckd
     relation: connects-to
     note: "Its platinum chemo scars young kidneys: the cisplatin and carboplatin central to neuroblastoma regimens are nephrotoxic, and in a child the tubular and electrolyte injury can leave lasting chronic kidney impairment."
+  - target: 02-pathogen/01-viruses/varicella-zoster-virus
+    relation: connects-to
+    note: "Transplant immunosuppression reawakens shingles: the autologous stem-cell transplant and immunotherapy for high-risk neuroblastoma deplete T-cell immunity, allowing latent varicella-zoster to reactivate."
+  - target: 01-human/07-system/wound-healing
+    relation: connects-to
+    note: "Resecting an abdominal mass heals slowly: the wide surgical removal of a neuroblastoma, often after chemotherapy in a malnourished child, leaves large wounds prone to dehiscence and delayed closure."
+  - target: 01-human/07-system/generalized-anxiety-disorder
+    relation: connects-to
+    note: "Childhood cancer breeds enduring worry: the intensive treatment, relapse risk and long survivorship surveillance of high-risk neuroblastoma foster chronic anxiety in survivors and their families."
 ---
 
 # Neuroblastoma
@@ -392,6 +401,9 @@ Stage MS (metastatic, <18 months, skin/liver/bone marrow only, MYCN wild-type): 
 - `connects-to` → **[Heart Failure](../heart-failure/README.md)** — Its anthracyclines scar the developing heart: the doxorubicin in high-risk neuroblastoma regimens is dose-dependently cardiotoxic, risking a cardiomyopathy and heart failure that can emerge years into survivorship.
 - `connects-to` → **[Aspergillus fumigatus](../../../02-pathogen/03-fungi/aspergillus-fumigatus/README.md)** — High-dose therapy strips the lung's defenses: the intensive chemotherapy and autologous stem-cell transplant for high-risk neuroblastoma cause profound neutropenia, letting inhaled Aspergillus invade as pulmonary aspergillosis.
 - `connects-to` → **[Chronic Kidney Disease](../ckd/README.md)** — Its platinum chemo scars young kidneys: the cisplatin and carboplatin central to neuroblastoma regimens are nephrotoxic, and in a child the tubular and electrolyte injury can leave lasting chronic kidney impairment.
+- `connects-to` → **[Varicella-Zoster Virus](../../../02-pathogen/01-viruses/varicella-zoster-virus/README.md)** — Transplant immunosuppression reawakens shingles: the autologous stem-cell transplant and immunotherapy for high-risk neuroblastoma deplete T-cell immunity, allowing latent varicella-zoster to reactivate.
+- `connects-to` → **[Wound Healing](../wound-healing/README.md)** — Resecting an abdominal mass heals slowly: the wide surgical removal of a neuroblastoma, often after chemotherapy in a malnourished child, leaves large wounds prone to dehiscence and delayed closure.
+- `connects-to` → **[Generalized Anxiety Disorder](../generalized-anxiety-disorder/README.md)** — Childhood cancer breeds enduring worry: the intensive treatment, relapse risk and long survivorship surveillance of high-risk neuroblastoma foster chronic anxiety in survivors and their families.
 
 [^yu-2010-dinutuximab-nb]: Yu AL, Gilman AL, Ozkaynak MF, et al. Anti-GD2 antibody with GM-CSF, interleukin-2, and isotretinoin for neuroblastoma. *N Engl J Med.* 2010;363(14):1324-1334. [doi:10.1056/NEJMoa0911123](https://doi.org/10.1056/NEJMoa0911123) · [PubMed 20879881](https://pubmed.ncbi.nlm.nih.gov/20879881/)
 [^park-2019-tandem-sct-nb]: Park JR, Kreissman SG, London WB, et al. Effect of tandem autologous stem cell transplant vs single transplant on event-free survival in patients with high-risk neuroblastoma: a randomized clinical trial. *JAMA.* 2019;322(8):746-755. [doi:10.1001/jama.2019.11642](https://doi.org/10.1001/jama.2019.11642) · [PubMed 31454023](https://pubmed.ncbi.nlm.nih.gov/31454023/)
