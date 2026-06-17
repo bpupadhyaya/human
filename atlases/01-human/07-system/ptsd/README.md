@@ -189,6 +189,15 @@ cross_links:
   - target: 01-human/07-system/opioid-use-disorder
     relation: connects-to
     note: "Trauma drives self-medication with opioids: PTSD is strongly comorbid with opioid use disorder, as sufferers turn to opioids to blunt hyperarousal and intrusive memories, deepening the addiction."
+  - target: 01-human/07-system/obesity
+    relation: connects-to
+    note: "Chronic stress reshapes the body: sustained cortisol, disrupted sleep and emotional eating in PTSD promote weight gain and central adiposity, contributing to a high rate of obesity and metabolic syndrome."
+  - target: 01-human/07-system/stroke
+    relation: connects-to
+    note: "Relentless stress wears on the vessels: PTSD's chronic sympathetic and HPA-axis activation raises blood pressure and inflammation, and epidemiologic studies link it to a higher long-term risk of ischemic stroke."
+  - target: 01-human/07-system/heart-failure
+    relation: connects-to
+    note: "The stressed heart can fail over time: chronic catecholamine surges, hypertension and inflammation in PTSD accelerate cardiovascular disease, and the disorder is associated with an increased incidence of heart failure."
 ---
 
 # PTSD
@@ -381,6 +390,9 @@ Not all trauma leads to PTSD. Risk and resilience factors include:
 - `connects-to` → **[NF-κB](../../03-molecular/nf-kb/README.md)** — Chronic stress smolders as inflammation: PTSD shows elevated NF-κB activity in immune cells, a stress-driven inflammatory signal that helps explain its raised risk of cardiovascular and metabolic disease.
 - `connects-to` → **[Nervous System](../nervous-system/README.md)** — It is a disorder of the brain's fear circuitry: PTSD reflects dysregulation across the amygdala, hippocampus and prefrontal cortex of the nervous system, the network that normally extinguishes fear after a threat passes.
 - `connects-to` → **[Opioid Use Disorder](../opioid-use-disorder/README.md)** — Trauma drives self-medication with opioids: PTSD is strongly comorbid with opioid use disorder, as sufferers turn to opioids to blunt hyperarousal and intrusive memories, deepening the addiction.
+- `connects-to` → **[Obesity](../obesity/README.md)** — Chronic stress reshapes the body: sustained cortisol, disrupted sleep and emotional eating in PTSD promote weight gain and central adiposity, contributing to a high rate of obesity and metabolic syndrome.
+- `connects-to` → **[Stroke](../stroke/README.md)** — Relentless stress wears on the vessels: PTSD's chronic sympathetic and HPA-axis activation raises blood pressure and inflammation, and epidemiologic studies link it to a higher long-term risk of ischemic stroke.
+- `connects-to` → **[Heart Failure](../heart-failure/README.md)** — The stressed heart can fail over time: chronic catecholamine surges, hypertension and inflammation in PTSD accelerate cardiovascular disease, and the disorder is associated with an increased incidence of heart failure.
 
 [^yehuda-2015-ptsd-review]: Yehuda R, Hoge CW, McFarlane AC, et al. Post-traumatic stress disorder. *Nat Rev Dis Primers.* 2015;1:15057. [doi:10.1038/nrdp.2015.57](https://doi.org/10.1038/nrdp.2015.57) · [PubMed 27189040](https://pubmed.ncbi.nlm.nih.gov/27189040/)
 [^foa-2019-ptsd-treatments]: Foa EB, McLean CP. The efficacy of exposure therapy for anxiety and related disorders. *Annu Rev Clin Psychol.* 2016;12:1-28. [doi:10.1146/annurev-clinpsy-021815-093533](https://doi.org/10.1146/annurev-clinpsy-021815-093533) · [PubMed 26928206](https://pubmed.ncbi.nlm.nih.gov/26928206/)

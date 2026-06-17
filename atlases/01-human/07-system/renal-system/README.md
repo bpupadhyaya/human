@@ -190,6 +190,15 @@ cross_links:
   - target: 01-human/07-system/venous-thromboembolism
     relation: connects-to
     note: "Leaky kidneys clot the blood: nephrotic syndrome spills anticoagulant proteins into the urine, leaving a hypercoagulable state prone to renal vein thrombosis and pulmonary embolism."
+  - target: 02-pathogen/02-bacteria/escherichia-coli
+    relation: connects-to
+    note: "Its commonest infection ascends from below: uropathogenic E. coli climbs the urinary tract to cause cystitis and pyelonephritis, the renal system's most frequent infection and a leading cause of urosepsis."
+  - target: 01-human/07-system/multiple-myeloma
+    relation: connects-to
+    note: "A blood cancer can clog the nephrons: multiple myeloma floods the filtrate with light chains that precipitate into casts, causing myeloma cast nephropathy — a classic route to kidney failure."
+  - target: 01-human/07-system/heart-failure
+    relation: connects-to
+    note: "Heart and kidney rise and fall together: in cardiorenal syndrome, a failing heart's low output and venous congestion impair renal perfusion, while fluid overload from failing kidneys back-strains the heart."
 taxonomy:
   uberon: "UBERON:0001008"
 ---
@@ -342,6 +351,9 @@ Natriuretic counterpoint:
 - **Connects to:** [Wilms Tumor](../wilms-tumor/README.md) — the developing kidney can spawn a cancer: Wilms tumor (nephroblastoma) arises from embryonic renal precursor cells, the most common kidney cancer of childhood and the pediatric counterpart to adult renal cell carcinoma.
 - **Connects to:** [Sepsis](../sepsis/README.md) — the kidney is both a source and a casualty of sepsis: urinary infection ascending to pyelonephritis can seed urosepsis, while severe sepsis in turn starves the kidneys into acute kidney injury.
 - **Connects to:** [Venous Thromboembolism](../venous-thromboembolism/README.md) — leaky kidneys clot the blood: nephrotic syndrome spills anticoagulant proteins into the urine, leaving a hypercoagulable state prone to renal vein thrombosis and pulmonary embolism.
+- **Connects to:** [Escherichia coli](../../../02-pathogen/02-bacteria/escherichia-coli/README.md) — its commonest infection ascends from below: uropathogenic E. coli climbs the urinary tract to cause cystitis and pyelonephritis, the renal system's most frequent infection and a leading cause of urosepsis.
+- **Connects to:** [Multiple Myeloma](../multiple-myeloma/README.md) — a blood cancer can clog the nephrons: multiple myeloma floods the filtrate with light chains that precipitate into casts, causing myeloma cast nephropathy — a classic route to kidney failure.
+- **Connects to:** [Heart Failure](../heart-failure/README.md) — heart and kidney rise and fall together: in cardiorenal syndrome, a failing heart's low output and venous congestion impair renal perfusion, while fluid overload from failing kidneys back-strains the heart.
 - **Treated by:** ACE inhibitors — renoprotection in CKD.
 - **Treated by:** Loop diuretics — fluid management.
 
