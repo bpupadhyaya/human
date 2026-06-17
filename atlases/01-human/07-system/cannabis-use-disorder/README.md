@@ -177,6 +177,15 @@ cross_links:
   - target: 01-human/07-system/social-anxiety-disorder
     relation: connects-to
     note: "People self-medicate social fear with it: cannabis is commonly used to ease social anxiety, a self-medication that fosters dependence while heavy use can in turn worsen anxiety, a bidirectional and reinforcing link."
+  - target: 01-human/07-system/heart-failure
+    relation: connects-to
+    note: "It strains and can injure the heart: cannabis acutely raises heart rate and myocardial demand and is linked to myocardial infarction and a stress cardiomyopathy, routes by which heavy use can impair cardiac function."
+  - target: 01-human/07-system/nsclc
+    relation: connects-to
+    note: "Its smoke carries combustion carcinogens: smoked cannabis delivers many of the same carcinogens and tar as tobacco, and chronic heavy use is a plausible contributor to lung-cancer risk, often compounded by concurrent tobacco use."
+  - target: 01-human/07-system/hnscc
+    relation: connects-to
+    note: "Inhaled smoke bathes the upper airway: the carcinogens in combusted cannabis contact the mouth, throat and larynx, and heavy long-term use has been associated with head and neck squamous-cell cancers."
 sources:
   - id: hasin-2015-cannabis-disorder
     type: peer-reviewed
@@ -385,6 +394,9 @@ Paradoxical syndrome in heavy long-term users: cyclic vomiting relieved by hot b
 - `connects-to` → **[Aspergillus fumigatus](../../../02-pathogen/03-fungi/aspergillus-fumigatus/README.md)** — Mold on the plant can reach the lung: cannabis is frequently contaminated with Aspergillus spores, and smoking it has caused invasive pulmonary aspergillosis in immunocompromised users, a hazard behind calls for product testing.
 - `connects-to` → **[Asthma](../asthma/README.md)** — Inhaled smoke and irritants can trigger bronchospasm: smoked cannabis introduces particulates and allergens that provoke cough and wheeze, and can precipitate acute bronchospasm in people with asthma.
 - `connects-to` → **[Social Anxiety Disorder](../social-anxiety-disorder/README.md)** — People self-medicate social fear with it: cannabis is commonly used to ease social anxiety, a self-medication that fosters dependence while heavy use can in turn worsen anxiety, a bidirectional and reinforcing link.
+- `connects-to` → **[Heart Failure](../heart-failure/README.md)** — It strains and can injure the heart: cannabis acutely raises heart rate and myocardial demand and is linked to myocardial infarction and a stress cardiomyopathy, routes by which heavy use can impair cardiac function.
+- `connects-to` → **[NSCLC](../nsclc/README.md)** — Its smoke carries combustion carcinogens: smoked cannabis delivers many of the same carcinogens and tar as tobacco, and chronic heavy use is a plausible contributor to lung-cancer risk, often compounded by concurrent tobacco use.
+- `connects-to` → **[Head and Neck Squamous Cell Carcinoma](../hnscc/README.md)** — Inhaled smoke bathes the upper airway: the carcinogens in combusted cannabis contact the mouth, throat and larynx, and heavy long-term use has been associated with head and neck squamous-cell cancers.
 
 [^hasin-2015-cannabis-disorder]: Hasin DS, Saha TD, Kerridge BT, et al. Prevalence of marijuana use disorders in the United States between 2001-2002 and 2012-2013. *JAMA Psychiatry.* 2015;72(12):1235-1242. [doi:10.1001/jamapsychiatry.2015.1858](https://doi.org/10.1001/jamapsychiatry.2015.1858) · [PubMed 26502112](https://pubmed.ncbi.nlm.nih.gov/26502112/)
 [^budney-2004-cannabis-withdrawal]: Budney AJ, Moore BA, Vandrey RG, Hughes JR. The time course and significance of cannabis withdrawal. *J Abnorm Psychol.* 2003;112(3):393-402. [doi:10.1037/0021-843X.112.3.393](https://doi.org/10.1037/0021-843X.112.3.393) · [PubMed 12943018](https://pubmed.ncbi.nlm.nih.gov/12943018/)

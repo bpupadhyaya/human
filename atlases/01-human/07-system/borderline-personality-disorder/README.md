@@ -196,6 +196,15 @@ cross_links:
   - target: 01-human/07-system/sepsis
     relation: connects-to
     note: "Self-harm and injection breach the skin's barrier: repeated self-inflicted wounds and injection drug use give bacteria entry to the bloodstream, so soft-tissue infection and sepsis are recurrent medical complications in BPD."
+  - target: 01-human/07-system/migraine
+    relation: connects-to
+    note: "It travels with chronic headache: borderline personality disorder is strongly comorbid with migraine and chronic daily headache, a pairing that worsens disability and complicates pain management in both."
+  - target: 01-human/07-system/hiv-aids
+    relation: connects-to
+    note: "Impulsivity drives high-risk exposure: the impulsive sexual behavior and injection drug use common in BPD raise the risk of acquiring HIV, contributing to its elevated prevalence in this population."
+  - target: 01-human/07-system/hypertension
+    relation: connects-to
+    note: "Chronic stress arousal presses on the arteries: the sustained HPA-axis activation, poor sleep and adverse health behaviors of BPD contribute to hypertension and the broader cardiovascular risk seen in the disorder."
 ---
 
 # Borderline Personality Disorder
@@ -395,6 +404,9 @@ This model directly informs DBT treatment: validate emotional experience (the bi
 - `connects-to` → **[Hepatitis C Virus](../../../02-pathogen/01-viruses/hepatitis-c-virus/README.md)** — Impulsive risk-taking exposes it to the virus: the injection drug use and unprotected sex driven by BPD impulsivity raise hepatitis C exposure, and prevalence of the virus is markedly elevated in this population.
 - `connects-to` → **[Obesity](../obesity/README.md)** — Emotional eating and medication add weight: binge eating to soothe distress, plus the weight gain from the mood stabilizers and antipsychotics often prescribed in BPD, contribute to a high rate of obesity.
 - `connects-to` → **[Sepsis](../sepsis/README.md)** — Self-harm and injection breach the skin's barrier: repeated self-inflicted wounds and injection drug use give bacteria entry to the bloodstream, so soft-tissue infection and sepsis are recurrent medical complications in BPD.
+- `connects-to` → **[Migraine](../migraine/README.md)** — It travels with chronic headache: borderline personality disorder is strongly comorbid with migraine and chronic daily headache, a pairing that worsens disability and complicates pain management in both.
+- `connects-to` → **[HIV/AIDS](../hiv-aids/README.md)** — Impulsivity drives high-risk exposure: the impulsive sexual behavior and injection drug use common in BPD raise the risk of acquiring HIV, contributing to its elevated prevalence in this population.
+- `connects-to` → **[Hypertension](../hypertension/README.md)** — Chronic stress arousal presses on the arteries: the sustained HPA-axis activation, poor sleep and adverse health behaviors of BPD contribute to hypertension and the broader cardiovascular risk seen in the disorder.
 
 [^linehan-1993-dbt]: Linehan MM. *Cognitive-Behavioral Treatment of Borderline Personality Disorder.* Guilford; 1993. [PubMed 8192506](https://pubmed.ncbi.nlm.nih.gov/8192506/)
 [^skodol-2002-bpd-neurobiology]: Siever LJ, Davis KL. A psychobiological perspective on the personality disorders. *Am J Psychiatry.* 1991;148(12):1647-1658. [doi:10.1176/ajp.148.12.1647](https://doi.org/10.1176/ajp.148.12.1647) · [PubMed 1957927](https://pubmed.ncbi.nlm.nih.gov/1957927/)
