@@ -205,6 +205,15 @@ cross_links:
   - target: 01-human/07-system/stroke
     relation: connects-to
     note: "Severe asthma tracks with cerebrovascular risk: the systemic Th2 and eosinophilic inflammation of asthma, especially severe late-onset disease, is associated in cohort studies with a modestly raised risk of stroke."
+  - target: 01-human/07-system/panic-disorder
+    relation: connects-to
+    note: "Breathlessness and panic feed each other: the air hunger of an asthma attack can trigger panic, and panic-driven hyperventilation in turn worsens bronchospasm, so the two disorders are strongly intertwined."
+  - target: 01-human/07-system/endocrine-system
+    relation: connects-to
+    note: "Its steroids reach far beyond the lungs: repeated oral corticosteroid courses and high-dose inhaled steroids for asthma can suppress the adrenal axis and, in children, slow growth, an endocrine cost of control."
+  - target: 01-human/07-system/influenza
+    relation: connects-to
+    note: "Respiratory viruses ignite attacks: influenza and other viral infections are leading triggers of asthma exacerbations, inflaming the airways, so annual vaccination is advised for people with asthma."
 ---
 
 # Asthma
@@ -376,6 +385,9 @@ Asthma affects approximately **339 million people worldwide** (WHO 2019) and is 
 - `connects-to` → **[Type 2 Diabetes](../type-2-diabetes/README.md)** — Its rescue steroid courses raise blood sugar: the repeated oral-corticosteroid bursts that severe or poorly controlled asthma requires induce insulin resistance and can precipitate steroid-induced diabetes.
 - `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — Chronic breathlessness and limitation weigh on mood: alongside its well-known anxiety, asthma carries elevated depression, driven by activity restriction, poor sleep and the burden of uncontrolled symptoms.
 - `connects-to` → **[Stroke](../stroke/README.md)** — Severe asthma tracks with cerebrovascular risk: the systemic Th2 and eosinophilic inflammation of asthma, especially severe late-onset disease, is associated in cohort studies with a modestly raised risk of stroke.
+- `connects-to` → **[Panic Disorder](../panic-disorder/README.md)** — Breathlessness and panic feed each other: the air hunger of an asthma attack can trigger panic, and panic-driven hyperventilation in turn worsens bronchospasm, so the two disorders are strongly intertwined.
+- `connects-to` → **[Endocrine System](../endocrine-system/README.md)** — Its steroids reach far beyond the lungs: repeated oral corticosteroid courses and high-dose inhaled steroids for asthma can suppress the adrenal axis and, in children, slow growth, an endocrine cost of control.
+- `connects-to` → **[Influenza](../influenza/README.md)** — Respiratory viruses ignite attacks: influenza and other viral infections are leading triggers of asthma exacerbations, inflaming the airways, so annual vaccination is advised for people with asthma.
 
 [^gina-2023-asthma]: Global Initiative for Asthma. Global Strategy for Asthma Management and Prevention. 2023. [ginasthma.org](https://ginasthma.org/2023-gina-main-report/)
 [^wenzel-2012-asthma-phenotypes]: Wenzel SE. Asthma phenotypes: the evolution from clinical to molecular approaches. *Nat Med.* 2012;18(5):716-725. [doi:10.1038/nm.2678](https://doi.org/10.1038/nm.2678) · [PubMed 22561835](https://pubmed.ncbi.nlm.nih.gov/22561835/)

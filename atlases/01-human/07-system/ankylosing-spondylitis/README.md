@@ -205,6 +205,15 @@ cross_links:
   - target: 01-human/07-system/major-depressive-disorder
     relation: connects-to
     note: "Relentless pain and stiffening wear on mood: the chronic back pain, fatigue, poor sleep and progressive loss of mobility in ankylosing spondylitis contribute to markedly elevated rates of depression."
+  - target: 01-human/07-system/respiratory-system
+    relation: connects-to
+    note: "A fused chest cannot breathe freely: ankylosis of the costovertebral joints and thoracic spine stiffens the rib cage into restrictive lung disease, and apical pulmonary fibrosis adds to the burden."
+  - target: 02-pathogen/01-viruses/varicella-zoster-virus
+    relation: connects-to
+    note: "Its immunomodulatory drugs reawaken shingles: the TNF, IL-17 and JAK inhibitors used for AS blunt antiviral immunity and raise the risk of herpes-zoster reactivation."
+  - target: 01-human/07-system/generalized-anxiety-disorder
+    relation: connects-to
+    note: "A painful, progressive, lifelong disease breeds worry: the chronic pain, stiffening and uncertainty of disease progression in ankylosing spondylitis foster chronic health anxiety alongside its depression."
 ---
 
 # Ankylosing Spondylitis
@@ -376,6 +385,9 @@ AS originates at the **enthesis** — the site where tendons, ligaments, and joi
 - `connects-to` → **[Stroke](../stroke/README.md)** — Chronic systemic inflammation accelerates the arteries: the sustained inflammatory burden of ankylosing spondylitis speeds atherosclerosis and, with reduced mobility, raises the long-term risk of ischemic stroke.
 - `connects-to` → **[Hepatitis B virus](../../../02-pathogen/01-viruses/hepatitis-b-virus/README.md)** — Its TNF inhibitors can reactivate hepatitis B: the anti-TNF biologics central to treating AS can reawaken a dormant hepatitis B virus, so serologic screening and antiviral prophylaxis precede therapy.
 - `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — Relentless pain and stiffening wear on mood: the chronic back pain, fatigue, poor sleep and progressive loss of mobility in ankylosing spondylitis contribute to markedly elevated rates of depression.
+- `connects-to` → **[Respiratory System](../respiratory-system/README.md)** — A fused chest cannot breathe freely: ankylosis of the costovertebral joints and thoracic spine stiffens the rib cage into restrictive lung disease, and apical pulmonary fibrosis adds to the burden.
+- `connects-to` → **[Varicella-Zoster Virus](../../../02-pathogen/01-viruses/varicella-zoster-virus/README.md)** — Its immunomodulatory drugs reawaken shingles: the TNF, IL-17 and JAK inhibitors used for AS blunt antiviral immunity and raise the risk of herpes-zoster reactivation.
+- `connects-to` → **[Generalized Anxiety Disorder](../generalized-anxiety-disorder/README.md)** — A painful, progressive, lifelong disease breeds worry: the chronic pain, stiffening and uncertainty of disease progression in ankylosing spondylitis foster chronic health anxiety alongside its depression.
 
 [^sieper-2015-ankylosing-spondylitis-review]: Sieper J, Poddubnyy D. Ankylosing spondylitis. *Lancet.* 2017;390(10089):73-84. [doi:10.1016/S0140-6736(16)31591-4](https://doi.org/10.1016/S0140-6736(16)31591-4) · [PubMed 28110981](https://pubmed.ncbi.nlm.nih.gov/28110981/)
 [^baeten-2015-secukinumab-as]: Baeten D, Sieper J, Braun J, et al. Secukinumab, an Interleukin-17A Inhibitor, in Ankylosing Spondylitis. *N Engl J Med.* 2015;373(26):2534-2548. [doi:10.1056/NEJMoa1505066](https://doi.org/10.1056/NEJMoa1505066) · [PubMed 26699169](https://pubmed.ncbi.nlm.nih.gov/26699169/)
