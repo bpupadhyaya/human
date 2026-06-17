@@ -195,6 +195,15 @@ cross_links:
   - target: 01-human/07-system/sepsis
     relation: connects-to
     note: "Long-term immunosuppression opens a gap: the corticosteroids and immunosuppressants used to control CIDP, plus immobility-related aspiration and pressure sores in severe disease, predispose to serious infection and sepsis."
+  - target: 01-human/07-system/osteoporosis
+    relation: connects-to
+    note: "Chronic steroids and immobility thin the bone: the prolonged corticosteroids used to control CIDP, combined with reduced mobility from limb weakness, accelerate bone loss and raise fracture risk."
+  - target: 01-human/07-system/ckd
+    relation: connects-to
+    note: "Its IVIG can injure the kidney: high-dose intravenous immunoglobulin, a mainstay of CIDP treatment, can cause an osmotic acute kidney injury, and repeated courses risk lasting renal impairment."
+  - target: 01-human/07-system/major-depressive-disorder
+    relation: connects-to
+    note: "Chronic disabling weakness weighs on mood: the relapsing numbness, weakness and dependence of CIDP, plus the side effects of long-term immunotherapy, carry a substantial burden of depression."
 ---
 
 # CIDP
@@ -396,6 +405,9 @@ IgG4 anti-NF155 or anti-CNTN1 disrupts this complex → paranodal loop detachmen
 - `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — Th17 autoimmunity funnels through STAT3: IL-6- and IL-17-driven STAT3 signaling supports the autoreactive T-helper response that attacks peripheral myelin in CIDP, a node downstream of the cytokines elevated in the disease.
 - `connects-to` → **[Venous Thromboembolism](../venous-thromboembolism/README.md)** — Immobility and IVIG raise the clot risk: limb weakness limits mobility while intravenous immunoglobulin — a mainstay treatment — is itself prothrombotic, together increasing the risk of deep-vein thrombosis and pulmonary embolism.
 - `connects-to` → **[Sepsis](../sepsis/README.md)** — Long-term immunosuppression opens a gap: the corticosteroids and immunosuppressants used to control CIDP, plus immobility-related aspiration and pressure sores in severe disease, predispose to serious infection and sepsis.
+- `connects-to` → **[Osteoporosis](../osteoporosis/README.md)** — Chronic steroids and immobility thin the bone: the prolonged corticosteroids used to control CIDP, combined with reduced mobility from limb weakness, accelerate bone loss and raise fracture risk.
+- `connects-to` → **[Chronic Kidney Disease](../ckd/README.md)** — Its IVIG can injure the kidney: high-dose intravenous immunoglobulin, a mainstay of CIDP treatment, can cause an osmotic acute kidney injury, and repeated courses risk lasting renal impairment.
+- `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — Chronic disabling weakness weighs on mood: the relapsing numbness, weakness and dependence of CIDP, plus the side effects of long-term immunotherapy, carry a substantial burden of depression.
 
 ---
 

@@ -187,6 +187,15 @@ cross_links:
   - target: 01-human/07-system/sepsis
     relation: connects-to
     note: "Deep resections invite infection: extensive sacral and clival surgery, sometimes with CSF leak, can be complicated by deep wound infection and meningitis that progress to sepsis."
+  - target: 01-human/07-system/osteoporosis
+    relation: connects-to
+    note: "It destroys bone and its radiation weakens more: chordoma erodes the sacrum and clivus directly, while the high-dose proton/photon radiation used to control it causes osteoradionecrosis and insufficiency fractures."
+  - target: 01-human/07-system/major-depressive-disorder
+    relation: connects-to
+    note: "Relentless pain and a poor cure weigh on mood: chronic neuropathic pain, disfiguring skull-base surgery, bowel-bladder dysfunction and high recurrence give chordoma a substantial psychological burden."
+  - target: 01-human/07-system/anemia-of-chronic-disease
+    relation: connects-to
+    note: "Advanced disease blunts the marrow: locally aggressive or metastatic chordoma with its inflammatory burden, compounded by major surgery and radiation, can produce an anemia of chronic disease."
 ---
 
 # Chordoma
@@ -378,6 +387,9 @@ CDKN2A deletion in ~30-40% → CDK4/6 hyperactivation → RB1 phosphorylation; p
 - `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — STAT3 supports the slow-growing tumor: chordoma cells show STAT3 activation downstream of receptor signaling that backs their survival, one of the pathways explored where this radioresistant tumor needs systemic options.
 - `connects-to` → **[Venous Thromboembolism](../venous-thromboembolism/README.md)** — Major axial surgery clots the veins: the long sacral and skull-base resections chordoma requires, with prolonged immobility afterward, make deep-vein thrombosis and pulmonary embolism a real perioperative risk.
 - `connects-to` → **[Sepsis](../sepsis/README.md)** — Deep resections invite infection: extensive sacral and clival surgery, sometimes with CSF leak, can be complicated by deep wound infection and meningitis that progress to sepsis.
+- `connects-to` → **[Osteoporosis](../osteoporosis/README.md)** — It destroys bone and its radiation weakens more: chordoma erodes the sacrum and clivus directly, while the high-dose proton/photon radiation used to control it causes osteoradionecrosis and insufficiency fractures.
+- `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — Relentless pain and a poor cure weigh on mood: chronic neuropathic pain, disfiguring skull-base surgery, bowel-bladder dysfunction and high recurrence give chordoma a substantial psychological burden.
+- `connects-to` → **[Anemia of Chronic Disease](../anemia-of-chronic-disease/README.md)** — Advanced disease blunts the marrow: locally aggressive or metastatic chordoma with its inflammatory burden, compounded by major surgery and radiation, can produce an anemia of chronic disease.
 
 ---
 
