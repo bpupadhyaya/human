@@ -178,6 +178,15 @@ cross_links:
   - target: 01-human/07-system/sepsis
     relation: connects-to
     note: "A central tumor and intense chemo invite sepsis: post-obstructive pneumonia behind a bronchial SCLC, plus the deep neutropenia of platinum-etoposide cycles, make pneumonia and sepsis frequent complications."
+  - target: 01-human/03-molecular/il-6
+    relation: connects-to
+    note: "Tumor cytokines waste the body: SCLC secretes IL-6 and related cytokines that drive the profound cachexia, fever and inflammatory markers typical of this aggressive neuroendocrine cancer at presentation."
+  - target: 01-human/07-system/anemia-of-chronic-disease
+    relation: connects-to
+    note: "Inflammation and marrow involvement drop the hemoglobin: the IL-6 milieu of SCLC raises hepcidin while frequent bone-marrow metastases crowd the marrow, producing an anemia of chronic disease layered on chemotherapy myelosuppression."
+  - target: 01-human/07-system/stroke
+    relation: connects-to
+    note: "A hypercoagulable cancer can strike the brain: SCLC's strong Trousseau-type prothrombotic state, with non-bacterial thrombotic endocarditis and arterial emboli, can cause ischemic stroke alongside its common brain metastases."
 ---
 
 # Small Cell Lung Cancer
@@ -341,6 +350,9 @@ SCLC has highest rate of brain metastases among solid tumors (~50% at 2 years); 
 - `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — STAT3 sustains the neuroendocrine tumor: JAK-STAT3 signaling drives SCLC proliferation and immune evasion, part of the signaling that keeps this fast-growing cancer alive between its near-universal RB1 and p53 losses.
 - `connects-to` → **[NF-κB](../../03-molecular/nf-kb/README.md)** — NF-κB feeds chemoresistance: after an initial dramatic chemo response, SCLC relapses with NF-κB-supported survival signaling, part of why this tumor so reliably returns resistant within months.
 - `connects-to` → **[Sepsis](../sepsis/README.md)** — A central tumor and intense chemo invite sepsis: post-obstructive pneumonia behind a bronchial SCLC, plus the deep neutropenia of platinum-etoposide cycles, make pneumonia and sepsis frequent complications.
+- `connects-to` → **[Interleukin-6](../../03-molecular/il-6/README.md)** — Tumor cytokines waste the body: SCLC secretes IL-6 and related cytokines that drive the profound cachexia, fever and inflammatory markers typical of this aggressive neuroendocrine cancer at presentation.
+- `connects-to` → **[Anemia of Chronic Disease](../anemia-of-chronic-disease/README.md)** — Inflammation and marrow involvement drop the hemoglobin: the IL-6 milieu of SCLC raises hepcidin while frequent bone-marrow metastases crowd the marrow, producing an anemia of chronic disease layered on chemotherapy myelosuppression.
+- `connects-to` → **[Stroke](../stroke/README.md)** — A hypercoagulable cancer can strike the brain: SCLC's strong Trousseau-type prothrombotic state, with non-bacterial thrombotic endocarditis and arterial emboli, can cause ischemic stroke alongside its common brain metastases.
 
 [^horn-2018-impower133]: Horn L, Mansfield AS, Szczęsna A, et al. First-line atezolizumab plus chemotherapy in extensive-stage small-cell lung cancer. *N Engl J Med.* 2018;379(23):2220-2229. [doi:10.1056/NEJMoa1809064](https://doi.org/10.1056/NEJMoa1809064) · [PubMed 30280641](https://pubmed.ncbi.nlm.nih.gov/30280641/)
 [^paz-ares-2019-caspian]: Paz-Ares L, Dvorkin M, Chen Y, et al. Durvalumab plus platinum-etoposide versus platinum-etoposide in first-line treatment of extensive-stage small-cell lung cancer (CASPIAN). *Lancet.* 2019;394(10212):1929-1939. [doi:10.1016/S0140-6736(19)32222-6](https://doi.org/10.1016/S0140-6736(19)32222-6) · [PubMed 31590988](https://pubmed.ncbi.nlm.nih.gov/31590988/)
