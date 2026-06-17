@@ -202,6 +202,15 @@ cross_links:
   - target: 01-human/07-system/sepsis
     relation: connects-to
     note: "Its continuous prostacyclin needs a permanent line: severe PAH is treated with non-stop intravenous epoprostenol through an indwelling central catheter, which is a standing portal for bloodstream infection and catheter-related sepsis."
+  - target: 01-human/07-system/myeloproliferative-neoplasms
+    relation: connects-to
+    note: "Clonal blood disease is a recognised cause: myeloproliferative neoplasms feature in Group 5 pulmonary hypertension, driving PAH through abnormal cells, splenectomy and high-output states."
+  - target: 01-human/07-system/cystic-fibrosis
+    relation: connects-to
+    note: "Chronic hypoxic lung damage pressurises the pulmonary bed: the bronchiectasis and persistent hypoxaemia of advanced cystic fibrosis cause hypoxic pulmonary vasoconstriction and Group 3 pulmonary hypertension with cor pulmonale."
+  - target: 01-human/07-system/generalized-anxiety-disorder
+    relation: connects-to
+    note: "A breathless, life-limiting disease breeds worry: the relentless dyspnoea, fear of right-heart failure and burdensome continuous therapy of PAH foster chronic health anxiety alongside depression."
 ---
 
 # Pulmonary Arterial Hypertension
@@ -386,6 +395,9 @@ Key variables: WHO functional class (I-IV), 6-minute walk distance (6MWD), NT-pr
 - `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — A breathless, life-limiting disease weighs on mood: the relentless exertional limitation, poor prognosis and demanding therapy of PAH give it among the highest depression and anxiety rates in chronic cardiopulmonary illness.
 - `connects-to` → **[Stroke](../stroke/README.md)** — Right-heart pressure can shunt clots to the brain: when PAH opens a patent foramen ovale into a right-to-left shunt, venous clots bypass the lungs and reach the cerebral arteries, causing paradoxical embolic stroke.
 - `connects-to` → **[Sepsis](../sepsis/README.md)** — Its continuous prostacyclin needs a permanent line: severe PAH is treated with non-stop intravenous epoprostenol through an indwelling central catheter, which is a standing portal for bloodstream infection and catheter-related sepsis.
+- `connects-to` → **[Myeloproliferative Neoplasms](../myeloproliferative-neoplasms/README.md)** — Clonal blood disease is a recognised cause: myeloproliferative neoplasms feature in Group 5 pulmonary hypertension, driving PAH through abnormal cells, splenectomy and high-output states.
+- `connects-to` → **[Cystic Fibrosis](../cystic-fibrosis/README.md)** — Chronic hypoxic lung damage pressurises the pulmonary bed: the bronchiectasis and persistent hypoxaemia of advanced cystic fibrosis cause hypoxic pulmonary vasoconstriction and Group 3 pulmonary hypertension with cor pulmonale.
+- `connects-to` → **[Generalized Anxiety Disorder](../generalized-anxiety-disorder/README.md)** — A breathless, life-limiting disease breeds worry: the relentless dyspnoea, fear of right-heart failure and burdensome continuous therapy of PAH foster chronic health anxiety alongside depression.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 

@@ -196,6 +196,15 @@ cross_links:
   - target: 01-human/07-system/major-depressive-disorder
     relation: connects-to
     note: "An advanced cancer and its immunotherapy weigh on mood: the diagnosis, prolonged systemic therapy and the fatigue and inflammatory burden of metastatic RCC contribute to substantial depression and anxiety."
+  - target: 01-human/07-system/wound-healing
+    relation: connects-to
+    note: "Surgery and anti-VEGF therapy heal poorly: nephrectomy is the mainstay for localised RCC, and the VEGF-targeted tyrosine-kinase inhibitors used for advanced disease impair angiogenesis, delaying wound closure."
+  - target: 01-human/07-system/digestive-system
+    relation: connects-to
+    note: "Checkpoint immunotherapy can inflame the gut: the PD-1 and CTLA-4 inhibitors used for advanced RCC frequently trigger immune-related colitis with diarrhoea, a characteristic toxicity needing steroids."
+  - target: 01-human/07-system/generalized-anxiety-disorder
+    relation: connects-to
+    note: "A metastatic cancer watched scan-to-scan breeds worry: the recurrence risk, prolonged targeted and immune therapy and uncertain prognosis of advanced RCC foster chronic health anxiety alongside depression."
 ---
 
 # Renal Cell Carcinoma
@@ -374,6 +383,9 @@ Kidney → primary site of EPO production under hypoxia; VHL-intact renal inters
 - `connects-to` → **[Heart Failure](../heart-failure/README.md)** — Its anti-angiogenic TKIs strain the heart: sunitinib, pazopanib and other VEGF-pathway inhibitors central to RCC therapy raise blood pressure and are directly cardiotoxic, capable of precipitating heart failure.
 - `connects-to` → **[Type 1 Diabetes](../type-1-diabetes/README.md)** — Checkpoint immunotherapy can trigger autoimmune diabetes: the PD-1 and CTLA-4 inhibitors used for advanced RCC occasionally unleash autoimmunity against pancreatic islets, causing fulminant insulin-dependent diabetes.
 - `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — An advanced cancer and its immunotherapy weigh on mood: the diagnosis, prolonged systemic therapy and the fatigue and inflammatory burden of metastatic RCC contribute to substantial depression and anxiety.
+- `connects-to` → **[Wound Healing](../wound-healing/README.md)** — Surgery and anti-VEGF therapy heal poorly: nephrectomy is the mainstay for localised RCC, and the VEGF-targeted tyrosine-kinase inhibitors used for advanced disease impair angiogenesis, delaying wound closure.
+- `connects-to` → **[Digestive System](../digestive-system/README.md)** — Checkpoint immunotherapy can inflame the gut: the PD-1 and CTLA-4 inhibitors used for advanced RCC frequently trigger immune-related colitis with diarrhoea, a characteristic toxicity needing steroids.
+- `connects-to` → **[Generalized Anxiety Disorder](../generalized-anxiety-disorder/README.md)** — A metastatic cancer watched scan-to-scan breeds worry: the recurrence risk, prolonged targeted and immune therapy and uncertain prognosis of advanced RCC foster chronic health anxiety alongside depression.
 
 [^motzer-2018-checkmate214]: Motzer RJ, Tannir NM, McDermott DF, et al. Nivolumab plus ipilimumab versus sunitinib in advanced renal-cell carcinoma. *N Engl J Med.* 2018;378(14):1277-1290. [doi:10.1056/NEJMoa1712126](https://doi.org/10.1056/NEJMoa1712126) · [PubMed 29562145](https://pubmed.ncbi.nlm.nih.gov/29562145/)
 [^rini-2019-keynote426]: Rini BI, Plimack ER, Stus V, et al. Pembrolizumab plus axitinib versus sunitinib for advanced renal-cell carcinoma. *N Engl J Med.* 2019;380(12):1116-1127. [doi:10.1056/NEJMoa1816714](https://doi.org/10.1056/NEJMoa1816714) · [PubMed 30779529](https://pubmed.ncbi.nlm.nih.gov/30779529/)
