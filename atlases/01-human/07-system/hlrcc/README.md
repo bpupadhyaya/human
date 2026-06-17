@@ -178,6 +178,15 @@ cross_links:
   - target: 01-human/07-system/venous-thromboembolism
     relation: connects-to
     note: "Its renal cancer is aggressive and clot-prone: HLRCC-associated renal cell carcinoma metastasizes early, and like other advanced cancers it carries a raised risk of venous thromboembolism through surgery and treatment."
+  - target: 01-human/03-molecular/nf-kb
+    relation: connects-to
+    note: "An oncometabolite rewires the cell's signaling: fumarate accumulating from FH loss succinates proteins and, alongside its activation of NRF2 and HIF, engages NF-κB-linked survival and inflammatory signaling in HLRCC tumors."
+  - target: 01-human/07-system/ckd
+    relation: connects-to
+    note: "Saving the kidney costs function: the aggressive renal cell carcinoma of HLRCC demands prompt, sometimes radical surgery, and the loss of renal tissue across a lifetime of surveillance can drift toward chronic kidney disease."
+  - target: 01-human/07-system/sepsis
+    relation: connects-to
+    note: "Advanced renal cancer and its therapy invite infection: metastatic HLRCC kidney cancer and the systemic treatment it requires can cause the immune compromise and complications that lead to sepsis."
 ---
 
 # Hereditary Leiomyomatosis and Renal Cell Carcinoma
@@ -363,6 +372,9 @@ Cutaneous:
 - `connects-to` → **[SDHB](../../03-molecular/sdhb/README.md)** — FH and SDH are sister Krebs-cycle tumor suppressors: like SDHB loss, FH loss floods the cell with an oncometabolite (fumarate) that stabilizes HIF and reprograms the epigenome — a shared pseudo-hypoxic mechanism across the metabolic cancer syndromes.
 - `connects-to` → **[Iron Deficiency Anemia](../iron-deficiency-anemia/README.md)** — The uterine leiomyomas bleed: women with HLRCC develop numerous, often symptomatic uterine fibroids whose heavy menstrual bleeding causes iron-deficiency anemia, frequently the first sign that brings them to attention.
 - `connects-to` → **[Venous Thromboembolism](../venous-thromboembolism/README.md)** — Its renal cancer is aggressive and clot-prone: HLRCC-associated renal cell carcinoma metastasizes early, and like other advanced cancers it carries a raised risk of venous thromboembolism through surgery and treatment.
+- `connects-to` → **[NF-κB](../../03-molecular/nf-kb/README.md)** — An oncometabolite rewires the cell's signaling: fumarate accumulating from FH loss succinates proteins and, alongside its activation of NRF2 and HIF, engages NF-κB-linked survival and inflammatory signaling in HLRCC tumors.
+- `connects-to` → **[Chronic Kidney Disease](../ckd/README.md)** — Saving the kidney costs function: the aggressive renal cell carcinoma of HLRCC demands prompt, sometimes radical surgery, and the loss of renal tissue across a lifetime of surveillance can drift toward chronic kidney disease.
+- `connects-to` → **[Sepsis](../sepsis/README.md)** — Advanced renal cancer and its therapy invite infection: metastatic HLRCC kidney cancer and the systemic treatment it requires can cause the immune compromise and complications that lead to sepsis.
 
 [^tomlinson-2002-fh]: Tomlinson IP, Alam NA, Rowan AJ, et al. Germline mutations in FH predispose to dominantly inherited uterine fibroids, skin leiomyomata and papillary renal cell cancer. *Nat Genet.* 2002;30(4):406-410. [doi:10.1038/ng849](https://doi.org/10.1038/ng849) · [PubMed 11865300](https://pubmed.ncbi.nlm.nih.gov/11865300/)
 [^linehan-2013-fh-review]: Linehan WM, Rouault TA. Molecular pathways: fumarate hydratase-deficient kidney cancer — targeting the Warburg effect in cancer. *Clin Cancer Res.* 2013;19(13):3345-3352. [doi:10.1158/1078-0432.CCR-13-0304](https://doi.org/10.1158/1078-0432.CCR-13-0304) · [PubMed 23836472](https://pubmed.ncbi.nlm.nih.gov/23836472/)
