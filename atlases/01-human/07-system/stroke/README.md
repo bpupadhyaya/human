@@ -199,6 +199,15 @@ cross_links:
   - target: 01-human/07-system/parkinsons-disease
     relation: connects-to
     note: "Small-vessel strokes can mimic it: cumulative infarcts in the basal ganglia produce vascular parkinsonism — a lower-body, gait-predominant syndrome that resembles and overlaps with Parkinson's disease."
+  - target: 02-pathogen/02-bacteria/streptococcus-pneumoniae
+    relation: connects-to
+    note: "It impairs the swallow and seeds the lung: stroke commonly causes dysphagia, and the resulting aspiration pneumonia — often pneumococcal — is a leading early complication and cause of death."
+  - target: 01-human/07-system/wound-healing
+    relation: connects-to
+    note: "Paralysis and immobility break down the skin: hemiparesis and bedbound recovery after stroke predispose to pressure ulcers over insensate, poorly moved skin that then heal slowly."
+  - target: 01-human/07-system/alzheimers-disease
+    relation: connects-to
+    note: "Infarcts accelerate cognitive decline: stroke causes vascular dementia directly and lowers the threshold for Alzheimer-type dementia, the two often coexisting as mixed dementia in survivors."
 ---
 
 # Stroke
@@ -363,6 +372,9 @@ Normal brain maintains CBF constant (50-150 mmHg MAP range) via autoregulation (
 - `connects-to` → **[Osteoporosis](../osteoporosis/README.md)** — Paralysis melts the bone: disuse of a hemiparetic limb, immobility and low vitamin D after stroke accelerate bone loss on the affected side, raising the risk of fractures from the falls stroke also causes.
 - `connects-to` → **[Generalized Anxiety Disorder](../generalized-anxiety-disorder/README.md)** — Fear shadows recovery: post-stroke anxiety is common alongside depression, driven both by the direct brain injury and by the fear of recurrence and lost independence, and it impedes rehabilitation.
 - `connects-to` → **[Parkinson's Disease](../parkinsons-disease/README.md)** — Small-vessel strokes can mimic it: cumulative infarcts in the basal ganglia produce vascular parkinsonism — a lower-body, gait-predominant syndrome that resembles and overlaps with Parkinson's disease.
+- `connects-to` → **[Streptococcus pneumoniae](../../../02-pathogen/02-bacteria/streptococcus-pneumoniae/README.md)** — It impairs the swallow and seeds the lung: stroke commonly causes dysphagia, and the resulting aspiration pneumonia — often pneumococcal — is a leading early complication and cause of death.
+- `connects-to` → **[Wound Healing](../wound-healing/README.md)** — Paralysis and immobility break down the skin: hemiparesis and bedbound recovery after stroke predispose to pressure ulcers over insensate, poorly moved skin that then heal slowly.
+- `connects-to` → **[Alzheimer's Disease](../alzheimers-disease/README.md)** — Infarcts accelerate cognitive decline: stroke causes vascular dementia directly and lowers the threshold for Alzheimer-type dementia, the two often coexisting as mixed dementia in survivors.
 
 [^powers-2019-aha-stroke]: Powers WJ, Rabinstein AA, Ackerson T, et al. Guidelines for the Early Management of Patients With Acute Ischemic Stroke: 2019 Update to the 2018 Guidelines. *Stroke.* 2019;50(12):e344-e418. [doi:10.1161/STR.0000000000000211](https://doi.org/10.1161/STR.0000000000000211) · [PubMed 31662037](https://pubmed.ncbi.nlm.nih.gov/31662037/)
 [^feigin-2021-gbd-stroke]: Feigin VL, Krishnamurthi RV, Parmar P, et al. Update on the Global Burden of Ischemic and Hemorrhagic Stroke in 1990-2013. *Neuroepidemiology.* 2015;45(3):161-176. [doi:10.1159/000441085](https://doi.org/10.1159/000441085) · [PubMed 26505981](https://pubmed.ncbi.nlm.nih.gov/26505981/)

@@ -196,6 +196,15 @@ cross_links:
   - target: 01-human/07-system/sepsis
     relation: connects-to
     note: "Injection breaches the body's barriers: non-sterile injection stimulant use seeds the blood and heart valves with bacteria, so endocarditis, abscesses and bloodstream infection can progress to sepsis."
+  - target: 01-human/07-system/wound-healing
+    relation: connects-to
+    note: "It tears at the skin and starves it of blood: methamphetamine drives compulsive skin-picking sores and, with injection abscesses and vasoconstriction, leaves chronic wounds slow to heal in often malnourished users."
+  - target: 02-pathogen/02-bacteria/staphylococcus-aureus
+    relation: connects-to
+    note: "Injection opens a door for Staph: non-sterile injection of stimulants inoculates Staphylococcus aureus into skin and bloodstream, causing abscesses, cellulitis and endocarditis."
+  - target: 01-human/07-system/ptsd
+    relation: connects-to
+    note: "Trauma and stimulant use reinforce each other: PTSD is highly comorbid with stimulant use disorder, with stimulants used to counter numbing and hyperarousal even as use worsens the trauma symptoms."
 ---
 
 # Stimulant Use Disorder
@@ -377,6 +386,9 @@ Unlike cocaine, methamphetamine causes **direct neurotoxic damage** to dopaminer
 - `connects-to` → **[Heart Failure](../heart-failure/README.md)** — Stimulants wear out the heart: chronic cocaine and methamphetamine cause a toxic cardiomyopathy through catecholamine excess, tachycardia and ischemia, a leading cause of heart failure in young users.
 - `connects-to` → **[Pulmonary Arterial Hypertension](../pulmonary-arterial-hypertension/README.md)** — Methamphetamine scars the lung's vessels: it is an established cause of pulmonary arterial hypertension, producing a severe drug-induced form indistinguishable from the idiopathic disease.
 - `connects-to` → **[Sepsis](../sepsis/README.md)** — Injection breaches the body's barriers: non-sterile injection stimulant use seeds the blood and heart valves with bacteria, so endocarditis, abscesses and bloodstream infection can progress to sepsis.
+- `connects-to` → **[Wound Healing](../wound-healing/README.md)** — It tears at the skin and starves it of blood: methamphetamine drives compulsive skin-picking sores and, with injection abscesses and vasoconstriction, leaves chronic wounds slow to heal in often malnourished users.
+- `connects-to` → **[Staphylococcus aureus](../../../02-pathogen/02-bacteria/staphylococcus-aureus/README.md)** — Injection opens a door for Staph: non-sterile injection of stimulants inoculates Staphylococcus aureus into skin and bloodstream, causing abscesses, cellulitis and endocarditis.
+- `connects-to` → **[PTSD](../ptsd/README.md)** — Trauma and stimulant use reinforce each other: PTSD is highly comorbid with stimulant use disorder, with stimulants used to counter numbing and hyperarousal even as use worsens the trauma symptoms.
 
 ## Treatment
 
