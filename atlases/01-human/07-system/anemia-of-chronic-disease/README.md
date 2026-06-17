@@ -190,6 +190,15 @@ cross_links:
   - target: 01-human/07-system/sickle-cell-disease
     relation: connects-to
     note: "Chronic inflammation layers onto the hemolysis: beyond the relentless red-cell destruction, the ongoing vaso-occlusive inflammation of sickle cell disease raises hepcidin and cytokines that add an anemia-of-chronic-disease component to the baseline anemia."
+  - target: 01-human/07-system/ankylosing-spondylitis
+    relation: connects-to
+    note: "Another inflammatory arthritis drives it: the sustained IL-6 of active ankylosing spondylitis raises hepcidin and blunts erythropoiesis, producing an anemia of chronic disease that tracks with disease activity."
+  - target: 01-human/07-system/hepatitis-c
+    relation: connects-to
+    note: "Chronic viral infection feeds it: persistent hepatitis C inflammation, compounded by a cirrhotic liver and hypersplenism, raises hepcidin and suppresses red-cell production into an anemia of chronic disease."
+  - target: 01-human/07-system/prostate-cancer
+    relation: connects-to
+    note: "Cancer and hormone therapy both contribute: advanced prostate cancer's inflammation and marrow metastases, plus the androgen-deprivation therapy that withdraws erythropoietic drive, combine into an anemia of chronic disease."
 ---
 
 # Anemia of Chronic Disease
@@ -371,6 +380,9 @@ This adaptive rationale explains why **aggressive iron supplementation during ac
 - `connects-to` → **[COPD](../copd/README.md)** — Smokers' lungs inflame the marrow too: the chronic systemic inflammation of COPD raises hepcidin and cytokines that blunt erythropoiesis, so a meaningful share of COPD patients carry an anemia of chronic disease that worsens their breathlessness.
 - `connects-to` → **[Chronic Myeloid Leukemia](../cml/README.md)** — A chronic leukemia drives the same anemia: the inflammatory cytokine output of chronic myeloid leukemia and its crowding of the marrow produce an anemia of chronic disease on top of the malignancy's own marrow takeover.
 - `connects-to` → **[Sickle Cell Disease](../sickle-cell-disease/README.md)** — Chronic inflammation layers onto the hemolysis: beyond the relentless red-cell destruction, the ongoing vaso-occlusive inflammation of sickle cell disease raises hepcidin and cytokines that add an anemia-of-chronic-disease component to the baseline anemia.
+- `connects-to` → **[Ankylosing Spondylitis](../ankylosing-spondylitis/README.md)** — Another inflammatory arthritis drives it: the sustained IL-6 of active ankylosing spondylitis raises hepcidin and blunts erythropoiesis, producing an anemia of chronic disease that tracks with disease activity.
+- `connects-to` → **[Hepatitis C](../hepatitis-c/README.md)** — Chronic viral infection feeds it: persistent hepatitis C inflammation, compounded by a cirrhotic liver and hypersplenism, raises hepcidin and suppresses red-cell production into an anemia of chronic disease.
+- `connects-to` → **[Prostate Cancer](../prostate-cancer/README.md)** — Cancer and hormone therapy both contribute: advanced prostate cancer's inflammation and marrow metastases, plus the androgen-deprivation therapy that withdraws erythropoietic drive, combine into an anemia of chronic disease.
 
 [^weiss-2005-acd-review]: Weiss G, Goodnough LT. Anemia of chronic disease. *N Engl J Med.* 2005;352(10):1011-1023. [doi:10.1056/NEJMra041809](https://doi.org/10.1056/NEJMra041809) · [PubMed 15758012](https://pubmed.ncbi.nlm.nih.gov/15758012/)
 [^nemeth-2004-il6-hepcidin]: Nemeth E, Rivera S, Gabayan V, et al. IL-6 mediates hypoferremia of inflammation by inducing the synthesis of the iron regulatory hormone hepcidin. *J Clin Invest.* 2004;113(9):1271-1276. [doi:10.1172/JCI200420945](https://doi.org/10.1172/JCI200420945) · [PubMed 15124018](https://pubmed.ncbi.nlm.nih.gov/15124018/)

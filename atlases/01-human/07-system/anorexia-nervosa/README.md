@@ -193,6 +193,15 @@ cross_links:
   - target: 01-human/07-system/insomnia-disorder
     relation: connects-to
     note: "Hunger fractures sleep: starvation and the stress-hormone surge of anorexia disturb sleep architecture, causing insomnia and early waking that ease as nutrition is restored."
+  - target: 01-human/07-system/ckd
+    relation: connects-to
+    note: "Chronic dehydration and purging scar the kidney: volume depletion, hypokalemia from laxative and diuretic abuse, and recurrent prerenal injury in anorexia can leave a chronic hypokalemic nephropathy and reduced renal function."
+  - target: 02-pathogen/03-fungi/candida-albicans
+    relation: connects-to
+    note: "Starvation weakens antifungal defense: severe malnutrition impairs cell-mediated immunity, so anorexia patients are prone to oral and esophageal candidiasis, an opportunistic infection of the depleted host."
+  - target: 01-human/07-system/social-anxiety-disorder
+    relation: connects-to
+    note: "Social fear feeds the restriction: social anxiety is highly comorbid with anorexia, where fear of judgment around eating and body image reinforces avoidance of meals and the drive to restrict."
 ---
 
 # Anorexia Nervosa
@@ -392,6 +401,9 @@ In healthy individuals, food cues activate the mesolimbic reward circuit (VTA �
 - `connects-to` → **[Nervous System](../nervous-system/README.md)** — It is increasingly seen as a brain disorder: anorexia involves altered reward, fear and body-perception circuits of the nervous system, and starvation itself shrinks brain volume — changes that largely reverse with weight restoration.
 - `connects-to` → **[Sepsis](../sepsis/README.md)** — Starvation strips the body's defenses: severe malnutrition blunts immune function, so infection can progress to sepsis with a blunted fever and white-count response — a quiet but leading cause of death in anorexia.
 - `connects-to` → **[Insomnia Disorder](../insomnia-disorder/README.md)** — Hunger fractures sleep: starvation and the stress-hormone surge of anorexia disturb sleep architecture, causing insomnia and early waking that ease as nutrition is restored.
+- `connects-to` → **[Chronic Kidney Disease](../ckd/README.md)** — Chronic dehydration and purging scar the kidney: volume depletion, hypokalemia from laxative and diuretic abuse, and recurrent prerenal injury in anorexia can leave a chronic hypokalemic nephropathy and reduced renal function.
+- `connects-to` → **[Candida albicans](../../../02-pathogen/03-fungi/candida-albicans/README.md)** — Starvation weakens antifungal defense: severe malnutrition impairs cell-mediated immunity, so anorexia patients are prone to oral and esophageal candidiasis, an opportunistic infection of the depleted host.
+- `connects-to` → **[Social Anxiety Disorder](../social-anxiety-disorder/README.md)** — Social fear feeds the restriction: social anxiety is highly comorbid with anorexia, where fear of judgment around eating and body image reinforces avoidance of meals and the drive to restrict.
 
 [^treasure-2010-an-lancet]: Treasure J, Claudino AM, Zucker N. Eating disorders. *Lancet.* 2010;375(9714):583-593. [doi:10.1016/S0140-6736(09)61748-7](https://doi.org/10.1016/S0140-6736(09)61748-7) · [PubMed 19931176](https://pubmed.ncbi.nlm.nih.gov/19931176/)
 [^lock-2010-fbt-an]: Lock J, Le Grange D, Agras WS, et al. Randomized clinical trial comparing family-based treatment with adolescent-focused individual therapy for adolescents with anorexia nervosa. *Arch Gen Psychiatry.* 2010;67(10):1025-1032. [doi:10.1001/archgenpsychiatry.2010.128](https://doi.org/10.1001/archgenpsychiatry.2010.128) · [PubMed 20921118](https://pubmed.ncbi.nlm.nih.gov/20921118/)
