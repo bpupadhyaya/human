@@ -196,6 +196,15 @@ cross_links:
   - target: 01-human/07-system/major-depressive-disorder
     relation: connects-to
     note: "Inherited cancer risk and surveillance weigh on the mind: living with a recessive polyposis syndrome, repeated colonoscopies and the prospect of colectomy carries a substantial psychological burden."
+  - target: 01-human/07-system/generalized-anxiety-disorder
+    relation: connects-to
+    note: "Lifelong cancer vigilance breeds worry: the recessive inheritance, scores of adenomas and unending colonoscopic surveillance of MAP foster chronic health anxiety alongside low mood."
+  - target: 01-human/07-system/wound-healing
+    relation: connects-to
+    note: "Prophylactic colectomy is a healing challenge: the colectomy or proctocolectomy that removes the polyp-laden bowel in MAP leaves anastomoses and abdominal wounds at risk of leak and slow closure."
+  - target: 01-human/07-system/neuropathic-pain
+    relation: connects-to
+    note: "Oxaliplatin chemotherapy stings the nerves: when MAP progresses to colorectal cancer treated with FOLFOX, the oxaliplatin causes a cold-triggered, often lasting peripheral neuropathy."
 ---
 
 # MUTYH-Associated Polyposis
@@ -357,6 +366,9 @@ Because MAP is autosomal recessive: siblings of MAP patients are at **25%** risk
 - `connects-to` → **[Antibody](../../03-molecular/antibody/README.md)** — MAP looks normal to the Lynch test: its tumors keep their mismatch-repair proteins, so the MLH1/MSH2/MSH6/PMS2 antibody panel stays intact and the cancers are microsatellite-stable — the flaw lies instead in base-excision repair, found only by gene sequencing.
 - `connects-to` → **[Erythrocyte](../../04-cellular/erythrocyte/README.md)** — Bleeding polyps drain the red cells: the slow ooze from MAP's colonic adenomas often surfaces first as unexplained microcytic anemia, the pale, undersized erythrocytes of chronic blood loss that should trigger colonoscopy.
 - `connects-to` → **[Dietary Fiber](../../../03-medicine/03-food/dietary-fiber/README.md)** — Oxidative damage is the heart of MAP: with MUTYH unable to repair the 8-oxoguanine lesions that reactive oxygen leaves in DNA, an antioxidant-rich, high-fiber diet whose butyrate nourishes colonocytes is part of the prevention advice alongside surveillance.
+- `connects-to` → **[Generalized Anxiety Disorder](../generalized-anxiety-disorder/README.md)** — Lifelong cancer vigilance breeds worry: the recessive inheritance, scores of adenomas and unending colonoscopic surveillance of MAP foster chronic health anxiety alongside low mood.
+- `connects-to` → **[Wound Healing](../wound-healing/README.md)** — Prophylactic colectomy is a healing challenge: the colectomy or proctocolectomy that removes the polyp-laden bowel in MAP leaves anastomoses and abdominal wounds at risk of leak and slow closure.
+- `connects-to` → **[Neuropathic Pain](../neuropathic-pain/README.md)** — Oxaliplatin chemotherapy stings the nerves: when MAP progresses to colorectal cancer treated with FOLFOX, the oxaliplatin causes a cold-triggered, often lasting peripheral neuropathy.
 - `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — MAP breaks the dominant-inheritance pattern of its cousins: it is autosomal recessive, so two carrier parents — often with no polyposis themselves — have a 1-in-4 risk each pregnancy, making partner carrier testing and recurrence counseling central to families.
 - `connects-to` → **[Platelet](../../04-cellular/platelet/README.md)** — Aspirin's colorectal protection extends here: blocking platelet COX-1 and the tumor-promoting signals platelets release underpins the chemoprevention studied across hereditary colorectal syndromes, including MUTYH-driven polyposis.
 - `connects-to` → **[Plasma Cell](../../04-cellular/plasma-cell/README.md)** — The repair defect leaves an immune fingerprint: MUTYH loss spawns a heavy load of G-to-T mutations and neoantigens, drawing B cells and plasma cells into the tumor — an immune-rich profile that may make these cancers responsive to checkpoint therapy.

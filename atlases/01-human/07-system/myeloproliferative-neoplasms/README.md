@@ -196,6 +196,15 @@ cross_links:
   - target: 01-human/07-system/major-depressive-disorder
     relation: connects-to
     note: "A chronic clonal disease wears on mood: the heavy constitutional symptom burden — fatigue, itch, night sweats — and the lifelong thrombosis-and-transformation risk of MPNs contribute to depression and reduced quality of life."
+  - target: 02-pathogen/01-viruses/varicella-zoster-virus
+    relation: connects-to
+    note: "JAK inhibition reawakens shingles: ruxolitinib used for myelofibrosis and polycythemia vera dampens T-cell immunity and characteristically reactivates latent varicella-zoster, a recognised risk during therapy."
+  - target: 01-human/07-system/iron-deficiency-anemia
+    relation: connects-to
+    note: "Treating polycythemia drains the iron stores: the repeated therapeutic phlebotomy used to control the red-cell mass in polycythemia vera deliberately induces iron deficiency to limit erythropoiesis."
+  - target: 01-human/07-system/generalized-anxiety-disorder
+    relation: connects-to
+    note: "Lifelong clot-and-transformation risk breeds worry: the constant threat of thrombosis and progression to acute leukaemia in MPNs, plus relentless symptoms, fosters chronic health anxiety alongside low mood."
 ---
 
 # Myeloproliferative Neoplasms
@@ -399,6 +408,9 @@ In PV and ET, JAK2 V617F also affects myeloid progenitors → granulocytosis and
 - `connects-to` → **[Anemia of Chronic Disease](../anemia-of-chronic-disease/README.md)** — Marrow fibrosis and inflammation lower the count: as MPNs evolve toward a spent, myelofibrotic phase, marrow scarring and chronic inflammation replace the cellular excess with an anemia of chronic disease.
 - `connects-to` → **[Aspergillus fumigatus](../../../02-pathogen/03-fungi/aspergillus-fumigatus/README.md)** — JAK inhibitors open the lung to mold: ruxolitinib used for myelofibrosis and polycythemia vera suppresses immunity and, with disease-related neutropenia, raises the risk of invasive aspergillosis and other opportunistic infections.
 - `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — A chronic clonal disease wears on mood: the heavy constitutional symptom burden — fatigue, itch, night sweats — and the lifelong thrombosis-and-transformation risk of MPNs contribute to depression and reduced quality of life.
+- `connects-to` → **[Varicella-Zoster Virus](../../../02-pathogen/01-viruses/varicella-zoster-virus/README.md)** — JAK inhibition reawakens shingles: ruxolitinib used for myelofibrosis and polycythemia vera dampens T-cell immunity and characteristically reactivates latent varicella-zoster, a recognised risk during therapy.
+- `connects-to` → **[Iron-Deficiency Anemia](../iron-deficiency-anemia/README.md)** — Treating polycythemia drains the iron stores: the repeated therapeutic phlebotomy used to control the red-cell mass in polycythemia vera deliberately induces iron deficiency to limit erythropoiesis.
+- `connects-to` → **[Generalized Anxiety Disorder](../generalized-anxiety-disorder/README.md)** — Lifelong clot-and-transformation risk breeds worry: the constant threat of thrombosis and progression to acute leukaemia in MPNs, plus relentless symptoms, fosters chronic health anxiety alongside low mood.
 
 [^verstovsek-2012-comfort-i]: Verstovsek S, Mesa RA, Gotlib J, et al. A double-blind, placebo-controlled trial of ruxolitinib for myelofibrosis. *N Engl J Med.* 2012;366(9):799-807. [doi:10.1056/NEJMoa1110557](https://doi.org/10.1056/NEJMoa1110557) · [PubMed 22375971](https://pubmed.ncbi.nlm.nih.gov/22375971/)
 [^vannucchi-2015-response]: Vannucchi AM, Kiladjian JJ, Griesshammer M, et al. Ruxolitinib versus standard therapy for the treatment of polycythemia vera. *N Engl J Med.* 2015;372(5):426-435. [doi:10.1056/NEJMoa1409002](https://doi.org/10.1056/NEJMoa1409002) · [PubMed 25426978](https://pubmed.ncbi.nlm.nih.gov/25426978/)
