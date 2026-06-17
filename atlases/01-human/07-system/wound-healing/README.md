@@ -184,6 +184,15 @@ cross_links:
   - target: 01-human/07-system/venous-thromboembolism
     relation: connects-to
     note: "The same clotting that seals wounds can misfire: the surgery and immobility that accompany major wound repair, layered on the body's natural post-injury hypercoagulable state, raise the risk of deep-vein thrombosis."
+  - target: 02-pathogen/03-fungi/candida-albicans
+    relation: connects-to
+    note: "It colonizes wounds that won't close: Candida joins bacteria in the biofilms of chronic non-healing ulcers, and its presence sustains the inflammatory, proteolytic environment that keeps a wound stuck in the inflammatory phase."
+  - target: 01-human/07-system/atherosclerosis
+    relation: connects-to
+    note: "Starved of blood, tissue cannot rebuild: peripheral arterial disease from atherosclerosis cuts oxygen and nutrient delivery to a wound bed, a leading cause of ischemic, non-healing lower-limb ulcers and amputation."
+  - target: 01-human/07-system/anemia-of-chronic-disease
+    relation: connects-to
+    note: "Low oxygen-carrying capacity stalls repair: anemia of chronic disease reduces the oxygen reaching the wound bed needed for collagen cross-linking and the respiratory burst, slowing closure in chronically ill patients."
 ---
 
 # Wound Healing
@@ -358,6 +367,9 @@ cross_links:
 - `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — STAT3 drives the skin to close: downstream of IL-6 and growth factors, STAT3 signaling pushes keratinocyte migration and proliferation across the wound bed, so its loss markedly slows re-epithelialization.
 - `connects-to` → **[NF-κB](../../03-molecular/nf-kb/README.md)** — NF-κB runs the inflammatory phase: activated in immune cells and keratinocytes at the injury, it switches on the cytokines and antimicrobial defenses that clear debris and pathogens before the rebuilding phase can begin.
 - `connects-to` → **[Venous Thromboembolism](../venous-thromboembolism/README.md)** — The same clotting that seals wounds can misfire: the surgery and immobility that accompany major wound repair, layered on the body's natural post-injury hypercoagulable state, raise the risk of deep-vein thrombosis.
+- `connects-to` → **[Candida albicans](../../../02-pathogen/03-fungi/candida-albicans/README.md)** — It colonizes wounds that won't close: Candida joins bacteria in the biofilms of chronic non-healing ulcers, and its presence sustains the inflammatory, proteolytic environment that keeps a wound stuck in the inflammatory phase.
+- `connects-to` → **[Atherosclerosis](../atherosclerosis/README.md)** — Starved of blood, tissue cannot rebuild: peripheral arterial disease from atherosclerosis cuts oxygen and nutrient delivery to a wound bed, a leading cause of ischemic, non-healing lower-limb ulcers and amputation.
+- `connects-to` → **[Anemia of Chronic Disease](../anemia-of-chronic-disease/README.md)** — Low oxygen-carrying capacity stalls repair: anemia of chronic disease reduces the oxygen reaching the wound bed needed for collagen cross-linking and the respiratory burst, slowing closure in chronically ill patients.
 
 [^singer-1999-wound-healing-review]: Singer AJ, Clark RA. Cutaneous wound healing. *N Engl J Med.* 1999;341(10):738-746. [doi:10.1056/NEJM199909023411006](https://doi.org/10.1056/NEJM199909023411006) · [PubMed 10471461](https://pubmed.ncbi.nlm.nih.gov/10471461/)
 [^gurtner-2008-wound-repair-regeneration]: Gurtner GC, Werner S, Barrandon Y, Longaker MT. Wound repair and regeneration. *Nature.* 2008;453(7193):314-321. [doi:10.1038/nature07039](https://doi.org/10.1038/nature07039) · [PubMed 18480812](https://pubmed.ncbi.nlm.nih.gov/18480812/)

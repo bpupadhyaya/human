@@ -187,6 +187,15 @@ cross_links:
   - target: 01-human/07-system/venous-thromboembolism
     relation: connects-to
     note: "A cancer that both clots and bleeds: AML's tumor burden and procoagulant blasts raise venous thrombosis risk even as the disease destroys platelets, a treacherous balance most extreme in its promyelocytic subtype."
+  - target: 02-pathogen/03-fungi/aspergillus-fumigatus
+    relation: connects-to
+    note: "Prolonged neutropenia is its classic opening: the deep, weeks-long neutropenia of AML induction lets inhaled Aspergillus invade the lung as angioinvasive aspergillosis, a leading infectious cause of death that drives antifungal prophylaxis."
+  - target: 02-pathogen/03-fungi/candida-albicans
+    relation: connects-to
+    note: "Chemo-stripped mucosa and neutropenia let it bloodstream: AML treatment's mucositis and neutropenia allow Candida to translocate from the gut into the blood, causing invasive candidiasis and hepatosplenic disease."
+  - target: 01-human/07-system/heart-failure
+    relation: connects-to
+    note: "Its cure can wound the heart: the anthracyclines (daunorubicin, idarubicin) central to AML induction are dose-dependently cardiotoxic, and the cumulative exposure can leave a cardiomyopathy and heart failure in survivors."
 ---
 
 # AML
@@ -354,6 +363,9 @@ AML requires cooperative mutations in at least 2 functional categories (Gillilan
 - `connects-to` → **[NF-κB](../../03-molecular/nf-kb/README.md)** — NF-κB keeps the leukemic stem cell alive: AML stem cells show constitutive NF-κB activity that normal blood stem cells lack, a survival signal that makes the pathway an attractive target for sparing healthy marrow.
 - `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — STAT3 carries the FLT3 growth signal: downstream of mutated FLT3 and cytokine receptors, STAT3 activation drives AML proliferation and survival, and high STAT3 activity marks a worse prognosis.
 - `connects-to` → **[Venous Thromboembolism](../venous-thromboembolism/README.md)** — A cancer that both clots and bleeds: AML's tumor burden and procoagulant blasts raise venous thrombosis risk even as the disease destroys platelets, a treacherous balance most extreme in its promyelocytic subtype.
+- `connects-to` → **[Aspergillus fumigatus](../../../02-pathogen/03-fungi/aspergillus-fumigatus/README.md)** — Prolonged neutropenia is its classic opening: the deep, weeks-long neutropenia of AML induction lets inhaled Aspergillus invade the lung as angioinvasive aspergillosis, a leading infectious cause of death that drives antifungal prophylaxis.
+- `connects-to` → **[Candida albicans](../../../02-pathogen/03-fungi/candida-albicans/README.md)** — Chemo-stripped mucosa and neutropenia let it bloodstream: AML treatment's mucositis and neutropenia allow Candida to translocate from the gut into the blood, causing invasive candidiasis and hepatosplenic disease.
+- `connects-to` → **[Heart Failure](../heart-failure/README.md)** — Its cure can wound the heart: the anthracyclines (daunorubicin, idarubicin) central to AML induction are dose-dependently cardiotoxic, and the cumulative exposure can leave a cardiomyopathy and heart failure in survivors.
 
 [^dinardo-2020-viale-a]: DiNardo CD, Jonas BA, Pullarkat V, et al. Azacitidine and venetoclax in previously untreated acute myeloid leukemia. *N Engl J Med.* 2020;383(7):617-629. [doi:10.1056/NEJMoa2012971](https://doi.org/10.1056/NEJMoa2012971) · [PubMed 32786187](https://pubmed.ncbi.nlm.nih.gov/32786187/)
 [^stone-2017-midostaurin]: Stone RM, Mandrekar SJ, Sanford BL, et al. Midostaurin plus chemotherapy for acute myeloid leukemia with a FLT3 mutation. *N Engl J Med.* 2017;377(5):454-464. [doi:10.1056/NEJMoa1614359](https://doi.org/10.1056/NEJMoa1614359) · [PubMed 28644114](https://pubmed.ncbi.nlm.nih.gov/28644114/)
