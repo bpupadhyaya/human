@@ -178,6 +178,15 @@ cross_links:
   - target: 01-human/07-system/multiple-myeloma
     relation: connects-to
     note: "A destructive axial bone lesion poses a differential: a lytic sacral or vertebral mass on imaging must be told apart from myeloma and metastasis, since chordoma's notochordal origin and brachyury staining set it apart and change treatment."
+  - target: 01-human/03-molecular/stat3
+    relation: connects-to
+    note: "STAT3 supports the slow-growing tumor: chordoma cells show STAT3 activation downstream of receptor signaling that backs their survival, one of the pathways explored where this radioresistant tumor needs systemic options."
+  - target: 01-human/07-system/venous-thromboembolism
+    relation: connects-to
+    note: "Major axial surgery clots the veins: the long sacral and skull-base resections chordoma requires, with prolonged immobility afterward, make deep-vein thrombosis and pulmonary embolism a real perioperative risk."
+  - target: 01-human/07-system/sepsis
+    relation: connects-to
+    note: "Deep resections invite infection: extensive sacral and clival surgery, sometimes with CSF leak, can be complicated by deep wound infection and meningitis that progress to sepsis."
 ---
 
 # Chordoma
@@ -366,6 +375,9 @@ CDKN2A deletion in ~30-40% → CDK4/6 hyperactivation → RB1 phosphorylation; p
 - `connects-to` → **[YAP1](../../03-molecular/yap1/README.md)** — Hippo-YAP signaling feeds the notochordal tumor: YAP1 activity cooperates with brachyury to sustain chordoma cell proliferation and survival, marking the Hippo pathway as a candidate target in a cancer with few effective drugs.
 - `connects-to` → **[Neuropathic Pain](../neuropathic-pain/README.md)** — Chordoma hurts by crushing nerves: as it grows in the sacrum or clivus it compresses nerve roots and the spinal cord, causing the radicular and neuropathic pain that is often its first symptom.
 - `connects-to` → **[Multiple Myeloma](../multiple-myeloma/README.md)** — A destructive axial bone lesion poses a differential: a lytic sacral or vertebral mass on imaging must be told apart from myeloma and metastasis, since chordoma's notochordal origin and brachyury staining set it apart and change treatment.
+- `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — STAT3 supports the slow-growing tumor: chordoma cells show STAT3 activation downstream of receptor signaling that backs their survival, one of the pathways explored where this radioresistant tumor needs systemic options.
+- `connects-to` → **[Venous Thromboembolism](../venous-thromboembolism/README.md)** — Major axial surgery clots the veins: the long sacral and skull-base resections chordoma requires, with prolonged immobility afterward, make deep-vein thrombosis and pulmonary embolism a real perioperative risk.
+- `connects-to` → **[Sepsis](../sepsis/README.md)** — Deep resections invite infection: extensive sacral and clival surgery, sometimes with CSF leak, can be complicated by deep wound infection and meningitis that progress to sepsis.
 
 ---
 

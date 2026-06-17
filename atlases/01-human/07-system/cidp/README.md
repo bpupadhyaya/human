@@ -186,6 +186,15 @@ cross_links:
   - target: 01-human/07-system/hepatitis-c
     relation: connects-to
     note: "Chronic infection can drive the neuropathy: hepatitis C is associated with demyelinating and cryoglobulinemic neuropathies that overlap CIDP, so viral serology is part of the workup because it changes treatment."
+  - target: 01-human/03-molecular/stat3
+    relation: connects-to
+    note: "Th17 autoimmunity funnels through STAT3: IL-6- and IL-17-driven STAT3 signaling supports the autoreactive T-helper response that attacks peripheral myelin in CIDP, a node downstream of the cytokines elevated in the disease."
+  - target: 01-human/07-system/venous-thromboembolism
+    relation: connects-to
+    note: "Immobility and IVIG raise the clot risk: limb weakness limits mobility while intravenous immunoglobulin — a mainstay treatment — is itself prothrombotic, together increasing the risk of deep-vein thrombosis and pulmonary embolism."
+  - target: 01-human/07-system/sepsis
+    relation: connects-to
+    note: "Long-term immunosuppression opens a gap: the corticosteroids and immunosuppressants used to control CIDP, plus immobility-related aspiration and pressure sores in severe disease, predispose to serious infection and sepsis."
 ---
 
 # CIDP
@@ -384,6 +393,9 @@ IgG4 anti-NF155 or anti-CNTN1 disrupts this complex → paranodal loop detachmen
 - `connects-to` → **[IL-17A](../../03-molecular/il-17a/README.md)** — A Th17 arm helps strip the myelin: IL-17A from autoreactive helper T cells promotes the inflammatory attack on peripheral nerve in CIDP, part of the cytokine milieu that breaks immune tolerance to myelin.
 - `connects-to` → **[Natural Killer Cell](../../04-cellular/natural-killer-cell/README.md)** — Faltering NK regulation lets autoimmunity run: natural killer cells normally help restrain autoreactive T cells, and their reduced number and function in CIDP is one of the immune-regulatory failures behind the chronic demyelination.
 - `connects-to` → **[Hepatitis C](../hepatitis-c/README.md)** — Chronic infection can drive the neuropathy: hepatitis C is associated with demyelinating and cryoglobulinemic neuropathies that overlap CIDP, so viral serology is part of the workup because it changes treatment.
+- `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — Th17 autoimmunity funnels through STAT3: IL-6- and IL-17-driven STAT3 signaling supports the autoreactive T-helper response that attacks peripheral myelin in CIDP, a node downstream of the cytokines elevated in the disease.
+- `connects-to` → **[Venous Thromboembolism](../venous-thromboembolism/README.md)** — Immobility and IVIG raise the clot risk: limb weakness limits mobility while intravenous immunoglobulin — a mainstay treatment — is itself prothrombotic, together increasing the risk of deep-vein thrombosis and pulmonary embolism.
+- `connects-to` → **[Sepsis](../sepsis/README.md)** — Long-term immunosuppression opens a gap: the corticosteroids and immunosuppressants used to control CIDP, plus immobility-related aspiration and pressure sores in severe disease, predispose to serious infection and sepsis.
 
 ---
 
