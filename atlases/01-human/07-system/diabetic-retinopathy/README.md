@@ -205,6 +205,15 @@ cross_links:
   - target: 01-human/07-system/alzheimers-disease
     relation: connects-to
     note: "Retinal microvascular damage mirrors the brain's: diabetic retinopathy is a window onto systemic small-vessel disease, and its presence tracks with the cerebral microvascular injury that contributes to vascular and Alzheimer-type dementia."
+  - target: 01-human/07-system/endocrine-system
+    relation: connects-to
+    note: "It is a direct readout of glycaemic control: diabetic retinopathy is driven by the chronic hyperglycaemia of the endocrine diabetic state, and hormonal surges of puberty and pregnancy can accelerate it."
+  - target: 02-pathogen/02-bacteria/staphylococcus-aureus
+    relation: connects-to
+    note: "Each anti-VEGF injection risks acute endophthalmitis: the repeated intravitreal injections that treat diabetic retinopathy can introduce skin bacteria like Staphylococcus aureus, causing sight-threatening bacterial endophthalmitis."
+  - target: 01-human/07-system/musculoskeletal-system
+    relation: connects-to
+    note: "Losing vision means losing footing: the visual impairment of advanced diabetic retinopathy is a major risk factor for falls and the fractures that follow, especially in older diabetics."
 ---
 
 # Diabetic Retinopathy
@@ -377,6 +386,9 @@ DR encompasses a spectrum from subtle vascular changes to sight-threatening neov
 - `connects-to` → **[Generalized Anxiety Disorder](../generalized-anxiety-disorder/README.md)** — Fear of going blind breeds chronic worry: the threat of irreversible vision loss and the burden of repeated injections and laser treatment in diabetic retinopathy fuel persistent anxiety alongside depression.
 - `connects-to` → **[Candida albicans](../../../02-pathogen/03-fungi/candida-albicans/README.md)** — Diabetes and intravitreal injections risk fungal eye infection: poorly controlled diabetes predisposes to endogenous Candida endophthalmitis, and the repeated intravitreal anti-VEGF injections for retinopathy add a route for infection of the eye.
 - `connects-to` → **[Alzheimer's Disease](../alzheimers-disease/README.md)** — Retinal microvascular damage mirrors the brain's: diabetic retinopathy is a window onto systemic small-vessel disease, and its presence tracks with the cerebral microvascular injury that contributes to vascular and Alzheimer-type dementia.
+- `connects-to` → **[Endocrine System](../endocrine-system/README.md)** — It is a direct readout of glycaemic control: diabetic retinopathy is driven by the chronic hyperglycaemia of the endocrine diabetic state, and hormonal surges of puberty and pregnancy can accelerate it.
+- `connects-to` → **[Staphylococcus aureus](../../../02-pathogen/02-bacteria/staphylococcus-aureus/README.md)** — Each anti-VEGF injection risks acute endophthalmitis: the repeated intravitreal injections that treat diabetic retinopathy can introduce skin bacteria like Staphylococcus aureus, causing sight-threatening bacterial endophthalmitis.
+- `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — Losing vision means losing footing: the visual impairment of advanced diabetic retinopathy is a major risk factor for falls and the fractures that follow, especially in older diabetics.
 
 [^fong-2004-dr-review]: Fong DS, Aiello L, Gardner TW, et al. Diabetic retinopathy. *Diabetes Care.* 2004;27(10):2540-2553. [doi:10.2337/diacare.27.10.2540](https://doi.org/10.2337/diacare.27.10.2540) · [PubMed 15451934](https://pubmed.ncbi.nlm.nih.gov/15451934/)
 [^brown-2015-aflibercept-protocol-t]: Diabetic Retinopathy Clinical Research Network; Wells JA, Glassman AR, et al. Aflibercept, Bevacizumab, or Ranibizumab for Diabetic Macular Edema. *N Engl J Med.* 2015;372(13):1193-1203. [doi:10.1056/NEJMoa1414264](https://doi.org/10.1056/NEJMoa1414264) · [PubMed 25692915](https://pubmed.ncbi.nlm.nih.gov/25692915/)
