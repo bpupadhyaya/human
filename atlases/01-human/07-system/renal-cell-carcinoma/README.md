@@ -187,6 +187,15 @@ cross_links:
   - target: 01-human/07-system/sepsis
     relation: connects-to
     note: "Surgery and immunotherapy open the door: major nephrectomy in often older patients and the immune perturbations of checkpoint-inhibitor therapy leave advanced-RCC patients vulnerable to serious infection and sepsis."
+  - target: 01-human/07-system/heart-failure
+    relation: connects-to
+    note: "Its anti-angiogenic TKIs strain the heart: sunitinib, pazopanib and other VEGF-pathway inhibitors central to RCC therapy raise blood pressure and are directly cardiotoxic, capable of precipitating heart failure."
+  - target: 01-human/07-system/type-1-diabetes
+    relation: connects-to
+    note: "Checkpoint immunotherapy can trigger autoimmune diabetes: the PD-1 and CTLA-4 inhibitors used for advanced RCC occasionally unleash autoimmunity against pancreatic islets, causing fulminant insulin-dependent diabetes."
+  - target: 01-human/07-system/major-depressive-disorder
+    relation: connects-to
+    note: "An advanced cancer and its immunotherapy weigh on mood: the diagnosis, prolonged systemic therapy and the fatigue and inflammatory burden of metastatic RCC contribute to substantial depression and anxiety."
 ---
 
 # Renal Cell Carcinoma
@@ -362,6 +371,9 @@ Kidney → primary site of EPO production under hypoxia; VHL-intact renal inters
 - `connects-to` → **[Interleukin-6](../../03-molecular/il-6/README.md)** — It is a classic IL-6-producing tumor: RCC secretes IL-6, driving a paraneoplastic constitutional syndrome of fever, weight loss and raised inflammatory markers, plus Stauffer's non-metastatic hepatic dysfunction.
 - `connects-to` → **[Anemia of Chronic Disease](../anemia-of-chronic-disease/README.md)** — Despite an EPO-making kidney, the marrow can lag: the IL-6 and inflammation of RCC raise hepcidin and suppress erythropoiesis, so an anemia of chronic disease is common and paradoxically coexists with the EPO-driven polycythemia in others.
 - `connects-to` → **[Sepsis](../sepsis/README.md)** — Surgery and immunotherapy open the door: major nephrectomy in often older patients and the immune perturbations of checkpoint-inhibitor therapy leave advanced-RCC patients vulnerable to serious infection and sepsis.
+- `connects-to` → **[Heart Failure](../heart-failure/README.md)** — Its anti-angiogenic TKIs strain the heart: sunitinib, pazopanib and other VEGF-pathway inhibitors central to RCC therapy raise blood pressure and are directly cardiotoxic, capable of precipitating heart failure.
+- `connects-to` → **[Type 1 Diabetes](../type-1-diabetes/README.md)** — Checkpoint immunotherapy can trigger autoimmune diabetes: the PD-1 and CTLA-4 inhibitors used for advanced RCC occasionally unleash autoimmunity against pancreatic islets, causing fulminant insulin-dependent diabetes.
+- `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — An advanced cancer and its immunotherapy weigh on mood: the diagnosis, prolonged systemic therapy and the fatigue and inflammatory burden of metastatic RCC contribute to substantial depression and anxiety.
 
 [^motzer-2018-checkmate214]: Motzer RJ, Tannir NM, McDermott DF, et al. Nivolumab plus ipilimumab versus sunitinib in advanced renal-cell carcinoma. *N Engl J Med.* 2018;378(14):1277-1290. [doi:10.1056/NEJMoa1712126](https://doi.org/10.1056/NEJMoa1712126) · [PubMed 29562145](https://pubmed.ncbi.nlm.nih.gov/29562145/)
 [^rini-2019-keynote426]: Rini BI, Plimack ER, Stus V, et al. Pembrolizumab plus axitinib versus sunitinib for advanced renal-cell carcinoma. *N Engl J Med.* 2019;380(12):1116-1127. [doi:10.1056/NEJMoa1816714](https://doi.org/10.1056/NEJMoa1816714) · [PubMed 30779529](https://pubmed.ncbi.nlm.nih.gov/30779529/)
