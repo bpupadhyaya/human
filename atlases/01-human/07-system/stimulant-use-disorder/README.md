@@ -178,6 +178,15 @@ cross_links:
   - target: 01-human/07-system/hepatitis-c
     relation: connects-to
     note: "Injection stimulant use spreads hepatitis C: shared needles and the binge-injection pattern of methamphetamine and cocaine make stimulant use disorder a major route of HCV transmission, alongside HIV."
+  - target: 01-human/03-molecular/nf-kb
+    relation: connects-to
+    note: "Stimulants inflame the brain through NF-κB: cocaine and methamphetamine activate microglial NF-κB signaling, driving the cytokine output and neurotoxicity that underlie addiction-related brain injury."
+  - target: 02-pathogen/03-fungi/candida-albicans
+    relation: connects-to
+    note: "The needle can seed a fungus: injection stimulant use causes Candida bloodstream infection that lodges in the eyes and heart valves, the candidemia and endocarditis shared with other injection drug use."
+  - target: 01-human/07-system/ckd
+    relation: connects-to
+    note: "Stimulants grind down the kidneys: cocaine and methamphetamine cause vasoconstriction, malignant hypertension and rhabdomyolysis-driven acute kidney injury that can accumulate into chronic kidney disease."
 ---
 
 # Stimulant Use Disorder
@@ -353,6 +362,9 @@ Unlike cocaine, methamphetamine causes **direct neurotoxic damage** to dopaminer
 - `connects-to` → **[Astrocyte](../../04-cellular/astrocyte/README.md)** — Stimulants scar the brain's support cells: methamphetamine and cocaine provoke reactive astrogliosis and disrupt the blood-brain barrier astrocytes help maintain, contributing to the neurotoxicity and cognitive decline of chronic use.
 - `connects-to` → **[NLRP3 Inflammasome](../../03-molecular/nlrp3-inflammasome/README.md)** — Addiction has a neuroinflammatory engine: stimulants activate microglial TLR4 and the NLRP3 inflammasome, and the IL-1β released reinforces drug-seeking and the neurotoxicity behind stimulant brain injury.
 - `connects-to` → **[Hepatitis C](../hepatitis-c/README.md)** — Injection stimulant use spreads hepatitis C: shared needles and the binge-injection pattern of methamphetamine and cocaine make stimulant use disorder a major route of HCV transmission, alongside HIV.
+- `connects-to` → **[NF-κB](../../03-molecular/nf-kb/README.md)** — Stimulants inflame the brain through NF-κB: cocaine and methamphetamine activate microglial NF-κB signaling, driving the cytokine output and neurotoxicity that underlie addiction-related brain injury.
+- `connects-to` → **[Candida albicans](../../../02-pathogen/03-fungi/candida-albicans/README.md)** — The needle can seed a fungus: injection stimulant use causes Candida bloodstream infection that lodges in the eyes and heart valves, the candidemia and endocarditis shared with other injection drug use.
+- `connects-to` → **[Chronic Kidney Disease](../ckd/README.md)** — Stimulants grind down the kidneys: cocaine and methamphetamine cause vasoconstriction, malignant hypertension and rhabdomyolysis-driven acute kidney injury that can accumulate into chronic kidney disease.
 
 ## Treatment
 
