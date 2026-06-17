@@ -196,6 +196,15 @@ cross_links:
   - target: 01-human/07-system/gout
     relation: connects-to
     note: "Shared metabolic excess raises uric acid: the insulin resistance and fructose metabolism of NASH drive hyperuricemia, so gout frequently accompanies fatty-liver disease as part of the metabolic syndrome cluster."
+  - target: 01-human/07-system/stroke
+    relation: connects-to
+    note: "Its metabolic disease reaches the brain's arteries: NASH is an independent marker of systemic atherosclerosis, and cardiovascular and cerebrovascular disease — including ischemic stroke — are leading causes of death in fatty-liver disease."
+  - target: 01-human/07-system/osteoporosis
+    relation: connects-to
+    note: "A diseased liver weakens bone: NASH is associated with reduced bone mineral density through chronic inflammation, vitamin D dysregulation and disturbed hepatic-bone signaling, raising fracture risk."
+  - target: 01-human/07-system/major-depressive-disorder
+    relation: connects-to
+    note: "Metabolic disease and mood entwine: NASH carries elevated depression, sharing the inflammation, obesity and insulin resistance of metabolic syndrome, and depression in turn worsens the lifestyle drivers of fatty liver."
 ---
 
 # NASH
@@ -344,6 +353,9 @@ NASH pathogenesis is driven by multiple simultaneous and sequential hits, not a 
 - `connects-to` → **[Colorectal Cancer](../colorectal-cancer/README.md)** — The fatty liver flags a higher colon-cancer risk: NASH and its metabolic milieu are associated with an increased incidence of colorectal cancer and advanced adenomas, a malignancy beyond the liver that the disease tracks with.
 - `connects-to` → **[Heart Failure](../heart-failure/README.md)** — The fat-laden liver burdens the heart: NASH is independently linked to heart failure — especially with preserved ejection fraction — through shared insulin resistance, systemic inflammation and a cardiomyopathy of metabolic disease.
 - `connects-to` → **[Gout](../gout/README.md)** — Shared metabolic excess raises uric acid: the insulin resistance and fructose metabolism of NASH drive hyperuricemia, so gout frequently accompanies fatty-liver disease as part of the metabolic syndrome cluster.
+- `connects-to` → **[Stroke](../stroke/README.md)** — Its metabolic disease reaches the brain's arteries: NASH is an independent marker of systemic atherosclerosis, and cardiovascular and cerebrovascular disease — including ischemic stroke — are leading causes of death in fatty-liver disease.
+- `connects-to` → **[Osteoporosis](../osteoporosis/README.md)** — A diseased liver weakens bone: NASH is associated with reduced bone mineral density through chronic inflammation, vitamin D dysregulation and disturbed hepatic-bone signaling, raising fracture risk.
+- `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — Metabolic disease and mood entwine: NASH carries elevated depression, sharing the inflammation, obesity and insulin resistance of metabolic syndrome, and depression in turn worsens the lifestyle drivers of fatty liver.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 

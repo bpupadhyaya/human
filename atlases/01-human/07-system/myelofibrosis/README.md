@@ -190,6 +190,15 @@ cross_links:
   - target: 01-human/07-system/heart-failure
     relation: connects-to
     note: "Transfusion iron and chronic anemia burden the heart: the lifelong red-cell support for myelofibrosis anemia deposits iron in the myocardium, and the sustained anemia adds high-output strain, together risking heart failure."
+  - target: 02-pathogen/01-viruses/varicella-zoster-virus
+    relation: connects-to
+    note: "Its JAK-inhibitor therapy reawakens shingles: ruxolitinib, a mainstay for myelofibrosis, suppresses immunity and characteristically reactivates latent varicella-zoster as herpes zoster, prompting vaccination and vigilance."
+  - target: 02-pathogen/03-fungi/pneumocystis-jirovecii
+    relation: connects-to
+    note: "JAK inhibition opens the lung to Pneumocystis: ruxolitinib's immunosuppression, atop the immune dysfunction of myelofibrosis, can permit opportunistic Pneumocystis pneumonia."
+  - target: 01-human/07-system/major-depressive-disorder
+    relation: connects-to
+    note: "A heavy symptom burden weighs on mood: the relentless fatigue, pruritus, drenching sweats and massive splenomegaly of myelofibrosis erode quality of life and contribute to depression."
 ---
 
 # Myelofibrosis
@@ -375,6 +384,9 @@ Abrupt ruxolitinib cessation → cytokine rebound → fever, splenomegaly surge,
 - `connects-to` → **[Tuberculosis](../tuberculosis/README.md)** — Its JAK inhibitor can wake latent TB: ruxolitinib, the mainstay drug for myelofibrosis, suppresses interferon-γ signaling and impairs the granuloma, so latent tuberculosis can reactivate during treatment.
 - `connects-to` → **[Aspergillus fumigatus](../../../02-pathogen/03-fungi/aspergillus-fumigatus/README.md)** — Neutropenia and JAK blockade open the lung to mold: cytopenias from marrow fibrosis plus the immunosuppression of ruxolitinib leave patients prone to invasive aspergillosis and other opportunistic infections.
 - `connects-to` → **[Heart Failure](../heart-failure/README.md)** — Transfusion iron and chronic anemia burden the heart: the lifelong red-cell support for myelofibrosis anemia deposits iron in the myocardium, and the sustained anemia adds high-output strain, together risking heart failure.
+- `connects-to` → **[Varicella-Zoster Virus](../../../02-pathogen/01-viruses/varicella-zoster-virus/README.md)** — Its JAK-inhibitor therapy reawakens shingles: ruxolitinib, a mainstay for myelofibrosis, suppresses immunity and characteristically reactivates latent varicella-zoster as herpes zoster, prompting vaccination and vigilance.
+- `connects-to` → **[Pneumocystis jirovecii](../../../02-pathogen/03-fungi/pneumocystis-jirovecii/README.md)** — JAK inhibition opens the lung to Pneumocystis: ruxolitinib's immunosuppression, atop the immune dysfunction of myelofibrosis, can permit opportunistic Pneumocystis pneumonia.
+- `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — A heavy symptom burden weighs on mood: the relentless fatigue, pruritus, drenching sweats and massive splenomegaly of myelofibrosis erode quality of life and contribute to depression.
 
 ---
 
