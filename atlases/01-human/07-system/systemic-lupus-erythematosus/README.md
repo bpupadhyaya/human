@@ -187,6 +187,15 @@ cross_links:
   - target: 01-human/07-system/sepsis
     relation: connects-to
     note: "Immunosuppression turns infection deadly: complement deficiency, functional hyposplenism and the steroids and immunosuppressants that treat lupus leave patients prone to severe infection, and sepsis rivals the disease itself as a cause of death."
+  - target: 01-human/07-system/anemia-of-chronic-disease
+    relation: connects-to
+    note: "Inflammation dulls the marrow on top of autoimmune attack: alongside autoimmune hemolysis and renal disease, the chronic IL-6 drive of active lupus raises hepcidin and suppresses erythropoiesis into an anemia of chronic disease."
+  - target: 02-pathogen/03-fungi/pneumocystis-jirovecii
+    relation: connects-to
+    note: "Heavy immunosuppression opens the lung to it: cyclophosphamide, rituximab and high-dose steroids for severe lupus deplete the T-cell defenses against Pneumocystis, so prophylaxis is weighed during intensive treatment."
+  - target: 01-human/07-system/osteoporosis
+    relation: connects-to
+    note: "Steroids and inflammation erode the skeleton: the prolonged corticosteroids central to lupus treatment, plus chronic inflammation and reduced sun exposure, accelerate bone loss and raise fracture risk even in young women."
 ---
 
 # Systemic Lupus Erythematosus
@@ -367,6 +376,9 @@ Highly polygenic disease with >100 susceptibility loci; heritability ~66%:
 - `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — STAT3 powers the autoreactive helper cells: downstream of IL-6 and IL-21, STAT3 drives the follicular helper T and Th17 responses that license B cells to make lupus autoantibodies, a node behind the JAK inhibitors being tested in SLE.
 - `connects-to` → **[Venous Thromboembolism](../venous-thromboembolism/README.md)** — Lupus blood clots readily: chronic inflammation and frequent antiphospholipid antibodies make deep-vein thrombosis and pulmonary embolism markedly more common in SLE, even apart from full antiphospholipid syndrome.
 - `connects-to` → **[Sepsis](../sepsis/README.md)** — Immunosuppression turns infection deadly: complement deficiency, functional hyposplenism and the steroids and immunosuppressants that treat lupus leave patients prone to severe infection, and sepsis rivals the disease itself as a cause of death.
+- `connects-to` → **[Anemia of Chronic Disease](../anemia-of-chronic-disease/README.md)** — Inflammation dulls the marrow on top of autoimmune attack: alongside autoimmune hemolysis and renal disease, the chronic IL-6 drive of active lupus raises hepcidin and suppresses erythropoiesis into an anemia of chronic disease.
+- `connects-to` → **[Pneumocystis jirovecii](../../../02-pathogen/03-fungi/pneumocystis-jirovecii/README.md)** — Heavy immunosuppression opens the lung to it: cyclophosphamide, rituximab and high-dose steroids for severe lupus deplete the T-cell defenses against Pneumocystis, so prophylaxis is weighed during intensive treatment.
+- `connects-to` → **[Osteoporosis](../osteoporosis/README.md)** — Steroids and inflammation erode the skeleton: the prolonged corticosteroids central to lupus treatment, plus chronic inflammation and reduced sun exposure, accelerate bone loss and raise fracture risk even in young women.
 
 [^tsokos-2011-sle-review]: Tsokos GC. Systemic lupus erythematosus. *N Engl J Med.* 2011;365(22):2110-2121. [doi:10.1056/NEJMra1100359](https://doi.org/10.1056/NEJMra1100359) · [PubMed 22129253](https://pubmed.ncbi.nlm.nih.gov/22129253/)
 [^furie-2011-belimumab]: Furie R, Petri M, Zamani O, et al. A phase III, randomized, placebo-controlled study of belimumab, a monoclonal antibody that inhibits B lymphocyte stimulator, in patients with systemic lupus erythematosus. *Arthritis Rheum.* 2011;63(12):3918-3930. [doi:10.1002/art.30613](https://doi.org/10.1002/art.30613) · [PubMed 22127708](https://pubmed.ncbi.nlm.nih.gov/22127708/)

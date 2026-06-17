@@ -183,6 +183,15 @@ cross_links:
   - target: 01-human/07-system/nervous-system
     relation: connects-to
     note: "It can reach beyond the lungs to the brain: severe RSV in young infants is associated with central apnea, seizures and rare encephalopathy, CNS complications that can dominate the acute illness."
+  - target: 02-pathogen/02-bacteria/streptococcus-pyogenes
+    relation: connects-to
+    note: "A virus can clear the way for group A strep: RSV injury to the airway epithelium can be followed by invasive Streptococcus pyogenes, causing necrotizing pneumonia, empyema and toxic shock that turn a viral illness fulminant."
+  - target: 02-pathogen/03-fungi/aspergillus-fumigatus
+    relation: connects-to
+    note: "In the immunocompromised it opens a fungal door: severe RSV in transplant and leukemia patients damages the lung and prompts steroids, setting the stage for secondary invasive pulmonary aspergillosis."
+  - target: 01-human/07-system/pulmonary-arterial-hypertension
+    relation: connects-to
+    note: "Fragile hearts tolerate it worst: infants with congenital heart disease and pulmonary hypertension suffer the most severe RSV, as the bronchiolitis raises pulmonary pressures and strains an already burdened right heart."
 ---
 
 # RSV
@@ -382,3 +391,6 @@ Radiological findings: Hyperinflation, peribronchial thickening, occasional atel
 - `connects-to` → **[NF-κB](../../03-molecular/nf-kb/README.md)** — The virus throws the airway's inflammation switch: RSV activates NF-κB in respiratory epithelium, driving the chemokine and cytokine release that recruits the neutrophils and mucus plugging behind bronchiolitis.
 - `connects-to` → **[Sepsis](../sepsis/README.md)** — Severe infant disease can spiral to sepsis: RSV bronchiolitis can progress to respiratory failure, and bacterial superinfection of the damaged lung can seed bloodstream infection and a sepsis-like critical illness.
 - `connects-to` → **[Nervous System](../nervous-system/README.md)** — It can reach beyond the lungs to the brain: severe RSV in young infants is associated with central apnea, seizures and rare encephalopathy, CNS complications that can dominate the acute illness.
+- `connects-to` → **[Streptococcus pyogenes](../../../02-pathogen/02-bacteria/streptococcus-pyogenes/README.md)** — A virus can clear the way for group A strep: RSV injury to the airway epithelium can be followed by invasive Streptococcus pyogenes, causing necrotizing pneumonia, empyema and toxic shock that turn a viral illness fulminant.
+- `connects-to` → **[Aspergillus fumigatus](../../../02-pathogen/03-fungi/aspergillus-fumigatus/README.md)** — In the immunocompromised it opens a fungal door: severe RSV in transplant and leukemia patients damages the lung and prompts steroids, setting the stage for secondary invasive pulmonary aspergillosis.
+- `connects-to` → **[Pulmonary Arterial Hypertension](../pulmonary-arterial-hypertension/README.md)** — Fragile hearts tolerate it worst: infants with congenital heart disease and pulmonary hypertension suffer the most severe RSV, as the bronchiolitis raises pulmonary pressures and strains an already burdened right heart.
