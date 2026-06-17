@@ -196,6 +196,15 @@ cross_links:
   - target: 01-human/07-system/major-depressive-disorder
     relation: connects-to
     note: "A grim prognosis weighs on mood: cholangiocarcinoma's late presentation, obstructive jaundice with intractable itch and poor survival impose a heavy psychological burden, with high rates of depression."
+  - target: 01-human/07-system/prurigo-nodularis
+    relation: connects-to
+    note: "Biliary obstruction drives relentless itch: cholangiocarcinoma blocks bile flow, and the retained bile salts cause an intense cholestatic pruritus that scratching can turn into prurigo nodularis."
+  - target: 01-human/07-system/neuropathic-pain
+    relation: connects-to
+    note: "Tumor and chemo strain the nerves: invasion of the porta hepatis and the gemcitabine-cisplatin chemotherapy for cholangiocarcinoma produce visceral and chemotherapy-induced neuropathic pain."
+  - target: 02-pathogen/03-fungi/aspergillus-fumigatus
+    relation: connects-to
+    note: "Its chemotherapy opens the lung to mold: the neutropenia from gemcitabine-cisplatin therapy for cholangiocarcinoma can let inhaled Aspergillus invade as pulmonary aspergillosis."
 ---
 
 # Cholangiocarcinoma
@@ -352,6 +361,9 @@ Chronic biliary injury (from PSC, fluke infection, bile acid reflux, biliary sta
 - `connects-to` → **[Chronic Kidney Disease](../ckd/README.md)** — Obstruction and chemo strain the kidney: deep cholestatic jaundice predisposes to a hepatorenal-type injury and post-procedure acute kidney injury, while cisplatin-gemcitabine chemotherapy adds nephrotoxicity threatening chronic kidney disease.
 - `connects-to` → **[Anemia of Chronic Disease](../anemia-of-chronic-disease/README.md)** — Chronic biliary inflammation blunts the marrow: the IL-6-rich inflammation of cholangiocarcinoma and its biliary disease raise hepcidin and suppress erythropoiesis, producing an anemia of chronic disease.
 - `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — A grim prognosis weighs on mood: cholangiocarcinoma's late presentation, obstructive jaundice with intractable itch and poor survival impose a heavy psychological burden, with high rates of depression.
+- `connects-to` → **[Prurigo Nodularis](../prurigo-nodularis/README.md)** — Biliary obstruction drives relentless itch: cholangiocarcinoma blocks bile flow, and the retained bile salts cause an intense cholestatic pruritus that scratching can turn into prurigo nodularis.
+- `connects-to` → **[Neuropathic Pain](../neuropathic-pain/README.md)** — Tumor and chemo strain the nerves: invasion of the porta hepatis and the gemcitabine-cisplatin chemotherapy for cholangiocarcinoma produce visceral and chemotherapy-induced neuropathic pain.
+- `connects-to` → **[Aspergillus fumigatus](../../../02-pathogen/03-fungi/aspergillus-fumigatus/README.md)** — Its chemotherapy opens the lung to mold: the neutropenia from gemcitabine-cisplatin therapy for cholangiocarcinoma can let inhaled Aspergillus invade as pulmonary aspergillosis.
 
 ---
 

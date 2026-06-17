@@ -196,6 +196,15 @@ cross_links:
   - target: 01-human/07-system/major-depressive-disorder
     relation: connects-to
     note: "Diagnosis and its sexual toll weigh on mood: a cancer affecting fertility, sexual function and often younger women carries a substantial psychological burden, with high rates of depression."
+  - target: 01-human/07-system/neuropathic-pain
+    relation: connects-to
+    note: "Pelvic spread and treatment injure nerves: tumor invading the pelvic sidewall and the cisplatin and radiation used to treat cervical cancer cause lumbosacral plexopathy and chemotherapy neuropathy with chronic pain."
+  - target: 01-human/07-system/osteoporosis
+    relation: connects-to
+    note: "Pelvic radiation and lost ovaries weaken bone: radiotherapy causes insufficiency fractures and bone loss, and treatment-induced menopause in younger patients withdraws estrogen, accelerating osteoporosis."
+  - target: 02-pathogen/03-fungi/aspergillus-fumigatus
+    relation: connects-to
+    note: "Its chemoradiation opens the lung to mold: the neutropenia from cisplatin-based chemoradiation for cervical cancer can let inhaled Aspergillus invade as pulmonary aspergillosis."
 ---
 
 # Cervical Cancer
@@ -378,6 +387,9 @@ The cervical transformation zone (TZ) — the area between the original and new 
 - `connects-to` → **[HIV](../hiv/README.md)** — Immune loss lets HPV run to cancer: HIV impairs clearance of human papillomavirus, so cervical cancer occurs more often, at younger ages and more aggressively — making it an AIDS-defining malignancy.
 - `connects-to` → **[Iron Deficiency Anemia](../iron-deficiency-anemia/README.md)** — Steady vaginal bleeding depletes iron: the abnormal and postcoital bleeding of cervical cancer causes chronic blood loss, draining iron stores into an iron-deficiency anemia that often prompts the diagnosis.
 - `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — Diagnosis and its sexual toll weigh on mood: a cancer affecting fertility, sexual function and often younger women carries a substantial psychological burden, with high rates of depression.
+- `connects-to` → **[Neuropathic Pain](../neuropathic-pain/README.md)** — Pelvic spread and treatment injure nerves: tumor invading the pelvic sidewall and the cisplatin and radiation used to treat cervical cancer cause lumbosacral plexopathy and chemotherapy neuropathy with chronic pain.
+- `connects-to` → **[Osteoporosis](../osteoporosis/README.md)** — Pelvic radiation and lost ovaries weaken bone: radiotherapy causes insufficiency fractures and bone loss, and treatment-induced menopause in younger patients withdraws estrogen, accelerating osteoporosis.
+- `connects-to` → **[Aspergillus fumigatus](../../../02-pathogen/03-fungi/aspergillus-fumigatus/README.md)** — Its chemoradiation opens the lung to mold: the neutropenia from cisplatin-based chemoradiation for cervical cancer can let inhaled Aspergillus invade as pulmonary aspergillosis.
 
 ---
 
