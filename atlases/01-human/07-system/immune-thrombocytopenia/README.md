@@ -195,6 +195,15 @@ cross_links:
   - target: 01-human/07-system/sepsis
     relation: connects-to
     note: "Removing the spleen and suppressing immunity raise infection risk: splenectomy for refractory ITP leaves patients prone to overwhelming post-splenectomy infection, and rituximab and steroids add further sepsis risk."
+  - target: 01-human/07-system/hiv
+    relation: connects-to
+    note: "It can be the first sign of HIV: HIV is a classic cause of secondary immune thrombocytopenia, sometimes the presenting feature, so HIV testing is part of the standard ITP workup."
+  - target: 02-pathogen/03-fungi/pneumocystis-jirovecii
+    relation: connects-to
+    note: "Its B-cell-directed therapy opens the lung: the rituximab and prolonged steroids used in refractory ITP deplete immune defenses enough to risk Pneumocystis pneumonia, sometimes warranting prophylaxis."
+  - target: 01-human/07-system/major-depressive-disorder
+    relation: connects-to
+    note: "A relapsing disease and its steroids weigh on mood: the unpredictable bleeding risk, activity restrictions and mood effects of chronic corticosteroids in ITP contribute to depression and reduced quality of life."
 ---
 
 # Immune Thrombocytopenia
@@ -389,6 +398,9 @@ ITP in pregnancy carries risk of neonatal thrombocytopenia (maternal IgG crosses
 - `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — Dysregulated T-cell signaling underlies the autoimmunity: STAT3 activation in the T and B cells of ITP supports the autoreactive response that makes anti-platelet antibodies, part of the immune imbalance behind the disease.
 - `connects-to` → **[NF-κB](../../03-molecular/nf-kb/README.md)** — Immune activation runs through NF-κB: B-cell and macrophage NF-κB signaling sustains the autoantibody production and Fc-receptor-mediated platelet destruction that define immune thrombocytopenia.
 - `connects-to` → **[Sepsis](../sepsis/README.md)** — Removing the spleen and suppressing immunity raise infection risk: splenectomy for refractory ITP leaves patients prone to overwhelming post-splenectomy infection, and rituximab and steroids add further sepsis risk.
+- `connects-to` → **[HIV](../hiv/README.md)** — It can be the first sign of HIV: HIV is a classic cause of secondary immune thrombocytopenia, sometimes the presenting feature, so HIV testing is part of the standard ITP workup.
+- `connects-to` → **[Pneumocystis jirovecii](../../../02-pathogen/03-fungi/pneumocystis-jirovecii/README.md)** — Its B-cell-directed therapy opens the lung: the rituximab and prolonged steroids used in refractory ITP deplete immune defenses enough to risk Pneumocystis pneumonia, sometimes warranting prophylaxis.
+- `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — A relapsing disease and its steroids weigh on mood: the unpredictable bleeding risk, activity restrictions and mood effects of chronic corticosteroids in ITP contribute to depression and reduced quality of life.
 
 [^cines-2002-itp-review]: Cines DB, Blanchette VS. Immune thrombocytopenic purpura. *N Engl J Med.* 2002;346(13):995-1008. [doi:10.1056/NEJMra010532](https://doi.org/10.1056/NEJMra010532) · [PubMed 11919310](https://pubmed.ncbi.nlm.nih.gov/11919310/)
 [^neunert-2019-ash-itp-guidelines]: Neunert C, et al. American Society of Hematology 2019 guidelines for immune thrombocytopenia. *Blood Adv.* 2019;3(23):3829-3866. [doi:10.1182/bloodadvances.2019000966](https://doi.org/10.1182/bloodadvances.2019000966) · [PubMed 31794604](https://pubmed.ncbi.nlm.nih.gov/31794604/)

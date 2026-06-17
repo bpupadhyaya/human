@@ -187,6 +187,15 @@ cross_links:
   - target: 01-human/07-system/sepsis
     relation: connects-to
     note: "Immunosuppression and protein loss invite infection: corticosteroids and immunosuppressants for progressive IgA nephropathy, plus urinary immunoglobulin loss in nephrotic disease, predispose to serious infection and sepsis."
+  - target: 01-human/07-system/anemia-of-chronic-disease
+    relation: connects-to
+    note: "Declining kidneys and inflammation lower the count: as IgA nephropathy erodes renal function, lost erythropoietin and chronic inflammation produce a renal anemia-of-chronic-disease that worsens as it progresses to CKD."
+  - target: 02-pathogen/03-fungi/pneumocystis-jirovecii
+    relation: connects-to
+    note: "Its immunosuppression opens the lung: the corticosteroids and mycophenolate used for progressive IgA nephropathy deplete T-cell defenses, raising Pneumocystis pneumonia risk enough to warrant prophylaxis in intensive regimens."
+  - target: 01-human/07-system/osteoporosis
+    relation: connects-to
+    note: "Steroids and renal bone disease thin the skeleton: prolonged corticosteroids for IgA nephropathy, compounded by the mineral and vitamin-D derangements of declining kidney function, accelerate bone loss and fracture risk."
 ---
 
 # IgA Nephropathy
@@ -327,6 +336,9 @@ IgAN is a **multi-hit disease** described by the Oxford Four-Hit Model:
 - `connects-to` → **[NF-κB](../../03-molecular/nf-kb/README.md)** — Deposited immune complexes inflame the mesangium through NF-κB: galactose-deficient IgA1 complexes activate NF-κB in mesangial cells, driving the cytokine and chemokine output that recruits inflammation and scars the glomerulus.
 - `connects-to` → **[Venous Thromboembolism](../venous-thromboembolism/README.md)** — Heavy proteinuria clots the blood: when IgA nephropathy reaches nephrotic-range protein loss, urinary loss of anticoagulant proteins creates a hypercoagulable state prone to renal vein thrombosis and pulmonary embolism.
 - `connects-to` → **[Sepsis](../sepsis/README.md)** — Immunosuppression and protein loss invite infection: corticosteroids and immunosuppressants for progressive IgA nephropathy, plus urinary immunoglobulin loss in nephrotic disease, predispose to serious infection and sepsis.
+- `connects-to` → **[Anemia of Chronic Disease](../anemia-of-chronic-disease/README.md)** — Declining kidneys and inflammation lower the count: as IgA nephropathy erodes renal function, lost erythropoietin and chronic inflammation produce a renal anemia-of-chronic-disease that worsens as it progresses to CKD.
+- `connects-to` → **[Pneumocystis jirovecii](../../../02-pathogen/03-fungi/pneumocystis-jirovecii/README.md)** — Its immunosuppression opens the lung: the corticosteroids and mycophenolate used for progressive IgA nephropathy deplete T-cell defenses, raising Pneumocystis pneumonia risk enough to warrant prophylaxis in intensive regimens.
+- `connects-to` → **[Osteoporosis](../osteoporosis/README.md)** — Steroids and renal bone disease thin the skeleton: prolonged corticosteroids for IgA nephropathy, compounded by the mineral and vitamin-D derangements of declining kidney function, accelerate bone loss and fracture risk.
 
 ---
 
