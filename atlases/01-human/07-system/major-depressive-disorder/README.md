@@ -196,6 +196,15 @@ cross_links:
   - target: 01-human/07-system/venous-thromboembolism
     relation: connects-to
     note: "Low mood tips the blood toward clots: depression is associated with a higher risk of venous thromboembolism, through inflammation, platelet activation and the inactivity that accompanies severe episodes."
+  - target: 01-human/07-system/heart-failure
+    relation: connects-to
+    note: "Depression and the failing heart feed each other: depression is common in heart failure and independently predicts hospitalization and death, sharing inflammation and autonomic dysregulation, and worsening self-care."
+  - target: 01-human/07-system/ckd
+    relation: connects-to
+    note: "It is the commonest psychiatric burden of kidney failure: depression is highly prevalent in chronic kidney disease and on dialysis, driven by the illness burden and uremic effects, and it worsens adherence and survival."
+  - target: 01-human/07-system/alcohol-use-disorder
+    relation: connects-to
+    note: "Drinking and depression entangle: alcohol use disorder and major depression frequently co-occur, each worsening the other — alcohol used to self-medicate low mood while deepening it, complicating treatment of both."
 ---
 
 # Major Depressive Disorder
@@ -412,6 +421,9 @@ Approximately 30–40% of MDD patients have elevated inflammatory markers:
 - `connects-to` → **[NF-κB](../../03-molecular/nf-kb/README.md)** — Depression smolders with inflammation through NF-κB: psychological stress activates NF-κB-driven cytokine signaling, the inflammatory hypothesis of depression that links it to its raised cardiovascular and metabolic risk.
 - `connects-to` → **[Atherosclerosis](../atherosclerosis/README.md)** — A mood disorder that hardens the arteries: depression is an independent risk factor for and consequence of cardiovascular disease, its inflammation, autonomic strain and behavioral effects accelerating atherosclerosis.
 - `connects-to` → **[Venous Thromboembolism](../venous-thromboembolism/README.md)** — Low mood tips the blood toward clots: depression is associated with a higher risk of venous thromboembolism, through inflammation, platelet activation and the inactivity that accompanies severe episodes.
+- `connects-to` → **[Heart Failure](../heart-failure/README.md)** — Depression and the failing heart feed each other: depression is common in heart failure and independently predicts hospitalization and death, sharing inflammation and autonomic dysregulation, and worsening self-care.
+- `connects-to` → **[Chronic Kidney Disease](../ckd/README.md)** — It is the commonest psychiatric burden of kidney failure: depression is highly prevalent in chronic kidney disease and on dialysis, driven by the illness burden and uremic effects, and it worsens adherence and survival.
+- `connects-to` → **[Alcohol Use Disorder](../alcohol-use-disorder/README.md)** — Drinking and depression entangle: alcohol use disorder and major depression frequently co-occur, each worsening the other — alcohol used to self-medicate low mood while deepening it, complicating treatment of both.
 
 [^cipriani-2018-antidepressants-meta]: Cipriani A, Furukawa TA, Salanti G, et al. Comparative efficacy and acceptability of 21 antidepressant drugs for acute treatment of adults with major depressive disorder. *Lancet.* 2018;391(10128):1357-1366. [doi:10.1016/S0140-6736(17)32802-7](https://doi.org/10.1016/S0140-6736(17)32802-7) · [PubMed 29477251](https://pubmed.ncbi.nlm.nih.gov/29477251/)
 [^zarate-2006-ketamine-rapid]: Zarate CA Jr, Singh JB, Carlson PJ, et al. A randomized trial of an N-methyl-D-aspartate antagonist in treatment-resistant major depression. *Arch Gen Psychiatry.* 2006;63(8):856-864. [doi:10.1001/archpsyc.63.8.856](https://doi.org/10.1001/archpsyc.63.8.856) · [PubMed 16894061](https://pubmed.ncbi.nlm.nih.gov/16894061/)

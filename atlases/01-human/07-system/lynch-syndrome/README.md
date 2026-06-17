@@ -187,6 +187,15 @@ cross_links:
   - target: 01-human/07-system/anemia-of-chronic-disease
     relation: connects-to
     note: "Tumor bleeding and inflammation drain the blood: beyond the iron loss of bleeding Lynch colorectal cancers, their inflammatory cytokines suppress erythropoiesis, adding an anemia of chronic disease to the iron deficiency."
+  - target: 01-human/07-system/ckd
+    relation: connects-to
+    note: "Its urinary-tract cancers can block the kidneys: Lynch syndrome predisposes to upper-tract urothelial carcinoma, which obstructs the ureters into hydronephrosis, and the platinum chemo for its cancers adds nephrotoxicity threatening chronic kidney disease."
+  - target: 01-human/07-system/heart-failure
+    relation: connects-to
+    note: "Its colorectal-cancer chemo can wound the heart: the 5-fluorouracil and oxaliplatin used against Lynch-associated colorectal cancer cause coronary vasospasm and cardiotoxicity that can precipitate cardiac dysfunction."
+  - target: 01-human/07-system/major-depressive-disorder
+    relation: connects-to
+    note: "Lifelong cancer surveillance weighs on the mind: living with a high inherited risk of multiple cancers, frequent colonoscopies and the threat of new diagnoses gives Lynch syndrome carriers a substantial burden of depression."
 ---
 
 # Lynch Syndrome
@@ -383,6 +392,9 @@ MSI-H stage II CRC: adjuvant 5-FU/leucovorin does NOT improve OS (may be harmful
 - `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — Inflammation feeds the mismatch-repair-deficient tumor: IL-6-driven STAT3 signaling promotes proliferation and survival in the inflamed Lynch colorectal cancer, a node alongside the heavy immune infiltrate of these MSI-high tumors.
 - `connects-to` → **[NF-κB](../../03-molecular/nf-kb/README.md)** — Chronic inflammation pushes the polyp to cancer: NF-κB activation in the colonic mucosa adds pro-survival, pro-proliferative signals that, layered on mismatch-repair loss, speed the adenoma-to-carcinoma progression in Lynch syndrome.
 - `connects-to` → **[Anemia of Chronic Disease](../anemia-of-chronic-disease/README.md)** — Tumor bleeding and inflammation drain the blood: beyond the iron loss of bleeding Lynch colorectal cancers, their inflammatory cytokines suppress erythropoiesis, adding an anemia of chronic disease to the iron deficiency.
+- `connects-to` → **[Chronic Kidney Disease](../ckd/README.md)** — Its urinary-tract cancers can block the kidneys: Lynch syndrome predisposes to upper-tract urothelial carcinoma, which obstructs the ureters into hydronephrosis, and the platinum chemo for its cancers adds nephrotoxicity threatening chronic kidney disease.
+- `connects-to` → **[Heart Failure](../heart-failure/README.md)** — Its colorectal-cancer chemo can wound the heart: the 5-fluorouracil and oxaliplatin used against Lynch-associated colorectal cancer cause coronary vasospasm and cardiotoxicity that can precipitate cardiac dysfunction.
+- `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — Lifelong cancer surveillance weighs on the mind: living with a high inherited risk of multiple cancers, frequent colonoscopies and the threat of new diagnoses gives Lynch syndrome carriers a substantial burden of depression.
 
 [^bonadona-2011-lynch-risks]: Bonadona V, Bonaïti B, Olschwang S, et al. Cancer risks associated with germline mutations in MLH1, MSH2, and MSH6 genes in Lynch syndrome. *JAMA.* 2011;305(22):2304-2310. [doi:10.1001/jama.2011.743](https://doi.org/10.1001/jama.2011.743) · [PubMed 21642683](https://pubmed.ncbi.nlm.nih.gov/21642683/)
 [^lynch-2015-lynch-review]: Lynch HT, Snyder CL, Shaw TG, et al. Milestones of Lynch syndrome: 1895-2015. *Nat Rev Cancer.* 2015;15(3):181-194. [doi:10.1038/nrc3878](https://doi.org/10.1038/nrc3878) · [PubMed 25673086](https://pubmed.ncbi.nlm.nih.gov/25673086/)
