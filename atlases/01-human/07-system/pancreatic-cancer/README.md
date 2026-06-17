@@ -202,6 +202,15 @@ cross_links:
   - target: 01-human/07-system/heart-failure
     relation: connects-to
     note: "Its fluoropyrimidine can stun the heart: the 5-fluorouracil in FOLFIRINOX can provoke coronary vasospasm and direct myocardial toxicity, occasionally precipitating acute cardiac dysfunction and heart failure."
+  - target: 01-human/07-system/hereditary-breast-ovarian-cancer
+    relation: connects-to
+    note: "BRCA mutations reach the pancreas: germline BRCA2 and BRCA1 carriers face raised pancreatic-cancer risk, and BRCA-mutant tumours are uniquely sensitive to platinum and PARP-inhibitor maintenance."
+  - target: 01-human/07-system/wound-healing
+    relation: connects-to
+    note: "The Whipple is a formidable wound: pancreaticoduodenectomy is major surgery whose pancreatic anastomosis is notorious for leak, and malnutrition and jaundice leave these wounds slow and prone to breakdown."
+  - target: 01-human/07-system/generalized-anxiety-disorder
+    relation: connects-to
+    note: "One of the grimmest diagnoses breeds dread: the very poor survival, rapid course and relentless symptom burden of pancreatic cancer fuel intense anxiety alongside its well-known depression."
 ---
 
 # Pancreatic Cancer
@@ -383,6 +392,9 @@ cross_links:
 - `connects-to` → **[Osteoporosis](../osteoporosis/README.md)** — Loss of the exocrine pancreas starves bone of vitamin D: tumor obstruction and resection cause fat malabsorption, and the resulting deficiency of vitamin D and calcium, on top of cachexia, drives metabolic bone loss toward osteoporosis.
 - `connects-to` → **[Chronic Kidney Disease](../ckd/README.md)** — Gemcitabine can injure the kidneys: a backbone of pancreatic-cancer chemotherapy, gemcitabine occasionally triggers a thrombotic microangiopathy and hemolytic-uremic syndrome that scars the kidney toward chronic disease.
 - `connects-to` → **[Heart Failure](../heart-failure/README.md)** — Its fluoropyrimidine can stun the heart: the 5-fluorouracil in FOLFIRINOX can provoke coronary vasospasm and direct myocardial toxicity, occasionally precipitating acute cardiac dysfunction and heart failure.
+- `connects-to` → **[Hereditary Breast & Ovarian Cancer](../hereditary-breast-ovarian-cancer/README.md)** — BRCA mutations reach the pancreas: germline BRCA2 and BRCA1 carriers face raised pancreatic-cancer risk, and BRCA-mutant tumours are uniquely sensitive to platinum and PARP-inhibitor maintenance.
+- `connects-to` → **[Wound Healing](../wound-healing/README.md)** — The Whipple is a formidable wound: pancreaticoduodenectomy is major surgery whose pancreatic anastomosis is notorious for leak, and malnutrition and jaundice leave these wounds slow and prone to breakdown.
+- `connects-to` → **[Generalized Anxiety Disorder](../generalized-anxiety-disorder/README.md)** — One of the grimmest diagnoses breeds dread: the very poor survival, rapid course and relentless symptom burden of pancreatic cancer fuel intense anxiety alongside its well-known depression.
 
 ---
 

@@ -196,6 +196,15 @@ cross_links:
   - target: 01-human/07-system/heart-failure
     relation: connects-to
     note: "Salvage anthracyclines can weaken the heart: because OCCC resists platinum, recurrent disease is often treated with pegylated liposomal doxorubicin, whose cumulative cardiotoxicity can erode cardiac function into heart failure."
+  - target: 01-human/07-system/neuropathic-pain
+    relation: connects-to
+    note: "Its taxane-platinum chemo numbs the nerves: the paclitaxel and carboplatin used first-line in OCCC cause a dose-dependent, often lasting peripheral neuropathy with painful paraesthesiae."
+  - target: 01-human/07-system/wound-healing
+    relation: connects-to
+    note: "Cytoreductive surgery heals slowly: the staging and debulking surgery for OCCC, sometimes extensive and in malnourished patients, leaves abdominal wounds prone to dehiscence and delayed closure."
+  - target: 01-human/07-system/generalized-anxiety-disorder
+    relation: connects-to
+    note: "A chemoresistant cancer breeds worry: the platinum resistance, recurrence risk and tumour-marker surveillance of OCCC foster chronic health anxiety alongside depression."
 ---
 
 # Ovarian Clear Cell Carcinoma
@@ -397,6 +406,9 @@ Comprehensive surgical staging (TAH-BSO, omentectomy, pelvic/para-aortic lymphad
 - `connects-to` → **[Osteoporosis](../osteoporosis/README.md)** — Removing the ovaries withdraws bone-protective estrogen: surgery and chemotherapy for OCCC throw younger patients into abrupt menopause, and the estrogen loss accelerates bone thinning toward osteoporosis.
 - `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — A chemoresistant cancer in young women weighs on mood: OCCC's poor response to platinum at recurrence, frequent advanced presentation and abrupt surgical menopause contribute to substantial depression and anxiety.
 - `connects-to` → **[Heart Failure](../heart-failure/README.md)** — Salvage anthracyclines can weaken the heart: because OCCC resists platinum, recurrent disease is often treated with pegylated liposomal doxorubicin, whose cumulative cardiotoxicity can erode cardiac function into heart failure.
+- `connects-to` → **[Neuropathic Pain](../neuropathic-pain/README.md)** — Its taxane-platinum chemo numbs the nerves: the paclitaxel and carboplatin used first-line in OCCC cause a dose-dependent, often lasting peripheral neuropathy with painful paraesthesiae.
+- `connects-to` → **[Wound Healing](../wound-healing/README.md)** — Cytoreductive surgery heals slowly: the staging and debulking surgery for OCCC, sometimes extensive and in malnourished patients, leaves abdominal wounds prone to dehiscence and delayed closure.
+- `connects-to` → **[Generalized Anxiety Disorder](../generalized-anxiety-disorder/README.md)** — A chemoresistant cancer breeds worry: the platinum resistance, recurrence risk and tumour-marker surveillance of OCCC foster chronic health anxiety alongside depression.
 
 ---
 
