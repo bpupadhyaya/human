@@ -196,6 +196,15 @@ cross_links:
   - target: 01-human/07-system/anemia-of-chronic-disease
     relation: connects-to
     note: "Marrow takeover and inflammation lower the count: alongside its autoimmune hemolytic anemia, CLL crowds the marrow and drives inflammation that suppresses erythropoiesis into an anemia of chronic disease."
+  - target: 01-human/07-system/heart-failure
+    relation: connects-to
+    note: "Its BTK-inhibitor therapy strains the heart: ibrutinib, a mainstay for CLL, causes atrial fibrillation, hypertension and cardiotoxicity that can precipitate heart failure."
+  - target: 02-pathogen/01-viruses/varicella-zoster-virus
+    relation: connects-to
+    note: "Its immune defect reawakens shingles: the profound immunodeficiency of CLL and its therapies readily reactivate latent varicella-zoster as herpes zoster, prompting prophylaxis."
+  - target: 01-human/07-system/major-depressive-disorder
+    relation: connects-to
+    note: "A chronic, watch-and-wait cancer weighs on mood: the indolent but incurable course, repeated relapses and lifelong monitoring of CLL carry a substantial burden of depression and anxiety."
 ---
 
 # CLL
@@ -368,6 +377,9 @@ BCR cross-linking → LYN (SRC kinase) phosphorylates CD79a/b ITAMs → SYK recr
 - `connects-to` → **[Aspergillus fumigatus](../../../02-pathogen/03-fungi/aspergillus-fumigatus/README.md)** — Its immune defects and BTK inhibitors invite mold: CLL's profound immune dysfunction, and ibrutinib in particular, are associated with invasive aspergillosis, a serious opportunistic infection in these patients.
 - `connects-to` → **[Hepatitis B Virus](../../../02-pathogen/01-viruses/hepatitis-b-virus/README.md)** — Anti-CD20 therapy can reactivate it: the rituximab and obinutuzumab used against CLL deplete B cells and can reawaken latent hepatitis B, so screening and antiviral prophylaxis precede treatment.
 - `connects-to` → **[Anemia of Chronic Disease](../anemia-of-chronic-disease/README.md)** — Marrow takeover and inflammation lower the count: alongside its autoimmune hemolytic anemia, CLL crowds the marrow and drives inflammation that suppresses erythropoiesis into an anemia of chronic disease.
+- `connects-to` → **[Heart Failure](../heart-failure/README.md)** — Its BTK-inhibitor therapy strains the heart: ibrutinib, a mainstay for CLL, causes atrial fibrillation, hypertension and cardiotoxicity that can precipitate heart failure.
+- `connects-to` → **[Varicella-Zoster Virus](../../../02-pathogen/01-viruses/varicella-zoster-virus/README.md)** — Its immune defect reawakens shingles: the profound immunodeficiency of CLL and its therapies readily reactivate latent varicella-zoster as herpes zoster, prompting prophylaxis.
+- `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — A chronic, watch-and-wait cancer weighs on mood: the indolent but incurable course, repeated relapses and lifelong monitoring of CLL carry a substantial burden of depression and anxiety.
 
 ---
 

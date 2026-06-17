@@ -196,6 +196,15 @@ cross_links:
   - target: 01-human/07-system/major-depressive-disorder
     relation: connects-to
     note: "Lifelong treatment weighs on mood: the open-ended daily TKI therapy, its chronic side effects and the psychological weight of living with leukemia contribute to depression and reduced quality of life in CML."
+  - target: 01-human/07-system/atherosclerosis
+    relation: connects-to
+    note: "Some of its TKIs harden the arteries: nilotinib and ponatinib used for CML accelerate atherosclerosis and cause arterial occlusive events, a major vascular toxicity of these later-line drugs."
+  - target: 01-human/07-system/anemia-of-chronic-disease
+    relation: connects-to
+    note: "Marrow crowding and TKIs lower the count: the expanded myeloid clone and the myelosuppression of tyrosine-kinase inhibitor therapy can produce an anemia with a chronic-disease component."
+  - target: 02-pathogen/03-fungi/aspergillus-fumigatus
+    relation: connects-to
+    note: "Blast crisis and its chemo open the lung to mold: progression of CML to blast crisis requires intensive chemotherapy that causes deep neutropenia, allowing inhaled Aspergillus to invade."
 ---
 
 # Chronic Myeloid Leukemia
@@ -368,6 +377,9 @@ Following the imatinib revolution, the current frontier is achieving **deep mole
 - `connects-to` → **[Pulmonary Arterial Hypertension](../pulmonary-arterial-hypertension/README.md)** — One of its drugs scars the lung vessels: dasatinib, a second-generation TKI for CML, causes pleural effusions and a reversible pulmonary arterial hypertension, a distinctive class toxicity needing monitoring.
 - `connects-to` → **[Heart Failure](../heart-failure/README.md)** — Later TKIs strain the heart: nilotinib and ponatinib used in CML carry cardiovascular toxicity — arterial events, hypertension and cardiac dysfunction — that can contribute to heart failure over long-term therapy.
 - `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — Lifelong treatment weighs on mood: the open-ended daily TKI therapy, its chronic side effects and the psychological weight of living with leukemia contribute to depression and reduced quality of life in CML.
+- `connects-to` → **[Atherosclerosis](../atherosclerosis/README.md)** — Some of its TKIs harden the arteries: nilotinib and ponatinib used for CML accelerate atherosclerosis and cause arterial occlusive events, a major vascular toxicity of these later-line drugs.
+- `connects-to` → **[Anemia of Chronic Disease](../anemia-of-chronic-disease/README.md)** — Marrow crowding and TKIs lower the count: the expanded myeloid clone and the myelosuppression of tyrosine-kinase inhibitor therapy can produce an anemia with a chronic-disease component.
+- `connects-to` → **[Aspergillus fumigatus](../../../02-pathogen/03-fungi/aspergillus-fumigatus/README.md)** — Blast crisis and its chemo open the lung to mold: progression of CML to blast crisis requires intensive chemotherapy that causes deep neutropenia, allowing inhaled Aspergillus to invade.
 
 ---
 
