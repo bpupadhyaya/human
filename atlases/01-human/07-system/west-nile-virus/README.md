@@ -183,6 +183,15 @@ cross_links:
   - target: 01-human/07-system/sepsis
     relation: connects-to
     note: "Critical neuroinvasive disease behaves like sepsis: severe West Nile encephalitis can cause respiratory failure and a critical illness in which secondary bacterial infection and sepsis complicate the course."
+  - target: 01-human/07-system/parkinsons-disease
+    relation: connects-to
+    note: "Its brain invasion can leave movement disorders: West Nile encephalitis targets the basal ganglia and substantia nigra, causing tremor, rigidity and a post-encephalitic parkinsonism that can persist in survivors."
+  - target: 01-human/07-system/major-depressive-disorder
+    relation: connects-to
+    note: "Recovery carries a long mental tail: survivors of neuroinvasive West Nile disease frequently suffer persistent fatigue, cognitive impairment and depression, a post-encephalitic syndrome lasting months to years."
+  - target: 01-human/07-system/ckd
+    relation: connects-to
+    note: "The virus can persist in and injure the kidney: West Nile causes acute kidney injury in severe disease and can shed in urine for years, with reports linking chronic infection to ongoing renal impairment."
 ---
 
 # West Nile Virus
@@ -358,3 +367,6 @@ WNV has evolved a multilayered strategy to evade innate immunity:
 - `connects-to` → **[NF-κB](../../03-molecular/nf-kb/README.md)** — The virus drives the inflammation that opens the brain: West Nile activates NF-κB in infected and immune cells, and the resulting cytokine surge both fights the virus and loosens the blood-brain barrier it exploits to invade.
 - `connects-to` → **[Venous Thromboembolism](../venous-thromboembolism/README.md)** — Paralysis from neuroinvasion brings clot risk: the acute flaccid paralysis and prolonged immobility of severe West Nile disease create venous stasis that raises the risk of deep-vein thrombosis and pulmonary embolism.
 - `connects-to` → **[Sepsis](../sepsis/README.md)** — Critical neuroinvasive disease behaves like sepsis: severe West Nile encephalitis can cause respiratory failure and a critical illness in which secondary bacterial infection and sepsis complicate the course.
+- `connects-to` → **[Parkinson's Disease](../parkinsons-disease/README.md)** — Its brain invasion can leave movement disorders: West Nile encephalitis targets the basal ganglia and substantia nigra, causing tremor, rigidity and a post-encephalitic parkinsonism that can persist in survivors.
+- `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — Recovery carries a long mental tail: survivors of neuroinvasive West Nile disease frequently suffer persistent fatigue, cognitive impairment and depression, a post-encephalitic syndrome lasting months to years.
+- `connects-to` → **[Chronic Kidney Disease](../ckd/README.md)** — The virus can persist in and injure the kidney: West Nile causes acute kidney injury in severe disease and can shed in urine for years, with reports linking chronic infection to ongoing renal impairment.
