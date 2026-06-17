@@ -184,6 +184,15 @@ cross_links:
   - target: 01-human/03-molecular/nlrp3-inflammasome
     relation: connects-to
     note: "The inflammasome stokes the gut wall: microbial breach of the epithelium activates NLRP3 in mucosal macrophages, releasing IL-1β that amplifies the inflammation — a node studied to dampen IBD beyond TNF blockade."
+  - target: 01-human/03-molecular/stat3
+    relation: connects-to
+    note: "IL-6 and IL-23 drive the gut through STAT3: STAT3 signaling sustains the pathogenic Th17 response and epithelial changes of IBD, the JAK-STAT axis that tofacitinib and other JAK inhibitors interrupt."
+  - target: 01-human/07-system/sepsis
+    relation: connects-to
+    note: "Severe colitis and immunosuppression invite sepsis: toxic megacolon and bowel perforation breach the gut barrier, and the biologics and steroids used to control IBD raise the risk of serious infection and sepsis."
+  - target: 01-human/07-system/anemia-of-chronic-disease
+    relation: connects-to
+    note: "Inflammation blunts the marrow beyond blood loss: the chronic cytokines of IBD raise hepcidin and suppress erythropoiesis, an anemia of chronic disease that compounds the iron deficiency from gut bleeding."
 ---
 
 # Inflammatory Bowel Disease
@@ -367,6 +376,9 @@ IBD is a complex polygenic disease with >240 susceptibility loci (GWAS):
 - `connects-to` → **[Clostridioides difficile](../../../02-pathogen/02-bacteria/clostridioides-difficile/README.md)** — C. difficile both complicates and mimics IBD: the disrupted microbiome and immunosuppression of IBD raise C. diff risk, and superimposed infection drives flares and toxic megacolon — so stool toxin testing is routine when a patient worsens.
 - `connects-to` → **[Iron Deficiency Anemia](../iron-deficiency-anemia/README.md)** — Anemia is IBD's commonest extraintestinal complication: chronic gut blood loss plus the iron-sequestering anemia of inflammation drains hemoglobin, so iron status is tracked and intravenous iron often needed.
 - `connects-to` → **[NLRP3 Inflammasome](../../03-molecular/nlrp3-inflammasome/README.md)** — The inflammasome stokes the gut wall: microbial breach of the epithelium activates NLRP3 in mucosal macrophages, releasing IL-1β that amplifies the inflammation — a node studied to dampen IBD beyond TNF blockade.
+- `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — IL-6 and IL-23 drive the gut through STAT3: STAT3 signaling sustains the pathogenic Th17 response and epithelial changes of IBD, the JAK-STAT axis that tofacitinib and other JAK inhibitors interrupt.
+- `connects-to` → **[Sepsis](../sepsis/README.md)** — Severe colitis and immunosuppression invite sepsis: toxic megacolon and bowel perforation breach the gut barrier, and the biologics and steroids used to control IBD raise the risk of serious infection and sepsis.
+- `connects-to` → **[Anemia of Chronic Disease](../anemia-of-chronic-disease/README.md)** — Inflammation blunts the marrow beyond blood loss: the chronic cytokines of IBD raise hepcidin and suppress erythropoiesis, an anemia of chronic disease that compounds the iron deficiency from gut bleeding.
 
 [^ng-2017-ibd-epidemiology]: Ng SC, Shi HY, Hamidi N, et al. Worldwide incidence and prevalence of inflammatory bowel disease in the 21st century: a systematic review of population-based studies. *Lancet.* 2018;390(10114):2769-2778. [doi:10.1016/S0140-6736(17)32448-0](https://doi.org/10.1016/S0140-6736(17)32448-0) · [PubMed 29050646](https://pubmed.ncbi.nlm.nih.gov/29050646/)
 [^sandborn-2012-vedolizumab]: Feagan BG, Rutgeerts P, Sands BE, et al. Vedolizumab as induction and maintenance therapy for ulcerative colitis. *N Engl J Med.* 2013;369(8):699-710. [doi:10.1056/NEJMoa1215734](https://doi.org/10.1056/NEJMoa1215734) · [PubMed 23964932](https://pubmed.ncbi.nlm.nih.gov/23964932/)

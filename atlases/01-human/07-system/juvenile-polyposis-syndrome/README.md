@@ -178,6 +178,15 @@ cross_links:
   - target: 01-human/07-system/sepsis
     relation: connects-to
     note: "Surgery carries the infectious risk: the colectomy or gastrectomy that high polyp burden eventually demands can be complicated by anastomotic leak and intra-abdominal sepsis."
+  - target: 01-human/03-molecular/stat3
+    relation: connects-to
+    note: "Inflamed polyps signal through STAT3: loss of SMAD4/BMP restraint plus IL-6-driven STAT3 in the inflamed juvenile polyps adds a proliferative push that helps tip them toward malignancy."
+  - target: 01-human/03-molecular/nf-kb
+    relation: connects-to
+    note: "Chronic inflammation in the polyps feeds NF-κB: the eroded, inflamed surface of juvenile polyps activates NF-κB, contributing pro-survival, pro-proliferative signaling to the syndrome's gastrointestinal cancer risk."
+  - target: 01-human/07-system/anemia-of-chronic-disease
+    relation: connects-to
+    note: "Bleeding polyps and inflammation drain the blood: beyond the iron loss of chronically bleeding juvenile polyps, their inflammation suppresses erythropoiesis, adding an anemia of chronic disease to the iron deficiency."
 ---
 
 # Juvenile Polyposis Syndrome
@@ -361,6 +370,9 @@ No approved chemopreventive agents specifically for JPS. Options under investiga
 - `connects-to` → **[p53](../../03-molecular/p53/README.md)** — A second hit turns the polyp malignant: beyond the germline SMAD4 or BMPR1A loss, somatic TP53 and other mutations accumulate as a juvenile polyp progresses to colorectal or gastric cancer.
 - `connects-to` → **[Venous Thromboembolism](../venous-thromboembolism/README.md)** — Cancer and major surgery raise the clot risk: a colorectal cancer arising in JPS, and the colectomy or gastrectomy used to treat heavy polyposis, both predispose to perioperative venous thromboembolism.
 - `connects-to` → **[Sepsis](../sepsis/README.md)** — Surgery carries the infectious risk: the colectomy or gastrectomy that high polyp burden eventually demands can be complicated by anastomotic leak and intra-abdominal sepsis.
+- `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — Inflamed polyps signal through STAT3: loss of SMAD4/BMP restraint plus IL-6-driven STAT3 in the inflamed juvenile polyps adds a proliferative push that helps tip them toward malignancy.
+- `connects-to` → **[NF-κB](../../03-molecular/nf-kb/README.md)** — Chronic inflammation in the polyps feeds NF-κB: the eroded, inflamed surface of juvenile polyps activates NF-κB, contributing pro-survival, pro-proliferative signaling to the syndrome's gastrointestinal cancer risk.
+- `connects-to` → **[Anemia of Chronic Disease](../anemia-of-chronic-disease/README.md)** — Bleeding polyps and inflammation drain the blood: beyond the iron loss of chronically bleeding juvenile polyps, their inflammation suppresses erythropoiesis, adding an anemia of chronic disease to the iron deficiency.
 
 [^howe-1998-smad4-jps]: Howe JR, Roth S, Ringold JC, et al. Mutations in the SMAD4/DPC4 gene in juvenile polyposis. *Science.* 1998;280(5366):1086-1088. [doi:10.1126/science.280.5366.1086](https://doi.org/10.1126/science.280.5366.1086) · [PubMed 9582123](https://pubmed.ncbi.nlm.nih.gov/9582123/)
 [^aretz-2007-jps-spectrum]: Aretz S, Stienen D, Uhlhaas S, et al. High proportion of large genomic deletions and a genotype-phenotype update in 80 unrelated families with juvenile polyposis syndrome. *J Med Genet.* 2007;44(11):702-709. [doi:10.1136/jmg.2007.051839](https://doi.org/10.1136/jmg.2007.051839) · [PubMed 17601924](https://pubmed.ncbi.nlm.nih.gov/17601924/)
