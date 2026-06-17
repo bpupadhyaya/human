@@ -178,6 +178,15 @@ cross_links:
   - target: 01-human/07-system/systemic-lupus-erythematosus
     relation: connects-to
     note: "Autoimmune flares can tip into a storm: macrophage activation syndrome — a cytokine storm with runaway ferritin and hemophagocytosis — complicates lupus and other rheumatic diseases, blurring the line between flare and storm."
+  - target: 01-human/03-molecular/stat3
+    relation: connects-to
+    note: "IL-6 drives the storm through STAT3: the flood of IL-6 signals via STAT3 to amplify the inflammatory cascade, which is why the IL-6 blocker tocilizumab and JAK-STAT inhibitors can quell a cytokine storm."
+  - target: 01-human/07-system/ckd
+    relation: connects-to
+    note: "The storm starves the kidneys: hypotension, microthrombi and direct cytokine injury cause acute kidney injury during a cytokine storm, and survivors of severe multiorgan involvement can be left with chronic kidney disease."
+  - target: 01-human/07-system/venous-thromboembolism
+    relation: connects-to
+    note: "Hyperinflammation clots the veins: the storm's endothelial activation and immunothrombosis sharply raise the risk of deep-vein thrombosis and pulmonary embolism, beyond the microthrombi of overt DIC."
 ---
 
 # Cytokine Storm
@@ -322,6 +331,9 @@ CS drives a **consumptive coagulopathy (DIC)**:
 - `connects-to` → **[IL-2](../../03-molecular/il-2/README.md)** — IL-2 can both cause and characterize the storm: high-dose IL-2 immunotherapy triggers a capillary-leak cytokine-release syndrome, and the IL-2 surge from over-activated T cells is part of the cascade in other storms.
 - `connects-to` → **[Streptococcus pyogenes](../../../02-pathogen/02-bacteria/streptococcus-pyogenes/README.md)** — Superantigens unleash the storm directly: Streptococcus pyogenes toxins cross-link MHC and T-cell receptors to activate huge numbers of T cells at once, flooding the blood with cytokines in toxic shock syndrome.
 - `connects-to` → **[Systemic Lupus Erythematosus](../systemic-lupus-erythematosus/README.md)** — Autoimmune flares can tip into a storm: macrophage activation syndrome — a cytokine storm with runaway ferritin and hemophagocytosis — complicates lupus and other rheumatic diseases, blurring the line between flare and storm.
+- `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — IL-6 drives the storm through STAT3: the flood of IL-6 signals via STAT3 to amplify the inflammatory cascade, which is why the IL-6 blocker tocilizumab and JAK-STAT inhibitors can quell a cytokine storm.
+- `connects-to` → **[Chronic Kidney Disease](../ckd/README.md)** — The storm starves the kidneys: hypotension, microthrombi and direct cytokine injury cause acute kidney injury during a cytokine storm, and survivors of severe multiorgan involvement can be left with chronic kidney disease.
+- `connects-to` → **[Venous Thromboembolism](../venous-thromboembolism/README.md)** — Hyperinflammation clots the veins: the storm's endothelial activation and immunothrombosis sharply raise the risk of deep-vein thrombosis and pulmonary embolism, beyond the microthrombi of overt DIC.
 
 ## Pathology
 

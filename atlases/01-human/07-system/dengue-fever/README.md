@@ -178,6 +178,15 @@ cross_links:
   - target: 01-human/07-system/sepsis
     relation: connects-to
     note: "Severe dengue mimics and invites sepsis: dengue shock syndrome resembles septic shock, and the gut-barrier breakdown and immune exhaustion of severe disease open the door to secondary bacterial sepsis."
+  - target: 01-human/03-molecular/nf-kb
+    relation: connects-to
+    note: "The virus throws the inflammatory switch that leaks the vessels: dengue activates NF-κB in infected and immune cells, driving the cytokine surge that makes capillaries leak plasma — the core of dengue hemorrhagic fever and shock."
+  - target: 01-human/05-tissue/guillain-barre
+    relation: connects-to
+    note: "It can misdirect immunity onto the nerves: dengue is among the infections that trigger Guillain-Barré syndrome, an autoimmune attack on peripheral nerve myelin causing ascending weakness in the weeks after the fever."
+  - target: 01-human/07-system/ckd
+    relation: connects-to
+    note: "Shock and muscle breakdown injure the kidneys: dengue causes acute kidney injury through hypotension, hemolysis and rhabdomyolysis, and severe or repeated episodes can leave lasting chronic kidney disease."
 ---
 
 # Dengue Fever
@@ -343,3 +352,6 @@ No approved antiviral therapy for dengue. Management is entirely supportive:
 - `connects-to` → **[Histamine](../../03-molecular/histamine/README.md)** — Histamine helps spring the leak: mast-cell histamine released during dengue widens endothelial junctions, contributing to the vascular permeability and plasma leakage that define severe dengue, and its levels track disease severity.
 - `connects-to` → **[Hepatocyte](../../04-cellular/hepatocyte/README.md)** — Dengue is hepatotropic: the virus replicates in hepatocytes, and the resulting liver-cell injury raises transaminases and, in severe cases, causes the acute liver failure that worsens the bleeding and shock.
 - `connects-to` → **[Sepsis](../sepsis/README.md)** — Severe dengue mimics and invites sepsis: dengue shock syndrome resembles septic shock, and the gut-barrier breakdown and immune exhaustion of severe disease open the door to secondary bacterial sepsis.
+- `connects-to` → **[NF-κB](../../03-molecular/nf-kb/README.md)** — The virus throws the inflammatory switch that leaks the vessels: dengue activates NF-κB in infected and immune cells, driving the cytokine surge that makes capillaries leak plasma — the core of dengue hemorrhagic fever and shock.
+- `connects-to` → **[Guillain-Barré Syndrome](../../05-tissue/guillain-barre/README.md)** — It can misdirect immunity onto the nerves: dengue is among the infections that trigger Guillain-Barré syndrome, an autoimmune attack on peripheral nerve myelin causing ascending weakness in the weeks after the fever.
+- `connects-to` → **[Chronic Kidney Disease](../ckd/README.md)** — Shock and muscle breakdown injure the kidneys: dengue causes acute kidney injury through hypotension, hemolysis and rhabdomyolysis, and severe or repeated episodes can leave lasting chronic kidney disease.
