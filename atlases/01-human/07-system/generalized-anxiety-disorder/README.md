@@ -202,6 +202,15 @@ cross_links:
   - target: 01-human/07-system/obesity
     relation: connects-to
     note: "Stress reshapes appetite and activity: cortisol-driven cravings, comfort eating and reduced activity in GAD, compounded by some anxiolytic medications, contribute to weight gain and obesity."
+  - target: 01-human/07-system/copd
+    relation: connects-to
+    note: "Breathlessness and anxiety amplify each other: GAD is highly comorbid with COPD, where air hunger triggers panic and chronic worry, and anxiety in turn worsens dyspnea and disability."
+  - target: 01-human/07-system/alzheimers-disease
+    relation: connects-to
+    note: "Chronic worry may wear on the aging brain: sustained cortisol elevation and the long-term sedatives used for GAD are associated with an increased risk of later cognitive decline and dementia."
+  - target: 01-human/07-system/osteoporosis
+    relation: connects-to
+    note: "Stress hormones and sedative falls cost bone: chronic cortisol elevation in GAD lowers bone density, while the benzodiazepines often used raise fall and fracture risk on already fragile bone."
 ---
 
 # Generalized Anxiety Disorder
@@ -401,6 +410,9 @@ Allow **4-8 weeks** for onset of anxiolytic effect. Continue treatment ≥12 mon
 - `connects-to` → **[Heart Failure](../heart-failure/README.md)** — Chronic worry strains the heart: the sustained sympathetic activation of GAD raises heart rate and blood pressure and is associated with worse cardiac outcomes, contributing over time to heart failure risk.
 - `connects-to` → **[Stroke](../stroke/README.md)** — Anxiety tracks with cerebrovascular risk: the chronic stress, hypertension and inflammation of long-standing GAD are linked epidemiologically to a higher long-term risk of stroke.
 - `connects-to` → **[Obesity](../obesity/README.md)** — Stress reshapes appetite and activity: cortisol-driven cravings, comfort eating and reduced activity in GAD, compounded by some anxiolytic medications, contribute to weight gain and obesity.
+- `connects-to` → **[COPD](../copd/README.md)** — Breathlessness and anxiety amplify each other: GAD is highly comorbid with COPD, where air hunger triggers panic and chronic worry, and anxiety in turn worsens dyspnea and disability.
+- `connects-to` → **[Alzheimer's Disease](../alzheimers-disease/README.md)** — Chronic worry may wear on the aging brain: sustained cortisol elevation and the long-term sedatives used for GAD are associated with an increased risk of later cognitive decline and dementia.
+- `connects-to` → **[Osteoporosis](../osteoporosis/README.md)** — Stress hormones and sedative falls cost bone: chronic cortisol elevation in GAD lowers bone density, while the benzodiazepines often used raise fall and fracture risk on already fragile bone.
 
 [^kessler-2005-gad-prevalence]: Kessler RC, Berglund P, Demler O, et al. Lifetime prevalence and age-of-onset distributions of DSM-IV disorders in the NCS Replication. *Arch Gen Psychiatry.* 2005;62(6):593-602. [doi:10.1001/archpsyc.62.6.593](https://doi.org/10.1001/archpsyc.62.6.593) · [PubMed 15939837](https://pubmed.ncbi.nlm.nih.gov/15939837/)
 [^bandelow-2015-anxiety-biology]: Bandelow B, Michaelis S. Epidemiology of anxiety disorders in the 21st century. *Dialogues Clin Neurosci.* 2015;17(3):327-335. [doi:10.31887/DCNS.2015.17.3/bbandelow](https://doi.org/10.31887/DCNS.2015.17.3/bbandelow) · [PubMed 26487812](https://pubmed.ncbi.nlm.nih.gov/26487812/)

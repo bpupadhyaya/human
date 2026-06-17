@@ -199,6 +199,15 @@ cross_links:
   - target: 01-human/07-system/ckd
     relation: connects-to
     note: "Its drugs are hard on the kidney: the calcineurin inhibitors (ciclosporin, tacrolimus) central to GVHD prophylaxis and treatment are nephrotoxic, and chronic exposure can leave lasting chronic kidney disease."
+  - target: 01-human/07-system/wound-healing
+    relation: connects-to
+    note: "Chronic GVHD scleroses and ulcerates the skin: its sclerodermatous skin changes, oral and genital erosions, on top of steroid immunosuppression, leave wounds that are slow and difficult to heal."
+  - target: 01-human/07-system/osteoporosis
+    relation: connects-to
+    note: "Prolonged steroids erode the skeleton: the months to years of high-dose corticosteroids used to control chronic GVHD cause bone loss and avascular necrosis, a major long-term complication."
+  - target: 01-human/07-system/major-depressive-disorder
+    relation: connects-to
+    note: "A grueling chronic complication weighs on mood: the prolonged disability, disfigurement and treatment burden of chronic GVHD after a hoped-for cure contribute to substantial depression in survivors."
 ---
 
 # Graft-Versus-Host Disease
@@ -397,6 +406,9 @@ The protective Treg/IL-10 axis is the key biological counterbalance to alloreact
 - `connects-to` → **[Aspergillus fumigatus](../../../02-pathogen/03-fungi/aspergillus-fumigatus/README.md)** — Deep immunosuppression opens the lung to mold: the prolonged steroids and other immunosuppressants treating GVHD profoundly impair defenses, making invasive pulmonary aspergillosis a feared and frequent infection.
 - `connects-to` → **[Pneumocystis jirovecii](../../../02-pathogen/03-fungi/pneumocystis-jirovecii/README.md)** — T-cell suppression invites Pneumocystis: the immunosuppression controlling GVHD depletes the T-cell defenses against Pneumocystis, so PJP prophylaxis is standard for these transplant patients.
 - `connects-to` → **[Chronic Kidney Disease](../ckd/README.md)** — Its drugs are hard on the kidney: the calcineurin inhibitors (ciclosporin, tacrolimus) central to GVHD prophylaxis and treatment are nephrotoxic, and chronic exposure can leave lasting chronic kidney disease.
+- `connects-to` → **[Wound Healing](../wound-healing/README.md)** — Chronic GVHD scleroses and ulcerates the skin: its sclerodermatous skin changes, oral and genital erosions, on top of steroid immunosuppression, leave wounds that are slow and difficult to heal.
+- `connects-to` → **[Osteoporosis](../osteoporosis/README.md)** — Prolonged steroids erode the skeleton: the months to years of high-dose corticosteroids used to control chronic GVHD cause bone loss and avascular necrosis, a major long-term complication.
+- `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — A grueling chronic complication weighs on mood: the prolonged disability, disfigurement and treatment burden of chronic GVHD after a hoped-for cure contribute to substantial depression in survivors.
 
 [^ferrara-2009-gvhd-review]: Ferrara JL, Levine JE, Reddy P, Holler E. Graft-versus-host disease. *Lancet.* 2009;373(9674):1550-1561. [doi:10.1016/S0140-6736(09)60237-3](https://doi.org/10.1016/S0140-6736(09)60237-3) · [PubMed 19380114](https://pubmed.ncbi.nlm.nih.gov/19380114/)
 [^zeiser-2020-ruxolitinib-gvhd-reach]: Zeiser R, von Bubnoff N, Butler J, et al. Ruxolitinib for Glucocorticoid-Refractory Acute Graft-versus-Host Disease. *N Engl J Med.* 2020;382(19):1800-1810. [doi:10.1056/NEJMoa1917635](https://doi.org/10.1056/NEJMoa1917635) · [PubMed 32374962](https://pubmed.ncbi.nlm.nih.gov/32374962/)
