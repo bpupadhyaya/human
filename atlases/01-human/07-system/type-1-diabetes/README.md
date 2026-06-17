@@ -187,6 +187,15 @@ cross_links:
   - target: 01-human/07-system/sepsis
     relation: connects-to
     note: "Infection and diabetes feed each other dangerously: hyperglycemia blunts immune defense while infection commonly precipitates ketoacidosis, so serious infection and sepsis are both a trigger and a threat in type 1 diabetes."
+  - target: 02-pathogen/03-fungi/candida-albicans
+    relation: connects-to
+    note: "Sugar-rich tissue invites the yeast: glucose in blood and urine plus impaired immunity favor Candida overgrowth, so recurrent vulvovaginal, oral and skin-fold candidiasis often flags poor glycemic control."
+  - target: 01-human/07-system/stroke
+    relation: connects-to
+    note: "Decades of high sugar damage the arteries: type 1 diabetes accelerates atherosclerosis from a young age, and the resulting large-vessel disease raises the lifetime risk of ischemic stroke."
+  - target: 01-human/07-system/major-depressive-disorder
+    relation: connects-to
+    note: "The relentless self-management weighs on mood: the lifelong burden of carbohydrate counting, injections and fear of hypoglycemia gives type 1 diabetes a high rate of depression and diabetes distress."
 ---
 
 # Type 1 Diabetes
@@ -339,6 +348,9 @@ cross_links:
 - `connects-to` → **[NF-κB](../../03-molecular/nf-kb/README.md)** — Cytokines kill the beta cell through NF-κB: IL-1β, TNF and interferon from infiltrating immune cells activate NF-κB inside islet beta cells, driving the stress and apoptosis that destroys insulin production in type 1 diabetes.
 - `connects-to` → **[Venous Thromboembolism](../venous-thromboembolism/README.md)** — Ketoacidosis turns the blood prothrombotic: the dehydration, inflammation and endothelial injury of diabetic ketoacidosis sharply raise clot risk, so venous thromboembolism is a recognized hazard of severe decompensation.
 - `connects-to` → **[Sepsis](../sepsis/README.md)** — Infection and diabetes feed each other dangerously: hyperglycemia blunts immune defense while infection commonly precipitates ketoacidosis, so serious infection and sepsis are both a trigger and a threat in type 1 diabetes.
+- `connects-to` → **[Candida albicans](../../../02-pathogen/03-fungi/candida-albicans/README.md)** — Sugar-rich tissue invites the yeast: glucose in blood and urine plus impaired immunity favor Candida overgrowth, so recurrent vulvovaginal, oral and skin-fold candidiasis often flags poor glycemic control.
+- `connects-to` → **[Stroke](../stroke/README.md)** — Decades of high sugar damage the arteries: type 1 diabetes accelerates atherosclerosis from a young age, and the resulting large-vessel disease raises the lifetime risk of ischemic stroke.
+- `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — The relentless self-management weighs on mood: the lifelong burden of carbohydrate counting, injections and fear of hypoglycemia gives type 1 diabetes a high rate of depression and diabetes distress.
 
 [^atkinson-2014-t1d-lancet]: Atkinson MA, Eisenbarth GS, Michels AW. Type 1 diabetes. *Lancet.* 2014;383(9911):69-82. [doi:10.1016/S0140-6736(13)60591-7](https://doi.org/10.1016/S0140-6736(13)60591-7) · [PubMed 23890997](https://pubmed.ncbi.nlm.nih.gov/23890997/)
 [^herold-2019-teplizumab-t1d]: Herold KC, Bundy BN, Long SA, et al. An anti-CD3 antibody, teplizumab, in relatives at risk for type 1 diabetes. *N Engl J Med.* 2019;381(7):603-613. [doi:10.1056/NEJMoa1905155](https://doi.org/10.1056/NEJMoa1905155) · [PubMed 31180675](https://pubmed.ncbi.nlm.nih.gov/31180675/)

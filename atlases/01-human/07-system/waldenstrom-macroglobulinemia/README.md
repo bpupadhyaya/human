@@ -181,6 +181,15 @@ cross_links:
   - target: 01-human/07-system/sepsis
     relation: connects-to
     note: "Low normal antibodies leave a defense gap: the suppressed normal immunoglobulins of Waldenström, compounded by rituximab and BTK-inhibitor therapy, predispose to serious infection and sepsis."
+  - target: 01-human/07-system/venous-thromboembolism
+    relation: connects-to
+    note: "Thick IgM-laden blood clots and bleeds: the hyperviscosity of Waldenström both impairs flow and, with its cancer-associated hypercoagulability, raises venous thromboembolism risk even as paraprotein can paradoxically cause bleeding."
+  - target: 01-human/07-system/ckd
+    relation: connects-to
+    note: "The IgM paraprotein can injure the kidney: deposition of monoclonal IgM and cryoglobulins in the glomeruli, plus hyperviscosity, can damage renal function and progress toward chronic kidney disease."
+  - target: 02-pathogen/03-fungi/pneumocystis-jirovecii
+    relation: connects-to
+    note: "B-cell-directed therapy opens the lung: rituximab and BTK inhibitors used in Waldenström deplete immune defenses enough to risk Pneumocystis pneumonia, sometimes warranting prophylaxis during treatment."
 ---
 
 # Waldenström Macroglobulinemia
@@ -353,6 +362,9 @@ For symptomatic hyperviscosity → removes IgM immediately; does not treat under
 - `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — The driver mutation lights two fuses: MYD88 L265P fires not only NF-κB but also JAK-STAT3 signaling, a parallel survival pathway that sustains the Waldenström clone and is explored as a therapeutic target.
 - `connects-to` → **[Nervous System](../nervous-system/README.md)** — It reaches the nervous system in several ways: anti-MAG IgM causes peripheral neuropathy, hyperviscosity impairs the brain, and rarely the clone infiltrates the CNS directly as Bing-Neel syndrome.
 - `connects-to` → **[Sepsis](../sepsis/README.md)** — Low normal antibodies leave a defense gap: the suppressed normal immunoglobulins of Waldenström, compounded by rituximab and BTK-inhibitor therapy, predispose to serious infection and sepsis.
+- `connects-to` → **[Venous Thromboembolism](../venous-thromboembolism/README.md)** — Thick IgM-laden blood clots and bleeds: the hyperviscosity of Waldenström both impairs flow and, with its cancer-associated hypercoagulability, raises venous thromboembolism risk even as paraprotein can paradoxically cause bleeding.
+- `connects-to` → **[Chronic Kidney Disease](../ckd/README.md)** — The IgM paraprotein can injure the kidney: deposition of monoclonal IgM and cryoglobulins in the glomeruli, plus hyperviscosity, can damage renal function and progress toward chronic kidney disease.
+- `connects-to` → **[Pneumocystis jirovecii](../../../02-pathogen/03-fungi/pneumocystis-jirovecii/README.md)** — B-cell-directed therapy opens the lung: rituximab and BTK inhibitors used in Waldenström deplete immune defenses enough to risk Pneumocystis pneumonia, sometimes warranting prophylaxis during treatment.
 
 [^treon-2015-ibrutinib-wm]: Treon SP, Tripsas CK, Meid K, et al. Ibrutinib in previously treated Waldenström's macroglobulinemia. *N Engl J Med.* 2015;373(18):1765-1774. [doi:10.1056/NEJMoa1501548](https://doi.org/10.1056/NEJMoa1501548) · [PubMed 26352686](https://pubmed.ncbi.nlm.nih.gov/26352686/)
 [^tam-2020-aspen]: Tam CS, Opat S, D'Sa S, et al. A randomized phase 3 trial of zanubrutinib vs ibrutinib in symptomatic Waldenström macroglobulinemia: the ASPEN study. *Blood.* 2020;136(18):2038-2050. [doi:10.1182/blood.2020006844](https://doi.org/10.1182/blood.2020006844) · [PubMed 32828187](https://pubmed.ncbi.nlm.nih.gov/32828187/)
