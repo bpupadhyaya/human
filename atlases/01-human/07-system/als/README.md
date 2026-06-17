@@ -205,6 +205,15 @@ cross_links:
   - target: 01-human/07-system/ckd
     relation: connects-to
     note: "Swallowing failure dries out the kidneys: dysphagia limits fluid intake while immobility and recurrent illness add prerenal stress, so chronic dehydration can erode renal function in advanced ALS."
+  - target: 02-pathogen/02-bacteria/streptococcus-pneumoniae
+    relation: connects-to
+    note: "Failing swallow and cough flood the lungs: bulbar and respiratory muscle weakness in ALS causes aspiration and an ineffective cough, and the resulting pneumonia — often pneumococcal — is the leading cause of death."
+  - target: 01-human/07-system/wound-healing
+    relation: connects-to
+    note: "Progressive paralysis breaks down the skin: as ALS confines patients to bed or wheelchair, immobility and immobile pressure points produce pressure ulcers that heal poorly in the wasted, malnourished body."
+  - target: 01-human/07-system/neuropathic-pain
+    relation: connects-to
+    note: "It is not painless as once thought: muscle cramps, spasticity, joint strain from weakness and some sensory involvement give ALS chronic pain, including a neuropathic component, that needs active management."
 ---
 
 # ALS
@@ -407,6 +416,9 @@ ALS diagnosis is **clinical** — no single definitive biomarker test (though Nf
 - `connects-to` → **[Osteoporosis](../osteoporosis/README.md)** — Disuse and falls weaken the skeleton: progressive immobility and reduced weight-bearing in ALS drive bone loss, while the falls of failing limbs make osteoporotic fractures a real hazard.
 - `connects-to` → **[Generalized Anxiety Disorder](../generalized-anxiety-disorder/README.md)** — Watching the body fail breeds dread: the relentless progression of paralysis and the fear of suffocation give ALS a heavy burden of anxiety alongside its depression.
 - `connects-to` → **[Chronic Kidney Disease](../ckd/README.md)** — Swallowing failure dries out the kidneys: dysphagia limits fluid intake while immobility and recurrent illness add prerenal stress, so chronic dehydration can erode renal function in advanced ALS.
+- `connects-to` → **[Streptococcus pneumoniae](../../../02-pathogen/02-bacteria/streptococcus-pneumoniae/README.md)** — Failing swallow and cough flood the lungs: bulbar and respiratory muscle weakness in ALS causes aspiration and an ineffective cough, and the resulting pneumonia — often pneumococcal — is the leading cause of death.
+- `connects-to` → **[Wound Healing](../wound-healing/README.md)** — Progressive paralysis breaks down the skin: as ALS confines patients to bed or wheelchair, immobility and immobile pressure points produce pressure ulcers that heal poorly in the wasted, malnourished body.
+- `connects-to` → **[Neuropathic Pain](../neuropathic-pain/README.md)** — It is not painless as once thought: muscle cramps, spasticity, joint strain from weakness and some sensory involvement give ALS chronic pain, including a neuropathic component, that needs active management.
 
 [^brown-2017-als-review]: Brown RH, Al-Chalabi A. Amyotrophic lateral sclerosis. *N Engl J Med.* 2017;377(2):162-172. [doi:10.1056/NEJMra1603471](https://doi.org/10.1056/NEJMra1603471) · [PubMed 28700839](https://pubmed.ncbi.nlm.nih.gov/28700839/)
 [^edaravone-als-2017]: Writing Group, Edaravone ALS 19 Study Group. Safety and efficacy of edaravone in well defined patients with amyotrophic lateral sclerosis. *Lancet Neurol.* 2017;16(7):505-512. [doi:10.1016/S1474-4422(17)30115-1](https://doi.org/10.1016/S1474-4422(17)30115-1) · [PubMed 28522180](https://pubmed.ncbi.nlm.nih.gov/28522180/)

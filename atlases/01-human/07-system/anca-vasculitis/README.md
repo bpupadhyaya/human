@@ -208,6 +208,15 @@ cross_links:
   - target: 01-human/07-system/major-depressive-disorder
     relation: connects-to
     note: "A relapsing multisystem disease weighs on mood: the chronic, unpredictable course, organ damage and toxic immunosuppression of ANCA vasculitis carry a substantial burden of depression."
+  - target: 02-pathogen/03-fungi/aspergillus-fumigatus
+    relation: connects-to
+    note: "Its heavy immunosuppression opens the lung to mold: cyclophosphamide, rituximab and high-dose steroids used to induce remission in ANCA vasculitis deeply blunt immunity, permitting invasive aspergillosis."
+  - target: 01-human/07-system/pulmonary-arterial-hypertension
+    relation: connects-to
+    note: "Lung capillaritis and fibrosis can pressurize the arteries: the alveolar hemorrhage and interstitial scarring of ANCA vasculitis damage the pulmonary vasculature, contributing to pulmonary hypertension."
+  - target: 01-human/07-system/osteoporosis
+    relation: connects-to
+    note: "Prolonged steroids erode the skeleton: the months of high-dose corticosteroids needed to control ANCA vasculitis accelerate bone loss and raise fracture risk, a common treatment complication."
 ---
 
 # ANCA Vasculitis
@@ -403,6 +412,9 @@ EGPA is mechanistically distinct — eosinophils, not neutrophils, mediate tissu
 - `connects-to` → **[Pneumocystis jirovecii](../../../02-pathogen/03-fungi/pneumocystis-jirovecii/README.md)** — Its induction therapy opens the lung: the cyclophosphamide, rituximab and high-dose steroids used to control ANCA vasculitis deplete T-cell defenses, so Pneumocystis prophylaxis is standard during remission induction.
 - `connects-to` → **[Anemia of Chronic Disease](../anemia-of-chronic-disease/README.md)** — Inflammation and renal disease blunt the marrow: the systemic inflammation of active ANCA vasculitis raises hepcidin while its glomerulonephritis cuts erythropoietin, together producing an anemia of chronic disease.
 - `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — A relapsing multisystem disease weighs on mood: the chronic, unpredictable course, organ damage and toxic immunosuppression of ANCA vasculitis carry a substantial burden of depression.
+- `connects-to` → **[Aspergillus fumigatus](../../../02-pathogen/03-fungi/aspergillus-fumigatus/README.md)** — Its heavy immunosuppression opens the lung to mold: cyclophosphamide, rituximab and high-dose steroids used to induce remission in ANCA vasculitis deeply blunt immunity, permitting invasive aspergillosis.
+- `connects-to` → **[Pulmonary Arterial Hypertension](../pulmonary-arterial-hypertension/README.md)** — Lung capillaritis and fibrosis can pressurize the arteries: the alveolar hemorrhage and interstitial scarring of ANCA vasculitis damage the pulmonary vasculature, contributing to pulmonary hypertension.
+- `connects-to` → **[Osteoporosis](../osteoporosis/README.md)** — Prolonged steroids erode the skeleton: the months of high-dose corticosteroids needed to control ANCA vasculitis accelerate bone loss and raise fracture risk, a common treatment complication.
 
 [^yates-2022-anca-review]: Yates M, Watts RA, Bajema IM, et al. EULAR/ERA-EDTA recommendations for the management of ANCA-associated vasculitis. *Ann Rheum Dis.* 2016;75(9):1583-1594. [doi:10.1136/annrheumdis-2016-209133](https://doi.org/10.1136/annrheumdis-2016-209133) · [PubMed 27338776](https://pubmed.ncbi.nlm.nih.gov/27338776/)
 [^stone-2010-rituximab-gpa-rave]: Stone JH, Merkel PA, Spiera R, et al. Rituximab versus cyclophosphamide for ANCA-associated vasculitis. *N Engl J Med.* 2010;363(3):221-232. [doi:10.1056/NEJMoa0909905](https://doi.org/10.1056/NEJMoa0909905) · [PubMed 20647199](https://pubmed.ncbi.nlm.nih.gov/20647199/)
