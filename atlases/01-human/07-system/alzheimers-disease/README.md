@@ -190,6 +190,15 @@ cross_links:
   - target: 01-human/07-system/venous-thromboembolism
     relation: connects-to
     note: "Late-stage immobility clots the veins: as Alzheimer's confines patients to bed, venous stasis raises the risk of deep-vein thrombosis and pulmonary embolism."
+  - target: 01-human/07-system/epilepsy
+    relation: connects-to
+    note: "The diseased cortex becomes hyperexcitable: Alzheimer's substantially raises seizure risk — strikingly so in early-onset disease — as amyloid and tau pathology disrupt networks into epileptiform and overt seizures."
+  - target: 01-human/07-system/stroke
+    relation: connects-to
+    note: "Vascular and amyloid injury overlap: cerebral amyloid angiopathy weakens vessels toward hemorrhage while shared vascular risk factors drive ischemic stroke, and stroke and Alzheimer's pathology together produce mixed dementia."
+  - target: 01-human/07-system/osteoporosis
+    relation: connects-to
+    note: "Frail bones meet frequent falls: immobility, low vitamin D and the falls of impaired gait and cognition make osteoporotic hip fractures common and devastating in advanced Alzheimer's."
 ---
 
 # Alzheimer's Disease
@@ -346,6 +355,9 @@ Microglia play a central, dual role in AD:
 - `connects-to` → **[NF-κB](../../03-molecular/nf-kb/README.md)** — Microglia inflame the plaques through NF-κB: amyloid-β activates NF-κB in microglia, priming the NLRP3 inflammasome and pouring out cytokines that amplify the neuroinflammation accelerating Alzheimer's.
 - `connects-to` → **[Sepsis](../sepsis/README.md)** — The end stage opens the door to fatal infection: advanced Alzheimer's brings dysphagia, immobility and aspiration, so pneumonia and the sepsis it triggers are a leading cause of death in dementia.
 - `connects-to` → **[Venous Thromboembolism](../venous-thromboembolism/README.md)** — Late-stage immobility clots the veins: as Alzheimer's confines patients to bed, venous stasis raises the risk of deep-vein thrombosis and pulmonary embolism.
+- `connects-to` → **[Epilepsy](../epilepsy/README.md)** — The diseased cortex becomes hyperexcitable: Alzheimer's substantially raises seizure risk — strikingly so in early-onset disease — as amyloid and tau pathology disrupt networks into epileptiform and overt seizures.
+- `connects-to` → **[Stroke](../stroke/README.md)** — Vascular and amyloid injury overlap: cerebral amyloid angiopathy weakens vessels toward hemorrhage while shared vascular risk factors drive ischemic stroke, and stroke and Alzheimer's pathology together produce mixed dementia.
+- `connects-to` → **[Osteoporosis](../osteoporosis/README.md)** — Frail bones meet frequent falls: immobility, low vitamin D and the falls of impaired gait and cognition make osteoporotic hip fractures common and devastating in advanced Alzheimer's.
 
 [^selkoe-2016-alzheimer]: Selkoe DJ, Hardy J. The amyloid hypothesis of Alzheimer's disease at 25 years. *EMBO Mol Med.* 2016;8(6):595-608. [doi:10.15252/emmm.201606210](https://doi.org/10.15252/emmm.201606210) · [PubMed 27025652](https://pubmed.ncbi.nlm.nih.gov/27025652/)
 [^jack-2018-nia-aa]: Jack CR Jr, Bennett DA, Blennow K, et al. NIA-AA Research Framework: Toward a biological definition of Alzheimer's disease. *Alzheimers Dement.* 2018;14(4):535-562. [doi:10.1016/j.jalz.2018.02.018](https://doi.org/10.1016/j.jalz.2018.02.018) · [PubMed 29653606](https://pubmed.ncbi.nlm.nih.gov/29653606/)
