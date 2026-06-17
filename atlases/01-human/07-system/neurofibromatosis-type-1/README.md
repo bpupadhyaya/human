@@ -196,6 +196,15 @@ cross_links:
   - target: 01-human/07-system/melanoma
     relation: connects-to
     note: "NF1 loss is itself a melanoma driver: inactivating NF1 unleashes RAS-MAPK signaling, defining a recognized genomic subtype of cutaneous melanoma and adding to the cancer burden these patients carry."
+  - target: 01-human/07-system/neuroendocrine-tumors
+    relation: connects-to
+    note: "RAS dysregulation also seeds gut endocrine tumours: NF1 predisposes to duodenal/periampullary somatostatinomas and other gastroenteropancreatic neuroendocrine tumours, part of its wide neoplastic spectrum."
+  - target: 01-human/07-system/wound-healing
+    relation: connects-to
+    note: "Debulking neurofibromas heals poorly: the highly vascular plexiform neurofibromas of NF1 bleed and recur, and their surgical resection leaves wounds prone to slow, complicated closure."
+  - target: 01-human/07-system/generalized-anxiety-disorder
+    relation: connects-to
+    note: "Lifelong cancer risk and disfigurement breed worry: the visible skin tumours, malignant-transformation surveillance and unpredictable course of NF1 foster chronic health anxiety alongside low mood."
 ---
 
 # Neurofibromatosis Type 1
@@ -368,6 +377,9 @@ In glioma and MPNST: additional alterations required — MPNST requires CDKN2A/2
 - `connects-to` → **[Osteoporosis](../osteoporosis/README.md)** — Loss of neurofibromin weakens the skeleton: NF1 disturbs bone remodeling, and patients show reduced bone mineral density, osteopenia, and an elevated fracture risk beyond the focal dysplasias and scoliosis.
 - `connects-to` → **[Acute Myeloid Leukemia](../aml/README.md)** — Its RAS overactivity tilts marrow toward leukemia: with neurofibromin lost, hyperactive RAS signaling predisposes NF1 children to juvenile myelomonocytic leukemia and other myeloid neoplasms that can evolve toward acute myeloid leukemia.
 - `connects-to` → **[Melanoma](../melanoma/README.md)** — NF1 loss is itself a melanoma driver: inactivating NF1 unleashes RAS-MAPK signaling, defining a recognized genomic subtype of cutaneous melanoma and adding to the cancer burden these patients carry.
+- `connects-to` → **[Neuroendocrine Tumors](../neuroendocrine-tumors/README.md)** — RAS dysregulation also seeds gut endocrine tumours: NF1 predisposes to duodenal/periampullary somatostatinomas and other gastroenteropancreatic neuroendocrine tumours, part of its wide neoplastic spectrum.
+- `connects-to` → **[Wound Healing](../wound-healing/README.md)** — Debulking neurofibromas heals poorly: the highly vascular plexiform neurofibromas of NF1 bleed and recur, and their surgical resection leaves wounds prone to slow, complicated closure.
+- `connects-to` → **[Generalized Anxiety Disorder](../generalized-anxiety-disorder/README.md)** — Lifelong cancer risk and disfigurement breed worry: the visible skin tumours, malignant-transformation surveillance and unpredictable course of NF1 foster chronic health anxiety alongside low mood.
 
 [^gutmann-2017-nf1-primer]: Gutmann DH, Ferner RE, Listernick RH, et al. Neurofibromatosis type 1. *Nat Rev Dis Primers.* 2017;3:17004. [doi:10.1038/nrdp.2017.4](https://doi.org/10.1038/nrdp.2017.4) · [PubMed 28230061](https://pubmed.ncbi.nlm.nih.gov/28230061/)
 [^dombi-2016-selumetinib]: Dombi E, Baldwin A, Marcus LJ, et al. Activity of Selumetinib in Neurofibromatosis Type 1-Related Plexiform Neurofibromas. *N Engl J Med.* 2016;375(26):2550-2560. [doi:10.1056/NEJMoa1605943](https://doi.org/10.1056/NEJMoa1605943) · [PubMed 28029918](https://pubmed.ncbi.nlm.nih.gov/28029918/)
