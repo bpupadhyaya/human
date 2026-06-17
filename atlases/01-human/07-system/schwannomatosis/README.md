@@ -196,6 +196,15 @@ cross_links:
   - target: 01-human/07-system/osteoporosis
     relation: connects-to
     note: "Its long-term opioids quietly thin the bones: the chronic opioid therapy needed for schwannomatosis pain suppresses sex hormones, and the resulting hypogonadism, with pain-related inactivity, accelerates loss of bone density."
+  - target: 01-human/07-system/wound-healing
+    relation: connects-to
+    note: "Repeated tumour surgery means repeated wounds: the surgical resection of painful schwannomas — often multiple over a lifetime in schwannomatosis — leaves wounds that must heal, sometimes near nerves."
+  - target: 01-human/07-system/digestive-system
+    relation: connects-to
+    note: "Its chronic opioids constipate the gut: the long-term opioid analgesia central to schwannomatosis pain control slows intestinal transit, causing opioid-induced constipation that can become severe."
+  - target: 01-human/07-system/ckd
+    relation: connects-to
+    note: "Long-term NSAIDs wear on the kidneys: the chronic non-steroidal anti-inflammatory use that helps control schwannomatosis pain can cause analgesic nephropathy and a slow decline in kidney function."
 ---
 
 # Schwannomatosis
@@ -357,6 +366,9 @@ Both NF2 (22q12.2), SMARCB1 (22q11.23), and LZTR1 (22q11.21) are on chromosome 2
 - `connects-to` → **[Insomnia Disorder](../insomnia-disorder/README.md)** — Relentless pain robs patients of sleep: the chronic, often nocturnal pain that defines schwannomatosis fragments sleep and drives a persistent insomnia that in turn lowers pain tolerance the next day.
 - `connects-to` → **[Generalized Anxiety Disorder](../generalized-anxiety-disorder/README.md)** — Unpredictable pain and tumor uncertainty breed worry: the constant pain, surveillance for new schwannomas and fear of progression in schwannomatosis foster chronic anxiety alongside its better-recognized depression.
 - `connects-to` → **[Osteoporosis](../osteoporosis/README.md)** — Its long-term opioids quietly thin the bones: the chronic opioid therapy needed for schwannomatosis pain suppresses sex hormones, and the resulting hypogonadism, with pain-related inactivity, accelerates loss of bone density.
+- `connects-to` → **[Wound Healing](../wound-healing/README.md)** — Repeated tumour surgery means repeated wounds: the surgical resection of painful schwannomas — often multiple over a lifetime in schwannomatosis — leaves wounds that must heal, sometimes near nerves.
+- `connects-to` → **[Digestive System](../digestive-system/README.md)** — Its chronic opioids constipate the gut: the long-term opioid analgesia central to schwannomatosis pain control slows intestinal transit, causing opioid-induced constipation that can become severe.
+- `connects-to` → **[Chronic Kidney Disease](../ckd/README.md)** — Long-term NSAIDs wear on the kidneys: the chronic non-steroidal anti-inflammatory use that helps control schwannomatosis pain can cause analgesic nephropathy and a slow decline in kidney function.
 
 [^merker-2012-schwannomatosis]: Merker VL, Esparza S, Smith MJ, Stemmer-Rachamimov A, Plotkin SR. Clinical features of schwannomatosis: a retrospective analysis of 87 patients. *Oncologist.* 2012;17(10):1317-1322. [doi:10.1634/theoncologist.2012-0162](https://doi.org/10.1634/theoncologist.2012-0162) · [PubMed 22927469](https://pubmed.ncbi.nlm.nih.gov/22927469/)
 [^piotrowski-2014-lztr1]: Piotrowski A, Xie J, Liu YF, et al. Germline loss-of-function mutations in LZTR1 predispose to an inherited disorder of multiple schwannomas. *Nat Genet.* 2014;46(2):182-187. [doi:10.1038/ng.2855](https://doi.org/10.1038/ng.2855) · [PubMed 24362817](https://pubmed.ncbi.nlm.nih.gov/24362817/)
