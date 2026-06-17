@@ -187,6 +187,15 @@ cross_links:
   - target: 01-human/07-system/sepsis
     relation: connects-to
     note: "Swallowing fails and the lungs pay: advancing Parkinson's brings dysphagia and aspiration, so aspiration pneumonia and the sepsis it triggers are the leading cause of death in the disease."
+  - target: 01-human/07-system/osteoporosis
+    relation: connects-to
+    note: "Falls meet fragile bones: postural instability and freezing make falls frequent in Parkinson's, while immobility and low vitamin D thin the bones, so osteoporotic hip and wrist fractures are a major source of disability."
+  - target: 01-human/07-system/generalized-anxiety-disorder
+    relation: connects-to
+    note: "Anxiety is a core non-motor feature: persistent worry and 'off'-period anxiety are common in Parkinson's, arising from the same degeneration of dopaminergic, noradrenergic and serotonergic systems that drives the motor disease."
+  - target: 01-human/07-system/ckd
+    relation: connects-to
+    note: "Renal function shapes its treatment and risk: chronic kidney disease shares vascular and oxidative mechanisms epidemiologically linked to Parkinson's, and impaired clearance alters dosing of the drugs used to manage it."
 ---
 
 # Parkinson's Disease
@@ -382,6 +391,9 @@ PD is primarily a disease of aging (mean onset ~60 years), but **~10–15% of ca
 - `connects-to` → **[NF-κB](../../03-molecular/nf-kb/README.md)** — Microglia inflame the dying neurons through NF-κB: α-synuclein activates NF-κB in microglia, which prime the NLRP3 inflammasome and pour out cytokines that accelerate the loss of dopaminergic neurons.
 - `connects-to` → **[Insomnia Disorder](../insomnia-disorder/README.md)** — Sleep falls apart early and often: insomnia, fragmented sleep and REM sleep behavior disorder are cardinal non-motor features of Parkinson's, sometimes preceding the tremor by years as the disease invades sleep-regulating nuclei.
 - `connects-to` → **[Sepsis](../sepsis/README.md)** — Swallowing fails and the lungs pay: advancing Parkinson's brings dysphagia and aspiration, so aspiration pneumonia and the sepsis it triggers are the leading cause of death in the disease.
+- `connects-to` → **[Osteoporosis](../osteoporosis/README.md)** — Falls meet fragile bones: postural instability and freezing make falls frequent in Parkinson's, while immobility and low vitamin D thin the bones, so osteoporotic hip and wrist fractures are a major source of disability.
+- `connects-to` → **[Generalized Anxiety Disorder](../generalized-anxiety-disorder/README.md)** — Anxiety is a core non-motor feature: persistent worry and 'off'-period anxiety are common in Parkinson's, arising from the same degeneration of dopaminergic, noradrenergic and serotonergic systems that drives the motor disease.
+- `connects-to` → **[Chronic Kidney Disease](../ckd/README.md)** — Renal function shapes its treatment and risk: chronic kidney disease shares vascular and oxidative mechanisms epidemiologically linked to Parkinson's, and impaired clearance alters dosing of the drugs used to manage it.
 
 [^kalia-2015-pd-review]: Kalia LV, Lang AE. Parkinson's disease. *Lancet.* 2015;386(9996):896-912. [doi:10.1016/S0140-6736(14)61393-3](https://doi.org/10.1016/S0140-6736(14)61393-3) · [PubMed 25904081](https://pubmed.ncbi.nlm.nih.gov/25904081/)
 [^spillantini-1997-lewy-body]: Spillantini MG, Schmidt ML, Lee VM, Trojanowski JQ, Jakes R, Goedert M. Alpha-synuclein in Lewy bodies. *Nature.* 1997;388(6645):839-840. [doi:10.1038/42166](https://doi.org/10.1038/42166) · [PubMed 9278044](https://pubmed.ncbi.nlm.nih.gov/9278044/)
