@@ -206,6 +206,15 @@ cross_links:
   - target: 01-human/07-system/epilepsy
     relation: connects-to
     note: "Temporal-lobe circuits can generate both: obsessive-compulsive symptoms are over-represented in epilepsy, especially temporal-lobe epilepsy, reflecting shared limbic and cortico-striatal dysfunction."
+  - target: 01-human/07-system/migraine
+    relation: connects-to
+    note: "Headache keeps company with the disorder: OCD shows elevated comorbidity with migraine, the two sharing serotonergic dysregulation and a tendency toward chronic, recurrent symptom patterns."
+  - target: 01-human/07-system/atopic-dermatitis
+    relation: connects-to
+    note: "Compulsive scratching meets chronic itch: OCD-spectrum skin-picking and the relentless itch of atopic dermatitis reinforce each other, and the two conditions co-occur more than chance."
+  - target: 01-human/07-system/obesity
+    relation: connects-to
+    note: "Its long-term medications add weight: the high-dose SSRIs and antipsychotic augmentation used in OCD promote weight gain, contributing to obesity over years of treatment."
 ---
 
 # Obsessive-Compulsive Disorder
@@ -393,6 +402,9 @@ OCD is often underdiagnosed due to shame and secrecy. Mean time from symptom ons
 - `connects-to` → **[Binge Eating Disorder](../binge-eating-disorder/README.md)** — Compulsion can fix on food: the repetitive, hard-to-resist urges of OCD overlap with binge eating, and the two co-occur, sharing the impaired inhibitory control of cortico-striatal circuits.
 - `connects-to` → **[Cannabis Use Disorder](../cannabis-use-disorder/README.md)** — Some self-medicate intrusive thoughts: cannabis is used by some with OCD to dampen anxiety and obsessions, a self-medication that can foster dependence while heavy use may worsen the underlying symptoms.
 - `connects-to` → **[Epilepsy](../epilepsy/README.md)** — Temporal-lobe circuits can generate both: obsessive-compulsive symptoms are over-represented in epilepsy, especially temporal-lobe epilepsy, reflecting shared limbic and cortico-striatal dysfunction.
+- `connects-to` → **[Migraine](../migraine/README.md)** — Headache keeps company with the disorder: OCD shows elevated comorbidity with migraine, the two sharing serotonergic dysregulation and a tendency toward chronic, recurrent symptom patterns.
+- `connects-to` → **[Atopic Dermatitis](../atopic-dermatitis/README.md)** — Compulsive scratching meets chronic itch: OCD-spectrum skin-picking and the relentless itch of atopic dermatitis reinforce each other, and the two conditions co-occur more than chance.
+- `connects-to` → **[Obesity](../obesity/README.md)** — Its long-term medications add weight: the high-dose SSRIs and antipsychotic augmentation used in OCD promote weight gain, contributing to obesity over years of treatment.
 
 [^abramowitz-2009-ocd-review]: Abramowitz JS, Taylor S, McKay D. Obsessive-compulsive disorder. *Lancet.* 2009;374(9688):491-499. [doi:10.1016/S0140-6736(09)60240-3](https://doi.org/10.1016/S0140-6736(09)60240-3) · [PubMed 19665647](https://pubmed.ncbi.nlm.nih.gov/19665647/)
 [^chamberlain-2008-ocd-neuroscience]: Chamberlain SR, Menzies L, Hampshire A, et al. Orbitofrontal dysfunction in patients with OCD and their unaffected relatives. *Science.* 2008;321(5887):421-422. [doi:10.1126/science.1154433](https://doi.org/10.1126/science.1154433) · [PubMed 18635808](https://pubmed.ncbi.nlm.nih.gov/18635808/)

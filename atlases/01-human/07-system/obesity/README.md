@@ -199,6 +199,15 @@ cross_links:
   - target: 01-human/07-system/asthma
     relation: connects-to
     note: "Weight reshapes the airways: obesity drives a distinct, often steroid-resistant asthma phenotype through mechanical restriction of the chest and adipokine-driven airway inflammation, worsening control."
+  - target: 01-human/07-system/esophageal-cancer
+    relation: connects-to
+    note: "Reflux from excess weight scars toward cancer: central obesity promotes acid reflux and Barrett's esophagus, the precursor lesion behind the rising incidence of esophageal adenocarcinoma."
+  - target: 01-human/07-system/pancreatic-cancer
+    relation: connects-to
+    note: "It is an established pancreatic-cancer risk: obesity's chronic inflammation, hyperinsulinemia and altered adipokines raise the risk of pancreatic adenocarcinoma and worsen its outcomes."
+  - target: 01-human/07-system/pulmonary-arterial-hypertension
+    relation: connects-to
+    note: "Severe obesity can pressurize the lungs: obesity-hypoventilation and obstructive sleep apnea cause chronic hypoxia that constricts the pulmonary vasculature, contributing to pulmonary hypertension."
 ---
 
 # Obesity
@@ -399,6 +408,9 @@ This **metainflammation** mechanistically links obesity to type 2 diabetes, athe
 - `connects-to` → **[Renal Cell Carcinoma](../renal-cell-carcinoma/README.md)** — Excess fat fuels a kidney cancer: obesity is a major modifiable risk factor for renal cell carcinoma, acting through insulin/IGF signaling, adipokines and chronic inflammation that promote renal tumorigenesis.
 - `connects-to` → **[Psoriasis](../psoriasis/README.md)** — Fat is an inflammatory organ that feeds the plaques: adipose-derived TNF-α and IL-6 worsen psoriasis, so obesity raises its incidence and severity and blunts treatment response, a bidirectional inflammatory link.
 - `connects-to` → **[Asthma](../asthma/README.md)** — Weight reshapes the airways: obesity drives a distinct, often steroid-resistant asthma phenotype through mechanical restriction of the chest and adipokine-driven airway inflammation, worsening control.
+- `connects-to` → **[Esophageal Cancer](../esophageal-cancer/README.md)** — Reflux from excess weight scars toward cancer: central obesity promotes acid reflux and Barrett's esophagus, the precursor lesion behind the rising incidence of esophageal adenocarcinoma.
+- `connects-to` → **[Pancreatic Cancer](../pancreatic-cancer/README.md)** — It is an established pancreatic-cancer risk: obesity's chronic inflammation, hyperinsulinemia and altered adipokines raise the risk of pancreatic adenocarcinoma and worsen its outcomes.
+- `connects-to` → **[Pulmonary Arterial Hypertension](../pulmonary-arterial-hypertension/README.md)** — Severe obesity can pressurize the lungs: obesity-hypoventilation and obstructive sleep apnea cause chronic hypoxia that constricts the pulmonary vasculature, contributing to pulmonary hypertension.
 
 [^bluher-2019-obesity-review]: Blüher M. Obesity: global epidemiology and pathogenesis. *Nat Rev Endocrinol.* 2019;15(5):288-298. [doi:10.1038/s41574-019-0176-8](https://doi.org/10.1038/s41574-019-0176-8) · [PubMed 30814686](https://pubmed.ncbi.nlm.nih.gov/30814686/)
 [^wilding-2021-semaglutide-step1]: Wilding JPH, Batterham RL, Calanna S, et al. Once-weekly semaglutide in adults with overweight or obesity. *N Engl J Med.* 2021;384(11):989-1002. [doi:10.1056/NEJMoa2032183](https://doi.org/10.1056/NEJMoa2032183) · [PubMed 33567185](https://pubmed.ncbi.nlm.nih.gov/33567185/)
