@@ -195,6 +195,15 @@ cross_links:
   - target: 01-human/07-system/major-depressive-disorder
     relation: connects-to
     note: "Its neurological aftermath darkens mood: survivors of cerebral and severe malaria carry higher rates of depression and cognitive sequelae, from the brain injury itself and the burden of recurrent, debilitating illness."
+  - target: 02-pathogen/02-bacteria/salmonella-typhi
+    relation: connects-to
+    note: "It opens the door to invasive Salmonella: malaria classically predisposes to non-typhoidal and typhoidal Salmonella bloodstream infection, through hemolysis-impaired macrophage function and gut barrier breakdown."
+  - target: 01-human/07-system/sepsis
+    relation: connects-to
+    note: "Severe malaria blurs into sepsis: high parasite loads with cytokine storm, and frequent gram-negative bacterial co-infection, produce a septic-shock picture that drives much of malaria's mortality."
+  - target: 01-human/07-system/ptsd
+    relation: connects-to
+    note: "Surviving a life-threatening attack can scar the mind: the terror of cerebral malaria, intensive-care treatment and recurrent severe episodes can leave post-traumatic stress in survivors and families."
 ---
 
 # Malaria
@@ -412,6 +421,9 @@ cross_links:
 - `connects-to` → **[Epilepsy](../epilepsy/README.md)** — Cerebral malaria scars the brain into seizures: the microvascular brain injury of cerebral malaria, especially in children, causes acute seizures and leaves many survivors with epilepsy and lasting neurocognitive impairment.
 - `connects-to` → **[Heart Failure](../heart-failure/README.md)** — Profound anemia overworks the heart: the massive red-cell destruction of severe malaria can drop hemoglobin so low that the heart must pump in overdrive, precipitating high-output cardiac failure in vulnerable patients.
 - `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — Its neurological aftermath darkens mood: survivors of cerebral and severe malaria carry higher rates of depression and cognitive sequelae, from the brain injury itself and the burden of recurrent, debilitating illness.
+- `connects-to` → **[Salmonella Typhi](../../../02-pathogen/02-bacteria/salmonella-typhi/README.md)** — It opens the door to invasive Salmonella: malaria classically predisposes to non-typhoidal and typhoidal Salmonella bloodstream infection, through hemolysis-impaired macrophage function and gut barrier breakdown.
+- `connects-to` → **[Sepsis](../sepsis/README.md)** — Severe malaria blurs into sepsis: high parasite loads with cytokine storm, and frequent gram-negative bacterial co-infection, produce a septic-shock picture that drives much of malaria's mortality.
+- `connects-to` → **[PTSD](../ptsd/README.md)** — Surviving a life-threatening attack can scar the mind: the terror of cerebral malaria, intensive-care treatment and recurrent severe episodes can leave post-traumatic stress in survivors and families.
 
 [^who-malaria-report-2023]: World Health Organization. World Malaria Report 2023. WHO; 2023.
 [^white-2014-malaria-lancet]: White NJ, Pukrittayakamee S, Hien TT, et al. Malaria. *Lancet.* 2014;383(9918):723-735. [doi:10.1016/S0140-6736(13)60024-0](https://doi.org/10.1016/S0140-6736(13)60024-0) · [PubMed 23953767](https://pubmed.ncbi.nlm.nih.gov/23953767/)

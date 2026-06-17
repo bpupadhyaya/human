@@ -190,6 +190,15 @@ cross_links:
   - target: 01-human/07-system/heart-failure
     relation: connects-to
     note: "Its old drugs are hard on the heart: pentavalent antimonials used for leishmaniasis cause QT prolongation and cardiotoxicity, and profound anemia of advanced visceral disease can drive high-output cardiac strain."
+  - target: 01-human/07-system/wound-healing
+    relation: connects-to
+    note: "Its skin lesions ulcerate and scar: cutaneous leishmaniasis produces chronic non-healing ulcers, and the mucocutaneous form destroys nasal and oral tissue, leaving disfiguring scars that heal slowly."
+  - target: 01-human/07-system/disseminated-intravascular-coagulation
+    relation: connects-to
+    note: "Advanced visceral disease can derange clotting: severe kala-azar with its hepatosplenic involvement, thrombocytopenia and secondary sepsis can tip into disseminated intravascular coagulation and bleeding."
+  - target: 01-human/07-system/major-depressive-disorder
+    relation: connects-to
+    note: "A disfiguring, chronic disease weighs on the mind: the visible scarring of cutaneous and mucocutaneous leishmaniasis and the debilitating course of visceral disease carry stigma and contribute to depression."
 ---
 
 # Leishmaniasis
@@ -349,3 +358,6 @@ HIV-VL co-infection: CD4+ depletion → loss of IFN-γ production → *Leishmani
 - `connects-to` → **[Chronic Kidney Disease](../ckd/README.md)** — Both disease and drug strain the kidney: visceral leishmaniasis can deposit immune complexes in the glomeruli, and amphotericin B — its mainstay treatment — is nephrotoxic, together threatening chronic kidney injury.
 - `connects-to` → **[Pneumocystis jirovecii](../../../02-pathogen/03-fungi/pneumocystis-jirovecii/README.md)** — It deepens immune collapse: visceral leishmaniasis, especially with HIV co-infection, profoundly suppresses cellular immunity, opening the door to opportunistic infections like Pneumocystis pneumonia.
 - `connects-to` → **[Heart Failure](../heart-failure/README.md)** — Its old drugs are hard on the heart: pentavalent antimonials used for leishmaniasis cause QT prolongation and cardiotoxicity, and profound anemia of advanced visceral disease can drive high-output cardiac strain.
+- `connects-to` → **[Wound Healing](../wound-healing/README.md)** — Its skin lesions ulcerate and scar: cutaneous leishmaniasis produces chronic non-healing ulcers, and the mucocutaneous form destroys nasal and oral tissue, leaving disfiguring scars that heal slowly.
+- `connects-to` → **[Disseminated Intravascular Coagulation](../disseminated-intravascular-coagulation/README.md)** — Advanced visceral disease can derange clotting: severe kala-azar with its hepatosplenic involvement, thrombocytopenia and secondary sepsis can tip into disseminated intravascular coagulation and bleeding.
+- `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — A disfiguring, chronic disease weighs on the mind: the visible scarring of cutaneous and mucocutaneous leishmaniasis and the debilitating course of visceral disease carry stigma and contribute to depression.
