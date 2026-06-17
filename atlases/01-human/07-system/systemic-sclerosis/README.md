@@ -202,6 +202,15 @@ cross_links:
   - target: 01-human/07-system/major-depressive-disorder
     relation: connects-to
     note: "A disfiguring, progressive disease wears on mood: the visible skin tightening, disability, pain and poor prognosis of systemic sclerosis substantially impair quality of life and carry high rates of depression."
+  - target: 01-human/07-system/integumentary-system
+    relation: connects-to
+    note: "The skin is its defining organ: systemic sclerosis hardens and thickens the skin through excess collagen, with sclerodactyly, calcinosis, telangiectasia and Raynaud's, the visible hallmark of the disease."
+  - target: 01-human/07-system/wound-healing
+    relation: connects-to
+    note: "Fibrosis and ischaemia cripple healing: the Raynaud's and microvascular damage of systemic sclerosis cause painful digital ulcers over the fingertips that are notoriously slow to heal and can gangrene."
+  - target: 01-human/07-system/generalized-anxiety-disorder
+    relation: connects-to
+    note: "A progressive, disfiguring multi-organ disease breeds worry: the relentless skin and organ involvement, painful ulcers and uncertain prognosis of systemic sclerosis foster chronic health anxiety alongside depression."
 ---
 
 # Systemic Sclerosis
@@ -377,6 +386,9 @@ Identical to IPAH: medial hypertrophy, intimal fibrosis, concentric laminar inti
 - `connects-to` → **[Stroke](../stroke/README.md)** — Its vasculopathy reaches the brain's arteries: the obliterative small-vessel disease and accelerated atherosclerosis of systemic sclerosis extend beyond the skin and lungs, raising the long-term risk of ischemic stroke.
 - `connects-to` → **[Aspergillus fumigatus](../../../02-pathogen/03-fungi/aspergillus-fumigatus/README.md)** — Its lung disease and immunosuppression invite mold: scleroderma-associated interstitial lung disease, treated with mycophenolate, cyclophosphamide or rituximab, leaves scarred and immune-suppressed lungs vulnerable to invasive aspergillosis.
 - `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — A disfiguring, progressive disease wears on mood: the visible skin tightening, disability, pain and poor prognosis of systemic sclerosis substantially impair quality of life and carry high rates of depression.
+- `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — The skin is its defining organ: systemic sclerosis hardens and thickens the skin through excess collagen, with sclerodactyly, calcinosis, telangiectasia and Raynaud's, the visible hallmark of the disease.
+- `connects-to` → **[Wound Healing](../wound-healing/README.md)** — Fibrosis and ischaemia cripple healing: the Raynaud's and microvascular damage of systemic sclerosis cause painful digital ulcers over the fingertips that are notoriously slow to heal and can gangrene.
+- `connects-to` → **[Generalized Anxiety Disorder](../generalized-anxiety-disorder/README.md)** — A progressive, disfiguring multi-organ disease breeds worry: the relentless skin and organ involvement, painful ulcers and uncertain prognosis of systemic sclerosis foster chronic health anxiety alongside depression.
 
 [^denton-2017-ssc-review]: Denton CP, Khanna D. Systemic sclerosis. *Lancet.* 2017;390(10103):1685-1699. [doi:10.1016/S0140-6736(17)30933-9](https://doi.org/10.1016/S0140-6736(17)30933-9) · [PubMed 28413064](https://pubmed.ncbi.nlm.nih.gov/28413064/)
 [^distler-2019-nintedanib-senscis]: Distler O, Highland KB, Gahlemann M, et al. Nintedanib for Systemic Sclerosis-Associated Interstitial Lung Disease. *N Engl J Med.* 2019;380(26):2518-2528. [doi:10.1056/NEJMoa1903076](https://doi.org/10.1056/NEJMoa1903076) · [PubMed 31112379](https://pubmed.ncbi.nlm.nih.gov/31112379/)

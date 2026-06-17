@@ -202,6 +202,15 @@ cross_links:
   - target: 02-pathogen/03-fungi/pneumocystis-jirovecii
     relation: connects-to
     note: "Rituximab and steroids blunt defense against Pneumocystis: the B-cell depletion and corticosteroids used in immune TTP suppress immunity enough that Pneumocystis pneumonia becomes a risk, sometimes prompting prophylaxis."
+  - target: 02-pathogen/01-viruses/varicella-zoster-virus
+    relation: connects-to
+    note: "Its rituximab reawakens shingles: the B-cell-depleting therapy used to treat and prevent relapse in immune TTP blunts antiviral immunity, allowing latent varicella-zoster to reactivate."
+  - target: 01-human/07-system/digestive-system
+    relation: connects-to
+    note: "Microthrombi starve the gut: the platelet-rich microvascular clots of TTP can lodge in mesenteric and pancreatic vessels, causing abdominal pain, pancreatitis and bowel ischaemia."
+  - target: 01-human/07-system/generalized-anxiety-disorder
+    relation: connects-to
+    note: "A sudden, relapsing, life-threatening illness breeds worry: the abrupt onset, risk of relapse and need for ongoing monitoring in TTP foster chronic health anxiety alongside the PTSD and depression it can leave."
 ---
 
 # Thrombotic Thrombocytopenic Purpura
@@ -418,6 +427,9 @@ In healthy individuals, ADAMTS13 (~190 kDa plasma glycoprotein; hepatic synthesi
 - `connects-to` → **[PTSD](../ptsd/README.md)** — A sudden life-threatening, relapsing illness can scar the mind: surviving acute TTP and living under the threat of relapse leaves many patients with post-traumatic stress symptoms, a recognized psychological aftermath of the disease.
 - `connects-to` → **[Hepatitis B virus](../../../02-pathogen/01-viruses/hepatitis-b-virus/README.md)** — Its rituximab can reactivate dormant hepatitis B: the anti-CD20 antibody used to treat and prevent relapse in immune TTP depletes B cells, so screening and antiviral prophylaxis for hepatitis B precede therapy.
 - `connects-to` → **[Pneumocystis jirovecii](../../../02-pathogen/03-fungi/pneumocystis-jirovecii/README.md)** — Rituximab and steroids blunt defense against Pneumocystis: the B-cell depletion and corticosteroids used in immune TTP suppress immunity enough that Pneumocystis pneumonia becomes a risk, sometimes prompting prophylaxis.
+- `connects-to` → **[Varicella-Zoster Virus](../../../02-pathogen/01-viruses/varicella-zoster-virus/README.md)** — Its rituximab reawakens shingles: the B-cell-depleting therapy used to treat and prevent relapse in immune TTP blunts antiviral immunity, allowing latent varicella-zoster to reactivate.
+- `connects-to` → **[Digestive System](../digestive-system/README.md)** — Microthrombi starve the gut: the platelet-rich microvascular clots of TTP can lodge in mesenteric and pancreatic vessels, causing abdominal pain, pancreatitis and bowel ischaemia.
+- `connects-to` → **[Generalized Anxiety Disorder](../generalized-anxiety-disorder/README.md)** — A sudden, relapsing, life-threatening illness breeds worry: the abrupt onset, risk of relapse and need for ongoing monitoring in TTP foster chronic health anxiety alongside the PTSD and depression it can leave.
 
 ---
 
