@@ -187,6 +187,15 @@ cross_links:
   - target: 01-human/07-system/sepsis
     relation: connects-to
     note: "Brainstem failure routes food to the lungs: as the tumor disables swallowing and airway protection, aspiration pneumonia becomes common, and it with the immunosuppression of high-dose steroids can progress to sepsis."
+  - target: 01-human/07-system/stroke
+    relation: connects-to
+    note: "Its radiation can scar the brain's vessels: the high-dose radiotherapy that is the mainstay of palliation for diffuse midline glioma injures cerebral vessels, causing a delayed vasculopathy and stroke risk in longer survivors."
+  - target: 01-human/07-system/major-depressive-disorder
+    relation: connects-to
+    note: "An almost uniformly fatal childhood tumor devastates: the relentless brainstem decline and dismal prognosis of diffuse midline glioma impose profound depression and grief on patients and families."
+  - target: 01-human/07-system/anemia-of-chronic-disease
+    relation: connects-to
+    note: "Advanced disease and its therapy blunt the marrow: progressive tumor burden with its inflammation, plus any chemotherapy and radiation, depress erythropoiesis into an anemia of chronic disease late in the course."
 ---
 
 # Diffuse Midline Glioma
@@ -382,6 +391,9 @@ Direct infusion of drugs into the pons via stereotactic catheter; bypasses BBB; 
 - `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — STAT3 supports the H3K27M-driven tumor: diffuse midline glioma cells show STAT3 activation that backs proliferation and immune evasion, a pathway studied for this almost uniformly fatal childhood brainstem tumor.
 - `connects-to` → **[Venous Thromboembolism](../venous-thromboembolism/README.md)** — Brain tumors are strongly prothrombotic: like other high-grade gliomas, diffuse midline glioma raises venous thromboembolism risk through tumor tissue factor and the immobility that progressive brainstem disease brings.
 - `connects-to` → **[Sepsis](../sepsis/README.md)** — Brainstem failure routes food to the lungs: as the tumor disables swallowing and airway protection, aspiration pneumonia becomes common, and it with the immunosuppression of high-dose steroids can progress to sepsis.
+- `connects-to` → **[Stroke](../stroke/README.md)** — Its radiation can scar the brain's vessels: the high-dose radiotherapy that is the mainstay of palliation for diffuse midline glioma injures cerebral vessels, causing a delayed vasculopathy and stroke risk in longer survivors.
+- `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — An almost uniformly fatal childhood tumor devastates: the relentless brainstem decline and dismal prognosis of diffuse midline glioma impose profound depression and grief on patients and families.
+- `connects-to` → **[Anemia of Chronic Disease](../anemia-of-chronic-disease/README.md)** — Advanced disease and its therapy blunt the marrow: progressive tumor burden with its inflammation, plus any chemotherapy and radiation, depress erythropoiesis into an anemia of chronic disease late in the course.
 
 ---
 

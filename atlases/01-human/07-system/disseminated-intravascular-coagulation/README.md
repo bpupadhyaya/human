@@ -193,6 +193,15 @@ cross_links:
   - target: 01-human/07-system/venous-thromboembolism
     relation: connects-to
     note: "Beyond the microclots, large veins can clot too: the systemic hypercoagulable drive of DIC raises the risk of macrovascular venous thromboembolism even as consumption of factors paradoxically causes bleeding."
+  - target: 01-human/07-system/heart-failure
+    relation: connects-to
+    note: "Microthrombi and shock stun the heart: the myocardial microvascular clotting and profound hypotension of DIC's underlying critical illness impair cardiac function, contributing to acute heart failure."
+  - target: 01-human/07-system/pnh
+    relation: connects-to
+    note: "A hemolytic disorder that can tip into it: the complement-driven hemolysis and intense thrombotic state of paroxysmal nocturnal hemoglobinuria can precipitate or overlap with DIC during severe crises."
+  - target: 01-human/07-system/major-depressive-disorder
+    relation: connects-to
+    note: "Surviving the catastrophe leaves a mark: patients who survive the multiorgan failure and ICU course in which DIC arises carry the depression and cognitive sequelae of the post-intensive-care syndrome."
 ---
 
 # Disseminated Intravascular Coagulation
@@ -382,6 +391,9 @@ DIC is always **secondary** — it does not occur in isolation but as a conseque
 - `connects-to` → **[Chronic Kidney Disease](../ckd/README.md)** — Microthrombi shut down the kidney: fibrin clots clogging the glomerular capillaries cause acute kidney injury and, in severe cases, renal cortical necrosis that can leave lasting chronic kidney disease.
 - `connects-to` → **[Acute Respiratory Distress Syndrome](../../06-organ/ards/README.md)** — The lungs fill with microclots and fluid: pulmonary microthrombi and the shared sepsis inflammation make DIC a frequent companion of acute respiratory distress syndrome, each worsening the other.
 - `connects-to` → **[Venous Thromboembolism](../venous-thromboembolism/README.md)** — Beyond the microclots, large veins can clot too: the systemic hypercoagulable drive of DIC raises the risk of macrovascular venous thromboembolism even as consumption of factors paradoxically causes bleeding.
+- `connects-to` → **[Heart Failure](../heart-failure/README.md)** — Microthrombi and shock stun the heart: the myocardial microvascular clotting and profound hypotension of DIC's underlying critical illness impair cardiac function, contributing to acute heart failure.
+- `connects-to` → **[Paroxysmal Nocturnal Hemoglobinuria](../pnh/README.md)** — A hemolytic disorder that can tip into it: the complement-driven hemolysis and intense thrombotic state of paroxysmal nocturnal hemoglobinuria can precipitate or overlap with DIC during severe crises.
+- `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — Surviving the catastrophe leaves a mark: patients who survive the multiorgan failure and ICU course in which DIC arises carry the depression and cognitive sequelae of the post-intensive-care syndrome.
 
 ---
 
