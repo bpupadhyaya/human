@@ -178,6 +178,15 @@ cross_links:
   - target: 01-human/07-system/venous-thromboembolism
     relation: connects-to
     note: "Its tumors and thick blood favor clotting: VHL drives clear-cell renal cancer and EPO-driven polycythemia, both of which raise blood viscosity and cancer-associated hypercoagulability, increasing thrombosis risk."
+  - target: 01-human/07-system/epilepsy
+    relation: connects-to
+    note: "Its brain tumors and their surgery can spark seizures: CNS hemangioblastomas and the repeated neurosurgery they require can irritate the cortex into a seizure focus, adding epilepsy to the neurological toll of VHL."
+  - target: 01-human/07-system/major-depressive-disorder
+    relation: connects-to
+    note: "A lifetime of surveillance wears on the mind: living with VHL's lifelong scans, repeated tumor surgeries and the inherited risk of multiple cancers across organs carries a heavy psychological burden and high rates of depression."
+  - target: 01-human/07-system/sepsis
+    relation: connects-to
+    note: "Repeated major surgery invites infection: the recurrent neurosurgery for hemangioblastomas and nephron-sparing operations for renal tumors that VHL demands carry cumulative perioperative risk of serious infection and sepsis."
 ---
 
 # VHL Disease
@@ -353,6 +362,9 @@ The genotype-phenotype correlation reflects the degree of pVHL function retained
 - `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — Lost pVHL turns on STAT3: in VHL-deficient cells HIF stabilization and STAT3 activation cooperate to drive the proliferation and vascular growth of clear-cell renal cancers and hemangioblastomas.
 - `connects-to` → **[NF-κB](../../03-molecular/nf-kb/README.md)** — pVHL normally restrains NF-κB: the von Hippel-Lindau protein suppresses NF-κB signaling, so its loss lifts that brake and adds pro-survival, pro-inflammatory signaling to the HIF-driven growth of VHL tumors.
 - `connects-to` → **[Venous Thromboembolism](../venous-thromboembolism/README.md)** — Its tumors and thick blood favor clotting: VHL drives clear-cell renal cancer and EPO-driven polycythemia, both of which raise blood viscosity and cancer-associated hypercoagulability, increasing thrombosis risk.
+- `connects-to` → **[Epilepsy](../epilepsy/README.md)** — Its brain tumors and their surgery can spark seizures: CNS hemangioblastomas and the repeated neurosurgery they require can irritate the cortex into a seizure focus, adding epilepsy to the neurological toll of VHL.
+- `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — A lifetime of surveillance wears on the mind: living with VHL's lifelong scans, repeated tumor surgeries and the inherited risk of multiple cancers across organs carries a heavy psychological burden and high rates of depression.
+- `connects-to` → **[Sepsis](../sepsis/README.md)** — Repeated major surgery invites infection: the recurrent neurosurgery for hemangioblastomas and nephron-sparing operations for renal tumors that VHL demands carry cumulative perioperative risk of serious infection and sepsis.
 
 [^lonser-2003-vhl-disease]: Lonser RR, Glenn GM, Walther M, et al. von Hippel-Lindau disease. *Lancet.* 2003;361(9374):2059-2067. [doi:10.1016/S0140-6736(03)13643-4](https://doi.org/10.1016/S0140-6736(03)13643-4) · [PubMed 12814730](https://pubmed.ncbi.nlm.nih.gov/12814730/)
 [^choueiri-2020-hif2-rcc]: Choueiri TK, Kaelin WG Jr. Targeting the HIF2-VEGF axis in renal cell carcinoma. *Nat Med.* 2020;26(10):1519-1530. [doi:10.1038/s41591-020-1093-z](https://doi.org/10.1038/s41591-020-1093-z) · [PubMed 33020650](https://pubmed.ncbi.nlm.nih.gov/33020650/)

@@ -178,6 +178,15 @@ cross_links:
   - target: 01-human/07-system/venous-thromboembolism
     relation: connects-to
     note: "Liver-metastatic disease raises clot risk: like other advanced solid cancers, metastatic uveal melanoma carries tumor-driven hypercoagulability that increases deep-vein thrombosis and pulmonary embolism risk."
+  - target: 01-human/07-system/cytokine-storm
+    relation: connects-to
+    note: "Its breakthrough drug ignites one: tebentafusp, the first therapy to extend survival in metastatic uveal melanoma, is a T-cell engager that commonly triggers cytokine release syndrome — fever, hypotension and rash — needing close monitoring early in treatment."
+  - target: 01-human/07-system/anemia-of-chronic-disease
+    relation: connects-to
+    note: "Liver replacement and inflammation drag down the count: the near-universal hepatic metastases of advanced uveal melanoma, with their inflammatory burden and crowding of marrow and liver, produce an anemia of chronic disease in progressive cases."
+  - target: 01-human/07-system/major-depressive-disorder
+    relation: connects-to
+    note: "Losing an eye and facing the liver verdict weigh heavily: enucleation or vision loss plus the knowledge that monosomy-3 disease carries a high risk of fatal liver metastasis impose a substantial psychological burden and depression."
 ---
 
 # Uveal Melanoma
@@ -368,6 +377,9 @@ Uveal melanocytes are neural crest-derived, residing in the uveal stroma and mai
 - `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — STAT3 runs downstream of the driver mutation: GNAQ/GNA11 signaling activates STAT3, which supports uveal melanoma proliferation and immune evasion — one of the hubs explored for therapy in a tumor that resists checkpoint drugs.
 - `connects-to` → **[NF-κB](../../03-molecular/nf-kb/README.md)** — NF-κB helps it dodge immunity: the inflammatory, monosomy-3 uveal melanomas show NF-κB-driven signaling that shapes their immunosuppressive microenvironment, part of why these tumors respond poorly to standard immunotherapy.
 - `connects-to` → **[Venous Thromboembolism](../venous-thromboembolism/README.md)** — Liver-metastatic disease raises clot risk: like other advanced solid cancers, metastatic uveal melanoma carries tumor-driven hypercoagulability that increases deep-vein thrombosis and pulmonary embolism risk.
+- `connects-to` → **[Cytokine Storm](../cytokine-storm/README.md)** — Its breakthrough drug ignites one: tebentafusp, the first therapy to extend survival in metastatic uveal melanoma, is a T-cell engager that commonly triggers cytokine release syndrome — fever, hypotension and rash — needing close monitoring early in treatment.
+- `connects-to` → **[Anemia of Chronic Disease](../anemia-of-chronic-disease/README.md)** — Liver replacement and inflammation drag down the count: the near-universal hepatic metastases of advanced uveal melanoma, with their inflammatory burden and crowding of marrow and liver, produce an anemia of chronic disease in progressive cases.
+- `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — Losing an eye and facing the liver verdict weigh heavily: enucleation or vision loss plus the knowledge that monosomy-3 disease carries a high risk of fatal liver metastasis impose a substantial psychological burden and depression.
 
 ---
 
