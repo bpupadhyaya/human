@@ -178,6 +178,15 @@ cross_links:
   - target: 01-human/07-system/venous-thromboembolism
     relation: connects-to
     note: "Brain tumor and immobility clot the veins: like other CNS malignancies, PCNSL carries a high venous thromboembolism risk, complicated by the bleeding concern of anticoagulating a brain lesion."
+  - target: 02-pathogen/04-parasites/toxoplasma-gondii
+    relation: connects-to
+    note: "Its great mimic in AIDS is a parasite: a ring-enhancing brain lesion in an immunocompromised patient forces the distinction between PCNSL and cerebral toxoplasmosis, sometimes settled only by EBV PCR, thallium scan or biopsy."
+  - target: 01-human/07-system/epilepsy
+    relation: connects-to
+    note: "A brain mass can spark seizures: PCNSL infiltrating the cerebral cortex can irritate it into seizures, part of the neurological presentation alongside cognitive and focal deficits."
+  - target: 01-human/07-system/ckd
+    relation: connects-to
+    note: "Its mainstay drug is hard on the kidneys: high-dose methotrexate, the backbone of PCNSL therapy, is nephrotoxic and itself cleared renally, so impaired or injured kidneys both threaten and are threatened by treatment."
 ---
 
 # Primary CNS Lymphoma
@@ -345,6 +354,9 @@ Score 0-1: 2-year OS ~80%; Score 2-3: ~48%; Score 4-5: ~15%
 - `connects-to` → **[Cytokine Storm](../cytokine-storm/README.md)** — CAR-T against PCNSL can storm the brain: CD19 CAR-T therapy for refractory CNS lymphoma triggers cytokine release syndrome and ICANS neurotoxicity, a particular hazard when the tumor sits within the brain itself.
 - `connects-to` → **[Sepsis](../sepsis/README.md)** — Deep immunosuppression invites infection: high-dose methotrexate, the steroids it accompanies, and the disease's frequent HIV/immune-deficient context leave PCNSL patients prone to opportunistic infection and sepsis.
 - `connects-to` → **[Venous Thromboembolism](../venous-thromboembolism/README.md)** — Brain tumor and immobility clot the veins: like other CNS malignancies, PCNSL carries a high venous thromboembolism risk, complicated by the bleeding concern of anticoagulating a brain lesion.
+- `connects-to` → **[Toxoplasma gondii](../../../02-pathogen/04-parasites/toxoplasma-gondii/README.md)** — Its great mimic in AIDS is a parasite: a ring-enhancing brain lesion in an immunocompromised patient forces the distinction between PCNSL and cerebral toxoplasmosis, sometimes settled only by EBV PCR, thallium scan or biopsy.
+- `connects-to` → **[Epilepsy](../epilepsy/README.md)** — A brain mass can spark seizures: PCNSL infiltrating the cerebral cortex can irritate it into seizures, part of the neurological presentation alongside cognitive and focal deficits.
+- `connects-to` → **[Chronic Kidney Disease](../ckd/README.md)** — Its mainstay drug is hard on the kidneys: high-dose methotrexate, the backbone of PCNSL therapy, is nephrotoxic and itself cleared renally, so impaired or injured kidneys both threaten and are threatened by treatment.
 
 [^bromberg-2019-hovon105]: Bromberg JE, Issa S, Bakunina K, et al. Rituximab in patients with primary CNS lymphoma (HOVON 105/ALLG NHL 24): a randomised, open-label, phase 3 intergroup study. *Lancet Oncol.* 2019;20(2):216-228. [doi:10.1016/S1470-2045(18)30747-2](https://doi.org/10.1016/S1470-2045(18)30747-2) · [PubMed 30528440](https://pubmed.ncbi.nlm.nih.gov/30528440/)
 [^grommes-2017-ibrutinib-pcnsl]: Grommes C, Pastore A, Palaskas N, et al. Ibrutinib unmasks critical role of Bruton tyrosine kinase in primary CNS lymphoma. *Cancer Cell.* 2017;31(6):833-843. [doi:10.1016/j.ccell.2017.04.012](https://doi.org/10.1016/j.ccell.2017.04.012) · [PubMed 28552327](https://pubmed.ncbi.nlm.nih.gov/28552327/)
