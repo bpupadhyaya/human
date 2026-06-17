@@ -196,6 +196,15 @@ cross_links:
   - target: 01-human/07-system/sepsis
     relation: connects-to
     note: "Heavy drinking cripples the body's defenses: alcohol impairs neutrophil and macrophage function and, with aspiration and cirrhosis, leaves patients prone to pneumonia, spontaneous bacterial peritonitis and sepsis."
+  - target: 01-human/07-system/pancreatic-cancer
+    relation: connects-to
+    note: "Repeated pancreatitis paves the way to cancer: heavy alcohol use is a leading cause of chronic pancreatitis, and the resulting long-standing inflammation raises the risk of pancreatic adenocarcinoma."
+  - target: 01-human/07-system/heart-failure
+    relation: connects-to
+    note: "Chronic drinking can dilate the heart: sustained heavy alcohol use causes an alcoholic cardiomyopathy, a dilated, weakened heart that is a recognized and partly reversible cause of heart failure."
+  - target: 01-human/07-system/ckd
+    relation: connects-to
+    note: "It harms the kidney directly and through the liver: heavy alcohol drives hypertension and, in cirrhosis, hepatorenal physiology, while binge drinking can cause rhabdomyolysis — together threatening chronic kidney disease."
 ---
 
 # Alcohol Use Disorder
@@ -435,6 +444,9 @@ Prenatal alcohol exposure → leading preventable cause of intellectual disabili
 - `connects-to` → **[NF-κB](../../03-molecular/nf-kb/README.md)** — Alcohol throws the inflammation switch in liver and brain: ethanol and gut-derived endotoxin activate NF-κB in Kupffer cells and microglia, driving the alcoholic hepatitis and neuroinflammation behind much of the organ damage.
 - `connects-to` → **[Nervous System](../nervous-system/README.md)** — It corrodes the nervous system on many fronts: beyond intoxication, alcohol drives withdrawal seizures, thiamine-deficient Wernicke-Korsakoff encephalopathy, cerebellar degeneration and peripheral neuropathy.
 - `connects-to` → **[Sepsis](../sepsis/README.md)** — Heavy drinking cripples the body's defenses: alcohol impairs neutrophil and macrophage function and, with aspiration and cirrhosis, leaves patients prone to pneumonia, spontaneous bacterial peritonitis and sepsis.
+- `connects-to` → **[Pancreatic Cancer](../pancreatic-cancer/README.md)** — Repeated pancreatitis paves the way to cancer: heavy alcohol use is a leading cause of chronic pancreatitis, and the resulting long-standing inflammation raises the risk of pancreatic adenocarcinoma.
+- `connects-to` → **[Heart Failure](../heart-failure/README.md)** — Chronic drinking can dilate the heart: sustained heavy alcohol use causes an alcoholic cardiomyopathy, a dilated, weakened heart that is a recognized and partly reversible cause of heart failure.
+- `connects-to` → **[Chronic Kidney Disease](../ckd/README.md)** — It harms the kidney directly and through the liver: heavy alcohol drives hypertension and, in cirrhosis, hepatorenal physiology, while binge drinking can cause rhabdomyolysis — together threatening chronic kidney disease.
 
 [^koob-2013-addiction-neuroscience]: Koob GF, Volkow ND. Neurocircuitry of addiction. *Neuropsychopharmacology.* 2010;35(1):217-238. [doi:10.1038/npp.2009.110](https://doi.org/10.1038/npp.2009.110) · [PubMed 19710631](https://pubmed.ncbi.nlm.nih.gov/19710631/)
 [^anton-2006-combine]: Anton RF, O'Malley SS, Ciraulo DA, et al. Combined pharmacotherapies and behavioral interventions for alcohol dependence: the COMBINE study. *JAMA.* 2006;295(17):2003-2017. [doi:10.1001/jama.295.17.2003](https://doi.org/10.1001/jama.295.17.2003) · [PubMed 16670409](https://pubmed.ncbi.nlm.nih.gov/16670409/)
