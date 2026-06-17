@@ -190,6 +190,15 @@ cross_links:
   - target: 01-human/07-system/cardiovascular-system
     relation: connects-to
     note: "Standing fear strains the heart over time: the repeated sympathetic surges of social anxiety raise heart rate and blood pressure, and chronic anxiety is linked to higher long-term cardiovascular risk."
+  - target: 01-human/07-system/obesity
+    relation: connects-to
+    note: "Avoidance and comfort eating add weight: the social withdrawal and reduced activity of social anxiety, plus stress-driven eating, contribute to obesity, compounding the disorder's physical-health burden."
+  - target: 01-human/07-system/binge-eating-disorder
+    relation: connects-to
+    note: "Shame can drive secret eating: social anxiety frequently co-occurs with binge eating disorder, where fear of judgment fuels solitary, distressing binges that deepen isolation."
+  - target: 01-human/07-system/fibromyalgia
+    relation: connects-to
+    note: "Anxiety and chronic pain travel together: social anxiety is over-represented in fibromyalgia, the shared central stress-and-pain processing amplifying both the bodily pain and the social fear."
 ---
 
 # Social Anxiety Disorder
@@ -377,6 +386,9 @@ The unique **dopaminergic social reward deficit** in SAD has clinical implicatio
 - `connects-to` → **[NF-κB](../../03-molecular/nf-kb/README.md)** — Chronic social stress leaves an inflammatory trace: the sustained arousal of social anxiety activates NF-κB-driven cytokine signaling, a low-grade inflammation increasingly tied to the disorder's persistence and its physical-health toll.
 - `connects-to` → **[Schizophrenia](../schizophrenia/README.md)** — Social fear shadows psychosis: social anxiety is common in schizophrenia, overlapping its negative symptoms and social withdrawal and sometimes appearing in the prodrome before frank psychosis.
 - `connects-to` → **[Cardiovascular system](../cardiovascular-system/README.md)** — Standing fear strains the heart over time: the repeated sympathetic surges of social anxiety raise heart rate and blood pressure, and chronic anxiety is linked to higher long-term cardiovascular risk.
+- `connects-to` → **[Obesity](../obesity/README.md)** — Avoidance and comfort eating add weight: the social withdrawal and reduced activity of social anxiety, plus stress-driven eating, contribute to obesity, compounding the disorder's physical-health burden.
+- `connects-to` → **[Binge Eating Disorder](../binge-eating-disorder/README.md)** — Shame can drive secret eating: social anxiety frequently co-occurs with binge eating disorder, where fear of judgment fuels solitary, distressing binges that deepen isolation.
+- `connects-to` → **[Fibromyalgia](../fibromyalgia/README.md)** — Anxiety and chronic pain travel together: social anxiety is over-represented in fibromyalgia, the shared central stress-and-pain processing amplifying both the bodily pain and the social fear.
 
 [^liebowitz-1987-sad-scale]: Liebowitz MR. Social phobia. *Mod Probl Pharmacopsychiatry.* 1987;22:141-173. [PubMed 2885745](https://pubmed.ncbi.nlm.nih.gov/2885745/)
 [^stein-2008-sad-review]: Stein MB, Stein DJ. Social anxiety disorder. *Lancet.* 2008;371(9618):1115-1125. [doi:10.1016/S0140-6736(08)60488-2](https://doi.org/10.1016/S0140-6736(08)60488-2) · [PubMed 18374843](https://pubmed.ncbi.nlm.nih.gov/18374843/)

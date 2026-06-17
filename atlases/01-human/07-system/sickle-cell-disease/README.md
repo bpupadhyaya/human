@@ -190,6 +190,15 @@ cross_links:
   - target: 01-human/07-system/hcc
     relation: connects-to
     note: "Transfusions and liver injury raise the cancer stakes: repeated transfusion causes iron overload while intrahepatic sickling damages the liver, and the resulting fibrosis can, over time, give rise to hepatocellular carcinoma."
+  - target: 01-human/07-system/osteoporosis
+    relation: connects-to
+    note: "The marrow and infarcts weaken the skeleton: chronic marrow hyperplasia, bone infarction and delayed growth in sickle cell disease leave low bone density and a high rate of osteoporosis and avascular necrosis."
+  - target: 01-human/07-system/heart-failure
+    relation: connects-to
+    note: "Anemia and iron strain the heart: the chronic high-output state of sickle anemia, transfusional iron loading of the myocardium and pulmonary hypertension together drive a cardiomyopathy and heart failure."
+  - target: 01-human/07-system/opioid-use-disorder
+    relation: connects-to
+    note: "A lifetime of pain crises courts dependence: the recurrent severe vaso-occlusive pain of sickle cell disease requires repeated and long-term opioids, carrying a real risk of tolerance and opioid use disorder."
 ---
 
 # Sickle Cell Disease
@@ -406,6 +415,9 @@ SCD vaso-occlusion is not just from sickled RBCs mechanically blocking vessels �
 - `connects-to` → **[NF-κB](../../03-molecular/nf-kb/README.md)** — Vaso-occlusion runs on NF-κB-driven stickiness: hemolysis and hypoxia activate NF-κB in endothelium and leukocytes, switching on the adhesion molecules that glue sickled cells to vessel walls and ignite the painful crisis.
 - `connects-to` → **[Salmonella typhi](../../../02-pathogen/02-bacteria/salmonella-typhi/README.md)** — A classic pairing of infarcted bone and an unusual bug: in sickle cell disease, Salmonella is the characteristic cause of osteomyelitis, seeding bone made dead by vaso-occlusion in a patient whose spleen no longer clears it.
 - `connects-to` → **[Hepatocellular Carcinoma](../hcc/README.md)** — Transfusions and liver injury raise the cancer stakes: repeated transfusion causes iron overload while intrahepatic sickling damages the liver, and the resulting fibrosis can, over time, give rise to hepatocellular carcinoma.
+- `connects-to` → **[Osteoporosis](../osteoporosis/README.md)** — The marrow and infarcts weaken the skeleton: chronic marrow hyperplasia, bone infarction and delayed growth in sickle cell disease leave low bone density and a high rate of osteoporosis and avascular necrosis.
+- `connects-to` → **[Heart Failure](../heart-failure/README.md)** — Anemia and iron strain the heart: the chronic high-output state of sickle anemia, transfusional iron loading of the myocardium and pulmonary hypertension together drive a cardiomyopathy and heart failure.
+- `connects-to` → **[Opioid Use Disorder](../opioid-use-disorder/README.md)** — A lifetime of pain crises courts dependence: the recurrent severe vaso-occlusive pain of sickle cell disease requires repeated and long-term opioids, carrying a real risk of tolerance and opioid use disorder.
 
 [^steinberg-1999-scd-management]: Steinberg MH. Management of sickle cell disease. *N Engl J Med.* 1999;340(13):1021-1030. [doi:10.1056/NEJM199904013401307](https://doi.org/10.1056/NEJM199904013401307) · [PubMed 10099145](https://pubmed.ncbi.nlm.nih.gov/10099145/)
 [^vichinsky-2000-acs-scd]: Vichinsky EP, Neumayr LD, Earles AN, et al. Causes and outcomes of the acute chest syndrome in sickle cell disease. *N Engl J Med.* 2000;342(25):1855-1865. [doi:10.1056/NEJM200006223422502](https://doi.org/10.1056/NEJM200006223422502) · [PubMed 10861320](https://pubmed.ncbi.nlm.nih.gov/10861320/)
