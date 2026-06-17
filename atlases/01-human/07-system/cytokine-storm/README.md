@@ -196,6 +196,15 @@ cross_links:
   - target: 01-human/07-system/stroke
     relation: connects-to
     note: "Hyperinflammation can strike the brain: endothelial injury, immunothrombosis and the profound hemodynamic swings of a cytokine storm can cause ischemic stroke amid its multiorgan assault."
+  - target: 01-human/07-system/dlbcl
+    relation: connects-to
+    note: "Its treatment is a deliberate trigger: CAR-T cell therapy for DLBCL unleashes a controlled cytokine release syndrome, the iconic iatrogenic cytokine storm managed with the IL-6 blocker tocilizumab."
+  - target: 01-human/07-system/all
+    relation: connects-to
+    note: "Immunotherapy for leukemia ignites it: CAR-T cells and bispecific antibodies against acute lymphoblastic leukemia provoke cytokine release syndrome, a frequent and sometimes severe storm during treatment."
+  - target: 01-human/07-system/major-depressive-disorder
+    relation: connects-to
+    note: "Surviving the storm leaves a mental toll: the critical illness, ICU stay and neuroinflammation of a cytokine storm contribute to the depression and cognitive impairment of post-intensive-care syndrome."
 ---
 
 # Cytokine Storm
@@ -346,6 +355,9 @@ CS drives a **consumptive coagulopathy (DIC)**:
 - `connects-to` → **[Multiple Myeloma](../multiple-myeloma/README.md)** — Its cellular therapy can ignite the storm: the CAR-T-cell and bispecific-antibody treatments for multiple myeloma and other blood cancers commonly trigger cytokine release syndrome, the iatrogenic face of a cytokine storm.
 - `connects-to` → **[Heart Failure](../heart-failure/README.md)** — The flood of cytokines stuns the heart: TNF-α, IL-6 and nitric oxide depress myocardial contractility during a cytokine storm, causing an acute, often reversible cardiac dysfunction that worsens the shock.
 - `connects-to` → **[Stroke](../stroke/README.md)** — Hyperinflammation can strike the brain: endothelial injury, immunothrombosis and the profound hemodynamic swings of a cytokine storm can cause ischemic stroke amid its multiorgan assault.
+- `connects-to` → **[DLBCL](../dlbcl/README.md)** — Its treatment is a deliberate trigger: CAR-T cell therapy for DLBCL unleashes a controlled cytokine release syndrome, the iconic iatrogenic cytokine storm managed with the IL-6 blocker tocilizumab.
+- `connects-to` → **[Acute Lymphoblastic Leukemia](../all/README.md)** — Immunotherapy for leukemia ignites it: CAR-T cells and bispecific antibodies against acute lymphoblastic leukemia provoke cytokine release syndrome, a frequent and sometimes severe storm during treatment.
+- `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — Surviving the storm leaves a mental toll: the critical illness, ICU stay and neuroinflammation of a cytokine storm contribute to the depression and cognitive impairment of post-intensive-care syndrome.
 
 ## Pathology
 

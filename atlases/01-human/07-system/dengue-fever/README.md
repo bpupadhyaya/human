@@ -196,6 +196,15 @@ cross_links:
   - target: 01-human/07-system/major-depressive-disorder
     relation: connects-to
     note: "Recovery carries a long tail of fatigue and low mood: post-dengue syndrome brings prolonged fatigue, malaise and depression for weeks to months after the acute illness resolves."
+  - target: 01-human/07-system/fibromyalgia
+    relation: connects-to
+    note: "It can leave chronic widespread pain: post-dengue syndrome includes prolonged arthralgia, fatigue and a fibromyalgia-like central pain that can persist for months after the infection clears."
+  - target: 01-human/07-system/neuropathic-pain
+    relation: connects-to
+    note: "It inflames the peripheral nerves: dengue can cause a post-infectious neuropathy and Guillain-Barré-type injury, leaving neuropathic pain among its neurological sequelae."
+  - target: 01-human/07-system/anemia-of-chronic-disease
+    relation: connects-to
+    note: "It transiently suppresses the marrow: dengue infects bone-marrow precursors and drives inflammation that depresses blood-cell production, contributing to anemia during and after the illness."
 ---
 
 # Dengue Fever
@@ -367,3 +376,6 @@ No approved antiviral therapy for dengue. Management is entirely supportive:
 - `connects-to` → **[Stroke](../stroke/README.md)** — It can strike the brain both ways: dengue is associated with both hemorrhagic stroke from severe thrombocytopenia and ischemic stroke from its vasculopathy and shock, a recognized neurological complication.
 - `connects-to` → **[Venous Thromboembolism](../venous-thromboembolism/README.md)** — Despite the bleeding, it can also clot: the endothelial activation and immobilization of severe dengue, with its DIC physiology, can paradoxically cause venous thromboembolism alongside the hemorrhagic risk.
 - `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — Recovery carries a long tail of fatigue and low mood: post-dengue syndrome brings prolonged fatigue, malaise and depression for weeks to months after the acute illness resolves.
+- `connects-to` → **[Fibromyalgia](../fibromyalgia/README.md)** — It can leave chronic widespread pain: post-dengue syndrome includes prolonged arthralgia, fatigue and a fibromyalgia-like central pain that can persist for months after the infection clears.
+- `connects-to` → **[Neuropathic Pain](../neuropathic-pain/README.md)** — It inflames the peripheral nerves: dengue can cause a post-infectious neuropathy and Guillain-Barré-type injury, leaving neuropathic pain among its neurological sequelae.
+- `connects-to` → **[Anemia of Chronic Disease](../anemia-of-chronic-disease/README.md)** — It transiently suppresses the marrow: dengue infects bone-marrow precursors and drives inflammation that depresses blood-cell production, contributing to anemia during and after the illness.
