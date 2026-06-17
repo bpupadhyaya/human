@@ -172,6 +172,15 @@ cross_links:
   - target: 01-human/07-system/multiple-sclerosis
     relation: connects-to
     note: "The gut helps tune brain autoimmunity: microbiome composition shapes the regulatory and Th17 balance that drives multiple sclerosis, one of the clearest examples of the gut-immune-brain axis in an autoimmune disease far from the bowel."
+  - target: 01-human/03-molecular/histamine
+    relation: connects-to
+    note: "Some gut bacteria make histamine themselves: histamine-producing species decarboxylate dietary histidine in the lumen, and an overgrowth of them is thought to underlie histamine intolerance with its flushing, headaches and gut upset."
+  - target: 01-human/07-system/asthma
+    relation: connects-to
+    note: "The gut shapes the airways through a gut-lung axis: early-life microbial diversity trains immune tolerance, and dysbiosis in infancy is linked to a higher risk of developing asthma and allergic airway disease."
+  - target: 02-pathogen/02-bacteria/salmonella-typhi
+    relation: connects-to
+    note: "A healthy flora is a barrier against invaders: the resident microbiome provides colonization resistance, and antibiotics or dysbiosis that thin it leave the gut open to enteric pathogens like Salmonella to take hold."
 ---
 
 # Gut Microbiome
@@ -301,6 +310,9 @@ The microbiome influences CNS function via multiple pathways:
 - `connects-to` → **[Faecalibacterium prausnitzii](../../../02-pathogen/06-microbiome/faecalibacterium-prausnitzii/README.md)** — One species is a keystone of gut health: Faecalibacterium prausnitzii is a major butyrate producer that feeds the colon lining and calms inflammation, and its depletion is a consistent marker of dysbiosis in IBD and metabolic disease.
 - `connects-to` → **[Escherichia coli](../../../02-pathogen/02-bacteria/escherichia-coli/README.md)** — Dysbiosis lets pathobionts bloom: commensal E. coli normally sits as a minor member, but expansions of proteobacteria like it mark a disturbed microbiome and can tip the balance toward inflammation and even cancer-promoting genotoxins.
 - `connects-to` → **[Multiple Sclerosis](../multiple-sclerosis/README.md)** — The gut helps tune brain autoimmunity: microbiome composition shapes the regulatory and Th17 balance that drives multiple sclerosis, one of the clearest examples of the gut-immune-brain axis in an autoimmune disease far from the bowel.
+- `connects-to` → **[Histamine](../../03-molecular/histamine/README.md)** — Some gut bacteria make histamine themselves: histamine-producing species decarboxylate dietary histidine in the lumen, and an overgrowth of them is thought to underlie histamine intolerance with its flushing, headaches and gut upset.
+- `connects-to` → **[Asthma](../asthma/README.md)** — The gut shapes the airways through a gut-lung axis: early-life microbial diversity trains immune tolerance, and dysbiosis in infancy is linked to a higher risk of developing asthma and allergic airway disease.
+- `connects-to` → **[Salmonella typhi](../../../02-pathogen/02-bacteria/salmonella-typhi/README.md)** — A healthy flora is a barrier against invaders: the resident microbiome provides colonization resistance, and antibiotics or dysbiosis that thin it leave the gut open to enteric pathogens like Salmonella to take hold.
 
 ## Pathology
 

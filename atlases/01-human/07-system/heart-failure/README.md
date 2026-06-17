@@ -172,6 +172,15 @@ cross_links:
   - target: 01-human/03-molecular/vegf
     relation: connects-to
     note: "The failing heart outgrows its blood supply: inadequate VEGF-driven angiogenesis leaves the hypertrophied and HFpEF myocardium with coronary microvascular rarefaction, starving the muscle of the capillaries it needs."
+  - target: 01-human/03-molecular/nf-kb
+    relation: connects-to
+    note: "Inflammation drives the remodeling: NF-κB activation in the stressed myocardium switches on the cytokines and hypertrophic genes that progressively scar and dilate the failing heart, a target of interest beyond the standard neurohormonal blockade."
+  - target: 01-human/07-system/venous-thromboembolism
+    relation: connects-to
+    note: "Sluggish circulation favors clots: the low cardiac output, venous congestion and reduced mobility of heart failure create a prothrombotic state that raises the risk of deep-vein thrombosis and pulmonary embolism."
+  - target: 01-human/07-system/anemia-of-chronic-disease
+    relation: connects-to
+    note: "Anemia and heart failure feed each other: chronic inflammation, kidney dysfunction and iron deficiency make anemia common in heart failure, worsening symptoms and prognosis in the cardiorenal-anemia syndrome."
 ---
 
 # Heart Failure
@@ -296,6 +305,9 @@ Normal hearts increase stroke volume with increasing preload (Starling curve). T
 - `connects-to` → **[Type 2 Diabetes](../type-2-diabetes/README.md)** — Diabetes weakens the heart directly: beyond accelerating coronary disease, high glucose and insulin resistance cause a diabetic cardiomyopathy that stiffens and fails the muscle — part of why the SGLT2 drugs born for diabetes now treat heart failure itself.
 - `connects-to` → **[Bradykinin](../../03-molecular/bradykinin/README.md)** — A vasodilator the drugs deliberately spare: ACE inhibitors and the neprilysin component of sacubitril raise bradykinin, easing afterload and remodeling in heart failure — the same accumulation that causes their hallmark cough and angioedema.
 - `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — The failing heart outgrows its blood supply: inadequate VEGF-driven angiogenesis leaves the hypertrophied and HFpEF myocardium with coronary microvascular rarefaction, starving the muscle of the capillaries it needs.
+- `connects-to` → **[NF-κB](../../03-molecular/nf-kb/README.md)** — Inflammation drives the remodeling: NF-κB activation in the stressed myocardium switches on the cytokines and hypertrophic genes that progressively scar and dilate the failing heart, a target of interest beyond the standard neurohormonal blockade.
+- `connects-to` → **[Venous Thromboembolism](../venous-thromboembolism/README.md)** — Sluggish circulation favors clots: the low cardiac output, venous congestion and reduced mobility of heart failure create a prothrombotic state that raises the risk of deep-vein thrombosis and pulmonary embolism.
+- `connects-to` → **[Anemia of Chronic Disease](../anemia-of-chronic-disease/README.md)** — Anemia and heart failure feed each other: chronic inflammation, kidney dysfunction and iron deficiency make anemia common in heart failure, worsening symptoms and prognosis in the cardiorenal-anemia syndrome.
 
 ## Pathology
 
