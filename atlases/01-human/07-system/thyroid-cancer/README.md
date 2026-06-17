@@ -187,6 +187,15 @@ cross_links:
   - target: 01-human/07-system/anemia-of-chronic-disease
     relation: connects-to
     note: "Advanced disease and its therapy lower the count: progressive metastatic thyroid cancer with its inflammatory burden, compounded by kinase-inhibitor toxicity, can produce an anemia of chronic disease in the minority with aggressive disease."
+  - target: 01-human/07-system/heart-failure
+    relation: connects-to
+    note: "TSH-suppression and kinase inhibitors strain the heart: the lifelong thyroxine used to suppress TSH keeps patients mildly thyrotoxic, risking atrial fibrillation, while lenvatinib and sorafenib raise blood pressure and are cardiotoxic — all routes toward heart failure."
+  - target: 01-human/07-system/stroke
+    relation: connects-to
+    note: "Long-term TSH-suppression can throw clots to the brain: the subclinical hyperthyroidism from suppressive thyroxine promotes atrial fibrillation, and the resulting cardioembolism raises the risk of ischemic stroke."
+  - target: 01-human/07-system/major-depressive-disorder
+    relation: connects-to
+    note: "Cancer and altered thyroid hormone unsettle mood: the diagnosis plus the deliberately abnormal thyroid-hormone levels of suppression therapy and post-thyroidectomy state contribute to depression and impaired quality of life in survivors."
 ---
 
 # Thyroid Cancer
@@ -387,6 +396,9 @@ Calcitonin doubling time <6 months → poor prognosis → early systemic therapy
 - `connects-to` → **[Hypertension](../hypertension/README.md)** — Its targeted drugs spike the pressure: the VEGF-pathway kinase inhibitors lenvatinib and sorafenib used for RAI-refractory thyroid cancer cause prominent hypertension, an on-target vascular effect needing active management.
 - `connects-to` → **[Chronic Kidney Disease](../ckd/README.md)** — Antiangiogenic therapy injures the kidney: the same VEGF-targeted inhibitors used in advanced thyroid cancer cause proteinuria and glomerular injury that can progress to chronic kidney disease over prolonged treatment.
 - `connects-to` → **[Anemia of Chronic Disease](../anemia-of-chronic-disease/README.md)** — Advanced disease and its therapy lower the count: progressive metastatic thyroid cancer with its inflammatory burden, compounded by kinase-inhibitor toxicity, can produce an anemia of chronic disease in the minority with aggressive disease.
+- `connects-to` → **[Heart Failure](../heart-failure/README.md)** — TSH-suppression and kinase inhibitors strain the heart: the lifelong thyroxine used to suppress TSH keeps patients mildly thyrotoxic, risking atrial fibrillation, while lenvatinib and sorafenib raise blood pressure and are cardiotoxic — all routes toward heart failure.
+- `connects-to` → **[Stroke](../stroke/README.md)** — Long-term TSH-suppression can throw clots to the brain: the subclinical hyperthyroidism from suppressive thyroxine promotes atrial fibrillation, and the resulting cardioembolism raises the risk of ischemic stroke.
+- `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — Cancer and altered thyroid hormone unsettle mood: the diagnosis plus the deliberately abnormal thyroid-hormone levels of suppression therapy and post-thyroidectomy state contribute to depression and impaired quality of life in survivors.
 
 [^schlumberger-2015-lenvatinib]: Schlumberger M, Tahara M, Wirth LJ, et al. Lenvatinib versus placebo in radioiodine-refractory differentiated thyroid cancer. *N Engl J Med.* 2015;372(7):621-630. [doi:10.1056/NEJMoa1406470](https://doi.org/10.1056/NEJMoa1406470) · [PubMed 25671254](https://pubmed.ncbi.nlm.nih.gov/25671254/)
 [^subbiah-2018-atc-dabrafenib]: Subbiah V, Kreitman RJ, Wainberg ZA, et al. Dabrafenib and trametinib treatment in patients with locally advanced or metastatic BRAF V600-mutant anaplastic thyroid cancer. *J Clin Oncol.* 2018;36(1):7-13. [doi:10.1200/JCO.2017.73.6785](https://doi.org/10.1200/JCO.2017.73.6785) · [PubMed 28892432](https://pubmed.ncbi.nlm.nih.gov/28892432/)

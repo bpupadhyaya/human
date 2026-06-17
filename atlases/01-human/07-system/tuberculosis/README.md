@@ -187,6 +187,15 @@ cross_links:
   - target: 01-human/07-system/heart-failure
     relation: connects-to
     note: "It can armor the heart: tuberculous pericarditis heals into a thick, calcified shell, and the resulting constrictive pericarditis impairs ventricular filling to produce a distinctive right-sided heart failure."
+  - target: 01-human/07-system/neuropathic-pain
+    relation: connects-to
+    note: "Its key drug starves the nerves of vitamin B6: isoniazid depletes pyridoxine and causes a dose-dependent peripheral neuropathy with burning neuropathic pain, which routine co-prescribed B6 is given to prevent."
+  - target: 01-human/07-system/ckd
+    relation: connects-to
+    note: "Kidney and TB injure each other: TB can directly infect the kidney as genitourinary disease, while chronic kidney disease and dialysis blunt immunity enough to reactivate latent infection — a two-way relationship."
+  - target: 01-human/07-system/major-depressive-disorder
+    relation: connects-to
+    note: "A long, stigmatized illness and its drugs darken mood: the months of treatment, social isolation and stigma of TB, plus the neuropsychiatric effects of isoniazid and cycloserine, contribute to depression during therapy."
 ---
 
 # Tuberculosis
@@ -377,6 +386,9 @@ Standard **HRZE** regimen [^nahid-2016-tb-treatment]:
 - `connects-to` → **[Aspergillus fumigatus](../../../02-pathogen/03-fungi/aspergillus-fumigatus/README.md)** — It leaves cavities the mold colonizes: healed TB scars the lung with cavities where Aspergillus settles into an aspergilloma (fungus ball), a classic late complication that can cause life-threatening hemoptysis.
 - `connects-to` → **[Stroke](../stroke/README.md)** — TB meningitis inflames the brain's arteries: the basal exudate of tuberculous meningitis triggers a vasculitis of perforating vessels, causing ischemic stroke that is a major cause of the disease's neurological damage.
 - `connects-to` → **[Heart Failure](../heart-failure/README.md)** — It can armor the heart: tuberculous pericarditis heals into a thick, calcified shell, and the resulting constrictive pericarditis impairs ventricular filling to produce a distinctive right-sided heart failure.
+- `connects-to` → **[Neuropathic Pain](../neuropathic-pain/README.md)** — Its key drug starves the nerves of vitamin B6: isoniazid depletes pyridoxine and causes a dose-dependent peripheral neuropathy with burning neuropathic pain, which routine co-prescribed B6 is given to prevent.
+- `connects-to` → **[Chronic Kidney Disease](../ckd/README.md)** — Kidney and TB injure each other: TB can directly infect the kidney as genitourinary disease, while chronic kidney disease and dialysis blunt immunity enough to reactivate latent infection — a two-way relationship.
+- `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — A long, stigmatized illness and its drugs darken mood: the months of treatment, social isolation and stigma of TB, plus the neuropsychiatric effects of isoniazid and cycloserine, contribute to depression during therapy.
 
 ## See Also
 
