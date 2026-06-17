@@ -196,6 +196,15 @@ cross_links:
   - target: 01-human/07-system/osteoporosis
     relation: connects-to
     note: "Steroids and renal bone disease thin the skeleton: prolonged corticosteroids for IgA nephropathy, compounded by the mineral and vitamin-D derangements of declining kidney function, accelerate bone loss and fracture risk."
+  - target: 01-human/07-system/heart-failure
+    relation: connects-to
+    note: "Failing kidneys overload the heart: as IgA nephropathy progresses to chronic kidney disease, fluid retention, hypertension and uremic cardiomyopathy strain the heart toward failure."
+  - target: 02-pathogen/03-fungi/aspergillus-fumigatus
+    relation: connects-to
+    note: "Its immunosuppression opens the lung to mold: the corticosteroids and immunosuppressants used for progressive IgA nephropathy blunt immunity, occasionally permitting invasive aspergillosis."
+  - target: 01-human/07-system/major-depressive-disorder
+    relation: connects-to
+    note: "Chronic kidney disease weighs on mood: the slow march of IgA nephropathy toward dialysis or transplant, with its dietary restrictions and fatigue, carries a substantial burden of depression."
 ---
 
 # IgA Nephropathy
@@ -339,6 +348,9 @@ IgAN is a **multi-hit disease** described by the Oxford Four-Hit Model:
 - `connects-to` → **[Anemia of Chronic Disease](../anemia-of-chronic-disease/README.md)** — Declining kidneys and inflammation lower the count: as IgA nephropathy erodes renal function, lost erythropoietin and chronic inflammation produce a renal anemia-of-chronic-disease that worsens as it progresses to CKD.
 - `connects-to` → **[Pneumocystis jirovecii](../../../02-pathogen/03-fungi/pneumocystis-jirovecii/README.md)** — Its immunosuppression opens the lung: the corticosteroids and mycophenolate used for progressive IgA nephropathy deplete T-cell defenses, raising Pneumocystis pneumonia risk enough to warrant prophylaxis in intensive regimens.
 - `connects-to` → **[Osteoporosis](../osteoporosis/README.md)** — Steroids and renal bone disease thin the skeleton: prolonged corticosteroids for IgA nephropathy, compounded by the mineral and vitamin-D derangements of declining kidney function, accelerate bone loss and fracture risk.
+- `connects-to` → **[Heart Failure](../heart-failure/README.md)** — Failing kidneys overload the heart: as IgA nephropathy progresses to chronic kidney disease, fluid retention, hypertension and uremic cardiomyopathy strain the heart toward failure.
+- `connects-to` → **[Aspergillus fumigatus](../../../02-pathogen/03-fungi/aspergillus-fumigatus/README.md)** — Its immunosuppression opens the lung to mold: the corticosteroids and immunosuppressants used for progressive IgA nephropathy blunt immunity, occasionally permitting invasive aspergillosis.
+- `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — Chronic kidney disease weighs on mood: the slow march of IgA nephropathy toward dialysis or transplant, with its dietary restrictions and fatigue, carries a substantial burden of depression.
 
 ---
 

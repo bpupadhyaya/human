@@ -204,6 +204,15 @@ cross_links:
   - target: 01-human/07-system/major-depressive-disorder
     relation: connects-to
     note: "A relapsing disease and its steroids weigh on mood: the unpredictable bleeding risk, activity restrictions and mood effects of chronic corticosteroids in ITP contribute to depression and reduced quality of life."
+  - target: 01-human/07-system/stroke
+    relation: connects-to
+    note: "It threatens the brain from both directions: severe thrombocytopenia risks intracranial hemorrhage, while the TPO-receptor agonists used to raise platelets and post-splenectomy state carry a thrombotic stroke risk."
+  - target: 02-pathogen/03-fungi/aspergillus-fumigatus
+    relation: connects-to
+    note: "Its immunosuppression opens the lung to mold: the high-dose corticosteroids and rituximab used to treat ITP blunt immunity, occasionally permitting invasive aspergillosis."
+  - target: 01-human/07-system/osteoporosis
+    relation: connects-to
+    note: "Prolonged steroids thin the bones: the repeated and long courses of corticosteroids used to control ITP accelerate bone loss and raise fracture risk."
 ---
 
 # Immune Thrombocytopenia
@@ -401,6 +410,9 @@ ITP in pregnancy carries risk of neonatal thrombocytopenia (maternal IgG crosses
 - `connects-to` → **[HIV](../hiv/README.md)** — It can be the first sign of HIV: HIV is a classic cause of secondary immune thrombocytopenia, sometimes the presenting feature, so HIV testing is part of the standard ITP workup.
 - `connects-to` → **[Pneumocystis jirovecii](../../../02-pathogen/03-fungi/pneumocystis-jirovecii/README.md)** — Its B-cell-directed therapy opens the lung: the rituximab and prolonged steroids used in refractory ITP deplete immune defenses enough to risk Pneumocystis pneumonia, sometimes warranting prophylaxis.
 - `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — A relapsing disease and its steroids weigh on mood: the unpredictable bleeding risk, activity restrictions and mood effects of chronic corticosteroids in ITP contribute to depression and reduced quality of life.
+- `connects-to` → **[Stroke](../stroke/README.md)** — It threatens the brain from both directions: severe thrombocytopenia risks intracranial hemorrhage, while the TPO-receptor agonists used to raise platelets and post-splenectomy state carry a thrombotic stroke risk.
+- `connects-to` → **[Aspergillus fumigatus](../../../02-pathogen/03-fungi/aspergillus-fumigatus/README.md)** — Its immunosuppression opens the lung to mold: the high-dose corticosteroids and rituximab used to treat ITP blunt immunity, occasionally permitting invasive aspergillosis.
+- `connects-to` → **[Osteoporosis](../osteoporosis/README.md)** — Prolonged steroids thin the bones: the repeated and long courses of corticosteroids used to control ITP accelerate bone loss and raise fracture risk.
 
 [^cines-2002-itp-review]: Cines DB, Blanchette VS. Immune thrombocytopenic purpura. *N Engl J Med.* 2002;346(13):995-1008. [doi:10.1056/NEJMra010532](https://doi.org/10.1056/NEJMra010532) · [PubMed 11919310](https://pubmed.ncbi.nlm.nih.gov/11919310/)
 [^neunert-2019-ash-itp-guidelines]: Neunert C, et al. American Society of Hematology 2019 guidelines for immune thrombocytopenia. *Blood Adv.* 2019;3(23):3829-3866. [doi:10.1182/bloodadvances.2019000966](https://doi.org/10.1182/bloodadvances.2019000966) · [PubMed 31794604](https://pubmed.ncbi.nlm.nih.gov/31794604/)
