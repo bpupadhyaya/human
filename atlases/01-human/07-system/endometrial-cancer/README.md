@@ -193,6 +193,15 @@ cross_links:
   - target: 01-human/07-system/major-depressive-disorder
     relation: connects-to
     note: "Diagnosis and treatment weigh on mood: the cancer diagnosis, surgical menopause from hysterectomy-oophorectomy and the demands of treatment contribute to a substantial burden of depression."
+  - target: 01-human/07-system/osteoporosis
+    relation: connects-to
+    note: "Removing the ovaries withdraws bone-protective estrogen: the hysterectomy with oophorectomy that treats endometrial cancer throws younger patients into surgical menopause, accelerating bone loss toward osteoporosis."
+  - target: 01-human/07-system/heart-failure
+    relation: connects-to
+    note: "It rides on a cardiometabolic profile: endometrial cancer's strong association with obesity, diabetes and hypertension means these patients carry a heavy cardiovascular burden that predisposes to heart failure."
+  - target: 02-pathogen/03-fungi/aspergillus-fumigatus
+    relation: connects-to
+    note: "Chemotherapy for advanced disease opens the lung to mold: the neutropenia from carboplatin-paclitaxel treatment of high-risk or recurrent endometrial cancer can let inhaled Aspergillus invade as pulmonary aspergillosis."
 ---
 
 # Endometrial Cancer
@@ -376,6 +385,9 @@ cross_links:
 - `connects-to` → **[Anemia of Chronic Disease](../anemia-of-chronic-disease/README.md)** — Bleeding and inflammation both lower the count: alongside the iron-deficiency anemia from abnormal uterine bleeding, the tumor's inflammatory burden raises hepcidin and suppresses erythropoiesis into an anemia of chronic disease.
 - `connects-to` → **[Chronic Kidney Disease](../ckd/README.md)** — Advanced pelvic disease can obstruct the kidneys: locally invasive or recurrent endometrial cancer can compress the ureters, and platinum chemotherapy adds nephrotoxicity, together threatening chronic kidney disease.
 - `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — Diagnosis and treatment weigh on mood: the cancer diagnosis, surgical menopause from hysterectomy-oophorectomy and the demands of treatment contribute to a substantial burden of depression.
+- `connects-to` → **[Osteoporosis](../osteoporosis/README.md)** — Removing the ovaries withdraws bone-protective estrogen: the hysterectomy with oophorectomy that treats endometrial cancer throws younger patients into surgical menopause, accelerating bone loss toward osteoporosis.
+- `connects-to` → **[Heart Failure](../heart-failure/README.md)** — It rides on a cardiometabolic profile: endometrial cancer's strong association with obesity, diabetes and hypertension means these patients carry a heavy cardiovascular burden that predisposes to heart failure.
+- `connects-to` → **[Aspergillus fumigatus](../../../02-pathogen/03-fungi/aspergillus-fumigatus/README.md)** — Chemotherapy for advanced disease opens the lung to mold: the neutropenia from carboplatin-paclitaxel treatment of high-risk or recurrent endometrial cancer can let inhaled Aspergillus invade as pulmonary aspergillosis.
 
 [^konstantinopoulos-2019-dostarlimab]: Konstantinopoulos PA, Lheureux S, Moore KN. PARP inhibitors for ovarian and endometrial cancers: state of the art and clinical perspectives. *J Clin Oncol.* 2020;38(25):2896-2909. [doi:10.1200/JCO.20.00571](https://doi.org/10.1200/JCO.20.00571) · [PubMed 32706635](https://pubmed.ncbi.nlm.nih.gov/32706635/)
 [^eskander-2023-ruby]: Eskander RN, Sill MW, Beffa L, et al. Pembrolizumab plus chemotherapy in advanced endometrial cancer. *N Engl J Med.* 2023;388(23):2159-2170. [doi:10.1056/NEJMoa2302312](https://doi.org/10.1056/NEJMoa2302312) · [PubMed 37166384](https://pubmed.ncbi.nlm.nih.gov/37166384/)

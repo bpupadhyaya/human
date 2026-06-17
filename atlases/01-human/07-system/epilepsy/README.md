@@ -202,6 +202,15 @@ cross_links:
   - target: 01-human/07-system/heart-failure
     relation: connects-to
     note: "Seizures reach the heart: ictal autonomic surges and arrhythmias underlie sudden unexpected death in epilepsy (SUDEP), and repeated seizure-related cardiac stress can contribute to cardiomyopathy and heart failure."
+  - target: 02-pathogen/02-bacteria/streptococcus-pneumoniae
+    relation: connects-to
+    note: "Seizures send secretions into the lungs: impaired consciousness during and after a seizure causes aspiration, and the resulting pneumonia — often pneumococcal — is a frequent and dangerous complication."
+  - target: 01-human/07-system/wound-healing
+    relation: connects-to
+    note: "Falls and convulsions wound the body: sudden loss of control causes burns, lacerations, head injuries and fractures, leaving wounds whose healing competes with the next seizure's risk of re-injury."
+  - target: 01-human/07-system/type-2-diabetes
+    relation: connects-to
+    note: "Some of its drugs skew metabolism: valproate and other antiseizure medications cause weight gain and insulin resistance, raising the risk of type 2 diabetes over years of treatment."
 ---
 
 # Epilepsy
@@ -415,6 +424,9 @@ Anti-NMDAR encephalitis is the most common autoimmune encephalitis (~37% of auto
 - `connects-to` → **[Sepsis](../sepsis/README.md)** — Prolonged seizures invite critical illness: status epilepticus and recurrent seizures cause aspiration and require intensive care, so aspiration pneumonia and sepsis are recognized complications of severe epilepsy.
 - `connects-to` → **[Bipolar Disorder](../bipolar-disorder/README.md)** — Mood and seizure disorders overlap: bipolar disorder is over-represented in epilepsy, sharing neuronal-excitability mechanisms — which is why several anticonvulsants double as mood stabilizers.
 - `connects-to` → **[Heart Failure](../heart-failure/README.md)** — Seizures reach the heart: ictal autonomic surges and arrhythmias underlie sudden unexpected death in epilepsy (SUDEP), and repeated seizure-related cardiac stress can contribute to cardiomyopathy and heart failure.
+- `connects-to` → **[Streptococcus pneumoniae](../../../02-pathogen/02-bacteria/streptococcus-pneumoniae/README.md)** — Seizures send secretions into the lungs: impaired consciousness during and after a seizure causes aspiration, and the resulting pneumonia — often pneumococcal — is a frequent and dangerous complication.
+- `connects-to` → **[Wound Healing](../wound-healing/README.md)** — Falls and convulsions wound the body: sudden loss of control causes burns, lacerations, head injuries and fractures, leaving wounds whose healing competes with the next seizure's risk of re-injury.
+- `connects-to` → **[Type 2 Diabetes](../type-2-diabetes/README.md)** — Some of its drugs skew metabolism: valproate and other antiseizure medications cause weight gain and insulin resistance, raising the risk of type 2 diabetes over years of treatment.
 
 [^fisher-2017-ilae-classification]: Fisher RS, Cross JH, D'Souza C, et al. Instruction manual for the ILAE 2017 operational classification of seizure types. *Epilepsia.* 2017;58(4):531-542. [doi:10.1111/epi.13671](https://doi.org/10.1111/epi.13671) · [PubMed 28276060](https://pubmed.ncbi.nlm.nih.gov/28276060/)
 [^devinsky-2018-epilepsy-review]: Devinsky O, Vezzani A, O'Brien TJ, et al. Epilepsy. *Nat Rev Dis Primers.* 2018;4:18024. [doi:10.1038/nrdp.2018.24](https://doi.org/10.1038/nrdp.2018.24) · [PubMed 29722352](https://pubmed.ncbi.nlm.nih.gov/29722352/)
