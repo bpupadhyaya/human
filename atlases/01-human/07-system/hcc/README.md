@@ -193,6 +193,15 @@ cross_links:
   - target: 01-human/07-system/major-depressive-disorder
     relation: connects-to
     note: "Cancer atop chronic liver disease weighs on mood: a poor-prognosis diagnosis layered on the fatigue and stigma of cirrhosis and viral hepatitis gives HCC a substantial burden of depression."
+  - target: 01-human/07-system/heart-failure
+    relation: connects-to
+    note: "Its targeted drugs strain the heart: the multikinase inhibitors sorafenib and lenvatinib used for advanced HCC raise blood pressure and are cardiotoxic, capable of precipitating heart failure."
+  - target: 01-human/07-system/osteoporosis
+    relation: connects-to
+    note: "Cirrhosis behind it weakens bone: the impaired vitamin D metabolism and hepatic osteodystrophy of the cirrhosis that underlies most HCC — compounded by post-transplant steroids — drive bone loss."
+  - target: 01-human/07-system/type-1-diabetes
+    relation: connects-to
+    note: "Its checkpoint immunotherapy can trigger autoimmune diabetes: the PD-L1 inhibitor atezolizumab used for advanced HCC can unleash autoimmunity against pancreatic islets, causing insulin-dependent diabetes."
 ---
 
 # Hepatocellular Carcinoma
@@ -389,6 +398,9 @@ In high-risk patients (cirrhosis, HBV regardless of cirrhosis): ultrasound ± AF
 - `connects-to` → **[Chronic Kidney Disease](../ckd/README.md)** — The failing liver drags the kidney down: advanced HCC and its cirrhosis precipitate hepatorenal syndrome, and the VEGF-targeted kinase inhibitors used to treat it add nephrotoxicity, together threatening chronic kidney disease.
 - `connects-to` → **[Hypertension](../hypertension/README.md)** — Its targeted drugs spike the pressure: the antiangiogenic kinase inhibitors sorafenib and lenvatinib, mainstays of advanced HCC therapy, cause prominent hypertension as an on-target VEGF-pathway effect.
 - `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — Cancer atop chronic liver disease weighs on mood: a poor-prognosis diagnosis layered on the fatigue and stigma of cirrhosis and viral hepatitis gives HCC a substantial burden of depression.
+- `connects-to` → **[Heart Failure](../heart-failure/README.md)** — Its targeted drugs strain the heart: the multikinase inhibitors sorafenib and lenvatinib used for advanced HCC raise blood pressure and are cardiotoxic, capable of precipitating heart failure.
+- `connects-to` → **[Osteoporosis](../osteoporosis/README.md)** — Cirrhosis behind it weakens bone: the impaired vitamin D metabolism and hepatic osteodystrophy of the cirrhosis that underlies most HCC — compounded by post-transplant steroids — drive bone loss.
+- `connects-to` → **[Type 1 Diabetes](../type-1-diabetes/README.md)** — Its checkpoint immunotherapy can trigger autoimmune diabetes: the PD-L1 inhibitor atezolizumab used for advanced HCC can unleash autoimmunity against pancreatic islets, causing insulin-dependent diabetes.
 
 [^llovet-2008-sorafenib]: Llovet JM, Ricci S, Mazzaferro V, et al. Sorafenib in advanced hepatocellular carcinoma. *N Engl J Med.* 2008;359(4):378-390. [doi:10.1056/NEJMoa0708857](https://doi.org/10.1056/NEJMoa0708857) · [PubMed 18650514](https://pubmed.ncbi.nlm.nih.gov/18650514/)
 [^finn-2020-imbrave150]: Finn RS, Qin S, Ikeda M, et al. Atezolizumab plus bevacizumab in unresectable hepatocellular carcinoma. *N Engl J Med.* 2020;382(20):1894-1905. [doi:10.1056/NEJMoa1915745](https://doi.org/10.1056/NEJMoa1915745) · [PubMed 32402160](https://pubmed.ncbi.nlm.nih.gov/32402160/)
