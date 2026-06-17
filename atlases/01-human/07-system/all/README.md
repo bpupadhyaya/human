@@ -196,6 +196,15 @@ cross_links:
   - target: 01-human/07-system/heart-failure
     relation: connects-to
     note: "Its anthracyclines scar the heart: the daunorubicin and doxorubicin used to cure ALL are dose-dependently cardiotoxic, leaving some survivors with a cardiomyopathy and heart failure years later."
+  - target: 01-human/07-system/neuropathic-pain
+    relation: connects-to
+    note: "Vincristine leaves the nerves raw: the vinca alkaloid central to ALL therapy causes a dose-limiting peripheral neuropathy with numbness, weakness and neuropathic pain that can persist after treatment."
+  - target: 01-human/07-system/ckd
+    relation: connects-to
+    note: "Tumor lysis and nephrotoxic drugs batter the kidneys: the massive cell turnover at ALL induction triggers tumor lysis syndrome, and methotrexate and antifungals add nephrotoxicity, together threatening kidney injury."
+  - target: 01-human/07-system/major-depressive-disorder
+    relation: connects-to
+    note: "A long, intensive treatment weighs on mood: ALL's prolonged multi-year therapy, repeated hospitalizations and, in survivors, the cognitive effects of CNS-directed treatment contribute to depression."
 ---
 
 # Acute Lymphoblastic Leukemia
@@ -395,6 +404,9 @@ Childhood ALL survivors (now majority of patients): neurocognitive impairment (M
 - `connects-to` → **[Aspergillus fumigatus](../../../02-pathogen/03-fungi/aspergillus-fumigatus/README.md)** — Prolonged neutropenia opens the lung to mold: the deep neutropenia of ALL induction lets inhaled Aspergillus invade as angioinvasive pulmonary aspergillosis, a leading infectious cause of treatment-related death.
 - `connects-to` → **[Osteoporosis](../osteoporosis/README.md)** — Its steroids attack the bone: the high-dose corticosteroids central to ALL therapy cause osteopenia and avascular necrosis, a characteristic skeletal toxicity that can cripple joints in survivors, especially adolescents.
 - `connects-to` → **[Heart Failure](../heart-failure/README.md)** — Its anthracyclines scar the heart: the daunorubicin and doxorubicin used to cure ALL are dose-dependently cardiotoxic, leaving some survivors with a cardiomyopathy and heart failure years later.
+- `connects-to` → **[Neuropathic Pain](../neuropathic-pain/README.md)** — Vincristine leaves the nerves raw: the vinca alkaloid central to ALL therapy causes a dose-limiting peripheral neuropathy with numbness, weakness and neuropathic pain that can persist after treatment.
+- `connects-to` → **[Chronic Kidney Disease](../ckd/README.md)** — Tumor lysis and nephrotoxic drugs batter the kidneys: the massive cell turnover at ALL induction triggers tumor lysis syndrome, and methotrexate and antifungals add nephrotoxicity, together threatening kidney injury.
+- `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — A long, intensive treatment weighs on mood: ALL's prolonged multi-year therapy, repeated hospitalizations and, in survivors, the cognitive effects of CNS-directed treatment contribute to depression.
 
 [^pui-2018-all-cure]: Pui CH, Yang JJ, Bhakta N, et al. Global efforts toward the cure of childhood acute lymphoblastic leukemia. *Lancet Child Adolesc Health.* 2018;2(6):440-454. [doi:10.1016/S2352-4642(18)30066-X](https://doi.org/10.1016/S2352-4642(18)30066-X) · [PubMed 29976322](https://pubmed.ncbi.nlm.nih.gov/29976322/)
 [^maude-2018-tisagenlecleucel]: Maude SL, Laetsch TW, Buechner J, et al. Tisagenlecleucel in children and young adults with B-cell lymphoblastic leukemia. *N Engl J Med.* 2018;378(5):439-448. [doi:10.1056/NEJMoa1709866](https://doi.org/10.1056/NEJMoa1709866) · [PubMed 29385370](https://pubmed.ncbi.nlm.nih.gov/29385370/)

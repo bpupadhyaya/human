@@ -205,6 +205,15 @@ cross_links:
   - target: 01-human/07-system/ckd
     relation: connects-to
     note: "It harms the kidney directly and through the liver: heavy alcohol drives hypertension and, in cirrhosis, hepatorenal physiology, while binge drinking can cause rhabdomyolysis — together threatening chronic kidney disease."
+  - target: 01-human/07-system/neuropathic-pain
+    relation: connects-to
+    note: "Heavy drinking poisons the peripheral nerves: chronic alcohol use, with its thiamine and B-vitamin deficiency, causes a length-dependent axonal neuropathy producing burning pain and numbness in the feet."
+  - target: 01-human/07-system/hnscc
+    relation: connects-to
+    note: "Alcohol is a major head-and-neck carcinogen: ethanol and its metabolite acetaldehyde damage the mucosa of the mouth, throat and larynx, and combined with tobacco multiply the risk of head and neck squamous-cell cancer."
+  - target: 01-human/07-system/generalized-anxiety-disorder
+    relation: connects-to
+    note: "Anxiety and drinking feed each other: people drink to quell anxiety, but tolerance and withdrawal raise baseline anxiety, locking the two into a self-reinforcing cycle."
 ---
 
 # Alcohol Use Disorder
@@ -447,6 +456,9 @@ Prenatal alcohol exposure → leading preventable cause of intellectual disabili
 - `connects-to` → **[Pancreatic Cancer](../pancreatic-cancer/README.md)** — Repeated pancreatitis paves the way to cancer: heavy alcohol use is a leading cause of chronic pancreatitis, and the resulting long-standing inflammation raises the risk of pancreatic adenocarcinoma.
 - `connects-to` → **[Heart Failure](../heart-failure/README.md)** — Chronic drinking can dilate the heart: sustained heavy alcohol use causes an alcoholic cardiomyopathy, a dilated, weakened heart that is a recognized and partly reversible cause of heart failure.
 - `connects-to` → **[Chronic Kidney Disease](../ckd/README.md)** — It harms the kidney directly and through the liver: heavy alcohol drives hypertension and, in cirrhosis, hepatorenal physiology, while binge drinking can cause rhabdomyolysis — together threatening chronic kidney disease.
+- `connects-to` → **[Neuropathic Pain](../neuropathic-pain/README.md)** — Heavy drinking poisons the peripheral nerves: chronic alcohol use, with its thiamine and B-vitamin deficiency, causes a length-dependent axonal neuropathy producing burning pain and numbness in the feet.
+- `connects-to` → **[Head and Neck Squamous Cell Carcinoma](../hnscc/README.md)** — Alcohol is a major head-and-neck carcinogen: ethanol and its metabolite acetaldehyde damage the mucosa of the mouth, throat and larynx, and combined with tobacco multiply the risk of head and neck squamous-cell cancer.
+- `connects-to` → **[Generalized Anxiety Disorder](../generalized-anxiety-disorder/README.md)** — Anxiety and drinking feed each other: people drink to quell anxiety, but tolerance and withdrawal raise baseline anxiety, locking the two into a self-reinforcing cycle.
 
 [^koob-2013-addiction-neuroscience]: Koob GF, Volkow ND. Neurocircuitry of addiction. *Neuropsychopharmacology.* 2010;35(1):217-238. [doi:10.1038/npp.2009.110](https://doi.org/10.1038/npp.2009.110) · [PubMed 19710631](https://pubmed.ncbi.nlm.nih.gov/19710631/)
 [^anton-2006-combine]: Anton RF, O'Malley SS, Ciraulo DA, et al. Combined pharmacotherapies and behavioral interventions for alcohol dependence: the COMBINE study. *JAMA.* 2006;295(17):2003-2017. [doi:10.1001/jama.295.17.2003](https://doi.org/10.1001/jama.295.17.2003) · [PubMed 16670409](https://pubmed.ncbi.nlm.nih.gov/16670409/)
