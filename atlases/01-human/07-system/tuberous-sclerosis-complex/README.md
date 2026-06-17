@@ -196,6 +196,15 @@ cross_links:
   - target: 01-human/07-system/stroke
     relation: connects-to
     note: "Heart tumors and vessel walls can throw clots: the cardiac rhabdomyomas and arrhythmias of TSC, along with its associated arterial aneurysms, create conditions for embolic and hemorrhagic stroke."
+  - target: 01-human/07-system/integumentary-system
+    relation: connects-to
+    note: "Its hamartomas are written on the skin: TSC produces facial angiofibromas, hypopigmented ash-leaf macules, shagreen patches and ungual fibromas — skin findings that are major diagnostic criteria."
+  - target: 01-human/07-system/respiratory-system
+    relation: connects-to
+    note: "It can riddle the lungs with cysts: lymphangioleiomyomatosis, a smooth-muscle proliferation that destroys lung tissue into cysts and causes pneumothorax, occurs in women with TSC and responds to mTOR inhibitors."
+  - target: 01-human/07-system/wound-healing
+    relation: connects-to
+    note: "Its mTOR-inhibitor therapy impairs healing: everolimus and sirolimus block the mTOR pathway central to tissue repair, so wounds and the surgery for angiomyolipomas or SEGAs heal slowly during TSC treatment."
 ---
 
 # Tuberous Sclerosis Complex
@@ -395,6 +404,9 @@ With modern management: life expectancy increasingly normal; major risks: renal 
 - `connects-to` → **[Aspergillus fumigatus](../../../02-pathogen/03-fungi/aspergillus-fumigatus/README.md)** — The same mTOR inhibitors invite invasive mold: the immunosuppression from everolimus and sirolimus, used long-term for TSC tumors, can let inhaled Aspergillus invade as pulmonary aspergillosis.
 - `connects-to` → **[Type 2 Diabetes](../type-2-diabetes/README.md)** — Its mTOR-inhibitor therapy disturbs glucose: everolimus and sirolimus impair insulin signaling and commonly cause hyperglycemia and hyperlipidemia, sometimes precipitating new-onset diabetes during TSC treatment.
 - `connects-to` → **[Stroke](../stroke/README.md)** — Heart tumors and vessel walls can throw clots: the cardiac rhabdomyomas and arrhythmias of TSC, along with its associated arterial aneurysms, create conditions for embolic and hemorrhagic stroke.
+- `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — Its hamartomas are written on the skin: TSC produces facial angiofibromas, hypopigmented ash-leaf macules, shagreen patches and ungual fibromas — skin findings that are major diagnostic criteria.
+- `connects-to` → **[Respiratory System](../respiratory-system/README.md)** — It can riddle the lungs with cysts: lymphangioleiomyomatosis, a smooth-muscle proliferation that destroys lung tissue into cysts and causes pneumothorax, occurs in women with TSC and responds to mTOR inhibitors.
+- `connects-to` → **[Wound Healing](../wound-healing/README.md)** — Its mTOR-inhibitor therapy impairs healing: everolimus and sirolimus block the mTOR pathway central to tissue repair, so wounds and the surgery for angiomyolipomas or SEGAs heal slowly during TSC treatment.
 
 ---
 

@@ -202,6 +202,15 @@ cross_links:
   - target: 02-pathogen/03-fungi/aspergillus-fumigatus
     relation: connects-to
     note: "High glucose blunts the defenses against mold: the impaired neutrophil function and immune dysregulation of poorly controlled diabetes raise susceptibility to invasive fungal infection, including pulmonary aspergillosis."
+  - target: 01-human/07-system/neuropathic-pain
+    relation: connects-to
+    note: "Chronic hyperglycaemia damages the nerves: distal symmetric diabetic polyneuropathy is among the commonest causes of neuropathic pain, with burning feet, numbness and the risk of unfelt foot injury."
+  - target: 01-human/07-system/digestive-system
+    relation: connects-to
+    note: "Autonomic neuropathy slows the gut: long-standing type 2 diabetes can cause gastroparesis with nausea, bloating and erratic glucose control, plus diabetic diarrhoea and constipation from enteric nerve damage."
+  - target: 01-human/07-system/generalized-anxiety-disorder
+    relation: connects-to
+    note: "A demanding chronic disease breeds worry: the relentless self-management, fear of hypoglycaemia and dread of complications in type 2 diabetes generate diabetes distress and chronic anxiety alongside depression."
 ---
 
 # Type 2 Diabetes
@@ -366,6 +375,9 @@ T2DM, CKD, heart failure, and obesity form the **cardiorenal metabolic (CRM) syn
 - `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — Diabetes and depression feed each other: living with the disease and its complications raises depression risk, and depression in turn worsens glycemic control and self-care, a well-documented bidirectional loop.
 - `connects-to` → **[Osteoporosis](../osteoporosis/README.md)** — It weakens bone quality despite normal density: type 2 diabetes raises fracture risk through poor bone quality and falls, and the thiazolidinediones used to treat it accelerate bone loss.
 - `connects-to` → **[Aspergillus fumigatus](../../../02-pathogen/03-fungi/aspergillus-fumigatus/README.md)** — High glucose blunts the defenses against mold: the impaired neutrophil function and immune dysregulation of poorly controlled diabetes raise susceptibility to invasive fungal infection, including pulmonary aspergillosis.
+- `connects-to` → **[Neuropathic Pain](../neuropathic-pain/README.md)** — Chronic hyperglycaemia damages the nerves: distal symmetric diabetic polyneuropathy is among the commonest causes of neuropathic pain, with burning feet, numbness and the risk of unfelt foot injury.
+- `connects-to` → **[Digestive System](../digestive-system/README.md)** — Autonomic neuropathy slows the gut: long-standing type 2 diabetes can cause gastroparesis with nausea, bloating and erratic glucose control, plus diabetic diarrhoea and constipation from enteric nerve damage.
+- `connects-to` → **[Generalized Anxiety Disorder](../generalized-anxiety-disorder/README.md)** — A demanding chronic disease breeds worry: the relentless self-management, fear of hypoglycaemia and dread of complications in type 2 diabetes generate diabetes distress and chronic anxiety alongside depression.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
