@@ -196,6 +196,15 @@ cross_links:
   - target: 01-human/07-system/major-depressive-disorder
     relation: connects-to
     note: "A young-onset brain tumor weighs on mood: depression is common in IDH-mutant glioma, arising from tumor disruption of brain networks, corticosteroids and the burden of a slowly progressive, ultimately incurable cancer in young adults."
+  - target: 01-human/07-system/type-2-diabetes
+    relation: connects-to
+    note: "Its steroids raise blood sugar: the dexamethasone used to control peritumoral edema in IDH-mutant glioma induces insulin resistance, frequently causing steroid-induced hyperglycemia and diabetes."
+  - target: 02-pathogen/03-fungi/aspergillus-fumigatus
+    relation: connects-to
+    note: "Temozolomide and steroids open the lung to mold: the lymphopenia from temozolomide plus prolonged dexamethasone suppress immunity, occasionally permitting invasive aspergillosis."
+  - target: 01-human/07-system/wound-healing
+    relation: connects-to
+    note: "Chronic steroids impair repair: the long-term dexamethasone used to manage IDH-mutant glioma thins skin and slows the healing of craniotomy and biopsy wounds."
 ---
 
 # IDH-Mutant Glioma
@@ -387,6 +396,9 @@ IDH-mutant glioma with MGMT methylation shows strong alkylating agent sensitivit
 - `connects-to` → **[Pneumocystis jirovecii](../../../02-pathogen/03-fungi/pneumocystis-jirovecii/README.md)** — Its therapy specifically courts it: temozolomide-induced lymphopenia plus the prolonged dexamethasone used for tumor edema set up Pneumocystis pneumonia, so prophylaxis is recommended during chemoradiation.
 - `connects-to` → **[Anemia of Chronic Disease](../anemia-of-chronic-disease/README.md)** — Chemo and chronic illness blunt the marrow: temozolomide myelosuppression plus the inflammatory burden of a long-standing glioma depress erythropoiesis, adding an anemia-of-chronic-disease component.
 - `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — A young-onset brain tumor weighs on mood: depression is common in IDH-mutant glioma, arising from tumor disruption of brain networks, corticosteroids and the burden of a slowly progressive, ultimately incurable cancer in young adults.
+- `connects-to` → **[Type 2 Diabetes](../type-2-diabetes/README.md)** — Its steroids raise blood sugar: the dexamethasone used to control peritumoral edema in IDH-mutant glioma induces insulin resistance, frequently causing steroid-induced hyperglycemia and diabetes.
+- `connects-to` → **[Aspergillus fumigatus](../../../02-pathogen/03-fungi/aspergillus-fumigatus/README.md)** — Temozolomide and steroids open the lung to mold: the lymphopenia from temozolomide plus prolonged dexamethasone suppress immunity, occasionally permitting invasive aspergillosis.
+- `connects-to` → **[Wound Healing](../wound-healing/README.md)** — Chronic steroids impair repair: the long-term dexamethasone used to manage IDH-mutant glioma thins skin and slows the healing of craniotomy and biopsy wounds.
 
 [^mellinghoff-2023-vorasidenib-lgg]: Mellinghoff IK, van den Bent MJ, Blumenthal DT, et al. Vorasidenib in IDH1- or IDH2-mutant low-grade glioma. *N Engl J Med.* 2023;389(7):589-601. [doi:10.1056/NEJMoa2304194](https://doi.org/10.1056/NEJMoa2304194) · [PubMed 37272530](https://pubmed.ncbi.nlm.nih.gov/37272530/)
 [^jiao-2012-atrx-glioma]: Jiao Y, Killela PJ, Reitman ZJ, et al. Frequent ATRX, CIC, FUBP1 and IDH mutations refine the classification of malignant gliomas. *Oncotarget.* 2012;3(7):709-722. [doi:10.18632/oncotarget.588](https://doi.org/10.18632/oncotarget.588) · [PubMed 22869205](https://pubmed.ncbi.nlm.nih.gov/22869205/)

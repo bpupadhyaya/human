@@ -196,6 +196,15 @@ cross_links:
   - target: 01-human/07-system/major-depressive-disorder
     relation: connects-to
     note: "Pressure and mood interact: depression is more common in hypertension and worsens adherence and outcomes, while chronic stress and some antihypertensives influence mood, a clinically important two-way link."
+  - target: 01-human/07-system/generalized-anxiety-disorder
+    relation: connects-to
+    note: "Anxiety and blood pressure feed each other: chronic anxiety and sympathetic arousal acutely raise blood pressure, and living with hypertension breeds health anxiety — a bidirectional, clinically relevant link."
+  - target: 01-human/07-system/nash
+    relation: connects-to
+    note: "It clusters with fatty-liver disease: hypertension is a core component of the metabolic syndrome that drives NASH, the two coexisting through shared insulin resistance and visceral adiposity."
+  - target: 01-human/07-system/anemia-of-chronic-disease
+    relation: connects-to
+    note: "Through the kidney it lowers the blood count: hypertensive nephrosclerosis is a leading cause of chronic kidney disease, and the failing kidney's loss of erythropoietin produces a renal anemia."
 ---
 
 # Hypertension
@@ -346,6 +355,9 @@ Blood pressure is determined by: BP = Cardiac Output × Peripheral Vascular Resi
 - `connects-to` → **[Renal Cell Carcinoma](../renal-cell-carcinoma/README.md)** — The link runs both ways with the kidney's cancer: hypertension is an established risk factor for renal cell carcinoma, while the tumor's renin secretion and renal damage in turn cause secondary hypertension.
 - `connects-to` → **[Parkinson's Disease](../parkinsons-disease/README.md)** — Small-vessel damage muddies the movement disorder: midlife hypertension drives the cerebral small-vessel disease behind vascular parkinsonism, which mimics and worsens Parkinson's, and orthostatic swings complicate its management.
 - `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — Pressure and mood interact: depression is more common in hypertension and worsens adherence and outcomes, while chronic stress and some antihypertensives influence mood, a clinically important two-way link.
+- `connects-to` → **[Generalized Anxiety Disorder](../generalized-anxiety-disorder/README.md)** — Anxiety and blood pressure feed each other: chronic anxiety and sympathetic arousal acutely raise blood pressure, and living with hypertension breeds health anxiety — a bidirectional, clinically relevant link.
+- `connects-to` → **[NASH](../nash/README.md)** — It clusters with fatty-liver disease: hypertension is a core component of the metabolic syndrome that drives NASH, the two coexisting through shared insulin resistance and visceral adiposity.
+- `connects-to` → **[Anemia of Chronic Disease](../anemia-of-chronic-disease/README.md)** — Through the kidney it lowers the blood count: hypertensive nephrosclerosis is a leading cause of chronic kidney disease, and the failing kidney's loss of erythropoietin produces a renal anemia.
 
 ## Pathology
 
