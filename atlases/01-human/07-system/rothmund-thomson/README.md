@@ -178,6 +178,15 @@ cross_links:
   - target: 01-human/07-system/venous-thromboembolism
     relation: connects-to
     note: "Tumor and major surgery raise the clot risk: the osteosarcoma resections and chemotherapy these patients undergo predispose to perioperative venous thromboembolism."
+  - target: 01-human/07-system/osteoporosis
+    relation: connects-to
+    note: "The skeleton is built fragile: RTS's skeletal dysplasia, short stature and defective bone formation leave reduced bone density, so osteopenia and osteoporosis with fracture risk accompany the radial-ray and other bony defects."
+  - target: 01-human/07-system/anemia-of-chronic-disease
+    relation: connects-to
+    note: "Beyond marrow failure, chronic illness saps the count: alongside the aplastic-anemia tendency of the RECQL4 disorder, ongoing cancer and inflammation can add an anemia-of-chronic-disease component to the low blood counts."
+  - target: 01-human/07-system/ckd
+    relation: connects-to
+    note: "Its osteosarcoma chemo is nephrotoxic: high-dose methotrexate, cisplatin and ifosfamide used against the bone cancers RTS predisposes to injure the kidney, threatening lasting chronic kidney impairment in these patients."
 ---
 
 # Rothmund-Thomson Syndrome
@@ -368,6 +377,9 @@ The cardinal features of RTS type II are: (1) **poikiloderma** — the defining 
 - `connects-to` → **[RB1](../../03-molecular/rb1/README.md)** — RTS osteosarcoma runs through the RB pathway: the genomic instability of RECQL4 loss promotes RB1 inactivation, the same cell-cycle brake whose loss drives sporadic and Li-Fraumeni osteosarcomas.
 - `connects-to` → **[Sepsis](../sepsis/README.md)** — Cancer therapy invites sepsis: the intensive chemotherapy for the osteosarcoma RTS predisposes to, on top of the syndrome's own immunodeficiency and marrow failure, leaves patients prone to neutropenic infection and sepsis.
 - `connects-to` → **[Venous Thromboembolism](../venous-thromboembolism/README.md)** — Tumor and major surgery raise the clot risk: the osteosarcoma resections and chemotherapy these patients undergo predispose to perioperative venous thromboembolism.
+- `connects-to` → **[Osteoporosis](../osteoporosis/README.md)** — The skeleton is built fragile: RTS's skeletal dysplasia, short stature and defective bone formation leave reduced bone density, so osteopenia and osteoporosis with fracture risk accompany the radial-ray and other bony defects.
+- `connects-to` → **[Anemia of Chronic Disease](../anemia-of-chronic-disease/README.md)** — Beyond marrow failure, chronic illness saps the count: alongside the aplastic-anemia tendency of the RECQL4 disorder, ongoing cancer and inflammation can add an anemia-of-chronic-disease component to the low blood counts.
+- `connects-to` → **[Chronic Kidney Disease](../ckd/README.md)** — Its osteosarcoma chemo is nephrotoxic: high-dose methotrexate, cisplatin and ifosfamide used against the bone cancers RTS predisposes to injure the kidney, threatening lasting chronic kidney impairment in these patients.
 
 [^kitao-1999-recql4-rts]: Kitao S, Shimamoto A, Goto M, et al. Mutations in RECQL4 cause a subset of cases of Rothmund-Thomson syndrome. *Nat Genet.* 1999;22(1):82-84. [doi:10.1038/8788](https://doi.org/10.1038/8788) · [PubMed 10319867](https://pubmed.ncbi.nlm.nih.gov/10319867/)
 [^wang-2003-rts-cancer]: Wang LL, Gannavarapu A, Kozinetz CA, et al. Association between osteosarcoma and deleterious mutations in the RECQL4 gene in Rothmund-Thomson syndrome. *J Natl Cancer Inst.* 2003;95(9):669-674. [doi:10.1093/jnci/95.9.669](https://doi.org/10.1093/jnci/95.9.669) · [PubMed 12734318](https://pubmed.ncbi.nlm.nih.gov/12734318/)

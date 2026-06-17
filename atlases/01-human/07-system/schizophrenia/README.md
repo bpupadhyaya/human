@@ -187,6 +187,15 @@ cross_links:
   - target: 01-human/07-system/stroke
     relation: connects-to
     note: "The mortality gap reaches the brain: metabolic syndrome, antipsychotic effects, and smoking give schizophrenia a raised stroke risk, part of the cardiovascular disease that shortens life expectancy by 15-20 years."
+  - target: 01-human/07-system/venous-thromboembolism
+    relation: connects-to
+    note: "The antipsychotics themselves clot the veins: most antipsychotic drugs independently raise venous thromboembolism risk, compounded by sedation, immobility and obesity, so DVT and pulmonary embolism are a recognized treatment hazard."
+  - target: 01-human/07-system/parkinsons-disease
+    relation: connects-to
+    note: "Blocking dopamine mimics the disease: D2-antagonist antipsychotics induce a drug-induced parkinsonism — bradykinesia, rigidity and tremor — that can be hard to distinguish from idiopathic Parkinson's, the pharmacologic mirror of its dopamine deficit."
+  - target: 01-human/07-system/sepsis
+    relation: connects-to
+    note: "Clozapine can strip the neutrophils: the agranulocytosis caused by clozapine, the drug reserved for resistant schizophrenia, removes the front-line defense against bacteria and can precipitate life-threatening sepsis, mandating blood-count monitoring."
 ---
 
 # Schizophrenia
@@ -407,6 +416,9 @@ Notably, schizophrenia shares genetic loci with bipolar disorder, ASD, ADHD, maj
 - `connects-to` → **[NLRP3 Inflammasome](../../03-molecular/nlrp3-inflammasome/README.md)** — Neuroinflammation has an inflammasome arm: NLRP3-driven IL-1β release is implicated in the microglial activation and developmental disruption proposed in schizophrenia, complementing the complement-mediated synaptic pruning findings.
 - `connects-to` → **[Alcohol Use Disorder](../alcohol-use-disorder/README.md)** — Substance use runs high: alcohol use disorder is markedly more common in schizophrenia, used to self-medicate symptoms yet worsening psychosis, adherence, and the metabolic and cardiovascular toll of the illness.
 - `connects-to` → **[Stroke](../stroke/README.md)** — The mortality gap reaches the brain: metabolic syndrome, antipsychotic effects, and smoking give schizophrenia a raised stroke risk, part of the cardiovascular disease that shortens life expectancy by 15-20 years.
+- `connects-to` → **[Venous Thromboembolism](../venous-thromboembolism/README.md)** — The antipsychotics themselves clot the veins: most antipsychotic drugs independently raise venous thromboembolism risk, compounded by sedation, immobility and obesity, so DVT and pulmonary embolism are a recognized treatment hazard.
+- `connects-to` → **[Parkinson's Disease](../parkinsons-disease/README.md)** — Blocking dopamine mimics the disease: D2-antagonist antipsychotics induce a drug-induced parkinsonism — bradykinesia, rigidity and tremor — that can be hard to distinguish from idiopathic Parkinson's, the pharmacologic mirror of its dopamine deficit.
+- `connects-to` → **[Sepsis](../sepsis/README.md)** — Clozapine can strip the neutrophils: the agranulocytosis caused by clozapine, the drug reserved for resistant schizophrenia, removes the front-line defense against bacteria and can precipitate life-threatening sepsis, mandating blood-count monitoring.
 
 [^howes-2009-dopamine-hypothesis]: Howes OD, Kapur S. The dopamine hypothesis of schizophrenia: version III—the final common pathway. *Schizophr Bull.* 2009;35(3):549-562. [doi:10.1093/schbul/sbp006](https://doi.org/10.1093/schbul/sbp006) · [PubMed 19325164](https://pubmed.ncbi.nlm.nih.gov/19325164/)
 [^moghaddam-2012-glutamate]: Moghaddam B, Javitt D. From revolution to evolution: the glutamate hypothesis of schizophrenia and its implication for treatment. *Neuropsychopharmacology.* 2012;37(1):4-15. [doi:10.1038/npp.2011.181](https://doi.org/10.1038/npp.2011.181) · [PubMed 21956446](https://pubmed.ncbi.nlm.nih.gov/21956446/)
