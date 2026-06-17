@@ -178,6 +178,15 @@ cross_links:
   - target: 01-human/07-system/sepsis
     relation: connects-to
     note: "Intensive chemotherapy invites sepsis: the VAC regimen's deep neutropenia leaves children with rhabdomyosarcoma prone to febrile neutropenia and bloodstream infection through the long treatment course."
+  - target: 01-human/03-molecular/stat3
+    relation: connects-to
+    note: "An activating receptor signals through it: FGFR4 mutations recurrent in rhabdomyosarcoma drive STAT3 activation that promotes survival and proliferation, marking the pathway as a candidate target in fusion-positive disease."
+  - target: 01-human/07-system/aml
+    relation: connects-to
+    note: "Its cure can seed a later leukemia: the alkylators and topoisomerase poisons in the VAC backbone carry a small risk of therapy-related acute myeloid leukemia years after rhabdomyosarcoma treatment."
+  - target: 01-human/07-system/ckd
+    relation: connects-to
+    note: "Ifosfamide scars the young kidney: the alkylator central to many rhabdomyosarcoma regimens is tubulotoxic, causing a Fanconi-type tubulopathy and lasting chronic kidney impairment in treated children."
 ---
 
 # Rhabdomyosarcoma
@@ -359,6 +368,9 @@ Maximal safe resection with negative margins (R0) wherever achievable without mu
 - `connects-to` → **[CDKN2A](../../03-molecular/cdkn2a/README.md)** — Cell-cycle loss marks the fusion-negative tumors: CDKN2A deletion is recurrent in embryonal rhabdomyosarcoma, releasing CDK4/6 to drive proliferation and complementing the cell-cycle amplicons of the fusion-positive subtype.
 - `connects-to` → **[Neuropathic Pain](../neuropathic-pain/README.md)** — Tumor and treatment hurt the nerves: head-and-neck, paraspinal, and pelvic rhabdomyosarcomas compress nerves, and vincristine adds a peripheral neuropathy, together a real pain burden in these children.
 - `connects-to` → **[Sepsis](../sepsis/README.md)** — Intensive chemotherapy invites sepsis: the VAC regimen's deep neutropenia leaves children with rhabdomyosarcoma prone to febrile neutropenia and bloodstream infection through the long treatment course.
+- `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — An activating receptor signals through it: FGFR4 mutations recurrent in rhabdomyosarcoma drive STAT3 activation that promotes survival and proliferation, marking the pathway as a candidate target in fusion-positive disease.
+- `connects-to` → **[AML](../aml/README.md)** — Its cure can seed a later leukemia: the alkylators and topoisomerase poisons in the VAC backbone carry a small risk of therapy-related acute myeloid leukemia years after rhabdomyosarcoma treatment.
+- `connects-to` → **[Chronic Kidney Disease](../ckd/README.md)** — Ifosfamide scars the young kidney: the alkylator central to many rhabdomyosarcoma regimens is tubulotoxic, causing a Fanconi-type tubulopathy and lasting chronic kidney impairment in treated children.
 
 [^crist-2001-irs4-rms]: Crist WM, Anderson JR, Meza JL, et al. Intergroup rhabdomyosarcoma study-IV: results for patients with nonmetastatic disease. *J Clin Oncol.* 2001;19(12):3091-3102. [doi:10.1200/JCO.2001.19.12.3091](https://doi.org/10.1200/JCO.2001.19.12.3091) · [PubMed 11408506](https://pubmed.ncbi.nlm.nih.gov/11408506/)
 [^oberlin-2012-mmt95-rms]: Oberlin O, Rey A, Sanchez de Toledo J, et al. Randomized comparison of intensified six-drug versus standard three-drug chemotherapy for high-risk nonmetastatic rhabdomyosarcoma and other chemotherapy-sensitive childhood soft tissue sarcomas. *J Clin Oncol.* 2012;30(19):2457-2465. [doi:10.1200/JCO.2011.39.3538](https://doi.org/10.1200/JCO.2011.39.3538) · [PubMed 22665546](https://pubmed.ncbi.nlm.nih.gov/22665546/)

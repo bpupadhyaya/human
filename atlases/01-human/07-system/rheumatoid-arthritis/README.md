@@ -184,6 +184,15 @@ cross_links:
   - target: 01-human/03-molecular/nlrp3-inflammasome
     relation: connects-to
     note: "The inflammasome amplifies the synovitis: NLRP3 in synovial macrophages releases IL-1β that drives cartilage breakdown and osteoclast bone erosion, an innate-immune engine alongside the autoantibody response."
+  - target: 01-human/07-system/tuberculosis
+    relation: connects-to
+    note: "Its biologics can wake latent TB: TNF-α inhibitors disable the granuloma that walls off Mycobacterium tuberculosis, so RA patients are screened and treated for latent infection before starting therapy to prevent reactivation."
+  - target: 02-pathogen/03-fungi/pneumocystis-jirovecii
+    relation: connects-to
+    note: "Combination immunosuppression opens the lung to it: methotrexate plus steroids or biologics in RA can drop T-cell defenses enough for Pneumocystis pneumonia, sometimes warranting prophylaxis in high-intensity regimens."
+  - target: 02-pathogen/01-viruses/hepatitis-b-virus
+    relation: connects-to
+    note: "Immunosuppression can reactivate it: rituximab and TNF inhibitors used in RA can reawaken occult hepatitis B, so serologic screening and antiviral prophylaxis precede these therapies to avert a flare."
 ---
 
 # Rheumatoid Arthritis
@@ -381,6 +390,9 @@ RA patients have:
 - `connects-to` → **[Epstein-Barr Virus](../../../02-pathogen/01-viruses/epstein-barr-virus/README.md)** — EBV is woven into RA's biology: the virus is implicated in triggering the autoimmunity, and reactivation underlies many of the methotrexate-associated lymphoproliferations that can complicate long-term RA treatment.
 - `connects-to` → **[Diffuse Large B-Cell Lymphoma](../dlbcl/README.md)** — Chronic immune activation raises lymphoma risk: RA — especially highly active disease and immunosuppressive therapy — increases the risk of diffuse large B-cell lymphoma, sometimes EBV-driven and regressing when methotrexate is stopped.
 - `connects-to` → **[NLRP3 Inflammasome](../../03-molecular/nlrp3-inflammasome/README.md)** — The inflammasome amplifies the synovitis: NLRP3 in synovial macrophages releases IL-1β that drives cartilage breakdown and osteoclast bone erosion, an innate-immune engine alongside the autoantibody response.
+- `connects-to` → **[Tuberculosis](../tuberculosis/README.md)** — Its biologics can wake latent TB: TNF-α inhibitors disable the granuloma that walls off Mycobacterium tuberculosis, so RA patients are screened and treated for latent infection before starting therapy to prevent reactivation.
+- `connects-to` → **[Pneumocystis jirovecii](../../../02-pathogen/03-fungi/pneumocystis-jirovecii/README.md)** — Combination immunosuppression opens the lung to it: methotrexate plus steroids or biologics in RA can drop T-cell defenses enough for Pneumocystis pneumonia, sometimes warranting prophylaxis in high-intensity regimens.
+- `connects-to` → **[Hepatitis B Virus](../../../02-pathogen/01-viruses/hepatitis-b-virus/README.md)** — Immunosuppression can reactivate it: rituximab and TNF inhibitors used in RA can reawaken occult hepatitis B, so serologic screening and antiviral prophylaxis precede these therapies to avert a flare.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
