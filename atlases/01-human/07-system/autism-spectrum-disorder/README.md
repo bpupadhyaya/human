@@ -202,6 +202,15 @@ cross_links:
   - target: 01-human/07-system/obesity
     relation: connects-to
     note: "Several forces tip toward weight gain: restricted food preferences, reduced physical activity, and the appetite-stimulating antipsychotics often prescribed in autism combine to raise the rate of obesity."
+  - target: 01-human/07-system/type-2-diabetes
+    relation: connects-to
+    note: "Antipsychotics and obesity raise the risk: the metabolic side effects of antipsychotics prescribed for irritability in autism, on top of its associated obesity and inactivity, elevate the rate of type 2 diabetes."
+  - target: 01-human/07-system/iron-deficiency-anemia
+    relation: connects-to
+    note: "Selective eating starves the body of iron: the rigid, narrow food preferences and avoidant-restrictive eating common in autism frequently lead to inadequate iron intake and iron-deficiency anemia."
+  - target: 01-human/07-system/anorexia-nervosa
+    relation: connects-to
+    note: "Rigidity and sensory aversion feed eating disorders: autism markedly raises the risk of restrictive eating disorders like anorexia, where its inflexibility and sensory sensitivities shape and entrench the food restriction."
 ---
 
 # Autism Spectrum Disorder
@@ -400,6 +409,9 @@ The neural basis of ASD social deficits involves dysfunction of the **social bra
 - `connects-to` → **[Social Anxiety Disorder](../social-anxiety-disorder/README.md)** — Social difficulty breeds social fear: social anxiety is among the most common comorbidities in autism, as repeated misread interactions and rejection foster intense anticipatory fear of social situations.
 - `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — Isolation and burnout darken mood: depression is markedly elevated in autistic people, driven by loneliness, the exhaustion of masking, and the cumulative toll of navigating an unaccommodating world.
 - `connects-to` → **[Obesity](../obesity/README.md)** — Several forces tip toward weight gain: restricted food preferences, reduced physical activity, and the appetite-stimulating antipsychotics often prescribed in autism combine to raise the rate of obesity.
+- `connects-to` → **[Type 2 Diabetes](../type-2-diabetes/README.md)** — Antipsychotics and obesity raise the risk: the metabolic side effects of antipsychotics prescribed for irritability in autism, on top of its associated obesity and inactivity, elevate the rate of type 2 diabetes.
+- `connects-to` → **[Iron-Deficiency Anemia](../iron-deficiency-anemia/README.md)** — Selective eating starves the body of iron: the rigid, narrow food preferences and avoidant-restrictive eating common in autism frequently lead to inadequate iron intake and iron-deficiency anemia.
+- `connects-to` → **[Anorexia Nervosa](../anorexia-nervosa/README.md)** — Rigidity and sensory aversion feed eating disorders: autism markedly raises the risk of restrictive eating disorders like anorexia, where its inflexibility and sensory sensitivities shape and entrench the food restriction.
 
 [^maenner-2023-asd-prevalence]: Maenner MJ, Warren Z, Williams AR, et al. Prevalence and characteristics of autism spectrum disorder among children aged 8 years — ADDM Network, 2020. *MMWR Surveill Summ.* 2023;72(2):1-14. [doi:10.15585/mmwr.ss7202a1](https://doi.org/10.15585/mmwr.ss7202a1) · [PubMed 36952216](https://pubmed.ncbi.nlm.nih.gov/36952216/)
 [^lord-2020-asd-review]: Lord C, Elsabbagh M, Baird G, Veenstra-Vanderweele J. Autism spectrum disorder. *Lancet.* 2018;392(10146):508-520. [doi:10.1016/S0140-6736(18)31129-2](https://doi.org/10.1016/S0140-6736(18)31129-2) · [PubMed 30078460](https://pubmed.ncbi.nlm.nih.gov/30078460/)
