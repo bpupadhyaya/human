@@ -196,6 +196,15 @@ cross_links:
   - target: 01-human/07-system/major-depressive-disorder
     relation: connects-to
     note: "A dismal prognosis weighs on mood: relentless breathlessness and chest pain, a near-uniformly fatal course and often unresolved asbestos-related litigation give mesothelioma a heavy burden of depression."
+  - target: 02-pathogen/03-fungi/aspergillus-fumigatus
+    relation: connects-to
+    note: "Chemotherapy and damaged pleura open the lung to mold: the neutropenia from pemetrexed-platinum chemotherapy, plus a scarred, trapped lung, can let inhaled Aspergillus invade as pulmonary aspergillosis."
+  - target: 01-human/07-system/wound-healing
+    relation: connects-to
+    note: "Radical chest surgery heals badly: extrapleural pneumonectomy or decortication for mesothelioma, plus repeated chest drains and pleurodesis, leave large thoracic wounds slow to heal in a cachectic patient."
+  - target: 01-human/07-system/generalized-anxiety-disorder
+    relation: connects-to
+    note: "Breathlessness and a grim prognosis breed worry: the air hunger, chest pain and near-uniformly fatal outlook of mesothelioma, with its asbestos-litigation stress, foster severe anxiety alongside depression."
 ---
 
 # Mesothelioma
@@ -374,6 +383,9 @@ Cytoreductive surgery (CRS) + hyperthermic intraperitoneal chemotherapy (HIPEC):
 - `connects-to` → **[Neuropathic Pain](../neuropathic-pain/README.md)** — It grows into the chest wall and nerves: mesothelioma encases the pleura and invades the chest wall and intercostal nerves, causing severe, often intractable neuropathic chest pain that dominates the illness.
 - `connects-to` → **[Chronic Kidney Disease](../ckd/README.md)** — Its chemo is hard on the kidney: the cisplatin-pemetrexed backbone of mesothelioma treatment is nephrotoxic, and pemetrexed is renally cleared, so impaired and injured kidneys both threaten and are threatened by therapy.
 - `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — A dismal prognosis weighs on mood: relentless breathlessness and chest pain, a near-uniformly fatal course and often unresolved asbestos-related litigation give mesothelioma a heavy burden of depression.
+- `connects-to` → **[Aspergillus fumigatus](../../../02-pathogen/03-fungi/aspergillus-fumigatus/README.md)** — Chemotherapy and damaged pleura open the lung to mold: the neutropenia from pemetrexed-platinum chemotherapy, plus a scarred, trapped lung, can let inhaled Aspergillus invade as pulmonary aspergillosis.
+- `connects-to` → **[Wound Healing](../wound-healing/README.md)** — Radical chest surgery heals badly: extrapleural pneumonectomy or decortication for mesothelioma, plus repeated chest drains and pleurodesis, leave large thoracic wounds slow to heal in a cachectic patient.
+- `connects-to` → **[Generalized Anxiety Disorder](../generalized-anxiety-disorder/README.md)** — Breathlessness and a grim prognosis breed worry: the air hunger, chest pain and near-uniformly fatal outlook of mesothelioma, with its asbestos-litigation stress, foster severe anxiety alongside depression.
 
 [^baas-2021-checkmate743]: Baas P, Scherpereel A, Nowak AK, et al. First-line nivolumab plus ipilimumab in unresectable malignant pleural mesothelioma (CheckMate 743). *Lancet.* 2021;397(10272):375-386. [doi:10.1016/S0140-6736(20)32714-8](https://doi.org/10.1016/S0140-6736(20)32714-8) · [PubMed 33485464](https://pubmed.ncbi.nlm.nih.gov/33485464/)
 [^vogelzang-2003-pemetrexed]: Vogelzang NJ, Rusthoven JJ, Symanowski J, et al. Phase III study of pemetrexed in combination with cisplatin versus cisplatin alone in patients with malignant pleural mesothelioma. *J Clin Oncol.* 2003;21(14):2636-2644. [doi:10.1200/JCO.2003.11.136](https://doi.org/10.1200/JCO.2003.11.136) · [PubMed 12860938](https://pubmed.ncbi.nlm.nih.gov/12860938/)
