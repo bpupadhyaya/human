@@ -190,6 +190,15 @@ cross_links:
   - target: 01-human/07-system/venous-thromboembolism
     relation: connects-to
     note: "Excess weight thickens and slows the blood: obesity raises clotting factors and venous stasis, making it a major independent risk factor for deep-vein thrombosis and pulmonary embolism."
+  - target: 01-human/07-system/renal-cell-carcinoma
+    relation: connects-to
+    note: "Excess fat fuels a kidney cancer: obesity is a major modifiable risk factor for renal cell carcinoma, acting through insulin/IGF signaling, adipokines and chronic inflammation that promote renal tumorigenesis."
+  - target: 01-human/07-system/psoriasis
+    relation: connects-to
+    note: "Fat is an inflammatory organ that feeds the plaques: adipose-derived TNF-α and IL-6 worsen psoriasis, so obesity raises its incidence and severity and blunts treatment response, a bidirectional inflammatory link."
+  - target: 01-human/07-system/asthma
+    relation: connects-to
+    note: "Weight reshapes the airways: obesity drives a distinct, often steroid-resistant asthma phenotype through mechanical restriction of the chest and adipokine-driven airway inflammation, worsening control."
 ---
 
 # Obesity
@@ -387,6 +396,9 @@ This **metainflammation** mechanistically links obesity to type 2 diabetes, athe
 - `connects-to` → **[NF-κB](../../03-molecular/nf-kb/README.md)** — Overfed fat smolders with inflammation: free fatty acids and stressed adipocytes activate NF-κB in fat-resident macrophages, the master switch behind the chronic low-grade inflammation that links obesity to insulin resistance.
 - `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — The brain stops hearing the satiety signal: leptin acts through JAK2-STAT3 in the hypothalamus to curb appetite, and obesity blunts this STAT3 signaling into leptin resistance, so high leptin no longer suppresses eating.
 - `connects-to` → **[Venous Thromboembolism](../venous-thromboembolism/README.md)** — Excess weight thickens and slows the blood: obesity raises clotting factors and venous stasis, making it a major independent risk factor for deep-vein thrombosis and pulmonary embolism.
+- `connects-to` → **[Renal Cell Carcinoma](../renal-cell-carcinoma/README.md)** — Excess fat fuels a kidney cancer: obesity is a major modifiable risk factor for renal cell carcinoma, acting through insulin/IGF signaling, adipokines and chronic inflammation that promote renal tumorigenesis.
+- `connects-to` → **[Psoriasis](../psoriasis/README.md)** — Fat is an inflammatory organ that feeds the plaques: adipose-derived TNF-α and IL-6 worsen psoriasis, so obesity raises its incidence and severity and blunts treatment response, a bidirectional inflammatory link.
+- `connects-to` → **[Asthma](../asthma/README.md)** — Weight reshapes the airways: obesity drives a distinct, often steroid-resistant asthma phenotype through mechanical restriction of the chest and adipokine-driven airway inflammation, worsening control.
 
 [^bluher-2019-obesity-review]: Blüher M. Obesity: global epidemiology and pathogenesis. *Nat Rev Endocrinol.* 2019;15(5):288-298. [doi:10.1038/s41574-019-0176-8](https://doi.org/10.1038/s41574-019-0176-8) · [PubMed 30814686](https://pubmed.ncbi.nlm.nih.gov/30814686/)
 [^wilding-2021-semaglutide-step1]: Wilding JPH, Batterham RL, Calanna S, et al. Once-weekly semaglutide in adults with overweight or obesity. *N Engl J Med.* 2021;384(11):989-1002. [doi:10.1056/NEJMoa2032183](https://doi.org/10.1056/NEJMoa2032183) · [PubMed 33567185](https://pubmed.ncbi.nlm.nih.gov/33567185/)
