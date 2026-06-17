@@ -196,6 +196,15 @@ cross_links:
   - target: 01-human/07-system/heart-failure
     relation: connects-to
     note: "Aging hemophiliacs now meet heart disease: with near-normal lifespans, older patients develop coronary disease and heart failure, whose antithrombotic management is a delicate balance against their underlying bleeding tendency."
+  - target: 01-human/07-system/neuropathic-pain
+    relation: connects-to
+    note: "Bleeds compress nerves and wreck joints: hematomas pressing on peripheral nerves and the chronic hemophilic arthropathy from recurrent hemarthrosis generate persistent neuropathic and nociceptive pain in hemophilia A."
+  - target: 01-human/07-system/ckd
+    relation: connects-to
+    note: "The kidneys both bleed and decline: recurrent hematuria is common in hemophilia, and aging patients — many with prior HIV or hepatitis C from old factor concentrates — face rising rates of hypertension and chronic kidney disease."
+  - target: 01-human/07-system/hypertension
+    relation: connects-to
+    note: "Blood pressure runs high in this population: hemophilia A patients show a higher prevalence of hypertension than the general population, compounding the bleeding risk of any intracranial event."
 ---
 
 # Hemophilia A
@@ -376,6 +385,9 @@ FVIII is a critical **amplifier** of the coagulation cascade at the junction bet
 - `connects-to` → **[Opioid Use Disorder](../opioid-use-disorder/README.md)** — Crippled joints drive long-term opioid use: the recurrent hemarthroses of hemophilia destroy joints into a painful arthropathy, and the chronic pain often leads to sustained opioid use with its risk of dependence.
 - `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — A lifelong disease with a heavy history weighs on mood: chronic pain, disability, and for older patients the trauma of transfusion-acquired HIV and hepatitis C give hemophilia A a high burden of depression.
 - `connects-to` → **[Heart Failure](../heart-failure/README.md)** — Aging hemophiliacs now meet heart disease: with near-normal lifespans, older patients develop coronary disease and heart failure, whose antithrombotic management is a delicate balance against their underlying bleeding tendency.
+- `connects-to` → **[Neuropathic Pain](../neuropathic-pain/README.md)** — Bleeds compress nerves and wreck joints: hematomas pressing on peripheral nerves and the chronic hemophilic arthropathy from recurrent hemarthrosis generate persistent neuropathic and nociceptive pain in hemophilia A.
+- `connects-to` → **[Chronic Kidney Disease](../ckd/README.md)** — The kidneys both bleed and decline: recurrent hematuria is common in hemophilia, and aging patients — many with prior HIV or hepatitis C from old factor concentrates — face rising rates of hypertension and chronic kidney disease.
+- `connects-to` → **[Hypertension](../hypertension/README.md)** — Blood pressure runs high in this population: hemophilia A patients show a higher prevalence of hypertension than the general population, compounding the bleeding risk of any intracranial event.
 
 [^oldenburg-2017-emicizumab-haven1]: Oldenburg J, Mahlangu JN, Kim B, et al. Emicizumab prophylaxis in hemophilia A with inhibitors. *N Engl J Med.* 2017;377(9):809-818. [doi:10.1056/NEJMoa1703068](https://doi.org/10.1056/NEJMoa1703068) · [PubMed 28691557](https://pubmed.ncbi.nlm.nih.gov/28691557/)
 [^mahlangu-2018-emicizumab-haven3]: Mahlangu J, Oldenburg J, Paz-Priel I, et al. Emicizumab prophylaxis in patients who have hemophilia A without inhibitors. *N Engl J Med.* 2018;379(9):811-822. [doi:10.1056/NEJMoa1803550](https://doi.org/10.1056/NEJMoa1803550) · [PubMed 30157389](https://pubmed.ncbi.nlm.nih.gov/30157389/)

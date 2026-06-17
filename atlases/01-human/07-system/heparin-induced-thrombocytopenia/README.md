@@ -196,6 +196,15 @@ cross_links:
   - target: 01-human/07-system/polycythemia-vera
     relation: connects-to
     note: "It joins the differential of thrombosis with an odd platelet count: when clotting coincides with abnormal platelets, myeloproliferative disorders like polycythemia vera are weighed alongside HIT as drivers of an acquired prothrombotic state."
+  - target: 01-human/07-system/wound-healing
+    relation: connects-to
+    note: "Its clots kill tissue and leave wounds: HIT thrombosis causes heparin-injection-site skin necrosis and limb ischemia that can progress to gangrene and amputation, leaving major wounds to heal."
+  - target: 01-human/07-system/ptsd
+    relation: connects-to
+    note: "A sudden limb-threatening crisis can scar the mind: HIT often strikes critically ill patients, and surviving its abrupt thrombosis, amputation or ICU course can leave post-traumatic stress."
+  - target: 01-human/07-system/major-depressive-disorder
+    relation: connects-to
+    note: "Limb loss and prolonged illness weigh on mood: the disability from HIT-related amputation and the protracted critical illness it accompanies contribute to depression in survivors."
 ---
 
 # Heparin-Induced Thrombocytopenia
@@ -399,6 +408,9 @@ Platelet consumption → thrombocytopenia (paradox: clotting despite low platele
 - `connects-to` → **[Heart Failure](../heart-failure/README.md)** — Large clots can buckle the right heart: a massive pulmonary embolism thrown by HIT acutely overloads the right ventricle into acute cor pulmonale, and HIT itself often arises after cardiac surgery in patients with limited cardiac reserve.
 - `connects-to` → **[Anemia of Chronic Disease](../anemia-of-chronic-disease/README.md)** — It strikes the already critically ill: HIT typically develops in post-surgical and intensive-care patients who carry the anemia of chronic disease from their inflammatory state, compounding the hematologic complexity.
 - `connects-to` → **[Polycythemia Vera](../polycythemia-vera/README.md)** — It joins the differential of thrombosis with an odd platelet count: when clotting coincides with abnormal platelets, myeloproliferative disorders like polycythemia vera are weighed alongside HIT as drivers of an acquired prothrombotic state.
+- `connects-to` → **[Wound Healing](../wound-healing/README.md)** — Its clots kill tissue and leave wounds: HIT thrombosis causes heparin-injection-site skin necrosis and limb ischemia that can progress to gangrene and amputation, leaving major wounds to heal.
+- `connects-to` → **[PTSD](../ptsd/README.md)** — A sudden limb-threatening crisis can scar the mind: HIT often strikes critically ill patients, and surviving its abrupt thrombosis, amputation or ICU course can leave post-traumatic stress.
+- `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — Limb loss and prolonged illness weigh on mood: the disability from HIT-related amputation and the protracted critical illness it accompanies contribute to depression in survivors.
 
 [^warkentin-2007-hit-review]: Warkentin TE, Greinacher A. Heparin-induced thrombocytopenia: recognition, treatment, and prevention. *Chest.* 2004;126(3 Suppl):311S-337S. [doi:10.1378/chest.126.3_suppl.311S](https://doi.org/10.1378/chest.126.3_suppl.311S) · [PubMed 15383477](https://pubmed.ncbi.nlm.nih.gov/15383477/)
 [^greinacher-2021-vitt-nejm]: Greinacher A, Thiele T, Warkentin TE, et al. Thrombotic thrombocytopenia after ChAdOx1 nCov-19 vaccination. *N Engl J Med.* 2021;384(22):2092-2101. [doi:10.1056/NEJMoa2104840](https://doi.org/10.1056/NEJMoa2104840) · [PubMed 33835769](https://pubmed.ncbi.nlm.nih.gov/33835769/)
