@@ -187,6 +187,15 @@ cross_links:
   - target: 01-human/07-system/anemia-of-chronic-disease
     relation: connects-to
     note: "Marrow metastasis and inflammation drain the blood: high-risk neuroblastoma commonly infiltrates the bone marrow and raises inflammatory cytokines, producing anemia from both crowding and chronic disease."
+  - target: 01-human/07-system/heart-failure
+    relation: connects-to
+    note: "Its anthracyclines scar the developing heart: the doxorubicin in high-risk neuroblastoma regimens is dose-dependently cardiotoxic, risking a cardiomyopathy and heart failure that can emerge years into survivorship."
+  - target: 02-pathogen/03-fungi/aspergillus-fumigatus
+    relation: connects-to
+    note: "High-dose therapy strips the lung's defenses: the intensive chemotherapy and autologous stem-cell transplant for high-risk neuroblastoma cause profound neutropenia, letting inhaled Aspergillus invade as pulmonary aspergillosis."
+  - target: 01-human/07-system/ckd
+    relation: connects-to
+    note: "Its platinum chemo scars young kidneys: the cisplatin and carboplatin central to neuroblastoma regimens are nephrotoxic, and in a child the tubular and electrolyte injury can leave lasting chronic kidney impairment."
 ---
 
 # Neuroblastoma
@@ -380,6 +389,9 @@ Stage MS (metastatic, <18 months, skin/liver/bone marrow only, MYCN wild-type): 
 - `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — STAT3 backs the high-risk tumor: MYCN-amplified neuroblastoma shows STAT3 activation that supports proliferation and immune evasion, a pathway explored where this childhood cancer resists intensive therapy.
 - `connects-to` → **[Venous Thromboembolism](../venous-thromboembolism/README.md)** — Tumor and central lines clot the veins: neuroblastoma's hypercoagulable state, the long-term central venous catheters and the immobility of intensive treatment together raise venous thromboembolism risk in these children.
 - `connects-to` → **[Anemia of Chronic Disease](../anemia-of-chronic-disease/README.md)** — Marrow metastasis and inflammation drain the blood: high-risk neuroblastoma commonly infiltrates the bone marrow and raises inflammatory cytokines, producing anemia from both crowding and chronic disease.
+- `connects-to` → **[Heart Failure](../heart-failure/README.md)** — Its anthracyclines scar the developing heart: the doxorubicin in high-risk neuroblastoma regimens is dose-dependently cardiotoxic, risking a cardiomyopathy and heart failure that can emerge years into survivorship.
+- `connects-to` → **[Aspergillus fumigatus](../../../02-pathogen/03-fungi/aspergillus-fumigatus/README.md)** — High-dose therapy strips the lung's defenses: the intensive chemotherapy and autologous stem-cell transplant for high-risk neuroblastoma cause profound neutropenia, letting inhaled Aspergillus invade as pulmonary aspergillosis.
+- `connects-to` → **[Chronic Kidney Disease](../ckd/README.md)** — Its platinum chemo scars young kidneys: the cisplatin and carboplatin central to neuroblastoma regimens are nephrotoxic, and in a child the tubular and electrolyte injury can leave lasting chronic kidney impairment.
 
 [^yu-2010-dinutuximab-nb]: Yu AL, Gilman AL, Ozkaynak MF, et al. Anti-GD2 antibody with GM-CSF, interleukin-2, and isotretinoin for neuroblastoma. *N Engl J Med.* 2010;363(14):1324-1334. [doi:10.1056/NEJMoa0911123](https://doi.org/10.1056/NEJMoa0911123) · [PubMed 20879881](https://pubmed.ncbi.nlm.nih.gov/20879881/)
 [^park-2019-tandem-sct-nb]: Park JR, Kreissman SG, London WB, et al. Effect of tandem autologous stem cell transplant vs single transplant on event-free survival in patients with high-risk neuroblastoma: a randomized clinical trial. *JAMA.* 2019;322(8):746-755. [doi:10.1001/jama.2019.11642](https://doi.org/10.1001/jama.2019.11642) · [PubMed 31454023](https://pubmed.ncbi.nlm.nih.gov/31454023/)

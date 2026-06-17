@@ -187,6 +187,15 @@ cross_links:
   - target: 01-human/07-system/sepsis
     relation: connects-to
     note: "Liver metastases and surgery invite infection: NETs commonly spread to the liver where biliary obstruction and tumor-debulking surgery can seed cholangitis and abdominal sepsis."
+  - target: 01-human/07-system/type-2-diabetes
+    relation: connects-to
+    note: "Their hormones and therapy unbalance glucose: pancreatic NETs like glucagonoma and somatostatinoma directly disturb glucose handling, and the somatostatin-analogue treatment used for most NETs suppresses insulin, together provoking diabetes."
+  - target: 01-human/07-system/ckd
+    relation: connects-to
+    note: "Their radioligand therapy stresses the kidneys: peptide-receptor radionuclide therapy with lutetium-DOTATATE concentrates in the renal tubules, and the cumulative radiation can drive a slow decline into chronic kidney disease."
+  - target: 01-human/07-system/major-depressive-disorder
+    relation: connects-to
+    note: "A chronic, flushing cancer wears on mood: the years-long course of metastatic NETs, the disabling diarrhea and flushing of carcinoid syndrome, and serotonin diversion away from the brain combine to raise depression risk."
 ---
 
 # Neuroendocrine Tumors
@@ -348,6 +357,9 @@ Treatment identical to SCLC: cisplatin (or carboplatin) + etoposide (4-6 cycles)
 - `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — STAT3 supports the neuroendocrine clone: signaling through STAT3 backs proliferation and survival in neuroendocrine tumors, one of the pathways downstream of the mTOR and growth-factor activation that drives them.
 - `connects-to` → **[NF-κB](../../03-molecular/nf-kb/README.md)** — NF-κB adds an inflammatory survival signal: neuroendocrine tumor cells engage NF-κB-dependent survival and angiogenic signaling, contributing to the growth of these often slow but persistent tumors.
 - `connects-to` → **[Sepsis](../sepsis/README.md)** — Liver metastases and surgery invite infection: NETs commonly spread to the liver where biliary obstruction and tumor-debulking surgery can seed cholangitis and abdominal sepsis.
+- `connects-to` → **[Type 2 Diabetes](../type-2-diabetes/README.md)** — Their hormones and therapy unbalance glucose: pancreatic NETs like glucagonoma and somatostatinoma directly disturb glucose handling, and the somatostatin-analogue treatment used for most NETs suppresses insulin, together provoking diabetes.
+- `connects-to` → **[Chronic Kidney Disease](../ckd/README.md)** — Their radioligand therapy stresses the kidneys: peptide-receptor radionuclide therapy with lutetium-DOTATATE concentrates in the renal tubules, and the cumulative radiation can drive a slow decline into chronic kidney disease.
+- `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — A chronic, flushing cancer wears on mood: the years-long course of metastatic NETs, the disabling diarrhea and flushing of carcinoid syndrome, and serotonin diversion away from the brain combine to raise depression risk.
 
 [^yao-2011-radiant3]: Yao JC, Shah MH, Ito T, et al. Everolimus for advanced pancreatic neuroendocrine tumors. *N Engl J Med.* 2011;364(6):514-523. [doi:10.1056/NEJMoa1009290](https://doi.org/10.1056/NEJMoa1009290) · [PubMed 21306237](https://pubmed.ncbi.nlm.nih.gov/21306237/)
 [^raymond-2011-sunitinib-pnet]: Raymond E, Dahan L, Raoul JL, et al. Sunitinib malate for the treatment of pancreatic neuroendocrine tumors. *N Engl J Med.* 2011;364(6):501-513. [doi:10.1056/NEJMoa1003825](https://doi.org/10.1056/NEJMoa1003825) · [PubMed 21306236](https://pubmed.ncbi.nlm.nih.gov/21306236/)
