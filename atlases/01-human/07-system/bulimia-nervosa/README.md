@@ -189,6 +189,15 @@ cross_links:
   - target: 01-human/07-system/insomnia-disorder
     relation: connects-to
     note: "Disordered eating disorders sleep: night-time binge-purge cycles, hunger and the anxiety and depression that accompany bulimia fragment sleep, so insomnia is common and feeds back into the eating pathology."
+  - target: 01-human/07-system/obesity
+    relation: connects-to
+    note: "Binge-purge cycling can swing toward weight gain: unlike anorexia, bulimia often occurs at normal or above-normal weight, and the large binges with incomplete compensation can drive obesity over time."
+  - target: 01-human/07-system/type-2-diabetes
+    relation: connects-to
+    note: "Recurrent binges strain glucose control: the large carbohydrate binges and weight gain of bulimia promote insulin resistance, raising the risk of type 2 diabetes, which purging then makes dangerously hard to manage."
+  - target: 01-human/07-system/bipolar-disorder
+    relation: connects-to
+    note: "Mood instability and bingeing intertwine: bipolar disorder is over-represented in bulimia, the impulsivity and reward dysregulation of mood episodes overlapping with the loss of control over eating."
 ---
 
 # Bulimia Nervosa
@@ -375,6 +384,9 @@ All of the following must be met:
 - `connects-to` → **[Chronic Kidney Disease](../ckd/README.md)** — Purging quietly erodes the kidneys: recurrent vomiting and laxative or diuretic abuse cause chronic hypokalemia and dehydration, and the resulting hypokalemic nephropathy can progress to chronic kidney disease.
 - `connects-to` → **[Stimulant Use Disorder](../stimulant-use-disorder/README.md)** — Weight control reaches for stimulants: people with bulimia frequently misuse diet pills, amphetamines and other stimulants to suppress appetite and burn calories, a path into stimulant use disorder.
 - `connects-to` → **[Insomnia Disorder](../insomnia-disorder/README.md)** — Disordered eating disorders sleep: night-time binge-purge cycles, hunger and the anxiety and depression that accompany bulimia fragment sleep, so insomnia is common and feeds back into the eating pathology.
+- `connects-to` → **[Obesity](../obesity/README.md)** — Binge-purge cycling can swing toward weight gain: unlike anorexia, bulimia often occurs at normal or above-normal weight, and the large binges with incomplete compensation can drive obesity over time.
+- `connects-to` → **[Type 2 Diabetes](../type-2-diabetes/README.md)** — Recurrent binges strain glucose control: the large carbohydrate binges and weight gain of bulimia promote insulin resistance, raising the risk of type 2 diabetes, which purging then makes dangerously hard to manage.
+- `connects-to` → **[Bipolar Disorder](../bipolar-disorder/README.md)** — Mood instability and bingeing intertwine: bipolar disorder is over-represented in bulimia, the impulsivity and reward dysregulation of mood episodes overlapping with the loss of control over eating.
 
 ## Treatment
 

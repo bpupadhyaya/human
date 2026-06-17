@@ -187,6 +187,15 @@ cross_links:
   - target: 01-human/07-system/cervical-cancer
     relation: connects-to
     note: "Its cancer net is wide and starts early: Bloom syndrome's genomic instability and immunodeficiency raise the risk of carcinomas including HPV-driven cervical cancer, part of a remarkably broad, young-onset cancer spectrum."
+  - target: 01-human/07-system/copd
+    relation: connects-to
+    note: "Recurrent lung infection scars the airways: the immunodeficiency of Bloom syndrome causes repeated respiratory infections that can lead to bronchiectasis and chronic obstructive lung disease over time."
+  - target: 01-human/07-system/anemia-of-chronic-disease
+    relation: connects-to
+    note: "Infection, cancer and marrow strain lower the count: chronic infections, the disease's many malignancies and bone-marrow involvement combine to produce an anemia of chronic disease in Bloom syndrome."
+  - target: 01-human/07-system/major-depressive-disorder
+    relation: connects-to
+    note: "A lifetime of cancer and illness weighs on the mind: living with profound cancer predisposition, recurrent infection, short stature and lifelong surveillance carries a substantial psychological burden in Bloom syndrome."
 ---
 
 # Bloom Syndrome
@@ -381,6 +390,9 @@ BS is characterized by three cardinal features: **small body size** (the most co
 - `connects-to` → **[NF-κB](../../03-molecular/nf-kb/README.md)** — Relentless DNA damage smolders into inflammation: the unrepaired breaks and replication stress of Bloom syndrome trigger DNA-sensing inflammatory signaling that activates NF-κB, a chronic inflammatory tone layered on its cancer risk.
 - `connects-to` → **[Sepsis](../sepsis/README.md)** — A faltering immune system invites infection: Bloom syndrome includes an immunodeficiency with low immunoglobulins, so recurrent respiratory and gastrointestinal infections — and the sepsis they can become — are a major cause of illness.
 - `connects-to` → **[Cervical Cancer](../cervical-cancer/README.md)** — Its cancer net is wide and starts early: Bloom syndrome's genomic instability and immunodeficiency raise the risk of carcinomas including HPV-driven cervical cancer, part of a remarkably broad, young-onset cancer spectrum.
+- `connects-to` → **[COPD](../copd/README.md)** — Recurrent lung infection scars the airways: the immunodeficiency of Bloom syndrome causes repeated respiratory infections that can lead to bronchiectasis and chronic obstructive lung disease over time.
+- `connects-to` → **[Anemia of Chronic Disease](../anemia-of-chronic-disease/README.md)** — Infection, cancer and marrow strain lower the count: chronic infections, the disease's many malignancies and bone-marrow involvement combine to produce an anemia of chronic disease in Bloom syndrome.
+- `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — A lifetime of cancer and illness weighs on the mind: living with profound cancer predisposition, recurrent infection, short stature and lifelong surveillance carries a substantial psychological burden in Bloom syndrome.
 
 ---
 
