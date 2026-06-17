@@ -192,6 +192,15 @@ cross_links:
   - target: 01-human/07-system/pulmonary-arterial-hypertension
     relation: connects-to
     note: "Fragile hearts tolerate it worst: infants with congenital heart disease and pulmonary hypertension suffer the most severe RSV, as the bronchiolitis raises pulmonary pressures and strains an already burdened right heart."
+  - target: 01-human/07-system/aml
+    relation: connects-to
+    note: "It turns deadly in the neutropenic host: in leukemia patients like those with AML, RSV readily progresses from the upper airway to fatal pneumonia, a major respiratory-virus threat during chemotherapy-induced immunosuppression."
+  - target: 01-human/07-system/gvhd
+    relation: connects-to
+    note: "Post-transplant lungs are defenseless against it: hematopoietic stem-cell recipients, especially with graft-versus-host disease on immunosuppression, suffer severe RSV pneumonia, a leading cause of post-transplant respiratory failure."
+  - target: 01-human/07-system/nsclc
+    relation: connects-to
+    note: "Damaged, immunosuppressed lungs fare badly: patients with lung cancer such as NSCLC, with their structural lung disease and treatment-related immunosuppression, are prone to severe RSV lower-respiratory infection."
 ---
 
 # RSV
@@ -394,3 +403,6 @@ Radiological findings: Hyperinflation, peribronchial thickening, occasional atel
 - `connects-to` → **[Streptococcus pyogenes](../../../02-pathogen/02-bacteria/streptococcus-pyogenes/README.md)** — A virus can clear the way for group A strep: RSV injury to the airway epithelium can be followed by invasive Streptococcus pyogenes, causing necrotizing pneumonia, empyema and toxic shock that turn a viral illness fulminant.
 - `connects-to` → **[Aspergillus fumigatus](../../../02-pathogen/03-fungi/aspergillus-fumigatus/README.md)** — In the immunocompromised it opens a fungal door: severe RSV in transplant and leukemia patients damages the lung and prompts steroids, setting the stage for secondary invasive pulmonary aspergillosis.
 - `connects-to` → **[Pulmonary Arterial Hypertension](../pulmonary-arterial-hypertension/README.md)** — Fragile hearts tolerate it worst: infants with congenital heart disease and pulmonary hypertension suffer the most severe RSV, as the bronchiolitis raises pulmonary pressures and strains an already burdened right heart.
+- `connects-to` → **[Acute Myeloid Leukemia](../aml/README.md)** — It turns deadly in the neutropenic host: in leukemia patients like those with AML, RSV readily progresses from the upper airway to fatal pneumonia, a major respiratory-virus threat during chemotherapy-induced immunosuppression.
+- `connects-to` → **[Graft-versus-Host Disease](../gvhd/README.md)** — Post-transplant lungs are defenseless against it: hematopoietic stem-cell recipients, especially with graft-versus-host disease on immunosuppression, suffer severe RSV pneumonia, a leading cause of post-transplant respiratory failure.
+- `connects-to` → **[NSCLC](../nsclc/README.md)** — Damaged, immunosuppressed lungs fare badly: patients with lung cancer such as NSCLC, with their structural lung disease and treatment-related immunosuppression, are prone to severe RSV lower-respiratory infection.

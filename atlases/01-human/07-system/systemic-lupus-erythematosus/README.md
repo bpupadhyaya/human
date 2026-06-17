@@ -196,6 +196,15 @@ cross_links:
   - target: 01-human/07-system/osteoporosis
     relation: connects-to
     note: "Steroids and inflammation erode the skeleton: the prolonged corticosteroids central to lupus treatment, plus chronic inflammation and reduced sun exposure, accelerate bone loss and raise fracture risk even in young women."
+  - target: 01-human/07-system/pulmonary-arterial-hypertension
+    relation: connects-to
+    note: "As a connective-tissue disease it can pressurize the lungs: lupus is associated with pulmonary arterial hypertension through immune-mediated vascular remodeling and vasculitis, a serious and under-recognized complication."
+  - target: 01-human/07-system/stroke
+    relation: connects-to
+    note: "It strikes the brain's vessels early: accelerated atherosclerosis, vasculitis and antiphospholipid antibodies in lupus markedly raise the risk of ischemic stroke, often in young patients."
+  - target: 01-human/07-system/tuberculosis
+    relation: connects-to
+    note: "Its immunosuppression can wake latent TB: the corticosteroids and immunosuppressants used to control lupus blunt cell-mediated immunity, allowing reactivation of tuberculosis."
 ---
 
 # Systemic Lupus Erythematosus
@@ -379,6 +388,9 @@ Highly polygenic disease with >100 susceptibility loci; heritability ~66%:
 - `connects-to` → **[Anemia of Chronic Disease](../anemia-of-chronic-disease/README.md)** — Inflammation dulls the marrow on top of autoimmune attack: alongside autoimmune hemolysis and renal disease, the chronic IL-6 drive of active lupus raises hepcidin and suppresses erythropoiesis into an anemia of chronic disease.
 - `connects-to` → **[Pneumocystis jirovecii](../../../02-pathogen/03-fungi/pneumocystis-jirovecii/README.md)** — Heavy immunosuppression opens the lung to it: cyclophosphamide, rituximab and high-dose steroids for severe lupus deplete the T-cell defenses against Pneumocystis, so prophylaxis is weighed during intensive treatment.
 - `connects-to` → **[Osteoporosis](../osteoporosis/README.md)** — Steroids and inflammation erode the skeleton: the prolonged corticosteroids central to lupus treatment, plus chronic inflammation and reduced sun exposure, accelerate bone loss and raise fracture risk even in young women.
+- `connects-to` → **[Pulmonary Arterial Hypertension](../pulmonary-arterial-hypertension/README.md)** — As a connective-tissue disease it can pressurize the lungs: lupus is associated with pulmonary arterial hypertension through immune-mediated vascular remodeling and vasculitis, a serious and under-recognized complication.
+- `connects-to` → **[Stroke](../stroke/README.md)** — It strikes the brain's vessels early: accelerated atherosclerosis, vasculitis and antiphospholipid antibodies in lupus markedly raise the risk of ischemic stroke, often in young patients.
+- `connects-to` → **[Tuberculosis](../tuberculosis/README.md)** — Its immunosuppression can wake latent TB: the corticosteroids and immunosuppressants used to control lupus blunt cell-mediated immunity, allowing reactivation of tuberculosis.
 
 [^tsokos-2011-sle-review]: Tsokos GC. Systemic lupus erythematosus. *N Engl J Med.* 2011;365(22):2110-2121. [doi:10.1056/NEJMra1100359](https://doi.org/10.1056/NEJMra1100359) · [PubMed 22129253](https://pubmed.ncbi.nlm.nih.gov/22129253/)
 [^furie-2011-belimumab]: Furie R, Petri M, Zamani O, et al. A phase III, randomized, placebo-controlled study of belimumab, a monoclonal antibody that inhibits B lymphocyte stimulator, in patients with systemic lupus erythematosus. *Arthritis Rheum.* 2011;63(12):3918-3930. [doi:10.1002/art.30613](https://doi.org/10.1002/art.30613) · [PubMed 22127708](https://pubmed.ncbi.nlm.nih.gov/22127708/)
