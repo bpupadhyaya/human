@@ -185,6 +185,15 @@ cross_links:
   - target: 01-human/07-system/peutz-jeghers-syndrome
     relation: connects-to
     note: "It seeds distinctive sex-organ tumors: Peutz-Jeghers predisposes to ovarian sex-cord tumors with annular tubules, Sertoli-cell testicular tumors and cervical adenoma malignum, a hereditary stamp on the reproductive tract."
+  - target: 01-human/07-system/major-depressive-disorder
+    relation: connects-to
+    note: "Its sex hormones sway mood across the lifespan: estrogen and progesterone fluctuations underlie premenstrual dysphoria, postpartum depression and the perimenopausal mood dip, tying reproductive endocrinology directly to depressive illness."
+  - target: 01-human/07-system/type-2-diabetes
+    relation: connects-to
+    note: "It is entwined with insulin and metabolism: polycystic ovary syndrome links ovarian dysfunction to insulin resistance, gestational diabetes foreshadows later disease, and low testosterone tracks with metabolic risk in men."
+  - target: 01-human/07-system/heart-failure
+    relation: connects-to
+    note: "Pregnancy can unmask a failing heart: the late-gestational and postpartum period can precipitate peripartum cardiomyopathy, a reproductive-specific cause of heart failure in previously healthy women."
 ---
 
 # Reproductive System
@@ -356,6 +365,9 @@ Testosterone binds androgen receptor (AR, nuclear receptor NR3C4) → AR dimeriz
 - `connects-to` → **[Candida albicans](../../../02-pathogen/03-fungi/candida-albicans/README.md)** — It is the commonest fungal invader of the tract: shifts in vaginal pH and flora, estrogen, antibiotics or diabetes let Candida overgrow into vulvovaginal candidiasis, one of the most frequent reproductive-tract complaints.
 - `connects-to` → **[Lynch Syndrome](../lynch-syndrome/README.md)** — It is the top hereditary cause of endometrial cancer: Lynch syndrome's mismatch-repair defect drives a high lifetime risk of endometrial and ovarian cancer, often the sentinel malignancy that flags the syndrome in women.
 - `connects-to` → **[Peutz-Jeghers Syndrome](../peutz-jeghers-syndrome/README.md)** — It seeds distinctive sex-organ tumors: Peutz-Jeghers predisposes to ovarian sex-cord tumors with annular tubules, Sertoli-cell testicular tumors and cervical adenoma malignum, a hereditary stamp on the reproductive tract.
+- `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — Its sex hormones sway mood across the lifespan: estrogen and progesterone fluctuations underlie premenstrual dysphoria, postpartum depression and the perimenopausal mood dip, tying reproductive endocrinology directly to depressive illness.
+- `connects-to` → **[Type 2 Diabetes](../type-2-diabetes/README.md)** — It is entwined with insulin and metabolism: polycystic ovary syndrome links ovarian dysfunction to insulin resistance, gestational diabetes foreshadows later disease, and low testosterone tracks with metabolic risk in men.
+- `connects-to` → **[Heart Failure](../heart-failure/README.md)** — Pregnancy can unmask a failing heart: the late-gestational and postpartum period can precipitate peripartum cardiomyopathy, a reproductive-specific cause of heart failure in previously healthy women.
 
 ## Pathology
 
