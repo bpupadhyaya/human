@@ -175,6 +175,15 @@ cross_links:
   - target: 01-human/07-system/asthma
     relation: connects-to
     note: "It sets off the wheeze: influenza is a common trigger of severe asthma attacks, inflaming already twitchy airways, so asthmatics are a priority group for the flu vaccine."
+  - target: 01-human/03-molecular/nf-kb
+    relation: connects-to
+    note: "The virus throws the inflammatory switch — and rides it: influenza activates NF-κB to drive the cytokine response, yet the virus also exploits NF-κB signaling for its own efficient replication, a double-edged host pathway."
+  - target: 02-pathogen/03-fungi/aspergillus-fumigatus
+    relation: connects-to
+    note: "Severe flu opens the lung to a mold: influenza-associated pulmonary aspergillosis strikes critically ill patients days into ICU care, the damaged airway epithelium and immune paralysis letting Aspergillus invade."
+  - target: 01-human/07-system/stroke
+    relation: connects-to
+    note: "Acute infection can trigger a stroke: in the weeks after influenza, the risk of ischemic stroke and heart attack transiently rises as systemic inflammation destabilizes plaques and tips the blood toward clotting."
 ---
 
 # Influenza
@@ -363,3 +372,6 @@ Influenza damages mucociliary clearance and exposes basal lamina glycoproteins �
 - `connects-to` → **[Cardiovascular system](../cardiovascular-system/README.md)** — Flu can stop the heart: the acute inflammation of influenza sharply raises the risk of heart attack and stroke in the days after infection, which is why flu vaccination measurably lowers cardiovascular events.
 - `connects-to` → **[COPD](../copd/README.md)** — It tips chronic lungs over the edge: influenza is a leading trigger of COPD exacerbations, turning manageable airflow limitation into respiratory failure — the reason annual vaccination is urged in these patients.
 - `connects-to` → **[Asthma](../asthma/README.md)** — It sets off the wheeze: influenza is a common trigger of severe asthma attacks, inflaming already twitchy airways, so asthmatics are a priority group for the flu vaccine.
+- `connects-to` → **[NF-κB](../../03-molecular/nf-kb/README.md)** — The virus throws the inflammatory switch — and rides it: influenza activates NF-κB to drive the cytokine response, yet the virus also exploits NF-κB signaling for its own efficient replication, a double-edged host pathway.
+- `connects-to` → **[Aspergillus fumigatus](../../../02-pathogen/03-fungi/aspergillus-fumigatus/README.md)** — Severe flu opens the lung to a mold: influenza-associated pulmonary aspergillosis strikes critically ill patients days into ICU care, the damaged airway epithelium and immune paralysis letting Aspergillus invade.
+- `connects-to` → **[Stroke](../stroke/README.md)** — Acute infection can trigger a stroke: in the weeks after influenza, the risk of ischemic stroke and heart attack transiently rises as systemic inflammation destabilizes plaques and tips the blood toward clotting.

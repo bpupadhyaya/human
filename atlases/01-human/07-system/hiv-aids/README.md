@@ -175,6 +175,15 @@ cross_links:
   - target: 01-human/07-system/cardiovascular-system
     relation: connects-to
     note: "Survival exposes a new killer: with opportunistic infections controlled, the chronic inflammation of treated HIV accelerates atherosclerosis, making cardiovascular disease a leading cause of death in the aging AIDS-era population."
+  - target: 01-human/03-molecular/nf-kb
+    relation: connects-to
+    note: "The virus wires itself to the host's master switch: HIV's LTR carries NF-κB binding sites, so the very pathway that activates T cells also drives proviral transcription — a link that ties immune activation to viral reactivation from latency."
+  - target: 01-human/03-molecular/stat3
+    relation: connects-to
+    note: "It hijacks JAK-STAT to persist: HIV manipulates STAT3 signaling in infected cells, contributing to the chronic immune activation and reservoir maintenance that smolder even under effective therapy."
+  - target: 01-human/07-system/sepsis
+    relation: connects-to
+    note: "Collapsed immunity ends in overwhelming infection: in advanced AIDS, opportunistic and bacterial infections readily disseminate into sepsis, a common terminal event when CD4 counts fall and defenses fail."
 ---
 
 # HIV/AIDS
@@ -342,6 +351,9 @@ HIV-1 pathogenesis is primarily driven by CD4⁺ T cell loss:
 - `connects-to` → **[Gut Microbiome](../gut-microbiome/README.md)** — The gut is ground zero: HIV depletes the mucosal CD4 and Th17 cells early, breaching the gut barrier so microbial products leak into the blood — a microbial translocation that drives the chronic immune activation behind AIDS progression.
 - `connects-to` → **[Chronic Kidney Disease](../ckd/README.md)** — The virus and its drugs strain the kidney: HIV-associated nephropathy plus the toxicity of some antiretrovirals make chronic kidney disease a common comorbidity, especially in untreated or African-ancestry patients.
 - `connects-to` → **[Cardiovascular system](../cardiovascular-system/README.md)** — Survival exposes a new killer: with opportunistic infections controlled, the chronic inflammation of treated HIV accelerates atherosclerosis, making cardiovascular disease a leading cause of death in the aging AIDS-era population.
+- `connects-to` → **[NF-κB](../../03-molecular/nf-kb/README.md)** — The virus wires itself to the host's master switch: HIV's LTR carries NF-κB binding sites, so the very pathway that activates T cells also drives proviral transcription — a link that ties immune activation to viral reactivation from latency.
+- `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — It hijacks JAK-STAT to persist: HIV manipulates STAT3 signaling in infected cells, contributing to the chronic immune activation and reservoir maintenance that smolder even under effective therapy.
+- `connects-to` → **[Sepsis](../sepsis/README.md)** — Collapsed immunity ends in overwhelming infection: in advanced AIDS, opportunistic and bacterial infections readily disseminate into sepsis, a common terminal event when CD4 counts fall and defenses fail.
 
 ## See Also
 
