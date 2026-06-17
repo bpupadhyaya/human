@@ -181,6 +181,15 @@ cross_links:
   - target: 01-human/07-system/sepsis
     relation: connects-to
     note: "Empty defenses invite fatal infection: the neutropenia of MDS, deepened by hypomethylating-agent therapy, leaves patients prone to overwhelming infection, and sepsis is among the commonest causes of death."
+  - target: 02-pathogen/03-fungi/aspergillus-fumigatus
+    relation: connects-to
+    note: "Prolonged neutropenia opens the lung to mold: the deep, sustained neutropenia of MDS and its therapy lets inhaled Aspergillus invade as angioinvasive pulmonary aspergillosis, a feared infectious complication."
+  - target: 02-pathogen/03-fungi/candida-albicans
+    relation: connects-to
+    note: "Failing neutrophils let the yeast bloodstream: neutropenia and disrupted mucosa in MDS allow Candida to translocate into the blood, causing invasive candidiasis in these immunocompromised patients."
+  - target: 01-human/07-system/heart-failure
+    relation: connects-to
+    note: "Transfusions rust the heart: lifelong red-cell transfusions for MDS anemia deposit iron in the myocardium, and this siderosis — atop the strain of chronic anemia — can drive a cardiomyopathy and heart failure."
 ---
 
 # Myelodysplastic Syndromes
@@ -346,6 +355,9 @@ MDS → AML transformation rate: ~10% at 1 year for very-low risk; ~40-50% at 2 
 - `connects-to` → **[NF-κB](../../03-molecular/nf-kb/README.md)** — Inflammation poisons the marrow's own output: NF-κB signaling is overactive in MDS progenitors, priming the NLRP3 inflammasome and pyroptotic cell death that produce the ineffective hematopoiesis and cytopenias of the disease.
 - `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — Clonal immune signaling shadows the disease: STAT3-activating mutations in associated large granular lymphocyte clones, and STAT3 signaling in the marrow, contribute to the immune dysregulation and cytopenias seen in MDS.
 - `connects-to` → **[Sepsis](../sepsis/README.md)** — Empty defenses invite fatal infection: the neutropenia of MDS, deepened by hypomethylating-agent therapy, leaves patients prone to overwhelming infection, and sepsis is among the commonest causes of death.
+- `connects-to` → **[Aspergillus fumigatus](../../../02-pathogen/03-fungi/aspergillus-fumigatus/README.md)** — Prolonged neutropenia opens the lung to mold: the deep, sustained neutropenia of MDS and its therapy lets inhaled Aspergillus invade as angioinvasive pulmonary aspergillosis, a feared infectious complication.
+- `connects-to` → **[Candida albicans](../../../02-pathogen/03-fungi/candida-albicans/README.md)** — Failing neutrophils let the yeast bloodstream: neutropenia and disrupted mucosa in MDS allow Candida to translocate into the blood, causing invasive candidiasis in these immunocompromised patients.
+- `connects-to` → **[Heart Failure](../heart-failure/README.md)** — Transfusions rust the heart: lifelong red-cell transfusions for MDS anemia deposit iron in the myocardium, and this siderosis — atop the strain of chronic anemia — can drive a cardiomyopathy and heart failure.
 
 [^fenaux-2009-aza001]: Fenaux P, Mufti GJ, Hellstrom-Lindberg E, et al. Efficacy of azacitidine compared with conventional care regimens in patients with higher-risk myelodysplastic syndromes. *Lancet Oncol.* 2009;10(3):223-232. [doi:10.1016/S1470-2045(09)70003-8](https://doi.org/10.1016/S1470-2045(09)70003-8) · [PubMed 19230772](https://pubmed.ncbi.nlm.nih.gov/19230772/)
 [^fenaux-2020-medalist]: Fenaux P, Platzbecker U, Mufti GJ, et al. Luspatercept in patients with lower-risk myelodysplastic syndromes. *N Engl J Med.* 2020;382(2):140-151. [doi:10.1056/NEJMoa1908892](https://doi.org/10.1056/NEJMoa1908892) · [PubMed 31914241](https://pubmed.ncbi.nlm.nih.gov/31914241/)

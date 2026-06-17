@@ -179,6 +179,15 @@ cross_links:
   - target: 01-human/03-molecular/il-6
     relation: connects-to
     note: "A cytokine couples inflammation to wasting: IL-6 promotes osteoclast-driven bone resorption and muscle catabolism, so chronic elevations drive the bone loss and sarcopenia seen in aging and inflammatory disease — yet exercise releases it transiently as a beneficial myokine."
+  - target: 02-pathogen/02-bacteria/staphylococcus-aureus
+    relation: connects-to
+    note: "It is the classic invader of bone and joint: Staphylococcus aureus is the leading cause of osteomyelitis and septic arthritis, seeding bone and synovium through the blood or open wounds to destroy musculoskeletal tissue."
+  - target: 01-human/07-system/psoriatic-arthritis
+    relation: connects-to
+    note: "Immune attack inflames its joints and entheses: psoriatic arthritis is an inflammatory disease of the musculoskeletal system, damaging joints and the tendon-bone insertions through IL-17/IL-23-driven inflammation."
+  - target: 01-human/07-system/dermatomyositis
+    relation: connects-to
+    note: "Autoimmunity attacks the muscle itself: dermatomyositis is an inflammatory myopathy of the musculoskeletal system, with immune-mediated injury to skeletal muscle producing the proximal weakness that defines it."
 ---
 
 # Musculoskeletal System
@@ -369,6 +378,9 @@ Chronic exercise drives profound musculoskeletal remodelling [^guyton-hall]:
 - `connects-to` → **[Wnt/beta-catenin](../../03-molecular/wnt-beta-catenin/README.md)** — Bone is built on a Wnt switch: Wnt/β-catenin signaling drives osteoblasts to lay down bone, which is why the natural Wnt-brake sclerostin restrains it and why blocking sclerostin builds bone in osteoporosis.
 - `connects-to` → **[Adipocyte](../../04-cellular/adipocyte/README.md)** — Fat infiltrates the aging frame: marrow fills with adipocytes as bone is lost, and fat marbles aging muscle as myosteatosis, so the same shift toward fat weakens both bone and muscle in sarcopenic obesity.
 - `connects-to` → **[Chronic Kidney Disease](../ckd/README.md)** — Failing kidneys derange the skeleton: chronic kidney disease disrupts the phosphate, vitamin D and PTH balance, producing renal osteodystrophy — the brittle, painful bone disease of CKD-mineral and bone disorder.
+- `connects-to` → **[Staphylococcus aureus](../../../02-pathogen/02-bacteria/staphylococcus-aureus/README.md)** — It is the classic invader of bone and joint: Staphylococcus aureus is the leading cause of osteomyelitis and septic arthritis, seeding bone and synovium through the blood or open wounds to destroy musculoskeletal tissue.
+- `connects-to` → **[Psoriatic Arthritis](../psoriatic-arthritis/README.md)** — Immune attack inflames its joints and entheses: psoriatic arthritis is an inflammatory disease of the musculoskeletal system, damaging joints and the tendon-bone insertions through IL-17/IL-23-driven inflammation.
+- `connects-to` → **[Dermatomyositis](../dermatomyositis/README.md)** — Autoimmunity attacks the muscle itself: dermatomyositis is an inflammatory myopathy of the musculoskeletal system, with immune-mediated injury to skeletal muscle producing the proximal weakness that defines it.
 
 ## Pathology
 
