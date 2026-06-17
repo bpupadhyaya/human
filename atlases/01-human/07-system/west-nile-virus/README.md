@@ -174,6 +174,15 @@ cross_links:
   - target: 01-human/04-cellular/neutrophil
     relation: connects-to
     note: "Neutrophils play a double game: they are recruited early to fight the infection yet can also serve as a reservoir that ferries the virus, and their breaching of the blood-brain barrier helps the virus reach the brain."
+  - target: 01-human/03-molecular/nf-kb
+    relation: connects-to
+    note: "The virus drives the inflammation that opens the brain: West Nile activates NF-κB in infected and immune cells, and the resulting cytokine surge both fights the virus and loosens the blood-brain barrier it exploits to invade."
+  - target: 01-human/07-system/venous-thromboembolism
+    relation: connects-to
+    note: "Paralysis from neuroinvasion brings clot risk: the acute flaccid paralysis and prolonged immobility of severe West Nile disease create venous stasis that raises the risk of deep-vein thrombosis and pulmonary embolism."
+  - target: 01-human/07-system/sepsis
+    relation: connects-to
+    note: "Critical neuroinvasive disease behaves like sepsis: severe West Nile encephalitis can cause respiratory failure and a critical illness in which secondary bacterial infection and sepsis complicate the course."
 ---
 
 # West Nile Virus
@@ -346,3 +355,6 @@ WNV has evolved a multilayered strategy to evade innate immunity:
 - `connects-to` → **[IRF3](../../03-molecular/irf3/README.md)** — Sensing the virus triggers the interferon defense: West Nile RNA detected through RIG-I/MAVS activates IRF3 to switch on type I interferon, and the virus's NS proteins fight back by blocking this very pathway.
 - `connects-to` → **[Epilepsy](../epilepsy/README.md)** — Its brain invasion can leave a seizure focus: West Nile encephalitis inflames the cortex and can cause acute seizures and lasting epilepsy, part of the neurologic legacy that lingers in survivors of the neuroinvasive form.
 - `connects-to` → **[Neutrophil](../../04-cellular/neutrophil/README.md)** — Neutrophils play a double game: they are recruited early to fight the infection yet can also serve as a reservoir that ferries the virus, and their breaching of the blood-brain barrier helps the virus reach the brain.
+- `connects-to` → **[NF-κB](../../03-molecular/nf-kb/README.md)** — The virus drives the inflammation that opens the brain: West Nile activates NF-κB in infected and immune cells, and the resulting cytokine surge both fights the virus and loosens the blood-brain barrier it exploits to invade.
+- `connects-to` → **[Venous Thromboembolism](../venous-thromboembolism/README.md)** — Paralysis from neuroinvasion brings clot risk: the acute flaccid paralysis and prolonged immobility of severe West Nile disease create venous stasis that raises the risk of deep-vein thrombosis and pulmonary embolism.
+- `connects-to` → **[Sepsis](../sepsis/README.md)** — Critical neuroinvasive disease behaves like sepsis: severe West Nile encephalitis can cause respiratory failure and a critical illness in which secondary bacterial infection and sepsis complicate the course.

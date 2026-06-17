@@ -181,6 +181,15 @@ cross_links:
   - target: 01-human/03-molecular/il-6
     relation: connects-to
     note: "Inflammation amplifies the endothelial injury: IL-6 and other cytokines released as complement attacks the vessel lining feed forward into more endothelial activation and microthrombosis, worsening the microangiopathy."
+  - target: 01-human/03-molecular/nf-kb
+    relation: connects-to
+    note: "Complement switches the endothelium to attack mode through NF-κB: C5a-driven NF-κB activation makes the vessel lining procoagulant and inflamed, amplifying the microthrombosis that defines the complement-mediated microangiopathy."
+  - target: 01-human/04-cellular/cardiomyocyte
+    relation: connects-to
+    note: "It can clot the heart's small vessels too: complement-driven microthrombi in the coronary microcirculation injure cardiomyocytes, causing the cardiomyopathy and heart attacks that are a recognized extrarenal manifestation of aHUS."
+  - target: 01-human/07-system/sepsis
+    relation: connects-to
+    note: "Blocking complement raises the infection stakes: the anti-C5 therapy eculizumab that controls aHUS disables the membrane attack complex, sharply increasing meningococcal infection and sepsis risk and mandating vaccination."
 ---
 
 # Atypical HUS
@@ -397,6 +406,9 @@ Repeated TMA episodes → glomerular fibrosis → CKD → ESRD
 - `connects-to` → **[Antiphospholipid Syndrome](../antiphospholipid-syndrome/README.md)** — Catastrophic APS mimics it: antiphospholipid antibodies can trigger a widespread thrombotic microangiopathy with renal failure resembling aHUS, another autoimmune cause that must be excluded before settling on complement-driven disease.
 - `connects-to` → **[Nervous System](../nervous-system/README.md)** — It is not only a kidney disease: complement-driven microthrombi strike the brain too, causing seizures, confusion and stroke in a large share of patients — a leading extrarenal manifestation of aHUS.
 - `connects-to` → **[Interleukin-6](../../03-molecular/il-6/README.md)** — Inflammation amplifies the endothelial injury: IL-6 and other cytokines released as complement attacks the vessel lining feed forward into more endothelial activation and microthrombosis, worsening the microangiopathy.
+- `connects-to` → **[NF-κB](../../03-molecular/nf-kb/README.md)** — Complement switches the endothelium to attack mode through NF-κB: C5a-driven NF-κB activation makes the vessel lining procoagulant and inflamed, amplifying the microthrombosis that defines the complement-mediated microangiopathy.
+- `connects-to` → **[Cardiomyocyte](../../04-cellular/cardiomyocyte/README.md)** — It can clot the heart's small vessels too: complement-driven microthrombi in the coronary microcirculation injure cardiomyocytes, causing the cardiomyopathy and heart attacks that are a recognized extrarenal manifestation of aHUS.
+- `connects-to` → **[Sepsis](../sepsis/README.md)** — Blocking complement raises the infection stakes: the anti-C5 therapy eculizumab that controls aHUS disables the membrane attack complex, sharply increasing meningococcal infection and sepsis risk and mandating vaccination.
 
 [^fakhouri-2017-ahus-lancet]: Fakhouri F, Zuber J, Frémeaux-Bacchi V, Loirat C. Haemolytic uraemic syndrome. *Lancet.* 2017;390(10095):681-696. [doi:10.1016/S0140-6736(17)30062-4](https://doi.org/10.1016/S0140-6736(17)30062-4) · [PubMed 28242109](https://pubmed.ncbi.nlm.nih.gov/28242109/)
 [^legendre-2013-eculizumab-ahus-nejm]: Legendre CM, Licht C, Muus P, et al. Terminal complement inhibitor eculizumab in atypical hemolytic-uremic syndrome. *N Engl J Med.* 2013;368(23):2169-2181. [doi:10.1056/NEJMoa1208981](https://doi.org/10.1056/NEJMoa1208981) · [PubMed 23738544](https://pubmed.ncbi.nlm.nih.gov/23738544/)
