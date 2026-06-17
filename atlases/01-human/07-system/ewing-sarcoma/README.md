@@ -178,6 +178,15 @@ cross_links:
   - target: 01-human/07-system/mds
     relation: connects-to
     note: "Cure can sow a second cancer: the alkylating agents and topoisomerase inhibitors that treat Ewing damage the marrow, so survivors face a real risk of therapy-related myelodysplastic syndrome and secondary leukemia."
+  - target: 01-human/03-molecular/nf-kb
+    relation: connects-to
+    note: "The fusion oncoprotein engages NF-κB: EWS-FLI1-driven Ewing cells show NF-κB-dependent survival and inflammatory signaling, one of the cooperating pathways explored as a target in this fusion-driven sarcoma."
+  - target: 01-human/07-system/sepsis
+    relation: connects-to
+    note: "Intensive chemo empties the marrow: the multidrug, dose-dense regimens that cure many Ewing sarcomas cause profound neutropenia, making febrile neutropenia and sepsis a recurrent treatment hazard."
+  - target: 01-human/07-system/venous-thromboembolism
+    relation: connects-to
+    note: "A sarcoma and its treatment that clot: Ewing sarcoma raises thrombosis risk through tumor-driven hypercoagulability, compounded by central venous catheters and the immobility of intensive therapy and limb surgery."
 ---
 
 # Ewing Sarcoma
@@ -354,6 +363,9 @@ After induction → surgical specimen assessed for percent tumor necrosis (Salze
 - `connects-to` → **[Cyclin D1](../../03-molecular/cyclin-d1/README.md)** — The fusion drives the cell cycle: EWS-FLI1 transactivates cyclin D1, pushing Ewing cells past the G1 checkpoint — one of the proliferative programs the single oncoprotein switches on.
 - `connects-to` → **[Dendritic Cell](../../04-cellular/dendritic-cell/README.md)** — Immunotherapy must wake the cold tumor: dendritic-cell vaccines and approaches that boost antigen presentation are tested to mount a T-cell response against Ewing, whose few mutations give the immune system little to see.
 - `connects-to` → **[Myelodysplastic Syndromes](../mds/README.md)** — Cure can sow a second cancer: the alkylating agents and topoisomerase inhibitors that treat Ewing damage the marrow, so survivors face a real risk of therapy-related myelodysplastic syndrome and secondary leukemia.
+- `connects-to` → **[NF-κB](../../03-molecular/nf-kb/README.md)** — The fusion oncoprotein engages NF-κB: EWS-FLI1-driven Ewing cells show NF-κB-dependent survival and inflammatory signaling, one of the cooperating pathways explored as a target in this fusion-driven sarcoma.
+- `connects-to` → **[Sepsis](../sepsis/README.md)** — Intensive chemo empties the marrow: the multidrug, dose-dense regimens that cure many Ewing sarcomas cause profound neutropenia, making febrile neutropenia and sepsis a recurrent treatment hazard.
+- `connects-to` → **[Venous Thromboembolism](../venous-thromboembolism/README.md)** — A sarcoma and its treatment that clot: Ewing sarcoma raises thrombosis risk through tumor-driven hypercoagulability, compounded by central venous catheters and the immobility of intensive therapy and limb surgery.
 
 ---
 
