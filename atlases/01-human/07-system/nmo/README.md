@@ -202,6 +202,15 @@ cross_links:
   - target: 01-human/07-system/osteoporosis
     relation: connects-to
     note: "Steroids and immobility thin the bone: the repeated high-dose corticosteroids for NMO attacks, plus reduced mobility from myelitis, accelerate bone loss and raise the risk of osteoporotic fracture."
+  - target: 01-human/07-system/wound-healing
+    relation: connects-to
+    note: "Paralysis from myelitis breaks down the skin: severe transverse myelitis in NMO can leave patients immobile and insensate, predisposing to pressure ulcers that are slow to heal over bony prominences."
+  - target: 01-human/07-system/ckd
+    relation: connects-to
+    note: "A neurogenic bladder threatens the kidneys: spinal-cord attacks in NMO impair bladder control, and the recurrent urinary infections and back-pressure that follow can progress to chronic kidney disease."
+  - target: 02-pathogen/03-fungi/aspergillus-fumigatus
+    relation: connects-to
+    note: "Its potent immunotherapy opens the lung to mold: rituximab and other B-cell-depleting and immunosuppressive treatments for NMO can permit invasive Aspergillus infection."
 ---
 
 # NMOSD
@@ -409,6 +418,9 @@ NMOSD impairs CNS function through three attack-related mechanisms:
 - `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — Relapsing disability weighs on mood: the unpredictable attacks of blindness and paralysis, chronic pain, and the lifelong threat of relapse give NMO a heavy psychological burden with high rates of depression.
 - `connects-to` → **[Pneumocystis jirovecii](../../../02-pathogen/03-fungi/pneumocystis-jirovecii/README.md)** — Its B-cell-depleting therapy opens the lung: rituximab and the chronic immunosuppression used to prevent NMO relapses can drop T-cell defenses enough to risk Pneumocystis pneumonia, sometimes warranting prophylaxis.
 - `connects-to` → **[Osteoporosis](../osteoporosis/README.md)** — Steroids and immobility thin the bone: the repeated high-dose corticosteroids for NMO attacks, plus reduced mobility from myelitis, accelerate bone loss and raise the risk of osteoporotic fracture.
+- `connects-to` → **[Wound Healing](../wound-healing/README.md)** — Paralysis from myelitis breaks down the skin: severe transverse myelitis in NMO can leave patients immobile and insensate, predisposing to pressure ulcers that are slow to heal over bony prominences.
+- `connects-to` → **[Chronic Kidney Disease](../ckd/README.md)** — A neurogenic bladder threatens the kidneys: spinal-cord attacks in NMO impair bladder control, and the recurrent urinary infections and back-pressure that follow can progress to chronic kidney disease.
+- `connects-to` → **[Aspergillus fumigatus](../../../02-pathogen/03-fungi/aspergillus-fumigatus/README.md)** — Its potent immunotherapy opens the lung to mold: rituximab and other B-cell-depleting and immunosuppressive treatments for NMO can permit invasive Aspergillus infection.
 
 [^wingerchuk-2015-nmosd-criteria]: Wingerchuk DM, Banwell B, Bennett JL, et al. International consensus diagnostic criteria for neuromyelitis optica spectrum disorders. *Neurology.* 2015;85(2):177-189. [doi:10.1212/WNL.0000000000001729](https://doi.org/10.1212/WNL.0000000000001729) · [PubMed 26092914](https://pubmed.ncbi.nlm.nih.gov/26092914/)
 [^pittock-2019-eculizumab-prevent]: Pittock SJ, Berthele A, Fujihara K, et al. Eculizumab in Aquaporin-4-Positive Neuromyelitis Optica Spectrum Disorder. *N Engl J Med.* 2019;381(7):614-625. [doi:10.1056/NEJMoa1900866](https://doi.org/10.1056/NEJMoa1900866) · [PubMed 31050279](https://pubmed.ncbi.nlm.nih.gov/31050279/)
