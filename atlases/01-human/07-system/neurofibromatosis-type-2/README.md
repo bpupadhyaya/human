@@ -187,6 +187,15 @@ cross_links:
   - target: 01-human/07-system/sepsis
     relation: connects-to
     note: "Repeated CNS surgery carries infectious risk: NF2 patients undergo many operations for vestibular schwannomas and meningiomas over a lifetime, and these craniotomies can be complicated by meningitis and sepsis."
+  - target: 01-human/07-system/major-depressive-disorder
+    relation: connects-to
+    note: "Progressive deafness and tumor burden weigh on mood: NF2 typically takes hearing and balance in young adulthood while demanding repeated surgery, a combination that drives substantial depression and reduced quality of life."
+  - target: 01-human/07-system/venous-thromboembolism
+    relation: connects-to
+    note: "Its neurosurgery and bevacizumab raise clot risk: long craniotomies with post-operative immobility, plus the anti-VEGF bevacizumab used to shrink vestibular schwannomas, together predispose NF2 patients to venous thromboembolism."
+  - target: 01-human/07-system/hypertension
+    relation: connects-to
+    note: "Anti-VEGF therapy drives up blood pressure: bevacizumab, used to control growing NF2 schwannomas and preserve hearing, blocks VEGF signaling in the vasculature and commonly produces new or worsened hypertension."
 ---
 
 # Neurofibromatosis Type 2
@@ -363,6 +372,9 @@ Merlin has an N-terminal FERM domain (α, β, γ lobes) that binds membrane lipi
 - `connects-to` → **[NF-κB](../../03-molecular/nf-kb/README.md)** — Merlin normally restrains NF-κB: its loss in NF2 lifts that brake, engaging NF-κB-driven survival and inflammatory signaling that supports the schwannomas and meningiomas of the syndrome.
 - `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — Merlin loss activates STAT3: NF2-deficient schwannoma and meningioma cells show STAT3 signaling that backs their growth, one of the pathways downstream of the lost tumor suppressor.
 - `connects-to` → **[Sepsis](../sepsis/README.md)** — Repeated CNS surgery carries infectious risk: NF2 patients undergo many operations for vestibular schwannomas and meningiomas over a lifetime, and these craniotomies can be complicated by meningitis and sepsis.
+- `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — Progressive deafness and tumor burden weigh on mood: NF2 typically takes hearing and balance in young adulthood while demanding repeated surgery, a combination that drives substantial depression and reduced quality of life.
+- `connects-to` → **[Venous Thromboembolism](../venous-thromboembolism/README.md)** — Its neurosurgery and bevacizumab raise clot risk: long craniotomies with post-operative immobility, plus the anti-VEGF bevacizumab used to shrink vestibular schwannomas, together predispose NF2 patients to venous thromboembolism.
+- `connects-to` → **[Hypertension](../hypertension/README.md)** — Anti-VEGF therapy drives up blood pressure: bevacizumab, used to control growing NF2 schwannomas and preserve hearing, blocks VEGF signaling in the vasculature and commonly produces new or worsened hypertension.
 
 [^asthagiri-2009-nf2-lancet]: Asthagiri AR, Parry DM, Butman JA, et al. Neurofibromatosis type 2. *Lancet.* 2009;373(9679):1974-1986. [doi:10.1016/S0140-6736(09)60259-2](https://doi.org/10.1016/S0140-6736(09)60259-2) · [PubMed 19476995](https://pubmed.ncbi.nlm.nih.gov/19476995/)
 [^plotkin-2009-nf2-bevacizumab]: Plotkin SR, Stemmer-Rachamimov AO, Barker FG 2nd, et al. Hearing improvement after bevacizumab in patients with neurofibromatosis type 2. *N Engl J Med.* 2009;361(4):358-367. [doi:10.1056/NEJMoa0902579](https://doi.org/10.1056/NEJMoa0902579) · [PubMed 19587327](https://pubmed.ncbi.nlm.nih.gov/19587327/)
