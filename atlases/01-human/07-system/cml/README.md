@@ -178,6 +178,15 @@ cross_links:
   - target: 01-human/07-system/stroke
     relation: connects-to
     note: "Extreme white counts can clog the brain's vessels: the massive leukocytosis of CML can cause leukostasis, a hyperviscosity emergency that sludges cerebral flow and can present as stroke before the diagnosis is even known."
+  - target: 01-human/03-molecular/nf-kb
+    relation: connects-to
+    note: "BCR-ABL routes survival through NF-κB: the fusion kinase activates NF-κB among its downstream pathways, supporting leukemic-cell survival and contributing to the resistance that emerges in advanced-phase disease."
+  - target: 01-human/07-system/venous-thromboembolism
+    relation: connects-to
+    note: "Some of its drugs damage vessels: the later-generation TKIs nilotinib and especially ponatinib cause arterial and venous vascular events, so thrombosis is a recognized hazard of long-term CML therapy."
+  - target: 01-human/07-system/sepsis
+    relation: connects-to
+    note: "Advanced disease strips the defenses: blast crisis and its intensive chemotherapy cause the neutropenia and immune failure that make febrile neutropenia and sepsis a danger in progressive CML."
 ---
 
 # Chronic Myeloid Leukemia
@@ -344,6 +353,9 @@ Following the imatinib revolution, the current frontier is achieving **deep mole
 - `connects-to` → **[Myelofibrosis](../myelofibrosis/README.md)** — CML can scar the marrow it fills: marrow fibrosis develops with advanced or accelerated disease and, like primary myelofibrosis, reflects the megakaryocyte-driven, cytokine-rich stroma of a myeloproliferative neoplasm.
 - `connects-to` → **[BCL-2](../../03-molecular/bcl-2/README.md)** — Blast crisis leans on anti-apoptosis: BCR-ABL props up BCL-2-family survival signals, and adding the BCL-2 inhibitor venetoclax to a TKI is a strategy to kill the resistant blasts of advanced-phase CML.
 - `connects-to` → **[Stroke](../stroke/README.md)** — Extreme white counts can clog the brain's vessels: the massive leukocytosis of CML can cause leukostasis, a hyperviscosity emergency that sludges cerebral flow and can present as stroke before the diagnosis is even known.
+- `connects-to` → **[NF-κB](../../03-molecular/nf-kb/README.md)** — BCR-ABL routes survival through NF-κB: the fusion kinase activates NF-κB among its downstream pathways, supporting leukemic-cell survival and contributing to the resistance that emerges in advanced-phase disease.
+- `connects-to` → **[Venous Thromboembolism](../venous-thromboembolism/README.md)** — Some of its drugs damage vessels: the later-generation TKIs nilotinib and especially ponatinib cause arterial and venous vascular events, so thrombosis is a recognized hazard of long-term CML therapy.
+- `connects-to` → **[Sepsis](../sepsis/README.md)** — Advanced disease strips the defenses: blast crisis and its intensive chemotherapy cause the neutropenia and immune failure that make febrile neutropenia and sepsis a danger in progressive CML.
 
 ---
 
