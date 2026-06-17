@@ -199,6 +199,15 @@ cross_links:
   - target: 01-human/07-system/pancreatic-cancer
     relation: connects-to
     note: "An accessory organ harbors a lethal cancer: pancreatic adenocarcinoma arises from the ductal cells of the pancreas, a digestive gland, and its silent deep location makes it one of the deadliest cancers of the system."
+  - target: 01-human/07-system/cholangiocarcinoma
+    relation: connects-to
+    note: "Its biliary tree can turn malignant: cholangiocarcinoma arises in the bile ducts that drain the liver into the gut, a hepatobiliary cancer of the digestive system often linked to chronic inflammation of the ducts."
+  - target: 01-human/07-system/nash
+    relation: connects-to
+    note: "The liver fattens and inflames: NASH is the inflammatory fatty-liver disease of the digestive system's largest gland, driven by metabolic excess and progressing toward cirrhosis and liver cancer."
+  - target: 02-pathogen/03-fungi/candida-albicans
+    relation: connects-to
+    note: "A commensal yeast can turn invader: Candida normally lives quietly in the gut, but disrupted flora or immunity let it overgrow into oral and esophageal candidiasis along the upper digestive tract."
 taxonomy:
   uberon: "UBERON:0001007"
 ---
@@ -348,6 +357,9 @@ The ENS can function autonomously without extrinsic innervation (Hirschsprung's 
 - **Connects to:** [Colorectal Cancer](../colorectal-cancer/README.md) — its most common cancer grows from the lining: colorectal cancer arises from the glandular epithelium of the large bowel, the digestive system's leading malignancy and the reason colonoscopy screens the tract for precancerous polyps.
 - **Connects to:** [Gastric Cancer](../gastric-cancer/README.md) — chronic injury to the stomach turns malignant: gastric cancer develops from the gastric mucosa after years of H. pylori infection, inflammation and atrophy, a digestive-tract cancer still common worldwide.
 - **Connects to:** [Pancreatic Cancer](../pancreatic-cancer/README.md) — an accessory organ harbors a lethal cancer: pancreatic adenocarcinoma arises from the ductal cells of the pancreas, a digestive gland, and its silent deep location makes it one of the deadliest cancers of the system.
+- **Connects to:** [Cholangiocarcinoma](../cholangiocarcinoma/README.md) — its biliary tree can turn malignant: cholangiocarcinoma arises in the bile ducts that drain the liver into the gut, a hepatobiliary cancer of the digestive system often linked to chronic inflammation of the ducts.
+- **Connects to:** [NASH](../nash/README.md) — the liver fattens and inflames: NASH is the inflammatory fatty-liver disease of the digestive system's largest gland, driven by metabolic excess and progressing toward cirrhosis and liver cancer.
+- **Connects to:** [Candida albicans](../../../02-pathogen/03-fungi/candida-albicans/README.md) — a commensal yeast can turn invader: Candida normally lives quietly in the gut, but disrupted flora or immunity let it overgrow into oral and esophageal candidiasis along the upper digestive tract.
 
 ## Pathology
 
