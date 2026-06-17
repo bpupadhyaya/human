@@ -198,6 +198,15 @@ cross_links:
   - target: 01-human/07-system/bipolar-disorder
     relation: connects-to
     note: "Mood instability and bingeing intertwine: bipolar disorder is over-represented in bulimia, the impulsivity and reward dysregulation of mood episodes overlapping with the loss of control over eating."
+  - target: 01-human/07-system/osteoporosis
+    relation: connects-to
+    note: "Disordered eating thins the bones: the menstrual disruption, low estrogen and nutritional deficits of bulimia, despite often-normal weight, reduce bone density and raise fracture risk."
+  - target: 01-human/07-system/iron-deficiency-anemia
+    relation: connects-to
+    note: "Poor intake and gut blood loss drain iron: the chaotic nutrition of bulimia, with esophageal and gastric mucosal damage from vomiting, leads to iron deficiency and anemia."
+  - target: 01-human/07-system/wound-healing
+    relation: connects-to
+    note: "Nutrient deficits impair repair: the protein, zinc and vitamin deficiencies of bulimia's disordered eating deprive tissue of the substrate it needs, slowing wound healing."
 ---
 
 # Bulimia Nervosa
@@ -387,6 +396,9 @@ All of the following must be met:
 - `connects-to` → **[Obesity](../obesity/README.md)** — Binge-purge cycling can swing toward weight gain: unlike anorexia, bulimia often occurs at normal or above-normal weight, and the large binges with incomplete compensation can drive obesity over time.
 - `connects-to` → **[Type 2 Diabetes](../type-2-diabetes/README.md)** — Recurrent binges strain glucose control: the large carbohydrate binges and weight gain of bulimia promote insulin resistance, raising the risk of type 2 diabetes, which purging then makes dangerously hard to manage.
 - `connects-to` → **[Bipolar Disorder](../bipolar-disorder/README.md)** — Mood instability and bingeing intertwine: bipolar disorder is over-represented in bulimia, the impulsivity and reward dysregulation of mood episodes overlapping with the loss of control over eating.
+- `connects-to` → **[Osteoporosis](../osteoporosis/README.md)** — Disordered eating thins the bones: the menstrual disruption, low estrogen and nutritional deficits of bulimia, despite often-normal weight, reduce bone density and raise fracture risk.
+- `connects-to` → **[Iron-Deficiency Anemia](../iron-deficiency-anemia/README.md)** — Poor intake and gut blood loss drain iron: the chaotic nutrition of bulimia, with esophageal and gastric mucosal damage from vomiting, leads to iron deficiency and anemia.
+- `connects-to` → **[Wound Healing](../wound-healing/README.md)** — Nutrient deficits impair repair: the protein, zinc and vitamin deficiencies of bulimia's disordered eating deprive tissue of the substrate it needs, slowing wound healing.
 
 ## Treatment
 

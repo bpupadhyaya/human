@@ -196,6 +196,15 @@ cross_links:
   - target: 01-human/07-system/major-depressive-disorder
     relation: connects-to
     note: "A lifetime of cancer and illness weighs on the mind: living with profound cancer predisposition, recurrent infection, short stature and lifelong surveillance carries a substantial psychological burden in Bloom syndrome."
+  - target: 02-pathogen/02-bacteria/streptococcus-pneumoniae
+    relation: connects-to
+    note: "Its immunodeficiency invites recurrent infection: Bloom syndrome includes an antibody deficiency that leaves patients prone to recurrent respiratory and ear infections, often pneumococcal."
+  - target: 02-pathogen/03-fungi/aspergillus-fumigatus
+    relation: connects-to
+    note: "Immune defects and cancer therapy open the lung to mold: the immunodeficiency of Bloom syndrome, compounded by chemotherapy for its frequent cancers, can permit invasive aspergillosis."
+  - target: 01-human/07-system/wound-healing
+    relation: connects-to
+    note: "Its DNA-repair defect makes tissue fragile to treatment: Bloom cells are hypersensitive to chemotherapy and radiation, so the doses used against its cancers cause severe tissue damage and poor healing."
 ---
 
 # Bloom Syndrome
@@ -393,6 +402,9 @@ BS is characterized by three cardinal features: **small body size** (the most co
 - `connects-to` → **[COPD](../copd/README.md)** — Recurrent lung infection scars the airways: the immunodeficiency of Bloom syndrome causes repeated respiratory infections that can lead to bronchiectasis and chronic obstructive lung disease over time.
 - `connects-to` → **[Anemia of Chronic Disease](../anemia-of-chronic-disease/README.md)** — Infection, cancer and marrow strain lower the count: chronic infections, the disease's many malignancies and bone-marrow involvement combine to produce an anemia of chronic disease in Bloom syndrome.
 - `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — A lifetime of cancer and illness weighs on the mind: living with profound cancer predisposition, recurrent infection, short stature and lifelong surveillance carries a substantial psychological burden in Bloom syndrome.
+- `connects-to` → **[Streptococcus pneumoniae](../../../02-pathogen/02-bacteria/streptococcus-pneumoniae/README.md)** — Its immunodeficiency invites recurrent infection: Bloom syndrome includes an antibody deficiency that leaves patients prone to recurrent respiratory and ear infections, often pneumococcal.
+- `connects-to` → **[Aspergillus fumigatus](../../../02-pathogen/03-fungi/aspergillus-fumigatus/README.md)** — Immune defects and cancer therapy open the lung to mold: the immunodeficiency of Bloom syndrome, compounded by chemotherapy for its frequent cancers, can permit invasive aspergillosis.
+- `connects-to` → **[Wound Healing](../wound-healing/README.md)** — Its DNA-repair defect makes tissue fragile to treatment: Bloom cells are hypersensitive to chemotherapy and radiation, so the doses used against its cancers cause severe tissue damage and poor healing.
 
 ---
 
