@@ -187,6 +187,15 @@ cross_links:
   - target: 01-human/07-system/sepsis
     relation: connects-to
     note: "An obstructing or perforating tumor can seed infection: colorectal cancers that block or breach the bowel wall spill gut flora into the abdomen and bloodstream, and chemotherapy neutropenia adds its own route to sepsis."
+  - target: 01-human/07-system/anemia-of-chronic-disease
+    relation: connects-to
+    note: "Beyond bleeding, inflammation blunts the marrow: alongside the iron-deficiency anemia from chronic blood loss, the tumor's IL-6-driven inflammation raises hepcidin and suppresses erythropoiesis, adding an anemia-of-chronic-disease component."
+  - target: 01-human/07-system/heart-failure
+    relation: connects-to
+    note: "Its mainstay chemo can injure the heart: 5-fluorouracil and capecitabine cause coronary vasospasm and a cardiotoxicity that can precipitate ischemia and cardiac dysfunction during colorectal cancer treatment."
+  - target: 01-human/07-system/ckd
+    relation: connects-to
+    note: "Treatment and obstruction both threaten the kidney: the bevacizumab used in metastatic colorectal cancer causes proteinuria and renal injury, while pelvic tumor can obstruct the ureters, together risking chronic kidney disease."
 ---
 
 # Colorectal Cancer
@@ -359,6 +368,9 @@ The step-wise genetic progression from normal epithelium to carcinoma in CRC was
 - `connects-to` → **[NF-κB](../../03-molecular/nf-kb/README.md)** — Inflammation drives the colitis-to-cancer path: NF-κB activation in the chronically inflamed bowel links inflammatory bowel disease to colorectal cancer, switching on the survival and proliferation signals that turn inflamed mucosa malignant.
 - `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — IL-6 feeds the tumor through STAT3: in inflammation-associated colorectal cancer, IL-6 from the microenvironment activates STAT3 in epithelial cells to push their proliferation and survival, tightly coupled to the NF-κB inflammatory program.
 - `connects-to` → **[Sepsis](../sepsis/README.md)** — An obstructing or perforating tumor can seed infection: colorectal cancers that block or breach the bowel wall spill gut flora into the abdomen and bloodstream, and chemotherapy neutropenia adds its own route to sepsis.
+- `connects-to` → **[Anemia of Chronic Disease](../anemia-of-chronic-disease/README.md)** — Beyond bleeding, inflammation blunts the marrow: alongside the iron-deficiency anemia from chronic blood loss, the tumor's IL-6-driven inflammation raises hepcidin and suppresses erythropoiesis, adding an anemia-of-chronic-disease component.
+- `connects-to` → **[Heart Failure](../heart-failure/README.md)** — Its mainstay chemo can injure the heart: 5-fluorouracil and capecitabine cause coronary vasospasm and a cardiotoxicity that can precipitate ischemia and cardiac dysfunction during colorectal cancer treatment.
+- `connects-to` → **[Chronic Kidney Disease](../ckd/README.md)** — Treatment and obstruction both threaten the kidney: the bevacizumab used in metastatic colorectal cancer causes proteinuria and renal injury, while pelvic tumor can obstruct the ureters, together risking chronic kidney disease.
 
 ---
 

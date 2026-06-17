@@ -187,6 +187,15 @@ cross_links:
   - target: 01-human/07-system/sepsis
     relation: connects-to
     note: "Severe disease behaves like viral sepsis: critical COVID produces the dysregulated host response, shock and multiorgan failure of sepsis, and bacterial superinfection of the damaged lungs can layer true bacterial sepsis on top."
+  - target: 02-pathogen/03-fungi/aspergillus-fumigatus
+    relation: connects-to
+    note: "It opens the lung to the mold: damaged airway epithelium plus the steroids and immune dysregulation of severe COVID give rise to COVID-associated pulmonary aspergillosis (CAPA), a dangerous superinfection in the ICU."
+  - target: 01-human/07-system/ckd
+    relation: connects-to
+    note: "The kidney is a frequent casualty: COVID causes acute kidney injury through direct ACE2-mediated infection, cytokine injury and microthrombi, and severe AKI can fail to fully recover, leaving chronic kidney disease."
+  - target: 01-human/07-system/major-depressive-disorder
+    relation: connects-to
+    note: "Its long tail reaches the mind: post-COVID and long-COVID syndromes carry high rates of depression, from the neuroinflammatory effects of the virus and the psychological toll of severe illness and prolonged recovery."
 ---
 
 # COVID-19 Disease
@@ -308,6 +317,9 @@ Symptoms persisting >4 weeks: fatigue (most common), cognitive impairment ("brai
 - `connects-to` → **[NF-κB](../../03-molecular/nf-kb/README.md)** — NF-κB ignites the cytokine storm: SARS-CoV-2 sensing in airway and immune cells drives NF-κB to pour out IL-6, TNF and other mediators, the transcriptional engine behind the hyperinflammation of severe COVID.
 - `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — STAT3 amplifies the inflammatory loop: the flood of IL-6 in severe COVID activates STAT3, sustaining the feed-forward cytokine signaling that the IL-6 blocker tocilizumab targets in critically ill patients.
 - `connects-to` → **[Sepsis](../sepsis/README.md)** — Severe disease behaves like viral sepsis: critical COVID produces the dysregulated host response, shock and multiorgan failure of sepsis, and bacterial superinfection of the damaged lungs can layer true bacterial sepsis on top.
+- `connects-to` → **[Aspergillus fumigatus](../../../02-pathogen/03-fungi/aspergillus-fumigatus/README.md)** — It opens the lung to the mold: damaged airway epithelium plus the steroids and immune dysregulation of severe COVID give rise to COVID-associated pulmonary aspergillosis (CAPA), a dangerous superinfection in the ICU.
+- `connects-to` → **[Chronic Kidney Disease](../ckd/README.md)** — The kidney is a frequent casualty: COVID causes acute kidney injury through direct ACE2-mediated infection, cytokine injury and microthrombi, and severe AKI can fail to fully recover, leaving chronic kidney disease.
+- `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — Its long tail reaches the mind: post-COVID and long-COVID syndromes carry high rates of depression, from the neuroinflammatory effects of the virus and the psychological toll of severe illness and prolonged recovery.
 
 ## Pathology
 
