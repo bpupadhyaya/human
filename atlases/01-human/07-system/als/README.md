@@ -187,6 +187,15 @@ cross_links:
   - target: 01-human/07-system/venous-thromboembolism
     relation: connects-to
     note: "Paralysis breeds clots: the progressive immobility of ALS markedly raises the risk of deep-vein thrombosis and pulmonary embolism, a preventable complication that warrants vigilance as the limbs weaken."
+  - target: 01-human/03-molecular/nf-kb
+    relation: connects-to
+    note: "Microglia inflame the dying motor neurons through NF-κB: misfolded proteins activate NF-κB in microglia, driving the cytokine output and NLRP3 priming that turn neuroinflammation into a driver of motor-neuron death."
+  - target: 01-human/07-system/sepsis
+    relation: connects-to
+    note: "Bulbar weakness routes food into the lungs: failing swallow and cough cause aspiration pneumonia, which together with ventilator dependence makes infection and sepsis a frequent terminal event in ALS."
+  - target: 01-human/07-system/insomnia-disorder
+    relation: connects-to
+    note: "Nights are broken by failing muscles: nocturnal hypoventilation, the inability to reposition, cramps and anxiety fragment sleep in ALS, so insomnia is common and worsens daytime fatigue and breathlessness."
 ---
 
 # ALS
@@ -383,6 +392,9 @@ ALS diagnosis is **clinical** — no single definitive biomarker test (though Nf
 - `connects-to` → **[TBK1](../../03-molecular/tbk1/README.md)** — TBK1 mutations cause ALS-FTD: loss of this kinase, which links autophagy and innate-immune signaling, impairs clearance of aggregated TDP-43 and stokes neuroinflammation, tying a single gene to both motor and frontotemporal degeneration.
 - `connects-to` → **[NLRP3 Inflammasome](../../03-molecular/nlrp3-inflammasome/README.md)** — Dying motor neurons light the inflammasome: misfolded SOD1 and TDP-43 activate microglial NLRP3, and the IL-1β it releases amplifies the neuroinflammation that accelerates motor-neuron loss in ALS.
 - `connects-to` → **[Venous Thromboembolism](../venous-thromboembolism/README.md)** — Paralysis breeds clots: the progressive immobility of ALS markedly raises the risk of deep-vein thrombosis and pulmonary embolism, a preventable complication that warrants vigilance as the limbs weaken.
+- `connects-to` → **[NF-κB](../../03-molecular/nf-kb/README.md)** — Microglia inflame the dying motor neurons through NF-κB: misfolded proteins activate NF-κB in microglia, driving the cytokine output and NLRP3 priming that turn neuroinflammation into a driver of motor-neuron death.
+- `connects-to` → **[Sepsis](../sepsis/README.md)** — Bulbar weakness routes food into the lungs: failing swallow and cough cause aspiration pneumonia, which together with ventilator dependence makes infection and sepsis a frequent terminal event in ALS.
+- `connects-to` → **[Insomnia Disorder](../insomnia-disorder/README.md)** — Nights are broken by failing muscles: nocturnal hypoventilation, the inability to reposition, cramps and anxiety fragment sleep in ALS, so insomnia is common and worsens daytime fatigue and breathlessness.
 
 [^brown-2017-als-review]: Brown RH, Al-Chalabi A. Amyotrophic lateral sclerosis. *N Engl J Med.* 2017;377(2):162-172. [doi:10.1056/NEJMra1603471](https://doi.org/10.1056/NEJMra1603471) · [PubMed 28700839](https://pubmed.ncbi.nlm.nih.gov/28700839/)
 [^edaravone-als-2017]: Writing Group, Edaravone ALS 19 Study Group. Safety and efficacy of edaravone in well defined patients with amyotrophic lateral sclerosis. *Lancet Neurol.* 2017;16(7):505-512. [doi:10.1016/S1474-4422(17)30115-1](https://doi.org/10.1016/S1474-4422(17)30115-1) · [PubMed 28522180](https://pubmed.ncbi.nlm.nih.gov/28522180/)
