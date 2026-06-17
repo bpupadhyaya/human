@@ -178,6 +178,15 @@ cross_links:
   - target: 01-human/04-cellular/mast-cell
     relation: connects-to
     note: "Allergy compounds the CF airway: mast cells drive the allergic bronchopulmonary aspergillosis and airway hyper-reactivity that often complicate cystic fibrosis on top of its chronic bacterial infection."
+  - target: 01-human/07-system/colorectal-cancer
+    relation: connects-to
+    note: "CFTR is also a gut tumor suppressor: people with cystic fibrosis face a markedly raised colorectal cancer risk that rises further after lung transplant, so earlier and more frequent colonoscopy screening is now recommended."
+  - target: 01-human/07-system/pulmonary-arterial-hypertension
+    relation: connects-to
+    note: "End-stage lungs back up onto the heart: chronic hypoxia and destroyed pulmonary vasculature in advanced CF raise pulmonary artery pressure into cor pulmonale, a marker of severe disease and transplant need."
+  - target: 01-human/03-molecular/stat3
+    relation: connects-to
+    note: "Neutrophilic airway inflammation funnels through STAT3: IL-6 and IL-17 in the chronically infected CF lung drive STAT3 signaling that sustains the relentless inflammation damaging the airways."
 ---
 
 # Cystic Fibrosis
@@ -359,6 +368,9 @@ AND
 - `connects-to` → **[IL-17A](../../03-molecular/il-17a/README.md)** — A Th17 arm recruits the destructive neutrophils: IL-17A is elevated in CF airways and drives the neutrophil influx and mucin production that wreck the lung, making the IL-17 axis a candidate anti-inflammatory target.
 - `connects-to` → **[Sepsis](../sepsis/README.md)** — Infection can break out of the lung: severe exacerbations and Burkholderia cepacia 'cepacia syndrome,' along with long-term indwelling venous catheters, expose CF patients to bloodstream infection and sepsis.
 - `connects-to` → **[Mast Cell](../../04-cellular/mast-cell/README.md)** — Allergy compounds the CF airway: mast cells drive the allergic bronchopulmonary aspergillosis and airway hyper-reactivity that often complicate cystic fibrosis on top of its chronic bacterial infection.
+- `connects-to` → **[Colorectal Cancer](../colorectal-cancer/README.md)** — CFTR is also a gut tumor suppressor: people with cystic fibrosis face a markedly raised colorectal cancer risk that rises further after lung transplant, so earlier and more frequent colonoscopy screening is now recommended.
+- `connects-to` → **[Pulmonary Arterial Hypertension](../pulmonary-arterial-hypertension/README.md)** — End-stage lungs back up onto the heart: chronic hypoxia and destroyed pulmonary vasculature in advanced CF raise pulmonary artery pressure into cor pulmonale, a marker of severe disease and transplant need.
+- `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — Neutrophilic airway inflammation funnels through STAT3: IL-6 and IL-17 in the chronically infected CF lung drive STAT3 signaling that sustains the relentless inflammation damaging the airways.
 
 ---
 

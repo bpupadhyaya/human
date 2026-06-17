@@ -178,6 +178,15 @@ cross_links:
   - target: 01-human/07-system/hereditary-breast-ovarian-cancer
     relation: connects-to
     note: "It is part of the hereditary breast-cancer differential: Cowden's PTEN-driven breast cancer risk overlaps clinically with BRCA-related hereditary breast and ovarian cancer, so the wider tumor and skin pattern is what distinguishes the syndromes and guides gene testing."
+  - target: 01-human/03-molecular/stat3
+    relation: connects-to
+    note: "PTEN loss unleashes more than PI3K: alongside AKT-mTOR, the unrestrained signaling of Cowden activates STAT3, adding a proliferative, pro-survival pathway to the hamartomas and cancers of the syndrome."
+  - target: 01-human/03-molecular/cyclin-d1
+    relation: connects-to
+    note: "Growth signals drive the cell cycle through cyclin D1: PTEN loss and the resulting PI3K-AKT activity push cyclin D1 expression, accelerating the cell-cycle entry behind Cowden's hamartomatous overgrowth and tumors."
+  - target: 01-human/07-system/major-depressive-disorder
+    relation: connects-to
+    note: "PTEN reaches the developing brain: beyond the autism and macrocephaly of the syndrome, PTEN's role in neuronal signaling is linked to mood and anxiety disorders, part of Cowden's neuropsychiatric spectrum."
 ---
 
 # Cowden Syndrome
@@ -411,6 +420,9 @@ cross_links:
 - `connects-to` → **[Collagen](../../03-molecular/collagen/README.md)** — A collagen tumor is a diagnostic clue: the sclerotic fibroma (storiform collagenoma) of the skin, a whorled mass of dense collagen, is a characteristic Cowden lesion alongside the trichilemmomas that flag the syndrome.
 - `connects-to` → **[Gastric Cancer](../gastric-cancer/README.md)** — The polyps reach the stomach: Cowden studs the GI tract with hamartomatous polyps and carries an increased risk of gastric and other upper-GI cancers, extending its surveillance beyond the colon.
 - `connects-to` → **[Hereditary Breast and Ovarian Cancer](../hereditary-breast-ovarian-cancer/README.md)** — It is part of the hereditary breast-cancer differential: Cowden's PTEN-driven breast cancer risk overlaps clinically with BRCA-related hereditary breast and ovarian cancer, so the wider tumor and skin pattern is what distinguishes the syndromes and guides gene testing.
+- `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — PTEN loss unleashes more than PI3K: alongside AKT-mTOR, the unrestrained signaling of Cowden activates STAT3, adding a proliferative, pro-survival pathway to the hamartomas and cancers of the syndrome.
+- `connects-to` → **[Cyclin D1](../../03-molecular/cyclin-d1/README.md)** — Growth signals drive the cell cycle through cyclin D1: PTEN loss and the resulting PI3K-AKT activity push cyclin D1 expression, accelerating the cell-cycle entry behind Cowden's hamartomatous overgrowth and tumors.
+- `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — PTEN reaches the developing brain: beyond the autism and macrocephaly of the syndrome, PTEN's role in neuronal signaling is linked to mood and anxiety disorders, part of Cowden's neuropsychiatric spectrum.
 
 ---
 
