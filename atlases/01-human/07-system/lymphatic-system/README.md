@@ -176,6 +176,15 @@ cross_links:
   - target: 01-human/07-system/cll
     relation: connects-to
     note: "A lymphoid leukemia fills the system: chronic lymphocytic leukemia accumulates malignant B lymphocytes that swell the lymph nodes and spleen, a tumor of the very cells the lymphatic system is built to circulate."
+  - target: 01-human/07-system/burkitt-lymphoma
+    relation: connects-to
+    note: "The fastest cancer grows in its tissue: Burkitt lymphoma is an explosive germinal-center B-cell tumor of the lymphatic system, the most rapidly proliferating human cancer, often presenting as a bulky nodal or abdominal mass."
+  - target: 02-pathogen/01-viruses/epstein-barr-virus
+    relation: connects-to
+    note: "A virus makes the lymphatic system its home: Epstein-Barr virus infects B lymphocytes, causing the lymphadenopathy of mononucleosis and driving several lymphomas that arise from the cells it transforms."
+  - target: 01-human/07-system/sepsis
+    relation: connects-to
+    note: "The lymphatics are a highway for infection: pathogens draining through lymph cause lymphangitis and lymphadenitis, and when the nodes are overwhelmed the infection can spill into the blood as sepsis."
 ---
 
 # Lymphatic System
@@ -338,6 +347,9 @@ Enterocytes package dietary triglycerides + cholesterol + apoB-48 into chylomicr
 - `connects-to` → **[Streptococcus pyogenes](../../../02-pathogen/02-bacteria/streptococcus-pyogenes/README.md)** — Strep inflames the lymphatic channels: Streptococcus pyogenes causes lymphangitis — the red streak tracking up a limb toward the nodes — and recurrent attacks scar the vessels into chronic lymphedema.
 - `connects-to` → **[Obesity](../obesity/README.md)** — Excess fat throttles the lymphatics: obesity impairs lymphatic pumping and damages the vessels, causing a distinct obesity-related lymphedema, while the lymphatic system in turn shapes fat deposition and inflammation.
 - `connects-to` → **[CLL](../cll/README.md)** — A lymphoid leukemia fills the system: chronic lymphocytic leukemia accumulates malignant B lymphocytes that swell the lymph nodes and spleen, a tumor of the very cells the lymphatic system is built to circulate.
+- `connects-to` → **[Burkitt Lymphoma](../burkitt-lymphoma/README.md)** — The fastest cancer grows in its tissue: Burkitt lymphoma is an explosive germinal-center B-cell tumor of the lymphatic system, the most rapidly proliferating human cancer, often presenting as a bulky nodal or abdominal mass.
+- `connects-to` → **[Epstein-Barr Virus](../../../02-pathogen/01-viruses/epstein-barr-virus/README.md)** — A virus makes the lymphatic system its home: Epstein-Barr virus infects B lymphocytes, causing the lymphadenopathy of mononucleosis and driving several lymphomas that arise from the cells it transforms.
+- `connects-to` → **[Sepsis](../sepsis/README.md)** — The lymphatics are a highway for infection: pathogens draining through lymph cause lymphangitis and lymphadenitis, and when the nodes are overwhelmed the infection can spill into the blood as sepsis.
 
 ## Pathology
 

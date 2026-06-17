@@ -178,6 +178,15 @@ cross_links:
   - target: 01-human/03-molecular/igf-1
     relation: connects-to
     note: "p53 normally reins in growth signaling: it represses the IGF-1/mTOR axis, so germline p53 loss in Li-Fraumeni unleashes IGF-driven proliferation and metabolism — a pathway probed for chemoprevention (e.g. metformin)."
+  - target: 01-human/03-molecular/nf-kb
+    relation: connects-to
+    note: "Losing p53 lifts a brake on NF-κB: p53 and NF-κB are antagonistic, so the germline p53 loss of Li-Fraumeni tilts cells toward NF-κB-driven survival and inflammation that favors its many tumors."
+  - target: 01-human/07-system/venous-thromboembolism
+    relation: connects-to
+    note: "A lifetime of cancers that clot: the breast, sarcoma and other malignancies of Li-Fraumeni each carry tumor-driven hypercoagulability, so venous thromboembolism is a recurring hazard across the syndrome's cancers and their treatment."
+  - target: 01-human/07-system/sepsis
+    relation: connects-to
+    note: "Repeated chemotherapy strips defenses: carriers face many cancers, often young, treated with marrow-suppressing chemotherapy, so febrile neutropenia and sepsis recur across a lifetime of treatment."
 ---
 
 # Li-Fraumeni Syndrome
@@ -382,6 +391,9 @@ Annual surveillance significantly reduces mortality in LFS carriers (Villani 201
 - `connects-to` → **[Neuroblastoma](../neuroblastoma/README.md)** — The childhood tumor net catches neuroblastoma too: germline TP53 loss contributes to a range of pediatric cancers including neuroblastoma, reinforcing why Li-Fraumeni children undergo whole-body and brain MRI surveillance.
 - `connects-to` → **[Prostate Cancer](../prostate-cancer/README.md)** — Men with the mutation face early prostate cancer: TP53 carriers show a raised, often younger-onset prostate cancer risk, one of the adult tumors that extends the syndrome's lifelong surveillance beyond breast and sarcoma.
 - `connects-to` → **[IGF-1](../../03-molecular/igf-1/README.md)** — p53 normally reins in growth signaling: it represses the IGF-1/mTOR axis, so germline p53 loss in Li-Fraumeni unleashes IGF-driven proliferation and metabolism — a pathway probed for chemoprevention (e.g. metformin).
+- `connects-to` → **[NF-κB](../../03-molecular/nf-kb/README.md)** — Losing p53 lifts a brake on NF-κB: p53 and NF-κB are antagonistic, so the germline p53 loss of Li-Fraumeni tilts cells toward NF-κB-driven survival and inflammation that favors its many tumors.
+- `connects-to` → **[Venous Thromboembolism](../venous-thromboembolism/README.md)** — A lifetime of cancers that clot: the breast, sarcoma and other malignancies of Li-Fraumeni each carry tumor-driven hypercoagulability, so venous thromboembolism is a recurring hazard across the syndrome's cancers and their treatment.
+- `connects-to` → **[Sepsis](../sepsis/README.md)** — Repeated chemotherapy strips defenses: carriers face many cancers, often young, treated with marrow-suppressing chemotherapy, so febrile neutropenia and sepsis recur across a lifetime of treatment.
 
 [^bougeard-2015-lfs-chompret]: Bougeard G, Renaux-Petel M, Flaman JM, et al. Revisiting Li-Fraumeni Syndrome From TP53 Mutation Carriers. *J Clin Oncol.* 2015;33(21):2345-2352. [doi:10.1200/JCO.2014.59.5728](https://doi.org/10.1200/JCO.2014.59.5728) · [PubMed 26014290](https://pubmed.ncbi.nlm.nih.gov/26014290/)
 [^villani-2016-lfs-surveillance]: Villani A, Shore A, Wasserman JD, et al. Biochemical and imaging surveillance in germline TP53 mutation carriers with Li-Fraumeni syndrome: 11 year follow-up of a prospective observational study. *Lancet Oncol.* 2016;17(9):1295-1305. [doi:10.1016/S1470-2045(16)30249-2](https://doi.org/10.1016/S1470-2045(16)30249-2) · [PubMed 27501770](https://pubmed.ncbi.nlm.nih.gov/27501770/)
