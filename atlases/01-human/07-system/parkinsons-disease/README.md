@@ -178,6 +178,15 @@ cross_links:
   - target: 01-human/04-cellular/natural-killer-cell
     relation: connects-to
     note: "Innate cells help clear the toxic protein: natural killer cells scavenge α-synuclein aggregates and modulate the neuroinflammation, an innate-immune arm of Parkinson's that complements the cytotoxic T-cell attack."
+  - target: 01-human/03-molecular/nf-kb
+    relation: connects-to
+    note: "Microglia inflame the dying neurons through NF-κB: α-synuclein activates NF-κB in microglia, which prime the NLRP3 inflammasome and pour out cytokines that accelerate the loss of dopaminergic neurons."
+  - target: 01-human/07-system/insomnia-disorder
+    relation: connects-to
+    note: "Sleep falls apart early and often: insomnia, fragmented sleep and REM sleep behavior disorder are cardinal non-motor features of Parkinson's, sometimes preceding the tremor by years as the disease invades sleep-regulating nuclei."
+  - target: 01-human/07-system/sepsis
+    relation: connects-to
+    note: "Swallowing fails and the lungs pay: advancing Parkinson's brings dysphagia and aspiration, so aspiration pneumonia and the sepsis it triggers are the leading cause of death in the disease."
 ---
 
 # Parkinson's Disease
@@ -370,6 +379,9 @@ PD is primarily a disease of aging (mean onset ~60 years), but **~10–15% of ca
 - `connects-to` → **[NLRP3 Inflammasome](../../03-molecular/nlrp3-inflammasome/README.md)** — Microglia inflame the dying nigra: α-synuclein aggregates activate the NLRP3 inflammasome in microglia to release IL-1β, a self-amplifying neuroinflammation that accelerates dopamine-neuron loss and is a leading drug target in Parkinson's.
 - `connects-to` → **[Type 2 Diabetes](../type-2-diabetes/README.md)** — Disordered insulin signaling speeds it: type 2 diabetes and brain insulin resistance raise Parkinson's risk and quicken its progression, which is why GLP-1 diabetes drugs are now being trialed to slow the neurodegeneration.
 - `connects-to` → **[Natural Killer Cell](../../04-cellular/natural-killer-cell/README.md)** — Innate cells help clear the toxic protein: natural killer cells scavenge α-synuclein aggregates and modulate the neuroinflammation, an innate-immune arm of Parkinson's that complements the cytotoxic T-cell attack.
+- `connects-to` → **[NF-κB](../../03-molecular/nf-kb/README.md)** — Microglia inflame the dying neurons through NF-κB: α-synuclein activates NF-κB in microglia, which prime the NLRP3 inflammasome and pour out cytokines that accelerate the loss of dopaminergic neurons.
+- `connects-to` → **[Insomnia Disorder](../insomnia-disorder/README.md)** — Sleep falls apart early and often: insomnia, fragmented sleep and REM sleep behavior disorder are cardinal non-motor features of Parkinson's, sometimes preceding the tremor by years as the disease invades sleep-regulating nuclei.
+- `connects-to` → **[Sepsis](../sepsis/README.md)** — Swallowing fails and the lungs pay: advancing Parkinson's brings dysphagia and aspiration, so aspiration pneumonia and the sepsis it triggers are the leading cause of death in the disease.
 
 [^kalia-2015-pd-review]: Kalia LV, Lang AE. Parkinson's disease. *Lancet.* 2015;386(9996):896-912. [doi:10.1016/S0140-6736(14)61393-3](https://doi.org/10.1016/S0140-6736(14)61393-3) · [PubMed 25904081](https://pubmed.ncbi.nlm.nih.gov/25904081/)
 [^spillantini-1997-lewy-body]: Spillantini MG, Schmidt ML, Lee VM, Trojanowski JQ, Jakes R, Goedert M. Alpha-synuclein in Lewy bodies. *Nature.* 1997;388(6645):839-840. [doi:10.1038/42166](https://doi.org/10.1038/42166) · [PubMed 9278044](https://pubmed.ncbi.nlm.nih.gov/9278044/)
