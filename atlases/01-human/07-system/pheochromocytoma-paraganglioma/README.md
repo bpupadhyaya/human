@@ -196,6 +196,15 @@ cross_links:
   - target: 01-human/07-system/pulmonary-arterial-hypertension
     relation: connects-to
     note: "Catecholamines and HIF-pathway tumors can pressurize the lungs: adrenergic surges acutely constrict the pulmonary vasculature, and the EPAS1/HIF-2α paraganglioma syndromes are described alongside pulmonary hypertension."
+  - target: 01-human/07-system/wound-healing
+    relation: connects-to
+    note: "Removing the tumour is high-stakes surgery: adrenalectomy or paraganglioma resection requires careful alpha-blockade to prevent intra-operative hypertensive crisis, and the abdominal wound must heal afterwards."
+  - target: 01-human/07-system/atherosclerosis
+    relation: connects-to
+    note: "Years of catecholamine hypertension scar the arteries: the sustained and paroxysmal blood-pressure surges of a phaeochromocytoma accelerate endothelial injury and atherosclerotic vascular damage."
+  - target: 01-human/07-system/digestive-system
+    relation: connects-to
+    note: "Adrenergic excess paralyses the gut: high circulating catecholamines suppress intestinal motility in phaeochromocytoma, causing severe constipation and occasionally pseudo-obstruction or ischaemic colitis."
 ---
 
 # Pheochromocytoma/Paraganglioma
@@ -397,6 +406,9 @@ Active in Cluster 1 (MET/AXL co-expressed in SDH-deficient tumors); Phase 2 CABO
 - `connects-to` → **[Venous Thromboembolism](../venous-thromboembolism/README.md)** — Its catecholamines and surgery thicken the clotting risk: chronic adrenergic stimulation activates platelets and coagulation, and the major operation to resect the tumor adds perioperative immobility, together raising venous thromboembolism risk.
 - `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — Catecholamine excess unsettles the mind: the surges that cause palpitations and panic also disturb mood, and patients commonly carry anxiety and depressive symptoms before diagnosis that can linger after the tumor is removed.
 - `connects-to` → **[Pulmonary Arterial Hypertension](../pulmonary-arterial-hypertension/README.md)** — Catecholamines and HIF-pathway tumors can pressurize the lungs: adrenergic surges acutely constrict the pulmonary vasculature, and the EPAS1/HIF-2α paraganglioma syndromes are described alongside pulmonary hypertension.
+- `connects-to` → **[Wound Healing](../wound-healing/README.md)** — Removing the tumour is high-stakes surgery: adrenalectomy or paraganglioma resection requires careful alpha-blockade to prevent intra-operative hypertensive crisis, and the abdominal wound must heal afterwards.
+- `connects-to` → **[Atherosclerosis](../atherosclerosis/README.md)** — Years of catecholamine hypertension scar the arteries: the sustained and paroxysmal blood-pressure surges of a phaeochromocytoma accelerate endothelial injury and atherosclerotic vascular damage.
+- `connects-to` → **[Digestive System](../digestive-system/README.md)** — Adrenergic excess paralyses the gut: high circulating catecholamines suppress intestinal motility in phaeochromocytoma, causing severe constipation and occasionally pseudo-obstruction or ischaemic colitis.
 
 [^lenders-2014-pheo-guideline]: Lenders JW, Duh QY, Eisenhofer G, et al. Pheochromocytoma and paraganglioma: an endocrine society clinical practice guideline. *J Clin Endocrinol Metab.* 2014;99(6):1915-1942. [doi:10.1210/jc.2014-1498](https://doi.org/10.1210/jc.2014-1498) · [PubMed 24893135](https://pubmed.ncbi.nlm.nih.gov/24893135/)
 [^baudin-2021-firstmappp-sunitinib]: Baudin E, Goichot B, Berruti A, et al. First International Randomized Study in Malignant Progressive Pheochromocytoma and Paragangliomas (FIRSTMAPPP). *Ann Oncol.* 2021;32(10):1245-1254. [doi:10.1016/j.annonc.2021.07.009](https://doi.org/10.1016/j.annonc.2021.07.009) · [PubMed 34246769](https://pubmed.ncbi.nlm.nih.gov/34246769/)

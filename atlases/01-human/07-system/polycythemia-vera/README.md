@@ -196,6 +196,15 @@ cross_links:
   - target: 01-human/07-system/sepsis
     relation: connects-to
     note: "Its cytoreductive drugs blunt immune defense: ruxolitinib and hydroxyurea used to control PV suppress immunity and predispose to opportunistic and reactivated infections that can escalate to sepsis."
+  - target: 02-pathogen/01-viruses/varicella-zoster-virus
+    relation: connects-to
+    note: "JAK inhibition reawakens shingles: ruxolitinib used for polycythemia vera dampens T-cell immunity and characteristically reactivates latent varicella-zoster, a recognised risk during therapy."
+  - target: 02-pathogen/03-fungi/aspergillus-fumigatus
+    relation: connects-to
+    note: "Deep immune suppression opens the lung to mould: ruxolitinib for advanced PV, with disease-related immune dysfunction, can permit invasive aspergillosis and other opportunistic fungal infection."
+  - target: 01-human/07-system/generalized-anxiety-disorder
+    relation: connects-to
+    note: "Lifelong clot-and-transformation risk breeds worry: the constant threat of thrombosis and progression to myelofibrosis or leukaemia in PV, plus relentless itch and fatigue, fosters chronic health anxiety."
 ---
 
 # Polycythemia Vera
@@ -377,6 +386,9 @@ PV must be distinguished from secondary erythrocytosis (elevated EPO, JAK2 wild-
 - `connects-to` → **[Heart Failure](../heart-failure/README.md)** — Thick blood and clots overburden the heart: PV's hyperviscosity raises cardiac workload, and its arterial thromboses cause myocardial infarctions, both routes by which the disease can drive the heart toward failure.
 - `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — Relentless itch and fatigue erode mood: the disabling aquagenic pruritus, chronic fatigue and lifelong thrombosis anxiety of PV substantially impair quality of life and contribute to depression.
 - `connects-to` → **[Sepsis](../sepsis/README.md)** — Its cytoreductive drugs blunt immune defense: ruxolitinib and hydroxyurea used to control PV suppress immunity and predispose to opportunistic and reactivated infections that can escalate to sepsis.
+- `connects-to` → **[Varicella-Zoster Virus](../../../02-pathogen/01-viruses/varicella-zoster-virus/README.md)** — JAK inhibition reawakens shingles: ruxolitinib used for polycythemia vera dampens T-cell immunity and characteristically reactivates latent varicella-zoster, a recognised risk during therapy.
+- `connects-to` → **[Aspergillus fumigatus](../../../02-pathogen/03-fungi/aspergillus-fumigatus/README.md)** — Deep immune suppression opens the lung to mould: ruxolitinib for advanced PV, with disease-related immune dysfunction, can permit invasive aspergillosis and other opportunistic fungal infection.
+- `connects-to` → **[Generalized Anxiety Disorder](../generalized-anxiety-disorder/README.md)** — Lifelong clot-and-transformation risk breeds worry: the constant threat of thrombosis and progression to myelofibrosis or leukaemia in PV, plus relentless itch and fatigue, fosters chronic health anxiety.
 
 [^vannucchi-2015-response]: Vannucchi AM, Kiladjian JJ, Griesshammer M, et al. Ruxolitinib versus standard therapy for the treatment of polycythemia vera. *N Engl J Med.* 2015;372(5):426-435. [doi:10.1056/NEJMoa1409630](https://doi.org/10.1056/NEJMoa1409630) · [PubMed 25577388](https://pubmed.ncbi.nlm.nih.gov/25577388/)
 [^gisslinger-2020-proud-pv]: Gisslinger H, Gotic M, Holowiecki J, et al. Ropeginterferon alfa-2b versus standard therapy for polycythaemia vera (PROUD-PV and CONTINUATION-PV): a randomised, non-inferiority, phase 3 trial and its extension study. *Lancet Haematol.* 2020;7(3):e196-e208. [doi:10.1016/S2352-3026(19)30236-4](https://doi.org/10.1016/S2352-3026(19)30236-4) · [PubMed 32046833](https://pubmed.ncbi.nlm.nih.gov/32046833/)
