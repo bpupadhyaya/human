@@ -205,6 +205,15 @@ cross_links:
   - target: 01-human/07-system/sepsis
     relation: connects-to
     note: "Its attacks invite risky intervention: laryngeal swelling can force emergency intubation or surgical airways, and abdominal attacks mimicking a surgical abdomen can lead to unnecessary operations, each carrying infection and sepsis risk."
+  - target: 01-human/07-system/integumentary-system
+    relation: connects-to
+    note: "Its hallmark is swelling of the skin: HAE produces recurrent non-itchy subcutaneous angioedema of the face, limbs and genitals, often preceded by the rash-like prodrome of erythema marginatum."
+  - target: 01-human/07-system/endocrine-system
+    relation: connects-to
+    note: "Hormones both trigger and treat it: oestrogen from the pill or pregnancy worsens HAE attacks, while attenuated androgens like danazol have long been used as prophylaxis, tying the disease to the endocrine system."
+  - target: 01-human/07-system/cardiovascular-system
+    relation: connects-to
+    note: "It runs on the bradykinin pathway shared with blood-pressure drugs: HAE swelling is bradykinin-mediated, so ACE inhibitors, which block bradykinin breakdown, are contraindicated and can precipitate severe attacks."
 ---
 
 # Hereditary Angioedema
@@ -402,6 +411,9 @@ Fluid extravasation → ANGIOEDEMA
 - `connects-to` → **[Atherosclerosis](../atherosclerosis/README.md)** — Its androgen prophylaxis worsens the arteries: long-term danazol lowers HDL and raises LDL, and this drug-induced dyslipidemia accelerates atherosclerosis, another reason attenuated androgens are now second-line in HAE.
 - `connects-to` → **[PTSD](../ptsd/README.md)** — Near-fatal swelling can traumatize: surviving laryngeal attacks that threaten suffocation, sometimes with emergency airway procedures, can leave HAE patients with post-traumatic stress on top of their anxiety.
 - `connects-to` → **[Sepsis](../sepsis/README.md)** — Its attacks invite risky intervention: laryngeal swelling can force emergency intubation or surgical airways, and abdominal attacks mimicking a surgical abdomen can lead to unnecessary operations, each carrying infection and sepsis risk.
+- `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — Its hallmark is swelling of the skin: HAE produces recurrent non-itchy subcutaneous angioedema of the face, limbs and genitals, often preceded by the rash-like prodrome of erythema marginatum.
+- `connects-to` → **[Endocrine System](../endocrine-system/README.md)** — Hormones both trigger and treat it: oestrogen from the pill or pregnancy worsens HAE attacks, while attenuated androgens like danazol have long been used as prophylaxis, tying the disease to the endocrine system.
+- `connects-to` → **[Cardiovascular System](../cardiovascular-system/README.md)** — It runs on the bradykinin pathway shared with blood-pressure drugs: HAE swelling is bradykinin-mediated, so ACE inhibitors, which block bradykinin breakdown, are contraindicated and can precipitate severe attacks.
 
 [^cicardi-2010-icatibant-nejm]: Cicardi M, Banerji A, Bracho F, et al. Icatibant, a new bradykinin-receptor antagonist, in hereditary angioedema. *N Engl J Med.* 2010;363(6):532-541. [doi:10.1056/NEJMoa0906393](https://doi.org/10.1056/NEJMoa0906393) · [PubMed 20818873](https://pubmed.ncbi.nlm.nih.gov/20818873/)
 [^maurer-2018-lanadelumab-help]: Banerji A, Riedl MA, Bernstein JA, et al. Effect of lanadelumab compared with placebo on prevention of hereditary angioedema attacks. *JAMA.* 2018;320(20):2108-2121. [doi:10.1001/jama.2018.16773](https://doi.org/10.1001/jama.2018.16773) · [PubMed 30480729](https://pubmed.ncbi.nlm.nih.gov/30480729/)

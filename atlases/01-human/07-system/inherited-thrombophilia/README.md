@@ -205,6 +205,15 @@ cross_links:
   - target: 01-human/07-system/major-depressive-disorder
     relation: connects-to
     note: "Lifelong clot risk and anticoagulation weigh on mood: recurrent thrombotic events, pregnancy loss and the burden of indefinite blood thinners contribute to depression in inherited thrombophilia."
+  - target: 01-human/07-system/digestive-system
+    relation: connects-to
+    note: "It clots the veins draining the gut and liver: inherited thrombophilia is a leading cause of splanchnic, portal and mesenteric vein thrombosis and Budd-Chiari syndrome, threatening the bowel and liver."
+  - target: 01-human/07-system/nervous-system
+    relation: connects-to
+    note: "It can clot the brain's veins: thrombophilia predisposes to cerebral venous sinus thrombosis, a stroke-like event causing headache, seizures and raised intracranial pressure, often in young patients."
+  - target: 01-human/07-system/generalized-anxiety-disorder
+    relation: connects-to
+    note: "Lifelong clot risk and pregnancy worry breed anxiety: the threat of recurrent thrombosis, fear of pregnancy loss and the demands of indefinite anticoagulation foster chronic health anxiety alongside depression."
 ---
 
 # Inherited Thrombophilia
@@ -426,6 +435,9 @@ Antithrombin (ATIII) is the primary plasma inhibitor of thrombin, FXa, FIXa, and
 - `connects-to` → **[Wound Healing](../wound-healing/README.md)** — Recurrent leg clots leave chronic ulcers: deep vein thromboses in thrombophilia damage venous valves, and the resulting post-thrombotic syndrome and chronic venous insufficiency produce slow-healing venous leg ulcers.
 - `connects-to` → **[Osteoporosis](../osteoporosis/README.md)** — Long anticoagulation can cost bone: the prolonged heparin used in thrombophilic pregnancies and during recurrent clotting lowers bone density, a recognized cause of treatment-related osteoporosis.
 - `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — Lifelong clot risk and anticoagulation weigh on mood: recurrent thrombotic events, pregnancy loss and the burden of indefinite blood thinners contribute to depression in inherited thrombophilia.
+- `connects-to` → **[Digestive System](../digestive-system/README.md)** — It clots the veins draining the gut and liver: inherited thrombophilia is a leading cause of splanchnic, portal and mesenteric vein thrombosis and Budd-Chiari syndrome, threatening the bowel and liver.
+- `connects-to` → **[Nervous System](../nervous-system/README.md)** — It can clot the brain's veins: thrombophilia predisposes to cerebral venous sinus thrombosis, a stroke-like event causing headache, seizures and raised intracranial pressure, often in young patients.
+- `connects-to` → **[Generalized Anxiety Disorder](../generalized-anxiety-disorder/README.md)** — Lifelong clot risk and pregnancy worry breed anxiety: the threat of recurrent thrombosis, fear of pregnancy loss and the demands of indefinite anticoagulation foster chronic health anxiety alongside depression.
 
 [^bertina-1994-factor-v-leiden]: Bertina RM, Koeleman BP, Koster T, et al. Mutation in blood coagulation factor V associated with resistance to activated protein C. *Nature.* 1994;369(6475):64-67. [doi:10.1038/369064a0](https://doi.org/10.1038/369064a0) · [PubMed 8164741](https://pubmed.ncbi.nlm.nih.gov/8164741/)
 [^dahlback-2008-protein-c-review]: Dahlbäck B. Advances in understanding pathogenic mechanisms of thrombophilic disorders. *Blood.* 2008;112(1):19-27. [doi:10.1182/blood-2008-01-077909](https://doi.org/10.1182/blood-2008-01-077909) · [PubMed 18574048](https://pubmed.ncbi.nlm.nih.gov/18574048/)
