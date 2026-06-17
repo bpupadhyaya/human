@@ -196,6 +196,15 @@ cross_links:
   - target: 01-human/07-system/sepsis
     relation: connects-to
     note: "Neonatal surgery and lymphatic dysplasia invite infection: early cardiac operations plus the lymphedema and chylous effusions of Noonan's lymphatic anomalies leave infants prone to severe infection and sepsis."
+  - target: 01-human/07-system/endocrine-system
+    relation: connects-to
+    note: "RAS dysregulation unsettles growth and gonads: Noonan brings short stature with partial growth-hormone insensitivity, delayed puberty and cryptorchidism, so endocrine assessment and GH therapy are routine in care."
+  - target: 01-human/07-system/integumentary-system
+    relation: connects-to
+    note: "The syndrome is written on the skin: Noonan features curly or sparse hair, keratosis pilaris, lymphedema and, in the lentigines variant, widespread café-au-lait macules and lentigines."
+  - target: 01-human/07-system/generalized-anxiety-disorder
+    relation: connects-to
+    note: "A complex lifelong condition fosters worry: the heart disease, short stature, social and learning difficulties and ongoing medical surveillance of Noonan syndrome are associated with raised anxiety."
 ---
 
 # Noonan Syndrome
@@ -393,6 +402,9 @@ NS is characterized by four cardinal features: **(1) short stature** (below 3rd 
 - `connects-to` → **[Stroke](../stroke/README.md)** — Its heart disease can throw clots to the brain: the hypertrophic cardiomyopathy, valve disease and arrhythmias of Noonan create conditions for cardioembolism, raising the risk of embolic stroke.
 - `connects-to` → **[Chronic Kidney Disease](../ckd/README.md)** — Congenital kidney anomalies set up later failure: Noonan frequently includes renal and urinary-tract malformations such as dysplasia or obstruction, which over years can progress toward chronic kidney disease.
 - `connects-to` → **[Sepsis](../sepsis/README.md)** — Neonatal surgery and lymphatic dysplasia invite infection: early cardiac operations plus the lymphedema and chylous effusions of Noonan's lymphatic anomalies leave infants prone to severe infection and sepsis.
+- `connects-to` → **[Endocrine System](../endocrine-system/README.md)** — RAS dysregulation unsettles growth and gonads: Noonan brings short stature with partial growth-hormone insensitivity, delayed puberty and cryptorchidism, so endocrine assessment and GH therapy are routine in care.
+- `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — The syndrome is written on the skin: Noonan features curly or sparse hair, keratosis pilaris, lymphedema and, in the lentigines variant, widespread café-au-lait macules and lentigines.
+- `connects-to` → **[Generalized Anxiety Disorder](../generalized-anxiety-disorder/README.md)** — A complex lifelong condition fosters worry: the heart disease, short stature, social and learning difficulties and ongoing medical surveillance of Noonan syndrome are associated with raised anxiety.
 
 [^tartaglia-2001-ptpn11-noonan]: Tartaglia M, Mehler EL, Goldberg R, et al. Mutations in PTPN11, encoding the protein tyrosine phosphatase SHP-2, cause Noonan syndrome. *Nat Genet.* 2001;29(4):465-468. [doi:10.1038/ng772](https://doi.org/10.1038/ng772) · [PubMed 11704759](https://pubmed.ncbi.nlm.nih.gov/11704759/)
 [^van-der-burgt-2007-noonan-review]: van der Burgt I. Noonan syndrome. *Orphanet J Rare Dis.* 2007;2:4. [doi:10.1186/1750-1172-2-4](https://doi.org/10.1186/1750-1172-2-4) · [PubMed 17222357](https://pubmed.ncbi.nlm.nih.gov/17222357/)

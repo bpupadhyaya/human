@@ -202,6 +202,15 @@ cross_links:
   - target: 02-pathogen/03-fungi/aspergillus-fumigatus
     relation: connects-to
     note: "Cavitating tumor and immunosuppression let fungus in: post-obstructive collapse, necrotic cavities, and the steroids and chemotherapy used in NSCLC give inhaled Aspergillus a foothold for invasive or saprophytic disease in the damaged lung."
+  - target: 02-pathogen/02-bacteria/streptococcus-pneumoniae
+    relation: connects-to
+    note: "A tumour plugging the airway breeds pneumonia: a bronchus obstructed by NSCLC traps secretions distal to it, and post-obstructive pneumonia — classically pneumococcal — is a common presenting and recurring complication."
+  - target: 01-human/07-system/ckd
+    relation: connects-to
+    note: "Its platinum backbone scars the kidney: the cisplatin central to NSCLC chemotherapy is nephrotoxic, and the tubular injury and magnesium wasting can leave lasting chronic kidney impairment."
+  - target: 01-human/07-system/generalized-anxiety-disorder
+    relation: connects-to
+    note: "Breathlessness and a grim prognosis breed worry: the dyspnoea, scan-to-scan uncertainty and poor survival of NSCLC fuel chronic anxiety and panic alongside the depression that so often accompanies it."
 ---
 
 # NSCLC
@@ -364,6 +373,9 @@ cross_links:
 - `connects-to` → **[Heart Failure](../heart-failure/README.md)** — Its chest radiation and immunotherapy can injure the heart: mediastinal radiation for NSCLC damages the myocardium and coronary vessels over time, and checkpoint inhibitors can trigger myocarditis, both routes toward heart failure.
 - `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — A lethal, stigmatized cancer weighs heavily on mood: NSCLC carries some of the highest depression rates in oncology, driven by poor prognosis, breathlessness, and the guilt and stigma often tied to smoking.
 - `connects-to` → **[Aspergillus fumigatus](../../../02-pathogen/03-fungi/aspergillus-fumigatus/README.md)** — Cavitating tumor and immunosuppression let fungus in: post-obstructive collapse, necrotic cavities, and the steroids and chemotherapy used in NSCLC give inhaled Aspergillus a foothold for invasive or saprophytic disease in the damaged lung.
+- `connects-to` → **[Streptococcus pneumoniae](../../../02-pathogen/02-bacteria/streptococcus-pneumoniae/README.md)** — A tumour plugging the airway breeds pneumonia: a bronchus obstructed by NSCLC traps secretions distal to it, and post-obstructive pneumonia — classically pneumococcal — is a common presenting and recurring complication.
+- `connects-to` → **[Chronic Kidney Disease](../ckd/README.md)** — Its platinum backbone scars the kidney: the cisplatin central to NSCLC chemotherapy is nephrotoxic, and the tubular injury and magnesium wasting can leave lasting chronic kidney impairment.
+- `connects-to` → **[Generalized Anxiety Disorder](../generalized-anxiety-disorder/README.md)** — Breathlessness and a grim prognosis breed worry: the dyspnoea, scan-to-scan uncertainty and poor survival of NSCLC fuel chronic anxiety and panic alongside the depression that so often accompanies it.
 
 [^soria-2018-osimertinib-flaura]: Soria JC, Ohe Y, Vansteenkiste J, et al. Osimertinib in untreated EGFR-mutated advanced non-small-cell lung cancer. *N Engl J Med.* 2018;378(2):113-125. [doi:10.1056/NEJMoa1713137](https://doi.org/10.1056/NEJMoa1713137) · [PubMed 29151359](https://pubmed.ncbi.nlm.nih.gov/29151359/)
 [^reck-2016-pembrolizumab-keynote024]: Reck M, Rodríguez-Abreu D, Robinson AG, et al. Pembrolizumab versus chemotherapy for PD-L1-positive non-small-cell lung cancer. *N Engl J Med.* 2016;375(19):1823-1833. [doi:10.1056/NEJMoa1606774](https://doi.org/10.1056/NEJMoa1606774) · [PubMed 27718347](https://pubmed.ncbi.nlm.nih.gov/27718347/)
