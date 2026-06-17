@@ -196,6 +196,15 @@ cross_links:
   - target: 01-human/07-system/major-depressive-disorder
     relation: connects-to
     note: "An aggressive cancer on top of NF1 weighs on mood: MPNST's poor prognosis, disfiguring surgery and frequent arising in the burden of neurofibromatosis type 1 carry a substantial psychological toll."
+  - target: 01-human/07-system/ckd
+    relation: connects-to
+    note: "Ifosfamide scars the kidney: the alkylator used in MPNST chemotherapy is tubulotoxic, causing a Fanconi-type tubulopathy and lasting chronic kidney impairment."
+  - target: 01-human/07-system/wound-healing
+    relation: connects-to
+    note: "Radical resection and radiation heal badly: the wide excision of an MPNST, often with adjuvant radiation, leaves large soft-tissue wounds prone to dehiscence and slow healing."
+  - target: 01-human/07-system/generalized-anxiety-disorder
+    relation: connects-to
+    note: "Aggressive cancer and NF1 surveillance breed worry: the poor prognosis of MPNST and, in NF1 patients, the constant vigilance for malignant change in plexiform neurofibromas foster chronic health anxiety."
 ---
 
 # MPNST
@@ -387,6 +396,9 @@ Wide local excision with negative margins is the only potentially curative inter
 - `connects-to` → **[Heart Failure](../heart-failure/README.md)** — Its anthracycline scars the heart: the doxorubicin in MPNST chemotherapy is dose-dependently cardiotoxic, risking a cardiomyopathy and heart failure in survivors of this aggressive sarcoma.
 - `connects-to` → **[Aspergillus fumigatus](../../../02-pathogen/03-fungi/aspergillus-fumigatus/README.md)** — Chemo neutropenia opens the lung to mold: the dose-intensive doxorubicin-ifosfamide regimens for MPNST cause deep neutropenia, letting inhaled Aspergillus invade as pulmonary aspergillosis.
 - `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — An aggressive cancer on top of NF1 weighs on mood: MPNST's poor prognosis, disfiguring surgery and frequent arising in the burden of neurofibromatosis type 1 carry a substantial psychological toll.
+- `connects-to` → **[Chronic Kidney Disease](../ckd/README.md)** — Ifosfamide scars the kidney: the alkylator used in MPNST chemotherapy is tubulotoxic, causing a Fanconi-type tubulopathy and lasting chronic kidney impairment.
+- `connects-to` → **[Wound Healing](../wound-healing/README.md)** — Radical resection and radiation heal badly: the wide excision of an MPNST, often with adjuvant radiation, leaves large soft-tissue wounds prone to dehiscence and slow healing.
+- `connects-to` → **[Generalized Anxiety Disorder](../generalized-anxiety-disorder/README.md)** — Aggressive cancer and NF1 surveillance breed worry: the poor prognosis of MPNST and, in NF1 patients, the constant vigilance for malignant change in plexiform neurofibromas foster chronic health anxiety.
 
 [^evans-2002-mpnst-nf1]: Evans DGR, Baser ME, McGaughran J, et al. Malignant peripheral nerve sheath tumours in neurofibromatosis 1. *J Med Genet.* 2002;39(5):311-314. [doi:10.1136/jmg.39.5.311](https://doi.org/10.1136/jmg.39.5.311) · [PubMed 12011145](https://pubmed.ncbi.nlm.nih.gov/12011145/)
 [^lee-2014-mpnst-prc2]: Lee W, Teckie S, Wiesner T, et al. PRC2 is recurrently inactivated through EED or SUZ12 loss in malignant peripheral nerve sheath tumors. *Nat Genet.* 2014;46(11):1227-1232. [doi:10.1038/ng.3095](https://doi.org/10.1038/ng.3095) · [PubMed 25240281](https://pubmed.ncbi.nlm.nih.gov/25240281/)

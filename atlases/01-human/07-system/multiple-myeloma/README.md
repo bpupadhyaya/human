@@ -202,6 +202,15 @@ cross_links:
   - target: 01-human/07-system/major-depressive-disorder
     relation: connects-to
     note: "An incurable, painful cancer weighs on mood: the relentless bone pain, fractures and relapsing course of multiple myeloma, plus steroid mood effects, carry a substantial burden of depression."
+  - target: 02-pathogen/01-viruses/varicella-zoster-virus
+    relation: connects-to
+    note: "Its therapy reawakens shingles: bortezomib and daratumumab used for multiple myeloma characteristically reactivate latent varicella-zoster, so antiviral prophylaxis is standard during treatment."
+  - target: 02-pathogen/03-fungi/aspergillus-fumigatus
+    relation: connects-to
+    note: "Profound immune suppression opens the lung to mold: the immune paresis of myeloma plus high-dose steroids, transplant and novel agents can permit invasive aspergillosis."
+  - target: 01-human/07-system/generalized-anxiety-disorder
+    relation: connects-to
+    note: "An incurable relapsing cancer breeds worry: the lifelong cycle of remission and relapse, fracture risk and continuous therapy in multiple myeloma fosters chronic health anxiety alongside depression."
 ---
 
 # Multiple Myeloma
@@ -392,6 +401,9 @@ MM evolves from precursor conditions through a well-defined continuum:
 - `connects-to` → **[Pneumocystis jirovecii](../../../02-pathogen/03-fungi/pneumocystis-jirovecii/README.md)** — Hypogammaglobulinemia and its therapy open the lung: myeloma's suppressed normal antibodies plus high-dose steroids and novel agents leave patients at risk of Pneumocystis pneumonia, often warranting prophylaxis.
 - `connects-to` → **[Hepatitis B Virus](../../../02-pathogen/01-viruses/hepatitis-b-virus/README.md)** — Anti-CD38 and immunosuppression can reactivate it: daratumumab and the deep immunosuppression of myeloma therapy can reawaken latent hepatitis B, so screening and antiviral prophylaxis precede treatment.
 - `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — An incurable, painful cancer weighs on mood: the relentless bone pain, fractures and relapsing course of multiple myeloma, plus steroid mood effects, carry a substantial burden of depression.
+- `connects-to` → **[Varicella-Zoster Virus](../../../02-pathogen/01-viruses/varicella-zoster-virus/README.md)** — Its therapy reawakens shingles: bortezomib and daratumumab used for multiple myeloma characteristically reactivate latent varicella-zoster, so antiviral prophylaxis is standard during treatment.
+- `connects-to` → **[Aspergillus fumigatus](../../../02-pathogen/03-fungi/aspergillus-fumigatus/README.md)** — Profound immune suppression opens the lung to mold: the immune paresis of myeloma plus high-dose steroids, transplant and novel agents can permit invasive aspergillosis.
+- `connects-to` → **[Generalized Anxiety Disorder](../generalized-anxiety-disorder/README.md)** — An incurable relapsing cancer breeds worry: the lifelong cycle of remission and relapse, fracture risk and continuous therapy in multiple myeloma fosters chronic health anxiety alongside depression.
 
 [^kumar-2022-imwg-criteria]: Kumar SK, Callander NS, Adekola K, et al. Multiple myeloma, version 3.2021, NCCN clinical practice guidelines in oncology. *J Natl Compr Canc Netw.* 2020;18(12):1685-1717. [doi:10.6004/jnccn.2020.0057](https://doi.org/10.6004/jnccn.2020.0057) · [PubMed 33285519](https://pubmed.ncbi.nlm.nih.gov/33285519/)
 [^moreau-2022-teclistamab]: Moreau P, Garfall AL, van de Donk NWCJ, et al. Teclistamab in relapsed or refractory multiple myeloma. *N Engl J Med.* 2022;387(6):495-505. [doi:10.1056/NEJMoa2203478](https://doi.org/10.1056/NEJMoa2203478) · [PubMed 35661166](https://pubmed.ncbi.nlm.nih.gov/35661166/)
