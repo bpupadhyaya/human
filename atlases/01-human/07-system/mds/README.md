@@ -172,6 +172,15 @@ cross_links:
   - target: 01-human/07-system/cardiovascular-system
     relation: connects-to
     note: "Chronic anemia and iron overload tax the heart: years of low hemoglobin force a high-output strain while transfusional iron deposits in the myocardium, so cardiovascular complications are a major cause of death in MDS."
+  - target: 01-human/03-molecular/nf-kb
+    relation: connects-to
+    note: "Inflammation poisons the marrow's own output: NF-κB signaling is overactive in MDS progenitors, priming the NLRP3 inflammasome and pyroptotic cell death that produce the ineffective hematopoiesis and cytopenias of the disease."
+  - target: 01-human/03-molecular/stat3
+    relation: connects-to
+    note: "Clonal immune signaling shadows the disease: STAT3-activating mutations in associated large granular lymphocyte clones, and STAT3 signaling in the marrow, contribute to the immune dysregulation and cytopenias seen in MDS."
+  - target: 01-human/07-system/sepsis
+    relation: connects-to
+    note: "Empty defenses invite fatal infection: the neutropenia of MDS, deepened by hypomethylating-agent therapy, leaves patients prone to overwhelming infection, and sepsis is among the commonest causes of death."
 ---
 
 # Myelodysplastic Syndromes
@@ -334,6 +343,9 @@ MDS → AML transformation rate: ~10% at 1 year for very-low risk; ~40-50% at 2 
 - `connects-to` → **[Transforming Growth Factor Beta](../../03-molecular/tgf-beta/README.md)** — Excess TGF-β strangles red-cell maturation: overactive TGF-β/SMAD signaling blocks late erythroid maturation in MDS, the ineffective erythropoiesis that the trap drug luspatercept relieves to lift the anemia.
 - `connects-to` → **[Osteoblast](../../04-cellular/osteoblast/README.md)** — The soil can drive the disease, not just the seed: a dysfunctional bone-marrow niche — including its osteoblast and mesenchymal cells — fosters and shelters the dysplastic clone, making the microenvironment part of MDS pathogenesis.
 - `connects-to` → **[Cardiovascular system](../cardiovascular-system/README.md)** — Chronic anemia and iron overload tax the heart: years of low hemoglobin force a high-output strain while transfusional iron deposits in the myocardium, so cardiovascular complications are a major cause of death in MDS.
+- `connects-to` → **[NF-κB](../../03-molecular/nf-kb/README.md)** — Inflammation poisons the marrow's own output: NF-κB signaling is overactive in MDS progenitors, priming the NLRP3 inflammasome and pyroptotic cell death that produce the ineffective hematopoiesis and cytopenias of the disease.
+- `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — Clonal immune signaling shadows the disease: STAT3-activating mutations in associated large granular lymphocyte clones, and STAT3 signaling in the marrow, contribute to the immune dysregulation and cytopenias seen in MDS.
+- `connects-to` → **[Sepsis](../sepsis/README.md)** — Empty defenses invite fatal infection: the neutropenia of MDS, deepened by hypomethylating-agent therapy, leaves patients prone to overwhelming infection, and sepsis is among the commonest causes of death.
 
 [^fenaux-2009-aza001]: Fenaux P, Mufti GJ, Hellstrom-Lindberg E, et al. Efficacy of azacitidine compared with conventional care regimens in patients with higher-risk myelodysplastic syndromes. *Lancet Oncol.* 2009;10(3):223-232. [doi:10.1016/S1470-2045(09)70003-8](https://doi.org/10.1016/S1470-2045(09)70003-8) · [PubMed 19230772](https://pubmed.ncbi.nlm.nih.gov/19230772/)
 [^fenaux-2020-medalist]: Fenaux P, Platzbecker U, Mufti GJ, et al. Luspatercept in patients with lower-risk myelodysplastic syndromes. *N Engl J Med.* 2020;382(2):140-151. [doi:10.1056/NEJMoa1908892](https://doi.org/10.1056/NEJMoa1908892) · [PubMed 31914241](https://pubmed.ncbi.nlm.nih.gov/31914241/)

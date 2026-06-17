@@ -170,6 +170,15 @@ cross_links:
   - target: 01-human/07-system/ckd
     relation: connects-to
     note: "Failing kidneys derange the skeleton: chronic kidney disease disrupts the phosphate, vitamin D and PTH balance, producing renal osteodystrophy — the brittle, painful bone disease of CKD-mineral and bone disorder."
+  - target: 01-human/07-system/ewing-sarcoma
+    relation: connects-to
+    note: "A small-round-cell cancer arises in its bones: Ewing sarcoma, driven by the EWSR1-FLI1 fusion, grows in the long bones and pelvis of children and young adults, a distinct primary bone malignancy alongside osteosarcoma."
+  - target: 01-human/07-system/rhabdomyosarcoma
+    relation: connects-to
+    note: "Its muscle precursors can turn malignant: rhabdomyosarcoma arises from cells of the skeletal-muscle lineage, the most common soft-tissue sarcoma of childhood and the muscular counterpart to the system's bone cancers."
+  - target: 01-human/03-molecular/il-6
+    relation: connects-to
+    note: "A cytokine couples inflammation to wasting: IL-6 promotes osteoclast-driven bone resorption and muscle catabolism, so chronic elevations drive the bone loss and sarcopenia seen in aging and inflammatory disease — yet exercise releases it transiently as a beneficial myokine."
 ---
 
 # Musculoskeletal System
@@ -316,6 +325,9 @@ Chronic exercise drives profound musculoskeletal remodelling [^guyton-hall]:
 - **Modulates:** [nervous-system](../../07-system/nervous-system/README.md) — motor neurons innervate muscle via NMJ; spinal reflexes and cerebellar coordination control movement
 - `modulated-by` → **[Myostatin](../../03-molecular/myostatin/README.md)** — myostatin is the primary negative regulator of skeletal muscle mass; aging → elevated myostatin → sarcopenia; cachexia → tumor-induced myostatin → muscle wasting; anti-myostatin biologics (bimagrumab, apitegromab) restore lean mass in sarcopenia and SMA.
 - `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — The musculoskeletal and integumentary systems form the body's structural exterior: skin, fascia, tendon, muscle and bone are a continuum of collagen-based connective tissue sharing vitamin D dependence, so heritable collagen disorders (Ehlers-Danlos, Marfan) affect both.
+- `connects-to` → **[Ewing Sarcoma](../ewing-sarcoma/README.md)** — A small-round-cell cancer arises in its bones: Ewing sarcoma, driven by the EWSR1-FLI1 fusion, grows in the long bones and pelvis of children and young adults, a distinct primary bone malignancy alongside osteosarcoma.
+- `connects-to` → **[Rhabdomyosarcoma](../rhabdomyosarcoma/README.md)** — Its muscle precursors can turn malignant: rhabdomyosarcoma arises from cells of the skeletal-muscle lineage, the most common soft-tissue sarcoma of childhood and the muscular counterpart to the system's bone cancers.
+- `connects-to` → **[Interleukin-6](../../03-molecular/il-6/README.md)** — A cytokine couples inflammation to wasting: IL-6 promotes osteoclast-driven bone resorption and muscle catabolism, so chronic elevations drive the bone loss and sarcopenia seen in aging and inflammatory disease — yet exercise releases it transiently as a beneficial myokine.
 - `connects-to` → **[Osteoblast](../../04-cellular/osteoblast/README.md)** — Osteoblasts build the skeleton of the musculoskeletal system: they deposit and mineralize bone's collagen matrix, balance osteoclast resorption via RANKL/OPG, and help regulate the marrow niche; their decline with age and estrogen loss underlies osteoporosis and fracture.
 - `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — Calcium is foundational to the musculoskeletal system at two scales: hydroxyapatite gives bone its hardness and the skeleton stores 99% of body calcium, while calcium influx drives actin-myosin cross-bridge cycling in muscle contraction; PTH and vitamin D balance this reservoir.
 - `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — Sex hormones from the reproductive system build the musculoskeletal system: testosterone and estrogen drive the pubertal growth spurt, muscle mass, and peak bone density, while menopausal estrogen loss accelerates osteoporosis—tying gonadal function to skeletal health.
