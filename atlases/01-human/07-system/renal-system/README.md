@@ -199,6 +199,15 @@ cross_links:
   - target: 01-human/07-system/heart-failure
     relation: connects-to
     note: "Heart and kidney rise and fall together: in cardiorenal syndrome, a failing heart's low output and venous congestion impair renal perfusion, while fluid overload from failing kidneys back-strains the heart."
+  - target: 01-human/07-system/anemia-of-chronic-disease
+    relation: connects-to
+    note: "Failing kidneys stop making the red-cell hormone: the kidney produces erythropoietin, so as renal function declines, EPO falls and a characteristic renal anemia develops, often needing replacement to correct."
+  - target: 01-human/07-system/osteoporosis
+    relation: connects-to
+    note: "The kidney governs bone mineral balance: as renal function fails, impaired vitamin D activation and phosphate handling disturb calcium balance, producing the renal osteodystrophy and bone fragility of CKD-mineral bone disorder."
+  - target: 01-human/07-system/major-depressive-disorder
+    relation: connects-to
+    note: "Kidney failure and dialysis weigh on mood: the fatigue, dietary and fluid restrictions and time burden of dialysis give advanced kidney disease one of the highest rates of depression among chronic illnesses."
 taxonomy:
   uberon: "UBERON:0001008"
 ---
@@ -354,6 +363,9 @@ Natriuretic counterpoint:
 - **Connects to:** [Escherichia coli](../../../02-pathogen/02-bacteria/escherichia-coli/README.md) — its commonest infection ascends from below: uropathogenic E. coli climbs the urinary tract to cause cystitis and pyelonephritis, the renal system's most frequent infection and a leading cause of urosepsis.
 - **Connects to:** [Multiple Myeloma](../multiple-myeloma/README.md) — a blood cancer can clog the nephrons: multiple myeloma floods the filtrate with light chains that precipitate into casts, causing myeloma cast nephropathy — a classic route to kidney failure.
 - **Connects to:** [Heart Failure](../heart-failure/README.md) — heart and kidney rise and fall together: in cardiorenal syndrome, a failing heart's low output and venous congestion impair renal perfusion, while fluid overload from failing kidneys back-strains the heart.
+- **Connects to:** [Anemia of Chronic Disease](../anemia-of-chronic-disease/README.md) — failing kidneys stop making the red-cell hormone: the kidney produces erythropoietin, so as renal function declines, EPO falls and a characteristic renal anemia develops, often needing replacement to correct.
+- **Connects to:** [Osteoporosis](../osteoporosis/README.md) — the kidney governs bone mineral balance: as renal function fails, impaired vitamin D activation and phosphate handling disturb calcium balance, producing the renal osteodystrophy and bone fragility of CKD-mineral bone disorder.
+- **Connects to:** [Major Depressive Disorder](../major-depressive-disorder/README.md) — kidney failure and dialysis weigh on mood: the fatigue, dietary and fluid restrictions and time burden of dialysis give advanced kidney disease one of the highest rates of depression among chronic illnesses.
 - **Treated by:** ACE inhibitors — renoprotection in CKD.
 - **Treated by:** Loop diuretics — fluid management.
 

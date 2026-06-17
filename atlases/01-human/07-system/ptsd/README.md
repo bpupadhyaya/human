@@ -198,6 +198,15 @@ cross_links:
   - target: 01-human/07-system/heart-failure
     relation: connects-to
     note: "The stressed heart can fail over time: chronic catecholamine surges, hypertension and inflammation in PTSD accelerate cardiovascular disease, and the disorder is associated with an increased incidence of heart failure."
+  - target: 01-human/07-system/atherosclerosis
+    relation: connects-to
+    note: "Chronic stress inflames the arteries: the sustained sympathetic arousal, cortisol dysregulation and systemic inflammation of PTSD accelerate atherosclerosis, underlying its raised cardiovascular risk."
+  - target: 01-human/07-system/rheumatoid-arthritis
+    relation: connects-to
+    note: "Trauma can prime autoimmunity: PTSD is associated with a higher incidence of autoimmune diseases such as rheumatoid arthritis, thought to reflect chronic stress-driven immune dysregulation."
+  - target: 01-human/07-system/alzheimers-disease
+    relation: connects-to
+    note: "Lasting stress wears on the aging brain: PTSD is linked to a higher risk of dementia, with chronic cortisol exposure and hippocampal injury contributing to later Alzheimer-type cognitive decline."
 ---
 
 # PTSD
@@ -393,6 +402,9 @@ Not all trauma leads to PTSD. Risk and resilience factors include:
 - `connects-to` → **[Obesity](../obesity/README.md)** — Chronic stress reshapes the body: sustained cortisol, disrupted sleep and emotional eating in PTSD promote weight gain and central adiposity, contributing to a high rate of obesity and metabolic syndrome.
 - `connects-to` → **[Stroke](../stroke/README.md)** — Relentless stress wears on the vessels: PTSD's chronic sympathetic and HPA-axis activation raises blood pressure and inflammation, and epidemiologic studies link it to a higher long-term risk of ischemic stroke.
 - `connects-to` → **[Heart Failure](../heart-failure/README.md)** — The stressed heart can fail over time: chronic catecholamine surges, hypertension and inflammation in PTSD accelerate cardiovascular disease, and the disorder is associated with an increased incidence of heart failure.
+- `connects-to` → **[Atherosclerosis](../atherosclerosis/README.md)** — Chronic stress inflames the arteries: the sustained sympathetic arousal, cortisol dysregulation and systemic inflammation of PTSD accelerate atherosclerosis, underlying its raised cardiovascular risk.
+- `connects-to` → **[Rheumatoid Arthritis](../rheumatoid-arthritis/README.md)** — Trauma can prime autoimmunity: PTSD is associated with a higher incidence of autoimmune diseases such as rheumatoid arthritis, thought to reflect chronic stress-driven immune dysregulation.
+- `connects-to` → **[Alzheimer's Disease](../alzheimers-disease/README.md)** — Lasting stress wears on the aging brain: PTSD is linked to a higher risk of dementia, with chronic cortisol exposure and hippocampal injury contributing to later Alzheimer-type cognitive decline.
 
 [^yehuda-2015-ptsd-review]: Yehuda R, Hoge CW, McFarlane AC, et al. Post-traumatic stress disorder. *Nat Rev Dis Primers.* 2015;1:15057. [doi:10.1038/nrdp.2015.57](https://doi.org/10.1038/nrdp.2015.57) · [PubMed 27189040](https://pubmed.ncbi.nlm.nih.gov/27189040/)
 [^foa-2019-ptsd-treatments]: Foa EB, McLean CP. The efficacy of exposure therapy for anxiety and related disorders. *Annu Rev Clin Psychol.* 2016;12:1-28. [doi:10.1146/annurev-clinpsy-021815-093533](https://doi.org/10.1146/annurev-clinpsy-021815-093533) · [PubMed 26928206](https://pubmed.ncbi.nlm.nih.gov/26928206/)
