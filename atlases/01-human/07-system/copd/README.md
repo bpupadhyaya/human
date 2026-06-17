@@ -202,6 +202,15 @@ cross_links:
   - target: 01-human/07-system/sclc
     relation: connects-to
     note: "The same smoke breeds an aggressive cancer: COPD is an independent risk factor for lung cancer, including small cell lung cancer, beyond their shared cause in tobacco smoke."
+  - target: 01-human/07-system/type-2-diabetes
+    relation: connects-to
+    note: "Inflammation and steroids raise blood sugar: COPD's systemic inflammation and the corticosteroids used for exacerbations promote insulin resistance, giving it an elevated rate of type 2 diabetes."
+  - target: 01-human/07-system/gout
+    relation: connects-to
+    note: "Hypoxia and diuretics raise uric acid: chronic hypoxemia increases purine turnover and the diuretics used for cor pulmonale retain urate, so gout is a common COPD comorbidity."
+  - target: 01-human/07-system/alzheimers-disease
+    relation: connects-to
+    note: "Chronic low oxygen wears on the brain: the sustained hypoxemia, systemic inflammation and vascular disease of COPD are linked to accelerated cognitive decline and dementia."
 ---
 
 # COPD
@@ -406,6 +415,9 @@ COPD encompasses two overlapping pathological processes:
 - `connects-to` → **[Candida albicans](../../../02-pathogen/03-fungi/candida-albicans/README.md)** — Inhaled steroids seed oral thrush: the inhaled corticosteroids used in COPD deposit on the oropharynx and locally suppress immunity, allowing Candida to overgrow into oral candidiasis.
 - `connects-to` → **[Stroke](../stroke/README.md)** — Systemic inflammation reaches the brain's arteries: COPD's chronic inflammation, hypoxia and shared smoking risk accelerate atherosclerosis and raise the risk of ischemic stroke, part of its cardiovascular comorbidity.
 - `connects-to` → **[Small Cell Lung Cancer](../sclc/README.md)** — The same smoke breeds an aggressive cancer: COPD is an independent risk factor for lung cancer, including small cell lung cancer, beyond their shared cause in tobacco smoke.
+- `connects-to` → **[Type 2 Diabetes](../type-2-diabetes/README.md)** — Inflammation and steroids raise blood sugar: COPD's systemic inflammation and the corticosteroids used for exacerbations promote insulin resistance, giving it an elevated rate of type 2 diabetes.
+- `connects-to` → **[Gout](../gout/README.md)** — Hypoxia and diuretics raise uric acid: chronic hypoxemia increases purine turnover and the diuretics used for cor pulmonale retain urate, so gout is a common COPD comorbidity.
+- `connects-to` → **[Alzheimer's Disease](../alzheimers-disease/README.md)** — Chronic low oxygen wears on the brain: the sustained hypoxemia, systemic inflammation and vascular disease of COPD are linked to accelerated cognitive decline and dementia.
 
 ---
 

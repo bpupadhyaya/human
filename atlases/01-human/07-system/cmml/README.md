@@ -196,6 +196,15 @@ cross_links:
   - target: 01-human/07-system/heart-failure
     relation: connects-to
     note: "Transfusions and chronic anemia burden the heart: the repeated red-cell transfusions for CMML deposit iron in the myocardium while the anemia adds high-output strain, together risking heart failure."
+  - target: 02-pathogen/03-fungi/pneumocystis-jirovecii
+    relation: connects-to
+    note: "Its hypomethylating therapy deepens immune suppression: azacitidine for CMML adds to the disease's own immune dysfunction, raising the risk of Pneumocystis pneumonia."
+  - target: 01-human/07-system/ckd
+    relation: connects-to
+    note: "Monocyte products injure the kidney: the marked monocytosis of CMML can infiltrate the kidney and release lysozyme that damages the renal tubules, contributing to kidney impairment."
+  - target: 01-human/07-system/major-depressive-disorder
+    relation: connects-to
+    note: "A chronic leukemia with leukemic threat weighs on mood: the transfusion dependence, poor prognosis and risk of transformation to acute leukemia in CMML, mostly in older patients, contribute to depression."
 ---
 
 # Chronic Myelomonocytic Leukemia
@@ -381,6 +390,9 @@ CMML → AML transformation (~15-30% at 5 years): Treat as secondary AML; CPX-35
 - `connects-to` → **[Aspergillus fumigatus](../../../02-pathogen/03-fungi/aspergillus-fumigatus/README.md)** — Dysfunctional myeloid cells let mold in: despite monocytosis, CMML's defective phagocytes and treatment-related neutropenia leave the lung open to invasive aspergillosis, a dangerous opportunistic infection.
 - `connects-to` → **[Anemia of Chronic Disease](../anemia-of-chronic-disease/README.md)** — Marrow takeover and inflammation lower the count: CMML crowds the marrow while its high inflammatory cytokine output raises hepcidin and suppresses erythropoiesis, adding an anemia-of-chronic-disease component.
 - `connects-to` → **[Heart Failure](../heart-failure/README.md)** — Transfusions and chronic anemia burden the heart: the repeated red-cell transfusions for CMML deposit iron in the myocardium while the anemia adds high-output strain, together risking heart failure.
+- `connects-to` → **[Pneumocystis jirovecii](../../../02-pathogen/03-fungi/pneumocystis-jirovecii/README.md)** — Its hypomethylating therapy deepens immune suppression: azacitidine for CMML adds to the disease's own immune dysfunction, raising the risk of Pneumocystis pneumonia.
+- `connects-to` → **[Chronic Kidney Disease](../ckd/README.md)** — Monocyte products injure the kidney: the marked monocytosis of CMML can infiltrate the kidney and release lysozyme that damages the renal tubules, contributing to kidney impairment.
+- `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — A chronic leukemia with leukemic threat weighs on mood: the transfusion dependence, poor prognosis and risk of transformation to acute leukemia in CMML, mostly in older patients, contribute to depression.
 
 ---
 
