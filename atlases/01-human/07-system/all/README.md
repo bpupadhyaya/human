@@ -178,6 +178,15 @@ cross_links:
   - target: 01-human/03-molecular/nf-kb
     relation: connects-to
     note: "NF-κB keeps the blast alive: constitutive NF-κB signaling in ALL cells drives survival and anti-apoptotic gene expression and underlies resistance to glucocorticoids, making the pathway a therapeutic target."
+  - target: 01-human/03-molecular/stat3
+    relation: connects-to
+    note: "A subset runs on JAK-STAT: Ph-like ALL carries JAK2 and cytokine-receptor rearrangements that activate STAT signaling including STAT3, a driver that makes these high-risk cases candidates for JAK inhibition."
+  - target: 01-human/07-system/sepsis
+    relation: connects-to
+    note: "Empty marrow invites overwhelming infection: leukemic replacement and intensive chemotherapy leave ALL patients profoundly neutropenic, so febrile neutropenia and sepsis are the leading cause of treatment-related death."
+  - target: 01-human/07-system/venous-thromboembolism
+    relation: connects-to
+    note: "Its signature drug clots the blood: L-asparaginase depletes antithrombin and other clotting regulators, so venous thromboembolism — including cerebral venous sinus thrombosis — is a characteristic complication of ALL therapy."
 ---
 
 # Acute Lymphoblastic Leukemia
@@ -371,6 +380,9 @@ Childhood ALL survivors (now majority of patients): neurocognitive impairment (M
 - `connects-to` → **[Nervous System](../nervous-system/README.md)** — The CNS is a leukemic sanctuary: ALL blasts hide in the meninges where chemotherapy penetrates poorly, so every patient gets intrathecal therapy and sometimes cranial radiation to prevent and treat CNS relapse.
 - `connects-to` → **[Pneumocystis jirovecii](../../../02-pathogen/03-fungi/pneumocystis-jirovecii/README.md)** — Treatment opens the door to Pneumocystis: the prolonged steroids and chemotherapy of ALL deplete T cells, so PCP pneumonia is a real threat — which is why co-trimoxazole prophylaxis runs through the entire treatment course.
 - `connects-to` → **[NF-κB](../../03-molecular/nf-kb/README.md)** — NF-κB keeps the blast alive: constitutive NF-κB signaling in ALL cells drives survival and anti-apoptotic gene expression and underlies resistance to glucocorticoids, making the pathway a therapeutic target.
+- `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — A subset runs on JAK-STAT: Ph-like ALL carries JAK2 and cytokine-receptor rearrangements that activate STAT signaling including STAT3, a driver that makes these high-risk cases candidates for JAK inhibition.
+- `connects-to` → **[Sepsis](../sepsis/README.md)** — Empty marrow invites overwhelming infection: leukemic replacement and intensive chemotherapy leave ALL patients profoundly neutropenic, so febrile neutropenia and sepsis are the leading cause of treatment-related death.
+- `connects-to` → **[Venous Thromboembolism](../venous-thromboembolism/README.md)** — Its signature drug clots the blood: L-asparaginase depletes antithrombin and other clotting regulators, so venous thromboembolism — including cerebral venous sinus thrombosis — is a characteristic complication of ALL therapy.
 
 [^pui-2018-all-cure]: Pui CH, Yang JJ, Bhakta N, et al. Global efforts toward the cure of childhood acute lymphoblastic leukemia. *Lancet Child Adolesc Health.* 2018;2(6):440-454. [doi:10.1016/S2352-4642(18)30066-X](https://doi.org/10.1016/S2352-4642(18)30066-X) · [PubMed 29976322](https://pubmed.ncbi.nlm.nih.gov/29976322/)
 [^maude-2018-tisagenlecleucel]: Maude SL, Laetsch TW, Buechner J, et al. Tisagenlecleucel in children and young adults with B-cell lymphoblastic leukemia. *N Engl J Med.* 2018;378(5):439-448. [doi:10.1056/NEJMoa1709866](https://doi.org/10.1056/NEJMoa1709866) · [PubMed 29385370](https://pubmed.ncbi.nlm.nih.gov/29385370/)

@@ -187,6 +187,15 @@ cross_links:
   - target: 01-human/07-system/bipolar-disorder
     relation: connects-to
     note: "Alcohol use disorder shadows bipolar disorder: it is among the commonest comorbidities, used to self-medicate mood swings yet worsening the course, raising suicide risk, and complicating diagnosis and treatment of both."
+  - target: 01-human/03-molecular/nf-kb
+    relation: connects-to
+    note: "Alcohol throws the inflammation switch in liver and brain: ethanol and gut-derived endotoxin activate NF-κB in Kupffer cells and microglia, driving the alcoholic hepatitis and neuroinflammation behind much of the organ damage."
+  - target: 01-human/07-system/nervous-system
+    relation: connects-to
+    note: "It corrodes the nervous system on many fronts: beyond intoxication, alcohol drives withdrawal seizures, thiamine-deficient Wernicke-Korsakoff encephalopathy, cerebellar degeneration and peripheral neuropathy."
+  - target: 01-human/07-system/sepsis
+    relation: connects-to
+    note: "Heavy drinking cripples the body's defenses: alcohol impairs neutrophil and macrophage function and, with aspiration and cirrhosis, leaves patients prone to pneumonia, spontaneous bacterial peritonitis and sepsis."
 ---
 
 # Alcohol Use Disorder
@@ -423,6 +432,9 @@ Prenatal alcohol exposure → leading preventable cause of intellectual disabili
 - `connects-to` → **[Microglia](../../04-cellular/microglia/README.md)** — Alcohol inflames the brain's immune cells: ethanol and gut-derived endotoxin activate microglial TLR4, and the cytokines they release drive the neuroinflammation behind alcohol-related cognitive decline and craving.
 - `connects-to` → **[Stroke](../stroke/README.md)** — Heavy drinking tips the brain toward bleeding: alcohol raises blood pressure and impairs clotting, sharply increasing hemorrhagic stroke risk, while binge drinking can trigger ischemic stroke through arrhythmia and surges in pressure.
 - `connects-to` → **[Bipolar Disorder](../bipolar-disorder/README.md)** — Alcohol use disorder shadows bipolar disorder: it is among the commonest comorbidities, used to self-medicate mood swings yet worsening the course, raising suicide risk, and complicating diagnosis and treatment of both.
+- `connects-to` → **[NF-κB](../../03-molecular/nf-kb/README.md)** — Alcohol throws the inflammation switch in liver and brain: ethanol and gut-derived endotoxin activate NF-κB in Kupffer cells and microglia, driving the alcoholic hepatitis and neuroinflammation behind much of the organ damage.
+- `connects-to` → **[Nervous System](../nervous-system/README.md)** — It corrodes the nervous system on many fronts: beyond intoxication, alcohol drives withdrawal seizures, thiamine-deficient Wernicke-Korsakoff encephalopathy, cerebellar degeneration and peripheral neuropathy.
+- `connects-to` → **[Sepsis](../sepsis/README.md)** — Heavy drinking cripples the body's defenses: alcohol impairs neutrophil and macrophage function and, with aspiration and cirrhosis, leaves patients prone to pneumonia, spontaneous bacterial peritonitis and sepsis.
 
 [^koob-2013-addiction-neuroscience]: Koob GF, Volkow ND. Neurocircuitry of addiction. *Neuropsychopharmacology.* 2010;35(1):217-238. [doi:10.1038/npp.2009.110](https://doi.org/10.1038/npp.2009.110) · [PubMed 19710631](https://pubmed.ncbi.nlm.nih.gov/19710631/)
 [^anton-2006-combine]: Anton RF, O'Malley SS, Ciraulo DA, et al. Combined pharmacotherapies and behavioral interventions for alcohol dependence: the COMBINE study. *JAMA.* 2006;295(17):2003-2017. [doi:10.1001/jama.295.17.2003](https://doi.org/10.1001/jama.295.17.2003) · [PubMed 16670409](https://pubmed.ncbi.nlm.nih.gov/16670409/)
