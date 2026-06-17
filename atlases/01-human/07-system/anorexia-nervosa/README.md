@@ -202,6 +202,15 @@ cross_links:
   - target: 01-human/07-system/social-anxiety-disorder
     relation: connects-to
     note: "Social fear feeds the restriction: social anxiety is highly comorbid with anorexia, where fear of judgment around eating and body image reinforces avoidance of meals and the drive to restrict."
+  - target: 01-human/07-system/iron-deficiency-anemia
+    relation: connects-to
+    note: "Restriction starves the body of iron: the severely limited diet of anorexia provides too little dietary iron, producing iron-deficiency anemia alongside the marrow hypoplasia of starvation."
+  - target: 01-human/07-system/neuropathic-pain
+    relation: connects-to
+    note: "Malnutrition injures the peripheral nerves: deficiencies of thiamine, B12 and other nutrients in severe anorexia cause a peripheral neuropathy with numbness and neuropathic pain."
+  - target: 01-human/07-system/wound-healing
+    relation: connects-to
+    note: "Without protein and nutrients, repair fails: the profound protein-energy malnutrition of anorexia deprives wounds of the substrate and collagen synthesis they need, markedly impairing healing."
 ---
 
 # Anorexia Nervosa
@@ -404,6 +413,9 @@ In healthy individuals, food cues activate the mesolimbic reward circuit (VTA �
 - `connects-to` → **[Chronic Kidney Disease](../ckd/README.md)** — Chronic dehydration and purging scar the kidney: volume depletion, hypokalemia from laxative and diuretic abuse, and recurrent prerenal injury in anorexia can leave a chronic hypokalemic nephropathy and reduced renal function.
 - `connects-to` → **[Candida albicans](../../../02-pathogen/03-fungi/candida-albicans/README.md)** — Starvation weakens antifungal defense: severe malnutrition impairs cell-mediated immunity, so anorexia patients are prone to oral and esophageal candidiasis, an opportunistic infection of the depleted host.
 - `connects-to` → **[Social Anxiety Disorder](../social-anxiety-disorder/README.md)** — Social fear feeds the restriction: social anxiety is highly comorbid with anorexia, where fear of judgment around eating and body image reinforces avoidance of meals and the drive to restrict.
+- `connects-to` → **[Iron-Deficiency Anemia](../iron-deficiency-anemia/README.md)** — Restriction starves the body of iron: the severely limited diet of anorexia provides too little dietary iron, producing iron-deficiency anemia alongside the marrow hypoplasia of starvation.
+- `connects-to` → **[Neuropathic Pain](../neuropathic-pain/README.md)** — Malnutrition injures the peripheral nerves: deficiencies of thiamine, B12 and other nutrients in severe anorexia cause a peripheral neuropathy with numbness and neuropathic pain.
+- `connects-to` → **[Wound Healing](../wound-healing/README.md)** — Without protein and nutrients, repair fails: the profound protein-energy malnutrition of anorexia deprives wounds of the substrate and collagen synthesis they need, markedly impairing healing.
 
 [^treasure-2010-an-lancet]: Treasure J, Claudino AM, Zucker N. Eating disorders. *Lancet.* 2010;375(9714):583-593. [doi:10.1016/S0140-6736(09)61748-7](https://doi.org/10.1016/S0140-6736(09)61748-7) · [PubMed 19931176](https://pubmed.ncbi.nlm.nih.gov/19931176/)
 [^lock-2010-fbt-an]: Lock J, Le Grange D, Agras WS, et al. Randomized clinical trial comparing family-based treatment with adolescent-focused individual therapy for adolescents with anorexia nervosa. *Arch Gen Psychiatry.* 2010;67(10):1025-1032. [doi:10.1001/archgenpsychiatry.2010.128](https://doi.org/10.1001/archgenpsychiatry.2010.128) · [PubMed 20921118](https://pubmed.ncbi.nlm.nih.gov/20921118/)
