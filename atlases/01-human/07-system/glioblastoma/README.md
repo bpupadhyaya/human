@@ -187,6 +187,15 @@ cross_links:
   - target: 01-human/07-system/sepsis
     relation: connects-to
     note: "Treatment strips immunity: temozolomide-induced lymphopenia and prolonged dexamethasone leave glioblastoma patients prone to opportunistic infection, including Pneumocystis pneumonia, and to sepsis."
+  - target: 02-pathogen/03-fungi/pneumocystis-jirovecii
+    relation: connects-to
+    note: "Its therapy specifically courts it: the combination of temozolomide lymphopenia and prolonged dexamethasone in glioblastoma is a classic setup for Pneumocystis pneumonia, so prophylaxis is given during chemoradiation."
+  - target: 01-human/07-system/anemia-of-chronic-disease
+    relation: connects-to
+    note: "Chemo and chronic illness blunt the marrow: temozolomide myelosuppression plus the inflammatory burden of advanced glioblastoma depress erythropoiesis, contributing an anemia of chronic disease to treatment cytopenias."
+  - target: 01-human/07-system/ckd
+    relation: connects-to
+    note: "Antiangiogenic therapy injures the kidney: bevacizumab used in recurrent glioblastoma causes hypertension and proteinuria with glomerular injury that can progress to chronic kidney disease."
 ---
 
 # Glioblastoma
@@ -373,6 +382,9 @@ The blood-brain barrier (BBB) creates a pharmacological challenge:
 - `connects-to` → **[NLRP3 Inflammasome](../../03-molecular/nlrp3-inflammasome/README.md)** — Tumor-associated microglia stoke the inflammasome: NLRP3 activation in glioblastoma's myeloid cells releases IL-1β that fuels the immunosuppressive, pro-tumor inflammation of its microenvironment.
 - `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — The tumor and its toll darken mood: depression is strikingly common in glioblastoma, arising from the diagnosis, frontal-lobe disruption and corticosteroids, and it independently worsens function and survival.
 - `connects-to` → **[Sepsis](../sepsis/README.md)** — Treatment strips immunity: temozolomide-induced lymphopenia and prolonged dexamethasone leave glioblastoma patients prone to opportunistic infection, including Pneumocystis pneumonia, and to sepsis.
+- `connects-to` → **[Pneumocystis jirovecii](../../../02-pathogen/03-fungi/pneumocystis-jirovecii/README.md)** — Its therapy specifically courts it: the combination of temozolomide lymphopenia and prolonged dexamethasone in glioblastoma is a classic setup for Pneumocystis pneumonia, so prophylaxis is given during chemoradiation.
+- `connects-to` → **[Anemia of Chronic Disease](../anemia-of-chronic-disease/README.md)** — Chemo and chronic illness blunt the marrow: temozolomide myelosuppression plus the inflammatory burden of advanced glioblastoma depress erythropoiesis, contributing an anemia of chronic disease to treatment cytopenias.
+- `connects-to` → **[Chronic Kidney Disease](../ckd/README.md)** — Antiangiogenic therapy injures the kidney: bevacizumab used in recurrent glioblastoma causes hypertension and proteinuria with glomerular injury that can progress to chronic kidney disease.
 
 ---
 

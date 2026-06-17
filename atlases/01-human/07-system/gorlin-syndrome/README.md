@@ -187,6 +187,15 @@ cross_links:
   - target: 01-human/07-system/autism-spectrum-disorder
     relation: connects-to
     note: "The Hedgehog pathway shapes the developing brain: a subset of Gorlin patients have developmental delay and autistic features, reflecting Sonic Hedgehog's role in neurodevelopment alongside the syndrome's structural brain anomalies."
+  - target: 01-human/07-system/wound-healing
+    relation: connects-to
+    note: "A lifetime of skin surgery scars the body: recurrent basal cell carcinomas demand endless excisions and grafts, and radiotherapy must be avoided because it triggers more tumors, so chronic surgical wounds and poor healing accumulate."
+  - target: 01-human/07-system/major-depressive-disorder
+    relation: connects-to
+    note: "Disfigurement and endless surveillance weigh on mood: the cumulative facial scarring from hundreds of basal cell carcinoma excisions and lifelong cancer surveillance give Gorlin syndrome a substantial psychological burden."
+  - target: 01-human/07-system/venous-thromboembolism
+    relation: connects-to
+    note: "Repeated surgery raises the clot risk: the many operations for skin cancers, jaw cysts and any deeper tumors that Gorlin syndrome requires bring cumulative perioperative venous thromboembolism risk."
 ---
 
 # Gorlin Syndrome
@@ -354,6 +363,9 @@ Both are two-hit tumor suppressors: germline heterozygous LOF + somatic second h
 - `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — Hedgehog and STAT3 cooperate in its tumors: the unrestrained Hedgehog signaling of Gorlin engages STAT3 among the pathways that drive its basal cell carcinomas and medulloblastomas.
 - `connects-to` → **[Sepsis](../sepsis/README.md)** — Jaw cysts and skin surgery invite infection: the odontogenic keratocysts of Gorlin can become infected, and the many excisions and reconstructions for recurrent basal cell carcinomas carry wound-infection and sepsis risk.
 - `connects-to` → **[Autism Spectrum Disorder](../autism-spectrum-disorder/README.md)** — The Hedgehog pathway shapes the developing brain: a subset of Gorlin patients have developmental delay and autistic features, reflecting Sonic Hedgehog's role in neurodevelopment alongside the syndrome's structural brain anomalies.
+- `connects-to` → **[Wound Healing](../wound-healing/README.md)** — A lifetime of skin surgery scars the body: recurrent basal cell carcinomas demand endless excisions and grafts, and radiotherapy must be avoided because it triggers more tumors, so chronic surgical wounds and poor healing accumulate.
+- `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — Disfigurement and endless surveillance weigh on mood: the cumulative facial scarring from hundreds of basal cell carcinoma excisions and lifelong cancer surveillance give Gorlin syndrome a substantial psychological burden.
+- `connects-to` → **[Venous Thromboembolism](../venous-thromboembolism/README.md)** — Repeated surgery raises the clot risk: the many operations for skin cancers, jaw cysts and any deeper tumors that Gorlin syndrome requires bring cumulative perioperative venous thromboembolism risk.
 
 ---
 
