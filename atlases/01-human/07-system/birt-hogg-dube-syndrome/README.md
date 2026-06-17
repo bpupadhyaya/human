@@ -187,6 +187,15 @@ cross_links:
   - target: 01-human/07-system/ckd
     relation: connects-to
     note: "Saving the kidneys costs nephrons over a lifetime: recurrent BHD renal tumors demand repeated nephron-sparing surgeries, so the cumulative loss of kidney tissue can drift toward chronic kidney disease."
+  - target: 01-human/07-system/anemia-of-chronic-disease
+    relation: connects-to
+    note: "Its renal tumors drag the count down: the recurrent renal cell carcinomas of BHD bring tumor inflammation and surgical nephron loss that, with reduced erythropoietin, contribute an anemia of chronic disease."
+  - target: 01-human/07-system/venous-thromboembolism
+    relation: connects-to
+    note: "Repeated cancer surgery raises the clot risk: the lifetime of renal-tumor resections and the prothrombotic state of renal cell carcinoma predispose BHD patients to perioperative venous thromboembolism."
+  - target: 01-human/07-system/major-depressive-disorder
+    relation: connects-to
+    note: "Lifelong cancer surveillance weighs on the mind: living with an inherited risk of renal tumors, recurrent surgeries and the threat of spontaneous lung collapse imposes a real psychological burden in BHD."
 ---
 
 # Birt-Hogg-Dubé Syndrome
@@ -384,6 +393,9 @@ Definite BHD: 1 major OR 2 minor criteria (European BHD Consortium definition)
 - `connects-to` → **[NF-κB](../../03-molecular/nf-kb/README.md)** — Lost folliculin lifts a brake on NF-κB: FLCN normally restrains inflammatory and mTOR-linked signaling, so its loss in BHD engages NF-κB-driven survival pathways that support the syndrome's tumors.
 - `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — FLCN-deficient cells activate STAT3: the chromophobe and oncocytic renal tumors of BHD show STAT3 signaling that supports their proliferation, one of the pathways downstream of folliculin loss.
 - `connects-to` → **[Chronic Kidney Disease](../ckd/README.md)** — Saving the kidneys costs nephrons over a lifetime: recurrent BHD renal tumors demand repeated nephron-sparing surgeries, so the cumulative loss of kidney tissue can drift toward chronic kidney disease.
+- `connects-to` → **[Anemia of Chronic Disease](../anemia-of-chronic-disease/README.md)** — Its renal tumors drag the count down: the recurrent renal cell carcinomas of BHD bring tumor inflammation and surgical nephron loss that, with reduced erythropoietin, contribute an anemia of chronic disease.
+- `connects-to` → **[Venous Thromboembolism](../venous-thromboembolism/README.md)** — Repeated cancer surgery raises the clot risk: the lifetime of renal-tumor resections and the prothrombotic state of renal cell carcinoma predispose BHD patients to perioperative venous thromboembolism.
+- `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — Lifelong cancer surveillance weighs on the mind: living with an inherited risk of renal tumors, recurrent surgeries and the threat of spontaneous lung collapse imposes a real psychological burden in BHD.
 
 ---
 

@@ -193,6 +193,15 @@ cross_links:
   - target: 01-human/07-system/sepsis
     relation: connects-to
     note: "The urinary tract is a direct line to the blood: obstructing tumors, instrumentation and intravesical BCG can seed urosepsis, and rarely BCG itself disseminates into a systemic infection mimicking sepsis."
+  - target: 01-human/07-system/iron-deficiency-anemia
+    relation: connects-to
+    note: "Blood in the urine drains the iron: painless hematuria is the cardinal sign of bladder cancer, and chronic or recurrent bleeding steadily depletes iron stores into an iron-deficiency anemia."
+  - target: 01-human/07-system/ckd
+    relation: connects-to
+    note: "Obstruction and surgery threaten the kidneys: tumor at the ureteric orifices causes hydronephrosis, and radical cystectomy with urinary diversion alters renal drainage, together risking chronic kidney disease."
+  - target: 01-human/07-system/major-depressive-disorder
+    relation: connects-to
+    note: "Cystectomy and a stoma reshape life: the loss of the bladder, a urinary diversion or stoma and the demands of intravesical therapy impose a heavy psychological burden, with high rates of depression."
 ---
 
 # Bladder Cancer
@@ -372,6 +381,9 @@ NMIBC and MIBC have distinct molecular landscapes:
 - `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — Chronic inflammation drives the urothelium through STAT3: IL-6-fueled STAT3 signaling supports bladder-cancer cell survival and proliferation, tying the disease's strong inflammatory and smoking-related carcinogenesis to a targetable hub.
 - `connects-to` → **[Venous Thromboembolism](../venous-thromboembolism/README.md)** — Pelvic cancer surgery clots the veins: bladder cancer's tumor-driven hypercoagulability, compounded by radical cystectomy — one of the highest-VTE-risk operations in oncology — makes thromboembolism a major perioperative hazard.
 - `connects-to` → **[Sepsis](../sepsis/README.md)** — The urinary tract is a direct line to the blood: obstructing tumors, instrumentation and intravesical BCG can seed urosepsis, and rarely BCG itself disseminates into a systemic infection mimicking sepsis.
+- `connects-to` → **[Iron Deficiency Anemia](../iron-deficiency-anemia/README.md)** — Blood in the urine drains the iron: painless hematuria is the cardinal sign of bladder cancer, and chronic or recurrent bleeding steadily depletes iron stores into an iron-deficiency anemia.
+- `connects-to` → **[Chronic Kidney Disease](../ckd/README.md)** — Obstruction and surgery threaten the kidneys: tumor at the ureteric orifices causes hydronephrosis, and radical cystectomy with urinary diversion alters renal drainage, together risking chronic kidney disease.
+- `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — Cystectomy and a stoma reshape life: the loss of the bladder, a urinary diversion or stoma and the demands of intravesical therapy impose a heavy psychological burden, with high rates of depression.
 
 ---
 
