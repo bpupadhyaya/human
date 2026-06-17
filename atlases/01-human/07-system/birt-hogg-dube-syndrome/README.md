@@ -178,6 +178,15 @@ cross_links:
   - target: 01-human/03-molecular/p53
     relation: connects-to
     note: "Renal tumors accumulate a second hit: beyond the germline FLCN loss, secondary TP53 mutations are found in BHD-associated chromophobe and oncocytic renal carcinomas, marking progression toward malignancy."
+  - target: 01-human/03-molecular/nf-kb
+    relation: connects-to
+    note: "Lost folliculin lifts a brake on NF-κB: FLCN normally restrains inflammatory and mTOR-linked signaling, so its loss in BHD engages NF-κB-driven survival pathways that support the syndrome's tumors."
+  - target: 01-human/03-molecular/stat3
+    relation: connects-to
+    note: "FLCN-deficient cells activate STAT3: the chromophobe and oncocytic renal tumors of BHD show STAT3 signaling that supports their proliferation, one of the pathways downstream of folliculin loss."
+  - target: 01-human/07-system/ckd
+    relation: connects-to
+    note: "Saving the kidneys costs nephrons over a lifetime: recurrent BHD renal tumors demand repeated nephron-sparing surgeries, so the cumulative loss of kidney tissue can drift toward chronic kidney disease."
 ---
 
 # Birt-Hogg-Dubé Syndrome
@@ -372,6 +381,9 @@ Definite BHD: 1 major OR 2 minor criteria (European BHD Consortium definition)
 - `connects-to` → **[COPD](../copd/README.md)** — BHD's lung cysts mimic emphysema: its basal pulmonary cysts and recurrent spontaneous pneumothoraces can be mistaken for COPD on imaging, but lung function is usually preserved — the distinction matters because BHD signals hereditary kidney-cancer risk.
 - `connects-to` → **[Transforming Growth Factor Beta](../../03-molecular/tgf-beta/README.md)** — Folliculin shapes TGF-β signaling: FLCN loss in BHD dysregulates the TGF-β pathway, contributing to the abnormal cell differentiation behind its fibrofolliculomas, lung cysts, and renal tumors.
 - `connects-to` → **[p53](../../03-molecular/p53/README.md)** — Renal tumors accumulate a second hit: beyond the germline FLCN loss, secondary TP53 mutations are found in BHD-associated chromophobe and oncocytic renal carcinomas, marking progression toward malignancy.
+- `connects-to` → **[NF-κB](../../03-molecular/nf-kb/README.md)** — Lost folliculin lifts a brake on NF-κB: FLCN normally restrains inflammatory and mTOR-linked signaling, so its loss in BHD engages NF-κB-driven survival pathways that support the syndrome's tumors.
+- `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — FLCN-deficient cells activate STAT3: the chromophobe and oncocytic renal tumors of BHD show STAT3 signaling that supports their proliferation, one of the pathways downstream of folliculin loss.
+- `connects-to` → **[Chronic Kidney Disease](../ckd/README.md)** — Saving the kidneys costs nephrons over a lifetime: recurrent BHD renal tumors demand repeated nephron-sparing surgeries, so the cumulative loss of kidney tissue can drift toward chronic kidney disease.
 
 ---
 

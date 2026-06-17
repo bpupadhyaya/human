@@ -184,6 +184,15 @@ cross_links:
   - target: 01-human/07-system/gut-microbiome
     relation: connects-to
     note: "The urinary microbiome shapes the response: the bladder is not sterile, and its microbial community influences both carcinogenesis and the inflammatory clearance that intravesical BCG immunotherapy relies on."
+  - target: 01-human/03-molecular/stat3
+    relation: connects-to
+    note: "Chronic inflammation drives the urothelium through STAT3: IL-6-fueled STAT3 signaling supports bladder-cancer cell survival and proliferation, tying the disease's strong inflammatory and smoking-related carcinogenesis to a targetable hub."
+  - target: 01-human/07-system/venous-thromboembolism
+    relation: connects-to
+    note: "Pelvic cancer surgery clots the veins: bladder cancer's tumor-driven hypercoagulability, compounded by radical cystectomy — one of the highest-VTE-risk operations in oncology — makes thromboembolism a major perioperative hazard."
+  - target: 01-human/07-system/sepsis
+    relation: connects-to
+    note: "The urinary tract is a direct line to the blood: obstructing tumors, instrumentation and intravesical BCG can seed urosepsis, and rarely BCG itself disseminates into a systemic infection mimicking sepsis."
 ---
 
 # Bladder Cancer
@@ -360,6 +369,9 @@ NMIBC and MIBC have distinct molecular landscapes:
 - `connects-to` → **[COPD](../copd/README.md)** — The same smoke that scars the lungs lines the bladder: most bladder-cancer patients are smokers and carry COPD as a comorbidity, which raises the anesthetic and surgical risk of the cystectomy their cancer demands.
 - `connects-to` → **[Colorectal Cancer](../colorectal-cancer/README.md)** — Lynch syndrome ties bladder to bowel: the mismatch-repair defect that drives colorectal cancer also raises the risk of upper-tract and bladder urothelial cancer, so a Lynch family history changes urologic surveillance.
 - `connects-to` → **[Gut Microbiome](../gut-microbiome/README.md)** — The urinary microbiome shapes the response: the bladder is not sterile, and its microbial community influences both carcinogenesis and the inflammatory clearance that intravesical BCG immunotherapy relies on.
+- `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — Chronic inflammation drives the urothelium through STAT3: IL-6-fueled STAT3 signaling supports bladder-cancer cell survival and proliferation, tying the disease's strong inflammatory and smoking-related carcinogenesis to a targetable hub.
+- `connects-to` → **[Venous Thromboembolism](../venous-thromboembolism/README.md)** — Pelvic cancer surgery clots the veins: bladder cancer's tumor-driven hypercoagulability, compounded by radical cystectomy — one of the highest-VTE-risk operations in oncology — makes thromboembolism a major perioperative hazard.
+- `connects-to` → **[Sepsis](../sepsis/README.md)** — The urinary tract is a direct line to the blood: obstructing tumors, instrumentation and intravesical BCG can seed urosepsis, and rarely BCG itself disseminates into a systemic infection mimicking sepsis.
 
 ---
 
