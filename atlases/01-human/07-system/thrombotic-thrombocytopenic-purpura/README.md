@@ -184,6 +184,15 @@ cross_links:
   - target: 01-human/03-molecular/il-6
     relation: connects-to
     note: "IL-6 rises with the acute storm: levels of this inflammatory cytokine climb during acute TTP episodes and track with severity, reflecting the systemic inflammation that accompanies the microvascular thrombosis."
+  - target: 01-human/07-system/ckd
+    relation: connects-to
+    note: "Microthrombi scar the kidney over time: even when acute renal failure is milder than in HUS, the renal microvascular injury of repeated TTP episodes can leave residual chronic kidney disease in survivors."
+  - target: 01-human/07-system/heart-failure
+    relation: connects-to
+    note: "The heart is a hidden target: microvascular thrombi in the myocardium during acute TTP cause troponin rise, arrhythmia and cardiac dysfunction — a leading cause of death — that can leave lasting heart failure."
+  - target: 01-human/07-system/major-depressive-disorder
+    relation: connects-to
+    note: "Survivors carry a lasting mental toll: even after ADAMTS13 recovers, TTP survivors have high rates of depression and cognitive impairment, a long-term neuropsychiatric sequela of the cerebral microvascular injury and traumatic illness."
 ---
 
 # Thrombotic Thrombocytopenic Purpura
@@ -394,6 +403,9 @@ In healthy individuals, ADAMTS13 (~190 kDa plasma glycoprotein; hepatic synthesi
 - `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — STAT3 keeps the autoantibody factory running: acquired TTP is driven by anti-ADAMTS13 IgG, and STAT3 signaling supports the survival of the plasma cells that secrete it — part of why B-cell-directed rituximab quiets relapsing disease.
 - `connects-to` → **[NF-κB](../../03-molecular/nf-kb/README.md)** — NF-κB primes the endothelium that clots: inflammatory activation of endothelial cells through NF-κB promotes release of ultralarge von Willebrand factor multimers, the very strings that uncleaved ADAMTS13 fails to cut in TTP.
 - `connects-to` → **[Interleukin-6](../../03-molecular/il-6/README.md)** — IL-6 rises with the acute storm: levels of this inflammatory cytokine climb during acute TTP episodes and track with severity, reflecting the systemic inflammation that accompanies the microvascular thrombosis.
+- `connects-to` → **[Chronic Kidney Disease](../ckd/README.md)** — Microthrombi scar the kidney over time: even when acute renal failure is milder than in HUS, the renal microvascular injury of repeated TTP episodes can leave residual chronic kidney disease in survivors.
+- `connects-to` → **[Heart Failure](../heart-failure/README.md)** — The heart is a hidden target: microvascular thrombi in the myocardium during acute TTP cause troponin rise, arrhythmia and cardiac dysfunction — a leading cause of death — that can leave lasting heart failure.
+- `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — Survivors carry a lasting mental toll: even after ADAMTS13 recovers, TTP survivors have high rates of depression and cognitive impairment, a long-term neuropsychiatric sequela of the cerebral microvascular injury and traumatic illness.
 
 ---
 
