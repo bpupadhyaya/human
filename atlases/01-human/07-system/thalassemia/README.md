@@ -198,6 +198,15 @@ cross_links:
   - target: 01-human/07-system/major-depressive-disorder
     relation: connects-to
     note: "Lifelong transfusion dependence weighs on mood: the burden of regular transfusions, iron chelation and a chronic inherited disease gives transfusion-dependent thalassemia a high rate of depression."
+  - target: 01-human/07-system/type-2-diabetes
+    relation: connects-to
+    note: "Transfusional iron poisons the pancreas: repeated transfusions in thalassemia deposit iron in the islets, and the resulting beta-cell damage produces a secondary diabetes that is a classic endocrine complication."
+  - target: 02-pathogen/02-bacteria/neisseria-meningitidis
+    relation: connects-to
+    note: "Splenectomy strips defense against encapsulated bacteria: many thalassemia patients undergo splenectomy for hypersplenism, leaving them vulnerable to meningococcus and other encapsulated organisms."
+  - target: 01-human/07-system/stroke
+    relation: connects-to
+    note: "It carries a hidden clot risk: thalassemia, especially after splenectomy, is a hypercoagulable state with abnormal red cells and platelet activation that raises the risk of ischemic stroke."
 ---
 
 # Thalassemia
@@ -402,6 +411,9 @@ Untransfused or undertransfused β-thal major:
 - `connects-to` → **[Chronic Kidney Disease](../ckd/README.md)** — Iron and chronic anemia wear on the kidney: iron-overload injury, the chelating drugs' nephrotoxicity and longstanding anemic hyperfiltration can leave a slow decline toward chronic kidney disease in thalassemia.
 - `connects-to` → **[Gout](../gout/README.md)** — High cell turnover floods the blood with urate: the ineffective erythropoiesis and hemolysis of thalassemia generate excess purine breakdown, raising uric acid and predisposing to hyperuricemia and gout.
 - `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — Lifelong transfusion dependence weighs on mood: the burden of regular transfusions, iron chelation and a chronic inherited disease gives transfusion-dependent thalassemia a high rate of depression.
+- `connects-to` → **[Type 2 Diabetes](../type-2-diabetes/README.md)** — Transfusional iron poisons the pancreas: repeated transfusions in thalassemia deposit iron in the islets, and the resulting beta-cell damage produces a secondary diabetes that is a classic endocrine complication.
+- `connects-to` → **[Neisseria meningitidis](../../../02-pathogen/02-bacteria/neisseria-meningitidis/README.md)** — Splenectomy strips defense against encapsulated bacteria: many thalassemia patients undergo splenectomy for hypersplenism, leaving them vulnerable to meningococcus and other encapsulated organisms.
+- `connects-to` → **[Stroke](../stroke/README.md)** — It carries a hidden clot risk: thalassemia, especially after splenectomy, is a hypercoagulable state with abnormal red cells and platelet activation that raises the risk of ischemic stroke.
 
 [^weatherall-2008-thalassemia-review]: Weatherall DJ. The inherited diseases of hemoglobin are an emerging global health burden. *Blood.* 2010;115(22):4331-4336. [doi:10.1182/blood-2010-01-251348](https://doi.org/10.1182/blood-2010-01-251348) · [PubMed 20233970](https://pubmed.ncbi.nlm.nih.gov/20233970/)
 [^cappellini-2014-thalassemia-guidelines]: Cappellini MD, Cohen A, Porter J, et al. (eds). Guidelines for the Management of Transfusion Dependent Thalassaemia (TDT). 3rd ed. Thalassaemia International Federation; 2014.

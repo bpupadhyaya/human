@@ -199,6 +199,15 @@ cross_links:
   - target: 01-human/07-system/major-depressive-disorder
     relation: connects-to
     note: "Surviving a clot leaves a mental mark: many people develop persistent anxiety and depression after a pulmonary embolism or DVT, a post-thrombotic psychological distress akin to post-traumatic stress."
+  - target: 01-human/07-system/wound-healing
+    relation: connects-to
+    note: "Damaged veins leave chronic ulcers: deep vein thrombosis injures venous valves, and the resulting post-thrombotic syndrome and venous hypertension produce slow-healing venous leg ulcers."
+  - target: 01-human/07-system/gastric-cancer
+    relation: connects-to
+    note: "An unprovoked clot can herald hidden cancer: Trousseau's syndrome of migratory thrombosis points to occult malignancy, and adenocarcinomas like gastric cancer are classic culprits found on the ensuing search."
+  - target: 01-human/07-system/osteoporosis
+    relation: connects-to
+    note: "Its long anticoagulation can cost bone: prolonged heparin used to treat venous thromboembolism, especially in pregnancy, lowers bone mineral density, a recognized treatment-related bone loss."
 ---
 
 # Venous Thromboembolism
@@ -378,6 +387,9 @@ cross_links:
 - `connects-to` → **[Ovarian Cancer](../ovarian-cancer/README.md)** — An unprovoked clot can herald it: ovarian and other adenocarcinomas are strongly prothrombotic, so a venous thromboembolism without obvious cause can be the presenting sign that prompts the search uncovering the tumor.
 - `connects-to` → **[NASH](../nash/README.md)** — The fatty liver leans toward clotting: NASH raises fibrinogen and PAI-1 and lowers fibrinolysis, an under-recognized prothrombotic state that increases the risk of venous thromboembolism and portal vein thrombosis.
 - `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — Surviving a clot leaves a mental mark: many people develop persistent anxiety and depression after a pulmonary embolism or DVT, a post-thrombotic psychological distress akin to post-traumatic stress.
+- `connects-to` → **[Wound Healing](../wound-healing/README.md)** — Damaged veins leave chronic ulcers: deep vein thrombosis injures venous valves, and the resulting post-thrombotic syndrome and venous hypertension produce slow-healing venous leg ulcers.
+- `connects-to` → **[Gastric Cancer](../gastric-cancer/README.md)** — An unprovoked clot can herald hidden cancer: Trousseau's syndrome of migratory thrombosis points to occult malignancy, and adenocarcinomas like gastric cancer are classic culprits found on the ensuing search.
+- `connects-to` → **[Osteoporosis](../osteoporosis/README.md)** — Its long anticoagulation can cost bone: prolonged heparin used to treat venous thromboembolism, especially in pregnancy, lowers bone mineral density, a recognized treatment-related bone loss.
 
 [^agnelli-2013-amplify-apixaban-vte]: Agnelli G, Buller HR, Cohen A, et al. Oral apixaban for the treatment of acute venous thromboembolism. *N Engl J Med.* 2013;369(9):799-808. [doi:10.1056/NEJMoa1302507](https://doi.org/10.1056/NEJMoa1302507) · [PubMed 23808982](https://pubmed.ncbi.nlm.nih.gov/23808982/)
 [^bauersachs-2010-einstein-rivaroxaban]: EINSTEIN Investigators. Oral rivaroxaban for symptomatic venous thromboembolism. *N Engl J Med.* 2010;363(26):2499-2510. [doi:10.1056/NEJMoa1007903](https://doi.org/10.1056/NEJMoa1007903) · [PubMed 21128814](https://pubmed.ncbi.nlm.nih.gov/21128814/)
