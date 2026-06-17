@@ -187,6 +187,15 @@ cross_links:
   - target: 01-human/07-system/pulmonary-arterial-hypertension
     relation: connects-to
     note: "Unresolved clots can stiffen the lung circulation: the pulmonary emboli thrown by HIT, if incompletely cleared, can organize into chronic thromboembolic pulmonary hypertension, a lasting rise in pulmonary artery pressure."
+  - target: 01-human/07-system/heart-failure
+    relation: connects-to
+    note: "Large clots can buckle the right heart: a massive pulmonary embolism thrown by HIT acutely overloads the right ventricle into acute cor pulmonale, and HIT itself often arises after cardiac surgery in patients with limited cardiac reserve."
+  - target: 01-human/07-system/anemia-of-chronic-disease
+    relation: connects-to
+    note: "It strikes the already critically ill: HIT typically develops in post-surgical and intensive-care patients who carry the anemia of chronic disease from their inflammatory state, compounding the hematologic complexity."
+  - target: 01-human/07-system/polycythemia-vera
+    relation: connects-to
+    note: "It joins the differential of thrombosis with an odd platelet count: when clotting coincides with abnormal platelets, myeloproliferative disorders like polycythemia vera are weighed alongside HIT as drivers of an acquired prothrombotic state."
 ---
 
 # Heparin-Induced Thrombocytopenia
@@ -387,6 +396,9 @@ Platelet consumption → thrombocytopenia (paradox: clotting despite low platele
 - `connects-to` → **[Plasma Cell](../../04-cellular/plasma-cell/README.md)** — Plasma cells make the dangerous antibody: a rapid B-cell response matures into plasma cells secreting the anti-PF4/heparin IgG that drives HIT, an unusually fast antibody response that can appear within days of heparin exposure.
 - `connects-to` → **[NF-κB](../../03-molecular/nf-kb/README.md)** — The immune complexes light up the vessel wall: PF4-heparin-IgG complexes activate monocytes and endothelium through NF-κB, switching on tissue factor and adhesion molecules that turn HIT into a relentlessly prothrombotic state.
 - `connects-to` → **[Pulmonary Arterial Hypertension](../pulmonary-arterial-hypertension/README.md)** — Unresolved clots can stiffen the lung circulation: the pulmonary emboli thrown by HIT, if incompletely cleared, can organize into chronic thromboembolic pulmonary hypertension, a lasting rise in pulmonary artery pressure.
+- `connects-to` → **[Heart Failure](../heart-failure/README.md)** — Large clots can buckle the right heart: a massive pulmonary embolism thrown by HIT acutely overloads the right ventricle into acute cor pulmonale, and HIT itself often arises after cardiac surgery in patients with limited cardiac reserve.
+- `connects-to` → **[Anemia of Chronic Disease](../anemia-of-chronic-disease/README.md)** — It strikes the already critically ill: HIT typically develops in post-surgical and intensive-care patients who carry the anemia of chronic disease from their inflammatory state, compounding the hematologic complexity.
+- `connects-to` → **[Polycythemia Vera](../polycythemia-vera/README.md)** — It joins the differential of thrombosis with an odd platelet count: when clotting coincides with abnormal platelets, myeloproliferative disorders like polycythemia vera are weighed alongside HIT as drivers of an acquired prothrombotic state.
 
 [^warkentin-2007-hit-review]: Warkentin TE, Greinacher A. Heparin-induced thrombocytopenia: recognition, treatment, and prevention. *Chest.* 2004;126(3 Suppl):311S-337S. [doi:10.1378/chest.126.3_suppl.311S](https://doi.org/10.1378/chest.126.3_suppl.311S) · [PubMed 15383477](https://pubmed.ncbi.nlm.nih.gov/15383477/)
 [^greinacher-2021-vitt-nejm]: Greinacher A, Thiele T, Warkentin TE, et al. Thrombotic thrombocytopenia after ChAdOx1 nCov-19 vaccination. *N Engl J Med.* 2021;384(22):2092-2101. [doi:10.1056/NEJMoa2104840](https://doi.org/10.1056/NEJMoa2104840) · [PubMed 33835769](https://pubmed.ncbi.nlm.nih.gov/33835769/)

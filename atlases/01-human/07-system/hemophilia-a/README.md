@@ -187,6 +187,15 @@ cross_links:
   - target: 01-human/07-system/sepsis
     relation: connects-to
     note: "The lines used to infuse factor can seed infection: many patients, especially children, rely on indwelling central venous ports for clotting-factor delivery, and these catheters are a recurring source of bloodstream infection and sepsis."
+  - target: 01-human/07-system/opioid-use-disorder
+    relation: connects-to
+    note: "Crippled joints drive long-term opioid use: the recurrent hemarthroses of hemophilia destroy joints into a painful arthropathy, and the chronic pain often leads to sustained opioid use with its risk of dependence."
+  - target: 01-human/07-system/major-depressive-disorder
+    relation: connects-to
+    note: "A lifelong disease with a heavy history weighs on mood: chronic pain, disability, and for older patients the trauma of transfusion-acquired HIV and hepatitis C give hemophilia A a high burden of depression."
+  - target: 01-human/07-system/heart-failure
+    relation: connects-to
+    note: "Aging hemophiliacs now meet heart disease: with near-normal lifespans, older patients develop coronary disease and heart failure, whose antithrombotic management is a delicate balance against their underlying bleeding tendency."
 ---
 
 # Hemophilia A
@@ -364,6 +373,9 @@ FVIII is a critical **amplifier** of the coagulation cascade at the junction bet
 - `connects-to` → **[NF-κB](../../03-molecular/nf-kb/README.md)** — Blood in the joint turns on inflammation: iron and breakdown products from recurrent hemarthroses activate NF-κB in synovial cells, switching on the inflammatory and angiogenic genes that drive the chronic synovitis of hemophilic arthropathy.
 - `connects-to` → **[Anemia of Chronic Disease](../anemia-of-chronic-disease/README.md)** — Beyond blood loss, inflammation suppresses the marrow: the chronic synovitis of hemophilic arthropathy raises inflammatory cytokines that blunt erythropoiesis, an anemia of chronic disease distinct from the iron loss of bleeding.
 - `connects-to` → **[Sepsis](../sepsis/README.md)** — The lines used to infuse factor can seed infection: many patients, especially children, rely on indwelling central venous ports for clotting-factor delivery, and these catheters are a recurring source of bloodstream infection and sepsis.
+- `connects-to` → **[Opioid Use Disorder](../opioid-use-disorder/README.md)** — Crippled joints drive long-term opioid use: the recurrent hemarthroses of hemophilia destroy joints into a painful arthropathy, and the chronic pain often leads to sustained opioid use with its risk of dependence.
+- `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — A lifelong disease with a heavy history weighs on mood: chronic pain, disability, and for older patients the trauma of transfusion-acquired HIV and hepatitis C give hemophilia A a high burden of depression.
+- `connects-to` → **[Heart Failure](../heart-failure/README.md)** — Aging hemophiliacs now meet heart disease: with near-normal lifespans, older patients develop coronary disease and heart failure, whose antithrombotic management is a delicate balance against their underlying bleeding tendency.
 
 [^oldenburg-2017-emicizumab-haven1]: Oldenburg J, Mahlangu JN, Kim B, et al. Emicizumab prophylaxis in hemophilia A with inhibitors. *N Engl J Med.* 2017;377(9):809-818. [doi:10.1056/NEJMoa1703068](https://doi.org/10.1056/NEJMoa1703068) · [PubMed 28691557](https://pubmed.ncbi.nlm.nih.gov/28691557/)
 [^mahlangu-2018-emicizumab-haven3]: Mahlangu J, Oldenburg J, Paz-Priel I, et al. Emicizumab prophylaxis in patients who have hemophilia A without inhibitors. *N Engl J Med.* 2018;379(9):811-822. [doi:10.1056/NEJMoa1803550](https://doi.org/10.1056/NEJMoa1803550) · [PubMed 30157389](https://pubmed.ncbi.nlm.nih.gov/30157389/)
