@@ -181,6 +181,15 @@ cross_links:
   - target: 01-human/07-system/stroke
     relation: connects-to
     note: "The weight reaches the brain's vessels: through hypertension, diabetes and atherosclerosis, obesity raises the risk of ischemic stroke, extending its cardiovascular toll beyond the heart to the cerebral circulation."
+  - target: 01-human/03-molecular/nf-kb
+    relation: connects-to
+    note: "Overfed fat smolders with inflammation: free fatty acids and stressed adipocytes activate NF-κB in fat-resident macrophages, the master switch behind the chronic low-grade inflammation that links obesity to insulin resistance."
+  - target: 01-human/03-molecular/stat3
+    relation: connects-to
+    note: "The brain stops hearing the satiety signal: leptin acts through JAK2-STAT3 in the hypothalamus to curb appetite, and obesity blunts this STAT3 signaling into leptin resistance, so high leptin no longer suppresses eating."
+  - target: 01-human/07-system/venous-thromboembolism
+    relation: connects-to
+    note: "Excess weight thickens and slows the blood: obesity raises clotting factors and venous stasis, making it a major independent risk factor for deep-vein thrombosis and pulmonary embolism."
 ---
 
 # Obesity
@@ -375,6 +384,9 @@ This **metainflammation** mechanistically links obesity to type 2 diabetes, athe
 - `connects-to` → **[Resistin](../../03-molecular/resistin/README.md)** — Fat secretes a pro-inflammatory signal: resistin from adipose tissue and macrophages promotes insulin resistance and vascular inflammation, one of the adipokines through which excess fat turns into metabolic and cardiovascular disease.
 - `connects-to` → **[Chronic Kidney Disease](../ckd/README.md)** — Excess weight scars the kidneys: obesity hyperfilters the glomeruli and, with the diabetes and hypertension it drives, produces obesity-related glomerulopathy that progresses to chronic kidney disease.
 - `connects-to` → **[Stroke](../stroke/README.md)** — The weight reaches the brain's vessels: through hypertension, diabetes and atherosclerosis, obesity raises the risk of ischemic stroke, extending its cardiovascular toll beyond the heart to the cerebral circulation.
+- `connects-to` → **[NF-κB](../../03-molecular/nf-kb/README.md)** — Overfed fat smolders with inflammation: free fatty acids and stressed adipocytes activate NF-κB in fat-resident macrophages, the master switch behind the chronic low-grade inflammation that links obesity to insulin resistance.
+- `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — The brain stops hearing the satiety signal: leptin acts through JAK2-STAT3 in the hypothalamus to curb appetite, and obesity blunts this STAT3 signaling into leptin resistance, so high leptin no longer suppresses eating.
+- `connects-to` → **[Venous Thromboembolism](../venous-thromboembolism/README.md)** — Excess weight thickens and slows the blood: obesity raises clotting factors and venous stasis, making it a major independent risk factor for deep-vein thrombosis and pulmonary embolism.
 
 [^bluher-2019-obesity-review]: Blüher M. Obesity: global epidemiology and pathogenesis. *Nat Rev Endocrinol.* 2019;15(5):288-298. [doi:10.1038/s41574-019-0176-8](https://doi.org/10.1038/s41574-019-0176-8) · [PubMed 30814686](https://pubmed.ncbi.nlm.nih.gov/30814686/)
 [^wilding-2021-semaglutide-step1]: Wilding JPH, Batterham RL, Calanna S, et al. Once-weekly semaglutide in adults with overweight or obesity. *N Engl J Med.* 2021;384(11):989-1002. [doi:10.1056/NEJMoa2032183](https://doi.org/10.1056/NEJMoa2032183) · [PubMed 33567185](https://pubmed.ncbi.nlm.nih.gov/33567185/)

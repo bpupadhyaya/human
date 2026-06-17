@@ -188,6 +188,15 @@ cross_links:
   - target: 01-human/03-molecular/endocannabinoid
     relation: connects-to
     note: "The body's cannabis system modulates compulsivity: endocannabinoid signaling tunes the fear and habit circuits implicated in OCD, and cannabinoid agents are being explored for the obsessions and compulsions that resist standard drugs."
+  - target: 01-human/03-molecular/nf-kb
+    relation: connects-to
+    note: "Neuroinflammation may stoke the circuits: NF-κB-driven microglial inflammation is implicated in OCD, fitting the autoimmune PANDAS subtype where strep-triggered inflammation inflames the basal ganglia behind sudden-onset symptoms."
+  - target: 01-human/07-system/parkinsons-disease
+    relation: connects-to
+    note: "Shared basal-ganglia wiring links them: OCD and Parkinson's both involve cortico-striatal circuits, and the dopamine-replacement therapy of Parkinson's can itself unleash obsessive-compulsive and impulse-control behaviors."
+  - target: 01-human/07-system/alcohol-use-disorder
+    relation: connects-to
+    note: "Compulsion can spill into the bottle: alcohol and other substance use disorders are over-represented in OCD, with some patients drinking to quiet relentless anxiety and intrusive thoughts."
 ---
 
 # Obsessive-Compulsive Disorder
@@ -369,6 +378,9 @@ OCD is often underdiagnosed due to shame and secrecy. Mean time from symptom ons
 - `connects-to` → **[Nervous System](../nervous-system/README.md)** — It is a disorder of a specific brain loop: OCD arises from overactivity in the cortico-striatal-thalamic circuit linking the orbitofrontal cortex and basal ganglia, the wiring whose miscommunication generates intrusive thoughts and the urge to ritualize.
 - `connects-to` → **[Regulatory T Cell](../../04-cellular/regulatory-t-cell/README.md)** — An immune arm shows up in some cases: in the PANDAS subtype where strep infection triggers OCD, dysregulated T-cell immunity — including regulatory T cells — lets autoantibodies cross-react with the basal ganglia.
 - `connects-to` → **[Endocannabinoid System](../../03-molecular/endocannabinoid/README.md)** — The body's cannabis system modulates compulsivity: endocannabinoid signaling tunes the fear and habit circuits implicated in OCD, and cannabinoid agents are being explored for the obsessions and compulsions that resist standard drugs.
+- `connects-to` → **[NF-κB](../../03-molecular/nf-kb/README.md)** — Neuroinflammation may stoke the circuits: NF-κB-driven microglial inflammation is implicated in OCD, fitting the autoimmune PANDAS subtype where strep-triggered inflammation inflames the basal ganglia behind sudden-onset symptoms.
+- `connects-to` → **[Parkinson's Disease](../parkinsons-disease/README.md)** — Shared basal-ganglia wiring links them: OCD and Parkinson's both involve cortico-striatal circuits, and the dopamine-replacement therapy of Parkinson's can itself unleash obsessive-compulsive and impulse-control behaviors.
+- `connects-to` → **[Alcohol Use Disorder](../alcohol-use-disorder/README.md)** — Compulsion can spill into the bottle: alcohol and other substance use disorders are over-represented in OCD, with some patients drinking to quiet relentless anxiety and intrusive thoughts.
 
 [^abramowitz-2009-ocd-review]: Abramowitz JS, Taylor S, McKay D. Obsessive-compulsive disorder. *Lancet.* 2009;374(9688):491-499. [doi:10.1016/S0140-6736(09)60240-3](https://doi.org/10.1016/S0140-6736(09)60240-3) · [PubMed 19665647](https://pubmed.ncbi.nlm.nih.gov/19665647/)
 [^chamberlain-2008-ocd-neuroscience]: Chamberlain SR, Menzies L, Hampshire A, et al. Orbitofrontal dysfunction in patients with OCD and their unaffected relatives. *Science.* 2008;321(5887):421-422. [doi:10.1126/science.1154433](https://doi.org/10.1126/science.1154433) · [PubMed 18635808](https://pubmed.ncbi.nlm.nih.gov/18635808/)
