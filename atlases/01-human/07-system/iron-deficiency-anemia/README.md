@@ -192,6 +192,15 @@ cross_links:
   - target: 01-human/07-system/stroke
     relation: connects-to
     note: "Severe deficiency can reach the brain: iron deficiency drives reactive thrombocytosis and reduces oxygen delivery, and is a recognized — if uncommon — cause of ischemic stroke and cerebral venous thrombosis, especially in the young."
+  - target: 01-human/07-system/attention-deficit-hyperactivity-disorder
+    relation: connects-to
+    note: "Low iron disturbs the developing brain: iron is a cofactor for dopamine synthesis, and deficiency in children is linked to attention problems, restless legs and the symptoms of ADHD, sometimes improving with repletion."
+  - target: 01-human/07-system/wound-healing
+    relation: connects-to
+    note: "Iron-starved tissue repairs poorly: iron is needed for collagen cross-linking and oxygen delivery to the wound bed, so deficiency slows healing alongside the reduced perfusion of anemia."
+  - target: 01-human/07-system/major-depressive-disorder
+    relation: connects-to
+    note: "Iron shortage saps mood and energy: by impairing dopamine and serotonin synthesis and oxygen delivery, iron deficiency produces fatigue, poor concentration and depressive symptoms that can lift with treatment."
 ---
 
 # Iron Deficiency Anemia
@@ -370,6 +379,9 @@ Iron is essential for:
 - `connects-to` → **[Endometrial Cancer](../endometrial-cancer/README.md)** — Uterine bleeding bleeds the iron away: heavy or postmenopausal uterine bleeding from endometrial cancer is a classic cause of iron-deficiency anemia, and unexplained IDA in a postmenopausal woman prompts its search.
 - `connects-to` → **[Bladder Cancer](../bladder-cancer/README.md)** — Blood lost in the urine drains the stores: chronic or intermittent hematuria from bladder cancer steadily depletes iron, so iron-deficiency anemia with microscopic hematuria warrants urologic evaluation.
 - `connects-to` → **[Stroke](../stroke/README.md)** — Severe deficiency can reach the brain: iron deficiency drives reactive thrombocytosis and reduces oxygen delivery, and is a recognized — if uncommon — cause of ischemic stroke and cerebral venous thrombosis, especially in the young.
+- `connects-to` → **[ADHD](../attention-deficit-hyperactivity-disorder/README.md)** — Low iron disturbs the developing brain: iron is a cofactor for dopamine synthesis, and deficiency in children is linked to attention problems, restless legs and the symptoms of ADHD, sometimes improving with repletion.
+- `connects-to` → **[Wound Healing](../wound-healing/README.md)** — Iron-starved tissue repairs poorly: iron is needed for collagen cross-linking and oxygen delivery to the wound bed, so deficiency slows healing alongside the reduced perfusion of anemia.
+- `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — Iron shortage saps mood and energy: by impairing dopamine and serotonin synthesis and oxygen delivery, iron deficiency produces fatigue, poor concentration and depressive symptoms that can lift with treatment.
 
 [^camaschella-2015-iron-deficiency]: Camaschella C. Iron-deficiency anemia. *N Engl J Med.* 2015;372(19):1832-1843. [doi:10.1056/NEJMra1401038](https://doi.org/10.1056/NEJMra1401038) · [PubMed 25946282](https://pubmed.ncbi.nlm.nih.gov/25946282/)
 [^who-ferritin-guideline-2020]: World Health Organization. WHO guideline on use of ferritin concentrations to assess iron status in individuals and populations. WHO; 2020. [WHO publication](https://www.who.int/publications/i/item/9789240000124)

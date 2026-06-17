@@ -202,6 +202,15 @@ cross_links:
   - target: 01-human/07-system/schizophrenia
     relation: connects-to
     note: "Disrupted sleep is woven into psychosis: insomnia and fragmented sleep architecture are near-universal in schizophrenia, often heralding relapse, reflecting the same circadian and dopaminergic dysregulation that drives the illness."
+  - target: 01-human/07-system/atherosclerosis
+    relation: connects-to
+    note: "Lost sleep inflames the arteries: chronic short and fragmented sleep raises blood pressure, sympathetic tone and inflammation, accelerating atherosclerosis and the cardiovascular risk tied to insomnia."
+  - target: 01-human/07-system/copd
+    relation: connects-to
+    note: "Breathlessness and nocturnal symptoms steal sleep: insomnia is highly prevalent in COPD, where cough, hypoxia and the stimulant effects of bronchodilators fragment sleep, and poor sleep worsens daytime function."
+  - target: 01-human/07-system/wound-healing
+    relation: connects-to
+    note: "Sleep is when the body repairs: deep sleep drives growth-hormone release and immune function, so chronic insomnia and sleep loss measurably slow wound healing and tissue repair."
 ---
 
 # Insomnia Disorder
@@ -400,6 +409,9 @@ CBT-I directly targets perpetuating factors.
 - `connects-to` → **[Heart Failure](../heart-failure/README.md)** — Sleep loss and the failing heart feed each other: orthopnea and nocturnal breathlessness fragment sleep in heart failure, while chronic insomnia's sympathetic overdrive worsens cardiac load — a two-way harm.
 - `connects-to` → **[Migraine](../migraine/README.md)** — Poor sleep triggers the headache: insomnia and migraine are strongly bidirectional, with sleep deprivation a classic migraine trigger and the dread of nocturnal attacks fracturing sleep further.
 - `connects-to` → **[Schizophrenia](../schizophrenia/README.md)** — Disrupted sleep is woven into psychosis: insomnia and fragmented sleep architecture are near-universal in schizophrenia, often heralding relapse, reflecting the same circadian and dopaminergic dysregulation that drives the illness.
+- `connects-to` → **[Atherosclerosis](../atherosclerosis/README.md)** — Lost sleep inflames the arteries: chronic short and fragmented sleep raises blood pressure, sympathetic tone and inflammation, accelerating atherosclerosis and the cardiovascular risk tied to insomnia.
+- `connects-to` → **[COPD](../copd/README.md)** — Breathlessness and nocturnal symptoms steal sleep: insomnia is highly prevalent in COPD, where cough, hypoxia and the stimulant effects of bronchodilators fragment sleep, and poor sleep worsens daytime function.
+- `connects-to` → **[Wound Healing](../wound-healing/README.md)** — Sleep is when the body repairs: deep sleep drives growth-hormone release and immune function, so chronic insomnia and sleep loss measurably slow wound healing and tissue repair.
 
 [^riemann-2017-insomnia-lancet]: Riemann D, Baglioni C, Bassetti C, et al. European guideline for the diagnosis and treatment of insomnia. *J Sleep Res.* 2017;26(6):675-700. [doi:10.1111/jsr.12594](https://doi.org/10.1111/jsr.12594) · [PubMed 28875581](https://pubmed.ncbi.nlm.nih.gov/28875581/)
 [^trauer-2015-cbti-meta]: Trauer JM, Qian MY, Doyle JS, et al. Cognitive behavioral therapy for chronic insomnia. *Ann Intern Med.* 2015;163(3):191-204. [doi:10.7326/M14-2841](https://doi.org/10.7326/M14-2841) · [PubMed 26054060](https://pubmed.ncbi.nlm.nih.gov/26054060/)
