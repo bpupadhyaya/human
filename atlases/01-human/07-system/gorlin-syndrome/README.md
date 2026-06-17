@@ -196,6 +196,15 @@ cross_links:
   - target: 01-human/07-system/venous-thromboembolism
     relation: connects-to
     note: "Repeated surgery raises the clot risk: the many operations for skin cancers, jaw cysts and any deeper tumors that Gorlin syndrome requires bring cumulative perioperative venous thromboembolism risk."
+  - target: 01-human/07-system/epilepsy
+    relation: connects-to
+    note: "Its CNS lesions can spark seizures: Gorlin syndrome causes falx calcification and predisposes to medulloblastoma, and these intracranial abnormalities can underlie seizures."
+  - target: 02-pathogen/03-fungi/aspergillus-fumigatus
+    relation: connects-to
+    note: "Medulloblastoma chemo opens the lung to mold: the ~5% of Gorlin patients who develop medulloblastoma need chemotherapy whose neutropenia can let inhaled Aspergillus invade."
+  - target: 01-human/07-system/generalized-anxiety-disorder
+    relation: connects-to
+    note: "Endless skin-cancer surveillance breeds worry: the lifelong development of new basal cell carcinomas, the need for sun and radiation avoidance and constant monitoring foster chronic health anxiety in Gorlin syndrome."
 ---
 
 # Gorlin Syndrome
@@ -366,6 +375,9 @@ Both are two-hit tumor suppressors: germline heterozygous LOF + somatic second h
 - `connects-to` → **[Wound Healing](../wound-healing/README.md)** — A lifetime of skin surgery scars the body: recurrent basal cell carcinomas demand endless excisions and grafts, and radiotherapy must be avoided because it triggers more tumors, so chronic surgical wounds and poor healing accumulate.
 - `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — Disfigurement and endless surveillance weigh on mood: the cumulative facial scarring from hundreds of basal cell carcinoma excisions and lifelong cancer surveillance give Gorlin syndrome a substantial psychological burden.
 - `connects-to` → **[Venous Thromboembolism](../venous-thromboembolism/README.md)** — Repeated surgery raises the clot risk: the many operations for skin cancers, jaw cysts and any deeper tumors that Gorlin syndrome requires bring cumulative perioperative venous thromboembolism risk.
+- `connects-to` → **[Epilepsy](../epilepsy/README.md)** — Its CNS lesions can spark seizures: Gorlin syndrome causes falx calcification and predisposes to medulloblastoma, and these intracranial abnormalities can underlie seizures.
+- `connects-to` → **[Aspergillus fumigatus](../../../02-pathogen/03-fungi/aspergillus-fumigatus/README.md)** — Medulloblastoma chemo opens the lung to mold: the ~5% of Gorlin patients who develop medulloblastoma need chemotherapy whose neutropenia can let inhaled Aspergillus invade.
+- `connects-to` → **[Generalized Anxiety Disorder](../generalized-anxiety-disorder/README.md)** — Endless skin-cancer surveillance breeds worry: the lifelong development of new basal cell carcinomas, the need for sun and radiation avoidance and constant monitoring foster chronic health anxiety in Gorlin syndrome.
 
 ---
 

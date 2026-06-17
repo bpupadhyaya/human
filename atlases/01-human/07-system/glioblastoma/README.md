@@ -196,6 +196,15 @@ cross_links:
   - target: 01-human/07-system/ckd
     relation: connects-to
     note: "Antiangiogenic therapy injures the kidney: bevacizumab used in recurrent glioblastoma causes hypertension and proteinuria with glomerular injury that can progress to chronic kidney disease."
+  - target: 01-human/07-system/type-2-diabetes
+    relation: connects-to
+    note: "Its steroids raise blood sugar: the high-dose dexamethasone used to control peritumoral edema in glioblastoma induces insulin resistance, frequently causing steroid-induced hyperglycemia and diabetes."
+  - target: 02-pathogen/03-fungi/aspergillus-fumigatus
+    relation: connects-to
+    note: "Temozolomide and steroids open the lung to mold: the lymphopenia from temozolomide plus prolonged dexamethasone deeply suppress immunity in glioblastoma, occasionally permitting invasive aspergillosis."
+  - target: 01-human/07-system/wound-healing
+    relation: connects-to
+    note: "Steroids and anti-VEGF therapy impair healing: chronic dexamethasone and the bevacizumab used for recurrent glioblastoma blunt the repair of craniotomy wounds, risking dehiscence."
 ---
 
 # Glioblastoma
@@ -385,6 +394,9 @@ The blood-brain barrier (BBB) creates a pharmacological challenge:
 - `connects-to` → **[Pneumocystis jirovecii](../../../02-pathogen/03-fungi/pneumocystis-jirovecii/README.md)** — Its therapy specifically courts it: the combination of temozolomide lymphopenia and prolonged dexamethasone in glioblastoma is a classic setup for Pneumocystis pneumonia, so prophylaxis is given during chemoradiation.
 - `connects-to` → **[Anemia of Chronic Disease](../anemia-of-chronic-disease/README.md)** — Chemo and chronic illness blunt the marrow: temozolomide myelosuppression plus the inflammatory burden of advanced glioblastoma depress erythropoiesis, contributing an anemia of chronic disease to treatment cytopenias.
 - `connects-to` → **[Chronic Kidney Disease](../ckd/README.md)** — Antiangiogenic therapy injures the kidney: bevacizumab used in recurrent glioblastoma causes hypertension and proteinuria with glomerular injury that can progress to chronic kidney disease.
+- `connects-to` → **[Type 2 Diabetes](../type-2-diabetes/README.md)** — Its steroids raise blood sugar: the high-dose dexamethasone used to control peritumoral edema in glioblastoma induces insulin resistance, frequently causing steroid-induced hyperglycemia and diabetes.
+- `connects-to` → **[Aspergillus fumigatus](../../../02-pathogen/03-fungi/aspergillus-fumigatus/README.md)** — Temozolomide and steroids open the lung to mold: the lymphopenia from temozolomide plus prolonged dexamethasone deeply suppress immunity in glioblastoma, occasionally permitting invasive aspergillosis.
+- `connects-to` → **[Wound Healing](../wound-healing/README.md)** — Steroids and anti-VEGF therapy impair healing: chronic dexamethasone and the bevacizumab used for recurrent glioblastoma blunt the repair of craniotomy wounds, risking dehiscence.
 
 ---
 
