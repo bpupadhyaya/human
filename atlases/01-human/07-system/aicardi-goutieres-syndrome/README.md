@@ -195,6 +195,15 @@ cross_links:
   - target: 01-human/07-system/anemia-of-chronic-disease
     relation: connects-to
     note: "Chronic interferon inflammation blunts the marrow: the relentless type I interferon signature of AGS, alongside its thrombocytopenia and cytopenias, can suppress erythropoiesis into an anemia of chronic disease."
+  - target: 02-pathogen/03-fungi/aspergillus-fumigatus
+    relation: connects-to
+    note: "Its JAK-inhibitor therapy opens the door to mold: baricitinib and other JAK inhibitors used to dampen the interferon signature of AGS suppress immunity, raising the risk of invasive infections such as aspergillosis."
+  - target: 01-human/07-system/type-1-diabetes
+    relation: connects-to
+    note: "Its interferon excess can attack the islets: as a type I interferonopathy with autoimmune features, AGS shares the interferon-driven mechanisms that destroy pancreatic beta cells in type 1 diabetes."
+  - target: 01-human/07-system/neuropathic-pain
+    relation: connects-to
+    note: "Its brain injury leaves the body in pain: the spasticity, dystonia and painful chilblains of AGS, on top of damaged sensory pathways, produce chronic neuropathic and nociceptive pain that is hard to control."
 ---
 
 # Aicardi-Goutières Syndrome
@@ -348,6 +357,9 @@ Severe early-onset AGS (TREX1 homozygous, RNASEH2A): death in childhood from res
 - `connects-to` → **[Pulmonary Arterial Hypertension](../pulmonary-arterial-hypertension/README.md)** — The interferon vasculopathy reaches the lungs: like other type I interferonopathies, AGS can damage the pulmonary vasculature, and pulmonary arterial hypertension is a recognized severe systemic manifestation.
 - `connects-to` → **[Chronic Kidney Disease](../ckd/README.md)** — Its lupus-overlap can scar the kidney: AGS sits on the interferonopathy-lupus spectrum and can feature an immune-complex glomerulonephritis that, over time, threatens chronic kidney disease.
 - `connects-to` → **[Anemia of Chronic Disease](../anemia-of-chronic-disease/README.md)** — Chronic interferon inflammation blunts the marrow: the relentless type I interferon signature of AGS, alongside its thrombocytopenia and cytopenias, can suppress erythropoiesis into an anemia of chronic disease.
+- `connects-to` → **[Aspergillus fumigatus](../../../02-pathogen/03-fungi/aspergillus-fumigatus/README.md)** — Its JAK-inhibitor therapy opens the door to mold: baricitinib and other JAK inhibitors used to dampen the interferon signature of AGS suppress immunity, raising the risk of invasive infections such as aspergillosis.
+- `connects-to` → **[Type 1 Diabetes](../type-1-diabetes/README.md)** — Its interferon excess can attack the islets: as a type I interferonopathy with autoimmune features, AGS shares the interferon-driven mechanisms that destroy pancreatic beta cells in type 1 diabetes.
+- `connects-to` → **[Neuropathic Pain](../neuropathic-pain/README.md)** — Its brain injury leaves the body in pain: the spasticity, dystonia and painful chilblains of AGS, on top of damaged sensory pathways, produce chronic neuropathic and nociceptive pain that is hard to control.
 
 ---
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
