@@ -184,6 +184,15 @@ cross_links:
   - target: 01-human/07-system/stroke
     relation: connects-to
     note: "Hyperuricemia is an independent vascular risk: beyond its joint disease, elevated urate promotes endothelial dysfunction and is associated with a raised risk of stroke, part of gout's broader cardiovascular shadow."
+  - target: 01-human/07-system/heart-failure
+    relation: connects-to
+    note: "Urate and the failing heart feed each other: hyperuricemia independently predicts heart failure and worsens its outcomes, while the disease and its diuretics raise urate — a bidirectional link in gout's cardiovascular burden."
+  - target: 01-human/07-system/sepsis
+    relation: connects-to
+    note: "A hot joint forces a critical question: acute gout closely mimics septic arthritis, which must be excluded by joint aspiration because a missed joint infection can seed sepsis, and tophi themselves can become infected."
+  - target: 01-human/07-system/venous-thromboembolism
+    relation: connects-to
+    note: "Gouty inflammation tips toward clotting: the systemic inflammation of gout and hyperuricemia is associated with a higher risk of venous thromboembolism, adding a venous dimension to its vascular complications."
 ---
 
 # Gout
@@ -332,6 +341,9 @@ The central mechanism linking MSU crystals to acute gouty arthritis is **NLRP3 i
 - `connects-to` → **[Insulin](../../03-molecular/insulin/README.md)** — Insulin resistance fuels hyperuricemia: high insulin tells the kidney to retain urate, so the hyperinsulinemia of metabolic syndrome raises uric acid into gout — one reason gout clusters with obesity and type 2 diabetes.
 - `connects-to` → **[Polycythemia Vera](../polycythemia-vera/README.md)** — High cell turnover overproduces urate: the expanded marrow of polycythemia vera and other myeloproliferative disease floods the blood with purines, causing a secondary gout that can be the presenting clue to the hematologic disorder.
 - `connects-to` → **[Stroke](../stroke/README.md)** — Hyperuricemia is an independent vascular risk: beyond its joint disease, elevated urate promotes endothelial dysfunction and is associated with a raised risk of stroke, part of gout's broader cardiovascular shadow.
+- `connects-to` → **[Heart Failure](../heart-failure/README.md)** — Urate and the failing heart feed each other: hyperuricemia independently predicts heart failure and worsens its outcomes, while the disease and its diuretics raise urate — a bidirectional link in gout's cardiovascular burden.
+- `connects-to` → **[Sepsis](../sepsis/README.md)** — A hot joint forces a critical question: acute gout closely mimics septic arthritis, which must be excluded by joint aspiration because a missed joint infection can seed sepsis, and tophi themselves can become infected.
+- `connects-to` → **[Venous Thromboembolism](../venous-thromboembolism/README.md)** — Gouty inflammation tips toward clotting: the systemic inflammation of gout and hyperuricemia is associated with a higher risk of venous thromboembolism, adding a venous dimension to its vascular complications.
 
 [^dalbeth-2019-gout-primer]: Dalbeth N, Choi HK, Joosten LAB, et al. Gout. *Nat Rev Dis Primers.* 2019;5(1):69. [doi:10.1038/s41572-019-0115-y](https://doi.org/10.1038/s41572-019-0115-y) · [PubMed 31558729](https://pubmed.ncbi.nlm.nih.gov/31558729/)
 [^martinon-2006-nlrp3-gout]: Martinon F, Pétrilli V, Mayor A, Tardivel A, Tschopp J. Gout-associated uric acid crystals activate the NALP3 inflammasome. *Nature.* 2006;440(7081):237-241. [doi:10.1038/nature04516](https://doi.org/10.1038/nature04516) · [PubMed 16407889](https://pubmed.ncbi.nlm.nih.gov/16407889/)

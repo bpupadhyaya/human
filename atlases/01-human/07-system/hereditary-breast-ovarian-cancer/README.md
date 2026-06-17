@@ -178,6 +178,15 @@ cross_links:
   - target: 01-human/03-molecular/myc
     relation: connects-to
     note: "MYC amplification drives the BRCA1 tumor: the basal-like, triple-negative breast cancers typical of BRCA1 carriers frequently amplify MYC, adding a proliferative push to the homologous-recombination defect."
+  - target: 01-human/07-system/venous-thromboembolism
+    relation: connects-to
+    note: "Its cancers and their treatment clot the blood: the breast and especially ovarian cancers of HBOC carriers are strongly prothrombotic, and the surgery and chemotherapy they require make venous thromboembolism a major hazard."
+  - target: 01-human/07-system/sepsis
+    relation: connects-to
+    note: "Chemo empties the marrow's defenses: the platinum and taxane regimens used against HBOC-related cancers cause neutropenia, so febrile neutropenia and sepsis are recurrent treatment dangers."
+  - target: 01-human/07-system/anemia-of-chronic-disease
+    relation: connects-to
+    note: "Cancer and chemo wear down the blood: the advanced ovarian and breast cancers of HBOC carriers, with their chronic inflammation and marrow-suppressing therapy, commonly cause an anemia of chronic disease."
 ---
 
 # Hereditary Breast and Ovarian Cancer
@@ -367,6 +376,9 @@ BRCA-mutant cells (HRD):
 - `connects-to` → **[Gastric Cancer](../gastric-cancer/README.md)** — BRCA2 widens the cancer net to the stomach: carriers, especially of BRCA2, face an increased risk of gastric cancer, one of the extra-breast/ovarian tumors that shape the surveillance of these families.
 - `connects-to` → **[AML](../aml/README.md)** — The therapy can end in leukemia: years of platinum chemotherapy and PARP-inhibitor maintenance occasionally cause therapy-related acute myeloid leukemia, the frank-leukemia end of the marrow damage these treatments inflict.
 - `connects-to` → **[MYC](../../03-molecular/myc/README.md)** — MYC amplification drives the BRCA1 tumor: the basal-like, triple-negative breast cancers typical of BRCA1 carriers frequently amplify MYC, adding a proliferative push to the homologous-recombination defect.
+- `connects-to` → **[Venous Thromboembolism](../venous-thromboembolism/README.md)** — Its cancers and their treatment clot the blood: the breast and especially ovarian cancers of HBOC carriers are strongly prothrombotic, and the surgery and chemotherapy they require make venous thromboembolism a major hazard.
+- `connects-to` → **[Sepsis](../sepsis/README.md)** — Chemo empties the marrow's defenses: the platinum and taxane regimens used against HBOC-related cancers cause neutropenia, so febrile neutropenia and sepsis are recurrent treatment dangers.
+- `connects-to` → **[Anemia of Chronic Disease](../anemia-of-chronic-disease/README.md)** — Cancer and chemo wear down the blood: the advanced ovarian and breast cancers of HBOC carriers, with their chronic inflammation and marrow-suppressing therapy, commonly cause an anemia of chronic disease.
 
 ---
 
