@@ -193,6 +193,15 @@ cross_links:
   - target: 01-human/03-molecular/stat3
     relation: connects-to
     note: "The virus exploits host signaling: HIV manipulates STAT3 and JAK-STAT pathways in infected cells to favor its persistence and the chronic immune activation that smolders even under treatment."
+  - target: 02-pathogen/03-fungi/candida-albicans
+    relation: connects-to
+    note: "A telltale early opportunist: oral and esophageal candidiasis is one of the commonest infections as HIV erodes CD4 T-cells, often the first clinical clue to underlying immunodeficiency."
+  - target: 02-pathogen/01-viruses/epstein-barr-virus
+    relation: connects-to
+    note: "Loss of T-cell control lets EBV drive cancer: with HIV immunosuppression, unchecked Epstein-Barr virus fuels B-cell lymphomas including primary CNS lymphoma and Burkitt and Hodgkin lymphoma."
+  - target: 01-human/07-system/major-depressive-disorder
+    relation: connects-to
+    note: "It burdens the mind directly and indirectly: HIV causes depression through neuroinflammation and direct CNS effects as well as the stigma, chronic illness and isolation of living with the infection."
 ---
 
 # HIV
@@ -386,6 +395,9 @@ The **latent reservoir** — HIV integrated into quiescent resting memory CD4+ T
 - `connects-to` → **[Pneumocystis jirovecii](../../../02-pathogen/03-fungi/pneumocystis-jirovecii/README.md)** — It hands the lungs to an opportunist: as CD4 counts fall below 200, Pneumocystis jirovecii pneumonia becomes the classic AIDS-defining infection, the reason prophylaxis is started at that threshold.
 - `connects-to` → **[Toxoplasma gondii](../../../02-pathogen/04-parasites/toxoplasma-gondii/README.md)** — A latent parasite reawakens in the brain: with advanced immunosuppression, Toxoplasma gondii reactivates into the ring-enhancing brain abscesses of cerebral toxoplasmosis, a leading cause of AIDS-related focal neurological disease.
 - `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — The virus exploits host signaling: HIV manipulates STAT3 and JAK-STAT pathways in infected cells to favor its persistence and the chronic immune activation that smolders even under treatment.
+- `connects-to` → **[Candida albicans](../../../02-pathogen/03-fungi/candida-albicans/README.md)** — A telltale early opportunist: oral and esophageal candidiasis is one of the commonest infections as HIV erodes CD4 T-cells, often the first clinical clue to underlying immunodeficiency.
+- `connects-to` → **[Epstein-Barr Virus](../../../02-pathogen/01-viruses/epstein-barr-virus/README.md)** — Loss of T-cell control lets EBV drive cancer: with HIV immunosuppression, unchecked Epstein-Barr virus fuels B-cell lymphomas including primary CNS lymphoma and Burkitt and Hodgkin lymphoma.
+- `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — It burdens the mind directly and indirectly: HIV causes depression through neuroinflammation and direct CNS effects as well as the stigma, chronic illness and isolation of living with the infection.
 
 [^barre-sinoussi-1983-hiv-isolation]: Barré-Sinoussi F, Chermann JC, Rey F, et al. Isolation of a T-lymphotropic retrovirus from a patient at risk for acquired immune deficiency syndrome (AIDS). *Science.* 1983;220(4599):868-871. [doi:10.1126/science.6189183](https://doi.org/10.1126/science.6189183) · [PubMed 6189183](https://pubmed.ncbi.nlm.nih.gov/6189183/)
 [^ho-1995-viral-dynamics]: Ho DD, Neumann AU, Perelson AS, et al. Rapid turnover of plasma virions and CD4 lymphocytes in HIV-1 infection. *Nature.* 1995;373(6510):123-126. [doi:10.1038/373123a0](https://doi.org/10.1038/373123a0) · [PubMed 7816094](https://pubmed.ncbi.nlm.nih.gov/7816094/)

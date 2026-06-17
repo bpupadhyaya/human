@@ -184,6 +184,15 @@ cross_links:
   - target: 01-human/07-system/anemia-of-chronic-disease
     relation: connects-to
     note: "Chronic liver disease and cancer blunt the marrow: the inflammation of HCC and its underlying cirrhosis raises hepcidin and cytokines that suppress erythropoiesis, layering an anemia of chronic disease onto any bleeding or hypersplenism."
+  - target: 01-human/07-system/ckd
+    relation: connects-to
+    note: "The failing liver drags the kidney down: advanced HCC and its cirrhosis precipitate hepatorenal syndrome, and the VEGF-targeted kinase inhibitors used to treat it add nephrotoxicity, together threatening chronic kidney disease."
+  - target: 01-human/07-system/hypertension
+    relation: connects-to
+    note: "Its targeted drugs spike the pressure: the antiangiogenic kinase inhibitors sorafenib and lenvatinib, mainstays of advanced HCC therapy, cause prominent hypertension as an on-target VEGF-pathway effect."
+  - target: 01-human/07-system/major-depressive-disorder
+    relation: connects-to
+    note: "Cancer atop chronic liver disease weighs on mood: a poor-prognosis diagnosis layered on the fatigue and stigma of cirrhosis and viral hepatitis gives HCC a substantial burden of depression."
 ---
 
 # Hepatocellular Carcinoma
@@ -377,6 +386,9 @@ In high-risk patients (cirrhosis, HBV regardless of cirrhosis): ultrasound ± AF
 - `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — IL-6 drives the inflamed liver to cancer through STAT3: chronic hepatitis raises IL-6, whose STAT3 signaling pushes hepatocyte survival and proliferation — a central link from inflammation to hepatocellular carcinoma.
 - `connects-to` → **[Sepsis](../sepsis/README.md)** — The cirrhotic liver beneath it invites infection: most HCC arises in cirrhosis, where impaired immunity and bacterial translocation make spontaneous bacterial peritonitis and sepsis frequent, life-threatening events.
 - `connects-to` → **[Anemia of Chronic Disease](../anemia-of-chronic-disease/README.md)** — Chronic liver disease and cancer blunt the marrow: the inflammation of HCC and its underlying cirrhosis raises hepcidin and cytokines that suppress erythropoiesis, layering an anemia of chronic disease onto any bleeding or hypersplenism.
+- `connects-to` → **[Chronic Kidney Disease](../ckd/README.md)** — The failing liver drags the kidney down: advanced HCC and its cirrhosis precipitate hepatorenal syndrome, and the VEGF-targeted kinase inhibitors used to treat it add nephrotoxicity, together threatening chronic kidney disease.
+- `connects-to` → **[Hypertension](../hypertension/README.md)** — Its targeted drugs spike the pressure: the antiangiogenic kinase inhibitors sorafenib and lenvatinib, mainstays of advanced HCC therapy, cause prominent hypertension as an on-target VEGF-pathway effect.
+- `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — Cancer atop chronic liver disease weighs on mood: a poor-prognosis diagnosis layered on the fatigue and stigma of cirrhosis and viral hepatitis gives HCC a substantial burden of depression.
 
 [^llovet-2008-sorafenib]: Llovet JM, Ricci S, Mazzaferro V, et al. Sorafenib in advanced hepatocellular carcinoma. *N Engl J Med.* 2008;359(4):378-390. [doi:10.1056/NEJMoa0708857](https://doi.org/10.1056/NEJMoa0708857) · [PubMed 18650514](https://pubmed.ncbi.nlm.nih.gov/18650514/)
 [^finn-2020-imbrave150]: Finn RS, Qin S, Ikeda M, et al. Atezolizumab plus bevacizumab in unresectable hepatocellular carcinoma. *N Engl J Med.* 2020;382(20):1894-1905. [doi:10.1056/NEJMoa1915745](https://doi.org/10.1056/NEJMoa1915745) · [PubMed 32402160](https://pubmed.ncbi.nlm.nih.gov/32402160/)
