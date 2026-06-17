@@ -187,6 +187,15 @@ cross_links:
   - target: 01-human/07-system/ckd
     relation: connects-to
     note: "Ifosfamide scars the young kidney: the alkylator central to many rhabdomyosarcoma regimens is tubulotoxic, causing a Fanconi-type tubulopathy and lasting chronic kidney impairment in treated children."
+  - target: 01-human/07-system/heart-failure
+    relation: connects-to
+    note: "Its anthracyclines and alkylators strain the heart: doxorubicin in high-risk rhabdomyosarcoma and high-dose cyclophosphamide are cardiotoxic, risking a cardiomyopathy and heart failure that can surface during childhood-cancer survivorship."
+  - target: 02-pathogen/03-fungi/aspergillus-fumigatus
+    relation: connects-to
+    note: "Intensive chemotherapy opens the lung to mold: the deep neutropenia from rhabdomyosarcoma's multi-agent regimens lets inhaled Aspergillus invade as pulmonary aspergillosis in these young patients."
+  - target: 01-human/07-system/major-depressive-disorder
+    relation: connects-to
+    note: "A childhood cancer and its long therapy strain the mind: the diagnosis in children and teens, disfiguring surgery and prolonged treatment contribute to depression and distress in patients and families."
 ---
 
 # Rhabdomyosarcoma
@@ -371,6 +380,9 @@ Maximal safe resection with negative margins (R0) wherever achievable without mu
 - `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — An activating receptor signals through it: FGFR4 mutations recurrent in rhabdomyosarcoma drive STAT3 activation that promotes survival and proliferation, marking the pathway as a candidate target in fusion-positive disease.
 - `connects-to` → **[AML](../aml/README.md)** — Its cure can seed a later leukemia: the alkylators and topoisomerase poisons in the VAC backbone carry a small risk of therapy-related acute myeloid leukemia years after rhabdomyosarcoma treatment.
 - `connects-to` → **[Chronic Kidney Disease](../ckd/README.md)** — Ifosfamide scars the young kidney: the alkylator central to many rhabdomyosarcoma regimens is tubulotoxic, causing a Fanconi-type tubulopathy and lasting chronic kidney impairment in treated children.
+- `connects-to` → **[Heart Failure](../heart-failure/README.md)** — Its anthracyclines and alkylators strain the heart: doxorubicin in high-risk rhabdomyosarcoma and high-dose cyclophosphamide are cardiotoxic, risking a cardiomyopathy and heart failure that can surface during childhood-cancer survivorship.
+- `connects-to` → **[Aspergillus fumigatus](../../../02-pathogen/03-fungi/aspergillus-fumigatus/README.md)** — Intensive chemotherapy opens the lung to mold: the deep neutropenia from rhabdomyosarcoma's multi-agent regimens lets inhaled Aspergillus invade as pulmonary aspergillosis in these young patients.
+- `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — A childhood cancer and its long therapy strain the mind: the diagnosis in children and teens, disfiguring surgery and prolonged treatment contribute to depression and distress in patients and families.
 
 [^crist-2001-irs4-rms]: Crist WM, Anderson JR, Meza JL, et al. Intergroup rhabdomyosarcoma study-IV: results for patients with nonmetastatic disease. *J Clin Oncol.* 2001;19(12):3091-3102. [doi:10.1200/JCO.2001.19.12.3091](https://doi.org/10.1200/JCO.2001.19.12.3091) · [PubMed 11408506](https://pubmed.ncbi.nlm.nih.gov/11408506/)
 [^oberlin-2012-mmt95-rms]: Oberlin O, Rey A, Sanchez de Toledo J, et al. Randomized comparison of intensified six-drug versus standard three-drug chemotherapy for high-risk nonmetastatic rhabdomyosarcoma and other chemotherapy-sensitive childhood soft tissue sarcomas. *J Clin Oncol.* 2012;30(19):2457-2465. [doi:10.1200/JCO.2011.39.3538](https://doi.org/10.1200/JCO.2011.39.3538) · [PubMed 22665546](https://pubmed.ncbi.nlm.nih.gov/22665546/)

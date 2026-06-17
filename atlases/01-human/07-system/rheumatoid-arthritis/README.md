@@ -193,6 +193,15 @@ cross_links:
   - target: 02-pathogen/01-viruses/hepatitis-b-virus
     relation: connects-to
     note: "Immunosuppression can reactivate it: rituximab and TNF inhibitors used in RA can reawaken occult hepatitis B, so serologic screening and antiviral prophylaxis precede these therapies to avert a flare."
+  - target: 02-pathogen/03-fungi/aspergillus-fumigatus
+    relation: connects-to
+    note: "Combined immunosuppression opens the lung to mold: corticosteroids stacked on biologics or JAK inhibitors for RA deeply blunt immunity, occasionally letting inhaled Aspergillus invade as pulmonary aspergillosis."
+  - target: 01-human/07-system/major-depressive-disorder
+    relation: connects-to
+    note: "Chronic pain and disability press on mood: the relentless joint pain, fatigue and functional loss of RA, amplified by its inflammatory cytokines acting on the brain, give it markedly elevated rates of depression."
+  - target: 01-human/07-system/venous-thromboembolism
+    relation: connects-to
+    note: "Inflammation and its JAK inhibitors raise the clot risk: active RA is a hypercoagulable, prothrombotic state, and the JAK inhibitors used to treat it carry a recognized signal for venous thromboembolism."
 ---
 
 # Rheumatoid Arthritis
@@ -393,6 +402,9 @@ RA patients have:
 - `connects-to` → **[Tuberculosis](../tuberculosis/README.md)** — Its biologics can wake latent TB: TNF-α inhibitors disable the granuloma that walls off Mycobacterium tuberculosis, so RA patients are screened and treated for latent infection before starting therapy to prevent reactivation.
 - `connects-to` → **[Pneumocystis jirovecii](../../../02-pathogen/03-fungi/pneumocystis-jirovecii/README.md)** — Combination immunosuppression opens the lung to it: methotrexate plus steroids or biologics in RA can drop T-cell defenses enough for Pneumocystis pneumonia, sometimes warranting prophylaxis in high-intensity regimens.
 - `connects-to` → **[Hepatitis B Virus](../../../02-pathogen/01-viruses/hepatitis-b-virus/README.md)** — Immunosuppression can reactivate it: rituximab and TNF inhibitors used in RA can reawaken occult hepatitis B, so serologic screening and antiviral prophylaxis precede these therapies to avert a flare.
+- `connects-to` → **[Aspergillus fumigatus](../../../02-pathogen/03-fungi/aspergillus-fumigatus/README.md)** — Combined immunosuppression opens the lung to mold: corticosteroids stacked on biologics or JAK inhibitors for RA deeply blunt immunity, occasionally letting inhaled Aspergillus invade as pulmonary aspergillosis.
+- `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — Chronic pain and disability press on mood: the relentless joint pain, fatigue and functional loss of RA, amplified by its inflammatory cytokines acting on the brain, give it markedly elevated rates of depression.
+- `connects-to` → **[Venous Thromboembolism](../venous-thromboembolism/README.md)** — Inflammation and its JAK inhibitors raise the clot risk: active RA is a hypercoagulable, prothrombotic state, and the JAK inhibitors used to treat it carry a recognized signal for venous thromboembolism.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
