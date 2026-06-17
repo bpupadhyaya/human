@@ -190,6 +190,15 @@ cross_links:
   - target: 01-human/07-system/insomnia-disorder
     relation: connects-to
     note: "Sleep is broken on many fronts: pain, spasticity, nocturia and depression fragment sleep in MS, so insomnia is common and deepens the fatigue that is among the disease's most pervasive complaints."
+  - target: 01-human/07-system/osteoporosis
+    relation: connects-to
+    note: "Immobility, steroids and low vitamin D thin the bone: reduced mobility, repeated corticosteroid courses for relapses and the vitamin D deficiency tied to MS itself accelerate bone loss and fracture risk."
+  - target: 02-pathogen/03-fungi/pneumocystis-jirovecii
+    relation: connects-to
+    note: "Its potent therapies open the lung: the immunosuppressive disease-modifying drugs and steroids used in MS can drop T-cell defenses enough to risk Pneumocystis pneumonia, weighed during high-intensity treatment."
+  - target: 01-human/07-system/epilepsy
+    relation: connects-to
+    note: "Cortical lesions can spark seizures: demyelinating plaques reaching the cerebral cortex make seizures and epilepsy several-fold more common in MS than in the general population."
 ---
 
 # Multiple Sclerosis
@@ -357,6 +366,9 @@ MS affects approximately **2.8 million people worldwide** (~1 million in the US)
 - `connects-to` → **[NF-κB](../../03-molecular/nf-kb/README.md)** — NF-κB sits at the genetic heart of MS: several MS risk variants converge on NF-κB signaling, the pathway through which activated T cells and microglia drive the inflammatory demyelination of the disease.
 - `connects-to` → **[Sepsis](../sepsis/README.md)** — A neurogenic bladder opens the way to deadly infection: urinary retention from spinal-cord lesions causes recurrent UTIs, and urosepsis — worsened by immunosuppressive disease-modifying therapy — is a leading cause of death in advanced MS.
 - `connects-to` → **[Insomnia Disorder](../insomnia-disorder/README.md)** — Sleep is broken on many fronts: pain, spasticity, nocturia and depression fragment sleep in MS, so insomnia is common and deepens the fatigue that is among the disease's most pervasive complaints.
+- `connects-to` → **[Osteoporosis](../osteoporosis/README.md)** — Immobility, steroids and low vitamin D thin the bone: reduced mobility, repeated corticosteroid courses for relapses and the vitamin D deficiency tied to MS itself accelerate bone loss and fracture risk.
+- `connects-to` → **[Pneumocystis jirovecii](../../../02-pathogen/03-fungi/pneumocystis-jirovecii/README.md)** — Its potent therapies open the lung: the immunosuppressive disease-modifying drugs and steroids used in MS can drop T-cell defenses enough to risk Pneumocystis pneumonia, weighed during high-intensity treatment.
+- `connects-to` → **[Epilepsy](../epilepsy/README.md)** — Cortical lesions can spark seizures: demyelinating plaques reaching the cerebral cortex make seizures and epilepsy several-fold more common in MS than in the general population.
 
 [^compston-2008-ms-review]: Compston A, Coles A. Multiple sclerosis. *Lancet.* 2008;372(9648):1502-1517. [doi:10.1016/S0140-6736(08)61620-7](https://doi.org/10.1016/S0140-6736(08)61620-7) · [PubMed 18970977](https://pubmed.ncbi.nlm.nih.gov/18970977/)
 [^kappos-2006-natalizumab]: Polman CH, O'Connor PW, Havrdova E, et al. A randomized, placebo-controlled trial of natalizumab for relapsing multiple sclerosis. *N Engl J Med.* 2006;354(9):899-910. [doi:10.1056/NEJMoa044397](https://doi.org/10.1056/NEJMoa044397) · [PubMed 16510744](https://pubmed.ncbi.nlm.nih.gov/16510744/)

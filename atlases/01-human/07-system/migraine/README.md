@@ -193,6 +193,15 @@ cross_links:
   - target: 01-human/07-system/asthma
     relation: connects-to
     note: "Two episodic inflammatory disorders travel together: migraine and asthma co-occur more than chance, sharing mast-cell and inflammatory biology, and asthma predicts the progression of episodic migraine to chronic."
+  - target: 01-human/07-system/ckd
+    relation: connects-to
+    note: "Overusing painkillers scars the kidney: the chronic NSAID and combination-analgesic use of frequent migraine can cause analgesic nephropathy, a slow interstitial injury that progresses to chronic kidney disease."
+  - target: 01-human/07-system/social-anxiety-disorder
+    relation: connects-to
+    note: "Unpredictable attacks breed social fear: migraine carries elevated rates of social anxiety, as the fear of being struck by disabling head pain in public fosters avoidance, sharing serotonergic dysregulation."
+  - target: 01-human/07-system/obsessive-compulsive-disorder
+    relation: connects-to
+    note: "Shared serotonergic wiring links them: OCD is over-represented among people with migraine, the two sharing serotonin-system dysregulation that underlies both the headache and the intrusive-thought disorder."
 ---
 
 # Migraine
@@ -388,6 +397,9 @@ Episodic migraine (EM, <15 headache days/month) transforms to **chronic migraine
 - `connects-to` → **[NF-κB](../../03-molecular/nf-kb/README.md)** — Neurogenic inflammation runs on NF-κB: activation of the trigeminovascular system releases CGRP and triggers NF-κB-driven cytokine production in the meninges, the sterile neuroinflammation that sustains a migraine attack.
 - `connects-to` → **[Panic Disorder](../panic-disorder/README.md)** — Headache and panic keep close company: panic disorder is far more common in people with migraine, the two sharing serotonergic and autonomic dysregulation that makes each more frequent and harder to treat.
 - `connects-to` → **[Asthma](../asthma/README.md)** — Two episodic inflammatory disorders travel together: migraine and asthma co-occur more than chance, sharing mast-cell and inflammatory biology, and asthma predicts the progression of episodic migraine to chronic.
+- `connects-to` → **[Chronic Kidney Disease](../ckd/README.md)** — Overusing painkillers scars the kidney: the chronic NSAID and combination-analgesic use of frequent migraine can cause analgesic nephropathy, a slow interstitial injury that progresses to chronic kidney disease.
+- `connects-to` → **[Social Anxiety Disorder](../social-anxiety-disorder/README.md)** — Unpredictable attacks breed social fear: migraine carries elevated rates of social anxiety, as the fear of being struck by disabling head pain in public fosters avoidance, sharing serotonergic dysregulation.
+- `connects-to` → **[Obsessive-Compulsive Disorder](../obsessive-compulsive-disorder/README.md)** — Shared serotonergic wiring links them: OCD is over-represented among people with migraine, the two sharing serotonin-system dysregulation that underlies both the headache and the intrusive-thought disorder.
 
 [^gbd-2016-migraine-burden]: GBD 2016 Headache Collaborators. Global, regional, and national burden of migraine and tension-type headache, 1990-2016. *Lancet Neurol.* 2018;17(11):954-976. [doi:10.1016/S1474-4422(18)30322-3](https://doi.org/10.1016/S1474-4422(18)30322-3) · [PubMed 30353868](https://pubmed.ncbi.nlm.nih.gov/30353868/)
 [^goadsby-2002-migraine-review]: Goadsby PJ, Lipton RB, Ferrari MD. Migraine — current understanding and treatment. *N Engl J Med.* 2002;346(4):257-270. [doi:10.1056/NEJMra010917](https://doi.org/10.1056/NEJMra010917) · [PubMed 11807151](https://pubmed.ncbi.nlm.nih.gov/11807151/)
