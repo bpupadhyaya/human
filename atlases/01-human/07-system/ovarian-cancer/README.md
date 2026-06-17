@@ -187,6 +187,15 @@ cross_links:
   - target: 01-human/07-system/anemia-of-chronic-disease
     relation: connects-to
     note: "Chronic disease and chemo drain the blood: the inflammatory cytokines of ovarian cancer and its marrow-suppressing platinum chemotherapy produce a prominent anemia of chronic disease."
+  - target: 01-human/07-system/osteoporosis
+    relation: connects-to
+    note: "Removing the ovaries strips away bone-protective estrogen: surgical oophorectomy and chemotherapy throw younger patients into abrupt menopause, and the loss of estrogen accelerates bone loss toward osteoporosis."
+  - target: 01-human/07-system/heart-failure
+    relation: connects-to
+    note: "Its liposomal anthracycline can weaken the heart: pegylated liposomal doxorubicin, widely used in recurrent ovarian cancer, carries cumulative cardiotoxicity that can erode cardiac function into heart failure."
+  - target: 01-human/07-system/major-depressive-disorder
+    relation: connects-to
+    note: "Late diagnosis and high relapse weigh on mood: ovarian cancer's frequent advanced-stage presentation, repeated recurrences and abrupt surgical menopause contribute to substantial depression and anxiety."
 ---
 
 # Ovarian Cancer
@@ -359,6 +368,9 @@ FTSEC ciliated and secretory cells line the Fallopian tube; secretory cells are 
 - `connects-to` → **[NF-κB](../../03-molecular/nf-kb/README.md)** — The inflamed peritoneal milieu runs on NF-κB: ovarian cancer's ascites is rich in cytokines that activate NF-κB, driving the tumor-cell survival, chemoresistance and immune evasion behind its peritoneal spread.
 - `connects-to` → **[Chronic Kidney Disease](../ckd/README.md)** — Pelvic disease and platinum strain the kidneys: bulky tumor obstructing the ureters causes hydronephrosis, and the cisplatin used to treat ovarian cancer is nephrotoxic — together a real risk of chronic kidney disease.
 - `connects-to` → **[Anemia of Chronic Disease](../anemia-of-chronic-disease/README.md)** — Chronic disease and chemo drain the blood: the inflammatory cytokines of ovarian cancer and its marrow-suppressing platinum chemotherapy produce a prominent anemia of chronic disease.
+- `connects-to` → **[Osteoporosis](../osteoporosis/README.md)** — Removing the ovaries strips away bone-protective estrogen: surgical oophorectomy and chemotherapy throw younger patients into abrupt menopause, and the loss of estrogen accelerates bone loss toward osteoporosis.
+- `connects-to` → **[Heart Failure](../heart-failure/README.md)** — Its liposomal anthracycline can weaken the heart: pegylated liposomal doxorubicin, widely used in recurrent ovarian cancer, carries cumulative cardiotoxicity that can erode cardiac function into heart failure.
+- `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — Late diagnosis and high relapse weigh on mood: ovarian cancer's frequent advanced-stage presentation, repeated recurrences and abrupt surgical menopause contribute to substantial depression and anxiety.
 
 [^burger-2011-gog0218]: Burger RA, Brady MF, Bookman MA, et al. Incorporation of bevacizumab in the primary treatment of ovarian cancer. *N Engl J Med.* 2011;365(26):2473-2483. [doi:10.1056/NEJMoa1104390](https://doi.org/10.1056/NEJMoa1104390) · [PubMed 22204724](https://pubmed.ncbi.nlm.nih.gov/22204724/)
 [^moore-2018-olaparib-solo1]: Moore K, Colombo N, Scambia G, et al. Maintenance olaparib in patients with newly diagnosed advanced ovarian cancer. *N Engl J Med.* 2018;379(26):2495-2505. [doi:10.1056/NEJMoa1810858](https://doi.org/10.1056/NEJMoa1810858) · [PubMed 30345884](https://pubmed.ncbi.nlm.nih.gov/30345884/)
