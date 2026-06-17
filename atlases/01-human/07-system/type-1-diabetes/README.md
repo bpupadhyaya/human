@@ -196,6 +196,15 @@ cross_links:
   - target: 01-human/07-system/major-depressive-disorder
     relation: connects-to
     note: "The relentless self-management weighs on mood: the lifelong burden of carbohydrate counting, injections and fear of hypoglycemia gives type 1 diabetes a high rate of depression and diabetes distress."
+  - target: 01-human/07-system/heart-failure
+    relation: connects-to
+    note: "Decades of glucose injury weaken the heart: type 1 diabetes accelerates coronary disease and causes a diabetic cardiomyopathy through microvascular damage and metabolic stress, routes toward heart failure over a lifetime."
+  - target: 01-human/07-system/osteoporosis
+    relation: connects-to
+    note: "It builds a more fragile skeleton: insulin's loss removes a bone-anabolic signal, so type 1 diabetes is associated with lower bone mineral density and a markedly elevated fracture risk."
+  - target: 02-pathogen/03-fungi/aspergillus-fumigatus
+    relation: connects-to
+    note: "Ketoacidosis and high glucose invite invasive mold: poorly controlled type 1 diabetes, especially in ketoacidosis, impairs neutrophil function and predisposes to invasive fungal infections such as aspergillosis and mucormycosis."
 ---
 
 # Type 1 Diabetes
@@ -351,6 +360,9 @@ cross_links:
 - `connects-to` → **[Candida albicans](../../../02-pathogen/03-fungi/candida-albicans/README.md)** — Sugar-rich tissue invites the yeast: glucose in blood and urine plus impaired immunity favor Candida overgrowth, so recurrent vulvovaginal, oral and skin-fold candidiasis often flags poor glycemic control.
 - `connects-to` → **[Stroke](../stroke/README.md)** — Decades of high sugar damage the arteries: type 1 diabetes accelerates atherosclerosis from a young age, and the resulting large-vessel disease raises the lifetime risk of ischemic stroke.
 - `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — The relentless self-management weighs on mood: the lifelong burden of carbohydrate counting, injections and fear of hypoglycemia gives type 1 diabetes a high rate of depression and diabetes distress.
+- `connects-to` → **[Heart Failure](../heart-failure/README.md)** — Decades of glucose injury weaken the heart: type 1 diabetes accelerates coronary disease and causes a diabetic cardiomyopathy through microvascular damage and metabolic stress, routes toward heart failure over a lifetime.
+- `connects-to` → **[Osteoporosis](../osteoporosis/README.md)** — It builds a more fragile skeleton: insulin's loss removes a bone-anabolic signal, so type 1 diabetes is associated with lower bone mineral density and a markedly elevated fracture risk.
+- `connects-to` → **[Aspergillus fumigatus](../../../02-pathogen/03-fungi/aspergillus-fumigatus/README.md)** — Ketoacidosis and high glucose invite invasive mold: poorly controlled type 1 diabetes, especially in ketoacidosis, impairs neutrophil function and predisposes to invasive fungal infections such as aspergillosis and mucormycosis.
 
 [^atkinson-2014-t1d-lancet]: Atkinson MA, Eisenbarth GS, Michels AW. Type 1 diabetes. *Lancet.* 2014;383(9911):69-82. [doi:10.1016/S0140-6736(13)60591-7](https://doi.org/10.1016/S0140-6736(13)60591-7) · [PubMed 23890997](https://pubmed.ncbi.nlm.nih.gov/23890997/)
 [^herold-2019-teplizumab-t1d]: Herold KC, Bundy BN, Long SA, et al. An anti-CD3 antibody, teplizumab, in relatives at risk for type 1 diabetes. *N Engl J Med.* 2019;381(7):603-613. [doi:10.1056/NEJMoa1905155](https://doi.org/10.1056/NEJMoa1905155) · [PubMed 31180675](https://pubmed.ncbi.nlm.nih.gov/31180675/)

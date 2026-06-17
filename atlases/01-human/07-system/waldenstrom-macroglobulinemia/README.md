@@ -190,6 +190,15 @@ cross_links:
   - target: 02-pathogen/03-fungi/pneumocystis-jirovecii
     relation: connects-to
     note: "B-cell-directed therapy opens the lung: rituximab and BTK inhibitors used in Waldenström deplete immune defenses enough to risk Pneumocystis pneumonia, sometimes warranting prophylaxis during treatment."
+  - target: 02-pathogen/03-fungi/aspergillus-fumigatus
+    relation: connects-to
+    note: "Its BTK-inhibitor therapy admits invasive mold: ibrutinib, a mainstay for Waldenström, impairs macrophage and neutrophil antifungal defense, with a recognized risk of invasive aspergillosis."
+  - target: 01-human/07-system/heart-failure
+    relation: connects-to
+    note: "Ibrutinib and hyperviscosity stress the heart: the BTK inhibitor central to Waldenström causes atrial fibrillation and cardiotoxicity, and the IgM-driven hyperviscosity raises high-output cardiac strain toward heart failure."
+  - target: 01-human/07-system/major-depressive-disorder
+    relation: connects-to
+    note: "A chronic, incurable lymphoma weighs on mood: the indolent but relapsing course, lifelong monitoring and treatment burden of Waldenström contribute to depression and reduced quality of life."
 ---
 
 # Waldenström Macroglobulinemia
@@ -365,6 +374,9 @@ For symptomatic hyperviscosity → removes IgM immediately; does not treat under
 - `connects-to` → **[Venous Thromboembolism](../venous-thromboembolism/README.md)** — Thick IgM-laden blood clots and bleeds: the hyperviscosity of Waldenström both impairs flow and, with its cancer-associated hypercoagulability, raises venous thromboembolism risk even as paraprotein can paradoxically cause bleeding.
 - `connects-to` → **[Chronic Kidney Disease](../ckd/README.md)** — The IgM paraprotein can injure the kidney: deposition of monoclonal IgM and cryoglobulins in the glomeruli, plus hyperviscosity, can damage renal function and progress toward chronic kidney disease.
 - `connects-to` → **[Pneumocystis jirovecii](../../../02-pathogen/03-fungi/pneumocystis-jirovecii/README.md)** — B-cell-directed therapy opens the lung: rituximab and BTK inhibitors used in Waldenström deplete immune defenses enough to risk Pneumocystis pneumonia, sometimes warranting prophylaxis during treatment.
+- `connects-to` → **[Aspergillus fumigatus](../../../02-pathogen/03-fungi/aspergillus-fumigatus/README.md)** — Its BTK-inhibitor therapy admits invasive mold: ibrutinib, a mainstay for Waldenström, impairs macrophage and neutrophil antifungal defense, with a recognized risk of invasive aspergillosis.
+- `connects-to` → **[Heart Failure](../heart-failure/README.md)** — Ibrutinib and hyperviscosity stress the heart: the BTK inhibitor central to Waldenström causes atrial fibrillation and cardiotoxicity, and the IgM-driven hyperviscosity raises high-output cardiac strain toward heart failure.
+- `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — A chronic, incurable lymphoma weighs on mood: the indolent but relapsing course, lifelong monitoring and treatment burden of Waldenström contribute to depression and reduced quality of life.
 
 [^treon-2015-ibrutinib-wm]: Treon SP, Tripsas CK, Meid K, et al. Ibrutinib in previously treated Waldenström's macroglobulinemia. *N Engl J Med.* 2015;373(18):1765-1774. [doi:10.1056/NEJMoa1501548](https://doi.org/10.1056/NEJMoa1501548) · [PubMed 26352686](https://pubmed.ncbi.nlm.nih.gov/26352686/)
 [^tam-2020-aspen]: Tam CS, Opat S, D'Sa S, et al. A randomized phase 3 trial of zanubrutinib vs ibrutinib in symptomatic Waldenström macroglobulinemia: the ASPEN study. *Blood.* 2020;136(18):2038-2050. [doi:10.1182/blood.2020006844](https://doi.org/10.1182/blood.2020006844) · [PubMed 32828187](https://pubmed.ncbi.nlm.nih.gov/32828187/)
