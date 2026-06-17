@@ -199,6 +199,15 @@ cross_links:
   - target: 01-human/07-system/stroke
     relation: connects-to
     note: "It can inflame the brain's vessels: ANCA vasculitis occasionally involves the cerebral circulation, causing ischemic or hemorrhagic stroke as part of its central nervous system disease."
+  - target: 02-pathogen/03-fungi/pneumocystis-jirovecii
+    relation: connects-to
+    note: "Its induction therapy opens the lung: the cyclophosphamide, rituximab and high-dose steroids used to control ANCA vasculitis deplete T-cell defenses, so Pneumocystis prophylaxis is standard during remission induction."
+  - target: 01-human/07-system/anemia-of-chronic-disease
+    relation: connects-to
+    note: "Inflammation and renal disease blunt the marrow: the systemic inflammation of active ANCA vasculitis raises hepcidin while its glomerulonephritis cuts erythropoietin, together producing an anemia of chronic disease."
+  - target: 01-human/07-system/major-depressive-disorder
+    relation: connects-to
+    note: "A relapsing multisystem disease weighs on mood: the chronic, unpredictable course, organ damage and toxic immunosuppression of ANCA vasculitis carry a substantial burden of depression."
 ---
 
 # ANCA Vasculitis
@@ -391,6 +400,9 @@ EGPA is mechanistically distinct — eosinophils, not neutrophils, mediate tissu
 - `connects-to` → **[NF-κB](../../03-molecular/nf-kb/README.md)** — ANCA-primed neutrophils run on NF-κB: cytokine priming activates NF-κB in neutrophils, which then degranulate when ANCA binds their surface PR3 and MPO, driving the explosive small-vessel inflammation of the disease.
 - `connects-to` → **[Sepsis](../sepsis/README.md)** — Treatment trades vasculitis for infection: the cyclophosphamide, rituximab and high-dose steroids that induce remission leave patients severely immunosuppressed, so infection and sepsis are a leading cause of death — and a mimic of relapse.
 - `connects-to` → **[Stroke](../stroke/README.md)** — It can inflame the brain's vessels: ANCA vasculitis occasionally involves the cerebral circulation, causing ischemic or hemorrhagic stroke as part of its central nervous system disease.
+- `connects-to` → **[Pneumocystis jirovecii](../../../02-pathogen/03-fungi/pneumocystis-jirovecii/README.md)** — Its induction therapy opens the lung: the cyclophosphamide, rituximab and high-dose steroids used to control ANCA vasculitis deplete T-cell defenses, so Pneumocystis prophylaxis is standard during remission induction.
+- `connects-to` → **[Anemia of Chronic Disease](../anemia-of-chronic-disease/README.md)** — Inflammation and renal disease blunt the marrow: the systemic inflammation of active ANCA vasculitis raises hepcidin while its glomerulonephritis cuts erythropoietin, together producing an anemia of chronic disease.
+- `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — A relapsing multisystem disease weighs on mood: the chronic, unpredictable course, organ damage and toxic immunosuppression of ANCA vasculitis carry a substantial burden of depression.
 
 [^yates-2022-anca-review]: Yates M, Watts RA, Bajema IM, et al. EULAR/ERA-EDTA recommendations for the management of ANCA-associated vasculitis. *Ann Rheum Dis.* 2016;75(9):1583-1594. [doi:10.1136/annrheumdis-2016-209133](https://doi.org/10.1136/annrheumdis-2016-209133) · [PubMed 27338776](https://pubmed.ncbi.nlm.nih.gov/27338776/)
 [^stone-2010-rituximab-gpa-rave]: Stone JH, Merkel PA, Spiera R, et al. Rituximab versus cyclophosphamide for ANCA-associated vasculitis. *N Engl J Med.* 2010;363(3):221-232. [doi:10.1056/NEJMoa0909905](https://doi.org/10.1056/NEJMoa0909905) · [PubMed 20647199](https://pubmed.ncbi.nlm.nih.gov/20647199/)

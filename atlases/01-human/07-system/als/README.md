@@ -196,6 +196,15 @@ cross_links:
   - target: 01-human/07-system/insomnia-disorder
     relation: connects-to
     note: "Nights are broken by failing muscles: nocturnal hypoventilation, the inability to reposition, cramps and anxiety fragment sleep in ALS, so insomnia is common and worsens daytime fatigue and breathlessness."
+  - target: 01-human/07-system/osteoporosis
+    relation: connects-to
+    note: "Disuse and falls weaken the skeleton: progressive immobility and reduced weight-bearing in ALS drive bone loss, while the falls of failing limbs make osteoporotic fractures a real hazard."
+  - target: 01-human/07-system/generalized-anxiety-disorder
+    relation: connects-to
+    note: "Watching the body fail breeds dread: the relentless progression of paralysis and the fear of suffocation give ALS a heavy burden of anxiety alongside its depression."
+  - target: 01-human/07-system/ckd
+    relation: connects-to
+    note: "Swallowing failure dries out the kidneys: dysphagia limits fluid intake while immobility and recurrent illness add prerenal stress, so chronic dehydration can erode renal function in advanced ALS."
 ---
 
 # ALS
@@ -395,6 +404,9 @@ ALS diagnosis is **clinical** — no single definitive biomarker test (though Nf
 - `connects-to` → **[NF-κB](../../03-molecular/nf-kb/README.md)** — Microglia inflame the dying motor neurons through NF-κB: misfolded proteins activate NF-κB in microglia, driving the cytokine output and NLRP3 priming that turn neuroinflammation into a driver of motor-neuron death.
 - `connects-to` → **[Sepsis](../sepsis/README.md)** — Bulbar weakness routes food into the lungs: failing swallow and cough cause aspiration pneumonia, which together with ventilator dependence makes infection and sepsis a frequent terminal event in ALS.
 - `connects-to` → **[Insomnia Disorder](../insomnia-disorder/README.md)** — Nights are broken by failing muscles: nocturnal hypoventilation, the inability to reposition, cramps and anxiety fragment sleep in ALS, so insomnia is common and worsens daytime fatigue and breathlessness.
+- `connects-to` → **[Osteoporosis](../osteoporosis/README.md)** — Disuse and falls weaken the skeleton: progressive immobility and reduced weight-bearing in ALS drive bone loss, while the falls of failing limbs make osteoporotic fractures a real hazard.
+- `connects-to` → **[Generalized Anxiety Disorder](../generalized-anxiety-disorder/README.md)** — Watching the body fail breeds dread: the relentless progression of paralysis and the fear of suffocation give ALS a heavy burden of anxiety alongside its depression.
+- `connects-to` → **[Chronic Kidney Disease](../ckd/README.md)** — Swallowing failure dries out the kidneys: dysphagia limits fluid intake while immobility and recurrent illness add prerenal stress, so chronic dehydration can erode renal function in advanced ALS.
 
 [^brown-2017-als-review]: Brown RH, Al-Chalabi A. Amyotrophic lateral sclerosis. *N Engl J Med.* 2017;377(2):162-172. [doi:10.1056/NEJMra1603471](https://doi.org/10.1056/NEJMra1603471) · [PubMed 28700839](https://pubmed.ncbi.nlm.nih.gov/28700839/)
 [^edaravone-als-2017]: Writing Group, Edaravone ALS 19 Study Group. Safety and efficacy of edaravone in well defined patients with amyotrophic lateral sclerosis. *Lancet Neurol.* 2017;16(7):505-512. [doi:10.1016/S1474-4422(17)30115-1](https://doi.org/10.1016/S1474-4422(17)30115-1) · [PubMed 28522180](https://pubmed.ncbi.nlm.nih.gov/28522180/)
