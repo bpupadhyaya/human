@@ -178,6 +178,15 @@ cross_links:
   - target: 01-human/07-system/venous-thromboembolism
     relation: connects-to
     note: "Cancer and major surgery raise the clot risk: an established diffuse gastric cancer and the total gastrectomy that treats it both predispose to venous thromboembolism, needing perioperative prophylaxis."
+  - target: 01-human/03-molecular/stat3
+    relation: connects-to
+    note: "Inflammation accelerates the E-cadherin-deficient stomach: IL-6/STAT3 signaling in the gastric mucosa adds a proliferative push to the loss of cell-cell adhesion from germline CDH1 inactivation that drives diffuse gastric cancer."
+  - target: 01-human/07-system/sepsis
+    relation: connects-to
+    note: "Prophylactic gastrectomy carries surgical risk: CDH1 carriers often undergo risk-reducing total gastrectomy, whose anastomotic leak and infection can seed intra-abdominal sepsis."
+  - target: 01-human/07-system/anemia-of-chronic-disease
+    relation: connects-to
+    note: "Loss of the stomach drains the blood in many ways: beyond tumor bleeding and B12 malabsorption after gastrectomy, the inflammatory cytokines of the cancer add an anemia of chronic disease."
 ---
 
 # Hereditary Diffuse Gastric Cancer
@@ -339,6 +348,9 @@ Testing for CDH1 (and CTNNA1) is indicated in any of the following:
 - `connects-to` → **[Iron Deficiency Anemia](../iron-deficiency-anemia/README.md)** — The stomach's loss costs iron: bleeding from diffuse gastric cancer, and the prophylactic total gastrectomy that prevents it, both cause iron (and B12) deficiency anemia, a lasting consequence carriers manage for life.
 - `connects-to` → **[CDKN2A](../../03-molecular/cdkn2a/README.md)** — A second hit speeds the cancer: beyond the germline CDH1 loss, cooperating mutations such as CDKN2A inactivation help diffuse gastric cancer progress, part of the somatic events layered on the inherited defect.
 - `connects-to` → **[Venous Thromboembolism](../venous-thromboembolism/README.md)** — Cancer and major surgery raise the clot risk: an established diffuse gastric cancer and the total gastrectomy that treats it both predispose to venous thromboembolism, needing perioperative prophylaxis.
+- `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — Inflammation accelerates the E-cadherin-deficient stomach: IL-6/STAT3 signaling in the gastric mucosa adds a proliferative push to the loss of cell-cell adhesion from germline CDH1 inactivation that drives diffuse gastric cancer.
+- `connects-to` → **[Sepsis](../sepsis/README.md)** — Prophylactic gastrectomy carries surgical risk: CDH1 carriers often undergo risk-reducing total gastrectomy, whose anastomotic leak and infection can seed intra-abdominal sepsis.
+- `connects-to` → **[Anemia of Chronic Disease](../anemia-of-chronic-disease/README.md)** — Loss of the stomach drains the blood in many ways: beyond tumor bleeding and B12 malabsorption after gastrectomy, the inflammatory cytokines of the cancer add an anemia of chronic disease.
 
 [^van-der-post-2015-hdgc-guidelines]: van der Post RS, Vogelaar IP, Carneiro F, et al. Hereditary diffuse gastric cancer: updated clinical guidelines with an emphasis on germline CDH1 mutation carriers. *J Med Genet.* 2015;52(6):361-374. [doi:10.1136/jmedgenet-2015-103094](https://doi.org/10.1136/jmedgenet-2015-103094) · [PubMed 25979631](https://pubmed.ncbi.nlm.nih.gov/25979631/)
 [^hansford-2015-hdgc]: Hansford S, Kaurah P, Li-Chang H, et al. Hereditary Diffuse Gastric Cancer Syndrome: CDH1 Mutations and Beyond. *JAMA Oncol.* 2015;1(1):23-32. [doi:10.1001/jamaoncol.2014.168](https://doi.org/10.1001/jamaoncol.2014.168) · [PubMed 26182300](https://pubmed.ncbi.nlm.nih.gov/26182300/)
