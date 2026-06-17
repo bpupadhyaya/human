@@ -204,6 +204,15 @@ cross_links:
   - target: 01-human/07-system/major-depressive-disorder
     relation: connects-to
     note: "Chronic disabling weakness weighs on mood: the relapsing numbness, weakness and dependence of CIDP, plus the side effects of long-term immunotherapy, carry a substantial burden of depression."
+  - target: 01-human/07-system/wound-healing
+    relation: connects-to
+    note: "Numb, weak limbs break down: the sensory loss and weakness of CIDP lead to unnoticed injuries and immobility, and steroid therapy slows the healing of the resulting wounds and ulcers."
+  - target: 02-pathogen/03-fungi/aspergillus-fumigatus
+    relation: connects-to
+    note: "Its immunotherapy opens the lung to mold: the corticosteroids and immunosuppressants used to control CIDP blunt immunity, occasionally permitting invasive aspergillosis."
+  - target: 01-human/07-system/stroke
+    relation: connects-to
+    note: "Its IVIG can thicken the blood: the intravenous immunoglobulin used to treat CIDP raises blood viscosity and carries a recognized risk of thromboembolic events including stroke."
 ---
 
 # CIDP
@@ -408,6 +417,9 @@ IgG4 anti-NF155 or anti-CNTN1 disrupts this complex → paranodal loop detachmen
 - `connects-to` → **[Osteoporosis](../osteoporosis/README.md)** — Chronic steroids and immobility thin the bone: the prolonged corticosteroids used to control CIDP, combined with reduced mobility from limb weakness, accelerate bone loss and raise fracture risk.
 - `connects-to` → **[Chronic Kidney Disease](../ckd/README.md)** — Its IVIG can injure the kidney: high-dose intravenous immunoglobulin, a mainstay of CIDP treatment, can cause an osmotic acute kidney injury, and repeated courses risk lasting renal impairment.
 - `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — Chronic disabling weakness weighs on mood: the relapsing numbness, weakness and dependence of CIDP, plus the side effects of long-term immunotherapy, carry a substantial burden of depression.
+- `connects-to` → **[Wound Healing](../wound-healing/README.md)** — Numb, weak limbs break down: the sensory loss and weakness of CIDP lead to unnoticed injuries and immobility, and steroid therapy slows the healing of the resulting wounds and ulcers.
+- `connects-to` → **[Aspergillus fumigatus](../../../02-pathogen/03-fungi/aspergillus-fumigatus/README.md)** — Its immunotherapy opens the lung to mold: the corticosteroids and immunosuppressants used to control CIDP blunt immunity, occasionally permitting invasive aspergillosis.
+- `connects-to` → **[Stroke](../stroke/README.md)** — Its IVIG can thicken the blood: the intravenous immunoglobulin used to treat CIDP raises blood viscosity and carries a recognized risk of thromboembolic events including stroke.
 
 ---
 

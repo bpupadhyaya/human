@@ -196,6 +196,15 @@ cross_links:
   - target: 01-human/07-system/anemia-of-chronic-disease
     relation: connects-to
     note: "Advanced disease blunts the marrow: locally aggressive or metastatic chordoma with its inflammatory burden, compounded by major surgery and radiation, can produce an anemia of chronic disease."
+  - target: 01-human/07-system/wound-healing
+    relation: connects-to
+    note: "Its radical resections heal poorly: the extensive skull-base and sacral surgery for chordoma, often with prior or adjuvant radiation, leaves complex wounds prone to dehiscence, CSF leak and slow healing."
+  - target: 01-human/07-system/stroke
+    relation: connects-to
+    note: "Skull-base tumor encircles the great vessels: clival chordomas encase the carotid and basilar arteries, and tumor or its surgery can compromise these vessels, risking ischemic stroke."
+  - target: 01-human/07-system/ckd
+    relation: connects-to
+    note: "Sacral tumor disrupts the bladder: a sacral chordoma damages the nerves controlling the bladder, and the resulting neurogenic bladder with recurrent infection and obstruction can injure the kidneys over time."
 ---
 
 # Chordoma
@@ -390,6 +399,9 @@ CDKN2A deletion in ~30-40% → CDK4/6 hyperactivation → RB1 phosphorylation; p
 - `connects-to` → **[Osteoporosis](../osteoporosis/README.md)** — It destroys bone and its radiation weakens more: chordoma erodes the sacrum and clivus directly, while the high-dose proton/photon radiation used to control it causes osteoradionecrosis and insufficiency fractures.
 - `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — Relentless pain and a poor cure weigh on mood: chronic neuropathic pain, disfiguring skull-base surgery, bowel-bladder dysfunction and high recurrence give chordoma a substantial psychological burden.
 - `connects-to` → **[Anemia of Chronic Disease](../anemia-of-chronic-disease/README.md)** — Advanced disease blunts the marrow: locally aggressive or metastatic chordoma with its inflammatory burden, compounded by major surgery and radiation, can produce an anemia of chronic disease.
+- `connects-to` → **[Wound Healing](../wound-healing/README.md)** — Its radical resections heal poorly: the extensive skull-base and sacral surgery for chordoma, often with prior or adjuvant radiation, leaves complex wounds prone to dehiscence, CSF leak and slow healing.
+- `connects-to` → **[Stroke](../stroke/README.md)** — Skull-base tumor encircles the great vessels: clival chordomas encase the carotid and basilar arteries, and tumor or its surgery can compromise these vessels, risking ischemic stroke.
+- `connects-to` → **[Chronic Kidney Disease](../ckd/README.md)** — Sacral tumor disrupts the bladder: a sacral chordoma damages the nerves controlling the bladder, and the resulting neurogenic bladder with recurrent infection and obstruction can injure the kidneys over time.
 
 ---
 
