@@ -184,6 +184,15 @@ cross_links:
   - target: 01-human/04-cellular/t-helper-cell
     relation: connects-to
     note: "Sleep tunes adaptive immunity: deep sleep supports helper T-cell function and immune memory, so chronic insomnia blunts T-cell responses and weakens vaccine protection and infection defense."
+  - target: 01-human/03-molecular/nf-kb
+    relation: connects-to
+    note: "Lost sleep switches on inflammation: even partial sleep deprivation activates NF-κB in circulating immune cells, raising inflammatory cytokines — a molecular route from chronic insomnia to its cardiovascular and metabolic risk."
+  - target: 01-human/07-system/panic-disorder
+    relation: connects-to
+    note: "Sleeplessness and panic feed each other: insomnia both precedes and worsens panic disorder, with nighttime arousal and fear of nocturnal panic attacks fracturing sleep further."
+  - target: 01-human/07-system/ckd
+    relation: connects-to
+    note: "Failing kidneys steal sleep: insomnia is strikingly common in chronic kidney disease, driven by restless legs, pruritus, disturbed melatonin and the rhythm disruption of dialysis, and poor sleep in turn worsens outcomes."
 ---
 
 # Insomnia Disorder
@@ -376,6 +385,9 @@ CBT-I directly targets perpetuating factors.
 - `connects-to` → **[NLRP3 Inflammasome](../../03-molecular/nlrp3-inflammasome/README.md)** — Lost sleep lights an inflammatory fire: sleep deprivation activates the NLRP3 inflammasome and raises IL-1β and IL-6, the low-grade inflammation through which chronic insomnia feeds cardiovascular and metabolic disease.
 - `connects-to` → **[Stroke](../stroke/README.md)** — Sleeplessness wears on the brain's vessels: chronic insomnia and short sleep independently raise the risk of stroke through hypertension, inflammation and autonomic strain, beyond their toll on the heart.
 - `connects-to` → **[T Helper Cell](../../04-cellular/t-helper-cell/README.md)** — Sleep tunes adaptive immunity: deep sleep supports helper T-cell function and immune memory, so chronic insomnia blunts T-cell responses and weakens vaccine protection and infection defense.
+- `connects-to` → **[NF-κB](../../03-molecular/nf-kb/README.md)** — Lost sleep switches on inflammation: even partial sleep deprivation activates NF-κB in circulating immune cells, raising inflammatory cytokines — a molecular route from chronic insomnia to its cardiovascular and metabolic risk.
+- `connects-to` → **[Panic Disorder](../panic-disorder/README.md)** — Sleeplessness and panic feed each other: insomnia both precedes and worsens panic disorder, with nighttime arousal and fear of nocturnal panic attacks fracturing sleep further.
+- `connects-to` → **[Chronic Kidney Disease](../ckd/README.md)** — Failing kidneys steal sleep: insomnia is strikingly common in chronic kidney disease, driven by restless legs, pruritus, disturbed melatonin and the rhythm disruption of dialysis, and poor sleep in turn worsens outcomes.
 
 [^riemann-2017-insomnia-lancet]: Riemann D, Baglioni C, Bassetti C, et al. European guideline for the diagnosis and treatment of insomnia. *J Sleep Res.* 2017;26(6):675-700. [doi:10.1111/jsr.12594](https://doi.org/10.1111/jsr.12594) · [PubMed 28875581](https://pubmed.ncbi.nlm.nih.gov/28875581/)
 [^trauer-2015-cbti-meta]: Trauer JM, Qian MY, Doyle JS, et al. Cognitive behavioral therapy for chronic insomnia. *Ann Intern Med.* 2015;163(3):191-204. [doi:10.7326/M14-2841](https://doi.org/10.7326/M14-2841) · [PubMed 26054060](https://pubmed.ncbi.nlm.nih.gov/26054060/)

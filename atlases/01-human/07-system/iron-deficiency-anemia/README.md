@@ -174,6 +174,15 @@ cross_links:
   - target: 01-human/04-cellular/neutrophil
     relation: connects-to
     note: "Defense needs iron too: iron is required for neutrophils' oxidative burst and proliferation, so iron deficiency subtly impairs these front-line cells — even as withholding iron is itself a defense against bacteria."
+  - target: 01-human/07-system/nervous-system
+    relation: connects-to
+    note: "The brain runs short on iron too: iron is needed for myelination and dopamine synthesis, so deficiency impairs cognition and attention in children and drives restless legs syndrome in adults."
+  - target: 01-human/04-cellular/cardiomyocyte
+    relation: connects-to
+    note: "It strains and starves the heart muscle: chronic anemia forces a high-output state while iron deficiency itself impairs cardiomyocyte mitochondrial energetics, which is why iron repletion improves symptoms in heart failure."
+  - target: 01-human/07-system/venous-thromboembolism
+    relation: connects-to
+    note: "Low iron can paradoxically clot: iron deficiency triggers a reactive thrombocytosis and is a recognized risk factor for venous thromboembolism, including the unusual cerebral venous sinus thrombosis."
 ---
 
 # Iron Deficiency Anemia
@@ -346,6 +355,9 @@ Iron is essential for:
 - `connects-to` → **[Esophageal Cancer](../esophageal-cancer/README.md)** — Chronic iron lack can scar the swallowing tube: Plummer-Vinson syndrome pairs long-standing iron deficiency with esophageal webs and dysphagia, a premalignant state that raises the risk of esophageal squamous cell carcinoma.
 - `connects-to` → **[Giardia lamblia](../../../02-pathogen/04-parasites/giardia-lamblia/README.md)** — A gut parasite can starve the body of iron: Giardia and other intestinal infections damage the absorptive lining and cause malabsorption, a common cause of iron deficiency where these infections are endemic.
 - `connects-to` → **[Neutrophil](../../04-cellular/neutrophil/README.md)** — Defense needs iron too: iron is required for neutrophils' oxidative burst and proliferation, so iron deficiency subtly impairs these front-line cells — even as withholding iron is itself a defense against bacteria.
+- `connects-to` → **[Nervous System](../nervous-system/README.md)** — The brain runs short on iron too: iron is needed for myelination and dopamine synthesis, so deficiency impairs cognition and attention in children and drives restless legs syndrome in adults.
+- `connects-to` → **[Cardiomyocyte](../../04-cellular/cardiomyocyte/README.md)** — It strains and starves the heart muscle: chronic anemia forces a high-output state while iron deficiency itself impairs cardiomyocyte mitochondrial energetics, which is why iron repletion improves symptoms in heart failure.
+- `connects-to` → **[Venous Thromboembolism](../venous-thromboembolism/README.md)** — Low iron can paradoxically clot: iron deficiency triggers a reactive thrombocytosis and is a recognized risk factor for venous thromboembolism, including the unusual cerebral venous sinus thrombosis.
 
 [^camaschella-2015-iron-deficiency]: Camaschella C. Iron-deficiency anemia. *N Engl J Med.* 2015;372(19):1832-1843. [doi:10.1056/NEJMra1401038](https://doi.org/10.1056/NEJMra1401038) · [PubMed 25946282](https://pubmed.ncbi.nlm.nih.gov/25946282/)
 [^who-ferritin-guideline-2020]: World Health Organization. WHO guideline on use of ferritin concentrations to assess iron status in individuals and populations. WHO; 2020. [WHO publication](https://www.who.int/publications/i/item/9789240000124)
