@@ -178,6 +178,15 @@ cross_links:
   - target: 01-human/07-system/tuberous-sclerosis-complex
     relation: connects-to
     note: "It belongs to the multi-organ hamartoma syndromes: like tuberous sclerosis, Carney complex is an autosomal-dominant disorder that seeds tumors across many organs, demanding the same lifelong multi-system surveillance approach."
+  - target: 01-human/03-molecular/nf-kb
+    relation: connects-to
+    note: "Runaway PKA cross-talks with NF-κB: PRKAR1A loss unleashes constitutive PKA signaling that interacts with NF-κB and other survival pathways in the syndrome's endocrine and myxomatous tumors."
+  - target: 01-human/07-system/melanoma
+    relation: connects-to
+    note: "Pigmented lesions are a hallmark: Carney complex is marked by lentigines, blue nevi and melanocytic schwannomas, a heavy melanocytic-lesion burden that warrants vigilance for melanoma among its skin findings."
+  - target: 01-human/07-system/venous-thromboembolism
+    relation: connects-to
+    note: "Heart tumors and their surgery threaten clots: the recurrent cardiac myxomas of Carney complex can throw emboli and require repeated open-heart operations, raising the risk of perioperative thrombosis and embolism."
 ---
 
 # Carney Complex
@@ -353,6 +362,9 @@ PRKAR1A somatic LOH occurs in ~15-20% of sporadic adrenocortical adenomas and ca
 - `connects-to` → **[Heart Failure](../heart-failure/README.md)** — The cardiac myxoma can obstruct the heart: large atrial myxomas in Carney complex block valve inflow and cause heart failure or syncope, which—with their tendency to embolize and recur—is why they are resected and the heart surveyed lifelong.
 - `connects-to` → **[Ovarian Cancer](../ovarian-cancer/README.md)** — Carney reaches the gonads: women develop ovarian cysts and tumors as part of the syndrome's broad endocrine-tumor spectrum, so pelvic surveillance accompanies the cardiac and adrenal monitoring.
 - `connects-to` → **[Tuberous Sclerosis Complex](../tuberous-sclerosis-complex/README.md)** — It belongs to the multi-organ hamartoma syndromes: like tuberous sclerosis, Carney complex is an autosomal-dominant disorder that seeds tumors across many organs, demanding the same lifelong multi-system surveillance approach.
+- `connects-to` → **[NF-κB](../../03-molecular/nf-kb/README.md)** — Runaway PKA cross-talks with NF-κB: PRKAR1A loss unleashes constitutive PKA signaling that interacts with NF-κB and other survival pathways in the syndrome's endocrine and myxomatous tumors.
+- `connects-to` → **[Melanoma](../melanoma/README.md)** — Pigmented lesions are a hallmark: Carney complex is marked by lentigines, blue nevi and melanocytic schwannomas, a heavy melanocytic-lesion burden that warrants vigilance for melanoma among its skin findings.
+- `connects-to` → **[Venous Thromboembolism](../venous-thromboembolism/README.md)** — Heart tumors and their surgery threaten clots: the recurrent cardiac myxomas of Carney complex can throw emboli and require repeated open-heart operations, raising the risk of perioperative thrombosis and embolism.
 
 ---
 

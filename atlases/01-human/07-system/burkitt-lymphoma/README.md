@@ -178,6 +178,15 @@ cross_links:
   - target: 01-human/07-system/multiple-myeloma
     relation: connects-to
     note: "Two ends of the B-cell lineage: Burkitt is an aggressive germinal-center B-cell tumor while myeloma is a malignancy of terminal plasma cells, contrasting points on the maturation path that both rely on MYC dysregulation."
+  - target: 01-human/07-system/ckd
+    relation: connects-to
+    note: "The fastest tumor floods the kidneys when it dies: Burkitt's explosive proliferation gives it the highest tumor-lysis-syndrome risk of any cancer, releasing urate and phosphate that injure the kidneys into acute and sometimes chronic kidney disease."
+  - target: 01-human/07-system/disseminated-intravascular-coagulation
+    relation: connects-to
+    note: "Massive tumor turnover can ignite clotting: the high cell burden and rapid lysis of Burkitt lymphoma can release procoagulant material that triggers disseminated intravascular coagulation, especially around the start of chemotherapy."
+  - target: 01-human/07-system/venous-thromboembolism
+    relation: connects-to
+    note: "An aggressive lymphoma that clots: like other high-grade cancers, Burkitt raises venous thromboembolism risk through tumor-driven hypercoagulability, compounded by central venous catheters and immobility during intensive treatment."
 ---
 
 # Burkitt Lymphoma
@@ -366,6 +375,9 @@ FISH for MYC, BCL2, and BCL6 is essential; if BCL2 FISH negative and Ki-67 ~100%
 - `connects-to` → **[Sepsis](../sepsis/README.md)** — Cure comes at the cost of deep immunosuppression: the intensive multi-agent chemotherapy for Burkitt produces severe neutropenia, so febrile neutropenia and sepsis are among the leading treatment-related dangers.
 - `connects-to` → **[NF-κB](../../03-molecular/nf-kb/README.md)** — Burkitt is the NF-κB-independent lymphoma: unlike activated B-cell DLBCL it survives on tonic BCR/PI3K and MYC rather than chronic NF-κB signaling, a distinction that shapes which targeted therapies can work.
 - `connects-to` → **[Multiple Myeloma](../multiple-myeloma/README.md)** — Two ends of the B-cell lineage: Burkitt is an aggressive germinal-center B-cell tumor while myeloma is a malignancy of terminal plasma cells, contrasting points on the maturation path that both rely on MYC dysregulation.
+- `connects-to` → **[Chronic Kidney Disease](../ckd/README.md)** — The fastest tumor floods the kidneys when it dies: Burkitt's explosive proliferation gives it the highest tumor-lysis-syndrome risk of any cancer, releasing urate and phosphate that injure the kidneys into acute and sometimes chronic kidney disease.
+- `connects-to` → **[Disseminated Intravascular Coagulation](../disseminated-intravascular-coagulation/README.md)** — Massive tumor turnover can ignite clotting: the high cell burden and rapid lysis of Burkitt lymphoma can release procoagulant material that triggers disseminated intravascular coagulation, especially around the start of chemotherapy.
+- `connects-to` → **[Venous Thromboembolism](../venous-thromboembolism/README.md)** — An aggressive lymphoma that clots: like other high-grade cancers, Burkitt raises venous thromboembolism risk through tumor-driven hypercoagulability, compounded by central venous catheters and immobility during intensive treatment.
 
 ---
 
