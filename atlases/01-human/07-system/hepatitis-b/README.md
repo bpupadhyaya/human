@@ -201,6 +201,15 @@ cross_links:
   - target: 01-human/07-system/aplastic-anemia
     relation: connects-to
     note: "It can wipe out the marrow: hepatitis-associated aplastic anemia is a recognized, often severe complication in which an immune assault follows acute viral hepatitis to destroy hematopoietic stem cells."
+  - target: 01-human/07-system/digestive-system
+    relation: connects-to
+    note: "Cirrhosis wrecks the digestive organ: chronic hepatitis B scars the liver into cirrhosis with portal hypertension, oesophageal varices, ascites and the bleeding and malabsorption of advanced liver disease."
+  - target: 01-human/07-system/nervous-system
+    relation: connects-to
+    note: "A failing liver poisons the brain: as hepatitis B cirrhosis decompensates, ammonia and other toxins it can no longer clear accumulate, producing hepatic encephalopathy with confusion and coma."
+  - target: 01-human/07-system/generalized-anxiety-disorder
+    relation: connects-to
+    note: "A chronic, transmissible, cancer-linked infection breeds worry: the lifelong infection, HCC-surveillance and stigma of hepatitis B foster chronic health anxiety alongside depression."
 ---
 
 # Hepatitis B
@@ -397,3 +406,6 @@ HDV is a satellite RNA virus that requires HBsAg for virion assembly:
 - `connects-to` → **[Type 2 Diabetes](../type-2-diabetes/README.md)** — Chronic liver damage disturbs glucose: the insulin resistance of advancing fibrosis and cirrhosis produces hepatogenous diabetes, so chronic hepatitis B carries a raised risk of type 2 diabetes.
 - `connects-to` → **[Osteoporosis](../osteoporosis/README.md)** — Liver disease and its antivirals thin the bones: chronic hepatitis B causes hepatic osteodystrophy, and the widely used antiviral tenofovir disoproxil lowers bone mineral density, together raising osteoporosis risk.
 - `connects-to` → **[Aplastic Anemia](../aplastic-anemia/README.md)** — It can wipe out the marrow: hepatitis-associated aplastic anemia is a recognized, often severe complication in which an immune assault follows acute viral hepatitis to destroy hematopoietic stem cells.
+- `connects-to` → **[Digestive System](../digestive-system/README.md)** — Cirrhosis wrecks the digestive organ: chronic hepatitis B scars the liver into cirrhosis with portal hypertension, oesophageal varices, ascites and the bleeding and malabsorption of advanced liver disease.
+- `connects-to` → **[Nervous System](../nervous-system/README.md)** — A failing liver poisons the brain: as hepatitis B cirrhosis decompensates, ammonia and other toxins it can no longer clear accumulate, producing hepatic encephalopathy with confusion and coma.
+- `connects-to` → **[Generalized Anxiety Disorder](../generalized-anxiety-disorder/README.md)** — A chronic, transmissible, cancer-linked infection breeds worry: the lifelong infection, HCC-surveillance and stigma of hepatitis B foster chronic health anxiety alongside depression.

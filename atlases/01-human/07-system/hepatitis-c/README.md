@@ -201,6 +201,15 @@ cross_links:
   - target: 01-human/07-system/heart-failure
     relation: connects-to
     note: "The virus can injure the heart muscle: HCV is associated with myocarditis and a dilated cardiomyopathy, and its systemic inflammation contributes to cardiovascular disease that can progress to heart failure."
+  - target: 01-human/07-system/digestive-system
+    relation: connects-to
+    note: "Cirrhosis wrecks the digestive organ: chronic hepatitis C scars the liver into cirrhosis with portal hypertension, oesophageal varices, ascites and the bleeding and malabsorption of advanced liver disease."
+  - target: 01-human/07-system/integumentary-system
+    relation: connects-to
+    note: "It writes itself on the skin: hepatitis C is linked to porphyria cutanea tarda, lichen planus and the palpable purpura of cryoglobulinaemic vasculitis, distinctive cutaneous markers of the infection."
+  - target: 01-human/07-system/generalized-anxiety-disorder
+    relation: connects-to
+    note: "A chronic, cancer-linked infection breeds worry: even after cure, the cirrhosis, HCC-surveillance and past stigma of hepatitis C foster chronic health anxiety alongside its well-documented depression."
 ---
 
 # Hepatitis C
@@ -388,3 +397,6 @@ HCV cirrhosis → HCC risk 1–5% per year (annual ultrasound surveillance ± AF
 - `connects-to` → **[Neuropathic Pain](../neuropathic-pain/README.md)** — Cryoglobulins inflame the peripheral nerves: HCV-driven mixed cryoglobulinemia deposits immune complexes in the vasa nervorum, causing a painful peripheral neuropathy as a classic extrahepatic manifestation.
 - `connects-to` → **[Osteoporosis](../osteoporosis/README.md)** — Advanced liver disease weakens bone: chronic HCV and its cirrhosis cause hepatic osteodystrophy through impaired vitamin D metabolism and bone turnover, raising the risk of osteoporosis and fractures.
 - `connects-to` → **[Heart Failure](../heart-failure/README.md)** — The virus can injure the heart muscle: HCV is associated with myocarditis and a dilated cardiomyopathy, and its systemic inflammation contributes to cardiovascular disease that can progress to heart failure.
+- `connects-to` → **[Digestive System](../digestive-system/README.md)** — Cirrhosis wrecks the digestive organ: chronic hepatitis C scars the liver into cirrhosis with portal hypertension, oesophageal varices, ascites and the bleeding and malabsorption of advanced liver disease.
+- `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — It writes itself on the skin: hepatitis C is linked to porphyria cutanea tarda, lichen planus and the palpable purpura of cryoglobulinaemic vasculitis, distinctive cutaneous markers of the infection.
+- `connects-to` → **[Generalized Anxiety Disorder](../generalized-anxiety-disorder/README.md)** — A chronic, cancer-linked infection breeds worry: even after cure, the cirrhosis, HCC-surveillance and past stigma of hepatitis C foster chronic health anxiety alongside its well-documented depression.
