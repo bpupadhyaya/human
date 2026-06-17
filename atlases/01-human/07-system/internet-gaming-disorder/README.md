@@ -177,6 +177,15 @@ cross_links:
   - target: 01-human/07-system/borderline-personality-disorder
     relation: connects-to
     note: "Emotional dysregulation seeks the screen: gaming offers escape and reward for the unstable affect and emptiness of borderline personality disorder, and the two co-occur, each amplifying the other's avoidance of distress."
+  - target: 01-human/07-system/neuropathic-pain
+    relation: connects-to
+    note: "Long hours at the controller strain the nerves: the repetitive thumb and wrist use of prolonged gaming causes overuse injuries and median-nerve compression, producing carpal-tunnel-type neuropathic pain."
+  - target: 01-human/07-system/migraine
+    relation: connects-to
+    note: "Screens, strain and lost sleep trigger headaches: extended gaming with eye strain, poor posture and sleep deprivation is a common precipitant of tension-type headache and migraine."
+  - target: 01-human/07-system/osteoporosis
+    relation: connects-to
+    note: "A sedentary indoor life shortchanges bone: extreme gaming displaces weight-bearing activity and sunlight, and the inactivity, vitamin D deficiency and poor nutrition can blunt bone accrual during the formative years."
 sources:
   - id: kuss-2012-gaming-disorder-review
     type: peer-reviewed
@@ -404,6 +413,9 @@ A pattern of persistent or recurrent gaming behavior characterized by:
 - `connects-to` → **[Stroke](../stroke/README.md)** — Marathon sessions can prove deadly: prolonged immobile gaming with poor hydration risks venous clots and, in rare reported cases, fatal stroke or pulmonary embolism — the extreme physical end of the behavior.
 - `connects-to` → **[Panic Disorder](../panic-disorder/README.md)** — Withdrawal and overstimulation can spark panic: forced cessation triggers autonomic arousal, and the hyperstimulating, high-stakes nature of compulsive play feeds the autonomic dysregulation underlying panic attacks.
 - `connects-to` → **[Borderline Personality Disorder](../borderline-personality-disorder/README.md)** — Emotional dysregulation seeks the screen: gaming offers escape and reward for the unstable affect and emptiness of borderline personality disorder, and the two co-occur, each amplifying the other's avoidance of distress.
+- `connects-to` → **[Neuropathic Pain](../neuropathic-pain/README.md)** — Long hours at the controller strain the nerves: the repetitive thumb and wrist use of prolonged gaming causes overuse injuries and median-nerve compression, producing carpal-tunnel-type neuropathic pain.
+- `connects-to` → **[Migraine](../migraine/README.md)** — Screens, strain and lost sleep trigger headaches: extended gaming with eye strain, poor posture and sleep deprivation is a common precipitant of tension-type headache and migraine.
+- `connects-to` → **[Osteoporosis](../osteoporosis/README.md)** — A sedentary indoor life shortchanges bone: extreme gaming displaces weight-bearing activity and sunlight, and the inactivity, vitamin D deficiency and poor nutrition can blunt bone accrual during the formative years.
 
 [^kuss-2012-gaming-disorder-review]: Kuss DJ, Griffiths MD. Internet gaming addiction: a systematic review of empirical research. *Int J Ment Health Addict.* 2012;10(2):278-296. [doi:10.1007/s11469-011-9318-5](https://doi.org/10.1007/s11469-011-9318-5)
 [^who-icd11-gaming-disorder]: World Health Organization. ICD-11: Gaming Disorder (6C51). Geneva: WHO; 2019. [icd.who.int](https://icd.who.int/browse/2025-01/mms/en#1448597234)

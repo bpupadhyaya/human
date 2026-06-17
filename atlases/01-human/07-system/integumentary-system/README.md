@@ -188,6 +188,15 @@ cross_links:
   - target: 02-pathogen/03-fungi/aspergillus-fumigatus
     relation: connects-to
     note: "Broken skin lets the mold in directly: in burns, surgical wounds and immunocompromised patients, Aspergillus can establish a primary cutaneous infection at the breach, bypassing its usual respiratory route."
+  - target: 01-human/07-system/major-depressive-disorder
+    relation: connects-to
+    note: "Visible skin disease wounds the psyche: disfiguring or itchy conditions like psoriasis, eczema and acne carry high rates of depression, and stress in turn flares the skin — the basis of psychodermatology."
+  - target: 01-human/07-system/type-2-diabetes
+    relation: connects-to
+    note: "The skin announces metabolic disease: acanthosis nigricans, diabetic dermopathy, recurrent skin infections and impaired wound healing make the integument an early and telling window onto type 2 diabetes."
+  - target: 01-human/07-system/iron-deficiency-anemia
+    relation: connects-to
+    note: "Pallor and brittle nails betray low iron: the skin, nails and hair show iron deficiency through pallor, spoon-shaped koilonychia and hair loss, making the integument a visible readout of the body's iron stores."
 ---
 
 # Integumentary System
@@ -350,6 +359,9 @@ Wound healing is a precisely orchestrated process in four overlapping phases [^g
 - `connects-to` → **[Psoriatic Arthritis](../psoriatic-arthritis/README.md)** — Skin disease can spread to the joints: in a fraction of people with psoriasis of the skin, the same immune process attacks the joints as psoriatic arthritis, a skin-to-joint axis driven by shared IL-17/IL-23 inflammation.
 - `connects-to` → **[Dermatomyositis](../dermatomyositis/README.md)** — Its rash is a window onto systemic disease: the heliotrope eyelids and Gottron's papules of dermatomyositis are skin signs of an autoimmune myopathy, the integument flagging a deeper muscle and sometimes malignant process.
 - `connects-to` → **[Aspergillus fumigatus](../../../02-pathogen/03-fungi/aspergillus-fumigatus/README.md)** — Broken skin lets the mold in directly: in burns, surgical wounds and immunocompromised patients, Aspergillus can establish a primary cutaneous infection at the breach, bypassing its usual respiratory route.
+- `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — Visible skin disease wounds the psyche: disfiguring or itchy conditions like psoriasis, eczema and acne carry high rates of depression, and stress in turn flares the skin — the basis of psychodermatology.
+- `connects-to` → **[Type 2 Diabetes](../type-2-diabetes/README.md)** — The skin announces metabolic disease: acanthosis nigricans, diabetic dermopathy, recurrent skin infections and impaired wound healing make the integument an early and telling window onto type 2 diabetes.
+- `connects-to` → **[Iron-Deficiency Anemia](../iron-deficiency-anemia/README.md)** — Pallor and brittle nails betray low iron: the skin, nails and hair show iron deficiency through pallor, spoon-shaped koilonychia and hair loss, making the integument a visible readout of the body's iron stores.
 
 ## Pathology
 
