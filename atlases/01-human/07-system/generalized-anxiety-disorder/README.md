@@ -184,6 +184,15 @@ cross_links:
   - target: 01-human/07-system/hypertension
     relation: connects-to
     note: "Sustained alarm raises the pressure: the chronic sympathetic and cortisol drive of GAD keeps blood pressure elevated, one route by which long-term anxiety translates into cardiovascular disease."
+  - target: 01-human/03-molecular/nf-kb
+    relation: connects-to
+    note: "Chronic worry leaves an inflammatory mark: persistent stress in GAD activates NF-κB-driven cytokine signaling, the neuroinflammatory thread linking anxiety to its raised cardiovascular and metabolic risk."
+  - target: 01-human/07-system/nervous-system
+    relation: connects-to
+    note: "It is a disorder of the brain's threat circuitry: GAD reflects an overactive amygdala-driven fear network with weak prefrontal restraint, dysregulation of the nervous system's normal worry-and-safety balance."
+  - target: 01-human/07-system/cannabis-use-disorder
+    relation: connects-to
+    note: "People reach for cannabis to quiet the worry: GAD frequently co-occurs with cannabis use disorder, as users self-medicate anxiety even though heavy use and withdrawal can ultimately worsen it."
 ---
 
 # Generalized Anxiety Disorder
@@ -377,6 +386,9 @@ Allow **4-8 weeks** for onset of anxiolytic effect. Continue treatment ≥12 mon
 - `connects-to` → **[NLRP3 Inflammasome](../../03-molecular/nlrp3-inflammasome/README.md)** — Chronic stress inflames the brain: NLRP3 inflammasome activation in microglia releases IL-1β that disturbs the mood and fear circuits, part of the neuroinflammation increasingly tied to anxiety disorders.
 - `connects-to` → **[Oxytocin](../../03-molecular/oxytocin/README.md)** — A calming hormone opposes the worry: oxytocin dampens amygdala fear responses and buffers stress, the anxiolytic, social-bonding signal whose deficiency may leave the threat circuits of GAD unchecked.
 - `connects-to` → **[Hypertension](../hypertension/README.md)** — Sustained alarm raises the pressure: the chronic sympathetic and cortisol drive of GAD keeps blood pressure elevated, one route by which long-term anxiety translates into cardiovascular disease.
+- `connects-to` → **[NF-κB](../../03-molecular/nf-kb/README.md)** — Chronic worry leaves an inflammatory mark: persistent stress in GAD activates NF-κB-driven cytokine signaling, the neuroinflammatory thread linking anxiety to its raised cardiovascular and metabolic risk.
+- `connects-to` → **[Nervous System](../nervous-system/README.md)** — It is a disorder of the brain's threat circuitry: GAD reflects an overactive amygdala-driven fear network with weak prefrontal restraint, dysregulation of the nervous system's normal worry-and-safety balance.
+- `connects-to` → **[Cannabis Use Disorder](../cannabis-use-disorder/README.md)** — People reach for cannabis to quiet the worry: GAD frequently co-occurs with cannabis use disorder, as users self-medicate anxiety even though heavy use and withdrawal can ultimately worsen it.
 
 [^kessler-2005-gad-prevalence]: Kessler RC, Berglund P, Demler O, et al. Lifetime prevalence and age-of-onset distributions of DSM-IV disorders in the NCS Replication. *Arch Gen Psychiatry.* 2005;62(6):593-602. [doi:10.1001/archpsyc.62.6.593](https://doi.org/10.1001/archpsyc.62.6.593) · [PubMed 15939837](https://pubmed.ncbi.nlm.nih.gov/15939837/)
 [^bandelow-2015-anxiety-biology]: Bandelow B, Michaelis S. Epidemiology of anxiety disorders in the 21st century. *Dialogues Clin Neurosci.* 2015;17(3):327-335. [doi:10.31887/DCNS.2015.17.3/bbandelow](https://doi.org/10.31887/DCNS.2015.17.3/bbandelow) · [PubMed 26487812](https://pubmed.ncbi.nlm.nih.gov/26487812/)

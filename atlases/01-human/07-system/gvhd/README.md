@@ -181,6 +181,15 @@ cross_links:
   - target: 01-human/07-system/all
     relation: connects-to
     note: "It rides in with the leukemia cure: allogeneic transplant for acute lymphoblastic leukemia delivers a graft-versus-leukemia effect, but the same donor immunity that hunts residual blasts can turn against the host as GVHD."
+  - target: 01-human/03-molecular/nf-kb
+    relation: connects-to
+    note: "Tissue damage and alloantigen converge on NF-κB: conditioning injury and donor T-cell activation switch on NF-κB in host antigen-presenting cells and target tissues, amplifying the cytokine storm that drives acute GVHD."
+  - target: 01-human/03-molecular/stat3
+    relation: connects-to
+    note: "STAT3 steers the pathogenic T cells: downstream of IL-6 and IL-21, STAT3 drives the Th17 and effector responses central to GVHD, part of the JAK-STAT signaling that ruxolitinib targets in steroid-refractory disease."
+  - target: 01-human/07-system/sepsis
+    relation: connects-to
+    note: "It strips defenses and breaches the gut: the immunosuppression treating GVHD plus its destruction of the intestinal barrier let gut bacteria translocate, making infection and sepsis a leading cause of death."
 ---
 
 # Graft-Versus-Host Disease
@@ -373,6 +382,9 @@ The protective Treg/IL-10 axis is the key biological counterbalance to alloreact
 - `connects-to` → **[IFN-gamma](../../03-molecular/ifn-gamma/README.md)** — A donor-T-cell cytokine drives the attack: IFN-γ pours from activated donor T cells to license macrophages and damage host epithelium, a central effector of acute GVHD's gut, skin and liver injury.
 - `connects-to` → **[STAT1](../../03-molecular/stat1/README.md)** — The inflammatory signal travels through JAK-STAT: IFN and other cytokines act via STAT1 to amplify the alloimmune response, the pathway the JAK inhibitor ruxolitinib blocks to treat steroid-refractory GVHD.
 - `connects-to` → **[Acute Lymphoblastic Leukemia](../all/README.md)** — It rides in with the leukemia cure: allogeneic transplant for acute lymphoblastic leukemia delivers a graft-versus-leukemia effect, but the same donor immunity that hunts residual blasts can turn against the host as GVHD.
+- `connects-to` → **[NF-κB](../../03-molecular/nf-kb/README.md)** — Tissue damage and alloantigen converge on NF-κB: conditioning injury and donor T-cell activation switch on NF-κB in host antigen-presenting cells and target tissues, amplifying the cytokine storm that drives acute GVHD.
+- `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — STAT3 steers the pathogenic T cells: downstream of IL-6 and IL-21, STAT3 drives the Th17 and effector responses central to GVHD, part of the JAK-STAT signaling that ruxolitinib targets in steroid-refractory disease.
+- `connects-to` → **[Sepsis](../sepsis/README.md)** — It strips defenses and breaches the gut: the immunosuppression treating GVHD plus its destruction of the intestinal barrier let gut bacteria translocate, making infection and sepsis a leading cause of death.
 
 [^ferrara-2009-gvhd-review]: Ferrara JL, Levine JE, Reddy P, Holler E. Graft-versus-host disease. *Lancet.* 2009;373(9674):1550-1561. [doi:10.1016/S0140-6736(09)60237-3](https://doi.org/10.1016/S0140-6736(09)60237-3) · [PubMed 19380114](https://pubmed.ncbi.nlm.nih.gov/19380114/)
 [^zeiser-2020-ruxolitinib-gvhd-reach]: Zeiser R, von Bubnoff N, Butler J, et al. Ruxolitinib for Glucocorticoid-Refractory Acute Graft-versus-Host Disease. *N Engl J Med.* 2020;382(19):1800-1810. [doi:10.1056/NEJMoa1917635](https://doi.org/10.1056/NEJMoa1917635) · [PubMed 32374962](https://pubmed.ncbi.nlm.nih.gov/32374962/)
