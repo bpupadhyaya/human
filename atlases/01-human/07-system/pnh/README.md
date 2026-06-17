@@ -190,6 +190,15 @@ cross_links:
   - target: 01-human/07-system/major-depressive-disorder
     relation: connects-to
     note: "Relentless fatigue and a chronic threat weigh on mood: the disabling hemolytic fatigue, the looming risk of catastrophic thrombosis and lifelong infusions give PNH a substantial psychological burden and depression."
+  - target: 02-pathogen/02-bacteria/neisseria-meningitidis
+    relation: connects-to
+    note: "Its complement-blocking therapy invites meningococcus: eculizumab and ravulizumab cut off the terminal complement needed to kill Neisseria, so meningococcal vaccination and prophylaxis are mandatory before treating PNH."
+  - target: 02-pathogen/02-bacteria/streptococcus-pneumoniae
+    relation: connects-to
+    note: "Complement inhibition lowers defense against encapsulated bacteria: the same terminal-complement blockade that treats PNH also blunts protection against pneumococcus, so vaccination against it precedes therapy."
+  - target: 01-human/07-system/gvhd
+    relation: connects-to
+    note: "Its only cure brings transplant risk: allogeneic hematopoietic stem-cell transplantation is the sole curative option for PNH, carrying the hazard of graft-versus-host disease against the recipient's tissues."
 ---
 
 # Paroxysmal Nocturnal Hemoglobinuria
@@ -339,6 +348,9 @@ When PIGA is mutated in an HSC → all progeny cells (RBCs, WBCs, platelets) of 
 - `connects-to` → **[Heart Failure](../heart-failure/README.md)** — Free hemoglobin and clots strain the heart: chronic intravascular hemolysis scavenges nitric oxide and, with pulmonary thrombosis, drives pulmonary hypertension and right-heart strain, while severe anemia adds high-output load toward heart failure.
 - `connects-to` → **[Anemia of Chronic Disease](../anemia-of-chronic-disease/README.md)** — Marrow failure compounds the hemolysis: PNH frequently overlaps with aplastic anemia and bone-marrow failure, so impaired production layers an anemia-of-chronic-disease-like component onto the hemolytic anemia.
 - `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — Relentless fatigue and a chronic threat weigh on mood: the disabling hemolytic fatigue, the looming risk of catastrophic thrombosis and lifelong infusions give PNH a substantial psychological burden and depression.
+- `connects-to` → **[Neisseria meningitidis](../../../02-pathogen/02-bacteria/neisseria-meningitidis/README.md)** — Its complement-blocking therapy invites meningococcus: eculizumab and ravulizumab cut off the terminal complement needed to kill Neisseria, so meningococcal vaccination and prophylaxis are mandatory before treating PNH.
+- `connects-to` → **[Streptococcus pneumoniae](../../../02-pathogen/02-bacteria/streptococcus-pneumoniae/README.md)** — Complement inhibition lowers defense against encapsulated bacteria: the same terminal-complement blockade that treats PNH also blunts protection against pneumococcus, so vaccination against it precedes therapy.
+- `connects-to` → **[Graft-versus-Host Disease](../gvhd/README.md)** — Its only cure brings transplant risk: allogeneic hematopoietic stem-cell transplantation is the sole curative option for PNH, carrying the hazard of graft-versus-host disease against the recipient's tissues.
 
 ---
 

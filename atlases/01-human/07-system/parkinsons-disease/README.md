@@ -196,6 +196,15 @@ cross_links:
   - target: 01-human/07-system/ckd
     relation: connects-to
     note: "Renal function shapes its treatment and risk: chronic kidney disease shares vascular and oxidative mechanisms epidemiologically linked to Parkinson's, and impaired clearance alters dosing of the drugs used to manage it."
+  - target: 02-pathogen/02-bacteria/streptococcus-pneumoniae
+    relation: connects-to
+    note: "Its dysphagia lets food reach the lungs: impaired swallowing in Parkinson's causes silent aspiration, and the resulting aspiration pneumonia — often pneumococcal — is the leading cause of death in advanced disease."
+  - target: 01-human/07-system/venous-thromboembolism
+    relation: connects-to
+    note: "Progressive immobility clots the veins: the bradykinesia, rigidity and falls of advanced Parkinson's reduce mobility, and the resulting venous stasis raises the risk of deep vein thrombosis and pulmonary embolism."
+  - target: 01-human/07-system/stroke
+    relation: connects-to
+    note: "It shares the vascular terrain: Parkinson's overlaps with cerebrovascular disease through vascular parkinsonism, and the reduced mobility and autonomic dysfunction of advanced disease compound stroke risk."
 ---
 
 # Parkinson's Disease
@@ -394,6 +403,9 @@ PD is primarily a disease of aging (mean onset ~60 years), but **~10–15% of ca
 - `connects-to` → **[Osteoporosis](../osteoporosis/README.md)** — Falls meet fragile bones: postural instability and freezing make falls frequent in Parkinson's, while immobility and low vitamin D thin the bones, so osteoporotic hip and wrist fractures are a major source of disability.
 - `connects-to` → **[Generalized Anxiety Disorder](../generalized-anxiety-disorder/README.md)** — Anxiety is a core non-motor feature: persistent worry and 'off'-period anxiety are common in Parkinson's, arising from the same degeneration of dopaminergic, noradrenergic and serotonergic systems that drives the motor disease.
 - `connects-to` → **[Chronic Kidney Disease](../ckd/README.md)** — Renal function shapes its treatment and risk: chronic kidney disease shares vascular and oxidative mechanisms epidemiologically linked to Parkinson's, and impaired clearance alters dosing of the drugs used to manage it.
+- `connects-to` → **[Streptococcus pneumoniae](../../../02-pathogen/02-bacteria/streptococcus-pneumoniae/README.md)** — Its dysphagia lets food reach the lungs: impaired swallowing in Parkinson's causes silent aspiration, and the resulting aspiration pneumonia — often pneumococcal — is the leading cause of death in advanced disease.
+- `connects-to` → **[Venous Thromboembolism](../venous-thromboembolism/README.md)** — Progressive immobility clots the veins: the bradykinesia, rigidity and falls of advanced Parkinson's reduce mobility, and the resulting venous stasis raises the risk of deep vein thrombosis and pulmonary embolism.
+- `connects-to` → **[Stroke](../stroke/README.md)** — It shares the vascular terrain: Parkinson's overlaps with cerebrovascular disease through vascular parkinsonism, and the reduced mobility and autonomic dysfunction of advanced disease compound stroke risk.
 
 [^kalia-2015-pd-review]: Kalia LV, Lang AE. Parkinson's disease. *Lancet.* 2015;386(9996):896-912. [doi:10.1016/S0140-6736(14)61393-3](https://doi.org/10.1016/S0140-6736(14)61393-3) · [PubMed 25904081](https://pubmed.ncbi.nlm.nih.gov/25904081/)
 [^spillantini-1997-lewy-body]: Spillantini MG, Schmidt ML, Lee VM, Trojanowski JQ, Jakes R, Goedert M. Alpha-synuclein in Lewy bodies. *Nature.* 1997;388(6645):839-840. [doi:10.1038/42166](https://doi.org/10.1038/42166) · [PubMed 9278044](https://pubmed.ncbi.nlm.nih.gov/9278044/)
