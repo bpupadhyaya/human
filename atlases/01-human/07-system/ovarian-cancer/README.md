@@ -196,6 +196,15 @@ cross_links:
   - target: 01-human/07-system/major-depressive-disorder
     relation: connects-to
     note: "Late diagnosis and high relapse weigh on mood: ovarian cancer's frequent advanced-stage presentation, repeated recurrences and abrupt surgical menopause contribute to substantial depression and anxiety."
+  - target: 01-human/07-system/neuropathic-pain
+    relation: connects-to
+    note: "Its taxane-platinum chemo numbs the nerves: the paclitaxel and carboplatin central to ovarian-cancer treatment cause a dose-dependent, often persistent peripheral neuropathy with painful paraesthesiae."
+  - target: 01-human/07-system/aml
+    relation: connects-to
+    note: "Years of DNA-damaging therapy can seed leukaemia: the platinum chemotherapy and PARP inhibitors used in ovarian cancer carry a small but real risk of therapy-related myelodysplasia and acute myeloid leukaemia."
+  - target: 01-human/07-system/generalized-anxiety-disorder
+    relation: connects-to
+    note: "A relapsing cancer watched by a blood marker breeds worry: the recurrent course of ovarian cancer and the dread of a rising CA-125 between scans foster chronic health anxiety alongside depression."
 ---
 
 # Ovarian Cancer
@@ -371,6 +380,9 @@ FTSEC ciliated and secretory cells line the Fallopian tube; secretory cells are 
 - `connects-to` → **[Osteoporosis](../osteoporosis/README.md)** — Removing the ovaries strips away bone-protective estrogen: surgical oophorectomy and chemotherapy throw younger patients into abrupt menopause, and the loss of estrogen accelerates bone loss toward osteoporosis.
 - `connects-to` → **[Heart Failure](../heart-failure/README.md)** — Its liposomal anthracycline can weaken the heart: pegylated liposomal doxorubicin, widely used in recurrent ovarian cancer, carries cumulative cardiotoxicity that can erode cardiac function into heart failure.
 - `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — Late diagnosis and high relapse weigh on mood: ovarian cancer's frequent advanced-stage presentation, repeated recurrences and abrupt surgical menopause contribute to substantial depression and anxiety.
+- `connects-to` → **[Neuropathic Pain](../neuropathic-pain/README.md)** — Its taxane-platinum chemo numbs the nerves: the paclitaxel and carboplatin central to ovarian-cancer treatment cause a dose-dependent, often persistent peripheral neuropathy with painful paraesthesiae.
+- `connects-to` → **[Acute Myeloid Leukemia](../aml/README.md)** — Years of DNA-damaging therapy can seed leukaemia: the platinum chemotherapy and PARP inhibitors used in ovarian cancer carry a small but real risk of therapy-related myelodysplasia and acute myeloid leukaemia.
+- `connects-to` → **[Generalized Anxiety Disorder](../generalized-anxiety-disorder/README.md)** — A relapsing cancer watched by a blood marker breeds worry: the recurrent course of ovarian cancer and the dread of a rising CA-125 between scans foster chronic health anxiety alongside depression.
 
 [^burger-2011-gog0218]: Burger RA, Brady MF, Bookman MA, et al. Incorporation of bevacizumab in the primary treatment of ovarian cancer. *N Engl J Med.* 2011;365(26):2473-2483. [doi:10.1056/NEJMoa1104390](https://doi.org/10.1056/NEJMoa1104390) · [PubMed 22204724](https://pubmed.ncbi.nlm.nih.gov/22204724/)
 [^moore-2018-olaparib-solo1]: Moore K, Colombo N, Scambia G, et al. Maintenance olaparib in patients with newly diagnosed advanced ovarian cancer. *N Engl J Med.* 2018;379(26):2495-2505. [doi:10.1056/NEJMoa1810858](https://doi.org/10.1056/NEJMoa1810858) · [PubMed 30345884](https://pubmed.ncbi.nlm.nih.gov/30345884/)
