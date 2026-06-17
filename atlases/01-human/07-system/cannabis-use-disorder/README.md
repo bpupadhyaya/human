@@ -186,6 +186,15 @@ cross_links:
   - target: 01-human/07-system/hnscc
     relation: connects-to
     note: "Inhaled smoke bathes the upper airway: the carcinogens in combusted cannabis contact the mouth, throat and larynx, and heavy long-term use has been associated with head and neck squamous-cell cancers."
+  - target: 01-human/07-system/cardiovascular-system
+    relation: connects-to
+    note: "It acutely stresses the heart and vessels: cannabis raises heart rate and causes vasospasm, and the hours after use carry a recognised spike in risk of myocardial infarction and arrhythmia."
+  - target: 01-human/07-system/borderline-personality-disorder
+    relation: connects-to
+    note: "It is heavily over-represented in emotional dysregulation: cannabis use disorder is markedly more common in borderline personality disorder, where it is used to manage distress but worsens impulsivity and mood instability."
+  - target: 01-human/07-system/obsessive-compulsive-disorder
+    relation: connects-to
+    note: "Self-medication that can backfire: people with OCD use cannabis to ease anxiety, but cannabis use disorder is more common in OCD and heavy use can intensify obsessions and compulsions over time."
 sources:
   - id: hasin-2015-cannabis-disorder
     type: peer-reviewed
@@ -397,6 +406,9 @@ Paradoxical syndrome in heavy long-term users: cyclic vomiting relieved by hot b
 - `connects-to` → **[Heart Failure](../heart-failure/README.md)** — It strains and can injure the heart: cannabis acutely raises heart rate and myocardial demand and is linked to myocardial infarction and a stress cardiomyopathy, routes by which heavy use can impair cardiac function.
 - `connects-to` → **[NSCLC](../nsclc/README.md)** — Its smoke carries combustion carcinogens: smoked cannabis delivers many of the same carcinogens and tar as tobacco, and chronic heavy use is a plausible contributor to lung-cancer risk, often compounded by concurrent tobacco use.
 - `connects-to` → **[Head and Neck Squamous Cell Carcinoma](../hnscc/README.md)** — Inhaled smoke bathes the upper airway: the carcinogens in combusted cannabis contact the mouth, throat and larynx, and heavy long-term use has been associated with head and neck squamous-cell cancers.
+- `connects-to` → **[Cardiovascular System](../cardiovascular-system/README.md)** — It acutely stresses the heart and vessels: cannabis raises heart rate and causes vasospasm, and the hours after use carry a recognised spike in risk of myocardial infarction and arrhythmia.
+- `connects-to` → **[Borderline Personality Disorder](../borderline-personality-disorder/README.md)** — It is heavily over-represented in emotional dysregulation: cannabis use disorder is markedly more common in borderline personality disorder, where it is used to manage distress but worsens impulsivity and mood instability.
+- `connects-to` → **[Obsessive-Compulsive Disorder](../obsessive-compulsive-disorder/README.md)** — Self-medication that can backfire: people with OCD use cannabis to ease anxiety, but cannabis use disorder is more common in OCD and heavy use can intensify obsessions and compulsions over time.
 
 [^hasin-2015-cannabis-disorder]: Hasin DS, Saha TD, Kerridge BT, et al. Prevalence of marijuana use disorders in the United States between 2001-2002 and 2012-2013. *JAMA Psychiatry.* 2015;72(12):1235-1242. [doi:10.1001/jamapsychiatry.2015.1858](https://doi.org/10.1001/jamapsychiatry.2015.1858) · [PubMed 26502112](https://pubmed.ncbi.nlm.nih.gov/26502112/)
 [^budney-2004-cannabis-withdrawal]: Budney AJ, Moore BA, Vandrey RG, Hughes JR. The time course and significance of cannabis withdrawal. *J Abnorm Psychol.* 2003;112(3):393-402. [doi:10.1037/0021-843X.112.3.393](https://doi.org/10.1037/0021-843X.112.3.393) · [PubMed 12943018](https://pubmed.ncbi.nlm.nih.gov/12943018/)
