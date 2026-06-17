@@ -183,6 +183,15 @@ cross_links:
   - target: 01-human/07-system/stroke
     relation: connects-to
     note: "Its cardiovascular toll reaches the brain: the metabolic syndrome and autonomic disturbance of narcolepsy are linked to a higher long-term risk of cardiovascular events including stroke."
+  - target: 01-human/07-system/binge-eating-disorder
+    relation: connects-to
+    note: "Orexin loss reshapes appetite: hypocretin-deficient narcolepsy type 1 carries higher BMI and a recognised tendency to binge-eating and disordered eating beyond the weight gain alone."
+  - target: 01-human/07-system/epilepsy
+    relation: connects-to
+    note: "Sudden attacks blur the diagnosis: cataplexy and sleep-onset events of narcolepsy are frequently mistaken for seizures, and the two coexist, so EEG and sleep studies are needed to separate them."
+  - target: 01-human/07-system/parkinsons-disease
+    relation: connects-to
+    note: "Both disorders unsettle REM sleep: narcolepsy's REM intrusion and the REM sleep behavior disorder and hypocretin-neuron loss seen in Parkinson's reflect overlapping dysregulation of sleep-state control."
 sources:
   - id: scammell-2015-narcolepsy-review
     type: peer-reviewed
@@ -378,6 +387,9 @@ Cataplexy is the **pathognomonic** feature of NT1 — sudden, bilateral loss of 
 - `connects-to` → **[Schizophrenia](../schizophrenia/README.md)** — Its hallucinations can masquerade as psychosis: the vivid hypnagogic hallucinations and dream intrusions of narcolepsy mimic schizophrenia, a diagnostic overlap complicated further by stimulant treatment that can itself provoke psychosis.
 - `connects-to` → **[Heart Failure](../heart-failure/README.md)** — Disrupted sleep strains the heart: the autonomic dysregulation, obesity and nocturnal sympathetic surges of narcolepsy raise cardiovascular risk, contributing over time to hypertension and heart failure.
 - `connects-to` → **[Stroke](../stroke/README.md)** — Its cardiovascular toll reaches the brain: the metabolic syndrome and autonomic disturbance of narcolepsy are linked to a higher long-term risk of cardiovascular events including stroke.
+- `connects-to` → **[Binge-Eating Disorder](../binge-eating-disorder/README.md)** — Orexin loss reshapes appetite: hypocretin-deficient narcolepsy type 1 carries higher BMI and a recognised tendency to binge-eating and disordered eating beyond the weight gain alone.
+- `connects-to` → **[Epilepsy](../epilepsy/README.md)** — Sudden attacks blur the diagnosis: cataplexy and sleep-onset events of narcolepsy are frequently mistaken for seizures, and the two coexist, so EEG and sleep studies are needed to separate them.
+- `connects-to` → **[Parkinson's Disease](../parkinsons-disease/README.md)** — Both disorders unsettle REM sleep: narcolepsy's REM intrusion and the REM sleep behavior disorder and hypocretin-neuron loss seen in Parkinson's reflect overlapping dysregulation of sleep-state control.
 
 [^scammell-2015-narcolepsy-review]: Scammell TE. Narcolepsy. *N Engl J Med.* 2015;373(27):2654-2662. [doi:10.1056/NEJMra1500587](https://doi.org/10.1056/NEJMra1500587) · [PubMed 26716917](https://pubmed.ncbi.nlm.nih.gov/26716917/)
 [^dauvilliers-2007-narcolepsy-clinical]: Dauvilliers Y, Arnulf I, Mignot E. Narcolepsy with cataplexy. *Lancet.* 2007;369(9560):499-511. [doi:10.1016/S0140-6736(07)60237-2](https://doi.org/10.1016/S0140-6736(07)60237-2) · [PubMed 17292770](https://pubmed.ncbi.nlm.nih.gov/17292770/)

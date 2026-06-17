@@ -205,6 +205,15 @@ cross_links:
   - target: 01-human/07-system/major-depressive-disorder
     relation: connects-to
     note: "Mood is a function of its circuits: major depression reflects dysregulation across the monoaminergic and limbic networks of the nervous system, the neurobiological basis of a leading cause of disability."
+  - target: 01-human/07-system/digestive-system
+    relation: connects-to
+    note: "It runs a second brain in the gut: the enteric nervous system governs motility and secretion, and the bidirectional gut-brain axis links nervous-system signalling to digestion, microbiome and mood."
+  - target: 01-human/07-system/immune-system
+    relation: connects-to
+    note: "Nerves and immunity converse constantly: the nervous system shapes inflammation through the vagal cholinergic anti-inflammatory pathway and sympathetic tone, while neuroinflammation in turn drives neurological disease."
+  - target: 02-pathogen/02-bacteria/neisseria-meningitidis
+    relation: connects-to
+    note: "A classic assault on its protective membranes: Neisseria meningitidis crosses into the cerebrospinal fluid to cause acute bacterial meningitis, inflaming the meninges that sheath the brain and spinal cord."
 ---
 
 # Nervous System
@@ -303,6 +312,9 @@ Distributed cortical networks underlie language (Broca's area, Wernicke's area, 
 - `connects-to` → **[Epilepsy](../epilepsy/README.md)** — Hyperexcitable circuits misfire: epilepsy is the nervous system's paroxysmal disorder, in which synchronized neuronal discharge produces seizures, arising from injury, tumor, malformation or channel dysfunction.
 - `connects-to` → **[Glioblastoma](../glioblastoma/README.md)** — Its own glia turn malignant: glioblastoma is the commonest and deadliest primary brain cancer, arising from the astrocytic support cells of the nervous system and diffusely infiltrating the brain.
 - `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — Mood is a function of its circuits: major depression reflects dysregulation across the monoaminergic and limbic networks of the nervous system, the neurobiological basis of a leading cause of disability.
+- `connects-to` → **[Digestive System](../digestive-system/README.md)** — It runs a second brain in the gut: the enteric nervous system governs motility and secretion, and the bidirectional gut-brain axis links nervous-system signalling to digestion, microbiome and mood.
+- `connects-to` → **[Immune System](../immune-system/README.md)** — Nerves and immunity converse constantly: the nervous system shapes inflammation through the vagal cholinergic anti-inflammatory pathway and sympathetic tone, while neuroinflammation in turn drives neurological disease.
+- `connects-to` → **[Neisseria meningitidis](../../../02-pathogen/02-bacteria/neisseria-meningitidis/README.md)** — A classic assault on its protective membranes: Neisseria meningitidis crosses into the cerebrospinal fluid to cause acute bacterial meningitis, inflaming the meninges that sheath the brain and spinal cord.
 
 ## Pathology
 
