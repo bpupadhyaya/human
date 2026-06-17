@@ -178,6 +178,15 @@ cross_links:
   - target: 01-human/04-cellular/hepatocyte
     relation: connects-to
     note: "The liver is its favored landing site: colorectal cells seeding the portal blood lodge among hepatocytes to grow liver metastases, the disease's commonest spread and the reason a resectable liver lesion can still mean cure."
+  - target: 01-human/03-molecular/nf-kb
+    relation: connects-to
+    note: "Inflammation drives the colitis-to-cancer path: NF-κB activation in the chronically inflamed bowel links inflammatory bowel disease to colorectal cancer, switching on the survival and proliferation signals that turn inflamed mucosa malignant."
+  - target: 01-human/03-molecular/stat3
+    relation: connects-to
+    note: "IL-6 feeds the tumor through STAT3: in inflammation-associated colorectal cancer, IL-6 from the microenvironment activates STAT3 in epithelial cells to push their proliferation and survival, tightly coupled to the NF-κB inflammatory program."
+  - target: 01-human/07-system/sepsis
+    relation: connects-to
+    note: "An obstructing or perforating tumor can seed infection: colorectal cancers that block or breach the bowel wall spill gut flora into the abdomen and bloodstream, and chemotherapy neutropenia adds its own route to sepsis."
 ---
 
 # Colorectal Cancer
@@ -347,6 +356,9 @@ The step-wise genetic progression from normal epithelium to carcinoma in CRC was
 - `connects-to` → **[CTNNB1](../../03-molecular/ctnnb1/README.md)** — The Wnt switch is thrown at the gene that APC guards: when APC fails, β-catenin (CTNNB1) escapes degradation, enters the nucleus and turns on growth genes — the molecular heart of the adenoma-carcinoma sequence, and the rare driver when CTNNB1 itself is mutated.
 - `connects-to` → **[Escherichia coli](../../../02-pathogen/02-bacteria/escherichia-coli/README.md)** — A gut bacterium can be a carcinogen: strains of E. coli carrying the pks island make colibactin, a genotoxin that scars colon-cell DNA with a signature mutation pattern, directly implicating the microbiome in colorectal tumor initiation.
 - `connects-to` → **[Hepatocyte](../../04-cellular/hepatocyte/README.md)** — The liver is its favored landing site: colorectal cells seeding the portal blood lodge among hepatocytes to grow liver metastases, the disease's commonest spread and the reason a resectable liver lesion can still mean cure.
+- `connects-to` → **[NF-κB](../../03-molecular/nf-kb/README.md)** — Inflammation drives the colitis-to-cancer path: NF-κB activation in the chronically inflamed bowel links inflammatory bowel disease to colorectal cancer, switching on the survival and proliferation signals that turn inflamed mucosa malignant.
+- `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — IL-6 feeds the tumor through STAT3: in inflammation-associated colorectal cancer, IL-6 from the microenvironment activates STAT3 in epithelial cells to push their proliferation and survival, tightly coupled to the NF-κB inflammatory program.
+- `connects-to` → **[Sepsis](../sepsis/README.md)** — An obstructing or perforating tumor can seed infection: colorectal cancers that block or breach the bowel wall spill gut flora into the abdomen and bloodstream, and chemotherapy neutropenia adds its own route to sepsis.
 
 ---
 

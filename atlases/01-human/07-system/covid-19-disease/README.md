@@ -178,6 +178,15 @@ cross_links:
   - target: 01-human/04-cellular/mast-cell
     relation: connects-to
     note: "Overactive mast cells may fuel the worst of it: mast cell activation contributes to the cytokine surge of severe disease and is a leading suspect in the lingering, multi-system symptoms of long COVID."
+  - target: 01-human/03-molecular/nf-kb
+    relation: connects-to
+    note: "NF-κB ignites the cytokine storm: SARS-CoV-2 sensing in airway and immune cells drives NF-κB to pour out IL-6, TNF and other mediators, the transcriptional engine behind the hyperinflammation of severe COVID."
+  - target: 01-human/03-molecular/stat3
+    relation: connects-to
+    note: "STAT3 amplifies the inflammatory loop: the flood of IL-6 in severe COVID activates STAT3, sustaining the feed-forward cytokine signaling that the IL-6 blocker tocilizumab targets in critically ill patients."
+  - target: 01-human/07-system/sepsis
+    relation: connects-to
+    note: "Severe disease behaves like viral sepsis: critical COVID produces the dysregulated host response, shock and multiorgan failure of sepsis, and bacterial superinfection of the damaged lungs can layer true bacterial sepsis on top."
 ---
 
 # COVID-19 Disease
@@ -296,6 +305,9 @@ Symptoms persisting >4 weeks: fatigue (most common), cognitive impairment ("brai
 - `connects-to` → **[Bradykinin](../../03-molecular/bradykinin/README.md)** — Disabling ACE2 may unleash a 'bradykinin storm': because ACE2 normally degrades bradykinin, the virus's hijacking of the receptor lets this vasodilator build up, a proposed driver of the vascular leak and fluid-filled lungs of severe COVID.
 - `connects-to` → **[Guillain-Barré Syndrome](../../05-tissue/guillain-barre/README.md)** — It can misdirect the immune attack onto nerves: COVID is among the infections that trigger Guillain-Barré syndrome, an autoimmune assault on peripheral nerve myelin causing ascending weakness in the weeks after illness.
 - `connects-to` → **[Mast Cell](../../04-cellular/mast-cell/README.md)** — Overactive mast cells may fuel the worst of it: mast cell activation contributes to the cytokine surge of severe disease and is a leading suspect in the lingering, multi-system symptoms of long COVID.
+- `connects-to` → **[NF-κB](../../03-molecular/nf-kb/README.md)** — NF-κB ignites the cytokine storm: SARS-CoV-2 sensing in airway and immune cells drives NF-κB to pour out IL-6, TNF and other mediators, the transcriptional engine behind the hyperinflammation of severe COVID.
+- `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — STAT3 amplifies the inflammatory loop: the flood of IL-6 in severe COVID activates STAT3, sustaining the feed-forward cytokine signaling that the IL-6 blocker tocilizumab targets in critically ill patients.
+- `connects-to` → **[Sepsis](../sepsis/README.md)** — Severe disease behaves like viral sepsis: critical COVID produces the dysregulated host response, shock and multiorgan failure of sepsis, and bacterial superinfection of the damaged lungs can layer true bacterial sepsis on top.
 
 ## Pathology
 
