@@ -183,6 +183,15 @@ cross_links:
   - target: 01-human/07-system/venous-thromboembolism
     relation: connects-to
     note: "Low iron can paradoxically clot: iron deficiency triggers a reactive thrombocytosis and is a recognized risk factor for venous thromboembolism, including the unusual cerebral venous sinus thrombosis."
+  - target: 01-human/07-system/endometrial-cancer
+    relation: connects-to
+    note: "Uterine bleeding bleeds the iron away: heavy or postmenopausal uterine bleeding from endometrial cancer is a classic cause of iron-deficiency anemia, and unexplained IDA in a postmenopausal woman prompts its search."
+  - target: 01-human/07-system/bladder-cancer
+    relation: connects-to
+    note: "Blood lost in the urine drains the stores: chronic or intermittent hematuria from bladder cancer steadily depletes iron, so iron-deficiency anemia with microscopic hematuria warrants urologic evaluation."
+  - target: 01-human/07-system/stroke
+    relation: connects-to
+    note: "Severe deficiency can reach the brain: iron deficiency drives reactive thrombocytosis and reduces oxygen delivery, and is a recognized — if uncommon — cause of ischemic stroke and cerebral venous thrombosis, especially in the young."
 ---
 
 # Iron Deficiency Anemia
@@ -358,6 +367,9 @@ Iron is essential for:
 - `connects-to` → **[Nervous System](../nervous-system/README.md)** — The brain runs short on iron too: iron is needed for myelination and dopamine synthesis, so deficiency impairs cognition and attention in children and drives restless legs syndrome in adults.
 - `connects-to` → **[Cardiomyocyte](../../04-cellular/cardiomyocyte/README.md)** — It strains and starves the heart muscle: chronic anemia forces a high-output state while iron deficiency itself impairs cardiomyocyte mitochondrial energetics, which is why iron repletion improves symptoms in heart failure.
 - `connects-to` → **[Venous Thromboembolism](../venous-thromboembolism/README.md)** — Low iron can paradoxically clot: iron deficiency triggers a reactive thrombocytosis and is a recognized risk factor for venous thromboembolism, including the unusual cerebral venous sinus thrombosis.
+- `connects-to` → **[Endometrial Cancer](../endometrial-cancer/README.md)** — Uterine bleeding bleeds the iron away: heavy or postmenopausal uterine bleeding from endometrial cancer is a classic cause of iron-deficiency anemia, and unexplained IDA in a postmenopausal woman prompts its search.
+- `connects-to` → **[Bladder Cancer](../bladder-cancer/README.md)** — Blood lost in the urine drains the stores: chronic or intermittent hematuria from bladder cancer steadily depletes iron, so iron-deficiency anemia with microscopic hematuria warrants urologic evaluation.
+- `connects-to` → **[Stroke](../stroke/README.md)** — Severe deficiency can reach the brain: iron deficiency drives reactive thrombocytosis and reduces oxygen delivery, and is a recognized — if uncommon — cause of ischemic stroke and cerebral venous thrombosis, especially in the young.
 
 [^camaschella-2015-iron-deficiency]: Camaschella C. Iron-deficiency anemia. *N Engl J Med.* 2015;372(19):1832-1843. [doi:10.1056/NEJMra1401038](https://doi.org/10.1056/NEJMra1401038) · [PubMed 25946282](https://pubmed.ncbi.nlm.nih.gov/25946282/)
 [^who-ferritin-guideline-2020]: World Health Organization. WHO guideline on use of ferritin concentrations to assess iron status in individuals and populations. WHO; 2020. [WHO publication](https://www.who.int/publications/i/item/9789240000124)

@@ -193,6 +193,15 @@ cross_links:
   - target: 01-human/07-system/ckd
     relation: connects-to
     note: "Failing kidneys steal sleep: insomnia is strikingly common in chronic kidney disease, driven by restless legs, pruritus, disturbed melatonin and the rhythm disruption of dialysis, and poor sleep in turn worsens outcomes."
+  - target: 01-human/07-system/heart-failure
+    relation: connects-to
+    note: "Sleep loss and the failing heart feed each other: orthopnea and nocturnal breathlessness fragment sleep in heart failure, while chronic insomnia's sympathetic overdrive worsens cardiac load — a two-way harm."
+  - target: 01-human/07-system/migraine
+    relation: connects-to
+    note: "Poor sleep triggers the headache: insomnia and migraine are strongly bidirectional, with sleep deprivation a classic migraine trigger and the dread of nocturnal attacks fracturing sleep further."
+  - target: 01-human/07-system/schizophrenia
+    relation: connects-to
+    note: "Disrupted sleep is woven into psychosis: insomnia and fragmented sleep architecture are near-universal in schizophrenia, often heralding relapse, reflecting the same circadian and dopaminergic dysregulation that drives the illness."
 ---
 
 # Insomnia Disorder
@@ -388,6 +397,9 @@ CBT-I directly targets perpetuating factors.
 - `connects-to` → **[NF-κB](../../03-molecular/nf-kb/README.md)** — Lost sleep switches on inflammation: even partial sleep deprivation activates NF-κB in circulating immune cells, raising inflammatory cytokines — a molecular route from chronic insomnia to its cardiovascular and metabolic risk.
 - `connects-to` → **[Panic Disorder](../panic-disorder/README.md)** — Sleeplessness and panic feed each other: insomnia both precedes and worsens panic disorder, with nighttime arousal and fear of nocturnal panic attacks fracturing sleep further.
 - `connects-to` → **[Chronic Kidney Disease](../ckd/README.md)** — Failing kidneys steal sleep: insomnia is strikingly common in chronic kidney disease, driven by restless legs, pruritus, disturbed melatonin and the rhythm disruption of dialysis, and poor sleep in turn worsens outcomes.
+- `connects-to` → **[Heart Failure](../heart-failure/README.md)** — Sleep loss and the failing heart feed each other: orthopnea and nocturnal breathlessness fragment sleep in heart failure, while chronic insomnia's sympathetic overdrive worsens cardiac load — a two-way harm.
+- `connects-to` → **[Migraine](../migraine/README.md)** — Poor sleep triggers the headache: insomnia and migraine are strongly bidirectional, with sleep deprivation a classic migraine trigger and the dread of nocturnal attacks fracturing sleep further.
+- `connects-to` → **[Schizophrenia](../schizophrenia/README.md)** — Disrupted sleep is woven into psychosis: insomnia and fragmented sleep architecture are near-universal in schizophrenia, often heralding relapse, reflecting the same circadian and dopaminergic dysregulation that drives the illness.
 
 [^riemann-2017-insomnia-lancet]: Riemann D, Baglioni C, Bassetti C, et al. European guideline for the diagnosis and treatment of insomnia. *J Sleep Res.* 2017;26(6):675-700. [doi:10.1111/jsr.12594](https://doi.org/10.1111/jsr.12594) · [PubMed 28875581](https://pubmed.ncbi.nlm.nih.gov/28875581/)
 [^trauer-2015-cbti-meta]: Trauer JM, Qian MY, Doyle JS, et al. Cognitive behavioral therapy for chronic insomnia. *Ann Intern Med.* 2015;163(3):191-204. [doi:10.7326/M14-2841](https://doi.org/10.7326/M14-2841) · [PubMed 26054060](https://pubmed.ncbi.nlm.nih.gov/26054060/)
