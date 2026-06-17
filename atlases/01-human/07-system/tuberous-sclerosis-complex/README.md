@@ -178,6 +178,15 @@ cross_links:
   - target: 01-human/07-system/major-depressive-disorder
     relation: connects-to
     note: "Mood disorder is part of the syndrome: TSC-associated neuropsychiatric disorders (TAND) include high rates of depression alongside autism, ADHD and anxiety, reflecting the mTOR pathway's reach into brain function."
+  - target: 01-human/07-system/ckd
+    relation: connects-to
+    note: "The kidneys carry the heaviest organ toll: renal angiomyolipomas and cysts (worsened in PKD1 contiguous-gene deletions) progressively destroy nephrons, making chronic kidney disease a leading cause of death in TSC."
+  - target: 01-human/07-system/hypertension
+    relation: connects-to
+    note: "Renal lesions drive up the pressure: the angiomyolipomas, cysts and parenchymal loss of TSC kidney disease activate the renin-angiotensin axis, producing hypertension that accelerates the decline in renal function."
+  - target: 02-pathogen/03-fungi/pneumocystis-jirovecii
+    relation: connects-to
+    note: "Its mTOR-inhibitor therapy opens the lung: everolimus and sirolimus used to shrink TSC tumors are immunosuppressive, raising the risk of Pneumocystis pneumonia so that prophylaxis is considered during treatment."
 ---
 
 # Tuberous Sclerosis Complex
@@ -371,6 +380,9 @@ With modern management: life expectancy increasingly normal; major risks: renal 
 - `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — mTOR pushes growth through STAT3 too: the hyperactive mTORC1 of TSC engages STAT3 signaling that supports proliferation in its tumors, one of the pathways that keeps angiomyolipomas and astrocytomas growing.
 - `connects-to` → **[NF-κB](../../03-molecular/nf-kb/README.md)** — mTOR and NF-κB feed each other in its lesions: TSC's unchecked mTORC1 cross-talks with NF-κB inflammatory signaling, contributing to the chronic inflammation found within its slow-growing growths.
 - `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — Mood disorder is part of the syndrome: TSC-associated neuropsychiatric disorders (TAND) include high rates of depression alongside autism, ADHD and anxiety, reflecting the mTOR pathway's reach into brain function.
+- `connects-to` → **[Chronic Kidney Disease](../ckd/README.md)** — The kidneys carry the heaviest organ toll: renal angiomyolipomas and cysts (worsened in PKD1 contiguous-gene deletions) progressively destroy nephrons, making chronic kidney disease a leading cause of death in TSC.
+- `connects-to` → **[Hypertension](../hypertension/README.md)** — Renal lesions drive up the pressure: the angiomyolipomas, cysts and parenchymal loss of TSC kidney disease activate the renin-angiotensin axis, producing hypertension that accelerates the decline in renal function.
+- `connects-to` → **[Pneumocystis jirovecii](../../../02-pathogen/03-fungi/pneumocystis-jirovecii/README.md)** — Its mTOR-inhibitor therapy opens the lung: everolimus and sirolimus used to shrink TSC tumors are immunosuppressive, raising the risk of Pneumocystis pneumonia so that prophylaxis is considered during treatment.
 
 ---
 

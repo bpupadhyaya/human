@@ -184,6 +184,15 @@ cross_links:
   - target: 01-human/07-system/sepsis
     relation: connects-to
     note: "It blunts defenses and worsens infection: hyperglycemia impairs neutrophil function and wound healing, making people with diabetes more prone to severe infections and to sepsis when those infections take hold."
+  - target: 01-human/07-system/pancreatic-cancer
+    relation: connects-to
+    note: "The link runs both ways: long-standing type 2 diabetes modestly raises pancreatic cancer risk, while new-onset diabetes in an older adult can be the first sign of an occult pancreatic tumor destroying islet function."
+  - target: 02-pathogen/03-fungi/candida-albicans
+    relation: connects-to
+    note: "Sugar feeds the yeast: glucose-rich tissues and impaired immunity in diabetes favor Candida overgrowth, causing the recurrent vulvovaginal, oral and skin-fold candidiasis that often flags poor glycemic control."
+  - target: 01-human/07-system/tuberculosis
+    relation: connects-to
+    note: "It is a major global TB risk factor: diabetes roughly triples the risk of progressing to active tuberculosis and worsens its outcomes, a converging epidemic as type 2 diabetes spreads through TB-endemic regions."
 ---
 
 # Type 2 Diabetes
@@ -342,6 +351,9 @@ T2DM, CKD, heart failure, and obesity form the **cardiorenal metabolic (CRM) syn
 - `connects-to` → **[NF-κB](../../03-molecular/nf-kb/README.md)** — NF-κB is the inflammatory hub of insulin resistance: free fatty acids and cytokines activate NF-κB in liver, fat and muscle, blunting insulin signaling — the mechanism behind the chronic low-grade inflammation that drives type 2 diabetes.
 - `connects-to` → **[Venous Thromboembolism](../venous-thromboembolism/README.md)** — High sugar tips the blood toward clotting: type 2 diabetes raises fibrinogen and platelet reactivity and impairs fibrinolysis, contributing to a prothrombotic state that modestly increases deep-vein thrombosis and pulmonary embolism risk.
 - `connects-to` → **[Sepsis](../sepsis/README.md)** — It blunts defenses and worsens infection: hyperglycemia impairs neutrophil function and wound healing, making people with diabetes more prone to severe infections and to sepsis when those infections take hold.
+- `connects-to` → **[Pancreatic Cancer](../pancreatic-cancer/README.md)** — The link runs both ways: long-standing type 2 diabetes modestly raises pancreatic cancer risk, while new-onset diabetes in an older adult can be the first sign of an occult pancreatic tumor destroying islet function.
+- `connects-to` → **[Candida albicans](../../../02-pathogen/03-fungi/candida-albicans/README.md)** — Sugar feeds the yeast: glucose-rich tissues and impaired immunity in diabetes favor Candida overgrowth, causing the recurrent vulvovaginal, oral and skin-fold candidiasis that often flags poor glycemic control.
+- `connects-to` → **[Tuberculosis](../tuberculosis/README.md)** — It is a major global TB risk factor: diabetes roughly triples the risk of progressing to active tuberculosis and worsens its outcomes, a converging epidemic as type 2 diabetes spreads through TB-endemic regions.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
