@@ -187,6 +187,15 @@ cross_links:
   - target: 01-human/07-system/nervous-system
     relation: connects-to
     note: "It is a neural disease as much as a vascular one: diabetic retinal neurodegeneration damages the retina's neurons and glia — part of the nervous system — before vessels visibly fail, so neural dysfunction can precede classic retinopathy."
+  - target: 01-human/07-system/anemia-of-chronic-disease
+    relation: connects-to
+    note: "Low hemoglobin starves the retina of oxygen: the anemia accompanying diabetic kidney disease and chronic inflammation worsens retinal hypoxia, and anemia is an independent risk factor for retinopathy progression."
+  - target: 01-human/07-system/heart-failure
+    relation: connects-to
+    note: "It flags wider microvascular disease: diabetic retinopathy severity tracks with the small-vessel damage and diabetic cardiomyopathy that drive heart failure, making the retina a visible window onto systemic microvascular risk."
+  - target: 01-human/07-system/major-depressive-disorder
+    relation: connects-to
+    note: "Losing sight weighs on the mind: progressive vision loss and the threat of blindness from diabetic retinopathy carry a substantial psychological burden, with high rates of depression among affected patients."
 ---
 
 # Diabetic Retinopathy
@@ -353,6 +362,9 @@ DR encompasses a spectrum from subtle vascular changes to sight-threatening neov
 - `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — STAT3 links inflammation to the leaking vessels: driven by IL-6 and high glucose in the retina, STAT3 activation in endothelial and glial cells stokes the inflammation and VEGF output behind the barrier breakdown of diabetic retinopathy.
 - `connects-to` → **[GLP-1](../../03-molecular/glp-1/README.md)** — Rapid glucose-lowering can transiently worsen it: GLP-1 receptor agonists like semaglutide sharply improve control but carry a noted signal of early retinopathy progression, the same paradox seen with any abrupt tightening of blood sugar.
 - `connects-to` → **[Nervous System](../nervous-system/README.md)** — It is a neural disease as much as a vascular one: diabetic retinal neurodegeneration damages the retina's neurons and glia — part of the nervous system — before vessels visibly fail, so neural dysfunction can precede classic retinopathy.
+- `connects-to` → **[Anemia of Chronic Disease](../anemia-of-chronic-disease/README.md)** — Low hemoglobin starves the retina of oxygen: the anemia accompanying diabetic kidney disease and chronic inflammation worsens retinal hypoxia, and anemia is an independent risk factor for retinopathy progression.
+- `connects-to` → **[Heart Failure](../heart-failure/README.md)** — It flags wider microvascular disease: diabetic retinopathy severity tracks with the small-vessel damage and diabetic cardiomyopathy that drive heart failure, making the retina a visible window onto systemic microvascular risk.
+- `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — Losing sight weighs on the mind: progressive vision loss and the threat of blindness from diabetic retinopathy carry a substantial psychological burden, with high rates of depression among affected patients.
 
 [^fong-2004-dr-review]: Fong DS, Aiello L, Gardner TW, et al. Diabetic retinopathy. *Diabetes Care.* 2004;27(10):2540-2553. [doi:10.2337/diacare.27.10.2540](https://doi.org/10.2337/diacare.27.10.2540) · [PubMed 15451934](https://pubmed.ncbi.nlm.nih.gov/15451934/)
 [^brown-2015-aflibercept-protocol-t]: Diabetic Retinopathy Clinical Research Network; Wells JA, Glassman AR, et al. Aflibercept, Bevacizumab, or Ranibizumab for Diabetic Macular Edema. *N Engl J Med.* 2015;372(13):1193-1203. [doi:10.1056/NEJMoa1414264](https://doi.org/10.1056/NEJMoa1414264) · [PubMed 25692915](https://pubmed.ncbi.nlm.nih.gov/25692915/)
