@@ -181,6 +181,15 @@ cross_links:
   - target: 01-human/06-organ/spleen
     relation: connects-to
     note: "The spleen is the guard against overwhelming sepsis: it clears encapsulated bacteria from the blood, so asplenic patients face fulminant OPSI from pneumococcus and meningococcus and need vaccination and standby antibiotics."
+  - target: 01-human/07-system/ckd
+    relation: connects-to
+    note: "It is the leading cause of kidney injury in the critically ill: septic shock starves and inflames the kidneys into acute kidney injury, and survivors of severe episodes often progress to chronic kidney disease."
+  - target: 01-human/07-system/heart-failure
+    relation: connects-to
+    note: "The heart stuns under the cytokine storm: septic cardiomyopathy depresses myocardial contractility through inflammatory mediators and nitric oxide, a reversible heart failure that worsens the shock and is usually flagged by a troponin rise."
+  - target: 01-human/07-system/venous-thromboembolism
+    relation: connects-to
+    note: "Sepsis is intensely prothrombotic: endothelial injury, immobility and activated coagulation make deep-vein thrombosis and pulmonary embolism common in septic ICU patients, even beyond the microthrombi of overt DIC."
 ---
 
 # Sepsis
@@ -341,6 +350,9 @@ Sepsis is not localized to one system — it manifests as dysfunction across mul
 - `connects-to` → **[Cortisol](../../03-molecular/cortisol/README.md)** — The stress axis falters in sepsis: cortisol surges early, but critical-illness-related corticosteroid insufficiency can leave the response inadequate for the vasodilatory shock, which is why low-dose hydrocortisone is given in refractory septic shock.
 - `connects-to` → **[Neisseria meningitidis](../../../02-pathogen/02-bacteria/neisseria-meningitidis/README.md)** — Meningococcus causes the most fulminant sepsis: Neisseria meningitidis endotoxin can trigger purpura fulminans and Waterhouse-Friderichsen adrenal hemorrhage, killing previously well young people within hours.
 - `connects-to` → **[Spleen](../../06-organ/spleen/README.md)** — The spleen is the guard against overwhelming sepsis: it clears encapsulated bacteria from the blood, so asplenic patients face fulminant OPSI from pneumococcus and meningococcus and need vaccination and standby antibiotics.
+- `connects-to` → **[Chronic Kidney Disease](../ckd/README.md)** — It is the leading cause of kidney injury in the critically ill: septic shock starves and inflames the kidneys into acute kidney injury, and survivors of severe episodes often progress to chronic kidney disease.
+- `connects-to` → **[Heart Failure](../heart-failure/README.md)** — The heart stuns under the cytokine storm: septic cardiomyopathy depresses myocardial contractility through inflammatory mediators and nitric oxide, a reversible heart failure that worsens the shock and is usually flagged by a troponin rise.
+- `connects-to` → **[Venous Thromboembolism](../venous-thromboembolism/README.md)** — Sepsis is intensely prothrombotic: endothelial injury, immobility and activated coagulation make deep-vein thrombosis and pulmonary embolism common in septic ICU patients, even beyond the microthrombi of overt DIC.
 - `treated-by` → **[Vancomycin](../../../03-medicine/01-modern/06-antimicrobial/vancomycin/README.md)** — First-line empiric IV therapy for MRSA bacteremia and gram-positive sepsis; added to beta-lactam empiric regimens when MRSA risk is elevated; AUC/MIC-guided dosing (IDSA 2021); MIC ≤1 mg/L required for endocarditis; daptomycin alternative for high MIC.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*

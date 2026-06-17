@@ -180,6 +180,15 @@ cross_links:
   - target: 01-human/07-system/obesity
     relation: connects-to
     note: "Obesity mechanically loads the respiratory system: excess chest and abdominal fat restrict lung expansion and, with upper-airway crowding, cause obstructive sleep apnoea and obesity hypoventilation that blunt ventilation."
+  - target: 01-human/07-system/nsclc
+    relation: connects-to
+    note: "The respiratory system's commonest fatal cancer: non-small-cell lung cancer arises from the bronchial and alveolar epithelium, the leading cancer killer worldwide and the malignant counterpart to the system's smoking-related diseases."
+  - target: 01-human/07-system/sclc
+    relation: connects-to
+    note: "Its most aggressive tumor grows from airway neuroendocrine cells: small-cell lung cancer is a fast, early-metastasizing cancer of the central airways, almost always smoking-related, defining the deadliest end of respiratory malignancy."
+  - target: 01-human/07-system/mesothelioma
+    relation: connects-to
+    note: "Asbestos scars the lining of the lungs into cancer: mesothelioma arises from the pleura that encloses the respiratory system, decades after asbestos exposure, a malignancy of the system's serosal envelope rather than its airways."
 taxonomy:
   uberon: "UBERON:0001004"
   fma: "FMA:7161"
@@ -315,6 +324,9 @@ The mucociliary escalator (ciliated cells + goblet cell mucus) continuously clea
 - **Connects-to** → [Histamine](../../03-molecular/histamine/README.md): Histamine narrows the airways: released from bronchial mast cells it constricts smooth muscle, swells the mucosa, and floods secretions, the rapid mediator behind allergic wheeze and a driver of airway hyper-reactivity.
 - **Connects-to** → [Influenza](../influenza/README.md): Influenza is the recurring epidemic threat to the respiratory system: the virus strips the airway epithelium and can progress to viral pneumonia and ARDS, and its seasonal waves drive much of winter respiratory illness.
 - **Connects-to** → [Obesity](../obesity/README.md): Obesity mechanically loads the respiratory system: excess chest and abdominal fat restrict lung expansion and, with upper-airway crowding, cause obstructive sleep apnoea and obesity hypoventilation that blunt ventilation.
+- **Connects-to** → [NSCLC](../nsclc/README.md): The respiratory system's commonest fatal cancer: non-small-cell lung cancer arises from the bronchial and alveolar epithelium, the leading cancer killer worldwide and the malignant counterpart to the system's smoking-related diseases.
+- **Connects-to** → [Small Cell Lung Cancer](../sclc/README.md): Its most aggressive tumor grows from airway neuroendocrine cells: small-cell lung cancer is a fast, early-metastasizing cancer of the central airways, almost always smoking-related, defining the deadliest end of respiratory malignancy.
+- **Connects-to** → [Mesothelioma](../mesothelioma/README.md): Asbestos scars the lining of the lungs into cancer: mesothelioma arises from the pleura that encloses the respiratory system, decades after asbestos exposure, a malignancy of the system's serosal envelope rather than its airways.
 - `prevented-by` → **[PCV13 (Prevnar 13)](../../../../04-vaccine/08-conjugate/pcv13/README.md)** — CAPiTA RCT (N=84,496 adults ≥65): PCV13 achieved 45.6% VE against vaccine-type CAP and 75% VE against invasive pneumococcal disease; prevents pneumococcal pneumonia, the leading infectious cause of respiratory hospitalisation in older adults.
 
 ## Pathology
