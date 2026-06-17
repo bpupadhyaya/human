@@ -190,6 +190,15 @@ cross_links:
   - target: 01-human/07-system/sepsis
     relation: connects-to
     note: "It strips defenses and breaches the gut: the immunosuppression treating GVHD plus its destruction of the intestinal barrier let gut bacteria translocate, making infection and sepsis a leading cause of death."
+  - target: 02-pathogen/03-fungi/aspergillus-fumigatus
+    relation: connects-to
+    note: "Deep immunosuppression opens the lung to mold: the prolonged steroids and other immunosuppressants treating GVHD profoundly impair defenses, making invasive pulmonary aspergillosis a feared and frequent infection."
+  - target: 02-pathogen/03-fungi/pneumocystis-jirovecii
+    relation: connects-to
+    note: "T-cell suppression invites Pneumocystis: the immunosuppression controlling GVHD depletes the T-cell defenses against Pneumocystis, so PJP prophylaxis is standard for these transplant patients."
+  - target: 01-human/07-system/ckd
+    relation: connects-to
+    note: "Its drugs are hard on the kidney: the calcineurin inhibitors (ciclosporin, tacrolimus) central to GVHD prophylaxis and treatment are nephrotoxic, and chronic exposure can leave lasting chronic kidney disease."
 ---
 
 # Graft-Versus-Host Disease
@@ -385,6 +394,9 @@ The protective Treg/IL-10 axis is the key biological counterbalance to alloreact
 - `connects-to` → **[NF-κB](../../03-molecular/nf-kb/README.md)** — Tissue damage and alloantigen converge on NF-κB: conditioning injury and donor T-cell activation switch on NF-κB in host antigen-presenting cells and target tissues, amplifying the cytokine storm that drives acute GVHD.
 - `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — STAT3 steers the pathogenic T cells: downstream of IL-6 and IL-21, STAT3 drives the Th17 and effector responses central to GVHD, part of the JAK-STAT signaling that ruxolitinib targets in steroid-refractory disease.
 - `connects-to` → **[Sepsis](../sepsis/README.md)** — It strips defenses and breaches the gut: the immunosuppression treating GVHD plus its destruction of the intestinal barrier let gut bacteria translocate, making infection and sepsis a leading cause of death.
+- `connects-to` → **[Aspergillus fumigatus](../../../02-pathogen/03-fungi/aspergillus-fumigatus/README.md)** — Deep immunosuppression opens the lung to mold: the prolonged steroids and other immunosuppressants treating GVHD profoundly impair defenses, making invasive pulmonary aspergillosis a feared and frequent infection.
+- `connects-to` → **[Pneumocystis jirovecii](../../../02-pathogen/03-fungi/pneumocystis-jirovecii/README.md)** — T-cell suppression invites Pneumocystis: the immunosuppression controlling GVHD depletes the T-cell defenses against Pneumocystis, so PJP prophylaxis is standard for these transplant patients.
+- `connects-to` → **[Chronic Kidney Disease](../ckd/README.md)** — Its drugs are hard on the kidney: the calcineurin inhibitors (ciclosporin, tacrolimus) central to GVHD prophylaxis and treatment are nephrotoxic, and chronic exposure can leave lasting chronic kidney disease.
 
 [^ferrara-2009-gvhd-review]: Ferrara JL, Levine JE, Reddy P, Holler E. Graft-versus-host disease. *Lancet.* 2009;373(9674):1550-1561. [doi:10.1016/S0140-6736(09)60237-3](https://doi.org/10.1016/S0140-6736(09)60237-3) · [PubMed 19380114](https://pubmed.ncbi.nlm.nih.gov/19380114/)
 [^zeiser-2020-ruxolitinib-gvhd-reach]: Zeiser R, von Bubnoff N, Butler J, et al. Ruxolitinib for Glucocorticoid-Refractory Acute Graft-versus-Host Disease. *N Engl J Med.* 2020;382(19):1800-1810. [doi:10.1056/NEJMoa1917635](https://doi.org/10.1056/NEJMoa1917635) · [PubMed 32374962](https://pubmed.ncbi.nlm.nih.gov/32374962/)
