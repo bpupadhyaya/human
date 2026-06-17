@@ -196,6 +196,15 @@ cross_links:
   - target: 01-human/07-system/anemia-of-chronic-disease
     relation: connects-to
     note: "Marrow takeover and chemo blunt the count: Burkitt frequently infiltrates the bone marrow, and with its inflammatory cytokines and myelosuppressive therapy this produces anemia carrying a chronic-disease component."
+  - target: 01-human/07-system/heart-failure
+    relation: connects-to
+    note: "Its anthracyclines strain the heart: the doxorubicin in the intensive CODOX-M/IVAC and DA-EPOCH regimens for Burkitt is dose-dependently cardiotoxic, risking cardiomyopathy and heart failure."
+  - target: 01-human/07-system/neuropathic-pain
+    relation: connects-to
+    note: "Vincristine leaves the nerves raw: the vinca alkaloid central to Burkitt chemotherapy causes a dose-limiting peripheral neuropathy with numbness and neuropathic pain."
+  - target: 01-human/07-system/major-depressive-disorder
+    relation: connects-to
+    note: "A sudden, explosive cancer weighs on mood: Burkitt's rapid onset, urgent intensive chemotherapy and life-threatening course impose a heavy psychological burden contributing to depression."
 ---
 
 # Burkitt Lymphoma
@@ -390,6 +399,9 @@ FISH for MYC, BCL2, and BCL6 is essential; if BCL2 FISH negative and Ki-67 ~100%
 - `connects-to` → **[Aspergillus fumigatus](../../../02-pathogen/03-fungi/aspergillus-fumigatus/README.md)** — Intensive chemo strips the lung's defenses: the dose-dense regimens curing Burkitt cause profound neutropenia, letting inhaled Aspergillus invade as pulmonary aspergillosis, a feared infectious complication.
 - `connects-to` → **[Pneumocystis jirovecii](../../../02-pathogen/03-fungi/pneumocystis-jirovecii/README.md)** — Immunosuppression opens the lung to it: the intensive chemotherapy — and in HIV-associated cases the underlying immunodeficiency — deplete T-cell defenses, so Pneumocystis prophylaxis accompanies Burkitt treatment.
 - `connects-to` → **[Anemia of Chronic Disease](../anemia-of-chronic-disease/README.md)** — Marrow takeover and chemo blunt the count: Burkitt frequently infiltrates the bone marrow, and with its inflammatory cytokines and myelosuppressive therapy this produces anemia carrying a chronic-disease component.
+- `connects-to` → **[Heart Failure](../heart-failure/README.md)** — Its anthracyclines strain the heart: the doxorubicin in the intensive CODOX-M/IVAC and DA-EPOCH regimens for Burkitt is dose-dependently cardiotoxic, risking cardiomyopathy and heart failure.
+- `connects-to` → **[Neuropathic Pain](../neuropathic-pain/README.md)** — Vincristine leaves the nerves raw: the vinca alkaloid central to Burkitt chemotherapy causes a dose-limiting peripheral neuropathy with numbness and neuropathic pain.
+- `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — A sudden, explosive cancer weighs on mood: Burkitt's rapid onset, urgent intensive chemotherapy and life-threatening course impose a heavy psychological burden contributing to depression.
 
 ---
 

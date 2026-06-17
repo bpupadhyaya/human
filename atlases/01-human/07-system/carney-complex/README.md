@@ -196,6 +196,15 @@ cross_links:
   - target: 01-human/07-system/major-depressive-disorder
     relation: connects-to
     note: "Excess cortisol darkens mood: the Cushing syndrome of Carney complex commonly brings depression and mood disturbance, on top of the psychological burden of a multi-tumor hereditary disease."
+  - target: 01-human/07-system/hypertension
+    relation: connects-to
+    note: "Its cortisol excess drives up pressure: the Cushing syndrome from primary pigmented nodular adrenal disease in Carney complex raises blood pressure through cortisol's mineralocorticoid and vascular effects."
+  - target: 01-human/07-system/wound-healing
+    relation: connects-to
+    note: "Hypercortisolism and heart surgery both impair repair: the Cushing syndrome of Carney complex thins skin and slows healing, compounded by the wounds of repeated cardiac-myxoma operations."
+  - target: 01-human/07-system/sepsis
+    relation: connects-to
+    note: "Cortisol excess and recurrent surgery invite infection: the immunosuppression of Cushing syndrome plus the repeated open-heart operations to remove recurrent myxomas raise the risk of serious infection and sepsis."
 ---
 
 # Carney Complex
@@ -377,6 +386,9 @@ PRKAR1A somatic LOH occurs in ~15-20% of sporadic adrenocortical adenomas and ca
 - `connects-to` → **[Osteoporosis](../osteoporosis/README.md)** — Its cortisol excess thins the bone: the primary pigmented nodular adrenal disease of Carney complex causes Cushing syndrome, and the chronic cortisol excess drives osteoporosis and fragility fractures.
 - `connects-to` → **[Type 2 Diabetes](../type-2-diabetes/README.md)** — Endogenous Cushing's skews glucose: the cortisol overproduction of Carney complex's adrenal disease promotes insulin resistance and central obesity, frequently causing steroid-pattern diabetes.
 - `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — Excess cortisol darkens mood: the Cushing syndrome of Carney complex commonly brings depression and mood disturbance, on top of the psychological burden of a multi-tumor hereditary disease.
+- `connects-to` → **[Hypertension](../hypertension/README.md)** — Its cortisol excess drives up pressure: the Cushing syndrome from primary pigmented nodular adrenal disease in Carney complex raises blood pressure through cortisol's mineralocorticoid and vascular effects.
+- `connects-to` → **[Wound Healing](../wound-healing/README.md)** — Hypercortisolism and heart surgery both impair repair: the Cushing syndrome of Carney complex thins skin and slows healing, compounded by the wounds of repeated cardiac-myxoma operations.
+- `connects-to` → **[Sepsis](../sepsis/README.md)** — Cortisol excess and recurrent surgery invite infection: the immunosuppression of Cushing syndrome plus the repeated open-heart operations to remove recurrent myxomas raise the risk of serious infection and sepsis.
 
 ---
 
