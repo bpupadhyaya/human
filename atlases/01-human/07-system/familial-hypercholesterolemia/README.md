@@ -199,6 +199,15 @@ cross_links:
   - target: 01-human/07-system/gout
     relation: connects-to
     note: "Lipid and urate disturbances cluster: dyslipidemia and hyperuricemia frequently coexist, and FH patients carry the cardiometabolic context — and statin or niacin therapy effects on urate — that associate it with gout."
+  - target: 01-human/07-system/alzheimers-disease
+    relation: connects-to
+    note: "Cholesterol and cerebral atherosclerosis reach the mind: the lifelong high LDL of FH accelerates small- and large-vessel brain disease, contributing to vascular and mixed Alzheimer-type cognitive decline."
+  - target: 01-human/07-system/neuropathic-pain
+    relation: connects-to
+    note: "Its long-term statins can irritate nerves: alongside the more common myalgia, prolonged high-intensity statin therapy used to control FH has been linked in some patients to a peripheral neuropathy with neuropathic pain."
+  - target: 01-human/07-system/generalized-anxiety-disorder
+    relation: connects-to
+    note: "A genetic verdict of early heart disease breeds worry: learning of an inherited condition that threatens premature heart attacks, often after a relative's early death, fosters chronic health anxiety in FH families."
 ---
 
 # Familial Hypercholesterolemia
@@ -367,6 +376,9 @@ FH is a **monogenic autosomal dominant disorder** caused by mutations in three g
 - `connects-to` → **[Wound Healing](../wound-healing/README.md)** — Blocked leg arteries starve the wound: the premature peripheral arterial disease of FH cuts blood flow to the limbs, producing ischemic, slow-healing ulcers and, in critical limb ischemia, gangrene.
 - `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — A lifelong genetic verdict weighs on the mind: living with an inherited high risk of early heart attack, cascade family testing and lifelong therapy — sometimes with statin-related muscle symptoms — carries a real psychological burden.
 - `connects-to` → **[Gout](../gout/README.md)** — Lipid and urate disturbances cluster: dyslipidemia and hyperuricemia frequently coexist, and FH patients carry the cardiometabolic context — and statin or niacin therapy effects on urate — that associate it with gout.
+- `connects-to` → **[Alzheimer's Disease](../alzheimers-disease/README.md)** — Cholesterol and cerebral atherosclerosis reach the mind: the lifelong high LDL of FH accelerates small- and large-vessel brain disease, contributing to vascular and mixed Alzheimer-type cognitive decline.
+- `connects-to` → **[Neuropathic Pain](../neuropathic-pain/README.md)** — Its long-term statins can irritate nerves: alongside the more common myalgia, prolonged high-intensity statin therapy used to control FH has been linked in some patients to a peripheral neuropathy with neuropathic pain.
+- `connects-to` → **[Generalized Anxiety Disorder](../generalized-anxiety-disorder/README.md)** — A genetic verdict of early heart disease breeds worry: learning of an inherited condition that threatens premature heart attacks, often after a relative's early death, fosters chronic health anxiety in FH families.
 
 [^goldstein-1985-ldlr-nobel]: Goldstein JL, Brown MS. The LDL receptor. *Arterioscler Thromb Vasc Biol.* 2009;29(4):431-438. [doi:10.1161/ATVBAHA.108.179564](https://doi.org/10.1161/ATVBAHA.108.179564) · [PubMed 19299327](https://pubmed.ncbi.nlm.nih.gov/19299327/)
 [^raal-2020-inclisiran-fh]: Raal FJ, Kallend D, Ray KK, et al. Inclisiran for the Treatment of Heterozygous Familial Hypercholesterolemia. *N Engl J Med.* 2020;382(16):1520-1530. [doi:10.1056/NEJMoa1913805](https://doi.org/10.1056/NEJMoa1913805) · [PubMed 32197277](https://pubmed.ncbi.nlm.nih.gov/32197277/)
