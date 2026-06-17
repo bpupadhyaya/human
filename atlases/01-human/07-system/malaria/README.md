@@ -177,6 +177,15 @@ cross_links:
   - target: 01-human/04-cellular/natural-killer-cell
     relation: connects-to
     note: "Innate killers sound the first alarm: natural killer cells are among the earliest responders to blood-stage parasites, pouring out interferon-gamma that shapes the downstream immune response to the infection."
+  - target: 01-human/03-molecular/nf-kb
+    relation: connects-to
+    note: "Parasite debris lights the inflammatory fuse: hemozoin pigment and GPI anchors released when red cells rupture activate NF-κB in immune cells, driving the TNF surge that underlies the fever cycles and the cytokine storm of severe malaria."
+  - target: 01-human/07-system/stroke
+    relation: connects-to
+    note: "Cerebral malaria can stroke the brain: infected red cells sequester in and obstruct the brain's microvessels, causing the coma of cerebral malaria and leaving some survivors with focal deficits and stroke-like injury."
+  - target: 01-human/07-system/venous-thromboembolism
+    relation: connects-to
+    note: "Severe disease tips the blood toward clotting: falciparum malaria activates endothelium and coagulation, a prothrombotic state that, alongside its consumptive coagulopathy, raises the risk of venous thrombosis."
 ---
 
 # Malaria
@@ -388,6 +397,9 @@ cross_links:
 - `connects-to` → **[Cytotoxic T Cell](../../04-cellular/t-cytotoxic-cell/README.md)** — The liver stage is killed by T cells: cytotoxic CD8 T cells recognize Plasmodium-infected hepatocytes before the blood stage begins, the immunity that the RTS,S and R21 vaccines try to harness to stop infection at its silent start.
 - `connects-to` → **[Interleukin-10](../../03-molecular/il-10/README.md)** — A counter-cytokine decides severity: IL-10 restrains the TNF-driven inflammation of malaria, so the balance between them shapes whether infection stays mild or tips into cerebral malaria and severe disease.
 - `connects-to` → **[Natural Killer Cell](../../04-cellular/natural-killer-cell/README.md)** — Innate killers sound the first alarm: natural killer cells are among the earliest responders to blood-stage parasites, pouring out interferon-gamma that shapes the downstream immune response to the infection.
+- `connects-to` → **[NF-κB](../../03-molecular/nf-kb/README.md)** — Parasite debris lights the inflammatory fuse: hemozoin pigment and GPI anchors released when red cells rupture activate NF-κB in immune cells, driving the TNF surge that underlies the fever cycles and the cytokine storm of severe malaria.
+- `connects-to` → **[Stroke](../stroke/README.md)** — Cerebral malaria can stroke the brain: infected red cells sequester in and obstruct the brain's microvessels, causing the coma of cerebral malaria and leaving some survivors with focal deficits and stroke-like injury.
+- `connects-to` → **[Venous Thromboembolism](../venous-thromboembolism/README.md)** — Severe disease tips the blood toward clotting: falciparum malaria activates endothelium and coagulation, a prothrombotic state that, alongside its consumptive coagulopathy, raises the risk of venous thrombosis.
 
 [^who-malaria-report-2023]: World Health Organization. World Malaria Report 2023. WHO; 2023.
 [^white-2014-malaria-lancet]: White NJ, Pukrittayakamee S, Hien TT, et al. Malaria. *Lancet.* 2014;383(9918):723-735. [doi:10.1016/S0140-6736(13)60024-0](https://doi.org/10.1016/S0140-6736(13)60024-0) · [PubMed 23953767](https://pubmed.ncbi.nlm.nih.gov/23953767/)

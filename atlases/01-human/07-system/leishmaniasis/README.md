@@ -172,6 +172,15 @@ cross_links:
   - target: 01-human/04-cellular/mast-cell
     relation: connects-to
     note: "The fight starts at the bite: mast cells in the skin at the sandfly bite shape the earliest immune response to Leishmania, influencing whether the parasite is contained as a local sore or disseminates to the organs."
+  - target: 01-human/03-molecular/nf-kb
+    relation: connects-to
+    note: "The parasite silences the macrophage's alarm: Leishmania actively blocks NF-κB activation in the very cell it lives in, shutting down the nitric-oxide and cytokine killing program so it can survive inside the phagosome."
+  - target: 01-human/03-molecular/stat3
+    relation: connects-to
+    note: "It flips the macrophage to a tolerant state through STAT3: by inducing IL-10, Leishmania drives STAT3 signaling that deactivates the macrophage, a key switch toward the non-healing, parasite-permissive response of visceral disease."
+  - target: 01-human/03-molecular/tgf-beta
+    relation: connects-to
+    note: "An immunosuppressive cytokine helps it persist: Leishmania induces TGF-β that dampens protective Th1 immunity and promotes parasite survival, tilting the balance toward progressive, disseminated infection."
 ---
 
 # Leishmaniasis
@@ -325,3 +334,6 @@ HIV-VL co-infection: CD4+ depletion → loss of IFN-γ production → *Leishmani
 - `connects-to` → **[Sepsis](../sepsis/README.md)** — Most deaths come from other germs: visceral leishmaniasis cripples immunity and empties the blood counts, so patients succumb to secondary bacterial infections and sepsis — the proximate killer behind the parasite.
 - `connects-to` → **[Hepcidin](../../03-molecular/hepcidin/README.md)** — Inflammation locks away the iron: the chronic immune activation of kala-azar drives hepcidin up, trapping iron in macrophages and starving red-cell production — a key mechanism of the anemia that accompanies its huge spleen.
 - `connects-to` → **[Mast Cell](../../04-cellular/mast-cell/README.md)** — The fight starts at the bite: mast cells in the skin at the sandfly bite shape the earliest immune response to Leishmania, influencing whether the parasite is contained as a local sore or disseminates to the organs.
+- `connects-to` → **[NF-κB](../../03-molecular/nf-kb/README.md)** — The parasite silences the macrophage's alarm: Leishmania actively blocks NF-κB activation in the very cell it lives in, shutting down the nitric-oxide and cytokine killing program so it can survive inside the phagosome.
+- `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — It flips the macrophage to a tolerant state through STAT3: by inducing IL-10, Leishmania drives STAT3 signaling that deactivates the macrophage, a key switch toward the non-healing, parasite-permissive response of visceral disease.
+- `connects-to` → **[Transforming Growth Factor Beta](../../03-molecular/tgf-beta/README.md)** — An immunosuppressive cytokine helps it persist: Leishmania induces TGF-β that dampens protective Th1 immunity and promotes parasite survival, tilting the balance toward progressive, disseminated infection.
