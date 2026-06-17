@@ -183,6 +183,15 @@ cross_links:
   - target: 01-human/07-system/generalized-anxiety-disorder
     relation: connects-to
     note: "Anxiety is part of its psychiatric face: marked anxiety, often preceding the motor signs, is common in Huntington's, arising from the same striatal-cortical degeneration that drives its mood and behavioral changes."
+  - target: 02-pathogen/02-bacteria/streptococcus-pneumoniae
+    relation: connects-to
+    note: "Chorea and dysphagia send food to the lungs: progressive swallowing failure in Huntington's causes aspiration, and the resulting pneumonia — often pneumococcal — is the leading cause of death."
+  - target: 01-human/07-system/wound-healing
+    relation: connects-to
+    note: "Involuntary movement and late immobility break the skin: chorea causes repeated minor trauma, and the bedbound, malnourished end stage of Huntington's predisposes to pressure ulcers that heal poorly."
+  - target: 01-human/07-system/epilepsy
+    relation: connects-to
+    note: "It can ignite seizures: epilepsy is a recognized feature, especially of juvenile Huntington's disease, reflecting the cortical involvement of its neurodegeneration."
 sources:
   - id: gusella-1983-htt-locus
     type: peer-reviewed
@@ -289,3 +298,6 @@ HD disrupts multiple neural circuit functions:
 - `connects-to` → **[Heart Failure](../heart-failure/README.md)** — Its cardiomyopathy can fail the heart: mutant huntingtin's direct cardiac toxicity and autonomic dysfunction predispose to a cardiomyopathy and heart failure, a leading non-neurological cause of death in Huntington's.
 - `connects-to` → **[Osteoporosis](../osteoporosis/README.md)** — Wasting and falls fracture fragile bones: the relentless weight loss, immobility and frequent falls of advancing Huntington's leave low bone density and a high risk of osteoporotic fracture.
 - `connects-to` → **[Generalized Anxiety Disorder](../generalized-anxiety-disorder/README.md)** — Anxiety is part of its psychiatric face: marked anxiety, often preceding the motor signs, is common in Huntington's, arising from the same striatal-cortical degeneration that drives its mood and behavioral changes.
+- `connects-to` → **[Streptococcus pneumoniae](../../../02-pathogen/02-bacteria/streptococcus-pneumoniae/README.md)** — Chorea and dysphagia send food to the lungs: progressive swallowing failure in Huntington's causes aspiration, and the resulting pneumonia — often pneumococcal — is the leading cause of death.
+- `connects-to` → **[Wound Healing](../wound-healing/README.md)** — Involuntary movement and late immobility break the skin: chorea causes repeated minor trauma, and the bedbound, malnourished end stage of Huntington's predisposes to pressure ulcers that heal poorly.
+- `connects-to` → **[Epilepsy](../epilepsy/README.md)** — It can ignite seizures: epilepsy is a recognized feature, especially of juvenile Huntington's disease, reflecting the cortical involvement of its neurodegeneration.
