@@ -196,6 +196,15 @@ cross_links:
   - target: 01-human/07-system/major-depressive-disorder
     relation: connects-to
     note: "Lifelong cancer surveillance weighs on the mind: living with a high inherited risk of multiple cancers, frequent colonoscopies and the threat of new diagnoses gives Lynch syndrome carriers a substantial burden of depression."
+  - target: 01-human/07-system/generalized-anxiety-disorder
+    relation: connects-to
+    note: "Constant cancer surveillance breeds worry: the lifelong colonoscopic and multi-organ screening and inherited multi-cancer risk of Lynch syndrome foster chronic health anxiety alongside depression."
+  - target: 01-human/07-system/neuropathic-pain
+    relation: connects-to
+    note: "Its chemotherapy injures the nerves: the oxaliplatin used for the colorectal cancers of Lynch syndrome causes a cold-triggered, chronic peripheral neuropathy with neuropathic pain."
+  - target: 02-pathogen/03-fungi/aspergillus-fumigatus
+    relation: connects-to
+    note: "Chemotherapy opens the lung to mold: the neutropenia from chemotherapy for the colorectal and other cancers of Lynch syndrome can let inhaled Aspergillus invade as pulmonary aspergillosis."
 ---
 
 # Lynch Syndrome
@@ -395,6 +404,9 @@ MSI-H stage II CRC: adjuvant 5-FU/leucovorin does NOT improve OS (may be harmful
 - `connects-to` → **[Chronic Kidney Disease](../ckd/README.md)** — Its urinary-tract cancers can block the kidneys: Lynch syndrome predisposes to upper-tract urothelial carcinoma, which obstructs the ureters into hydronephrosis, and the platinum chemo for its cancers adds nephrotoxicity threatening chronic kidney disease.
 - `connects-to` → **[Heart Failure](../heart-failure/README.md)** — Its colorectal-cancer chemo can wound the heart: the 5-fluorouracil and oxaliplatin used against Lynch-associated colorectal cancer cause coronary vasospasm and cardiotoxicity that can precipitate cardiac dysfunction.
 - `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — Lifelong cancer surveillance weighs on the mind: living with a high inherited risk of multiple cancers, frequent colonoscopies and the threat of new diagnoses gives Lynch syndrome carriers a substantial burden of depression.
+- `connects-to` → **[Generalized Anxiety Disorder](../generalized-anxiety-disorder/README.md)** — Constant cancer surveillance breeds worry: the lifelong colonoscopic and multi-organ screening and inherited multi-cancer risk of Lynch syndrome foster chronic health anxiety alongside depression.
+- `connects-to` → **[Neuropathic Pain](../neuropathic-pain/README.md)** — Its chemotherapy injures the nerves: the oxaliplatin used for the colorectal cancers of Lynch syndrome causes a cold-triggered, chronic peripheral neuropathy with neuropathic pain.
+- `connects-to` → **[Aspergillus fumigatus](../../../02-pathogen/03-fungi/aspergillus-fumigatus/README.md)** — Chemotherapy opens the lung to mold: the neutropenia from chemotherapy for the colorectal and other cancers of Lynch syndrome can let inhaled Aspergillus invade as pulmonary aspergillosis.
 
 [^bonadona-2011-lynch-risks]: Bonadona V, Bonaïti B, Olschwang S, et al. Cancer risks associated with germline mutations in MLH1, MSH2, and MSH6 genes in Lynch syndrome. *JAMA.* 2011;305(22):2304-2310. [doi:10.1001/jama.2011.743](https://doi.org/10.1001/jama.2011.743) · [PubMed 21642683](https://pubmed.ncbi.nlm.nih.gov/21642683/)
 [^lynch-2015-lynch-review]: Lynch HT, Snyder CL, Shaw TG, et al. Milestones of Lynch syndrome: 1895-2015. *Nat Rev Cancer.* 2015;15(3):181-194. [doi:10.1038/nrc3878](https://doi.org/10.1038/nrc3878) · [PubMed 25673086](https://pubmed.ncbi.nlm.nih.gov/25673086/)
