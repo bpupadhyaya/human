@@ -185,6 +185,15 @@ cross_links:
   - target: 01-human/03-molecular/fgf23
     relation: connects-to
     note: "Bone is an endocrine organ too: osteocytes secrete FGF23 to tell the kidney to excrete phosphate and curb active vitamin D, a bone-kidney hormonal axis that fails early in chronic kidney disease."
+  - target: 01-human/07-system/tuberculosis
+    relation: connects-to
+    note: "An old infection can shut down the adrenals: tuberculosis is a classic cause of primary adrenal insufficiency (Addison's), destroying the adrenal cortex and crippling the body's cortisol and aldosterone output."
+  - target: 01-human/07-system/vhl-disease
+    relation: connects-to
+    note: "It seeds tumors across endocrine glands: VHL disease causes pheochromocytomas of the adrenal medulla and pancreatic neuroendocrine tumors, a hereditary disorder striking multiple endocrine organs at once."
+  - target: 01-human/07-system/cowden-syndrome
+    relation: connects-to
+    note: "It targets the thyroid above all: Cowden syndrome causes goiter, benign thyroid nodules and a high risk of thyroid cancer, one of its defining endocrine manifestations alongside breast and uterine tumors."
 ---
 
 # Endocrine System
@@ -398,6 +407,9 @@ The endocrine system coordinates fuel metabolism across multiple organs in respo
 - `connects-to` → **[Neuroendocrine Tumors](../neuroendocrine-tumors/README.md)** — Its hormone-making cells can turn into tumors: neuroendocrine tumors arise from the dispersed endocrine cells of the gut, pancreas and lungs, sometimes secreting hormones that cause florid syndromes — the malignant face of the endocrine system.
 - `connects-to` → **[GLP-1](../../03-molecular/glp-1/README.md)** — The gut is the body's largest endocrine organ: L-cells release the incretin GLP-1 after meals to spur insulin and curb appetite, the gut-hormone axis now harnessed by blockbuster diabetes and weight drugs.
 - `connects-to` → **[FGF23](../../03-molecular/fgf23/README.md)** — Bone is an endocrine organ too: osteocytes secrete FGF23 to tell the kidney to excrete phosphate and curb active vitamin D, a bone-kidney hormonal axis that fails early in chronic kidney disease.
+- `connects-to` → **[Tuberculosis](../tuberculosis/README.md)** — An old infection can shut down the adrenals: tuberculosis is a classic cause of primary adrenal insufficiency (Addison's), destroying the adrenal cortex and crippling the body's cortisol and aldosterone output.
+- `connects-to` → **[VHL Disease](../vhl-disease/README.md)** — It seeds tumors across endocrine glands: VHL disease causes pheochromocytomas of the adrenal medulla and pancreatic neuroendocrine tumors, a hereditary disorder striking multiple endocrine organs at once.
+- `connects-to` → **[Cowden Syndrome](../cowden-syndrome/README.md)** — It targets the thyroid above all: Cowden syndrome causes goiter, benign thyroid nodules and a high risk of thyroid cancer, one of its defining endocrine manifestations alongside breast and uterine tumors.
 
 ## Pathology
 

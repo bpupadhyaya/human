@@ -187,6 +187,15 @@ cross_links:
   - target: 01-human/07-system/nervous-system
     relation: connects-to
     note: "It can seed the central nervous system: high-risk DLBCL spreads to the leptomeninges and brain as secondary CNS lymphoma, a feared relapse that prompts CNS prophylaxis in those at greatest risk."
+  - target: 02-pathogen/01-viruses/hepatitis-b-virus
+    relation: connects-to
+    note: "Anti-CD20 therapy can reactivate it: the rituximab in R-CHOP depletes B cells and can reawaken latent hepatitis B into fulminant hepatitis, so screening and antiviral prophylaxis precede treatment."
+  - target: 02-pathogen/03-fungi/pneumocystis-jirovecii
+    relation: connects-to
+    note: "Its chemoimmunotherapy opens the lung: R-CHOP and especially regimens with steroids deplete T-cell defenses, so Pneumocystis pneumonia is a risk and prophylaxis is given with more intensive DLBCL treatment."
+  - target: 01-human/07-system/heart-failure
+    relation: connects-to
+    note: "Its anthracycline scars the heart: the doxorubicin in R-CHOP is dose-dependently cardiotoxic, leaving some DLBCL survivors with a cardiomyopathy and heart failure that can emerge years later."
 ---
 
 # Diffuse Large B-Cell Lymphoma
@@ -365,6 +374,9 @@ DLBCL is an aggressive malignancy of mature B cells. The normal equivalents are 
 - `connects-to` → **[Venous Thromboembolism](../venous-thromboembolism/README.md)** — An aggressive lymphoma that clots: DLBCL carries a high venous thromboembolism risk through tumor-driven hypercoagulability, compounded by central venous catheters and the immobility of intensive treatment.
 - `connects-to` → **[Sepsis](../sepsis/README.md)** — R-CHOP empties the marrow's defenses: the chemoimmunotherapy that cures most DLBCL causes neutropenia, so febrile neutropenia and sepsis are the leading treatment-related danger.
 - `connects-to` → **[Nervous System](../nervous-system/README.md)** — It can seed the central nervous system: high-risk DLBCL spreads to the leptomeninges and brain as secondary CNS lymphoma, a feared relapse that prompts CNS prophylaxis in those at greatest risk.
+- `connects-to` → **[Hepatitis B Virus](../../../02-pathogen/01-viruses/hepatitis-b-virus/README.md)** — Anti-CD20 therapy can reactivate it: the rituximab in R-CHOP depletes B cells and can reawaken latent hepatitis B into fulminant hepatitis, so screening and antiviral prophylaxis precede treatment.
+- `connects-to` → **[Pneumocystis jirovecii](../../../02-pathogen/03-fungi/pneumocystis-jirovecii/README.md)** — Its chemoimmunotherapy opens the lung: R-CHOP and especially regimens with steroids deplete T-cell defenses, so Pneumocystis pneumonia is a risk and prophylaxis is given with more intensive DLBCL treatment.
+- `connects-to` → **[Heart Failure](../heart-failure/README.md)** — Its anthracycline scars the heart: the doxorubicin in R-CHOP is dose-dependently cardiotoxic, leaving some DLBCL survivors with a cardiomyopathy and heart failure that can emerge years later.
 
 ---
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
