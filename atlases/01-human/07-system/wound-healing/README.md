@@ -193,6 +193,15 @@ cross_links:
   - target: 01-human/07-system/anemia-of-chronic-disease
     relation: connects-to
     note: "Low oxygen-carrying capacity stalls repair: anemia of chronic disease reduces the oxygen reaching the wound bed needed for collagen cross-linking and the respiratory burst, slowing closure in chronically ill patients."
+  - target: 01-human/07-system/rheumatoid-arthritis
+    relation: connects-to
+    note: "Its drugs impair the healing it needs after surgery: corticosteroids, methotrexate and biologics used in rheumatoid arthritis blunt inflammation and collagen synthesis, raising the rate of wound dehiscence and infection after operations."
+  - target: 01-human/07-system/osteoporosis
+    relation: connects-to
+    note: "Bone repair is wound healing of the skeleton: fracture union recapitulates the same inflammatory, proliferative and remodeling phases, so the impaired healing of aging and chronic disease also delays the union of osteoporotic fractures."
+  - target: 01-human/07-system/major-depressive-disorder
+    relation: connects-to
+    note: "Mind and wound feed back on each other: the cortisol and inflammation of depression measurably slow wound closure, while chronic non-healing wounds, pain and disability in turn drive depression."
 ---
 
 # Wound Healing
@@ -370,6 +379,9 @@ cross_links:
 - `connects-to` → **[Candida albicans](../../../02-pathogen/03-fungi/candida-albicans/README.md)** — It colonizes wounds that won't close: Candida joins bacteria in the biofilms of chronic non-healing ulcers, and its presence sustains the inflammatory, proteolytic environment that keeps a wound stuck in the inflammatory phase.
 - `connects-to` → **[Atherosclerosis](../atherosclerosis/README.md)** — Starved of blood, tissue cannot rebuild: peripheral arterial disease from atherosclerosis cuts oxygen and nutrient delivery to a wound bed, a leading cause of ischemic, non-healing lower-limb ulcers and amputation.
 - `connects-to` → **[Anemia of Chronic Disease](../anemia-of-chronic-disease/README.md)** — Low oxygen-carrying capacity stalls repair: anemia of chronic disease reduces the oxygen reaching the wound bed needed for collagen cross-linking and the respiratory burst, slowing closure in chronically ill patients.
+- `connects-to` → **[Rheumatoid Arthritis](../rheumatoid-arthritis/README.md)** — Its drugs impair the healing it needs after surgery: corticosteroids, methotrexate and biologics used in rheumatoid arthritis blunt inflammation and collagen synthesis, raising the rate of wound dehiscence and infection after operations.
+- `connects-to` → **[Osteoporosis](../osteoporosis/README.md)** — Bone repair is wound healing of the skeleton: fracture union recapitulates the same inflammatory, proliferative and remodeling phases, so the impaired healing of aging and chronic disease also delays the union of osteoporotic fractures.
+- `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — Mind and wound feed back on each other: the cortisol and inflammation of depression measurably slow wound closure, while chronic non-healing wounds, pain and disability in turn drive depression.
 
 [^singer-1999-wound-healing-review]: Singer AJ, Clark RA. Cutaneous wound healing. *N Engl J Med.* 1999;341(10):738-746. [doi:10.1056/NEJM199909023411006](https://doi.org/10.1056/NEJM199909023411006) · [PubMed 10471461](https://pubmed.ncbi.nlm.nih.gov/10471461/)
 [^gurtner-2008-wound-repair-regeneration]: Gurtner GC, Werner S, Barrandon Y, Longaker MT. Wound repair and regeneration. *Nature.* 2008;453(7193):314-321. [doi:10.1038/nature07039](https://doi.org/10.1038/nature07039) · [PubMed 18480812](https://pubmed.ncbi.nlm.nih.gov/18480812/)
