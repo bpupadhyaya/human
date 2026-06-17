@@ -202,6 +202,15 @@ cross_links:
   - target: 01-human/07-system/obsessive-compulsive-disorder
     relation: connects-to
     note: "Shared serotonergic wiring links them: OCD is over-represented among people with migraine, the two sharing serotonin-system dysregulation that underlies both the headache and the intrusive-thought disorder."
+  - target: 01-human/07-system/atherosclerosis
+    relation: connects-to
+    note: "Aura signals vascular dysfunction: migraine with aura is associated with endothelial dysfunction and accelerated atherosclerosis, part of why it carries elevated cardiovascular and cerebrovascular risk."
+  - target: 01-human/07-system/hypertension
+    relation: connects-to
+    note: "Headache and blood pressure travel together: migraine and hypertension are bidirectionally comorbid, and uncontrolled hypertension can worsen headache while some antihypertensives double as migraine prophylaxis."
+  - target: 01-human/07-system/venous-thromboembolism
+    relation: connects-to
+    note: "Aura plus estrogen raises the clot risk: migraine with aura carries a prothrombotic tendency, and combined with estrogen-containing contraception it elevates the risk of venous thromboembolism, prompting caution in prescribing."
 ---
 
 # Migraine
@@ -400,6 +409,9 @@ Episodic migraine (EM, <15 headache days/month) transforms to **chronic migraine
 - `connects-to` → **[Chronic Kidney Disease](../ckd/README.md)** — Overusing painkillers scars the kidney: the chronic NSAID and combination-analgesic use of frequent migraine can cause analgesic nephropathy, a slow interstitial injury that progresses to chronic kidney disease.
 - `connects-to` → **[Social Anxiety Disorder](../social-anxiety-disorder/README.md)** — Unpredictable attacks breed social fear: migraine carries elevated rates of social anxiety, as the fear of being struck by disabling head pain in public fosters avoidance, sharing serotonergic dysregulation.
 - `connects-to` → **[Obsessive-Compulsive Disorder](../obsessive-compulsive-disorder/README.md)** — Shared serotonergic wiring links them: OCD is over-represented among people with migraine, the two sharing serotonin-system dysregulation that underlies both the headache and the intrusive-thought disorder.
+- `connects-to` → **[Atherosclerosis](../atherosclerosis/README.md)** — Aura signals vascular dysfunction: migraine with aura is associated with endothelial dysfunction and accelerated atherosclerosis, part of why it carries elevated cardiovascular and cerebrovascular risk.
+- `connects-to` → **[Hypertension](../hypertension/README.md)** — Headache and blood pressure travel together: migraine and hypertension are bidirectionally comorbid, and uncontrolled hypertension can worsen headache while some antihypertensives double as migraine prophylaxis.
+- `connects-to` → **[Venous Thromboembolism](../venous-thromboembolism/README.md)** — Aura plus estrogen raises the clot risk: migraine with aura carries a prothrombotic tendency, and combined with estrogen-containing contraception it elevates the risk of venous thromboembolism, prompting caution in prescribing.
 
 [^gbd-2016-migraine-burden]: GBD 2016 Headache Collaborators. Global, regional, and national burden of migraine and tension-type headache, 1990-2016. *Lancet Neurol.* 2018;17(11):954-976. [doi:10.1016/S1474-4422(18)30322-3](https://doi.org/10.1016/S1474-4422(18)30322-3) · [PubMed 30353868](https://pubmed.ncbi.nlm.nih.gov/30353868/)
 [^goadsby-2002-migraine-review]: Goadsby PJ, Lipton RB, Ferrari MD. Migraine — current understanding and treatment. *N Engl J Med.* 2002;346(4):257-270. [doi:10.1056/NEJMra010917](https://doi.org/10.1056/NEJMra010917) · [PubMed 11807151](https://pubmed.ncbi.nlm.nih.gov/11807151/)
