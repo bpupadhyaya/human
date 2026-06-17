@@ -199,6 +199,15 @@ cross_links:
   - target: 01-human/07-system/opioid-use-disorder
     relation: connects-to
     note: "A lifetime of pain crises courts dependence: the recurrent severe vaso-occlusive pain of sickle cell disease requires repeated and long-term opioids, carrying a real risk of tolerance and opioid use disorder."
+  - target: 01-human/07-system/wound-healing
+    relation: connects-to
+    note: "Vaso-occlusion ulcerates the legs: chronic ischemia and impaired perfusion in sickle cell disease produce the painful, recurrent leg ulcers over the ankles that are notoriously slow to heal."
+  - target: 02-pathogen/02-bacteria/neisseria-meningitidis
+    relation: connects-to
+    note: "Autosplenectomy strips defense against encapsulated bacteria: repeated splenic infarction leaves sickle cell patients functionally asplenic and vulnerable to meningococcus, alongside pneumococcus and Salmonella."
+  - target: 01-human/07-system/major-depressive-disorder
+    relation: connects-to
+    note: "Lifelong pain and disease weigh on mood: the recurrent crises, hospitalizations, stigma and chronic pain of sickle cell disease carry a substantial burden of depression and reduced quality of life."
 ---
 
 # Sickle Cell Disease
@@ -418,6 +427,9 @@ SCD vaso-occlusion is not just from sickled RBCs mechanically blocking vessels �
 - `connects-to` → **[Osteoporosis](../osteoporosis/README.md)** — The marrow and infarcts weaken the skeleton: chronic marrow hyperplasia, bone infarction and delayed growth in sickle cell disease leave low bone density and a high rate of osteoporosis and avascular necrosis.
 - `connects-to` → **[Heart Failure](../heart-failure/README.md)** — Anemia and iron strain the heart: the chronic high-output state of sickle anemia, transfusional iron loading of the myocardium and pulmonary hypertension together drive a cardiomyopathy and heart failure.
 - `connects-to` → **[Opioid Use Disorder](../opioid-use-disorder/README.md)** — A lifetime of pain crises courts dependence: the recurrent severe vaso-occlusive pain of sickle cell disease requires repeated and long-term opioids, carrying a real risk of tolerance and opioid use disorder.
+- `connects-to` → **[Wound Healing](../wound-healing/README.md)** — Vaso-occlusion ulcerates the legs: chronic ischemia and impaired perfusion in sickle cell disease produce the painful, recurrent leg ulcers over the ankles that are notoriously slow to heal.
+- `connects-to` → **[Neisseria meningitidis](../../../02-pathogen/02-bacteria/neisseria-meningitidis/README.md)** — Autosplenectomy strips defense against encapsulated bacteria: repeated splenic infarction leaves sickle cell patients functionally asplenic and vulnerable to meningococcus, alongside pneumococcus and Salmonella.
+- `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — Lifelong pain and disease weigh on mood: the recurrent crises, hospitalizations, stigma and chronic pain of sickle cell disease carry a substantial burden of depression and reduced quality of life.
 
 [^steinberg-1999-scd-management]: Steinberg MH. Management of sickle cell disease. *N Engl J Med.* 1999;340(13):1021-1030. [doi:10.1056/NEJM199904013401307](https://doi.org/10.1056/NEJM199904013401307) · [PubMed 10099145](https://pubmed.ncbi.nlm.nih.gov/10099145/)
 [^vichinsky-2000-acs-scd]: Vichinsky EP, Neumayr LD, Earles AN, et al. Causes and outcomes of the acute chest syndrome in sickle cell disease. *N Engl J Med.* 2000;342(25):1855-1865. [doi:10.1056/NEJM200006223422502](https://doi.org/10.1056/NEJM200006223422502) · [PubMed 10861320](https://pubmed.ncbi.nlm.nih.gov/10861320/)

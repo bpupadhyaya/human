@@ -199,6 +199,15 @@ cross_links:
   - target: 01-human/07-system/fibromyalgia
     relation: connects-to
     note: "Anxiety and chronic pain travel together: social anxiety is over-represented in fibromyalgia, the shared central stress-and-pain processing amplifying both the bodily pain and the social fear."
+  - target: 01-human/07-system/asthma
+    relation: connects-to
+    note: "Breathlessness and social fear intertwine: social anxiety is elevated in asthma, where visible symptoms and inhaler use in public, plus the panic of air hunger, reinforce avoidance and worse control."
+  - target: 01-human/07-system/hypertension
+    relation: connects-to
+    note: "Performance stress spikes the pressure: the intense sympathetic surges of feared social situations, on a background of chronic stress arousal, contribute over time to hypertension."
+  - target: 01-human/07-system/type-2-diabetes
+    relation: connects-to
+    note: "Chronic stress and avoidance tilt toward diabetes: sustained cortisol arousal, comfort eating and the inactivity of social avoidance contribute to the insulin resistance behind type 2 diabetes."
 ---
 
 # Social Anxiety Disorder
@@ -389,6 +398,9 @@ The unique **dopaminergic social reward deficit** in SAD has clinical implicatio
 - `connects-to` → **[Obesity](../obesity/README.md)** — Avoidance and comfort eating add weight: the social withdrawal and reduced activity of social anxiety, plus stress-driven eating, contribute to obesity, compounding the disorder's physical-health burden.
 - `connects-to` → **[Binge Eating Disorder](../binge-eating-disorder/README.md)** — Shame can drive secret eating: social anxiety frequently co-occurs with binge eating disorder, where fear of judgment fuels solitary, distressing binges that deepen isolation.
 - `connects-to` → **[Fibromyalgia](../fibromyalgia/README.md)** — Anxiety and chronic pain travel together: social anxiety is over-represented in fibromyalgia, the shared central stress-and-pain processing amplifying both the bodily pain and the social fear.
+- `connects-to` → **[Asthma](../asthma/README.md)** — Breathlessness and social fear intertwine: social anxiety is elevated in asthma, where visible symptoms and inhaler use in public, plus the panic of air hunger, reinforce avoidance and worse control.
+- `connects-to` → **[Hypertension](../hypertension/README.md)** — Performance stress spikes the pressure: the intense sympathetic surges of feared social situations, on a background of chronic stress arousal, contribute over time to hypertension.
+- `connects-to` → **[Type 2 Diabetes](../type-2-diabetes/README.md)** — Chronic stress and avoidance tilt toward diabetes: sustained cortisol arousal, comfort eating and the inactivity of social avoidance contribute to the insulin resistance behind type 2 diabetes.
 
 [^liebowitz-1987-sad-scale]: Liebowitz MR. Social phobia. *Mod Probl Pharmacopsychiatry.* 1987;22:141-173. [PubMed 2885745](https://pubmed.ncbi.nlm.nih.gov/2885745/)
 [^stein-2008-sad-review]: Stein MB, Stein DJ. Social anxiety disorder. *Lancet.* 2008;371(9618):1115-1125. [doi:10.1016/S0140-6736(08)60488-2](https://doi.org/10.1016/S0140-6736(08)60488-2) · [PubMed 18374843](https://pubmed.ncbi.nlm.nih.gov/18374843/)
