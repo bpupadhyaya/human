@@ -178,6 +178,15 @@ cross_links:
   - target: 01-human/04-cellular/adipocyte
     relation: connects-to
     note: "Aggressive subtypes burrow into fat: infiltrative and morpheaform basal cell carcinomas extend deep into the subcutaneous adipocyte layer, a spread that widens surgical margins and is why Mohs surgery traces the tumor's edges."
+  - target: 01-human/03-molecular/stat3
+    relation: connects-to
+    note: "UV and inflammation activate STAT3 in the skin: STAT3 signaling promotes keratinocyte survival and proliferation after UV damage, contributing to the non-melanoma skin carcinogenesis that gives rise to basal cell carcinoma."
+  - target: 01-human/07-system/cll
+    relation: connects-to
+    note: "A leukemia that lets skin cancers run: chronic lymphocytic leukemia's immune dysfunction sharply raises the incidence and aggressiveness of basal cell and other skin cancers, which behave more invasively in these patients."
+  - target: 01-human/07-system/sepsis
+    relation: connects-to
+    note: "A neglected giant tumor can become infected: although basal cell carcinoma almost never metastasizes, large ulcerated or neglected lesions—especially in immunosuppressed patients—can develop wound infection that progresses to sepsis."
 ---
 
 # Basal Cell Carcinoma
@@ -353,6 +362,9 @@ BCC has a complex immune microenvironment:
 - `connects-to` → **[Psoriasis](../psoriasis/README.md)** — Light therapy for psoriasis carries a cost: long-term PUVA (psoralen plus UVA) phototherapy raises the lifetime risk of non-melanoma skin cancers including basal cell carcinoma, so cumulative dose is tracked and skin surveyed.
 - `connects-to` → **[Graft-Versus-Host Disease](../gvhd/README.md)** — Transplant survivors grow skin cancers: chronic graft-versus-host disease and its prolonged immunosuppression—compounded by photosensitizing voriconazole—drive basal cell and other skin cancers in allogeneic stem-cell transplant recipients.
 - `connects-to` → **[Adipocyte](../../04-cellular/adipocyte/README.md)** — Aggressive subtypes burrow into fat: infiltrative and morpheaform basal cell carcinomas extend deep into the subcutaneous adipocyte layer, a spread that widens surgical margins and is why Mohs surgery traces the tumor's edges.
+- `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — UV and inflammation activate STAT3 in the skin: STAT3 signaling promotes keratinocyte survival and proliferation after UV damage, contributing to the non-melanoma skin carcinogenesis that gives rise to basal cell carcinoma.
+- `connects-to` → **[CLL](../cll/README.md)** — A leukemia that lets skin cancers run: chronic lymphocytic leukemia's immune dysfunction sharply raises the incidence and aggressiveness of basal cell and other skin cancers, which behave more invasively in these patients.
+- `connects-to` → **[Sepsis](../sepsis/README.md)** — A neglected giant tumor can become infected: although basal cell carcinoma almost never metastasizes, large ulcerated or neglected lesions—especially in immunosuppressed patients—can develop wound infection that progresses to sepsis.
 
 ---
 

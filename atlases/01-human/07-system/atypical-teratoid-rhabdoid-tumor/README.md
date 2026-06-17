@@ -178,6 +178,15 @@ cross_links:
   - target: 01-human/04-cellular/endothelial-cell
     relation: connects-to
     note: "ATRT recruits a dense blood supply: the tumor is highly vascular and VEGF-driven, so its endothelial cells sustain rapid growth and make antiangiogenic strategies a line of investigation alongside cytotoxic therapy."
+  - target: 01-human/03-molecular/stat3
+    relation: connects-to
+    note: "Rhabdoid cells lean on STAT3: SMARCB1-deficient ATRT shows STAT3 activation supporting proliferation and survival, one of the signaling dependencies explored where this aggressive infant tumor resists standard therapy."
+  - target: 01-human/03-molecular/nf-kb
+    relation: connects-to
+    note: "Loss of the SWI/SNF brake lifts NF-κB: SMARCB1 loss in ATRT derepresses inflammatory and survival signaling including NF-κB, contributing to the tumor's growth in the absence of its chromatin-remodeling tumor suppressor."
+  - target: 01-human/07-system/sepsis
+    relation: connects-to
+    note: "Intensive infant therapy invites infection: the high-dose chemotherapy and sometimes stem-cell rescue used against ATRT cause profound neutropenia, making febrile neutropenia and sepsis a major treatment hazard in these young children."
 ---
 
 # Atypical Teratoid/Rhabdoid Tumor
@@ -350,6 +359,9 @@ AT/RT has no established standard of care; protocols are protocol-driven and cen
 - `connects-to` → **[Epilepsy](../epilepsy/README.md)** — The growing mass irritates the cortex: like other brain tumors, ATRT can present with or cause seizures as it expands and raises intracranial pressure, so seizure control is part of the supportive care for these infants.
 - `connects-to` → **[Meningioma](../meningioma/README.md)** — SMARCB1 loss spans CNS tumors: germline SMARCB1 inactivation that causes ATRT also predisposes to familial multiple meningiomas and schwannomas, placing them in one SWI-SNF tumor-predisposition spectrum.
 - `connects-to` → **[Endothelial Cell](../../04-cellular/endothelial-cell/README.md)** — ATRT recruits a dense blood supply: the tumor is highly vascular and VEGF-driven, so its endothelial cells sustain rapid growth and make antiangiogenic strategies a line of investigation alongside cytotoxic therapy.
+- `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — Rhabdoid cells lean on STAT3: SMARCB1-deficient ATRT shows STAT3 activation supporting proliferation and survival, one of the signaling dependencies explored where this aggressive infant tumor resists standard therapy.
+- `connects-to` → **[NF-κB](../../03-molecular/nf-kb/README.md)** — Loss of the SWI/SNF brake lifts NF-κB: SMARCB1 loss in ATRT derepresses inflammatory and survival signaling including NF-κB, contributing to the tumor's growth in the absence of its chromatin-remodeling tumor suppressor.
+- `connects-to` → **[Sepsis](../sepsis/README.md)** — Intensive infant therapy invites infection: the high-dose chemotherapy and sometimes stem-cell rescue used against ATRT cause profound neutropenia, making febrile neutropenia and sepsis a major treatment hazard in these young children.
 
 ---
 
