@@ -178,6 +178,15 @@ cross_links:
   - target: 01-human/04-cellular/endothelial-cell
     relation: connects-to
     note: "A rare variant lives inside the vessels: intravascular large B-cell lymphoma grows within small-vessel lumens against the endothelium, causing strokes and organ ischemia without forming a mass — a notoriously elusive DLBCL subtype."
+  - target: 01-human/07-system/venous-thromboembolism
+    relation: connects-to
+    note: "An aggressive lymphoma that clots: DLBCL carries a high venous thromboembolism risk through tumor-driven hypercoagulability, compounded by central venous catheters and the immobility of intensive treatment."
+  - target: 01-human/07-system/sepsis
+    relation: connects-to
+    note: "R-CHOP empties the marrow's defenses: the chemoimmunotherapy that cures most DLBCL causes neutropenia, so febrile neutropenia and sepsis are the leading treatment-related danger."
+  - target: 01-human/07-system/nervous-system
+    relation: connects-to
+    note: "It can seed the central nervous system: high-risk DLBCL spreads to the leptomeninges and brain as secondary CNS lymphoma, a feared relapse that prompts CNS prophylaxis in those at greatest risk."
 ---
 
 # Diffuse Large B-Cell Lymphoma
@@ -353,6 +362,9 @@ DLBCL is an aggressive malignancy of mature B cells. The normal equivalents are 
 - `connects-to` → **[MYD88](../../03-molecular/myd88/README.md)** — MYD88 L265P drives the aggressive subtype: this recurrent mutation in activated B-cell DLBCL (and PCNSL) constitutively fires Toll-like/IL-1 signaling into NF-κB, sustaining the tumor and marking a target alongside BTK inhibition.
 - `connects-to` → **[Sjögren's Syndrome](../sjogrens-syndrome/README.md)** — Chronic autoimmune stimulation can end in DLBCL: the relentless B-cell drive of Sjögren's syndrome and other autoimmune diseases raises lymphoma risk, with marginal-zone lymphomas able to transform into aggressive DLBCL.
 - `connects-to` → **[Endothelial Cell](../../04-cellular/endothelial-cell/README.md)** — A rare variant lives inside the vessels: intravascular large B-cell lymphoma grows within small-vessel lumens against the endothelium, causing strokes and organ ischemia without forming a mass — a notoriously elusive DLBCL subtype.
+- `connects-to` → **[Venous Thromboembolism](../venous-thromboembolism/README.md)** — An aggressive lymphoma that clots: DLBCL carries a high venous thromboembolism risk through tumor-driven hypercoagulability, compounded by central venous catheters and the immobility of intensive treatment.
+- `connects-to` → **[Sepsis](../sepsis/README.md)** — R-CHOP empties the marrow's defenses: the chemoimmunotherapy that cures most DLBCL causes neutropenia, so febrile neutropenia and sepsis are the leading treatment-related danger.
+- `connects-to` → **[Nervous System](../nervous-system/README.md)** — It can seed the central nervous system: high-risk DLBCL spreads to the leptomeninges and brain as secondary CNS lymphoma, a feared relapse that prompts CNS prophylaxis in those at greatest risk.
 
 ---
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*

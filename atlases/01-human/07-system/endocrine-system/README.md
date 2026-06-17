@@ -176,6 +176,15 @@ cross_links:
   - target: 01-human/03-molecular/calcitonin
     relation: connects-to
     note: "Calcitonin rounds out calcium control: secreted by thyroid C-cells it lowers blood calcium opposite parathyroid hormone, and as a tumor marker it flags medullary thyroid carcinoma within the endocrine system."
+  - target: 01-human/07-system/neuroendocrine-tumors
+    relation: connects-to
+    note: "Its hormone-making cells can turn into tumors: neuroendocrine tumors arise from the dispersed endocrine cells of the gut, pancreas and lungs, sometimes secreting hormones that cause florid syndromes — the malignant face of the endocrine system."
+  - target: 01-human/03-molecular/glp-1
+    relation: connects-to
+    note: "The gut is the body's largest endocrine organ: L-cells release the incretin GLP-1 after meals to spur insulin and curb appetite, the gut-hormone axis now harnessed by blockbuster diabetes and weight drugs."
+  - target: 01-human/03-molecular/fgf23
+    relation: connects-to
+    note: "Bone is an endocrine organ too: osteocytes secrete FGF23 to tell the kidney to excrete phosphate and curb active vitamin D, a bone-kidney hormonal axis that fails early in chronic kidney disease."
 ---
 
 # Endocrine System
@@ -386,6 +395,9 @@ The endocrine system coordinates fuel metabolism across multiple organs in respo
 - `connects-to` → **[Oxytocin](../../03-molecular/oxytocin/README.md)** — Oxytocin is a posterior-pituitary output of the system: synthesized in the hypothalamus and released from the neurohypophysis, it drives labor contractions and milk ejection, a neuroendocrine hormone bridging brain and body.
 - `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — Vasopressin completes the posterior-pituitary pair: this hypothalamic hormone conserves water at the kidney and raises blood pressure, and its deficiency or resistance causes diabetes insipidus — an endocrine axis distinct from the anterior pituitary's.
 - `connects-to` → **[Calcitonin](../../03-molecular/calcitonin/README.md)** — Calcitonin rounds out calcium control: secreted by thyroid C-cells it lowers blood calcium opposite parathyroid hormone, and as a tumor marker it flags medullary thyroid carcinoma within the endocrine system.
+- `connects-to` → **[Neuroendocrine Tumors](../neuroendocrine-tumors/README.md)** — Its hormone-making cells can turn into tumors: neuroendocrine tumors arise from the dispersed endocrine cells of the gut, pancreas and lungs, sometimes secreting hormones that cause florid syndromes — the malignant face of the endocrine system.
+- `connects-to` → **[GLP-1](../../03-molecular/glp-1/README.md)** — The gut is the body's largest endocrine organ: L-cells release the incretin GLP-1 after meals to spur insulin and curb appetite, the gut-hormone axis now harnessed by blockbuster diabetes and weight drugs.
+- `connects-to` → **[FGF23](../../03-molecular/fgf23/README.md)** — Bone is an endocrine organ too: osteocytes secrete FGF23 to tell the kidney to excrete phosphate and curb active vitamin D, a bone-kidney hormonal axis that fails early in chronic kidney disease.
 
 ## Pathology
 
