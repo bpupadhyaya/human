@@ -180,6 +180,15 @@ cross_links:
   - target: 01-human/07-system/social-anxiety-disorder
     relation: connects-to
     note: "Shame and social fear feed the bingeing: social anxiety is common in binge eating disorder, where fear of judgment and low self-worth drive secretive eating that in turn deepens isolation."
+  - target: 01-human/07-system/gout
+    relation: connects-to
+    note: "Its metabolic excess raises uric acid: the obesity, insulin resistance and high-purine, fructose-rich binges of binge eating disorder drive hyperuricemia, contributing to gout."
+  - target: 01-human/07-system/stroke
+    relation: connects-to
+    note: "Metabolic syndrome reaches the brain's arteries: the obesity, hypertension and dyslipidemia that accompany binge eating disorder accelerate atherosclerosis and raise the long-term risk of stroke."
+  - target: 01-human/07-system/esophageal-cancer
+    relation: connects-to
+    note: "Repeated overeating refluxes acid: binge eating promotes obesity and severe gastroesophageal reflux, fostering the Barrett's esophagus that precedes esophageal adenocarcinoma."
 sources:
   - id: american-psychiatric-2013-bed-dsm5
     type: clinical-guideline
@@ -395,6 +404,9 @@ BED is among the most psychiatrically comorbid of all eating disorders:
 - `connects-to` → **[Chronic Kidney Disease](../ckd/README.md)** — Its metabolic burden reaches the kidney: the obesity, type 2 diabetes and hypertension driven by binge eating disorder are the leading causes of chronic kidney disease, so the disorder indirectly threatens renal function.
 - `connects-to` → **[Heart Failure](../heart-failure/README.md)** — Obesity strains the heart toward failure: the weight gain, hypertension and diabetes of binge eating disorder promote both ischemic and obesity-related cardiomyopathy, raising the long-term risk of heart failure.
 - `connects-to` → **[Social Anxiety Disorder](../social-anxiety-disorder/README.md)** — Shame and social fear feed the bingeing: social anxiety is common in binge eating disorder, where fear of judgment and low self-worth drive secretive eating that in turn deepens isolation.
+- `connects-to` → **[Gout](../gout/README.md)** — Its metabolic excess raises uric acid: the obesity, insulin resistance and high-purine, fructose-rich binges of binge eating disorder drive hyperuricemia, contributing to gout.
+- `connects-to` → **[Stroke](../stroke/README.md)** — Metabolic syndrome reaches the brain's arteries: the obesity, hypertension and dyslipidemia that accompany binge eating disorder accelerate atherosclerosis and raise the long-term risk of stroke.
+- `connects-to` → **[Esophageal Cancer](../esophageal-cancer/README.md)** — Repeated overeating refluxes acid: binge eating promotes obesity and severe gastroesophageal reflux, fostering the Barrett's esophagus that precedes esophageal adenocarcinoma.
 
 [^american-psychiatric-2013-bed-dsm5]: American Psychiatric Association. Binge Eating Disorder (307.51). In: *Diagnostic and Statistical Manual of Mental Disorders, 5th ed.* Arlington, VA: APA; 2013. [doi:10.1176/appi.books.9780890425596](https://doi.org/10.1176/appi.books.9780890425596)
 [^mccallum-2003-bed-review]: McCallum K, Bruton AM. Binge eating disorder: eating disorder or somatic syndrome? *Prim Care Companion J Clin Psychiatry.* 2003;5(Suppl 4):20-25. [PubMed 15213784](https://pubmed.ncbi.nlm.nih.gov/15213784/)
