@@ -196,6 +196,15 @@ cross_links:
   - target: 01-human/07-system/major-depressive-disorder
     relation: connects-to
     note: "Hormones and hereditary burden weigh on mood: Cushing's from a pituitary tumor, the psychiatric effects of hypercalcemia, and lifelong multi-tumor surveillance give MEN1 a substantial burden of depression."
+  - target: 01-human/07-system/hypertension
+    relation: connects-to
+    note: "Its hormone-secreting tumors raise blood pressure: the primary hyperparathyroidism, pituitary Cushing's and functioning neuroendocrine tumors of MEN1 each contribute to secondary hypertension."
+  - target: 01-human/07-system/wound-healing
+    relation: connects-to
+    note: "Recurrent endocrine surgery taxes healing: the repeated parathyroid, pancreatic and pituitary operations MEN1 demands leave patients with multiple surgical wounds to heal over a lifetime."
+  - target: 01-human/07-system/generalized-anxiety-disorder
+    relation: connects-to
+    note: "Lifelong multi-organ surveillance breeds worry: the constant biochemical and imaging screening for the many tumors of MEN1, and the hereditary burden, foster chronic health anxiety."
 ---
 
 # MEN1 Syndrome
@@ -375,6 +384,9 @@ Menin haploinsufficiency (one functional allele) creates susceptibility: cells a
 - `connects-to` → **[Type 2 Diabetes](../type-2-diabetes/README.md)** — Its pancreatic tumors derange glucose: MEN1 glucagonomas and somatostatinomas raise blood sugar, and the pancreatic surgery its tumors require removes islet tissue, together causing a secondary diabetes.
 - `connects-to` → **[Venous Thromboembolism](../venous-thromboembolism/README.md)** — A lifetime of cancer surgery raises the clot risk: the repeated operations for MEN1's pancreatic, parathyroid and pituitary tumors, plus the hypercoagulability of its neuroendocrine cancers, predispose to venous thromboembolism.
 - `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — Hormones and hereditary burden weigh on mood: Cushing's from a pituitary tumor, the psychiatric effects of hypercalcemia, and lifelong multi-tumor surveillance give MEN1 a substantial burden of depression.
+- `connects-to` → **[Hypertension](../hypertension/README.md)** — Its hormone-secreting tumors raise blood pressure: the primary hyperparathyroidism, pituitary Cushing's and functioning neuroendocrine tumors of MEN1 each contribute to secondary hypertension.
+- `connects-to` → **[Wound Healing](../wound-healing/README.md)** — Recurrent endocrine surgery taxes healing: the repeated parathyroid, pancreatic and pituitary operations MEN1 demands leave patients with multiple surgical wounds to heal over a lifetime.
+- `connects-to` → **[Generalized Anxiety Disorder](../generalized-anxiety-disorder/README.md)** — Lifelong multi-organ surveillance breeds worry: the constant biochemical and imaging screening for the many tumors of MEN1, and the hereditary burden, foster chronic health anxiety.
 
 ---
 
