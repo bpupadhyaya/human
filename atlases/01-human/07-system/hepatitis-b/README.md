@@ -192,6 +192,15 @@ cross_links:
   - target: 01-human/07-system/major-depressive-disorder
     relation: connects-to
     note: "Chronic viral hepatitis weighs on mood: living with a transmissible, stigmatized lifelong infection — and historically the interferon used to treat it — carries a substantial burden of depression."
+  - target: 01-human/07-system/type-2-diabetes
+    relation: connects-to
+    note: "Chronic liver damage disturbs glucose: the insulin resistance of advancing fibrosis and cirrhosis produces hepatogenous diabetes, so chronic hepatitis B carries a raised risk of type 2 diabetes."
+  - target: 01-human/07-system/osteoporosis
+    relation: connects-to
+    note: "Liver disease and its antivirals thin the bones: chronic hepatitis B causes hepatic osteodystrophy, and the widely used antiviral tenofovir disoproxil lowers bone mineral density, together raising osteoporosis risk."
+  - target: 01-human/07-system/aplastic-anemia
+    relation: connects-to
+    note: "It can wipe out the marrow: hepatitis-associated aplastic anemia is a recognized, often severe complication in which an immune assault follows acute viral hepatitis to destroy hematopoietic stem cells."
 ---
 
 # Hepatitis B
@@ -385,3 +394,6 @@ HDV is a satellite RNA virus that requires HBsAg for virion assembly:
 - `connects-to` → **[Anemia of Chronic Disease](../anemia-of-chronic-disease/README.md)** — Chronic infection and cirrhosis blunt the blood count: long-standing HBV inflammation raises hepcidin while a cirrhotic liver and hypersplenism worsen it, contributing an anemia of chronic disease beyond any bleeding.
 - `connects-to` → **[Rheumatoid Arthritis](../rheumatoid-arthritis/README.md)** — Two links bind them: HBV can cause an immune-complex polyarthritis mimicking RA, and conversely the immunosuppressants used to treat RA can reactivate latent HBV, so screening precedes such therapy.
 - `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — Chronic viral hepatitis weighs on mood: living with a transmissible, stigmatized lifelong infection — and historically the interferon used to treat it — carries a substantial burden of depression.
+- `connects-to` → **[Type 2 Diabetes](../type-2-diabetes/README.md)** — Chronic liver damage disturbs glucose: the insulin resistance of advancing fibrosis and cirrhosis produces hepatogenous diabetes, so chronic hepatitis B carries a raised risk of type 2 diabetes.
+- `connects-to` → **[Osteoporosis](../osteoporosis/README.md)** — Liver disease and its antivirals thin the bones: chronic hepatitis B causes hepatic osteodystrophy, and the widely used antiviral tenofovir disoproxil lowers bone mineral density, together raising osteoporosis risk.
+- `connects-to` → **[Aplastic Anemia](../aplastic-anemia/README.md)** — It can wipe out the marrow: hepatitis-associated aplastic anemia is a recognized, often severe complication in which an immune assault follows acute viral hepatitis to destroy hematopoietic stem cells.

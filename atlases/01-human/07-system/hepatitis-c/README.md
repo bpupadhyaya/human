@@ -192,6 +192,15 @@ cross_links:
   - target: 01-human/07-system/stroke
     relation: connects-to
     note: "Its vascular inflammation reaches the brain: the systemic inflammation and accelerated atherosclerosis of chronic HCV, together with cryoglobulinemic vasculitis, raise the risk of ischemic stroke beyond the liver disease."
+  - target: 01-human/07-system/neuropathic-pain
+    relation: connects-to
+    note: "Cryoglobulins inflame the peripheral nerves: HCV-driven mixed cryoglobulinemia deposits immune complexes in the vasa nervorum, causing a painful peripheral neuropathy as a classic extrahepatic manifestation."
+  - target: 01-human/07-system/osteoporosis
+    relation: connects-to
+    note: "Advanced liver disease weakens bone: chronic HCV and its cirrhosis cause hepatic osteodystrophy through impaired vitamin D metabolism and bone turnover, raising the risk of osteoporosis and fractures."
+  - target: 01-human/07-system/heart-failure
+    relation: connects-to
+    note: "The virus can injure the heart muscle: HCV is associated with myocarditis and a dilated cardiomyopathy, and its systemic inflammation contributes to cardiovascular disease that can progress to heart failure."
 ---
 
 # Hepatitis C
@@ -376,3 +385,6 @@ HCV cirrhosis → HCC risk 1–5% per year (annual ultrasound surveillance ± AF
 - `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — It reaches the brain as well as the liver: HCV causes fatigue and cognitive 'brain fog' through low-grade neuroinflammation, and — with the stigma of chronic infection and historic interferon therapy — carries a high rate of depression.
 - `connects-to` → **[Anemia of Chronic Disease](../anemia-of-chronic-disease/README.md)** — Chronic infection and cirrhosis lower the count: persistent HCV inflammation raises hepcidin while a scarred liver and hypersplenism worsen it, adding an anemia of chronic disease to the hematologic picture.
 - `connects-to` → **[Stroke](../stroke/README.md)** — Its vascular inflammation reaches the brain: the systemic inflammation and accelerated atherosclerosis of chronic HCV, together with cryoglobulinemic vasculitis, raise the risk of ischemic stroke beyond the liver disease.
+- `connects-to` → **[Neuropathic Pain](../neuropathic-pain/README.md)** — Cryoglobulins inflame the peripheral nerves: HCV-driven mixed cryoglobulinemia deposits immune complexes in the vasa nervorum, causing a painful peripheral neuropathy as a classic extrahepatic manifestation.
+- `connects-to` → **[Osteoporosis](../osteoporosis/README.md)** — Advanced liver disease weakens bone: chronic HCV and its cirrhosis cause hepatic osteodystrophy through impaired vitamin D metabolism and bone turnover, raising the risk of osteoporosis and fractures.
+- `connects-to` → **[Heart Failure](../heart-failure/README.md)** — The virus can injure the heart muscle: HCV is associated with myocarditis and a dilated cardiomyopathy, and its systemic inflammation contributes to cardiovascular disease that can progress to heart failure.
