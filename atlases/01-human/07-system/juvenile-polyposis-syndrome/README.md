@@ -187,6 +187,15 @@ cross_links:
   - target: 01-human/07-system/anemia-of-chronic-disease
     relation: connects-to
     note: "Bleeding polyps and inflammation drain the blood: beyond the iron loss of chronically bleeding juvenile polyps, their inflammation suppresses erythropoiesis, adding an anemia of chronic disease to the iron deficiency."
+  - target: 01-human/07-system/heart-failure
+    relation: connects-to
+    note: "Its SMAD4-HHT overlap can overload the heart: SMAD4-mutant juvenile polyposis overlaps hereditary hemorrhagic telangiectasia, whose hepatic arteriovenous malformations shunt blood and can drive high-output heart failure."
+  - target: 01-human/07-system/osteoporosis
+    relation: connects-to
+    note: "Chronic GI losses and surgery thin the bones: protein-losing enteropathy from extensive polyps, malnutrition and any colectomy with malabsorption can leave reduced bone density in juvenile polyposis."
+  - target: 01-human/07-system/major-depressive-disorder
+    relation: connects-to
+    note: "An inherited cancer risk from childhood weighs on the mind: living with lifelong polyp surveillance, repeated procedures and elevated GI-cancer risk from a young age carries a substantial psychological burden."
 ---
 
 # Juvenile Polyposis Syndrome
@@ -373,6 +382,9 @@ No approved chemopreventive agents specifically for JPS. Options under investiga
 - `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — Inflamed polyps signal through STAT3: loss of SMAD4/BMP restraint plus IL-6-driven STAT3 in the inflamed juvenile polyps adds a proliferative push that helps tip them toward malignancy.
 - `connects-to` → **[NF-κB](../../03-molecular/nf-kb/README.md)** — Chronic inflammation in the polyps feeds NF-κB: the eroded, inflamed surface of juvenile polyps activates NF-κB, contributing pro-survival, pro-proliferative signaling to the syndrome's gastrointestinal cancer risk.
 - `connects-to` → **[Anemia of Chronic Disease](../anemia-of-chronic-disease/README.md)** — Bleeding polyps and inflammation drain the blood: beyond the iron loss of chronically bleeding juvenile polyps, their inflammation suppresses erythropoiesis, adding an anemia of chronic disease to the iron deficiency.
+- `connects-to` → **[Heart Failure](../heart-failure/README.md)** — Its SMAD4-HHT overlap can overload the heart: SMAD4-mutant juvenile polyposis overlaps hereditary hemorrhagic telangiectasia, whose hepatic arteriovenous malformations shunt blood and can drive high-output heart failure.
+- `connects-to` → **[Osteoporosis](../osteoporosis/README.md)** — Chronic GI losses and surgery thin the bones: protein-losing enteropathy from extensive polyps, malnutrition and any colectomy with malabsorption can leave reduced bone density in juvenile polyposis.
+- `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — An inherited cancer risk from childhood weighs on the mind: living with lifelong polyp surveillance, repeated procedures and elevated GI-cancer risk from a young age carries a substantial psychological burden.
 
 [^howe-1998-smad4-jps]: Howe JR, Roth S, Ringold JC, et al. Mutations in the SMAD4/DPC4 gene in juvenile polyposis. *Science.* 1998;280(5366):1086-1088. [doi:10.1126/science.280.5366.1086](https://doi.org/10.1126/science.280.5366.1086) · [PubMed 9582123](https://pubmed.ncbi.nlm.nih.gov/9582123/)
 [^aretz-2007-jps-spectrum]: Aretz S, Stienen D, Uhlhaas S, et al. High proportion of large genomic deletions and a genotype-phenotype update in 80 unrelated families with juvenile polyposis syndrome. *J Med Genet.* 2007;44(11):702-709. [doi:10.1136/jmg.2007.051839](https://doi.org/10.1136/jmg.2007.051839) · [PubMed 17601924](https://pubmed.ncbi.nlm.nih.gov/17601924/)

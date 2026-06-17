@@ -193,6 +193,15 @@ cross_links:
   - target: 01-human/07-system/anemia-of-chronic-disease
     relation: connects-to
     note: "Inflammation blunts the marrow beyond blood loss: the chronic cytokines of IBD raise hepcidin and suppress erythropoiesis, an anemia of chronic disease that compounds the iron deficiency from gut bleeding."
+  - target: 01-human/07-system/tuberculosis
+    relation: connects-to
+    note: "Its TNF blockers can wake latent TB: the anti-TNF biologics central to IBD treatment disable the granuloma containing Mycobacterium tuberculosis, so latent-TB screening and treatment precede therapy to prevent reactivation."
+  - target: 02-pathogen/03-fungi/pneumocystis-jirovecii
+    relation: connects-to
+    note: "Combination immunosuppression opens the lung: thiopurines, steroids and biologics together in IBD can deplete T-cell defenses enough to risk Pneumocystis pneumonia, weighed in high-intensity regimens."
+  - target: 01-human/07-system/cholangiocarcinoma
+    relation: connects-to
+    note: "Through PSC it threatens the bile ducts: IBD — especially ulcerative colitis — is tightly linked to primary sclerosing cholangitis, whose chronic biliary inflammation carries a markedly raised risk of cholangiocarcinoma."
 ---
 
 # Inflammatory Bowel Disease
@@ -379,6 +388,9 @@ IBD is a complex polygenic disease with >240 susceptibility loci (GWAS):
 - `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — IL-6 and IL-23 drive the gut through STAT3: STAT3 signaling sustains the pathogenic Th17 response and epithelial changes of IBD, the JAK-STAT axis that tofacitinib and other JAK inhibitors interrupt.
 - `connects-to` → **[Sepsis](../sepsis/README.md)** — Severe colitis and immunosuppression invite sepsis: toxic megacolon and bowel perforation breach the gut barrier, and the biologics and steroids used to control IBD raise the risk of serious infection and sepsis.
 - `connects-to` → **[Anemia of Chronic Disease](../anemia-of-chronic-disease/README.md)** — Inflammation blunts the marrow beyond blood loss: the chronic cytokines of IBD raise hepcidin and suppress erythropoiesis, an anemia of chronic disease that compounds the iron deficiency from gut bleeding.
+- `connects-to` → **[Tuberculosis](../tuberculosis/README.md)** — Its TNF blockers can wake latent TB: the anti-TNF biologics central to IBD treatment disable the granuloma containing Mycobacterium tuberculosis, so latent-TB screening and treatment precede therapy to prevent reactivation.
+- `connects-to` → **[Pneumocystis jirovecii](../../../02-pathogen/03-fungi/pneumocystis-jirovecii/README.md)** — Combination immunosuppression opens the lung: thiopurines, steroids and biologics together in IBD can deplete T-cell defenses enough to risk Pneumocystis pneumonia, weighed in high-intensity regimens.
+- `connects-to` → **[Cholangiocarcinoma](../cholangiocarcinoma/README.md)** — Through PSC it threatens the bile ducts: IBD — especially ulcerative colitis — is tightly linked to primary sclerosing cholangitis, whose chronic biliary inflammation carries a markedly raised risk of cholangiocarcinoma.
 
 [^ng-2017-ibd-epidemiology]: Ng SC, Shi HY, Hamidi N, et al. Worldwide incidence and prevalence of inflammatory bowel disease in the 21st century: a systematic review of population-based studies. *Lancet.* 2018;390(10114):2769-2778. [doi:10.1016/S0140-6736(17)32448-0](https://doi.org/10.1016/S0140-6736(17)32448-0) · [PubMed 29050646](https://pubmed.ncbi.nlm.nih.gov/29050646/)
 [^sandborn-2012-vedolizumab]: Feagan BG, Rutgeerts P, Sands BE, et al. Vedolizumab as induction and maintenance therapy for ulcerative colitis. *N Engl J Med.* 2013;369(8):699-710. [doi:10.1056/NEJMoa1215734](https://doi.org/10.1056/NEJMoa1215734) · [PubMed 23964932](https://pubmed.ncbi.nlm.nih.gov/23964932/)
