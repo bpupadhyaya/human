@@ -190,6 +190,15 @@ cross_links:
   - target: 01-human/07-system/heart-failure
     relation: connects-to
     note: "Transfusions rust the heart: lifelong red-cell transfusions for MDS anemia deposit iron in the myocardium, and this siderosis — atop the strain of chronic anemia — can drive a cardiomyopathy and heart failure."
+  - target: 02-pathogen/03-fungi/pneumocystis-jirovecii
+    relation: connects-to
+    note: "Its hypomethylating therapy deepens immune suppression: azacitidine and decitabine for MDS add to the disease's own neutropenia and T-cell dysfunction, raising the risk of Pneumocystis pneumonia."
+  - target: 01-human/07-system/venous-thromboembolism
+    relation: connects-to
+    note: "Lenalidomide for low-risk MDS clots the veins: the immunomodulatory drug used for del(5q) MDS carries a recognized prothrombotic signal, raising venous thromboembolism risk during treatment."
+  - target: 01-human/07-system/major-depressive-disorder
+    relation: connects-to
+    note: "A chronic, transfusion-dependent cancer weighs on mood: the fatigue, frequent hospital visits, poor prognosis and looming leukemic transformation of MDS, mostly in older patients, contribute to depression."
 ---
 
 # Myelodysplastic Syndromes
@@ -358,6 +367,9 @@ MDS → AML transformation rate: ~10% at 1 year for very-low risk; ~40-50% at 2 
 - `connects-to` → **[Aspergillus fumigatus](../../../02-pathogen/03-fungi/aspergillus-fumigatus/README.md)** — Prolonged neutropenia opens the lung to mold: the deep, sustained neutropenia of MDS and its therapy lets inhaled Aspergillus invade as angioinvasive pulmonary aspergillosis, a feared infectious complication.
 - `connects-to` → **[Candida albicans](../../../02-pathogen/03-fungi/candida-albicans/README.md)** — Failing neutrophils let the yeast bloodstream: neutropenia and disrupted mucosa in MDS allow Candida to translocate into the blood, causing invasive candidiasis in these immunocompromised patients.
 - `connects-to` → **[Heart Failure](../heart-failure/README.md)** — Transfusions rust the heart: lifelong red-cell transfusions for MDS anemia deposit iron in the myocardium, and this siderosis — atop the strain of chronic anemia — can drive a cardiomyopathy and heart failure.
+- `connects-to` → **[Pneumocystis jirovecii](../../../02-pathogen/03-fungi/pneumocystis-jirovecii/README.md)** — Its hypomethylating therapy deepens immune suppression: azacitidine and decitabine for MDS add to the disease's own neutropenia and T-cell dysfunction, raising the risk of Pneumocystis pneumonia.
+- `connects-to` → **[Venous Thromboembolism](../venous-thromboembolism/README.md)** — Lenalidomide for low-risk MDS clots the veins: the immunomodulatory drug used for del(5q) MDS carries a recognized prothrombotic signal, raising venous thromboembolism risk during treatment.
+- `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — A chronic, transfusion-dependent cancer weighs on mood: the fatigue, frequent hospital visits, poor prognosis and looming leukemic transformation of MDS, mostly in older patients, contribute to depression.
 
 [^fenaux-2009-aza001]: Fenaux P, Mufti GJ, Hellstrom-Lindberg E, et al. Efficacy of azacitidine compared with conventional care regimens in patients with higher-risk myelodysplastic syndromes. *Lancet Oncol.* 2009;10(3):223-232. [doi:10.1016/S1470-2045(09)70003-8](https://doi.org/10.1016/S1470-2045(09)70003-8) · [PubMed 19230772](https://pubmed.ncbi.nlm.nih.gov/19230772/)
 [^fenaux-2020-medalist]: Fenaux P, Platzbecker U, Mufti GJ, et al. Luspatercept in patients with lower-risk myelodysplastic syndromes. *N Engl J Med.* 2020;382(2):140-151. [doi:10.1056/NEJMoa1908892](https://doi.org/10.1056/NEJMoa1908892) · [PubMed 31914241](https://pubmed.ncbi.nlm.nih.gov/31914241/)

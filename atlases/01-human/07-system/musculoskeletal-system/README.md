@@ -188,6 +188,15 @@ cross_links:
   - target: 01-human/07-system/dermatomyositis
     relation: connects-to
     note: "Autoimmunity attacks the muscle itself: dermatomyositis is an inflammatory myopathy of the musculoskeletal system, with immune-mediated injury to skeletal muscle producing the proximal weakness that defines it."
+  - target: 01-human/07-system/type-2-diabetes
+    relation: connects-to
+    note: "Muscle is the body's main glucose sink: skeletal muscle takes up most insulin-stimulated glucose, so its mass and insulin sensitivity drive metabolic health, while diabetes in turn causes sarcopenia and stiff-joint syndromes."
+  - target: 01-human/07-system/obesity
+    relation: connects-to
+    note: "Excess load wears the joints: obesity mechanically overloads weight-bearing joints toward osteoarthritis, and adipose-muscle crosstalk worsens the sarcopenia and inflammation of the musculoskeletal system."
+  - target: 01-human/07-system/major-depressive-disorder
+    relation: connects-to
+    note: "Chronic pain and disability weigh on mood: persistent musculoskeletal pain and the loss of mobility and independence it brings are strongly tied to depression, each amplifying the other."
 ---
 
 # Musculoskeletal System
@@ -381,6 +390,9 @@ Chronic exercise drives profound musculoskeletal remodelling [^guyton-hall]:
 - `connects-to` → **[Staphylococcus aureus](../../../02-pathogen/02-bacteria/staphylococcus-aureus/README.md)** — It is the classic invader of bone and joint: Staphylococcus aureus is the leading cause of osteomyelitis and septic arthritis, seeding bone and synovium through the blood or open wounds to destroy musculoskeletal tissue.
 - `connects-to` → **[Psoriatic Arthritis](../psoriatic-arthritis/README.md)** — Immune attack inflames its joints and entheses: psoriatic arthritis is an inflammatory disease of the musculoskeletal system, damaging joints and the tendon-bone insertions through IL-17/IL-23-driven inflammation.
 - `connects-to` → **[Dermatomyositis](../dermatomyositis/README.md)** — Autoimmunity attacks the muscle itself: dermatomyositis is an inflammatory myopathy of the musculoskeletal system, with immune-mediated injury to skeletal muscle producing the proximal weakness that defines it.
+- `connects-to` → **[Type 2 Diabetes](../type-2-diabetes/README.md)** — Muscle is the body's main glucose sink: skeletal muscle takes up most insulin-stimulated glucose, so its mass and insulin sensitivity drive metabolic health, while diabetes in turn causes sarcopenia and stiff-joint syndromes.
+- `connects-to` → **[Obesity](../obesity/README.md)** — Excess load wears the joints: obesity mechanically overloads weight-bearing joints toward osteoarthritis, and adipose-muscle crosstalk worsens the sarcopenia and inflammation of the musculoskeletal system.
+- `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — Chronic pain and disability weigh on mood: persistent musculoskeletal pain and the loss of mobility and independence it brings are strongly tied to depression, each amplifying the other.
 
 ## Pathology
 
