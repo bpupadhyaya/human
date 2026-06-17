@@ -184,6 +184,15 @@ cross_links:
   - target: 01-human/07-system/venous-thromboembolism
     relation: connects-to
     note: "Chronic autoimmune inflammation thickens the blood: Sjögren's carries a raised risk of deep-vein thrombosis and pulmonary embolism, part of the prothrombotic state shared across the systemic autoimmune diseases."
+  - target: 01-human/07-system/ckd
+    relation: connects-to
+    note: "It quietly attacks the kidney: Sjögren's classically causes tubulointerstitial nephritis and distal renal tubular acidosis, and the cumulative interstitial damage can progress to chronic kidney disease."
+  - target: 01-human/07-system/fibromyalgia
+    relation: connects-to
+    note: "Fatigue and pain overlap heavily: fibromyalgia is a very common comorbidity in Sjögren's, and its widespread pain and exhaustion confound assessment of how much disability comes from the autoimmune disease itself."
+  - target: 01-human/07-system/anemia-of-chronic-disease
+    relation: connects-to
+    note: "Persistent inflammation dulls the marrow: the chronic immune activation and IL-6 of Sjögren's raise hepcidin and blunt erythropoiesis, contributing the anemia of chronic disease seen among its cytopenias."
 ---
 
 # Sjögren's Syndrome
@@ -369,6 +378,9 @@ Sjögren's syndrome can occur:
 - `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — STAT3 keeps the autoreactive B cells alive: downstream of IL-6 and IL-21 in the glandular germinal-center-like infiltrates, STAT3 activation supports the B-cell survival that drives Sjögren's toward lymphoma.
 - `connects-to` → **[NF-κB](../../03-molecular/nf-kb/README.md)** — NF-κB fuels the glandular inflammation: BAFF and TNF signaling converge on NF-κB in the salivary-gland infiltrate, sustaining the chronic activation that destroys glandular tissue in Sjögren's.
 - `connects-to` → **[Venous Thromboembolism](../venous-thromboembolism/README.md)** — Chronic autoimmune inflammation thickens the blood: Sjögren's carries a raised risk of deep-vein thrombosis and pulmonary embolism, part of the prothrombotic state shared across the systemic autoimmune diseases.
+- `connects-to` → **[Chronic Kidney Disease](../ckd/README.md)** — It quietly attacks the kidney: Sjögren's classically causes tubulointerstitial nephritis and distal renal tubular acidosis, and the cumulative interstitial damage can progress to chronic kidney disease.
+- `connects-to` → **[Fibromyalgia](../fibromyalgia/README.md)** — Fatigue and pain overlap heavily: fibromyalgia is a very common comorbidity in Sjögren's, and its widespread pain and exhaustion confound assessment of how much disability comes from the autoimmune disease itself.
+- `connects-to` → **[Anemia of Chronic Disease](../anemia-of-chronic-disease/README.md)** — Persistent inflammation dulls the marrow: the chronic immune activation and IL-6 of Sjögren's raise hepcidin and blunt erythropoiesis, contributing the anemia of chronic disease seen among its cytopenias.
 
 ---
 

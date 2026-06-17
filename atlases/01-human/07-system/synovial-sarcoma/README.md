@@ -178,6 +178,15 @@ cross_links:
   - target: 01-human/07-system/sepsis
     relation: connects-to
     note: "Chemo neutropenia opens the door to infection: the ifosfamide-doxorubicin regimens used against synovial sarcoma cause deep neutropenia, so neutropenic fever and sepsis are recurrent treatment hazards."
+  - target: 01-human/07-system/ckd
+    relation: connects-to
+    note: "Ifosfamide is hard on the kidney: the alkylator central to synovial-sarcoma chemotherapy is tubulotoxic, causing a Fanconi-type tubulopathy and lasting chronic kidney impairment, especially with cumulative dosing."
+  - target: 01-human/07-system/aml
+    relation: connects-to
+    note: "Its cure can sow a later leukemia: the alkylators and anthracyclines used against synovial sarcoma carry a small long-term risk of therapy-related myelodysplasia and acute myeloid leukemia in survivors."
+  - target: 01-human/07-system/anemia-of-chronic-disease
+    relation: connects-to
+    note: "Tumor inflammation and chemo blunt the marrow: advanced synovial sarcoma's inflammatory burden raises hepcidin while cytotoxic therapy suppresses erythropoiesis, adding an anemia-of-chronic-disease component to treatment cytopenias."
 ---
 
 # Synovial Sarcoma
@@ -357,6 +366,9 @@ SS has low TMB (~1-2 mut/Mb) and variable PD-L1 expression; ICB response rates ~
 - `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — STAT3 backs its survival signaling: synovial sarcoma cells show STAT3 activation that supports proliferation and immune evasion, one of the cooperating pathways downstream of the SS18-SSX fusion that drives the tumor.
 - `connects-to` → **[Venous Thromboembolism](../venous-thromboembolism/README.md)** — A solid cancer that clots: like other sarcomas, synovial sarcoma raises thrombosis risk through tumor-driven hypercoagulability, with deep-vein thrombosis and pulmonary embolism worsened by major limb surgery and chemotherapy.
 - `connects-to` → **[Sepsis](../sepsis/README.md)** — Chemo neutropenia opens the door to infection: the ifosfamide-doxorubicin regimens used against synovial sarcoma cause deep neutropenia, so neutropenic fever and sepsis are recurrent treatment hazards.
+- `connects-to` → **[Chronic Kidney Disease](../ckd/README.md)** — Ifosfamide is hard on the kidney: the alkylator central to synovial-sarcoma chemotherapy is tubulotoxic, causing a Fanconi-type tubulopathy and lasting chronic kidney impairment, especially with cumulative dosing.
+- `connects-to` → **[AML](../aml/README.md)** — Its cure can sow a later leukemia: the alkylators and anthracyclines used against synovial sarcoma carry a small long-term risk of therapy-related myelodysplasia and acute myeloid leukemia in survivors.
+- `connects-to` → **[Anemia of Chronic Disease](../anemia-of-chronic-disease/README.md)** — Tumor inflammation and chemo blunt the marrow: advanced synovial sarcoma's inflammatory burden raises hepcidin while cytotoxic therapy suppresses erythropoiesis, adding an anemia-of-chronic-disease component to treatment cytopenias.
 
 ---
 
