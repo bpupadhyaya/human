@@ -187,6 +187,15 @@ cross_links:
   - target: 01-human/07-system/anemia-of-chronic-disease
     relation: connects-to
     note: "Chronic bleeding and inflammation drain the blood: beyond the iron loss of tumor bleeding, the inflammatory cytokines of esophageal cancer suppress erythropoiesis, adding an anemia of chronic disease that weakens patients before surgery."
+  - target: 02-pathogen/03-fungi/candida-albicans
+    relation: connects-to
+    note: "The obstructed, stented esophagus invites the yeast: tumor narrowing, stents and the malnutrition and immunosuppression of esophageal cancer favor Candida esophagitis, worsening the dysphagia the cancer already causes."
+  - target: 01-human/07-system/ckd
+    relation: connects-to
+    note: "Its chemo and poor intake strain the kidney: the cisplatin central to esophageal-cancer chemoradiation is nephrotoxic, and obstruction-driven dehydration adds prerenal injury, together threatening chronic kidney disease."
+  - target: 01-human/07-system/major-depressive-disorder
+    relation: connects-to
+    note: "Losing the ability to eat weighs heavily: progressive dysphagia, weight loss, dependence on feeding tubes and a poor prognosis give esophageal cancer a substantial burden of depression."
 ---
 
 # Esophageal Cancer
@@ -381,6 +390,9 @@ T1a: Lamina propria/muscularis mucosae; T1b: Submucosa; T2: Muscularis propria; 
 - `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — Chronic reflux and inflammation drive STAT3: IL-6-fueled STAT3 signaling promotes the survival and proliferation of esophageal cells along the Barrett's-to-adenocarcinoma path, tying inflammation to the cancer.
 - `connects-to` → **[Venous Thromboembolism](../venous-thromboembolism/README.md)** — A cancer and an operation that both clot: esophageal cancer's hypercoagulability plus the long, complex esophagectomy make venous thromboembolism a major perioperative and disease-related risk.
 - `connects-to` → **[Anemia of Chronic Disease](../anemia-of-chronic-disease/README.md)** — Chronic bleeding and inflammation drain the blood: beyond the iron loss of tumor bleeding, the inflammatory cytokines of esophageal cancer suppress erythropoiesis, adding an anemia of chronic disease that weakens patients before surgery.
+- `connects-to` → **[Candida albicans](../../../02-pathogen/03-fungi/candida-albicans/README.md)** — The obstructed, stented esophagus invites the yeast: tumor narrowing, stents and the malnutrition and immunosuppression of esophageal cancer favor Candida esophagitis, worsening the dysphagia the cancer already causes.
+- `connects-to` → **[Chronic Kidney Disease](../ckd/README.md)** — Its chemo and poor intake strain the kidney: the cisplatin central to esophageal-cancer chemoradiation is nephrotoxic, and obstruction-driven dehydration adds prerenal injury, together threatening chronic kidney disease.
+- `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — Losing the ability to eat weighs heavily: progressive dysphagia, weight loss, dependence on feeding tubes and a poor prognosis give esophageal cancer a substantial burden of depression.
 
 ---
 

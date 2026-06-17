@@ -187,6 +187,15 @@ cross_links:
   - target: 01-human/07-system/pnh
     relation: connects-to
     note: "It shares the unusual-site clotting puzzle: like paroxysmal nocturnal hemoglobinuria, ET is an acquired clonal disorder that causes thrombosis in unusual sites such as the splanchnic veins, both considered when such clots appear unexplained."
+  - target: 01-human/07-system/anemia-of-chronic-disease
+    relation: connects-to
+    note: "It can burn out into anemia: as ET evolves toward a spent, myelofibrotic phase, marrow fibrosis and chronic inflammation replace the platelet excess with an anemia carrying a chronic-disease component."
+  - target: 01-human/07-system/sepsis
+    relation: connects-to
+    note: "Its cytoreductive drugs can strip defenses: hydroxyurea and other agents used to lower the platelet count in ET can cause neutropenia, leaving patients more vulnerable to serious infection and sepsis."
+  - target: 01-human/07-system/major-depressive-disorder
+    relation: connects-to
+    note: "A chronic clonal disease weighs on mood: living with the thrombosis-and-transformation risk of a lifelong myeloproliferative neoplasm, plus its constitutional symptoms, contributes to depression and reduced quality of life."
 ---
 
 # Essential Thrombocythemia
@@ -361,6 +370,9 @@ Management:
 - `connects-to` → **[Hepatocellular Carcinoma](../hcc/README.md)** — It clots the liver's veins: ET is a leading cause of Budd-Chiari syndrome, hepatic vein thrombosis that congests the liver toward cirrhosis and, over years, hepatocellular carcinoma — sometimes the first sign of the MPN.
 - `connects-to` → **[Inherited Thrombophilia](../inherited-thrombophilia/README.md)** — An acquired thrombophilia stacked on inherited ones: ET's overproduced, hyperreactive platelets create an acquired prothrombotic state that multiplies clot risk when a co-existing inherited thrombophilia is also present.
 - `connects-to` → **[Paroxysmal Nocturnal Hemoglobinuria](../pnh/README.md)** — It shares the unusual-site clotting puzzle: like paroxysmal nocturnal hemoglobinuria, ET is an acquired clonal disorder that causes thrombosis in unusual sites such as the splanchnic veins, both considered when such clots appear unexplained.
+- `connects-to` → **[Anemia of Chronic Disease](../anemia-of-chronic-disease/README.md)** — It can burn out into anemia: as ET evolves toward a spent, myelofibrotic phase, marrow fibrosis and chronic inflammation replace the platelet excess with an anemia carrying a chronic-disease component.
+- `connects-to` → **[Sepsis](../sepsis/README.md)** — Its cytoreductive drugs can strip defenses: hydroxyurea and other agents used to lower the platelet count in ET can cause neutropenia, leaving patients more vulnerable to serious infection and sepsis.
+- `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — A chronic clonal disease weighs on mood: living with the thrombosis-and-transformation risk of a lifelong myeloproliferative neoplasm, plus its constitutional symptoms, contributes to depression and reduced quality of life.
 
 [^harrison-2005-pt1-et]: Harrison CN, Campbell PJ, Buck G, et al. Hydroxyurea compared with anagrelide in high-risk essential thrombocythemia. *N Engl J Med.* 2005;353(1):33-45. [doi:10.1056/NEJMoa043800](https://doi.org/10.1056/NEJMoa043800) · [PubMed 16000354](https://pubmed.ncbi.nlm.nih.gov/16000354/)
 [^barbui-2012-ipset]: Barbui T, Finazzi G, Carobbio A, et al. Development and validation of an International Prognostic Score of thrombosis in World Health Organization-essential thrombocythemia (IPSET-thrombosis). *Blood.* 2012;120(26):5128-5133. [doi:10.1182/blood-2012-07-444067](https://doi.org/10.1182/blood-2012-07-444067) · [PubMed 23086758](https://pubmed.ncbi.nlm.nih.gov/23086758/)
