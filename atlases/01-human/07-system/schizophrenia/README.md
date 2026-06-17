@@ -196,6 +196,15 @@ cross_links:
   - target: 01-human/07-system/sepsis
     relation: connects-to
     note: "Clozapine can strip the neutrophils: the agranulocytosis caused by clozapine, the drug reserved for resistant schizophrenia, removes the front-line defense against bacteria and can precipitate life-threatening sepsis, mandating blood-count monitoring."
+  - target: 01-human/07-system/heart-failure
+    relation: connects-to
+    note: "Its antipsychotics and metabolic burden weaken the heart: clozapine can cause myocarditis and cardiomyopathy, and the diabetes, obesity and dyslipidemia driven by antipsychotics accelerate the cardiac disease that shortens schizophrenia lifespans."
+  - target: 01-human/07-system/copd
+    relation: connects-to
+    note: "Very high smoking rates scar the lungs: people with schizophrenia smoke heavily, and the resulting chronic obstructive pulmonary disease is a major contributor to their markedly reduced life expectancy."
+  - target: 01-human/07-system/osteoporosis
+    relation: connects-to
+    note: "Prolactin-raising drugs thin the bones: many antipsychotics block dopamine to raise prolactin, suppressing sex hormones, and the resulting hypogonadism — with inactivity and smoking — accelerates bone loss toward osteoporosis."
 ---
 
 # Schizophrenia
@@ -419,6 +428,9 @@ Notably, schizophrenia shares genetic loci with bipolar disorder, ASD, ADHD, maj
 - `connects-to` → **[Venous Thromboembolism](../venous-thromboembolism/README.md)** — The antipsychotics themselves clot the veins: most antipsychotic drugs independently raise venous thromboembolism risk, compounded by sedation, immobility and obesity, so DVT and pulmonary embolism are a recognized treatment hazard.
 - `connects-to` → **[Parkinson's Disease](../parkinsons-disease/README.md)** — Blocking dopamine mimics the disease: D2-antagonist antipsychotics induce a drug-induced parkinsonism — bradykinesia, rigidity and tremor — that can be hard to distinguish from idiopathic Parkinson's, the pharmacologic mirror of its dopamine deficit.
 - `connects-to` → **[Sepsis](../sepsis/README.md)** — Clozapine can strip the neutrophils: the agranulocytosis caused by clozapine, the drug reserved for resistant schizophrenia, removes the front-line defense against bacteria and can precipitate life-threatening sepsis, mandating blood-count monitoring.
+- `connects-to` → **[Heart Failure](../heart-failure/README.md)** — Its antipsychotics and metabolic burden weaken the heart: clozapine can cause myocarditis and cardiomyopathy, and the diabetes, obesity and dyslipidemia driven by antipsychotics accelerate the cardiac disease that shortens schizophrenia lifespans.
+- `connects-to` → **[COPD](../copd/README.md)** — Very high smoking rates scar the lungs: people with schizophrenia smoke heavily, and the resulting chronic obstructive pulmonary disease is a major contributor to their markedly reduced life expectancy.
+- `connects-to` → **[Osteoporosis](../osteoporosis/README.md)** — Prolactin-raising drugs thin the bones: many antipsychotics block dopamine to raise prolactin, suppressing sex hormones, and the resulting hypogonadism — with inactivity and smoking — accelerates bone loss toward osteoporosis.
 
 [^howes-2009-dopamine-hypothesis]: Howes OD, Kapur S. The dopamine hypothesis of schizophrenia: version III—the final common pathway. *Schizophr Bull.* 2009;35(3):549-562. [doi:10.1093/schbul/sbp006](https://doi.org/10.1093/schbul/sbp006) · [PubMed 19325164](https://pubmed.ncbi.nlm.nih.gov/19325164/)
 [^moghaddam-2012-glutamate]: Moghaddam B, Javitt D. From revolution to evolution: the glutamate hypothesis of schizophrenia and its implication for treatment. *Neuropsychopharmacology.* 2012;37(1):4-15. [doi:10.1038/npp.2011.181](https://doi.org/10.1038/npp.2011.181) · [PubMed 21956446](https://pubmed.ncbi.nlm.nih.gov/21956446/)

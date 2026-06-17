@@ -187,6 +187,15 @@ cross_links:
   - target: 01-human/07-system/ckd
     relation: connects-to
     note: "Its osteosarcoma chemo is nephrotoxic: high-dose methotrexate, cisplatin and ifosfamide used against the bone cancers RTS predisposes to injure the kidney, threatening lasting chronic kidney impairment in these patients."
+  - target: 01-human/07-system/heart-failure
+    relation: connects-to
+    note: "Treating its bone cancers stresses the heart: the doxorubicin in osteosarcoma regimens, which RTS patients frequently need, is dose-dependently cardiotoxic and can leave a cardiomyopathy and heart failure in survivors."
+  - target: 02-pathogen/03-fungi/aspergillus-fumigatus
+    relation: connects-to
+    note: "Sarcoma chemotherapy opens the lung to mold: the deep neutropenia from treating the osteosarcomas RTS predisposes to lets inhaled Aspergillus invade as pulmonary aspergillosis in these vulnerable patients."
+  - target: 01-human/07-system/major-depressive-disorder
+    relation: connects-to
+    note: "A disfiguring, cancer-prone condition weighs on mood: lifelong poikiloderma, sparse hair, short stature and the constant cancer-surveillance burden of Rothmund-Thomson contribute to depression and impaired quality of life."
 ---
 
 # Rothmund-Thomson Syndrome
@@ -380,6 +389,9 @@ The cardinal features of RTS type II are: (1) **poikiloderma** — the defining 
 - `connects-to` → **[Osteoporosis](../osteoporosis/README.md)** — The skeleton is built fragile: RTS's skeletal dysplasia, short stature and defective bone formation leave reduced bone density, so osteopenia and osteoporosis with fracture risk accompany the radial-ray and other bony defects.
 - `connects-to` → **[Anemia of Chronic Disease](../anemia-of-chronic-disease/README.md)** — Beyond marrow failure, chronic illness saps the count: alongside the aplastic-anemia tendency of the RECQL4 disorder, ongoing cancer and inflammation can add an anemia-of-chronic-disease component to the low blood counts.
 - `connects-to` → **[Chronic Kidney Disease](../ckd/README.md)** — Its osteosarcoma chemo is nephrotoxic: high-dose methotrexate, cisplatin and ifosfamide used against the bone cancers RTS predisposes to injure the kidney, threatening lasting chronic kidney impairment in these patients.
+- `connects-to` → **[Heart Failure](../heart-failure/README.md)** — Treating its bone cancers stresses the heart: the doxorubicin in osteosarcoma regimens, which RTS patients frequently need, is dose-dependently cardiotoxic and can leave a cardiomyopathy and heart failure in survivors.
+- `connects-to` → **[Aspergillus fumigatus](../../../02-pathogen/03-fungi/aspergillus-fumigatus/README.md)** — Sarcoma chemotherapy opens the lung to mold: the deep neutropenia from treating the osteosarcomas RTS predisposes to lets inhaled Aspergillus invade as pulmonary aspergillosis in these vulnerable patients.
+- `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — A disfiguring, cancer-prone condition weighs on mood: lifelong poikiloderma, sparse hair, short stature and the constant cancer-surveillance burden of Rothmund-Thomson contribute to depression and impaired quality of life.
 
 [^kitao-1999-recql4-rts]: Kitao S, Shimamoto A, Goto M, et al. Mutations in RECQL4 cause a subset of cases of Rothmund-Thomson syndrome. *Nat Genet.* 1999;22(1):82-84. [doi:10.1038/8788](https://doi.org/10.1038/8788) · [PubMed 10319867](https://pubmed.ncbi.nlm.nih.gov/10319867/)
 [^wang-2003-rts-cancer]: Wang LL, Gannavarapu A, Kozinetz CA, et al. Association between osteosarcoma and deleterious mutations in the RECQL4 gene in Rothmund-Thomson syndrome. *J Natl Cancer Inst.* 2003;95(9):669-674. [doi:10.1093/jnci/95.9.669](https://doi.org/10.1093/jnci/95.9.669) · [PubMed 12734318](https://pubmed.ncbi.nlm.nih.gov/12734318/)
