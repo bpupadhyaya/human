@@ -187,6 +187,15 @@ cross_links:
   - target: 01-human/07-system/venous-thromboembolism
     relation: connects-to
     note: "Fatty-liver disease tilts the blood toward clotting: NASH raises fibrinogen and PAI-1 and, once cirrhotic, rebalances hemostasis toward thrombosis, increasing the risk of portal vein thrombosis and venous thromboembolism."
+  - target: 01-human/07-system/colorectal-cancer
+    relation: connects-to
+    note: "The fatty liver flags a higher colon-cancer risk: NASH and its metabolic milieu are associated with an increased incidence of colorectal cancer and advanced adenomas, a malignancy beyond the liver that the disease tracks with."
+  - target: 01-human/07-system/heart-failure
+    relation: connects-to
+    note: "The fat-laden liver burdens the heart: NASH is independently linked to heart failure — especially with preserved ejection fraction — through shared insulin resistance, systemic inflammation and a cardiomyopathy of metabolic disease."
+  - target: 01-human/07-system/gout
+    relation: connects-to
+    note: "Shared metabolic excess raises uric acid: the insulin resistance and fructose metabolism of NASH drive hyperuricemia, so gout frequently accompanies fatty-liver disease as part of the metabolic syndrome cluster."
 ---
 
 # NASH
@@ -332,6 +341,9 @@ NASH pathogenesis is driven by multiple simultaneous and sequential hits, not a 
 - `connects-to` → **[NF-κB](../../03-molecular/nf-kb/README.md)** — Fat and gut signals ignite hepatic inflammation: free fatty acids and gut-derived endotoxin activate NF-κB in Kupffer cells and hepatocytes, the master switch that converts bland steatosis into the inflamed, ballooning injury of steatohepatitis.
 - `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — STAT3 links the inflamed liver to cancer: IL-6-driven STAT3 activation in hepatocytes promotes survival and proliferation, a key route by which chronic NASH inflammation gives rise to hepatocellular carcinoma.
 - `connects-to` → **[Venous Thromboembolism](../venous-thromboembolism/README.md)** — Fatty-liver disease tilts the blood toward clotting: NASH raises fibrinogen and PAI-1 and, once cirrhotic, rebalances hemostasis toward thrombosis, increasing the risk of portal vein thrombosis and venous thromboembolism.
+- `connects-to` → **[Colorectal Cancer](../colorectal-cancer/README.md)** — The fatty liver flags a higher colon-cancer risk: NASH and its metabolic milieu are associated with an increased incidence of colorectal cancer and advanced adenomas, a malignancy beyond the liver that the disease tracks with.
+- `connects-to` → **[Heart Failure](../heart-failure/README.md)** — The fat-laden liver burdens the heart: NASH is independently linked to heart failure — especially with preserved ejection fraction — through shared insulin resistance, systemic inflammation and a cardiomyopathy of metabolic disease.
+- `connects-to` → **[Gout](../gout/README.md)** — Shared metabolic excess raises uric acid: the insulin resistance and fructose metabolism of NASH drive hyperuricemia, so gout frequently accompanies fatty-liver disease as part of the metabolic syndrome cluster.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 

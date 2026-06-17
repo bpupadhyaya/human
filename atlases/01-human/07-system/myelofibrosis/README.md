@@ -181,6 +181,15 @@ cross_links:
   - target: 01-human/07-system/stroke
     relation: connects-to
     note: "Sticky blood throws arterial clots: the hyperviscosity and activated platelets of myelofibrosis raise the risk of arterial thrombosis, including ischemic stroke, alongside its better-known venous clotting."
+  - target: 01-human/07-system/tuberculosis
+    relation: connects-to
+    note: "Its JAK inhibitor can wake latent TB: ruxolitinib, the mainstay drug for myelofibrosis, suppresses interferon-γ signaling and impairs the granuloma, so latent tuberculosis can reactivate during treatment."
+  - target: 02-pathogen/03-fungi/aspergillus-fumigatus
+    relation: connects-to
+    note: "Neutropenia and JAK blockade open the lung to mold: cytopenias from marrow fibrosis plus the immunosuppression of ruxolitinib leave patients prone to invasive aspergillosis and other opportunistic infections."
+  - target: 01-human/07-system/heart-failure
+    relation: connects-to
+    note: "Transfusion iron and chronic anemia burden the heart: the lifelong red-cell support for myelofibrosis anemia deposits iron in the myocardium, and the sustained anemia adds high-output strain, together risking heart failure."
 ---
 
 # Myelofibrosis
@@ -363,6 +372,9 @@ Abrupt ruxolitinib cessation → cytokine rebound → fever, splenomegaly surge,
 - `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — The disease runs on JAK-STAT: the JAK2/CALR/MPL drivers funnel into constitutive STAT signaling, with STAT3 supporting the clone's proliferation and the inflammatory cytokine output — the pathway that ruxolitinib's JAK inhibition reins in.
 - `connects-to` → **[Atherosclerosis](../atherosclerosis/README.md)** — The JAK2 clone inflames the arteries: like other JAK2-driven blood disorders and clonal hematopoiesis, myelofibrosis accelerates atherosclerosis, its inflamed clonal leukocytes worsening plaque and cardiovascular risk.
 - `connects-to` → **[Stroke](../stroke/README.md)** — Sticky blood throws arterial clots: the hyperviscosity and activated platelets of myelofibrosis raise the risk of arterial thrombosis, including ischemic stroke, alongside its better-known venous clotting.
+- `connects-to` → **[Tuberculosis](../tuberculosis/README.md)** — Its JAK inhibitor can wake latent TB: ruxolitinib, the mainstay drug for myelofibrosis, suppresses interferon-γ signaling and impairs the granuloma, so latent tuberculosis can reactivate during treatment.
+- `connects-to` → **[Aspergillus fumigatus](../../../02-pathogen/03-fungi/aspergillus-fumigatus/README.md)** — Neutropenia and JAK blockade open the lung to mold: cytopenias from marrow fibrosis plus the immunosuppression of ruxolitinib leave patients prone to invasive aspergillosis and other opportunistic infections.
+- `connects-to` → **[Heart Failure](../heart-failure/README.md)** — Transfusion iron and chronic anemia burden the heart: the lifelong red-cell support for myelofibrosis anemia deposits iron in the myocardium, and the sustained anemia adds high-output strain, together risking heart failure.
 
 ---
 
