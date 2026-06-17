@@ -174,6 +174,15 @@ cross_links:
   - target: 01-human/07-system/panic-disorder
     relation: connects-to
     note: "Sudden sleep phenomena breed fear: the frightening sleep paralysis and hypnagogic hallucinations of narcolepsy, and its disrupted arousal, feed high rates of panic and anxiety disorders."
+  - target: 01-human/07-system/schizophrenia
+    relation: connects-to
+    note: "Its hallucinations can masquerade as psychosis: the vivid hypnagogic hallucinations and dream intrusions of narcolepsy mimic schizophrenia, a diagnostic overlap complicated further by stimulant treatment that can itself provoke psychosis."
+  - target: 01-human/07-system/heart-failure
+    relation: connects-to
+    note: "Disrupted sleep strains the heart: the autonomic dysregulation, obesity and nocturnal sympathetic surges of narcolepsy raise cardiovascular risk, contributing over time to hypertension and heart failure."
+  - target: 01-human/07-system/stroke
+    relation: connects-to
+    note: "Its cardiovascular toll reaches the brain: the metabolic syndrome and autonomic disturbance of narcolepsy are linked to a higher long-term risk of cardiovascular events including stroke."
 sources:
   - id: scammell-2015-narcolepsy-review
     type: peer-reviewed
@@ -366,6 +375,9 @@ Cataplexy is the **pathognomonic** feature of NT1 — sudden, bilateral loss of 
 - `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — An autoimmune T-cell attack runs on STAT3: type 1 narcolepsy is driven by HLA-restricted, likely Th17-skewed T cells destroying orexin neurons, and STAT3 sits at the heart of that autoreactive T-cell program.
 - `connects-to` → **[Bipolar Disorder](../bipolar-disorder/README.md)** — Mood disorder rides with the sleepiness: bipolar disorder and depression are over-represented in narcolepsy, the shared dysregulation of sleep, reward and monoamine systems blurring the boundary and complicating treatment.
 - `connects-to` → **[Panic Disorder](../panic-disorder/README.md)** — Sudden sleep phenomena breed fear: the frightening sleep paralysis and hypnagogic hallucinations of narcolepsy, and its disrupted arousal, feed high rates of panic and anxiety disorders.
+- `connects-to` → **[Schizophrenia](../schizophrenia/README.md)** — Its hallucinations can masquerade as psychosis: the vivid hypnagogic hallucinations and dream intrusions of narcolepsy mimic schizophrenia, a diagnostic overlap complicated further by stimulant treatment that can itself provoke psychosis.
+- `connects-to` → **[Heart Failure](../heart-failure/README.md)** — Disrupted sleep strains the heart: the autonomic dysregulation, obesity and nocturnal sympathetic surges of narcolepsy raise cardiovascular risk, contributing over time to hypertension and heart failure.
+- `connects-to` → **[Stroke](../stroke/README.md)** — Its cardiovascular toll reaches the brain: the metabolic syndrome and autonomic disturbance of narcolepsy are linked to a higher long-term risk of cardiovascular events including stroke.
 
 [^scammell-2015-narcolepsy-review]: Scammell TE. Narcolepsy. *N Engl J Med.* 2015;373(27):2654-2662. [doi:10.1056/NEJMra1500587](https://doi.org/10.1056/NEJMra1500587) · [PubMed 26716917](https://pubmed.ncbi.nlm.nih.gov/26716917/)
 [^dauvilliers-2007-narcolepsy-clinical]: Dauvilliers Y, Arnulf I, Mignot E. Narcolepsy with cataplexy. *Lancet.* 2007;369(9560):499-511. [doi:10.1016/S0140-6736(07)60237-2](https://doi.org/10.1016/S0140-6736(07)60237-2) · [PubMed 17292770](https://pubmed.ncbi.nlm.nih.gov/17292770/)

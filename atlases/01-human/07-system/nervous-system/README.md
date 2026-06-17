@@ -196,6 +196,15 @@ cross_links:
   - target: 01-human/07-system/multiple-sclerosis
     relation: connects-to
     note: "Autoimmunity strips the nervous system's insulation: multiple sclerosis is an immune attack on central myelin, the leading non-traumatic cause of neurological disability in young adults."
+  - target: 01-human/07-system/epilepsy
+    relation: connects-to
+    note: "Hyperexcitable circuits misfire: epilepsy is the nervous system's paroxysmal disorder, in which synchronized neuronal discharge produces seizures, arising from injury, tumor, malformation or channel dysfunction."
+  - target: 01-human/07-system/glioblastoma
+    relation: connects-to
+    note: "Its own glia turn malignant: glioblastoma is the commonest and deadliest primary brain cancer, arising from the astrocytic support cells of the nervous system and diffusely infiltrating the brain."
+  - target: 01-human/07-system/major-depressive-disorder
+    relation: connects-to
+    note: "Mood is a function of its circuits: major depression reflects dysregulation across the monoaminergic and limbic networks of the nervous system, the neurobiological basis of a leading cause of disability."
 ---
 
 # Nervous System
@@ -291,6 +300,9 @@ Distributed cortical networks underlie language (Broca's area, Wernicke's area, 
 - `connects-to` → **[Alzheimer's Disease](../alzheimers-disease/README.md)** — The commonest way the nervous system degenerates: Alzheimer's disease destroys cortical and hippocampal neurons through amyloid and tau pathology, the leading cause of dementia and the archetypal neurodegenerative disease.
 - `connects-to` → **[Parkinson's Disease](../parkinsons-disease/README.md)** — A movement disorder of dying neurons: Parkinson's disease kills the dopaminergic neurons of the substantia nigra through α-synuclein pathology, the second commonest neurodegenerative disease of the nervous system.
 - `connects-to` → **[Multiple Sclerosis](../multiple-sclerosis/README.md)** — Autoimmunity strips the nervous system's insulation: multiple sclerosis is an immune attack on central myelin, the leading non-traumatic cause of neurological disability in young adults.
+- `connects-to` → **[Epilepsy](../epilepsy/README.md)** — Hyperexcitable circuits misfire: epilepsy is the nervous system's paroxysmal disorder, in which synchronized neuronal discharge produces seizures, arising from injury, tumor, malformation or channel dysfunction.
+- `connects-to` → **[Glioblastoma](../glioblastoma/README.md)** — Its own glia turn malignant: glioblastoma is the commonest and deadliest primary brain cancer, arising from the astrocytic support cells of the nervous system and diffusely infiltrating the brain.
+- `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — Mood is a function of its circuits: major depression reflects dysregulation across the monoaminergic and limbic networks of the nervous system, the neurobiological basis of a leading cause of disability.
 
 ## Pathology
 
