@@ -187,6 +187,15 @@ cross_links:
   - target: 01-human/03-molecular/stat3
     relation: connects-to
     note: "Neutrophilic airway inflammation funnels through STAT3: IL-6 and IL-17 in the chronically infected CF lung drive STAT3 signaling that sustains the relentless inflammation damaging the airways."
+  - target: 01-human/07-system/ckd
+    relation: connects-to
+    note: "Lifelong aminoglycosides scar the kidney: the repeated courses of nephrotoxic aminoglycosides for chronic Pseudomonas infection, plus dehydration from salt loss, leave many CF patients with chronic kidney disease."
+  - target: 01-human/07-system/pancreatic-cancer
+    relation: connects-to
+    note: "Chronic pancreatic damage raises the cancer risk: the recurrent pancreatic inflammation and duct injury of CF are associated with an elevated risk of pancreatic and other digestive-tract cancers in adults."
+  - target: 01-human/07-system/major-depressive-disorder
+    relation: connects-to
+    note: "A demanding lifelong illness weighs on mood: the daily treatment burden, recurrent infections and shortened life expectancy of CF carry high rates of depression and anxiety, now routinely screened for."
 ---
 
 # Cystic Fibrosis
@@ -371,6 +380,9 @@ AND
 - `connects-to` → **[Colorectal Cancer](../colorectal-cancer/README.md)** — CFTR is also a gut tumor suppressor: people with cystic fibrosis face a markedly raised colorectal cancer risk that rises further after lung transplant, so earlier and more frequent colonoscopy screening is now recommended.
 - `connects-to` → **[Pulmonary Arterial Hypertension](../pulmonary-arterial-hypertension/README.md)** — End-stage lungs back up onto the heart: chronic hypoxia and destroyed pulmonary vasculature in advanced CF raise pulmonary artery pressure into cor pulmonale, a marker of severe disease and transplant need.
 - `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — Neutrophilic airway inflammation funnels through STAT3: IL-6 and IL-17 in the chronically infected CF lung drive STAT3 signaling that sustains the relentless inflammation damaging the airways.
+- `connects-to` → **[Chronic Kidney Disease](../ckd/README.md)** — Lifelong aminoglycosides scar the kidney: the repeated courses of nephrotoxic aminoglycosides for chronic Pseudomonas infection, plus dehydration from salt loss, leave many CF patients with chronic kidney disease.
+- `connects-to` → **[Pancreatic Cancer](../pancreatic-cancer/README.md)** — Chronic pancreatic damage raises the cancer risk: the recurrent pancreatic inflammation and duct injury of CF are associated with an elevated risk of pancreatic and other digestive-tract cancers in adults.
+- `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — A demanding lifelong illness weighs on mood: the daily treatment burden, recurrent infections and shortened life expectancy of CF carry high rates of depression and anxiety, now routinely screened for.
 
 ---
 

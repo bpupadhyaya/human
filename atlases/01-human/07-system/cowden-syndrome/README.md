@@ -187,6 +187,15 @@ cross_links:
   - target: 01-human/07-system/major-depressive-disorder
     relation: connects-to
     note: "PTEN reaches the developing brain: beyond the autism and macrocephaly of the syndrome, PTEN's role in neuronal signaling is linked to mood and anxiety disorders, part of Cowden's neuropsychiatric spectrum."
+  - target: 01-human/07-system/venous-thromboembolism
+    relation: connects-to
+    note: "A lifetime of cancers and surgery raises the clot risk: the multiple malignancies of Cowden syndrome and the repeated operations they require bring tumor-associated hypercoagulability and perioperative venous thromboembolism."
+  - target: 01-human/07-system/anemia-of-chronic-disease
+    relation: connects-to
+    note: "Bleeding hamartomas and cancer lower the count: the GI hamartomatous polyps of Cowden bleed chronically while its cancers add inflammation, together producing iron loss and an anemia-of-chronic-disease component."
+  - target: 01-human/07-system/ckd
+    relation: connects-to
+    note: "Recurrent kidney tumors cost nephrons: Cowden's high lifetime risk of renal cell carcinoma demands repeated nephron-sparing surgeries, so the cumulative loss of kidney tissue can progress to chronic kidney disease."
 ---
 
 # Cowden Syndrome
@@ -423,6 +432,9 @@ cross_links:
 - `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — PTEN loss unleashes more than PI3K: alongside AKT-mTOR, the unrestrained signaling of Cowden activates STAT3, adding a proliferative, pro-survival pathway to the hamartomas and cancers of the syndrome.
 - `connects-to` → **[Cyclin D1](../../03-molecular/cyclin-d1/README.md)** — Growth signals drive the cell cycle through cyclin D1: PTEN loss and the resulting PI3K-AKT activity push cyclin D1 expression, accelerating the cell-cycle entry behind Cowden's hamartomatous overgrowth and tumors.
 - `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — PTEN reaches the developing brain: beyond the autism and macrocephaly of the syndrome, PTEN's role in neuronal signaling is linked to mood and anxiety disorders, part of Cowden's neuropsychiatric spectrum.
+- `connects-to` → **[Venous Thromboembolism](../venous-thromboembolism/README.md)** — A lifetime of cancers and surgery raises the clot risk: the multiple malignancies of Cowden syndrome and the repeated operations they require bring tumor-associated hypercoagulability and perioperative venous thromboembolism.
+- `connects-to` → **[Anemia of Chronic Disease](../anemia-of-chronic-disease/README.md)** — Bleeding hamartomas and cancer lower the count: the GI hamartomatous polyps of Cowden bleed chronically while its cancers add inflammation, together producing iron loss and an anemia-of-chronic-disease component.
+- `connects-to` → **[Chronic Kidney Disease](../ckd/README.md)** — Recurrent kidney tumors cost nephrons: Cowden's high lifetime risk of renal cell carcinoma demands repeated nephron-sparing surgeries, so the cumulative loss of kidney tissue can progress to chronic kidney disease.
 
 ---
 
