@@ -193,6 +193,15 @@ cross_links:
   - target: 01-human/07-system/anemia-of-chronic-disease
     relation: connects-to
     note: "Persistent inflammation dulls the marrow: the chronic immune activation and IL-6 of Sjögren's raise hepcidin and blunt erythropoiesis, contributing the anemia of chronic disease seen among its cytopenias."
+  - target: 01-human/07-system/neuropathic-pain
+    relation: connects-to
+    note: "It attacks the small sensory nerves: Sjögren's is a leading autoimmune cause of small-fiber neuropathy and sensory ganglionopathy, producing burning neuropathic pain and numbness even when dryness is mild."
+  - target: 01-human/07-system/pulmonary-arterial-hypertension
+    relation: connects-to
+    note: "As a connective-tissue disease it can pressurize the lungs: like lupus and scleroderma, Sjögren's is associated with pulmonary arterial hypertension through immune-mediated remodeling of the pulmonary vasculature."
+  - target: 01-human/07-system/major-depressive-disorder
+    relation: connects-to
+    note: "Chronic dryness and fatigue wear on mood: the relentless ocular and oral dryness, profound fatigue and pain of Sjögren's substantially impair quality of life and carry elevated rates of depression."
 ---
 
 # Sjögren's Syndrome
@@ -381,6 +390,9 @@ Sjögren's syndrome can occur:
 - `connects-to` → **[Chronic Kidney Disease](../ckd/README.md)** — It quietly attacks the kidney: Sjögren's classically causes tubulointerstitial nephritis and distal renal tubular acidosis, and the cumulative interstitial damage can progress to chronic kidney disease.
 - `connects-to` → **[Fibromyalgia](../fibromyalgia/README.md)** — Fatigue and pain overlap heavily: fibromyalgia is a very common comorbidity in Sjögren's, and its widespread pain and exhaustion confound assessment of how much disability comes from the autoimmune disease itself.
 - `connects-to` → **[Anemia of Chronic Disease](../anemia-of-chronic-disease/README.md)** — Persistent inflammation dulls the marrow: the chronic immune activation and IL-6 of Sjögren's raise hepcidin and blunt erythropoiesis, contributing the anemia of chronic disease seen among its cytopenias.
+- `connects-to` → **[Neuropathic Pain](../neuropathic-pain/README.md)** — It attacks the small sensory nerves: Sjögren's is a leading autoimmune cause of small-fiber neuropathy and sensory ganglionopathy, producing burning neuropathic pain and numbness even when dryness is mild.
+- `connects-to` → **[Pulmonary Arterial Hypertension](../pulmonary-arterial-hypertension/README.md)** — As a connective-tissue disease it can pressurize the lungs: like lupus and scleroderma, Sjögren's is associated with pulmonary arterial hypertension through immune-mediated remodeling of the pulmonary vasculature.
+- `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — Chronic dryness and fatigue wear on mood: the relentless ocular and oral dryness, profound fatigue and pain of Sjögren's substantially impair quality of life and carry elevated rates of depression.
 
 ---
 

@@ -187,6 +187,15 @@ cross_links:
   - target: 01-human/07-system/anemia-of-chronic-disease
     relation: connects-to
     note: "Tumor inflammation and chemo blunt the marrow: advanced synovial sarcoma's inflammatory burden raises hepcidin while cytotoxic therapy suppresses erythropoiesis, adding an anemia-of-chronic-disease component to treatment cytopenias."
+  - target: 01-human/07-system/heart-failure
+    relation: connects-to
+    note: "Its anthracycline-based chemo strains the heart: doxorubicin, paired with ifosfamide as the mainstay for synovial sarcoma, is dose-dependently cardiotoxic and can leave a cardiomyopathy and heart failure in young survivors."
+  - target: 02-pathogen/03-fungi/aspergillus-fumigatus
+    relation: connects-to
+    note: "Its intensive chemotherapy opens the lung to mold: the deep neutropenia of doxorubicin-ifosfamide therapy for synovial sarcoma lets inhaled Aspergillus invade as pulmonary aspergillosis."
+  - target: 01-human/07-system/major-depressive-disorder
+    relation: connects-to
+    note: "A cancer of the young with hard therapy weighs on mood: synovial sarcoma's diagnosis in adolescents and young adults, disfiguring surgery and grueling chemotherapy contribute to depression and distress."
 ---
 
 # Synovial Sarcoma
@@ -369,6 +378,9 @@ SS has low TMB (~1-2 mut/Mb) and variable PD-L1 expression; ICB response rates ~
 - `connects-to` → **[Chronic Kidney Disease](../ckd/README.md)** — Ifosfamide is hard on the kidney: the alkylator central to synovial-sarcoma chemotherapy is tubulotoxic, causing a Fanconi-type tubulopathy and lasting chronic kidney impairment, especially with cumulative dosing.
 - `connects-to` → **[AML](../aml/README.md)** — Its cure can sow a later leukemia: the alkylators and anthracyclines used against synovial sarcoma carry a small long-term risk of therapy-related myelodysplasia and acute myeloid leukemia in survivors.
 - `connects-to` → **[Anemia of Chronic Disease](../anemia-of-chronic-disease/README.md)** — Tumor inflammation and chemo blunt the marrow: advanced synovial sarcoma's inflammatory burden raises hepcidin while cytotoxic therapy suppresses erythropoiesis, adding an anemia-of-chronic-disease component to treatment cytopenias.
+- `connects-to` → **[Heart Failure](../heart-failure/README.md)** — Its anthracycline-based chemo strains the heart: doxorubicin, paired with ifosfamide as the mainstay for synovial sarcoma, is dose-dependently cardiotoxic and can leave a cardiomyopathy and heart failure in young survivors.
+- `connects-to` → **[Aspergillus fumigatus](../../../02-pathogen/03-fungi/aspergillus-fumigatus/README.md)** — Its intensive chemotherapy opens the lung to mold: the deep neutropenia of doxorubicin-ifosfamide therapy for synovial sarcoma lets inhaled Aspergillus invade as pulmonary aspergillosis.
+- `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — A cancer of the young with hard therapy weighs on mood: synovial sarcoma's diagnosis in adolescents and young adults, disfiguring surgery and grueling chemotherapy contribute to depression and distress.
 
 ---
 
