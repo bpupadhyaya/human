@@ -193,6 +193,15 @@ cross_links:
   - target: 01-human/07-system/anemia-of-chronic-disease
     relation: connects-to
     note: "Chronic lung inflammation blunts the marrow: although hypoxia can raise red cells, the systemic inflammation of COPD often instead produces an anemia of chronic disease that worsens breathlessness and exercise tolerance."
+  - target: 02-pathogen/03-fungi/candida-albicans
+    relation: connects-to
+    note: "Inhaled steroids seed oral thrush: the inhaled corticosteroids used in COPD deposit on the oropharynx and locally suppress immunity, allowing Candida to overgrow into oral candidiasis."
+  - target: 01-human/07-system/stroke
+    relation: connects-to
+    note: "Systemic inflammation reaches the brain's arteries: COPD's chronic inflammation, hypoxia and shared smoking risk accelerate atherosclerosis and raise the risk of ischemic stroke, part of its cardiovascular comorbidity."
+  - target: 01-human/07-system/sclc
+    relation: connects-to
+    note: "The same smoke breeds an aggressive cancer: COPD is an independent risk factor for lung cancer, including small cell lung cancer, beyond their shared cause in tobacco smoke."
 ---
 
 # COPD
@@ -394,6 +403,9 @@ COPD encompasses two overlapping pathological processes:
 - `connects-to` → **[NF-κB](../../03-molecular/nf-kb/README.md)** — Cigarette smoke throws the airway's inflammation switch: oxidants and irritants activate NF-κB in bronchial epithelium and macrophages, driving the cytokine and protease output that destroys alveoli and scars airways in COPD.
 - `connects-to` → **[Sepsis](../sepsis/README.md)** — Exacerbations can spiral into systemic infection: bacterial and viral exacerbations cause pneumonia and respiratory failure, and in frail COPD patients these can progress to sepsis requiring critical care.
 - `connects-to` → **[Anemia of Chronic Disease](../anemia-of-chronic-disease/README.md)** — Chronic lung inflammation blunts the marrow: although hypoxia can raise red cells, the systemic inflammation of COPD often instead produces an anemia of chronic disease that worsens breathlessness and exercise tolerance.
+- `connects-to` → **[Candida albicans](../../../02-pathogen/03-fungi/candida-albicans/README.md)** — Inhaled steroids seed oral thrush: the inhaled corticosteroids used in COPD deposit on the oropharynx and locally suppress immunity, allowing Candida to overgrow into oral candidiasis.
+- `connects-to` → **[Stroke](../stroke/README.md)** — Systemic inflammation reaches the brain's arteries: COPD's chronic inflammation, hypoxia and shared smoking risk accelerate atherosclerosis and raise the risk of ischemic stroke, part of its cardiovascular comorbidity.
+- `connects-to` → **[Small Cell Lung Cancer](../sclc/README.md)** — The same smoke breeds an aggressive cancer: COPD is an independent risk factor for lung cancer, including small cell lung cancer, beyond their shared cause in tobacco smoke.
 
 ---
 

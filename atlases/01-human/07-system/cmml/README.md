@@ -187,6 +187,15 @@ cross_links:
   - target: 01-human/07-system/venous-thromboembolism
     relation: connects-to
     note: "A myeloid neoplasm that can clot: like other MDS/MPN-overlap disorders, CMML carries an increased thrombosis risk through its abnormal, activated myeloid cells and inflammatory milieu."
+  - target: 02-pathogen/03-fungi/aspergillus-fumigatus
+    relation: connects-to
+    note: "Dysfunctional myeloid cells let mold in: despite monocytosis, CMML's defective phagocytes and treatment-related neutropenia leave the lung open to invasive aspergillosis, a dangerous opportunistic infection."
+  - target: 01-human/07-system/anemia-of-chronic-disease
+    relation: connects-to
+    note: "Marrow takeover and inflammation lower the count: CMML crowds the marrow while its high inflammatory cytokine output raises hepcidin and suppresses erythropoiesis, adding an anemia-of-chronic-disease component."
+  - target: 01-human/07-system/heart-failure
+    relation: connects-to
+    note: "Transfusions and chronic anemia burden the heart: the repeated red-cell transfusions for CMML deposit iron in the myocardium while the anemia adds high-output strain, together risking heart failure."
 ---
 
 # Chronic Myelomonocytic Leukemia
@@ -369,6 +378,9 @@ CMML → AML transformation (~15-30% at 5 years): Treat as secondary AML; CPX-35
 - `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — CMML cells are hypersensitive to GM-CSF through JAK-STAT: the clone's exaggerated response to GM-CSF activates STAT signaling including STAT3/STAT5, a dependency that makes the JAK-STAT axis a therapeutic target.
 - `connects-to` → **[Sepsis](../sepsis/README.md)** — Plentiful but dysfunctional monocytes still fail: despite the monocytosis, the cells of CMML work poorly and the disease causes neutropenia, so infection and sepsis are a leading cause of death.
 - `connects-to` → **[Venous Thromboembolism](../venous-thromboembolism/README.md)** — A myeloid neoplasm that can clot: like other MDS/MPN-overlap disorders, CMML carries an increased thrombosis risk through its abnormal, activated myeloid cells and inflammatory milieu.
+- `connects-to` → **[Aspergillus fumigatus](../../../02-pathogen/03-fungi/aspergillus-fumigatus/README.md)** — Dysfunctional myeloid cells let mold in: despite monocytosis, CMML's defective phagocytes and treatment-related neutropenia leave the lung open to invasive aspergillosis, a dangerous opportunistic infection.
+- `connects-to` → **[Anemia of Chronic Disease](../anemia-of-chronic-disease/README.md)** — Marrow takeover and inflammation lower the count: CMML crowds the marrow while its high inflammatory cytokine output raises hepcidin and suppresses erythropoiesis, adding an anemia-of-chronic-disease component.
+- `connects-to` → **[Heart Failure](../heart-failure/README.md)** — Transfusions and chronic anemia burden the heart: the repeated red-cell transfusions for CMML deposit iron in the myocardium while the anemia adds high-output strain, together risking heart failure.
 
 ---
 
