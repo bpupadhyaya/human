@@ -181,6 +181,15 @@ cross_links:
   - target: 01-human/07-system/sepsis
     relation: connects-to
     note: "Functional asplenia makes sepsis the great killer in sickle disease: repeated infarction destroys the spleen, so encapsulated bacteria can cause overwhelming sepsis — the reason for penicillin prophylaxis and pneumococcal vaccination from infancy."
+  - target: 01-human/03-molecular/nf-kb
+    relation: connects-to
+    note: "Vaso-occlusion runs on NF-κB-driven stickiness: hemolysis and hypoxia activate NF-κB in endothelium and leukocytes, switching on the adhesion molecules that glue sickled cells to vessel walls and ignite the painful crisis."
+  - target: 02-pathogen/02-bacteria/salmonella-typhi
+    relation: connects-to
+    note: "A classic pairing of infarcted bone and an unusual bug: in sickle cell disease, Salmonella is the characteristic cause of osteomyelitis, seeding bone made dead by vaso-occlusion in a patient whose spleen no longer clears it."
+  - target: 01-human/07-system/hcc
+    relation: connects-to
+    note: "Transfusions and liver injury raise the cancer stakes: repeated transfusion causes iron overload while intrahepatic sickling damages the liver, and the resulting fibrosis can, over time, give rise to hepatocellular carcinoma."
 ---
 
 # Sickle Cell Disease
@@ -394,6 +403,9 @@ SCD vaso-occlusion is not just from sickled RBCs mechanically blocking vessels �
 - `connects-to` → **[Adenosine](../../03-molecular/adenosine/README.md)** — Adenosine has a double role in sickle disease: signaling through the A2B receptor it raises red-cell 2,3-BPG and promotes sickling, while via A2A it dampens the inflammatory pain of crises — a pathway probed for new therapies.
 - `connects-to` → **[Mast Cell](../../04-cellular/mast-cell/README.md)** — Mast cells stoke the pain of sickle crises: activated in the vaso-occlusive milieu they release substance P and inflammatory mediators that sensitize nerves and worsen the neurogenic component of sickle pain.
 - `connects-to` → **[Sepsis](../sepsis/README.md)** — Functional asplenia makes sepsis the great killer in sickle disease: repeated infarction destroys the spleen, so encapsulated bacteria can cause overwhelming sepsis — the reason for penicillin prophylaxis and pneumococcal vaccination from infancy.
+- `connects-to` → **[NF-κB](../../03-molecular/nf-kb/README.md)** — Vaso-occlusion runs on NF-κB-driven stickiness: hemolysis and hypoxia activate NF-κB in endothelium and leukocytes, switching on the adhesion molecules that glue sickled cells to vessel walls and ignite the painful crisis.
+- `connects-to` → **[Salmonella typhi](../../../02-pathogen/02-bacteria/salmonella-typhi/README.md)** — A classic pairing of infarcted bone and an unusual bug: in sickle cell disease, Salmonella is the characteristic cause of osteomyelitis, seeding bone made dead by vaso-occlusion in a patient whose spleen no longer clears it.
+- `connects-to` → **[Hepatocellular Carcinoma](../hcc/README.md)** — Transfusions and liver injury raise the cancer stakes: repeated transfusion causes iron overload while intrahepatic sickling damages the liver, and the resulting fibrosis can, over time, give rise to hepatocellular carcinoma.
 
 [^steinberg-1999-scd-management]: Steinberg MH. Management of sickle cell disease. *N Engl J Med.* 1999;340(13):1021-1030. [doi:10.1056/NEJM199904013401307](https://doi.org/10.1056/NEJM199904013401307) · [PubMed 10099145](https://pubmed.ncbi.nlm.nih.gov/10099145/)
 [^vichinsky-2000-acs-scd]: Vichinsky EP, Neumayr LD, Earles AN, et al. Causes and outcomes of the acute chest syndrome in sickle cell disease. *N Engl J Med.* 2000;342(25):1855-1865. [doi:10.1056/NEJM200006223422502](https://doi.org/10.1056/NEJM200006223422502) · [PubMed 10861320](https://pubmed.ncbi.nlm.nih.gov/10861320/)
