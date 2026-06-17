@@ -198,6 +198,15 @@ cross_links:
   - target: 02-pathogen/02-bacteria/streptococcus-pyogenes
     relation: connects-to
     note: "Group A strep can ravage the lungs: Streptococcus pyogenes can cause a fulminant necrotizing pneumonia with empyema, a rapidly destructive bacterial infection of the respiratory system often following a viral illness."
+  - target: 01-human/07-system/heart-failure
+    relation: connects-to
+    note: "The lungs and right heart share one circuit: chronic lung disease that stiffens the pulmonary vasculature overloads the right ventricle into cor pulmonale, a respiratory route to heart failure."
+  - target: 01-human/07-system/venous-thromboembolism
+    relation: connects-to
+    note: "Its great emergency is a lodged clot: pulmonary embolism, a venous thromboembolism that travels to the lung arteries, abruptly blocks gas exchange and strains the right heart — a leading cause of sudden respiratory collapse."
+  - target: 01-human/07-system/major-depressive-disorder
+    relation: connects-to
+    note: "Chronic breathlessness wears on mood: the activity limitation, fear of suffocation and poor sleep of chronic respiratory disease give conditions like COPD high rates of depression."
 taxonomy:
   uberon: "UBERON:0001004"
   fma: "FMA:7161"
@@ -339,6 +348,9 @@ The mucociliary escalator (ciliated cells + goblet cell mucus) continuously clea
 - **Connects-to** → [Systemic Sclerosis](../systemic-sclerosis/README.md): Autoimmune fibrosis stiffens the lungs: systemic sclerosis is a leading cause of interstitial lung disease and pulmonary hypertension, scarring the respiratory system into the disorder's commonest cause of death.
 - **Connects-to** → [Measles](../measles/README.md): A childhood virus drowns the lungs: measles causes a giant-cell pneumonia that, especially in the malnourished or immunocompromised, is the leading fatal complication of the infection — a viral assault on the respiratory system.
 - **Connects-to** → [Streptococcus pyogenes](../../../02-pathogen/02-bacteria/streptococcus-pyogenes/README.md): Group A strep can ravage the lungs: Streptococcus pyogenes can cause a fulminant necrotizing pneumonia with empyema, a rapidly destructive bacterial infection of the respiratory system often following a viral illness.
+- **Connects-to** → [Heart Failure](../heart-failure/README.md): The lungs and right heart share one circuit: chronic lung disease that stiffens the pulmonary vasculature overloads the right ventricle into cor pulmonale, a respiratory route to heart failure.
+- **Connects-to** → [Venous Thromboembolism](../venous-thromboembolism/README.md): Its great emergency is a lodged clot: pulmonary embolism, a venous thromboembolism that travels to the lung arteries, abruptly blocks gas exchange and strains the right heart — a leading cause of sudden respiratory collapse.
+- **Connects-to** → [Major Depressive Disorder](../major-depressive-disorder/README.md): Chronic breathlessness wears on mood: the activity limitation, fear of suffocation and poor sleep of chronic respiratory disease give conditions like COPD high rates of depression.
 - `prevented-by` → **[PCV13 (Prevnar 13)](../../../../04-vaccine/08-conjugate/pcv13/README.md)** — CAPiTA RCT (N=84,496 adults ≥65): PCV13 achieved 45.6% VE against vaccine-type CAP and 75% VE against invasive pneumococcal disease; prevents pneumococcal pneumonia, the leading infectious cause of respiratory hospitalisation in older adults.
 
 ## Pathology

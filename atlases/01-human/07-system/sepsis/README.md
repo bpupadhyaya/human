@@ -199,6 +199,15 @@ cross_links:
   - target: 01-human/07-system/major-depressive-disorder
     relation: connects-to
     note: "Survival carries a lasting mental toll: survivors of severe sepsis frequently develop depression, anxiety and cognitive impairment — part of the post-intensive-care syndrome that follows critical illness."
+  - target: 01-human/07-system/ptsd
+    relation: connects-to
+    note: "Surviving the ICU can leave trauma: the delirium, ventilation and life-threatening course of severe sepsis frequently leave survivors with post-traumatic stress, a core part of post-intensive-care syndrome."
+  - target: 01-human/07-system/neuropathic-pain
+    relation: connects-to
+    note: "Critical illness damages the nerves: severe sepsis causes critical-illness polyneuropathy and myopathy, leaving lasting weakness and neuropathic pain that prolong recovery for months."
+  - target: 01-human/07-system/wound-healing
+    relation: connects-to
+    note: "Shock and microthrombi starve the skin: sepsis-driven hypoperfusion, vasopressors and disseminated coagulation cause tissue ischemia and necrosis — even limb gangrene — leaving major wounds that heal poorly."
 ---
 
 # Sepsis
@@ -365,6 +374,9 @@ Sepsis is not localized to one system — it manifests as dysfunction across mul
 - `connects-to` → **[Streptococcus pyogenes](../../../02-pathogen/02-bacteria/streptococcus-pyogenes/README.md)** — It can trigger the most explosive shock: Streptococcus pyogenes causes streptococcal toxic shock syndrome and necrotizing fasciitis, where superantigen-driven cytokine release produces a fulminant sepsis with rapid multiorgan failure.
 - `connects-to` → **[Stroke](../stroke/README.md)** — Sepsis can strike the brain's vessels: septic emboli from endocarditis, the profound hypotension of shock and the prothrombotic state can all cause ischemic stroke during severe sepsis.
 - `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — Survival carries a lasting mental toll: survivors of severe sepsis frequently develop depression, anxiety and cognitive impairment — part of the post-intensive-care syndrome that follows critical illness.
+- `connects-to` → **[PTSD](../ptsd/README.md)** — Surviving the ICU can leave trauma: the delirium, ventilation and life-threatening course of severe sepsis frequently leave survivors with post-traumatic stress, a core part of post-intensive-care syndrome.
+- `connects-to` → **[Neuropathic Pain](../neuropathic-pain/README.md)** — Critical illness damages the nerves: severe sepsis causes critical-illness polyneuropathy and myopathy, leaving lasting weakness and neuropathic pain that prolong recovery for months.
+- `connects-to` → **[Wound Healing](../wound-healing/README.md)** — Shock and microthrombi starve the skin: sepsis-driven hypoperfusion, vasopressors and disseminated coagulation cause tissue ischemia and necrosis — even limb gangrene — leaving major wounds that heal poorly.
 - `treated-by` → **[Vancomycin](../../../03-medicine/01-modern/06-antimicrobial/vancomycin/README.md)** — First-line empiric IV therapy for MRSA bacteremia and gram-positive sepsis; added to beta-lactam empiric regimens when MRSA risk is elevated; AUC/MIC-guided dosing (IDSA 2021); MIC ≤1 mg/L required for endocarditis; daptomycin alternative for high MIC.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
