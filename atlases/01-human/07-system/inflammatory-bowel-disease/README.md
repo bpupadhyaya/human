@@ -202,6 +202,15 @@ cross_links:
   - target: 01-human/07-system/cholangiocarcinoma
     relation: connects-to
     note: "Through PSC it threatens the bile ducts: IBD — especially ulcerative colitis — is tightly linked to primary sclerosing cholangitis, whose chronic biliary inflammation carries a markedly raised risk of cholangiocarcinoma."
+  - target: 02-pathogen/01-viruses/hepatitis-b-virus
+    relation: connects-to
+    note: "Its biologics can reactivate hepatitis B: the anti-TNF and other immunosuppressive therapies for IBD can reawaken a dormant hepatitis B virus, so screening and antiviral prophylaxis precede treatment."
+  - target: 02-pathogen/03-fungi/aspergillus-fumigatus
+    relation: connects-to
+    note: "Combined immunosuppression opens the lung to mold: corticosteroids stacked on biologics or JAK inhibitors for IBD deeply blunt immunity, occasionally permitting invasive aspergillosis."
+  - target: 01-human/07-system/major-depressive-disorder
+    relation: connects-to
+    note: "Gut inflammation and chronic disease weigh on mood: the relapsing course, urgency and gut-brain inflammatory signaling of IBD give it markedly elevated rates of depression."
 ---
 
 # Inflammatory Bowel Disease
@@ -391,6 +400,9 @@ IBD is a complex polygenic disease with >240 susceptibility loci (GWAS):
 - `connects-to` → **[Tuberculosis](../tuberculosis/README.md)** — Its TNF blockers can wake latent TB: the anti-TNF biologics central to IBD treatment disable the granuloma containing Mycobacterium tuberculosis, so latent-TB screening and treatment precede therapy to prevent reactivation.
 - `connects-to` → **[Pneumocystis jirovecii](../../../02-pathogen/03-fungi/pneumocystis-jirovecii/README.md)** — Combination immunosuppression opens the lung: thiopurines, steroids and biologics together in IBD can deplete T-cell defenses enough to risk Pneumocystis pneumonia, weighed in high-intensity regimens.
 - `connects-to` → **[Cholangiocarcinoma](../cholangiocarcinoma/README.md)** — Through PSC it threatens the bile ducts: IBD — especially ulcerative colitis — is tightly linked to primary sclerosing cholangitis, whose chronic biliary inflammation carries a markedly raised risk of cholangiocarcinoma.
+- `connects-to` → **[Hepatitis B virus](../../../02-pathogen/01-viruses/hepatitis-b-virus/README.md)** — Its biologics can reactivate hepatitis B: the anti-TNF and other immunosuppressive therapies for IBD can reawaken a dormant hepatitis B virus, so screening and antiviral prophylaxis precede treatment.
+- `connects-to` → **[Aspergillus fumigatus](../../../02-pathogen/03-fungi/aspergillus-fumigatus/README.md)** — Combined immunosuppression opens the lung to mold: corticosteroids stacked on biologics or JAK inhibitors for IBD deeply blunt immunity, occasionally permitting invasive aspergillosis.
+- `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — Gut inflammation and chronic disease weigh on mood: the relapsing course, urgency and gut-brain inflammatory signaling of IBD give it markedly elevated rates of depression.
 
 [^ng-2017-ibd-epidemiology]: Ng SC, Shi HY, Hamidi N, et al. Worldwide incidence and prevalence of inflammatory bowel disease in the 21st century: a systematic review of population-based studies. *Lancet.* 2018;390(10114):2769-2778. [doi:10.1016/S0140-6736(17)32448-0](https://doi.org/10.1016/S0140-6736(17)32448-0) · [PubMed 29050646](https://pubmed.ncbi.nlm.nih.gov/29050646/)
 [^sandborn-2012-vedolizumab]: Feagan BG, Rutgeerts P, Sands BE, et al. Vedolizumab as induction and maintenance therapy for ulcerative colitis. *N Engl J Med.* 2013;369(8):699-710. [doi:10.1056/NEJMoa1215734](https://doi.org/10.1056/NEJMoa1215734) · [PubMed 23964932](https://pubmed.ncbi.nlm.nih.gov/23964932/)
