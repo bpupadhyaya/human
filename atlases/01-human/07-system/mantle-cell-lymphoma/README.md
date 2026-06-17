@@ -196,6 +196,15 @@ cross_links:
   - target: 01-human/07-system/heart-failure
     relation: connects-to
     note: "Its drugs can strain the heart: ibrutinib causes atrial fibrillation and cardiac events, while the anthracyclines and cardiotoxic agents in MCL induction regimens add to the risk of heart failure."
+  - target: 01-human/07-system/neuropathic-pain
+    relation: connects-to
+    note: "Its chemotherapy injures the nerves: the bortezomib and vincristine used in mantle cell lymphoma regimens cause a dose-limiting peripheral neuropathy with neuropathic pain."
+  - target: 02-pathogen/01-viruses/varicella-zoster-virus
+    relation: connects-to
+    note: "Its BTK-inhibitor therapy reawakens shingles: ibrutinib and other agents for mantle cell lymphoma suppress immunity and characteristically reactivate latent varicella-zoster as herpes zoster."
+  - target: 01-human/07-system/major-depressive-disorder
+    relation: connects-to
+    note: "An aggressive, relapsing lymphoma weighs on mood: the poor prognosis, intensive therapy and recurrent relapses of mantle cell lymphoma contribute to a substantial burden of depression."
 ---
 
 # Mantle Cell Lymphoma
@@ -377,6 +386,9 @@ For SOX11−, mutated IGHV, non-bulky, asymptomatic nnMCL: Observation is safe; 
 - `connects-to` → **[Hepatitis B Virus](../../../02-pathogen/01-viruses/hepatitis-b-virus/README.md)** — Anti-CD20 therapy can reactivate it: the rituximab central to mantle cell lymphoma treatment depletes B cells and can reawaken latent hepatitis B, so screening and antiviral prophylaxis precede therapy.
 - `connects-to` → **[Aspergillus fumigatus](../../../02-pathogen/03-fungi/aspergillus-fumigatus/README.md)** — Its BTK inhibitors invite mold: ibrutinib and related agents used in mantle cell lymphoma are associated with invasive aspergillosis and other fungal infections, a recognized hazard of this targeted therapy.
 - `connects-to` → **[Heart Failure](../heart-failure/README.md)** — Its drugs can strain the heart: ibrutinib causes atrial fibrillation and cardiac events, while the anthracyclines and cardiotoxic agents in MCL induction regimens add to the risk of heart failure.
+- `connects-to` → **[Neuropathic Pain](../neuropathic-pain/README.md)** — Its chemotherapy injures the nerves: the bortezomib and vincristine used in mantle cell lymphoma regimens cause a dose-limiting peripheral neuropathy with neuropathic pain.
+- `connects-to` → **[Varicella-Zoster Virus](../../../02-pathogen/01-viruses/varicella-zoster-virus/README.md)** — Its BTK-inhibitor therapy reawakens shingles: ibrutinib and other agents for mantle cell lymphoma suppress immunity and characteristically reactivate latent varicella-zoster as herpes zoster.
+- `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — An aggressive, relapsing lymphoma weighs on mood: the poor prognosis, intensive therapy and recurrent relapses of mantle cell lymphoma contribute to a substantial burden of depression.
 
 ---
 

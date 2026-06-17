@@ -196,6 +196,15 @@ cross_links:
   - target: 01-human/07-system/pulmonary-arterial-hypertension
     relation: connects-to
     note: "Chest deformity and lung disease strain the right heart: severe scoliosis, pectus deformity and apical bullae in Marfan restrict the lungs and, with chronic hypoxia, can raise pulmonary pressures toward cor pulmonale."
+  - target: 01-human/07-system/wound-healing
+    relation: connects-to
+    note: "Faulty connective tissue heals poorly: the fibrillin defect of Marfan weakens the matrix that wounds rebuild, so surgical incisions — including major aortic operations — and skin are prone to poor healing and hernia."
+  - target: 01-human/07-system/neuropathic-pain
+    relation: connects-to
+    note: "Dural ectasia presses on the nerves: the ballooning of the dural sac, a characteristic Marfan feature, stretches lumbosacral nerve roots and causes chronic low back and radicular neuropathic pain."
+  - target: 01-human/07-system/insomnia-disorder
+    relation: connects-to
+    note: "Its craniofacial build disturbs sleep: the high-arched palate and retrognathia of Marfan predispose to obstructive sleep apnea, fragmenting sleep and worsening daytime function and cardiovascular strain."
 ---
 
 # Marfan Syndrome
@@ -394,6 +403,9 @@ MFS is a **multi-system disorder** defined by cardiovascular, ocular, and skelet
 - `connects-to` → **[Sepsis](../sepsis/README.md)** — Abnormal valves and aortic grafts invite infection: Marfan's mitral and aortic valve disease predisposes to infective endocarditis, and prosthetic aortic grafts can become infected, both able to seed sepsis.
 - `connects-to` → **[Chronic Kidney Disease](../ckd/README.md)** — Aortic dissection can starve the kidneys: a dissection extending to the renal arteries causes renal malperfusion and infarction, and the perioperative injury of major aortic surgery can leave chronic kidney impairment.
 - `connects-to` → **[Pulmonary Arterial Hypertension](../pulmonary-arterial-hypertension/README.md)** — Chest deformity and lung disease strain the right heart: severe scoliosis, pectus deformity and apical bullae in Marfan restrict the lungs and, with chronic hypoxia, can raise pulmonary pressures toward cor pulmonale.
+- `connects-to` → **[Wound Healing](../wound-healing/README.md)** — Faulty connective tissue heals poorly: the fibrillin defect of Marfan weakens the matrix that wounds rebuild, so surgical incisions — including major aortic operations — and skin are prone to poor healing and hernia.
+- `connects-to` → **[Neuropathic Pain](../neuropathic-pain/README.md)** — Dural ectasia presses on the nerves: the ballooning of the dural sac, a characteristic Marfan feature, stretches lumbosacral nerve roots and causes chronic low back and radicular neuropathic pain.
+- `connects-to` → **[Insomnia Disorder](../insomnia-disorder/README.md)** — Its craniofacial build disturbs sleep: the high-arched palate and retrognathia of Marfan predispose to obstructive sleep apnea, fragmenting sleep and worsening daytime function and cardiovascular strain.
 
 ---
 
