@@ -187,6 +187,15 @@ cross_links:
   - target: 01-human/07-system/sepsis
     relation: connects-to
     note: "Craniotomy carries infectious risk: the surgery used to resect meningiomas can be complicated by wound infection or meningitis, which in the postoperative patient can progress to sepsis."
+  - target: 01-human/07-system/major-depressive-disorder
+    relation: connects-to
+    note: "Its location and surveillance weigh on the mind: frontal meningiomas can directly alter mood and personality, and the anxiety of watchful waiting over a brain tumor contributes to depression."
+  - target: 01-human/07-system/osteoporosis
+    relation: connects-to
+    note: "Steroids for brain swelling thin the bones: the corticosteroids used to control peritumoral edema around meningiomas, especially with prolonged or repeated courses, accelerate bone loss and fracture risk."
+  - target: 01-human/07-system/anemia-of-chronic-disease
+    relation: connects-to
+    note: "Aggressive disease and its treatment blunt the marrow: atypical and anaplastic meningiomas that recur and require radiation or chemotherapy carry an inflammatory burden that can produce an anemia of chronic disease."
 ---
 
 # Meningioma
@@ -360,6 +369,9 @@ VEGF overexpression in meningioma (YAP target); Phase 2 COMBIT (Huang 2019, N=40
 - `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — Merlin loss activates STAT3: NF2/merlin-deficient meningiomas show STAT3 signaling that supports their growth, paralleling the schwannoma biology of the same tumor-suppressor loss.
 - `connects-to` → **[NF-κB](../../03-molecular/nf-kb/README.md)** — Merlin normally restrains NF-κB: its loss in meningioma lifts that brake, engaging NF-κB-driven survival and inflammatory signaling among the pathways downstream of NF2 inactivation.
 - `connects-to` → **[Sepsis](../sepsis/README.md)** — Craniotomy carries infectious risk: the surgery used to resect meningiomas can be complicated by wound infection or meningitis, which in the postoperative patient can progress to sepsis.
+- `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — Its location and surveillance weigh on the mind: frontal meningiomas can directly alter mood and personality, and the anxiety of watchful waiting over a brain tumor contributes to depression.
+- `connects-to` → **[Osteoporosis](../osteoporosis/README.md)** — Steroids for brain swelling thin the bones: the corticosteroids used to control peritumoral edema around meningiomas, especially with prolonged or repeated courses, accelerate bone loss and fracture risk.
+- `connects-to` → **[Anemia of Chronic Disease](../anemia-of-chronic-disease/README.md)** — Aggressive disease and its treatment blunt the marrow: atypical and anaplastic meningiomas that recur and require radiation or chemotherapy carry an inflammatory burden that can produce an anemia of chronic disease.
 
 [^brastianos-2013-akt1-meningioma]: Brastianos PK, Horowitz PM, Santagata S, et al. Genomic sequencing of meningiomas identifies oncogenic SMO and AKT1 mutations. *Nat Genet.* 2013;45(3):285-289. [doi:10.1038/ng.2526](https://doi.org/10.1038/ng.2526) · [PubMed 23334667](https://pubmed.ncbi.nlm.nih.gov/23334667/)
 [^nassiri-2021-meningioma-classification]: Nassiri F, Liu J, Patil V, et al. A clinically applicable integrative molecular classification of meningiomas. *Nature.* 2021;597(7874):119-125. [doi:10.1038/s41586-021-03850-3](https://doi.org/10.1038/s41586-021-03850-3) · [PubMed 34385709](https://pubmed.ncbi.nlm.nih.gov/34385709/)

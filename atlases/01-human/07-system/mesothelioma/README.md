@@ -187,6 +187,15 @@ cross_links:
   - target: 01-human/07-system/anemia-of-chronic-disease
     relation: connects-to
     note: "Chronic inflammation wears down the blood: the IL-6-driven inflammatory state of mesothelioma suppresses erythropoiesis, producing an anemia of chronic disease that contributes to the fatigue of advanced disease."
+  - target: 01-human/07-system/neuropathic-pain
+    relation: connects-to
+    note: "It grows into the chest wall and nerves: mesothelioma encases the pleura and invades the chest wall and intercostal nerves, causing severe, often intractable neuropathic chest pain that dominates the illness."
+  - target: 01-human/07-system/ckd
+    relation: connects-to
+    note: "Its chemo is hard on the kidney: the cisplatin-pemetrexed backbone of mesothelioma treatment is nephrotoxic, and pemetrexed is renally cleared, so impaired and injured kidneys both threaten and are threatened by therapy."
+  - target: 01-human/07-system/major-depressive-disorder
+    relation: connects-to
+    note: "A dismal prognosis weighs on mood: relentless breathlessness and chest pain, a near-uniformly fatal course and often unresolved asbestos-related litigation give mesothelioma a heavy burden of depression."
 ---
 
 # Mesothelioma
@@ -362,6 +371,9 @@ Cytoreductive surgery (CRS) + hyperthermic intraperitoneal chemotherapy (HIPEC):
 - `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — Asbestos-driven inflammation feeds STAT3: the chronic IL-6-rich inflammation that asbestos provokes in the pleura activates STAT3, a survival and proliferation signal central to mesothelioma's inflammation-to-cancer origin.
 - `connects-to` → **[Sepsis](../sepsis/README.md)** — An infected pleural space turns dangerous: recurrent pleural effusions, indwelling drains, pleurodesis and major surgery for mesothelioma can seed empyema and bloodstream infection that progress to sepsis.
 - `connects-to` → **[Anemia of Chronic Disease](../anemia-of-chronic-disease/README.md)** — Chronic inflammation wears down the blood: the IL-6-driven inflammatory state of mesothelioma suppresses erythropoiesis, producing an anemia of chronic disease that contributes to the fatigue of advanced disease.
+- `connects-to` → **[Neuropathic Pain](../neuropathic-pain/README.md)** — It grows into the chest wall and nerves: mesothelioma encases the pleura and invades the chest wall and intercostal nerves, causing severe, often intractable neuropathic chest pain that dominates the illness.
+- `connects-to` → **[Chronic Kidney Disease](../ckd/README.md)** — Its chemo is hard on the kidney: the cisplatin-pemetrexed backbone of mesothelioma treatment is nephrotoxic, and pemetrexed is renally cleared, so impaired and injured kidneys both threaten and are threatened by therapy.
+- `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — A dismal prognosis weighs on mood: relentless breathlessness and chest pain, a near-uniformly fatal course and often unresolved asbestos-related litigation give mesothelioma a heavy burden of depression.
 
 [^baas-2021-checkmate743]: Baas P, Scherpereel A, Nowak AK, et al. First-line nivolumab plus ipilimumab in unresectable malignant pleural mesothelioma (CheckMate 743). *Lancet.* 2021;397(10272):375-386. [doi:10.1016/S0140-6736(20)32714-8](https://doi.org/10.1016/S0140-6736(20)32714-8) · [PubMed 33485464](https://pubmed.ncbi.nlm.nih.gov/33485464/)
 [^vogelzang-2003-pemetrexed]: Vogelzang NJ, Rusthoven JJ, Symanowski J, et al. Phase III study of pemetrexed in combination with cisplatin versus cisplatin alone in patients with malignant pleural mesothelioma. *J Clin Oncol.* 2003;21(14):2636-2644. [doi:10.1200/JCO.2003.11.136](https://doi.org/10.1200/JCO.2003.11.136) · [PubMed 12860938](https://pubmed.ncbi.nlm.nih.gov/12860938/)
