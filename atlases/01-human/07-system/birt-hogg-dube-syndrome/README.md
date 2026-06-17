@@ -196,6 +196,15 @@ cross_links:
   - target: 01-human/07-system/major-depressive-disorder
     relation: connects-to
     note: "Lifelong cancer surveillance weighs on the mind: living with an inherited risk of renal tumors, recurrent surgeries and the threat of spontaneous lung collapse imposes a real psychological burden in BHD."
+  - target: 02-pathogen/03-fungi/aspergillus-fumigatus
+    relation: connects-to
+    note: "Its lung cysts can harbor mold: the thin-walled pulmonary cysts of Birt-Hogg-Dubé create air spaces where inhaled Aspergillus can colonize and form an aspergilloma."
+  - target: 01-human/07-system/sepsis
+    relation: connects-to
+    note: "Recurrent pneumothorax and surgery invite infection: repeated chest-tube drainage and pleurodesis for collapsing lungs, plus nephron-sparing renal-tumor surgery, carry a cumulative risk of serious infection and sepsis."
+  - target: 01-human/07-system/generalized-anxiety-disorder
+    relation: connects-to
+    note: "Unpredictable lung collapse breeds worry: the threat of a sudden spontaneous pneumothorax and the constant renal-cancer surveillance of BHD foster chronic health anxiety."
 ---
 
 # Birt-Hogg-Dubé Syndrome
@@ -396,6 +405,9 @@ Definite BHD: 1 major OR 2 minor criteria (European BHD Consortium definition)
 - `connects-to` → **[Anemia of Chronic Disease](../anemia-of-chronic-disease/README.md)** — Its renal tumors drag the count down: the recurrent renal cell carcinomas of BHD bring tumor inflammation and surgical nephron loss that, with reduced erythropoietin, contribute an anemia of chronic disease.
 - `connects-to` → **[Venous Thromboembolism](../venous-thromboembolism/README.md)** — Repeated cancer surgery raises the clot risk: the lifetime of renal-tumor resections and the prothrombotic state of renal cell carcinoma predispose BHD patients to perioperative venous thromboembolism.
 - `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — Lifelong cancer surveillance weighs on the mind: living with an inherited risk of renal tumors, recurrent surgeries and the threat of spontaneous lung collapse imposes a real psychological burden in BHD.
+- `connects-to` → **[Aspergillus fumigatus](../../../02-pathogen/03-fungi/aspergillus-fumigatus/README.md)** — Its lung cysts can harbor mold: the thin-walled pulmonary cysts of Birt-Hogg-Dubé create air spaces where inhaled Aspergillus can colonize and form an aspergilloma.
+- `connects-to` → **[Sepsis](../sepsis/README.md)** — Recurrent pneumothorax and surgery invite infection: repeated chest-tube drainage and pleurodesis for collapsing lungs, plus nephron-sparing renal-tumor surgery, carry a cumulative risk of serious infection and sepsis.
+- `connects-to` → **[Generalized Anxiety Disorder](../generalized-anxiety-disorder/README.md)** — Unpredictable lung collapse breeds worry: the threat of a sudden spontaneous pneumothorax and the constant renal-cancer surveillance of BHD foster chronic health anxiety.
 
 ---
 

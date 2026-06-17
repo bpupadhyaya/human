@@ -202,6 +202,15 @@ cross_links:
   - target: 01-human/07-system/major-depressive-disorder
     relation: connects-to
     note: "Cystectomy and a stoma reshape life: the loss of the bladder, a urinary diversion or stoma and the demands of intravesical therapy impose a heavy psychological burden, with high rates of depression."
+  - target: 01-human/07-system/neuropathic-pain
+    relation: connects-to
+    note: "Its cisplatin chemo leaves nerves raw: the platinum-based regimens central to muscle-invasive bladder cancer cause a dose-limiting peripheral neuropathy with chronic neuropathic pain."
+  - target: 01-human/07-system/anemia-of-chronic-disease
+    relation: connects-to
+    note: "Bleeding tumor and chemo drain the blood: chronic hematuria, the inflammatory burden of the cancer and marrow-suppressing chemotherapy combine to produce anemia of chronic disease."
+  - target: 02-pathogen/03-fungi/aspergillus-fumigatus
+    relation: connects-to
+    note: "Chemotherapy opens the lung to mold: the neutropenia from cisplatin-based bladder-cancer chemotherapy can let inhaled Aspergillus invade as pulmonary aspergillosis."
 ---
 
 # Bladder Cancer
@@ -384,6 +393,9 @@ NMIBC and MIBC have distinct molecular landscapes:
 - `connects-to` → **[Iron Deficiency Anemia](../iron-deficiency-anemia/README.md)** — Blood in the urine drains the iron: painless hematuria is the cardinal sign of bladder cancer, and chronic or recurrent bleeding steadily depletes iron stores into an iron-deficiency anemia.
 - `connects-to` → **[Chronic Kidney Disease](../ckd/README.md)** — Obstruction and surgery threaten the kidneys: tumor at the ureteric orifices causes hydronephrosis, and radical cystectomy with urinary diversion alters renal drainage, together risking chronic kidney disease.
 - `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — Cystectomy and a stoma reshape life: the loss of the bladder, a urinary diversion or stoma and the demands of intravesical therapy impose a heavy psychological burden, with high rates of depression.
+- `connects-to` → **[Neuropathic Pain](../neuropathic-pain/README.md)** — Its cisplatin chemo leaves nerves raw: the platinum-based regimens central to muscle-invasive bladder cancer cause a dose-limiting peripheral neuropathy with chronic neuropathic pain.
+- `connects-to` → **[Anemia of Chronic Disease](../anemia-of-chronic-disease/README.md)** — Bleeding tumor and chemo drain the blood: chronic hematuria, the inflammatory burden of the cancer and marrow-suppressing chemotherapy combine to produce anemia of chronic disease.
+- `connects-to` → **[Aspergillus fumigatus](../../../02-pathogen/03-fungi/aspergillus-fumigatus/README.md)** — Chemotherapy opens the lung to mold: the neutropenia from cisplatin-based bladder-cancer chemotherapy can let inhaled Aspergillus invade as pulmonary aspergillosis.
 
 ---
 
