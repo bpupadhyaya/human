@@ -199,6 +199,15 @@ cross_links:
   - target: 01-human/07-system/sjogrens-syndrome
     relation: connects-to
     note: "Autoimmunity keeps company: myasthenia gravis frequently coexists with other autoimmune diseases including Sjögren's syndrome, reflecting a shared predisposition to loss of self-tolerance."
+  - target: 02-pathogen/03-fungi/aspergillus-fumigatus
+    relation: connects-to
+    note: "Its immunosuppression opens the lung to mold: the corticosteroids, azathioprine and rituximab used to control myasthenia gravis blunt immunity, occasionally permitting invasive pulmonary aspergillosis."
+  - target: 01-human/07-system/type-2-diabetes
+    relation: connects-to
+    note: "Its long steroid courses raise blood sugar: the prolonged high-dose corticosteroids used to suppress myasthenia gravis induce insulin resistance and frequently precipitate steroid-induced diabetes."
+  - target: 01-human/07-system/major-depressive-disorder
+    relation: connects-to
+    note: "Fluctuating weakness and steroids weigh on mood: the unpredictable muscle weakness, fear of crisis and corticosteroid mood effects of myasthenia gravis contribute to depression and impaired quality of life."
 ---
 
 # Myasthenia Gravis
@@ -370,6 +379,9 @@ cross_links:
 - `connects-to` → **[Osteoporosis](../osteoporosis/README.md)** — Long-term steroids thin the bone: the prolonged corticosteroids that control myasthenia gravis, compounded by reduced mobility during weakness, accelerate bone loss and raise osteoporotic fracture risk.
 - `connects-to` → **[Pneumocystis jirovecii](../../../02-pathogen/03-fungi/pneumocystis-jirovecii/README.md)** — Its immunosuppression opens the lung: the steroids, azathioprine and rituximab used for myasthenia gravis can deplete T-cell defenses enough to risk Pneumocystis pneumonia, sometimes warranting prophylaxis.
 - `connects-to` → **[Sjögren's Syndrome](../sjogrens-syndrome/README.md)** — Autoimmunity keeps company: myasthenia gravis frequently coexists with other autoimmune diseases including Sjögren's syndrome, reflecting a shared predisposition to loss of self-tolerance.
+- `connects-to` → **[Aspergillus fumigatus](../../../02-pathogen/03-fungi/aspergillus-fumigatus/README.md)** — Its immunosuppression opens the lung to mold: the corticosteroids, azathioprine and rituximab used to control myasthenia gravis blunt immunity, occasionally permitting invasive pulmonary aspergillosis.
+- `connects-to` → **[Type 2 Diabetes](../type-2-diabetes/README.md)** — Its long steroid courses raise blood sugar: the prolonged high-dose corticosteroids used to suppress myasthenia gravis induce insulin resistance and frequently precipitate steroid-induced diabetes.
+- `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — Fluctuating weakness and steroids weigh on mood: the unpredictable muscle weakness, fear of crisis and corticosteroid mood effects of myasthenia gravis contribute to depression and impaired quality of life.
 
 [^gilhus-2016-mg-review]: Gilhus NE. Myasthenia Gravis. *N Engl J Med.* 2016;375(26):2570-2581. [doi:10.1056/NEJMra1602678](https://doi.org/10.1056/NEJMra1602678) · [PubMed 28029925](https://pubmed.ncbi.nlm.nih.gov/28029925/)
 [^howard-2021-efgartigimod-adapt]: Howard JF Jr, Bril V, Vu T, et al. Safety, efficacy, and tolerability of efgartigimod in patients with generalised myasthenia gravis (ADAPT). *Lancet Neurol.* 2021;20(7):526-536. [doi:10.1016/S1474-4422(21)00159-9](https://doi.org/10.1016/S1474-4422(21)00159-9) · [PubMed 34146511](https://pubmed.ncbi.nlm.nih.gov/34146511/)

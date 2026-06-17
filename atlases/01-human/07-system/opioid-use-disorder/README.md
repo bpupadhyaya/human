@@ -202,6 +202,15 @@ cross_links:
   - target: 01-human/07-system/generalized-anxiety-disorder
     relation: connects-to
     note: "Anxiety drives and follows the use: generalized anxiety commonly co-occurs with opioid use disorder, both as a reason people self-medicate and as a feature of withdrawal that perpetuates the cycle."
+  - target: 01-human/07-system/wound-healing
+    relation: connects-to
+    note: "Injection breaks and infects the skin: non-sterile injection causes abscesses, cellulitis and necrotizing soft-tissue infections, leaving chronic wounds that heal poorly in often malnourished users."
+  - target: 01-human/07-system/heart-failure
+    relation: connects-to
+    note: "Injection seeds the heart valves: injection drug use causes infective endocarditis that destroys heart valves, and the resulting valvular regurgitation can drive heart failure."
+  - target: 01-human/07-system/pulmonary-arterial-hypertension
+    relation: connects-to
+    note: "Injected tablet fillers lodge in the lungs: injecting crushed oral opioids introduces talc and other particulates that embolize to the pulmonary vasculature, causing granulomatosis and pulmonary hypertension."
 ---
 
 # Opioid Use Disorder
@@ -418,6 +427,9 @@ The primary mechanism by which opioids produce euphoria:
 - `connects-to` → **[Venous Thromboembolism](../venous-thromboembolism/README.md)** — Repeated injection scars and clots the veins: groin and limb injection causes deep-vein thrombosis and septic thrombophlebitis, and the venous damage of injection opioid use raises pulmonary embolism risk.
 - `connects-to` → **[Chronic Kidney Disease](../ckd/README.md)** — Overdose and infection injure the kidney: rhabdomyolysis from prolonged unconsciousness during overdose causes acute kidney injury, and injection-related infections and amyloidosis can leave chronic kidney disease.
 - `connects-to` → **[Generalized Anxiety Disorder](../generalized-anxiety-disorder/README.md)** — Anxiety drives and follows the use: generalized anxiety commonly co-occurs with opioid use disorder, both as a reason people self-medicate and as a feature of withdrawal that perpetuates the cycle.
+- `connects-to` → **[Wound Healing](../wound-healing/README.md)** — Injection breaks and infects the skin: non-sterile injection causes abscesses, cellulitis and necrotizing soft-tissue infections, leaving chronic wounds that heal poorly in often malnourished users.
+- `connects-to` → **[Heart Failure](../heart-failure/README.md)** — Injection seeds the heart valves: injection drug use causes infective endocarditis that destroys heart valves, and the resulting valvular regurgitation can drive heart failure.
+- `connects-to` → **[Pulmonary Arterial Hypertension](../pulmonary-arterial-hypertension/README.md)** — Injected tablet fillers lodge in the lungs: injecting crushed oral opioids introduces talc and other particulates that embolize to the pulmonary vasculature, causing granulomatosis and pulmonary hypertension.
 
 [^volkow-2016-opioid-crisis]: Volkow ND, Collins FS. The role of science in addressing the opioid crisis. *N Engl J Med.* 2017;377(4):391-394. [doi:10.1056/NEJMsr1706626](https://doi.org/10.1056/NEJMsr1706626) · [PubMed 28723324](https://pubmed.ncbi.nlm.nih.gov/28723324/)
 [^mattick-2009-bupe-meta]: Mattick RP, Breen C, Kimber J, Davoli M. Buprenorphine maintenance versus placebo or methadone maintenance for opioid dependence. *Cochrane Database Syst Rev.* 2014;2:CD002207. [doi:10.1002/14651858.CD002207.pub4](https://doi.org/10.1002/14651858.CD002207.pub4) · [PubMed 24500948](https://pubmed.ncbi.nlm.nih.gov/24500948/)
