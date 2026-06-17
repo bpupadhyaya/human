@@ -184,6 +184,15 @@ cross_links:
   - target: 01-human/07-system/ptsd
     relation: connects-to
     note: "Trauma and migraine reinforce each other: PTSD is markedly over-represented among people with migraine, especially chronic and medication-overuse forms, with shared stress-axis and serotonergic dysregulation worsening both."
+  - target: 01-human/03-molecular/nf-kb
+    relation: connects-to
+    note: "Neurogenic inflammation runs on NF-κB: activation of the trigeminovascular system releases CGRP and triggers NF-κB-driven cytokine production in the meninges, the sterile neuroinflammation that sustains a migraine attack."
+  - target: 01-human/07-system/panic-disorder
+    relation: connects-to
+    note: "Headache and panic keep close company: panic disorder is far more common in people with migraine, the two sharing serotonergic and autonomic dysregulation that makes each more frequent and harder to treat."
+  - target: 01-human/07-system/asthma
+    relation: connects-to
+    note: "Two episodic inflammatory disorders travel together: migraine and asthma co-occur more than chance, sharing mast-cell and inflammatory biology, and asthma predicts the progression of episodic migraine to chronic."
 ---
 
 # Migraine
@@ -376,6 +385,9 @@ Episodic migraine (EM, <15 headache days/month) transforms to **chronic migraine
 - `connects-to` → **[Calcitonin](../../03-molecular/calcitonin/README.md)** — Migraine's key peptide is the calcitonin gene's other product: CGRP arises from alternative splicing of the CALCA gene that also encodes calcitonin, linking the headache's central mediator to calcium-regulating peptide biology.
 - `connects-to` → **[Obesity](../obesity/README.md)** — Obesity worsens migraine: it roughly triples the risk of episodic migraine progressing to chronic daily headache, via adipose-driven inflammation and shared CGRP/leptin signalling — making weight a modifiable factor in headache frequency.
 - `connects-to` → **[PTSD](../ptsd/README.md)** — Trauma and migraine reinforce each other: PTSD is markedly over-represented among people with migraine, especially chronic and medication-overuse forms, with shared stress-axis and serotonergic dysregulation worsening both.
+- `connects-to` → **[NF-κB](../../03-molecular/nf-kb/README.md)** — Neurogenic inflammation runs on NF-κB: activation of the trigeminovascular system releases CGRP and triggers NF-κB-driven cytokine production in the meninges, the sterile neuroinflammation that sustains a migraine attack.
+- `connects-to` → **[Panic Disorder](../panic-disorder/README.md)** — Headache and panic keep close company: panic disorder is far more common in people with migraine, the two sharing serotonergic and autonomic dysregulation that makes each more frequent and harder to treat.
+- `connects-to` → **[Asthma](../asthma/README.md)** — Two episodic inflammatory disorders travel together: migraine and asthma co-occur more than chance, sharing mast-cell and inflammatory biology, and asthma predicts the progression of episodic migraine to chronic.
 
 [^gbd-2016-migraine-burden]: GBD 2016 Headache Collaborators. Global, regional, and national burden of migraine and tension-type headache, 1990-2016. *Lancet Neurol.* 2018;17(11):954-976. [doi:10.1016/S1474-4422(18)30322-3](https://doi.org/10.1016/S1474-4422(18)30322-3) · [PubMed 30353868](https://pubmed.ncbi.nlm.nih.gov/30353868/)
 [^goadsby-2002-migraine-review]: Goadsby PJ, Lipton RB, Ferrari MD. Migraine — current understanding and treatment. *N Engl J Med.* 2002;346(4):257-270. [doi:10.1056/NEJMra010917](https://doi.org/10.1056/NEJMra010917) · [PubMed 11807151](https://pubmed.ncbi.nlm.nih.gov/11807151/)

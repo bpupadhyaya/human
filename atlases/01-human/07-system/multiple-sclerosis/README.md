@@ -181,6 +181,15 @@ cross_links:
   - target: 01-human/07-system/neuropathic-pain
     relation: connects-to
     note: "Pain in MS is largely neuropathic: demyelinating lesions in sensory pathways and the spinal cord generate central neuropathic pain, trigeminal neuralgia, and Lhermitte's sign — among the disease's most disabling non-motor symptoms."
+  - target: 01-human/03-molecular/nf-kb
+    relation: connects-to
+    note: "NF-κB sits at the genetic heart of MS: several MS risk variants converge on NF-κB signaling, the pathway through which activated T cells and microglia drive the inflammatory demyelination of the disease."
+  - target: 01-human/07-system/sepsis
+    relation: connects-to
+    note: "A neurogenic bladder opens the way to deadly infection: urinary retention from spinal-cord lesions causes recurrent UTIs, and urosepsis — worsened by immunosuppressive disease-modifying therapy — is a leading cause of death in advanced MS."
+  - target: 01-human/07-system/insomnia-disorder
+    relation: connects-to
+    note: "Sleep is broken on many fronts: pain, spasticity, nocturia and depression fragment sleep in MS, so insomnia is common and deepens the fatigue that is among the disease's most pervasive complaints."
 ---
 
 # Multiple Sclerosis
@@ -345,6 +354,9 @@ MS affects approximately **2.8 million people worldwide** (~1 million in the US)
 - `connects-to` → **[Natural Killer Cell](../../04-cellular/natural-killer-cell/README.md)** — Natural killer cells help police MS: their regulatory subsets restrain autoreactive T cells, and expanding them is how the antibody daclizumab worked — a reminder that innate lymphocytes, not just T and B cells, shape the disease.
 - `connects-to` → **[Complement C3](../../03-molecular/complement-c3/README.md)** — Complement scars the progressive brain: C3 and the membrane-attack complex deposit in MS lesions, especially in the slow-burning cortical and progressive disease, marking a tissue-damage arm beyond the T-cell attack.
 - `connects-to` → **[Peripheral Nerve](../../05-tissue/peripheral-nerve/README.md)** — MS spares the peripheral nerves, which sharpens the diagnosis: it demyelinates only the central oligodendrocyte myelin, so peripheral conduction stays normal — the line that separates it from CIDP and Guillain-Barré, though rare combined forms exist.
+- `connects-to` → **[NF-κB](../../03-molecular/nf-kb/README.md)** — NF-κB sits at the genetic heart of MS: several MS risk variants converge on NF-κB signaling, the pathway through which activated T cells and microglia drive the inflammatory demyelination of the disease.
+- `connects-to` → **[Sepsis](../sepsis/README.md)** — A neurogenic bladder opens the way to deadly infection: urinary retention from spinal-cord lesions causes recurrent UTIs, and urosepsis — worsened by immunosuppressive disease-modifying therapy — is a leading cause of death in advanced MS.
+- `connects-to` → **[Insomnia Disorder](../insomnia-disorder/README.md)** — Sleep is broken on many fronts: pain, spasticity, nocturia and depression fragment sleep in MS, so insomnia is common and deepens the fatigue that is among the disease's most pervasive complaints.
 
 [^compston-2008-ms-review]: Compston A, Coles A. Multiple sclerosis. *Lancet.* 2008;372(9648):1502-1517. [doi:10.1016/S0140-6736(08)61620-7](https://doi.org/10.1016/S0140-6736(08)61620-7) · [PubMed 18970977](https://pubmed.ncbi.nlm.nih.gov/18970977/)
 [^kappos-2006-natalizumab]: Polman CH, O'Connor PW, Havrdova E, et al. A randomized, placebo-controlled trial of natalizumab for relapsing multiple sclerosis. *N Engl J Med.* 2006;354(9):899-910. [doi:10.1056/NEJMoa044397](https://doi.org/10.1056/NEJMoa044397) · [PubMed 16510744](https://pubmed.ncbi.nlm.nih.gov/16510744/)
