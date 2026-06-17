@@ -189,6 +189,15 @@ cross_links:
   - target: 01-human/07-system/mesothelioma
     relation: connects-to
     note: "Asbestos scars the lining of the lungs into cancer: mesothelioma arises from the pleura that encloses the respiratory system, decades after asbestos exposure, a malignancy of the system's serosal envelope rather than its airways."
+  - target: 01-human/07-system/systemic-sclerosis
+    relation: connects-to
+    note: "Autoimmune fibrosis stiffens the lungs: systemic sclerosis is a leading cause of interstitial lung disease and pulmonary hypertension, scarring the respiratory system into the disorder's commonest cause of death."
+  - target: 01-human/07-system/measles
+    relation: connects-to
+    note: "A childhood virus drowns the lungs: measles causes a giant-cell pneumonia that, especially in the malnourished or immunocompromised, is the leading fatal complication of the infection — a viral assault on the respiratory system."
+  - target: 02-pathogen/02-bacteria/streptococcus-pyogenes
+    relation: connects-to
+    note: "Group A strep can ravage the lungs: Streptococcus pyogenes can cause a fulminant necrotizing pneumonia with empyema, a rapidly destructive bacterial infection of the respiratory system often following a viral illness."
 taxonomy:
   uberon: "UBERON:0001004"
   fma: "FMA:7161"
@@ -327,6 +336,9 @@ The mucociliary escalator (ciliated cells + goblet cell mucus) continuously clea
 - **Connects-to** → [NSCLC](../nsclc/README.md): The respiratory system's commonest fatal cancer: non-small-cell lung cancer arises from the bronchial and alveolar epithelium, the leading cancer killer worldwide and the malignant counterpart to the system's smoking-related diseases.
 - **Connects-to** → [Small Cell Lung Cancer](../sclc/README.md): Its most aggressive tumor grows from airway neuroendocrine cells: small-cell lung cancer is a fast, early-metastasizing cancer of the central airways, almost always smoking-related, defining the deadliest end of respiratory malignancy.
 - **Connects-to** → [Mesothelioma](../mesothelioma/README.md): Asbestos scars the lining of the lungs into cancer: mesothelioma arises from the pleura that encloses the respiratory system, decades after asbestos exposure, a malignancy of the system's serosal envelope rather than its airways.
+- **Connects-to** → [Systemic Sclerosis](../systemic-sclerosis/README.md): Autoimmune fibrosis stiffens the lungs: systemic sclerosis is a leading cause of interstitial lung disease and pulmonary hypertension, scarring the respiratory system into the disorder's commonest cause of death.
+- **Connects-to** → [Measles](../measles/README.md): A childhood virus drowns the lungs: measles causes a giant-cell pneumonia that, especially in the malnourished or immunocompromised, is the leading fatal complication of the infection — a viral assault on the respiratory system.
+- **Connects-to** → [Streptococcus pyogenes](../../../02-pathogen/02-bacteria/streptococcus-pyogenes/README.md): Group A strep can ravage the lungs: Streptococcus pyogenes can cause a fulminant necrotizing pneumonia with empyema, a rapidly destructive bacterial infection of the respiratory system often following a viral illness.
 - `prevented-by` → **[PCV13 (Prevnar 13)](../../../../04-vaccine/08-conjugate/pcv13/README.md)** — CAPiTA RCT (N=84,496 adults ≥65): PCV13 achieved 45.6% VE against vaccine-type CAP and 75% VE against invasive pneumococcal disease; prevents pneumococcal pneumonia, the leading infectious cause of respiratory hospitalisation in older adults.
 
 ## Pathology
