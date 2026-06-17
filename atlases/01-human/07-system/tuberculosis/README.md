@@ -196,6 +196,15 @@ cross_links:
   - target: 01-human/07-system/major-depressive-disorder
     relation: connects-to
     note: "A long, stigmatized illness and its drugs darken mood: the months of treatment, social isolation and stigma of TB, plus the neuropsychiatric effects of isoniazid and cycloserine, contribute to depression during therapy."
+  - target: 01-human/07-system/endocrine-system
+    relation: connects-to
+    note: "It is the classic cause of adrenal failure worldwide: TB can destroy both adrenal glands, producing Addison's disease, and tuberculous involvement of the pituitary or thyroid adds further endocrine damage."
+  - target: 01-human/07-system/digestive-system
+    relation: connects-to
+    note: "TB attacks the gut and its drugs poison the liver: intestinal and peritoneal tuberculosis mimic Crohn's disease and cause obstruction, while isoniazid, rifampicin and pyrazinamide are all hepatotoxic."
+  - target: 01-human/07-system/generalized-anxiety-disorder
+    relation: connects-to
+    note: "A long, isolating, stigmatised illness breeds worry: the months of treatment, infectivity precautions and social stigma of TB foster chronic anxiety alongside the depression its course and drugs can bring."
 ---
 
 # Tuberculosis
@@ -389,6 +398,9 @@ Standard **HRZE** regimen [^nahid-2016-tb-treatment]:
 - `connects-to` → **[Neuropathic Pain](../neuropathic-pain/README.md)** — Its key drug starves the nerves of vitamin B6: isoniazid depletes pyridoxine and causes a dose-dependent peripheral neuropathy with burning neuropathic pain, which routine co-prescribed B6 is given to prevent.
 - `connects-to` → **[Chronic Kidney Disease](../ckd/README.md)** — Kidney and TB injure each other: TB can directly infect the kidney as genitourinary disease, while chronic kidney disease and dialysis blunt immunity enough to reactivate latent infection — a two-way relationship.
 - `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — A long, stigmatized illness and its drugs darken mood: the months of treatment, social isolation and stigma of TB, plus the neuropsychiatric effects of isoniazid and cycloserine, contribute to depression during therapy.
+- `connects-to` → **[Endocrine System](../endocrine-system/README.md)** — It is the classic cause of adrenal failure worldwide: TB can destroy both adrenal glands, producing Addison's disease, and tuberculous involvement of the pituitary or thyroid adds further endocrine damage.
+- `connects-to` → **[Digestive System](../digestive-system/README.md)** — TB attacks the gut and its drugs poison the liver: intestinal and peritoneal tuberculosis mimic Crohn's disease and cause obstruction, while isoniazid, rifampicin and pyrazinamide are all hepatotoxic.
+- `connects-to` → **[Generalized Anxiety Disorder](../generalized-anxiety-disorder/README.md)** — A long, isolating, stigmatised illness breeds worry: the months of treatment, infectivity precautions and social stigma of TB foster chronic anxiety alongside the depression its course and drugs can bring.
 
 ## See Also
 

@@ -196,6 +196,15 @@ cross_links:
   - target: 01-human/07-system/major-depressive-disorder
     relation: connects-to
     note: "Cancer and altered thyroid hormone unsettle mood: the diagnosis plus the deliberately abnormal thyroid-hormone levels of suppression therapy and post-thyroidectomy state contribute to depression and impaired quality of life in survivors."
+  - target: 01-human/07-system/wound-healing
+    relation: connects-to
+    note: "Thyroidectomy and anti-angiogenic drugs heal slowly: total thyroidectomy leaves a neck wound at risk to the recurrent laryngeal nerve and parathyroids, and the multikinase inhibitors for refractory disease impair wound healing."
+  - target: 01-human/07-system/digestive-system
+    relation: connects-to
+    note: "Some thyroid cancers churn the gut: medullary thyroid cancer secretes calcitonin that causes secretory diarrhoea, and the multikinase inhibitors used for advanced disease commonly cause diarrhoea too."
+  - target: 01-human/07-system/generalized-anxiety-disorder
+    relation: connects-to
+    note: "Lifelong recurrence monitoring breeds worry: the thyroglobulin checks, neck ultrasounds and scan-anxiety of thyroid-cancer surveillance foster chronic health anxiety even in this often indolent cancer."
 ---
 
 # Thyroid Cancer
@@ -399,6 +408,9 @@ Calcitonin doubling time <6 months → poor prognosis → early systemic therapy
 - `connects-to` → **[Heart Failure](../heart-failure/README.md)** — TSH-suppression and kinase inhibitors strain the heart: the lifelong thyroxine used to suppress TSH keeps patients mildly thyrotoxic, risking atrial fibrillation, while lenvatinib and sorafenib raise blood pressure and are cardiotoxic — all routes toward heart failure.
 - `connects-to` → **[Stroke](../stroke/README.md)** — Long-term TSH-suppression can throw clots to the brain: the subclinical hyperthyroidism from suppressive thyroxine promotes atrial fibrillation, and the resulting cardioembolism raises the risk of ischemic stroke.
 - `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — Cancer and altered thyroid hormone unsettle mood: the diagnosis plus the deliberately abnormal thyroid-hormone levels of suppression therapy and post-thyroidectomy state contribute to depression and impaired quality of life in survivors.
+- `connects-to` → **[Wound Healing](../wound-healing/README.md)** — Thyroidectomy and anti-angiogenic drugs heal slowly: total thyroidectomy leaves a neck wound at risk to the recurrent laryngeal nerve and parathyroids, and the multikinase inhibitors for refractory disease impair wound healing.
+- `connects-to` → **[Digestive System](../digestive-system/README.md)** — Some thyroid cancers churn the gut: medullary thyroid cancer secretes calcitonin that causes secretory diarrhoea, and the multikinase inhibitors used for advanced disease commonly cause diarrhoea too.
+- `connects-to` → **[Generalized Anxiety Disorder](../generalized-anxiety-disorder/README.md)** — Lifelong recurrence monitoring breeds worry: the thyroglobulin checks, neck ultrasounds and scan-anxiety of thyroid-cancer surveillance foster chronic health anxiety even in this often indolent cancer.
 
 [^schlumberger-2015-lenvatinib]: Schlumberger M, Tahara M, Wirth LJ, et al. Lenvatinib versus placebo in radioiodine-refractory differentiated thyroid cancer. *N Engl J Med.* 2015;372(7):621-630. [doi:10.1056/NEJMoa1406470](https://doi.org/10.1056/NEJMoa1406470) · [PubMed 25671254](https://pubmed.ncbi.nlm.nih.gov/25671254/)
 [^subbiah-2018-atc-dabrafenib]: Subbiah V, Kreitman RJ, Wainberg ZA, et al. Dabrafenib and trametinib treatment in patients with locally advanced or metastatic BRAF V600-mutant anaplastic thyroid cancer. *J Clin Oncol.* 2018;36(1):7-13. [doi:10.1200/JCO.2017.73.6785](https://doi.org/10.1200/JCO.2017.73.6785) · [PubMed 28892432](https://pubmed.ncbi.nlm.nih.gov/28892432/)
