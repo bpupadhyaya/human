@@ -178,6 +178,15 @@ cross_links:
   - target: 01-human/07-system/venous-thromboembolism
     relation: connects-to
     note: "The tumor and its surgery raise the clot risk: like other visceral cancers, neuroendocrine tumors and the major resections they require predispose to venous thromboembolism."
+  - target: 01-human/03-molecular/stat3
+    relation: connects-to
+    note: "STAT3 supports the neuroendocrine clone: signaling through STAT3 backs proliferation and survival in neuroendocrine tumors, one of the pathways downstream of the mTOR and growth-factor activation that drives them."
+  - target: 01-human/03-molecular/nf-kb
+    relation: connects-to
+    note: "NF-κB adds an inflammatory survival signal: neuroendocrine tumor cells engage NF-κB-dependent survival and angiogenic signaling, contributing to the growth of these often slow but persistent tumors."
+  - target: 01-human/07-system/sepsis
+    relation: connects-to
+    note: "Liver metastases and surgery invite infection: NETs commonly spread to the liver where biliary obstruction and tumor-debulking surgery can seed cholangitis and abdominal sepsis."
 ---
 
 # Neuroendocrine Tumors
@@ -336,6 +345,9 @@ Treatment identical to SCLC: cisplatin (or carboplatin) + etoposide (4-6 cycles)
 - `connects-to` → **[Heart Failure](../heart-failure/README.md)** — Serotonin scars the right heart: in carcinoid heart disease, vasoactive amines from a metastatic midgut NET deposit fibrous plaques on the tricuspid and pulmonary valves, driving right-sided heart failure — a leading cause of death in carcinoid syndrome.
 - `connects-to` → **[CDKN2A](../../03-molecular/cdkn2a/README.md)** — Cell-cycle control grades the tumor: CDKN2A and other cell-cycle alterations help separate indolent well-differentiated NETs from the aggressive, high-proliferation neuroendocrine carcinomas, informing grade and treatment.
 - `connects-to` → **[Venous Thromboembolism](../venous-thromboembolism/README.md)** — The tumor and its surgery raise the clot risk: like other visceral cancers, neuroendocrine tumors and the major resections they require predispose to venous thromboembolism.
+- `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — STAT3 supports the neuroendocrine clone: signaling through STAT3 backs proliferation and survival in neuroendocrine tumors, one of the pathways downstream of the mTOR and growth-factor activation that drives them.
+- `connects-to` → **[NF-κB](../../03-molecular/nf-kb/README.md)** — NF-κB adds an inflammatory survival signal: neuroendocrine tumor cells engage NF-κB-dependent survival and angiogenic signaling, contributing to the growth of these often slow but persistent tumors.
+- `connects-to` → **[Sepsis](../sepsis/README.md)** — Liver metastases and surgery invite infection: NETs commonly spread to the liver where biliary obstruction and tumor-debulking surgery can seed cholangitis and abdominal sepsis.
 
 [^yao-2011-radiant3]: Yao JC, Shah MH, Ito T, et al. Everolimus for advanced pancreatic neuroendocrine tumors. *N Engl J Med.* 2011;364(6):514-523. [doi:10.1056/NEJMoa1009290](https://doi.org/10.1056/NEJMoa1009290) · [PubMed 21306237](https://pubmed.ncbi.nlm.nih.gov/21306237/)
 [^raymond-2011-sunitinib-pnet]: Raymond E, Dahan L, Raoul JL, et al. Sunitinib malate for the treatment of pancreatic neuroendocrine tumors. *N Engl J Med.* 2011;364(6):501-513. [doi:10.1056/NEJMoa1003825](https://doi.org/10.1056/NEJMoa1003825) · [PubMed 21306236](https://pubmed.ncbi.nlm.nih.gov/21306236/)
