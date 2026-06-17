@@ -187,6 +187,15 @@ cross_links:
   - target: 01-human/07-system/venous-thromboembolism
     relation: connects-to
     note: "Heart tumors and their surgery threaten clots: the recurrent cardiac myxomas of Carney complex can throw emboli and require repeated open-heart operations, raising the risk of perioperative thrombosis and embolism."
+  - target: 01-human/07-system/osteoporosis
+    relation: connects-to
+    note: "Its cortisol excess thins the bone: the primary pigmented nodular adrenal disease of Carney complex causes Cushing syndrome, and the chronic cortisol excess drives osteoporosis and fragility fractures."
+  - target: 01-human/07-system/type-2-diabetes
+    relation: connects-to
+    note: "Endogenous Cushing's skews glucose: the cortisol overproduction of Carney complex's adrenal disease promotes insulin resistance and central obesity, frequently causing steroid-pattern diabetes."
+  - target: 01-human/07-system/major-depressive-disorder
+    relation: connects-to
+    note: "Excess cortisol darkens mood: the Cushing syndrome of Carney complex commonly brings depression and mood disturbance, on top of the psychological burden of a multi-tumor hereditary disease."
 ---
 
 # Carney Complex
@@ -365,6 +374,9 @@ PRKAR1A somatic LOH occurs in ~15-20% of sporadic adrenocortical adenomas and ca
 - `connects-to` → **[NF-κB](../../03-molecular/nf-kb/README.md)** — Runaway PKA cross-talks with NF-κB: PRKAR1A loss unleashes constitutive PKA signaling that interacts with NF-κB and other survival pathways in the syndrome's endocrine and myxomatous tumors.
 - `connects-to` → **[Melanoma](../melanoma/README.md)** — Pigmented lesions are a hallmark: Carney complex is marked by lentigines, blue nevi and melanocytic schwannomas, a heavy melanocytic-lesion burden that warrants vigilance for melanoma among its skin findings.
 - `connects-to` → **[Venous Thromboembolism](../venous-thromboembolism/README.md)** — Heart tumors and their surgery threaten clots: the recurrent cardiac myxomas of Carney complex can throw emboli and require repeated open-heart operations, raising the risk of perioperative thrombosis and embolism.
+- `connects-to` → **[Osteoporosis](../osteoporosis/README.md)** — Its cortisol excess thins the bone: the primary pigmented nodular adrenal disease of Carney complex causes Cushing syndrome, and the chronic cortisol excess drives osteoporosis and fragility fractures.
+- `connects-to` → **[Type 2 Diabetes](../type-2-diabetes/README.md)** — Endogenous Cushing's skews glucose: the cortisol overproduction of Carney complex's adrenal disease promotes insulin resistance and central obesity, frequently causing steroid-pattern diabetes.
+- `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — Excess cortisol darkens mood: the Cushing syndrome of Carney complex commonly brings depression and mood disturbance, on top of the psychological burden of a multi-tumor hereditary disease.
 
 ---
 

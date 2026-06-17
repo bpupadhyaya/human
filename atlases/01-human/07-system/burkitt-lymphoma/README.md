@@ -187,6 +187,15 @@ cross_links:
   - target: 01-human/07-system/venous-thromboembolism
     relation: connects-to
     note: "An aggressive lymphoma that clots: like other high-grade cancers, Burkitt raises venous thromboembolism risk through tumor-driven hypercoagulability, compounded by central venous catheters and immobility during intensive treatment."
+  - target: 02-pathogen/03-fungi/aspergillus-fumigatus
+    relation: connects-to
+    note: "Intensive chemo strips the lung's defenses: the dose-dense regimens curing Burkitt cause profound neutropenia, letting inhaled Aspergillus invade as pulmonary aspergillosis, a feared infectious complication."
+  - target: 02-pathogen/03-fungi/pneumocystis-jirovecii
+    relation: connects-to
+    note: "Immunosuppression opens the lung to it: the intensive chemotherapy — and in HIV-associated cases the underlying immunodeficiency — deplete T-cell defenses, so Pneumocystis prophylaxis accompanies Burkitt treatment."
+  - target: 01-human/07-system/anemia-of-chronic-disease
+    relation: connects-to
+    note: "Marrow takeover and chemo blunt the count: Burkitt frequently infiltrates the bone marrow, and with its inflammatory cytokines and myelosuppressive therapy this produces anemia carrying a chronic-disease component."
 ---
 
 # Burkitt Lymphoma
@@ -378,6 +387,9 @@ FISH for MYC, BCL2, and BCL6 is essential; if BCL2 FISH negative and Ki-67 ~100%
 - `connects-to` → **[Chronic Kidney Disease](../ckd/README.md)** — The fastest tumor floods the kidneys when it dies: Burkitt's explosive proliferation gives it the highest tumor-lysis-syndrome risk of any cancer, releasing urate and phosphate that injure the kidneys into acute and sometimes chronic kidney disease.
 - `connects-to` → **[Disseminated Intravascular Coagulation](../disseminated-intravascular-coagulation/README.md)** — Massive tumor turnover can ignite clotting: the high cell burden and rapid lysis of Burkitt lymphoma can release procoagulant material that triggers disseminated intravascular coagulation, especially around the start of chemotherapy.
 - `connects-to` → **[Venous Thromboembolism](../venous-thromboembolism/README.md)** — An aggressive lymphoma that clots: like other high-grade cancers, Burkitt raises venous thromboembolism risk through tumor-driven hypercoagulability, compounded by central venous catheters and immobility during intensive treatment.
+- `connects-to` → **[Aspergillus fumigatus](../../../02-pathogen/03-fungi/aspergillus-fumigatus/README.md)** — Intensive chemo strips the lung's defenses: the dose-dense regimens curing Burkitt cause profound neutropenia, letting inhaled Aspergillus invade as pulmonary aspergillosis, a feared infectious complication.
+- `connects-to` → **[Pneumocystis jirovecii](../../../02-pathogen/03-fungi/pneumocystis-jirovecii/README.md)** — Immunosuppression opens the lung to it: the intensive chemotherapy — and in HIV-associated cases the underlying immunodeficiency — deplete T-cell defenses, so Pneumocystis prophylaxis accompanies Burkitt treatment.
+- `connects-to` → **[Anemia of Chronic Disease](../anemia-of-chronic-disease/README.md)** — Marrow takeover and chemo blunt the count: Burkitt frequently infiltrates the bone marrow, and with its inflammatory cytokines and myelosuppressive therapy this produces anemia carrying a chronic-disease component.
 
 ---
 
