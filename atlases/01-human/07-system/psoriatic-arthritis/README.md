@@ -195,6 +195,15 @@ cross_links:
   - target: 01-human/07-system/anemia-of-chronic-disease
     relation: connects-to
     note: "Persistent inflammation blunts the marrow: the sustained IL-6 and inflammatory drive of active PsA raises hepcidin and suppresses erythropoiesis, producing the anemia of chronic disease seen in poorly controlled patients."
+  - target: 01-human/07-system/tuberculosis
+    relation: connects-to
+    note: "Its TNF-blocking biologics can wake latent TB: tumor-necrosis-factor is essential to containing tuberculosis in granulomas, so TNF inhibitors for PsA risk reactivating latent infection — making screening mandatory before treatment."
+  - target: 02-pathogen/01-viruses/hepatitis-b-virus
+    relation: connects-to
+    note: "Immunosuppressive biologics can reactivate hepatitis B: the TNF inhibitors and other immune-modulating drugs used for PsA can let a dormant hepatitis B virus rebound, so serologic screening is required before starting therapy."
+  - target: 01-human/07-system/stroke
+    relation: connects-to
+    note: "Chronic systemic inflammation accelerates the arteries: the persistent inflammatory burden of PsA, on top of its frequent metabolic syndrome, speeds atherosclerosis and raises the long-term risk of stroke."
 ---
 
 # Psoriatic Arthritis
@@ -401,6 +410,9 @@ Risankizumab (anti-IL-23p19) **failed primary endpoints** in the SURPASS trial f
 - `connects-to` → **[Candida albicans](../../../02-pathogen/03-fungi/candida-albicans/README.md)** — The IL-17 blockers expose its niche: secukinumab and other anti-IL-17 biologics used for PsA disarm the very pathway guarding mucosa against Candida, so mucocutaneous candidiasis is a class side effect of treatment.
 - `connects-to` → **[Osteoporosis](../osteoporosis/README.md)** — Inflammation and steroids thin the bone: chronic cytokine-driven bone loss in PsA, compounded by any corticosteroid use and reduced activity, lowers bone density and adds osteoporotic fracture risk to the erosive joint damage.
 - `connects-to` → **[Anemia of Chronic Disease](../anemia-of-chronic-disease/README.md)** — Persistent inflammation blunts the marrow: the sustained IL-6 and inflammatory drive of active PsA raises hepcidin and suppresses erythropoiesis, producing the anemia of chronic disease seen in poorly controlled patients.
+- `connects-to` → **[Tuberculosis](../tuberculosis/README.md)** — Its TNF-blocking biologics can wake latent TB: tumor-necrosis-factor is essential to containing tuberculosis in granulomas, so TNF inhibitors for PsA risk reactivating latent infection — making screening mandatory before treatment.
+- `connects-to` → **[Hepatitis B virus](../../../02-pathogen/01-viruses/hepatitis-b-virus/README.md)** — Immunosuppressive biologics can reactivate hepatitis B: the TNF inhibitors and other immune-modulating drugs used for PsA can let a dormant hepatitis B virus rebound, so serologic screening is required before starting therapy.
+- `connects-to` → **[Stroke](../stroke/README.md)** — Chronic systemic inflammation accelerates the arteries: the persistent inflammatory burden of PsA, on top of its frequent metabolic syndrome, speeds atherosclerosis and raises the long-term risk of stroke.
 
 [^ritchlin-2017-psa-review]: Ritchlin CT, Colbert RA, Gladman DD. Psoriatic arthritis. *N Engl J Med.* 2017;376(10):957-970. [doi:10.1056/NEJMra1505557](https://doi.org/10.1056/NEJMra1505557) · [PubMed 28273019](https://pubmed.ncbi.nlm.nih.gov/28273019/)
 [^mease-2015-secukinumab-psa-future2]: Mease PJ, et al. Secukinumab inhibition of interleukin-17A in patients with psoriatic arthritis. *N Engl J Med.* 2015;373(14):1329-1339. [doi:10.1056/NEJMoa1503317](https://doi.org/10.1056/NEJMoa1503317) · [PubMed 26422723](https://pubmed.ncbi.nlm.nih.gov/26422723/)

@@ -187,6 +187,15 @@ cross_links:
   - target: 01-human/07-system/anemia-of-chronic-disease
     relation: connects-to
     note: "Marrow involvement and cytokines starve the red cells: PTCL infiltrating the bone marrow alongside its high IL-6 drive raises hepcidin and suppresses erythropoiesis, contributing an anemia-of-chronic-disease component to the cytopenias."
+  - target: 02-pathogen/03-fungi/aspergillus-fumigatus
+    relation: connects-to
+    note: "Its intensive chemo and T-cell defect open the lung to mold: CHOP-based therapy plus the profound T-cell immunodeficiency of PTCL cause deep neutropenia, letting inhaled Aspergillus invade as pulmonary aspergillosis."
+  - target: 01-human/07-system/heart-failure
+    relation: connects-to
+    note: "Its anthracycline backbone can weaken the heart: doxorubicin in the CHOP/CHOEP regimens for PTCL is dose-dependently cardiotoxic, risking a cardiomyopathy and heart failure during and after treatment."
+  - target: 01-human/07-system/major-depressive-disorder
+    relation: connects-to
+    note: "An aggressive lymphoma with poor odds weighs on mood: PTCL's rapid course, relapsing pattern and grueling therapy impose a heavy psychological burden that contributes to depression and anxiety."
 ---
 
 # Peripheral T-cell Lymphoma
@@ -388,6 +397,9 @@ Aggressive presentation; generalized lymphadenopathy; extranodal involvement (~6
 - `connects-to` → **[Venous Thromboembolism](../venous-thromboembolism/README.md)** — An aggressive lymphoma is a prothrombotic state: bulky nodal disease, the inflammatory cytokine milieu and indwelling catheters during therapy combine to raise venous thromboembolism risk in PTCL patients.
 - `connects-to` → **[Pneumocystis jirovecii](../../../02-pathogen/03-fungi/pneumocystis-jirovecii/README.md)** — T-cell loss is exactly its opening: PTCL depletes the CD4 T-cells that hold Pneumocystis in check, and the intensive chemotherapy compounds it, so PJP prophylaxis is standard during treatment.
 - `connects-to` → **[Anemia of Chronic Disease](../anemia-of-chronic-disease/README.md)** — Marrow involvement and cytokines starve the red cells: PTCL infiltrating the bone marrow alongside its high IL-6 drive raises hepcidin and suppresses erythropoiesis, contributing an anemia-of-chronic-disease component to the cytopenias.
+- `connects-to` → **[Aspergillus fumigatus](../../../02-pathogen/03-fungi/aspergillus-fumigatus/README.md)** — Its intensive chemo and T-cell defect open the lung to mold: CHOP-based therapy plus the profound T-cell immunodeficiency of PTCL cause deep neutropenia, letting inhaled Aspergillus invade as pulmonary aspergillosis.
+- `connects-to` → **[Heart Failure](../heart-failure/README.md)** — Its anthracycline backbone can weaken the heart: doxorubicin in the CHOP/CHOEP regimens for PTCL is dose-dependently cardiotoxic, risking a cardiomyopathy and heart failure during and after treatment.
+- `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — An aggressive lymphoma with poor odds weighs on mood: PTCL's rapid course, relapsing pattern and grueling therapy impose a heavy psychological burden that contributes to depression and anxiety.
 
 ---
 
