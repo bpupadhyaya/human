@@ -171,6 +171,15 @@ cross_links:
   - target: 01-human/07-system/atherosclerosis
     relation: connects-to
     note: "Its metabolic toll reaches the arteries: through obesity, dyslipidemia and insulin resistance, binge eating disorder accelerates atherosclerosis, extending its harm to the cardiovascular system."
+  - target: 01-human/07-system/ckd
+    relation: connects-to
+    note: "Its metabolic burden reaches the kidney: the obesity, type 2 diabetes and hypertension driven by binge eating disorder are the leading causes of chronic kidney disease, so the disorder indirectly threatens renal function."
+  - target: 01-human/07-system/heart-failure
+    relation: connects-to
+    note: "Obesity strains the heart toward failure: the weight gain, hypertension and diabetes of binge eating disorder promote both ischemic and obesity-related cardiomyopathy, raising the long-term risk of heart failure."
+  - target: 01-human/07-system/social-anxiety-disorder
+    relation: connects-to
+    note: "Shame and social fear feed the bingeing: social anxiety is common in binge eating disorder, where fear of judgment and low self-worth drive secretive eating that in turn deepens isolation."
 sources:
   - id: american-psychiatric-2013-bed-dsm5
     type: clinical-guideline
@@ -383,6 +392,9 @@ BED is among the most psychiatrically comorbid of all eating disorders:
 - `connects-to` → **[Nervous System](../nervous-system/README.md)** — It is rooted in the brain's reward and control circuits: binge eating disorder reflects dysregulated reward, impulse-control and stress circuitry of the nervous system, the same networks implicated in substance addictions.
 - `connects-to` → **[Interleukin-6](../../03-molecular/il-6/README.md)** — The weight it adds turns inflammatory: the obesity driven by binge eating raises IL-6 from expanded fat, fueling the low-grade systemic inflammation that links the disorder to insulin resistance and cardiovascular risk.
 - `connects-to` → **[Atherosclerosis](../atherosclerosis/README.md)** — Its metabolic toll reaches the arteries: through obesity, dyslipidemia and insulin resistance, binge eating disorder accelerates atherosclerosis, extending its harm to the cardiovascular system.
+- `connects-to` → **[Chronic Kidney Disease](../ckd/README.md)** — Its metabolic burden reaches the kidney: the obesity, type 2 diabetes and hypertension driven by binge eating disorder are the leading causes of chronic kidney disease, so the disorder indirectly threatens renal function.
+- `connects-to` → **[Heart Failure](../heart-failure/README.md)** — Obesity strains the heart toward failure: the weight gain, hypertension and diabetes of binge eating disorder promote both ischemic and obesity-related cardiomyopathy, raising the long-term risk of heart failure.
+- `connects-to` → **[Social Anxiety Disorder](../social-anxiety-disorder/README.md)** — Shame and social fear feed the bingeing: social anxiety is common in binge eating disorder, where fear of judgment and low self-worth drive secretive eating that in turn deepens isolation.
 
 [^american-psychiatric-2013-bed-dsm5]: American Psychiatric Association. Binge Eating Disorder (307.51). In: *Diagnostic and Statistical Manual of Mental Disorders, 5th ed.* Arlington, VA: APA; 2013. [doi:10.1176/appi.books.9780890425596](https://doi.org/10.1176/appi.books.9780890425596)
 [^mccallum-2003-bed-review]: McCallum K, Bruton AM. Binge eating disorder: eating disorder or somatic syndrome? *Prim Care Companion J Clin Psychiatry.* 2003;5(Suppl 4):20-25. [PubMed 15213784](https://pubmed.ncbi.nlm.nih.gov/15213784/)

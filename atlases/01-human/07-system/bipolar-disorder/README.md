@@ -193,6 +193,15 @@ cross_links:
   - target: 01-human/07-system/ckd
     relation: connects-to
     note: "Its mainstay drug can scar the kidneys: years of lithium therapy cause nephrogenic diabetes insipidus and chronic interstitial nephritis, so long-term treatment carries a real risk of chronic kidney disease."
+  - target: 01-human/07-system/stroke
+    relation: connects-to
+    note: "Its cardiovascular toll reaches the brain: the accelerated atherosclerosis, metabolic syndrome and chronic inflammation of bipolar disorder raise the long-term risk of ischemic stroke beyond that of the general population."
+  - target: 01-human/07-system/heart-failure
+    relation: connects-to
+    note: "Decades of metabolic strain wear on the heart: obesity, diabetes and the cardiometabolic effects of mood-stabilizing and antipsychotic drugs in bipolar disorder contribute to ischemic and structural heart disease and heart failure."
+  - target: 01-human/07-system/migraine
+    relation: connects-to
+    note: "Mood and headache cycles intertwine: migraine is strongly comorbid with bipolar disorder, especially the bipolar II and depressive subtypes, sharing serotonergic and neuronal-excitability mechanisms."
 ---
 
 # Bipolar Disorder
@@ -381,6 +390,9 @@ During bipolar depression (often longer and more disabling than mania):
 - `connects-to` → **[NF-κB](../../03-molecular/nf-kb/README.md)** — Mood episodes ride a wave of inflammation: NF-κB activation drives the cytokine surges seen in mania and depression, the transcriptional engine behind bipolar's well-documented neuroinflammatory signature.
 - `connects-to` → **[Atherosclerosis](../atherosclerosis/README.md)** — It shortens life through the heart: bipolar disorder carries markedly elevated cardiovascular mortality, with chronic inflammation, metabolic side effects of medication and lifestyle accelerating atherosclerosis decades early.
 - `connects-to` → **[Chronic Kidney Disease](../ckd/README.md)** — Its mainstay drug can scar the kidneys: years of lithium therapy cause nephrogenic diabetes insipidus and chronic interstitial nephritis, so long-term treatment carries a real risk of chronic kidney disease.
+- `connects-to` → **[Stroke](../stroke/README.md)** — Its cardiovascular toll reaches the brain: the accelerated atherosclerosis, metabolic syndrome and chronic inflammation of bipolar disorder raise the long-term risk of ischemic stroke beyond that of the general population.
+- `connects-to` → **[Heart Failure](../heart-failure/README.md)** — Decades of metabolic strain wear on the heart: obesity, diabetes and the cardiometabolic effects of mood-stabilizing and antipsychotic drugs in bipolar disorder contribute to ischemic and structural heart disease and heart failure.
+- `connects-to` → **[Migraine](../migraine/README.md)** — Mood and headache cycles intertwine: migraine is strongly comorbid with bipolar disorder, especially the bipolar II and depressive subtypes, sharing serotonergic and neuronal-excitability mechanisms.
 
 [^grande-2016-bipolar-review]: Grande I, Berk M, Birmaher B, Vieta E. Bipolar disorder. *Lancet.* 2016;387(10027):1561-1572. [doi:10.1016/S0140-6736(15)00241-X](https://doi.org/10.1016/S0140-6736(15)00241-X) · [PubMed 26388529](https://pubmed.ncbi.nlm.nih.gov/26388529/)
 [^geddes-2013-bipolar-treatment]: Geddes JR, Miklowitz DJ. Treatment of bipolar disorder. *Lancet.* 2013;381(9878):1672-1682. [doi:10.1016/S0140-6736(13)60857-0](https://doi.org/10.1016/S0140-6736(13)60857-0) · [PubMed 23663953](https://pubmed.ncbi.nlm.nih.gov/23663953/)
