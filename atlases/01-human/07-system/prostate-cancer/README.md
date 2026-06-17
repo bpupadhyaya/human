@@ -196,6 +196,15 @@ cross_links:
   - target: 01-human/07-system/type-2-diabetes
     relation: connects-to
     note: "Androgen deprivation skews metabolism: ADT causes weight gain, fat redistribution and insulin resistance, raising the risk of type 2 diabetes and the metabolic syndrome over the years men spend on it."
+  - target: 01-human/07-system/heart-failure
+    relation: connects-to
+    note: "Androgen deprivation strains the heart: the metabolic syndrome and direct vascular effects of ADT raise cardiovascular risk, and the resulting coronary disease and cardiac stress can progress to heart failure."
+  - target: 01-human/07-system/neuropathic-pain
+    relation: connects-to
+    note: "Bone metastases press on nerves: prostate cancer spreads avidly to the spine, where vertebral deposits and epidural cord or nerve-root compression produce severe neuropathic pain and neurological emergency."
+  - target: 01-human/07-system/major-depressive-disorder
+    relation: connects-to
+    note: "Diagnosis and hormone therapy weigh on mood: the cancer itself plus the fatigue, loss of libido and brain effects of androgen-deprivation therapy contribute to substantial depression in treated men."
 ---
 
 # Prostate Cancer
@@ -382,6 +391,9 @@ cross_links:
 - `connects-to` → **[Anemia of Chronic Disease](../anemia-of-chronic-disease/README.md)** — Hormone therapy and marrow disease lower the count: androgen-deprivation therapy withdraws the testosterone that drives erythropoiesis, and bone-marrow metastases plus chronic inflammation add an anemia of chronic disease.
 - `connects-to` → **[Chronic Kidney Disease](../ckd/README.md)** — The pelvic tumor can throttle the kidneys: locally advanced prostate cancer obstructs the ureters and bladder outlet, and the resulting obstructive uropathy can progress to chronic kidney disease if unrelieved.
 - `connects-to` → **[Type 2 Diabetes](../type-2-diabetes/README.md)** — Androgen deprivation skews metabolism: ADT causes weight gain, fat redistribution and insulin resistance, raising the risk of type 2 diabetes and the metabolic syndrome over the years men spend on it.
+- `connects-to` → **[Heart Failure](../heart-failure/README.md)** — Androgen deprivation strains the heart: the metabolic syndrome and direct vascular effects of ADT raise cardiovascular risk, and the resulting coronary disease and cardiac stress can progress to heart failure.
+- `connects-to` → **[Neuropathic Pain](../neuropathic-pain/README.md)** — Bone metastases press on nerves: prostate cancer spreads avidly to the spine, where vertebral deposits and epidural cord or nerve-root compression produce severe neuropathic pain and neurological emergency.
+- `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — Diagnosis and hormone therapy weigh on mood: the cancer itself plus the fatigue, loss of libido and brain effects of androgen-deprivation therapy contribute to substantial depression in treated men.
 
 [^beer-2014-prevail]: Beer TM, Armstrong AJ, Rathkopf D, et al. Enzalutamide in metastatic prostate cancer before chemotherapy. *N Engl J Med.* 2014;371(5):424-433. [doi:10.1056/NEJMoa1405095](https://doi.org/10.1056/NEJMoa1405095) · [PubMed 24881730](https://pubmed.ncbi.nlm.nih.gov/24881730/)
 [^sartor-2021-vision]: Sartor O, de Bono J, Chi KN, et al. Lutetium-PSMA-617 for metastatic castration-resistant prostate cancer. *N Engl J Med.* 2021;385(12):1091-1103. [doi:10.1056/NEJMoa2107322](https://doi.org/10.1056/NEJMoa2107322) · [PubMed 34161051](https://pubmed.ncbi.nlm.nih.gov/34161051/)

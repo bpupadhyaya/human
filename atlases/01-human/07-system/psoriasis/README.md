@@ -196,6 +196,15 @@ cross_links:
   - target: 02-pathogen/01-viruses/hepatitis-b-virus
     relation: connects-to
     note: "Its biologics can reactivate the virus: the TNF inhibitors and other immunosuppressants used for psoriasis can reawaken latent hepatitis B, so screening and antiviral prophylaxis precede starting these therapies."
+  - target: 01-human/07-system/tuberculosis
+    relation: connects-to
+    note: "TNF blockade can wake latent TB: the anti-TNF biologics used for moderate-to-severe psoriasis disable the cytokine that walls off tuberculosis, so screening and treatment of latent infection precede therapy."
+  - target: 01-human/07-system/generalized-anxiety-disorder
+    relation: connects-to
+    note: "Visible disease feeds chronic worry: the stigma, unpredictability and social impact of psoriasis drive anxiety alongside its well-known depression, worsening quality of life independent of skin severity."
+  - target: 01-human/07-system/dlbcl
+    relation: connects-to
+    note: "Severe disease and its therapy nudge lymphoma risk: chronic immune activation in severe psoriasis, and the immunosuppressants used to treat it, are associated with a modestly raised risk of lymphoma."
 ---
 
 # Psoriasis
@@ -370,6 +379,9 @@ Differential: Seborrheic dermatitis (common), pityriasis rosea (herald patch, Ch
 - `connects-to` → **[Gout](../gout/README.md)** — Rapid skin turnover floods the blood with urate: the accelerated epidermal proliferation of psoriasis raises uric acid production, so hyperuricemia and gout are notably more common in people with the disease.
 - `connects-to` → **[Chronic Kidney Disease](../ckd/README.md)** — Systemic inflammation reaches the kidney: moderate-to-severe psoriasis is independently associated with chronic kidney disease, and some of its systemic and biologic therapies add their own renal considerations.
 - `connects-to` → **[Hepatitis B Virus](../../../02-pathogen/01-viruses/hepatitis-b-virus/README.md)** — Its biologics can reactivate the virus: the TNF inhibitors and other immunosuppressants used for psoriasis can reawaken latent hepatitis B, so screening and antiviral prophylaxis precede starting these therapies.
+- `connects-to` → **[Tuberculosis](../tuberculosis/README.md)** — TNF blockade can wake latent TB: the anti-TNF biologics used for moderate-to-severe psoriasis disable the cytokine that walls off tuberculosis, so screening and treatment of latent infection precede therapy.
+- `connects-to` → **[Generalized Anxiety Disorder](../generalized-anxiety-disorder/README.md)** — Visible disease feeds chronic worry: the stigma, unpredictability and social impact of psoriasis drive anxiety alongside its well-known depression, worsening quality of life independent of skin severity.
+- `connects-to` → **[DLBCL](../dlbcl/README.md)** — Severe disease and its therapy nudge lymphoma risk: chronic immune activation in severe psoriasis, and the immunosuppressants used to treat it, are associated with a modestly raised risk of lymphoma.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
