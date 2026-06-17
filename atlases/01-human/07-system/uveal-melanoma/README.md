@@ -187,6 +187,15 @@ cross_links:
   - target: 01-human/07-system/major-depressive-disorder
     relation: connects-to
     note: "Losing an eye and facing the liver verdict weigh heavily: enucleation or vision loss plus the knowledge that monosomy-3 disease carries a high risk of fatal liver metastasis impose a substantial psychological burden and depression."
+  - target: 01-human/07-system/type-1-diabetes
+    relation: connects-to
+    note: "Its immunotherapy can trigger autoimmune diabetes: the checkpoint inhibitors and tebentafusp used in metastatic uveal melanoma can unleash autoimmunity against pancreatic islets, causing fulminant insulin-dependent diabetes."
+  - target: 01-human/07-system/heart-failure
+    relation: connects-to
+    note: "Immune-activating therapy can inflame the heart: checkpoint inhibitors used against metastatic uveal melanoma occasionally cause myocarditis, and tebentafusp's cytokine release stresses the circulation, both routes toward acute heart failure."
+  - target: 01-human/07-system/ckd
+    relation: connects-to
+    note: "Checkpoint immunotherapy can scar the kidneys: the PD-1 and CTLA-4 inhibitors given for advanced uveal melanoma can provoke an immune-mediated interstitial nephritis that, if it recurs, leaves chronic kidney impairment."
 ---
 
 # Uveal Melanoma
@@ -380,6 +389,9 @@ Uveal melanocytes are neural crest-derived, residing in the uveal stroma and mai
 - `connects-to` → **[Cytokine Storm](../cytokine-storm/README.md)** — Its breakthrough drug ignites one: tebentafusp, the first therapy to extend survival in metastatic uveal melanoma, is a T-cell engager that commonly triggers cytokine release syndrome — fever, hypotension and rash — needing close monitoring early in treatment.
 - `connects-to` → **[Anemia of Chronic Disease](../anemia-of-chronic-disease/README.md)** — Liver replacement and inflammation drag down the count: the near-universal hepatic metastases of advanced uveal melanoma, with their inflammatory burden and crowding of marrow and liver, produce an anemia of chronic disease in progressive cases.
 - `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — Losing an eye and facing the liver verdict weigh heavily: enucleation or vision loss plus the knowledge that monosomy-3 disease carries a high risk of fatal liver metastasis impose a substantial psychological burden and depression.
+- `connects-to` → **[Type 1 Diabetes](../type-1-diabetes/README.md)** — Its immunotherapy can trigger autoimmune diabetes: the checkpoint inhibitors and tebentafusp used in metastatic uveal melanoma can unleash autoimmunity against pancreatic islets, causing fulminant insulin-dependent diabetes.
+- `connects-to` → **[Heart Failure](../heart-failure/README.md)** — Immune-activating therapy can inflame the heart: checkpoint inhibitors used against metastatic uveal melanoma occasionally cause myocarditis, and tebentafusp's cytokine release stresses the circulation, both routes toward acute heart failure.
+- `connects-to` → **[Chronic Kidney Disease](../ckd/README.md)** — Checkpoint immunotherapy can scar the kidneys: the PD-1 and CTLA-4 inhibitors given for advanced uveal melanoma can provoke an immune-mediated interstitial nephritis that, if it recurs, leaves chronic kidney impairment.
 
 ---
 

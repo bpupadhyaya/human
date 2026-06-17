@@ -187,6 +187,15 @@ cross_links:
   - target: 01-human/07-system/sepsis
     relation: connects-to
     note: "Repeated major surgery invites infection: the recurrent neurosurgery for hemangioblastomas and nephron-sparing operations for renal tumors that VHL demands carry cumulative perioperative risk of serious infection and sepsis."
+  - target: 01-human/07-system/heart-failure
+    relation: connects-to
+    note: "Its pheochromocytomas can flood and stun the heart: the catecholamine-secreting adrenal tumors of VHL drive paroxysmal hypertension and can precipitate a catecholamine cardiomyopathy, a route toward acute heart failure."
+  - target: 01-human/07-system/type-2-diabetes
+    relation: connects-to
+    note: "Pancreatic tumors and surgery disturb glucose: VHL's pancreatic neuroendocrine tumors and cysts, and the resections they require, can damage islet function enough to produce diabetes."
+  - target: 01-human/07-system/neuropathic-pain
+    relation: connects-to
+    note: "Spinal hemangioblastomas press on the cord: VHL's recurrent tumors of the spinal cord and nerve roots compress neural tissue, producing chronic neuropathic pain and sensory loss alongside weakness."
 ---
 
 # VHL Disease
@@ -365,6 +374,9 @@ The genotype-phenotype correlation reflects the degree of pVHL function retained
 - `connects-to` → **[Epilepsy](../epilepsy/README.md)** — Its brain tumors and their surgery can spark seizures: CNS hemangioblastomas and the repeated neurosurgery they require can irritate the cortex into a seizure focus, adding epilepsy to the neurological toll of VHL.
 - `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — A lifetime of surveillance wears on the mind: living with VHL's lifelong scans, repeated tumor surgeries and the inherited risk of multiple cancers across organs carries a heavy psychological burden and high rates of depression.
 - `connects-to` → **[Sepsis](../sepsis/README.md)** — Repeated major surgery invites infection: the recurrent neurosurgery for hemangioblastomas and nephron-sparing operations for renal tumors that VHL demands carry cumulative perioperative risk of serious infection and sepsis.
+- `connects-to` → **[Heart Failure](../heart-failure/README.md)** — Its pheochromocytomas can flood and stun the heart: the catecholamine-secreting adrenal tumors of VHL drive paroxysmal hypertension and can precipitate a catecholamine cardiomyopathy, a route toward acute heart failure.
+- `connects-to` → **[Type 2 Diabetes](../type-2-diabetes/README.md)** — Pancreatic tumors and surgery disturb glucose: VHL's pancreatic neuroendocrine tumors and cysts, and the resections they require, can damage islet function enough to produce diabetes.
+- `connects-to` → **[Neuropathic Pain](../neuropathic-pain/README.md)** — Spinal hemangioblastomas press on the cord: VHL's recurrent tumors of the spinal cord and nerve roots compress neural tissue, producing chronic neuropathic pain and sensory loss alongside weakness.
 
 [^lonser-2003-vhl-disease]: Lonser RR, Glenn GM, Walther M, et al. von Hippel-Lindau disease. *Lancet.* 2003;361(9374):2059-2067. [doi:10.1016/S0140-6736(03)13643-4](https://doi.org/10.1016/S0140-6736(03)13643-4) · [PubMed 12814730](https://pubmed.ncbi.nlm.nih.gov/12814730/)
 [^choueiri-2020-hif2-rcc]: Choueiri TK, Kaelin WG Jr. Targeting the HIF2-VEGF axis in renal cell carcinoma. *Nat Med.* 2020;26(10):1519-1530. [doi:10.1038/s41591-020-1093-z](https://doi.org/10.1038/s41591-020-1093-z) · [PubMed 33020650](https://pubmed.ncbi.nlm.nih.gov/33020650/)
