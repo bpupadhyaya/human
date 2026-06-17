@@ -193,6 +193,15 @@ cross_links:
   - target: 01-human/07-system/type-2-diabetes
     relation: connects-to
     note: "Diabetes and flu worsen each other: people with type 2 diabetes have more severe influenza and complications, while the infection's stress hormones destabilize glycemic control — a reason yearly vaccination is urged."
+  - target: 01-human/07-system/parkinsons-disease
+    relation: connects-to
+    note: "It is historically tied to parkinsonism: the encephalitis lethargica that followed the 1918 pandemic left post-encephalitic parkinsonism, and influenza is studied as one infectious contributor to Parkinson's risk."
+  - target: 01-human/07-system/major-depressive-disorder
+    relation: connects-to
+    note: "It leaves a low-mood aftermath: the post-viral fatigue and neuroinflammation of influenza can produce weeks of depressed mood, part of the broader post-infectious malaise."
+  - target: 01-human/07-system/alzheimers-disease
+    relation: connects-to
+    note: "Infections may nudge dementia risk: severe influenza and its systemic inflammation are studied as contributors to cognitive decline, and influenza vaccination is associated with lower dementia incidence."
 ---
 
 # Influenza
@@ -387,3 +396,6 @@ Influenza damages mucociliary clearance and exposes basal lamina glycoproteins �
 - `connects-to` → **[Sepsis](../sepsis/README.md)** — Secondary bacterial pneumonia turns deadly: influenza strips the airway epithelium, letting Staphylococcus and pneumococcus invade into a post-influenza bacterial pneumonia that can progress to sepsis and shock.
 - `connects-to` → **[Chronic Kidney Disease](../ckd/README.md)** — Severe flu can injure the kidney: influenza can cause rhabdomyolysis and, in critical illness, acute kidney injury, and the insult can leave or worsen chronic kidney disease in vulnerable patients.
 - `connects-to` → **[Type 2 Diabetes](../type-2-diabetes/README.md)** — Diabetes and flu worsen each other: people with type 2 diabetes have more severe influenza and complications, while the infection's stress hormones destabilize glycemic control — a reason yearly vaccination is urged.
+- `connects-to` → **[Parkinson's Disease](../parkinsons-disease/README.md)** — It is historically tied to parkinsonism: the encephalitis lethargica that followed the 1918 pandemic left post-encephalitic parkinsonism, and influenza is studied as one infectious contributor to Parkinson's risk.
+- `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — It leaves a low-mood aftermath: the post-viral fatigue and neuroinflammation of influenza can produce weeks of depressed mood, part of the broader post-infectious malaise.
+- `connects-to` → **[Alzheimer's Disease](../alzheimers-disease/README.md)** — Infections may nudge dementia risk: severe influenza and its systemic inflammation are studied as contributors to cognitive decline, and influenza vaccination is associated with lower dementia incidence.

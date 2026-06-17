@@ -193,6 +193,15 @@ cross_links:
   - target: 01-human/07-system/osteoporosis
     relation: connects-to
     note: "Virus and therapy both thin the bone: chronic HIV inflammation plus antiretrovirals — tenofovir disoproxil especially — accelerate bone loss, giving people with HIV high rates of osteoporosis and fracture."
+  - target: 01-human/07-system/neuropathic-pain
+    relation: connects-to
+    note: "It attacks the peripheral nerves: advanced HIV causes a distal sensory polyneuropathy, and older antiretrovirals compounded it, producing the chronic burning foot pain common in long-standing infection."
+  - target: 01-human/07-system/heart-failure
+    relation: connects-to
+    note: "The virus can weaken the heart muscle: HIV-associated cardiomyopathy from direct viral effects, chronic inflammation and opportunistic infection remains a cause of heart failure even in the antiretroviral era."
+  - target: 01-human/07-system/major-depressive-disorder
+    relation: connects-to
+    note: "It burdens the mind directly and through stigma: HIV causes depression via neuroinflammation and CNS infection, compounded by the chronic illness, isolation and stigma of living with the disease."
 ---
 
 # HIV/AIDS
@@ -366,6 +375,9 @@ HIV-1 pathogenesis is primarily driven by CD4⁺ T cell loss:
 - `connects-to` → **[Aspergillus fumigatus](../../../02-pathogen/03-fungi/aspergillus-fumigatus/README.md)** — Profound immune loss opens the lung to mold: in advanced AIDS, especially with neutropenia or steroids, invasive pulmonary aspergillosis joins the opportunistic infections that exploit the collapsed defenses.
 - `connects-to` → **[Stroke](../stroke/README.md)** — The virus inflames the arteries: HIV drives an accelerated atherosclerosis and a direct vasculopathy, and with chronic immune activation even treated patients carry a raised long-term risk of ischemic stroke.
 - `connects-to` → **[Osteoporosis](../osteoporosis/README.md)** — Virus and therapy both thin the bone: chronic HIV inflammation plus antiretrovirals — tenofovir disoproxil especially — accelerate bone loss, giving people with HIV high rates of osteoporosis and fracture.
+- `connects-to` → **[Neuropathic Pain](../neuropathic-pain/README.md)** — It attacks the peripheral nerves: advanced HIV causes a distal sensory polyneuropathy, and older antiretrovirals compounded it, producing the chronic burning foot pain common in long-standing infection.
+- `connects-to` → **[Heart Failure](../heart-failure/README.md)** — The virus can weaken the heart muscle: HIV-associated cardiomyopathy from direct viral effects, chronic inflammation and opportunistic infection remains a cause of heart failure even in the antiretroviral era.
+- `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — It burdens the mind directly and through stigma: HIV causes depression via neuroinflammation and CNS infection, compounded by the chronic illness, isolation and stigma of living with the disease.
 
 ## See Also
 
