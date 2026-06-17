@@ -193,6 +193,15 @@ cross_links:
   - target: 02-pathogen/03-fungi/candida-albicans
     relation: connects-to
     note: "Raw mucosa and steroids invite the yeast: painful oral erosions of pemphigus combined with corticosteroid immunosuppression readily superinfect with Candida, complicating the eating difficulty and mouth pain."
+  - target: 01-human/07-system/type-2-diabetes
+    relation: connects-to
+    note: "Its long steroid courses raise blood sugar: controlling pemphigus often requires months of high-dose corticosteroids, which induce insulin resistance and frequently unmask or precipitate steroid-induced diabetes."
+  - target: 02-pathogen/03-fungi/aspergillus-fumigatus
+    relation: connects-to
+    note: "Combined immunosuppression opens the lung to mold: high-dose steroids plus rituximab or other immunosuppressants for refractory pemphigus deeply blunt immunity, occasionally allowing inhaled Aspergillus to invade as pulmonary aspergillosis."
+  - target: 01-human/07-system/major-depressive-disorder
+    relation: connects-to
+    note: "A chronic, painful, disfiguring disease wears on mood: the relentless blistering, eating difficulty and visible erosions of pemphigus, compounded by corticosteroid mood effects, drive substantial depression and impaired quality of life."
 ---
 
 # Pemphigus Vulgaris
@@ -395,6 +404,9 @@ Pemphigus belongs to the **pemphigus group of autoimmune bullous diseases** (AIB
 - `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — The cytokine wiring runs through it: IL-6 and other autoimmune cytokines elevated in pemphigus signal via JAK-STAT3, and JAK inhibitors that blunt this axis are being explored when rituximab and steroids fail.
 - `connects-to` → **[Pneumocystis jirovecii](../../../02-pathogen/03-fungi/pneumocystis-jirovecii/README.md)** — Heavy immunosuppression opens the lung to it: the rituximab plus high-dose steroids that control severe pemphigus deplete the T-cell defenses against Pneumocystis, so prophylaxis is weighed during prolonged therapy.
 - `connects-to` → **[Candida albicans](../../../02-pathogen/03-fungi/candida-albicans/README.md)** — Raw mucosa and steroids invite the yeast: painful oral erosions of pemphigus combined with corticosteroid immunosuppression readily superinfect with Candida, complicating the eating difficulty and mouth pain.
+- `connects-to` → **[Type 2 Diabetes](../type-2-diabetes/README.md)** — Its long steroid courses raise blood sugar: controlling pemphigus often requires months of high-dose corticosteroids, which induce insulin resistance and frequently unmask or precipitate steroid-induced diabetes.
+- `connects-to` → **[Aspergillus fumigatus](../../../02-pathogen/03-fungi/aspergillus-fumigatus/README.md)** — Combined immunosuppression opens the lung to mold: high-dose steroids plus rituximab or other immunosuppressants for refractory pemphigus deeply blunt immunity, occasionally allowing inhaled Aspergillus to invade as pulmonary aspergillosis.
+- `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — A chronic, painful, disfiguring disease wears on mood: the relentless blistering, eating difficulty and visible erosions of pemphigus, compounded by corticosteroid mood effects, drive substantial depression and impaired quality of life.
 
 ---
 

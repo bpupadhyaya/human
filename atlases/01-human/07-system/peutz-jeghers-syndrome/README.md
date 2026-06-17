@@ -187,6 +187,15 @@ cross_links:
   - target: 01-human/07-system/anemia-of-chronic-disease
     relation: connects-to
     note: "Beyond bleeding, chronic disease blunts the marrow: alongside iron-deficiency anemia from chronic polyp bleeding, longstanding inflammation and any malignancy in PJS can add a component of anemia of chronic disease."
+  - target: 01-human/07-system/esophageal-cancer
+    relation: connects-to
+    note: "Its cancer risk runs the whole gut tube: STK11 loss in Peutz-Jeghers elevates malignancy across the gastrointestinal tract, including the esophagus, adding it to the well-known stomach, small-bowel, colon and pancreatic risks."
+  - target: 01-human/07-system/osteoporosis
+    relation: connects-to
+    note: "Repeated bowel surgery starves bone of nutrients: recurrent intussusception forces small-bowel resections in PJS, and the resulting malabsorption of calcium and vitamin D over a lifetime drives loss of bone density toward osteoporosis."
+  - target: 01-human/07-system/major-depressive-disorder
+    relation: connects-to
+    note: "Lifelong surveillance and surgery weigh on the mind: the constant cancer-screening regimen, recurrent operations and pervasive malignancy risk of Peutz-Jeghers impose a chronic psychological burden that raises depression and anxiety."
 ---
 
 # Peutz-Jeghers Syndrome
@@ -367,6 +376,9 @@ Without surveillance: cumulative cancer risk reaches ~85-93% by age 70 (all canc
 - `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — Losing the LKB1 brake unleashes it: STK11/LKB1 loss in PJS-associated tumors relieves a restraint on inflammatory and STAT3 signaling, a driver pathway implicated in the lung and GI cancers these patients are prone to.
 - `connects-to` → **[NF-κB](../../03-molecular/nf-kb/README.md)** — The tumor-suppressor restrains inflammation: LKB1 loss in Peutz-Jeghers tissue de-represses NF-κB-driven inflammatory signaling, linking the hamartomatous, cancer-prone polyps to a pro-inflammatory microenvironment.
 - `connects-to` → **[Anemia of Chronic Disease](../anemia-of-chronic-disease/README.md)** — Beyond bleeding, chronic disease blunts the marrow: alongside iron-deficiency anemia from chronic polyp bleeding, longstanding inflammation and any malignancy in PJS can add a component of anemia of chronic disease.
+- `connects-to` → **[Esophageal Cancer](../esophageal-cancer/README.md)** — Its cancer risk runs the whole gut tube: STK11 loss in Peutz-Jeghers elevates malignancy across the gastrointestinal tract, including the esophagus, adding it to the well-known stomach, small-bowel, colon and pancreatic risks.
+- `connects-to` → **[Osteoporosis](../osteoporosis/README.md)** — Repeated bowel surgery starves bone of nutrients: recurrent intussusception forces small-bowel resections in PJS, and the resulting malabsorption of calcium and vitamin D over a lifetime drives loss of bone density toward osteoporosis.
+- `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — Lifelong surveillance and surgery weigh on the mind: the constant cancer-screening regimen, recurrent operations and pervasive malignancy risk of Peutz-Jeghers impose a chronic psychological burden that raises depression and anxiety.
 
 ---
 
