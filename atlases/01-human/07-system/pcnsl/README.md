@@ -196,6 +196,15 @@ cross_links:
   - target: 01-human/07-system/major-depressive-disorder
     relation: connects-to
     note: "A brain cancer and its toxic therapy darken mood: PCNSL itself disrupts cerebral function, and the steroids, methotrexate neurotoxicity and possible whole-brain radiation add cognitive and depressive symptoms on top of the diagnosis."
+  - target: 02-pathogen/01-viruses/varicella-zoster-virus
+    relation: connects-to
+    note: "Deep immune suppression reawakens shingles: the high-dose methotrexate chemoimmunotherapy and steroids for PCNSL deplete T-cell immunity, allowing latent varicella-zoster to reactivate, so antiviral prophylaxis is standard."
+  - target: 01-human/07-system/anemia-of-chronic-disease
+    relation: connects-to
+    note: "Marrow-suppressing therapy and a chronic cancer blunt the blood: the cytotoxic chemotherapy for PCNSL plus the inflammatory state of an aggressive lymphoma produce anemia during treatment."
+  - target: 01-human/07-system/generalized-anxiety-disorder
+    relation: connects-to
+    note: "An aggressive brain lymphoma breeds worry: the poor prognosis, relapse risk and intensive neurotoxic therapy of PCNSL foster chronic health anxiety alongside the depression and cognitive change it brings."
 ---
 
 # Primary CNS Lymphoma
@@ -369,6 +378,9 @@ Score 0-1: 2-year OS ~80%; Score 2-3: ~48%; Score 4-5: ~15%
 - `connects-to` → **[Pneumocystis jirovecii](../../../02-pathogen/03-fungi/pneumocystis-jirovecii/README.md)** — Its therapy's deep immunosuppression invites Pneumocystis: high-dose methotrexate, rituximab and corticosteroids leave PCNSL patients profoundly T-cell-suppressed, so prophylaxis against Pneumocystis pneumonia is routine throughout treatment.
 - `connects-to` → **[Aspergillus fumigatus](../../../02-pathogen/03-fungi/aspergillus-fumigatus/README.md)** — Prolonged neutropenia and steroids open the door to mold: the intensive chemoimmunotherapy for PCNSL causes deep neutropenia and immune suppression, letting inhaled Aspergillus invade as life-threatening pulmonary or cerebral aspergillosis.
 - `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — A brain cancer and its toxic therapy darken mood: PCNSL itself disrupts cerebral function, and the steroids, methotrexate neurotoxicity and possible whole-brain radiation add cognitive and depressive symptoms on top of the diagnosis.
+- `connects-to` → **[Varicella-Zoster Virus](../../../02-pathogen/01-viruses/varicella-zoster-virus/README.md)** — Deep immune suppression reawakens shingles: the high-dose methotrexate chemoimmunotherapy and steroids for PCNSL deplete T-cell immunity, allowing latent varicella-zoster to reactivate, so antiviral prophylaxis is standard.
+- `connects-to` → **[Anemia of Chronic Disease](../anemia-of-chronic-disease/README.md)** — Marrow-suppressing therapy and a chronic cancer blunt the blood: the cytotoxic chemotherapy for PCNSL plus the inflammatory state of an aggressive lymphoma produce anemia during treatment.
+- `connects-to` → **[Generalized Anxiety Disorder](../generalized-anxiety-disorder/README.md)** — An aggressive brain lymphoma breeds worry: the poor prognosis, relapse risk and intensive neurotoxic therapy of PCNSL foster chronic health anxiety alongside the depression and cognitive change it brings.
 
 [^bromberg-2019-hovon105]: Bromberg JE, Issa S, Bakunina K, et al. Rituximab in patients with primary CNS lymphoma (HOVON 105/ALLG NHL 24): a randomised, open-label, phase 3 intergroup study. *Lancet Oncol.* 2019;20(2):216-228. [doi:10.1016/S1470-2045(18)30747-2](https://doi.org/10.1016/S1470-2045(18)30747-2) · [PubMed 30528440](https://pubmed.ncbi.nlm.nih.gov/30528440/)
 [^grommes-2017-ibrutinib-pcnsl]: Grommes C, Pastore A, Palaskas N, et al. Ibrutinib unmasks critical role of Bruton tyrosine kinase in primary CNS lymphoma. *Cancer Cell.* 2017;31(6):833-843. [doi:10.1016/j.ccell.2017.04.012](https://doi.org/10.1016/j.ccell.2017.04.012) · [PubMed 28552327](https://pubmed.ncbi.nlm.nih.gov/28552327/)
