@@ -178,6 +178,15 @@ cross_links:
   - target: 01-human/04-cellular/mast-cell
     relation: connects-to
     note: "Mast cells mark the progressing kidney: their accumulation in the renal interstitium of IgA nephropathy correlates with fibrosis and worse outcome, contributing to the scarring that drives chronic kidney disease."
+  - target: 01-human/03-molecular/nf-kb
+    relation: connects-to
+    note: "Deposited immune complexes inflame the mesangium through NF-κB: galactose-deficient IgA1 complexes activate NF-κB in mesangial cells, driving the cytokine and chemokine output that recruits inflammation and scars the glomerulus."
+  - target: 01-human/07-system/venous-thromboembolism
+    relation: connects-to
+    note: "Heavy proteinuria clots the blood: when IgA nephropathy reaches nephrotic-range protein loss, urinary loss of anticoagulant proteins creates a hypercoagulable state prone to renal vein thrombosis and pulmonary embolism."
+  - target: 01-human/07-system/sepsis
+    relation: connects-to
+    note: "Immunosuppression and protein loss invite infection: corticosteroids and immunosuppressants for progressive IgA nephropathy, plus urinary immunoglobulin loss in nephrotic disease, predispose to serious infection and sepsis."
 ---
 
 # IgA Nephropathy
@@ -315,6 +324,9 @@ IgAN is a **multi-hit disease** described by the Oxford Four-Hit Model:
 - `connects-to` → **[IL-17A](../../03-molecular/il-17a/README.md)** — A Th17 arm drives the mucosal overreaction: IL-17A from mucosal helper T cells promotes the aberrant IgA response and renal inflammation of IgA nephropathy, part of the gut-kidney immune axis behind the disease.
 - `connects-to` → **[Ankylosing Spondylitis](../ankylosing-spondylitis/README.md)** — Spondyloarthritis carries the nephropathy with it: IgA nephropathy is the commonest glomerulonephritis in ankylosing spondylitis, reflecting the shared dysregulated mucosal IgA immunity of these HLA-linked diseases.
 - `connects-to` → **[Mast Cell](../../04-cellular/mast-cell/README.md)** — Mast cells mark the progressing kidney: their accumulation in the renal interstitium of IgA nephropathy correlates with fibrosis and worse outcome, contributing to the scarring that drives chronic kidney disease.
+- `connects-to` → **[NF-κB](../../03-molecular/nf-kb/README.md)** — Deposited immune complexes inflame the mesangium through NF-κB: galactose-deficient IgA1 complexes activate NF-κB in mesangial cells, driving the cytokine and chemokine output that recruits inflammation and scars the glomerulus.
+- `connects-to` → **[Venous Thromboembolism](../venous-thromboembolism/README.md)** — Heavy proteinuria clots the blood: when IgA nephropathy reaches nephrotic-range protein loss, urinary loss of anticoagulant proteins creates a hypercoagulable state prone to renal vein thrombosis and pulmonary embolism.
+- `connects-to` → **[Sepsis](../sepsis/README.md)** — Immunosuppression and protein loss invite infection: corticosteroids and immunosuppressants for progressive IgA nephropathy, plus urinary immunoglobulin loss in nephrotic disease, predispose to serious infection and sepsis.
 
 ---
 

@@ -186,6 +186,15 @@ cross_links:
   - target: 01-human/07-system/covid-19-disease
     relation: connects-to
     note: "Infection and its vaccines can trigger it: COVID-19, like other viral illnesses, precipitates secondary immune thrombocytopenia, and rare post-vaccination ITP is recognized — examples of infection-driven autoimmunity against platelets."
+  - target: 01-human/03-molecular/stat3
+    relation: connects-to
+    note: "Dysregulated T-cell signaling underlies the autoimmunity: STAT3 activation in the T and B cells of ITP supports the autoreactive response that makes anti-platelet antibodies, part of the immune imbalance behind the disease."
+  - target: 01-human/03-molecular/nf-kb
+    relation: connects-to
+    note: "Immune activation runs through NF-κB: B-cell and macrophage NF-κB signaling sustains the autoantibody production and Fc-receptor-mediated platelet destruction that define immune thrombocytopenia."
+  - target: 01-human/07-system/sepsis
+    relation: connects-to
+    note: "Removing the spleen and suppressing immunity raise infection risk: splenectomy for refractory ITP leaves patients prone to overwhelming post-splenectomy infection, and rituximab and steroids add further sepsis risk."
 ---
 
 # Immune Thrombocytopenia
@@ -377,6 +386,9 @@ ITP in pregnancy carries risk of neonatal thrombocytopenia (maternal IgG crosses
 - `connects-to` → **[Complement C5](../../03-molecular/complement-c5/README.md)** — Complement helps clear the platelets: antiplatelet antibodies fix complement to opsonize and lyse platelets in ITP, a pathway that complement inhibitors (e.g. sutimlimab) are explored to interrupt.
 - `connects-to` → **[Venous Thromboembolism](../venous-thromboembolism/README.md)** — A bleeding disorder that paradoxically clots: ITP carries a raised thrombosis risk, amplified by thrombopoietin-receptor agonists and splenectomy, so venous thromboembolism is a real hazard even amid low platelets.
 - `connects-to` → **[COVID-19 Disease](../covid-19-disease/README.md)** — Infection and its vaccines can trigger it: COVID-19, like other viral illnesses, precipitates secondary immune thrombocytopenia, and rare post-vaccination ITP is recognized — examples of infection-driven autoimmunity against platelets.
+- `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — Dysregulated T-cell signaling underlies the autoimmunity: STAT3 activation in the T and B cells of ITP supports the autoreactive response that makes anti-platelet antibodies, part of the immune imbalance behind the disease.
+- `connects-to` → **[NF-κB](../../03-molecular/nf-kb/README.md)** — Immune activation runs through NF-κB: B-cell and macrophage NF-κB signaling sustains the autoantibody production and Fc-receptor-mediated platelet destruction that define immune thrombocytopenia.
+- `connects-to` → **[Sepsis](../sepsis/README.md)** — Removing the spleen and suppressing immunity raise infection risk: splenectomy for refractory ITP leaves patients prone to overwhelming post-splenectomy infection, and rituximab and steroids add further sepsis risk.
 
 [^cines-2002-itp-review]: Cines DB, Blanchette VS. Immune thrombocytopenic purpura. *N Engl J Med.* 2002;346(13):995-1008. [doi:10.1056/NEJMra010532](https://doi.org/10.1056/NEJMra010532) · [PubMed 11919310](https://pubmed.ncbi.nlm.nih.gov/11919310/)
 [^neunert-2019-ash-itp-guidelines]: Neunert C, et al. American Society of Hematology 2019 guidelines for immune thrombocytopenia. *Blood Adv.* 2019;3(23):3829-3866. [doi:10.1182/bloodadvances.2019000966](https://doi.org/10.1182/bloodadvances.2019000966) · [PubMed 31794604](https://pubmed.ncbi.nlm.nih.gov/31794604/)
