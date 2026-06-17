@@ -187,6 +187,15 @@ cross_links:
   - target: 01-human/07-system/anemia-of-chronic-disease
     relation: connects-to
     note: "Bleeding polyps and inflammation drain the blood: beyond the iron loss of chronically bleeding adenomas, the inflammation of MAP suppresses erythropoiesis, adding an anemia of chronic disease to the iron deficiency."
+  - target: 01-human/07-system/ckd
+    relation: connects-to
+    note: "Colectomy and chemo strain the kidney: the surgery for MAP's polyp burden and any platinum chemotherapy for its colorectal cancers, plus dehydration from altered bowel anatomy, can threaten chronic kidney disease."
+  - target: 01-human/07-system/osteoporosis
+    relation: connects-to
+    note: "Removing the colon costs the bones: colectomy and the malabsorption of calcium and vitamin D that follows, plus chronic GI losses, can leave reduced bone density in MUTYH-associated polyposis."
+  - target: 01-human/07-system/major-depressive-disorder
+    relation: connects-to
+    note: "Inherited cancer risk and surveillance weigh on the mind: living with a recessive polyposis syndrome, repeated colonoscopies and the prospect of colectomy carries a substantial psychological burden."
 ---
 
 # MUTYH-Associated Polyposis
@@ -360,6 +369,9 @@ Because MAP is autosomal recessive: siblings of MAP patients are at **25%** risk
 - `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — Inflammation feeds the oxidatively-damaged mucosa: IL-6-driven STAT3 signaling adds proliferation and survival to the G:C→T:A mutation burden of MUTYH loss, accelerating the polyps' progression to colorectal cancer.
 - `connects-to` → **[Cyclin D1](../../03-molecular/cyclin-d1/README.md)** — Wnt activation drives the cell cycle through cyclin D1: the APC/Wnt activation arising in MUTYH-mutated adenomas pushes cyclin D1 expression, speeding the cell-cycle entry behind polyp growth.
 - `connects-to` → **[Anemia of Chronic Disease](../anemia-of-chronic-disease/README.md)** — Bleeding polyps and inflammation drain the blood: beyond the iron loss of chronically bleeding adenomas, the inflammation of MAP suppresses erythropoiesis, adding an anemia of chronic disease to the iron deficiency.
+- `connects-to` → **[Chronic Kidney Disease](../ckd/README.md)** — Colectomy and chemo strain the kidney: the surgery for MAP's polyp burden and any platinum chemotherapy for its colorectal cancers, plus dehydration from altered bowel anatomy, can threaten chronic kidney disease.
+- `connects-to` → **[Osteoporosis](../osteoporosis/README.md)** — Removing the colon costs the bones: colectomy and the malabsorption of calcium and vitamin D that follows, plus chronic GI losses, can leave reduced bone density in MUTYH-associated polyposis.
+- `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — Inherited cancer risk and surveillance weigh on the mind: living with a recessive polyposis syndrome, repeated colonoscopies and the prospect of colectomy carries a substantial psychological burden.
 
 ---
 

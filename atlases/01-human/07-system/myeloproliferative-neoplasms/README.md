@@ -187,6 +187,15 @@ cross_links:
   - target: 01-human/07-system/sepsis
     relation: connects-to
     note: "Advanced disease strips the defenses: progression to myelofibrosis or blast phase, and the cytoreductive and JAK-inhibitor therapy used, cause cytopenias and immune compromise that make infection and sepsis a danger."
+  - target: 01-human/07-system/anemia-of-chronic-disease
+    relation: connects-to
+    note: "Marrow fibrosis and inflammation lower the count: as MPNs evolve toward a spent, myelofibrotic phase, marrow scarring and chronic inflammation replace the cellular excess with an anemia of chronic disease."
+  - target: 02-pathogen/03-fungi/aspergillus-fumigatus
+    relation: connects-to
+    note: "JAK inhibitors open the lung to mold: ruxolitinib used for myelofibrosis and polycythemia vera suppresses immunity and, with disease-related neutropenia, raises the risk of invasive aspergillosis and other opportunistic infections."
+  - target: 01-human/07-system/major-depressive-disorder
+    relation: connects-to
+    note: "A chronic clonal disease wears on mood: the heavy constitutional symptom burden — fatigue, itch, night sweats — and the lifelong thrombosis-and-transformation risk of MPNs contribute to depression and reduced quality of life."
 ---
 
 # Myeloproliferative Neoplasms
@@ -387,6 +396,9 @@ In PV and ET, JAK2 V617F also affects myeloid progenitors → granulocytosis and
 - `connects-to` → **[Hepatocellular Carcinoma](../hcc/README.md)** — They clot the liver's own veins: MPNs are the leading cause of Budd-Chiari syndrome and portal vein thrombosis, congesting the liver toward cirrhosis and, over years, hepatocellular carcinoma — often the first clue to an occult MPN.
 - `connects-to` → **[Pulmonary Arterial Hypertension](../pulmonary-arterial-hypertension/README.md)** — The lung circulation stiffens: MPNs raise pulmonary artery pressure through chronic thromboembolism, extramedullary hematopoiesis and high-output flow, a recognized and under-appreciated complication.
 - `connects-to` → **[Sepsis](../sepsis/README.md)** — Advanced disease strips the defenses: progression to myelofibrosis or blast phase, and the cytoreductive and JAK-inhibitor therapy used, cause cytopenias and immune compromise that make infection and sepsis a danger.
+- `connects-to` → **[Anemia of Chronic Disease](../anemia-of-chronic-disease/README.md)** — Marrow fibrosis and inflammation lower the count: as MPNs evolve toward a spent, myelofibrotic phase, marrow scarring and chronic inflammation replace the cellular excess with an anemia of chronic disease.
+- `connects-to` → **[Aspergillus fumigatus](../../../02-pathogen/03-fungi/aspergillus-fumigatus/README.md)** — JAK inhibitors open the lung to mold: ruxolitinib used for myelofibrosis and polycythemia vera suppresses immunity and, with disease-related neutropenia, raises the risk of invasive aspergillosis and other opportunistic infections.
+- `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — A chronic clonal disease wears on mood: the heavy constitutional symptom burden — fatigue, itch, night sweats — and the lifelong thrombosis-and-transformation risk of MPNs contribute to depression and reduced quality of life.
 
 [^verstovsek-2012-comfort-i]: Verstovsek S, Mesa RA, Gotlib J, et al. A double-blind, placebo-controlled trial of ruxolitinib for myelofibrosis. *N Engl J Med.* 2012;366(9):799-807. [doi:10.1056/NEJMoa1110557](https://doi.org/10.1056/NEJMoa1110557) · [PubMed 22375971](https://pubmed.ncbi.nlm.nih.gov/22375971/)
 [^vannucchi-2015-response]: Vannucchi AM, Kiladjian JJ, Griesshammer M, et al. Ruxolitinib versus standard therapy for the treatment of polycythemia vera. *N Engl J Med.* 2015;372(5):426-435. [doi:10.1056/NEJMoa1409002](https://doi.org/10.1056/NEJMoa1409002) · [PubMed 25426978](https://pubmed.ncbi.nlm.nih.gov/25426978/)
