@@ -196,6 +196,15 @@ cross_links:
   - target: 01-human/07-system/borderline-personality-disorder
     relation: connects-to
     note: "Impulsivity and emotional dysregulation overlap: ADHD and borderline personality disorder co-occur often and share traits of impulsivity and affective instability, blurring the line between the two."
+  - target: 01-human/07-system/type-2-diabetes
+    relation: connects-to
+    note: "Impulsive eating and obesity raise the metabolic stakes: ADHD's impulsivity and reward dysregulation drive disordered eating and obesity, translating over time into a higher risk of type 2 diabetes."
+  - target: 01-human/07-system/social-anxiety-disorder
+    relation: connects-to
+    note: "Years of social missteps breed fear: the inattention and impulsivity of ADHD cause repeated social difficulties that can foster social anxiety, a common comorbidity that compounds functional impairment."
+  - target: 01-human/07-system/hypertension
+    relation: connects-to
+    note: "Its stimulant treatment nudges up the pressure: the methylphenidate and amphetamine medications for ADHD raise heart rate and blood pressure, so cardiovascular monitoring is part of long-term treatment."
 ---
 
 # Attention-Deficit/Hyperactivity Disorder
@@ -401,6 +410,9 @@ ADHD is a clinical diagnosis requiring [^biederman-2005-adhd-adults]:
 - `connects-to` → **[NF-κB](../../03-molecular/nf-kb/README.md)** — An inflammatory thread runs through it: emerging evidence links ADHD to low-grade neuroinflammation with NF-κB-driven cytokine signaling, part of why maternal immune activation and inflammation raise the risk.
 - `connects-to` → **[Opioid Use Disorder](../opioid-use-disorder/README.md)** — Impulsivity raises the stakes of every drug: untreated ADHD strongly predisposes to substance use disorders including opioids, the impulsivity and reward dysregulation driving earlier, heavier use and addiction.
 - `connects-to` → **[Borderline Personality Disorder](../borderline-personality-disorder/README.md)** — Impulsivity and emotional dysregulation overlap: ADHD and borderline personality disorder co-occur often and share traits of impulsivity and affective instability, blurring the line between the two.
+- `connects-to` → **[Type 2 Diabetes](../type-2-diabetes/README.md)** — Impulsive eating and obesity raise the metabolic stakes: ADHD's impulsivity and reward dysregulation drive disordered eating and obesity, translating over time into a higher risk of type 2 diabetes.
+- `connects-to` → **[Social Anxiety Disorder](../social-anxiety-disorder/README.md)** — Years of social missteps breed fear: the inattention and impulsivity of ADHD cause repeated social difficulties that can foster social anxiety, a common comorbidity that compounds functional impairment.
+- `connects-to` → **[Hypertension](../hypertension/README.md)** — Its stimulant treatment nudges up the pressure: the methylphenidate and amphetamine medications for ADHD raise heart rate and blood pressure, so cardiovascular monitoring is part of long-term treatment.
 
 [^faraone-2021-adhd-primer]: Faraone SV, Banaschewski T, Coghill D, et al. The World Federation of ADHD International Consensus Statement: 208 Evidence-based conclusions about the disorder. *Neurosci Biobehav Rev.* 2021;128:789-818. [doi:10.1016/j.neubiorev.2021.01.022](https://doi.org/10.1016/j.neubiorev.2021.01.022) · [PubMed 33549739](https://pubmed.ncbi.nlm.nih.gov/33549739/)
 [^arnsten-2009-adhd-neuroscience]: Arnsten AF. Toward a new understanding of ADHD pathophysiology: an important role for prefrontal cortex dysfunction. *CNS Drugs.* 2009;23(Suppl 1):33-41. [doi:10.2165/00023210-200923000-00005](https://doi.org/10.2165/00023210-200923000-00005) · [PubMed 19621976](https://pubmed.ncbi.nlm.nih.gov/19621976/)

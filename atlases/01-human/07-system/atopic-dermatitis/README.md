@@ -187,6 +187,15 @@ cross_links:
   - target: 01-human/07-system/sepsis
     relation: connects-to
     note: "Broken skin colonized by Staph can turn invasive: severe atopic dermatitis is heavily colonized by Staphylococcus aureus, and widespread barrier breakdown or eczema herpeticum can let infection reach the bloodstream as sepsis."
+  - target: 01-human/07-system/attention-deficit-hyperactivity-disorder
+    relation: connects-to
+    note: "The itch-disrupted brain wires toward inattention: atopic dermatitis is associated with a higher rate of ADHD, mediated partly by sleep disruption from nocturnal itch and shared inflammatory effects on the developing brain."
+  - target: 01-human/07-system/obesity
+    relation: connects-to
+    note: "Severe eczema and obesity reinforce each other: obesity's adipokine-driven inflammation worsens atopic dermatitis, and the sleep loss and reduced activity of severe disease in turn promote weight gain."
+  - target: 01-human/07-system/type-2-diabetes
+    relation: connects-to
+    note: "Chronic inflammation nudges toward metabolic disease: severe atopic dermatitis is associated with features of the metabolic syndrome, its systemic type-2 and innate inflammation contributing to insulin resistance and type 2 diabetes risk."
 ---
 
 # Atopic Dermatitis
@@ -366,6 +375,9 @@ S. aureus colonizes >90% of AD lesional skin (vs. 20% normal skin):
 - `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — The itch and Th2 signals funnel through JAK-STAT: IL-4, IL-13 and IL-31 act via STAT signaling including STAT3 in keratinocytes and sensory neurons, the pathway that JAK inhibitors block to calm atopic dermatitis.
 - `connects-to` → **[NF-κB](../../03-molecular/nf-kb/README.md)** — A broken barrier keeps NF-κB switched on: microbes and irritants crossing the disrupted skin activate NF-κB in keratinocytes, sustaining the cytokine and antimicrobial-peptide output that drives chronic eczema inflammation.
 - `connects-to` → **[Sepsis](../sepsis/README.md)** — Broken skin colonized by Staph can turn invasive: severe atopic dermatitis is heavily colonized by Staphylococcus aureus, and widespread barrier breakdown or eczema herpeticum can let infection reach the bloodstream as sepsis.
+- `connects-to` → **[Attention-Deficit/Hyperactivity Disorder](../attention-deficit-hyperactivity-disorder/README.md)** — The itch-disrupted brain wires toward inattention: atopic dermatitis is associated with a higher rate of ADHD, mediated partly by sleep disruption from nocturnal itch and shared inflammatory effects on the developing brain.
+- `connects-to` → **[Obesity](../obesity/README.md)** — Severe eczema and obesity reinforce each other: obesity's adipokine-driven inflammation worsens atopic dermatitis, and the sleep loss and reduced activity of severe disease in turn promote weight gain.
+- `connects-to` → **[Type 2 Diabetes](../type-2-diabetes/README.md)** — Chronic inflammation nudges toward metabolic disease: severe atopic dermatitis is associated with features of the metabolic syndrome, its systemic type-2 and innate inflammation contributing to insulin resistance and type 2 diabetes risk.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
