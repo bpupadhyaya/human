@@ -196,6 +196,15 @@ cross_links:
   - target: 01-human/07-system/ckd
     relation: connects-to
     note: "Decades of inflammation can scar the kidney: long-standing AS can deposit secondary AA amyloid in the kidney and, alongside its associated IgA nephropathy, progress to chronic kidney disease."
+  - target: 01-human/07-system/stroke
+    relation: connects-to
+    note: "Chronic systemic inflammation accelerates the arteries: the sustained inflammatory burden of ankylosing spondylitis speeds atherosclerosis and, with reduced mobility, raises the long-term risk of ischemic stroke."
+  - target: 02-pathogen/01-viruses/hepatitis-b-virus
+    relation: connects-to
+    note: "Its TNF inhibitors can reactivate hepatitis B: the anti-TNF biologics central to treating AS can reawaken a dormant hepatitis B virus, so serologic screening and antiviral prophylaxis precede therapy."
+  - target: 01-human/07-system/major-depressive-disorder
+    relation: connects-to
+    note: "Relentless pain and stiffening wear on mood: the chronic back pain, fatigue, poor sleep and progressive loss of mobility in ankylosing spondylitis contribute to markedly elevated rates of depression."
 ---
 
 # Ankylosing Spondylitis
@@ -364,6 +373,9 @@ AS originates at the **enthesis** — the site where tendons, ligaments, and joi
 - `connects-to` → **[Tuberculosis](../tuberculosis/README.md)** — Its TNF biologics can wake latent TB: the anti-TNF agents that transformed AS treatment disable the granuloma containing Mycobacterium tuberculosis, so latent-TB screening and treatment precede therapy to prevent reactivation.
 - `connects-to` → **[Anemia of Chronic Disease](../anemia-of-chronic-disease/README.md)** — Sustained inflammation dulls the marrow: the chronic IL-6 drive of active ankylosing spondylitis raises hepcidin and blunts erythropoiesis, producing the anemia of chronic disease that tracks with disease activity.
 - `connects-to` → **[Chronic Kidney Disease](../ckd/README.md)** — Decades of inflammation can scar the kidney: long-standing AS can deposit secondary AA amyloid in the kidney and, alongside its associated IgA nephropathy, progress to chronic kidney disease.
+- `connects-to` → **[Stroke](../stroke/README.md)** — Chronic systemic inflammation accelerates the arteries: the sustained inflammatory burden of ankylosing spondylitis speeds atherosclerosis and, with reduced mobility, raises the long-term risk of ischemic stroke.
+- `connects-to` → **[Hepatitis B virus](../../../02-pathogen/01-viruses/hepatitis-b-virus/README.md)** — Its TNF inhibitors can reactivate hepatitis B: the anti-TNF biologics central to treating AS can reawaken a dormant hepatitis B virus, so serologic screening and antiviral prophylaxis precede therapy.
+- `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — Relentless pain and stiffening wear on mood: the chronic back pain, fatigue, poor sleep and progressive loss of mobility in ankylosing spondylitis contribute to markedly elevated rates of depression.
 
 [^sieper-2015-ankylosing-spondylitis-review]: Sieper J, Poddubnyy D. Ankylosing spondylitis. *Lancet.* 2017;390(10089):73-84. [doi:10.1016/S0140-6736(16)31591-4](https://doi.org/10.1016/S0140-6736(16)31591-4) · [PubMed 28110981](https://pubmed.ncbi.nlm.nih.gov/28110981/)
 [^baeten-2015-secukinumab-as]: Baeten D, Sieper J, Braun J, et al. Secukinumab, an Interleukin-17A Inhibitor, in Ankylosing Spondylitis. *N Engl J Med.* 2015;373(26):2534-2548. [doi:10.1056/NEJMoa1505066](https://doi.org/10.1056/NEJMoa1505066) · [PubMed 26699169](https://pubmed.ncbi.nlm.nih.gov/26699169/)

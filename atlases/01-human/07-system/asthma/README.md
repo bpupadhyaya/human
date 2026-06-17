@@ -196,6 +196,15 @@ cross_links:
   - target: 01-human/07-system/generalized-anxiety-disorder
     relation: connects-to
     note: "Breathlessness and anxiety feed each other: asthma carries high rates of anxiety, and the fear of an attack — plus the overlap of hyperventilation with asthma symptoms — can worsen perceived control and trigger exacerbations."
+  - target: 01-human/07-system/type-2-diabetes
+    relation: connects-to
+    note: "Its rescue steroid courses raise blood sugar: the repeated oral-corticosteroid bursts that severe or poorly controlled asthma requires induce insulin resistance and can precipitate steroid-induced diabetes."
+  - target: 01-human/07-system/major-depressive-disorder
+    relation: connects-to
+    note: "Chronic breathlessness and limitation weigh on mood: alongside its well-known anxiety, asthma carries elevated depression, driven by activity restriction, poor sleep and the burden of uncontrolled symptoms."
+  - target: 01-human/07-system/stroke
+    relation: connects-to
+    note: "Severe asthma tracks with cerebrovascular risk: the systemic Th2 and eosinophilic inflammation of asthma, especially severe late-onset disease, is associated in cohort studies with a modestly raised risk of stroke."
 ---
 
 # Asthma
@@ -364,6 +373,9 @@ Asthma affects approximately **339 million people worldwide** (WHO 2019) and is 
 - `connects-to` → **[Candida albicans](../../../02-pathogen/03-fungi/candida-albicans/README.md)** — Its inhalers seed oral thrush: inhaled corticosteroids deposit on the oropharynx and locally suppress immunity, allowing Candida to overgrow into oral candidiasis — the reason spacers and mouth-rinsing are advised after each dose.
 - `connects-to` → **[Osteoporosis](../osteoporosis/README.md)** — Steroid courses thin the bone: repeated oral-corticosteroid bursts for exacerbations, and high-dose inhaled steroids in severe asthma, accelerate bone loss and raise the long-term risk of osteoporotic fracture.
 - `connects-to` → **[Generalized Anxiety Disorder](../generalized-anxiety-disorder/README.md)** — Breathlessness and anxiety feed each other: asthma carries high rates of anxiety, and the fear of an attack — plus the overlap of hyperventilation with asthma symptoms — can worsen perceived control and trigger exacerbations.
+- `connects-to` → **[Type 2 Diabetes](../type-2-diabetes/README.md)** — Its rescue steroid courses raise blood sugar: the repeated oral-corticosteroid bursts that severe or poorly controlled asthma requires induce insulin resistance and can precipitate steroid-induced diabetes.
+- `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — Chronic breathlessness and limitation weigh on mood: alongside its well-known anxiety, asthma carries elevated depression, driven by activity restriction, poor sleep and the burden of uncontrolled symptoms.
+- `connects-to` → **[Stroke](../stroke/README.md)** — Severe asthma tracks with cerebrovascular risk: the systemic Th2 and eosinophilic inflammation of asthma, especially severe late-onset disease, is associated in cohort studies with a modestly raised risk of stroke.
 
 [^gina-2023-asthma]: Global Initiative for Asthma. Global Strategy for Asthma Management and Prevention. 2023. [ginasthma.org](https://ginasthma.org/2023-gina-main-report/)
 [^wenzel-2012-asthma-phenotypes]: Wenzel SE. Asthma phenotypes: the evolution from clinical to molecular approaches. *Nat Med.* 2012;18(5):716-725. [doi:10.1038/nm.2678](https://doi.org/10.1038/nm.2678) · [PubMed 22561835](https://pubmed.ncbi.nlm.nih.gov/22561835/)
