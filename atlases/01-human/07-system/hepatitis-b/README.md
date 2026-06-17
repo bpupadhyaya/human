@@ -183,6 +183,15 @@ cross_links:
   - target: 01-human/07-system/sepsis
     relation: connects-to
     note: "A failing liver invites overwhelming infection: decompensated HBV cirrhosis impairs immune defense and allows gut bacteria to translocate, so spontaneous bacterial peritonitis and sepsis become frequent, life-threatening events."
+  - target: 01-human/07-system/anemia-of-chronic-disease
+    relation: connects-to
+    note: "Chronic infection and cirrhosis blunt the blood count: long-standing HBV inflammation raises hepcidin while a cirrhotic liver and hypersplenism worsen it, contributing an anemia of chronic disease beyond any bleeding."
+  - target: 01-human/07-system/rheumatoid-arthritis
+    relation: connects-to
+    note: "Two links bind them: HBV can cause an immune-complex polyarthritis mimicking RA, and conversely the immunosuppressants used to treat RA can reactivate latent HBV, so screening precedes such therapy."
+  - target: 01-human/07-system/major-depressive-disorder
+    relation: connects-to
+    note: "Chronic viral hepatitis weighs on mood: living with a transmissible, stigmatized lifelong infection — and historically the interferon used to treat it — carries a substantial burden of depression."
 ---
 
 # Hepatitis B
@@ -373,3 +382,6 @@ HDV is a satellite RNA virus that requires HBsAg for virion assembly:
 - `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — STAT3 links the chronic inflammation to cancer: IL-6 from the inflamed liver activates STAT3 in hepatocytes, a pro-survival, pro-proliferative signal that helps the chronically infected cell drift toward hepatocellular carcinoma.
 - `connects-to` → **[Venous Thromboembolism](../venous-thromboembolism/README.md)** — Advanced liver disease clots despite the bleeding tendency: cirrhosis from chronic HBV rebalances coagulation toward thrombosis, raising the risk of portal vein thrombosis and venous thromboembolism even as it prolongs the INR.
 - `connects-to` → **[Sepsis](../sepsis/README.md)** — A failing liver invites overwhelming infection: decompensated HBV cirrhosis impairs immune defense and allows gut bacteria to translocate, so spontaneous bacterial peritonitis and sepsis become frequent, life-threatening events.
+- `connects-to` → **[Anemia of Chronic Disease](../anemia-of-chronic-disease/README.md)** — Chronic infection and cirrhosis blunt the blood count: long-standing HBV inflammation raises hepcidin while a cirrhotic liver and hypersplenism worsen it, contributing an anemia of chronic disease beyond any bleeding.
+- `connects-to` → **[Rheumatoid Arthritis](../rheumatoid-arthritis/README.md)** — Two links bind them: HBV can cause an immune-complex polyarthritis mimicking RA, and conversely the immunosuppressants used to treat RA can reactivate latent HBV, so screening precedes such therapy.
+- `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — Chronic viral hepatitis weighs on mood: living with a transmissible, stigmatized lifelong infection — and historically the interferon used to treat it — carries a substantial burden of depression.

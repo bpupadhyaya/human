@@ -183,6 +183,15 @@ cross_links:
   - target: 01-human/07-system/venous-thromboembolism
     relation: connects-to
     note: "Cirrhosis from HCV tilts toward clotting: advanced liver disease rebalances hemostasis toward thrombosis, raising the risk of portal vein thrombosis and venous thromboembolism despite the prolonged clotting times."
+  - target: 01-human/07-system/major-depressive-disorder
+    relation: connects-to
+    note: "It reaches the brain as well as the liver: HCV causes fatigue and cognitive 'brain fog' through low-grade neuroinflammation, and — with the stigma of chronic infection and historic interferon therapy — carries a high rate of depression."
+  - target: 01-human/07-system/anemia-of-chronic-disease
+    relation: connects-to
+    note: "Chronic infection and cirrhosis lower the count: persistent HCV inflammation raises hepcidin while a scarred liver and hypersplenism worsen it, adding an anemia of chronic disease to the hematologic picture."
+  - target: 01-human/07-system/stroke
+    relation: connects-to
+    note: "Its vascular inflammation reaches the brain: the systemic inflammation and accelerated atherosclerosis of chronic HCV, together with cryoglobulinemic vasculitis, raise the risk of ischemic stroke beyond the liver disease."
 ---
 
 # Hepatitis C
@@ -364,3 +373,6 @@ HCV cirrhosis → HCC risk 1–5% per year (annual ultrasound surveillance ± AF
 - `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — STAT3 drives the inflamed liver toward cancer: HCV proteins and IL-6 activate STAT3 in hepatocytes, a survival and proliferation signal that contributes to the hepatocellular carcinoma that can arise even after the virus is cleared.
 - `connects-to` → **[Atherosclerosis](../atherosclerosis/README.md)** — The infection is also a vascular risk factor: chronic HCV promotes systemic inflammation and is independently linked to accelerated atherosclerosis, raising the risk of coronary and carotid disease beyond the liver.
 - `connects-to` → **[Venous Thromboembolism](../venous-thromboembolism/README.md)** — Cirrhosis from HCV tilts toward clotting: advanced liver disease rebalances hemostasis toward thrombosis, raising the risk of portal vein thrombosis and venous thromboembolism despite the prolonged clotting times.
+- `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — It reaches the brain as well as the liver: HCV causes fatigue and cognitive 'brain fog' through low-grade neuroinflammation, and — with the stigma of chronic infection and historic interferon therapy — carries a high rate of depression.
+- `connects-to` → **[Anemia of Chronic Disease](../anemia-of-chronic-disease/README.md)** — Chronic infection and cirrhosis lower the count: persistent HCV inflammation raises hepcidin while a scarred liver and hypersplenism worsen it, adding an anemia of chronic disease to the hematologic picture.
+- `connects-to` → **[Stroke](../stroke/README.md)** — Its vascular inflammation reaches the brain: the systemic inflammation and accelerated atherosclerosis of chronic HCV, together with cryoglobulinemic vasculitis, raise the risk of ischemic stroke beyond the liver disease.
