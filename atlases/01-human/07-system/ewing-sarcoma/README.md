@@ -187,6 +187,15 @@ cross_links:
   - target: 01-human/07-system/venous-thromboembolism
     relation: connects-to
     note: "A sarcoma and its treatment that clot: Ewing sarcoma raises thrombosis risk through tumor-driven hypercoagulability, compounded by central venous catheters and the immobility of intensive therapy and limb surgery."
+  - target: 01-human/07-system/aml
+    relation: connects-to
+    note: "Its cure can sow a later leukemia: the alkylators and etoposide central to Ewing sarcoma therapy carry a real risk of therapy-related myelodysplasia and acute myeloid leukemia years after treatment."
+  - target: 01-human/07-system/heart-failure
+    relation: connects-to
+    note: "Its anthracyclines scar the heart: the doxorubicin in Ewing sarcoma regimens is dose-dependently cardiotoxic, leaving survivors at risk of a cardiomyopathy and heart failure decades on."
+  - target: 02-pathogen/03-fungi/aspergillus-fumigatus
+    relation: connects-to
+    note: "Prolonged neutropenia opens the lung to mold: the deep neutropenia of dose-dense Ewing chemotherapy lets inhaled Aspergillus invade as pulmonary aspergillosis, a feared infection in these patients."
 ---
 
 # Ewing Sarcoma
@@ -366,6 +375,9 @@ After induction → surgical specimen assessed for percent tumor necrosis (Salze
 - `connects-to` → **[NF-κB](../../03-molecular/nf-kb/README.md)** — The fusion oncoprotein engages NF-κB: EWS-FLI1-driven Ewing cells show NF-κB-dependent survival and inflammatory signaling, one of the cooperating pathways explored as a target in this fusion-driven sarcoma.
 - `connects-to` → **[Sepsis](../sepsis/README.md)** — Intensive chemo empties the marrow: the multidrug, dose-dense regimens that cure many Ewing sarcomas cause profound neutropenia, making febrile neutropenia and sepsis a recurrent treatment hazard.
 - `connects-to` → **[Venous Thromboembolism](../venous-thromboembolism/README.md)** — A sarcoma and its treatment that clot: Ewing sarcoma raises thrombosis risk through tumor-driven hypercoagulability, compounded by central venous catheters and the immobility of intensive therapy and limb surgery.
+- `connects-to` → **[AML](../aml/README.md)** — Its cure can sow a later leukemia: the alkylators and etoposide central to Ewing sarcoma therapy carry a real risk of therapy-related myelodysplasia and acute myeloid leukemia years after treatment.
+- `connects-to` → **[Heart Failure](../heart-failure/README.md)** — Its anthracyclines scar the heart: the doxorubicin in Ewing sarcoma regimens is dose-dependently cardiotoxic, leaving survivors at risk of a cardiomyopathy and heart failure decades on.
+- `connects-to` → **[Aspergillus fumigatus](../../../02-pathogen/03-fungi/aspergillus-fumigatus/README.md)** — Prolonged neutropenia opens the lung to mold: the deep neutropenia of dose-dense Ewing chemotherapy lets inhaled Aspergillus invade as pulmonary aspergillosis, a feared infection in these patients.
 
 ---
 

@@ -187,6 +187,15 @@ cross_links:
   - target: 01-human/07-system/anemia-of-chronic-disease
     relation: connects-to
     note: "Hundreds of polyps and inflammation drain the blood: beyond the iron loss of chronic polyp bleeding, the inflammatory milieu of FAP can suppress erythropoiesis, adding an anemia of chronic disease to the iron deficiency."
+  - target: 01-human/07-system/ckd
+    relation: connects-to
+    note: "Its desmoids can throttle the ureters: the intra-abdominal desmoid tumors that FAP predisposes to can compress the ureters into obstruction, and prolonged hydronephrosis can erode kidney function toward chronic kidney disease."
+  - target: 01-human/07-system/osteoporosis
+    relation: connects-to
+    note: "Removing the colon costs the bones: total colectomy and the malabsorption of vitamin D and calcium after surgery, plus the disease's chronic GI losses, leave FAP patients prone to bone loss and osteoporosis."
+  - target: 01-human/07-system/major-depressive-disorder
+    relation: connects-to
+    note: "Prophylactic colectomy and inherited cancer risk weigh on the mind: facing inevitable colorectal cancer without surgery, living with a stoma or pouch, and the hereditary burden give FAP a substantial psychological toll."
 ---
 
 # Familial Adenomatous Polyposis
@@ -383,6 +392,9 @@ With modern surveillance and prophylactic colectomy: FAP is no longer an inevita
 - `connects-to` → **[NF-κB](../../03-molecular/nf-kb/README.md)** — Inflammation collaborates with the Wnt drive: NF-κB activation in the polyp-laden mucosa adds pro-survival, pro-proliferative signals to the APC-loss Wnt pathway, helping push FAP adenomas toward carcinoma.
 - `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — IL-6 feeds the adenoma through STAT3: inflammatory IL-6/STAT3 signaling in the carpet of FAP polyps promotes epithelial proliferation and survival, one of the inflammatory accelerants of its inevitable cancer.
 - `connects-to` → **[Anemia of Chronic Disease](../anemia-of-chronic-disease/README.md)** — Hundreds of polyps and inflammation drain the blood: beyond the iron loss of chronic polyp bleeding, the inflammatory milieu of FAP can suppress erythropoiesis, adding an anemia of chronic disease to the iron deficiency.
+- `connects-to` → **[Chronic Kidney Disease](../ckd/README.md)** — Its desmoids can throttle the ureters: the intra-abdominal desmoid tumors that FAP predisposes to can compress the ureters into obstruction, and prolonged hydronephrosis can erode kidney function toward chronic kidney disease.
+- `connects-to` → **[Osteoporosis](../osteoporosis/README.md)** — Removing the colon costs the bones: total colectomy and the malabsorption of vitamin D and calcium after surgery, plus the disease's chronic GI losses, leave FAP patients prone to bone loss and osteoporosis.
+- `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — Prophylactic colectomy and inherited cancer risk weigh on the mind: facing inevitable colorectal cancer without surgery, living with a stoma or pouch, and the hereditary burden give FAP a substantial psychological toll.
 
 [^kinzler-1991-apc]: Kinzler KW, Nilbert MC, Su LK, et al. Identification of FAP locus genes from chromosome 5q21. *Science.* 1991;253(5020):661-665. [doi:10.1126/science.1651562](https://doi.org/10.1126/science.1651562) · [PubMed 1651562](https://pubmed.ncbi.nlm.nih.gov/1651562/)
 [^fearon-1990-vogelstein]: Fearon ER, Vogelstein B. A genetic model for colorectal tumorigenesis. *Cell.* 1990;61(5):759-767. [doi:10.1016/0092-8674(90)90186-i](https://doi.org/10.1016/0092-8674(90)90186-i) · [PubMed 2188735](https://pubmed.ncbi.nlm.nih.gov/2188735/)
