@@ -178,6 +178,15 @@ cross_links:
   - target: 01-human/07-system/venous-thromboembolism
     relation: connects-to
     note: "Central lines and chemotherapy clot the veins: the indwelling venous access and pro-thrombotic chemotherapy used in retinoblastoma treatment predispose to catheter-associated venous thromboembolism."
+  - target: 01-human/07-system/aml
+    relation: connects-to
+    note: "Its cure can sow a second cancer: the etoposide and alkylators used against retinoblastoma — on a germline-RB1 background already prone to second malignancies — can cause therapy-related acute myeloid leukemia years later."
+  - target: 01-human/07-system/ckd
+    relation: connects-to
+    note: "The platinum is hard on small kidneys: carboplatin and cisplatin central to retinoblastoma chemotherapy are nephrotoxic, and in a young child the tubular and electrolyte injury can leave lasting chronic kidney impairment."
+  - target: 01-human/07-system/anemia-of-chronic-disease
+    relation: connects-to
+    note: "Marrow suppression and chronic illness lower the count: intensive chemotherapy plus the inflammatory burden of an advanced tumor blunt erythropoiesis, adding an anemia-of-chronic-disease component to treatment-related cytopenias."
 ---
 
 # Retinoblastoma
@@ -344,6 +353,9 @@ Standard regimen: **vincristine + carboplatin + etoposide (VCE)**, 6 cycles; red
 - `connects-to` → **[Sepsis](../sepsis/README.md)** — Chemotherapy exposes the child to sepsis: the systemic carboplatin-etoposide-vincristine regimens drop neutrophils, so febrile neutropenia and bloodstream infection are constant dangers in treating these infants.
 - `connects-to` → **[Stroke](../stroke/README.md)** — Radiation scars the young brain's vessels: external-beam radiation to the orbit and head in heritable retinoblastoma causes a late cerebral vasculopathy (including moyamoya) that raises stroke risk in survivors.
 - `connects-to` → **[Venous Thromboembolism](../venous-thromboembolism/README.md)** — Central lines and chemotherapy clot the veins: the indwelling venous access and pro-thrombotic chemotherapy used in retinoblastoma treatment predispose to catheter-associated venous thromboembolism.
+- `connects-to` → **[AML](../aml/README.md)** — Its cure can sow a second cancer: the etoposide and alkylators used against retinoblastoma — on a germline-RB1 background already prone to second malignancies — can cause therapy-related acute myeloid leukemia years later.
+- `connects-to` → **[Chronic Kidney Disease](../ckd/README.md)** — The platinum is hard on small kidneys: carboplatin and cisplatin central to retinoblastoma chemotherapy are nephrotoxic, and in a young child the tubular and electrolyte injury can leave lasting chronic kidney impairment.
+- `connects-to` → **[Anemia of Chronic Disease](../anemia-of-chronic-disease/README.md)** — Marrow suppression and chronic illness lower the count: intensive chemotherapy plus the inflammatory burden of an advanced tumor blunt erythropoiesis, adding an anemia-of-chronic-disease component to treatment-related cytopenias.
 
 [^knudson-1971-two-hit]: Knudson AG Jr. Mutation and cancer: statistical study of retinoblastoma. *Proc Natl Acad Sci USA.* 1971;68(4):820-823. [doi:10.1073/pnas.68.4.820](https://doi.org/10.1073/pnas.68.4.820) · [PubMed 5279523](https://pubmed.ncbi.nlm.nih.gov/5279523/)
 [^shields-2008-retinoblastoma]: Shields CL, Shields JA. Retinoblastoma management: advances in enucleation, intravenous chemoreduction, and intra-arterial chemotherapy. *Curr Opin Ophthalmol.* 2010;21(3):203-212. [doi:10.1097/ICU.0b013e328338676a](https://doi.org/10.1097/ICU.0b013e328338676a) · [PubMed 20224400](https://pubmed.ncbi.nlm.nih.gov/20224400/)
