@@ -196,6 +196,15 @@ cross_links:
   - target: 01-human/07-system/ckd
     relation: connects-to
     note: "Treatment and obstruction both threaten the kidney: the bevacizumab used in metastatic colorectal cancer causes proteinuria and renal injury, while pelvic tumor can obstruct the ureters, together risking chronic kidney disease."
+  - target: 01-human/07-system/neuropathic-pain
+    relation: connects-to
+    note: "Its oxaliplatin leaves nerves burning: the platinum drug in FOLFOX, a backbone of colorectal-cancer therapy, causes a dose-dependent peripheral neuropathy with cold-triggered and chronic neuropathic pain that can persist long after treatment."
+  - target: 02-pathogen/03-fungi/aspergillus-fumigatus
+    relation: connects-to
+    note: "Its chemotherapy opens the lung to mold: the neutropenia from colorectal-cancer regimens can let inhaled Aspergillus invade as pulmonary aspergillosis, especially in heavily pretreated or metastatic patients."
+  - target: 01-human/07-system/major-depressive-disorder
+    relation: connects-to
+    note: "Diagnosis and a stoma weigh on mood: the cancer diagnosis, ostomy and altered bowel function and prolonged chemotherapy of colorectal cancer contribute to substantial depression and impaired quality of life."
 ---
 
 # Colorectal Cancer
@@ -371,6 +380,9 @@ The step-wise genetic progression from normal epithelium to carcinoma in CRC was
 - `connects-to` → **[Anemia of Chronic Disease](../anemia-of-chronic-disease/README.md)** — Beyond bleeding, inflammation blunts the marrow: alongside the iron-deficiency anemia from chronic blood loss, the tumor's IL-6-driven inflammation raises hepcidin and suppresses erythropoiesis, adding an anemia-of-chronic-disease component.
 - `connects-to` → **[Heart Failure](../heart-failure/README.md)** — Its mainstay chemo can injure the heart: 5-fluorouracil and capecitabine cause coronary vasospasm and a cardiotoxicity that can precipitate ischemia and cardiac dysfunction during colorectal cancer treatment.
 - `connects-to` → **[Chronic Kidney Disease](../ckd/README.md)** — Treatment and obstruction both threaten the kidney: the bevacizumab used in metastatic colorectal cancer causes proteinuria and renal injury, while pelvic tumor can obstruct the ureters, together risking chronic kidney disease.
+- `connects-to` → **[Neuropathic Pain](../neuropathic-pain/README.md)** — Its oxaliplatin leaves nerves burning: the platinum drug in FOLFOX, a backbone of colorectal-cancer therapy, causes a dose-dependent peripheral neuropathy with cold-triggered and chronic neuropathic pain that can persist long after treatment.
+- `connects-to` → **[Aspergillus fumigatus](../../../02-pathogen/03-fungi/aspergillus-fumigatus/README.md)** — Its chemotherapy opens the lung to mold: the neutropenia from colorectal-cancer regimens can let inhaled Aspergillus invade as pulmonary aspergillosis, especially in heavily pretreated or metastatic patients.
+- `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — Diagnosis and a stoma weigh on mood: the cancer diagnosis, ostomy and altered bowel function and prolonged chemotherapy of colorectal cancer contribute to substantial depression and impaired quality of life.
 
 ---
 

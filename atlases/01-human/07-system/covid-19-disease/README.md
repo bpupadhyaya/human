@@ -196,6 +196,15 @@ cross_links:
   - target: 01-human/07-system/major-depressive-disorder
     relation: connects-to
     note: "Its long tail reaches the mind: post-COVID and long-COVID syndromes carry high rates of depression, from the neuroinflammatory effects of the virus and the psychological toll of severe illness and prolonged recovery."
+  - target: 01-human/07-system/heart-failure
+    relation: connects-to
+    note: "It can inflame and weaken the heart: SARS-CoV-2 causes myocarditis and direct cardiac injury, and severe COVID's hypoxia and cytokine storm strain the myocardium, leaving some patients with new heart failure."
+  - target: 01-human/07-system/pulmonary-arterial-hypertension
+    relation: connects-to
+    note: "Lung and clot damage can pressurize the pulmonary arteries: severe COVID's diffuse lung injury, fibrosis and pulmonary emboli can raise pulmonary vascular resistance, leaving chronic thromboembolic or post-inflammatory pulmonary hypertension."
+  - target: 01-human/07-system/ptsd
+    relation: connects-to
+    note: "Critical illness leaves psychological scars: survivors of severe COVID, especially ICU and ventilator patients, develop post-traumatic stress as part of the post-intensive-care and long-COVID burden."
 ---
 
 # COVID-19 Disease
@@ -320,6 +329,9 @@ Symptoms persisting >4 weeks: fatigue (most common), cognitive impairment ("brai
 - `connects-to` → **[Aspergillus fumigatus](../../../02-pathogen/03-fungi/aspergillus-fumigatus/README.md)** — It opens the lung to the mold: damaged airway epithelium plus the steroids and immune dysregulation of severe COVID give rise to COVID-associated pulmonary aspergillosis (CAPA), a dangerous superinfection in the ICU.
 - `connects-to` → **[Chronic Kidney Disease](../ckd/README.md)** — The kidney is a frequent casualty: COVID causes acute kidney injury through direct ACE2-mediated infection, cytokine injury and microthrombi, and severe AKI can fail to fully recover, leaving chronic kidney disease.
 - `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — Its long tail reaches the mind: post-COVID and long-COVID syndromes carry high rates of depression, from the neuroinflammatory effects of the virus and the psychological toll of severe illness and prolonged recovery.
+- `connects-to` → **[Heart Failure](../heart-failure/README.md)** — It can inflame and weaken the heart: SARS-CoV-2 causes myocarditis and direct cardiac injury, and severe COVID's hypoxia and cytokine storm strain the myocardium, leaving some patients with new heart failure.
+- `connects-to` → **[Pulmonary Arterial Hypertension](../pulmonary-arterial-hypertension/README.md)** — Lung and clot damage can pressurize the pulmonary arteries: severe COVID's diffuse lung injury, fibrosis and pulmonary emboli can raise pulmonary vascular resistance, leaving chronic thromboembolic or post-inflammatory pulmonary hypertension.
+- `connects-to` → **[PTSD](../ptsd/README.md)** — Critical illness leaves psychological scars: survivors of severe COVID, especially ICU and ventilator patients, develop post-traumatic stress as part of the post-intensive-care and long-COVID burden.
 
 ## Pathology
 
