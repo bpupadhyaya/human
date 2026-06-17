@@ -194,6 +194,15 @@ cross_links:
   - target: 01-human/07-system/cowden-syndrome
     relation: connects-to
     note: "It targets the thyroid above all: Cowden syndrome causes goiter, benign thyroid nodules and a high risk of thyroid cancer, one of its defining endocrine manifestations alongside breast and uterine tumors."
+  - target: 01-human/07-system/hypertension
+    relation: connects-to
+    note: "Hormone excess drives secondary hypertension: Cushing's, primary aldosteronism, pheochromocytoma and thyroid disorders raise blood pressure, making the endocrine system a key source of treatable secondary hypertension."
+  - target: 01-human/07-system/heart-failure
+    relation: connects-to
+    note: "Its hormones shape the heart: thyroid excess or deficiency, acromegaly and catecholamine-secreting tumors all remodel the myocardium, so endocrine disease is an important reversible cause of heart failure."
+  - target: 01-human/07-system/major-depressive-disorder
+    relation: connects-to
+    note: "Hormones set the tenor of mood: thyroid dysfunction, cortisol excess or deficiency and sex-hormone shifts profoundly affect mood, so endocrine disorders frequently present with depression."
 ---
 
 # Endocrine System
@@ -410,6 +419,9 @@ The endocrine system coordinates fuel metabolism across multiple organs in respo
 - `connects-to` → **[Tuberculosis](../tuberculosis/README.md)** — An old infection can shut down the adrenals: tuberculosis is a classic cause of primary adrenal insufficiency (Addison's), destroying the adrenal cortex and crippling the body's cortisol and aldosterone output.
 - `connects-to` → **[VHL Disease](../vhl-disease/README.md)** — It seeds tumors across endocrine glands: VHL disease causes pheochromocytomas of the adrenal medulla and pancreatic neuroendocrine tumors, a hereditary disorder striking multiple endocrine organs at once.
 - `connects-to` → **[Cowden Syndrome](../cowden-syndrome/README.md)** — It targets the thyroid above all: Cowden syndrome causes goiter, benign thyroid nodules and a high risk of thyroid cancer, one of its defining endocrine manifestations alongside breast and uterine tumors.
+- `connects-to` → **[Hypertension](../hypertension/README.md)** — Hormone excess drives secondary hypertension: Cushing's, primary aldosteronism, pheochromocytoma and thyroid disorders raise blood pressure, making the endocrine system a key source of treatable secondary hypertension.
+- `connects-to` → **[Heart Failure](../heart-failure/README.md)** — Its hormones shape the heart: thyroid excess or deficiency, acromegaly and catecholamine-secreting tumors all remodel the myocardium, so endocrine disease is an important reversible cause of heart failure.
+- `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — Hormones set the tenor of mood: thyroid dysfunction, cortisol excess or deficiency and sex-hormone shifts profoundly affect mood, so endocrine disorders frequently present with depression.
 
 ## Pathology
 

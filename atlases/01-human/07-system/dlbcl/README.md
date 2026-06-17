@@ -196,6 +196,15 @@ cross_links:
   - target: 01-human/07-system/heart-failure
     relation: connects-to
     note: "Its anthracycline scars the heart: the doxorubicin in R-CHOP is dose-dependently cardiotoxic, leaving some DLBCL survivors with a cardiomyopathy and heart failure that can emerge years later."
+  - target: 01-human/07-system/neuropathic-pain
+    relation: connects-to
+    note: "Vincristine leaves the nerves raw: the vinca alkaloid in R-CHOP causes a dose-limiting peripheral neuropathy with numbness and neuropathic pain that can persist after DLBCL treatment."
+  - target: 01-human/07-system/ckd
+    relation: connects-to
+    note: "Tumor lysis and methotrexate threaten the kidneys: high cell turnover at DLBCL induction triggers tumor lysis syndrome, and CNS-prophylactic high-dose methotrexate adds nephrotoxicity, risking kidney injury."
+  - target: 01-human/07-system/major-depressive-disorder
+    relation: connects-to
+    note: "An aggressive cancer and its therapy weigh on mood: the diagnosis, intensive immunochemotherapy and fear of relapse in DLBCL contribute to a substantial burden of depression."
 ---
 
 # Diffuse Large B-Cell Lymphoma
@@ -377,6 +386,9 @@ DLBCL is an aggressive malignancy of mature B cells. The normal equivalents are 
 - `connects-to` → **[Hepatitis B Virus](../../../02-pathogen/01-viruses/hepatitis-b-virus/README.md)** — Anti-CD20 therapy can reactivate it: the rituximab in R-CHOP depletes B cells and can reawaken latent hepatitis B into fulminant hepatitis, so screening and antiviral prophylaxis precede treatment.
 - `connects-to` → **[Pneumocystis jirovecii](../../../02-pathogen/03-fungi/pneumocystis-jirovecii/README.md)** — Its chemoimmunotherapy opens the lung: R-CHOP and especially regimens with steroids deplete T-cell defenses, so Pneumocystis pneumonia is a risk and prophylaxis is given with more intensive DLBCL treatment.
 - `connects-to` → **[Heart Failure](../heart-failure/README.md)** — Its anthracycline scars the heart: the doxorubicin in R-CHOP is dose-dependently cardiotoxic, leaving some DLBCL survivors with a cardiomyopathy and heart failure that can emerge years later.
+- `connects-to` → **[Neuropathic Pain](../neuropathic-pain/README.md)** — Vincristine leaves the nerves raw: the vinca alkaloid in R-CHOP causes a dose-limiting peripheral neuropathy with numbness and neuropathic pain that can persist after DLBCL treatment.
+- `connects-to` → **[Chronic Kidney Disease](../ckd/README.md)** — Tumor lysis and methotrexate threaten the kidneys: high cell turnover at DLBCL induction triggers tumor lysis syndrome, and CNS-prophylactic high-dose methotrexate adds nephrotoxicity, risking kidney injury.
+- `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — An aggressive cancer and its therapy weigh on mood: the diagnosis, intensive immunochemotherapy and fear of relapse in DLBCL contribute to a substantial burden of depression.
 
 ---
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
