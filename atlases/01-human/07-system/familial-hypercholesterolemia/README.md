@@ -190,6 +190,15 @@ cross_links:
   - target: 01-human/07-system/venous-thromboembolism
     relation: connects-to
     note: "Its prothrombotic milieu reaches the veins too: beyond arterial disease, the raised fibrinogen and endothelial dysfunction of severe hypercholesterolemia are linked to a modestly higher risk of venous thromboembolism."
+  - target: 01-human/07-system/wound-healing
+    relation: connects-to
+    note: "Blocked leg arteries starve the wound: the premature peripheral arterial disease of FH cuts blood flow to the limbs, producing ischemic, slow-healing ulcers and, in critical limb ischemia, gangrene."
+  - target: 01-human/07-system/major-depressive-disorder
+    relation: connects-to
+    note: "A lifelong genetic verdict weighs on the mind: living with an inherited high risk of early heart attack, cascade family testing and lifelong therapy — sometimes with statin-related muscle symptoms — carries a real psychological burden."
+  - target: 01-human/07-system/gout
+    relation: connects-to
+    note: "Lipid and urate disturbances cluster: dyslipidemia and hyperuricemia frequently coexist, and FH patients carry the cardiometabolic context — and statin or niacin therapy effects on urate — that associate it with gout."
 ---
 
 # Familial Hypercholesterolemia
@@ -355,6 +364,9 @@ FH is a **monogenic autosomal dominant disorder** caused by mutations in three g
 - `connects-to` → **[Cardiomyocyte](../../04-cellular/cardiomyocyte/README.md)** — The heart muscle pays for the genes: lifelong sky-high LDL gives FH patients premature coronary disease and heart attacks, killing cardiomyocytes decades early — the reason untreated homozygous FH can be fatal in childhood.
 - `connects-to` → **[Dendritic Cell](../../04-cellular/dendritic-cell/README.md)** — Immune cells gorge on the excess cholesterol: dendritic cells and macrophages in the artery wall engulf oxidized LDL to become lipid-laden foam cells and present lipid antigens, an immune arm of the atherogenesis FH accelerates.
 - `connects-to` → **[Venous Thromboembolism](../venous-thromboembolism/README.md)** — Its prothrombotic milieu reaches the veins too: beyond arterial disease, the raised fibrinogen and endothelial dysfunction of severe hypercholesterolemia are linked to a modestly higher risk of venous thromboembolism.
+- `connects-to` → **[Wound Healing](../wound-healing/README.md)** — Blocked leg arteries starve the wound: the premature peripheral arterial disease of FH cuts blood flow to the limbs, producing ischemic, slow-healing ulcers and, in critical limb ischemia, gangrene.
+- `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — A lifelong genetic verdict weighs on the mind: living with an inherited high risk of early heart attack, cascade family testing and lifelong therapy — sometimes with statin-related muscle symptoms — carries a real psychological burden.
+- `connects-to` → **[Gout](../gout/README.md)** — Lipid and urate disturbances cluster: dyslipidemia and hyperuricemia frequently coexist, and FH patients carry the cardiometabolic context — and statin or niacin therapy effects on urate — that associate it with gout.
 
 [^goldstein-1985-ldlr-nobel]: Goldstein JL, Brown MS. The LDL receptor. *Arterioscler Thromb Vasc Biol.* 2009;29(4):431-438. [doi:10.1161/ATVBAHA.108.179564](https://doi.org/10.1161/ATVBAHA.108.179564) · [PubMed 19299327](https://pubmed.ncbi.nlm.nih.gov/19299327/)
 [^raal-2020-inclisiran-fh]: Raal FJ, Kallend D, Ray KK, et al. Inclisiran for the Treatment of Heterozygous Familial Hypercholesterolemia. *N Engl J Med.* 2020;382(16):1520-1530. [doi:10.1056/NEJMoa1913805](https://doi.org/10.1056/NEJMoa1913805) · [PubMed 32197277](https://pubmed.ncbi.nlm.nih.gov/32197277/)

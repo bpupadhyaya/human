@@ -171,6 +171,15 @@ cross_links:
   - target: 01-human/07-system/anorexia-nervosa
     relation: connects-to
     note: "It shares the impulse-control spectrum with eating disorders: gambling disorder co-occurs with anorexia and other eating disorders, all marked by rigid, harmful behavior pursued despite escalating cost."
+  - target: 01-human/07-system/hypertension
+    relation: connects-to
+    note: "Chronic financial and emotional stress raises the pressure: the sustained sympathetic arousal, poor sleep and distress of gambling disorder contribute to hypertension as part of its under-recognized physical toll."
+  - target: 01-human/07-system/stroke
+    relation: connects-to
+    note: "Its stress and neglected health raise vascular risk: chronic stress, hypertension, smoking and poor self-care in gambling disorder elevate cardiovascular risk, with studies noting higher rates of cardiac events and stroke."
+  - target: 01-human/07-system/obesity
+    relation: connects-to
+    note: "Sedentary compulsion and stress add weight: long sedentary sessions, irregular eating and stress-driven overeating in gambling disorder contribute to obesity and the metabolic problems that follow."
 sources:
   - id: grant-2016-gambling-review
     type: peer-reviewed
@@ -368,6 +377,9 @@ Persistent and recurrent problematic gambling behavior causing distress (≥4 of
 - `connects-to` → **[Schizophrenia](../schizophrenia/README.md)** — It is over-represented in psychosis: problem and disordered gambling occur at elevated rates in schizophrenia, where impaired reward processing and impulsivity, sometimes worsened by dopaminergic medication, fuel the behavior.
 - `connects-to` → **[Panic Disorder](../panic-disorder/README.md)** — Anxiety rides with the compulsion: panic disorder and other anxiety conditions commonly accompany gambling disorder, with some gamblers chasing relief from acute anxiety even as losses deepen it.
 - `connects-to` → **[Anorexia Nervosa](../anorexia-nervosa/README.md)** — It shares the impulse-control spectrum with eating disorders: gambling disorder co-occurs with anorexia and other eating disorders, all marked by rigid, harmful behavior pursued despite escalating cost.
+- `connects-to` → **[Hypertension](../hypertension/README.md)** — Chronic financial and emotional stress raises the pressure: the sustained sympathetic arousal, poor sleep and distress of gambling disorder contribute to hypertension as part of its under-recognized physical toll.
+- `connects-to` → **[Stroke](../stroke/README.md)** — Its stress and neglected health raise vascular risk: chronic stress, hypertension, smoking and poor self-care in gambling disorder elevate cardiovascular risk, with studies noting higher rates of cardiac events and stroke.
+- `connects-to` → **[Obesity](../obesity/README.md)** — Sedentary compulsion and stress add weight: long sedentary sessions, irregular eating and stress-driven overeating in gambling disorder contribute to obesity and the metabolic problems that follow.
 
 [^potenza-2014-gambling-neuroscience]: Potenza MN. The neurobiology of pathological gambling and drug addiction: an overview and new findings. *Philos Trans R Soc Lond B Biol Sci.* 2008;363(1507):3181-3189. [doi:10.1098/rstb.2008.0100](https://doi.org/10.1098/rstb.2008.0100) · [PubMed 18640909](https://pubmed.ncbi.nlm.nih.gov/18640909/)
 [^grant-2016-gambling-review]: Grant JE, Chamberlain SR. Gambling disorder and its relationship with substance use disorders. *Am J Addict.* 2015;24(2):126-131. [doi:10.1111/ajad.12112](https://doi.org/10.1111/ajad.12112) · [PubMed 25376793](https://pubmed.ncbi.nlm.nih.gov/25376793/)
