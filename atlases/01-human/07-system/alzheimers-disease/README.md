@@ -181,6 +181,15 @@ cross_links:
   - target: 01-human/04-cellular/natural-killer-cell
     relation: connects-to
     note: "Innate lymphocytes invade the aging brain: natural killer cells accumulate in the Alzheimer's brain and, by attacking neural cells and stoking inflammation, are emerging as contributors to the neurodegeneration."
+  - target: 01-human/03-molecular/nf-kb
+    relation: connects-to
+    note: "Microglia inflame the plaques through NF-κB: amyloid-β activates NF-κB in microglia, priming the NLRP3 inflammasome and pouring out cytokines that amplify the neuroinflammation accelerating Alzheimer's."
+  - target: 01-human/07-system/sepsis
+    relation: connects-to
+    note: "The end stage opens the door to fatal infection: advanced Alzheimer's brings dysphagia, immobility and aspiration, so pneumonia and the sepsis it triggers are a leading cause of death in dementia."
+  - target: 01-human/07-system/venous-thromboembolism
+    relation: connects-to
+    note: "Late-stage immobility clots the veins: as Alzheimer's confines patients to bed, venous stasis raises the risk of deep-vein thrombosis and pulmonary embolism."
 ---
 
 # Alzheimer's Disease
@@ -334,6 +343,9 @@ Microglia play a central, dual role in AD:
 - `connects-to` → **[Complement C5](../../03-molecular/complement-c5/README.md)** — Complement marks synapses for deletion: the cascade through C3 to C5 tags synapses that microglia then prune, an over-activation that drives the early synapse loss best correlating with cognitive decline in Alzheimer's.
 - `connects-to` → **[Hypertension](../hypertension/README.md)** — Midlife blood pressure shapes late dementia: hypertension damages the small cerebral vessels and the clearance of amyloid, making it one of the strongest modifiable risk factors for Alzheimer's decades later.
 - `connects-to` → **[Natural Killer Cell](../../04-cellular/natural-killer-cell/README.md)** — Innate lymphocytes invade the aging brain: natural killer cells accumulate in the Alzheimer's brain and, by attacking neural cells and stoking inflammation, are emerging as contributors to the neurodegeneration.
+- `connects-to` → **[NF-κB](../../03-molecular/nf-kb/README.md)** — Microglia inflame the plaques through NF-κB: amyloid-β activates NF-κB in microglia, priming the NLRP3 inflammasome and pouring out cytokines that amplify the neuroinflammation accelerating Alzheimer's.
+- `connects-to` → **[Sepsis](../sepsis/README.md)** — The end stage opens the door to fatal infection: advanced Alzheimer's brings dysphagia, immobility and aspiration, so pneumonia and the sepsis it triggers are a leading cause of death in dementia.
+- `connects-to` → **[Venous Thromboembolism](../venous-thromboembolism/README.md)** — Late-stage immobility clots the veins: as Alzheimer's confines patients to bed, venous stasis raises the risk of deep-vein thrombosis and pulmonary embolism.
 
 [^selkoe-2016-alzheimer]: Selkoe DJ, Hardy J. The amyloid hypothesis of Alzheimer's disease at 25 years. *EMBO Mol Med.* 2016;8(6):595-608. [doi:10.15252/emmm.201606210](https://doi.org/10.15252/emmm.201606210) · [PubMed 27025652](https://pubmed.ncbi.nlm.nih.gov/27025652/)
 [^jack-2018-nia-aa]: Jack CR Jr, Bennett DA, Blennow K, et al. NIA-AA Research Framework: Toward a biological definition of Alzheimer's disease. *Alzheimers Dement.* 2018;14(4):535-562. [doi:10.1016/j.jalz.2018.02.018](https://doi.org/10.1016/j.jalz.2018.02.018) · [PubMed 29653606](https://pubmed.ncbi.nlm.nih.gov/29653606/)

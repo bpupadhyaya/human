@@ -177,6 +177,15 @@ cross_links:
   - target: 01-human/04-cellular/fibroblast
     relation: connects-to
     note: "Skin cells reveal the signature: the chilblain lesions and the diagnostic interferon signature both surface in fibroblasts, where the unchecked nucleic-acid sensing drives local interferon production."
+  - target: 01-human/03-molecular/tnf-alpha
+    relation: connects-to
+    note: "More than interferon inflames the brain: alongside the dominant type I interferon, TNF and other inflammatory cytokines are elevated in AGS, adding to the neuroinflammation that damages the developing white matter."
+  - target: 01-human/03-molecular/ifn-gamma
+    relation: connects-to
+    note: "A second interferon joins the assault: beyond the type I interferon signature, IFN-γ is also raised in AGS, broadening the interferon-driven inflammation that scars the brain and triggers chilblains."
+  - target: 01-human/07-system/sepsis
+    relation: connects-to
+    note: "It masquerades as congenital infection: the neonatal AGS picture of irritability, fever, CSF pleocytosis and brain calcification mimics intrauterine infection and sepsis, so the diagnosis is often reached only after an exhaustive infection workup is negative."
 ---
 
 # Aicardi-Goutières Syndrome
@@ -324,6 +333,9 @@ Severe early-onset AGS (TREX1 homozygous, RNASEH2A): death in childhood from res
 - `connects-to` → **[IRF3](../../03-molecular/irf3/README.md)** — The disease is a sensor stuck on: accumulated self nucleic acids that the broken enzymes fail to clear trip the innate sensors, and IRF3 drives the relentless type I interferon that defines this interferonopathy.
 - `connects-to` → **[Stroke](../stroke/README.md)** — It can scar the brain's arteries: some forms, especially SAMHD1-related, cause a cerebral large-vessel vasculopathy with aneurysms and moyamoya-like narrowing, putting affected children at risk of stroke.
 - `connects-to` → **[Fibroblast](../../04-cellular/fibroblast/README.md)** — Skin cells reveal the signature: the chilblain lesions and the diagnostic interferon signature both surface in fibroblasts, where the unchecked nucleic-acid sensing drives local interferon production.
+- `connects-to` → **[TNF-α](../../03-molecular/tnf-alpha/README.md)** — More than interferon inflames the brain: alongside the dominant type I interferon, TNF and other inflammatory cytokines are elevated in AGS, adding to the neuroinflammation that damages the developing white matter.
+- `connects-to` → **[IFN-gamma](../../03-molecular/ifn-gamma/README.md)** — A second interferon joins the assault: beyond the type I interferon signature, IFN-γ is also raised in AGS, broadening the interferon-driven inflammation that scars the brain and triggers chilblains.
+- `connects-to` → **[Sepsis](../sepsis/README.md)** — It masquerades as congenital infection: the neonatal AGS picture of irritability, fever, CSF pleocytosis and brain calcification mimics intrauterine infection and sepsis, so the diagnosis is often reached only after an exhaustive infection workup is negative.
 
 ---
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
