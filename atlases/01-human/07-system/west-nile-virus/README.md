@@ -192,6 +192,15 @@ cross_links:
   - target: 01-human/07-system/ckd
     relation: connects-to
     note: "The virus can persist in and injure the kidney: West Nile causes acute kidney injury in severe disease and can shed in urine for years, with reports linking chronic infection to ongoing renal impairment."
+  - target: 01-human/07-system/neuropathic-pain
+    relation: connects-to
+    note: "Its poliomyelitis-like injury leaves lasting pain: neuroinvasive West Nile can destroy anterior-horn motor neurons and inflame nerves, leaving persistent weakness and neuropathic pain long after the acute illness."
+  - target: 01-human/07-system/stroke
+    relation: connects-to
+    note: "Severe neuroinvasion can damage cerebral vessels: West Nile meningoencephalitis can be complicated by vasculitis and hemorrhage, occasionally precipitating stroke in the acute phase."
+  - target: 01-human/07-system/ptsd
+    relation: connects-to
+    note: "Surviving neuroinvasive disease can scar the mind: prolonged ICU care and the slow, incomplete recovery from West Nile encephalitis and paralysis can leave post-traumatic stress alongside its cognitive sequelae."
 ---
 
 # West Nile Virus
@@ -370,3 +379,6 @@ WNV has evolved a multilayered strategy to evade innate immunity:
 - `connects-to` → **[Parkinson's Disease](../parkinsons-disease/README.md)** — Its brain invasion can leave movement disorders: West Nile encephalitis targets the basal ganglia and substantia nigra, causing tremor, rigidity and a post-encephalitic parkinsonism that can persist in survivors.
 - `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — Recovery carries a long mental tail: survivors of neuroinvasive West Nile disease frequently suffer persistent fatigue, cognitive impairment and depression, a post-encephalitic syndrome lasting months to years.
 - `connects-to` → **[Chronic Kidney Disease](../ckd/README.md)** — The virus can persist in and injure the kidney: West Nile causes acute kidney injury in severe disease and can shed in urine for years, with reports linking chronic infection to ongoing renal impairment.
+- `connects-to` → **[Neuropathic Pain](../neuropathic-pain/README.md)** — Its poliomyelitis-like injury leaves lasting pain: neuroinvasive West Nile can destroy anterior-horn motor neurons and inflame nerves, leaving persistent weakness and neuropathic pain long after the acute illness.
+- `connects-to` → **[Stroke](../stroke/README.md)** — Severe neuroinvasion can damage cerebral vessels: West Nile meningoencephalitis can be complicated by vasculitis and hemorrhage, occasionally precipitating stroke in the acute phase.
+- `connects-to` → **[PTSD](../ptsd/README.md)** — Surviving neuroinvasive disease can scar the mind: prolonged ICU care and the slow, incomplete recovery from West Nile encephalitis and paralysis can leave post-traumatic stress alongside its cognitive sequelae.
