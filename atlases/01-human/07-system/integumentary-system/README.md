@@ -197,6 +197,15 @@ cross_links:
   - target: 01-human/07-system/iron-deficiency-anemia
     relation: connects-to
     note: "Pallor and brittle nails betray low iron: the skin, nails and hair show iron deficiency through pallor, spoon-shaped koilonychia and hair loss, making the integument a visible readout of the body's iron stores."
+  - target: 01-human/07-system/digestive-system
+    relation: connects-to
+    note: "The skin mirrors the gut and liver: a gut-skin axis links bowel disease to conditions like dermatitis herpetiformis and pyoderma gangrenosum, while liver failure shows as jaundice and malabsorption as hair and nail change."
+  - target: 01-human/07-system/renal-system
+    relation: connects-to
+    note: "Failing kidneys are written on the skin: chronic kidney disease causes intractable uraemic pruritus, a sallow complexion and calciphylaxis, and gadolinium in renal failure can trigger nephrogenic systemic fibrosis."
+  - target: 02-pathogen/01-viruses/herpesvirus
+    relation: connects-to
+    note: "Herpesviruses erupt on the skin: HSV causes cold sores and genital lesions and can spread catastrophically across eczematous skin as eczema herpeticum, while VZV produces chickenpox and shingles."
 ---
 
 # Integumentary System
@@ -362,6 +371,9 @@ Wound healing is a precisely orchestrated process in four overlapping phases [^g
 - `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — Visible skin disease wounds the psyche: disfiguring or itchy conditions like psoriasis, eczema and acne carry high rates of depression, and stress in turn flares the skin — the basis of psychodermatology.
 - `connects-to` → **[Type 2 Diabetes](../type-2-diabetes/README.md)** — The skin announces metabolic disease: acanthosis nigricans, diabetic dermopathy, recurrent skin infections and impaired wound healing make the integument an early and telling window onto type 2 diabetes.
 - `connects-to` → **[Iron-Deficiency Anemia](../iron-deficiency-anemia/README.md)** — Pallor and brittle nails betray low iron: the skin, nails and hair show iron deficiency through pallor, spoon-shaped koilonychia and hair loss, making the integument a visible readout of the body's iron stores.
+- `connects-to` → **[Digestive System](../digestive-system/README.md)** — The skin mirrors the gut and liver: a gut-skin axis links bowel disease to conditions like dermatitis herpetiformis and pyoderma gangrenosum, while liver failure shows as jaundice and malabsorption as hair and nail change.
+- `connects-to` → **[Renal System](../renal-system/README.md)** — Failing kidneys are written on the skin: chronic kidney disease causes intractable uraemic pruritus, a sallow complexion and calciphylaxis, and gadolinium in renal failure can trigger nephrogenic systemic fibrosis.
+- `connects-to` → **[Herpesviridae](../../../02-pathogen/01-viruses/herpesvirus/README.md)** — Herpesviruses erupt on the skin: HSV causes cold sores and genital lesions and can spread catastrophically across eczematous skin as eczema herpeticum, while VZV produces chickenpox and shingles.
 
 ## Pathology
 

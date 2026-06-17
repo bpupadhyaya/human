@@ -186,6 +186,15 @@ cross_links:
   - target: 01-human/07-system/osteoporosis
     relation: connects-to
     note: "A sedentary indoor life shortchanges bone: extreme gaming displaces weight-bearing activity and sunlight, and the inactivity, vitamin D deficiency and poor nutrition can blunt bone accrual during the formative years."
+  - target: 01-human/07-system/cardiovascular-system
+    relation: connects-to
+    note: "Marathon sessions can strain the heart and vessels: extreme prolonged immobility during gaming has caused fatal pulmonary embolism and sudden cardiac death, on top of the sedentary cardiovascular risk it builds over time."
+  - target: 01-human/07-system/endocrine-system
+    relation: connects-to
+    note: "Night-time gaming wrecks the body clock: late screen exposure suppresses melatonin and disrupts the circadian and cortisol rhythms, dysregulating the appetite and stress hormones that govern metabolism."
+  - target: 01-human/07-system/digestive-system
+    relation: connects-to
+    note: "It distorts how and what one eats: gaming displaces regular meals toward skipped or grazed junk food and energy drinks, and prolonged sitting and ignored urges promote constipation and reflux."
 sources:
   - id: kuss-2012-gaming-disorder-review
     type: peer-reviewed
@@ -416,6 +425,9 @@ A pattern of persistent or recurrent gaming behavior characterized by:
 - `connects-to` → **[Neuropathic Pain](../neuropathic-pain/README.md)** — Long hours at the controller strain the nerves: the repetitive thumb and wrist use of prolonged gaming causes overuse injuries and median-nerve compression, producing carpal-tunnel-type neuropathic pain.
 - `connects-to` → **[Migraine](../migraine/README.md)** — Screens, strain and lost sleep trigger headaches: extended gaming with eye strain, poor posture and sleep deprivation is a common precipitant of tension-type headache and migraine.
 - `connects-to` → **[Osteoporosis](../osteoporosis/README.md)** — A sedentary indoor life shortchanges bone: extreme gaming displaces weight-bearing activity and sunlight, and the inactivity, vitamin D deficiency and poor nutrition can blunt bone accrual during the formative years.
+- `connects-to` → **[Cardiovascular System](../cardiovascular-system/README.md)** — Marathon sessions can strain the heart and vessels: extreme prolonged immobility during gaming has caused fatal pulmonary embolism and sudden cardiac death, on top of the sedentary cardiovascular risk it builds over time.
+- `connects-to` → **[Endocrine System](../endocrine-system/README.md)** — Night-time gaming wrecks the body clock: late screen exposure suppresses melatonin and disrupts the circadian and cortisol rhythms, dysregulating the appetite and stress hormones that govern metabolism.
+- `connects-to` → **[Digestive System](../digestive-system/README.md)** — It distorts how and what one eats: gaming displaces regular meals toward skipped or grazed junk food and energy drinks, and prolonged sitting and ignored urges promote constipation and reflux.
 
 [^kuss-2012-gaming-disorder-review]: Kuss DJ, Griffiths MD. Internet gaming addiction: a systematic review of empirical research. *Int J Ment Health Addict.* 2012;10(2):278-296. [doi:10.1007/s11469-011-9318-5](https://doi.org/10.1007/s11469-011-9318-5)
 [^who-icd11-gaming-disorder]: World Health Organization. ICD-11: Gaming Disorder (6C51). Geneva: WHO; 2019. [icd.who.int](https://icd.who.int/browse/2025-01/mms/en#1448597234)
