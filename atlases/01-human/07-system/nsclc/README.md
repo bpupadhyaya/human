@@ -193,6 +193,15 @@ cross_links:
   - target: 01-human/07-system/anemia-of-chronic-disease
     relation: connects-to
     note: "Chronic disease and chemo wear down the blood: the inflammatory cytokines of NSCLC and its marrow-suppressing chemotherapy produce an anemia of chronic disease that worsens fatigue and breathlessness."
+  - target: 01-human/07-system/heart-failure
+    relation: connects-to
+    note: "Its chest radiation and immunotherapy can injure the heart: mediastinal radiation for NSCLC damages the myocardium and coronary vessels over time, and checkpoint inhibitors can trigger myocarditis, both routes toward heart failure."
+  - target: 01-human/07-system/major-depressive-disorder
+    relation: connects-to
+    note: "A lethal, stigmatized cancer weighs heavily on mood: NSCLC carries some of the highest depression rates in oncology, driven by poor prognosis, breathlessness, and the guilt and stigma often tied to smoking."
+  - target: 02-pathogen/03-fungi/aspergillus-fumigatus
+    relation: connects-to
+    note: "Cavitating tumor and immunosuppression let fungus in: post-obstructive collapse, necrotic cavities, and the steroids and chemotherapy used in NSCLC give inhaled Aspergillus a foothold for invasive or saprophytic disease in the damaged lung."
 ---
 
 # NSCLC
@@ -352,6 +361,9 @@ cross_links:
 - `connects-to` → **[NF-κB](../../03-molecular/nf-kb/README.md)** — Smoking inflames the lung toward cancer through NF-κB: cigarette carcinogens activate NF-κB in bronchial epithelium, driving the survival and inflammatory signaling that underlies much of NSCLC's carcinogenesis and treatment resistance.
 - `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — IL-6 feeds the tumor through STAT3: the inflamed NSCLC microenvironment activates STAT3, promoting proliferation and immune evasion, a pathway especially active in the KRAS-driven and inflamed tumors.
 - `connects-to` → **[Anemia of Chronic Disease](../anemia-of-chronic-disease/README.md)** — Chronic disease and chemo wear down the blood: the inflammatory cytokines of NSCLC and its marrow-suppressing chemotherapy produce an anemia of chronic disease that worsens fatigue and breathlessness.
+- `connects-to` → **[Heart Failure](../heart-failure/README.md)** — Its chest radiation and immunotherapy can injure the heart: mediastinal radiation for NSCLC damages the myocardium and coronary vessels over time, and checkpoint inhibitors can trigger myocarditis, both routes toward heart failure.
+- `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — A lethal, stigmatized cancer weighs heavily on mood: NSCLC carries some of the highest depression rates in oncology, driven by poor prognosis, breathlessness, and the guilt and stigma often tied to smoking.
+- `connects-to` → **[Aspergillus fumigatus](../../../02-pathogen/03-fungi/aspergillus-fumigatus/README.md)** — Cavitating tumor and immunosuppression let fungus in: post-obstructive collapse, necrotic cavities, and the steroids and chemotherapy used in NSCLC give inhaled Aspergillus a foothold for invasive or saprophytic disease in the damaged lung.
 
 [^soria-2018-osimertinib-flaura]: Soria JC, Ohe Y, Vansteenkiste J, et al. Osimertinib in untreated EGFR-mutated advanced non-small-cell lung cancer. *N Engl J Med.* 2018;378(2):113-125. [doi:10.1056/NEJMoa1713137](https://doi.org/10.1056/NEJMoa1713137) · [PubMed 29151359](https://pubmed.ncbi.nlm.nih.gov/29151359/)
 [^reck-2016-pembrolizumab-keynote024]: Reck M, Rodríguez-Abreu D, Robinson AG, et al. Pembrolizumab versus chemotherapy for PD-L1-positive non-small-cell lung cancer. *N Engl J Med.* 2016;375(19):1823-1833. [doi:10.1056/NEJMoa1606774](https://doi.org/10.1056/NEJMoa1606774) · [PubMed 27718347](https://pubmed.ncbi.nlm.nih.gov/27718347/)

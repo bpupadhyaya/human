@@ -187,6 +187,15 @@ cross_links:
   - target: 01-human/07-system/major-depressive-disorder
     relation: connects-to
     note: "The syndrome carries a psychosocial toll: short stature, distinctive features, learning differences and cardiac disease in Noonan contribute to elevated rates of depression and anxiety."
+  - target: 01-human/07-system/stroke
+    relation: connects-to
+    note: "Its heart disease can throw clots to the brain: the hypertrophic cardiomyopathy, valve disease and arrhythmias of Noonan create conditions for cardioembolism, raising the risk of embolic stroke."
+  - target: 01-human/07-system/ckd
+    relation: connects-to
+    note: "Congenital kidney anomalies set up later failure: Noonan frequently includes renal and urinary-tract malformations such as dysplasia or obstruction, which over years can progress toward chronic kidney disease."
+  - target: 01-human/07-system/sepsis
+    relation: connects-to
+    note: "Neonatal surgery and lymphatic dysplasia invite infection: early cardiac operations plus the lymphedema and chylous effusions of Noonan's lymphatic anomalies leave infants prone to severe infection and sepsis."
 ---
 
 # Noonan Syndrome
@@ -381,6 +390,9 @@ NS is characterized by four cardinal features: **(1) short stature** (below 3rd 
 - `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — SHP2 feeds JAK-STAT as well as RAS: the PTPN11/SHP2 mutations of Noonan amplify not only RAS-MAPK but STAT signaling, a crosstalk that contributes to its developmental features and leukemia predisposition.
 - `connects-to` → **[NF-κB](../../03-molecular/nf-kb/README.md)** — RAS-MAPK overdrive engages NF-κB: the constitutive RAS signaling of Noonan's RASopathy mutations activates NF-κB-linked survival and inflammatory pathways alongside the MAPK cascade.
 - `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — The syndrome carries a psychosocial toll: short stature, distinctive features, learning differences and cardiac disease in Noonan contribute to elevated rates of depression and anxiety.
+- `connects-to` → **[Stroke](../stroke/README.md)** — Its heart disease can throw clots to the brain: the hypertrophic cardiomyopathy, valve disease and arrhythmias of Noonan create conditions for cardioembolism, raising the risk of embolic stroke.
+- `connects-to` → **[Chronic Kidney Disease](../ckd/README.md)** — Congenital kidney anomalies set up later failure: Noonan frequently includes renal and urinary-tract malformations such as dysplasia or obstruction, which over years can progress toward chronic kidney disease.
+- `connects-to` → **[Sepsis](../sepsis/README.md)** — Neonatal surgery and lymphatic dysplasia invite infection: early cardiac operations plus the lymphedema and chylous effusions of Noonan's lymphatic anomalies leave infants prone to severe infection and sepsis.
 
 [^tartaglia-2001-ptpn11-noonan]: Tartaglia M, Mehler EL, Goldberg R, et al. Mutations in PTPN11, encoding the protein tyrosine phosphatase SHP-2, cause Noonan syndrome. *Nat Genet.* 2001;29(4):465-468. [doi:10.1038/ng772](https://doi.org/10.1038/ng772) · [PubMed 11704759](https://pubmed.ncbi.nlm.nih.gov/11704759/)
 [^van-der-burgt-2007-noonan-review]: van der Burgt I. Noonan syndrome. *Orphanet J Rare Dis.* 2007;2:4. [doi:10.1186/1750-1172-2-4](https://doi.org/10.1186/1750-1172-2-4) · [PubMed 17222357](https://pubmed.ncbi.nlm.nih.gov/17222357/)
