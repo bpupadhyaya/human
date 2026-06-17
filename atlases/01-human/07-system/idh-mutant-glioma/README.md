@@ -187,6 +187,15 @@ cross_links:
   - target: 01-human/07-system/sepsis
     relation: connects-to
     note: "Temozolomide opens an infection gap: the alkylating chemotherapy used in IDH-mutant glioma causes lymphopenia, predisposing to opportunistic infection including Pneumocystis pneumonia and to sepsis."
+  - target: 02-pathogen/03-fungi/pneumocystis-jirovecii
+    relation: connects-to
+    note: "Its therapy specifically courts it: temozolomide-induced lymphopenia plus the prolonged dexamethasone used for tumor edema set up Pneumocystis pneumonia, so prophylaxis is recommended during chemoradiation."
+  - target: 01-human/07-system/anemia-of-chronic-disease
+    relation: connects-to
+    note: "Chemo and chronic illness blunt the marrow: temozolomide myelosuppression plus the inflammatory burden of a long-standing glioma depress erythropoiesis, adding an anemia-of-chronic-disease component."
+  - target: 01-human/07-system/major-depressive-disorder
+    relation: connects-to
+    note: "A young-onset brain tumor weighs on mood: depression is common in IDH-mutant glioma, arising from tumor disruption of brain networks, corticosteroids and the burden of a slowly progressive, ultimately incurable cancer in young adults."
 ---
 
 # IDH-Mutant Glioma
@@ -375,6 +384,9 @@ IDH-mutant glioma with MGMT methylation shows strong alkylating agent sensitivit
 - `connects-to` → **[NLRP3 Inflammasome](../../03-molecular/nlrp3-inflammasome/README.md)** — Tumor-associated microglia stoke the inflammasome: NLRP3 activation in the glioma microenvironment releases IL-1β that shapes the immunosuppressive, pro-tumor inflammation even in these slower-growing IDH-mutant gliomas.
 - `connects-to` → **[Venous Thromboembolism](../venous-thromboembolism/README.md)** — Brain tumors clot the veins: like other gliomas, IDH-mutant tumors raise venous thromboembolism risk through tumor tissue factor and the immobility of neurological disease and surgery.
 - `connects-to` → **[Sepsis](../sepsis/README.md)** — Temozolomide opens an infection gap: the alkylating chemotherapy used in IDH-mutant glioma causes lymphopenia, predisposing to opportunistic infection including Pneumocystis pneumonia and to sepsis.
+- `connects-to` → **[Pneumocystis jirovecii](../../../02-pathogen/03-fungi/pneumocystis-jirovecii/README.md)** — Its therapy specifically courts it: temozolomide-induced lymphopenia plus the prolonged dexamethasone used for tumor edema set up Pneumocystis pneumonia, so prophylaxis is recommended during chemoradiation.
+- `connects-to` → **[Anemia of Chronic Disease](../anemia-of-chronic-disease/README.md)** — Chemo and chronic illness blunt the marrow: temozolomide myelosuppression plus the inflammatory burden of a long-standing glioma depress erythropoiesis, adding an anemia-of-chronic-disease component.
+- `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — A young-onset brain tumor weighs on mood: depression is common in IDH-mutant glioma, arising from tumor disruption of brain networks, corticosteroids and the burden of a slowly progressive, ultimately incurable cancer in young adults.
 
 [^mellinghoff-2023-vorasidenib-lgg]: Mellinghoff IK, van den Bent MJ, Blumenthal DT, et al. Vorasidenib in IDH1- or IDH2-mutant low-grade glioma. *N Engl J Med.* 2023;389(7):589-601. [doi:10.1056/NEJMoa2304194](https://doi.org/10.1056/NEJMoa2304194) · [PubMed 37272530](https://pubmed.ncbi.nlm.nih.gov/37272530/)
 [^jiao-2012-atrx-glioma]: Jiao Y, Killela PJ, Reitman ZJ, et al. Frequent ATRX, CIC, FUBP1 and IDH mutations refine the classification of malignant gliomas. *Oncotarget.* 2012;3(7):709-722. [doi:10.18632/oncotarget.588](https://doi.org/10.18632/oncotarget.588) · [PubMed 22869205](https://pubmed.ncbi.nlm.nih.gov/22869205/)

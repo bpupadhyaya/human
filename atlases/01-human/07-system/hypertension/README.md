@@ -187,6 +187,15 @@ cross_links:
   - target: 01-human/07-system/venous-thromboembolism
     relation: connects-to
     note: "It shares its soil with venous clots: hypertension clusters with the metabolic and vascular risk factors of venous thromboembolism, and the two are modestly associated beyond their common arterial disease."
+  - target: 01-human/07-system/renal-cell-carcinoma
+    relation: connects-to
+    note: "The link runs both ways with the kidney's cancer: hypertension is an established risk factor for renal cell carcinoma, while the tumor's renin secretion and renal damage in turn cause secondary hypertension."
+  - target: 01-human/07-system/parkinsons-disease
+    relation: connects-to
+    note: "Small-vessel damage muddies the movement disorder: midlife hypertension drives the cerebral small-vessel disease behind vascular parkinsonism, which mimics and worsens Parkinson's, and orthostatic swings complicate its management."
+  - target: 01-human/07-system/major-depressive-disorder
+    relation: connects-to
+    note: "Pressure and mood interact: depression is more common in hypertension and worsens adherence and outcomes, while chronic stress and some antihypertensives influence mood, a clinically important two-way link."
 ---
 
 # Hypertension
@@ -334,6 +343,9 @@ Blood pressure is determined by: BP = Cardiac Output × Peripheral Vascular Resi
 - `connects-to` → **[NF-κB](../../03-molecular/nf-kb/README.md)** — Angiotensin II inflames the vessel through NF-κB: it activates NF-κB in vascular and renal cells to drive the cytokines and oxidative stress that stiffen arteries, the inflammatory engine upstream of the NLRP3 arm of hypertension.
 - `connects-to` → **[Insomnia Disorder](../insomnia-disorder/README.md)** — Poor sleep pushes the pressure up: insomnia and short sleep raise sympathetic tone and blunt the normal nocturnal dip, and obstructive sleep apnea is a leading cause of resistant hypertension.
 - `connects-to` → **[Venous Thromboembolism](../venous-thromboembolism/README.md)** — It shares its soil with venous clots: hypertension clusters with the metabolic and vascular risk factors of venous thromboembolism, and the two are modestly associated beyond their common arterial disease.
+- `connects-to` → **[Renal Cell Carcinoma](../renal-cell-carcinoma/README.md)** — The link runs both ways with the kidney's cancer: hypertension is an established risk factor for renal cell carcinoma, while the tumor's renin secretion and renal damage in turn cause secondary hypertension.
+- `connects-to` → **[Parkinson's Disease](../parkinsons-disease/README.md)** — Small-vessel damage muddies the movement disorder: midlife hypertension drives the cerebral small-vessel disease behind vascular parkinsonism, which mimics and worsens Parkinson's, and orthostatic swings complicate its management.
+- `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — Pressure and mood interact: depression is more common in hypertension and worsens adherence and outcomes, while chronic stress and some antihypertensives influence mood, a clinically important two-way link.
 
 ## Pathology
 
