@@ -196,6 +196,15 @@ cross_links:
   - target: 01-human/07-system/major-depressive-disorder
     relation: connects-to
     note: "Premature aging and disfigurement weigh on mood: the early greying, cataracts, skin changes and the awareness of accelerated aging and cancer risk in Werner syndrome contribute to depression and impaired quality of life."
+  - target: 01-human/07-system/integumentary-system
+    relation: connects-to
+    note: "It ages and tightens the skin early: Werner syndrome produces sclerodermatous taut skin, premature greying and hair loss, subcutaneous atrophy and the intractable ankle ulcers that are diagnostic hallmarks."
+  - target: 01-human/07-system/endocrine-system
+    relation: connects-to
+    note: "It disturbs several endocrine axes at once: Werner syndrome characteristically brings insulin-resistant diabetes, hypogonadism with early menopause, and a raised rate of thyroid disease and cancer."
+  - target: 01-human/07-system/generalized-anxiety-disorder
+    relation: connects-to
+    note: "Accelerated aging and cancer risk breed worry: the visible premature ageing, multiple comorbidities and elevated malignancy risk of Werner syndrome foster chronic health anxiety alongside depression."
 ---
 
 # Werner Syndrome
@@ -418,6 +427,9 @@ cross_links:
 - `connects-to` → **[Acute Myeloid Leukemia](../aml/README.md)** — Its faulty DNA repair can tip into acute leukemia: beyond myelodysplasia, the genome instability of Werner syndrome raises the risk of acute myeloid leukemia, completing a myeloid-malignancy spectrum driven by WRN loss.
 - `connects-to` → **[Staphylococcus aureus](../../../02-pathogen/02-bacteria/staphylococcus-aureus/README.md)** — Its chronic ankle ulcers get colonized and infected: the intractable, slow-healing skin ulcers over the ankles and feet that typify Werner syndrome are readily invaded by Staphylococcus aureus, risking cellulitis and deep infection.
 - `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — Premature aging and disfigurement weigh on mood: the early greying, cataracts, skin changes and the awareness of accelerated aging and cancer risk in Werner syndrome contribute to depression and impaired quality of life.
+- `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — It ages and tightens the skin early: Werner syndrome produces sclerodermatous taut skin, premature greying and hair loss, subcutaneous atrophy and the intractable ankle ulcers that are diagnostic hallmarks.
+- `connects-to` → **[Endocrine System](../endocrine-system/README.md)** — It disturbs several endocrine axes at once: Werner syndrome characteristically brings insulin-resistant diabetes, hypogonadism with early menopause, and a raised rate of thyroid disease and cancer.
+- `connects-to` → **[Generalized Anxiety Disorder](../generalized-anxiety-disorder/README.md)** — Accelerated aging and cancer risk breed worry: the visible premature ageing, multiple comorbidities and elevated malignancy risk of Werner syndrome foster chronic health anxiety alongside depression.
 
 [^yu-1996-wrn]: Yu CE, Oshima J, Fu YH, et al. Positional cloning of the Werner's syndrome gene. *Science.* 1996;272(5259):258-262. [doi:10.1126/science.272.5259.258](https://doi.org/10.1126/science.272.5259.258) · [PubMed 8602509](https://pubmed.ncbi.nlm.nih.gov/8602509/)
 [^lauper-2013-wrn-neoplasia]: Lauper JM, Krause A, Vaughan TL, Monnat RJ Jr. Spectrum and risk of neoplasia in Werner syndrome: a systematic review. *PLoS One.* 2013;8(4):e59709. [doi:10.1371/journal.pone.0059709](https://doi.org/10.1371/journal.pone.0059709) · [PubMed 23579047](https://pubmed.ncbi.nlm.nih.gov/23579047/)

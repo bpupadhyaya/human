@@ -196,6 +196,15 @@ cross_links:
   - target: 01-human/07-system/major-depressive-disorder
     relation: connects-to
     note: "A cancer in early childhood weighs on families: the diagnosis in toddlers, major kidney surgery and prolonged treatment impose lasting psychological strain on survivors and their parents."
+  - target: 01-human/07-system/wound-healing
+    relation: connects-to
+    note: "Nephrectomy is major abdominal surgery in a small child: removing the kidney bearing a Wilms tumour, often after chemotherapy, leaves a large wound prone to slow healing in a young patient."
+  - target: 01-human/07-system/neuropathic-pain
+    relation: connects-to
+    note: "Vincristine numbs the nerves: the vincristine central to Wilms-tumour chemotherapy is reliably neurotoxic, causing a peripheral neuropathy with weakness, constipation and painful paraesthesiae."
+  - target: 01-human/07-system/generalized-anxiety-disorder
+    relation: connects-to
+    note: "A childhood cancer with long survivorship breeds worry: the major surgery, relapse risk and lifelong late-effect surveillance after Wilms tumour foster chronic anxiety in survivors and their families."
 ---
 
 # Wilms Tumor
@@ -384,6 +393,9 @@ Wilms tumor survivors face late effects proportional to treatment intensity:
 - `connects-to` → **[Aspergillus fumigatus](../../../02-pathogen/03-fungi/aspergillus-fumigatus/README.md)** — Its chemotherapy opens the lung to mold: the neutropenia from the vincristine-actinomycin-doxorubicin regimens for Wilms tumor lets inhaled Aspergillus invade as pulmonary aspergillosis in these young children.
 - `connects-to` → **[Osteoporosis](../osteoporosis/README.md)** — Childhood radiation and chemo stunt bone accrual: abdominal radiotherapy and cytotoxic treatment for Wilms tumor impair the bone mineral that should build during childhood, leaving reduced bone density in survivors.
 - `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — A cancer in early childhood weighs on families: the diagnosis in toddlers, major kidney surgery and prolonged treatment impose lasting psychological strain on survivors and their parents.
+- `connects-to` → **[Wound Healing](../wound-healing/README.md)** — Nephrectomy is major abdominal surgery in a small child: removing the kidney bearing a Wilms tumour, often after chemotherapy, leaves a large wound prone to slow healing in a young patient.
+- `connects-to` → **[Neuropathic Pain](../neuropathic-pain/README.md)** — Vincristine numbs the nerves: the vincristine central to Wilms-tumour chemotherapy is reliably neurotoxic, causing a peripheral neuropathy with weakness, constipation and painful paraesthesiae.
+- `connects-to` → **[Generalized Anxiety Disorder](../generalized-anxiety-disorder/README.md)** — A childhood cancer with long survivorship breeds worry: the major surgery, relapse risk and lifelong late-effect surveillance after Wilms tumour foster chronic anxiety in survivors and their families.
 
 [^dome-2015-wilms]: Dome JS, Graf N, Geller JI, et al. Advances in Wilms tumor treatment and biology: progress through international collaboration. *J Clin Oncol.* 2015;33(27):2999-3007. [doi:10.1200/JCO.2015.62.1888](https://doi.org/10.1200/JCO.2015.62.1888) · [PubMed 26261251](https://pubmed.ncbi.nlm.nih.gov/26261251/)
 [^dix-2006-arenl0002]: Dix DB, Bhatt SM, Geller JI, et al. Treatment of Stage IV favorable histology Wilms tumor with incomplete lung metastasis response after chemotherapy: a report from Children's Oncology Group Study AREN0533. *J Clin Oncol.* 2018;36(16):1564-1570. [doi:10.1200/JCO.2017.77.1877](https://doi.org/10.1200/JCO.2017.77.1877) · [PubMed 29584550](https://pubmed.ncbi.nlm.nih.gov/29584550/)
