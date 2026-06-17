@@ -196,6 +196,15 @@ cross_links:
   - target: 01-human/07-system/type-2-diabetes
     relation: connects-to
     note: "Androgen prophylaxis skews metabolism: the weight gain, dyslipidemia and insulin resistance from long-term attenuated androgens like danazol push HAE patients toward type 2 diabetes, part of why safer therapies are preferred."
+  - target: 01-human/07-system/atherosclerosis
+    relation: connects-to
+    note: "Its androgen prophylaxis worsens the arteries: long-term danazol lowers HDL and raises LDL, and this drug-induced dyslipidemia accelerates atherosclerosis, another reason attenuated androgens are now second-line in HAE."
+  - target: 01-human/07-system/ptsd
+    relation: connects-to
+    note: "Near-fatal swelling can traumatize: surviving laryngeal attacks that threaten suffocation, sometimes with emergency airway procedures, can leave HAE patients with post-traumatic stress on top of their anxiety."
+  - target: 01-human/07-system/sepsis
+    relation: connects-to
+    note: "Its attacks invite risky intervention: laryngeal swelling can force emergency intubation or surgical airways, and abdominal attacks mimicking a surgical abdomen can lead to unnecessary operations, each carrying infection and sepsis risk."
 ---
 
 # Hereditary Angioedema
@@ -390,6 +399,9 @@ Fluid extravasation → ANGIOEDEMA
 - `connects-to` → **[Hepatocellular Carcinoma](../hcc/README.md)** — Its old prophylactic drug can grow liver tumors: long-term attenuated androgens like danazol, once a mainstay of HAE prevention, cause hepatic adenomas that can transform, a reason these agents are now used cautiously.
 - `connects-to` → **[Venous Thromboembolism](../venous-thromboembolism/README.md)** — Both the disease's treatments raise clot risk: attenuated androgens used for prophylaxis and C1-inhibitor concentrate given for attacks each carry a recognized thrombotic risk, so venous thromboembolism is a treatment hazard in HAE.
 - `connects-to` → **[Type 2 Diabetes](../type-2-diabetes/README.md)** — Androgen prophylaxis skews metabolism: the weight gain, dyslipidemia and insulin resistance from long-term attenuated androgens like danazol push HAE patients toward type 2 diabetes, part of why safer therapies are preferred.
+- `connects-to` → **[Atherosclerosis](../atherosclerosis/README.md)** — Its androgen prophylaxis worsens the arteries: long-term danazol lowers HDL and raises LDL, and this drug-induced dyslipidemia accelerates atherosclerosis, another reason attenuated androgens are now second-line in HAE.
+- `connects-to` → **[PTSD](../ptsd/README.md)** — Near-fatal swelling can traumatize: surviving laryngeal attacks that threaten suffocation, sometimes with emergency airway procedures, can leave HAE patients with post-traumatic stress on top of their anxiety.
+- `connects-to` → **[Sepsis](../sepsis/README.md)** — Its attacks invite risky intervention: laryngeal swelling can force emergency intubation or surgical airways, and abdominal attacks mimicking a surgical abdomen can lead to unnecessary operations, each carrying infection and sepsis risk.
 
 [^cicardi-2010-icatibant-nejm]: Cicardi M, Banerji A, Bracho F, et al. Icatibant, a new bradykinin-receptor antagonist, in hereditary angioedema. *N Engl J Med.* 2010;363(6):532-541. [doi:10.1056/NEJMoa0906393](https://doi.org/10.1056/NEJMoa0906393) · [PubMed 20818873](https://pubmed.ncbi.nlm.nih.gov/20818873/)
 [^maurer-2018-lanadelumab-help]: Banerji A, Riedl MA, Bernstein JA, et al. Effect of lanadelumab compared with placebo on prevention of hereditary angioedema attacks. *JAMA.* 2018;320(20):2108-2121. [doi:10.1001/jama.2018.16773](https://doi.org/10.1001/jama.2018.16773) · [PubMed 30480729](https://pubmed.ncbi.nlm.nih.gov/30480729/)

@@ -196,6 +196,15 @@ cross_links:
   - target: 01-human/07-system/gastric-cancer
     relation: connects-to
     note: "It compounds Trousseau's syndrome: gastric adenocarcinoma classically causes migratory thrombophlebitis through tumor procoagulants, and a coexisting inherited thrombophilia magnifies the already high cancer-associated clotting risk."
+  - target: 01-human/07-system/wound-healing
+    relation: connects-to
+    note: "Recurrent leg clots leave chronic ulcers: deep vein thromboses in thrombophilia damage venous valves, and the resulting post-thrombotic syndrome and chronic venous insufficiency produce slow-healing venous leg ulcers."
+  - target: 01-human/07-system/osteoporosis
+    relation: connects-to
+    note: "Long anticoagulation can cost bone: the prolonged heparin used in thrombophilic pregnancies and during recurrent clotting lowers bone density, a recognized cause of treatment-related osteoporosis."
+  - target: 01-human/07-system/major-depressive-disorder
+    relation: connects-to
+    note: "Lifelong clot risk and anticoagulation weigh on mood: recurrent thrombotic events, pregnancy loss and the burden of indefinite blood thinners contribute to depression in inherited thrombophilia."
 ---
 
 # Inherited Thrombophilia
@@ -414,6 +423,9 @@ Antithrombin (ATIII) is the primary plasma inhibitor of thrombin, FXa, FIXa, and
 - `connects-to` → **[Heart Failure](../heart-failure/README.md)** — It threatens the failing heart's chambers and veins: low-flow stasis in heart failure plus an inherited clotting tendency raises the risk of intracardiac thrombus and venous thromboembolism, complicating an already congested circulation.
 - `connects-to` → **[Ovarian Cancer](../ovarian-cancer/README.md)** — An unprovoked clot can unmask hidden cancer: ovarian and other adenocarcinomas are themselves prothrombotic, and a venous thrombosis in someone with inherited thrombophilia can be the event that prompts the workup uncovering an occult tumor.
 - `connects-to` → **[Gastric Cancer](../gastric-cancer/README.md)** — It compounds Trousseau's syndrome: gastric adenocarcinoma classically causes migratory thrombophlebitis through tumor procoagulants, and a coexisting inherited thrombophilia magnifies the already high cancer-associated clotting risk.
+- `connects-to` → **[Wound Healing](../wound-healing/README.md)** — Recurrent leg clots leave chronic ulcers: deep vein thromboses in thrombophilia damage venous valves, and the resulting post-thrombotic syndrome and chronic venous insufficiency produce slow-healing venous leg ulcers.
+- `connects-to` → **[Osteoporosis](../osteoporosis/README.md)** — Long anticoagulation can cost bone: the prolonged heparin used in thrombophilic pregnancies and during recurrent clotting lowers bone density, a recognized cause of treatment-related osteoporosis.
+- `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — Lifelong clot risk and anticoagulation weigh on mood: recurrent thrombotic events, pregnancy loss and the burden of indefinite blood thinners contribute to depression in inherited thrombophilia.
 
 [^bertina-1994-factor-v-leiden]: Bertina RM, Koeleman BP, Koster T, et al. Mutation in blood coagulation factor V associated with resistance to activated protein C. *Nature.* 1994;369(6475):64-67. [doi:10.1038/369064a0](https://doi.org/10.1038/369064a0) · [PubMed 8164741](https://pubmed.ncbi.nlm.nih.gov/8164741/)
 [^dahlback-2008-protein-c-review]: Dahlbäck B. Advances in understanding pathogenic mechanisms of thrombophilic disorders. *Blood.* 2008;112(1):19-27. [doi:10.1182/blood-2008-01-077909](https://doi.org/10.1182/blood-2008-01-077909) · [PubMed 18574048](https://pubmed.ncbi.nlm.nih.gov/18574048/)
