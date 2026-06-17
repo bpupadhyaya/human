@@ -181,6 +181,15 @@ cross_links:
   - target: 01-human/07-system/systemic-lupus-erythematosus
     relation: connects-to
     note: "Autoimmunity often lands on the kidney: lupus nephritis, where immune complexes inflame the glomeruli, is among the most serious manifestations of SLE and a leading reason the disease becomes life-threatening."
+  - target: 01-human/07-system/wilms-tumor
+    relation: connects-to
+    note: "The developing kidney can spawn a cancer: Wilms tumor (nephroblastoma) arises from embryonic renal precursor cells, the most common kidney cancer of childhood and the pediatric counterpart to adult renal cell carcinoma."
+  - target: 01-human/07-system/sepsis
+    relation: connects-to
+    note: "The kidney is both a source and a casualty of sepsis: urinary infection ascending to pyelonephritis can seed urosepsis, while severe sepsis in turn starves the kidneys into acute kidney injury."
+  - target: 01-human/07-system/venous-thromboembolism
+    relation: connects-to
+    note: "Leaky kidneys clot the blood: nephrotic syndrome spills anticoagulant proteins into the urine, leaving a hypercoagulable state prone to renal vein thrombosis and pulmonary embolism."
 taxonomy:
   uberon: "UBERON:0001008"
 ---
@@ -330,6 +339,9 @@ Natriuretic counterpoint:
 - **Connects to:** [SGLT2](../../03-molecular/sglt2/README.md) — the proximal tubule reclaims the body's sugar: SGLT2 there reabsorbs nearly all filtered glucose, and blocking it spills glucose into the urine — drugs that lower sugar while unexpectedly protecting the kidney and heart.
 - **Connects to:** [Fibroblast](../../04-cellular/fibroblast/README.md) — one kidney cell wears two hats: peritubular fibroblasts make the erythropoietin that drives red-cell production, yet when injured they transform into myofibroblasts that lay down the scar of chronic kidney disease.
 - **Connects to:** [Systemic Lupus Erythematosus](../systemic-lupus-erythematosus/README.md) — autoimmunity often lands on the kidney: lupus nephritis, where immune complexes inflame the glomeruli, is among the most serious manifestations of SLE and a leading reason the disease becomes life-threatening.
+- **Connects to:** [Wilms Tumor](../wilms-tumor/README.md) — the developing kidney can spawn a cancer: Wilms tumor (nephroblastoma) arises from embryonic renal precursor cells, the most common kidney cancer of childhood and the pediatric counterpart to adult renal cell carcinoma.
+- **Connects to:** [Sepsis](../sepsis/README.md) — the kidney is both a source and a casualty of sepsis: urinary infection ascending to pyelonephritis can seed urosepsis, while severe sepsis in turn starves the kidneys into acute kidney injury.
+- **Connects to:** [Venous Thromboembolism](../venous-thromboembolism/README.md) — leaky kidneys clot the blood: nephrotic syndrome spills anticoagulant proteins into the urine, leaving a hypercoagulable state prone to renal vein thrombosis and pulmonary embolism.
 - **Treated by:** ACE inhibitors — renoprotection in CKD.
 - **Treated by:** Loop diuretics — fluid management.
 
