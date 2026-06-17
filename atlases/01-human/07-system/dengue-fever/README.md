@@ -187,6 +187,15 @@ cross_links:
   - target: 01-human/07-system/ckd
     relation: connects-to
     note: "Shock and muscle breakdown injure the kidneys: dengue causes acute kidney injury through hypotension, hemolysis and rhabdomyolysis, and severe or repeated episodes can leave lasting chronic kidney disease."
+  - target: 01-human/07-system/stroke
+    relation: connects-to
+    note: "It can strike the brain both ways: dengue is associated with both hemorrhagic stroke from severe thrombocytopenia and ischemic stroke from its vasculopathy and shock, a recognized neurological complication."
+  - target: 01-human/07-system/venous-thromboembolism
+    relation: connects-to
+    note: "Despite the bleeding, it can also clot: the endothelial activation and immobilization of severe dengue, with its DIC physiology, can paradoxically cause venous thromboembolism alongside the hemorrhagic risk."
+  - target: 01-human/07-system/major-depressive-disorder
+    relation: connects-to
+    note: "Recovery carries a long tail of fatigue and low mood: post-dengue syndrome brings prolonged fatigue, malaise and depression for weeks to months after the acute illness resolves."
 ---
 
 # Dengue Fever
@@ -355,3 +364,6 @@ No approved antiviral therapy for dengue. Management is entirely supportive:
 - `connects-to` → **[NF-κB](../../03-molecular/nf-kb/README.md)** — The virus throws the inflammatory switch that leaks the vessels: dengue activates NF-κB in infected and immune cells, driving the cytokine surge that makes capillaries leak plasma — the core of dengue hemorrhagic fever and shock.
 - `connects-to` → **[Guillain-Barré Syndrome](../../05-tissue/guillain-barre/README.md)** — It can misdirect immunity onto the nerves: dengue is among the infections that trigger Guillain-Barré syndrome, an autoimmune attack on peripheral nerve myelin causing ascending weakness in the weeks after the fever.
 - `connects-to` → **[Chronic Kidney Disease](../ckd/README.md)** — Shock and muscle breakdown injure the kidneys: dengue causes acute kidney injury through hypotension, hemolysis and rhabdomyolysis, and severe or repeated episodes can leave lasting chronic kidney disease.
+- `connects-to` → **[Stroke](../stroke/README.md)** — It can strike the brain both ways: dengue is associated with both hemorrhagic stroke from severe thrombocytopenia and ischemic stroke from its vasculopathy and shock, a recognized neurological complication.
+- `connects-to` → **[Venous Thromboembolism](../venous-thromboembolism/README.md)** — Despite the bleeding, it can also clot: the endothelial activation and immobilization of severe dengue, with its DIC physiology, can paradoxically cause venous thromboembolism alongside the hemorrhagic risk.
+- `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — Recovery carries a long tail of fatigue and low mood: post-dengue syndrome brings prolonged fatigue, malaise and depression for weeks to months after the acute illness resolves.

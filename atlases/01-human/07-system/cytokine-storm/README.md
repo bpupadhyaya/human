@@ -187,6 +187,15 @@ cross_links:
   - target: 01-human/07-system/venous-thromboembolism
     relation: connects-to
     note: "Hyperinflammation clots the veins: the storm's endothelial activation and immunothrombosis sharply raise the risk of deep-vein thrombosis and pulmonary embolism, beyond the microthrombi of overt DIC."
+  - target: 01-human/07-system/multiple-myeloma
+    relation: connects-to
+    note: "Its cellular therapy can ignite the storm: the CAR-T-cell and bispecific-antibody treatments for multiple myeloma and other blood cancers commonly trigger cytokine release syndrome, the iatrogenic face of a cytokine storm."
+  - target: 01-human/07-system/heart-failure
+    relation: connects-to
+    note: "The flood of cytokines stuns the heart: TNF-α, IL-6 and nitric oxide depress myocardial contractility during a cytokine storm, causing an acute, often reversible cardiac dysfunction that worsens the shock."
+  - target: 01-human/07-system/stroke
+    relation: connects-to
+    note: "Hyperinflammation can strike the brain: endothelial injury, immunothrombosis and the profound hemodynamic swings of a cytokine storm can cause ischemic stroke amid its multiorgan assault."
 ---
 
 # Cytokine Storm
@@ -334,6 +343,9 @@ CS drives a **consumptive coagulopathy (DIC)**:
 - `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — IL-6 drives the storm through STAT3: the flood of IL-6 signals via STAT3 to amplify the inflammatory cascade, which is why the IL-6 blocker tocilizumab and JAK-STAT inhibitors can quell a cytokine storm.
 - `connects-to` → **[Chronic Kidney Disease](../ckd/README.md)** — The storm starves the kidneys: hypotension, microthrombi and direct cytokine injury cause acute kidney injury during a cytokine storm, and survivors of severe multiorgan involvement can be left with chronic kidney disease.
 - `connects-to` → **[Venous Thromboembolism](../venous-thromboembolism/README.md)** — Hyperinflammation clots the veins: the storm's endothelial activation and immunothrombosis sharply raise the risk of deep-vein thrombosis and pulmonary embolism, beyond the microthrombi of overt DIC.
+- `connects-to` → **[Multiple Myeloma](../multiple-myeloma/README.md)** — Its cellular therapy can ignite the storm: the CAR-T-cell and bispecific-antibody treatments for multiple myeloma and other blood cancers commonly trigger cytokine release syndrome, the iatrogenic face of a cytokine storm.
+- `connects-to` → **[Heart Failure](../heart-failure/README.md)** — The flood of cytokines stuns the heart: TNF-α, IL-6 and nitric oxide depress myocardial contractility during a cytokine storm, causing an acute, often reversible cardiac dysfunction that worsens the shock.
+- `connects-to` → **[Stroke](../stroke/README.md)** — Hyperinflammation can strike the brain: endothelial injury, immunothrombosis and the profound hemodynamic swings of a cytokine storm can cause ischemic stroke amid its multiorgan assault.
 
 ## Pathology
 
