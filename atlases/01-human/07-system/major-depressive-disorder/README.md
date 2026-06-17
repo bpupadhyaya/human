@@ -187,6 +187,15 @@ cross_links:
   - target: 01-human/07-system/ptsd
     relation: connects-to
     note: "Trauma sets the stage for depression: PTSD greatly raises the risk of comorbid major depression, the two sharing HPA-axis dysregulation and overlapping symptoms that complicate diagnosis and worsen prognosis."
+  - target: 01-human/03-molecular/nf-kb
+    relation: connects-to
+    note: "Depression smolders with inflammation through NF-κB: psychological stress activates NF-κB-driven cytokine signaling, the inflammatory hypothesis of depression that links it to its raised cardiovascular and metabolic risk."
+  - target: 01-human/07-system/atherosclerosis
+    relation: connects-to
+    note: "A mood disorder that hardens the arteries: depression is an independent risk factor for and consequence of cardiovascular disease, its inflammation, autonomic strain and behavioral effects accelerating atherosclerosis."
+  - target: 01-human/07-system/venous-thromboembolism
+    relation: connects-to
+    note: "Low mood tips the blood toward clots: depression is associated with a higher risk of venous thromboembolism, through inflammation, platelet activation and the inactivity that accompanies severe episodes."
 ---
 
 # Major Depressive Disorder
@@ -400,6 +409,9 @@ Approximately 30–40% of MDD patients have elevated inflammatory markers:
 - `connects-to` → **[Type 2 Diabetes](../type-2-diabetes/README.md)** — Depression and diabetes feed each other: depression raises diabetes risk through inactivity, cortisol, and inflammation, while the burden of diabetes deepens depression — a bidirectional loop that worsens control and outcomes in both.
 - `connects-to` → **[Generalized Anxiety Disorder](../generalized-anxiety-disorder/README.md)** — Anxiety is depression's constant companion: generalized anxiety disorder co-occurs with major depression in a large share of patients, the mixed anxiety-depression that shares serotonergic biology and responds to overlapping treatments.
 - `connects-to` → **[PTSD](../ptsd/README.md)** — Trauma sets the stage for depression: PTSD greatly raises the risk of comorbid major depression, the two sharing HPA-axis dysregulation and overlapping symptoms that complicate diagnosis and worsen prognosis.
+- `connects-to` → **[NF-κB](../../03-molecular/nf-kb/README.md)** — Depression smolders with inflammation through NF-κB: psychological stress activates NF-κB-driven cytokine signaling, the inflammatory hypothesis of depression that links it to its raised cardiovascular and metabolic risk.
+- `connects-to` → **[Atherosclerosis](../atherosclerosis/README.md)** — A mood disorder that hardens the arteries: depression is an independent risk factor for and consequence of cardiovascular disease, its inflammation, autonomic strain and behavioral effects accelerating atherosclerosis.
+- `connects-to` → **[Venous Thromboembolism](../venous-thromboembolism/README.md)** — Low mood tips the blood toward clots: depression is associated with a higher risk of venous thromboembolism, through inflammation, platelet activation and the inactivity that accompanies severe episodes.
 
 [^cipriani-2018-antidepressants-meta]: Cipriani A, Furukawa TA, Salanti G, et al. Comparative efficacy and acceptability of 21 antidepressant drugs for acute treatment of adults with major depressive disorder. *Lancet.* 2018;391(10128):1357-1366. [doi:10.1016/S0140-6736(17)32802-7](https://doi.org/10.1016/S0140-6736(17)32802-7) · [PubMed 29477251](https://pubmed.ncbi.nlm.nih.gov/29477251/)
 [^zarate-2006-ketamine-rapid]: Zarate CA Jr, Singh JB, Carlson PJ, et al. A randomized trial of an N-methyl-D-aspartate antagonist in treatment-resistant major depression. *Arch Gen Psychiatry.* 2006;63(8):856-864. [doi:10.1001/archpsyc.63.8.856](https://doi.org/10.1001/archpsyc.63.8.856) · [PubMed 16894061](https://pubmed.ncbi.nlm.nih.gov/16894061/)
