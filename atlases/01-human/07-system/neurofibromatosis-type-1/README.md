@@ -178,6 +178,15 @@ cross_links:
   - target: 01-human/07-system/neuropathic-pain
     relation: connects-to
     note: "The nerve tumors hurt: plexiform and spinal neurofibromas compress and infiltrate nerves, producing chronic neuropathic pain that is one of the most disabling everyday symptoms of NF1."
+  - target: 01-human/03-molecular/nf-kb
+    relation: connects-to
+    note: "Loss of neurofibromin routes RAS into NF-κB: with the RAS brake gone, NF1 cells engage NF-κB-driven survival and inflammatory signaling among the pathways feeding their many tumors."
+  - target: 01-human/07-system/major-depressive-disorder
+    relation: connects-to
+    note: "A visible lifelong disease weighs on the mind: NF1's disfiguring tumors, pain and learning difficulties drive high rates of depression, part of the substantial psychosocial burden of the syndrome."
+  - target: 01-human/07-system/venous-thromboembolism
+    relation: connects-to
+    note: "Its vasculopathy and surgery raise clot risk: NF1 arteriopathy plus the major operations to debulk plexiform tumors predispose to venous thromboembolism alongside the disease's better-known arterial disease."
 ---
 
 # Neurofibromatosis Type 1
@@ -344,6 +353,9 @@ In glioma and MPNST: additional alterations required — MPNST requires CDKN2A/2
 - `connects-to` → **[Epilepsy](../epilepsy/README.md)** — NF1 brains spark seizures: cortical malformations, gliomas, and the disease's own neuronal effects make epilepsy more common in NF1 than the general population, adding to its neurological burden.
 - `connects-to` → **[CDKN2A](../../03-molecular/cdkn2a/README.md)** — A second hit turns a benign tumor deadly: CDKN2A loss is a key step when a plexiform neurofibroma transforms into MPNST, the malignant change that is the leading cause of death in NF1.
 - `connects-to` → **[Neuropathic Pain](../neuropathic-pain/README.md)** — The nerve tumors hurt: plexiform and spinal neurofibromas compress and infiltrate nerves, producing chronic neuropathic pain that is one of the most disabling everyday symptoms of NF1.
+- `connects-to` → **[NF-κB](../../03-molecular/nf-kb/README.md)** — Loss of neurofibromin routes RAS into NF-κB: with the RAS brake gone, NF1 cells engage NF-κB-driven survival and inflammatory signaling among the pathways feeding their many tumors.
+- `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — A visible lifelong disease weighs on the mind: NF1's disfiguring tumors, pain and learning difficulties drive high rates of depression, part of the substantial psychosocial burden of the syndrome.
+- `connects-to` → **[Venous Thromboembolism](../venous-thromboembolism/README.md)** — Its vasculopathy and surgery raise clot risk: NF1 arteriopathy plus the major operations to debulk plexiform tumors predispose to venous thromboembolism alongside the disease's better-known arterial disease.
 
 [^gutmann-2017-nf1-primer]: Gutmann DH, Ferner RE, Listernick RH, et al. Neurofibromatosis type 1. *Nat Rev Dis Primers.* 2017;3:17004. [doi:10.1038/nrdp.2017.4](https://doi.org/10.1038/nrdp.2017.4) · [PubMed 28230061](https://pubmed.ncbi.nlm.nih.gov/28230061/)
 [^dombi-2016-selumetinib]: Dombi E, Baldwin A, Marcus LJ, et al. Activity of Selumetinib in Neurofibromatosis Type 1-Related Plexiform Neurofibromas. *N Engl J Med.* 2016;375(26):2550-2560. [doi:10.1056/NEJMoa1605943](https://doi.org/10.1056/NEJMoa1605943) · [PubMed 28029918](https://pubmed.ncbi.nlm.nih.gov/28029918/)

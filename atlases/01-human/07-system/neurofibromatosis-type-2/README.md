@@ -178,6 +178,15 @@ cross_links:
   - target: 01-human/07-system/neuropathic-pain
     relation: connects-to
     note: "Schwannomas on the nerves bring chronic pain: spinal and peripheral schwannomas in NF2 compress and irritate nerve roots, making neuropathic pain a major symptom alongside the hearing loss."
+  - target: 01-human/03-molecular/nf-kb
+    relation: connects-to
+    note: "Merlin normally restrains NF-κB: its loss in NF2 lifts that brake, engaging NF-κB-driven survival and inflammatory signaling that supports the schwannomas and meningiomas of the syndrome."
+  - target: 01-human/03-molecular/stat3
+    relation: connects-to
+    note: "Merlin loss activates STAT3: NF2-deficient schwannoma and meningioma cells show STAT3 signaling that backs their growth, one of the pathways downstream of the lost tumor suppressor."
+  - target: 01-human/07-system/sepsis
+    relation: connects-to
+    note: "Repeated CNS surgery carries infectious risk: NF2 patients undergo many operations for vestibular schwannomas and meningiomas over a lifetime, and these craniotomies can be complicated by meningitis and sepsis."
 ---
 
 # Neurofibromatosis Type 2
@@ -351,6 +360,9 @@ Merlin has an N-terminal FERM domain (α, β, γ lobes) that binds membrane lipi
 - `connects-to` → **[SMARCB1](../../03-molecular/smarcb1/README.md)** — It anchors the schwannoma-predisposition spectrum: SMARCB1 (with LZTR1) causes schwannomatosis that overlaps NF2 clinically, so molecular testing distinguishes NF2 from these related multiple-schwannoma syndromes.
 - `connects-to` → **[LZTR1](../../03-molecular/lztr1/README.md)** — LZTR1 marks the NF2 mimic: germline LZTR1 mutations cause a schwannomatosis that produces multiple schwannomas without the vestibular tumors of true NF2, a key genetic distinction in the differential.
 - `connects-to` → **[Neuropathic Pain](../neuropathic-pain/README.md)** — Schwannomas on the nerves bring chronic pain: spinal and peripheral schwannomas in NF2 compress and irritate nerve roots, making neuropathic pain a major symptom alongside the hearing loss.
+- `connects-to` → **[NF-κB](../../03-molecular/nf-kb/README.md)** — Merlin normally restrains NF-κB: its loss in NF2 lifts that brake, engaging NF-κB-driven survival and inflammatory signaling that supports the schwannomas and meningiomas of the syndrome.
+- `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — Merlin loss activates STAT3: NF2-deficient schwannoma and meningioma cells show STAT3 signaling that backs their growth, one of the pathways downstream of the lost tumor suppressor.
+- `connects-to` → **[Sepsis](../sepsis/README.md)** — Repeated CNS surgery carries infectious risk: NF2 patients undergo many operations for vestibular schwannomas and meningiomas over a lifetime, and these craniotomies can be complicated by meningitis and sepsis.
 
 [^asthagiri-2009-nf2-lancet]: Asthagiri AR, Parry DM, Butman JA, et al. Neurofibromatosis type 2. *Lancet.* 2009;373(9679):1974-1986. [doi:10.1016/S0140-6736(09)60259-2](https://doi.org/10.1016/S0140-6736(09)60259-2) · [PubMed 19476995](https://pubmed.ncbi.nlm.nih.gov/19476995/)
 [^plotkin-2009-nf2-bevacizumab]: Plotkin SR, Stemmer-Rachamimov AO, Barker FG 2nd, et al. Hearing improvement after bevacizumab in patients with neurofibromatosis type 2. *N Engl J Med.* 2009;361(4):358-367. [doi:10.1056/NEJMoa0902579](https://doi.org/10.1056/NEJMoa0902579) · [PubMed 19587327](https://pubmed.ncbi.nlm.nih.gov/19587327/)
