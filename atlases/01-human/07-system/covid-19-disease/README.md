@@ -205,6 +205,15 @@ cross_links:
   - target: 01-human/07-system/ptsd
     relation: connects-to
     note: "Critical illness leaves psychological scars: survivors of severe COVID, especially ICU and ventilator patients, develop post-traumatic stress as part of the post-intensive-care and long-COVID burden."
+  - target: 01-human/07-system/immune-system
+    relation: connects-to
+    note: "It dysregulates immunity in both directions: severe COVID drives a hyperinflammatory cytokine surge yet also causes lymphopenia, and in children the post-infectious MIS-C is a striking immune complication."
+  - target: 01-human/07-system/nervous-system
+    relation: connects-to
+    note: "The virus reaches the nervous system: COVID causes anosmia, encephalopathy and the brain fog of long COVID, and is linked to Guillain-Barré syndrome and a raised stroke risk."
+  - target: 01-human/07-system/generalized-anxiety-disorder
+    relation: connects-to
+    note: "Both infection and pandemic breed worry: long-COVID symptoms, the dread of severe illness and the upheaval of the pandemic fuelled a marked rise in anxiety alongside the depression and PTSD it left."
 ---
 
 # COVID-19 Disease
@@ -332,6 +341,9 @@ Symptoms persisting >4 weeks: fatigue (most common), cognitive impairment ("brai
 - `connects-to` → **[Heart Failure](../heart-failure/README.md)** — It can inflame and weaken the heart: SARS-CoV-2 causes myocarditis and direct cardiac injury, and severe COVID's hypoxia and cytokine storm strain the myocardium, leaving some patients with new heart failure.
 - `connects-to` → **[Pulmonary Arterial Hypertension](../pulmonary-arterial-hypertension/README.md)** — Lung and clot damage can pressurize the pulmonary arteries: severe COVID's diffuse lung injury, fibrosis and pulmonary emboli can raise pulmonary vascular resistance, leaving chronic thromboembolic or post-inflammatory pulmonary hypertension.
 - `connects-to` → **[PTSD](../ptsd/README.md)** — Critical illness leaves psychological scars: survivors of severe COVID, especially ICU and ventilator patients, develop post-traumatic stress as part of the post-intensive-care and long-COVID burden.
+- `connects-to` → **[Immune System](../immune-system/README.md)** — It dysregulates immunity in both directions: severe COVID drives a hyperinflammatory cytokine surge yet also causes lymphopenia, and in children the post-infectious MIS-C is a striking immune complication.
+- `connects-to` → **[Nervous System](../nervous-system/README.md)** — The virus reaches the nervous system: COVID causes anosmia, encephalopathy and the brain fog of long COVID, and is linked to Guillain-Barré syndrome and a raised stroke risk.
+- `connects-to` → **[Generalized Anxiety Disorder](../generalized-anxiety-disorder/README.md)** — Both infection and pandemic breed worry: long-COVID symptoms, the dread of severe illness and the upheaval of the pandemic fuelled a marked rise in anxiety alongside the depression and PTSD it left.
 
 ## Pathology
 

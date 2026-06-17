@@ -205,6 +205,15 @@ cross_links:
   - target: 01-human/07-system/major-depressive-disorder
     relation: connects-to
     note: "Diagnosis and a stoma weigh on mood: the cancer diagnosis, ostomy and altered bowel function and prolonged chemotherapy of colorectal cancer contribute to substantial depression and impaired quality of life."
+  - target: 01-human/07-system/digestive-system
+    relation: connects-to
+    note: "It grows in and obstructs the gut: colorectal cancer arises from the colonic epithelium and can occlude the bowel lumen, causing obstruction, altered bowel habit and the need for resection or a stoma."
+  - target: 01-human/07-system/wound-healing
+    relation: connects-to
+    note: "Colectomy hinges on a healing anastomosis: bowel resection for colorectal cancer joins two ends of gut, and anastomotic leak — failure of that wound to heal — is a feared, life-threatening complication."
+  - target: 01-human/07-system/generalized-anxiety-disorder
+    relation: connects-to
+    note: "Surveillance and stoma life breed worry: the recurrence monitoring, CEA checks and altered bowel function or ostomy of colorectal cancer foster chronic health anxiety alongside depression."
 ---
 
 # Colorectal Cancer
@@ -383,6 +392,9 @@ The step-wise genetic progression from normal epithelium to carcinoma in CRC was
 - `connects-to` → **[Neuropathic Pain](../neuropathic-pain/README.md)** — Its oxaliplatin leaves nerves burning: the platinum drug in FOLFOX, a backbone of colorectal-cancer therapy, causes a dose-dependent peripheral neuropathy with cold-triggered and chronic neuropathic pain that can persist long after treatment.
 - `connects-to` → **[Aspergillus fumigatus](../../../02-pathogen/03-fungi/aspergillus-fumigatus/README.md)** — Its chemotherapy opens the lung to mold: the neutropenia from colorectal-cancer regimens can let inhaled Aspergillus invade as pulmonary aspergillosis, especially in heavily pretreated or metastatic patients.
 - `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — Diagnosis and a stoma weigh on mood: the cancer diagnosis, ostomy and altered bowel function and prolonged chemotherapy of colorectal cancer contribute to substantial depression and impaired quality of life.
+- `connects-to` → **[Digestive System](../digestive-system/README.md)** — It grows in and obstructs the gut: colorectal cancer arises from the colonic epithelium and can occlude the bowel lumen, causing obstruction, altered bowel habit and the need for resection or a stoma.
+- `connects-to` → **[Wound Healing](../wound-healing/README.md)** — Colectomy hinges on a healing anastomosis: bowel resection for colorectal cancer joins two ends of gut, and anastomotic leak — failure of that wound to heal — is a feared, life-threatening complication.
+- `connects-to` → **[Generalized Anxiety Disorder](../generalized-anxiety-disorder/README.md)** — Surveillance and stoma life breed worry: the recurrence monitoring, CEA checks and altered bowel function or ostomy of colorectal cancer foster chronic health anxiety alongside depression.
 
 ---
 
