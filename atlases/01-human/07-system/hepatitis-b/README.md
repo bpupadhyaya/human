@@ -174,6 +174,15 @@ cross_links:
   - target: 01-human/07-system/ckd
     relation: connects-to
     note: "The immune response can scar the kidney: circulating HBV antigen-antibody complexes deposit in the glomeruli, causing membranous nephropathy and other glomerulonephritis that can progress to chronic kidney disease."
+  - target: 01-human/03-molecular/stat3
+    relation: connects-to
+    note: "STAT3 links the chronic inflammation to cancer: IL-6 from the inflamed liver activates STAT3 in hepatocytes, a pro-survival, pro-proliferative signal that helps the chronically infected cell drift toward hepatocellular carcinoma."
+  - target: 01-human/07-system/venous-thromboembolism
+    relation: connects-to
+    note: "Advanced liver disease clots despite the bleeding tendency: cirrhosis from chronic HBV rebalances coagulation toward thrombosis, raising the risk of portal vein thrombosis and venous thromboembolism even as it prolongs the INR."
+  - target: 01-human/07-system/sepsis
+    relation: connects-to
+    note: "A failing liver invites overwhelming infection: decompensated HBV cirrhosis impairs immune defense and allows gut bacteria to translocate, so spontaneous bacterial peritonitis and sepsis become frequent, life-threatening events."
 ---
 
 # Hepatitis B
@@ -361,3 +370,6 @@ HDV is a satellite RNA virus that requires HBsAg for virion assembly:
 - `connects-to` → **[TERT](../../03-molecular/tert/README.md)** — The virus can switch on immortality by where it lands: HBV DNA integrates into the host genome, often near the TERT promoter, reactivating telomerase — a direct, integration-driven route to liver cancer even without cirrhosis.
 - `connects-to` → **[CTNNB1](../../03-molecular/ctnnb1/README.md)** — It drives a signature liver-cancer mutation: HBV-related hepatocellular carcinomas frequently activate β-catenin (CTNNB1), throwing the Wnt growth switch that, with TERT activation, transforms the chronically infected hepatocyte.
 - `connects-to` → **[Chronic Kidney Disease](../ckd/README.md)** — The immune response can scar the kidney: circulating HBV antigen-antibody complexes deposit in the glomeruli, causing membranous nephropathy and other glomerulonephritis that can progress to chronic kidney disease.
+- `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — STAT3 links the chronic inflammation to cancer: IL-6 from the inflamed liver activates STAT3 in hepatocytes, a pro-survival, pro-proliferative signal that helps the chronically infected cell drift toward hepatocellular carcinoma.
+- `connects-to` → **[Venous Thromboembolism](../venous-thromboembolism/README.md)** — Advanced liver disease clots despite the bleeding tendency: cirrhosis from chronic HBV rebalances coagulation toward thrombosis, raising the risk of portal vein thrombosis and venous thromboembolism even as it prolongs the INR.
+- `connects-to` → **[Sepsis](../sepsis/README.md)** — A failing liver invites overwhelming infection: decompensated HBV cirrhosis impairs immune defense and allows gut bacteria to translocate, so spontaneous bacterial peritonitis and sepsis become frequent, life-threatening events.

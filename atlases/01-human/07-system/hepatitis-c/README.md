@@ -174,6 +174,15 @@ cross_links:
   - target: 01-human/07-system/mantle-cell-lymphoma
     relation: connects-to
     note: "Chronic B-cell stimulation can turn malignant: by relentlessly driving B cells, HCV raises the risk of several non-Hodgkin lymphomas, and antiviral cure can sometimes regress these virus-driven lymphoproliferative disorders."
+  - target: 01-human/03-molecular/stat3
+    relation: connects-to
+    note: "STAT3 drives the inflamed liver toward cancer: HCV proteins and IL-6 activate STAT3 in hepatocytes, a survival and proliferation signal that contributes to the hepatocellular carcinoma that can arise even after the virus is cleared."
+  - target: 01-human/07-system/atherosclerosis
+    relation: connects-to
+    note: "The infection is also a vascular risk factor: chronic HCV promotes systemic inflammation and is independently linked to accelerated atherosclerosis, raising the risk of coronary and carotid disease beyond the liver."
+  - target: 01-human/07-system/venous-thromboembolism
+    relation: connects-to
+    note: "Cirrhosis from HCV tilts toward clotting: advanced liver disease rebalances hemostasis toward thrombosis, raising the risk of portal vein thrombosis and venous thromboembolism despite the prolonged clotting times."
 ---
 
 # Hepatitis C
@@ -352,3 +361,6 @@ HCV cirrhosis → HCC risk 1–5% per year (annual ultrasound surveillance ± AF
 - `connects-to` → **[Insulin](../../03-molecular/insulin/README.md)** — It deranges glucose handling: HCV directly impairs insulin signaling in the liver, so chronic infection causes insulin resistance and type 2 diabetes more often than other liver diseases — a metabolic effect that often improves after cure.
 - `connects-to` → **[Endothelial Cell](../../04-cellular/endothelial-cell/README.md)** — Immune complexes attack small vessels: HCV-driven cryoglobulins lodge in capillary walls and inflame endothelium, producing the cryoglobulinemic vasculitis that damages skin, nerves and kidneys far from the liver.
 - `connects-to` → **[Mantle Cell Lymphoma](../mantle-cell-lymphoma/README.md)** — Chronic B-cell stimulation can turn malignant: by relentlessly driving B cells, HCV raises the risk of several non-Hodgkin lymphomas, and antiviral cure can sometimes regress these virus-driven lymphoproliferative disorders.
+- `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — STAT3 drives the inflamed liver toward cancer: HCV proteins and IL-6 activate STAT3 in hepatocytes, a survival and proliferation signal that contributes to the hepatocellular carcinoma that can arise even after the virus is cleared.
+- `connects-to` → **[Atherosclerosis](../atherosclerosis/README.md)** — The infection is also a vascular risk factor: chronic HCV promotes systemic inflammation and is independently linked to accelerated atherosclerosis, raising the risk of coronary and carotid disease beyond the liver.
+- `connects-to` → **[Venous Thromboembolism](../venous-thromboembolism/README.md)** — Cirrhosis from HCV tilts toward clotting: advanced liver disease rebalances hemostasis toward thrombosis, raising the risk of portal vein thrombosis and venous thromboembolism despite the prolonged clotting times.
