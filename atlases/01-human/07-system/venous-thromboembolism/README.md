@@ -181,6 +181,15 @@ cross_links:
   - target: 01-human/03-molecular/nlrp3-inflammasome
     relation: connects-to
     note: "Inflammation seeds the venous clot: NLRP3-driven IL-1β and the neutrophil extracellular traps it promotes provide the scaffold for immunothrombosis, linking the inflammasome to the pathogenesis of venous thromboembolism."
+  - target: 01-human/03-molecular/nf-kb
+    relation: connects-to
+    note: "Inflammation makes the vein wall clot: NF-κB activation in endothelium and monocytes induces tissue factor and adhesion molecules, the thromboinflammatory switch that converts an inflamed vessel into a site of venous thrombosis."
+  - target: 01-human/07-system/colorectal-cancer
+    relation: connects-to
+    note: "A common cancer that clots: colorectal cancer is a frequent driver of cancer-associated thrombosis, its tumor tissue factor and the surgery and chemotherapy it requires all raising venous thromboembolism risk."
+  - target: 01-human/07-system/ckd
+    relation: connects-to
+    note: "Failing kidneys tip toward clotting: chronic kidney disease, and especially nephrotic-range protein loss, creates a hypercoagulable state that raises the risk of deep-vein thrombosis and pulmonary embolism."
 ---
 
 # Venous Thromboembolism
@@ -354,6 +363,9 @@ cross_links:
 - `connects-to` → **[Sepsis](../sepsis/README.md)** — Sepsis clots the small and large veins alike: systemic inflammation activates coagulation (immunothrombosis), so septic patients face both DIC and limb and pulmonary VTE — one reason thromboprophylaxis is standard in critical illness.
 - `connects-to` → **[Glioblastoma](../glioblastoma/README.md)** — Few cancers clot like glioblastoma: brain tumors express abundant tissue factor and carry one of the highest VTE rates of any malignancy, posing the hard problem of anticoagulating a patient prone to intracranial bleeding.
 - `connects-to` → **[NLRP3 Inflammasome](../../03-molecular/nlrp3-inflammasome/README.md)** — Inflammation seeds the venous clot: NLRP3-driven IL-1β and the neutrophil extracellular traps it promotes provide the scaffold for immunothrombosis, linking the inflammasome to the pathogenesis of venous thromboembolism.
+- `connects-to` → **[NF-κB](../../03-molecular/nf-kb/README.md)** — Inflammation makes the vein wall clot: NF-κB activation in endothelium and monocytes induces tissue factor and adhesion molecules, the thromboinflammatory switch that converts an inflamed vessel into a site of venous thrombosis.
+- `connects-to` → **[Colorectal Cancer](../colorectal-cancer/README.md)** — A common cancer that clots: colorectal cancer is a frequent driver of cancer-associated thrombosis, its tumor tissue factor and the surgery and chemotherapy it requires all raising venous thromboembolism risk.
+- `connects-to` → **[Chronic Kidney Disease](../ckd/README.md)** — Failing kidneys tip toward clotting: chronic kidney disease, and especially nephrotic-range protein loss, creates a hypercoagulable state that raises the risk of deep-vein thrombosis and pulmonary embolism.
 
 [^agnelli-2013-amplify-apixaban-vte]: Agnelli G, Buller HR, Cohen A, et al. Oral apixaban for the treatment of acute venous thromboembolism. *N Engl J Med.* 2013;369(9):799-808. [doi:10.1056/NEJMoa1302507](https://doi.org/10.1056/NEJMoa1302507) · [PubMed 23808982](https://pubmed.ncbi.nlm.nih.gov/23808982/)
 [^bauersachs-2010-einstein-rivaroxaban]: EINSTEIN Investigators. Oral rivaroxaban for symptomatic venous thromboembolism. *N Engl J Med.* 2010;363(26):2499-2510. [doi:10.1056/NEJMoa1007903](https://doi.org/10.1056/NEJMoa1007903) · [PubMed 21128814](https://pubmed.ncbi.nlm.nih.gov/21128814/)

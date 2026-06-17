@@ -180,6 +180,15 @@ cross_links:
   - target: 01-human/03-molecular/nitric-oxide
     relation: connects-to
     note: "Hemolysis robs the vessels of nitric oxide: cell-free hemoglobin released by fragile thalassemic red cells scavenges NO, so the vasodilator runs short — driving the endothelial dysfunction, pulmonary hypertension, and thrombosis of the disease."
+  - target: 01-human/07-system/hcc
+    relation: connects-to
+    note: "Iron and viral hepatitis turn the liver malignant: decades of transfusional iron overload, often with chronic hepatitis C, scar the liver into cirrhosis and a markedly raised risk of hepatocellular carcinoma."
+  - target: 01-human/03-molecular/nf-kb
+    relation: connects-to
+    note: "Iron overload inflames the organs through NF-κB: excess free iron generates reactive oxygen species that activate NF-κB in liver and heart, driving the inflammation behind the iron-laden organ damage of thalassemia."
+  - target: 01-human/07-system/sepsis
+    relation: connects-to
+    note: "Splenectomy and iron feed infection: removal of the spleen plus iron overload that nourishes bacteria like Yersinia leave thalassemia patients prone to severe infection and sepsis, a leading cause of death."
 ---
 
 # Thalassemia
@@ -378,6 +387,9 @@ Untransfused or undertransfused β-thal major:
 - `connects-to` → **[Pulmonary Arterial Hypertension](../pulmonary-arterial-hypertension/README.md)** — Chronic hemolysis pushes thalassemia toward pulmonary hypertension: free hemoglobin scavenges nitric oxide and the hypercoagulable, post-splenectomy state remodels the lung vessels, making PAH a leading cause of right heart failure and death.
 - `connects-to` → **[Hepatitis C](../hepatitis-c/README.md)** — Decades of transfusion brought hepatitis C: before reliable blood screening, transfusion-dependent thalassemia carried high HCV rates, and the resulting chronic hepatitis compounds the iron overload that already injures the liver.
 - `connects-to` → **[Nitric Oxide](../../03-molecular/nitric-oxide/README.md)** — Hemolysis robs the vessels of nitric oxide: cell-free hemoglobin released by fragile thalassemic red cells scavenges NO, so the vasodilator runs short — driving the endothelial dysfunction, pulmonary hypertension, and thrombosis of the disease.
+- `connects-to` → **[Hepatocellular Carcinoma](../hcc/README.md)** — Iron and viral hepatitis turn the liver malignant: decades of transfusional iron overload, often with chronic hepatitis C, scar the liver into cirrhosis and a markedly raised risk of hepatocellular carcinoma.
+- `connects-to` → **[NF-κB](../../03-molecular/nf-kb/README.md)** — Iron overload inflames the organs through NF-κB: excess free iron generates reactive oxygen species that activate NF-κB in liver and heart, driving the inflammation behind the iron-laden organ damage of thalassemia.
+- `connects-to` → **[Sepsis](../sepsis/README.md)** — Splenectomy and iron feed infection: removal of the spleen plus iron overload that nourishes bacteria like Yersinia leave thalassemia patients prone to severe infection and sepsis, a leading cause of death.
 
 [^weatherall-2008-thalassemia-review]: Weatherall DJ. The inherited diseases of hemoglobin are an emerging global health burden. *Blood.* 2010;115(22):4331-4336. [doi:10.1182/blood-2010-01-251348](https://doi.org/10.1182/blood-2010-01-251348) · [PubMed 20233970](https://pubmed.ncbi.nlm.nih.gov/20233970/)
 [^cappellini-2014-thalassemia-guidelines]: Cappellini MD, Cohen A, Porter J, et al. (eds). Guidelines for the Management of Transfusion Dependent Thalassaemia (TDT). 3rd ed. Thalassaemia International Federation; 2014.
