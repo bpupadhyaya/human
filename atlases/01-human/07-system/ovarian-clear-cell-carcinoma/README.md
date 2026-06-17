@@ -178,6 +178,15 @@ cross_links:
   - target: 01-human/07-system/sepsis
     relation: connects-to
     note: "Advanced pelvic disease invites sepsis: bowel obstruction and perforation from peritoneal spread, plus chemotherapy neutropenia, expose patients to intra-abdominal infection and sepsis."
+  - target: 01-human/03-molecular/cyclin-d1
+    relation: connects-to
+    note: "Lost SWI/SNF control drives the cell cycle: ARID1A loss in OCCC dysregulates cyclin D1 and cell-cycle entry, contributing to the proliferation of this chemoresistant clear-cell subtype."
+  - target: 01-human/07-system/ckd
+    relation: connects-to
+    note: "Pelvic disease and platinum strain the kidneys: tumor obstructing the ureters causes hydronephrosis, and the cisplatin used against this resistant cancer is nephrotoxic, together risking chronic kidney disease."
+  - target: 01-human/07-system/anemia-of-chronic-disease
+    relation: connects-to
+    note: "Chronic inflammation and chemo drain the blood: born of inflamed endometriosis and treated with marrow-suppressing platinum, OCCC commonly produces an anemia of chronic disease."
 ---
 
 # Ovarian Clear Cell Carcinoma
@@ -373,6 +382,9 @@ Comprehensive surgical staging (TAH-BSO, omentectomy, pelvic/para-aortic lymphad
 - `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — IL-6-STAT3 marks the clear-cell subtype: OCCC is notably IL-6-high, and the downstream STAT3 activation drives growth, the paraneoplastic inflammation, and the platinum resistance that distinguish it from serous ovarian cancer.
 - `connects-to` → **[NF-κB](../../03-molecular/nf-kb/README.md)** — Chronic inflammation switches on NF-κB: born in an inflamed endometriotic niche, OCCC carries constitutive NF-κB activity that supports survival and contributes to its resistance to chemotherapy.
 - `connects-to` → **[Sepsis](../sepsis/README.md)** — Advanced pelvic disease invites sepsis: bowel obstruction and perforation from peritoneal spread, plus chemotherapy neutropenia, expose patients to intra-abdominal infection and sepsis.
+- `connects-to` → **[Cyclin D1](../../03-molecular/cyclin-d1/README.md)** — Lost SWI/SNF control drives the cell cycle: ARID1A loss in OCCC dysregulates cyclin D1 and cell-cycle entry, contributing to the proliferation of this chemoresistant clear-cell subtype.
+- `connects-to` → **[Chronic Kidney Disease](../ckd/README.md)** — Pelvic disease and platinum strain the kidneys: tumor obstructing the ureters causes hydronephrosis, and the cisplatin used against this resistant cancer is nephrotoxic, together risking chronic kidney disease.
+- `connects-to` → **[Anemia of Chronic Disease](../anemia-of-chronic-disease/README.md)** — Chronic inflammation and chemo drain the blood: born of inflamed endometriosis and treated with marrow-suppressing platinum, OCCC commonly produces an anemia of chronic disease.
 
 ---
 

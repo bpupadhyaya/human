@@ -184,6 +184,15 @@ cross_links:
   - target: 01-human/03-molecular/stat3
     relation: connects-to
     note: "STAT3 drives the desmoplastic tumor: persistent STAT3 signaling in pancreatic cancer cells and their dense stroma promotes proliferation, fibrosis, and immune evasion, marking a node studied for targeted therapy."
+  - target: 01-human/03-molecular/nf-kb
+    relation: connects-to
+    note: "KRAS routes survival through NF-κB: constitutive NF-κB activity downstream of mutant KRAS sustains pancreatic-cancer-cell survival, inflammation and chemoresistance, a hard-to-drug hub central to the disease's lethality."
+  - target: 01-human/07-system/disseminated-intravascular-coagulation
+    relation: connects-to
+    note: "It is the classic Trousseau cancer: mucin-secreting pancreatic adenocarcinoma activates coagulation so strongly it can cause migratory thrombophlebitis and chronic disseminated intravascular coagulation, sometimes the first clue to the tumor."
+  - target: 01-human/07-system/anemia-of-chronic-disease
+    relation: connects-to
+    note: "Cachexia and inflammation drain the blood: the intense inflammatory and catabolic state of pancreatic cancer suppresses erythropoiesis, producing an anemia of chronic disease that compounds its profound weight loss."
 ---
 
 # Pancreatic Cancer
@@ -359,6 +368,9 @@ cross_links:
 - `connects-to` → **[Neuropathic Pain](../neuropathic-pain/README.md)** — Pancreatic cancer is defined by its pain: perineural invasion and tumor wrapping the celiac plexus produce severe, relentless back and abdominal pain, often needing a celiac plexus block — a hallmark of the disease.
 - `connects-to` → **[Sepsis](../sepsis/README.md)** — Blocked bile and major surgery breed sepsis: tumor obstruction of the bile duct causes cholangitis, and the Whipple resection it requires can leak and infect, so biliary and post-operative sepsis are real threats.
 - `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — STAT3 drives the desmoplastic tumor: persistent STAT3 signaling in pancreatic cancer cells and their dense stroma promotes proliferation, fibrosis, and immune evasion, marking a node studied for targeted therapy.
+- `connects-to` → **[NF-κB](../../03-molecular/nf-kb/README.md)** — KRAS routes survival through NF-κB: constitutive NF-κB activity downstream of mutant KRAS sustains pancreatic-cancer-cell survival, inflammation and chemoresistance, a hard-to-drug hub central to the disease's lethality.
+- `connects-to` → **[Disseminated Intravascular Coagulation](../disseminated-intravascular-coagulation/README.md)** — It is the classic Trousseau cancer: mucin-secreting pancreatic adenocarcinoma activates coagulation so strongly it can cause migratory thrombophlebitis and chronic disseminated intravascular coagulation, sometimes the first clue to the tumor.
+- `connects-to` → **[Anemia of Chronic Disease](../anemia-of-chronic-disease/README.md)** — Cachexia and inflammation drain the blood: the intense inflammatory and catabolic state of pancreatic cancer suppresses erythropoiesis, producing an anemia of chronic disease that compounds its profound weight loss.
 
 ---
 
