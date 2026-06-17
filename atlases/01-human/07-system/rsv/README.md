@@ -174,6 +174,15 @@ cross_links:
   - target: 01-human/04-cellular/fibroblast
     relation: connects-to
     note: "Early infection may reshape the lung for life: RSV bronchiolitis activates airway fibroblasts and remodeling, part of why severe infant infection is linked to later wheezing and asthma."
+  - target: 01-human/03-molecular/nf-kb
+    relation: connects-to
+    note: "The virus throws the airway's inflammation switch: RSV activates NF-κB in respiratory epithelium, driving the chemokine and cytokine release that recruits the neutrophils and mucus plugging behind bronchiolitis."
+  - target: 01-human/07-system/sepsis
+    relation: connects-to
+    note: "Severe infant disease can spiral to sepsis: RSV bronchiolitis can progress to respiratory failure, and bacterial superinfection of the damaged lung can seed bloodstream infection and a sepsis-like critical illness."
+  - target: 01-human/07-system/nervous-system
+    relation: connects-to
+    note: "It can reach beyond the lungs to the brain: severe RSV in young infants is associated with central apnea, seizures and rare encephalopathy, CNS complications that can dominate the acute illness."
 ---
 
 # RSV
@@ -370,3 +379,6 @@ Radiological findings: Hyperinflation, peribronchial thickening, occasional atel
 - `connects-to` → **[IRF3](../../03-molecular/irf3/README.md)** — Sensing the virus flips the interferon switch: RSV RNA detected through the RIG-I/MAVS pathway activates IRF3, the transcription factor that turns on type I interferon — and which the virus's NS proteins work to suppress.
 - `connects-to` → **[Staphylococcus aureus](../../../02-pathogen/02-bacteria/staphylococcus-aureus/README.md)** — The damaged airway invites a second germ: RSV strips the respiratory epithelium and blunts defenses, opening the door to bacterial superinfection by Staphylococcus aureus and other organisms that worsen the pneumonia.
 - `connects-to` → **[Fibroblast](../../04-cellular/fibroblast/README.md)** — Early infection may reshape the lung for life: RSV bronchiolitis activates airway fibroblasts and remodeling, part of why severe infant infection is linked to later wheezing and asthma.
+- `connects-to` → **[NF-κB](../../03-molecular/nf-kb/README.md)** — The virus throws the airway's inflammation switch: RSV activates NF-κB in respiratory epithelium, driving the chemokine and cytokine release that recruits the neutrophils and mucus plugging behind bronchiolitis.
+- `connects-to` → **[Sepsis](../sepsis/README.md)** — Severe infant disease can spiral to sepsis: RSV bronchiolitis can progress to respiratory failure, and bacterial superinfection of the damaged lung can seed bloodstream infection and a sepsis-like critical illness.
+- `connects-to` → **[Nervous System](../nervous-system/README.md)** — It can reach beyond the lungs to the brain: severe RSV in young infants is associated with central apnea, seizures and rare encephalopathy, CNS complications that can dominate the acute illness.

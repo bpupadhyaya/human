@@ -178,6 +178,15 @@ cross_links:
   - target: 01-human/07-system/nervous-system
     relation: connects-to
     note: "Lupus invades the brain and nerves: neuropsychiatric SLE spans seizures, psychosis, stroke and neuropathy from autoantibodies, vasculopathy and inflammation, one of the disease's most varied and hard-to-treat fronts."
+  - target: 01-human/03-molecular/stat3
+    relation: connects-to
+    note: "STAT3 powers the autoreactive helper cells: downstream of IL-6 and IL-21, STAT3 drives the follicular helper T and Th17 responses that license B cells to make lupus autoantibodies, a node behind the JAK inhibitors being tested in SLE."
+  - target: 01-human/07-system/venous-thromboembolism
+    relation: connects-to
+    note: "Lupus blood clots readily: chronic inflammation and frequent antiphospholipid antibodies make deep-vein thrombosis and pulmonary embolism markedly more common in SLE, even apart from full antiphospholipid syndrome."
+  - target: 01-human/07-system/sepsis
+    relation: connects-to
+    note: "Immunosuppression turns infection deadly: complement deficiency, functional hyposplenism and the steroids and immunosuppressants that treat lupus leave patients prone to severe infection, and sepsis rivals the disease itself as a cause of death."
 ---
 
 # Systemic Lupus Erythematosus
@@ -355,6 +364,9 @@ Highly polygenic disease with >100 susceptibility loci; heritability ~66%:
 - `connects-to` → **[JAK1/2](../../03-molecular/jak1-2/README.md)** — The interferon signal runs through a kinase: type I interferon drives lupus by signaling through the JAK-STAT pathway, making JAK inhibitors a targeted strategy to switch off the interferon program behind the disease.
 - `connects-to` → **[Atherosclerosis](../atherosclerosis/README.md)** — Chronic inflammation ages the arteries early: SLE accelerates atherosclerosis so steeply that premature heart attack and stroke are among the leading causes of death, even in young women with the disease.
 - `connects-to` → **[Nervous System](../nervous-system/README.md)** — Lupus invades the brain and nerves: neuropsychiatric SLE spans seizures, psychosis, stroke and neuropathy from autoantibodies, vasculopathy and inflammation, one of the disease's most varied and hard-to-treat fronts.
+- `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — STAT3 powers the autoreactive helper cells: downstream of IL-6 and IL-21, STAT3 drives the follicular helper T and Th17 responses that license B cells to make lupus autoantibodies, a node behind the JAK inhibitors being tested in SLE.
+- `connects-to` → **[Venous Thromboembolism](../venous-thromboembolism/README.md)** — Lupus blood clots readily: chronic inflammation and frequent antiphospholipid antibodies make deep-vein thrombosis and pulmonary embolism markedly more common in SLE, even apart from full antiphospholipid syndrome.
+- `connects-to` → **[Sepsis](../sepsis/README.md)** — Immunosuppression turns infection deadly: complement deficiency, functional hyposplenism and the steroids and immunosuppressants that treat lupus leave patients prone to severe infection, and sepsis rivals the disease itself as a cause of death.
 
 [^tsokos-2011-sle-review]: Tsokos GC. Systemic lupus erythematosus. *N Engl J Med.* 2011;365(22):2110-2121. [doi:10.1056/NEJMra1100359](https://doi.org/10.1056/NEJMra1100359) · [PubMed 22129253](https://pubmed.ncbi.nlm.nih.gov/22129253/)
 [^furie-2011-belimumab]: Furie R, Petri M, Zamani O, et al. A phase III, randomized, placebo-controlled study of belimumab, a monoclonal antibody that inhibits B lymphocyte stimulator, in patients with systemic lupus erythematosus. *Arthritis Rheum.* 2011;63(12):3918-3930. [doi:10.1002/art.30613](https://doi.org/10.1002/art.30613) · [PubMed 22127708](https://pubmed.ncbi.nlm.nih.gov/22127708/)
