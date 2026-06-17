@@ -190,6 +190,15 @@ cross_links:
   - target: 01-human/07-system/inflammatory-bowel-disease
     relation: connects-to
     note: "An inflamed gut weakens the bones: inflammatory bowel disease causes osteoporosis via chronic inflammation, malabsorption of calcium and vitamin D, and repeated courses of corticosteroids."
+  - target: 01-human/07-system/prostate-cancer
+    relation: connects-to
+    note: "Androgen deprivation strips male bone: the testosterone withdrawal of ADT for prostate cancer accelerates bone loss, making osteoporosis and fragility fracture a major survivorship concern in treated men."
+  - target: 01-human/07-system/breast-cancer
+    relation: connects-to
+    note: "Anti-estrogen therapy thins the bone: aromatase inhibitors and ovarian suppression for breast cancer sharply lower estrogen, driving accelerated bone loss that requires monitoring and bone-protective treatment."
+  - target: 01-human/07-system/epilepsy
+    relation: connects-to
+    note: "Antiseizure drugs erode the skeleton: enzyme-inducing antiepileptics accelerate vitamin D metabolism and impair bone mineralization, so long-term epilepsy treatment is a recognized cause of osteoporosis."
 ---
 
 # Osteoporosis
@@ -355,6 +364,9 @@ All newly diagnosed osteoporosis should be evaluated for secondary causes: CBC (
 - `connects-to` → **[NF-κB](../../03-molecular/nf-kb/README.md)** — It is the master switch that makes bone-eating cells: RANKL signals through NF-κB to drive osteoclast differentiation and activity, the central pathway whose unchecked activity tips the balance toward bone loss in osteoporosis.
 - `connects-to` → **[COPD](../copd/README.md)** — Lung disease quietly thins the skeleton: COPD drives secondary osteoporosis through systemic inflammation, inactivity, low vitamin D and the corticosteroids used to treat it, so fractures are a common comorbidity.
 - `connects-to` → **[Inflammatory Bowel Disease](../inflammatory-bowel-disease/README.md)** — An inflamed gut weakens the bones: inflammatory bowel disease causes osteoporosis via chronic inflammation, malabsorption of calcium and vitamin D, and repeated courses of corticosteroids.
+- `connects-to` → **[Prostate Cancer](../prostate-cancer/README.md)** — Androgen deprivation strips male bone: the testosterone withdrawal of ADT for prostate cancer accelerates bone loss, making osteoporosis and fragility fracture a major survivorship concern in treated men.
+- `connects-to` → **[Breast Cancer](../breast-cancer/README.md)** — Anti-estrogen therapy thins the bone: aromatase inhibitors and ovarian suppression for breast cancer sharply lower estrogen, driving accelerated bone loss that requires monitoring and bone-protective treatment.
+- `connects-to` → **[Epilepsy](../epilepsy/README.md)** — Antiseizure drugs erode the skeleton: enzyme-inducing antiepileptics accelerate vitamin D metabolism and impair bone mineralization, so long-term epilepsy treatment is a recognized cause of osteoporosis.
 
 [^kanis-2019-who-osteoporosis]: Kanis JA, Cooper C, Rizzoli R, Reginster JY. European guidance for the diagnosis and management of osteoporosis in postmenopausal women. *Osteoporos Int.* 2019;30(1):3-44. [doi:10.1007/s00198-018-4704-5](https://doi.org/10.1007/s00198-018-4704-5) · [PubMed 30324412](https://pubmed.ncbi.nlm.nih.gov/30324412/)
 [^cosman-2016-romosozumab]: Cosman F, Crittenden DB, Adachi JD, et al. Romosozumab treatment in postmenopausal women with osteoporosis. *N Engl J Med.* 2016;375(16):1532-1543. [doi:10.1056/NEJMoa1607948](https://doi.org/10.1056/NEJMoa1607948) · [PubMed 27641143](https://pubmed.ncbi.nlm.nih.gov/27641143/)
