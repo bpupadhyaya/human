@@ -196,6 +196,15 @@ cross_links:
   - target: 01-human/07-system/major-depressive-disorder
     relation: connects-to
     note: "A cancer of the young with hard therapy weighs on mood: synovial sarcoma's diagnosis in adolescents and young adults, disfiguring surgery and grueling chemotherapy contribute to depression and distress."
+  - target: 01-human/07-system/wound-healing
+    relation: connects-to
+    note: "Wide excision in irradiated tissue heals slowly: local control of synovial sarcoma combines extensive limb surgery with radiation, and the irradiated, chemotherapy-suppressed bed leaves wounds prone to breakdown."
+  - target: 01-human/07-system/neuropathic-pain
+    relation: connects-to
+    note: "Tumour, surgery and chemo all wound the nerves: synovial sarcomas near limb nerves, the resections that sacrifice them and the chemotherapy used together produce lasting neuropathic pain."
+  - target: 01-human/07-system/generalized-anxiety-disorder
+    relation: connects-to
+    note: "A young cancer with lung-relapse risk breeds worry: the disfiguring surgery, lung-metastasis surveillance and uncertain prognosis of synovial sarcoma foster chronic anxiety in survivors alongside depression."
 ---
 
 # Synovial Sarcoma
@@ -381,6 +390,9 @@ SS has low TMB (~1-2 mut/Mb) and variable PD-L1 expression; ICB response rates ~
 - `connects-to` → **[Heart Failure](../heart-failure/README.md)** — Its anthracycline-based chemo strains the heart: doxorubicin, paired with ifosfamide as the mainstay for synovial sarcoma, is dose-dependently cardiotoxic and can leave a cardiomyopathy and heart failure in young survivors.
 - `connects-to` → **[Aspergillus fumigatus](../../../02-pathogen/03-fungi/aspergillus-fumigatus/README.md)** — Its intensive chemotherapy opens the lung to mold: the deep neutropenia of doxorubicin-ifosfamide therapy for synovial sarcoma lets inhaled Aspergillus invade as pulmonary aspergillosis.
 - `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — A cancer of the young with hard therapy weighs on mood: synovial sarcoma's diagnosis in adolescents and young adults, disfiguring surgery and grueling chemotherapy contribute to depression and distress.
+- `connects-to` → **[Wound Healing](../wound-healing/README.md)** — Wide excision in irradiated tissue heals slowly: local control of synovial sarcoma combines extensive limb surgery with radiation, and the irradiated, chemotherapy-suppressed bed leaves wounds prone to breakdown.
+- `connects-to` → **[Neuropathic Pain](../neuropathic-pain/README.md)** — Tumour, surgery and chemo all wound the nerves: synovial sarcomas near limb nerves, the resections that sacrifice them and the chemotherapy used together produce lasting neuropathic pain.
+- `connects-to` → **[Generalized Anxiety Disorder](../generalized-anxiety-disorder/README.md)** — A young cancer with lung-relapse risk breeds worry: the disfiguring surgery, lung-metastasis surveillance and uncertain prognosis of synovial sarcoma foster chronic anxiety in survivors alongside depression.
 
 ---
 

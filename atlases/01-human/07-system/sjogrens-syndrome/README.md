@@ -202,6 +202,15 @@ cross_links:
   - target: 01-human/07-system/major-depressive-disorder
     relation: connects-to
     note: "Chronic dryness and fatigue wear on mood: the relentless ocular and oral dryness, profound fatigue and pain of Sjögren's substantially impair quality of life and carry elevated rates of depression."
+  - target: 01-human/07-system/digestive-system
+    relation: connects-to
+    note: "Losing saliva harms the whole upper gut: the xerostomia of Sjögren's drives rampant dental caries and difficulty chewing and swallowing dry food, and oesophageal dysmotility and reflux are common."
+  - target: 01-human/07-system/integumentary-system
+    relation: connects-to
+    note: "The exocrine attack dries and inflames the skin: Sjögren's causes xerosis from reduced secretions and can produce cutaneous small-vessel vasculitis with palpable purpura and annular erythema."
+  - target: 01-human/07-system/generalized-anxiety-disorder
+    relation: connects-to
+    note: "A chronic, dry, fatiguing disease breeds worry: the relentless symptoms, lymphoma-risk surveillance and unpredictable systemic flares of Sjögren's foster chronic health anxiety alongside depression."
 ---
 
 # Sjögren's Syndrome
@@ -393,6 +402,9 @@ Sjögren's syndrome can occur:
 - `connects-to` → **[Neuropathic Pain](../neuropathic-pain/README.md)** — It attacks the small sensory nerves: Sjögren's is a leading autoimmune cause of small-fiber neuropathy and sensory ganglionopathy, producing burning neuropathic pain and numbness even when dryness is mild.
 - `connects-to` → **[Pulmonary Arterial Hypertension](../pulmonary-arterial-hypertension/README.md)** — As a connective-tissue disease it can pressurize the lungs: like lupus and scleroderma, Sjögren's is associated with pulmonary arterial hypertension through immune-mediated remodeling of the pulmonary vasculature.
 - `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — Chronic dryness and fatigue wear on mood: the relentless ocular and oral dryness, profound fatigue and pain of Sjögren's substantially impair quality of life and carry elevated rates of depression.
+- `connects-to` → **[Digestive System](../digestive-system/README.md)** — Losing saliva harms the whole upper gut: the xerostomia of Sjögren's drives rampant dental caries and difficulty chewing and swallowing dry food, and oesophageal dysmotility and reflux are common.
+- `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — The exocrine attack dries and inflames the skin: Sjögren's causes xerosis from reduced secretions and can produce cutaneous small-vessel vasculitis with palpable purpura and annular erythema.
+- `connects-to` → **[Generalized Anxiety Disorder](../generalized-anxiety-disorder/README.md)** — A chronic, dry, fatiguing disease breeds worry: the relentless symptoms, lymphoma-risk surveillance and unpredictable systemic flares of Sjögren's foster chronic health anxiety alongside depression.
 
 ---
 
