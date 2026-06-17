@@ -172,6 +172,15 @@ cross_links:
   - target: 01-human/07-system/sepsis
     relation: connects-to
     note: "The failing marrow leaves patients defenseless: falling neutrophil counts and the immunosuppression of advanced disease and its treatment make infection and sepsis a leading cause of death in myelofibrosis."
+  - target: 01-human/03-molecular/stat3
+    relation: connects-to
+    note: "The disease runs on JAK-STAT: the JAK2/CALR/MPL drivers funnel into constitutive STAT signaling, with STAT3 supporting the clone's proliferation and the inflammatory cytokine output — the pathway that ruxolitinib's JAK inhibition reins in."
+  - target: 01-human/07-system/atherosclerosis
+    relation: connects-to
+    note: "The JAK2 clone inflames the arteries: like other JAK2-driven blood disorders and clonal hematopoiesis, myelofibrosis accelerates atherosclerosis, its inflamed clonal leukocytes worsening plaque and cardiovascular risk."
+  - target: 01-human/07-system/stroke
+    relation: connects-to
+    note: "Sticky blood throws arterial clots: the hyperviscosity and activated platelets of myelofibrosis raise the risk of arterial thrombosis, including ischemic stroke, alongside its better-known venous clotting."
 ---
 
 # Myelofibrosis
@@ -351,6 +360,9 @@ Abrupt ruxolitinib cessation → cytokine rebound → fever, splenomegaly surge,
 - `connects-to` → **[CXCL12](../../03-molecular/cxcl12/README.md)** — A homing signal goes awry: disrupted CXCL12-CXCR4 signaling lets hematopoietic stem cells escape the fibrotic marrow into the blood, where they seed the spleen and liver — the extramedullary hematopoiesis behind the massive splenomegaly.
 - `connects-to` → **[Mast Cell](../../04-cellular/mast-cell/README.md)** — Clonal mast cells join the fibrotic crowd: mast cells are expanded in myelofibrosis marrow and, like the driver megakaryocytes, secrete profibrotic mediators that help lay down the collagen and reticulin scar.
 - `connects-to` → **[Sepsis](../sepsis/README.md)** — The failing marrow leaves patients defenseless: falling neutrophil counts and the immunosuppression of advanced disease and its treatment make infection and sepsis a leading cause of death in myelofibrosis.
+- `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — The disease runs on JAK-STAT: the JAK2/CALR/MPL drivers funnel into constitutive STAT signaling, with STAT3 supporting the clone's proliferation and the inflammatory cytokine output — the pathway that ruxolitinib's JAK inhibition reins in.
+- `connects-to` → **[Atherosclerosis](../atherosclerosis/README.md)** — The JAK2 clone inflames the arteries: like other JAK2-driven blood disorders and clonal hematopoiesis, myelofibrosis accelerates atherosclerosis, its inflamed clonal leukocytes worsening plaque and cardiovascular risk.
+- `connects-to` → **[Stroke](../stroke/README.md)** — Sticky blood throws arterial clots: the hyperviscosity and activated platelets of myelofibrosis raise the risk of arterial thrombosis, including ischemic stroke, alongside its better-known venous clotting.
 
 ---
 

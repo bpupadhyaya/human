@@ -178,6 +178,15 @@ cross_links:
   - target: 01-human/03-molecular/il-6
     relation: connects-to
     note: "Inflamed fat signals the liver: IL-6 released from expanded adipose tissue worsens hepatic insulin resistance and inflammation, helping drive simple fatty liver onward into steatohepatitis."
+  - target: 01-human/03-molecular/nf-kb
+    relation: connects-to
+    note: "Fat and gut signals ignite hepatic inflammation: free fatty acids and gut-derived endotoxin activate NF-κB in Kupffer cells and hepatocytes, the master switch that converts bland steatosis into the inflamed, ballooning injury of steatohepatitis."
+  - target: 01-human/03-molecular/stat3
+    relation: connects-to
+    note: "STAT3 links the inflamed liver to cancer: IL-6-driven STAT3 activation in hepatocytes promotes survival and proliferation, a key route by which chronic NASH inflammation gives rise to hepatocellular carcinoma."
+  - target: 01-human/07-system/venous-thromboembolism
+    relation: connects-to
+    note: "Fatty-liver disease tilts the blood toward clotting: NASH raises fibrinogen and PAI-1 and, once cirrhotic, rebalances hemostasis toward thrombosis, increasing the risk of portal vein thrombosis and venous thromboembolism."
 ---
 
 # NASH
@@ -320,6 +329,9 @@ NASH pathogenesis is driven by multiple simultaneous and sequential hits, not a 
 - `connects-to` → **[Atherosclerosis](../atherosclerosis/README.md)** — The liver disease kills mostly through the arteries: NASH accelerates atherosclerosis via dyslipidemia and systemic inflammation, so cardiovascular disease — not liver failure — is the leading cause of death in most patients.
 - `connects-to` → **[Leptin](../../03-molecular/leptin/README.md)** — An adipose hormone turns profibrotic: leptin, high in obesity, activates hepatic stellate cells to lay down scar, an adipokine push toward fibrosis that contrasts with the protective adiponectin also released by fat.
 - `connects-to` → **[Interleukin-6](../../03-molecular/il-6/README.md)** — Inflamed fat signals the liver: IL-6 released from expanded adipose tissue worsens hepatic insulin resistance and inflammation, helping drive simple fatty liver onward into steatohepatitis.
+- `connects-to` → **[NF-κB](../../03-molecular/nf-kb/README.md)** — Fat and gut signals ignite hepatic inflammation: free fatty acids and gut-derived endotoxin activate NF-κB in Kupffer cells and hepatocytes, the master switch that converts bland steatosis into the inflamed, ballooning injury of steatohepatitis.
+- `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — STAT3 links the inflamed liver to cancer: IL-6-driven STAT3 activation in hepatocytes promotes survival and proliferation, a key route by which chronic NASH inflammation gives rise to hepatocellular carcinoma.
+- `connects-to` → **[Venous Thromboembolism](../venous-thromboembolism/README.md)** — Fatty-liver disease tilts the blood toward clotting: NASH raises fibrinogen and PAI-1 and, once cirrhotic, rebalances hemostasis toward thrombosis, increasing the risk of portal vein thrombosis and venous thromboembolism.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
