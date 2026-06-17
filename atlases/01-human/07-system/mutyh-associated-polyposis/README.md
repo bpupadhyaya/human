@@ -178,6 +178,15 @@ cross_links:
   - target: 01-human/07-system/sepsis
     relation: connects-to
     note: "Bowel surgery carries infectious risk: the colectomy that high polyp burden eventually requires can be complicated by anastomotic leak and intra-abdominal sepsis."
+  - target: 01-human/03-molecular/stat3
+    relation: connects-to
+    note: "Inflammation feeds the oxidatively-damaged mucosa: IL-6-driven STAT3 signaling adds proliferation and survival to the G:C→T:A mutation burden of MUTYH loss, accelerating the polyps' progression to colorectal cancer."
+  - target: 01-human/03-molecular/cyclin-d1
+    relation: connects-to
+    note: "Wnt activation drives the cell cycle through cyclin D1: the APC/Wnt activation arising in MUTYH-mutated adenomas pushes cyclin D1 expression, speeding the cell-cycle entry behind polyp growth."
+  - target: 01-human/07-system/anemia-of-chronic-disease
+    relation: connects-to
+    note: "Bleeding polyps and inflammation drain the blood: beyond the iron loss of chronically bleeding adenomas, the inflammation of MAP suppresses erythropoiesis, adding an anemia of chronic disease to the iron deficiency."
 ---
 
 # MUTYH-Associated Polyposis
@@ -348,6 +357,9 @@ Because MAP is autosomal recessive: siblings of MAP patients are at **25%** risk
 - `connects-to` → **[Iron Deficiency Anemia](../iron-deficiency-anemia/README.md)** — The polyps bleed unseen: chronic occult blood loss from MAP's colonic adenomas or an arising cancer causes iron-deficiency anemia, sometimes the finding that triggers the colonoscopy revealing the polyposis.
 - `connects-to` → **[Venous Thromboembolism](../venous-thromboembolism/README.md)** — Cancer and its surgery raise the clot risk: a colorectal cancer developing in MAP and the colectomy used to treat heavy polyposis both predispose to perioperative venous thromboembolism.
 - `connects-to` → **[Sepsis](../sepsis/README.md)** — Bowel surgery carries infectious risk: the colectomy that high polyp burden eventually requires can be complicated by anastomotic leak and intra-abdominal sepsis.
+- `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — Inflammation feeds the oxidatively-damaged mucosa: IL-6-driven STAT3 signaling adds proliferation and survival to the G:C→T:A mutation burden of MUTYH loss, accelerating the polyps' progression to colorectal cancer.
+- `connects-to` → **[Cyclin D1](../../03-molecular/cyclin-d1/README.md)** — Wnt activation drives the cell cycle through cyclin D1: the APC/Wnt activation arising in MUTYH-mutated adenomas pushes cyclin D1 expression, speeding the cell-cycle entry behind polyp growth.
+- `connects-to` → **[Anemia of Chronic Disease](../anemia-of-chronic-disease/README.md)** — Bleeding polyps and inflammation drain the blood: beyond the iron loss of chronically bleeding adenomas, the inflammation of MAP suppresses erythropoiesis, adding an anemia of chronic disease to the iron deficiency.
 
 ---
 

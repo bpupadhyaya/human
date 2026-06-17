@@ -178,6 +178,15 @@ cross_links:
   - target: 01-human/04-cellular/fibroblast
     relation: connects-to
     note: "Fibroblasts lay down the marrow scar: responding to clone-derived TGF-β and PDGF, marrow stromal fibroblasts deposit the reticulin and collagen that obliterate the marrow space in myelofibrosis."
+  - target: 01-human/07-system/hcc
+    relation: connects-to
+    note: "They clot the liver's own veins: MPNs are the leading cause of Budd-Chiari syndrome and portal vein thrombosis, congesting the liver toward cirrhosis and, over years, hepatocellular carcinoma — often the first clue to an occult MPN."
+  - target: 01-human/07-system/pulmonary-arterial-hypertension
+    relation: connects-to
+    note: "The lung circulation stiffens: MPNs raise pulmonary artery pressure through chronic thromboembolism, extramedullary hematopoiesis and high-output flow, a recognized and under-appreciated complication."
+  - target: 01-human/07-system/sepsis
+    relation: connects-to
+    note: "Advanced disease strips the defenses: progression to myelofibrosis or blast phase, and the cytoreductive and JAK-inhibitor therapy used, cause cytopenias and immune compromise that make infection and sepsis a danger."
 ---
 
 # Myeloproliferative Neoplasms
@@ -375,6 +384,9 @@ In PV and ET, JAK2 V617F also affects myeloid progenitors → granulocytosis and
 - `connects-to` → **[DNMT3A](../../03-molecular/dnmt3a/README.md)** — Epigenetic mutations layer onto the driver: DNMT3A, TET2 and other clonal-hematopoiesis mutations co-occur with JAK2/CALR/MPL in MPNs, shaping clonal evolution and the risk of progression to myelofibrosis or leukemia.
 - `connects-to` → **[Myelodysplastic Syndromes](../mds/README.md)** — The clone can drift toward dysplasia: MPNs sit on the myeloid spectrum and can evolve into MDS/MPN-overlap or acquire dysplastic, MDS-like features, especially as they accumulate secondary mutations.
 - `connects-to` → **[Fibroblast](../../04-cellular/fibroblast/README.md)** — Fibroblasts lay down the marrow scar: responding to clone-derived TGF-β and PDGF, marrow stromal fibroblasts deposit the reticulin and collagen that obliterate the marrow space in myelofibrosis.
+- `connects-to` → **[Hepatocellular Carcinoma](../hcc/README.md)** — They clot the liver's own veins: MPNs are the leading cause of Budd-Chiari syndrome and portal vein thrombosis, congesting the liver toward cirrhosis and, over years, hepatocellular carcinoma — often the first clue to an occult MPN.
+- `connects-to` → **[Pulmonary Arterial Hypertension](../pulmonary-arterial-hypertension/README.md)** — The lung circulation stiffens: MPNs raise pulmonary artery pressure through chronic thromboembolism, extramedullary hematopoiesis and high-output flow, a recognized and under-appreciated complication.
+- `connects-to` → **[Sepsis](../sepsis/README.md)** — Advanced disease strips the defenses: progression to myelofibrosis or blast phase, and the cytoreductive and JAK-inhibitor therapy used, cause cytopenias and immune compromise that make infection and sepsis a danger.
 
 [^verstovsek-2012-comfort-i]: Verstovsek S, Mesa RA, Gotlib J, et al. A double-blind, placebo-controlled trial of ruxolitinib for myelofibrosis. *N Engl J Med.* 2012;366(9):799-807. [doi:10.1056/NEJMoa1110557](https://doi.org/10.1056/NEJMoa1110557) · [PubMed 22375971](https://pubmed.ncbi.nlm.nih.gov/22375971/)
 [^vannucchi-2015-response]: Vannucchi AM, Kiladjian JJ, Griesshammer M, et al. Ruxolitinib versus standard therapy for the treatment of polycythemia vera. *N Engl J Med.* 2015;372(5):426-435. [doi:10.1056/NEJMoa1409002](https://doi.org/10.1056/NEJMoa1409002) · [PubMed 25426978](https://pubmed.ncbi.nlm.nih.gov/25426978/)
