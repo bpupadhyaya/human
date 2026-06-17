@@ -178,6 +178,15 @@ cross_links:
   - target: 01-human/07-system/sepsis
     relation: connects-to
     note: "Intensive therapy strips the defenses: the myelosuppressive chemotherapy used against medulloblastoma produces neutropenia, so febrile neutropenia and sepsis are among the acute treatment hazards."
+  - target: 01-human/03-molecular/stat3
+    relation: connects-to
+    note: "STAT3 supports the aggressive subgroups: Group 3 and SHH medulloblastomas show STAT3 activation that backs proliferation and survival, a pathway studied for the high-risk, MYC-driven tumors that resist standard therapy."
+  - target: 01-human/03-molecular/nf-kb
+    relation: connects-to
+    note: "NF-κB adds a survival signal: medulloblastoma cells engage NF-κB-dependent survival and inflammatory signaling, one of the cooperating pathways alongside the SHH, WNT and MYC programs that define its subgroups."
+  - target: 01-human/07-system/venous-thromboembolism
+    relation: connects-to
+    note: "A brain tumor that clots: like other CNS malignancies, medulloblastoma raises venous thromboembolism risk through tumor tissue factor and the immobility of major posterior-fossa surgery and illness."
 ---
 
 # Medulloblastoma
@@ -361,6 +370,9 @@ MB survivors face substantial late effects — inversely proportional to age at 
 - `connects-to` → **[CDKN2A](../../03-molecular/cdkn2a/README.md)** — Cell-cycle brakes fail in the aggressive subtypes: CDKN2A loss and the resulting CDK4/6 overactivity drive proliferation in MYC-amplified medulloblastomas, marking poor-prognosis tumors and a rationale for CDK4/6 inhibitors.
 - `connects-to` → **[Stroke](../stroke/README.md)** — Radiation scars the brain's arteries: craniospinal irradiation causes a late cerebral vasculopathy — including moyamoya around the circle of Willis — that raises stroke risk in childhood medulloblastoma survivors.
 - `connects-to` → **[Sepsis](../sepsis/README.md)** — Intensive therapy strips the defenses: the myelosuppressive chemotherapy used against medulloblastoma produces neutropenia, so febrile neutropenia and sepsis are among the acute treatment hazards.
+- `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — STAT3 supports the aggressive subgroups: Group 3 and SHH medulloblastomas show STAT3 activation that backs proliferation and survival, a pathway studied for the high-risk, MYC-driven tumors that resist standard therapy.
+- `connects-to` → **[NF-κB](../../03-molecular/nf-kb/README.md)** — NF-κB adds a survival signal: medulloblastoma cells engage NF-κB-dependent survival and inflammatory signaling, one of the cooperating pathways alongside the SHH, WNT and MYC programs that define its subgroups.
+- `connects-to` → **[Venous Thromboembolism](../venous-thromboembolism/README.md)** — A brain tumor that clots: like other CNS malignancies, medulloblastoma raises venous thromboembolism risk through tumor tissue factor and the immobility of major posterior-fossa surgery and illness.
 
 [^packer-2006-std-risk-mb]: Packer RJ, Gajjar A, Vezina G, et al. Phase III study of craniospinal radiation therapy followed by adjuvant chemotherapy for newly diagnosed average-risk medulloblastoma. *J Clin Oncol.* 2006;24(25):4202-4208. [doi:10.1200/JCO.2006.06.4980](https://doi.org/10.1200/JCO.2006.06.4980) · [PubMed 16943538](https://pubmed.ncbi.nlm.nih.gov/16943538/)
 [^taylor-2012-mb-subgroups]: Taylor MD, Northcott PA, Korshunov A, et al. Molecular subgroups of medulloblastoma: the current consensus. *Acta Neuropathol.* 2012;123(4):465-472. [doi:10.1007/s00401-011-0922-z](https://doi.org/10.1007/s00401-011-0922-z) · [PubMed 22134537](https://pubmed.ncbi.nlm.nih.gov/22134537/)
