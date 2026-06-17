@@ -181,6 +181,15 @@ cross_links:
   - target: 01-human/03-molecular/il-17a
     relation: connects-to
     note: "A Th17 arm drives the autoimmunity: IL-17A from helper T cells promotes germinal-center responses and the anti-AChR antibody production in myasthenia, running higher in more active and refractory disease."
+  - target: 01-human/03-molecular/nf-kb
+    relation: connects-to
+    note: "NF-κB sustains the autoreactive B cells: BAFF and inflammatory signals act through NF-κB in the ectopic thymic germinal centers to keep the anti-AChR antibody response alive, part of the B-cell biology rituximab targets."
+  - target: 01-human/07-system/sepsis
+    relation: connects-to
+    note: "A myasthenic crisis collides with infection: respiratory-muscle weakness causes aspiration and ventilator dependence while immunosuppressive therapy lowers defenses, so pneumonia and sepsis are major dangers — and infection itself often triggers the crisis."
+  - target: 01-human/07-system/venous-thromboembolism
+    relation: connects-to
+    note: "Crisis and its treatment raise clot risk: immobility during a myasthenic crisis plus the prothrombotic effect of intravenous immunoglobulin therapy increase the risk of deep-vein thrombosis and pulmonary embolism."
 ---
 
 # Myasthenia Gravis
@@ -346,6 +355,9 @@ cross_links:
 - `connects-to` → **[Synapse](../../05-tissue/synapse/README.md)** — Myasthenia is a disease of one synapse: anti-AChR antibody, complement, and receptor internalization destroy the postsynaptic folds of the neuromuscular junction, so each nerve impulse fails to reach threshold and the muscle fatigues.
 - `connects-to` → **[Germinal Center](../../05-tissue/germinal-center/README.md)** — The thymus grows the wrong germinal centers: thymic hyperplasia in myasthenia forms ectopic germinal centers that school autoreactive B cells against AChR, which is why thymectomy can improve the disease.
 - `connects-to` → **[IL-17A](../../03-molecular/il-17a/README.md)** — A Th17 arm drives the autoimmunity: IL-17A from helper T cells promotes germinal-center responses and the anti-AChR antibody production in myasthenia, running higher in more active and refractory disease.
+- `connects-to` → **[NF-κB](../../03-molecular/nf-kb/README.md)** — NF-κB sustains the autoreactive B cells: BAFF and inflammatory signals act through NF-κB in the ectopic thymic germinal centers to keep the anti-AChR antibody response alive, part of the B-cell biology rituximab targets.
+- `connects-to` → **[Sepsis](../sepsis/README.md)** — A myasthenic crisis collides with infection: respiratory-muscle weakness causes aspiration and ventilator dependence while immunosuppressive therapy lowers defenses, so pneumonia and sepsis are major dangers — and infection itself often triggers the crisis.
+- `connects-to` → **[Venous Thromboembolism](../venous-thromboembolism/README.md)** — Crisis and its treatment raise clot risk: immobility during a myasthenic crisis plus the prothrombotic effect of intravenous immunoglobulin therapy increase the risk of deep-vein thrombosis and pulmonary embolism.
 
 [^gilhus-2016-mg-review]: Gilhus NE. Myasthenia Gravis. *N Engl J Med.* 2016;375(26):2570-2581. [doi:10.1056/NEJMra1602678](https://doi.org/10.1056/NEJMra1602678) · [PubMed 28029925](https://pubmed.ncbi.nlm.nih.gov/28029925/)
 [^howard-2021-efgartigimod-adapt]: Howard JF Jr, Bril V, Vu T, et al. Safety, efficacy, and tolerability of efgartigimod in patients with generalised myasthenia gravis (ADAPT). *Lancet Neurol.* 2021;20(7):526-536. [doi:10.1016/S1474-4422(21)00159-9](https://doi.org/10.1016/S1474-4422(21)00159-9) · [PubMed 34146511](https://pubmed.ncbi.nlm.nih.gov/34146511/)
