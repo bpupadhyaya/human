@@ -178,6 +178,15 @@ cross_links:
   - target: 01-human/07-system/sepsis
     relation: connects-to
     note: "Repeated immunosuppression invites infection: the B-cell depletion and chemotherapy used over the long course of relapsing follicular lymphoma leave patients hypogammaglobulinemic and prone to sepsis."
+  - target: 01-human/03-molecular/stat3
+    relation: connects-to
+    note: "The supportive niche signals through STAT3: follicular lymphoma depends heavily on its microenvironment, where cytokines like IL-4 drive STAT signaling that sustains the slow-growing, niche-addicted B-cell clone."
+  - target: 01-human/07-system/venous-thromboembolism
+    relation: connects-to
+    note: "An indolent lymphoma that still clots: like other lymphomas, follicular lymphoma raises venous thromboembolism risk through tumor-driven hypercoagulability and the catheters and immobility of treatment."
+  - target: 01-human/07-system/anemia-of-chronic-disease
+    relation: connects-to
+    note: "Marrow infiltration and inflammation lower the count: follicular lymphoma commonly involves the bone marrow and raises inflammatory cytokines, producing an anemia of chronic disease alongside any marrow crowding."
 ---
 
 # Follicular Lymphoma
@@ -357,6 +366,9 @@ High-risk subset (progression within 24 months of first chemoimmunotherapy): Con
 - `connects-to` → **[CXCL12](../../03-molecular/cxcl12/README.md)** — CXCL12 keeps the clone in its follicle: stromal cells secrete this chemokine to retain follicular lymphoma cells via CXCR4 in the protective germinal-center niche, where survival signals shield them from therapy.
 - `connects-to` → **[Epstein-Barr Virus](../../../02-pathogen/01-viruses/epstein-barr-virus/README.md)** — EBV can ride along with the lymphoma: the virus is found in a subset of follicular lymphomas and, with the immunosuppression of treatment, can drive EBV-positive transformation and lymphoproliferation.
 - `connects-to` → **[Sepsis](../sepsis/README.md)** — Repeated immunosuppression invites infection: the B-cell depletion and chemotherapy used over the long course of relapsing follicular lymphoma leave patients hypogammaglobulinemic and prone to sepsis.
+- `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — The supportive niche signals through STAT3: follicular lymphoma depends heavily on its microenvironment, where cytokines like IL-4 drive STAT signaling that sustains the slow-growing, niche-addicted B-cell clone.
+- `connects-to` → **[Venous Thromboembolism](../venous-thromboembolism/README.md)** — An indolent lymphoma that still clots: like other lymphomas, follicular lymphoma raises venous thromboembolism risk through tumor-driven hypercoagulability and the catheters and immobility of treatment.
+- `connects-to` → **[Anemia of Chronic Disease](../anemia-of-chronic-disease/README.md)** — Marrow infiltration and inflammation lower the count: follicular lymphoma commonly involves the bone marrow and raises inflammatory cytokines, producing an anemia of chronic disease alongside any marrow crowding.
 
 ---
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*

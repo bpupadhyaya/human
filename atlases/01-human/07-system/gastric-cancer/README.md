@@ -178,6 +178,15 @@ cross_links:
   - target: 01-human/07-system/venous-thromboembolism
     relation: connects-to
     note: "Gastric cancer is strongly pro-thrombotic: like other GI adenocarcinomas it drives a high rate of venous thromboembolism (Trousseau), complicating the chemotherapy and major gastrectomy its treatment requires."
+  - target: 01-human/03-molecular/stat3
+    relation: connects-to
+    note: "Helicobacter inflammation drives the stomach to cancer through STAT3: chronic gastritis raises IL-6 and IL-11 that activate STAT3 in gastric epithelium, a central inflammation-to-cancer pathway in gastric carcinogenesis."
+  - target: 01-human/07-system/sepsis
+    relation: connects-to
+    note: "An obstructing or perforating tumor seeds infection: gastric cancer that blocks the outlet or breaches the wall spills contents into the peritoneum, and gastrectomy and chemotherapy add their own routes to sepsis."
+  - target: 01-human/07-system/anemia-of-chronic-disease
+    relation: connects-to
+    note: "Beyond bleeding, inflammation suppresses the marrow: gastric cancer's chronic blood loss causes iron deficiency, but its inflammatory cytokines also drive an anemia of chronic disease, and gastrectomy adds B12 malabsorption."
 ---
 
 # Gastric Cancer
@@ -378,6 +387,9 @@ H. pylori eradication: Reduces GC incidence by ~35-40% (meta-analyses); most ben
 - `connects-to` → **[MLH1](../../03-molecular/mlh1/README.md)** — MLH1 silencing defines a gastric subtype: epigenetic loss of this mismatch-repair gene produces the microsatellite-unstable, hypermutated gastric cancers — a TCGA molecular class that is especially responsive to immune-checkpoint therapy.
 - `connects-to` → **[Mast Cell](../../04-cellular/mast-cell/README.md)** — Mast cells crowd the gastric tumor stroma: their density correlates with angiogenesis and worse prognosis, part of the inflammatory microenvironment that Helicobacter-driven gastritis builds before cancer arises.
 - `connects-to` → **[Venous Thromboembolism](../venous-thromboembolism/README.md)** — Gastric cancer is strongly pro-thrombotic: like other GI adenocarcinomas it drives a high rate of venous thromboembolism (Trousseau), complicating the chemotherapy and major gastrectomy its treatment requires.
+- `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — Helicobacter inflammation drives the stomach to cancer through STAT3: chronic gastritis raises IL-6 and IL-11 that activate STAT3 in gastric epithelium, a central inflammation-to-cancer pathway in gastric carcinogenesis.
+- `connects-to` → **[Sepsis](../sepsis/README.md)** — An obstructing or perforating tumor seeds infection: gastric cancer that blocks the outlet or breaches the wall spills contents into the peritoneum, and gastrectomy and chemotherapy add their own routes to sepsis.
+- `connects-to` → **[Anemia of Chronic Disease](../anemia-of-chronic-disease/README.md)** — Beyond bleeding, inflammation suppresses the marrow: gastric cancer's chronic blood loss causes iron deficiency, but its inflammatory cytokines also drive an anemia of chronic disease, and gastrectomy adds B12 malabsorption.
 
 [^bang-2010-toga]: Bang YJ, Van Cutsem E, Feyereislova A, et al. Trastuzumab in combination with chemotherapy versus chemotherapy alone for treatment of HER2-positive advanced gastric or gastro-oesophageal junction cancer (ToGA): a phase 3, open-label, randomised controlled trial. *Lancet.* 2010;376(9742):687-697. [doi:10.1016/S0140-6736(10)61121-X](https://doi.org/10.1016/S0140-6736(10)61121-X) · [PubMed 20728210](https://pubmed.ncbi.nlm.nih.gov/20728210/)
 [^janjigian-2021-checkmate649]: Janjigian YY, Shitara K, Moehler M, et al. First-line nivolumab plus chemotherapy versus chemotherapy alone for advanced gastric, gastro-oesophageal junction, and oesophageal adenocarcinoma (CheckMate 649). *Lancet.* 2021;398(10294):27-40. [doi:10.1016/S0140-6736(21)00797-2](https://doi.org/10.1016/S0140-6736(21)00797-2) · [PubMed 34102137](https://pubmed.ncbi.nlm.nih.gov/34102137/)
