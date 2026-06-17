@@ -194,6 +194,15 @@ cross_links:
   - target: 01-human/07-system/heart-failure
     relation: connects-to
     note: "Pregnancy can unmask a failing heart: the late-gestational and postpartum period can precipitate peripartum cardiomyopathy, a reproductive-specific cause of heart failure in previously healthy women."
+  - target: 01-human/07-system/renal-system
+    relation: connects-to
+    note: "They share the genitourinary tract and embryology: the reproductive and urinary systems develop together and run side by side, so prostatic disease, pelvic surgery and pregnancy all directly affect the kidneys and bladder."
+  - target: 01-human/07-system/hypertension
+    relation: connects-to
+    note: "Pregnancy can drive blood pressure dangerously high: pre-eclampsia and gestational hypertension are reproductive-specific disorders of pregnancy, and they flag a woman's raised lifelong cardiovascular risk."
+  - target: 02-pathogen/01-viruses/herpesvirus
+    relation: connects-to
+    note: "Herpesviruses colonise the genital tract: HSV causes genital herpes transmitted sexually, persisting latent in sacral ganglia and posing a serious risk of neonatal infection during delivery."
 ---
 
 # Reproductive System
@@ -368,6 +377,9 @@ Testosterone binds androgen receptor (AR, nuclear receptor NR3C4) → AR dimeriz
 - `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — Its sex hormones sway mood across the lifespan: estrogen and progesterone fluctuations underlie premenstrual dysphoria, postpartum depression and the perimenopausal mood dip, tying reproductive endocrinology directly to depressive illness.
 - `connects-to` → **[Type 2 Diabetes](../type-2-diabetes/README.md)** — It is entwined with insulin and metabolism: polycystic ovary syndrome links ovarian dysfunction to insulin resistance, gestational diabetes foreshadows later disease, and low testosterone tracks with metabolic risk in men.
 - `connects-to` → **[Heart Failure](../heart-failure/README.md)** — Pregnancy can unmask a failing heart: the late-gestational and postpartum period can precipitate peripartum cardiomyopathy, a reproductive-specific cause of heart failure in previously healthy women.
+- `connects-to` → **[Renal System](../renal-system/README.md)** — They share the genitourinary tract and embryology: the reproductive and urinary systems develop together and run side by side, so prostatic disease, pelvic surgery and pregnancy all directly affect the kidneys and bladder.
+- `connects-to` → **[Hypertension](../hypertension/README.md)** — Pregnancy can drive blood pressure dangerously high: pre-eclampsia and gestational hypertension are reproductive-specific disorders of pregnancy, and they flag a woman's raised lifelong cardiovascular risk.
+- `connects-to` → **[Herpesviridae](../../../02-pathogen/01-viruses/herpesvirus/README.md)** — Herpesviruses colonise the genital tract: HSV causes genital herpes transmitted sexually, persisting latent in sacral ganglia and posing a serious risk of neonatal infection during delivery.
 
 ## Pathology
 

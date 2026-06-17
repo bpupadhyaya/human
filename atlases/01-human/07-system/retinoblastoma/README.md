@@ -196,6 +196,15 @@ cross_links:
   - target: 01-human/07-system/major-depressive-disorder
     relation: connects-to
     note: "Eye loss and an inherited cancer weigh on families: enucleation, disfigurement and the burden of a heritable cancer with lifelong second-tumor surveillance contribute to depression in survivors and their parents."
+  - target: 01-human/07-system/wound-healing
+    relation: connects-to
+    note: "Enucleation is a healing challenge in a child: removing the eye and fitting an orbital implant leaves a socket that must heal, and chemotherapy and any orbital radiation slow and complicate that closure."
+  - target: 02-pathogen/01-viruses/varicella-zoster-virus
+    relation: connects-to
+    note: "Chemotherapy reawakens shingles: the systemic chemotherapy for retinoblastoma suppresses a child's immunity, allowing latent or primary varicella-zoster to cause severe disseminated infection."
+  - target: 01-human/07-system/generalized-anxiety-disorder
+    relation: connects-to
+    note: "A heritable childhood cancer breeds lasting worry: vision loss, the genetic risk to future children and lifelong second-cancer surveillance after RB1 retinoblastoma foster chronic anxiety in survivors and families."
 ---
 
 # Retinoblastoma
@@ -368,6 +377,9 @@ Standard regimen: **vincristine + carboplatin + etoposide (VCE)**, 6 cycles; red
 - `connects-to` → **[Rhabdomyosarcoma](../rhabdomyosarcoma/README.md)** — Germline RB1 loss seeds soft-tissue cancers later: hereditary retinoblastoma survivors carry a lifelong risk of second primary sarcomas, including rhabdomyosarcoma, especially within prior radiation fields.
 - `connects-to` → **[Aspergillus fumigatus](../../../02-pathogen/03-fungi/aspergillus-fumigatus/README.md)** — Its chemotherapy strips the lung's defenses: the systemic chemotherapy used to shrink retinoblastoma causes neutropenia in young children, allowing inhaled Aspergillus to invade as pulmonary aspergillosis.
 - `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — Eye loss and an inherited cancer weigh on families: enucleation, disfigurement and the burden of a heritable cancer with lifelong second-tumor surveillance contribute to depression in survivors and their parents.
+- `connects-to` → **[Wound Healing](../wound-healing/README.md)** — Enucleation is a healing challenge in a child: removing the eye and fitting an orbital implant leaves a socket that must heal, and chemotherapy and any orbital radiation slow and complicate that closure.
+- `connects-to` → **[Varicella-Zoster Virus](../../../02-pathogen/01-viruses/varicella-zoster-virus/README.md)** — Chemotherapy reawakens shingles: the systemic chemotherapy for retinoblastoma suppresses a child's immunity, allowing latent or primary varicella-zoster to cause severe disseminated infection.
+- `connects-to` → **[Generalized Anxiety Disorder](../generalized-anxiety-disorder/README.md)** — A heritable childhood cancer breeds lasting worry: vision loss, the genetic risk to future children and lifelong second-cancer surveillance after RB1 retinoblastoma foster chronic anxiety in survivors and families.
 
 [^knudson-1971-two-hit]: Knudson AG Jr. Mutation and cancer: statistical study of retinoblastoma. *Proc Natl Acad Sci USA.* 1971;68(4):820-823. [doi:10.1073/pnas.68.4.820](https://doi.org/10.1073/pnas.68.4.820) · [PubMed 5279523](https://pubmed.ncbi.nlm.nih.gov/5279523/)
 [^shields-2008-retinoblastoma]: Shields CL, Shields JA. Retinoblastoma management: advances in enucleation, intravenous chemoreduction, and intra-arterial chemotherapy. *Curr Opin Ophthalmol.* 2010;21(3):203-212. [doi:10.1097/ICU.0b013e328338676a](https://doi.org/10.1097/ICU.0b013e328338676a) · [PubMed 20224400](https://pubmed.ncbi.nlm.nih.gov/20224400/)
