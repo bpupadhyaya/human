@@ -178,6 +178,15 @@ cross_links:
   - target: 01-human/07-system/panic-disorder
     relation: connects-to
     note: "Unpredictable suffocation breeds fear: the threat of sudden, potentially fatal laryngeal swelling drives high rates of anxiety and panic in patients, a psychological toll that, like the depression already linked, is part of living with the disease."
+  - target: 01-human/05-tissue/intestinal-epithelium
+    relation: connects-to
+    note: "Attacks swell the gut wall from within: bradykinin-driven edema of the intestinal submucosa beneath the epithelium causes cramping pain, vomiting and even bowel obstruction, abdominal attacks so severe they are often mistaken for a surgical emergency."
+  - target: 01-human/03-molecular/ace2
+    relation: connects-to
+    note: "A second enzyme helps clear the trigger: ACE2 degrades the active bradykinin metabolite des-Arg9-bradykinin, so its activity helps terminate attacks — a counterpart to the ACE inhibition that, by blocking bradykinin breakdown, can precipitate angioedema."
+  - target: 01-human/07-system/generalized-anxiety-disorder
+    relation: connects-to
+    note: "Living between attacks breeds chronic worry: beyond acute fear, the constant vigilance over triggers, rescue medication and the unpredictability of the next swelling fosters a persistent generalized anxiety that constrains daily life."
 ---
 
 # Hereditary Angioedema
@@ -366,6 +375,9 @@ Fluid extravasation → ANGIOEDEMA
 - `connects-to` → **[Prostaglandins (Eicosanoids)](../../03-molecular/prostaglandins/README.md)** — Bradykinin works partly through downstream vasodilators: at the endothelium it triggers release of prostaglandins and nitric oxide that widen vessels and leak fluid, amplifying the swelling that defines an attack.
 - `connects-to` → **[Neutrophil](../../04-cellular/neutrophil/README.md)** — Innate inflammation feeds into the kinin system: neutrophil-derived proteases can cleave kininogen and activate the contact pathway, so the inflammation of an intercurrent infection can help tip a patient into an angioedema attack.
 - `connects-to` → **[Panic Disorder](../panic-disorder/README.md)** — Unpredictable suffocation breeds fear: the threat of sudden, potentially fatal laryngeal swelling drives high rates of anxiety and panic in patients, a psychological toll that, like the depression already linked, is part of living with the disease.
+- `connects-to` → **[Intestinal Epithelium](../../05-tissue/intestinal-epithelium/README.md)** — Attacks swell the gut wall from within: bradykinin-driven edema of the intestinal submucosa beneath the epithelium causes cramping pain, vomiting and even bowel obstruction, abdominal attacks so severe they are often mistaken for a surgical emergency.
+- `connects-to` → **[ACE2](../../03-molecular/ace2/README.md)** — A second enzyme helps clear the trigger: ACE2 degrades the active bradykinin metabolite des-Arg9-bradykinin, so its activity helps terminate attacks — a counterpart to the ACE inhibition that, by blocking bradykinin breakdown, can precipitate angioedema.
+- `connects-to` → **[Generalized Anxiety Disorder](../generalized-anxiety-disorder/README.md)** — Living between attacks breeds chronic worry: beyond acute fear, the constant vigilance over triggers, rescue medication and the unpredictability of the next swelling fosters a persistent generalized anxiety that constrains daily life.
 
 [^cicardi-2010-icatibant-nejm]: Cicardi M, Banerji A, Bracho F, et al. Icatibant, a new bradykinin-receptor antagonist, in hereditary angioedema. *N Engl J Med.* 2010;363(6):532-541. [doi:10.1056/NEJMoa0906393](https://doi.org/10.1056/NEJMoa0906393) · [PubMed 20818873](https://pubmed.ncbi.nlm.nih.gov/20818873/)
 [^maurer-2018-lanadelumab-help]: Banerji A, Riedl MA, Bernstein JA, et al. Effect of lanadelumab compared with placebo on prevention of hereditary angioedema attacks. *JAMA.* 2018;320(20):2108-2121. [doi:10.1001/jama.2018.16773](https://doi.org/10.1001/jama.2018.16773) · [PubMed 30480729](https://pubmed.ncbi.nlm.nih.gov/30480729/)

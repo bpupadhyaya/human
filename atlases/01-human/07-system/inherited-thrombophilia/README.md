@@ -178,6 +178,15 @@ cross_links:
   - target: 01-human/07-system/sepsis
     relation: connects-to
     note: "Overwhelming infection consumes the clotting system: sepsis-induced coagulopathy activates clotting bodywide toward microthrombi and DIC, an acquired hypercoagulable state that an underlying inherited thrombophilia can worsen."
+  - target: 01-human/03-molecular/nf-kb
+    relation: connects-to
+    note: "Inflammation turns the vessel wall procoagulant: NF-κB activation induces tissue factor and suppresses anticoagulant pathways on the endothelium, the thromboinflammatory link by which inflammation amplifies an inherited clotting tendency into overt thrombosis."
+  - target: 01-human/07-system/hcc
+    relation: connects-to
+    note: "It can clot the liver's own outflow: thrombophilia is a leading cause of Budd-Chiari syndrome, hepatic vein thrombosis that congests the liver into cirrhosis and, over years, can give rise to hepatocellular carcinoma."
+  - target: 01-human/07-system/essential-thrombocythemia
+    relation: connects-to
+    note: "An acquired cousin works through platelets: JAK2-mutant essential thrombocythemia raises clot risk via overproduced, hyperreactive platelets — an acquired thrombophilia distinct from the clotting-factor defects of the inherited forms that can compound them when both coexist."
 ---
 
 # Inherited Thrombophilia
@@ -390,6 +399,9 @@ Antithrombin (ATIII) is the primary plasma inhibitor of thrombin, FXa, FIXa, and
 - `connects-to` → **[Pancreatic Cancer](../pancreatic-cancer/README.md)** — Cancer is the great acquired thrombophilia: tumors — pancreatic cancer especially — pour out tissue factor and mucins that ignite clotting, the migratory Trousseau thrombophlebitis whose unexplained appearance can be the first clue to an occult malignancy.
 - `connects-to` → **[COVID-19 Disease](../covid-19-disease/README.md)** — Severe infection flips on clotting: COVID-19 drives an intense acquired prothrombotic state through endothelial injury and inflammation, multiplying thrombosis risk in patients who may also carry an inherited predisposition.
 - `connects-to` → **[Sepsis](../sepsis/README.md)** — Overwhelming infection consumes the clotting system: sepsis-induced coagulopathy activates clotting bodywide toward microthrombi and DIC, an acquired hypercoagulable state that an underlying inherited thrombophilia can worsen.
+- `connects-to` → **[NF-κB](../../03-molecular/nf-kb/README.md)** — Inflammation turns the vessel wall procoagulant: NF-κB activation induces tissue factor and suppresses anticoagulant pathways on the endothelium, the thromboinflammatory link by which inflammation amplifies an inherited clotting tendency into overt thrombosis.
+- `connects-to` → **[Hepatocellular Carcinoma](../hcc/README.md)** — It can clot the liver's own outflow: thrombophilia is a leading cause of Budd-Chiari syndrome, hepatic vein thrombosis that congests the liver into cirrhosis and, over years, can give rise to hepatocellular carcinoma.
+- `connects-to` → **[Essential Thrombocythemia](../essential-thrombocythemia/README.md)** — An acquired cousin works through platelets: JAK2-mutant essential thrombocythemia raises clot risk via overproduced, hyperreactive platelets — an acquired thrombophilia distinct from the clotting-factor defects of the inherited forms that can compound them when both coexist.
 
 [^bertina-1994-factor-v-leiden]: Bertina RM, Koeleman BP, Koster T, et al. Mutation in blood coagulation factor V associated with resistance to activated protein C. *Nature.* 1994;369(6475):64-67. [doi:10.1038/369064a0](https://doi.org/10.1038/369064a0) · [PubMed 8164741](https://pubmed.ncbi.nlm.nih.gov/8164741/)
 [^dahlback-2008-protein-c-review]: Dahlbäck B. Advances in understanding pathogenic mechanisms of thrombophilic disorders. *Blood.* 2008;112(1):19-27. [doi:10.1182/blood-2008-01-077909](https://doi.org/10.1182/blood-2008-01-077909) · [PubMed 18574048](https://pubmed.ncbi.nlm.nih.gov/18574048/)
