@@ -187,6 +187,15 @@ cross_links:
   - target: 01-human/07-system/sepsis
     relation: connects-to
     note: "A bleeding or ruptured tumor can seed infection: GISTs ulcerate into the gut lumen and can rupture into the peritoneum, and the major resections they require risk anastomotic leak and abdominal sepsis."
+  - target: 01-human/07-system/anemia-of-chronic-disease
+    relation: connects-to
+    note: "Chronic GI bleeding and inflammation lower the count: beyond the iron-deficiency anemia from tumor ulceration, the inflammatory burden of GIST adds an anemia-of-chronic-disease component, especially in advanced disease."
+  - target: 01-human/07-system/heart-failure
+    relation: connects-to
+    note: "Its targeted drugs can strain the heart: sunitinib and other later-line tyrosine-kinase inhibitors for GIST cause hypertension and a cardiotoxicity that can precipitate left-ventricular dysfunction and heart failure."
+  - target: 01-human/07-system/ckd
+    relation: connects-to
+    note: "Later-line TKIs are hard on the kidney: sunitinib and regorafenib used in advanced GIST cause hypertension and proteinuria with glomerular injury, which over prolonged therapy can progress to chronic kidney disease."
 ---
 
 # GIST
@@ -374,6 +383,9 @@ No approved targeted therapy; sunitinib may have modest activity; clinical trial
 - `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — Constitutive KIT signals through STAT3: the mutant KIT or PDGFRA driving GIST activates STAT3 among its downstream pathways, supporting proliferation and survival alongside the PI3K-AKT and MAPK arms.
 - `connects-to` → **[NF-κB](../../03-molecular/nf-kb/README.md)** — KIT routes survival through NF-κB too: oncogenic KIT signaling engages NF-κB to sustain GIST-cell survival, part of the network that keeps the tumor alive and contributes to imatinib resistance.
 - `connects-to` → **[Sepsis](../sepsis/README.md)** — A bleeding or ruptured tumor can seed infection: GISTs ulcerate into the gut lumen and can rupture into the peritoneum, and the major resections they require risk anastomotic leak and abdominal sepsis.
+- `connects-to` → **[Anemia of Chronic Disease](../anemia-of-chronic-disease/README.md)** — Chronic GI bleeding and inflammation lower the count: beyond the iron-deficiency anemia from tumor ulceration, the inflammatory burden of GIST adds an anemia-of-chronic-disease component, especially in advanced disease.
+- `connects-to` → **[Heart Failure](../heart-failure/README.md)** — Its targeted drugs can strain the heart: sunitinib and other later-line tyrosine-kinase inhibitors for GIST cause hypertension and a cardiotoxicity that can precipitate left-ventricular dysfunction and heart failure.
+- `connects-to` → **[Chronic Kidney Disease](../ckd/README.md)** — Later-line TKIs are hard on the kidney: sunitinib and regorafenib used in advanced GIST cause hypertension and proteinuria with glomerular injury, which over prolonged therapy can progress to chronic kidney disease.
 
 ---
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*

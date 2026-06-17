@@ -187,6 +187,15 @@ cross_links:
   - target: 01-human/07-system/sepsis
     relation: connects-to
     note: "Long steroid courses invite infection: GCA demands prolonged high-dose glucocorticoids, often in older patients, leaving them prone to serious infection and sepsis — a leading cause of treatment-related death."
+  - target: 01-human/07-system/anemia-of-chronic-disease
+    relation: connects-to
+    note: "Its inflammation blunts the marrow: GCA's intense IL-6-driven acute-phase response raises hepcidin and suppresses erythropoiesis, so a normocytic anemia of chronic disease is a common and supportive diagnostic clue."
+  - target: 02-pathogen/03-fungi/pneumocystis-jirovecii
+    relation: connects-to
+    note: "Prolonged high-dose steroids open the lung: the months of glucocorticoids that control GCA deplete T-cell defenses, raising Pneumocystis pneumonia risk enough that prophylaxis is considered in higher-dose regimens."
+  - target: 01-human/07-system/major-depressive-disorder
+    relation: connects-to
+    note: "Steroids and vision loss weigh on mood: the high-dose glucocorticoids for GCA cause mood disturbance and depression, compounded by the fear and disability of the irreversible blindness the disease can cause."
 ---
 
 # Giant Cell Arteritis
@@ -358,6 +367,9 @@ The temporal arteries supply scalp, temporalis muscle, and dura. In GCA, transmu
 - `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — IL-6 drives the arteritis through STAT3: the hallmark IL-6 of GCA signals via JAK-STAT3 to sustain the Th17 and macrophage response in the vessel wall, the axis that the IL-6 blocker tocilizumab interrupts.
 - `connects-to` → **[Venous Thromboembolism](../venous-thromboembolism/README.md)** — Systemic inflammation raises the clot risk: the intense acute-phase response of GCA, plus the high-dose corticosteroids used to treat it, increase the risk of venous thromboembolism.
 - `connects-to` → **[Sepsis](../sepsis/README.md)** — Long steroid courses invite infection: GCA demands prolonged high-dose glucocorticoids, often in older patients, leaving them prone to serious infection and sepsis — a leading cause of treatment-related death.
+- `connects-to` → **[Anemia of Chronic Disease](../anemia-of-chronic-disease/README.md)** — Its inflammation blunts the marrow: GCA's intense IL-6-driven acute-phase response raises hepcidin and suppresses erythropoiesis, so a normocytic anemia of chronic disease is a common and supportive diagnostic clue.
+- `connects-to` → **[Pneumocystis jirovecii](../../../02-pathogen/03-fungi/pneumocystis-jirovecii/README.md)** — Prolonged high-dose steroids open the lung: the months of glucocorticoids that control GCA deplete T-cell defenses, raising Pneumocystis pneumonia risk enough that prophylaxis is considered in higher-dose regimens.
+- `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — Steroids and vision loss weigh on mood: the high-dose glucocorticoids for GCA cause mood disturbance and depression, compounded by the fear and disability of the irreversible blindness the disease can cause.
 
 [^stone-2017-giact]: Stone JH, Tuckwell K, Dimonaco S, et al. Trial of tocilizumab in giant-cell arteritis. *N Engl J Med.* 2017;377(4):317-328. [doi:10.1056/NEJMoa1613849](https://doi.org/10.1056/NEJMoa1613849) · [PubMed 28745999](https://pubmed.ncbi.nlm.nih.gov/28745999/)
 [^weyand-2014-gca-review]: Weyand CM, Goronzy JJ. Clinical practice. Giant-cell arteritis and polymyalgia rheumatica. *N Engl J Med.* 2014;371(1):50-57. [doi:10.1056/NEJMcp1214926](https://doi.org/10.1056/NEJMcp1214926) · [PubMed 24988557](https://pubmed.ncbi.nlm.nih.gov/24988557/)
