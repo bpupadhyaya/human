@@ -178,6 +178,15 @@ cross_links:
   - target: 01-human/07-system/venous-thromboembolism
     relation: connects-to
     note: "Lymphoma and its therapy clot the veins: bulky mantle cell lymphoma and its chemotherapy raise venous thromboembolism risk, a complication watched for through the disease's aggressive treatment course."
+  - target: 01-human/07-system/sepsis
+    relation: connects-to
+    note: "Deep immunosuppression invites infection: the intensive chemoimmunotherapy, BTK inhibitors and CAR-T used against mantle cell lymphoma cause profound neutropenia and B-cell depletion, making febrile neutropenia and sepsis a leading danger."
+  - target: 02-pathogen/03-fungi/pneumocystis-jirovecii
+    relation: connects-to
+    note: "B-cell-directed therapy opens the lung to an opportunist: rituximab and BTK-inhibitor treatment of mantle cell lymphoma suppress immunity enough that Pneumocystis pneumonia becomes a risk, prompting prophylaxis."
+  - target: 01-human/07-system/anemia-of-chronic-disease
+    relation: connects-to
+    note: "Marrow infiltration and inflammation lower the count: mantle cell lymphoma commonly involves the bone marrow and raises inflammatory cytokines, producing an anemia of chronic disease on top of any marrow crowding."
 ---
 
 # Mantle Cell Lymphoma
@@ -353,6 +362,9 @@ For SOX11−, mutated IGHV, non-bulky, asymptomatic nnMCL: Observation is safe; 
 - `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — STAT3 backs up the survival signal: alongside constitutive NF-κB, JAK-STAT3 activation sustains mantle cell lymphoma and contributes to its resistance to BTK inhibitors, marking another targetable node.
 - `connects-to` → **[Cytokine Storm](../cytokine-storm/README.md)** — CAR-T cure can spark a storm: brexucabtagene autoleucel for relapsed mantle cell lymphoma routinely triggers cytokine release syndrome as the engineered cells engage, managed with the IL-6 blocker tocilizumab.
 - `connects-to` → **[Venous Thromboembolism](../venous-thromboembolism/README.md)** — Lymphoma and its therapy clot the veins: bulky mantle cell lymphoma and its chemotherapy raise venous thromboembolism risk, a complication watched for through the disease's aggressive treatment course.
+- `connects-to` → **[Sepsis](../sepsis/README.md)** — Deep immunosuppression invites infection: the intensive chemoimmunotherapy, BTK inhibitors and CAR-T used against mantle cell lymphoma cause profound neutropenia and B-cell depletion, making febrile neutropenia and sepsis a leading danger.
+- `connects-to` → **[Pneumocystis jirovecii](../../../02-pathogen/03-fungi/pneumocystis-jirovecii/README.md)** — B-cell-directed therapy opens the lung to an opportunist: rituximab and BTK-inhibitor treatment of mantle cell lymphoma suppress immunity enough that Pneumocystis pneumonia becomes a risk, prompting prophylaxis.
+- `connects-to` → **[Anemia of Chronic Disease](../anemia-of-chronic-disease/README.md)** — Marrow infiltration and inflammation lower the count: mantle cell lymphoma commonly involves the bone marrow and raises inflammatory cytokines, producing an anemia of chronic disease on top of any marrow crowding.
 
 ---
 

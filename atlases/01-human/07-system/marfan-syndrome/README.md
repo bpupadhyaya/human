@@ -178,6 +178,15 @@ cross_links:
   - target: 01-human/07-system/venous-thromboembolism
     relation: connects-to
     note: "Major aortic surgery brings clot risk: the prophylactic aortic root and valve operations central to Marfan care carry a perioperative venous thromboembolism risk requiring prophylaxis."
+  - target: 01-human/03-molecular/connexin43
+    relation: connects-to
+    note: "The Marfan heart can beat erratically: gap-junction remodeling and a primary myopathy predispose to ventricular arrhythmia and sudden cardiac death, a risk in Marfan beyond the aortic and valve disease."
+  - target: 01-human/03-molecular/troponin-complex
+    relation: connects-to
+    note: "The heart muscle itself is affected: Marfan can cause a primary cardiomyopathy independent of valve and aortic disease, with subclinical myocardial dysfunction reflected in troponin and impaired contractility."
+  - target: 01-human/07-system/major-depressive-disorder
+    relation: connects-to
+    note: "Living with a life-threatening syndrome weighs on the mind: the activity restrictions, body-image concerns and fear of aortic dissection in Marfan drive elevated rates of depression alongside its anxiety."
 ---
 
 # Marfan Syndrome
@@ -370,6 +379,9 @@ MFS is a **multi-system disorder** defined by cardiovascular, ocular, and skelet
 - `connects-to` → **[Nitric Oxide](../../03-molecular/nitric-oxide/README.md)** — The aortic endothelium loses its NO balance: dysregulated endothelial nitric-oxide signaling in Marfan contributes to the stiffening and weakening of the aortic wall, part of the vascular dysfunction behind aneurysm formation.
 - `connects-to` → **[Endothelin-1](../../03-molecular/endothelin-1/README.md)** — Vasoactive signaling remodels the wall: raised endothelin-1 promotes smooth-muscle and matrix changes in the Marfan aorta, adding a vasoconstrictor-driven arm to the TGF-β-led remodeling that grows the aneurysm.
 - `connects-to` → **[Venous Thromboembolism](../venous-thromboembolism/README.md)** — Major aortic surgery brings clot risk: the prophylactic aortic root and valve operations central to Marfan care carry a perioperative venous thromboembolism risk requiring prophylaxis.
+- `connects-to` → **[Connexin-43](../../03-molecular/connexin43/README.md)** — The Marfan heart can beat erratically: gap-junction remodeling and a primary myopathy predispose to ventricular arrhythmia and sudden cardiac death, a risk in Marfan beyond the aortic and valve disease.
+- `connects-to` → **[Troponin complex](../../03-molecular/troponin-complex/README.md)** — The heart muscle itself is affected: Marfan can cause a primary cardiomyopathy independent of valve and aortic disease, with subclinical myocardial dysfunction reflected in troponin and impaired contractility.
+- `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — Living with a life-threatening syndrome weighs on the mind: the activity restrictions, body-image concerns and fear of aortic dissection in Marfan drive elevated rates of depression alongside its anxiety.
 
 ---
 
