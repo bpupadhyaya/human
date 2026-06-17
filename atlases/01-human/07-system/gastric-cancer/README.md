@@ -196,6 +196,15 @@ cross_links:
   - target: 01-human/07-system/major-depressive-disorder
     relation: connects-to
     note: "Gastrectomy and a poor prognosis weigh on mood: loss of the stomach, the eating difficulties of dumping and weight loss, and a guarded outlook give gastric cancer a substantial burden of depression."
+  - target: 01-human/07-system/osteoporosis
+    relation: connects-to
+    note: "Gastrectomy starves bone of nutrients: removing the stomach impairs absorption of calcium, vitamin D and B12, and the resulting metabolic bone disease accelerates osteoporosis after gastric-cancer surgery."
+  - target: 01-human/07-system/neuropathic-pain
+    relation: connects-to
+    note: "Its platinum chemo and B12 loss injure nerves: the oxaliplatin and cisplatin used for gastric cancer cause peripheral neuropathy, compounded by the B12 deficiency of gastrectomy, producing neuropathic pain."
+  - target: 02-pathogen/03-fungi/aspergillus-fumigatus
+    relation: connects-to
+    note: "Chemotherapy opens the lung to mold: the neutropenia from platinum-based gastric-cancer chemotherapy can let inhaled Aspergillus invade as pulmonary aspergillosis."
 ---
 
 # Gastric Cancer
@@ -402,6 +411,9 @@ H. pylori eradication: Reduces GC incidence by ~35-40% (meta-analyses); most ben
 - `connects-to` → **[Chronic Kidney Disease](../ckd/README.md)** — Its platinum chemo and obstruction strain the kidney: the cisplatin and oxaliplatin used against gastric cancer are nephrotoxic, and outlet obstruction with poor intake adds prerenal injury, together threatening chronic kidney disease.
 - `connects-to` → **[Heart Failure](../heart-failure/README.md)** — Its fluoropyrimidine chemo can wound the heart: the 5-fluorouracil and capecitabine in gastric-cancer regimens cause coronary vasospasm and cardiotoxicity that can precipitate ischemia and cardiac dysfunction.
 - `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — Gastrectomy and a poor prognosis weigh on mood: loss of the stomach, the eating difficulties of dumping and weight loss, and a guarded outlook give gastric cancer a substantial burden of depression.
+- `connects-to` → **[Osteoporosis](../osteoporosis/README.md)** — Gastrectomy starves bone of nutrients: removing the stomach impairs absorption of calcium, vitamin D and B12, and the resulting metabolic bone disease accelerates osteoporosis after gastric-cancer surgery.
+- `connects-to` → **[Neuropathic Pain](../neuropathic-pain/README.md)** — Its platinum chemo and B12 loss injure nerves: the oxaliplatin and cisplatin used for gastric cancer cause peripheral neuropathy, compounded by the B12 deficiency of gastrectomy, producing neuropathic pain.
+- `connects-to` → **[Aspergillus fumigatus](../../../02-pathogen/03-fungi/aspergillus-fumigatus/README.md)** — Chemotherapy opens the lung to mold: the neutropenia from platinum-based gastric-cancer chemotherapy can let inhaled Aspergillus invade as pulmonary aspergillosis.
 
 [^bang-2010-toga]: Bang YJ, Van Cutsem E, Feyereislova A, et al. Trastuzumab in combination with chemotherapy versus chemotherapy alone for treatment of HER2-positive advanced gastric or gastro-oesophageal junction cancer (ToGA): a phase 3, open-label, randomised controlled trial. *Lancet.* 2010;376(9742):687-697. [doi:10.1016/S0140-6736(10)61121-X](https://doi.org/10.1016/S0140-6736(10)61121-X) · [PubMed 20728210](https://pubmed.ncbi.nlm.nih.gov/20728210/)
 [^janjigian-2021-checkmate649]: Janjigian YY, Shitara K, Moehler M, et al. First-line nivolumab plus chemotherapy versus chemotherapy alone for advanced gastric, gastro-oesophageal junction, and oesophageal adenocarcinoma (CheckMate 649). *Lancet.* 2021;398(10294):27-40. [doi:10.1016/S0140-6736(21)00797-2](https://doi.org/10.1016/S0140-6736(21)00797-2) · [PubMed 34102137](https://pubmed.ncbi.nlm.nih.gov/34102137/)
