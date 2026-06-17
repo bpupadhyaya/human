@@ -187,6 +187,15 @@ cross_links:
   - target: 01-human/07-system/venous-thromboembolism
     relation: connects-to
     note: "Cancer and long reconstructive surgery clot the veins: head-and-neck squamous cell carcinoma carries tumor-driven hypercoagulability, and its lengthy free-flap reconstructions add major perioperative venous thromboembolism risk."
+  - target: 01-human/07-system/major-depressive-disorder
+    relation: connects-to
+    note: "Disfigurement and lost speech devastate: head-and-neck cancer disrupts the face, voice and swallowing, and carries among the highest rates of depression and suicide of any cancer."
+  - target: 01-human/07-system/anemia-of-chronic-disease
+    relation: connects-to
+    note: "Chronic disease and treatment lower the count: tumor bleeding, the inflammatory burden of HNSCC and the marrow effects of chemoradiation combine to produce an anemia that also blunts radiotherapy response."
+  - target: 02-pathogen/03-fungi/aspergillus-fumigatus
+    relation: connects-to
+    note: "Damaged sinonasal tissue and immunosuppression let mold in: radiation injury, mucosal breakdown and chemotherapy in head-and-neck cancer can permit invasive sinonasal or pulmonary aspergillosis."
 ---
 
 # HNSCC
@@ -358,6 +367,9 @@ HPV+ oropharyngeal: Node staging based on number (not laterality); HPV-negative 
 - `connects-to` → **[Candida albicans](../../../02-pathogen/03-fungi/candida-albicans/README.md)** — Radiation strips the mouth's defenses for a fungus: the mucositis and xerostomia of head-and-neck radiotherapy, on top of the tumor itself, let Candida overgrow into oral and esophageal candidiasis that hampers eating and treatment.
 - `connects-to` → **[Stroke](../stroke/README.md)** — Neck irradiation scars the carotids: radiotherapy to head-and-neck cancer accelerates carotid atherosclerosis and stenosis, raising the risk of ischemic stroke years after treatment.
 - `connects-to` → **[Venous Thromboembolism](../venous-thromboembolism/README.md)** — Cancer and long reconstructive surgery clot the veins: head-and-neck squamous cell carcinoma carries tumor-driven hypercoagulability, and its lengthy free-flap reconstructions add major perioperative venous thromboembolism risk.
+- `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — Disfigurement and lost speech devastate: head-and-neck cancer disrupts the face, voice and swallowing, and carries among the highest rates of depression and suicide of any cancer.
+- `connects-to` → **[Anemia of Chronic Disease](../anemia-of-chronic-disease/README.md)** — Chronic disease and treatment lower the count: tumor bleeding, the inflammatory burden of HNSCC and the marrow effects of chemoradiation combine to produce an anemia that also blunts radiotherapy response.
+- `connects-to` → **[Aspergillus fumigatus](../../../02-pathogen/03-fungi/aspergillus-fumigatus/README.md)** — Damaged sinonasal tissue and immunosuppression let mold in: radiation injury, mucosal breakdown and chemotherapy in head-and-neck cancer can permit invasive sinonasal or pulmonary aspergillosis.
 
 [^burtness-2019-keynote048]: Burtness B, Harrington KJ, Greil R, et al. Pembrolizumab alone or with chemotherapy versus cetuximab with chemotherapy for recurrent or metastatic squamous cell carcinoma of the head and neck (KEYNOTE-048). *Lancet.* 2019;394(10212):1915-1928. [doi:10.1016/S0140-6736(19)32591-7](https://doi.org/10.1016/S0140-6736(19)32591-7) · [PubMed 31679945](https://pubmed.ncbi.nlm.nih.gov/31679945/)
 [^vermorken-2008-extreme]: Vermorken JB, Mesia R, Rivera F, et al. Platinum-based chemotherapy plus cetuximab in head and neck cancer. *N Engl J Med.* 2008;359(11):1116-1127. [doi:10.1056/NEJMoa0802656](https://doi.org/10.1056/NEJMoa0802656) · [PubMed 18784101](https://pubmed.ncbi.nlm.nih.gov/18784101/)

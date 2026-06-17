@@ -187,6 +187,15 @@ cross_links:
   - target: 01-human/07-system/sepsis
     relation: connects-to
     note: "Advanced renal cancer and its therapy invite infection: metastatic HLRCC kidney cancer and the systemic treatment it requires can cause the immune compromise and complications that lead to sepsis."
+  - target: 01-human/07-system/anemia-of-chronic-disease
+    relation: connects-to
+    note: "Its aggressive kidney cancer drags the count down: the inflammatory burden of HLRCC's early-metastasizing renal cell carcinoma, with nephron loss and surgery, contributes an anemia of chronic disease."
+  - target: 01-human/07-system/heart-failure
+    relation: connects-to
+    note: "Its antiangiogenic therapy strains the heart: the bevacizumab-erlotinib and VEGF-targeted regimens used for HLRCC-associated renal cancer cause hypertension and cardiotoxicity that can contribute to heart failure."
+  - target: 01-human/07-system/major-depressive-disorder
+    relation: connects-to
+    note: "An aggressive hereditary cancer weighs on the mind: living with the high risk of an early, aggressive kidney cancer and the demands of lifelong surveillance imposes a substantial psychological burden in HLRCC."
 ---
 
 # Hereditary Leiomyomatosis and Renal Cell Carcinoma
@@ -375,6 +384,9 @@ Cutaneous:
 - `connects-to` → **[NF-κB](../../03-molecular/nf-kb/README.md)** — An oncometabolite rewires the cell's signaling: fumarate accumulating from FH loss succinates proteins and, alongside its activation of NRF2 and HIF, engages NF-κB-linked survival and inflammatory signaling in HLRCC tumors.
 - `connects-to` → **[Chronic Kidney Disease](../ckd/README.md)** — Saving the kidney costs function: the aggressive renal cell carcinoma of HLRCC demands prompt, sometimes radical surgery, and the loss of renal tissue across a lifetime of surveillance can drift toward chronic kidney disease.
 - `connects-to` → **[Sepsis](../sepsis/README.md)** — Advanced renal cancer and its therapy invite infection: metastatic HLRCC kidney cancer and the systemic treatment it requires can cause the immune compromise and complications that lead to sepsis.
+- `connects-to` → **[Anemia of Chronic Disease](../anemia-of-chronic-disease/README.md)** — Its aggressive kidney cancer drags the count down: the inflammatory burden of HLRCC's early-metastasizing renal cell carcinoma, with nephron loss and surgery, contributes an anemia of chronic disease.
+- `connects-to` → **[Heart Failure](../heart-failure/README.md)** — Its antiangiogenic therapy strains the heart: the bevacizumab-erlotinib and VEGF-targeted regimens used for HLRCC-associated renal cancer cause hypertension and cardiotoxicity that can contribute to heart failure.
+- `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — An aggressive hereditary cancer weighs on the mind: living with the high risk of an early, aggressive kidney cancer and the demands of lifelong surveillance imposes a substantial psychological burden in HLRCC.
 
 [^tomlinson-2002-fh]: Tomlinson IP, Alam NA, Rowan AJ, et al. Germline mutations in FH predispose to dominantly inherited uterine fibroids, skin leiomyomata and papillary renal cell cancer. *Nat Genet.* 2002;30(4):406-410. [doi:10.1038/ng849](https://doi.org/10.1038/ng849) · [PubMed 11865300](https://pubmed.ncbi.nlm.nih.gov/11865300/)
 [^linehan-2013-fh-review]: Linehan WM, Rouault TA. Molecular pathways: fumarate hydratase-deficient kidney cancer — targeting the Warburg effect in cancer. *Clin Cancer Res.* 2013;19(13):3345-3352. [doi:10.1158/1078-0432.CCR-13-0304](https://doi.org/10.1158/1078-0432.CCR-13-0304) · [PubMed 23836472](https://pubmed.ncbi.nlm.nih.gov/23836472/)
