@@ -187,6 +187,15 @@ cross_links:
   - target: 01-human/07-system/ckd
     relation: connects-to
     note: "Overactive parathyroids scar the kidneys: the primary hyperparathyroidism that is MEN1's commonest feature drives hypercalcemia, kidney stones and nephrocalcinosis that can erode renal function into chronic kidney disease."
+  - target: 01-human/07-system/type-2-diabetes
+    relation: connects-to
+    note: "Its pancreatic tumors derange glucose: MEN1 glucagonomas and somatostatinomas raise blood sugar, and the pancreatic surgery its tumors require removes islet tissue, together causing a secondary diabetes."
+  - target: 01-human/07-system/venous-thromboembolism
+    relation: connects-to
+    note: "A lifetime of cancer surgery raises the clot risk: the repeated operations for MEN1's pancreatic, parathyroid and pituitary tumors, plus the hypercoagulability of its neuroendocrine cancers, predispose to venous thromboembolism."
+  - target: 01-human/07-system/major-depressive-disorder
+    relation: connects-to
+    note: "Hormones and hereditary burden weigh on mood: Cushing's from a pituitary tumor, the psychiatric effects of hypercalcemia, and lifelong multi-tumor surveillance give MEN1 a substantial burden of depression."
 ---
 
 # MEN1 Syndrome
@@ -363,6 +372,9 @@ Menin haploinsufficiency (one functional allele) creates susceptibility: cells a
 - `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — Menin loss reshapes transcriptional signaling: the menin scaffold normally tunes gene expression, and its loss in MEN1 tumors engages STAT3 among the pathways that drive neuroendocrine-cell proliferation.
 - `connects-to` → **[EZH2](../../03-molecular/ezh2/README.md)** — Menin sits in the chromatin-writing machinery: it anchors the MLL histone-methyltransferase complex, and its loss disturbs the balance with the opposing EZH2/PRC2 mark, an epigenetic dysregulation behind MEN1 tumors.
 - `connects-to` → **[Chronic Kidney Disease](../ckd/README.md)** — Overactive parathyroids scar the kidneys: the primary hyperparathyroidism that is MEN1's commonest feature drives hypercalcemia, kidney stones and nephrocalcinosis that can erode renal function into chronic kidney disease.
+- `connects-to` → **[Type 2 Diabetes](../type-2-diabetes/README.md)** — Its pancreatic tumors derange glucose: MEN1 glucagonomas and somatostatinomas raise blood sugar, and the pancreatic surgery its tumors require removes islet tissue, together causing a secondary diabetes.
+- `connects-to` → **[Venous Thromboembolism](../venous-thromboembolism/README.md)** — A lifetime of cancer surgery raises the clot risk: the repeated operations for MEN1's pancreatic, parathyroid and pituitary tumors, plus the hypercoagulability of its neuroendocrine cancers, predispose to venous thromboembolism.
+- `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — Hormones and hereditary burden weigh on mood: Cushing's from a pituitary tumor, the psychiatric effects of hypercalcemia, and lifelong multi-tumor surveillance give MEN1 a substantial burden of depression.
 
 ---
 

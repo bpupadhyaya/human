@@ -187,6 +187,15 @@ cross_links:
   - target: 01-human/07-system/ckd
     relation: connects-to
     note: "Its hyperparathyroidism harms the kidneys: like MEN1, MEN4's primary hyperparathyroidism causes hypercalcemia, nephrolithiasis and nephrocalcinosis that can progress to chronic kidney disease."
+  - target: 01-human/07-system/type-2-diabetes
+    relation: connects-to
+    note: "Its pancreatic and pituitary tumors derange glucose: MEN4's neuroendocrine tumors and any acromegaly from a growth-hormone-secreting pituitary tumor disturb glucose metabolism, while pancreatic surgery can leave a secondary diabetes."
+  - target: 01-human/07-system/major-depressive-disorder
+    relation: connects-to
+    note: "Hormones and hereditary surveillance weigh on mood: hypercalcemia's psychiatric effects, any Cushing's from a pituitary tumor and the burden of lifelong multi-tumor monitoring contribute to depression in MEN4."
+  - target: 01-human/07-system/anemia-of-chronic-disease
+    relation: connects-to
+    note: "Its tumors and renal disease lower the count: advanced neuroendocrine tumors with their inflammation, plus the renal impairment from hyperparathyroidism, can produce an anemia of chronic disease."
 ---
 
 # MEN4 Syndrome
@@ -355,6 +364,9 @@ When clinical MEN features are present:
 - `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — AKT controls the very brake MEN4 loses: AKT phosphorylates and inactivates the p27 (CDKN1B) cell-cycle inhibitor, so the germline CDKN1B loss of MEN4 mimics the unchecked proliferation that AKT signaling would otherwise drive.
 - `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — Lost cell-cycle restraint meets growth signaling: with p27 gone, MEN4 neuroendocrine cells proliferate under STAT3 and other pro-growth pathways, part of the signaling that fuels its parathyroid and pituitary tumors.
 - `connects-to` → **[Chronic Kidney Disease](../ckd/README.md)** — Its hyperparathyroidism harms the kidneys: like MEN1, MEN4's primary hyperparathyroidism causes hypercalcemia, nephrolithiasis and nephrocalcinosis that can progress to chronic kidney disease.
+- `connects-to` → **[Type 2 Diabetes](../type-2-diabetes/README.md)** — Its pancreatic and pituitary tumors derange glucose: MEN4's neuroendocrine tumors and any acromegaly from a growth-hormone-secreting pituitary tumor disturb glucose metabolism, while pancreatic surgery can leave a secondary diabetes.
+- `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — Hormones and hereditary surveillance weigh on mood: hypercalcemia's psychiatric effects, any Cushing's from a pituitary tumor and the burden of lifelong multi-tumor monitoring contribute to depression in MEN4.
+- `connects-to` → **[Anemia of Chronic Disease](../anemia-of-chronic-disease/README.md)** — Its tumors and renal disease lower the count: advanced neuroendocrine tumors with their inflammation, plus the renal impairment from hyperparathyroidism, can produce an anemia of chronic disease.
 
 [^alrezk-2017-men4]: Alrezk R, Hannah-Shmouni F, Stratakis CA. MEN4 and CDKN1B mutations: the latest of the MEN syndromes. *Endocr Relat Cancer.* 2017;24(10):T195-T208. [doi:10.1530/ERC-17-0243](https://doi.org/10.1530/ERC-17-0243) · [PubMed 28894007](https://pubmed.ncbi.nlm.nih.gov/28894007/)
 [^pellegata-2006-cdkn1b-men4]: Pellegata NS, Quintanilla-Martinez L, Siggelkow H, et al. Germ-line mutations in p27Kip1 cause a multiple endocrine neoplasia syndrome in rats and humans. *Proc Natl Acad Sci USA.* 2006;103(42):15558-15563. [doi:10.1073/pnas.0603306103](https://doi.org/10.1073/pnas.0603306103) · [PubMed 17030811](https://pubmed.ncbi.nlm.nih.gov/17030811/)
