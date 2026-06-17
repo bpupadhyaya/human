@@ -168,6 +168,15 @@ cross_links:
   - target: 01-human/07-system/schizophrenia
     relation: connects-to
     note: "Gaming can become an escape in social withdrawal: people with schizophrenia show higher rates of problematic internet and gaming use, where immersive play substitutes for real-world contact blunted by negative symptoms."
+  - target: 01-human/07-system/stroke
+    relation: connects-to
+    note: "Marathon sessions can prove deadly: prolonged immobile gaming with poor hydration risks venous clots and, in rare reported cases, fatal stroke or pulmonary embolism — the extreme physical end of the behavior."
+  - target: 01-human/07-system/panic-disorder
+    relation: connects-to
+    note: "Withdrawal and overstimulation can spark panic: forced cessation triggers autonomic arousal, and the hyperstimulating, high-stakes nature of compulsive play feeds the autonomic dysregulation underlying panic attacks."
+  - target: 01-human/07-system/borderline-personality-disorder
+    relation: connects-to
+    note: "Emotional dysregulation seeks the screen: gaming offers escape and reward for the unstable affect and emptiness of borderline personality disorder, and the two co-occur, each amplifying the other's avoidance of distress."
 sources:
   - id: kuss-2012-gaming-disorder-review
     type: peer-reviewed
@@ -392,6 +401,9 @@ A pattern of persistent or recurrent gaming behavior characterized by:
 - `connects-to` → **[Nervous System](../nervous-system/README.md)** — At its core it hijacks the brain's reward wiring: internet gaming disorder is a behavioral addiction rooted in the nervous system's dopaminergic reward and prefrontal control circuits, the same networks dysregulated in substance addictions.
 - `connects-to` → **[Bipolar Disorder](../bipolar-disorder/README.md)** — Mood instability and excessive gaming travel together: bipolar disorder is over-represented among problem gamers, with impulsivity during hypomania and withdrawal into games during depression feeding the behavior.
 - `connects-to` → **[Schizophrenia](../schizophrenia/README.md)** — Gaming can become an escape in social withdrawal: people with schizophrenia show higher rates of problematic internet and gaming use, where immersive play substitutes for real-world contact blunted by negative symptoms.
+- `connects-to` → **[Stroke](../stroke/README.md)** — Marathon sessions can prove deadly: prolonged immobile gaming with poor hydration risks venous clots and, in rare reported cases, fatal stroke or pulmonary embolism — the extreme physical end of the behavior.
+- `connects-to` → **[Panic Disorder](../panic-disorder/README.md)** — Withdrawal and overstimulation can spark panic: forced cessation triggers autonomic arousal, and the hyperstimulating, high-stakes nature of compulsive play feeds the autonomic dysregulation underlying panic attacks.
+- `connects-to` → **[Borderline Personality Disorder](../borderline-personality-disorder/README.md)** — Emotional dysregulation seeks the screen: gaming offers escape and reward for the unstable affect and emptiness of borderline personality disorder, and the two co-occur, each amplifying the other's avoidance of distress.
 
 [^kuss-2012-gaming-disorder-review]: Kuss DJ, Griffiths MD. Internet gaming addiction: a systematic review of empirical research. *Int J Ment Health Addict.* 2012;10(2):278-296. [doi:10.1007/s11469-011-9318-5](https://doi.org/10.1007/s11469-011-9318-5)
 [^who-icd11-gaming-disorder]: World Health Organization. ICD-11: Gaming Disorder (6C51). Geneva: WHO; 2019. [icd.who.int](https://icd.who.int/browse/2025-01/mms/en#1448597234)

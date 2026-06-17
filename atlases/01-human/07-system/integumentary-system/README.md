@@ -179,6 +179,15 @@ cross_links:
   - target: 01-human/07-system/sepsis
     relation: connects-to
     note: "Breach the barrier widely and infection goes systemic: extensive burns, pressure ulcers or severe cellulitis let skin flora into the bloodstream, making the skin's failure a common gateway to life-threatening sepsis."
+  - target: 01-human/07-system/psoriatic-arthritis
+    relation: connects-to
+    note: "Skin disease can spread to the joints: in a fraction of people with psoriasis of the skin, the same immune process attacks the joints as psoriatic arthritis, a skin-to-joint axis driven by shared IL-17/IL-23 inflammation."
+  - target: 01-human/07-system/dermatomyositis
+    relation: connects-to
+    note: "Its rash is a window onto systemic disease: the heliotrope eyelids and Gottron's papules of dermatomyositis are skin signs of an autoimmune myopathy, the integument flagging a deeper muscle and sometimes malignant process."
+  - target: 02-pathogen/03-fungi/aspergillus-fumigatus
+    relation: connects-to
+    note: "Broken skin lets the mold in directly: in burns, surgical wounds and immunocompromised patients, Aspergillus can establish a primary cutaneous infection at the breach, bypassing its usual respiratory route."
 ---
 
 # Integumentary System
@@ -338,6 +347,9 @@ Wound healing is a precisely orchestrated process in four overlapping phases [^g
 - `connects-to` → **[Varicella-Zoster Virus](../../../02-pathogen/01-viruses/varicella-zoster-virus/README.md)** — A virus hides in the skin's nerves and returns: after chickenpox, varicella-zoster lies dormant in sensory ganglia and reawakens as shingles, a painful dermatomal rash that maps the very nerve territory supplying that patch of skin.
 - `connects-to` → **[Acetylcholine](../../03-molecular/acetylcholine/README.md)** — The skin cools itself on an odd nerve signal: eccrine sweat glands are driven by sympathetic fibers that, unusually, release acetylcholine rather than noradrenaline, the cholinergic switch that turns on sweating for thermoregulation.
 - `connects-to` → **[Neutrophil](../../04-cellular/neutrophil/README.md)** — When the barrier is breached, neutrophils rush in: they are the front line against skin-invading bacteria, forming the pus of abscesses and cellulitis and clearing the infection that a broken epidermis lets through.
+- `connects-to` → **[Psoriatic Arthritis](../psoriatic-arthritis/README.md)** — Skin disease can spread to the joints: in a fraction of people with psoriasis of the skin, the same immune process attacks the joints as psoriatic arthritis, a skin-to-joint axis driven by shared IL-17/IL-23 inflammation.
+- `connects-to` → **[Dermatomyositis](../dermatomyositis/README.md)** — Its rash is a window onto systemic disease: the heliotrope eyelids and Gottron's papules of dermatomyositis are skin signs of an autoimmune myopathy, the integument flagging a deeper muscle and sometimes malignant process.
+- `connects-to` → **[Aspergillus fumigatus](../../../02-pathogen/03-fungi/aspergillus-fumigatus/README.md)** — Broken skin lets the mold in directly: in burns, surgical wounds and immunocompromised patients, Aspergillus can establish a primary cutaneous infection at the breach, bypassing its usual respiratory route.
 
 ## Pathology
 
