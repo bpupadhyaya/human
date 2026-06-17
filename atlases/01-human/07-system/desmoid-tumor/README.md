@@ -187,6 +187,15 @@ cross_links:
   - target: 01-human/07-system/venous-thromboembolism
     relation: connects-to
     note: "Bulky abdominal tumors compress the veins: mesenteric desmoids can obstruct venous return, and the major surgery they sometimes require adds to the risk of deep-vein thrombosis."
+  - target: 01-human/07-system/neuropathic-pain
+    relation: connects-to
+    note: "Infiltrating fibrosis traps the nerves: desmoid tumors invade locally and compress or encase nerves, causing chronic neuropathic pain that is often the dominant symptom of these aggressive but non-metastasizing growths."
+  - target: 01-human/07-system/sepsis
+    relation: connects-to
+    note: "Abdominal desmoids can breach the bowel: mesenteric tumors and their resection can cause bowel obstruction, fistula or perforation, spilling gut flora into the abdomen and seeding sepsis."
+  - target: 01-human/07-system/major-depressive-disorder
+    relation: connects-to
+    note: "A relentless, recurring tumor wears on the mind: chronic pain, disfigurement and the high recurrence of desmoid tumors despite their benign label carry a substantial psychological burden and depression."
 ---
 
 # Desmoid Tumor
@@ -377,6 +386,9 @@ Standard initial approach for newly diagnosed desmoid without symptoms or rapid 
 - `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — IL-6 feeds the fibromatosis through STAT3: the inflamed desmoid stroma's IL-6 activates STAT3, adding a proliferative signal alongside the driving Wnt/β-catenin pathway in this locally aggressive tumor.
 - `connects-to` → **[Chronic Kidney Disease](../ckd/README.md)** — A retroperitoneal mass can strangle the ureters: large mesenteric or retroperitoneal desmoids compress the ureters into hydronephrosis, and prolonged obstruction can erode kidney function toward chronic kidney disease.
 - `connects-to` → **[Venous Thromboembolism](../venous-thromboembolism/README.md)** — Bulky abdominal tumors compress the veins: mesenteric desmoids can obstruct venous return, and the major surgery they sometimes require adds to the risk of deep-vein thrombosis.
+- `connects-to` → **[Neuropathic Pain](../neuropathic-pain/README.md)** — Infiltrating fibrosis traps the nerves: desmoid tumors invade locally and compress or encase nerves, causing chronic neuropathic pain that is often the dominant symptom of these aggressive but non-metastasizing growths.
+- `connects-to` → **[Sepsis](../sepsis/README.md)** — Abdominal desmoids can breach the bowel: mesenteric tumors and their resection can cause bowel obstruction, fistula or perforation, spilling gut flora into the abdomen and seeding sepsis.
+- `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — A relentless, recurring tumor wears on the mind: chronic pain, disfigurement and the high recurrence of desmoid tumors despite their benign label carry a substantial psychological burden and depression.
 
 ---
 

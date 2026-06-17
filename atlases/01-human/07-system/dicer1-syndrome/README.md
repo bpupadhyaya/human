@@ -187,6 +187,15 @@ cross_links:
   - target: 01-human/07-system/sepsis
     relation: connects-to
     note: "Treating its childhood tumors invites infection: the chemotherapy used against pleuropulmonary blastoma and other DICER1 cancers causes neutropenia, making febrile neutropenia and sepsis a treatment hazard in affected children."
+  - target: 01-human/07-system/anemia-of-chronic-disease
+    relation: connects-to
+    note: "Its tumors and their chemo blunt the marrow: the malignancies of DICER1 syndrome and the myelosuppressive chemotherapy they require depress erythropoiesis, adding an anemia-of-chronic-disease component to treatment cytopenias."
+  - target: 01-human/07-system/venous-thromboembolism
+    relation: connects-to
+    note: "Cancer and its surgery raise the clot risk: the tumors of DICER1 syndrome and the operations and central lines used to treat them predispose to venous thromboembolism, as in other childhood cancers."
+  - target: 01-human/07-system/major-depressive-disorder
+    relation: connects-to
+    note: "Lifelong tumor surveillance weighs on families and patients: living with an inherited predisposition to multiple childhood and adult tumors, and the repeated screening it demands, carries a real psychological burden."
 ---
 
 # DICER1 Syndrome
@@ -358,6 +367,9 @@ When a child is found to have a thoracic cystic lesion, DICER1 syndrome should b
 - `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — Lost microRNA control lifts the brake on STAT3: DICER1-deficient cells lose mature miRNAs that normally restrain growth pathways, derepressing signaling including STAT3 that helps drive its embryonal tumors.
 - `connects-to` → **[Chronic Kidney Disease](../ckd/README.md)** — Its kidney tumors cost nephrons: cystic nephroma and anaplastic sarcoma of the kidney are DICER1 tumors that require nephron-sparing surgery or nephrectomy, so cumulative renal loss can reduce kidney function over time.
 - `connects-to` → **[Sepsis](../sepsis/README.md)** — Treating its childhood tumors invites infection: the chemotherapy used against pleuropulmonary blastoma and other DICER1 cancers causes neutropenia, making febrile neutropenia and sepsis a treatment hazard in affected children.
+- `connects-to` → **[Anemia of Chronic Disease](../anemia-of-chronic-disease/README.md)** — Its tumors and their chemo blunt the marrow: the malignancies of DICER1 syndrome and the myelosuppressive chemotherapy they require depress erythropoiesis, adding an anemia-of-chronic-disease component to treatment cytopenias.
+- `connects-to` → **[Venous Thromboembolism](../venous-thromboembolism/README.md)** — Cancer and its surgery raise the clot risk: the tumors of DICER1 syndrome and the operations and central lines used to treat them predispose to venous thromboembolism, as in other childhood cancers.
+- `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — Lifelong tumor surveillance weighs on families and patients: living with an inherited predisposition to multiple childhood and adult tumors, and the repeated screening it demands, carries a real psychological burden.
 
 ---
 
