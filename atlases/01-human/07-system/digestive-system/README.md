@@ -217,6 +217,15 @@ cross_links:
   - target: 01-human/07-system/iron-deficiency-anemia
     relation: connects-to
     note: "It both absorbs iron and loses it: the gut is the sole site of iron uptake, so malabsorption or chronic bleeding from ulcers, tumors or inflammation along the tract is a leading cause of iron-deficiency anemia."
+  - target: 01-human/07-system/lymphatic-system
+    relation: connects-to
+    note: "The gut is the body's largest immune and lymphatic organ: gut-associated lymphoid tissue and Peyer's patches guard the lumen, while intestinal lacteals absorb dietary fat into the lymphatics as chyle."
+  - target: 01-human/07-system/respiratory-system
+    relation: connects-to
+    note: "They share an origin and a crossroads: the gut and airways arise from the same primitive foregut and meet at the pharynx, so swallowing disorders cause aspiration and a gut-lung axis links the two."
+  - target: 01-human/07-system/integumentary-system
+    relation: connects-to
+    note: "The gut shows on the skin: malabsorption produces hair, nail and skin changes, liver disease causes jaundice, and a gut-skin axis links conditions like coeliac disease to dermatitis herpetiformis."
 taxonomy:
   uberon: "UBERON:0001007"
 ---
@@ -372,6 +381,9 @@ The ENS can function autonomously without extrinsic innervation (Hirschsprung's 
 - **Connects to:** [Major Depressive Disorder](../major-depressive-disorder/README.md) — gut and brain talk constantly: most of the body's serotonin is made in the gut and the microbiome signals along the gut-brain axis, so digestive function and mood are tightly linked in both directions.
 - **Connects to:** [Type 2 Diabetes](../type-2-diabetes/README.md) — the gut sets the metabolic tone: intestinal incretin hormones like GLP-1, nutrient absorption and the microbiome shape insulin secretion and resistance, placing the digestive system at the heart of type 2 diabetes.
 - **Connects to:** [Iron-Deficiency Anemia](../iron-deficiency-anemia/README.md) — it both absorbs iron and loses it: the gut is the sole site of iron uptake, so malabsorption or chronic bleeding from ulcers, tumors or inflammation along the tract is a leading cause of iron-deficiency anemia.
+- **Connects to:** [Lymphatic System](../lymphatic-system/README.md) — the gut is the body's largest immune and lymphatic organ: gut-associated lymphoid tissue and Peyer's patches guard the lumen, while intestinal lacteals absorb dietary fat into the lymphatics as chyle.
+- **Connects to:** [Respiratory System](../respiratory-system/README.md) — they share an origin and a crossroads: the gut and airways arise from the same primitive foregut and meet at the pharynx, so swallowing disorders cause aspiration and a gut-lung axis links the two.
+- **Connects to:** [Integumentary System](../integumentary-system/README.md) — the gut shows on the skin: malabsorption produces hair, nail and skin changes, liver disease causes jaundice, and a gut-skin axis links conditions like coeliac disease to dermatitis herpetiformis.
 
 ## Pathology
 

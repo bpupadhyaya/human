@@ -186,6 +186,15 @@ cross_links:
   - target: 01-human/07-system/type-2-diabetes
     relation: connects-to
     note: "Metabolic disease and chronic pain overlap: fibromyalgia is more common in type 2 diabetes, sharing obesity, inflammation and the painful sensory changes that blur with diabetic neuropathy."
+  - target: 01-human/07-system/digestive-system
+    relation: connects-to
+    note: "It travels with a hypersensitive gut: irritable bowel syndrome and other functional GI disorders are strikingly common in fibromyalgia, both reflecting central sensitisation and visceral hyperalgesia."
+  - target: 01-human/07-system/renal-system
+    relation: connects-to
+    note: "A bladder version of the same syndrome: interstitial cystitis/painful bladder syndrome overlaps heavily with fibromyalgia, part of a cluster of central sensitivity syndromes sharing amplified pain processing."
+  - target: 01-human/07-system/endocrine-system
+    relation: connects-to
+    note: "Its stress axis runs awry: fibromyalgia is associated with dysregulation of the hypothalamic-pituitary-adrenal axis and growth-hormone secretion, and it often coexists with and is screened against thyroid disease."
 sources:
   - id: wolfe-2016-fibromyalgia-criteria
     type: peer-reviewed
@@ -402,6 +411,9 @@ FM is not a single-etiology disorder but a convergent syndrome resulting from th
 - `connects-to` → **[Bipolar Disorder](../bipolar-disorder/README.md)** — Mood instability runs alongside the pain: fibromyalgia shows markedly elevated rates of bipolar disorder, and the two share disturbances in sleep, stress reactivity and monoamine signaling.
 - `connects-to` → **[Psoriatic Arthritis](../psoriatic-arthritis/README.md)** — Central pain confounds an inflammatory arthritis: fibromyalgia frequently coexists with psoriatic arthritis, where its widespread tenderness can mimic active joint disease and complicate measuring true inflammatory control.
 - `connects-to` → **[Type 2 Diabetes](../type-2-diabetes/README.md)** — Metabolic disease and chronic pain overlap: fibromyalgia is more common in type 2 diabetes, sharing obesity, inflammation and the painful sensory changes that blur with diabetic neuropathy.
+- `connects-to` → **[Digestive System](../digestive-system/README.md)** — It travels with a hypersensitive gut: irritable bowel syndrome and other functional GI disorders are strikingly common in fibromyalgia, both reflecting central sensitisation and visceral hyperalgesia.
+- `connects-to` → **[Renal System](../renal-system/README.md)** — A bladder version of the same syndrome: interstitial cystitis/painful bladder syndrome overlaps heavily with fibromyalgia, part of a cluster of central sensitivity syndromes sharing amplified pain processing.
+- `connects-to` → **[Endocrine System](../endocrine-system/README.md)** — Its stress axis runs awry: fibromyalgia is associated with dysregulation of the hypothalamic-pituitary-adrenal axis and growth-hormone secretion, and it often coexists with and is screened against thyroid disease.
 
 [^wolfe-2016-fibromyalgia-criteria]: Wolfe F, Clauw DJ, Fitzcharles MA, et al. 2016 Revisions to the 2010/2011 fibromyalgia diagnostic criteria. *Semin Arthritis Rheum.* 2016;46(3):319-329. [doi:10.1016/j.semarthrit.2016.08.012](https://doi.org/10.1016/j.semarthrit.2016.08.012) · [PubMed 27916278](https://pubmed.ncbi.nlm.nih.gov/27916278/)
 [^clauw-2014-fibromyalgia-review]: Clauw DJ. Fibromyalgia: a clinical review. *JAMA.* 2014;311(15):1547-1555. [doi:10.1001/jama.2014.3266](https://doi.org/10.1001/jama.2014.3266) · [PubMed 24737367](https://pubmed.ncbi.nlm.nih.gov/24737367/)
