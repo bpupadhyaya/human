@@ -178,6 +178,15 @@ cross_links:
   - target: 01-human/07-system/neurofibromatosis-type-1
     relation: connects-to
     note: "It shares the endocrine-tumor neighborhood: like neurofibromatosis type 1 — which carries pheochromocytoma and duodenal neuroendocrine tumors — MEN1 is a single-gene syndrome predisposing to endocrine neoplasia, distinguished by its gene and tumor pattern."
+  - target: 01-human/03-molecular/stat3
+    relation: connects-to
+    note: "Menin loss reshapes transcriptional signaling: the menin scaffold normally tunes gene expression, and its loss in MEN1 tumors engages STAT3 among the pathways that drive neuroendocrine-cell proliferation."
+  - target: 01-human/03-molecular/ezh2
+    relation: connects-to
+    note: "Menin sits in the chromatin-writing machinery: it anchors the MLL histone-methyltransferase complex, and its loss disturbs the balance with the opposing EZH2/PRC2 mark, an epigenetic dysregulation behind MEN1 tumors."
+  - target: 01-human/07-system/ckd
+    relation: connects-to
+    note: "Overactive parathyroids scar the kidneys: the primary hyperparathyroidism that is MEN1's commonest feature drives hypercalcemia, kidney stones and nephrocalcinosis that can erode renal function into chronic kidney disease."
 ---
 
 # MEN1 Syndrome
@@ -351,6 +360,9 @@ Menin haploinsufficiency (one functional allele) creates susceptibility: cells a
 - `connects-to` → **[Fibroblast](../../04-cellular/fibroblast/README.md)** — MEN1 marks the skin with fibrous tumors: collagenomas and facial angiofibromas — fibroblast-and-collagen proliferations — are common cutaneous clues that, with lipomas, help flag the syndrome before the endocrine tumors declare themselves.
 - `connects-to` → **[Calcitonin](../../03-molecular/calcitonin/README.md)** — Calcitonin separates MEN1 from MEN2: the calcitonin-secreting medullary thyroid carcinoma that defines MEN2 is absent in MEN1, so a normal calcitonin and the parathyroid-pituitary-pancreas pattern point away from a RET syndrome.
 - `connects-to` → **[Neurofibromatosis Type 1](../neurofibromatosis-type-1/README.md)** — It shares the endocrine-tumor neighborhood: like neurofibromatosis type 1 — which carries pheochromocytoma and duodenal neuroendocrine tumors — MEN1 is a single-gene syndrome predisposing to endocrine neoplasia, distinguished by its gene and tumor pattern.
+- `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — Menin loss reshapes transcriptional signaling: the menin scaffold normally tunes gene expression, and its loss in MEN1 tumors engages STAT3 among the pathways that drive neuroendocrine-cell proliferation.
+- `connects-to` → **[EZH2](../../03-molecular/ezh2/README.md)** — Menin sits in the chromatin-writing machinery: it anchors the MLL histone-methyltransferase complex, and its loss disturbs the balance with the opposing EZH2/PRC2 mark, an epigenetic dysregulation behind MEN1 tumors.
+- `connects-to` → **[Chronic Kidney Disease](../ckd/README.md)** — Overactive parathyroids scar the kidneys: the primary hyperparathyroidism that is MEN1's commonest feature drives hypercalcemia, kidney stones and nephrocalcinosis that can erode renal function into chronic kidney disease.
 
 ---
 
