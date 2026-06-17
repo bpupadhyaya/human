@@ -178,6 +178,15 @@ cross_links:
   - target: 01-human/07-system/sepsis
     relation: connects-to
     note: "It hides among the critically ill: sepsis and its consumptive coagulopathy commonly drop platelets in the same patients receiving heparin, a key mimic that must be distinguished from HIT before stopping the drug and switching anticoagulants."
+  - target: 01-human/04-cellular/plasma-cell
+    relation: connects-to
+    note: "Plasma cells make the dangerous antibody: a rapid B-cell response matures into plasma cells secreting the anti-PF4/heparin IgG that drives HIT, an unusually fast antibody response that can appear within days of heparin exposure."
+  - target: 01-human/03-molecular/nf-kb
+    relation: connects-to
+    note: "The immune complexes light up the vessel wall: PF4-heparin-IgG complexes activate monocytes and endothelium through NF-κB, switching on tissue factor and adhesion molecules that turn HIT into a relentlessly prothrombotic state."
+  - target: 01-human/07-system/pulmonary-arterial-hypertension
+    relation: connects-to
+    note: "Unresolved clots can stiffen the lung circulation: the pulmonary emboli thrown by HIT, if incompletely cleared, can organize into chronic thromboembolic pulmonary hypertension, a lasting rise in pulmonary artery pressure."
 ---
 
 # Heparin-Induced Thrombocytopenia
@@ -375,6 +384,9 @@ Platelet consumption → thrombocytopenia (paradox: clotting despite low platele
 - `connects-to` → **[Mast Cell](../../04-cellular/mast-cell/README.md)** — The culprit drug is a body molecule: heparin is naturally made and stored in mast cells, so the anticoagulant that triggers HIT is a pharmaceutical version of a mediator these immune cells release into tissues.
 - `connects-to` → **[FcRn](../../03-molecular/fcrn/README.md)** — The pathogenic antibody is long-lived: the anti-PF4/heparin IgG that drives HIT is recycled and kept in circulation by FcRn, sustaining the prothrombotic state for weeks after heparin is stopped.
 - `connects-to` → **[Sepsis](../sepsis/README.md)** — It hides among the critically ill: sepsis and its consumptive coagulopathy commonly drop platelets in the same patients receiving heparin, a key mimic that must be distinguished from HIT before stopping the drug and switching anticoagulants.
+- `connects-to` → **[Plasma Cell](../../04-cellular/plasma-cell/README.md)** — Plasma cells make the dangerous antibody: a rapid B-cell response matures into plasma cells secreting the anti-PF4/heparin IgG that drives HIT, an unusually fast antibody response that can appear within days of heparin exposure.
+- `connects-to` → **[NF-κB](../../03-molecular/nf-kb/README.md)** — The immune complexes light up the vessel wall: PF4-heparin-IgG complexes activate monocytes and endothelium through NF-κB, switching on tissue factor and adhesion molecules that turn HIT into a relentlessly prothrombotic state.
+- `connects-to` → **[Pulmonary Arterial Hypertension](../pulmonary-arterial-hypertension/README.md)** — Unresolved clots can stiffen the lung circulation: the pulmonary emboli thrown by HIT, if incompletely cleared, can organize into chronic thromboembolic pulmonary hypertension, a lasting rise in pulmonary artery pressure.
 
 [^warkentin-2007-hit-review]: Warkentin TE, Greinacher A. Heparin-induced thrombocytopenia: recognition, treatment, and prevention. *Chest.* 2004;126(3 Suppl):311S-337S. [doi:10.1378/chest.126.3_suppl.311S](https://doi.org/10.1378/chest.126.3_suppl.311S) · [PubMed 15383477](https://pubmed.ncbi.nlm.nih.gov/15383477/)
 [^greinacher-2021-vitt-nejm]: Greinacher A, Thiele T, Warkentin TE, et al. Thrombotic thrombocytopenia after ChAdOx1 nCov-19 vaccination. *N Engl J Med.* 2021;384(22):2092-2101. [doi:10.1056/NEJMoa2104840](https://doi.org/10.1056/NEJMoa2104840) · [PubMed 33835769](https://pubmed.ncbi.nlm.nih.gov/33835769/)

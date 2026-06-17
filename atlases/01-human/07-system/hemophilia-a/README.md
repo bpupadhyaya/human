@@ -178,6 +178,15 @@ cross_links:
   - target: 01-human/07-system/iron-deficiency-anemia
     relation: connects-to
     note: "Chronic blood loss drains iron: beyond dramatic joint and muscle bleeds, mucosal and gastrointestinal bleeding in hemophilia steadily depletes iron stores, leaving many patients with a superimposed iron deficiency anemia."
+  - target: 01-human/03-molecular/nf-kb
+    relation: connects-to
+    note: "Blood in the joint turns on inflammation: iron and breakdown products from recurrent hemarthroses activate NF-κB in synovial cells, switching on the inflammatory and angiogenic genes that drive the chronic synovitis of hemophilic arthropathy."
+  - target: 01-human/07-system/anemia-of-chronic-disease
+    relation: connects-to
+    note: "Beyond blood loss, inflammation suppresses the marrow: the chronic synovitis of hemophilic arthropathy raises inflammatory cytokines that blunt erythropoiesis, an anemia of chronic disease distinct from the iron loss of bleeding."
+  - target: 01-human/07-system/sepsis
+    relation: connects-to
+    note: "The lines used to infuse factor can seed infection: many patients, especially children, rely on indwelling central venous ports for clotting-factor delivery, and these catheters are a recurring source of bloodstream infection and sepsis."
 ---
 
 # Hemophilia A
@@ -352,6 +361,9 @@ FVIII is a critical **amplifier** of the coagulation cascade at the junction bet
 - `connects-to` → **[Fibroblast](../../04-cellular/fibroblast/README.md)** — Repeated joint bleeds wreck the joint: blood in the synovium drives a fibroblast-led hypertrophy and fibrosis that, with iron-laden inflammation, destroys cartilage into the crippling hemophilic arthropathy that defines the disease's burden.
 - `connects-to` → **[Cytotoxic T Cell](../../04-cellular/t-cytotoxic-cell/README.md)** — Gene therapy meets the immune system: the AAV vector delivering a working factor VIII gene to liver cells can draw cytotoxic T cells that attack the transduced hepatocytes, an immune response that can erode the durability of the one-time cure.
 - `connects-to` → **[Iron Deficiency Anemia](../iron-deficiency-anemia/README.md)** — Chronic blood loss drains iron: beyond dramatic joint and muscle bleeds, mucosal and gastrointestinal bleeding in hemophilia steadily depletes iron stores, leaving many patients with a superimposed iron deficiency anemia.
+- `connects-to` → **[NF-κB](../../03-molecular/nf-kb/README.md)** — Blood in the joint turns on inflammation: iron and breakdown products from recurrent hemarthroses activate NF-κB in synovial cells, switching on the inflammatory and angiogenic genes that drive the chronic synovitis of hemophilic arthropathy.
+- `connects-to` → **[Anemia of Chronic Disease](../anemia-of-chronic-disease/README.md)** — Beyond blood loss, inflammation suppresses the marrow: the chronic synovitis of hemophilic arthropathy raises inflammatory cytokines that blunt erythropoiesis, an anemia of chronic disease distinct from the iron loss of bleeding.
+- `connects-to` → **[Sepsis](../sepsis/README.md)** — The lines used to infuse factor can seed infection: many patients, especially children, rely on indwelling central venous ports for clotting-factor delivery, and these catheters are a recurring source of bloodstream infection and sepsis.
 
 [^oldenburg-2017-emicizumab-haven1]: Oldenburg J, Mahlangu JN, Kim B, et al. Emicizumab prophylaxis in hemophilia A with inhibitors. *N Engl J Med.* 2017;377(9):809-818. [doi:10.1056/NEJMoa1703068](https://doi.org/10.1056/NEJMoa1703068) · [PubMed 28691557](https://pubmed.ncbi.nlm.nih.gov/28691557/)
 [^mahlangu-2018-emicizumab-haven3]: Mahlangu J, Oldenburg J, Paz-Priel I, et al. Emicizumab prophylaxis in patients who have hemophilia A without inhibitors. *N Engl J Med.* 2018;379(9):811-822. [doi:10.1056/NEJMoa1803550](https://doi.org/10.1056/NEJMoa1803550) · [PubMed 30157389](https://pubmed.ncbi.nlm.nih.gov/30157389/)
