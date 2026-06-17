@@ -202,6 +202,15 @@ cross_links:
   - target: 01-human/07-system/venous-thromboembolism
     relation: connects-to
     note: "Inflammation and its JAK inhibitors raise the clot risk: active RA is a hypercoagulable, prothrombotic state, and the JAK inhibitors used to treat it carry a recognized signal for venous thromboembolism."
+  - target: 02-pathogen/01-viruses/varicella-zoster-virus
+    relation: connects-to
+    note: "Its JAK inhibitors notably reawaken shingles: tofacitinib and other JAK inhibitors used for RA, along with biologics and steroids, markedly raise the risk of herpes-zoster reactivation."
+  - target: 01-human/07-system/ckd
+    relation: connects-to
+    note: "Chronic inflammation and its drugs scar the kidney: long-standing RA can deposit AA amyloid in the kidneys, and years of NSAID use add analgesic nephropathy, together driving chronic kidney disease."
+  - target: 01-human/07-system/generalized-anxiety-disorder
+    relation: connects-to
+    note: "An unpredictable, painful disease breeds worry: the flares, disability and lifelong immunosuppressive treatment of RA foster chronic health anxiety alongside its well-documented depression."
 ---
 
 # Rheumatoid Arthritis
@@ -405,6 +414,9 @@ RA patients have:
 - `connects-to` → **[Aspergillus fumigatus](../../../02-pathogen/03-fungi/aspergillus-fumigatus/README.md)** — Combined immunosuppression opens the lung to mold: corticosteroids stacked on biologics or JAK inhibitors for RA deeply blunt immunity, occasionally letting inhaled Aspergillus invade as pulmonary aspergillosis.
 - `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — Chronic pain and disability press on mood: the relentless joint pain, fatigue and functional loss of RA, amplified by its inflammatory cytokines acting on the brain, give it markedly elevated rates of depression.
 - `connects-to` → **[Venous Thromboembolism](../venous-thromboembolism/README.md)** — Inflammation and its JAK inhibitors raise the clot risk: active RA is a hypercoagulable, prothrombotic state, and the JAK inhibitors used to treat it carry a recognized signal for venous thromboembolism.
+- `connects-to` → **[Varicella-Zoster Virus](../../../02-pathogen/01-viruses/varicella-zoster-virus/README.md)** — Its JAK inhibitors notably reawaken shingles: tofacitinib and other JAK inhibitors used for RA, along with biologics and steroids, markedly raise the risk of herpes-zoster reactivation.
+- `connects-to` → **[Chronic Kidney Disease](../ckd/README.md)** — Chronic inflammation and its drugs scar the kidney: long-standing RA can deposit AA amyloid in the kidneys, and years of NSAID use add analgesic nephropathy, together driving chronic kidney disease.
+- `connects-to` → **[Generalized Anxiety Disorder](../generalized-anxiety-disorder/README.md)** — An unpredictable, painful disease breeds worry: the flares, disability and lifelong immunosuppressive treatment of RA foster chronic health anxiety alongside its well-documented depression.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
