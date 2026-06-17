@@ -187,6 +187,15 @@ cross_links:
   - target: 01-human/07-system/sepsis
     relation: connects-to
     note: "It blocks the urinary tract and seeds infection: locally advanced prostate cancer obstructs the bladder outlet and ureters, and the resulting urinary stasis and instrumentation make urosepsis a real hazard."
+  - target: 01-human/07-system/anemia-of-chronic-disease
+    relation: connects-to
+    note: "Hormone therapy and marrow disease lower the count: androgen-deprivation therapy withdraws the testosterone that drives erythropoiesis, and bone-marrow metastases plus chronic inflammation add an anemia of chronic disease."
+  - target: 01-human/07-system/ckd
+    relation: connects-to
+    note: "The pelvic tumor can throttle the kidneys: locally advanced prostate cancer obstructs the ureters and bladder outlet, and the resulting obstructive uropathy can progress to chronic kidney disease if unrelieved."
+  - target: 01-human/07-system/type-2-diabetes
+    relation: connects-to
+    note: "Androgen deprivation skews metabolism: ADT causes weight gain, fat redistribution and insulin resistance, raising the risk of type 2 diabetes and the metabolic syndrome over the years men spend on it."
 ---
 
 # Prostate Cancer
@@ -370,6 +379,9 @@ cross_links:
 - `connects-to` → **[NF-κB](../../03-molecular/nf-kb/README.md)** — NF-κB helps it shake off hormone therapy: constitutive NF-κB signaling supports survival and androgen-receptor-independent growth, a route by which prostate cancer escapes castration into the lethal castration-resistant state.
 - `connects-to` → **[Venous Thromboembolism](../venous-thromboembolism/README.md)** — The cancer and its hormone therapy both clot the blood: advanced prostate cancer is prothrombotic, and androgen-deprivation therapy further raises the risk of deep-vein thrombosis and pulmonary embolism.
 - `connects-to` → **[Sepsis](../sepsis/README.md)** — It blocks the urinary tract and seeds infection: locally advanced prostate cancer obstructs the bladder outlet and ureters, and the resulting urinary stasis and instrumentation make urosepsis a real hazard.
+- `connects-to` → **[Anemia of Chronic Disease](../anemia-of-chronic-disease/README.md)** — Hormone therapy and marrow disease lower the count: androgen-deprivation therapy withdraws the testosterone that drives erythropoiesis, and bone-marrow metastases plus chronic inflammation add an anemia of chronic disease.
+- `connects-to` → **[Chronic Kidney Disease](../ckd/README.md)** — The pelvic tumor can throttle the kidneys: locally advanced prostate cancer obstructs the ureters and bladder outlet, and the resulting obstructive uropathy can progress to chronic kidney disease if unrelieved.
+- `connects-to` → **[Type 2 Diabetes](../type-2-diabetes/README.md)** — Androgen deprivation skews metabolism: ADT causes weight gain, fat redistribution and insulin resistance, raising the risk of type 2 diabetes and the metabolic syndrome over the years men spend on it.
 
 [^beer-2014-prevail]: Beer TM, Armstrong AJ, Rathkopf D, et al. Enzalutamide in metastatic prostate cancer before chemotherapy. *N Engl J Med.* 2014;371(5):424-433. [doi:10.1056/NEJMoa1405095](https://doi.org/10.1056/NEJMoa1405095) · [PubMed 24881730](https://pubmed.ncbi.nlm.nih.gov/24881730/)
 [^sartor-2021-vision]: Sartor O, de Bono J, Chi KN, et al. Lutetium-PSMA-617 for metastatic castration-resistant prostate cancer. *N Engl J Med.* 2021;385(12):1091-1103. [doi:10.1056/NEJMoa2107322](https://doi.org/10.1056/NEJMoa2107322) · [PubMed 34161051](https://pubmed.ncbi.nlm.nih.gov/34161051/)

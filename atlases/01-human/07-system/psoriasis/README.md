@@ -187,6 +187,15 @@ cross_links:
   - target: 01-human/07-system/sepsis
     relation: connects-to
     note: "Severe forms strip the skin's defense: erythrodermic and generalized pustular psoriasis breach the barrier across most of the body, letting bacteria invade — a route to bloodstream infection and sepsis compounded by immunosuppressive therapy."
+  - target: 01-human/07-system/gout
+    relation: connects-to
+    note: "Rapid skin turnover floods the blood with urate: the accelerated epidermal proliferation of psoriasis raises uric acid production, so hyperuricemia and gout are notably more common in people with the disease."
+  - target: 01-human/07-system/ckd
+    relation: connects-to
+    note: "Systemic inflammation reaches the kidney: moderate-to-severe psoriasis is independently associated with chronic kidney disease, and some of its systemic and biologic therapies add their own renal considerations."
+  - target: 02-pathogen/01-viruses/hepatitis-b-virus
+    relation: connects-to
+    note: "Its biologics can reactivate the virus: the TNF inhibitors and other immunosuppressants used for psoriasis can reawaken latent hepatitis B, so screening and antiviral prophylaxis precede starting these therapies."
 ---
 
 # Psoriasis
@@ -358,6 +367,9 @@ Differential: Seborrheic dermatitis (common), pityriasis rosea (herald patch, Ch
 - `connects-to` → **[Venous Thromboembolism](../venous-thromboembolism/README.md)** — Chronic inflammation clots the veins too: beyond its arterial risk, severe psoriasis is independently linked to a higher rate of deep-vein thrombosis and pulmonary embolism, part of the prothrombotic state of systemic inflammatory disease.
 - `connects-to` → **[Alcohol Use Disorder](../alcohol-use-disorder/README.md)** — Drink and disease worsen each other: alcohol use disorder is over-represented in psoriasis and both triggers flares and blunts treatment response, a bidirectional link tangled with the disease's psychological burden.
 - `connects-to` → **[Sepsis](../sepsis/README.md)** — Severe forms strip the skin's defense: erythrodermic and generalized pustular psoriasis breach the barrier across most of the body, letting bacteria invade — a route to bloodstream infection and sepsis compounded by immunosuppressive therapy.
+- `connects-to` → **[Gout](../gout/README.md)** — Rapid skin turnover floods the blood with urate: the accelerated epidermal proliferation of psoriasis raises uric acid production, so hyperuricemia and gout are notably more common in people with the disease.
+- `connects-to` → **[Chronic Kidney Disease](../ckd/README.md)** — Systemic inflammation reaches the kidney: moderate-to-severe psoriasis is independently associated with chronic kidney disease, and some of its systemic and biologic therapies add their own renal considerations.
+- `connects-to` → **[Hepatitis B Virus](../../../02-pathogen/01-viruses/hepatitis-b-virus/README.md)** — Its biologics can reactivate the virus: the TNF inhibitors and other immunosuppressants used for psoriasis can reawaken latent hepatitis B, so screening and antiviral prophylaxis precede starting these therapies.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
