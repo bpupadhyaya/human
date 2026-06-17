@@ -184,6 +184,15 @@ cross_links:
   - target: 01-human/07-system/systemic-lupus-erythematosus
     relation: connects-to
     note: "Lupus ages arteries decades early: chronic immune-complex inflammation and steroid exposure drive premature, accelerated atherosclerosis, making cardiovascular disease a leading cause of late death in systemic lupus."
+  - target: 01-human/03-molecular/nf-kb
+    relation: connects-to
+    note: "NF-κB is the inflammatory switch in the artery wall: activated by oxidized LDL and disturbed flow in endothelium and macrophages, it drives the adhesion molecules and cytokines that recruit immune cells and build the plaque."
+  - target: 01-human/03-molecular/stat3
+    relation: connects-to
+    note: "STAT3 shapes the plaque's macrophages: IL-6-driven STAT3 signaling tunes the inflammatory macrophage response within the lesion, contributing to the chronic inflammation that destabilizes atherosclerotic plaque."
+  - target: 01-human/07-system/venous-thromboembolism
+    relation: connects-to
+    note: "Arterial and venous clots share a soil: although atherosclerosis is an arterial disease, it shares risk factors and systemic inflammation with venous thromboembolism, and the two cluster together more than chance."
 ---
 
 # Atherosclerosis
@@ -353,6 +362,9 @@ The process begins in childhood with **fatty streaks** and progresses silently o
 - `connects-to` → **[NLRP3 Inflammasome](../../03-molecular/nlrp3-inflammasome/README.md)** — Cholesterol crystals ignite the plaque's inflammasome: ingested by lesion macrophages they activate NLRP3 to release IL-1β, the upstream step CANTOS validated by cutting events with IL-1β blockade — proof inflammation, not just lipid, drives atherosclerosis.
 - `connects-to` → **[Psoriasis](../psoriasis/README.md)** — Skin inflammation reaches the arteries: psoriasis carries excess cardiovascular risk, its systemic Th17/IL-17 inflammation accelerating atherosclerosis, so plaque psoriasis is now treated as a vascular risk factor too.
 - `connects-to` → **[Systemic Lupus Erythematosus](../systemic-lupus-erythematosus/README.md)** — Lupus ages arteries decades early: chronic immune-complex inflammation and steroid exposure drive premature, accelerated atherosclerosis, making cardiovascular disease a leading cause of late death in systemic lupus.
+- `connects-to` → **[NF-κB](../../03-molecular/nf-kb/README.md)** — NF-κB is the inflammatory switch in the artery wall: activated by oxidized LDL and disturbed flow in endothelium and macrophages, it drives the adhesion molecules and cytokines that recruit immune cells and build the plaque.
+- `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — STAT3 shapes the plaque's macrophages: IL-6-driven STAT3 signaling tunes the inflammatory macrophage response within the lesion, contributing to the chronic inflammation that destabilizes atherosclerotic plaque.
+- `connects-to` → **[Venous Thromboembolism](../venous-thromboembolism/README.md)** — Arterial and venous clots share a soil: although atherosclerosis is an arterial disease, it shares risk factors and systemic inflammation with venous thromboembolism, and the two cluster together more than chance.
 
 ---
 

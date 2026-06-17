@@ -178,6 +178,15 @@ cross_links:
   - target: 01-human/03-molecular/il-2
     relation: connects-to
     note: "Autoreactive T cells run on IL-2: the cytokine expands the cytotoxic T-cell clones that destroy stem cells in aplastic anemia, and modulating IL-2 (low-dose, to favor regulatory T cells) is explored to restore tolerance."
+  - target: 01-human/03-molecular/stat3
+    relation: connects-to
+    note: "STAT3-mutant T-cell clones drive the attack: clonal large granular lymphocytes carrying STAT3 mutations are found in immune aplastic anemia, marking the autoreactive cytotoxic cells that destroy the marrow stem-cell pool."
+  - target: 01-human/03-molecular/nf-kb
+    relation: connects-to
+    note: "Inflammatory signaling fuels the assault: NF-κB activation in the autoreactive T cells and the marrow microenvironment supports the cytokine output that suppresses and kills hematopoietic stem cells in aplastic anemia."
+  - target: 01-human/07-system/venous-thromboembolism
+    relation: connects-to
+    note: "An emerging PNH clone tips toward clotting: aplastic anemia frequently harbors a paroxysmal nocturnal hemoglobinuria clone whose complement-driven hemolysis creates a prothrombotic state and venous thromboembolism risk."
 ---
 
 # Aplastic Anemia
@@ -344,6 +353,9 @@ In >80% of acquired AA cases, the disease is **immune-mediated**: autoreactive *
 - `connects-to` → **[Epstein-Barr Virus](../../../02-pathogen/01-viruses/epstein-barr-virus/README.md)** — A common virus can crash the marrow: Epstein-Barr and other viruses are recognized triggers of acquired aplastic anemia, setting off the autoreactive T-cell attack on hematopoietic stem cells in susceptible people.
 - `connects-to` → **[Sepsis](../sepsis/README.md)** — Empty marrow leaves no defense: the profound neutropenia of severe aplastic anemia makes overwhelming bacterial and fungal sepsis the leading cause of death, which is why neutropenic fever is a medical emergency.
 - `connects-to` → **[IL-2](../../03-molecular/il-2/README.md)** — Autoreactive T cells run on IL-2: the cytokine expands the cytotoxic T-cell clones that destroy stem cells in aplastic anemia, and modulating IL-2 (low-dose, to favor regulatory T cells) is explored to restore tolerance.
+- `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — STAT3-mutant T-cell clones drive the attack: clonal large granular lymphocytes carrying STAT3 mutations are found in immune aplastic anemia, marking the autoreactive cytotoxic cells that destroy the marrow stem-cell pool.
+- `connects-to` → **[NF-κB](../../03-molecular/nf-kb/README.md)** — Inflammatory signaling fuels the assault: NF-κB activation in the autoreactive T cells and the marrow microenvironment supports the cytokine output that suppresses and kills hematopoietic stem cells in aplastic anemia.
+- `connects-to` → **[Venous Thromboembolism](../venous-thromboembolism/README.md)** — An emerging PNH clone tips toward clotting: aplastic anemia frequently harbors a paroxysmal nocturnal hemoglobinuria clone whose complement-driven hemolysis creates a prothrombotic state and venous thromboembolism risk.
 
 ---
 
