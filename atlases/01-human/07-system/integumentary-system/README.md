@@ -170,6 +170,15 @@ cross_links:
   - target: 01-human/04-cellular/neutrophil
     relation: connects-to
     note: "When the barrier is breached, neutrophils rush in: they are the front line against skin-invading bacteria, forming the pus of abscesses and cellulitis and clearing the infection that a broken epidermis lets through."
+  - target: 02-pathogen/02-bacteria/streptococcus-pyogenes
+    relation: connects-to
+    note: "One bacterium owns the skin's classic infections: Streptococcus pyogenes causes impetigo, erysipelas and cellulitis, and when it invades the fascia it drives the flesh-eating necrotizing fasciitis that is a surgical emergency."
+  - target: 02-pathogen/01-viruses/measles-virus
+    relation: connects-to
+    note: "A systemic virus announces itself in the skin: measles produces a spreading maculopapular rash as infected immune cells seed the dermis, the visible sign of an infection whose real danger lies in its deep immune suppression."
+  - target: 01-human/07-system/sepsis
+    relation: connects-to
+    note: "Breach the barrier widely and infection goes systemic: extensive burns, pressure ulcers or severe cellulitis let skin flora into the bloodstream, making the skin's failure a common gateway to life-threatening sepsis."
 ---
 
 # Integumentary System
@@ -282,6 +291,9 @@ Wound healing is a precisely orchestrated process in four overlapping phases [^g
 - **Modulates:** [cardiovascular-system](../../07-system/cardiovascular-system/README.md) — cutaneous vasodilation/vasoconstriction controls up to 60% of cardiac output for thermoregulation
 - `infected-by` → **[HPV-16](../../../../02-pathogen/01-viruses/hpv-16/README.md)** — HPV-16 infects basal keratinocytes of stratified squamous epithelium at the cervical transformation zone; L1 binds heparan sulphate proteoglycans at microtrauma sites; viral replication is stratification-coupled — L1/L2 expressed only in terminally differentiated keratinocytes.
 - `connects-to` → **[Skin](../../06-organ/skin/README.md)** — The skin is the principal organ of the integumentary system — a ~2 m² epidermis-over-dermis barrier renewed every ~28 days that, with hair, nails, and glands, handles physical and immune defense, thermoregulation, sensation, and vitamin D synthesis.
+- `connects-to` → **[Streptococcus pyogenes](../../../02-pathogen/02-bacteria/streptococcus-pyogenes/README.md)** — One bacterium owns the skin's classic infections: Streptococcus pyogenes causes impetigo, erysipelas and cellulitis, and when it invades the fascia it drives the flesh-eating necrotizing fasciitis that is a surgical emergency.
+- `connects-to` → **[Measles Virus](../../../02-pathogen/01-viruses/measles-virus/README.md)** — A systemic virus announces itself in the skin: measles produces a spreading maculopapular rash as infected immune cells seed the dermis, the visible sign of an infection whose real danger lies in its deep immune suppression.
+- `connects-to` → **[Sepsis](../sepsis/README.md)** — Breach the barrier widely and infection goes systemic: extensive burns, pressure ulcers or severe cellulitis let skin flora into the bloodstream, making the skin's failure a common gateway to life-threatening sepsis.
 - `connects-to` → **[Vitamin D](../../../03-medicine/03-food/vitamin-d/README.md)** — Skin is the body's sole site of vitamin D₃ synthesis: UVB photons (290-320 nm) convert 7-dehydrocholesterol in the epidermis to pre-vitamin D₃; melanin, ageing, high latitude, and sunscreen all cut this output, linking skin pigmentation to systemic calcium and bone health.
 - `connects-to` → **[Collagen](../../03-molecular/collagen/README.md)** — Collagen is the structural backbone of the dermis: type I bundles along Langer's lines give skin its tensile strength, and the ordered swap of type III for type I collagen during wound remodeling sets scar quality — with overactive TGF-β-driven deposition producing keloids.
 - `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — The integumentary and musculoskeletal systems are the body's structural envelope and frame: skin's collagen-rich dermis is continuous with fascia over muscle and bone, both depend on vitamin D and collagen, and disorders like scleroderma, EDS and dermatomyositis injure both.

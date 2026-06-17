@@ -159,6 +159,15 @@ cross_links:
   - target: 01-human/03-molecular/ghrelin
     relation: connects-to
     note: "Gaming overrides the hunger signals: absorbed in play, gamers ignore ghrelin-driven satiety cues and graze on calorie-dense snacks, a dysregulated eating pattern that links the disorder to weight gain."
+  - target: 01-human/07-system/nervous-system
+    relation: connects-to
+    note: "At its core it hijacks the brain's reward wiring: internet gaming disorder is a behavioral addiction rooted in the nervous system's dopaminergic reward and prefrontal control circuits, the same networks dysregulated in substance addictions."
+  - target: 01-human/07-system/bipolar-disorder
+    relation: connects-to
+    note: "Mood instability and excessive gaming travel together: bipolar disorder is over-represented among problem gamers, with impulsivity during hypomania and withdrawal into games during depression feeding the behavior."
+  - target: 01-human/07-system/schizophrenia
+    relation: connects-to
+    note: "Gaming can become an escape in social withdrawal: people with schizophrenia show higher rates of problematic internet and gaming use, where immersive play substitutes for real-world contact blunted by negative symptoms."
 sources:
   - id: kuss-2012-gaming-disorder-review
     type: peer-reviewed
@@ -380,6 +389,9 @@ A pattern of persistent or recurrent gaming behavior characterized by:
 - `connects-to` → **[Venous Thromboembolism](../venous-thromboembolism/README.md)** — Marathon gaming can be physically lethal: hours of motionless sitting let clots form in the leg veins — an 'e-thrombosis' that has caused fatal pulmonary emboli in young players, the same immobility risk as a long-haul flight.
 - `connects-to` → **[Epilepsy](../epilepsy/README.md)** — The screen itself can trigger seizures: flashing lights and patterns in games can provoke photosensitive epilepsy, and the sleep deprivation of binge play further lowers the seizure threshold in susceptible players.
 - `connects-to` → **[Ghrelin](../../03-molecular/ghrelin/README.md)** — Gaming overrides the hunger signals: absorbed in play, gamers ignore ghrelin-driven satiety cues and graze on calorie-dense snacks, a dysregulated eating pattern that links the disorder to weight gain.
+- `connects-to` → **[Nervous System](../nervous-system/README.md)** — At its core it hijacks the brain's reward wiring: internet gaming disorder is a behavioral addiction rooted in the nervous system's dopaminergic reward and prefrontal control circuits, the same networks dysregulated in substance addictions.
+- `connects-to` → **[Bipolar Disorder](../bipolar-disorder/README.md)** — Mood instability and excessive gaming travel together: bipolar disorder is over-represented among problem gamers, with impulsivity during hypomania and withdrawal into games during depression feeding the behavior.
+- `connects-to` → **[Schizophrenia](../schizophrenia/README.md)** — Gaming can become an escape in social withdrawal: people with schizophrenia show higher rates of problematic internet and gaming use, where immersive play substitutes for real-world contact blunted by negative symptoms.
 
 [^kuss-2012-gaming-disorder-review]: Kuss DJ, Griffiths MD. Internet gaming addiction: a systematic review of empirical research. *Int J Ment Health Addict.* 2012;10(2):278-296. [doi:10.1007/s11469-011-9318-5](https://doi.org/10.1007/s11469-011-9318-5)
 [^who-icd11-gaming-disorder]: World Health Organization. ICD-11: Gaming Disorder (6C51). Geneva: WHO; 2019. [icd.who.int](https://icd.who.int/browse/2025-01/mms/en#1448597234)
