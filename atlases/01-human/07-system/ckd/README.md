@@ -180,6 +180,15 @@ cross_links:
   - target: 01-human/07-system/renal-cell-carcinoma
     relation: connects-to
     note: "Long-standing damage turns malignant: years of CKD and the acquired cystic disease of dialysis sharply raise the risk of renal cell carcinoma arising in the scarred kidneys."
+  - target: 01-human/03-molecular/nf-kb
+    relation: connects-to
+    note: "Inflammation scars the kidney forward: NF-κB activation in tubular and immune cells sustains the tubulointerstitial inflammation that, alongside TGF-β, drives the relentless fibrosis of progressive chronic kidney disease."
+  - target: 01-human/07-system/sepsis
+    relation: connects-to
+    note: "Uremia and dialysis lines invite infection: impaired uremic immunity and the catheters used for dialysis make bloodstream infection and sepsis a leading cause of death in advanced kidney disease."
+  - target: 01-human/07-system/venous-thromboembolism
+    relation: connects-to
+    note: "Failing kidneys tip the blood toward clots: CKD, especially with heavy proteinuria, creates a hypercoagulable state that raises the risk of deep-vein thrombosis and pulmonary embolism."
 ---
 
 # Chronic Kidney Disease
@@ -310,6 +319,9 @@ As nephron mass decreases, impaired renal functions accumulate:
 - `connects-to` → **[Transforming Growth Factor Beta](../../03-molecular/tgf-beta/README.md)** — Fibrosis is the final common path: whatever the initial insult, TGF-β drives tubular cells and fibroblasts to scar the kidney with collagen, the progressive interstitial fibrosis that determines how fast CKD advances.
 - `connects-to` → **[Stroke](../stroke/README.md)** — Failing kidneys imperil the brain's vessels: uremic vasculopathy, hypertension and accelerated atherosclerosis make stroke far more common in CKD, while the bleeding tendency of uremia raises hemorrhagic risk too.
 - `connects-to` → **[Renal Cell Carcinoma](../renal-cell-carcinoma/README.md)** — Long-standing damage turns malignant: years of CKD and the acquired cystic disease of dialysis sharply raise the risk of renal cell carcinoma arising in the scarred kidneys.
+- `connects-to` → **[NF-κB](../../03-molecular/nf-kb/README.md)** — Inflammation scars the kidney forward: NF-κB activation in tubular and immune cells sustains the tubulointerstitial inflammation that, alongside TGF-β, drives the relentless fibrosis of progressive chronic kidney disease.
+- `connects-to` → **[Sepsis](../sepsis/README.md)** — Uremia and dialysis lines invite infection: impaired uremic immunity and the catheters used for dialysis make bloodstream infection and sepsis a leading cause of death in advanced kidney disease.
+- `connects-to` → **[Venous Thromboembolism](../venous-thromboembolism/README.md)** — Failing kidneys tip the blood toward clots: CKD, especially with heavy proteinuria, creates a hypercoagulable state that raises the risk of deep-vein thrombosis and pulmonary embolism.
 
 ## Pathology
 

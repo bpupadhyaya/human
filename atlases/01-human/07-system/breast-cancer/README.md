@@ -181,6 +181,15 @@ cross_links:
   - target: 01-human/03-molecular/myc
     relation: connects-to
     note: "Amplification marks the aggressive tumors: MYC is frequently amplified in basal and triple-negative breast cancer, powering relentless proliferation in the subtypes that lack hormonal and HER2 targets."
+  - target: 01-human/03-molecular/nf-kb
+    relation: connects-to
+    note: "NF-κB drives the hardest-to-treat subtype: constitutive NF-κB signaling supports survival, inflammation and metastasis in ER-negative and triple-negative breast cancer, a pathway studied where hormonal and HER2 targets are absent."
+  - target: 01-human/07-system/venous-thromboembolism
+    relation: connects-to
+    note: "The cancer and its therapy both clot: breast cancer raises thrombosis risk, compounded by tamoxifen and chemotherapy, so deep-vein thrombosis and pulmonary embolism are recognized complications of treatment."
+  - target: 01-human/07-system/sepsis
+    relation: connects-to
+    note: "Chemo strips the body's defenses: the cytotoxic regimens used against breast cancer cause neutropenia, making febrile neutropenia and sepsis a recurring hazard of treatment."
 ---
 
 # Breast Cancer
@@ -341,6 +350,9 @@ cross_links:
 - `connects-to` → **[PALB2](../../03-molecular/palb2/README.md)** — Another repair gene joins BRCA: germline PALB2 mutations, which partner BRCA2 in homologous recombination, confer a high breast cancer risk and the same sensitivity to PARP inhibitors, widening who gets genetic testing.
 - `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — ER-positive tumors lean on a growth hub: PI3K-AKT-mTOR signaling drives proliferation and resistance to hormone therapy, so the mTOR inhibitor everolimus is added to endocrine treatment when the cancer escapes it.
 - `connects-to` → **[MYC](../../03-molecular/myc/README.md)** — Amplification marks the aggressive tumors: MYC is frequently amplified in basal and triple-negative breast cancer, powering relentless proliferation in the subtypes that lack hormonal and HER2 targets.
+- `connects-to` → **[NF-κB](../../03-molecular/nf-kb/README.md)** — NF-κB drives the hardest-to-treat subtype: constitutive NF-κB signaling supports survival, inflammation and metastasis in ER-negative and triple-negative breast cancer, a pathway studied where hormonal and HER2 targets are absent.
+- `connects-to` → **[Venous Thromboembolism](../venous-thromboembolism/README.md)** — The cancer and its therapy both clot: breast cancer raises thrombosis risk, compounded by tamoxifen and chemotherapy, so deep-vein thrombosis and pulmonary embolism are recognized complications of treatment.
+- `connects-to` → **[Sepsis](../sepsis/README.md)** — Chemo strips the body's defenses: the cytotoxic regimens used against breast cancer cause neutropenia, making febrile neutropenia and sepsis a recurring hazard of treatment.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
