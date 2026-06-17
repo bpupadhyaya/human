@@ -178,6 +178,15 @@ cross_links:
   - target: 01-human/07-system/venous-thromboembolism
     relation: connects-to
     note: "The tumor and its surgery raise the clot risk: like other abdominal malignancies GIST predisposes to venous thromboembolism, a perioperative hazard during the resections its treatment requires."
+  - target: 01-human/03-molecular/stat3
+    relation: connects-to
+    note: "Constitutive KIT signals through STAT3: the mutant KIT or PDGFRA driving GIST activates STAT3 among its downstream pathways, supporting proliferation and survival alongside the PI3K-AKT and MAPK arms."
+  - target: 01-human/03-molecular/nf-kb
+    relation: connects-to
+    note: "KIT routes survival through NF-κB too: oncogenic KIT signaling engages NF-κB to sustain GIST-cell survival, part of the network that keeps the tumor alive and contributes to imatinib resistance."
+  - target: 01-human/07-system/sepsis
+    relation: connects-to
+    note: "A bleeding or ruptured tumor can seed infection: GISTs ulcerate into the gut lumen and can rupture into the peritoneum, and the major resections they require risk anastomotic leak and abdominal sepsis."
 ---
 
 # GIST
@@ -362,6 +371,9 @@ No approved targeted therapy; sunitinib may have modest activity; clinical trial
 - `connects-to` → **[Iron Deficiency Anemia](../iron-deficiency-anemia/README.md)** — GISTs bleed into the gut: ulcerating over the bowel lumen, they cause chronic occult or overt GI bleeding, so iron-deficiency anemia (or melena) is a common way the tumor first declares itself.
 - `connects-to` → **[Autophagy](../../03-molecular/autophagy/README.md)** — Autophagy is how GIST survives imatinib: rather than dying, KIT-inhibited cells enter an autophagy-dependent dormancy, a survival mechanism behind residual disease and relapse that combination autophagy blockade aims to overcome.
 - `connects-to` → **[Venous Thromboembolism](../venous-thromboembolism/README.md)** — The tumor and its surgery raise the clot risk: like other abdominal malignancies GIST predisposes to venous thromboembolism, a perioperative hazard during the resections its treatment requires.
+- `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — Constitutive KIT signals through STAT3: the mutant KIT or PDGFRA driving GIST activates STAT3 among its downstream pathways, supporting proliferation and survival alongside the PI3K-AKT and MAPK arms.
+- `connects-to` → **[NF-κB](../../03-molecular/nf-kb/README.md)** — KIT routes survival through NF-κB too: oncogenic KIT signaling engages NF-κB to sustain GIST-cell survival, part of the network that keeps the tumor alive and contributes to imatinib resistance.
+- `connects-to` → **[Sepsis](../sepsis/README.md)** — A bleeding or ruptured tumor can seed infection: GISTs ulcerate into the gut lumen and can rupture into the peritoneum, and the major resections they require risk anastomotic leak and abdominal sepsis.
 
 ---
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*

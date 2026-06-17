@@ -178,6 +178,15 @@ cross_links:
   - target: 01-human/07-system/heart-failure
     relation: connects-to
     note: "The aorta is in the firing line: GCA aortitis can cause aortic aneurysm and regurgitation that overload the left ventricle into heart failure, why large-vessel imaging follow-up is part of long-term care."
+  - target: 01-human/03-molecular/stat3
+    relation: connects-to
+    note: "IL-6 drives the arteritis through STAT3: the hallmark IL-6 of GCA signals via JAK-STAT3 to sustain the Th17 and macrophage response in the vessel wall, the axis that the IL-6 blocker tocilizumab interrupts."
+  - target: 01-human/07-system/venous-thromboembolism
+    relation: connects-to
+    note: "Systemic inflammation raises the clot risk: the intense acute-phase response of GCA, plus the high-dose corticosteroids used to treat it, increase the risk of venous thromboembolism."
+  - target: 01-human/07-system/sepsis
+    relation: connects-to
+    note: "Long steroid courses invite infection: GCA demands prolonged high-dose glucocorticoids, often in older patients, leaving them prone to serious infection and sepsis — a leading cause of treatment-related death."
 ---
 
 # Giant Cell Arteritis
@@ -346,6 +355,9 @@ The temporal arteries supply scalp, temporalis muscle, and dura. In GCA, transmu
 - `connects-to` → **[JAK1/2](../../03-molecular/jak1-2/README.md)** — JAK-STAT carries the vascular inflammation: IL-6 and interferon-γ signal through JAK1/2 to sustain the arterial-wall attack in GCA, the rationale behind the JAK inhibitors (upadacitinib) now trialed as steroid-sparing therapy.
 - `connects-to` → **[Chronic Myelomonocytic Leukemia](../cmml/README.md)** — Large-vessel vasculitis can flag a myeloid clone: GCA and other vasculitides are over-represented in CMML and the VEXAS spectrum, where a somatic marrow mutation drives systemic inflammation alongside the cytopenias.
 - `connects-to` → **[Heart Failure](../heart-failure/README.md)** — The aorta is in the firing line: GCA aortitis can cause aortic aneurysm and regurgitation that overload the left ventricle into heart failure, why large-vessel imaging follow-up is part of long-term care.
+- `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — IL-6 drives the arteritis through STAT3: the hallmark IL-6 of GCA signals via JAK-STAT3 to sustain the Th17 and macrophage response in the vessel wall, the axis that the IL-6 blocker tocilizumab interrupts.
+- `connects-to` → **[Venous Thromboembolism](../venous-thromboembolism/README.md)** — Systemic inflammation raises the clot risk: the intense acute-phase response of GCA, plus the high-dose corticosteroids used to treat it, increase the risk of venous thromboembolism.
+- `connects-to` → **[Sepsis](../sepsis/README.md)** — Long steroid courses invite infection: GCA demands prolonged high-dose glucocorticoids, often in older patients, leaving them prone to serious infection and sepsis — a leading cause of treatment-related death.
 
 [^stone-2017-giact]: Stone JH, Tuckwell K, Dimonaco S, et al. Trial of tocilizumab in giant-cell arteritis. *N Engl J Med.* 2017;377(4):317-328. [doi:10.1056/NEJMoa1613849](https://doi.org/10.1056/NEJMoa1613849) · [PubMed 28745999](https://pubmed.ncbi.nlm.nih.gov/28745999/)
 [^weyand-2014-gca-review]: Weyand CM, Goronzy JJ. Clinical practice. Giant-cell arteritis and polymyalgia rheumatica. *N Engl J Med.* 2014;371(1):50-57. [doi:10.1056/NEJMcp1214926](https://doi.org/10.1056/NEJMcp1214926) · [PubMed 24988557](https://pubmed.ncbi.nlm.nih.gov/24988557/)
