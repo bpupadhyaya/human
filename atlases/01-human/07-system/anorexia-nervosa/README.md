@@ -184,6 +184,15 @@ cross_links:
   - target: 01-human/07-system/aplastic-anemia
     relation: connects-to
     note: "The marrow can wither too: severe anorexia causes gelatinous marrow transformation, with fat and stroma replacing blood-forming cells and the counts falling toward a marrow-failure picture that resolves with refeeding."
+  - target: 01-human/07-system/nervous-system
+    relation: connects-to
+    note: "It is increasingly seen as a brain disorder: anorexia involves altered reward, fear and body-perception circuits of the nervous system, and starvation itself shrinks brain volume — changes that largely reverse with weight restoration."
+  - target: 01-human/07-system/sepsis
+    relation: connects-to
+    note: "Starvation strips the body's defenses: severe malnutrition blunts immune function, so infection can progress to sepsis with a blunted fever and white-count response — a quiet but leading cause of death in anorexia."
+  - target: 01-human/07-system/insomnia-disorder
+    relation: connects-to
+    note: "Hunger fractures sleep: starvation and the stress-hormone surge of anorexia disturb sleep architecture, causing insomnia and early waking that ease as nutrition is restored."
 ---
 
 # Anorexia Nervosa
@@ -380,6 +389,9 @@ In healthy individuals, food cues activate the mesolimbic reward circuit (VTA �
 - `connects-to` → **[IGF-1](../../03-molecular/igf-1/README.md)** — Starvation creates growth-hormone resistance: the liver stops making IGF-1 even as GH rises, an adaptive uncoupling that, with low estrogen, drives the severe bone loss and growth arrest of anorexia.
 - `connects-to` → **[Heart Failure](../heart-failure/README.md)** — The starved heart shrinks and falters: prolonged malnutrition atrophies the myocardium, producing bradycardia, low blood pressure and arrhythmias that make sudden cardiac death and heart failure the leading medical killer in anorexia.
 - `connects-to` → **[Aplastic Anemia](../aplastic-anemia/README.md)** — The marrow can wither too: severe anorexia causes gelatinous marrow transformation, with fat and stroma replacing blood-forming cells and the counts falling toward a marrow-failure picture that resolves with refeeding.
+- `connects-to` → **[Nervous System](../nervous-system/README.md)** — It is increasingly seen as a brain disorder: anorexia involves altered reward, fear and body-perception circuits of the nervous system, and starvation itself shrinks brain volume — changes that largely reverse with weight restoration.
+- `connects-to` → **[Sepsis](../sepsis/README.md)** — Starvation strips the body's defenses: severe malnutrition blunts immune function, so infection can progress to sepsis with a blunted fever and white-count response — a quiet but leading cause of death in anorexia.
+- `connects-to` → **[Insomnia Disorder](../insomnia-disorder/README.md)** — Hunger fractures sleep: starvation and the stress-hormone surge of anorexia disturb sleep architecture, causing insomnia and early waking that ease as nutrition is restored.
 
 [^treasure-2010-an-lancet]: Treasure J, Claudino AM, Zucker N. Eating disorders. *Lancet.* 2010;375(9714):583-593. [doi:10.1016/S0140-6736(09)61748-7](https://doi.org/10.1016/S0140-6736(09)61748-7) · [PubMed 19931176](https://pubmed.ncbi.nlm.nih.gov/19931176/)
 [^lock-2010-fbt-an]: Lock J, Le Grange D, Agras WS, et al. Randomized clinical trial comparing family-based treatment with adolescent-focused individual therapy for adolescents with anorexia nervosa. *Arch Gen Psychiatry.* 2010;67(10):1025-1032. [doi:10.1001/archgenpsychiatry.2010.128](https://doi.org/10.1001/archgenpsychiatry.2010.128) · [PubMed 20921118](https://pubmed.ncbi.nlm.nih.gov/20921118/)
