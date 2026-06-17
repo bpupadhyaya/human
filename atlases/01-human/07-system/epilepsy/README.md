@@ -184,6 +184,15 @@ cross_links:
   - target: 01-human/04-cellular/t-helper-cell
     relation: connects-to
     note: "Sometimes the immune system causes the seizures: in autoimmune epilepsy, T cells and the antibodies they help generate against neuronal proteins inflame the cortex, a treatable cause distinct from the structural and genetic forms."
+  - target: 01-human/03-molecular/nf-kb
+    relation: connects-to
+    note: "Seizures inflame the brain that feeds them: NF-κB activation in neurons and glia after seizures drives the cytokine output and NLRP3 priming of epileptogenesis, a self-reinforcing neuroinflammatory loop that lowers the seizure threshold."
+  - target: 01-human/07-system/insomnia-disorder
+    relation: connects-to
+    note: "Sleep and seizures pull on each other: sleep deprivation is a classic seizure trigger while epilepsy and its drugs fragment sleep, a bidirectional tangle in which insomnia worsens seizure control."
+  - target: 01-human/07-system/generalized-anxiety-disorder
+    relation: connects-to
+    note: "Fear of the next seizure breeds anxiety: generalized anxiety is among the commonest psychiatric comorbidities of epilepsy, driven both by the unpredictability of attacks and by shared limbic circuitry."
 ---
 
 # Epilepsy
@@ -391,6 +400,9 @@ Anti-NMDAR encephalitis is the most common autoimmune encephalitis (~37% of auto
 - `connects-to` → **[NLRP3 Inflammasome](../../03-molecular/nlrp3-inflammasome/README.md)** — An inflammasome fuels the feed-forward loop: NLRP3 activation in microglia releases IL-1β that heightens neuronal excitability, a driver of epileptogenesis being targeted to halt seizures that resist standard drugs.
 - `connects-to` → **[Malaria](../malaria/README.md)** — A parasite is a major global cause: cerebral malaria seizes the brain acutely and leaves many survivors with chronic epilepsy, making it — with neurocysticercosis — a leading cause of acquired seizures in endemic regions.
 - `connects-to` → **[T Helper Cell](../../04-cellular/t-helper-cell/README.md)** — Sometimes the immune system causes the seizures: in autoimmune epilepsy, T cells and the antibodies they help generate against neuronal proteins inflame the cortex, a treatable cause distinct from the structural and genetic forms.
+- `connects-to` → **[NF-κB](../../03-molecular/nf-kb/README.md)** — Seizures inflame the brain that feeds them: NF-κB activation in neurons and glia after seizures drives the cytokine output and NLRP3 priming of epileptogenesis, a self-reinforcing neuroinflammatory loop that lowers the seizure threshold.
+- `connects-to` → **[Insomnia Disorder](../insomnia-disorder/README.md)** — Sleep and seizures pull on each other: sleep deprivation is a classic seizure trigger while epilepsy and its drugs fragment sleep, a bidirectional tangle in which insomnia worsens seizure control.
+- `connects-to` → **[Generalized Anxiety Disorder](../generalized-anxiety-disorder/README.md)** — Fear of the next seizure breeds anxiety: generalized anxiety is among the commonest psychiatric comorbidities of epilepsy, driven both by the unpredictability of attacks and by shared limbic circuitry.
 
 [^fisher-2017-ilae-classification]: Fisher RS, Cross JH, D'Souza C, et al. Instruction manual for the ILAE 2017 operational classification of seizure types. *Epilepsia.* 2017;58(4):531-542. [doi:10.1111/epi.13671](https://doi.org/10.1111/epi.13671) · [PubMed 28276060](https://pubmed.ncbi.nlm.nih.gov/28276060/)
 [^devinsky-2018-epilepsy-review]: Devinsky O, Vezzani A, O'Brien TJ, et al. Epilepsy. *Nat Rev Dis Primers.* 2018;4:18024. [doi:10.1038/nrdp.2018.24](https://doi.org/10.1038/nrdp.2018.24) · [PubMed 29722352](https://pubmed.ncbi.nlm.nih.gov/29722352/)

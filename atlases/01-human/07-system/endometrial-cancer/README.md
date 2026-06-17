@@ -175,6 +175,15 @@ cross_links:
   - target: 01-human/03-molecular/msh2
     relation: connects-to
     note: "Lynch lands hardest on the womb: germline mismatch-repair defects in genes like MSH2 make endometrial cancer the sentinel cancer of Lynch syndrome in women, and the resulting MSI makes these tumors immunotherapy-responsive."
+  - target: 01-human/03-molecular/nf-kb
+    relation: connects-to
+    note: "Obesity-driven inflammation feeds the tumor through NF-κB: the chronic inflammation of excess fat activates NF-κB in the endometrium, adding a pro-survival, pro-proliferative push to the estrogen excess that drives type I endometrial cancer."
+  - target: 01-human/07-system/venous-thromboembolism
+    relation: connects-to
+    note: "An obese cancer prone to clots: endometrial cancer, usually arising in obese patients, carries a high venous thromboembolism risk that pelvic surgery and the tumor's own procoagulant state compound."
+  - target: 01-human/07-system/sepsis
+    relation: connects-to
+    note: "Surgery and chemo open the door to infection: hysterectomy, the mainstay treatment, and the neutropenia of chemotherapy for advanced disease make postoperative infection and sepsis recognized hazards."
 ---
 
 # Endometrial Cancer
@@ -352,6 +361,9 @@ cross_links:
 - `connects-to` → **[ARID1A](../../03-molecular/arid1a/README.md)** — A chromatin gene falters early: ARID1A, part of the SWI/SNF remodeling complex, is frequently mutated in endometrioid endometrial cancer, loosening gene regulation as one of the disease's commonest driver events.
 - `connects-to` → **[KRAS](../../03-molecular/kras/README.md)** — RAS pushes the endometrioid type: activating KRAS mutations fire the MAPK growth pathway in the estrogen-driven endometrioid subtype, often alongside PTEN and PIK3CA loss in the same tumor.
 - `connects-to` → **[MSH2](../../03-molecular/msh2/README.md)** — Lynch lands hardest on the womb: germline mismatch-repair defects in genes like MSH2 make endometrial cancer the sentinel cancer of Lynch syndrome in women, and the resulting MSI makes these tumors immunotherapy-responsive.
+- `connects-to` → **[NF-κB](../../03-molecular/nf-kb/README.md)** — Obesity-driven inflammation feeds the tumor through NF-κB: the chronic inflammation of excess fat activates NF-κB in the endometrium, adding a pro-survival, pro-proliferative push to the estrogen excess that drives type I endometrial cancer.
+- `connects-to` → **[Venous Thromboembolism](../venous-thromboembolism/README.md)** — An obese cancer prone to clots: endometrial cancer, usually arising in obese patients, carries a high venous thromboembolism risk that pelvic surgery and the tumor's own procoagulant state compound.
+- `connects-to` → **[Sepsis](../sepsis/README.md)** — Surgery and chemo open the door to infection: hysterectomy, the mainstay treatment, and the neutropenia of chemotherapy for advanced disease make postoperative infection and sepsis recognized hazards.
 
 [^konstantinopoulos-2019-dostarlimab]: Konstantinopoulos PA, Lheureux S, Moore KN. PARP inhibitors for ovarian and endometrial cancers: state of the art and clinical perspectives. *J Clin Oncol.* 2020;38(25):2896-2909. [doi:10.1200/JCO.20.00571](https://doi.org/10.1200/JCO.20.00571) · [PubMed 32706635](https://pubmed.ncbi.nlm.nih.gov/32706635/)
 [^eskander-2023-ruby]: Eskander RN, Sill MW, Beffa L, et al. Pembrolizumab plus chemotherapy in advanced endometrial cancer. *N Engl J Med.* 2023;388(23):2159-2170. [doi:10.1056/NEJMoa2302312](https://doi.org/10.1056/NEJMoa2302312) · [PubMed 37166384](https://pubmed.ncbi.nlm.nih.gov/37166384/)
