@@ -193,6 +193,15 @@ cross_links:
   - target: 01-human/07-system/anemia-of-chronic-disease
     relation: connects-to
     note: "Cachexia and inflammation drain the blood: the intense inflammatory and catabolic state of pancreatic cancer suppresses erythropoiesis, producing an anemia of chronic disease that compounds its profound weight loss."
+  - target: 01-human/07-system/osteoporosis
+    relation: connects-to
+    note: "Loss of the exocrine pancreas starves bone of vitamin D: tumor obstruction and resection cause fat malabsorption, and the resulting deficiency of vitamin D and calcium, on top of cachexia, drives metabolic bone loss toward osteoporosis."
+  - target: 01-human/07-system/ckd
+    relation: connects-to
+    note: "Gemcitabine can injure the kidneys: a backbone of pancreatic-cancer chemotherapy, gemcitabine occasionally triggers a thrombotic microangiopathy and hemolytic-uremic syndrome that scars the kidney toward chronic disease."
+  - target: 01-human/07-system/heart-failure
+    relation: connects-to
+    note: "Its fluoropyrimidine can stun the heart: the 5-fluorouracil in FOLFIRINOX can provoke coronary vasospasm and direct myocardial toxicity, occasionally precipitating acute cardiac dysfunction and heart failure."
 ---
 
 # Pancreatic Cancer
@@ -371,6 +380,9 @@ cross_links:
 - `connects-to` → **[NF-κB](../../03-molecular/nf-kb/README.md)** — KRAS routes survival through NF-κB: constitutive NF-κB activity downstream of mutant KRAS sustains pancreatic-cancer-cell survival, inflammation and chemoresistance, a hard-to-drug hub central to the disease's lethality.
 - `connects-to` → **[Disseminated Intravascular Coagulation](../disseminated-intravascular-coagulation/README.md)** — It is the classic Trousseau cancer: mucin-secreting pancreatic adenocarcinoma activates coagulation so strongly it can cause migratory thrombophlebitis and chronic disseminated intravascular coagulation, sometimes the first clue to the tumor.
 - `connects-to` → **[Anemia of Chronic Disease](../anemia-of-chronic-disease/README.md)** — Cachexia and inflammation drain the blood: the intense inflammatory and catabolic state of pancreatic cancer suppresses erythropoiesis, producing an anemia of chronic disease that compounds its profound weight loss.
+- `connects-to` → **[Osteoporosis](../osteoporosis/README.md)** — Loss of the exocrine pancreas starves bone of vitamin D: tumor obstruction and resection cause fat malabsorption, and the resulting deficiency of vitamin D and calcium, on top of cachexia, drives metabolic bone loss toward osteoporosis.
+- `connects-to` → **[Chronic Kidney Disease](../ckd/README.md)** — Gemcitabine can injure the kidneys: a backbone of pancreatic-cancer chemotherapy, gemcitabine occasionally triggers a thrombotic microangiopathy and hemolytic-uremic syndrome that scars the kidney toward chronic disease.
+- `connects-to` → **[Heart Failure](../heart-failure/README.md)** — Its fluoropyrimidine can stun the heart: the 5-fluorouracil in FOLFIRINOX can provoke coronary vasospasm and direct myocardial toxicity, occasionally precipitating acute cardiac dysfunction and heart failure.
 
 ---
 

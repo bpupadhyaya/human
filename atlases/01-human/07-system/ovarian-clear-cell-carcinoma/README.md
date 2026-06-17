@@ -187,6 +187,15 @@ cross_links:
   - target: 01-human/07-system/anemia-of-chronic-disease
     relation: connects-to
     note: "Chronic inflammation and chemo drain the blood: born of inflamed endometriosis and treated with marrow-suppressing platinum, OCCC commonly produces an anemia of chronic disease."
+  - target: 01-human/07-system/osteoporosis
+    relation: connects-to
+    note: "Removing the ovaries withdraws bone-protective estrogen: surgery and chemotherapy for OCCC throw younger patients into abrupt menopause, and the estrogen loss accelerates bone thinning toward osteoporosis."
+  - target: 01-human/07-system/major-depressive-disorder
+    relation: connects-to
+    note: "A chemoresistant cancer in young women weighs on mood: OCCC's poor response to platinum at recurrence, frequent advanced presentation and abrupt surgical menopause contribute to substantial depression and anxiety."
+  - target: 01-human/07-system/heart-failure
+    relation: connects-to
+    note: "Salvage anthracyclines can weaken the heart: because OCCC resists platinum, recurrent disease is often treated with pegylated liposomal doxorubicin, whose cumulative cardiotoxicity can erode cardiac function into heart failure."
 ---
 
 # Ovarian Clear Cell Carcinoma
@@ -385,6 +394,9 @@ Comprehensive surgical staging (TAH-BSO, omentectomy, pelvic/para-aortic lymphad
 - `connects-to` → **[Cyclin D1](../../03-molecular/cyclin-d1/README.md)** — Lost SWI/SNF control drives the cell cycle: ARID1A loss in OCCC dysregulates cyclin D1 and cell-cycle entry, contributing to the proliferation of this chemoresistant clear-cell subtype.
 - `connects-to` → **[Chronic Kidney Disease](../ckd/README.md)** — Pelvic disease and platinum strain the kidneys: tumor obstructing the ureters causes hydronephrosis, and the cisplatin used against this resistant cancer is nephrotoxic, together risking chronic kidney disease.
 - `connects-to` → **[Anemia of Chronic Disease](../anemia-of-chronic-disease/README.md)** — Chronic inflammation and chemo drain the blood: born of inflamed endometriosis and treated with marrow-suppressing platinum, OCCC commonly produces an anemia of chronic disease.
+- `connects-to` → **[Osteoporosis](../osteoporosis/README.md)** — Removing the ovaries withdraws bone-protective estrogen: surgery and chemotherapy for OCCC throw younger patients into abrupt menopause, and the estrogen loss accelerates bone thinning toward osteoporosis.
+- `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — A chemoresistant cancer in young women weighs on mood: OCCC's poor response to platinum at recurrence, frequent advanced presentation and abrupt surgical menopause contribute to substantial depression and anxiety.
+- `connects-to` → **[Heart Failure](../heart-failure/README.md)** — Salvage anthracyclines can weaken the heart: because OCCC resists platinum, recurrent disease is often treated with pegylated liposomal doxorubicin, whose cumulative cardiotoxicity can erode cardiac function into heart failure.
 
 ---
 
