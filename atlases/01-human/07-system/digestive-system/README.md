@@ -208,6 +208,15 @@ cross_links:
   - target: 02-pathogen/03-fungi/candida-albicans
     relation: connects-to
     note: "A commensal yeast can turn invader: Candida normally lives quietly in the gut, but disrupted flora or immunity let it overgrow into oral and esophageal candidiasis along the upper digestive tract."
+  - target: 01-human/07-system/major-depressive-disorder
+    relation: connects-to
+    note: "Gut and brain talk constantly: most of the body's serotonin is made in the gut and the microbiome signals along the gut-brain axis, so digestive function and mood are tightly linked in both directions."
+  - target: 01-human/07-system/type-2-diabetes
+    relation: connects-to
+    note: "The gut sets the metabolic tone: intestinal incretin hormones like GLP-1, nutrient absorption and the microbiome shape insulin secretion and resistance, placing the digestive system at the heart of type 2 diabetes."
+  - target: 01-human/07-system/iron-deficiency-anemia
+    relation: connects-to
+    note: "It both absorbs iron and loses it: the gut is the sole site of iron uptake, so malabsorption or chronic bleeding from ulcers, tumors or inflammation along the tract is a leading cause of iron-deficiency anemia."
 taxonomy:
   uberon: "UBERON:0001007"
 ---
@@ -360,6 +369,9 @@ The ENS can function autonomously without extrinsic innervation (Hirschsprung's 
 - **Connects to:** [Cholangiocarcinoma](../cholangiocarcinoma/README.md) — its biliary tree can turn malignant: cholangiocarcinoma arises in the bile ducts that drain the liver into the gut, a hepatobiliary cancer of the digestive system often linked to chronic inflammation of the ducts.
 - **Connects to:** [NASH](../nash/README.md) — the liver fattens and inflames: NASH is the inflammatory fatty-liver disease of the digestive system's largest gland, driven by metabolic excess and progressing toward cirrhosis and liver cancer.
 - **Connects to:** [Candida albicans](../../../02-pathogen/03-fungi/candida-albicans/README.md) — a commensal yeast can turn invader: Candida normally lives quietly in the gut, but disrupted flora or immunity let it overgrow into oral and esophageal candidiasis along the upper digestive tract.
+- **Connects to:** [Major Depressive Disorder](../major-depressive-disorder/README.md) — gut and brain talk constantly: most of the body's serotonin is made in the gut and the microbiome signals along the gut-brain axis, so digestive function and mood are tightly linked in both directions.
+- **Connects to:** [Type 2 Diabetes](../type-2-diabetes/README.md) — the gut sets the metabolic tone: intestinal incretin hormones like GLP-1, nutrient absorption and the microbiome shape insulin secretion and resistance, placing the digestive system at the heart of type 2 diabetes.
+- **Connects to:** [Iron-Deficiency Anemia](../iron-deficiency-anemia/README.md) — it both absorbs iron and loses it: the gut is the sole site of iron uptake, so malabsorption or chronic bleeding from ulcers, tumors or inflammation along the tract is a leading cause of iron-deficiency anemia.
 
 ## Pathology
 
