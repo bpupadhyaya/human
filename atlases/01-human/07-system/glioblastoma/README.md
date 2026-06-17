@@ -178,6 +178,15 @@ cross_links:
   - target: 01-human/07-system/stroke
     relation: connects-to
     note: "The tumor and its therapy strike the brain's vessels: glioblastoma's hypercoagulable state and the radiation used to treat it injure cerebral arteries, raising the risk of ischemic stroke alongside the tumor itself."
+  - target: 01-human/03-molecular/nlrp3-inflammasome
+    relation: connects-to
+    note: "Tumor-associated microglia stoke the inflammasome: NLRP3 activation in glioblastoma's myeloid cells releases IL-1β that fuels the immunosuppressive, pro-tumor inflammation of its microenvironment."
+  - target: 01-human/07-system/major-depressive-disorder
+    relation: connects-to
+    note: "The tumor and its toll darken mood: depression is strikingly common in glioblastoma, arising from the diagnosis, frontal-lobe disruption and corticosteroids, and it independently worsens function and survival."
+  - target: 01-human/07-system/sepsis
+    relation: connects-to
+    note: "Treatment strips immunity: temozolomide-induced lymphopenia and prolonged dexamethasone leave glioblastoma patients prone to opportunistic infection, including Pneumocystis pneumonia, and to sepsis."
 ---
 
 # Glioblastoma
@@ -361,6 +370,9 @@ The blood-brain barrier (BBB) creates a pharmacological challenge:
 - `connects-to` → **[ATRX](../../03-molecular/atrx/README.md)** — ATRX loss marks the astrocytic lineage: especially in IDH-mutant glioblastomas, ATRX inactivation drives alternative lengthening of telomeres and helps distinguish astrocytoma-derived tumors from oligodendroglial ones.
 - `connects-to` → **[NF-κB](../../03-molecular/nf-kb/README.md)** — NF-κB powers the mesenchymal subtype: constitutive NF-κB signaling (often with NF1 loss) drives the aggressive, treatment-resistant mesenchymal glioblastoma and its immunosuppressive, inflamed microenvironment.
 - `connects-to` → **[Stroke](../stroke/README.md)** — The tumor and its therapy strike the brain's vessels: glioblastoma's hypercoagulable state and the radiation used to treat it injure cerebral arteries, raising the risk of ischemic stroke alongside the tumor itself.
+- `connects-to` → **[NLRP3 Inflammasome](../../03-molecular/nlrp3-inflammasome/README.md)** — Tumor-associated microglia stoke the inflammasome: NLRP3 activation in glioblastoma's myeloid cells releases IL-1β that fuels the immunosuppressive, pro-tumor inflammation of its microenvironment.
+- `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — The tumor and its toll darken mood: depression is strikingly common in glioblastoma, arising from the diagnosis, frontal-lobe disruption and corticosteroids, and it independently worsens function and survival.
+- `connects-to` → **[Sepsis](../sepsis/README.md)** — Treatment strips immunity: temozolomide-induced lymphopenia and prolonged dexamethasone leave glioblastoma patients prone to opportunistic infection, including Pneumocystis pneumonia, and to sepsis.
 
 ---
 

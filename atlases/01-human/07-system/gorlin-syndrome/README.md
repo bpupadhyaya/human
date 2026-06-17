@@ -178,6 +178,15 @@ cross_links:
   - target: 01-human/01-subatomic/proton
     relation: connects-to
     note: "Radiation is hazardous in Gorlin: these patients are radiosensitive, and radiotherapy — whether photon or proton — can induce a crop of new basal cell carcinomas in the treated field, so it is avoided where possible (notably for their medulloblastomas)."
+  - target: 01-human/03-molecular/stat3
+    relation: connects-to
+    note: "Hedgehog and STAT3 cooperate in its tumors: the unrestrained Hedgehog signaling of Gorlin engages STAT3 among the pathways that drive its basal cell carcinomas and medulloblastomas."
+  - target: 01-human/07-system/sepsis
+    relation: connects-to
+    note: "Jaw cysts and skin surgery invite infection: the odontogenic keratocysts of Gorlin can become infected, and the many excisions and reconstructions for recurrent basal cell carcinomas carry wound-infection and sepsis risk."
+  - target: 01-human/07-system/autism-spectrum-disorder
+    relation: connects-to
+    note: "The Hedgehog pathway shapes the developing brain: a subset of Gorlin patients have developmental delay and autistic features, reflecting Sonic Hedgehog's role in neurodevelopment alongside the syndrome's structural brain anomalies."
 ---
 
 # Gorlin Syndrome
@@ -342,6 +351,9 @@ Both are two-hit tumor suppressors: germline heterozygous LOF + somatic second h
 - `connects-to` → **[CDKN2A](../../03-molecular/cdkn2a/README.md)** — A second hit speeds the basal cell carcinoma: CDKN2A loss is among the cooperating mutations, beyond the germline PTCH1 defect, that let Gorlin's basal cell carcinomas progress to invasive tumors.
 - `connects-to` → **[Heart Failure](../heart-failure/README.md)** — Gorlin grows a tumor in the heart: cardiac fibromas are a recognized feature, and a large one can obstruct flow or trigger arrhythmia and heart failure, so cardiac imaging is part of the syndrome's surveillance.
 - `connects-to` → **[Proton](../../01-subatomic/proton/README.md)** — Radiation is hazardous in Gorlin: these patients are radiosensitive, and radiotherapy — whether photon or proton — can induce a crop of new basal cell carcinomas in the treated field, so it is avoided where possible (notably for their medulloblastomas).
+- `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — Hedgehog and STAT3 cooperate in its tumors: the unrestrained Hedgehog signaling of Gorlin engages STAT3 among the pathways that drive its basal cell carcinomas and medulloblastomas.
+- `connects-to` → **[Sepsis](../sepsis/README.md)** — Jaw cysts and skin surgery invite infection: the odontogenic keratocysts of Gorlin can become infected, and the many excisions and reconstructions for recurrent basal cell carcinomas carry wound-infection and sepsis risk.
+- `connects-to` → **[Autism Spectrum Disorder](../autism-spectrum-disorder/README.md)** — The Hedgehog pathway shapes the developing brain: a subset of Gorlin patients have developmental delay and autistic features, reflecting Sonic Hedgehog's role in neurodevelopment alongside the syndrome's structural brain anomalies.
 
 ---
 
