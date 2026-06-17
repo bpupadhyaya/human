@@ -202,6 +202,15 @@ cross_links:
   - target: 01-human/07-system/major-depressive-disorder
     relation: connects-to
     note: "Surviving the catastrophe leaves a mark: patients who survive the multiorgan failure and ICU course in which DIC arises carry the depression and cognitive sequelae of the post-intensive-care syndrome."
+  - target: 01-human/07-system/wound-healing
+    relation: connects-to
+    note: "Microthrombi kill tissue and leave wounds: DIC's small-vessel clotting causes purpura fulminans and limb gangrene, sometimes requiring amputation, leaving major wounds that heal poorly amid critical illness."
+  - target: 01-human/07-system/neuropathic-pain
+    relation: connects-to
+    note: "Ischemic limb loss leaves lasting pain: the digital and limb gangrene of severe DIC can require amputation, producing chronic stump and phantom-limb neuropathic pain in survivors."
+  - target: 01-human/07-system/ptsd
+    relation: connects-to
+    note: "A life-threatening ICU crisis can scar the mind: surviving the catastrophic bleeding, clotting and intensive care in which DIC occurs frequently leaves post-traumatic stress."
 ---
 
 # Disseminated Intravascular Coagulation
@@ -394,6 +403,9 @@ DIC is always **secondary** — it does not occur in isolation but as a conseque
 - `connects-to` → **[Heart Failure](../heart-failure/README.md)** — Microthrombi and shock stun the heart: the myocardial microvascular clotting and profound hypotension of DIC's underlying critical illness impair cardiac function, contributing to acute heart failure.
 - `connects-to` → **[Paroxysmal Nocturnal Hemoglobinuria](../pnh/README.md)** — A hemolytic disorder that can tip into it: the complement-driven hemolysis and intense thrombotic state of paroxysmal nocturnal hemoglobinuria can precipitate or overlap with DIC during severe crises.
 - `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — Surviving the catastrophe leaves a mark: patients who survive the multiorgan failure and ICU course in which DIC arises carry the depression and cognitive sequelae of the post-intensive-care syndrome.
+- `connects-to` → **[Wound Healing](../wound-healing/README.md)** — Microthrombi kill tissue and leave wounds: DIC's small-vessel clotting causes purpura fulminans and limb gangrene, sometimes requiring amputation, leaving major wounds that heal poorly amid critical illness.
+- `connects-to` → **[Neuropathic Pain](../neuropathic-pain/README.md)** — Ischemic limb loss leaves lasting pain: the digital and limb gangrene of severe DIC can require amputation, producing chronic stump and phantom-limb neuropathic pain in survivors.
+- `connects-to` → **[PTSD](../ptsd/README.md)** — A life-threatening ICU crisis can scar the mind: surviving the catastrophic bleeding, clotting and intensive care in which DIC occurs frequently leaves post-traumatic stress.
 
 ---
 

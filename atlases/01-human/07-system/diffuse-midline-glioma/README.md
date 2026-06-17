@@ -196,6 +196,15 @@ cross_links:
   - target: 01-human/07-system/anemia-of-chronic-disease
     relation: connects-to
     note: "Advanced disease and its therapy blunt the marrow: progressive tumor burden with its inflammation, plus any chemotherapy and radiation, depress erythropoiesis into an anemia of chronic disease late in the course."
+  - target: 01-human/07-system/type-2-diabetes
+    relation: connects-to
+    note: "Its steroids raise blood sugar: the high-dose dexamethasone used to control peritumoral edema in diffuse midline glioma induces insulin resistance, frequently causing steroid-induced hyperglycemia and diabetes."
+  - target: 02-pathogen/03-fungi/aspergillus-fumigatus
+    relation: connects-to
+    note: "Steroids and radiation blunt immunity: the prolonged dexamethasone and cranial radiation for diffuse midline glioma suppress immune defense, occasionally permitting invasive aspergillosis."
+  - target: 01-human/07-system/wound-healing
+    relation: connects-to
+    note: "Chronic steroids impair repair: the long-term dexamethasone needed to manage symptoms of diffuse midline glioma thins skin and slows healing of surgical biopsy and other wounds."
 ---
 
 # Diffuse Midline Glioma
@@ -394,6 +403,9 @@ Direct infusion of drugs into the pons via stereotactic catheter; bypasses BBB; 
 - `connects-to` → **[Stroke](../stroke/README.md)** — Its radiation can scar the brain's vessels: the high-dose radiotherapy that is the mainstay of palliation for diffuse midline glioma injures cerebral vessels, causing a delayed vasculopathy and stroke risk in longer survivors.
 - `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — An almost uniformly fatal childhood tumor devastates: the relentless brainstem decline and dismal prognosis of diffuse midline glioma impose profound depression and grief on patients and families.
 - `connects-to` → **[Anemia of Chronic Disease](../anemia-of-chronic-disease/README.md)** — Advanced disease and its therapy blunt the marrow: progressive tumor burden with its inflammation, plus any chemotherapy and radiation, depress erythropoiesis into an anemia of chronic disease late in the course.
+- `connects-to` → **[Type 2 Diabetes](../type-2-diabetes/README.md)** — Its steroids raise blood sugar: the high-dose dexamethasone used to control peritumoral edema in diffuse midline glioma induces insulin resistance, frequently causing steroid-induced hyperglycemia and diabetes.
+- `connects-to` → **[Aspergillus fumigatus](../../../02-pathogen/03-fungi/aspergillus-fumigatus/README.md)** — Steroids and radiation blunt immunity: the prolonged dexamethasone and cranial radiation for diffuse midline glioma suppress immune defense, occasionally permitting invasive aspergillosis.
+- `connects-to` → **[Wound Healing](../wound-healing/README.md)** — Chronic steroids impair repair: the long-term dexamethasone needed to manage symptoms of diffuse midline glioma thins skin and slows healing of surgical biopsy and other wounds.
 
 ---
 
