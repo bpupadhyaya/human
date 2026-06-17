@@ -187,6 +187,15 @@ cross_links:
   - target: 01-human/07-system/anemia-of-chronic-disease
     relation: connects-to
     note: "Cancer and chemo wear down the blood: the advanced ovarian and breast cancers of HBOC carriers, with their chronic inflammation and marrow-suppressing therapy, commonly cause an anemia of chronic disease."
+  - target: 01-human/07-system/major-depressive-disorder
+    relation: connects-to
+    note: "Carrying the mutation weighs on the mind: learning of a high inherited cancer risk and facing prophylactic mastectomy and oophorectomy impose a heavy psychological burden, with depression common among carriers."
+  - target: 01-human/07-system/heart-failure
+    relation: connects-to
+    note: "Breast-cancer therapy can wound the heart: the anthracyclines and HER2-directed trastuzumab used to treat cancers in HBOC carriers are cardiotoxic, risking a cardiomyopathy and heart failure."
+  - target: 01-human/07-system/ckd
+    relation: connects-to
+    note: "Platinum chemo strains the kidney: the cisplatin and carboplatin central to treating the ovarian cancers of HBOC carriers are nephrotoxic, and cumulative exposure can leave chronic kidney impairment."
 ---
 
 # Hereditary Breast and Ovarian Cancer
@@ -379,6 +388,9 @@ BRCA-mutant cells (HRD):
 - `connects-to` → **[Venous Thromboembolism](../venous-thromboembolism/README.md)** — Its cancers and their treatment clot the blood: the breast and especially ovarian cancers of HBOC carriers are strongly prothrombotic, and the surgery and chemotherapy they require make venous thromboembolism a major hazard.
 - `connects-to` → **[Sepsis](../sepsis/README.md)** — Chemo empties the marrow's defenses: the platinum and taxane regimens used against HBOC-related cancers cause neutropenia, so febrile neutropenia and sepsis are recurrent treatment dangers.
 - `connects-to` → **[Anemia of Chronic Disease](../anemia-of-chronic-disease/README.md)** — Cancer and chemo wear down the blood: the advanced ovarian and breast cancers of HBOC carriers, with their chronic inflammation and marrow-suppressing therapy, commonly cause an anemia of chronic disease.
+- `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — Carrying the mutation weighs on the mind: learning of a high inherited cancer risk and facing prophylactic mastectomy and oophorectomy impose a heavy psychological burden, with depression common among carriers.
+- `connects-to` → **[Heart Failure](../heart-failure/README.md)** — Breast-cancer therapy can wound the heart: the anthracyclines and HER2-directed trastuzumab used to treat cancers in HBOC carriers are cardiotoxic, risking a cardiomyopathy and heart failure.
+- `connects-to` → **[Chronic Kidney Disease](../ckd/README.md)** — Platinum chemo strains the kidney: the cisplatin and carboplatin central to treating the ovarian cancers of HBOC carriers are nephrotoxic, and cumulative exposure can leave chronic kidney impairment.
 
 ---
 

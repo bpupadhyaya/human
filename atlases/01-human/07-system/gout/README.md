@@ -193,6 +193,15 @@ cross_links:
   - target: 01-human/07-system/venous-thromboembolism
     relation: connects-to
     note: "Gouty inflammation tips toward clotting: the systemic inflammation of gout and hyperuricemia is associated with a higher risk of venous thromboembolism, adding a venous dimension to its vascular complications."
+  - target: 01-human/07-system/nash
+    relation: connects-to
+    note: "Hyperuricemia and fatty liver cluster: gout sits squarely in the metabolic syndrome, and its insulin resistance and fructose metabolism strongly associate it with non-alcoholic steatohepatitis."
+  - target: 01-human/07-system/major-depressive-disorder
+    relation: connects-to
+    note: "Recurrent disabling pain weighs on mood: the unpredictable, intensely painful flares and chronic joint damage of tophaceous gout reduce quality of life and carry an elevated rate of depression."
+  - target: 01-human/07-system/anemia-of-chronic-disease
+    relation: connects-to
+    note: "Chronic inflammation and renal disease lower the count: longstanding tophaceous gout's persistent inflammation, compounded by the chronic kidney disease that so often accompanies it, can produce an anemia of chronic disease."
 ---
 
 # Gout
@@ -344,6 +353,9 @@ The central mechanism linking MSU crystals to acute gouty arthritis is **NLRP3 i
 - `connects-to` → **[Heart Failure](../heart-failure/README.md)** — Urate and the failing heart feed each other: hyperuricemia independently predicts heart failure and worsens its outcomes, while the disease and its diuretics raise urate — a bidirectional link in gout's cardiovascular burden.
 - `connects-to` → **[Sepsis](../sepsis/README.md)** — A hot joint forces a critical question: acute gout closely mimics septic arthritis, which must be excluded by joint aspiration because a missed joint infection can seed sepsis, and tophi themselves can become infected.
 - `connects-to` → **[Venous Thromboembolism](../venous-thromboembolism/README.md)** — Gouty inflammation tips toward clotting: the systemic inflammation of gout and hyperuricemia is associated with a higher risk of venous thromboembolism, adding a venous dimension to its vascular complications.
+- `connects-to` → **[NASH](../nash/README.md)** — Hyperuricemia and fatty liver cluster: gout sits squarely in the metabolic syndrome, and its insulin resistance and fructose metabolism strongly associate it with non-alcoholic steatohepatitis.
+- `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — Recurrent disabling pain weighs on mood: the unpredictable, intensely painful flares and chronic joint damage of tophaceous gout reduce quality of life and carry an elevated rate of depression.
+- `connects-to` → **[Anemia of Chronic Disease](../anemia-of-chronic-disease/README.md)** — Chronic inflammation and renal disease lower the count: longstanding tophaceous gout's persistent inflammation, compounded by the chronic kidney disease that so often accompanies it, can produce an anemia of chronic disease.
 
 [^dalbeth-2019-gout-primer]: Dalbeth N, Choi HK, Joosten LAB, et al. Gout. *Nat Rev Dis Primers.* 2019;5(1):69. [doi:10.1038/s41572-019-0115-y](https://doi.org/10.1038/s41572-019-0115-y) · [PubMed 31558729](https://pubmed.ncbi.nlm.nih.gov/31558729/)
 [^martinon-2006-nlrp3-gout]: Martinon F, Pétrilli V, Mayor A, Tardivel A, Tschopp J. Gout-associated uric acid crystals activate the NALP3 inflammasome. *Nature.* 2006;440(7081):237-241. [doi:10.1038/nature04516](https://doi.org/10.1038/nature04516) · [PubMed 16407889](https://pubmed.ncbi.nlm.nih.gov/16407889/)
