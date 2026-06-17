@@ -184,6 +184,15 @@ cross_links:
   - target: 01-human/07-system/sepsis
     relation: connects-to
     note: "Surgery and chemo open the door to infection: hysterectomy, the mainstay treatment, and the neutropenia of chemotherapy for advanced disease make postoperative infection and sepsis recognized hazards."
+  - target: 01-human/07-system/anemia-of-chronic-disease
+    relation: connects-to
+    note: "Bleeding and inflammation both lower the count: alongside the iron-deficiency anemia from abnormal uterine bleeding, the tumor's inflammatory burden raises hepcidin and suppresses erythropoiesis into an anemia of chronic disease."
+  - target: 01-human/07-system/ckd
+    relation: connects-to
+    note: "Advanced pelvic disease can obstruct the kidneys: locally invasive or recurrent endometrial cancer can compress the ureters, and platinum chemotherapy adds nephrotoxicity, together threatening chronic kidney disease."
+  - target: 01-human/07-system/major-depressive-disorder
+    relation: connects-to
+    note: "Diagnosis and treatment weigh on mood: the cancer diagnosis, surgical menopause from hysterectomy-oophorectomy and the demands of treatment contribute to a substantial burden of depression."
 ---
 
 # Endometrial Cancer
@@ -364,6 +373,9 @@ cross_links:
 - `connects-to` → **[NF-κB](../../03-molecular/nf-kb/README.md)** — Obesity-driven inflammation feeds the tumor through NF-κB: the chronic inflammation of excess fat activates NF-κB in the endometrium, adding a pro-survival, pro-proliferative push to the estrogen excess that drives type I endometrial cancer.
 - `connects-to` → **[Venous Thromboembolism](../venous-thromboembolism/README.md)** — An obese cancer prone to clots: endometrial cancer, usually arising in obese patients, carries a high venous thromboembolism risk that pelvic surgery and the tumor's own procoagulant state compound.
 - `connects-to` → **[Sepsis](../sepsis/README.md)** — Surgery and chemo open the door to infection: hysterectomy, the mainstay treatment, and the neutropenia of chemotherapy for advanced disease make postoperative infection and sepsis recognized hazards.
+- `connects-to` → **[Anemia of Chronic Disease](../anemia-of-chronic-disease/README.md)** — Bleeding and inflammation both lower the count: alongside the iron-deficiency anemia from abnormal uterine bleeding, the tumor's inflammatory burden raises hepcidin and suppresses erythropoiesis into an anemia of chronic disease.
+- `connects-to` → **[Chronic Kidney Disease](../ckd/README.md)** — Advanced pelvic disease can obstruct the kidneys: locally invasive or recurrent endometrial cancer can compress the ureters, and platinum chemotherapy adds nephrotoxicity, together threatening chronic kidney disease.
+- `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — Diagnosis and treatment weigh on mood: the cancer diagnosis, surgical menopause from hysterectomy-oophorectomy and the demands of treatment contribute to a substantial burden of depression.
 
 [^konstantinopoulos-2019-dostarlimab]: Konstantinopoulos PA, Lheureux S, Moore KN. PARP inhibitors for ovarian and endometrial cancers: state of the art and clinical perspectives. *J Clin Oncol.* 2020;38(25):2896-2909. [doi:10.1200/JCO.20.00571](https://doi.org/10.1200/JCO.20.00571) · [PubMed 32706635](https://pubmed.ncbi.nlm.nih.gov/32706635/)
 [^eskander-2023-ruby]: Eskander RN, Sill MW, Beffa L, et al. Pembrolizumab plus chemotherapy in advanced endometrial cancer. *N Engl J Med.* 2023;388(23):2159-2170. [doi:10.1056/NEJMoa2302312](https://doi.org/10.1056/NEJMoa2302312) · [PubMed 37166384](https://pubmed.ncbi.nlm.nih.gov/37166384/)
