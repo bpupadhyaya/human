@@ -199,6 +199,15 @@ cross_links:
   - target: 01-human/07-system/sepsis
     relation: connects-to
     note: "Congestion and frailty invite severe infection: pulmonary congestion predisposes to pneumonia, and the debilitated, often hospitalized heart-failure patient is vulnerable to infections that can escalate to sepsis."
+  - target: 01-human/07-system/iron-deficiency-anemia
+    relation: connects-to
+    note: "Iron deficiency is rife in failing hearts: both absolute and functional iron deficiency are very common in heart failure, worsening symptoms and exercise capacity, so intravenous iron is a recognised therapy."
+  - target: 01-human/07-system/digestive-system
+    relation: connects-to
+    note: "A congested gut starves the body: venous congestion and low output in heart failure cause bowel-wall oedema with malabsorption and a leaky gut, driving the cardiac cachexia that marks advanced disease."
+  - target: 01-human/07-system/generalized-anxiety-disorder
+    relation: connects-to
+    note: "Breathlessness and a fragile prognosis breed worry: the dyspnoea, fear of decompensation and burdensome regimen of heart failure foster chronic anxiety alongside its well-recognised depression."
 ---
 
 # Heart Failure
@@ -332,6 +341,9 @@ Normal hearts increase stroke volume with increasing preload (Starling curve). T
 - `connects-to` → **[Alzheimer's Disease](../alzheimers-disease/README.md)** — A failing pump starves the brain: chronically low cardiac output and recurrent hypoperfusion reduce cerebral blood flow, and heart failure is an independent risk factor for vascular and Alzheimer-type cognitive decline.
 - `connects-to` → **[NASH](../nash/README.md)** — Backed-up venous pressure congests the liver: right-sided heart failure engorges the liver, and the shared metabolic syndrome links cardiac disease with fatty-liver disease, together driving congestive hepatopathy and fibrosis.
 - `connects-to` → **[Sepsis](../sepsis/README.md)** — Congestion and frailty invite severe infection: pulmonary congestion predisposes to pneumonia, and the debilitated, often hospitalized heart-failure patient is vulnerable to infections that can escalate to sepsis.
+- `connects-to` → **[Iron-Deficiency Anemia](../iron-deficiency-anemia/README.md)** — Iron deficiency is rife in failing hearts: both absolute and functional iron deficiency are very common in heart failure, worsening symptoms and exercise capacity, so intravenous iron is a recognised therapy.
+- `connects-to` → **[Digestive System](../digestive-system/README.md)** — A congested gut starves the body: venous congestion and low output in heart failure cause bowel-wall oedema with malabsorption and a leaky gut, driving the cardiac cachexia that marks advanced disease.
+- `connects-to` → **[Generalized Anxiety Disorder](../generalized-anxiety-disorder/README.md)** — Breathlessness and a fragile prognosis breed worry: the dyspnoea, fear of decompensation and burdensome regimen of heart failure foster chronic anxiety alongside its well-recognised depression.
 
 ## Pathology
 

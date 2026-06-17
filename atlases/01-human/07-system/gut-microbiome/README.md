@@ -199,6 +199,15 @@ cross_links:
   - target: 01-human/07-system/gout
     relation: connects-to
     note: "Bacteria help handle the body's urate: the gut microbiome degrades a meaningful share of purines and uric acid, and dysbiosis that impairs this disposal contributes to the hyperuricemia behind gout."
+  - target: 01-human/07-system/digestive-system
+    relation: connects-to
+    note: "It lives in and shapes the gut it inhabits: the microbiome ferments fibre into short-chain fatty acids that feed colonocytes, metabolises bile acids and trains gut immunity, fundamentally shaping digestion."
+  - target: 01-human/07-system/endocrine-system
+    relation: connects-to
+    note: "The microbes act as an endocrine organ: gut bacteria produce and modulate hormones, regulate the estrobolome that recycles oestrogen and shape insulin and appetite signalling through their metabolites."
+  - target: 01-human/07-system/reproductive-system
+    relation: connects-to
+    note: "Gut and genital microbiomes are linked: the gut seeds the vaginal flora and shapes systemic oestrogen via the estrobolome, while birth and breastfeeding transfer the founding microbiome to the newborn."
 ---
 
 # Gut Microbiome
@@ -337,6 +346,9 @@ The microbiome influences CNS function via multiple pathways:
 - `connects-to` → **[Generalized Anxiety Disorder](../generalized-anxiety-disorder/README.md)** — The gut-brain axis shapes anxiety: microbial metabolites and vagal signaling modulate GABA and the stress axis, and dysbiosis is linked to heightened anxiety, with probiotics under study to ease it.
 - `connects-to` → **[Autism Spectrum Disorder](../autism-spectrum-disorder/README.md)** — Microbes and behavior intertwine in development: GI symptoms are common in autism, and altered gut flora and its metabolites are implicated through the gut-brain axis in the behavioral phenotype.
 - `connects-to` → **[Gout](../gout/README.md)** — Bacteria help handle the body's urate: the gut microbiome degrades a meaningful share of purines and uric acid, and dysbiosis that impairs this disposal contributes to the hyperuricemia behind gout.
+- `connects-to` → **[Digestive System](../digestive-system/README.md)** — It lives in and shapes the gut it inhabits: the microbiome ferments fibre into short-chain fatty acids that feed colonocytes, metabolises bile acids and trains gut immunity, fundamentally shaping digestion.
+- `connects-to` → **[Endocrine System](../endocrine-system/README.md)** — The microbes act as an endocrine organ: gut bacteria produce and modulate hormones, regulate the estrobolome that recycles oestrogen and shape insulin and appetite signalling through their metabolites.
+- `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — Gut and genital microbiomes are linked: the gut seeds the vaginal flora and shapes systemic oestrogen via the estrobolome, while birth and breastfeeding transfer the founding microbiome to the newborn.
 
 ## Pathology
 
