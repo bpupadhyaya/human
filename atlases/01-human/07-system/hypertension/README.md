@@ -178,6 +178,15 @@ cross_links:
   - target: 01-human/03-molecular/nlrp3-inflammasome
     relation: connects-to
     note: "Hypertension has an inflammasome arm: NLRP3 activation and the IL-1β it releases promote the vascular and renal inflammation that sustains high blood pressure, part of the immune contribution to the disease."
+  - target: 01-human/03-molecular/nf-kb
+    relation: connects-to
+    note: "Angiotensin II inflames the vessel through NF-κB: it activates NF-κB in vascular and renal cells to drive the cytokines and oxidative stress that stiffen arteries, the inflammatory engine upstream of the NLRP3 arm of hypertension."
+  - target: 01-human/07-system/insomnia-disorder
+    relation: connects-to
+    note: "Poor sleep pushes the pressure up: insomnia and short sleep raise sympathetic tone and blunt the normal nocturnal dip, and obstructive sleep apnea is a leading cause of resistant hypertension."
+  - target: 01-human/07-system/venous-thromboembolism
+    relation: connects-to
+    note: "It shares its soil with venous clots: hypertension clusters with the metabolic and vascular risk factors of venous thromboembolism, and the two are modestly associated beyond their common arterial disease."
 ---
 
 # Hypertension
@@ -322,6 +331,9 @@ Blood pressure is determined by: BP = Cardiac Output × Peripheral Vascular Resi
 - `connects-to` → **[Obesity](../obesity/README.md)** — Excess weight is a leading driver of high pressure: obesity raises blood volume, sympathetic tone, and aldosterone while compressing the kidneys, so weight gain accounts for much of the hypertension in rich and rising populations.
 - `connects-to` → **[Cytotoxic T Cell](../../04-cellular/t-cytotoxic-cell/README.md)** — Hypertension has an immune arm: CD8 cytotoxic T cells infiltrate the kidney and vessel wall and sustain the salt retention and vascular inflammation that keep blood pressure high, a mechanism that reframes part of the disease as immune-driven.
 - `connects-to` → **[Epinephrine](../../03-molecular/epinephrine/README.md)** — Adrenaline drives the pressure surges: epinephrine from sympathetic activation and the adrenal medulla speeds the heart and constricts vessels, behind stress-related spikes and the extreme swings of pheochromocytoma.
+- `connects-to` → **[NF-κB](../../03-molecular/nf-kb/README.md)** — Angiotensin II inflames the vessel through NF-κB: it activates NF-κB in vascular and renal cells to drive the cytokines and oxidative stress that stiffen arteries, the inflammatory engine upstream of the NLRP3 arm of hypertension.
+- `connects-to` → **[Insomnia Disorder](../insomnia-disorder/README.md)** — Poor sleep pushes the pressure up: insomnia and short sleep raise sympathetic tone and blunt the normal nocturnal dip, and obstructive sleep apnea is a leading cause of resistant hypertension.
+- `connects-to` → **[Venous Thromboembolism](../venous-thromboembolism/README.md)** — It shares its soil with venous clots: hypertension clusters with the metabolic and vascular risk factors of venous thromboembolism, and the two are modestly associated beyond their common arterial disease.
 
 ## Pathology
 

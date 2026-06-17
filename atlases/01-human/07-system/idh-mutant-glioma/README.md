@@ -178,6 +178,15 @@ cross_links:
   - target: 01-human/07-system/neuropathic-pain
     relation: connects-to
     note: "Tumor and treatment can hurt the nerves: infiltrating glioma and the surgery and radiation used against it injure sensory pathways, contributing to headache and neuropathic pain in the disease course."
+  - target: 01-human/03-molecular/nlrp3-inflammasome
+    relation: connects-to
+    note: "Tumor-associated microglia stoke the inflammasome: NLRP3 activation in the glioma microenvironment releases IL-1β that shapes the immunosuppressive, pro-tumor inflammation even in these slower-growing IDH-mutant gliomas."
+  - target: 01-human/07-system/venous-thromboembolism
+    relation: connects-to
+    note: "Brain tumors clot the veins: like other gliomas, IDH-mutant tumors raise venous thromboembolism risk through tumor tissue factor and the immobility of neurological disease and surgery."
+  - target: 01-human/07-system/sepsis
+    relation: connects-to
+    note: "Temozolomide opens an infection gap: the alkylating chemotherapy used in IDH-mutant glioma causes lymphopenia, predisposing to opportunistic infection including Pneumocystis pneumonia and to sepsis."
 ---
 
 # IDH-Mutant Glioma
@@ -363,6 +372,9 @@ IDH-mutant glioma with MGMT methylation shows strong alkylating agent sensitivit
 - `connects-to` → **[HIF-1alpha](../../03-molecular/hif-1alpha/README.md)** — The oncometabolite perturbs the oxygen sensor: 2-hydroxyglutarate competitively inhibits the α-ketoglutarate-dependent prolyl hydroxylases that regulate HIF-1α, disturbing the hypoxia-response pathway as part of IDH-mutant tumor metabolism.
 - `connects-to` → **[Stroke](../stroke/README.md)** — Brain irradiation injures the vessels: the radiotherapy used for IDH-mutant glioma causes a late cerebral vasculopathy that raises stroke risk in these often long-surviving patients, a delayed cost of treatment.
 - `connects-to` → **[Neuropathic Pain](../neuropathic-pain/README.md)** — Tumor and treatment can hurt the nerves: infiltrating glioma and the surgery and radiation used against it injure sensory pathways, contributing to headache and neuropathic pain in the disease course.
+- `connects-to` → **[NLRP3 Inflammasome](../../03-molecular/nlrp3-inflammasome/README.md)** — Tumor-associated microglia stoke the inflammasome: NLRP3 activation in the glioma microenvironment releases IL-1β that shapes the immunosuppressive, pro-tumor inflammation even in these slower-growing IDH-mutant gliomas.
+- `connects-to` → **[Venous Thromboembolism](../venous-thromboembolism/README.md)** — Brain tumors clot the veins: like other gliomas, IDH-mutant tumors raise venous thromboembolism risk through tumor tissue factor and the immobility of neurological disease and surgery.
+- `connects-to` → **[Sepsis](../sepsis/README.md)** — Temozolomide opens an infection gap: the alkylating chemotherapy used in IDH-mutant glioma causes lymphopenia, predisposing to opportunistic infection including Pneumocystis pneumonia and to sepsis.
 
 [^mellinghoff-2023-vorasidenib-lgg]: Mellinghoff IK, van den Bent MJ, Blumenthal DT, et al. Vorasidenib in IDH1- or IDH2-mutant low-grade glioma. *N Engl J Med.* 2023;389(7):589-601. [doi:10.1056/NEJMoa2304194](https://doi.org/10.1056/NEJMoa2304194) · [PubMed 37272530](https://pubmed.ncbi.nlm.nih.gov/37272530/)
 [^jiao-2012-atrx-glioma]: Jiao Y, Killela PJ, Reitman ZJ, et al. Frequent ATRX, CIC, FUBP1 and IDH mutations refine the classification of malignant gliomas. *Oncotarget.* 2012;3(7):709-722. [doi:10.18632/oncotarget.588](https://doi.org/10.18632/oncotarget.588) · [PubMed 22869205](https://pubmed.ncbi.nlm.nih.gov/22869205/)
