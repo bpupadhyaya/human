@@ -187,6 +187,15 @@ cross_links:
   - target: 01-human/07-system/migraine
     relation: connects-to
     note: "Attention and headache travel together: ADHD and migraine are comorbid more than chance, sharing dopaminergic and arousal dysregulation, so each is more common in people who have the other."
+  - target: 01-human/03-molecular/nf-kb
+    relation: connects-to
+    note: "An inflammatory thread runs through it: emerging evidence links ADHD to low-grade neuroinflammation with NF-κB-driven cytokine signaling, part of why maternal immune activation and inflammation raise the risk."
+  - target: 01-human/07-system/opioid-use-disorder
+    relation: connects-to
+    note: "Impulsivity raises the stakes of every drug: untreated ADHD strongly predisposes to substance use disorders including opioids, the impulsivity and reward dysregulation driving earlier, heavier use and addiction."
+  - target: 01-human/07-system/borderline-personality-disorder
+    relation: connects-to
+    note: "Impulsivity and emotional dysregulation overlap: ADHD and borderline personality disorder co-occur often and share traits of impulsivity and affective instability, blurring the line between the two."
 ---
 
 # Attention-Deficit/Hyperactivity Disorder
@@ -389,6 +398,9 @@ ADHD is a clinical diagnosis requiring [^biederman-2005-adhd-adults]:
 - `connects-to` → **[Thyroid Hormones (T3/T4)](../../03-molecular/thyroid-hormones/README.md)** — Thyroid imbalance mimics ADHD: both hyper- and hypothyroidism produce inattention, restlessness, or sluggishness, and rare resistance to thyroid hormone is strongly linked to ADHD — so thyroid function is checked when the picture is atypical.
 - `connects-to` → **[Adrenal Gland](../../06-organ/adrenal-gland/README.md)** — The stress axis runs differently in ADHD: a blunted or dysregulated adrenal cortisol response is reported, part of the altered arousal regulation that underlies the disorder and its links to stress and sleep.
 - `connects-to` → **[Migraine](../migraine/README.md)** — Attention and headache travel together: ADHD and migraine are comorbid more than chance, sharing dopaminergic and arousal dysregulation, so each is more common in people who have the other.
+- `connects-to` → **[NF-κB](../../03-molecular/nf-kb/README.md)** — An inflammatory thread runs through it: emerging evidence links ADHD to low-grade neuroinflammation with NF-κB-driven cytokine signaling, part of why maternal immune activation and inflammation raise the risk.
+- `connects-to` → **[Opioid Use Disorder](../opioid-use-disorder/README.md)** — Impulsivity raises the stakes of every drug: untreated ADHD strongly predisposes to substance use disorders including opioids, the impulsivity and reward dysregulation driving earlier, heavier use and addiction.
+- `connects-to` → **[Borderline Personality Disorder](../borderline-personality-disorder/README.md)** — Impulsivity and emotional dysregulation overlap: ADHD and borderline personality disorder co-occur often and share traits of impulsivity and affective instability, blurring the line between the two.
 
 [^faraone-2021-adhd-primer]: Faraone SV, Banaschewski T, Coghill D, et al. The World Federation of ADHD International Consensus Statement: 208 Evidence-based conclusions about the disorder. *Neurosci Biobehav Rev.* 2021;128:789-818. [doi:10.1016/j.neubiorev.2021.01.022](https://doi.org/10.1016/j.neubiorev.2021.01.022) · [PubMed 33549739](https://pubmed.ncbi.nlm.nih.gov/33549739/)
 [^arnsten-2009-adhd-neuroscience]: Arnsten AF. Toward a new understanding of ADHD pathophysiology: an important role for prefrontal cortex dysfunction. *CNS Drugs.* 2009;23(Suppl 1):33-41. [doi:10.2165/00023210-200923000-00005](https://doi.org/10.2165/00023210-200923000-00005) · [PubMed 19621976](https://pubmed.ncbi.nlm.nih.gov/19621976/)

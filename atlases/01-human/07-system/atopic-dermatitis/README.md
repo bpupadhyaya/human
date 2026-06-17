@@ -178,6 +178,15 @@ cross_links:
   - target: 01-human/07-system/social-anxiety-disorder
     relation: connects-to
     note: "Visible eczema breeds social fear: the appearance of widespread inflamed skin drives embarrassment and avoidance, so atopic dermatitis carries elevated social anxiety distinct from its general mood burden."
+  - target: 01-human/03-molecular/stat3
+    relation: connects-to
+    note: "The itch and Th2 signals funnel through JAK-STAT: IL-4, IL-13 and IL-31 act via STAT signaling including STAT3 in keratinocytes and sensory neurons, the pathway that JAK inhibitors block to calm atopic dermatitis."
+  - target: 01-human/03-molecular/nf-kb
+    relation: connects-to
+    note: "A broken barrier keeps NF-κB switched on: microbes and irritants crossing the disrupted skin activate NF-κB in keratinocytes, sustaining the cytokine and antimicrobial-peptide output that drives chronic eczema inflammation."
+  - target: 01-human/07-system/sepsis
+    relation: connects-to
+    note: "Broken skin colonized by Staph can turn invasive: severe atopic dermatitis is heavily colonized by Staphylococcus aureus, and widespread barrier breakdown or eczema herpeticum can let infection reach the bloodstream as sepsis."
 ---
 
 # Atopic Dermatitis
@@ -354,6 +363,9 @@ S. aureus colonizes >90% of AD lesional skin (vs. 20% normal skin):
 - `connects-to` → **[Insomnia Disorder](../insomnia-disorder/README.md)** — Eczema steals sleep: nighttime itch and scratching fragment sleep in atopic dermatitis, and the chronic sleep loss compounds the daytime fatigue, mood disturbance, and impaired quality of life central to the disease's burden.
 - `connects-to` → **[NLRP3 Inflammasome](../../03-molecular/nlrp3-inflammasome/README.md)** — The damaged barrier alarms the inflammasome: irritants and microbes crossing the broken skin activate keratinocyte NLRP3, releasing IL-1β that adds an innate-inflammatory layer to the type-2 immune drive of atopic dermatitis.
 - `connects-to` → **[Social Anxiety Disorder](../social-anxiety-disorder/README.md)** — Visible eczema breeds social fear: the appearance of widespread inflamed skin drives embarrassment and avoidance, so atopic dermatitis carries elevated social anxiety distinct from its general mood burden.
+- `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — The itch and Th2 signals funnel through JAK-STAT: IL-4, IL-13 and IL-31 act via STAT signaling including STAT3 in keratinocytes and sensory neurons, the pathway that JAK inhibitors block to calm atopic dermatitis.
+- `connects-to` → **[NF-κB](../../03-molecular/nf-kb/README.md)** — A broken barrier keeps NF-κB switched on: microbes and irritants crossing the disrupted skin activate NF-κB in keratinocytes, sustaining the cytokine and antimicrobial-peptide output that drives chronic eczema inflammation.
+- `connects-to` → **[Sepsis](../sepsis/README.md)** — Broken skin colonized by Staph can turn invasive: severe atopic dermatitis is heavily colonized by Staphylococcus aureus, and widespread barrier breakdown or eczema herpeticum can let infection reach the bloodstream as sepsis.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
