@@ -178,6 +178,15 @@ cross_links:
   - target: 01-human/07-system/sepsis
     relation: connects-to
     note: "Overwhelming disease can mimic bacterial sepsis: disseminated miliary TB, especially in the immunocompromised, produces a fulminant septic picture with shock and multiorgan failure that needs prompt anti-tuberculous therapy."
+  - target: 02-pathogen/03-fungi/aspergillus-fumigatus
+    relation: connects-to
+    note: "It leaves cavities the mold colonizes: healed TB scars the lung with cavities where Aspergillus settles into an aspergilloma (fungus ball), a classic late complication that can cause life-threatening hemoptysis."
+  - target: 01-human/07-system/stroke
+    relation: connects-to
+    note: "TB meningitis inflames the brain's arteries: the basal exudate of tuberculous meningitis triggers a vasculitis of perforating vessels, causing ischemic stroke that is a major cause of the disease's neurological damage."
+  - target: 01-human/07-system/heart-failure
+    relation: connects-to
+    note: "It can armor the heart: tuberculous pericarditis heals into a thick, calcified shell, and the resulting constrictive pericarditis impairs ventricular filling to produce a distinctive right-sided heart failure."
 ---
 
 # Tuberculosis
@@ -365,6 +374,9 @@ Standard **HRZE** regimen [^nahid-2016-tb-treatment]:
 - `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — STAT3 tilts the immune response toward tolerance: driven by IL-10 in TB, STAT3 dampens the macrophage's killing program, a regulatory brake the bacillus exploits to persist inside the granuloma.
 - `connects-to` → **[Venous Thromboembolism](../venous-thromboembolism/README.md)** — Chronic infection thickens the blood: active TB is a recognized prothrombotic state, raising deep-vein thrombosis and pulmonary embolism risk through inflammation, immobility and the acute-phase rise in clotting factors.
 - `connects-to` → **[Sepsis](../sepsis/README.md)** — Overwhelming disease can mimic bacterial sepsis: disseminated miliary TB, especially in the immunocompromised, produces a fulminant septic picture with shock and multiorgan failure that needs prompt anti-tuberculous therapy.
+- `connects-to` → **[Aspergillus fumigatus](../../../02-pathogen/03-fungi/aspergillus-fumigatus/README.md)** — It leaves cavities the mold colonizes: healed TB scars the lung with cavities where Aspergillus settles into an aspergilloma (fungus ball), a classic late complication that can cause life-threatening hemoptysis.
+- `connects-to` → **[Stroke](../stroke/README.md)** — TB meningitis inflames the brain's arteries: the basal exudate of tuberculous meningitis triggers a vasculitis of perforating vessels, causing ischemic stroke that is a major cause of the disease's neurological damage.
+- `connects-to` → **[Heart Failure](../heart-failure/README.md)** — It can armor the heart: tuberculous pericarditis heals into a thick, calcified shell, and the resulting constrictive pericarditis impairs ventricular filling to produce a distinctive right-sided heart failure.
 
 ## See Also
 

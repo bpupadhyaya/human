@@ -178,6 +178,15 @@ cross_links:
   - target: 01-human/07-system/venous-thromboembolism
     relation: connects-to
     note: "Advanced disease raises the clot risk: like other solid cancers, progressive thyroid cancer carries tumor-driven hypercoagulability, and the antiangiogenic kinase inhibitors used to treat it add their own thrombotic and bleeding hazards."
+  - target: 01-human/07-system/hypertension
+    relation: connects-to
+    note: "Its targeted drugs spike the pressure: the VEGF-pathway kinase inhibitors lenvatinib and sorafenib used for RAI-refractory thyroid cancer cause prominent hypertension, an on-target vascular effect needing active management."
+  - target: 01-human/07-system/ckd
+    relation: connects-to
+    note: "Antiangiogenic therapy injures the kidney: the same VEGF-targeted inhibitors used in advanced thyroid cancer cause proteinuria and glomerular injury that can progress to chronic kidney disease over prolonged treatment."
+  - target: 01-human/07-system/anemia-of-chronic-disease
+    relation: connects-to
+    note: "Advanced disease and its therapy lower the count: progressive metastatic thyroid cancer with its inflammatory burden, compounded by kinase-inhibitor toxicity, can produce an anemia of chronic disease in the minority with aggressive disease."
 ---
 
 # Thyroid Cancer
@@ -375,6 +384,9 @@ Calcitonin doubling time <6 months → poor prognosis → early systemic therapy
 - `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — STAT3 helps the aggressive forms grow: anaplastic and advanced thyroid cancers show STAT3 activation that supports proliferation and immune evasion, a pathway studied as a target where BRAF and kinase inhibitors fall short.
 - `connects-to` → **[NF-κB](../../03-molecular/nf-kb/README.md)** — NF-κB drives the deadliest variant: anaplastic thyroid carcinoma relies heavily on NF-κB signaling for its rapid, invasive growth, making the pathway a candidate target in a cancer that otherwise resists therapy.
 - `connects-to` → **[Venous Thromboembolism](../venous-thromboembolism/README.md)** — Advanced disease raises the clot risk: like other solid cancers, progressive thyroid cancer carries tumor-driven hypercoagulability, and the antiangiogenic kinase inhibitors used to treat it add their own thrombotic and bleeding hazards.
+- `connects-to` → **[Hypertension](../hypertension/README.md)** — Its targeted drugs spike the pressure: the VEGF-pathway kinase inhibitors lenvatinib and sorafenib used for RAI-refractory thyroid cancer cause prominent hypertension, an on-target vascular effect needing active management.
+- `connects-to` → **[Chronic Kidney Disease](../ckd/README.md)** — Antiangiogenic therapy injures the kidney: the same VEGF-targeted inhibitors used in advanced thyroid cancer cause proteinuria and glomerular injury that can progress to chronic kidney disease over prolonged treatment.
+- `connects-to` → **[Anemia of Chronic Disease](../anemia-of-chronic-disease/README.md)** — Advanced disease and its therapy lower the count: progressive metastatic thyroid cancer with its inflammatory burden, compounded by kinase-inhibitor toxicity, can produce an anemia of chronic disease in the minority with aggressive disease.
 
 [^schlumberger-2015-lenvatinib]: Schlumberger M, Tahara M, Wirth LJ, et al. Lenvatinib versus placebo in radioiodine-refractory differentiated thyroid cancer. *N Engl J Med.* 2015;372(7):621-630. [doi:10.1056/NEJMoa1406470](https://doi.org/10.1056/NEJMoa1406470) · [PubMed 25671254](https://pubmed.ncbi.nlm.nih.gov/25671254/)
 [^subbiah-2018-atc-dabrafenib]: Subbiah V, Kreitman RJ, Wainberg ZA, et al. Dabrafenib and trametinib treatment in patients with locally advanced or metastatic BRAF V600-mutant anaplastic thyroid cancer. *J Clin Oncol.* 2018;36(1):7-13. [doi:10.1200/JCO.2017.73.6785](https://doi.org/10.1200/JCO.2017.73.6785) · [PubMed 28892432](https://pubmed.ncbi.nlm.nih.gov/28892432/)
