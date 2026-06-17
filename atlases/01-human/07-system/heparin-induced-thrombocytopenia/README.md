@@ -205,6 +205,15 @@ cross_links:
   - target: 01-human/07-system/major-depressive-disorder
     relation: connects-to
     note: "Limb loss and prolonged illness weigh on mood: the disability from HIT-related amputation and the protracted critical illness it accompanies contribute to depression in survivors."
+  - target: 01-human/07-system/integumentary-system
+    relation: connects-to
+    note: "It can necrose the skin at injection sites: HIT classically causes skin lesions ranging from erythematous plaques to frank necrosis where heparin is injected, a recognised marker of the syndrome."
+  - target: 01-human/07-system/endocrine-system
+    relation: connects-to
+    note: "It can infarct both adrenal glands: thrombosis of the adrenal veins in HIT causes bilateral haemorrhagic adrenal infarction, precipitating acute adrenal insufficiency that is easily missed."
+  - target: 01-human/07-system/generalized-anxiety-disorder
+    relation: connects-to
+    note: "A sudden paradoxical clotting crisis breeds worry: the abrupt limb- and life-threatening thrombosis of HIT and the lifelong need to avoid heparin foster chronic health anxiety alongside the PTSD and depression it leaves."
 ---
 
 # Heparin-Induced Thrombocytopenia
@@ -411,6 +420,9 @@ Platelet consumption → thrombocytopenia (paradox: clotting despite low platele
 - `connects-to` → **[Wound Healing](../wound-healing/README.md)** — Its clots kill tissue and leave wounds: HIT thrombosis causes heparin-injection-site skin necrosis and limb ischemia that can progress to gangrene and amputation, leaving major wounds to heal.
 - `connects-to` → **[PTSD](../ptsd/README.md)** — A sudden limb-threatening crisis can scar the mind: HIT often strikes critically ill patients, and surviving its abrupt thrombosis, amputation or ICU course can leave post-traumatic stress.
 - `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — Limb loss and prolonged illness weigh on mood: the disability from HIT-related amputation and the protracted critical illness it accompanies contribute to depression in survivors.
+- `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — It can necrose the skin at injection sites: HIT classically causes skin lesions ranging from erythematous plaques to frank necrosis where heparin is injected, a recognised marker of the syndrome.
+- `connects-to` → **[Endocrine System](../endocrine-system/README.md)** — It can infarct both adrenal glands: thrombosis of the adrenal veins in HIT causes bilateral haemorrhagic adrenal infarction, precipitating acute adrenal insufficiency that is easily missed.
+- `connects-to` → **[Generalized Anxiety Disorder](../generalized-anxiety-disorder/README.md)** — A sudden paradoxical clotting crisis breeds worry: the abrupt limb- and life-threatening thrombosis of HIT and the lifelong need to avoid heparin foster chronic health anxiety alongside the PTSD and depression it leaves.
 
 [^warkentin-2007-hit-review]: Warkentin TE, Greinacher A. Heparin-induced thrombocytopenia: recognition, treatment, and prevention. *Chest.* 2004;126(3 Suppl):311S-337S. [doi:10.1378/chest.126.3_suppl.311S](https://doi.org/10.1378/chest.126.3_suppl.311S) · [PubMed 15383477](https://pubmed.ncbi.nlm.nih.gov/15383477/)
 [^greinacher-2021-vitt-nejm]: Greinacher A, Thiele T, Warkentin TE, et al. Thrombotic thrombocytopenia after ChAdOx1 nCov-19 vaccination. *N Engl J Med.* 2021;384(22):2092-2101. [doi:10.1056/NEJMoa2104840](https://doi.org/10.1056/NEJMoa2104840) · [PubMed 33835769](https://pubmed.ncbi.nlm.nih.gov/33835769/)
