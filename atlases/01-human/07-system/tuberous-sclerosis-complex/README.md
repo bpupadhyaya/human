@@ -187,6 +187,15 @@ cross_links:
   - target: 02-pathogen/03-fungi/pneumocystis-jirovecii
     relation: connects-to
     note: "Its mTOR-inhibitor therapy opens the lung: everolimus and sirolimus used to shrink TSC tumors are immunosuppressive, raising the risk of Pneumocystis pneumonia so that prophylaxis is considered during treatment."
+  - target: 02-pathogen/03-fungi/aspergillus-fumigatus
+    relation: connects-to
+    note: "The same mTOR inhibitors invite invasive mold: the immunosuppression from everolimus and sirolimus, used long-term for TSC tumors, can let inhaled Aspergillus invade as pulmonary aspergillosis."
+  - target: 01-human/07-system/type-2-diabetes
+    relation: connects-to
+    note: "Its mTOR-inhibitor therapy disturbs glucose: everolimus and sirolimus impair insulin signaling and commonly cause hyperglycemia and hyperlipidemia, sometimes precipitating new-onset diabetes during TSC treatment."
+  - target: 01-human/07-system/stroke
+    relation: connects-to
+    note: "Heart tumors and vessel walls can throw clots: the cardiac rhabdomyomas and arrhythmias of TSC, along with its associated arterial aneurysms, create conditions for embolic and hemorrhagic stroke."
 ---
 
 # Tuberous Sclerosis Complex
@@ -383,6 +392,9 @@ With modern management: life expectancy increasingly normal; major risks: renal 
 - `connects-to` → **[Chronic Kidney Disease](../ckd/README.md)** — The kidneys carry the heaviest organ toll: renal angiomyolipomas and cysts (worsened in PKD1 contiguous-gene deletions) progressively destroy nephrons, making chronic kidney disease a leading cause of death in TSC.
 - `connects-to` → **[Hypertension](../hypertension/README.md)** — Renal lesions drive up the pressure: the angiomyolipomas, cysts and parenchymal loss of TSC kidney disease activate the renin-angiotensin axis, producing hypertension that accelerates the decline in renal function.
 - `connects-to` → **[Pneumocystis jirovecii](../../../02-pathogen/03-fungi/pneumocystis-jirovecii/README.md)** — Its mTOR-inhibitor therapy opens the lung: everolimus and sirolimus used to shrink TSC tumors are immunosuppressive, raising the risk of Pneumocystis pneumonia so that prophylaxis is considered during treatment.
+- `connects-to` → **[Aspergillus fumigatus](../../../02-pathogen/03-fungi/aspergillus-fumigatus/README.md)** — The same mTOR inhibitors invite invasive mold: the immunosuppression from everolimus and sirolimus, used long-term for TSC tumors, can let inhaled Aspergillus invade as pulmonary aspergillosis.
+- `connects-to` → **[Type 2 Diabetes](../type-2-diabetes/README.md)** — Its mTOR-inhibitor therapy disturbs glucose: everolimus and sirolimus impair insulin signaling and commonly cause hyperglycemia and hyperlipidemia, sometimes precipitating new-onset diabetes during TSC treatment.
+- `connects-to` → **[Stroke](../stroke/README.md)** — Heart tumors and vessel walls can throw clots: the cardiac rhabdomyomas and arrhythmias of TSC, along with its associated arterial aneurysms, create conditions for embolic and hemorrhagic stroke.
 
 ---
 

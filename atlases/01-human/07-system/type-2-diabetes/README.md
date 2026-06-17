@@ -193,6 +193,15 @@ cross_links:
   - target: 01-human/07-system/tuberculosis
     relation: connects-to
     note: "It is a major global TB risk factor: diabetes roughly triples the risk of progressing to active tuberculosis and worsens its outcomes, a converging epidemic as type 2 diabetes spreads through TB-endemic regions."
+  - target: 01-human/07-system/major-depressive-disorder
+    relation: connects-to
+    note: "Diabetes and depression feed each other: living with the disease and its complications raises depression risk, and depression in turn worsens glycemic control and self-care, a well-documented bidirectional loop."
+  - target: 01-human/07-system/osteoporosis
+    relation: connects-to
+    note: "It weakens bone quality despite normal density: type 2 diabetes raises fracture risk through poor bone quality and falls, and the thiazolidinediones used to treat it accelerate bone loss."
+  - target: 02-pathogen/03-fungi/aspergillus-fumigatus
+    relation: connects-to
+    note: "High glucose blunts the defenses against mold: the impaired neutrophil function and immune dysregulation of poorly controlled diabetes raise susceptibility to invasive fungal infection, including pulmonary aspergillosis."
 ---
 
 # Type 2 Diabetes
@@ -354,6 +363,9 @@ T2DM, CKD, heart failure, and obesity form the **cardiorenal metabolic (CRM) syn
 - `connects-to` → **[Pancreatic Cancer](../pancreatic-cancer/README.md)** — The link runs both ways: long-standing type 2 diabetes modestly raises pancreatic cancer risk, while new-onset diabetes in an older adult can be the first sign of an occult pancreatic tumor destroying islet function.
 - `connects-to` → **[Candida albicans](../../../02-pathogen/03-fungi/candida-albicans/README.md)** — Sugar feeds the yeast: glucose-rich tissues and impaired immunity in diabetes favor Candida overgrowth, causing the recurrent vulvovaginal, oral and skin-fold candidiasis that often flags poor glycemic control.
 - `connects-to` → **[Tuberculosis](../tuberculosis/README.md)** — It is a major global TB risk factor: diabetes roughly triples the risk of progressing to active tuberculosis and worsens its outcomes, a converging epidemic as type 2 diabetes spreads through TB-endemic regions.
+- `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — Diabetes and depression feed each other: living with the disease and its complications raises depression risk, and depression in turn worsens glycemic control and self-care, a well-documented bidirectional loop.
+- `connects-to` → **[Osteoporosis](../osteoporosis/README.md)** — It weakens bone quality despite normal density: type 2 diabetes raises fracture risk through poor bone quality and falls, and the thiazolidinediones used to treat it accelerate bone loss.
+- `connects-to` → **[Aspergillus fumigatus](../../../02-pathogen/03-fungi/aspergillus-fumigatus/README.md)** — High glucose blunts the defenses against mold: the impaired neutrophil function and immune dysregulation of poorly controlled diabetes raise susceptibility to invasive fungal infection, including pulmonary aspergillosis.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
