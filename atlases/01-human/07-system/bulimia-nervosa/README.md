@@ -180,6 +180,15 @@ cross_links:
   - target: 01-human/03-molecular/endocannabinoid
     relation: connects-to
     note: "The reward and appetite system is dysregulated: altered endocannabinoid signaling in bulimia disturbs the hedonic drive to eat, part of the neurochemistry that underlies binge episodes and loss of control."
+  - target: 01-human/07-system/ckd
+    relation: connects-to
+    note: "Purging quietly erodes the kidneys: recurrent vomiting and laxative or diuretic abuse cause chronic hypokalemia and dehydration, and the resulting hypokalemic nephropathy can progress to chronic kidney disease."
+  - target: 01-human/07-system/stimulant-use-disorder
+    relation: connects-to
+    note: "Weight control reaches for stimulants: people with bulimia frequently misuse diet pills, amphetamines and other stimulants to suppress appetite and burn calories, a path into stimulant use disorder."
+  - target: 01-human/07-system/insomnia-disorder
+    relation: connects-to
+    note: "Disordered eating disorders sleep: night-time binge-purge cycles, hunger and the anxiety and depression that accompany bulimia fragment sleep, so insomnia is common and feeds back into the eating pathology."
 ---
 
 # Bulimia Nervosa
@@ -363,6 +372,9 @@ All of the following must be met:
 - `connects-to` → **[Esophageal Cancer](../esophageal-cancer/README.md)** — Years of self-induced vomiting scar the esophagus: chronic acid exposure causes reflux and Barrett's-type change that raise esophageal cancer risk, alongside the acute tears (Mallory-Weiss) purging can cause.
 - `connects-to` → **[Type 1 Diabetes](../type-1-diabetes/README.md)** — Insulin becomes a purging tool: people with type 1 diabetes and bulimic behavior may omit insulin to lose weight ('diabulimia'), a dangerous practice that drives ketoacidosis and accelerates diabetic complications.
 - `connects-to` → **[Endocannabinoid System](../../03-molecular/endocannabinoid/README.md)** — The reward and appetite system is dysregulated: altered endocannabinoid signaling in bulimia disturbs the hedonic drive to eat, part of the neurochemistry that underlies binge episodes and loss of control.
+- `connects-to` → **[Chronic Kidney Disease](../ckd/README.md)** — Purging quietly erodes the kidneys: recurrent vomiting and laxative or diuretic abuse cause chronic hypokalemia and dehydration, and the resulting hypokalemic nephropathy can progress to chronic kidney disease.
+- `connects-to` → **[Stimulant Use Disorder](../stimulant-use-disorder/README.md)** — Weight control reaches for stimulants: people with bulimia frequently misuse diet pills, amphetamines and other stimulants to suppress appetite and burn calories, a path into stimulant use disorder.
+- `connects-to` → **[Insomnia Disorder](../insomnia-disorder/README.md)** — Disordered eating disorders sleep: night-time binge-purge cycles, hunger and the anxiety and depression that accompany bulimia fragment sleep, so insomnia is common and feeds back into the eating pathology.
 
 ## Treatment
 

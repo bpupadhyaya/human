@@ -178,6 +178,15 @@ cross_links:
   - target: 01-human/03-molecular/msh2
     relation: connects-to
     note: "BLM works alongside mismatch repair: the BLM helicase cooperates with the MSH2-containing mismatch-repair machinery to resolve recombination intermediates, so its loss compounds the genomic instability that mismatch-repair defects also cause."
+  - target: 01-human/03-molecular/nf-kb
+    relation: connects-to
+    note: "Relentless DNA damage smolders into inflammation: the unrepaired breaks and replication stress of Bloom syndrome trigger DNA-sensing inflammatory signaling that activates NF-κB, a chronic inflammatory tone layered on its cancer risk."
+  - target: 01-human/07-system/sepsis
+    relation: connects-to
+    note: "A faltering immune system invites infection: Bloom syndrome includes an immunodeficiency with low immunoglobulins, so recurrent respiratory and gastrointestinal infections — and the sepsis they can become — are a major cause of illness."
+  - target: 01-human/07-system/cervical-cancer
+    relation: connects-to
+    note: "Its cancer net is wide and starts early: Bloom syndrome's genomic instability and immunodeficiency raise the risk of carcinomas including HPV-driven cervical cancer, part of a remarkably broad, young-onset cancer spectrum."
 ---
 
 # Bloom Syndrome
@@ -369,6 +378,9 @@ BS is characterized by three cardinal features: **small body size** (the most co
 - `connects-to` → **[Esophageal Cancer](../esophageal-cancer/README.md)** — Adult Bloom patients face carcinomas of the gut lining: the genomic instability that brings early leukemia later drives GI carcinomas including esophageal cancer, part of the syndrome's relentless lifelong cancer toll.
 - `connects-to` → **[Wilms Tumor](../wilms-tumor/README.md)** — The embryonal tumors appear in childhood: Bloom syndrome's chromosomal instability predisposes to Wilms tumor among other paediatric cancers, reflecting how broadly the loss of BLM helicase destabilizes the genome.
 - `connects-to` → **[MSH2](../../03-molecular/msh2/README.md)** — BLM works alongside mismatch repair: the BLM helicase cooperates with the MSH2-containing mismatch-repair machinery to resolve recombination intermediates, so its loss compounds the genomic instability that mismatch-repair defects also cause.
+- `connects-to` → **[NF-κB](../../03-molecular/nf-kb/README.md)** — Relentless DNA damage smolders into inflammation: the unrepaired breaks and replication stress of Bloom syndrome trigger DNA-sensing inflammatory signaling that activates NF-κB, a chronic inflammatory tone layered on its cancer risk.
+- `connects-to` → **[Sepsis](../sepsis/README.md)** — A faltering immune system invites infection: Bloom syndrome includes an immunodeficiency with low immunoglobulins, so recurrent respiratory and gastrointestinal infections — and the sepsis they can become — are a major cause of illness.
+- `connects-to` → **[Cervical Cancer](../cervical-cancer/README.md)** — Its cancer net is wide and starts early: Bloom syndrome's genomic instability and immunodeficiency raise the risk of carcinomas including HPV-driven cervical cancer, part of a remarkably broad, young-onset cancer spectrum.
 
 ---
 
