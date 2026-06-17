@@ -186,6 +186,15 @@ cross_links:
   - target: 01-human/07-system/venous-thromboembolism
     relation: connects-to
     note: "Systemic inflammation tips toward clotting: like other chronic inflammatory arthritides, PsA carries an increased risk of venous thromboembolism, adding a venous hazard to its better-known arterial cardiovascular risk."
+  - target: 02-pathogen/03-fungi/candida-albicans
+    relation: connects-to
+    note: "The IL-17 blockers expose its niche: secukinumab and other anti-IL-17 biologics used for PsA disarm the very pathway guarding mucosa against Candida, so mucocutaneous candidiasis is a class side effect of treatment."
+  - target: 01-human/07-system/osteoporosis
+    relation: connects-to
+    note: "Inflammation and steroids thin the bone: chronic cytokine-driven bone loss in PsA, compounded by any corticosteroid use and reduced activity, lowers bone density and adds osteoporotic fracture risk to the erosive joint damage."
+  - target: 01-human/07-system/anemia-of-chronic-disease
+    relation: connects-to
+    note: "Persistent inflammation blunts the marrow: the sustained IL-6 and inflammatory drive of active PsA raises hepcidin and suppresses erythropoiesis, producing the anemia of chronic disease seen in poorly controlled patients."
 ---
 
 # Psoriatic Arthritis
@@ -389,6 +398,9 @@ Risankizumab (anti-IL-23p19) **failed primary endpoints** in the SURPASS trial f
 - `connects-to` → **[NF-κB](../../03-molecular/nf-kb/README.md)** — NF-κB is the inflammatory hub: TNF and IL-17/IL-23 signals converge on NF-κB in synovial and entheseal cells, switching on the cytokine programs that drive the joint inflammation and bone remodeling of PsA.
 - `connects-to` → **[Fibromyalgia](../fibromyalgia/README.md)** — Widespread pain confounds the joint disease: fibromyalgia is a common comorbidity in PsA, and its pain and tender points can inflate disease-activity scores, complicating the assessment of whether the arthritis is truly active.
 - `connects-to` → **[Venous Thromboembolism](../venous-thromboembolism/README.md)** — Systemic inflammation tips toward clotting: like other chronic inflammatory arthritides, PsA carries an increased risk of venous thromboembolism, adding a venous hazard to its better-known arterial cardiovascular risk.
+- `connects-to` → **[Candida albicans](../../../02-pathogen/03-fungi/candida-albicans/README.md)** — The IL-17 blockers expose its niche: secukinumab and other anti-IL-17 biologics used for PsA disarm the very pathway guarding mucosa against Candida, so mucocutaneous candidiasis is a class side effect of treatment.
+- `connects-to` → **[Osteoporosis](../osteoporosis/README.md)** — Inflammation and steroids thin the bone: chronic cytokine-driven bone loss in PsA, compounded by any corticosteroid use and reduced activity, lowers bone density and adds osteoporotic fracture risk to the erosive joint damage.
+- `connects-to` → **[Anemia of Chronic Disease](../anemia-of-chronic-disease/README.md)** — Persistent inflammation blunts the marrow: the sustained IL-6 and inflammatory drive of active PsA raises hepcidin and suppresses erythropoiesis, producing the anemia of chronic disease seen in poorly controlled patients.
 
 [^ritchlin-2017-psa-review]: Ritchlin CT, Colbert RA, Gladman DD. Psoriatic arthritis. *N Engl J Med.* 2017;376(10):957-970. [doi:10.1056/NEJMra1505557](https://doi.org/10.1056/NEJMra1505557) · [PubMed 28273019](https://pubmed.ncbi.nlm.nih.gov/28273019/)
 [^mease-2015-secukinumab-psa-future2]: Mease PJ, et al. Secukinumab inhibition of interleukin-17A in patients with psoriatic arthritis. *N Engl J Med.* 2015;373(14):1329-1339. [doi:10.1056/NEJMoa1503317](https://doi.org/10.1056/NEJMoa1503317) · [PubMed 26422723](https://pubmed.ncbi.nlm.nih.gov/26422723/)

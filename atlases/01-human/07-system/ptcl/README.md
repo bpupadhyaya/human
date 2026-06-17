@@ -178,6 +178,15 @@ cross_links:
   - target: 01-human/03-molecular/nlrp3-inflammasome
     relation: connects-to
     note: "Inflammasome activation feeds the cytokine flood: NLRP3-driven IL-1β release contributes to the hyperinflammatory, HLH-like state that can complicate aggressive peripheral T-cell lymphomas."
+  - target: 01-human/07-system/venous-thromboembolism
+    relation: connects-to
+    note: "An aggressive lymphoma is a prothrombotic state: bulky nodal disease, the inflammatory cytokine milieu and indwelling catheters during therapy combine to raise venous thromboembolism risk in PTCL patients."
+  - target: 02-pathogen/03-fungi/pneumocystis-jirovecii
+    relation: connects-to
+    note: "T-cell loss is exactly its opening: PTCL depletes the CD4 T-cells that hold Pneumocystis in check, and the intensive chemotherapy compounds it, so PJP prophylaxis is standard during treatment."
+  - target: 01-human/07-system/anemia-of-chronic-disease
+    relation: connects-to
+    note: "Marrow involvement and cytokines starve the red cells: PTCL infiltrating the bone marrow alongside its high IL-6 drive raises hepcidin and suppresses erythropoiesis, contributing an anemia-of-chronic-disease component to the cytopenias."
 ---
 
 # Peripheral T-cell Lymphoma
@@ -376,6 +385,9 @@ Aggressive presentation; generalized lymphadenopathy; extranodal involvement (~6
 - `connects-to` → **[Cytokine Storm](../cytokine-storm/README.md)** — Aggressive T-cell lymphoma can ignite the immune system: PTCL is a leading driver of secondary hemophagocytic lymphohistiocytosis, a cytokine storm of runaway macrophage activation that can be the lethal presenting picture.
 - `connects-to` → **[Sepsis](../sepsis/README.md)** — Disease and treatment both gut immunity: the T-cell malignancy itself plus intensive chemotherapy leave PTCL patients profoundly immunosuppressed and prone to opportunistic infection and sepsis.
 - `connects-to` → **[NLRP3 Inflammasome](../../03-molecular/nlrp3-inflammasome/README.md)** — Inflammasome activation feeds the cytokine flood: NLRP3-driven IL-1β release contributes to the hyperinflammatory, HLH-like state that can complicate aggressive peripheral T-cell lymphomas.
+- `connects-to` → **[Venous Thromboembolism](../venous-thromboembolism/README.md)** — An aggressive lymphoma is a prothrombotic state: bulky nodal disease, the inflammatory cytokine milieu and indwelling catheters during therapy combine to raise venous thromboembolism risk in PTCL patients.
+- `connects-to` → **[Pneumocystis jirovecii](../../../02-pathogen/03-fungi/pneumocystis-jirovecii/README.md)** — T-cell loss is exactly its opening: PTCL depletes the CD4 T-cells that hold Pneumocystis in check, and the intensive chemotherapy compounds it, so PJP prophylaxis is standard during treatment.
+- `connects-to` → **[Anemia of Chronic Disease](../anemia-of-chronic-disease/README.md)** — Marrow involvement and cytokines starve the red cells: PTCL infiltrating the bone marrow alongside its high IL-6 drive raises hepcidin and suppresses erythropoiesis, contributing an anemia-of-chronic-disease component to the cytopenias.
 
 ---
 
