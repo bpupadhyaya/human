@@ -178,6 +178,15 @@ cross_links:
   - target: 01-human/03-molecular/stat3
     relation: connects-to
     note: "STAT3 sustains the malignant Schwann cell: activated STAT3 signaling supports MPNST survival and the immunosuppressive microenvironment, marking another node in a tumor driven mainly by loss of NF1 and PRC2."
+  - target: 01-human/03-molecular/nf-kb
+    relation: connects-to
+    note: "Loss of NF1 routes RAS into NF-κB: unrestrained RAS signaling in MPNST engages NF-κB-driven survival and inflammation, part of the network that makes this NF1-associated sarcoma so aggressive and treatment-resistant."
+  - target: 01-human/07-system/venous-thromboembolism
+    relation: connects-to
+    note: "A bulky sarcoma that clots: MPNST carries tumor-driven hypercoagulability, and the major limb or trunk surgery and chemotherapy it requires add to the venous thromboembolism risk."
+  - target: 01-human/07-system/sepsis
+    relation: connects-to
+    note: "Intensive treatment and large tumors invite infection: the chemotherapy used against this aggressive sarcoma causes neutropenia, and extensive resections risk wound infection — both routes to sepsis."
 ---
 
 # MPNST
@@ -363,6 +372,9 @@ Wide local excision with negative margins is the only potentially curative inter
 - `connects-to` → **[Neuropathic Pain](../neuropathic-pain/README.md)** — New pain in a neurofibroma is the warning sign: malignant transformation to MPNST classically announces itself with rapid growth and worsening neuropathic pain along the nerve, the symptom that prompts urgent imaging and biopsy in NF1.
 - `connects-to` → **[PDGF](../../03-molecular/pdgf/README.md)** — Growth-factor receptors feed the sarcoma: MPNST cells express PDGF receptors whose autocrine signaling drives proliferation, one of the receptor tyrosine kinases probed for targeted therapy in this treatment-resistant tumor.
 - `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — STAT3 sustains the malignant Schwann cell: activated STAT3 signaling supports MPNST survival and the immunosuppressive microenvironment, marking another node in a tumor driven mainly by loss of NF1 and PRC2.
+- `connects-to` → **[NF-κB](../../03-molecular/nf-kb/README.md)** — Loss of NF1 routes RAS into NF-κB: unrestrained RAS signaling in MPNST engages NF-κB-driven survival and inflammation, part of the network that makes this NF1-associated sarcoma so aggressive and treatment-resistant.
+- `connects-to` → **[Venous Thromboembolism](../venous-thromboembolism/README.md)** — A bulky sarcoma that clots: MPNST carries tumor-driven hypercoagulability, and the major limb or trunk surgery and chemotherapy it requires add to the venous thromboembolism risk.
+- `connects-to` → **[Sepsis](../sepsis/README.md)** — Intensive treatment and large tumors invite infection: the chemotherapy used against this aggressive sarcoma causes neutropenia, and extensive resections risk wound infection — both routes to sepsis.
 
 [^evans-2002-mpnst-nf1]: Evans DGR, Baser ME, McGaughran J, et al. Malignant peripheral nerve sheath tumours in neurofibromatosis 1. *J Med Genet.* 2002;39(5):311-314. [doi:10.1136/jmg.39.5.311](https://doi.org/10.1136/jmg.39.5.311) · [PubMed 12011145](https://pubmed.ncbi.nlm.nih.gov/12011145/)
 [^lee-2014-mpnst-prc2]: Lee W, Teckie S, Wiesner T, et al. PRC2 is recurrently inactivated through EED or SUZ12 loss in malignant peripheral nerve sheath tumors. *Nat Genet.* 2014;46(11):1227-1232. [doi:10.1038/ng.3095](https://doi.org/10.1038/ng.3095) · [PubMed 25240281](https://pubmed.ncbi.nlm.nih.gov/25240281/)

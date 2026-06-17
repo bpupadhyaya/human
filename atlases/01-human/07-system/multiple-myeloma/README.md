@@ -184,6 +184,15 @@ cross_links:
   - target: 01-human/07-system/heart-failure
     relation: connects-to
     note: "Light chains can poison the heart: AL amyloidosis from myeloma's free light chains deposits in the myocardium, causing a restrictive cardiomyopathy and heart failure that drives much of the disease's mortality."
+  - target: 01-human/03-molecular/stat3
+    relation: connects-to
+    note: "IL-6 from the marrow niche signals through STAT3: bone-marrow stromal IL-6 activates STAT3 in myeloma plasma cells, a survival pathway central to their dependence on the microenvironment and resistance to therapy."
+  - target: 01-human/07-system/sepsis
+    relation: connects-to
+    note: "Immune paralysis makes infection the great killer: myeloma suppresses normal antibody production and its therapy adds neutropenia, so overwhelming infection and sepsis are a leading cause of death."
+  - target: 01-human/07-system/anemia-of-chronic-disease
+    relation: connects-to
+    note: "The marrow and inflammation both blunt the blood: plasma-cell crowding of the marrow plus the inflammatory cytokines and kidney disease of myeloma produce a prominent anemia of chronic disease."
 ---
 
 # Multiple Myeloma
@@ -368,6 +377,9 @@ MM evolves from precursor conditions through a well-defined continuum:
 - `connects-to` → **[Streptococcus pneumoniae](../../../02-pathogen/02-bacteria/streptococcus-pneumoniae/README.md)** — Myeloma silences normal antibody: the malignant clone suppresses healthy immunoglobulin production (immunoparesis), leaving patients open to encapsulated bacteria like pneumococcus — infection is a leading cause of death, prompting vaccination and prophylaxis.
 - `connects-to` → **[Neuropathic Pain](../neuropathic-pain/README.md)** — Pain comes from bone and from the drugs: lytic vertebral lesions and the bortezomib and thalidomide used to treat myeloma both cause severe pain — the chemotherapy a classic dose-limiting peripheral neuropathy.
 - `connects-to` → **[Heart Failure](../heart-failure/README.md)** — Light chains can poison the heart: AL amyloidosis from myeloma's free light chains deposits in the myocardium, causing a restrictive cardiomyopathy and heart failure that drives much of the disease's mortality.
+- `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — IL-6 from the marrow niche signals through STAT3: bone-marrow stromal IL-6 activates STAT3 in myeloma plasma cells, a survival pathway central to their dependence on the microenvironment and resistance to therapy.
+- `connects-to` → **[Sepsis](../sepsis/README.md)** — Immune paralysis makes infection the great killer: myeloma suppresses normal antibody production and its therapy adds neutropenia, so overwhelming infection and sepsis are a leading cause of death.
+- `connects-to` → **[Anemia of Chronic Disease](../anemia-of-chronic-disease/README.md)** — The marrow and inflammation both blunt the blood: plasma-cell crowding of the marrow plus the inflammatory cytokines and kidney disease of myeloma produce a prominent anemia of chronic disease.
 
 [^kumar-2022-imwg-criteria]: Kumar SK, Callander NS, Adekola K, et al. Multiple myeloma, version 3.2021, NCCN clinical practice guidelines in oncology. *J Natl Compr Canc Netw.* 2020;18(12):1685-1717. [doi:10.6004/jnccn.2020.0057](https://doi.org/10.6004/jnccn.2020.0057) · [PubMed 33285519](https://pubmed.ncbi.nlm.nih.gov/33285519/)
 [^moreau-2022-teclistamab]: Moreau P, Garfall AL, van de Donk NWCJ, et al. Teclistamab in relapsed or refractory multiple myeloma. *N Engl J Med.* 2022;387(6):495-505. [doi:10.1056/NEJMoa2203478](https://doi.org/10.1056/NEJMoa2203478) · [PubMed 35661166](https://pubmed.ncbi.nlm.nih.gov/35661166/)
