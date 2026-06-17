@@ -184,6 +184,15 @@ cross_links:
   - target: 01-human/07-system/sepsis
     relation: connects-to
     note: "Collapsed immunity ends in overwhelming infection: in advanced AIDS, opportunistic and bacterial infections readily disseminate into sepsis, a common terminal event when CD4 counts fall and defenses fail."
+  - target: 02-pathogen/03-fungi/aspergillus-fumigatus
+    relation: connects-to
+    note: "Profound immune loss opens the lung to mold: in advanced AIDS, especially with neutropenia or steroids, invasive pulmonary aspergillosis joins the opportunistic infections that exploit the collapsed defenses."
+  - target: 01-human/07-system/stroke
+    relation: connects-to
+    note: "The virus inflames the arteries: HIV drives an accelerated atherosclerosis and a direct vasculopathy, and with chronic immune activation even treated patients carry a raised long-term risk of ischemic stroke."
+  - target: 01-human/07-system/osteoporosis
+    relation: connects-to
+    note: "Virus and therapy both thin the bone: chronic HIV inflammation plus antiretrovirals — tenofovir disoproxil especially — accelerate bone loss, giving people with HIV high rates of osteoporosis and fracture."
 ---
 
 # HIV/AIDS
@@ -354,6 +363,9 @@ HIV-1 pathogenesis is primarily driven by CD4⁺ T cell loss:
 - `connects-to` → **[NF-κB](../../03-molecular/nf-kb/README.md)** — The virus wires itself to the host's master switch: HIV's LTR carries NF-κB binding sites, so the very pathway that activates T cells also drives proviral transcription — a link that ties immune activation to viral reactivation from latency.
 - `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — It hijacks JAK-STAT to persist: HIV manipulates STAT3 signaling in infected cells, contributing to the chronic immune activation and reservoir maintenance that smolder even under effective therapy.
 - `connects-to` → **[Sepsis](../sepsis/README.md)** — Collapsed immunity ends in overwhelming infection: in advanced AIDS, opportunistic and bacterial infections readily disseminate into sepsis, a common terminal event when CD4 counts fall and defenses fail.
+- `connects-to` → **[Aspergillus fumigatus](../../../02-pathogen/03-fungi/aspergillus-fumigatus/README.md)** — Profound immune loss opens the lung to mold: in advanced AIDS, especially with neutropenia or steroids, invasive pulmonary aspergillosis joins the opportunistic infections that exploit the collapsed defenses.
+- `connects-to` → **[Stroke](../stroke/README.md)** — The virus inflames the arteries: HIV drives an accelerated atherosclerosis and a direct vasculopathy, and with chronic immune activation even treated patients carry a raised long-term risk of ischemic stroke.
+- `connects-to` → **[Osteoporosis](../osteoporosis/README.md)** — Virus and therapy both thin the bone: chronic HIV inflammation plus antiretrovirals — tenofovir disoproxil especially — accelerate bone loss, giving people with HIV high rates of osteoporosis and fracture.
 
 ## See Also
 

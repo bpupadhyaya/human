@@ -184,6 +184,15 @@ cross_links:
   - target: 01-human/07-system/stroke
     relation: connects-to
     note: "Acute infection can trigger a stroke: in the weeks after influenza, the risk of ischemic stroke and heart attack transiently rises as systemic inflammation destabilizes plaques and tips the blood toward clotting."
+  - target: 01-human/07-system/sepsis
+    relation: connects-to
+    note: "Secondary bacterial pneumonia turns deadly: influenza strips the airway epithelium, letting Staphylococcus and pneumococcus invade into a post-influenza bacterial pneumonia that can progress to sepsis and shock."
+  - target: 01-human/07-system/ckd
+    relation: connects-to
+    note: "Severe flu can injure the kidney: influenza can cause rhabdomyolysis and, in critical illness, acute kidney injury, and the insult can leave or worsen chronic kidney disease in vulnerable patients."
+  - target: 01-human/07-system/type-2-diabetes
+    relation: connects-to
+    note: "Diabetes and flu worsen each other: people with type 2 diabetes have more severe influenza and complications, while the infection's stress hormones destabilize glycemic control — a reason yearly vaccination is urged."
 ---
 
 # Influenza
@@ -375,3 +384,6 @@ Influenza damages mucociliary clearance and exposes basal lamina glycoproteins �
 - `connects-to` → **[NF-κB](../../03-molecular/nf-kb/README.md)** — The virus throws the inflammatory switch — and rides it: influenza activates NF-κB to drive the cytokine response, yet the virus also exploits NF-κB signaling for its own efficient replication, a double-edged host pathway.
 - `connects-to` → **[Aspergillus fumigatus](../../../02-pathogen/03-fungi/aspergillus-fumigatus/README.md)** — Severe flu opens the lung to a mold: influenza-associated pulmonary aspergillosis strikes critically ill patients days into ICU care, the damaged airway epithelium and immune paralysis letting Aspergillus invade.
 - `connects-to` → **[Stroke](../stroke/README.md)** — Acute infection can trigger a stroke: in the weeks after influenza, the risk of ischemic stroke and heart attack transiently rises as systemic inflammation destabilizes plaques and tips the blood toward clotting.
+- `connects-to` → **[Sepsis](../sepsis/README.md)** — Secondary bacterial pneumonia turns deadly: influenza strips the airway epithelium, letting Staphylococcus and pneumococcus invade into a post-influenza bacterial pneumonia that can progress to sepsis and shock.
+- `connects-to` → **[Chronic Kidney Disease](../ckd/README.md)** — Severe flu can injure the kidney: influenza can cause rhabdomyolysis and, in critical illness, acute kidney injury, and the insult can leave or worsen chronic kidney disease in vulnerable patients.
+- `connects-to` → **[Type 2 Diabetes](../type-2-diabetes/README.md)** — Diabetes and flu worsen each other: people with type 2 diabetes have more severe influenza and complications, while the infection's stress hormones destabilize glycemic control — a reason yearly vaccination is urged.
