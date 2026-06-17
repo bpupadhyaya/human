@@ -204,6 +204,15 @@ cross_links:
   - target: 01-human/07-system/stroke
     relation: connects-to
     note: "Chronic systemic inflammation accelerates the arteries: the persistent inflammatory burden of PsA, on top of its frequent metabolic syndrome, speeds atherosclerosis and raises the long-term risk of stroke."
+  - target: 02-pathogen/01-viruses/varicella-zoster-virus
+    relation: connects-to
+    note: "Its immunomodulatory drugs reawaken shingles: the TNF, IL-17 and especially JAK inhibitors used for PsA blunt antiviral immunity and raise the risk of herpes-zoster reactivation."
+  - target: 01-human/07-system/ckd
+    relation: connects-to
+    note: "Long-term NSAIDs wear on the kidneys: the chronic non-steroidal anti-inflammatory use that controls PsA joint pain can cause analgesic nephropathy and a gradual decline in kidney function."
+  - target: 01-human/07-system/generalized-anxiety-disorder
+    relation: connects-to
+    note: "A painful, visible, lifelong disease breeds worry: the unpredictable flares, skin and joint disfigurement and disability of PsA foster chronic health anxiety alongside its well-documented depression."
 ---
 
 # Psoriatic Arthritis
@@ -413,6 +422,9 @@ Risankizumab (anti-IL-23p19) **failed primary endpoints** in the SURPASS trial f
 - `connects-to` → **[Tuberculosis](../tuberculosis/README.md)** — Its TNF-blocking biologics can wake latent TB: tumor-necrosis-factor is essential to containing tuberculosis in granulomas, so TNF inhibitors for PsA risk reactivating latent infection — making screening mandatory before treatment.
 - `connects-to` → **[Hepatitis B virus](../../../02-pathogen/01-viruses/hepatitis-b-virus/README.md)** — Immunosuppressive biologics can reactivate hepatitis B: the TNF inhibitors and other immune-modulating drugs used for PsA can let a dormant hepatitis B virus rebound, so serologic screening is required before starting therapy.
 - `connects-to` → **[Stroke](../stroke/README.md)** — Chronic systemic inflammation accelerates the arteries: the persistent inflammatory burden of PsA, on top of its frequent metabolic syndrome, speeds atherosclerosis and raises the long-term risk of stroke.
+- `connects-to` → **[Varicella-Zoster Virus](../../../02-pathogen/01-viruses/varicella-zoster-virus/README.md)** — Its immunomodulatory drugs reawaken shingles: the TNF, IL-17 and especially JAK inhibitors used for PsA blunt antiviral immunity and raise the risk of herpes-zoster reactivation.
+- `connects-to` → **[Chronic Kidney Disease](../ckd/README.md)** — Long-term NSAIDs wear on the kidneys: the chronic non-steroidal anti-inflammatory use that controls PsA joint pain can cause analgesic nephropathy and a gradual decline in kidney function.
+- `connects-to` → **[Generalized Anxiety Disorder](../generalized-anxiety-disorder/README.md)** — A painful, visible, lifelong disease breeds worry: the unpredictable flares, skin and joint disfigurement and disability of PsA foster chronic health anxiety alongside its well-documented depression.
 
 [^ritchlin-2017-psa-review]: Ritchlin CT, Colbert RA, Gladman DD. Psoriatic arthritis. *N Engl J Med.* 2017;376(10):957-970. [doi:10.1056/NEJMra1505557](https://doi.org/10.1056/NEJMra1505557) · [PubMed 28273019](https://pubmed.ncbi.nlm.nih.gov/28273019/)
 [^mease-2015-secukinumab-psa-future2]: Mease PJ, et al. Secukinumab inhibition of interleukin-17A in patients with psoriatic arthritis. *N Engl J Med.* 2015;373(14):1329-1339. [doi:10.1056/NEJMoa1503317](https://doi.org/10.1056/NEJMoa1503317) · [PubMed 26422723](https://pubmed.ncbi.nlm.nih.gov/26422723/)

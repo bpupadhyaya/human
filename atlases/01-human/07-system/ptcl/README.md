@@ -196,6 +196,15 @@ cross_links:
   - target: 01-human/07-system/major-depressive-disorder
     relation: connects-to
     note: "An aggressive lymphoma with poor odds weighs on mood: PTCL's rapid course, relapsing pattern and grueling therapy impose a heavy psychological burden that contributes to depression and anxiety."
+  - target: 02-pathogen/01-viruses/varicella-zoster-virus
+    relation: connects-to
+    note: "Chemotherapy reawakens shingles: the CHOP/CHOEP and salvage regimens for PTCL deplete T-cell immunity, allowing latent varicella-zoster to reactivate, so antiviral prophylaxis is standard."
+  - target: 01-human/07-system/ckd
+    relation: connects-to
+    note: "Bulky disease and chemo strain the kidneys: rapid tumour lysis from treating a high-burden PTCL, plus nephrotoxic agents, can cause acute kidney injury that may settle into chronic impairment."
+  - target: 01-human/07-system/generalized-anxiety-disorder
+    relation: connects-to
+    note: "An aggressive, relapsing lymphoma breeds worry: the poor prognosis, high relapse rate and intensive therapy of PTCL foster chronic health anxiety alongside the depression it brings."
 ---
 
 # Peripheral T-cell Lymphoma
@@ -400,6 +409,9 @@ Aggressive presentation; generalized lymphadenopathy; extranodal involvement (~6
 - `connects-to` → **[Aspergillus fumigatus](../../../02-pathogen/03-fungi/aspergillus-fumigatus/README.md)** — Its intensive chemo and T-cell defect open the lung to mold: CHOP-based therapy plus the profound T-cell immunodeficiency of PTCL cause deep neutropenia, letting inhaled Aspergillus invade as pulmonary aspergillosis.
 - `connects-to` → **[Heart Failure](../heart-failure/README.md)** — Its anthracycline backbone can weaken the heart: doxorubicin in the CHOP/CHOEP regimens for PTCL is dose-dependently cardiotoxic, risking a cardiomyopathy and heart failure during and after treatment.
 - `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — An aggressive lymphoma with poor odds weighs on mood: PTCL's rapid course, relapsing pattern and grueling therapy impose a heavy psychological burden that contributes to depression and anxiety.
+- `connects-to` → **[Varicella-Zoster Virus](../../../02-pathogen/01-viruses/varicella-zoster-virus/README.md)** — Chemotherapy reawakens shingles: the CHOP/CHOEP and salvage regimens for PTCL deplete T-cell immunity, allowing latent varicella-zoster to reactivate, so antiviral prophylaxis is standard.
+- `connects-to` → **[Chronic Kidney Disease](../ckd/README.md)** — Bulky disease and chemo strain the kidneys: rapid tumour lysis from treating a high-burden PTCL, plus nephrotoxic agents, can cause acute kidney injury that may settle into chronic impairment.
+- `connects-to` → **[Generalized Anxiety Disorder](../generalized-anxiety-disorder/README.md)** — An aggressive, relapsing lymphoma breeds worry: the poor prognosis, high relapse rate and intensive therapy of PTCL foster chronic health anxiety alongside the depression it brings.
 
 ---
 
