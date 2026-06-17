@@ -198,6 +198,15 @@ cross_links:
   - target: 01-human/07-system/pulmonary-arterial-hypertension
     relation: connects-to
     note: "Fluid overload and uremia stiffen the lung vessels: CKD is an under-recognized cause of pulmonary hypertension, driven by volume overload, the arteriovenous dialysis fistula and uremic vascular changes."
+  - target: 02-pathogen/02-bacteria/staphylococcus-aureus
+    relation: connects-to
+    note: "Dialysis access is a portal for Staph: hemodialysis catheters and fistulas give Staphylococcus aureus repeated entry to the bloodstream, making access-related S. aureus bacteremia a leading infection in CKD."
+  - target: 01-human/07-system/wound-healing
+    relation: connects-to
+    note: "Uremia stalls tissue repair: the impaired immunity, anemia and, in advanced disease, calciphylaxis of CKD leave skin ulcers and surgical wounds slow to heal, a major source of morbidity."
+  - target: 01-human/07-system/neuropathic-pain
+    relation: connects-to
+    note: "Retained toxins injure the nerves: uremia causes a length-dependent peripheral neuropathy and restless, painful legs, producing chronic neuropathic pain in advanced kidney disease."
 ---
 
 # Chronic Kidney Disease
@@ -334,6 +343,9 @@ As nephron mass decreases, impaired renal functions accumulate:
 - `connects-to` → **[Osteoporosis](../osteoporosis/README.md)** — It deranges the whole skeleton: CKD-mineral and bone disorder disturbs phosphate, vitamin D and PTH balance into renal osteodystrophy, leaving bone that is both low in density and poor in quality, with high fracture risk.
 - `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — Dialysis and decline weigh on the mind: depression is the commonest psychiatric problem in CKD, driven by the burden of dialysis, lost function and uremic effects on the brain, and it worsens outcomes.
 - `connects-to` → **[Pulmonary Arterial Hypertension](../pulmonary-arterial-hypertension/README.md)** — Fluid overload and uremia stiffen the lung vessels: CKD is an under-recognized cause of pulmonary hypertension, driven by volume overload, the arteriovenous dialysis fistula and uremic vascular changes.
+- `connects-to` → **[Staphylococcus aureus](../../../02-pathogen/02-bacteria/staphylococcus-aureus/README.md)** — Dialysis access is a portal for Staph: hemodialysis catheters and fistulas give Staphylococcus aureus repeated entry to the bloodstream, making access-related S. aureus bacteremia a leading infection in CKD.
+- `connects-to` → **[Wound Healing](../wound-healing/README.md)** — Uremia stalls tissue repair: the impaired immunity, anemia and, in advanced disease, calciphylaxis of CKD leave skin ulcers and surgical wounds slow to heal, a major source of morbidity.
+- `connects-to` → **[Neuropathic Pain](../neuropathic-pain/README.md)** — Retained toxins injure the nerves: uremia causes a length-dependent peripheral neuropathy and restless, painful legs, producing chronic neuropathic pain in advanced kidney disease.
 
 ## Pathology
 

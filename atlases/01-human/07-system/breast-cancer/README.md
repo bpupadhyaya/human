@@ -199,6 +199,15 @@ cross_links:
   - target: 01-human/07-system/major-depressive-disorder
     relation: connects-to
     note: "The diagnosis and its toll weigh on mood: depression is common across the breast-cancer journey, driven by the threat to life, the effects of surgery and chemotherapy, and the menopausal symptoms of endocrine therapy."
+  - target: 01-human/07-system/neuropathic-pain
+    relation: connects-to
+    note: "Treatment leaves nerves aching: taxane chemotherapy causes peripheral neuropathy, mastectomy can produce post-surgical neuropathic pain, and aromatase inhibitors bring disabling arthralgias."
+  - target: 01-human/07-system/stroke
+    relation: connects-to
+    note: "Cancer and its therapy raise clot risk to the brain: the hypercoagulable state of malignancy, tamoxifen's thrombotic risk and chest radiation's vascular damage together raise the risk of ischemic stroke."
+  - target: 02-pathogen/03-fungi/aspergillus-fumigatus
+    relation: connects-to
+    note: "Its chemotherapy opens the lung to mold: the neutropenia from breast-cancer chemotherapy can let inhaled Aspergillus invade as pulmonary aspergillosis, particularly with dose-dense regimens."
 ---
 
 # Breast Cancer
@@ -365,6 +374,9 @@ cross_links:
 - `connects-to` → **[Osteoporosis](../osteoporosis/README.md)** — Its hormone therapy strips the bone: aromatase inhibitors and ovarian suppression for estrogen-receptor-positive breast cancer cut estrogen sharply, accelerating bone loss so that osteoporosis monitoring and treatment accompany therapy.
 - `connects-to` → **[Anemia of Chronic Disease](../anemia-of-chronic-disease/README.md)** — Tumor inflammation and chemo blunt the marrow: the IL-6 of advanced breast cancer raises hepcidin while cytotoxic therapy suppresses erythropoiesis, adding an anemia-of-chronic-disease component to treatment cytopenias.
 - `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — The diagnosis and its toll weigh on mood: depression is common across the breast-cancer journey, driven by the threat to life, the effects of surgery and chemotherapy, and the menopausal symptoms of endocrine therapy.
+- `connects-to` → **[Neuropathic Pain](../neuropathic-pain/README.md)** — Treatment leaves nerves aching: taxane chemotherapy causes peripheral neuropathy, mastectomy can produce post-surgical neuropathic pain, and aromatase inhibitors bring disabling arthralgias.
+- `connects-to` → **[Stroke](../stroke/README.md)** — Cancer and its therapy raise clot risk to the brain: the hypercoagulable state of malignancy, tamoxifen's thrombotic risk and chest radiation's vascular damage together raise the risk of ischemic stroke.
+- `connects-to` → **[Aspergillus fumigatus](../../../02-pathogen/03-fungi/aspergillus-fumigatus/README.md)** — Its chemotherapy opens the lung to mold: the neutropenia from breast-cancer chemotherapy can let inhaled Aspergillus invade as pulmonary aspergillosis, particularly with dose-dense regimens.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
