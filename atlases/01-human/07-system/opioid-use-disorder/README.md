@@ -193,6 +193,15 @@ cross_links:
   - target: 02-pathogen/03-fungi/candida-albicans
     relation: connects-to
     note: "Injection can carry a fungus into the blood: contaminated injection drug use causes Candida bloodstream infection that seeds the eyes and heart valves, the classic candidemia and endophthalmitis of injection drug users."
+  - target: 01-human/07-system/venous-thromboembolism
+    relation: connects-to
+    note: "Repeated injection scars and clots the veins: groin and limb injection causes deep-vein thrombosis and septic thrombophlebitis, and the venous damage of injection opioid use raises pulmonary embolism risk."
+  - target: 01-human/07-system/ckd
+    relation: connects-to
+    note: "Overdose and infection injure the kidney: rhabdomyolysis from prolonged unconsciousness during overdose causes acute kidney injury, and injection-related infections and amyloidosis can leave chronic kidney disease."
+  - target: 01-human/07-system/generalized-anxiety-disorder
+    relation: connects-to
+    note: "Anxiety drives and follows the use: generalized anxiety commonly co-occurs with opioid use disorder, both as a reason people self-medicate and as a feature of withdrawal that perpetuates the cycle."
 ---
 
 # Opioid Use Disorder
@@ -406,6 +415,9 @@ The primary mechanism by which opioids produce euphoria:
 - `connects-to` → **[NF-κB](../../03-molecular/nf-kb/README.md)** — Opioids inflame the glia that fight them: chronic opioids activate microglial TLR4-NF-κB signaling, driving the neuroinflammation behind tolerance and paradoxical hyperalgesia that undermines long-term pain control.
 - `connects-to` → **[Sepsis](../sepsis/README.md)** — The needle is a gateway to the bloodstream: non-sterile injection seeds skin, heart valves and blood with bacteria, so abscesses, endocarditis and sepsis are among the commonest serious infections of injection opioid use.
 - `connects-to` → **[Candida albicans](../../../02-pathogen/03-fungi/candida-albicans/README.md)** — Injection can carry a fungus into the blood: contaminated injection drug use causes Candida bloodstream infection that seeds the eyes and heart valves, the classic candidemia and endophthalmitis of injection drug users.
+- `connects-to` → **[Venous Thromboembolism](../venous-thromboembolism/README.md)** — Repeated injection scars and clots the veins: groin and limb injection causes deep-vein thrombosis and septic thrombophlebitis, and the venous damage of injection opioid use raises pulmonary embolism risk.
+- `connects-to` → **[Chronic Kidney Disease](../ckd/README.md)** — Overdose and infection injure the kidney: rhabdomyolysis from prolonged unconsciousness during overdose causes acute kidney injury, and injection-related infections and amyloidosis can leave chronic kidney disease.
+- `connects-to` → **[Generalized Anxiety Disorder](../generalized-anxiety-disorder/README.md)** — Anxiety drives and follows the use: generalized anxiety commonly co-occurs with opioid use disorder, both as a reason people self-medicate and as a feature of withdrawal that perpetuates the cycle.
 
 [^volkow-2016-opioid-crisis]: Volkow ND, Collins FS. The role of science in addressing the opioid crisis. *N Engl J Med.* 2017;377(4):391-394. [doi:10.1056/NEJMsr1706626](https://doi.org/10.1056/NEJMsr1706626) · [PubMed 28723324](https://pubmed.ncbi.nlm.nih.gov/28723324/)
 [^mattick-2009-bupe-meta]: Mattick RP, Breen C, Kimber J, Davoli M. Buprenorphine maintenance versus placebo or methadone maintenance for opioid dependence. *Cochrane Database Syst Rev.* 2014;2:CD002207. [doi:10.1002/14651858.CD002207.pub4](https://doi.org/10.1002/14651858.CD002207.pub4) · [PubMed 24500948](https://pubmed.ncbi.nlm.nih.gov/24500948/)

@@ -190,6 +190,15 @@ cross_links:
   - target: 01-human/07-system/venous-thromboembolism
     relation: connects-to
     note: "Crisis and its treatment raise clot risk: immobility during a myasthenic crisis plus the prothrombotic effect of intravenous immunoglobulin therapy increase the risk of deep-vein thrombosis and pulmonary embolism."
+  - target: 01-human/07-system/osteoporosis
+    relation: connects-to
+    note: "Long-term steroids thin the bone: the prolonged corticosteroids that control myasthenia gravis, compounded by reduced mobility during weakness, accelerate bone loss and raise osteoporotic fracture risk."
+  - target: 02-pathogen/03-fungi/pneumocystis-jirovecii
+    relation: connects-to
+    note: "Its immunosuppression opens the lung: the steroids, azathioprine and rituximab used for myasthenia gravis can deplete T-cell defenses enough to risk Pneumocystis pneumonia, sometimes warranting prophylaxis."
+  - target: 01-human/07-system/sjogrens-syndrome
+    relation: connects-to
+    note: "Autoimmunity keeps company: myasthenia gravis frequently coexists with other autoimmune diseases including Sjögren's syndrome, reflecting a shared predisposition to loss of self-tolerance."
 ---
 
 # Myasthenia Gravis
@@ -358,6 +367,9 @@ cross_links:
 - `connects-to` → **[NF-κB](../../03-molecular/nf-kb/README.md)** — NF-κB sustains the autoreactive B cells: BAFF and inflammatory signals act through NF-κB in the ectopic thymic germinal centers to keep the anti-AChR antibody response alive, part of the B-cell biology rituximab targets.
 - `connects-to` → **[Sepsis](../sepsis/README.md)** — A myasthenic crisis collides with infection: respiratory-muscle weakness causes aspiration and ventilator dependence while immunosuppressive therapy lowers defenses, so pneumonia and sepsis are major dangers — and infection itself often triggers the crisis.
 - `connects-to` → **[Venous Thromboembolism](../venous-thromboembolism/README.md)** — Crisis and its treatment raise clot risk: immobility during a myasthenic crisis plus the prothrombotic effect of intravenous immunoglobulin therapy increase the risk of deep-vein thrombosis and pulmonary embolism.
+- `connects-to` → **[Osteoporosis](../osteoporosis/README.md)** — Long-term steroids thin the bone: the prolonged corticosteroids that control myasthenia gravis, compounded by reduced mobility during weakness, accelerate bone loss and raise osteoporotic fracture risk.
+- `connects-to` → **[Pneumocystis jirovecii](../../../02-pathogen/03-fungi/pneumocystis-jirovecii/README.md)** — Its immunosuppression opens the lung: the steroids, azathioprine and rituximab used for myasthenia gravis can deplete T-cell defenses enough to risk Pneumocystis pneumonia, sometimes warranting prophylaxis.
+- `connects-to` → **[Sjögren's Syndrome](../sjogrens-syndrome/README.md)** — Autoimmunity keeps company: myasthenia gravis frequently coexists with other autoimmune diseases including Sjögren's syndrome, reflecting a shared predisposition to loss of self-tolerance.
 
 [^gilhus-2016-mg-review]: Gilhus NE. Myasthenia Gravis. *N Engl J Med.* 2016;375(26):2570-2581. [doi:10.1056/NEJMra1602678](https://doi.org/10.1056/NEJMra1602678) · [PubMed 28029925](https://pubmed.ncbi.nlm.nih.gov/28029925/)
 [^howard-2021-efgartigimod-adapt]: Howard JF Jr, Bril V, Vu T, et al. Safety, efficacy, and tolerability of efgartigimod in patients with generalised myasthenia gravis (ADAPT). *Lancet Neurol.* 2021;20(7):526-536. [doi:10.1016/S1474-4422(21)00159-9](https://doi.org/10.1016/S1474-4422(21)00159-9) · [PubMed 34146511](https://pubmed.ncbi.nlm.nih.gov/34146511/)
