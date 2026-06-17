@@ -187,6 +187,15 @@ cross_links:
   - target: 01-human/07-system/anemia-of-chronic-disease
     relation: connects-to
     note: "Marrow infiltration and inflammation lower the count: mantle cell lymphoma commonly involves the bone marrow and raises inflammatory cytokines, producing an anemia of chronic disease on top of any marrow crowding."
+  - target: 02-pathogen/01-viruses/hepatitis-b-virus
+    relation: connects-to
+    note: "Anti-CD20 therapy can reactivate it: the rituximab central to mantle cell lymphoma treatment depletes B cells and can reawaken latent hepatitis B, so screening and antiviral prophylaxis precede therapy."
+  - target: 02-pathogen/03-fungi/aspergillus-fumigatus
+    relation: connects-to
+    note: "Its BTK inhibitors invite mold: ibrutinib and related agents used in mantle cell lymphoma are associated with invasive aspergillosis and other fungal infections, a recognized hazard of this targeted therapy."
+  - target: 01-human/07-system/heart-failure
+    relation: connects-to
+    note: "Its drugs can strain the heart: ibrutinib causes atrial fibrillation and cardiac events, while the anthracyclines and cardiotoxic agents in MCL induction regimens add to the risk of heart failure."
 ---
 
 # Mantle Cell Lymphoma
@@ -365,6 +374,9 @@ For SOX11−, mutated IGHV, non-bulky, asymptomatic nnMCL: Observation is safe; 
 - `connects-to` → **[Sepsis](../sepsis/README.md)** — Deep immunosuppression invites infection: the intensive chemoimmunotherapy, BTK inhibitors and CAR-T used against mantle cell lymphoma cause profound neutropenia and B-cell depletion, making febrile neutropenia and sepsis a leading danger.
 - `connects-to` → **[Pneumocystis jirovecii](../../../02-pathogen/03-fungi/pneumocystis-jirovecii/README.md)** — B-cell-directed therapy opens the lung to an opportunist: rituximab and BTK-inhibitor treatment of mantle cell lymphoma suppress immunity enough that Pneumocystis pneumonia becomes a risk, prompting prophylaxis.
 - `connects-to` → **[Anemia of Chronic Disease](../anemia-of-chronic-disease/README.md)** — Marrow infiltration and inflammation lower the count: mantle cell lymphoma commonly involves the bone marrow and raises inflammatory cytokines, producing an anemia of chronic disease on top of any marrow crowding.
+- `connects-to` → **[Hepatitis B Virus](../../../02-pathogen/01-viruses/hepatitis-b-virus/README.md)** — Anti-CD20 therapy can reactivate it: the rituximab central to mantle cell lymphoma treatment depletes B cells and can reawaken latent hepatitis B, so screening and antiviral prophylaxis precede therapy.
+- `connects-to` → **[Aspergillus fumigatus](../../../02-pathogen/03-fungi/aspergillus-fumigatus/README.md)** — Its BTK inhibitors invite mold: ibrutinib and related agents used in mantle cell lymphoma are associated with invasive aspergillosis and other fungal infections, a recognized hazard of this targeted therapy.
+- `connects-to` → **[Heart Failure](../heart-failure/README.md)** — Its drugs can strain the heart: ibrutinib causes atrial fibrillation and cardiac events, while the anthracyclines and cardiotoxic agents in MCL induction regimens add to the risk of heart failure.
 
 ---
 

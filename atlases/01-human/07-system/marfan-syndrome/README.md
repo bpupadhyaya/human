@@ -187,6 +187,15 @@ cross_links:
   - target: 01-human/07-system/major-depressive-disorder
     relation: connects-to
     note: "Living with a life-threatening syndrome weighs on the mind: the activity restrictions, body-image concerns and fear of aortic dissection in Marfan drive elevated rates of depression alongside its anxiety."
+  - target: 01-human/07-system/sepsis
+    relation: connects-to
+    note: "Abnormal valves and aortic grafts invite infection: Marfan's mitral and aortic valve disease predisposes to infective endocarditis, and prosthetic aortic grafts can become infected, both able to seed sepsis."
+  - target: 01-human/07-system/ckd
+    relation: connects-to
+    note: "Aortic dissection can starve the kidneys: a dissection extending to the renal arteries causes renal malperfusion and infarction, and the perioperative injury of major aortic surgery can leave chronic kidney impairment."
+  - target: 01-human/07-system/pulmonary-arterial-hypertension
+    relation: connects-to
+    note: "Chest deformity and lung disease strain the right heart: severe scoliosis, pectus deformity and apical bullae in Marfan restrict the lungs and, with chronic hypoxia, can raise pulmonary pressures toward cor pulmonale."
 ---
 
 # Marfan Syndrome
@@ -382,6 +391,9 @@ MFS is a **multi-system disorder** defined by cardiovascular, ocular, and skelet
 - `connects-to` → **[Connexin-43](../../03-molecular/connexin43/README.md)** — The Marfan heart can beat erratically: gap-junction remodeling and a primary myopathy predispose to ventricular arrhythmia and sudden cardiac death, a risk in Marfan beyond the aortic and valve disease.
 - `connects-to` → **[Troponin complex](../../03-molecular/troponin-complex/README.md)** — The heart muscle itself is affected: Marfan can cause a primary cardiomyopathy independent of valve and aortic disease, with subclinical myocardial dysfunction reflected in troponin and impaired contractility.
 - `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — Living with a life-threatening syndrome weighs on the mind: the activity restrictions, body-image concerns and fear of aortic dissection in Marfan drive elevated rates of depression alongside its anxiety.
+- `connects-to` → **[Sepsis](../sepsis/README.md)** — Abnormal valves and aortic grafts invite infection: Marfan's mitral and aortic valve disease predisposes to infective endocarditis, and prosthetic aortic grafts can become infected, both able to seed sepsis.
+- `connects-to` → **[Chronic Kidney Disease](../ckd/README.md)** — Aortic dissection can starve the kidneys: a dissection extending to the renal arteries causes renal malperfusion and infarction, and the perioperative injury of major aortic surgery can leave chronic kidney impairment.
+- `connects-to` → **[Pulmonary Arterial Hypertension](../pulmonary-arterial-hypertension/README.md)** — Chest deformity and lung disease strain the right heart: severe scoliosis, pectus deformity and apical bullae in Marfan restrict the lungs and, with chronic hypoxia, can raise pulmonary pressures toward cor pulmonale.
 
 ---
 
