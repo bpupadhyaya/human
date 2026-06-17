@@ -187,6 +187,15 @@ cross_links:
   - target: 01-human/07-system/ckd
     relation: connects-to
     note: "Years of catecholamine hypertension scar the kidney: sustained or paroxysmal pressure surges from the tumor drive hypertensive nephrosclerosis, and the renal damage can persist as chronic kidney disease even after cure."
+  - target: 01-human/07-system/venous-thromboembolism
+    relation: connects-to
+    note: "Its catecholamines and surgery thicken the clotting risk: chronic adrenergic stimulation activates platelets and coagulation, and the major operation to resect the tumor adds perioperative immobility, together raising venous thromboembolism risk."
+  - target: 01-human/07-system/major-depressive-disorder
+    relation: connects-to
+    note: "Catecholamine excess unsettles the mind: the surges that cause palpitations and panic also disturb mood, and patients commonly carry anxiety and depressive symptoms before diagnosis that can linger after the tumor is removed."
+  - target: 01-human/07-system/pulmonary-arterial-hypertension
+    relation: connects-to
+    note: "Catecholamines and HIF-pathway tumors can pressurize the lungs: adrenergic surges acutely constrict the pulmonary vasculature, and the EPAS1/HIF-2α paraganglioma syndromes are described alongside pulmonary hypertension."
 ---
 
 # Pheochromocytoma/Paraganglioma
@@ -385,6 +394,9 @@ Active in Cluster 1 (MET/AXL co-expressed in SDH-deficient tumors); Phase 2 CABO
 - `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — Some of these tumors secrete IL-6: an IL-6-producing pheochromocytoma can cause fever, weight loss and an inflammatory syndrome driven through JAK-STAT3, a paraneoplastic picture that resolves once the tumor is resected.
 - `connects-to` → **[Sepsis](../sepsis/README.md)** — A pheo crisis can masquerade as septic shock: catecholamine storm produces fever, lactic acidosis and multi-organ failure that mimic sepsis, a dangerous mimicry since the usual fluids-and-pressors response can worsen the crisis.
 - `connects-to` → **[Chronic Kidney Disease](../ckd/README.md)** — Years of catecholamine hypertension scar the kidney: sustained or paroxysmal pressure surges from the tumor drive hypertensive nephrosclerosis, and the renal damage can persist as chronic kidney disease even after cure.
+- `connects-to` → **[Venous Thromboembolism](../venous-thromboembolism/README.md)** — Its catecholamines and surgery thicken the clotting risk: chronic adrenergic stimulation activates platelets and coagulation, and the major operation to resect the tumor adds perioperative immobility, together raising venous thromboembolism risk.
+- `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — Catecholamine excess unsettles the mind: the surges that cause palpitations and panic also disturb mood, and patients commonly carry anxiety and depressive symptoms before diagnosis that can linger after the tumor is removed.
+- `connects-to` → **[Pulmonary Arterial Hypertension](../pulmonary-arterial-hypertension/README.md)** — Catecholamines and HIF-pathway tumors can pressurize the lungs: adrenergic surges acutely constrict the pulmonary vasculature, and the EPAS1/HIF-2α paraganglioma syndromes are described alongside pulmonary hypertension.
 
 [^lenders-2014-pheo-guideline]: Lenders JW, Duh QY, Eisenhofer G, et al. Pheochromocytoma and paraganglioma: an endocrine society clinical practice guideline. *J Clin Endocrinol Metab.* 2014;99(6):1915-1942. [doi:10.1210/jc.2014-1498](https://doi.org/10.1210/jc.2014-1498) · [PubMed 24893135](https://pubmed.ncbi.nlm.nih.gov/24893135/)
 [^baudin-2021-firstmappp-sunitinib]: Baudin E, Goichot B, Berruti A, et al. First International Randomized Study in Malignant Progressive Pheochromocytoma and Paragangliomas (FIRSTMAPPP). *Ann Oncol.* 2021;32(10):1245-1254. [doi:10.1016/j.annonc.2021.07.009](https://doi.org/10.1016/j.annonc.2021.07.009) · [PubMed 34246769](https://pubmed.ncbi.nlm.nih.gov/34246769/)

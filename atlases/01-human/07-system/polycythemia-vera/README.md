@@ -187,6 +187,15 @@ cross_links:
   - target: 01-human/07-system/anemia-of-chronic-disease
     relation: connects-to
     note: "The polycythemia can flip to anemia: as PV exhausts into a spent, myelofibrotic phase, marrow fibrosis and chronic inflammation replace the red-cell excess with an anemia carrying a chronic-disease component."
+  - target: 01-human/07-system/heart-failure
+    relation: connects-to
+    note: "Thick blood and clots overburden the heart: PV's hyperviscosity raises cardiac workload, and its arterial thromboses cause myocardial infarctions, both routes by which the disease can drive the heart toward failure."
+  - target: 01-human/07-system/major-depressive-disorder
+    relation: connects-to
+    note: "Relentless itch and fatigue erode mood: the disabling aquagenic pruritus, chronic fatigue and lifelong thrombosis anxiety of PV substantially impair quality of life and contribute to depression."
+  - target: 01-human/07-system/sepsis
+    relation: connects-to
+    note: "Its cytoreductive drugs blunt immune defense: ruxolitinib and hydroxyurea used to control PV suppress immunity and predispose to opportunistic and reactivated infections that can escalate to sepsis."
 ---
 
 # Polycythemia Vera
@@ -365,6 +374,9 @@ PV must be distinguished from secondary erythrocytosis (elevated EPO, JAK2 wild-
 - `connects-to` → **[TNF-α (Tumor Necrosis Factor-alpha)](../../03-molecular/tnf-alpha/README.md)** — The cytokine that lets the mutant clone win: JAK2-V617F cells are resistant to TNF-α while normal progenitors are suppressed by it, so the high TNF-α of PV actively selects for the malignant clone — inflammation feeding the neoplasm.
 - `connects-to` → **[NF-κB](../../03-molecular/nf-kb/README.md)** — Constitutive JAK2 signaling fires it up: the V617F mutation drives chronic NF-κB activation in PV, sustaining the inflammatory cytokine milieu that underlies symptoms, thrombosis risk and fibrotic progression.
 - `connects-to` → **[Anemia of Chronic Disease](../anemia-of-chronic-disease/README.md)** — The polycythemia can flip to anemia: as PV exhausts into a spent, myelofibrotic phase, marrow fibrosis and chronic inflammation replace the red-cell excess with an anemia carrying a chronic-disease component.
+- `connects-to` → **[Heart Failure](../heart-failure/README.md)** — Thick blood and clots overburden the heart: PV's hyperviscosity raises cardiac workload, and its arterial thromboses cause myocardial infarctions, both routes by which the disease can drive the heart toward failure.
+- `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — Relentless itch and fatigue erode mood: the disabling aquagenic pruritus, chronic fatigue and lifelong thrombosis anxiety of PV substantially impair quality of life and contribute to depression.
+- `connects-to` → **[Sepsis](../sepsis/README.md)** — Its cytoreductive drugs blunt immune defense: ruxolitinib and hydroxyurea used to control PV suppress immunity and predispose to opportunistic and reactivated infections that can escalate to sepsis.
 
 [^vannucchi-2015-response]: Vannucchi AM, Kiladjian JJ, Griesshammer M, et al. Ruxolitinib versus standard therapy for the treatment of polycythemia vera. *N Engl J Med.* 2015;372(5):426-435. [doi:10.1056/NEJMoa1409630](https://doi.org/10.1056/NEJMoa1409630) · [PubMed 25577388](https://pubmed.ncbi.nlm.nih.gov/25577388/)
 [^gisslinger-2020-proud-pv]: Gisslinger H, Gotic M, Holowiecki J, et al. Ropeginterferon alfa-2b versus standard therapy for polycythaemia vera (PROUD-PV and CONTINUATION-PV): a randomised, non-inferiority, phase 3 trial and its extension study. *Lancet Haematol.* 2020;7(3):e196-e208. [doi:10.1016/S2352-3026(19)30236-4](https://doi.org/10.1016/S2352-3026(19)30236-4) · [PubMed 32046833](https://pubmed.ncbi.nlm.nih.gov/32046833/)
