@@ -187,6 +187,15 @@ cross_links:
   - target: 01-human/07-system/fibromyalgia
     relation: connects-to
     note: "Its widespread pain overlaps and confounds: the diffuse, multifocal pain of schwannomatosis can resemble or coexist with fibromyalgia, complicating diagnosis and sharing the central pain-sensitization that resists analgesia."
+  - target: 01-human/07-system/insomnia-disorder
+    relation: connects-to
+    note: "Relentless pain robs patients of sleep: the chronic, often nocturnal pain that defines schwannomatosis fragments sleep and drives a persistent insomnia that in turn lowers pain tolerance the next day."
+  - target: 01-human/07-system/generalized-anxiety-disorder
+    relation: connects-to
+    note: "Unpredictable pain and tumor uncertainty breed worry: the constant pain, surveillance for new schwannomas and fear of progression in schwannomatosis foster chronic anxiety alongside its better-recognized depression."
+  - target: 01-human/07-system/osteoporosis
+    relation: connects-to
+    note: "Its long-term opioids quietly thin the bones: the chronic opioid therapy needed for schwannomatosis pain suppresses sex hormones, and the resulting hypogonadism, with pain-related inactivity, accelerates loss of bone density."
 ---
 
 # Schwannomatosis
@@ -345,6 +354,9 @@ Both NF2 (22q12.2), SMARCB1 (22q11.23), and LZTR1 (22q11.21) are on chromosome 2
 - `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — Unrelenting pain darkens mood: the defining feature of schwannomatosis is chronic, often severe pain, and living with intractable pain and progressive disease drives a high burden of depression that shapes quality of life.
 - `connects-to` → **[Opioid Use Disorder](../opioid-use-disorder/README.md)** — Treating its pain courts dependence: because chronic pain dominates schwannomatosis and responds poorly to surgery, long-term opioid use is common and carries the attendant risk of tolerance, dependence and opioid use disorder.
 - `connects-to` → **[Fibromyalgia](../fibromyalgia/README.md)** — Its widespread pain overlaps and confounds: the diffuse, multifocal pain of schwannomatosis can resemble or coexist with fibromyalgia, complicating diagnosis and sharing the central pain-sensitization that resists analgesia.
+- `connects-to` → **[Insomnia Disorder](../insomnia-disorder/README.md)** — Relentless pain robs patients of sleep: the chronic, often nocturnal pain that defines schwannomatosis fragments sleep and drives a persistent insomnia that in turn lowers pain tolerance the next day.
+- `connects-to` → **[Generalized Anxiety Disorder](../generalized-anxiety-disorder/README.md)** — Unpredictable pain and tumor uncertainty breed worry: the constant pain, surveillance for new schwannomas and fear of progression in schwannomatosis foster chronic anxiety alongside its better-recognized depression.
+- `connects-to` → **[Osteoporosis](../osteoporosis/README.md)** — Its long-term opioids quietly thin the bones: the chronic opioid therapy needed for schwannomatosis pain suppresses sex hormones, and the resulting hypogonadism, with pain-related inactivity, accelerates loss of bone density.
 
 [^merker-2012-schwannomatosis]: Merker VL, Esparza S, Smith MJ, Stemmer-Rachamimov A, Plotkin SR. Clinical features of schwannomatosis: a retrospective analysis of 87 patients. *Oncologist.* 2012;17(10):1317-1322. [doi:10.1634/theoncologist.2012-0162](https://doi.org/10.1634/theoncologist.2012-0162) · [PubMed 22927469](https://pubmed.ncbi.nlm.nih.gov/22927469/)
 [^piotrowski-2014-lztr1]: Piotrowski A, Xie J, Liu YF, et al. Germline loss-of-function mutations in LZTR1 predispose to an inherited disorder of multiple schwannomas. *Nat Genet.* 2014;46(2):182-187. [doi:10.1038/ng.2855](https://doi.org/10.1038/ng.2855) · [PubMed 24362817](https://pubmed.ncbi.nlm.nih.gov/24362817/)
