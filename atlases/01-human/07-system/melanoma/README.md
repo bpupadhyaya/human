@@ -193,6 +193,15 @@ cross_links:
   - target: 01-human/07-system/sepsis
     relation: connects-to
     note: "Immunotherapy and advanced disease open the door to infection: severe immune-related colitis treated with steroids, plus the burden of metastatic disease, leave melanoma patients vulnerable to serious infection and sepsis."
+  - target: 01-human/07-system/cytokine-storm
+    relation: connects-to
+    note: "Its immunotherapy can ignite the immune system: the checkpoint inhibitors central to melanoma treatment can trigger immune-related adverse events and, occasionally, a cytokine-release-like storm of systemic inflammation."
+  - target: 01-human/07-system/stroke
+    relation: connects-to
+    note: "It seeds the brain and bleeds: melanoma is among the most brain-metastatic cancers, and its metastases are characteristically hemorrhagic, causing intracranial bleeding and stroke."
+  - target: 01-human/07-system/major-depressive-disorder
+    relation: connects-to
+    note: "Its therapies and threat weigh on mood: historically interferon-α treatment caused depression, and the diagnosis, disfiguring surgery and metastatic threat of melanoma carry a substantial psychological burden."
 ---
 
 # Melanoma
@@ -341,6 +350,9 @@ cross_links:
 - `connects-to` → **[NF-κB](../../03-molecular/nf-kb/README.md)** — NF-κB drives melanoma's survival and immune escape: constitutive NF-κB signaling supports proliferation and an immunosuppressive microenvironment, one of the pathways behind resistance to targeted and immune therapy.
 - `connects-to` → **[Venous Thromboembolism](../venous-thromboembolism/README.md)** — Advanced disease clots the veins: metastatic melanoma carries tumor-driven hypercoagulability, and the surgery and systemic therapy it requires further raise the risk of venous thromboembolism.
 - `connects-to` → **[Sepsis](../sepsis/README.md)** — Immunotherapy and advanced disease open the door to infection: severe immune-related colitis treated with steroids, plus the burden of metastatic disease, leave melanoma patients vulnerable to serious infection and sepsis.
+- `connects-to` → **[Cytokine Storm](../cytokine-storm/README.md)** — Its immunotherapy can ignite the immune system: the checkpoint inhibitors central to melanoma treatment can trigger immune-related adverse events and, occasionally, a cytokine-release-like storm of systemic inflammation.
+- `connects-to` → **[Stroke](../stroke/README.md)** — It seeds the brain and bleeds: melanoma is among the most brain-metastatic cancers, and its metastases are characteristically hemorrhagic, causing intracranial bleeding and stroke.
+- `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — Its therapies and threat weigh on mood: historically interferon-α treatment caused depression, and the diagnosis, disfiguring surgery and metastatic threat of melanoma carry a substantial psychological burden.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 

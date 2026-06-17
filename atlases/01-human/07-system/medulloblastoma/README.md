@@ -187,6 +187,15 @@ cross_links:
   - target: 01-human/07-system/venous-thromboembolism
     relation: connects-to
     note: "A brain tumor that clots: like other CNS malignancies, medulloblastoma raises venous thromboembolism risk through tumor tissue factor and the immobility of major posterior-fossa surgery and illness."
+  - target: 02-pathogen/03-fungi/aspergillus-fumigatus
+    relation: connects-to
+    note: "Intensive chemo strips the lung's defenses: the dose-dense, often high-dose chemotherapy for medulloblastoma causes profound neutropenia, letting inhaled Aspergillus invade as pulmonary aspergillosis."
+  - target: 01-human/07-system/ckd
+    relation: connects-to
+    note: "Its platinum chemo scars young kidneys: cisplatin central to medulloblastoma regimens is nephrotoxic and ototoxic, and in a child the tubular injury and electrolyte wasting can leave lasting chronic kidney impairment."
+  - target: 01-human/07-system/major-depressive-disorder
+    relation: connects-to
+    note: "Craniospinal radiation leaves lasting scars on the mind: medulloblastoma survivors face neurocognitive decline, endocrine failure and the trauma of childhood cancer, carrying a heavy burden of depression."
 ---
 
 # Medulloblastoma
@@ -373,6 +382,9 @@ MB survivors face substantial late effects — inversely proportional to age at 
 - `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — STAT3 supports the aggressive subgroups: Group 3 and SHH medulloblastomas show STAT3 activation that backs proliferation and survival, a pathway studied for the high-risk, MYC-driven tumors that resist standard therapy.
 - `connects-to` → **[NF-κB](../../03-molecular/nf-kb/README.md)** — NF-κB adds a survival signal: medulloblastoma cells engage NF-κB-dependent survival and inflammatory signaling, one of the cooperating pathways alongside the SHH, WNT and MYC programs that define its subgroups.
 - `connects-to` → **[Venous Thromboembolism](../venous-thromboembolism/README.md)** — A brain tumor that clots: like other CNS malignancies, medulloblastoma raises venous thromboembolism risk through tumor tissue factor and the immobility of major posterior-fossa surgery and illness.
+- `connects-to` → **[Aspergillus fumigatus](../../../02-pathogen/03-fungi/aspergillus-fumigatus/README.md)** — Intensive chemo strips the lung's defenses: the dose-dense, often high-dose chemotherapy for medulloblastoma causes profound neutropenia, letting inhaled Aspergillus invade as pulmonary aspergillosis.
+- `connects-to` → **[Chronic Kidney Disease](../ckd/README.md)** — Its platinum chemo scars young kidneys: cisplatin central to medulloblastoma regimens is nephrotoxic and ototoxic, and in a child the tubular injury and electrolyte wasting can leave lasting chronic kidney impairment.
+- `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — Craniospinal radiation leaves lasting scars on the mind: medulloblastoma survivors face neurocognitive decline, endocrine failure and the trauma of childhood cancer, carrying a heavy burden of depression.
 
 [^packer-2006-std-risk-mb]: Packer RJ, Gajjar A, Vezina G, et al. Phase III study of craniospinal radiation therapy followed by adjuvant chemotherapy for newly diagnosed average-risk medulloblastoma. *J Clin Oncol.* 2006;24(25):4202-4208. [doi:10.1200/JCO.2006.06.4980](https://doi.org/10.1200/JCO.2006.06.4980) · [PubMed 16943538](https://pubmed.ncbi.nlm.nih.gov/16943538/)
 [^taylor-2012-mb-subgroups]: Taylor MD, Northcott PA, Korshunov A, et al. Molecular subgroups of medulloblastoma: the current consensus. *Acta Neuropathol.* 2012;123(4):465-472. [doi:10.1007/s00401-011-0922-z](https://doi.org/10.1007/s00401-011-0922-z) · [PubMed 22134537](https://pubmed.ncbi.nlm.nih.gov/22134537/)
