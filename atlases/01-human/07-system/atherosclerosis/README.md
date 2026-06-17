@@ -202,6 +202,15 @@ cross_links:
   - target: 01-human/07-system/major-depressive-disorder
     relation: connects-to
     note: "Hardened brain vessels darken mood: cerebral small-vessel atherosclerosis underlies the 'vascular depression' of later life, a late-onset, often treatment-resistant depression tied to ischemic white-matter injury."
+  - target: 01-human/07-system/alzheimers-disease
+    relation: connects-to
+    note: "Diseased brain vessels erode the mind: cerebral atherosclerosis causes vascular dementia and lowers the threshold for Alzheimer's, the two often coexisting as the mixed dementia of later life."
+  - target: 01-human/07-system/wound-healing
+    relation: connects-to
+    note: "Blocked leg arteries starve the skin: peripheral arterial disease from atherosclerosis deprives the limbs of blood, causing ischemic ulcers and gangrene that cannot heal without restored flow."
+  - target: 01-human/07-system/parkinsons-disease
+    relation: connects-to
+    note: "Small-vessel disease can mimic parkinsonism: cumulative atherosclerotic infarcts in the basal ganglia produce vascular parkinsonism, a gait-predominant syndrome overlapping with Parkinson's disease."
 ---
 
 # Atherosclerosis
@@ -377,6 +386,9 @@ The process begins in childhood with **fatty streaks** and progresses silently o
 - `connects-to` → **[Heart Failure](../heart-failure/README.md)** — Clogged coronaries weaken the pump: atherosclerosis of the coronary arteries causes myocardial infarction and chronic ischemia, the leading cause of the ischemic cardiomyopathy that drives heart failure.
 - `connects-to` → **[Wound Healing](../wound-healing/README.md)** — Starved limbs cannot heal: atherosclerotic peripheral arterial disease cuts blood flow to the legs, producing ischemic ulcers that resist healing and, in critical limb ischemia, progress to gangrene and amputation.
 - `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — Hardened brain vessels darken mood: cerebral small-vessel atherosclerosis underlies the 'vascular depression' of later life, a late-onset, often treatment-resistant depression tied to ischemic white-matter injury.
+- `connects-to` → **[Alzheimer's Disease](../alzheimers-disease/README.md)** — Diseased brain vessels erode the mind: cerebral atherosclerosis causes vascular dementia and lowers the threshold for Alzheimer's, the two often coexisting as the mixed dementia of later life.
+- `connects-to` → **[Wound Healing](../wound-healing/README.md)** — Blocked leg arteries starve the skin: peripheral arterial disease from atherosclerosis deprives the limbs of blood, causing ischemic ulcers and gangrene that cannot heal without restored flow.
+- `connects-to` → **[Parkinson's Disease](../parkinsons-disease/README.md)** — Small-vessel disease can mimic parkinsonism: cumulative atherosclerotic infarcts in the basal ganglia produce vascular parkinsonism, a gait-predominant syndrome overlapping with Parkinson's disease.
 
 ---
 

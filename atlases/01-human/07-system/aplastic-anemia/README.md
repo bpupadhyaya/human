@@ -196,6 +196,15 @@ cross_links:
   - target: 01-human/07-system/heart-failure
     relation: connects-to
     note: "Transfusions and chronic anemia burden the heart: the repeated red-cell transfusions for aplastic anemia deposit iron in the myocardium while the sustained anemia adds high-output strain, together risking heart failure."
+  - target: 01-human/07-system/ckd
+    relation: connects-to
+    note: "Its immunosuppressive mainstay scars the kidney: ciclosporin, a calcineurin inhibitor central to treating aplastic anemia, is nephrotoxic, and prolonged use can leave chronic kidney impairment."
+  - target: 02-pathogen/01-viruses/varicella-zoster-virus
+    relation: connects-to
+    note: "Deep immunosuppression reawakens zoster: the profound T-cell suppression from antithymocyte globulin and ciclosporin in aplastic anemia readily reactivates latent varicella-zoster as shingles."
+  - target: 01-human/07-system/major-depressive-disorder
+    relation: connects-to
+    note: "A sudden life-threatening marrow failure weighs on mood: the abrupt diagnosis, transfusion dependence and risk of fatal infection or bleeding in aplastic anemia carry a heavy psychological burden."
 ---
 
 # Aplastic Anemia
@@ -368,6 +377,9 @@ In >80% of acquired AA cases, the disease is **immune-mediated**: autoreactive *
 - `connects-to` → **[Aspergillus fumigatus](../../../02-pathogen/03-fungi/aspergillus-fumigatus/README.md)** — Empty marrow leaves the lung defenseless: the profound, prolonged neutropenia of severe aplastic anemia lets inhaled Aspergillus invade as angioinvasive pulmonary aspergillosis, a leading infectious cause of death.
 - `connects-to` → **[Candida albicans](../../../02-pathogen/03-fungi/candida-albicans/README.md)** — Lost neutrophils let the yeast bloodstream: severe neutropenia in aplastic anemia, compounded by immunosuppressive therapy, allows Candida to invade from the gut into the blood as invasive candidiasis.
 - `connects-to` → **[Heart Failure](../heart-failure/README.md)** — Transfusions and chronic anemia burden the heart: the repeated red-cell transfusions for aplastic anemia deposit iron in the myocardium while the sustained anemia adds high-output strain, together risking heart failure.
+- `connects-to` → **[Chronic Kidney Disease](../ckd/README.md)** — Its immunosuppressive mainstay scars the kidney: ciclosporin, a calcineurin inhibitor central to treating aplastic anemia, is nephrotoxic, and prolonged use can leave chronic kidney impairment.
+- `connects-to` → **[Varicella-Zoster Virus](../../../02-pathogen/01-viruses/varicella-zoster-virus/README.md)** — Deep immunosuppression reawakens zoster: the profound T-cell suppression from antithymocyte globulin and ciclosporin in aplastic anemia readily reactivates latent varicella-zoster as shingles.
+- `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — A sudden life-threatening marrow failure weighs on mood: the abrupt diagnosis, transfusion dependence and risk of fatal infection or bleeding in aplastic anemia carry a heavy psychological burden.
 
 ---
 
