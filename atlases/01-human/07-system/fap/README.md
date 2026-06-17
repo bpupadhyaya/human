@@ -196,6 +196,15 @@ cross_links:
   - target: 01-human/07-system/major-depressive-disorder
     relation: connects-to
     note: "Prophylactic colectomy and inherited cancer risk weigh on the mind: facing inevitable colorectal cancer without surgery, living with a stoma or pouch, and the hereditary burden give FAP a substantial psychological toll."
+  - target: 01-human/07-system/wound-healing
+    relation: connects-to
+    note: "Repeated abdominal surgery taxes healing: prophylactic colectomy, pouch construction and desmoid resections in FAP leave patients with recurrent surgical wounds, adhesions and the slow healing of reoperated tissue."
+  - target: 01-human/07-system/neuropathic-pain
+    relation: connects-to
+    note: "Surgery and desmoids irritate nerves: extensive abdominal operations and mesenteric desmoid tumors in FAP can entrap and compress nerves, producing chronic post-surgical and neuropathic abdominal pain."
+  - target: 01-human/07-system/generalized-anxiety-disorder
+    relation: connects-to
+    note: "Inevitable cancer risk and surveillance breed worry: the certainty of colorectal cancer without surgery and the lifelong endoscopic surveillance of FAP foster chronic health anxiety alongside depression."
 ---
 
 # Familial Adenomatous Polyposis
@@ -395,6 +404,9 @@ With modern surveillance and prophylactic colectomy: FAP is no longer an inevita
 - `connects-to` → **[Chronic Kidney Disease](../ckd/README.md)** — Its desmoids can throttle the ureters: the intra-abdominal desmoid tumors that FAP predisposes to can compress the ureters into obstruction, and prolonged hydronephrosis can erode kidney function toward chronic kidney disease.
 - `connects-to` → **[Osteoporosis](../osteoporosis/README.md)** — Removing the colon costs the bones: total colectomy and the malabsorption of vitamin D and calcium after surgery, plus the disease's chronic GI losses, leave FAP patients prone to bone loss and osteoporosis.
 - `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — Prophylactic colectomy and inherited cancer risk weigh on the mind: facing inevitable colorectal cancer without surgery, living with a stoma or pouch, and the hereditary burden give FAP a substantial psychological toll.
+- `connects-to` → **[Wound Healing](../wound-healing/README.md)** — Repeated abdominal surgery taxes healing: prophylactic colectomy, pouch construction and desmoid resections in FAP leave patients with recurrent surgical wounds, adhesions and the slow healing of reoperated tissue.
+- `connects-to` → **[Neuropathic Pain](../neuropathic-pain/README.md)** — Surgery and desmoids irritate nerves: extensive abdominal operations and mesenteric desmoid tumors in FAP can entrap and compress nerves, producing chronic post-surgical and neuropathic abdominal pain.
+- `connects-to` → **[Generalized Anxiety Disorder](../generalized-anxiety-disorder/README.md)** — Inevitable cancer risk and surveillance breed worry: the certainty of colorectal cancer without surgery and the lifelong endoscopic surveillance of FAP foster chronic health anxiety alongside depression.
 
 [^kinzler-1991-apc]: Kinzler KW, Nilbert MC, Su LK, et al. Identification of FAP locus genes from chromosome 5q21. *Science.* 1991;253(5020):661-665. [doi:10.1126/science.1651562](https://doi.org/10.1126/science.1651562) · [PubMed 1651562](https://pubmed.ncbi.nlm.nih.gov/1651562/)
 [^fearon-1990-vogelstein]: Fearon ER, Vogelstein B. A genetic model for colorectal tumorigenesis. *Cell.* 1990;61(5):759-767. [doi:10.1016/0092-8674(90)90186-i](https://doi.org/10.1016/0092-8674(90)90186-i) · [PubMed 2188735](https://pubmed.ncbi.nlm.nih.gov/2188735/)

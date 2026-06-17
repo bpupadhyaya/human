@@ -196,6 +196,15 @@ cross_links:
   - target: 02-pathogen/03-fungi/aspergillus-fumigatus
     relation: connects-to
     note: "Prolonged neutropenia opens the lung to mold: the deep neutropenia of dose-dense Ewing chemotherapy lets inhaled Aspergillus invade as pulmonary aspergillosis, a feared infection in these patients."
+  - target: 01-human/07-system/neuropathic-pain
+    relation: connects-to
+    note: "Vincristine and tumor injure the nerves: the vincristine in Ewing regimens causes peripheral neuropathy, and tumor near the spine or pelvis can compress nerves, together producing neuropathic pain."
+  - target: 01-human/07-system/ckd
+    relation: connects-to
+    note: "Ifosfamide scars the young kidney: the alkylator central to Ewing chemotherapy is tubulotoxic, causing a Fanconi-type tubulopathy and lasting chronic kidney impairment in treated children."
+  - target: 01-human/07-system/major-depressive-disorder
+    relation: connects-to
+    note: "A bone cancer of the young with hard therapy weighs on mood: Ewing's diagnosis in children and young adults, amputation or limb-salvage surgery and grueling chemotherapy contribute to depression and distress."
 ---
 
 # Ewing Sarcoma
@@ -378,6 +387,9 @@ After induction → surgical specimen assessed for percent tumor necrosis (Salze
 - `connects-to` → **[AML](../aml/README.md)** — Its cure can sow a later leukemia: the alkylators and etoposide central to Ewing sarcoma therapy carry a real risk of therapy-related myelodysplasia and acute myeloid leukemia years after treatment.
 - `connects-to` → **[Heart Failure](../heart-failure/README.md)** — Its anthracyclines scar the heart: the doxorubicin in Ewing sarcoma regimens is dose-dependently cardiotoxic, leaving survivors at risk of a cardiomyopathy and heart failure decades on.
 - `connects-to` → **[Aspergillus fumigatus](../../../02-pathogen/03-fungi/aspergillus-fumigatus/README.md)** — Prolonged neutropenia opens the lung to mold: the deep neutropenia of dose-dense Ewing chemotherapy lets inhaled Aspergillus invade as pulmonary aspergillosis, a feared infection in these patients.
+- `connects-to` → **[Neuropathic Pain](../neuropathic-pain/README.md)** — Vincristine and tumor injure the nerves: the vincristine in Ewing regimens causes peripheral neuropathy, and tumor near the spine or pelvis can compress nerves, together producing neuropathic pain.
+- `connects-to` → **[Chronic Kidney Disease](../ckd/README.md)** — Ifosfamide scars the young kidney: the alkylator central to Ewing chemotherapy is tubulotoxic, causing a Fanconi-type tubulopathy and lasting chronic kidney impairment in treated children.
+- `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — A bone cancer of the young with hard therapy weighs on mood: Ewing's diagnosis in children and young adults, amputation or limb-salvage surgery and grueling chemotherapy contribute to depression and distress.
 
 ---
 
