@@ -232,6 +232,15 @@ cross_links:
   - target: 03-medicine/03-food/vitamin-d
     relation: connects-to
     note: "Long steroids demand bone protection: patients on prolonged glucocorticoids for giant cell arteritis take vitamin D and calcium, often with a bisphosphonate, to counter steroid-induced osteoporosis."
+  - target: 01-human/05-tissue/arterial-wall
+    relation: connects-to
+    note: "It inflames the artery wall itself: giant cell arteritis is a granulomatous vasculitis of the media and adventitia of medium and large arteries, where T cells and macrophage-derived giant cells destroy the elastic lamina."
+  - target: 03-medicine/01-modern/13-cancer/cancer-chemotherapy
+    relation: connects-to
+    note: "A steroid-sparing immunosuppressant: methotrexate, a low-dose chemotherapy agent, is used to reduce glucocorticoid exposure in giant cell arteritis alongside IL-6 blockade."
+  - target: 01-human/07-system/atherosclerosis
+    relation: connects-to
+    note: "Two ways to thicken an artery: giant cell arteritis must be distinguished from atherosclerosis on vascular imaging, and the chronic vascular inflammation it causes also accelerates atherosclerotic disease."
 ---
 
 # Giant Cell Arteritis
@@ -418,6 +427,9 @@ The temporal arteries supply scalp, temporalis muscle, and dura. In GCA, transmu
 - `connects-to` → **[Corticosteroids](../../../03-medicine/01-modern/02-respiratory/corticosteroids/README.md)** — High-dose steroids are the emergency treatment: prompt glucocorticoids prevent the irreversible blindness of giant cell arteritis, then taper over many months despite their cumulative toxicity.
 - `connects-to` → **[Aspirin](../../../03-medicine/01-modern/04-cardio/aspirin/README.md)** — Low-dose aspirin guards the circulation: it is often added in giant cell arteritis to reduce the risk of the ischaemic visual loss and strokes the vasculitis can cause.
 - `connects-to` → **[Vitamin D](../../../03-medicine/03-food/vitamin-d/README.md)** — Long steroids demand bone protection: patients on prolonged glucocorticoids for giant cell arteritis take vitamin D and calcium, often with a bisphosphonate, to counter steroid-induced osteoporosis.
+- `connects-to` → **[Arterial Wall](../../05-tissue/arterial-wall/README.md)** — It inflames the artery wall itself: giant cell arteritis is a granulomatous vasculitis of the media and adventitia of medium and large arteries, where T cells and macrophage-derived giant cells destroy the elastic lamina.
+- `connects-to` → **[Cancer Chemotherapy](../../../03-medicine/01-modern/13-cancer/cancer-chemotherapy/README.md)** — A steroid-sparing immunosuppressant: methotrexate, a low-dose chemotherapy agent, is used to reduce glucocorticoid exposure in giant cell arteritis alongside IL-6 blockade.
+- `connects-to` → **[Atherosclerosis](../atherosclerosis/README.md)** — Two ways to thicken an artery: giant cell arteritis must be distinguished from atherosclerosis on vascular imaging, and the chronic vascular inflammation it causes also accelerates atherosclerotic disease.
 
 [^stone-2017-giact]: Stone JH, Tuckwell K, Dimonaco S, et al. Trial of tocilizumab in giant-cell arteritis. *N Engl J Med.* 2017;377(4):317-328. [doi:10.1056/NEJMoa1613849](https://doi.org/10.1056/NEJMoa1613849) · [PubMed 28745999](https://pubmed.ncbi.nlm.nih.gov/28745999/)
 [^weyand-2014-gca-review]: Weyand CM, Goronzy JJ. Clinical practice. Giant-cell arteritis and polymyalgia rheumatica. *N Engl J Med.* 2014;371(1):50-57. [doi:10.1056/NEJMcp1214926](https://doi.org/10.1056/NEJMcp1214926) · [PubMed 24988557](https://pubmed.ncbi.nlm.nih.gov/24988557/)
