@@ -211,6 +211,15 @@ cross_links:
   - target: 01-human/07-system/generalized-anxiety-disorder
     relation: connects-to
     note: "Recurrent clots and pregnancy loss breed worry: the threat of unpredictable thrombosis, miscarriage and the demands of lifelong anticoagulation in antiphospholipid syndrome foster chronic health anxiety."
+  - target: 01-human/07-system/immune-system
+    relation: connects-to
+    note: "It is an autoimmune clotting disease: antiphospholipid antibodies — lupus anticoagulant, anti-cardiolipin and anti-β2-glycoprotein-I — activate platelets, endothelium and complement to drive its thromboses and pregnancy loss."
+  - target: 01-human/07-system/integumentary-system
+    relation: connects-to
+    note: "It is written on the skin: livedo reticularis is a hallmark, with skin ulcers, splinter haemorrhages and digital gangrene reflecting the small-vessel thrombosis of antiphospholipid syndrome."
+  - target: 01-human/07-system/cardiovascular-system
+    relation: connects-to
+    note: "It scars the heart valves and arteries: antiphospholipid syndrome causes Libman-Sacks non-bacterial valvular vegetations and coronary thrombosis, adding cardiac disease to its accelerated atherosclerosis."
 ---
 
 # Antiphospholipid Syndrome
@@ -421,6 +430,9 @@ In APS, anti-B2GPI IgG bound to B2GPI on phospholipid surfaces converts this ant
 - `connects-to` → **[Digestive System](../digestive-system/README.md)** — It clots the veins draining the gut and liver: antiphospholipid syndrome causes hepatic vein thrombosis (Budd-Chiari) and mesenteric thrombosis with bowel ischaemia, threatening the abdominal organs.
 - `connects-to` → **[Nervous System](../nervous-system/README.md)** — Beyond stroke it disturbs the brain directly: antiphospholipid syndrome causes chorea, cognitive dysfunction, transverse myelitis and seizures, neurological features distinct from its frank thrombotic strokes.
 - `connects-to` → **[Generalized Anxiety Disorder](../generalized-anxiety-disorder/README.md)** — Recurrent clots and pregnancy loss breed worry: the threat of unpredictable thrombosis, miscarriage and the demands of lifelong anticoagulation in antiphospholipid syndrome foster chronic health anxiety.
+- `connects-to` → **[Immune System](../immune-system/README.md)** — It is an autoimmune clotting disease: antiphospholipid antibodies — lupus anticoagulant, anti-cardiolipin and anti-β2-glycoprotein-I — activate platelets, endothelium and complement to drive its thromboses and pregnancy loss.
+- `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — It is written on the skin: livedo reticularis is a hallmark, with skin ulcers, splinter haemorrhages and digital gangrene reflecting the small-vessel thrombosis of antiphospholipid syndrome.
+- `connects-to` → **[Cardiovascular System](../cardiovascular-system/README.md)** — It scars the heart valves and arteries: antiphospholipid syndrome causes Libman-Sacks non-bacterial valvular vegetations and coronary thrombosis, adding cardiac disease to its accelerated atherosclerosis.
 
 [^miyakis-2006-sydney-aps]: Miyakis S, Lockshin MD, Atsumi T, et al. International consensus statement on an update of the classification criteria for definite antiphospholipid syndrome (APS). *J Thromb Haemost.* 2006;4(2):295-306. [doi:10.1111/j.1538-7836.2006.01753.x](https://doi.org/10.1111/j.1538-7836.2006.01753.x) · [PubMed 16420554](https://pubmed.ncbi.nlm.nih.gov/16420554/)
 [^barbhaiya-2023-acreular-aps]: Barbhaiya M, Zuily S, Naden R, et al. The 2023 ACR/EULAR antiphospholipid syndrome classification criteria. *Ann Rheum Dis.* 2023;82(10):1258-1270. [doi:10.1136/ard-2023-224609](https://doi.org/10.1136/ard-2023-224609) · [PubMed 37643823](https://pubmed.ncbi.nlm.nih.gov/37643823/)

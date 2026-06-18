@@ -220,6 +220,15 @@ cross_links:
   - target: 01-human/07-system/ptsd
     relation: connects-to
     note: "A world of adversity raises trauma risk: autistic people face high rates of bullying, abuse and overwhelming environments, giving elevated rates of post-traumatic stress that camouflaging can hide."
+  - target: 01-human/07-system/cardiovascular-system
+    relation: connects-to
+    note: "Its autonomic balance differs: autism is associated with altered heart-rate variability and autonomic reactivity, and several ASD-linked genetic syndromes include congenital heart disease."
+  - target: 01-human/07-system/endocrine-system
+    relation: connects-to
+    note: "Its medications reshape metabolism: antipsychotics like risperidone and aripiprazole, used for autism-related irritability, commonly cause weight gain, hyperprolactinaemia and metabolic syndrome."
+  - target: 01-human/07-system/renal-system
+    relation: connects-to
+    note: "Continence comes late: nocturnal enuresis and delayed toilet training are more common in autistic children, and some ASD-associated genetic syndromes carry renal and urinary-tract anomalies."
 ---
 
 # Autism Spectrum Disorder
@@ -424,6 +433,9 @@ The neural basis of ASD social deficits involves dysfunction of the **social bra
 - `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — Movement and coordination are commonly affected: autism is frequently accompanied by hypotonia, motor dyspraxia and clumsiness, and an over-representation of joint hypermobility and connective-tissue laxity.
 - `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — It shares an allergic, immune skin link: atopic dermatitis and eczema are more common in autism, reflecting the immune dysregulation tied to the condition, and self-injury can further damage the skin.
 - `connects-to` → **[PTSD](../ptsd/README.md)** — A world of adversity raises trauma risk: autistic people face high rates of bullying, abuse and overwhelming environments, giving elevated rates of post-traumatic stress that camouflaging can hide.
+- `connects-to` → **[Cardiovascular System](../cardiovascular-system/README.md)** — Its autonomic balance differs: autism is associated with altered heart-rate variability and autonomic reactivity, and several ASD-linked genetic syndromes include congenital heart disease.
+- `connects-to` → **[Endocrine System](../endocrine-system/README.md)** — Its medications reshape metabolism: antipsychotics like risperidone and aripiprazole, used for autism-related irritability, commonly cause weight gain, hyperprolactinaemia and metabolic syndrome.
+- `connects-to` → **[Renal System](../renal-system/README.md)** — Continence comes late: nocturnal enuresis and delayed toilet training are more common in autistic children, and some ASD-associated genetic syndromes carry renal and urinary-tract anomalies.
 
 [^maenner-2023-asd-prevalence]: Maenner MJ, Warren Z, Williams AR, et al. Prevalence and characteristics of autism spectrum disorder among children aged 8 years — ADDM Network, 2020. *MMWR Surveill Summ.* 2023;72(2):1-14. [doi:10.15585/mmwr.ss7202a1](https://doi.org/10.15585/mmwr.ss7202a1) · [PubMed 36952216](https://pubmed.ncbi.nlm.nih.gov/36952216/)
 [^lord-2020-asd-review]: Lord C, Elsabbagh M, Baird G, Veenstra-Vanderweele J. Autism spectrum disorder. *Lancet.* 2018;392(10146):508-520. [doi:10.1016/S0140-6736(18)31129-2](https://doi.org/10.1016/S0140-6736(18)31129-2) · [PubMed 30078460](https://pubmed.ncbi.nlm.nih.gov/30078460/)
