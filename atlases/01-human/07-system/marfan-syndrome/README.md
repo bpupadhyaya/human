@@ -205,6 +205,15 @@ cross_links:
   - target: 01-human/07-system/insomnia-disorder
     relation: connects-to
     note: "Its craniofacial build disturbs sleep: the high-arched palate and retrognathia of Marfan predispose to obstructive sleep apnea, fragmenting sleep and worsening daytime function and cardiovascular strain."
+  - target: 01-human/07-system/digestive-system
+    relation: connects-to
+    note: "Weak connective tissue herniates and tears: Marfan brings recurrent inguinal and incisional hernias, and an aortic dissection that extends to the mesenteric arteries can starve the bowel of blood."
+  - target: 01-human/07-system/renal-system
+    relation: connects-to
+    note: "Aortic dissection threatens the kidneys: a dissection extending along the aorta can occlude a renal artery, causing renal malperfusion and acute kidney injury, a feared complication in Marfan."
+  - target: 01-human/07-system/endocrine-system
+    relation: connects-to
+    note: "Its protective therapy works through a hormone axis: losartan and other ARBs used to slow aortic growth in Marfan block the angiotensin II of the renin-angiotensin endocrine system, dampening TGF-β signalling."
 ---
 
 # Marfan Syndrome
@@ -406,6 +415,9 @@ MFS is a **multi-system disorder** defined by cardiovascular, ocular, and skelet
 - `connects-to` → **[Wound Healing](../wound-healing/README.md)** — Faulty connective tissue heals poorly: the fibrillin defect of Marfan weakens the matrix that wounds rebuild, so surgical incisions — including major aortic operations — and skin are prone to poor healing and hernia.
 - `connects-to` → **[Neuropathic Pain](../neuropathic-pain/README.md)** — Dural ectasia presses on the nerves: the ballooning of the dural sac, a characteristic Marfan feature, stretches lumbosacral nerve roots and causes chronic low back and radicular neuropathic pain.
 - `connects-to` → **[Insomnia Disorder](../insomnia-disorder/README.md)** — Its craniofacial build disturbs sleep: the high-arched palate and retrognathia of Marfan predispose to obstructive sleep apnea, fragmenting sleep and worsening daytime function and cardiovascular strain.
+- `connects-to` → **[Digestive System](../digestive-system/README.md)** — Weak connective tissue herniates and tears: Marfan brings recurrent inguinal and incisional hernias, and an aortic dissection that extends to the mesenteric arteries can starve the bowel of blood.
+- `connects-to` → **[Renal System](../renal-system/README.md)** — Aortic dissection threatens the kidneys: a dissection extending along the aorta can occlude a renal artery, causing renal malperfusion and acute kidney injury, a feared complication in Marfan.
+- `connects-to` → **[Endocrine System](../endocrine-system/README.md)** — Its protective therapy works through a hormone axis: losartan and other ARBs used to slow aortic growth in Marfan block the angiotensin II of the renin-angiotensin endocrine system, dampening TGF-β signalling.
 
 ---
 

@@ -205,6 +205,15 @@ cross_links:
   - target: 01-human/07-system/major-depressive-disorder
     relation: connects-to
     note: "An aggressive, relapsing lymphoma weighs on mood: the poor prognosis, intensive therapy and recurrent relapses of mantle cell lymphoma contribute to a substantial burden of depression."
+  - target: 01-human/07-system/cardiovascular-system
+    relation: connects-to
+    note: "Its BTK inhibitors strain the heart: ibrutinib used for mantle cell lymphoma causes atrial fibrillation, hypertension and bleeding, the main cardiovascular toxicities of BTK-inhibitor therapy."
+  - target: 01-human/07-system/nervous-system
+    relation: connects-to
+    note: "CAR-T and CNS spread reach the brain: mantle cell lymphoma can involve the central nervous system, and the CAR-T cell therapy used for relapsed disease causes immune-effector neurotoxicity (ICANS)."
+  - target: 01-human/07-system/generalized-anxiety-disorder
+    relation: connects-to
+    note: "An aggressive, incurable, relapsing lymphoma breeds worry: the poor prognosis, intensive therapy and inevitable relapse of mantle cell lymphoma foster chronic health anxiety alongside depression."
 ---
 
 # Mantle Cell Lymphoma
@@ -389,6 +398,9 @@ For SOX11−, mutated IGHV, non-bulky, asymptomatic nnMCL: Observation is safe; 
 - `connects-to` → **[Neuropathic Pain](../neuropathic-pain/README.md)** — Its chemotherapy injures the nerves: the bortezomib and vincristine used in mantle cell lymphoma regimens cause a dose-limiting peripheral neuropathy with neuropathic pain.
 - `connects-to` → **[Varicella-Zoster Virus](../../../02-pathogen/01-viruses/varicella-zoster-virus/README.md)** — Its BTK-inhibitor therapy reawakens shingles: ibrutinib and other agents for mantle cell lymphoma suppress immunity and characteristically reactivate latent varicella-zoster as herpes zoster.
 - `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — An aggressive, relapsing lymphoma weighs on mood: the poor prognosis, intensive therapy and recurrent relapses of mantle cell lymphoma contribute to a substantial burden of depression.
+- `connects-to` → **[Cardiovascular System](../cardiovascular-system/README.md)** — Its BTK inhibitors strain the heart: ibrutinib used for mantle cell lymphoma causes atrial fibrillation, hypertension and bleeding, the main cardiovascular toxicities of BTK-inhibitor therapy.
+- `connects-to` → **[Nervous System](../nervous-system/README.md)** — CAR-T and CNS spread reach the brain: mantle cell lymphoma can involve the central nervous system, and the CAR-T cell therapy used for relapsed disease causes immune-effector neurotoxicity (ICANS).
+- `connects-to` → **[Generalized Anxiety Disorder](../generalized-anxiety-disorder/README.md)** — An aggressive, incurable, relapsing lymphoma breeds worry: the poor prognosis, intensive therapy and inevitable relapse of mantle cell lymphoma foster chronic health anxiety alongside depression.
 
 ---
 
