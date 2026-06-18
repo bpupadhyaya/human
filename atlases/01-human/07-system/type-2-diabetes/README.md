@@ -211,6 +211,15 @@ cross_links:
   - target: 01-human/07-system/generalized-anxiety-disorder
     relation: connects-to
     note: "A demanding chronic disease breeds worry: the relentless self-management, fear of hypoglycaemia and dread of complications in type 2 diabetes generate diabetes distress and chronic anxiety alongside depression."
+  - target: 01-human/07-system/endocrine-system
+    relation: connects-to
+    note: "It is the archetypal endocrine disorder: insulin resistance with progressive beta-cell failure dysregulates the body's central metabolic hormone, deranging glucose, lipid and counter-regulatory hormone signalling throughout the system."
+  - target: 01-human/07-system/integumentary-system
+    relation: connects-to
+    note: "It marks the skin in many ways: acanthosis nigricans signals insulin resistance, while diabetic dermopathy, necrobiosis lipoidica and neuropathic-ischaemic foot ulcers track the vascular and nerve damage of type 2 diabetes."
+  - target: 01-human/07-system/immune-system
+    relation: connects-to
+    note: "Hyperglycaemia blunts host defence: high glucose impairs neutrophil function and complement, so type 2 diabetes raises susceptibility to skin, urinary, foot and respiratory infections and worsens their severity."
 ---
 
 # Type 2 Diabetes
@@ -378,6 +387,9 @@ T2DM, CKD, heart failure, and obesity form the **cardiorenal metabolic (CRM) syn
 - `connects-to` → **[Neuropathic Pain](../neuropathic-pain/README.md)** — Chronic hyperglycaemia damages the nerves: distal symmetric diabetic polyneuropathy is among the commonest causes of neuropathic pain, with burning feet, numbness and the risk of unfelt foot injury.
 - `connects-to` → **[Digestive System](../digestive-system/README.md)** — Autonomic neuropathy slows the gut: long-standing type 2 diabetes can cause gastroparesis with nausea, bloating and erratic glucose control, plus diabetic diarrhoea and constipation from enteric nerve damage.
 - `connects-to` → **[Generalized Anxiety Disorder](../generalized-anxiety-disorder/README.md)** — A demanding chronic disease breeds worry: the relentless self-management, fear of hypoglycaemia and dread of complications in type 2 diabetes generate diabetes distress and chronic anxiety alongside depression.
+- `connects-to` → **[Endocrine System](../endocrine-system/README.md)** — It is the archetypal endocrine disorder: insulin resistance with progressive beta-cell failure dysregulates the body's central metabolic hormone, deranging glucose, lipid and counter-regulatory hormone signalling throughout the system.
+- `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — It marks the skin in many ways: acanthosis nigricans signals insulin resistance, while diabetic dermopathy, necrobiosis lipoidica and neuropathic-ischaemic foot ulcers track the vascular and nerve damage of type 2 diabetes.
+- `connects-to` → **[Immune System](../immune-system/README.md)** — Hyperglycaemia blunts host defence: high glucose impairs neutrophil function and complement, so type 2 diabetes raises susceptibility to skin, urinary, foot and respiratory infections and worsens their severity.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 

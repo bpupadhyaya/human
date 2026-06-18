@@ -205,6 +205,15 @@ cross_links:
   - target: 01-human/07-system/wound-healing
     relation: connects-to
     note: "Its mTOR-inhibitor therapy impairs healing: everolimus and sirolimus block the mTOR pathway central to tissue repair, so wounds and the surgery for angiomyolipomas or SEGAs heal slowly during TSC treatment."
+  - target: 01-human/07-system/nervous-system
+    relation: connects-to
+    note: "It is fundamentally a brain disease: cortical tubers, subependymal nodules and SEGAs are central-nervous-system hamartomas that underlie the epilepsy, autism and intellectual disability defining TSC's neurological burden."
+  - target: 01-human/07-system/cardiovascular-system
+    relation: connects-to
+    note: "It seeds the infant heart with tumours: cardiac rhabdomyomas, often the earliest TSC sign on fetal echo, can obstruct outflow or trigger arrhythmias before usually regressing spontaneously after birth."
+  - target: 01-human/07-system/digestive-system
+    relation: connects-to
+    note: "It studs the liver with hamartomas: hepatic angiomyolipomas are a recognised extrarenal manifestation of TSC, and its mTOR-inhibitor therapy adds stomatitis and diarrhoea to the gastrointestinal picture."
 ---
 
 # Tuberous Sclerosis Complex
@@ -407,6 +416,9 @@ With modern management: life expectancy increasingly normal; major risks: renal 
 - `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — Its hamartomas are written on the skin: TSC produces facial angiofibromas, hypopigmented ash-leaf macules, shagreen patches and ungual fibromas — skin findings that are major diagnostic criteria.
 - `connects-to` → **[Respiratory System](../respiratory-system/README.md)** — It can riddle the lungs with cysts: lymphangioleiomyomatosis, a smooth-muscle proliferation that destroys lung tissue into cysts and causes pneumothorax, occurs in women with TSC and responds to mTOR inhibitors.
 - `connects-to` → **[Wound Healing](../wound-healing/README.md)** — Its mTOR-inhibitor therapy impairs healing: everolimus and sirolimus block the mTOR pathway central to tissue repair, so wounds and the surgery for angiomyolipomas or SEGAs heal slowly during TSC treatment.
+- `connects-to` → **[Nervous System](../nervous-system/README.md)** — It is fundamentally a brain disease: cortical tubers, subependymal nodules and SEGAs are central-nervous-system hamartomas that underlie the epilepsy, autism and intellectual disability defining TSC's neurological burden.
+- `connects-to` → **[Cardiovascular System](../cardiovascular-system/README.md)** — It seeds the infant heart with tumours: cardiac rhabdomyomas, often the earliest TSC sign on fetal echo, can obstruct outflow or trigger arrhythmias before usually regressing spontaneously after birth.
+- `connects-to` → **[Digestive System](../digestive-system/README.md)** — It studs the liver with hamartomas: hepatic angiomyolipomas are a recognised extrarenal manifestation of TSC, and its mTOR-inhibitor therapy adds stomatitis and diarrhoea to the gastrointestinal picture.
 
 ---
 
