@@ -241,6 +241,15 @@ cross_links:
   - target: 03-medicine/01-modern/13-cancer/targeted-therapy
     relation: connects-to
     note: "Molecular subsets get matched drugs: trastuzumab and T-DXd for HER2-positive disease, ramucirumab against VEGFR2 and zolbetuximab for Claudin-18.2 widen gastric cancer treatment."
+  - target: 01-human/05-tissue/hepatic-lobule
+    relation: connects-to
+    note: "It drains to the liver: gastric cancer cells travel the portal vein to seed the liver lobule, and hepatic metastases mark incurable disease, shifting care from surgery to systemic chemo-immunotherapy."
+  - target: 01-human/05-tissue/cortical-bone
+    relation: connects-to
+    note: "It spreads to bone and marrow: gastric cancer metastasises to bone, and diffuse marrow infiltration can cause a leukoerythroblastic picture and even DIC, signs of widespread disease."
+  - target: 01-human/07-system/pancreatic-cancer
+    relation: connects-to
+    note: "Aggressive upper-GI adenocarcinomas: gastric and pancreatic cancer share late presentation, desmoplastic biology, peritoneal spread and grim prognosis, dominating the lethal upper-gastrointestinal malignancies."
 ---
 
 # Gastric Cancer
@@ -462,6 +471,9 @@ H. pylori eradication: Reduces GC incidence by ~35-40% (meta-analyses); most ben
 - `connects-to` → **[Checkpoint Inhibitors](../../../03-medicine/01-modern/13-cancer/checkpoint-inhibitors/README.md)** — Immunotherapy joins first-line: PD-1 inhibitors (nivolumab, pembrolizumab) added to chemotherapy improve survival in advanced gastric cancer, especially MSI-high and EBV-positive tumours.
 - `connects-to` → **[Cancer Chemotherapy](../../../03-medicine/01-modern/13-cancer/cancer-chemotherapy/README.md)** — Perioperative chemo is standard: the FLOT regimen before and after surgery, or platinum-fluoropyrimidine for advanced disease, is the chemotherapy backbone of gastric cancer.
 - `connects-to` → **[Targeted Therapy](../../../03-medicine/01-modern/13-cancer/targeted-therapy/README.md)** — Molecular subsets get matched drugs: trastuzumab and T-DXd for HER2-positive disease, ramucirumab against VEGFR2 and zolbetuximab for Claudin-18.2 widen gastric cancer treatment.
+- `connects-to` → **[Hepatic Lobule](../../05-tissue/hepatic-lobule/README.md)** — It drains to the liver: gastric cancer cells travel the portal vein to seed the liver lobule, and hepatic metastases mark incurable disease, shifting care from surgery to systemic chemo-immunotherapy.
+- `connects-to` → **[Cortical Bone](../../05-tissue/cortical-bone/README.md)** — It spreads to bone and marrow: gastric cancer metastasises to bone, and diffuse marrow infiltration can cause a leukoerythroblastic picture and even DIC, signs of widespread disease.
+- `connects-to` → **[Pancreatic Cancer](../pancreatic-cancer/README.md)** — Aggressive upper-GI adenocarcinomas: gastric and pancreatic cancer share late presentation, desmoplastic biology, peritoneal spread and grim prognosis, dominating the lethal upper-gastrointestinal malignancies.
 
 [^bang-2010-toga]: Bang YJ, Van Cutsem E, Feyereislova A, et al. Trastuzumab in combination with chemotherapy versus chemotherapy alone for treatment of HER2-positive advanced gastric or gastro-oesophageal junction cancer (ToGA): a phase 3, open-label, randomised controlled trial. *Lancet.* 2010;376(9742):687-697. [doi:10.1016/S0140-6736(10)61121-X](https://doi.org/10.1016/S0140-6736(10)61121-X) · [PubMed 20728210](https://pubmed.ncbi.nlm.nih.gov/20728210/)
 [^janjigian-2021-checkmate649]: Janjigian YY, Shitara K, Moehler M, et al. First-line nivolumab plus chemotherapy versus chemotherapy alone for advanced gastric, gastro-oesophageal junction, and oesophageal adenocarcinoma (CheckMate 649). *Lancet.* 2021;398(10294):27-40. [doi:10.1016/S0140-6736(21)00797-2](https://doi.org/10.1016/S0140-6736(21)00797-2) · [PubMed 34102137](https://pubmed.ncbi.nlm.nih.gov/34102137/)

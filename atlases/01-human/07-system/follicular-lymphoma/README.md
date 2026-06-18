@@ -241,6 +241,15 @@ cross_links:
   - target: 03-medicine/01-modern/13-cancer/car-t
     relation: connects-to
     note: "Cell therapy for relapse: CD19 CAR-T cells and bispecific antibodies such as mosunetuzumab achieve high response rates in relapsed or refractory follicular lymphoma."
+  - target: 03-medicine/01-modern/13-cancer/checkpoint-inhibitors
+    relation: connects-to
+    note: "A microenvironment-dependent tumour: follicular lymphoma leans heavily on its immunosuppressive niche of regulatory and exhausted T cells, so checkpoint blockade and immunomodulators like lenalidomide act through that microenvironment rather than the tumour cell alone."
+  - target: 01-human/05-tissue/intestinal-epithelium
+    relation: connects-to
+    note: "It has an indolent gut form: primary duodenal-type follicular lymphoma grows in the small-bowel mucosa as a remarkably indolent, often localized disease, contrasting with nodal follicular lymphoma."
+  - target: 01-human/07-system/waldenstrom-macroglobulinemia
+    relation: connects-to
+    note: "Two indolent B-cell neoplasms: follicular lymphoma and Waldenström macroglobulinaemia are both slow-growing mature B-cell cancers managed by watchful waiting and rituximab-based therapy, contrasting with the aggressive lymphomas."
 ---
 
 # Follicular Lymphoma
@@ -441,6 +450,9 @@ High-risk subset (progression within 24 months of first chemoimmunotherapy): Con
 - `connects-to` → **[Cancer Chemotherapy](../../../03-medicine/01-modern/13-cancer/cancer-chemotherapy/README.md)** — Chemoimmunotherapy controls it: bendamustine or CHOP with an anti-CD20 antibody is standard first-line treatment for symptomatic follicular lymphoma, though it is rarely cured.
 - `connects-to` → **[Targeted Therapy](../../../03-medicine/01-modern/13-cancer/targeted-therapy/README.md)** — Targeted drugs for an indolent cancer: the EZH2 inhibitor tazemetostat for EZH2-mutant disease, lenalidomide and BCL-2 inhibitors extend the options in follicular lymphoma.
 - `connects-to` → **[CAR-T](../../../03-medicine/01-modern/13-cancer/car-t/README.md)** — Cell therapy for relapse: CD19 CAR-T cells and bispecific antibodies such as mosunetuzumab achieve high response rates in relapsed or refractory follicular lymphoma.
+- `connects-to` → **[Checkpoint Inhibitors](../../../03-medicine/01-modern/13-cancer/checkpoint-inhibitors/README.md)** — A microenvironment-dependent tumour: follicular lymphoma leans heavily on its immunosuppressive niche of regulatory and exhausted T cells, so checkpoint blockade and immunomodulators like lenalidomide act through that microenvironment rather than the tumour cell alone.
+- `connects-to` → **[Intestinal Epithelium](../../05-tissue/intestinal-epithelium/README.md)** — It has an indolent gut form: primary duodenal-type follicular lymphoma grows in the small-bowel mucosa as a remarkably indolent, often localized disease, contrasting with nodal follicular lymphoma.
+- `connects-to` → **[Waldenström Macroglobulinemia](../waldenstrom-macroglobulinemia/README.md)** — Two indolent B-cell neoplasms: follicular lymphoma and Waldenström macroglobulinaemia are both slow-growing mature B-cell cancers managed by watchful waiting and rituximab-based therapy, contrasting with the aggressive lymphomas.
 
 ---
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
