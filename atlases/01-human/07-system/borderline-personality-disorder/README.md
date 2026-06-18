@@ -223,6 +223,15 @@ cross_links:
   - target: 01-human/07-system/endocrine-system
     relation: connects-to
     note: "Early trauma resets the stress axis: childhood adversity common in BPD dysregulates the HPA cortisol response, an endocrine signature thought to underlie its intense emotional reactivity."
+  - target: 01-human/07-system/cardiovascular-system
+    relation: connects-to
+    note: "Impulsive overdose can stop the heart: tricyclic and stimulant overdoses in self-harm cause life-threatening arrhythmias, and chronic stress and comorbidities raise long-term cardiovascular risk."
+  - target: 01-human/07-system/respiratory-system
+    relation: connects-to
+    note: "Overdose suppresses breathing: impulsive overdose with opioids, alcohol or sedatives — common in BPD self-harm — causes respiratory depression that can be fatal."
+  - target: 01-human/07-system/immune-system
+    relation: connects-to
+    note: "Trauma leaves an inflammatory mark: childhood adversity and chronic stress in BPD raise inflammatory cytokines, linking it to systemic low-grade inflammation."
 ---
 
 # Borderline Personality Disorder
@@ -431,6 +440,9 @@ This model directly informs DBT treatment: validate emotional experience (the bi
 - `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — Distress is carved into the skin: non-suicidal self-injury — cutting and burning — is a hallmark of BPD, leaving characteristic scars on the forearms and a need for wound and dermatological care.
 - `connects-to` → **[Digestive System](../digestive-system/README.md)** — Impulsive overdose can wreck the liver: self-poisoning is common in BPD, and paracetamol overdose in particular causes acute hepatic injury and fulminant liver failure if not treated promptly.
 - `connects-to` → **[Endocrine System](../endocrine-system/README.md)** — Early trauma resets the stress axis: childhood adversity common in BPD dysregulates the HPA cortisol response, an endocrine signature thought to underlie its intense emotional reactivity.
+- `connects-to` → **[Cardiovascular System](../cardiovascular-system/README.md)** — Impulsive overdose can stop the heart: tricyclic and stimulant overdoses in self-harm cause life-threatening arrhythmias, and chronic stress and comorbidities raise long-term cardiovascular risk.
+- `connects-to` → **[Respiratory System](../respiratory-system/README.md)** — Overdose suppresses breathing: impulsive overdose with opioids, alcohol or sedatives — common in BPD self-harm — causes respiratory depression that can be fatal.
+- `connects-to` → **[Immune System](../immune-system/README.md)** — Trauma leaves an inflammatory mark: childhood adversity and chronic stress in BPD raise inflammatory cytokines, linking it to systemic low-grade inflammation.
 
 [^linehan-1993-dbt]: Linehan MM. *Cognitive-Behavioral Treatment of Borderline Personality Disorder.* Guilford; 1993. [PubMed 8192506](https://pubmed.ncbi.nlm.nih.gov/8192506/)
 [^skodol-2002-bpd-neurobiology]: Siever LJ, Davis KL. A psychobiological perspective on the personality disorders. *Am J Psychiatry.* 1991;148(12):1647-1658. [doi:10.1176/ajp.148.12.1647](https://doi.org/10.1176/ajp.148.12.1647) · [PubMed 1957927](https://pubmed.ncbi.nlm.nih.gov/1957927/)
