@@ -223,6 +223,15 @@ cross_links:
   - target: 01-human/07-system/cardiovascular-system
     relation: connects-to
     note: "Its drugs and the heart intersect: beta-blockers can precipitate bronchospasm in asthma, while inhaled and systemic beta-agonists cause tachycardia, tremor and, in overuse, arrhythmia."
+  - target: 01-human/07-system/integumentary-system
+    relation: connects-to
+    note: "It sits in the atopic spectrum: asthma travels with eczema and urticaria through shared type 2 inflammation, and anti-IgE omalizumab treats both asthma and chronic urticaria."
+  - target: 01-human/07-system/musculoskeletal-system
+    relation: connects-to
+    note: "Its steroid courses weaken bone and muscle: repeated oral corticosteroid bursts for exacerbations cause osteoporosis and proximal steroid myopathy over time."
+  - target: 01-human/07-system/renal-system
+    relation: connects-to
+    note: "Severe eosinophilic disease can attack the kidney: difficult eosinophilic asthma can herald eosinophilic granulomatosis with polyangiitis, which causes a pauci-immune glomerulonephritis."
 ---
 
 # Asthma
@@ -400,6 +409,9 @@ Asthma affects approximately **339 million people worldwide** (WHO 2019) and is 
 - `connects-to` → **[Nervous System](../nervous-system/README.md)** — Nerves set bronchial tone: parasympathetic vagal cholinergic signalling constricts the airways and amplifies reflex bronchospasm, which is why anticholinergic bronchodilators relieve attacks.
 - `connects-to` → **[Digestive System](../digestive-system/README.md)** — Reflux from below stokes the airway: gastro-oesophageal reflux is a common asthma comorbidity and trigger, provoking bronchospasm through microaspiration and a vagal oesophago-bronchial reflex.
 - `connects-to` → **[Cardiovascular System](../cardiovascular-system/README.md)** — Its drugs and the heart intersect: beta-blockers can precipitate bronchospasm in asthma, while inhaled and systemic beta-agonists cause tachycardia, tremor and, in overuse, arrhythmia.
+- `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — It sits in the atopic spectrum: asthma travels with eczema and urticaria through shared type 2 inflammation, and anti-IgE omalizumab treats both asthma and chronic urticaria.
+- `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — Its steroid courses weaken bone and muscle: repeated oral corticosteroid bursts for exacerbations cause osteoporosis and proximal steroid myopathy over time.
+- `connects-to` → **[Renal System](../renal-system/README.md)** — Severe eosinophilic disease can attack the kidney: difficult eosinophilic asthma can herald eosinophilic granulomatosis with polyangiitis, which causes a pauci-immune glomerulonephritis.
 
 [^gina-2023-asthma]: Global Initiative for Asthma. Global Strategy for Asthma Management and Prevention. 2023. [ginasthma.org](https://ginasthma.org/2023-gina-main-report/)
 [^wenzel-2012-asthma-phenotypes]: Wenzel SE. Asthma phenotypes: the evolution from clinical to molecular approaches. *Nat Med.* 2012;18(5):716-725. [doi:10.1038/nm.2678](https://doi.org/10.1038/nm.2678) · [PubMed 22561835](https://pubmed.ncbi.nlm.nih.gov/22561835/)

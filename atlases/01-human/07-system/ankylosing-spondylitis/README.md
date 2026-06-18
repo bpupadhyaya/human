@@ -223,6 +223,15 @@ cross_links:
   - target: 01-human/07-system/renal-system
     relation: connects-to
     note: "Decades of inflammation can poison the kidney: sustained systemic inflammation in ankylosing spondylitis can deposit secondary AA amyloid in the kidneys, causing proteinuria and progressive renal failure."
+  - target: 01-human/07-system/digestive-system
+    relation: connects-to
+    note: "It begins in the gut: most patients with ankylosing spondylitis have subclinical microscopic gut inflammation reflecting a shared gut-joint axis, and a minority develop overt inflammatory bowel disease."
+  - target: 01-human/07-system/integumentary-system
+    relation: connects-to
+    note: "Skin overlaps and reacts: as a spondyloarthritis it overlaps with psoriasis, and the TNF inhibitors used to treat it can paradoxically trigger psoriasiform skin eruptions."
+  - target: 01-human/07-system/endocrine-system
+    relation: connects-to
+    note: "Chronic inflammation thins bone and disturbs hormones: sustained inflammation and reduced mobility drive secondary osteoporosis, and the inflammatory state can suppress the gonadal axis."
 ---
 
 # Ankylosing Spondylitis
@@ -400,6 +409,9 @@ AS originates at the **enthesis** — the site where tendons, ligaments, and joi
 - `connects-to` → **[Nervous System](../nervous-system/README.md)** — Its fused, brittle spine endangers the cord: an ankylosed spine fractures with minor trauma and can injure the spinal cord, while long-standing disease can cause cauda equina syndrome from dural ectasia.
 - `connects-to` → **[Immune System](../immune-system/README.md)** — It is an HLA-B27-linked autoinflammatory disease: IL-17/IL-23 and TNF signalling drive the enthesitis and new bone formation, which is why TNF and IL-17 biologics are central to its treatment.
 - `connects-to` → **[Renal System](../renal-system/README.md)** — Decades of inflammation can poison the kidney: sustained systemic inflammation in ankylosing spondylitis can deposit secondary AA amyloid in the kidneys, causing proteinuria and progressive renal failure.
+- `connects-to` → **[Digestive System](../digestive-system/README.md)** — It begins in the gut: most patients with ankylosing spondylitis have subclinical microscopic gut inflammation reflecting a shared gut-joint axis, and a minority develop overt inflammatory bowel disease.
+- `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — Skin overlaps and reacts: as a spondyloarthritis it overlaps with psoriasis, and the TNF inhibitors used to treat it can paradoxically trigger psoriasiform skin eruptions.
+- `connects-to` → **[Endocrine System](../endocrine-system/README.md)** — Chronic inflammation thins bone and disturbs hormones: sustained inflammation and reduced mobility drive secondary osteoporosis, and the inflammatory state can suppress the gonadal axis.
 
 [^sieper-2015-ankylosing-spondylitis-review]: Sieper J, Poddubnyy D. Ankylosing spondylitis. *Lancet.* 2017;390(10089):73-84. [doi:10.1016/S0140-6736(16)31591-4](https://doi.org/10.1016/S0140-6736(16)31591-4) · [PubMed 28110981](https://pubmed.ncbi.nlm.nih.gov/28110981/)
 [^baeten-2015-secukinumab-as]: Baeten D, Sieper J, Braun J, et al. Secukinumab, an Interleukin-17A Inhibitor, in Ankylosing Spondylitis. *N Engl J Med.* 2015;373(26):2534-2548. [doi:10.1056/NEJMoa1505066](https://doi.org/10.1056/NEJMoa1505066) · [PubMed 26699169](https://pubmed.ncbi.nlm.nih.gov/26699169/)
