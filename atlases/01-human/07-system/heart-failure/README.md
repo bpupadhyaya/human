@@ -226,6 +226,15 @@ cross_links:
   - target: 01-human/07-system/immune-system
     relation: connects-to
     note: "Inflammation feeds its decline: raised inflammatory cytokines such as TNF and IL-6 contribute to cardiac cachexia and the progression of heart failure."
+  - target: 03-medicine/01-modern/04-cardio/ace-inhibitors
+    relation: connects-to
+    note: "A cornerstone of treatment: ACE inhibitors reduce afterload and block harmful neurohormonal remodelling, lowering mortality in heart failure with reduced ejection fraction."
+  - target: 03-medicine/01-modern/04-cardio/beta-blockers
+    relation: connects-to
+    note: "They reverse the harmful drive: beta-blockers blunt the chronic sympathetic overactivation of heart failure, improving survival despite initially reducing contractility."
+  - target: 03-medicine/01-modern/04-cardio/loop-diuretics
+    relation: connects-to
+    note: "They relieve the congestion: loop diuretics like furosemide remove the salt and water overload that causes the breathlessness and oedema of decompensated heart failure."
 ---
 
 # Heart Failure
@@ -368,6 +377,9 @@ Normal hearts increase stroke volume with increasing preload (Starling curve). T
 - `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — It wastes the muscles: advanced heart failure causes cardiac cachexia with skeletal-muscle wasting and sarcopenia that reduce exercise capacity and worsen prognosis.
 - `connects-to` → **[Nervous System](../nervous-system/README.md)** — Low output and overdrive disturb the brain: chronic cerebral hypoperfusion impairs cognition, sympathetic overactivation drives progression, and Cheyne-Stokes breathing fragments sleep.
 - `connects-to` → **[Immune System](../immune-system/README.md)** — Inflammation feeds its decline: raised inflammatory cytokines such as TNF and IL-6 contribute to cardiac cachexia and the progression of heart failure.
+- `connects-to` → **[ACE inhibitors](../../../03-medicine/01-modern/04-cardio/ace-inhibitors/README.md)** — A cornerstone of treatment: ACE inhibitors reduce afterload and block harmful neurohormonal remodelling, lowering mortality in heart failure with reduced ejection fraction.
+- `connects-to` → **[Beta-blockers](../../../03-medicine/01-modern/04-cardio/beta-blockers/README.md)** — They reverse the harmful drive: beta-blockers blunt the chronic sympathetic overactivation of heart failure, improving survival despite initially reducing contractility.
+- `connects-to` → **[Loop Diuretics](../../../03-medicine/01-modern/04-cardio/loop-diuretics/README.md)** — They relieve the congestion: loop diuretics like furosemide remove the salt and water overload that causes the breathlessness and oedema of decompensated heart failure.
 
 ## Pathology
 

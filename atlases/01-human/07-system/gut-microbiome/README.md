@@ -226,6 +226,15 @@ cross_links:
   - target: 01-human/07-system/renal-system
     relation: connects-to
     note: "A gut-kidney axis carries toxins: microbial metabolites such as indoxyl sulfate, p-cresyl sulfate and TMAO are uraemic toxins that accumulate and accelerate damage in chronic kidney disease."
+  - target: 02-pathogen/06-microbiome/bifidobacterium-longum
+    relation: connects-to
+    note: "A keystone commensal: Bifidobacterium longum is an early-life and adult gut symbiont that ferments fibre, trains the immune system and is widely used as a probiotic."
+  - target: 02-pathogen/02-bacteria/helicobacter-pylori
+    relation: connects-to
+    note: "A disruptor at the top of the tract: Helicobacter pylori colonises the stomach, reshaping the gastric microbiome and acid environment, with both pathogenic and possibly protective effects."
+  - target: 03-medicine/03-food/omega-3-fatty-acids
+    relation: connects-to
+    note: "Diet reshapes the community: dietary fats including omega-3s alter microbial composition and the short-chain-fatty-acid and inflammatory output of the gut microbiome."
 ---
 
 # Gut Microbiome
@@ -373,6 +382,9 @@ The microbiome influences CNS function via multiple pathways:
 - `connects-to` → **[Lymphatic System](../lymphatic-system/README.md)** — It trains the body's largest lymphoid mass: the gut wall holds gut-associated lymphoid tissue and Peyer's patches, which the microbiome shapes to educate systemic immunity from birth.
 - `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — A gut-skin axis reaches the surface: microbial metabolites and immune signalling link the gut microbiome to acne, rosacea, atopic dermatitis and psoriasis.
 - `connects-to` → **[Renal System](../renal-system/README.md)** — A gut-kidney axis carries toxins: microbial metabolites such as indoxyl sulfate, p-cresyl sulfate and TMAO are uraemic toxins that accumulate and accelerate damage in chronic kidney disease.
+- `connects-to` → **[Bifidobacterium longum](../../../02-pathogen/06-microbiome/bifidobacterium-longum/README.md)** — A keystone commensal: Bifidobacterium longum is an early-life and adult gut symbiont that ferments fibre, trains the immune system and is widely used as a probiotic.
+- `connects-to` → **[Helicobacter pylori](../../../02-pathogen/02-bacteria/helicobacter-pylori/README.md)** — A disruptor at the top of the tract: Helicobacter pylori colonises the stomach, reshaping the gastric microbiome and acid environment, with both pathogenic and possibly protective effects.
+- `connects-to` → **[Omega-3 fatty acids](../../../03-medicine/03-food/omega-3-fatty-acids/README.md)** — Diet reshapes the community: dietary fats including omega-3s alter microbial composition and the short-chain-fatty-acid and inflammatory output of the gut microbiome.
 
 ## Pathology
 
