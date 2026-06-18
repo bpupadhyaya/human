@@ -219,6 +219,15 @@ cross_links:
   - target: 01-human/07-system/lymphatic-system
     relation: connects-to
     note: "Classic West Nile fever swells the nodes: generalized lymphadenopathy was a defining feature of the originally described illness, accompanying the fever and maculopapular rash."
+  - target: 01-human/07-system/cardiovascular-system
+    relation: connects-to
+    note: "It can inflame the heart: acute West Nile infection occasionally causes myocarditis and arrhythmia, alongside its dominant neuroinvasive disease."
+  - target: 01-human/07-system/reproductive-system
+    relation: connects-to
+    note: "It can pass through blood and birth: West Nile virus is transmitted by transfusion, organ transplant and breast milk, and rare transplacental transmission causes congenital infection."
+  - target: 02-pathogen/01-viruses/herpesvirus
+    relation: connects-to
+    note: "It shares a deadly differential: herpes simplex encephalitis is the key alternative cause of viral encephalitis to exclude and empirically treat when West Nile neuroinvasive disease is suspected."
 ---
 
 # West Nile Virus
@@ -406,3 +415,6 @@ WNV has evolved a multilayered strategy to evade innate immunity:
 - `connects-to` → **[Digestive System](../digestive-system/README.md)** — Its febrile phase upsets the gut: West Nile fever commonly causes nausea, vomiting, diarrhoea and abdominal pain, with rare hepatitis and pancreatitis in severe disease.
 - `connects-to` → **[Endocrine System](../endocrine-system/README.md)** — Brain infection unbalances sodium: West Nile encephalitis can trigger SIADH with hyponatraemia, a common electrolyte disturbance in central nervous system infections that needs careful fluid management.
 - `connects-to` → **[Lymphatic System](../lymphatic-system/README.md)** — Classic West Nile fever swells the nodes: generalized lymphadenopathy was a defining feature of the originally described illness, accompanying the fever and maculopapular rash.
+- `connects-to` → **[Cardiovascular System](../cardiovascular-system/README.md)** — It can inflame the heart: acute West Nile infection occasionally causes myocarditis and arrhythmia, alongside its dominant neuroinvasive disease.
+- `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — It can pass through blood and birth: West Nile virus is transmitted by transfusion, organ transplant and breast milk, and rare transplacental transmission causes congenital infection.
+- `connects-to` → **[Herpesviridae](../../../02-pathogen/01-viruses/herpesvirus/README.md)** — It shares a deadly differential: herpes simplex encephalitis is the key alternative cause of viral encephalitis to exclude and empirically treat when West Nile neuroinvasive disease is suspected.

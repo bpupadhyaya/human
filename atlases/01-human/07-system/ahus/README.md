@@ -226,6 +226,15 @@ cross_links:
   - target: 01-human/07-system/endocrine-system
     relation: connects-to
     note: "It can injure the pancreatic islets: thrombotic microangiopathy of the pancreatic microvasculature can impair insulin-producing islets, causing transient hyperglycaemia during an aHUS crisis."
+  - target: 01-human/07-system/renal-system
+    relation: connects-to
+    note: "The kidney is its prime target: aHUS is fundamentally a renal thrombotic microangiopathy causing acute kidney injury that often progresses to end-stage failure without complement-blocking therapy."
+  - target: 01-human/07-system/respiratory-system
+    relation: connects-to
+    note: "Severe disease can flood the lungs: diffuse alveolar haemorrhage and pulmonary thrombotic microangiopathy occur in severe systemic aHUS."
+  - target: 02-pathogen/02-bacteria/neisseria-meningitidis
+    relation: connects-to
+    note: "Its life-saving drug invites meningococcus: eculizumab blocks the terminal complement that defends against Neisseria meningitidis, so vaccination is mandatory before treating aHUS."
 ---
 
 # Atypical HUS
@@ -457,6 +466,9 @@ Repeated TMA episodes → glomerular fibrosis → CKD → ESRD
 - `connects-to` → **[Immune System](../immune-system/README.md)** — It is a disease of uncontrolled complement: mutations in alternative-pathway regulators or anti-factor-H antibodies let complement attack the endothelium, which is why complement-blocking eculizumab is the treatment.
 - `connects-to` → **[Cardiovascular System](../cardiovascular-system/README.md)** — Its microthrombi strike the heart: the thrombotic microangiopathy of aHUS can occlude cardiac microvessels, causing ischaemia, arrhythmia and cardiomyopathy beyond the hypertension it drives.
 - `connects-to` → **[Endocrine System](../endocrine-system/README.md)** — It can injure the pancreatic islets: thrombotic microangiopathy of the pancreatic microvasculature can impair insulin-producing islets, causing transient hyperglycaemia during an aHUS crisis.
+- `connects-to` → **[Renal System](../renal-system/README.md)** — The kidney is its prime target: aHUS is fundamentally a renal thrombotic microangiopathy causing acute kidney injury that often progresses to end-stage failure without complement-blocking therapy.
+- `connects-to` → **[Respiratory System](../respiratory-system/README.md)** — Severe disease can flood the lungs: diffuse alveolar haemorrhage and pulmonary thrombotic microangiopathy occur in severe systemic aHUS.
+- `connects-to` → **[Neisseria meningitidis](../../../02-pathogen/02-bacteria/neisseria-meningitidis/README.md)** — Its life-saving drug invites meningococcus: eculizumab blocks the terminal complement that defends against Neisseria meningitidis, so vaccination is mandatory before treating aHUS.
 
 [^fakhouri-2017-ahus-lancet]: Fakhouri F, Zuber J, Frémeaux-Bacchi V, Loirat C. Haemolytic uraemic syndrome. *Lancet.* 2017;390(10095):681-696. [doi:10.1016/S0140-6736(17)30062-4](https://doi.org/10.1016/S0140-6736(17)30062-4) · [PubMed 28242109](https://pubmed.ncbi.nlm.nih.gov/28242109/)
 [^legendre-2013-eculizumab-ahus-nejm]: Legendre CM, Licht C, Muus P, et al. Terminal complement inhibitor eculizumab in atypical hemolytic-uremic syndrome. *N Engl J Med.* 2013;368(23):2169-2181. [doi:10.1056/NEJMoa1208981](https://doi.org/10.1056/NEJMoa1208981) · [PubMed 23738544](https://pubmed.ncbi.nlm.nih.gov/23738544/)
