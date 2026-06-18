@@ -238,6 +238,15 @@ cross_links:
   - target: 01-human/07-system/endocrine-system
     relation: connects-to
     note: "Treatment and autoimmunity touch the glands: long-term corticosteroids suppress the adrenal axis and disturb glucose, and RA coexists with autoimmune thyroid disease."
+  - target: 03-medicine/01-modern/13-cancer/cancer-chemotherapy
+    relation: connects-to
+    note: "Methotrexate anchors treatment: weekly low-dose methotrexate, a chemotherapy antimetabolite, is the first-line DMARD for rheumatoid arthritis, controlling synovitis and serving as the backbone for combination with biologics."
+  - target: 01-human/07-system/ankylosing-spondylitis
+    relation: connects-to
+    note: "Seropositive versus seronegative: RA is a symmetric, anti-CCP/RF-positive small-joint synovitis, whereas ankylosing spondylitis is an HLA-B27 axial spondyloarthropathy with sacroiliitis and enthesitis — the two poles of inflammatory arthritis."
+  - target: 01-human/05-tissue/cortical-bone
+    relation: connects-to
+    note: "It erodes bone at the joint: RANKL-driven osteoclasts in the rheumatoid pannus carve marginal bone erosions and periarticular osteopenia, while chronic inflammation and steroids add systemic bone loss."
 ---
 
 # Rheumatoid Arthritis
@@ -453,6 +462,9 @@ RA patients have:
 - `connects-to` → **[Digestive System](../digestive-system/README.md)** — Its drugs burden the gut and liver: NSAIDs cause peptic ulcers, methotrexate is hepatotoxic, and Felty syndrome adds splenomegaly with neutropenia.
 - `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — Pregnancy shifts its course: rheumatoid arthritis often eases in pregnancy and flares afterward, while methotrexate's teratogenicity demands contraception and planning.
 - `connects-to` → **[Endocrine System](../endocrine-system/README.md)** — Treatment and autoimmunity touch the glands: long-term corticosteroids suppress the adrenal axis and disturb glucose, and RA coexists with autoimmune thyroid disease.
+- `connects-to` → **[Cancer Chemotherapy](../../../03-medicine/01-modern/13-cancer/cancer-chemotherapy/README.md)** — Methotrexate anchors treatment: weekly low-dose methotrexate, a chemotherapy antimetabolite, is the first-line DMARD for rheumatoid arthritis, controlling synovitis and serving as the backbone for combination with biologics.
+- `connects-to` → **[Ankylosing Spondylitis](../ankylosing-spondylitis/README.md)** — Seropositive versus seronegative: RA is a symmetric, anti-CCP/RF-positive small-joint synovitis, whereas ankylosing spondylitis is an HLA-B27 axial spondyloarthropathy with sacroiliitis and enthesitis — the two poles of inflammatory arthritis.
+- `connects-to` → **[Cortical Bone](../../05-tissue/cortical-bone/README.md)** — It erodes bone at the joint: RANKL-driven osteoclasts in the rheumatoid pannus carve marginal bone erosions and periarticular osteopenia, while chronic inflammation and steroids add systemic bone loss.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
