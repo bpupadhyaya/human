@@ -232,6 +232,15 @@ cross_links:
   - target: 01-human/07-system/musculoskeletal-system
     relation: connects-to
     note: "Paraneoplastic hypercalcaemia draws on bone: ovarian clear cell carcinoma can secrete PTHrP causing hypercalcaemia that mobilises calcium from the skeleton."
+  - target: 01-human/07-system/bladder-cancer
+    relation: connects-to
+    note: "A fellow ARID1A-driven cancer: like a subset of bladder cancer, ovarian clear cell carcinoma is frequently driven by ARID1A loss disrupting the SWI/SNF chromatin-remodelling complex."
+  - target: 03-medicine/01-modern/13-cancer/cancer-chemotherapy
+    relation: connects-to
+    note: "It still receives the standard regimen: carboplatin-paclitaxel is given after surgery, though ovarian clear cell carcinoma's relative platinum resistance makes complete response less common than in serous cancer."
+  - target: 03-medicine/01-modern/13-cancer/checkpoint-inhibitors
+    relation: connects-to
+    note: "Biomarkers favour immunotherapy here: ovarian clear cell carcinoma more often shows microsatellite instability and PD-L1 expression, making PD-1 checkpoint inhibitors a more promising option than in serous ovarian cancer."
 ---
 
 # Ovarian Clear Cell Carcinoma
@@ -445,6 +454,9 @@ Comprehensive surgical staging (TAH-BSO, omentectomy, pelvic/para-aortic lymphad
 - `connects-to` → **[Renal System](../renal-system/README.md)** — A clear-cell cousin of kidney cancer, treated near the kidney: ovarian clear cell carcinoma shares clear-cell histology with renal cancer, and bulky pelvic spread plus cisplatin chemotherapy threaten the kidneys.
 - `connects-to` → **[Targeted Therapy](../../../03-medicine/01-modern/13-cancer/targeted-therapy/README.md)** — Chemoresistance drives a search for targets: ARID1A-mutant ovarian clear cell carcinoma resists platinum, so trials pursue immunotherapy and ATR or other targeted inhibitors.
 - `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — Paraneoplastic hypercalcaemia draws on bone: ovarian clear cell carcinoma can secrete PTHrP causing hypercalcaemia that mobilises calcium from the skeleton.
+- `connects-to` → **[Bladder Cancer](../bladder-cancer/README.md)** — A fellow ARID1A-driven cancer: like a subset of bladder cancer, ovarian clear cell carcinoma is frequently driven by ARID1A loss disrupting the SWI/SNF chromatin-remodelling complex.
+- `connects-to` → **[Cancer Chemotherapy](../../../03-medicine/01-modern/13-cancer/cancer-chemotherapy/README.md)** — It still receives the standard regimen: carboplatin-paclitaxel is given after surgery, though ovarian clear cell carcinoma's relative platinum resistance makes complete response less common than in serous cancer.
+- `connects-to` → **[Checkpoint Inhibitors](../../../03-medicine/01-modern/13-cancer/checkpoint-inhibitors/README.md)** — Biomarkers favour immunotherapy here: ovarian clear cell carcinoma more often shows microsatellite instability and PD-L1 expression, making PD-1 checkpoint inhibitors a more promising option than in serous ovarian cancer.
 
 ---
 

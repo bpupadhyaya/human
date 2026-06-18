@@ -232,6 +232,15 @@ cross_links:
   - target: 01-human/07-system/cardiovascular-system
     relation: connects-to
     note: "It clots and its treatment strains the heart: ovarian cancer is strongly prothrombotic, and bevacizumab causes hypertension with thromboembolic and bleeding risks."
+  - target: 03-medicine/01-modern/13-cancer/cancer-chemotherapy
+    relation: connects-to
+    note: "Platinum-taxane is the backbone: carboplatin with paclitaxel after debulking surgery is the chemotherapy foundation, and platinum sensitivity guides treatment at relapse."
+  - target: 03-medicine/01-modern/13-cancer/checkpoint-inhibitors
+    relation: connects-to
+    note: "Largely resistant despite immune cells: although ovarian cancer harbours tumour-infiltrating lymphocytes that predict prognosis, its immunosuppressive microenvironment has left checkpoint inhibitors mostly ineffective."
+  - target: 01-human/07-system/immune-system
+    relation: connects-to
+    note: "Its immune infiltrate predicts survival: the density of tumour-infiltrating lymphocytes strongly predicts outcome in ovarian cancer, yet regulatory T cells and an immunosuppressive milieu blunt the antitumour response."
 ---
 
 # Ovarian Cancer
@@ -419,6 +428,9 @@ FTSEC ciliated and secretory cells line the Fallopian tube; secretory cells are 
 - `connects-to` → **[Targeted Therapy](../../../03-medicine/01-modern/13-cancer/targeted-therapy/README.md)** — PARP inhibitors transformed its care: olaparib and other PARP inhibitors exploit the homologous-recombination defect of BRCA-mutant ovarian cancer, with bevacizumab adding anti-angiogenic benefit.
 - `connects-to` → **[Renal System](../renal-system/README.md)** — It obstructs and its drugs poison the kidney: bulky pelvic and retroperitoneal ovarian cancer can block the ureters causing hydronephrosis, and cisplatin chemotherapy is nephrotoxic.
 - `connects-to` → **[Cardiovascular System](../cardiovascular-system/README.md)** — It clots and its treatment strains the heart: ovarian cancer is strongly prothrombotic, and bevacizumab causes hypertension with thromboembolic and bleeding risks.
+- `connects-to` → **[Cancer Chemotherapy](../../../03-medicine/01-modern/13-cancer/cancer-chemotherapy/README.md)** — Platinum-taxane is the backbone: carboplatin with paclitaxel after debulking surgery is the chemotherapy foundation, and platinum sensitivity guides treatment at relapse.
+- `connects-to` → **[Checkpoint Inhibitors](../../../03-medicine/01-modern/13-cancer/checkpoint-inhibitors/README.md)** — Largely resistant despite immune cells: although ovarian cancer harbours tumour-infiltrating lymphocytes that predict prognosis, its immunosuppressive microenvironment has left checkpoint inhibitors mostly ineffective.
+- `connects-to` → **[Immune System](../immune-system/README.md)** — Its immune infiltrate predicts survival: the density of tumour-infiltrating lymphocytes strongly predicts outcome in ovarian cancer, yet regulatory T cells and an immunosuppressive milieu blunt the antitumour response.
 
 [^burger-2011-gog0218]: Burger RA, Brady MF, Bookman MA, et al. Incorporation of bevacizumab in the primary treatment of ovarian cancer. *N Engl J Med.* 2011;365(26):2473-2483. [doi:10.1056/NEJMoa1104390](https://doi.org/10.1056/NEJMoa1104390) · [PubMed 22204724](https://pubmed.ncbi.nlm.nih.gov/22204724/)
 [^moore-2018-olaparib-solo1]: Moore K, Colombo N, Scambia G, et al. Maintenance olaparib in patients with newly diagnosed advanced ovarian cancer. *N Engl J Med.* 2018;379(26):2495-2505. [doi:10.1056/NEJMoa1810858](https://doi.org/10.1056/NEJMoa1810858) · [PubMed 30345884](https://pubmed.ncbi.nlm.nih.gov/30345884/)
