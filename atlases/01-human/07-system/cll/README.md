@@ -214,6 +214,15 @@ cross_links:
   - target: 01-human/07-system/generalized-anxiety-disorder
     relation: connects-to
     note: "Watchful waiting breeds worry: living with an untreated but incurable leukaemia under active surveillance, plus the infection risk of its immune defect, fosters chronic health anxiety alongside depression."
+  - target: 01-human/07-system/respiratory-system
+    relation: connects-to
+    note: "Failing antibodies leave the lungs exposed: the hypogammaglobulinaemia of CLL drives recurrent bacterial respiratory infections, a leading cause of morbidity, and the lung can be infiltrated."
+  - target: 01-human/07-system/renal-system
+    relation: connects-to
+    note: "Its therapy can flood the kidney: venetoclax can trigger tumour lysis syndrome with acute kidney injury at initiation, and autoimmune or infiltrative processes occasionally affect the kidneys."
+  - target: 01-human/07-system/digestive-system
+    relation: connects-to
+    note: "It enlarges the liver and weighs on the gut: hepatomegaly and bulky abdominal nodes cause early satiety and discomfort, and CLL can drive autoimmune liver involvement."
 ---
 
 # CLL
@@ -392,6 +401,9 @@ BCR cross-linking → LYN (SRC kinase) phosphorylates CD79a/b ITAMs → SYK recr
 - `connects-to` → **[Cardiovascular System](../cardiovascular-system/README.md)** — Its BTK inhibitors stress the heart: ibrutinib used for CLL causes atrial fibrillation, hypertension, ventricular arrhythmia and bleeding, the main cardiovascular toxicities limiting its long-term use.
 - `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — Immune dysregulation shows on the skin: CLL brings leukaemia cutis, exaggerated insect-bite reactions and a markedly raised risk of skin cancers from its underlying immune defect.
 - `connects-to` → **[Generalized Anxiety Disorder](../generalized-anxiety-disorder/README.md)** — Watchful waiting breeds worry: living with an untreated but incurable leukaemia under active surveillance, plus the infection risk of its immune defect, fosters chronic health anxiety alongside depression.
+- `connects-to` → **[Respiratory System](../respiratory-system/README.md)** — Failing antibodies leave the lungs exposed: the hypogammaglobulinaemia of CLL drives recurrent bacterial respiratory infections, a leading cause of morbidity, and the lung can be infiltrated.
+- `connects-to` → **[Renal System](../renal-system/README.md)** — Its therapy can flood the kidney: venetoclax can trigger tumour lysis syndrome with acute kidney injury at initiation, and autoimmune or infiltrative processes occasionally affect the kidneys.
+- `connects-to` → **[Digestive System](../digestive-system/README.md)** — It enlarges the liver and weighs on the gut: hepatomegaly and bulky abdominal nodes cause early satiety and discomfort, and CLL can drive autoimmune liver involvement.
 
 ---
 

@@ -214,6 +214,15 @@ cross_links:
   - target: 01-human/07-system/generalized-anxiety-disorder
     relation: connects-to
     note: "Lifelong therapy and PCR monitoring breed worry: the indefinite tyrosine-kinase-inhibitor treatment and the scrutiny of molecular-response blood tests in CML foster chronic health anxiety alongside depression."
+  - target: 01-human/07-system/lymphatic-system
+    relation: connects-to
+    note: "It massively swells the spleen: overproduction of myeloid cells enlarges the spleen, often dramatically, causing early satiety and left-upper-quadrant pain with risk of splenic infarction."
+  - target: 01-human/07-system/respiratory-system
+    relation: connects-to
+    note: "One of its drugs floods the chest: the tyrosine-kinase inhibitor dasatinib characteristically causes pleural effusions, sometimes large and recurrent, requiring dose change or drainage."
+  - target: 01-human/07-system/endocrine-system
+    relation: connects-to
+    note: "Its inhibitors disturb metabolism: nilotinib can raise blood glucose and cause hyperglycaemia, and tyrosine-kinase inhibitors affect thyroid function and growth in children."
 ---
 
 # Chronic Myeloid Leukemia
@@ -392,6 +401,9 @@ Following the imatinib revolution, the current frontier is achieving **deep mole
 - `connects-to` → **[Digestive System](../digestive-system/README.md)** — Its TKIs and big spleen upset the gut: tyrosine-kinase inhibitors cause nausea, diarrhoea and hepatotoxicity, and the massive splenomegaly of CML presses on the stomach causing early satiety.
 - `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — Its targeted drugs mark the skin: imatinib and other TKIs commonly cause rashes and periorbital oedema, and they can characteristically lighten skin pigmentation through KIT inhibition.
 - `connects-to` → **[Generalized Anxiety Disorder](../generalized-anxiety-disorder/README.md)** — Lifelong therapy and PCR monitoring breed worry: the indefinite tyrosine-kinase-inhibitor treatment and the scrutiny of molecular-response blood tests in CML foster chronic health anxiety alongside depression.
+- `connects-to` → **[Lymphatic System](../lymphatic-system/README.md)** — It massively swells the spleen: overproduction of myeloid cells enlarges the spleen, often dramatically, causing early satiety and left-upper-quadrant pain with risk of splenic infarction.
+- `connects-to` → **[Respiratory System](../respiratory-system/README.md)** — One of its drugs floods the chest: the tyrosine-kinase inhibitor dasatinib characteristically causes pleural effusions, sometimes large and recurrent, requiring dose change or drainage.
+- `connects-to` → **[Endocrine System](../endocrine-system/README.md)** — Its inhibitors disturb metabolism: nilotinib can raise blood glucose and cause hyperglycaemia, and tyrosine-kinase inhibitors affect thyroid function and growth in children.
 
 ---
 
