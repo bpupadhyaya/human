@@ -232,6 +232,15 @@ cross_links:
   - target: 01-human/07-system/musculoskeletal-system
     relation: connects-to
     note: "It aches deep in the muscles: high circulating IL-6 and TNF cause severe myalgia, and extreme cases bring rhabdomyolysis from inflammatory muscle injury."
+  - target: 03-medicine/01-modern/13-cancer/car-t
+    relation: connects-to
+    note: "It IS the signature CAR-T toxicity: cytokine release syndrome is the defining adverse effect of CAR-T therapy, the same IL-6-driven cascade, reversed by the IL-6-receptor blocker tocilizumab."
+  - target: 02-pathogen/01-viruses/sars-cov-2
+    relation: connects-to
+    note: "The pandemic's deadly hyperinflammation: severe COVID-19 drives a cytokine storm with high IL-6 and ferritin, the target of dexamethasone and tocilizumab that lower its mortality."
+  - target: 02-pathogen/01-viruses/ebola-virus
+    relation: connects-to
+    note: "Haemorrhagic fever's lethal surge: Ebola and other viral haemorrhagic fevers kill partly through a massive cytokine storm that drives vascular leak, shock and coagulopathy."
 ---
 
 # Cytokine Storm
@@ -394,6 +403,9 @@ CS drives a **consumptive coagulopathy (DIC)**:
 - `connects-to` → **[Renal System](../renal-system/README.md)** — It shuts down the kidney: the systemic inflammation and capillary leak of a cytokine storm cause hypotension and acute kidney injury, often needing dialysis in severe cases.
 - `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — It flushes and leaks at the skin: cytokine release causes widespread rash, flushing and capillary leak with oedema, prominent in CAR-T cell and infection-triggered storms.
 - `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — It aches deep in the muscles: high circulating IL-6 and TNF cause severe myalgia, and extreme cases bring rhabdomyolysis from inflammatory muscle injury.
+- `connects-to` → **[CAR-T](../../../03-medicine/01-modern/13-cancer/car-t/README.md)** — It IS the signature CAR-T toxicity: cytokine release syndrome is the defining adverse effect of CAR-T therapy, the same IL-6-driven cascade, reversed by the IL-6-receptor blocker tocilizumab.
+- `connects-to` → **[SARS-CoV-2](../../../02-pathogen/01-viruses/sars-cov-2/README.md)** — The pandemic's deadly hyperinflammation: severe COVID-19 drives a cytokine storm with high IL-6 and ferritin, the target of dexamethasone and tocilizumab that lower its mortality.
+- `connects-to` → **[Ebola Virus](../../../02-pathogen/01-viruses/ebola-virus/README.md)** — Haemorrhagic fever's lethal surge: Ebola and other viral haemorrhagic fevers kill partly through a massive cytokine storm that drives vascular leak, shock and coagulopathy.
 
 ## Pathology
 

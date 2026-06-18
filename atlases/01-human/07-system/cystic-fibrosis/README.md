@@ -232,6 +232,15 @@ cross_links:
   - target: 03-medicine/03-food/zinc-dietary
     relation: connects-to
     note: "Fat malabsorption drains nutrients: pancreatic insufficiency in CF impairs absorption of fat-soluble vitamins and zinc, contributing to poor growth and weakened immunity."
+  - target: 03-medicine/01-modern/06-antimicrobial/vancomycin
+    relation: connects-to
+    note: "MRSA now haunts the CF airway: methicillin-resistant Staphylococcus aureus is an increasingly common chronic coloniser of cystic-fibrosis lungs, treated with vancomycin and linked to faster lung-function decline."
+  - target: 03-medicine/01-modern/06-antimicrobial/amoxicillin
+    relation: connects-to
+    note: "Early antibiotics guard young lungs: anti-staphylococcal antibiotics are used from infancy in cystic fibrosis to treat and sometimes prevent the Staphylococcus aureus infections that begin the cycle of airway damage."
+  - target: 01-human/07-system/asthma
+    relation: connects-to
+    note: "Allergic airway disease overlaps it: many people with cystic fibrosis have coexisting asthma and allergic bronchopulmonary aspergillosis, adding reversible airway obstruction to their fixed disease."
 ---
 
 # Cystic Fibrosis
@@ -431,6 +440,9 @@ AND
 - `connects-to` → **[Mycobacterium tuberculosis](../../../02-pathogen/02-bacteria/mycobacterium-tuberculosis/README.md)** — Mycobacteria threaten the CF lung: non-tuberculous mycobacteria related to M. tuberculosis, such as M. abscessus, are emerging chronic infections in cystic fibrosis that can complicate transplant.
 - `connects-to` → **[Clostridioides difficile](../../../02-pathogen/02-bacteria/clostridioides-difficile/README.md)** — Lifelong antibiotics disturb the gut: the heavy, repeated antibiotic courses for CF lung infections raise the risk of Clostridioides difficile colitis.
 - `connects-to` → **[Dietary Zinc](../../../03-medicine/03-food/zinc-dietary/README.md)** — Fat malabsorption drains nutrients: pancreatic insufficiency in CF impairs absorption of fat-soluble vitamins and zinc, contributing to poor growth and weakened immunity.
+- `connects-to` → **[Vancomycin](../../../03-medicine/01-modern/06-antimicrobial/vancomycin/README.md)** — MRSA now haunts the CF airway: methicillin-resistant Staphylococcus aureus is an increasingly common chronic coloniser of cystic-fibrosis lungs, treated with vancomycin and linked to faster lung-function decline.
+- `connects-to` → **[Amoxicillin](../../../03-medicine/01-modern/06-antimicrobial/amoxicillin/README.md)** — Early antibiotics guard young lungs: anti-staphylococcal antibiotics are used from infancy in cystic fibrosis to treat and sometimes prevent the Staphylococcus aureus infections that begin the cycle of airway damage.
+- `connects-to` → **[Asthma](../asthma/README.md)** — Allergic airway disease overlaps it: many people with cystic fibrosis have coexisting asthma and allergic bronchopulmonary aspergillosis, adding reversible airway obstruction to their fixed disease.
 
 ---
 
