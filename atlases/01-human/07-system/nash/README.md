@@ -223,6 +223,15 @@ cross_links:
   - target: 01-human/07-system/immune-system
     relation: connects-to
     note: "Innate immunity drives the inflammation: activation of Kupffer cells and the NLRP3 inflammasome turns simple fatty liver into steatohepatitis, the inflammatory step that defines NASH."
+  - target: 01-human/07-system/integumentary-system
+    relation: connects-to
+    note: "It shows on the skin: acanthosis nigricans signals the insulin resistance behind NASH, and advanced cirrhotic disease brings spider naevi and palmar erythema."
+  - target: 01-human/07-system/lymphatic-system
+    relation: connects-to
+    note: "Cirrhosis backs up into the spleen: when NASH progresses to cirrhosis, portal hypertension causes congestive splenomegaly with sequestration of blood cells."
+  - target: 01-human/07-system/renal-system
+    relation: connects-to
+    note: "It raises kidney-disease risk: NASH independently increases the risk of chronic kidney disease through the shared insulin resistance and inflammation of metabolic syndrome."
 ---
 
 # NASH
@@ -380,6 +389,9 @@ NASH pathogenesis is driven by multiple simultaneous and sequential hits, not a 
 - `connects-to` → **[Respiratory System](../respiratory-system/README.md)** — Sleep apnoea feeds it: obstructive sleep apnoea is common in NASH, and its intermittent nocturnal hypoxia independently worsens hepatic inflammation and fibrosis beyond obesity alone.
 - `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — Lost muscle worsens it: sarcopenia and low muscle mass — sarcopenic obesity — independently accelerate NASH and predict more advanced fibrosis, so preserving muscle is part of management.
 - `connects-to` → **[Immune System](../immune-system/README.md)** — Innate immunity drives the inflammation: activation of Kupffer cells and the NLRP3 inflammasome turns simple fatty liver into steatohepatitis, the inflammatory step that defines NASH.
+- `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — It shows on the skin: acanthosis nigricans signals the insulin resistance behind NASH, and advanced cirrhotic disease brings spider naevi and palmar erythema.
+- `connects-to` → **[Lymphatic System](../lymphatic-system/README.md)** — Cirrhosis backs up into the spleen: when NASH progresses to cirrhosis, portal hypertension causes congestive splenomegaly with sequestration of blood cells.
+- `connects-to` → **[Renal System](../renal-system/README.md)** — It raises kidney-disease risk: NASH independently increases the risk of chronic kidney disease through the shared insulin resistance and inflammation of metabolic syndrome.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 

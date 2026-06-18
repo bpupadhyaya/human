@@ -217,6 +217,15 @@ cross_links:
   - target: 01-human/07-system/integumentary-system
     relation: connects-to
     note: "It can itch and surface on the skin: myelofibrosis causes intractable aquagenic pruritus and, rarely, cutaneous extramedullary haematopoiesis appearing as red-brown skin nodules."
+  - target: 01-human/07-system/lymphatic-system
+    relation: connects-to
+    note: "It massively swells the spleen: extramedullary haematopoiesis enlarges the spleen, often hugely, causing early satiety and splenic infarction, and may require splenectomy or splenic irradiation."
+  - target: 01-human/07-system/respiratory-system
+    relation: connects-to
+    note: "Blood-making spreads to the chest: extramedullary haematopoiesis in the lungs and pleura causes effusions and contributes to the pulmonary hypertension of advanced disease."
+  - target: 01-human/07-system/renal-system
+    relation: connects-to
+    note: "It strains the kidney: extramedullary haematopoiesis and hyperuricaemia from high cell turnover can impair renal function, and a rare myelofibrosis-associated glomerulopathy occurs."
 ---
 
 # Myelofibrosis
@@ -411,6 +420,9 @@ Abrupt ruxolitinib cessation → cytokine rebound → fever, splenomegaly surge,
 - `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — It hardens and pains the bones: the marrow fibrosis of myelofibrosis is accompanied by osteosclerosis seen on imaging and by deep, debilitating bone pain as the skeleton's blood factory is replaced by scar.
 - `connects-to` → **[Nervous System](../nervous-system/README.md)** — Its blood-making can crush the cord: extramedullary haematopoiesis in the epidural space can compress the spinal cord, a neurological emergency presenting with back pain, weakness and sensory loss.
 - `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — It can itch and surface on the skin: myelofibrosis causes intractable aquagenic pruritus and, rarely, cutaneous extramedullary haematopoiesis appearing as red-brown skin nodules.
+- `connects-to` → **[Lymphatic System](../lymphatic-system/README.md)** — It massively swells the spleen: extramedullary haematopoiesis enlarges the spleen, often hugely, causing early satiety and splenic infarction, and may require splenectomy or splenic irradiation.
+- `connects-to` → **[Respiratory System](../respiratory-system/README.md)** — Blood-making spreads to the chest: extramedullary haematopoiesis in the lungs and pleura causes effusions and contributes to the pulmonary hypertension of advanced disease.
+- `connects-to` → **[Renal System](../renal-system/README.md)** — It strains the kidney: extramedullary haematopoiesis and hyperuricaemia from high cell turnover can impair renal function, and a rare myelofibrosis-associated glomerulopathy occurs.
 
 ---
 
