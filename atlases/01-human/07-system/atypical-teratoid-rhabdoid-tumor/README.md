@@ -223,6 +223,15 @@ cross_links:
   - target: 01-human/07-system/cardiovascular-system
     relation: connects-to
     note: "Its chemotherapy can scar the heart: anthracyclines used against ATRT carry a long-term cardiotoxicity risk in the rare survivors of this aggressive infant tumour."
+  - target: 01-human/07-system/immune-system
+    relation: connects-to
+    note: "Treatment suppresses immunity and biology invites it: intensive infant chemotherapy leaves children profoundly immunocompromised, while SMARCB1-deficient rhabdoid tumours are being explored for immune and EZH2-targeted therapy."
+  - target: 01-human/07-system/respiratory-system
+    relation: connects-to
+    note: "It seeds the neuraxis and beyond: ATRT spreads through the cerebrospinal fluid and can metastasise outside the brain, including to the lungs, while intensive therapy invites pneumonia."
+  - target: 01-human/07-system/digestive-system
+    relation: connects-to
+    note: "Harsh chemotherapy hits the gut: the multidrug regimens used against ATRT cause severe nausea, mucositis and feeding difficulty in very young children."
 ---
 
 # Atypical Teratoid/Rhabdoid Tumor
@@ -410,6 +419,9 @@ AT/RT has no established standard of care; protocols are protocol-driven and cen
 - `connects-to` → **[Renal System](../renal-system/README.md)** — It shares a gene with a kidney tumour: germline SMARCB1 loss causes rhabdoid tumour predisposition syndrome, in which ATRT coexists with malignant rhabdoid tumours of the kidney, prompting renal surveillance.
 - `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — Its intensive therapy assaults the skin: craniospinal radiation causes radiation dermatitis, and the multi-agent chemotherapy of infant ATRT brings alopecia and mucocutaneous toxicity.
 - `connects-to` → **[Cardiovascular System](../cardiovascular-system/README.md)** — Its chemotherapy can scar the heart: anthracyclines used against ATRT carry a long-term cardiotoxicity risk in the rare survivors of this aggressive infant tumour.
+- `connects-to` → **[Immune System](../immune-system/README.md)** — Treatment suppresses immunity and biology invites it: intensive infant chemotherapy leaves children profoundly immunocompromised, while SMARCB1-deficient rhabdoid tumours are being explored for immune and EZH2-targeted therapy.
+- `connects-to` → **[Respiratory System](../respiratory-system/README.md)** — It seeds the neuraxis and beyond: ATRT spreads through the cerebrospinal fluid and can metastasise outside the brain, including to the lungs, while intensive therapy invites pneumonia.
+- `connects-to` → **[Digestive System](../digestive-system/README.md)** — Harsh chemotherapy hits the gut: the multidrug regimens used against ATRT cause severe nausea, mucositis and feeding difficulty in very young children.
 
 ---
 

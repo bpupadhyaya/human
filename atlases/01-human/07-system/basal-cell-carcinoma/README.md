@@ -223,6 +223,15 @@ cross_links:
   - target: 01-human/07-system/cardiovascular-system
     relation: connects-to
     note: "Neglected tumours can erode vessels: a long-ignored 'rodent ulcer' basal cell carcinoma can invade deeply through tissue and erode major vessels, causing life-threatening haemorrhage."
+  - target: 01-human/07-system/renal-system
+    relation: connects-to
+    note: "Transplantation multiplies the risk: long-term immunosuppression in kidney and other organ transplant recipients sharply increases basal cell and other skin cancers, demanding lifelong dermatological surveillance."
+  - target: 01-human/07-system/endocrine-system
+    relation: connects-to
+    note: "Sun is double-edged for the skin's endocrine role: the UV radiation that drives basal cell carcinoma is also what the skin uses to synthesise vitamin D, a hormone precursor."
+  - target: 03-medicine/03-food/sulforaphane
+    relation: connects-to
+    note: "Dietary chemoprevention is studied: sulforaphane from cruciferous vegetables shows photoprotective, chemopreventive activity against UV-induced skin cancer in models, an area of active research."
 ---
 
 # Basal Cell Carcinoma
@@ -413,6 +422,9 @@ BCC has a complex immune microenvironment:
 - `connects-to` → **[Lymphatic System](../lymphatic-system/README.md)** — It almost never spreads to nodes: although locally destructive, basal cell carcinoma metastasises to regional lymph nodes only in rare, advanced or neglected cases — an exception to its indolent reputation.
 - `connects-to` → **[Respiratory System](../respiratory-system/README.md)** — When it does spread, the lung leads: the rare metastatic basal cell carcinoma most often reaches the lungs, and locally advanced facial tumours can invade toward the sinuses and orbit.
 - `connects-to` → **[Cardiovascular System](../cardiovascular-system/README.md)** — Neglected tumours can erode vessels: a long-ignored 'rodent ulcer' basal cell carcinoma can invade deeply through tissue and erode major vessels, causing life-threatening haemorrhage.
+- `connects-to` → **[Renal System](../renal-system/README.md)** — Transplantation multiplies the risk: long-term immunosuppression in kidney and other organ transplant recipients sharply increases basal cell and other skin cancers, demanding lifelong dermatological surveillance.
+- `connects-to` → **[Endocrine System](../endocrine-system/README.md)** — Sun is double-edged for the skin's endocrine role: the UV radiation that drives basal cell carcinoma is also what the skin uses to synthesise vitamin D, a hormone precursor.
+- `connects-to` → **[Sulforaphane](../../../03-medicine/03-food/sulforaphane/README.md)** — Dietary chemoprevention is studied: sulforaphane from cruciferous vegetables shows photoprotective, chemopreventive activity against UV-induced skin cancer in models, an area of active research.
 
 ---
 
