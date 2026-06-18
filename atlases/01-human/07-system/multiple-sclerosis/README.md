@@ -235,6 +235,15 @@ cross_links:
   - target: 02-pathogen/01-viruses/herpesvirus
     relation: connects-to
     note: "Herpesviruses are implicated alongside EBV: human herpesvirus-6 has been studied as a co-factor in multiple sclerosis, and reactivation under immunosuppressive therapy is a clinical concern."
+  - target: 03-medicine/01-modern/02-respiratory/corticosteroids
+    relation: connects-to
+    note: "Steroids cut short the relapse: high-dose corticosteroids speed recovery from acute MS relapses by damping CNS inflammation, though they do not change the long-term course of the disease."
+  - target: 01-human/07-system/migraine
+    relation: connects-to
+    note: "Headache shadows demyelination: migraine is more common in multiple sclerosis than in the general population, the two sharing neuroinflammatory and vascular mechanisms."
+  - target: 01-human/04-cellular/dendritic-cell
+    relation: connects-to
+    note: "They present the myelin antigen: dendritic cells in lymph nodes and the inflamed CNS activate the autoreactive T cells that attack myelin, a key step in initiating and sustaining multiple sclerosis."
 ---
 
 # Multiple Sclerosis
@@ -417,6 +426,9 @@ MS affects approximately **2.8 million people worldwide** (~1 million in the US)
 - `connects-to` → **[Endocrine System](../endocrine-system/README.md)** — Its strong therapies disturb hormones: alemtuzumab commonly triggers autoimmune thyroid disease, and the high-dose steroids used for relapses bring their own endocrine effects.
 - `connects-to` → **[Lymphatic System](../lymphatic-system/README.md)** — Modern treatment works through the lymphocytes: natalizumab blocks their entry to the brain, fingolimod traps them in lymph nodes and ocrelizumab depletes B cells, reshaping the immune traffic that drives MS.
 - `connects-to` → **[Herpesvirus](../../../02-pathogen/01-viruses/herpesvirus/README.md)** — Herpesviruses are implicated alongside EBV: human herpesvirus-6 has been studied as a co-factor in multiple sclerosis, and reactivation under immunosuppressive therapy is a clinical concern.
+- `connects-to` → **[Corticosteroids](../../../03-medicine/01-modern/02-respiratory/corticosteroids/README.md)** — Steroids cut short the relapse: high-dose corticosteroids speed recovery from acute MS relapses by damping CNS inflammation, though they do not change the long-term course of the disease.
+- `connects-to` → **[Migraine](../migraine/README.md)** — Headache shadows demyelination: migraine is more common in multiple sclerosis than in the general population, the two sharing neuroinflammatory and vascular mechanisms.
+- `connects-to` → **[Dendritic Cell](../../04-cellular/dendritic-cell/README.md)** — They present the myelin antigen: dendritic cells in lymph nodes and the inflamed CNS activate the autoreactive T cells that attack myelin, a key step in initiating and sustaining multiple sclerosis.
 
 [^compston-2008-ms-review]: Compston A, Coles A. Multiple sclerosis. *Lancet.* 2008;372(9648):1502-1517. [doi:10.1016/S0140-6736(08)61620-7](https://doi.org/10.1016/S0140-6736(08)61620-7) · [PubMed 18970977](https://pubmed.ncbi.nlm.nih.gov/18970977/)
 [^kappos-2006-natalizumab]: Polman CH, O'Connor PW, Havrdova E, et al. A randomized, placebo-controlled trial of natalizumab for relapsing multiple sclerosis. *N Engl J Med.* 2006;354(9):899-910. [doi:10.1056/NEJMoa044397](https://doi.org/10.1056/NEJMoa044397) · [PubMed 16510744](https://pubmed.ncbi.nlm.nih.gov/16510744/)
