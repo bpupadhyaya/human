@@ -214,6 +214,15 @@ cross_links:
   - target: 01-human/07-system/generalized-anxiety-disorder
     relation: connects-to
     note: "Choking dysphagia and grim odds breed worry: the progressive difficulty swallowing, weight loss and poor prognosis of oesophageal cancer foster chronic health anxiety alongside depression."
+  - target: 01-human/07-system/cardiovascular-system
+    relation: connects-to
+    note: "It can erode into the great vessels: locally invasive oesophageal cancer can create a catastrophic aorto-oesophageal fistula with massive haemorrhage, or invade the pericardium."
+  - target: 01-human/07-system/nervous-system
+    relation: connects-to
+    note: "It silences the voice: tumour invasion of the recurrent laryngeal nerve causes hoarseness, a clinical sign of mediastinal spread of oesophageal cancer."
+  - target: 01-human/07-system/endocrine-system
+    relation: connects-to
+    note: "It can raise the blood calcium: squamous-cell oesophageal cancer can secrete parathyroid-hormone-related peptide, causing paraneoplastic hypercalcaemia."
 ---
 
 # Esophageal Cancer
@@ -417,6 +426,9 @@ T1a: Lamina propria/muscularis mucosae; T1b: Submucosa; T2: Muscularis propria; 
 - `connects-to` → **[Wound Healing](../wound-healing/README.md)** — Oesophagectomy is among the highest-risk surgeries: rebuilding the swallowing tube after removing the oesophagus leaves a chest anastomosis notorious for leak and slow, complicated healing.
 - `connects-to` → **[Respiratory System](../respiratory-system/README.md)** — It opens onto the airway: oesophageal cancer can erode into the trachea forming a tracheo-oesophageal fistula, causes aspiration through a failing swallow, and frequently brings pulmonary complications.
 - `connects-to` → **[Generalized Anxiety Disorder](../generalized-anxiety-disorder/README.md)** — Choking dysphagia and grim odds breed worry: the progressive difficulty swallowing, weight loss and poor prognosis of oesophageal cancer foster chronic health anxiety alongside depression.
+- `connects-to` → **[Cardiovascular System](../cardiovascular-system/README.md)** — It can erode into the great vessels: locally invasive oesophageal cancer can create a catastrophic aorto-oesophageal fistula with massive haemorrhage, or invade the pericardium.
+- `connects-to` → **[Nervous System](../nervous-system/README.md)** — It silences the voice: tumour invasion of the recurrent laryngeal nerve causes hoarseness, a clinical sign of mediastinal spread of oesophageal cancer.
+- `connects-to` → **[Endocrine System](../endocrine-system/README.md)** — It can raise the blood calcium: squamous-cell oesophageal cancer can secrete parathyroid-hormone-related peptide, causing paraneoplastic hypercalcaemia.
 
 ---
 
