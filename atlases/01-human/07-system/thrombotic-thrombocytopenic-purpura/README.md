@@ -229,6 +229,15 @@ cross_links:
   - target: 01-human/07-system/endocrine-system
     relation: connects-to
     note: "It can clot the glands: microvascular thrombi can injure the pancreas, causing pancreatitis, and the adrenal glands, causing microinfarction."
+  - target: 03-medicine/01-modern/02-respiratory/corticosteroids
+    relation: connects-to
+    note: "Immunosuppression treats the autoimmune form: corticosteroids, with plasma exchange, rituximab and caplacizumab, suppress the autoantibody that destroys ADAMTS13 in immune TTP."
+  - target: 01-human/07-system/lymphatic-system
+    relation: connects-to
+    note: "B cells drive the autoimmune attack: the autoantibody against ADAMTS13 in immune TTP is produced by lymphoid B cells, which is why B-cell-depleting rituximab is now central to treatment."
+  - target: 01-human/07-system/musculoskeletal-system
+    relation: connects-to
+    note: "Microvascular thrombosis reaches the muscles: the platelet-rich microthrombi of TTP lodge throughout the body, causing myalgia and ischaemic injury beyond the classic brain and kidney targets."
 ---
 
 # Thrombotic Thrombocytopenic Purpura
@@ -454,6 +463,9 @@ In healthy individuals, ADAMTS13 (~190 kDa plasma glycoprotein; hepatic synthesi
 - `connects-to` → **[Renal System](../renal-system/README.md)** — Microthrombi reach the kidney: renal involvement is part of the TTP pentad, causing acute kidney injury, usually milder than the severe renal failure of haemolytic uraemic syndrome.
 - `connects-to` → **[Respiratory System](../respiratory-system/README.md)** — Its treatment can flood the lungs: plasma exchange, the mainstay therapy, carries a risk of transfusion-related acute lung injury, and microthrombi can rarely involve the pulmonary vasculature.
 - `connects-to` → **[Endocrine System](../endocrine-system/README.md)** — It can clot the glands: microvascular thrombi can injure the pancreas, causing pancreatitis, and the adrenal glands, causing microinfarction.
+- `connects-to` → **[Corticosteroids](../../../03-medicine/01-modern/02-respiratory/corticosteroids/README.md)** — Immunosuppression treats the autoimmune form: corticosteroids, with plasma exchange, rituximab and caplacizumab, suppress the autoantibody that destroys ADAMTS13 in immune TTP.
+- `connects-to` → **[Lymphatic System](../lymphatic-system/README.md)** — B cells drive the autoimmune attack: the autoantibody against ADAMTS13 in immune TTP is produced by lymphoid B cells, which is why B-cell-depleting rituximab is now central to treatment.
+- `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — Microvascular thrombosis reaches the muscles: the platelet-rich microthrombi of TTP lodge throughout the body, causing myalgia and ischaemic injury beyond the classic brain and kidney targets.
 
 ---
 
