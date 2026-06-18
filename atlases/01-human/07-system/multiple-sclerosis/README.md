@@ -244,6 +244,15 @@ cross_links:
   - target: 01-human/04-cellular/dendritic-cell
     relation: connects-to
     note: "They present the myelin antigen: dendritic cells in lymph nodes and the inflamed CNS activate the autoreactive T cells that attack myelin, a key step in initiating and sustaining multiple sclerosis."
+  - target: 03-medicine/01-modern/13-cancer/targeted-therapy
+    relation: connects-to
+    note: "Targeted DMTs reshaped its course: anti-CD20 antibodies (ocrelizumab), natalizumab against VLA-4, S1P modulators and BTK inhibitors suppress the relapses of multiple sclerosis far more effectively than older interferons."
+  - target: 01-human/05-tissue/axonal-transport
+    relation: connects-to
+    note: "Axonal loss drives disability: beyond demyelination, MS transects and degenerates axons whose disrupted transport underlies the irreversible progressive disability that current immunotherapies only partly prevent."
+  - target: 03-medicine/01-modern/13-cancer/cancer-chemotherapy
+    relation: connects-to
+    note: "Chemo and transplant for aggressive disease: cladribine and mitoxantrone deplete lymphocytes in MS, and autologous haematopoietic stem-cell transplant after intense conditioning can halt highly active relapsing disease."
 ---
 
 # Multiple Sclerosis
@@ -429,6 +438,9 @@ MS affects approximately **2.8 million people worldwide** (~1 million in the US)
 - `connects-to` → **[Corticosteroids](../../../03-medicine/01-modern/02-respiratory/corticosteroids/README.md)** — Steroids cut short the relapse: high-dose corticosteroids speed recovery from acute MS relapses by damping CNS inflammation, though they do not change the long-term course of the disease.
 - `connects-to` → **[Migraine](../migraine/README.md)** — Headache shadows demyelination: migraine is more common in multiple sclerosis than in the general population, the two sharing neuroinflammatory and vascular mechanisms.
 - `connects-to` → **[Dendritic Cell](../../04-cellular/dendritic-cell/README.md)** — They present the myelin antigen: dendritic cells in lymph nodes and the inflamed CNS activate the autoreactive T cells that attack myelin, a key step in initiating and sustaining multiple sclerosis.
+- `connects-to` → **[Targeted Therapy](../../../03-medicine/01-modern/13-cancer/targeted-therapy/README.md)** — Targeted DMTs reshaped its course: anti-CD20 antibodies (ocrelizumab), natalizumab against VLA-4, S1P modulators and BTK inhibitors suppress the relapses of multiple sclerosis far more effectively than older interferons.
+- `connects-to` → **[Axonal Transport](../../05-tissue/axonal-transport/README.md)** — Axonal loss drives disability: beyond demyelination, MS transects and degenerates axons whose disrupted transport underlies the irreversible progressive disability that current immunotherapies only partly prevent.
+- `connects-to` → **[Cancer Chemotherapy](../../../03-medicine/01-modern/13-cancer/cancer-chemotherapy/README.md)** — Chemo and transplant for aggressive disease: cladribine and mitoxantrone deplete lymphocytes in MS, and autologous haematopoietic stem-cell transplant after intense conditioning can halt highly active relapsing disease.
 
 [^compston-2008-ms-review]: Compston A, Coles A. Multiple sclerosis. *Lancet.* 2008;372(9648):1502-1517. [doi:10.1016/S0140-6736(08)61620-7](https://doi.org/10.1016/S0140-6736(08)61620-7) · [PubMed 18970977](https://pubmed.ncbi.nlm.nih.gov/18970977/)
 [^kappos-2006-natalizumab]: Polman CH, O'Connor PW, Havrdova E, et al. A randomized, placebo-controlled trial of natalizumab for relapsing multiple sclerosis. *N Engl J Med.* 2006;354(9):899-910. [doi:10.1056/NEJMoa044397](https://doi.org/10.1056/NEJMoa044397) · [PubMed 16510744](https://pubmed.ncbi.nlm.nih.gov/16510744/)
