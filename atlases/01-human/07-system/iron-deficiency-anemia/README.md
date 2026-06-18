@@ -210,6 +210,15 @@ cross_links:
   - target: 01-human/07-system/endocrine-system
     relation: connects-to
     note: "Iron is needed to make thyroid hormone: thyroid peroxidase is a heme enzyme, so iron deficiency blunts thyroid-hormone synthesis and worsens hypothyroidism, tying the deficiency to the endocrine system."
+  - target: 01-human/07-system/cardiovascular-system
+    relation: connects-to
+    note: "It forces the heart to overwork: to deliver oxygen with fewer red cells, iron-deficiency anaemia drives a high-output state with tachycardia and a flow murmur, and worsens angina in severe cases."
+  - target: 01-human/07-system/respiratory-system
+    relation: connects-to
+    note: "It starves tissues of oxygen: reduced haemoglobin lowers oxygen-carrying capacity, producing exertional breathlessness and fatigue out of proportion to any lung disease."
+  - target: 01-human/07-system/renal-system
+    relation: connects-to
+    note: "Kidney disease drives and complicates it: chronic kidney disease causes anaemia through low erythropoietin and functional iron deficiency, so intravenous iron is central to its management."
 ---
 
 # Iron Deficiency Anemia
@@ -394,6 +403,9 @@ Iron is essential for:
 - `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — Low iron shows on skin, nails and hair: iron deficiency causes pallor, brittle spoon-shaped koilonychia, diffuse hair loss, angular cheilitis and a smooth, sore glossitis of the tongue.
 - `connects-to` → **[Immune System](../immune-system/README.md)** — Iron is double-edged for immunity: it is essential for lymphocyte and neutrophil function so deficiency impairs immune defence, yet the body deliberately withholds iron during infection to starve pathogens.
 - `connects-to` → **[Endocrine System](../endocrine-system/README.md)** — Iron is needed to make thyroid hormone: thyroid peroxidase is a heme enzyme, so iron deficiency blunts thyroid-hormone synthesis and worsens hypothyroidism, tying the deficiency to the endocrine system.
+- `connects-to` → **[Cardiovascular System](../cardiovascular-system/README.md)** — It forces the heart to overwork: to deliver oxygen with fewer red cells, iron-deficiency anaemia drives a high-output state with tachycardia and a flow murmur, and worsens angina in severe cases.
+- `connects-to` → **[Respiratory System](../respiratory-system/README.md)** — It starves tissues of oxygen: reduced haemoglobin lowers oxygen-carrying capacity, producing exertional breathlessness and fatigue out of proportion to any lung disease.
+- `connects-to` → **[Renal System](../renal-system/README.md)** — Kidney disease drives and complicates it: chronic kidney disease causes anaemia through low erythropoietin and functional iron deficiency, so intravenous iron is central to its management.
 
 [^camaschella-2015-iron-deficiency]: Camaschella C. Iron-deficiency anemia. *N Engl J Med.* 2015;372(19):1832-1843. [doi:10.1056/NEJMra1401038](https://doi.org/10.1056/NEJMra1401038) · [PubMed 25946282](https://pubmed.ncbi.nlm.nih.gov/25946282/)
 [^who-ferritin-guideline-2020]: World Health Organization. WHO guideline on use of ferritin concentrations to assess iron status in individuals and populations. WHO; 2020. [WHO publication](https://www.who.int/publications/i/item/9789240000124)

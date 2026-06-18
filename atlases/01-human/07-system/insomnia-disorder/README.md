@@ -220,6 +220,15 @@ cross_links:
   - target: 01-human/07-system/attention-deficit-hyperactivity-disorder
     relation: connects-to
     note: "Sleep and attention are tightly entangled: insomnia and delayed sleep are very common in ADHD, the stimulants used to treat it can worsen sleep onset, and sleep loss in turn worsens inattention."
+  - target: 01-human/07-system/respiratory-system
+    relation: connects-to
+    note: "It often hides sleep apnoea: insomnia frequently coexists with obstructive sleep apnoea — comorbid insomnia and sleep apnoea (COMISA) — and each worsens the other and resists single treatments."
+  - target: 01-human/07-system/musculoskeletal-system
+    relation: connects-to
+    note: "Sleeplessness amplifies pain: poor sleep lowers the pain threshold and worsens chronic musculoskeletal pain, while that pain disrupts sleep in turn, a self-reinforcing loop."
+  - target: 01-human/07-system/integumentary-system
+    relation: connects-to
+    note: "Lost sleep shows on the skin: sleep deprivation flares inflammatory skin disease and the itch of eczema disrupts sleep in return, and chronic sleep loss accelerates skin ageing."
 ---
 
 # Insomnia Disorder
@@ -424,6 +433,9 @@ CBT-I directly targets perpetuating factors.
 - `connects-to` → **[Endocrine System](../endocrine-system/README.md)** — Sleep is governed by and governs the hormones: melatonin and the cortisol rhythm time sleep, while chronic insomnia dysregulates the HPA axis and appetite hormones, and thyrotoxicosis itself causes insomnia.
 - `connects-to` → **[Digestive System](../digestive-system/README.md)** — The gut and sleep disturb each other: nocturnal gastro-oesophageal reflux fragments sleep, and a bidirectional link ties insomnia to irritable bowel syndrome through the gut-brain axis.
 - `connects-to` → **[Attention-Deficit/Hyperactivity Disorder](../attention-deficit-hyperactivity-disorder/README.md)** — Sleep and attention are tightly entangled: insomnia and delayed sleep are very common in ADHD, the stimulants used to treat it can worsen sleep onset, and sleep loss in turn worsens inattention.
+- `connects-to` → **[Respiratory System](../respiratory-system/README.md)** — It often hides sleep apnoea: insomnia frequently coexists with obstructive sleep apnoea — comorbid insomnia and sleep apnoea (COMISA) — and each worsens the other and resists single treatments.
+- `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — Sleeplessness amplifies pain: poor sleep lowers the pain threshold and worsens chronic musculoskeletal pain, while that pain disrupts sleep in turn, a self-reinforcing loop.
+- `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — Lost sleep shows on the skin: sleep deprivation flares inflammatory skin disease and the itch of eczema disrupts sleep in return, and chronic sleep loss accelerates skin ageing.
 
 [^riemann-2017-insomnia-lancet]: Riemann D, Baglioni C, Bassetti C, et al. European guideline for the diagnosis and treatment of insomnia. *J Sleep Res.* 2017;26(6):675-700. [doi:10.1111/jsr.12594](https://doi.org/10.1111/jsr.12594) · [PubMed 28875581](https://pubmed.ncbi.nlm.nih.gov/28875581/)
 [^trauer-2015-cbti-meta]: Trauer JM, Qian MY, Doyle JS, et al. Cognitive behavioral therapy for chronic insomnia. *Ann Intern Med.* 2015;163(3):191-204. [doi:10.7326/M14-2841](https://doi.org/10.7326/M14-2841) · [PubMed 26054060](https://pubmed.ncbi.nlm.nih.gov/26054060/)
