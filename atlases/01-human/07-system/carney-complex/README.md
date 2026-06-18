@@ -214,6 +214,15 @@ cross_links:
   - target: 01-human/07-system/generalized-anxiety-disorder
     relation: connects-to
     note: "Endless multi-organ tumour surveillance breeds worry: the lifelong monitoring for recurrent cardiac myxomas, endocrine tumours and other neoplasms in Carney complex fosters chronic health anxiety."
+  - target: 01-human/07-system/immune-system
+    relation: connects-to
+    note: "Its Cushing's syndrome suppresses immunity: cortisol excess from primary pigmented nodular adrenocortical disease blunts immune defence, raising the risk of infection."
+  - target: 01-human/07-system/respiratory-system
+    relation: connects-to
+    note: "Its heart tumours flood the lungs: a left atrial myxoma can obstruct flow and mimic mitral stenosis with pulmonary congestion, and myxoma fragments can embolise to the pulmonary circulation."
+  - target: 01-human/07-system/digestive-system
+    relation: connects-to
+    note: "Cortisol excess reaches the gut and liver: the Cushing's syndrome of Carney complex raises peptic-ulcer risk and drives hepatic steatosis as part of its metabolic disturbance."
 ---
 
 # Carney Complex
@@ -401,6 +410,9 @@ PRKAR1A somatic LOH occurs in ~15-20% of sporadic adrenocortical adenomas and ca
 - `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — Its cortisol excess wastes muscle and bone: the Cushing syndrome from primary pigmented nodular adrenal disease in Carney complex causes proximal myopathy and osteoporosis with fractures.
 - `connects-to` → **[Obesity](../obesity/README.md)** — Endogenous Cushing reshapes the body: the cortisol excess of Carney complex's adrenal disease produces central obesity with a moon face and buffalo hump alongside its metabolic disturbance.
 - `connects-to` → **[Generalized Anxiety Disorder](../generalized-anxiety-disorder/README.md)** — Endless multi-organ tumour surveillance breeds worry: the lifelong monitoring for recurrent cardiac myxomas, endocrine tumours and other neoplasms in Carney complex fosters chronic health anxiety.
+- `connects-to` → **[Immune System](../immune-system/README.md)** — Its Cushing's syndrome suppresses immunity: cortisol excess from primary pigmented nodular adrenocortical disease blunts immune defence, raising the risk of infection.
+- `connects-to` → **[Respiratory System](../respiratory-system/README.md)** — Its heart tumours flood the lungs: a left atrial myxoma can obstruct flow and mimic mitral stenosis with pulmonary congestion, and myxoma fragments can embolise to the pulmonary circulation.
+- `connects-to` → **[Digestive System](../digestive-system/README.md)** — Cortisol excess reaches the gut and liver: the Cushing's syndrome of Carney complex raises peptic-ulcer risk and drives hepatic steatosis as part of its metabolic disturbance.
 
 ---
 

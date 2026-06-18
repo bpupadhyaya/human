@@ -214,6 +214,15 @@ cross_links:
   - target: 02-pathogen/01-viruses/varicella-zoster-virus
     relation: connects-to
     note: "Intensive chemo reawakens shingles: the dose-dense multi-agent chemotherapy for Burkitt lymphoma deeply suppresses T-cell immunity, allowing latent varicella-zoster to reactivate."
+  - target: 01-human/07-system/renal-system
+    relation: connects-to
+    note: "It is the classic cause of tumour lysis: Burkitt's huge tumour burden and rapid turnover release urate and potassium, causing acute kidney injury, while bulky abdominal disease can obstruct the ureters."
+  - target: 01-human/07-system/nervous-system
+    relation: connects-to
+    note: "It readily seeds the brain's linings: Burkitt lymphoma has a high risk of central nervous system spread with leptomeningeal disease and cranial nerve palsies, so intrathecal prophylaxis is standard."
+  - target: 01-human/07-system/endocrine-system
+    relation: connects-to
+    note: "Its abdominal predilection reaches endocrine glands: Burkitt lymphoma can infiltrate the adrenals, thyroid and pancreas, occasionally causing endocrine dysfunction such as adrenal insufficiency."
 ---
 
 # Burkitt Lymphoma
@@ -414,6 +423,9 @@ FISH for MYC, BCL2, and BCL6 is essential; if BCL2 FISH negative and Ki-67 ~100%
 - `connects-to` → **[Digestive System](../digestive-system/README.md)** — Sporadic Burkitt erupts in the abdomen: it commonly presents as a bulky ileocecal or abdominal mass causing pain, obstruction or intussusception, and its chemotherapy adds mucositis and typhlitis.
 - `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — The endemic form attacks the jaw: African endemic Burkitt lymphoma classically presents as a rapidly growing tumour of the jaw and facial bones, distorting the maxilla and mandible.
 - `connects-to` → **[Varicella-Zoster Virus](../../../02-pathogen/01-viruses/varicella-zoster-virus/README.md)** — Intensive chemo reawakens shingles: the dose-dense multi-agent chemotherapy for Burkitt lymphoma deeply suppresses T-cell immunity, allowing latent varicella-zoster to reactivate.
+- `connects-to` → **[Renal System](../renal-system/README.md)** — It is the classic cause of tumour lysis: Burkitt's huge tumour burden and rapid turnover release urate and potassium, causing acute kidney injury, while bulky abdominal disease can obstruct the ureters.
+- `connects-to` → **[Nervous System](../nervous-system/README.md)** — It readily seeds the brain's linings: Burkitt lymphoma has a high risk of central nervous system spread with leptomeningeal disease and cranial nerve palsies, so intrathecal prophylaxis is standard.
+- `connects-to` → **[Endocrine System](../endocrine-system/README.md)** — Its abdominal predilection reaches endocrine glands: Burkitt lymphoma can infiltrate the adrenals, thyroid and pancreas, occasionally causing endocrine dysfunction such as adrenal insufficiency.
 
 ---
 
