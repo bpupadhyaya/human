@@ -232,6 +232,15 @@ cross_links:
   - target: 01-human/07-system/immune-system
     relation: connects-to
     note: "Therapy suppresses immunity: intensive craniospinal radiation and chemotherapy leave children profoundly immunocompromised, while WNT and SHH subtypes are explored for targeted and immune therapy."
+  - target: 03-medicine/01-modern/13-cancer/cancer-chemotherapy
+    relation: connects-to
+    note: "Chemo joins surgery and radiation: multi-agent chemotherapy with vincristine, cisplatin and cyclophosphamide or CCNU, given with craniospinal radiation, cures most standard-risk medulloblastoma."
+  - target: 03-medicine/01-modern/13-cancer/targeted-therapy
+    relation: connects-to
+    note: "Hedgehog inhibitors for one subgroup: vismodegib and sonidegib block SMO in the SHH-activated subgroup of medulloblastoma driven by PTCH1, SMO or SUFU mutations."
+  - target: 01-human/05-tissue/cortical-bone
+    relation: connects-to
+    note: "Craniospinal radiation stunts the skeleton: irradiating the whole spine in young children impairs vertebral and long-bone growth, causing short stature and spinal deformity among the late effects of cure."
 ---
 
 # Medulloblastoma
@@ -433,6 +442,9 @@ MB survivors face substantial late effects — inversely proportional to age at 
 - `connects-to` → **[Cardiovascular System](../cardiovascular-system/README.md)** — Its cure costs the heart later: anthracycline and platinum chemotherapy plus radiation in childhood medulloblastoma carry long-term cardiovascular and cardiotoxic risk in survivors.
 - `connects-to` → **[Renal System](../renal-system/README.md)** — Cisplatin threatens the kidney: the platinum chemotherapy central to medulloblastoma treatment is nephrotoxic and ototoxic, demanding careful dosing in children.
 - `connects-to` → **[Immune System](../immune-system/README.md)** — Therapy suppresses immunity: intensive craniospinal radiation and chemotherapy leave children profoundly immunocompromised, while WNT and SHH subtypes are explored for targeted and immune therapy.
+- `connects-to` → **[Cancer Chemotherapy](../../../03-medicine/01-modern/13-cancer/cancer-chemotherapy/README.md)** — Chemo joins surgery and radiation: multi-agent chemotherapy with vincristine, cisplatin and cyclophosphamide or CCNU, given with craniospinal radiation, cures most standard-risk medulloblastoma.
+- `connects-to` → **[Targeted Therapy](../../../03-medicine/01-modern/13-cancer/targeted-therapy/README.md)** — Hedgehog inhibitors for one subgroup: vismodegib and sonidegib block SMO in the SHH-activated subgroup of medulloblastoma driven by PTCH1, SMO or SUFU mutations.
+- `connects-to` → **[Cortical Bone](../../05-tissue/cortical-bone/README.md)** — Craniospinal radiation stunts the skeleton: irradiating the whole spine in young children impairs vertebral and long-bone growth, causing short stature and spinal deformity among the late effects of cure.
 
 [^packer-2006-std-risk-mb]: Packer RJ, Gajjar A, Vezina G, et al. Phase III study of craniospinal radiation therapy followed by adjuvant chemotherapy for newly diagnosed average-risk medulloblastoma. *J Clin Oncol.* 2006;24(25):4202-4208. [doi:10.1200/JCO.2006.06.4980](https://doi.org/10.1200/JCO.2006.06.4980) · [PubMed 16943538](https://pubmed.ncbi.nlm.nih.gov/16943538/)
 [^taylor-2012-mb-subgroups]: Taylor MD, Northcott PA, Korshunov A, et al. Molecular subgroups of medulloblastoma: the current consensus. *Acta Neuropathol.* 2012;123(4):465-472. [doi:10.1007/s00401-011-0922-z](https://doi.org/10.1007/s00401-011-0922-z) · [PubMed 22134537](https://pubmed.ncbi.nlm.nih.gov/22134537/)

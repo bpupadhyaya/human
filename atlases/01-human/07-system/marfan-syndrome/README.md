@@ -232,6 +232,15 @@ cross_links:
   - target: 03-medicine/01-modern/04-cardio/aspirin
     relation: connects-to
     note: "Bioprosthetic repairs take antiplatelet cover: patients with a tissue aortic valve or vascular stent for Marfan-related disease use aspirin, a lighter alternative to the warfarin that mechanical valves require."
+  - target: 01-human/05-tissue/arterial-wall
+    relation: connects-to
+    note: "It weakens the aorta's wall: loss of fibrillin microfibrils and excess TGF-β cause cystic medial degeneration of the aortic wall, driving the progressive aortic-root aneurysm and dissection that are Marfan's lethal hallmark."
+  - target: 03-medicine/01-modern/04-cardio/calcium-channel-blockers
+    relation: connects-to
+    note: "A drug class to avoid: unlike beta-blockers and ARBs, calcium-channel blockers are associated with faster aortic growth and worse outcomes in Marfan syndrome and are generally avoided."
+  - target: 01-human/05-tissue/cortical-bone
+    relation: connects-to
+    note: "It overgrows and thins the skeleton: fibrillin loss lengthens the long bones (arachnodactyly, tall stature) while reducing cortical bone density, contributing to scoliosis and chest-wall deformity."
 ---
 
 # Marfan Syndrome
@@ -442,6 +451,9 @@ MFS is a **multi-system disorder** defined by cardiovascular, ocular, and skelet
 - `connects-to` → **[ARBs](../../../03-medicine/01-modern/04-cardio/arbs/README.md)** — They blunt the underlying signal: angiotensin-receptor blockers like losartan reduce the excess TGF-β signalling that drives aortic-root dilation in Marfan syndrome, slowing its enlargement.
 - `connects-to` → **[Warfarin](../../../03-medicine/01-modern/09-hematology/warfarin/README.md)** — A mechanical valve needs lifelong anticoagulation: after aortic-root replacement with a mechanical valve for Marfan syndrome, warfarin prevents valve thrombosis and embolic stroke.
 - `connects-to` → **[Aspirin](../../../03-medicine/01-modern/04-cardio/aspirin/README.md)** — Bioprosthetic repairs take antiplatelet cover: patients with a tissue aortic valve or vascular stent for Marfan-related disease use aspirin, a lighter alternative to the warfarin that mechanical valves require.
+- `connects-to` → **[Arterial Wall](../../05-tissue/arterial-wall/README.md)** — It weakens the aorta's wall: loss of fibrillin microfibrils and excess TGF-β cause cystic medial degeneration of the aortic wall, driving the progressive aortic-root aneurysm and dissection that are Marfan's lethal hallmark.
+- `connects-to` → **[Calcium-Channel Blockers](../../../03-medicine/01-modern/04-cardio/calcium-channel-blockers/README.md)** — A drug class to avoid: unlike beta-blockers and ARBs, calcium-channel blockers are associated with faster aortic growth and worse outcomes in Marfan syndrome and are generally avoided.
+- `connects-to` → **[Cortical Bone](../../05-tissue/cortical-bone/README.md)** — It overgrows and thins the skeleton: fibrillin loss lengthens the long bones (arachnodactyly, tall stature) while reducing cortical bone density, contributing to scoliosis and chest-wall deformity.
 
 ---
 
