@@ -220,6 +220,15 @@ cross_links:
   - target: 01-human/07-system/musculoskeletal-system
     relation: connects-to
     note: "The same cascade rebuilds bone and tendon: fracture and tendon repair follow the inflammation-proliferation-remodelling sequence of wound healing, so the conditions that impair skin healing also delay bony union."
+  - target: 01-human/07-system/cardiovascular-system
+    relation: connects-to
+    note: "Repair depends on blood supply: healing requires perfusion and an angiogenic phase, so ischaemia from peripheral arterial disease and poor perfusion produce chronic, non-healing wounds."
+  - target: 01-human/07-system/respiratory-system
+    relation: connects-to
+    note: "Oxygen drives collagen synthesis: adequate tissue oxygenation is essential for repair, so hypoxia and the vasoconstriction of smoking markedly impair wound healing."
+  - target: 01-human/07-system/reproductive-system
+    relation: connects-to
+    note: "Hormones and life-stage shape healing: oestrogen promotes wound repair so healing slows after menopause, while fetal wounds heal scarlessly — a model for regenerative repair."
 ---
 
 # Wound Healing
@@ -406,6 +415,9 @@ cross_links:
 - `connects-to` → **[Nervous System](../nervous-system/README.md)** — Nerves help wounds close: sensory neuropeptides like substance P drive the inflammatory and angiogenic phases, so denervation and diabetic or pressure-related neuropathy produce chronic, slow-healing ulcers.
 - `connects-to` → **[Endocrine System](../endocrine-system/README.md)** — Hormones tune repair: glucocorticoid excess from Cushing's or steroids blunts inflammation and collagen synthesis, while thyroid hormone, growth hormone and sex steroids each modulate the speed and strength of healing.
 - `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — The same cascade rebuilds bone and tendon: fracture and tendon repair follow the inflammation-proliferation-remodelling sequence of wound healing, so the conditions that impair skin healing also delay bony union.
+- `connects-to` → **[Cardiovascular System](../cardiovascular-system/README.md)** — Repair depends on blood supply: healing requires perfusion and an angiogenic phase, so ischaemia from peripheral arterial disease and poor perfusion produce chronic, non-healing wounds.
+- `connects-to` → **[Respiratory System](../respiratory-system/README.md)** — Oxygen drives collagen synthesis: adequate tissue oxygenation is essential for repair, so hypoxia and the vasoconstriction of smoking markedly impair wound healing.
+- `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — Hormones and life-stage shape healing: oestrogen promotes wound repair so healing slows after menopause, while fetal wounds heal scarlessly — a model for regenerative repair.
 
 [^singer-1999-wound-healing-review]: Singer AJ, Clark RA. Cutaneous wound healing. *N Engl J Med.* 1999;341(10):738-746. [doi:10.1056/NEJM199909023411006](https://doi.org/10.1056/NEJM199909023411006) · [PubMed 10471461](https://pubmed.ncbi.nlm.nih.gov/10471461/)
 [^gurtner-2008-wound-repair-regeneration]: Gurtner GC, Werner S, Barrandon Y, Longaker MT. Wound repair and regeneration. *Nature.* 2008;453(7193):314-321. [doi:10.1038/nature07039](https://doi.org/10.1038/nature07039) · [PubMed 18480812](https://pubmed.ncbi.nlm.nih.gov/18480812/)
