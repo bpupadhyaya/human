@@ -214,6 +214,15 @@ cross_links:
   - target: 01-human/07-system/integumentary-system
     relation: connects-to
     note: "It arises in the abdominal wall and skin: desmoid tumours frequently grow in the abdominal-wall soft tissue, and in Gardner syndrome accompany epidermoid cysts and other cutaneous lesions."
+  - target: 01-human/07-system/cardiovascular-system
+    relation: connects-to
+    note: "It wraps around the great vessels: intra-abdominal and mesenteric desmoids encase and compress mesenteric arteries, the aorta and IVC, risking bowel ischaemia and vascular obstruction."
+  - target: 01-human/07-system/nervous-system
+    relation: connects-to
+    note: "It infiltrates around the nerves: desmoid tumours grow into and compress nerves and nerve roots, causing pain and neurological deficits, and their resection risks nerve injury."
+  - target: 01-human/07-system/lymphatic-system
+    relation: connects-to
+    note: "Mesenteric tumours block lymph flow: a mesenteric desmoid can obstruct lymphatic drainage, causing chylous ascites, on top of the bowel and ureteric compression it produces."
 ---
 
 # Desmoid Tumor
@@ -413,6 +422,9 @@ Standard initial approach for newly diagnosed desmoid without symptoms or rapid 
 - `connects-to` → **[Endocrine System](../endocrine-system/README.md)** — It is fuelled by oestrogen: desmoid tumours often grow during pregnancy and with the contraceptive pill and express oestrogen receptors, so anti-oestrogens like tamoxifen are used to treat them.
 - `connects-to` → **[Renal System](../renal-system/README.md)** — Mesenteric tumour can throttle the ureters: a bulky intra-abdominal desmoid, common in FAP, can encase and obstruct the ureters, causing hydronephrosis and threatening kidney function.
 - `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — It arises in the abdominal wall and skin: desmoid tumours frequently grow in the abdominal-wall soft tissue, and in Gardner syndrome accompany epidermoid cysts and other cutaneous lesions.
+- `connects-to` → **[Cardiovascular System](../cardiovascular-system/README.md)** — It wraps around the great vessels: intra-abdominal and mesenteric desmoids encase and compress mesenteric arteries, the aorta and IVC, risking bowel ischaemia and vascular obstruction.
+- `connects-to` → **[Nervous System](../nervous-system/README.md)** — It infiltrates around the nerves: desmoid tumours grow into and compress nerves and nerve roots, causing pain and neurological deficits, and their resection risks nerve injury.
+- `connects-to` → **[Lymphatic System](../lymphatic-system/README.md)** — Mesenteric tumours block lymph flow: a mesenteric desmoid can obstruct lymphatic drainage, causing chylous ascites, on top of the bowel and ureteric compression it produces.
 
 ---
 

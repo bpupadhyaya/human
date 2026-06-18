@@ -214,6 +214,15 @@ cross_links:
   - target: 02-pathogen/01-viruses/varicella-zoster-virus
     relation: connects-to
     note: "Chemotherapy reawakens shingles: the chemotherapy used against DICER1-related cancers suppresses a child's immunity, allowing latent or primary varicella-zoster to cause severe disease."
+  - target: 01-human/07-system/nervous-system
+    relation: connects-to
+    note: "It seeds rare brain tumours: DICER1 predisposes to pineoblastoma and pituitary blastoma and other unusual childhood central-nervous-system tumours, warranting neurological surveillance."
+  - target: 01-human/07-system/musculoskeletal-system
+    relation: connects-to
+    note: "It arises in cartilage and soft tissue: nasal chondromesenchymal hamartoma and the embryonal rhabdomyosarcomas of the DICER1 spectrum develop in cartilage and skeletal muscle."
+  - target: 01-human/07-system/cardiovascular-system
+    relation: connects-to
+    note: "Its chemotherapy can scar the heart: anthracyclines used against DICER1-related cancers carry a long-term cardiotoxicity risk in the children who receive them."
 ---
 
 # DICER1 Syndrome
@@ -394,6 +403,9 @@ When a child is found to have a thoracic cystic lesion, DICER1 syndrome should b
 - `connects-to` → **[Renal System](../renal-system/README.md)** — It seeds tumours in the kidney: DICER1 syndrome causes cystic nephroma and, less often, renal sarcoma and Wilms-like tumours, part of its broad childhood-tumour spectrum.
 - `connects-to` → **[Wound Healing](../wound-healing/README.md)** — Resecting its tumours means many wounds: surgery for pleuropulmonary blastoma, cystic nephroma, ovarian and other DICER1 tumours leaves children with operative wounds that must heal.
 - `connects-to` → **[Varicella-Zoster Virus](../../../02-pathogen/01-viruses/varicella-zoster-virus/README.md)** — Chemotherapy reawakens shingles: the chemotherapy used against DICER1-related cancers suppresses a child's immunity, allowing latent or primary varicella-zoster to cause severe disease.
+- `connects-to` → **[Nervous System](../nervous-system/README.md)** — It seeds rare brain tumours: DICER1 predisposes to pineoblastoma and pituitary blastoma and other unusual childhood central-nervous-system tumours, warranting neurological surveillance.
+- `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — It arises in cartilage and soft tissue: nasal chondromesenchymal hamartoma and the embryonal rhabdomyosarcomas of the DICER1 spectrum develop in cartilage and skeletal muscle.
+- `connects-to` → **[Cardiovascular System](../cardiovascular-system/README.md)** — Its chemotherapy can scar the heart: anthracyclines used against DICER1-related cancers carry a long-term cardiotoxicity risk in the children who receive them.
 
 ---
 
