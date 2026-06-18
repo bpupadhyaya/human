@@ -229,6 +229,15 @@ cross_links:
   - target: 01-human/07-system/cardiovascular-system
     relation: connects-to
     note: "It invades the heart and great veins: NSCLC can seed the pericardium causing malignant effusion and tamponade, and central tumours cause superior vena cava obstruction."
+  - target: 03-medicine/01-modern/13-cancer/targeted-therapy
+    relation: connects-to
+    note: "It is the flagship of precision oncology: NSCLC is treated by EGFR, ALK, ROS1 and KRAS-G12C targeted inhibitors plus checkpoint immunotherapy, matched to tumour genotype."
+  - target: 01-human/07-system/digestive-system
+    relation: connects-to
+    note: "It spreads to liver and gut: NSCLC commonly metastasises to the liver and adrenal glands, and chemotherapy and rare gastrointestinal metastases affect the digestive tract."
+  - target: 01-human/07-system/renal-system
+    relation: connects-to
+    note: "Cisplatin and paraneoplasia reach the kidney: platinum chemotherapy is nephrotoxic, and NSCLC can cause paraneoplastic SIADH with hyponatraemia."
 ---
 
 # NSCLC
@@ -400,6 +409,9 @@ cross_links:
 - `connects-to` → **[Immune System](../immune-system/README.md)** — Immunotherapy has transformed it: NSCLC, especially with high PD-L1 expression, responds to checkpoint-inhibitor immunotherapy, now a cornerstone of treatment for advanced disease.
 - `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — Its targeted drugs erupt on the skin: EGFR-inhibitor therapy causes a characteristic acneiform rash and paronychia, and paraneoplastic dermatomyositis can herald the cancer.
 - `connects-to` → **[Cardiovascular System](../cardiovascular-system/README.md)** — It invades the heart and great veins: NSCLC can seed the pericardium causing malignant effusion and tamponade, and central tumours cause superior vena cava obstruction.
+- `connects-to` → **[Targeted Therapy](../../../03-medicine/01-modern/13-cancer/targeted-therapy/README.md)** — It is the flagship of precision oncology: NSCLC is treated by EGFR, ALK, ROS1 and KRAS-G12C targeted inhibitors plus checkpoint immunotherapy, matched to tumour genotype.
+- `connects-to` → **[Digestive System](../digestive-system/README.md)** — It spreads to liver and gut: NSCLC commonly metastasises to the liver and adrenal glands, and chemotherapy and rare gastrointestinal metastases affect the digestive tract.
+- `connects-to` → **[Renal System](../renal-system/README.md)** — Cisplatin and paraneoplasia reach the kidney: platinum chemotherapy is nephrotoxic, and NSCLC can cause paraneoplastic SIADH with hyponatraemia.
 
 [^soria-2018-osimertinib-flaura]: Soria JC, Ohe Y, Vansteenkiste J, et al. Osimertinib in untreated EGFR-mutated advanced non-small-cell lung cancer. *N Engl J Med.* 2018;378(2):113-125. [doi:10.1056/NEJMoa1713137](https://doi.org/10.1056/NEJMoa1713137) · [PubMed 29151359](https://pubmed.ncbi.nlm.nih.gov/29151359/)
 [^reck-2016-pembrolizumab-keynote024]: Reck M, Rodríguez-Abreu D, Robinson AG, et al. Pembrolizumab versus chemotherapy for PD-L1-positive non-small-cell lung cancer. *N Engl J Med.* 2016;375(19):1823-1833. [doi:10.1056/NEJMoa1606774](https://doi.org/10.1056/NEJMoa1606774) · [PubMed 27718347](https://pubmed.ncbi.nlm.nih.gov/27718347/)

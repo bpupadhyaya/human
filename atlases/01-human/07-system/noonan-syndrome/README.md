@@ -223,6 +223,15 @@ cross_links:
   - target: 03-medicine/01-modern/04-cardio/beta-blockers
     relation: connects-to
     note: "Beta-blockers ease its thickened heart: the hypertrophic cardiomyopathy of Noonan syndrome is managed with beta-blockers to reduce outflow obstruction and control arrhythmia."
+  - target: 03-medicine/01-modern/13-cancer/targeted-therapy
+    relation: connects-to
+    note: "A pathway drug for its heart disease: MEK inhibitors that block the overactive RAS-MAPK signalling of Noonan syndrome are being trialled to reverse its hypertrophic cardiomyopathy."
+  - target: 01-human/07-system/carney-complex
+    relation: connects-to
+    note: "A lentigines-and-heart comparator: like the LEOPARD variant of Noonan syndrome, Carney complex combines multiple skin lentigines with cardiac disease, here from cAMP rather than RAS signalling."
+  - target: 01-human/07-system/tuberous-sclerosis-complex
+    relation: connects-to
+    note: "A fellow syndromic cause of childhood heart tumours: like tuberous sclerosis with its cardiac rhabdomyomas, Noonan syndrome produces congenital heart disease in a multisystem autosomal-dominant disorder."
 ---
 
 # Noonan Syndrome
@@ -429,6 +438,9 @@ NS is characterized by four cardinal features: **(1) short stature** (below 3rd 
 - `connects-to` → **[Immune System](../immune-system/README.md)** — Its RAS pathway disturbs immunity: Noonan syndrome can feature immune dysregulation with autoimmunity and lymphoproliferation, and RAS-pathway activation predisposes to juvenile myelomonocytic leukaemia.
 - `connects-to` → **[Staphylococcus aureus](../../../02-pathogen/02-bacteria/staphylococcus-aureus/README.md)** — Its heart defects invite endocarditis: the congenital heart disease of Noonan syndrome raises the risk of infective endocarditis, classically from Staphylococcus aureus and viridans streptococci.
 - `connects-to` → **[Beta-Blockers](../../../03-medicine/01-modern/04-cardio/beta-blockers/README.md)** — Beta-blockers ease its thickened heart: the hypertrophic cardiomyopathy of Noonan syndrome is managed with beta-blockers to reduce outflow obstruction and control arrhythmia.
+- `connects-to` → **[Targeted Therapy](../../../03-medicine/01-modern/13-cancer/targeted-therapy/README.md)** — A pathway drug for its heart disease: MEK inhibitors that block the overactive RAS-MAPK signalling of Noonan syndrome are being trialled to reverse its hypertrophic cardiomyopathy.
+- `connects-to` → **[Carney Complex](../carney-complex/README.md)** — A lentigines-and-heart comparator: like the LEOPARD variant of Noonan syndrome, Carney complex combines multiple skin lentigines with cardiac disease, here from cAMP rather than RAS signalling.
+- `connects-to` → **[Tuberous Sclerosis Complex](../tuberous-sclerosis-complex/README.md)** — A fellow syndromic cause of childhood heart tumours: like tuberous sclerosis with its cardiac rhabdomyomas, Noonan syndrome produces congenital heart disease in a multisystem autosomal-dominant disorder.
 
 [^tartaglia-2001-ptpn11-noonan]: Tartaglia M, Mehler EL, Goldberg R, et al. Mutations in PTPN11, encoding the protein tyrosine phosphatase SHP-2, cause Noonan syndrome. *Nat Genet.* 2001;29(4):465-468. [doi:10.1038/ng772](https://doi.org/10.1038/ng772) · [PubMed 11704759](https://pubmed.ncbi.nlm.nih.gov/11704759/)
 [^van-der-burgt-2007-noonan-review]: van der Burgt I. Noonan syndrome. *Orphanet J Rare Dis.* 2007;2:4. [doi:10.1186/1750-1172-2-4](https://doi.org/10.1186/1750-1172-2-4) · [PubMed 17222357](https://pubmed.ncbi.nlm.nih.gov/17222357/)
