@@ -214,6 +214,15 @@ cross_links:
   - target: 01-human/07-system/generalized-anxiety-disorder
     relation: connects-to
     note: "A uniformly fatal childhood tumour breeds anguish: the dismal prognosis and relentless neurological decline of diffuse midline glioma impose profound anxiety on families alongside depression."
+  - target: 01-human/07-system/musculoskeletal-system
+    relation: connects-to
+    note: "Treatment burdens the growing body: craniospinal radiation impairs growth and the long-term high-dose dexamethasone used to control oedema causes steroid myopathy and bone loss."
+  - target: 01-human/07-system/integumentary-system
+    relation: connects-to
+    note: "Radiation and steroids mark the skin: radiotherapy causes dermatitis over the treatment field, and the dexamethasone needed for mass effect brings acne, striae and skin thinning."
+  - target: 01-human/07-system/immune-system
+    relation: connects-to
+    note: "Its steroids suppress immunity: the prolonged dexamethasone used to control peritumoural oedema blunts immune defence, raising infection risk including Pneumocystis pneumonia."
 ---
 
 # Diffuse Midline Glioma
@@ -418,6 +427,9 @@ Direct infusion of drugs into the pons via stereotactic catheter; bypasses BBB; 
 - `connects-to` → **[Respiratory System](../respiratory-system/README.md)** — It strikes the brain's breathing centre: diffuse midline glioma of the pons infiltrates the brainstem respiratory and cardiovascular nuclei, so progression leads to respiratory failure, a common terminal event.
 - `connects-to` → **[Digestive System](../digestive-system/README.md)** — Brainstem invasion robs swallowing: the pontine and bulbar involvement of diffuse midline glioma causes dysphagia and aspiration, driving the need for modified feeding or a gastrostomy.
 - `connects-to` → **[Generalized Anxiety Disorder](../generalized-anxiety-disorder/README.md)** — A uniformly fatal childhood tumour breeds anguish: the dismal prognosis and relentless neurological decline of diffuse midline glioma impose profound anxiety on families alongside depression.
+- `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — Treatment burdens the growing body: craniospinal radiation impairs growth and the long-term high-dose dexamethasone used to control oedema causes steroid myopathy and bone loss.
+- `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — Radiation and steroids mark the skin: radiotherapy causes dermatitis over the treatment field, and the dexamethasone needed for mass effect brings acne, striae and skin thinning.
+- `connects-to` → **[Immune System](../immune-system/README.md)** — Its steroids suppress immunity: the prolonged dexamethasone used to control peritumoural oedema blunts immune defence, raising infection risk including Pneumocystis pneumonia.
 
 ---
 

@@ -220,6 +220,15 @@ cross_links:
   - target: 01-human/07-system/digestive-system
     relation: connects-to
     note: "It bleeds and starves the gut: DIC causes gastrointestinal haemorrhage from consumed clotting factors and platelets, while microthrombi cause bowel ischaemia and hepatic dysfunction."
+  - target: 01-human/07-system/renal-system
+    relation: connects-to
+    note: "Microthrombi clog the kidney: DIC deposits fibrin in the renal microvasculature, causing acute kidney injury and, in severe cases, bilateral renal cortical necrosis."
+  - target: 01-human/07-system/nervous-system
+    relation: connects-to
+    note: "It both clots and bleeds the brain: cerebral microthrombi and intracranial haemorrhage from consumed platelets and clotting factors cause encephalopathy, stroke and bleeding."
+  - target: 01-human/07-system/endocrine-system
+    relation: connects-to
+    note: "It can destroy the adrenals: bilateral adrenal haemorrhage — Waterhouse-Friderichsen syndrome — complicates meningococcal DIC, causing acute adrenal failure."
 ---
 
 # Disseminated Intravascular Coagulation
@@ -418,6 +427,9 @@ DIC is always **secondary** — it does not occur in isolation but as a conseque
 - `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — It is dramatically written on the skin: DIC causes widespread petechiae, ecchymoses and oozing from puncture sites, and in its severe form purpura fulminans with skin necrosis and digital gangrene.
 - `connects-to` → **[Respiratory System](../respiratory-system/README.md)** — Microthrombi and bleeding hit the lungs: DIC contributes to acute respiratory distress syndrome through diffuse microvascular thrombosis and can cause pulmonary haemorrhage.
 - `connects-to` → **[Digestive System](../digestive-system/README.md)** — It bleeds and starves the gut: DIC causes gastrointestinal haemorrhage from consumed clotting factors and platelets, while microthrombi cause bowel ischaemia and hepatic dysfunction.
+- `connects-to` → **[Renal System](../renal-system/README.md)** — Microthrombi clog the kidney: DIC deposits fibrin in the renal microvasculature, causing acute kidney injury and, in severe cases, bilateral renal cortical necrosis.
+- `connects-to` → **[Nervous System](../nervous-system/README.md)** — It both clots and bleeds the brain: cerebral microthrombi and intracranial haemorrhage from consumed platelets and clotting factors cause encephalopathy, stroke and bleeding.
+- `connects-to` → **[Endocrine System](../endocrine-system/README.md)** — It can destroy the adrenals: bilateral adrenal haemorrhage — Waterhouse-Friderichsen syndrome — complicates meningococcal DIC, causing acute adrenal failure.
 
 ---
 
