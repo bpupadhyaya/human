@@ -232,6 +232,15 @@ cross_links:
   - target: 01-human/07-system/integumentary-system
     relation: connects-to
     note: "It and its treatment mark the skin: chemotherapy causes alopecia and mucositis, radiotherapy produces dermatitis over the treated limb, and superficial tumours present as a skin-deep mass."
+  - target: 03-medicine/01-modern/13-cancer/cancer-chemotherapy
+    relation: connects-to
+    note: "Chemosensitive among sarcomas: synovial sarcoma is one of the more chemoresponsive soft-tissue sarcomas, treated with ifosfamide and doxorubicin around surgery and radiotherapy, especially in younger patients with larger tumours."
+  - target: 03-medicine/01-modern/13-cancer/car-t
+    relation: connects-to
+    note: "First solid tumour with engineered T-cells: synovial sarcoma frequently expresses MAGE-A4 and NY-ESO-1, and afami-cel — autologous TCR-engineered T-cells against MAGE-A4 — became the first approved engineered T-cell therapy for a solid tumour in this disease."
+  - target: 03-medicine/01-modern/13-cancer/checkpoint-inhibitors
+    relation: connects-to
+    note: "An immunologically cold tumour: despite its antigen expression, synovial sarcoma has a low mutational burden and sparse T-cell infiltrate, so PD-1 checkpoint blockade responds poorly — why adoptive engineered T-cells, not checkpoint inhibitors, broke through."
 ---
 
 # Synovial Sarcoma
@@ -429,6 +438,9 @@ SS has low TMB (~1-2 mut/Mb) and variable PD-L1 expression; ICB response rates ~
 - `connects-to` → **[Targeted Therapy](../../../03-medicine/01-modern/13-cancer/targeted-therapy/README.md)** — It pioneered TCR cell therapy: synovial sarcoma expresses NY-ESO-1, the target of the first approved engineered TCR T-cell therapy (afami-cel), and pazopanib treats advanced disease.
 - `connects-to` → **[Nervous System](../nervous-system/README.md)** — Treatment and tumour reach the nerves: ifosfamide causes encephalopathy and peripheral neuropathy, and paraspinal synovial sarcoma can compress nerves.
 - `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — It and its treatment mark the skin: chemotherapy causes alopecia and mucositis, radiotherapy produces dermatitis over the treated limb, and superficial tumours present as a skin-deep mass.
+- `connects-to` → **[Cancer Chemotherapy](../../../03-medicine/01-modern/13-cancer/cancer-chemotherapy/README.md)** — Chemosensitive among sarcomas: synovial sarcoma is one of the more chemoresponsive soft-tissue sarcomas, treated with ifosfamide and doxorubicin around surgery and radiotherapy, especially in younger patients with larger tumours.
+- `connects-to` → **[CAR-T](../../../03-medicine/01-modern/13-cancer/car-t/README.md)** — First solid tumour with engineered T-cells: synovial sarcoma frequently expresses MAGE-A4 and NY-ESO-1, and afami-cel — autologous TCR-engineered T-cells against MAGE-A4 — became the first approved engineered T-cell therapy for a solid tumour in this disease.
+- `connects-to` → **[Checkpoint Inhibitors](../../../03-medicine/01-modern/13-cancer/checkpoint-inhibitors/README.md)** — An immunologically cold tumour: despite its antigen expression, synovial sarcoma has a low mutational burden and sparse T-cell infiltrate, so PD-1 checkpoint blockade responds poorly — why adoptive engineered T-cells, not checkpoint inhibitors, broke through.
 
 ---
 
