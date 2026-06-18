@@ -234,6 +234,15 @@ cross_links:
   - target: 03-medicine/03-food/magnesium-dietary
     relation: connects-to
     note: "Purging drains magnesium: vomiting and diuretic or laxative misuse deplete magnesium and potassium, compounding the dangerous arrhythmias of bulimia, so replacement is part of refeeding."
+  - target: 01-human/07-system/gambling-disorder
+    relation: connects-to
+    note: "Impulsivity binds them: bulimia nervosa shares with gambling disorder a core failure of impulse control and reward dysregulation, and the two co-occur more than chance."
+  - target: 01-human/07-system/cannabis-use-disorder
+    relation: connects-to
+    note: "Substance use rides alongside: bulimia nervosa carries high rates of substance use disorders including cannabis, reflecting shared impulsivity and the use of substances to modulate mood and appetite."
+  - target: 01-human/04-cellular/osteoclast
+    relation: connects-to
+    note: "Hormonal disruption thins bone: menstrual irregularity and low oestrogen in bulimia nervosa tip the balance toward bone-resorbing osteoclasts, reducing bone density even at normal body weight."
 ---
 
 # Bulimia Nervosa
@@ -435,6 +444,9 @@ All of the following must be met:
 - `connects-to` → **[Renal System](../renal-system/README.md)** — Purging wrecks the kidney's chemistry: recurrent vomiting and laxative abuse cause hypokalaemia, metabolic alkalosis and dehydration, leading to prerenal injury and a hypokalaemic nephropathy.
 - `connects-to` → **[Fluoxetine](../../../03-medicine/01-modern/10-mental-health/fluoxetine/README.md)** — The one approved drug: fluoxetine is the only medication licensed for bulimia nervosa, reducing binge-purge frequency at higher doses alongside psychotherapy.
 - `connects-to` → **[Dietary Magnesium](../../../03-medicine/03-food/magnesium-dietary/README.md)** — Purging drains magnesium: vomiting and diuretic or laxative misuse deplete magnesium and potassium, compounding the dangerous arrhythmias of bulimia, so replacement is part of refeeding.
+- `connects-to` → **[Gambling Disorder](../gambling-disorder/README.md)** — Impulsivity binds them: bulimia nervosa shares with gambling disorder a core failure of impulse control and reward dysregulation, and the two co-occur more than chance.
+- `connects-to` → **[Cannabis Use Disorder](../cannabis-use-disorder/README.md)** — Substance use rides alongside: bulimia nervosa carries high rates of substance use disorders including cannabis, reflecting shared impulsivity and the use of substances to modulate mood and appetite.
+- `connects-to` → **[Osteoclast](../../04-cellular/osteoclast/README.md)** — Hormonal disruption thins bone: menstrual irregularity and low oestrogen in bulimia nervosa tip the balance toward bone-resorbing osteoclasts, reducing bone density even at normal body weight.
 
 ## Treatment
 

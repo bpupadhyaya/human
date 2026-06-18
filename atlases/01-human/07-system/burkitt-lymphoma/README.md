@@ -232,6 +232,15 @@ cross_links:
   - target: 01-human/07-system/integumentary-system
     relation: connects-to
     note: "Therapy marks the skin: the dose-intensive regimens for Burkitt lymphoma cause alopecia and mucositis, and rare cutaneous infiltration can occur."
+  - target: 03-medicine/01-modern/13-cancer/cancer-chemotherapy
+    relation: connects-to
+    note: "Intensive chemo cures it: Burkitt lymphoma, the fastest-growing human tumour, is treated with short intensive multi-agent chemotherapy plus CNS prophylaxis, curing most patients."
+  - target: 02-pathogen/01-viruses/hiv-1
+    relation: connects-to
+    note: "Immunodeficiency unleashes the clone: HIV is a major cause of Burkitt lymphoma, an AIDS-defining cancer arising as falling immunity permits EBV-driven B-cell proliferation."
+  - target: 03-medicine/01-modern/13-cancer/car-t
+    relation: connects-to
+    note: "Engineered cells for relapse: CD19-directed CAR-T therapy is an option for relapsed or refractory Burkitt and other aggressive B-cell lymphomas after chemotherapy fails."
 ---
 
 # Burkitt Lymphoma
@@ -438,6 +447,9 @@ FISH for MYC, BCL2, and BCL6 is essential; if BCL2 FISH negative and Ki-67 ~100%
 - `connects-to` → **[Cardiovascular System](../cardiovascular-system/README.md)** — Treatment and tumour bulk burden the heart: intensive anthracycline chemotherapy risks cardiomyopathy, while tumour lysis syndrome's hyperkalaemia can cause fatal arrhythmia in this fastest-growing human tumour.
 - `connects-to` → **[Respiratory System](../respiratory-system/README.md)** — Bulky disease fills the chest: abdominal and mediastinal Burkitt masses can compress the airway and cause pleural effusions, while the deep immunosuppression of treatment invites pneumonia.
 - `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — Therapy marks the skin: the dose-intensive regimens for Burkitt lymphoma cause alopecia and mucositis, and rare cutaneous infiltration can occur.
+- `connects-to` → **[Cancer Chemotherapy](../../../03-medicine/01-modern/13-cancer/cancer-chemotherapy/README.md)** — Intensive chemo cures it: Burkitt lymphoma, the fastest-growing human tumour, is treated with short intensive multi-agent chemotherapy plus CNS prophylaxis, curing most patients.
+- `connects-to` → **[HIV-1](../../../02-pathogen/01-viruses/hiv-1/README.md)** — Immunodeficiency unleashes the clone: HIV is a major cause of Burkitt lymphoma, an AIDS-defining cancer arising as falling immunity permits EBV-driven B-cell proliferation.
+- `connects-to` → **[CAR-T](../../../03-medicine/01-modern/13-cancer/car-t/README.md)** — Engineered cells for relapse: CD19-directed CAR-T therapy is an option for relapsed or refractory Burkitt and other aggressive B-cell lymphomas after chemotherapy fails.
 
 ---
 
