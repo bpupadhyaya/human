@@ -205,6 +205,15 @@ cross_links:
   - target: 02-pathogen/02-bacteria/streptococcus-pneumoniae
     relation: connects-to
     note: "Lost swallow sends food to the lungs: tumor, surgery and radiation impair swallowing and the airway in head-and-neck cancer, and the resulting aspiration pneumonia — often pneumococcal — is a common cause of death."
+  - target: 01-human/07-system/digestive-system
+    relation: connects-to
+    note: "It wrecks the entrance to the gut: head-and-neck cancer and its radiation cause xerostomia, mucositis and dysphagia of the mouth and pharynx, often forcing gastrostomy feeding and altering taste and nutrition."
+  - target: 01-human/07-system/endocrine-system
+    relation: connects-to
+    note: "Neck radiation silences the thyroid: radiotherapy fields for head-and-neck cancer irradiate the thyroid gland, so hypothyroidism is a common late complication needing lifelong hormone replacement."
+  - target: 01-human/07-system/generalized-anxiety-disorder
+    relation: connects-to
+    note: "Disfigurement and lost voice breed worry: the impact on appearance, speech and swallowing, plus recurrence surveillance, in head-and-neck cancer foster chronic health anxiety alongside depression."
 ---
 
 # HNSCC
@@ -382,6 +391,9 @@ HPV+ oropharyngeal: Node staging based on number (not laterality); HPV-negative 
 - `connects-to` → **[Neuropathic Pain](../neuropathic-pain/README.md)** — Tumor, surgery and radiation savage the nerves: head-and-neck cancer invades cranial nerves, and its surgery, cisplatin and radiation produce severe, often refractory neuropathic pain.
 - `connects-to` → **[Wound Healing](../wound-healing/README.md)** — Irradiated tissue heals badly: head-and-neck radiation causes osteoradionecrosis of the jaw, fistulas and flap failure, so wounds in the treated field heal slowly and break down.
 - `connects-to` → **[Streptococcus pneumoniae](../../../02-pathogen/02-bacteria/streptococcus-pneumoniae/README.md)** — Lost swallow sends food to the lungs: tumor, surgery and radiation impair swallowing and the airway in head-and-neck cancer, and the resulting aspiration pneumonia — often pneumococcal — is a common cause of death.
+- `connects-to` → **[Digestive System](../digestive-system/README.md)** — It wrecks the entrance to the gut: head-and-neck cancer and its radiation cause xerostomia, mucositis and dysphagia of the mouth and pharynx, often forcing gastrostomy feeding and altering taste and nutrition.
+- `connects-to` → **[Endocrine System](../endocrine-system/README.md)** — Neck radiation silences the thyroid: radiotherapy fields for head-and-neck cancer irradiate the thyroid gland, so hypothyroidism is a common late complication needing lifelong hormone replacement.
+- `connects-to` → **[Generalized Anxiety Disorder](../generalized-anxiety-disorder/README.md)** — Disfigurement and lost voice breed worry: the impact on appearance, speech and swallowing, plus recurrence surveillance, in head-and-neck cancer foster chronic health anxiety alongside depression.
 
 [^burtness-2019-keynote048]: Burtness B, Harrington KJ, Greil R, et al. Pembrolizumab alone or with chemotherapy versus cetuximab with chemotherapy for recurrent or metastatic squamous cell carcinoma of the head and neck (KEYNOTE-048). *Lancet.* 2019;394(10212):1915-1928. [doi:10.1016/S0140-6736(19)32591-7](https://doi.org/10.1016/S0140-6736(19)32591-7) · [PubMed 31679945](https://pubmed.ncbi.nlm.nih.gov/31679945/)
 [^vermorken-2008-extreme]: Vermorken JB, Mesia R, Rivera F, et al. Platinum-based chemotherapy plus cetuximab in head and neck cancer. *N Engl J Med.* 2008;359(11):1116-1127. [doi:10.1056/NEJMoa0802656](https://doi.org/10.1056/NEJMoa0802656) · [PubMed 18784101](https://pubmed.ncbi.nlm.nih.gov/18784101/)

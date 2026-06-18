@@ -205,6 +205,15 @@ cross_links:
   - target: 01-human/07-system/generalized-anxiety-disorder
     relation: connects-to
     note: "Aggressive cancer risk and surveillance breed worry: the threat of an early, aggressive type 2 papillary kidney cancer and the lifelong imaging surveillance of HLRCC foster chronic health anxiety."
+  - target: 01-human/07-system/musculoskeletal-system
+    relation: connects-to
+    note: "It seeds smooth-muscle tumours: HLRCC causes multiple painful cutaneous and uterine leiomyomas — benign tumours of smooth muscle — its defining non-renal feature."
+  - target: 01-human/07-system/endocrine-system
+    relation: connects-to
+    note: "Hormones feed its fibroids and metabolism runs awry: the uterine leiomyomas of HLRCC are oestrogen-sensitive, and loss of fumarate hydratase reroutes Krebs-cycle metabolism toward a pseudohypoxic state."
+  - target: 01-human/07-system/renal-system
+    relation: connects-to
+    note: "Its kidney cancer is aggressive and early: HLRCC causes a particularly aggressive type 2 papillary renal cell carcinoma that metastasises early, demanding prompt nephrectomy and close surveillance."
 ---
 
 # Hereditary Leiomyomatosis and Renal Cell Carcinoma
@@ -399,6 +408,9 @@ Cutaneous:
 - `connects-to` → **[Neuropathic Pain](../neuropathic-pain/README.md)** — Its leiomyomas are notoriously painful: the cutaneous leiomyomas of HLRCC cause cold- and touch-triggered pain, and uterine fibroids add severe pelvic pain, together producing chronic neuropathic and nociceptive pain.
 - `connects-to` → **[Wound Healing](../wound-healing/README.md)** — Repeated tumor surgery taxes healing: the excisions of multiple cutaneous leiomyomas and nephron-sparing or radical kidney surgery in HLRCC leave recurrent wounds to heal.
 - `connects-to` → **[Generalized Anxiety Disorder](../generalized-anxiety-disorder/README.md)** — Aggressive cancer risk and surveillance breed worry: the threat of an early, aggressive type 2 papillary kidney cancer and the lifelong imaging surveillance of HLRCC foster chronic health anxiety.
+- `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — It seeds smooth-muscle tumours: HLRCC causes multiple painful cutaneous and uterine leiomyomas — benign tumours of smooth muscle — its defining non-renal feature.
+- `connects-to` → **[Endocrine System](../endocrine-system/README.md)** — Hormones feed its fibroids and metabolism runs awry: the uterine leiomyomas of HLRCC are oestrogen-sensitive, and loss of fumarate hydratase reroutes Krebs-cycle metabolism toward a pseudohypoxic state.
+- `connects-to` → **[Renal System](../renal-system/README.md)** — Its kidney cancer is aggressive and early: HLRCC causes a particularly aggressive type 2 papillary renal cell carcinoma that metastasises early, demanding prompt nephrectomy and close surveillance.
 
 [^tomlinson-2002-fh]: Tomlinson IP, Alam NA, Rowan AJ, et al. Germline mutations in FH predispose to dominantly inherited uterine fibroids, skin leiomyomata and papillary renal cell cancer. *Nat Genet.* 2002;30(4):406-410. [doi:10.1038/ng849](https://doi.org/10.1038/ng849) · [PubMed 11865300](https://pubmed.ncbi.nlm.nih.gov/11865300/)
 [^linehan-2013-fh-review]: Linehan WM, Rouault TA. Molecular pathways: fumarate hydratase-deficient kidney cancer — targeting the Warburg effect in cancer. *Clin Cancer Res.* 2013;19(13):3345-3352. [doi:10.1158/1078-0432.CCR-13-0304](https://doi.org/10.1158/1078-0432.CCR-13-0304) · [PubMed 23836472](https://pubmed.ncbi.nlm.nih.gov/23836472/)
