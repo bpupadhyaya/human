@@ -229,6 +229,15 @@ cross_links:
   - target: 01-human/07-system/musculoskeletal-system
     relation: connects-to
     note: "It stiffens hands and joints: type 2 diabetes causes diabetic cheiroarthropathy, frozen shoulder, Dupuytren's contracture and Charcot neuroarthropathy of the foot."
+  - target: 03-medicine/01-modern/07-metabolic/metformin
+    relation: connects-to
+    note: "First-line lowers the glucose: metformin reduces hepatic glucose output and improves insulin sensitivity, the foundation drug for type 2 diabetes with cardiovascular benefit."
+  - target: 01-human/07-system/renal-system
+    relation: connects-to
+    note: "It is the leading cause of kidney failure: diabetic nephropathy from chronic hyperglycaemia damages the glomeruli, the commonest cause of end-stage renal disease worldwide."
+  - target: 01-human/07-system/respiratory-system
+    relation: connects-to
+    note: "It shadows the lungs: type 2 diabetes is strongly associated with obstructive sleep apnoea and raises the risk of pneumonia and tuberculosis through impaired immunity."
 ---
 
 # Type 2 Diabetes
@@ -402,6 +411,9 @@ T2DM, CKD, heart failure, and obesity form the **cardiorenal metabolic (CRM) syn
 - `connects-to` → **[Cardiovascular System](../cardiovascular-system/README.md)** — It is a cardiovascular risk-equivalent: type 2 diabetes drives a specific diabetic cardiomyopathy and, through autonomic neuropathy, can cause silent myocardial infarction.
 - `connects-to` → **[Nervous System](../nervous-system/README.md)** — It damages nerves widely: diabetic peripheral and autonomic neuropathy cause foot ulcers, gastroparesis and postural hypotension, and the disease accelerates cognitive decline.
 - `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — It stiffens hands and joints: type 2 diabetes causes diabetic cheiroarthropathy, frozen shoulder, Dupuytren's contracture and Charcot neuroarthropathy of the foot.
+- `connects-to` → **[Metformin](../../../03-medicine/01-modern/07-metabolic/metformin/README.md)** — First-line lowers the glucose: metformin reduces hepatic glucose output and improves insulin sensitivity, the foundation drug for type 2 diabetes with cardiovascular benefit.
+- `connects-to` → **[Renal System](../renal-system/README.md)** — It is the leading cause of kidney failure: diabetic nephropathy from chronic hyperglycaemia damages the glomeruli, the commonest cause of end-stage renal disease worldwide.
+- `connects-to` → **[Respiratory System](../respiratory-system/README.md)** — It shadows the lungs: type 2 diabetes is strongly associated with obstructive sleep apnoea and raises the risk of pneumonia and tuberculosis through impaired immunity.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 

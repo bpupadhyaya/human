@@ -223,6 +223,15 @@ cross_links:
   - target: 01-human/07-system/endocrine-system
     relation: connects-to
     note: "It touches the pancreas and metabolism: TSC can cause pancreatic neuroendocrine tumours, and the mTOR-inhibitor therapy for its tumours causes hyperglycaemia and dyslipidaemia."
+  - target: 03-medicine/01-modern/13-cancer/targeted-therapy
+    relation: connects-to
+    note: "mTOR inhibitors are its targeted treatment: because TSC1/TSC2 loss unleashes mTOR, everolimus and sirolimus shrink its brain (SEGA), kidney (angiomyolipoma) and lung (LAM) lesions and reduce seizures."
+  - target: 01-human/07-system/men1-syndrome
+    relation: connects-to
+    note: "A fellow mTOR-pathway tumour syndrome: tuberous sclerosis and MEN1 both produce tumours driven by mTOR-pathway dysregulation, and both respond to the mTOR inhibitors now used across these syndromes."
+  - target: 01-human/07-system/carney-complex
+    relation: connects-to
+    note: "Both cause syndromic heart tumours: tuberous sclerosis produces cardiac rhabdomyomas while Carney complex produces myxomas, two inherited syndromes presenting with childhood cardiac masses."
 ---
 
 # Tuberous Sclerosis Complex
@@ -431,6 +440,9 @@ With modern management: life expectancy increasingly normal; major risks: renal 
 - `connects-to` → **[Lymphatic System](../lymphatic-system/README.md)** — Its lung disease invades the lymphatics: lymphangioleiomyomatosis causes chylous pleural effusions, chylous ascites and lymphangioleiomyomas, lymphatic manifestations beyond its lung cysts.
 - `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — It leaves quiet marks on bone and mouth: sclerotic bone islands, dental enamel pits and gingival fibromas are common minor diagnostic features of TSC.
 - `connects-to` → **[Endocrine System](../endocrine-system/README.md)** — It touches the pancreas and metabolism: TSC can cause pancreatic neuroendocrine tumours, and the mTOR-inhibitor therapy for its tumours causes hyperglycaemia and dyslipidaemia.
+- `connects-to` → **[Targeted Therapy](../../../03-medicine/01-modern/13-cancer/targeted-therapy/README.md)** — mTOR inhibitors are its targeted treatment: because TSC1/TSC2 loss unleashes mTOR, everolimus and sirolimus shrink its brain (SEGA), kidney (angiomyolipoma) and lung (LAM) lesions and reduce seizures.
+- `connects-to` → **[MEN1 Syndrome](../men1-syndrome/README.md)** — A fellow mTOR-pathway tumour syndrome: tuberous sclerosis and MEN1 both produce tumours driven by mTOR-pathway dysregulation, and both respond to the mTOR inhibitors now used across these syndromes.
+- `connects-to` → **[Carney Complex](../carney-complex/README.md)** — Both cause syndromic heart tumours: tuberous sclerosis produces cardiac rhabdomyomas while Carney complex produces myxomas, two inherited syndromes presenting with childhood cardiac masses.
 
 ---
 
