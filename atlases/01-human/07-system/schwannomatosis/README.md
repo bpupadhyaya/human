@@ -205,6 +205,15 @@ cross_links:
   - target: 01-human/07-system/ckd
     relation: connects-to
     note: "Long-term NSAIDs wear on the kidneys: the chronic non-steroidal anti-inflammatory use that helps control schwannomatosis pain can cause analgesic nephropathy and a slow decline in kidney function."
+  - target: 01-human/07-system/integumentary-system
+    relation: connects-to
+    note: "Its tumours can be felt under the skin: schwannomatosis produces cutaneous and subcutaneous schwannomas as palpable, often painful nodules along peripheral nerves."
+  - target: 01-human/07-system/endocrine-system
+    relation: connects-to
+    note: "Its chronic opioids suppress the hormones: the long-term opioid therapy that controls schwannomatosis pain causes opioid-induced androgen deficiency with hypogonadism and low libido."
+  - target: 01-human/07-system/respiratory-system
+    relation: connects-to
+    note: "Tumours and opioids both threaten breathing: intrathoracic or vagal schwannomas can compress the airway, and the high-dose opioids used for its pain carry a risk of respiratory depression."
 ---
 
 # Schwannomatosis
@@ -369,6 +378,9 @@ Both NF2 (22q12.2), SMARCB1 (22q11.23), and LZTR1 (22q11.21) are on chromosome 2
 - `connects-to` → **[Wound Healing](../wound-healing/README.md)** — Repeated tumour surgery means repeated wounds: the surgical resection of painful schwannomas — often multiple over a lifetime in schwannomatosis — leaves wounds that must heal, sometimes near nerves.
 - `connects-to` → **[Digestive System](../digestive-system/README.md)** — Its chronic opioids constipate the gut: the long-term opioid analgesia central to schwannomatosis pain control slows intestinal transit, causing opioid-induced constipation that can become severe.
 - `connects-to` → **[Chronic Kidney Disease](../ckd/README.md)** — Long-term NSAIDs wear on the kidneys: the chronic non-steroidal anti-inflammatory use that helps control schwannomatosis pain can cause analgesic nephropathy and a slow decline in kidney function.
+- `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — Its tumours can be felt under the skin: schwannomatosis produces cutaneous and subcutaneous schwannomas as palpable, often painful nodules along peripheral nerves.
+- `connects-to` → **[Endocrine System](../endocrine-system/README.md)** — Its chronic opioids suppress the hormones: the long-term opioid therapy that controls schwannomatosis pain causes opioid-induced androgen deficiency with hypogonadism and low libido.
+- `connects-to` → **[Respiratory System](../respiratory-system/README.md)** — Tumours and opioids both threaten breathing: intrathoracic or vagal schwannomas can compress the airway, and the high-dose opioids used for its pain carry a risk of respiratory depression.
 
 [^merker-2012-schwannomatosis]: Merker VL, Esparza S, Smith MJ, Stemmer-Rachamimov A, Plotkin SR. Clinical features of schwannomatosis: a retrospective analysis of 87 patients. *Oncologist.* 2012;17(10):1317-1322. [doi:10.1634/theoncologist.2012-0162](https://doi.org/10.1634/theoncologist.2012-0162) · [PubMed 22927469](https://pubmed.ncbi.nlm.nih.gov/22927469/)
 [^piotrowski-2014-lztr1]: Piotrowski A, Xie J, Liu YF, et al. Germline loss-of-function mutations in LZTR1 predispose to an inherited disorder of multiple schwannomas. *Nat Genet.* 2014;46(2):182-187. [doi:10.1038/ng.2855](https://doi.org/10.1038/ng.2855) · [PubMed 24362817](https://pubmed.ncbi.nlm.nih.gov/24362817/)

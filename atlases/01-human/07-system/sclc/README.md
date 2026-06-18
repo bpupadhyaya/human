@@ -205,6 +205,15 @@ cross_links:
   - target: 01-human/07-system/generalized-anxiety-disorder
     relation: connects-to
     note: "A fast, breathless, relapsing cancer breeds dread: the rapid growth, near-inevitable relapse and dyspnoea of SCLC fuel intense anxiety alongside the depression it so often brings."
+  - target: 01-human/07-system/respiratory-system
+    relation: connects-to
+    note: "It is a central lung cancer that strangles the airway: SCLC arises centrally and grows fast, causing bronchial obstruction, post-obstructive pneumonia and superior vena cava syndrome."
+  - target: 01-human/07-system/digestive-system
+    relation: connects-to
+    note: "It floods the liver with deposits: SCLC metastasises early and avidly to the liver, a common site at presentation that drives its dismal prognosis."
+  - target: 01-human/07-system/musculoskeletal-system
+    relation: connects-to
+    note: "It spreads to bone and weakens muscle: SCLC metastasises to the skeleton causing pain and fractures, and its paraneoplastic Lambert-Eaton myasthenic syndrome causes proximal muscle weakness."
 ---
 
 # Small Cell Lung Cancer
@@ -377,6 +386,9 @@ SCLC has highest rate of brain metastases among solid tumors (~50% at 2 years); 
 - `connects-to` → **[Streptococcus pneumoniae](../../../02-pathogen/02-bacteria/streptococcus-pneumoniae/README.md)** — A tumour plugging the airway breeds pneumonia: a bronchus obstructed by central SCLC traps secretions distal to it, and post-obstructive pneumonia — classically pneumococcal — is a common complication.
 - `connects-to` → **[Neuropathic Pain](../neuropathic-pain/README.md)** — Both the tumour and its chemo attack the nerves: SCLC causes paraneoplastic sensory neuropathy via anti-Hu antibodies, and the platinum chemotherapy adds its own painful peripheral neuropathy.
 - `connects-to` → **[Generalized Anxiety Disorder](../generalized-anxiety-disorder/README.md)** — A fast, breathless, relapsing cancer breeds dread: the rapid growth, near-inevitable relapse and dyspnoea of SCLC fuel intense anxiety alongside the depression it so often brings.
+- `connects-to` → **[Respiratory System](../respiratory-system/README.md)** — It is a central lung cancer that strangles the airway: SCLC arises centrally and grows fast, causing bronchial obstruction, post-obstructive pneumonia and superior vena cava syndrome.
+- `connects-to` → **[Digestive System](../digestive-system/README.md)** — It floods the liver with deposits: SCLC metastasises early and avidly to the liver, a common site at presentation that drives its dismal prognosis.
+- `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — It spreads to bone and weakens muscle: SCLC metastasises to the skeleton causing pain and fractures, and its paraneoplastic Lambert-Eaton myasthenic syndrome causes proximal muscle weakness.
 
 [^horn-2018-impower133]: Horn L, Mansfield AS, Szczęsna A, et al. First-line atezolizumab plus chemotherapy in extensive-stage small-cell lung cancer. *N Engl J Med.* 2018;379(23):2220-2229. [doi:10.1056/NEJMoa1809064](https://doi.org/10.1056/NEJMoa1809064) · [PubMed 30280641](https://pubmed.ncbi.nlm.nih.gov/30280641/)
 [^paz-ares-2019-caspian]: Paz-Ares L, Dvorkin M, Chen Y, et al. Durvalumab plus platinum-etoposide versus platinum-etoposide in first-line treatment of extensive-stage small-cell lung cancer (CASPIAN). *Lancet.* 2019;394(10212):1929-1939. [doi:10.1016/S0140-6736(19)32222-6](https://doi.org/10.1016/S0140-6736(19)32222-6) · [PubMed 31590988](https://pubmed.ncbi.nlm.nih.gov/31590988/)
