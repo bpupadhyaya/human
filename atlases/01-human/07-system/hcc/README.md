@@ -202,6 +202,15 @@ cross_links:
   - target: 01-human/07-system/type-1-diabetes
     relation: connects-to
     note: "Its checkpoint immunotherapy can trigger autoimmune diabetes: the PD-L1 inhibitor atezolizumab used for advanced HCC can unleash autoimmunity against pancreatic islets, causing insulin-dependent diabetes."
+  - target: 01-human/07-system/digestive-system
+    relation: connects-to
+    note: "It is a cancer of a digestive organ on a failing one: HCC almost always arises in a cirrhotic liver, so portal hypertension, oesophageal varices and ascites dominate its course alongside the tumour."
+  - target: 01-human/07-system/nervous-system
+    relation: connects-to
+    note: "A failing tumour-bearing liver poisons the brain: as the cirrhosis underlying HCC decompensates, ammonia and toxins it can no longer clear accumulate, producing hepatic encephalopathy with confusion and coma."
+  - target: 01-human/07-system/generalized-anxiety-disorder
+    relation: connects-to
+    note: "A grim cancer watched on a sick liver breeds worry: the poor prognosis, surveillance imaging and decompensation risk of HCC on cirrhosis foster chronic health anxiety alongside depression."
 ---
 
 # Hepatocellular Carcinoma
@@ -401,6 +410,9 @@ In high-risk patients (cirrhosis, HBV regardless of cirrhosis): ultrasound ± AF
 - `connects-to` → **[Heart Failure](../heart-failure/README.md)** — Its targeted drugs strain the heart: the multikinase inhibitors sorafenib and lenvatinib used for advanced HCC raise blood pressure and are cardiotoxic, capable of precipitating heart failure.
 - `connects-to` → **[Osteoporosis](../osteoporosis/README.md)** — Cirrhosis behind it weakens bone: the impaired vitamin D metabolism and hepatic osteodystrophy of the cirrhosis that underlies most HCC — compounded by post-transplant steroids — drive bone loss.
 - `connects-to` → **[Type 1 Diabetes](../type-1-diabetes/README.md)** — Its checkpoint immunotherapy can trigger autoimmune diabetes: the PD-L1 inhibitor atezolizumab used for advanced HCC can unleash autoimmunity against pancreatic islets, causing insulin-dependent diabetes.
+- `connects-to` → **[Digestive System](../digestive-system/README.md)** — It is a cancer of a digestive organ on a failing one: HCC almost always arises in a cirrhotic liver, so portal hypertension, oesophageal varices and ascites dominate its course alongside the tumour.
+- `connects-to` → **[Nervous System](../nervous-system/README.md)** — A failing tumour-bearing liver poisons the brain: as the cirrhosis underlying HCC decompensates, ammonia and toxins it can no longer clear accumulate, producing hepatic encephalopathy with confusion and coma.
+- `connects-to` → **[Generalized Anxiety Disorder](../generalized-anxiety-disorder/README.md)** — A grim cancer watched on a sick liver breeds worry: the poor prognosis, surveillance imaging and decompensation risk of HCC on cirrhosis foster chronic health anxiety alongside depression.
 
 [^llovet-2008-sorafenib]: Llovet JM, Ricci S, Mazzaferro V, et al. Sorafenib in advanced hepatocellular carcinoma. *N Engl J Med.* 2008;359(4):378-390. [doi:10.1056/NEJMoa0708857](https://doi.org/10.1056/NEJMoa0708857) · [PubMed 18650514](https://pubmed.ncbi.nlm.nih.gov/18650514/)
 [^finn-2020-imbrave150]: Finn RS, Qin S, Ikeda M, et al. Atezolizumab plus bevacizumab in unresectable hepatocellular carcinoma. *N Engl J Med.* 2020;382(20):1894-1905. [doi:10.1056/NEJMoa1915745](https://doi.org/10.1056/NEJMoa1915745) · [PubMed 32402160](https://pubmed.ncbi.nlm.nih.gov/32402160/)

@@ -211,6 +211,15 @@ cross_links:
   - target: 01-human/07-system/neuropathic-pain
     relation: connects-to
     note: "It attacks the peripheral nerves: HIV causes a distal sensory polyneuropathy directly, and older antiretrovirals added their own neurotoxicity, producing chronic burning neuropathic pain in the feet."
+  - target: 01-human/07-system/integumentary-system
+    relation: connects-to
+    note: "The skin flags the infection: HIV brings Kaposi sarcoma, severe seborrhoeic dermatitis, extensive herpes and zoster, eosinophilic folliculitis and antiretroviral drug rashes, often the first visible clues."
+  - target: 01-human/07-system/digestive-system
+    relation: connects-to
+    note: "It wastes and infects the gut: HIV enteropathy and opportunistic infections cause chronic diarrhoea and wasting, with oral and oesophageal candidiasis and antiretroviral GI side effects."
+  - target: 01-human/07-system/generalized-anxiety-disorder
+    relation: connects-to
+    note: "A chronic, stigmatised, lifelong infection breeds worry: the diagnosis, disclosure fears, adherence demands and stigma of HIV foster chronic health anxiety alongside its well-recognised depression."
 ---
 
 # HIV
@@ -410,6 +419,9 @@ The **latent reservoir** — HIV integrated into quiescent resting memory CD4+ T
 - `connects-to` → **[Stroke](../stroke/README.md)** — It inflames and ages the arteries: chronic HIV drives accelerated atherosclerosis and an HIV-associated vasculopathy, and with antiretroviral metabolic effects raises the risk of ischemic stroke.
 - `connects-to` → **[Osteoporosis](../osteoporosis/README.md)** — The virus and its drugs thin the bones: chronic HIV inflammation plus tenofovir-based antiretroviral therapy lower bone mineral density, giving people with HIV markedly higher rates of osteoporosis and fracture.
 - `connects-to` → **[Neuropathic Pain](../neuropathic-pain/README.md)** — It attacks the peripheral nerves: HIV causes a distal sensory polyneuropathy directly, and older antiretrovirals added their own neurotoxicity, producing chronic burning neuropathic pain in the feet.
+- `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — The skin flags the infection: HIV brings Kaposi sarcoma, severe seborrhoeic dermatitis, extensive herpes and zoster, eosinophilic folliculitis and antiretroviral drug rashes, often the first visible clues.
+- `connects-to` → **[Digestive System](../digestive-system/README.md)** — It wastes and infects the gut: HIV enteropathy and opportunistic infections cause chronic diarrhoea and wasting, with oral and oesophageal candidiasis and antiretroviral GI side effects.
+- `connects-to` → **[Generalized Anxiety Disorder](../generalized-anxiety-disorder/README.md)** — A chronic, stigmatised, lifelong infection breeds worry: the diagnosis, disclosure fears, adherence demands and stigma of HIV foster chronic health anxiety alongside its well-recognised depression.
 
 [^barre-sinoussi-1983-hiv-isolation]: Barré-Sinoussi F, Chermann JC, Rey F, et al. Isolation of a T-lymphotropic retrovirus from a patient at risk for acquired immune deficiency syndrome (AIDS). *Science.* 1983;220(4599):868-871. [doi:10.1126/science.6189183](https://doi.org/10.1126/science.6189183) · [PubMed 6189183](https://pubmed.ncbi.nlm.nih.gov/6189183/)
 [^ho-1995-viral-dynamics]: Ho DD, Neumann AU, Perelson AS, et al. Rapid turnover of plasma virions and CD4 lymphocytes in HIV-1 infection. *Nature.* 1995;373(6510):123-126. [doi:10.1038/373123a0](https://doi.org/10.1038/373123a0) · [PubMed 7816094](https://pubmed.ncbi.nlm.nih.gov/7816094/)
