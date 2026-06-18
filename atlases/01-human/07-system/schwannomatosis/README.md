@@ -214,6 +214,15 @@ cross_links:
   - target: 01-human/07-system/respiratory-system
     relation: connects-to
     note: "Tumours and opioids both threaten breathing: intrathoracic or vagal schwannomas can compress the airway, and the high-dose opioids used for its pain carry a risk of respiratory depression."
+  - target: 01-human/07-system/renal-system
+    relation: connects-to
+    note: "Pelvic tumours can block the urinary tract: retroperitoneal and pelvic schwannomas can compress the ureters and bladder, causing obstruction and urinary symptoms."
+  - target: 01-human/07-system/cardiovascular-system
+    relation: connects-to
+    note: "Chest tumours sit against the great vessels: intrathoracic and paraspinal schwannomas can lie against the great vessels and sympathetic chain, complicating surgery and causing autonomic symptoms."
+  - target: 01-human/07-system/immune-system
+    relation: connects-to
+    note: "Its tumour-suppressor loss shapes immunity: the SMARCB1 (SWI/SNF) loss it shares with rhabdoid tumours alters chromatin regulation and the tumour's immune microenvironment."
 ---
 
 # Schwannomatosis
@@ -381,6 +390,9 @@ Both NF2 (22q12.2), SMARCB1 (22q11.23), and LZTR1 (22q11.21) are on chromosome 2
 - `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — Its tumours can be felt under the skin: schwannomatosis produces cutaneous and subcutaneous schwannomas as palpable, often painful nodules along peripheral nerves.
 - `connects-to` → **[Endocrine System](../endocrine-system/README.md)** — Its chronic opioids suppress the hormones: the long-term opioid therapy that controls schwannomatosis pain causes opioid-induced androgen deficiency with hypogonadism and low libido.
 - `connects-to` → **[Respiratory System](../respiratory-system/README.md)** — Tumours and opioids both threaten breathing: intrathoracic or vagal schwannomas can compress the airway, and the high-dose opioids used for its pain carry a risk of respiratory depression.
+- `connects-to` → **[Renal System](../renal-system/README.md)** — Pelvic tumours can block the urinary tract: retroperitoneal and pelvic schwannomas can compress the ureters and bladder, causing obstruction and urinary symptoms.
+- `connects-to` → **[Cardiovascular System](../cardiovascular-system/README.md)** — Chest tumours sit against the great vessels: intrathoracic and paraspinal schwannomas can lie against the great vessels and sympathetic chain, complicating surgery and causing autonomic symptoms.
+- `connects-to` → **[Immune System](../immune-system/README.md)** — Its tumour-suppressor loss shapes immunity: the SMARCB1 (SWI/SNF) loss it shares with rhabdoid tumours alters chromatin regulation and the tumour's immune microenvironment.
 
 [^merker-2012-schwannomatosis]: Merker VL, Esparza S, Smith MJ, Stemmer-Rachamimov A, Plotkin SR. Clinical features of schwannomatosis: a retrospective analysis of 87 patients. *Oncologist.* 2012;17(10):1317-1322. [doi:10.1634/theoncologist.2012-0162](https://doi.org/10.1634/theoncologist.2012-0162) · [PubMed 22927469](https://pubmed.ncbi.nlm.nih.gov/22927469/)
 [^piotrowski-2014-lztr1]: Piotrowski A, Xie J, Liu YF, et al. Germline loss-of-function mutations in LZTR1 predispose to an inherited disorder of multiple schwannomas. *Nat Genet.* 2014;46(2):182-187. [doi:10.1038/ng.2855](https://doi.org/10.1038/ng.2855) · [PubMed 24362817](https://pubmed.ncbi.nlm.nih.gov/24362817/)

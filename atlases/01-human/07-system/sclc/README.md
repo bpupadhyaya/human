@@ -214,6 +214,15 @@ cross_links:
   - target: 01-human/07-system/musculoskeletal-system
     relation: connects-to
     note: "It spreads to bone and weakens muscle: SCLC metastasises to the skeleton causing pain and fractures, and its paraneoplastic Lambert-Eaton myasthenic syndrome causes proximal muscle weakness."
+  - target: 01-human/07-system/lymphatic-system
+    relation: connects-to
+    note: "It floods the nodes early: small cell lung cancer spreads rapidly and extensively to mediastinal and distant lymph nodes, central to its limited-versus-extensive staging."
+  - target: 01-human/07-system/cardiovascular-system
+    relation: connects-to
+    note: "Central tumours strangle the great veins: a central SCLC commonly causes superior vena cava obstruction with facial swelling and distended veins, and can invade the pericardium causing effusion."
+  - target: 01-human/07-system/renal-system
+    relation: connects-to
+    note: "Its drugs and hormones strain the kidney: the platinum chemotherapy for SCLC is nephrotoxic, and paraneoplastic SIADH causes profound hyponatraemia needing careful correction."
 ---
 
 # Small Cell Lung Cancer
@@ -389,6 +398,9 @@ SCLC has highest rate of brain metastases among solid tumors (~50% at 2 years); 
 - `connects-to` → **[Respiratory System](../respiratory-system/README.md)** — It is a central lung cancer that strangles the airway: SCLC arises centrally and grows fast, causing bronchial obstruction, post-obstructive pneumonia and superior vena cava syndrome.
 - `connects-to` → **[Digestive System](../digestive-system/README.md)** — It floods the liver with deposits: SCLC metastasises early and avidly to the liver, a common site at presentation that drives its dismal prognosis.
 - `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — It spreads to bone and weakens muscle: SCLC metastasises to the skeleton causing pain and fractures, and its paraneoplastic Lambert-Eaton myasthenic syndrome causes proximal muscle weakness.
+- `connects-to` → **[Lymphatic System](../lymphatic-system/README.md)** — It floods the nodes early: small cell lung cancer spreads rapidly and extensively to mediastinal and distant lymph nodes, central to its limited-versus-extensive staging.
+- `connects-to` → **[Cardiovascular System](../cardiovascular-system/README.md)** — Central tumours strangle the great veins: a central SCLC commonly causes superior vena cava obstruction with facial swelling and distended veins, and can invade the pericardium causing effusion.
+- `connects-to` → **[Renal System](../renal-system/README.md)** — Its drugs and hormones strain the kidney: the platinum chemotherapy for SCLC is nephrotoxic, and paraneoplastic SIADH causes profound hyponatraemia needing careful correction.
 
 [^horn-2018-impower133]: Horn L, Mansfield AS, Szczęsna A, et al. First-line atezolizumab plus chemotherapy in extensive-stage small-cell lung cancer. *N Engl J Med.* 2018;379(23):2220-2229. [doi:10.1056/NEJMoa1809064](https://doi.org/10.1056/NEJMoa1809064) · [PubMed 30280641](https://pubmed.ncbi.nlm.nih.gov/30280641/)
 [^paz-ares-2019-caspian]: Paz-Ares L, Dvorkin M, Chen Y, et al. Durvalumab plus platinum-etoposide versus platinum-etoposide in first-line treatment of extensive-stage small-cell lung cancer (CASPIAN). *Lancet.* 2019;394(10212):1929-1939. [doi:10.1016/S0140-6736(19)32222-6](https://doi.org/10.1016/S0140-6736(19)32222-6) · [PubMed 31590988](https://pubmed.ncbi.nlm.nih.gov/31590988/)
