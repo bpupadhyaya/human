@@ -232,6 +232,15 @@ cross_links:
   - target: 01-human/07-system/integumentary-system
     relation: connects-to
     note: "Drugs and self-neglect mark the skin: chlorpromazine causes photosensitivity and slate-grey pigmentation, and the self-neglect of severe illness contributes to skin and dental problems."
+  - target: 02-pathogen/01-viruses/influenza-a
+    relation: connects-to
+    note: "Maternal infection raises the risk: prenatal exposure to influenza and other infections is linked to higher schizophrenia risk through maternal immune activation affecting fetal brain development."
+  - target: 03-medicine/03-food/omega-3-fatty-acids
+    relation: connects-to
+    note: "Diet is studied in early psychosis: omega-3 supplementation has been trialled to delay transition in those at high clinical risk of psychosis, with mixed results."
+  - target: 03-medicine/01-modern/10-mental-health/fluoxetine
+    relation: connects-to
+    note: "Antidepressants augment treatment: SSRIs like fluoxetine are added to antipsychotics for the depressive and negative symptoms that often accompany schizophrenia."
 ---
 
 # Schizophrenia
@@ -467,6 +476,9 @@ Notably, schizophrenia shares genetic loci with bipolar disorder, ASD, ADHD, maj
 - `connects-to` → **[Renal System](../renal-system/README.md)** — Water and muscle breakdown threaten the kidney: psychogenic polydipsia causes water intoxication with hyponatraemia, and neuroleptic malignant syndrome with rhabdomyolysis can cause acute kidney injury.
 - `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — Antipsychotics act on muscle and movement: they cause acute dystonia, drug-induced parkinsonism and tardive dyskinesia, and neuroleptic malignant syndrome brings life-threatening muscle rigidity.
 - `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — Drugs and self-neglect mark the skin: chlorpromazine causes photosensitivity and slate-grey pigmentation, and the self-neglect of severe illness contributes to skin and dental problems.
+- `connects-to` → **[Influenza A](../../../02-pathogen/01-viruses/influenza-a/README.md)** — Maternal infection raises the risk: prenatal exposure to influenza and other infections is linked to higher schizophrenia risk through maternal immune activation affecting fetal brain development.
+- `connects-to` → **[Omega-3 fatty acids](../../../03-medicine/03-food/omega-3-fatty-acids/README.md)** — Diet is studied in early psychosis: omega-3 supplementation has been trialled to delay transition in those at high clinical risk of psychosis, with mixed results.
+- `connects-to` → **[Fluoxetine](../../../03-medicine/01-modern/10-mental-health/fluoxetine/README.md)** — Antidepressants augment treatment: SSRIs like fluoxetine are added to antipsychotics for the depressive and negative symptoms that often accompany schizophrenia.
 
 [^howes-2009-dopamine-hypothesis]: Howes OD, Kapur S. The dopamine hypothesis of schizophrenia: version III—the final common pathway. *Schizophr Bull.* 2009;35(3):549-562. [doi:10.1093/schbul/sbp006](https://doi.org/10.1093/schbul/sbp006) · [PubMed 19325164](https://pubmed.ncbi.nlm.nih.gov/19325164/)
 [^moghaddam-2012-glutamate]: Moghaddam B, Javitt D. From revolution to evolution: the glutamate hypothesis of schizophrenia and its implication for treatment. *Neuropsychopharmacology.* 2012;37(1):4-15. [doi:10.1038/npp.2011.181](https://doi.org/10.1038/npp.2011.181) · [PubMed 21956446](https://pubmed.ncbi.nlm.nih.gov/21956446/)

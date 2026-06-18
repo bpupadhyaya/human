@@ -223,6 +223,15 @@ cross_links:
   - target: 01-human/07-system/cardiovascular-system
     relation: connects-to
     note: "That chemotherapy can scar the heart: the doxorubicin in osteosarcoma regimens for Rothmund-Thomson carries a dose-dependent cardiotoxicity risk."
+  - target: 01-human/07-system/nervous-system
+    relation: connects-to
+    note: "Juvenile cataracts cloud its vision: Rothmund-Thomson syndrome characteristically causes early bilateral cataracts, part of its multisystem developmental defects."
+  - target: 03-medicine/01-modern/13-cancer/targeted-therapy
+    relation: connects-to
+    note: "Its osteosarcomas may need targeted drugs: the high osteosarcoma risk of Rothmund-Thomson syndrome is treated with chemotherapy and, in relapse, the multikinase inhibitors used for sporadic osteosarcoma."
+  - target: 01-human/07-system/lymphatic-system
+    relation: connects-to
+    note: "Some patients are immunodeficient: a subset of Rothmund-Thomson syndrome has impaired immunity with low immunoglobulins and recurrent infections, reflecting its broad developmental defect."
 ---
 
 # Rothmund-Thomson Syndrome
@@ -428,6 +437,9 @@ The cardinal features of RTS type II are: (1) **poikiloderma** — the defining 
 - `connects-to` → **[Immune System](../immune-system/README.md)** — A subset have weakened immunity: some Rothmund-Thomson patients show immune dysfunction with recurrent infections and impaired antibody responses, on top of the chemo-related immunosuppression.
 - `connects-to` → **[Renal System](../renal-system/README.md)** — Its sarcoma chemotherapy taxes the kidney: the cisplatin and high-dose methotrexate used for RTS-associated osteosarcoma are nephrotoxic, needing protective hydration and rescue.
 - `connects-to` → **[Cardiovascular System](../cardiovascular-system/README.md)** — That chemotherapy can scar the heart: the doxorubicin in osteosarcoma regimens for Rothmund-Thomson carries a dose-dependent cardiotoxicity risk.
+- `connects-to` → **[Nervous System](../nervous-system/README.md)** — Juvenile cataracts cloud its vision: Rothmund-Thomson syndrome characteristically causes early bilateral cataracts, part of its multisystem developmental defects.
+- `connects-to` → **[Targeted Therapy](../../../03-medicine/01-modern/13-cancer/targeted-therapy/README.md)** — Its osteosarcomas may need targeted drugs: the high osteosarcoma risk of Rothmund-Thomson syndrome is treated with chemotherapy and, in relapse, the multikinase inhibitors used for sporadic osteosarcoma.
+- `connects-to` → **[Lymphatic System](../lymphatic-system/README.md)** — Some patients are immunodeficient: a subset of Rothmund-Thomson syndrome has impaired immunity with low immunoglobulins and recurrent infections, reflecting its broad developmental defect.
 
 [^kitao-1999-recql4-rts]: Kitao S, Shimamoto A, Goto M, et al. Mutations in RECQL4 cause a subset of cases of Rothmund-Thomson syndrome. *Nat Genet.* 1999;22(1):82-84. [doi:10.1038/8788](https://doi.org/10.1038/8788) · [PubMed 10319867](https://pubmed.ncbi.nlm.nih.gov/10319867/)
 [^wang-2003-rts-cancer]: Wang LL, Gannavarapu A, Kozinetz CA, et al. Association between osteosarcoma and deleterious mutations in the RECQL4 gene in Rothmund-Thomson syndrome. *J Natl Cancer Inst.* 2003;95(9):669-674. [doi:10.1093/jnci/95.9.669](https://doi.org/10.1093/jnci/95.9.669) · [PubMed 12734318](https://pubmed.ncbi.nlm.nih.gov/12734318/)
