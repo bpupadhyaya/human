@@ -207,6 +207,15 @@ cross_links:
   - target: 01-human/07-system/wound-healing
     relation: connects-to
     note: "Nutrient deficits impair repair: the protein, zinc and vitamin deficiencies of bulimia's disordered eating deprive tissue of the substrate it needs, slowing wound healing."
+  - target: 01-human/07-system/cardiovascular-system
+    relation: connects-to
+    note: "Purging-driven hypokalaemia destabilises the heart: the potassium loss from repeated vomiting and laxative abuse in bulimia causes arrhythmias and QT prolongation, and ipecac abuse can cause a fatal cardiomyopathy."
+  - target: 01-human/07-system/integumentary-system
+    relation: connects-to
+    note: "Self-induced vomiting marks the skin: repeated use of the fingers to induce vomiting leaves Russell's sign — calluses and scarring over the knuckles — a telltale physical clue to bulimia."
+  - target: 01-human/07-system/panic-disorder
+    relation: connects-to
+    note: "Anxiety rides alongside the bingeing: panic and anxiety disorders are highly comorbid with bulimia, with the loss-of-control episodes and shame both fed by and feeding anxious arousal."
 ---
 
 # Bulimia Nervosa
@@ -399,6 +408,9 @@ All of the following must be met:
 - `connects-to` → **[Osteoporosis](../osteoporosis/README.md)** — Disordered eating thins the bones: the menstrual disruption, low estrogen and nutritional deficits of bulimia, despite often-normal weight, reduce bone density and raise fracture risk.
 - `connects-to` → **[Iron-Deficiency Anemia](../iron-deficiency-anemia/README.md)** — Poor intake and gut blood loss drain iron: the chaotic nutrition of bulimia, with esophageal and gastric mucosal damage from vomiting, leads to iron deficiency and anemia.
 - `connects-to` → **[Wound Healing](../wound-healing/README.md)** — Nutrient deficits impair repair: the protein, zinc and vitamin deficiencies of bulimia's disordered eating deprive tissue of the substrate it needs, slowing wound healing.
+- `connects-to` → **[Cardiovascular System](../cardiovascular-system/README.md)** — Purging-driven hypokalaemia destabilises the heart: the potassium loss from repeated vomiting and laxative abuse in bulimia causes arrhythmias and QT prolongation, and ipecac abuse can cause a fatal cardiomyopathy.
+- `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — Self-induced vomiting marks the skin: repeated use of the fingers to induce vomiting leaves Russell's sign — calluses and scarring over the knuckles — a telltale physical clue to bulimia.
+- `connects-to` → **[Panic Disorder](../panic-disorder/README.md)** — Anxiety rides alongside the bingeing: panic and anxiety disorders are highly comorbid with bulimia, with the loss-of-control episodes and shame both fed by and feeding anxious arousal.
 
 ## Treatment
 

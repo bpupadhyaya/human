@@ -205,6 +205,15 @@ cross_links:
   - target: 01-human/07-system/wound-healing
     relation: connects-to
     note: "Its DNA-repair defect makes tissue fragile to treatment: Bloom cells are hypersensitive to chemotherapy and radiation, so the doses used against its cancers cause severe tissue damage and poor healing."
+  - target: 01-human/07-system/integumentary-system
+    relation: connects-to
+    note: "Sunlight inflames its skin: Bloom syndrome causes a photosensitive telangiectatic butterfly erythema across the face, along with café-au-lait macules and a raised risk of skin cancer."
+  - target: 01-human/07-system/endocrine-system
+    relation: connects-to
+    note: "It stunts growth and disturbs metabolism: Bloom syndrome features severe proportionate short stature, and patients develop diabetes and hypogonadism with subfertility, tying it to the endocrine system."
+  - target: 01-human/07-system/generalized-anxiety-disorder
+    relation: connects-to
+    note: "Profound cancer risk breeds worry: the chromosomal instability and very high lifetime malignancy risk of Bloom syndrome demand lifelong surveillance that fosters chronic health anxiety."
 ---
 
 # Bloom Syndrome
@@ -405,6 +414,9 @@ BS is characterized by three cardinal features: **small body size** (the most co
 - `connects-to` → **[Streptococcus pneumoniae](../../../02-pathogen/02-bacteria/streptococcus-pneumoniae/README.md)** — Its immunodeficiency invites recurrent infection: Bloom syndrome includes an antibody deficiency that leaves patients prone to recurrent respiratory and ear infections, often pneumococcal.
 - `connects-to` → **[Aspergillus fumigatus](../../../02-pathogen/03-fungi/aspergillus-fumigatus/README.md)** — Immune defects and cancer therapy open the lung to mold: the immunodeficiency of Bloom syndrome, compounded by chemotherapy for its frequent cancers, can permit invasive aspergillosis.
 - `connects-to` → **[Wound Healing](../wound-healing/README.md)** — Its DNA-repair defect makes tissue fragile to treatment: Bloom cells are hypersensitive to chemotherapy and radiation, so the doses used against its cancers cause severe tissue damage and poor healing.
+- `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — Sunlight inflames its skin: Bloom syndrome causes a photosensitive telangiectatic butterfly erythema across the face, along with café-au-lait macules and a raised risk of skin cancer.
+- `connects-to` → **[Endocrine System](../endocrine-system/README.md)** — It stunts growth and disturbs metabolism: Bloom syndrome features severe proportionate short stature, and patients develop diabetes and hypogonadism with subfertility, tying it to the endocrine system.
+- `connects-to` → **[Generalized Anxiety Disorder](../generalized-anxiety-disorder/README.md)** — Profound cancer risk breeds worry: the chromosomal instability and very high lifetime malignancy risk of Bloom syndrome demand lifelong surveillance that fosters chronic health anxiety.
 
 ---
 
