@@ -223,6 +223,15 @@ cross_links:
   - target: 01-human/07-system/integumentary-system
     relation: connects-to
     note: "It marks the skin: thrombocytopenia causes petechiae and bruising, and leukemic infiltration produces leukemia cutis and, occasionally, chloromas."
+  - target: 01-human/07-system/cardiovascular-system
+    relation: connects-to
+    note: "Its chemotherapy bruises the heart: anthracyclines like daunorubicin used in ALL induction can cause cardiomyopathy, a late effect that follows childhood survivors for life."
+  - target: 01-human/07-system/respiratory-system
+    relation: connects-to
+    note: "It can fill the chest: T-cell ALL classically presents with a mediastinal mass compressing the airway and SVC, while immunosuppression invites pneumonia and fungal lung infection."
+  - target: 02-pathogen/01-viruses/herpesvirus
+    relation: connects-to
+    note: "Chemotherapy reawakens latent virus: under the deep immunosuppression of ALL treatment, cytomegalovirus reactivation and severe herpes-simplex infection are major threats, prompting surveillance and antiviral prophylaxis."
 ---
 
 # Acute Lymphoblastic Leukemia
@@ -431,6 +440,9 @@ Childhood ALL survivors (now majority of patients): neurocognitive impairment (M
 - `connects-to` → **[Lymphatic System](../lymphatic-system/README.md)** — It arises in and fills the lymphoid organs: ALL infiltrates lymph nodes, spleen and thymus, with T-cell ALL classically forming an anterior mediastinal mass alongside hepatosplenomegaly.
 - `connects-to` → **[Renal System](../renal-system/README.md)** — Treatment can flood and block the kidney: tumour lysis syndrome releases urate and potassium causing acute kidney injury, and leukemic cells can directly infiltrate the kidneys.
 - `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — It marks the skin: thrombocytopenia causes petechiae and bruising, and leukemic infiltration produces leukemia cutis and, occasionally, chloromas.
+- `connects-to` → **[Cardiovascular System](../cardiovascular-system/README.md)** — Its chemotherapy bruises the heart: anthracyclines like daunorubicin used in ALL induction can cause cardiomyopathy, a late effect that follows childhood survivors for life.
+- `connects-to` → **[Respiratory System](../respiratory-system/README.md)** — It can fill the chest: T-cell ALL classically presents with a mediastinal mass compressing the airway and SVC, while immunosuppression invites pneumonia and fungal lung infection.
+- `connects-to` → **[Herpesvirus](../../../02-pathogen/01-viruses/herpesvirus/README.md)** — Chemotherapy reawakens latent virus: under the deep immunosuppression of ALL treatment, cytomegalovirus reactivation and severe herpes-simplex infection are major threats, prompting surveillance and antiviral prophylaxis.
 
 [^pui-2018-all-cure]: Pui CH, Yang JJ, Bhakta N, et al. Global efforts toward the cure of childhood acute lymphoblastic leukemia. *Lancet Child Adolesc Health.* 2018;2(6):440-454. [doi:10.1016/S2352-4642(18)30066-X](https://doi.org/10.1016/S2352-4642(18)30066-X) · [PubMed 29976322](https://pubmed.ncbi.nlm.nih.gov/29976322/)
 [^maude-2018-tisagenlecleucel]: Maude SL, Laetsch TW, Buechner J, et al. Tisagenlecleucel in children and young adults with B-cell lymphoblastic leukemia. *N Engl J Med.* 2018;378(5):439-448. [doi:10.1056/NEJMoa1709866](https://doi.org/10.1056/NEJMoa1709866) · [PubMed 29385370](https://pubmed.ncbi.nlm.nih.gov/29385370/)

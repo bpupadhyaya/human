@@ -232,6 +232,15 @@ cross_links:
   - target: 01-human/07-system/integumentary-system
     relation: connects-to
     note: "Liver damage shows on the skin: spider naevi, palmar erythema and telangiectasia of alcohol-related liver disease appear on the skin, and alcohol can trigger porphyria cutanea tarda and psoriasis."
+  - target: 01-human/07-system/respiratory-system
+    relation: connects-to
+    note: "It opens the lungs to infection: alcohol impairs cough and airway defences, raising the risk of aspiration pneumonia, community-acquired pneumonia and tuberculosis, and predisposing to ARDS."
+  - target: 01-human/07-system/renal-system
+    relation: connects-to
+    note: "It unbalances fluids and salts: heavy drinking causes profound hypomagnesaemia and hypophosphataemia, and rhabdomyolysis or hepatorenal syndrome can precipitate acute kidney injury."
+  - target: 03-medicine/03-food/magnesium-dietary
+    relation: connects-to
+    note: "Drinking drains magnesium: chronic alcohol use depletes body magnesium, contributing to the tremor, arrhythmia and seizures of withdrawal, so replacement is routine."
 ---
 
 # Alcohol Use Disorder
@@ -483,6 +492,9 @@ Prenatal alcohol exposure → leading preventable cause of intellectual disabili
 - `connects-to` → **[Cardiovascular System](../cardiovascular-system/README.md)** — It disturbs the heart's rhythm and muscle: binge drinking triggers 'holiday heart' atrial fibrillation, and chronic use causes a dilated alcoholic cardiomyopathy alongside the hypertension it drives.
 - `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — It wastes muscle and kills bone: acute and chronic alcoholic myopathy weaken proximal muscles, and alcohol is a leading cause of avascular necrosis of the femoral head.
 - `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — Liver damage shows on the skin: spider naevi, palmar erythema and telangiectasia of alcohol-related liver disease appear on the skin, and alcohol can trigger porphyria cutanea tarda and psoriasis.
+- `connects-to` → **[Respiratory System](../respiratory-system/README.md)** — It opens the lungs to infection: alcohol impairs cough and airway defences, raising the risk of aspiration pneumonia, community-acquired pneumonia and tuberculosis, and predisposing to ARDS.
+- `connects-to` → **[Renal System](../renal-system/README.md)** — It unbalances fluids and salts: heavy drinking causes profound hypomagnesaemia and hypophosphataemia, and rhabdomyolysis or hepatorenal syndrome can precipitate acute kidney injury.
+- `connects-to` → **[Dietary Magnesium](../../../03-medicine/03-food/magnesium-dietary/README.md)** — Drinking drains magnesium: chronic alcohol use depletes body magnesium, contributing to the tremor, arrhythmia and seizures of withdrawal, so replacement is routine.
 
 [^koob-2013-addiction-neuroscience]: Koob GF, Volkow ND. Neurocircuitry of addiction. *Neuropsychopharmacology.* 2010;35(1):217-238. [doi:10.1038/npp.2009.110](https://doi.org/10.1038/npp.2009.110) · [PubMed 19710631](https://pubmed.ncbi.nlm.nih.gov/19710631/)
 [^anton-2006-combine]: Anton RF, O'Malley SS, Ciraulo DA, et al. Combined pharmacotherapies and behavioral interventions for alcohol dependence: the COMBINE study. *JAMA.* 2006;295(17):2003-2017. [doi:10.1001/jama.295.17.2003](https://doi.org/10.1001/jama.295.17.2003) · [PubMed 16670409](https://pubmed.ncbi.nlm.nih.gov/16670409/)
