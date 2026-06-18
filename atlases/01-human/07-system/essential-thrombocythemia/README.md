@@ -223,6 +223,15 @@ cross_links:
   - target: 01-human/07-system/renal-system
     relation: connects-to
     note: "Clots and urate strain the kidney: microvascular thrombosis and hyperuricaemia from high cell turnover can impair renal function, and renal vein thrombosis can occur in ET."
+  - target: 01-human/07-system/cardiovascular-system
+    relation: connects-to
+    note: "Its platelets clot the arteries: essential thrombocythemia causes arterial and venous thrombosis — stroke, myocardial infarction and the burning erythromelalgia of digital microvascular occlusion."
+  - target: 03-medicine/01-modern/04-cardio/aspirin
+    relation: connects-to
+    note: "Low-dose aspirin is standard: by inhibiting the excess platelets, aspirin reduces the thrombotic and erythromelalgia risk of essential thrombocythemia, alongside cytoreduction in high-risk disease."
+  - target: 01-human/07-system/musculoskeletal-system
+    relation: connects-to
+    note: "The myeloproliferative marrow reaches bone: the expanded marrow can cause bone discomfort, and progression to myelofibrosis brings a bulky spleen and skeletal symptoms."
 ---
 
 # Essential Thrombocythemia
@@ -409,6 +418,9 @@ Management:
 - `connects-to` → **[Lymphatic System](../lymphatic-system/README.md)** — It can enlarge the spleen: mild to moderate splenomegaly from extramedullary haematopoiesis and splenic platelet sequestration occurs in essential thrombocythemia.
 - `connects-to` → **[Respiratory System](../respiratory-system/README.md)** — Its clots can reach the lungs: the thrombotic tendency of ET causes pulmonary embolism, and microvascular pulmonary thrombosis can contribute to pulmonary hypertension.
 - `connects-to` → **[Renal System](../renal-system/README.md)** — Clots and urate strain the kidney: microvascular thrombosis and hyperuricaemia from high cell turnover can impair renal function, and renal vein thrombosis can occur in ET.
+- `connects-to` → **[Cardiovascular System](../cardiovascular-system/README.md)** — Its platelets clot the arteries: essential thrombocythemia causes arterial and venous thrombosis — stroke, myocardial infarction and the burning erythromelalgia of digital microvascular occlusion.
+- `connects-to` → **[Aspirin](../../../03-medicine/01-modern/04-cardio/aspirin/README.md)** — Low-dose aspirin is standard: by inhibiting the excess platelets, aspirin reduces the thrombotic and erythromelalgia risk of essential thrombocythemia, alongside cytoreduction in high-risk disease.
+- `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — The myeloproliferative marrow reaches bone: the expanded marrow can cause bone discomfort, and progression to myelofibrosis brings a bulky spleen and skeletal symptoms.
 
 [^harrison-2005-pt1-et]: Harrison CN, Campbell PJ, Buck G, et al. Hydroxyurea compared with anagrelide in high-risk essential thrombocythemia. *N Engl J Med.* 2005;353(1):33-45. [doi:10.1056/NEJMoa043800](https://doi.org/10.1056/NEJMoa043800) · [PubMed 16000354](https://pubmed.ncbi.nlm.nih.gov/16000354/)
 [^barbui-2012-ipset]: Barbui T, Finazzi G, Carobbio A, et al. Development and validation of an International Prognostic Score of thrombosis in World Health Organization-essential thrombocythemia (IPSET-thrombosis). *Blood.* 2012;120(26):5128-5133. [doi:10.1182/blood-2012-07-444067](https://doi.org/10.1182/blood-2012-07-444067) · [PubMed 23086758](https://pubmed.ncbi.nlm.nih.gov/23086758/)

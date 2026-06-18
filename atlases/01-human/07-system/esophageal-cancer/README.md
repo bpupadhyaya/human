@@ -223,6 +223,15 @@ cross_links:
   - target: 01-human/07-system/endocrine-system
     relation: connects-to
     note: "It can raise the blood calcium: squamous-cell oesophageal cancer can secrete parathyroid-hormone-related peptide, causing paraneoplastic hypercalcaemia."
+  - target: 01-human/07-system/immune-system
+    relation: connects-to
+    note: "Immunotherapy now treats it: PD-1 checkpoint inhibitors are used in advanced and adjuvant oesophageal cancer, while chronic reflux-driven inflammation underlies the adenocarcinoma."
+  - target: 01-human/07-system/integumentary-system
+    relation: connects-to
+    note: "The skin can flag it: the hereditary palmoplantar keratoderma tylosis (Howel-Evans) strongly predisposes to oesophageal squamous-cell cancer, and paraneoplastic acanthosis nigricans can appear."
+  - target: 01-human/07-system/musculoskeletal-system
+    relation: connects-to
+    note: "It links to muscle and bone: oesophageal cancer can present with paraneoplastic dermatomyositis, and advanced disease metastasises to the skeleton."
 ---
 
 # Esophageal Cancer
@@ -429,6 +438,9 @@ T1a: Lamina propria/muscularis mucosae; T1b: Submucosa; T2: Muscularis propria; 
 - `connects-to` → **[Cardiovascular System](../cardiovascular-system/README.md)** — It can erode into the great vessels: locally invasive oesophageal cancer can create a catastrophic aorto-oesophageal fistula with massive haemorrhage, or invade the pericardium.
 - `connects-to` → **[Nervous System](../nervous-system/README.md)** — It silences the voice: tumour invasion of the recurrent laryngeal nerve causes hoarseness, a clinical sign of mediastinal spread of oesophageal cancer.
 - `connects-to` → **[Endocrine System](../endocrine-system/README.md)** — It can raise the blood calcium: squamous-cell oesophageal cancer can secrete parathyroid-hormone-related peptide, causing paraneoplastic hypercalcaemia.
+- `connects-to` → **[Immune System](../immune-system/README.md)** — Immunotherapy now treats it: PD-1 checkpoint inhibitors are used in advanced and adjuvant oesophageal cancer, while chronic reflux-driven inflammation underlies the adenocarcinoma.
+- `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — The skin can flag it: the hereditary palmoplantar keratoderma tylosis (Howel-Evans) strongly predisposes to oesophageal squamous-cell cancer, and paraneoplastic acanthosis nigricans can appear.
+- `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — It links to muscle and bone: oesophageal cancer can present with paraneoplastic dermatomyositis, and advanced disease metastasises to the skeleton.
 
 ---
 
