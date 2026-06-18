@@ -232,6 +232,15 @@ cross_links:
   - target: 01-human/07-system/neurofibromatosis-type-2
     relation: connects-to
     note: "A fellow CNS-and-eye tumour syndrome: like NF2 with its schwannomas and retinal hamartomas, VHL produces nervous-system and retinal tumours (haemangioblastomas) in an autosomal-dominant pattern."
+  - target: 01-human/05-tissue/islet-of-langerhans
+    relation: connects-to
+    note: "It grows pancreatic islet tumours: VHL causes pancreatic neuroendocrine tumours arising from islet cells, alongside the more common serous cysts, requiring imaging surveillance because larger lesions can metastasise."
+  - target: 03-medicine/01-modern/13-cancer/cancer-chemotherapy
+    relation: connects-to
+    note: "Its tumours resist cytotoxics: the renal cancers, haemangioblastomas and neuroendocrine tumours of VHL respond poorly to conventional chemotherapy, so care centres on surgery, ablation and HIF-2α-targeted belzutifan instead."
+  - target: 01-human/07-system/gist
+    relation: connects-to
+    note: "A shared pseudohypoxia pathway: SDH-deficient GIST, like VHL tumours, stabilises HIF through a pseudohypoxic state — the hypoxia-signalling axis that, via VHL and SDHB defects, unifies VHL pheochromocytomas, paragangliomas and these stromal tumours."
 ---
 
 # VHL Disease
@@ -425,6 +434,9 @@ The genotype-phenotype correlation reflects the degree of pVHL function retained
 - `connects-to` → **[Targeted Therapy](../../../03-medicine/01-modern/13-cancer/targeted-therapy/README.md)** — A HIF inhibitor now treats it: belzutifan, which blocks HIF-2α stabilised by VHL loss, shrinks the renal cancers and haemangioblastomas of von Hippel-Lindau disease.
 - `connects-to` → **[Immune System](../immune-system/README.md)** — Its kidney cancers respond to immunotherapy: VHL-driven clear-cell renal carcinoma is treated with checkpoint immunotherapy, and the pseudohypoxic HIF state shapes its immune microenvironment.
 - `connects-to` → **[Neurofibromatosis Type 2](../neurofibromatosis-type-2/README.md)** — A fellow CNS-and-eye tumour syndrome: like NF2 with its schwannomas and retinal hamartomas, VHL produces nervous-system and retinal tumours (haemangioblastomas) in an autosomal-dominant pattern.
+- `connects-to` → **[Islet of Langerhans](../../05-tissue/islet-of-langerhans/README.md)** — It grows pancreatic islet tumours: VHL causes pancreatic neuroendocrine tumours arising from islet cells, alongside the more common serous cysts, requiring imaging surveillance because larger lesions can metastasise.
+- `connects-to` → **[Cancer Chemotherapy](../../../03-medicine/01-modern/13-cancer/cancer-chemotherapy/README.md)** — Its tumours resist cytotoxics: the renal cancers, haemangioblastomas and neuroendocrine tumours of VHL respond poorly to conventional chemotherapy, so care centres on surgery, ablation and HIF-2α-targeted belzutifan instead.
+- `connects-to` → **[GIST](../gist/README.md)** — A shared pseudohypoxia pathway: SDH-deficient GIST, like VHL tumours, stabilises HIF through a pseudohypoxic state — the hypoxia-signalling axis that, via VHL and SDHB defects, unifies VHL pheochromocytomas, paragangliomas and these stromal tumours.
 
 [^lonser-2003-vhl-disease]: Lonser RR, Glenn GM, Walther M, et al. von Hippel-Lindau disease. *Lancet.* 2003;361(9374):2059-2067. [doi:10.1016/S0140-6736(03)13643-4](https://doi.org/10.1016/S0140-6736(03)13643-4) · [PubMed 12814730](https://pubmed.ncbi.nlm.nih.gov/12814730/)
 [^choueiri-2020-hif2-rcc]: Choueiri TK, Kaelin WG Jr. Targeting the HIF2-VEGF axis in renal cell carcinoma. *Nat Med.* 2020;26(10):1519-1530. [doi:10.1038/s41591-020-1093-z](https://doi.org/10.1038/s41591-020-1093-z) · [PubMed 33020650](https://pubmed.ncbi.nlm.nih.gov/33020650/)

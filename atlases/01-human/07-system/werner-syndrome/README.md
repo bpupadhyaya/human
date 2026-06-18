@@ -232,6 +232,15 @@ cross_links:
   - target: 03-medicine/01-modern/04-cardio/aspirin
     relation: connects-to
     note: "Antiplatelet cover follows the early arteries: the premature coronary and cerebrovascular disease of Werner syndrome prompts aspirin for secondary prevention, as in other accelerated-atherosclerosis states."
+  - target: 03-medicine/01-modern/13-cancer/cancer-chemotherapy
+    relation: connects-to
+    note: "Its cancers need careful chemo: Werner syndrome predisposes to sarcomas, thyroid cancer and melanoma, but WRN-deficient cells are hypersensitive to DNA-crosslinking and topoisomerase agents, so chemotherapy must be dosed cautiously to limit toxicity."
+  - target: 01-human/05-tissue/cortical-bone
+    relation: connects-to
+    note: "It thins and warps bone: Werner syndrome causes early osteoporosis concentrated in the distal limbs, soft-tissue and tendon calcification, and a raised risk of osteosarcoma at unusual sites such as the patella and feet."
+  - target: 01-human/05-tissue/arterial-wall
+    relation: connects-to
+    note: "The artery wall itself ages: beyond lipids, Werner syndrome thickens the intima and lays down medial and arteriolar calcification, the structural arterial-wall changes that make its atherosclerosis so premature and diffuse."
 ---
 
 # Werner Syndrome
@@ -466,6 +475,9 @@ cross_links:
 - `connects-to` → **[Metformin](../../../03-medicine/01-modern/07-metabolic/metformin/README.md)** — Its early diabetes needs control: Werner syndrome causes insulin-resistant diabetes in early adulthood, managed with metformin as part of its accelerated metabolic ageing.
 - `connects-to` → **[Statins](../../../03-medicine/01-modern/04-cardio/statins/README.md)** — Premature atherosclerosis demands lipid control: Werner syndrome brings early, severe atherosclerosis, and statins are used against the dyslipidaemia and vascular disease that often kill these patients young.
 - `connects-to` → **[Aspirin](../../../03-medicine/01-modern/04-cardio/aspirin/README.md)** — Antiplatelet cover follows the early arteries: the premature coronary and cerebrovascular disease of Werner syndrome prompts aspirin for secondary prevention, as in other accelerated-atherosclerosis states.
+- `connects-to` → **[Cancer Chemotherapy](../../../03-medicine/01-modern/13-cancer/cancer-chemotherapy/README.md)** — Its cancers need careful chemo: Werner syndrome predisposes to sarcomas, thyroid cancer and melanoma, but WRN-deficient cells are hypersensitive to DNA-crosslinking and topoisomerase agents, so chemotherapy must be dosed cautiously to limit toxicity.
+- `connects-to` → **[Cortical Bone](../../05-tissue/cortical-bone/README.md)** — It thins and warps bone: Werner syndrome causes early osteoporosis concentrated in the distal limbs, soft-tissue and tendon calcification, and a raised risk of osteosarcoma at unusual sites such as the patella and feet.
+- `connects-to` → **[Arterial Wall](../../05-tissue/arterial-wall/README.md)** — The artery wall itself ages: beyond lipids, Werner syndrome thickens the intima and lays down medial and arteriolar calcification, the structural arterial-wall changes that make its atherosclerosis so premature and diffuse.
 
 [^yu-1996-wrn]: Yu CE, Oshima J, Fu YH, et al. Positional cloning of the Werner's syndrome gene. *Science.* 1996;272(5259):258-262. [doi:10.1126/science.272.5259.258](https://doi.org/10.1126/science.272.5259.258) · [PubMed 8602509](https://pubmed.ncbi.nlm.nih.gov/8602509/)
 [^lauper-2013-wrn-neoplasia]: Lauper JM, Krause A, Vaughan TL, Monnat RJ Jr. Spectrum and risk of neoplasia in Werner syndrome: a systematic review. *PLoS One.* 2013;8(4):e59709. [doi:10.1371/journal.pone.0059709](https://doi.org/10.1371/journal.pone.0059709) · [PubMed 23579047](https://pubmed.ncbi.nlm.nih.gov/23579047/)
