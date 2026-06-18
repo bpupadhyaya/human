@@ -241,6 +241,15 @@ cross_links:
   - target: 01-human/05-tissue/cortical-bone
     relation: connects-to
     note: "It eats through the axial skeleton: chordoma destroys the cortical bone of the clivus, spine and sacrum as it grows, the bone destruction driving its pain and instability."
+  - target: 03-medicine/01-modern/13-cancer/cancer-chemotherapy
+    relation: connects-to
+    note: "It defies conventional chemo: chordoma is largely resistant to cytotoxic chemotherapy, so treatment rests on en-bloc surgery and high-dose proton-beam radiation rather than the drugs that work in other sarcomas."
+  - target: 03-medicine/01-modern/13-cancer/checkpoint-inhibitors
+    relation: connects-to
+    note: "Immunotherapy is being tested: chordomas often express PD-L1 and the notochordal antigen brachyury, prompting trials of checkpoint inhibitors and brachyury-targeted vaccines in this hard-to-treat tumour."
+  - target: 01-human/05-tissue/axonal-transport
+    relation: connects-to
+    note: "It crushes the neural axis: growing at the clivus or sacrum, chordoma compresses the brainstem, cranial nerves and spinal cord, and the resulting axonal injury produces its cranial neuropathies and myelopathy."
 ---
 
 # Chordoma
@@ -450,6 +459,9 @@ CDKN2A deletion in ~30-40% → CDK4/6 hyperactivation → RB1 phosphorylation; p
 - `connects-to` → **[Targeted Therapy](../../../03-medicine/01-modern/13-cancer/targeted-therapy/README.md)** — Kinase inhibitors when surgery fails: chordoma expresses PDGFR and EGFR, so imatinib and EGFR inhibitors are used for advanced disease that has exhausted surgery and radiation.
 - `connects-to` → **[Rhabdomyosarcoma](../rhabdomyosarcoma/README.md)** — A fellow rare tumour of the skull base: like parameningeal rhabdomyosarcoma, chordoma arises near the cranial base and brainstem, demanding complex resection and high-dose particle radiation.
 - `connects-to` → **[Cortical Bone](../../05-tissue/cortical-bone/README.md)** — It eats through the axial skeleton: chordoma destroys the cortical bone of the clivus, spine and sacrum as it grows, the bone destruction driving its pain and instability.
+- `connects-to` → **[Cancer Chemotherapy](../../../03-medicine/01-modern/13-cancer/cancer-chemotherapy/README.md)** — It defies conventional chemo: chordoma is largely resistant to cytotoxic chemotherapy, so treatment rests on en-bloc surgery and high-dose proton-beam radiation rather than the drugs that work in other sarcomas.
+- `connects-to` → **[Checkpoint Inhibitors](../../../03-medicine/01-modern/13-cancer/checkpoint-inhibitors/README.md)** — Immunotherapy is being tested: chordomas often express PD-L1 and the notochordal antigen brachyury, prompting trials of checkpoint inhibitors and brachyury-targeted vaccines in this hard-to-treat tumour.
+- `connects-to` → **[Axonal Transport](../../05-tissue/axonal-transport/README.md)** — It crushes the neural axis: growing at the clivus or sacrum, chordoma compresses the brainstem, cranial nerves and spinal cord, and the resulting axonal injury produces its cranial neuropathies and myelopathy.
 
 ---
 

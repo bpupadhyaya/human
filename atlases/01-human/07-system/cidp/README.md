@@ -249,6 +249,15 @@ cross_links:
   - target: 01-human/07-system/anca-vasculitis
     relation: connects-to
     note: "A vasculitic mimic to exclude: ANCA-associated and other vasculitides damage peripheral nerves as mononeuritis multiplex, a key differential of CIDP that demands different treatment."
+  - target: 03-medicine/01-modern/13-cancer/targeted-therapy
+    relation: connects-to
+    note: "New targeted immunotherapies arrive: the anti-FcRn agent efgartigimod, which strips pathogenic IgG, is now approved for CIDP, and rituximab against B cells treats refractory and antibody-mediated nodopathy subtypes."
+  - target: 01-human/05-tissue/axonal-transport
+    relation: connects-to
+    note: "Chronic demyelination starves the axon: repeated de- and remyelination in CIDP eventually causes secondary axonal degeneration with impaired axonal transport, the substrate of the permanent disability that immunotherapy cannot reverse."
+  - target: 01-human/07-system/systemic-lupus-erythematosus
+    relation: connects-to
+    note: "Systemic autoimmunity can drive it: SLE and other connective-tissue diseases occasionally produce a CIDP-like demyelinating polyneuropathy, part of the autoimmune company CIDP keeps alongside Sjögren's and vasculitis."
 ---
 
 # CIDP
@@ -468,6 +477,9 @@ IgG4 anti-NF155 or anti-CNTN1 disrupts this complex → paranodal loop detachmen
 - `connects-to` → **[Cancer Chemotherapy](../../../03-medicine/01-modern/13-cancer/cancer-chemotherapy/README.md)** — Chemo both mimics and treats it: drugs like vincristine and bortezomib cause a peripheral neuropathy that enters CIDP's differential, while cyclophosphamide is used for refractory CIDP.
 - `connects-to` → **[HIV-1](../../../02-pathogen/01-viruses/hiv-1/README.md)** — A virus that triggers the same attack: HIV can cause an inflammatory demyelinating polyneuropathy resembling CIDP, especially around seroconversion, one of its many neurological complications.
 - `connects-to` → **[ANCA Vasculitis](../anca-vasculitis/README.md)** — A vasculitic mimic to exclude: ANCA-associated and other vasculitides damage peripheral nerves as mononeuritis multiplex, a key differential of CIDP that demands different treatment.
+- `connects-to` → **[Targeted Therapy](../../../03-medicine/01-modern/13-cancer/targeted-therapy/README.md)** — New targeted immunotherapies arrive: the anti-FcRn agent efgartigimod, which strips pathogenic IgG, is now approved for CIDP, and rituximab against B cells treats refractory and antibody-mediated nodopathy subtypes.
+- `connects-to` → **[Axonal Transport](../../05-tissue/axonal-transport/README.md)** — Chronic demyelination starves the axon: repeated de- and remyelination in CIDP eventually causes secondary axonal degeneration with impaired axonal transport, the substrate of the permanent disability that immunotherapy cannot reverse.
+- `connects-to` → **[Systemic Lupus Erythematosus](../systemic-lupus-erythematosus/README.md)** — Systemic autoimmunity can drive it: SLE and other connective-tissue diseases occasionally produce a CIDP-like demyelinating polyneuropathy, part of the autoimmune company CIDP keeps alongside Sjögren's and vasculitis.
 
 ---
 
