@@ -223,6 +223,15 @@ cross_links:
   - target: 01-human/07-system/endocrine-system
     relation: connects-to
     note: "Its abdominal predilection reaches endocrine glands: Burkitt lymphoma can infiltrate the adrenals, thyroid and pancreas, occasionally causing endocrine dysfunction such as adrenal insufficiency."
+  - target: 01-human/07-system/cardiovascular-system
+    relation: connects-to
+    note: "Treatment and tumour bulk burden the heart: intensive anthracycline chemotherapy risks cardiomyopathy, while tumour lysis syndrome's hyperkalaemia can cause fatal arrhythmia in this fastest-growing human tumour."
+  - target: 01-human/07-system/respiratory-system
+    relation: connects-to
+    note: "Bulky disease fills the chest: abdominal and mediastinal Burkitt masses can compress the airway and cause pleural effusions, while the deep immunosuppression of treatment invites pneumonia."
+  - target: 01-human/07-system/integumentary-system
+    relation: connects-to
+    note: "Therapy marks the skin: the dose-intensive regimens for Burkitt lymphoma cause alopecia and mucositis, and rare cutaneous infiltration can occur."
 ---
 
 # Burkitt Lymphoma
@@ -426,6 +435,9 @@ FISH for MYC, BCL2, and BCL6 is essential; if BCL2 FISH negative and Ki-67 ~100%
 - `connects-to` → **[Renal System](../renal-system/README.md)** — It is the classic cause of tumour lysis: Burkitt's huge tumour burden and rapid turnover release urate and potassium, causing acute kidney injury, while bulky abdominal disease can obstruct the ureters.
 - `connects-to` → **[Nervous System](../nervous-system/README.md)** — It readily seeds the brain's linings: Burkitt lymphoma has a high risk of central nervous system spread with leptomeningeal disease and cranial nerve palsies, so intrathecal prophylaxis is standard.
 - `connects-to` → **[Endocrine System](../endocrine-system/README.md)** — Its abdominal predilection reaches endocrine glands: Burkitt lymphoma can infiltrate the adrenals, thyroid and pancreas, occasionally causing endocrine dysfunction such as adrenal insufficiency.
+- `connects-to` → **[Cardiovascular System](../cardiovascular-system/README.md)** — Treatment and tumour bulk burden the heart: intensive anthracycline chemotherapy risks cardiomyopathy, while tumour lysis syndrome's hyperkalaemia can cause fatal arrhythmia in this fastest-growing human tumour.
+- `connects-to` → **[Respiratory System](../respiratory-system/README.md)** — Bulky disease fills the chest: abdominal and mediastinal Burkitt masses can compress the airway and cause pleural effusions, while the deep immunosuppression of treatment invites pneumonia.
+- `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — Therapy marks the skin: the dose-intensive regimens for Burkitt lymphoma cause alopecia and mucositis, and rare cutaneous infiltration can occur.
 
 ---
 

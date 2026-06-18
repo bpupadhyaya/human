@@ -223,6 +223,15 @@ cross_links:
   - target: 01-human/07-system/digestive-system
     relation: connects-to
     note: "Cortisol excess reaches the gut and liver: the Cushing's syndrome of Carney complex raises peptic-ulcer risk and drives hepatic steatosis as part of its metabolic disturbance."
+  - target: 01-human/07-system/noonan-syndrome
+    relation: connects-to
+    note: "A lentigines-and-heart comparator: LEOPARD/Noonan syndrome, like Carney complex, pairs multiple skin lentigines with cardiac disease, though it arises from RAS-pathway rather than cAMP-PKA signalling."
+  - target: 02-pathogen/02-bacteria/staphylococcus-aureus
+    relation: connects-to
+    note: "Its heart tumour mimics infection: Carney's recurrent atrial myxomas cause embolic strokes and constitutional fever that can be mistaken for the infective endocarditis that organisms like Staphylococcus aureus cause."
+  - target: 01-human/07-system/li-fraumeni-syndrome
+    relation: connects-to
+    note: "A fellow multi-tumour syndrome: like Li-Fraumeni, Carney complex is an autosomal-dominant predisposition to several distinct tumours, here driven by loss of the PRKAR1A tumour suppressor."
 ---
 
 # Carney Complex
@@ -413,6 +422,9 @@ PRKAR1A somatic LOH occurs in ~15-20% of sporadic adrenocortical adenomas and ca
 - `connects-to` → **[Immune System](../immune-system/README.md)** — Its Cushing's syndrome suppresses immunity: cortisol excess from primary pigmented nodular adrenocortical disease blunts immune defence, raising the risk of infection.
 - `connects-to` → **[Respiratory System](../respiratory-system/README.md)** — Its heart tumours flood the lungs: a left atrial myxoma can obstruct flow and mimic mitral stenosis with pulmonary congestion, and myxoma fragments can embolise to the pulmonary circulation.
 - `connects-to` → **[Digestive System](../digestive-system/README.md)** — Cortisol excess reaches the gut and liver: the Cushing's syndrome of Carney complex raises peptic-ulcer risk and drives hepatic steatosis as part of its metabolic disturbance.
+- `connects-to` → **[Noonan Syndrome](../noonan-syndrome/README.md)** — A lentigines-and-heart comparator: LEOPARD/Noonan syndrome, like Carney complex, pairs multiple skin lentigines with cardiac disease, though it arises from RAS-pathway rather than cAMP-PKA signalling.
+- `connects-to` → **[Staphylococcus aureus](../../../02-pathogen/02-bacteria/staphylococcus-aureus/README.md)** — Its heart tumour mimics infection: Carney's recurrent atrial myxomas cause embolic strokes and constitutional fever that can be mistaken for the infective endocarditis that organisms like Staphylococcus aureus cause.
+- `connects-to` → **[Li-Fraumeni Syndrome](../li-fraumeni-syndrome/README.md)** — A fellow multi-tumour syndrome: like Li-Fraumeni, Carney complex is an autosomal-dominant predisposition to several distinct tumours, here driven by loss of the PRKAR1A tumour suppressor.
 
 ---
 
