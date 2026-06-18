@@ -232,6 +232,15 @@ cross_links:
   - target: 01-human/07-system/endocrine-system
     relation: connects-to
     note: "It is tied to metabolism: Parkinson's causes unexplained weight loss and is bidirectionally linked with type 2 diabetes, sharing mitochondrial and insulin-signalling pathways."
+  - target: 02-pathogen/02-bacteria/helicobacter-pylori
+    relation: connects-to
+    note: "A gut bug that blocks the drug: Helicobacter pylori infection impairs levodopa absorption and is epidemiologically linked to Parkinson's, so eradication can improve motor control."
+  - target: 02-pathogen/01-viruses/influenza-a
+    relation: connects-to
+    note: "A historical post-infectious link: the encephalitis lethargica that followed the 1918 influenza pandemic caused a striking post-encephalitic parkinsonism, fuelling interest in infectious triggers."
+  - target: 03-medicine/02-traditional/ginkgo-biloba
+    relation: connects-to
+    note: "Traditional neuroprotectants are explored: antioxidant herbs such as ginkgo biloba are studied for neurodegeneration, though none substitute for dopaminergic therapy in Parkinson's."
 ---
 
 # Parkinson's Disease
@@ -442,6 +451,9 @@ PD is primarily a disease of aging (mean onset ~60 years), but **~10–15% of ca
 - `connects-to` → **[Immune System](../immune-system/README.md)** — Brain inflammation drives it: microglial neuroinflammation and the immune-regulating LRRK2 gene implicate the immune system in the onset and progression of Parkinson's disease.
 - `connects-to` → **[Lymphatic System](../lymphatic-system/README.md)** — Failing waste clearance lets protein build up: impaired glymphatic and meningeal-lymphatic clearance of alpha-synuclein is increasingly implicated in the neurodegeneration of Parkinson's.
 - `connects-to` → **[Endocrine System](../endocrine-system/README.md)** — It is tied to metabolism: Parkinson's causes unexplained weight loss and is bidirectionally linked with type 2 diabetes, sharing mitochondrial and insulin-signalling pathways.
+- `connects-to` → **[Helicobacter pylori](../../../02-pathogen/02-bacteria/helicobacter-pylori/README.md)** — A gut bug that blocks the drug: Helicobacter pylori infection impairs levodopa absorption and is epidemiologically linked to Parkinson's, so eradication can improve motor control.
+- `connects-to` → **[Influenza A](../../../02-pathogen/01-viruses/influenza-a/README.md)** — A historical post-infectious link: the encephalitis lethargica that followed the 1918 influenza pandemic caused a striking post-encephalitic parkinsonism, fuelling interest in infectious triggers.
+- `connects-to` → **[Ginkgo Biloba](../../../03-medicine/02-traditional/ginkgo-biloba/README.md)** — Traditional neuroprotectants are explored: antioxidant herbs such as ginkgo biloba are studied for neurodegeneration, though none substitute for dopaminergic therapy in Parkinson's.
 
 [^kalia-2015-pd-review]: Kalia LV, Lang AE. Parkinson's disease. *Lancet.* 2015;386(9996):896-912. [doi:10.1016/S0140-6736(14)61393-3](https://doi.org/10.1016/S0140-6736(14)61393-3) · [PubMed 25904081](https://pubmed.ncbi.nlm.nih.gov/25904081/)
 [^spillantini-1997-lewy-body]: Spillantini MG, Schmidt ML, Lee VM, Trojanowski JQ, Jakes R, Goedert M. Alpha-synuclein in Lewy bodies. *Nature.* 1997;388(6645):839-840. [doi:10.1038/42166](https://doi.org/10.1038/42166) · [PubMed 9278044](https://pubmed.ncbi.nlm.nih.gov/9278044/)

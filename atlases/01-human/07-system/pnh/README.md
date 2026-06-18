@@ -226,6 +226,15 @@ cross_links:
   - target: 02-pathogen/02-bacteria/neisseria-meningitidis
     relation: connects-to
     note: "Its complement-blocking drug invites meningococcus: eculizumab, the mainstay treatment, blocks the terminal complement that defends against Neisseria meningitidis, so vaccination is mandatory before therapy."
+  - target: 03-medicine/01-modern/13-cancer/targeted-therapy
+    relation: connects-to
+    note: "Complement inhibitors transformed it: anti-C5 antibodies (eculizumab, ravulizumab) and the anti-C3 agent pegcetacoplan block the complement-mediated haemolysis and thrombosis of PNH."
+  - target: 01-human/07-system/lymphatic-system
+    relation: connects-to
+    note: "It springs from failing marrow under immune attack: PNH clones expand from GPI-deficient stem cells that escape the T-cell-mediated marrow destruction of aplastic anaemia, a lymphoid-immune origin."
+  - target: 03-medicine/01-modern/09-hematology/warfarin
+    relation: connects-to
+    note: "Anticoagulation guards against its clots: before complement inhibitors, anticoagulation including warfarin was central to managing the life-threatening venous thrombosis of PNH, still used adjunctively."
 ---
 
 # Paroxysmal Nocturnal Hemoglobinuria
@@ -387,6 +396,9 @@ When PIGA is mutated in an HSC → all progeny cells (RBCs, WBCs, platelets) of 
 - `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — It is born in the marrow: PNH arises from a clonal PIGA-mutant stem cell in the bone marrow and frequently overlaps marrow failure, while severe haemolytic crises cause bone and abdominal pain.
 - `connects-to` → **[Renal System](../renal-system/README.md)** — Free haemoglobin floods the tubules: acute haemolytic crises release haemoglobin that causes acute kidney injury, distinct from the slow haemosiderin scarring of chronic disease.
 - `connects-to` → **[Neisseria meningitidis](../../../02-pathogen/02-bacteria/neisseria-meningitidis/README.md)** — Its complement-blocking drug invites meningococcus: eculizumab, the mainstay treatment, blocks the terminal complement that defends against Neisseria meningitidis, so vaccination is mandatory before therapy.
+- `connects-to` → **[Targeted Therapy](../../../03-medicine/01-modern/13-cancer/targeted-therapy/README.md)** — Complement inhibitors transformed it: anti-C5 antibodies (eculizumab, ravulizumab) and the anti-C3 agent pegcetacoplan block the complement-mediated haemolysis and thrombosis of PNH.
+- `connects-to` → **[Lymphatic System](../lymphatic-system/README.md)** — It springs from failing marrow under immune attack: PNH clones expand from GPI-deficient stem cells that escape the T-cell-mediated marrow destruction of aplastic anaemia, a lymphoid-immune origin.
+- `connects-to` → **[Warfarin](../../../03-medicine/01-modern/09-hematology/warfarin/README.md)** — Anticoagulation guards against its clots: before complement inhibitors, anticoagulation including warfarin was central to managing the life-threatening venous thrombosis of PNH, still used adjunctively.
 
 ---
 
