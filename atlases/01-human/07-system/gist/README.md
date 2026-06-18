@@ -205,6 +205,15 @@ cross_links:
   - target: 01-human/07-system/major-depressive-disorder
     relation: connects-to
     note: "Lifelong targeted therapy weighs on mood: the open-ended daily TKI treatment, its chronic side effects and the threat of resistance and recurrence in GIST contribute to depression."
+  - target: 01-human/07-system/integumentary-system
+    relation: connects-to
+    note: "Its targeted drugs mark the skin: imatinib for GIST commonly causes rashes and periorbital oedema and can lighten skin pigmentation through KIT inhibition, while later TKIs cause hand-foot skin reaction."
+  - target: 01-human/07-system/endocrine-system
+    relation: connects-to
+    note: "It ties to endocrine tumours and thyroid: SDH-deficient GIST clusters with paraganglioma in Carney-Stratakis syndrome, and the TKIs used to treat GIST commonly induce hypothyroidism."
+  - target: 01-human/07-system/generalized-anxiety-disorder
+    relation: connects-to
+    note: "Open-ended targeted therapy breeds worry: the indefinite daily TKI treatment, the threat of resistance and recurrence surveillance in GIST foster chronic health anxiety alongside depression."
 ---
 
 # GIST
@@ -398,6 +407,9 @@ No approved targeted therapy; sunitinib may have modest activity; clinical trial
 - `connects-to` → **[Wound Healing](../wound-healing/README.md)** — Its anti-angiogenic TKIs impair healing: sunitinib and regorafenib block VEGF signaling needed for tissue repair, so wounds and surgical sites heal poorly, and GI bleeding from the tumor adds to the burden.
 - `connects-to` → **[Neuropathic Pain](../neuropathic-pain/README.md)** — Advanced disease and its drugs hurt nerves: bone and nerve involvement by metastatic GIST, plus the muscle cramps and sensory effects of long-term tyrosine-kinase inhibitors, produce chronic and neuropathic pain.
 - `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — Lifelong targeted therapy weighs on mood: the open-ended daily TKI treatment, its chronic side effects and the threat of resistance and recurrence in GIST contribute to depression.
+- `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — Its targeted drugs mark the skin: imatinib for GIST commonly causes rashes and periorbital oedema and can lighten skin pigmentation through KIT inhibition, while later TKIs cause hand-foot skin reaction.
+- `connects-to` → **[Endocrine System](../endocrine-system/README.md)** — It ties to endocrine tumours and thyroid: SDH-deficient GIST clusters with paraganglioma in Carney-Stratakis syndrome, and the TKIs used to treat GIST commonly induce hypothyroidism.
+- `connects-to` → **[Generalized Anxiety Disorder](../generalized-anxiety-disorder/README.md)** — Open-ended targeted therapy breeds worry: the indefinite daily TKI treatment, the threat of resistance and recurrence surveillance in GIST foster chronic health anxiety alongside depression.
 
 ---
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*

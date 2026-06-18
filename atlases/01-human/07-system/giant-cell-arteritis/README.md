@@ -205,6 +205,15 @@ cross_links:
   - target: 01-human/07-system/generalized-anxiety-disorder
     relation: connects-to
     note: "Steroids and the threat of blindness breed worry: the psychiatric effects of high-dose glucocorticoids and the fear of sudden irreversible vision loss in GCA foster anxiety alongside depression."
+  - target: 01-human/07-system/endocrine-system
+    relation: connects-to
+    note: "Months of high-dose steroids reshape metabolism: the prolonged glucocorticoids that control GCA cause steroid-induced diabetes, adrenal suppression and a Cushingoid state, the endocrine cost of treatment."
+  - target: 01-human/07-system/digestive-system
+    relation: connects-to
+    note: "Steroids and IL-6 blockade trouble the gut: high-dose steroids for GCA raise peptic-ulcer risk, the tocilizumab used to spare them carries a risk of lower-GI perforation, and jaw claudication makes eating painful."
+  - target: 01-human/07-system/integumentary-system
+    relation: connects-to
+    note: "Its long steroid courses thin the skin: prolonged glucocorticoids for GCA cause skin atrophy, easy bruising and striae, on top of the thickened, tender temporal artery palpable on examination."
 ---
 
 # Giant Cell Arteritis
@@ -382,6 +391,9 @@ The temporal arteries supply scalp, temporalis muscle, and dura. In GCA, transmu
 - `connects-to` → **[Aspergillus fumigatus](../../../02-pathogen/03-fungi/aspergillus-fumigatus/README.md)** — Its high-dose steroids open the lung to mold: the prolonged glucocorticoids needed to control giant-cell arteritis deeply suppress immunity, occasionally permitting invasive aspergillosis.
 - `connects-to` → **[Wound Healing](../wound-healing/README.md)** — Arterial occlusion and steroids starve tissue: severe giant-cell arteritis can cause ischemic scalp and tongue necrosis, and its chronic steroids thin skin and slow the healing of the resulting wounds.
 - `connects-to` → **[Generalized Anxiety Disorder](../generalized-anxiety-disorder/README.md)** — Steroids and the threat of blindness breed worry: the psychiatric effects of high-dose glucocorticoids and the fear of sudden irreversible vision loss in GCA foster anxiety alongside depression.
+- `connects-to` → **[Endocrine System](../endocrine-system/README.md)** — Months of high-dose steroids reshape metabolism: the prolonged glucocorticoids that control GCA cause steroid-induced diabetes, adrenal suppression and a Cushingoid state, the endocrine cost of treatment.
+- `connects-to` → **[Digestive System](../digestive-system/README.md)** — Steroids and IL-6 blockade trouble the gut: high-dose steroids for GCA raise peptic-ulcer risk, the tocilizumab used to spare them carries a risk of lower-GI perforation, and jaw claudication makes eating painful.
+- `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — Its long steroid courses thin the skin: prolonged glucocorticoids for GCA cause skin atrophy, easy bruising and striae, on top of the thickened, tender temporal artery palpable on examination.
 
 [^stone-2017-giact]: Stone JH, Tuckwell K, Dimonaco S, et al. Trial of tocilizumab in giant-cell arteritis. *N Engl J Med.* 2017;377(4):317-328. [doi:10.1056/NEJMoa1613849](https://doi.org/10.1056/NEJMoa1613849) · [PubMed 28745999](https://pubmed.ncbi.nlm.nih.gov/28745999/)
 [^weyand-2014-gca-review]: Weyand CM, Goronzy JJ. Clinical practice. Giant-cell arteritis and polymyalgia rheumatica. *N Engl J Med.* 2014;371(1):50-57. [doi:10.1056/NEJMcp1214926](https://doi.org/10.1056/NEJMcp1214926) · [PubMed 24988557](https://pubmed.ncbi.nlm.nih.gov/24988557/)
