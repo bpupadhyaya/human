@@ -232,6 +232,15 @@ cross_links:
   - target: 01-human/07-system/endocrine-system
     relation: connects-to
     note: "It unsettles glucose and the thyroid: COVID-19 can precipitate new-onset hyperglycaemia and diabetes, and subacute thyroiditis can follow the infection."
+  - target: 01-human/07-system/musculoskeletal-system
+    relation: connects-to
+    note: "It aches and wastes muscle: COVID-19 causes prominent myalgia and, in severe or prolonged illness, myositis, rhabdomyolysis and the deconditioning of long COVID."
+  - target: 03-medicine/01-modern/13-cancer/targeted-therapy
+    relation: connects-to
+    note: "Immunomodulators tame severe disease: the IL-6 inhibitor tocilizumab and the JAK inhibitor baricitinib reduce mortality in severe COVID-19 by dampening the hyperinflammatory response."
+  - target: 02-pathogen/02-bacteria/streptococcus-pneumoniae
+    relation: connects-to
+    note: "Bacteria complicate the viral pneumonia: secondary bacterial infection, including pneumococcal pneumonia, worsens severe COVID-19, as it does in influenza."
 ---
 
 # COVID-19 Disease
@@ -368,6 +377,9 @@ Symptoms persisting >4 weeks: fatigue (most common), cognitive impairment ("brai
 - `connects-to` → **[Lymphatic System](../lymphatic-system/README.md)** — It depletes the lymphocytes: lymphopenia is a hallmark laboratory finding and prognostic marker in COVID-19, reflecting the immune dysregulation of severe disease.
 - `connects-to` → **[Renal System](../renal-system/README.md)** — It can shut down the kidney: severe COVID-19 causes acute kidney injury, and a collapsing glomerulopathy occurs in people carrying high-risk APOL1 variants.
 - `connects-to` → **[Endocrine System](../endocrine-system/README.md)** — It unsettles glucose and the thyroid: COVID-19 can precipitate new-onset hyperglycaemia and diabetes, and subacute thyroiditis can follow the infection.
+- `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — It aches and wastes muscle: COVID-19 causes prominent myalgia and, in severe or prolonged illness, myositis, rhabdomyolysis and the deconditioning of long COVID.
+- `connects-to` → **[Targeted Therapy](../../../03-medicine/01-modern/13-cancer/targeted-therapy/README.md)** — Immunomodulators tame severe disease: the IL-6 inhibitor tocilizumab and the JAK inhibitor baricitinib reduce mortality in severe COVID-19 by dampening the hyperinflammatory response.
+- `connects-to` → **[Streptococcus pneumoniae](../../../02-pathogen/02-bacteria/streptococcus-pneumoniae/README.md)** — Bacteria complicate the viral pneumonia: secondary bacterial infection, including pneumococcal pneumonia, worsens severe COVID-19, as it does in influenza.
 
 ## Pathology
 

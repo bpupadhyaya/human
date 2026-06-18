@@ -232,6 +232,15 @@ cross_links:
   - target: 01-human/07-system/nervous-system
     relation: connects-to
     note: "Its drugs and spread reach the nerves: oxaliplatin causes a cold-triggered peripheral neuropathy, and advanced rectal cancer can metastasise to the brain."
+  - target: 03-medicine/01-modern/13-cancer/targeted-therapy
+    relation: connects-to
+    note: "It is matched to tumour genotype: anti-EGFR antibodies (cetuximab) for RAS-wild-type tumours, anti-VEGF bevacizumab and checkpoint immunotherapy for MSI-high disease guide modern colorectal cancer treatment."
+  - target: 01-human/07-system/renal-system
+    relation: connects-to
+    note: "Tumour and drugs reach the kidney: a bulky rectal or pelvic tumour can obstruct the ureters, and oxaliplatin-based chemotherapy carries nephrotoxic risk."
+  - target: 01-human/07-system/reproductive-system
+    relation: connects-to
+    note: "Pelvic surgery and spread affect it: rectal cancer surgery risks injury to nerves controlling sexual function, and colorectal cancer can metastasise to the ovaries as Krukenberg-type deposits."
 ---
 
 # Colorectal Cancer
@@ -419,6 +428,9 @@ The step-wise genetic progression from normal epithelium to carcinoma in CRC was
 - `connects-to` → **[Cardiovascular System](../cardiovascular-system/README.md)** — Its chemotherapy can spasm the coronaries: 5-fluorouracil and capecitabine cause coronary vasospasm and cardiotoxicity, and bevacizumab raises blood pressure and thrombosis risk.
 - `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — Its targeted drugs erupt on the skin: the EGFR inhibitor cetuximab causes a characteristic acneiform rash, and capecitabine causes hand-foot syndrome.
 - `connects-to` → **[Nervous System](../nervous-system/README.md)** — Its drugs and spread reach the nerves: oxaliplatin causes a cold-triggered peripheral neuropathy, and advanced rectal cancer can metastasise to the brain.
+- `connects-to` → **[Targeted Therapy](../../../03-medicine/01-modern/13-cancer/targeted-therapy/README.md)** — It is matched to tumour genotype: anti-EGFR antibodies (cetuximab) for RAS-wild-type tumours, anti-VEGF bevacizumab and checkpoint immunotherapy for MSI-high disease guide modern colorectal cancer treatment.
+- `connects-to` → **[Renal System](../renal-system/README.md)** — Tumour and drugs reach the kidney: a bulky rectal or pelvic tumour can obstruct the ureters, and oxaliplatin-based chemotherapy carries nephrotoxic risk.
+- `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — Pelvic surgery and spread affect it: rectal cancer surgery risks injury to nerves controlling sexual function, and colorectal cancer can metastasise to the ovaries as Krukenberg-type deposits.
 
 ---
 
