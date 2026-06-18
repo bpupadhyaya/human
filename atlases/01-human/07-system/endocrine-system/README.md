@@ -203,6 +203,15 @@ cross_links:
   - target: 01-human/07-system/major-depressive-disorder
     relation: connects-to
     note: "Hormones set the tenor of mood: thyroid dysfunction, cortisol excess or deficiency and sex-hormone shifts profoundly affect mood, so endocrine disorders frequently present with depression."
+  - target: 01-human/07-system/digestive-system
+    relation: connects-to
+    note: "The gut is a vast endocrine organ: incretins, gastrin, ghrelin and other gut hormones regulate digestion and metabolism, and the pancreas is both an endocrine and a digestive gland."
+  - target: 01-human/07-system/renal-system
+    relation: connects-to
+    note: "The kidney is itself an endocrine gland: it secretes erythropoietin and renin and activates vitamin D, while it is also the target of aldosterone, ADH and parathyroid hormone."
+  - target: 01-human/07-system/integumentary-system
+    relation: connects-to
+    note: "Hormones are written on the skin: endocrine disease shows as acanthosis nigricans of insulin resistance, the hyperpigmentation of Addison's, myxoedema of thyroid disease and vitiligo of autoimmunity."
 ---
 
 # Endocrine System
@@ -422,6 +431,9 @@ The endocrine system coordinates fuel metabolism across multiple organs in respo
 - `connects-to` → **[Hypertension](../hypertension/README.md)** — Hormone excess drives secondary hypertension: Cushing's, primary aldosteronism, pheochromocytoma and thyroid disorders raise blood pressure, making the endocrine system a key source of treatable secondary hypertension.
 - `connects-to` → **[Heart Failure](../heart-failure/README.md)** — Its hormones shape the heart: thyroid excess or deficiency, acromegaly and catecholamine-secreting tumors all remodel the myocardium, so endocrine disease is an important reversible cause of heart failure.
 - `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — Hormones set the tenor of mood: thyroid dysfunction, cortisol excess or deficiency and sex-hormone shifts profoundly affect mood, so endocrine disorders frequently present with depression.
+- `connects-to` → **[Digestive System](../digestive-system/README.md)** — The gut is a vast endocrine organ: incretins, gastrin, ghrelin and other gut hormones regulate digestion and metabolism, and the pancreas is both an endocrine and a digestive gland.
+- `connects-to` → **[Renal System](../renal-system/README.md)** — The kidney is itself an endocrine gland: it secretes erythropoietin and renin and activates vitamin D, while it is also the target of aldosterone, ADH and parathyroid hormone.
+- `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — Hormones are written on the skin: endocrine disease shows as acanthosis nigricans of insulin resistance, the hyperpigmentation of Addison's, myxoedema of thyroid disease and vitiligo of autoimmunity.
 
 ## Pathology
 

@@ -205,6 +205,15 @@ cross_links:
   - target: 01-human/07-system/major-depressive-disorder
     relation: connects-to
     note: "An aggressive cancer and its therapy weigh on mood: the diagnosis, intensive immunochemotherapy and fear of relapse in DLBCL contribute to a substantial burden of depression."
+  - target: 01-human/07-system/digestive-system
+    relation: connects-to
+    note: "It is the commonest lymphoma of the gut: the GI tract is the leading extranodal site for DLBCL, where gastric or intestinal disease causes bleeding, obstruction and a risk of perforation during chemotherapy."
+  - target: 02-pathogen/01-viruses/varicella-zoster-virus
+    relation: connects-to
+    note: "R-CHOP reawakens shingles: the rituximab and steroids of DLBCL immunochemotherapy deplete B-cell and T-cell immunity, allowing latent varicella-zoster to reactivate, so prophylaxis is given."
+  - target: 01-human/07-system/generalized-anxiety-disorder
+    relation: connects-to
+    note: "An aggressive but curable cancer breeds worry: the urgency of treatment, intensive immunochemotherapy and scan-anxiety over relapse in DLBCL foster chronic health anxiety alongside depression."
 ---
 
 # Diffuse Large B-Cell Lymphoma
@@ -389,6 +398,9 @@ DLBCL is an aggressive malignancy of mature B cells. The normal equivalents are 
 - `connects-to` → **[Neuropathic Pain](../neuropathic-pain/README.md)** — Vincristine leaves the nerves raw: the vinca alkaloid in R-CHOP causes a dose-limiting peripheral neuropathy with numbness and neuropathic pain that can persist after DLBCL treatment.
 - `connects-to` → **[Chronic Kidney Disease](../ckd/README.md)** — Tumor lysis and methotrexate threaten the kidneys: high cell turnover at DLBCL induction triggers tumor lysis syndrome, and CNS-prophylactic high-dose methotrexate adds nephrotoxicity, risking kidney injury.
 - `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — An aggressive cancer and its therapy weigh on mood: the diagnosis, intensive immunochemotherapy and fear of relapse in DLBCL contribute to a substantial burden of depression.
+- `connects-to` → **[Digestive System](../digestive-system/README.md)** — It is the commonest lymphoma of the gut: the GI tract is the leading extranodal site for DLBCL, where gastric or intestinal disease causes bleeding, obstruction and a risk of perforation during chemotherapy.
+- `connects-to` → **[Varicella-Zoster Virus](../../../02-pathogen/01-viruses/varicella-zoster-virus/README.md)** — R-CHOP reawakens shingles: the rituximab and steroids of DLBCL immunochemotherapy deplete B-cell and T-cell immunity, allowing latent varicella-zoster to reactivate, so prophylaxis is given.
+- `connects-to` → **[Generalized Anxiety Disorder](../generalized-anxiety-disorder/README.md)** — An aggressive but curable cancer breeds worry: the urgency of treatment, intensive immunochemotherapy and scan-anxiety over relapse in DLBCL foster chronic health anxiety alongside depression.
 
 ---
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
