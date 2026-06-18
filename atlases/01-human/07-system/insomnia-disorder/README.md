@@ -247,6 +247,15 @@ cross_links:
   - target: 01-human/07-system/social-anxiety-disorder
     relation: connects-to
     note: "Anticipatory worry keeps it awake: people with social anxiety frequently have insomnia, as pre-event dread and rumination raise arousal at bedtime in a self-reinforcing cycle."
+  - target: 01-human/07-system/stimulant-use-disorder
+    relation: connects-to
+    note: "Stimulants steal sleep: caffeine, nicotine and stimulant drugs delay sleep onset and fragment sleep, and stimulant use disorder both causes chronic insomnia and is sometimes driven by it as people self-medicate daytime fatigue."
+  - target: 01-human/07-system/cannabis-use-disorder
+    relation: connects-to
+    note: "A double-edged sleep aid: many use cannabis to fall asleep, but tolerance develops and withdrawal causes rebound insomnia and vivid dreams, tying cannabis use disorder tightly to disordered sleep."
+  - target: 01-human/07-system/binge-eating-disorder
+    relation: connects-to
+    note: "Night-time arousal and eating intertwine: insomnia and night-eating reinforce each other, as disrupted sleep and circadian-orexin signalling drive the evening overeating of binge-eating disorder."
 ---
 
 # Insomnia Disorder
@@ -460,6 +469,9 @@ CBT-I directly targets perpetuating factors.
 - `connects-to` → **[Ashwagandha](../../../03-medicine/02-traditional/ashwagandha/README.md)** — A traditional herb that aids sleep: ashwagandha root extract improves sleep onset and quality in trials, acting partly by lowering cortisol, and is among the better-studied natural sleep aids.
 - `connects-to` → **[Obsessive-Compulsive Disorder](../obsessive-compulsive-disorder/README.md)** — Intrusive thoughts steal sleep: insomnia is common in OCD, where night-time rumination and compulsions delay sleep onset, and poor sleep in turn worsens obsessive symptoms.
 - `connects-to` → **[Social Anxiety Disorder](../social-anxiety-disorder/README.md)** — Anticipatory worry keeps it awake: people with social anxiety frequently have insomnia, as pre-event dread and rumination raise arousal at bedtime in a self-reinforcing cycle.
+- `connects-to` → **[Stimulant Use Disorder](../stimulant-use-disorder/README.md)** — Stimulants steal sleep: caffeine, nicotine and stimulant drugs delay sleep onset and fragment sleep, and stimulant use disorder both causes chronic insomnia and is sometimes driven by it as people self-medicate daytime fatigue.
+- `connects-to` → **[Cannabis Use Disorder](../cannabis-use-disorder/README.md)** — A double-edged sleep aid: many use cannabis to fall asleep, but tolerance develops and withdrawal causes rebound insomnia and vivid dreams, tying cannabis use disorder tightly to disordered sleep.
+- `connects-to` → **[Binge Eating Disorder](../binge-eating-disorder/README.md)** — Night-time arousal and eating intertwine: insomnia and night-eating reinforce each other, as disrupted sleep and circadian-orexin signalling drive the evening overeating of binge-eating disorder.
 
 [^riemann-2017-insomnia-lancet]: Riemann D, Baglioni C, Bassetti C, et al. European guideline for the diagnosis and treatment of insomnia. *J Sleep Res.* 2017;26(6):675-700. [doi:10.1111/jsr.12594](https://doi.org/10.1111/jsr.12594) · [PubMed 28875581](https://pubmed.ncbi.nlm.nih.gov/28875581/)
 [^trauer-2015-cbti-meta]: Trauer JM, Qian MY, Doyle JS, et al. Cognitive behavioral therapy for chronic insomnia. *Ann Intern Med.* 2015;163(3):191-204. [doi:10.7326/M14-2841](https://doi.org/10.7326/M14-2841) · [PubMed 26054060](https://pubmed.ncbi.nlm.nih.gov/26054060/)

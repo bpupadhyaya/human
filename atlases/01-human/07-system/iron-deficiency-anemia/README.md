@@ -237,6 +237,15 @@ cross_links:
   - target: 02-pathogen/04-parasites/plasmodium-falciparum
     relation: connects-to
     note: "Malaria drains the blood and iron: falciparum malaria causes anaemia through haemolysis and inflammatory iron sequestration, and iron supplementation in endemic areas must be balanced against infection risk."
+  - target: 01-human/05-tissue/hepatic-lobule
+    relation: connects-to
+    note: "The liver gauges iron need: hepatocytes in the liver lobule make hepcidin, the master iron-regulatory hormone, which is appropriately suppressed in iron deficiency to maximise dietary absorption and release of stored iron."
+  - target: 03-medicine/01-modern/08-gi/omeprazole
+    relation: connects-to
+    note: "Acid suppression starves iron uptake: proton-pump inhibitors like omeprazole reduce the gastric acid needed to absorb dietary non-haem iron, a recognised contributor to iron-deficiency anaemia with long-term use."
+  - target: 01-human/07-system/obesity
+    relation: connects-to
+    note: "Obesity causes a functional deficiency: chronic low-grade inflammation in obesity raises hepcidin, trapping iron and impairing its absorption, so iron deficiency is common despite adequate intake and stores."
 ---
 
 # Iron Deficiency Anemia
@@ -430,6 +439,9 @@ Iron is essential for:
 - `connects-to` → **[Sickle Cell Disease](../sickle-cell-disease/README.md)** — Opposite iron problems: unlike iron-deficiency anaemia, sickle cell is a haemolytic anaemia where repeated transfusion causes iron overload, so the two demand opposite iron management.
 - `connects-to` → **[Pancreatic Cancer](../pancreatic-cancer/README.md)** — A red flag for hidden malignancy: unexplained iron-deficiency anaemia from occult gastrointestinal blood loss can signal pancreatic, ampullary or other gut cancers, prompting endoscopic and imaging work-up.
 - `connects-to` → **[Plasmodium falciparum](../../../02-pathogen/04-parasites/plasmodium-falciparum/README.md)** — Malaria drains the blood and iron: falciparum malaria causes anaemia through haemolysis and inflammatory iron sequestration, and iron supplementation in endemic areas must be balanced against infection risk.
+- `connects-to` → **[Hepatic Lobule](../../05-tissue/hepatic-lobule/README.md)** — The liver gauges iron need: hepatocytes in the liver lobule make hepcidin, the master iron-regulatory hormone, which is appropriately suppressed in iron deficiency to maximise dietary absorption and release of stored iron.
+- `connects-to` → **[Omeprazole](../../../03-medicine/01-modern/08-gi/omeprazole/README.md)** — Acid suppression starves iron uptake: proton-pump inhibitors like omeprazole reduce the gastric acid needed to absorb dietary non-haem iron, a recognised contributor to iron-deficiency anaemia with long-term use.
+- `connects-to` → **[Obesity](../obesity/README.md)** — Obesity causes a functional deficiency: chronic low-grade inflammation in obesity raises hepcidin, trapping iron and impairing its absorption, so iron deficiency is common despite adequate intake and stores.
 
 [^camaschella-2015-iron-deficiency]: Camaschella C. Iron-deficiency anemia. *N Engl J Med.* 2015;372(19):1832-1843. [doi:10.1056/NEJMra1401038](https://doi.org/10.1056/NEJMra1401038) · [PubMed 25946282](https://pubmed.ncbi.nlm.nih.gov/25946282/)
 [^who-ferritin-guideline-2020]: World Health Organization. WHO guideline on use of ferritin concentrations to assess iron status in individuals and populations. WHO; 2020. [WHO publication](https://www.who.int/publications/i/item/9789240000124)
