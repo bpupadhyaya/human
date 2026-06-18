@@ -214,6 +214,15 @@ cross_links:
   - target: 01-human/07-system/generalized-anxiety-disorder
     relation: connects-to
     note: "Watchful waiting with an incurable cancer breeds worry: the indolent but relapsing course and constant surveillance of follicular lymphoma foster chronic health anxiety alongside depression."
+  - target: 01-human/07-system/renal-system
+    relation: connects-to
+    note: "Bulky retroperitoneal nodes block the ureters: large abdominal lymph-node masses in follicular lymphoma can obstruct the ureters, causing hydronephrosis and post-renal failure."
+  - target: 01-human/07-system/respiratory-system
+    relation: connects-to
+    note: "Chest nodes crowd the lungs: mediastinal and hilar disease can cause pleural effusions and airway compression, and transformation to aggressive lymphoma can infiltrate the lung."
+  - target: 01-human/07-system/integumentary-system
+    relation: connects-to
+    note: "It has a skin-only form: primary cutaneous follicle-centre lymphoma is an indolent variant presenting as nodules and plaques on the scalp and trunk with an excellent prognosis."
 ---
 
 # Follicular Lymphoma
@@ -405,6 +414,9 @@ High-risk subset (progression within 24 months of first chemoimmunotherapy): Con
 - `connects-to` → **[Digestive System](../digestive-system/README.md)** — It has a home in the gut: duodenal-type follicular lymphoma is a recognised indolent GI presentation, and nodal disease enlarges the spleen and can involve the bowel.
 - `connects-to` → **[Varicella-Zoster Virus](../../../02-pathogen/01-viruses/varicella-zoster-virus/README.md)** — Its B-cell-depleting therapy reawakens shingles: rituximab and bendamustine for follicular lymphoma cause deep, lasting immunosuppression that allows latent varicella-zoster to reactivate.
 - `connects-to` → **[Generalized Anxiety Disorder](../generalized-anxiety-disorder/README.md)** — Watchful waiting with an incurable cancer breeds worry: the indolent but relapsing course and constant surveillance of follicular lymphoma foster chronic health anxiety alongside depression.
+- `connects-to` → **[Renal System](../renal-system/README.md)** — Bulky retroperitoneal nodes block the ureters: large abdominal lymph-node masses in follicular lymphoma can obstruct the ureters, causing hydronephrosis and post-renal failure.
+- `connects-to` → **[Respiratory System](../respiratory-system/README.md)** — Chest nodes crowd the lungs: mediastinal and hilar disease can cause pleural effusions and airway compression, and transformation to aggressive lymphoma can infiltrate the lung.
+- `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — It has a skin-only form: primary cutaneous follicle-centre lymphoma is an indolent variant presenting as nodules and plaques on the scalp and trunk with an excellent prognosis.
 
 ---
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
