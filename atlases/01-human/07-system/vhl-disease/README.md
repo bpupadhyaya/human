@@ -223,6 +223,15 @@ cross_links:
   - target: 01-human/07-system/lymphatic-system
     relation: connects-to
     note: "Its renal cancer spreads to the nodes: metastatic VHL renal cell carcinoma involves regional and retroperitoneal lymph nodes, a poor prognostic feature."
+  - target: 03-medicine/01-modern/13-cancer/targeted-therapy
+    relation: connects-to
+    note: "A HIF inhibitor now treats it: belzutifan, which blocks HIF-2α stabilised by VHL loss, shrinks the renal cancers and haemangioblastomas of von Hippel-Lindau disease."
+  - target: 01-human/07-system/immune-system
+    relation: connects-to
+    note: "Its kidney cancers respond to immunotherapy: VHL-driven clear-cell renal carcinoma is treated with checkpoint immunotherapy, and the pseudohypoxic HIF state shapes its immune microenvironment."
+  - target: 01-human/07-system/neurofibromatosis-type-2
+    relation: connects-to
+    note: "A fellow CNS-and-eye tumour syndrome: like NF2 with its schwannomas and retinal hamartomas, VHL produces nervous-system and retinal tumours (haemangioblastomas) in an autosomal-dominant pattern."
 ---
 
 # VHL Disease
@@ -413,6 +422,9 @@ The genotype-phenotype correlation reflects the degree of pVHL function retained
 - `connects-to` → **[Cardiovascular System](../cardiovascular-system/README.md)** — Its pheochromocytomas and HIF pathway hit the vessels: catecholamine surges cause hypertensive crises and cardiomyopathy, and VHL-loss HIF/VEGF activation drives the marked vascularity of its tumours.
 - `connects-to` → **[Respiratory System](../respiratory-system/README.md)** — Its kidney cancer climbs to the lungs: the clear-cell renal cell carcinomas of VHL metastasise to the lungs, the commonest site of distant spread.
 - `connects-to` → **[Lymphatic System](../lymphatic-system/README.md)** — Its renal cancer spreads to the nodes: metastatic VHL renal cell carcinoma involves regional and retroperitoneal lymph nodes, a poor prognostic feature.
+- `connects-to` → **[Targeted Therapy](../../../03-medicine/01-modern/13-cancer/targeted-therapy/README.md)** — A HIF inhibitor now treats it: belzutifan, which blocks HIF-2α stabilised by VHL loss, shrinks the renal cancers and haemangioblastomas of von Hippel-Lindau disease.
+- `connects-to` → **[Immune System](../immune-system/README.md)** — Its kidney cancers respond to immunotherapy: VHL-driven clear-cell renal carcinoma is treated with checkpoint immunotherapy, and the pseudohypoxic HIF state shapes its immune microenvironment.
+- `connects-to` → **[Neurofibromatosis Type 2](../neurofibromatosis-type-2/README.md)** — A fellow CNS-and-eye tumour syndrome: like NF2 with its schwannomas and retinal hamartomas, VHL produces nervous-system and retinal tumours (haemangioblastomas) in an autosomal-dominant pattern.
 
 [^lonser-2003-vhl-disease]: Lonser RR, Glenn GM, Walther M, et al. von Hippel-Lindau disease. *Lancet.* 2003;361(9374):2059-2067. [doi:10.1016/S0140-6736(03)13643-4](https://doi.org/10.1016/S0140-6736(03)13643-4) · [PubMed 12814730](https://pubmed.ncbi.nlm.nih.gov/12814730/)
 [^choueiri-2020-hif2-rcc]: Choueiri TK, Kaelin WG Jr. Targeting the HIF2-VEGF axis in renal cell carcinoma. *Nat Med.* 2020;26(10):1519-1530. [doi:10.1038/s41591-020-1093-z](https://doi.org/10.1038/s41591-020-1093-z) · [PubMed 33020650](https://pubmed.ncbi.nlm.nih.gov/33020650/)

@@ -223,6 +223,15 @@ cross_links:
   - target: 01-human/07-system/cardiovascular-system
     relation: connects-to
     note: "Its breakthrough drug stresses the circulation: tebentafusp triggers cytokine release with hypotension and fluid shifts, and disseminated disease can rarely involve the heart."
+  - target: 03-medicine/01-modern/13-cancer/targeted-therapy
+    relation: connects-to
+    note: "A bispecific T-cell engager extended survival: tebentafusp redirects T cells against the gp100-HLA complex on uveal melanoma, the first therapy to improve survival in this checkpoint-resistant cancer."
+  - target: 01-human/07-system/endocrine-system
+    relation: connects-to
+    note: "Liver-dominant spread disrupts metabolism: uveal melanoma metastasises overwhelmingly to the liver, whose failure in advanced disease deranges glucose and hormone metabolism."
+  - target: 02-pathogen/04-parasites/toxoplasma-gondii
+    relation: connects-to
+    note: "Ocular masses have infectious mimics: chorioretinitis from toxoplasmosis is among the differentials of a pigmented or inflammatory intraocular lesion that uveal melanoma must be distinguished from."
 ---
 
 # Uveal Melanoma
@@ -428,6 +437,9 @@ Uveal melanocytes are neural crest-derived, residing in the uveal stroma and mai
 - `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — After liver and lung it seeds bone: skeletal metastases occur in disseminated uveal melanoma, causing painful deposits in the spine and pelvis.
 - `connects-to` → **[Nervous System](../nervous-system/README.md)** — It can reach the brain late: brain metastases occur in widely disseminated uveal melanoma, though far less commonly than its dominant liver spread.
 - `connects-to` → **[Cardiovascular System](../cardiovascular-system/README.md)** — Its breakthrough drug stresses the circulation: tebentafusp triggers cytokine release with hypotension and fluid shifts, and disseminated disease can rarely involve the heart.
+- `connects-to` → **[Targeted Therapy](../../../03-medicine/01-modern/13-cancer/targeted-therapy/README.md)** — A bispecific T-cell engager extended survival: tebentafusp redirects T cells against the gp100-HLA complex on uveal melanoma, the first therapy to improve survival in this checkpoint-resistant cancer.
+- `connects-to` → **[Endocrine System](../endocrine-system/README.md)** — Liver-dominant spread disrupts metabolism: uveal melanoma metastasises overwhelmingly to the liver, whose failure in advanced disease deranges glucose and hormone metabolism.
+- `connects-to` → **[Toxoplasma gondii](../../../02-pathogen/04-parasites/toxoplasma-gondii/README.md)** — Ocular masses have infectious mimics: chorioretinitis from toxoplasmosis is among the differentials of a pigmented or inflammatory intraocular lesion that uveal melanoma must be distinguished from.
 
 ---
 
