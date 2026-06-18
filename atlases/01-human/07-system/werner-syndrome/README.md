@@ -223,6 +223,15 @@ cross_links:
   - target: 02-pathogen/02-bacteria/staphylococcus-aureus
     relation: connects-to
     note: "Its chronic ulcers invite infection: the intractable ankle and foot ulcers of Werner syndrome become colonised and infected, classically by Staphylococcus aureus, and heal poorly."
+  - target: 03-medicine/01-modern/07-metabolic/metformin
+    relation: connects-to
+    note: "Its early diabetes needs control: Werner syndrome causes insulin-resistant diabetes in early adulthood, managed with metformin as part of its accelerated metabolic ageing."
+  - target: 03-medicine/01-modern/04-cardio/statins
+    relation: connects-to
+    note: "Premature atherosclerosis demands lipid control: Werner syndrome brings early, severe atherosclerosis, and statins are used against the dyslipidaemia and vascular disease that often kill these patients young."
+  - target: 03-medicine/01-modern/04-cardio/aspirin
+    relation: connects-to
+    note: "Antiplatelet cover follows the early arteries: the premature coronary and cerebrovascular disease of Werner syndrome prompts aspirin for secondary prevention, as in other accelerated-atherosclerosis states."
 ---
 
 # Werner Syndrome
@@ -454,6 +463,9 @@ cross_links:
 - `connects-to` → **[Renal System](../renal-system/README.md)** — Its metabolic and vascular ageing scars the kidney: the diabetes and premature atherosclerosis of Werner syndrome drive diabetic and renovascular nephropathy with declining renal function.
 - `connects-to` → **[Lymphatic System](../lymphatic-system/README.md)** — It predisposes to marrow cancers: Werner syndrome carries an increased risk of myelodysplastic syndrome and acute myeloid leukaemia arising in the bone marrow.
 - `connects-to` → **[Staphylococcus aureus](../../../02-pathogen/02-bacteria/staphylococcus-aureus/README.md)** — Its chronic ulcers invite infection: the intractable ankle and foot ulcers of Werner syndrome become colonised and infected, classically by Staphylococcus aureus, and heal poorly.
+- `connects-to` → **[Metformin](../../../03-medicine/01-modern/07-metabolic/metformin/README.md)** — Its early diabetes needs control: Werner syndrome causes insulin-resistant diabetes in early adulthood, managed with metformin as part of its accelerated metabolic ageing.
+- `connects-to` → **[Statins](../../../03-medicine/01-modern/04-cardio/statins/README.md)** — Premature atherosclerosis demands lipid control: Werner syndrome brings early, severe atherosclerosis, and statins are used against the dyslipidaemia and vascular disease that often kill these patients young.
+- `connects-to` → **[Aspirin](../../../03-medicine/01-modern/04-cardio/aspirin/README.md)** — Antiplatelet cover follows the early arteries: the premature coronary and cerebrovascular disease of Werner syndrome prompts aspirin for secondary prevention, as in other accelerated-atherosclerosis states.
 
 [^yu-1996-wrn]: Yu CE, Oshima J, Fu YH, et al. Positional cloning of the Werner's syndrome gene. *Science.* 1996;272(5259):258-262. [doi:10.1126/science.272.5259.258](https://doi.org/10.1126/science.272.5259.258) · [PubMed 8602509](https://pubmed.ncbi.nlm.nih.gov/8602509/)
 [^lauper-2013-wrn-neoplasia]: Lauper JM, Krause A, Vaughan TL, Monnat RJ Jr. Spectrum and risk of neoplasia in Werner syndrome: a systematic review. *PLoS One.* 2013;8(4):e59709. [doi:10.1371/journal.pone.0059709](https://doi.org/10.1371/journal.pone.0059709) · [PubMed 23579047](https://pubmed.ncbi.nlm.nih.gov/23579047/)

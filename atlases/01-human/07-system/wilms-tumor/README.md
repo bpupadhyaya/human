@@ -223,6 +223,15 @@ cross_links:
   - target: 01-human/07-system/endocrine-system
     relation: connects-to
     note: "Its gene shapes the gonads: WT1 mutations disrupt gonadal development in Denys-Drash and Frasier syndromes, combining Wilms tumour with genital anomalies and progressive nephropathy."
+  - target: 01-human/07-system/immune-system
+    relation: connects-to
+    note: "Therapy suppresses immunity: the chemotherapy for Wilms tumour leaves children immunocompromised, raising opportunistic-infection risk during treatment."
+  - target: 01-human/07-system/nervous-system
+    relation: connects-to
+    note: "Treatment and syndromes reach the nervous system: vincristine causes peripheral neuropathy, and WAGR syndrome (with Wilms) includes intellectual disability and aniridia."
+  - target: 01-human/07-system/integumentary-system
+    relation: connects-to
+    note: "Treatment marks the skin: chemotherapy causes alopecia and mucositis, and flank radiotherapy produces dermatitis over the treated kidney bed."
 ---
 
 # Wilms Tumor
@@ -420,6 +429,9 @@ Wilms tumor survivors face late effects proportional to treatment intensity:
 - `connects-to` → **[Lymphatic System](../lymphatic-system/README.md)** — Nodes guide its staging: regional lymph-node involvement is assessed at nephrectomy and raises the stage, intensifying chemotherapy and radiation.
 - `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — Its overgrowth syndrome skews the skeleton: the hemihypertrophy of Beckwith-Wiedemann causes limb-length asymmetry, and Wilms tumour can rarely metastasise to bone.
 - `connects-to` → **[Endocrine System](../endocrine-system/README.md)** — Its gene shapes the gonads: WT1 mutations disrupt gonadal development in Denys-Drash and Frasier syndromes, combining Wilms tumour with genital anomalies and progressive nephropathy.
+- `connects-to` → **[Immune System](../immune-system/README.md)** — Therapy suppresses immunity: the chemotherapy for Wilms tumour leaves children immunocompromised, raising opportunistic-infection risk during treatment.
+- `connects-to` → **[Nervous System](../nervous-system/README.md)** — Treatment and syndromes reach the nervous system: vincristine causes peripheral neuropathy, and WAGR syndrome (with Wilms) includes intellectual disability and aniridia.
+- `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — Treatment marks the skin: chemotherapy causes alopecia and mucositis, and flank radiotherapy produces dermatitis over the treated kidney bed.
 
 [^dome-2015-wilms]: Dome JS, Graf N, Geller JI, et al. Advances in Wilms tumor treatment and biology: progress through international collaboration. *J Clin Oncol.* 2015;33(27):2999-3007. [doi:10.1200/JCO.2015.62.1888](https://doi.org/10.1200/JCO.2015.62.1888) · [PubMed 26261251](https://pubmed.ncbi.nlm.nih.gov/26261251/)
 [^dix-2006-arenl0002]: Dix DB, Bhatt SM, Geller JI, et al. Treatment of Stage IV favorable histology Wilms tumor with incomplete lung metastasis response after chemotherapy: a report from Children's Oncology Group Study AREN0533. *J Clin Oncol.* 2018;36(16):1564-1570. [doi:10.1200/JCO.2017.77.1877](https://doi.org/10.1200/JCO.2017.77.1877) · [PubMed 29584550](https://pubmed.ncbi.nlm.nih.gov/29584550/)
