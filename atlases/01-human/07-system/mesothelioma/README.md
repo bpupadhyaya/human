@@ -232,6 +232,15 @@ cross_links:
   - target: 01-human/07-system/endocrine-system
     relation: connects-to
     note: "It can derange metabolism: mesothelioma occasionally causes paraneoplastic hypoglycaemia or SIADH with hyponatraemia among its systemic effects."
+  - target: 03-medicine/01-modern/13-cancer/cancer-chemotherapy
+    relation: connects-to
+    note: "Platinum-pemetrexed is the chemo backbone: cisplatin with pemetrexed, sometimes with bevacizumab, is the standard chemotherapy for mesothelioma not treated with immunotherapy."
+  - target: 01-human/07-system/synovial-sarcoma
+    relation: connects-to
+    note: "A pleural tumour to distinguish: primary pleural synovial sarcoma mimics mesothelioma radiologically and histologically, separated by its SS18 gene fusion."
+  - target: 01-human/07-system/melanoma
+    relation: connects-to
+    note: "Both belong to the BAP1 family: germline BAP1 loss predisposes to mesothelioma alongside uveal and cutaneous melanoma and renal cancer, a hereditary tumour-predisposition syndrome."
 ---
 
 # Mesothelioma
@@ -422,6 +431,9 @@ Cytoreductive surgery (CRS) + hyperthermic intraperitoneal chemotherapy (HIPEC):
 - `connects-to` → **[Renal System](../renal-system/README.md)** — Chemotherapy threatens the kidney: the cisplatin-pemetrexed regimen central to mesothelioma treatment is nephrotoxic, and pemetrexed itself requires adequate renal function.
 - `connects-to` → **[Targeted Therapy](../../../03-medicine/01-modern/13-cancer/targeted-therapy/README.md)** — Immunotherapy extended survival: dual checkpoint blockade with nivolumab and ipilimumab is now a standard first-line option for unresectable pleural mesothelioma.
 - `connects-to` → **[Endocrine System](../endocrine-system/README.md)** — It can derange metabolism: mesothelioma occasionally causes paraneoplastic hypoglycaemia or SIADH with hyponatraemia among its systemic effects.
+- `connects-to` → **[Cancer Chemotherapy](../../../03-medicine/01-modern/13-cancer/cancer-chemotherapy/README.md)** — Platinum-pemetrexed is the chemo backbone: cisplatin with pemetrexed, sometimes with bevacizumab, is the standard chemotherapy for mesothelioma not treated with immunotherapy.
+- `connects-to` → **[Synovial Sarcoma](../synovial-sarcoma/README.md)** — A pleural tumour to distinguish: primary pleural synovial sarcoma mimics mesothelioma radiologically and histologically, separated by its SS18 gene fusion.
+- `connects-to` → **[Melanoma](../melanoma/README.md)** — Both belong to the BAP1 family: germline BAP1 loss predisposes to mesothelioma alongside uveal and cutaneous melanoma and renal cancer, a hereditary tumour-predisposition syndrome.
 
 [^baas-2021-checkmate743]: Baas P, Scherpereel A, Nowak AK, et al. First-line nivolumab plus ipilimumab in unresectable malignant pleural mesothelioma (CheckMate 743). *Lancet.* 2021;397(10272):375-386. [doi:10.1016/S0140-6736(20)32714-8](https://doi.org/10.1016/S0140-6736(20)32714-8) · [PubMed 33485464](https://pubmed.ncbi.nlm.nih.gov/33485464/)
 [^vogelzang-2003-pemetrexed]: Vogelzang NJ, Rusthoven JJ, Symanowski J, et al. Phase III study of pemetrexed in combination with cisplatin versus cisplatin alone in patients with malignant pleural mesothelioma. *J Clin Oncol.* 2003;21(14):2636-2644. [doi:10.1200/JCO.2003.11.136](https://doi.org/10.1200/JCO.2003.11.136) · [PubMed 12860938](https://pubmed.ncbi.nlm.nih.gov/12860938/)
