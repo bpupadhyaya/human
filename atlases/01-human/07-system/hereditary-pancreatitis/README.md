@@ -223,6 +223,15 @@ cross_links:
   - target: 01-human/07-system/lymphatic-system
     relation: connects-to
     note: "Duct disruption leaks lymph and clots veins: pancreatic duct rupture can cause pancreatic and chylous ascites, and peripancreatic inflammation can thrombose the splenic vein."
+  - target: 01-human/07-system/immune-system
+    relation: connects-to
+    note: "It must be told apart from autoimmune disease: recurrent hereditary pancreatitis can mimic autoimmune (IgG4-related) pancreatitis, and repeated attacks drive chronic inflammatory injury to the gland."
+  - target: 01-human/07-system/reproductive-system
+    relation: connects-to
+    note: "It shapes family planning: as an autosomal-dominant PRSS1 disorder, hereditary pancreatitis raises genetic-counselling and prenatal questions for affected families."
+  - target: 03-medicine/01-modern/12-anti-inflammatory/ibuprofen
+    relation: connects-to
+    note: "Pain control is a mainstay: NSAIDs like ibuprofen and stronger analgesics manage the recurrent abdominal pain of hereditary pancreatitis, though chronic use carries gastrointestinal and renal risk."
 ---
 
 # Hereditary Pancreatitis
@@ -435,6 +444,9 @@ cross_links:
 - `connects-to` → **[Renal System](../renal-system/README.md)** — Severe attacks injure the kidney: acute pancreatitis causes third-spacing, hypovolaemia and shock that lead to acute kidney injury and tubular necrosis.
 - `connects-to` → **[Cardiovascular System](../cardiovascular-system/README.md)** — A severe attack collapses the circulation: acute pancreatitis triggers a systemic inflammatory response with capillary leak and distributive shock requiring aggressive fluid resuscitation.
 - `connects-to` → **[Lymphatic System](../lymphatic-system/README.md)** — Duct disruption leaks lymph and clots veins: pancreatic duct rupture can cause pancreatic and chylous ascites, and peripancreatic inflammation can thrombose the splenic vein.
+- `connects-to` → **[Immune System](../immune-system/README.md)** — It must be told apart from autoimmune disease: recurrent hereditary pancreatitis can mimic autoimmune (IgG4-related) pancreatitis, and repeated attacks drive chronic inflammatory injury to the gland.
+- `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — It shapes family planning: as an autosomal-dominant PRSS1 disorder, hereditary pancreatitis raises genetic-counselling and prenatal questions for affected families.
+- `connects-to` → **[Ibuprofen](../../../03-medicine/01-modern/12-anti-inflammatory/ibuprofen/README.md)** — Pain control is a mainstay: NSAIDs like ibuprofen and stronger analgesics manage the recurrent abdominal pain of hereditary pancreatitis, though chronic use carries gastrointestinal and renal risk.
 
 [^whitcomb-1996-prss1]: Whitcomb DC, Gorry MC, Preston RA, et al. Hereditary pancreatitis is caused by a mutation in the cationic trypsinogen gene. *Nat Genet.* 1996;14(2):141-145. [doi:10.1038/ng1096-141](https://doi.org/10.1038/ng1096-141) · [PubMed 8841182](https://pubmed.ncbi.nlm.nih.gov/8841182/)
 [^lowenfels-2001-hp-pdac]: Lowenfels AB, Maisonneuve P, DiMagno EP, et al. Hereditary pancreatitis and the risk of pancreatic cancer. *J Natl Cancer Inst.* 2001;93(1):26-31. [doi:10.1093/jnci/93.1.26](https://doi.org/10.1093/jnci/93.1.26) · [PubMed 11136838](https://pubmed.ncbi.nlm.nih.gov/11136838/)

@@ -223,6 +223,15 @@ cross_links:
   - target: 01-human/07-system/cardiovascular-system
     relation: connects-to
     note: "Life after total gastrectomy strains the circulation: dumping syndrome causes postprandial tachycardia, sweating and hypotension as food rushes into the small bowel."
+  - target: 01-human/07-system/mutyh-associated-polyposis
+    relation: connects-to
+    note: "A fellow inherited gastrointestinal-cancer syndrome: like MUTYH-associated polyposis, HDGC drives early gastrointestinal cancer needing intensive surveillance, the two entering the hereditary-GI-cancer differential."
+  - target: 03-medicine/03-food/vitamin-d
+    relation: connects-to
+    note: "Prophylactic surgery disturbs nutrition: the total gastrectomy that removes HDGC risk impairs absorption of vitamin D, calcium and B12, requiring lifelong supplementation."
+  - target: 03-medicine/03-food/zinc-dietary
+    relation: connects-to
+    note: "Loss of the stomach drains minerals: after risk-reducing gastrectomy, impaired gastric acid and absorption deplete iron and zinc, contributing to anaemia and poor healing."
 ---
 
 # Hereditary Diffuse Gastric Cancer
@@ -399,6 +408,9 @@ Testing for CDH1 (and CTNNA1) is indicated in any of the following:
 - `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — Its gene also binds skin cells: CDH1 encodes E-cadherin, a cell-adhesion protein of epithelia and skin, and some CDH1 families carry cleft lip and palate alongside their cancer risk.
 - `connects-to` → **[Respiratory System](../respiratory-system/README.md)** — Diffuse spread reaches the chest: signet-ring gastric cancer disseminates transcoelomically to the peritoneum and can seed the pleura, causing malignant effusions and breathlessness.
 - `connects-to` → **[Cardiovascular System](../cardiovascular-system/README.md)** — Life after total gastrectomy strains the circulation: dumping syndrome causes postprandial tachycardia, sweating and hypotension as food rushes into the small bowel.
+- `connects-to` → **[MUTYH-associated Polyposis](../mutyh-associated-polyposis/README.md)** — A fellow inherited gastrointestinal-cancer syndrome: like MUTYH-associated polyposis, HDGC drives early gastrointestinal cancer needing intensive surveillance, the two entering the hereditary-GI-cancer differential.
+- `connects-to` → **[Vitamin D](../../../03-medicine/03-food/vitamin-d/README.md)** — Prophylactic surgery disturbs nutrition: the total gastrectomy that removes HDGC risk impairs absorption of vitamin D, calcium and B12, requiring lifelong supplementation.
+- `connects-to` → **[Dietary Zinc](../../../03-medicine/03-food/zinc-dietary/README.md)** — Loss of the stomach drains minerals: after risk-reducing gastrectomy, impaired gastric acid and absorption deplete iron and zinc, contributing to anaemia and poor healing.
 
 [^van-der-post-2015-hdgc-guidelines]: van der Post RS, Vogelaar IP, Carneiro F, et al. Hereditary diffuse gastric cancer: updated clinical guidelines with an emphasis on germline CDH1 mutation carriers. *J Med Genet.* 2015;52(6):361-374. [doi:10.1136/jmedgenet-2015-103094](https://doi.org/10.1136/jmedgenet-2015-103094) · [PubMed 25979631](https://pubmed.ncbi.nlm.nih.gov/25979631/)
 [^hansford-2015-hdgc]: Hansford S, Kaurah P, Li-Chang H, et al. Hereditary Diffuse Gastric Cancer Syndrome: CDH1 Mutations and Beyond. *JAMA Oncol.* 2015;1(1):23-32. [doi:10.1001/jamaoncol.2014.168](https://doi.org/10.1001/jamaoncol.2014.168) · [PubMed 26182300](https://pubmed.ncbi.nlm.nih.gov/26182300/)
