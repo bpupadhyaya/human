@@ -205,6 +205,15 @@ cross_links:
   - target: 01-human/07-system/major-depressive-disorder
     relation: connects-to
     note: "A sudden, explosive cancer weighs on mood: Burkitt's rapid onset, urgent intensive chemotherapy and life-threatening course impose a heavy psychological burden contributing to depression."
+  - target: 01-human/07-system/digestive-system
+    relation: connects-to
+    note: "Sporadic Burkitt erupts in the abdomen: it commonly presents as a bulky ileocecal or abdominal mass causing pain, obstruction or intussusception, and its chemotherapy adds mucositis and typhlitis."
+  - target: 01-human/07-system/musculoskeletal-system
+    relation: connects-to
+    note: "The endemic form attacks the jaw: African endemic Burkitt lymphoma classically presents as a rapidly growing tumour of the jaw and facial bones, distorting the maxilla and mandible."
+  - target: 02-pathogen/01-viruses/varicella-zoster-virus
+    relation: connects-to
+    note: "Intensive chemo reawakens shingles: the dose-dense multi-agent chemotherapy for Burkitt lymphoma deeply suppresses T-cell immunity, allowing latent varicella-zoster to reactivate."
 ---
 
 # Burkitt Lymphoma
@@ -402,6 +411,9 @@ FISH for MYC, BCL2, and BCL6 is essential; if BCL2 FISH negative and Ki-67 ~100%
 - `connects-to` → **[Heart Failure](../heart-failure/README.md)** — Its anthracyclines strain the heart: the doxorubicin in the intensive CODOX-M/IVAC and DA-EPOCH regimens for Burkitt is dose-dependently cardiotoxic, risking cardiomyopathy and heart failure.
 - `connects-to` → **[Neuropathic Pain](../neuropathic-pain/README.md)** — Vincristine leaves the nerves raw: the vinca alkaloid central to Burkitt chemotherapy causes a dose-limiting peripheral neuropathy with numbness and neuropathic pain.
 - `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — A sudden, explosive cancer weighs on mood: Burkitt's rapid onset, urgent intensive chemotherapy and life-threatening course impose a heavy psychological burden contributing to depression.
+- `connects-to` → **[Digestive System](../digestive-system/README.md)** — Sporadic Burkitt erupts in the abdomen: it commonly presents as a bulky ileocecal or abdominal mass causing pain, obstruction or intussusception, and its chemotherapy adds mucositis and typhlitis.
+- `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — The endemic form attacks the jaw: African endemic Burkitt lymphoma classically presents as a rapidly growing tumour of the jaw and facial bones, distorting the maxilla and mandible.
+- `connects-to` → **[Varicella-Zoster Virus](../../../02-pathogen/01-viruses/varicella-zoster-virus/README.md)** — Intensive chemo reawakens shingles: the dose-dense multi-agent chemotherapy for Burkitt lymphoma deeply suppresses T-cell immunity, allowing latent varicella-zoster to reactivate.
 
 ---
 

@@ -205,6 +205,15 @@ cross_links:
   - target: 01-human/07-system/sepsis
     relation: connects-to
     note: "Cortisol excess and recurrent surgery invite infection: the immunosuppression of Cushing syndrome plus the repeated open-heart operations to remove recurrent myxomas raise the risk of serious infection and sepsis."
+  - target: 01-human/07-system/musculoskeletal-system
+    relation: connects-to
+    note: "Its cortisol excess wastes muscle and bone: the Cushing syndrome from primary pigmented nodular adrenal disease in Carney complex causes proximal myopathy and osteoporosis with fractures."
+  - target: 01-human/07-system/obesity
+    relation: connects-to
+    note: "Endogenous Cushing reshapes the body: the cortisol excess of Carney complex's adrenal disease produces central obesity with a moon face and buffalo hump alongside its metabolic disturbance."
+  - target: 01-human/07-system/generalized-anxiety-disorder
+    relation: connects-to
+    note: "Endless multi-organ tumour surveillance breeds worry: the lifelong monitoring for recurrent cardiac myxomas, endocrine tumours and other neoplasms in Carney complex fosters chronic health anxiety."
 ---
 
 # Carney Complex
@@ -389,6 +398,9 @@ PRKAR1A somatic LOH occurs in ~15-20% of sporadic adrenocortical adenomas and ca
 - `connects-to` → **[Hypertension](../hypertension/README.md)** — Its cortisol excess drives up pressure: the Cushing syndrome from primary pigmented nodular adrenal disease in Carney complex raises blood pressure through cortisol's mineralocorticoid and vascular effects.
 - `connects-to` → **[Wound Healing](../wound-healing/README.md)** — Hypercortisolism and heart surgery both impair repair: the Cushing syndrome of Carney complex thins skin and slows healing, compounded by the wounds of repeated cardiac-myxoma operations.
 - `connects-to` → **[Sepsis](../sepsis/README.md)** — Cortisol excess and recurrent surgery invite infection: the immunosuppression of Cushing syndrome plus the repeated open-heart operations to remove recurrent myxomas raise the risk of serious infection and sepsis.
+- `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — Its cortisol excess wastes muscle and bone: the Cushing syndrome from primary pigmented nodular adrenal disease in Carney complex causes proximal myopathy and osteoporosis with fractures.
+- `connects-to` → **[Obesity](../obesity/README.md)** — Endogenous Cushing reshapes the body: the cortisol excess of Carney complex's adrenal disease produces central obesity with a moon face and buffalo hump alongside its metabolic disturbance.
+- `connects-to` → **[Generalized Anxiety Disorder](../generalized-anxiety-disorder/README.md)** — Endless multi-organ tumour surveillance breeds worry: the lifelong monitoring for recurrent cardiac myxomas, endocrine tumours and other neoplasms in Carney complex fosters chronic health anxiety.
 
 ---
 
