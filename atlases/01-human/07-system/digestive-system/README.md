@@ -226,6 +226,15 @@ cross_links:
   - target: 01-human/07-system/integumentary-system
     relation: connects-to
     note: "The gut shows on the skin: malabsorption produces hair, nail and skin changes, liver disease causes jaundice, and a gut-skin axis links conditions like coeliac disease to dermatitis herpetiformis."
+  - target: 01-human/07-system/musculoskeletal-system
+    relation: connects-to
+    note: "The gut feeds the skeleton: it absorbs the calcium and vitamin D that build bone, so malabsorption from coeliac or bowel disease causes osteoporosis and osteomalacia, while inflammatory bowel disease brings enteropathic arthritis."
+  - target: 02-pathogen/01-viruses/hepatitis-c-virus
+    relation: connects-to
+    note: "A virus that smoulders in the liver: hepatitis C establishes chronic infection of hepatocytes, driving cirrhosis and hepatocellular carcinoma, though direct-acting antivirals now cure most cases."
+  - target: 03-medicine/03-food/zinc-dietary
+    relation: connects-to
+    note: "Zinc and the gut depend on each other: zinc is absorbed in the small intestine and maintains mucosal integrity, so malabsorption causes deficiency with diarrhoea and acrodermatitis, and supplementation shortens acute diarrhoea."
 taxonomy:
   uberon: "UBERON:0001007"
 ---
@@ -384,6 +393,9 @@ The ENS can function autonomously without extrinsic innervation (Hirschsprung's 
 - **Connects to:** [Lymphatic System](../lymphatic-system/README.md) — the gut is the body's largest immune and lymphatic organ: gut-associated lymphoid tissue and Peyer's patches guard the lumen, while intestinal lacteals absorb dietary fat into the lymphatics as chyle.
 - **Connects to:** [Respiratory System](../respiratory-system/README.md) — they share an origin and a crossroads: the gut and airways arise from the same primitive foregut and meet at the pharynx, so swallowing disorders cause aspiration and a gut-lung axis links the two.
 - **Connects to:** [Integumentary System](../integumentary-system/README.md) — the gut shows on the skin: malabsorption produces hair, nail and skin changes, liver disease causes jaundice, and a gut-skin axis links conditions like coeliac disease to dermatitis herpetiformis.
+- **Connects to:** [Musculoskeletal System](../musculoskeletal-system/README.md) — the gut feeds the skeleton: it absorbs the calcium and vitamin D that build bone, so malabsorption from coeliac or bowel disease causes osteoporosis and osteomalacia, while inflammatory bowel disease brings enteropathic arthritis.
+- **Connects to:** [Hepatitis C Virus](../../../02-pathogen/01-viruses/hepatitis-c-virus/README.md) — a virus that smoulders in the liver: hepatitis C establishes chronic infection of hepatocytes, driving cirrhosis and hepatocellular carcinoma, though direct-acting antivirals now cure most cases.
+- **Connects to:** [Zinc (Dietary)](../../../03-medicine/03-food/zinc-dietary/README.md) — zinc and the gut depend on each other: zinc is absorbed in the small intestine and maintains mucosal integrity, so malabsorption causes deficiency with diarrhoea and acrodermatitis, and supplementation shortens acute diarrhoea.
 
 ## Pathology
 

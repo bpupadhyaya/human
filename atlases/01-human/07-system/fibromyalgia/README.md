@@ -195,6 +195,15 @@ cross_links:
   - target: 01-human/07-system/endocrine-system
     relation: connects-to
     note: "Its stress axis runs awry: fibromyalgia is associated with dysregulation of the hypothalamic-pituitary-adrenal axis and growth-hormone secretion, and it often coexists with and is screened against thyroid disease."
+  - target: 01-human/07-system/integumentary-system
+    relation: connects-to
+    note: "The skin reveals nerve loss: biopsy shows reduced intraepidermal nerve-fibre density in a large subset of fibromyalgia, evidence of a small-fibre neuropathy underlying some of its pain."
+  - target: 01-human/07-system/immune-system
+    relation: connects-to
+    note: "Hints of immune involvement: neuroinflammation and, in some patients, an IgG autoantibody component shown by passive-transfer studies, alongside its frequent overlap with autoimmune rheumatic diseases."
+  - target: 01-human/07-system/cardiovascular-system
+    relation: connects-to
+    note: "Its autonomic control falters: fibromyalgia often features dysautonomia with orthostatic intolerance, POTS-like tachycardia and palpitations, reflecting altered cardiovascular reflex regulation."
 sources:
   - id: wolfe-2016-fibromyalgia-criteria
     type: peer-reviewed
@@ -414,6 +423,9 @@ FM is not a single-etiology disorder but a convergent syndrome resulting from th
 - `connects-to` → **[Digestive System](../digestive-system/README.md)** — It travels with a hypersensitive gut: irritable bowel syndrome and other functional GI disorders are strikingly common in fibromyalgia, both reflecting central sensitisation and visceral hyperalgesia.
 - `connects-to` → **[Renal System](../renal-system/README.md)** — A bladder version of the same syndrome: interstitial cystitis/painful bladder syndrome overlaps heavily with fibromyalgia, part of a cluster of central sensitivity syndromes sharing amplified pain processing.
 - `connects-to` → **[Endocrine System](../endocrine-system/README.md)** — Its stress axis runs awry: fibromyalgia is associated with dysregulation of the hypothalamic-pituitary-adrenal axis and growth-hormone secretion, and it often coexists with and is screened against thyroid disease.
+- `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — The skin reveals nerve loss: biopsy shows reduced intraepidermal nerve-fibre density in a large subset of fibromyalgia, evidence of a small-fibre neuropathy underlying some of its pain.
+- `connects-to` → **[Immune System](../immune-system/README.md)** — Hints of immune involvement: neuroinflammation and, in some patients, an IgG autoantibody component shown by passive-transfer studies, alongside its frequent overlap with autoimmune rheumatic diseases.
+- `connects-to` → **[Cardiovascular System](../cardiovascular-system/README.md)** — Its autonomic control falters: fibromyalgia often features dysautonomia with orthostatic intolerance, POTS-like tachycardia and palpitations, reflecting altered cardiovascular reflex regulation.
 
 [^wolfe-2016-fibromyalgia-criteria]: Wolfe F, Clauw DJ, Fitzcharles MA, et al. 2016 Revisions to the 2010/2011 fibromyalgia diagnostic criteria. *Semin Arthritis Rheum.* 2016;46(3):319-329. [doi:10.1016/j.semarthrit.2016.08.012](https://doi.org/10.1016/j.semarthrit.2016.08.012) · [PubMed 27916278](https://pubmed.ncbi.nlm.nih.gov/27916278/)
 [^clauw-2014-fibromyalgia-review]: Clauw DJ. Fibromyalgia: a clinical review. *JAMA.* 2014;311(15):1547-1555. [doi:10.1001/jama.2014.3266](https://doi.org/10.1001/jama.2014.3266) · [PubMed 24737367](https://pubmed.ncbi.nlm.nih.gov/24737367/)
