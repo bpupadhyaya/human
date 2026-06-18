@@ -211,6 +211,15 @@ cross_links:
   - target: 01-human/07-system/generalized-anxiety-disorder
     relation: connects-to
     note: "An unpredictable, painful disease breeds worry: the flares, disability and lifelong immunosuppressive treatment of RA foster chronic health anxiety alongside its well-documented depression."
+  - target: 01-human/07-system/respiratory-system
+    relation: connects-to
+    note: "It scars and nodules the lungs: rheumatoid arthritis causes interstitial lung disease, pulmonary nodules, pleuritis and bronchiectasis, and methotrexate adds a risk of hypersensitivity pneumonitis."
+  - target: 01-human/07-system/nervous-system
+    relation: connects-to
+    note: "It can compress and inflame nerves: cervical atlantoaxial subluxation in RA threatens the spinal cord, and entrapment neuropathies and vasculitic mononeuritis multiplex injure peripheral nerves."
+  - target: 01-human/07-system/immune-system
+    relation: connects-to
+    note: "It is an archetypal autoimmune disease: rheumatoid arthritis is driven by anti-citrullinated-protein and rheumatoid-factor autoantibodies and T-cell-driven synovial inflammation, the target of its immune therapies."
 ---
 
 # Rheumatoid Arthritis
@@ -417,6 +426,9 @@ RA patients have:
 - `connects-to` → **[Varicella-Zoster Virus](../../../02-pathogen/01-viruses/varicella-zoster-virus/README.md)** — Its JAK inhibitors notably reawaken shingles: tofacitinib and other JAK inhibitors used for RA, along with biologics and steroids, markedly raise the risk of herpes-zoster reactivation.
 - `connects-to` → **[Chronic Kidney Disease](../ckd/README.md)** — Chronic inflammation and its drugs scar the kidney: long-standing RA can deposit AA amyloid in the kidneys, and years of NSAID use add analgesic nephropathy, together driving chronic kidney disease.
 - `connects-to` → **[Generalized Anxiety Disorder](../generalized-anxiety-disorder/README.md)** — An unpredictable, painful disease breeds worry: the flares, disability and lifelong immunosuppressive treatment of RA foster chronic health anxiety alongside its well-documented depression.
+- `connects-to` → **[Respiratory System](../respiratory-system/README.md)** — It scars and nodules the lungs: rheumatoid arthritis causes interstitial lung disease, pulmonary nodules, pleuritis and bronchiectasis, and methotrexate adds a risk of hypersensitivity pneumonitis.
+- `connects-to` → **[Nervous System](../nervous-system/README.md)** — It can compress and inflame nerves: cervical atlantoaxial subluxation in RA threatens the spinal cord, and entrapment neuropathies and vasculitic mononeuritis multiplex injure peripheral nerves.
+- `connects-to` → **[Immune System](../immune-system/README.md)** — It is an archetypal autoimmune disease: rheumatoid arthritis is driven by anti-citrullinated-protein and rheumatoid-factor autoantibodies and T-cell-driven synovial inflammation, the target of its immune therapies.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 

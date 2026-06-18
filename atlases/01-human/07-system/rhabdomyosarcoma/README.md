@@ -205,6 +205,15 @@ cross_links:
   - target: 01-human/07-system/generalized-anxiety-disorder
     relation: connects-to
     note: "A childhood cancer with relapse risk breeds lasting worry: disfiguring surgery, intensive therapy and long survivorship surveillance after rhabdomyosarcoma foster chronic anxiety in survivors and families."
+  - target: 01-human/07-system/respiratory-system
+    relation: connects-to
+    note: "It spreads to the lungs: like other sarcomas, rhabdomyosarcoma metastasises preferentially to the lungs, so pulmonary metastases shape its staging, treatment and prognosis."
+  - target: 01-human/07-system/endocrine-system
+    relation: connects-to
+    note: "Head-and-neck radiation and chemo hit the glands: parameningeal and orbital radiotherapy for rhabdomyosarcoma can damage the hypothalamus and pituitary, and chemotherapy impairs future fertility."
+  - target: 01-human/07-system/digestive-system
+    relation: connects-to
+    note: "Pelvic tumours and chemo disturb the gut: genitourinary and pelvic rhabdomyosarcoma can obstruct the bowel, and its multi-agent chemotherapy causes mucositis, nausea and hepatotoxicity."
 ---
 
 # Rhabdomyosarcoma
@@ -395,6 +404,9 @@ Maximal safe resection with negative margins (R0) wherever achievable without mu
 - `connects-to` → **[Wound Healing](../wound-healing/README.md)** — Wide resection in irradiated tissue heals slowly: the local control of rhabdomyosarcoma combines extensive surgery with radiation, and the irradiated, chemotherapy-suppressed bed leaves wounds prone to breakdown.
 - `connects-to` → **[Varicella-Zoster Virus](../../../02-pathogen/01-viruses/varicella-zoster-virus/README.md)** — Chemotherapy reawakens shingles: the multi-agent regimens for rhabdomyosarcoma suppress a child's immunity, allowing latent or primary varicella-zoster to cause severe disseminated infection.
 - `connects-to` → **[Generalized Anxiety Disorder](../generalized-anxiety-disorder/README.md)** — A childhood cancer with relapse risk breeds lasting worry: disfiguring surgery, intensive therapy and long survivorship surveillance after rhabdomyosarcoma foster chronic anxiety in survivors and families.
+- `connects-to` → **[Respiratory System](../respiratory-system/README.md)** — It spreads to the lungs: like other sarcomas, rhabdomyosarcoma metastasises preferentially to the lungs, so pulmonary metastases shape its staging, treatment and prognosis.
+- `connects-to` → **[Endocrine System](../endocrine-system/README.md)** — Head-and-neck radiation and chemo hit the glands: parameningeal and orbital radiotherapy for rhabdomyosarcoma can damage the hypothalamus and pituitary, and chemotherapy impairs future fertility.
+- `connects-to` → **[Digestive System](../digestive-system/README.md)** — Pelvic tumours and chemo disturb the gut: genitourinary and pelvic rhabdomyosarcoma can obstruct the bowel, and its multi-agent chemotherapy causes mucositis, nausea and hepatotoxicity.
 
 [^crist-2001-irs4-rms]: Crist WM, Anderson JR, Meza JL, et al. Intergroup rhabdomyosarcoma study-IV: results for patients with nonmetastatic disease. *J Clin Oncol.* 2001;19(12):3091-3102. [doi:10.1200/JCO.2001.19.12.3091](https://doi.org/10.1200/JCO.2001.19.12.3091) · [PubMed 11408506](https://pubmed.ncbi.nlm.nih.gov/11408506/)
 [^oberlin-2012-mmt95-rms]: Oberlin O, Rey A, Sanchez de Toledo J, et al. Randomized comparison of intensified six-drug versus standard three-drug chemotherapy for high-risk nonmetastatic rhabdomyosarcoma and other chemotherapy-sensitive childhood soft tissue sarcomas. *J Clin Oncol.* 2012;30(19):2457-2465. [doi:10.1200/JCO.2011.39.3538](https://doi.org/10.1200/JCO.2011.39.3538) · [PubMed 22665546](https://pubmed.ncbi.nlm.nih.gov/22665546/)
