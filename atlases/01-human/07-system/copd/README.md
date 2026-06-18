@@ -238,6 +238,15 @@ cross_links:
   - target: 01-human/07-system/lymphatic-system
     relation: connects-to
     note: "Lymphoid follicles fuel the disease: COPD induces bronchus-associated lymphoid tissue — tertiary lymphoid follicles in the small airways — that sustain the chronic inflammation and remodelling of severe disease."
+  - target: 03-medicine/01-modern/04-cardio/beta-blockers
+    relation: connects-to
+    note: "A heart drug long feared but safe: cardioselective beta-blockers are safe and beneficial in COPD patients with heart disease, and the old blanket contraindication has been abandoned."
+  - target: 02-pathogen/01-viruses/sars-cov-2
+    relation: connects-to
+    note: "A virus that hits the damaged lung hard: COPD raises the risk of severe COVID-19 and respiratory failure, and SARS-CoV-2 is now a major cause of the infective exacerbations that worsen it."
+  - target: 01-human/07-system/obesity
+    relation: connects-to
+    note: "Weight cuts both ways: obesity worsens breathlessness and can overlap with obesity-hypoventilation, yet a higher body-mass index is paradoxically associated with better survival in advanced COPD."
 ---
 
 # COPD
@@ -454,6 +463,9 @@ COPD encompasses two overlapping pathological processes:
 - `connects-to` → **[Corticosteroids](../../../03-medicine/01-modern/02-respiratory/corticosteroids/README.md)** — A double-edged controller: inhaled corticosteroids reduce exacerbations in some COPD, while courses of systemic steroids treat flares at the cost of pneumonia risk, osteoporosis and hyperglycaemia.
 - `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — Breathlessness and low oxygen reach the bedroom: COPD commonly causes sexual dysfunction and is linked to hypogonadism from chronic illness, hypoxia and steroid use.
 - `connects-to` → **[Lymphatic System](../lymphatic-system/README.md)** — Lymphoid follicles fuel the disease: COPD induces bronchus-associated lymphoid tissue — tertiary lymphoid follicles in the small airways — that sustain the chronic inflammation and remodelling of severe disease.
+- `connects-to` → **[Beta-Blockers](../../../03-medicine/01-modern/04-cardio/beta-blockers/README.md)** — A heart drug long feared but safe: cardioselective beta-blockers are safe and beneficial in COPD patients with heart disease, and the old blanket contraindication has been abandoned.
+- `connects-to` → **[SARS-CoV-2](../../../02-pathogen/01-viruses/sars-cov-2/README.md)** — A virus that hits the damaged lung hard: COPD raises the risk of severe COVID-19 and respiratory failure, and SARS-CoV-2 is now a major cause of the infective exacerbations that worsen it.
+- `connects-to` → **[Obesity](../obesity/README.md)** — Weight cuts both ways: obesity worsens breathlessness and can overlap with obesity-hypoventilation, yet a higher body-mass index is paradoxically associated with better survival in advanced COPD.
 
 ---
 

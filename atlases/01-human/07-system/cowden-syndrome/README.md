@@ -232,6 +232,15 @@ cross_links:
   - target: 01-human/07-system/gorlin-syndrome
     relation: connects-to
     note: "A comparator skin-marker tumour syndrome: both Cowden and Gorlin syndrome are autosomal-dominant disorders announced by characteristic skin lesions and carrying a raised lifetime tumour risk."
+  - target: 03-medicine/01-modern/13-cancer/targeted-therapy
+    relation: connects-to
+    note: "mTOR drugs match its biology: PTEN loss in Cowden syndrome unleashes PI3K-AKT-mTOR, so mTOR and PI3K inhibitors (sirolimus, alpelisib) are studied for its hamartomas and tumours."
+  - target: 01-human/07-system/carney-complex
+    relation: connects-to
+    note: "Overlapping breast and thyroid tumours: like Carney complex, Cowden syndrome predisposes to breast and thyroid neoplasia with mucocutaneous lesions, two hamartoma syndromes spanning skin and glands."
+  - target: 01-human/07-system/men1-syndrome
+    relation: connects-to
+    note: "A fellow endocrine-tumour syndrome: Cowden's thyroid and other glandular tumours echo the multiple endocrine neoplasia syndromes like MEN1, both inherited drivers of multi-gland tumour predisposition."
 ---
 
 # Cowden Syndrome
@@ -483,6 +492,9 @@ cross_links:
 - `connects-to` → **[Renal System](../renal-system/README.md)** — It raises kidney-cancer risk: Cowden syndrome predisposes to renal cell carcinoma, adding the kidney to the breast, thyroid and endometrium in its tumour spectrum and surveillance.
 - `connects-to` → **[Li-Fraumeni Syndrome](../li-fraumeni-syndrome/README.md)** — A fellow multi-cancer syndrome: like Li-Fraumeni, Cowden syndrome is an autosomal-dominant predisposition to several cancers including breast, the two entering each other's differential.
 - `connects-to` → **[Gorlin Syndrome](../gorlin-syndrome/README.md)** — A comparator skin-marker tumour syndrome: both Cowden and Gorlin syndrome are autosomal-dominant disorders announced by characteristic skin lesions and carrying a raised lifetime tumour risk.
+- `connects-to` → **[Targeted Therapy](../../../03-medicine/01-modern/13-cancer/targeted-therapy/README.md)** — mTOR drugs match its biology: PTEN loss in Cowden syndrome unleashes PI3K-AKT-mTOR, so mTOR and PI3K inhibitors (sirolimus, alpelisib) are studied for its hamartomas and tumours.
+- `connects-to` → **[Carney Complex](../carney-complex/README.md)** — Overlapping breast and thyroid tumours: like Carney complex, Cowden syndrome predisposes to breast and thyroid neoplasia with mucocutaneous lesions, two hamartoma syndromes spanning skin and glands.
+- `connects-to` → **[MEN1 Syndrome](../men1-syndrome/README.md)** — A fellow endocrine-tumour syndrome: Cowden's thyroid and other glandular tumours echo the multiple endocrine neoplasia syndromes like MEN1, both inherited drivers of multi-gland tumour predisposition.
 
 ---
 
