@@ -223,6 +223,15 @@ cross_links:
   - target: 01-human/07-system/immune-system
     relation: connects-to
     note: "Its steroids suppress immunity: the prolonged dexamethasone used to control peritumoural oedema blunts immune defence, raising infection risk including Pneumocystis pneumonia."
+  - target: 01-human/07-system/cardiovascular-system
+    relation: connects-to
+    note: "It sits at the body's control centre: a pontine diffuse midline glioma can disturb the brainstem cardiorespiratory and autonomic centres, causing blood-pressure and heart-rate instability."
+  - target: 01-human/07-system/reproductive-system
+    relation: connects-to
+    note: "Treatment reaches the hormone axis: radiation near the hypothalamus and pituitary can disturb puberty and fertility in children surviving midline glioma."
+  - target: 02-pathogen/03-fungi/pneumocystis-jirovecii
+    relation: connects-to
+    note: "Long steroids invite an opportunist: the prolonged dexamethasone used for diffuse midline glioma suppresses immunity enough to risk Pneumocystis pneumonia, so prophylaxis is advised."
 ---
 
 # Diffuse Midline Glioma
@@ -430,6 +439,9 @@ Direct infusion of drugs into the pons via stereotactic catheter; bypasses BBB; 
 - `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — Treatment burdens the growing body: craniospinal radiation impairs growth and the long-term high-dose dexamethasone used to control oedema causes steroid myopathy and bone loss.
 - `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — Radiation and steroids mark the skin: radiotherapy causes dermatitis over the treatment field, and the dexamethasone needed for mass effect brings acne, striae and skin thinning.
 - `connects-to` → **[Immune System](../immune-system/README.md)** — Its steroids suppress immunity: the prolonged dexamethasone used to control peritumoural oedema blunts immune defence, raising infection risk including Pneumocystis pneumonia.
+- `connects-to` → **[Cardiovascular System](../cardiovascular-system/README.md)** — It sits at the body's control centre: a pontine diffuse midline glioma can disturb the brainstem cardiorespiratory and autonomic centres, causing blood-pressure and heart-rate instability.
+- `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — Treatment reaches the hormone axis: radiation near the hypothalamus and pituitary can disturb puberty and fertility in children surviving midline glioma.
+- `connects-to` → **[Pneumocystis jirovecii](../../../02-pathogen/03-fungi/pneumocystis-jirovecii/README.md)** — Long steroids invite an opportunist: the prolonged dexamethasone used for diffuse midline glioma suppresses immunity enough to risk Pneumocystis pneumonia, so prophylaxis is advised.
 
 ---
 

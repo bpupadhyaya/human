@@ -229,6 +229,15 @@ cross_links:
   - target: 01-human/07-system/endocrine-system
     relation: connects-to
     note: "It can destroy the adrenals: bilateral adrenal haemorrhage — Waterhouse-Friderichsen syndrome — complicates meningococcal DIC, causing acute adrenal failure."
+  - target: 01-human/07-system/cardiovascular-system
+    relation: connects-to
+    note: "It clots and bleeds in the vessels at once: DIC scatters microthrombi that occlude small vessels while consuming clotting factors, causing both ischaemia and haemorrhage with circulatory collapse."
+  - target: 01-human/07-system/immune-system
+    relation: connects-to
+    note: "It is driven by inflammation: sepsis and cytokine release trigger DIC through tissue factor and immunothrombosis, tying coagulation tightly to the innate immune response."
+  - target: 01-human/07-system/musculoskeletal-system
+    relation: connects-to
+    note: "It bleeds into soft tissue: consumption of platelets and clotting factors causes spontaneous bleeding into muscles and, with purpura fulminans, ischaemic limb necrosis."
 ---
 
 # Disseminated Intravascular Coagulation
@@ -430,6 +439,9 @@ DIC is always **secondary** — it does not occur in isolation but as a conseque
 - `connects-to` → **[Renal System](../renal-system/README.md)** — Microthrombi clog the kidney: DIC deposits fibrin in the renal microvasculature, causing acute kidney injury and, in severe cases, bilateral renal cortical necrosis.
 - `connects-to` → **[Nervous System](../nervous-system/README.md)** — It both clots and bleeds the brain: cerebral microthrombi and intracranial haemorrhage from consumed platelets and clotting factors cause encephalopathy, stroke and bleeding.
 - `connects-to` → **[Endocrine System](../endocrine-system/README.md)** — It can destroy the adrenals: bilateral adrenal haemorrhage — Waterhouse-Friderichsen syndrome — complicates meningococcal DIC, causing acute adrenal failure.
+- `connects-to` → **[Cardiovascular System](../cardiovascular-system/README.md)** — It clots and bleeds in the vessels at once: DIC scatters microthrombi that occlude small vessels while consuming clotting factors, causing both ischaemia and haemorrhage with circulatory collapse.
+- `connects-to` → **[Immune System](../immune-system/README.md)** — It is driven by inflammation: sepsis and cytokine release trigger DIC through tissue factor and immunothrombosis, tying coagulation tightly to the innate immune response.
+- `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — It bleeds into soft tissue: consumption of platelets and clotting factors causes spontaneous bleeding into muscles and, with purpura fulminans, ischaemic limb necrosis.
 
 ---
 
