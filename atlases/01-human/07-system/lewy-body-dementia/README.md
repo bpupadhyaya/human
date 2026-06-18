@@ -211,6 +211,15 @@ cross_links:
   - target: 01-human/07-system/wound-healing
     relation: connects-to
     note: "Late immobility breaks down the skin: as Lewy body dementia advances to a bedbound state, pressure ulcers form over bony prominences and heal poorly in the frail, malnourished patient."
+  - target: 01-human/07-system/cardiovascular-system
+    relation: connects-to
+    note: "Autonomic failure drops the blood pressure: Lewy body dementia disrupts cardiovascular autonomic control, causing orthostatic hypotension and syncope that lead to falls, a hallmark of its dysautonomia."
+  - target: 01-human/07-system/musculoskeletal-system
+    relation: connects-to
+    note: "Parkinsonism and falls batter the skeleton: the rigidity, bradykinesia and postural instability of Lewy body dementia cause frequent falls with fractures, and late immobility brings contractures and sarcopenia."
+  - target: 01-human/07-system/renal-system
+    relation: connects-to
+    note: "Autonomic dysfunction unsettles the bladder: Lewy body dementia impairs autonomic bladder control, causing urinary urgency, incontinence and retention with recurrent infection."
 ---
 
 # Lewy Body Dementia
@@ -401,6 +410,9 @@ Approximately 25-50% of clinically diagnosed DLB cases have significant AD co-pa
 - `connects-to` → **[Streptococcus pneumoniae](../../../02-pathogen/02-bacteria/streptococcus-pneumoniae/README.md)** — Swallowing fails as the disease advances: dysphagia in Lewy body dementia causes aspiration, and the resulting pneumonia — often pneumococcal — is a leading immediate cause of death.
 - `connects-to` → **[Escherichia coli](../../../02-pathogen/02-bacteria/escherichia-coli/README.md)** — Infection unmasks the fluctuating brain: a urinary tract infection, commonly E. coli, can abruptly worsen the cognition and hallucinations of Lewy body dementia, triggering florid delirium beyond its usual fluctuations.
 - `connects-to` → **[Wound Healing](../wound-healing/README.md)** — Late immobility breaks down the skin: as Lewy body dementia advances to a bedbound state, pressure ulcers form over bony prominences and heal poorly in the frail, malnourished patient.
+- `connects-to` → **[Cardiovascular System](../cardiovascular-system/README.md)** — Autonomic failure drops the blood pressure: Lewy body dementia disrupts cardiovascular autonomic control, causing orthostatic hypotension and syncope that lead to falls, a hallmark of its dysautonomia.
+- `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — Parkinsonism and falls batter the skeleton: the rigidity, bradykinesia and postural instability of Lewy body dementia cause frequent falls with fractures, and late immobility brings contractures and sarcopenia.
+- `connects-to` → **[Renal System](../renal-system/README.md)** — Autonomic dysfunction unsettles the bladder: Lewy body dementia impairs autonomic bladder control, causing urinary urgency, incontinence and retention with recurrent infection.
 
 [^mckeith-2017-dlb-criteria]: McKeith IG, Boeve BF, Dickson DW, et al. Diagnosis and management of dementia with Lewy bodies: Fourth consensus report of the DLB Consortium. *Neurology.* 2017;89(1):88-100. [doi:10.1212/WNL.0000000000004058](https://doi.org/10.1212/WNL.0000000000004058) · [PubMed 28592453](https://pubmed.ncbi.nlm.nih.gov/28592453/)
 [^spillantini-1997-lewy-body]: Spillantini MG, Schmidt ML, Lee VM, Trojanowski JQ, Jakes R, Goedert M. Alpha-synuclein in Lewy bodies. *Nature.* 1997;388(6645):839-840. [doi:10.1038/42166](https://doi.org/10.1038/42166) · [PubMed 9278044](https://pubmed.ncbi.nlm.nih.gov/9278044/)
