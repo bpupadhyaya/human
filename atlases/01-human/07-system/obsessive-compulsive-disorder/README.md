@@ -215,6 +215,15 @@ cross_links:
   - target: 01-human/07-system/obesity
     relation: connects-to
     note: "Its long-term medications add weight: the high-dose SSRIs and antipsychotic augmentation used in OCD promote weight gain, contributing to obesity over years of treatment."
+  - target: 01-human/07-system/integumentary-system
+    relation: connects-to
+    note: "Compulsive washing wrecks the skin: repetitive handwashing in OCD causes chronic irritant contact dermatitis with cracking and bleeding, the visible toll of the contamination-and-cleaning cycle."
+  - target: 01-human/07-system/cardiovascular-system
+    relation: connects-to
+    note: "Its strongest old drug strains the heart: clomipramine, the tricyclic uniquely effective in OCD, prolongs the QT interval and carries arrhythmia and orthostatic risk, demanding cardiac caution."
+  - target: 01-human/07-system/digestive-system
+    relation: connects-to
+    note: "Anticholinergic therapy slows the gut: clomipramine and high-dose SSRIs used for OCD cause constipation and other anticholinergic and serotonergic gut effects that complicate long-term treatment."
 ---
 
 # Obsessive-Compulsive Disorder
@@ -405,6 +414,9 @@ OCD is often underdiagnosed due to shame and secrecy. Mean time from symptom ons
 - `connects-to` → **[Migraine](../migraine/README.md)** — Headache keeps company with the disorder: OCD shows elevated comorbidity with migraine, the two sharing serotonergic dysregulation and a tendency toward chronic, recurrent symptom patterns.
 - `connects-to` → **[Atopic Dermatitis](../atopic-dermatitis/README.md)** — Compulsive scratching meets chronic itch: OCD-spectrum skin-picking and the relentless itch of atopic dermatitis reinforce each other, and the two conditions co-occur more than chance.
 - `connects-to` → **[Obesity](../obesity/README.md)** — Its long-term medications add weight: the high-dose SSRIs and antipsychotic augmentation used in OCD promote weight gain, contributing to obesity over years of treatment.
+- `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — Compulsive washing wrecks the skin: repetitive handwashing in OCD causes chronic irritant contact dermatitis with cracking and bleeding, the visible toll of the contamination-and-cleaning cycle.
+- `connects-to` → **[Cardiovascular System](../cardiovascular-system/README.md)** — Its strongest old drug strains the heart: clomipramine, the tricyclic uniquely effective in OCD, prolongs the QT interval and carries arrhythmia and orthostatic risk, demanding cardiac caution.
+- `connects-to` → **[Digestive System](../digestive-system/README.md)** — Anticholinergic therapy slows the gut: clomipramine and high-dose SSRIs used for OCD cause constipation and other anticholinergic and serotonergic gut effects that complicate long-term treatment.
 
 [^abramowitz-2009-ocd-review]: Abramowitz JS, Taylor S, McKay D. Obsessive-compulsive disorder. *Lancet.* 2009;374(9688):491-499. [doi:10.1016/S0140-6736(09)60240-3](https://doi.org/10.1016/S0140-6736(09)60240-3) · [PubMed 19665647](https://pubmed.ncbi.nlm.nih.gov/19665647/)
 [^chamberlain-2008-ocd-neuroscience]: Chamberlain SR, Menzies L, Hampshire A, et al. Orbitofrontal dysfunction in patients with OCD and their unaffected relatives. *Science.* 2008;321(5887):421-422. [doi:10.1126/science.1154433](https://doi.org/10.1126/science.1154433) · [PubMed 18635808](https://pubmed.ncbi.nlm.nih.gov/18635808/)

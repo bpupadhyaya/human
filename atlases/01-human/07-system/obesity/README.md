@@ -208,6 +208,15 @@ cross_links:
   - target: 01-human/07-system/pulmonary-arterial-hypertension
     relation: connects-to
     note: "Severe obesity can pressurize the lungs: obesity-hypoventilation and obstructive sleep apnea cause chronic hypoxia that constricts the pulmonary vasculature, contributing to pulmonary hypertension."
+  - target: 01-human/07-system/endocrine-system
+    relation: connects-to
+    note: "Adipose tissue is itself an endocrine organ: obesity drives insulin resistance, leptin and adipokine dysregulation, hypogonadism in men and polycystic ovary syndrome in women, sitting at the centre of endocrine disease."
+  - target: 01-human/07-system/digestive-system
+    relation: connects-to
+    note: "Excess weight burdens the gut: obesity causes gastro-oesophageal reflux, gallstones and fatty-liver disease, and it is the leading target of bariatric surgery that reshapes the digestive tract."
+  - target: 01-human/07-system/wound-healing
+    relation: connects-to
+    note: "Fat tissue heals badly: poorly vascularised adipose, higher wound tension and frequent diabetes make surgical-site infection and dehiscence far more common in obese patients."
 ---
 
 # Obesity
@@ -411,6 +420,9 @@ This **metainflammation** mechanistically links obesity to type 2 diabetes, athe
 - `connects-to` → **[Esophageal Cancer](../esophageal-cancer/README.md)** — Reflux from excess weight scars toward cancer: central obesity promotes acid reflux and Barrett's esophagus, the precursor lesion behind the rising incidence of esophageal adenocarcinoma.
 - `connects-to` → **[Pancreatic Cancer](../pancreatic-cancer/README.md)** — It is an established pancreatic-cancer risk: obesity's chronic inflammation, hyperinsulinemia and altered adipokines raise the risk of pancreatic adenocarcinoma and worsen its outcomes.
 - `connects-to` → **[Pulmonary Arterial Hypertension](../pulmonary-arterial-hypertension/README.md)** — Severe obesity can pressurize the lungs: obesity-hypoventilation and obstructive sleep apnea cause chronic hypoxia that constricts the pulmonary vasculature, contributing to pulmonary hypertension.
+- `connects-to` → **[Endocrine System](../endocrine-system/README.md)** — Adipose tissue is itself an endocrine organ: obesity drives insulin resistance, leptin and adipokine dysregulation, hypogonadism in men and polycystic ovary syndrome in women, sitting at the centre of endocrine disease.
+- `connects-to` → **[Digestive System](../digestive-system/README.md)** — Excess weight burdens the gut: obesity causes gastro-oesophageal reflux, gallstones and fatty-liver disease, and it is the leading target of bariatric surgery that reshapes the digestive tract.
+- `connects-to` → **[Wound Healing](../wound-healing/README.md)** — Fat tissue heals badly: poorly vascularised adipose, higher wound tension and frequent diabetes make surgical-site infection and dehiscence far more common in obese patients.
 
 [^bluher-2019-obesity-review]: Blüher M. Obesity: global epidemiology and pathogenesis. *Nat Rev Endocrinol.* 2019;15(5):288-298. [doi:10.1038/s41574-019-0176-8](https://doi.org/10.1038/s41574-019-0176-8) · [PubMed 30814686](https://pubmed.ncbi.nlm.nih.gov/30814686/)
 [^wilding-2021-semaglutide-step1]: Wilding JPH, Batterham RL, Calanna S, et al. Once-weekly semaglutide in adults with overweight or obesity. *N Engl J Med.* 2021;384(11):989-1002. [doi:10.1056/NEJMoa2032183](https://doi.org/10.1056/NEJMoa2032183) · [PubMed 33567185](https://pubmed.ncbi.nlm.nih.gov/33567185/)
