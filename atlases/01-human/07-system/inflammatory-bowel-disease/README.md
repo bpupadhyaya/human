@@ -220,6 +220,15 @@ cross_links:
   - target: 01-human/07-system/generalized-anxiety-disorder
     relation: connects-to
     note: "An unpredictable, urgent disease breeds worry: the relapsing flares, faecal urgency and gut-brain signalling of IBD foster chronic health anxiety alongside its well-documented depression."
+  - target: 01-human/07-system/immune-system
+    relation: connects-to
+    note: "It is an immune-mediated disease at its core: dysregulated mucosal immunity with the IL-23/Th17 axis and innate immune defects drives the gut inflammation that biologic therapies target."
+  - target: 01-human/07-system/musculoskeletal-system
+    relation: connects-to
+    note: "It inflames joints beyond the gut: enteropathic peripheral arthritis and sacroiliitis are common extraintestinal manifestations, alongside the steroid- and inflammation-driven bone loss of IBD."
+  - target: 01-human/07-system/nervous-system
+    relation: connects-to
+    note: "It can reach the nerves: terminal-ileal Crohn's causes vitamin B12 deficiency with neuropathy, and IBD raises the risk of cerebral venous thrombosis and peripheral neuropathy."
 ---
 
 # Inflammatory Bowel Disease
@@ -415,6 +424,9 @@ IBD is a complex polygenic disease with >240 susceptibility loci (GWAS):
 - `connects-to` → **[Varicella-Zoster Virus](../../../02-pathogen/01-viruses/varicella-zoster-virus/README.md)** — Its immunosuppression reawakens shingles: the thiopurines, anti-TNF and especially JAK inhibitors used for IBD blunt antiviral immunity and notably raise the risk of herpes-zoster reactivation.
 - `connects-to` → **[Renal System](../renal-system/README.md)** — Crohn's reaches the urinary tract: fat malabsorption causes enteric hyperoxaluria with oxalate kidney stones, and bowel inflammation can form enterovesical fistulas and rarely renal amyloidosis.
 - `connects-to` → **[Generalized Anxiety Disorder](../generalized-anxiety-disorder/README.md)** — An unpredictable, urgent disease breeds worry: the relapsing flares, faecal urgency and gut-brain signalling of IBD foster chronic health anxiety alongside its well-documented depression.
+- `connects-to` → **[Immune System](../immune-system/README.md)** — It is an immune-mediated disease at its core: dysregulated mucosal immunity with the IL-23/Th17 axis and innate immune defects drives the gut inflammation that biologic therapies target.
+- `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — It inflames joints beyond the gut: enteropathic peripheral arthritis and sacroiliitis are common extraintestinal manifestations, alongside the steroid- and inflammation-driven bone loss of IBD.
+- `connects-to` → **[Nervous System](../nervous-system/README.md)** — It can reach the nerves: terminal-ileal Crohn's causes vitamin B12 deficiency with neuropathy, and IBD raises the risk of cerebral venous thrombosis and peripheral neuropathy.
 
 [^ng-2017-ibd-epidemiology]: Ng SC, Shi HY, Hamidi N, et al. Worldwide incidence and prevalence of inflammatory bowel disease in the 21st century: a systematic review of population-based studies. *Lancet.* 2018;390(10114):2769-2778. [doi:10.1016/S0140-6736(17)32448-0](https://doi.org/10.1016/S0140-6736(17)32448-0) · [PubMed 29050646](https://pubmed.ncbi.nlm.nih.gov/29050646/)
 [^sandborn-2012-vedolizumab]: Feagan BG, Rutgeerts P, Sands BE, et al. Vedolizumab as induction and maintenance therapy for ulcerative colitis. *N Engl J Med.* 2013;369(8):699-710. [doi:10.1056/NEJMoa1215734](https://doi.org/10.1056/NEJMoa1215734) · [PubMed 23964932](https://pubmed.ncbi.nlm.nih.gov/23964932/)

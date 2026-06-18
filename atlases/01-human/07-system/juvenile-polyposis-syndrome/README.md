@@ -214,6 +214,15 @@ cross_links:
   - target: 01-human/07-system/nervous-system
     relation: connects-to
     note: "Its vascular malformations reach the brain: SMAD4-related JPS-HHT causes cerebral arteriovenous malformations that can rupture into haemorrhagic stroke or seed brain abscess via right-to-left shunts."
+  - target: 01-human/07-system/lymphatic-system
+    relation: connects-to
+    note: "Heavy polyposis leaks protein from the gut: extensive juvenile polyposis, especially in infants, causes protein-losing enteropathy with low albumin and oedema as protein escapes into the bowel."
+  - target: 01-human/07-system/renal-system
+    relation: connects-to
+    note: "It can bleed from kidney and gut: SMAD4-related JPS-HHT can form renal arteriovenous malformations causing haematuria, while chronic polyp bleeding drives iron-deficiency anaemia."
+  - target: 01-human/07-system/immune-system
+    relation: connects-to
+    note: "Its gene also governs immunity: SMAD4 transduces TGF-β signalling that regulates immune tolerance, so its loss has effects beyond the gut and vasculature."
 ---
 
 # Juvenile Polyposis Syndrome
@@ -409,6 +418,9 @@ No approved chemopreventive agents specifically for JPS. Options under investiga
 - `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — Its SMAD4 form telangiectases the skin: when juvenile polyposis is caused by SMAD4 it overlaps hereditary haemorrhagic telangiectasia, with mucocutaneous telangiectasias on the lips, tongue and fingers.
 - `connects-to` → **[Respiratory System](../respiratory-system/README.md)** — SMAD4 overlap riddles the lungs with shunts: the JPS-HHT overlap causes pulmonary arteriovenous malformations that bleed, cause hypoxaemia and let clots and bacteria bypass the lung filter.
 - `connects-to` → **[Nervous System](../nervous-system/README.md)** — Its vascular malformations reach the brain: SMAD4-related JPS-HHT causes cerebral arteriovenous malformations that can rupture into haemorrhagic stroke or seed brain abscess via right-to-left shunts.
+- `connects-to` → **[Lymphatic System](../lymphatic-system/README.md)** — Heavy polyposis leaks protein from the gut: extensive juvenile polyposis, especially in infants, causes protein-losing enteropathy with low albumin and oedema as protein escapes into the bowel.
+- `connects-to` → **[Renal System](../renal-system/README.md)** — It can bleed from kidney and gut: SMAD4-related JPS-HHT can form renal arteriovenous malformations causing haematuria, while chronic polyp bleeding drives iron-deficiency anaemia.
+- `connects-to` → **[Immune System](../immune-system/README.md)** — Its gene also governs immunity: SMAD4 transduces TGF-β signalling that regulates immune tolerance, so its loss has effects beyond the gut and vasculature.
 
 [^howe-1998-smad4-jps]: Howe JR, Roth S, Ringold JC, et al. Mutations in the SMAD4/DPC4 gene in juvenile polyposis. *Science.* 1998;280(5366):1086-1088. [doi:10.1126/science.280.5366.1086](https://doi.org/10.1126/science.280.5366.1086) · [PubMed 9582123](https://pubmed.ncbi.nlm.nih.gov/9582123/)
 [^aretz-2007-jps-spectrum]: Aretz S, Stienen D, Uhlhaas S, et al. High proportion of large genomic deletions and a genotype-phenotype update in 80 unrelated families with juvenile polyposis syndrome. *J Med Genet.* 2007;44(11):702-709. [doi:10.1136/jmg.2007.051839](https://doi.org/10.1136/jmg.2007.051839) · [PubMed 17601924](https://pubmed.ncbi.nlm.nih.gov/17601924/)
