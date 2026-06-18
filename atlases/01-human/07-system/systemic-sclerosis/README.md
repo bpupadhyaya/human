@@ -220,6 +220,15 @@ cross_links:
   - target: 01-human/07-system/musculoskeletal-system
     relation: connects-to
     note: "Fibrosis stiffens joints and deposits calcium: systemic sclerosis causes joint contractures, tendon friction rubs, calcinosis of the soft tissues and an inflammatory myopathy."
+  - target: 01-human/07-system/cardiovascular-system
+    relation: connects-to
+    note: "It spasms the small vessels and scars the heart: Raynaud's phenomenon — episodic digital vasospasm — is an almost universal early feature, and myocardial fibrosis causes arrhythmia and heart failure."
+  - target: 01-human/07-system/nervous-system
+    relation: connects-to
+    note: "It has a signature nerve sign: trigeminal neuralgia is a characteristic neurological association of systemic sclerosis, alongside carpal tunnel syndrome and autonomic and peripheral neuropathy."
+  - target: 01-human/07-system/endocrine-system
+    relation: connects-to
+    note: "It clusters with thyroid disease: autoimmune hypothyroidism is a common association, and fibrosis of the thyroid gland can further impair its function."
 ---
 
 # Systemic Sclerosis
@@ -401,6 +410,9 @@ Identical to IPAH: medial hypertrophy, intimal fibrosis, concentric laminar inti
 - `connects-to` → **[Respiratory System](../respiratory-system/README.md)** — It scars the lungs: interstitial lung disease from progressive pulmonary fibrosis is the leading cause of death in systemic sclerosis, alongside the pulmonary hypertension it also drives.
 - `connects-to` → **[Renal System](../renal-system/README.md)** — It can strike the kidneys abruptly: scleroderma renal crisis brings malignant hypertension and acute kidney injury, a once-fatal emergency now treated with ACE inhibitors.
 - `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — Fibrosis stiffens joints and deposits calcium: systemic sclerosis causes joint contractures, tendon friction rubs, calcinosis of the soft tissues and an inflammatory myopathy.
+- `connects-to` → **[Cardiovascular System](../cardiovascular-system/README.md)** — It spasms the small vessels and scars the heart: Raynaud's phenomenon — episodic digital vasospasm — is an almost universal early feature, and myocardial fibrosis causes arrhythmia and heart failure.
+- `connects-to` → **[Nervous System](../nervous-system/README.md)** — It has a signature nerve sign: trigeminal neuralgia is a characteristic neurological association of systemic sclerosis, alongside carpal tunnel syndrome and autonomic and peripheral neuropathy.
+- `connects-to` → **[Endocrine System](../endocrine-system/README.md)** — It clusters with thyroid disease: autoimmune hypothyroidism is a common association, and fibrosis of the thyroid gland can further impair its function.
 
 [^denton-2017-ssc-review]: Denton CP, Khanna D. Systemic sclerosis. *Lancet.* 2017;390(10103):1685-1699. [doi:10.1016/S0140-6736(17)30933-9](https://doi.org/10.1016/S0140-6736(17)30933-9) · [PubMed 28413064](https://pubmed.ncbi.nlm.nih.gov/28413064/)
 [^distler-2019-nintedanib-senscis]: Distler O, Highland KB, Gahlemann M, et al. Nintedanib for Systemic Sclerosis-Associated Interstitial Lung Disease. *N Engl J Med.* 2019;380(26):2518-2528. [doi:10.1056/NEJMoa1903076](https://doi.org/10.1056/NEJMoa1903076) · [PubMed 31112379](https://pubmed.ncbi.nlm.nih.gov/31112379/)

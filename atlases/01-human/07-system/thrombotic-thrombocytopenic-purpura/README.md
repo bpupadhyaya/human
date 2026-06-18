@@ -220,6 +220,15 @@ cross_links:
   - target: 01-human/07-system/cardiovascular-system
     relation: connects-to
     note: "Microthrombi can injure the heart: cardiac involvement in TTP causes myocardial microinfarction, arrhythmias and sudden death, an under-recognised cause of its mortality."
+  - target: 01-human/07-system/renal-system
+    relation: connects-to
+    note: "Microthrombi reach the kidney: renal involvement is part of the TTP pentad, causing acute kidney injury, usually milder than the severe renal failure of haemolytic uraemic syndrome."
+  - target: 01-human/07-system/respiratory-system
+    relation: connects-to
+    note: "Its treatment can flood the lungs: plasma exchange, the mainstay therapy, carries a risk of transfusion-related acute lung injury, and microthrombi can rarely involve the pulmonary vasculature."
+  - target: 01-human/07-system/endocrine-system
+    relation: connects-to
+    note: "It can clot the glands: microvascular thrombi can injure the pancreas, causing pancreatitis, and the adrenal glands, causing microinfarction."
 ---
 
 # Thrombotic Thrombocytopenic Purpura
@@ -442,6 +451,9 @@ In healthy individuals, ADAMTS13 (~190 kDa plasma glycoprotein; hepatic synthesi
 - `connects-to` → **[Nervous System](../nervous-system/README.md)** — It clots the brain's small vessels: fluctuating confusion, headache, seizures, focal deficits and coma from cerebral microthrombi are defining features of TTP and a hallmark of its classic pentad.
 - `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — Falling platelets bruise the skin: the severe thrombocytopenia of TTP causes widespread petechiae, purpura and mucosal bleeding, often the first visible clue to the diagnosis.
 - `connects-to` → **[Cardiovascular System](../cardiovascular-system/README.md)** — Microthrombi can injure the heart: cardiac involvement in TTP causes myocardial microinfarction, arrhythmias and sudden death, an under-recognised cause of its mortality.
+- `connects-to` → **[Renal System](../renal-system/README.md)** — Microthrombi reach the kidney: renal involvement is part of the TTP pentad, causing acute kidney injury, usually milder than the severe renal failure of haemolytic uraemic syndrome.
+- `connects-to` → **[Respiratory System](../respiratory-system/README.md)** — Its treatment can flood the lungs: plasma exchange, the mainstay therapy, carries a risk of transfusion-related acute lung injury, and microthrombi can rarely involve the pulmonary vasculature.
+- `connects-to` → **[Endocrine System](../endocrine-system/README.md)** — It can clot the glands: microvascular thrombi can injure the pancreas, causing pancreatitis, and the adrenal glands, causing microinfarction.
 
 ---
 
