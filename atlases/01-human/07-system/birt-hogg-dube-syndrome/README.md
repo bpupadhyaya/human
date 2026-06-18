@@ -241,6 +241,15 @@ cross_links:
   - target: 01-human/07-system/carney-complex
     relation: connects-to
     note: "A shared lifetime of surveillance: like Carney complex, Birt-Hogg-Dubé commits carriers to lifelong multi-organ imaging surveillance, here annual renal MRI to catch its kidney tumours early."
+  - target: 01-human/05-tissue/lung-slice
+    relation: connects-to
+    note: "It riddles the lung with cysts: folliculin loss produces basal, subpleural lung cysts that rupture as recurrent spontaneous pneumothorax — often the first clue to Birt-Hogg-Dubé, seen as cystic change on a lung slice."
+  - target: 03-medicine/01-modern/13-cancer/cancer-chemotherapy
+    relation: connects-to
+    note: "Its kidney tumours resist chemo: the chromophobe and hybrid oncocytic renal carcinomas of Birt-Hogg-Dubé are indolent and chemoresistant, managed by surveillance and nephron-sparing surgery rather than cytotoxic chemotherapy."
+  - target: 03-medicine/01-modern/13-cancer/checkpoint-inhibitors
+    relation: connects-to
+    note: "Less immunotherapy-responsive than clear cell: unlike VHL-driven clear-cell kidney cancer, the chromophobe/oncocytic tumours of Birt-Hogg-Dubé have low mutational burden and respond poorly to checkpoint blockade."
 ---
 
 # Birt-Hogg-Dubé Syndrome
@@ -456,6 +465,9 @@ Definite BHD: 1 major OR 2 minor criteria (European BHD Consortium definition)
 - `connects-to` → **[Targeted Therapy](../../../03-medicine/01-modern/13-cancer/targeted-therapy/README.md)** — Advanced kidney tumours need systemic drugs: the chromophobe and oncocytic renal cancers of Birt-Hogg-Dubé, when metastatic, are treated with mTOR and VEGFR-targeted agents reflecting their FLCN-mTOR biology.
 - `connects-to` → **[DICER1 Syndrome](../dicer1-syndrome/README.md)** — A fellow cause of inherited cystic lung disease: like Birt-Hogg-Dubé, DICER1 syndrome produces familial lung cysts prone to pneumothorax, so both demand awareness of cystic lung change in young patients.
 - `connects-to` → **[Carney Complex](../carney-complex/README.md)** — A shared lifetime of surveillance: like Carney complex, Birt-Hogg-Dubé commits carriers to lifelong multi-organ imaging surveillance, here annual renal MRI to catch its kidney tumours early.
+- `connects-to` → **[Lung Slice](../../05-tissue/lung-slice/README.md)** — It riddles the lung with cysts: folliculin loss produces basal, subpleural lung cysts that rupture as recurrent spontaneous pneumothorax — often the first clue to Birt-Hogg-Dubé, seen as cystic change on a lung slice.
+- `connects-to` → **[Cancer Chemotherapy](../../../03-medicine/01-modern/13-cancer/cancer-chemotherapy/README.md)** — Its kidney tumours resist chemo: the chromophobe and hybrid oncocytic renal carcinomas of Birt-Hogg-Dubé are indolent and chemoresistant, managed by surveillance and nephron-sparing surgery rather than cytotoxic chemotherapy.
+- `connects-to` → **[Checkpoint Inhibitors](../../../03-medicine/01-modern/13-cancer/checkpoint-inhibitors/README.md)** — Less immunotherapy-responsive than clear cell: unlike VHL-driven clear-cell kidney cancer, the chromophobe/oncocytic tumours of Birt-Hogg-Dubé have low mutational burden and respond poorly to checkpoint blockade.
 
 ---
 

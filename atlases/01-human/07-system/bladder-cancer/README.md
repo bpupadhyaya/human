@@ -247,6 +247,15 @@ cross_links:
   - target: 03-medicine/01-modern/13-cancer/cancer-chemotherapy
     relation: connects-to
     note: "Platinum remains the backbone: cisplatin-based chemotherapy, given before cystectomy or for metastatic disease, is the long-standing foundation of bladder cancer treatment."
+  - target: 01-human/07-system/endometrial-cancer
+    relation: connects-to
+    note: "Lynch links them: mismatch-repair-deficient Lynch syndrome raises the risk of both endometrial and urothelial (bladder and upper-tract) cancers, and their MSI-high tumours share dramatic checkpoint-inhibitor responsiveness."
+  - target: 01-human/07-system/cholangiocarcinoma
+    relation: connects-to
+    note: "A shared FGFR target: FGFR alterations drive a subset of both bladder cancer (FGFR3) and cholangiocarcinoma (FGFR2 fusions), so FGFR inhibitors like erdafitinib and pemigatinib treat these otherwise unrelated cancers."
+  - target: 01-human/05-tissue/cortical-bone
+    relation: connects-to
+    note: "Advanced disease seeds bone: muscle-invasive and metastatic urothelial carcinoma spreads to bone as painful osteolytic lesions, a common site of distant relapse after cystectomy."
 ---
 
 # Bladder Cancer
@@ -444,6 +453,9 @@ NMIBC and MIBC have distinct molecular landscapes:
 - `connects-to` → **[Checkpoint Inhibitors](../../../03-medicine/01-modern/13-cancer/checkpoint-inhibitors/README.md)** — Immunotherapy treats advanced disease: PD-1/PD-L1 inhibitors such as pembrolizumab, with avelumab maintenance, are central to advanced and BCG-unresponsive bladder cancer, which is highly mutated and immunogenic.
 - `connects-to` → **[Targeted Therapy](../../../03-medicine/01-modern/13-cancer/targeted-therapy/README.md)** — Molecular alterations open drug options: erdafitinib targets FGFR3-altered tumours, and antibody-drug conjugates like enfortumab vedotin (Nectin-4) and anti-HER2 agents extend treatment.
 - `connects-to` → **[Cancer Chemotherapy](../../../03-medicine/01-modern/13-cancer/cancer-chemotherapy/README.md)** — Platinum remains the backbone: cisplatin-based chemotherapy, given before cystectomy or for metastatic disease, is the long-standing foundation of bladder cancer treatment.
+- `connects-to` → **[Endometrial Cancer](../endometrial-cancer/README.md)** — Lynch links them: mismatch-repair-deficient Lynch syndrome raises the risk of both endometrial and urothelial (bladder and upper-tract) cancers, and their MSI-high tumours share dramatic checkpoint-inhibitor responsiveness.
+- `connects-to` → **[Cholangiocarcinoma](../cholangiocarcinoma/README.md)** — A shared FGFR target: FGFR alterations drive a subset of both bladder cancer (FGFR3) and cholangiocarcinoma (FGFR2 fusions), so FGFR inhibitors like erdafitinib and pemigatinib treat these otherwise unrelated cancers.
+- `connects-to` → **[Cortical Bone](../../05-tissue/cortical-bone/README.md)** — Advanced disease seeds bone: muscle-invasive and metastatic urothelial carcinoma spreads to bone as painful osteolytic lesions, a common site of distant relapse after cystectomy.
 
 ---
 
