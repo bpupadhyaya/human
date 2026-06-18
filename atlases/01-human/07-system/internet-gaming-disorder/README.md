@@ -222,6 +222,15 @@ cross_links:
   - target: 01-human/07-system/nash
     relation: connects-to
     note: "Sedentary excess reaches the liver: the inactivity and poor diet that accompany internet gaming disorder feed the obesity and insulin resistance underlying non-alcoholic steatohepatitis."
+  - target: 01-human/07-system/anorexia-nervosa
+    relation: connects-to
+    note: "Compulsion in two forms: like the eating disorders, internet gaming disorder is a compulsive behaviour with impaired control and reward dysregulation, and disordered, irregular eating is common during prolonged gaming."
+  - target: 01-human/07-system/bulimia-nervosa
+    relation: connects-to
+    note: "Shared loss of control: bulimia nervosa and internet gaming disorder both feature binge-like loss of control followed by guilt, reflecting the overlapping impulsivity and reward circuitry of behavioural and eating disorders."
+  - target: 01-human/06-organ/adrenal-gland
+    relation: connects-to
+    note: "It dysregulates the stress axis: craving, withdrawal irritability and the chronic arousal of internet gaming disorder are tied to HPA-axis and cortisol dysregulation from the adrenal gland, as in other addictions."
 sources:
   - id: kuss-2012-gaming-disorder-review
     type: peer-reviewed
@@ -464,6 +473,9 @@ A pattern of persistent or recurrent gaming behavior characterized by:
 - `connects-to` → **[Fluoxetine](../../../03-medicine/01-modern/10-mental-health/fluoxetine/README.md)** — Medication targets the comorbidity: SSRIs like fluoxetine, with cognitive behavioural therapy, treat the depression and anxiety that commonly accompany internet gaming disorder.
 - `connects-to` → **[Atherosclerosis](../atherosclerosis/README.md)** — Sedentary hours raise vascular risk: the prolonged sitting and disrupted sleep of internet gaming disorder contribute to obesity and the metabolic changes that drive atherosclerosis.
 - `connects-to` → **[NASH](../nash/README.md)** — Sedentary excess reaches the liver: the inactivity and poor diet that accompany internet gaming disorder feed the obesity and insulin resistance underlying non-alcoholic steatohepatitis.
+- `connects-to` → **[Anorexia Nervosa](../anorexia-nervosa/README.md)** — Compulsion in two forms: like the eating disorders, internet gaming disorder is a compulsive behaviour with impaired control and reward dysregulation, and disordered, irregular eating is common during prolonged gaming.
+- `connects-to` → **[Bulimia Nervosa](../bulimia-nervosa/README.md)** — Shared loss of control: bulimia nervosa and internet gaming disorder both feature binge-like loss of control followed by guilt, reflecting the overlapping impulsivity and reward circuitry of behavioural and eating disorders.
+- `connects-to` → **[Adrenal Gland](../../06-organ/adrenal-gland/README.md)** — It dysregulates the stress axis: craving, withdrawal irritability and the chronic arousal of internet gaming disorder are tied to HPA-axis and cortisol dysregulation from the adrenal gland, as in other addictions.
 
 [^kuss-2012-gaming-disorder-review]: Kuss DJ, Griffiths MD. Internet gaming addiction: a systematic review of empirical research. *Int J Ment Health Addict.* 2012;10(2):278-296. [doi:10.1007/s11469-011-9318-5](https://doi.org/10.1007/s11469-011-9318-5)
 [^who-icd11-gaming-disorder]: World Health Organization. ICD-11: Gaming Disorder (6C51). Geneva: WHO; 2019. [icd.who.int](https://icd.who.int/browse/2025-01/mms/en#1448597234)

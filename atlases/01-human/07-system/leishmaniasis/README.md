@@ -235,6 +235,15 @@ cross_links:
   - target: 02-pathogen/02-bacteria/mycobacterium-tuberculosis
     relation: connects-to
     note: "It opens the door to TB: the profound immunosuppression of visceral leishmaniasis can reactivate latent tuberculosis, and the two infections are co-endemic in many regions."
+  - target: 03-medicine/01-modern/13-cancer/cancer-chemotherapy
+    relation: connects-to
+    note: "An oncology drug repurposed: miltefosine, the first oral drug for visceral leishmaniasis, began as an anticancer alkylphosphocholine, and conversely chemotherapy-induced immunosuppression can reactivate latent Leishmania."
+  - target: 01-human/05-tissue/germinal-center
+    relation: connects-to
+    note: "It drives massive antibody output: visceral leishmaniasis hyperactivates B cells in germinal centres, producing the striking polyclonal hypergammaglobulinaemia and reactive lymphoid hyperplasia that accompany the parasite burden."
+  - target: 02-pathogen/04-parasites/trypanosoma-cruzi
+    relation: connects-to
+    note: "A related kinetoplastid parasite: Leishmania and Trypanosoma cruzi are both vector-borne kinetoplastid protozoa that survive inside host cells, sharing biology that makes both notoriously hard to drug."
 ---
 
 # Leishmaniasis
@@ -409,3 +418,6 @@ HIV-VL co-infection: CD4+ depletion → loss of IFN-γ production → *Leishmani
 - `connects-to` → **[Nervous System](../nervous-system/README.md)** — It can reach the nervous system: rare cases of leishmaniasis involve the central or peripheral nerves, and the antimonial and amphotericin drugs used against it carry neurological side-effects.
 - `connects-to` → **[Zoonosis](../../../02-pathogen/06-environmental/zoonosis/README.md)** — It is a vector-borne zoonosis: Leishmania is transmitted by sandflies from animal reservoirs such as dogs and rodents, so its control links human and animal health.
 - `connects-to` → **[Mycobacterium tuberculosis](../../../02-pathogen/02-bacteria/mycobacterium-tuberculosis/README.md)** — It opens the door to TB: the profound immunosuppression of visceral leishmaniasis can reactivate latent tuberculosis, and the two infections are co-endemic in many regions.
+- `connects-to` → **[Cancer Chemotherapy](../../../03-medicine/01-modern/13-cancer/cancer-chemotherapy/README.md)** — An oncology drug repurposed: miltefosine, the first oral drug for visceral leishmaniasis, began as an anticancer alkylphosphocholine, and conversely chemotherapy-induced immunosuppression can reactivate latent Leishmania.
+- `connects-to` → **[Germinal Center](../../05-tissue/germinal-center/README.md)** — It drives massive antibody output: visceral leishmaniasis hyperactivates B cells in germinal centres, producing the striking polyclonal hypergammaglobulinaemia and reactive lymphoid hyperplasia that accompany the parasite burden.
+- `connects-to` → **[Trypanosoma cruzi](../../../02-pathogen/04-parasites/trypanosoma-cruzi/README.md)** — A related kinetoplastid parasite: Leishmania and Trypanosoma cruzi are both vector-borne kinetoplastid protozoa that survive inside host cells, sharing biology that makes both notoriously hard to drug.
