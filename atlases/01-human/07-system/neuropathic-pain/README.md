@@ -213,6 +213,15 @@ cross_links:
   - target: 01-human/07-system/renal-system
     relation: connects-to
     note: "The kidney both causes and constrains it: uraemia causes a peripheral neuropathy, and renal impairment mandates dose reduction of the renally-cleared gabapentin and pregabalin."
+  - target: 01-human/07-system/reproductive-system
+    relation: connects-to
+    note: "It strikes the pelvis too: pudendal neuralgia and other pelvic neuropathic pain syndromes affect sexual and urinary function, a distressing and under-recognised form."
+  - target: 03-medicine/01-modern/10-mental-health/fluoxetine
+    relation: connects-to
+    note: "Antidepressants are core analgesics: SNRIs like duloxetine and tricyclics relieve neuropathic pain by boosting descending serotonin-noradrenaline inhibition, the pathway SSRIs like fluoxetine also touch."
+  - target: 01-human/07-system/cidp
+    relation: connects-to
+    note: "A treatable demyelinating cause: chronic inflammatory demyelinating polyneuropathy causes neuropathic pain that, unlike most, responds to immunotherapy rather than analgesics alone."
 sources:
   - id: jensen-2011-neuropathic-pain-review
     type: peer-reviewed
@@ -441,6 +450,9 @@ Chronic neuropathic pain carries significant psychological burden:
 - `connects-to` → **[Endocrine System](../endocrine-system/README.md)** — Hormonal disease is its leading cause: diabetes is the commonest cause of peripheral neuropathy worldwide, and hypothyroidism and other endocrine disorders also damage nerves.
 - `connects-to` → **[Respiratory System](../respiratory-system/README.md)** — Its drugs can suppress breathing: the gabapentinoids and opioids used to treat neuropathic pain cause respiratory depression, especially when combined or in older patients.
 - `connects-to` → **[Renal System](../renal-system/README.md)** — The kidney both causes and constrains it: uraemia causes a peripheral neuropathy, and renal impairment mandates dose reduction of the renally-cleared gabapentin and pregabalin.
+- `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — It strikes the pelvis too: pudendal neuralgia and other pelvic neuropathic pain syndromes affect sexual and urinary function, a distressing and under-recognised form.
+- `connects-to` → **[Fluoxetine](../../../03-medicine/01-modern/10-mental-health/fluoxetine/README.md)** — Antidepressants are core analgesics: SNRIs like duloxetine and tricyclics relieve neuropathic pain by boosting descending serotonin-noradrenaline inhibition, the pathway SSRIs like fluoxetine also touch.
+- `connects-to` → **[CIDP](../cidp/README.md)** — A treatable demyelinating cause: chronic inflammatory demyelinating polyneuropathy causes neuropathic pain that, unlike most, responds to immunotherapy rather than analgesics alone.
 
 [^jensen-2011-neuropathic-pain-review]: Jensen TS, Baron R, Haanpää M, et al. A new definition of neuropathic pain. *Pain.* 2011;152(10):2204-2205. [doi:10.1016/j.pain.2011.06.017](https://doi.org/10.1016/j.pain.2011.06.017) · [PubMed 21764514](https://pubmed.ncbi.nlm.nih.gov/21764514/)
 [^dworkin-2010-neuropathic-pain-treatment]: Dworkin RH, O'Connor AB, Audette J, et al. Recommendations for the pharmacological management of neuropathic pain. *Mayo Clin Proc.* 2010;85(3 Suppl):S3-14. [doi:10.4065/mcp.2009.0649](https://doi.org/10.4065/mcp.2009.0649) · [PubMed 20194146](https://pubmed.ncbi.nlm.nih.gov/20194146/)

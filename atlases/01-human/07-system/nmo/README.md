@@ -238,6 +238,15 @@ cross_links:
   - target: 01-human/07-system/renal-system
     relation: connects-to
     note: "Overlap autoimmunity and drugs strain the kidney: NMO coexists with systemic lupus that can cause nephritis, and its long-term immunosuppression requires renal monitoring."
+  - target: 03-medicine/01-modern/13-cancer/targeted-therapy
+    relation: connects-to
+    note: "Monoclonal antibodies transformed its care: eculizumab (anti-C5), satralizumab (anti-IL-6R) and inebilizumab (anti-CD19) prevent the relapses of AQP4-antibody neuromyelitis optica."
+  - target: 03-medicine/01-modern/02-respiratory/corticosteroids
+    relation: connects-to
+    note: "High-dose steroids treat the attack: intravenous corticosteroids, with plasma exchange, are first-line for acute optic neuritis and transverse myelitis relapses in NMO."
+  - target: 02-pathogen/01-viruses/epstein-barr-virus
+    relation: connects-to
+    note: "Viruses may help trigger it: like other CNS autoimmunity, neuromyelitis optica has been linked to prior Epstein-Barr virus infection shaping the aberrant antibody response."
 ---
 
 # NMOSD
@@ -457,6 +466,9 @@ NMOSD impairs CNS function through three attack-related mechanisms:
 - `connects-to` → **[Cardiovascular System](../cardiovascular-system/README.md)** — High cord lesions destabilise the circulation: cervical transverse myelitis can cause autonomic dysreflexia with dangerous blood-pressure swings and arrhythmia.
 - `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — Its therapies and overlaps touch the skin: immunosuppression with rituximab, eculizumab and steroids brings skin and infection problems, and NMO overlaps autoimmune connective-tissue skin disease.
 - `connects-to` → **[Renal System](../renal-system/README.md)** — Overlap autoimmunity and drugs strain the kidney: NMO coexists with systemic lupus that can cause nephritis, and its long-term immunosuppression requires renal monitoring.
+- `connects-to` → **[Targeted Therapy](../../../03-medicine/01-modern/13-cancer/targeted-therapy/README.md)** — Monoclonal antibodies transformed its care: eculizumab (anti-C5), satralizumab (anti-IL-6R) and inebilizumab (anti-CD19) prevent the relapses of AQP4-antibody neuromyelitis optica.
+- `connects-to` → **[Corticosteroids](../../../03-medicine/01-modern/02-respiratory/corticosteroids/README.md)** — High-dose steroids treat the attack: intravenous corticosteroids, with plasma exchange, are first-line for acute optic neuritis and transverse myelitis relapses in NMO.
+- `connects-to` → **[Epstein-Barr Virus](../../../02-pathogen/01-viruses/epstein-barr-virus/README.md)** — Viruses may help trigger it: like other CNS autoimmunity, neuromyelitis optica has been linked to prior Epstein-Barr virus infection shaping the aberrant antibody response.
 
 [^wingerchuk-2015-nmosd-criteria]: Wingerchuk DM, Banwell B, Bennett JL, et al. International consensus diagnostic criteria for neuromyelitis optica spectrum disorders. *Neurology.* 2015;85(2):177-189. [doi:10.1212/WNL.0000000000001729](https://doi.org/10.1212/WNL.0000000000001729) · [PubMed 26092914](https://pubmed.ncbi.nlm.nih.gov/26092914/)
 [^pittock-2019-eculizumab-prevent]: Pittock SJ, Berthele A, Fujihara K, et al. Eculizumab in Aquaporin-4-Positive Neuromyelitis Optica Spectrum Disorder. *N Engl J Med.* 2019;381(7):614-625. [doi:10.1056/NEJMoa1900866](https://doi.org/10.1056/NEJMoa1900866) · [PubMed 31050279](https://pubmed.ncbi.nlm.nih.gov/31050279/)
