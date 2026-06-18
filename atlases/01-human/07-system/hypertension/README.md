@@ -232,6 +232,15 @@ cross_links:
   - target: 03-medicine/01-modern/04-cardio/beta-blockers
     relation: connects-to
     note: "They slow and calm the heart: beta-blockers lower blood pressure by reducing cardiac output and renin, particularly useful when hypertension coexists with heart disease or arrhythmia."
+  - target: 03-medicine/01-modern/04-cardio/arbs
+    relation: connects-to
+    note: "A first-line RAAS blocker: angiotensin-receptor blockers like losartan lower blood pressure by blocking angiotensin II at its receptor, used like ACE inhibitors but without the cough."
+  - target: 03-medicine/01-modern/04-cardio/statins
+    relation: connects-to
+    note: "Treating the company it keeps: most people with hypertension also need cholesterol lowering, and statins are added to cut the shared atherosclerotic cardiovascular risk."
+  - target: 03-medicine/03-food/dietary-fiber
+    relation: connects-to
+    note: "Diet lowers the pressure: a high-fibre DASH-style diet rich in fruit, vegetables and whole grains meaningfully reduces blood pressure alongside sodium restriction."
 ---
 
 # Hypertension
@@ -394,6 +403,9 @@ Blood pressure is determined by: BP = Cardiac Output × Peripheral Vascular Resi
 - `connects-to` → **[ACE inhibitors](../../../03-medicine/01-modern/04-cardio/ace-inhibitors/README.md)** — First-line blockade of the renin axis: ACE inhibitors lower blood pressure by reducing angiotensin II, protecting the heart and kidneys, a cornerstone of hypertension treatment.
 - `connects-to` → **[Calcium-channel Blockers](../../../03-medicine/01-modern/04-cardio/calcium-channel-blockers/README.md)** — They relax the arteries: calcium-channel blockers like amlodipine lower blood pressure by dilating arterial smooth muscle, especially effective in older and Black patients.
 - `connects-to` → **[Beta-blockers](../../../03-medicine/01-modern/04-cardio/beta-blockers/README.md)** — They slow and calm the heart: beta-blockers lower blood pressure by reducing cardiac output and renin, particularly useful when hypertension coexists with heart disease or arrhythmia.
+- `connects-to` → **[ARBs](../../../03-medicine/01-modern/04-cardio/arbs/README.md)** — A first-line RAAS blocker: angiotensin-receptor blockers like losartan lower blood pressure by blocking angiotensin II at its receptor, used like ACE inhibitors but without the cough.
+- `connects-to` → **[Statins](../../../03-medicine/01-modern/04-cardio/statins/README.md)** — Treating the company it keeps: most people with hypertension also need cholesterol lowering, and statins are added to cut the shared atherosclerotic cardiovascular risk.
+- `connects-to` → **[Dietary Fiber](../../../03-medicine/03-food/dietary-fiber/README.md)** — Diet lowers the pressure: a high-fibre DASH-style diet rich in fruit, vegetables and whole grains meaningfully reduces blood pressure alongside sodium restriction.
 
 ## Pathology
 

@@ -219,6 +219,15 @@ cross_links:
   - target: 01-human/07-system/integumentary-system
     relation: connects-to
     note: "End-stage immobility breaks the skin: in advanced Huntington's disease, rigidity, immobility and poor nutrition make pressure ulcers a major complication of care."
+  - target: 01-human/03-molecular/cortisol
+    relation: connects-to
+    note: "Stress hormones run high: Huntington's disease disrupts the hypothalamic-pituitary-adrenal axis, raising cortisol and contributing to its weight loss, mood disturbance and metabolic decline."
+  - target: 02-pathogen/02-bacteria/staphylococcus-aureus
+    relation: connects-to
+    note: "Dysphagia invites pneumonia: as Huntington's disease impairs swallowing, aspiration of oral bacteria including Staphylococcus aureus causes the pneumonia that is a leading cause of death."
+  - target: 01-human/07-system/narcolepsy
+    relation: connects-to
+    note: "Sleep falls apart through orexin loss: Huntington's disease damages hypothalamic orexin neurons, producing the fragmented sleep and daytime sleepiness it shares with narcolepsy."
 sources:
   - id: gusella-1983-htt-locus
     type: peer-reviewed
@@ -337,3 +346,6 @@ HD disrupts multiple neural circuit functions:
 - `connects-to` → **[Fluoxetine](../../../03-medicine/01-modern/10-mental-health/fluoxetine/README.md)** — Psychiatric symptoms need treatment: SSRIs like fluoxetine are widely used for the depression, anxiety and obsessive-compulsive features that often precede and accompany Huntington's chorea.
 - `connects-to` → **[Lewy Body Dementia](../lewy-body-dementia/README.md)** — A fellow movement-and-mind neurodegeneration: like Lewy body dementia, Huntington's disease couples a movement disorder with progressive cognitive and psychiatric decline, though through a different pathology.
 - `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — End-stage immobility breaks the skin: in advanced Huntington's disease, rigidity, immobility and poor nutrition make pressure ulcers a major complication of care.
+- `connects-to` → **[Cortisol](../../03-molecular/cortisol/README.md)** — Stress hormones run high: Huntington's disease disrupts the hypothalamic-pituitary-adrenal axis, raising cortisol and contributing to its weight loss, mood disturbance and metabolic decline.
+- `connects-to` → **[Staphylococcus aureus](../../../02-pathogen/02-bacteria/staphylococcus-aureus/README.md)** — Dysphagia invites pneumonia: as Huntington's disease impairs swallowing, aspiration of oral bacteria including Staphylococcus aureus causes the pneumonia that is a leading cause of death.
+- `connects-to` → **[Narcolepsy](../narcolepsy/README.md)** — Sleep falls apart through orexin loss: Huntington's disease damages hypothalamic orexin neurons, producing the fragmented sleep and daytime sleepiness it shares with narcolepsy.
