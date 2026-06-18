@@ -238,6 +238,15 @@ cross_links:
   - target: 01-human/07-system/musculoskeletal-system
     relation: connects-to
     note: "Microvascular thrombosis reaches the muscles: the platelet-rich microthrombi of TTP lodge throughout the body, causing myalgia and ischaemic injury beyond the classic brain and kidney targets."
+  - target: 03-medicine/01-modern/13-cancer/targeted-therapy
+    relation: connects-to
+    note: "Targeted agents transformed it: caplacizumab, an anti-von Willebrand factor nanobody, blocks platelet-VWF binding to halt microthrombi acutely, while recombinant ADAMTS13 replaces the missing enzyme in congenital TTP."
+  - target: 03-medicine/01-modern/13-cancer/cancer-chemotherapy
+    relation: connects-to
+    note: "Both rescue and cause: cytotoxic immunosuppressants like cyclophosphamide and vincristine salvage refractory immune TTP, yet certain chemotherapies such as gemcitabine and mitomycin can themselves trigger a drug-induced thrombotic microangiopathy."
+  - target: 01-human/07-system/heparin-induced-thrombocytopenia
+    relation: connects-to
+    note: "Thrombocytopenia with thrombosis: like HIT, TTP is a syndrome where platelets fall yet clotting paradoxically increases — TTP from ADAMTS13 deficiency seeding VWF-platelet microthrombi, HIT from anti-PF4 antibodies activating platelets."
 ---
 
 # Thrombotic Thrombocytopenic Purpura
@@ -466,6 +475,9 @@ In healthy individuals, ADAMTS13 (~190 kDa plasma glycoprotein; hepatic synthesi
 - `connects-to` → **[Corticosteroids](../../../03-medicine/01-modern/02-respiratory/corticosteroids/README.md)** — Immunosuppression treats the autoimmune form: corticosteroids, with plasma exchange, rituximab and caplacizumab, suppress the autoantibody that destroys ADAMTS13 in immune TTP.
 - `connects-to` → **[Lymphatic System](../lymphatic-system/README.md)** — B cells drive the autoimmune attack: the autoantibody against ADAMTS13 in immune TTP is produced by lymphoid B cells, which is why B-cell-depleting rituximab is now central to treatment.
 - `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — Microvascular thrombosis reaches the muscles: the platelet-rich microthrombi of TTP lodge throughout the body, causing myalgia and ischaemic injury beyond the classic brain and kidney targets.
+- `connects-to` → **[Targeted Therapy](../../../03-medicine/01-modern/13-cancer/targeted-therapy/README.md)** — Targeted agents transformed it: caplacizumab, an anti-von Willebrand factor nanobody, blocks platelet-VWF binding to halt microthrombi acutely, while recombinant ADAMTS13 replaces the missing enzyme in congenital TTP.
+- `connects-to` → **[Cancer Chemotherapy](../../../03-medicine/01-modern/13-cancer/cancer-chemotherapy/README.md)** — Both rescue and cause: cytotoxic immunosuppressants like cyclophosphamide and vincristine salvage refractory immune TTP, yet certain chemotherapies such as gemcitabine and mitomycin can themselves trigger a drug-induced thrombotic microangiopathy.
+- `connects-to` → **[Heparin-induced Thrombocytopenia](../heparin-induced-thrombocytopenia/README.md)** — Thrombocytopenia with thrombosis: like HIT, TTP is a syndrome where platelets fall yet clotting paradoxically increases — TTP from ADAMTS13 deficiency seeding VWF-platelet microthrombi, HIT from anti-PF4 antibodies activating platelets.
 
 ---
 

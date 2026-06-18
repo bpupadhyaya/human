@@ -232,6 +232,15 @@ cross_links:
   - target: 01-human/07-system/dicer1-syndrome
     relation: connects-to
     note: "It runs in DICER1 families: DICER1 syndrome predisposes to differentiated thyroid carcinoma and multinodular goitre from childhood, part of inherited thyroid-cancer surveillance."
+  - target: 03-medicine/01-modern/13-cancer/cancer-chemotherapy
+    relation: connects-to
+    note: "Mostly chemoresistant except anaplastic: differentiated thyroid cancer responds poorly to cytotoxic chemotherapy, relying on surgery and radioiodine, whereas aggressive anaplastic thyroid cancer is treated with chemotherapy alongside radiation and targeted agents."
+  - target: 03-medicine/01-modern/13-cancer/checkpoint-inhibitors
+    relation: connects-to
+    note: "Immunotherapy for anaplastic disease: the high mutational burden and immune infiltrate of anaplastic thyroid cancer make PD-1 inhibitors like pembrolizumab active, increasingly combined with BRAF/MEK-targeted therapy in this rapidly fatal tumour."
+  - target: 01-human/05-tissue/cortical-bone
+    relation: connects-to
+    note: "Follicular cancer seeds bone: follicular thyroid carcinoma characteristically spreads to bone as osteolytic metastases that take up radioiodine, allowing both imaging detection and radioiodine treatment of the skeletal deposits."
 ---
 
 # Thyroid Cancer
@@ -447,6 +456,9 @@ Calcitonin doubling time <6 months → poor prognosis → early systemic therapy
 - `connects-to` → **[Targeted Therapy](../../../03-medicine/01-modern/13-cancer/targeted-therapy/README.md)** — It is treated by isotope and kinase drugs: radioactive iodine ablates differentiated thyroid cancer, while multikinase and RET-specific inhibitors (selpercatinib) treat advanced and medullary disease.
 - `connects-to` → **[Carney Complex](../carney-complex/README.md)** — A fellow thyroid-tumour syndrome: Carney complex predisposes to thyroid adenomas and carcinoma, joining the inherited syndromes that raise thyroid-cancer risk.
 - `connects-to` → **[DICER1 Syndrome](../dicer1-syndrome/README.md)** — It runs in DICER1 families: DICER1 syndrome predisposes to differentiated thyroid carcinoma and multinodular goitre from childhood, part of inherited thyroid-cancer surveillance.
+- `connects-to` → **[Cancer Chemotherapy](../../../03-medicine/01-modern/13-cancer/cancer-chemotherapy/README.md)** — Mostly chemoresistant except anaplastic: differentiated thyroid cancer responds poorly to cytotoxic chemotherapy, relying on surgery and radioiodine, whereas aggressive anaplastic thyroid cancer is treated with chemotherapy alongside radiation and targeted agents.
+- `connects-to` → **[Checkpoint Inhibitors](../../../03-medicine/01-modern/13-cancer/checkpoint-inhibitors/README.md)** — Immunotherapy for anaplastic disease: the high mutational burden and immune infiltrate of anaplastic thyroid cancer make PD-1 inhibitors like pembrolizumab active, increasingly combined with BRAF/MEK-targeted therapy in this rapidly fatal tumour.
+- `connects-to` → **[Cortical Bone](../../05-tissue/cortical-bone/README.md)** — Follicular cancer seeds bone: follicular thyroid carcinoma characteristically spreads to bone as osteolytic metastases that take up radioiodine, allowing both imaging detection and radioiodine treatment of the skeletal deposits.
 
 [^schlumberger-2015-lenvatinib]: Schlumberger M, Tahara M, Wirth LJ, et al. Lenvatinib versus placebo in radioiodine-refractory differentiated thyroid cancer. *N Engl J Med.* 2015;372(7):621-630. [doi:10.1056/NEJMoa1406470](https://doi.org/10.1056/NEJMoa1406470) · [PubMed 25671254](https://pubmed.ncbi.nlm.nih.gov/25671254/)
 [^subbiah-2018-atc-dabrafenib]: Subbiah V, Kreitman RJ, Wainberg ZA, et al. Dabrafenib and trametinib treatment in patients with locally advanced or metastatic BRAF V600-mutant anaplastic thyroid cancer. *J Clin Oncol.* 2018;36(1):7-13. [doi:10.1200/JCO.2017.73.6785](https://doi.org/10.1200/JCO.2017.73.6785) · [PubMed 28892432](https://pubmed.ncbi.nlm.nih.gov/28892432/)
