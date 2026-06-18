@@ -232,6 +232,15 @@ cross_links:
   - target: 02-pathogen/01-viruses/hiv-1
     relation: connects-to
     note: "Immunodeficiency invites it: in advanced HIV infection, EBV-driven primary CNS lymphoma emerges, historically an AIDS-defining brain tumour distinguished from toxoplasmosis."
+  - target: 03-medicine/01-modern/13-cancer/cancer-chemotherapy
+    relation: connects-to
+    note: "High-dose methotrexate is the backbone: HD-MTX-based chemoimmunotherapy, which crosses the blood-brain barrier, is the curative-intent treatment for primary CNS lymphoma, often consolidated with autologous transplant."
+  - target: 03-medicine/01-modern/13-cancer/car-t
+    relation: connects-to
+    note: "Cell therapy crosses into the brain: CD19 CAR-T cells produce responses in relapsed primary CNS lymphoma, showing engineered T cells can reach and clear disease behind the blood-brain barrier."
+  - target: 03-medicine/01-modern/13-cancer/checkpoint-inhibitors
+    relation: connects-to
+    note: "Uniquely PD-L1-rich among lymphomas: 9p24.1 alterations raise PD-L1 in primary CNS lymphoma, and PD-1 inhibitors such as nivolumab have shown activity in relapsed disease."
 ---
 
 # Primary CNS Lymphoma
@@ -417,6 +426,9 @@ Score 0-1: 2-year OS ~80%; Score 2-3: ~48%; Score 4-5: ~15%
 - `connects-to` → **[Cardiovascular System](../cardiovascular-system/README.md)** — Treatment and immobility strain the circulation: high-dose methotrexate regimens, corticosteroids and the high venous-thrombosis risk of CNS lymphoma all burden the cardiovascular system.
 - `connects-to` → **[Targeted Therapy](../../../03-medicine/01-modern/13-cancer/targeted-therapy/README.md)** — Targeted agents enter the brain: BTK inhibitors like ibrutinib, immunomodulators and rituximab supplement high-dose methotrexate against primary CNS lymphoma.
 - `connects-to` → **[HIV-1](../../../02-pathogen/01-viruses/hiv-1/README.md)** — Immunodeficiency invites it: in advanced HIV infection, EBV-driven primary CNS lymphoma emerges, historically an AIDS-defining brain tumour distinguished from toxoplasmosis.
+- `connects-to` → **[Cancer Chemotherapy](../../../03-medicine/01-modern/13-cancer/cancer-chemotherapy/README.md)** — High-dose methotrexate is the backbone: HD-MTX-based chemoimmunotherapy, which crosses the blood-brain barrier, is the curative-intent treatment for primary CNS lymphoma, often consolidated with autologous transplant.
+- `connects-to` → **[CAR-T](../../../03-medicine/01-modern/13-cancer/car-t/README.md)** — Cell therapy crosses into the brain: CD19 CAR-T cells produce responses in relapsed primary CNS lymphoma, showing engineered T cells can reach and clear disease behind the blood-brain barrier.
+- `connects-to` → **[Checkpoint Inhibitors](../../../03-medicine/01-modern/13-cancer/checkpoint-inhibitors/README.md)** — Uniquely PD-L1-rich among lymphomas: 9p24.1 alterations raise PD-L1 in primary CNS lymphoma, and PD-1 inhibitors such as nivolumab have shown activity in relapsed disease.
 
 [^bromberg-2019-hovon105]: Bromberg JE, Issa S, Bakunina K, et al. Rituximab in patients with primary CNS lymphoma (HOVON 105/ALLG NHL 24): a randomised, open-label, phase 3 intergroup study. *Lancet Oncol.* 2019;20(2):216-228. [doi:10.1016/S1470-2045(18)30747-2](https://doi.org/10.1016/S1470-2045(18)30747-2) · [PubMed 30528440](https://pubmed.ncbi.nlm.nih.gov/30528440/)
 [^grommes-2017-ibrutinib-pcnsl]: Grommes C, Pastore A, Palaskas N, et al. Ibrutinib unmasks critical role of Bruton tyrosine kinase in primary CNS lymphoma. *Cancer Cell.* 2017;31(6):833-843. [doi:10.1016/j.ccell.2017.04.012](https://doi.org/10.1016/j.ccell.2017.04.012) · [PubMed 28552327](https://pubmed.ncbi.nlm.nih.gov/28552327/)

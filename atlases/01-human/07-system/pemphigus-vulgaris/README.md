@@ -238,6 +238,15 @@ cross_links:
   - target: 02-pathogen/01-viruses/herpesvirus
     relation: connects-to
     note: "Broken skin invites the herpes virus: pemphigus erosions can be superinfected by herpes simplex, worsening blistering and mimicking a disease flare unless recognised and treated."
+  - target: 03-medicine/01-modern/13-cancer/cancer-chemotherapy
+    relation: connects-to
+    note: "Immunosuppression beyond steroids: rituximab (anti-CD20) is now first-line with steroids, and cyclophosphamide, azathioprine and mycophenolate are used as steroid-sparing immunosuppressants in pemphigus vulgaris."
+  - target: 01-human/07-system/cidp
+    relation: connects-to
+    note: "A fellow antibody-mediated autoimmune disease: like CIDP, pemphigus vulgaris is driven by pathogenic autoantibodies and responds to B-cell depletion, IVIG and plasma exchange that remove or block them."
+  - target: 01-human/07-system/nmo
+    relation: connects-to
+    note: "Antibody and complement attack in common: like neuromyelitis optica, pemphigus vulgaris is an antibody-driven disease where complement and B-cell-derived IgG cause the tissue damage, both treated by rituximab."
 ---
 
 # Pemphigus Vulgaris
@@ -455,6 +464,9 @@ Pemphigus belongs to the **pemphigus group of autoimmune bullous diseases** (AIB
 - `connects-to` → **[Corticosteroids](../../../03-medicine/01-modern/02-respiratory/corticosteroids/README.md)** — Steroids are the backbone of control: high-dose corticosteroids, now with rituximab, suppress the autoantibody attack of pemphigus vulgaris, though their long-term toxicity is substantial.
 - `connects-to` → **[Renal System](../renal-system/README.md)** — Immunosuppression reaches the kidney: the long courses of steroids and immunosuppressants for pemphigus vulgaris can be nephrotoxic and demand infection and metabolic monitoring.
 - `connects-to` → **[Herpesvirus](../../../02-pathogen/01-viruses/herpesvirus/README.md)** — Broken skin invites the herpes virus: pemphigus erosions can be superinfected by herpes simplex, worsening blistering and mimicking a disease flare unless recognised and treated.
+- `connects-to` → **[Cancer Chemotherapy](../../../03-medicine/01-modern/13-cancer/cancer-chemotherapy/README.md)** — Immunosuppression beyond steroids: rituximab (anti-CD20) is now first-line with steroids, and cyclophosphamide, azathioprine and mycophenolate are used as steroid-sparing immunosuppressants in pemphigus vulgaris.
+- `connects-to` → **[CIDP](../cidp/README.md)** — A fellow antibody-mediated autoimmune disease: like CIDP, pemphigus vulgaris is driven by pathogenic autoantibodies and responds to B-cell depletion, IVIG and plasma exchange that remove or block them.
+- `connects-to` → **[NMO](../nmo/README.md)** — Antibody and complement attack in common: like neuromyelitis optica, pemphigus vulgaris is an antibody-driven disease where complement and B-cell-derived IgG cause the tissue damage, both treated by rituximab.
 
 ---
 
