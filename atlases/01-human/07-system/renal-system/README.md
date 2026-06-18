@@ -226,6 +226,15 @@ cross_links:
   - target: 03-medicine/01-modern/12-anti-inflammatory/ibuprofen
     relation: connects-to
     note: "Common painkillers can injure it: NSAIDs like ibuprofen reduce renal blood flow and can cause acute kidney injury, acute interstitial nephritis and, with chronic use, analgesic nephropathy."
+  - target: 01-human/07-system/lymphatic-system
+    relation: connects-to
+    note: "A hidden network drains it: a rich renal lymphatic system clears interstitial fluid and protein from the kidney, and when overwhelmed it contributes to the oedema of nephrotic syndrome."
+  - target: 03-medicine/01-modern/07-metabolic/metformin
+    relation: connects-to
+    note: "A common diabetes drug it must clear: metformin is renally excreted and accumulates in kidney failure, risking lactic acidosis, so it is dose-reduced or stopped as eGFR falls."
+  - target: 03-medicine/01-modern/06-antimicrobial/vancomycin
+    relation: connects-to
+    note: "A powerful antibiotic that can harm it: vancomycin is nephrotoxic and renally cleared, so it requires blood-level monitoring and dose adjustment to protect the kidney."
 taxonomy:
   uberon: "UBERON:0001008"
 ---
@@ -390,6 +399,9 @@ Natriuretic counterpoint:
 - **Connects to:** [Musculoskeletal System](../musculoskeletal-system/README.md) — the kidney mineralises the skeleton: by regulating calcium, phosphate and active vitamin D, it keeps bone healthy, so renal failure causes renal osteodystrophy with weak, painful bones and fractures.
 - **Connects to:** [Mycobacterium tuberculosis](../../../02-pathogen/02-bacteria/mycobacterium-tuberculosis/README.md) — tuberculosis can seed the urinary tract: genitourinary TB causes sterile pyuria, ureteric strictures and renal scarring, a quiet cause of declining kidney function in endemic regions.
 - **Connects to:** [Ibuprofen](../../../03-medicine/01-modern/12-anti-inflammatory/ibuprofen/README.md) — common painkillers can injure it: NSAIDs like ibuprofen reduce renal blood flow and can cause acute kidney injury, acute interstitial nephritis and, with chronic use, analgesic nephropathy.
+- **Connects to:** [Lymphatic System](../lymphatic-system/README.md) — a hidden network drains it: a rich renal lymphatic system clears interstitial fluid and protein from the kidney, and when overwhelmed it contributes to the oedema of nephrotic syndrome.
+- **Connects to:** [Metformin](../../../03-medicine/01-modern/07-metabolic/metformin/README.md) — a common diabetes drug it must clear: metformin is renally excreted and accumulates in kidney failure, risking lactic acidosis, so it is dose-reduced or stopped as eGFR falls.
+- **Connects to:** [Vancomycin](../../../03-medicine/01-modern/06-antimicrobial/vancomycin/README.md) — a powerful antibiotic that can harm it: vancomycin is nephrotoxic and renally cleared, so it requires blood-level monitoring and dose adjustment to protect the kidney.
 - **Treated by:** ACE inhibitors — renoprotection in CKD.
 - **Treated by:** Loop diuretics — fluid management.
 

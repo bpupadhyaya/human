@@ -225,6 +225,15 @@ cross_links:
   - target: 01-human/07-system/musculoskeletal-system
     relation: connects-to
     note: "Constant hyperarousal tenses the body: the sustained muscle tension of PTSD's hypervigilance contributes to chronic neck, back and widespread musculoskeletal pain."
+  - target: 01-human/07-system/integumentary-system
+    relation: connects-to
+    note: "Trauma surfaces on the skin: chronic stress flares psoriasis and eczema, triggers stress-related alopecia and urticaria, and trauma-related behaviours can mark the skin."
+  - target: 01-human/07-system/renal-system
+    relation: connects-to
+    note: "It raises kidney-disease risk: PTSD-associated hypertension, metabolic syndrome and chronic stress are linked to a higher risk of chronic kidney disease, well documented in veterans."
+  - target: 03-medicine/01-modern/10-mental-health/fluoxetine
+    relation: connects-to
+    note: "SSRIs are first-line medication: serotonergic antidepressants such as the SSRIs are the first-line pharmacotherapy for PTSD, used alongside trauma-focused psychotherapy."
 ---
 
 # PTSD
@@ -429,6 +438,9 @@ Not all trauma leads to PTSD. Risk and resilience factors include:
 - `connects-to` → **[Endocrine System](../endocrine-system/README.md)** — It carries a distinctive hormone signature: PTSD is marked by low basal cortisol with enhanced glucocorticoid negative feedback — dexamethasone hypersuppression — unlike most chronic-stress states.
 - `connects-to` → **[Respiratory System](../respiratory-system/README.md)** — Fear seizes the breath: flashbacks and panic in PTSD trigger hyperventilation and breathlessness, and the disorder is associated with higher rates of asthma and respiratory symptoms.
 - `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — Constant hyperarousal tenses the body: the sustained muscle tension of PTSD's hypervigilance contributes to chronic neck, back and widespread musculoskeletal pain.
+- `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — Trauma surfaces on the skin: chronic stress flares psoriasis and eczema, triggers stress-related alopecia and urticaria, and trauma-related behaviours can mark the skin.
+- `connects-to` → **[Renal System](../renal-system/README.md)** — It raises kidney-disease risk: PTSD-associated hypertension, metabolic syndrome and chronic stress are linked to a higher risk of chronic kidney disease, well documented in veterans.
+- `connects-to` → **[Fluoxetine](../../../03-medicine/01-modern/10-mental-health/fluoxetine/README.md)** — SSRIs are first-line medication: serotonergic antidepressants such as the SSRIs are the first-line pharmacotherapy for PTSD, used alongside trauma-focused psychotherapy.
 
 [^yehuda-2015-ptsd-review]: Yehuda R, Hoge CW, McFarlane AC, et al. Post-traumatic stress disorder. *Nat Rev Dis Primers.* 2015;1:15057. [doi:10.1038/nrdp.2015.57](https://doi.org/10.1038/nrdp.2015.57) · [PubMed 27189040](https://pubmed.ncbi.nlm.nih.gov/27189040/)
 [^foa-2019-ptsd-treatments]: Foa EB, McLean CP. The efficacy of exposure therapy for anxiety and related disorders. *Annu Rev Clin Psychol.* 2016;12:1-28. [doi:10.1146/annurev-clinpsy-021815-093533](https://doi.org/10.1146/annurev-clinpsy-021815-093533) · [PubMed 26928206](https://pubmed.ncbi.nlm.nih.gov/26928206/)
