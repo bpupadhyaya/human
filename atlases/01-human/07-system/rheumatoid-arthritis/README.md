@@ -229,6 +229,15 @@ cross_links:
   - target: 01-human/07-system/renal-system
     relation: connects-to
     note: "Inflammation and its drugs reach the kidney: sustained inflammation deposits secondary AA amyloid causing proteinuria, and NSAIDs and some disease-modifying drugs are nephrotoxic."
+  - target: 01-human/07-system/digestive-system
+    relation: connects-to
+    note: "Its drugs burden the gut and liver: NSAIDs cause peptic ulcers, methotrexate is hepatotoxic, and Felty syndrome adds splenomegaly with neutropenia."
+  - target: 01-human/07-system/reproductive-system
+    relation: connects-to
+    note: "Pregnancy shifts its course: rheumatoid arthritis often eases in pregnancy and flares afterward, while methotrexate's teratogenicity demands contraception and planning."
+  - target: 01-human/07-system/endocrine-system
+    relation: connects-to
+    note: "Treatment and autoimmunity touch the glands: long-term corticosteroids suppress the adrenal axis and disturb glucose, and RA coexists with autoimmune thyroid disease."
 ---
 
 # Rheumatoid Arthritis
@@ -441,6 +450,9 @@ RA patients have:
 - `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — It shows on the skin: rheumatoid nodules form over pressure points, and rheumatoid vasculitis causes skin ulcers and nail-fold infarcts in severe seropositive disease.
 - `connects-to` → **[Lymphatic System](../lymphatic-system/README.md)** — It can swell the spleen and raise lymphoma risk: Felty's syndrome combines rheumatoid arthritis with splenomegaly and neutropenia, and chronic immune activation modestly increases lymphoma risk.
 - `connects-to` → **[Renal System](../renal-system/README.md)** — Inflammation and its drugs reach the kidney: sustained inflammation deposits secondary AA amyloid causing proteinuria, and NSAIDs and some disease-modifying drugs are nephrotoxic.
+- `connects-to` → **[Digestive System](../digestive-system/README.md)** — Its drugs burden the gut and liver: NSAIDs cause peptic ulcers, methotrexate is hepatotoxic, and Felty syndrome adds splenomegaly with neutropenia.
+- `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — Pregnancy shifts its course: rheumatoid arthritis often eases in pregnancy and flares afterward, while methotrexate's teratogenicity demands contraception and planning.
+- `connects-to` → **[Endocrine System](../endocrine-system/README.md)** — Treatment and autoimmunity touch the glands: long-term corticosteroids suppress the adrenal axis and disturb glucose, and RA coexists with autoimmune thyroid disease.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
