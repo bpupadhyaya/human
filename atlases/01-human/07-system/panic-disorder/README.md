@@ -238,6 +238,15 @@ cross_links:
   - target: 03-medicine/02-traditional/ashwagandha
     relation: connects-to
     note: "Traditional calm is sought for it: ashwagandha and other adaptogens are used for anxiety with some evidence of benefit, complementing rather than replacing established panic-disorder treatment."
+  - target: 01-human/07-system/fibromyalgia
+    relation: connects-to
+    note: "Anxiety and bodily symptoms overlap: panic disorder is markedly more common in fibromyalgia, the two sharing central sensitisation, autonomic dysregulation and a heavy symptom burden."
+  - target: 03-medicine/03-food/omega-3-fatty-acids
+    relation: connects-to
+    note: "Diet offers a modest adjunct: omega-3 supplementation shows small anxiolytic effects in trials, used alongside but not instead of established treatment for panic disorder."
+  - target: 01-human/07-system/borderline-personality-disorder
+    relation: connects-to
+    note: "Panic rides with emotional dysregulation: panic attacks are frequent in borderline personality disorder, where affective instability and hyperarousal lower the threshold for acute anxiety surges."
 ---
 
 # Panic Disorder
@@ -456,6 +465,9 @@ The **interoceptive fear conditioning model** (Bouton, Mineka, Barlow) explains 
 - `connects-to` → **[Beta-blockers](../../../03-medicine/01-modern/04-cardio/beta-blockers/README.md)** — A heart drug for the body's alarm: beta-blockers like propranolol blunt the palpitations, tremor and sweating of a panic attack by blocking the adrenergic surge, though SSRIs treat the disorder itself.
 - `connects-to` → **[Dietary Magnesium](../../../03-medicine/03-food/magnesium-dietary/README.md)** — A mineral linked to anxiety: low magnesium is associated with anxiety and panic, and supplementation is trialled as an adjunct, though the evidence is modest.
 - `connects-to` → **[Ashwagandha](../../../03-medicine/02-traditional/ashwagandha/README.md)** — Traditional calm is sought for it: ashwagandha and other adaptogens are used for anxiety with some evidence of benefit, complementing rather than replacing established panic-disorder treatment.
+- `connects-to` → **[Fibromyalgia](../fibromyalgia/README.md)** — Anxiety and bodily symptoms overlap: panic disorder is markedly more common in fibromyalgia, the two sharing central sensitisation, autonomic dysregulation and a heavy symptom burden.
+- `connects-to` → **[Omega-3 Fatty Acids](../../../03-medicine/03-food/omega-3-fatty-acids/README.md)** — Diet offers a modest adjunct: omega-3 supplementation shows small anxiolytic effects in trials, used alongside but not instead of established treatment for panic disorder.
+- `connects-to` → **[Borderline Personality Disorder](../borderline-personality-disorder/README.md)** — Panic rides with emotional dysregulation: panic attacks are frequent in borderline personality disorder, where affective instability and hyperarousal lower the threshold for acute anxiety surges.
 
 [^gorman-2000-panic-neurobiology]: Gorman JM, Kent JM, Sullivan GM, Coplan JD. Neuroanatomical hypothesis of panic disorder, revised. *Am J Psychiatry.* 2000;157(4):493-505. [doi:10.1176/appi.ajp.157.4.493](https://doi.org/10.1176/appi.ajp.157.4.493) · [PubMed 10739407](https://pubmed.ncbi.nlm.nih.gov/10739407/)
 [^nardi-2009-clonazepam-panic]: Nardi AE, Freire RC, Zin WA. Panic disorder and control of breathing. *Respir Physiol Neurobiol.* 2009;167(1):133-143. [doi:10.1016/j.resp.2008.07.011](https://doi.org/10.1016/j.resp.2008.07.011) · [PubMed 18708168](https://pubmed.ncbi.nlm.nih.gov/18708168/)

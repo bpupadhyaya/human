@@ -238,6 +238,15 @@ cross_links:
   - target: 01-human/07-system/renal-system
     relation: connects-to
     note: "It obstructs and its drugs reach the kidney: tumour or nodes can compress the ureters, and platinum chemotherapy is nephrotoxic."
+  - target: 03-medicine/01-modern/13-cancer/cancer-chemotherapy
+    relation: connects-to
+    note: "FOLFIRINOX is the most active regimen: FOLFIRINOX or gemcitabine with nab-paclitaxel is the chemotherapy backbone for pancreatic adenocarcinoma, given around Whipple surgery and for advanced disease."
+  - target: 03-medicine/01-modern/13-cancer/checkpoint-inhibitors
+    relation: connects-to
+    note: "A profoundly cold tumour: dense desmoplastic stroma and few infiltrating T cells leave pancreatic cancer largely unresponsive to checkpoint inhibitors, except the rare microsatellite-unstable case."
+  - target: 01-human/05-tissue/islet-of-langerhans
+    relation: connects-to
+    note: "New-onset diabetes can herald it: pancreatic cancer impairs and destroys the islets of Langerhans, and unexplained new diabetes in an older adult can be an early paraneoplastic sign."
 ---
 
 # Pancreatic Cancer
@@ -431,6 +440,9 @@ cross_links:
 - `connects-to` → **[Targeted Therapy](../../../03-medicine/01-modern/13-cancer/targeted-therapy/README.md)** — A few tumours have a target: PARP inhibitors help BRCA-mutated pancreatic cancer, and KRAS-G12C and other inhibitors are emerging against this notoriously treatment-resistant cancer.
 - `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — It wastes the body: pancreatic cancer causes profound cachexia with severe muscle loss, and advanced disease can metastasise to bone.
 - `connects-to` → **[Renal System](../renal-system/README.md)** — It obstructs and its drugs reach the kidney: tumour or nodes can compress the ureters, and platinum chemotherapy is nephrotoxic.
+- `connects-to` → **[Cancer Chemotherapy](../../../03-medicine/01-modern/13-cancer/cancer-chemotherapy/README.md)** — FOLFIRINOX is the most active regimen: FOLFIRINOX or gemcitabine with nab-paclitaxel is the chemotherapy backbone for pancreatic adenocarcinoma, given around Whipple surgery and for advanced disease.
+- `connects-to` → **[Checkpoint Inhibitors](../../../03-medicine/01-modern/13-cancer/checkpoint-inhibitors/README.md)** — A profoundly cold tumour: dense desmoplastic stroma and few infiltrating T cells leave pancreatic cancer largely unresponsive to checkpoint inhibitors, except the rare microsatellite-unstable case.
+- `connects-to` → **[Islet of Langerhans](../../05-tissue/islet-of-langerhans/README.md)** — New-onset diabetes can herald it: pancreatic cancer impairs and destroys the islets of Langerhans, and unexplained new diabetes in an older adult can be an early paraneoplastic sign.
 
 ---
 
