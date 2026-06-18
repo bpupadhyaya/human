@@ -211,6 +211,15 @@ cross_links:
   - target: 01-human/07-system/digestive-system
     relation: connects-to
     note: "It can upset the gut and liver: influenza, particularly in children, causes nausea, vomiting and diarrhoea, and aspirin use during infection risks the hepatic failure of Reye syndrome."
+  - target: 01-human/07-system/renal-system
+    relation: connects-to
+    note: "Severe flu can injure the kidney: influenza-associated rhabdomyolysis and the systemic insult of severe infection can cause acute kidney injury needing supportive care."
+  - target: 01-human/07-system/endocrine-system
+    relation: connects-to
+    note: "It destabilises diabetes: the stress of influenza raises blood glucose and can precipitate diabetic ketoacidosis or hyperosmolar crises, a key reason vaccination is urged in diabetes."
+  - target: 01-human/07-system/lymphatic-system
+    relation: connects-to
+    note: "It can deplete the lymphocytes: severe influenza, especially avian H5N1, causes marked lymphopenia — a poor-prognosis marker — alongside the reactive lymphoid response to infection."
 ---
 
 # Influenza
@@ -411,3 +420,6 @@ Influenza damages mucociliary clearance and exposes basal lamina glycoproteins �
 - `connects-to` → **[Nervous System](../nervous-system/README.md)** — It can strike the nervous system: influenza causes febrile seizures and acute encephalopathy, especially in children, and is a recognised trigger of Guillain-Barré syndrome and the rare Reye syndrome.
 - `connects-to` → **[Immune System](../immune-system/README.md)** — Its outcome is decided by immunity: the immune response clears influenza but its overshoot causes the cytokine-driven damage, and immunocompromised and elderly patients suffer the most severe disease.
 - `connects-to` → **[Digestive System](../digestive-system/README.md)** — It can upset the gut and liver: influenza, particularly in children, causes nausea, vomiting and diarrhoea, and aspirin use during infection risks the hepatic failure of Reye syndrome.
+- `connects-to` → **[Renal System](../renal-system/README.md)** — Severe flu can injure the kidney: influenza-associated rhabdomyolysis and the systemic insult of severe infection can cause acute kidney injury needing supportive care.
+- `connects-to` → **[Endocrine System](../endocrine-system/README.md)** — It destabilises diabetes: the stress of influenza raises blood glucose and can precipitate diabetic ketoacidosis or hyperosmolar crises, a key reason vaccination is urged in diabetes.
+- `connects-to` → **[Lymphatic System](../lymphatic-system/README.md)** — It can deplete the lymphocytes: severe influenza, especially avian H5N1, causes marked lymphopenia — a poor-prognosis marker — alongside the reactive lymphoid response to infection.

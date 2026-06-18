@@ -211,6 +211,15 @@ cross_links:
   - target: 01-human/07-system/generalized-anxiety-disorder
     relation: connects-to
     note: "An advanced, stigmatised illness breeds worry: the opportunistic-infection risk, disclosure fears and uncertainty of AIDS foster chronic health anxiety alongside its well-recognised depression."
+  - target: 01-human/07-system/respiratory-system
+    relation: connects-to
+    note: "The lungs define many AIDS illnesses: Pneumocystis pneumonia, tuberculosis and pulmonary Kaposi sarcoma are AIDS-defining lung diseases that emerge as CD4 counts fall."
+  - target: 01-human/07-system/musculoskeletal-system
+    relation: connects-to
+    note: "It wastes and weakens the frame: HIV myopathy, profound AIDS wasting and avascular necrosis of bone erode the musculoskeletal system in advanced disease."
+  - target: 01-human/07-system/endocrine-system
+    relation: connects-to
+    note: "Advanced infection derails hormones: AIDS wasting syndrome, adrenal insufficiency from disseminated CMV or mycobacterial infection, and hypogonadism reflect endocrine collapse in late disease."
 ---
 
 # HIV/AIDS
@@ -390,6 +399,9 @@ HIV-1 pathogenesis is primarily driven by CD4⁺ T cell loss:
 - `connects-to` → **[Digestive System](../digestive-system/README.md)** — AIDS wastes and infects the gut: advanced HIV brings the wasting syndrome and opportunistic GI infections — CMV colitis, cryptosporidiosis and oesophageal candidiasis — causing intractable diarrhoea and malnutrition.
 - `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — The skin reveals advancing immunodeficiency: AIDS brings Kaposi sarcoma, disseminated herpes and zoster, severe seborrhoeic dermatitis and eosinophilic folliculitis, often the visible markers of progression.
 - `connects-to` → **[Generalized Anxiety Disorder](../generalized-anxiety-disorder/README.md)** — An advanced, stigmatised illness breeds worry: the opportunistic-infection risk, disclosure fears and uncertainty of AIDS foster chronic health anxiety alongside its well-recognised depression.
+- `connects-to` → **[Respiratory System](../respiratory-system/README.md)** — The lungs define many AIDS illnesses: Pneumocystis pneumonia, tuberculosis and pulmonary Kaposi sarcoma are AIDS-defining lung diseases that emerge as CD4 counts fall.
+- `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — It wastes and weakens the frame: HIV myopathy, profound AIDS wasting and avascular necrosis of bone erode the musculoskeletal system in advanced disease.
+- `connects-to` → **[Endocrine System](../endocrine-system/README.md)** — Advanced infection derails hormones: AIDS wasting syndrome, adrenal insufficiency from disseminated CMV or mycobacterial infection, and hypogonadism reflect endocrine collapse in late disease.
 
 ## See Also
 
