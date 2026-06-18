@@ -214,6 +214,15 @@ cross_links:
   - target: 01-human/07-system/digestive-system
     relation: connects-to
     note: "It arises from endometriosis and spreads on the peritoneum: OCCC develops from endometriotic cysts and, as it advances, seeds the peritoneum to cause ascites and bowel obstruction."
+  - target: 01-human/07-system/lymphatic-system
+    relation: connects-to
+    note: "It spreads to the deep nodes: ovarian clear cell carcinoma disseminates to pelvic and para-aortic lymph nodes, so lymphadenectomy is part of its surgical staging."
+  - target: 01-human/07-system/cardiovascular-system
+    relation: connects-to
+    note: "It is intensely prothrombotic: OCCC carries one of the highest venous thromboembolism rates of any cancer, straining the circulation with deep-vein thrombosis and pulmonary embolism."
+  - target: 01-human/07-system/nervous-system
+    relation: connects-to
+    note: "Its high calcium and chemo reach the nerves: severe paraneoplastic hypercalcaemia causes confusion and lethargy, and the platinum chemotherapy it resists also causes peripheral neuropathy."
 ---
 
 # Ovarian Clear Cell Carcinoma
@@ -421,6 +430,9 @@ Comprehensive surgical staging (TAH-BSO, omentectomy, pelvic/para-aortic lymphad
 - `connects-to` → **[Endocrine System](../endocrine-system/README.md)** — It classically raises the calcium: ovarian clear cell carcinoma is the gynaecological tumour most associated with paraneoplastic hypercalcaemia, and its oophorectomy forces surgical menopause.
 - `connects-to` → **[Respiratory System](../respiratory-system/README.md)** — It reaches the chest: advanced OCCC causes malignant pleural effusions through diaphragmatic spread, and its strong thrombotic tendency raises the risk of pulmonary embolism.
 - `connects-to` → **[Digestive System](../digestive-system/README.md)** — It arises from endometriosis and spreads on the peritoneum: OCCC develops from endometriotic cysts and, as it advances, seeds the peritoneum to cause ascites and bowel obstruction.
+- `connects-to` → **[Lymphatic System](../lymphatic-system/README.md)** — It spreads to the deep nodes: ovarian clear cell carcinoma disseminates to pelvic and para-aortic lymph nodes, so lymphadenectomy is part of its surgical staging.
+- `connects-to` → **[Cardiovascular System](../cardiovascular-system/README.md)** — It is intensely prothrombotic: OCCC carries one of the highest venous thromboembolism rates of any cancer, straining the circulation with deep-vein thrombosis and pulmonary embolism.
+- `connects-to` → **[Nervous System](../nervous-system/README.md)** — Its high calcium and chemo reach the nerves: severe paraneoplastic hypercalcaemia causes confusion and lethargy, and the platinum chemotherapy it resists also causes peripheral neuropathy.
 
 ---
 

@@ -220,6 +220,15 @@ cross_links:
   - target: 01-human/07-system/respiratory-system
     relation: connects-to
     note: "It seeds the lungs and clots them: the lung is a common site of pancreatic-cancer metastasis, and its strong prothrombotic state (Trousseau) causes pulmonary emboli."
+  - target: 01-human/07-system/lymphatic-system
+    relation: connects-to
+    note: "It spreads early through the nodes: pancreatic cancer involves peripancreatic and distant lymph nodes including the left supraclavicular Virchow's node, a marker of advanced disease."
+  - target: 01-human/07-system/integumentary-system
+    relation: connects-to
+    note: "It writes its prothrombotic state on the skin: the lipase it releases can cause pancreatic panniculitis with tender skin nodules, and Trousseau migratory thrombophlebitis appears as recurrent superficial clots."
+  - target: 01-human/07-system/cardiovascular-system
+    relation: connects-to
+    note: "It clots the heart's valves: its intense prothrombotic state causes marantic (non-bacterial thrombotic) endocarditis, which can throw emboli to the brain alongside its venous thromboses."
 ---
 
 # Pancreatic Cancer
@@ -407,6 +416,9 @@ cross_links:
 - `connects-to` → **[Endocrine System](../endocrine-system/README.md)** — New diabetes can be its first sign: pancreatic cancer destroys islet tissue to cause new-onset diabetes, often heralding the cancer, and a Whipple resection leaves both endocrine and exocrine insufficiency.
 - `connects-to` → **[Nervous System](../nervous-system/README.md)** — It wraps around the body's nerve plexus: pancreatic cancer invades the coeliac plexus, causing severe back pain treated by neurolysis, and it can present with a paraneoplastic depression.
 - `connects-to` → **[Respiratory System](../respiratory-system/README.md)** — It seeds the lungs and clots them: the lung is a common site of pancreatic-cancer metastasis, and its strong prothrombotic state (Trousseau) causes pulmonary emboli.
+- `connects-to` → **[Lymphatic System](../lymphatic-system/README.md)** — It spreads early through the nodes: pancreatic cancer involves peripancreatic and distant lymph nodes including the left supraclavicular Virchow's node, a marker of advanced disease.
+- `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — It writes its prothrombotic state on the skin: the lipase it releases can cause pancreatic panniculitis with tender skin nodules, and Trousseau migratory thrombophlebitis appears as recurrent superficial clots.
+- `connects-to` → **[Cardiovascular System](../cardiovascular-system/README.md)** — It clots the heart's valves: its intense prothrombotic state causes marantic (non-bacterial thrombotic) endocarditis, which can throw emboli to the brain alongside its venous thromboses.
 
 ---
 
