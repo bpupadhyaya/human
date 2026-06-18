@@ -241,6 +241,15 @@ cross_links:
   - target: 01-human/07-system/musculoskeletal-system
     relation: connects-to
     note: "Surgery and immobility tip it over: major orthopaedic surgery, fractures and prolonged immobilisation are powerful thrombosis triggers that compound inherited thrombophilia, demanding prophylaxis."
+  - target: 03-medicine/01-modern/04-cardio/aspirin
+    relation: connects-to
+    note: "Antiplatelet cover in select cases: low-dose aspirin (often with heparin) is used in thrombophilia complicated by recurrent pregnancy loss or arterial events, and for extended venous-thromboembolism prophylaxis after initial anticoagulation."
+  - target: 01-human/05-tissue/hepatic-lobule
+    relation: connects-to
+    note: "The liver makes the anticoagulants: protein C, protein S and antithrombin — the very factors deficient in inherited thrombophilia — are synthesised in the hepatic lobule, where warfarin also acts, so liver disease confounds thrombophilia testing."
+  - target: 03-medicine/01-modern/04-cardio/statins
+    relation: connects-to
+    note: "They modestly lower clot risk: beyond cholesterol, statins reduce venous-thromboembolism incidence (as shown in JUPITER) through anti-inflammatory and endothelial effects, a useful adjunct in some thrombophilic patients."
 ---
 
 # Inherited Thrombophilia
@@ -474,6 +483,9 @@ Antithrombin (ATIII) is the primary plasma inhibitor of thrombin, FXa, FIXa, and
 - `connects-to` → **[Warfarin](../../../03-medicine/01-modern/09-hematology/warfarin/README.md)** — Lifelong anticoagulation may be needed: those with recurrent venous thromboembolism from inherited thrombophilia often require long-term warfarin or a direct oral anticoagulant.
 - `connects-to` → **[Immune System](../immune-system/README.md)** — Inflammation and clotting intertwine: 'immunothrombosis' links infection and inflammation to the coagulation cascade, compounding the baseline risk of inherited thrombophilia.
 - `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — Surgery and immobility tip it over: major orthopaedic surgery, fractures and prolonged immobilisation are powerful thrombosis triggers that compound inherited thrombophilia, demanding prophylaxis.
+- `connects-to` → **[Aspirin](../../../03-medicine/01-modern/04-cardio/aspirin/README.md)** — Antiplatelet cover in select cases: low-dose aspirin (often with heparin) is used in thrombophilia complicated by recurrent pregnancy loss or arterial events, and for extended venous-thromboembolism prophylaxis after initial anticoagulation.
+- `connects-to` → **[Hepatic Lobule](../../05-tissue/hepatic-lobule/README.md)** — The liver makes the anticoagulants: protein C, protein S and antithrombin — the very factors deficient in inherited thrombophilia — are synthesised in the hepatic lobule, where warfarin also acts, so liver disease confounds thrombophilia testing.
+- `connects-to` → **[Statins](../../../03-medicine/01-modern/04-cardio/statins/README.md)** — They modestly lower clot risk: beyond cholesterol, statins reduce venous-thromboembolism incidence (as shown in JUPITER) through anti-inflammatory and endothelial effects, a useful adjunct in some thrombophilic patients.
 
 [^bertina-1994-factor-v-leiden]: Bertina RM, Koeleman BP, Koster T, et al. Mutation in blood coagulation factor V associated with resistance to activated protein C. *Nature.* 1994;369(6475):64-67. [doi:10.1038/369064a0](https://doi.org/10.1038/369064a0) · [PubMed 8164741](https://pubmed.ncbi.nlm.nih.gov/8164741/)
 [^dahlback-2008-protein-c-review]: Dahlbäck B. Advances in understanding pathogenic mechanisms of thrombophilic disorders. *Blood.* 2008;112(1):19-27. [doi:10.1182/blood-2008-01-077909](https://doi.org/10.1182/blood-2008-01-077909) · [PubMed 18574048](https://pubmed.ncbi.nlm.nih.gov/18574048/)

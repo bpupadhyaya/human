@@ -233,6 +233,15 @@ cross_links:
   - target: 03-medicine/03-food/omega-3-fatty-acids
     relation: connects-to
     note: "Dietary fats support the barrier: omega-3 fatty acids contribute to the skin's lipid barrier and have anti-inflammatory effects studied in eczema and psoriasis."
+  - target: 03-medicine/01-modern/13-cancer/checkpoint-inhibitors
+    relation: connects-to
+    note: "The skin shows immunotherapy's signature: checkpoint inhibitors cause the commonest immune-related adverse events in the skin — maculopapular rash, pruritus, lichenoid eruptions and vitiligo — and also treat the melanoma and skin cancers arising there."
+  - target: 03-medicine/01-modern/13-cancer/cancer-chemotherapy
+    relation: connects-to
+    note: "It writes its toxicity on the skin: cytotoxic chemotherapy causes alopecia, painful hand-foot syndrome, mucositis, nail changes and photosensitivity, the visible price of drugs that target all rapidly dividing cells including the skin."
+  - target: 01-human/05-tissue/fibrosis
+    relation: connects-to
+    note: "The skin scars and hardens: dermal fibrosis underlies hypertrophic scars and keloids after injury, the tight bound-down skin of scleroderma, and radiation dermatitis — excess collagen replacing the normal supple dermis."
 ---
 
 # Integumentary System
@@ -410,6 +419,9 @@ Wound healing is a precisely orchestrated process in four overlapping phases [^g
 - `connects-to` → **[Coxsackievirus B](../../../02-pathogen/01-viruses/coxsackievirus-b/README.md)** — An enterovirus erupts on the skin: Coxsackievirus causes hand-foot-and-mouth disease with its vesicular rash, and on atopic skin can spread widely as eczema coxsackium.
 - `connects-to` → **[Adalimumab](../../../03-medicine/01-modern/11-biologics/adalimumab/README.md)** — Biologics clear severe skin disease: anti-TNF antibodies like adalimumab, with IL-17 and IL-23 inhibitors, treat severe psoriasis and hidradenitis suppurativa of the skin.
 - `connects-to` → **[Omega-3 fatty acids](../../../03-medicine/03-food/omega-3-fatty-acids/README.md)** — Dietary fats support the barrier: omega-3 fatty acids contribute to the skin's lipid barrier and have anti-inflammatory effects studied in eczema and psoriasis.
+- `connects-to` → **[Checkpoint Inhibitors](../../../03-medicine/01-modern/13-cancer/checkpoint-inhibitors/README.md)** — The skin shows immunotherapy's signature: checkpoint inhibitors cause the commonest immune-related adverse events in the skin — maculopapular rash, pruritus, lichenoid eruptions and vitiligo — and also treat the melanoma and skin cancers arising there.
+- `connects-to` → **[Cancer Chemotherapy](../../../03-medicine/01-modern/13-cancer/cancer-chemotherapy/README.md)** — It writes its toxicity on the skin: cytotoxic chemotherapy causes alopecia, painful hand-foot syndrome, mucositis, nail changes and photosensitivity, the visible price of drugs that target all rapidly dividing cells including the skin.
+- `connects-to` → **[Fibrosis](../../05-tissue/fibrosis/README.md)** — The skin scars and hardens: dermal fibrosis underlies hypertrophic scars and keloids after injury, the tight bound-down skin of scleroderma, and radiation dermatitis — excess collagen replacing the normal supple dermis.
 
 ## Pathology
 
