@@ -234,6 +234,15 @@ cross_links:
   - target: 01-human/07-system/respiratory-system
     relation: connects-to
     note: "Iron and anaemia burden the lungs: chronic transfusion and haemolysis drive pulmonary hypertension and a restrictive ventilatory defect in thalassemia."
+  - target: 02-pathogen/02-bacteria/streptococcus-pneumoniae
+    relation: connects-to
+    note: "Splenectomy invites encapsulated bacteria: removing the iron-overloaded, enlarged spleen leaves thalassaemia patients at lifelong risk of overwhelming pneumococcal sepsis, needing vaccination and prophylaxis."
+  - target: 01-human/04-cellular/hepatocyte
+    relation: connects-to
+    note: "Iron overload poisons the liver: transfusional and absorptive iron loading deposits in hepatocytes, driving fibrosis, cirrhosis and hepatocellular carcinoma in chronically transfused thalassaemia."
+  - target: 01-human/07-system/mds
+    relation: connects-to
+    note: "A shared failure of red-cell making: like the myelodysplastic syndromes, thalassaemia features ineffective erythropoiesis, and the maturation agent luspatercept is now used to reduce transfusion needs in both."
 ---
 
 # Thalassemia
@@ -450,6 +459,9 @@ Untransfused or undertransfused β-thal major:
 - `connects-to` → **[Immune System](../immune-system/README.md)** — Asplenia and iron overload weaken defence: splenectomy leaves vulnerability to encapsulated bacteria, while iron overload itself impairs immunity, making infection a leading cause of death in thalassemia.
 - `connects-to` → **[Renal System](../renal-system/README.md)** — Disease and chelators both reach the kidney: chronic anaemia and iron overload cause tubular dysfunction, and the iron chelator deferasirox can be nephrotoxic, demanding renal monitoring.
 - `connects-to` → **[Respiratory System](../respiratory-system/README.md)** — Iron and anaemia burden the lungs: chronic transfusion and haemolysis drive pulmonary hypertension and a restrictive ventilatory defect in thalassemia.
+- `connects-to` → **[Streptococcus pneumoniae](../../../02-pathogen/02-bacteria/streptococcus-pneumoniae/README.md)** — Splenectomy invites encapsulated bacteria: removing the iron-overloaded, enlarged spleen leaves thalassaemia patients at lifelong risk of overwhelming pneumococcal sepsis, needing vaccination and prophylaxis.
+- `connects-to` → **[Hepatocyte](../../04-cellular/hepatocyte/README.md)** — Iron overload poisons the liver: transfusional and absorptive iron loading deposits in hepatocytes, driving fibrosis, cirrhosis and hepatocellular carcinoma in chronically transfused thalassaemia.
+- `connects-to` → **[MDS](../mds/README.md)** — A shared failure of red-cell making: like the myelodysplastic syndromes, thalassaemia features ineffective erythropoiesis, and the maturation agent luspatercept is now used to reduce transfusion needs in both.
 
 [^weatherall-2008-thalassemia-review]: Weatherall DJ. The inherited diseases of hemoglobin are an emerging global health burden. *Blood.* 2010;115(22):4331-4336. [doi:10.1182/blood-2010-01-251348](https://doi.org/10.1182/blood-2010-01-251348) · [PubMed 20233970](https://pubmed.ncbi.nlm.nih.gov/20233970/)
 [^cappellini-2014-thalassemia-guidelines]: Cappellini MD, Cohen A, Porter J, et al. (eds). Guidelines for the Management of Transfusion Dependent Thalassaemia (TDT). 3rd ed. Thalassaemia International Federation; 2014.
