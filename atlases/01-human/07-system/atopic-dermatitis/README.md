@@ -205,6 +205,15 @@ cross_links:
   - target: 01-human/07-system/obsessive-compulsive-disorder
     relation: connects-to
     note: "The itch-scratch cycle meets compulsion: the chronic urge to scratch in atopic dermatitis overlaps with OCD-spectrum skin-picking, the two reinforcing each other and worsening skin damage."
+  - target: 01-human/07-system/immune-system
+    relation: connects-to
+    note: "It is a Th2 immune disease: atopic dermatitis is driven by type-2 inflammation with IL-4 and IL-13, the basis of the atopic march and the target of biologics like dupilumab."
+  - target: 02-pathogen/01-viruses/herpesvirus
+    relation: connects-to
+    note: "Herpes can race across broken skin: HSV infecting eczematous skin causes eczema herpeticum, a rapidly spreading, painful vesicular eruption that is a dermatological emergency in atopic dermatitis."
+  - target: 01-human/07-system/endocrine-system
+    relation: connects-to
+    note: "Its steroid treatment reaches the glands: prolonged topical and systemic corticosteroids for severe atopic dermatitis can suppress the adrenal axis and, in children, blunt growth."
 ---
 
 # Atopic Dermatitis
@@ -390,6 +399,9 @@ S. aureus colonizes >90% of AD lesional skin (vs. 20% normal skin):
 - `connects-to` → **[Wound Healing](../wound-healing/README.md)** — Scratching breaks the barrier it depends on: the relentless itch of atopic dermatitis drives excoriation that erodes the skin and impairs its barrier, leaving wounds slow to heal and prone to infection.
 - `connects-to` → **[Streptococcus pyogenes](../../../02-pathogen/02-bacteria/streptococcus-pyogenes/README.md)** — Broken eczematous skin invites strep: alongside Staphylococcus, the disrupted barrier of atopic dermatitis is readily superinfected by Streptococcus pyogenes, causing impetiginized eczema and cellulitis.
 - `connects-to` → **[Obsessive-Compulsive Disorder](../obsessive-compulsive-disorder/README.md)** — The itch-scratch cycle meets compulsion: the chronic urge to scratch in atopic dermatitis overlaps with OCD-spectrum skin-picking, the two reinforcing each other and worsening skin damage.
+- `connects-to` → **[Immune System](../immune-system/README.md)** — It is a Th2 immune disease: atopic dermatitis is driven by type-2 inflammation with IL-4 and IL-13, the basis of the atopic march and the target of biologics like dupilumab.
+- `connects-to` → **[Herpesviridae](../../../02-pathogen/01-viruses/herpesvirus/README.md)** — Herpes can race across broken skin: HSV infecting eczematous skin causes eczema herpeticum, a rapidly spreading, painful vesicular eruption that is a dermatological emergency in atopic dermatitis.
+- `connects-to` → **[Endocrine System](../endocrine-system/README.md)** — Its steroid treatment reaches the glands: prolonged topical and systemic corticosteroids for severe atopic dermatitis can suppress the adrenal axis and, in children, blunt growth.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 

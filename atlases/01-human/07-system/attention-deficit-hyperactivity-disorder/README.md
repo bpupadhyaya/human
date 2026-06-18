@@ -214,6 +214,15 @@ cross_links:
   - target: 01-human/07-system/ptsd
     relation: connects-to
     note: "Trauma and attention deficits intertwine: ADHD and PTSD frequently co-occur, sharing impulsivity and arousal dysregulation, and childhood ADHD raises vulnerability to traumatic events."
+  - target: 01-human/07-system/endocrine-system
+    relation: connects-to
+    note: "Its stimulant treatment touches growth: appetite-suppressing stimulants can modestly slow height and weight gain in children with ADHD, prompting growth monitoring, and they raise heart rate and blood pressure."
+  - target: 01-human/07-system/digestive-system
+    relation: connects-to
+    note: "Stimulants curb appetite and upset the gut: the medications for ADHD commonly cause appetite suppression with weight loss, nausea and abdominal pain, complicating nutrition in growing children."
+  - target: 01-human/07-system/panic-disorder
+    relation: connects-to
+    note: "Anxiety rides alongside it: panic and anxiety disorders are frequently comorbid with ADHD, and the stimulants used to treat it can provoke or worsen panic attacks, complicating management."
 ---
 
 # Attention-Deficit/Hyperactivity Disorder
@@ -425,6 +434,9 @@ ADHD is a clinical diagnosis requiring [^biederman-2005-adhd-adults]:
 - `connects-to` → **[Wound Healing](../wound-healing/README.md)** — Impulsivity and inattention court injury: ADHD carries markedly higher rates of accidents, falls and burns, producing wounds and fractures more often than in the general population.
 - `connects-to` → **[Asthma](../asthma/README.md)** — It travels with atopic and respiratory disease: ADHD is comorbid with asthma at elevated rates, the two sharing inflammatory and neurodevelopmental links and complicating each other's management.
 - `connects-to` → **[PTSD](../ptsd/README.md)** — Trauma and attention deficits intertwine: ADHD and PTSD frequently co-occur, sharing impulsivity and arousal dysregulation, and childhood ADHD raises vulnerability to traumatic events.
+- `connects-to` → **[Endocrine System](../endocrine-system/README.md)** — Its stimulant treatment touches growth: appetite-suppressing stimulants can modestly slow height and weight gain in children with ADHD, prompting growth monitoring, and they raise heart rate and blood pressure.
+- `connects-to` → **[Digestive System](../digestive-system/README.md)** — Stimulants curb appetite and upset the gut: the medications for ADHD commonly cause appetite suppression with weight loss, nausea and abdominal pain, complicating nutrition in growing children.
+- `connects-to` → **[Panic Disorder](../panic-disorder/README.md)** — Anxiety rides alongside it: panic and anxiety disorders are frequently comorbid with ADHD, and the stimulants used to treat it can provoke or worsen panic attacks, complicating management.
 
 [^faraone-2021-adhd-primer]: Faraone SV, Banaschewski T, Coghill D, et al. The World Federation of ADHD International Consensus Statement: 208 Evidence-based conclusions about the disorder. *Neurosci Biobehav Rev.* 2021;128:789-818. [doi:10.1016/j.neubiorev.2021.01.022](https://doi.org/10.1016/j.neubiorev.2021.01.022) · [PubMed 33549739](https://pubmed.ncbi.nlm.nih.gov/33549739/)
 [^arnsten-2009-adhd-neuroscience]: Arnsten AF. Toward a new understanding of ADHD pathophysiology: an important role for prefrontal cortex dysfunction. *CNS Drugs.* 2009;23(Suppl 1):33-41. [doi:10.2165/00023210-200923000-00005](https://doi.org/10.2165/00023210-200923000-00005) · [PubMed 19621976](https://pubmed.ncbi.nlm.nih.gov/19621976/)
