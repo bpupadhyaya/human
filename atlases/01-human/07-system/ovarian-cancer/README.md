@@ -223,6 +223,15 @@ cross_links:
   - target: 01-human/07-system/integumentary-system
     relation: connects-to
     note: "Its drugs blister the hands and feet: pegylated liposomal doxorubicin causes hand-foot syndrome (palmar-plantar erythrodysesthesia), and bevacizumab impairs wound healing."
+  - target: 03-medicine/01-modern/13-cancer/targeted-therapy
+    relation: connects-to
+    note: "PARP inhibitors transformed its care: olaparib and other PARP inhibitors exploit the homologous-recombination defect of BRCA-mutant ovarian cancer, with bevacizumab adding anti-angiogenic benefit."
+  - target: 01-human/07-system/renal-system
+    relation: connects-to
+    note: "It obstructs and its drugs poison the kidney: bulky pelvic and retroperitoneal ovarian cancer can block the ureters causing hydronephrosis, and cisplatin chemotherapy is nephrotoxic."
+  - target: 01-human/07-system/cardiovascular-system
+    relation: connects-to
+    note: "It clots and its treatment strains the heart: ovarian cancer is strongly prothrombotic, and bevacizumab causes hypertension with thromboembolic and bleeding risks."
 ---
 
 # Ovarian Cancer
@@ -407,6 +416,9 @@ FTSEC ciliated and secretory cells line the Fallopian tube; secretory cells are 
 - `connects-to` → **[Lymphatic System](../lymphatic-system/README.md)** — It spreads to the deep nodes: ovarian cancer disseminates to pelvic and para-aortic lymph nodes, so lymphadenectomy is part of its surgical staging.
 - `connects-to` → **[Nervous System](../nervous-system/README.md)** — It can attack the brain by autoimmunity: ovarian cancer causes paraneoplastic anti-Yo cerebellar degeneration, and ovarian teratomas are the classic trigger of anti-NMDA-receptor encephalitis.
 - `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — Its drugs blister the hands and feet: pegylated liposomal doxorubicin causes hand-foot syndrome (palmar-plantar erythrodysesthesia), and bevacizumab impairs wound healing.
+- `connects-to` → **[Targeted Therapy](../../../03-medicine/01-modern/13-cancer/targeted-therapy/README.md)** — PARP inhibitors transformed its care: olaparib and other PARP inhibitors exploit the homologous-recombination defect of BRCA-mutant ovarian cancer, with bevacizumab adding anti-angiogenic benefit.
+- `connects-to` → **[Renal System](../renal-system/README.md)** — It obstructs and its drugs poison the kidney: bulky pelvic and retroperitoneal ovarian cancer can block the ureters causing hydronephrosis, and cisplatin chemotherapy is nephrotoxic.
+- `connects-to` → **[Cardiovascular System](../cardiovascular-system/README.md)** — It clots and its treatment strains the heart: ovarian cancer is strongly prothrombotic, and bevacizumab causes hypertension with thromboembolic and bleeding risks.
 
 [^burger-2011-gog0218]: Burger RA, Brady MF, Bookman MA, et al. Incorporation of bevacizumab in the primary treatment of ovarian cancer. *N Engl J Med.* 2011;365(26):2473-2483. [doi:10.1056/NEJMoa1104390](https://doi.org/10.1056/NEJMoa1104390) · [PubMed 22204724](https://pubmed.ncbi.nlm.nih.gov/22204724/)
 [^moore-2018-olaparib-solo1]: Moore K, Colombo N, Scambia G, et al. Maintenance olaparib in patients with newly diagnosed advanced ovarian cancer. *N Engl J Med.* 2018;379(26):2495-2505. [doi:10.1056/NEJMoa1810858](https://doi.org/10.1056/NEJMoa1810858) · [PubMed 30345884](https://pubmed.ncbi.nlm.nih.gov/30345884/)

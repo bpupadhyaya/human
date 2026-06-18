@@ -223,6 +223,15 @@ cross_links:
   - target: 01-human/07-system/nervous-system
     relation: connects-to
     note: "Its drugs and spread reach the nerves: cisplatin causes ototoxicity and peripheral neuropathy, and spinal metastases can compress the cord."
+  - target: 01-human/07-system/immune-system
+    relation: connects-to
+    note: "An immune drug joins its chemo: mifamurtide, a macrophage-activating immunostimulant, is added to chemotherapy for osteosarcoma, while the chemotherapy itself is profoundly immunosuppressive."
+  - target: 01-human/07-system/endocrine-system
+    relation: connects-to
+    note: "It peaks in the growing skeleton: osteosarcoma arises most often at the rapidly growing metaphyses during the adolescent growth spurt, and treatment impairs growth and fertility in survivors."
+  - target: 03-medicine/01-modern/13-cancer/targeted-therapy
+    relation: connects-to
+    note: "Beyond chemo, targeted options emerge: multikinase inhibitors such as regorafenib and cabozantinib supplement the MAP chemotherapy backbone in relapsed osteosarcoma, with newer agents under study."
 ---
 
 # Osteosarcoma
@@ -422,6 +431,9 @@ OS is relatively radiation-resistant (high-dose radiation ~70+ Gy may achieve lo
 - `connects-to` → **[Renal System](../renal-system/README.md)** — Its chemotherapy is hard on the kidney: cisplatin is nephrotoxic and high-dose methotrexate can precipitate in the renal tubules, needing urine alkalinisation and leucovorin rescue to prevent acute kidney injury.
 - `connects-to` → **[Cardiovascular System](../cardiovascular-system/README.md)** — Its cure can scar the heart: the doxorubicin in the MAP regimen for osteosarcoma carries a dose-dependent, long-term cardiotoxicity risk in young survivors.
 - `connects-to` → **[Nervous System](../nervous-system/README.md)** — Its drugs and spread reach the nerves: cisplatin causes ototoxicity and peripheral neuropathy, and spinal metastases can compress the cord.
+- `connects-to` → **[Immune System](../immune-system/README.md)** — An immune drug joins its chemo: mifamurtide, a macrophage-activating immunostimulant, is added to chemotherapy for osteosarcoma, while the chemotherapy itself is profoundly immunosuppressive.
+- `connects-to` → **[Endocrine System](../endocrine-system/README.md)** — It peaks in the growing skeleton: osteosarcoma arises most often at the rapidly growing metaphyses during the adolescent growth spurt, and treatment impairs growth and fertility in survivors.
+- `connects-to` → **[Targeted Therapy](../../../03-medicine/01-modern/13-cancer/targeted-therapy/README.md)** — Beyond chemo, targeted options emerge: multikinase inhibitors such as regorafenib and cabozantinib supplement the MAP chemotherapy backbone in relapsed osteosarcoma, with newer agents under study.
 
 [^bielack-2002-coss-osteosarcoma]: Bielack SS, Kempf-Bielack B, Delling G, et al. Prognostic factors in high-grade osteosarcoma of the extremities or trunk: an analysis of 1,702 patients treated on neoadjuvant Cooperative Osteosarcoma Study Group protocols. *J Clin Oncol.* 2002;20(3):776-790. [doi:10.1200/JCO.2002.20.3.776](https://doi.org/10.1200/JCO.2002.20.3.776) · [PubMed 11821461](https://pubmed.ncbi.nlm.nih.gov/11821461/)
 [^marina-2016-euramos1-osteosarcoma]: Marina NM, Smeland S, Bielack SS, et al. Comparison of MAPIE versus MAP in patients with a poor response to preoperative chemotherapy for newly diagnosed high-grade osteosarcoma (EURAMOS-1). *Lancet Oncol.* 2016;17(10):1396-1408. [doi:10.1016/S1470-2045(16)30214-5](https://doi.org/10.1016/S1470-2045(16)30214-5) · [PubMed 27569442](https://pubmed.ncbi.nlm.nih.gov/27569442/)
