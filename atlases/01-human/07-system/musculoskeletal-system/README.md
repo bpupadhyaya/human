@@ -206,6 +206,15 @@ cross_links:
   - target: 01-human/07-system/lymphatic-system
     relation: connects-to
     note: "Bones house the blood-and-immune factory: the marrow within the skeleton is where haematopoiesis and B-cell development occur, making the musculoskeletal system a primary site of the lymphatic and immune system."
+  - target: 01-human/07-system/renal-system
+    relation: connects-to
+    note: "The kidney governs bone mineral: by controlling calcium, phosphate and active vitamin D, the kidneys keep the skeleton mineralised, so renal failure causes renal osteodystrophy with weakened, painful bones."
+  - target: 02-pathogen/02-bacteria/mycobacterium-tuberculosis
+    relation: connects-to
+    note: "Tuberculosis can erode the skeleton: spinal TB (Pott's disease) destroys vertebrae and can cause gibbus deformity and cord compression, while tuberculous arthritis attacks large joints."
+  - target: 03-medicine/03-food/magnesium-dietary
+    relation: connects-to
+    note: "Magnesium underpins bone: most body magnesium is stored in bone, and it is required to activate vitamin D and regulate parathyroid hormone, so deficiency contributes to weak bones and muscle cramps."
 ---
 
 # Musculoskeletal System
@@ -405,6 +414,9 @@ Chronic exercise drives profound musculoskeletal remodelling [^guyton-hall]:
 - `connects-to` → **[Digestive System](../digestive-system/README.md)** — Bone and muscle depend on what the gut absorbs: calcium and vitamin D uptake builds bone, and protein absorption sustains muscle, so malabsorption causes osteomalacia and sarcopenia.
 - `connects-to` → **[Respiratory System](../respiratory-system/README.md)** — Muscles and the rib cage power breathing: the diaphragm and intercostals drive ventilation, so neuromuscular weakness and chest-wall deformities like scoliosis cause restrictive respiratory failure.
 - `connects-to` → **[Lymphatic System](../lymphatic-system/README.md)** — Bones house the blood-and-immune factory: the marrow within the skeleton is where haematopoiesis and B-cell development occur, making the musculoskeletal system a primary site of the lymphatic and immune system.
+- `connects-to` → **[Renal System](../renal-system/README.md)** — The kidney governs bone mineral: by controlling calcium, phosphate and active vitamin D, the kidneys keep the skeleton mineralised, so renal failure causes renal osteodystrophy with weakened, painful bones.
+- `connects-to` → **[Mycobacterium tuberculosis](../../../02-pathogen/02-bacteria/mycobacterium-tuberculosis/README.md)** — Tuberculosis can erode the skeleton: spinal TB (Pott's disease) destroys vertebrae and can cause gibbus deformity and cord compression, while tuberculous arthritis attacks large joints.
+- `connects-to` → **[Magnesium (Dietary)](../../../03-medicine/03-food/magnesium-dietary/README.md)** — Magnesium underpins bone: most body magnesium is stored in bone, and it is required to activate vitamin D and regulate parathyroid hormone, so deficiency contributes to weak bones and muscle cramps.
 
 ## Pathology
 

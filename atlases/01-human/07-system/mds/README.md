@@ -208,6 +208,15 @@ cross_links:
   - target: 01-human/07-system/generalized-anxiety-disorder
     relation: connects-to
     note: "A transfusion-dependent pre-leukaemia breeds worry: the cytopenias, transfusion dependence and ever-present threat of progression to AML in MDS foster chronic health anxiety alongside depression."
+  - target: 01-human/07-system/integumentary-system
+    relation: connects-to
+    note: "It erupts on the skin: MDS is a classic trigger of Sweet syndrome, a neutrophilic dermatosis of tender plaques, and other autoinflammatory eruptions, with leukaemia cutis if it transforms to AML."
+  - target: 01-human/07-system/musculoskeletal-system
+    relation: connects-to
+    note: "It overlaps systemic autoinflammation: MDS associates with VEXAS syndrome and relapsing polychondritis, producing inflammatory arthritis, chondritis and other rheumatic features alongside the cytopenias."
+  - target: 01-human/07-system/digestive-system
+    relation: connects-to
+    note: "Years of transfusion poison the liver: repeated red-cell transfusions in MDS deposit iron in hepatocytes, causing iron-overload liver injury that iron chelation aims to prevent."
 ---
 
 # Myelodysplastic Syndromes
@@ -382,6 +391,9 @@ MDS → AML transformation rate: ~10% at 1 year for very-low risk; ~40-50% at 2 
 - `connects-to` → **[Endocrine System](../endocrine-system/README.md)** — Transfusion iron overload poisons the glands: years of red-cell transfusions in MDS deposit iron in the pancreas, pituitary and thyroid, causing diabetes, hypogonadism and other endocrinopathies.
 - `connects-to` → **[Varicella-Zoster Virus](../../../02-pathogen/01-viruses/varicella-zoster-virus/README.md)** — Its therapy reawakens shingles: the hypomethylating agents, immunosuppression and stem-cell transplant used in MDS deplete T-cell immunity, allowing latent varicella-zoster to reactivate.
 - `connects-to` → **[Generalized Anxiety Disorder](../generalized-anxiety-disorder/README.md)** — A transfusion-dependent pre-leukaemia breeds worry: the cytopenias, transfusion dependence and ever-present threat of progression to AML in MDS foster chronic health anxiety alongside depression.
+- `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — It erupts on the skin: MDS is a classic trigger of Sweet syndrome, a neutrophilic dermatosis of tender plaques, and other autoinflammatory eruptions, with leukaemia cutis if it transforms to AML.
+- `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — It overlaps systemic autoinflammation: MDS associates with VEXAS syndrome and relapsing polychondritis, producing inflammatory arthritis, chondritis and other rheumatic features alongside the cytopenias.
+- `connects-to` → **[Digestive System](../digestive-system/README.md)** — Years of transfusion poison the liver: repeated red-cell transfusions in MDS deposit iron in hepatocytes, causing iron-overload liver injury that iron chelation aims to prevent.
 
 [^fenaux-2009-aza001]: Fenaux P, Mufti GJ, Hellstrom-Lindberg E, et al. Efficacy of azacitidine compared with conventional care regimens in patients with higher-risk myelodysplastic syndromes. *Lancet Oncol.* 2009;10(3):223-232. [doi:10.1016/S1470-2045(09)70003-8](https://doi.org/10.1016/S1470-2045(09)70003-8) · [PubMed 19230772](https://pubmed.ncbi.nlm.nih.gov/19230772/)
 [^fenaux-2020-medalist]: Fenaux P, Platzbecker U, Mufti GJ, et al. Luspatercept in patients with lower-risk myelodysplastic syndromes. *N Engl J Med.* 2020;382(2):140-151. [doi:10.1056/NEJMoa1908892](https://doi.org/10.1056/NEJMoa1908892) · [PubMed 31914241](https://pubmed.ncbi.nlm.nih.gov/31914241/)
