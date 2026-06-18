@@ -238,6 +238,15 @@ cross_links:
   - target: 01-human/07-system/renal-system
     relation: connects-to
     note: "Cisplatin and paraneoplasia reach the kidney: platinum chemotherapy is nephrotoxic, and NSCLC can cause paraneoplastic SIADH with hyponatraemia."
+  - target: 03-medicine/01-modern/13-cancer/checkpoint-inhibitors
+    relation: connects-to
+    note: "Immunotherapy is now first-line: pembrolizumab, alone or with chemotherapy by PD-L1 level, transformed advanced non-small-cell lung cancer, with adjuvant and neoadjuvant use expanding."
+  - target: 03-medicine/01-modern/13-cancer/cancer-chemotherapy
+    relation: connects-to
+    note: "Platinum doublets remain a backbone: carboplatin or cisplatin with pemetrexed or a taxane is the chemotherapy foundation, given with immunotherapy or after targeted options are exhausted."
+  - target: 01-human/05-tissue/cortical-bone
+    relation: connects-to
+    note: "It spreads to and erodes bone: non-small-cell lung cancer frequently metastasises to the skeleton, causing lytic cortical bone destruction, pain and fractures treated with bone-protective agents."
 ---
 
 # NSCLC
@@ -412,6 +421,9 @@ cross_links:
 - `connects-to` → **[Targeted Therapy](../../../03-medicine/01-modern/13-cancer/targeted-therapy/README.md)** — It is the flagship of precision oncology: NSCLC is treated by EGFR, ALK, ROS1 and KRAS-G12C targeted inhibitors plus checkpoint immunotherapy, matched to tumour genotype.
 - `connects-to` → **[Digestive System](../digestive-system/README.md)** — It spreads to liver and gut: NSCLC commonly metastasises to the liver and adrenal glands, and chemotherapy and rare gastrointestinal metastases affect the digestive tract.
 - `connects-to` → **[Renal System](../renal-system/README.md)** — Cisplatin and paraneoplasia reach the kidney: platinum chemotherapy is nephrotoxic, and NSCLC can cause paraneoplastic SIADH with hyponatraemia.
+- `connects-to` → **[Checkpoint Inhibitors](../../../03-medicine/01-modern/13-cancer/checkpoint-inhibitors/README.md)** — Immunotherapy is now first-line: pembrolizumab, alone or with chemotherapy by PD-L1 level, transformed advanced non-small-cell lung cancer, with adjuvant and neoadjuvant use expanding.
+- `connects-to` → **[Cancer Chemotherapy](../../../03-medicine/01-modern/13-cancer/cancer-chemotherapy/README.md)** — Platinum doublets remain a backbone: carboplatin or cisplatin with pemetrexed or a taxane is the chemotherapy foundation, given with immunotherapy or after targeted options are exhausted.
+- `connects-to` → **[Cortical Bone](../../05-tissue/cortical-bone/README.md)** — It spreads to and erodes bone: non-small-cell lung cancer frequently metastasises to the skeleton, causing lytic cortical bone destruction, pain and fractures treated with bone-protective agents.
 
 [^soria-2018-osimertinib-flaura]: Soria JC, Ohe Y, Vansteenkiste J, et al. Osimertinib in untreated EGFR-mutated advanced non-small-cell lung cancer. *N Engl J Med.* 2018;378(2):113-125. [doi:10.1056/NEJMoa1713137](https://doi.org/10.1056/NEJMoa1713137) · [PubMed 29151359](https://pubmed.ncbi.nlm.nih.gov/29151359/)
 [^reck-2016-pembrolizumab-keynote024]: Reck M, Rodríguez-Abreu D, Robinson AG, et al. Pembrolizumab versus chemotherapy for PD-L1-positive non-small-cell lung cancer. *N Engl J Med.* 2016;375(19):1823-1833. [doi:10.1056/NEJMoa1606774](https://doi.org/10.1056/NEJMoa1606774) · [PubMed 27718347](https://pubmed.ncbi.nlm.nih.gov/27718347/)

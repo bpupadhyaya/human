@@ -232,6 +232,15 @@ cross_links:
   - target: 03-medicine/01-modern/13-cancer/targeted-therapy
     relation: connects-to
     note: "Beyond chemo, targeted options emerge: multikinase inhibitors such as regorafenib and cabozantinib supplement the MAP chemotherapy backbone in relapsed osteosarcoma, with newer agents under study."
+  - target: 03-medicine/01-modern/13-cancer/cancer-chemotherapy
+    relation: connects-to
+    note: "The MAP regimen is curative: methotrexate, doxorubicin and cisplatin around limb-salvage surgery cure most localised osteosarcoma, the chemotherapy backbone since the 1980s."
+  - target: 01-human/05-tissue/cortical-bone
+    relation: connects-to
+    note: "It arises in and destroys bone: osteosarcoma is a malignant bone-forming tumour of the metaphysis that breaks through the cortical bone, producing the Codman triangle and sunburst pattern on imaging."
+  - target: 03-medicine/01-modern/13-cancer/checkpoint-inhibitors
+    relation: connects-to
+    note: "An immunologically cold sarcoma: osteosarcoma has few mutations and an immunosuppressive microenvironment, so PD-1 checkpoint inhibitors have shown little benefit despite trials."
 ---
 
 # Osteosarcoma
@@ -434,6 +443,9 @@ OS is relatively radiation-resistant (high-dose radiation ~70+ Gy may achieve lo
 - `connects-to` → **[Immune System](../immune-system/README.md)** — An immune drug joins its chemo: mifamurtide, a macrophage-activating immunostimulant, is added to chemotherapy for osteosarcoma, while the chemotherapy itself is profoundly immunosuppressive.
 - `connects-to` → **[Endocrine System](../endocrine-system/README.md)** — It peaks in the growing skeleton: osteosarcoma arises most often at the rapidly growing metaphyses during the adolescent growth spurt, and treatment impairs growth and fertility in survivors.
 - `connects-to` → **[Targeted Therapy](../../../03-medicine/01-modern/13-cancer/targeted-therapy/README.md)** — Beyond chemo, targeted options emerge: multikinase inhibitors such as regorafenib and cabozantinib supplement the MAP chemotherapy backbone in relapsed osteosarcoma, with newer agents under study.
+- `connects-to` → **[Cancer Chemotherapy](../../../03-medicine/01-modern/13-cancer/cancer-chemotherapy/README.md)** — The MAP regimen is curative: methotrexate, doxorubicin and cisplatin around limb-salvage surgery cure most localised osteosarcoma, the chemotherapy backbone since the 1980s.
+- `connects-to` → **[Cortical Bone](../../05-tissue/cortical-bone/README.md)** — It arises in and destroys bone: osteosarcoma is a malignant bone-forming tumour of the metaphysis that breaks through the cortical bone, producing the Codman triangle and sunburst pattern on imaging.
+- `connects-to` → **[Checkpoint Inhibitors](../../../03-medicine/01-modern/13-cancer/checkpoint-inhibitors/README.md)** — An immunologically cold sarcoma: osteosarcoma has few mutations and an immunosuppressive microenvironment, so PD-1 checkpoint inhibitors have shown little benefit despite trials.
 
 [^bielack-2002-coss-osteosarcoma]: Bielack SS, Kempf-Bielack B, Delling G, et al. Prognostic factors in high-grade osteosarcoma of the extremities or trunk: an analysis of 1,702 patients treated on neoadjuvant Cooperative Osteosarcoma Study Group protocols. *J Clin Oncol.* 2002;20(3):776-790. [doi:10.1200/JCO.2002.20.3.776](https://doi.org/10.1200/JCO.2002.20.3.776) · [PubMed 11821461](https://pubmed.ncbi.nlm.nih.gov/11821461/)
 [^marina-2016-euramos1-osteosarcoma]: Marina NM, Smeland S, Bielack SS, et al. Comparison of MAPIE versus MAP in patients with a poor response to preoperative chemotherapy for newly diagnosed high-grade osteosarcoma (EURAMOS-1). *Lancet Oncol.* 2016;17(10):1396-1408. [doi:10.1016/S1470-2045(16)30214-5](https://doi.org/10.1016/S1470-2045(16)30214-5) · [PubMed 27569442](https://pubmed.ncbi.nlm.nih.gov/27569442/)
