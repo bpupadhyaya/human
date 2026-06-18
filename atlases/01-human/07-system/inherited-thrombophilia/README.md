@@ -223,6 +223,15 @@ cross_links:
   - target: 01-human/07-system/renal-system
     relation: connects-to
     note: "It can clot the renal veins: inherited thrombophilia predisposes to renal vein thrombosis, a risk compounded when nephrotic syndrome adds acquired antithrombin loss in the urine."
+  - target: 01-human/07-system/cardiovascular-system
+    relation: connects-to
+    note: "A venous clot can cross to the arteries: through a patent foramen ovale a clot can paradoxically embolise to cause arterial stroke or limb ischaemia, and large pulmonary emboli strain the right heart."
+  - target: 01-human/07-system/endocrine-system
+    relation: connects-to
+    note: "Oestrogen multiplies its danger: combined contraceptives, HRT and pregnancy sharply raise thrombosis risk in carriers, the key hormonal interaction guiding contraceptive and obstetric decisions."
+  - target: 01-human/07-system/lymphatic-system
+    relation: connects-to
+    note: "Chronic deep clots overwhelm lymph drainage: recurrent and post-thrombotic deep-vein obstruction outpaces lymphatic clearance, contributing to persistent limb swelling."
 ---
 
 # Inherited Thrombophilia
@@ -450,6 +459,9 @@ Antithrombin (ATIII) is the primary plasma inhibitor of thrombin, FXa, FIXa, and
 - `connects-to` → **[Respiratory System](../respiratory-system/README.md)** — Its clots travel to the lungs: pulmonary embolism from a deep-vein thrombosis is the most life-threatening consequence of inherited thrombophilia, causing breathlessness, chest pain and sudden death.
 - `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — Severe deficiency strikes the skin: profound protein C or S deficiency causes neonatal purpura fulminans, and starting warfarin can trigger warfarin-induced skin necrosis from transient protein C drop.
 - `connects-to` → **[Renal System](../renal-system/README.md)** — It can clot the renal veins: inherited thrombophilia predisposes to renal vein thrombosis, a risk compounded when nephrotic syndrome adds acquired antithrombin loss in the urine.
+- `connects-to` → **[Cardiovascular System](../cardiovascular-system/README.md)** — A venous clot can cross to the arteries: through a patent foramen ovale a clot can paradoxically embolise to cause arterial stroke or limb ischaemia, and large pulmonary emboli strain the right heart.
+- `connects-to` → **[Endocrine System](../endocrine-system/README.md)** — Oestrogen multiplies its danger: combined contraceptives, HRT and pregnancy sharply raise thrombosis risk in carriers, the key hormonal interaction guiding contraceptive and obstetric decisions.
+- `connects-to` → **[Lymphatic System](../lymphatic-system/README.md)** — Chronic deep clots overwhelm lymph drainage: recurrent and post-thrombotic deep-vein obstruction outpaces lymphatic clearance, contributing to persistent limb swelling.
 
 [^bertina-1994-factor-v-leiden]: Bertina RM, Koeleman BP, Koster T, et al. Mutation in blood coagulation factor V associated with resistance to activated protein C. *Nature.* 1994;369(6475):64-67. [doi:10.1038/369064a0](https://doi.org/10.1038/369064a0) · [PubMed 8164741](https://pubmed.ncbi.nlm.nih.gov/8164741/)
 [^dahlback-2008-protein-c-review]: Dahlbäck B. Advances in understanding pathogenic mechanisms of thrombophilic disorders. *Blood.* 2008;112(1):19-27. [doi:10.1182/blood-2008-01-077909](https://doi.org/10.1182/blood-2008-01-077909) · [PubMed 18574048](https://pubmed.ncbi.nlm.nih.gov/18574048/)

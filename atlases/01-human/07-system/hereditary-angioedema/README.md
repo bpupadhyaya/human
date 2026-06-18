@@ -223,6 +223,15 @@ cross_links:
   - target: 01-human/07-system/musculoskeletal-system
     relation: connects-to
     note: "Deep limb attacks disable and deceive: HAE swelling of the hands, feet and limbs can be painful and disabling and is often mistaken for cellulitis, compartment syndrome or arthritis, delaying correct treatment."
+  - target: 03-medicine/01-modern/04-cardio/ace-inhibitors
+    relation: connects-to
+    note: "One drug class is forbidden: ACE inhibitors are contraindicated in HAE because they block the breakdown of bradykinin, the mediator of its swelling, and can precipitate severe attacks."
+  - target: 02-pathogen/02-bacteria/helicobacter-pylori
+    relation: connects-to
+    note: "A stomach bug can stoke its attacks: Helicobacter pylori infection is associated with more frequent HAE attacks, and eradicating it can reduce attack frequency in some patients."
+  - target: 01-human/07-system/multiple-myeloma
+    relation: connects-to
+    note: "Its acquired mimic flags a blood cancer: acquired C1-inhibitor deficiency, which mimics HAE, is associated with B-cell lymphoproliferative disorders and monoclonal gammopathy."
 ---
 
 # Hereditary Angioedema
@@ -426,6 +435,9 @@ Fluid extravasation → ANGIOEDEMA
 - `connects-to` → **[Nervous System](../nervous-system/README.md)** — It can rarely reach the brain: cerebral angioedema is an uncommon but serious HAE attack causing headache, seizures and transient neurological deficits, and bradykinin itself is a potent driver of pain.
 - `connects-to` → **[Renal System](../renal-system/README.md)** — Attacks can swell the urinary tract: bradykinin-mediated angioedema of the bladder and urethra during an HAE attack can cause painful dysuria and acute urinary retention.
 - `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — Deep limb attacks disable and deceive: HAE swelling of the hands, feet and limbs can be painful and disabling and is often mistaken for cellulitis, compartment syndrome or arthritis, delaying correct treatment.
+- `connects-to` → **[ACE Inhibitors](../../../03-medicine/01-modern/04-cardio/ace-inhibitors/README.md)** — One drug class is forbidden: ACE inhibitors are contraindicated in HAE because they block the breakdown of bradykinin, the mediator of its swelling, and can precipitate severe attacks.
+- `connects-to` → **[Helicobacter pylori](../../../02-pathogen/02-bacteria/helicobacter-pylori/README.md)** — A stomach bug can stoke its attacks: Helicobacter pylori infection is associated with more frequent HAE attacks, and eradicating it can reduce attack frequency in some patients.
+- `connects-to` → **[Multiple Myeloma](../multiple-myeloma/README.md)** — Its acquired mimic flags a blood cancer: acquired C1-inhibitor deficiency, which mimics HAE, is associated with B-cell lymphoproliferative disorders and monoclonal gammopathy.
 
 [^cicardi-2010-icatibant-nejm]: Cicardi M, Banerji A, Bracho F, et al. Icatibant, a new bradykinin-receptor antagonist, in hereditary angioedema. *N Engl J Med.* 2010;363(6):532-541. [doi:10.1056/NEJMoa0906393](https://doi.org/10.1056/NEJMoa0906393) · [PubMed 20818873](https://pubmed.ncbi.nlm.nih.gov/20818873/)
 [^maurer-2018-lanadelumab-help]: Banerji A, Riedl MA, Bernstein JA, et al. Effect of lanadelumab compared with placebo on prevention of hereditary angioedema attacks. *JAMA.* 2018;320(20):2108-2121. [doi:10.1001/jama.2018.16773](https://doi.org/10.1001/jama.2018.16773) · [PubMed 30480729](https://pubmed.ncbi.nlm.nih.gov/30480729/)
