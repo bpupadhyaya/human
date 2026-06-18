@@ -223,6 +223,15 @@ cross_links:
   - target: 01-human/07-system/nervous-system
     relation: connects-to
     note: "Its high calcium and chemo reach the nerves: severe paraneoplastic hypercalcaemia causes confusion and lethargy, and the platinum chemotherapy it resists also causes peripheral neuropathy."
+  - target: 01-human/07-system/renal-system
+    relation: connects-to
+    note: "A clear-cell cousin of kidney cancer, treated near the kidney: ovarian clear cell carcinoma shares clear-cell histology with renal cancer, and bulky pelvic spread plus cisplatin chemotherapy threaten the kidneys."
+  - target: 03-medicine/01-modern/13-cancer/targeted-therapy
+    relation: connects-to
+    note: "Chemoresistance drives a search for targets: ARID1A-mutant ovarian clear cell carcinoma resists platinum, so trials pursue immunotherapy and ATR or other targeted inhibitors."
+  - target: 01-human/07-system/musculoskeletal-system
+    relation: connects-to
+    note: "Paraneoplastic hypercalcaemia draws on bone: ovarian clear cell carcinoma can secrete PTHrP causing hypercalcaemia that mobilises calcium from the skeleton."
 ---
 
 # Ovarian Clear Cell Carcinoma
@@ -433,6 +442,9 @@ Comprehensive surgical staging (TAH-BSO, omentectomy, pelvic/para-aortic lymphad
 - `connects-to` → **[Lymphatic System](../lymphatic-system/README.md)** — It spreads to the deep nodes: ovarian clear cell carcinoma disseminates to pelvic and para-aortic lymph nodes, so lymphadenectomy is part of its surgical staging.
 - `connects-to` → **[Cardiovascular System](../cardiovascular-system/README.md)** — It is intensely prothrombotic: OCCC carries one of the highest venous thromboembolism rates of any cancer, straining the circulation with deep-vein thrombosis and pulmonary embolism.
 - `connects-to` → **[Nervous System](../nervous-system/README.md)** — Its high calcium and chemo reach the nerves: severe paraneoplastic hypercalcaemia causes confusion and lethargy, and the platinum chemotherapy it resists also causes peripheral neuropathy.
+- `connects-to` → **[Renal System](../renal-system/README.md)** — A clear-cell cousin of kidney cancer, treated near the kidney: ovarian clear cell carcinoma shares clear-cell histology with renal cancer, and bulky pelvic spread plus cisplatin chemotherapy threaten the kidneys.
+- `connects-to` → **[Targeted Therapy](../../../03-medicine/01-modern/13-cancer/targeted-therapy/README.md)** — Chemoresistance drives a search for targets: ARID1A-mutant ovarian clear cell carcinoma resists platinum, so trials pursue immunotherapy and ATR or other targeted inhibitors.
+- `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — Paraneoplastic hypercalcaemia draws on bone: ovarian clear cell carcinoma can secrete PTHrP causing hypercalcaemia that mobilises calcium from the skeleton.
 
 ---
 

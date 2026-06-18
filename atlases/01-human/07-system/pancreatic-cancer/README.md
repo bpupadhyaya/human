@@ -229,6 +229,15 @@ cross_links:
   - target: 01-human/07-system/cardiovascular-system
     relation: connects-to
     note: "It clots the heart's valves: its intense prothrombotic state causes marantic (non-bacterial thrombotic) endocarditis, which can throw emboli to the brain alongside its venous thromboses."
+  - target: 03-medicine/01-modern/13-cancer/targeted-therapy
+    relation: connects-to
+    note: "A few tumours have a target: PARP inhibitors help BRCA-mutated pancreatic cancer, and KRAS-G12C and other inhibitors are emerging against this notoriously treatment-resistant cancer."
+  - target: 01-human/07-system/musculoskeletal-system
+    relation: connects-to
+    note: "It wastes the body: pancreatic cancer causes profound cachexia with severe muscle loss, and advanced disease can metastasise to bone."
+  - target: 01-human/07-system/renal-system
+    relation: connects-to
+    note: "It obstructs and its drugs reach the kidney: tumour or nodes can compress the ureters, and platinum chemotherapy is nephrotoxic."
 ---
 
 # Pancreatic Cancer
@@ -419,6 +428,9 @@ cross_links:
 - `connects-to` → **[Lymphatic System](../lymphatic-system/README.md)** — It spreads early through the nodes: pancreatic cancer involves peripancreatic and distant lymph nodes including the left supraclavicular Virchow's node, a marker of advanced disease.
 - `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — It writes its prothrombotic state on the skin: the lipase it releases can cause pancreatic panniculitis with tender skin nodules, and Trousseau migratory thrombophlebitis appears as recurrent superficial clots.
 - `connects-to` → **[Cardiovascular System](../cardiovascular-system/README.md)** — It clots the heart's valves: its intense prothrombotic state causes marantic (non-bacterial thrombotic) endocarditis, which can throw emboli to the brain alongside its venous thromboses.
+- `connects-to` → **[Targeted Therapy](../../../03-medicine/01-modern/13-cancer/targeted-therapy/README.md)** — A few tumours have a target: PARP inhibitors help BRCA-mutated pancreatic cancer, and KRAS-G12C and other inhibitors are emerging against this notoriously treatment-resistant cancer.
+- `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — It wastes the body: pancreatic cancer causes profound cachexia with severe muscle loss, and advanced disease can metastasise to bone.
+- `connects-to` → **[Renal System](../renal-system/README.md)** — It obstructs and its drugs reach the kidney: tumour or nodes can compress the ureters, and platinum chemotherapy is nephrotoxic.
 
 ---
 
