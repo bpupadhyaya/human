@@ -232,6 +232,15 @@ cross_links:
   - target: 01-human/07-system/cardiovascular-system
     relation: connects-to
     note: "Treatment can reach the heart: chemotherapy for Lynch-related cancers, including platinum and fluoropyrimidines, carries cardiotoxic and thrombotic risk."
+  - target: 03-medicine/01-modern/13-cancer/checkpoint-inhibitors
+    relation: connects-to
+    note: "Mismatch-repair loss makes it immunotherapy-sensitive: Lynch tumours are microsatellite-unstable with a high mutational burden, responding dramatically to PD-1 inhibitors like pembrolizumab, which has tissue-agnostic approval for MSI-high cancer."
+  - target: 03-medicine/01-modern/13-cancer/cancer-chemotherapy
+    relation: connects-to
+    note: "Chemo with a twist: Lynch-associated colorectal cancers are treated with chemotherapy, though MSI-high tumours respond poorly to fluorouracil alone, favouring immunotherapy."
+  - target: 01-human/07-system/li-fraumeni-syndrome
+    relation: connects-to
+    note: "The two great hereditary cancer syndromes: Lynch syndrome (mismatch-repair loss) and Li-Fraumeni (germline TP53) are the archetypal autosomal-dominant multi-cancer predispositions with distinct mechanisms and spectra."
 ---
 
 # Lynch Syndrome
@@ -443,6 +452,9 @@ MSI-H stage II CRC: adjuvant 5-FU/leucovorin does NOT improve OS (may be harmful
 - `connects-to` → **[Aspirin](../../../03-medicine/01-modern/04-cardio/aspirin/README.md)** — Aspirin lowers its cancer risk: the CAPP2 trial showed regular aspirin substantially reduces colorectal cancer in Lynch syndrome, now offered as chemoprevention.
 - `connects-to` → **[Dietary Fiber](../../../03-medicine/03-food/dietary-fiber/README.md)** — Diet supports the at-risk bowel: a high-fibre diet aids colorectal health, complementing the intensive colonoscopic surveillance that Lynch syndrome requires.
 - `connects-to` → **[Cardiovascular System](../cardiovascular-system/README.md)** — Treatment can reach the heart: chemotherapy for Lynch-related cancers, including platinum and fluoropyrimidines, carries cardiotoxic and thrombotic risk.
+- `connects-to` → **[Checkpoint Inhibitors](../../../03-medicine/01-modern/13-cancer/checkpoint-inhibitors/README.md)** — Mismatch-repair loss makes it immunotherapy-sensitive: Lynch tumours are microsatellite-unstable with a high mutational burden, responding dramatically to PD-1 inhibitors like pembrolizumab, which has tissue-agnostic approval for MSI-high cancer.
+- `connects-to` → **[Cancer Chemotherapy](../../../03-medicine/01-modern/13-cancer/cancer-chemotherapy/README.md)** — Chemo with a twist: Lynch-associated colorectal cancers are treated with chemotherapy, though MSI-high tumours respond poorly to fluorouracil alone, favouring immunotherapy.
+- `connects-to` → **[Li-Fraumeni Syndrome](../li-fraumeni-syndrome/README.md)** — The two great hereditary cancer syndromes: Lynch syndrome (mismatch-repair loss) and Li-Fraumeni (germline TP53) are the archetypal autosomal-dominant multi-cancer predispositions with distinct mechanisms and spectra.
 
 [^bonadona-2011-lynch-risks]: Bonadona V, Bonaïti B, Olschwang S, et al. Cancer risks associated with germline mutations in MLH1, MSH2, and MSH6 genes in Lynch syndrome. *JAMA.* 2011;305(22):2304-2310. [doi:10.1001/jama.2011.743](https://doi.org/10.1001/jama.2011.743) · [PubMed 21642683](https://pubmed.ncbi.nlm.nih.gov/21642683/)
 [^lynch-2015-lynch-review]: Lynch HT, Snyder CL, Shaw TG, et al. Milestones of Lynch syndrome: 1895-2015. *Nat Rev Cancer.* 2015;15(3):181-194. [doi:10.1038/nrc3878](https://doi.org/10.1038/nrc3878) · [PubMed 25673086](https://pubmed.ncbi.nlm.nih.gov/25673086/)

@@ -230,6 +230,15 @@ cross_links:
   - target: 01-human/07-system/waldenstrom-macroglobulinemia
     relation: connects-to
     note: "A lymphoid malignancy of the system: Waldenström macroglobulinaemia is a lymphoplasmacytic lymphoma that infiltrates lymph nodes, spleen and marrow, secreting IgM that thickens the blood."
+  - target: 01-human/05-tissue/peyers-patches
+    relation: connects-to
+    note: "Gut lymphoid tissue is part of it: Peyer's patches and other gut-associated lymphoid tissue are major secondary lymphoid organs of the lymphatic system, sampling intestinal antigens to launch mucosal immunity."
+  - target: 02-pathogen/01-viruses/hiv-1
+    relation: connects-to
+    note: "A virus that lives in the lymph nodes: HIV replicates in and progressively destroys lymphoid tissue, causing the generalised lymphadenopathy and follicular collapse that mark advancing infection."
+  - target: 03-medicine/01-modern/13-cancer/cancer-chemotherapy
+    relation: connects-to
+    note: "Its cancers are chemo-treated: the lymphomas and leukaemias arising in lymphoid tissue are treated with combination chemotherapy, the mainstay of curing many of them."
 ---
 
 # Lymphatic System
@@ -410,6 +419,9 @@ Enterocytes package dietary triglycerides + cholesterol + apoB-48 into chylomicr
 - `connects-to` → **[Toxoplasma gondii](../../../02-pathogen/04-parasites/toxoplasma-gondii/README.md)** — A classic cause of swollen nodes: toxoplasmosis typically presents with painless cervical lymphadenopathy, a common reactive enlargement of the lymphatic system.
 - `connects-to` → **[Omega-3 fatty acids](../../../03-medicine/03-food/omega-3-fatty-acids/README.md)** — The lymphatics absorb dietary fat: long-chain fats and fat-soluble vitamins enter specialised intestinal lacteals as chyle rather than the portal blood, carried by the lymphatic system to the circulation.
 - `connects-to` → **[Waldenström Macroglobulinemia](../waldenstrom-macroglobulinemia/README.md)** — A lymphoid malignancy of the system: Waldenström macroglobulinaemia is a lymphoplasmacytic lymphoma that infiltrates lymph nodes, spleen and marrow, secreting IgM that thickens the blood.
+- `connects-to` → **[Peyer's Patches](../../05-tissue/peyers-patches/README.md)** — Gut lymphoid tissue is part of it: Peyer's patches and other gut-associated lymphoid tissue are major secondary lymphoid organs of the lymphatic system, sampling intestinal antigens to launch mucosal immunity.
+- `connects-to` → **[HIV-1](../../../02-pathogen/01-viruses/hiv-1/README.md)** — A virus that lives in the lymph nodes: HIV replicates in and progressively destroys lymphoid tissue, causing the generalised lymphadenopathy and follicular collapse that mark advancing infection.
+- `connects-to` → **[Cancer Chemotherapy](../../../03-medicine/01-modern/13-cancer/cancer-chemotherapy/README.md)** — Its cancers are chemo-treated: the lymphomas and leukaemias arising in lymphoid tissue are treated with combination chemotherapy, the mainstay of curing many of them.
 
 ## Pathology
 
