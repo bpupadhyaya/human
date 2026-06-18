@@ -232,6 +232,15 @@ cross_links:
   - target: 01-human/07-system/lymphatic-system
     relation: connects-to
     note: "It predisposes to blood cancers: leukaemia and lymphoma are part of the Li-Fraumeni spectrum, arising from the germline TP53 defect's genome-wide instability."
+  - target: 03-medicine/01-modern/13-cancer/cancer-chemotherapy
+    relation: connects-to
+    note: "Chemo with a radiation caveat: Li-Fraumeni cancers are treated with chemotherapy, but radiotherapy is minimised because germline TP53 loss makes irradiated tissue prone to second cancers."
+  - target: 01-human/07-system/lynch-syndrome
+    relation: connects-to
+    note: "The two great hereditary cancer syndromes: Li-Fraumeni (germline TP53) and Lynch syndrome (mismatch-repair loss) are the archetypal autosomal-dominant multi-cancer predispositions, differing in tumour spectrum and mechanism."
+  - target: 01-human/07-system/neurofibromatosis-type-1
+    relation: connects-to
+    note: "Childhood cancer predispositions overlap: like neurofibromatosis type 1, Li-Fraumeni syndrome predisposes to childhood CNS tumours and sarcomas, both demanding paediatric cancer surveillance."
 ---
 
 # Li-Fraumeni Syndrome
@@ -454,6 +463,9 @@ Annual surveillance significantly reduces mortality in LFS carriers (Villani 201
 - `connects-to` → **[Cardiovascular System](../cardiovascular-system/README.md)** — Treatment burdens the heart for life: many Li-Fraumeni cancers need anthracyclines whose cardiotoxicity compounds therapy in young patients, though radiation is minimised given their hypersensitivity.
 - `connects-to` → **[Digestive System](../digestive-system/README.md)** — Its spectrum reaches the gut: Li-Fraumeni syndrome raises the risk of colorectal and gastric cancers from an early age, part of the broad TP53-driven tumour predisposition.
 - `connects-to` → **[Lymphatic System](../lymphatic-system/README.md)** — It predisposes to blood cancers: leukaemia and lymphoma are part of the Li-Fraumeni spectrum, arising from the germline TP53 defect's genome-wide instability.
+- `connects-to` → **[Cancer Chemotherapy](../../../03-medicine/01-modern/13-cancer/cancer-chemotherapy/README.md)** — Chemo with a radiation caveat: Li-Fraumeni cancers are treated with chemotherapy, but radiotherapy is minimised because germline TP53 loss makes irradiated tissue prone to second cancers.
+- `connects-to` → **[Lynch Syndrome](../lynch-syndrome/README.md)** — The two great hereditary cancer syndromes: Li-Fraumeni (germline TP53) and Lynch syndrome (mismatch-repair loss) are the archetypal autosomal-dominant multi-cancer predispositions, differing in tumour spectrum and mechanism.
+- `connects-to` → **[Neurofibromatosis Type 1](../neurofibromatosis-type-1/README.md)** — Childhood cancer predispositions overlap: like neurofibromatosis type 1, Li-Fraumeni syndrome predisposes to childhood CNS tumours and sarcomas, both demanding paediatric cancer surveillance.
 
 [^bougeard-2015-lfs-chompret]: Bougeard G, Renaux-Petel M, Flaman JM, et al. Revisiting Li-Fraumeni Syndrome From TP53 Mutation Carriers. *J Clin Oncol.* 2015;33(21):2345-2352. [doi:10.1200/JCO.2014.59.5728](https://doi.org/10.1200/JCO.2014.59.5728) · [PubMed 26014290](https://pubmed.ncbi.nlm.nih.gov/26014290/)
 [^villani-2016-lfs-surveillance]: Villani A, Shore A, Wasserman JD, et al. Biochemical and imaging surveillance in germline TP53 mutation carriers with Li-Fraumeni syndrome: 11 year follow-up of a prospective observational study. *Lancet Oncol.* 2016;17(9):1295-1305. [doi:10.1016/S1470-2045(16)30249-2](https://doi.org/10.1016/S1470-2045(16)30249-2) · [PubMed 27501770](https://pubmed.ncbi.nlm.nih.gov/27501770/)
