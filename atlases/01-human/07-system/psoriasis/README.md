@@ -232,6 +232,15 @@ cross_links:
   - target: 01-human/07-system/renal-system
     relation: connects-to
     note: "Severe disease and its drugs reach the kidney: extensive psoriasis independently raises chronic kidney disease risk, and cyclosporine used to control it is nephrotoxic."
+  - target: 03-medicine/01-modern/11-biologics/adalimumab
+    relation: connects-to
+    note: "Biologics clear severe disease: anti-TNF agents like adalimumab, with IL-17 and IL-23 inhibitors, are transformative for moderate-to-severe psoriasis and its arthritis."
+  - target: 03-medicine/01-modern/02-respiratory/corticosteroids
+    relation: connects-to
+    note: "Topical steroids are first-line, systemic ones risky: potent topical corticosteroids treat plaques, but systemic steroids are avoided as withdrawal can trigger life-threatening pustular psoriasis flares."
+  - target: 01-human/07-system/nervous-system
+    relation: connects-to
+    note: "Stress and the skin talk both ways: psychological stress triggers psoriasis flares through the brain-skin neuroimmune axis, and the visible disease in turn drives anxiety and depression."
 ---
 
 # Psoriasis
@@ -418,6 +427,9 @@ Differential: Seborrheic dermatitis (common), pityriasis rosea (herald patch, Ch
 - `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — Nails and entheses warn of joint disease: nail pitting, enthesitis and dactylitis are early musculoskeletal signs that herald the psoriatic arthritis affecting up to a third of patients.
 - `connects-to` → **[Digestive System](../digestive-system/README.md)** — It shares a path with bowel disease and its drugs hit the liver: psoriasis overlaps inflammatory bowel disease through shared inflammation, and methotrexate therapy for it is hepatotoxic.
 - `connects-to` → **[Renal System](../renal-system/README.md)** — Severe disease and its drugs reach the kidney: extensive psoriasis independently raises chronic kidney disease risk, and cyclosporine used to control it is nephrotoxic.
+- `connects-to` → **[Adalimumab](../../../03-medicine/01-modern/11-biologics/adalimumab/README.md)** — Biologics clear severe disease: anti-TNF agents like adalimumab, with IL-17 and IL-23 inhibitors, are transformative for moderate-to-severe psoriasis and its arthritis.
+- `connects-to` → **[Corticosteroids](../../../03-medicine/01-modern/02-respiratory/corticosteroids/README.md)** — Topical steroids are first-line, systemic ones risky: potent topical corticosteroids treat plaques, but systemic steroids are avoided as withdrawal can trigger life-threatening pustular psoriasis flares.
+- `connects-to` → **[Nervous System](../nervous-system/README.md)** — Stress and the skin talk both ways: psychological stress triggers psoriasis flares through the brain-skin neuroimmune axis, and the visible disease in turn drives anxiety and depression.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
