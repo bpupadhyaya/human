@@ -214,6 +214,15 @@ cross_links:
   - target: 01-human/07-system/musculoskeletal-system
     relation: connects-to
     note: "It eats into the chest wall: pleural mesothelioma invades the ribs and intercostal structures, causing relentless chest-wall pain and bony destruction as it spreads."
+  - target: 01-human/07-system/lymphatic-system
+    relation: connects-to
+    note: "It spreads through and blocks the lymphatics: mesothelioma invades mediastinal and hilar lymph nodes, and obstruction of pleural lymphatic drainage produces the recurrent effusions that dominate its course."
+  - target: 01-human/07-system/cardiovascular-system
+    relation: connects-to
+    note: "It can encase and arise on the heart: pleural mesothelioma can wrap the pericardium causing constrictive physiology, and a rare primary pericardial mesothelioma exists."
+  - target: 01-human/07-system/nervous-system
+    relation: connects-to
+    note: "It invades the chest-wall nerves: tumour growth into the intercostal nerves causes severe neuropathic chest-wall pain, the dominant and hardest-to-control symptom of advanced mesothelioma."
 ---
 
 # Mesothelioma
@@ -398,6 +407,9 @@ Cytoreductive surgery (CRS) + hyperthermic intraperitoneal chemotherapy (HIPEC):
 - `connects-to` → **[Digestive System](../digestive-system/README.md)** — It also grows in the belly: peritoneal mesothelioma, the second commonest form, encases the bowel and causes ascites, abdominal pain and intestinal obstruction.
 - `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — It seeds the skin along procedure tracks: mesothelioma characteristically grows out along the tracts of chest drains, biopsies and surgical scars, forming painful cutaneous tumour nodules.
 - `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — It eats into the chest wall: pleural mesothelioma invades the ribs and intercostal structures, causing relentless chest-wall pain and bony destruction as it spreads.
+- `connects-to` → **[Lymphatic System](../lymphatic-system/README.md)** — It spreads through and blocks the lymphatics: mesothelioma invades mediastinal and hilar lymph nodes, and obstruction of pleural lymphatic drainage produces the recurrent effusions that dominate its course.
+- `connects-to` → **[Cardiovascular System](../cardiovascular-system/README.md)** — It can encase and arise on the heart: pleural mesothelioma can wrap the pericardium causing constrictive physiology, and a rare primary pericardial mesothelioma exists.
+- `connects-to` → **[Nervous System](../nervous-system/README.md)** — It invades the chest-wall nerves: tumour growth into the intercostal nerves causes severe neuropathic chest-wall pain, the dominant and hardest-to-control symptom of advanced mesothelioma.
 
 [^baas-2021-checkmate743]: Baas P, Scherpereel A, Nowak AK, et al. First-line nivolumab plus ipilimumab in unresectable malignant pleural mesothelioma (CheckMate 743). *Lancet.* 2021;397(10272):375-386. [doi:10.1016/S0140-6736(20)32714-8](https://doi.org/10.1016/S0140-6736(20)32714-8) · [PubMed 33485464](https://pubmed.ncbi.nlm.nih.gov/33485464/)
 [^vogelzang-2003-pemetrexed]: Vogelzang NJ, Rusthoven JJ, Symanowski J, et al. Phase III study of pemetrexed in combination with cisplatin versus cisplatin alone in patients with malignant pleural mesothelioma. *J Clin Oncol.* 2003;21(14):2636-2644. [doi:10.1200/JCO.2003.11.136](https://doi.org/10.1200/JCO.2003.11.136) · [PubMed 12860938](https://pubmed.ncbi.nlm.nih.gov/12860938/)
