@@ -235,6 +235,15 @@ cross_links:
   - target: 01-human/07-system/lymphatic-system
     relation: connects-to
     note: "It leaves a lasting swelling: after a deep-vein thrombosis, valve damage and impaired drainage cause the post-thrombotic syndrome, a chronic oedema that mimics lymphatic failure."
+  - target: 03-medicine/01-modern/04-cardio/aspirin
+    relation: connects-to
+    note: "An option for prevention: aspirin gives modest protection against recurrent venous thromboembolism and is used for prophylaxis after some orthopaedic surgery, though anticoagulants are more effective."
+  - target: 02-pathogen/01-viruses/sars-cov-2
+    relation: connects-to
+    note: "A virus that clots the veins: severe COVID-19 markedly raises venous thromboembolism risk through endothelial injury, inflammation and immobility, prompting routine thromboprophylaxis in hospital."
+  - target: 01-human/07-system/nsclc
+    relation: connects-to
+    note: "Cancer drives clotting: lung adenocarcinoma and other cancers create a hypercoagulable Trousseau state, making venous thromboembolism a common and dangerous complication of malignancy."
 ---
 
 # Venous Thromboembolism
@@ -426,6 +435,9 @@ cross_links:
 - `connects-to` → **[Renal System](../renal-system/README.md)** — The leaky kidney clots: nephrotic syndrome loses antithrombin in the urine, creating a hypercoagulable state that classically causes renal vein thrombosis and other venous clots.
 - `connects-to` → **[Immune System](../immune-system/README.md)** — Inflammation and clotting are intertwined: 'immunothrombosis' sees neutrophil extracellular traps and inflammatory cytokines trigger coagulation, linking infection and autoimmunity to venous thrombosis.
 - `connects-to` → **[Lymphatic System](../lymphatic-system/README.md)** — It leaves a lasting swelling: after a deep-vein thrombosis, valve damage and impaired drainage cause the post-thrombotic syndrome, a chronic oedema that mimics lymphatic failure.
+- `connects-to` → **[Aspirin](../../../03-medicine/01-modern/04-cardio/aspirin/README.md)** — An option for prevention: aspirin gives modest protection against recurrent venous thromboembolism and is used for prophylaxis after some orthopaedic surgery, though anticoagulants are more effective.
+- `connects-to` → **[SARS-CoV-2](../../../02-pathogen/01-viruses/sars-cov-2/README.md)** — A virus that clots the veins: severe COVID-19 markedly raises venous thromboembolism risk through endothelial injury, inflammation and immobility, prompting routine thromboprophylaxis in hospital.
+- `connects-to` → **[NSCLC](../nsclc/README.md)** — Cancer drives clotting: lung adenocarcinoma and other cancers create a hypercoagulable Trousseau state, making venous thromboembolism a common and dangerous complication of malignancy.
 
 [^agnelli-2013-amplify-apixaban-vte]: Agnelli G, Buller HR, Cohen A, et al. Oral apixaban for the treatment of acute venous thromboembolism. *N Engl J Med.* 2013;369(9):799-808. [doi:10.1056/NEJMoa1302507](https://doi.org/10.1056/NEJMoa1302507) · [PubMed 23808982](https://pubmed.ncbi.nlm.nih.gov/23808982/)
 [^bauersachs-2010-einstein-rivaroxaban]: EINSTEIN Investigators. Oral rivaroxaban for symptomatic venous thromboembolism. *N Engl J Med.* 2010;363(26):2499-2510. [doi:10.1056/NEJMoa1007903](https://doi.org/10.1056/NEJMoa1007903) · [PubMed 21128814](https://pubmed.ncbi.nlm.nih.gov/21128814/)

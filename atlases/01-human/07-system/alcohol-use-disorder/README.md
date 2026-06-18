@@ -241,6 +241,15 @@ cross_links:
   - target: 03-medicine/03-food/magnesium-dietary
     relation: connects-to
     note: "Drinking drains magnesium: chronic alcohol use depletes body magnesium, contributing to the tremor, arrhythmia and seizures of withdrawal, so replacement is routine."
+  - target: 02-pathogen/02-bacteria/mycobacterium-tuberculosis
+    relation: connects-to
+    note: "Drinking raises the risk: heavy alcohol use roughly triples the risk of active tuberculosis through impaired immunity, malnutrition and social exposure, a major driver of the global TB burden."
+  - target: 01-human/07-system/ptsd
+    relation: connects-to
+    note: "Trauma and drinking entwine: alcohol use disorder and PTSD frequently co-occur, as people drink to numb intrusive memories and hyperarousal, each disorder worsening the other."
+  - target: 01-human/04-cellular/osteoblast
+    relation: connects-to
+    note: "Alcohol starves the bone-builders: chronic alcohol suppresses osteoblast activity and bone formation, a key mechanism behind the osteoporosis and fracture risk of alcohol use disorder."
 ---
 
 # Alcohol Use Disorder
@@ -495,6 +504,9 @@ Prenatal alcohol exposure → leading preventable cause of intellectual disabili
 - `connects-to` → **[Respiratory System](../respiratory-system/README.md)** — It opens the lungs to infection: alcohol impairs cough and airway defences, raising the risk of aspiration pneumonia, community-acquired pneumonia and tuberculosis, and predisposing to ARDS.
 - `connects-to` → **[Renal System](../renal-system/README.md)** — It unbalances fluids and salts: heavy drinking causes profound hypomagnesaemia and hypophosphataemia, and rhabdomyolysis or hepatorenal syndrome can precipitate acute kidney injury.
 - `connects-to` → **[Dietary Magnesium](../../../03-medicine/03-food/magnesium-dietary/README.md)** — Drinking drains magnesium: chronic alcohol use depletes body magnesium, contributing to the tremor, arrhythmia and seizures of withdrawal, so replacement is routine.
+- `connects-to` → **[Mycobacterium tuberculosis](../../../02-pathogen/02-bacteria/mycobacterium-tuberculosis/README.md)** — Drinking raises the risk: heavy alcohol use roughly triples the risk of active tuberculosis through impaired immunity, malnutrition and social exposure, a major driver of the global TB burden.
+- `connects-to` → **[PTSD](../ptsd/README.md)** — Trauma and drinking entwine: alcohol use disorder and PTSD frequently co-occur, as people drink to numb intrusive memories and hyperarousal, each disorder worsening the other.
+- `connects-to` → **[Osteoblast](../../04-cellular/osteoblast/README.md)** — Alcohol starves the bone-builders: chronic alcohol suppresses osteoblast activity and bone formation, a key mechanism behind the osteoporosis and fracture risk of alcohol use disorder.
 
 [^koob-2013-addiction-neuroscience]: Koob GF, Volkow ND. Neurocircuitry of addiction. *Neuropsychopharmacology.* 2010;35(1):217-238. [doi:10.1038/npp.2009.110](https://doi.org/10.1038/npp.2009.110) · [PubMed 19710631](https://pubmed.ncbi.nlm.nih.gov/19710631/)
 [^anton-2006-combine]: Anton RF, O'Malley SS, Ciraulo DA, et al. Combined pharmacotherapies and behavioral interventions for alcohol dependence: the COMBINE study. *JAMA.* 2006;295(17):2003-2017. [doi:10.1001/jama.295.17.2003](https://doi.org/10.1001/jama.295.17.2003) · [PubMed 16670409](https://pubmed.ncbi.nlm.nih.gov/16670409/)
