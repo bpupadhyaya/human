@@ -214,6 +214,15 @@ cross_links:
   - target: 01-human/07-system/generalized-anxiety-disorder
     relation: connects-to
     note: "A precarious marrow failure breeds worry: the constant threat of bleeding and infection, transfusion dependence and uncertain prognosis of aplastic anemia foster chronic health anxiety alongside depression."
+  - target: 01-human/07-system/nervous-system
+    relation: connects-to
+    note: "Its lowest platelets threaten the brain: severe thrombocytopenia in aplastic anemia risks intracranial haemorrhage, a leading cause of death, on top of the fatigue of profound anaemia."
+  - target: 01-human/07-system/respiratory-system
+    relation: connects-to
+    note: "Empty marrow leaves the lungs undefended: neutropenia invites bacterial and invasive fungal pneumonia, while thrombocytopenia can cause alveolar haemorrhage."
+  - target: 01-human/07-system/digestive-system
+    relation: connects-to
+    note: "It bleeds into and loads the gut: thrombocytopenia causes gastrointestinal bleeding, and years of red-cell transfusion deposit iron in the liver, causing iron-overload injury."
 ---
 
 # Aplastic Anemia
@@ -392,6 +401,9 @@ In >80% of acquired AA cases, the disease is **immune-mediated**: autoreactive *
 - `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — Failing platelets bleed into the skin: the severe thrombocytopenia of aplastic anemia causes petechiae, purpura and mucosal bleeding, often the first visible sign of the marrow failure.
 - `connects-to` → **[Endocrine System](../endocrine-system/README.md)** — Transfusion iron overload poisons the glands: the chronic red-cell transfusions that support aplastic anemia deposit iron in the pancreas, pituitary and thyroid, causing diabetes and other endocrinopathies.
 - `connects-to` → **[Generalized Anxiety Disorder](../generalized-anxiety-disorder/README.md)** — A precarious marrow failure breeds worry: the constant threat of bleeding and infection, transfusion dependence and uncertain prognosis of aplastic anemia foster chronic health anxiety alongside depression.
+- `connects-to` → **[Nervous System](../nervous-system/README.md)** — Its lowest platelets threaten the brain: severe thrombocytopenia in aplastic anemia risks intracranial haemorrhage, a leading cause of death, on top of the fatigue of profound anaemia.
+- `connects-to` → **[Respiratory System](../respiratory-system/README.md)** — Empty marrow leaves the lungs undefended: neutropenia invites bacterial and invasive fungal pneumonia, while thrombocytopenia can cause alveolar haemorrhage.
+- `connects-to` → **[Digestive System](../digestive-system/README.md)** — It bleeds into and loads the gut: thrombocytopenia causes gastrointestinal bleeding, and years of red-cell transfusion deposit iron in the liver, causing iron-overload injury.
 
 ---
 

@@ -220,6 +220,15 @@ cross_links:
   - target: 01-human/07-system/integumentary-system
     relation: connects-to
     note: "Chronic limb ischaemia marks the skin: atherosclerotic peripheral arterial disease leaves the legs with hair loss, shiny atrophic cool skin and thickened nails, the trophic changes of poor perfusion."
+  - target: 01-human/07-system/immune-system
+    relation: connects-to
+    note: "It is fundamentally an inflammatory disease: macrophage foam cells, the NLRP3 inflammasome and IL-1β drive plaque growth and rupture, now targeted by anti-inflammatory colchicine and canakinumab."
+  - target: 01-human/07-system/nervous-system
+    relation: connects-to
+    note: "It hardens the arteries to the brain: carotid and intracranial atherosclerosis cause transient ischaemic attacks and contribute to vascular cognitive impairment beyond overt stroke."
+  - target: 01-human/07-system/endocrine-system
+    relation: connects-to
+    note: "It is the vascular endpoint of metabolic disease: diabetes, dyslipidaemia and the metabolic syndrome accelerate plaque formation, tying atherosclerosis tightly to endocrine dysfunction."
 ---
 
 # Atherosclerosis
@@ -401,6 +410,9 @@ The process begins in childhood with **fatty streaks** and progresses silently o
 - `connects-to` → **[Digestive System](../digestive-system/README.md)** — It starves the bowel of blood: atherosclerosis of the mesenteric arteries causes chronic intestinal angina with post-meal pain and weight loss, and acute occlusion brings catastrophic bowel infarction.
 - `connects-to` → **[Renal System](../renal-system/README.md)** — It throttles the kidney's blood supply: atherosclerotic renal artery stenosis causes renovascular hypertension and ischaemic nephropathy, and showers of cholesterol emboli can injure the kidneys.
 - `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — Chronic limb ischaemia marks the skin: atherosclerotic peripheral arterial disease leaves the legs with hair loss, shiny atrophic cool skin and thickened nails, the trophic changes of poor perfusion.
+- `connects-to` → **[Immune System](../immune-system/README.md)** — It is fundamentally an inflammatory disease: macrophage foam cells, the NLRP3 inflammasome and IL-1β drive plaque growth and rupture, now targeted by anti-inflammatory colchicine and canakinumab.
+- `connects-to` → **[Nervous System](../nervous-system/README.md)** — It hardens the arteries to the brain: carotid and intracranial atherosclerosis cause transient ischaemic attacks and contribute to vascular cognitive impairment beyond overt stroke.
+- `connects-to` → **[Endocrine System](../endocrine-system/README.md)** — It is the vascular endpoint of metabolic disease: diabetes, dyslipidaemia and the metabolic syndrome accelerate plaque formation, tying atherosclerosis tightly to endocrine dysfunction.
 
 ---
 
