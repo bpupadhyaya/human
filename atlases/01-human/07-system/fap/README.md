@@ -214,6 +214,15 @@ cross_links:
   - target: 01-human/07-system/gut-microbiome
     relation: connects-to
     note: "Gut bacteria speed its polyps to cancer: in FAP the colonic microbiome — colibactin-producing E. coli and enterotoxigenic Bacteroides — accelerates the progression of its myriad adenomas toward carcinoma."
+  - target: 01-human/07-system/reproductive-system
+    relation: connects-to
+    note: "It passes to half the children: FAP is autosomal dominant with a 50% transmission risk, driving cascade genetic testing and reproductive choices, and pregnancy can trigger desmoid growth."
+  - target: 01-human/07-system/renal-system
+    relation: connects-to
+    note: "Its desmoids can block the ureters: large intra-abdominal desmoid tumours in FAP can compress the ureters, causing hydronephrosis and obstructive renal impairment."
+  - target: 01-human/07-system/cardiovascular-system
+    relation: connects-to
+    note: "Its desmoids encase the great vessels: bulky mesenteric desmoid tumours in FAP can compress and encase major abdominal vessels, complicating surgery and risking ischaemia."
 ---
 
 # Familial Adenomatous Polyposis
@@ -419,6 +428,9 @@ With modern surveillance and prophylactic colectomy: FAP is no longer an inevita
 - `connects-to` → **[Endocrine System](../endocrine-system/README.md)** — APC loss reaches the endocrine glands: FAP raises the risk of papillary thyroid cancer (the cribriform-morular variant) and adrenal adenomas, extending its tumour spectrum into the endocrine system.
 - `connects-to` → **[Nervous System](../nervous-system/README.md)** — It marks the eye and, rarely, the brain: FAP causes congenital hypertrophy of the retinal pigment epithelium, and the Turcot variant pairs colonic polyposis with brain tumours like medulloblastoma.
 - `connects-to` → **[Gut Microbiome](../gut-microbiome/README.md)** — Gut bacteria speed its polyps to cancer: in FAP the colonic microbiome — colibactin-producing E. coli and enterotoxigenic Bacteroides — accelerates the progression of its myriad adenomas toward carcinoma.
+- `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — It passes to half the children: FAP is autosomal dominant with a 50% transmission risk, driving cascade genetic testing and reproductive choices, and pregnancy can trigger desmoid growth.
+- `connects-to` → **[Renal System](../renal-system/README.md)** — Its desmoids can block the ureters: large intra-abdominal desmoid tumours in FAP can compress the ureters, causing hydronephrosis and obstructive renal impairment.
+- `connects-to` → **[Cardiovascular System](../cardiovascular-system/README.md)** — Its desmoids encase the great vessels: bulky mesenteric desmoid tumours in FAP can compress and encase major abdominal vessels, complicating surgery and risking ischaemia.
 
 [^kinzler-1991-apc]: Kinzler KW, Nilbert MC, Su LK, et al. Identification of FAP locus genes from chromosome 5q21. *Science.* 1991;253(5020):661-665. [doi:10.1126/science.1651562](https://doi.org/10.1126/science.1651562) · [PubMed 1651562](https://pubmed.ncbi.nlm.nih.gov/1651562/)
 [^fearon-1990-vogelstein]: Fearon ER, Vogelstein B. A genetic model for colorectal tumorigenesis. *Cell.* 1990;61(5):759-767. [doi:10.1016/0092-8674(90)90186-i](https://doi.org/10.1016/0092-8674(90)90186-i) · [PubMed 2188735](https://pubmed.ncbi.nlm.nih.gov/2188735/)

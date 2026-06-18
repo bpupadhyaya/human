@@ -214,6 +214,15 @@ cross_links:
   - target: 01-human/07-system/generalized-anxiety-disorder
     relation: connects-to
     note: "A young cancer with relapse risk breeds worry: the limb loss, lung-metastasis surveillance and long survivorship of Ewing sarcoma foster chronic anxiety in survivors and families."
+  - target: 01-human/07-system/respiratory-system
+    relation: connects-to
+    note: "The lungs are its commonest target: Ewing sarcoma metastasises preferentially to the lungs, so chest imaging stages disease and pulmonary metastases are treated with whole-lung radiation."
+  - target: 01-human/07-system/renal-system
+    relation: connects-to
+    note: "Its chemotherapy injures the kidney and bladder: ifosfamide causes a Fanconi-like renal tubulopathy, and cyclophosphamide and ifosfamide cause haemorrhagic cystitis."
+  - target: 01-human/07-system/cardiovascular-system
+    relation: connects-to
+    note: "Its cure can scar the heart: the doxorubicin in Ewing sarcoma chemotherapy carries a dose-dependent, long-term cardiotoxicity risk in the young survivors who receive it."
 ---
 
 # Ewing Sarcoma
@@ -402,6 +411,9 @@ After induction → surgical specimen assessed for percent tumor necrosis (Salze
 - `connects-to` → **[Wound Healing](../wound-healing/README.md)** — Limb salvage and radiation heal poorly: the wide bone resection with endoprosthesis or amputation in Ewing sarcoma, in irradiated and chemotherapy-suppressed tissue, leaves wounds prone to breakdown.
 - `connects-to` → **[Varicella-Zoster Virus](../../../02-pathogen/01-viruses/varicella-zoster-virus/README.md)** — Intensive chemo reawakens shingles: the dose-dense VDC/IE chemotherapy for Ewing sarcoma deeply suppresses a young patient's immunity, allowing latent or primary varicella-zoster to cause severe disease.
 - `connects-to` → **[Generalized Anxiety Disorder](../generalized-anxiety-disorder/README.md)** — A young cancer with relapse risk breeds worry: the limb loss, lung-metastasis surveillance and long survivorship of Ewing sarcoma foster chronic anxiety in survivors and families.
+- `connects-to` → **[Respiratory System](../respiratory-system/README.md)** — The lungs are its commonest target: Ewing sarcoma metastasises preferentially to the lungs, so chest imaging stages disease and pulmonary metastases are treated with whole-lung radiation.
+- `connects-to` → **[Renal System](../renal-system/README.md)** — Its chemotherapy injures the kidney and bladder: ifosfamide causes a Fanconi-like renal tubulopathy, and cyclophosphamide and ifosfamide cause haemorrhagic cystitis.
+- `connects-to` → **[Cardiovascular System](../cardiovascular-system/README.md)** — Its cure can scar the heart: the doxorubicin in Ewing sarcoma chemotherapy carries a dose-dependent, long-term cardiotoxicity risk in the young survivors who receive it.
 
 ---
 
