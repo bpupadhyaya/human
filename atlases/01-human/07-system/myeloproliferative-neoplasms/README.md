@@ -214,6 +214,15 @@ cross_links:
   - target: 01-human/07-system/cardiovascular-system
     relation: connects-to
     note: "Sludgy, clot-prone blood strains the circulation: the raised cell mass and platelet activation of MPNs cause arterial thrombosis with myocardial infarction, hypertension and a high-output cardiovascular burden."
+  - target: 01-human/07-system/lymphatic-system
+    relation: connects-to
+    note: "They swell the spleen: extramedullary haematopoiesis and pooling of blood cells enlarge the spleen, often massively in myelofibrosis, with a risk of splenic infarction and early satiety."
+  - target: 01-human/07-system/nervous-system
+    relation: connects-to
+    note: "Thick blood disturbs the brain: hyperviscosity and microvascular thrombosis in MPNs cause headache, visual disturbance, transient ischaemic attacks and stroke."
+  - target: 01-human/07-system/musculoskeletal-system
+    relation: connects-to
+    note: "They burden bone and joints: marrow expansion and the osteosclerosis of myelofibrosis cause bone pain, while high cell turnover raises uric acid and precipitates gout."
 ---
 
 # Myeloproliferative Neoplasms
@@ -423,6 +432,9 @@ In PV and ET, JAK2 V617F also affects myeloid progenitors → granulocytosis and
 - `connects-to` → **[Digestive System](../digestive-system/README.md)** — They clot the gut's veins and swell the spleen: MPNs are a leading cause of splanchnic, portal and hepatic vein thrombosis (Budd-Chiari), and massive splenomegaly from extramedullary haematopoiesis causes early satiety.
 - `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — Excess blood cells torment the skin: polycythemia vera causes the intense aquagenic pruritus after bathing, and essential thrombocythemia produces the burning red erythromelalgia of the extremities.
 - `connects-to` → **[Cardiovascular System](../cardiovascular-system/README.md)** — Sludgy, clot-prone blood strains the circulation: the raised cell mass and platelet activation of MPNs cause arterial thrombosis with myocardial infarction, hypertension and a high-output cardiovascular burden.
+- `connects-to` → **[Lymphatic System](../lymphatic-system/README.md)** — They swell the spleen: extramedullary haematopoiesis and pooling of blood cells enlarge the spleen, often massively in myelofibrosis, with a risk of splenic infarction and early satiety.
+- `connects-to` → **[Nervous System](../nervous-system/README.md)** — Thick blood disturbs the brain: hyperviscosity and microvascular thrombosis in MPNs cause headache, visual disturbance, transient ischaemic attacks and stroke.
+- `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — They burden bone and joints: marrow expansion and the osteosclerosis of myelofibrosis cause bone pain, while high cell turnover raises uric acid and precipitates gout.
 
 [^verstovsek-2012-comfort-i]: Verstovsek S, Mesa RA, Gotlib J, et al. A double-blind, placebo-controlled trial of ruxolitinib for myelofibrosis. *N Engl J Med.* 2012;366(9):799-807. [doi:10.1056/NEJMoa1110557](https://doi.org/10.1056/NEJMoa1110557) · [PubMed 22375971](https://pubmed.ncbi.nlm.nih.gov/22375971/)
 [^vannucchi-2015-response]: Vannucchi AM, Kiladjian JJ, Griesshammer M, et al. Ruxolitinib versus standard therapy for the treatment of polycythemia vera. *N Engl J Med.* 2015;372(5):426-435. [doi:10.1056/NEJMoa1409002](https://doi.org/10.1056/NEJMoa1409002) · [PubMed 25426978](https://pubmed.ncbi.nlm.nih.gov/25426978/)
