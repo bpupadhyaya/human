@@ -241,6 +241,15 @@ cross_links:
   - target: 01-human/07-system/immune-thrombocytopenia
     relation: connects-to
     note: "It crashes the platelets: dengue causes a profound thrombocytopenia through marrow suppression and immune platelet destruction, overlapping mechanistically with immune thrombocytopenia."
+  - target: 01-human/05-tissue/hepatic-lobule
+    relation: connects-to
+    note: "It injures the liver lobule: severe dengue causes midzonal hepatocellular necrosis with Councilman bodies in the liver lobule, and the steep transaminase rise it produces is a warning sign of progression to severe disease."
+  - target: 01-human/05-tissue/myocardium
+    relation: connects-to
+    note: "It can inflame the heart: dengue myocarditis depresses myocardial function and causes arrhythmia in severe disease, contributing — alongside plasma leak — to the shock of dengue haemorrhagic fever."
+  - target: 02-pathogen/01-viruses/ebola-virus
+    relation: connects-to
+    note: "A fellow viral haemorrhagic fever: like Ebola, severe dengue is a viral haemorrhagic fever where endothelial leak, thrombocytopenia and coagulopathy cause bleeding and shock, though dengue's plasma leak dominates over frank haemorrhage."
 ---
 
 # Dengue Fever
@@ -427,3 +436,6 @@ No approved antiviral therapy for dengue. Management is entirely supportive:
 - `connects-to` → **[Zika Virus](../../../02-pathogen/01-viruses/zika-virus/README.md)** — A flavivirus cousin and immune trap: Zika shares dengue's Aedes vector and produces cross-reactive antibodies that can worsen the other infection through antibody-dependent enhancement, complicating diagnosis and vaccine design.
 - `connects-to` → **[Salmonella typhi](../../../02-pathogen/02-bacteria/salmonella-typhi/README.md)** — A fever to tell apart: in endemic regions and returning travellers, dengue must be distinguished from typhoid and malaria, overlapping febrile illnesses with very different treatments.
 - `connects-to` → **[Immune Thrombocytopenia](../immune-thrombocytopenia/README.md)** — It crashes the platelets: dengue causes a profound thrombocytopenia through marrow suppression and immune platelet destruction, overlapping mechanistically with immune thrombocytopenia.
+- `connects-to` → **[Hepatic Lobule](../../05-tissue/hepatic-lobule/README.md)** — It injures the liver lobule: severe dengue causes midzonal hepatocellular necrosis with Councilman bodies in the liver lobule, and the steep transaminase rise it produces is a warning sign of progression to severe disease.
+- `connects-to` → **[Myocardium](../../05-tissue/myocardium/README.md)** — It can inflame the heart: dengue myocarditis depresses myocardial function and causes arrhythmia in severe disease, contributing — alongside plasma leak — to the shock of dengue haemorrhagic fever.
+- `connects-to` → **[Ebola Virus](../../../02-pathogen/01-viruses/ebola-virus/README.md)** — A fellow viral haemorrhagic fever: like Ebola, severe dengue is a viral haemorrhagic fever where endothelial leak, thrombocytopenia and coagulopathy cause bleeding and shock, though dengue's plasma leak dominates over frank haemorrhage.

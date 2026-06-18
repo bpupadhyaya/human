@@ -241,6 +241,15 @@ cross_links:
   - target: 02-pathogen/01-viruses/ebola-virus
     relation: connects-to
     note: "Haemorrhagic fever's lethal surge: Ebola and other viral haemorrhagic fevers kill partly through a massive cytokine storm that drives vascular leak, shock and coagulopathy."
+  - target: 03-medicine/01-modern/13-cancer/targeted-therapy
+    relation: connects-to
+    note: "Cytokine-blocking biologics quench it: tocilizumab against IL-6, anakinra against IL-1, emapalumab against IFN-γ and JAK inhibitors directly interrupt the cytokine cascade of CAR-T CRS, COVID and HLH."
+  - target: 03-medicine/01-modern/13-cancer/cancer-chemotherapy
+    relation: connects-to
+    note: "Etoposide tames the macrophage storm: in HLH and macrophage activation syndrome the chemotherapy agent etoposide depletes the hyperactivated macrophages and T cells, a cornerstone of the HLH-94 protocol for that lethal cytokine storm."
+  - target: 01-human/05-tissue/myocardium
+    relation: connects-to
+    note: "Cytokines stun the heart: high circulating IL-6 and TNF directly depress myocardial contractility, so cytokine storm — in sepsis, CRS or COVID — causes a reversible cardiomyopathy that deepens the shock."
 ---
 
 # Cytokine Storm
@@ -406,6 +415,9 @@ CS drives a **consumptive coagulopathy (DIC)**:
 - `connects-to` → **[CAR-T](../../../03-medicine/01-modern/13-cancer/car-t/README.md)** — It IS the signature CAR-T toxicity: cytokine release syndrome is the defining adverse effect of CAR-T therapy, the same IL-6-driven cascade, reversed by the IL-6-receptor blocker tocilizumab.
 - `connects-to` → **[SARS-CoV-2](../../../02-pathogen/01-viruses/sars-cov-2/README.md)** — The pandemic's deadly hyperinflammation: severe COVID-19 drives a cytokine storm with high IL-6 and ferritin, the target of dexamethasone and tocilizumab that lower its mortality.
 - `connects-to` → **[Ebola Virus](../../../02-pathogen/01-viruses/ebola-virus/README.md)** — Haemorrhagic fever's lethal surge: Ebola and other viral haemorrhagic fevers kill partly through a massive cytokine storm that drives vascular leak, shock and coagulopathy.
+- `connects-to` → **[Targeted Therapy](../../../03-medicine/01-modern/13-cancer/targeted-therapy/README.md)** — Cytokine-blocking biologics quench it: tocilizumab against IL-6, anakinra against IL-1, emapalumab against IFN-γ and JAK inhibitors directly interrupt the cytokine cascade of CAR-T CRS, COVID and HLH.
+- `connects-to` → **[Cancer Chemotherapy](../../../03-medicine/01-modern/13-cancer/cancer-chemotherapy/README.md)** — Etoposide tames the macrophage storm: in HLH and macrophage activation syndrome the chemotherapy agent etoposide depletes the hyperactivated macrophages and T cells, a cornerstone of the HLH-94 protocol for that lethal cytokine storm.
+- `connects-to` → **[Myocardium](../../05-tissue/myocardium/README.md)** — Cytokines stun the heart: high circulating IL-6 and TNF directly depress myocardial contractility, so cytokine storm — in sepsis, CRS or COVID — causes a reversible cardiomyopathy that deepens the shock.
 
 ## Pathology
 
