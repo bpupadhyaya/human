@@ -244,6 +244,15 @@ cross_links:
   - target: 03-medicine/03-food/sulforaphane
     relation: connects-to
     note: "Diet is studied for prevention: cruciferous-vegetable sulforaphane is investigated for breast cancer chemoprevention through effects on oestrogen metabolism and tumour-cell signalling."
+  - target: 03-medicine/01-modern/13-cancer/cancer-chemotherapy
+    relation: connects-to
+    note: "Anthracyclines and taxanes anchor it: cytotoxic chemotherapy with anthracyclines and taxanes is given neoadjuvantly or adjuvantly across breast cancer subtypes, especially triple-negative and node-positive disease, alongside targeted and endocrine therapy."
+  - target: 01-human/05-tissue/cortical-bone
+    relation: connects-to
+    note: "Bone is its favourite metastatic site: breast cancer spreads to bone as RANKL-driven osteolytic metastases causing pain and fractures, while aromatase inhibitors add their own bone loss — both countered by bisphosphonates and denosumab."
+  - target: 01-human/05-tissue/myocardium
+    relation: connects-to
+    note: "Its treatment can injure the heart: anthracyclines cause dose-dependent cardiomyopathy and trastuzumab a usually reversible cardiac dysfunction, so monitoring myocardial function is central to cardio-oncology in breast cancer."
 ---
 
 # Breast Cancer
@@ -425,6 +434,9 @@ cross_links:
 - `connects-to` → **[Targeted Therapy](../../../03-medicine/01-modern/13-cancer/targeted-therapy/README.md)** — Molecular subtyping drives its treatment: HER2 antibodies (trastuzumab, pertuzumab, T-DXd), CDK4/6 inhibitors for hormone-receptor-positive disease and PARP inhibitors for BRCA-mutant tumours are central to modern breast cancer care.
 - `connects-to` → **[Immune System](../immune-system/README.md)** — The immune microenvironment shapes outcome: tumour-infiltrating lymphocytes predict response in triple-negative breast cancer, where checkpoint inhibitors added to chemotherapy now improve survival.
 - `connects-to` → **[Sulforaphane](../../../03-medicine/03-food/sulforaphane/README.md)** — Diet is studied for prevention: cruciferous-vegetable sulforaphane is investigated for breast cancer chemoprevention through effects on oestrogen metabolism and tumour-cell signalling.
+- `connects-to` → **[Cancer Chemotherapy](../../../03-medicine/01-modern/13-cancer/cancer-chemotherapy/README.md)** — Anthracyclines and taxanes anchor it: cytotoxic chemotherapy with anthracyclines and taxanes is given neoadjuvantly or adjuvantly across breast cancer subtypes, especially triple-negative and node-positive disease, alongside targeted and endocrine therapy.
+- `connects-to` → **[Cortical Bone](../../05-tissue/cortical-bone/README.md)** — Bone is its favourite metastatic site: breast cancer spreads to bone as RANKL-driven osteolytic metastases causing pain and fractures, while aromatase inhibitors add their own bone loss — both countered by bisphosphonates and denosumab.
+- `connects-to` → **[Myocardium](../../05-tissue/myocardium/README.md)** — Its treatment can injure the heart: anthracyclines cause dose-dependent cardiomyopathy and trastuzumab a usually reversible cardiac dysfunction, so monitoring myocardial function is central to cardio-oncology in breast cancer.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
