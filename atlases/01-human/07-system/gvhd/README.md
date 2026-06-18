@@ -244,6 +244,15 @@ cross_links:
   - target: 03-medicine/03-food/dietary-fiber
     relation: connects-to
     note: "The microbiome shapes its severity: loss of gut bacterial diversity worsens GVHD, while fibre-derived butyrate that nourishes the intestinal epithelium is protective, making diet and the microbiome therapeutic targets."
+  - target: 03-medicine/01-modern/13-cancer/targeted-therapy
+    relation: connects-to
+    note: "JAK inhibition for refractory disease: ruxolitinib, a JAK1/2 inhibitor, is approved for steroid-refractory acute and chronic GVHD, with belumosudil (ROCK2) for chronic disease — targeted alternatives to broad immunosuppression."
+  - target: 03-medicine/01-modern/13-cancer/cancer-chemotherapy
+    relation: connects-to
+    note: "Chemo prevents and conditions: methotrexate is a classic GVHD prophylactic and post-transplant cyclophosphamide enables haploidentical grafts by deleting alloreactive T cells, while the conditioning chemo sets the stage for the donor immune attack."
+  - target: 01-human/05-tissue/cortical-bone
+    relation: connects-to
+    note: "Its treatment wrecks the skeleton: prolonged corticosteroids and calcineurin inhibitors for GVHD cause osteoporosis and avascular necrosis of bone, a major cause of disability in long-term transplant survivors."
 ---
 
 # Graft-Versus-Host Disease
@@ -457,6 +466,9 @@ The protective Treg/IL-10 axis is the key biological counterbalance to alloreact
 - `connects-to` → **[Corticosteroids](../../../03-medicine/01-modern/02-respiratory/corticosteroids/README.md)** — The first-line treatment: high-dose corticosteroids are the mainstay for acute and chronic graft-versus-host disease, though steroid-refractory disease carries a poor prognosis and drives the search for alternatives.
 - `connects-to` → **[Herpesviridae](../../../02-pathogen/01-viruses/herpesvirus/README.md)** — Cytomegalovirus reawakens under treatment: the heavy immunosuppression for GVHD allows CMV reactivation, causing pneumonitis, colitis and marrow suppression that are major causes of post-transplant death.
 - `connects-to` → **[Dietary Fiber](../../../03-medicine/03-food/dietary-fiber/README.md)** — The microbiome shapes its severity: loss of gut bacterial diversity worsens GVHD, while fibre-derived butyrate that nourishes the intestinal epithelium is protective, making diet and the microbiome therapeutic targets.
+- `connects-to` → **[Targeted Therapy](../../../03-medicine/01-modern/13-cancer/targeted-therapy/README.md)** — JAK inhibition for refractory disease: ruxolitinib, a JAK1/2 inhibitor, is approved for steroid-refractory acute and chronic GVHD, with belumosudil (ROCK2) for chronic disease — targeted alternatives to broad immunosuppression.
+- `connects-to` → **[Cancer Chemotherapy](../../../03-medicine/01-modern/13-cancer/cancer-chemotherapy/README.md)** — Chemo prevents and conditions: methotrexate is a classic GVHD prophylactic and post-transplant cyclophosphamide enables haploidentical grafts by deleting alloreactive T cells, while the conditioning chemo sets the stage for the donor immune attack.
+- `connects-to` → **[Cortical Bone](../../05-tissue/cortical-bone/README.md)** — Its treatment wrecks the skeleton: prolonged corticosteroids and calcineurin inhibitors for GVHD cause osteoporosis and avascular necrosis of bone, a major cause of disability in long-term transplant survivors.
 
 [^ferrara-2009-gvhd-review]: Ferrara JL, Levine JE, Reddy P, Holler E. Graft-versus-host disease. *Lancet.* 2009;373(9674):1550-1561. [doi:10.1016/S0140-6736(09)60237-3](https://doi.org/10.1016/S0140-6736(09)60237-3) · [PubMed 19380114](https://pubmed.ncbi.nlm.nih.gov/19380114/)
 [^zeiser-2020-ruxolitinib-gvhd-reach]: Zeiser R, von Bubnoff N, Butler J, et al. Ruxolitinib for Glucocorticoid-Refractory Acute Graft-versus-Host Disease. *N Engl J Med.* 2020;382(19):1800-1810. [doi:10.1056/NEJMoa1917635](https://doi.org/10.1056/NEJMoa1917635) · [PubMed 32374962](https://pubmed.ncbi.nlm.nih.gov/32374962/)

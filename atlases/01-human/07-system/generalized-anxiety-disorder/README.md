@@ -247,6 +247,15 @@ cross_links:
   - target: 01-human/07-system/inflammatory-bowel-disease
     relation: connects-to
     note: "The gut and worry feed each other: anxiety is far more common in inflammatory bowel disease, and through the gut-brain axis disease flares and chronic worry each worsen the other."
+  - target: 03-medicine/01-modern/04-cardio/beta-blockers
+    relation: connects-to
+    note: "They blunt the body's anxiety: beta-blockers like propranolol damp the adrenergic physical symptoms of anxiety — racing heart, tremor, sweating — useful for performance and situational anxiety though they do not treat the underlying worry."
+  - target: 03-medicine/02-traditional/st-johns-wort
+    relation: connects-to
+    note: "A herbal serotonergic option: St John's wort, which raises serotonin like the SSRIs used for anxiety, is taken by some for mild anxiety and depression, though efficacy is uncertain and it interacts with many drugs."
+  - target: 01-human/07-system/borderline-personality-disorder
+    relation: connects-to
+    note: "Chronic anxiety amid instability: generalized anxiety is a frequent comorbidity of borderline personality disorder, sharing emotional dysregulation and an exaggerated threat response that compound each other."
 ---
 
 # Generalized Anxiety Disorder
@@ -461,6 +470,9 @@ Allow **4-8 weeks** for onset of anxiolytic effect. Continue treatment ≥12 mon
 - `connects-to` → **[Ashwagandha](../../../03-medicine/02-traditional/ashwagandha/README.md)** — A traditional anxiolytic with evidence: ashwagandha, an adaptogenic herb, reduces anxiety and cortisol in trials and is among the better-supported complementary treatments for generalized anxiety.
 - `connects-to` → **[Omega-3 Fatty Acids](../../../03-medicine/03-food/omega-3-fatty-acids/README.md)** — Diet offers a modest adjunct: omega-3 supplementation shows small anxiolytic effects in some trials, used alongside but not instead of first-line therapy for generalized anxiety.
 - `connects-to` → **[Inflammatory Bowel Disease](../inflammatory-bowel-disease/README.md)** — The gut and worry feed each other: anxiety is far more common in inflammatory bowel disease, and through the gut-brain axis disease flares and chronic worry each worsen the other.
+- `connects-to` → **[Beta-blockers](../../../03-medicine/01-modern/04-cardio/beta-blockers/README.md)** — They blunt the body's anxiety: beta-blockers like propranolol damp the adrenergic physical symptoms of anxiety — racing heart, tremor, sweating — useful for performance and situational anxiety though they do not treat the underlying worry.
+- `connects-to` → **[St John's Wort](../../../03-medicine/02-traditional/st-johns-wort/README.md)** — A herbal serotonergic option: St John's wort, which raises serotonin like the SSRIs used for anxiety, is taken by some for mild anxiety and depression, though efficacy is uncertain and it interacts with many drugs.
+- `connects-to` → **[Borderline Personality Disorder](../borderline-personality-disorder/README.md)** — Chronic anxiety amid instability: generalized anxiety is a frequent comorbidity of borderline personality disorder, sharing emotional dysregulation and an exaggerated threat response that compound each other.
 
 [^kessler-2005-gad-prevalence]: Kessler RC, Berglund P, Demler O, et al. Lifetime prevalence and age-of-onset distributions of DSM-IV disorders in the NCS Replication. *Arch Gen Psychiatry.* 2005;62(6):593-602. [doi:10.1001/archpsyc.62.6.593](https://doi.org/10.1001/archpsyc.62.6.593) · [PubMed 15939837](https://pubmed.ncbi.nlm.nih.gov/15939837/)
 [^bandelow-2015-anxiety-biology]: Bandelow B, Michaelis S. Epidemiology of anxiety disorders in the 21st century. *Dialogues Clin Neurosci.* 2015;17(3):327-335. [doi:10.31887/DCNS.2015.17.3/bbandelow](https://doi.org/10.31887/DCNS.2015.17.3/bbandelow) · [PubMed 26487812](https://pubmed.ncbi.nlm.nih.gov/26487812/)
