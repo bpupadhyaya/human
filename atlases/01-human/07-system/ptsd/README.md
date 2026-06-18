@@ -243,6 +243,15 @@ cross_links:
   - target: 03-medicine/02-traditional/ashwagandha
     relation: connects-to
     note: "Traditional calm is sought: adaptogens such as ashwagandha are used for the chronic stress and poor sleep of PTSD, complementing trauma-focused therapy and SSRIs."
+  - target: 01-human/07-system/social-anxiety-disorder
+    relation: connects-to
+    note: "Overlapping fear and avoidance: PTSD and social anxiety disorder share hyperarousal, avoidance and exaggerated threat appraisal, frequently co-occur, and trauma can precipitate or worsen social anxiety."
+  - target: 01-human/07-system/stimulant-use-disorder
+    relation: connects-to
+    note: "Self-medication and comorbidity: stimulant and other substance use is common in PTSD as patients try to numb or override hyperarousal, and the disorders worsen each other's course and treatment."
+  - target: 03-medicine/02-traditional/st-johns-wort
+    relation: connects-to
+    note: "A herbal serotonergic adjunct: St John's wort, raising serotonin like the SSRIs that are first-line for PTSD, is used by some for the comorbid depression, though evidence is limited and drug interactions are a concern."
 ---
 
 # PTSD
@@ -453,6 +462,9 @@ Not all trauma leads to PTSD. Risk and resilience factors include:
 - `connects-to` → **[Beta-Blockers](../../../03-medicine/01-modern/04-cardio/beta-blockers/README.md)** — They blunt the adrenergic surge: beta-blockers like propranolol, and the related alpha-blocker prazosin, reduce the hyperarousal and nightmares of PTSD by dampening noradrenergic overactivity.
 - `connects-to` → **[Omega-3 Fatty Acids](../../../03-medicine/03-food/omega-3-fatty-acids/README.md)** — Diet is studied for resilience: omega-3 supplementation has been trialled to prevent or ease PTSD after trauma, though the evidence remains modest and uncertain.
 - `connects-to` → **[Ashwagandha](../../../03-medicine/02-traditional/ashwagandha/README.md)** — Traditional calm is sought: adaptogens such as ashwagandha are used for the chronic stress and poor sleep of PTSD, complementing trauma-focused therapy and SSRIs.
+- `connects-to` → **[Social Anxiety Disorder](../social-anxiety-disorder/README.md)** — Overlapping fear and avoidance: PTSD and social anxiety disorder share hyperarousal, avoidance and exaggerated threat appraisal, frequently co-occur, and trauma can precipitate or worsen social anxiety.
+- `connects-to` → **[Stimulant Use Disorder](../stimulant-use-disorder/README.md)** — Self-medication and comorbidity: stimulant and other substance use is common in PTSD as patients try to numb or override hyperarousal, and the disorders worsen each other's course and treatment.
+- `connects-to` → **[St John's Wort](../../../03-medicine/02-traditional/st-johns-wort/README.md)** — A herbal serotonergic adjunct: St John's wort, raising serotonin like the SSRIs that are first-line for PTSD, is used by some for the comorbid depression, though evidence is limited and drug interactions are a concern.
 
 [^yehuda-2015-ptsd-review]: Yehuda R, Hoge CW, McFarlane AC, et al. Post-traumatic stress disorder. *Nat Rev Dis Primers.* 2015;1:15057. [doi:10.1038/nrdp.2015.57](https://doi.org/10.1038/nrdp.2015.57) · [PubMed 27189040](https://pubmed.ncbi.nlm.nih.gov/27189040/)
 [^foa-2019-ptsd-treatments]: Foa EB, McLean CP. The efficacy of exposure therapy for anxiety and related disorders. *Annu Rev Clin Psychol.* 2016;12:1-28. [doi:10.1146/annurev-clinpsy-021815-093533](https://doi.org/10.1146/annurev-clinpsy-021815-093533) · [PubMed 26928206](https://pubmed.ncbi.nlm.nih.gov/26928206/)

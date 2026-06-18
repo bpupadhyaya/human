@@ -241,6 +241,15 @@ cross_links:
   - target: 01-human/07-system/nervous-system
     relation: connects-to
     note: "Stress and the skin talk both ways: psychological stress triggers psoriasis flares through the brain-skin neuroimmune axis, and the visible disease in turn drives anxiety and depression."
+  - target: 03-medicine/01-modern/13-cancer/targeted-therapy
+    relation: connects-to
+    note: "Cytokine-targeted biologics transformed it: monoclonals against IL-17 and IL-23 (secukinumab, guselkumab), anti-TNF, and oral TYK2/JAK inhibitors now clear severe psoriasis by blocking the IL-23/IL-17 axis that drives it."
+  - target: 03-medicine/01-modern/13-cancer/cancer-chemotherapy
+    relation: connects-to
+    note: "Methotrexate is the classic systemic DMARD: low-dose methotrexate, a chemotherapy antimetabolite, has long treated extensive psoriasis and psoriatic arthritis, used before or alongside the newer biologics."
+  - target: 01-human/05-tissue/arterial-wall
+    relation: connects-to
+    note: "Skin inflammation reaches the arteries: the systemic inflammation of psoriasis accelerates atherosclerosis of the arterial wall — the 'psoriatic march' — raising cardiovascular risk independent of traditional factors."
 ---
 
 # Psoriasis
@@ -430,6 +439,9 @@ Differential: Seborrheic dermatitis (common), pityriasis rosea (herald patch, Ch
 - `connects-to` → **[Adalimumab](../../../03-medicine/01-modern/11-biologics/adalimumab/README.md)** — Biologics clear severe disease: anti-TNF agents like adalimumab, with IL-17 and IL-23 inhibitors, are transformative for moderate-to-severe psoriasis and its arthritis.
 - `connects-to` → **[Corticosteroids](../../../03-medicine/01-modern/02-respiratory/corticosteroids/README.md)** — Topical steroids are first-line, systemic ones risky: potent topical corticosteroids treat plaques, but systemic steroids are avoided as withdrawal can trigger life-threatening pustular psoriasis flares.
 - `connects-to` → **[Nervous System](../nervous-system/README.md)** — Stress and the skin talk both ways: psychological stress triggers psoriasis flares through the brain-skin neuroimmune axis, and the visible disease in turn drives anxiety and depression.
+- `connects-to` → **[Targeted Therapy](../../../03-medicine/01-modern/13-cancer/targeted-therapy/README.md)** — Cytokine-targeted biologics transformed it: monoclonals against IL-17 and IL-23 (secukinumab, guselkumab), anti-TNF, and oral TYK2/JAK inhibitors now clear severe psoriasis by blocking the IL-23/IL-17 axis that drives it.
+- `connects-to` → **[Cancer Chemotherapy](../../../03-medicine/01-modern/13-cancer/cancer-chemotherapy/README.md)** — Methotrexate is the classic systemic DMARD: low-dose methotrexate, a chemotherapy antimetabolite, has long treated extensive psoriasis and psoriatic arthritis, used before or alongside the newer biologics.
+- `connects-to` → **[Arterial Wall](../../05-tissue/arterial-wall/README.md)** — Skin inflammation reaches the arteries: the systemic inflammation of psoriasis accelerates atherosclerosis of the arterial wall — the 'psoriatic march' — raising cardiovascular risk independent of traditional factors.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
