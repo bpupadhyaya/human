@@ -232,6 +232,15 @@ cross_links:
   - target: 01-human/07-system/renal-system
     relation: connects-to
     note: "Thick blood and urate strain the kidney: hyperviscosity and hyperuricaemia impair renal function, and PV is a classic cause of renal vein and Budd-Chiari thrombosis."
+  - target: 03-medicine/01-modern/13-cancer/targeted-therapy
+    relation: connects-to
+    note: "JAK inhibition for refractory disease: ruxolitinib blocks the JAK2 V617F-driven JAK-STAT signalling of polycythaemia vera, controlling the red-cell count and spleen in those who fail or cannot tolerate hydroxyurea."
+  - target: 03-medicine/01-modern/13-cancer/cancer-chemotherapy
+    relation: connects-to
+    note: "Hydroxyurea cytoreduces the marrow: this oral chemotherapy lowers the red-cell mass in higher-risk polycythaemia vera, used with phlebotomy and low-dose aspirin to prevent the thrombosis that drives most PV deaths."
+  - target: 02-pathogen/02-bacteria/mycobacterium-tuberculosis
+    relation: connects-to
+    note: "Its JAK inhibitor reawakens infection: ruxolitinib used in PV suppresses immunity enough to reactivate tuberculosis and other opportunists, so latent TB should be screened before and during therapy."
 ---
 
 # Polycythemia Vera
@@ -424,6 +433,9 @@ PV must be distinguished from secondary erythrocytosis (elevated EPO, JAK2 wild-
 - `connects-to` → **[Endocrine System](../endocrine-system/README.md)** — It makes red cells without the hormone: polycythaemia vera is an erythropoietin-independent, autonomous erythrocytosis, so a low EPO level distinguishes it from EPO-driven secondary polycythaemia.
 - `connects-to` → **[Aspirin](../../../03-medicine/01-modern/04-cardio/aspirin/README.md)** — Low-dose aspirin is standard: it reduces the arterial and microvascular thrombosis that dominates polycythaemia vera, alongside venesection and cytoreduction.
 - `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — High cell turnover and marrow disease reach bone: PV raises uric acid causing gout, the expanded marrow brings bone discomfort, and progression to myelofibrosis adds skeletal symptoms.
+- `connects-to` → **[Targeted Therapy](../../../03-medicine/01-modern/13-cancer/targeted-therapy/README.md)** — JAK inhibition for refractory disease: ruxolitinib blocks the JAK2 V617F-driven JAK-STAT signalling of polycythaemia vera, controlling the red-cell count and spleen in those who fail or cannot tolerate hydroxyurea.
+- `connects-to` → **[Cancer Chemotherapy](../../../03-medicine/01-modern/13-cancer/cancer-chemotherapy/README.md)** — Hydroxyurea cytoreduces the marrow: this oral chemotherapy lowers the red-cell mass in higher-risk polycythaemia vera, used with phlebotomy and low-dose aspirin to prevent the thrombosis that drives most PV deaths.
+- `connects-to` → **[Mycobacterium tuberculosis](../../../02-pathogen/02-bacteria/mycobacterium-tuberculosis/README.md)** — Its JAK inhibitor reawakens infection: ruxolitinib used in PV suppresses immunity enough to reactivate tuberculosis and other opportunists, so latent TB should be screened before and during therapy.
 - `connects-to` → **[Renal System](../renal-system/README.md)** — Thick blood and urate strain the kidney: hyperviscosity and hyperuricaemia impair renal function, and PV is a classic cause of renal vein and Budd-Chiari thrombosis.
 
 [^vannucchi-2015-response]: Vannucchi AM, Kiladjian JJ, Griesshammer M, et al. Ruxolitinib versus standard therapy for the treatment of polycythemia vera. *N Engl J Med.* 2015;372(5):426-435. [doi:10.1056/NEJMoa1409630](https://doi.org/10.1056/NEJMoa1409630) · [PubMed 25577388](https://pubmed.ncbi.nlm.nih.gov/25577388/)

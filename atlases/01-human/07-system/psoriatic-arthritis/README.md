@@ -240,6 +240,15 @@ cross_links:
   - target: 01-human/07-system/reproductive-system
     relation: connects-to
     note: "It shapes pregnancy planning: psoriatic arthritis often improves or flares in pregnancy, and the safety of its biologic and methotrexate therapy guides conception decisions."
+  - target: 03-medicine/01-modern/13-cancer/cancer-chemotherapy
+    relation: connects-to
+    note: "Methotrexate is the conventional DMARD: low-dose methotrexate, a chemotherapy agent repurposed as an anti-inflammatory, treats the skin and peripheral joints of psoriatic arthritis before or alongside biologics."
+  - target: 01-human/05-tissue/cortical-bone
+    relation: connects-to
+    note: "It both erodes and builds bone: psoriatic arthritis uniquely combines joint erosion with new-bone formation, producing the pencil-in-cup deformity and enthesophytes that distinguish it radiographically from rheumatoid arthritis."
+  - target: 02-pathogen/02-bacteria/mycobacterium-tuberculosis
+    relation: connects-to
+    note: "TB must be excluded before biologics: anti-TNF and other biologics used for psoriatic arthritis can reactivate latent tuberculosis, so screening with IGRA or skin test is mandatory before starting them."
 ---
 
 # Psoriatic Arthritis
@@ -402,6 +411,9 @@ Risankizumab (anti-IL-23p19) **failed primary endpoints** in the SURPASS trial f
 - `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — Psoriatic arthritis attacks the musculoskeletal system distinctively: asymmetric oligoarthritis, distal interphalangeal disease, enthesitis, dactylitis ('sausage digit'), and sacroiliitis — combining erosion with new bone formation, unlike the pure erosion of RA.
 - `connects-to` → **[T Helper Cell](../../04-cellular/t-helper-cell/README.md)** — Psoriatic arthritis is driven by Th17 helper T cells: IL-23 expands IL-17-producing CD4+ T cells (and innate IL-17 at entheses) that activate neutrophils and osteoclasts — driving inflammation, erosion, and new-bone formation, the rationale for anti-IL-17/IL-23 biologics.
 - `connects-to` → **[Rheumatoid Arthritis](../rheumatoid-arthritis/README.md)** — Psoriatic and rheumatoid arthritis are the two major chronic inflammatory arthritides but differ: PsA is a seronegative spondyloarthropathy with enthesitis, dactylitis, DIP involvement, and psoriasis, while RA is a symmetric, RF/anti-CCP-positive synovitis sparing the DIP joints.
+- `connects-to` → **[Cancer Chemotherapy](../../../03-medicine/01-modern/13-cancer/cancer-chemotherapy/README.md)** — Methotrexate is the conventional DMARD: low-dose methotrexate, a chemotherapy agent repurposed as an anti-inflammatory, treats the skin and peripheral joints of psoriatic arthritis before or alongside biologics.
+- `connects-to` → **[Cortical Bone](../../05-tissue/cortical-bone/README.md)** — It both erodes and builds bone: psoriatic arthritis uniquely combines joint erosion with new-bone formation, producing the pencil-in-cup deformity and enthesophytes that distinguish it radiographically from rheumatoid arthritis.
+- `connects-to` → **[Mycobacterium tuberculosis](../../../02-pathogen/02-bacteria/mycobacterium-tuberculosis/README.md)** — TB must be excluded before biologics: anti-TNF and other biologics used for psoriatic arthritis can reactivate latent tuberculosis, so screening with IGRA or skin test is mandatory before starting them.
 - `connects-to` → **[Gout](../gout/README.md)** — Psoriatic arthritis and gout can mimic and coexist: high cell turnover in psoriasis raises uric acid, so PsA patients get gout more often, and an acutely swollen toe (dactylitis vs podagra) may need joint aspiration to tell crystal arthritis from psoriatic disease.
 - `connects-to` → **[Osteoclast](../../04-cellular/osteoclast/README.md)** — Psoriatic arthritis uniquely combines bone erosion and new bone formation: TNF and IL-17 drive osteoclasts to erode joints (pencil-in-cup deformity) while stimulating osteoblasts to build syndesmophytes and enthesophytes—a remodeling signature distinct from RA.
 - `connects-to` → **[Inflammatory Bowel Disease](../inflammatory-bowel-disease/README.md)** — Psoriatic arthritis and IBD belong to the same IL-23/Th17 spondyloarthritis family: both share gut-skin-joint inflammation and respond to IL-23 and TNF blockers—though IL-17 inhibitors that help PsA can paradoxically worsen IBD.
