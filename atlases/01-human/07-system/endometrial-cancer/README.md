@@ -211,6 +211,15 @@ cross_links:
   - target: 01-human/07-system/generalized-anxiety-disorder
     relation: connects-to
     note: "Recurrence surveillance breeds worry: the monitoring for relapse and the body-image and fertility-loss impact of hysterectomy in endometrial cancer foster chronic health anxiety alongside depression."
+  - target: 01-human/07-system/respiratory-system
+    relation: connects-to
+    note: "It spreads to the lungs: the lungs are a common site of distant metastasis in endometrial cancer, found on staging imaging and at recurrence as pulmonary nodules."
+  - target: 01-human/07-system/immune-system
+    relation: connects-to
+    note: "Mismatch-repair failure makes it treatable by immunotherapy: dMMR/MSI-high endometrial tumours — common and often linked to Lynch syndrome — respond to checkpoint-inhibitor therapy."
+  - target: 01-human/07-system/renal-system
+    relation: connects-to
+    note: "A bulky pelvic tumour can block the ureters: locally advanced endometrial cancer can obstruct the ureters, causing hydronephrosis and post-renal acute kidney injury."
 ---
 
 # Endometrial Cancer
@@ -400,6 +409,9 @@ cross_links:
 - `connects-to` → **[Wound Healing](../wound-healing/README.md)** — Hysterectomy is its central surgery: total hysterectomy with lymph-node dissection treats endometrial cancer, and obesity and diabetes — its main risk factors — leave these abdominal wounds slow and infection-prone.
 - `connects-to` → **[Neuropathic Pain](../neuropathic-pain/README.md)** — Its taxane chemo numbs the nerves: the carboplatin-paclitaxel regimen for advanced or high-risk endometrial cancer causes a dose-dependent, often lasting peripheral neuropathy.
 - `connects-to` → **[Generalized Anxiety Disorder](../generalized-anxiety-disorder/README.md)** — Recurrence surveillance breeds worry: the monitoring for relapse and the body-image and fertility-loss impact of hysterectomy in endometrial cancer foster chronic health anxiety alongside depression.
+- `connects-to` → **[Respiratory System](../respiratory-system/README.md)** — It spreads to the lungs: the lungs are a common site of distant metastasis in endometrial cancer, found on staging imaging and at recurrence as pulmonary nodules.
+- `connects-to` → **[Immune System](../immune-system/README.md)** — Mismatch-repair failure makes it treatable by immunotherapy: dMMR/MSI-high endometrial tumours — common and often linked to Lynch syndrome — respond to checkpoint-inhibitor therapy.
+- `connects-to` → **[Renal System](../renal-system/README.md)** — A bulky pelvic tumour can block the ureters: locally advanced endometrial cancer can obstruct the ureters, causing hydronephrosis and post-renal acute kidney injury.
 
 [^konstantinopoulos-2019-dostarlimab]: Konstantinopoulos PA, Lheureux S, Moore KN. PARP inhibitors for ovarian and endometrial cancers: state of the art and clinical perspectives. *J Clin Oncol.* 2020;38(25):2896-2909. [doi:10.1200/JCO.20.00571](https://doi.org/10.1200/JCO.20.00571) · [PubMed 32706635](https://pubmed.ncbi.nlm.nih.gov/32706635/)
 [^eskander-2023-ruby]: Eskander RN, Sill MW, Beffa L, et al. Pembrolizumab plus chemotherapy in advanced endometrial cancer. *N Engl J Med.* 2023;388(23):2159-2170. [doi:10.1056/NEJMoa2302312](https://doi.org/10.1056/NEJMoa2302312) · [PubMed 37166384](https://pubmed.ncbi.nlm.nih.gov/37166384/)
