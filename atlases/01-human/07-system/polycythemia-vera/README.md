@@ -205,6 +205,15 @@ cross_links:
   - target: 01-human/07-system/generalized-anxiety-disorder
     relation: connects-to
     note: "Lifelong clot-and-transformation risk breeds worry: the constant threat of thrombosis and progression to myelofibrosis or leukaemia in PV, plus relentless itch and fatigue, fosters chronic health anxiety."
+  - target: 01-human/07-system/integumentary-system
+    relation: connects-to
+    note: "Excess red cells torment the skin: polycythemia vera causes the intense aquagenic pruritus after warm water, the burning red erythromelalgia of the extremities and a ruddy, plethoric complexion."
+  - target: 01-human/07-system/digestive-system
+    relation: connects-to
+    note: "It clots the gut's veins and swells the spleen: PV is a leading cause of splanchnic, portal and hepatic vein thrombosis (Budd-Chiari), enlarges the spleen and, via raised histamine, causes peptic ulcers."
+  - target: 01-human/07-system/nervous-system
+    relation: connects-to
+    note: "Hyperviscosity disturbs the brain: the thickened blood of PV causes headaches, dizziness, visual disturbance and transient ischaemic attacks, and cerebral vein thrombosis can occur."
 ---
 
 # Polycythemia Vera
@@ -389,6 +398,9 @@ PV must be distinguished from secondary erythrocytosis (elevated EPO, JAK2 wild-
 - `connects-to` → **[Varicella-Zoster Virus](../../../02-pathogen/01-viruses/varicella-zoster-virus/README.md)** — JAK inhibition reawakens shingles: ruxolitinib used for polycythemia vera dampens T-cell immunity and characteristically reactivates latent varicella-zoster, a recognised risk during therapy.
 - `connects-to` → **[Aspergillus fumigatus](../../../02-pathogen/03-fungi/aspergillus-fumigatus/README.md)** — Deep immune suppression opens the lung to mould: ruxolitinib for advanced PV, with disease-related immune dysfunction, can permit invasive aspergillosis and other opportunistic fungal infection.
 - `connects-to` → **[Generalized Anxiety Disorder](../generalized-anxiety-disorder/README.md)** — Lifelong clot-and-transformation risk breeds worry: the constant threat of thrombosis and progression to myelofibrosis or leukaemia in PV, plus relentless itch and fatigue, fosters chronic health anxiety.
+- `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — Excess red cells torment the skin: polycythemia vera causes the intense aquagenic pruritus after warm water, the burning red erythromelalgia of the extremities and a ruddy, plethoric complexion.
+- `connects-to` → **[Digestive System](../digestive-system/README.md)** — It clots the gut's veins and swells the spleen: PV is a leading cause of splanchnic, portal and hepatic vein thrombosis (Budd-Chiari), enlarges the spleen and, via raised histamine, causes peptic ulcers.
+- `connects-to` → **[Nervous System](../nervous-system/README.md)** — Hyperviscosity disturbs the brain: the thickened blood of PV causes headaches, dizziness, visual disturbance and transient ischaemic attacks, and cerebral vein thrombosis can occur.
 
 [^vannucchi-2015-response]: Vannucchi AM, Kiladjian JJ, Griesshammer M, et al. Ruxolitinib versus standard therapy for the treatment of polycythemia vera. *N Engl J Med.* 2015;372(5):426-435. [doi:10.1056/NEJMoa1409630](https://doi.org/10.1056/NEJMoa1409630) · [PubMed 25577388](https://pubmed.ncbi.nlm.nih.gov/25577388/)
 [^gisslinger-2020-proud-pv]: Gisslinger H, Gotic M, Holowiecki J, et al. Ropeginterferon alfa-2b versus standard therapy for polycythaemia vera (PROUD-PV and CONTINUATION-PV): a randomised, non-inferiority, phase 3 trial and its extension study. *Lancet Haematol.* 2020;7(3):e196-e208. [doi:10.1016/S2352-3026(19)30236-4](https://doi.org/10.1016/S2352-3026(19)30236-4) · [PubMed 32046833](https://pubmed.ncbi.nlm.nih.gov/32046833/)

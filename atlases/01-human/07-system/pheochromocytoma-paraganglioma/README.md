@@ -205,6 +205,15 @@ cross_links:
   - target: 01-human/07-system/digestive-system
     relation: connects-to
     note: "Adrenergic excess paralyses the gut: high circulating catecholamines suppress intestinal motility in phaeochromocytoma, causing severe constipation and occasionally pseudo-obstruction or ischaemic colitis."
+  - target: 01-human/07-system/integumentary-system
+    relation: connects-to
+    note: "Its attacks sweat and blanch the skin: the classic phaeochromocytoma triad pairs headache and palpitations with profuse diaphoresis, and adrenergic vasoconstriction causes episodic pallor of the skin."
+  - target: 01-human/07-system/respiratory-system
+    relation: connects-to
+    note: "A catecholamine crisis floods the lungs: a phaeochromocytoma crisis can precipitate catecholamine cardiomyopathy with flash pulmonary oedema and acute respiratory distress."
+  - target: 01-human/07-system/musculoskeletal-system
+    relation: connects-to
+    note: "Catecholamines tremble the body and tumours seed bone: adrenergic excess causes the fine tremor of phaeochromocytoma, and metastatic SDHB-related paraganglioma spreads to the skeleton."
 ---
 
 # Pheochromocytoma/Paraganglioma
@@ -409,6 +418,9 @@ Active in Cluster 1 (MET/AXL co-expressed in SDH-deficient tumors); Phase 2 CABO
 - `connects-to` → **[Wound Healing](../wound-healing/README.md)** — Removing the tumour is high-stakes surgery: adrenalectomy or paraganglioma resection requires careful alpha-blockade to prevent intra-operative hypertensive crisis, and the abdominal wound must heal afterwards.
 - `connects-to` → **[Atherosclerosis](../atherosclerosis/README.md)** — Years of catecholamine hypertension scar the arteries: the sustained and paroxysmal blood-pressure surges of a phaeochromocytoma accelerate endothelial injury and atherosclerotic vascular damage.
 - `connects-to` → **[Digestive System](../digestive-system/README.md)** — Adrenergic excess paralyses the gut: high circulating catecholamines suppress intestinal motility in phaeochromocytoma, causing severe constipation and occasionally pseudo-obstruction or ischaemic colitis.
+- `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — Its attacks sweat and blanch the skin: the classic phaeochromocytoma triad pairs headache and palpitations with profuse diaphoresis, and adrenergic vasoconstriction causes episodic pallor of the skin.
+- `connects-to` → **[Respiratory System](../respiratory-system/README.md)** — A catecholamine crisis floods the lungs: a phaeochromocytoma crisis can precipitate catecholamine cardiomyopathy with flash pulmonary oedema and acute respiratory distress.
+- `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — Catecholamines tremble the body and tumours seed bone: adrenergic excess causes the fine tremor of phaeochromocytoma, and metastatic SDHB-related paraganglioma spreads to the skeleton.
 
 [^lenders-2014-pheo-guideline]: Lenders JW, Duh QY, Eisenhofer G, et al. Pheochromocytoma and paraganglioma: an endocrine society clinical practice guideline. *J Clin Endocrinol Metab.* 2014;99(6):1915-1942. [doi:10.1210/jc.2014-1498](https://doi.org/10.1210/jc.2014-1498) · [PubMed 24893135](https://pubmed.ncbi.nlm.nih.gov/24893135/)
 [^baudin-2021-firstmappp-sunitinib]: Baudin E, Goichot B, Berruti A, et al. First International Randomized Study in Malignant Progressive Pheochromocytoma and Paragangliomas (FIRSTMAPPP). *Ann Oncol.* 2021;32(10):1245-1254. [doi:10.1016/j.annonc.2021.07.009](https://doi.org/10.1016/j.annonc.2021.07.009) · [PubMed 34246769](https://pubmed.ncbi.nlm.nih.gov/34246769/)
