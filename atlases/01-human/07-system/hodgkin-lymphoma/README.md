@@ -232,6 +232,15 @@ cross_links:
   - target: 01-human/07-system/digestive-system
     relation: connects-to
     note: "It can involve gut and liver: Hodgkin lymphoma occasionally infiltrates the liver and gastrointestinal tract, and treatment brings nausea and hepatotoxicity."
+  - target: 03-medicine/01-modern/13-cancer/cancer-chemotherapy
+    relation: connects-to
+    note: "ABVD cures most: doxorubicin-bleomycin-vinblastine-dacarbazine chemotherapy, sometimes with radiation, cures the great majority of Hodgkin lymphoma."
+  - target: 03-medicine/01-modern/13-cancer/targeted-therapy
+    relation: connects-to
+    note: "Brentuximab targets CD30: the anti-CD30 antibody-drug conjugate brentuximab vedotin, replacing bleomycin in A+AVD, is central to modern Hodgkin lymphoma treatment."
+  - target: 03-medicine/01-modern/13-cancer/checkpoint-inhibitors
+    relation: connects-to
+    note: "Uniquely sensitive to PD-1 blockade: 9p24.1 amplification floods Reed-Sternberg cells with PD-L1, making Hodgkin lymphoma exquisitely responsive to nivolumab and pembrolizumab."
 ---
 
 # Hodgkin Lymphoma
@@ -425,6 +434,9 @@ Modern protocols minimize RT fields and doses (ISRT replacing extended-field RT)
 - `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — It reaches bone and marrow: advanced Hodgkin lymphoma can infiltrate the bone marrow and skeleton, and treatment-related avascular necrosis follows long steroid use.
 - `connects-to` → **[Nervous System](../nervous-system/README.md)** — It can attack the nerves remotely: Hodgkin lymphoma is a classic cause of paraneoplastic cerebellar degeneration and limbic encephalitis, and vinca-alkaloid chemotherapy causes peripheral neuropathy.
 - `connects-to` → **[Digestive System](../digestive-system/README.md)** — It can involve gut and liver: Hodgkin lymphoma occasionally infiltrates the liver and gastrointestinal tract, and treatment brings nausea and hepatotoxicity.
+- `connects-to` → **[Cancer Chemotherapy](../../../03-medicine/01-modern/13-cancer/cancer-chemotherapy/README.md)** — ABVD cures most: doxorubicin-bleomycin-vinblastine-dacarbazine chemotherapy, sometimes with radiation, cures the great majority of Hodgkin lymphoma.
+- `connects-to` → **[Targeted Therapy](../../../03-medicine/01-modern/13-cancer/targeted-therapy/README.md)** — Brentuximab targets CD30: the anti-CD30 antibody-drug conjugate brentuximab vedotin, replacing bleomycin in A+AVD, is central to modern Hodgkin lymphoma treatment.
+- `connects-to` → **[Checkpoint Inhibitors](../../../03-medicine/01-modern/13-cancer/checkpoint-inhibitors/README.md)** — Uniquely sensitive to PD-1 blockade: 9p24.1 amplification floods Reed-Sternberg cells with PD-L1, making Hodgkin lymphoma exquisitely responsive to nivolumab and pembrolizumab.
 
 [^connors-2018-echelon1]: Connors JM, Jurczak W, Straus DJ, et al. Brentuximab vedotin with chemotherapy for stage III or IV Hodgkin's lymphoma. *N Engl J Med.* 2018;378(4):331-344. [doi:10.1056/NEJMoa1708984](https://doi.org/10.1056/NEJMoa1708984) · [PubMed 29360494](https://pubmed.ncbi.nlm.nih.gov/29360494/)
 [^armand-2018-nivo-hl]: Armand P, Engert A, Younes A, et al. Nivolumab for relapsed/refractory classic Hodgkin lymphoma after failure of autologous hematopoietic cell transplantation: extended follow-up of the multicohort single-arm phase II CheckMate 205 trial. *J Clin Oncol.* 2018;36(14):1428-1439. [doi:10.1200/JCO.2017.77.6717](https://doi.org/10.1200/JCO.2017.77.6717) · [PubMed 29584546](https://pubmed.ncbi.nlm.nih.gov/29584546/)
