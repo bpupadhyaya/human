@@ -213,6 +213,15 @@ cross_links:
   - target: 01-human/07-system/respiratory-system
     relation: connects-to
     note: "Severe neurodisability endangers the lungs: the bulbar dysfunction and immobility of AGS lead to recurrent aspiration and chest infections, a leading cause of respiratory morbidity and death."
+  - target: 01-human/07-system/cardiovascular-system
+    relation: connects-to
+    note: "Its interferon state damages vessels: SAMHD1-related AGS causes a systemic vasculopathy with intracranial large-vessel disease, aneurysms and a moyamoya-like arteriopathy that can cause stroke."
+  - target: 01-human/07-system/endocrine-system
+    relation: connects-to
+    note: "Chronic interferon fosters autoimmune endocrinopathy: AGS is associated with autoimmune thyroid disease and the type 1 diabetes its interferon signature shares with other interferonopathies."
+  - target: 01-human/07-system/lymphatic-system
+    relation: connects-to
+    note: "The newborn form mimics congenital infection: AGS can present at birth with hepatosplenomegaly, thrombocytopenia and raised liver enzymes — a 'TORCH-negative' picture from sterile interferon-driven inflammation."
 ---
 
 # Aicardi-Goutières Syndrome
@@ -372,6 +381,9 @@ Severe early-onset AGS (TREX1 homozygous, RNASEH2A): death in childhood from res
 - `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — Its interferon excess inflames the skin: AGS characteristically causes painful chilblain lesions on the fingers, toes and ears, a cutaneous hallmark shared with the type I interferonopathies and lupus.
 - `connects-to` → **[Digestive System](../digestive-system/README.md)** — It swells the liver and disrupts feeding: AGS can mimic congenital infection with hepatosplenomegaly and deranged liver function, and its severe encephalopathy causes dysphagia needing gastrostomy feeding.
 - `connects-to` → **[Respiratory System](../respiratory-system/README.md)** — Severe neurodisability endangers the lungs: the bulbar dysfunction and immobility of AGS lead to recurrent aspiration and chest infections, a leading cause of respiratory morbidity and death.
+- `connects-to` → **[Cardiovascular System](../cardiovascular-system/README.md)** — Its interferon state damages vessels: SAMHD1-related AGS causes a systemic vasculopathy with intracranial large-vessel disease, aneurysms and a moyamoya-like arteriopathy that can cause stroke.
+- `connects-to` → **[Endocrine System](../endocrine-system/README.md)** — Chronic interferon fosters autoimmune endocrinopathy: AGS is associated with autoimmune thyroid disease and the type 1 diabetes its interferon signature shares with other interferonopathies.
+- `connects-to` → **[Lymphatic System](../lymphatic-system/README.md)** — The newborn form mimics congenital infection: AGS can present at birth with hepatosplenomegaly, thrombocytopenia and raised liver enzymes — a 'TORCH-negative' picture from sterile interferon-driven inflammation.
 
 ---
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
