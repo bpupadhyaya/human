@@ -214,6 +214,15 @@ cross_links:
   - target: 01-human/07-system/musculoskeletal-system
     relation: connects-to
     note: "It weakens bone and inflames joints: malabsorption and chronic inflammation cause CF-related low bone density and fractures, and an episodic CF arthropathy with finger clubbing accompanies the disease."
+  - target: 01-human/07-system/nervous-system
+    relation: connects-to
+    note: "Fat malabsorption starves the nerves: deficiency of fat-soluble vitamin E can cause peripheral neuropathy and ataxia, and the aminoglycosides used for infections add ototoxicity."
+  - target: 01-human/07-system/cardiovascular-system
+    relation: connects-to
+    note: "Chronic lung disease overloads the right heart: progressive CF lung disease raises pulmonary pressures, leading to pulmonary hypertension and cor pulmonale with right heart failure."
+  - target: 01-human/07-system/renal-system
+    relation: connects-to
+    note: "Salt loss and antibiotics tax the kidney: heavy sweat salt loss can cause a pseudo-Bartter syndrome with hypochloraemic alkalosis, and repeated aminoglycoside courses are nephrotoxic."
 ---
 
 # Cystic Fibrosis
@@ -407,6 +416,9 @@ AND
 - `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — Its sweat is salty by defect: defective CFTR in sweat glands fails to reabsorb chloride, giving the salt-losing skin the sweat-chloride test diagnoses and a risk of salt depletion in the heat.
 - `connects-to` → **[Heart Failure](../heart-failure/README.md)** — Chronic lung disease strains the right heart: the progressive hypoxaemia and pulmonary hypertension of advanced CF overload the right ventricle into cor pulmonale and right heart failure.
 - `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — It weakens bone and inflames joints: malabsorption and chronic inflammation cause CF-related low bone density and fractures, and an episodic CF arthropathy with finger clubbing accompanies the disease.
+- `connects-to` → **[Nervous System](../nervous-system/README.md)** — Fat malabsorption starves the nerves: deficiency of fat-soluble vitamin E can cause peripheral neuropathy and ataxia, and the aminoglycosides used for infections add ototoxicity.
+- `connects-to` → **[Cardiovascular System](../cardiovascular-system/README.md)** — Chronic lung disease overloads the right heart: progressive CF lung disease raises pulmonary pressures, leading to pulmonary hypertension and cor pulmonale with right heart failure.
+- `connects-to` → **[Renal System](../renal-system/README.md)** — Salt loss and antibiotics tax the kidney: heavy sweat salt loss can cause a pseudo-Bartter syndrome with hypochloraemic alkalosis, and repeated aminoglycoside courses are nephrotoxic.
 
 ---
 

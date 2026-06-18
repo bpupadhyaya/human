@@ -214,6 +214,15 @@ cross_links:
   - target: 01-human/07-system/wound-healing
     relation: connects-to
     note: "Its many cancers mean many surgeries: prophylactic and therapeutic operations on the breast, thyroid, uterus and colon in Cowden syndrome leave a lifetime of wounds that must heal."
+  - target: 01-human/07-system/cardiovascular-system
+    relation: connects-to
+    note: "Its pathway spawns vascular malformations: PTEN loss overactivates PI3K-AKT signalling, producing arteriovenous and other vascular malformations across the PTEN hamartoma tumour syndrome spectrum."
+  - target: 01-human/07-system/lymphatic-system
+    relation: connects-to
+    note: "It seeds lymphatic and fatty anomalies: the PTEN hamartoma spectrum, overlapping Bannayan-Riley-Ruvalcaba syndrome, features lymphatic malformations and multiple lipomas."
+  - target: 01-human/07-system/immune-system
+    relation: connects-to
+    note: "Its gene also tunes immunity: PTEN regulates immune-cell signalling, and Cowden syndrome is associated with immune dysregulation and a raised tendency to autoimmunity."
 ---
 
 # Cowden Syndrome
@@ -459,6 +468,9 @@ cross_links:
 - `connects-to` → **[Endocrine System](../endocrine-system/README.md)** — It targets the thyroid above all glands: Cowden syndrome causes multinodular goitre, Hashimoto's thyroiditis and a raised risk of thyroid cancer, reflecting PTEN's role in the endocrine system.
 - `connects-to` → **[Digestive System](../digestive-system/README.md)** — It studs the gut with hamartomas: Cowden syndrome causes numerous hamartomatous polyps and ganglioneuromas throughout the GI tract, alongside its raised colorectal-cancer risk.
 - `connects-to` → **[Wound Healing](../wound-healing/README.md)** — Its many cancers mean many surgeries: prophylactic and therapeutic operations on the breast, thyroid, uterus and colon in Cowden syndrome leave a lifetime of wounds that must heal.
+- `connects-to` → **[Cardiovascular System](../cardiovascular-system/README.md)** — Its pathway spawns vascular malformations: PTEN loss overactivates PI3K-AKT signalling, producing arteriovenous and other vascular malformations across the PTEN hamartoma tumour syndrome spectrum.
+- `connects-to` → **[Lymphatic System](../lymphatic-system/README.md)** — It seeds lymphatic and fatty anomalies: the PTEN hamartoma spectrum, overlapping Bannayan-Riley-Ruvalcaba syndrome, features lymphatic malformations and multiple lipomas.
+- `connects-to` → **[Immune System](../immune-system/README.md)** — Its gene also tunes immunity: PTEN regulates immune-cell signalling, and Cowden syndrome is associated with immune dysregulation and a raised tendency to autoimmunity.
 
 ---
 
