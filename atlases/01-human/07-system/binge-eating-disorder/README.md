@@ -207,6 +207,15 @@ cross_links:
   - target: 01-human/07-system/immune-system
     relation: connects-to
     note: "Excess fat smoulders with inflammation: the adipose tissue that accumulates in binge eating disorder secretes inflammatory cytokines, a low-grade meta-inflammation linking it to metabolic disease."
+  - target: 01-human/07-system/cardiovascular-system
+    relation: connects-to
+    note: "It carries cardiovascular risk beyond the weight: binge eating disorder is independently tied to hypertension, dyslipidaemia and cardiovascular disease, in excess of what BMI alone predicts."
+  - target: 01-human/07-system/renal-system
+    relation: connects-to
+    note: "The obesity it drives strains the kidney: sustained glomerular hyperfiltration and obesity-related glomerulopathy can progress to chronic kidney damage."
+  - target: 03-medicine/01-modern/10-mental-health/fluoxetine
+    relation: connects-to
+    note: "SSRIs blunt the urge: fluoxetine and related antidepressants reduce binge frequency, used alongside the stimulant lisdexamfetamine that is licensed specifically for the disorder."
 sources:
   - id: american-psychiatric-2013-bed-dsm5
     type: clinical-guideline
@@ -431,6 +440,9 @@ BED is among the most psychiatrically comorbid of all eating disorders:
 - `connects-to` → **[Respiratory System](../respiratory-system/README.md)** — Its weight gain burdens breathing: the obesity accompanying binge eating disorder drives obstructive sleep apnoea and can cause obesity hypoventilation, fragmenting sleep and straining the heart.
 - `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — Its weight shows on the skin: acanthosis nigricans signalling insulin resistance, along with skin-fold intertrigo and striae, accompany the obesity of binge eating disorder.
 - `connects-to` → **[Immune System](../immune-system/README.md)** — Excess fat smoulders with inflammation: the adipose tissue that accumulates in binge eating disorder secretes inflammatory cytokines, a low-grade meta-inflammation linking it to metabolic disease.
+- `connects-to` → **[Cardiovascular System](../cardiovascular-system/README.md)** — It carries cardiovascular risk beyond the weight: binge eating disorder is independently tied to hypertension, dyslipidaemia and cardiovascular disease, in excess of what BMI alone predicts.
+- `connects-to` → **[Renal System](../renal-system/README.md)** — The obesity it drives strains the kidney: sustained glomerular hyperfiltration and obesity-related glomerulopathy can progress to chronic kidney damage.
+- `connects-to` → **[Fluoxetine](../../../03-medicine/01-modern/10-mental-health/fluoxetine/README.md)** — SSRIs blunt the urge: fluoxetine and related antidepressants reduce binge frequency, used alongside the stimulant lisdexamfetamine that is licensed specifically for the disorder.
 
 [^american-psychiatric-2013-bed-dsm5]: American Psychiatric Association. Binge Eating Disorder (307.51). In: *Diagnostic and Statistical Manual of Mental Disorders, 5th ed.* Arlington, VA: APA; 2013. [doi:10.1176/appi.books.9780890425596](https://doi.org/10.1176/appi.books.9780890425596)
 [^mccallum-2003-bed-review]: McCallum K, Bruton AM. Binge eating disorder: eating disorder or somatic syndrome? *Prim Care Companion J Clin Psychiatry.* 2003;5(Suppl 4):20-25. [PubMed 15213784](https://pubmed.ncbi.nlm.nih.gov/15213784/)

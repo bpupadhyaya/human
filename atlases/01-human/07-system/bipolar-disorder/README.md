@@ -229,6 +229,15 @@ cross_links:
   - target: 01-human/07-system/immune-system
     relation: connects-to
     note: "Inflammation tracks its episodes: bipolar disorder is associated with raised inflammatory markers during mood episodes, supporting a neuroinflammatory component to its biology."
+  - target: 01-human/07-system/musculoskeletal-system
+    relation: connects-to
+    note: "Both the illness and its drugs weaken bone: sedentary depressive phases and some psychotropics are linked to lower bone density and a higher fracture risk."
+  - target: 01-human/07-system/respiratory-system
+    relation: connects-to
+    note: "Heavy smoking shadows the illness: far higher smoking rates in bipolar disorder drive COPD and respiratory disease, compounding its cardiovascular mortality gap."
+  - target: 03-medicine/01-modern/10-mental-health/fluoxetine
+    relation: connects-to
+    note: "Antidepressants are double-edged here: an SSRI like fluoxetine can flip a patient into mania or rapid cycling if given without a mood stabiliser, though fluoxetine-olanzapine is approved for bipolar depression."
 ---
 
 # Bipolar Disorder
@@ -429,6 +438,9 @@ During bipolar depression (often longer and more disabling than mania):
 - `connects-to` → **[Renal System](../renal-system/README.md)** — Its mood stabiliser can damage the kidney: long-term lithium causes nephrogenic diabetes insipidus and a chronic interstitial nephritis that can slowly progress to chronic kidney disease, requiring regular monitoring.
 - `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — Its drugs reach the skin: lamotrigine can trigger Stevens-Johnson syndrome and toxic epidermal necrolysis, while lithium can aggravate psoriasis and acne.
 - `connects-to` → **[Immune System](../immune-system/README.md)** — Inflammation tracks its episodes: bipolar disorder is associated with raised inflammatory markers during mood episodes, supporting a neuroinflammatory component to its biology.
+- `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — Both the illness and its drugs weaken bone: sedentary depressive phases and some psychotropics are linked to lower bone density and a higher fracture risk.
+- `connects-to` → **[Respiratory System](../respiratory-system/README.md)** — Heavy smoking shadows the illness: far higher smoking rates in bipolar disorder drive COPD and respiratory disease, compounding its cardiovascular mortality gap.
+- `connects-to` → **[Fluoxetine](../../../03-medicine/01-modern/10-mental-health/fluoxetine/README.md)** — Antidepressants are double-edged here: an SSRI like fluoxetine can flip a patient into mania or rapid cycling if given without a mood stabiliser, though fluoxetine-olanzapine is approved for bipolar depression.
 
 [^grande-2016-bipolar-review]: Grande I, Berk M, Birmaher B, Vieta E. Bipolar disorder. *Lancet.* 2016;387(10027):1561-1572. [doi:10.1016/S0140-6736(15)00241-X](https://doi.org/10.1016/S0140-6736(15)00241-X) · [PubMed 26388529](https://pubmed.ncbi.nlm.nih.gov/26388529/)
 [^geddes-2013-bipolar-treatment]: Geddes JR, Miklowitz DJ. Treatment of bipolar disorder. *Lancet.* 2013;381(9878):1672-1682. [doi:10.1016/S0140-6736(13)60857-0](https://doi.org/10.1016/S0140-6736(13)60857-0) · [PubMed 23663953](https://pubmed.ncbi.nlm.nih.gov/23663953/)
