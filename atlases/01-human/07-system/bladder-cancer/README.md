@@ -238,6 +238,15 @@ cross_links:
   - target: 01-human/07-system/integumentary-system
     relation: connects-to
     note: "It rarely reaches the skin: cutaneous metastases are an uncommon, late sign, and intravesical BCG immunotherapy can trigger systemic and skin hypersensitivity reactions."
+  - target: 03-medicine/01-modern/13-cancer/checkpoint-inhibitors
+    relation: connects-to
+    note: "Immunotherapy treats advanced disease: PD-1/PD-L1 inhibitors such as pembrolizumab, with avelumab maintenance, are central to advanced and BCG-unresponsive bladder cancer, which is highly mutated and immunogenic."
+  - target: 03-medicine/01-modern/13-cancer/targeted-therapy
+    relation: connects-to
+    note: "Molecular alterations open drug options: erdafitinib targets FGFR3-altered tumours, and antibody-drug conjugates like enfortumab vedotin (Nectin-4) and anti-HER2 agents extend treatment."
+  - target: 03-medicine/01-modern/13-cancer/cancer-chemotherapy
+    relation: connects-to
+    note: "Platinum remains the backbone: cisplatin-based chemotherapy, given before cystectomy or for metastatic disease, is the long-standing foundation of bladder cancer treatment."
 ---
 
 # Bladder Cancer
@@ -432,6 +441,9 @@ NMIBC and MIBC have distinct molecular landscapes:
 - `connects-to` → **[Respiratory System](../respiratory-system/README.md)** — It shares its main cause with lung cancer: smoking is the leading risk factor for bladder cancer, and advanced disease metastasises to the lungs.
 - `connects-to` → **[Cardiovascular System](../cardiovascular-system/README.md)** — Treatment burdens the heart: cisplatin-based chemotherapy for muscle-invasive bladder cancer carries cardiovascular and thromboembolic risk, compounding the smoking-related vascular disease these patients often have.
 - `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — It rarely reaches the skin: cutaneous metastases are an uncommon, late sign, and intravesical BCG immunotherapy can trigger systemic and skin hypersensitivity reactions.
+- `connects-to` → **[Checkpoint Inhibitors](../../../03-medicine/01-modern/13-cancer/checkpoint-inhibitors/README.md)** — Immunotherapy treats advanced disease: PD-1/PD-L1 inhibitors such as pembrolizumab, with avelumab maintenance, are central to advanced and BCG-unresponsive bladder cancer, which is highly mutated and immunogenic.
+- `connects-to` → **[Targeted Therapy](../../../03-medicine/01-modern/13-cancer/targeted-therapy/README.md)** — Molecular alterations open drug options: erdafitinib targets FGFR3-altered tumours, and antibody-drug conjugates like enfortumab vedotin (Nectin-4) and anti-HER2 agents extend treatment.
+- `connects-to` → **[Cancer Chemotherapy](../../../03-medicine/01-modern/13-cancer/cancer-chemotherapy/README.md)** — Platinum remains the backbone: cisplatin-based chemotherapy, given before cystectomy or for metastatic disease, is the long-standing foundation of bladder cancer treatment.
 
 ---
 

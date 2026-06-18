@@ -232,6 +232,15 @@ cross_links:
   - target: 01-human/07-system/cardiovascular-system
     relation: connects-to
     note: "Metabolic disease reaches the heart: Bloom syndrome carries a high rate of type 2 diabetes and dyslipidaemia, bringing premature cardiovascular risk despite the patients' characteristic small stature."
+  - target: 03-medicine/01-modern/13-cancer/cancer-chemotherapy
+    relation: connects-to
+    note: "Treatment must be gentler: the DNA-repair defect of Bloom syndrome makes patients hypersensitive to DNA-damaging chemotherapy and radiation, forcing dose reduction when their many cancers are treated."
+  - target: 01-human/07-system/basal-cell-carcinoma
+    relation: connects-to
+    note: "Sun sensitivity breeds skin cancer: the photosensitive facial rash of Bloom syndrome reflects defective DNA repair that also drives basal and squamous cell skin cancers at a young age."
+  - target: 01-human/07-system/gastric-cancer
+    relation: connects-to
+    note: "Instability seeds gut tumours: chromosomal instability in Bloom syndrome predisposes to gastrointestinal adenocarcinomas, including gastric and colorectal cancer, often decades earlier than usual."
 ---
 
 # Bloom Syndrome
@@ -441,6 +450,9 @@ BS is characterized by three cardinal features: **small body size** (the most co
 - `connects-to` → **[Lymphatic System](../lymphatic-system/README.md)** — Genomic instability cripples immunity and lymphoid tissue: Bloom syndrome causes immunodeficiency with low immunoglobulins and recurrent infections, alongside a very high risk of leukaemia and lymphoma.
 - `connects-to` → **[Renal System](../renal-system/README.md)** — It predisposes to childhood kidney cancer: Wilms tumour is among the many malignancies the genomic instability of Bloom syndrome can cause, demanding cancer surveillance from childhood.
 - `connects-to` → **[Cardiovascular System](../cardiovascular-system/README.md)** — Metabolic disease reaches the heart: Bloom syndrome carries a high rate of type 2 diabetes and dyslipidaemia, bringing premature cardiovascular risk despite the patients' characteristic small stature.
+- `connects-to` → **[Cancer Chemotherapy](../../../03-medicine/01-modern/13-cancer/cancer-chemotherapy/README.md)** — Treatment must be gentler: the DNA-repair defect of Bloom syndrome makes patients hypersensitive to DNA-damaging chemotherapy and radiation, forcing dose reduction when their many cancers are treated.
+- `connects-to` → **[Basal Cell Carcinoma](../basal-cell-carcinoma/README.md)** — Sun sensitivity breeds skin cancer: the photosensitive facial rash of Bloom syndrome reflects defective DNA repair that also drives basal and squamous cell skin cancers at a young age.
+- `connects-to` → **[Gastric Cancer](../gastric-cancer/README.md)** — Instability seeds gut tumours: chromosomal instability in Bloom syndrome predisposes to gastrointestinal adenocarcinomas, including gastric and colorectal cancer, often decades earlier than usual.
 
 ---
 
