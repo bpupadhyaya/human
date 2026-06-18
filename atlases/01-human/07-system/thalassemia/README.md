@@ -243,6 +243,15 @@ cross_links:
   - target: 01-human/07-system/mds
     relation: connects-to
     note: "A shared failure of red-cell making: like the myelodysplastic syndromes, thalassaemia features ineffective erythropoiesis, and the maturation agent luspatercept is now used to reduce transfusion needs in both."
+  - target: 03-medicine/01-modern/13-cancer/targeted-therapy
+    relation: connects-to
+    note: "Gene therapy now offers a cure: lentiviral beti-cel and CRISPR-edited exa-cel restore functional haemoglobin and free transfusion-dependent β-thalassaemia patients from transfusions, alongside the iron-chelators that prevent organ damage."
+  - target: 03-medicine/01-modern/13-cancer/cancer-chemotherapy
+    relation: connects-to
+    note: "Hydroxyurea and transplant conditioning: hydroxyurea raises fetal haemoglobin to ease some thalassaemias, and intensive conditioning chemotherapy precedes the allogeneic stem-cell transplant that can cure the disease."
+  - target: 01-human/05-tissue/cortical-bone
+    relation: connects-to
+    note: "Marrow expansion deforms the skeleton: ineffective erythropoiesis drives massive marrow hyperplasia that thins cortical bone, causing frontal bossing, the 'hair-on-end' skull, pathological fractures and osteoporosis."
 ---
 
 # Thalassemia
@@ -462,6 +471,9 @@ Untransfused or undertransfused β-thal major:
 - `connects-to` → **[Streptococcus pneumoniae](../../../02-pathogen/02-bacteria/streptococcus-pneumoniae/README.md)** — Splenectomy invites encapsulated bacteria: removing the iron-overloaded, enlarged spleen leaves thalassaemia patients at lifelong risk of overwhelming pneumococcal sepsis, needing vaccination and prophylaxis.
 - `connects-to` → **[Hepatocyte](../../04-cellular/hepatocyte/README.md)** — Iron overload poisons the liver: transfusional and absorptive iron loading deposits in hepatocytes, driving fibrosis, cirrhosis and hepatocellular carcinoma in chronically transfused thalassaemia.
 - `connects-to` → **[MDS](../mds/README.md)** — A shared failure of red-cell making: like the myelodysplastic syndromes, thalassaemia features ineffective erythropoiesis, and the maturation agent luspatercept is now used to reduce transfusion needs in both.
+- `connects-to` → **[Targeted Therapy](../../../03-medicine/01-modern/13-cancer/targeted-therapy/README.md)** — Gene therapy now offers a cure: lentiviral beti-cel and CRISPR-edited exa-cel restore functional haemoglobin and free transfusion-dependent β-thalassaemia patients from transfusions, alongside the iron-chelators that prevent organ damage.
+- `connects-to` → **[Cancer Chemotherapy](../../../03-medicine/01-modern/13-cancer/cancer-chemotherapy/README.md)** — Hydroxyurea and transplant conditioning: hydroxyurea raises fetal haemoglobin to ease some thalassaemias, and intensive conditioning chemotherapy precedes the allogeneic stem-cell transplant that can cure the disease.
+- `connects-to` → **[Cortical Bone](../../05-tissue/cortical-bone/README.md)** — Marrow expansion deforms the skeleton: ineffective erythropoiesis drives massive marrow hyperplasia that thins cortical bone, causing frontal bossing, the 'hair-on-end' skull, pathological fractures and osteoporosis.
 
 [^weatherall-2008-thalassemia-review]: Weatherall DJ. The inherited diseases of hemoglobin are an emerging global health burden. *Blood.* 2010;115(22):4331-4336. [doi:10.1182/blood-2010-01-251348](https://doi.org/10.1182/blood-2010-01-251348) · [PubMed 20233970](https://pubmed.ncbi.nlm.nih.gov/20233970/)
 [^cappellini-2014-thalassemia-guidelines]: Cappellini MD, Cohen A, Porter J, et al. (eds). Guidelines for the Management of Transfusion Dependent Thalassaemia (TDT). 3rd ed. Thalassaemia International Federation; 2014.

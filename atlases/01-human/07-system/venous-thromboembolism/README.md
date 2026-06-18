@@ -244,6 +244,15 @@ cross_links:
   - target: 01-human/07-system/nsclc
     relation: connects-to
     note: "Cancer drives clotting: lung adenocarcinoma and other cancers create a hypercoagulable Trousseau state, making venous thromboembolism a common and dangerous complication of malignancy."
+  - target: 01-human/05-tissue/myocardium
+    relation: connects-to
+    note: "A large PE fails the right heart: pulmonary embolism abruptly raises pulmonary pressure, straining and dilating the right ventricle — acute RV failure is the mechanism of death in massive PE, tracked by troponin and echo."
+  - target: 03-medicine/01-modern/13-cancer/cancer-chemotherapy
+    relation: connects-to
+    note: "Chemo adds to the clot risk: beyond the cancer's own hypercoagulability, agents like cisplatin and thalidomide-class drugs are prothrombotic, so cancer-associated VTE is managed with LMWH or direct oral anticoagulants."
+  - target: 01-human/07-system/essential-thrombocythemia
+    relation: connects-to
+    note: "Too many platelets clot the veins: essential thrombocythemia and other myeloproliferative neoplasms cause venous thromboembolism, including unusual-site clots like splanchnic and cerebral vein thrombosis, despite the high platelet count."
 ---
 
 # Venous Thromboembolism
@@ -438,6 +447,9 @@ cross_links:
 - `connects-to` → **[Aspirin](../../../03-medicine/01-modern/04-cardio/aspirin/README.md)** — An option for prevention: aspirin gives modest protection against recurrent venous thromboembolism and is used for prophylaxis after some orthopaedic surgery, though anticoagulants are more effective.
 - `connects-to` → **[SARS-CoV-2](../../../02-pathogen/01-viruses/sars-cov-2/README.md)** — A virus that clots the veins: severe COVID-19 markedly raises venous thromboembolism risk through endothelial injury, inflammation and immobility, prompting routine thromboprophylaxis in hospital.
 - `connects-to` → **[NSCLC](../nsclc/README.md)** — Cancer drives clotting: lung adenocarcinoma and other cancers create a hypercoagulable Trousseau state, making venous thromboembolism a common and dangerous complication of malignancy.
+- `connects-to` → **[Myocardium](../../05-tissue/myocardium/README.md)** — A large PE fails the right heart: pulmonary embolism abruptly raises pulmonary pressure, straining and dilating the right ventricle — acute RV failure is the mechanism of death in massive PE, tracked by troponin and echo.
+- `connects-to` → **[Cancer Chemotherapy](../../../03-medicine/01-modern/13-cancer/cancer-chemotherapy/README.md)** — Chemo adds to the clot risk: beyond the cancer's own hypercoagulability, agents like cisplatin and thalidomide-class drugs are prothrombotic, so cancer-associated VTE is managed with LMWH or direct oral anticoagulants.
+- `connects-to` → **[Essential Thrombocythemia](../essential-thrombocythemia/README.md)** — Too many platelets clot the veins: essential thrombocythemia and other myeloproliferative neoplasms cause venous thromboembolism, including unusual-site clots like splanchnic and cerebral vein thrombosis, despite the high platelet count.
 
 [^agnelli-2013-amplify-apixaban-vte]: Agnelli G, Buller HR, Cohen A, et al. Oral apixaban for the treatment of acute venous thromboembolism. *N Engl J Med.* 2013;369(9):799-808. [doi:10.1056/NEJMoa1302507](https://doi.org/10.1056/NEJMoa1302507) · [PubMed 23808982](https://pubmed.ncbi.nlm.nih.gov/23808982/)
 [^bauersachs-2010-einstein-rivaroxaban]: EINSTEIN Investigators. Oral rivaroxaban for symptomatic venous thromboembolism. *N Engl J Med.* 2010;363(26):2499-2510. [doi:10.1056/NEJMoa1007903](https://doi.org/10.1056/NEJMoa1007903) · [PubMed 21128814](https://pubmed.ncbi.nlm.nih.gov/21128814/)
