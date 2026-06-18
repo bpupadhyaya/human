@@ -205,6 +205,15 @@ cross_links:
   - target: 01-human/07-system/generalized-anxiety-disorder
     relation: connects-to
     note: "Constant cancer surveillance breeds worry: the lifelong multi-organ cancer screening of Cowden, often alongside its associated autism and anxiety traits, fosters chronic health anxiety."
+  - target: 01-human/07-system/endocrine-system
+    relation: connects-to
+    note: "It targets the thyroid above all glands: Cowden syndrome causes multinodular goitre, Hashimoto's thyroiditis and a raised risk of thyroid cancer, reflecting PTEN's role in the endocrine system."
+  - target: 01-human/07-system/digestive-system
+    relation: connects-to
+    note: "It studs the gut with hamartomas: Cowden syndrome causes numerous hamartomatous polyps and ganglioneuromas throughout the GI tract, alongside its raised colorectal-cancer risk."
+  - target: 01-human/07-system/wound-healing
+    relation: connects-to
+    note: "Its many cancers mean many surgeries: prophylactic and therapeutic operations on the breast, thyroid, uterus and colon in Cowden syndrome leave a lifetime of wounds that must heal."
 ---
 
 # Cowden Syndrome
@@ -447,6 +456,9 @@ cross_links:
 - `connects-to` → **[Epilepsy](../epilepsy/README.md)** — Brain hamartomas can spark seizures: Cowden's PTEN defect causes macrocephaly, cortical malformations and the cerebellar Lhermitte-Duclos lesion, raising the risk of seizures and epilepsy.
 - `connects-to` → **[Aspergillus fumigatus](../../../02-pathogen/03-fungi/aspergillus-fumigatus/README.md)** — Treating its many cancers opens the lung to mold: the chemotherapy for the breast, thyroid and other cancers Cowden predisposes to causes neutropenia, allowing inhaled Aspergillus to invade.
 - `connects-to` → **[Generalized Anxiety Disorder](../generalized-anxiety-disorder/README.md)** — Constant cancer surveillance breeds worry: the lifelong multi-organ cancer screening of Cowden, often alongside its associated autism and anxiety traits, fosters chronic health anxiety.
+- `connects-to` → **[Endocrine System](../endocrine-system/README.md)** — It targets the thyroid above all glands: Cowden syndrome causes multinodular goitre, Hashimoto's thyroiditis and a raised risk of thyroid cancer, reflecting PTEN's role in the endocrine system.
+- `connects-to` → **[Digestive System](../digestive-system/README.md)** — It studs the gut with hamartomas: Cowden syndrome causes numerous hamartomatous polyps and ganglioneuromas throughout the GI tract, alongside its raised colorectal-cancer risk.
+- `connects-to` → **[Wound Healing](../wound-healing/README.md)** — Its many cancers mean many surgeries: prophylactic and therapeutic operations on the breast, thyroid, uterus and colon in Cowden syndrome leave a lifetime of wounds that must heal.
 
 ---
 

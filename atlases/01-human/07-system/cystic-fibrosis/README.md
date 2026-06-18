@@ -205,6 +205,15 @@ cross_links:
   - target: 01-human/07-system/generalized-anxiety-disorder
     relation: connects-to
     note: "A relentless treatment burden breeds worry: the constant therapies, fear of infection and uncertain prognosis of CF drive anxiety alongside depression, now part of routine mental-health screening."
+  - target: 01-human/07-system/integumentary-system
+    relation: connects-to
+    note: "Its sweat is salty by defect: defective CFTR in sweat glands fails to reabsorb chloride, giving the salt-losing skin the sweat-chloride test diagnoses and a risk of salt depletion in the heat."
+  - target: 01-human/07-system/heart-failure
+    relation: connects-to
+    note: "Chronic lung disease strains the right heart: the progressive hypoxaemia and pulmonary hypertension of advanced CF overload the right ventricle into cor pulmonale and right heart failure."
+  - target: 01-human/07-system/musculoskeletal-system
+    relation: connects-to
+    note: "It weakens bone and inflames joints: malabsorption and chronic inflammation cause CF-related low bone density and fractures, and an episodic CF arthropathy with finger clubbing accompanies the disease."
 ---
 
 # Cystic Fibrosis
@@ -395,6 +404,9 @@ AND
 - `connects-to` → **[Venous Thromboembolism](../venous-thromboembolism/README.md)** — Its indwelling lines clot the veins: the long-term central venous catheters and ports CF patients need for repeated IV antibiotics, plus chronic inflammation, raise the risk of venous thromboembolism.
 - `connects-to` → **[Hepatocellular Carcinoma](../hcc/README.md)** — Its liver disease can scar toward cancer: CF-related liver disease causes biliary cirrhosis in a subset of patients, and the resulting cirrhosis carries a risk of hepatocellular carcinoma.
 - `connects-to` → **[Generalized Anxiety Disorder](../generalized-anxiety-disorder/README.md)** — A relentless treatment burden breeds worry: the constant therapies, fear of infection and uncertain prognosis of CF drive anxiety alongside depression, now part of routine mental-health screening.
+- `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — Its sweat is salty by defect: defective CFTR in sweat glands fails to reabsorb chloride, giving the salt-losing skin the sweat-chloride test diagnoses and a risk of salt depletion in the heat.
+- `connects-to` → **[Heart Failure](../heart-failure/README.md)** — Chronic lung disease strains the right heart: the progressive hypoxaemia and pulmonary hypertension of advanced CF overload the right ventricle into cor pulmonale and right heart failure.
+- `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — It weakens bone and inflames joints: malabsorption and chronic inflammation cause CF-related low bone density and fractures, and an episodic CF arthropathy with finger clubbing accompanies the disease.
 
 ---
 
