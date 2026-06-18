@@ -232,6 +232,15 @@ cross_links:
   - target: 01-human/07-system/tuberous-sclerosis-complex
     relation: connects-to
     note: "A fellow mTOR-driven tumour syndrome: like tuberous sclerosis, MEN1 produces pancreatic neuroendocrine tumours that respond to mTOR inhibition, sharing that therapeutic axis."
+  - target: 01-human/05-tissue/islet-of-langerhans
+    relation: connects-to
+    note: "Its pancreatic tumours arise here: MEN1 predisposes to islet-cell neuroendocrine tumours — gastrinomas, insulinomas and others — that secrete hormones and dominate its morbidity alongside hyperparathyroidism."
+  - target: 01-human/07-system/cowden-syndrome
+    relation: connects-to
+    note: "A fellow endocrine-tumour syndrome: like Cowden syndrome, MEN1 is an inherited predisposition to multiple endocrine and other tumours, both driving lifelong gland surveillance."
+  - target: 01-human/07-system/hlrcc
+    relation: connects-to
+    note: "Among the autosomal-dominant tumour syndromes: MEN1 sits with HLRCC and the other single-gene cancer-predisposition syndromes, each committing carriers to organ-specific tumour surveillance."
 ---
 
 # MEN1 Syndrome
@@ -423,6 +432,9 @@ Menin haploinsufficiency (one functional allele) creates susceptibility: cells a
 - `connects-to` → **[Targeted Therapy](../../../03-medicine/01-modern/13-cancer/targeted-therapy/README.md)** — Its pancreatic tumours get targeted drugs: mTOR inhibitors such as everolimus and the kinase inhibitor sunitinib treat the pancreatic neuroendocrine tumours of MEN1, exploiting the menin-mTOR axis.
 - `connects-to` → **[Helicobacter pylori](../../../02-pathogen/02-bacteria/helicobacter-pylori/README.md)** — It causes ulcers without the usual culprit: MEN1 gastrinomas drive Zollinger-Ellison syndrome with severe peptic ulcers that, unlike common ulcers, are not due to Helicobacter pylori.
 - `connects-to` → **[Tuberous Sclerosis Complex](../tuberous-sclerosis-complex/README.md)** — A fellow mTOR-driven tumour syndrome: like tuberous sclerosis, MEN1 produces pancreatic neuroendocrine tumours that respond to mTOR inhibition, sharing that therapeutic axis.
+- `connects-to` → **[Islet of Langerhans](../../05-tissue/islet-of-langerhans/README.md)** — Its pancreatic tumours arise here: MEN1 predisposes to islet-cell neuroendocrine tumours — gastrinomas, insulinomas and others — that secrete hormones and dominate its morbidity alongside hyperparathyroidism.
+- `connects-to` → **[Cowden Syndrome](../cowden-syndrome/README.md)** — A fellow endocrine-tumour syndrome: like Cowden syndrome, MEN1 is an inherited predisposition to multiple endocrine and other tumours, both driving lifelong gland surveillance.
+- `connects-to` → **[HLRCC](../hlrcc/README.md)** — Among the autosomal-dominant tumour syndromes: MEN1 sits with HLRCC and the other single-gene cancer-predisposition syndromes, each committing carriers to organ-specific tumour surveillance.
 
 ---
 

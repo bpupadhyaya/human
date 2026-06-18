@@ -238,6 +238,15 @@ cross_links:
   - target: 01-human/07-system/hereditary-breast-ovarian-cancer
     relation: connects-to
     note: "BRCA2 widens its reach: carriers of BRCA2 mutations have an increased melanoma risk, linking this skin cancer to the hereditary breast-ovarian cancer spectrum."
+  - target: 03-medicine/01-modern/13-cancer/checkpoint-inhibitors
+    relation: connects-to
+    note: "The breakthrough that defined immunotherapy: ipilimumab (anti-CTLA-4) and anti-PD-1 antibodies transformed metastatic melanoma from rapidly fatal to often durably controlled, the disease where checkpoint blockade first proved itself."
+  - target: 01-human/07-system/parkinsons-disease
+    relation: connects-to
+    note: "A surprising two-way link: melanoma and Parkinson's disease show a bidirectional epidemiological association, thought to reflect shared biology of melanin and neuromelanin in pigment-cell pathways."
+  - target: 03-medicine/01-modern/13-cancer/cancer-chemotherapy
+    relation: connects-to
+    note: "Chemo that history left behind: melanoma is notoriously chemoresistant, and dacarbazine-based chemotherapy has been largely abandoned in favour of immunotherapy and targeted drugs."
 ---
 
 # Melanoma
@@ -401,6 +410,9 @@ cross_links:
 - `connects-to` → **[Targeted Therapy](../../../03-medicine/01-modern/13-cancer/targeted-therapy/README.md)** — It pioneered modern oncology drugs: melanoma is the prototype for both BRAF/MEK-targeted therapy and immune checkpoint blockade, transforming the outlook for advanced disease.
 - `connects-to` → **[Li-Fraumeni Syndrome](../li-fraumeni-syndrome/README.md)** — Inherited risk runs in some families: germline TP53 (Li-Fraumeni) and CDKN2A mutations raise melanoma risk, part of the hereditary predisposition behind a minority of cases.
 - `connects-to` → **[Hereditary Breast-Ovarian Cancer](../hereditary-breast-ovarian-cancer/README.md)** — BRCA2 widens its reach: carriers of BRCA2 mutations have an increased melanoma risk, linking this skin cancer to the hereditary breast-ovarian cancer spectrum.
+- `connects-to` → **[Checkpoint Inhibitors](../../../03-medicine/01-modern/13-cancer/checkpoint-inhibitors/README.md)** — The breakthrough that defined immunotherapy: ipilimumab (anti-CTLA-4) and anti-PD-1 antibodies transformed metastatic melanoma from rapidly fatal to often durably controlled, the disease where checkpoint blockade first proved itself.
+- `connects-to` → **[Parkinson's Disease](../parkinsons-disease/README.md)** — A surprising two-way link: melanoma and Parkinson's disease show a bidirectional epidemiological association, thought to reflect shared biology of melanin and neuromelanin in pigment-cell pathways.
+- `connects-to` → **[Cancer Chemotherapy](../../../03-medicine/01-modern/13-cancer/cancer-chemotherapy/README.md)** — Chemo that history left behind: melanoma is notoriously chemoresistant, and dacarbazine-based chemotherapy has been largely abandoned in favour of immunotherapy and targeted drugs.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
