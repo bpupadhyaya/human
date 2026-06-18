@@ -202,6 +202,15 @@ cross_links:
   - target: 01-human/07-system/alzheimers-disease
     relation: connects-to
     note: "Infections may nudge dementia risk: severe influenza and its systemic inflammation are studied as contributors to cognitive decline, and influenza vaccination is associated with lower dementia incidence."
+  - target: 01-human/07-system/nervous-system
+    relation: connects-to
+    note: "It can strike the nervous system: influenza causes febrile seizures and acute encephalopathy, especially in children, and is a recognised trigger of Guillain-Barré syndrome and the rare Reye syndrome."
+  - target: 01-human/07-system/immune-system
+    relation: connects-to
+    note: "Its outcome is decided by immunity: the immune response clears influenza but its overshoot causes the cytokine-driven damage, and immunocompromised and elderly patients suffer the most severe disease."
+  - target: 01-human/07-system/digestive-system
+    relation: connects-to
+    note: "It can upset the gut and liver: influenza, particularly in children, causes nausea, vomiting and diarrhoea, and aspirin use during infection risks the hepatic failure of Reye syndrome."
 ---
 
 # Influenza
@@ -399,3 +408,6 @@ Influenza damages mucociliary clearance and exposes basal lamina glycoproteins �
 - `connects-to` → **[Parkinson's Disease](../parkinsons-disease/README.md)** — It is historically tied to parkinsonism: the encephalitis lethargica that followed the 1918 pandemic left post-encephalitic parkinsonism, and influenza is studied as one infectious contributor to Parkinson's risk.
 - `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — It leaves a low-mood aftermath: the post-viral fatigue and neuroinflammation of influenza can produce weeks of depressed mood, part of the broader post-infectious malaise.
 - `connects-to` → **[Alzheimer's Disease](../alzheimers-disease/README.md)** — Infections may nudge dementia risk: severe influenza and its systemic inflammation are studied as contributors to cognitive decline, and influenza vaccination is associated with lower dementia incidence.
+- `connects-to` → **[Nervous System](../nervous-system/README.md)** — It can strike the nervous system: influenza causes febrile seizures and acute encephalopathy, especially in children, and is a recognised trigger of Guillain-Barré syndrome and the rare Reye syndrome.
+- `connects-to` → **[Immune System](../immune-system/README.md)** — Its outcome is decided by immunity: the immune response clears influenza but its overshoot causes the cytokine-driven damage, and immunocompromised and elderly patients suffer the most severe disease.
+- `connects-to` → **[Digestive System](../digestive-system/README.md)** — It can upset the gut and liver: influenza, particularly in children, causes nausea, vomiting and diarrhoea, and aspirin use during infection risks the hepatic failure of Reye syndrome.

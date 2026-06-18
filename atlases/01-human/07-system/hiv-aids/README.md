@@ -202,6 +202,15 @@ cross_links:
   - target: 01-human/07-system/major-depressive-disorder
     relation: connects-to
     note: "It burdens the mind directly and through stigma: HIV causes depression via neuroinflammation and CNS infection, compounded by the chronic illness, isolation and stigma of living with the disease."
+  - target: 01-human/07-system/digestive-system
+    relation: connects-to
+    note: "AIDS wastes and infects the gut: advanced HIV brings the wasting syndrome and opportunistic GI infections — CMV colitis, cryptosporidiosis and oesophageal candidiasis — causing intractable diarrhoea and malnutrition."
+  - target: 01-human/07-system/integumentary-system
+    relation: connects-to
+    note: "The skin reveals advancing immunodeficiency: AIDS brings Kaposi sarcoma, disseminated herpes and zoster, severe seborrhoeic dermatitis and eosinophilic folliculitis, often the visible markers of progression."
+  - target: 01-human/07-system/generalized-anxiety-disorder
+    relation: connects-to
+    note: "An advanced, stigmatised illness breeds worry: the opportunistic-infection risk, disclosure fears and uncertainty of AIDS foster chronic health anxiety alongside its well-recognised depression."
 ---
 
 # HIV/AIDS
@@ -378,6 +387,9 @@ HIV-1 pathogenesis is primarily driven by CD4⁺ T cell loss:
 - `connects-to` → **[Neuropathic Pain](../neuropathic-pain/README.md)** — It attacks the peripheral nerves: advanced HIV causes a distal sensory polyneuropathy, and older antiretrovirals compounded it, producing the chronic burning foot pain common in long-standing infection.
 - `connects-to` → **[Heart Failure](../heart-failure/README.md)** — The virus can weaken the heart muscle: HIV-associated cardiomyopathy from direct viral effects, chronic inflammation and opportunistic infection remains a cause of heart failure even in the antiretroviral era.
 - `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — It burdens the mind directly and through stigma: HIV causes depression via neuroinflammation and CNS infection, compounded by the chronic illness, isolation and stigma of living with the disease.
+- `connects-to` → **[Digestive System](../digestive-system/README.md)** — AIDS wastes and infects the gut: advanced HIV brings the wasting syndrome and opportunistic GI infections — CMV colitis, cryptosporidiosis and oesophageal candidiasis — causing intractable diarrhoea and malnutrition.
+- `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — The skin reveals advancing immunodeficiency: AIDS brings Kaposi sarcoma, disseminated herpes and zoster, severe seborrhoeic dermatitis and eosinophilic folliculitis, often the visible markers of progression.
+- `connects-to` → **[Generalized Anxiety Disorder](../generalized-anxiety-disorder/README.md)** — An advanced, stigmatised illness breeds worry: the opportunistic-infection risk, disclosure fears and uncertainty of AIDS foster chronic health anxiety alongside its well-recognised depression.
 
 ## See Also
 
