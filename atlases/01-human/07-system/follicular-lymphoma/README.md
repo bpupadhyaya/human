@@ -232,6 +232,15 @@ cross_links:
   - target: 01-human/07-system/reproductive-system
     relation: connects-to
     note: "Therapy threatens fertility: chemotherapy for follicular lymphoma can impair fertility, prompting preservation counselling, and rare gonadal involvement occurs."
+  - target: 03-medicine/01-modern/13-cancer/cancer-chemotherapy
+    relation: connects-to
+    note: "Chemoimmunotherapy controls it: bendamustine or CHOP with an anti-CD20 antibody is standard first-line treatment for symptomatic follicular lymphoma, though it is rarely cured."
+  - target: 03-medicine/01-modern/13-cancer/targeted-therapy
+    relation: connects-to
+    note: "Targeted drugs for an indolent cancer: the EZH2 inhibitor tazemetostat for EZH2-mutant disease, lenalidomide and BCL-2 inhibitors extend the options in follicular lymphoma."
+  - target: 03-medicine/01-modern/13-cancer/car-t
+    relation: connects-to
+    note: "Cell therapy for relapse: CD19 CAR-T cells and bispecific antibodies such as mosunetuzumab achieve high response rates in relapsed or refractory follicular lymphoma."
 ---
 
 # Follicular Lymphoma
@@ -429,6 +438,9 @@ High-risk subset (progression within 24 months of first chemoimmunotherapy): Con
 - `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — It hides in the marrow: follicular lymphoma frequently infiltrates the bone marrow, causing cytopenias, and bony involvement can occur in advanced disease.
 - `connects-to` → **[Cardiovascular System](../cardiovascular-system/README.md)** — Treatment can reach the heart: when follicular lymphoma transforms and needs anthracycline chemotherapy, dose-dependent cardiotoxicity follows, on top of anaemia's strain on the heart.
 - `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — Therapy threatens fertility: chemotherapy for follicular lymphoma can impair fertility, prompting preservation counselling, and rare gonadal involvement occurs.
+- `connects-to` → **[Cancer Chemotherapy](../../../03-medicine/01-modern/13-cancer/cancer-chemotherapy/README.md)** — Chemoimmunotherapy controls it: bendamustine or CHOP with an anti-CD20 antibody is standard first-line treatment for symptomatic follicular lymphoma, though it is rarely cured.
+- `connects-to` → **[Targeted Therapy](../../../03-medicine/01-modern/13-cancer/targeted-therapy/README.md)** — Targeted drugs for an indolent cancer: the EZH2 inhibitor tazemetostat for EZH2-mutant disease, lenalidomide and BCL-2 inhibitors extend the options in follicular lymphoma.
+- `connects-to` → **[CAR-T](../../../03-medicine/01-modern/13-cancer/car-t/README.md)** — Cell therapy for relapse: CD19 CAR-T cells and bispecific antibodies such as mosunetuzumab achieve high response rates in relapsed or refractory follicular lymphoma.
 
 ---
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
