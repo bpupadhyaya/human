@@ -238,6 +238,15 @@ cross_links:
   - target: 03-medicine/03-food/magnesium-dietary
     relation: connects-to
     note: "Diet draws interest: low magnesium status has been linked to anxiety and supplementation trialled as an adjunct, though the evidence remains modest."
+  - target: 03-medicine/02-traditional/ashwagandha
+    relation: connects-to
+    note: "A traditional anxiolytic with evidence: ashwagandha, an adaptogenic herb, reduces anxiety and cortisol in trials and is among the better-supported complementary treatments for generalized anxiety."
+  - target: 03-medicine/03-food/omega-3-fatty-acids
+    relation: connects-to
+    note: "Diet offers a modest adjunct: omega-3 supplementation shows small anxiolytic effects in some trials, used alongside but not instead of first-line therapy for generalized anxiety."
+  - target: 01-human/07-system/inflammatory-bowel-disease
+    relation: connects-to
+    note: "The gut and worry feed each other: anxiety is far more common in inflammatory bowel disease, and through the gut-brain axis disease flares and chronic worry each worsen the other."
 ---
 
 # Generalized Anxiety Disorder
@@ -449,6 +458,9 @@ Allow **4-8 weeks** for onset of anxiolytic effect. Continue treatment ≥12 mon
 - `connects-to` → **[Respiratory System](../respiratory-system/README.md)** — Breathing carries the symptoms: anxiety drives hyperventilation, breathlessness and chest tightness, and a vicious circle ties it tightly to asthma and breathing disorders.
 - `connects-to` → **[Fluoxetine](../../../03-medicine/01-modern/10-mental-health/fluoxetine/README.md)** — First-line treatment is an antidepressant: SSRIs like fluoxetine are the mainstay for generalized anxiety disorder, preferred over benzodiazepines for long-term control.
 - `connects-to` → **[Dietary Magnesium](../../../03-medicine/03-food/magnesium-dietary/README.md)** — Diet draws interest: low magnesium status has been linked to anxiety and supplementation trialled as an adjunct, though the evidence remains modest.
+- `connects-to` → **[Ashwagandha](../../../03-medicine/02-traditional/ashwagandha/README.md)** — A traditional anxiolytic with evidence: ashwagandha, an adaptogenic herb, reduces anxiety and cortisol in trials and is among the better-supported complementary treatments for generalized anxiety.
+- `connects-to` → **[Omega-3 Fatty Acids](../../../03-medicine/03-food/omega-3-fatty-acids/README.md)** — Diet offers a modest adjunct: omega-3 supplementation shows small anxiolytic effects in some trials, used alongside but not instead of first-line therapy for generalized anxiety.
+- `connects-to` → **[Inflammatory Bowel Disease](../inflammatory-bowel-disease/README.md)** — The gut and worry feed each other: anxiety is far more common in inflammatory bowel disease, and through the gut-brain axis disease flares and chronic worry each worsen the other.
 
 [^kessler-2005-gad-prevalence]: Kessler RC, Berglund P, Demler O, et al. Lifetime prevalence and age-of-onset distributions of DSM-IV disorders in the NCS Replication. *Arch Gen Psychiatry.* 2005;62(6):593-602. [doi:10.1001/archpsyc.62.6.593](https://doi.org/10.1001/archpsyc.62.6.593) · [PubMed 15939837](https://pubmed.ncbi.nlm.nih.gov/15939837/)
 [^bandelow-2015-anxiety-biology]: Bandelow B, Michaelis S. Epidemiology of anxiety disorders in the 21st century. *Dialogues Clin Neurosci.* 2015;17(3):327-335. [doi:10.31887/DCNS.2015.17.3/bbandelow](https://doi.org/10.31887/DCNS.2015.17.3/bbandelow) · [PubMed 26487812](https://pubmed.ncbi.nlm.nih.gov/26487812/)

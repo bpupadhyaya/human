@@ -216,6 +216,15 @@ cross_links:
   - target: 03-medicine/01-modern/10-mental-health/fluoxetine
     relation: connects-to
     note: "Medication targets the comorbidity: SSRIs like fluoxetine are trialled in gambling disorder and treat the depression and anxiety that so often accompany it, though evidence for the gambling itself is mixed."
+  - target: 01-human/03-molecular/crh
+    relation: connects-to
+    note: "Stress hormones fuel the urge: corticotropin-releasing hormone and HPA-axis activation drive craving and relapse in gambling disorder, tying chronic stress to its reward-seeking cycle."
+  - target: 01-human/03-molecular/ghrelin
+    relation: connects-to
+    note: "The hunger hormone also feeds craving: ghrelin acts on the brain's reward circuitry and is studied as a modulator of craving across addictions, including the appetitive drive of gambling disorder."
+  - target: 01-human/04-cellular/oligodendrocyte
+    relation: connects-to
+    note: "Reward circuits show wear in the wiring: diffusion-imaging studies find white-matter microstructural changes in gambling disorder, implicating oligodendrocyte-formed myelin in its impulsivity and disrupted reward processing."
 sources:
   - id: grant-2016-gambling-review
     type: peer-reviewed
@@ -428,6 +437,9 @@ Persistent and recurrent problematic gambling behavior causing distress (≥4 of
 - `connects-to` → **[Venous thromboembolism](../venous-thromboembolism/README.md)** — Marathon sessions immobilise the legs: case reports describe deep-vein thrombosis and pulmonary embolism in people who sit motionless for many hours at slot machines or screens.
 - `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — Stress shows on the skin: the chronic financial stress, sleep deprivation and self-neglect of severe gambling addiction can aggravate stress-sensitive skin conditions.
 - `connects-to` → **[Fluoxetine](../../../03-medicine/01-modern/10-mental-health/fluoxetine/README.md)** — Medication targets the comorbidity: SSRIs like fluoxetine are trialled in gambling disorder and treat the depression and anxiety that so often accompany it, though evidence for the gambling itself is mixed.
+- `connects-to` → **[CRH](../../03-molecular/crh/README.md)** — Stress hormones fuel the urge: corticotropin-releasing hormone and HPA-axis activation drive craving and relapse in gambling disorder, tying chronic stress to its reward-seeking cycle.
+- `connects-to` → **[Ghrelin](../../03-molecular/ghrelin/README.md)** — The hunger hormone also feeds craving: ghrelin acts on the brain's reward circuitry and is studied as a modulator of craving across addictions, including the appetitive drive of gambling disorder.
+- `connects-to` → **[Oligodendrocyte](../../04-cellular/oligodendrocyte/README.md)** — Reward circuits show wear in the wiring: diffusion-imaging studies find white-matter microstructural changes in gambling disorder, implicating oligodendrocyte-formed myelin in its impulsivity and disrupted reward processing.
 
 [^potenza-2014-gambling-neuroscience]: Potenza MN. The neurobiology of pathological gambling and drug addiction: an overview and new findings. *Philos Trans R Soc Lond B Biol Sci.* 2008;363(1507):3181-3189. [doi:10.1098/rstb.2008.0100](https://doi.org/10.1098/rstb.2008.0100) · [PubMed 18640909](https://pubmed.ncbi.nlm.nih.gov/18640909/)
 [^grant-2016-gambling-review]: Grant JE, Chamberlain SR. Gambling disorder and its relationship with substance use disorders. *Am J Addict.* 2015;24(2):126-131. [doi:10.1111/ajad.12112](https://doi.org/10.1111/ajad.12112) · [PubMed 25376793](https://pubmed.ncbi.nlm.nih.gov/25376793/)
