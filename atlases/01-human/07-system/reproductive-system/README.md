@@ -221,6 +221,15 @@ cross_links:
   - target: 02-pathogen/01-viruses/hepatitis-c-virus
     relation: connects-to
     note: "It can pass hepatitis C onward: the virus is transmitted sexually and vertically from mother to baby, though less efficiently than hepatitis B."
+  - target: 02-pathogen/04-parasites/toxoplasma-gondii
+    relation: connects-to
+    note: "It crosses the placenta: maternal toxoplasmosis in pregnancy can transmit to the fetus, causing congenital toxoplasmosis with chorioretinitis and brain calcification, part of the TORCH group."
+  - target: 02-pathogen/02-bacteria/listeria-monocytogenes
+    relation: connects-to
+    note: "It targets the pregnant uterus: Listeria has a tropism for the placenta, and listeriosis in pregnancy causes miscarriage, stillbirth and severe neonatal sepsis."
+  - target: 03-medicine/03-food/zinc-dietary
+    relation: connects-to
+    note: "Zinc underpins fertility: it is essential for spermatogenesis, testosterone production and oocyte quality, so deficiency impairs reproduction in both sexes."
 ---
 
 # Reproductive System
@@ -404,6 +413,9 @@ Testosterone binds androgen receptor (AR, nuclear receptor NR3C4) → AR dimeriz
 - `connects-to` → **[Respiratory System](../respiratory-system/README.md)** — Pregnancy reshapes breathing and vertical infection reaches the airway: the gravid uterus and progesterone raise ventilation and cause breathlessness, and vertically-transmitted HPV causes recurrent respiratory papillomatosis in the child.
 - `connects-to` → **[HIV-1](../../../02-pathogen/01-viruses/hiv-1/README.md)** — It carries HIV to partners and babies: HIV spreads through sexual contact and vertically from mother to child, the route that antiretroviral prophylaxis in pregnancy is designed to interrupt.
 - `connects-to` → **[Hepatitis C Virus](../../../02-pathogen/01-viruses/hepatitis-c-virus/README.md)** — It can pass hepatitis C onward: the virus is transmitted sexually and vertically from mother to baby, though less efficiently than hepatitis B.
+- `connects-to` → **[Toxoplasma gondii](../../../02-pathogen/04-parasites/toxoplasma-gondii/README.md)** — It crosses the placenta: maternal toxoplasmosis in pregnancy can transmit to the fetus, causing congenital toxoplasmosis with chorioretinitis and brain calcification, part of the TORCH group.
+- `connects-to` → **[Listeria monocytogenes](../../../02-pathogen/02-bacteria/listeria-monocytogenes/README.md)** — It targets the pregnant uterus: Listeria has a tropism for the placenta, and listeriosis in pregnancy causes miscarriage, stillbirth and severe neonatal sepsis.
+- `connects-to` → **[Dietary Zinc](../../../03-medicine/03-food/zinc-dietary/README.md)** — Zinc underpins fertility: it is essential for spermatogenesis, testosterone production and oocyte quality, so deficiency impairs reproduction in both sexes.
 
 ## Pathology
 

@@ -223,6 +223,15 @@ cross_links:
   - target: 01-human/07-system/respiratory-system
     relation: connects-to
     note: "Survivors face second cancers in the chest: hereditary retinoblastoma carriers have a high lifetime risk of second primary cancers including lung cancer, especially with smoking, and sarcomas."
+  - target: 01-human/07-system/cardiovascular-system
+    relation: connects-to
+    note: "Treatment can reach the heart: systemic chemotherapy for retinoblastoma, and the radiation given historically, carry long-term cardiovascular risk in survivors."
+  - target: 01-human/07-system/immune-system
+    relation: connects-to
+    note: "Therapy suppresses immunity: intensive chemotherapy for advanced retinoblastoma leaves children immunocompromised, and immunotherapy is being explored for refractory disease."
+  - target: 01-human/07-system/lymphatic-system
+    relation: connects-to
+    note: "Extraocular spread reaches the nodes: when retinoblastoma extends beyond the eye, it can metastasise to preauricular and cervical lymph nodes, a marker of advanced disease."
 ---
 
 # Retinoblastoma
@@ -404,6 +413,9 @@ Standard regimen: **vincristine + carboplatin + etoposide (VCE)**, 6 cycles; red
 - `connects-to` → **[Renal System](../renal-system/README.md)** — Its chemotherapy taxes the kidney: the carboplatin used to treat retinoblastoma is nephrotoxic and can cause electrolyte wasting, needing monitoring in small children.
 - `connects-to` → **[Endocrine System](../endocrine-system/README.md)** — Orbital radiation reaches the growing child: external-beam radiation for hereditary retinoblastoma can impair facial-bone growth and nearby endocrine structures and raises the risk of second cancers in the field.
 - `connects-to` → **[Respiratory System](../respiratory-system/README.md)** — Survivors face second cancers in the chest: hereditary retinoblastoma carriers have a high lifetime risk of second primary cancers including lung cancer, especially with smoking, and sarcomas.
+- `connects-to` → **[Cardiovascular System](../cardiovascular-system/README.md)** — Treatment can reach the heart: systemic chemotherapy for retinoblastoma, and the radiation given historically, carry long-term cardiovascular risk in survivors.
+- `connects-to` → **[Immune System](../immune-system/README.md)** — Therapy suppresses immunity: intensive chemotherapy for advanced retinoblastoma leaves children immunocompromised, and immunotherapy is being explored for refractory disease.
+- `connects-to` → **[Lymphatic System](../lymphatic-system/README.md)** — Extraocular spread reaches the nodes: when retinoblastoma extends beyond the eye, it can metastasise to preauricular and cervical lymph nodes, a marker of advanced disease.
 
 [^knudson-1971-two-hit]: Knudson AG Jr. Mutation and cancer: statistical study of retinoblastoma. *Proc Natl Acad Sci USA.* 1971;68(4):820-823. [doi:10.1073/pnas.68.4.820](https://doi.org/10.1073/pnas.68.4.820) · [PubMed 5279523](https://pubmed.ncbi.nlm.nih.gov/5279523/)
 [^shields-2008-retinoblastoma]: Shields CL, Shields JA. Retinoblastoma management: advances in enucleation, intravenous chemoreduction, and intra-arterial chemotherapy. *Curr Opin Ophthalmol.* 2010;21(3):203-212. [doi:10.1097/ICU.0b013e328338676a](https://doi.org/10.1097/ICU.0b013e328338676a) · [PubMed 20224400](https://pubmed.ncbi.nlm.nih.gov/20224400/)
