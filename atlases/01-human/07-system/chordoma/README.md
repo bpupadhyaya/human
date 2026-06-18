@@ -214,6 +214,15 @@ cross_links:
   - target: 01-human/07-system/generalized-anxiety-disorder
     relation: connects-to
     note: "A locally relentless tumour breeds worry: the high recurrence rate, repeated surgery and proton radiation, and slow inexorable course of chordoma foster chronic health anxiety alongside depression."
+  - target: 01-human/07-system/renal-system
+    relation: connects-to
+    note: "Sacral tumours wreck pelvic nerve control: a sacral chordoma and its resection damage the sacral nerve roots, causing neurogenic bladder and bowel dysfunction and incontinence."
+  - target: 01-human/07-system/cardiovascular-system
+    relation: connects-to
+    note: "Skull-base tumours wrap the great arteries: clival chordoma encases the carotid and vertebral arteries, making resection hazardous and risking stroke from vessel injury."
+  - target: 01-human/07-system/respiratory-system
+    relation: connects-to
+    note: "Late disease reaches the lungs: although chordoma is mainly locally destructive, advanced tumours can metastasise to the lungs over their slow, relentless course."
 ---
 
 # Chordoma
@@ -414,6 +423,9 @@ CDKN2A deletion in ~30-40% → CDK4/6 hyperactivation → RB1 phosphorylation; p
 - `connects-to` → **[Digestive System](../digestive-system/README.md)** — It compresses the gut from both ends: a sacral chordoma damages the nerves to the rectum, causing constipation and faecal incontinence, while a clival tumour near the brainstem can impair swallowing.
 - `connects-to` → **[Endocrine System](../endocrine-system/README.md)** — Skull-base tumours threaten the pituitary: clival chordomas sit beside the sella and can compress the pituitary, and surgery or radiation to the region can cause hypopituitarism.
 - `connects-to` → **[Generalized Anxiety Disorder](../generalized-anxiety-disorder/README.md)** — A locally relentless tumour breeds worry: the high recurrence rate, repeated surgery and proton radiation, and slow inexorable course of chordoma foster chronic health anxiety alongside depression.
+- `connects-to` → **[Renal System](../renal-system/README.md)** — Sacral tumours wreck pelvic nerve control: a sacral chordoma and its resection damage the sacral nerve roots, causing neurogenic bladder and bowel dysfunction and incontinence.
+- `connects-to` → **[Cardiovascular System](../cardiovascular-system/README.md)** — Skull-base tumours wrap the great arteries: clival chordoma encases the carotid and vertebral arteries, making resection hazardous and risking stroke from vessel injury.
+- `connects-to` → **[Respiratory System](../respiratory-system/README.md)** — Late disease reaches the lungs: although chordoma is mainly locally destructive, advanced tumours can metastasise to the lungs over their slow, relentless course.
 
 ---
 

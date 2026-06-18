@@ -222,6 +222,15 @@ cross_links:
   - target: 01-human/07-system/generalized-anxiety-disorder
     relation: connects-to
     note: "A chronic, relapsing, disabling neuropathy breeds worry: the fluctuating weakness, dependence on repeated infusions and uncertain course of CIDP foster chronic health anxiety alongside depression."
+  - target: 01-human/07-system/respiratory-system
+    relation: connects-to
+    note: "Severe disease can weaken breathing: although milder than Guillain-Barré, severe or acute-onset CIDP can involve the respiratory muscles and occasionally require ventilatory support."
+  - target: 01-human/07-system/renal-system
+    relation: connects-to
+    note: "Its immunoglobulin therapy can injure the kidney: intravenous immunoglobulin, a mainstay CIDP treatment, can cause acute kidney injury, particularly with older sucrose-stabilised preparations."
+  - target: 01-human/07-system/cardiovascular-system
+    relation: connects-to
+    note: "Its treatments strain the circulation: IVIG carries thromboembolic and volume-overload risks, and long-term corticosteroids used in CIDP add hypertension and fluid retention."
 ---
 
 # CIDP
@@ -432,6 +441,9 @@ IgG4 anti-NF155 or anti-CNTN1 disrupts this complex → paranodal loop detachmen
 - `connects-to` → **[Varicella-Zoster Virus](../../../02-pathogen/01-viruses/varicella-zoster-virus/README.md)** — Its immunosuppression reawakens shingles: the corticosteroids, rituximab and other immunosuppressants used long-term for CIDP deplete antiviral immunity, allowing herpes-zoster reactivation.
 - `connects-to` → **[Endocrine System](../endocrine-system/README.md)** — Long steroid courses disturb the glands: the prolonged corticosteroids used to control CIDP cause hyperglycaemia and adrenal suppression, and steroid diabetes is a common treatment complication.
 - `connects-to` → **[Generalized Anxiety Disorder](../generalized-anxiety-disorder/README.md)** — A chronic, relapsing, disabling neuropathy breeds worry: the fluctuating weakness, dependence on repeated infusions and uncertain course of CIDP foster chronic health anxiety alongside depression.
+- `connects-to` → **[Respiratory System](../respiratory-system/README.md)** — Severe disease can weaken breathing: although milder than Guillain-Barré, severe or acute-onset CIDP can involve the respiratory muscles and occasionally require ventilatory support.
+- `connects-to` → **[Renal System](../renal-system/README.md)** — Its immunoglobulin therapy can injure the kidney: intravenous immunoglobulin, a mainstay CIDP treatment, can cause acute kidney injury, particularly with older sucrose-stabilised preparations.
+- `connects-to` → **[Cardiovascular System](../cardiovascular-system/README.md)** — Its treatments strain the circulation: IVIG carries thromboembolic and volume-overload risks, and long-term corticosteroids used in CIDP add hypertension and fluid retention.
 
 ---
 
