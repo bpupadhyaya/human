@@ -226,6 +226,15 @@ cross_links:
   - target: 01-human/07-system/lymphatic-system
     relation: connects-to
     note: "It destroys its own spleen: repeated splenic infarction causes autosplenectomy and functional asplenia, leaving lifelong vulnerability to encapsulated bacteria and the need for vaccination."
+  - target: 01-human/07-system/renal-system
+    relation: connects-to
+    note: "Sickle cell nephropathy is near-universal: sickling in the renal medulla causes hyposthenuria, papillary necrosis and haematuria, progressing through proteinuric FSGS to chronic kidney disease."
+  - target: 03-medicine/01-modern/04-cardio/ace-inhibitors
+    relation: connects-to
+    note: "They protect the sickle kidney: ACE inhibitors reduce the proteinuria of sickle cell nephropathy, slowing the decline towards kidney failure."
+  - target: 03-medicine/03-food/zinc-dietary
+    relation: connects-to
+    note: "Chronic haemolysis drains zinc: urinary zinc loss in sickle cell disease contributes to growth retardation, delayed puberty and impaired immunity, and supplementation can help."
 ---
 
 # Sickle Cell Disease
@@ -454,6 +463,9 @@ SCD vaso-occlusion is not just from sickled RBCs mechanically blocking vessels �
 - `connects-to` → **[Nervous System](../nervous-system/README.md)** — It silently scars the brain: beyond overt stroke, sickle cell disease causes silent cerebral infarcts, cognitive impairment and a moyamoya-like cerebral vasculopathy, especially in children.
 - `connects-to` → **[Endocrine System](../endocrine-system/README.md)** — It stunts growth and hormones: chronic anaemia delays growth and puberty, and transfusional iron overload damages the pituitary and gonads, causing hypogonadism and hypopituitarism.
 - `connects-to` → **[Lymphatic System](../lymphatic-system/README.md)** — It destroys its own spleen: repeated splenic infarction causes autosplenectomy and functional asplenia, leaving lifelong vulnerability to encapsulated bacteria and the need for vaccination.
+- `connects-to` → **[Renal System](../renal-system/README.md)** — Sickle cell nephropathy is near-universal: sickling in the renal medulla causes hyposthenuria, papillary necrosis and haematuria, progressing through proteinuric FSGS to chronic kidney disease.
+- `connects-to` → **[ACE inhibitors](../../../03-medicine/01-modern/04-cardio/ace-inhibitors/README.md)** — They protect the sickle kidney: ACE inhibitors reduce the proteinuria of sickle cell nephropathy, slowing the decline towards kidney failure.
+- `connects-to` → **[Dietary Zinc](../../../03-medicine/03-food/zinc-dietary/README.md)** — Chronic haemolysis drains zinc: urinary zinc loss in sickle cell disease contributes to growth retardation, delayed puberty and impaired immunity, and supplementation can help.
 
 [^steinberg-1999-scd-management]: Steinberg MH. Management of sickle cell disease. *N Engl J Med.* 1999;340(13):1021-1030. [doi:10.1056/NEJM199904013401307](https://doi.org/10.1056/NEJM199904013401307) · [PubMed 10099145](https://pubmed.ncbi.nlm.nih.gov/10099145/)
 [^vichinsky-2000-acs-scd]: Vichinsky EP, Neumayr LD, Earles AN, et al. Causes and outcomes of the acute chest syndrome in sickle cell disease. *N Engl J Med.* 2000;342(25):1855-1865. [doi:10.1056/NEJM200006223422502](https://doi.org/10.1056/NEJM200006223422502) · [PubMed 10861320](https://pubmed.ncbi.nlm.nih.gov/10861320/)

@@ -226,6 +226,15 @@ cross_links:
   - target: 01-human/07-system/respiratory-system
     relation: connects-to
     note: "Fear quickens the breath: social anxiety provokes hyperventilation, breathlessness and a choking sensation during feared encounters, somatic symptoms that can escalate to panic."
+  - target: 03-medicine/01-modern/10-mental-health/fluoxetine
+    relation: connects-to
+    note: "First-line treatment is an SSRI: antidepressants like fluoxetine, alongside cognitive behavioural therapy, are the mainstay for generalised social anxiety disorder."
+  - target: 03-medicine/01-modern/04-cardio/beta-blockers
+    relation: connects-to
+    note: "A heart drug calms performance nerves: beta-blockers like propranolol blunt the tremor, palpitations and sweating of performance anxiety when taken before a feared event."
+  - target: 01-human/07-system/immune-system
+    relation: connects-to
+    note: "Chronic social stress inflames the body: sustained anxiety dysregulates cortisol and raises inflammatory markers, a stress-immune link shared across the anxiety disorders."
 ---
 
 # Social Anxiety Disorder
@@ -425,6 +434,9 @@ The unique **dopaminergic social reward deficit** in SAD has clinical implicatio
 - `connects-to` → **[Endocrine System](../endocrine-system/README.md)** — Social-evaluative fear spikes cortisol: social anxiety disorder shows an exaggerated HPA-axis cortisol response to scrutiny, and beta-blockers blunt the adrenergic tremor and palpitations of performance anxiety.
 - `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — Anticipation tenses the body: dreaded social situations bring muscle tension, trembling and tension headaches that themselves heighten self-consciousness.
 - `connects-to` → **[Respiratory System](../respiratory-system/README.md)** — Fear quickens the breath: social anxiety provokes hyperventilation, breathlessness and a choking sensation during feared encounters, somatic symptoms that can escalate to panic.
+- `connects-to` → **[Fluoxetine](../../../03-medicine/01-modern/10-mental-health/fluoxetine/README.md)** — First-line treatment is an SSRI: antidepressants like fluoxetine, alongside cognitive behavioural therapy, are the mainstay for generalised social anxiety disorder.
+- `connects-to` → **[Beta-blockers](../../../03-medicine/01-modern/04-cardio/beta-blockers/README.md)** — A heart drug calms performance nerves: beta-blockers like propranolol blunt the tremor, palpitations and sweating of performance anxiety when taken before a feared event.
+- `connects-to` → **[Immune System](../immune-system/README.md)** — Chronic social stress inflames the body: sustained anxiety dysregulates cortisol and raises inflammatory markers, a stress-immune link shared across the anxiety disorders.
 
 [^liebowitz-1987-sad-scale]: Liebowitz MR. Social phobia. *Mod Probl Pharmacopsychiatry.* 1987;22:141-173. [PubMed 2885745](https://pubmed.ncbi.nlm.nih.gov/2885745/)
 [^stein-2008-sad-review]: Stein MB, Stein DJ. Social anxiety disorder. *Lancet.* 2008;371(9618):1115-1125. [doi:10.1016/S0140-6736(08)60488-2](https://doi.org/10.1016/S0140-6736(08)60488-2) · [PubMed 18374843](https://pubmed.ncbi.nlm.nih.gov/18374843/)
