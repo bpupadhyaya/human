@@ -247,6 +247,15 @@ cross_links:
   - target: 01-human/07-system/type-2-diabetes
     relation: connects-to
     note: "Treatment brings metabolic disease: long-term antiretroviral therapy and chronic inflammation cause insulin resistance, lipodystrophy and a raised risk of type 2 diabetes in people with HIV."
+  - target: 01-human/05-tissue/germinal-center
+    relation: connects-to
+    note: "Lymphoid tissue is its reservoir: HIV concentrates in lymph-node germinal centres, where follicular dendritic cells trap virions and infected follicular helper T cells form a latent reservoir that ART cannot clear."
+  - target: 01-human/05-tissue/glomerulus
+    relation: connects-to
+    note: "It scars the kidney filter: HIV-associated nephropathy is a collapsing focal segmental glomerulosclerosis striking the glomerulus, classically in untreated patients of African ancestry with APOL1 variants, causing rapid renal failure."
+  - target: 03-medicine/01-modern/13-cancer/targeted-therapy
+    relation: connects-to
+    note: "Antibodies and entry blockers join the arsenal: the CCR5 antagonist maraviroc, the anti-CD4 antibody ibalizumab and broadly neutralizing antibodies target HIV's entry machinery, complementing standard antiretrovirals."
 ---
 
 # HIV
@@ -458,6 +467,9 @@ The **latent reservoir** — HIV integrated into quiescent resting memory CD4+ T
 - `connects-to` → **[Mycobacterium tuberculosis](../../../02-pathogen/02-bacteria/mycobacterium-tuberculosis/README.md)** — Its deadliest companion infection: tuberculosis is the leading cause of death in people with HIV, the two epidemics fuelling each other as falling CD4 counts reactivate latent TB.
 - `connects-to` → **[HPV-16](../../../02-pathogen/01-viruses/hpv-16/README.md)** — Immune loss lets the oncovirus persist: HIV impairs clearance of human papillomavirus, driving the high rates of cervical and anal cancer that define AIDS-associated malignancy.
 - `connects-to` → **[Type 2 Diabetes](../type-2-diabetes/README.md)** — Treatment brings metabolic disease: long-term antiretroviral therapy and chronic inflammation cause insulin resistance, lipodystrophy and a raised risk of type 2 diabetes in people with HIV.
+- `connects-to` → **[Germinal Center](../../05-tissue/germinal-center/README.md)** — Lymphoid tissue is its reservoir: HIV concentrates in lymph-node germinal centres, where follicular dendritic cells trap virions and infected follicular helper T cells form a latent reservoir that ART cannot clear.
+- `connects-to` → **[Glomerulus](../../05-tissue/glomerulus/README.md)** — It scars the kidney filter: HIV-associated nephropathy is a collapsing focal segmental glomerulosclerosis striking the glomerulus, classically in untreated patients of African ancestry with APOL1 variants, causing rapid renal failure.
+- `connects-to` → **[Targeted Therapy](../../../03-medicine/01-modern/13-cancer/targeted-therapy/README.md)** — Antibodies and entry blockers join the arsenal: the CCR5 antagonist maraviroc, the anti-CD4 antibody ibalizumab and broadly neutralizing antibodies target HIV's entry machinery, complementing standard antiretrovirals.
 
 [^barre-sinoussi-1983-hiv-isolation]: Barré-Sinoussi F, Chermann JC, Rey F, et al. Isolation of a T-lymphotropic retrovirus from a patient at risk for acquired immune deficiency syndrome (AIDS). *Science.* 1983;220(4599):868-871. [doi:10.1126/science.6189183](https://doi.org/10.1126/science.6189183) · [PubMed 6189183](https://pubmed.ncbi.nlm.nih.gov/6189183/)
 [^ho-1995-viral-dynamics]: Ho DD, Neumann AU, Perelson AS, et al. Rapid turnover of plasma virions and CD4 lymphocytes in HIV-1 infection. *Nature.* 1995;373(6510):123-126. [doi:10.1038/373123a0](https://doi.org/10.1038/373123a0) · [PubMed 7816094](https://pubmed.ncbi.nlm.nih.gov/7816094/)

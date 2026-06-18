@@ -238,6 +238,15 @@ cross_links:
   - target: 02-pathogen/01-viruses/hepatitis-b-virus
     relation: connects-to
     note: "The leading global cause: chronic hepatitis B drives most hepatocellular carcinoma worldwide, integrating into the genome and causing cancer even without cirrhosis, which vaccination now prevents."
+  - target: 03-medicine/01-modern/13-cancer/cancer-chemotherapy
+    relation: connects-to
+    note: "Systemically chemoresistant, locoregionally treated: HCC responds poorly to conventional systemic chemotherapy, so treatment relies on TACE — delivering doxorubicin or cisplatin directly into the tumour's hepatic-arterial supply — plus targeted and immune therapy."
+  - target: 01-human/05-tissue/hepatic-lobule
+    relation: connects-to
+    note: "It grows out of the cirrhotic lobule: hepatocellular carcinoma arises within the disturbed architecture of the cirrhotic liver, where regenerative nodules become dysplastic and then malignant, distorting the normal hepatic lobule."
+  - target: 03-medicine/01-modern/04-cardio/aspirin
+    relation: connects-to
+    note: "Aspirin may lower its risk: regular aspirin use is associated with reduced hepatocellular carcinoma incidence in chronic viral hepatitis and metabolic liver disease, studied as chemoprevention through anti-inflammatory and antiplatelet effects."
 ---
 
 # Hepatocellular Carcinoma
@@ -449,6 +458,9 @@ In high-risk patients (cirrhosis, HBV regardless of cirrhosis): ultrasound ± AF
 - `connects-to` → **[Checkpoint Inhibitors](../../../03-medicine/01-modern/13-cancer/checkpoint-inhibitors/README.md)** — Immunotherapy now leads first-line care: atezolizumab (anti-PD-L1) with bevacizumab, and dual nivolumab-ipilimumab, have overtaken kinase inhibitors as first-line treatment for advanced hepatocellular carcinoma.
 - `connects-to` → **[Targeted Therapy](../../../03-medicine/01-modern/13-cancer/targeted-therapy/README.md)** — Multikinase inhibitors target its vasculature: sorafenib and lenvatinib block VEGFR and other kinases to slow advanced HCC, with cabozantinib and regorafenib used after progression.
 - `connects-to` → **[Hepatitis B Virus](../../../02-pathogen/01-viruses/hepatitis-b-virus/README.md)** — The leading global cause: chronic hepatitis B drives most hepatocellular carcinoma worldwide, integrating into the genome and causing cancer even without cirrhosis, which vaccination now prevents.
+- `connects-to` → **[Cancer Chemotherapy](../../../03-medicine/01-modern/13-cancer/cancer-chemotherapy/README.md)** — Systemically chemoresistant, locoregionally treated: HCC responds poorly to conventional systemic chemotherapy, so treatment relies on TACE — delivering doxorubicin or cisplatin directly into the tumour's hepatic-arterial supply — plus targeted and immune therapy.
+- `connects-to` → **[Hepatic Lobule](../../05-tissue/hepatic-lobule/README.md)** — It grows out of the cirrhotic lobule: hepatocellular carcinoma arises within the disturbed architecture of the cirrhotic liver, where regenerative nodules become dysplastic and then malignant, distorting the normal hepatic lobule.
+- `connects-to` → **[Aspirin](../../../03-medicine/01-modern/04-cardio/aspirin/README.md)** — Aspirin may lower its risk: regular aspirin use is associated with reduced hepatocellular carcinoma incidence in chronic viral hepatitis and metabolic liver disease, studied as chemoprevention through anti-inflammatory and antiplatelet effects.
 
 [^llovet-2008-sorafenib]: Llovet JM, Ricci S, Mazzaferro V, et al. Sorafenib in advanced hepatocellular carcinoma. *N Engl J Med.* 2008;359(4):378-390. [doi:10.1056/NEJMoa0708857](https://doi.org/10.1056/NEJMoa0708857) · [PubMed 18650514](https://pubmed.ncbi.nlm.nih.gov/18650514/)
 [^finn-2020-imbrave150]: Finn RS, Qin S, Ikeda M, et al. Atezolizumab plus bevacizumab in unresectable hepatocellular carcinoma. *N Engl J Med.* 2020;382(20):1894-1905. [doi:10.1056/NEJMoa1915745](https://doi.org/10.1056/NEJMoa1915745) · [PubMed 32402160](https://pubmed.ncbi.nlm.nih.gov/32402160/)
