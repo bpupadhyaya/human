@@ -223,6 +223,15 @@ cross_links:
   - target: 01-human/07-system/lymphatic-system
     relation: connects-to
     note: "It forms cysts in the mesentery: lymphatic and mesenteric cysts occur among the developmental anomalies of Gorlin syndrome alongside its many other lesions."
+  - target: 01-human/07-system/dicer1-syndrome
+    relation: connects-to
+    note: "A reciprocal childhood-brain-tumour syndrome: like DICER1 syndrome, Gorlin syndrome predisposes to medulloblastoma, the two sharing the differential of inherited paediatric brain tumours."
+  - target: 01-human/07-system/birt-hogg-dube-syndrome
+    relation: connects-to
+    note: "A fellow skin-marker tumour syndrome: both Gorlin and Birt-Hogg-Dubé are autosomal-dominant disorders whose characteristic facial skin lesions flag an inherited tumour predisposition."
+  - target: 01-human/07-system/tuberous-sclerosis-complex
+    relation: connects-to
+    note: "A comparator neurocutaneous syndrome: like tuberous sclerosis, Gorlin syndrome combines distinctive skin signs with brain and skeletal lesions in an autosomal-dominant pattern."
 ---
 
 # Gorlin Syndrome
@@ -402,6 +411,9 @@ Both are two-hit tumor suppressors: germline heterozygous LOF + somatic second h
 - `connects-to` → **[Respiratory System](../respiratory-system/README.md)** — Radiation is hazardous to its chest: radiotherapy induces a shower of basal cell carcinomas in the field, so it is avoided where possible, and benign lung and pleural cysts occur in the syndrome.
 - `connects-to` → **[Renal System](../renal-system/README.md)** — It seeds cysts in the kidney: renal cysts and developmental renal-tract anomalies are among the structural malformations of Gorlin syndrome.
 - `connects-to` → **[Lymphatic System](../lymphatic-system/README.md)** — It forms cysts in the mesentery: lymphatic and mesenteric cysts occur among the developmental anomalies of Gorlin syndrome alongside its many other lesions.
+- `connects-to` → **[DICER1 Syndrome](../dicer1-syndrome/README.md)** — A reciprocal childhood-brain-tumour syndrome: like DICER1 syndrome, Gorlin syndrome predisposes to medulloblastoma, the two sharing the differential of inherited paediatric brain tumours.
+- `connects-to` → **[Birt-Hogg-Dubé Syndrome](../birt-hogg-dube-syndrome/README.md)** — A fellow skin-marker tumour syndrome: both Gorlin and Birt-Hogg-Dubé are autosomal-dominant disorders whose characteristic facial skin lesions flag an inherited tumour predisposition.
+- `connects-to` → **[Tuberous Sclerosis Complex](../tuberous-sclerosis-complex/README.md)** — A comparator neurocutaneous syndrome: like tuberous sclerosis, Gorlin syndrome combines distinctive skin signs with brain and skeletal lesions in an autosomal-dominant pattern.
 
 ---
 

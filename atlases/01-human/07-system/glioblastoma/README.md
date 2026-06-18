@@ -223,6 +223,15 @@ cross_links:
   - target: 01-human/07-system/musculoskeletal-system
     relation: connects-to
     note: "Its steroids waste the muscles: the prolonged high-dose dexamethasone used to control peritumoural oedema causes a proximal steroid myopathy and bone loss."
+  - target: 01-human/07-system/cardiovascular-system
+    relation: connects-to
+    note: "It is intensely prothrombotic: glioblastoma carries one of the highest rates of venous thromboembolism of any cancer, and corticosteroids for oedema add hypertension."
+  - target: 01-human/07-system/respiratory-system
+    relation: connects-to
+    note: "Immobility and immunosuppression threaten the lungs: pulmonary embolism, aspiration in late disease and steroid-related Pneumocystis pneumonia all endanger glioblastoma patients."
+  - target: 01-human/07-system/reproductive-system
+    relation: connects-to
+    note: "Chemotherapy can impair fertility: the temozolomide used against glioblastoma is gonadotoxic, a consideration for the younger patients who receive it."
 ---
 
 # Glioblastoma
@@ -421,6 +430,9 @@ The blood-brain barrier (BBB) creates a pharmacological challenge:
 - `connects-to` → **[Immune System](../immune-system/README.md)** — It hides from the immune system: glioblastoma is profoundly immunosuppressive — an immunologically 'cold' tumour that resists checkpoint inhibitors — and the dexamethasone used for oedema further blunts immunity.
 - `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — Treatment marks the scalp and skin: radiotherapy causes dermatitis and alopecia, dexamethasone thins the skin, and the tumour-treating-fields device causes scalp contact dermatitis.
 - `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — Its steroids waste the muscles: the prolonged high-dose dexamethasone used to control peritumoural oedema causes a proximal steroid myopathy and bone loss.
+- `connects-to` → **[Cardiovascular System](../cardiovascular-system/README.md)** — It is intensely prothrombotic: glioblastoma carries one of the highest rates of venous thromboembolism of any cancer, and corticosteroids for oedema add hypertension.
+- `connects-to` → **[Respiratory System](../respiratory-system/README.md)** — Immobility and immunosuppression threaten the lungs: pulmonary embolism, aspiration in late disease and steroid-related Pneumocystis pneumonia all endanger glioblastoma patients.
+- `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — Chemotherapy can impair fertility: the temozolomide used against glioblastoma is gonadotoxic, a consideration for the younger patients who receive it.
 
 ---
 
