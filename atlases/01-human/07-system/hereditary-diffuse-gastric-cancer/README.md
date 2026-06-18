@@ -214,6 +214,15 @@ cross_links:
   - target: 01-human/07-system/nervous-system
     relation: connects-to
     note: "Vitamin B12 loss can degrade the spinal cord: with no stomach to make intrinsic factor, untreated B12 deficiency after gastrectomy causes subacute combined degeneration with sensory and cognitive decline."
+  - target: 01-human/07-system/integumentary-system
+    relation: connects-to
+    note: "Its gene also binds skin cells: CDH1 encodes E-cadherin, a cell-adhesion protein of epithelia and skin, and some CDH1 families carry cleft lip and palate alongside their cancer risk."
+  - target: 01-human/07-system/respiratory-system
+    relation: connects-to
+    note: "Diffuse spread reaches the chest: signet-ring gastric cancer disseminates transcoelomically to the peritoneum and can seed the pleura, causing malignant effusions and breathlessness."
+  - target: 01-human/07-system/cardiovascular-system
+    relation: connects-to
+    note: "Life after total gastrectomy strains the circulation: dumping syndrome causes postprandial tachycardia, sweating and hypotension as food rushes into the small bowel."
 ---
 
 # Hereditary Diffuse Gastric Cancer
@@ -387,6 +396,9 @@ Testing for CDH1 (and CTNNA1) is indicated in any of the following:
 - `connects-to` → **[Endocrine System](../endocrine-system/README.md)** — Losing the stomach upends metabolism: prophylactic total gastrectomy in HDGC removes ghrelin-producing tissue and causes dumping syndrome with reactive hypoglycaemia and lasting nutritional disturbance.
 - `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — Malabsorption after gastrectomy weakens bone and muscle: the impaired calcium, vitamin D and protein uptake of an absent stomach causes metabolic bone disease and sarcopenia in HDGC survivors.
 - `connects-to` → **[Nervous System](../nervous-system/README.md)** — Vitamin B12 loss can degrade the spinal cord: with no stomach to make intrinsic factor, untreated B12 deficiency after gastrectomy causes subacute combined degeneration with sensory and cognitive decline.
+- `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — Its gene also binds skin cells: CDH1 encodes E-cadherin, a cell-adhesion protein of epithelia and skin, and some CDH1 families carry cleft lip and palate alongside their cancer risk.
+- `connects-to` → **[Respiratory System](../respiratory-system/README.md)** — Diffuse spread reaches the chest: signet-ring gastric cancer disseminates transcoelomically to the peritoneum and can seed the pleura, causing malignant effusions and breathlessness.
+- `connects-to` → **[Cardiovascular System](../cardiovascular-system/README.md)** — Life after total gastrectomy strains the circulation: dumping syndrome causes postprandial tachycardia, sweating and hypotension as food rushes into the small bowel.
 
 [^van-der-post-2015-hdgc-guidelines]: van der Post RS, Vogelaar IP, Carneiro F, et al. Hereditary diffuse gastric cancer: updated clinical guidelines with an emphasis on germline CDH1 mutation carriers. *J Med Genet.* 2015;52(6):361-374. [doi:10.1136/jmedgenet-2015-103094](https://doi.org/10.1136/jmedgenet-2015-103094) · [PubMed 25979631](https://pubmed.ncbi.nlm.nih.gov/25979631/)
 [^hansford-2015-hdgc]: Hansford S, Kaurah P, Li-Chang H, et al. Hereditary Diffuse Gastric Cancer Syndrome: CDH1 Mutations and Beyond. *JAMA Oncol.* 2015;1(1):23-32. [doi:10.1001/jamaoncol.2014.168](https://doi.org/10.1001/jamaoncol.2014.168) · [PubMed 26182300](https://pubmed.ncbi.nlm.nih.gov/26182300/)

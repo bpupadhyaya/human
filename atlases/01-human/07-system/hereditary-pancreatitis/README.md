@@ -214,6 +214,15 @@ cross_links:
   - target: 01-human/07-system/musculoskeletal-system
     relation: connects-to
     note: "Enzyme release can inflame fat and joints: hereditary pancreatitis can cause the pancreatitis-panniculitis-polyarthritis syndrome, and chronic malabsorption of vitamin D weakens bone."
+  - target: 01-human/07-system/renal-system
+    relation: connects-to
+    note: "Severe attacks injure the kidney: acute pancreatitis causes third-spacing, hypovolaemia and shock that lead to acute kidney injury and tubular necrosis."
+  - target: 01-human/07-system/cardiovascular-system
+    relation: connects-to
+    note: "A severe attack collapses the circulation: acute pancreatitis triggers a systemic inflammatory response with capillary leak and distributive shock requiring aggressive fluid resuscitation."
+  - target: 01-human/07-system/lymphatic-system
+    relation: connects-to
+    note: "Duct disruption leaks lymph and clots veins: pancreatic duct rupture can cause pancreatic and chylous ascites, and peripancreatic inflammation can thrombose the splenic vein."
 ---
 
 # Hereditary Pancreatitis
@@ -423,6 +432,9 @@ cross_links:
 - `connects-to` → **[Respiratory System](../respiratory-system/README.md)** — Severe attacks flood the lungs: an acute pancreatitis flare in hereditary pancreatitis can cause pleural effusions and acute respiratory distress syndrome from the systemic inflammatory response.
 - `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — Leaked pancreatic enzymes mark the skin: severe pancreatitis causes the bruising of Cullen's and Grey-Turner's signs, and circulating lipase can produce a nodular pancreatic panniculitis.
 - `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — Enzyme release can inflame fat and joints: hereditary pancreatitis can cause the pancreatitis-panniculitis-polyarthritis syndrome, and chronic malabsorption of vitamin D weakens bone.
+- `connects-to` → **[Renal System](../renal-system/README.md)** — Severe attacks injure the kidney: acute pancreatitis causes third-spacing, hypovolaemia and shock that lead to acute kidney injury and tubular necrosis.
+- `connects-to` → **[Cardiovascular System](../cardiovascular-system/README.md)** — A severe attack collapses the circulation: acute pancreatitis triggers a systemic inflammatory response with capillary leak and distributive shock requiring aggressive fluid resuscitation.
+- `connects-to` → **[Lymphatic System](../lymphatic-system/README.md)** — Duct disruption leaks lymph and clots veins: pancreatic duct rupture can cause pancreatic and chylous ascites, and peripancreatic inflammation can thrombose the splenic vein.
 
 [^whitcomb-1996-prss1]: Whitcomb DC, Gorry MC, Preston RA, et al. Hereditary pancreatitis is caused by a mutation in the cationic trypsinogen gene. *Nat Genet.* 1996;14(2):141-145. [doi:10.1038/ng1096-141](https://doi.org/10.1038/ng1096-141) · [PubMed 8841182](https://pubmed.ncbi.nlm.nih.gov/8841182/)
 [^lowenfels-2001-hp-pdac]: Lowenfels AB, Maisonneuve P, DiMagno EP, et al. Hereditary pancreatitis and the risk of pancreatic cancer. *J Natl Cancer Inst.* 2001;93(1):26-31. [doi:10.1093/jnci/93.1.26](https://doi.org/10.1093/jnci/93.1.26) · [PubMed 11136838](https://pubmed.ncbi.nlm.nih.gov/11136838/)
