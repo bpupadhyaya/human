@@ -241,6 +241,15 @@ cross_links:
   - target: 03-medicine/01-modern/13-cancer/cancer-chemotherapy
     relation: connects-to
     note: "Cytotoxic immunosuppression for crescentic disease: cyclophosphamide with steroids is used in rapidly progressive crescentic IgA nephropathy to halt aggressive glomerular injury."
+  - target: 01-human/05-tissue/arterial-wall
+    relation: connects-to
+    note: "The kidney disease kills through the arteries: IgA nephropathy drives hypertension and chronic kidney disease that accelerate arterial-wall atherosclerosis and stiffening, making cardiovascular events—not kidney failure alone—a leading cause of death in patients with IgAN."
+  - target: 01-human/07-system/psoriasis
+    relation: connects-to
+    note: "A shared mucocutaneous IgA immune axis: IgA nephropathy is associated with psoriasis, and the TNF inhibitors used to treat psoriasis can themselves trigger new-onset IgA nephropathy—linking skin inflammation to glomerular IgA deposition."
+  - target: 01-human/07-system/rheumatoid-arthritis
+    relation: connects-to
+    note: "Chronic inflammation scars the kidney too: long-standing rheumatoid arthritis can drive secondary renal disease—reactive mesangial IgA deposition and AA amyloidosis from sustained acute-phase IL-6 and serum amyloid A—so a systemic joint disease becomes a glomerular one."
 ---
 
 # IgA Nephropathy
@@ -399,6 +408,9 @@ IgAN is a **multi-hit disease** described by the Oxford Four-Hit Model:
 - `connects-to` → **[ARBs](../../../03-medicine/01-modern/04-cardio/arbs/README.md)** — Antiproteinuric blockade is foundational: angiotensin-receptor blockers, like ACE inhibitors, lower glomerular pressure and proteinuria to slow IgA nephropathy, the cornerstone of supportive care.
 - `connects-to` → **[Peyer's Patches](../../05-tissue/peyers-patches/README.md)** — Its abnormal antibody is born in the gut: galactose-deficient IgA1 arises from mucosal plasma cells in Peyer's patches and other gut-associated lymphoid tissue, the origin of the immune complexes that deposit in the kidney.
 - `connects-to` → **[Cancer Chemotherapy](../../../03-medicine/01-modern/13-cancer/cancer-chemotherapy/README.md)** — Cytotoxic immunosuppression for crescentic disease: cyclophosphamide with steroids is used in rapidly progressive crescentic IgA nephropathy to halt aggressive glomerular injury.
+- `connects-to` → **[Arterial Wall](../../05-tissue/arterial-wall/README.md)** — The kidney disease kills through the arteries: IgA nephropathy drives hypertension and chronic kidney disease that accelerate arterial-wall atherosclerosis and stiffening, making cardiovascular events—not kidney failure alone—a leading cause of death in patients with IgAN.
+- `connects-to` → **[Psoriasis](../psoriasis/README.md)** — A shared mucocutaneous IgA immune axis: IgA nephropathy is associated with psoriasis, and the TNF inhibitors used to treat psoriasis can themselves trigger new-onset IgA nephropathy—linking skin inflammation to glomerular IgA deposition.
+- `connects-to` → **[Rheumatoid Arthritis](../rheumatoid-arthritis/README.md)** — Chronic inflammation scars the kidney too: long-standing rheumatoid arthritis can drive secondary renal disease—reactive mesangial IgA deposition and AA amyloidosis from sustained acute-phase IL-6 and serum amyloid A—so a systemic joint disease becomes a glomerular one.
 
 ---
 

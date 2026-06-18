@@ -249,6 +249,15 @@ cross_links:
   - target: 03-medicine/01-modern/13-cancer/cancer-chemotherapy
     relation: connects-to
     note: "Cytotoxic immunosuppression for refractory disease: vincristine, cyclophosphamide and azathioprine are used in immune thrombocytopenia that resists steroids and first-line agents."
+  - target: 03-medicine/01-modern/12-anti-inflammatory/dexamethasone
+    relation: connects-to
+    note: "Pulsed steroids to reset immunity: high-dose dexamethasone given in short 4-day pulses is a standard first-line treatment for immune thrombocytopenia, raising platelet counts faster and with fewer long-term effects than prolonged daily prednisone."
+  - target: 01-human/07-system/hodgkin-lymphoma
+    relation: connects-to
+    note: "Low platelets as a paraneoplastic clue: immune thrombocytopenia can arise secondary to lymphoproliferative disease, including Hodgkin lymphoma, where disordered immunity generates anti-platelet antibodies—so refractory ITP warrants a search for hidden lymphoma."
+  - target: 01-human/07-system/rheumatoid-arthritis
+    relation: connects-to
+    note: "Autoimmunity that also attacks platelets: like SLE, rheumatoid arthritis can drive secondary immune thrombocytopenia, and in Felty syndrome RA combines with splenomegaly and cytopenias—the same spleen that destroys antibody-coated platelets in ITP."
 ---
 
 # Immune Thrombocytopenia
@@ -461,6 +470,9 @@ ITP in pregnancy carries risk of neonatal thrombocytopenia (maternal IgG crosses
 - `connects-to` → **[Hepatitis C Virus](../../../02-pathogen/01-viruses/hepatitis-c-virus/README.md)** — A virus that lowers the platelets: chronic hepatitis C is a recognised secondary cause of immune thrombocytopenia, and treating the infection often raises the platelet count.
 - `connects-to` → **[Heparin-Induced Thrombocytopenia](../heparin-induced-thrombocytopenia/README.md)** — A thrombocytopenia that clots instead of bleeds: unlike immune thrombocytopenia, heparin-induced thrombocytopenia causes thrombosis, a key contrast in the workup of a falling platelet count.
 - `connects-to` → **[Cancer Chemotherapy](../../../03-medicine/01-modern/13-cancer/cancer-chemotherapy/README.md)** — Cytotoxic immunosuppression for refractory disease: vincristine, cyclophosphamide and azathioprine are used in immune thrombocytopenia that resists steroids and first-line agents.
+- `connects-to` → **[Dexamethasone](../../../03-medicine/01-modern/12-anti-inflammatory/dexamethasone/README.md)** — Pulsed steroids to reset immunity: high-dose dexamethasone given in short 4-day pulses is a standard first-line treatment for immune thrombocytopenia, raising platelet counts faster and with fewer long-term effects than prolonged daily prednisone.
+- `connects-to` → **[Hodgkin Lymphoma](../hodgkin-lymphoma/README.md)** — Low platelets as a paraneoplastic clue: immune thrombocytopenia can arise secondary to lymphoproliferative disease, including Hodgkin lymphoma, where disordered immunity generates anti-platelet antibodies—so refractory ITP warrants a search for hidden lymphoma.
+- `connects-to` → **[Rheumatoid Arthritis](../rheumatoid-arthritis/README.md)** — Autoimmunity that also attacks platelets: like SLE, rheumatoid arthritis can drive secondary immune thrombocytopenia, and in Felty syndrome RA combines with splenomegaly and cytopenias—the same spleen that destroys antibody-coated platelets in ITP.
 
 [^cines-2002-itp-review]: Cines DB, Blanchette VS. Immune thrombocytopenic purpura. *N Engl J Med.* 2002;346(13):995-1008. [doi:10.1056/NEJMra010532](https://doi.org/10.1056/NEJMra010532) · [PubMed 11919310](https://pubmed.ncbi.nlm.nih.gov/11919310/)
 [^neunert-2019-ash-itp-guidelines]: Neunert C, et al. American Society of Hematology 2019 guidelines for immune thrombocytopenia. *Blood Adv.* 2019;3(23):3829-3866. [doi:10.1182/bloodadvances.2019000966](https://doi.org/10.1182/bloodadvances.2019000966) · [PubMed 31794604](https://pubmed.ncbi.nlm.nih.gov/31794604/)
