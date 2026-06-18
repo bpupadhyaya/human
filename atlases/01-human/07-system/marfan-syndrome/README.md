@@ -223,6 +223,15 @@ cross_links:
   - target: 03-medicine/01-modern/04-cardio/beta-blockers
     relation: connects-to
     note: "Beta-blockers protect its aorta: by lowering heart rate and the force of ejection, beta-blockers reduce aortic wall stress and slow aneurysm growth, a mainstay of Marfan management alongside ARBs."
+  - target: 03-medicine/01-modern/04-cardio/arbs
+    relation: connects-to
+    note: "They blunt the underlying signal: angiotensin-receptor blockers like losartan reduce the excess TGF-β signalling that drives aortic-root dilation in Marfan syndrome, slowing its enlargement."
+  - target: 03-medicine/01-modern/09-hematology/warfarin
+    relation: connects-to
+    note: "A mechanical valve needs lifelong anticoagulation: after aortic-root replacement with a mechanical valve for Marfan syndrome, warfarin prevents valve thrombosis and embolic stroke."
+  - target: 03-medicine/01-modern/04-cardio/aspirin
+    relation: connects-to
+    note: "Bioprosthetic repairs take antiplatelet cover: patients with a tissue aortic valve or vascular stent for Marfan-related disease use aspirin, a lighter alternative to the warfarin that mechanical valves require."
 ---
 
 # Marfan Syndrome
@@ -430,6 +439,9 @@ MFS is a **multi-system disorder** defined by cardiovascular, ocular, and skelet
 - `connects-to` → **[Immune System](../immune-system/README.md)** — Its defect unleashes a regulatory cytokine: fibrillin-1 normally sequesters TGF-β in the matrix, so its deficiency releases excess TGF-β — a key immunoregulatory growth factor — that drives the tissue weakening of Marfan.
 - `connects-to` → **[Staphylococcus aureus](../../../02-pathogen/02-bacteria/staphylococcus-aureus/README.md)** — Its valves and grafts invite infection: damaged valves and prosthetic aortic grafts after surgery raise the risk of infective endocarditis, classically from Staphylococcus aureus and viridans streptococci.
 - `connects-to` → **[Beta-Blockers](../../../03-medicine/01-modern/04-cardio/beta-blockers/README.md)** — Beta-blockers protect its aorta: by lowering heart rate and the force of ejection, beta-blockers reduce aortic wall stress and slow aneurysm growth, a mainstay of Marfan management alongside ARBs.
+- `connects-to` → **[ARBs](../../../03-medicine/01-modern/04-cardio/arbs/README.md)** — They blunt the underlying signal: angiotensin-receptor blockers like losartan reduce the excess TGF-β signalling that drives aortic-root dilation in Marfan syndrome, slowing its enlargement.
+- `connects-to` → **[Warfarin](../../../03-medicine/01-modern/09-hematology/warfarin/README.md)** — A mechanical valve needs lifelong anticoagulation: after aortic-root replacement with a mechanical valve for Marfan syndrome, warfarin prevents valve thrombosis and embolic stroke.
+- `connects-to` → **[Aspirin](../../../03-medicine/01-modern/04-cardio/aspirin/README.md)** — Bioprosthetic repairs take antiplatelet cover: patients with a tissue aortic valve or vascular stent for Marfan-related disease use aspirin, a lighter alternative to the warfarin that mechanical valves require.
 
 ---
 

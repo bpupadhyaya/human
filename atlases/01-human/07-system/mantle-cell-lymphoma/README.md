@@ -223,6 +223,15 @@ cross_links:
   - target: 01-human/07-system/respiratory-system
     relation: connects-to
     note: "It crowds and exposes the chest: mediastinal and pulmonary nodal disease can cause effusions, and the BTK-inhibitor therapy raises the risk of pneumonia and fungal infection."
+  - target: 01-human/07-system/integumentary-system
+    relation: connects-to
+    note: "It can mark the skin: mantle cell lymphoma occasionally infiltrates the skin, and its BTK-inhibitor and chemotherapy treatments cause rashes, bruising and alopecia."
+  - target: 01-human/07-system/reproductive-system
+    relation: connects-to
+    note: "Treatment threatens fertility and sanctuary sites: chemotherapy for mantle cell lymphoma can impair fertility, and the testis can act as a sanctuary site for residual disease."
+  - target: 01-human/07-system/endocrine-system
+    relation: connects-to
+    note: "It can infiltrate endocrine glands: aggressive mantle cell lymphoma occasionally involves the thyroid or adrenal glands, and steroid-containing regimens disturb glucose control."
 ---
 
 # Mantle Cell Lymphoma
@@ -413,6 +422,9 @@ For SOX11−, mutated IGHV, non-bulky, asymptomatic nnMCL: Observation is safe; 
 - `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — It fills the marrow at diagnosis: mantle cell lymphoma almost always involves the bone marrow, causing cytopenias, and the ibrutinib used to treat it commonly causes arthralgia.
 - `connects-to` → **[Renal System](../renal-system/README.md)** — Its high tumour burden floods the kidney: the bulky disease of mantle cell lymphoma risks tumour lysis syndrome with acute kidney injury when treatment begins.
 - `connects-to` → **[Respiratory System](../respiratory-system/README.md)** — It crowds and exposes the chest: mediastinal and pulmonary nodal disease can cause effusions, and the BTK-inhibitor therapy raises the risk of pneumonia and fungal infection.
+- `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — It can mark the skin: mantle cell lymphoma occasionally infiltrates the skin, and its BTK-inhibitor and chemotherapy treatments cause rashes, bruising and alopecia.
+- `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — Treatment threatens fertility and sanctuary sites: chemotherapy for mantle cell lymphoma can impair fertility, and the testis can act as a sanctuary site for residual disease.
+- `connects-to` → **[Endocrine System](../endocrine-system/README.md)** — It can infiltrate endocrine glands: aggressive mantle cell lymphoma occasionally involves the thyroid or adrenal glands, and steroid-containing regimens disturb glucose control.
 
 ---
 
