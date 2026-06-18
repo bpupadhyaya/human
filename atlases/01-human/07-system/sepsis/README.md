@@ -217,6 +217,15 @@ cross_links:
   - target: 01-human/07-system/digestive-system
     relation: connects-to
     note: "The gut is both motor and victim: sepsis breaks the intestinal barrier, letting bacteria and toxins translocate to amplify it, while hypoperfusion causes ileus, stress ulcers and ischaemic hepatitis."
+  - target: 01-human/07-system/cardiovascular-system
+    relation: connects-to
+    note: "It collapses the circulation: septic shock is distributive shock with profound vasodilation and a septic cardiomyopathy that depresses the heart, demanding fluids and vasopressors to maintain perfusion."
+  - target: 01-human/07-system/nervous-system
+    relation: connects-to
+    note: "It clouds the brain and weakens the nerves: sepsis-associated encephalopathy causes delirium, and critical-illness polyneuropathy and myopathy leave prolonged weakness in survivors."
+  - target: 01-human/07-system/endocrine-system
+    relation: connects-to
+    note: "It strains the stress hormones: sepsis causes critical-illness-related corticosteroid insufficiency and stress hyperglycaemia, and meningococcal sepsis can destroy the adrenals (Waterhouse-Friderichsen)."
 ---
 
 # Sepsis
@@ -389,6 +398,9 @@ Sepsis is not localized to one system — it manifests as dysfunction across mul
 - `connects-to` → **[Immune System](../immune-system/README.md)** — It is a dysregulated immune response by definition: sepsis is the body's overwhelming, disordered reaction to infection — a hyperinflammatory surge followed by immunoparalysis — that injures its own organs.
 - `connects-to` → **[Respiratory System](../respiratory-system/README.md)** — Its commonest organ failure is the lung: the inflammatory capillary leak of sepsis floods the alveoli as acute respiratory distress syndrome, a leading cause of its mortality.
 - `connects-to` → **[Digestive System](../digestive-system/README.md)** — The gut is both motor and victim: sepsis breaks the intestinal barrier, letting bacteria and toxins translocate to amplify it, while hypoperfusion causes ileus, stress ulcers and ischaemic hepatitis.
+- `connects-to` → **[Cardiovascular System](../cardiovascular-system/README.md)** — It collapses the circulation: septic shock is distributive shock with profound vasodilation and a septic cardiomyopathy that depresses the heart, demanding fluids and vasopressors to maintain perfusion.
+- `connects-to` → **[Nervous System](../nervous-system/README.md)** — It clouds the brain and weakens the nerves: sepsis-associated encephalopathy causes delirium, and critical-illness polyneuropathy and myopathy leave prolonged weakness in survivors.
+- `connects-to` → **[Endocrine System](../endocrine-system/README.md)** — It strains the stress hormones: sepsis causes critical-illness-related corticosteroid insufficiency and stress hyperglycaemia, and meningococcal sepsis can destroy the adrenals (Waterhouse-Friderichsen).
 - `treated-by` → **[Vancomycin](../../../03-medicine/01-modern/06-antimicrobial/vancomycin/README.md)** — First-line empiric IV therapy for MRSA bacteremia and gram-positive sepsis; added to beta-lactam empiric regimens when MRSA risk is elevated; AUC/MIC-guided dosing (IDSA 2021); MIC ≤1 mg/L required for endocarditis; daptomycin alternative for high MIC.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*

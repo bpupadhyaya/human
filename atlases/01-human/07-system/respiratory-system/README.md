@@ -216,6 +216,15 @@ cross_links:
   - target: 01-human/07-system/musculoskeletal-system
     relation: connects-to
     note: "Muscle and rib cage are its pump: the diaphragm and intercostals power ventilation within a bony thorax, so neuromuscular weakness and chest-wall deformity cause restrictive respiratory failure."
+  - target: 01-human/07-system/endocrine-system
+    relation: connects-to
+    note: "The lung is also an endocrine organ: its endothelium converts angiotensin I to II via ACE, a key step in blood-pressure control, and pulmonary neuroendocrine cells secrete bioactive peptides."
+  - target: 01-human/07-system/lymphatic-system
+    relation: connects-to
+    note: "It is guarded and drained by lymphatics: bronchus-associated lymphoid tissue defends the airways and a rich lymphatic network clears the lungs, so injury to it causes chylothorax."
+  - target: 01-human/07-system/integumentary-system
+    relation: connects-to
+    note: "The skin mirrors the lungs: finger clubbing, central cyanosis and tar staining reveal chronic respiratory disease, and skin and airway share the body's barrier defences against the environment."
 taxonomy:
   uberon: "UBERON:0001004"
   fma: "FMA:7161"
@@ -363,6 +372,9 @@ The mucociliary escalator (ciliated cells + goblet cell mucus) continuously clea
 - **Connects-to** → [Digestive System](../digestive-system/README.md): They share an origin and a crossroads: lungs and gut both arise from the embryonic foregut and meet at the pharynx, so swallowing disorders cause aspiration and a gut-lung axis links the two.
 - **Connects-to** → [Renal System](../renal-system/README.md): Lungs and kidneys jointly balance acid: the respiratory and renal systems co-regulate pH by controlling CO2 and bicarbonate, and pulmonary-renal syndromes like Goodpasture attack both at once.
 - **Connects-to** → [Musculoskeletal System](../musculoskeletal-system/README.md): Muscle and rib cage are its pump: the diaphragm and intercostals power ventilation within a bony thorax, so neuromuscular weakness and chest-wall deformity cause restrictive respiratory failure.
+- **Connects-to** → [Endocrine System](../endocrine-system/README.md): The lung is also an endocrine organ: its endothelium converts angiotensin I to II via ACE, a key step in blood-pressure control, and pulmonary neuroendocrine cells secrete bioactive peptides.
+- **Connects-to** → [Lymphatic System](../lymphatic-system/README.md): It is guarded and drained by lymphatics: bronchus-associated lymphoid tissue defends the airways and a rich lymphatic network clears the lungs, so injury to it causes chylothorax.
+- **Connects-to** → [Integumentary System](../integumentary-system/README.md): The skin mirrors the lungs: finger clubbing, central cyanosis and tar staining reveal chronic respiratory disease, and skin and airway share the body's barrier defences against the environment.
 - `prevented-by` → **[PCV13 (Prevnar 13)](../../../../04-vaccine/08-conjugate/pcv13/README.md)** — CAPiTA RCT (N=84,496 adults ≥65): PCV13 achieved 45.6% VE against vaccine-type CAP and 75% VE against invasive pneumococcal disease; prevents pneumococcal pneumonia, the leading infectious cause of respiratory hospitalisation in older adults.
 
 ## Pathology
