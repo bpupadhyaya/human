@@ -224,6 +224,15 @@ cross_links:
   - target: 01-human/07-system/digestive-system
     relation: connects-to
     note: "Anticholinergic therapy slows the gut: clomipramine and high-dose SSRIs used for OCD cause constipation and other anticholinergic and serotonergic gut effects that complicate long-term treatment."
+  - target: 01-human/07-system/immune-system
+    relation: connects-to
+    note: "Some childhood OCD is autoimmune: PANDAS/PANS describes abrupt OCD after streptococcal infection, part of a broader neuroinflammatory hypothesis implicating immune attack on basal-ganglia circuits."
+  - target: 01-human/07-system/renal-system
+    relation: connects-to
+    note: "Its high-dose drugs unbalance sodium: the SSRIs and clomipramine central to OCD treatment can cause SIADH with hyponatraemia, a renal-electrolyte risk needing monitoring especially in older patients."
+  - target: 01-human/07-system/endocrine-system
+    relation: connects-to
+    note: "Hormones modulate its course: OCD often emerges or worsens in pregnancy and the postpartum period, and the disorder shows dysregulation of the HPA cortisol stress axis."
 ---
 
 # Obsessive-Compulsive Disorder
@@ -417,6 +426,9 @@ OCD is often underdiagnosed due to shame and secrecy. Mean time from symptom ons
 - `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — Compulsive washing wrecks the skin: repetitive handwashing in OCD causes chronic irritant contact dermatitis with cracking and bleeding, the visible toll of the contamination-and-cleaning cycle.
 - `connects-to` → **[Cardiovascular System](../cardiovascular-system/README.md)** — Its strongest old drug strains the heart: clomipramine, the tricyclic uniquely effective in OCD, prolongs the QT interval and carries arrhythmia and orthostatic risk, demanding cardiac caution.
 - `connects-to` → **[Digestive System](../digestive-system/README.md)** — Anticholinergic therapy slows the gut: clomipramine and high-dose SSRIs used for OCD cause constipation and other anticholinergic and serotonergic gut effects that complicate long-term treatment.
+- `connects-to` → **[Immune System](../immune-system/README.md)** — Some childhood OCD is autoimmune: PANDAS/PANS describes abrupt OCD after streptococcal infection, part of a broader neuroinflammatory hypothesis implicating immune attack on basal-ganglia circuits.
+- `connects-to` → **[Renal System](../renal-system/README.md)** — Its high-dose drugs unbalance sodium: the SSRIs and clomipramine central to OCD treatment can cause SIADH with hyponatraemia, a renal-electrolyte risk needing monitoring especially in older patients.
+- `connects-to` → **[Endocrine System](../endocrine-system/README.md)** — Hormones modulate its course: OCD often emerges or worsens in pregnancy and the postpartum period, and the disorder shows dysregulation of the HPA cortisol stress axis.
 
 [^abramowitz-2009-ocd-review]: Abramowitz JS, Taylor S, McKay D. Obsessive-compulsive disorder. *Lancet.* 2009;374(9688):491-499. [doi:10.1016/S0140-6736(09)60240-3](https://doi.org/10.1016/S0140-6736(09)60240-3) · [PubMed 19665647](https://pubmed.ncbi.nlm.nih.gov/19665647/)
 [^chamberlain-2008-ocd-neuroscience]: Chamberlain SR, Menzies L, Hampshire A, et al. Orbitofrontal dysfunction in patients with OCD and their unaffected relatives. *Science.* 2008;321(5887):421-422. [doi:10.1126/science.1154433](https://doi.org/10.1126/science.1154433) · [PubMed 18635808](https://pubmed.ncbi.nlm.nih.gov/18635808/)

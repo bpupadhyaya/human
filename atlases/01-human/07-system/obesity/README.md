@@ -217,6 +217,15 @@ cross_links:
   - target: 01-human/07-system/wound-healing
     relation: connects-to
     note: "Fat tissue heals badly: poorly vascularised adipose, higher wound tension and frequent diabetes make surgical-site infection and dehiscence far more common in obese patients."
+  - target: 01-human/07-system/respiratory-system
+    relation: connects-to
+    note: "Excess weight smothers breathing: obesity is the leading driver of obstructive sleep apnoea and can cause obesity hypoventilation (Pickwickian) syndrome, with daytime hypercapnia and right-heart strain."
+  - target: 01-human/07-system/integumentary-system
+    relation: connects-to
+    note: "It changes the skin in folds and friction: acanthosis nigricans, skin tags, intertrigo, hidradenitis suppurativa and venous stasis changes are common cutaneous consequences of obesity."
+  - target: 01-human/07-system/nervous-system
+    relation: connects-to
+    note: "It can raise pressure around the brain: obesity is the dominant risk factor for idiopathic intracranial hypertension (pseudotumor cerebri), causing headache, papilloedema and threatened vision."
 ---
 
 # Obesity
@@ -423,6 +432,9 @@ This **metainflammation** mechanistically links obesity to type 2 diabetes, athe
 - `connects-to` → **[Endocrine System](../endocrine-system/README.md)** — Adipose tissue is itself an endocrine organ: obesity drives insulin resistance, leptin and adipokine dysregulation, hypogonadism in men and polycystic ovary syndrome in women, sitting at the centre of endocrine disease.
 - `connects-to` → **[Digestive System](../digestive-system/README.md)** — Excess weight burdens the gut: obesity causes gastro-oesophageal reflux, gallstones and fatty-liver disease, and it is the leading target of bariatric surgery that reshapes the digestive tract.
 - `connects-to` → **[Wound Healing](../wound-healing/README.md)** — Fat tissue heals badly: poorly vascularised adipose, higher wound tension and frequent diabetes make surgical-site infection and dehiscence far more common in obese patients.
+- `connects-to` → **[Respiratory System](../respiratory-system/README.md)** — Excess weight smothers breathing: obesity is the leading driver of obstructive sleep apnoea and can cause obesity hypoventilation (Pickwickian) syndrome, with daytime hypercapnia and right-heart strain.
+- `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — It changes the skin in folds and friction: acanthosis nigricans, skin tags, intertrigo, hidradenitis suppurativa and venous stasis changes are common cutaneous consequences of obesity.
+- `connects-to` → **[Nervous System](../nervous-system/README.md)** — It can raise pressure around the brain: obesity is the dominant risk factor for idiopathic intracranial hypertension (pseudotumor cerebri), causing headache, papilloedema and threatened vision.
 
 [^bluher-2019-obesity-review]: Blüher M. Obesity: global epidemiology and pathogenesis. *Nat Rev Endocrinol.* 2019;15(5):288-298. [doi:10.1038/s41574-019-0176-8](https://doi.org/10.1038/s41574-019-0176-8) · [PubMed 30814686](https://pubmed.ncbi.nlm.nih.gov/30814686/)
 [^wilding-2021-semaglutide-step1]: Wilding JPH, Batterham RL, Calanna S, et al. Once-weekly semaglutide in adults with overweight or obesity. *N Engl J Med.* 2021;384(11):989-1002. [doi:10.1056/NEJMoa2032183](https://doi.org/10.1056/NEJMoa2032183) · [PubMed 33567185](https://pubmed.ncbi.nlm.nih.gov/33567185/)
