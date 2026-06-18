@@ -211,6 +211,15 @@ cross_links:
   - target: 01-human/07-system/generalized-anxiety-disorder
     relation: connects-to
     note: "Recurrence risk and skin surveillance breed worry: the threat of metastasis and the lifelong monitoring for new primaries in melanoma foster chronic health anxiety alongside depression."
+  - target: 01-human/07-system/digestive-system
+    relation: connects-to
+    note: "Checkpoint immunotherapy inflames the gut: the PD-1 and CTLA-4 inhibitors used for melanoma frequently cause immune-related colitis with severe diarrhoea and autoimmune hepatitis, the commonest serious irAEs."
+  - target: 01-human/07-system/respiratory-system
+    relation: connects-to
+    note: "It spreads to and inflames the lungs: melanoma metastasises readily to the lungs, and checkpoint immunotherapy can cause an immune-mediated pneumonitis."
+  - target: 01-human/07-system/wound-healing
+    relation: connects-to
+    note: "Its surgery is wide and node-sampling: melanoma is treated with wide local excision and sentinel-node biopsy or lymph-node dissection, leaving wounds and lymphatic disruption that heal slowly."
 ---
 
 # Melanoma
@@ -365,6 +374,9 @@ cross_links:
 - `connects-to` → **[Heart Failure](../heart-failure/README.md)** — Its immunotherapy can inflame the heart: the checkpoint inhibitors central to melanoma treatment occasionally cause an immune-mediated myocarditis, a rare but often fatal route to acute heart failure.
 - `connects-to` → **[Chronic Kidney Disease](../ckd/README.md)** — Checkpoint immunotherapy can scar the kidneys: the PD-1 and CTLA-4 inhibitors used for advanced melanoma can provoke an immune-mediated interstitial nephritis that, if recurrent, leaves chronic kidney impairment.
 - `connects-to` → **[Generalized Anxiety Disorder](../generalized-anxiety-disorder/README.md)** — Recurrence risk and skin surveillance breed worry: the threat of metastasis and the lifelong monitoring for new primaries in melanoma foster chronic health anxiety alongside depression.
+- `connects-to` → **[Digestive System](../digestive-system/README.md)** — Checkpoint immunotherapy inflames the gut: the PD-1 and CTLA-4 inhibitors used for melanoma frequently cause immune-related colitis with severe diarrhoea and autoimmune hepatitis, the commonest serious irAEs.
+- `connects-to` → **[Respiratory System](../respiratory-system/README.md)** — It spreads to and inflames the lungs: melanoma metastasises readily to the lungs, and checkpoint immunotherapy can cause an immune-mediated pneumonitis.
+- `connects-to` → **[Wound Healing](../wound-healing/README.md)** — Its surgery is wide and node-sampling: melanoma is treated with wide local excision and sentinel-node biopsy or lymph-node dissection, leaving wounds and lymphatic disruption that heal slowly.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 

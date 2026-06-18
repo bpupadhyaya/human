@@ -205,6 +205,15 @@ cross_links:
   - target: 01-human/07-system/wound-healing
     relation: connects-to
     note: "Posterior-fossa surgery and steroids hinder repair: the craniotomy for medulloblastoma risks CSF leak and poor wound healing, worsened by the chronic dexamethasone used to control edema."
+  - target: 01-human/07-system/digestive-system
+    relation: connects-to
+    note: "Posterior-fossa damage and treatment hit the gut: brainstem and cerebellar involvement causes dysphagia and aspiration, and craniospinal radiation plus chemotherapy bring mucositis and nausea."
+  - target: 02-pathogen/01-viruses/varicella-zoster-virus
+    relation: connects-to
+    note: "Chemotherapy reawakens shingles: the chemotherapy for medulloblastoma suppresses a child's immunity, allowing latent or primary varicella-zoster to cause severe disseminated infection."
+  - target: 01-human/07-system/generalized-anxiety-disorder
+    relation: connects-to
+    note: "A childhood brain cancer with long survivorship breeds worry: the intensive therapy, neurocognitive late effects and relapse surveillance of medulloblastoma foster chronic anxiety in survivors and families."
 ---
 
 # Medulloblastoma
@@ -397,6 +406,9 @@ MB survivors face substantial late effects — inversely proportional to age at 
 - `connects-to` → **[Neuropathic Pain](../neuropathic-pain/README.md)** — Vincristine and tumor injure the nerves: the vincristine central to medulloblastoma chemotherapy causes peripheral neuropathy, and posterior-fossa disease adds neurological pain in survivors.
 - `connects-to` → **[Type 2 Diabetes](../type-2-diabetes/README.md)** — Radiation and steroids disturb glucose: craniospinal radiation damages the hypothalamic-pituitary axis and the dexamethasone for edema induces insulin resistance, predisposing survivors to diabetes.
 - `connects-to` → **[Wound Healing](../wound-healing/README.md)** — Posterior-fossa surgery and steroids hinder repair: the craniotomy for medulloblastoma risks CSF leak and poor wound healing, worsened by the chronic dexamethasone used to control edema.
+- `connects-to` → **[Digestive System](../digestive-system/README.md)** — Posterior-fossa damage and treatment hit the gut: brainstem and cerebellar involvement causes dysphagia and aspiration, and craniospinal radiation plus chemotherapy bring mucositis and nausea.
+- `connects-to` → **[Varicella-Zoster Virus](../../../02-pathogen/01-viruses/varicella-zoster-virus/README.md)** — Chemotherapy reawakens shingles: the chemotherapy for medulloblastoma suppresses a child's immunity, allowing latent or primary varicella-zoster to cause severe disseminated infection.
+- `connects-to` → **[Generalized Anxiety Disorder](../generalized-anxiety-disorder/README.md)** — A childhood brain cancer with long survivorship breeds worry: the intensive therapy, neurocognitive late effects and relapse surveillance of medulloblastoma foster chronic anxiety in survivors and families.
 
 [^packer-2006-std-risk-mb]: Packer RJ, Gajjar A, Vezina G, et al. Phase III study of craniospinal radiation therapy followed by adjuvant chemotherapy for newly diagnosed average-risk medulloblastoma. *J Clin Oncol.* 2006;24(25):4202-4208. [doi:10.1200/JCO.2006.06.4980](https://doi.org/10.1200/JCO.2006.06.4980) · [PubMed 16943538](https://pubmed.ncbi.nlm.nih.gov/16943538/)
 [^taylor-2012-mb-subgroups]: Taylor MD, Northcott PA, Korshunov A, et al. Molecular subgroups of medulloblastoma: the current consensus. *Acta Neuropathol.* 2012;123(4):465-472. [doi:10.1007/s00401-011-0922-z](https://doi.org/10.1007/s00401-011-0922-z) · [PubMed 22134537](https://pubmed.ncbi.nlm.nih.gov/22134537/)
