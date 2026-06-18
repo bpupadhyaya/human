@@ -241,6 +241,15 @@ cross_links:
   - target: 01-human/07-system/epilepsy
     relation: connects-to
     note: "It lowers the seizure threshold: cocaine and amphetamines provoke seizures acutely through massive monoamine release and cerebral vasospasm, a common reason for stimulant-related emergencies."
+  - target: 01-human/05-tissue/myocardium
+    relation: connects-to
+    note: "It poisons the heart muscle: cocaine and methamphetamine cause myocardial infarction through coronary vasospasm and thrombosis, plus a dilated cardiomyopathy and arrhythmias — cardiac disease is a leading cause of stimulant death."
+  - target: 01-human/05-tissue/arterial-wall
+    relation: connects-to
+    note: "It ravages the arteries: stimulants cause vasospasm, hypertensive surges, accelerated atherosclerosis and aortic dissection, driving the strokes and vascular catastrophes seen with cocaine and amphetamine use."
+  - target: 01-human/07-system/anorexia-nervosa
+    relation: connects-to
+    note: "Stimulants serve weight control: their potent appetite suppression is exploited in eating disorders, where stimulant and appetite-suppressant misuse overlaps with anorexia nervosa and drives stimulant use disorder."
 ---
 
 # Stimulant Use Disorder
@@ -437,6 +446,9 @@ Unlike cocaine, methamphetamine causes **direct neurotoxic damage** to dopaminer
 - `connects-to` → **[CRH](../../03-molecular/crh/README.md)** — Stress fuels the crash and craving: corticotropin-releasing hormone and HPA-axis activation drive the dysphoric withdrawal and relapse that follow stimulant binges.
 - `connects-to` → **[Parkinson's Disease](../parkinsons-disease/README.md)** — Methamphetamine scars dopamine neurons: chronic methamphetamine is toxic to striatal dopaminergic terminals and is linked to a higher later risk of Parkinson's disease.
 - `connects-to` → **[Epilepsy](../epilepsy/README.md)** — It lowers the seizure threshold: cocaine and amphetamines provoke seizures acutely through massive monoamine release and cerebral vasospasm, a common reason for stimulant-related emergencies.
+- `connects-to` → **[Myocardium](../../05-tissue/myocardium/README.md)** — It poisons the heart muscle: cocaine and methamphetamine cause myocardial infarction through coronary vasospasm and thrombosis, plus a dilated cardiomyopathy and arrhythmias — cardiac disease is a leading cause of stimulant death.
+- `connects-to` → **[Arterial Wall](../../05-tissue/arterial-wall/README.md)** — It ravages the arteries: stimulants cause vasospasm, hypertensive surges, accelerated atherosclerosis and aortic dissection, driving the strokes and vascular catastrophes seen with cocaine and amphetamine use.
+- `connects-to` → **[Anorexia Nervosa](../anorexia-nervosa/README.md)** — Stimulants serve weight control: their potent appetite suppression is exploited in eating disorders, where stimulant and appetite-suppressant misuse overlaps with anorexia nervosa and drives stimulant use disorder.
 
 ## Treatment
 

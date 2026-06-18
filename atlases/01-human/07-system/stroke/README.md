@@ -244,6 +244,15 @@ cross_links:
   - target: 01-human/07-system/obesity
     relation: connects-to
     note: "A modifiable driver: obesity raises stroke risk through hypertension, diabetes, atrial fibrillation and atherosclerosis, making weight central to prevention."
+  - target: 01-human/05-tissue/arterial-wall
+    relation: connects-to
+    note: "It begins in the vessel wall: most ischaemic strokes arise from atherosclerotic plaque in the carotid and intracranial arteries, and haemorrhagic stroke from arterial-wall rupture in hypertension or amyloid angiopathy."
+  - target: 01-human/05-tissue/cardiac-conduction-system
+    relation: connects-to
+    note: "The heart's rhythm throws clots: atrial fibrillation, a disorder of the cardiac conduction system, lets thrombus form in the left atrial appendage and embolise to the brain — the leading cause of cardioembolic stroke."
+  - target: 01-human/05-tissue/hippocampus
+    relation: connects-to
+    note: "It is selectively vulnerable: the hippocampus is exquisitely sensitive to ischaemia, so global hypoperfusion and recurrent strokes injure it preferentially, driving the memory loss of vascular cognitive impairment."
 ---
 
 # Stroke
@@ -423,6 +432,9 @@ Normal brain maintains CBF constant (50-150 mmHg MAP range) via autoregulation (
 - `connects-to` → **[SARS-CoV-2](../../../02-pathogen/01-viruses/sars-cov-2/README.md)** — Infection raises the risk: COVID-19 promotes a hypercoagulable, inflamed state that increases ischaemic stroke, including large-vessel strokes in younger patients.
 - `connects-to` → **[Calcium-Channel Blockers](../../../03-medicine/01-modern/04-cardio/calcium-channel-blockers/README.md)** — A drug for the bleeding kind: the calcium-channel blocker nimodipine reduces delayed cerebral ischaemia from vasospasm after subarachnoid haemorrhage, improving outcomes.
 - `connects-to` → **[Obesity](../obesity/README.md)** — A modifiable driver: obesity raises stroke risk through hypertension, diabetes, atrial fibrillation and atherosclerosis, making weight central to prevention.
+- `connects-to` → **[Arterial Wall](../../05-tissue/arterial-wall/README.md)** — It begins in the vessel wall: most ischaemic strokes arise from atherosclerotic plaque in the carotid and intracranial arteries, and haemorrhagic stroke from arterial-wall rupture in hypertension or amyloid angiopathy.
+- `connects-to` → **[Cardiac Conduction System](../../05-tissue/cardiac-conduction-system/README.md)** — The heart's rhythm throws clots: atrial fibrillation, a disorder of the cardiac conduction system, lets thrombus form in the left atrial appendage and embolise to the brain — the leading cause of cardioembolic stroke.
+- `connects-to` → **[Hippocampus](../../05-tissue/hippocampus/README.md)** — It is selectively vulnerable: the hippocampus is exquisitely sensitive to ischaemia, so global hypoperfusion and recurrent strokes injure it preferentially, driving the memory loss of vascular cognitive impairment.
 
 [^powers-2019-aha-stroke]: Powers WJ, Rabinstein AA, Ackerson T, et al. Guidelines for the Early Management of Patients With Acute Ischemic Stroke: 2019 Update to the 2018 Guidelines. *Stroke.* 2019;50(12):e344-e418. [doi:10.1161/STR.0000000000000211](https://doi.org/10.1161/STR.0000000000000211) · [PubMed 31662037](https://pubmed.ncbi.nlm.nih.gov/31662037/)
 [^feigin-2021-gbd-stroke]: Feigin VL, Krishnamurthi RV, Parmar P, et al. Update on the Global Burden of Ischemic and Hemorrhagic Stroke in 1990-2013. *Neuroepidemiology.* 2015;45(3):161-176. [doi:10.1159/000441085](https://doi.org/10.1159/000441085) · [PubMed 26505981](https://pubmed.ncbi.nlm.nih.gov/26505981/)
