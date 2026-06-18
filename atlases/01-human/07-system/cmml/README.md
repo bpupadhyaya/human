@@ -232,6 +232,15 @@ cross_links:
   - target: 01-human/07-system/nervous-system
     relation: connects-to
     note: "It can deposit beyond the marrow: myeloid (granulocytic) sarcomas and rare central-nervous-system involvement occur as CMML progresses, especially near transformation to acute leukaemia."
+  - target: 03-medicine/01-modern/13-cancer/cancer-chemotherapy
+    relation: connects-to
+    note: "Hypomethylating agents lead its care: azacitidine and decitabine, with hydroxyurea for proliferative disease, are the mainstays for chronic myelomonocytic leukaemia short of transplant."
+  - target: 01-human/07-system/atherosclerosis
+    relation: connects-to
+    note: "Clonal mutations inflame the arteries: the TET2 and DNMT3A mutations that drive CMML also define clonal haematopoiesis, which independently accelerates atherosclerosis through inflammatory monocytes."
+  - target: 01-human/04-cellular/endothelial-cell
+    relation: connects-to
+    note: "Clonal monocytes injure the vessel lining: the mutant monocytes of CMML and clonal haematopoiesis promote endothelial inflammation, linking the marrow disorder to vascular disease."
 ---
 
 # Chronic Myelomonocytic Leukemia
@@ -429,6 +438,9 @@ CMML → AML transformation (~15-30% at 5 years): Treat as secondary AML; CPX-35
 - `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — Marrow disease and inflammation reach bone and joints: CMML crowds the marrow causing cytopenias, and it is notably associated with systemic inflammatory and autoimmune syndromes, including arthritis.
 - `connects-to` → **[Cardiovascular System](../cardiovascular-system/README.md)** — Anaemia and infiltration burden the heart: chronic cytopenia forces a high-output state, and leukaemic monocytes can rarely infiltrate the myocardium.
 - `connects-to` → **[Nervous System](../nervous-system/README.md)** — It can deposit beyond the marrow: myeloid (granulocytic) sarcomas and rare central-nervous-system involvement occur as CMML progresses, especially near transformation to acute leukaemia.
+- `connects-to` → **[Cancer Chemotherapy](../../../03-medicine/01-modern/13-cancer/cancer-chemotherapy/README.md)** — Hypomethylating agents lead its care: azacitidine and decitabine, with hydroxyurea for proliferative disease, are the mainstays for chronic myelomonocytic leukaemia short of transplant.
+- `connects-to` → **[Atherosclerosis](../atherosclerosis/README.md)** — Clonal mutations inflame the arteries: the TET2 and DNMT3A mutations that drive CMML also define clonal haematopoiesis, which independently accelerates atherosclerosis through inflammatory monocytes.
+- `connects-to` → **[Endothelial Cell](../../04-cellular/endothelial-cell/README.md)** — Clonal monocytes injure the vessel lining: the mutant monocytes of CMML and clonal haematopoiesis promote endothelial inflammation, linking the marrow disorder to vascular disease.
 
 ---
 

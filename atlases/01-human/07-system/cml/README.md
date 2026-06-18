@@ -232,6 +232,15 @@ cross_links:
   - target: 01-human/07-system/renal-system
     relation: connects-to
     note: "Rapid cell turnover and drugs reach the kidney: tumour lysis at the start of therapy and the nephrotoxicity of some TKIs can impair kidney function."
+  - target: 03-medicine/01-modern/13-cancer/targeted-therapy
+    relation: connects-to
+    note: "The archetype of targeted therapy: BCR-ABL1 tyrosine-kinase inhibitors (imatinib and successors) turned CML from fatal into a chronic, often treatment-free-remission disease, the founding success of precision oncology."
+  - target: 01-human/07-system/gist
+    relation: connects-to
+    note: "A shared imatinib target: gastrointestinal stromal tumour, driven by KIT, responds to imatinib just as BCR-ABL-driven CML does, the same drug treating two unrelated cancers."
+  - target: 03-medicine/01-modern/13-cancer/cancer-chemotherapy
+    relation: connects-to
+    note: "Before and beyond the TKIs: hydroxyurea, busulfan and interferon controlled CML before imatinib, and intensive chemotherapy is still needed if it transforms to blast crisis."
 ---
 
 # Chronic Myeloid Leukemia
@@ -416,6 +425,9 @@ Following the imatinib revolution, the current frontier is achieving **deep mole
 - `connects-to` → **[Cardiovascular System](../cardiovascular-system/README.md)** — Its newer drugs clog arteries: TKIs like nilotinib and ponatinib raise the risk of arterial occlusive events — peripheral arterial disease, heart attack and stroke — needing cardiovascular monitoring.
 - `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — Treatment aches in muscle and bone: imatinib commonly causes muscle cramps and bone-aching, and the expanding marrow of untreated CML brings bone pain.
 - `connects-to` → **[Renal System](../renal-system/README.md)** — Rapid cell turnover and drugs reach the kidney: tumour lysis at the start of therapy and the nephrotoxicity of some TKIs can impair kidney function.
+- `connects-to` → **[Targeted Therapy](../../../03-medicine/01-modern/13-cancer/targeted-therapy/README.md)** — The archetype of targeted therapy: BCR-ABL1 tyrosine-kinase inhibitors (imatinib and successors) turned CML from fatal into a chronic, often treatment-free-remission disease, the founding success of precision oncology.
+- `connects-to` → **[GIST](../gist/README.md)** — A shared imatinib target: gastrointestinal stromal tumour, driven by KIT, responds to imatinib just as BCR-ABL-driven CML does, the same drug treating two unrelated cancers.
+- `connects-to` → **[Cancer Chemotherapy](../../../03-medicine/01-modern/13-cancer/cancer-chemotherapy/README.md)** — Before and beyond the TKIs: hydroxyurea, busulfan and interferon controlled CML before imatinib, and intensive chemotherapy is still needed if it transforms to blast crisis.
 
 ---
 
