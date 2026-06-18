@@ -247,6 +247,15 @@ cross_links:
   - target: 01-human/05-tissue/cortical-bone
     relation: connects-to
     note: "Crystals erode the bone: chronic tophaceous gout deposits urate beside joints, producing the punched-out juxta-articular bone erosions with overhanging edges characteristic of the disease."
+  - target: 01-human/05-tissue/glomerulus
+    relation: connects-to
+    note: "The kidney both makes and suffers gout: about 90% of hyperuricaemia is renal under-excretion of urate, while deposited urate crystals cause interstitial inflammation and chronic urate nephropathy that scars the glomerulus and lowers filtration."
+  - target: 01-human/05-tissue/arterial-wall
+    relation: connects-to
+    note: "Urate inflames the vessel wall: soluble urate and monosodium urate crystals promote endothelial dysfunction and NLRP3-driven inflammation in the arterial wall, a mechanistic link between hyperuricaemia and the atherosclerosis and hypertension that accompany gout."
+  - target: 01-human/07-system/myelofibrosis
+    relation: connects-to
+    note: "Cell turnover floods the blood with urate: myelofibrosis and other myeloproliferative neoplasms massively increase purine breakdown, raising serum urate and causing secondary gout—worsened further by cytoreductive therapy that lyses cells."
 ---
 
 # Gout
@@ -416,6 +425,9 @@ The central mechanism linking MSU crystals to acute gouty arthritis is **NLRP3 i
 - `connects-to` → **[Essential Thrombocythemia](../essential-thrombocythemia/README.md)** — High cell turnover floods urate: myeloproliferative neoplasms like essential thrombocythaemia overproduce cells whose breakdown raises uric acid, a frequent secondary cause of gout.
 - `connects-to` → **[Psoriatic Arthritis](../psoriatic-arthritis/README.md)** — Inflammatory arthritis to tell apart: gout and psoriatic arthritis both inflame the joints, psoriasis itself raises urate, and the two enter each other's differential and can coexist.
 - `connects-to` → **[Cortical Bone](../../05-tissue/cortical-bone/README.md)** — Crystals erode the bone: chronic tophaceous gout deposits urate beside joints, producing the punched-out juxta-articular bone erosions with overhanging edges characteristic of the disease.
+- `connects-to` → **[Glomerulus](../../05-tissue/glomerulus/README.md)** — The kidney both makes and suffers gout: about 90% of hyperuricaemia is renal under-excretion of urate, while deposited urate crystals cause interstitial inflammation and chronic urate nephropathy that scars the glomerulus and lowers filtration.
+- `connects-to` → **[Arterial Wall](../../05-tissue/arterial-wall/README.md)** — Urate inflames the vessel wall: soluble urate and monosodium urate crystals promote endothelial dysfunction and NLRP3-driven inflammation in the arterial wall, a mechanistic link between hyperuricaemia and the atherosclerosis and hypertension that accompany gout.
+- `connects-to` → **[Myelofibrosis](../myelofibrosis/README.md)** — Cell turnover floods the blood with urate: myelofibrosis and other myeloproliferative neoplasms massively increase purine breakdown, raising serum urate and causing secondary gout—worsened further by cytoreductive therapy that lyses cells.
 
 [^dalbeth-2019-gout-primer]: Dalbeth N, Choi HK, Joosten LAB, et al. Gout. *Nat Rev Dis Primers.* 2019;5(1):69. [doi:10.1038/s41572-019-0115-y](https://doi.org/10.1038/s41572-019-0115-y) · [PubMed 31558729](https://pubmed.ncbi.nlm.nih.gov/31558729/)
 [^martinon-2006-nlrp3-gout]: Martinon F, Pétrilli V, Mayor A, Tardivel A, Tschopp J. Gout-associated uric acid crystals activate the NALP3 inflammasome. *Nature.* 2006;440(7081):237-241. [doi:10.1038/nature04516](https://doi.org/10.1038/nature04516) · [PubMed 16407889](https://pubmed.ncbi.nlm.nih.gov/16407889/)

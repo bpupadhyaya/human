@@ -241,6 +241,15 @@ cross_links:
   - target: 01-human/07-system/rothmund-thomson
     relation: connects-to
     note: "A fellow genomic-instability syndrome: like Rothmund-Thomson, hereditary breast-ovarian cancer stems from defective DNA repair, both belonging to the family of inherited genome-instability cancer predispositions."
+  - target: 01-human/07-system/fap
+    relation: connects-to
+    note: "Gatekeeper versus caretaker: FAP is driven by loss of the APC gatekeeper that restrains tissue growth, whereas HBOC arises from loss of BRCA caretaker genes guarding genome integrity—the classic two categories of tumour-suppressor gene."
+  - target: 01-human/07-system/retinoblastoma
+    relation: connects-to
+    note: "Knudson's two-hit rule applies to both: retinoblastoma defined the model in which a germline first hit plus somatic loss of the second allele triggers cancer, exactly how BRCA1/2 carriers in HBOC lose their remaining wild-type allele in the tumour."
+  - target: 01-human/07-system/cervical-cancer
+    relation: connects-to
+    note: "Two gynaecological cancers, opposite prevention: cervical cancer is HPV-driven and largely prevented by vaccination and screening, whereas HBOC ovarian cancer is germline-driven with no good screening, so management turns to risk-reducing surgery."
 ---
 
 # Hereditary Breast and Ovarian Cancer
@@ -451,6 +460,9 @@ BRCA-mutant cells (HRD):
 - `connects-to` → **[Cancer Chemotherapy](../../../03-medicine/01-modern/13-cancer/cancer-chemotherapy/README.md)** — BRCA tumours are platinum-sensitive: homologous-recombination deficiency from BRCA1/2 loss makes these breast, ovarian and pancreatic cancers exquisitely sensitive to platinum chemotherapy.
 - `connects-to` → **[Checkpoint Inhibitors](../../../03-medicine/01-modern/13-cancer/checkpoint-inhibitors/README.md)** — Genomic instability invites immunotherapy: BRCA/HRD tumours carry more neoantigens, and checkpoint inhibitors, often with PARP inhibitors, benefit triple-negative breast and ovarian cancers in HBOC.
 - `connects-to` → **[Rothmund-Thomson](../rothmund-thomson/README.md)** — A fellow genomic-instability syndrome: like Rothmund-Thomson, hereditary breast-ovarian cancer stems from defective DNA repair, both belonging to the family of inherited genome-instability cancer predispositions.
+- `connects-to` → **[FAP](../fap/README.md)** — Gatekeeper versus caretaker: FAP is driven by loss of the APC gatekeeper that restrains tissue growth, whereas HBOC arises from loss of BRCA caretaker genes guarding genome integrity—the classic two categories of tumour-suppressor gene.
+- `connects-to` → **[Retinoblastoma](../retinoblastoma/README.md)** — Knudson's two-hit rule applies to both: retinoblastoma defined the model in which a germline first hit plus somatic loss of the second allele triggers cancer, exactly how BRCA1/2 carriers in HBOC lose their remaining wild-type allele in the tumour.
+- `connects-to` → **[Cervical Cancer](../cervical-cancer/README.md)** — Two gynaecological cancers, opposite prevention: cervical cancer is HPV-driven and largely prevented by vaccination and screening, whereas HBOC ovarian cancer is germline-driven with no good screening, so management turns to risk-reducing surgery.
 
 ---
 
