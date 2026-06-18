@@ -223,6 +223,15 @@ cross_links:
   - target: 01-human/07-system/renal-system
     relation: connects-to
     note: "It can leak protein from the kidney: Hodgkin lymphoma is the cancer most classically associated with paraneoplastic minimal-change nephrotic syndrome, which resolves when the lymphoma is treated."
+  - target: 01-human/07-system/musculoskeletal-system
+    relation: connects-to
+    note: "It reaches bone and marrow: advanced Hodgkin lymphoma can infiltrate the bone marrow and skeleton, and treatment-related avascular necrosis follows long steroid use."
+  - target: 01-human/07-system/nervous-system
+    relation: connects-to
+    note: "It can attack the nerves remotely: Hodgkin lymphoma is a classic cause of paraneoplastic cerebellar degeneration and limbic encephalitis, and vinca-alkaloid chemotherapy causes peripheral neuropathy."
+  - target: 01-human/07-system/digestive-system
+    relation: connects-to
+    note: "It can involve gut and liver: Hodgkin lymphoma occasionally infiltrates the liver and gastrointestinal tract, and treatment brings nausea and hepatotoxicity."
 ---
 
 # Hodgkin Lymphoma
@@ -413,6 +422,9 @@ Modern protocols minimize RT fields and doses (ISRT replacing extended-field RT)
 - `connects-to` → **[Cardiovascular System](../cardiovascular-system/README.md)** — Its cure scars the heart for decades: mediastinal radiation and the doxorubicin in ABVD cause late premature coronary disease, valve damage and cardiomyopathy in young survivors.
 - `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — It announces itself through the skin: severe generalised pruritus is a classic constitutional feature of Hodgkin lymphoma, and alcohol-induced pain at involved nodes is a curious sign.
 - `connects-to` → **[Renal System](../renal-system/README.md)** — It can leak protein from the kidney: Hodgkin lymphoma is the cancer most classically associated with paraneoplastic minimal-change nephrotic syndrome, which resolves when the lymphoma is treated.
+- `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — It reaches bone and marrow: advanced Hodgkin lymphoma can infiltrate the bone marrow and skeleton, and treatment-related avascular necrosis follows long steroid use.
+- `connects-to` → **[Nervous System](../nervous-system/README.md)** — It can attack the nerves remotely: Hodgkin lymphoma is a classic cause of paraneoplastic cerebellar degeneration and limbic encephalitis, and vinca-alkaloid chemotherapy causes peripheral neuropathy.
+- `connects-to` → **[Digestive System](../digestive-system/README.md)** — It can involve gut and liver: Hodgkin lymphoma occasionally infiltrates the liver and gastrointestinal tract, and treatment brings nausea and hepatotoxicity.
 
 [^connors-2018-echelon1]: Connors JM, Jurczak W, Straus DJ, et al. Brentuximab vedotin with chemotherapy for stage III or IV Hodgkin's lymphoma. *N Engl J Med.* 2018;378(4):331-344. [doi:10.1056/NEJMoa1708984](https://doi.org/10.1056/NEJMoa1708984) · [PubMed 29360494](https://pubmed.ncbi.nlm.nih.gov/29360494/)
 [^armand-2018-nivo-hl]: Armand P, Engert A, Younes A, et al. Nivolumab for relapsed/refractory classic Hodgkin lymphoma after failure of autologous hematopoietic cell transplantation: extended follow-up of the multicohort single-arm phase II CheckMate 205 trial. *J Clin Oncol.* 2018;36(14):1428-1439. [doi:10.1200/JCO.2017.77.6717](https://doi.org/10.1200/JCO.2017.77.6717) · [PubMed 29584546](https://pubmed.ncbi.nlm.nih.gov/29584546/)

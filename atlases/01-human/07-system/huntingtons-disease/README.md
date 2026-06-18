@@ -210,6 +210,15 @@ cross_links:
   - target: 01-human/07-system/renal-system
     relation: connects-to
     note: "It loses bladder control: advancing Huntington's brings neurogenic bladder with urinary urgency and incontinence and a raised risk of urinary infection."
+  - target: 03-medicine/01-modern/10-mental-health/fluoxetine
+    relation: connects-to
+    note: "Psychiatric symptoms need treatment: SSRIs like fluoxetine are widely used for the depression, anxiety and obsessive-compulsive features that often precede and accompany Huntington's chorea."
+  - target: 01-human/07-system/lewy-body-dementia
+    relation: connects-to
+    note: "A fellow movement-and-mind neurodegeneration: like Lewy body dementia, Huntington's disease couples a movement disorder with progressive cognitive and psychiatric decline, though through a different pathology."
+  - target: 01-human/07-system/integumentary-system
+    relation: connects-to
+    note: "End-stage immobility breaks the skin: in advanced Huntington's disease, rigidity, immobility and poor nutrition make pressure ulcers a major complication of care."
 sources:
   - id: gusella-1983-htt-locus
     type: peer-reviewed
@@ -325,3 +334,6 @@ HD disrupts multiple neural circuit functions:
 - `connects-to` → **[Cardiovascular System](../cardiovascular-system/README.md)** — The mutant protein also harms the heart: huntingtin is expressed in cardiac muscle, contributing to cardiomyopathy and autonomic dysfunction, with heart disease a leading cause of death in Huntington's.
 - `connects-to` → **[Immune System](../immune-system/README.md)** — It hyperactivates the immune system: mutant huntingtin in immune cells causes peripheral immune hyperactivation and neuroinflammation thought to contribute to disease progression.
 - `connects-to` → **[Renal System](../renal-system/README.md)** — It loses bladder control: advancing Huntington's brings neurogenic bladder with urinary urgency and incontinence and a raised risk of urinary infection.
+- `connects-to` → **[Fluoxetine](../../../03-medicine/01-modern/10-mental-health/fluoxetine/README.md)** — Psychiatric symptoms need treatment: SSRIs like fluoxetine are widely used for the depression, anxiety and obsessive-compulsive features that often precede and accompany Huntington's chorea.
+- `connects-to` → **[Lewy Body Dementia](../lewy-body-dementia/README.md)** — A fellow movement-and-mind neurodegeneration: like Lewy body dementia, Huntington's disease couples a movement disorder with progressive cognitive and psychiatric decline, though through a different pathology.
+- `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — End-stage immobility breaks the skin: in advanced Huntington's disease, rigidity, immobility and poor nutrition make pressure ulcers a major complication of care.
