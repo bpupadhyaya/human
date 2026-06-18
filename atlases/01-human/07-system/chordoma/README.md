@@ -205,6 +205,15 @@ cross_links:
   - target: 01-human/07-system/ckd
     relation: connects-to
     note: "Sacral tumor disrupts the bladder: a sacral chordoma damages the nerves controlling the bladder, and the resulting neurogenic bladder with recurrent infection and obstruction can injure the kidneys over time."
+  - target: 01-human/07-system/digestive-system
+    relation: connects-to
+    note: "It compresses the gut from both ends: a sacral chordoma damages the nerves to the rectum, causing constipation and faecal incontinence, while a clival tumour near the brainstem can impair swallowing."
+  - target: 01-human/07-system/endocrine-system
+    relation: connects-to
+    note: "Skull-base tumours threaten the pituitary: clival chordomas sit beside the sella and can compress the pituitary, and surgery or radiation to the region can cause hypopituitarism."
+  - target: 01-human/07-system/generalized-anxiety-disorder
+    relation: connects-to
+    note: "A locally relentless tumour breeds worry: the high recurrence rate, repeated surgery and proton radiation, and slow inexorable course of chordoma foster chronic health anxiety alongside depression."
 ---
 
 # Chordoma
@@ -402,6 +411,9 @@ CDKN2A deletion in ~30-40% → CDK4/6 hyperactivation → RB1 phosphorylation; p
 - `connects-to` → **[Wound Healing](../wound-healing/README.md)** — Its radical resections heal poorly: the extensive skull-base and sacral surgery for chordoma, often with prior or adjuvant radiation, leaves complex wounds prone to dehiscence, CSF leak and slow healing.
 - `connects-to` → **[Stroke](../stroke/README.md)** — Skull-base tumor encircles the great vessels: clival chordomas encase the carotid and basilar arteries, and tumor or its surgery can compromise these vessels, risking ischemic stroke.
 - `connects-to` → **[Chronic Kidney Disease](../ckd/README.md)** — Sacral tumor disrupts the bladder: a sacral chordoma damages the nerves controlling the bladder, and the resulting neurogenic bladder with recurrent infection and obstruction can injure the kidneys over time.
+- `connects-to` → **[Digestive System](../digestive-system/README.md)** — It compresses the gut from both ends: a sacral chordoma damages the nerves to the rectum, causing constipation and faecal incontinence, while a clival tumour near the brainstem can impair swallowing.
+- `connects-to` → **[Endocrine System](../endocrine-system/README.md)** — Skull-base tumours threaten the pituitary: clival chordomas sit beside the sella and can compress the pituitary, and surgery or radiation to the region can cause hypopituitarism.
+- `connects-to` → **[Generalized Anxiety Disorder](../generalized-anxiety-disorder/README.md)** — A locally relentless tumour breeds worry: the high recurrence rate, repeated surgery and proton radiation, and slow inexorable course of chordoma foster chronic health anxiety alongside depression.
 
 ---
 

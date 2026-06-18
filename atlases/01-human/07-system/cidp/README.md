@@ -213,6 +213,15 @@ cross_links:
   - target: 01-human/07-system/stroke
     relation: connects-to
     note: "Its IVIG can thicken the blood: the intravenous immunoglobulin used to treat CIDP raises blood viscosity and carries a recognized risk of thromboembolic events including stroke."
+  - target: 02-pathogen/01-viruses/varicella-zoster-virus
+    relation: connects-to
+    note: "Its immunosuppression reawakens shingles: the corticosteroids, rituximab and other immunosuppressants used long-term for CIDP deplete antiviral immunity, allowing herpes-zoster reactivation."
+  - target: 01-human/07-system/endocrine-system
+    relation: connects-to
+    note: "Long steroid courses disturb the glands: the prolonged corticosteroids used to control CIDP cause hyperglycaemia and adrenal suppression, and steroid diabetes is a common treatment complication."
+  - target: 01-human/07-system/generalized-anxiety-disorder
+    relation: connects-to
+    note: "A chronic, relapsing, disabling neuropathy breeds worry: the fluctuating weakness, dependence on repeated infusions and uncertain course of CIDP foster chronic health anxiety alongside depression."
 ---
 
 # CIDP
@@ -420,6 +429,9 @@ IgG4 anti-NF155 or anti-CNTN1 disrupts this complex → paranodal loop detachmen
 - `connects-to` → **[Wound Healing](../wound-healing/README.md)** — Numb, weak limbs break down: the sensory loss and weakness of CIDP lead to unnoticed injuries and immobility, and steroid therapy slows the healing of the resulting wounds and ulcers.
 - `connects-to` → **[Aspergillus fumigatus](../../../02-pathogen/03-fungi/aspergillus-fumigatus/README.md)** — Its immunotherapy opens the lung to mold: the corticosteroids and immunosuppressants used to control CIDP blunt immunity, occasionally permitting invasive aspergillosis.
 - `connects-to` → **[Stroke](../stroke/README.md)** — Its IVIG can thicken the blood: the intravenous immunoglobulin used to treat CIDP raises blood viscosity and carries a recognized risk of thromboembolic events including stroke.
+- `connects-to` → **[Varicella-Zoster Virus](../../../02-pathogen/01-viruses/varicella-zoster-virus/README.md)** — Its immunosuppression reawakens shingles: the corticosteroids, rituximab and other immunosuppressants used long-term for CIDP deplete antiviral immunity, allowing herpes-zoster reactivation.
+- `connects-to` → **[Endocrine System](../endocrine-system/README.md)** — Long steroid courses disturb the glands: the prolonged corticosteroids used to control CIDP cause hyperglycaemia and adrenal suppression, and steroid diabetes is a common treatment complication.
+- `connects-to` → **[Generalized Anxiety Disorder](../generalized-anxiety-disorder/README.md)** — A chronic, relapsing, disabling neuropathy breeds worry: the fluctuating weakness, dependence on repeated infusions and uncertain course of CIDP foster chronic health anxiety alongside depression.
 
 ---
 
