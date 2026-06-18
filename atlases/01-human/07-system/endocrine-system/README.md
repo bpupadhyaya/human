@@ -230,6 +230,15 @@ cross_links:
   - target: 03-medicine/03-food/zinc-dietary
     relation: connects-to
     note: "Zinc underpins hormone signalling: it is essential for insulin storage in the pancreas and for testosterone and thyroid-hormone production, so deficiency impairs growth and reproduction."
+  - target: 03-medicine/01-modern/07-metabolic/metformin
+    relation: connects-to
+    note: "The most-prescribed endocrine drug: metformin lowers hepatic glucose output as first-line therapy for type 2 diabetes and is also used in polycystic ovary syndrome, an everyday tool of endocrinology."
+  - target: 02-pathogen/02-bacteria/mycobacterium-tuberculosis
+    relation: connects-to
+    note: "It can destroy the glands: tuberculosis is a classic cause of primary adrenal insufficiency (Addison's disease) through bilateral adrenal destruction, and can also trigger SIADH."
+  - target: 03-medicine/01-modern/13-cancer/checkpoint-inhibitors
+    relation: connects-to
+    note: "Immunotherapy unleashes endocrinopathy: PD-1 and CTLA-4 inhibitors commonly cause immune-related thyroiditis, hypophysitis, adrenalitis and autoimmune diabetes, among the most frequent toxicities of cancer immunotherapy."
 ---
 
 # Endocrine System
@@ -458,6 +467,9 @@ The endocrine system coordinates fuel metabolism across multiple organs in respo
 - `connects-to` → **[Corticosteroids](../../../03-medicine/01-modern/02-respiratory/corticosteroids/README.md)** — The commonest Cushing's is iatrogenic: exogenous glucocorticoids like prednisolone and dexamethasone suppress the hypothalamic-pituitary-adrenal axis and cause Cushing syndrome, the archetype of drug-induced endocrine disease.
 - `connects-to` → **[Dietary Magnesium](../../../03-medicine/03-food/magnesium-dietary/README.md)** — A mineral the hormones need: magnesium is required for insulin sensitivity and parathyroid-hormone secretion, so deficiency disturbs glucose and calcium regulation.
 - `connects-to` → **[Dietary Zinc](../../../03-medicine/03-food/zinc-dietary/README.md)** — Zinc underpins hormone signalling: it is essential for insulin storage in the pancreas and for testosterone and thyroid-hormone production, so deficiency impairs growth and reproduction.
+- `connects-to` → **[Metformin](../../../03-medicine/01-modern/07-metabolic/metformin/README.md)** — The most-prescribed endocrine drug: metformin lowers hepatic glucose output as first-line therapy for type 2 diabetes and is also used in polycystic ovary syndrome, an everyday tool of endocrinology.
+- `connects-to` → **[Mycobacterium tuberculosis](../../../02-pathogen/02-bacteria/mycobacterium-tuberculosis/README.md)** — It can destroy the glands: tuberculosis is a classic cause of primary adrenal insufficiency (Addison's disease) through bilateral adrenal destruction, and can also trigger SIADH.
+- `connects-to` → **[Checkpoint Inhibitors](../../../03-medicine/01-modern/13-cancer/checkpoint-inhibitors/README.md)** — Immunotherapy unleashes endocrinopathy: PD-1 and CTLA-4 inhibitors commonly cause immune-related thyroiditis, hypophysitis, adrenalitis and autoimmune diabetes, among the most frequent toxicities of cancer immunotherapy.
 
 ## Pathology
 

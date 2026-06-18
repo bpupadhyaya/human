@@ -232,6 +232,15 @@ cross_links:
   - target: 01-human/07-system/musculoskeletal-system
     relation: connects-to
     note: "It links to muscle and bone: oesophageal cancer can present with paraneoplastic dermatomyositis, and advanced disease metastasises to the skeleton."
+  - target: 03-medicine/01-modern/13-cancer/checkpoint-inhibitors
+    relation: connects-to
+    note: "Immunotherapy now treats it: PD-1 inhibitors (nivolumab, pembrolizumab) are used adjuvantly after chemoradiation and for advanced oesophageal and gastro-oesophageal cancer."
+  - target: 03-medicine/01-modern/13-cancer/cancer-chemotherapy
+    relation: connects-to
+    note: "Chemoradiation is the backbone: platinum and fluoropyrimidine chemotherapy with radiation (the CROSS regimen) precedes surgery for resectable oesophageal cancer."
+  - target: 03-medicine/01-modern/13-cancer/targeted-therapy
+    relation: connects-to
+    note: "Molecular subsets gain drugs: HER2-positive oesophageal adenocarcinoma responds to trastuzumab, and FGFR and other targets are emerging in this hard-to-treat cancer."
 ---
 
 # Esophageal Cancer
@@ -441,6 +450,9 @@ T1a: Lamina propria/muscularis mucosae; T1b: Submucosa; T2: Muscularis propria; 
 - `connects-to` → **[Immune System](../immune-system/README.md)** — Immunotherapy now treats it: PD-1 checkpoint inhibitors are used in advanced and adjuvant oesophageal cancer, while chronic reflux-driven inflammation underlies the adenocarcinoma.
 - `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — The skin can flag it: the hereditary palmoplantar keratoderma tylosis (Howel-Evans) strongly predisposes to oesophageal squamous-cell cancer, and paraneoplastic acanthosis nigricans can appear.
 - `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — It links to muscle and bone: oesophageal cancer can present with paraneoplastic dermatomyositis, and advanced disease metastasises to the skeleton.
+- `connects-to` → **[Checkpoint Inhibitors](../../../03-medicine/01-modern/13-cancer/checkpoint-inhibitors/README.md)** — Immunotherapy now treats it: PD-1 inhibitors (nivolumab, pembrolizumab) are used adjuvantly after chemoradiation and for advanced oesophageal and gastro-oesophageal cancer.
+- `connects-to` → **[Cancer Chemotherapy](../../../03-medicine/01-modern/13-cancer/cancer-chemotherapy/README.md)** — Chemoradiation is the backbone: platinum and fluoropyrimidine chemotherapy with radiation (the CROSS regimen) precedes surgery for resectable oesophageal cancer.
+- `connects-to` → **[Targeted Therapy](../../../03-medicine/01-modern/13-cancer/targeted-therapy/README.md)** — Molecular subsets gain drugs: HER2-positive oesophageal adenocarcinoma responds to trastuzumab, and FGFR and other targets are emerging in this hard-to-treat cancer.
 
 ---
 
