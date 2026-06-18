@@ -241,6 +241,15 @@ cross_links:
   - target: 03-medicine/01-modern/10-mental-health/fluoxetine
     relation: connects-to
     note: "Drugs reshape its chemistry: SSRIs like fluoxetine raise synaptic serotonin to treat depression and anxiety, exemplifying how the nervous system is modulated pharmacologically."
+  - target: 01-human/07-system/als
+    relation: connects-to
+    note: "Motor neurons degenerate: amyotrophic lateral sclerosis progressively destroys upper and lower motor neurons of the nervous system, causing relentless paralysis while sparing sensation and cognition until late."
+  - target: 02-pathogen/01-viruses/hiv-1
+    relation: connects-to
+    note: "A virus that invades the brain: HIV enters the central nervous system early, infecting microglia and macrophages to cause HIV encephalitis and the cognitive decline of HIV-associated neurocognitive disorder."
+  - target: 03-medicine/01-modern/02-respiratory/corticosteroids
+    relation: connects-to
+    note: "Steroids quiet neuro-inflammation: corticosteroids reduce cerebral oedema around tumours, treat acute multiple-sclerosis relapses and autoimmune encephalitis, a mainstay across inflammatory nervous-system disease."
 ---
 
 # Nervous System
@@ -351,6 +360,9 @@ Distributed cortical networks underlie language (Broca's area, Wernicke's area, 
 - `connects-to` → **[Coxsackievirus B](../../../02-pathogen/01-viruses/coxsackievirus-b/README.md)** — Enteroviruses inflame the nervous system: Coxsackie and other enteroviruses are leading causes of viral (aseptic) meningitis and can cause encephalitis and acute flaccid paralysis.
 - `connects-to` → **[Omega-3 fatty acids](../../../03-medicine/03-food/omega-3-fatty-acids/README.md)** — The brain is built from dietary fat: docosahexaenoic acid (DHA), an omega-3, is the dominant structural fatty acid of neuronal membranes, essential for brain development and function.
 - `connects-to` → **[Fluoxetine](../../../03-medicine/01-modern/10-mental-health/fluoxetine/README.md)** — Drugs reshape its chemistry: SSRIs like fluoxetine raise synaptic serotonin to treat depression and anxiety, exemplifying how the nervous system is modulated pharmacologically.
+- `connects-to` → **[ALS](../../07-system/als/README.md)** — Motor neurons degenerate: amyotrophic lateral sclerosis progressively destroys upper and lower motor neurons of the nervous system, causing relentless paralysis while sparing sensation and cognition until late.
+- `connects-to` → **[HIV-1](../../../02-pathogen/01-viruses/hiv-1/README.md)** — A virus that invades the brain: HIV enters the central nervous system early, infecting microglia and macrophages to cause HIV encephalitis and the cognitive decline of HIV-associated neurocognitive disorder.
+- `connects-to` → **[Corticosteroids](../../../03-medicine/01-modern/02-respiratory/corticosteroids/README.md)** — Steroids quiet neuro-inflammation: corticosteroids reduce cerebral oedema around tumours, treat acute multiple-sclerosis relapses and autoimmune encephalitis, a mainstay across inflammatory nervous-system disease.
 
 ## Pathology
 

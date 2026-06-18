@@ -232,6 +232,15 @@ cross_links:
   - target: 03-medicine/01-modern/13-cancer/targeted-therapy
     relation: connects-to
     note: "It is treated by precision agents: anti-GD2 immunotherapy (dinutuximab) and MIBG-targeted radiotherapy exploit neuroblastoma's neural markers in high-risk disease."
+  - target: 03-medicine/01-modern/13-cancer/cancer-chemotherapy
+    relation: connects-to
+    note: "Intensive chemo for high-risk disease: high-risk neuroblastoma is treated with multi-agent induction chemotherapy and high-dose therapy with autologous stem-cell rescue."
+  - target: 03-medicine/01-modern/13-cancer/car-t
+    relation: connects-to
+    note: "GD2 cell therapy shows promise: GD2-directed CAR-T cells, building on the success of anti-GD2 antibodies, have produced responses in relapsed neuroblastoma, a leading solid-tumour CAR-T target."
+  - target: 01-human/07-system/mpnst
+    relation: connects-to
+    note: "A fellow neural-crest tumour: like malignant peripheral nerve sheath tumour, neuroblastoma derives from neural-crest lineage, the two among the nerve-associated malignancies of childhood and young adults."
 ---
 
 # Neuroblastoma
@@ -440,6 +449,9 @@ Stage MS (metastatic, <18 months, skin/liver/bone marrow only, MYCN wild-type): 
 - `connects-to` → **[Cardiovascular System](../cardiovascular-system/README.md)** — It floods the body with catecholamines: neuroblastoma can secrete catecholamines causing hypertension, and its anthracycline chemotherapy adds long-term cardiotoxicity.
 - `connects-to` → **[Renal System](../renal-system/README.md)** — It crowds and is treated near the kidney: adrenal and paraspinal neuroblastomas compress the kidney and ureter, and cisplatin chemotherapy is nephrotoxic.
 - `connects-to` → **[Targeted Therapy](../../../03-medicine/01-modern/13-cancer/targeted-therapy/README.md)** — It is treated by precision agents: anti-GD2 immunotherapy (dinutuximab) and MIBG-targeted radiotherapy exploit neuroblastoma's neural markers in high-risk disease.
+- `connects-to` → **[Cancer Chemotherapy](../../../03-medicine/01-modern/13-cancer/cancer-chemotherapy/README.md)** — Intensive chemo for high-risk disease: high-risk neuroblastoma is treated with multi-agent induction chemotherapy and high-dose therapy with autologous stem-cell rescue.
+- `connects-to` → **[CAR-T](../../../03-medicine/01-modern/13-cancer/car-t/README.md)** — GD2 cell therapy shows promise: GD2-directed CAR-T cells, building on the success of anti-GD2 antibodies, have produced responses in relapsed neuroblastoma, a leading solid-tumour CAR-T target.
+- `connects-to` → **[MPNST](../mpnst/README.md)** — A fellow neural-crest tumour: like malignant peripheral nerve sheath tumour, neuroblastoma derives from neural-crest lineage, the two among the nerve-associated malignancies of childhood and young adults.
 
 [^yu-2010-dinutuximab-nb]: Yu AL, Gilman AL, Ozkaynak MF, et al. Anti-GD2 antibody with GM-CSF, interleukin-2, and isotretinoin for neuroblastoma. *N Engl J Med.* 2010;363(14):1324-1334. [doi:10.1056/NEJMoa0911123](https://doi.org/10.1056/NEJMoa0911123) · [PubMed 20879881](https://pubmed.ncbi.nlm.nih.gov/20879881/)
 [^park-2019-tandem-sct-nb]: Park JR, Kreissman SG, London WB, et al. Effect of tandem autologous stem cell transplant vs single transplant on event-free survival in patients with high-risk neuroblastoma: a randomized clinical trial. *JAMA.* 2019;322(8):746-755. [doi:10.1001/jama.2019.11642](https://doi.org/10.1001/jama.2019.11642) · [PubMed 31454023](https://pubmed.ncbi.nlm.nih.gov/31454023/)
