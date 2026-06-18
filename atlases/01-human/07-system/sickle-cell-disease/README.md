@@ -208,6 +208,15 @@ cross_links:
   - target: 01-human/07-system/major-depressive-disorder
     relation: connects-to
     note: "Lifelong pain and disease weigh on mood: the recurrent crises, hospitalizations, stigma and chronic pain of sickle cell disease carry a substantial burden of depression and reduced quality of life."
+  - target: 01-human/07-system/respiratory-system
+    relation: connects-to
+    note: "Acute chest syndrome is its great killer: vaso-occlusion in the pulmonary vasculature causes acute chest syndrome with hypoxia and infiltrates, the leading cause of death in sickle cell disease."
+  - target: 01-human/07-system/digestive-system
+    relation: connects-to
+    note: "Chronic haemolysis stones the gallbladder: the constant red-cell breakdown of sickle cell disease forms pigment gallstones, and splenic and hepatic sequestration crises swell and threaten these organs."
+  - target: 01-human/07-system/integumentary-system
+    relation: connects-to
+    note: "It carves chronic ulcers into the skin: sickle cell disease causes intractable leg ulcers over the ankles from microvascular occlusion and poor healing, a painful, recurring cutaneous complication."
 ---
 
 # Sickle Cell Disease
@@ -430,6 +439,9 @@ SCD vaso-occlusion is not just from sickled RBCs mechanically blocking vessels �
 - `connects-to` → **[Wound Healing](../wound-healing/README.md)** — Vaso-occlusion ulcerates the legs: chronic ischemia and impaired perfusion in sickle cell disease produce the painful, recurrent leg ulcers over the ankles that are notoriously slow to heal.
 - `connects-to` → **[Neisseria meningitidis](../../../02-pathogen/02-bacteria/neisseria-meningitidis/README.md)** — Autosplenectomy strips defense against encapsulated bacteria: repeated splenic infarction leaves sickle cell patients functionally asplenic and vulnerable to meningococcus, alongside pneumococcus and Salmonella.
 - `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — Lifelong pain and disease weigh on mood: the recurrent crises, hospitalizations, stigma and chronic pain of sickle cell disease carry a substantial burden of depression and reduced quality of life.
+- `connects-to` → **[Respiratory System](../respiratory-system/README.md)** — Acute chest syndrome is its great killer: vaso-occlusion in the pulmonary vasculature causes acute chest syndrome with hypoxia and infiltrates, the leading cause of death in sickle cell disease.
+- `connects-to` → **[Digestive System](../digestive-system/README.md)** — Chronic haemolysis stones the gallbladder: the constant red-cell breakdown of sickle cell disease forms pigment gallstones, and splenic and hepatic sequestration crises swell and threaten these organs.
+- `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — It carves chronic ulcers into the skin: sickle cell disease causes intractable leg ulcers over the ankles from microvascular occlusion and poor healing, a painful, recurring cutaneous complication.
 
 [^steinberg-1999-scd-management]: Steinberg MH. Management of sickle cell disease. *N Engl J Med.* 1999;340(13):1021-1030. [doi:10.1056/NEJM199904013401307](https://doi.org/10.1056/NEJM199904013401307) · [PubMed 10099145](https://pubmed.ncbi.nlm.nih.gov/10099145/)
 [^vichinsky-2000-acs-scd]: Vichinsky EP, Neumayr LD, Earles AN, et al. Causes and outcomes of the acute chest syndrome in sickle cell disease. *N Engl J Med.* 2000;342(25):1855-1865. [doi:10.1056/NEJM200006223422502](https://doi.org/10.1056/NEJM200006223422502) · [PubMed 10861320](https://pubmed.ncbi.nlm.nih.gov/10861320/)

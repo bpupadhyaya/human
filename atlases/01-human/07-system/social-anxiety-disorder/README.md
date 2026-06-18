@@ -208,6 +208,15 @@ cross_links:
   - target: 01-human/07-system/type-2-diabetes
     relation: connects-to
     note: "Chronic stress and avoidance tilt toward diabetes: sustained cortisol arousal, comfort eating and the inactivity of social avoidance contribute to the insulin resistance behind type 2 diabetes."
+  - target: 01-human/07-system/integumentary-system
+    relation: connects-to
+    note: "Its fears show on the skin: blushing and facial flushing are core feared symptoms of social anxiety, and visible sweating from hyperhidrosis both triggers and is dreaded in social situations."
+  - target: 01-human/07-system/digestive-system
+    relation: connects-to
+    note: "Anxiety speaks through the gut: social anxiety drives the 'nervous stomach' of cramps, nausea and urgency, and is comorbid with irritable bowel syndrome through the gut-brain axis."
+  - target: 01-human/07-system/attention-deficit-hyperactivity-disorder
+    relation: connects-to
+    note: "They frequently co-occur: social anxiety is common in ADHD, where social difficulties and rejection sensitivity feed the fear of judgement, complicating diagnosis and treatment."
 ---
 
 # Social Anxiety Disorder
@@ -401,6 +410,9 @@ The unique **dopaminergic social reward deficit** in SAD has clinical implicatio
 - `connects-to` → **[Asthma](../asthma/README.md)** — Breathlessness and social fear intertwine: social anxiety is elevated in asthma, where visible symptoms and inhaler use in public, plus the panic of air hunger, reinforce avoidance and worse control.
 - `connects-to` → **[Hypertension](../hypertension/README.md)** — Performance stress spikes the pressure: the intense sympathetic surges of feared social situations, on a background of chronic stress arousal, contribute over time to hypertension.
 - `connects-to` → **[Type 2 Diabetes](../type-2-diabetes/README.md)** — Chronic stress and avoidance tilt toward diabetes: sustained cortisol arousal, comfort eating and the inactivity of social avoidance contribute to the insulin resistance behind type 2 diabetes.
+- `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — Its fears show on the skin: blushing and facial flushing are core feared symptoms of social anxiety, and visible sweating from hyperhidrosis both triggers and is dreaded in social situations.
+- `connects-to` → **[Digestive System](../digestive-system/README.md)** — Anxiety speaks through the gut: social anxiety drives the 'nervous stomach' of cramps, nausea and urgency, and is comorbid with irritable bowel syndrome through the gut-brain axis.
+- `connects-to` → **[Attention-Deficit/Hyperactivity Disorder](../attention-deficit-hyperactivity-disorder/README.md)** — They frequently co-occur: social anxiety is common in ADHD, where social difficulties and rejection sensitivity feed the fear of judgement, complicating diagnosis and treatment.
 
 [^liebowitz-1987-sad-scale]: Liebowitz MR. Social phobia. *Mod Probl Pharmacopsychiatry.* 1987;22:141-173. [PubMed 2885745](https://pubmed.ncbi.nlm.nih.gov/2885745/)
 [^stein-2008-sad-review]: Stein MB, Stein DJ. Social anxiety disorder. *Lancet.* 2008;371(9618):1115-1125. [doi:10.1016/S0140-6736(08)60488-2](https://doi.org/10.1016/S0140-6736(08)60488-2) · [PubMed 18374843](https://pubmed.ncbi.nlm.nih.gov/18374843/)
