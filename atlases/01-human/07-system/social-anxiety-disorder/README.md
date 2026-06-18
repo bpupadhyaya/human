@@ -217,6 +217,15 @@ cross_links:
   - target: 01-human/07-system/attention-deficit-hyperactivity-disorder
     relation: connects-to
     note: "They frequently co-occur: social anxiety is common in ADHD, where social difficulties and rejection sensitivity feed the fear of judgement, complicating diagnosis and treatment."
+  - target: 01-human/07-system/endocrine-system
+    relation: connects-to
+    note: "Social-evaluative fear spikes cortisol: social anxiety disorder shows an exaggerated HPA-axis cortisol response to scrutiny, and beta-blockers blunt the adrenergic tremor and palpitations of performance anxiety."
+  - target: 01-human/07-system/musculoskeletal-system
+    relation: connects-to
+    note: "Anticipation tenses the body: dreaded social situations bring muscle tension, trembling and tension headaches that themselves heighten self-consciousness."
+  - target: 01-human/07-system/respiratory-system
+    relation: connects-to
+    note: "Fear quickens the breath: social anxiety provokes hyperventilation, breathlessness and a choking sensation during feared encounters, somatic symptoms that can escalate to panic."
 ---
 
 # Social Anxiety Disorder
@@ -413,6 +422,9 @@ The unique **dopaminergic social reward deficit** in SAD has clinical implicatio
 - `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — Its fears show on the skin: blushing and facial flushing are core feared symptoms of social anxiety, and visible sweating from hyperhidrosis both triggers and is dreaded in social situations.
 - `connects-to` → **[Digestive System](../digestive-system/README.md)** — Anxiety speaks through the gut: social anxiety drives the 'nervous stomach' of cramps, nausea and urgency, and is comorbid with irritable bowel syndrome through the gut-brain axis.
 - `connects-to` → **[Attention-Deficit/Hyperactivity Disorder](../attention-deficit-hyperactivity-disorder/README.md)** — They frequently co-occur: social anxiety is common in ADHD, where social difficulties and rejection sensitivity feed the fear of judgement, complicating diagnosis and treatment.
+- `connects-to` → **[Endocrine System](../endocrine-system/README.md)** — Social-evaluative fear spikes cortisol: social anxiety disorder shows an exaggerated HPA-axis cortisol response to scrutiny, and beta-blockers blunt the adrenergic tremor and palpitations of performance anxiety.
+- `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — Anticipation tenses the body: dreaded social situations bring muscle tension, trembling and tension headaches that themselves heighten self-consciousness.
+- `connects-to` → **[Respiratory System](../respiratory-system/README.md)** — Fear quickens the breath: social anxiety provokes hyperventilation, breathlessness and a choking sensation during feared encounters, somatic symptoms that can escalate to panic.
 
 [^liebowitz-1987-sad-scale]: Liebowitz MR. Social phobia. *Mod Probl Pharmacopsychiatry.* 1987;22:141-173. [PubMed 2885745](https://pubmed.ncbi.nlm.nih.gov/2885745/)
 [^stein-2008-sad-review]: Stein MB, Stein DJ. Social anxiety disorder. *Lancet.* 2008;371(9618):1115-1125. [doi:10.1016/S0140-6736(08)60488-2](https://doi.org/10.1016/S0140-6736(08)60488-2) · [PubMed 18374843](https://pubmed.ncbi.nlm.nih.gov/18374843/)
