@@ -223,6 +223,15 @@ cross_links:
   - target: 01-human/07-system/cardiovascular-system
     relation: connects-to
     note: "Its cure can scar the heart: the doxorubicin in synovial-sarcoma chemotherapy carries a dose-dependent cardiotoxicity risk in the young patients it often affects."
+  - target: 03-medicine/01-modern/13-cancer/targeted-therapy
+    relation: connects-to
+    note: "It pioneered TCR cell therapy: synovial sarcoma expresses NY-ESO-1, the target of the first approved engineered TCR T-cell therapy (afami-cel), and pazopanib treats advanced disease."
+  - target: 01-human/07-system/nervous-system
+    relation: connects-to
+    note: "Treatment and tumour reach the nerves: ifosfamide causes encephalopathy and peripheral neuropathy, and paraspinal synovial sarcoma can compress nerves."
+  - target: 01-human/07-system/integumentary-system
+    relation: connects-to
+    note: "It and its treatment mark the skin: chemotherapy causes alopecia and mucositis, radiotherapy produces dermatitis over the treated limb, and superficial tumours present as a skin-deep mass."
 ---
 
 # Synovial Sarcoma
@@ -417,6 +426,9 @@ SS has low TMB (~1-2 mut/Mb) and variable PD-L1 expression; ICB response rates ~
 - `connects-to` → **[Lymphatic System](../lymphatic-system/README.md)** — It is a sarcoma that reaches the nodes: synovial sarcoma is one of the few sarcomas with notable lymph-node metastasis, so nodal assessment matters in its staging.
 - `connects-to` → **[Renal System](../renal-system/README.md)** — Its chemotherapy injures the kidney and bladder: the ifosfamide in its regimen causes haemorrhagic cystitis and a Fanconi-like renal tubulopathy.
 - `connects-to` → **[Cardiovascular System](../cardiovascular-system/README.md)** — Its cure can scar the heart: the doxorubicin in synovial-sarcoma chemotherapy carries a dose-dependent cardiotoxicity risk in the young patients it often affects.
+- `connects-to` → **[Targeted Therapy](../../../03-medicine/01-modern/13-cancer/targeted-therapy/README.md)** — It pioneered TCR cell therapy: synovial sarcoma expresses NY-ESO-1, the target of the first approved engineered TCR T-cell therapy (afami-cel), and pazopanib treats advanced disease.
+- `connects-to` → **[Nervous System](../nervous-system/README.md)** — Treatment and tumour reach the nerves: ifosfamide causes encephalopathy and peripheral neuropathy, and paraspinal synovial sarcoma can compress nerves.
+- `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — It and its treatment mark the skin: chemotherapy causes alopecia and mucositis, radiotherapy produces dermatitis over the treated limb, and superficial tumours present as a skin-deep mass.
 
 ---
 

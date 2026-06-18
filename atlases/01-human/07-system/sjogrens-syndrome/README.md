@@ -229,6 +229,15 @@ cross_links:
   - target: 02-pathogen/01-viruses/hepatitis-c-virus
     relation: connects-to
     note: "A virus can mimic it: chronic hepatitis C causes a sicca syndrome with lymphocytic sialadenitis that resembles and associates with Sjögren's, so HCV is excluded at diagnosis."
+  - target: 03-medicine/01-modern/02-respiratory/corticosteroids
+    relation: connects-to
+    note: "Steroids treat its systemic flares: while dryness is managed with substitutes, corticosteroids and immunosuppressants control the extraglandular vasculitis, arthritis and organ involvement of Sjögren's."
+  - target: 02-pathogen/01-viruses/epstein-barr-virus
+    relation: connects-to
+    note: "A virus implicated in its biology: EBV is found in Sjögren's salivary glands and is linked to the chronic B-cell activation that drives both the autoimmunity and its MALT-lymphoma risk."
+  - target: 03-medicine/03-food/omega-3-fatty-acids
+    relation: connects-to
+    note: "Diet is tried for the dryness: omega-3 supplementation is studied for the dry-eye symptoms of Sjögren's, with modest and inconsistent benefit."
 ---
 
 # Sjögren's Syndrome
@@ -429,6 +438,9 @@ Sjögren's syndrome can occur:
 - `connects-to` → **[Cardiovascular System](../cardiovascular-system/README.md)** — Its antibodies can stop the fetal heart: anti-Ro/SSA antibodies cross the placenta and damage the fetal conduction system, causing congenital complete heart block in neonatal lupus.
 - `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — It aches the joints and muscles: non-erosive arthritis and arthralgia are common in Sjögren's, and an overlap myositis can occur with its other autoimmune associations.
 - `connects-to` → **[Hepatitis C Virus](../../../02-pathogen/01-viruses/hepatitis-c-virus/README.md)** — A virus can mimic it: chronic hepatitis C causes a sicca syndrome with lymphocytic sialadenitis that resembles and associates with Sjögren's, so HCV is excluded at diagnosis.
+- `connects-to` → **[Corticosteroids](../../../03-medicine/01-modern/02-respiratory/corticosteroids/README.md)** — Steroids treat its systemic flares: while dryness is managed with substitutes, corticosteroids and immunosuppressants control the extraglandular vasculitis, arthritis and organ involvement of Sjögren's.
+- `connects-to` → **[Epstein-Barr Virus](../../../02-pathogen/01-viruses/epstein-barr-virus/README.md)** — A virus implicated in its biology: EBV is found in Sjögren's salivary glands and is linked to the chronic B-cell activation that drives both the autoimmunity and its MALT-lymphoma risk.
+- `connects-to` → **[Omega-3 fatty acids](../../../03-medicine/03-food/omega-3-fatty-acids/README.md)** — Diet is tried for the dryness: omega-3 supplementation is studied for the dry-eye symptoms of Sjögren's, with modest and inconsistent benefit.
 
 ---
 
