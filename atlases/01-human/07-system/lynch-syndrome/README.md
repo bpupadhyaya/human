@@ -205,6 +205,15 @@ cross_links:
   - target: 02-pathogen/03-fungi/aspergillus-fumigatus
     relation: connects-to
     note: "Chemotherapy opens the lung to mold: the neutropenia from chemotherapy for the colorectal and other cancers of Lynch syndrome can let inhaled Aspergillus invade as pulmonary aspergillosis."
+  - target: 01-human/07-system/renal-system
+    relation: connects-to
+    note: "It targets the upper urinary tract: Lynch syndrome causes urothelial carcinoma of the ureter and renal pelvis, a recognised part of its tumour spectrum requiring urinary surveillance."
+  - target: 01-human/07-system/wound-healing
+    relation: connects-to
+    note: "Risk-reducing and cancer surgery means many wounds: colectomy and prophylactic hysterectomy-oophorectomy in Lynch syndrome leave abdominal wounds and anastomoses that must heal."
+  - target: 01-human/07-system/endocrine-system
+    relation: connects-to
+    note: "Immunotherapy for its MSI-high tumours inflames glands: because Lynch cancers are mismatch-repair-deficient, checkpoint inhibitors are highly effective but trigger endocrine irAEs like thyroiditis and hypophysitis."
 ---
 
 # Lynch Syndrome
@@ -407,6 +416,9 @@ MSI-H stage II CRC: adjuvant 5-FU/leucovorin does NOT improve OS (may be harmful
 - `connects-to` → **[Generalized Anxiety Disorder](../generalized-anxiety-disorder/README.md)** — Constant cancer surveillance breeds worry: the lifelong colonoscopic and multi-organ screening and inherited multi-cancer risk of Lynch syndrome foster chronic health anxiety alongside depression.
 - `connects-to` → **[Neuropathic Pain](../neuropathic-pain/README.md)** — Its chemotherapy injures the nerves: the oxaliplatin used for the colorectal cancers of Lynch syndrome causes a cold-triggered, chronic peripheral neuropathy with neuropathic pain.
 - `connects-to` → **[Aspergillus fumigatus](../../../02-pathogen/03-fungi/aspergillus-fumigatus/README.md)** — Chemotherapy opens the lung to mold: the neutropenia from chemotherapy for the colorectal and other cancers of Lynch syndrome can let inhaled Aspergillus invade as pulmonary aspergillosis.
+- `connects-to` → **[Renal System](../renal-system/README.md)** — It targets the upper urinary tract: Lynch syndrome causes urothelial carcinoma of the ureter and renal pelvis, a recognised part of its tumour spectrum requiring urinary surveillance.
+- `connects-to` → **[Wound Healing](../wound-healing/README.md)** — Risk-reducing and cancer surgery means many wounds: colectomy and prophylactic hysterectomy-oophorectomy in Lynch syndrome leave abdominal wounds and anastomoses that must heal.
+- `connects-to` → **[Endocrine System](../endocrine-system/README.md)** — Immunotherapy for its MSI-high tumours inflames glands: because Lynch cancers are mismatch-repair-deficient, checkpoint inhibitors are highly effective but trigger endocrine irAEs like thyroiditis and hypophysitis.
 
 [^bonadona-2011-lynch-risks]: Bonadona V, Bonaïti B, Olschwang S, et al. Cancer risks associated with germline mutations in MLH1, MSH2, and MSH6 genes in Lynch syndrome. *JAMA.* 2011;305(22):2304-2310. [doi:10.1001/jama.2011.743](https://doi.org/10.1001/jama.2011.743) · [PubMed 21642683](https://pubmed.ncbi.nlm.nih.gov/21642683/)
 [^lynch-2015-lynch-review]: Lynch HT, Snyder CL, Shaw TG, et al. Milestones of Lynch syndrome: 1895-2015. *Nat Rev Cancer.* 2015;15(3):181-194. [doi:10.1038/nrc3878](https://doi.org/10.1038/nrc3878) · [PubMed 25673086](https://pubmed.ncbi.nlm.nih.gov/25673086/)

@@ -214,6 +214,15 @@ cross_links:
   - target: 01-human/07-system/fibromyalgia
     relation: connects-to
     note: "Mood and central pain amplify each other: depression is highly comorbid with fibromyalgia, the two sharing serotonergic and stress-system dysregulation that heightens both low mood and pain sensitivity."
+  - target: 01-human/07-system/nervous-system
+    relation: connects-to
+    note: "It is a disorder of brain circuits and chemistry: depression reflects dysregulation of monoaminergic transmission and limbic-prefrontal networks, with hippocampal and neuroplastic changes underpinning it."
+  - target: 01-human/07-system/endocrine-system
+    relation: connects-to
+    note: "Hormones drive and mimic it: depression features HPA-axis overactivity with high cortisol, and thyroid disease and other endocrine disorders both cause and worsen depressive symptoms."
+  - target: 01-human/07-system/immune-system
+    relation: connects-to
+    note: "Inflammation feeds low mood: raised inflammatory cytokines are found in depression and can induce it (sickness behaviour), the basis of the inflammatory hypothesis of mood disorder."
 ---
 
 # Major Depressive Disorder
@@ -436,6 +445,9 @@ Approximately 30–40% of MDD patients have elevated inflammatory markers:
 - `connects-to` → **[Osteoporosis](../osteoporosis/README.md)** — Low mood quietly thins the bones: depression is associated with reduced bone density through cortisol, inflammation and inactivity, and the SSRIs used to treat it independently lower bone mass and raise fracture risk.
 - `connects-to` → **[Alzheimer's Disease](../alzheimers-disease/README.md)** — Depression foreshadows and accelerates dementia: late-life depression is both a risk factor for and an early sign of Alzheimer's, sharing inflammatory, vascular and hippocampal changes.
 - `connects-to` → **[Fibromyalgia](../fibromyalgia/README.md)** — Mood and central pain amplify each other: depression is highly comorbid with fibromyalgia, the two sharing serotonergic and stress-system dysregulation that heightens both low mood and pain sensitivity.
+- `connects-to` → **[Nervous System](../nervous-system/README.md)** — It is a disorder of brain circuits and chemistry: depression reflects dysregulation of monoaminergic transmission and limbic-prefrontal networks, with hippocampal and neuroplastic changes underpinning it.
+- `connects-to` → **[Endocrine System](../endocrine-system/README.md)** — Hormones drive and mimic it: depression features HPA-axis overactivity with high cortisol, and thyroid disease and other endocrine disorders both cause and worsen depressive symptoms.
+- `connects-to` → **[Immune System](../immune-system/README.md)** — Inflammation feeds low mood: raised inflammatory cytokines are found in depression and can induce it (sickness behaviour), the basis of the inflammatory hypothesis of mood disorder.
 
 [^cipriani-2018-antidepressants-meta]: Cipriani A, Furukawa TA, Salanti G, et al. Comparative efficacy and acceptability of 21 antidepressant drugs for acute treatment of adults with major depressive disorder. *Lancet.* 2018;391(10128):1357-1366. [doi:10.1016/S0140-6736(17)32802-7](https://doi.org/10.1016/S0140-6736(17)32802-7) · [PubMed 29477251](https://pubmed.ncbi.nlm.nih.gov/29477251/)
 [^zarate-2006-ketamine-rapid]: Zarate CA Jr, Singh JB, Carlson PJ, et al. A randomized trial of an N-methyl-D-aspartate antagonist in treatment-resistant major depression. *Arch Gen Psychiatry.* 2006;63(8):856-864. [doi:10.1001/archpsyc.63.8.856](https://doi.org/10.1001/archpsyc.63.8.856) · [PubMed 16894061](https://pubmed.ncbi.nlm.nih.gov/16894061/)
