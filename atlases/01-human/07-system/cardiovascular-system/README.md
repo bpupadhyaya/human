@@ -249,6 +249,15 @@ cross_links:
   - target: 02-pathogen/02-bacteria/staphylococcus-aureus
     relation: connects-to
     note: "A leading cause of endocarditis: Staphylococcus aureus is the commonest organism in infective endocarditis, seeding and destroying heart valves from the bloodstream, especially in injection drug use and prosthetic valves."
+  - target: 01-human/05-tissue/cardiac-conduction-system
+    relation: connects-to
+    note: "It sets the rhythm: the SA node, AV node and His-Purkinje system generate and route the electrical impulse that coordinates the heartbeat, and their failure produces the arrhythmias, blocks and sudden death the cardiovascular system must avoid."
+  - target: 03-medicine/01-modern/04-cardio/ace-inhibitors
+    relation: connects-to
+    note: "A cornerstone of cardiovascular therapy: ACE inhibitors blunt the renin-angiotensin system to lower blood pressure, unload the failing heart and protect after myocardial infarction, among the most-used cardiovascular drugs."
+  - target: 01-human/07-system/atherosclerosis
+    relation: connects-to
+    note: "Its central disease: atherosclerosis — lipid-laden, inflamed plaque in artery walls — underlies coronary disease, stroke and peripheral arterial disease, the leading cause of death and the dominant pathology of the cardiovascular system."
 taxonomy:
   uberon: "UBERON:0004535"
   fma: "FMA:7161"
@@ -408,6 +417,9 @@ Each major vascular bed has **autoregulation** — a local mechanism that holds 
 - `connects-to` → **[Immune System](../immune-system/README.md)** — Inflammation drives its diseases: immune cells populate atherosclerotic plaques, autoimmune and infectious myocarditis injure the heart, and anti-inflammatory therapy (canakinumab, colchicine) reduces cardiovascular events.
 - `connects-to` → **[Statins](../../../03-medicine/01-modern/04-cardio/statins/README.md)** — The cornerstone of prevention: statins lower LDL cholesterol and stabilise plaque, cutting heart attacks and strokes, and are foundational to both primary and secondary cardiovascular prevention.
 - `connects-to` → **[Staphylococcus aureus](../../../02-pathogen/02-bacteria/staphylococcus-aureus/README.md)** — A leading cause of endocarditis: Staphylococcus aureus is the commonest organism in infective endocarditis, seeding and destroying heart valves from the bloodstream, especially in injection drug use and prosthetic valves.
+- `connects-to` → **[Cardiac Conduction System](../../05-tissue/cardiac-conduction-system/README.md)** — It sets the rhythm: the SA node, AV node and His-Purkinje system generate and route the electrical impulse that coordinates the heartbeat, and their failure produces the arrhythmias, blocks and sudden death the cardiovascular system must avoid.
+- `connects-to` → **[ACE Inhibitors](../../../03-medicine/01-modern/04-cardio/ace-inhibitors/README.md)** — A cornerstone of cardiovascular therapy: ACE inhibitors blunt the renin-angiotensin system to lower blood pressure, unload the failing heart and protect after myocardial infarction, among the most-used cardiovascular drugs.
+- `connects-to` → **[Atherosclerosis](../atherosclerosis/README.md)** — Its central disease: atherosclerosis — lipid-laden, inflamed plaque in artery walls — underlies coronary disease, stroke and peripheral arterial disease, the leading cause of death and the dominant pathology of the cardiovascular system.
 
 ## Pathology
 

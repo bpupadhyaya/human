@@ -243,6 +243,15 @@ cross_links:
   - target: 02-pathogen/01-viruses/hepatitis-c-virus
     relation: connects-to
     note: "A virus that scars the kidney: chronic hepatitis C causes membranoproliferative glomerulonephritis and cryoglobulinaemic kidney disease, a treatable infectious driver of chronic kidney disease."
+  - target: 01-human/05-tissue/cortical-bone
+    relation: connects-to
+    note: "It deranges the skeleton: CKD-mineral-bone disorder — phosphate retention, low vitamin D and secondary hyperparathyroidism with high FGF23 — weakens cortical bone as renal osteodystrophy, raising fracture risk."
+  - target: 01-human/05-tissue/arterial-wall
+    relation: connects-to
+    note: "It calcifies the arteries: disturbed calcium-phosphate balance in CKD drives medial vascular calcification of the arterial wall, stiffening vessels and accelerating the cardiovascular disease that kills most CKD patients."
+  - target: 03-medicine/01-modern/04-cardio/statins
+    relation: connects-to
+    note: "Cardiovascular risk dominates: CKD multiplies cardiovascular risk so much that statins reduce events in non-dialysis CKD (as in the SHARP trial), though the benefit attenuates once patients reach dialysis."
 ---
 
 # Chronic Kidney Disease
@@ -394,6 +403,9 @@ As nephron mass decreases, impaired renal functions accumulate:
 - `connects-to` → **[ACE Inhibitors](../../../03-medicine/01-modern/04-cardio/ace-inhibitors/README.md)** — The cornerstone of renoprotection: ACE inhibitors block angiotensin II, lowering glomerular pressure and proteinuria to slow CKD progression, the foundation of treatment in diabetic and proteinuric kidney disease.
 - `connects-to` → **[Dietary Fiber](../../../03-medicine/03-food/dietary-fiber/README.md)** — The gut shapes uraemic toxicity: a high-fibre diet shifts the microbiome to make fewer protein-bound uraemic toxins like indoxyl sulfate, of interest in slowing CKD and its cardiovascular complications.
 - `connects-to` → **[Hepatitis C Virus](../../../02-pathogen/01-viruses/hepatitis-c-virus/README.md)** — A virus that scars the kidney: chronic hepatitis C causes membranoproliferative glomerulonephritis and cryoglobulinaemic kidney disease, a treatable infectious driver of chronic kidney disease.
+- `connects-to` → **[Cortical Bone](../../05-tissue/cortical-bone/README.md)** — It deranges the skeleton: CKD-mineral-bone disorder — phosphate retention, low vitamin D and secondary hyperparathyroidism with high FGF23 — weakens cortical bone as renal osteodystrophy, raising fracture risk.
+- `connects-to` → **[Arterial Wall](../../05-tissue/arterial-wall/README.md)** — It calcifies the arteries: disturbed calcium-phosphate balance in CKD drives medial vascular calcification of the arterial wall, stiffening vessels and accelerating the cardiovascular disease that kills most CKD patients.
+- `connects-to` → **[Statins](../../../03-medicine/01-modern/04-cardio/statins/README.md)** — Cardiovascular risk dominates: CKD multiplies cardiovascular risk so much that statins reduce events in non-dialysis CKD (as in the SHARP trial), though the benefit attenuates once patients reach dialysis.
 
 ## Pathology
 
