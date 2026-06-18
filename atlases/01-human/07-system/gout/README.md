@@ -238,6 +238,15 @@ cross_links:
   - target: 03-medicine/03-food/omega-3-fatty-acids
     relation: connects-to
     note: "Diet can calm the inflammation: omega-3 fatty acids have anti-inflammatory effects studied for reducing gout flare frequency, complementing urate-lowering therapy."
+  - target: 01-human/07-system/essential-thrombocythemia
+    relation: connects-to
+    note: "High cell turnover floods urate: myeloproliferative neoplasms like essential thrombocythaemia overproduce cells whose breakdown raises uric acid, a frequent secondary cause of gout."
+  - target: 01-human/07-system/psoriatic-arthritis
+    relation: connects-to
+    note: "Inflammatory arthritis to tell apart: gout and psoriatic arthritis both inflame the joints, psoriasis itself raises urate, and the two enter each other's differential and can coexist."
+  - target: 01-human/05-tissue/cortical-bone
+    relation: connects-to
+    note: "Crystals erode the bone: chronic tophaceous gout deposits urate beside joints, producing the punched-out juxta-articular bone erosions with overhanging edges characteristic of the disease."
 ---
 
 # Gout
@@ -404,6 +413,9 @@ The central mechanism linking MSU crystals to acute gouty arthritis is **NLRP3 i
 - `connects-to` → **[Corticosteroids](../../../03-medicine/01-modern/02-respiratory/corticosteroids/README.md)** — Steroids treat the flare when others can't: oral or intra-articular corticosteroids relieve acute gout for patients in whom NSAIDs and colchicine are contraindicated, such as in kidney disease.
 - `connects-to` → **[Quercetin](../../../03-medicine/03-food/quercetin/README.md)** — A dietary urate-lowering flavonoid: quercetin inhibits xanthine oxidase, the same enzyme blocked by allopurinol, and trials show it modestly lowers serum uric acid.
 - `connects-to` → **[Omega-3 fatty acids](../../../03-medicine/03-food/omega-3-fatty-acids/README.md)** — Diet can calm the inflammation: omega-3 fatty acids have anti-inflammatory effects studied for reducing gout flare frequency, complementing urate-lowering therapy.
+- `connects-to` → **[Essential Thrombocythemia](../essential-thrombocythemia/README.md)** — High cell turnover floods urate: myeloproliferative neoplasms like essential thrombocythaemia overproduce cells whose breakdown raises uric acid, a frequent secondary cause of gout.
+- `connects-to` → **[Psoriatic Arthritis](../psoriatic-arthritis/README.md)** — Inflammatory arthritis to tell apart: gout and psoriatic arthritis both inflame the joints, psoriasis itself raises urate, and the two enter each other's differential and can coexist.
+- `connects-to` → **[Cortical Bone](../../05-tissue/cortical-bone/README.md)** — Crystals erode the bone: chronic tophaceous gout deposits urate beside joints, producing the punched-out juxta-articular bone erosions with overhanging edges characteristic of the disease.
 
 [^dalbeth-2019-gout-primer]: Dalbeth N, Choi HK, Joosten LAB, et al. Gout. *Nat Rev Dis Primers.* 2019;5(1):69. [doi:10.1038/s41572-019-0115-y](https://doi.org/10.1038/s41572-019-0115-y) · [PubMed 31558729](https://pubmed.ncbi.nlm.nih.gov/31558729/)
 [^martinon-2006-nlrp3-gout]: Martinon F, Pétrilli V, Mayor A, Tardivel A, Tschopp J. Gout-associated uric acid crystals activate the NALP3 inflammasome. *Nature.* 2006;440(7081):237-241. [doi:10.1038/nature04516](https://doi.org/10.1038/nature04516) · [PubMed 16407889](https://pubmed.ncbi.nlm.nih.gov/16407889/)

@@ -232,6 +232,15 @@ cross_links:
   - target: 01-human/07-system/tuberous-sclerosis-complex
     relation: connects-to
     note: "A comparator neurocutaneous syndrome: like tuberous sclerosis, Gorlin syndrome combines distinctive skin signs with brain and skeletal lesions in an autosomal-dominant pattern."
+  - target: 03-medicine/01-modern/13-cancer/targeted-therapy
+    relation: connects-to
+    note: "Hedgehog inhibitors treat its many tumours: vismodegib and sonidegib block SMO in the constitutively active Hedgehog pathway, shrinking the multiple basal cell carcinomas of Gorlin syndrome."
+  - target: 01-human/05-tissue/cortical-bone
+    relation: connects-to
+    note: "It carves cysts into bone: Gorlin syndrome produces odontogenic keratocysts that erode the jaw and skeletal anomalies like bifid ribs, hallmarks alongside its skin tumours."
+  - target: 03-medicine/01-modern/13-cancer/cancer-chemotherapy
+    relation: connects-to
+    note: "Radiation must be avoided: because Gorlin patients are radiosensitive and radiation induces new basal cell carcinomas, chemotherapy is preferred for their medulloblastomas."
 ---
 
 # Gorlin Syndrome
@@ -414,6 +423,9 @@ Both are two-hit tumor suppressors: germline heterozygous LOF + somatic second h
 - `connects-to` → **[DICER1 Syndrome](../dicer1-syndrome/README.md)** — A reciprocal childhood-brain-tumour syndrome: like DICER1 syndrome, Gorlin syndrome predisposes to medulloblastoma, the two sharing the differential of inherited paediatric brain tumours.
 - `connects-to` → **[Birt-Hogg-Dubé Syndrome](../birt-hogg-dube-syndrome/README.md)** — A fellow skin-marker tumour syndrome: both Gorlin and Birt-Hogg-Dubé are autosomal-dominant disorders whose characteristic facial skin lesions flag an inherited tumour predisposition.
 - `connects-to` → **[Tuberous Sclerosis Complex](../tuberous-sclerosis-complex/README.md)** — A comparator neurocutaneous syndrome: like tuberous sclerosis, Gorlin syndrome combines distinctive skin signs with brain and skeletal lesions in an autosomal-dominant pattern.
+- `connects-to` → **[Targeted Therapy](../../../03-medicine/01-modern/13-cancer/targeted-therapy/README.md)** — Hedgehog inhibitors treat its many tumours: vismodegib and sonidegib block SMO in the constitutively active Hedgehog pathway, shrinking the multiple basal cell carcinomas of Gorlin syndrome.
+- `connects-to` → **[Cortical Bone](../../05-tissue/cortical-bone/README.md)** — It carves cysts into bone: Gorlin syndrome produces odontogenic keratocysts that erode the jaw and skeletal anomalies like bifid ribs, hallmarks alongside its skin tumours.
+- `connects-to` → **[Cancer Chemotherapy](../../../03-medicine/01-modern/13-cancer/cancer-chemotherapy/README.md)** — Radiation must be avoided: because Gorlin patients are radiosensitive and radiation induces new basal cell carcinomas, chemotherapy is preferred for their medulloblastomas.
 
 ---
 
