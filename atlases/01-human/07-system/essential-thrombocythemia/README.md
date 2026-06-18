@@ -241,6 +241,15 @@ cross_links:
   - target: 03-medicine/01-modern/13-cancer/targeted-therapy
     relation: connects-to
     note: "JAK inhibition for resistant disease: ruxolitinib and other JAK inhibitors, exploiting the JAK2 V617F mutation, treat essential thrombocythaemia that resists hydroxyurea, with interferon a non-mutagenic alternative."
+  - target: 01-human/05-tissue/arterial-wall
+    relation: connects-to
+    note: "Activated platelets clot the arteries: essential thrombocythaemia drives arterial thrombosis — stroke, MI and digital ischaemia (erythromelalgia) — through hyperreactive platelets acting on the arterial wall, the target of low-dose aspirin."
+  - target: 01-human/05-tissue/hepatic-lobule
+    relation: connects-to
+    note: "It clots the splanchnic veins: like other myeloproliferative neoplasms, essential thrombocythaemia characteristically causes hepatic- and portal-vein thrombosis (Budd-Chiari), congesting the liver lobule, sometimes before the platelet count rises."
+  - target: 01-human/07-system/heparin-induced-thrombocytopenia
+    relation: connects-to
+    note: "Platelet count, then platelet activation: essential thrombocythaemia thromboses with a high platelet count, whereas heparin-induced thrombocytopenia thromboses as platelets fall — opposite counts united by pathological platelet activation."
 ---
 
 # Essential Thrombocythemia
@@ -433,6 +442,9 @@ Management:
 - `connects-to` → **[Cancer Chemotherapy](../../../03-medicine/01-modern/13-cancer/cancer-chemotherapy/README.md)** — Cytoreduction with hydroxyurea: in high-risk essential thrombocythaemia, hydroxyurea lowers the platelet count to prevent thrombosis, the main cytoreductive chemotherapy alongside interferon.
 - `connects-to` → **[Antiphospholipid Syndrome](../antiphospholipid-syndrome/README.md)** — Two causes of clots that overlap: like antiphospholipid syndrome, essential thrombocythaemia drives both arterial and venous thrombosis, and the two can coexist and compound the risk.
 - `connects-to` → **[Targeted Therapy](../../../03-medicine/01-modern/13-cancer/targeted-therapy/README.md)** — JAK inhibition for resistant disease: ruxolitinib and other JAK inhibitors, exploiting the JAK2 V617F mutation, treat essential thrombocythaemia that resists hydroxyurea, with interferon a non-mutagenic alternative.
+- `connects-to` → **[Arterial Wall](../../05-tissue/arterial-wall/README.md)** — Activated platelets clot the arteries: essential thrombocythaemia drives arterial thrombosis — stroke, MI and digital ischaemia (erythromelalgia) — through hyperreactive platelets acting on the arterial wall, the target of low-dose aspirin.
+- `connects-to` → **[Hepatic Lobule](../../05-tissue/hepatic-lobule/README.md)** — It clots the splanchnic veins: like other myeloproliferative neoplasms, essential thrombocythaemia characteristically causes hepatic- and portal-vein thrombosis (Budd-Chiari), congesting the liver lobule, sometimes before the platelet count rises.
+- `connects-to` → **[Heparin-Induced Thrombocytopenia](../heparin-induced-thrombocytopenia/README.md)** — Platelet count, then platelet activation: essential thrombocythaemia thromboses with a high platelet count, whereas heparin-induced thrombocytopenia thromboses as platelets fall — opposite counts united by pathological platelet activation.
 
 [^harrison-2005-pt1-et]: Harrison CN, Campbell PJ, Buck G, et al. Hydroxyurea compared with anagrelide in high-risk essential thrombocythemia. *N Engl J Med.* 2005;353(1):33-45. [doi:10.1056/NEJMoa043800](https://doi.org/10.1056/NEJMoa043800) · [PubMed 16000354](https://pubmed.ncbi.nlm.nih.gov/16000354/)
 [^barbui-2012-ipset]: Barbui T, Finazzi G, Carobbio A, et al. Development and validation of an International Prognostic Score of thrombosis in World Health Organization-essential thrombocythemia (IPSET-thrombosis). *Blood.* 2012;120(26):5128-5133. [doi:10.1182/blood-2012-07-444067](https://doi.org/10.1182/blood-2012-07-444067) · [PubMed 23086758](https://pubmed.ncbi.nlm.nih.gov/23086758/)

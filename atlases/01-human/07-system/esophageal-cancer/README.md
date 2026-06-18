@@ -241,6 +241,15 @@ cross_links:
   - target: 03-medicine/01-modern/13-cancer/targeted-therapy
     relation: connects-to
     note: "Molecular subsets gain drugs: HER2-positive oesophageal adenocarcinoma responds to trastuzumab, and FGFR and other targets are emerging in this hard-to-treat cancer."
+  - target: 01-human/07-system/nsclc
+    relation: connects-to
+    note: "Smoking links them in the chest: oesophageal squamous-cell carcinoma and lung cancer share tobacco and alcohol carcinogenesis and mediastinal proximity, so they co-occur and invade across the chest cavity."
+  - target: 01-human/05-tissue/peripheral-nerve
+    relation: connects-to
+    note: "It invades mediastinal nerves: oesophageal cancer can engulf the recurrent laryngeal nerve, causing hoarseness, and infiltrate other mediastinal nerves — local nerve invasion marking unresectable disease."
+  - target: 01-human/05-tissue/cortical-bone
+    relation: connects-to
+    note: "It spreads to the skeleton: advanced oesophageal cancer metastasises to bone as painful osteolytic lesions, one of the distant sites — with liver and lung — that mark incurable disease."
 ---
 
 # Esophageal Cancer
@@ -453,6 +462,9 @@ T1a: Lamina propria/muscularis mucosae; T1b: Submucosa; T2: Muscularis propria; 
 - `connects-to` → **[Checkpoint Inhibitors](../../../03-medicine/01-modern/13-cancer/checkpoint-inhibitors/README.md)** — Immunotherapy now treats it: PD-1 inhibitors (nivolumab, pembrolizumab) are used adjuvantly after chemoradiation and for advanced oesophageal and gastro-oesophageal cancer.
 - `connects-to` → **[Cancer Chemotherapy](../../../03-medicine/01-modern/13-cancer/cancer-chemotherapy/README.md)** — Chemoradiation is the backbone: platinum and fluoropyrimidine chemotherapy with radiation (the CROSS regimen) precedes surgery for resectable oesophageal cancer.
 - `connects-to` → **[Targeted Therapy](../../../03-medicine/01-modern/13-cancer/targeted-therapy/README.md)** — Molecular subsets gain drugs: HER2-positive oesophageal adenocarcinoma responds to trastuzumab, and FGFR and other targets are emerging in this hard-to-treat cancer.
+- `connects-to` → **[NSCLC](../nsclc/README.md)** — Smoking links them in the chest: oesophageal squamous-cell carcinoma and lung cancer share tobacco and alcohol carcinogenesis and mediastinal proximity, so they co-occur and invade across the chest cavity.
+- `connects-to` → **[Peripheral Nerve](../../05-tissue/peripheral-nerve/README.md)** — It invades mediastinal nerves: oesophageal cancer can engulf the recurrent laryngeal nerve, causing hoarseness, and infiltrate other mediastinal nerves — local nerve invasion marking unresectable disease.
+- `connects-to` → **[Cortical Bone](../../05-tissue/cortical-bone/README.md)** — It spreads to the skeleton: advanced oesophageal cancer metastasises to bone as painful osteolytic lesions, one of the distant sites — with liver and lung — that mark incurable disease.
 
 ---
 
