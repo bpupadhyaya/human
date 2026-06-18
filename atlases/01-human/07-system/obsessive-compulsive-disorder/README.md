@@ -242,6 +242,15 @@ cross_links:
   - target: 03-medicine/01-modern/10-mental-health/fluoxetine
     relation: connects-to
     note: "High-dose SSRIs are its mainstay: fluoxetine and other SSRIs, alongside clomipramine, are the pharmacological core of OCD treatment, needing higher doses and longer trials than in depression."
+  - target: 01-human/07-system/lymphatic-system
+    relation: connects-to
+    note: "Its post-streptococcal form starts in lymphoid tissue: in PANDAS, antibodies raised in tonsillar lymphoid tissue against streptococcus cross-react with the basal ganglia to trigger abrupt OCD."
+  - target: 03-medicine/03-food/omega-3-fatty-acids
+    relation: connects-to
+    note: "Diet is studied as an adjunct: omega-3 fatty acids have been trialled for OCD and anxiety, with modest and inconsistent benefit alongside SSRIs and therapy."
+  - target: 03-medicine/02-traditional/ashwagandha
+    relation: connects-to
+    note: "Traditional anxiolytics are tried: adaptogens such as ashwagandha are used by some for the anxiety underlying OCD, complementing rather than replacing first-line SSRIs."
 ---
 
 # Obsessive-Compulsive Disorder
@@ -441,6 +450,9 @@ OCD is often underdiagnosed due to shame and secrecy. Mean time from symptom ons
 - `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — It overlaps tics and strains joints: OCD frequently coexists with tic disorders and Tourette syndrome, producing repetitive motor tics, and compulsive repeated actions cause repetitive-strain injury.
 - `connects-to` → **[Respiratory System](../respiratory-system/README.md)** — Compulsive cleaning irritates the airways: heavy use of bleach and disinfectants in contamination OCD can trigger asthma and airway irritation from chemical exposure.
 - `connects-to` → **[Fluoxetine](../../../03-medicine/01-modern/10-mental-health/fluoxetine/README.md)** — High-dose SSRIs are its mainstay: fluoxetine and other SSRIs, alongside clomipramine, are the pharmacological core of OCD treatment, needing higher doses and longer trials than in depression.
+- `connects-to` → **[Lymphatic System](../lymphatic-system/README.md)** — Its post-streptococcal form starts in lymphoid tissue: in PANDAS, antibodies raised in tonsillar lymphoid tissue against streptococcus cross-react with the basal ganglia to trigger abrupt OCD.
+- `connects-to` → **[Omega-3 fatty acids](../../../03-medicine/03-food/omega-3-fatty-acids/README.md)** — Diet is studied as an adjunct: omega-3 fatty acids have been trialled for OCD and anxiety, with modest and inconsistent benefit alongside SSRIs and therapy.
+- `connects-to` → **[Ashwagandha](../../../03-medicine/02-traditional/ashwagandha/README.md)** — Traditional anxiolytics are tried: adaptogens such as ashwagandha are used by some for the anxiety underlying OCD, complementing rather than replacing first-line SSRIs.
 
 [^abramowitz-2009-ocd-review]: Abramowitz JS, Taylor S, McKay D. Obsessive-compulsive disorder. *Lancet.* 2009;374(9688):491-499. [doi:10.1016/S0140-6736(09)60240-3](https://doi.org/10.1016/S0140-6736(09)60240-3) · [PubMed 19665647](https://pubmed.ncbi.nlm.nih.gov/19665647/)
 [^chamberlain-2008-ocd-neuroscience]: Chamberlain SR, Menzies L, Hampshire A, et al. Orbitofrontal dysfunction in patients with OCD and their unaffected relatives. *Science.* 2008;321(5887):421-422. [doi:10.1126/science.1154433](https://doi.org/10.1126/science.1154433) · [PubMed 18635808](https://pubmed.ncbi.nlm.nih.gov/18635808/)
