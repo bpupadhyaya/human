@@ -223,6 +223,15 @@ cross_links:
   - target: 01-human/07-system/cardiovascular-system
     relation: connects-to
     note: "Its chemotherapy can scar the heart: anthracyclines used against DICER1-related cancers carry a long-term cardiotoxicity risk in the children who receive them."
+  - target: 01-human/07-system/digestive-system
+    relation: connects-to
+    note: "It can sprout polyps in the gut: DICER1 syndrome is reported to cause gastrointestinal juvenile-type polyps and rare hepatic and pancreatic tumours among its diverse lesions."
+  - target: 01-human/07-system/gorlin-syndrome
+    relation: connects-to
+    note: "A fellow medulloblastoma predisposition: like Gorlin syndrome, DICER1 syndrome raises childhood brain-tumour risk, the two entering the differential of inherited medulloblastoma (pineoblastoma)."
+  - target: 01-human/07-system/cowden-syndrome
+    relation: connects-to
+    note: "Shared thyroid-cancer risk: DICER1 and Cowden syndrome both predispose to thyroid nodules and cancer from childhood, placing both in thyroid-surveillance guidance for inherited disease."
 ---
 
 # DICER1 Syndrome
@@ -406,6 +415,9 @@ When a child is found to have a thoracic cystic lesion, DICER1 syndrome should b
 - `connects-to` → **[Nervous System](../nervous-system/README.md)** — It seeds rare brain tumours: DICER1 predisposes to pineoblastoma and pituitary blastoma and other unusual childhood central-nervous-system tumours, warranting neurological surveillance.
 - `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — It arises in cartilage and soft tissue: nasal chondromesenchymal hamartoma and the embryonal rhabdomyosarcomas of the DICER1 spectrum develop in cartilage and skeletal muscle.
 - `connects-to` → **[Cardiovascular System](../cardiovascular-system/README.md)** — Its chemotherapy can scar the heart: anthracyclines used against DICER1-related cancers carry a long-term cardiotoxicity risk in the children who receive them.
+- `connects-to` → **[Digestive System](../digestive-system/README.md)** — It can sprout polyps in the gut: DICER1 syndrome is reported to cause gastrointestinal juvenile-type polyps and rare hepatic and pancreatic tumours among its diverse lesions.
+- `connects-to` → **[Gorlin Syndrome](../gorlin-syndrome/README.md)** — A fellow medulloblastoma predisposition: like Gorlin syndrome, DICER1 syndrome raises childhood brain-tumour risk, the two entering the differential of inherited medulloblastoma (pineoblastoma).
+- `connects-to` → **[Cowden Syndrome](../cowden-syndrome/README.md)** — Shared thyroid-cancer risk: DICER1 and Cowden syndrome both predispose to thyroid nodules and cancer from childhood, placing both in thyroid-surveillance guidance for inherited disease.
 
 ---
 

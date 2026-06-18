@@ -223,6 +223,15 @@ cross_links:
   - target: 01-human/07-system/lymphatic-system
     relation: connects-to
     note: "Mesenteric tumours block lymph flow: a mesenteric desmoid can obstruct lymphatic drainage, causing chylous ascites, on top of the bowel and ureteric compression it produces."
+  - target: 01-human/07-system/respiratory-system
+    relation: connects-to
+    note: "It can grow in the chest: thoracic and chest-wall desmoid tumours can encase the ribs and compress the lung, and mesenteric disease can press on the diaphragm."
+  - target: 03-medicine/01-modern/12-anti-inflammatory/ibuprofen
+    relation: connects-to
+    note: "Anti-inflammatories can hold it back: NSAIDs such as sulindac, in the same class as ibuprofen, are used to slow desmoid growth, sometimes with anti-oestrogens, before resorting to surgery or systemic therapy."
+  - target: 01-human/07-system/immune-system
+    relation: connects-to
+    note: "It builds an inflammatory stroma: desmoid tumours carry a fibroinflammatory microenvironment rich in immune cells, and their indolent, sometimes self-regressing behaviour has drawn interest in immune modulation."
 ---
 
 # Desmoid Tumor
@@ -425,6 +434,9 @@ Standard initial approach for newly diagnosed desmoid without symptoms or rapid 
 - `connects-to` → **[Cardiovascular System](../cardiovascular-system/README.md)** — It wraps around the great vessels: intra-abdominal and mesenteric desmoids encase and compress mesenteric arteries, the aorta and IVC, risking bowel ischaemia and vascular obstruction.
 - `connects-to` → **[Nervous System](../nervous-system/README.md)** — It infiltrates around the nerves: desmoid tumours grow into and compress nerves and nerve roots, causing pain and neurological deficits, and their resection risks nerve injury.
 - `connects-to` → **[Lymphatic System](../lymphatic-system/README.md)** — Mesenteric tumours block lymph flow: a mesenteric desmoid can obstruct lymphatic drainage, causing chylous ascites, on top of the bowel and ureteric compression it produces.
+- `connects-to` → **[Respiratory System](../respiratory-system/README.md)** — It can grow in the chest: thoracic and chest-wall desmoid tumours can encase the ribs and compress the lung, and mesenteric disease can press on the diaphragm.
+- `connects-to` → **[Ibuprofen](../../../03-medicine/01-modern/12-anti-inflammatory/ibuprofen/README.md)** — Anti-inflammatories can hold it back: NSAIDs such as sulindac, in the same class as ibuprofen, are used to slow desmoid growth, sometimes with anti-oestrogens, before resorting to surgery or systemic therapy.
+- `connects-to` → **[Immune System](../immune-system/README.md)** — It builds an inflammatory stroma: desmoid tumours carry a fibroinflammatory microenvironment rich in immune cells, and their indolent, sometimes self-regressing behaviour has drawn interest in immune modulation.
 
 ---
 
