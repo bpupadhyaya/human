@@ -233,6 +233,15 @@ cross_links:
   - target: 02-pathogen/02-bacteria/salmonella-typhi
     relation: connects-to
     note: "A classic cause of bone infection: Salmonella is a characteristic cause of osteomyelitis in sickle cell disease, alongside the more common staphylococcal bone and joint infections."
+  - target: 01-human/05-tissue/cortical-bone
+    relation: connects-to
+    note: "The hard substance of the skeleton: dense cortical bone gives the musculoskeletal system its strength and lever arms, continuously remodelled by osteoblasts and osteoclasts under load (Wolff's law), and failing as fractures when it thins."
+  - target: 01-human/05-tissue/neuromuscular-junction
+    relation: connects-to
+    note: "Where nerve commands muscle: the neuromuscular junction translates motor-nerve impulses into contraction via acetylcholine, the synapse whose failure — in myasthenia gravis or with paralytics — silences the musculoskeletal system."
+  - target: 03-medicine/01-modern/04-cardio/statins
+    relation: connects-to
+    note: "A common cause of muscle complaints: statins are the most frequent drug cause of myalgia and, rarely, rhabdomyolysis, making muscle symptoms a routine consideration whenever the musculoskeletal system is assessed in statin users."
 ---
 
 # Musculoskeletal System
@@ -441,6 +450,9 @@ Chronic exercise drives profound musculoskeletal remodelling [^guyton-hall]:
 - `connects-to` → **[Corticosteroids](../../../03-medicine/01-modern/02-respiratory/corticosteroids/README.md)** — Steroids both treat and harm it: intra-articular and systemic corticosteroids relieve inflammatory joint and muscle disease, but long-term use causes osteoporosis, avascular necrosis and a proximal myopathy.
 - `connects-to` → **[Coxsackievirus B](../../../02-pathogen/01-viruses/coxsackievirus-b/README.md)** — A virus that inflames muscle: Coxsackievirus B causes Bornholm disease (epidemic pleurodynia) with severe muscle pain, and viral myositis more broadly.
 - `connects-to` → **[Salmonella typhi](../../../02-pathogen/02-bacteria/salmonella-typhi/README.md)** — A classic cause of bone infection: Salmonella is a characteristic cause of osteomyelitis in sickle cell disease, alongside the more common staphylococcal bone and joint infections.
+- `connects-to` → **[Cortical Bone](../../05-tissue/cortical-bone/README.md)** — The hard substance of the skeleton: dense cortical bone gives the musculoskeletal system its strength and lever arms, continuously remodelled by osteoblasts and osteoclasts under load (Wolff's law), and failing as fractures when it thins.
+- `connects-to` → **[Neuromuscular Junction](../../05-tissue/neuromuscular-junction/README.md)** — Where nerve commands muscle: the neuromuscular junction translates motor-nerve impulses into contraction via acetylcholine, the synapse whose failure — in myasthenia gravis or with paralytics — silences the musculoskeletal system.
+- `connects-to` → **[Statins](../../../03-medicine/01-modern/04-cardio/statins/README.md)** — A common cause of muscle complaints: statins are the most frequent drug cause of myalgia and, rarely, rhabdomyolysis, making muscle symptoms a routine consideration whenever the musculoskeletal system is assessed in statin users.
 
 ## Pathology
 

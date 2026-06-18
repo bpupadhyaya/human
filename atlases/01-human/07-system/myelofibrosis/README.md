@@ -235,6 +235,15 @@ cross_links:
   - target: 01-human/07-system/reproductive-system
     relation: connects-to
     note: "Treatment threatens fertility: cytoreductive drugs and the allogeneic stem-cell transplant that can cure myelofibrosis impair fertility, relevant to younger patients."
+  - target: 03-medicine/01-modern/13-cancer/cancer-chemotherapy
+    relation: connects-to
+    note: "Cytoreduction and conditioning: hydroxyurea controls the splenomegaly and high counts of myelofibrosis, and intensive conditioning chemotherapy precedes the allogeneic stem-cell transplant that is its only cure."
+  - target: 01-human/05-tissue/cortical-bone
+    relation: connects-to
+    note: "It can harden the bone: advanced myelofibrosis often brings osteosclerosis, thickening the bony trabeculae as marrow fibrosis spills into a denser skeleton visible on imaging."
+  - target: 01-human/07-system/aplastic-anemia
+    relation: connects-to
+    note: "Two routes to marrow failure: myelofibrosis cytopenias come from a fibrosed, crowded marrow, whereas aplastic anaemia leaves an empty hypocellular marrow — opposite histology converging on pancytopenia."
 ---
 
 # Myelofibrosis
@@ -435,6 +444,9 @@ Abrupt ruxolitinib cessation → cytokine rebound → fever, splenomegaly surge,
 - `connects-to` → **[Targeted Therapy](../../../03-medicine/01-modern/13-cancer/targeted-therapy/README.md)** — JAK inhibitors are its mainstay drug: ruxolitinib and other JAK1/2 inhibitors shrink the spleen and ease symptoms of myelofibrosis, the first targeted therapy for the disease.
 - `connects-to` → **[Aspirin](../../../03-medicine/01-modern/04-cardio/aspirin/README.md)** — Low-dose aspirin counters the clotting: like other myeloproliferative neoplasms, myelofibrosis carries a thrombotic risk that low-dose aspirin helps reduce in lower-risk patients.
 - `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — Treatment threatens fertility: cytoreductive drugs and the allogeneic stem-cell transplant that can cure myelofibrosis impair fertility, relevant to younger patients.
+- `connects-to` → **[Cancer Chemotherapy](../../../03-medicine/01-modern/13-cancer/cancer-chemotherapy/README.md)** — Cytoreduction and conditioning: hydroxyurea controls the splenomegaly and high counts of myelofibrosis, and intensive conditioning chemotherapy precedes the allogeneic stem-cell transplant that is its only cure.
+- `connects-to` → **[Cortical Bone](../../05-tissue/cortical-bone/README.md)** — It can harden the bone: advanced myelofibrosis often brings osteosclerosis, thickening the bony trabeculae as marrow fibrosis spills into a denser skeleton visible on imaging.
+- `connects-to` → **[Aplastic Anemia](../aplastic-anemia/README.md)** — Two routes to marrow failure: myelofibrosis cytopenias come from a fibrosed, crowded marrow, whereas aplastic anaemia leaves an empty hypocellular marrow — opposite histology converging on pancytopenia.
 
 ---
 
