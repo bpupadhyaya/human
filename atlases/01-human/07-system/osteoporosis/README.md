@@ -208,6 +208,15 @@ cross_links:
   - target: 01-human/07-system/major-depressive-disorder
     relation: connects-to
     note: "Bone and mood influence each other: a fragility fracture brings pain, disability and loss of independence that drive depression, while depression and its SSRIs are themselves associated with lower bone density."
+  - target: 01-human/07-system/immune-system
+    relation: connects-to
+    note: "Immune signals govern bone turnover: the RANK-RANKL-OPG axis links the immune and skeletal systems, so the chronic inflammation of immune and rheumatic disease drives the osteoclast activity that thins bone."
+  - target: 01-human/07-system/stroke
+    relation: connects-to
+    note: "Stroke and weak bone form a vicious circle: post-stroke immobility and disuse accelerate bone loss on the paretic side, and the resulting osteoporosis plus fall risk makes hip fracture far more likely."
+  - target: 01-human/07-system/gvhd
+    relation: connects-to
+    note: "Its transplant survivors lose bone: the prolonged high-dose corticosteroids used to control chronic graft-versus-host disease cause steroid-induced osteoporosis and avascular necrosis."
 ---
 
 # Osteoporosis
@@ -379,6 +388,9 @@ All newly diagnosed osteoporosis should be evaluated for secondary causes: CBC (
 - `connects-to` → **[Type 2 Diabetes](../type-2-diabetes/README.md)** — Diabetes weakens bone quality: type 2 diabetes raises fracture risk despite often-normal bone density through poor bone quality, while some glucose-lowering drugs accelerate bone loss.
 - `connects-to` → **[Wound Healing](../wound-healing/README.md)** — A broken bone is a wound to heal: osteoporotic fractures set off the repair process, and the impaired healing of the elderly and chronically ill slows their union, prolonging immobility.
 - `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — Bone and mood influence each other: a fragility fracture brings pain, disability and loss of independence that drive depression, while depression and its SSRIs are themselves associated with lower bone density.
+- `connects-to` → **[Immune System](../immune-system/README.md)** — Immune signals govern bone turnover: the RANK-RANKL-OPG axis links the immune and skeletal systems, so the chronic inflammation of immune and rheumatic disease drives the osteoclast activity that thins bone.
+- `connects-to` → **[Stroke](../stroke/README.md)** — Stroke and weak bone form a vicious circle: post-stroke immobility and disuse accelerate bone loss on the paretic side, and the resulting osteoporosis plus fall risk makes hip fracture far more likely.
+- `connects-to` → **[Graft-versus-Host Disease](../gvhd/README.md)** — Its transplant survivors lose bone: the prolonged high-dose corticosteroids used to control chronic graft-versus-host disease cause steroid-induced osteoporosis and avascular necrosis.
 
 [^kanis-2019-who-osteoporosis]: Kanis JA, Cooper C, Rizzoli R, Reginster JY. European guidance for the diagnosis and management of osteoporosis in postmenopausal women. *Osteoporos Int.* 2019;30(1):3-44. [doi:10.1007/s00198-018-4704-5](https://doi.org/10.1007/s00198-018-4704-5) · [PubMed 30324412](https://pubmed.ncbi.nlm.nih.gov/30324412/)
 [^cosman-2016-romosozumab]: Cosman F, Crittenden DB, Adachi JD, et al. Romosozumab treatment in postmenopausal women with osteoporosis. *N Engl J Med.* 2016;375(16):1532-1543. [doi:10.1056/NEJMoa1607948](https://doi.org/10.1056/NEJMoa1607948) · [PubMed 27641143](https://pubmed.ncbi.nlm.nih.gov/27641143/)

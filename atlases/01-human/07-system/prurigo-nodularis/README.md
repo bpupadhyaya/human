@@ -202,6 +202,15 @@ cross_links:
   - target: 01-human/07-system/dlbcl
     relation: connects-to
     note: "Severe itch can flag a lymphoma: persistent prurigo nodularis is a recognized paraneoplastic sign of underlying lymphoma, prompting evaluation for Hodgkin and non-Hodgkin lymphomas such as DLBCL."
+  - target: 01-human/07-system/immune-system
+    relation: connects-to
+    note: "It is a neuroimmune itch disorder: prurigo nodularis is driven by Th2 cytokines and IL-31 sensitising itch nerves, which is why the immune-targeting biologic dupilumab is now an effective treatment."
+  - target: 01-human/07-system/endocrine-system
+    relation: connects-to
+    note: "Endocrine disease can drive the itch: thyroid dysfunction and diabetes are among the systemic causes of the chronic pruritus that seeds prurigo nodularis, so endocrine screening is part of its work-up."
+  - target: 01-human/07-system/iron-deficiency-anemia
+    relation: connects-to
+    note: "Low iron can itch: iron deficiency is a recognised systemic cause of generalised pruritus, and correcting it can relieve the itch that perpetuates prurigo nodularis."
 ---
 
 # Prurigo Nodularis
@@ -346,6 +355,9 @@ PN affects approximately **72,000 patients** in the US; true prevalence is likel
 - `connects-to` → **[Staphylococcus aureus](../../../02-pathogen/02-bacteria/staphylococcus-aureus/README.md)** — Relentless scratching opens the skin to Staph: the excoriated nodules of prurigo nodularis are repeatedly broken open, readily colonized and infected by Staphylococcus aureus, which in turn intensifies the itch.
 - `connects-to` → **[Wound Healing](../wound-healing/README.md)** — Constant scratching defeats repair: the compulsive scratching of prurigo nodularis reopens lesions faster than they can heal, perpetuating the thickened, eroded nodules in an itch-scratch cycle.
 - `connects-to` → **[DLBCL](../dlbcl/README.md)** — Severe itch can flag a lymphoma: persistent prurigo nodularis is a recognized paraneoplastic sign of underlying lymphoma, prompting evaluation for Hodgkin and non-Hodgkin lymphomas such as DLBCL.
+- `connects-to` → **[Immune System](../immune-system/README.md)** — It is a neuroimmune itch disorder: prurigo nodularis is driven by Th2 cytokines and IL-31 sensitising itch nerves, which is why the immune-targeting biologic dupilumab is now an effective treatment.
+- `connects-to` → **[Endocrine System](../endocrine-system/README.md)** — Endocrine disease can drive the itch: thyroid dysfunction and diabetes are among the systemic causes of the chronic pruritus that seeds prurigo nodularis, so endocrine screening is part of its work-up.
+- `connects-to` → **[Iron-Deficiency Anemia](../iron-deficiency-anemia/README.md)** — Low iron can itch: iron deficiency is a recognised systemic cause of generalised pruritus, and correcting it can relieve the itch that perpetuates prurigo nodularis.
 
 [^stander-2020-nemolizumab-pn]: Ständer S, Yosipovitch G, Legat FJ, et al. Trial of nemolizumab in moderate-to-severe prurigo nodularis. *N Engl J Med.* 2020;382(8):706-716. [doi:10.1056/NEJMoa1908316](https://doi.org/10.1056/NEJMoa1908316) · [PubMed 32053299](https://pubmed.ncbi.nlm.nih.gov/32053299/)
 [^briggs-2022-dupilumab-pn-liberty]: Briggs JN, Cho YY, Khanna R, et al. Dupilumab for prurigo nodularis: the LIBERTY-PN PRIME and PRIME2 trials. *N Engl J Med.* 2022;387(18):1683-1693. [doi:10.1056/NEJMoa2205093](https://doi.org/10.1056/NEJMoa2205093) · [PubMed 36300905](https://pubmed.ncbi.nlm.nih.gov/36300905/)
