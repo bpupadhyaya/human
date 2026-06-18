@@ -189,6 +189,15 @@ cross_links:
   - target: 01-human/07-system/migraine
     relation: connects-to
     note: "Stress and lost sleep trigger headaches: the chronic stress, sleep deprivation and irregular routine of compulsive gambling are common precipitants of tension-type headache and migraine."
+  - target: 01-human/07-system/copd
+    relation: connects-to
+    note: "It travels with heavy smoking: gambling disorder is strongly associated with high rates of tobacco use, and the resulting chronic obstructive pulmonary disease adds to its long-term physical toll."
+  - target: 01-human/07-system/digestive-system
+    relation: connects-to
+    note: "Chronic stress and comorbid drinking hit the gut: the sustained stress arousal of gambling disorder fosters functional GI symptoms and peptic ulcers, compounded by the heavy alcohol use that often accompanies it."
+  - target: 01-human/07-system/endocrine-system
+    relation: connects-to
+    note: "Relentless stress dysregulates the hormones: the chronic HPA-axis and cortisol arousal of compulsive gambling, with disrupted sleep and eating, contributes to the metabolic and endocrine disturbances seen in the disorder."
 sources:
   - id: grant-2016-gambling-review
     type: peer-reviewed
@@ -392,6 +401,9 @@ Persistent and recurrent problematic gambling behavior causing distress (≥4 of
 - `connects-to` → **[Heart Failure](../heart-failure/README.md)** — Acute loss and chronic stress strain the heart: intense gambling stress can precipitate takotsubo (stress) cardiomyopathy, and the sustained arousal and sedentary, metabolic risk profile contribute to cardiac disease.
 - `connects-to` → **[Type 2 Diabetes](../type-2-diabetes/README.md)** — Sedentary stress tips toward diabetes: the inactivity, disrupted eating and chronic cortisol arousal of gambling disorder, with its frequent obesity, raise the risk of insulin resistance and type 2 diabetes.
 - `connects-to` → **[Migraine](../migraine/README.md)** — Stress and lost sleep trigger headaches: the chronic stress, sleep deprivation and irregular routine of compulsive gambling are common precipitants of tension-type headache and migraine.
+- `connects-to` → **[COPD](../copd/README.md)** — It travels with heavy smoking: gambling disorder is strongly associated with high rates of tobacco use, and the resulting chronic obstructive pulmonary disease adds to its long-term physical toll.
+- `connects-to` → **[Digestive System](../digestive-system/README.md)** — Chronic stress and comorbid drinking hit the gut: the sustained stress arousal of gambling disorder fosters functional GI symptoms and peptic ulcers, compounded by the heavy alcohol use that often accompanies it.
+- `connects-to` → **[Endocrine System](../endocrine-system/README.md)** — Relentless stress dysregulates the hormones: the chronic HPA-axis and cortisol arousal of compulsive gambling, with disrupted sleep and eating, contributes to the metabolic and endocrine disturbances seen in the disorder.
 
 [^potenza-2014-gambling-neuroscience]: Potenza MN. The neurobiology of pathological gambling and drug addiction: an overview and new findings. *Philos Trans R Soc Lond B Biol Sci.* 2008;363(1507):3181-3189. [doi:10.1098/rstb.2008.0100](https://doi.org/10.1098/rstb.2008.0100) · [PubMed 18640909](https://pubmed.ncbi.nlm.nih.gov/18640909/)
 [^grant-2016-gambling-review]: Grant JE, Chamberlain SR. Gambling disorder and its relationship with substance use disorders. *Am J Addict.* 2015;24(2):126-131. [doi:10.1111/ajad.12112](https://doi.org/10.1111/ajad.12112) · [PubMed 25376793](https://pubmed.ncbi.nlm.nih.gov/25376793/)

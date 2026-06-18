@@ -208,6 +208,15 @@ cross_links:
   - target: 01-human/07-system/generalized-anxiety-disorder
     relation: connects-to
     note: "A genetic verdict of early heart disease breeds worry: learning of an inherited condition that threatens premature heart attacks, often after a relative's early death, fosters chronic health anxiety in FH families."
+  - target: 01-human/07-system/integumentary-system
+    relation: connects-to
+    note: "Excess cholesterol deposits in skin and tendons: FH produces tendon xanthomas over the Achilles and knuckles, eyelid xanthelasma and a corneal arcus, visible lipid deposits that are diagnostic clues."
+  - target: 01-human/07-system/digestive-system
+    relation: connects-to
+    note: "The liver is the organ of the disease and its treatment: hepatic LDL receptors clear cholesterol and are defective in FH, and the statins used to treat it act on and are monitored for toxicity in the liver."
+  - target: 01-human/07-system/endocrine-system
+    relation: connects-to
+    note: "Cholesterol is the substrate of the steroid hormones: the lipid metabolism deranged in FH supplies the precursor for adrenal and gonadal steroidogenesis, and statins carry a modest dysglycaemia signal."
 ---
 
 # Familial Hypercholesterolemia
@@ -379,6 +388,9 @@ FH is a **monogenic autosomal dominant disorder** caused by mutations in three g
 - `connects-to` → **[Alzheimer's Disease](../alzheimers-disease/README.md)** — Cholesterol and cerebral atherosclerosis reach the mind: the lifelong high LDL of FH accelerates small- and large-vessel brain disease, contributing to vascular and mixed Alzheimer-type cognitive decline.
 - `connects-to` → **[Neuropathic Pain](../neuropathic-pain/README.md)** — Its long-term statins can irritate nerves: alongside the more common myalgia, prolonged high-intensity statin therapy used to control FH has been linked in some patients to a peripheral neuropathy with neuropathic pain.
 - `connects-to` → **[Generalized Anxiety Disorder](../generalized-anxiety-disorder/README.md)** — A genetic verdict of early heart disease breeds worry: learning of an inherited condition that threatens premature heart attacks, often after a relative's early death, fosters chronic health anxiety in FH families.
+- `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — Excess cholesterol deposits in skin and tendons: FH produces tendon xanthomas over the Achilles and knuckles, eyelid xanthelasma and a corneal arcus, visible lipid deposits that are diagnostic clues.
+- `connects-to` → **[Digestive System](../digestive-system/README.md)** — The liver is the organ of the disease and its treatment: hepatic LDL receptors clear cholesterol and are defective in FH, and the statins used to treat it act on and are monitored for toxicity in the liver.
+- `connects-to` → **[Endocrine System](../endocrine-system/README.md)** — Cholesterol is the substrate of the steroid hormones: the lipid metabolism deranged in FH supplies the precursor for adrenal and gonadal steroidogenesis, and statins carry a modest dysglycaemia signal.
 
 [^goldstein-1985-ldlr-nobel]: Goldstein JL, Brown MS. The LDL receptor. *Arterioscler Thromb Vasc Biol.* 2009;29(4):431-438. [doi:10.1161/ATVBAHA.108.179564](https://doi.org/10.1161/ATVBAHA.108.179564) · [PubMed 19299327](https://pubmed.ncbi.nlm.nih.gov/19299327/)
 [^raal-2020-inclisiran-fh]: Raal FJ, Kallend D, Ray KK, et al. Inclisiran for the Treatment of Heterozygous Familial Hypercholesterolemia. *N Engl J Med.* 2020;382(16):1520-1530. [doi:10.1056/NEJMoa1913805](https://doi.org/10.1056/NEJMoa1913805) · [PubMed 32197277](https://pubmed.ncbi.nlm.nih.gov/32197277/)
