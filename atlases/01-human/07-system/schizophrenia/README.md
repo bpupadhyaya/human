@@ -214,6 +214,15 @@ cross_links:
   - target: 01-human/07-system/generalized-anxiety-disorder
     relation: connects-to
     note: "Anxiety pervades the illness: prominent anxiety and worry accompany the prodrome, active psychosis and insight into schizophrenia, frequently meeting criteria for a comorbid generalized anxiety disorder."
+  - target: 01-human/07-system/nervous-system
+    relation: connects-to
+    note: "It is fundamentally a brain disorder: schizophrenia involves dopaminergic and glutamatergic dysregulation, neurodevelopmental grey-matter changes and disrupted connectivity, the neurobiology underlying psychosis."
+  - target: 01-human/07-system/endocrine-system
+    relation: connects-to
+    note: "Its drugs flood the body with prolactin: dopamine-blocking antipsychotics raise prolactin, causing galactorrhoea, amenorrhoea and hypogonadism, and they drive the metabolic syndrome of weight gain and diabetes."
+  - target: 01-human/07-system/respiratory-system
+    relation: connects-to
+    note: "Very heavy smoking scars the lungs: people with schizophrenia smoke at extremely high rates, giving high COPD and pneumonia burdens, and clozapine can rarely cause respiratory depression."
 ---
 
 # Schizophrenia
@@ -443,6 +452,9 @@ Notably, schizophrenia shares genetic loci with bipolar disorder, ASD, ADHD, maj
 - `connects-to` → **[Obsessive-Compulsive Disorder](../obsessive-compulsive-disorder/README.md)** — Obsessions commonly accompany psychosis: a substantial minority with schizophrenia have comorbid obsessive-compulsive symptoms (schizo-obsessive presentations), and some antipsychotics can themselves provoke them.
 - `connects-to` → **[Digestive System](../digestive-system/README.md)** — Clozapine can paralyse the gut: the most effective antipsychotic causes severe gastrointestinal hypomotility, with constipation that can progress to ileus, obstruction and life-threatening bowel complications.
 - `connects-to` → **[Generalized Anxiety Disorder](../generalized-anxiety-disorder/README.md)** — Anxiety pervades the illness: prominent anxiety and worry accompany the prodrome, active psychosis and insight into schizophrenia, frequently meeting criteria for a comorbid generalized anxiety disorder.
+- `connects-to` → **[Nervous System](../nervous-system/README.md)** — It is fundamentally a brain disorder: schizophrenia involves dopaminergic and glutamatergic dysregulation, neurodevelopmental grey-matter changes and disrupted connectivity, the neurobiology underlying psychosis.
+- `connects-to` → **[Endocrine System](../endocrine-system/README.md)** — Its drugs flood the body with prolactin: dopamine-blocking antipsychotics raise prolactin, causing galactorrhoea, amenorrhoea and hypogonadism, and they drive the metabolic syndrome of weight gain and diabetes.
+- `connects-to` → **[Respiratory System](../respiratory-system/README.md)** — Very heavy smoking scars the lungs: people with schizophrenia smoke at extremely high rates, giving high COPD and pneumonia burdens, and clozapine can rarely cause respiratory depression.
 
 [^howes-2009-dopamine-hypothesis]: Howes OD, Kapur S. The dopamine hypothesis of schizophrenia: version III—the final common pathway. *Schizophr Bull.* 2009;35(3):549-562. [doi:10.1093/schbul/sbp006](https://doi.org/10.1093/schbul/sbp006) · [PubMed 19325164](https://pubmed.ncbi.nlm.nih.gov/19325164/)
 [^moghaddam-2012-glutamate]: Moghaddam B, Javitt D. From revolution to evolution: the glutamate hypothesis of schizophrenia and its implication for treatment. *Neuropsychopharmacology.* 2012;37(1):4-15. [doi:10.1038/npp.2011.181](https://doi.org/10.1038/npp.2011.181) · [PubMed 21956446](https://pubmed.ncbi.nlm.nih.gov/21956446/)
