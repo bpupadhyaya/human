@@ -244,6 +244,15 @@ cross_links:
   - target: 03-medicine/01-modern/13-cancer/cancer-chemotherapy
     relation: connects-to
     note: "Some chemotherapy mimics it: drugs such as gemcitabine and mitomycin C cause a drug-induced thrombotic microangiopathy that overlaps clinically with complement-mediated aHUS."
+  - target: 03-medicine/01-modern/13-cancer/targeted-therapy
+    relation: connects-to
+    note: "Complement blockade transformed it: the anti-C5 monoclonals eculizumab and ravulizumab halt the uncontrolled alternative-complement activation of aHUS, preventing the microthrombi and rescuing the kidney where plasma exchange once failed."
+  - target: 01-human/05-tissue/arterial-wall
+    relation: connects-to
+    note: "It thickens small arteries: the thrombotic microangiopathy of aHUS injures arteriolar and capillary walls, producing the onion-skin intimal swelling and luminal narrowing of renal arterioles characteristic of TMA."
+  - target: 01-human/05-tissue/myocardium
+    relation: connects-to
+    note: "Microthrombi reach the heart: aHUS is not kidney-limited — complement-driven microthrombi in the myocardial microvasculature cause cardiac ischaemia and dysfunction in a notable minority, contributing to its mortality."
 ---
 
 # Atypical HUS
@@ -481,6 +490,9 @@ Repeated TMA episodes → glomerular fibrosis → CKD → ESRD
 - `connects-to` → **[Influenza A](../../../02-pathogen/01-viruses/influenza-a/README.md)** — Infection can flip the switch: influenza A, especially H1N1, is a recognised trigger that unmasks complement-mediated aHUS in genetically predisposed people, precipitating thrombotic microangiopathy.
 - `connects-to` → **[HIV-1](../../../02-pathogen/01-viruses/hiv-1/README.md)** — A virus that injures the endothelium: untreated HIV can cause a thrombotic microangiopathy resembling aHUS, through direct endothelial damage and complement activation.
 - `connects-to` → **[Cancer Chemotherapy](../../../03-medicine/01-modern/13-cancer/cancer-chemotherapy/README.md)** — Some chemotherapy mimics it: drugs such as gemcitabine and mitomycin C cause a drug-induced thrombotic microangiopathy that overlaps clinically with complement-mediated aHUS.
+- `connects-to` → **[Targeted Therapy](../../../03-medicine/01-modern/13-cancer/targeted-therapy/README.md)** — Complement blockade transformed it: the anti-C5 monoclonals eculizumab and ravulizumab halt the uncontrolled alternative-complement activation of aHUS, preventing the microthrombi and rescuing the kidney where plasma exchange once failed.
+- `connects-to` → **[Arterial Wall](../../05-tissue/arterial-wall/README.md)** — It thickens small arteries: the thrombotic microangiopathy of aHUS injures arteriolar and capillary walls, producing the onion-skin intimal swelling and luminal narrowing of renal arterioles characteristic of TMA.
+- `connects-to` → **[Myocardium](../../05-tissue/myocardium/README.md)** — Microthrombi reach the heart: aHUS is not kidney-limited — complement-driven microthrombi in the myocardial microvasculature cause cardiac ischaemia and dysfunction in a notable minority, contributing to its mortality.
 
 [^fakhouri-2017-ahus-lancet]: Fakhouri F, Zuber J, Frémeaux-Bacchi V, Loirat C. Haemolytic uraemic syndrome. *Lancet.* 2017;390(10095):681-696. [doi:10.1016/S0140-6736(17)30062-4](https://doi.org/10.1016/S0140-6736(17)30062-4) · [PubMed 28242109](https://pubmed.ncbi.nlm.nih.gov/28242109/)
 [^legendre-2013-eculizumab-ahus-nejm]: Legendre CM, Licht C, Muus P, et al. Terminal complement inhibitor eculizumab in atypical hemolytic-uremic syndrome. *N Engl J Med.* 2013;368(23):2169-2181. [doi:10.1056/NEJMoa1208981](https://doi.org/10.1056/NEJMoa1208981) · [PubMed 23738544](https://pubmed.ncbi.nlm.nih.gov/23738544/)

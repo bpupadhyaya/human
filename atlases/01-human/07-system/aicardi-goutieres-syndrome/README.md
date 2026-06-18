@@ -240,6 +240,15 @@ cross_links:
   - target: 02-pathogen/01-viruses/zika-virus
     relation: connects-to
     note: "An emerging infectious mimic: congenital Zika syndrome, recognised since 2015, joins the older TORCH infections as a brain-injuring newborn condition that must now be excluded before AGS is diagnosed."
+  - target: 03-medicine/01-modern/13-cancer/targeted-therapy
+    relation: connects-to
+    note: "JAK inhibitors quiet the interferon: because AGS is driven by excess type I interferon signalling, JAK inhibitors like baricitinib that block the JAK-STAT pathway reduce the interferon signature and can improve skin and systemic disease."
+  - target: 02-pathogen/01-viruses/herpesvirus
+    relation: connects-to
+    note: "It mimics congenital CMV: AGS is a 'pseudo-TORCH' whose intracranial calcifications, CSF lymphocytosis and white-matter disease imitate congenital cytomegalovirus, the herpesvirus that is its central diagnostic differential."
+  - target: 01-human/05-tissue/arterial-wall
+    relation: connects-to
+    note: "Some forms attack the arteries: SAMHD1-related AGS causes a cerebral large-vessel vasculopathy with arterial-wall disease, aneurysms and moyamoya-like stenoses, adding stroke risk to the leukodystrophy."
 ---
 
 # Aicardi-Goutières Syndrome
@@ -408,6 +417,9 @@ Severe early-onset AGS (TREX1 homozygous, RNASEH2A): death in childhood from res
 - `connects-to` → **[COVID-19](../covid-19-disease/README.md)** — A shared interferon axis: severe COVID-19 turns on — or, through autoantibodies, blocks — the same type I interferon pathway that runs unchecked in AGS, showing how dysregulated interferon drives disease in both directions.
 - `connects-to` → **[Neutrophil](../../04-cellular/neutrophil/README.md)** — Interferon arms the neutrophil: chronic type I interferon in AGS primes neutrophils toward NET formation, contributing to the small-vessel vasculopathy and tissue damage characteristic of interferonopathies.
 - `connects-to` → **[Zika Virus](../../../02-pathogen/01-viruses/zika-virus/README.md)** — An emerging infectious mimic: congenital Zika syndrome, recognised since 2015, joins the older TORCH infections as a brain-injuring newborn condition that must now be excluded before AGS is diagnosed.
+- `connects-to` → **[Targeted Therapy](../../../03-medicine/01-modern/13-cancer/targeted-therapy/README.md)** — JAK inhibitors quiet the interferon: because AGS is driven by excess type I interferon signalling, JAK inhibitors like baricitinib that block the JAK-STAT pathway reduce the interferon signature and can improve skin and systemic disease.
+- `connects-to` → **[Herpesvirus](../../../02-pathogen/01-viruses/herpesvirus/README.md)** — It mimics congenital CMV: AGS is a 'pseudo-TORCH' whose intracranial calcifications, CSF lymphocytosis and white-matter disease imitate congenital cytomegalovirus, the herpesvirus that is its central diagnostic differential.
+- `connects-to` → **[Arterial Wall](../../05-tissue/arterial-wall/README.md)** — Some forms attack the arteries: SAMHD1-related AGS causes a cerebral large-vessel vasculopathy with arterial-wall disease, aneurysms and moyamoya-like stenoses, adding stroke risk to the leukodystrophy.
 
 ---
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
