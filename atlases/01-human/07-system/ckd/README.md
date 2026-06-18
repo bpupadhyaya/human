@@ -225,6 +225,15 @@ cross_links:
   - target: 01-human/07-system/musculoskeletal-system
     relation: connects-to
     note: "It weakens the skeleton: by disturbing calcium, phosphate, vitamin D and parathyroid hormone, CKD causes renal osteodystrophy — the mineral and bone disorder — with bone pain and fractures."
+  - target: 01-human/07-system/integumentary-system
+    relation: connects-to
+    note: "It marks the skin: uraemia brings intractable pruritus and 'uraemic frost', while disordered calcium and phosphate can cause calciphylaxis, painful necrotic skin ulcers in advanced kidney failure."
+  - target: 02-pathogen/01-viruses/hepatitis-b-virus
+    relation: connects-to
+    note: "Dialysis carries a transmission risk: shared circuits and frequent vascular access historically spread hepatitis B and C between patients, so units screen, isolate and vaccinate against HBV."
+  - target: 01-human/07-system/tuberculosis
+    relation: connects-to
+    note: "Uraemia suppresses immunity: the impaired T-cell function of advanced kidney disease and dialysis raises the risk of reactivating latent tuberculosis."
 ---
 
 # Chronic Kidney Disease
@@ -370,6 +379,9 @@ As nephron mass decreases, impaired renal functions accumulate:
 - `connects-to` → **[Nervous System](../nervous-system/README.md)** — Uraemic toxins poison the nerves: CKD causes uraemic encephalopathy with confusion and asterixis, peripheral and autonomic neuropathy, and restless legs that disturb sleep.
 - `connects-to` → **[Respiratory System](../respiratory-system/README.md)** — Fluid and acid reach the lungs: salt and water retention in CKD cause pulmonary oedema and pleural effusions, while metabolic acidosis drives the deep Kussmaul breathing of advanced disease.
 - `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — It weakens the skeleton: by disturbing calcium, phosphate, vitamin D and parathyroid hormone, CKD causes renal osteodystrophy — the mineral and bone disorder — with bone pain and fractures.
+- `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — It marks the skin: uraemia brings intractable pruritus and 'uraemic frost', while disordered calcium and phosphate can cause calciphylaxis, painful necrotic skin ulcers in advanced kidney failure.
+- `connects-to` → **[Hepatitis B virus](../../../02-pathogen/01-viruses/hepatitis-b-virus/README.md)** — Dialysis carries a transmission risk: shared circuits and frequent vascular access historically spread hepatitis B and C between patients, so units screen, isolate and vaccinate against HBV.
+- `connects-to` → **[Tuberculosis](../tuberculosis/README.md)** — Uraemia suppresses immunity: the impaired T-cell function of advanced kidney disease and dialysis raises the risk of reactivating latent tuberculosis.
 
 ## Pathology
 

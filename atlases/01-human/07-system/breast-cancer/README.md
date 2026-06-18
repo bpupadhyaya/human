@@ -226,6 +226,15 @@ cross_links:
   - target: 01-human/07-system/nervous-system
     relation: connects-to
     note: "It reaches the brain: HER2-positive and triple-negative breast cancers in particular metastasise to the brain and leptomeninges, causing headaches, seizures and focal deficits."
+  - target: 01-human/07-system/cardiovascular-system
+    relation: connects-to
+    note: "Its treatments are cardiotoxic: anthracyclines and HER2-targeted trastuzumab can weaken the heart muscle, and radiation to the left breast raises later coronary disease."
+  - target: 01-human/07-system/integumentary-system
+    relation: connects-to
+    note: "It declares itself on the skin: inflammatory breast cancer gives a peau d'orange dimpling, Paget disease scales the nipple, and chest-wall recurrences seed skin nodules."
+  - target: 01-human/07-system/digestive-system
+    relation: connects-to
+    note: "It can spread to the gut: lobular breast cancer in particular metastasises to the stomach and bowel, while chemotherapy and endocrine therapy bring nausea and hepatotoxicity."
 ---
 
 # Breast Cancer
@@ -401,6 +410,9 @@ cross_links:
 - `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — Bone is its favourite distant home: breast cancer most often metastasises to the skeleton, causing bone pain, pathological fractures, hypercalcaemia and spinal cord compression.
 - `connects-to` → **[Respiratory System](../respiratory-system/README.md)** — It spreads to lung and pleura: breast cancer commonly metastasises to the lungs and pleura, producing nodules and malignant pleural effusions with breathlessness.
 - `connects-to` → **[Nervous System](../nervous-system/README.md)** — It reaches the brain: HER2-positive and triple-negative breast cancers in particular metastasise to the brain and leptomeninges, causing headaches, seizures and focal deficits.
+- `connects-to` → **[Cardiovascular System](../cardiovascular-system/README.md)** — Its treatments are cardiotoxic: anthracyclines and HER2-targeted trastuzumab can weaken the heart muscle, and radiation to the left breast raises later coronary disease.
+- `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — It declares itself on the skin: inflammatory breast cancer gives a peau d'orange dimpling, Paget disease scales the nipple, and chest-wall recurrences seed skin nodules.
+- `connects-to` → **[Digestive System](../digestive-system/README.md)** — It can spread to the gut: lobular breast cancer in particular metastasises to the stomach and bowel, while chemotherapy and endocrine therapy bring nausea and hepatotoxicity.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
