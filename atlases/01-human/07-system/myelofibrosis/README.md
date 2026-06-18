@@ -226,6 +226,15 @@ cross_links:
   - target: 01-human/07-system/renal-system
     relation: connects-to
     note: "It strains the kidney: extramedullary haematopoiesis and hyperuricaemia from high cell turnover can impair renal function, and a rare myelofibrosis-associated glomerulopathy occurs."
+  - target: 03-medicine/01-modern/13-cancer/targeted-therapy
+    relation: connects-to
+    note: "JAK inhibitors are its mainstay drug: ruxolitinib and other JAK1/2 inhibitors shrink the spleen and ease symptoms of myelofibrosis, the first targeted therapy for the disease."
+  - target: 03-medicine/01-modern/04-cardio/aspirin
+    relation: connects-to
+    note: "Low-dose aspirin counters the clotting: like other myeloproliferative neoplasms, myelofibrosis carries a thrombotic risk that low-dose aspirin helps reduce in lower-risk patients."
+  - target: 01-human/07-system/reproductive-system
+    relation: connects-to
+    note: "Treatment threatens fertility: cytoreductive drugs and the allogeneic stem-cell transplant that can cure myelofibrosis impair fertility, relevant to younger patients."
 ---
 
 # Myelofibrosis
@@ -423,6 +432,9 @@ Abrupt ruxolitinib cessation → cytokine rebound → fever, splenomegaly surge,
 - `connects-to` → **[Lymphatic System](../lymphatic-system/README.md)** — It massively swells the spleen: extramedullary haematopoiesis enlarges the spleen, often hugely, causing early satiety and splenic infarction, and may require splenectomy or splenic irradiation.
 - `connects-to` → **[Respiratory System](../respiratory-system/README.md)** — Blood-making spreads to the chest: extramedullary haematopoiesis in the lungs and pleura causes effusions and contributes to the pulmonary hypertension of advanced disease.
 - `connects-to` → **[Renal System](../renal-system/README.md)** — It strains the kidney: extramedullary haematopoiesis and hyperuricaemia from high cell turnover can impair renal function, and a rare myelofibrosis-associated glomerulopathy occurs.
+- `connects-to` → **[Targeted Therapy](../../../03-medicine/01-modern/13-cancer/targeted-therapy/README.md)** — JAK inhibitors are its mainstay drug: ruxolitinib and other JAK1/2 inhibitors shrink the spleen and ease symptoms of myelofibrosis, the first targeted therapy for the disease.
+- `connects-to` → **[Aspirin](../../../03-medicine/01-modern/04-cardio/aspirin/README.md)** — Low-dose aspirin counters the clotting: like other myeloproliferative neoplasms, myelofibrosis carries a thrombotic risk that low-dose aspirin helps reduce in lower-risk patients.
+- `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — Treatment threatens fertility: cytoreductive drugs and the allogeneic stem-cell transplant that can cure myelofibrosis impair fertility, relevant to younger patients.
 
 ---
 

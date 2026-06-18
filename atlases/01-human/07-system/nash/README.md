@@ -232,6 +232,15 @@ cross_links:
   - target: 01-human/07-system/renal-system
     relation: connects-to
     note: "It raises kidney-disease risk: NASH independently increases the risk of chronic kidney disease through the shared insulin resistance and inflammation of metabolic syndrome."
+  - target: 03-medicine/01-modern/07-metabolic/metformin
+    relation: connects-to
+    note: "It targets the metabolic root: although weight loss is primary, metformin improves the insulin resistance that drives non-alcoholic steatohepatitis, often alongside treating coexisting type 2 diabetes."
+  - target: 03-medicine/03-food/omega-3-fatty-acids
+    relation: connects-to
+    note: "Diet remodels the fatty liver: omega-3 fatty acids reduce hepatic triglyceride accumulation and are studied as an adjunct in non-alcoholic fatty liver disease."
+  - target: 03-medicine/03-food/curcumin
+    relation: connects-to
+    note: "An anti-inflammatory spice is studied: curcumin from turmeric shows anti-inflammatory and lipid-lowering effects investigated for steatohepatitis, though its poor absorption limits the effect."
 ---
 
 # NASH
@@ -392,6 +401,9 @@ NASH pathogenesis is driven by multiple simultaneous and sequential hits, not a 
 - `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — It shows on the skin: acanthosis nigricans signals the insulin resistance behind NASH, and advanced cirrhotic disease brings spider naevi and palmar erythema.
 - `connects-to` → **[Lymphatic System](../lymphatic-system/README.md)** — Cirrhosis backs up into the spleen: when NASH progresses to cirrhosis, portal hypertension causes congestive splenomegaly with sequestration of blood cells.
 - `connects-to` → **[Renal System](../renal-system/README.md)** — It raises kidney-disease risk: NASH independently increases the risk of chronic kidney disease through the shared insulin resistance and inflammation of metabolic syndrome.
+- `connects-to` → **[Metformin](../../../03-medicine/01-modern/07-metabolic/metformin/README.md)** — It targets the metabolic root: although weight loss is primary, metformin improves the insulin resistance that drives non-alcoholic steatohepatitis, often alongside treating coexisting type 2 diabetes.
+- `connects-to` → **[Omega-3 Fatty Acids](../../../03-medicine/03-food/omega-3-fatty-acids/README.md)** — Diet remodels the fatty liver: omega-3 fatty acids reduce hepatic triglyceride accumulation and are studied as an adjunct in non-alcoholic fatty liver disease.
+- `connects-to` → **[Curcumin](../../../03-medicine/03-food/curcumin/README.md)** — An anti-inflammatory spice is studied: curcumin from turmeric shows anti-inflammatory and lipid-lowering effects investigated for steatohepatitis, though its poor absorption limits the effect.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
