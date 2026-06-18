@@ -229,6 +229,15 @@ cross_links:
   - target: 01-human/07-system/musculoskeletal-system
     relation: connects-to
     note: "Severe myelitis disables the limbs: longitudinally extensive transverse myelitis causes paralysis with spasticity and contractures, while long-term corticosteroids add bone and muscle complications."
+  - target: 01-human/07-system/cardiovascular-system
+    relation: connects-to
+    note: "High cord lesions destabilise the circulation: cervical transverse myelitis can cause autonomic dysreflexia with dangerous blood-pressure swings and arrhythmia."
+  - target: 01-human/07-system/integumentary-system
+    relation: connects-to
+    note: "Its therapies and overlaps touch the skin: immunosuppression with rituximab, eculizumab and steroids brings skin and infection problems, and NMO overlaps autoimmune connective-tissue skin disease."
+  - target: 01-human/07-system/renal-system
+    relation: connects-to
+    note: "Overlap autoimmunity and drugs strain the kidney: NMO coexists with systemic lupus that can cause nephritis, and its long-term immunosuppression requires renal monitoring."
 ---
 
 # NMOSD
@@ -445,6 +454,9 @@ NMOSD impairs CNS function through three attack-related mechanisms:
 - `connects-to` → **[Digestive System](../digestive-system/README.md)** — It announces itself through the gut: area postrema syndrome — intractable hiccups, nausea and vomiting from a medullary lesion — is a classic and often first manifestation of NMO.
 - `connects-to` → **[Endocrine System](../endocrine-system/README.md)** — It targets the hypothalamus: AQP4-rich diencephalic regions are vulnerable, so NMO can cause SIADH, narcolepsy, hypothermia and other endocrine disturbances from hypothalamic lesions.
 - `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — Severe myelitis disables the limbs: longitudinally extensive transverse myelitis causes paralysis with spasticity and contractures, while long-term corticosteroids add bone and muscle complications.
+- `connects-to` → **[Cardiovascular System](../cardiovascular-system/README.md)** — High cord lesions destabilise the circulation: cervical transverse myelitis can cause autonomic dysreflexia with dangerous blood-pressure swings and arrhythmia.
+- `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — Its therapies and overlaps touch the skin: immunosuppression with rituximab, eculizumab and steroids brings skin and infection problems, and NMO overlaps autoimmune connective-tissue skin disease.
+- `connects-to` → **[Renal System](../renal-system/README.md)** — Overlap autoimmunity and drugs strain the kidney: NMO coexists with systemic lupus that can cause nephritis, and its long-term immunosuppression requires renal monitoring.
 
 [^wingerchuk-2015-nmosd-criteria]: Wingerchuk DM, Banwell B, Bennett JL, et al. International consensus diagnostic criteria for neuromyelitis optica spectrum disorders. *Neurology.* 2015;85(2):177-189. [doi:10.1212/WNL.0000000000001729](https://doi.org/10.1212/WNL.0000000000001729) · [PubMed 26092914](https://pubmed.ncbi.nlm.nih.gov/26092914/)
 [^pittock-2019-eculizumab-prevent]: Pittock SJ, Berthele A, Fujihara K, et al. Eculizumab in Aquaporin-4-Positive Neuromyelitis Optica Spectrum Disorder. *N Engl J Med.* 2019;381(7):614-625. [doi:10.1056/NEJMoa1900866](https://doi.org/10.1056/NEJMoa1900866) · [PubMed 31050279](https://pubmed.ncbi.nlm.nih.gov/31050279/)

@@ -204,6 +204,15 @@ cross_links:
   - target: 01-human/07-system/cardiovascular-system
     relation: connects-to
     note: "Autonomic and vascular nerve injury intertwine: autonomic neuropathy causes orthostatic hypotension, while ischaemia from peripheral vascular disease itself injures nerves and produces painful neuropathy."
+  - target: 01-human/07-system/endocrine-system
+    relation: connects-to
+    note: "Hormonal disease is its leading cause: diabetes is the commonest cause of peripheral neuropathy worldwide, and hypothyroidism and other endocrine disorders also damage nerves."
+  - target: 01-human/07-system/respiratory-system
+    relation: connects-to
+    note: "Its drugs can suppress breathing: the gabapentinoids and opioids used to treat neuropathic pain cause respiratory depression, especially when combined or in older patients."
+  - target: 01-human/07-system/renal-system
+    relation: connects-to
+    note: "The kidney both causes and constrains it: uraemia causes a peripheral neuropathy, and renal impairment mandates dose reduction of the renally-cleared gabapentin and pregabalin."
 sources:
   - id: jensen-2011-neuropathic-pain-review
     type: peer-reviewed
@@ -429,6 +438,9 @@ Chronic neuropathic pain carries significant psychological burden:
 - `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — It is read and treated through the skin: small-fibre neuropathy is diagnosed by skin biopsy, postherpetic neuralgia and CRPS bring skin allodynia and trophic changes, and topical capsaicin and lidocaine patches relieve it.
 - `connects-to` → **[Immune System](../immune-system/README.md)** — The immune system can attack nerves: immune-mediated neuropathies such as Guillain-Barré, CIDP and vasculitic neuropathy damage peripheral nerves and are important, treatable causes of neuropathic pain.
 - `connects-to` → **[Cardiovascular System](../cardiovascular-system/README.md)** — Autonomic and vascular nerve injury intertwine: autonomic neuropathy causes orthostatic hypotension, while ischaemia from peripheral vascular disease itself injures nerves and produces painful neuropathy.
+- `connects-to` → **[Endocrine System](../endocrine-system/README.md)** — Hormonal disease is its leading cause: diabetes is the commonest cause of peripheral neuropathy worldwide, and hypothyroidism and other endocrine disorders also damage nerves.
+- `connects-to` → **[Respiratory System](../respiratory-system/README.md)** — Its drugs can suppress breathing: the gabapentinoids and opioids used to treat neuropathic pain cause respiratory depression, especially when combined or in older patients.
+- `connects-to` → **[Renal System](../renal-system/README.md)** — The kidney both causes and constrains it: uraemia causes a peripheral neuropathy, and renal impairment mandates dose reduction of the renally-cleared gabapentin and pregabalin.
 
 [^jensen-2011-neuropathic-pain-review]: Jensen TS, Baron R, Haanpää M, et al. A new definition of neuropathic pain. *Pain.* 2011;152(10):2204-2205. [doi:10.1016/j.pain.2011.06.017](https://doi.org/10.1016/j.pain.2011.06.017) · [PubMed 21764514](https://pubmed.ncbi.nlm.nih.gov/21764514/)
 [^dworkin-2010-neuropathic-pain-treatment]: Dworkin RH, O'Connor AB, Audette J, et al. Recommendations for the pharmacological management of neuropathic pain. *Mayo Clin Proc.* 2010;85(3 Suppl):S3-14. [doi:10.4065/mcp.2009.0649](https://doi.org/10.4065/mcp.2009.0649) · [PubMed 20194146](https://pubmed.ncbi.nlm.nih.gov/20194146/)
