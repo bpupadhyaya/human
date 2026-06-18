@@ -223,6 +223,15 @@ cross_links:
   - target: 01-human/07-system/integumentary-system
     relation: connects-to
     note: "Its therapy assaults skin and mucosa: high-dose methotrexate causes severe mucositis and skin toxicity, and the dexamethasone used for oedema thins and bruises the skin."
+  - target: 01-human/07-system/cardiovascular-system
+    relation: connects-to
+    note: "Treatment and immobility strain the circulation: high-dose methotrexate regimens, corticosteroids and the high venous-thrombosis risk of CNS lymphoma all burden the cardiovascular system."
+  - target: 03-medicine/01-modern/13-cancer/targeted-therapy
+    relation: connects-to
+    note: "Targeted agents enter the brain: BTK inhibitors like ibrutinib, immunomodulators and rituximab supplement high-dose methotrexate against primary CNS lymphoma."
+  - target: 02-pathogen/01-viruses/hiv-1
+    relation: connects-to
+    note: "Immunodeficiency invites it: in advanced HIV infection, EBV-driven primary CNS lymphoma emerges, historically an AIDS-defining brain tumour distinguished from toxoplasmosis."
 ---
 
 # Primary CNS Lymphoma
@@ -405,6 +414,9 @@ Score 0-1: 2-year OS ~80%; Score 2-3: ~48%; Score 4-5: ~15%
 - `connects-to` → **[Renal System](../renal-system/README.md)** — Its key drug can block the kidney: the high-dose methotrexate central to PCNSL treatment can precipitate in the renal tubules causing acute kidney injury, needing hydration, alkalinisation and leucovorin rescue.
 - `connects-to` → **[Respiratory System](../respiratory-system/README.md)** — Drug and immunosuppression hit the lungs: methotrexate can cause pneumonitis, and the profound immunosuppression of PCNSL and its therapy invites Pneumocystis and fungal pneumonia.
 - `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — Its therapy assaults skin and mucosa: high-dose methotrexate causes severe mucositis and skin toxicity, and the dexamethasone used for oedema thins and bruises the skin.
+- `connects-to` → **[Cardiovascular System](../cardiovascular-system/README.md)** — Treatment and immobility strain the circulation: high-dose methotrexate regimens, corticosteroids and the high venous-thrombosis risk of CNS lymphoma all burden the cardiovascular system.
+- `connects-to` → **[Targeted Therapy](../../../03-medicine/01-modern/13-cancer/targeted-therapy/README.md)** — Targeted agents enter the brain: BTK inhibitors like ibrutinib, immunomodulators and rituximab supplement high-dose methotrexate against primary CNS lymphoma.
+- `connects-to` → **[HIV-1](../../../02-pathogen/01-viruses/hiv-1/README.md)** — Immunodeficiency invites it: in advanced HIV infection, EBV-driven primary CNS lymphoma emerges, historically an AIDS-defining brain tumour distinguished from toxoplasmosis.
 
 [^bromberg-2019-hovon105]: Bromberg JE, Issa S, Bakunina K, et al. Rituximab in patients with primary CNS lymphoma (HOVON 105/ALLG NHL 24): a randomised, open-label, phase 3 intergroup study. *Lancet Oncol.* 2019;20(2):216-228. [doi:10.1016/S1470-2045(18)30747-2](https://doi.org/10.1016/S1470-2045(18)30747-2) · [PubMed 30528440](https://pubmed.ncbi.nlm.nih.gov/30528440/)
 [^grommes-2017-ibrutinib-pcnsl]: Grommes C, Pastore A, Palaskas N, et al. Ibrutinib unmasks critical role of Bruton tyrosine kinase in primary CNS lymphoma. *Cancer Cell.* 2017;31(6):833-843. [doi:10.1016/j.ccell.2017.04.012](https://doi.org/10.1016/j.ccell.2017.04.012) · [PubMed 28552327](https://pubmed.ncbi.nlm.nih.gov/28552327/)

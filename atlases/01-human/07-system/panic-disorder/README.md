@@ -229,6 +229,15 @@ cross_links:
   - target: 01-human/07-system/immune-system
     relation: connects-to
     note: "Chronic anxiety inflames the body: persistent panic and stress raise inflammatory markers and dysregulate cortisol, linking the disorder to systemic inflammation over time."
+  - target: 03-medicine/01-modern/04-cardio/beta-blockers
+    relation: connects-to
+    note: "A heart drug for the body's alarm: beta-blockers like propranolol blunt the palpitations, tremor and sweating of a panic attack by blocking the adrenergic surge, though SSRIs treat the disorder itself."
+  - target: 03-medicine/03-food/magnesium-dietary
+    relation: connects-to
+    note: "A mineral linked to anxiety: low magnesium is associated with anxiety and panic, and supplementation is trialled as an adjunct, though the evidence is modest."
+  - target: 03-medicine/02-traditional/ashwagandha
+    relation: connects-to
+    note: "Traditional calm is sought for it: ashwagandha and other adaptogens are used for anxiety with some evidence of benefit, complementing rather than replacing established panic-disorder treatment."
 ---
 
 # Panic Disorder
@@ -444,6 +453,9 @@ The **interoceptive fear conditioning model** (Bouton, Mineka, Barlow) explains 
 - `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — Hormones modulate its attacks: panic symptoms can fluctuate with the menstrual cycle and emerge or worsen in pregnancy and the postpartum period, reflecting hormonal influences on anxiety.
 - `connects-to` → **[Renal System](../renal-system/README.md)** — Overbreathing and its drugs shift chemistry: hyperventilation during attacks causes respiratory alkalosis that the kidney buffers, and the SSRIs used to treat panic can cause hyponatraemia.
 - `connects-to` → **[Immune System](../immune-system/README.md)** — Chronic anxiety inflames the body: persistent panic and stress raise inflammatory markers and dysregulate cortisol, linking the disorder to systemic inflammation over time.
+- `connects-to` → **[Beta-blockers](../../../03-medicine/01-modern/04-cardio/beta-blockers/README.md)** — A heart drug for the body's alarm: beta-blockers like propranolol blunt the palpitations, tremor and sweating of a panic attack by blocking the adrenergic surge, though SSRIs treat the disorder itself.
+- `connects-to` → **[Dietary Magnesium](../../../03-medicine/03-food/magnesium-dietary/README.md)** — A mineral linked to anxiety: low magnesium is associated with anxiety and panic, and supplementation is trialled as an adjunct, though the evidence is modest.
+- `connects-to` → **[Ashwagandha](../../../03-medicine/02-traditional/ashwagandha/README.md)** — Traditional calm is sought for it: ashwagandha and other adaptogens are used for anxiety with some evidence of benefit, complementing rather than replacing established panic-disorder treatment.
 
 [^gorman-2000-panic-neurobiology]: Gorman JM, Kent JM, Sullivan GM, Coplan JD. Neuroanatomical hypothesis of panic disorder, revised. *Am J Psychiatry.* 2000;157(4):493-505. [doi:10.1176/appi.ajp.157.4.493](https://doi.org/10.1176/appi.ajp.157.4.493) · [PubMed 10739407](https://pubmed.ncbi.nlm.nih.gov/10739407/)
 [^nardi-2009-clonazepam-panic]: Nardi AE, Freire RC, Zin WA. Panic disorder and control of breathing. *Respir Physiol Neurobiol.* 2009;167(1):133-143. [doi:10.1016/j.resp.2008.07.011](https://doi.org/10.1016/j.resp.2008.07.011) · [PubMed 18708168](https://pubmed.ncbi.nlm.nih.gov/18708168/)
