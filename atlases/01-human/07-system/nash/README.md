@@ -205,6 +205,15 @@ cross_links:
   - target: 01-human/07-system/major-depressive-disorder
     relation: connects-to
     note: "Metabolic disease and mood entwine: NASH carries elevated depression, sharing the inflammation, obesity and insulin resistance of metabolic syndrome, and depression in turn worsens the lifestyle drivers of fatty liver."
+  - target: 01-human/07-system/digestive-system
+    relation: connects-to
+    note: "It scars the body's metabolic factory: NASH progresses to cirrhosis with portal hypertension, oesophageal varices and ascites, the end-stage liver failure of a digestive organ."
+  - target: 01-human/07-system/nervous-system
+    relation: connects-to
+    note: "A failing fatty liver poisons the brain: as NASH cirrhosis decompensates, the liver can no longer clear ammonia and toxins, producing hepatic encephalopathy with confusion and coma."
+  - target: 01-human/07-system/endocrine-system
+    relation: connects-to
+    note: "It is the liver face of metabolic disease: NASH is driven by insulin resistance and is tightly linked to type 2 diabetes, polycystic ovary syndrome and hypothyroidism across the endocrine system."
 ---
 
 # NASH
@@ -356,6 +365,9 @@ NASH pathogenesis is driven by multiple simultaneous and sequential hits, not a 
 - `connects-to` → **[Stroke](../stroke/README.md)** — Its metabolic disease reaches the brain's arteries: NASH is an independent marker of systemic atherosclerosis, and cardiovascular and cerebrovascular disease — including ischemic stroke — are leading causes of death in fatty-liver disease.
 - `connects-to` → **[Osteoporosis](../osteoporosis/README.md)** — A diseased liver weakens bone: NASH is associated with reduced bone mineral density through chronic inflammation, vitamin D dysregulation and disturbed hepatic-bone signaling, raising fracture risk.
 - `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — Metabolic disease and mood entwine: NASH carries elevated depression, sharing the inflammation, obesity and insulin resistance of metabolic syndrome, and depression in turn worsens the lifestyle drivers of fatty liver.
+- `connects-to` → **[Digestive System](../digestive-system/README.md)** — It scars the body's metabolic factory: NASH progresses to cirrhosis with portal hypertension, oesophageal varices and ascites, the end-stage liver failure of a digestive organ.
+- `connects-to` → **[Nervous System](../nervous-system/README.md)** — A failing fatty liver poisons the brain: as NASH cirrhosis decompensates, the liver can no longer clear ammonia and toxins, producing hepatic encephalopathy with confusion and coma.
+- `connects-to` → **[Endocrine System](../endocrine-system/README.md)** — It is the liver face of metabolic disease: NASH is driven by insulin resistance and is tightly linked to type 2 diabetes, polycystic ovary syndrome and hypothyroidism across the endocrine system.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 

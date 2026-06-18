@@ -199,6 +199,15 @@ cross_links:
   - target: 01-human/07-system/major-depressive-disorder
     relation: connects-to
     note: "A heavy symptom burden weighs on mood: the relentless fatigue, pruritus, drenching sweats and massive splenomegaly of myelofibrosis erode quality of life and contribute to depression."
+  - target: 01-human/07-system/digestive-system
+    relation: connects-to
+    note: "Extramedullary haematopoiesis swells the gut organs: when the scarred marrow pushes blood-making into the spleen and liver, the massive splenomegaly causes early satiety and portal hypertension with varices."
+  - target: 01-human/07-system/endocrine-system
+    relation: connects-to
+    note: "Transfusion iron overload poisons the glands: transfusion-dependent myelofibrosis accumulates iron that deposits in the pancreas, pituitary and thyroid, causing diabetes and other endocrinopathies."
+  - target: 01-human/07-system/generalized-anxiety-disorder
+    relation: connects-to
+    note: "A progressive marrow cancer breeds worry: the worsening cytopenias, transfusion dependence and threat of leukaemic transformation in myelofibrosis foster chronic health anxiety alongside depression."
 ---
 
 # Myelofibrosis
@@ -387,6 +396,9 @@ Abrupt ruxolitinib cessation → cytokine rebound → fever, splenomegaly surge,
 - `connects-to` → **[Varicella-Zoster Virus](../../../02-pathogen/01-viruses/varicella-zoster-virus/README.md)** — Its JAK-inhibitor therapy reawakens shingles: ruxolitinib, a mainstay for myelofibrosis, suppresses immunity and characteristically reactivates latent varicella-zoster as herpes zoster, prompting vaccination and vigilance.
 - `connects-to` → **[Pneumocystis jirovecii](../../../02-pathogen/03-fungi/pneumocystis-jirovecii/README.md)** — JAK inhibition opens the lung to Pneumocystis: ruxolitinib's immunosuppression, atop the immune dysfunction of myelofibrosis, can permit opportunistic Pneumocystis pneumonia.
 - `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — A heavy symptom burden weighs on mood: the relentless fatigue, pruritus, drenching sweats and massive splenomegaly of myelofibrosis erode quality of life and contribute to depression.
+- `connects-to` → **[Digestive System](../digestive-system/README.md)** — Extramedullary haematopoiesis swells the gut organs: when the scarred marrow pushes blood-making into the spleen and liver, the massive splenomegaly causes early satiety and portal hypertension with varices.
+- `connects-to` → **[Endocrine System](../endocrine-system/README.md)** — Transfusion iron overload poisons the glands: transfusion-dependent myelofibrosis accumulates iron that deposits in the pancreas, pituitary and thyroid, causing diabetes and other endocrinopathies.
+- `connects-to` → **[Generalized Anxiety Disorder](../generalized-anxiety-disorder/README.md)** — A progressive marrow cancer breeds worry: the worsening cytopenias, transfusion dependence and threat of leukaemic transformation in myelofibrosis foster chronic health anxiety alongside depression.
 
 ---
 
