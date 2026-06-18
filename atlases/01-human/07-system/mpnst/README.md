@@ -223,6 +223,15 @@ cross_links:
   - target: 01-human/07-system/lymphatic-system
     relation: connects-to
     note: "It bypasses the lymph nodes: like other sarcomas, MPNST spreads haematogenously to the lungs and only rarely to lymph nodes, so it is staged differently from carcinomas."
+  - target: 01-human/07-system/digestive-system
+    relation: connects-to
+    note: "It spreads through the bloodstream to the liver: MPNST metastasises haematogenously to the liver and lungs, and its chemotherapy brings nausea and mucositis."
+  - target: 01-human/07-system/immune-system
+    relation: connects-to
+    note: "Treatment suppresses immunity and biology invites it: intensive sarcoma chemotherapy is immunosuppressive, while MPNST is studied for immune and combination targeted therapy in NF1 patients."
+  - target: 03-medicine/01-modern/13-cancer/targeted-therapy
+    relation: connects-to
+    note: "It is a target for pathway drugs: arising from NF1 loss with hyperactive RAS-MEK signalling, MPNST is investigated for MEK and other targeted inhibitors beyond standard sarcoma chemotherapy."
 ---
 
 # MPNST
@@ -423,6 +432,9 @@ Wide local excision with negative margins is the only potentially curative inter
 - `connects-to` → **[Renal System](../renal-system/README.md)** — Its chemotherapy injures the kidney and bladder: the ifosfamide in MPNST regimens causes a Fanconi-like renal tubulopathy and haemorrhagic cystitis.
 - `connects-to` → **[Cardiovascular System](../cardiovascular-system/README.md)** — Its cure can scar the heart: the doxorubicin used against MPNST carries a dose-dependent cardiotoxicity risk on top of the disease's aggressive course.
 - `connects-to` → **[Lymphatic System](../lymphatic-system/README.md)** — It bypasses the lymph nodes: like other sarcomas, MPNST spreads haematogenously to the lungs and only rarely to lymph nodes, so it is staged differently from carcinomas.
+- `connects-to` → **[Digestive System](../digestive-system/README.md)** — It spreads through the bloodstream to the liver: MPNST metastasises haematogenously to the liver and lungs, and its chemotherapy brings nausea and mucositis.
+- `connects-to` → **[Immune System](../immune-system/README.md)** — Treatment suppresses immunity and biology invites it: intensive sarcoma chemotherapy is immunosuppressive, while MPNST is studied for immune and combination targeted therapy in NF1 patients.
+- `connects-to` → **[Targeted Therapy](../../../03-medicine/01-modern/13-cancer/targeted-therapy/README.md)** — It is a target for pathway drugs: arising from NF1 loss with hyperactive RAS-MEK signalling, MPNST is investigated for MEK and other targeted inhibitors beyond standard sarcoma chemotherapy.
 
 [^evans-2002-mpnst-nf1]: Evans DGR, Baser ME, McGaughran J, et al. Malignant peripheral nerve sheath tumours in neurofibromatosis 1. *J Med Genet.* 2002;39(5):311-314. [doi:10.1136/jmg.39.5.311](https://doi.org/10.1136/jmg.39.5.311) · [PubMed 12011145](https://pubmed.ncbi.nlm.nih.gov/12011145/)
 [^lee-2014-mpnst-prc2]: Lee W, Teckie S, Wiesner T, et al. PRC2 is recurrently inactivated through EED or SUZ12 loss in malignant peripheral nerve sheath tumors. *Nat Genet.* 2014;46(11):1227-1232. [doi:10.1038/ng.3095](https://doi.org/10.1038/ng.3095) · [PubMed 25240281](https://pubmed.ncbi.nlm.nih.gov/25240281/)

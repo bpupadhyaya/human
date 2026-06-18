@@ -229,6 +229,15 @@ cross_links:
   - target: 01-human/07-system/digestive-system
     relation: connects-to
     note: "Amyloid and drugs disturb the gut: amyloid deposition causes macroglossia, malabsorption and hepatomegaly, while proteasome inhibitors commonly cause diarrhoea and nausea."
+  - target: 01-human/07-system/respiratory-system
+    relation: connects-to
+    note: "It leaves the lungs exposed and can invade them: the immunoparesis of myeloma invites recurrent pneumonia, and plasmacytomas or amyloid can cause pleural effusions and lung infiltration."
+  - target: 03-medicine/01-modern/13-cancer/targeted-therapy
+    relation: connects-to
+    note: "It is treated by precision immunotherapies: anti-CD38 antibodies like daratumumab, proteasome inhibitors, immunomodulators and BCMA-directed CAR-T cells have transformed myeloma care."
+  - target: 01-human/07-system/reproductive-system
+    relation: connects-to
+    note: "Treatment threatens fertility: the alkylators and high-dose therapy with stem-cell transplant used in myeloma can impair fertility, relevant to younger patients."
 ---
 
 # Multiple Myeloma
@@ -428,6 +437,9 @@ MM evolves from precursor conditions through a well-defined continuum:
 - `connects-to` → **[Cardiovascular System](../cardiovascular-system/README.md)** — Its light chains and drugs strike the heart: AL amyloidosis infiltrates the myocardium causing restrictive cardiomyopathy, and the proteasome inhibitor carfilzomib is cardiotoxic.
 - `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — It shows on the skin through amyloid: AL amyloid deposits cause periorbital purpura and waxy skin papules, and cutaneous plasmacytomas can appear in advanced disease.
 - `connects-to` → **[Digestive System](../digestive-system/README.md)** — Amyloid and drugs disturb the gut: amyloid deposition causes macroglossia, malabsorption and hepatomegaly, while proteasome inhibitors commonly cause diarrhoea and nausea.
+- `connects-to` → **[Respiratory System](../respiratory-system/README.md)** — It leaves the lungs exposed and can invade them: the immunoparesis of myeloma invites recurrent pneumonia, and plasmacytomas or amyloid can cause pleural effusions and lung infiltration.
+- `connects-to` → **[Targeted Therapy](../../../03-medicine/01-modern/13-cancer/targeted-therapy/README.md)** — It is treated by precision immunotherapies: anti-CD38 antibodies like daratumumab, proteasome inhibitors, immunomodulators and BCMA-directed CAR-T cells have transformed myeloma care.
+- `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — Treatment threatens fertility: the alkylators and high-dose therapy with stem-cell transplant used in myeloma can impair fertility, relevant to younger patients.
 
 [^kumar-2022-imwg-criteria]: Kumar SK, Callander NS, Adekola K, et al. Multiple myeloma, version 3.2021, NCCN clinical practice guidelines in oncology. *J Natl Compr Canc Netw.* 2020;18(12):1685-1717. [doi:10.6004/jnccn.2020.0057](https://doi.org/10.6004/jnccn.2020.0057) · [PubMed 33285519](https://pubmed.ncbi.nlm.nih.gov/33285519/)
 [^moreau-2022-teclistamab]: Moreau P, Garfall AL, van de Donk NWCJ, et al. Teclistamab in relapsed or refractory multiple myeloma. *N Engl J Med.* 2022;387(6):495-505. [doi:10.1056/NEJMoa2203478](https://doi.org/10.1056/NEJMoa2203478) · [PubMed 35661166](https://pubmed.ncbi.nlm.nih.gov/35661166/)
