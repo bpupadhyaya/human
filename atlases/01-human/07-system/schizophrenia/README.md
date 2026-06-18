@@ -241,6 +241,15 @@ cross_links:
   - target: 03-medicine/01-modern/10-mental-health/fluoxetine
     relation: connects-to
     note: "Antidepressants augment treatment: SSRIs like fluoxetine are added to antipsychotics for the depressive and negative symptoms that often accompany schizophrenia."
+  - target: 03-medicine/01-modern/07-metabolic/metformin
+    relation: connects-to
+    note: "It curbs antipsychotic metabolic harm: second-generation antipsychotics cause weight gain, insulin resistance and dyslipidaemia, and metformin is added to blunt the drug-induced metabolic syndrome that widens the cardiovascular mortality gap in schizophrenia."
+  - target: 01-human/07-system/ptsd
+    relation: connects-to
+    note: "Trauma feeds psychosis risk: childhood adversity and trauma raise the risk of later schizophrenia, and PTSD itself can present with psychotic features, blurring the boundary between trauma-related and primary psychotic illness."
+  - target: 01-human/07-system/borderline-personality-disorder
+    relation: connects-to
+    note: "A psychotic-symptom differential: borderline personality disorder produces transient stress-related paranoia and dissociation that can mimic schizophrenia, distinguished by the persistence, negative symptoms and course of true psychosis."
 ---
 
 # Schizophrenia
@@ -479,6 +488,9 @@ Notably, schizophrenia shares genetic loci with bipolar disorder, ASD, ADHD, maj
 - `connects-to` → **[Influenza A](../../../02-pathogen/01-viruses/influenza-a/README.md)** — Maternal infection raises the risk: prenatal exposure to influenza and other infections is linked to higher schizophrenia risk through maternal immune activation affecting fetal brain development.
 - `connects-to` → **[Omega-3 fatty acids](../../../03-medicine/03-food/omega-3-fatty-acids/README.md)** — Diet is studied in early psychosis: omega-3 supplementation has been trialled to delay transition in those at high clinical risk of psychosis, with mixed results.
 - `connects-to` → **[Fluoxetine](../../../03-medicine/01-modern/10-mental-health/fluoxetine/README.md)** — Antidepressants augment treatment: SSRIs like fluoxetine are added to antipsychotics for the depressive and negative symptoms that often accompany schizophrenia.
+- `connects-to` → **[Metformin](../../../03-medicine/01-modern/07-metabolic/metformin/README.md)** — It curbs antipsychotic metabolic harm: second-generation antipsychotics cause weight gain, insulin resistance and dyslipidaemia, and metformin is added to blunt the drug-induced metabolic syndrome that widens the cardiovascular mortality gap in schizophrenia.
+- `connects-to` → **[PTSD](../ptsd/README.md)** — Trauma feeds psychosis risk: childhood adversity and trauma raise the risk of later schizophrenia, and PTSD itself can present with psychotic features, blurring the boundary between trauma-related and primary psychotic illness.
+- `connects-to` → **[Borderline Personality Disorder](../borderline-personality-disorder/README.md)** — A psychotic-symptom differential: borderline personality disorder produces transient stress-related paranoia and dissociation that can mimic schizophrenia, distinguished by the persistence, negative symptoms and course of true psychosis.
 
 [^howes-2009-dopamine-hypothesis]: Howes OD, Kapur S. The dopamine hypothesis of schizophrenia: version III—the final common pathway. *Schizophr Bull.* 2009;35(3):549-562. [doi:10.1093/schbul/sbp006](https://doi.org/10.1093/schbul/sbp006) · [PubMed 19325164](https://pubmed.ncbi.nlm.nih.gov/19325164/)
 [^moghaddam-2012-glutamate]: Moghaddam B, Javitt D. From revolution to evolution: the glutamate hypothesis of schizophrenia and its implication for treatment. *Neuropsychopharmacology.* 2012;37(1):4-15. [doi:10.1038/npp.2011.181](https://doi.org/10.1038/npp.2011.181) · [PubMed 21956446](https://pubmed.ncbi.nlm.nih.gov/21956446/)
