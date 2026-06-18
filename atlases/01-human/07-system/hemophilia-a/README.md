@@ -249,7 +249,7 @@ cross_links:
     note: "The liver makes its missing factor: factor VIII is produced largely by liver sinusoidal endothelial cells, which is why AAV gene therapy for hemophilia A delivers a working FVIII gene to the hepatocytes of the lobule for durable endogenous production."
   - target: 01-human/07-system/sickle-cell-disease
     relation: connects-to
-    note: "A contrasting inherited blood disorder: hemophilia A is an X-linked clotting-factor deficiency causing bleeding, whereas sickle cell disease is a recessive haemoglobinopathy causing vaso-occlusion — both inherited, both with skeletal complications, both now targets of gene therapy."
+    note: "A contrasting inherited blood disorder: hemophilia A is an X-linked clotting-factor deficiency causing bleeding, while sickle cell is a recessive haemoglobinopathy causing vaso-occlusion — both inherited and both now targets of gene therapy."
 ---
 
 # Hemophilia A
@@ -447,7 +447,7 @@ FVIII is a critical **amplifier** of the coagulation cascade at the junction bet
 - `connects-to` → **[Prion Protein](../../../02-pathogen/05-prions/prion-protein/README.md)** — A feared transfusion legacy: plasma-derived clotting products carried a theoretical variant-CJD prion risk in the UK, prompting recipient notification and a shift to recombinant factor VIII.
 - `connects-to` → **[Cortical Bone](../../05-tissue/cortical-bone/README.md)** — Bleeding wrecks joints and bone: recurrent haemarthroses drive hemophilic arthropathy with cartilage and subchondral-bone destruction, and reduced mobility plus chronic disease leave many patients with low bone density and fractures.
 - `connects-to` → **[Hepatic Lobule](../../05-tissue/hepatic-lobule/README.md)** — The liver makes its missing factor: factor VIII is produced largely by liver sinusoidal endothelial cells, which is why AAV gene therapy for hemophilia A delivers a working FVIII gene to the hepatocytes of the lobule for durable endogenous production.
-- `connects-to` → **[Sickle Cell Disease](../sickle-cell-disease/README.md)** — A contrasting inherited blood disorder: hemophilia A is an X-linked clotting-factor deficiency causing bleeding, whereas sickle cell disease is a recessive haemoglobinopathy causing vaso-occlusion — both inherited, both with skeletal complications, both now targets of gene therapy.
+- `connects-to` → **[Sickle Cell Disease](../sickle-cell-disease/README.md)** — A contrasting inherited blood disorder: hemophilia A is an X-linked clotting-factor deficiency causing bleeding, while sickle cell is a recessive haemoglobinopathy causing vaso-occlusion — both inherited and both now targets of gene therapy.
 
 [^oldenburg-2017-emicizumab-haven1]: Oldenburg J, Mahlangu JN, Kim B, et al. Emicizumab prophylaxis in hemophilia A with inhibitors. *N Engl J Med.* 2017;377(9):809-818. [doi:10.1056/NEJMoa1703068](https://doi.org/10.1056/NEJMoa1703068) · [PubMed 28691557](https://pubmed.ncbi.nlm.nih.gov/28691557/)
 [^mahlangu-2018-emicizumab-haven3]: Mahlangu J, Oldenburg J, Paz-Priel I, et al. Emicizumab prophylaxis in patients who have hemophilia A without inhibitors. *N Engl J Med.* 2018;379(9):811-822. [doi:10.1056/NEJMoa1803550](https://doi.org/10.1056/NEJMoa1803550) · [PubMed 30157389](https://pubmed.ncbi.nlm.nih.gov/30157389/)
