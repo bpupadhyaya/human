@@ -214,6 +214,15 @@ cross_links:
   - target: 01-human/07-system/generalized-anxiety-disorder
     relation: connects-to
     note: "Both infection and pandemic breed worry: long-COVID symptoms, the dread of severe illness and the upheaval of the pandemic fuelled a marked rise in anxiety alongside the depression and PTSD it left."
+  - target: 01-human/07-system/cardiovascular-system
+    relation: connects-to
+    note: "It strikes the heart directly: COVID-19 can cause acute myocarditis, arrhythmias and a raised risk of myocardial infarction, with troponin rises marking myocardial injury in severe disease."
+  - target: 01-human/07-system/digestive-system
+    relation: connects-to
+    note: "It enters and irritates the gut: ACE2 on intestinal and liver cells lets SARS-CoV-2 cause diarrhoea and nausea and raise transaminases, sometimes as the presenting features of COVID-19."
+  - target: 01-human/07-system/integumentary-system
+    relation: connects-to
+    note: "It leaves marks on the skin: chilblain-like 'COVID toes', maculopapular eruptions and urticaria are recognised cutaneous signs, sometimes appearing when respiratory symptoms are mild."
 ---
 
 # COVID-19 Disease
@@ -344,6 +353,9 @@ Symptoms persisting >4 weeks: fatigue (most common), cognitive impairment ("brai
 - `connects-to` → **[Immune System](../immune-system/README.md)** — It dysregulates immunity in both directions: severe COVID drives a hyperinflammatory cytokine surge yet also causes lymphopenia, and in children the post-infectious MIS-C is a striking immune complication.
 - `connects-to` → **[Nervous System](../nervous-system/README.md)** — The virus reaches the nervous system: COVID causes anosmia, encephalopathy and the brain fog of long COVID, and is linked to Guillain-Barré syndrome and a raised stroke risk.
 - `connects-to` → **[Generalized Anxiety Disorder](../generalized-anxiety-disorder/README.md)** — Both infection and pandemic breed worry: long-COVID symptoms, the dread of severe illness and the upheaval of the pandemic fuelled a marked rise in anxiety alongside the depression and PTSD it left.
+- `connects-to` → **[Cardiovascular System](../cardiovascular-system/README.md)** — It strikes the heart directly: COVID-19 can cause acute myocarditis, arrhythmias and a raised risk of myocardial infarction, with troponin rises marking myocardial injury in severe disease.
+- `connects-to` → **[Digestive System](../digestive-system/README.md)** — It enters and irritates the gut: ACE2 on intestinal and liver cells lets SARS-CoV-2 cause diarrhoea and nausea and raise transaminases, sometimes as the presenting features of COVID-19.
+- `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — It leaves marks on the skin: chilblain-like 'COVID toes', maculopapular eruptions and urticaria are recognised cutaneous signs, sometimes appearing when respiratory symptoms are mild.
 
 ## Pathology
 

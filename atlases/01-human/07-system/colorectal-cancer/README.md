@@ -214,6 +214,15 @@ cross_links:
   - target: 01-human/07-system/generalized-anxiety-disorder
     relation: connects-to
     note: "Surveillance and stoma life breed worry: the recurrence monitoring, CEA checks and altered bowel function or ostomy of colorectal cancer foster chronic health anxiety alongside depression."
+  - target: 01-human/07-system/respiratory-system
+    relation: connects-to
+    note: "After the liver, it climbs to the lungs: pulmonary metastases are the second commonest distant site in colorectal cancer, and resectable lung deposits are sometimes removed with curative intent."
+  - target: 01-human/07-system/lymphatic-system
+    relation: connects-to
+    note: "The nodes decide its fate: regional lymph-node involvement is the dominant prognostic factor in colorectal cancer, defining stage III disease and the need for adjuvant chemotherapy after surgery."
+  - target: 01-human/07-system/immune-system
+    relation: connects-to
+    note: "Mismatch-repair failure makes it visible: MSI-high colorectal tumours carry many neoantigens and respond strongly to checkpoint-inhibitor immunotherapy, unlike the common microsatellite-stable cancers."
 ---
 
 # Colorectal Cancer
@@ -395,6 +404,9 @@ The step-wise genetic progression from normal epithelium to carcinoma in CRC was
 - `connects-to` → **[Digestive System](../digestive-system/README.md)** — It grows in and obstructs the gut: colorectal cancer arises from the colonic epithelium and can occlude the bowel lumen, causing obstruction, altered bowel habit and the need for resection or a stoma.
 - `connects-to` → **[Wound Healing](../wound-healing/README.md)** — Colectomy hinges on a healing anastomosis: bowel resection for colorectal cancer joins two ends of gut, and anastomotic leak — failure of that wound to heal — is a feared, life-threatening complication.
 - `connects-to` → **[Generalized Anxiety Disorder](../generalized-anxiety-disorder/README.md)** — Surveillance and stoma life breed worry: the recurrence monitoring, CEA checks and altered bowel function or ostomy of colorectal cancer foster chronic health anxiety alongside depression.
+- `connects-to` → **[Respiratory System](../respiratory-system/README.md)** — After the liver, it climbs to the lungs: pulmonary metastases are the second commonest distant site in colorectal cancer, and resectable lung deposits are sometimes removed with curative intent.
+- `connects-to` → **[Lymphatic System](../lymphatic-system/README.md)** — The nodes decide its fate: regional lymph-node involvement is the dominant prognostic factor in colorectal cancer, defining stage III disease and the need for adjuvant chemotherapy after surgery.
+- `connects-to` → **[Immune System](../immune-system/README.md)** — Mismatch-repair failure makes it visible: MSI-high colorectal tumours carry many neoantigens and respond strongly to checkpoint-inhibitor immunotherapy, unlike the common microsatellite-stable cancers.
 
 ---
 
