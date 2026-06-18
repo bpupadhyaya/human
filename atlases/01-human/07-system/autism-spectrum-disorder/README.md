@@ -211,6 +211,15 @@ cross_links:
   - target: 01-human/07-system/anorexia-nervosa
     relation: connects-to
     note: "Rigidity and sensory aversion feed eating disorders: autism markedly raises the risk of restrictive eating disorders like anorexia, where its inflexibility and sensory sensitivities shape and entrench the food restriction."
+  - target: 01-human/07-system/musculoskeletal-system
+    relation: connects-to
+    note: "Movement and coordination are commonly affected: autism is frequently accompanied by hypotonia, motor dyspraxia and clumsiness, and an over-representation of joint hypermobility and connective-tissue laxity."
+  - target: 01-human/07-system/integumentary-system
+    relation: connects-to
+    note: "It shares an allergic, immune skin link: atopic dermatitis and eczema are more common in autism, reflecting the immune dysregulation tied to the condition, and self-injury can further damage the skin."
+  - target: 01-human/07-system/ptsd
+    relation: connects-to
+    note: "A world of adversity raises trauma risk: autistic people face high rates of bullying, abuse and overwhelming environments, giving elevated rates of post-traumatic stress that camouflaging can hide."
 ---
 
 # Autism Spectrum Disorder
@@ -412,6 +421,9 @@ The neural basis of ASD social deficits involves dysfunction of the **social bra
 - `connects-to` → **[Type 2 Diabetes](../type-2-diabetes/README.md)** — Antipsychotics and obesity raise the risk: the metabolic side effects of antipsychotics prescribed for irritability in autism, on top of its associated obesity and inactivity, elevate the rate of type 2 diabetes.
 - `connects-to` → **[Iron-Deficiency Anemia](../iron-deficiency-anemia/README.md)** — Selective eating starves the body of iron: the rigid, narrow food preferences and avoidant-restrictive eating common in autism frequently lead to inadequate iron intake and iron-deficiency anemia.
 - `connects-to` → **[Anorexia Nervosa](../anorexia-nervosa/README.md)** — Rigidity and sensory aversion feed eating disorders: autism markedly raises the risk of restrictive eating disorders like anorexia, where its inflexibility and sensory sensitivities shape and entrench the food restriction.
+- `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — Movement and coordination are commonly affected: autism is frequently accompanied by hypotonia, motor dyspraxia and clumsiness, and an over-representation of joint hypermobility and connective-tissue laxity.
+- `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — It shares an allergic, immune skin link: atopic dermatitis and eczema are more common in autism, reflecting the immune dysregulation tied to the condition, and self-injury can further damage the skin.
+- `connects-to` → **[PTSD](../ptsd/README.md)** — A world of adversity raises trauma risk: autistic people face high rates of bullying, abuse and overwhelming environments, giving elevated rates of post-traumatic stress that camouflaging can hide.
 
 [^maenner-2023-asd-prevalence]: Maenner MJ, Warren Z, Williams AR, et al. Prevalence and characteristics of autism spectrum disorder among children aged 8 years — ADDM Network, 2020. *MMWR Surveill Summ.* 2023;72(2):1-14. [doi:10.15585/mmwr.ss7202a1](https://doi.org/10.15585/mmwr.ss7202a1) · [PubMed 36952216](https://pubmed.ncbi.nlm.nih.gov/36952216/)
 [^lord-2020-asd-review]: Lord C, Elsabbagh M, Baird G, Veenstra-Vanderweele J. Autism spectrum disorder. *Lancet.* 2018;392(10146):508-520. [doi:10.1016/S0140-6736(18)31129-2](https://doi.org/10.1016/S0140-6736(18)31129-2) · [PubMed 30078460](https://pubmed.ncbi.nlm.nih.gov/30078460/)
