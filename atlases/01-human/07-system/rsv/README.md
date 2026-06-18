@@ -237,6 +237,15 @@ cross_links:
   - target: 03-medicine/03-food/zinc-dietary
     relation: connects-to
     note: "Nutrition shapes defence: zinc supports mucosal immunity and is studied to reduce the severity of childhood respiratory infections including RSV bronchiolitis in deficient populations."
+  - target: 03-medicine/01-modern/13-cancer/targeted-therapy
+    relation: connects-to
+    note: "Monoclonal antibodies prevent it: palivizumab and the long-acting nirsevimab are anti-RSV-F monoclonal antibodies given to infants for passive immunoprophylaxis, blocking the fusion protein the virus uses to enter cells."
+  - target: 01-human/05-tissue/lung-slice
+    relation: connects-to
+    note: "It plugs the small airways: RSV bronchiolitis sloughs necrotic airway epithelium that, with mucus and inflammatory debris, obstructs the bronchioles, causing the air-trapping and wheeze of severe infection."
+  - target: 01-human/07-system/cystic-fibrosis
+    relation: connects-to
+    note: "A high-risk chronic airway disease: children with cystic fibrosis suffer more severe and prolonged RSV infections that accelerate their airway damage, making RSV prevention important in this group."
 ---
 
 # RSV
@@ -454,3 +463,6 @@ Radiological findings: Hyperinflation, peribronchial thickening, occasional atel
 - `connects-to` → **[Influenza A](../../../02-pathogen/01-viruses/influenza-a/README.md)** — A fellow winter respiratory virus: influenza A co-circulates with RSV, causes overlapping bronchiolitis and pneumonia, and the two can co-infect, though influenza has antivirals and annual vaccines that RSV long lacked.
 - `connects-to` → **[Corticosteroids](../../../03-medicine/01-modern/02-respiratory/corticosteroids/README.md)** — Steroids do not help routine cases: trials show systemic corticosteroids do not shorten RSV bronchiolitis in healthy infants and are not recommended, though they treat associated viral wheeze and croup.
 - `connects-to` → **[Zinc (Dietary)](../../../03-medicine/03-food/zinc-dietary/README.md)** — Nutrition shapes defence: zinc supports mucosal immunity and is studied to reduce the severity of childhood respiratory infections including RSV bronchiolitis in deficient populations.
+- `connects-to` → **[Targeted Therapy](../../../03-medicine/01-modern/13-cancer/targeted-therapy/README.md)** — Monoclonal antibodies prevent it: palivizumab and the long-acting nirsevimab are anti-RSV-F monoclonal antibodies given to infants for passive immunoprophylaxis, blocking the fusion protein the virus uses to enter cells.
+- `connects-to` → **[Lung Slice](../../05-tissue/lung-slice/README.md)** — It plugs the small airways: RSV bronchiolitis sloughs necrotic airway epithelium that, with mucus and inflammatory debris, obstructs the bronchioles, causing the air-trapping and wheeze of severe infection.
+- `connects-to` → **[Cystic Fibrosis](../cystic-fibrosis/README.md)** — A high-risk chronic airway disease: children with cystic fibrosis suffer more severe and prolonged RSV infections that accelerate their airway damage, making RSV prevention important in this group.

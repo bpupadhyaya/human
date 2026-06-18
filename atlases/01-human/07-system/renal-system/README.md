@@ -244,6 +244,15 @@ cross_links:
   - target: 03-medicine/03-food/dietary-fiber
     relation: connects-to
     note: "The gut talks to the kidney through diet: dietary fibre shifts the microbiome to produce fewer uraemic toxins like indoxyl sulfate, of interest in slowing chronic kidney disease."
+  - target: 01-human/05-tissue/fibrosis
+    relation: connects-to
+    note: "Scarring is the common endpoint: whatever the initial insult — diabetes, hypertension, glomerulonephritis — progressive kidney disease converges on tubulointerstitial fibrosis, the strongest histological predictor of nephron loss and renal failure."
+  - target: 03-medicine/01-modern/13-cancer/cancer-chemotherapy
+    relation: connects-to
+    note: "The kidney both clears and is harmed: it excretes many cytotoxic drugs so dosing tracks GFR, while cisplatin, methotrexate and tumour-lysis from chemotherapy are major causes of acute kidney injury."
+  - target: 01-human/07-system/ahus
+    relation: connects-to
+    note: "A renal-limited thrombotic microangiopathy: atypical haemolytic uraemic syndrome, from uncontrolled complement activation, attacks the glomerular and arteriolar endothelium to cause acute kidney injury, treated with the complement inhibitor eculizumab."
 taxonomy:
   uberon: "UBERON:0001008"
 ---
@@ -414,6 +423,9 @@ Natriuretic counterpoint:
 - **Connects to:** [Hepatitis B Virus](../../../02-pathogen/01-viruses/hepatitis-b-virus/README.md) — a virus that scars the glomerulus: chronic hepatitis B causes membranous nephropathy and polyarteritis-nodosa renal disease through immune-complex deposition, one of several viral causes of kidney disease.
 - **Connects to:** [Staphylococcus aureus](../../../02-pathogen/02-bacteria/staphylococcus-aureus/README.md) — infection inflames the kidney: Staphylococcus aureus causes infection-related glomerulonephritis and is a leading organism in dialysis-access infection and septic acute kidney injury.
 - **Connects to:** [Dietary Fiber](../../../03-medicine/03-food/dietary-fiber/README.md) — the gut talks to the kidney through diet: dietary fibre shifts the microbiome to produce fewer uraemic toxins like indoxyl sulfate, of interest in slowing chronic kidney disease.
+- **Connects to:** [Fibrosis](../../05-tissue/fibrosis/README.md) — scarring is the common endpoint: whatever the initial insult — diabetes, hypertension, glomerulonephritis — progressive kidney disease converges on tubulointerstitial fibrosis, the strongest histological predictor of nephron loss and renal failure.
+- **Connects to:** [Cancer Chemotherapy](../../../03-medicine/01-modern/13-cancer/cancer-chemotherapy/README.md) — the kidney both clears and is harmed: it excretes many cytotoxic drugs so dosing tracks GFR, while cisplatin, methotrexate and tumour-lysis from chemotherapy are major causes of acute kidney injury.
+- **Connects to:** [aHUS](../ahus/README.md) — a renal-limited thrombotic microangiopathy: atypical haemolytic uraemic syndrome, from uncontrolled complement activation, attacks the glomerular and arteriolar endothelium to cause acute kidney injury, treated with the complement inhibitor eculizumab.
 - **Treated by:** ACE inhibitors — renoprotection in CKD.
 - **Treated by:** Loop diuretics — fluid management.
 
