@@ -235,6 +235,15 @@ cross_links:
   - target: 02-pathogen/01-viruses/herpesvirus
     relation: connects-to
     note: "Transplant reawakens latent virus: many MDS patients undergo allogeneic stem-cell transplant, after which cytomegalovirus and other herpesviruses reactivate under immunosuppression."
+  - target: 03-medicine/01-modern/13-cancer/cancer-chemotherapy
+    relation: connects-to
+    note: "Both consequence and treatment: therapy-related MDS arises years after alkylator or topoisomerase chemotherapy, while high-risk MDS itself is treated with intensive chemotherapy or hypomethylating agents en route to transplant."
+  - target: 01-human/05-tissue/myocardium
+    relation: connects-to
+    note: "Transfusional iron poisons the heart: chronic red-cell transfusions for MDS anaemia deposit iron in the myocardium, causing a siderotic cardiomyopathy and heart failure that iron chelation aims to prevent."
+  - target: 01-human/07-system/thalassemia
+    relation: connects-to
+    note: "Shared transfusion dependence: like transfusion-dependent thalassemia, lower-risk MDS causes chronic anaemia needing regular transfusions and the iron overload they bring — one a marrow-failure clone, the other an inherited globin defect."
 ---
 
 # Myelodysplastic Syndromes
@@ -418,6 +427,9 @@ MDS → AML transformation rate: ~10% at 1 year for very-low risk; ~40-50% at 2 
 - `connects-to` → **[Renal System](../renal-system/README.md)** — Treatment and overload reach the kidney: hypomethylating chemotherapy plus the renal effects of anaemia and transfusional iron overload strain the kidney in MDS.
 - `connects-to` → **[Targeted Therapy](../../../03-medicine/01-modern/13-cancer/targeted-therapy/README.md)** — Tailored drugs match its biology: hypomethylating agents (azacitidine, decitabine), lenalidomide for del(5q) MDS and luspatercept for anaemia are mainstays beyond supportive transfusion.
 - `connects-to` → **[Herpesvirus](../../../02-pathogen/01-viruses/herpesvirus/README.md)** — Transplant reawakens latent virus: many MDS patients undergo allogeneic stem-cell transplant, after which cytomegalovirus and other herpesviruses reactivate under immunosuppression.
+- `connects-to` → **[Cancer Chemotherapy](../../../03-medicine/01-modern/13-cancer/cancer-chemotherapy/README.md)** — Both consequence and treatment: therapy-related MDS arises years after alkylator or topoisomerase chemotherapy, while high-risk MDS itself is treated with intensive chemotherapy or hypomethylating agents en route to transplant.
+- `connects-to` → **[Myocardium](../../05-tissue/myocardium/README.md)** — Transfusional iron poisons the heart: chronic red-cell transfusions for MDS anaemia deposit iron in the myocardium, causing a siderotic cardiomyopathy and heart failure that iron chelation aims to prevent.
+- `connects-to` → **[Thalassemia](../thalassemia/README.md)** — Shared transfusion dependence: like transfusion-dependent thalassemia, lower-risk MDS causes chronic anaemia needing regular transfusions and the iron overload they bring — one a marrow-failure clone, the other an inherited globin defect.
 
 [^fenaux-2009-aza001]: Fenaux P, Mufti GJ, Hellstrom-Lindberg E, et al. Efficacy of azacitidine compared with conventional care regimens in patients with higher-risk myelodysplastic syndromes. *Lancet Oncol.* 2009;10(3):223-232. [doi:10.1016/S1470-2045(09)70003-8](https://doi.org/10.1016/S1470-2045(09)70003-8) · [PubMed 19230772](https://pubmed.ncbi.nlm.nih.gov/19230772/)
 [^fenaux-2020-medalist]: Fenaux P, Platzbecker U, Mufti GJ, et al. Luspatercept in patients with lower-risk myelodysplastic syndromes. *N Engl J Med.* 2020;382(2):140-151. [doi:10.1056/NEJMoa1908892](https://doi.org/10.1056/NEJMoa1908892) · [PubMed 31914241](https://pubmed.ncbi.nlm.nih.gov/31914241/)

@@ -240,6 +240,15 @@ cross_links:
   - target: 02-pathogen/06-environmental/diarrheal-disease
     relation: connects-to
     note: "Two great child killers overlap: in endemic regions malaria and diarrhoeal disease are leading causes of childhood death, frequently co-occurring and straining the same fragile health systems."
+  - target: 01-human/05-tissue/glomerulus
+    relation: connects-to
+    note: "It scars the kidney filter: Plasmodium malariae deposits immune complexes in the glomerulus causing quartan malarial nephropathy, while severe falciparum brings blackwater fever and acute tubular injury — major contributors to malarial death."
+  - target: 02-pathogen/04-parasites/toxoplasma-gondii
+    relation: connects-to
+    note: "A fellow apicomplexan: Plasmodium and Toxoplasma are both apicomplexan parasites with an apicoplast organelle, the shared vulnerability that antifolates and other antiparasitics exploit against both."
+  - target: 03-medicine/02-traditional/berberine
+    relation: connects-to
+    note: "A plant alkaloid with antiplasmodial activity: berberine, from Berberis and related plants used in traditional medicine, shows antimalarial activity in the laboratory, echoing how the wormwood-derived artemisinins became frontline therapy."
 ---
 
 # Malaria
@@ -472,6 +481,9 @@ cross_links:
 - `connects-to` → **[Zoonosis](../../../02-pathogen/06-environmental/zoonosis/README.md)** — A species jumps from monkeys: Plasmodium knowlesi malaria is a zoonosis spread from macaques in Southeast Asia, an emerging cause of severe human malaria.
 - `connects-to` → **[Epstein-Barr Virus](../../../02-pathogen/01-viruses/epstein-barr-virus/README.md)** — It cooperates to cause lymphoma: chronic malaria is the key co-factor with Epstein-Barr virus in endemic Burkitt lymphoma, driving the B-cell proliferation the virus transforms.
 - `connects-to` → **[Diarrheal Disease](../../../02-pathogen/06-environmental/diarrheal-disease/README.md)** — Two great child killers overlap: in endemic regions malaria and diarrhoeal disease are leading causes of childhood death, frequently co-occurring and straining the same fragile health systems.
+- `connects-to` → **[Glomerulus](../../05-tissue/glomerulus/README.md)** — It scars the kidney filter: Plasmodium malariae deposits immune complexes in the glomerulus causing quartan malarial nephropathy, while severe falciparum brings blackwater fever and acute tubular injury — major contributors to malarial death.
+- `connects-to` → **[Toxoplasma gondii](../../../02-pathogen/04-parasites/toxoplasma-gondii/README.md)** — A fellow apicomplexan: Plasmodium and Toxoplasma are both apicomplexan parasites with an apicoplast organelle, the shared vulnerability that antifolates and other antiparasitics exploit against both.
+- `connects-to` → **[Berberine](../../../03-medicine/02-traditional/berberine/README.md)** — A plant alkaloid with antiplasmodial activity: berberine, from Berberis and related plants used in traditional medicine, shows antimalarial activity in the laboratory, echoing how the wormwood-derived artemisinins became frontline therapy.
 
 [^who-malaria-report-2023]: World Health Organization. World Malaria Report 2023. WHO; 2023.
 [^white-2014-malaria-lancet]: White NJ, Pukrittayakamee S, Hien TT, et al. Malaria. *Lancet.* 2014;383(9918):723-735. [doi:10.1016/S0140-6736(13)60024-0](https://doi.org/10.1016/S0140-6736(13)60024-0) · [PubMed 23953767](https://pubmed.ncbi.nlm.nih.gov/23953767/)
