@@ -223,6 +223,15 @@ cross_links:
   - target: 01-human/07-system/cardiovascular-system
     relation: connects-to
     note: "Autonomic nerve damage misruns the heart: cardiac autonomic neuropathy in type 1 diabetes causes resting tachycardia, blunted heart-rate variability and silent myocardial ischaemia that masks heart attacks."
+  - target: 01-human/07-system/respiratory-system
+    relation: connects-to
+    note: "Acidosis drives deep breathing: diabetic ketoacidosis causes the deep, laboured Kussmaul breathing that blows off CO2, and diabetes mildly reduces lung function and raises pneumonia risk."
+  - target: 02-pathogen/02-bacteria/mycobacterium-tuberculosis
+    relation: connects-to
+    note: "It weakens defences against TB: diabetes impairs cell-mediated immunity and roughly triples the risk of active tuberculosis, worsening its course and treatment outcomes."
+  - target: 02-pathogen/02-bacteria/staphylococcus-aureus
+    relation: connects-to
+    note: "It invites skin and foot infection: impaired immunity and peripheral neuropathy predispose type 1 diabetes to staphylococcal skin abscesses and diabetic-foot infections."
 ---
 
 # Type 1 Diabetes
@@ -387,6 +396,9 @@ cross_links:
 - `connects-to` → **[Nervous System](../nervous-system/README.md)** — Glucose extremes endanger the brain: severe hypoglycaemia causes seizures and coma, diabetic ketoacidosis can cause cerebral oedema in children, and long-standing disease brings peripheral and autonomic neuropathy.
 - `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — It stiffens joints and breaks down the foot: type 1 diabetes causes diabetic cheiroarthropathy with limited joint mobility, frozen shoulder, and Charcot neuroarthropathy that destroys the foot's architecture.
 - `connects-to` → **[Cardiovascular System](../cardiovascular-system/README.md)** — Autonomic nerve damage misruns the heart: cardiac autonomic neuropathy in type 1 diabetes causes resting tachycardia, blunted heart-rate variability and silent myocardial ischaemia that masks heart attacks.
+- `connects-to` → **[Respiratory System](../respiratory-system/README.md)** — Acidosis drives deep breathing: diabetic ketoacidosis causes the deep, laboured Kussmaul breathing that blows off CO2, and diabetes mildly reduces lung function and raises pneumonia risk.
+- `connects-to` → **[Mycobacterium tuberculosis](../../../02-pathogen/02-bacteria/mycobacterium-tuberculosis/README.md)** — It weakens defences against TB: diabetes impairs cell-mediated immunity and roughly triples the risk of active tuberculosis, worsening its course and treatment outcomes.
+- `connects-to` → **[Staphylococcus aureus](../../../02-pathogen/02-bacteria/staphylococcus-aureus/README.md)** — It invites skin and foot infection: impaired immunity and peripheral neuropathy predispose type 1 diabetes to staphylococcal skin abscesses and diabetic-foot infections.
 
 [^atkinson-2014-t1d-lancet]: Atkinson MA, Eisenbarth GS, Michels AW. Type 1 diabetes. *Lancet.* 2014;383(9911):69-82. [doi:10.1016/S0140-6736(13)60591-7](https://doi.org/10.1016/S0140-6736(13)60591-7) · [PubMed 23890997](https://pubmed.ncbi.nlm.nih.gov/23890997/)
 [^herold-2019-teplizumab-t1d]: Herold KC, Bundy BN, Long SA, et al. An anti-CD3 antibody, teplizumab, in relatives at risk for type 1 diabetes. *N Engl J Med.* 2019;381(7):603-613. [doi:10.1056/NEJMoa1905155](https://doi.org/10.1056/NEJMoa1905155) · [PubMed 31180675](https://pubmed.ncbi.nlm.nih.gov/31180675/)

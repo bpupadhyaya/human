@@ -217,6 +217,15 @@ cross_links:
   - target: 01-human/07-system/musculoskeletal-system
     relation: connects-to
     note: "It fills the marrow but spares the bones: Waldenström infiltrates the bone marrow with lymphoplasmacytic cells causing cytopenias, yet characteristically lacks the lytic bone lesions of multiple myeloma."
+  - target: 01-human/07-system/cardiovascular-system
+    relation: connects-to
+    note: "Thick blood and drugs strain the heart: IgM hyperviscosity raises cardiac workload toward high-output failure, ibrutinib causes atrial fibrillation, and AL amyloid can infiltrate the myocardium."
+  - target: 01-human/07-system/respiratory-system
+    relation: connects-to
+    note: "It can infiltrate the lungs: IgM and amyloid deposition can involve the lung parenchyma and pleura, and hyperviscosity causes breathlessness, alongside infection risk from immunoparesis."
+  - target: 01-human/07-system/renal-system
+    relation: connects-to
+    note: "Its IgM injures the kidney: monoclonal IgM, light chains and amyloid deposit in the glomeruli, and cryoglobulinaemia causes a membranoproliferative glomerulonephritis."
 ---
 
 # Waldenström Macroglobulinemia
@@ -401,6 +410,9 @@ For symptomatic hyperviscosity → removes IgM immediately; does not treat under
 - `connects-to` → **[Immune System](../immune-system/README.md)** — It is a clonal antibody-making disease: lymphoplasmacytic cells secrete monoclonal IgM and suppress normal immunoglobulins, so Waldenström causes immunoparesis with infections alongside cryoglobulinaemia and cold agglutinin disease.
 - `connects-to` → **[Digestive System](../digestive-system/README.md)** — It can deposit in the gut: IgM and amyloid deposition in the bowel wall cause malabsorption and diarrhoea, and the disease commonly enlarges the liver and spleen.
 - `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — It fills the marrow but spares the bones: Waldenström infiltrates the bone marrow with lymphoplasmacytic cells causing cytopenias, yet characteristically lacks the lytic bone lesions of multiple myeloma.
+- `connects-to` → **[Cardiovascular System](../cardiovascular-system/README.md)** — Thick blood and drugs strain the heart: IgM hyperviscosity raises cardiac workload toward high-output failure, ibrutinib causes atrial fibrillation, and AL amyloid can infiltrate the myocardium.
+- `connects-to` → **[Respiratory System](../respiratory-system/README.md)** — It can infiltrate the lungs: IgM and amyloid deposition can involve the lung parenchyma and pleura, and hyperviscosity causes breathlessness, alongside infection risk from immunoparesis.
+- `connects-to` → **[Renal System](../renal-system/README.md)** — Its IgM injures the kidney: monoclonal IgM, light chains and amyloid deposit in the glomeruli, and cryoglobulinaemia causes a membranoproliferative glomerulonephritis.
 
 [^treon-2015-ibrutinib-wm]: Treon SP, Tripsas CK, Meid K, et al. Ibrutinib in previously treated Waldenström's macroglobulinemia. *N Engl J Med.* 2015;373(18):1765-1774. [doi:10.1056/NEJMoa1501548](https://doi.org/10.1056/NEJMoa1501548) · [PubMed 26352686](https://pubmed.ncbi.nlm.nih.gov/26352686/)
 [^tam-2020-aspen]: Tam CS, Opat S, D'Sa S, et al. A randomized phase 3 trial of zanubrutinib vs ibrutinib in symptomatic Waldenström macroglobulinemia: the ASPEN study. *Blood.* 2020;136(18):2038-2050. [doi:10.1182/blood.2020006844](https://doi.org/10.1182/blood.2020006844) · [PubMed 32828187](https://pubmed.ncbi.nlm.nih.gov/32828187/)
