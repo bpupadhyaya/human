@@ -214,6 +214,15 @@ cross_links:
   - target: 01-human/07-system/digestive-system
     relation: connects-to
     note: "Its chemo injures the gut: the ifosfamide and doxorubicin used for synovial sarcoma cause nausea, mucositis and, with ifosfamide, hepatotoxicity."
+  - target: 01-human/07-system/lymphatic-system
+    relation: connects-to
+    note: "It is a sarcoma that reaches the nodes: synovial sarcoma is one of the few sarcomas with notable lymph-node metastasis, so nodal assessment matters in its staging."
+  - target: 01-human/07-system/renal-system
+    relation: connects-to
+    note: "Its chemotherapy injures the kidney and bladder: the ifosfamide in its regimen causes haemorrhagic cystitis and a Fanconi-like renal tubulopathy."
+  - target: 01-human/07-system/cardiovascular-system
+    relation: connects-to
+    note: "Its cure can scar the heart: the doxorubicin in synovial-sarcoma chemotherapy carries a dose-dependent cardiotoxicity risk in the young patients it often affects."
 ---
 
 # Synovial Sarcoma
@@ -405,6 +414,9 @@ SS has low TMB (~1-2 mut/Mb) and variable PD-L1 expression; ICB response rates ~
 - `connects-to` → **[Respiratory System](../respiratory-system/README.md)** — It spreads to the lungs: synovial sarcoma metastasises preferentially to the lungs, so pulmonary metastasectomy and lung surveillance dominate its long-term management.
 - `connects-to` → **[Varicella-Zoster Virus](../../../02-pathogen/01-viruses/varicella-zoster-virus/README.md)** — Its chemo reawakens shingles: the doxorubicin-ifosfamide chemotherapy for synovial sarcoma deeply suppresses immunity, allowing latent varicella-zoster to reactivate.
 - `connects-to` → **[Digestive System](../digestive-system/README.md)** — Its chemo injures the gut: the ifosfamide and doxorubicin used for synovial sarcoma cause nausea, mucositis and, with ifosfamide, hepatotoxicity.
+- `connects-to` → **[Lymphatic System](../lymphatic-system/README.md)** — It is a sarcoma that reaches the nodes: synovial sarcoma is one of the few sarcomas with notable lymph-node metastasis, so nodal assessment matters in its staging.
+- `connects-to` → **[Renal System](../renal-system/README.md)** — Its chemotherapy injures the kidney and bladder: the ifosfamide in its regimen causes haemorrhagic cystitis and a Fanconi-like renal tubulopathy.
+- `connects-to` → **[Cardiovascular System](../cardiovascular-system/README.md)** — Its cure can scar the heart: the doxorubicin in synovial-sarcoma chemotherapy carries a dose-dependent cardiotoxicity risk in the young patients it often affects.
 
 ---
 

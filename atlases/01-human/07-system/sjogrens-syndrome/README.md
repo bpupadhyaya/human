@@ -220,6 +220,15 @@ cross_links:
   - target: 01-human/07-system/immune-system
     relation: connects-to
     note: "It is an autoimmune exocrinopathy: anti-Ro/SSA and anti-La/SSB autoantibodies and lymphocytic infiltration of the salivary and lacrimal glands drive Sjögren's, with a marked risk of B-cell lymphoma."
+  - target: 01-human/07-system/cardiovascular-system
+    relation: connects-to
+    note: "Its antibodies can stop the fetal heart: anti-Ro/SSA antibodies cross the placenta and damage the fetal conduction system, causing congenital complete heart block in neonatal lupus."
+  - target: 01-human/07-system/musculoskeletal-system
+    relation: connects-to
+    note: "It aches the joints and muscles: non-erosive arthritis and arthralgia are common in Sjögren's, and an overlap myositis can occur with its other autoimmune associations."
+  - target: 02-pathogen/01-viruses/hepatitis-c-virus
+    relation: connects-to
+    note: "A virus can mimic it: chronic hepatitis C causes a sicca syndrome with lymphocytic sialadenitis that resembles and associates with Sjögren's, so HCV is excluded at diagnosis."
 ---
 
 # Sjögren's Syndrome
@@ -417,6 +426,9 @@ Sjögren's syndrome can occur:
 - `connects-to` → **[Respiratory System](../respiratory-system/README.md)** — Dryness and inflammation reach the lungs: Sjögren's dries the trachea into a chronic cough and causes interstitial lung disease and bronchiectasis from lymphocytic airway infiltration.
 - `connects-to` → **[Endocrine System](../endocrine-system/README.md)** — It clusters with autoimmune thyroid disease: Sjögren's frequently coexists with Hashimoto's thyroiditis, sharing the autoimmune diathesis that attacks the body's glands.
 - `connects-to` → **[Immune System](../immune-system/README.md)** — It is an autoimmune exocrinopathy: anti-Ro/SSA and anti-La/SSB autoantibodies and lymphocytic infiltration of the salivary and lacrimal glands drive Sjögren's, with a marked risk of B-cell lymphoma.
+- `connects-to` → **[Cardiovascular System](../cardiovascular-system/README.md)** — Its antibodies can stop the fetal heart: anti-Ro/SSA antibodies cross the placenta and damage the fetal conduction system, causing congenital complete heart block in neonatal lupus.
+- `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — It aches the joints and muscles: non-erosive arthritis and arthralgia are common in Sjögren's, and an overlap myositis can occur with its other autoimmune associations.
+- `connects-to` → **[Hepatitis C Virus](../../../02-pathogen/01-viruses/hepatitis-c-virus/README.md)** — A virus can mimic it: chronic hepatitis C causes a sicca syndrome with lymphocytic sialadenitis that resembles and associates with Sjögren's, so HCV is excluded at diagnosis.
 
 ---
 
