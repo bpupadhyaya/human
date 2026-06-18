@@ -232,6 +232,15 @@ cross_links:
   - target: 01-human/07-system/schwannomatosis
     relation: connects-to
     note: "A spectrum cousin: schwannomatosis joins NF1 and NF2 among the neurofibromatosis-spectrum disorders, all causing multiple nerve-sheath tumours from different genes."
+  - target: 03-medicine/01-modern/13-cancer/cancer-chemotherapy
+    relation: connects-to
+    note: "Chemo for the cancers it breeds: NF1 predisposes to MPNST, juvenile myelomonocytic leukaemia, glioma and rhabdomyosarcoma, treated with chemotherapy when they arise."
+  - target: 01-human/05-tissue/cortical-bone
+    relation: connects-to
+    note: "It dysplastically shapes the skeleton: NF1 causes sphenoid-wing dysplasia, scoliosis, tibial pseudarthrosis and reduced cortical bone density, distinctive skeletal features of the disease."
+  - target: 01-human/07-system/men1-syndrome
+    relation: connects-to
+    note: "A fellow endocrine-tumour predisposition: like MEN1, NF1 raises the risk of phaeochromocytoma and duodenal neuroendocrine tumours, overlapping the inherited tumour-syndrome spectrum."
 ---
 
 # Neurofibromatosis Type 1
@@ -416,6 +425,9 @@ In glioma and MPNST: additional alterations required — MPNST requires CDKN2A/2
 - `connects-to` → **[Targeted Therapy](../../../03-medicine/01-modern/13-cancer/targeted-therapy/README.md)** — A MEK inhibitor shrinks its tumours: selumetinib, targeting the hyperactive RAS-MEK pathway of NF1, is approved to reduce inoperable plexiform neurofibromas in children.
 - `connects-to` → **[Tuberous Sclerosis Complex](../tuberous-sclerosis-complex/README.md)** — A fellow neurocutaneous syndrome: like tuberous sclerosis, NF1 combines skin signs with nervous-system tumours in an autosomal-dominant pattern, both converging on mTOR-pathway dysregulation.
 - `connects-to` → **[Schwannomatosis](../schwannomatosis/README.md)** — A spectrum cousin: schwannomatosis joins NF1 and NF2 among the neurofibromatosis-spectrum disorders, all causing multiple nerve-sheath tumours from different genes.
+- `connects-to` → **[Cancer Chemotherapy](../../../03-medicine/01-modern/13-cancer/cancer-chemotherapy/README.md)** — Chemo for the cancers it breeds: NF1 predisposes to MPNST, juvenile myelomonocytic leukaemia, glioma and rhabdomyosarcoma, treated with chemotherapy when they arise.
+- `connects-to` → **[Cortical Bone](../../05-tissue/cortical-bone/README.md)** — It dysplastically shapes the skeleton: NF1 causes sphenoid-wing dysplasia, scoliosis, tibial pseudarthrosis and reduced cortical bone density, distinctive skeletal features of the disease.
+- `connects-to` → **[MEN1 Syndrome](../men1-syndrome/README.md)** — A fellow endocrine-tumour predisposition: like MEN1, NF1 raises the risk of phaeochromocytoma and duodenal neuroendocrine tumours, overlapping the inherited tumour-syndrome spectrum.
 
 [^gutmann-2017-nf1-primer]: Gutmann DH, Ferner RE, Listernick RH, et al. Neurofibromatosis type 1. *Nat Rev Dis Primers.* 2017;3:17004. [doi:10.1038/nrdp.2017.4](https://doi.org/10.1038/nrdp.2017.4) · [PubMed 28230061](https://pubmed.ncbi.nlm.nih.gov/28230061/)
 [^dombi-2016-selumetinib]: Dombi E, Baldwin A, Marcus LJ, et al. Activity of Selumetinib in Neurofibromatosis Type 1-Related Plexiform Neurofibromas. *N Engl J Med.* 2016;375(26):2550-2560. [doi:10.1056/NEJMoa1605943](https://doi.org/10.1056/NEJMoa1605943) · [PubMed 28029918](https://pubmed.ncbi.nlm.nih.gov/28029918/)

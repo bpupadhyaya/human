@@ -232,6 +232,15 @@ cross_links:
   - target: 01-human/07-system/reproductive-system
     relation: connects-to
     note: "They can arise in the gonads: primary neuroendocrine tumours (carcinoids) occur in the ovary and testis, and ovarian carcinoids can secrete hormones causing the carcinoid syndrome."
+  - target: 03-medicine/01-modern/13-cancer/cancer-chemotherapy
+    relation: connects-to
+    note: "Chemo for pancreatic and high-grade tumours: capecitabine-temozolomide treats pancreatic neuroendocrine tumours, and platinum-etoposide treats poorly differentiated neuroendocrine carcinomas."
+  - target: 01-human/05-tissue/islet-of-langerhans
+    relation: connects-to
+    note: "Pancreatic NETs arise from these cells: insulinomas, gastrinomas and other functioning tumours of the islets of Langerhans are the pancreatic neuroendocrine tumours, secreting hormones that drive distinctive syndromes."
+  - target: 03-medicine/01-modern/13-cancer/checkpoint-inhibitors
+    relation: connects-to
+    note: "Immunotherapy for the high-grade end: poorly differentiated neuroendocrine carcinomas, like small-cell lung cancer, are treated with chemotherapy plus PD-1/PD-L1 inhibitors, while well-differentiated NETs stay immunologically cold."
 ---
 
 # Neuroendocrine Tumors
@@ -408,6 +417,9 @@ Treatment identical to SCLC: cisplatin (or carboplatin) + etoposide (4-6 cycles)
 - `connects-to` → **[Targeted Therapy](../../../03-medicine/01-modern/13-cancer/targeted-therapy/README.md)** — It is the model for receptor-targeted treatment: somatostatin analogues, Lu-177 DOTATATE peptide-receptor radionuclide therapy and mTOR inhibitors exploit neuroendocrine tumours' somatostatin receptors and biology.
 - `connects-to` → **[Renal System](../renal-system/README.md)** — Its radionuclide therapy taxes the kidney: peptide-receptor radionuclide therapy concentrates in and can damage the kidneys, requiring amino-acid renal protection during treatment.
 - `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — They can arise in the gonads: primary neuroendocrine tumours (carcinoids) occur in the ovary and testis, and ovarian carcinoids can secrete hormones causing the carcinoid syndrome.
+- `connects-to` → **[Cancer Chemotherapy](../../../03-medicine/01-modern/13-cancer/cancer-chemotherapy/README.md)** — Chemo for pancreatic and high-grade tumours: capecitabine-temozolomide treats pancreatic neuroendocrine tumours, and platinum-etoposide treats poorly differentiated neuroendocrine carcinomas.
+- `connects-to` → **[Islet of Langerhans](../../05-tissue/islet-of-langerhans/README.md)** — Pancreatic NETs arise from these cells: insulinomas, gastrinomas and other functioning tumours of the islets of Langerhans are the pancreatic neuroendocrine tumours, secreting hormones that drive distinctive syndromes.
+- `connects-to` → **[Checkpoint Inhibitors](../../../03-medicine/01-modern/13-cancer/checkpoint-inhibitors/README.md)** — Immunotherapy for the high-grade end: poorly differentiated neuroendocrine carcinomas, like small-cell lung cancer, are treated with chemotherapy plus PD-1/PD-L1 inhibitors, while well-differentiated NETs stay immunologically cold.
 
 [^yao-2011-radiant3]: Yao JC, Shah MH, Ito T, et al. Everolimus for advanced pancreatic neuroendocrine tumors. *N Engl J Med.* 2011;364(6):514-523. [doi:10.1056/NEJMoa1009290](https://doi.org/10.1056/NEJMoa1009290) · [PubMed 21306237](https://pubmed.ncbi.nlm.nih.gov/21306237/)
 [^raymond-2011-sunitinib-pnet]: Raymond E, Dahan L, Raoul JL, et al. Sunitinib malate for the treatment of pancreatic neuroendocrine tumors. *N Engl J Med.* 2011;364(6):501-513. [doi:10.1056/NEJMoa1003825](https://doi.org/10.1056/NEJMoa1003825) · [PubMed 21306236](https://pubmed.ncbi.nlm.nih.gov/21306236/)
