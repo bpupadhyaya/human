@@ -214,6 +214,15 @@ cross_links:
   - target: 01-human/07-system/neuropathic-pain
     relation: connects-to
     note: "It is not painless as once thought: muscle cramps, spasticity, joint strain from weakness and some sensory involvement give ALS chronic pain, including a neuropathic component, that needs active management."
+  - target: 01-human/07-system/digestive-system
+    relation: connects-to
+    note: "Bulbar weakness wrecks swallowing: ALS causes dysphagia and sialorrhoea with aspiration and weight loss, driving the need for gastrostomy feeding, while riluzole adds a risk of hepatotoxicity."
+  - target: 01-human/07-system/endocrine-system
+    relation: connects-to
+    note: "It burns fuel abnormally fast: ALS is marked by a hypermetabolic state with raised resting energy expenditure and weight loss, and aggressive nutritional and metabolic support improves survival."
+  - target: 01-human/07-system/cardiovascular-system
+    relation: connects-to
+    note: "Chronic hypoventilation strains the right heart: the progressive respiratory failure of ALS raises pulmonary pressures toward cor pulmonale, and some patients show autonomic cardiovascular dysfunction."
 ---
 
 # ALS
@@ -419,6 +428,9 @@ ALS diagnosis is **clinical** — no single definitive biomarker test (though Nf
 - `connects-to` → **[Streptococcus pneumoniae](../../../02-pathogen/02-bacteria/streptococcus-pneumoniae/README.md)** — Failing swallow and cough flood the lungs: bulbar and respiratory muscle weakness in ALS causes aspiration and an ineffective cough, and the resulting pneumonia — often pneumococcal — is the leading cause of death.
 - `connects-to` → **[Wound Healing](../wound-healing/README.md)** — Progressive paralysis breaks down the skin: as ALS confines patients to bed or wheelchair, immobility and immobile pressure points produce pressure ulcers that heal poorly in the wasted, malnourished body.
 - `connects-to` → **[Neuropathic Pain](../neuropathic-pain/README.md)** — It is not painless as once thought: muscle cramps, spasticity, joint strain from weakness and some sensory involvement give ALS chronic pain, including a neuropathic component, that needs active management.
+- `connects-to` → **[Digestive System](../digestive-system/README.md)** — Bulbar weakness wrecks swallowing: ALS causes dysphagia and sialorrhoea with aspiration and weight loss, driving the need for gastrostomy feeding, while riluzole adds a risk of hepatotoxicity.
+- `connects-to` → **[Endocrine System](../endocrine-system/README.md)** — It burns fuel abnormally fast: ALS is marked by a hypermetabolic state with raised resting energy expenditure and weight loss, and aggressive nutritional and metabolic support improves survival.
+- `connects-to` → **[Cardiovascular System](../cardiovascular-system/README.md)** — Chronic hypoventilation strains the right heart: the progressive respiratory failure of ALS raises pulmonary pressures toward cor pulmonale, and some patients show autonomic cardiovascular dysfunction.
 
 [^brown-2017-als-review]: Brown RH, Al-Chalabi A. Amyotrophic lateral sclerosis. *N Engl J Med.* 2017;377(2):162-172. [doi:10.1056/NEJMra1603471](https://doi.org/10.1056/NEJMra1603471) · [PubMed 28700839](https://pubmed.ncbi.nlm.nih.gov/28700839/)
 [^edaravone-als-2017]: Writing Group, Edaravone ALS 19 Study Group. Safety and efficacy of edaravone in well defined patients with amyotrophic lateral sclerosis. *Lancet Neurol.* 2017;16(7):505-512. [doi:10.1016/S1474-4422(17)30115-1](https://doi.org/10.1016/S1474-4422(17)30115-1) · [PubMed 28522180](https://pubmed.ncbi.nlm.nih.gov/28522180/)

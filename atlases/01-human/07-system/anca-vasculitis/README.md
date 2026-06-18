@@ -217,6 +217,15 @@ cross_links:
   - target: 01-human/07-system/osteoporosis
     relation: connects-to
     note: "Prolonged steroids erode the skeleton: the months of high-dose corticosteroids needed to control ANCA vasculitis accelerate bone loss and raise fracture risk, a common treatment complication."
+  - target: 01-human/07-system/integumentary-system
+    relation: connects-to
+    note: "Small-vessel inflammation erupts on the skin: ANCA vasculitis causes palpable purpura, cutaneous nodules and ulcers, and granulomatosis with polyangiitis classically destroys the nasal cartilage into a saddle-nose."
+  - target: 01-human/07-system/digestive-system
+    relation: connects-to
+    note: "It can inflame the gut's vessels: mesenteric vasculitis in ANCA disease causes abdominal pain, bowel ischaemia and GI bleeding, a serious extra-renal manifestation."
+  - target: 02-pathogen/01-viruses/varicella-zoster-virus
+    relation: connects-to
+    note: "Its heavy immunosuppression reawakens shingles: the cyclophosphamide, rituximab and steroids used to induce remission in ANCA vasculitis deplete immunity, allowing herpes-zoster reactivation."
 ---
 
 # ANCA Vasculitis
@@ -415,6 +424,9 @@ EGPA is mechanistically distinct — eosinophils, not neutrophils, mediate tissu
 - `connects-to` → **[Aspergillus fumigatus](../../../02-pathogen/03-fungi/aspergillus-fumigatus/README.md)** — Its heavy immunosuppression opens the lung to mold: cyclophosphamide, rituximab and high-dose steroids used to induce remission in ANCA vasculitis deeply blunt immunity, permitting invasive aspergillosis.
 - `connects-to` → **[Pulmonary Arterial Hypertension](../pulmonary-arterial-hypertension/README.md)** — Lung capillaritis and fibrosis can pressurize the arteries: the alveolar hemorrhage and interstitial scarring of ANCA vasculitis damage the pulmonary vasculature, contributing to pulmonary hypertension.
 - `connects-to` → **[Osteoporosis](../osteoporosis/README.md)** — Prolonged steroids erode the skeleton: the months of high-dose corticosteroids needed to control ANCA vasculitis accelerate bone loss and raise fracture risk, a common treatment complication.
+- `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — Small-vessel inflammation erupts on the skin: ANCA vasculitis causes palpable purpura, cutaneous nodules and ulcers, and granulomatosis with polyangiitis classically destroys the nasal cartilage into a saddle-nose.
+- `connects-to` → **[Digestive System](../digestive-system/README.md)** — It can inflame the gut's vessels: mesenteric vasculitis in ANCA disease causes abdominal pain, bowel ischaemia and GI bleeding, a serious extra-renal manifestation.
+- `connects-to` → **[Varicella-Zoster Virus](../../../02-pathogen/01-viruses/varicella-zoster-virus/README.md)** — Its heavy immunosuppression reawakens shingles: the cyclophosphamide, rituximab and steroids used to induce remission in ANCA vasculitis deplete immunity, allowing herpes-zoster reactivation.
 
 [^yates-2022-anca-review]: Yates M, Watts RA, Bajema IM, et al. EULAR/ERA-EDTA recommendations for the management of ANCA-associated vasculitis. *Ann Rheum Dis.* 2016;75(9):1583-1594. [doi:10.1136/annrheumdis-2016-209133](https://doi.org/10.1136/annrheumdis-2016-209133) · [PubMed 27338776](https://pubmed.ncbi.nlm.nih.gov/27338776/)
 [^stone-2010-rituximab-gpa-rave]: Stone JH, Merkel PA, Spiera R, et al. Rituximab versus cyclophosphamide for ANCA-associated vasculitis. *N Engl J Med.* 2010;363(3):221-232. [doi:10.1056/NEJMoa0909905](https://doi.org/10.1056/NEJMoa0909905) · [PubMed 20647199](https://pubmed.ncbi.nlm.nih.gov/20647199/)
