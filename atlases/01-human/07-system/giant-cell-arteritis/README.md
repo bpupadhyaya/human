@@ -214,6 +214,15 @@ cross_links:
   - target: 01-human/07-system/integumentary-system
     relation: connects-to
     note: "Its long steroid courses thin the skin: prolonged glucocorticoids for GCA cause skin atrophy, easy bruising and striae, on top of the thickened, tender temporal artery palpable on examination."
+  - target: 01-human/07-system/respiratory-system
+    relation: connects-to
+    note: "It can present as a new cough: a persistent dry cough is an under-recognised symptom of giant cell arteritis, reflecting large-vessel and aortic involvement of the disease."
+  - target: 01-human/07-system/renal-system
+    relation: connects-to
+    note: "It spares the kidney, unlike small-vessel vasculitis: GCA characteristically leaves the kidneys untouched — a key feature distinguishing it from ANCA-associated vasculitis — though large-vessel disease can rarely involve the renal arteries."
+  - target: 01-human/07-system/lymphatic-system
+    relation: connects-to
+    note: "It can masquerade as occult disease: large-vessel GCA presents as fever of unknown origin with intense systemic inflammation that mimics lymphoma, distinguished by PET showing vasculitic aortic uptake rather than nodal disease."
 ---
 
 # Giant Cell Arteritis
@@ -394,6 +403,9 @@ The temporal arteries supply scalp, temporalis muscle, and dura. In GCA, transmu
 - `connects-to` → **[Endocrine System](../endocrine-system/README.md)** — Months of high-dose steroids reshape metabolism: the prolonged glucocorticoids that control GCA cause steroid-induced diabetes, adrenal suppression and a Cushingoid state, the endocrine cost of treatment.
 - `connects-to` → **[Digestive System](../digestive-system/README.md)** — Steroids and IL-6 blockade trouble the gut: high-dose steroids for GCA raise peptic-ulcer risk, the tocilizumab used to spare them carries a risk of lower-GI perforation, and jaw claudication makes eating painful.
 - `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — Its long steroid courses thin the skin: prolonged glucocorticoids for GCA cause skin atrophy, easy bruising and striae, on top of the thickened, tender temporal artery palpable on examination.
+- `connects-to` → **[Respiratory System](../respiratory-system/README.md)** — It can present as a new cough: a persistent dry cough is an under-recognised symptom of giant cell arteritis, reflecting large-vessel and aortic involvement of the disease.
+- `connects-to` → **[Renal System](../renal-system/README.md)** — It spares the kidney, unlike small-vessel vasculitis: GCA characteristically leaves the kidneys untouched — a key feature distinguishing it from ANCA-associated vasculitis — though large-vessel disease can rarely involve the renal arteries.
+- `connects-to` → **[Lymphatic System](../lymphatic-system/README.md)** — It can masquerade as occult disease: large-vessel GCA presents as fever of unknown origin with intense systemic inflammation that mimics lymphoma, distinguished by PET showing vasculitic aortic uptake rather than nodal disease.
 
 [^stone-2017-giact]: Stone JH, Tuckwell K, Dimonaco S, et al. Trial of tocilizumab in giant-cell arteritis. *N Engl J Med.* 2017;377(4):317-328. [doi:10.1056/NEJMoa1613849](https://doi.org/10.1056/NEJMoa1613849) · [PubMed 28745999](https://pubmed.ncbi.nlm.nih.gov/28745999/)
 [^weyand-2014-gca-review]: Weyand CM, Goronzy JJ. Clinical practice. Giant-cell arteritis and polymyalgia rheumatica. *N Engl J Med.* 2014;371(1):50-57. [doi:10.1056/NEJMcp1214926](https://doi.org/10.1056/NEJMcp1214926) · [PubMed 24988557](https://pubmed.ncbi.nlm.nih.gov/24988557/)

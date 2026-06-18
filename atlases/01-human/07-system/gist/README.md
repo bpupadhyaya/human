@@ -214,6 +214,15 @@ cross_links:
   - target: 01-human/07-system/generalized-anxiety-disorder
     relation: connects-to
     note: "Open-ended targeted therapy breeds worry: the indefinite daily TKI treatment, the threat of resistance and recurrence surveillance in GIST foster chronic health anxiety alongside depression."
+  - target: 01-human/07-system/cardiovascular-system
+    relation: connects-to
+    note: "Its targeted drugs strain the heart: the tyrosine-kinase inhibitors imatinib and especially sunitinib cause cardiotoxicity, heart failure and hypertension during long-term treatment."
+  - target: 01-human/07-system/lymphatic-system
+    relation: connects-to
+    note: "It skips the lymph nodes: unlike GI carcinomas, GIST spreads haematogenously to the liver and peritoneum and rarely to lymph nodes, so routine lymphadenectomy is unnecessary."
+  - target: 01-human/07-system/renal-system
+    relation: connects-to
+    note: "Sunitinib taxes the kidney: the multi-target inhibitor sunitinib causes hypertension, proteinuria and occasional thrombotic microangiopathy affecting renal function."
 ---
 
 # GIST
@@ -410,6 +419,9 @@ No approved targeted therapy; sunitinib may have modest activity; clinical trial
 - `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — Its targeted drugs mark the skin: imatinib for GIST commonly causes rashes and periorbital oedema and can lighten skin pigmentation through KIT inhibition, while later TKIs cause hand-foot skin reaction.
 - `connects-to` → **[Endocrine System](../endocrine-system/README.md)** — It ties to endocrine tumours and thyroid: SDH-deficient GIST clusters with paraganglioma in Carney-Stratakis syndrome, and the TKIs used to treat GIST commonly induce hypothyroidism.
 - `connects-to` → **[Generalized Anxiety Disorder](../generalized-anxiety-disorder/README.md)** — Open-ended targeted therapy breeds worry: the indefinite daily TKI treatment, the threat of resistance and recurrence surveillance in GIST foster chronic health anxiety alongside depression.
+- `connects-to` → **[Cardiovascular System](../cardiovascular-system/README.md)** — Its targeted drugs strain the heart: the tyrosine-kinase inhibitors imatinib and especially sunitinib cause cardiotoxicity, heart failure and hypertension during long-term treatment.
+- `connects-to` → **[Lymphatic System](../lymphatic-system/README.md)** — It skips the lymph nodes: unlike GI carcinomas, GIST spreads haematogenously to the liver and peritoneum and rarely to lymph nodes, so routine lymphadenectomy is unnecessary.
+- `connects-to` → **[Renal System](../renal-system/README.md)** — Sunitinib taxes the kidney: the multi-target inhibitor sunitinib causes hypertension, proteinuria and occasional thrombotic microangiopathy affecting renal function.
 
 ---
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
