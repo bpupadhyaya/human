@@ -213,6 +213,15 @@ cross_links:
   - target: 01-human/07-system/osteoporosis
     relation: connects-to
     note: "Prolonged steroids thin the bones: the repeated and long courses of corticosteroids used to control ITP accelerate bone loss and raise fracture risk."
+  - target: 01-human/07-system/integumentary-system
+    relation: connects-to
+    note: "Low platelets bleed into the skin: ITP causes petechiae, purpura and easy bruising, and the wet purpura of mucosal and oral bleeding signals a dangerously low platelet count."
+  - target: 01-human/07-system/digestive-system
+    relation: connects-to
+    note: "It bleeds the gut and ties to H. pylori: severe thrombocytopenia in ITP risks gastrointestinal haemorrhage, and eradicating Helicobacter pylori can raise the platelet count in many patients."
+  - target: 01-human/07-system/generalized-anxiety-disorder
+    relation: connects-to
+    note: "Living with a bleeding risk breeds worry: the unpredictable platelet counts, fear of haemorrhage and relapsing course of ITP foster chronic health anxiety alongside depression."
 ---
 
 # Immune Thrombocytopenia
@@ -413,6 +422,9 @@ ITP in pregnancy carries risk of neonatal thrombocytopenia (maternal IgG crosses
 - `connects-to` → **[Stroke](../stroke/README.md)** — It threatens the brain from both directions: severe thrombocytopenia risks intracranial hemorrhage, while the TPO-receptor agonists used to raise platelets and post-splenectomy state carry a thrombotic stroke risk.
 - `connects-to` → **[Aspergillus fumigatus](../../../02-pathogen/03-fungi/aspergillus-fumigatus/README.md)** — Its immunosuppression opens the lung to mold: the high-dose corticosteroids and rituximab used to treat ITP blunt immunity, occasionally permitting invasive aspergillosis.
 - `connects-to` → **[Osteoporosis](../osteoporosis/README.md)** — Prolonged steroids thin the bones: the repeated and long courses of corticosteroids used to control ITP accelerate bone loss and raise fracture risk.
+- `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — Low platelets bleed into the skin: ITP causes petechiae, purpura and easy bruising, and the wet purpura of mucosal and oral bleeding signals a dangerously low platelet count.
+- `connects-to` → **[Digestive System](../digestive-system/README.md)** — It bleeds the gut and ties to H. pylori: severe thrombocytopenia in ITP risks gastrointestinal haemorrhage, and eradicating Helicobacter pylori can raise the platelet count in many patients.
+- `connects-to` → **[Generalized Anxiety Disorder](../generalized-anxiety-disorder/README.md)** — Living with a bleeding risk breeds worry: the unpredictable platelet counts, fear of haemorrhage and relapsing course of ITP foster chronic health anxiety alongside depression.
 
 [^cines-2002-itp-review]: Cines DB, Blanchette VS. Immune thrombocytopenic purpura. *N Engl J Med.* 2002;346(13):995-1008. [doi:10.1056/NEJMra010532](https://doi.org/10.1056/NEJMra010532) · [PubMed 11919310](https://pubmed.ncbi.nlm.nih.gov/11919310/)
 [^neunert-2019-ash-itp-guidelines]: Neunert C, et al. American Society of Hematology 2019 guidelines for immune thrombocytopenia. *Blood Adv.* 2019;3(23):3829-3866. [doi:10.1182/bloodadvances.2019000966](https://doi.org/10.1182/bloodadvances.2019000966) · [PubMed 31794604](https://pubmed.ncbi.nlm.nih.gov/31794604/)

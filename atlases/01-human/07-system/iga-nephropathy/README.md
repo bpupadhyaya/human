@@ -205,6 +205,15 @@ cross_links:
   - target: 01-human/07-system/major-depressive-disorder
     relation: connects-to
     note: "Chronic kidney disease weighs on mood: the slow march of IgA nephropathy toward dialysis or transplant, with its dietary restrictions and fatigue, carries a substantial burden of depression."
+  - target: 01-human/07-system/integumentary-system
+    relation: connects-to
+    note: "Its systemic form erupts on the skin: IgA vasculitis (Henoch-Schönlein purpura), the systemic counterpart of IgA nephropathy, causes a palpable purpuric rash over the legs and buttocks."
+  - target: 01-human/07-system/digestive-system
+    relation: connects-to
+    note: "The same IgA deposits inflame the gut and liver: IgA vasculitis causes colicky abdominal pain, GI bleeding and intussusception, and IgA nephropathy is strongly associated with cirrhosis."
+  - target: 01-human/07-system/musculoskeletal-system
+    relation: connects-to
+    note: "It inflames the joints: IgA vasculitis, the systemic form of the disease, causes a transient arthritis and arthralgia of the large joints alongside its skin, gut and kidney involvement."
 ---
 
 # IgA Nephropathy
@@ -351,6 +360,9 @@ IgAN is a **multi-hit disease** described by the Oxford Four-Hit Model:
 - `connects-to` → **[Heart Failure](../heart-failure/README.md)** — Failing kidneys overload the heart: as IgA nephropathy progresses to chronic kidney disease, fluid retention, hypertension and uremic cardiomyopathy strain the heart toward failure.
 - `connects-to` → **[Aspergillus fumigatus](../../../02-pathogen/03-fungi/aspergillus-fumigatus/README.md)** — Its immunosuppression opens the lung to mold: the corticosteroids and immunosuppressants used for progressive IgA nephropathy blunt immunity, occasionally permitting invasive aspergillosis.
 - `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — Chronic kidney disease weighs on mood: the slow march of IgA nephropathy toward dialysis or transplant, with its dietary restrictions and fatigue, carries a substantial burden of depression.
+- `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — Its systemic form erupts on the skin: IgA vasculitis (Henoch-Schönlein purpura), the systemic counterpart of IgA nephropathy, causes a palpable purpuric rash over the legs and buttocks.
+- `connects-to` → **[Digestive System](../digestive-system/README.md)** — The same IgA deposits inflame the gut and liver: IgA vasculitis causes colicky abdominal pain, GI bleeding and intussusception, and IgA nephropathy is strongly associated with cirrhosis.
+- `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — It inflames the joints: IgA vasculitis, the systemic form of the disease, causes a transient arthritis and arthralgia of the large joints alongside its skin, gut and kidney involvement.
 
 ---
 
