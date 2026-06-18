@@ -235,6 +235,15 @@ cross_links:
   - target: 01-human/07-system/endocrine-system
     relation: connects-to
     note: "Granulomatous disease can hit the pituitary: GPA occasionally involves the pituitary gland, causing hypophysitis and diabetes insipidus among its protean manifestations."
+  - target: 01-human/07-system/musculoskeletal-system
+    relation: connects-to
+    note: "It aches in joints and muscles: migratory arthralgia, frank arthritis and myalgia are common features of ANCA-associated vasculitis, especially at disease onset."
+  - target: 01-human/07-system/reproductive-system
+    relation: connects-to
+    note: "Its cyclophosphamide threatens fertility: the alkylating agent long used to induce remission causes ovarian failure and impaired spermatogenesis, prompting fertility preservation before treatment."
+  - target: 03-medicine/01-modern/02-respiratory/corticosteroids
+    relation: connects-to
+    note: "Remission starts with steroids: high-dose glucocorticoids, with rituximab or cyclophosphamide, induce remission in ANCA-associated vasculitis, though their toxicity drives steroid-sparing strategies."
 ---
 
 # ANCA Vasculitis
@@ -439,6 +448,9 @@ EGPA is mechanistically distinct — eosinophils, not neutrophils, mediate tissu
 - `connects-to` → **[Renal System](../renal-system/README.md)** — The kidney is its classic target: ANCA vasculitis causes pauci-immune crescentic rapidly progressive glomerulonephritis, a renal emergency demanding prompt immunosuppression to prevent permanent failure.
 - `connects-to` → **[Cardiovascular System](../cardiovascular-system/README.md)** — Eosinophilic GPA strikes the heart: myocarditis and cardiomyopathy are a leading cause of death in EGPA, and coronary arteritis can occur, so cardiac assessment is essential.
 - `connects-to` → **[Endocrine System](../endocrine-system/README.md)** — Granulomatous disease can hit the pituitary: GPA occasionally involves the pituitary gland, causing hypophysitis and diabetes insipidus among its protean manifestations.
+- `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — It aches in joints and muscles: migratory arthralgia, frank arthritis and myalgia are common features of ANCA-associated vasculitis, especially at disease onset.
+- `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — Its cyclophosphamide threatens fertility: the alkylating agent long used to induce remission causes ovarian failure and impaired spermatogenesis, prompting fertility preservation before treatment.
+- `connects-to` → **[Corticosteroids](../../../03-medicine/01-modern/02-respiratory/corticosteroids/README.md)** — Remission starts with steroids: high-dose glucocorticoids, with rituximab or cyclophosphamide, induce remission in ANCA-associated vasculitis, though their toxicity drives steroid-sparing strategies.
 
 [^yates-2022-anca-review]: Yates M, Watts RA, Bajema IM, et al. EULAR/ERA-EDTA recommendations for the management of ANCA-associated vasculitis. *Ann Rheum Dis.* 2016;75(9):1583-1594. [doi:10.1136/annrheumdis-2016-209133](https://doi.org/10.1136/annrheumdis-2016-209133) · [PubMed 27338776](https://pubmed.ncbi.nlm.nih.gov/27338776/)
 [^stone-2010-rituximab-gpa-rave]: Stone JH, Merkel PA, Spiera R, et al. Rituximab versus cyclophosphamide for ANCA-associated vasculitis. *N Engl J Med.* 2010;363(3):221-232. [doi:10.1056/NEJMoa0909905](https://doi.org/10.1056/NEJMoa0909905) · [PubMed 20647199](https://pubmed.ncbi.nlm.nih.gov/20647199/)

@@ -232,6 +232,15 @@ cross_links:
   - target: 01-human/07-system/reproductive-system
     relation: connects-to
     note: "Autonomic and sexual function are spared: ALS selectively attacks motor neurons, leaving sexual function and autonomic control largely intact, which shapes counselling and care."
+  - target: 02-pathogen/01-viruses/hiv-1
+    relation: connects-to
+    note: "A treatable mimic: HIV can cause a motor neuron syndrome resembling ALS that may improve with antiretroviral therapy, an important differential to exclude before diagnosis."
+  - target: 01-human/07-system/west-nile-virus
+    relation: connects-to
+    note: "A virus can destroy the same neurons: West Nile virus attacks anterior-horn motor neurons, causing a poliomyelitis-like acute flaccid paralysis that mimics rapidly progressive motor neuron disease."
+  - target: 02-pathogen/01-viruses/coxsackievirus-b
+    relation: connects-to
+    note: "Enteroviruses target motor neurons too: like poliovirus, Coxsackie and other enteroviruses can infect anterior-horn cells and cause acute flaccid paralysis, part of the infectious differential of motor neuron disease."
 ---
 
 # ALS
@@ -435,6 +444,9 @@ ALS diagnosis is **clinical** — no single definitive biomarker test (though Nf
 - `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — It curiously spares the skin: pressure ulcers are rare in ALS even with profound immobility, attributed to altered dermal collagen, though drooling causes troublesome perioral skin irritation.
 - `connects-to` → **[Renal System](../renal-system/README.md)** — Bladder control is usually preserved: ALS characteristically spares the sphincter motor neurons of Onuf's nucleus, so continence is maintained until late, a feature distinguishing it from other neurodegeneration.
 - `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — Autonomic and sexual function are spared: ALS selectively attacks motor neurons, leaving sexual function and autonomic control largely intact, which shapes counselling and care.
+- `connects-to` → **[HIV-1](../../../02-pathogen/01-viruses/hiv-1/README.md)** — A treatable mimic: HIV can cause a motor neuron syndrome resembling ALS that may improve with antiretroviral therapy, an important differential to exclude before diagnosis.
+- `connects-to` → **[West Nile virus](../west-nile-virus/README.md)** — A virus can destroy the same neurons: West Nile virus attacks anterior-horn motor neurons, causing a poliomyelitis-like acute flaccid paralysis that mimics rapidly progressive motor neuron disease.
+- `connects-to` → **[Coxsackievirus B](../../../02-pathogen/01-viruses/coxsackievirus-b/README.md)** — Enteroviruses target motor neurons too: like poliovirus, Coxsackie and other enteroviruses can infect anterior-horn cells and cause acute flaccid paralysis, part of the infectious differential of motor neuron disease.
 - `connects-to` → **[Generalized Anxiety Disorder](../generalized-anxiety-disorder/README.md)** — Watching the body fail breeds dread: the relentless progression of paralysis and the fear of suffocation give ALS a heavy burden of anxiety alongside its depression.
 - `connects-to` → **[Chronic Kidney Disease](../ckd/README.md)** — Swallowing failure dries out the kidneys: dysphagia limits fluid intake while immobility and recurrent illness add prerenal stress, so chronic dehydration can erode renal function in advanced ALS.
 - `connects-to` → **[Streptococcus pneumoniae](../../../02-pathogen/02-bacteria/streptococcus-pneumoniae/README.md)** — Failing swallow and cough flood the lungs: bulbar and respiratory muscle weakness in ALS causes aspiration and an ineffective cough, and the resulting pneumonia — often pneumococcal — is the leading cause of death.
