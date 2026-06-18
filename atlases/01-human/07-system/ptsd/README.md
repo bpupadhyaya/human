@@ -216,6 +216,15 @@ cross_links:
   - target: 01-human/07-system/obsessive-compulsive-disorder
     relation: connects-to
     note: "Two anxiety-spectrum disorders intertwine: PTSD and OCD frequently coexist, with trauma sometimes precipitating obsessive-compulsive symptoms and the intrusive thoughts of each reinforcing the other."
+  - target: 01-human/07-system/endocrine-system
+    relation: connects-to
+    note: "It carries a distinctive hormone signature: PTSD is marked by low basal cortisol with enhanced glucocorticoid negative feedback — dexamethasone hypersuppression — unlike most chronic-stress states."
+  - target: 01-human/07-system/respiratory-system
+    relation: connects-to
+    note: "Fear seizes the breath: flashbacks and panic in PTSD trigger hyperventilation and breathlessness, and the disorder is associated with higher rates of asthma and respiratory symptoms."
+  - target: 01-human/07-system/musculoskeletal-system
+    relation: connects-to
+    note: "Constant hyperarousal tenses the body: the sustained muscle tension of PTSD's hypervigilance contributes to chronic neck, back and widespread musculoskeletal pain."
 ---
 
 # PTSD
@@ -417,6 +426,9 @@ Not all trauma leads to PTSD. Risk and resilience factors include:
 - `connects-to` → **[Digestive System](../digestive-system/README.md)** — Trauma is felt in the gut: PTSD strongly co-occurs with irritable bowel syndrome and functional GI disorders, with the dysregulated gut-brain axis and autonomic arousal driving abdominal pain and altered bowel habit.
 - `connects-to` → **[Schizophrenia](../schizophrenia/README.md)** — Trauma can tip into psychosis: severe and childhood trauma is a recognised risk factor for schizophrenia, and PTSD with psychotic features overlaps with it, the two frequently co-occurring.
 - `connects-to` → **[Obsessive-Compulsive Disorder](../obsessive-compulsive-disorder/README.md)** — Two anxiety-spectrum disorders intertwine: PTSD and OCD frequently coexist, with trauma sometimes precipitating obsessive-compulsive symptoms and the intrusive thoughts of each reinforcing the other.
+- `connects-to` → **[Endocrine System](../endocrine-system/README.md)** — It carries a distinctive hormone signature: PTSD is marked by low basal cortisol with enhanced glucocorticoid negative feedback — dexamethasone hypersuppression — unlike most chronic-stress states.
+- `connects-to` → **[Respiratory System](../respiratory-system/README.md)** — Fear seizes the breath: flashbacks and panic in PTSD trigger hyperventilation and breathlessness, and the disorder is associated with higher rates of asthma and respiratory symptoms.
+- `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — Constant hyperarousal tenses the body: the sustained muscle tension of PTSD's hypervigilance contributes to chronic neck, back and widespread musculoskeletal pain.
 
 [^yehuda-2015-ptsd-review]: Yehuda R, Hoge CW, McFarlane AC, et al. Post-traumatic stress disorder. *Nat Rev Dis Primers.* 2015;1:15057. [doi:10.1038/nrdp.2015.57](https://doi.org/10.1038/nrdp.2015.57) · [PubMed 27189040](https://pubmed.ncbi.nlm.nih.gov/27189040/)
 [^foa-2019-ptsd-treatments]: Foa EB, McLean CP. The efficacy of exposure therapy for anxiety and related disorders. *Annu Rev Clin Psychol.* 2016;12:1-28. [doi:10.1146/annurev-clinpsy-021815-093533](https://doi.org/10.1146/annurev-clinpsy-021815-093533) · [PubMed 26928206](https://pubmed.ncbi.nlm.nih.gov/26928206/)

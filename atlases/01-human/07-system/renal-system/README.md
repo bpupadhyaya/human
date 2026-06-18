@@ -217,6 +217,15 @@ cross_links:
   - target: 01-human/07-system/integumentary-system
     relation: connects-to
     note: "Failing kidneys are written on the skin: uraemia causes intractable pruritus and a sallow complexion, and advanced renal failure can produce calciphylaxis and, with gadolinium, nephrogenic systemic fibrosis."
+  - target: 01-human/07-system/musculoskeletal-system
+    relation: connects-to
+    note: "The kidney mineralises the skeleton: by regulating calcium, phosphate and active vitamin D, it keeps bone healthy, so renal failure causes renal osteodystrophy with weak, painful bones and fractures."
+  - target: 02-pathogen/02-bacteria/mycobacterium-tuberculosis
+    relation: connects-to
+    note: "Tuberculosis can seed the urinary tract: genitourinary TB causes sterile pyuria, ureteric strictures and renal scarring, a quiet cause of declining kidney function in endemic regions."
+  - target: 03-medicine/01-modern/12-anti-inflammatory/ibuprofen
+    relation: connects-to
+    note: "Common painkillers can injure it: NSAIDs like ibuprofen reduce renal blood flow and can cause acute kidney injury, acute interstitial nephritis and, with chronic use, analgesic nephropathy."
 taxonomy:
   uberon: "UBERON:0001008"
 ---
@@ -378,6 +387,9 @@ Natriuretic counterpoint:
 - **Connects to:** [Reproductive System](../reproductive-system/README.md) — they share the genitourinary tract: the urinary and reproductive systems develop together and run side by side, so prostatic obstruction, pelvic surgery and pregnancy all directly affect the kidneys and bladder.
 - **Connects to:** [Respiratory System](../respiratory-system/README.md) — lungs and kidneys jointly balance acid and can fail together: the kidney and lung co-regulate acid-base status, and pulmonary-renal syndromes like Goodpasture and ANCA vasculitis attack both at once.
 - **Connects to:** [Integumentary System](../integumentary-system/README.md) — failing kidneys are written on the skin: uraemia causes intractable pruritus and a sallow complexion, and advanced renal failure can produce calciphylaxis and, with gadolinium, nephrogenic systemic fibrosis.
+- **Connects to:** [Musculoskeletal System](../musculoskeletal-system/README.md) — the kidney mineralises the skeleton: by regulating calcium, phosphate and active vitamin D, it keeps bone healthy, so renal failure causes renal osteodystrophy with weak, painful bones and fractures.
+- **Connects to:** [Mycobacterium tuberculosis](../../../02-pathogen/02-bacteria/mycobacterium-tuberculosis/README.md) — tuberculosis can seed the urinary tract: genitourinary TB causes sterile pyuria, ureteric strictures and renal scarring, a quiet cause of declining kidney function in endemic regions.
+- **Connects to:** [Ibuprofen](../../../03-medicine/01-modern/12-anti-inflammatory/ibuprofen/README.md) — common painkillers can injure it: NSAIDs like ibuprofen reduce renal blood flow and can cause acute kidney injury, acute interstitial nephritis and, with chronic use, analgesic nephropathy.
 - **Treated by:** ACE inhibitors — renoprotection in CKD.
 - **Treated by:** Loop diuretics — fluid management.
 
