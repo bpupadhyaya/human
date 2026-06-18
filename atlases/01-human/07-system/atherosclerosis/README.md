@@ -229,6 +229,15 @@ cross_links:
   - target: 01-human/07-system/endocrine-system
     relation: connects-to
     note: "It is the vascular endpoint of metabolic disease: diabetes, dyslipidaemia and the metabolic syndrome accelerate plaque formation, tying atherosclerosis tightly to endocrine dysfunction."
+  - target: 03-medicine/01-modern/04-cardio/statins
+    relation: connects-to
+    note: "The defining therapy: statins lower LDL and stabilise plaque, the cornerstone of preventing the heart attacks and strokes that atherosclerosis causes."
+  - target: 01-human/07-system/lymphatic-system
+    relation: connects-to
+    note: "The artery wall has its own drainage: lymphatic vessels clear cholesterol from the arterial wall in reverse cholesterol transport, and impaired lymphatic function promotes plaque growth."
+  - target: 01-human/07-system/respiratory-system
+    relation: connects-to
+    note: "It shares its biggest cause with lung disease: smoking drives both atherosclerosis and COPD, and the hypoxia of chronic lung disease and sleep apnoea further accelerates arterial plaque."
 ---
 
 # Atherosclerosis
@@ -413,6 +422,9 @@ The process begins in childhood with **fatty streaks** and progresses silently o
 - `connects-to` → **[Immune System](../immune-system/README.md)** — It is fundamentally an inflammatory disease: macrophage foam cells, the NLRP3 inflammasome and IL-1β drive plaque growth and rupture, now targeted by anti-inflammatory colchicine and canakinumab.
 - `connects-to` → **[Nervous System](../nervous-system/README.md)** — It hardens the arteries to the brain: carotid and intracranial atherosclerosis cause transient ischaemic attacks and contribute to vascular cognitive impairment beyond overt stroke.
 - `connects-to` → **[Endocrine System](../endocrine-system/README.md)** — It is the vascular endpoint of metabolic disease: diabetes, dyslipidaemia and the metabolic syndrome accelerate plaque formation, tying atherosclerosis tightly to endocrine dysfunction.
+- `connects-to` → **[Statins](../../../03-medicine/01-modern/04-cardio/statins/README.md)** — The defining therapy: statins lower LDL and stabilise plaque, the cornerstone of preventing the heart attacks and strokes that atherosclerosis causes.
+- `connects-to` → **[Lymphatic System](../lymphatic-system/README.md)** — The artery wall has its own drainage: lymphatic vessels clear cholesterol from the arterial wall in reverse cholesterol transport, and impaired lymphatic function promotes plaque growth.
+- `connects-to` → **[Respiratory System](../respiratory-system/README.md)** — It shares its biggest cause with lung disease: smoking drives both atherosclerosis and COPD, and the hypoxia of chronic lung disease and sleep apnoea further accelerates arterial plaque.
 
 ---
 

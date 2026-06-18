@@ -223,6 +223,15 @@ cross_links:
   - target: 01-human/07-system/digestive-system
     relation: connects-to
     note: "It bleeds into and loads the gut: thrombocytopenia causes gastrointestinal bleeding, and years of red-cell transfusion deposit iron in the liver, causing iron-overload injury."
+  - target: 01-human/07-system/cardiovascular-system
+    relation: connects-to
+    note: "Profound anaemia strains the heart: chronic pancytopenia forces a high-output state, and transfusional iron overload can damage the myocardium over years of transfusion support."
+  - target: 01-human/07-system/lymphatic-system
+    relation: connects-to
+    note: "An autoimmune attack from the lymphoid system: in most cases cytotoxic T cells destroy haematopoietic stem cells, and a thymoma can drive the related pure red cell aplasia."
+  - target: 01-human/07-system/renal-system
+    relation: connects-to
+    note: "Treatment and overlap reach the kidney: the ciclosporin used to suppress the immune attack is nephrotoxic, and aplastic anaemia overlaps PNH, whose haemolysis injures the kidney."
 ---
 
 # Aplastic Anemia
@@ -404,6 +413,9 @@ In >80% of acquired AA cases, the disease is **immune-mediated**: autoreactive *
 - `connects-to` → **[Nervous System](../nervous-system/README.md)** — Its lowest platelets threaten the brain: severe thrombocytopenia in aplastic anemia risks intracranial haemorrhage, a leading cause of death, on top of the fatigue of profound anaemia.
 - `connects-to` → **[Respiratory System](../respiratory-system/README.md)** — Empty marrow leaves the lungs undefended: neutropenia invites bacterial and invasive fungal pneumonia, while thrombocytopenia can cause alveolar haemorrhage.
 - `connects-to` → **[Digestive System](../digestive-system/README.md)** — It bleeds into and loads the gut: thrombocytopenia causes gastrointestinal bleeding, and years of red-cell transfusion deposit iron in the liver, causing iron-overload injury.
+- `connects-to` → **[Cardiovascular System](../cardiovascular-system/README.md)** — Profound anaemia strains the heart: chronic pancytopenia forces a high-output state, and transfusional iron overload can damage the myocardium over years of transfusion support.
+- `connects-to` → **[Lymphatic System](../lymphatic-system/README.md)** — An autoimmune attack from the lymphoid system: in most cases cytotoxic T cells destroy haematopoietic stem cells, and a thymoma can drive the related pure red cell aplasia.
+- `connects-to` → **[Renal System](../renal-system/README.md)** — Treatment and overlap reach the kidney: the ciclosporin used to suppress the immune attack is nephrotoxic, and aplastic anaemia overlaps PNH, whose haemolysis injures the kidney.
 
 ---
 
