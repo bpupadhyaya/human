@@ -198,6 +198,15 @@ cross_links:
   - target: 01-human/07-system/musculoskeletal-system
     relation: connects-to
     note: "Excess weight overloads the joints: the obesity that accompanies binge eating disorder mechanically overloads weight-bearing joints toward osteoarthritis and chronic back and knee pain."
+  - target: 01-human/07-system/respiratory-system
+    relation: connects-to
+    note: "Its weight gain burdens breathing: the obesity accompanying binge eating disorder drives obstructive sleep apnoea and can cause obesity hypoventilation, fragmenting sleep and straining the heart."
+  - target: 01-human/07-system/integumentary-system
+    relation: connects-to
+    note: "Its weight shows on the skin: acanthosis nigricans signalling insulin resistance, along with skin-fold intertrigo and striae, accompany the obesity of binge eating disorder."
+  - target: 01-human/07-system/immune-system
+    relation: connects-to
+    note: "Excess fat smoulders with inflammation: the adipose tissue that accumulates in binge eating disorder secretes inflammatory cytokines, a low-grade meta-inflammation linking it to metabolic disease."
 sources:
   - id: american-psychiatric-2013-bed-dsm5
     type: clinical-guideline
@@ -419,6 +428,9 @@ BED is among the most psychiatrically comorbid of all eating disorders:
 - `connects-to` → **[Digestive System](../digestive-system/README.md)** — Bingeing overwhelms the gut: large rapid food intake causes reflux, bloating and gallstones, and in rare extreme binges acute gastric dilatation that can threaten rupture.
 - `connects-to` → **[Endocrine System](../endocrine-system/README.md)** — It drives insulin resistance and PCOS: the weight gain and dysregulated eating of binge eating disorder promote the insulin resistance, metabolic syndrome and polycystic ovary syndrome of endocrine dysfunction.
 - `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — Excess weight overloads the joints: the obesity that accompanies binge eating disorder mechanically overloads weight-bearing joints toward osteoarthritis and chronic back and knee pain.
+- `connects-to` → **[Respiratory System](../respiratory-system/README.md)** — Its weight gain burdens breathing: the obesity accompanying binge eating disorder drives obstructive sleep apnoea and can cause obesity hypoventilation, fragmenting sleep and straining the heart.
+- `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — Its weight shows on the skin: acanthosis nigricans signalling insulin resistance, along with skin-fold intertrigo and striae, accompany the obesity of binge eating disorder.
+- `connects-to` → **[Immune System](../immune-system/README.md)** — Excess fat smoulders with inflammation: the adipose tissue that accumulates in binge eating disorder secretes inflammatory cytokines, a low-grade meta-inflammation linking it to metabolic disease.
 
 [^american-psychiatric-2013-bed-dsm5]: American Psychiatric Association. Binge Eating Disorder (307.51). In: *Diagnostic and Statistical Manual of Mental Disorders, 5th ed.* Arlington, VA: APA; 2013. [doi:10.1176/appi.books.9780890425596](https://doi.org/10.1176/appi.books.9780890425596)
 [^mccallum-2003-bed-review]: McCallum K, Bruton AM. Binge eating disorder: eating disorder or somatic syndrome? *Prim Care Companion J Clin Psychiatry.* 2003;5(Suppl 4):20-25. [PubMed 15213784](https://pubmed.ncbi.nlm.nih.gov/15213784/)

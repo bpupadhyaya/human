@@ -220,6 +220,15 @@ cross_links:
   - target: 01-human/07-system/panic-disorder
     relation: connects-to
     note: "Anxiety rides alongside the mood swings: panic disorder is highly comorbid with bipolar disorder, worsening its course and complicating treatment, as antidepressants risk destabilising mood."
+  - target: 01-human/07-system/renal-system
+    relation: connects-to
+    note: "Its mood stabiliser can damage the kidney: long-term lithium causes nephrogenic diabetes insipidus and a chronic interstitial nephritis that can slowly progress to chronic kidney disease, requiring regular monitoring."
+  - target: 01-human/07-system/integumentary-system
+    relation: connects-to
+    note: "Its drugs reach the skin: lamotrigine can trigger Stevens-Johnson syndrome and toxic epidermal necrolysis, while lithium can aggravate psoriasis and acne."
+  - target: 01-human/07-system/immune-system
+    relation: connects-to
+    note: "Inflammation tracks its episodes: bipolar disorder is associated with raised inflammatory markers during mood episodes, supporting a neuroinflammatory component to its biology."
 ---
 
 # Bipolar Disorder
@@ -417,6 +426,9 @@ During bipolar depression (often longer and more disabling than mania):
 - `connects-to` → **[Endocrine System](../endocrine-system/README.md)** — Its mainstay drug disturbs the glands: lithium commonly causes hypothyroidism and hyperparathyroidism, and thyroid dysfunction itself precipitates mood episodes, tightly linking bipolar disorder to the endocrine system.
 - `connects-to` → **[Digestive System](../digestive-system/README.md)** — Its mood stabilisers can injure the gut and liver: valproate causes hepatotoxicity and pancreatitis, and lithium and other agents bring nausea and diarrhoea that complicate long-term treatment.
 - `connects-to` → **[Panic Disorder](../panic-disorder/README.md)** — Anxiety rides alongside the mood swings: panic disorder is highly comorbid with bipolar disorder, worsening its course and complicating treatment, as antidepressants risk destabilising mood.
+- `connects-to` → **[Renal System](../renal-system/README.md)** — Its mood stabiliser can damage the kidney: long-term lithium causes nephrogenic diabetes insipidus and a chronic interstitial nephritis that can slowly progress to chronic kidney disease, requiring regular monitoring.
+- `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — Its drugs reach the skin: lamotrigine can trigger Stevens-Johnson syndrome and toxic epidermal necrolysis, while lithium can aggravate psoriasis and acne.
+- `connects-to` → **[Immune System](../immune-system/README.md)** — Inflammation tracks its episodes: bipolar disorder is associated with raised inflammatory markers during mood episodes, supporting a neuroinflammatory component to its biology.
 
 [^grande-2016-bipolar-review]: Grande I, Berk M, Birmaher B, Vieta E. Bipolar disorder. *Lancet.* 2016;387(10027):1561-1572. [doi:10.1016/S0140-6736(15)00241-X](https://doi.org/10.1016/S0140-6736(15)00241-X) · [PubMed 26388529](https://pubmed.ncbi.nlm.nih.gov/26388529/)
 [^geddes-2013-bipolar-treatment]: Geddes JR, Miklowitz DJ. Treatment of bipolar disorder. *Lancet.* 2013;381(9878):1672-1682. [doi:10.1016/S0140-6736(13)60857-0](https://doi.org/10.1016/S0140-6736(13)60857-0) · [PubMed 23663953](https://pubmed.ncbi.nlm.nih.gov/23663953/)
