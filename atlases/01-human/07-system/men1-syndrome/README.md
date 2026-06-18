@@ -214,6 +214,15 @@ cross_links:
   - target: 01-human/07-system/musculoskeletal-system
     relation: connects-to
     note: "Parathyroid excess dissolves bone: the chronic hyperparathyroidism of MEN1 drives osteoclastic bone resorption toward osteitis fibrosa and fragility, beyond the osteoporosis it causes."
+  - target: 01-human/07-system/respiratory-system
+    relation: connects-to
+    note: "It seeds neuroendocrine tumours in the lungs: bronchial carcinoid tumours are part of MEN1, adding to its gastroenteropancreatic and thymic neuroendocrine neoplasms."
+  - target: 01-human/07-system/cardiovascular-system
+    relation: connects-to
+    note: "Its high calcium unsettles the heart: chronic hypercalcaemia from hyperparathyroidism shortens the QT interval and can cause arrhythmias and hypertension."
+  - target: 01-human/07-system/lymphatic-system
+    relation: connects-to
+    note: "It grows aggressive tumours in the thymus: thymic carcinoid tumours, arising in this lymphoid organ, are a leading cause of death in MEN1, especially in men."
 ---
 
 # MEN1 Syndrome
@@ -399,6 +408,9 @@ Menin haploinsufficiency (one functional allele) creates susceptibility: cells a
 - `connects-to` → **[Renal System](../renal-system/README.md)** — Its hyperparathyroidism stones the kidneys: primary hyperparathyroidism, the commonest MEN1 feature, raises calcium and causes recurrent kidney stones and nephrocalcinosis that threaten renal function.
 - `connects-to` → **[Nervous System](../nervous-system/README.md)** — Its pituitary tumours press on the brain: MEN1 pituitary adenomas can grow to compress the optic chiasm and cavernous sinus, causing visual-field loss, headache and cranial-nerve palsies.
 - `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — Parathyroid excess dissolves bone: the chronic hyperparathyroidism of MEN1 drives osteoclastic bone resorption toward osteitis fibrosa and fragility, beyond the osteoporosis it causes.
+- `connects-to` → **[Respiratory System](../respiratory-system/README.md)** — It seeds neuroendocrine tumours in the lungs: bronchial carcinoid tumours are part of MEN1, adding to its gastroenteropancreatic and thymic neuroendocrine neoplasms.
+- `connects-to` → **[Cardiovascular System](../cardiovascular-system/README.md)** — Its high calcium unsettles the heart: chronic hypercalcaemia from hyperparathyroidism shortens the QT interval and can cause arrhythmias and hypertension.
+- `connects-to` → **[Lymphatic System](../lymphatic-system/README.md)** — It grows aggressive tumours in the thymus: thymic carcinoid tumours, arising in this lymphoid organ, are a leading cause of death in MEN1, especially in men.
 
 ---
 
