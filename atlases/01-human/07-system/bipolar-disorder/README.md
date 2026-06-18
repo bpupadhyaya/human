@@ -211,6 +211,15 @@ cross_links:
   - target: 01-human/07-system/fibromyalgia
     relation: connects-to
     note: "Mood instability and chronic pain overlap: bipolar disorder is markedly comorbid with fibromyalgia, sharing disturbances in sleep, stress reactivity and central pain and monoamine signaling."
+  - target: 01-human/07-system/endocrine-system
+    relation: connects-to
+    note: "Its mainstay drug disturbs the glands: lithium commonly causes hypothyroidism and hyperparathyroidism, and thyroid dysfunction itself precipitates mood episodes, tightly linking bipolar disorder to the endocrine system."
+  - target: 01-human/07-system/digestive-system
+    relation: connects-to
+    note: "Its mood stabilisers can injure the gut and liver: valproate causes hepatotoxicity and pancreatitis, and lithium and other agents bring nausea and diarrhoea that complicate long-term treatment."
+  - target: 01-human/07-system/panic-disorder
+    relation: connects-to
+    note: "Anxiety rides alongside the mood swings: panic disorder is highly comorbid with bipolar disorder, worsening its course and complicating treatment, as antidepressants risk destabilising mood."
 ---
 
 # Bipolar Disorder
@@ -405,6 +414,9 @@ During bipolar depression (often longer and more disabling than mania):
 - `connects-to` → **[Psoriasis](../psoriasis/README.md)** — Its mood stabilizer can flare the skin: lithium, a cornerstone of bipolar treatment, characteristically triggers or worsens psoriasis, sometimes forcing a change of therapy.
 - `connects-to` → **[COPD](../copd/README.md)** — Heavy smoking scars the lungs: very high smoking rates in bipolar disorder drive chronic obstructive pulmonary disease, a major contributor to the reduced life expectancy in this population.
 - `connects-to` → **[Fibromyalgia](../fibromyalgia/README.md)** — Mood instability and chronic pain overlap: bipolar disorder is markedly comorbid with fibromyalgia, sharing disturbances in sleep, stress reactivity and central pain and monoamine signaling.
+- `connects-to` → **[Endocrine System](../endocrine-system/README.md)** — Its mainstay drug disturbs the glands: lithium commonly causes hypothyroidism and hyperparathyroidism, and thyroid dysfunction itself precipitates mood episodes, tightly linking bipolar disorder to the endocrine system.
+- `connects-to` → **[Digestive System](../digestive-system/README.md)** — Its mood stabilisers can injure the gut and liver: valproate causes hepatotoxicity and pancreatitis, and lithium and other agents bring nausea and diarrhoea that complicate long-term treatment.
+- `connects-to` → **[Panic Disorder](../panic-disorder/README.md)** — Anxiety rides alongside the mood swings: panic disorder is highly comorbid with bipolar disorder, worsening its course and complicating treatment, as antidepressants risk destabilising mood.
 
 [^grande-2016-bipolar-review]: Grande I, Berk M, Birmaher B, Vieta E. Bipolar disorder. *Lancet.* 2016;387(10027):1561-1572. [doi:10.1016/S0140-6736(15)00241-X](https://doi.org/10.1016/S0140-6736(15)00241-X) · [PubMed 26388529](https://pubmed.ncbi.nlm.nih.gov/26388529/)
 [^geddes-2013-bipolar-treatment]: Geddes JR, Miklowitz DJ. Treatment of bipolar disorder. *Lancet.* 2013;381(9878):1672-1682. [doi:10.1016/S0140-6736(13)60857-0](https://doi.org/10.1016/S0140-6736(13)60857-0) · [PubMed 23663953](https://pubmed.ncbi.nlm.nih.gov/23663953/)
