@@ -238,6 +238,15 @@ cross_links:
   - target: 01-human/07-system/cholangiocarcinoma
     relation: connects-to
     note: "Cholestatic itch can underlie it: bile-duct obstruction from cholangiocarcinoma causes intense cholestatic pruritus, and the relentless scratching it provokes can produce prurigo nodularis."
+  - target: 03-medicine/01-modern/13-cancer/targeted-therapy
+    relation: connects-to
+    note: "Type-2 and itch cytokines are the targets: dupilumab against IL-4Rα and nemolizumab against the IL-31 receptor — the 'itch cytokine' — are the first approved biologics for prurigo nodularis, with JAK inhibitors close behind."
+  - target: 03-medicine/01-modern/13-cancer/cancer-chemotherapy
+    relation: connects-to
+    note: "It can be a paraneoplastic clue: severe new prurigo nodularis can herald an underlying lymphoma or solid cancer, where treating the malignancy with chemotherapy resolves the otherwise refractory itch."
+  - target: 01-human/07-system/dermatomyositis
+    relation: connects-to
+    note: "Another intensely itchy dermatosis: like prurigo nodularis, dermatomyositis causes severe pruritus and can be paraneoplastic, both reminding clinicians that relentless itch may signal systemic or malignant disease."
 ---
 
 # Prurigo Nodularis
@@ -394,6 +403,9 @@ PN affects approximately **72,000 patients** in the US; true prevalence is likel
 - `connects-to` → **[Renal System](../renal-system/README.md)** — Kidney failure drives the itch: chronic kidney disease causes uraemic pruritus that can evolve into prurigo nodularis, one of the strongest systemic associations of the condition.
 - `connects-to` → **[Corticosteroids](../../../03-medicine/01-modern/02-respiratory/corticosteroids/README.md)** — First-line calms the nodule: potent topical and intralesional corticosteroids reduce the inflammation and itch of prurigo nodularis, used before stepping up to biologics like dupilumab.
 - `connects-to` → **[Cholangiocarcinoma](../cholangiocarcinoma/README.md)** — Cholestatic itch can underlie it: bile-duct obstruction from cholangiocarcinoma causes intense cholestatic pruritus, and the relentless scratching it provokes can produce prurigo nodularis.
+- `connects-to` → **[Targeted Therapy](../../../03-medicine/01-modern/13-cancer/targeted-therapy/README.md)** — Type-2 and itch cytokines are the targets: dupilumab against IL-4Rα and nemolizumab against the IL-31 receptor — the 'itch cytokine' — are the first approved biologics for prurigo nodularis, with JAK inhibitors close behind.
+- `connects-to` → **[Cancer Chemotherapy](../../../03-medicine/01-modern/13-cancer/cancer-chemotherapy/README.md)** — It can be a paraneoplastic clue: severe new prurigo nodularis can herald an underlying lymphoma or solid cancer, where treating the malignancy with chemotherapy resolves the otherwise refractory itch.
+- `connects-to` → **[Dermatomyositis](../dermatomyositis/README.md)** — Another intensely itchy dermatosis: like prurigo nodularis, dermatomyositis causes severe pruritus and can be paraneoplastic, both reminding clinicians that relentless itch may signal systemic or malignant disease.
 
 [^stander-2020-nemolizumab-pn]: Ständer S, Yosipovitch G, Legat FJ, et al. Trial of nemolizumab in moderate-to-severe prurigo nodularis. *N Engl J Med.* 2020;382(8):706-716. [doi:10.1056/NEJMoa1908316](https://doi.org/10.1056/NEJMoa1908316) · [PubMed 32053299](https://pubmed.ncbi.nlm.nih.gov/32053299/)
 [^briggs-2022-dupilumab-pn-liberty]: Briggs JN, Cho YY, Khanna R, et al. Dupilumab for prurigo nodularis: the LIBERTY-PN PRIME and PRIME2 trials. *N Engl J Med.* 2022;387(18):1683-1693. [doi:10.1056/NEJMoa2205093](https://doi.org/10.1056/NEJMoa2205093) · [PubMed 36300905](https://pubmed.ncbi.nlm.nih.gov/36300905/)

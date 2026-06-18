@@ -244,6 +244,15 @@ cross_links:
   - target: 02-pathogen/01-viruses/hiv-1
     relation: connects-to
     note: "The virus and its drugs weaken bone: HIV infection and antiretroviral therapy, tenofovir in particular, accelerate bone loss, giving people with HIV markedly higher rates of osteoporosis and fracture."
+  - target: 03-medicine/01-modern/13-cancer/targeted-therapy
+    relation: connects-to
+    note: "Monoclonal antibodies rebuild bone: denosumab blocks RANKL to halt bone resorption and romosozumab blocks sclerostin to drive bone formation — antibody therapies targeting the exact pathways that govern osteoporosis."
+  - target: 01-human/05-tissue/cortical-bone
+    relation: connects-to
+    note: "It thins the bone itself: osteoporosis erodes cortical and trabecular bone as resorption outpaces formation, lowering bone density and strength until the hip, wrist and vertebrae fracture under minimal load."
+  - target: 03-medicine/01-modern/13-cancer/cancer-chemotherapy
+    relation: connects-to
+    note: "Cancer treatment strips bone: aromatase inhibitors, androgen-deprivation therapy and cytotoxic chemotherapy cause accelerated cancer-treatment-induced bone loss, making osteoporosis monitoring routine in cancer survivors."
 ---
 
 # Osteoporosis
@@ -427,6 +436,9 @@ All newly diagnosed osteoporosis should be evaluated for secondary causes: CBC (
 - `connects-to` → **[Corticosteroids](../../../03-medicine/01-modern/02-respiratory/corticosteroids/README.md)** — The commonest drug-induced cause: long-term corticosteroids suppress bone formation and raise resorption, making glucocorticoid-induced osteoporosis the leading secondary cause of fragility fractures.
 - `connects-to` → **[Ankylosing Spondylitis](../ankylosing-spondylitis/README.md)** — Inflammation paradoxically thins bone: despite the new bone that fuses the spine, ankylosing spondylitis causes systemic osteoporosis and a high vertebral-fracture risk through chronic inflammatory cytokines.
 - `connects-to` → **[HIV-1](../../../02-pathogen/01-viruses/hiv-1/README.md)** — The virus and its drugs weaken bone: HIV infection and antiretroviral therapy, tenofovir in particular, accelerate bone loss, giving people with HIV markedly higher rates of osteoporosis and fracture.
+- `connects-to` → **[Targeted Therapy](../../../03-medicine/01-modern/13-cancer/targeted-therapy/README.md)** — Monoclonal antibodies rebuild bone: denosumab blocks RANKL to halt bone resorption and romosozumab blocks sclerostin to drive bone formation — antibody therapies targeting the exact pathways that govern osteoporosis.
+- `connects-to` → **[Cortical Bone](../../05-tissue/cortical-bone/README.md)** — It thins the bone itself: osteoporosis erodes cortical and trabecular bone as resorption outpaces formation, lowering bone density and strength until the hip, wrist and vertebrae fracture under minimal load.
+- `connects-to` → **[Cancer Chemotherapy](../../../03-medicine/01-modern/13-cancer/cancer-chemotherapy/README.md)** — Cancer treatment strips bone: aromatase inhibitors, androgen-deprivation therapy and cytotoxic chemotherapy cause accelerated cancer-treatment-induced bone loss, making osteoporosis monitoring routine in cancer survivors.
 
 [^kanis-2019-who-osteoporosis]: Kanis JA, Cooper C, Rizzoli R, Reginster JY. European guidance for the diagnosis and management of osteoporosis in postmenopausal women. *Osteoporos Int.* 2019;30(1):3-44. [doi:10.1007/s00198-018-4704-5](https://doi.org/10.1007/s00198-018-4704-5) · [PubMed 30324412](https://pubmed.ncbi.nlm.nih.gov/30324412/)
 [^cosman-2016-romosozumab]: Cosman F, Crittenden DB, Adachi JD, et al. Romosozumab treatment in postmenopausal women with osteoporosis. *N Engl J Med.* 2016;375(16):1532-1543. [doi:10.1056/NEJMoa1607948](https://doi.org/10.1056/NEJMoa1607948) · [PubMed 27641143](https://pubmed.ncbi.nlm.nih.gov/27641143/)
