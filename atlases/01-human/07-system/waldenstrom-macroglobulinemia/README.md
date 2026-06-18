@@ -208,6 +208,15 @@ cross_links:
   - target: 01-human/07-system/generalized-anxiety-disorder
     relation: connects-to
     note: "A chronic, relapsing, incurable lymphoma breeds worry: the indolent-but-watchful course, hyperviscosity scares and lifelong monitoring of Waldenström foster chronic health anxiety alongside depression."
+  - target: 01-human/07-system/immune-system
+    relation: connects-to
+    note: "It is a clonal antibody-making disease: lymphoplasmacytic cells secrete monoclonal IgM and suppress normal immunoglobulins, so Waldenström causes immunoparesis with infections alongside cryoglobulinaemia and cold agglutinin disease."
+  - target: 01-human/07-system/digestive-system
+    relation: connects-to
+    note: "It can deposit in the gut: IgM and amyloid deposition in the bowel wall cause malabsorption and diarrhoea, and the disease commonly enlarges the liver and spleen."
+  - target: 01-human/07-system/musculoskeletal-system
+    relation: connects-to
+    note: "It fills the marrow but spares the bones: Waldenström infiltrates the bone marrow with lymphoplasmacytic cells causing cytopenias, yet characteristically lacks the lytic bone lesions of multiple myeloma."
 ---
 
 # Waldenström Macroglobulinemia
@@ -389,6 +398,9 @@ For symptomatic hyperviscosity → removes IgM immediately; does not treat under
 - `connects-to` → **[Varicella-Zoster Virus](../../../02-pathogen/01-viruses/varicella-zoster-virus/README.md)** — Its B-cell-targeted therapy reawakens shingles: rituximab and the BTK inhibitors used for Waldenström deplete B-cell and antiviral immunity, allowing latent varicella-zoster to reactivate.
 - `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — Its abnormal IgM shows on the skin: Waldenström's monoclonal IgM can act as a cryoglobulin causing cold-induced purpura and acrocyanosis, and rarely deposits in the skin as IgM storm papules.
 - `connects-to` → **[Generalized Anxiety Disorder](../generalized-anxiety-disorder/README.md)** — A chronic, relapsing, incurable lymphoma breeds worry: the indolent-but-watchful course, hyperviscosity scares and lifelong monitoring of Waldenström foster chronic health anxiety alongside depression.
+- `connects-to` → **[Immune System](../immune-system/README.md)** — It is a clonal antibody-making disease: lymphoplasmacytic cells secrete monoclonal IgM and suppress normal immunoglobulins, so Waldenström causes immunoparesis with infections alongside cryoglobulinaemia and cold agglutinin disease.
+- `connects-to` → **[Digestive System](../digestive-system/README.md)** — It can deposit in the gut: IgM and amyloid deposition in the bowel wall cause malabsorption and diarrhoea, and the disease commonly enlarges the liver and spleen.
+- `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — It fills the marrow but spares the bones: Waldenström infiltrates the bone marrow with lymphoplasmacytic cells causing cytopenias, yet characteristically lacks the lytic bone lesions of multiple myeloma.
 
 [^treon-2015-ibrutinib-wm]: Treon SP, Tripsas CK, Meid K, et al. Ibrutinib in previously treated Waldenström's macroglobulinemia. *N Engl J Med.* 2015;373(18):1765-1774. [doi:10.1056/NEJMoa1501548](https://doi.org/10.1056/NEJMoa1501548) · [PubMed 26352686](https://pubmed.ncbi.nlm.nih.gov/26352686/)
 [^tam-2020-aspen]: Tam CS, Opat S, D'Sa S, et al. A randomized phase 3 trial of zanubrutinib vs ibrutinib in symptomatic Waldenström macroglobulinemia: the ASPEN study. *Blood.* 2020;136(18):2038-2050. [doi:10.1182/blood.2020006844](https://doi.org/10.1182/blood.2020006844) · [PubMed 32828187](https://pubmed.ncbi.nlm.nih.gov/32828187/)

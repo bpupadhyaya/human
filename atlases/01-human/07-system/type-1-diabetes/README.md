@@ -214,6 +214,15 @@ cross_links:
   - target: 01-human/07-system/generalized-anxiety-disorder
     relation: connects-to
     note: "Relentless self-management and hypo-fear breed worry: the constant glucose monitoring, dosing decisions and dread of hypoglycaemia in type 1 diabetes generate diabetes distress and chronic anxiety."
+  - target: 01-human/07-system/nervous-system
+    relation: connects-to
+    note: "Glucose extremes endanger the brain: severe hypoglycaemia causes seizures and coma, diabetic ketoacidosis can cause cerebral oedema in children, and long-standing disease brings peripheral and autonomic neuropathy."
+  - target: 01-human/07-system/musculoskeletal-system
+    relation: connects-to
+    note: "It stiffens joints and breaks down the foot: type 1 diabetes causes diabetic cheiroarthropathy with limited joint mobility, frozen shoulder, and Charcot neuroarthropathy that destroys the foot's architecture."
+  - target: 01-human/07-system/cardiovascular-system
+    relation: connects-to
+    note: "Autonomic nerve damage misruns the heart: cardiac autonomic neuropathy in type 1 diabetes causes resting tachycardia, blunted heart-rate variability and silent myocardial ischaemia that masks heart attacks."
 ---
 
 # Type 1 Diabetes
@@ -375,6 +384,9 @@ cross_links:
 - `connects-to` → **[Digestive System](../digestive-system/README.md)** — Autoimmunity and neuropathy hit the gut: type 1 diabetes co-occurs with coeliac disease and autoimmune gastritis, and longstanding autonomic neuropathy causes gastroparesis with erratic glucose control.
 - `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — It marks the skin in characteristic ways: type 1 diabetes causes necrobiosis lipoidica, repeated-injection lipohypertrophy and diabetic dermopathy, and the autoimmune diathesis brings vitiligo.
 - `connects-to` → **[Generalized Anxiety Disorder](../generalized-anxiety-disorder/README.md)** — Relentless self-management and hypo-fear breed worry: the constant glucose monitoring, dosing decisions and dread of hypoglycaemia in type 1 diabetes generate diabetes distress and chronic anxiety.
+- `connects-to` → **[Nervous System](../nervous-system/README.md)** — Glucose extremes endanger the brain: severe hypoglycaemia causes seizures and coma, diabetic ketoacidosis can cause cerebral oedema in children, and long-standing disease brings peripheral and autonomic neuropathy.
+- `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — It stiffens joints and breaks down the foot: type 1 diabetes causes diabetic cheiroarthropathy with limited joint mobility, frozen shoulder, and Charcot neuroarthropathy that destroys the foot's architecture.
+- `connects-to` → **[Cardiovascular System](../cardiovascular-system/README.md)** — Autonomic nerve damage misruns the heart: cardiac autonomic neuropathy in type 1 diabetes causes resting tachycardia, blunted heart-rate variability and silent myocardial ischaemia that masks heart attacks.
 
 [^atkinson-2014-t1d-lancet]: Atkinson MA, Eisenbarth GS, Michels AW. Type 1 diabetes. *Lancet.* 2014;383(9911):69-82. [doi:10.1016/S0140-6736(13)60591-7](https://doi.org/10.1016/S0140-6736(13)60591-7) · [PubMed 23890997](https://pubmed.ncbi.nlm.nih.gov/23890997/)
 [^herold-2019-teplizumab-t1d]: Herold KC, Bundy BN, Long SA, et al. An anti-CD3 antibody, teplizumab, in relatives at risk for type 1 diabetes. *N Engl J Med.* 2019;381(7):603-613. [doi:10.1056/NEJMoa1905155](https://doi.org/10.1056/NEJMoa1905155) · [PubMed 31180675](https://pubmed.ncbi.nlm.nih.gov/31180675/)
