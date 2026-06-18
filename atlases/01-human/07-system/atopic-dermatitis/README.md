@@ -232,6 +232,15 @@ cross_links:
   - target: 02-pathogen/01-viruses/coxsackievirus-b
     relation: connects-to
     note: "A broken barrier invites viral spread: atopic skin is prone to eczema coxsackium, a widespread eruption when Coxsackie virus disseminates across the damaged skin, akin to eczema herpeticum."
+  - target: 03-medicine/03-food/omega-3-fatty-acids
+    relation: connects-to
+    note: "Diet draws prevention interest: omega-3 supplementation, especially in infancy, has been studied for preventing and easing atopic dermatitis, with modest and inconsistent evidence."
+  - target: 01-human/07-system/inflammatory-bowel-disease
+    relation: connects-to
+    note: "Shared immune dysregulation links them: atopic dermatitis and inflammatory bowel disease co-occur more than expected, sharing barrier and immune-pathway defects, and JAK inhibitors treat both."
+  - target: 01-human/07-system/atherosclerosis
+    relation: connects-to
+    note: "Chronic skin inflammation reaches the arteries: like psoriasis, severe atopic dermatitis is associated with higher cardiovascular and atherosclerotic risk through sustained systemic inflammation."
 ---
 
 # Atopic Dermatitis
@@ -426,6 +435,9 @@ S. aureus colonizes >90% of AD lesional skin (vs. 20% normal skin):
 - `connects-to` → **[Digestive System](../digestive-system/README.md)** — Part of the atopic march: atopic dermatitis predisposes to food allergy and eosinophilic oesophagitis, and an impaired gut barrier interacts with the same allergic immune drive.
 - `connects-to` → **[Corticosteroids](../../../03-medicine/01-modern/02-respiratory/corticosteroids/README.md)** — First-line calms the flare: topical corticosteroids are the mainstay of treatment, with short courses of systemic steroids reserved for severe disease despite their skin-thinning and rebound risks.
 - `connects-to` → **[Coxsackievirus B](../../../02-pathogen/01-viruses/coxsackievirus-b/README.md)** — A broken barrier invites viral spread: atopic skin is prone to eczema coxsackium, a widespread eruption when Coxsackie virus disseminates across the damaged skin, akin to eczema herpeticum.
+- `connects-to` → **[Omega-3 Fatty Acids](../../../03-medicine/03-food/omega-3-fatty-acids/README.md)** — Diet draws prevention interest: omega-3 supplementation, especially in infancy, has been studied for preventing and easing atopic dermatitis, with modest and inconsistent evidence.
+- `connects-to` → **[Inflammatory Bowel Disease](../inflammatory-bowel-disease/README.md)** — Shared immune dysregulation links them: atopic dermatitis and inflammatory bowel disease co-occur more than expected, sharing barrier and immune-pathway defects, and JAK inhibitors treat both.
+- `connects-to` → **[Atherosclerosis](../atherosclerosis/README.md)** — Chronic skin inflammation reaches the arteries: like psoriasis, severe atopic dermatitis is associated with higher cardiovascular and atherosclerotic risk through sustained systemic inflammation.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 

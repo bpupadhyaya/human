@@ -238,6 +238,15 @@ cross_links:
   - target: 01-human/07-system/respiratory-system
     relation: connects-to
     note: "It shares its biggest cause with lung disease: smoking drives both atherosclerosis and COPD, and the hypoxia of chronic lung disease and sleep apnoea further accelerates arterial plaque."
+  - target: 03-medicine/01-modern/04-cardio/ace-inhibitors
+    relation: connects-to
+    note: "They protect the vessel wall: ACE inhibitors lower blood pressure and improve endothelial function, slowing atherosclerosis and reducing cardiovascular events beyond their pressure effect."
+  - target: 02-pathogen/01-viruses/herpesvirus
+    relation: connects-to
+    note: "Infection may inflame the plaque: cytomegalovirus and other herpesviruses are found in atherosclerotic lesions and are proposed to add to the chronic inflammation that drives plaque growth."
+  - target: 03-medicine/03-food/omega-3-fatty-acids
+    relation: connects-to
+    note: "A fish-oil drug cuts events: high-dose icosapent ethyl (purified EPA) reduced cardiovascular events in high-risk patients, one diet-derived therapy with proven benefit in atherosclerosis."
 ---
 
 # Atherosclerosis
@@ -425,6 +434,9 @@ The process begins in childhood with **fatty streaks** and progresses silently o
 - `connects-to` → **[Statins](../../../03-medicine/01-modern/04-cardio/statins/README.md)** — The defining therapy: statins lower LDL and stabilise plaque, the cornerstone of preventing the heart attacks and strokes that atherosclerosis causes.
 - `connects-to` → **[Lymphatic System](../lymphatic-system/README.md)** — The artery wall has its own drainage: lymphatic vessels clear cholesterol from the arterial wall in reverse cholesterol transport, and impaired lymphatic function promotes plaque growth.
 - `connects-to` → **[Respiratory System](../respiratory-system/README.md)** — It shares its biggest cause with lung disease: smoking drives both atherosclerosis and COPD, and the hypoxia of chronic lung disease and sleep apnoea further accelerates arterial plaque.
+- `connects-to` → **[ACE Inhibitors](../../../03-medicine/01-modern/04-cardio/ace-inhibitors/README.md)** — They protect the vessel wall: ACE inhibitors lower blood pressure and improve endothelial function, slowing atherosclerosis and reducing cardiovascular events beyond their pressure effect.
+- `connects-to` → **[Herpesvirus](../../../02-pathogen/01-viruses/herpesvirus/README.md)** — Infection may inflame the plaque: cytomegalovirus and other herpesviruses are found in atherosclerotic lesions and are proposed to add to the chronic inflammation that drives plaque growth.
+- `connects-to` → **[Omega-3 Fatty Acids](../../../03-medicine/03-food/omega-3-fatty-acids/README.md)** — A fish-oil drug cuts events: high-dose icosapent ethyl (purified EPA) reduced cardiovascular events in high-risk patients, one diet-derived therapy with proven benefit in atherosclerosis.
 
 ---
 
