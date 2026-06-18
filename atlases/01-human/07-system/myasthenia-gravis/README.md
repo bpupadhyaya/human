@@ -208,6 +208,15 @@ cross_links:
   - target: 01-human/07-system/major-depressive-disorder
     relation: connects-to
     note: "Fluctuating weakness and steroids weigh on mood: the unpredictable muscle weakness, fear of crisis and corticosteroid mood effects of myasthenia gravis contribute to depression and impaired quality of life."
+  - target: 01-human/07-system/respiratory-system
+    relation: connects-to
+    note: "A crisis can paralyse breathing: weakness of the diaphragm and bulbar muscles in a myasthenic crisis causes neuromuscular respiratory failure, the most dangerous manifestation, requiring ventilation."
+  - target: 01-human/07-system/digestive-system
+    relation: connects-to
+    note: "Bulbar weakness disrupts swallowing: myasthenia gravis weakens the muscles of chewing and swallowing, causing dysphagia and aspiration, while pyridostigmine's cholinergic effect brings cramps and diarrhoea."
+  - target: 01-human/07-system/endocrine-system
+    relation: connects-to
+    note: "It clusters with autoimmune thyroid disease: myasthenia gravis frequently coexists with Graves' disease and Hashimoto's thyroiditis, and thyroid dysfunction can itself worsen the muscle weakness."
 ---
 
 # Myasthenia Gravis
@@ -382,6 +391,9 @@ cross_links:
 - `connects-to` → **[Aspergillus fumigatus](../../../02-pathogen/03-fungi/aspergillus-fumigatus/README.md)** — Its immunosuppression opens the lung to mold: the corticosteroids, azathioprine and rituximab used to control myasthenia gravis blunt immunity, occasionally permitting invasive pulmonary aspergillosis.
 - `connects-to` → **[Type 2 Diabetes](../type-2-diabetes/README.md)** — Its long steroid courses raise blood sugar: the prolonged high-dose corticosteroids used to suppress myasthenia gravis induce insulin resistance and frequently precipitate steroid-induced diabetes.
 - `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — Fluctuating weakness and steroids weigh on mood: the unpredictable muscle weakness, fear of crisis and corticosteroid mood effects of myasthenia gravis contribute to depression and impaired quality of life.
+- `connects-to` → **[Respiratory System](../respiratory-system/README.md)** — A crisis can paralyse breathing: weakness of the diaphragm and bulbar muscles in a myasthenic crisis causes neuromuscular respiratory failure, the most dangerous manifestation, requiring ventilation.
+- `connects-to` → **[Digestive System](../digestive-system/README.md)** — Bulbar weakness disrupts swallowing: myasthenia gravis weakens the muscles of chewing and swallowing, causing dysphagia and aspiration, while pyridostigmine's cholinergic effect brings cramps and diarrhoea.
+- `connects-to` → **[Endocrine System](../endocrine-system/README.md)** — It clusters with autoimmune thyroid disease: myasthenia gravis frequently coexists with Graves' disease and Hashimoto's thyroiditis, and thyroid dysfunction can itself worsen the muscle weakness.
 
 [^gilhus-2016-mg-review]: Gilhus NE. Myasthenia Gravis. *N Engl J Med.* 2016;375(26):2570-2581. [doi:10.1056/NEJMra1602678](https://doi.org/10.1056/NEJMra1602678) · [PubMed 28029925](https://pubmed.ncbi.nlm.nih.gov/28029925/)
 [^howard-2021-efgartigimod-adapt]: Howard JF Jr, Bril V, Vu T, et al. Safety, efficacy, and tolerability of efgartigimod in patients with generalised myasthenia gravis (ADAPT). *Lancet Neurol.* 2021;20(7):526-536. [doi:10.1016/S1474-4422(21)00159-9](https://doi.org/10.1016/S1474-4422(21)00159-9) · [PubMed 34146511](https://pubmed.ncbi.nlm.nih.gov/34146511/)

@@ -211,6 +211,15 @@ cross_links:
   - target: 01-human/07-system/pulmonary-arterial-hypertension
     relation: connects-to
     note: "Injected tablet fillers lodge in the lungs: injecting crushed oral opioids introduces talc and other particulates that embolize to the pulmonary vasculature, causing granulomatosis and pulmonary hypertension."
+  - target: 01-human/07-system/integumentary-system
+    relation: connects-to
+    note: "Injection wounds and infects the skin: injecting drugs causes abscesses, cellulitis, track marks and necrotising soft-tissue infections, with skin-popping leaving chronic ulcers and scarring."
+  - target: 01-human/07-system/endocrine-system
+    relation: connects-to
+    note: "Chronic opioids suppress the hormones: long-term opioid use causes opioid-induced androgen deficiency with hypogonadism and low libido, and can suppress the adrenal cortisol axis."
+  - target: 01-human/07-system/musculoskeletal-system
+    relation: connects-to
+    note: "Injection seeds bone and joint infection: bloodborne spread from injecting drugs causes vertebral osteomyelitis, discitis, epidural abscess and septic arthritis, serious deep musculoskeletal infections."
 ---
 
 # Opioid Use Disorder
@@ -430,6 +439,9 @@ The primary mechanism by which opioids produce euphoria:
 - `connects-to` → **[Wound Healing](../wound-healing/README.md)** — Injection breaks and infects the skin: non-sterile injection causes abscesses, cellulitis and necrotizing soft-tissue infections, leaving chronic wounds that heal poorly in often malnourished users.
 - `connects-to` → **[Heart Failure](../heart-failure/README.md)** — Injection seeds the heart valves: injection drug use causes infective endocarditis that destroys heart valves, and the resulting valvular regurgitation can drive heart failure.
 - `connects-to` → **[Pulmonary Arterial Hypertension](../pulmonary-arterial-hypertension/README.md)** — Injected tablet fillers lodge in the lungs: injecting crushed oral opioids introduces talc and other particulates that embolize to the pulmonary vasculature, causing granulomatosis and pulmonary hypertension.
+- `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — Injection wounds and infects the skin: injecting drugs causes abscesses, cellulitis, track marks and necrotising soft-tissue infections, with skin-popping leaving chronic ulcers and scarring.
+- `connects-to` → **[Endocrine System](../endocrine-system/README.md)** — Chronic opioids suppress the hormones: long-term opioid use causes opioid-induced androgen deficiency with hypogonadism and low libido, and can suppress the adrenal cortisol axis.
+- `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — Injection seeds bone and joint infection: bloodborne spread from injecting drugs causes vertebral osteomyelitis, discitis, epidural abscess and septic arthritis, serious deep musculoskeletal infections.
 
 [^volkow-2016-opioid-crisis]: Volkow ND, Collins FS. The role of science in addressing the opioid crisis. *N Engl J Med.* 2017;377(4):391-394. [doi:10.1056/NEJMsr1706626](https://doi.org/10.1056/NEJMsr1706626) · [PubMed 28723324](https://pubmed.ncbi.nlm.nih.gov/28723324/)
 [^mattick-2009-bupe-meta]: Mattick RP, Breen C, Kimber J, Davoli M. Buprenorphine maintenance versus placebo or methadone maintenance for opioid dependence. *Cochrane Database Syst Rev.* 2014;2:CD002207. [doi:10.1002/14651858.CD002207.pub4](https://doi.org/10.1002/14651858.CD002207.pub4) · [PubMed 24500948](https://pubmed.ncbi.nlm.nih.gov/24500948/)
