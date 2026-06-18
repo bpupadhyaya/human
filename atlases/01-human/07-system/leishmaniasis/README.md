@@ -208,6 +208,15 @@ cross_links:
   - target: 01-human/07-system/generalized-anxiety-disorder
     relation: connects-to
     note: "Disfigurement and chronic illness breed worry: the visible facial scarring, social stigma and prolonged debilitating course of leishmaniasis foster chronic anxiety alongside depression."
+  - target: 01-human/07-system/respiratory-system
+    relation: connects-to
+    note: "It can devour the upper airway: mucocutaneous leishmaniasis (espundia) erodes the nose, pharynx and larynx months to years after the skin lesion, threatening the airway and disfiguring the face."
+  - target: 01-human/07-system/renal-system
+    relation: connects-to
+    note: "Visceral disease reaches the kidney: kala-azar can cause immune-complex glomerulonephritis and interstitial nephritis, and nephrotoxic amphotericin therapy further strains renal function."
+  - target: 01-human/07-system/cardiovascular-system
+    relation: connects-to
+    note: "Its old drugs are hard on the heart: pentavalent antimonial treatment causes QT prolongation and arrhythmias requiring ECG monitoring, and severe visceral disease can be complicated by myocarditis."
 ---
 
 # Leishmaniasis
@@ -373,3 +382,6 @@ HIV-VL co-infection: CD4+ depletion → loss of IFN-γ production → *Leishmani
 - `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — Its commonest form is a skin disease: cutaneous leishmaniasis produces chronic ulcerating skin lesions that scar, and post-kala-azar dermal leishmaniasis seeds the skin with parasite-laden nodules.
 - `connects-to` → **[Digestive System](../digestive-system/README.md)** — Visceral disease swells the gut organs: kala-azar grossly enlarges the liver and spleen, while mucocutaneous leishmaniasis destroys the mucosa of the mouth, nose and pharynx.
 - `connects-to` → **[Generalized Anxiety Disorder](../generalized-anxiety-disorder/README.md)** — Disfigurement and chronic illness breed worry: the visible facial scarring, social stigma and prolonged debilitating course of leishmaniasis foster chronic anxiety alongside depression.
+- `connects-to` → **[Respiratory System](../respiratory-system/README.md)** — It can devour the upper airway: mucocutaneous leishmaniasis (espundia) erodes the nose, pharynx and larynx months to years after the skin lesion, threatening the airway and disfiguring the face.
+- `connects-to` → **[Renal System](../renal-system/README.md)** — Visceral disease reaches the kidney: kala-azar can cause immune-complex glomerulonephritis and interstitial nephritis, and nephrotoxic amphotericin therapy further strains renal function.
+- `connects-to` → **[Cardiovascular System](../cardiovascular-system/README.md)** — Its old drugs are hard on the heart: pentavalent antimonial treatment causes QT prolongation and arrhythmias requiring ECG monitoring, and severe visceral disease can be complicated by myocarditis.

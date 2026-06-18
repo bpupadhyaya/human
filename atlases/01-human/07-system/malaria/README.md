@@ -213,6 +213,15 @@ cross_links:
   - target: 01-human/07-system/digestive-system
     relation: connects-to
     note: "It enlarges the liver and yellows the skin: malaria causes hepatosplenomegaly and, from massive haemolysis and hepatic dysfunction, the jaundice and dark urine of blackwater fever."
+  - target: 01-human/07-system/renal-system
+    relation: connects-to
+    note: "Severe falciparum shuts down the kidney: acute kidney injury from haemoglobinuria and tubular necrosis — blackwater fever — is a defining feature of severe malaria and often needs dialysis."
+  - target: 01-human/07-system/endocrine-system
+    relation: connects-to
+    note: "It drops blood sugar dangerously: severe malaria causes hypoglycaemia through impaired gluconeogenesis and parasite glucose use, and quinine treatment worsens it by triggering hyperinsulinaemia, especially in children and pregnancy."
+  - target: 01-human/07-system/lymphatic-system
+    relation: connects-to
+    note: "It swells and can rupture the spleen: the spleen enlarges as it clears parasitised red cells, risking splenic rupture in acute infection and causing hyperreactive malarial splenomegaly with chronic exposure."
 ---
 
 # Malaria
@@ -436,6 +445,9 @@ cross_links:
 - `connects-to` → **[Nervous System](../nervous-system/README.md)** — It can seize the brain itself: cerebral malaria, from sequestration of infected red cells in cerebral capillaries, causes coma and seizures and leaves lasting neurological and cognitive deficits in survivors.
 - `connects-to` → **[Respiratory System](../respiratory-system/README.md)** — Severe malaria floods the lungs: it can cause acute respiratory distress syndrome and pulmonary oedema from capillary leak, a life-threatening complication even as parasites are cleared.
 - `connects-to` → **[Digestive System](../digestive-system/README.md)** — It enlarges the liver and yellows the skin: malaria causes hepatosplenomegaly and, from massive haemolysis and hepatic dysfunction, the jaundice and dark urine of blackwater fever.
+- `connects-to` → **[Renal System](../renal-system/README.md)** — Severe falciparum shuts down the kidney: acute kidney injury from haemoglobinuria and tubular necrosis — blackwater fever — is a defining feature of severe malaria and often needs dialysis.
+- `connects-to` → **[Endocrine System](../endocrine-system/README.md)** — It drops blood sugar dangerously: severe malaria causes hypoglycaemia through impaired gluconeogenesis and parasite glucose use, and quinine treatment worsens it by triggering hyperinsulinaemia, especially in children and pregnancy.
+- `connects-to` → **[Lymphatic System](../lymphatic-system/README.md)** — It swells and can rupture the spleen: the spleen enlarges as it clears parasitised red cells, risking splenic rupture in acute infection and causing hyperreactive malarial splenomegaly with chronic exposure.
 
 [^who-malaria-report-2023]: World Health Organization. World Malaria Report 2023. WHO; 2023.
 [^white-2014-malaria-lancet]: White NJ, Pukrittayakamee S, Hien TT, et al. Malaria. *Lancet.* 2014;383(9918):723-735. [doi:10.1016/S0140-6736(13)60024-0](https://doi.org/10.1016/S0140-6736(13)60024-0) · [PubMed 23953767](https://pubmed.ncbi.nlm.nih.gov/23953767/)
