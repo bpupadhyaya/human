@@ -214,6 +214,15 @@ cross_links:
   - target: 01-human/07-system/musculoskeletal-system
     relation: connects-to
     note: "Catecholamines tremble the body and tumours seed bone: adrenergic excess causes the fine tremor of phaeochromocytoma, and metastatic SDHB-related paraganglioma spreads to the skeleton."
+  - target: 01-human/07-system/renal-system
+    relation: connects-to
+    note: "Catecholamine surges scar the kidney: sustained and paroxysmal hypertension drives hypertensive nephrosclerosis, and paragangliomas can arise in the renal bed near the kidney."
+  - target: 01-human/07-system/lymphatic-system
+    relation: connects-to
+    note: "Malignant disease spreads to the nodes: there is no benign histology — malignancy is defined by spread, and SDHB-mutated paragangliomas in particular metastasise to lymph nodes and bone."
+  - target: 03-medicine/01-modern/04-cardio/beta-blockers
+    relation: connects-to
+    note: "Order of blockade is life-or-death: beta-blockers must be given only after alpha-blockade in phaeochromocytoma, because unopposed alpha stimulation from beta-blockade first can precipitate a hypertensive crisis."
 ---
 
 # Pheochromocytoma/Paraganglioma
@@ -421,6 +430,9 @@ Active in Cluster 1 (MET/AXL co-expressed in SDH-deficient tumors); Phase 2 CABO
 - `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — Its attacks sweat and blanch the skin: the classic phaeochromocytoma triad pairs headache and palpitations with profuse diaphoresis, and adrenergic vasoconstriction causes episodic pallor of the skin.
 - `connects-to` → **[Respiratory System](../respiratory-system/README.md)** — A catecholamine crisis floods the lungs: a phaeochromocytoma crisis can precipitate catecholamine cardiomyopathy with flash pulmonary oedema and acute respiratory distress.
 - `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — Catecholamines tremble the body and tumours seed bone: adrenergic excess causes the fine tremor of phaeochromocytoma, and metastatic SDHB-related paraganglioma spreads to the skeleton.
+- `connects-to` → **[Renal System](../renal-system/README.md)** — Catecholamine surges scar the kidney: sustained and paroxysmal hypertension drives hypertensive nephrosclerosis, and paragangliomas can arise in the renal bed near the kidney.
+- `connects-to` → **[Lymphatic System](../lymphatic-system/README.md)** — Malignant disease spreads to the nodes: there is no benign histology — malignancy is defined by spread, and SDHB-mutated paragangliomas in particular metastasise to lymph nodes and bone.
+- `connects-to` → **[Beta-Blockers](../../../03-medicine/01-modern/04-cardio/beta-blockers/README.md)** — Order of blockade is life-or-death: beta-blockers must be given only after alpha-blockade in phaeochromocytoma, because unopposed alpha stimulation from beta-blockade first can precipitate a hypertensive crisis.
 
 [^lenders-2014-pheo-guideline]: Lenders JW, Duh QY, Eisenhofer G, et al. Pheochromocytoma and paraganglioma: an endocrine society clinical practice guideline. *J Clin Endocrinol Metab.* 2014;99(6):1915-1942. [doi:10.1210/jc.2014-1498](https://doi.org/10.1210/jc.2014-1498) · [PubMed 24893135](https://pubmed.ncbi.nlm.nih.gov/24893135/)
 [^baudin-2021-firstmappp-sunitinib]: Baudin E, Goichot B, Berruti A, et al. First International Randomized Study in Malignant Progressive Pheochromocytoma and Paragangliomas (FIRSTMAPPP). *Ann Oncol.* 2021;32(10):1245-1254. [doi:10.1016/j.annonc.2021.07.009](https://doi.org/10.1016/j.annonc.2021.07.009) · [PubMed 34246769](https://pubmed.ncbi.nlm.nih.gov/34246769/)
