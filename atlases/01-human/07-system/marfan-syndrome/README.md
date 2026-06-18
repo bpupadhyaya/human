@@ -241,6 +241,15 @@ cross_links:
   - target: 01-human/05-tissue/cortical-bone
     relation: connects-to
     note: "It overgrows and thins the skeleton: fibrillin loss lengthens the long bones (arachnodactyly, tall stature) while reducing cortical bone density, contributing to scoliosis and chest-wall deformity."
+  - target: 01-human/05-tissue/endocardium
+    relation: connects-to
+    note: "It loosens the heart valves: fibrillin-1 loss and excess TGF-β weaken the valve leaflets, producing the myxomatous mitral valve prolapse and aortic regurgitation that, with aortic root dilatation, define Marfan's cardiac disease."
+  - target: 01-human/05-tissue/cardiac-conduction-system
+    relation: connects-to
+    note: "Beyond the aorta, an electrical risk: Marfan syndrome carries ventricular arrhythmias and a small risk of sudden cardiac death independent of valve and aortic disease, linked to conduction abnormalities and fibrillin-related myocardial changes."
+  - target: 01-human/07-system/juvenile-polyposis-syndrome
+    relation: connects-to
+    note: "Opposite ends of one signalling axis: Marfan stems from FBN1 loss that unleashes excess TGF-β, while SMAD4-type juvenile polyposis loses the TGF-β/BMP transducer itself—two diseases dysregulating the same pathway from opposite directions."
 ---
 
 # Marfan Syndrome
@@ -454,6 +463,9 @@ MFS is a **multi-system disorder** defined by cardiovascular, ocular, and skelet
 - `connects-to` → **[Arterial Wall](../../05-tissue/arterial-wall/README.md)** — It weakens the aorta's wall: loss of fibrillin microfibrils and excess TGF-β cause cystic medial degeneration of the aortic wall, driving the progressive aortic-root aneurysm and dissection that are Marfan's lethal hallmark.
 - `connects-to` → **[Calcium-Channel Blockers](../../../03-medicine/01-modern/04-cardio/calcium-channel-blockers/README.md)** — A drug class to avoid: unlike beta-blockers and ARBs, calcium-channel blockers are associated with faster aortic growth and worse outcomes in Marfan syndrome and are generally avoided.
 - `connects-to` → **[Cortical Bone](../../05-tissue/cortical-bone/README.md)** — It overgrows and thins the skeleton: fibrillin loss lengthens the long bones (arachnodactyly, tall stature) while reducing cortical bone density, contributing to scoliosis and chest-wall deformity.
+- `connects-to` → **[Endocardium](../../05-tissue/endocardium/README.md)** — It loosens the heart valves: fibrillin-1 loss and excess TGF-β weaken the valve leaflets, producing the myxomatous mitral valve prolapse and aortic regurgitation that, with aortic root dilatation, define Marfan's cardiac disease.
+- `connects-to` → **[Cardiac Conduction System](../../05-tissue/cardiac-conduction-system/README.md)** — Beyond the aorta, an electrical risk: Marfan syndrome carries ventricular arrhythmias and a small risk of sudden cardiac death independent of valve and aortic disease, linked to conduction abnormalities and fibrillin-related myocardial changes.
+- `connects-to` → **[Juvenile Polyposis Syndrome](../juvenile-polyposis-syndrome/README.md)** — Opposite ends of one signalling axis: Marfan stems from FBN1 loss that unleashes excess TGF-β, while SMAD4-type juvenile polyposis loses the TGF-β/BMP transducer itself—two diseases dysregulating the same pathway from opposite directions.
 
 ---
 

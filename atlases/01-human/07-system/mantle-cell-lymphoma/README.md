@@ -241,6 +241,15 @@ cross_links:
   - target: 03-medicine/01-modern/13-cancer/cancer-chemotherapy
     relation: connects-to
     note: "Intensive chemoimmunotherapy upfront: high-dose cytarabine-containing regimens with rituximab, often with autologous transplant, are the chemotherapy backbone for younger patients."
+  - target: 01-human/05-tissue/cardiac-conduction-system
+    relation: connects-to
+    note: "Its targeted drug provokes arrhythmia: the BTK inhibitors that treat mantle cell lymphoma—ibrutinib above all—commonly cause atrial fibrillation through off-target effects on cardiac signalling, so the conduction system is a key toxicity site of MCL therapy."
+  - target: 01-human/07-system/all
+    relation: connects-to
+    note: "When it turns acute-leukaemia-like: the blastoid and pleomorphic variants of mantle cell lymphoma behave aggressively with a leukaemic phase and CNS spread, resembling acute lymphoblastic leukaemia and demanding similarly intensive, transplant-based treatment."
+  - target: 03-medicine/01-modern/13-cancer/checkpoint-inhibitors
+    relation: connects-to
+    note: "Largely checkpoint-resistant: unlike Hodgkin lymphoma, mantle cell lymphoma responds poorly to PD-1 inhibitors as monotherapy, so its immunotherapy centres on CD19 CAR-T and bispecific antibodies rather than checkpoint blockade."
 ---
 
 # Mantle Cell Lymphoma
@@ -437,6 +446,9 @@ For SOX11−, mutated IGHV, non-bulky, asymptomatic nnMCL: Observation is safe; 
 - `connects-to` → **[Targeted Therapy](../../../03-medicine/01-modern/13-cancer/targeted-therapy/README.md)** — BTK inhibition transformed it: BTK inhibitors (ibrutinib, acalabrutinib), the BCL-2 inhibitor venetoclax and CDK4/6 inhibitors against its cyclin-D1 driver are central to modern mantle cell lymphoma care.
 - `connects-to` → **[CAR-T](../../../03-medicine/01-modern/13-cancer/car-t/README.md)** — Engineered cells for relapse: brexucabtagene autoleucel, a CD19 CAR-T therapy, achieves durable remissions in mantle cell lymphoma that has relapsed after chemotherapy and BTK inhibitors.
 - `connects-to` → **[Cancer Chemotherapy](../../../03-medicine/01-modern/13-cancer/cancer-chemotherapy/README.md)** — Intensive chemoimmunotherapy upfront: high-dose cytarabine-containing regimens with rituximab, often with autologous transplant, are the chemotherapy backbone for younger patients.
+- `connects-to` → **[Cardiac Conduction System](../../05-tissue/cardiac-conduction-system/README.md)** — Its targeted drug provokes arrhythmia: the BTK inhibitors that treat mantle cell lymphoma—ibrutinib above all—commonly cause atrial fibrillation through off-target effects on cardiac signalling, so the conduction system is a key toxicity site of MCL therapy.
+- `connects-to` → **[ALL](../all/README.md)** — When it turns acute-leukaemia-like: the blastoid and pleomorphic variants of mantle cell lymphoma behave aggressively with a leukaemic phase and CNS spread, resembling acute lymphoblastic leukaemia and demanding similarly intensive, transplant-based treatment.
+- `connects-to` → **[Checkpoint Inhibitors](../../../03-medicine/01-modern/13-cancer/checkpoint-inhibitors/README.md)** — Largely checkpoint-resistant: unlike Hodgkin lymphoma, mantle cell lymphoma responds poorly to PD-1 inhibitors as monotherapy, so its immunotherapy centres on CD19 CAR-T and bispecific antibodies rather than checkpoint blockade.
 
 ---
 
