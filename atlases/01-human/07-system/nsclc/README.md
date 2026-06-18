@@ -211,6 +211,15 @@ cross_links:
   - target: 01-human/07-system/generalized-anxiety-disorder
     relation: connects-to
     note: "Breathlessness and a grim prognosis breed worry: the dyspnoea, scan-to-scan uncertainty and poor survival of NSCLC fuel chronic anxiety and panic alongside the depression that so often accompanies it."
+  - target: 01-human/07-system/nervous-system
+    relation: connects-to
+    note: "It seeds the brain: NSCLC metastasises commonly to the brain, causing seizures, focal deficits and raised intracranial pressure, and Pancoast tumours and paraneoplastic syndromes injure nerves."
+  - target: 01-human/07-system/endocrine-system
+    relation: connects-to
+    note: "It deranges hormones and calcium: squamous NSCLC secretes PTHrP causing hypercalcaemia, and checkpoint immunotherapy triggers endocrine irAEs like thyroiditis and hypophysitis."
+  - target: 01-human/07-system/musculoskeletal-system
+    relation: connects-to
+    note: "It attacks bone from afar and up close: NSCLC metastasises to bone causing pain and fractures, and it characteristically produces hypertrophic pulmonary osteoarthropathy with clubbing and joint pain."
 ---
 
 # NSCLC
@@ -376,6 +385,9 @@ cross_links:
 - `connects-to` → **[Streptococcus pneumoniae](../../../02-pathogen/02-bacteria/streptococcus-pneumoniae/README.md)** — A tumour plugging the airway breeds pneumonia: a bronchus obstructed by NSCLC traps secretions distal to it, and post-obstructive pneumonia — classically pneumococcal — is a common presenting and recurring complication.
 - `connects-to` → **[Chronic Kidney Disease](../ckd/README.md)** — Its platinum backbone scars the kidney: the cisplatin central to NSCLC chemotherapy is nephrotoxic, and the tubular injury and magnesium wasting can leave lasting chronic kidney impairment.
 - `connects-to` → **[Generalized Anxiety Disorder](../generalized-anxiety-disorder/README.md)** — Breathlessness and a grim prognosis breed worry: the dyspnoea, scan-to-scan uncertainty and poor survival of NSCLC fuel chronic anxiety and panic alongside the depression that so often accompanies it.
+- `connects-to` → **[Nervous System](../nervous-system/README.md)** — It seeds the brain: NSCLC metastasises commonly to the brain, causing seizures, focal deficits and raised intracranial pressure, and Pancoast tumours and paraneoplastic syndromes injure nerves.
+- `connects-to` → **[Endocrine System](../endocrine-system/README.md)** — It deranges hormones and calcium: squamous NSCLC secretes PTHrP causing hypercalcaemia, and checkpoint immunotherapy triggers endocrine irAEs like thyroiditis and hypophysitis.
+- `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — It attacks bone from afar and up close: NSCLC metastasises to bone causing pain and fractures, and it characteristically produces hypertrophic pulmonary osteoarthropathy with clubbing and joint pain.
 
 [^soria-2018-osimertinib-flaura]: Soria JC, Ohe Y, Vansteenkiste J, et al. Osimertinib in untreated EGFR-mutated advanced non-small-cell lung cancer. *N Engl J Med.* 2018;378(2):113-125. [doi:10.1056/NEJMoa1713137](https://doi.org/10.1056/NEJMoa1713137) · [PubMed 29151359](https://pubmed.ncbi.nlm.nih.gov/29151359/)
 [^reck-2016-pembrolizumab-keynote024]: Reck M, Rodríguez-Abreu D, Robinson AG, et al. Pembrolizumab versus chemotherapy for PD-L1-positive non-small-cell lung cancer. *N Engl J Med.* 2016;375(19):1823-1833. [doi:10.1056/NEJMoa1606774](https://doi.org/10.1056/NEJMoa1606774) · [PubMed 27718347](https://pubmed.ncbi.nlm.nih.gov/27718347/)
