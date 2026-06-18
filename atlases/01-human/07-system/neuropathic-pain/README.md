@@ -222,6 +222,15 @@ cross_links:
   - target: 01-human/07-system/cidp
     relation: connects-to
     note: "A treatable demyelinating cause: chronic inflammatory demyelinating polyneuropathy causes neuropathic pain that, unlike most, responds to immunotherapy rather than analgesics alone."
+  - target: 03-medicine/01-modern/13-cancer/cancer-chemotherapy
+    relation: connects-to
+    note: "Chemo is a leading iatrogenic cause: platinum, taxane, vincristine and bortezomib chemotherapies produce chemotherapy-induced peripheral neuropathy, a dose-limiting, often lasting neuropathic pain in cancer survivors."
+  - target: 01-human/05-tissue/axonal-transport
+    relation: connects-to
+    note: "Failing axons fire abnormally: many neuropathic pains arise from a dying-back axonopathy where disrupted axonal transport starves the distal nerve, generating ectopic impulses felt as burning, length-dependent pain."
+  - target: 01-human/07-system/cannabis-use-disorder
+    relation: connects-to
+    note: "Cannabinoids are sought for refractory pain: medical cannabis is widely used for neuropathic pain via the endocannabinoid system, with modest evidence and the attendant risk of cannabis use disorder."
 sources:
   - id: jensen-2011-neuropathic-pain-review
     type: peer-reviewed
@@ -453,6 +462,9 @@ Chronic neuropathic pain carries significant psychological burden:
 - `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — It strikes the pelvis too: pudendal neuralgia and other pelvic neuropathic pain syndromes affect sexual and urinary function, a distressing and under-recognised form.
 - `connects-to` → **[Fluoxetine](../../../03-medicine/01-modern/10-mental-health/fluoxetine/README.md)** — Antidepressants are core analgesics: SNRIs like duloxetine and tricyclics relieve neuropathic pain by boosting descending serotonin-noradrenaline inhibition, the pathway SSRIs like fluoxetine also touch.
 - `connects-to` → **[CIDP](../cidp/README.md)** — A treatable demyelinating cause: chronic inflammatory demyelinating polyneuropathy causes neuropathic pain that, unlike most, responds to immunotherapy rather than analgesics alone.
+- `connects-to` → **[Cancer Chemotherapy](../../../03-medicine/01-modern/13-cancer/cancer-chemotherapy/README.md)** — Chemo is a leading iatrogenic cause: platinum, taxane, vincristine and bortezomib chemotherapies produce chemotherapy-induced peripheral neuropathy, a dose-limiting, often lasting neuropathic pain in cancer survivors.
+- `connects-to` → **[Axonal Transport](../../05-tissue/axonal-transport/README.md)** — Failing axons fire abnormally: many neuropathic pains arise from a dying-back axonopathy where disrupted axonal transport starves the distal nerve, generating ectopic impulses felt as burning, length-dependent pain.
+- `connects-to` → **[Cannabis Use Disorder](../cannabis-use-disorder/README.md)** — Cannabinoids are sought for refractory pain: medical cannabis is widely used for neuropathic pain via the endocannabinoid system, with modest evidence and the attendant risk of cannabis use disorder.
 
 [^jensen-2011-neuropathic-pain-review]: Jensen TS, Baron R, Haanpää M, et al. A new definition of neuropathic pain. *Pain.* 2011;152(10):2204-2205. [doi:10.1016/j.pain.2011.06.017](https://doi.org/10.1016/j.pain.2011.06.017) · [PubMed 21764514](https://pubmed.ncbi.nlm.nih.gov/21764514/)
 [^dworkin-2010-neuropathic-pain-treatment]: Dworkin RH, O'Connor AB, Audette J, et al. Recommendations for the pharmacological management of neuropathic pain. *Mayo Clin Proc.* 2010;85(3 Suppl):S3-14. [doi:10.4065/mcp.2009.0649](https://doi.org/10.4065/mcp.2009.0649) · [PubMed 20194146](https://pubmed.ncbi.nlm.nih.gov/20194146/)

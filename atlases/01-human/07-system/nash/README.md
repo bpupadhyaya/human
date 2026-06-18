@@ -241,6 +241,15 @@ cross_links:
   - target: 03-medicine/03-food/curcumin
     relation: connects-to
     note: "An anti-inflammatory spice is studied: curcumin from turmeric shows anti-inflammatory and lipid-lowering effects investigated for steatohepatitis, though its poor absorption limits the effect."
+  - target: 01-human/05-tissue/hepatic-lobule
+    relation: connects-to
+    note: "It plays out across the lobule: NASH shows steatosis, hepatocyte ballooning and Mallory bodies with lobular inflammation, and the pericellular 'chicken-wire' fibrosis that progresses toward cirrhosis within the hepatic lobule."
+  - target: 03-medicine/01-modern/04-cardio/statins
+    relation: connects-to
+    note: "Cardiovascular risk dominates: most NASH patients die of cardiovascular disease, not liver failure, so statins are both safe and important here, lowering that risk despite the underlying liver disease."
+  - target: 03-medicine/01-modern/13-cancer/checkpoint-inhibitors
+    relation: connects-to
+    note: "Its liver cancer resists immunotherapy: NASH-driven hepatocellular carcinoma responds worse to PD-1 checkpoint blockade than viral HCC, as the impaired anti-tumour T-cell response of fatty liver blunts immunotherapy."
 ---
 
 # NASH
@@ -404,6 +413,9 @@ NASH pathogenesis is driven by multiple simultaneous and sequential hits, not a 
 - `connects-to` → **[Metformin](../../../03-medicine/01-modern/07-metabolic/metformin/README.md)** — It targets the metabolic root: although weight loss is primary, metformin improves the insulin resistance that drives non-alcoholic steatohepatitis, often alongside treating coexisting type 2 diabetes.
 - `connects-to` → **[Omega-3 Fatty Acids](../../../03-medicine/03-food/omega-3-fatty-acids/README.md)** — Diet remodels the fatty liver: omega-3 fatty acids reduce hepatic triglyceride accumulation and are studied as an adjunct in non-alcoholic fatty liver disease.
 - `connects-to` → **[Curcumin](../../../03-medicine/03-food/curcumin/README.md)** — An anti-inflammatory spice is studied: curcumin from turmeric shows anti-inflammatory and lipid-lowering effects investigated for steatohepatitis, though its poor absorption limits the effect.
+- `connects-to` → **[Hepatic Lobule](../../05-tissue/hepatic-lobule/README.md)** — It plays out across the lobule: NASH shows steatosis, hepatocyte ballooning and Mallory bodies with lobular inflammation, and the pericellular 'chicken-wire' fibrosis that progresses toward cirrhosis within the hepatic lobule.
+- `connects-to` → **[Statins](../../../03-medicine/01-modern/04-cardio/statins/README.md)** — Cardiovascular risk dominates: most NASH patients die of cardiovascular disease, not liver failure, so statins are both safe and important here, lowering that risk despite the underlying liver disease.
+- `connects-to` → **[Checkpoint Inhibitors](../../../03-medicine/01-modern/13-cancer/checkpoint-inhibitors/README.md)** — Its liver cancer resists immunotherapy: NASH-driven hepatocellular carcinoma responds worse to PD-1 checkpoint blockade than viral HCC, as the impaired anti-tumour T-cell response of fatty liver blunts immunotherapy.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
