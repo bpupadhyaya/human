@@ -241,6 +241,15 @@ cross_links:
   - target: 03-medicine/01-modern/13-cancer/cancer-chemotherapy
     relation: connects-to
     note: "Conventional chemo fails it: GIST is resistant to cytotoxic chemotherapy, which is why kinase inhibitors rather than chemo became its treatment."
+  - target: 03-medicine/01-modern/13-cancer/checkpoint-inhibitors
+    relation: connects-to
+    note: "An immunologically cold tumour: GIST responds poorly to checkpoint inhibitors as monotherapy because of its low mutational burden, though combinations with KIT inhibitors that may boost antigen presentation are under trial investigation."
+  - target: 01-human/07-system/aml
+    relation: connects-to
+    note: "One gene, two druggabilities: GIST is driven by KIT juxtamembrane (exon 11) and extracellular (exon 9) mutations that imatinib blocks, whereas core-binding-factor AML and mastocytosis carry KIT D816V in the activation loop that resists imatinib."
+  - target: 01-human/07-system/mpnst
+    relation: connects-to
+    note: "Two tumours from one lost gene: germline NF1 loss drives both NF1-associated GIST (KIT/PDGFRA-wildtype, RAS-MAPK-driven) and malignant peripheral nerve sheath tumours, so an NF1 patient's abdominal mass may be either—distinct neoplasms sharing a RAS engine."
 ---
 
 # GIST
@@ -392,6 +401,9 @@ No approved targeted therapy; sunitinib may have modest activity; clinical trial
 - `connects-to` → **[Smooth Muscle Cell](../../04-cellular/smooth-muscle-cell/README.md)** — GIST is often mistaken for a smooth-muscle tumor but isn't: it arises from the interstitial cells of Cajal (the gut's pacemaker cells), not smooth muscle, so KIT/DOG1 staining separates GIST from true leiomyomas and leiomyosarcomas of the GI tract.
 - `connects-to` → **[Liver](../../06-organ/liver/README.md)** — The liver is GIST's main metastatic site: gastrointestinal stromal tumors spread hematogenously to the liver and peritoneum rather than lymph nodes, so liver imaging drives staging and follow-up—and imatinib can control even widespread hepatic disease for years.
 - `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — GIST growth runs through KIT into the PI3K/AKT pathway: the activating KIT or PDGFRA mutation signals via AKT and MAPK to drive proliferation, so imatinib blocks the receptor while AKT-pathway resistance mutations explain why tumors eventually escape therapy.
+- `connects-to` → **[Checkpoint inhibitors](../../../03-medicine/01-modern/13-cancer/checkpoint-inhibitors/README.md)** — An immunologically cold tumour: GIST responds poorly to checkpoint inhibitors as monotherapy because of its low mutational burden, though combinations with KIT inhibitors that may boost antigen presentation are under trial investigation.
+- `connects-to` → **[AML](../aml/README.md)** — One gene, two druggabilities: GIST is driven by KIT juxtamembrane (exon 11) and extracellular (exon 9) mutations that imatinib blocks, whereas core-binding-factor AML and mastocytosis carry KIT D816V in the activation loop that resists imatinib.
+- `connects-to` → **[MPNST](../mpnst/README.md)** — Two tumours from one lost gene: germline NF1 loss drives both NF1-associated GIST (KIT/PDGFRA-wildtype, RAS-MAPK-driven) and malignant peripheral nerve sheath tumours, so an NF1 patient's abdominal mass may be either—distinct neoplasms sharing a RAS engine.
 - `connects-to` → **[Carney Complex](../carney-complex/README.md)** — GIST is part of the Carney triad: a subset of GISTs are SDH-deficient (succinate dehydrogenase loss) and occur with paraganglioma and pulmonary chondroma in young patients, a wild-type GIST distinct from the common KIT/PDGFRA-mutant tumors.
 - `connects-to` → **[Rhabdomyosarcoma](../rhabdomyosarcoma/README.md)** — GIST sits in the soft-tissue sarcoma differential with tumors like rhabdomyosarcoma: GIST arises from interstitial cells of Cajal and is defined by KIT/PDGFRA mutation, so immunostaining and molecular testing separate it from other mesenchymal malignancies.
 - `connects-to` → **[Erythrocyte](../../04-cellular/erythrocyte/README.md)** — GIST often bleeds into the gut: these submucosal tumors ulcerate and ooze, so chronic blood loss depletes red cells and iron, making anemia and GI bleeding—rather than the mass itself—a common way GIST first comes to attention.

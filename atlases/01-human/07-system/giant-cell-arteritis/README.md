@@ -241,6 +241,15 @@ cross_links:
   - target: 01-human/07-system/atherosclerosis
     relation: connects-to
     note: "Two ways to thicken an artery: giant cell arteritis must be distinguished from atherosclerosis on vascular imaging, and the chronic vascular inflammation it causes also accelerates atherosclerotic disease."
+  - target: 03-medicine/01-modern/13-cancer/targeted-therapy
+    relation: connects-to
+    note: "Biologics spare the steroids: tocilizumab (anti-IL-6R) and JAK inhibitors such as upadacitinib are targeted therapies that maintain remission in giant cell arteritis, cutting the toxic glucocorticoid burden long-term GCA control once demanded."
+  - target: 03-medicine/01-modern/13-cancer/checkpoint-inhibitors
+    relation: connects-to
+    note: "Immunotherapy can ignite the artery: large-vessel vasculitis resembling giant cell arteritis is a recognised immune-related adverse event of checkpoint inhibitors, where releasing T-cell brakes against a tumour also unleashes inflammation in the aorta and its branches."
+  - target: 01-human/05-tissue/germinal-center
+    relation: connects-to
+    note: "The inflamed artery builds its own lymphoid tissue: giant cell arteritis forms tertiary lymphoid structures with germinal-center-like T- and B-cell aggregates in the adventitia, organising the local immune attack much as a lymph node germinal center does."
 ---
 
 # Giant Cell Arteritis
@@ -375,6 +384,9 @@ The temporal arteries supply scalp, temporalis muscle, and dura. In GCA, transmu
 - `connects-to` → **[JAK2](../../03-molecular/jak2/README.md)** — JAK-STAT signaling is a therapeutic target in giant cell arteritis: the IL-6 and IFN-γ driving arterial inflammation act through JAK kinases, so JAK inhibitors are in trials to spare steroids—linking GCA to the node mutated in myeloproliferative disease.
 - `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — VEGF helps GCA both damage and compensate: inflammatory cytokines drive VEGF that promotes neovascularization in the inflamed artery wall, while ischemia downstream stimulates collateral vessels—so angiogenesis is part of both injury and response in GCA.
 - `connects-to` → **[Heart](../../06-organ/heart/README.md)** — Giant cell arteritis is a large-vessel disease that threatens the aorta: beyond the temporal artery, granulomatous inflammation can involve the aorta and its branches, causing thoracic aortic aneurysm and dissection years later—so GCA needs vascular surveillance.
+- `connects-to` → **[Targeted therapy](../../../03-medicine/01-modern/13-cancer/targeted-therapy/README.md)** — Biologics spare the steroids: tocilizumab (anti-IL-6R) and JAK inhibitors such as upadacitinib are targeted therapies that maintain remission in giant cell arteritis, cutting the toxic glucocorticoid burden long-term GCA control once demanded.
+- `connects-to` → **[Checkpoint inhibitors](../../../03-medicine/01-modern/13-cancer/checkpoint-inhibitors/README.md)** — Immunotherapy can ignite the artery: large-vessel vasculitis resembling giant cell arteritis is a recognised immune-related adverse event of checkpoint inhibitors, where releasing T-cell brakes against a tumour also unleashes inflammation in the aorta and its branches.
+- `connects-to` → **[Germinal center](../../05-tissue/germinal-center/README.md)** — The inflamed artery builds its own lymphoid tissue: giant cell arteritis forms tertiary lymphoid structures with germinal-center-like T- and B-cell aggregates in the adventitia, organising the local immune attack much as a lymph node germinal center does.
 - `connects-to` → **[Systemic Lupus Erythematosus](../systemic-lupus-erythematosus/README.md)** — Giant cell arteritis and lupus are both autoimmune but differ sharply: GCA is a granulomatous large-vessel vasculitis of the elderly driven by Th1/Th17 and IL-6, while SLE is an immune-complex multisystem disease of the young—contrasting mechanisms of autoimmunity.
 - `connects-to` → **[Cortisol](../../03-molecular/cortisol/README.md)** — Giant cell arteritis is a glucocorticoid emergency: high-dose cortisol-mimicking steroids must start immediately on suspicion to prevent irreversible blindness from ischemic optic neuropathy—treatment precedes biopsy because delay risks sudden, permanent vision loss.
 - `connects-to` → **[Nervous System](../nervous-system/README.md)** — Giant cell arteritis threatens the nervous system through vascular ischemia: inflamed cranial arteries cause severe headache, jaw claudication and, most feared, sudden blindness from anterior ischemic optic neuropathy, plus a raised risk of stroke.
