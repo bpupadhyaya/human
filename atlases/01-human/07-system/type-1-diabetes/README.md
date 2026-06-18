@@ -232,6 +232,15 @@ cross_links:
   - target: 02-pathogen/02-bacteria/staphylococcus-aureus
     relation: connects-to
     note: "It invites skin and foot infection: impaired immunity and peripheral neuropathy predispose type 1 diabetes to staphylococcal skin abscesses and diabetic-foot infections."
+  - target: 01-human/07-system/lymphatic-system
+    relation: connects-to
+    note: "Autoimmunity is born in a lymph node: the pancreatic (peri-islet) lymph nodes are where dendritic cells first present beta-cell antigens to autoreactive T cells, making regional lymphatics the cradle of type 1 diabetes."
+  - target: 02-pathogen/01-viruses/rotavirus
+    relation: connects-to
+    note: "A childhood virus under suspicion: enteric infections including rotavirus are studied as triggers of islet autoimmunity through molecular mimicry, and rotavirus vaccination has been linked to lower type 1 diabetes incidence."
+  - target: 03-medicine/01-modern/13-cancer/checkpoint-inhibitors
+    relation: connects-to
+    note: "Cancer immunotherapy can cause it: PD-1/PD-L1 checkpoint inhibitors trigger a rapid autoimmune type 1 diabetes as an immune-related adverse event, often presenting with abrupt ketoacidosis and low C-peptide."
 ---
 
 # Type 1 Diabetes
@@ -399,6 +408,9 @@ cross_links:
 - `connects-to` → **[Respiratory System](../respiratory-system/README.md)** — Acidosis drives deep breathing: diabetic ketoacidosis causes the deep, laboured Kussmaul breathing that blows off CO2, and diabetes mildly reduces lung function and raises pneumonia risk.
 - `connects-to` → **[Mycobacterium tuberculosis](../../../02-pathogen/02-bacteria/mycobacterium-tuberculosis/README.md)** — It weakens defences against TB: diabetes impairs cell-mediated immunity and roughly triples the risk of active tuberculosis, worsening its course and treatment outcomes.
 - `connects-to` → **[Staphylococcus aureus](../../../02-pathogen/02-bacteria/staphylococcus-aureus/README.md)** — It invites skin and foot infection: impaired immunity and peripheral neuropathy predispose type 1 diabetes to staphylococcal skin abscesses and diabetic-foot infections.
+- `connects-to` → **[Lymphatic System](../lymphatic-system/README.md)** — Autoimmunity is born in a lymph node: the pancreatic (peri-islet) lymph nodes are where dendritic cells first present beta-cell antigens to autoreactive T cells, making regional lymphatics the cradle of type 1 diabetes.
+- `connects-to` → **[Rotavirus](../../../02-pathogen/01-viruses/rotavirus/README.md)** — A childhood virus under suspicion: enteric infections including rotavirus are studied as triggers of islet autoimmunity through molecular mimicry, and rotavirus vaccination has been linked to lower type 1 diabetes incidence.
+- `connects-to` → **[Checkpoint Inhibitors](../../../03-medicine/01-modern/13-cancer/checkpoint-inhibitors/README.md)** — Cancer immunotherapy can cause it: PD-1/PD-L1 checkpoint inhibitors trigger a rapid autoimmune type 1 diabetes as an immune-related adverse event, often presenting with abrupt ketoacidosis and low C-peptide.
 
 [^atkinson-2014-t1d-lancet]: Atkinson MA, Eisenbarth GS, Michels AW. Type 1 diabetes. *Lancet.* 2014;383(9911):69-82. [doi:10.1016/S0140-6736(13)60591-7](https://doi.org/10.1016/S0140-6736(13)60591-7) · [PubMed 23890997](https://pubmed.ncbi.nlm.nih.gov/23890997/)
 [^herold-2019-teplizumab-t1d]: Herold KC, Bundy BN, Long SA, et al. An anti-CD3 antibody, teplizumab, in relatives at risk for type 1 diabetes. *N Engl J Med.* 2019;381(7):603-613. [doi:10.1056/NEJMoa1905155](https://doi.org/10.1056/NEJMoa1905155) · [PubMed 31180675](https://pubmed.ncbi.nlm.nih.gov/31180675/)
