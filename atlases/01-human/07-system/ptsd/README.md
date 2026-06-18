@@ -234,6 +234,15 @@ cross_links:
   - target: 03-medicine/01-modern/10-mental-health/fluoxetine
     relation: connects-to
     note: "SSRIs are first-line medication: serotonergic antidepressants such as the SSRIs are the first-line pharmacotherapy for PTSD, used alongside trauma-focused psychotherapy."
+  - target: 03-medicine/01-modern/04-cardio/beta-blockers
+    relation: connects-to
+    note: "They blunt the adrenergic surge: beta-blockers like propranolol, and the related alpha-blocker prazosin, reduce the hyperarousal and nightmares of PTSD by dampening noradrenergic overactivity."
+  - target: 03-medicine/03-food/omega-3-fatty-acids
+    relation: connects-to
+    note: "Diet is studied for resilience: omega-3 supplementation has been trialled to prevent or ease PTSD after trauma, though the evidence remains modest and uncertain."
+  - target: 03-medicine/02-traditional/ashwagandha
+    relation: connects-to
+    note: "Traditional calm is sought: adaptogens such as ashwagandha are used for the chronic stress and poor sleep of PTSD, complementing trauma-focused therapy and SSRIs."
 ---
 
 # PTSD
@@ -441,6 +450,9 @@ Not all trauma leads to PTSD. Risk and resilience factors include:
 - `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — Trauma surfaces on the skin: chronic stress flares psoriasis and eczema, triggers stress-related alopecia and urticaria, and trauma-related behaviours can mark the skin.
 - `connects-to` → **[Renal System](../renal-system/README.md)** — It raises kidney-disease risk: PTSD-associated hypertension, metabolic syndrome and chronic stress are linked to a higher risk of chronic kidney disease, well documented in veterans.
 - `connects-to` → **[Fluoxetine](../../../03-medicine/01-modern/10-mental-health/fluoxetine/README.md)** — SSRIs are first-line medication: serotonergic antidepressants such as the SSRIs are the first-line pharmacotherapy for PTSD, used alongside trauma-focused psychotherapy.
+- `connects-to` → **[Beta-Blockers](../../../03-medicine/01-modern/04-cardio/beta-blockers/README.md)** — They blunt the adrenergic surge: beta-blockers like propranolol, and the related alpha-blocker prazosin, reduce the hyperarousal and nightmares of PTSD by dampening noradrenergic overactivity.
+- `connects-to` → **[Omega-3 Fatty Acids](../../../03-medicine/03-food/omega-3-fatty-acids/README.md)** — Diet is studied for resilience: omega-3 supplementation has been trialled to prevent or ease PTSD after trauma, though the evidence remains modest and uncertain.
+- `connects-to` → **[Ashwagandha](../../../03-medicine/02-traditional/ashwagandha/README.md)** — Traditional calm is sought: adaptogens such as ashwagandha are used for the chronic stress and poor sleep of PTSD, complementing trauma-focused therapy and SSRIs.
 
 [^yehuda-2015-ptsd-review]: Yehuda R, Hoge CW, McFarlane AC, et al. Post-traumatic stress disorder. *Nat Rev Dis Primers.* 2015;1:15057. [doi:10.1038/nrdp.2015.57](https://doi.org/10.1038/nrdp.2015.57) · [PubMed 27189040](https://pubmed.ncbi.nlm.nih.gov/27189040/)
 [^foa-2019-ptsd-treatments]: Foa EB, McLean CP. The efficacy of exposure therapy for anxiety and related disorders. *Annu Rev Clin Psychol.* 2016;12:1-28. [doi:10.1146/annurev-clinpsy-021815-093533](https://doi.org/10.1146/annurev-clinpsy-021815-093533) · [PubMed 26928206](https://pubmed.ncbi.nlm.nih.gov/26928206/)

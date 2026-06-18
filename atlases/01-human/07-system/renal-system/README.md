@@ -235,6 +235,15 @@ cross_links:
   - target: 03-medicine/01-modern/06-antimicrobial/vancomycin
     relation: connects-to
     note: "A powerful antibiotic that can harm it: vancomycin is nephrotoxic and renally cleared, so it requires blood-level monitoring and dose adjustment to protect the kidney."
+  - target: 02-pathogen/01-viruses/hepatitis-b-virus
+    relation: connects-to
+    note: "A virus that scars the glomerulus: chronic hepatitis B causes membranous nephropathy and polyarteritis-nodosa renal disease through immune-complex deposition, one of several viral causes of kidney disease."
+  - target: 02-pathogen/02-bacteria/staphylococcus-aureus
+    relation: connects-to
+    note: "Infection inflames the kidney: Staphylococcus aureus causes infection-related glomerulonephritis and is a leading organism in dialysis-access infection and septic acute kidney injury."
+  - target: 03-medicine/03-food/dietary-fiber
+    relation: connects-to
+    note: "The gut talks to the kidney through diet: dietary fibre shifts the microbiome to produce fewer uraemic toxins like indoxyl sulfate, of interest in slowing chronic kidney disease."
 taxonomy:
   uberon: "UBERON:0001008"
 ---
@@ -402,6 +411,9 @@ Natriuretic counterpoint:
 - **Connects to:** [Lymphatic System](../lymphatic-system/README.md) — a hidden network drains it: a rich renal lymphatic system clears interstitial fluid and protein from the kidney, and when overwhelmed it contributes to the oedema of nephrotic syndrome.
 - **Connects to:** [Metformin](../../../03-medicine/01-modern/07-metabolic/metformin/README.md) — a common diabetes drug it must clear: metformin is renally excreted and accumulates in kidney failure, risking lactic acidosis, so it is dose-reduced or stopped as eGFR falls.
 - **Connects to:** [Vancomycin](../../../03-medicine/01-modern/06-antimicrobial/vancomycin/README.md) — a powerful antibiotic that can harm it: vancomycin is nephrotoxic and renally cleared, so it requires blood-level monitoring and dose adjustment to protect the kidney.
+- **Connects to:** [Hepatitis B Virus](../../../02-pathogen/01-viruses/hepatitis-b-virus/README.md) — a virus that scars the glomerulus: chronic hepatitis B causes membranous nephropathy and polyarteritis-nodosa renal disease through immune-complex deposition, one of several viral causes of kidney disease.
+- **Connects to:** [Staphylococcus aureus](../../../02-pathogen/02-bacteria/staphylococcus-aureus/README.md) — infection inflames the kidney: Staphylococcus aureus causes infection-related glomerulonephritis and is a leading organism in dialysis-access infection and septic acute kidney injury.
+- **Connects to:** [Dietary Fiber](../../../03-medicine/03-food/dietary-fiber/README.md) — the gut talks to the kidney through diet: dietary fibre shifts the microbiome to produce fewer uraemic toxins like indoxyl sulfate, of interest in slowing chronic kidney disease.
 - **Treated by:** ACE inhibitors — renoprotection in CKD.
 - **Treated by:** Loop diuretics — fluid management.
 
