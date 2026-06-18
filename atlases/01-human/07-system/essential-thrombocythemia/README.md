@@ -205,6 +205,15 @@ cross_links:
   - target: 01-human/07-system/basal-cell-carcinoma
     relation: connects-to
     note: "Long-term hydroxyurea raises skin-cancer risk: prolonged hydroxyurea therapy for essential thrombocythemia is associated with non-melanoma skin cancers, including basal and squamous cell carcinomas."
+  - target: 01-human/07-system/integumentary-system
+    relation: connects-to
+    note: "Platelet excess burns the extremities: essential thrombocythemia classically causes erythromelalgia — red, hot, painful hands and feet from microvascular platelet plugging — and digital ischaemia, relieved by aspirin."
+  - target: 01-human/07-system/digestive-system
+    relation: connects-to
+    note: "It clots the gut's veins yet also bleeds it: ET causes splanchnic and portal vein thrombosis with splenomegaly, while at very high platelet counts an acquired von Willebrand defect causes GI bleeding."
+  - target: 01-human/07-system/generalized-anxiety-disorder
+    relation: connects-to
+    note: "Clot-and-transformation risk breeds worry: the lifelong threat of thrombosis and bleeding and the small risk of progression to myelofibrosis or leukaemia in ET foster chronic health anxiety."
 ---
 
 # Essential Thrombocythemia
@@ -385,6 +394,9 @@ Management:
 - `connects-to` → **[Neuropathic Pain](../neuropathic-pain/README.md)** — Microvascular platelet plugs burn the extremities: erythromelalgia — red, hot, painful hands and feet from platelet microthrombi — is a classic symptom of essential thrombocythemia, relieved by aspirin.
 - `connects-to` → **[Wound Healing](../wound-healing/README.md)** — Its hydroxyurea ulcerates the skin: the cytoreductive drug hydroxyurea used in essential thrombocythemia characteristically causes painful, slow-healing leg ulcers, often forcing a change of therapy.
 - `connects-to` → **[Basal Cell Carcinoma](../basal-cell-carcinoma/README.md)** — Long-term hydroxyurea raises skin-cancer risk: prolonged hydroxyurea therapy for essential thrombocythemia is associated with non-melanoma skin cancers, including basal and squamous cell carcinomas.
+- `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — Platelet excess burns the extremities: essential thrombocythemia classically causes erythromelalgia — red, hot, painful hands and feet from microvascular platelet plugging — and digital ischaemia, relieved by aspirin.
+- `connects-to` → **[Digestive System](../digestive-system/README.md)** — It clots the gut's veins yet also bleeds it: ET causes splanchnic and portal vein thrombosis with splenomegaly, while at very high platelet counts an acquired von Willebrand defect causes GI bleeding.
+- `connects-to` → **[Generalized Anxiety Disorder](../generalized-anxiety-disorder/README.md)** — Clot-and-transformation risk breeds worry: the lifelong threat of thrombosis and bleeding and the small risk of progression to myelofibrosis or leukaemia in ET foster chronic health anxiety.
 
 [^harrison-2005-pt1-et]: Harrison CN, Campbell PJ, Buck G, et al. Hydroxyurea compared with anagrelide in high-risk essential thrombocythemia. *N Engl J Med.* 2005;353(1):33-45. [doi:10.1056/NEJMoa043800](https://doi.org/10.1056/NEJMoa043800) · [PubMed 16000354](https://pubmed.ncbi.nlm.nih.gov/16000354/)
 [^barbui-2012-ipset]: Barbui T, Finazzi G, Carobbio A, et al. Development and validation of an International Prognostic Score of thrombosis in World Health Organization-essential thrombocythemia (IPSET-thrombosis). *Blood.* 2012;120(26):5128-5133. [doi:10.1182/blood-2012-07-444067](https://doi.org/10.1182/blood-2012-07-444067) · [PubMed 23086758](https://pubmed.ncbi.nlm.nih.gov/23086758/)

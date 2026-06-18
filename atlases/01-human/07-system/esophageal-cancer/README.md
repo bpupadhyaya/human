@@ -205,6 +205,15 @@ cross_links:
   - target: 02-pathogen/03-fungi/aspergillus-fumigatus
     relation: connects-to
     note: "Chemoradiation opens the lung to mold: the neutropenia from esophageal-cancer chemoradiation, plus aspiration through a compromised swallow, can let inhaled Aspergillus invade as pulmonary aspergillosis."
+  - target: 01-human/07-system/wound-healing
+    relation: connects-to
+    note: "Oesophagectomy is among the highest-risk surgeries: rebuilding the swallowing tube after removing the oesophagus leaves a chest anastomosis notorious for leak and slow, complicated healing."
+  - target: 01-human/07-system/respiratory-system
+    relation: connects-to
+    note: "It opens onto the airway: oesophageal cancer can erode into the trachea forming a tracheo-oesophageal fistula, causes aspiration through a failing swallow, and frequently brings pulmonary complications."
+  - target: 01-human/07-system/generalized-anxiety-disorder
+    relation: connects-to
+    note: "Choking dysphagia and grim odds breed worry: the progressive difficulty swallowing, weight loss and poor prognosis of oesophageal cancer foster chronic health anxiety alongside depression."
 ---
 
 # Esophageal Cancer
@@ -405,6 +414,9 @@ T1a: Lamina propria/muscularis mucosae; T1b: Submucosa; T2: Muscularis propria; 
 - `connects-to` → **[Neuropathic Pain](../neuropathic-pain/README.md)** — Tumor and chemo injure the nerves: the cisplatin and taxane chemotherapy for esophageal cancer causes peripheral neuropathy, and tumor invasion of mediastinal nerves adds neuropathic pain.
 - `connects-to` → **[Heart Failure](../heart-failure/README.md)** — Its therapy can wound the heart: the 5-fluorouracil used for esophageal cancer can provoke coronary vasospasm and cardiotoxicity, and adjacent thoracic radiation damages the heart, risking heart failure.
 - `connects-to` → **[Aspergillus fumigatus](../../../02-pathogen/03-fungi/aspergillus-fumigatus/README.md)** — Chemoradiation opens the lung to mold: the neutropenia from esophageal-cancer chemoradiation, plus aspiration through a compromised swallow, can let inhaled Aspergillus invade as pulmonary aspergillosis.
+- `connects-to` → **[Wound Healing](../wound-healing/README.md)** — Oesophagectomy is among the highest-risk surgeries: rebuilding the swallowing tube after removing the oesophagus leaves a chest anastomosis notorious for leak and slow, complicated healing.
+- `connects-to` → **[Respiratory System](../respiratory-system/README.md)** — It opens onto the airway: oesophageal cancer can erode into the trachea forming a tracheo-oesophageal fistula, causes aspiration through a failing swallow, and frequently brings pulmonary complications.
+- `connects-to` → **[Generalized Anxiety Disorder](../generalized-anxiety-disorder/README.md)** — Choking dysphagia and grim odds breed worry: the progressive difficulty swallowing, weight loss and poor prognosis of oesophageal cancer foster chronic health anxiety alongside depression.
 
 ---
 
