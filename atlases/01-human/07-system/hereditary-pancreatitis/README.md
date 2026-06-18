@@ -241,6 +241,15 @@ cross_links:
   - target: 01-human/05-tissue/islet-of-langerhans
     relation: connects-to
     note: "Fibrosis destroys the islets: repeated inflammation scars the pancreas and obliterates the islets of Langerhans, producing the pancreatogenic (type 3c) diabetes that complicates hereditary pancreatitis."
+  - target: 01-human/07-system/hereditary-angioedema
+    relation: connects-to
+    note: "Diseases of an unchecked protease cascade: hereditary pancreatitis unleashes trypsin when its inhibitor SPINK1 fails, much as hereditary angioedema unleashes the kallikrein–bradykinin cascade when C1-inhibitor fails—each a missing brake on a destructive enzyme."
+  - target: 03-medicine/03-food/curcumin
+    relation: connects-to
+    note: "Antioxidants aimed at the pain: oxidative stress drives the inflammation and pain of chronic pancreatitis, and antioxidant compounds such as curcumin have been studied as adjuncts to reduce flares and pain in hereditary pancreatitis."
+  - target: 01-human/05-tissue/alveolus
+    relation: connects-to
+    note: "When pancreatitis reaches the lungs: a severe attack floods the blood with proteases and cytokines that injure the alveolar–capillary membrane, causing the acute respiratory distress syndrome that makes severe hereditary pancreatitis life-threatening."
 ---
 
 # Hereditary Pancreatitis
@@ -459,6 +468,9 @@ cross_links:
 - `connects-to` → **[Escherichia coli](../../../02-pathogen/02-bacteria/escherichia-coli/README.md)** — Gut bacteria infect the dead tissue: in severe acute attacks, bacteria such as Escherichia coli translocate from the bowel to infect pancreatic necrosis, a life-threatening complication needing antibiotics and drainage.
 - `connects-to` → **[Cancer Chemotherapy](../../../03-medicine/01-modern/13-cancer/cancer-chemotherapy/README.md)** — Its great late danger is pancreatic cancer: hereditary pancreatitis carries a markedly raised lifetime risk of pancreatic adenocarcinoma, which is treated with chemotherapy when it arises.
 - `connects-to` → **[Islet of Langerhans](../../05-tissue/islet-of-langerhans/README.md)** — Fibrosis destroys the islets: repeated inflammation scars the pancreas and obliterates the islets of Langerhans, producing the pancreatogenic (type 3c) diabetes that complicates hereditary pancreatitis.
+- `connects-to` → **[Hereditary Angioedema](../hereditary-angioedema/README.md)** — Diseases of an unchecked protease cascade: hereditary pancreatitis unleashes trypsin when its inhibitor SPINK1 fails, much as hereditary angioedema unleashes the kallikrein–bradykinin cascade when C1-inhibitor fails—each a missing brake on a destructive enzyme.
+- `connects-to` → **[Curcumin](../../../03-medicine/03-food/curcumin/README.md)** — Antioxidants aimed at the pain: oxidative stress drives the inflammation and pain of chronic pancreatitis, and antioxidant compounds such as curcumin have been studied as adjuncts to reduce flares and pain in hereditary pancreatitis.
+- `connects-to` → **[Alveolus](../../05-tissue/alveolus/README.md)** — When pancreatitis reaches the lungs: a severe attack floods the blood with proteases and cytokines that injure the alveolar–capillary membrane, causing the acute respiratory distress syndrome that makes severe hereditary pancreatitis life-threatening.
 
 [^whitcomb-1996-prss1]: Whitcomb DC, Gorry MC, Preston RA, et al. Hereditary pancreatitis is caused by a mutation in the cationic trypsinogen gene. *Nat Genet.* 1996;14(2):141-145. [doi:10.1038/ng1096-141](https://doi.org/10.1038/ng1096-141) · [PubMed 8841182](https://pubmed.ncbi.nlm.nih.gov/8841182/)
 [^lowenfels-2001-hp-pdac]: Lowenfels AB, Maisonneuve P, DiMagno EP, et al. Hereditary pancreatitis and the risk of pancreatic cancer. *J Natl Cancer Inst.* 2001;93(1):26-31. [doi:10.1093/jnci/93.1.26](https://doi.org/10.1093/jnci/93.1.26) · [PubMed 11136838](https://pubmed.ncbi.nlm.nih.gov/11136838/)

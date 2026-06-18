@@ -241,6 +241,15 @@ cross_links:
   - target: 03-medicine/01-modern/13-cancer/checkpoint-inhibitors
     relation: connects-to
     note: "Immunotherapy for advanced disease: PD-1 inhibitors added to chemotherapy treat advanced gastric cancer, with benefit concentrated in MSI-high and PD-L1-high tumours."
+  - target: 01-human/07-system/retinoblastoma
+    relation: connects-to
+    note: "Knudson's two-hit model in the stomach: CDH1 is a tumour-suppressor inactivated like RB1—a germline first hit plus somatic loss (often promoter methylation) of the second allele—so HDGC mirrors retinoblastoma's founding mechanism of hereditary cancer."
+  - target: 01-human/07-system/desmoid-tumor
+    relation: connects-to
+    note: "Two diseases of one adhesion complex: HDGC can arise from CTNNA1 (α-catenin) loss that breaks E-cadherin cell adhesion, while desmoid tumours arise from CTNNB1 (β-catenin) activation—opposite faults in the same cadherin–catenin Wnt machinery."
+  - target: 03-medicine/03-food/dietary-fiber
+    relation: connects-to
+    note: "Life after prophylactic gastrectomy: CDH1 carriers often undergo total gastrectomy, then manage dumping syndrome with dietary changes—small meals and soluble fibre to slow the rapid emptying of food into the small intestine."
 ---
 
 # Hereditary Diffuse Gastric Cancer
@@ -423,6 +432,9 @@ Testing for CDH1 (and CTNNA1) is indicated in any of the following:
 - `connects-to` → **[Cancer Chemotherapy](../../../03-medicine/01-modern/13-cancer/cancer-chemotherapy/README.md)** — Chemo for the diffuse cancer that escapes surgery: advanced signet-ring diffuse gastric cancer is treated with FLOT-type chemotherapy, though this discohesive subtype responds relatively poorly.
 - `connects-to` → **[Targeted Therapy](../../../03-medicine/01-modern/13-cancer/targeted-therapy/README.md)** — Claudin-18.2 offers a target: diffuse gastric cancers often express Claudin-18.2, and the antibody zolbetuximab added to chemotherapy improves survival in this otherwise hard-to-target subtype.
 - `connects-to` → **[Checkpoint Inhibitors](../../../03-medicine/01-modern/13-cancer/checkpoint-inhibitors/README.md)** — Immunotherapy for advanced disease: PD-1 inhibitors added to chemotherapy treat advanced gastric cancer, with benefit concentrated in MSI-high and PD-L1-high tumours.
+- `connects-to` → **[Retinoblastoma](../retinoblastoma/README.md)** — Knudson's two-hit model in the stomach: CDH1 is a tumour-suppressor inactivated like RB1—a germline first hit plus somatic loss (often promoter methylation) of the second allele—so HDGC mirrors retinoblastoma's founding mechanism of hereditary cancer.
+- `connects-to` → **[Desmoid Tumor](../desmoid-tumor/README.md)** — Two diseases of one adhesion complex: HDGC can arise from CTNNA1 (α-catenin) loss that breaks E-cadherin cell adhesion, while desmoid tumours arise from CTNNB1 (β-catenin) activation—opposite faults in the same cadherin–catenin Wnt machinery.
+- `connects-to` → **[Dietary Fiber](../../../03-medicine/03-food/dietary-fiber/README.md)** — Life after prophylactic gastrectomy: CDH1 carriers often undergo total gastrectomy, then manage dumping syndrome with dietary changes—small meals and soluble fibre to slow the rapid emptying of food into the small intestine.
 
 [^van-der-post-2015-hdgc-guidelines]: van der Post RS, Vogelaar IP, Carneiro F, et al. Hereditary diffuse gastric cancer: updated clinical guidelines with an emphasis on germline CDH1 mutation carriers. *J Med Genet.* 2015;52(6):361-374. [doi:10.1136/jmedgenet-2015-103094](https://doi.org/10.1136/jmedgenet-2015-103094) · [PubMed 25979631](https://pubmed.ncbi.nlm.nih.gov/25979631/)
 [^hansford-2015-hdgc]: Hansford S, Kaurah P, Li-Chang H, et al. Hereditary Diffuse Gastric Cancer Syndrome: CDH1 Mutations and Beyond. *JAMA Oncol.* 2015;1(1):23-32. [doi:10.1001/jamaoncol.2014.168](https://doi.org/10.1001/jamaoncol.2014.168) · [PubMed 26182300](https://pubmed.ncbi.nlm.nih.gov/26182300/)
