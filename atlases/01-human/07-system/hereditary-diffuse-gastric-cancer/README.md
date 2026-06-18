@@ -232,6 +232,15 @@ cross_links:
   - target: 03-medicine/03-food/zinc-dietary
     relation: connects-to
     note: "Loss of the stomach drains minerals: after risk-reducing gastrectomy, impaired gastric acid and absorption deplete iron and zinc, contributing to anaemia and poor healing."
+  - target: 03-medicine/01-modern/13-cancer/cancer-chemotherapy
+    relation: connects-to
+    note: "Chemo for the diffuse cancer that escapes surgery: advanced signet-ring diffuse gastric cancer is treated with FLOT-type chemotherapy, though this discohesive subtype responds relatively poorly."
+  - target: 03-medicine/01-modern/13-cancer/targeted-therapy
+    relation: connects-to
+    note: "Claudin-18.2 offers a target: diffuse gastric cancers often express Claudin-18.2, and the antibody zolbetuximab added to chemotherapy improves survival in this otherwise hard-to-target subtype."
+  - target: 03-medicine/01-modern/13-cancer/checkpoint-inhibitors
+    relation: connects-to
+    note: "Immunotherapy for advanced disease: PD-1 inhibitors added to chemotherapy treat advanced gastric cancer, with benefit concentrated in MSI-high and PD-L1-high tumours."
 ---
 
 # Hereditary Diffuse Gastric Cancer
@@ -411,6 +420,9 @@ Testing for CDH1 (and CTNNA1) is indicated in any of the following:
 - `connects-to` → **[MUTYH-associated Polyposis](../mutyh-associated-polyposis/README.md)** — A fellow inherited gastrointestinal-cancer syndrome: like MUTYH-associated polyposis, HDGC drives early gastrointestinal cancer needing intensive surveillance, the two entering the hereditary-GI-cancer differential.
 - `connects-to` → **[Vitamin D](../../../03-medicine/03-food/vitamin-d/README.md)** — Prophylactic surgery disturbs nutrition: the total gastrectomy that removes HDGC risk impairs absorption of vitamin D, calcium and B12, requiring lifelong supplementation.
 - `connects-to` → **[Dietary Zinc](../../../03-medicine/03-food/zinc-dietary/README.md)** — Loss of the stomach drains minerals: after risk-reducing gastrectomy, impaired gastric acid and absorption deplete iron and zinc, contributing to anaemia and poor healing.
+- `connects-to` → **[Cancer Chemotherapy](../../../03-medicine/01-modern/13-cancer/cancer-chemotherapy/README.md)** — Chemo for the diffuse cancer that escapes surgery: advanced signet-ring diffuse gastric cancer is treated with FLOT-type chemotherapy, though this discohesive subtype responds relatively poorly.
+- `connects-to` → **[Targeted Therapy](../../../03-medicine/01-modern/13-cancer/targeted-therapy/README.md)** — Claudin-18.2 offers a target: diffuse gastric cancers often express Claudin-18.2, and the antibody zolbetuximab added to chemotherapy improves survival in this otherwise hard-to-target subtype.
+- `connects-to` → **[Checkpoint Inhibitors](../../../03-medicine/01-modern/13-cancer/checkpoint-inhibitors/README.md)** — Immunotherapy for advanced disease: PD-1 inhibitors added to chemotherapy treat advanced gastric cancer, with benefit concentrated in MSI-high and PD-L1-high tumours.
 
 [^van-der-post-2015-hdgc-guidelines]: van der Post RS, Vogelaar IP, Carneiro F, et al. Hereditary diffuse gastric cancer: updated clinical guidelines with an emphasis on germline CDH1 mutation carriers. *J Med Genet.* 2015;52(6):361-374. [doi:10.1136/jmedgenet-2015-103094](https://doi.org/10.1136/jmedgenet-2015-103094) · [PubMed 25979631](https://pubmed.ncbi.nlm.nih.gov/25979631/)
 [^hansford-2015-hdgc]: Hansford S, Kaurah P, Li-Chang H, et al. Hereditary Diffuse Gastric Cancer Syndrome: CDH1 Mutations and Beyond. *JAMA Oncol.* 2015;1(1):23-32. [doi:10.1001/jamaoncol.2014.168](https://doi.org/10.1001/jamaoncol.2014.168) · [PubMed 26182300](https://pubmed.ncbi.nlm.nih.gov/26182300/)

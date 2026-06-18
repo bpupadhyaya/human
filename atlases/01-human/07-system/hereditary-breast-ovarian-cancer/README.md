@@ -232,6 +232,15 @@ cross_links:
   - target: 01-human/07-system/respiratory-system
     relation: connects-to
     note: "Advanced disease reaches the lungs: BRCA-related breast and ovarian cancers metastasise to the lungs and pleura, causing effusions and breathlessness."
+  - target: 03-medicine/01-modern/13-cancer/cancer-chemotherapy
+    relation: connects-to
+    note: "BRCA tumours are platinum-sensitive: homologous-recombination deficiency from BRCA1/2 loss makes these breast, ovarian and pancreatic cancers exquisitely sensitive to platinum chemotherapy."
+  - target: 03-medicine/01-modern/13-cancer/checkpoint-inhibitors
+    relation: connects-to
+    note: "Genomic instability invites immunotherapy: BRCA/HRD tumours carry more neoantigens, and checkpoint inhibitors, often with PARP inhibitors, benefit triple-negative breast and ovarian cancers in HBOC."
+  - target: 01-human/07-system/rothmund-thomson
+    relation: connects-to
+    note: "A fellow genomic-instability syndrome: like Rothmund-Thomson, hereditary breast-ovarian cancer stems from defective DNA repair, both belonging to the family of inherited genome-instability cancer predispositions."
 ---
 
 # Hereditary Breast and Ovarian Cancer
@@ -439,6 +448,9 @@ BRCA-mutant cells (HRD):
 - `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — It widens the cancer spectrum to the skin: BRCA2 carriers have an increased risk of melanoma, adding the skin to the breast, ovary, pancreas and prostate in BRCA-related cancer.
 - `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — Its cancers spread to bone: the breast and prostate cancers driven by BRCA mutations frequently metastasise to the skeleton, causing pain and fractures.
 - `connects-to` → **[Respiratory System](../respiratory-system/README.md)** — Advanced disease reaches the lungs: BRCA-related breast and ovarian cancers metastasise to the lungs and pleura, causing effusions and breathlessness.
+- `connects-to` → **[Cancer Chemotherapy](../../../03-medicine/01-modern/13-cancer/cancer-chemotherapy/README.md)** — BRCA tumours are platinum-sensitive: homologous-recombination deficiency from BRCA1/2 loss makes these breast, ovarian and pancreatic cancers exquisitely sensitive to platinum chemotherapy.
+- `connects-to` → **[Checkpoint Inhibitors](../../../03-medicine/01-modern/13-cancer/checkpoint-inhibitors/README.md)** — Genomic instability invites immunotherapy: BRCA/HRD tumours carry more neoantigens, and checkpoint inhibitors, often with PARP inhibitors, benefit triple-negative breast and ovarian cancers in HBOC.
+- `connects-to` → **[Rothmund-Thomson](../rothmund-thomson/README.md)** — A fellow genomic-instability syndrome: like Rothmund-Thomson, hereditary breast-ovarian cancer stems from defective DNA repair, both belonging to the family of inherited genome-instability cancer predispositions.
 
 ---
 
