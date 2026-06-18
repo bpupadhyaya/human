@@ -247,6 +247,15 @@ cross_links:
   - target: 01-human/04-cellular/osteoclast
     relation: connects-to
     note: "Bone is lost from both sides: chronic anorexia suppresses bone-forming osteoblasts while oestrogen and leptin loss unleash bone-resorbing osteoclasts, producing its early and often irreversible osteoporosis."
+  - target: 01-human/05-tissue/myocardium
+    relation: connects-to
+    note: "It starves and slows the heart: anorexia shrinks the myocardium and causes sinus bradycardia, QT prolongation and arrhythmia, and refeeding can precipitate heart failure — cardiac complications are a leading cause of death."
+  - target: 01-human/06-organ/thyroid
+    relation: connects-to
+    note: "It mimics hypothyroidism: severe undernutrition lowers active T3 in a 'sick euthyroid' adaptation, slowing metabolism and causing cold intolerance, bradycardia and fatigue that normalise with weight restoration."
+  - target: 01-human/07-system/stimulant-use-disorder
+    relation: connects-to
+    note: "Stimulants serve the illness: people with anorexia commonly misuse stimulants, appetite suppressants and other substances to suppress hunger and burn calories, adding a substance-use disorder to the eating disorder."
 ---
 
 # Anorexia Nervosa
@@ -464,6 +473,9 @@ In healthy individuals, food cues activate the mesolimbic reward circuit (VTA �
 - `connects-to` → **[Lymphatic System](../lymphatic-system/README.md)** — Starvation shrinks the immune tissue: severe anorexia causes thymic atrophy, lymphopenia and gelatinous marrow transformation, weakening lymphoid defences despite a paradoxically low infection rate at low weight.
 - `connects-to` → **[Zinc (Dietary)](../../../03-medicine/03-food/zinc-dietary/README.md)** — A deficiency that feeds the cycle: zinc deficiency is common in anorexia and itself blunts appetite and taste, so zinc supplementation is used as an adjunct to help restore weight.
 - `connects-to` → **[Osteoclast](../../04-cellular/osteoclast/README.md)** — Bone is lost from both sides: chronic anorexia suppresses bone-forming osteoblasts while oestrogen and leptin loss unleash bone-resorbing osteoclasts, producing its early and often irreversible osteoporosis.
+- `connects-to` → **[Myocardium](../../05-tissue/myocardium/README.md)** — It starves and slows the heart: anorexia shrinks the myocardium and causes sinus bradycardia, QT prolongation and arrhythmia, and refeeding can precipitate heart failure — cardiac complications are a leading cause of death.
+- `connects-to` → **[Thyroid](../../06-organ/thyroid/README.md)** — It mimics hypothyroidism: severe undernutrition lowers active T3 in a 'sick euthyroid' adaptation, slowing metabolism and causing cold intolerance, bradycardia and fatigue that normalise with weight restoration.
+- `connects-to` → **[Stimulant Use Disorder](../stimulant-use-disorder/README.md)** — Stimulants serve the illness: people with anorexia commonly misuse stimulants, appetite suppressants and other substances to suppress hunger and burn calories, adding a substance-use disorder to the eating disorder.
 
 [^treasure-2010-an-lancet]: Treasure J, Claudino AM, Zucker N. Eating disorders. *Lancet.* 2010;375(9714):583-593. [doi:10.1016/S0140-6736(09)61748-7](https://doi.org/10.1016/S0140-6736(09)61748-7) · [PubMed 19931176](https://pubmed.ncbi.nlm.nih.gov/19931176/)
 [^lock-2010-fbt-an]: Lock J, Le Grange D, Agras WS, et al. Randomized clinical trial comparing family-based treatment with adolescent-focused individual therapy for adolescents with anorexia nervosa. *Arch Gen Psychiatry.* 2010;67(10):1025-1032. [doi:10.1001/archgenpsychiatry.2010.128](https://doi.org/10.1001/archgenpsychiatry.2010.128) · [PubMed 20921118](https://pubmed.ncbi.nlm.nih.gov/20921118/)

@@ -238,6 +238,15 @@ cross_links:
   - target: 02-pathogen/01-viruses/epstein-barr-virus
     relation: connects-to
     note: "Infection can raise the antibodies: transient antiphospholipid antibodies appear after Epstein-Barr and other infections through molecular mimicry, usually without thrombosis, a key cause of false-positive testing."
+  - target: 01-human/05-tissue/arterial-wall
+    relation: connects-to
+    note: "It clots arteries, not just veins: APS uniquely causes both venous and arterial thrombosis — stroke, MI and limb ischaemia — and accelerates atherosclerosis of the arterial wall through antibody-driven endothelial activation."
+  - target: 03-medicine/01-modern/13-cancer/targeted-therapy
+    relation: connects-to
+    note: "Biologics rescue catastrophic disease: rituximab and the complement inhibitor eculizumab, with hydroxychloroquine as an antithrombotic adjunct, are used in refractory and catastrophic antiphospholipid syndrome beyond standard anticoagulation."
+  - target: 01-human/05-tissue/endocardium
+    relation: connects-to
+    note: "It scars the heart valves: APS causes Libman-Sacks endocarditis, sterile fibrin-platelet vegetations on the valve endocardium that can embolise to the brain or require valve surgery."
 ---
 
 # Antiphospholipid Syndrome
@@ -457,6 +466,9 @@ In APS, anti-B2GPI IgG bound to B2GPI on phospholipid surfaces converts this ant
 - `connects-to` → **[Warfarin](../../../03-medicine/01-modern/09-hematology/warfarin/README.md)** — Lifelong anticoagulation is its mainstay: warfarin at INR 2-3 prevents recurrent thrombosis in APS and outperforms direct oral anticoagulants, which are avoided especially in triple-antibody-positive disease.
 - `connects-to` → **[Aspirin](../../../03-medicine/01-modern/04-cardio/aspirin/README.md)** — Low-dose aspirin protects pregnancy and arteries: combined with heparin it prevents obstetric APS losses, and it is used for primary prevention in asymptomatic antiphospholipid-antibody carriers.
 - `connects-to` → **[Epstein-Barr Virus](../../../02-pathogen/01-viruses/epstein-barr-virus/README.md)** — Infection can raise the antibodies: transient antiphospholipid antibodies appear after Epstein-Barr and other infections through molecular mimicry, usually without thrombosis, a key cause of false-positive testing.
+- `connects-to` → **[Arterial Wall](../../05-tissue/arterial-wall/README.md)** — It clots arteries, not just veins: APS uniquely causes both venous and arterial thrombosis — stroke, MI and limb ischaemia — and accelerates atherosclerosis of the arterial wall through antibody-driven endothelial activation.
+- `connects-to` → **[Targeted Therapy](../../../03-medicine/01-modern/13-cancer/targeted-therapy/README.md)** — Biologics rescue catastrophic disease: rituximab and the complement inhibitor eculizumab, with hydroxychloroquine as an antithrombotic adjunct, are used in refractory and catastrophic antiphospholipid syndrome beyond standard anticoagulation.
+- `connects-to` → **[Endocardium](../../05-tissue/endocardium/README.md)** — It scars the heart valves: APS causes Libman-Sacks endocarditis, sterile fibrin-platelet vegetations on the valve endocardium that can embolise to the brain or require valve surgery.
 
 [^miyakis-2006-sydney-aps]: Miyakis S, Lockshin MD, Atsumi T, et al. International consensus statement on an update of the classification criteria for definite antiphospholipid syndrome (APS). *J Thromb Haemost.* 2006;4(2):295-306. [doi:10.1111/j.1538-7836.2006.01753.x](https://doi.org/10.1111/j.1538-7836.2006.01753.x) · [PubMed 16420554](https://pubmed.ncbi.nlm.nih.gov/16420554/)
 [^barbhaiya-2023-acreular-aps]: Barbhaiya M, Zuily S, Naden R, et al. The 2023 ACR/EULAR antiphospholipid syndrome classification criteria. *Ann Rheum Dis.* 2023;82(10):1258-1270. [doi:10.1136/ard-2023-224609](https://doi.org/10.1136/ard-2023-224609) · [PubMed 37643823](https://pubmed.ncbi.nlm.nih.gov/37643823/)
