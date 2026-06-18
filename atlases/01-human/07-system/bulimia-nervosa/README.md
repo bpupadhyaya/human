@@ -225,6 +225,15 @@ cross_links:
   - target: 01-human/07-system/immune-system
     relation: connects-to
     note: "Chronic purging wears down defences: the malnutrition and metabolic stress of recurrent vomiting modestly impair immune function and delay wound healing."
+  - target: 01-human/07-system/renal-system
+    relation: connects-to
+    note: "Purging wrecks the kidney's chemistry: recurrent vomiting and laxative abuse cause hypokalaemia, metabolic alkalosis and dehydration, leading to prerenal injury and a hypokalaemic nephropathy."
+  - target: 03-medicine/01-modern/10-mental-health/fluoxetine
+    relation: connects-to
+    note: "The one approved drug: fluoxetine is the only medication licensed for bulimia nervosa, reducing binge-purge frequency at higher doses alongside psychotherapy."
+  - target: 03-medicine/03-food/magnesium-dietary
+    relation: connects-to
+    note: "Purging drains magnesium: vomiting and diuretic or laxative misuse deplete magnesium and potassium, compounding the dangerous arrhythmias of bulimia, so replacement is part of refeeding."
 ---
 
 # Bulimia Nervosa
@@ -423,6 +432,9 @@ All of the following must be met:
 - `connects-to` → **[Respiratory System](../respiratory-system/README.md)** — Vomiting endangers the airway and chest: recurrent self-induced vomiting risks aspiration, and forceful vomiting can rupture the oesophagus (Boerhaave syndrome), causing pneumomediastinum and mediastinitis.
 - `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — Purging drains the muscles' minerals: hypokalaemia and other electrolyte losses from vomiting and laxative abuse cause muscle weakness, cramps and, in severe cases, rhabdomyolysis.
 - `connects-to` → **[Immune System](../immune-system/README.md)** — Chronic purging wears down defences: the malnutrition and metabolic stress of recurrent vomiting modestly impair immune function and delay wound healing.
+- `connects-to` → **[Renal System](../renal-system/README.md)** — Purging wrecks the kidney's chemistry: recurrent vomiting and laxative abuse cause hypokalaemia, metabolic alkalosis and dehydration, leading to prerenal injury and a hypokalaemic nephropathy.
+- `connects-to` → **[Fluoxetine](../../../03-medicine/01-modern/10-mental-health/fluoxetine/README.md)** — The one approved drug: fluoxetine is the only medication licensed for bulimia nervosa, reducing binge-purge frequency at higher doses alongside psychotherapy.
+- `connects-to` → **[Dietary Magnesium](../../../03-medicine/03-food/magnesium-dietary/README.md)** — Purging drains magnesium: vomiting and diuretic or laxative misuse deplete magnesium and potassium, compounding the dangerous arrhythmias of bulimia, so replacement is part of refeeding.
 
 ## Treatment
 

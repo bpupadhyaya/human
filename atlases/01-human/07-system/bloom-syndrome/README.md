@@ -223,6 +223,15 @@ cross_links:
   - target: 01-human/07-system/digestive-system
     relation: connects-to
     note: "It troubles the gut early and late: feeding difficulties and gastro-oesophageal reflux are common in infancy, while a high lifetime risk of gastrointestinal cancers emerges in adulthood."
+  - target: 01-human/07-system/lymphatic-system
+    relation: connects-to
+    note: "Genomic instability cripples immunity and lymphoid tissue: Bloom syndrome causes immunodeficiency with low immunoglobulins and recurrent infections, alongside a very high risk of leukaemia and lymphoma."
+  - target: 01-human/07-system/renal-system
+    relation: connects-to
+    note: "It predisposes to childhood kidney cancer: Wilms tumour is among the many malignancies the genomic instability of Bloom syndrome can cause, demanding cancer surveillance from childhood."
+  - target: 01-human/07-system/cardiovascular-system
+    relation: connects-to
+    note: "Metabolic disease reaches the heart: Bloom syndrome carries a high rate of type 2 diabetes and dyslipidaemia, bringing premature cardiovascular risk despite the patients' characteristic small stature."
 ---
 
 # Bloom Syndrome
@@ -429,6 +438,9 @@ BS is characterized by three cardinal features: **small body size** (the most co
 - `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — It stunts the whole skeleton: profound proportionate pre- and postnatal growth deficiency leaves a small, slender frame, one of the defining clinical features of Bloom syndrome.
 - `connects-to` → **[Respiratory System](../respiratory-system/README.md)** — Antibody deficiency lets the lungs get infected: the immunodeficiency of Bloom syndrome causes recurrent respiratory and ear infections that can progress to bronchiectasis.
 - `connects-to` → **[Digestive System](../digestive-system/README.md)** — It troubles the gut early and late: feeding difficulties and gastro-oesophageal reflux are common in infancy, while a high lifetime risk of gastrointestinal cancers emerges in adulthood.
+- `connects-to` → **[Lymphatic System](../lymphatic-system/README.md)** — Genomic instability cripples immunity and lymphoid tissue: Bloom syndrome causes immunodeficiency with low immunoglobulins and recurrent infections, alongside a very high risk of leukaemia and lymphoma.
+- `connects-to` → **[Renal System](../renal-system/README.md)** — It predisposes to childhood kidney cancer: Wilms tumour is among the many malignancies the genomic instability of Bloom syndrome can cause, demanding cancer surveillance from childhood.
+- `connects-to` → **[Cardiovascular System](../cardiovascular-system/README.md)** — Metabolic disease reaches the heart: Bloom syndrome carries a high rate of type 2 diabetes and dyslipidaemia, bringing premature cardiovascular risk despite the patients' characteristic small stature.
 
 ---
 
