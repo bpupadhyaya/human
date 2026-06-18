@@ -211,6 +211,15 @@ cross_links:
   - target: 01-human/07-system/generalized-anxiety-disorder
     relation: connects-to
     note: "One of the grimmest diagnoses breeds dread: the very poor survival, rapid course and relentless symptom burden of pancreatic cancer fuel intense anxiety alongside its well-known depression."
+  - target: 01-human/07-system/endocrine-system
+    relation: connects-to
+    note: "New diabetes can be its first sign: pancreatic cancer destroys islet tissue to cause new-onset diabetes, often heralding the cancer, and a Whipple resection leaves both endocrine and exocrine insufficiency."
+  - target: 01-human/07-system/nervous-system
+    relation: connects-to
+    note: "It wraps around the body's nerve plexus: pancreatic cancer invades the coeliac plexus, causing severe back pain treated by neurolysis, and it can present with a paraneoplastic depression."
+  - target: 01-human/07-system/respiratory-system
+    relation: connects-to
+    note: "It seeds the lungs and clots them: the lung is a common site of pancreatic-cancer metastasis, and its strong prothrombotic state (Trousseau) causes pulmonary emboli."
 ---
 
 # Pancreatic Cancer
@@ -395,6 +404,9 @@ cross_links:
 - `connects-to` → **[Hereditary Breast & Ovarian Cancer](../hereditary-breast-ovarian-cancer/README.md)** — BRCA mutations reach the pancreas: germline BRCA2 and BRCA1 carriers face raised pancreatic-cancer risk, and BRCA-mutant tumours are uniquely sensitive to platinum and PARP-inhibitor maintenance.
 - `connects-to` → **[Wound Healing](../wound-healing/README.md)** — The Whipple is a formidable wound: pancreaticoduodenectomy is major surgery whose pancreatic anastomosis is notorious for leak, and malnutrition and jaundice leave these wounds slow and prone to breakdown.
 - `connects-to` → **[Generalized Anxiety Disorder](../generalized-anxiety-disorder/README.md)** — One of the grimmest diagnoses breeds dread: the very poor survival, rapid course and relentless symptom burden of pancreatic cancer fuel intense anxiety alongside its well-known depression.
+- `connects-to` → **[Endocrine System](../endocrine-system/README.md)** — New diabetes can be its first sign: pancreatic cancer destroys islet tissue to cause new-onset diabetes, often heralding the cancer, and a Whipple resection leaves both endocrine and exocrine insufficiency.
+- `connects-to` → **[Nervous System](../nervous-system/README.md)** — It wraps around the body's nerve plexus: pancreatic cancer invades the coeliac plexus, causing severe back pain treated by neurolysis, and it can present with a paraneoplastic depression.
+- `connects-to` → **[Respiratory System](../respiratory-system/README.md)** — It seeds the lungs and clots them: the lung is a common site of pancreatic-cancer metastasis, and its strong prothrombotic state (Trousseau) causes pulmonary emboli.
 
 ---
 

@@ -205,6 +205,15 @@ cross_links:
   - target: 01-human/07-system/generalized-anxiety-disorder
     relation: connects-to
     note: "A chemoresistant cancer breeds worry: the platinum resistance, recurrence risk and tumour-marker surveillance of OCCC foster chronic health anxiety alongside depression."
+  - target: 01-human/07-system/endocrine-system
+    relation: connects-to
+    note: "It classically raises the calcium: ovarian clear cell carcinoma is the gynaecological tumour most associated with paraneoplastic hypercalcaemia, and its oophorectomy forces surgical menopause."
+  - target: 01-human/07-system/respiratory-system
+    relation: connects-to
+    note: "It reaches the chest: advanced OCCC causes malignant pleural effusions through diaphragmatic spread, and its strong thrombotic tendency raises the risk of pulmonary embolism."
+  - target: 01-human/07-system/digestive-system
+    relation: connects-to
+    note: "It arises from endometriosis and spreads on the peritoneum: OCCC develops from endometriotic cysts and, as it advances, seeds the peritoneum to cause ascites and bowel obstruction."
 ---
 
 # Ovarian Clear Cell Carcinoma
@@ -409,6 +418,9 @@ Comprehensive surgical staging (TAH-BSO, omentectomy, pelvic/para-aortic lymphad
 - `connects-to` → **[Neuropathic Pain](../neuropathic-pain/README.md)** — Its taxane-platinum chemo numbs the nerves: the paclitaxel and carboplatin used first-line in OCCC cause a dose-dependent, often lasting peripheral neuropathy with painful paraesthesiae.
 - `connects-to` → **[Wound Healing](../wound-healing/README.md)** — Cytoreductive surgery heals slowly: the staging and debulking surgery for OCCC, sometimes extensive and in malnourished patients, leaves abdominal wounds prone to dehiscence and delayed closure.
 - `connects-to` → **[Generalized Anxiety Disorder](../generalized-anxiety-disorder/README.md)** — A chemoresistant cancer breeds worry: the platinum resistance, recurrence risk and tumour-marker surveillance of OCCC foster chronic health anxiety alongside depression.
+- `connects-to` → **[Endocrine System](../endocrine-system/README.md)** — It classically raises the calcium: ovarian clear cell carcinoma is the gynaecological tumour most associated with paraneoplastic hypercalcaemia, and its oophorectomy forces surgical menopause.
+- `connects-to` → **[Respiratory System](../respiratory-system/README.md)** — It reaches the chest: advanced OCCC causes malignant pleural effusions through diaphragmatic spread, and its strong thrombotic tendency raises the risk of pulmonary embolism.
+- `connects-to` → **[Digestive System](../digestive-system/README.md)** — It arises from endometriosis and spreads on the peritoneum: OCCC develops from endometriotic cysts and, as it advances, seeds the peritoneum to cause ascites and bowel obstruction.
 
 ---
 
