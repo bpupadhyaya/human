@@ -214,6 +214,15 @@ cross_links:
   - target: 01-human/07-system/musculoskeletal-system
     relation: connects-to
     note: "It inflames the joints: IgA vasculitis, the systemic form of the disease, causes a transient arthritis and arthralgia of the large joints alongside its skin, gut and kidney involvement."
+  - target: 01-human/07-system/respiratory-system
+    relation: connects-to
+    note: "Colds set off its bleeding kidney: IgA nephropathy classically flares with visible haematuria during or just after an upper respiratory infection — 'synpharyngitic' haematuria — reflecting its mucosal-immune origin."
+  - target: 01-human/07-system/lymphatic-system
+    relation: connects-to
+    note: "It is born in mucosal lymphoid tissue: the galactose-deficient IgA1 that drives the disease is produced by tonsillar and gut-associated lymphoid tissue, which is why tonsillectomy is sometimes used."
+  - target: 01-human/07-system/nervous-system
+    relation: connects-to
+    note: "Its vasculitic form can reach the brain: rare central-nervous-system involvement of IgA vasculitis causes seizures, headache and intracerebral haemorrhage."
 ---
 
 # IgA Nephropathy
@@ -363,6 +372,9 @@ IgAN is a **multi-hit disease** described by the Oxford Four-Hit Model:
 - `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — Its systemic form erupts on the skin: IgA vasculitis (Henoch-Schönlein purpura), the systemic counterpart of IgA nephropathy, causes a palpable purpuric rash over the legs and buttocks.
 - `connects-to` → **[Digestive System](../digestive-system/README.md)** — The same IgA deposits inflame the gut and liver: IgA vasculitis causes colicky abdominal pain, GI bleeding and intussusception, and IgA nephropathy is strongly associated with cirrhosis.
 - `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — It inflames the joints: IgA vasculitis, the systemic form of the disease, causes a transient arthritis and arthralgia of the large joints alongside its skin, gut and kidney involvement.
+- `connects-to` → **[Respiratory System](../respiratory-system/README.md)** — Colds set off its bleeding kidney: IgA nephropathy classically flares with visible haematuria during or just after an upper respiratory infection — 'synpharyngitic' haematuria — reflecting its mucosal-immune origin.
+- `connects-to` → **[Lymphatic System](../lymphatic-system/README.md)** — It is born in mucosal lymphoid tissue: the galactose-deficient IgA1 that drives the disease is produced by tonsillar and gut-associated lymphoid tissue, which is why tonsillectomy is sometimes used.
+- `connects-to` → **[Nervous System](../nervous-system/README.md)** — Its vasculitic form can reach the brain: rare central-nervous-system involvement of IgA vasculitis causes seizures, headache and intracerebral haemorrhage.
 
 ---
 

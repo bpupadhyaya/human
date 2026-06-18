@@ -222,6 +222,15 @@ cross_links:
   - target: 01-human/07-system/generalized-anxiety-disorder
     relation: connects-to
     note: "Living with a bleeding risk breeds worry: the unpredictable platelet counts, fear of haemorrhage and relapsing course of ITP foster chronic health anxiety alongside depression."
+  - target: 01-human/07-system/lymphatic-system
+    relation: connects-to
+    note: "The spleen is its engine: the spleen is the principal site where antibody-coated platelets are destroyed and where the autoantibodies are made, which is why splenectomy is a long-standing treatment."
+  - target: 01-human/07-system/endocrine-system
+    relation: connects-to
+    note: "It clusters with autoimmune glands: ITP commonly coexists with autoimmune thyroid disease and other autoimmunity, reflecting a broader autoimmune predisposition."
+  - target: 01-human/07-system/musculoskeletal-system
+    relation: connects-to
+    note: "Its platelet-boosting drugs can scar the marrow: the thrombopoietin-receptor agonists eltrombopag and romiplostim can cause bone-marrow reticulin fibrosis with long-term use."
 ---
 
 # Immune Thrombocytopenia
@@ -425,6 +434,9 @@ ITP in pregnancy carries risk of neonatal thrombocytopenia (maternal IgG crosses
 - `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — Low platelets bleed into the skin: ITP causes petechiae, purpura and easy bruising, and the wet purpura of mucosal and oral bleeding signals a dangerously low platelet count.
 - `connects-to` → **[Digestive System](../digestive-system/README.md)** — It bleeds the gut and ties to H. pylori: severe thrombocytopenia in ITP risks gastrointestinal haemorrhage, and eradicating Helicobacter pylori can raise the platelet count in many patients.
 - `connects-to` → **[Generalized Anxiety Disorder](../generalized-anxiety-disorder/README.md)** — Living with a bleeding risk breeds worry: the unpredictable platelet counts, fear of haemorrhage and relapsing course of ITP foster chronic health anxiety alongside depression.
+- `connects-to` → **[Lymphatic System](../lymphatic-system/README.md)** — The spleen is its engine: the spleen is the principal site where antibody-coated platelets are destroyed and where the autoantibodies are made, which is why splenectomy is a long-standing treatment.
+- `connects-to` → **[Endocrine System](../endocrine-system/README.md)** — It clusters with autoimmune glands: ITP commonly coexists with autoimmune thyroid disease and other autoimmunity, reflecting a broader autoimmune predisposition.
+- `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — Its platelet-boosting drugs can scar the marrow: the thrombopoietin-receptor agonists eltrombopag and romiplostim can cause bone-marrow reticulin fibrosis with long-term use.
 
 [^cines-2002-itp-review]: Cines DB, Blanchette VS. Immune thrombocytopenic purpura. *N Engl J Med.* 2002;346(13):995-1008. [doi:10.1056/NEJMra010532](https://doi.org/10.1056/NEJMra010532) · [PubMed 11919310](https://pubmed.ncbi.nlm.nih.gov/11919310/)
 [^neunert-2019-ash-itp-guidelines]: Neunert C, et al. American Society of Hematology 2019 guidelines for immune thrombocytopenia. *Blood Adv.* 2019;3(23):3829-3866. [doi:10.1182/bloodadvances.2019000966](https://doi.org/10.1182/bloodadvances.2019000966) · [PubMed 31794604](https://pubmed.ncbi.nlm.nih.gov/31794604/)
