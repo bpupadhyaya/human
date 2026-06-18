@@ -211,6 +211,15 @@ cross_links:
   - target: 01-human/07-system/parkinsons-disease
     relation: connects-to
     note: "Small-vessel disease can mimic parkinsonism: cumulative atherosclerotic infarcts in the basal ganglia produce vascular parkinsonism, a gait-predominant syndrome overlapping with Parkinson's disease."
+  - target: 01-human/07-system/digestive-system
+    relation: connects-to
+    note: "It starves the bowel of blood: atherosclerosis of the mesenteric arteries causes chronic intestinal angina with post-meal pain and weight loss, and acute occlusion brings catastrophic bowel infarction."
+  - target: 01-human/07-system/renal-system
+    relation: connects-to
+    note: "It throttles the kidney's blood supply: atherosclerotic renal artery stenosis causes renovascular hypertension and ischaemic nephropathy, and showers of cholesterol emboli can injure the kidneys."
+  - target: 01-human/07-system/integumentary-system
+    relation: connects-to
+    note: "Chronic limb ischaemia marks the skin: atherosclerotic peripheral arterial disease leaves the legs with hair loss, shiny atrophic cool skin and thickened nails, the trophic changes of poor perfusion."
 ---
 
 # Atherosclerosis
@@ -389,6 +398,9 @@ The process begins in childhood with **fatty streaks** and progresses silently o
 - `connects-to` → **[Alzheimer's Disease](../alzheimers-disease/README.md)** — Diseased brain vessels erode the mind: cerebral atherosclerosis causes vascular dementia and lowers the threshold for Alzheimer's, the two often coexisting as the mixed dementia of later life.
 - `connects-to` → **[Wound Healing](../wound-healing/README.md)** — Blocked leg arteries starve the skin: peripheral arterial disease from atherosclerosis deprives the limbs of blood, causing ischemic ulcers and gangrene that cannot heal without restored flow.
 - `connects-to` → **[Parkinson's Disease](../parkinsons-disease/README.md)** — Small-vessel disease can mimic parkinsonism: cumulative atherosclerotic infarcts in the basal ganglia produce vascular parkinsonism, a gait-predominant syndrome overlapping with Parkinson's disease.
+- `connects-to` → **[Digestive System](../digestive-system/README.md)** — It starves the bowel of blood: atherosclerosis of the mesenteric arteries causes chronic intestinal angina with post-meal pain and weight loss, and acute occlusion brings catastrophic bowel infarction.
+- `connects-to` → **[Renal System](../renal-system/README.md)** — It throttles the kidney's blood supply: atherosclerotic renal artery stenosis causes renovascular hypertension and ischaemic nephropathy, and showers of cholesterol emboli can injure the kidneys.
+- `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — Chronic limb ischaemia marks the skin: atherosclerotic peripheral arterial disease leaves the legs with hair loss, shiny atrophic cool skin and thickened nails, the trophic changes of poor perfusion.
 
 ---
 

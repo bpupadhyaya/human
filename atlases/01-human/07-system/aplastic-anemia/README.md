@@ -205,6 +205,15 @@ cross_links:
   - target: 01-human/07-system/major-depressive-disorder
     relation: connects-to
     note: "A sudden life-threatening marrow failure weighs on mood: the abrupt diagnosis, transfusion dependence and risk of fatal infection or bleeding in aplastic anemia carry a heavy psychological burden."
+  - target: 01-human/07-system/integumentary-system
+    relation: connects-to
+    note: "Failing platelets bleed into the skin: the severe thrombocytopenia of aplastic anemia causes petechiae, purpura and mucosal bleeding, often the first visible sign of the marrow failure."
+  - target: 01-human/07-system/endocrine-system
+    relation: connects-to
+    note: "Transfusion iron overload poisons the glands: the chronic red-cell transfusions that support aplastic anemia deposit iron in the pancreas, pituitary and thyroid, causing diabetes and other endocrinopathies."
+  - target: 01-human/07-system/generalized-anxiety-disorder
+    relation: connects-to
+    note: "A precarious marrow failure breeds worry: the constant threat of bleeding and infection, transfusion dependence and uncertain prognosis of aplastic anemia foster chronic health anxiety alongside depression."
 ---
 
 # Aplastic Anemia
@@ -380,6 +389,9 @@ In >80% of acquired AA cases, the disease is **immune-mediated**: autoreactive *
 - `connects-to` → **[Chronic Kidney Disease](../ckd/README.md)** — Its immunosuppressive mainstay scars the kidney: ciclosporin, a calcineurin inhibitor central to treating aplastic anemia, is nephrotoxic, and prolonged use can leave chronic kidney impairment.
 - `connects-to` → **[Varicella-Zoster Virus](../../../02-pathogen/01-viruses/varicella-zoster-virus/README.md)** — Deep immunosuppression reawakens zoster: the profound T-cell suppression from antithymocyte globulin and ciclosporin in aplastic anemia readily reactivates latent varicella-zoster as shingles.
 - `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — A sudden life-threatening marrow failure weighs on mood: the abrupt diagnosis, transfusion dependence and risk of fatal infection or bleeding in aplastic anemia carry a heavy psychological burden.
+- `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — Failing platelets bleed into the skin: the severe thrombocytopenia of aplastic anemia causes petechiae, purpura and mucosal bleeding, often the first visible sign of the marrow failure.
+- `connects-to` → **[Endocrine System](../endocrine-system/README.md)** — Transfusion iron overload poisons the glands: the chronic red-cell transfusions that support aplastic anemia deposit iron in the pancreas, pituitary and thyroid, causing diabetes and other endocrinopathies.
+- `connects-to` → **[Generalized Anxiety Disorder](../generalized-anxiety-disorder/README.md)** — A precarious marrow failure breeds worry: the constant threat of bleeding and infection, transfusion dependence and uncertain prognosis of aplastic anemia foster chronic health anxiety alongside depression.
 
 ---
 
