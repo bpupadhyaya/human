@@ -223,6 +223,15 @@ cross_links:
   - target: 01-human/07-system/immune-system
     relation: connects-to
     note: "Its tumour-suppressor loss shapes immunity: the SMARCB1 (SWI/SNF) loss it shares with rhabdoid tumours alters chromatin regulation and the tumour's immune microenvironment."
+  - target: 03-medicine/01-modern/12-anti-inflammatory/ibuprofen
+    relation: connects-to
+    note: "Pain is its dominant feature: chronic, often severe pain from schwannomas is treated multimodally with NSAIDs like ibuprofen, alongside neuropathic agents and opioids."
+  - target: 01-human/07-system/carney-complex
+    relation: connects-to
+    note: "A fellow schwannoma syndrome: Carney complex causes psammomatous melanotic schwannomas, joining schwannomatosis and NF2 among the inherited schwannoma-predisposing disorders."
+  - target: 03-medicine/03-food/curcumin
+    relation: connects-to
+    note: "Anti-inflammatory adjuncts are tried: turmeric-derived curcumin and other anti-inflammatory supplements are used by some for the chronic pain of schwannomatosis, though evidence is limited."
 ---
 
 # Schwannomatosis
@@ -393,6 +402,9 @@ Both NF2 (22q12.2), SMARCB1 (22q11.23), and LZTR1 (22q11.21) are on chromosome 2
 - `connects-to` → **[Renal System](../renal-system/README.md)** — Pelvic tumours can block the urinary tract: retroperitoneal and pelvic schwannomas can compress the ureters and bladder, causing obstruction and urinary symptoms.
 - `connects-to` → **[Cardiovascular System](../cardiovascular-system/README.md)** — Chest tumours sit against the great vessels: intrathoracic and paraspinal schwannomas can lie against the great vessels and sympathetic chain, complicating surgery and causing autonomic symptoms.
 - `connects-to` → **[Immune System](../immune-system/README.md)** — Its tumour-suppressor loss shapes immunity: the SMARCB1 (SWI/SNF) loss it shares with rhabdoid tumours alters chromatin regulation and the tumour's immune microenvironment.
+- `connects-to` → **[Ibuprofen](../../../03-medicine/01-modern/12-anti-inflammatory/ibuprofen/README.md)** — Pain is its dominant feature: chronic, often severe pain from schwannomas is treated multimodally with NSAIDs like ibuprofen, alongside neuropathic agents and opioids.
+- `connects-to` → **[Carney Complex](../carney-complex/README.md)** — A fellow schwannoma syndrome: Carney complex causes psammomatous melanotic schwannomas, joining schwannomatosis and NF2 among the inherited schwannoma-predisposing disorders.
+- `connects-to` → **[Curcumin](../../../03-medicine/03-food/curcumin/README.md)** — Anti-inflammatory adjuncts are tried: turmeric-derived curcumin and other anti-inflammatory supplements are used by some for the chronic pain of schwannomatosis, though evidence is limited.
 
 [^merker-2012-schwannomatosis]: Merker VL, Esparza S, Smith MJ, Stemmer-Rachamimov A, Plotkin SR. Clinical features of schwannomatosis: a retrospective analysis of 87 patients. *Oncologist.* 2012;17(10):1317-1322. [doi:10.1634/theoncologist.2012-0162](https://doi.org/10.1634/theoncologist.2012-0162) · [PubMed 22927469](https://pubmed.ncbi.nlm.nih.gov/22927469/)
 [^piotrowski-2014-lztr1]: Piotrowski A, Xie J, Liu YF, et al. Germline loss-of-function mutations in LZTR1 predispose to an inherited disorder of multiple schwannomas. *Nat Genet.* 2014;46(2):182-187. [doi:10.1038/ng.2855](https://doi.org/10.1038/ng.2855) · [PubMed 24362817](https://pubmed.ncbi.nlm.nih.gov/24362817/)

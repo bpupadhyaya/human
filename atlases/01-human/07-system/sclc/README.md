@@ -223,6 +223,15 @@ cross_links:
   - target: 01-human/07-system/renal-system
     relation: connects-to
     note: "Its drugs and hormones strain the kidney: the platinum chemotherapy for SCLC is nephrotoxic, and paraneoplastic SIADH causes profound hyponatraemia needing careful correction."
+  - target: 03-medicine/01-modern/13-cancer/targeted-therapy
+    relation: connects-to
+    note: "Immunotherapy joined its chemo: checkpoint inhibitors such as atezolizumab and durvalumab added to platinum-etoposide chemotherapy modestly extend survival in small cell lung cancer."
+  - target: 01-human/07-system/integumentary-system
+    relation: connects-to
+    note: "It signals through paraneoplastic skin signs: small cell lung cancer can cause dermatomyositis and acanthosis nigricans, cutaneous clues to the underlying tumour."
+  - target: 01-human/07-system/reproductive-system
+    relation: connects-to
+    note: "Treatment threatens fertility: the intensive platinum chemotherapy for small cell lung cancer can impair fertility, and the cancer rarely metastasises to the ovaries."
 ---
 
 # Small Cell Lung Cancer
@@ -401,6 +410,9 @@ SCLC has highest rate of brain metastases among solid tumors (~50% at 2 years); 
 - `connects-to` → **[Lymphatic System](../lymphatic-system/README.md)** — It floods the nodes early: small cell lung cancer spreads rapidly and extensively to mediastinal and distant lymph nodes, central to its limited-versus-extensive staging.
 - `connects-to` → **[Cardiovascular System](../cardiovascular-system/README.md)** — Central tumours strangle the great veins: a central SCLC commonly causes superior vena cava obstruction with facial swelling and distended veins, and can invade the pericardium causing effusion.
 - `connects-to` → **[Renal System](../renal-system/README.md)** — Its drugs and hormones strain the kidney: the platinum chemotherapy for SCLC is nephrotoxic, and paraneoplastic SIADH causes profound hyponatraemia needing careful correction.
+- `connects-to` → **[Targeted Therapy](../../../03-medicine/01-modern/13-cancer/targeted-therapy/README.md)** — Immunotherapy joined its chemo: checkpoint inhibitors such as atezolizumab and durvalumab added to platinum-etoposide chemotherapy modestly extend survival in small cell lung cancer.
+- `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — It signals through paraneoplastic skin signs: small cell lung cancer can cause dermatomyositis and acanthosis nigricans, cutaneous clues to the underlying tumour.
+- `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — Treatment threatens fertility: the intensive platinum chemotherapy for small cell lung cancer can impair fertility, and the cancer rarely metastasises to the ovaries.
 
 [^horn-2018-impower133]: Horn L, Mansfield AS, Szczęsna A, et al. First-line atezolizumab plus chemotherapy in extensive-stage small-cell lung cancer. *N Engl J Med.* 2018;379(23):2220-2229. [doi:10.1056/NEJMoa1809064](https://doi.org/10.1056/NEJMoa1809064) · [PubMed 30280641](https://pubmed.ncbi.nlm.nih.gov/30280641/)
 [^paz-ares-2019-caspian]: Paz-Ares L, Dvorkin M, Chen Y, et al. Durvalumab plus platinum-etoposide versus platinum-etoposide in first-line treatment of extensive-stage small-cell lung cancer (CASPIAN). *Lancet.* 2019;394(10212):1929-1939. [doi:10.1016/S0140-6736(19)32222-6](https://doi.org/10.1016/S0140-6736(19)32222-6) · [PubMed 31590988](https://pubmed.ncbi.nlm.nih.gov/31590988/)
