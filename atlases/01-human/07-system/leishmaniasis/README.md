@@ -217,6 +217,15 @@ cross_links:
   - target: 01-human/07-system/cardiovascular-system
     relation: connects-to
     note: "Its old drugs are hard on the heart: pentavalent antimonial treatment causes QT prolongation and arrhythmias requiring ECG monitoring, and severe visceral disease can be complicated by myocarditis."
+  - target: 01-human/07-system/musculoskeletal-system
+    relation: connects-to
+    note: "Visceral disease fills the marrow: kala-azar infiltrates the bone marrow causing pancytopenia, and immune-complex arthritis can accompany the infection."
+  - target: 01-human/07-system/endocrine-system
+    relation: connects-to
+    note: "Chronic infection stunts growth and hormones: long-standing visceral leishmaniasis causes growth retardation and hypogonadism in affected children."
+  - target: 01-human/07-system/reproductive-system
+    relation: connects-to
+    note: "It can pass to the unborn: visceral leishmaniasis can be transmitted congenitally and tends to worsen with the immune changes of pregnancy."
 ---
 
 # Leishmaniasis
@@ -385,3 +394,6 @@ HIV-VL co-infection: CD4+ depletion → loss of IFN-γ production → *Leishmani
 - `connects-to` → **[Respiratory System](../respiratory-system/README.md)** — It can devour the upper airway: mucocutaneous leishmaniasis (espundia) erodes the nose, pharynx and larynx months to years after the skin lesion, threatening the airway and disfiguring the face.
 - `connects-to` → **[Renal System](../renal-system/README.md)** — Visceral disease reaches the kidney: kala-azar can cause immune-complex glomerulonephritis and interstitial nephritis, and nephrotoxic amphotericin therapy further strains renal function.
 - `connects-to` → **[Cardiovascular System](../cardiovascular-system/README.md)** — Its old drugs are hard on the heart: pentavalent antimonial treatment causes QT prolongation and arrhythmias requiring ECG monitoring, and severe visceral disease can be complicated by myocarditis.
+- `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — Visceral disease fills the marrow: kala-azar infiltrates the bone marrow causing pancytopenia, and immune-complex arthritis can accompany the infection.
+- `connects-to` → **[Endocrine System](../endocrine-system/README.md)** — Chronic infection stunts growth and hormones: long-standing visceral leishmaniasis causes growth retardation and hypogonadism in affected children.
+- `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — It can pass to the unborn: visceral leishmaniasis can be transmitted congenitally and tends to worsen with the immune changes of pregnancy.

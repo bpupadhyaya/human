@@ -222,6 +222,15 @@ cross_links:
   - target: 01-human/07-system/lymphatic-system
     relation: connects-to
     note: "It swells and can rupture the spleen: the spleen enlarges as it clears parasitised red cells, risking splenic rupture in acute infection and causing hyperreactive malarial splenomegaly with chronic exposure."
+  - target: 01-human/07-system/cardiovascular-system
+    relation: connects-to
+    note: "Severe disease collapses the circulation: 'algid malaria' brings hypotension and shock, with myocardial dysfunction from microvascular sequestration and the inflammatory response."
+  - target: 01-human/07-system/musculoskeletal-system
+    relation: connects-to
+    note: "It aches deep in the muscles: prominent myalgia and back pain accompany the fever and rigors of a malarial paroxysm."
+  - target: 01-human/07-system/integumentary-system
+    relation: connects-to
+    note: "It pointedly spares the skin: malaria characteristically causes no rash — a clue distinguishing it from dengue and other tropical fevers — though pallor and jaundice from haemolysis appear."
 ---
 
 # Malaria
@@ -448,6 +457,9 @@ cross_links:
 - `connects-to` → **[Renal System](../renal-system/README.md)** — Severe falciparum shuts down the kidney: acute kidney injury from haemoglobinuria and tubular necrosis — blackwater fever — is a defining feature of severe malaria and often needs dialysis.
 - `connects-to` → **[Endocrine System](../endocrine-system/README.md)** — It drops blood sugar dangerously: severe malaria causes hypoglycaemia through impaired gluconeogenesis and parasite glucose use, and quinine treatment worsens it by triggering hyperinsulinaemia, especially in children and pregnancy.
 - `connects-to` → **[Lymphatic System](../lymphatic-system/README.md)** — It swells and can rupture the spleen: the spleen enlarges as it clears parasitised red cells, risking splenic rupture in acute infection and causing hyperreactive malarial splenomegaly with chronic exposure.
+- `connects-to` → **[Cardiovascular System](../cardiovascular-system/README.md)** — Severe disease collapses the circulation: 'algid malaria' brings hypotension and shock, with myocardial dysfunction from microvascular sequestration and the inflammatory response.
+- `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — It aches deep in the muscles: prominent myalgia and back pain accompany the fever and rigors of a malarial paroxysm.
+- `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — It pointedly spares the skin: malaria characteristically causes no rash — a clue distinguishing it from dengue and other tropical fevers — though pallor and jaundice from haemolysis appear.
 
 [^who-malaria-report-2023]: World Health Organization. World Malaria Report 2023. WHO; 2023.
 [^white-2014-malaria-lancet]: White NJ, Pukrittayakamee S, Hien TT, et al. Malaria. *Lancet.* 2014;383(9918):723-735. [doi:10.1016/S0140-6736(13)60024-0](https://doi.org/10.1016/S0140-6736(13)60024-0) · [PubMed 23953767](https://pubmed.ncbi.nlm.nih.gov/23953767/)
