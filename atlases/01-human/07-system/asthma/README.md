@@ -214,6 +214,15 @@ cross_links:
   - target: 01-human/07-system/influenza
     relation: connects-to
     note: "Respiratory viruses ignite attacks: influenza and other viral infections are leading triggers of asthma exacerbations, inflaming the airways, so annual vaccination is advised for people with asthma."
+  - target: 01-human/07-system/nervous-system
+    relation: connects-to
+    note: "Nerves set bronchial tone: parasympathetic vagal cholinergic signalling constricts the airways and amplifies reflex bronchospasm, which is why anticholinergic bronchodilators relieve attacks."
+  - target: 01-human/07-system/digestive-system
+    relation: connects-to
+    note: "Reflux from below stokes the airway: gastro-oesophageal reflux is a common asthma comorbidity and trigger, provoking bronchospasm through microaspiration and a vagal oesophago-bronchial reflex."
+  - target: 01-human/07-system/cardiovascular-system
+    relation: connects-to
+    note: "Its drugs and the heart intersect: beta-blockers can precipitate bronchospasm in asthma, while inhaled and systemic beta-agonists cause tachycardia, tremor and, in overuse, arrhythmia."
 ---
 
 # Asthma
@@ -388,6 +397,9 @@ Asthma affects approximately **339 million people worldwide** (WHO 2019) and is 
 - `connects-to` → **[Panic Disorder](../panic-disorder/README.md)** — Breathlessness and panic feed each other: the air hunger of an asthma attack can trigger panic, and panic-driven hyperventilation in turn worsens bronchospasm, so the two disorders are strongly intertwined.
 - `connects-to` → **[Endocrine System](../endocrine-system/README.md)** — Its steroids reach far beyond the lungs: repeated oral corticosteroid courses and high-dose inhaled steroids for asthma can suppress the adrenal axis and, in children, slow growth, an endocrine cost of control.
 - `connects-to` → **[Influenza](../influenza/README.md)** — Respiratory viruses ignite attacks: influenza and other viral infections are leading triggers of asthma exacerbations, inflaming the airways, so annual vaccination is advised for people with asthma.
+- `connects-to` → **[Nervous System](../nervous-system/README.md)** — Nerves set bronchial tone: parasympathetic vagal cholinergic signalling constricts the airways and amplifies reflex bronchospasm, which is why anticholinergic bronchodilators relieve attacks.
+- `connects-to` → **[Digestive System](../digestive-system/README.md)** — Reflux from below stokes the airway: gastro-oesophageal reflux is a common asthma comorbidity and trigger, provoking bronchospasm through microaspiration and a vagal oesophago-bronchial reflex.
+- `connects-to` → **[Cardiovascular System](../cardiovascular-system/README.md)** — Its drugs and the heart intersect: beta-blockers can precipitate bronchospasm in asthma, while inhaled and systemic beta-agonists cause tachycardia, tremor and, in overuse, arrhythmia.
 
 [^gina-2023-asthma]: Global Initiative for Asthma. Global Strategy for Asthma Management and Prevention. 2023. [ginasthma.org](https://ginasthma.org/2023-gina-main-report/)
 [^wenzel-2012-asthma-phenotypes]: Wenzel SE. Asthma phenotypes: the evolution from clinical to molecular approaches. *Nat Med.* 2012;18(5):716-725. [doi:10.1038/nm.2678](https://doi.org/10.1038/nm.2678) · [PubMed 22561835](https://pubmed.ncbi.nlm.nih.gov/22561835/)

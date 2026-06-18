@@ -214,6 +214,15 @@ cross_links:
   - target: 01-human/07-system/generalized-anxiety-disorder
     relation: connects-to
     note: "A painful, progressive, lifelong disease breeds worry: the chronic pain, stiffening and uncertainty of disease progression in ankylosing spondylitis foster chronic health anxiety alongside its depression."
+  - target: 01-human/07-system/nervous-system
+    relation: connects-to
+    note: "Its fused, brittle spine endangers the cord: an ankylosed spine fractures with minor trauma and can injure the spinal cord, while long-standing disease can cause cauda equina syndrome from dural ectasia."
+  - target: 01-human/07-system/immune-system
+    relation: connects-to
+    note: "It is an HLA-B27-linked autoinflammatory disease: IL-17/IL-23 and TNF signalling drive the enthesitis and new bone formation, which is why TNF and IL-17 biologics are central to its treatment."
+  - target: 01-human/07-system/renal-system
+    relation: connects-to
+    note: "Decades of inflammation can poison the kidney: sustained systemic inflammation in ankylosing spondylitis can deposit secondary AA amyloid in the kidneys, causing proteinuria and progressive renal failure."
 ---
 
 # Ankylosing Spondylitis
@@ -388,6 +397,9 @@ AS originates at the **enthesis** — the site where tendons, ligaments, and joi
 - `connects-to` → **[Respiratory System](../respiratory-system/README.md)** — A fused chest cannot breathe freely: ankylosis of the costovertebral joints and thoracic spine stiffens the rib cage into restrictive lung disease, and apical pulmonary fibrosis adds to the burden.
 - `connects-to` → **[Varicella-Zoster Virus](../../../02-pathogen/01-viruses/varicella-zoster-virus/README.md)** — Its immunomodulatory drugs reawaken shingles: the TNF, IL-17 and JAK inhibitors used for AS blunt antiviral immunity and raise the risk of herpes-zoster reactivation.
 - `connects-to` → **[Generalized Anxiety Disorder](../generalized-anxiety-disorder/README.md)** — A painful, progressive, lifelong disease breeds worry: the chronic pain, stiffening and uncertainty of disease progression in ankylosing spondylitis foster chronic health anxiety alongside its depression.
+- `connects-to` → **[Nervous System](../nervous-system/README.md)** — Its fused, brittle spine endangers the cord: an ankylosed spine fractures with minor trauma and can injure the spinal cord, while long-standing disease can cause cauda equina syndrome from dural ectasia.
+- `connects-to` → **[Immune System](../immune-system/README.md)** — It is an HLA-B27-linked autoinflammatory disease: IL-17/IL-23 and TNF signalling drive the enthesitis and new bone formation, which is why TNF and IL-17 biologics are central to its treatment.
+- `connects-to` → **[Renal System](../renal-system/README.md)** — Decades of inflammation can poison the kidney: sustained systemic inflammation in ankylosing spondylitis can deposit secondary AA amyloid in the kidneys, causing proteinuria and progressive renal failure.
 
 [^sieper-2015-ankylosing-spondylitis-review]: Sieper J, Poddubnyy D. Ankylosing spondylitis. *Lancet.* 2017;390(10089):73-84. [doi:10.1016/S0140-6736(16)31591-4](https://doi.org/10.1016/S0140-6736(16)31591-4) · [PubMed 28110981](https://pubmed.ncbi.nlm.nih.gov/28110981/)
 [^baeten-2015-secukinumab-as]: Baeten D, Sieper J, Braun J, et al. Secukinumab, an Interleukin-17A Inhibitor, in Ankylosing Spondylitis. *N Engl J Med.* 2015;373(26):2534-2548. [doi:10.1056/NEJMoa1505066](https://doi.org/10.1056/NEJMoa1505066) · [PubMed 26699169](https://pubmed.ncbi.nlm.nih.gov/26699169/)
