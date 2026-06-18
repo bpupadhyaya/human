@@ -235,6 +235,15 @@ cross_links:
   - target: 02-pathogen/02-bacteria/neisseria-meningitidis
     relation: connects-to
     note: "Its life-saving drug invites meningococcus: eculizumab blocks the terminal complement that defends against Neisseria meningitidis, so vaccination is mandatory before treating aHUS."
+  - target: 02-pathogen/01-viruses/influenza-a
+    relation: connects-to
+    note: "Infection can flip the switch: influenza A, especially H1N1, is a recognised trigger that unmasks complement-mediated aHUS in genetically predisposed people, precipitating thrombotic microangiopathy."
+  - target: 02-pathogen/01-viruses/hiv-1
+    relation: connects-to
+    note: "A virus that injures the endothelium: untreated HIV can cause a thrombotic microangiopathy resembling aHUS, through direct endothelial damage and complement activation."
+  - target: 03-medicine/01-modern/13-cancer/cancer-chemotherapy
+    relation: connects-to
+    note: "Some chemotherapy mimics it: drugs such as gemcitabine and mitomycin C cause a drug-induced thrombotic microangiopathy that overlaps clinically with complement-mediated aHUS."
 ---
 
 # Atypical HUS
@@ -469,6 +478,9 @@ Repeated TMA episodes → glomerular fibrosis → CKD → ESRD
 - `connects-to` → **[Renal System](../renal-system/README.md)** — The kidney is its prime target: aHUS is fundamentally a renal thrombotic microangiopathy causing acute kidney injury that often progresses to end-stage failure without complement-blocking therapy.
 - `connects-to` → **[Respiratory System](../respiratory-system/README.md)** — Severe disease can flood the lungs: diffuse alveolar haemorrhage and pulmonary thrombotic microangiopathy occur in severe systemic aHUS.
 - `connects-to` → **[Neisseria meningitidis](../../../02-pathogen/02-bacteria/neisseria-meningitidis/README.md)** — Its life-saving drug invites meningococcus: eculizumab blocks the terminal complement that defends against Neisseria meningitidis, so vaccination is mandatory before treating aHUS.
+- `connects-to` → **[Influenza A](../../../02-pathogen/01-viruses/influenza-a/README.md)** — Infection can flip the switch: influenza A, especially H1N1, is a recognised trigger that unmasks complement-mediated aHUS in genetically predisposed people, precipitating thrombotic microangiopathy.
+- `connects-to` → **[HIV-1](../../../02-pathogen/01-viruses/hiv-1/README.md)** — A virus that injures the endothelium: untreated HIV can cause a thrombotic microangiopathy resembling aHUS, through direct endothelial damage and complement activation.
+- `connects-to` → **[Cancer Chemotherapy](../../../03-medicine/01-modern/13-cancer/cancer-chemotherapy/README.md)** — Some chemotherapy mimics it: drugs such as gemcitabine and mitomycin C cause a drug-induced thrombotic microangiopathy that overlaps clinically with complement-mediated aHUS.
 
 [^fakhouri-2017-ahus-lancet]: Fakhouri F, Zuber J, Frémeaux-Bacchi V, Loirat C. Haemolytic uraemic syndrome. *Lancet.* 2017;390(10095):681-696. [doi:10.1016/S0140-6736(17)30062-4](https://doi.org/10.1016/S0140-6736(17)30062-4) · [PubMed 28242109](https://pubmed.ncbi.nlm.nih.gov/28242109/)
 [^legendre-2013-eculizumab-ahus-nejm]: Legendre CM, Licht C, Muus P, et al. Terminal complement inhibitor eculizumab in atypical hemolytic-uremic syndrome. *N Engl J Med.* 2013;368(23):2169-2181. [doi:10.1056/NEJMoa1208981](https://doi.org/10.1056/NEJMoa1208981) · [PubMed 23738544](https://pubmed.ncbi.nlm.nih.gov/23738544/)
