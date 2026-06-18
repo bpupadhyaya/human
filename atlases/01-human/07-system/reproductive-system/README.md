@@ -203,6 +203,15 @@ cross_links:
   - target: 02-pathogen/01-viruses/herpesvirus
     relation: connects-to
     note: "Herpesviruses colonise the genital tract: HSV causes genital herpes transmitted sexually, persisting latent in sacral ganglia and posing a serious risk of neonatal infection during delivery."
+  - target: 01-human/07-system/wound-healing
+    relation: connects-to
+    note: "Childbirth and its surgery leave wounds to heal: vaginal delivery causes perineal tears and episiotomies, and caesarean section a uterine and abdominal-wall wound, all needing to heal in the postpartum period."
+  - target: 02-pathogen/02-bacteria/streptococcus-pyogenes
+    relation: connects-to
+    note: "Childbed fever stalks the puerperium: Streptococcus pyogenes infecting the raw post-delivery uterus causes puerperal sepsis and endometritis, the historic killer that hand hygiene helped tame."
+  - target: 02-pathogen/01-viruses/hepatitis-b-virus
+    relation: connects-to
+    note: "It transmits a virus sexually and to the newborn: hepatitis B spreads through sexual contact and, crucially, vertically from mother to baby at birth, which neonatal vaccination is designed to prevent."
 ---
 
 # Reproductive System
@@ -380,6 +389,9 @@ Testosterone binds androgen receptor (AR, nuclear receptor NR3C4) → AR dimeriz
 - `connects-to` → **[Renal System](../renal-system/README.md)** — They share the genitourinary tract and embryology: the reproductive and urinary systems develop together and run side by side, so prostatic disease, pelvic surgery and pregnancy all directly affect the kidneys and bladder.
 - `connects-to` → **[Hypertension](../hypertension/README.md)** — Pregnancy can drive blood pressure dangerously high: pre-eclampsia and gestational hypertension are reproductive-specific disorders of pregnancy, and they flag a woman's raised lifelong cardiovascular risk.
 - `connects-to` → **[Herpesviridae](../../../02-pathogen/01-viruses/herpesvirus/README.md)** — Herpesviruses colonise the genital tract: HSV causes genital herpes transmitted sexually, persisting latent in sacral ganglia and posing a serious risk of neonatal infection during delivery.
+- `connects-to` → **[Wound Healing](../wound-healing/README.md)** — Childbirth and its surgery leave wounds to heal: vaginal delivery causes perineal tears and episiotomies, and caesarean section a uterine and abdominal-wall wound, all needing to heal in the postpartum period.
+- `connects-to` → **[Streptococcus pyogenes](../../../02-pathogen/02-bacteria/streptococcus-pyogenes/README.md)** — Childbed fever stalks the puerperium: Streptococcus pyogenes infecting the raw post-delivery uterus causes puerperal sepsis and endometritis, the historic killer that hand hygiene helped tame.
+- `connects-to` → **[Hepatitis B Virus](../../../02-pathogen/01-viruses/hepatitis-b-virus/README.md)** — It transmits a virus sexually and to the newborn: hepatitis B spreads through sexual contact and, crucially, vertically from mother to baby at birth, which neonatal vaccination is designed to prevent.
 
 ## Pathology
 

@@ -205,6 +205,15 @@ cross_links:
   - target: 01-human/07-system/generalized-anxiety-disorder
     relation: connects-to
     note: "A heritable childhood cancer breeds lasting worry: vision loss, the genetic risk to future children and lifelong second-cancer surveillance after RB1 retinoblastoma foster chronic anxiety in survivors and families."
+  - target: 01-human/07-system/musculoskeletal-system
+    relation: connects-to
+    note: "Radiation deforms the growing face and seeds sarcoma: orbital radiotherapy stunts midfacial bone growth, and germline RB1 carriers face a high risk of radiation-induced and spontaneous bone sarcomas."
+  - target: 01-human/07-system/digestive-system
+    relation: connects-to
+    note: "Its chemotherapy injures the gut: the systemic chemotherapy for retinoblastoma causes mucositis, nausea and, with some agents, hepatotoxicity in the young patient."
+  - target: 01-human/07-system/integumentary-system
+    relation: connects-to
+    note: "Enucleation and radiation mark the orbit: removing the eye leaves a socket fitted with a prosthesis, and orbital radiation thins and scars the periorbital skin and lashes."
 ---
 
 # Retinoblastoma
@@ -380,6 +389,9 @@ Standard regimen: **vincristine + carboplatin + etoposide (VCE)**, 6 cycles; red
 - `connects-to` → **[Wound Healing](../wound-healing/README.md)** — Enucleation is a healing challenge in a child: removing the eye and fitting an orbital implant leaves a socket that must heal, and chemotherapy and any orbital radiation slow and complicate that closure.
 - `connects-to` → **[Varicella-Zoster Virus](../../../02-pathogen/01-viruses/varicella-zoster-virus/README.md)** — Chemotherapy reawakens shingles: the systemic chemotherapy for retinoblastoma suppresses a child's immunity, allowing latent or primary varicella-zoster to cause severe disseminated infection.
 - `connects-to` → **[Generalized Anxiety Disorder](../generalized-anxiety-disorder/README.md)** — A heritable childhood cancer breeds lasting worry: vision loss, the genetic risk to future children and lifelong second-cancer surveillance after RB1 retinoblastoma foster chronic anxiety in survivors and families.
+- `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — Radiation deforms the growing face and seeds sarcoma: orbital radiotherapy stunts midfacial bone growth, and germline RB1 carriers face a high risk of radiation-induced and spontaneous bone sarcomas.
+- `connects-to` → **[Digestive System](../digestive-system/README.md)** — Its chemotherapy injures the gut: the systemic chemotherapy for retinoblastoma causes mucositis, nausea and, with some agents, hepatotoxicity in the young patient.
+- `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — Enucleation and radiation mark the orbit: removing the eye leaves a socket fitted with a prosthesis, and orbital radiation thins and scars the periorbital skin and lashes.
 
 [^knudson-1971-two-hit]: Knudson AG Jr. Mutation and cancer: statistical study of retinoblastoma. *Proc Natl Acad Sci USA.* 1971;68(4):820-823. [doi:10.1073/pnas.68.4.820](https://doi.org/10.1073/pnas.68.4.820) · [PubMed 5279523](https://pubmed.ncbi.nlm.nih.gov/5279523/)
 [^shields-2008-retinoblastoma]: Shields CL, Shields JA. Retinoblastoma management: advances in enucleation, intravenous chemoreduction, and intra-arterial chemotherapy. *Curr Opin Ophthalmol.* 2010;21(3):203-212. [doi:10.1097/ICU.0b013e328338676a](https://doi.org/10.1097/ICU.0b013e328338676a) · [PubMed 20224400](https://pubmed.ncbi.nlm.nih.gov/20224400/)
