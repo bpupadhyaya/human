@@ -229,6 +229,15 @@ cross_links:
   - target: 01-human/07-system/nervous-system
     relation: connects-to
     note: "It can reach the nerves: terminal-ileal Crohn's causes vitamin B12 deficiency with neuropathy, and IBD raises the risk of cerebral venous thrombosis and peripheral neuropathy."
+  - target: 01-human/07-system/cardiovascular-system
+    relation: connects-to
+    note: "Chronic gut inflammation reaches the vessels: IBD raises the risk of venous thromboembolism and, through systemic inflammation, of cardiovascular disease and rare pericarditis."
+  - target: 01-human/07-system/reproductive-system
+    relation: connects-to
+    note: "It touches fertility and pregnancy: active IBD and pelvic surgery can impair fertility, sulfasalazine causes reversible male infertility, and flares complicate pregnancy."
+  - target: 01-human/07-system/lymphatic-system
+    relation: connects-to
+    note: "Its drugs raise lymphoma risk: thiopurines and anti-TNF therapy for IBD slightly increase the risk of lymphoma, including the rare hepatosplenic T-cell lymphoma in young men."
 ---
 
 # Inflammatory Bowel Disease
@@ -427,6 +436,9 @@ IBD is a complex polygenic disease with >240 susceptibility loci (GWAS):
 - `connects-to` → **[Immune System](../immune-system/README.md)** — It is an immune-mediated disease at its core: dysregulated mucosal immunity with the IL-23/Th17 axis and innate immune defects drives the gut inflammation that biologic therapies target.
 - `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — It inflames joints beyond the gut: enteropathic peripheral arthritis and sacroiliitis are common extraintestinal manifestations, alongside the steroid- and inflammation-driven bone loss of IBD.
 - `connects-to` → **[Nervous System](../nervous-system/README.md)** — It can reach the nerves: terminal-ileal Crohn's causes vitamin B12 deficiency with neuropathy, and IBD raises the risk of cerebral venous thrombosis and peripheral neuropathy.
+- `connects-to` → **[Cardiovascular System](../cardiovascular-system/README.md)** — Chronic gut inflammation reaches the vessels: IBD raises the risk of venous thromboembolism and, through systemic inflammation, of cardiovascular disease and rare pericarditis.
+- `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — It touches fertility and pregnancy: active IBD and pelvic surgery can impair fertility, sulfasalazine causes reversible male infertility, and flares complicate pregnancy.
+- `connects-to` → **[Lymphatic System](../lymphatic-system/README.md)** — Its drugs raise lymphoma risk: thiopurines and anti-TNF therapy for IBD slightly increase the risk of lymphoma, including the rare hepatosplenic T-cell lymphoma in young men.
 
 [^ng-2017-ibd-epidemiology]: Ng SC, Shi HY, Hamidi N, et al. Worldwide incidence and prevalence of inflammatory bowel disease in the 21st century: a systematic review of population-based studies. *Lancet.* 2018;390(10114):2769-2778. [doi:10.1016/S0140-6736(17)32448-0](https://doi.org/10.1016/S0140-6736(17)32448-0) · [PubMed 29050646](https://pubmed.ncbi.nlm.nih.gov/29050646/)
 [^sandborn-2012-vedolizumab]: Feagan BG, Rutgeerts P, Sands BE, et al. Vedolizumab as induction and maintenance therapy for ulcerative colitis. *N Engl J Med.* 2013;369(8):699-710. [doi:10.1056/NEJMoa1215734](https://doi.org/10.1056/NEJMoa1215734) · [PubMed 23964932](https://pubmed.ncbi.nlm.nih.gov/23964932/)

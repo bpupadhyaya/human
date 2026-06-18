@@ -223,6 +223,15 @@ cross_links:
   - target: 01-human/07-system/immune-system
     relation: connects-to
     note: "Its gene also governs immunity: SMAD4 transduces TGF-β signalling that regulates immune tolerance, so its loss has effects beyond the gut and vasculature."
+  - target: 01-human/07-system/reproductive-system
+    relation: connects-to
+    note: "It demands genetic counselling: as an autosomal-dominant SMAD4/BMPR1A condition, juvenile polyposis raises questions of inheritance and prenatal testing for affected families."
+  - target: 01-human/07-system/endocrine-system
+    relation: connects-to
+    note: "It can stunt childhood growth: a heavy polyp burden causes chronic blood and protein loss with anaemia and failure to thrive, impairing growth in affected children."
+  - target: 03-medicine/03-food/dietary-fiber
+    relation: connects-to
+    note: "Diet supports the at-risk colon: a high-fibre diet aids colorectal health, a backdrop to the lifelong endoscopic surveillance that juvenile polyposis's raised cancer risk requires."
 ---
 
 # Juvenile Polyposis Syndrome
@@ -421,6 +430,9 @@ No approved chemopreventive agents specifically for JPS. Options under investiga
 - `connects-to` → **[Lymphatic System](../lymphatic-system/README.md)** — Heavy polyposis leaks protein from the gut: extensive juvenile polyposis, especially in infants, causes protein-losing enteropathy with low albumin and oedema as protein escapes into the bowel.
 - `connects-to` → **[Renal System](../renal-system/README.md)** — It can bleed from kidney and gut: SMAD4-related JPS-HHT can form renal arteriovenous malformations causing haematuria, while chronic polyp bleeding drives iron-deficiency anaemia.
 - `connects-to` → **[Immune System](../immune-system/README.md)** — Its gene also governs immunity: SMAD4 transduces TGF-β signalling that regulates immune tolerance, so its loss has effects beyond the gut and vasculature.
+- `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — It demands genetic counselling: as an autosomal-dominant SMAD4/BMPR1A condition, juvenile polyposis raises questions of inheritance and prenatal testing for affected families.
+- `connects-to` → **[Endocrine System](../endocrine-system/README.md)** — It can stunt childhood growth: a heavy polyp burden causes chronic blood and protein loss with anaemia and failure to thrive, impairing growth in affected children.
+- `connects-to` → **[Dietary Fiber](../../../03-medicine/03-food/dietary-fiber/README.md)** — Diet supports the at-risk colon: a high-fibre diet aids colorectal health, a backdrop to the lifelong endoscopic surveillance that juvenile polyposis's raised cancer risk requires.
 
 [^howe-1998-smad4-jps]: Howe JR, Roth S, Ringold JC, et al. Mutations in the SMAD4/DPC4 gene in juvenile polyposis. *Science.* 1998;280(5366):1086-1088. [doi:10.1126/science.280.5366.1086](https://doi.org/10.1126/science.280.5366.1086) · [PubMed 9582123](https://pubmed.ncbi.nlm.nih.gov/9582123/)
 [^aretz-2007-jps-spectrum]: Aretz S, Stienen D, Uhlhaas S, et al. High proportion of large genomic deletions and a genotype-phenotype update in 80 unrelated families with juvenile polyposis syndrome. *J Med Genet.* 2007;44(11):702-709. [doi:10.1136/jmg.2007.051839](https://doi.org/10.1136/jmg.2007.051839) · [PubMed 17601924](https://pubmed.ncbi.nlm.nih.gov/17601924/)
