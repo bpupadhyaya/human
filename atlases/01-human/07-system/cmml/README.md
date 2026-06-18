@@ -241,6 +241,15 @@ cross_links:
   - target: 01-human/04-cellular/endothelial-cell
     relation: connects-to
     note: "Clonal monocytes injure the vessel lining: the mutant monocytes of CMML and clonal haematopoiesis promote endothelial inflammation, linking the marrow disorder to vascular disease."
+  - target: 03-medicine/01-modern/13-cancer/targeted-therapy
+    relation: connects-to
+    note: "Hypomethylators and JAK inhibition: azacitidine and decitabine (hypomethylating agents) are mainstays for higher-risk CMML, and JAK inhibitors are used for the proliferative, splenomegalic subtype driven by its monocytosis."
+  - target: 01-human/05-tissue/hepatic-lobule
+    relation: connects-to
+    note: "Monocytes infiltrate the liver: proliferative CMML causes hepatosplenomegaly as malignant monocytes and extramedullary haematopoiesis populate the liver lobule, adding organomegaly to its cytopenias."
+  - target: 01-human/07-system/rheumatoid-arthritis
+    relation: connects-to
+    note: "It comes with autoimmunity: CMML and the myelodysplastic syndromes are associated with systemic inflammatory and autoimmune disorders including inflammatory arthritis and vasculitis, paraneoplastic manifestations of the clonal marrow."
 ---
 
 # Chronic Myelomonocytic Leukemia
@@ -441,6 +450,9 @@ CMML → AML transformation (~15-30% at 5 years): Treat as secondary AML; CPX-35
 - `connects-to` → **[Cancer Chemotherapy](../../../03-medicine/01-modern/13-cancer/cancer-chemotherapy/README.md)** — Hypomethylating agents lead its care: azacitidine and decitabine, with hydroxyurea for proliferative disease, are the mainstays for chronic myelomonocytic leukaemia short of transplant.
 - `connects-to` → **[Atherosclerosis](../atherosclerosis/README.md)** — Clonal mutations inflame the arteries: the TET2 and DNMT3A mutations that drive CMML also define clonal haematopoiesis, which independently accelerates atherosclerosis through inflammatory monocytes.
 - `connects-to` → **[Endothelial Cell](../../04-cellular/endothelial-cell/README.md)** — Clonal monocytes injure the vessel lining: the mutant monocytes of CMML and clonal haematopoiesis promote endothelial inflammation, linking the marrow disorder to vascular disease.
+- `connects-to` → **[Targeted Therapy](../../../03-medicine/01-modern/13-cancer/targeted-therapy/README.md)** — Hypomethylators and JAK inhibition: azacitidine and decitabine (hypomethylating agents) are mainstays for higher-risk CMML, and JAK inhibitors are used for the proliferative, splenomegalic subtype driven by its monocytosis.
+- `connects-to` → **[Hepatic Lobule](../../05-tissue/hepatic-lobule/README.md)** — Monocytes infiltrate the liver: proliferative CMML causes hepatosplenomegaly as malignant monocytes and extramedullary haematopoiesis populate the liver lobule, adding organomegaly to its cytopenias.
+- `connects-to` → **[Rheumatoid Arthritis](../rheumatoid-arthritis/README.md)** — It comes with autoimmunity: CMML and the myelodysplastic syndromes are associated with systemic inflammatory and autoimmune disorders including inflammatory arthritis and vasculitis, paraneoplastic manifestations of the clonal marrow.
 
 ---
 

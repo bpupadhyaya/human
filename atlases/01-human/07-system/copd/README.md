@@ -247,6 +247,15 @@ cross_links:
   - target: 01-human/07-system/obesity
     relation: connects-to
     note: "Weight cuts both ways: obesity worsens breathlessness and can overlap with obesity-hypoventilation, yet a higher body-mass index is paradoxically associated with better survival in advanced COPD."
+  - target: 01-human/05-tissue/lung-slice
+    relation: connects-to
+    note: "It destroys the lung architecture: COPD merges emphysematous loss of alveolar walls with small-airway inflammation and mucus, the parenchymal and airway destruction on a lung slice that produces irreversible airflow obstruction."
+  - target: 01-human/05-tissue/myocardium
+    relation: connects-to
+    note: "It overloads the right heart: chronic hypoxic pulmonary vasoconstriction raises pulmonary pressure, and the resulting right-ventricular hypertrophy and failure — cor pulmonale — is a major cause of death in COPD."
+  - target: 03-medicine/01-modern/13-cancer/targeted-therapy
+    relation: connects-to
+    note: "Biologics reach eosinophilic COPD: dupilumab, the anti-IL-4Rα antibody, was approved for COPD with type-2 (eosinophilic) inflammation, bringing targeted biologic therapy to a disease long treated only with bronchodilators and steroids."
 ---
 
 # COPD
@@ -466,6 +475,9 @@ COPD encompasses two overlapping pathological processes:
 - `connects-to` → **[Beta-Blockers](../../../03-medicine/01-modern/04-cardio/beta-blockers/README.md)** — A heart drug long feared but safe: cardioselective beta-blockers are safe and beneficial in COPD patients with heart disease, and the old blanket contraindication has been abandoned.
 - `connects-to` → **[SARS-CoV-2](../../../02-pathogen/01-viruses/sars-cov-2/README.md)** — A virus that hits the damaged lung hard: COPD raises the risk of severe COVID-19 and respiratory failure, and SARS-CoV-2 is now a major cause of the infective exacerbations that worsen it.
 - `connects-to` → **[Obesity](../obesity/README.md)** — Weight cuts both ways: obesity worsens breathlessness and can overlap with obesity-hypoventilation, yet a higher body-mass index is paradoxically associated with better survival in advanced COPD.
+- `connects-to` → **[Lung Slice](../../05-tissue/lung-slice/README.md)** — It destroys the lung architecture: COPD merges emphysematous loss of alveolar walls with small-airway inflammation and mucus, the parenchymal and airway destruction on a lung slice that produces irreversible airflow obstruction.
+- `connects-to` → **[Myocardium](../../05-tissue/myocardium/README.md)** — It overloads the right heart: chronic hypoxic pulmonary vasoconstriction raises pulmonary pressure, and the resulting right-ventricular hypertrophy and failure — cor pulmonale — is a major cause of death in COPD.
+- `connects-to` → **[Targeted Therapy](../../../03-medicine/01-modern/13-cancer/targeted-therapy/README.md)** — Biologics reach eosinophilic COPD: dupilumab, the anti-IL-4Rα antibody, was approved for COPD with type-2 (eosinophilic) inflammation, bringing targeted biologic therapy to a disease long treated only with bronchodilators and steroids.
 
 ---
 
