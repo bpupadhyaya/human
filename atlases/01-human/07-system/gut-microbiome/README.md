@@ -217,6 +217,15 @@ cross_links:
   - target: 01-human/07-system/musculoskeletal-system
     relation: connects-to
     note: "A gut-bone axis tunes the skeleton: short-chain fatty acids, immune signalling and the absorption of calcium and vitamin K let the microbiome modulate bone density and osteoporosis risk."
+  - target: 01-human/07-system/lymphatic-system
+    relation: connects-to
+    note: "It trains the body's largest lymphoid mass: the gut wall holds gut-associated lymphoid tissue and Peyer's patches, which the microbiome shapes to educate systemic immunity from birth."
+  - target: 01-human/07-system/integumentary-system
+    relation: connects-to
+    note: "A gut-skin axis reaches the surface: microbial metabolites and immune signalling link the gut microbiome to acne, rosacea, atopic dermatitis and psoriasis."
+  - target: 01-human/07-system/renal-system
+    relation: connects-to
+    note: "A gut-kidney axis carries toxins: microbial metabolites such as indoxyl sulfate, p-cresyl sulfate and TMAO are uraemic toxins that accumulate and accelerate damage in chronic kidney disease."
 ---
 
 # Gut Microbiome
@@ -361,6 +370,9 @@ The microbiome influences CNS function via multiple pathways:
 - `connects-to` → **[Cardiovascular System](../cardiovascular-system/README.md)** — Its metabolites reach the heart and vessels: gut microbes generate TMAO that promotes atherosclerosis and short-chain fatty acids that help set blood pressure, linking the microbiome to cardiovascular risk.
 - `connects-to` → **[Respiratory System](../respiratory-system/README.md)** — A gut-lung axis shapes the airways: the intestinal microbiome trains systemic and mucosal immunity, influencing susceptibility to respiratory infection and the development of asthma and allergy.
 - `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — A gut-bone axis tunes the skeleton: short-chain fatty acids, immune signalling and the absorption of calcium and vitamin K let the microbiome modulate bone density and osteoporosis risk.
+- `connects-to` → **[Lymphatic System](../lymphatic-system/README.md)** — It trains the body's largest lymphoid mass: the gut wall holds gut-associated lymphoid tissue and Peyer's patches, which the microbiome shapes to educate systemic immunity from birth.
+- `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — A gut-skin axis reaches the surface: microbial metabolites and immune signalling link the gut microbiome to acne, rosacea, atopic dermatitis and psoriasis.
+- `connects-to` → **[Renal System](../renal-system/README.md)** — A gut-kidney axis carries toxins: microbial metabolites such as indoxyl sulfate, p-cresyl sulfate and TMAO are uraemic toxins that accumulate and accelerate damage in chronic kidney disease.
 
 ## Pathology
 

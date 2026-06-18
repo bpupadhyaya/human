@@ -217,6 +217,15 @@ cross_links:
   - target: 01-human/07-system/endocrine-system
     relation: connects-to
     note: "Hormones drive its decline: neurohormonal activation of the renin-angiotensin-aldosterone and sympathetic systems propels heart failure, so blocking them with ACE inhibitors, MRAs and beta-blockers is the core of therapy."
+  - target: 01-human/07-system/musculoskeletal-system
+    relation: connects-to
+    note: "It wastes the muscles: advanced heart failure causes cardiac cachexia with skeletal-muscle wasting and sarcopenia that reduce exercise capacity and worsen prognosis."
+  - target: 01-human/07-system/nervous-system
+    relation: connects-to
+    note: "Low output and overdrive disturb the brain: chronic cerebral hypoperfusion impairs cognition, sympathetic overactivation drives progression, and Cheyne-Stokes breathing fragments sleep."
+  - target: 01-human/07-system/immune-system
+    relation: connects-to
+    note: "Inflammation feeds its decline: raised inflammatory cytokines such as TNF and IL-6 contribute to cardiac cachexia and the progression of heart failure."
 ---
 
 # Heart Failure
@@ -356,6 +365,9 @@ Normal hearts increase stroke volume with increasing preload (Starling curve). T
 - `connects-to` → **[Respiratory System](../respiratory-system/README.md)** — It floods the lungs: a failing left heart backs pressure into the pulmonary circulation, causing congestion and oedema with orthopnoea, paroxysmal nocturnal dyspnoea, pleural effusions and Cheyne-Stokes breathing.
 - `connects-to` → **[Renal System](../renal-system/README.md)** — Heart and kidney fail together: in cardiorenal syndrome poor cardiac output and venous congestion impair renal function, while fluid retention worsens the heart, and diuretic resistance complicates both.
 - `connects-to` → **[Endocrine System](../endocrine-system/README.md)** — Hormones drive its decline: neurohormonal activation of the renin-angiotensin-aldosterone and sympathetic systems propels heart failure, so blocking them with ACE inhibitors, MRAs and beta-blockers is the core of therapy.
+- `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — It wastes the muscles: advanced heart failure causes cardiac cachexia with skeletal-muscle wasting and sarcopenia that reduce exercise capacity and worsen prognosis.
+- `connects-to` → **[Nervous System](../nervous-system/README.md)** — Low output and overdrive disturb the brain: chronic cerebral hypoperfusion impairs cognition, sympathetic overactivation drives progression, and Cheyne-Stokes breathing fragments sleep.
+- `connects-to` → **[Immune System](../immune-system/README.md)** — Inflammation feeds its decline: raised inflammatory cytokines such as TNF and IL-6 contribute to cardiac cachexia and the progression of heart failure.
 
 ## Pathology
 
