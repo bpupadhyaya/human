@@ -229,6 +229,15 @@ cross_links:
   - target: 01-human/07-system/nervous-system
     relation: connects-to
     note: "It can reach the brain and pelvic nerves: advanced bladder cancer occasionally metastasises to the brain, and pelvic tumour or radical surgery can injure nerves controlling continence and sexual function."
+  - target: 01-human/07-system/respiratory-system
+    relation: connects-to
+    note: "It shares its main cause with lung cancer: smoking is the leading risk factor for bladder cancer, and advanced disease metastasises to the lungs."
+  - target: 01-human/07-system/cardiovascular-system
+    relation: connects-to
+    note: "Treatment burdens the heart: cisplatin-based chemotherapy for muscle-invasive bladder cancer carries cardiovascular and thromboembolic risk, compounding the smoking-related vascular disease these patients often have."
+  - target: 01-human/07-system/integumentary-system
+    relation: connects-to
+    note: "It rarely reaches the skin: cutaneous metastases are an uncommon, late sign, and intravesical BCG immunotherapy can trigger systemic and skin hypersensitivity reactions."
 ---
 
 # Bladder Cancer
@@ -420,6 +429,9 @@ NMIBC and MIBC have distinct molecular landscapes:
 - `connects-to` → **[Lymphatic System](../lymphatic-system/README.md)** — Pelvic nodes decide its stage: lymph-node involvement is a key prognostic factor in bladder cancer, so pelvic lymphadenectomy accompanies radical cystectomy.
 - `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — It spreads to bone: the skeleton is a common site of distant metastasis in advanced bladder cancer, causing painful osteolytic lesions and pathological fractures.
 - `connects-to` → **[Nervous System](../nervous-system/README.md)** — It can reach the brain and pelvic nerves: advanced bladder cancer occasionally metastasises to the brain, and pelvic tumour or radical surgery can injure nerves controlling continence and sexual function.
+- `connects-to` → **[Respiratory System](../respiratory-system/README.md)** — It shares its main cause with lung cancer: smoking is the leading risk factor for bladder cancer, and advanced disease metastasises to the lungs.
+- `connects-to` → **[Cardiovascular System](../cardiovascular-system/README.md)** — Treatment burdens the heart: cisplatin-based chemotherapy for muscle-invasive bladder cancer carries cardiovascular and thromboembolic risk, compounding the smoking-related vascular disease these patients often have.
+- `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — It rarely reaches the skin: cutaneous metastases are an uncommon, late sign, and intravesical BCG immunotherapy can trigger systemic and skin hypersensitivity reactions.
 
 ---
 

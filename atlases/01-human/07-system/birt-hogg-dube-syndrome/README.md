@@ -223,6 +223,15 @@ cross_links:
   - target: 01-human/07-system/immune-system
     relation: connects-to
     note: "Its gene tunes immune metabolism: FLCN regulates the mTOR/TFEB axis that also governs lysosomal function and immune-cell metabolism, the molecular hub underlying BHD's varied tumours."
+  - target: 01-human/07-system/neurofibromatosis-type-1
+    relation: connects-to
+    note: "A fellow skin-led tumour syndrome: like Birt-Hogg-Dubé, NF1 is autosomal-dominant and announced by skin signs — café-au-lait macules and neurofibromas — that flag inherited tumour predisposition."
+  - target: 01-human/07-system/neurofibromatosis-type-2
+    relation: connects-to
+    note: "Another tumour-suppressor syndrome: NF2 joins Birt-Hogg-Dubé among inherited disorders where loss of a single tumour-suppressor gene drives characteristic tumours, here bilateral vestibular schwannomas."
+  - target: 01-human/07-system/gorlin-syndrome
+    relation: connects-to
+    note: "A comparator of inherited facial papules: Gorlin syndrome's multiple basal cell carcinomas enter the differential of Birt-Hogg-Dubé's fibrofolliculomas, both hereditary causes of numerous facial skin tumours."
 ---
 
 # Birt-Hogg-Dubé Syndrome
@@ -432,6 +441,9 @@ Definite BHD: 1 major OR 2 minor criteria (European BHD Consortium definition)
 - `connects-to` → **[Cardiovascular System](../cardiovascular-system/README.md)** — A lung collapse can crash the circulation: rupture of BHD lung cysts can cause a tension pneumothorax that shifts the mediastinum and obstructs venous return, producing obstructive shock and cardiac arrest.
 - `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — Its hamartomas reach soft tissue: BHD's tumour spectrum includes lipomas and angiolipomas among connective-tissue lesions beyond the skin, lung and kidney.
 - `connects-to` → **[Immune System](../immune-system/README.md)** — Its gene tunes immune metabolism: FLCN regulates the mTOR/TFEB axis that also governs lysosomal function and immune-cell metabolism, the molecular hub underlying BHD's varied tumours.
+- `connects-to` → **[Neurofibromatosis Type 1](../neurofibromatosis-type-1/README.md)** — A fellow skin-led tumour syndrome: like Birt-Hogg-Dubé, NF1 is autosomal-dominant and announced by skin signs — café-au-lait macules and neurofibromas — that flag inherited tumour predisposition.
+- `connects-to` → **[Neurofibromatosis Type 2](../neurofibromatosis-type-2/README.md)** — Another tumour-suppressor syndrome: NF2 joins Birt-Hogg-Dubé among inherited disorders where loss of a single tumour-suppressor gene drives characteristic tumours, here bilateral vestibular schwannomas.
+- `connects-to` → **[Gorlin Syndrome](../gorlin-syndrome/README.md)** — A comparator of inherited facial papules: Gorlin syndrome's multiple basal cell carcinomas enter the differential of Birt-Hogg-Dubé's fibrofolliculomas, both hereditary causes of numerous facial skin tumours.
 
 ---
 
