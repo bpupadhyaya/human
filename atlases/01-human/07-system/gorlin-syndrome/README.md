@@ -241,6 +241,15 @@ cross_links:
   - target: 03-medicine/01-modern/13-cancer/cancer-chemotherapy
     relation: connects-to
     note: "Radiation must be avoided: because Gorlin patients are radiosensitive and radiation induces new basal cell carcinomas, chemotherapy is preferred for their medulloblastomas."
+  - target: 03-medicine/01-modern/13-cancer/checkpoint-inhibitors
+    relation: connects-to
+    note: "When Hedgehog blockade fails the skin: cemiplimab and other PD-1 checkpoint inhibitors are used for advanced basal cell carcinoma that progresses on or cannot tolerate Hedgehog inhibitors—an option relevant to Gorlin patients with many aggressive BCCs."
+  - target: 01-human/07-system/melanoma
+    relation: connects-to
+    note: "Two routes to skin cancer: Gorlin syndrome drives countless basal cell carcinomas through germline PTCH1/Hedgehog activation largely independent of sun exposure, unlike melanoma, whose UV-driven mutational burden makes it immunotherapy-responsive."
+  - target: 01-human/07-system/peutz-jeghers-syndrome
+    relation: connects-to
+    note: "Two dominant hamartoma syndromes, two pathways: Gorlin (PTCH1, Hedgehog) and Peutz-Jeghers (STK11, mTOR) are both autosomal-dominant cancer-predisposition syndromes with distinctive lesions, showing how separate developmental pathways each predispose to tumours."
 ---
 
 # Gorlin Syndrome
@@ -426,6 +435,9 @@ Both are two-hit tumor suppressors: germline heterozygous LOF + somatic second h
 - `connects-to` → **[Targeted Therapy](../../../03-medicine/01-modern/13-cancer/targeted-therapy/README.md)** — Hedgehog inhibitors treat its many tumours: vismodegib and sonidegib block SMO in the constitutively active Hedgehog pathway, shrinking the multiple basal cell carcinomas of Gorlin syndrome.
 - `connects-to` → **[Cortical Bone](../../05-tissue/cortical-bone/README.md)** — It carves cysts into bone: Gorlin syndrome produces odontogenic keratocysts that erode the jaw and skeletal anomalies like bifid ribs, hallmarks alongside its skin tumours.
 - `connects-to` → **[Cancer Chemotherapy](../../../03-medicine/01-modern/13-cancer/cancer-chemotherapy/README.md)** — Radiation must be avoided: because Gorlin patients are radiosensitive and radiation induces new basal cell carcinomas, chemotherapy is preferred for their medulloblastomas.
+- `connects-to` → **[Checkpoint Inhibitors](../../../03-medicine/01-modern/13-cancer/checkpoint-inhibitors/README.md)** — When Hedgehog blockade fails the skin: cemiplimab and other PD-1 checkpoint inhibitors are used for advanced basal cell carcinoma that progresses on or cannot tolerate Hedgehog inhibitors—an option relevant to Gorlin patients with many aggressive BCCs.
+- `connects-to` → **[Melanoma](../melanoma/README.md)** — Two routes to skin cancer: Gorlin syndrome drives countless basal cell carcinomas through germline PTCH1/Hedgehog activation largely independent of sun exposure, unlike melanoma, whose UV-driven mutational burden makes it immunotherapy-responsive.
+- `connects-to` → **[Peutz-Jeghers Syndrome](../peutz-jeghers-syndrome/README.md)** — Two dominant hamartoma syndromes, two pathways: Gorlin (PTCH1, Hedgehog) and Peutz-Jeghers (STK11, mTOR) are both autosomal-dominant cancer-predisposition syndromes with distinctive lesions, showing how separate developmental pathways each predispose to tumours.
 
 ---
 

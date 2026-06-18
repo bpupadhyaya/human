@@ -241,6 +241,15 @@ cross_links:
   - target: 03-medicine/01-modern/13-cancer/checkpoint-inhibitors
     relation: connects-to
     note: "An immunologically cold tumour: PD-1 checkpoint inhibitors have mostly failed in glioblastoma, which has few mutations and a profoundly immunosuppressive microenvironment behind the blood-brain barrier."
+  - target: 03-medicine/01-modern/13-cancer/car-t
+    relation: connects-to
+    note: "Engineering T cells against the brain tumour: CAR-T therapies targeting EGFRvIII, IL13Rα2 and HER2 are in trials for glioblastoma, but antigen heterogeneity, the immunosuppressive microenvironment and the blood-brain barrier have so far limited durable responses."
+  - target: 01-human/05-tissue/axonal-transport
+    relation: connects-to
+    note: "It wires itself into the brain like a neuron: glioblastoma cells extend tumour microtubes—long axon-like membrane protrusions built on cytoskeletal transport machinery—that interconnect cells into an invasive network and receive neuron-to-glioma synaptic drive."
+  - target: 01-human/07-system/pancreatic-cancer
+    relation: connects-to
+    note: "Twin emblems of lethal cancer: glioblastoma and pancreatic adenocarcinoma share dismal survival, dense treatment-resistant stroma that walls out drugs, and infiltrative margins that defeat complete surgery despite their different organs and drivers."
 ---
 
 # Glioblastoma
@@ -445,6 +454,9 @@ The blood-brain barrier (BBB) creates a pharmacological challenge:
 - `connects-to` → **[Cancer Chemotherapy](../../../03-medicine/01-modern/13-cancer/cancer-chemotherapy/README.md)** — Temozolomide defines its care: the Stupp protocol — temozolomide chemotherapy with radiation after maximal surgery — is the standard treatment, with benefit greatest in MGMT-methylated tumours.
 - `connects-to` → **[Targeted Therapy](../../../03-medicine/01-modern/13-cancer/targeted-therapy/README.md)** — Anti-angiogenics for recurrence: bevacizumab against VEGF controls oedema and is used at recurrence, though EGFR and other targeted drugs have largely failed against glioblastoma's heterogeneity.
 - `connects-to` → **[Checkpoint Inhibitors](../../../03-medicine/01-modern/13-cancer/checkpoint-inhibitors/README.md)** — An immunologically cold tumour: PD-1 checkpoint inhibitors have mostly failed in glioblastoma, which has few mutations and a profoundly immunosuppressive microenvironment behind the blood-brain barrier.
+- `connects-to` → **[CAR-T](../../../03-medicine/01-modern/13-cancer/car-t/README.md)** — Engineering T cells against the brain tumour: CAR-T therapies targeting EGFRvIII, IL13Rα2 and HER2 are in trials for glioblastoma, but antigen heterogeneity, the immunosuppressive microenvironment and the blood-brain barrier have so far limited durable responses.
+- `connects-to` → **[Axonal Transport](../../05-tissue/axonal-transport/README.md)** — It wires itself into the brain like a neuron: glioblastoma cells extend tumour microtubes—long axon-like membrane protrusions built on cytoskeletal transport machinery—that interconnect cells into an invasive network and receive neuron-to-glioma synaptic drive.
+- `connects-to` → **[Pancreatic Cancer](../pancreatic-cancer/README.md)** — Twin emblems of lethal cancer: glioblastoma and pancreatic adenocarcinoma share dismal survival, dense treatment-resistant stroma that walls out drugs, and infiltrative margins that defeat complete surgery despite their different organs and drivers.
 
 ---
 
