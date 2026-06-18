@@ -214,6 +214,15 @@ cross_links:
   - target: 01-human/07-system/musculoskeletal-system
     relation: connects-to
     note: "It carves holes in bone: renal cell carcinoma metastasises to the skeleton as destructive, hypervascular osteolytic lesions that cause pain, fractures and spinal cord compression."
+  - target: 01-human/07-system/cardiovascular-system
+    relation: connects-to
+    note: "It grows up into the great veins: renal cell carcinoma characteristically forms a tumour thrombus that extends up the renal vein and inferior vena cava, sometimes reaching the right atrium."
+  - target: 01-human/07-system/nervous-system
+    relation: connects-to
+    note: "It reaches the brain: renal cell carcinoma metastasises to the brain as vascular deposits prone to bleeding, and spinal metastases can compress the cord."
+  - target: 01-human/07-system/lymphatic-system
+    relation: connects-to
+    note: "It spreads to the nodes: regional and retroperitoneal lymph-node involvement is a poor prognostic factor in renal cell carcinoma and guides surgical and systemic treatment."
 ---
 
 # Renal Cell Carcinoma
@@ -398,6 +407,9 @@ Kidney → primary site of EPO production under hypoxia; VHL-intact renal inters
 - `connects-to` → **[Respiratory System](../respiratory-system/README.md)** — It seeds the lungs with cannonballs: renal cell carcinoma metastasises classically to the lungs as multiple round 'cannonball' nodules, a defining pattern of its distant spread.
 - `connects-to` → **[Endocrine System](../endocrine-system/README.md)** — It is a great paraneoplastic mimic: RCC secretes PTHrP causing hypercalcaemia, erythropoietin causing polycythaemia and renin causing hypertension, and its immunotherapy triggers endocrine irAEs.
 - `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — It carves holes in bone: renal cell carcinoma metastasises to the skeleton as destructive, hypervascular osteolytic lesions that cause pain, fractures and spinal cord compression.
+- `connects-to` → **[Cardiovascular System](../cardiovascular-system/README.md)** — It grows up into the great veins: renal cell carcinoma characteristically forms a tumour thrombus that extends up the renal vein and inferior vena cava, sometimes reaching the right atrium.
+- `connects-to` → **[Nervous System](../nervous-system/README.md)** — It reaches the brain: renal cell carcinoma metastasises to the brain as vascular deposits prone to bleeding, and spinal metastases can compress the cord.
+- `connects-to` → **[Lymphatic System](../lymphatic-system/README.md)** — It spreads to the nodes: regional and retroperitoneal lymph-node involvement is a poor prognostic factor in renal cell carcinoma and guides surgical and systemic treatment.
 
 [^motzer-2018-checkmate214]: Motzer RJ, Tannir NM, McDermott DF, et al. Nivolumab plus ipilimumab versus sunitinib in advanced renal-cell carcinoma. *N Engl J Med.* 2018;378(14):1277-1290. [doi:10.1056/NEJMoa1712126](https://doi.org/10.1056/NEJMoa1712126) · [PubMed 29562145](https://pubmed.ncbi.nlm.nih.gov/29562145/)
 [^rini-2019-keynote426]: Rini BI, Plimack ER, Stus V, et al. Pembrolizumab plus axitinib versus sunitinib for advanced renal-cell carcinoma. *N Engl J Med.* 2019;380(12):1116-1127. [doi:10.1056/NEJMoa1816714](https://doi.org/10.1056/NEJMoa1816714) · [PubMed 30779529](https://pubmed.ncbi.nlm.nih.gov/30779529/)

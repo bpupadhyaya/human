@@ -220,6 +220,15 @@ cross_links:
   - target: 01-human/07-system/nervous-system
     relation: connects-to
     note: "A fixed low output starves the brain: severe PAH cannot raise cardiac output on exertion, so exertional syncope and presyncope from cerebral hypoperfusion are ominous warning signs."
+  - target: 01-human/07-system/renal-system
+    relation: connects-to
+    note: "The failing right heart backs up into the kidney: systemic venous congestion and reduced cardiac output in PAH impair renal function as a cardiorenal syndrome, worsening fluid overload."
+  - target: 01-human/07-system/immune-system
+    relation: connects-to
+    note: "Autoimmunity is a major cause: connective-tissue diseases such as scleroderma and lupus drive PAH through inflammatory and immune-mediated remodelling of the pulmonary arteries."
+  - target: 01-human/07-system/integumentary-system
+    relation: connects-to
+    note: "It shows on skin and at the drip site: connective-tissue-disease PAH brings sclerodactyly and telangiectasia, hypoxaemia causes cyanosis and clubbing, and continuous prostacyclin infusions cause skin and line-site reactions."
 ---
 
 # Pulmonary Arterial Hypertension
@@ -410,6 +419,9 @@ Key variables: WHO functional class (I-IV), 6-minute walk distance (6MWD), NT-pr
 - `connects-to` → **[Digestive System](../digestive-system/README.md)** — The liver both causes and suffers it: cirrhosis with portal hypertension causes portopulmonary hypertension, and right-heart failure from PAH congests the liver and gut, causing ascites and malabsorption.
 - `connects-to` → **[Endocrine System](../endocrine-system/README.md)** — It clusters with thyroid disease: both hyper- and hypothyroidism are over-represented in pulmonary arterial hypertension, and thyroid dysfunction can worsen its haemodynamics.
 - `connects-to` → **[Nervous System](../nervous-system/README.md)** — A fixed low output starves the brain: severe PAH cannot raise cardiac output on exertion, so exertional syncope and presyncope from cerebral hypoperfusion are ominous warning signs.
+- `connects-to` → **[Renal System](../renal-system/README.md)** — The failing right heart backs up into the kidney: systemic venous congestion and reduced cardiac output in PAH impair renal function as a cardiorenal syndrome, worsening fluid overload.
+- `connects-to` → **[Immune System](../immune-system/README.md)** — Autoimmunity is a major cause: connective-tissue diseases such as scleroderma and lupus drive PAH through inflammatory and immune-mediated remodelling of the pulmonary arteries.
+- `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — It shows on skin and at the drip site: connective-tissue-disease PAH brings sclerodactyly and telangiectasia, hypoxaemia causes cyanosis and clubbing, and continuous prostacyclin infusions cause skin and line-site reactions.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
