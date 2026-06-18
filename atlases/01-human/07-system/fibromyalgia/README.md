@@ -222,6 +222,15 @@ cross_links:
   - target: 03-medicine/02-traditional/ashwagandha
     relation: connects-to
     note: "Traditional remedies are sought for it: adaptogens like ashwagandha are used by some for the fatigue, pain and poor sleep of fibromyalgia, complementing exercise and the established drugs."
+  - target: 01-human/07-system/cannabis-use-disorder
+    relation: connects-to
+    note: "Cannabinoids are widely tried for it: fibromyalgia is a leading reason for medical-cannabis use, and the clinical endocannabinoid deficiency hypothesis frames its pain and sleep disturbance — though efficacy is uncertain and dependence is a real risk."
+  - target: 03-medicine/02-traditional/panax-ginseng
+    relation: connects-to
+    note: "A studied botanical adjunct: like ashwagandha, Panax ginseng has been trialled for the fatigue, pain and poor sleep of fibromyalgia, part of the complementary approaches patients often turn to when drugs disappoint."
+  - target: 03-medicine/01-modern/13-cancer/cancer-chemotherapy
+    relation: connects-to
+    note: "Treatment-related central sensitisation: chemotherapy and aromatase-inhibitor therapy in cancer survivors commonly cause chronic widespread musculoskeletal pain and fatigue resembling fibromyalgia, reflecting shared central pain-sensitisation mechanisms."
 sources:
   - id: wolfe-2016-fibromyalgia-criteria
     type: peer-reviewed
@@ -450,6 +459,9 @@ FM is not a single-etiology disorder but a convergent syndrome resulting from th
 - `connects-to` → **[Fluoxetine](../../../03-medicine/01-modern/10-mental-health/fluoxetine/README.md)** — Antidepressants modulate the pain: SSRIs like fluoxetine, and especially the SNRI duloxetine, raise serotonin and noradrenaline to dampen the central pain amplification of fibromyalgia.
 - `connects-to` → **[Epstein-Barr Virus](../../../02-pathogen/01-viruses/epstein-barr-virus/README.md)** — It can follow an infection: fibromyalgia often begins after a viral illness such as Epstein-Barr glandular fever, part of the post-infectious central-sensitisation picture also seen after COVID.
 - `connects-to` → **[Ashwagandha](../../../03-medicine/02-traditional/ashwagandha/README.md)** — Traditional remedies are sought for it: adaptogens like ashwagandha are used by some for the fatigue, pain and poor sleep of fibromyalgia, complementing exercise and the established drugs.
+- `connects-to` → **[Cannabis Use Disorder](../cannabis-use-disorder/README.md)** — Cannabinoids are widely tried for it: fibromyalgia is a leading reason for medical-cannabis use, and the clinical endocannabinoid deficiency hypothesis frames its pain and sleep disturbance — though efficacy is uncertain and dependence is a real risk.
+- `connects-to` → **[Panax Ginseng](../../../03-medicine/02-traditional/panax-ginseng/README.md)** — A studied botanical adjunct: like ashwagandha, Panax ginseng has been trialled for the fatigue, pain and poor sleep of fibromyalgia, part of the complementary approaches patients often turn to when drugs disappoint.
+- `connects-to` → **[Cancer Chemotherapy](../../../03-medicine/01-modern/13-cancer/cancer-chemotherapy/README.md)** — Treatment-related central sensitisation: chemotherapy and aromatase-inhibitor therapy in cancer survivors commonly cause chronic widespread musculoskeletal pain and fatigue resembling fibromyalgia, reflecting shared central pain-sensitisation mechanisms.
 
 [^wolfe-2016-fibromyalgia-criteria]: Wolfe F, Clauw DJ, Fitzcharles MA, et al. 2016 Revisions to the 2010/2011 fibromyalgia diagnostic criteria. *Semin Arthritis Rheum.* 2016;46(3):319-329. [doi:10.1016/j.semarthrit.2016.08.012](https://doi.org/10.1016/j.semarthrit.2016.08.012) · [PubMed 27916278](https://pubmed.ncbi.nlm.nih.gov/27916278/)
 [^clauw-2014-fibromyalgia-review]: Clauw DJ. Fibromyalgia: a clinical review. *JAMA.* 2014;311(15):1547-1555. [doi:10.1001/jama.2014.3266](https://doi.org/10.1001/jama.2014.3266) · [PubMed 24737367](https://pubmed.ncbi.nlm.nih.gov/24737367/)

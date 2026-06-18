@@ -235,6 +235,15 @@ cross_links:
   - target: 03-medicine/03-food/omega-3-fatty-acids
     relation: connects-to
     note: "Diet reshapes the community: dietary fats including omega-3s alter microbial composition and the short-chain-fatty-acid and inflammatory output of the gut microbiome."
+  - target: 03-medicine/01-modern/13-cancer/checkpoint-inhibitors
+    relation: connects-to
+    note: "It tunes cancer immunotherapy: the gut microbiome powerfully shapes response to checkpoint blockade — species like Akkermansia and Faecalibacterium predict who responds, and antibiotics or faecal transplant can blunt or restore efficacy."
+  - target: 01-human/05-tissue/peyers-patches
+    relation: connects-to
+    note: "It is sampled by gut immunity: Peyer's patches and their M cells continuously survey the microbiome, training the regulatory T cells and IgA responses that keep commensals tolerated while excluding pathogens."
+  - target: 01-human/07-system/type-1-diabetes
+    relation: connects-to
+    note: "Early flora shape autoimmunity: reduced microbial diversity and altered short-chain-fatty-acid producers in infancy are linked to the development of type 1 diabetes, implicating the microbiome in the loss of immune tolerance to beta cells."
 ---
 
 # Gut Microbiome
@@ -385,6 +394,9 @@ The microbiome influences CNS function via multiple pathways:
 - `connects-to` → **[Bifidobacterium longum](../../../02-pathogen/06-microbiome/bifidobacterium-longum/README.md)** — A keystone commensal: Bifidobacterium longum is an early-life and adult gut symbiont that ferments fibre, trains the immune system and is widely used as a probiotic.
 - `connects-to` → **[Helicobacter pylori](../../../02-pathogen/02-bacteria/helicobacter-pylori/README.md)** — A disruptor at the top of the tract: Helicobacter pylori colonises the stomach, reshaping the gastric microbiome and acid environment, with both pathogenic and possibly protective effects.
 - `connects-to` → **[Omega-3 fatty acids](../../../03-medicine/03-food/omega-3-fatty-acids/README.md)** — Diet reshapes the community: dietary fats including omega-3s alter microbial composition and the short-chain-fatty-acid and inflammatory output of the gut microbiome.
+- `connects-to` → **[Checkpoint Inhibitors](../../../03-medicine/01-modern/13-cancer/checkpoint-inhibitors/README.md)** — It tunes cancer immunotherapy: the gut microbiome powerfully shapes response to checkpoint blockade — species like Akkermansia and Faecalibacterium predict who responds, and antibiotics or faecal transplant can blunt or restore efficacy.
+- `connects-to` → **[Peyer's Patches](../../05-tissue/peyers-patches/README.md)** — It is sampled by gut immunity: Peyer's patches and their M cells continuously survey the microbiome, training the regulatory T cells and IgA responses that keep commensals tolerated while excluding pathogens.
+- `connects-to` → **[Type 1 Diabetes](../type-1-diabetes/README.md)** — Early flora shape autoimmunity: reduced microbial diversity and altered short-chain-fatty-acid producers in infancy are linked to the development of type 1 diabetes, implicating the microbiome in the loss of immune tolerance to beta cells.
 
 ## Pathology
 
