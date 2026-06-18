@@ -214,6 +214,15 @@ cross_links:
   - target: 01-human/07-system/nervous-system
     relation: connects-to
     note: "Accelerated vascular ageing reaches the brain: systemic premature atherosclerosis affects cerebral vessels, while high-frequency sensorineural hearing loss reflects the wider neural-ageing phenotype of Werner syndrome."
+  - target: 01-human/07-system/renal-system
+    relation: connects-to
+    note: "Its metabolic and vascular ageing scars the kidney: the diabetes and premature atherosclerosis of Werner syndrome drive diabetic and renovascular nephropathy with declining renal function."
+  - target: 01-human/07-system/lymphatic-system
+    relation: connects-to
+    note: "It predisposes to marrow cancers: Werner syndrome carries an increased risk of myelodysplastic syndrome and acute myeloid leukaemia arising in the bone marrow."
+  - target: 02-pathogen/02-bacteria/staphylococcus-aureus
+    relation: connects-to
+    note: "Its chronic ulcers invite infection: the intractable ankle and foot ulcers of Werner syndrome become colonised and infected, classically by Staphylococcus aureus, and heal poorly."
 ---
 
 # Werner Syndrome
@@ -442,6 +451,9 @@ cross_links:
 - `connects-to` → **[Digestive System](../digestive-system/README.md)** — Premature metabolic disease reaches the liver: the visceral adiposity, dyslipidaemia and insulin resistance of Werner syndrome drive fatty liver disease as part of its accelerated-ageing metabolic syndrome.
 - `connects-to` → **[Immune System](../immune-system/README.md)** — It is a disease of inflammaging: defective WRN genome maintenance raises chronic inflammatory cytokines that speed atherosclerosis and may erode immune surveillance against Werner's many cancers.
 - `connects-to` → **[Nervous System](../nervous-system/README.md)** — Accelerated vascular ageing reaches the brain: systemic premature atherosclerosis affects cerebral vessels, while high-frequency sensorineural hearing loss reflects the wider neural-ageing phenotype of Werner syndrome.
+- `connects-to` → **[Renal System](../renal-system/README.md)** — Its metabolic and vascular ageing scars the kidney: the diabetes and premature atherosclerosis of Werner syndrome drive diabetic and renovascular nephropathy with declining renal function.
+- `connects-to` → **[Lymphatic System](../lymphatic-system/README.md)** — It predisposes to marrow cancers: Werner syndrome carries an increased risk of myelodysplastic syndrome and acute myeloid leukaemia arising in the bone marrow.
+- `connects-to` → **[Staphylococcus aureus](../../../02-pathogen/02-bacteria/staphylococcus-aureus/README.md)** — Its chronic ulcers invite infection: the intractable ankle and foot ulcers of Werner syndrome become colonised and infected, classically by Staphylococcus aureus, and heal poorly.
 
 [^yu-1996-wrn]: Yu CE, Oshima J, Fu YH, et al. Positional cloning of the Werner's syndrome gene. *Science.* 1996;272(5259):258-262. [doi:10.1126/science.272.5259.258](https://doi.org/10.1126/science.272.5259.258) · [PubMed 8602509](https://pubmed.ncbi.nlm.nih.gov/8602509/)
 [^lauper-2013-wrn-neoplasia]: Lauper JM, Krause A, Vaughan TL, Monnat RJ Jr. Spectrum and risk of neoplasia in Werner syndrome: a systematic review. *PLoS One.* 2013;8(4):e59709. [doi:10.1371/journal.pone.0059709](https://doi.org/10.1371/journal.pone.0059709) · [PubMed 23579047](https://pubmed.ncbi.nlm.nih.gov/23579047/)

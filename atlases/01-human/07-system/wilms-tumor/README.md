@@ -214,6 +214,15 @@ cross_links:
   - target: 01-human/07-system/digestive-system
     relation: connects-to
     note: "Its overgrowth predisposition shows in the abdomen: Beckwith-Wiedemann syndrome, a leading Wilms risk factor, causes omphalocele, macroglossia and visceromegaly alongside hemihypertrophy."
+  - target: 01-human/07-system/lymphatic-system
+    relation: connects-to
+    note: "Nodes guide its staging: regional lymph-node involvement is assessed at nephrectomy and raises the stage, intensifying chemotherapy and radiation."
+  - target: 01-human/07-system/musculoskeletal-system
+    relation: connects-to
+    note: "Its overgrowth syndrome skews the skeleton: the hemihypertrophy of Beckwith-Wiedemann causes limb-length asymmetry, and Wilms tumour can rarely metastasise to bone."
+  - target: 01-human/07-system/endocrine-system
+    relation: connects-to
+    note: "Its gene shapes the gonads: WT1 mutations disrupt gonadal development in Denys-Drash and Frasier syndromes, combining Wilms tumour with genital anomalies and progressive nephropathy."
 ---
 
 # Wilms Tumor
@@ -408,6 +417,9 @@ Wilms tumor survivors face late effects proportional to treatment intensity:
 - `connects-to` → **[Respiratory System](../respiratory-system/README.md)** — The lungs are its commonest distant target: Wilms tumour metastasises preferentially to the lungs, so chest imaging stages disease and pulmonary metastases guide intensified chemotherapy and sometimes whole-lung radiation.
 - `connects-to` → **[Cardiovascular System](../cardiovascular-system/README.md)** — It can grow into the great veins and strain the heart: Wilms tumour forms intravascular thrombus extending up the renal vein and IVC to the right atrium, while anthracycline chemotherapy adds long-term cardiotoxicity.
 - `connects-to` → **[Digestive System](../digestive-system/README.md)** — Its overgrowth predisposition shows in the abdomen: Beckwith-Wiedemann syndrome, a leading Wilms risk factor, causes omphalocele, macroglossia and visceromegaly alongside hemihypertrophy.
+- `connects-to` → **[Lymphatic System](../lymphatic-system/README.md)** — Nodes guide its staging: regional lymph-node involvement is assessed at nephrectomy and raises the stage, intensifying chemotherapy and radiation.
+- `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — Its overgrowth syndrome skews the skeleton: the hemihypertrophy of Beckwith-Wiedemann causes limb-length asymmetry, and Wilms tumour can rarely metastasise to bone.
+- `connects-to` → **[Endocrine System](../endocrine-system/README.md)** — Its gene shapes the gonads: WT1 mutations disrupt gonadal development in Denys-Drash and Frasier syndromes, combining Wilms tumour with genital anomalies and progressive nephropathy.
 
 [^dome-2015-wilms]: Dome JS, Graf N, Geller JI, et al. Advances in Wilms tumor treatment and biology: progress through international collaboration. *J Clin Oncol.* 2015;33(27):2999-3007. [doi:10.1200/JCO.2015.62.1888](https://doi.org/10.1200/JCO.2015.62.1888) · [PubMed 26261251](https://pubmed.ncbi.nlm.nih.gov/26261251/)
 [^dix-2006-arenl0002]: Dix DB, Bhatt SM, Geller JI, et al. Treatment of Stage IV favorable histology Wilms tumor with incomplete lung metastasis response after chemotherapy: a report from Children's Oncology Group Study AREN0533. *J Clin Oncol.* 2018;36(16):1564-1570. [doi:10.1200/JCO.2017.77.1877](https://doi.org/10.1200/JCO.2017.77.1877) · [PubMed 29584550](https://pubmed.ncbi.nlm.nih.gov/29584550/)
