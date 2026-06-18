@@ -223,6 +223,15 @@ cross_links:
   - target: 01-human/07-system/cardiovascular-system
     relation: connects-to
     note: "Its chemotherapy can scar the heart: the anthracycline in CHOP-based regimens for PTCL carries a dose-dependent cardiotoxicity risk."
+  - target: 01-human/07-system/musculoskeletal-system
+    relation: connects-to
+    note: "It can dissolve bone: adult T-cell leukaemia/lymphoma classically causes severe hypercalcaemia with lytic bone lesions, and marrow involvement causes cytopenias."
+  - target: 01-human/07-system/renal-system
+    relation: connects-to
+    note: "Treatment and metabolism reach the kidney: tumour lysis syndrome at the start of therapy and ATLL hypercalcaemia threaten acute kidney injury."
+  - target: 03-medicine/01-modern/13-cancer/targeted-therapy
+    relation: connects-to
+    note: "Targeted antibodies refine its treatment: brentuximab vedotin against CD30 and HDAC inhibitors supplement CHOP-based chemotherapy in peripheral T-cell lymphoma."
 ---
 
 # Peripheral T-cell Lymphoma
@@ -436,6 +445,9 @@ Aggressive presentation; generalized lymphadenopathy; extranodal involvement (~6
 - `connects-to` → **[Endocrine System](../endocrine-system/README.md)** — One subtype floods the blood with calcium: adult T-cell leukaemia/lymphoma, an HTLV-1-driven PTCL, classically causes severe paraneoplastic hypercalcaemia from osteoclast-activating signals.
 - `connects-to` → **[Respiratory System](../respiratory-system/README.md)** — It crowds and exposes the chest: mediastinal and pulmonary involvement and pleural effusions occur, and the profound immunosuppression invites opportunistic pneumonia.
 - `connects-to` → **[Cardiovascular System](../cardiovascular-system/README.md)** — Its chemotherapy can scar the heart: the anthracycline in CHOP-based regimens for PTCL carries a dose-dependent cardiotoxicity risk.
+- `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — It can dissolve bone: adult T-cell leukaemia/lymphoma classically causes severe hypercalcaemia with lytic bone lesions, and marrow involvement causes cytopenias.
+- `connects-to` → **[Renal System](../renal-system/README.md)** — Treatment and metabolism reach the kidney: tumour lysis syndrome at the start of therapy and ATLL hypercalcaemia threaten acute kidney injury.
+- `connects-to` → **[Targeted Therapy](../../../03-medicine/01-modern/13-cancer/targeted-therapy/README.md)** — Targeted antibodies refine its treatment: brentuximab vedotin against CD30 and HDAC inhibitors supplement CHOP-based chemotherapy in peripheral T-cell lymphoma.
 
 ---
 

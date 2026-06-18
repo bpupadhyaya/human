@@ -231,6 +231,15 @@ cross_links:
   - target: 01-human/07-system/lymphatic-system
     relation: connects-to
     note: "Immune activation modestly raises lymphoma risk: chronic immune activation and TNF-inhibitor therapy slightly increase lymphoma risk, with reactive lymphadenopathy during active disease."
+  - target: 03-medicine/01-modern/11-biologics/adalimumab
+    relation: connects-to
+    note: "Biologics target its cytokines: anti-TNF agents like adalimumab, along with IL-17 and IL-23 inhibitors, control the joint and skin inflammation of psoriatic arthritis."
+  - target: 01-human/07-system/endocrine-system
+    relation: connects-to
+    note: "It clusters with metabolic disease: psoriatic arthritis is strongly associated with obesity, insulin resistance and the metabolic syndrome, which also worsen its activity."
+  - target: 01-human/07-system/reproductive-system
+    relation: connects-to
+    note: "It shapes pregnancy planning: psoriatic arthritis often improves or flares in pregnancy, and the safety of its biologic and methotrexate therapy guides conception decisions."
 ---
 
 # Psoriatic Arthritis
@@ -449,6 +458,9 @@ Risankizumab (anti-IL-23p19) **failed primary endpoints** in the SURPASS trial f
 - `connects-to` → **[Renal System](../renal-system/README.md)** — Chronic inflammation and its drugs reach the kidney: sustained inflammation can deposit secondary AA amyloid in the kidney causing proteinuria, and NSAIDs used for symptoms are nephrotoxic.
 - `connects-to` → **[Nervous System](../nervous-system/README.md)** — Spine, eye and drugs touch the nervous system: axial disease can compress the cord, anterior uveitis affects the eye, and TNF-inhibitor therapy rarely triggers demyelination.
 - `connects-to` → **[Lymphatic System](../lymphatic-system/README.md)** — Immune activation modestly raises lymphoma risk: chronic immune activation and TNF-inhibitor therapy slightly increase lymphoma risk, with reactive lymphadenopathy during active disease.
+- `connects-to` → **[Adalimumab](../../../03-medicine/01-modern/11-biologics/adalimumab/README.md)** — Biologics target its cytokines: anti-TNF agents like adalimumab, along with IL-17 and IL-23 inhibitors, control the joint and skin inflammation of psoriatic arthritis.
+- `connects-to` → **[Endocrine System](../endocrine-system/README.md)** — It clusters with metabolic disease: psoriatic arthritis is strongly associated with obesity, insulin resistance and the metabolic syndrome, which also worsen its activity.
+- `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — It shapes pregnancy planning: psoriatic arthritis often improves or flares in pregnancy, and the safety of its biologic and methotrexate therapy guides conception decisions.
 
 [^ritchlin-2017-psa-review]: Ritchlin CT, Colbert RA, Gladman DD. Psoriatic arthritis. *N Engl J Med.* 2017;376(10):957-970. [doi:10.1056/NEJMra1505557](https://doi.org/10.1056/NEJMra1505557) · [PubMed 28273019](https://pubmed.ncbi.nlm.nih.gov/28273019/)
 [^mease-2015-secukinumab-psa-future2]: Mease PJ, et al. Secukinumab inhibition of interleukin-17A in patients with psoriatic arthritis. *N Engl J Med.* 2015;373(14):1329-1339. [doi:10.1056/NEJMoa1503317](https://doi.org/10.1056/NEJMoa1503317) · [PubMed 26422723](https://pubmed.ncbi.nlm.nih.gov/26422723/)
