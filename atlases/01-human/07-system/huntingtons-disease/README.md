@@ -228,6 +228,15 @@ cross_links:
   - target: 01-human/07-system/narcolepsy
     relation: connects-to
     note: "Sleep falls apart through orexin loss: Huntington's disease damages hypothalamic orexin neurons, producing the fragmented sleep and daytime sleepiness it shares with narcolepsy."
+  - target: 01-human/05-tissue/axonal-transport
+    relation: connects-to
+    note: "Mutant huntingtin jams the cell's transport: expanded huntingtin disrupts microtubule-based axonal transport, starving neurons of BDNF and mitochondria delivered along the axon—a core driver of the striatal neuron death behind Huntington's chorea."
+  - target: 01-human/05-tissue/myocardium
+    relation: connects-to
+    note: "It is not only a brain disease: huntingtin is expressed in the heart, and Huntington's disease carries a peripheral cardiomyopathy with autonomic dysfunction, so cardiac causes rank among its leading deaths alongside aspiration pneumonia."
+  - target: 01-human/07-system/anorexia-nervosa
+    relation: connects-to
+    note: "Opposite roads to wasting: Huntington's disease causes relentless weight loss from a hypermetabolic state despite preserved or increased appetite, the mirror image of anorexia nervosa, where psychological appetite suppression drives the weight loss."
 sources:
   - id: gusella-1983-htt-locus
     type: peer-reviewed
@@ -349,3 +358,6 @@ HD disrupts multiple neural circuit functions:
 - `connects-to` → **[Cortisol](../../03-molecular/cortisol/README.md)** — Stress hormones run high: Huntington's disease disrupts the hypothalamic-pituitary-adrenal axis, raising cortisol and contributing to its weight loss, mood disturbance and metabolic decline.
 - `connects-to` → **[Staphylococcus aureus](../../../02-pathogen/02-bacteria/staphylococcus-aureus/README.md)** — Dysphagia invites pneumonia: as Huntington's disease impairs swallowing, aspiration of oral bacteria including Staphylococcus aureus causes the pneumonia that is a leading cause of death.
 - `connects-to` → **[Narcolepsy](../narcolepsy/README.md)** — Sleep falls apart through orexin loss: Huntington's disease damages hypothalamic orexin neurons, producing the fragmented sleep and daytime sleepiness it shares with narcolepsy.
+- `connects-to` → **[Axonal Transport](../../05-tissue/axonal-transport/README.md)** — Mutant huntingtin jams the cell's transport: expanded huntingtin disrupts microtubule-based axonal transport, starving neurons of BDNF and mitochondria delivered along the axon—a core driver of the striatal neuron death behind Huntington's chorea.
+- `connects-to` → **[Myocardium](../../05-tissue/myocardium/README.md)** — It is not only a brain disease: huntingtin is expressed in the heart, and Huntington's disease carries a peripheral cardiomyopathy with autonomic dysfunction, so cardiac causes rank among its leading deaths alongside aspiration pneumonia.
+- `connects-to` → **[Anorexia Nervosa](../anorexia-nervosa/README.md)** — Opposite roads to wasting: Huntington's disease causes relentless weight loss from a hypermetabolic state despite preserved or increased appetite, the mirror image of anorexia nervosa, where psychological appetite suppression drives the weight loss.
