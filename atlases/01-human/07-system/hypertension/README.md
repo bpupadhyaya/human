@@ -223,6 +223,15 @@ cross_links:
   - target: 01-human/07-system/digestive-system
     relation: connects-to
     note: "Its biology and drugs touch the gut: the liver makes angiotensinogen, the substrate of the renin-angiotensin system, while calcium-channel blockers cause constipation and ACE inhibitors can rarely cause intestinal angioedema."
+  - target: 03-medicine/01-modern/04-cardio/ace-inhibitors
+    relation: connects-to
+    note: "First-line blockade of the renin axis: ACE inhibitors lower blood pressure by reducing angiotensin II, protecting the heart and kidneys, a cornerstone of hypertension treatment."
+  - target: 03-medicine/01-modern/04-cardio/calcium-channel-blockers
+    relation: connects-to
+    note: "They relax the arteries: calcium-channel blockers like amlodipine lower blood pressure by dilating arterial smooth muscle, especially effective in older and Black patients."
+  - target: 03-medicine/01-modern/04-cardio/beta-blockers
+    relation: connects-to
+    note: "They slow and calm the heart: beta-blockers lower blood pressure by reducing cardiac output and renin, particularly useful when hypertension coexists with heart disease or arrhythmia."
 ---
 
 # Hypertension
@@ -382,6 +391,9 @@ Blood pressure is determined by: BP = Cardiac Output × Peripheral Vascular Resi
 - `connects-to` → **[Immune System](../immune-system/README.md)** — The immune system helps raise the pressure: T lymphocytes and macrophages infiltrating the vessel wall and kidney drive blood-pressure elevation, and dietary salt activates these inflammatory pathways.
 - `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — Its drugs surface on the skin: calcium-channel blockers cause flushing and gum hypertrophy, and hydralazine can trigger a drug-induced lupus rash.
 - `connects-to` → **[Digestive System](../digestive-system/README.md)** — Its biology and drugs touch the gut: the liver makes angiotensinogen, the substrate of the renin-angiotensin system, while calcium-channel blockers cause constipation and ACE inhibitors can rarely cause intestinal angioedema.
+- `connects-to` → **[ACE inhibitors](../../../03-medicine/01-modern/04-cardio/ace-inhibitors/README.md)** — First-line blockade of the renin axis: ACE inhibitors lower blood pressure by reducing angiotensin II, protecting the heart and kidneys, a cornerstone of hypertension treatment.
+- `connects-to` → **[Calcium-channel Blockers](../../../03-medicine/01-modern/04-cardio/calcium-channel-blockers/README.md)** — They relax the arteries: calcium-channel blockers like amlodipine lower blood pressure by dilating arterial smooth muscle, especially effective in older and Black patients.
+- `connects-to` → **[Beta-blockers](../../../03-medicine/01-modern/04-cardio/beta-blockers/README.md)** — They slow and calm the heart: beta-blockers lower blood pressure by reducing cardiac output and renin, particularly useful when hypertension coexists with heart disease or arrhythmia.
 
 ## Pathology
 

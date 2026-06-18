@@ -223,6 +223,15 @@ cross_links:
   - target: 01-human/07-system/integumentary-system
     relation: connects-to
     note: "It can come with skin haemangiomas: Maffucci syndrome pairs IDH-driven enchondromas with spindle-cell haemangiomas of the skin, on top of the radiation and steroid skin effects of treatment."
+  - target: 01-human/07-system/cardiovascular-system
+    relation: connects-to
+    note: "Brain tumours are prothrombotic: IDH-mutant glioma carries a raised venous thromboembolism risk, and the corticosteroids used for oedema add hypertension."
+  - target: 01-human/07-system/respiratory-system
+    relation: connects-to
+    note: "Immobility and steroids endanger the lungs: pulmonary embolism, aspiration and steroid-related Pneumocystis pneumonia threaten patients during long glioma treatment."
+  - target: 03-medicine/01-modern/13-cancer/targeted-therapy
+    relation: connects-to
+    note: "A new oncometabolite-targeted drug: IDH inhibitors such as vorasidenib block the mutant enzyme's 2-hydroxyglutarate production, delaying progression of IDH-mutant glioma."
 ---
 
 # IDH-Mutant Glioma
@@ -423,6 +432,9 @@ IDH-mutant glioma with MGMT methylation shows strong alkylating agent sensitivit
 - `connects-to` → **[Immune System](../immune-system/README.md)** — Its oncometabolite hides it from immunity: the D-2-hydroxyglutarate made by IDH-mutant tumours is immunosuppressive, making these 'cold' tumours, and dexamethasone further blunts immune defence.
 - `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — The same mutation deforms bone: mosaic IDH mutations cause the multiple enchondromas of Ollier disease and Maffucci syndrome, which themselves predispose to gliomas.
 - `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — It can come with skin haemangiomas: Maffucci syndrome pairs IDH-driven enchondromas with spindle-cell haemangiomas of the skin, on top of the radiation and steroid skin effects of treatment.
+- `connects-to` → **[Cardiovascular System](../cardiovascular-system/README.md)** — Brain tumours are prothrombotic: IDH-mutant glioma carries a raised venous thromboembolism risk, and the corticosteroids used for oedema add hypertension.
+- `connects-to` → **[Respiratory System](../respiratory-system/README.md)** — Immobility and steroids endanger the lungs: pulmonary embolism, aspiration and steroid-related Pneumocystis pneumonia threaten patients during long glioma treatment.
+- `connects-to` → **[Targeted Therapy](../../../03-medicine/01-modern/13-cancer/targeted-therapy/README.md)** — A new oncometabolite-targeted drug: IDH inhibitors such as vorasidenib block the mutant enzyme's 2-hydroxyglutarate production, delaying progression of IDH-mutant glioma.
 
 [^mellinghoff-2023-vorasidenib-lgg]: Mellinghoff IK, van den Bent MJ, Blumenthal DT, et al. Vorasidenib in IDH1- or IDH2-mutant low-grade glioma. *N Engl J Med.* 2023;389(7):589-601. [doi:10.1056/NEJMoa2304194](https://doi.org/10.1056/NEJMoa2304194) · [PubMed 37272530](https://pubmed.ncbi.nlm.nih.gov/37272530/)
 [^jiao-2012-atrx-glioma]: Jiao Y, Killela PJ, Reitman ZJ, et al. Frequent ATRX, CIC, FUBP1 and IDH mutations refine the classification of malignant gliomas. *Oncotarget.* 2012;3(7):709-722. [doi:10.18632/oncotarget.588](https://doi.org/10.18632/oncotarget.588) · [PubMed 22869205](https://pubmed.ncbi.nlm.nih.gov/22869205/)
