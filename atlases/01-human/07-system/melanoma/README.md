@@ -229,6 +229,15 @@ cross_links:
   - target: 01-human/07-system/renal-system
     relation: connects-to
     note: "Its immunotherapy can inflame the kidney: checkpoint inhibitors used for melanoma can cause immune-related interstitial nephritis with acute kidney injury."
+  - target: 03-medicine/01-modern/13-cancer/targeted-therapy
+    relation: connects-to
+    note: "It pioneered modern oncology drugs: melanoma is the prototype for both BRAF/MEK-targeted therapy and immune checkpoint blockade, transforming the outlook for advanced disease."
+  - target: 01-human/07-system/li-fraumeni-syndrome
+    relation: connects-to
+    note: "Inherited risk runs in some families: germline TP53 (Li-Fraumeni) and CDKN2A mutations raise melanoma risk, part of the hereditary predisposition behind a minority of cases."
+  - target: 01-human/07-system/hereditary-breast-ovarian-cancer
+    relation: connects-to
+    note: "BRCA2 widens its reach: carriers of BRCA2 mutations have an increased melanoma risk, linking this skin cancer to the hereditary breast-ovarian cancer spectrum."
 ---
 
 # Melanoma
@@ -389,6 +398,9 @@ cross_links:
 - `connects-to` → **[Cardiovascular System](../cardiovascular-system/README.md)** — It favours the heart among metastases: melanoma is the tumour most likely to metastasise to the heart and pericardium, and its checkpoint-inhibitor therapy can cause life-threatening myocarditis.
 - `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — It spreads to bone and inflames joints: melanoma metastasises to the skeleton causing pain and fractures, and checkpoint-inhibitor immunotherapy can trigger inflammatory arthritis and myositis.
 - `connects-to` → **[Renal System](../renal-system/README.md)** — Its immunotherapy can inflame the kidney: checkpoint inhibitors used for melanoma can cause immune-related interstitial nephritis with acute kidney injury.
+- `connects-to` → **[Targeted Therapy](../../../03-medicine/01-modern/13-cancer/targeted-therapy/README.md)** — It pioneered modern oncology drugs: melanoma is the prototype for both BRAF/MEK-targeted therapy and immune checkpoint blockade, transforming the outlook for advanced disease.
+- `connects-to` → **[Li-Fraumeni Syndrome](../li-fraumeni-syndrome/README.md)** — Inherited risk runs in some families: germline TP53 (Li-Fraumeni) and CDKN2A mutations raise melanoma risk, part of the hereditary predisposition behind a minority of cases.
+- `connects-to` → **[Hereditary Breast-Ovarian Cancer](../hereditary-breast-ovarian-cancer/README.md)** — BRCA2 widens its reach: carriers of BRCA2 mutations have an increased melanoma risk, linking this skin cancer to the hereditary breast-ovarian cancer spectrum.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 

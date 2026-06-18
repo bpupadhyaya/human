@@ -223,6 +223,15 @@ cross_links:
   - target: 01-human/07-system/integumentary-system
     relation: connects-to
     note: "Radiation marks the scalp and skin: craniospinal radiotherapy causes dermatitis and permanent alopecia in the treated field, alongside the skin effects of chemotherapy."
+  - target: 01-human/07-system/cardiovascular-system
+    relation: connects-to
+    note: "Its cure costs the heart later: anthracycline and platinum chemotherapy plus radiation in childhood medulloblastoma carry long-term cardiovascular and cardiotoxic risk in survivors."
+  - target: 01-human/07-system/renal-system
+    relation: connects-to
+    note: "Cisplatin threatens the kidney: the platinum chemotherapy central to medulloblastoma treatment is nephrotoxic and ototoxic, demanding careful dosing in children."
+  - target: 01-human/07-system/immune-system
+    relation: connects-to
+    note: "Therapy suppresses immunity: intensive craniospinal radiation and chemotherapy leave children profoundly immunocompromised, while WNT and SHH subtypes are explored for targeted and immune therapy."
 ---
 
 # Medulloblastoma
@@ -421,6 +430,9 @@ MB survivors face substantial late effects — inversely proportional to age at 
 - `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — Spinal radiation stunts the growing skeleton: craniospinal radiotherapy impairs vertebral growth, leaving survivors with short stature, reduced sitting height and scoliosis — a hallmark late effect.
 - `connects-to` → **[Respiratory System](../respiratory-system/README.md)** — Posterior-fossa surgery threatens swallowing and breath: cerebellar mutism syndrome with dysphagia raises aspiration risk, and brainstem involvement can compromise respiratory control.
 - `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — Radiation marks the scalp and skin: craniospinal radiotherapy causes dermatitis and permanent alopecia in the treated field, alongside the skin effects of chemotherapy.
+- `connects-to` → **[Cardiovascular System](../cardiovascular-system/README.md)** — Its cure costs the heart later: anthracycline and platinum chemotherapy plus radiation in childhood medulloblastoma carry long-term cardiovascular and cardiotoxic risk in survivors.
+- `connects-to` → **[Renal System](../renal-system/README.md)** — Cisplatin threatens the kidney: the platinum chemotherapy central to medulloblastoma treatment is nephrotoxic and ototoxic, demanding careful dosing in children.
+- `connects-to` → **[Immune System](../immune-system/README.md)** — Therapy suppresses immunity: intensive craniospinal radiation and chemotherapy leave children profoundly immunocompromised, while WNT and SHH subtypes are explored for targeted and immune therapy.
 
 [^packer-2006-std-risk-mb]: Packer RJ, Gajjar A, Vezina G, et al. Phase III study of craniospinal radiation therapy followed by adjuvant chemotherapy for newly diagnosed average-risk medulloblastoma. *J Clin Oncol.* 2006;24(25):4202-4208. [doi:10.1200/JCO.2006.06.4980](https://doi.org/10.1200/JCO.2006.06.4980) · [PubMed 16943538](https://pubmed.ncbi.nlm.nih.gov/16943538/)
 [^taylor-2012-mb-subgroups]: Taylor MD, Northcott PA, Korshunov A, et al. Molecular subgroups of medulloblastoma: the current consensus. *Acta Neuropathol.* 2012;123(4):465-472. [doi:10.1007/s00401-011-0922-z](https://doi.org/10.1007/s00401-011-0922-z) · [PubMed 22134537](https://pubmed.ncbi.nlm.nih.gov/22134537/)
