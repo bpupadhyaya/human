@@ -201,6 +201,15 @@ cross_links:
   - target: 01-human/07-system/major-depressive-disorder
     relation: connects-to
     note: "Iron shortage saps mood and energy: by impairing dopamine and serotonin synthesis and oxygen delivery, iron deficiency produces fatigue, poor concentration and depressive symptoms that can lift with treatment."
+  - target: 01-human/07-system/integumentary-system
+    relation: connects-to
+    note: "Low iron shows on skin, nails and hair: iron deficiency causes pallor, brittle spoon-shaped koilonychia, diffuse hair loss, angular cheilitis and a smooth, sore glossitis of the tongue."
+  - target: 01-human/07-system/immune-system
+    relation: connects-to
+    note: "Iron is double-edged for immunity: it is essential for lymphocyte and neutrophil function so deficiency impairs immune defence, yet the body deliberately withholds iron during infection to starve pathogens."
+  - target: 01-human/07-system/endocrine-system
+    relation: connects-to
+    note: "Iron is needed to make thyroid hormone: thyroid peroxidase is a heme enzyme, so iron deficiency blunts thyroid-hormone synthesis and worsens hypothyroidism, tying the deficiency to the endocrine system."
 ---
 
 # Iron Deficiency Anemia
@@ -382,6 +391,9 @@ Iron is essential for:
 - `connects-to` → **[ADHD](../attention-deficit-hyperactivity-disorder/README.md)** — Low iron disturbs the developing brain: iron is a cofactor for dopamine synthesis, and deficiency in children is linked to attention problems, restless legs and the symptoms of ADHD, sometimes improving with repletion.
 - `connects-to` → **[Wound Healing](../wound-healing/README.md)** — Iron-starved tissue repairs poorly: iron is needed for collagen cross-linking and oxygen delivery to the wound bed, so deficiency slows healing alongside the reduced perfusion of anemia.
 - `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — Iron shortage saps mood and energy: by impairing dopamine and serotonin synthesis and oxygen delivery, iron deficiency produces fatigue, poor concentration and depressive symptoms that can lift with treatment.
+- `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — Low iron shows on skin, nails and hair: iron deficiency causes pallor, brittle spoon-shaped koilonychia, diffuse hair loss, angular cheilitis and a smooth, sore glossitis of the tongue.
+- `connects-to` → **[Immune System](../immune-system/README.md)** — Iron is double-edged for immunity: it is essential for lymphocyte and neutrophil function so deficiency impairs immune defence, yet the body deliberately withholds iron during infection to starve pathogens.
+- `connects-to` → **[Endocrine System](../endocrine-system/README.md)** — Iron is needed to make thyroid hormone: thyroid peroxidase is a heme enzyme, so iron deficiency blunts thyroid-hormone synthesis and worsens hypothyroidism, tying the deficiency to the endocrine system.
 
 [^camaschella-2015-iron-deficiency]: Camaschella C. Iron-deficiency anemia. *N Engl J Med.* 2015;372(19):1832-1843. [doi:10.1056/NEJMra1401038](https://doi.org/10.1056/NEJMra1401038) · [PubMed 25946282](https://pubmed.ncbi.nlm.nih.gov/25946282/)
 [^who-ferritin-guideline-2020]: World Health Organization. WHO guideline on use of ferritin concentrations to assess iron status in individuals and populations. WHO; 2020. [WHO publication](https://www.who.int/publications/i/item/9789240000124)

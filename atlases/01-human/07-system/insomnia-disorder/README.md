@@ -211,6 +211,15 @@ cross_links:
   - target: 01-human/07-system/wound-healing
     relation: connects-to
     note: "Sleep is when the body repairs: deep sleep drives growth-hormone release and immune function, so chronic insomnia and sleep loss measurably slow wound healing and tissue repair."
+  - target: 01-human/07-system/endocrine-system
+    relation: connects-to
+    note: "Sleep is governed by and governs the hormones: melatonin and the cortisol rhythm time sleep, while chronic insomnia dysregulates the HPA axis and appetite hormones, and thyrotoxicosis itself causes insomnia."
+  - target: 01-human/07-system/digestive-system
+    relation: connects-to
+    note: "The gut and sleep disturb each other: nocturnal gastro-oesophageal reflux fragments sleep, and a bidirectional link ties insomnia to irritable bowel syndrome through the gut-brain axis."
+  - target: 01-human/07-system/attention-deficit-hyperactivity-disorder
+    relation: connects-to
+    note: "Sleep and attention are tightly entangled: insomnia and delayed sleep are very common in ADHD, the stimulants used to treat it can worsen sleep onset, and sleep loss in turn worsens inattention."
 ---
 
 # Insomnia Disorder
@@ -412,6 +421,9 @@ CBT-I directly targets perpetuating factors.
 - `connects-to` → **[Atherosclerosis](../atherosclerosis/README.md)** — Lost sleep inflames the arteries: chronic short and fragmented sleep raises blood pressure, sympathetic tone and inflammation, accelerating atherosclerosis and the cardiovascular risk tied to insomnia.
 - `connects-to` → **[COPD](../copd/README.md)** — Breathlessness and nocturnal symptoms steal sleep: insomnia is highly prevalent in COPD, where cough, hypoxia and the stimulant effects of bronchodilators fragment sleep, and poor sleep worsens daytime function.
 - `connects-to` → **[Wound Healing](../wound-healing/README.md)** — Sleep is when the body repairs: deep sleep drives growth-hormone release and immune function, so chronic insomnia and sleep loss measurably slow wound healing and tissue repair.
+- `connects-to` → **[Endocrine System](../endocrine-system/README.md)** — Sleep is governed by and governs the hormones: melatonin and the cortisol rhythm time sleep, while chronic insomnia dysregulates the HPA axis and appetite hormones, and thyrotoxicosis itself causes insomnia.
+- `connects-to` → **[Digestive System](../digestive-system/README.md)** — The gut and sleep disturb each other: nocturnal gastro-oesophageal reflux fragments sleep, and a bidirectional link ties insomnia to irritable bowel syndrome through the gut-brain axis.
+- `connects-to` → **[Attention-Deficit/Hyperactivity Disorder](../attention-deficit-hyperactivity-disorder/README.md)** — Sleep and attention are tightly entangled: insomnia and delayed sleep are very common in ADHD, the stimulants used to treat it can worsen sleep onset, and sleep loss in turn worsens inattention.
 
 [^riemann-2017-insomnia-lancet]: Riemann D, Baglioni C, Bassetti C, et al. European guideline for the diagnosis and treatment of insomnia. *J Sleep Res.* 2017;26(6):675-700. [doi:10.1111/jsr.12594](https://doi.org/10.1111/jsr.12594) · [PubMed 28875581](https://pubmed.ncbi.nlm.nih.gov/28875581/)
 [^trauer-2015-cbti-meta]: Trauer JM, Qian MY, Doyle JS, et al. Cognitive behavioral therapy for chronic insomnia. *Ann Intern Med.* 2015;163(3):191-204. [doi:10.7326/M14-2841](https://doi.org/10.7326/M14-2841) · [PubMed 26054060](https://pubmed.ncbi.nlm.nih.gov/26054060/)
