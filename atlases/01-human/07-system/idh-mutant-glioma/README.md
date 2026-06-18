@@ -232,6 +232,15 @@ cross_links:
   - target: 03-medicine/01-modern/13-cancer/targeted-therapy
     relation: connects-to
     note: "A new oncometabolite-targeted drug: IDH inhibitors such as vorasidenib block the mutant enzyme's 2-hydroxyglutarate production, delaying progression of IDH-mutant glioma."
+  - target: 03-medicine/01-modern/13-cancer/cancer-chemotherapy
+    relation: connects-to
+    note: "Chemo follows surgery and radiation: PCV (procarbazine-CCNU-vincristine) or temozolomide is the chemotherapy backbone, with the 1p/19q-codeleted oligodendroglioma especially chemosensitive."
+  - target: 03-medicine/01-modern/13-cancer/checkpoint-inhibitors
+    relation: connects-to
+    note: "An immunologically cold tumour: the 2-hydroxyglutarate oncometabolite suppresses T-cell infiltration, leaving IDH-mutant glioma largely unresponsive to PD-1 checkpoint inhibitors."
+  - target: 01-human/07-system/lymphatic-system
+    relation: connects-to
+    note: "Brain drainage shapes its immunity: CNS antigens drain through meningeal lymphatics, and the limited immune surveillance of this route helps keep IDH-mutant glioma immunologically cold."
 ---
 
 # IDH-Mutant Glioma
@@ -435,6 +444,9 @@ IDH-mutant glioma with MGMT methylation shows strong alkylating agent sensitivit
 - `connects-to` → **[Cardiovascular System](../cardiovascular-system/README.md)** — Brain tumours are prothrombotic: IDH-mutant glioma carries a raised venous thromboembolism risk, and the corticosteroids used for oedema add hypertension.
 - `connects-to` → **[Respiratory System](../respiratory-system/README.md)** — Immobility and steroids endanger the lungs: pulmonary embolism, aspiration and steroid-related Pneumocystis pneumonia threaten patients during long glioma treatment.
 - `connects-to` → **[Targeted Therapy](../../../03-medicine/01-modern/13-cancer/targeted-therapy/README.md)** — A new oncometabolite-targeted drug: IDH inhibitors such as vorasidenib block the mutant enzyme's 2-hydroxyglutarate production, delaying progression of IDH-mutant glioma.
+- `connects-to` → **[Cancer Chemotherapy](../../../03-medicine/01-modern/13-cancer/cancer-chemotherapy/README.md)** — Chemo follows surgery and radiation: PCV (procarbazine-CCNU-vincristine) or temozolomide is the chemotherapy backbone, with the 1p/19q-codeleted oligodendroglioma especially chemosensitive.
+- `connects-to` → **[Checkpoint Inhibitors](../../../03-medicine/01-modern/13-cancer/checkpoint-inhibitors/README.md)** — An immunologically cold tumour: the 2-hydroxyglutarate oncometabolite suppresses T-cell infiltration, leaving IDH-mutant glioma largely unresponsive to PD-1 checkpoint inhibitors.
+- `connects-to` → **[Lymphatic System](../lymphatic-system/README.md)** — Brain drainage shapes its immunity: CNS antigens drain through meningeal lymphatics, and the limited immune surveillance of this route helps keep IDH-mutant glioma immunologically cold.
 
 [^mellinghoff-2023-vorasidenib-lgg]: Mellinghoff IK, van den Bent MJ, Blumenthal DT, et al. Vorasidenib in IDH1- or IDH2-mutant low-grade glioma. *N Engl J Med.* 2023;389(7):589-601. [doi:10.1056/NEJMoa2304194](https://doi.org/10.1056/NEJMoa2304194) · [PubMed 37272530](https://pubmed.ncbi.nlm.nih.gov/37272530/)
 [^jiao-2012-atrx-glioma]: Jiao Y, Killela PJ, Reitman ZJ, et al. Frequent ATRX, CIC, FUBP1 and IDH mutations refine the classification of malignant gliomas. *Oncotarget.* 2012;3(7):709-722. [doi:10.18632/oncotarget.588](https://doi.org/10.18632/oncotarget.588) · [PubMed 22869205](https://pubmed.ncbi.nlm.nih.gov/22869205/)

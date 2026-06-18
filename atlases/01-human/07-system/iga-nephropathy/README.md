@@ -232,6 +232,15 @@ cross_links:
   - target: 03-medicine/01-modern/02-respiratory/corticosteroids
     relation: connects-to
     note: "Steroids target the immune drive: corticosteroids and targeted budesonide are used in progressive IgA nephropathy to suppress the mucosal IgA response damaging the glomeruli."
+  - target: 03-medicine/01-modern/04-cardio/arbs
+    relation: connects-to
+    note: "Antiproteinuric blockade is foundational: angiotensin-receptor blockers, like ACE inhibitors, lower glomerular pressure and proteinuria to slow IgA nephropathy, the cornerstone of supportive care."
+  - target: 01-human/05-tissue/peyers-patches
+    relation: connects-to
+    note: "Its abnormal antibody is born in the gut: galactose-deficient IgA1 arises from mucosal plasma cells in Peyer's patches and other gut-associated lymphoid tissue, the origin of the immune complexes that deposit in the kidney."
+  - target: 03-medicine/01-modern/13-cancer/cancer-chemotherapy
+    relation: connects-to
+    note: "Cytotoxic immunosuppression for crescentic disease: cyclophosphamide with steroids is used in rapidly progressive crescentic IgA nephropathy to halt aggressive glomerular injury."
 ---
 
 # IgA Nephropathy
@@ -387,6 +396,9 @@ IgAN is a **multi-hit disease** described by the Oxford Four-Hit Model:
 - `connects-to` → **[ACE inhibitors](../../../03-medicine/01-modern/04-cardio/ace-inhibitors/README.md)** — First-line slows the proteinuria: ACE inhibitors and ARBs reduce intraglomerular pressure and proteinuria in IgA nephropathy, the foundation of conservative treatment.
 - `connects-to` → **[Cardiovascular System](../cardiovascular-system/README.md)** — It carries cardiovascular risk through the kidney: the hypertension and progressive chronic kidney disease of IgA nephropathy markedly raise cardiovascular morbidity.
 - `connects-to` → **[Corticosteroids](../../../03-medicine/01-modern/02-respiratory/corticosteroids/README.md)** — Steroids target the immune drive: corticosteroids and targeted budesonide are used in progressive IgA nephropathy to suppress the mucosal IgA response damaging the glomeruli.
+- `connects-to` → **[ARBs](../../../03-medicine/01-modern/04-cardio/arbs/README.md)** — Antiproteinuric blockade is foundational: angiotensin-receptor blockers, like ACE inhibitors, lower glomerular pressure and proteinuria to slow IgA nephropathy, the cornerstone of supportive care.
+- `connects-to` → **[Peyer's Patches](../../05-tissue/peyers-patches/README.md)** — Its abnormal antibody is born in the gut: galactose-deficient IgA1 arises from mucosal plasma cells in Peyer's patches and other gut-associated lymphoid tissue, the origin of the immune complexes that deposit in the kidney.
+- `connects-to` → **[Cancer Chemotherapy](../../../03-medicine/01-modern/13-cancer/cancer-chemotherapy/README.md)** — Cytotoxic immunosuppression for crescentic disease: cyclophosphamide with steroids is used in rapidly progressive crescentic IgA nephropathy to halt aggressive glomerular injury.
 
 ---
 
