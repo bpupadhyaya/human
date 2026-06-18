@@ -208,6 +208,15 @@ cross_links:
   - target: 01-human/07-system/major-depressive-disorder
     relation: connects-to
     note: "Kidney failure and dialysis weigh on mood: the fatigue, dietary and fluid restrictions and time burden of dialysis give advanced kidney disease one of the highest rates of depression among chronic illnesses."
+  - target: 01-human/07-system/reproductive-system
+    relation: connects-to
+    note: "They share the genitourinary tract: the urinary and reproductive systems develop together and run side by side, so prostatic obstruction, pelvic surgery and pregnancy all directly affect the kidneys and bladder."
+  - target: 01-human/07-system/respiratory-system
+    relation: connects-to
+    note: "Lungs and kidneys jointly balance acid and can fail together: the kidney and lung co-regulate acid-base status, and pulmonary-renal syndromes like Goodpasture and ANCA vasculitis attack both at once."
+  - target: 01-human/07-system/integumentary-system
+    relation: connects-to
+    note: "Failing kidneys are written on the skin: uraemia causes intractable pruritus and a sallow complexion, and advanced renal failure can produce calciphylaxis and, with gadolinium, nephrogenic systemic fibrosis."
 taxonomy:
   uberon: "UBERON:0001008"
 ---
@@ -366,6 +375,9 @@ Natriuretic counterpoint:
 - **Connects to:** [Anemia of Chronic Disease](../anemia-of-chronic-disease/README.md) — failing kidneys stop making the red-cell hormone: the kidney produces erythropoietin, so as renal function declines, EPO falls and a characteristic renal anemia develops, often needing replacement to correct.
 - **Connects to:** [Osteoporosis](../osteoporosis/README.md) — the kidney governs bone mineral balance: as renal function fails, impaired vitamin D activation and phosphate handling disturb calcium balance, producing the renal osteodystrophy and bone fragility of CKD-mineral bone disorder.
 - **Connects to:** [Major Depressive Disorder](../major-depressive-disorder/README.md) — kidney failure and dialysis weigh on mood: the fatigue, dietary and fluid restrictions and time burden of dialysis give advanced kidney disease one of the highest rates of depression among chronic illnesses.
+- **Connects to:** [Reproductive System](../reproductive-system/README.md) — they share the genitourinary tract: the urinary and reproductive systems develop together and run side by side, so prostatic obstruction, pelvic surgery and pregnancy all directly affect the kidneys and bladder.
+- **Connects to:** [Respiratory System](../respiratory-system/README.md) — lungs and kidneys jointly balance acid and can fail together: the kidney and lung co-regulate acid-base status, and pulmonary-renal syndromes like Goodpasture and ANCA vasculitis attack both at once.
+- **Connects to:** [Integumentary System](../integumentary-system/README.md) — failing kidneys are written on the skin: uraemia causes intractable pruritus and a sallow complexion, and advanced renal failure can produce calciphylaxis and, with gadolinium, nephrogenic systemic fibrosis.
 - **Treated by:** ACE inhibitors — renoprotection in CKD.
 - **Treated by:** Loop diuretics — fluid management.
 
