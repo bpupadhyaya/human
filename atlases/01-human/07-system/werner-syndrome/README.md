@@ -205,6 +205,15 @@ cross_links:
   - target: 01-human/07-system/generalized-anxiety-disorder
     relation: connects-to
     note: "Accelerated aging and cancer risk breed worry: the visible premature ageing, multiple comorbidities and elevated malignancy risk of Werner syndrome foster chronic health anxiety alongside depression."
+  - target: 01-human/07-system/digestive-system
+    relation: connects-to
+    note: "Premature metabolic disease reaches the liver: the visceral adiposity, dyslipidaemia and insulin resistance of Werner syndrome drive fatty liver disease as part of its accelerated-ageing metabolic syndrome."
+  - target: 01-human/07-system/immune-system
+    relation: connects-to
+    note: "It is a disease of inflammaging: defective WRN genome maintenance raises chronic inflammatory cytokines that speed atherosclerosis and may erode immune surveillance against Werner's many cancers."
+  - target: 01-human/07-system/nervous-system
+    relation: connects-to
+    note: "Accelerated vascular ageing reaches the brain: systemic premature atherosclerosis affects cerebral vessels, while high-frequency sensorineural hearing loss reflects the wider neural-ageing phenotype of Werner syndrome."
 ---
 
 # Werner Syndrome
@@ -430,6 +439,9 @@ cross_links:
 - `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — It ages and tightens the skin early: Werner syndrome produces sclerodermatous taut skin, premature greying and hair loss, subcutaneous atrophy and the intractable ankle ulcers that are diagnostic hallmarks.
 - `connects-to` → **[Endocrine System](../endocrine-system/README.md)** — It disturbs several endocrine axes at once: Werner syndrome characteristically brings insulin-resistant diabetes, hypogonadism with early menopause, and a raised rate of thyroid disease and cancer.
 - `connects-to` → **[Generalized Anxiety Disorder](../generalized-anxiety-disorder/README.md)** — Accelerated aging and cancer risk breed worry: the visible premature ageing, multiple comorbidities and elevated malignancy risk of Werner syndrome foster chronic health anxiety alongside depression.
+- `connects-to` → **[Digestive System](../digestive-system/README.md)** — Premature metabolic disease reaches the liver: the visceral adiposity, dyslipidaemia and insulin resistance of Werner syndrome drive fatty liver disease as part of its accelerated-ageing metabolic syndrome.
+- `connects-to` → **[Immune System](../immune-system/README.md)** — It is a disease of inflammaging: defective WRN genome maintenance raises chronic inflammatory cytokines that speed atherosclerosis and may erode immune surveillance against Werner's many cancers.
+- `connects-to` → **[Nervous System](../nervous-system/README.md)** — Accelerated vascular ageing reaches the brain: systemic premature atherosclerosis affects cerebral vessels, while high-frequency sensorineural hearing loss reflects the wider neural-ageing phenotype of Werner syndrome.
 
 [^yu-1996-wrn]: Yu CE, Oshima J, Fu YH, et al. Positional cloning of the Werner's syndrome gene. *Science.* 1996;272(5259):258-262. [doi:10.1126/science.272.5259.258](https://doi.org/10.1126/science.272.5259.258) · [PubMed 8602509](https://pubmed.ncbi.nlm.nih.gov/8602509/)
 [^lauper-2013-wrn-neoplasia]: Lauper JM, Krause A, Vaughan TL, Monnat RJ Jr. Spectrum and risk of neoplasia in Werner syndrome: a systematic review. *PLoS One.* 2013;8(4):e59709. [doi:10.1371/journal.pone.0059709](https://doi.org/10.1371/journal.pone.0059709) · [PubMed 23579047](https://pubmed.ncbi.nlm.nih.gov/23579047/)

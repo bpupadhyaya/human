@@ -205,6 +205,15 @@ cross_links:
   - target: 01-human/07-system/generalized-anxiety-disorder
     relation: connects-to
     note: "A childhood cancer with long survivorship breeds worry: the major surgery, relapse risk and lifelong late-effect surveillance after Wilms tumour foster chronic anxiety in survivors and their families."
+  - target: 01-human/07-system/respiratory-system
+    relation: connects-to
+    note: "The lungs are its commonest distant target: Wilms tumour metastasises preferentially to the lungs, so chest imaging stages disease and pulmonary metastases guide intensified chemotherapy and sometimes whole-lung radiation."
+  - target: 01-human/07-system/cardiovascular-system
+    relation: connects-to
+    note: "It can grow into the great veins and strain the heart: Wilms tumour forms intravascular thrombus extending up the renal vein and IVC to the right atrium, while anthracycline chemotherapy adds long-term cardiotoxicity."
+  - target: 01-human/07-system/digestive-system
+    relation: connects-to
+    note: "Its overgrowth predisposition shows in the abdomen: Beckwith-Wiedemann syndrome, a leading Wilms risk factor, causes omphalocele, macroglossia and visceromegaly alongside hemihypertrophy."
 ---
 
 # Wilms Tumor
@@ -396,6 +405,9 @@ Wilms tumor survivors face late effects proportional to treatment intensity:
 - `connects-to` → **[Wound Healing](../wound-healing/README.md)** — Nephrectomy is major abdominal surgery in a small child: removing the kidney bearing a Wilms tumour, often after chemotherapy, leaves a large wound prone to slow healing in a young patient.
 - `connects-to` → **[Neuropathic Pain](../neuropathic-pain/README.md)** — Vincristine numbs the nerves: the vincristine central to Wilms-tumour chemotherapy is reliably neurotoxic, causing a peripheral neuropathy with weakness, constipation and painful paraesthesiae.
 - `connects-to` → **[Generalized Anxiety Disorder](../generalized-anxiety-disorder/README.md)** — A childhood cancer with long survivorship breeds worry: the major surgery, relapse risk and lifelong late-effect surveillance after Wilms tumour foster chronic anxiety in survivors and their families.
+- `connects-to` → **[Respiratory System](../respiratory-system/README.md)** — The lungs are its commonest distant target: Wilms tumour metastasises preferentially to the lungs, so chest imaging stages disease and pulmonary metastases guide intensified chemotherapy and sometimes whole-lung radiation.
+- `connects-to` → **[Cardiovascular System](../cardiovascular-system/README.md)** — It can grow into the great veins and strain the heart: Wilms tumour forms intravascular thrombus extending up the renal vein and IVC to the right atrium, while anthracycline chemotherapy adds long-term cardiotoxicity.
+- `connects-to` → **[Digestive System](../digestive-system/README.md)** — Its overgrowth predisposition shows in the abdomen: Beckwith-Wiedemann syndrome, a leading Wilms risk factor, causes omphalocele, macroglossia and visceromegaly alongside hemihypertrophy.
 
 [^dome-2015-wilms]: Dome JS, Graf N, Geller JI, et al. Advances in Wilms tumor treatment and biology: progress through international collaboration. *J Clin Oncol.* 2015;33(27):2999-3007. [doi:10.1200/JCO.2015.62.1888](https://doi.org/10.1200/JCO.2015.62.1888) · [PubMed 26261251](https://pubmed.ncbi.nlm.nih.gov/26261251/)
 [^dix-2006-arenl0002]: Dix DB, Bhatt SM, Geller JI, et al. Treatment of Stage IV favorable histology Wilms tumor with incomplete lung metastasis response after chemotherapy: a report from Children's Oncology Group Study AREN0533. *J Clin Oncol.* 2018;36(16):1564-1570. [doi:10.1200/JCO.2017.77.1877](https://doi.org/10.1200/JCO.2017.77.1877) · [PubMed 29584550](https://pubmed.ncbi.nlm.nih.gov/29584550/)
