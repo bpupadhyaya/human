@@ -220,6 +220,15 @@ cross_links:
   - target: 01-human/07-system/cardiovascular-system
     relation: connects-to
     note: "It scars the heart valves and arteries: antiphospholipid syndrome causes Libman-Sacks non-bacterial valvular vegetations and coronary thrombosis, adding cardiac disease to its accelerated atherosclerosis."
+  - target: 01-human/07-system/renal-system
+    relation: connects-to
+    note: "APS nephropathy attacks the kidney: thrombotic microangiopathy in renal arterioles plus renal artery or vein thrombosis drives hypertension and progressive renal impairment."
+  - target: 01-human/07-system/respiratory-system
+    relation: connects-to
+    note: "It throws clots to the lungs: recurrent pulmonary embolism and, in catastrophic APS, diffuse alveolar haemorrhage and chronic thromboembolic pulmonary hypertension can result."
+  - target: 01-human/07-system/endocrine-system
+    relation: connects-to
+    note: "Adrenal vein thrombosis can trigger bilateral adrenal infarction and haemorrhage — a recognised antiphospholipid cause of acute primary adrenal insufficiency."
 ---
 
 # Antiphospholipid Syndrome
@@ -433,6 +442,9 @@ In APS, anti-B2GPI IgG bound to B2GPI on phospholipid surfaces converts this ant
 - `connects-to` → **[Immune System](../immune-system/README.md)** — It is an autoimmune clotting disease: antiphospholipid antibodies — lupus anticoagulant, anti-cardiolipin and anti-β2-glycoprotein-I — activate platelets, endothelium and complement to drive its thromboses and pregnancy loss.
 - `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — It is written on the skin: livedo reticularis is a hallmark, with skin ulcers, splinter haemorrhages and digital gangrene reflecting the small-vessel thrombosis of antiphospholipid syndrome.
 - `connects-to` → **[Cardiovascular System](../cardiovascular-system/README.md)** — It scars the heart valves and arteries: antiphospholipid syndrome causes Libman-Sacks non-bacterial valvular vegetations and coronary thrombosis, adding cardiac disease to its accelerated atherosclerosis.
+- `connects-to` → **[Renal System](../renal-system/README.md)** — APS nephropathy attacks the kidney: thrombotic microangiopathy in renal arterioles plus renal artery or vein thrombosis drives hypertension and progressive renal impairment.
+- `connects-to` → **[Respiratory System](../respiratory-system/README.md)** — It throws clots to the lungs: recurrent pulmonary embolism and, in catastrophic APS, diffuse alveolar haemorrhage and chronic thromboembolic pulmonary hypertension can result.
+- `connects-to` → **[Endocrine System](../endocrine-system/README.md)** — Adrenal vein thrombosis can trigger bilateral adrenal infarction and haemorrhage — a recognised antiphospholipid cause of acute primary adrenal insufficiency.
 
 [^miyakis-2006-sydney-aps]: Miyakis S, Lockshin MD, Atsumi T, et al. International consensus statement on an update of the classification criteria for definite antiphospholipid syndrome (APS). *J Thromb Haemost.* 2006;4(2):295-306. [doi:10.1111/j.1538-7836.2006.01753.x](https://doi.org/10.1111/j.1538-7836.2006.01753.x) · [PubMed 16420554](https://pubmed.ncbi.nlm.nih.gov/16420554/)
 [^barbhaiya-2023-acreular-aps]: Barbhaiya M, Zuily S, Naden R, et al. The 2023 ACR/EULAR antiphospholipid syndrome classification criteria. *Ann Rheum Dis.* 2023;82(10):1258-1270. [doi:10.1136/ard-2023-224609](https://doi.org/10.1136/ard-2023-224609) · [PubMed 37643823](https://pubmed.ncbi.nlm.nih.gov/37643823/)

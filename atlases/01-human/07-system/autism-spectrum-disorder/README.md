@@ -229,6 +229,15 @@ cross_links:
   - target: 01-human/07-system/renal-system
     relation: connects-to
     note: "Continence comes late: nocturnal enuresis and delayed toilet training are more common in autistic children, and some ASD-associated genetic syndromes carry renal and urinary-tract anomalies."
+  - target: 02-pathogen/01-viruses/influenza-a
+    relation: connects-to
+    note: "Maternal infection raises the odds: severe maternal influenza and prolonged fever in pregnancy are linked to higher autism risk, an example of the maternal-immune-activation hypothesis of neurodevelopment."
+  - target: 02-pathogen/01-viruses/measles-virus
+    relation: connects-to
+    note: "The MMR-autism scare was fraudulent: the claim linking measles vaccination to autism was retracted and disproven, and large studies show no association — vaccination does not cause autism."
+  - target: 03-medicine/03-food/omega-3-fatty-acids
+    relation: connects-to
+    note: "Diet draws research interest: omega-3 supplementation has been trialled for autism symptoms, but the evidence remains weak and it is not an established treatment."
 ---
 
 # Autism Spectrum Disorder
@@ -436,6 +445,9 @@ The neural basis of ASD social deficits involves dysfunction of the **social bra
 - `connects-to` → **[Cardiovascular System](../cardiovascular-system/README.md)** — Its autonomic balance differs: autism is associated with altered heart-rate variability and autonomic reactivity, and several ASD-linked genetic syndromes include congenital heart disease.
 - `connects-to` → **[Endocrine System](../endocrine-system/README.md)** — Its medications reshape metabolism: antipsychotics like risperidone and aripiprazole, used for autism-related irritability, commonly cause weight gain, hyperprolactinaemia and metabolic syndrome.
 - `connects-to` → **[Renal System](../renal-system/README.md)** — Continence comes late: nocturnal enuresis and delayed toilet training are more common in autistic children, and some ASD-associated genetic syndromes carry renal and urinary-tract anomalies.
+- `connects-to` → **[Influenza A](../../../02-pathogen/01-viruses/influenza-a/README.md)** — Maternal infection raises the odds: severe maternal influenza and prolonged fever in pregnancy are linked to higher autism risk, an example of the maternal-immune-activation hypothesis of neurodevelopment.
+- `connects-to` → **[Measles virus](../../../02-pathogen/01-viruses/measles-virus/README.md)** — The MMR-autism scare was fraudulent: the claim linking measles vaccination to autism was retracted and disproven, and large studies show no association — vaccination does not cause autism.
+- `connects-to` → **[Omega-3 fatty acids](../../../03-medicine/03-food/omega-3-fatty-acids/README.md)** — Diet draws research interest: omega-3 supplementation has been trialled for autism symptoms, but the evidence remains weak and it is not an established treatment.
 
 [^maenner-2023-asd-prevalence]: Maenner MJ, Warren Z, Williams AR, et al. Prevalence and characteristics of autism spectrum disorder among children aged 8 years — ADDM Network, 2020. *MMWR Surveill Summ.* 2023;72(2):1-14. [doi:10.15585/mmwr.ss7202a1](https://doi.org/10.15585/mmwr.ss7202a1) · [PubMed 36952216](https://pubmed.ncbi.nlm.nih.gov/36952216/)
 [^lord-2020-asd-review]: Lord C, Elsabbagh M, Baird G, Veenstra-Vanderweele J. Autism spectrum disorder. *Lancet.* 2018;392(10146):508-520. [doi:10.1016/S0140-6736(18)31129-2](https://doi.org/10.1016/S0140-6736(18)31129-2) · [PubMed 30078460](https://pubmed.ncbi.nlm.nih.gov/30078460/)
