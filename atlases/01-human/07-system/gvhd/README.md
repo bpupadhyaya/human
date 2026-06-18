@@ -235,6 +235,15 @@ cross_links:
   - target: 02-pathogen/01-viruses/varicella-zoster-virus
     relation: connects-to
     note: "Deep immunosuppression reawakens latent virus: the heavy immune suppression of GVHD lets varicella-zoster reactivate as shingles, sometimes disseminated."
+  - target: 03-medicine/01-modern/02-respiratory/corticosteroids
+    relation: connects-to
+    note: "The first-line treatment: high-dose corticosteroids are the mainstay for acute and chronic graft-versus-host disease, though steroid-refractory disease carries a poor prognosis and drives the search for alternatives."
+  - target: 02-pathogen/01-viruses/herpesvirus
+    relation: connects-to
+    note: "Cytomegalovirus reawakens under treatment: the heavy immunosuppression for GVHD allows CMV reactivation, causing pneumonitis, colitis and marrow suppression that are major causes of post-transplant death."
+  - target: 03-medicine/03-food/dietary-fiber
+    relation: connects-to
+    note: "The microbiome shapes its severity: loss of gut bacterial diversity worsens GVHD, while fibre-derived butyrate that nourishes the intestinal epithelium is protective, making diet and the microbiome therapeutic targets."
 ---
 
 # Graft-Versus-Host Disease
@@ -445,6 +454,9 @@ The protective Treg/IL-10 axis is the key biological counterbalance to alloreact
 - `connects-to` → **[Lymphatic System](../lymphatic-system/README.md)** — It is born of donor lymphocytes and cripples lymphoid recovery: donor T cells attack the host while thymic GVHD delays T-cell reconstitution, leaving prolonged immunodeficiency after transplant.
 - `connects-to` → **[Cardiovascular System](../cardiovascular-system/README.md)** — Its treatment strains the circulation: long courses of corticosteroids and calcineurin inhibitors for GVHD drive hypertension and cardiovascular risk, and rare cardiac GVHD causes pericarditis.
 - `connects-to` → **[Varicella-zoster virus](../../../02-pathogen/01-viruses/varicella-zoster-virus/README.md)** — Deep immunosuppression reawakens latent virus: the heavy immune suppression of GVHD lets varicella-zoster reactivate as shingles, sometimes disseminated.
+- `connects-to` → **[Corticosteroids](../../../03-medicine/01-modern/02-respiratory/corticosteroids/README.md)** — The first-line treatment: high-dose corticosteroids are the mainstay for acute and chronic graft-versus-host disease, though steroid-refractory disease carries a poor prognosis and drives the search for alternatives.
+- `connects-to` → **[Herpesviridae](../../../02-pathogen/01-viruses/herpesvirus/README.md)** — Cytomegalovirus reawakens under treatment: the heavy immunosuppression for GVHD allows CMV reactivation, causing pneumonitis, colitis and marrow suppression that are major causes of post-transplant death.
+- `connects-to` → **[Dietary Fiber](../../../03-medicine/03-food/dietary-fiber/README.md)** — The microbiome shapes its severity: loss of gut bacterial diversity worsens GVHD, while fibre-derived butyrate that nourishes the intestinal epithelium is protective, making diet and the microbiome therapeutic targets.
 
 [^ferrara-2009-gvhd-review]: Ferrara JL, Levine JE, Reddy P, Holler E. Graft-versus-host disease. *Lancet.* 2009;373(9674):1550-1561. [doi:10.1016/S0140-6736(09)60237-3](https://doi.org/10.1016/S0140-6736(09)60237-3) · [PubMed 19380114](https://pubmed.ncbi.nlm.nih.gov/19380114/)
 [^zeiser-2020-ruxolitinib-gvhd-reach]: Zeiser R, von Bubnoff N, Butler J, et al. Ruxolitinib for Glucocorticoid-Refractory Acute Graft-versus-Host Disease. *N Engl J Med.* 2020;382(19):1800-1810. [doi:10.1056/NEJMoa1917635](https://doi.org/10.1056/NEJMoa1917635) · [PubMed 32374962](https://pubmed.ncbi.nlm.nih.gov/32374962/)
