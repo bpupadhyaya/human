@@ -229,6 +229,15 @@ cross_links:
   - target: 01-human/07-system/respiratory-system
     relation: connects-to
     note: "Sleep apnoea feeds it: obstructive sleep apnoea raises uric acid through intermittent hypoxia and nucleotide turnover, triggering nocturnal gout flares."
+  - target: 03-medicine/01-modern/02-respiratory/corticosteroids
+    relation: connects-to
+    note: "Steroids treat the flare when others can't: oral or intra-articular corticosteroids relieve acute gout for patients in whom NSAIDs and colchicine are contraindicated, such as in kidney disease."
+  - target: 03-medicine/03-food/quercetin
+    relation: connects-to
+    note: "A dietary urate-lowering flavonoid: quercetin inhibits xanthine oxidase, the same enzyme blocked by allopurinol, and trials show it modestly lowers serum uric acid."
+  - target: 03-medicine/03-food/omega-3-fatty-acids
+    relation: connects-to
+    note: "Diet can calm the inflammation: omega-3 fatty acids have anti-inflammatory effects studied for reducing gout flare frequency, complementing urate-lowering therapy."
 ---
 
 # Gout
@@ -392,6 +401,9 @@ The central mechanism linking MSU crystals to acute gouty arthritis is **NLRP3 i
 - `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — It deposits chalky lumps under the skin: tophi — subcutaneous urate crystal deposits on the ear helix, fingers and Achilles tendon — can ulcerate and discharge a white pasty material in chronic gout.
 - `connects-to` → **[Nervous System](../nervous-system/README.md)** — It can rarely reach the spine: tophaceous urate deposits in the spine can compress nerve roots or the spinal cord, an uncommon but serious neurological complication of long-standing gout.
 - `connects-to` → **[Respiratory System](../respiratory-system/README.md)** — Sleep apnoea feeds it: obstructive sleep apnoea raises uric acid through intermittent hypoxia and nucleotide turnover, triggering nocturnal gout flares.
+- `connects-to` → **[Corticosteroids](../../../03-medicine/01-modern/02-respiratory/corticosteroids/README.md)** — Steroids treat the flare when others can't: oral or intra-articular corticosteroids relieve acute gout for patients in whom NSAIDs and colchicine are contraindicated, such as in kidney disease.
+- `connects-to` → **[Quercetin](../../../03-medicine/03-food/quercetin/README.md)** — A dietary urate-lowering flavonoid: quercetin inhibits xanthine oxidase, the same enzyme blocked by allopurinol, and trials show it modestly lowers serum uric acid.
+- `connects-to` → **[Omega-3 fatty acids](../../../03-medicine/03-food/omega-3-fatty-acids/README.md)** — Diet can calm the inflammation: omega-3 fatty acids have anti-inflammatory effects studied for reducing gout flare frequency, complementing urate-lowering therapy.
 
 [^dalbeth-2019-gout-primer]: Dalbeth N, Choi HK, Joosten LAB, et al. Gout. *Nat Rev Dis Primers.* 2019;5(1):69. [doi:10.1038/s41572-019-0115-y](https://doi.org/10.1038/s41572-019-0115-y) · [PubMed 31558729](https://pubmed.ncbi.nlm.nih.gov/31558729/)
 [^martinon-2006-nlrp3-gout]: Martinon F, Pétrilli V, Mayor A, Tardivel A, Tschopp J. Gout-associated uric acid crystals activate the NALP3 inflammasome. *Nature.* 2006;440(7081):237-241. [doi:10.1038/nature04516](https://doi.org/10.1038/nature04516) · [PubMed 16407889](https://pubmed.ncbi.nlm.nih.gov/16407889/)

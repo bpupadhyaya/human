@@ -223,6 +223,15 @@ cross_links:
   - target: 01-human/07-system/nervous-system
     relation: connects-to
     note: "It favours the brain and harms the nerves: BRCA1 breast cancers are often triple-negative with a propensity for brain metastasis, and platinum and taxane chemotherapy cause peripheral neuropathy."
+  - target: 01-human/07-system/integumentary-system
+    relation: connects-to
+    note: "It widens the cancer spectrum to the skin: BRCA2 carriers have an increased risk of melanoma, adding the skin to the breast, ovary, pancreas and prostate in BRCA-related cancer."
+  - target: 01-human/07-system/musculoskeletal-system
+    relation: connects-to
+    note: "Its cancers spread to bone: the breast and prostate cancers driven by BRCA mutations frequently metastasise to the skeleton, causing pain and fractures."
+  - target: 01-human/07-system/respiratory-system
+    relation: connects-to
+    note: "Advanced disease reaches the lungs: BRCA-related breast and ovarian cancers metastasise to the lungs and pleura, causing effusions and breathlessness."
 ---
 
 # Hereditary Breast and Ovarian Cancer
@@ -427,6 +436,9 @@ BRCA-mutant cells (HRD):
 - `connects-to` → **[Cardiovascular System](../cardiovascular-system/README.md)** — Risk reduction and treatment burden the heart: prophylactic oophorectomy induces premature menopause that raises cardiovascular risk, and anthracycline and HER2 therapy for BRCA breast cancer is cardiotoxic.
 - `connects-to` → **[Lymphatic System](../lymphatic-system/README.md)** — Its cancers travel through the nodes: BRCA-associated breast and ovarian cancers spread to lymph nodes, and axillary surgery for breast cancer causes arm lymphoedema.
 - `connects-to` → **[Nervous System](../nervous-system/README.md)** — It favours the brain and harms the nerves: BRCA1 breast cancers are often triple-negative with a propensity for brain metastasis, and platinum and taxane chemotherapy cause peripheral neuropathy.
+- `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — It widens the cancer spectrum to the skin: BRCA2 carriers have an increased risk of melanoma, adding the skin to the breast, ovary, pancreas and prostate in BRCA-related cancer.
+- `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — Its cancers spread to bone: the breast and prostate cancers driven by BRCA mutations frequently metastasise to the skeleton, causing pain and fractures.
+- `connects-to` → **[Respiratory System](../respiratory-system/README.md)** — Advanced disease reaches the lungs: BRCA-related breast and ovarian cancers metastasise to the lungs and pleura, causing effusions and breathlessness.
 
 ---
 
