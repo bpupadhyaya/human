@@ -223,6 +223,15 @@ cross_links:
   - target: 03-medicine/01-modern/04-cardio/beta-blockers
     relation: connects-to
     note: "Order of blockade is life-or-death: beta-blockers must be given only after alpha-blockade in phaeochromocytoma, because unopposed alpha stimulation from beta-blockade first can precipitate a hypertensive crisis."
+  - target: 03-medicine/01-modern/04-cardio/calcium-channel-blockers
+    relation: connects-to
+    note: "They help control the surges: calcium-channel blockers assist in managing the paroxysmal hypertension of phaeochromocytoma, after alpha-blockade and before any beta-blocker is added."
+  - target: 03-medicine/01-modern/13-cancer/targeted-therapy
+    relation: connects-to
+    note: "Metastatic disease gets targeted treatment: MIBG radiotherapy, somatostatin-receptor PRRT and kinase inhibitors such as sunitinib treat unresectable phaeochromocytoma and paraganglioma."
+  - target: 01-human/07-system/neuroendocrine-tumors
+    relation: connects-to
+    note: "It belongs to the neuroendocrine family: phaeochromocytomas and paragangliomas are catecholamine-secreting neuroendocrine tumours, sharing somatostatin-receptor imaging and PRRT with other NETs."
 ---
 
 # Pheochromocytoma/Paraganglioma
@@ -433,6 +442,9 @@ Active in Cluster 1 (MET/AXL co-expressed in SDH-deficient tumors); Phase 2 CABO
 - `connects-to` → **[Renal System](../renal-system/README.md)** — Catecholamine surges scar the kidney: sustained and paroxysmal hypertension drives hypertensive nephrosclerosis, and paragangliomas can arise in the renal bed near the kidney.
 - `connects-to` → **[Lymphatic System](../lymphatic-system/README.md)** — Malignant disease spreads to the nodes: there is no benign histology — malignancy is defined by spread, and SDHB-mutated paragangliomas in particular metastasise to lymph nodes and bone.
 - `connects-to` → **[Beta-Blockers](../../../03-medicine/01-modern/04-cardio/beta-blockers/README.md)** — Order of blockade is life-or-death: beta-blockers must be given only after alpha-blockade in phaeochromocytoma, because unopposed alpha stimulation from beta-blockade first can precipitate a hypertensive crisis.
+- `connects-to` → **[Calcium-channel Blockers](../../../03-medicine/01-modern/04-cardio/calcium-channel-blockers/README.md)** — They help control the surges: calcium-channel blockers assist in managing the paroxysmal hypertension of phaeochromocytoma, after alpha-blockade and before any beta-blocker is added.
+- `connects-to` → **[Targeted Therapy](../../../03-medicine/01-modern/13-cancer/targeted-therapy/README.md)** — Metastatic disease gets targeted treatment: MIBG radiotherapy, somatostatin-receptor PRRT and kinase inhibitors such as sunitinib treat unresectable phaeochromocytoma and paraganglioma.
+- `connects-to` → **[Neuroendocrine Tumors](../neuroendocrine-tumors/README.md)** — It belongs to the neuroendocrine family: phaeochromocytomas and paragangliomas are catecholamine-secreting neuroendocrine tumours, sharing somatostatin-receptor imaging and PRRT with other NETs.
 
 [^lenders-2014-pheo-guideline]: Lenders JW, Duh QY, Eisenhofer G, et al. Pheochromocytoma and paraganglioma: an endocrine society clinical practice guideline. *J Clin Endocrinol Metab.* 2014;99(6):1915-1942. [doi:10.1210/jc.2014-1498](https://doi.org/10.1210/jc.2014-1498) · [PubMed 24893135](https://pubmed.ncbi.nlm.nih.gov/24893135/)
 [^baudin-2021-firstmappp-sunitinib]: Baudin E, Goichot B, Berruti A, et al. First International Randomized Study in Malignant Progressive Pheochromocytoma and Paragangliomas (FIRSTMAPPP). *Ann Oncol.* 2021;32(10):1245-1254. [doi:10.1016/j.annonc.2021.07.009](https://doi.org/10.1016/j.annonc.2021.07.009) · [PubMed 34246769](https://pubmed.ncbi.nlm.nih.gov/34246769/)
