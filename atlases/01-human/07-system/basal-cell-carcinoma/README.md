@@ -214,6 +214,15 @@ cross_links:
   - target: 01-human/07-system/digestive-system
     relation: connects-to
     note: "Its targeted drug attacks taste and appetite: the hedgehog-pathway inhibitor vismodegib used for advanced basal cell carcinoma commonly causes severe dysgeusia, nausea and weight loss."
+  - target: 01-human/07-system/lymphatic-system
+    relation: connects-to
+    note: "It almost never spreads to nodes: although locally destructive, basal cell carcinoma metastasises to regional lymph nodes only in rare, advanced or neglected cases — an exception to its indolent reputation."
+  - target: 01-human/07-system/respiratory-system
+    relation: connects-to
+    note: "When it does spread, the lung leads: the rare metastatic basal cell carcinoma most often reaches the lungs, and locally advanced facial tumours can invade toward the sinuses and orbit."
+  - target: 01-human/07-system/cardiovascular-system
+    relation: connects-to
+    note: "Neglected tumours can erode vessels: a long-ignored 'rodent ulcer' basal cell carcinoma can invade deeply through tissue and erode major vessels, causing life-threatening haemorrhage."
 ---
 
 # Basal Cell Carcinoma
@@ -401,6 +410,9 @@ BCC has a complex immune microenvironment:
 - `connects-to` → **[Nervous System](../nervous-system/README.md)** — Aggressive facial tumours track along nerves: neglected or recurrent basal cell carcinoma, especially on the face, can invade perineurally and spread along cranial nerves toward the skull base.
 - `connects-to` → **[Neuropathic Pain](../neuropathic-pain/README.md)** — Perineural spread causes pain and numbness: when basal cell carcinoma invades along nerves, it produces facial paraesthesia, numbness and neuropathic pain that signal deep, advanced disease.
 - `connects-to` → **[Digestive System](../digestive-system/README.md)** — Its targeted drug attacks taste and appetite: the hedgehog-pathway inhibitor vismodegib used for advanced basal cell carcinoma commonly causes severe dysgeusia, nausea and weight loss.
+- `connects-to` → **[Lymphatic System](../lymphatic-system/README.md)** — It almost never spreads to nodes: although locally destructive, basal cell carcinoma metastasises to regional lymph nodes only in rare, advanced or neglected cases — an exception to its indolent reputation.
+- `connects-to` → **[Respiratory System](../respiratory-system/README.md)** — When it does spread, the lung leads: the rare metastatic basal cell carcinoma most often reaches the lungs, and locally advanced facial tumours can invade toward the sinuses and orbit.
+- `connects-to` → **[Cardiovascular System](../cardiovascular-system/README.md)** — Neglected tumours can erode vessels: a long-ignored 'rodent ulcer' basal cell carcinoma can invade deeply through tissue and erode major vessels, causing life-threatening haemorrhage.
 
 ---
 

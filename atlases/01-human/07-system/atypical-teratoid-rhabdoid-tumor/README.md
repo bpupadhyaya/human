@@ -214,6 +214,15 @@ cross_links:
   - target: 01-human/07-system/generalized-anxiety-disorder
     relation: connects-to
     note: "A dire prognosis breeds relentless worry: the aggressive course, intensive therapy and grim outlook of ATRT foster profound anxiety in families alongside the depression it brings."
+  - target: 01-human/07-system/renal-system
+    relation: connects-to
+    note: "It shares a gene with a kidney tumour: germline SMARCB1 loss causes rhabdoid tumour predisposition syndrome, in which ATRT coexists with malignant rhabdoid tumours of the kidney, prompting renal surveillance."
+  - target: 01-human/07-system/integumentary-system
+    relation: connects-to
+    note: "Its intensive therapy assaults the skin: craniospinal radiation causes radiation dermatitis, and the multi-agent chemotherapy of infant ATRT brings alopecia and mucocutaneous toxicity."
+  - target: 01-human/07-system/cardiovascular-system
+    relation: connects-to
+    note: "Its chemotherapy can scar the heart: anthracyclines used against ATRT carry a long-term cardiotoxicity risk in the rare survivors of this aggressive infant tumour."
 ---
 
 # Atypical Teratoid/Rhabdoid Tumor
@@ -398,6 +407,9 @@ AT/RT has no established standard of care; protocols are protocol-driven and cen
 - `connects-to` → **[Wound Healing](../wound-healing/README.md)** — Infant neurosurgery is a healing challenge: the maximal-safe resection of an ATRT in a small child, often followed by chemotherapy and radiation, leaves a cranial wound that must heal in a vulnerable patient.
 - `connects-to` → **[Endocrine System](../endocrine-system/README.md)** — Treatment damages the hormone axis: craniospinal irradiation and surgery near the hypothalamus and pituitary in ATRT cause growth-hormone deficiency and other endocrinopathies in survivors.
 - `connects-to` → **[Generalized Anxiety Disorder](../generalized-anxiety-disorder/README.md)** — A dire prognosis breeds relentless worry: the aggressive course, intensive therapy and grim outlook of ATRT foster profound anxiety in families alongside the depression it brings.
+- `connects-to` → **[Renal System](../renal-system/README.md)** — It shares a gene with a kidney tumour: germline SMARCB1 loss causes rhabdoid tumour predisposition syndrome, in which ATRT coexists with malignant rhabdoid tumours of the kidney, prompting renal surveillance.
+- `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — Its intensive therapy assaults the skin: craniospinal radiation causes radiation dermatitis, and the multi-agent chemotherapy of infant ATRT brings alopecia and mucocutaneous toxicity.
+- `connects-to` → **[Cardiovascular System](../cardiovascular-system/README.md)** — Its chemotherapy can scar the heart: anthracyclines used against ATRT carry a long-term cardiotoxicity risk in the rare survivors of this aggressive infant tumour.
 
 ---
 
