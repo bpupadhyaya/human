@@ -205,6 +205,15 @@ cross_links:
   - target: 01-human/07-system/ptsd
     relation: connects-to
     note: "Trauma and stimulant use reinforce each other: PTSD is highly comorbid with stimulant use disorder, with stimulants used to counter numbing and hyperarousal even as use worsens the trauma symptoms."
+  - target: 01-human/07-system/integumentary-system
+    relation: connects-to
+    note: "Stimulants scar the skin and mouth: methamphetamine causes formication with compulsive skin-picking ('meth sores') and rampant 'meth mouth' dental decay, and cocaine perforates the nasal septum."
+  - target: 01-human/07-system/digestive-system
+    relation: connects-to
+    note: "Cocaine starves the bowel of blood: its intense vasoconstriction causes mesenteric ischaemia and bowel infarction, and stimulant-driven appetite suppression leads to marked weight loss and malnutrition."
+  - target: 01-human/07-system/musculoskeletal-system
+    relation: connects-to
+    note: "Overdose can dissolve muscle: stimulant-induced hyperthermia, agitation and seizures cause rhabdomyolysis, releasing myoglobin that can precipitate acute kidney injury."
 ---
 
 # Stimulant Use Disorder
@@ -389,6 +398,9 @@ Unlike cocaine, methamphetamine causes **direct neurotoxic damage** to dopaminer
 - `connects-to` → **[Wound Healing](../wound-healing/README.md)** — It tears at the skin and starves it of blood: methamphetamine drives compulsive skin-picking sores and, with injection abscesses and vasoconstriction, leaves chronic wounds slow to heal in often malnourished users.
 - `connects-to` → **[Staphylococcus aureus](../../../02-pathogen/02-bacteria/staphylococcus-aureus/README.md)** — Injection opens a door for Staph: non-sterile injection of stimulants inoculates Staphylococcus aureus into skin and bloodstream, causing abscesses, cellulitis and endocarditis.
 - `connects-to` → **[PTSD](../ptsd/README.md)** — Trauma and stimulant use reinforce each other: PTSD is highly comorbid with stimulant use disorder, with stimulants used to counter numbing and hyperarousal even as use worsens the trauma symptoms.
+- `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — Stimulants scar the skin and mouth: methamphetamine causes formication with compulsive skin-picking ('meth sores') and rampant 'meth mouth' dental decay, and cocaine perforates the nasal septum.
+- `connects-to` → **[Digestive System](../digestive-system/README.md)** — Cocaine starves the bowel of blood: its intense vasoconstriction causes mesenteric ischaemia and bowel infarction, and stimulant-driven appetite suppression leads to marked weight loss and malnutrition.
+- `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — Overdose can dissolve muscle: stimulant-induced hyperthermia, agitation and seizures cause rhabdomyolysis, releasing myoglobin that can precipitate acute kidney injury.
 
 ## Treatment
 

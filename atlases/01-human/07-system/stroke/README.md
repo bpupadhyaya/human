@@ -208,6 +208,15 @@ cross_links:
   - target: 01-human/07-system/alzheimers-disease
     relation: connects-to
     note: "Infarcts accelerate cognitive decline: stroke causes vascular dementia directly and lowers the threshold for Alzheimer-type dementia, the two often coexisting as mixed dementia in survivors."
+  - target: 01-human/07-system/respiratory-system
+    relation: connects-to
+    note: "Swallowing failure floods the lungs: stroke causes dysphagia and impaired cough, so aspiration pneumonia is a leading early complication, and large strokes can trigger neurogenic pulmonary oedema."
+  - target: 01-human/07-system/digestive-system
+    relation: connects-to
+    note: "It disrupts the whole gut from mouth to bowel: stroke-related dysphagia forces modified diets or PEG feeding, and immobility and autonomic change bring constipation and faecal incontinence."
+  - target: 01-human/07-system/renal-system
+    relation: connects-to
+    note: "It unsettles the bladder and threatens the kidneys: stroke commonly causes urinary incontinence or retention with infection, and contrast for imaging and thrombectomy can injure the kidneys."
 ---
 
 # Stroke
@@ -375,6 +384,9 @@ Normal brain maintains CBF constant (50-150 mmHg MAP range) via autoregulation (
 - `connects-to` → **[Streptococcus pneumoniae](../../../02-pathogen/02-bacteria/streptococcus-pneumoniae/README.md)** — It impairs the swallow and seeds the lung: stroke commonly causes dysphagia, and the resulting aspiration pneumonia — often pneumococcal — is a leading early complication and cause of death.
 - `connects-to` → **[Wound Healing](../wound-healing/README.md)** — Paralysis and immobility break down the skin: hemiparesis and bedbound recovery after stroke predispose to pressure ulcers over insensate, poorly moved skin that then heal slowly.
 - `connects-to` → **[Alzheimer's Disease](../alzheimers-disease/README.md)** — Infarcts accelerate cognitive decline: stroke causes vascular dementia directly and lowers the threshold for Alzheimer-type dementia, the two often coexisting as mixed dementia in survivors.
+- `connects-to` → **[Respiratory System](../respiratory-system/README.md)** — Swallowing failure floods the lungs: stroke causes dysphagia and impaired cough, so aspiration pneumonia is a leading early complication, and large strokes can trigger neurogenic pulmonary oedema.
+- `connects-to` → **[Digestive System](../digestive-system/README.md)** — It disrupts the whole gut from mouth to bowel: stroke-related dysphagia forces modified diets or PEG feeding, and immobility and autonomic change bring constipation and faecal incontinence.
+- `connects-to` → **[Renal System](../renal-system/README.md)** — It unsettles the bladder and threatens the kidneys: stroke commonly causes urinary incontinence or retention with infection, and contrast for imaging and thrombectomy can injure the kidneys.
 
 [^powers-2019-aha-stroke]: Powers WJ, Rabinstein AA, Ackerson T, et al. Guidelines for the Early Management of Patients With Acute Ischemic Stroke: 2019 Update to the 2018 Guidelines. *Stroke.* 2019;50(12):e344-e418. [doi:10.1161/STR.0000000000000211](https://doi.org/10.1161/STR.0000000000000211) · [PubMed 31662037](https://pubmed.ncbi.nlm.nih.gov/31662037/)
 [^feigin-2021-gbd-stroke]: Feigin VL, Krishnamurthi RV, Parmar P, et al. Update on the Global Burden of Ischemic and Hemorrhagic Stroke in 1990-2013. *Neuroepidemiology.* 2015;45(3):161-176. [doi:10.1159/000441085](https://doi.org/10.1159/000441085) · [PubMed 26505981](https://pubmed.ncbi.nlm.nih.gov/26505981/)
