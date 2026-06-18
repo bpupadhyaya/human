@@ -232,6 +232,15 @@ cross_links:
   - target: 01-human/07-system/renal-system
     relation: connects-to
     note: "Its drugs can unbalance sodium: SSRIs can cause hyponatraemia from SIADH, particularly in older patients, requiring monitoring after starting treatment."
+  - target: 01-human/07-system/cardiovascular-system
+    relation: connects-to
+    note: "Heart and mood are bound together: depression worsens outcomes after myocardial infarction and independently raises cardiovascular risk through inflammation, autonomic and behavioural pathways."
+  - target: 01-human/07-system/respiratory-system
+    relation: connects-to
+    note: "It travels with breathing disease: depression is common in COPD and asthma, worsening symptom burden and adherence, and breathlessness itself feeds low mood."
+  - target: 01-human/07-system/integumentary-system
+    relation: connects-to
+    note: "The skin and mind interact: depression accompanies chronic skin disease such as psoriasis and acne, and the distress of visible disease deepens low mood in turn."
 ---
 
 # Major Depressive Disorder
@@ -460,6 +469,9 @@ Approximately 30–40% of MDD patients have elevated inflammatory markers:
 - `connects-to` → **[Digestive System](../digestive-system/README.md)** — It reaches the gut both ways: appetite and weight change are core symptoms, the gut-brain axis ties it to functional GI disorders, and SSRIs impair platelet serotonin to raise gastrointestinal bleeding risk.
 - `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — Low mood is felt in the body: depression frequently presents with unexplained muscle and back pain, and is bidirectionally linked with chronic musculoskeletal pain that deepens it.
 - `connects-to` → **[Renal System](../renal-system/README.md)** — Its drugs can unbalance sodium: SSRIs can cause hyponatraemia from SIADH, particularly in older patients, requiring monitoring after starting treatment.
+- `connects-to` → **[Cardiovascular System](../cardiovascular-system/README.md)** — Heart and mood are bound together: depression worsens outcomes after myocardial infarction and independently raises cardiovascular risk through inflammation, autonomic and behavioural pathways.
+- `connects-to` → **[Respiratory System](../respiratory-system/README.md)** — It travels with breathing disease: depression is common in COPD and asthma, worsening symptom burden and adherence, and breathlessness itself feeds low mood.
+- `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — The skin and mind interact: depression accompanies chronic skin disease such as psoriasis and acne, and the distress of visible disease deepens low mood in turn.
 
 [^cipriani-2018-antidepressants-meta]: Cipriani A, Furukawa TA, Salanti G, et al. Comparative efficacy and acceptability of 21 antidepressant drugs for acute treatment of adults with major depressive disorder. *Lancet.* 2018;391(10128):1357-1366. [doi:10.1016/S0140-6736(17)32802-7](https://doi.org/10.1016/S0140-6736(17)32802-7) · [PubMed 29477251](https://pubmed.ncbi.nlm.nih.gov/29477251/)
 [^zarate-2006-ketamine-rapid]: Zarate CA Jr, Singh JB, Carlson PJ, et al. A randomized trial of an N-methyl-D-aspartate antagonist in treatment-resistant major depression. *Arch Gen Psychiatry.* 2006;63(8):856-864. [doi:10.1001/archpsyc.63.8.856](https://doi.org/10.1001/archpsyc.63.8.856) · [PubMed 16894061](https://pubmed.ncbi.nlm.nih.gov/16894061/)

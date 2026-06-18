@@ -223,6 +223,15 @@ cross_links:
   - target: 01-human/07-system/musculoskeletal-system
     relation: connects-to
     note: "Its immunotherapy can inflame joints and muscle: checkpoint-inhibitor therapy for Lynch-related cancers can trigger inflammatory arthritis and myositis among its immune-related adverse events."
+  - target: 03-medicine/01-modern/04-cardio/aspirin
+    relation: connects-to
+    note: "Aspirin lowers its cancer risk: the CAPP2 trial showed regular aspirin substantially reduces colorectal cancer in Lynch syndrome, now offered as chemoprevention."
+  - target: 03-medicine/03-food/dietary-fiber
+    relation: connects-to
+    note: "Diet supports the at-risk bowel: a high-fibre diet aids colorectal health, complementing the intensive colonoscopic surveillance that Lynch syndrome requires."
+  - target: 01-human/07-system/cardiovascular-system
+    relation: connects-to
+    note: "Treatment can reach the heart: chemotherapy for Lynch-related cancers, including platinum and fluoropyrimidines, carries cardiotoxic and thrombotic risk."
 ---
 
 # Lynch Syndrome
@@ -431,6 +440,9 @@ MSI-H stage II CRC: adjuvant 5-FU/leucovorin does NOT improve OS (may be harmful
 - `connects-to` → **[Nervous System](../nervous-system/README.md)** — It reaches the brain in the Turcot variant: Lynch carriers have a raised risk of glioblastoma and other brain tumours, and biallelic constitutional MMR deficiency causes childhood brain tumours.
 - `connects-to` → **[Respiratory System](../respiratory-system/README.md)** — Its immunotherapy can inflame the lungs: checkpoint inhibitors, highly effective against its MSI-high cancers, can cause immune-related pneumonitis as an adverse effect.
 - `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — Its immunotherapy can inflame joints and muscle: checkpoint-inhibitor therapy for Lynch-related cancers can trigger inflammatory arthritis and myositis among its immune-related adverse events.
+- `connects-to` → **[Aspirin](../../../03-medicine/01-modern/04-cardio/aspirin/README.md)** — Aspirin lowers its cancer risk: the CAPP2 trial showed regular aspirin substantially reduces colorectal cancer in Lynch syndrome, now offered as chemoprevention.
+- `connects-to` → **[Dietary Fiber](../../../03-medicine/03-food/dietary-fiber/README.md)** — Diet supports the at-risk bowel: a high-fibre diet aids colorectal health, complementing the intensive colonoscopic surveillance that Lynch syndrome requires.
+- `connects-to` → **[Cardiovascular System](../cardiovascular-system/README.md)** — Treatment can reach the heart: chemotherapy for Lynch-related cancers, including platinum and fluoropyrimidines, carries cardiotoxic and thrombotic risk.
 
 [^bonadona-2011-lynch-risks]: Bonadona V, Bonaïti B, Olschwang S, et al. Cancer risks associated with germline mutations in MLH1, MSH2, and MSH6 genes in Lynch syndrome. *JAMA.* 2011;305(22):2304-2310. [doi:10.1001/jama.2011.743](https://doi.org/10.1001/jama.2011.743) · [PubMed 21642683](https://pubmed.ncbi.nlm.nih.gov/21642683/)
 [^lynch-2015-lynch-review]: Lynch HT, Snyder CL, Shaw TG, et al. Milestones of Lynch syndrome: 1895-2015. *Nat Rev Cancer.* 2015;15(3):181-194. [doi:10.1038/nrc3878](https://doi.org/10.1038/nrc3878) · [PubMed 25673086](https://pubmed.ncbi.nlm.nih.gov/25673086/)
