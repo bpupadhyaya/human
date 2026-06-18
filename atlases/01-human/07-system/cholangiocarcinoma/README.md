@@ -241,6 +241,15 @@ cross_links:
   - target: 02-pathogen/01-viruses/hepatitis-b-virus
     relation: connects-to
     note: "Chronic hepatitis seeds the bile ducts: hepatitis B, like hepatitis C and liver flukes, chronically inflames the liver and is an established risk factor for intrahepatic cholangiocarcinoma."
+  - target: 03-medicine/01-modern/13-cancer/checkpoint-inhibitors
+    relation: connects-to
+    note: "Immunotherapy joined first-line: adding durvalumab to gemcitabine-cisplatin (the TOPAZ-1 regimen) improved survival in advanced biliary tract cancer, bringing checkpoint blockade into cholangiocarcinoma care."
+  - target: 01-human/05-tissue/hepatic-lobule
+    relation: connects-to
+    note: "It springs from the bile ductules: intrahepatic cholangiocarcinoma arises from the small bile ducts within the portal tracts of the liver lobule, and biliary obstruction causes the cholestasis and jaundice that dominate its presentation."
+  - target: 01-human/07-system/aml
+    relation: connects-to
+    note: "A shared IDH vulnerability: IDH1 mutations occur in both cholangiocarcinoma and acute myeloid leukaemia, and the IDH1 inhibitor ivosidenib treats both — an unexpected link between a bile-duct cancer and a blood cancer."
 ---
 
 # Cholangiocarcinoma
@@ -412,6 +421,9 @@ Chronic biliary injury (from PSC, fluke infection, bile acid reflux, biliary sta
 - `connects-to` → **[Targeted Therapy](../../../03-medicine/01-modern/13-cancer/targeted-therapy/README.md)** — A precision-oncology showcase: cholangiocarcinoma is rich in actionable mutations — FGFR2 fusions (pemigatinib), IDH1 mutations (ivosidenib), and BRAF or HER2 alterations all have matched targeted drugs.
 - `connects-to` → **[Cancer Chemotherapy](../../../03-medicine/01-modern/13-cancer/cancer-chemotherapy/README.md)** — The chemotherapy backbone: gemcitabine combined with cisplatin is the long-standing first-line chemotherapy foundation for advanced biliary tract cancer.
 - `connects-to` → **[Hepatitis B Virus](../../../02-pathogen/01-viruses/hepatitis-b-virus/README.md)** — Chronic hepatitis seeds the bile ducts: hepatitis B, like hepatitis C and liver flukes, chronically inflames the liver and is an established risk factor for intrahepatic cholangiocarcinoma.
+- `connects-to` → **[Checkpoint Inhibitors](../../../03-medicine/01-modern/13-cancer/checkpoint-inhibitors/README.md)** — Immunotherapy joined first-line: adding durvalumab to gemcitabine-cisplatin (the TOPAZ-1 regimen) improved survival in advanced biliary tract cancer, bringing checkpoint blockade into cholangiocarcinoma care.
+- `connects-to` → **[Hepatic Lobule](../../05-tissue/hepatic-lobule/README.md)** — It springs from the bile ductules: intrahepatic cholangiocarcinoma arises from the small bile ducts within the portal tracts of the liver lobule, and biliary obstruction causes the cholestasis and jaundice that dominate its presentation.
+- `connects-to` → **[AML](../aml/README.md)** — A shared IDH vulnerability: IDH1 mutations occur in both cholangiocarcinoma and acute myeloid leukaemia, and the IDH1 inhibitor ivosidenib treats both — an unexpected link between a bile-duct cancer and a blood cancer.
 
 ---
 

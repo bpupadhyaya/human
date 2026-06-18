@@ -241,6 +241,15 @@ cross_links:
   - target: 02-pathogen/01-viruses/hiv-1
     relation: connects-to
     note: "Immunodeficiency accelerates it: HIV greatly raises cervical cancer risk by impairing clearance of oncogenic HPV, making it an AIDS-defining cancer and a screening priority in HIV-positive women."
+  - target: 03-medicine/01-modern/13-cancer/targeted-therapy
+    relation: connects-to
+    note: "Anti-angiogenics and ADCs extend it: bevacizumab against VEGF improves survival in advanced cervical cancer, and tissue-factor-targeting tisotumab vedotin is an antibody-drug conjugate for recurrent disease beyond chemoradiation."
+  - target: 01-human/05-tissue/cortical-bone
+    relation: connects-to
+    note: "Advanced disease seeds bone: metastatic cervical cancer spreads to the spine and pelvis as painful osteolytic lesions, a late manifestation after pelvic and nodal spread."
+  - target: 01-human/05-tissue/glomerulus
+    relation: connects-to
+    note: "It kills through the kidneys: locally advanced cervical cancer encases the ureters, and bilateral obstruction backs pressure up to the glomeruli, dropping filtration to cause the uraemia that is a classic cause of death."
 ---
 
 # Cervical Cancer
@@ -438,6 +447,9 @@ The cervical transformation zone (TZ) — the area between the original and new 
 - `connects-to` → **[Checkpoint Inhibitors](../../../03-medicine/01-modern/13-cancer/checkpoint-inhibitors/README.md)** — Immunotherapy extends survival: pembrolizumab added to chemotherapy, and cemiplimab after it, improve survival in advanced PD-L1-positive cervical cancer, which is virally driven and immunogenic.
 - `connects-to` → **[Cancer Chemotherapy](../../../03-medicine/01-modern/13-cancer/cancer-chemotherapy/README.md)** — Cisplatin chemoradiation is the backbone: concurrent cisplatin-based chemoradiotherapy is the curative-intent standard for locally advanced cervical cancer.
 - `connects-to` → **[HIV-1](../../../02-pathogen/01-viruses/hiv-1/README.md)** — Immunodeficiency accelerates it: HIV greatly raises cervical cancer risk by impairing clearance of oncogenic HPV, making it an AIDS-defining cancer and a screening priority in HIV-positive women.
+- `connects-to` → **[Targeted Therapy](../../../03-medicine/01-modern/13-cancer/targeted-therapy/README.md)** — Anti-angiogenics and ADCs extend it: bevacizumab against VEGF improves survival in advanced cervical cancer, and tissue-factor-targeting tisotumab vedotin is an antibody-drug conjugate for recurrent disease beyond chemoradiation.
+- `connects-to` → **[Cortical Bone](../../05-tissue/cortical-bone/README.md)** — Advanced disease seeds bone: metastatic cervical cancer spreads to the spine and pelvis as painful osteolytic lesions, a late manifestation after pelvic and nodal spread.
+- `connects-to` → **[Glomerulus](../../05-tissue/glomerulus/README.md)** — It kills through the kidneys: locally advanced cervical cancer encases the ureters, and bilateral obstruction backs pressure up to the glomeruli, dropping filtration to cause the uraemia that is a classic cause of death.
 
 ---
 
