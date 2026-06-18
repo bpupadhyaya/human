@@ -223,6 +223,15 @@ cross_links:
   - target: 01-human/07-system/lymphatic-system
     relation: connects-to
     note: "Extensive disease swells the nodes: erythrodermic and widespread psoriasis causes reactive dermatopathic lymphadenopathy, and severe disease carries a modestly increased lymphoma risk."
+  - target: 01-human/07-system/musculoskeletal-system
+    relation: connects-to
+    note: "Nails and entheses warn of joint disease: nail pitting, enthesitis and dactylitis are early musculoskeletal signs that herald the psoriatic arthritis affecting up to a third of patients."
+  - target: 01-human/07-system/digestive-system
+    relation: connects-to
+    note: "It shares a path with bowel disease and its drugs hit the liver: psoriasis overlaps inflammatory bowel disease through shared inflammation, and methotrexate therapy for it is hepatotoxic."
+  - target: 01-human/07-system/renal-system
+    relation: connects-to
+    note: "Severe disease and its drugs reach the kidney: extensive psoriasis independently raises chronic kidney disease risk, and cyclosporine used to control it is nephrotoxic."
 ---
 
 # Psoriasis
@@ -406,6 +415,9 @@ Differential: Seborrheic dermatitis (common), pityriasis rosea (herald patch, Ch
 - `connects-to` → **[Immune System](../immune-system/README.md)** — It runs on the IL-23/IL-17 axis: psoriasis is a T-cell-driven autoinflammatory disease in which dendritic cells, IL-23 and IL-17 inflame the skin — the pathway every modern biologic targets.
 - `connects-to` → **[Respiratory System](../respiratory-system/README.md)** — A core drug can scar the lungs: methotrexate, a mainstay systemic therapy for psoriasis, can cause hypersensitivity pneumonitis and pulmonary fibrosis, requiring vigilance for new breathlessness.
 - `connects-to` → **[Lymphatic System](../lymphatic-system/README.md)** — Extensive disease swells the nodes: erythrodermic and widespread psoriasis causes reactive dermatopathic lymphadenopathy, and severe disease carries a modestly increased lymphoma risk.
+- `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — Nails and entheses warn of joint disease: nail pitting, enthesitis and dactylitis are early musculoskeletal signs that herald the psoriatic arthritis affecting up to a third of patients.
+- `connects-to` → **[Digestive System](../digestive-system/README.md)** — It shares a path with bowel disease and its drugs hit the liver: psoriasis overlaps inflammatory bowel disease through shared inflammation, and methotrexate therapy for it is hepatotoxic.
+- `connects-to` → **[Renal System](../renal-system/README.md)** — Severe disease and its drugs reach the kidney: extensive psoriasis independently raises chronic kidney disease risk, and cyclosporine used to control it is nephrotoxic.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 

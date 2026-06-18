@@ -223,6 +223,15 @@ cross_links:
   - target: 01-human/07-system/cardiovascular-system
     relation: connects-to
     note: "Hormone therapy strains the heart: androgen-deprivation therapy raises cardiovascular risk and metabolic syndrome, increasing myocardial infarction and stroke during long-term treatment."
+  - target: 01-human/07-system/immune-system
+    relation: connects-to
+    note: "It has its own cellular vaccine: the autologous immunotherapy sipuleucel-T is approved for prostate cancer, and the rare mismatch-repair-deficient tumours may respond to checkpoint inhibitors."
+  - target: 01-human/07-system/digestive-system
+    relation: connects-to
+    note: "Pelvic radiotherapy inflames the rectum: radiation for prostate cancer causes radiation proctitis with rectal bleeding and urgency, and locally advanced disease can obstruct the bowel."
+  - target: 01-human/07-system/respiratory-system
+    relation: connects-to
+    note: "Advanced disease reaches the lungs: pulmonary metastases occur in advanced prostate cancer, and androgen-deprivation-related deconditioning reduces respiratory reserve."
 ---
 
 # Prostate Cancer
@@ -418,6 +427,9 @@ cross_links:
 - `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — It loves to spread to bone: prostate cancer produces characteristic osteoblastic metastases, especially in the spine and pelvis, causing bone pain and pathological fractures.
 - `connects-to` → **[Nervous System](../nervous-system/README.md)** — Spinal metastases can crush the cord: vertebral deposits from prostate cancer cause malignant spinal cord compression, an oncological emergency presenting with back pain, weakness and incontinence.
 - `connects-to` → **[Cardiovascular System](../cardiovascular-system/README.md)** — Hormone therapy strains the heart: androgen-deprivation therapy raises cardiovascular risk and metabolic syndrome, increasing myocardial infarction and stroke during long-term treatment.
+- `connects-to` → **[Immune System](../immune-system/README.md)** — It has its own cellular vaccine: the autologous immunotherapy sipuleucel-T is approved for prostate cancer, and the rare mismatch-repair-deficient tumours may respond to checkpoint inhibitors.
+- `connects-to` → **[Digestive System](../digestive-system/README.md)** — Pelvic radiotherapy inflames the rectum: radiation for prostate cancer causes radiation proctitis with rectal bleeding and urgency, and locally advanced disease can obstruct the bowel.
+- `connects-to` → **[Respiratory System](../respiratory-system/README.md)** — Advanced disease reaches the lungs: pulmonary metastases occur in advanced prostate cancer, and androgen-deprivation-related deconditioning reduces respiratory reserve.
 
 [^beer-2014-prevail]: Beer TM, Armstrong AJ, Rathkopf D, et al. Enzalutamide in metastatic prostate cancer before chemotherapy. *N Engl J Med.* 2014;371(5):424-433. [doi:10.1056/NEJMoa1405095](https://doi.org/10.1056/NEJMoa1405095) · [PubMed 24881730](https://pubmed.ncbi.nlm.nih.gov/24881730/)
 [^sartor-2021-vision]: Sartor O, de Bono J, Chi KN, et al. Lutetium-PSMA-617 for metastatic castration-resistant prostate cancer. *N Engl J Med.* 2021;385(12):1091-1103. [doi:10.1056/NEJMoa2107322](https://doi.org/10.1056/NEJMoa2107322) · [PubMed 34161051](https://pubmed.ncbi.nlm.nih.gov/34161051/)
