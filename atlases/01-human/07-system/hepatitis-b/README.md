@@ -210,6 +210,15 @@ cross_links:
   - target: 01-human/07-system/generalized-anxiety-disorder
     relation: connects-to
     note: "A chronic, transmissible, cancer-linked infection breeds worry: the lifelong infection, HCC-surveillance and stigma of hepatitis B foster chronic health anxiety alongside depression."
+  - target: 01-human/07-system/renal-system
+    relation: connects-to
+    note: "It attacks the kidney by immune complex: hepatitis B is a classic cause of membranous nephropathy, especially in children, and drives the renal involvement of polyarteritis nodosa."
+  - target: 01-human/07-system/integumentary-system
+    relation: connects-to
+    note: "Its onset can show on the skin: a serum-sickness-like prodrome brings urticaria and rash, and in children hepatitis B causes Gianotti-Crosti papular acrodermatitis."
+  - target: 01-human/07-system/musculoskeletal-system
+    relation: connects-to
+    note: "It can ache the joints before the jaundice: an immune-complex prodrome causes symmetrical arthralgia and arthritis, a recognised extrahepatic feature of acute hepatitis B."
 ---
 
 # Hepatitis B
@@ -409,3 +418,6 @@ HDV is a satellite RNA virus that requires HBsAg for virion assembly:
 - `connects-to` → **[Digestive System](../digestive-system/README.md)** — Cirrhosis wrecks the digestive organ: chronic hepatitis B scars the liver into cirrhosis with portal hypertension, oesophageal varices, ascites and the bleeding and malabsorption of advanced liver disease.
 - `connects-to` → **[Nervous System](../nervous-system/README.md)** — A failing liver poisons the brain: as hepatitis B cirrhosis decompensates, ammonia and other toxins it can no longer clear accumulate, producing hepatic encephalopathy with confusion and coma.
 - `connects-to` → **[Generalized Anxiety Disorder](../generalized-anxiety-disorder/README.md)** — A chronic, transmissible, cancer-linked infection breeds worry: the lifelong infection, HCC-surveillance and stigma of hepatitis B foster chronic health anxiety alongside depression.
+- `connects-to` → **[Renal System](../renal-system/README.md)** — It attacks the kidney by immune complex: hepatitis B is a classic cause of membranous nephropathy, especially in children, and drives the renal involvement of polyarteritis nodosa.
+- `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — Its onset can show on the skin: a serum-sickness-like prodrome brings urticaria and rash, and in children hepatitis B causes Gianotti-Crosti papular acrodermatitis.
+- `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — It can ache the joints before the jaundice: an immune-complex prodrome causes symmetrical arthralgia and arthritis, a recognised extrahepatic feature of acute hepatitis B.

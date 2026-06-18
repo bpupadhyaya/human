@@ -210,6 +210,15 @@ cross_links:
   - target: 01-human/07-system/generalized-anxiety-disorder
     relation: connects-to
     note: "A chronic, cancer-linked infection breeds worry: even after cure, the cirrhosis, HCC-surveillance and past stigma of hepatitis C foster chronic health anxiety alongside its well-documented depression."
+  - target: 01-human/07-system/renal-system
+    relation: connects-to
+    note: "It scars the kidney through cryoglobulins: hepatitis C is the classic cause of cryoglobulinaemic membranoproliferative glomerulonephritis, presenting with proteinuria, haematuria and declining renal function."
+  - target: 01-human/07-system/immune-system
+    relation: connects-to
+    note: "It hijacks B cells: chronic hepatitis C drives type II mixed cryoglobulinaemia and clonal B-cell expansion, fuelling autoimmunity, vasculitis and the lymphomas it predisposes to."
+  - target: 01-human/07-system/endocrine-system
+    relation: connects-to
+    note: "It unsettles hormones and glucose: hepatitis C is linked to autoimmune thyroiditis and strongly promotes insulin resistance and type 2 diabetes, even before cirrhosis develops."
 ---
 
 # Hepatitis C
@@ -400,3 +409,6 @@ HCV cirrhosis → HCC risk 1–5% per year (annual ultrasound surveillance ± AF
 - `connects-to` → **[Digestive System](../digestive-system/README.md)** — Cirrhosis wrecks the digestive organ: chronic hepatitis C scars the liver into cirrhosis with portal hypertension, oesophageal varices, ascites and the bleeding and malabsorption of advanced liver disease.
 - `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — It writes itself on the skin: hepatitis C is linked to porphyria cutanea tarda, lichen planus and the palpable purpura of cryoglobulinaemic vasculitis, distinctive cutaneous markers of the infection.
 - `connects-to` → **[Generalized Anxiety Disorder](../generalized-anxiety-disorder/README.md)** — A chronic, cancer-linked infection breeds worry: even after cure, the cirrhosis, HCC-surveillance and past stigma of hepatitis C foster chronic health anxiety alongside its well-documented depression.
+- `connects-to` → **[Renal System](../renal-system/README.md)** — It scars the kidney through cryoglobulins: hepatitis C is the classic cause of cryoglobulinaemic membranoproliferative glomerulonephritis, presenting with proteinuria, haematuria and declining renal function.
+- `connects-to` → **[Immune System](../immune-system/README.md)** — It hijacks B cells: chronic hepatitis C drives type II mixed cryoglobulinaemia and clonal B-cell expansion, fuelling autoimmunity, vasculitis and the lymphomas it predisposes to.
+- `connects-to` → **[Endocrine System](../endocrine-system/README.md)** — It unsettles hormones and glucose: hepatitis C is linked to autoimmune thyroiditis and strongly promotes insulin resistance and type 2 diabetes, even before cirrhosis develops.
