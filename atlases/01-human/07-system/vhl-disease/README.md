@@ -214,6 +214,15 @@ cross_links:
   - target: 01-human/07-system/digestive-system
     relation: connects-to
     note: "It fills the pancreas with lesions: serous cystadenomas and multiple pancreatic cysts are common in VHL, and the exocrine pancreas can be progressively replaced, complicating surgery for its neuroendocrine tumours."
+  - target: 01-human/07-system/cardiovascular-system
+    relation: connects-to
+    note: "Its pheochromocytomas and HIF pathway hit the vessels: catecholamine surges cause hypertensive crises and cardiomyopathy, and VHL-loss HIF/VEGF activation drives the marked vascularity of its tumours."
+  - target: 01-human/07-system/respiratory-system
+    relation: connects-to
+    note: "Its kidney cancer climbs to the lungs: the clear-cell renal cell carcinomas of VHL metastasise to the lungs, the commonest site of distant spread."
+  - target: 01-human/07-system/lymphatic-system
+    relation: connects-to
+    note: "Its renal cancer spreads to the nodes: metastatic VHL renal cell carcinoma involves regional and retroperitoneal lymph nodes, a poor prognostic feature."
 ---
 
 # VHL Disease
@@ -401,6 +410,9 @@ The genotype-phenotype correlation reflects the degree of pVHL function retained
 - `connects-to` → **[Nervous System](../nervous-system/README.md)** — Its hallmark tumours are in the CNS: haemangioblastomas of the cerebellum, brainstem and spinal cord — and of the retina — are the defining VHL lesions, causing headache, ataxia and cord compression.
 - `connects-to` → **[Endocrine System](../endocrine-system/README.md)** — It is a multi-endocrine tumour syndrome: VHL produces catecholamine-secreting pheochromocytomas and pancreatic neuroendocrine tumours, demanding hormonal screening and careful perioperative blood-pressure control.
 - `connects-to` → **[Digestive System](../digestive-system/README.md)** — It fills the pancreas with lesions: serous cystadenomas and multiple pancreatic cysts are common in VHL, and the exocrine pancreas can be progressively replaced, complicating surgery for its neuroendocrine tumours.
+- `connects-to` → **[Cardiovascular System](../cardiovascular-system/README.md)** — Its pheochromocytomas and HIF pathway hit the vessels: catecholamine surges cause hypertensive crises and cardiomyopathy, and VHL-loss HIF/VEGF activation drives the marked vascularity of its tumours.
+- `connects-to` → **[Respiratory System](../respiratory-system/README.md)** — Its kidney cancer climbs to the lungs: the clear-cell renal cell carcinomas of VHL metastasise to the lungs, the commonest site of distant spread.
+- `connects-to` → **[Lymphatic System](../lymphatic-system/README.md)** — Its renal cancer spreads to the nodes: metastatic VHL renal cell carcinoma involves regional and retroperitoneal lymph nodes, a poor prognostic feature.
 
 [^lonser-2003-vhl-disease]: Lonser RR, Glenn GM, Walther M, et al. von Hippel-Lindau disease. *Lancet.* 2003;361(9374):2059-2067. [doi:10.1016/S0140-6736(03)13643-4](https://doi.org/10.1016/S0140-6736(03)13643-4) · [PubMed 12814730](https://pubmed.ncbi.nlm.nih.gov/12814730/)
 [^choueiri-2020-hif2-rcc]: Choueiri TK, Kaelin WG Jr. Targeting the HIF2-VEGF axis in renal cell carcinoma. *Nat Med.* 2020;26(10):1519-1530. [doi:10.1038/s41591-020-1093-z](https://doi.org/10.1038/s41591-020-1093-z) · [PubMed 33020650](https://pubmed.ncbi.nlm.nih.gov/33020650/)

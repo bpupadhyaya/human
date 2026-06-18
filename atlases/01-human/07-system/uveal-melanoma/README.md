@@ -214,6 +214,15 @@ cross_links:
   - target: 01-human/07-system/lymphatic-system
     relation: connects-to
     note: "The eye has no lymphatics, so it cannot spread to nodes: unlike cutaneous melanoma, uveal melanoma disseminates almost purely haematogenously to the liver, which is why sentinel-node biopsy plays no role."
+  - target: 01-human/07-system/musculoskeletal-system
+    relation: connects-to
+    note: "After liver and lung it seeds bone: skeletal metastases occur in disseminated uveal melanoma, causing painful deposits in the spine and pelvis."
+  - target: 01-human/07-system/nervous-system
+    relation: connects-to
+    note: "It can reach the brain late: brain metastases occur in widely disseminated uveal melanoma, though far less commonly than its dominant liver spread."
+  - target: 01-human/07-system/cardiovascular-system
+    relation: connects-to
+    note: "Its breakthrough drug stresses the circulation: tebentafusp triggers cytokine release with hypotension and fluid shifts, and disseminated disease can rarely involve the heart."
 ---
 
 # Uveal Melanoma
@@ -416,6 +425,9 @@ Uveal melanocytes are neural crest-derived, residing in the uveal stroma and mai
 - `connects-to` → **[Respiratory System](../respiratory-system/README.md)** — After the liver, it favours the lungs: pulmonary metastases are the second commonest site of uveal-melanoma spread, often appearing as nodules years after the primary eye tumour is treated.
 - `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — It shares a lineage with skin melanoma but differs sharply: oculodermal melanocytosis (nevus of Ota) raises its risk, yet uveal melanoma is driven by GNAQ/GNA11 rather than the BRAF mutations of cutaneous disease.
 - `connects-to` → **[Lymphatic System](../lymphatic-system/README.md)** — The eye has no lymphatics, so it cannot spread to nodes: unlike cutaneous melanoma, uveal melanoma disseminates almost purely haematogenously to the liver, which is why sentinel-node biopsy plays no role.
+- `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — After liver and lung it seeds bone: skeletal metastases occur in disseminated uveal melanoma, causing painful deposits in the spine and pelvis.
+- `connects-to` → **[Nervous System](../nervous-system/README.md)** — It can reach the brain late: brain metastases occur in widely disseminated uveal melanoma, though far less commonly than its dominant liver spread.
+- `connects-to` → **[Cardiovascular System](../cardiovascular-system/README.md)** — Its breakthrough drug stresses the circulation: tebentafusp triggers cytokine release with hypotension and fluid shifts, and disseminated disease can rarely involve the heart.
 
 ---
 
