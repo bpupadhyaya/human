@@ -214,6 +214,15 @@ cross_links:
   - target: 01-human/07-system/endocrine-system
     relation: connects-to
     note: "Immunotherapy for its MSI-high tumours inflames glands: because Lynch cancers are mismatch-repair-deficient, checkpoint inhibitors are highly effective but trigger endocrine irAEs like thyroiditis and hypophysitis."
+  - target: 01-human/07-system/nervous-system
+    relation: connects-to
+    note: "It reaches the brain in the Turcot variant: Lynch carriers have a raised risk of glioblastoma and other brain tumours, and biallelic constitutional MMR deficiency causes childhood brain tumours."
+  - target: 01-human/07-system/respiratory-system
+    relation: connects-to
+    note: "Its immunotherapy can inflame the lungs: checkpoint inhibitors, highly effective against its MSI-high cancers, can cause immune-related pneumonitis as an adverse effect."
+  - target: 01-human/07-system/musculoskeletal-system
+    relation: connects-to
+    note: "Its immunotherapy can inflame joints and muscle: checkpoint-inhibitor therapy for Lynch-related cancers can trigger inflammatory arthritis and myositis among its immune-related adverse events."
 ---
 
 # Lynch Syndrome
@@ -419,6 +428,9 @@ MSI-H stage II CRC: adjuvant 5-FU/leucovorin does NOT improve OS (may be harmful
 - `connects-to` → **[Renal System](../renal-system/README.md)** — It targets the upper urinary tract: Lynch syndrome causes urothelial carcinoma of the ureter and renal pelvis, a recognised part of its tumour spectrum requiring urinary surveillance.
 - `connects-to` → **[Wound Healing](../wound-healing/README.md)** — Risk-reducing and cancer surgery means many wounds: colectomy and prophylactic hysterectomy-oophorectomy in Lynch syndrome leave abdominal wounds and anastomoses that must heal.
 - `connects-to` → **[Endocrine System](../endocrine-system/README.md)** — Immunotherapy for its MSI-high tumours inflames glands: because Lynch cancers are mismatch-repair-deficient, checkpoint inhibitors are highly effective but trigger endocrine irAEs like thyroiditis and hypophysitis.
+- `connects-to` → **[Nervous System](../nervous-system/README.md)** — It reaches the brain in the Turcot variant: Lynch carriers have a raised risk of glioblastoma and other brain tumours, and biallelic constitutional MMR deficiency causes childhood brain tumours.
+- `connects-to` → **[Respiratory System](../respiratory-system/README.md)** — Its immunotherapy can inflame the lungs: checkpoint inhibitors, highly effective against its MSI-high cancers, can cause immune-related pneumonitis as an adverse effect.
+- `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — Its immunotherapy can inflame joints and muscle: checkpoint-inhibitor therapy for Lynch-related cancers can trigger inflammatory arthritis and myositis among its immune-related adverse events.
 
 [^bonadona-2011-lynch-risks]: Bonadona V, Bonaïti B, Olschwang S, et al. Cancer risks associated with germline mutations in MLH1, MSH2, and MSH6 genes in Lynch syndrome. *JAMA.* 2011;305(22):2304-2310. [doi:10.1001/jama.2011.743](https://doi.org/10.1001/jama.2011.743) · [PubMed 21642683](https://pubmed.ncbi.nlm.nih.gov/21642683/)
 [^lynch-2015-lynch-review]: Lynch HT, Snyder CL, Shaw TG, et al. Milestones of Lynch syndrome: 1895-2015. *Nat Rev Cancer.* 2015;15(3):181-194. [doi:10.1038/nrc3878](https://doi.org/10.1038/nrc3878) · [PubMed 25673086](https://pubmed.ncbi.nlm.nih.gov/25673086/)

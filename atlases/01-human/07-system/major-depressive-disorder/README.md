@@ -223,6 +223,15 @@ cross_links:
   - target: 01-human/07-system/immune-system
     relation: connects-to
     note: "Inflammation feeds low mood: raised inflammatory cytokines are found in depression and can induce it (sickness behaviour), the basis of the inflammatory hypothesis of mood disorder."
+  - target: 01-human/07-system/digestive-system
+    relation: connects-to
+    note: "It reaches the gut both ways: appetite and weight change are core symptoms, the gut-brain axis ties it to functional GI disorders, and SSRIs impair platelet serotonin to raise gastrointestinal bleeding risk."
+  - target: 01-human/07-system/musculoskeletal-system
+    relation: connects-to
+    note: "Low mood is felt in the body: depression frequently presents with unexplained muscle and back pain, and is bidirectionally linked with chronic musculoskeletal pain that deepens it."
+  - target: 01-human/07-system/renal-system
+    relation: connects-to
+    note: "Its drugs can unbalance sodium: SSRIs can cause hyponatraemia from SIADH, particularly in older patients, requiring monitoring after starting treatment."
 ---
 
 # Major Depressive Disorder
@@ -448,6 +457,9 @@ Approximately 30–40% of MDD patients have elevated inflammatory markers:
 - `connects-to` → **[Nervous System](../nervous-system/README.md)** — It is a disorder of brain circuits and chemistry: depression reflects dysregulation of monoaminergic transmission and limbic-prefrontal networks, with hippocampal and neuroplastic changes underpinning it.
 - `connects-to` → **[Endocrine System](../endocrine-system/README.md)** — Hormones drive and mimic it: depression features HPA-axis overactivity with high cortisol, and thyroid disease and other endocrine disorders both cause and worsen depressive symptoms.
 - `connects-to` → **[Immune System](../immune-system/README.md)** — Inflammation feeds low mood: raised inflammatory cytokines are found in depression and can induce it (sickness behaviour), the basis of the inflammatory hypothesis of mood disorder.
+- `connects-to` → **[Digestive System](../digestive-system/README.md)** — It reaches the gut both ways: appetite and weight change are core symptoms, the gut-brain axis ties it to functional GI disorders, and SSRIs impair platelet serotonin to raise gastrointestinal bleeding risk.
+- `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — Low mood is felt in the body: depression frequently presents with unexplained muscle and back pain, and is bidirectionally linked with chronic musculoskeletal pain that deepens it.
+- `connects-to` → **[Renal System](../renal-system/README.md)** — Its drugs can unbalance sodium: SSRIs can cause hyponatraemia from SIADH, particularly in older patients, requiring monitoring after starting treatment.
 
 [^cipriani-2018-antidepressants-meta]: Cipriani A, Furukawa TA, Salanti G, et al. Comparative efficacy and acceptability of 21 antidepressant drugs for acute treatment of adults with major depressive disorder. *Lancet.* 2018;391(10128):1357-1366. [doi:10.1016/S0140-6736(17)32802-7](https://doi.org/10.1016/S0140-6736(17)32802-7) · [PubMed 29477251](https://pubmed.ncbi.nlm.nih.gov/29477251/)
 [^zarate-2006-ketamine-rapid]: Zarate CA Jr, Singh JB, Carlson PJ, et al. A randomized trial of an N-methyl-D-aspartate antagonist in treatment-resistant major depression. *Arch Gen Psychiatry.* 2006;63(8):856-864. [doi:10.1001/archpsyc.63.8.856](https://doi.org/10.1001/archpsyc.63.8.856) · [PubMed 16894061](https://pubmed.ncbi.nlm.nih.gov/16894061/)
