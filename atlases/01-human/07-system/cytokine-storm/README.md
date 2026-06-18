@@ -214,6 +214,15 @@ cross_links:
   - target: 01-human/07-system/nervous-system
     relation: connects-to
     note: "It can inflame the brain: cytokine storms, especially CAR-T cell therapy, cause immune-effector-cell-associated neurotoxicity (ICANS) with encephalopathy, seizures and cerebral oedema."
+  - target: 01-human/07-system/cardiovascular-system
+    relation: connects-to
+    note: "It collapses the circulation: massive cytokine release causes vasodilatory shock with capillary leak and myocardial depression, the cardiovascular failure that makes cytokine release syndrome life-threatening."
+  - target: 01-human/07-system/lymphatic-system
+    relation: connects-to
+    note: "In HLH the macrophages run wild: macrophage activation syndrome causes hepatosplenomegaly and haemophagocytosis in the marrow, spleen and lymph nodes, a defining feature of this cytokine storm."
+  - target: 01-human/07-system/digestive-system
+    relation: connects-to
+    note: "It floods and inflames the abdomen: hepatic dysfunction with soaring ferritin and transaminases is a hallmark, and capillary leak causes ascites and gut oedema."
 ---
 
 # Cytokine Storm
@@ -370,6 +379,9 @@ CS drives a **consumptive coagulopathy (DIC)**:
 - `connects-to` → **[Immune System](../immune-system/README.md)** — It is the immune system turned against itself: a cytokine storm is uncontrolled hyperactivation of immune cells and their mediators, as in HLH, macrophage activation syndrome and CAR-T cytokine release.
 - `connects-to` → **[Respiratory System](../respiratory-system/README.md)** — It floods the lungs first: the capillary leak and inflammation of a cytokine storm cause acute respiratory distress syndrome, the most common and lethal organ failure it produces.
 - `connects-to` → **[Nervous System](../nervous-system/README.md)** — It can inflame the brain: cytokine storms, especially CAR-T cell therapy, cause immune-effector-cell-associated neurotoxicity (ICANS) with encephalopathy, seizures and cerebral oedema.
+- `connects-to` → **[Cardiovascular System](../cardiovascular-system/README.md)** — It collapses the circulation: massive cytokine release causes vasodilatory shock with capillary leak and myocardial depression, the cardiovascular failure that makes cytokine release syndrome life-threatening.
+- `connects-to` → **[Lymphatic System](../lymphatic-system/README.md)** — In HLH the macrophages run wild: macrophage activation syndrome causes hepatosplenomegaly and haemophagocytosis in the marrow, spleen and lymph nodes, a defining feature of this cytokine storm.
+- `connects-to` → **[Digestive System](../digestive-system/README.md)** — It floods and inflames the abdomen: hepatic dysfunction with soaring ferritin and transaminases is a hallmark, and capillary leak causes ascites and gut oedema.
 
 ## Pathology
 

@@ -214,6 +214,15 @@ cross_links:
   - target: 01-human/07-system/digestive-system
     relation: connects-to
     note: "It inflames the liver and bleeds the gut: dengue commonly raises transaminases with hepatomegaly, and abdominal pain and GI bleeding are warning signs of progression to severe dengue."
+  - target: 01-human/07-system/respiratory-system
+    relation: connects-to
+    note: "Plasma leak floods the lungs: the capillary leak of severe dengue causes pleural effusions and pulmonary oedema, and the most severe cases progress to acute respiratory distress syndrome."
+  - target: 01-human/07-system/renal-system
+    relation: connects-to
+    note: "Severe disease shuts down the kidney: shock, rhabdomyolysis and acute tubular necrosis in severe dengue cause acute kidney injury that worsens prognosis."
+  - target: 01-human/07-system/lymphatic-system
+    relation: connects-to
+    note: "It swells nodes and leaks into cavities: tender lymphadenopathy and hepatosplenomegaly are typical, and as capillary integrity fails plasma leaks into the pleural and peritoneal spaces."
 ---
 
 # Dengue Fever
@@ -391,3 +400,6 @@ No approved antiviral therapy for dengue. Management is entirely supportive:
 - `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — It earns the name breakbone fever: dengue causes severe myalgia, arthralgia and deep bone pain at its peak, a defining feature so intense it gave the disease its classic nickname.
 - `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — It writes itself on the skin: dengue produces a flushed face and a characteristic maculopapular rash with 'white islands in a sea of red', and petechiae and bruising as platelets fall.
 - `connects-to` → **[Digestive System](../digestive-system/README.md)** — It inflames the liver and bleeds the gut: dengue commonly raises transaminases with hepatomegaly, and abdominal pain and GI bleeding are warning signs of progression to severe dengue.
+- `connects-to` → **[Respiratory System](../respiratory-system/README.md)** — Plasma leak floods the lungs: the capillary leak of severe dengue causes pleural effusions and pulmonary oedema, and the most severe cases progress to acute respiratory distress syndrome.
+- `connects-to` → **[Renal System](../renal-system/README.md)** — Severe disease shuts down the kidney: shock, rhabdomyolysis and acute tubular necrosis in severe dengue cause acute kidney injury that worsens prognosis.
+- `connects-to` → **[Lymphatic System](../lymphatic-system/README.md)** — It swells nodes and leaks into cavities: tender lymphadenopathy and hepatosplenomegaly are typical, and as capillary integrity fails plasma leaks into the pleural and peritoneal spaces.
