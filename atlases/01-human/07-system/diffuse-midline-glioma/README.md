@@ -205,6 +205,15 @@ cross_links:
   - target: 01-human/07-system/wound-healing
     relation: connects-to
     note: "Chronic steroids impair repair: the long-term dexamethasone needed to manage symptoms of diffuse midline glioma thins skin and slows healing of surgical biopsy and other wounds."
+  - target: 01-human/07-system/respiratory-system
+    relation: connects-to
+    note: "It strikes the brain's breathing centre: diffuse midline glioma of the pons infiltrates the brainstem respiratory and cardiovascular nuclei, so progression leads to respiratory failure, a common terminal event."
+  - target: 01-human/07-system/digestive-system
+    relation: connects-to
+    note: "Brainstem invasion robs swallowing: the pontine and bulbar involvement of diffuse midline glioma causes dysphagia and aspiration, driving the need for modified feeding or a gastrostomy."
+  - target: 01-human/07-system/generalized-anxiety-disorder
+    relation: connects-to
+    note: "A uniformly fatal childhood tumour breeds anguish: the dismal prognosis and relentless neurological decline of diffuse midline glioma impose profound anxiety on families alongside depression."
 ---
 
 # Diffuse Midline Glioma
@@ -406,6 +415,9 @@ Direct infusion of drugs into the pons via stereotactic catheter; bypasses BBB; 
 - `connects-to` → **[Type 2 Diabetes](../type-2-diabetes/README.md)** — Its steroids raise blood sugar: the high-dose dexamethasone used to control peritumoral edema in diffuse midline glioma induces insulin resistance, frequently causing steroid-induced hyperglycemia and diabetes.
 - `connects-to` → **[Aspergillus fumigatus](../../../02-pathogen/03-fungi/aspergillus-fumigatus/README.md)** — Steroids and radiation blunt immunity: the prolonged dexamethasone and cranial radiation for diffuse midline glioma suppress immune defense, occasionally permitting invasive aspergillosis.
 - `connects-to` → **[Wound Healing](../wound-healing/README.md)** — Chronic steroids impair repair: the long-term dexamethasone needed to manage symptoms of diffuse midline glioma thins skin and slows healing of surgical biopsy and other wounds.
+- `connects-to` → **[Respiratory System](../respiratory-system/README.md)** — It strikes the brain's breathing centre: diffuse midline glioma of the pons infiltrates the brainstem respiratory and cardiovascular nuclei, so progression leads to respiratory failure, a common terminal event.
+- `connects-to` → **[Digestive System](../digestive-system/README.md)** — Brainstem invasion robs swallowing: the pontine and bulbar involvement of diffuse midline glioma causes dysphagia and aspiration, driving the need for modified feeding or a gastrostomy.
+- `connects-to` → **[Generalized Anxiety Disorder](../generalized-anxiety-disorder/README.md)** — A uniformly fatal childhood tumour breeds anguish: the dismal prognosis and relentless neurological decline of diffuse midline glioma impose profound anxiety on families alongside depression.
 
 ---
 

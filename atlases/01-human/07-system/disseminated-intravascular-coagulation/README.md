@@ -211,6 +211,15 @@ cross_links:
   - target: 01-human/07-system/ptsd
     relation: connects-to
     note: "A life-threatening ICU crisis can scar the mind: surviving the catastrophic bleeding, clotting and intensive care in which DIC occurs frequently leaves post-traumatic stress."
+  - target: 01-human/07-system/integumentary-system
+    relation: connects-to
+    note: "It is dramatically written on the skin: DIC causes widespread petechiae, ecchymoses and oozing from puncture sites, and in its severe form purpura fulminans with skin necrosis and digital gangrene."
+  - target: 01-human/07-system/respiratory-system
+    relation: connects-to
+    note: "Microthrombi and bleeding hit the lungs: DIC contributes to acute respiratory distress syndrome through diffuse microvascular thrombosis and can cause pulmonary haemorrhage."
+  - target: 01-human/07-system/digestive-system
+    relation: connects-to
+    note: "It bleeds and starves the gut: DIC causes gastrointestinal haemorrhage from consumed clotting factors and platelets, while microthrombi cause bowel ischaemia and hepatic dysfunction."
 ---
 
 # Disseminated Intravascular Coagulation
@@ -406,6 +415,9 @@ DIC is always **secondary** — it does not occur in isolation but as a conseque
 - `connects-to` → **[Wound Healing](../wound-healing/README.md)** — Microthrombi kill tissue and leave wounds: DIC's small-vessel clotting causes purpura fulminans and limb gangrene, sometimes requiring amputation, leaving major wounds that heal poorly amid critical illness.
 - `connects-to` → **[Neuropathic Pain](../neuropathic-pain/README.md)** — Ischemic limb loss leaves lasting pain: the digital and limb gangrene of severe DIC can require amputation, producing chronic stump and phantom-limb neuropathic pain in survivors.
 - `connects-to` → **[PTSD](../ptsd/README.md)** — A life-threatening ICU crisis can scar the mind: surviving the catastrophic bleeding, clotting and intensive care in which DIC occurs frequently leaves post-traumatic stress.
+- `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — It is dramatically written on the skin: DIC causes widespread petechiae, ecchymoses and oozing from puncture sites, and in its severe form purpura fulminans with skin necrosis and digital gangrene.
+- `connects-to` → **[Respiratory System](../respiratory-system/README.md)** — Microthrombi and bleeding hit the lungs: DIC contributes to acute respiratory distress syndrome through diffuse microvascular thrombosis and can cause pulmonary haemorrhage.
+- `connects-to` → **[Digestive System](../digestive-system/README.md)** — It bleeds and starves the gut: DIC causes gastrointestinal haemorrhage from consumed clotting factors and platelets, while microthrombi cause bowel ischaemia and hepatic dysfunction.
 
 ---
 
