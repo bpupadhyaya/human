@@ -199,6 +199,15 @@ cross_links:
   - target: 01-human/07-system/gvhd
     relation: connects-to
     note: "Its only cure brings transplant risk: allogeneic hematopoietic stem-cell transplantation is the sole curative option for PNH, carrying the hazard of graft-versus-host disease against the recipient's tissues."
+  - target: 01-human/07-system/digestive-system
+    relation: connects-to
+    note: "It clots the gut's veins and cramps its muscle: PNH causes hepatic and mesenteric vein thrombosis (Budd-Chiari) and, from nitric-oxide depletion by free haemoglobin, oesophageal spasm and severe abdominal pain."
+  - target: 01-human/07-system/nervous-system
+    relation: connects-to
+    note: "It can clot the brain's veins: PNH's intense prothrombotic state predisposes to cerebral venous sinus thrombosis, and free-haemoglobin nitric-oxide scavenging drives the disabling headaches it causes."
+  - target: 01-human/07-system/generalized-anxiety-disorder
+    relation: connects-to
+    note: "An unpredictable haemolytic, clotting disease breeds worry: the paroxysmal haemolysis, lifelong thrombosis risk and indefinite infusional therapy of PNH foster chronic health anxiety alongside depression."
 ---
 
 # Paroxysmal Nocturnal Hemoglobinuria
@@ -351,6 +360,9 @@ When PIGA is mutated in an HSC → all progeny cells (RBCs, WBCs, platelets) of 
 - `connects-to` → **[Neisseria meningitidis](../../../02-pathogen/02-bacteria/neisseria-meningitidis/README.md)** — Its complement-blocking therapy invites meningococcus: eculizumab and ravulizumab cut off the terminal complement needed to kill Neisseria, so meningococcal vaccination and prophylaxis are mandatory before treating PNH.
 - `connects-to` → **[Streptococcus pneumoniae](../../../02-pathogen/02-bacteria/streptococcus-pneumoniae/README.md)** — Complement inhibition lowers defense against encapsulated bacteria: the same terminal-complement blockade that treats PNH also blunts protection against pneumococcus, so vaccination against it precedes therapy.
 - `connects-to` → **[Graft-versus-Host Disease](../gvhd/README.md)** — Its only cure brings transplant risk: allogeneic hematopoietic stem-cell transplantation is the sole curative option for PNH, carrying the hazard of graft-versus-host disease against the recipient's tissues.
+- `connects-to` → **[Digestive System](../digestive-system/README.md)** — It clots the gut's veins and cramps its muscle: PNH causes hepatic and mesenteric vein thrombosis (Budd-Chiari) and, from nitric-oxide depletion by free haemoglobin, oesophageal spasm and severe abdominal pain.
+- `connects-to` → **[Nervous System](../nervous-system/README.md)** — It can clot the brain's veins: PNH's intense prothrombotic state predisposes to cerebral venous sinus thrombosis, and free-haemoglobin nitric-oxide scavenging drives the disabling headaches it causes.
+- `connects-to` → **[Generalized Anxiety Disorder](../generalized-anxiety-disorder/README.md)** — An unpredictable haemolytic, clotting disease breeds worry: the paroxysmal haemolysis, lifelong thrombosis risk and indefinite infusional therapy of PNH foster chronic health anxiety alongside depression.
 
 ---
 

@@ -205,6 +205,15 @@ cross_links:
   - target: 01-human/07-system/stroke
     relation: connects-to
     note: "It shares the vascular terrain: Parkinson's overlaps with cerebrovascular disease through vascular parkinsonism, and the reduced mobility and autonomic dysfunction of advanced disease compound stroke risk."
+  - target: 01-human/07-system/gambling-disorder
+    relation: connects-to
+    note: "Its dopamine drugs unleash compulsions: dopamine-agonist therapy for Parkinson's classically triggers impulse-control disorders — pathological gambling, hypersexuality and compulsive shopping — that resolve when the drug is reduced."
+  - target: 01-human/07-system/musculoskeletal-system
+    relation: connects-to
+    note: "Rigidity and falls batter the skeleton: the bradykinesia, postural instability and stooped camptocormic posture of Parkinson's cause frequent falls and fractures, contractures and chronic musculoskeletal pain."
+  - target: 01-human/07-system/renal-system
+    relation: connects-to
+    note: "Autonomic failure unsettles the bladder: Parkinson's disrupts autonomic control of the bladder, causing urinary urgency, frequency and nocturia, with retention and recurrent infection in advanced disease."
 ---
 
 # Parkinson's Disease
@@ -406,6 +415,9 @@ PD is primarily a disease of aging (mean onset ~60 years), but **~10–15% of ca
 - `connects-to` → **[Streptococcus pneumoniae](../../../02-pathogen/02-bacteria/streptococcus-pneumoniae/README.md)** — Its dysphagia lets food reach the lungs: impaired swallowing in Parkinson's causes silent aspiration, and the resulting aspiration pneumonia — often pneumococcal — is the leading cause of death in advanced disease.
 - `connects-to` → **[Venous Thromboembolism](../venous-thromboembolism/README.md)** — Progressive immobility clots the veins: the bradykinesia, rigidity and falls of advanced Parkinson's reduce mobility, and the resulting venous stasis raises the risk of deep vein thrombosis and pulmonary embolism.
 - `connects-to` → **[Stroke](../stroke/README.md)** — It shares the vascular terrain: Parkinson's overlaps with cerebrovascular disease through vascular parkinsonism, and the reduced mobility and autonomic dysfunction of advanced disease compound stroke risk.
+- `connects-to` → **[Gambling Disorder](../gambling-disorder/README.md)** — Its dopamine drugs unleash compulsions: dopamine-agonist therapy for Parkinson's classically triggers impulse-control disorders — pathological gambling, hypersexuality and compulsive shopping — that resolve when the drug is reduced.
+- `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — Rigidity and falls batter the skeleton: the bradykinesia, postural instability and stooped camptocormic posture of Parkinson's cause frequent falls and fractures, contractures and chronic musculoskeletal pain.
+- `connects-to` → **[Renal System](../renal-system/README.md)** — Autonomic failure unsettles the bladder: Parkinson's disrupts autonomic control of the bladder, causing urinary urgency, frequency and nocturia, with retention and recurrent infection in advanced disease.
 
 [^kalia-2015-pd-review]: Kalia LV, Lang AE. Parkinson's disease. *Lancet.* 2015;386(9996):896-912. [doi:10.1016/S0140-6736(14)61393-3](https://doi.org/10.1016/S0140-6736(14)61393-3) · [PubMed 25904081](https://pubmed.ncbi.nlm.nih.gov/25904081/)
 [^spillantini-1997-lewy-body]: Spillantini MG, Schmidt ML, Lee VM, Trojanowski JQ, Jakes R, Goedert M. Alpha-synuclein in Lewy bodies. *Nature.* 1997;388(6645):839-840. [doi:10.1038/42166](https://doi.org/10.1038/42166) · [PubMed 9278044](https://pubmed.ncbi.nlm.nih.gov/9278044/)
