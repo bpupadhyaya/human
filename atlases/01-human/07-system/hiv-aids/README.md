@@ -220,6 +220,15 @@ cross_links:
   - target: 01-human/07-system/endocrine-system
     relation: connects-to
     note: "Advanced infection derails hormones: AIDS wasting syndrome, adrenal insufficiency from disseminated CMV or mycobacterial infection, and hypogonadism reflect endocrine collapse in late disease."
+  - target: 01-human/07-system/renal-system
+    relation: connects-to
+    note: "HIV attacks the kidney directly: HIV-associated nephropathy, a collapsing FSGS, plus tenofovir tubular toxicity and immune-complex disease drive chronic kidney failure."
+  - target: 02-pathogen/01-viruses/herpesvirus
+    relation: connects-to
+    note: "AIDS reactivates the herpes family: CMV causes sight-threatening retinitis and colitis, HHV-8 drives Kaposi sarcoma, and severe mucocutaneous herpes-simplex marks deep immunodeficiency."
+  - target: 02-pathogen/01-viruses/varicella-zoster-virus
+    relation: connects-to
+    note: "Shingles flags failing immunity: multidermatomal or recurrent herpes-zoster is an early marker of HIV-related immune decline and can disseminate in advanced AIDS."
 ---
 
 # HIV/AIDS
@@ -402,6 +411,9 @@ HIV-1 pathogenesis is primarily driven by CD4⁺ T cell loss:
 - `connects-to` → **[Respiratory System](../respiratory-system/README.md)** — The lungs define many AIDS illnesses: Pneumocystis pneumonia, tuberculosis and pulmonary Kaposi sarcoma are AIDS-defining lung diseases that emerge as CD4 counts fall.
 - `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — It wastes and weakens the frame: HIV myopathy, profound AIDS wasting and avascular necrosis of bone erode the musculoskeletal system in advanced disease.
 - `connects-to` → **[Endocrine System](../endocrine-system/README.md)** — Advanced infection derails hormones: AIDS wasting syndrome, adrenal insufficiency from disseminated CMV or mycobacterial infection, and hypogonadism reflect endocrine collapse in late disease.
+- `connects-to` → **[Renal System](../renal-system/README.md)** — HIV attacks the kidney directly: HIV-associated nephropathy, a collapsing FSGS, plus tenofovir tubular toxicity and immune-complex disease drive chronic kidney failure.
+- `connects-to` → **[Herpesvirus](../../../02-pathogen/01-viruses/herpesvirus/README.md)** — AIDS reactivates the herpes family: CMV causes sight-threatening retinitis and colitis, HHV-8 drives Kaposi sarcoma, and severe mucocutaneous herpes-simplex marks deep immunodeficiency.
+- `connects-to` → **[Varicella-zoster virus](../../../02-pathogen/01-viruses/varicella-zoster-virus/README.md)** — Shingles flags failing immunity: multidermatomal or recurrent herpes-zoster is an early marker of HIV-related immune decline and can disseminate in advanced AIDS.
 
 ## See Also
 

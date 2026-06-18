@@ -220,6 +220,15 @@ cross_links:
   - target: 01-human/07-system/lymphatic-system
     relation: connects-to
     note: "It can deplete the lymphocytes: severe influenza, especially avian H5N1, causes marked lymphopenia — a poor-prognosis marker — alongside the reactive lymphoid response to infection."
+  - target: 03-medicine/01-modern/04-cardio/aspirin
+    relation: connects-to
+    note: "Aspirin is dangerous in childhood flu: giving it to children during influenza or chickenpox can trigger Reye syndrome, acute liver failure with encephalopathy, so it is avoided."
+  - target: 01-human/07-system/venous-thromboembolism
+    relation: connects-to
+    note: "Acute infection is prothrombotic: influenza transiently raises the risk of venous thromboembolism, heart attack and stroke in the weeks after illness."
+  - target: 03-medicine/03-food/vitamin-d
+    relation: connects-to
+    note: "Vitamin D status nudges susceptibility: deficiency is associated with more respiratory infection, and supplementation may give a small protective effect against influenza-like illness."
 ---
 
 # Influenza
@@ -423,3 +432,6 @@ Influenza damages mucociliary clearance and exposes basal lamina glycoproteins �
 - `connects-to` → **[Renal System](../renal-system/README.md)** — Severe flu can injure the kidney: influenza-associated rhabdomyolysis and the systemic insult of severe infection can cause acute kidney injury needing supportive care.
 - `connects-to` → **[Endocrine System](../endocrine-system/README.md)** — It destabilises diabetes: the stress of influenza raises blood glucose and can precipitate diabetic ketoacidosis or hyperosmolar crises, a key reason vaccination is urged in diabetes.
 - `connects-to` → **[Lymphatic System](../lymphatic-system/README.md)** — It can deplete the lymphocytes: severe influenza, especially avian H5N1, causes marked lymphopenia — a poor-prognosis marker — alongside the reactive lymphoid response to infection.
+- `connects-to` → **[Aspirin](../../../03-medicine/01-modern/04-cardio/aspirin/README.md)** — Aspirin is dangerous in childhood flu: giving it to children during influenza or chickenpox can trigger Reye syndrome, acute liver failure with encephalopathy, so it is avoided.
+- `connects-to` → **[Venous thromboembolism](../venous-thromboembolism/README.md)** — Acute infection is prothrombotic: influenza transiently raises the risk of venous thromboembolism, heart attack and stroke in the weeks after illness.
+- `connects-to` → **[Vitamin D](../../../03-medicine/03-food/vitamin-d/README.md)** — Vitamin D status nudges susceptibility: deficiency is associated with more respiratory infection, and supplementation may give a small protective effect against influenza-like illness.
