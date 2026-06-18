@@ -229,6 +229,15 @@ cross_links:
   - target: 01-human/07-system/lymphatic-system
     relation: connects-to
     note: "A paraneoplastic variant flags lymphoma: paraneoplastic pemphigus is associated with underlying lymphoproliferative disorders such as lymphoma and Castleman disease."
+  - target: 03-medicine/01-modern/02-respiratory/corticosteroids
+    relation: connects-to
+    note: "Steroids are the backbone of control: high-dose corticosteroids, now with rituximab, suppress the autoantibody attack of pemphigus vulgaris, though their long-term toxicity is substantial."
+  - target: 01-human/07-system/renal-system
+    relation: connects-to
+    note: "Immunosuppression reaches the kidney: the long courses of steroids and immunosuppressants for pemphigus vulgaris can be nephrotoxic and demand infection and metabolic monitoring."
+  - target: 02-pathogen/01-viruses/herpesvirus
+    relation: connects-to
+    note: "Broken skin invites the herpes virus: pemphigus erosions can be superinfected by herpes simplex, worsening blistering and mimicking a disease flare unless recognised and treated."
 ---
 
 # Pemphigus Vulgaris
@@ -443,6 +452,9 @@ Pemphigus belongs to the **pemphigus group of autoimmune bullous diseases** (AIB
 - `connects-to` → **[Respiratory System](../respiratory-system/README.md)** — Its blisters spread to the airway: pemphigus erodes the mucosa of the larynx, pharynx and oesophagus causing hoarseness and painful swallowing with aspiration risk, and immunosuppression invites pneumonia.
 - `connects-to` → **[Cardiovascular System](../cardiovascular-system/README.md)** — Its long steroid courses strain the circulation: chronic high-dose corticosteroids cause hypertension, fluid retention and accelerated atherosclerosis.
 - `connects-to` → **[Lymphatic System](../lymphatic-system/README.md)** — A paraneoplastic variant flags lymphoma: paraneoplastic pemphigus is associated with underlying lymphoproliferative disorders such as lymphoma and Castleman disease.
+- `connects-to` → **[Corticosteroids](../../../03-medicine/01-modern/02-respiratory/corticosteroids/README.md)** — Steroids are the backbone of control: high-dose corticosteroids, now with rituximab, suppress the autoantibody attack of pemphigus vulgaris, though their long-term toxicity is substantial.
+- `connects-to` → **[Renal System](../renal-system/README.md)** — Immunosuppression reaches the kidney: the long courses of steroids and immunosuppressants for pemphigus vulgaris can be nephrotoxic and demand infection and metabolic monitoring.
+- `connects-to` → **[Herpesvirus](../../../02-pathogen/01-viruses/herpesvirus/README.md)** — Broken skin invites the herpes virus: pemphigus erosions can be superinfected by herpes simplex, worsening blistering and mimicking a disease flare unless recognised and treated.
 
 ---
 

@@ -223,6 +223,15 @@ cross_links:
   - target: 01-human/07-system/musculoskeletal-system
     relation: connects-to
     note: "Its gene tunes energy metabolism: LKB1/AMPK is a master regulator of cellular energy that also governs muscle metabolism, and chronic anaemia and malnutrition from GI bleeding sap muscle strength."
+  - target: 03-medicine/01-modern/13-cancer/targeted-therapy
+    relation: connects-to
+    note: "mTOR inhibition is being explored: because STK11 loss disinhibits mTOR, rapamycin-class drugs are studied to slow the hamartomatous polyps of Peutz-Jeghers syndrome."
+  - target: 01-human/07-system/hereditary-diffuse-gastric-cancer
+    relation: connects-to
+    note: "Shared gastric and breast risk: like hereditary diffuse gastric cancer, Peutz-Jeghers syndrome raises the risk of gastric and lobular breast cancer, overlapping their surveillance."
+  - target: 03-medicine/03-food/dietary-fiber
+    relation: connects-to
+    note: "Diet supports the at-risk gut: a high-fibre diet aids gastrointestinal health, a backdrop to the intensive endoscopic surveillance that Peutz-Jeghers syndrome's polyp and cancer risk demands."
 ---
 
 # Peutz-Jeghers Syndrome
@@ -415,6 +424,9 @@ Without surveillance: cumulative cancer risk reaches ~85-93% by age 70 (all canc
 - `connects-to` → **[Lymphatic System](../lymphatic-system/README.md)** — Its many cancers spread through the nodes: the breast, gastrointestinal and gynaecological cancers of PJS metastasise to lymph nodes, determining staging and treatment.
 - `connects-to` → **[Cardiovascular System](../cardiovascular-system/README.md)** — Bleeding and obstruction stress the circulation: recurrent polyp bleeding causes iron-deficiency anaemia that strains the heart, while acute intussusception can cause bowel ischaemia and shock.
 - `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — Its gene tunes energy metabolism: LKB1/AMPK is a master regulator of cellular energy that also governs muscle metabolism, and chronic anaemia and malnutrition from GI bleeding sap muscle strength.
+- `connects-to` → **[Targeted Therapy](../../../03-medicine/01-modern/13-cancer/targeted-therapy/README.md)** — mTOR inhibition is being explored: because STK11 loss disinhibits mTOR, rapamycin-class drugs are studied to slow the hamartomatous polyps of Peutz-Jeghers syndrome.
+- `connects-to` → **[Hereditary Diffuse Gastric Cancer](../hereditary-diffuse-gastric-cancer/README.md)** — Shared gastric and breast risk: like hereditary diffuse gastric cancer, Peutz-Jeghers syndrome raises the risk of gastric and lobular breast cancer, overlapping their surveillance.
+- `connects-to` → **[Dietary Fiber](../../../03-medicine/03-food/dietary-fiber/README.md)** — Diet supports the at-risk gut: a high-fibre diet aids gastrointestinal health, a backdrop to the intensive endoscopic surveillance that Peutz-Jeghers syndrome's polyp and cancer risk demands.
 
 ---
 
