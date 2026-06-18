@@ -245,6 +245,15 @@ cross_links:
   - target: 02-pathogen/02-bacteria/streptococcus-pyogenes
     relation: connects-to
     note: "Secondary bacteria invade the damaged host: post-measles immune suppression and skin breakdown predispose to group A streptococcal pneumonia, otitis and soft-tissue infection."
+  - target: 01-human/05-tissue/germinal-center
+    relation: connects-to
+    note: "It erases immune memory: measles infects and depletes memory B and T cells in lymphoid germinal centres, causing 'immune amnesia' that wipes out prior immunity and raises mortality from other infections for years."
+  - target: 01-human/07-system/autism-spectrum-disorder
+    relation: connects-to
+    note: "The disproven MMR-autism myth: a fraudulent 1998 study falsely linked the measles vaccine to autism; the claim is thoroughly debunked, but the resulting vaccine hesitancy has driven measles resurgence."
+  - target: 01-human/05-tissue/synapse
+    relation: connects-to
+    note: "It can persist and spread neuron to neuron: in rare subacute sclerosing panencephalitis, mutant measles virus persists in the brain and spreads trans-synaptically years after infection, causing fatal progressive neurodegeneration."
 ---
 
 # Measles
@@ -465,6 +474,9 @@ Beyond immune amnesia (memory B cell depletion), MV causes acute immune suppress
 - `connects-to` → **[Mycobacterium tuberculosis](../../../02-pathogen/02-bacteria/mycobacterium-tuberculosis/README.md)** — It erases immune memory: measles causes prolonged immunosuppression and tuberculin anergy, reactivating latent tuberculosis and leaving children vulnerable to it for years after recovery.
 - `connects-to` → **[Type II Pneumocyte](../../04-cellular/type-ii-pneumocyte/README.md)** — Giant-cell pneumonia attacks the alveolus: measles infects alveolar type II pneumocytes, fusing them into the multinucleated giant cells of Hecht pneumonia, a severe complication in the malnourished and immunocompromised.
 - `connects-to` → **[Streptococcus pyogenes](../../../02-pathogen/02-bacteria/streptococcus-pyogenes/README.md)** — Secondary bacteria invade the damaged host: post-measles immune suppression and skin breakdown predispose to group A streptococcal pneumonia, otitis and soft-tissue infection.
+- `connects-to` → **[Germinal Center](../../05-tissue/germinal-center/README.md)** — It erases immune memory: measles infects and depletes memory B and T cells in lymphoid germinal centres, causing 'immune amnesia' that wipes out prior immunity and raises mortality from other infections for years.
+- `connects-to` → **[Autism Spectrum Disorder](../autism-spectrum-disorder/README.md)** — The disproven MMR-autism myth: a fraudulent 1998 study falsely linked the measles vaccine to autism; the claim is thoroughly debunked, but the resulting vaccine hesitancy has driven measles resurgence.
+- `connects-to` → **[Synapse](../../05-tissue/synapse/README.md)** — It can persist and spread neuron to neuron: in rare subacute sclerosing panencephalitis, mutant measles virus persists in the brain and spreads trans-synaptically years after infection, causing fatal progressive neurodegeneration.
 
 [^panum-1847-faroe-measles]: Panum PL. Observations made during the epidemic of measles on the Faroe Islands in the year 1846. *Med Classics.* 1939;3:829-886.
 [^mina-2019-immune-amnesia]: Mina MJ, Kula T, Leng Y, et al. Measles virus infection diminishes preexisting antibodies that offer protection from other pathogens. *Science.* 2019;366(6465):599-606. [doi:10.1126/science.aay6485](https://doi.org/10.1126/science.aay6485) · [PubMed 31672891](https://pubmed.ncbi.nlm.nih.gov/31672891/)

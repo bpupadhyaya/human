@@ -247,6 +247,15 @@ cross_links:
   - target: 01-human/07-system/als
     relation: connects-to
     note: "A shared misfolded protein: TDP-43 co-pathology is found in a large minority of Lewy body dementia brains, linking it to the TDP-43 proteinopathy that defines amyotrophic lateral sclerosis."
+  - target: 01-human/05-tissue/myocardium
+    relation: connects-to
+    note: "It denervates the heart: like Parkinson's, Lewy body dementia causes cardiac sympathetic denervation, so reduced MIBG uptake in the myocardium helps distinguish it from Alzheimer's and contributes to orthostatic hypotension."
+  - target: 01-human/05-tissue/axonal-transport
+    relation: connects-to
+    note: "α-synuclein clogs the axon: Lewy bodies are aggregates of α-synuclein that impair axonal transport in neurons, contributing to the synaptic failure and degeneration that drive its fluctuating cognition and hallucinations."
+  - target: 01-human/05-tissue/intestinal-epithelium
+    relation: connects-to
+    note: "It may begin in the gut: α-synuclein pathology is found in the enteric nerves of the gut wall years before dementia, supporting a body-first route where the protein ascends the vagus to the brain (the Braak hypothesis)."
 ---
 
 # Lewy Body Dementia
@@ -449,6 +458,9 @@ Approximately 25-50% of clinically diagnosed DLB cases have significant AD co-pa
 - `connects-to` → **[Endocrine System](../endocrine-system/README.md)** — Autonomic and circadian control fails: Lewy pathology in the hypothalamus and autonomic ganglia disrupts blood-pressure regulation, temperature and circadian rhythm, producing the orthostatic hypotension and sleep-wake disturbance of DLB.
 - `connects-to` → **[Epilepsy](../epilepsy/README.md)** — Seizures complicate the failing brain: like other neurodegenerative dementias, Lewy body dementia carries a raised risk of seizures and myoclonus as cortical networks degenerate.
 - `connects-to` → **[ALS](../als/README.md)** — A shared misfolded protein: TDP-43 co-pathology is found in a large minority of Lewy body dementia brains, linking it to the TDP-43 proteinopathy that defines amyotrophic lateral sclerosis.
+- `connects-to` → **[Myocardium](../../05-tissue/myocardium/README.md)** — It denervates the heart: like Parkinson's, Lewy body dementia causes cardiac sympathetic denervation, so reduced MIBG uptake in the myocardium helps distinguish it from Alzheimer's and contributes to orthostatic hypotension.
+- `connects-to` → **[Axonal Transport](../../05-tissue/axonal-transport/README.md)** — α-synuclein clogs the axon: Lewy bodies are aggregates of α-synuclein that impair axonal transport in neurons, contributing to the synaptic failure and degeneration that drive its fluctuating cognition and hallucinations.
+- `connects-to` → **[Intestinal Epithelium](../../05-tissue/intestinal-epithelium/README.md)** — It may begin in the gut: α-synuclein pathology is found in the enteric nerves of the gut wall years before dementia, supporting a body-first route where the protein ascends the vagus to the brain (the Braak hypothesis).
 
 [^mckeith-2017-dlb-criteria]: McKeith IG, Boeve BF, Dickson DW, et al. Diagnosis and management of dementia with Lewy bodies: Fourth consensus report of the DLB Consortium. *Neurology.* 2017;89(1):88-100. [doi:10.1212/WNL.0000000000004058](https://doi.org/10.1212/WNL.0000000000004058) · [PubMed 28592453](https://pubmed.ncbi.nlm.nih.gov/28592453/)
 [^spillantini-1997-lewy-body]: Spillantini MG, Schmidt ML, Lee VM, Trojanowski JQ, Jakes R, Goedert M. Alpha-synuclein in Lewy bodies. *Nature.* 1997;388(6645):839-840. [doi:10.1038/42166](https://doi.org/10.1038/42166) · [PubMed 9278044](https://pubmed.ncbi.nlm.nih.gov/9278044/)
