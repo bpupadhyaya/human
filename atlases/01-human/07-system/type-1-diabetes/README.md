@@ -205,6 +205,15 @@ cross_links:
   - target: 02-pathogen/03-fungi/aspergillus-fumigatus
     relation: connects-to
     note: "Ketoacidosis and high glucose invite invasive mold: poorly controlled type 1 diabetes, especially in ketoacidosis, impairs neutrophil function and predisposes to invasive fungal infections such as aspergillosis and mucormycosis."
+  - target: 01-human/07-system/digestive-system
+    relation: connects-to
+    note: "Autoimmunity and neuropathy hit the gut: type 1 diabetes co-occurs with coeliac disease and autoimmune gastritis, and longstanding autonomic neuropathy causes gastroparesis with erratic glucose control."
+  - target: 01-human/07-system/integumentary-system
+    relation: connects-to
+    note: "It marks the skin in characteristic ways: type 1 diabetes causes necrobiosis lipoidica, repeated-injection lipohypertrophy and diabetic dermopathy, and the autoimmune diathesis brings vitiligo."
+  - target: 01-human/07-system/generalized-anxiety-disorder
+    relation: connects-to
+    note: "Relentless self-management and hypo-fear breed worry: the constant glucose monitoring, dosing decisions and dread of hypoglycaemia in type 1 diabetes generate diabetes distress and chronic anxiety."
 ---
 
 # Type 1 Diabetes
@@ -363,6 +372,9 @@ cross_links:
 - `connects-to` → **[Heart Failure](../heart-failure/README.md)** — Decades of glucose injury weaken the heart: type 1 diabetes accelerates coronary disease and causes a diabetic cardiomyopathy through microvascular damage and metabolic stress, routes toward heart failure over a lifetime.
 - `connects-to` → **[Osteoporosis](../osteoporosis/README.md)** — It builds a more fragile skeleton: insulin's loss removes a bone-anabolic signal, so type 1 diabetes is associated with lower bone mineral density and a markedly elevated fracture risk.
 - `connects-to` → **[Aspergillus fumigatus](../../../02-pathogen/03-fungi/aspergillus-fumigatus/README.md)** — Ketoacidosis and high glucose invite invasive mold: poorly controlled type 1 diabetes, especially in ketoacidosis, impairs neutrophil function and predisposes to invasive fungal infections such as aspergillosis and mucormycosis.
+- `connects-to` → **[Digestive System](../digestive-system/README.md)** — Autoimmunity and neuropathy hit the gut: type 1 diabetes co-occurs with coeliac disease and autoimmune gastritis, and longstanding autonomic neuropathy causes gastroparesis with erratic glucose control.
+- `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — It marks the skin in characteristic ways: type 1 diabetes causes necrobiosis lipoidica, repeated-injection lipohypertrophy and diabetic dermopathy, and the autoimmune diathesis brings vitiligo.
+- `connects-to` → **[Generalized Anxiety Disorder](../generalized-anxiety-disorder/README.md)** — Relentless self-management and hypo-fear breed worry: the constant glucose monitoring, dosing decisions and dread of hypoglycaemia in type 1 diabetes generate diabetes distress and chronic anxiety.
 
 [^atkinson-2014-t1d-lancet]: Atkinson MA, Eisenbarth GS, Michels AW. Type 1 diabetes. *Lancet.* 2014;383(9911):69-82. [doi:10.1016/S0140-6736(13)60591-7](https://doi.org/10.1016/S0140-6736(13)60591-7) · [PubMed 23890997](https://pubmed.ncbi.nlm.nih.gov/23890997/)
 [^herold-2019-teplizumab-t1d]: Herold KC, Bundy BN, Long SA, et al. An anti-CD3 antibody, teplizumab, in relatives at risk for type 1 diabetes. *N Engl J Med.* 2019;381(7):603-613. [doi:10.1056/NEJMoa1905155](https://doi.org/10.1056/NEJMoa1905155) · [PubMed 31180675](https://pubmed.ncbi.nlm.nih.gov/31180675/)

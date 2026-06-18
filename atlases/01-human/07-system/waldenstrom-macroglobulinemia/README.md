@@ -199,6 +199,15 @@ cross_links:
   - target: 01-human/07-system/major-depressive-disorder
     relation: connects-to
     note: "A chronic, incurable lymphoma weighs on mood: the indolent but relapsing course, lifelong monitoring and treatment burden of Waldenström contribute to depression and reduced quality of life."
+  - target: 02-pathogen/01-viruses/varicella-zoster-virus
+    relation: connects-to
+    note: "Its B-cell-targeted therapy reawakens shingles: rituximab and the BTK inhibitors used for Waldenström deplete B-cell and antiviral immunity, allowing latent varicella-zoster to reactivate."
+  - target: 01-human/07-system/integumentary-system
+    relation: connects-to
+    note: "Its abnormal IgM shows on the skin: Waldenström's monoclonal IgM can act as a cryoglobulin causing cold-induced purpura and acrocyanosis, and rarely deposits in the skin as IgM storm papules."
+  - target: 01-human/07-system/generalized-anxiety-disorder
+    relation: connects-to
+    note: "A chronic, relapsing, incurable lymphoma breeds worry: the indolent-but-watchful course, hyperviscosity scares and lifelong monitoring of Waldenström foster chronic health anxiety alongside depression."
 ---
 
 # Waldenström Macroglobulinemia
@@ -377,6 +386,9 @@ For symptomatic hyperviscosity → removes IgM immediately; does not treat under
 - `connects-to` → **[Aspergillus fumigatus](../../../02-pathogen/03-fungi/aspergillus-fumigatus/README.md)** — Its BTK-inhibitor therapy admits invasive mold: ibrutinib, a mainstay for Waldenström, impairs macrophage and neutrophil antifungal defense, with a recognized risk of invasive aspergillosis.
 - `connects-to` → **[Heart Failure](../heart-failure/README.md)** — Ibrutinib and hyperviscosity stress the heart: the BTK inhibitor central to Waldenström causes atrial fibrillation and cardiotoxicity, and the IgM-driven hyperviscosity raises high-output cardiac strain toward heart failure.
 - `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — A chronic, incurable lymphoma weighs on mood: the indolent but relapsing course, lifelong monitoring and treatment burden of Waldenström contribute to depression and reduced quality of life.
+- `connects-to` → **[Varicella-Zoster Virus](../../../02-pathogen/01-viruses/varicella-zoster-virus/README.md)** — Its B-cell-targeted therapy reawakens shingles: rituximab and the BTK inhibitors used for Waldenström deplete B-cell and antiviral immunity, allowing latent varicella-zoster to reactivate.
+- `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — Its abnormal IgM shows on the skin: Waldenström's monoclonal IgM can act as a cryoglobulin causing cold-induced purpura and acrocyanosis, and rarely deposits in the skin as IgM storm papules.
+- `connects-to` → **[Generalized Anxiety Disorder](../generalized-anxiety-disorder/README.md)** — A chronic, relapsing, incurable lymphoma breeds worry: the indolent-but-watchful course, hyperviscosity scares and lifelong monitoring of Waldenström foster chronic health anxiety alongside depression.
 
 [^treon-2015-ibrutinib-wm]: Treon SP, Tripsas CK, Meid K, et al. Ibrutinib in previously treated Waldenström's macroglobulinemia. *N Engl J Med.* 2015;373(18):1765-1774. [doi:10.1056/NEJMoa1501548](https://doi.org/10.1056/NEJMoa1501548) · [PubMed 26352686](https://pubmed.ncbi.nlm.nih.gov/26352686/)
 [^tam-2020-aspen]: Tam CS, Opat S, D'Sa S, et al. A randomized phase 3 trial of zanubrutinib vs ibrutinib in symptomatic Waldenström macroglobulinemia: the ASPEN study. *Blood.* 2020;136(18):2038-2050. [doi:10.1182/blood.2020006844](https://doi.org/10.1182/blood.2020006844) · [PubMed 32828187](https://pubmed.ncbi.nlm.nih.gov/32828187/)
