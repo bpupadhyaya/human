@@ -214,6 +214,15 @@ cross_links:
   - target: 01-human/07-system/generalized-anxiety-disorder
     relation: connects-to
     note: "A young woman's cancer with fertility loss breeds worry: the diagnosis, loss of fertility and recurrence surveillance of cervical cancer foster chronic health anxiety alongside depression."
+  - target: 01-human/07-system/respiratory-system
+    relation: connects-to
+    note: "It spreads to the lungs: the lungs are the commonest site of distant metastasis in cervical cancer, appearing as nodules on staging and recurrence imaging."
+  - target: 01-human/07-system/musculoskeletal-system
+    relation: connects-to
+    note: "It seeds the bones: cervical cancer metastasises to the spine and pelvis, causing bone pain and pathological fractures in advanced disease."
+  - target: 01-human/07-system/nervous-system
+    relation: connects-to
+    note: "Pelvic recurrence invades the nerves: tumour growth into the lumbosacral plexus causes a painful plexopathy with leg weakness and numbness, a distressing late complication."
 ---
 
 # Cervical Cancer
@@ -402,6 +411,9 @@ The cervical transformation zone (TZ) — the area between the original and new 
 - `connects-to` → **[Renal System](../renal-system/README.md)** — Locally advanced tumour strangles the ureters: cervical cancer spreading into the pelvis obstructs the ureters, causing hydronephrosis and renal failure — a classic and common cause of death from the disease.
 - `connects-to` → **[Digestive System](../digestive-system/README.md)** — Pelvic radiation and spread injure the bowel: chemoradiation for cervical cancer causes radiation proctitis and enteritis, and advanced tumour can erode into the rectum to form a rectovaginal fistula.
 - `connects-to` → **[Generalized Anxiety Disorder](../generalized-anxiety-disorder/README.md)** — A young woman's cancer with fertility loss breeds worry: the diagnosis, loss of fertility and recurrence surveillance of cervical cancer foster chronic health anxiety alongside depression.
+- `connects-to` → **[Respiratory System](../respiratory-system/README.md)** — It spreads to the lungs: the lungs are the commonest site of distant metastasis in cervical cancer, appearing as nodules on staging and recurrence imaging.
+- `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — It seeds the bones: cervical cancer metastasises to the spine and pelvis, causing bone pain and pathological fractures in advanced disease.
+- `connects-to` → **[Nervous System](../nervous-system/README.md)** — Pelvic recurrence invades the nerves: tumour growth into the lumbosacral plexus causes a painful plexopathy with leg weakness and numbness, a distressing late complication.
 
 ---
 

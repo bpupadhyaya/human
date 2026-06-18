@@ -214,6 +214,15 @@ cross_links:
   - target: 01-human/07-system/generalized-anxiety-disorder
     relation: connects-to
     note: "A late-presenting, poor-prognosis cancer breeds worry: the obstructive jaundice, difficult surgery and grim survival of cholangiocarcinoma foster chronic health anxiety alongside depression."
+  - target: 01-human/07-system/integumentary-system
+    relation: connects-to
+    note: "It paints the skin yellow and itchy: biliary obstruction by cholangiocarcinoma causes jaundice and intense cholestatic pruritus, often the presenting features that prompt diagnosis."
+  - target: 01-human/07-system/lymphatic-system
+    relation: connects-to
+    note: "Lymph-node spread decides resectability: regional lymph-node metastasis is a major prognostic factor in cholangiocarcinoma, guiding whether surgery is possible and the need for adjuvant therapy."
+  - target: 01-human/07-system/nervous-system
+    relation: connects-to
+    note: "It crawls along the nerves: cholangiocarcinoma is notorious for perineural invasion, spreading through the nerve sheaths around the bile ducts and raising the risk of pain and recurrence."
 ---
 
 # Cholangiocarcinoma
@@ -376,6 +385,9 @@ Chronic biliary injury (from PSC, fluke infection, bile acid reflux, biliary sta
 - `connects-to` → **[Digestive System](../digestive-system/README.md)** — It is a cancer of the biliary tree: cholangiocarcinoma obstructs the bile ducts, causing obstructive jaundice, pruritus, ascending cholangitis and fat malabsorption central to its presentation.
 - `connects-to` → **[Wound Healing](../wound-healing/README.md)** — Its surgery is among the most demanding: curative resection means major hepatectomy or a Whipple with biliary reconstruction, leaving complex anastomoses prone to bile leak and slow healing.
 - `connects-to` → **[Generalized Anxiety Disorder](../generalized-anxiety-disorder/README.md)** — A late-presenting, poor-prognosis cancer breeds worry: the obstructive jaundice, difficult surgery and grim survival of cholangiocarcinoma foster chronic health anxiety alongside depression.
+- `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — It paints the skin yellow and itchy: biliary obstruction by cholangiocarcinoma causes jaundice and intense cholestatic pruritus, often the presenting features that prompt diagnosis.
+- `connects-to` → **[Lymphatic System](../lymphatic-system/README.md)** — Lymph-node spread decides resectability: regional lymph-node metastasis is a major prognostic factor in cholangiocarcinoma, guiding whether surgery is possible and the need for adjuvant therapy.
+- `connects-to` → **[Nervous System](../nervous-system/README.md)** — It crawls along the nerves: cholangiocarcinoma is notorious for perineural invasion, spreading through the nerve sheaths around the bile ducts and raising the risk of pain and recurrence.
 
 ---
 
