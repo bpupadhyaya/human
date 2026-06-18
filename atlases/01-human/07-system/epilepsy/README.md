@@ -247,6 +247,15 @@ cross_links:
   - target: 02-pathogen/01-viruses/herpesvirus
     relation: connects-to
     note: "Encephalitis leaves an epileptic scar: herpes simplex encephalitis damages the temporal lobe and is a classic cause of acquired, often drug-resistant temporal-lobe epilepsy."
+  - target: 03-medicine/01-modern/13-cancer/targeted-therapy
+    relation: connects-to
+    note: "Precision drugs for genetic epilepsy: the mTOR inhibitor everolimus reduces seizures in tuberous sclerosis, and gene-specific therapies are emerging for channelopathies — treating the cause rather than only suppressing seizures."
+  - target: 01-human/07-system/cannabis-use-disorder
+    relation: connects-to
+    note: "Cannabidiol became an anticonvulsant: purified cannabidiol (Epidiolex) is approved for Dravet, Lennox-Gastaut and TSC-related epilepsy, derived from the same plant whose heavy THC use causes cannabis use disorder."
+  - target: 01-human/05-tissue/cardiac-conduction-system
+    relation: connects-to
+    note: "Seizures can stop the heart: ictal and post-ictal disturbances of cardiac conduction — bradyarrhythmia and asystole — are implicated in SUDEP, the leading epilepsy-specific cause of death."
 ---
 
 # Epilepsy
@@ -475,6 +484,9 @@ Anti-NMDAR encephalitis is the most common autoimmune encephalitis (~37% of auto
 - `connects-to` → **[Toxoplasma gondii](../../../02-pathogen/04-parasites/toxoplasma-gondii/README.md)** — A parasite that sparks seizures: cerebral toxoplasmosis, especially in HIV, and congenital infection produce brain lesions that are a common infectious cause of epilepsy worldwide.
 - `connects-to` → **[Endothelial Cell](../../04-cellular/endothelial-cell/README.md)** — A leaky barrier feeds seizures: blood-brain-barrier breakdown lets serum proteins like albumin into the cortex, where they activate astrocytes and lower the seizure threshold, a driver of epileptogenesis.
 - `connects-to` → **[Herpesviridae](../../../02-pathogen/01-viruses/herpesvirus/README.md)** — Encephalitis leaves an epileptic scar: herpes simplex encephalitis damages the temporal lobe and is a classic cause of acquired, often drug-resistant temporal-lobe epilepsy.
+- `connects-to` → **[Targeted Therapy](../../../03-medicine/01-modern/13-cancer/targeted-therapy/README.md)** — Precision drugs for genetic epilepsy: the mTOR inhibitor everolimus reduces seizures in tuberous sclerosis, and gene-specific therapies are emerging for channelopathies — treating the cause rather than only suppressing seizures.
+- `connects-to` → **[Cannabis Use Disorder](../cannabis-use-disorder/README.md)** — Cannabidiol became an anticonvulsant: purified cannabidiol (Epidiolex) is approved for Dravet, Lennox-Gastaut and TSC-related epilepsy, derived from the same plant whose heavy THC use causes cannabis use disorder.
+- `connects-to` → **[Cardiac Conduction System](../../05-tissue/cardiac-conduction-system/README.md)** — Seizures can stop the heart: ictal and post-ictal disturbances of cardiac conduction — bradyarrhythmia and asystole — are implicated in SUDEP, the leading epilepsy-specific cause of death.
 
 [^fisher-2017-ilae-classification]: Fisher RS, Cross JH, D'Souza C, et al. Instruction manual for the ILAE 2017 operational classification of seizure types. *Epilepsia.* 2017;58(4):531-542. [doi:10.1111/epi.13671](https://doi.org/10.1111/epi.13671) · [PubMed 28276060](https://pubmed.ncbi.nlm.nih.gov/28276060/)
 [^devinsky-2018-epilepsy-review]: Devinsky O, Vezzani A, O'Brien TJ, et al. Epilepsy. *Nat Rev Dis Primers.* 2018;4:18024. [doi:10.1038/nrdp.2018.24](https://doi.org/10.1038/nrdp.2018.24) · [PubMed 29722352](https://pubmed.ncbi.nlm.nih.gov/29722352/)

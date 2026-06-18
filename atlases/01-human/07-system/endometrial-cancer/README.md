@@ -238,6 +238,15 @@ cross_links:
   - target: 03-medicine/01-modern/07-metabolic/metformin
     relation: connects-to
     note: "A diabetes drug studied against it: metformin lowers the insulin and IGF-1 signalling that fuels endometrial cancer, and is investigated as adjunct and chemoprevention in the obese, insulin-resistant women most at risk."
+  - target: 03-medicine/01-modern/13-cancer/cancer-chemotherapy
+    relation: connects-to
+    note: "Carboplatin-paclitaxel for advanced disease: while early endometrial cancer is cured by surgery, advanced and high-grade (serous, carcinosarcoma) disease relies on platinum-taxane chemotherapy, now often combined with immunotherapy."
+  - target: 01-human/07-system/cervical-cancer
+    relation: connects-to
+    note: "The two uterine cancers contrasted: endometrial cancer arises from the hormone-responsive uterine lining driven by unopposed oestrogen and obesity, whereas cervical cancer arises from HPV infection of the cervix — different organs, causes and prevention."
+  - target: 01-human/07-system/ovarian-clear-cell-carcinoma
+    relation: connects-to
+    note: "A shared ARID1A/endometriosis pathway: endometrioid and clear-cell cancers of both the uterus and ovary arise from endometriosis-like glands with ARID1A and PIK3CA mutations, linking these gynaecological malignancies mechanistically."
 ---
 
 # Endometrial Cancer
@@ -436,6 +445,9 @@ cross_links:
 - `connects-to` → **[Checkpoint Inhibitors](../../../03-medicine/01-modern/13-cancer/checkpoint-inhibitors/README.md)** — Mismatch-repair loss makes it immunogenic: about a quarter of endometrial cancers are dMMR/MSI-high and respond strongly to PD-1 inhibitors like pembrolizumab, now central to advanced and Lynch-associated disease.
 - `connects-to` → **[Targeted Therapy](../../../03-medicine/01-modern/13-cancer/targeted-therapy/README.md)** — Molecular drivers guide newer drugs: lenvatinib (anti-VEGFR) with pembrolizumab, mTOR inhibitors for PTEN-altered tumours and anti-HER2 antibody-drug conjugates for HER2-positive serous cancer extend treatment options.
 - `connects-to` → **[Metformin](../../../03-medicine/01-modern/07-metabolic/metformin/README.md)** — A diabetes drug studied against it: metformin lowers the insulin and IGF-1 signalling that fuels endometrial cancer, and is investigated as adjunct and chemoprevention in the obese, insulin-resistant women most at risk.
+- `connects-to` → **[Cancer Chemotherapy](../../../03-medicine/01-modern/13-cancer/cancer-chemotherapy/README.md)** — Carboplatin-paclitaxel for advanced disease: while early endometrial cancer is cured by surgery, advanced and high-grade (serous, carcinosarcoma) disease relies on platinum-taxane chemotherapy, now often combined with immunotherapy.
+- `connects-to` → **[Cervical Cancer](../cervical-cancer/README.md)** — The two uterine cancers contrasted: endometrial cancer arises from the hormone-responsive uterine lining driven by unopposed oestrogen and obesity, whereas cervical cancer arises from HPV infection of the cervix — different organs, causes and prevention.
+- `connects-to` → **[Ovarian Clear Cell Carcinoma](../ovarian-clear-cell-carcinoma/README.md)** — A shared ARID1A/endometriosis pathway: endometrioid and clear-cell cancers of both the uterus and ovary arise from endometriosis-like glands with ARID1A and PIK3CA mutations, linking these gynaecological malignancies mechanistically.
 
 [^konstantinopoulos-2019-dostarlimab]: Konstantinopoulos PA, Lheureux S, Moore KN. PARP inhibitors for ovarian and endometrial cancers: state of the art and clinical perspectives. *J Clin Oncol.* 2020;38(25):2896-2909. [doi:10.1200/JCO.20.00571](https://doi.org/10.1200/JCO.20.00571) · [PubMed 32706635](https://pubmed.ncbi.nlm.nih.gov/32706635/)
 [^eskander-2023-ruby]: Eskander RN, Sill MW, Beffa L, et al. Pembrolizumab plus chemotherapy in advanced endometrial cancer. *N Engl J Med.* 2023;388(23):2159-2170. [doi:10.1056/NEJMoa2302312](https://doi.org/10.1056/NEJMoa2302312) · [PubMed 37166384](https://pubmed.ncbi.nlm.nih.gov/37166384/)
