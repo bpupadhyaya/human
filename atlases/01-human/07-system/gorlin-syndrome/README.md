@@ -205,6 +205,15 @@ cross_links:
   - target: 01-human/07-system/generalized-anxiety-disorder
     relation: connects-to
     note: "Endless skin-cancer surveillance breeds worry: the lifelong development of new basal cell carcinomas, the need for sun and radiation avoidance and constant monitoring foster chronic health anxiety in Gorlin syndrome."
+  - target: 01-human/07-system/digestive-system
+    relation: connects-to
+    note: "It afflicts the jaws and its drug the gut: Gorlin syndrome causes recurrent odontogenic keratocysts of the jaws, and the hedgehog inhibitor vismodegib for multiple BCCs causes severe dysgeusia, nausea and weight loss."
+  - target: 01-human/07-system/endocrine-system
+    relation: connects-to
+    note: "Its targeted drug forbids use in children: the hedgehog-pathway inhibitor vismodegib used in Gorlin syndrome causes premature epiphyseal growth-plate fusion in children and amenorrhoea in women."
+  - target: 01-human/07-system/cardiovascular-system
+    relation: connects-to
+    note: "It can grow a tumour in the heart: Gorlin syndrome causes cardiac fibromas that, beyond heart failure, can obstruct flow and trigger arrhythmias, requiring cardiac surveillance."
 ---
 
 # Gorlin Syndrome
@@ -378,6 +387,9 @@ Both are two-hit tumor suppressors: germline heterozygous LOF + somatic second h
 - `connects-to` → **[Epilepsy](../epilepsy/README.md)** — Its CNS lesions can spark seizures: Gorlin syndrome causes falx calcification and predisposes to medulloblastoma, and these intracranial abnormalities can underlie seizures.
 - `connects-to` → **[Aspergillus fumigatus](../../../02-pathogen/03-fungi/aspergillus-fumigatus/README.md)** — Medulloblastoma chemo opens the lung to mold: the ~5% of Gorlin patients who develop medulloblastoma need chemotherapy whose neutropenia can let inhaled Aspergillus invade.
 - `connects-to` → **[Generalized Anxiety Disorder](../generalized-anxiety-disorder/README.md)** — Endless skin-cancer surveillance breeds worry: the lifelong development of new basal cell carcinomas, the need for sun and radiation avoidance and constant monitoring foster chronic health anxiety in Gorlin syndrome.
+- `connects-to` → **[Digestive System](../digestive-system/README.md)** — It afflicts the jaws and its drug the gut: Gorlin syndrome causes recurrent odontogenic keratocysts of the jaws, and the hedgehog inhibitor vismodegib for multiple BCCs causes severe dysgeusia, nausea and weight loss.
+- `connects-to` → **[Endocrine System](../endocrine-system/README.md)** — Its targeted drug forbids use in children: the hedgehog-pathway inhibitor vismodegib used in Gorlin syndrome causes premature epiphyseal growth-plate fusion in children and amenorrhoea in women.
+- `connects-to` → **[Cardiovascular System](../cardiovascular-system/README.md)** — It can grow a tumour in the heart: Gorlin syndrome causes cardiac fibromas that, beyond heart failure, can obstruct flow and trigger arrhythmias, requiring cardiac surveillance.
 
 ---
 

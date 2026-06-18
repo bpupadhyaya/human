@@ -205,6 +205,15 @@ cross_links:
   - target: 01-human/07-system/wound-healing
     relation: connects-to
     note: "Steroids and anti-VEGF therapy impair healing: chronic dexamethasone and the bevacizumab used for recurrent glioblastoma blunt the repair of craniotomy wounds, risking dehiscence."
+  - target: 01-human/07-system/endocrine-system
+    relation: connects-to
+    note: "Chronic dexamethasone disturbs the glands: the prolonged steroids used to control glioblastoma oedema cause steroid-induced diabetes and adrenal suppression, and tumours near the sella can damage the pituitary."
+  - target: 01-human/07-system/digestive-system
+    relation: connects-to
+    note: "Its drugs trouble the gut: dexamethasone raises peptic-ulcer risk, temozolomide causes nausea and hepatotoxicity, and progressive disease can impair swallowing with aspiration."
+  - target: 01-human/07-system/generalized-anxiety-disorder
+    relation: connects-to
+    note: "A rapidly fatal brain cancer breeds dread: the dismal prognosis, cognitive decline and steroid effects of glioblastoma foster intense anxiety in patients and families alongside depression."
 ---
 
 # Glioblastoma
@@ -397,6 +406,9 @@ The blood-brain barrier (BBB) creates a pharmacological challenge:
 - `connects-to` → **[Type 2 Diabetes](../type-2-diabetes/README.md)** — Its steroids raise blood sugar: the high-dose dexamethasone used to control peritumoral edema in glioblastoma induces insulin resistance, frequently causing steroid-induced hyperglycemia and diabetes.
 - `connects-to` → **[Aspergillus fumigatus](../../../02-pathogen/03-fungi/aspergillus-fumigatus/README.md)** — Temozolomide and steroids open the lung to mold: the lymphopenia from temozolomide plus prolonged dexamethasone deeply suppress immunity in glioblastoma, occasionally permitting invasive aspergillosis.
 - `connects-to` → **[Wound Healing](../wound-healing/README.md)** — Steroids and anti-VEGF therapy impair healing: chronic dexamethasone and the bevacizumab used for recurrent glioblastoma blunt the repair of craniotomy wounds, risking dehiscence.
+- `connects-to` → **[Endocrine System](../endocrine-system/README.md)** — Chronic dexamethasone disturbs the glands: the prolonged steroids used to control glioblastoma oedema cause steroid-induced diabetes and adrenal suppression, and tumours near the sella can damage the pituitary.
+- `connects-to` → **[Digestive System](../digestive-system/README.md)** — Its drugs trouble the gut: dexamethasone raises peptic-ulcer risk, temozolomide causes nausea and hepatotoxicity, and progressive disease can impair swallowing with aspiration.
+- `connects-to` → **[Generalized Anxiety Disorder](../generalized-anxiety-disorder/README.md)** — A rapidly fatal brain cancer breeds dread: the dismal prognosis, cognitive decline and steroid effects of glioblastoma foster intense anxiety in patients and families alongside depression.
 
 ---
 
