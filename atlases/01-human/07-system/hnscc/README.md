@@ -241,6 +241,15 @@ cross_links:
   - target: 01-human/05-tissue/cortical-bone
     relation: connects-to
     note: "It invades and the radiation scars bone: head-and-neck cancer erodes the mandible, and the radiotherapy that treats it can cause osteoradionecrosis of the jaw."
+  - target: 03-medicine/01-modern/13-cancer/targeted-therapy
+    relation: connects-to
+    note: "EGFR is its druggable handle: head-and-neck squamous cancers overexpress EGFR, and the anti-EGFR antibody cetuximab combined with radiotherapy or chemotherapy improves survival—the main targeted therapy in a cancer otherwise driven by loss of tumour suppressors."
+  - target: 01-human/05-tissue/germinal-center
+    relation: connects-to
+    note: "Lymphoid islands predict response: HPV-positive head-and-neck cancers often contain tertiary lymphoid structures with germinal-center-like B-cell aggregates, and their presence forecasts better outcomes and response to checkpoint immunotherapy."
+  - target: 03-medicine/03-food/curcumin
+    relation: connects-to
+    note: "A dietary chemoprevention candidate: curcumin is studied for reversing oral premalignant lesions such as leukoplakia that precede head-and-neck squamous carcinoma, targeting the NF-κB and STAT3 inflammation that fuels the tobacco-damaged mucosa."
 ---
 
 # HNSCC
@@ -430,6 +439,9 @@ HPV+ oropharyngeal: Node staging based on number (not laterality); HPV-negative 
 - `connects-to` → **[Checkpoint Inhibitors](../../../03-medicine/01-modern/13-cancer/checkpoint-inhibitors/README.md)** — Immunotherapy leads recurrent disease: pembrolizumab, alone or with chemotherapy, is first-line for recurrent or metastatic head-and-neck squamous cancer, which is often immunogenic.
 - `connects-to` → **[Cancer Chemotherapy](../../../03-medicine/01-modern/13-cancer/cancer-chemotherapy/README.md)** — Cisplatin chemoradiation is the curative core: concurrent platinum chemotherapy with radiation, sometimes after induction chemotherapy, is the organ-preserving standard for locally advanced disease.
 - `connects-to` → **[Cortical Bone](../../05-tissue/cortical-bone/README.md)** — It invades and the radiation scars bone: head-and-neck cancer erodes the mandible, and the radiotherapy that treats it can cause osteoradionecrosis of the jaw.
+- `connects-to` → **[Targeted Therapy](../../../03-medicine/01-modern/13-cancer/targeted-therapy/README.md)** — EGFR is its druggable handle: head-and-neck squamous cancers overexpress EGFR, and the anti-EGFR antibody cetuximab combined with radiotherapy or chemotherapy improves survival—the main targeted therapy in a cancer otherwise driven by loss of tumour suppressors.
+- `connects-to` → **[Germinal Center](../../05-tissue/germinal-center/README.md)** — Lymphoid islands predict response: HPV-positive head-and-neck cancers often contain tertiary lymphoid structures with germinal-center-like B-cell aggregates, and their presence forecasts better outcomes and response to checkpoint immunotherapy.
+- `connects-to` → **[Curcumin](../../../03-medicine/03-food/curcumin/README.md)** — A dietary chemoprevention candidate: curcumin is studied for reversing oral premalignant lesions such as leukoplakia that precede head-and-neck squamous carcinoma, targeting the NF-κB and STAT3 inflammation that fuels the tobacco-damaged mucosa.
 
 [^burtness-2019-keynote048]: Burtness B, Harrington KJ, Greil R, et al. Pembrolizumab alone or with chemotherapy versus cetuximab with chemotherapy for recurrent or metastatic squamous cell carcinoma of the head and neck (KEYNOTE-048). *Lancet.* 2019;394(10212):1915-1928. [doi:10.1016/S0140-6736(19)32591-7](https://doi.org/10.1016/S0140-6736(19)32591-7) · [PubMed 31679945](https://pubmed.ncbi.nlm.nih.gov/31679945/)
 [^vermorken-2008-extreme]: Vermorken JB, Mesia R, Rivera F, et al. Platinum-based chemotherapy plus cetuximab in head and neck cancer. *N Engl J Med.* 2008;359(11):1116-1127. [doi:10.1056/NEJMoa0802656](https://doi.org/10.1056/NEJMoa0802656) · [PubMed 18784101](https://pubmed.ncbi.nlm.nih.gov/18784101/)
