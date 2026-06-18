@@ -223,6 +223,15 @@ cross_links:
   - target: 01-human/07-system/integumentary-system
     relation: connects-to
     note: "It has a skin-only form: primary cutaneous follicle-centre lymphoma is an indolent variant presenting as nodules and plaques on the scalp and trunk with an excellent prognosis."
+  - target: 01-human/07-system/musculoskeletal-system
+    relation: connects-to
+    note: "It hides in the marrow: follicular lymphoma frequently infiltrates the bone marrow, causing cytopenias, and bony involvement can occur in advanced disease."
+  - target: 01-human/07-system/cardiovascular-system
+    relation: connects-to
+    note: "Treatment can reach the heart: when follicular lymphoma transforms and needs anthracycline chemotherapy, dose-dependent cardiotoxicity follows, on top of anaemia's strain on the heart."
+  - target: 01-human/07-system/reproductive-system
+    relation: connects-to
+    note: "Therapy threatens fertility: chemotherapy for follicular lymphoma can impair fertility, prompting preservation counselling, and rare gonadal involvement occurs."
 ---
 
 # Follicular Lymphoma
@@ -417,6 +426,9 @@ High-risk subset (progression within 24 months of first chemoimmunotherapy): Con
 - `connects-to` → **[Renal System](../renal-system/README.md)** — Bulky retroperitoneal nodes block the ureters: large abdominal lymph-node masses in follicular lymphoma can obstruct the ureters, causing hydronephrosis and post-renal failure.
 - `connects-to` → **[Respiratory System](../respiratory-system/README.md)** — Chest nodes crowd the lungs: mediastinal and hilar disease can cause pleural effusions and airway compression, and transformation to aggressive lymphoma can infiltrate the lung.
 - `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — It has a skin-only form: primary cutaneous follicle-centre lymphoma is an indolent variant presenting as nodules and plaques on the scalp and trunk with an excellent prognosis.
+- `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — It hides in the marrow: follicular lymphoma frequently infiltrates the bone marrow, causing cytopenias, and bony involvement can occur in advanced disease.
+- `connects-to` → **[Cardiovascular System](../cardiovascular-system/README.md)** — Treatment can reach the heart: when follicular lymphoma transforms and needs anthracycline chemotherapy, dose-dependent cardiotoxicity follows, on top of anaemia's strain on the heart.
+- `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — Therapy threatens fertility: chemotherapy for follicular lymphoma can impair fertility, prompting preservation counselling, and rare gonadal involvement occurs.
 
 ---
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*

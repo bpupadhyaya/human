@@ -223,6 +223,15 @@ cross_links:
   - target: 01-human/07-system/immune-system
     relation: connects-to
     note: "Some subtypes invite immunotherapy: MSI-high and EBV-positive gastric cancers are highly immunogenic and respond to checkpoint-inhibitor therapy, unlike most gastric tumours."
+  - target: 01-human/07-system/nervous-system
+    relation: connects-to
+    note: "It seeds the meninges: gastric adenocarcinoma is a classic cause of leptomeningeal carcinomatosis, and paraneoplastic neurological syndromes can occur."
+  - target: 01-human/07-system/respiratory-system
+    relation: connects-to
+    note: "It spreads to the lungs: gastric cancer metastasises to the lungs and pleura, and lymphangitis carcinomatosa causes progressive breathlessness."
+  - target: 01-human/07-system/musculoskeletal-system
+    relation: connects-to
+    note: "It reaches bone and muscle: gastric cancer metastasises to the skeleton, and paraneoplastic dermatomyositis can herald the underlying tumour."
 ---
 
 # Gastric Cancer
@@ -438,6 +447,9 @@ H. pylori eradication: Reduces GC incidence by ~35-40% (meta-analyses); most ben
 - `connects-to` → **[Lymphatic System](../lymphatic-system/README.md)** — It spreads early through the nodes: gastric cancer disseminates to lymph nodes including the classic left supraclavicular Virchow's node, and nodal involvement drives its staging and prognosis.
 - `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — It signals through the skin: paraneoplastic acanthosis nigricans, the Leser-Trélat sign of sudden seborrhoeic keratoses, and a Sister Mary Joseph umbilical nodule are recognised cutaneous clues.
 - `connects-to` → **[Immune System](../immune-system/README.md)** — Some subtypes invite immunotherapy: MSI-high and EBV-positive gastric cancers are highly immunogenic and respond to checkpoint-inhibitor therapy, unlike most gastric tumours.
+- `connects-to` → **[Nervous System](../nervous-system/README.md)** — It seeds the meninges: gastric adenocarcinoma is a classic cause of leptomeningeal carcinomatosis, and paraneoplastic neurological syndromes can occur.
+- `connects-to` → **[Respiratory System](../respiratory-system/README.md)** — It spreads to the lungs: gastric cancer metastasises to the lungs and pleura, and lymphangitis carcinomatosa causes progressive breathlessness.
+- `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — It reaches bone and muscle: gastric cancer metastasises to the skeleton, and paraneoplastic dermatomyositis can herald the underlying tumour.
 
 [^bang-2010-toga]: Bang YJ, Van Cutsem E, Feyereislova A, et al. Trastuzumab in combination with chemotherapy versus chemotherapy alone for treatment of HER2-positive advanced gastric or gastro-oesophageal junction cancer (ToGA): a phase 3, open-label, randomised controlled trial. *Lancet.* 2010;376(9742):687-697. [doi:10.1016/S0140-6736(10)61121-X](https://doi.org/10.1016/S0140-6736(10)61121-X) · [PubMed 20728210](https://pubmed.ncbi.nlm.nih.gov/20728210/)
 [^janjigian-2021-checkmate649]: Janjigian YY, Shitara K, Moehler M, et al. First-line nivolumab plus chemotherapy versus chemotherapy alone for advanced gastric, gastro-oesophageal junction, and oesophageal adenocarcinoma (CheckMate 649). *Lancet.* 2021;398(10294):27-40. [doi:10.1016/S0140-6736(21)00797-2](https://doi.org/10.1016/S0140-6736(21)00797-2) · [PubMed 34102137](https://pubmed.ncbi.nlm.nih.gov/34102137/)
