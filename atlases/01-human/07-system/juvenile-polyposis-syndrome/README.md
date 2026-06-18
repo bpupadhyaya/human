@@ -205,6 +205,15 @@ cross_links:
   - target: 01-human/07-system/generalized-anxiety-disorder
     relation: connects-to
     note: "Lifelong surveillance from childhood breeds worry: the constant polyp screening, recurrent procedures and inherited cancer risk of juvenile polyposis foster chronic health anxiety alongside depression."
+  - target: 01-human/07-system/integumentary-system
+    relation: connects-to
+    note: "Its SMAD4 form telangiectases the skin: when juvenile polyposis is caused by SMAD4 it overlaps hereditary haemorrhagic telangiectasia, with mucocutaneous telangiectasias on the lips, tongue and fingers."
+  - target: 01-human/07-system/respiratory-system
+    relation: connects-to
+    note: "SMAD4 overlap riddles the lungs with shunts: the JPS-HHT overlap causes pulmonary arteriovenous malformations that bleed, cause hypoxaemia and let clots and bacteria bypass the lung filter."
+  - target: 01-human/07-system/nervous-system
+    relation: connects-to
+    note: "Its vascular malformations reach the brain: SMAD4-related JPS-HHT causes cerebral arteriovenous malformations that can rupture into haemorrhagic stroke or seed brain abscess via right-to-left shunts."
 ---
 
 # Juvenile Polyposis Syndrome
@@ -397,6 +406,9 @@ No approved chemopreventive agents specifically for JPS. Options under investiga
 - `connects-to` → **[Wound Healing](../wound-healing/README.md)** — Recurrent polyp surgery and SMAD4 vessels tax healing: repeated polypectomies and colectomy, plus the fragile telangiectatic vessels of the SMAD4-HHT overlap, leave wounds prone to bleeding and slow healing.
 - `connects-to` → **[Neuropathic Pain](../neuropathic-pain/README.md)** — Repeated abdominal surgery irritates nerves: the colectomies and recurrent operations for juvenile polyposis can leave adhesions and post-surgical neuropathic abdominal pain.
 - `connects-to` → **[Generalized Anxiety Disorder](../generalized-anxiety-disorder/README.md)** — Lifelong surveillance from childhood breeds worry: the constant polyp screening, recurrent procedures and inherited cancer risk of juvenile polyposis foster chronic health anxiety alongside depression.
+- `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — Its SMAD4 form telangiectases the skin: when juvenile polyposis is caused by SMAD4 it overlaps hereditary haemorrhagic telangiectasia, with mucocutaneous telangiectasias on the lips, tongue and fingers.
+- `connects-to` → **[Respiratory System](../respiratory-system/README.md)** — SMAD4 overlap riddles the lungs with shunts: the JPS-HHT overlap causes pulmonary arteriovenous malformations that bleed, cause hypoxaemia and let clots and bacteria bypass the lung filter.
+- `connects-to` → **[Nervous System](../nervous-system/README.md)** — Its vascular malformations reach the brain: SMAD4-related JPS-HHT causes cerebral arteriovenous malformations that can rupture into haemorrhagic stroke or seed brain abscess via right-to-left shunts.
 
 [^howe-1998-smad4-jps]: Howe JR, Roth S, Ringold JC, et al. Mutations in the SMAD4/DPC4 gene in juvenile polyposis. *Science.* 1998;280(5366):1086-1088. [doi:10.1126/science.280.5366.1086](https://doi.org/10.1126/science.280.5366.1086) · [PubMed 9582123](https://pubmed.ncbi.nlm.nih.gov/9582123/)
 [^aretz-2007-jps-spectrum]: Aretz S, Stienen D, Uhlhaas S, et al. High proportion of large genomic deletions and a genotype-phenotype update in 80 unrelated families with juvenile polyposis syndrome. *J Med Genet.* 2007;44(11):702-709. [doi:10.1136/jmg.2007.051839](https://doi.org/10.1136/jmg.2007.051839) · [PubMed 17601924](https://pubmed.ncbi.nlm.nih.gov/17601924/)

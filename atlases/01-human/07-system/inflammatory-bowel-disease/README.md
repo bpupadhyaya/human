@@ -211,6 +211,15 @@ cross_links:
   - target: 01-human/07-system/major-depressive-disorder
     relation: connects-to
     note: "Gut inflammation and chronic disease weigh on mood: the relapsing course, urgency and gut-brain inflammatory signaling of IBD give it markedly elevated rates of depression."
+  - target: 02-pathogen/01-viruses/varicella-zoster-virus
+    relation: connects-to
+    note: "Its immunosuppression reawakens shingles: the thiopurines, anti-TNF and especially JAK inhibitors used for IBD blunt antiviral immunity and notably raise the risk of herpes-zoster reactivation."
+  - target: 01-human/07-system/renal-system
+    relation: connects-to
+    note: "Crohn's reaches the urinary tract: fat malabsorption causes enteric hyperoxaluria with oxalate kidney stones, and bowel inflammation can form enterovesical fistulas and rarely renal amyloidosis."
+  - target: 01-human/07-system/generalized-anxiety-disorder
+    relation: connects-to
+    note: "An unpredictable, urgent disease breeds worry: the relapsing flares, faecal urgency and gut-brain signalling of IBD foster chronic health anxiety alongside its well-documented depression."
 ---
 
 # Inflammatory Bowel Disease
@@ -403,6 +412,9 @@ IBD is a complex polygenic disease with >240 susceptibility loci (GWAS):
 - `connects-to` → **[Hepatitis B virus](../../../02-pathogen/01-viruses/hepatitis-b-virus/README.md)** — Its biologics can reactivate hepatitis B: the anti-TNF and other immunosuppressive therapies for IBD can reawaken a dormant hepatitis B virus, so screening and antiviral prophylaxis precede treatment.
 - `connects-to` → **[Aspergillus fumigatus](../../../02-pathogen/03-fungi/aspergillus-fumigatus/README.md)** — Combined immunosuppression opens the lung to mold: corticosteroids stacked on biologics or JAK inhibitors for IBD deeply blunt immunity, occasionally permitting invasive aspergillosis.
 - `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — Gut inflammation and chronic disease weigh on mood: the relapsing course, urgency and gut-brain inflammatory signaling of IBD give it markedly elevated rates of depression.
+- `connects-to` → **[Varicella-Zoster Virus](../../../02-pathogen/01-viruses/varicella-zoster-virus/README.md)** — Its immunosuppression reawakens shingles: the thiopurines, anti-TNF and especially JAK inhibitors used for IBD blunt antiviral immunity and notably raise the risk of herpes-zoster reactivation.
+- `connects-to` → **[Renal System](../renal-system/README.md)** — Crohn's reaches the urinary tract: fat malabsorption causes enteric hyperoxaluria with oxalate kidney stones, and bowel inflammation can form enterovesical fistulas and rarely renal amyloidosis.
+- `connects-to` → **[Generalized Anxiety Disorder](../generalized-anxiety-disorder/README.md)** — An unpredictable, urgent disease breeds worry: the relapsing flares, faecal urgency and gut-brain signalling of IBD foster chronic health anxiety alongside its well-documented depression.
 
 [^ng-2017-ibd-epidemiology]: Ng SC, Shi HY, Hamidi N, et al. Worldwide incidence and prevalence of inflammatory bowel disease in the 21st century: a systematic review of population-based studies. *Lancet.* 2018;390(10114):2769-2778. [doi:10.1016/S0140-6736(17)32448-0](https://doi.org/10.1016/S0140-6736(17)32448-0) · [PubMed 29050646](https://pubmed.ncbi.nlm.nih.gov/29050646/)
 [^sandborn-2012-vedolizumab]: Feagan BG, Rutgeerts P, Sands BE, et al. Vedolizumab as induction and maintenance therapy for ulcerative colitis. *N Engl J Med.* 2013;369(8):699-710. [doi:10.1056/NEJMoa1215734](https://doi.org/10.1056/NEJMoa1215734) · [PubMed 23964932](https://pubmed.ncbi.nlm.nih.gov/23964932/)
