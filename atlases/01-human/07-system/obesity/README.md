@@ -226,6 +226,15 @@ cross_links:
   - target: 01-human/07-system/nervous-system
     relation: connects-to
     note: "It can raise pressure around the brain: obesity is the dominant risk factor for idiopathic intracranial hypertension (pseudotumor cerebri), causing headache, papilloedema and threatened vision."
+  - target: 01-human/07-system/cardiovascular-system
+    relation: connects-to
+    note: "It overworks the heart: excess weight raises cardiac output and workload, causing an obesity cardiomyopathy and atrial fibrillation, on top of the hypertension and atherosclerosis it drives."
+  - target: 01-human/07-system/immune-system
+    relation: connects-to
+    note: "Fat is an inflammatory organ: adipose tissue secretes inflammatory adipokines and cytokines, a chronic meta-inflammation that impairs immunity and blunts vaccine responses."
+  - target: 01-human/07-system/lymphatic-system
+    relation: connects-to
+    note: "It clogs the lymphatic drainage: severe obesity impairs lymphatic function, causing obesity-related lymphoedema and, in the morbidly obese, massive localised lymphoedema."
 ---
 
 # Obesity
@@ -435,6 +444,9 @@ This **metainflammation** mechanistically links obesity to type 2 diabetes, athe
 - `connects-to` → **[Respiratory System](../respiratory-system/README.md)** — Excess weight smothers breathing: obesity is the leading driver of obstructive sleep apnoea and can cause obesity hypoventilation (Pickwickian) syndrome, with daytime hypercapnia and right-heart strain.
 - `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — It changes the skin in folds and friction: acanthosis nigricans, skin tags, intertrigo, hidradenitis suppurativa and venous stasis changes are common cutaneous consequences of obesity.
 - `connects-to` → **[Nervous System](../nervous-system/README.md)** — It can raise pressure around the brain: obesity is the dominant risk factor for idiopathic intracranial hypertension (pseudotumor cerebri), causing headache, papilloedema and threatened vision.
+- `connects-to` → **[Cardiovascular System](../cardiovascular-system/README.md)** — It overworks the heart: excess weight raises cardiac output and workload, causing an obesity cardiomyopathy and atrial fibrillation, on top of the hypertension and atherosclerosis it drives.
+- `connects-to` → **[Immune System](../immune-system/README.md)** — Fat is an inflammatory organ: adipose tissue secretes inflammatory adipokines and cytokines, a chronic meta-inflammation that impairs immunity and blunts vaccine responses.
+- `connects-to` → **[Lymphatic System](../lymphatic-system/README.md)** — It clogs the lymphatic drainage: severe obesity impairs lymphatic function, causing obesity-related lymphoedema and, in the morbidly obese, massive localised lymphoedema.
 
 [^bluher-2019-obesity-review]: Blüher M. Obesity: global epidemiology and pathogenesis. *Nat Rev Endocrinol.* 2019;15(5):288-298. [doi:10.1038/s41574-019-0176-8](https://doi.org/10.1038/s41574-019-0176-8) · [PubMed 30814686](https://pubmed.ncbi.nlm.nih.gov/30814686/)
 [^wilding-2021-semaglutide-step1]: Wilding JPH, Batterham RL, Calanna S, et al. Once-weekly semaglutide in adults with overweight or obesity. *N Engl J Med.* 2021;384(11):989-1002. [doi:10.1056/NEJMoa2032183](https://doi.org/10.1056/NEJMoa2032183) · [PubMed 33567185](https://pubmed.ncbi.nlm.nih.gov/33567185/)

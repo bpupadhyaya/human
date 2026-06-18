@@ -233,6 +233,15 @@ cross_links:
   - target: 01-human/07-system/endocrine-system
     relation: connects-to
     note: "Hormones modulate its course: OCD often emerges or worsens in pregnancy and the postpartum period, and the disorder shows dysregulation of the HPA cortisol stress axis."
+  - target: 01-human/07-system/musculoskeletal-system
+    relation: connects-to
+    note: "It overlaps tics and strains joints: OCD frequently coexists with tic disorders and Tourette syndrome, producing repetitive motor tics, and compulsive repeated actions cause repetitive-strain injury."
+  - target: 01-human/07-system/respiratory-system
+    relation: connects-to
+    note: "Compulsive cleaning irritates the airways: heavy use of bleach and disinfectants in contamination OCD can trigger asthma and airway irritation from chemical exposure."
+  - target: 03-medicine/01-modern/10-mental-health/fluoxetine
+    relation: connects-to
+    note: "High-dose SSRIs are its mainstay: fluoxetine and other SSRIs, alongside clomipramine, are the pharmacological core of OCD treatment, needing higher doses and longer trials than in depression."
 ---
 
 # Obsessive-Compulsive Disorder
@@ -429,6 +438,9 @@ OCD is often underdiagnosed due to shame and secrecy. Mean time from symptom ons
 - `connects-to` → **[Immune System](../immune-system/README.md)** — Some childhood OCD is autoimmune: PANDAS/PANS describes abrupt OCD after streptococcal infection, part of a broader neuroinflammatory hypothesis implicating immune attack on basal-ganglia circuits.
 - `connects-to` → **[Renal System](../renal-system/README.md)** — Its high-dose drugs unbalance sodium: the SSRIs and clomipramine central to OCD treatment can cause SIADH with hyponatraemia, a renal-electrolyte risk needing monitoring especially in older patients.
 - `connects-to` → **[Endocrine System](../endocrine-system/README.md)** — Hormones modulate its course: OCD often emerges or worsens in pregnancy and the postpartum period, and the disorder shows dysregulation of the HPA cortisol stress axis.
+- `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — It overlaps tics and strains joints: OCD frequently coexists with tic disorders and Tourette syndrome, producing repetitive motor tics, and compulsive repeated actions cause repetitive-strain injury.
+- `connects-to` → **[Respiratory System](../respiratory-system/README.md)** — Compulsive cleaning irritates the airways: heavy use of bleach and disinfectants in contamination OCD can trigger asthma and airway irritation from chemical exposure.
+- `connects-to` → **[Fluoxetine](../../../03-medicine/01-modern/10-mental-health/fluoxetine/README.md)** — High-dose SSRIs are its mainstay: fluoxetine and other SSRIs, alongside clomipramine, are the pharmacological core of OCD treatment, needing higher doses and longer trials than in depression.
 
 [^abramowitz-2009-ocd-review]: Abramowitz JS, Taylor S, McKay D. Obsessive-compulsive disorder. *Lancet.* 2009;374(9688):491-499. [doi:10.1016/S0140-6736(09)60240-3](https://doi.org/10.1016/S0140-6736(09)60240-3) · [PubMed 19665647](https://pubmed.ncbi.nlm.nih.gov/19665647/)
 [^chamberlain-2008-ocd-neuroscience]: Chamberlain SR, Menzies L, Hampshire A, et al. Orbitofrontal dysfunction in patients with OCD and their unaffected relatives. *Science.* 2008;321(5887):421-422. [doi:10.1126/science.1154433](https://doi.org/10.1126/science.1154433) · [PubMed 18635808](https://pubmed.ncbi.nlm.nih.gov/18635808/)
