@@ -202,6 +202,15 @@ cross_links:
   - target: 02-pathogen/03-fungi/aspergillus-fumigatus
     relation: connects-to
     note: "Chemotherapy for advanced disease opens the lung to mold: the neutropenia from carboplatin-paclitaxel treatment of high-risk or recurrent endometrial cancer can let inhaled Aspergillus invade as pulmonary aspergillosis."
+  - target: 01-human/07-system/wound-healing
+    relation: connects-to
+    note: "Hysterectomy is its central surgery: total hysterectomy with lymph-node dissection treats endometrial cancer, and obesity and diabetes — its main risk factors — leave these abdominal wounds slow and infection-prone."
+  - target: 01-human/07-system/neuropathic-pain
+    relation: connects-to
+    note: "Its taxane chemo numbs the nerves: the carboplatin-paclitaxel regimen for advanced or high-risk endometrial cancer causes a dose-dependent, often lasting peripheral neuropathy."
+  - target: 01-human/07-system/generalized-anxiety-disorder
+    relation: connects-to
+    note: "Recurrence surveillance breeds worry: the monitoring for relapse and the body-image and fertility-loss impact of hysterectomy in endometrial cancer foster chronic health anxiety alongside depression."
 ---
 
 # Endometrial Cancer
@@ -388,6 +397,9 @@ cross_links:
 - `connects-to` → **[Osteoporosis](../osteoporosis/README.md)** — Removing the ovaries withdraws bone-protective estrogen: the hysterectomy with oophorectomy that treats endometrial cancer throws younger patients into surgical menopause, accelerating bone loss toward osteoporosis.
 - `connects-to` → **[Heart Failure](../heart-failure/README.md)** — It rides on a cardiometabolic profile: endometrial cancer's strong association with obesity, diabetes and hypertension means these patients carry a heavy cardiovascular burden that predisposes to heart failure.
 - `connects-to` → **[Aspergillus fumigatus](../../../02-pathogen/03-fungi/aspergillus-fumigatus/README.md)** — Chemotherapy for advanced disease opens the lung to mold: the neutropenia from carboplatin-paclitaxel treatment of high-risk or recurrent endometrial cancer can let inhaled Aspergillus invade as pulmonary aspergillosis.
+- `connects-to` → **[Wound Healing](../wound-healing/README.md)** — Hysterectomy is its central surgery: total hysterectomy with lymph-node dissection treats endometrial cancer, and obesity and diabetes — its main risk factors — leave these abdominal wounds slow and infection-prone.
+- `connects-to` → **[Neuropathic Pain](../neuropathic-pain/README.md)** — Its taxane chemo numbs the nerves: the carboplatin-paclitaxel regimen for advanced or high-risk endometrial cancer causes a dose-dependent, often lasting peripheral neuropathy.
+- `connects-to` → **[Generalized Anxiety Disorder](../generalized-anxiety-disorder/README.md)** — Recurrence surveillance breeds worry: the monitoring for relapse and the body-image and fertility-loss impact of hysterectomy in endometrial cancer foster chronic health anxiety alongside depression.
 
 [^konstantinopoulos-2019-dostarlimab]: Konstantinopoulos PA, Lheureux S, Moore KN. PARP inhibitors for ovarian and endometrial cancers: state of the art and clinical perspectives. *J Clin Oncol.* 2020;38(25):2896-2909. [doi:10.1200/JCO.20.00571](https://doi.org/10.1200/JCO.20.00571) · [PubMed 32706635](https://pubmed.ncbi.nlm.nih.gov/32706635/)
 [^eskander-2023-ruby]: Eskander RN, Sill MW, Beffa L, et al. Pembrolizumab plus chemotherapy in advanced endometrial cancer. *N Engl J Med.* 2023;388(23):2159-2170. [doi:10.1056/NEJMoa2302312](https://doi.org/10.1056/NEJMoa2302312) · [PubMed 37166384](https://pubmed.ncbi.nlm.nih.gov/37166384/)

@@ -211,6 +211,15 @@ cross_links:
   - target: 01-human/07-system/type-2-diabetes
     relation: connects-to
     note: "Some of its drugs skew metabolism: valproate and other antiseizure medications cause weight gain and insulin resistance, raising the risk of type 2 diabetes over years of treatment."
+  - target: 01-human/07-system/endocrine-system
+    relation: connects-to
+    note: "Hormones modulate seizures and the drugs disrupt hormones: catamenial epilepsy worsens with the menstrual cycle, and enzyme-inducing antiseizure drugs lower sex hormones, vitamin D and contraceptive efficacy."
+  - target: 01-human/07-system/integumentary-system
+    relation: connects-to
+    note: "Its drugs can trigger life-threatening rashes: lamotrigine, carbamazepine and phenytoin are leading causes of Stevens-Johnson syndrome and toxic epidermal necrolysis, severe cutaneous drug reactions."
+  - target: 01-human/07-system/musculoskeletal-system
+    relation: connects-to
+    note: "Convulsions and their drugs damage the skeleton: violent seizures cause vertebral compression fractures and posterior shoulder dislocations, and chronic enzyme-inducing drugs thin bone toward osteoporosis."
 ---
 
 # Epilepsy
@@ -427,6 +436,9 @@ Anti-NMDAR encephalitis is the most common autoimmune encephalitis (~37% of auto
 - `connects-to` → **[Streptococcus pneumoniae](../../../02-pathogen/02-bacteria/streptococcus-pneumoniae/README.md)** — Seizures send secretions into the lungs: impaired consciousness during and after a seizure causes aspiration, and the resulting pneumonia — often pneumococcal — is a frequent and dangerous complication.
 - `connects-to` → **[Wound Healing](../wound-healing/README.md)** — Falls and convulsions wound the body: sudden loss of control causes burns, lacerations, head injuries and fractures, leaving wounds whose healing competes with the next seizure's risk of re-injury.
 - `connects-to` → **[Type 2 Diabetes](../type-2-diabetes/README.md)** — Some of its drugs skew metabolism: valproate and other antiseizure medications cause weight gain and insulin resistance, raising the risk of type 2 diabetes over years of treatment.
+- `connects-to` → **[Endocrine System](../endocrine-system/README.md)** — Hormones modulate seizures and the drugs disrupt hormones: catamenial epilepsy worsens with the menstrual cycle, and enzyme-inducing antiseizure drugs lower sex hormones, vitamin D and contraceptive efficacy.
+- `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — Its drugs can trigger life-threatening rashes: lamotrigine, carbamazepine and phenytoin are leading causes of Stevens-Johnson syndrome and toxic epidermal necrolysis, severe cutaneous drug reactions.
+- `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — Convulsions and their drugs damage the skeleton: violent seizures cause vertebral compression fractures and posterior shoulder dislocations, and chronic enzyme-inducing drugs thin bone toward osteoporosis.
 
 [^fisher-2017-ilae-classification]: Fisher RS, Cross JH, D'Souza C, et al. Instruction manual for the ILAE 2017 operational classification of seizure types. *Epilepsia.* 2017;58(4):531-542. [doi:10.1111/epi.13671](https://doi.org/10.1111/epi.13671) · [PubMed 28276060](https://pubmed.ncbi.nlm.nih.gov/28276060/)
 [^devinsky-2018-epilepsy-review]: Devinsky O, Vezzani A, O'Brien TJ, et al. Epilepsy. *Nat Rev Dis Primers.* 2018;4:18024. [doi:10.1038/nrdp.2018.24](https://doi.org/10.1038/nrdp.2018.24) · [PubMed 29722352](https://pubmed.ncbi.nlm.nih.gov/29722352/)
