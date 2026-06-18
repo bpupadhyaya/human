@@ -235,6 +235,15 @@ cross_links:
   - target: 01-human/07-system/digestive-system
     relation: connects-to
     note: "It can spread to the gut: lobular breast cancer in particular metastasises to the stomach and bowel, while chemotherapy and endocrine therapy bring nausea and hepatotoxicity."
+  - target: 03-medicine/01-modern/13-cancer/targeted-therapy
+    relation: connects-to
+    note: "Molecular subtyping drives its treatment: HER2 antibodies (trastuzumab, pertuzumab, T-DXd), CDK4/6 inhibitors for hormone-receptor-positive disease and PARP inhibitors for BRCA-mutant tumours are central to modern breast cancer care."
+  - target: 01-human/07-system/immune-system
+    relation: connects-to
+    note: "The immune microenvironment shapes outcome: tumour-infiltrating lymphocytes predict response in triple-negative breast cancer, where checkpoint inhibitors added to chemotherapy now improve survival."
+  - target: 03-medicine/03-food/sulforaphane
+    relation: connects-to
+    note: "Diet is studied for prevention: cruciferous-vegetable sulforaphane is investigated for breast cancer chemoprevention through effects on oestrogen metabolism and tumour-cell signalling."
 ---
 
 # Breast Cancer
@@ -413,6 +422,9 @@ cross_links:
 - `connects-to` → **[Cardiovascular System](../cardiovascular-system/README.md)** — Its treatments are cardiotoxic: anthracyclines and HER2-targeted trastuzumab can weaken the heart muscle, and radiation to the left breast raises later coronary disease.
 - `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — It declares itself on the skin: inflammatory breast cancer gives a peau d'orange dimpling, Paget disease scales the nipple, and chest-wall recurrences seed skin nodules.
 - `connects-to` → **[Digestive System](../digestive-system/README.md)** — It can spread to the gut: lobular breast cancer in particular metastasises to the stomach and bowel, while chemotherapy and endocrine therapy bring nausea and hepatotoxicity.
+- `connects-to` → **[Targeted Therapy](../../../03-medicine/01-modern/13-cancer/targeted-therapy/README.md)** — Molecular subtyping drives its treatment: HER2 antibodies (trastuzumab, pertuzumab, T-DXd), CDK4/6 inhibitors for hormone-receptor-positive disease and PARP inhibitors for BRCA-mutant tumours are central to modern breast cancer care.
+- `connects-to` → **[Immune System](../immune-system/README.md)** — The immune microenvironment shapes outcome: tumour-infiltrating lymphocytes predict response in triple-negative breast cancer, where checkpoint inhibitors added to chemotherapy now improve survival.
+- `connects-to` → **[Sulforaphane](../../../03-medicine/03-food/sulforaphane/README.md)** — Diet is studied for prevention: cruciferous-vegetable sulforaphane is investigated for breast cancer chemoprevention through effects on oestrogen metabolism and tumour-cell signalling.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 

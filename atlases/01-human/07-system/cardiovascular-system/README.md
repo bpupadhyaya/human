@@ -240,6 +240,15 @@ cross_links:
   - target: 01-human/03-molecular/ncx1
     relation: connects-to
     note: "NCX1 is the second-largest Ca²⁺ removal pathway (~28% per beat); electrogenically exchanges 3 Na⁺:1 Ca²⁺; reverse mode → Ca²⁺ entry during action potential; NCX1 upregulation in HF impairs systolic function; NCX1 is a proposed therapeutic target in heart failure."
+  - target: 01-human/07-system/immune-system
+    relation: connects-to
+    note: "Inflammation drives its diseases: immune cells populate atherosclerotic plaques, autoimmune and infectious myocarditis injure the heart, and anti-inflammatory therapy (canakinumab, colchicine) reduces cardiovascular events."
+  - target: 03-medicine/01-modern/04-cardio/statins
+    relation: connects-to
+    note: "The cornerstone of prevention: statins lower LDL cholesterol and stabilise plaque, cutting heart attacks and strokes, and are foundational to both primary and secondary cardiovascular prevention."
+  - target: 02-pathogen/02-bacteria/staphylococcus-aureus
+    relation: connects-to
+    note: "A leading cause of endocarditis: Staphylococcus aureus is the commonest organism in infective endocarditis, seeding and destroying heart valves from the bloodstream, especially in injection drug use and prosthetic valves."
 taxonomy:
   uberon: "UBERON:0004535"
   fma: "FMA:7161"
@@ -396,6 +405,9 @@ Each major vascular bed has **autoregulation** — a local mechanism that holds 
 - `connects-to` → **[CCL2](../../03-molecular/ccl2/README.md)** — CCL2/CCR2 drives monocyte infiltration into atherosclerotic plaques and adventitial macrophage accumulation; elevated serum CCL2 predicts MACE in EPIC/MRFIT cohorts; CCR2 blockade reduces plaque and improves cardiac function post-MI in murine models.
 - `connects-to` → **[Troponin Complex](../../03-molecular/troponin-complex/README.md)** — Troponin complex is the molecular effector of cardiac contraction: TnC Ca²⁺ binding → TnI release → tropomyosin repositioning → actin-myosin cross-bridge cycling; PKA-mediated TnI Ser23/24 phosphorylation → ↓Ca²⁺ sensitivity → faster relaxation under β-adrenergic stimulation.
 - `connects-to` → **[NCX1](../../03-molecular/ncx1/README.md)** — NCX1 is the second-largest Ca²⁺ removal pathway (~28% per beat); electrogenically exchanges 3 Na⁺:1 Ca²⁺; reverse mode → Ca²⁺ entry during action potential; NCX1 upregulation in HF impairs systolic function; NCX1 is a proposed therapeutic target in heart failure.
+- `connects-to` → **[Immune System](../immune-system/README.md)** — Inflammation drives its diseases: immune cells populate atherosclerotic plaques, autoimmune and infectious myocarditis injure the heart, and anti-inflammatory therapy (canakinumab, colchicine) reduces cardiovascular events.
+- `connects-to` → **[Statins](../../../03-medicine/01-modern/04-cardio/statins/README.md)** — The cornerstone of prevention: statins lower LDL cholesterol and stabilise plaque, cutting heart attacks and strokes, and are foundational to both primary and secondary cardiovascular prevention.
+- `connects-to` → **[Staphylococcus aureus](../../../02-pathogen/02-bacteria/staphylococcus-aureus/README.md)** — A leading cause of endocarditis: Staphylococcus aureus is the commonest organism in infective endocarditis, seeding and destroying heart valves from the bloodstream, especially in injection drug use and prosthetic valves.
 
 ## Pathology
 
