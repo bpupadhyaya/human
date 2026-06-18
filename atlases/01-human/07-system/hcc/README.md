@@ -211,6 +211,15 @@ cross_links:
   - target: 01-human/07-system/generalized-anxiety-disorder
     relation: connects-to
     note: "A grim cancer watched on a sick liver breeds worry: the poor prognosis, surveillance imaging and decompensation risk of HCC on cirrhosis foster chronic health anxiety alongside depression."
+  - target: 01-human/07-system/respiratory-system
+    relation: connects-to
+    note: "It spreads first to the lungs: the lungs are the commonest site of extrahepatic metastasis in hepatocellular carcinoma, appearing as nodules on staging and follow-up imaging."
+  - target: 01-human/07-system/endocrine-system
+    relation: connects-to
+    note: "It makes hormones it shouldn't: HCC causes paraneoplastic hypoglycaemia from IGF-II, erythrocytosis from erythropoietin and hypercalcaemia from PTHrP."
+  - target: 01-human/07-system/cardiovascular-system
+    relation: connects-to
+    note: "It grows into the great veins: HCC characteristically invades the hepatic vein and inferior vena cava, with tumour thrombus that can extend into the right atrium."
 ---
 
 # Hepatocellular Carcinoma
@@ -413,6 +422,9 @@ In high-risk patients (cirrhosis, HBV regardless of cirrhosis): ultrasound ± AF
 - `connects-to` → **[Digestive System](../digestive-system/README.md)** — It is a cancer of a digestive organ on a failing one: HCC almost always arises in a cirrhotic liver, so portal hypertension, oesophageal varices and ascites dominate its course alongside the tumour.
 - `connects-to` → **[Nervous System](../nervous-system/README.md)** — A failing tumour-bearing liver poisons the brain: as the cirrhosis underlying HCC decompensates, ammonia and toxins it can no longer clear accumulate, producing hepatic encephalopathy with confusion and coma.
 - `connects-to` → **[Generalized Anxiety Disorder](../generalized-anxiety-disorder/README.md)** — A grim cancer watched on a sick liver breeds worry: the poor prognosis, surveillance imaging and decompensation risk of HCC on cirrhosis foster chronic health anxiety alongside depression.
+- `connects-to` → **[Respiratory System](../respiratory-system/README.md)** — It spreads first to the lungs: the lungs are the commonest site of extrahepatic metastasis in hepatocellular carcinoma, appearing as nodules on staging and follow-up imaging.
+- `connects-to` → **[Endocrine System](../endocrine-system/README.md)** — It makes hormones it shouldn't: HCC causes paraneoplastic hypoglycaemia from IGF-II, erythrocytosis from erythropoietin and hypercalcaemia from PTHrP.
+- `connects-to` → **[Cardiovascular System](../cardiovascular-system/README.md)** — It grows into the great veins: HCC characteristically invades the hepatic vein and inferior vena cava, with tumour thrombus that can extend into the right atrium.
 
 [^llovet-2008-sorafenib]: Llovet JM, Ricci S, Mazzaferro V, et al. Sorafenib in advanced hepatocellular carcinoma. *N Engl J Med.* 2008;359(4):378-390. [doi:10.1056/NEJMoa0708857](https://doi.org/10.1056/NEJMoa0708857) · [PubMed 18650514](https://pubmed.ncbi.nlm.nih.gov/18650514/)
 [^finn-2020-imbrave150]: Finn RS, Qin S, Ikeda M, et al. Atezolizumab plus bevacizumab in unresectable hepatocellular carcinoma. *N Engl J Med.* 2020;382(20):1894-1905. [doi:10.1056/NEJMoa1915745](https://doi.org/10.1056/NEJMoa1915745) · [PubMed 32402160](https://pubmed.ncbi.nlm.nih.gov/32402160/)
