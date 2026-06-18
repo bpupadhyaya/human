@@ -211,6 +211,15 @@ cross_links:
   - target: 01-human/07-system/generalized-anxiety-disorder
     relation: connects-to
     note: "A chronic, dry, fatiguing disease breeds worry: the relentless symptoms, lymphoma-risk surveillance and unpredictable systemic flares of Sjögren's foster chronic health anxiety alongside depression."
+  - target: 01-human/07-system/respiratory-system
+    relation: connects-to
+    note: "Dryness and inflammation reach the lungs: Sjögren's dries the trachea into a chronic cough and causes interstitial lung disease and bronchiectasis from lymphocytic airway infiltration."
+  - target: 01-human/07-system/endocrine-system
+    relation: connects-to
+    note: "It clusters with autoimmune thyroid disease: Sjögren's frequently coexists with Hashimoto's thyroiditis, sharing the autoimmune diathesis that attacks the body's glands."
+  - target: 01-human/07-system/immune-system
+    relation: connects-to
+    note: "It is an autoimmune exocrinopathy: anti-Ro/SSA and anti-La/SSB autoantibodies and lymphocytic infiltration of the salivary and lacrimal glands drive Sjögren's, with a marked risk of B-cell lymphoma."
 ---
 
 # Sjögren's Syndrome
@@ -405,6 +414,9 @@ Sjögren's syndrome can occur:
 - `connects-to` → **[Digestive System](../digestive-system/README.md)** — Losing saliva harms the whole upper gut: the xerostomia of Sjögren's drives rampant dental caries and difficulty chewing and swallowing dry food, and oesophageal dysmotility and reflux are common.
 - `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — The exocrine attack dries and inflames the skin: Sjögren's causes xerosis from reduced secretions and can produce cutaneous small-vessel vasculitis with palpable purpura and annular erythema.
 - `connects-to` → **[Generalized Anxiety Disorder](../generalized-anxiety-disorder/README.md)** — A chronic, dry, fatiguing disease breeds worry: the relentless symptoms, lymphoma-risk surveillance and unpredictable systemic flares of Sjögren's foster chronic health anxiety alongside depression.
+- `connects-to` → **[Respiratory System](../respiratory-system/README.md)** — Dryness and inflammation reach the lungs: Sjögren's dries the trachea into a chronic cough and causes interstitial lung disease and bronchiectasis from lymphocytic airway infiltration.
+- `connects-to` → **[Endocrine System](../endocrine-system/README.md)** — It clusters with autoimmune thyroid disease: Sjögren's frequently coexists with Hashimoto's thyroiditis, sharing the autoimmune diathesis that attacks the body's glands.
+- `connects-to` → **[Immune System](../immune-system/README.md)** — It is an autoimmune exocrinopathy: anti-Ro/SSA and anti-La/SSB autoantibodies and lymphocytic infiltration of the salivary and lacrimal glands drive Sjögren's, with a marked risk of B-cell lymphoma.
 
 ---
 

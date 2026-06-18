@@ -205,6 +205,15 @@ cross_links:
   - target: 01-human/07-system/generalized-anxiety-disorder
     relation: connects-to
     note: "A young cancer with lung-relapse risk breeds worry: the disfiguring surgery, lung-metastasis surveillance and uncertain prognosis of synovial sarcoma foster chronic anxiety in survivors alongside depression."
+  - target: 01-human/07-system/respiratory-system
+    relation: connects-to
+    note: "It spreads to the lungs: synovial sarcoma metastasises preferentially to the lungs, so pulmonary metastasectomy and lung surveillance dominate its long-term management."
+  - target: 02-pathogen/01-viruses/varicella-zoster-virus
+    relation: connects-to
+    note: "Its chemo reawakens shingles: the doxorubicin-ifosfamide chemotherapy for synovial sarcoma deeply suppresses immunity, allowing latent varicella-zoster to reactivate."
+  - target: 01-human/07-system/digestive-system
+    relation: connects-to
+    note: "Its chemo injures the gut: the ifosfamide and doxorubicin used for synovial sarcoma cause nausea, mucositis and, with ifosfamide, hepatotoxicity."
 ---
 
 # Synovial Sarcoma
@@ -393,6 +402,9 @@ SS has low TMB (~1-2 mut/Mb) and variable PD-L1 expression; ICB response rates ~
 - `connects-to` → **[Wound Healing](../wound-healing/README.md)** — Wide excision in irradiated tissue heals slowly: local control of synovial sarcoma combines extensive limb surgery with radiation, and the irradiated, chemotherapy-suppressed bed leaves wounds prone to breakdown.
 - `connects-to` → **[Neuropathic Pain](../neuropathic-pain/README.md)** — Tumour, surgery and chemo all wound the nerves: synovial sarcomas near limb nerves, the resections that sacrifice them and the chemotherapy used together produce lasting neuropathic pain.
 - `connects-to` → **[Generalized Anxiety Disorder](../generalized-anxiety-disorder/README.md)** — A young cancer with lung-relapse risk breeds worry: the disfiguring surgery, lung-metastasis surveillance and uncertain prognosis of synovial sarcoma foster chronic anxiety in survivors alongside depression.
+- `connects-to` → **[Respiratory System](../respiratory-system/README.md)** — It spreads to the lungs: synovial sarcoma metastasises preferentially to the lungs, so pulmonary metastasectomy and lung surveillance dominate its long-term management.
+- `connects-to` → **[Varicella-Zoster Virus](../../../02-pathogen/01-viruses/varicella-zoster-virus/README.md)** — Its chemo reawakens shingles: the doxorubicin-ifosfamide chemotherapy for synovial sarcoma deeply suppresses immunity, allowing latent varicella-zoster to reactivate.
+- `connects-to` → **[Digestive System](../digestive-system/README.md)** — Its chemo injures the gut: the ifosfamide and doxorubicin used for synovial sarcoma cause nausea, mucositis and, with ifosfamide, hepatotoxicity.
 
 ---
 
