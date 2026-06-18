@@ -238,6 +238,15 @@ cross_links:
   - target: 03-medicine/03-food/zinc-dietary
     relation: connects-to
     note: "Zinc is essential to repair: it is a cofactor for the enzymes of collagen synthesis and cell proliferation, so zinc deficiency markedly delays wound healing."
+  - target: 03-medicine/01-modern/02-respiratory/corticosteroids
+    relation: connects-to
+    note: "They stall repair: glucocorticoids suppress the inflammatory phase, fibroblast proliferation and collagen synthesis of healing, thinning skin and causing wound dehiscence — why chronic steroid users heal slowly after surgery and injury."
+  - target: 02-pathogen/02-bacteria/clostridium-tetani
+    relation: connects-to
+    note: "Wounds are its gateway: Clostridium tetani spores enter through deep, dirty puncture wounds and germinate in the low-oxygen necrotic tissue, releasing tetanospasmin — making tetanus immunisation status a routine part of wound assessment."
+  - target: 03-medicine/01-modern/13-cancer/cancer-chemotherapy
+    relation: connects-to
+    note: "It delays surgical healing: cytotoxic chemotherapy blunts the proliferating fibroblasts and immune cells of repair, and anti-angiogenic agents like bevacizumab impair new vessel growth, so operations are timed around treatment to avoid dehiscence."
 ---
 
 # Wound Healing
@@ -430,6 +439,9 @@ cross_links:
 - `connects-to` → **[Digestive System](../digestive-system/README.md)** — Nutrition and the gut underpin repair: protein, energy and the gut's absorptive function fuel healing, and anastomotic wounds in the bowel must heal against constant mechanical and bacterial stress.
 - `connects-to` → **[Renal System](../renal-system/README.md)** — Uraemia stalls healing: chronic kidney disease impairs wound repair through uraemic toxins, anaemia and poor nutrition, a major reason dialysis-access and surgical wounds heal poorly.
 - `connects-to` → **[Dietary Zinc](../../../03-medicine/03-food/zinc-dietary/README.md)** — Zinc is essential to repair: it is a cofactor for the enzymes of collagen synthesis and cell proliferation, so zinc deficiency markedly delays wound healing.
+- `connects-to` → **[Corticosteroids](../../../03-medicine/01-modern/02-respiratory/corticosteroids/README.md)** — They stall repair: glucocorticoids suppress the inflammatory phase, fibroblast proliferation and collagen synthesis of healing, thinning skin and causing wound dehiscence — why chronic steroid users heal slowly after surgery and injury.
+- `connects-to` → **[Clostridium tetani](../../../02-pathogen/02-bacteria/clostridium-tetani/README.md)** — Wounds are its gateway: Clostridium tetani spores enter through deep, dirty puncture wounds and germinate in the low-oxygen necrotic tissue, releasing tetanospasmin — making tetanus immunisation status a routine part of wound assessment.
+- `connects-to` → **[Cancer Chemotherapy](../../../03-medicine/01-modern/13-cancer/cancer-chemotherapy/README.md)** — It delays surgical healing: cytotoxic chemotherapy blunts the proliferating fibroblasts and immune cells of repair, and anti-angiogenic agents like bevacizumab impair new vessel growth, so operations are timed around treatment to avoid dehiscence.
 
 [^singer-1999-wound-healing-review]: Singer AJ, Clark RA. Cutaneous wound healing. *N Engl J Med.* 1999;341(10):738-746. [doi:10.1056/NEJM199909023411006](https://doi.org/10.1056/NEJM199909023411006) · [PubMed 10471461](https://pubmed.ncbi.nlm.nih.gov/10471461/)
 [^gurtner-2008-wound-repair-regeneration]: Gurtner GC, Werner S, Barrandon Y, Longaker MT. Wound repair and regeneration. *Nature.* 2008;453(7193):314-321. [doi:10.1038/nature07039](https://doi.org/10.1038/nature07039) · [PubMed 18480812](https://pubmed.ncbi.nlm.nih.gov/18480812/)
