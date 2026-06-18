@@ -219,6 +219,15 @@ cross_links:
   - target: 01-human/07-system/integumentary-system
     relation: connects-to
     note: "Distress shows on the skin: in severe infant bronchiolitis RSV causes perioral and peripheral cyanosis with mottled, poorly-perfused skin, visible warning signs of respiratory failure."
+  - target: 01-human/07-system/lymphatic-system
+    relation: connects-to
+    note: "It rouses the airway's lymphoid tissue: RSV bronchiolitis provokes a brisk peribronchial lymphocytic infiltrate and reactive lymphadenopathy as the immune system responds."
+  - target: 02-pathogen/02-bacteria/streptococcus-pneumoniae
+    relation: connects-to
+    note: "It opens the door to pneumococcus: RSV damages the airway epithelium and predisposes to secondary bacterial pneumonia, classically from Streptococcus pneumoniae."
+  - target: 02-pathogen/02-bacteria/staphylococcus-aureus
+    relation: connects-to
+    note: "Severe disease invites staph superinfection: severe RSV bronchiolitis can be complicated by secondary staphylococcal pneumonia, especially in young infants."
 ---
 
 # RSV
@@ -430,3 +439,6 @@ Radiological findings: Hyperinflation, peribronchial thickening, occasional atel
 - `connects-to` → **[Endocrine System](../endocrine-system/README.md)** — It can drop the blood sodium: severe RSV bronchiolitis is a recognised cause of SIADH with hyponatraemia in infants, requiring careful fluid management during hospital care.
 - `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — It can inflame the muscles: like other respiratory viruses, RSV causes myalgia, and in children benign acute viral myositis with calf pain and raised creatine kinase can follow infection.
 - `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — Distress shows on the skin: in severe infant bronchiolitis RSV causes perioral and peripheral cyanosis with mottled, poorly-perfused skin, visible warning signs of respiratory failure.
+- `connects-to` → **[Lymphatic System](../lymphatic-system/README.md)** — It rouses the airway's lymphoid tissue: RSV bronchiolitis provokes a brisk peribronchial lymphocytic infiltrate and reactive lymphadenopathy as the immune system responds.
+- `connects-to` → **[Streptococcus pneumoniae](../../../02-pathogen/02-bacteria/streptococcus-pneumoniae/README.md)** — It opens the door to pneumococcus: RSV damages the airway epithelium and predisposes to secondary bacterial pneumonia, classically from Streptococcus pneumoniae.
+- `connects-to` → **[Staphylococcus aureus](../../../02-pathogen/02-bacteria/staphylococcus-aureus/README.md)** — Severe disease invites staph superinfection: severe RSV bronchiolitis can be complicated by secondary staphylococcal pneumonia, especially in young infants.
