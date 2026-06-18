@@ -214,6 +214,15 @@ cross_links:
   - target: 01-human/07-system/digestive-system
     relation: connects-to
     note: "It studs the liver with hamartomas: hepatic angiomyolipomas are a recognised extrarenal manifestation of TSC, and its mTOR-inhibitor therapy adds stomatitis and diarrhoea to the gastrointestinal picture."
+  - target: 01-human/07-system/lymphatic-system
+    relation: connects-to
+    note: "Its lung disease invades the lymphatics: lymphangioleiomyomatosis causes chylous pleural effusions, chylous ascites and lymphangioleiomyomas, lymphatic manifestations beyond its lung cysts."
+  - target: 01-human/07-system/musculoskeletal-system
+    relation: connects-to
+    note: "It leaves quiet marks on bone and mouth: sclerotic bone islands, dental enamel pits and gingival fibromas are common minor diagnostic features of TSC."
+  - target: 01-human/07-system/endocrine-system
+    relation: connects-to
+    note: "It touches the pancreas and metabolism: TSC can cause pancreatic neuroendocrine tumours, and the mTOR-inhibitor therapy for its tumours causes hyperglycaemia and dyslipidaemia."
 ---
 
 # Tuberous Sclerosis Complex
@@ -419,6 +428,9 @@ With modern management: life expectancy increasingly normal; major risks: renal 
 - `connects-to` → **[Nervous System](../nervous-system/README.md)** — It is fundamentally a brain disease: cortical tubers, subependymal nodules and SEGAs are central-nervous-system hamartomas that underlie the epilepsy, autism and intellectual disability defining TSC's neurological burden.
 - `connects-to` → **[Cardiovascular System](../cardiovascular-system/README.md)** — It seeds the infant heart with tumours: cardiac rhabdomyomas, often the earliest TSC sign on fetal echo, can obstruct outflow or trigger arrhythmias before usually regressing spontaneously after birth.
 - `connects-to` → **[Digestive System](../digestive-system/README.md)** — It studs the liver with hamartomas: hepatic angiomyolipomas are a recognised extrarenal manifestation of TSC, and its mTOR-inhibitor therapy adds stomatitis and diarrhoea to the gastrointestinal picture.
+- `connects-to` → **[Lymphatic System](../lymphatic-system/README.md)** — Its lung disease invades the lymphatics: lymphangioleiomyomatosis causes chylous pleural effusions, chylous ascites and lymphangioleiomyomas, lymphatic manifestations beyond its lung cysts.
+- `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — It leaves quiet marks on bone and mouth: sclerotic bone islands, dental enamel pits and gingival fibromas are common minor diagnostic features of TSC.
+- `connects-to` → **[Endocrine System](../endocrine-system/README.md)** — It touches the pancreas and metabolism: TSC can cause pancreatic neuroendocrine tumours, and the mTOR-inhibitor therapy for its tumours causes hyperglycaemia and dyslipidaemia.
 
 ---
 

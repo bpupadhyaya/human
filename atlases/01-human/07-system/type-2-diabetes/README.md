@@ -220,6 +220,15 @@ cross_links:
   - target: 01-human/07-system/immune-system
     relation: connects-to
     note: "Hyperglycaemia blunts host defence: high glucose impairs neutrophil function and complement, so type 2 diabetes raises susceptibility to skin, urinary, foot and respiratory infections and worsens their severity."
+  - target: 01-human/07-system/cardiovascular-system
+    relation: connects-to
+    note: "It is a cardiovascular risk-equivalent: type 2 diabetes drives a specific diabetic cardiomyopathy and, through autonomic neuropathy, can cause silent myocardial infarction."
+  - target: 01-human/07-system/nervous-system
+    relation: connects-to
+    note: "It damages nerves widely: diabetic peripheral and autonomic neuropathy cause foot ulcers, gastroparesis and postural hypotension, and the disease accelerates cognitive decline."
+  - target: 01-human/07-system/musculoskeletal-system
+    relation: connects-to
+    note: "It stiffens hands and joints: type 2 diabetes causes diabetic cheiroarthropathy, frozen shoulder, Dupuytren's contracture and Charcot neuroarthropathy of the foot."
 ---
 
 # Type 2 Diabetes
@@ -390,6 +399,9 @@ T2DM, CKD, heart failure, and obesity form the **cardiorenal metabolic (CRM) syn
 - `connects-to` → **[Endocrine System](../endocrine-system/README.md)** — It is the archetypal endocrine disorder: insulin resistance with progressive beta-cell failure dysregulates the body's central metabolic hormone, deranging glucose, lipid and counter-regulatory hormone signalling throughout the system.
 - `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — It marks the skin in many ways: acanthosis nigricans signals insulin resistance, while diabetic dermopathy, necrobiosis lipoidica and neuropathic-ischaemic foot ulcers track the vascular and nerve damage of type 2 diabetes.
 - `connects-to` → **[Immune System](../immune-system/README.md)** — Hyperglycaemia blunts host defence: high glucose impairs neutrophil function and complement, so type 2 diabetes raises susceptibility to skin, urinary, foot and respiratory infections and worsens their severity.
+- `connects-to` → **[Cardiovascular System](../cardiovascular-system/README.md)** — It is a cardiovascular risk-equivalent: type 2 diabetes drives a specific diabetic cardiomyopathy and, through autonomic neuropathy, can cause silent myocardial infarction.
+- `connects-to` → **[Nervous System](../nervous-system/README.md)** — It damages nerves widely: diabetic peripheral and autonomic neuropathy cause foot ulcers, gastroparesis and postural hypotension, and the disease accelerates cognitive decline.
+- `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — It stiffens hands and joints: type 2 diabetes causes diabetic cheiroarthropathy, frozen shoulder, Dupuytren's contracture and Charcot neuroarthropathy of the foot.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
