@@ -215,6 +215,15 @@ cross_links:
   - target: 02-pathogen/02-bacteria/mycobacterium-tuberculosis
     relation: connects-to
     note: "Tuberculosis can settle in the skin: cutaneous TB such as lupus vulgaris and scrofuloderma, and the reactive panniculitis of erythema nodosum, are dermatological signs of mycobacterial infection."
+  - target: 02-pathogen/04-parasites/leishmania-donovani
+    relation: connects-to
+    note: "A sandfly parasite scars the skin: cutaneous and post-kala-azar dermal leishmaniasis produce chronic disfiguring skin lesions, a major cause of skin disease in endemic regions."
+  - target: 03-medicine/01-modern/12-anti-inflammatory/dexamethasone
+    relation: connects-to
+    note: "Steroids heal and harm the skin: corticosteroids treat inflammatory skin disease, but long-term use thins the skin and causes striae, easy bruising, acne and impaired wound healing."
+  - target: 03-medicine/03-food/zinc-dietary
+    relation: connects-to
+    note: "Zinc keeps the skin intact: zinc is essential for skin integrity and repair, so deficiency causes acrodermatitis enteropathica with perioral and acral dermatitis."
 ---
 
 # Integumentary System
@@ -386,6 +395,9 @@ Wound healing is a precisely orchestrated process in four overlapping phases [^g
 - `connects-to` → **[Respiratory System](../respiratory-system/README.md)** — The skin announces lung disease: finger clubbing, central cyanosis and tar staining flag chronic respiratory illness, and granulomatous diseases like sarcoidosis strike skin and lung together.
 - `connects-to` → **[Neisseria meningitidis](../../../02-pathogen/02-bacteria/neisseria-meningitidis/README.md)** — A rash that signals an emergency: meningococcal sepsis produces a non-blanching petechial and purpuric rash that can progress to purpura fulminans with skin necrosis, demanding immediate antibiotics.
 - `connects-to` → **[Mycobacterium tuberculosis](../../../02-pathogen/02-bacteria/mycobacterium-tuberculosis/README.md)** — Tuberculosis can settle in the skin: cutaneous TB such as lupus vulgaris and scrofuloderma, and the reactive panniculitis of erythema nodosum, are dermatological signs of mycobacterial infection.
+- `connects-to` → **[Leishmania donovani](../../../02-pathogen/04-parasites/leishmania-donovani/README.md)** — A sandfly parasite scars the skin: cutaneous and post-kala-azar dermal leishmaniasis produce chronic disfiguring skin lesions, a major cause of skin disease in endemic regions.
+- `connects-to` → **[Dexamethasone](../../../03-medicine/01-modern/12-anti-inflammatory/dexamethasone/README.md)** — Steroids heal and harm the skin: corticosteroids treat inflammatory skin disease, but long-term use thins the skin and causes striae, easy bruising, acne and impaired wound healing.
+- `connects-to` → **[Zinc (Dietary)](../../../03-medicine/03-food/zinc-dietary/README.md)** — Zinc keeps the skin intact: zinc is essential for skin integrity and repair, so deficiency causes acrodermatitis enteropathica with perioral and acral dermatitis.
 
 ## Pathology
 
