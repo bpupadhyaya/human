@@ -241,6 +241,15 @@ cross_links:
   - target: 02-pathogen/02-bacteria/streptococcus-pneumoniae
     relation: connects-to
     note: "Bacteria complicate the viral pneumonia: secondary bacterial infection, including pneumococcal pneumonia, worsens severe COVID-19, as it does in influenza."
+  - target: 03-medicine/01-modern/09-hematology/warfarin
+    relation: connects-to
+    note: "It is a thrombotic disease: severe COVID-19 drives venous thromboembolism and microthrombi, so hospitalised patients receive prophylactic anticoagulation, and the coagulopathy is a central reason for its high mortality."
+  - target: 01-human/05-tissue/myocardium
+    relation: connects-to
+    note: "It injures the heart muscle: COVID-19 causes myocarditis and troponin-positive cardiac injury through direct infection and cytokine storm, with arrhythmia and heart failure — and rare myocarditis also follows mRNA vaccination."
+  - target: 01-human/05-tissue/arterial-wall
+    relation: connects-to
+    note: "It is an endothelial disease: SARS-CoV-2 infects and inflames the vascular endothelium, and this endotheliitis of the arterial wall underlies the microthrombi, strokes and multi-organ ischaemia of severe COVID-19."
 ---
 
 # COVID-19 Disease
@@ -380,6 +389,9 @@ Symptoms persisting >4 weeks: fatigue (most common), cognitive impairment ("brai
 - `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — It aches and wastes muscle: COVID-19 causes prominent myalgia and, in severe or prolonged illness, myositis, rhabdomyolysis and the deconditioning of long COVID.
 - `connects-to` → **[Targeted Therapy](../../../03-medicine/01-modern/13-cancer/targeted-therapy/README.md)** — Immunomodulators tame severe disease: the IL-6 inhibitor tocilizumab and the JAK inhibitor baricitinib reduce mortality in severe COVID-19 by dampening the hyperinflammatory response.
 - `connects-to` → **[Streptococcus pneumoniae](../../../02-pathogen/02-bacteria/streptococcus-pneumoniae/README.md)** — Bacteria complicate the viral pneumonia: secondary bacterial infection, including pneumococcal pneumonia, worsens severe COVID-19, as it does in influenza.
+- `connects-to` → **[Warfarin](../../../03-medicine/01-modern/09-hematology/warfarin/README.md)** — It is a thrombotic disease: severe COVID-19 drives venous thromboembolism and microthrombi, so hospitalised patients receive prophylactic anticoagulation, and the coagulopathy is a central reason for its high mortality.
+- `connects-to` → **[Myocardium](../../05-tissue/myocardium/README.md)** — It injures the heart muscle: COVID-19 causes myocarditis and troponin-positive cardiac injury through direct infection and cytokine storm, with arrhythmia and heart failure — and rare myocarditis also follows mRNA vaccination.
+- `connects-to` → **[Arterial Wall](../../05-tissue/arterial-wall/README.md)** — It is an endothelial disease: SARS-CoV-2 infects and inflames the vascular endothelium, and this endotheliitis of the arterial wall underlies the microthrombi, strokes and multi-organ ischaemia of severe COVID-19.
 
 ## Pathology
 

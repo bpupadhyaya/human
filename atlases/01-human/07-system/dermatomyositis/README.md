@@ -247,6 +247,15 @@ cross_links:
   - target: 02-pathogen/01-viruses/herpesvirus
     relation: connects-to
     note: "Immunosuppression reawakens latent virus: the heavy immunosuppression for dermatomyositis allows cytomegalovirus and herpes-simplex reactivation, alongside the Pneumocystis risk."
+  - target: 03-medicine/01-modern/13-cancer/cancer-chemotherapy
+    relation: connects-to
+    note: "Steroid-sparing and the underlying cancer: methotrexate and azathioprine spare steroids in dermatomyositis, and because anti-TIF1γ disease is often paraneoplastic, chemotherapy directed at the hidden breast, ovarian or lung cancer can itself improve the myositis."
+  - target: 01-human/07-system/myasthenia-gravis
+    relation: connects-to
+    note: "Two faces of weakness: dermatomyositis is a proximal inflammatory myopathy with raised CK and the heliotrope and Gottron skin signs, whereas myasthenia gravis is fatigable neuromuscular-junction weakness with normal CK — a core differential of muscle weakness."
+  - target: 01-human/05-tissue/cortical-bone
+    relation: connects-to
+    note: "It calcifies soft tissue and thins bone: juvenile dermatomyositis classically deposits dystrophic calcinosis in skin and muscle, while the long-term corticosteroids used to control it drive osteoporosis and fracture risk."
 ---
 
 # Dermatomyositis
@@ -448,6 +457,9 @@ DM carries a ~3–7× elevated cancer risk overall. Anti-TIF1γ (TRIM33) suppres
 - `connects-to` → **[Corticosteroids](../../../03-medicine/01-modern/02-respiratory/corticosteroids/README.md)** — High-dose steroids are first-line: corticosteroids suppress the muscle and skin inflammation of dermatomyositis, with steroid-sparing immunosuppressants added for long-term control.
 - `connects-to` → **[Targeted Therapy](../../../03-medicine/01-modern/13-cancer/targeted-therapy/README.md)** — Refractory disease gets targeted agents: rituximab, IVIG and JAK inhibitors (targeting the type-I-interferon signature) treat dermatomyositis resistant to steroids, especially anti-MDA5 lung disease.
 - `connects-to` → **[Herpesvirus](../../../02-pathogen/01-viruses/herpesvirus/README.md)** — Immunosuppression reawakens latent virus: the heavy immunosuppression for dermatomyositis allows cytomegalovirus and herpes-simplex reactivation, alongside the Pneumocystis risk.
+- `connects-to` → **[Cancer Chemotherapy](../../../03-medicine/01-modern/13-cancer/cancer-chemotherapy/README.md)** — Steroid-sparing and the underlying cancer: methotrexate and azathioprine spare steroids in dermatomyositis, and because anti-TIF1γ disease is often paraneoplastic, chemotherapy directed at the hidden breast, ovarian or lung cancer can itself improve the myositis.
+- `connects-to` → **[Myasthenia Gravis](../myasthenia-gravis/README.md)** — Two faces of weakness: dermatomyositis is a proximal inflammatory myopathy with raised CK and the heliotrope and Gottron skin signs, whereas myasthenia gravis is fatigable neuromuscular-junction weakness with normal CK — a core differential of muscle weakness.
+- `connects-to` → **[Cortical Bone](../../05-tissue/cortical-bone/README.md)** — It calcifies soft tissue and thins bone: juvenile dermatomyositis classically deposits dystrophic calcinosis in skin and muscle, while the long-term corticosteroids used to control it drive osteoporosis and fracture risk.
 
 [^bohan-peter-1975-dm-criteria]: Bohan A, Peter JB. Polymyositis and dermatomyositis. *N Engl J Med.* 1975;292(7):344-347. [doi:10.1056/NEJM197502132920706](https://doi.org/10.1056/NEJM197502132920706) · [PubMed 1090839](https://pubmed.ncbi.nlm.nih.gov/1090839/)
 [^lundberg-2021-iim-classification]: Lundberg IE, et al. 2017 EULAR/ACR classification criteria for adult and juvenile idiopathic inflammatory myopathies. *Arthritis Rheumatol.* 2017;69(12):2271-2282. [doi:10.1002/art.40320](https://doi.org/10.1002/art.40320) · [PubMed 29106061](https://pubmed.ncbi.nlm.nih.gov/29106061/)
