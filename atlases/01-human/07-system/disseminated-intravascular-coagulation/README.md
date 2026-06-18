@@ -247,6 +247,15 @@ cross_links:
   - target: 01-human/07-system/heparin-induced-thrombocytopenia
     relation: connects-to
     note: "A paradoxical clotting comparator: like DIC, heparin-induced thrombocytopenia combines a falling platelet count with thrombosis, but through antibody-mediated platelet activation rather than consumption."
+  - target: 03-medicine/01-modern/13-cancer/cancer-chemotherapy
+    relation: connects-to
+    note: "Acute leukaemia both causes and cures it: acute promyelocytic leukaemia classically triggers life-threatening DIC, and treating it with ATRA and chemotherapy rapidly resolves the coagulopathy — while tumour lysis and other chemo can also provoke DIC."
+  - target: 01-human/05-tissue/hepatic-lobule
+    relation: connects-to
+    note: "The liver makes and loses the factors: DIC microthrombi injure the hepatic lobule, and because the liver synthesises clotting factors, hepatic failure both worsens and mimics the coagulopathy of DIC."
+  - target: 01-human/07-system/antiphospholipid-syndrome
+    relation: connects-to
+    note: "Catastrophic APS mimics it: catastrophic antiphospholipid syndrome causes widespread small-vessel thrombosis with consumption resembling DIC, a key differential demanding anticoagulation rather than factor replacement."
 ---
 
 # Disseminated Intravascular Coagulation
@@ -454,6 +463,9 @@ DIC is always **secondary** — it does not occur in isolation but as a conseque
 - `connects-to` → **[Staphylococcus aureus](../../../02-pathogen/02-bacteria/staphylococcus-aureus/README.md)** — Sepsis and toxic shock ignite it: Staphylococcus aureus bacteraemia and toxic-shock syndrome are major triggers of DIC, the bacterial sepsis driving uncontrolled coagulation.
 - `connects-to` → **[aHUS](../ahus/README.md)** — A thrombotic-microangiopathy to distinguish: DIC must be told apart from aHUS and TTP, which also consume platelets and shear red cells but spare the clotting factors that DIC depletes.
 - `connects-to` → **[Heparin-Induced Thrombocytopenia](../heparin-induced-thrombocytopenia/README.md)** — A paradoxical clotting comparator: like DIC, heparin-induced thrombocytopenia combines a falling platelet count with thrombosis, but through antibody-mediated platelet activation rather than consumption.
+- `connects-to` → **[Cancer Chemotherapy](../../../03-medicine/01-modern/13-cancer/cancer-chemotherapy/README.md)** — Acute leukaemia both causes and cures it: acute promyelocytic leukaemia classically triggers life-threatening DIC, and treating it with ATRA and chemotherapy rapidly resolves the coagulopathy — while tumour lysis and other chemo can also provoke DIC.
+- `connects-to` → **[Hepatic Lobule](../../05-tissue/hepatic-lobule/README.md)** — The liver makes and loses the factors: DIC microthrombi injure the hepatic lobule, and because the liver synthesises clotting factors, hepatic failure both worsens and mimics the coagulopathy of DIC.
+- `connects-to` → **[Antiphospholipid Syndrome](../antiphospholipid-syndrome/README.md)** — Catastrophic APS mimics it: catastrophic antiphospholipid syndrome causes widespread small-vessel thrombosis with consumption resembling DIC, a key differential demanding anticoagulation rather than factor replacement.
 
 ---
 

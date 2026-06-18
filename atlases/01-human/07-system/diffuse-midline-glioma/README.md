@@ -241,6 +241,15 @@ cross_links:
   - target: 03-medicine/01-modern/13-cancer/cancer-chemotherapy
     relation: connects-to
     note: "Conventional chemo barely helps: diffuse midline glioma is notoriously chemoresistant and the intact blood-brain barrier keeps drugs out, leaving radiation as the only standard treatment."
+  - target: 03-medicine/01-modern/13-cancer/checkpoint-inhibitors
+    relation: connects-to
+    note: "An immunologically cold tumour: diffuse midline glioma has a low mutational burden and sparse T-cell infiltrate in an immunosuppressed brain, so checkpoint inhibitors have shown little benefit, redirecting effort to engineered cell therapies."
+  - target: 01-human/05-tissue/axonal-transport
+    relation: connects-to
+    note: "It infiltrates along the white matter: diffuse midline glioma spreads diffusely through the pons and brainstem tracts rather than as a resectable mass, weaving among axons in a way that makes surgery impossible."
+  - target: 01-human/07-system/neuroblastoma
+    relation: connects-to
+    note: "A shared GD2 target: both diffuse midline glioma and neuroblastoma express the GD2 disialoganglioside, and GD2-directed CAR-T and antibody therapy developed for neuroblastoma now show promise against this glioma."
 ---
 
 # Diffuse Midline Glioma
@@ -454,6 +463,9 @@ Direct infusion of drugs into the pons via stereotactic catheter; bypasses BBB; 
 - `connects-to` → **[Targeted Therapy](../../../03-medicine/01-modern/13-cancer/targeted-therapy/README.md)** — Epigenetic and targeted drugs are the hope: ONC201/dordaviprone and agents aimed at the H3K27M-driven PRC2/EZH2 dysregulation are the leading experimental therapies for this otherwise untreatable tumour.
 - `connects-to` → **[CAR-T](../../../03-medicine/01-modern/13-cancer/car-t/README.md)** — Cell therapy enters the brainstem: GD2- and B7-H3-directed CAR-T cells have produced the first meaningful responses in H3K27M diffuse midline glioma, a landmark for solid-tumour cell therapy.
 - `connects-to` → **[Cancer Chemotherapy](../../../03-medicine/01-modern/13-cancer/cancer-chemotherapy/README.md)** — Conventional chemo barely helps: diffuse midline glioma is notoriously chemoresistant and the intact blood-brain barrier keeps drugs out, leaving radiation as the only standard treatment.
+- `connects-to` → **[Checkpoint Inhibitors](../../../03-medicine/01-modern/13-cancer/checkpoint-inhibitors/README.md)** — An immunologically cold tumour: diffuse midline glioma has a low mutational burden and sparse T-cell infiltrate in an immunosuppressed brain, so checkpoint inhibitors have shown little benefit, redirecting effort to engineered cell therapies.
+- `connects-to` → **[Axonal Transport](../../05-tissue/axonal-transport/README.md)** — It infiltrates along the white matter: diffuse midline glioma spreads diffusely through the pons and brainstem tracts rather than as a resectable mass, weaving among axons in a way that makes surgery impossible.
+- `connects-to` → **[Neuroblastoma](../neuroblastoma/README.md)** — A shared GD2 target: both diffuse midline glioma and neuroblastoma express the GD2 disialoganglioside, and GD2-directed CAR-T and antibody therapy developed for neuroblastoma now show promise against this glioma.
 
 ---
 
