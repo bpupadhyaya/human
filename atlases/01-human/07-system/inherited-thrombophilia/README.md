@@ -232,6 +232,15 @@ cross_links:
   - target: 01-human/07-system/lymphatic-system
     relation: connects-to
     note: "Chronic deep clots overwhelm lymph drainage: recurrent and post-thrombotic deep-vein obstruction outpaces lymphatic clearance, contributing to persistent limb swelling."
+  - target: 03-medicine/01-modern/09-hematology/warfarin
+    relation: connects-to
+    note: "Lifelong anticoagulation may be needed: those with recurrent venous thromboembolism from inherited thrombophilia often require long-term warfarin or a direct oral anticoagulant."
+  - target: 01-human/07-system/immune-system
+    relation: connects-to
+    note: "Inflammation and clotting intertwine: 'immunothrombosis' links infection and inflammation to the coagulation cascade, compounding the baseline risk of inherited thrombophilia."
+  - target: 01-human/07-system/musculoskeletal-system
+    relation: connects-to
+    note: "Surgery and immobility tip it over: major orthopaedic surgery, fractures and prolonged immobilisation are powerful thrombosis triggers that compound inherited thrombophilia, demanding prophylaxis."
 ---
 
 # Inherited Thrombophilia
@@ -462,6 +471,9 @@ Antithrombin (ATIII) is the primary plasma inhibitor of thrombin, FXa, FIXa, and
 - `connects-to` → **[Cardiovascular System](../cardiovascular-system/README.md)** — A venous clot can cross to the arteries: through a patent foramen ovale a clot can paradoxically embolise to cause arterial stroke or limb ischaemia, and large pulmonary emboli strain the right heart.
 - `connects-to` → **[Endocrine System](../endocrine-system/README.md)** — Oestrogen multiplies its danger: combined contraceptives, HRT and pregnancy sharply raise thrombosis risk in carriers, the key hormonal interaction guiding contraceptive and obstetric decisions.
 - `connects-to` → **[Lymphatic System](../lymphatic-system/README.md)** — Chronic deep clots overwhelm lymph drainage: recurrent and post-thrombotic deep-vein obstruction outpaces lymphatic clearance, contributing to persistent limb swelling.
+- `connects-to` → **[Warfarin](../../../03-medicine/01-modern/09-hematology/warfarin/README.md)** — Lifelong anticoagulation may be needed: those with recurrent venous thromboembolism from inherited thrombophilia often require long-term warfarin or a direct oral anticoagulant.
+- `connects-to` → **[Immune System](../immune-system/README.md)** — Inflammation and clotting intertwine: 'immunothrombosis' links infection and inflammation to the coagulation cascade, compounding the baseline risk of inherited thrombophilia.
+- `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — Surgery and immobility tip it over: major orthopaedic surgery, fractures and prolonged immobilisation are powerful thrombosis triggers that compound inherited thrombophilia, demanding prophylaxis.
 
 [^bertina-1994-factor-v-leiden]: Bertina RM, Koeleman BP, Koster T, et al. Mutation in blood coagulation factor V associated with resistance to activated protein C. *Nature.* 1994;369(6475):64-67. [doi:10.1038/369064a0](https://doi.org/10.1038/369064a0) · [PubMed 8164741](https://pubmed.ncbi.nlm.nih.gov/8164741/)
 [^dahlback-2008-protein-c-review]: Dahlbäck B. Advances in understanding pathogenic mechanisms of thrombophilic disorders. *Blood.* 2008;112(1):19-27. [doi:10.1182/blood-2008-01-077909](https://doi.org/10.1182/blood-2008-01-077909) · [PubMed 18574048](https://pubmed.ncbi.nlm.nih.gov/18574048/)

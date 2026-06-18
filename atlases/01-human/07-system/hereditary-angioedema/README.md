@@ -232,6 +232,15 @@ cross_links:
   - target: 01-human/07-system/multiple-myeloma
     relation: connects-to
     note: "Its acquired mimic flags a blood cancer: acquired C1-inhibitor deficiency, which mimics HAE, is associated with B-cell lymphoproliferative disorders and monoclonal gammopathy."
+  - target: 03-medicine/01-modern/13-cancer/targeted-therapy
+    relation: connects-to
+    note: "Modern prophylaxis is a targeted antibody: lanadelumab, a monoclonal antibody against plasma kallikrein, prevents the bradykinin-driven attacks of hereditary angioedema."
+  - target: 03-medicine/01-modern/04-cardio/arbs
+    relation: connects-to
+    note: "A cautious alternative to ACE inhibitors: angiotensin-receptor blockers are preferred over ACE inhibitors in hereditary angioedema, as ACE inhibition raises bradykinin and can precipitate severe attacks."
+  - target: 03-medicine/01-modern/02-respiratory/corticosteroids
+    relation: connects-to
+    note: "Allergy drugs do not work here: unlike histamine-mediated angioedema, the bradykinin-driven swelling of hereditary angioedema does not respond to corticosteroids, antihistamines or adrenaline — a crucial distinction."
 ---
 
 # Hereditary Angioedema
@@ -438,6 +447,9 @@ Fluid extravasation → ANGIOEDEMA
 - `connects-to` → **[ACE Inhibitors](../../../03-medicine/01-modern/04-cardio/ace-inhibitors/README.md)** — One drug class is forbidden: ACE inhibitors are contraindicated in HAE because they block the breakdown of bradykinin, the mediator of its swelling, and can precipitate severe attacks.
 - `connects-to` → **[Helicobacter pylori](../../../02-pathogen/02-bacteria/helicobacter-pylori/README.md)** — A stomach bug can stoke its attacks: Helicobacter pylori infection is associated with more frequent HAE attacks, and eradicating it can reduce attack frequency in some patients.
 - `connects-to` → **[Multiple Myeloma](../multiple-myeloma/README.md)** — Its acquired mimic flags a blood cancer: acquired C1-inhibitor deficiency, which mimics HAE, is associated with B-cell lymphoproliferative disorders and monoclonal gammopathy.
+- `connects-to` → **[Targeted Therapy](../../../03-medicine/01-modern/13-cancer/targeted-therapy/README.md)** — Modern prophylaxis is a targeted antibody: lanadelumab, a monoclonal antibody against plasma kallikrein, prevents the bradykinin-driven attacks of hereditary angioedema.
+- `connects-to` → **[ARBs](../../../03-medicine/01-modern/04-cardio/arbs/README.md)** — A cautious alternative to ACE inhibitors: angiotensin-receptor blockers are preferred over ACE inhibitors in hereditary angioedema, as ACE inhibition raises bradykinin and can precipitate severe attacks.
+- `connects-to` → **[Corticosteroids](../../../03-medicine/01-modern/02-respiratory/corticosteroids/README.md)** — Allergy drugs do not work here: unlike histamine-mediated angioedema, the bradykinin-driven swelling of hereditary angioedema does not respond to corticosteroids, antihistamines or adrenaline — a crucial distinction.
 
 [^cicardi-2010-icatibant-nejm]: Cicardi M, Banerji A, Bracho F, et al. Icatibant, a new bradykinin-receptor antagonist, in hereditary angioedema. *N Engl J Med.* 2010;363(6):532-541. [doi:10.1056/NEJMoa0906393](https://doi.org/10.1056/NEJMoa0906393) · [PubMed 20818873](https://pubmed.ncbi.nlm.nih.gov/20818873/)
 [^maurer-2018-lanadelumab-help]: Banerji A, Riedl MA, Bernstein JA, et al. Effect of lanadelumab compared with placebo on prevention of hereditary angioedema attacks. *JAMA.* 2018;320(20):2108-2121. [doi:10.1001/jama.2018.16773](https://doi.org/10.1001/jama.2018.16773) · [PubMed 30480729](https://pubmed.ncbi.nlm.nih.gov/30480729/)
