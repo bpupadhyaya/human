@@ -192,6 +192,15 @@ cross_links:
   - target: 01-human/07-system/epilepsy
     relation: connects-to
     note: "It can ignite seizures: epilepsy is a recognized feature, especially of juvenile Huntington's disease, reflecting the cortical involvement of its neurodegeneration."
+  - target: 01-human/07-system/respiratory-system
+    relation: connects-to
+    note: "Swallowing failure floods the lungs: progressive dysphagia and chorea of the swallowing muscles in Huntington's cause aspiration, and aspiration pneumonia is the leading cause of death."
+  - target: 01-human/07-system/endocrine-system
+    relation: connects-to
+    note: "It burns weight despite eating: Huntington's causes profound weight loss through a hypermetabolic state and hypothalamic dysfunction that also disrupts circadian and metabolic hormones."
+  - target: 01-human/07-system/gut-microbiome
+    relation: connects-to
+    note: "The gut-brain axis is disturbed: Huntington's disease is associated with gut dysbiosis that, through the gut-brain axis, may contribute to its weight loss and the progression of its symptoms."
 sources:
   - id: gusella-1983-htt-locus
     type: peer-reviewed
@@ -301,3 +310,6 @@ HD disrupts multiple neural circuit functions:
 - `connects-to` → **[Streptococcus pneumoniae](../../../02-pathogen/02-bacteria/streptococcus-pneumoniae/README.md)** — Chorea and dysphagia send food to the lungs: progressive swallowing failure in Huntington's causes aspiration, and the resulting pneumonia — often pneumococcal — is the leading cause of death.
 - `connects-to` → **[Wound Healing](../wound-healing/README.md)** — Involuntary movement and late immobility break the skin: chorea causes repeated minor trauma, and the bedbound, malnourished end stage of Huntington's predisposes to pressure ulcers that heal poorly.
 - `connects-to` → **[Epilepsy](../epilepsy/README.md)** — It can ignite seizures: epilepsy is a recognized feature, especially of juvenile Huntington's disease, reflecting the cortical involvement of its neurodegeneration.
+- `connects-to` → **[Respiratory System](../respiratory-system/README.md)** — Swallowing failure floods the lungs: progressive dysphagia and chorea of the swallowing muscles in Huntington's cause aspiration, and aspiration pneumonia is the leading cause of death.
+- `connects-to` → **[Endocrine System](../endocrine-system/README.md)** — It burns weight despite eating: Huntington's causes profound weight loss through a hypermetabolic state and hypothalamic dysfunction that also disrupts circadian and metabolic hormones.
+- `connects-to` → **[Gut Microbiome](../gut-microbiome/README.md)** — The gut-brain axis is disturbed: Huntington's disease is associated with gut dysbiosis that, through the gut-brain axis, may contribute to its weight loss and the progression of its symptoms.

@@ -205,6 +205,15 @@ cross_links:
   - target: 01-human/07-system/major-depressive-disorder
     relation: connects-to
     note: "A cancer of the young and its long survivorship weigh on mood: the diagnosis in young adults, intensive therapy and decades of late-effect surveillance contribute to depression in Hodgkin survivors."
+  - target: 01-human/07-system/respiratory-system
+    relation: connects-to
+    note: "Its drugs and bulk attack the lungs: bleomycin in ABVD causes pulmonary fibrosis, and a bulky mediastinal Hodgkin mass can compress the airway and superior vena cava."
+  - target: 01-human/07-system/endocrine-system
+    relation: connects-to
+    note: "Mantle radiation silences glands and gonads: neck radiotherapy for Hodgkin lymphoma causes late hypothyroidism, while chemotherapy and pelvic radiation impair fertility and gonadal function."
+  - target: 01-human/07-system/generalized-anxiety-disorder
+    relation: connects-to
+    note: "A young cancer with decades of late-effect risk breeds worry: the diagnosis in youth and the lifelong surveillance for second cancers and cardiac and lung damage foster chronic health anxiety."
 ---
 
 # Hodgkin Lymphoma
@@ -389,6 +398,9 @@ Modern protocols minimize RT fields and doses (ISRT replacing extended-field RT)
 - `connects-to` → **[Neuropathic Pain](../neuropathic-pain/README.md)** — Its chemo injures the nerves: the vinblastine in ABVD and brentuximab vedotin used for Hodgkin lymphoma cause a dose-limiting peripheral neuropathy with numbness and neuropathic pain.
 - `connects-to` → **[Aspergillus fumigatus](../../../02-pathogen/03-fungi/aspergillus-fumigatus/README.md)** — Chemotherapy opens the lung to mold: the neutropenia from Hodgkin-lymphoma chemotherapy, and bleomycin lung injury, can let inhaled Aspergillus invade as pulmonary aspergillosis.
 - `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — A cancer of the young and its long survivorship weigh on mood: the diagnosis in young adults, intensive therapy and decades of late-effect surveillance contribute to depression in Hodgkin survivors.
+- `connects-to` → **[Respiratory System](../respiratory-system/README.md)** — Its drugs and bulk attack the lungs: bleomycin in ABVD causes pulmonary fibrosis, and a bulky mediastinal Hodgkin mass can compress the airway and superior vena cava.
+- `connects-to` → **[Endocrine System](../endocrine-system/README.md)** — Mantle radiation silences glands and gonads: neck radiotherapy for Hodgkin lymphoma causes late hypothyroidism, while chemotherapy and pelvic radiation impair fertility and gonadal function.
+- `connects-to` → **[Generalized Anxiety Disorder](../generalized-anxiety-disorder/README.md)** — A young cancer with decades of late-effect risk breeds worry: the diagnosis in youth and the lifelong surveillance for second cancers and cardiac and lung damage foster chronic health anxiety.
 
 [^connors-2018-echelon1]: Connors JM, Jurczak W, Straus DJ, et al. Brentuximab vedotin with chemotherapy for stage III or IV Hodgkin's lymphoma. *N Engl J Med.* 2018;378(4):331-344. [doi:10.1056/NEJMoa1708984](https://doi.org/10.1056/NEJMoa1708984) · [PubMed 29360494](https://pubmed.ncbi.nlm.nih.gov/29360494/)
 [^armand-2018-nivo-hl]: Armand P, Engert A, Younes A, et al. Nivolumab for relapsed/refractory classic Hodgkin lymphoma after failure of autologous hematopoietic cell transplantation: extended follow-up of the multicohort single-arm phase II CheckMate 205 trial. *J Clin Oncol.* 2018;36(14):1428-1439. [doi:10.1200/JCO.2017.77.6717](https://doi.org/10.1200/JCO.2017.77.6717) · [PubMed 29584546](https://pubmed.ncbi.nlm.nih.gov/29584546/)
