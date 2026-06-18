@@ -214,6 +214,15 @@ cross_links:
   - target: 01-human/07-system/generalized-anxiety-disorder
     relation: connects-to
     note: "A rapidly fatal brain cancer breeds dread: the dismal prognosis, cognitive decline and steroid effects of glioblastoma foster intense anxiety in patients and families alongside depression."
+  - target: 01-human/07-system/immune-system
+    relation: connects-to
+    note: "It hides from the immune system: glioblastoma is profoundly immunosuppressive — an immunologically 'cold' tumour that resists checkpoint inhibitors — and the dexamethasone used for oedema further blunts immunity."
+  - target: 01-human/07-system/integumentary-system
+    relation: connects-to
+    note: "Treatment marks the scalp and skin: radiotherapy causes dermatitis and alopecia, dexamethasone thins the skin, and the tumour-treating-fields device causes scalp contact dermatitis."
+  - target: 01-human/07-system/musculoskeletal-system
+    relation: connects-to
+    note: "Its steroids waste the muscles: the prolonged high-dose dexamethasone used to control peritumoural oedema causes a proximal steroid myopathy and bone loss."
 ---
 
 # Glioblastoma
@@ -409,6 +418,9 @@ The blood-brain barrier (BBB) creates a pharmacological challenge:
 - `connects-to` → **[Endocrine System](../endocrine-system/README.md)** — Chronic dexamethasone disturbs the glands: the prolonged steroids used to control glioblastoma oedema cause steroid-induced diabetes and adrenal suppression, and tumours near the sella can damage the pituitary.
 - `connects-to` → **[Digestive System](../digestive-system/README.md)** — Its drugs trouble the gut: dexamethasone raises peptic-ulcer risk, temozolomide causes nausea and hepatotoxicity, and progressive disease can impair swallowing with aspiration.
 - `connects-to` → **[Generalized Anxiety Disorder](../generalized-anxiety-disorder/README.md)** — A rapidly fatal brain cancer breeds dread: the dismal prognosis, cognitive decline and steroid effects of glioblastoma foster intense anxiety in patients and families alongside depression.
+- `connects-to` → **[Immune System](../immune-system/README.md)** — It hides from the immune system: glioblastoma is profoundly immunosuppressive — an immunologically 'cold' tumour that resists checkpoint inhibitors — and the dexamethasone used for oedema further blunts immunity.
+- `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — Treatment marks the scalp and skin: radiotherapy causes dermatitis and alopecia, dexamethasone thins the skin, and the tumour-treating-fields device causes scalp contact dermatitis.
+- `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — Its steroids waste the muscles: the prolonged high-dose dexamethasone used to control peritumoural oedema causes a proximal steroid myopathy and bone loss.
 
 ---
 

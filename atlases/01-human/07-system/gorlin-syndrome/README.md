@@ -214,6 +214,15 @@ cross_links:
   - target: 01-human/07-system/cardiovascular-system
     relation: connects-to
     note: "It can grow a tumour in the heart: Gorlin syndrome causes cardiac fibromas that, beyond heart failure, can obstruct flow and trigger arrhythmias, requiring cardiac surveillance."
+  - target: 01-human/07-system/respiratory-system
+    relation: connects-to
+    note: "Radiation is hazardous to its chest: radiotherapy induces a shower of basal cell carcinomas in the field, so it is avoided where possible, and benign lung and pleural cysts occur in the syndrome."
+  - target: 01-human/07-system/renal-system
+    relation: connects-to
+    note: "It seeds cysts in the kidney: renal cysts and developmental renal-tract anomalies are among the structural malformations of Gorlin syndrome."
+  - target: 01-human/07-system/lymphatic-system
+    relation: connects-to
+    note: "It forms cysts in the mesentery: lymphatic and mesenteric cysts occur among the developmental anomalies of Gorlin syndrome alongside its many other lesions."
 ---
 
 # Gorlin Syndrome
@@ -390,6 +399,9 @@ Both are two-hit tumor suppressors: germline heterozygous LOF + somatic second h
 - `connects-to` → **[Digestive System](../digestive-system/README.md)** — It afflicts the jaws and its drug the gut: Gorlin syndrome causes recurrent odontogenic keratocysts of the jaws, and the hedgehog inhibitor vismodegib for multiple BCCs causes severe dysgeusia, nausea and weight loss.
 - `connects-to` → **[Endocrine System](../endocrine-system/README.md)** — Its targeted drug forbids use in children: the hedgehog-pathway inhibitor vismodegib used in Gorlin syndrome causes premature epiphyseal growth-plate fusion in children and amenorrhoea in women.
 - `connects-to` → **[Cardiovascular System](../cardiovascular-system/README.md)** — It can grow a tumour in the heart: Gorlin syndrome causes cardiac fibromas that, beyond heart failure, can obstruct flow and trigger arrhythmias, requiring cardiac surveillance.
+- `connects-to` → **[Respiratory System](../respiratory-system/README.md)** — Radiation is hazardous to its chest: radiotherapy induces a shower of basal cell carcinomas in the field, so it is avoided where possible, and benign lung and pleural cysts occur in the syndrome.
+- `connects-to` → **[Renal System](../renal-system/README.md)** — It seeds cysts in the kidney: renal cysts and developmental renal-tract anomalies are among the structural malformations of Gorlin syndrome.
+- `connects-to` → **[Lymphatic System](../lymphatic-system/README.md)** — It forms cysts in the mesentery: lymphatic and mesenteric cysts occur among the developmental anomalies of Gorlin syndrome alongside its many other lesions.
 
 ---
 
