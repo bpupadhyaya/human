@@ -212,6 +212,15 @@ cross_links:
   - target: 01-human/07-system/integumentary-system
     relation: connects-to
     note: "It drains the skin and shows there when it fails: dermal lymphatics clear fluid and immune cells from the skin, so lymphedema thickens and hardens it and breached skin lets lymphangitis track up the limb."
+  - target: 01-human/07-system/nervous-system
+    relation: connects-to
+    note: "The brain has its own drainage: the glymphatic system and newly-discovered meningeal lymphatic vessels clear cerebrospinal fluid and waste to cervical lymph nodes, linking the lymphatic and nervous systems."
+  - target: 01-human/07-system/endocrine-system
+    relation: connects-to
+    note: "The thymus is a lymphoid and endocrine organ: this primary lymphoid organ where T cells mature also secretes thymic hormones, sitting at the crossroads of the lymphatic and endocrine systems."
+  - target: 01-human/07-system/renal-system
+    relation: connects-to
+    note: "A hidden network drains the kidney: a rich renal lymphatic system clears interstitial fluid and protein from the kidney, and when overwhelmed it contributes to the oedema of nephrotic syndrome."
 ---
 
 # Lymphatic System
@@ -386,6 +395,9 @@ Enterocytes package dietary triglycerides + cholesterol + apoB-48 into chylomicr
 - `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — The skeleton houses its factory and its drainage burdens the limbs: bone marrow is the primary lymphoid organ that makes lymphocytes, and limb lymphatics, when they fail, swell the soft tissues with lymphedema.
 - `connects-to` → **[Respiratory System](../respiratory-system/README.md)** — The chest holds its great vessel: the thoracic duct returns lymph to the bloodstream in the chest, so its injury causes chylothorax, and pulmonary lymphatics clear the lung's interstitial fluid.
 - `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — It drains the skin and shows there when it fails: dermal lymphatics clear fluid and immune cells from the skin, so lymphedema thickens and hardens it and breached skin lets lymphangitis track up the limb.
+- `connects-to` → **[Nervous System](../nervous-system/README.md)** — The brain has its own drainage: the glymphatic system and newly-discovered meningeal lymphatic vessels clear cerebrospinal fluid and waste to cervical lymph nodes, linking the lymphatic and nervous systems.
+- `connects-to` → **[Endocrine System](../endocrine-system/README.md)** — The thymus is a lymphoid and endocrine organ: this primary lymphoid organ where T cells mature also secretes thymic hormones, sitting at the crossroads of the lymphatic and endocrine systems.
+- `connects-to` → **[Renal System](../renal-system/README.md)** — A hidden network drains the kidney: a rich renal lymphatic system clears interstitial fluid and protein from the kidney, and when overwhelmed it contributes to the oedema of nephrotic syndrome.
 
 ## Pathology
 
