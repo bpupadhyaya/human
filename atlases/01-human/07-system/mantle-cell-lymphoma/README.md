@@ -214,6 +214,15 @@ cross_links:
   - target: 01-human/07-system/generalized-anxiety-disorder
     relation: connects-to
     note: "An aggressive, incurable, relapsing lymphoma breeds worry: the poor prognosis, intensive therapy and inevitable relapse of mantle cell lymphoma foster chronic health anxiety alongside depression."
+  - target: 01-human/07-system/musculoskeletal-system
+    relation: connects-to
+    note: "It fills the marrow at diagnosis: mantle cell lymphoma almost always involves the bone marrow, causing cytopenias, and the ibrutinib used to treat it commonly causes arthralgia."
+  - target: 01-human/07-system/renal-system
+    relation: connects-to
+    note: "Its high tumour burden floods the kidney: the bulky disease of mantle cell lymphoma risks tumour lysis syndrome with acute kidney injury when treatment begins."
+  - target: 01-human/07-system/respiratory-system
+    relation: connects-to
+    note: "It crowds and exposes the chest: mediastinal and pulmonary nodal disease can cause effusions, and the BTK-inhibitor therapy raises the risk of pneumonia and fungal infection."
 ---
 
 # Mantle Cell Lymphoma
@@ -401,6 +410,9 @@ For SOX11−, mutated IGHV, non-bulky, asymptomatic nnMCL: Observation is safe; 
 - `connects-to` → **[Cardiovascular System](../cardiovascular-system/README.md)** — Its BTK inhibitors strain the heart: ibrutinib used for mantle cell lymphoma causes atrial fibrillation, hypertension and bleeding, the main cardiovascular toxicities of BTK-inhibitor therapy.
 - `connects-to` → **[Nervous System](../nervous-system/README.md)** — CAR-T and CNS spread reach the brain: mantle cell lymphoma can involve the central nervous system, and the CAR-T cell therapy used for relapsed disease causes immune-effector neurotoxicity (ICANS).
 - `connects-to` → **[Generalized Anxiety Disorder](../generalized-anxiety-disorder/README.md)** — An aggressive, incurable, relapsing lymphoma breeds worry: the poor prognosis, intensive therapy and inevitable relapse of mantle cell lymphoma foster chronic health anxiety alongside depression.
+- `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — It fills the marrow at diagnosis: mantle cell lymphoma almost always involves the bone marrow, causing cytopenias, and the ibrutinib used to treat it commonly causes arthralgia.
+- `connects-to` → **[Renal System](../renal-system/README.md)** — Its high tumour burden floods the kidney: the bulky disease of mantle cell lymphoma risks tumour lysis syndrome with acute kidney injury when treatment begins.
+- `connects-to` → **[Respiratory System](../respiratory-system/README.md)** — It crowds and exposes the chest: mediastinal and pulmonary nodal disease can cause effusions, and the BTK-inhibitor therapy raises the risk of pneumonia and fungal infection.
 
 ---
 

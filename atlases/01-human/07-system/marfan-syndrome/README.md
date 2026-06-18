@@ -214,6 +214,15 @@ cross_links:
   - target: 01-human/07-system/endocrine-system
     relation: connects-to
     note: "Its protective therapy works through a hormone axis: losartan and other ARBs used to slow aortic growth in Marfan block the angiotensin II of the renin-angiotensin endocrine system, dampening TGF-β signalling."
+  - target: 01-human/07-system/immune-system
+    relation: connects-to
+    note: "Its defect unleashes a regulatory cytokine: fibrillin-1 normally sequesters TGF-β in the matrix, so its deficiency releases excess TGF-β — a key immunoregulatory growth factor — that drives the tissue weakening of Marfan."
+  - target: 02-pathogen/02-bacteria/staphylococcus-aureus
+    relation: connects-to
+    note: "Its valves and grafts invite infection: damaged valves and prosthetic aortic grafts after surgery raise the risk of infective endocarditis, classically from Staphylococcus aureus and viridans streptococci."
+  - target: 03-medicine/01-modern/04-cardio/beta-blockers
+    relation: connects-to
+    note: "Beta-blockers protect its aorta: by lowering heart rate and the force of ejection, beta-blockers reduce aortic wall stress and slow aneurysm growth, a mainstay of Marfan management alongside ARBs."
 ---
 
 # Marfan Syndrome
@@ -418,6 +427,9 @@ MFS is a **multi-system disorder** defined by cardiovascular, ocular, and skelet
 - `connects-to` → **[Digestive System](../digestive-system/README.md)** — Weak connective tissue herniates and tears: Marfan brings recurrent inguinal and incisional hernias, and an aortic dissection that extends to the mesenteric arteries can starve the bowel of blood.
 - `connects-to` → **[Renal System](../renal-system/README.md)** — Aortic dissection threatens the kidneys: a dissection extending along the aorta can occlude a renal artery, causing renal malperfusion and acute kidney injury, a feared complication in Marfan.
 - `connects-to` → **[Endocrine System](../endocrine-system/README.md)** — Its protective therapy works through a hormone axis: losartan and other ARBs used to slow aortic growth in Marfan block the angiotensin II of the renin-angiotensin endocrine system, dampening TGF-β signalling.
+- `connects-to` → **[Immune System](../immune-system/README.md)** — Its defect unleashes a regulatory cytokine: fibrillin-1 normally sequesters TGF-β in the matrix, so its deficiency releases excess TGF-β — a key immunoregulatory growth factor — that drives the tissue weakening of Marfan.
+- `connects-to` → **[Staphylococcus aureus](../../../02-pathogen/02-bacteria/staphylococcus-aureus/README.md)** — Its valves and grafts invite infection: damaged valves and prosthetic aortic grafts after surgery raise the risk of infective endocarditis, classically from Staphylococcus aureus and viridans streptococci.
+- `connects-to` → **[Beta-Blockers](../../../03-medicine/01-modern/04-cardio/beta-blockers/README.md)** — Beta-blockers protect its aorta: by lowering heart rate and the force of ejection, beta-blockers reduce aortic wall stress and slow aneurysm growth, a mainstay of Marfan management alongside ARBs.
 
 ---
 
