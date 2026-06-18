@@ -237,6 +237,15 @@ cross_links:
   - target: 01-human/04-cellular/mast-cell
     relation: connects-to
     note: "They loosen the blood-brain barrier: mast-cell activation during West Nile infection releases chymase and vasoactive mediators that increase vascular permeability, helping the virus cross into the brain."
+  - target: 02-pathogen/06-environmental/zoonosis
+    relation: connects-to
+    note: "A bird-and-mosquito zoonosis: West Nile virus cycles between birds and Culex mosquitoes, with humans and horses dead-end hosts infected by the bite — a One Health problem driven by climate and bird migration."
+  - target: 01-human/05-tissue/axonal-transport
+    relation: connects-to
+    note: "It paralyses like polio: West Nile virus has a tropism for spinal anterior-horn motor neurons, and the resulting axonal injury causes an acute asymmetric flaccid paralysis indistinguishable from poliomyelitis."
+  - target: 01-human/05-tissue/hippocampus
+    relation: connects-to
+    note: "It scars memory: neuroinvasive West Nile encephalitis injures deep brain structures including the hippocampus, leaving many survivors with lasting memory, cognitive and fatigue problems after the acute illness."
 ---
 
 # West Nile Virus
@@ -430,3 +439,6 @@ WNV has evolved a multilayered strategy to evade innate immunity:
 - `connects-to` → **[Renal System](../renal-system/README.md)** — It can persist in and injure the kidney: West Nile virus RNA can be shed in urine and persist in renal tissue for years, and severe infection causes acute kidney injury.
 - `connects-to` → **[Zika Virus](../../../02-pathogen/01-viruses/zika-virus/README.md)** — A neurotropic flavivirus cousin: Zika, like West Nile, is a mosquito-borne flavivirus that crosses into the nervous system and placenta, sharing antibody cross-reactivity that complicates serological diagnosis.
 - `connects-to` → **[Mast Cell](../../04-cellular/mast-cell/README.md)** — They loosen the blood-brain barrier: mast-cell activation during West Nile infection releases chymase and vasoactive mediators that increase vascular permeability, helping the virus cross into the brain.
+- `connects-to` → **[Zoonosis](../../../02-pathogen/06-environmental/zoonosis/README.md)** — A bird-and-mosquito zoonosis: West Nile virus cycles between birds and Culex mosquitoes, with humans and horses dead-end hosts infected by the bite — a One Health problem driven by climate and bird migration.
+- `connects-to` → **[Axonal Transport](../../05-tissue/axonal-transport/README.md)** — It paralyses like polio: West Nile virus has a tropism for spinal anterior-horn motor neurons, and the resulting axonal injury causes an acute asymmetric flaccid paralysis indistinguishable from poliomyelitis.
+- `connects-to` → **[Hippocampus](../../05-tissue/hippocampus/README.md)** — It scars memory: neuroinvasive West Nile encephalitis injures deep brain structures including the hippocampus, leaving many survivors with lasting memory, cognitive and fatigue problems after the acute illness.

@@ -235,6 +235,15 @@ cross_links:
   - target: 03-medicine/01-modern/13-cancer/cancer-chemotherapy
     relation: connects-to
     note: "Chemoimmunotherapy remains a backbone: bendamustine combined with rituximab is a standard frontline regimen for symptomatic Waldenström macroglobulinaemia, alongside the newer targeted agents."
+  - target: 01-human/05-tissue/germinal-center
+    relation: connects-to
+    note: "Born of the germinal-centre reaction: Waldenström cells are post-germinal-centre memory B cells carrying somatic hypermutation and the MYD88 L265P mutation, frozen midway between B cell and plasma cell as they secrete monoclonal IgM."
+  - target: 01-human/05-tissue/glomerulus
+    relation: connects-to
+    note: "Monoclonal IgM injures the kidney: type I cryoglobulinaemia and IgM deposition from Waldenström's can cause a membranoproliferative glomerulonephritis, and rarely IgM casts, spilling protein and blood into the urine."
+  - target: 01-human/07-system/sjogrens-syndrome
+    relation: connects-to
+    note: "Autoimmunity can seed it: chronic B-cell stimulation in Sjögren's syndrome raises the risk of lymphoplasmacytic and marginal-zone lymphomas, the same indolent B-cell malignancies that include Waldenström's macroglobulinaemia."
 ---
 
 # Waldenström Macroglobulinemia
@@ -425,6 +434,9 @@ For symptomatic hyperviscosity → removes IgM immediately; does not treat under
 - `connects-to` → **[Targeted Therapy](../../../03-medicine/01-modern/13-cancer/targeted-therapy/README.md)** — Precision drugs define modern care: BTK inhibitors (ibrutinib, zanubrutinib) exploit the MYD88 L265P mutation, and BCL-2 inhibitors add to them, transforming treatment of Waldenström macroglobulinaemia.
 - `connects-to` → **[Hepatitis C Virus](../../../02-pathogen/01-viruses/hepatitis-c-virus/README.md)** — A virus that can seed the clone: chronic hepatitis C drives B-cell lymphoproliferation and cryoglobulinaemia, and is an associated antigenic trigger in a subset of IgM-secreting lymphomas like WM.
 - `connects-to` → **[Cancer Chemotherapy](../../../03-medicine/01-modern/13-cancer/cancer-chemotherapy/README.md)** — Chemoimmunotherapy remains a backbone: bendamustine combined with rituximab is a standard frontline regimen for symptomatic Waldenström macroglobulinaemia, alongside the newer targeted agents.
+- `connects-to` → **[Germinal Center](../../05-tissue/germinal-center/README.md)** — Born of the germinal-centre reaction: Waldenström cells are post-germinal-centre memory B cells carrying somatic hypermutation and the MYD88 L265P mutation, frozen midway between B cell and plasma cell as they secrete monoclonal IgM.
+- `connects-to` → **[Glomerulus](../../05-tissue/glomerulus/README.md)** — Monoclonal IgM injures the kidney: type I cryoglobulinaemia and IgM deposition from Waldenström's can cause a membranoproliferative glomerulonephritis, and rarely IgM casts, spilling protein and blood into the urine.
+- `connects-to` → **[Sjögren's Syndrome](../sjogrens-syndrome/README.md)** — Autoimmunity can seed it: chronic B-cell stimulation in Sjögren's syndrome raises the risk of lymphoplasmacytic and marginal-zone lymphomas, the same indolent B-cell malignancies that include Waldenström's macroglobulinaemia.
 
 [^treon-2015-ibrutinib-wm]: Treon SP, Tripsas CK, Meid K, et al. Ibrutinib in previously treated Waldenström's macroglobulinemia. *N Engl J Med.* 2015;373(18):1765-1774. [doi:10.1056/NEJMoa1501548](https://doi.org/10.1056/NEJMoa1501548) · [PubMed 26352686](https://pubmed.ncbi.nlm.nih.gov/26352686/)
 [^tam-2020-aspen]: Tam CS, Opat S, D'Sa S, et al. A randomized phase 3 trial of zanubrutinib vs ibrutinib in symptomatic Waldenström macroglobulinemia: the ASPEN study. *Blood.* 2020;136(18):2038-2050. [doi:10.1182/blood.2020006844](https://doi.org/10.1182/blood.2020006844) · [PubMed 32828187](https://pubmed.ncbi.nlm.nih.gov/32828187/)
