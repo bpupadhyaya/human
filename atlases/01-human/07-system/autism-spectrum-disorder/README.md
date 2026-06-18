@@ -238,6 +238,15 @@ cross_links:
   - target: 03-medicine/03-food/omega-3-fatty-acids
     relation: connects-to
     note: "Diet draws research interest: omega-3 supplementation has been trialled for autism symptoms, but the evidence remains weak and it is not an established treatment."
+  - target: 02-pathogen/01-viruses/herpesvirus
+    relation: connects-to
+    note: "A congenital infection that raises risk: maternal cytomegalovirus and other congenital infections are established environmental risk factors for autism, acting through fetal neuroinflammation."
+  - target: 01-human/02-atomic/copper
+    relation: connects-to
+    note: "A trace-metal imbalance is described: altered copper-to-zinc ratios are reported in autism, with relative copper excess and zinc deficiency linked to oxidative stress in the developing brain."
+  - target: 03-medicine/03-food/sulforaphane
+    relation: connects-to
+    note: "A food compound with a trial behind it: a randomised trial found broccoli-derived sulforaphane modestly improved behaviour in autism, proposed to act by reducing oxidative stress and inflammation."
 ---
 
 # Autism Spectrum Disorder
@@ -448,6 +457,9 @@ The neural basis of ASD social deficits involves dysfunction of the **social bra
 - `connects-to` → **[Influenza A](../../../02-pathogen/01-viruses/influenza-a/README.md)** — Maternal infection raises the odds: severe maternal influenza and prolonged fever in pregnancy are linked to higher autism risk, an example of the maternal-immune-activation hypothesis of neurodevelopment.
 - `connects-to` → **[Measles virus](../../../02-pathogen/01-viruses/measles-virus/README.md)** — The MMR-autism scare was fraudulent: the claim linking measles vaccination to autism was retracted and disproven, and large studies show no association — vaccination does not cause autism.
 - `connects-to` → **[Omega-3 fatty acids](../../../03-medicine/03-food/omega-3-fatty-acids/README.md)** — Diet draws research interest: omega-3 supplementation has been trialled for autism symptoms, but the evidence remains weak and it is not an established treatment.
+- `connects-to` → **[Herpesviridae](../../../02-pathogen/01-viruses/herpesvirus/README.md)** — A congenital infection that raises risk: maternal cytomegalovirus and other congenital infections are established environmental risk factors for autism, acting through fetal neuroinflammation.
+- `connects-to` → **[Copper](../../02-atomic/copper/README.md)** — A trace-metal imbalance is described: altered copper-to-zinc ratios are reported in autism, with relative copper excess and zinc deficiency linked to oxidative stress in the developing brain.
+- `connects-to` → **[Sulforaphane](../../../03-medicine/03-food/sulforaphane/README.md)** — A food compound with a trial behind it: a randomised trial found broccoli-derived sulforaphane modestly improved behaviour in autism, proposed to act by reducing oxidative stress and inflammation.
 
 [^maenner-2023-asd-prevalence]: Maenner MJ, Warren Z, Williams AR, et al. Prevalence and characteristics of autism spectrum disorder among children aged 8 years — ADDM Network, 2020. *MMWR Surveill Summ.* 2023;72(2):1-14. [doi:10.15585/mmwr.ss7202a1](https://doi.org/10.15585/mmwr.ss7202a1) · [PubMed 36952216](https://pubmed.ncbi.nlm.nih.gov/36952216/)
 [^lord-2020-asd-review]: Lord C, Elsabbagh M, Baird G, Veenstra-Vanderweele J. Autism spectrum disorder. *Lancet.* 2018;392(10146):508-520. [doi:10.1016/S0140-6736(18)31129-2](https://doi.org/10.1016/S0140-6736(18)31129-2) · [PubMed 30078460](https://pubmed.ncbi.nlm.nih.gov/30078460/)
