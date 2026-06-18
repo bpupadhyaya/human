@@ -244,6 +244,15 @@ cross_links:
   - target: 02-pathogen/02-bacteria/listeria-monocytogenes
     relation: connects-to
     note: "A cause in the vulnerable: Listeria monocytogenes causes sepsis and meningitis in neonates, pregnant women, the elderly and the immunosuppressed, requiring ampicillin rather than the usual empiric cover."
+  - target: 01-human/05-tissue/myocardium
+    relation: connects-to
+    note: "It stuns the heart muscle: septic cardiomyopathy is a reversible depression of myocardial contractility from circulating cytokines and mitochondrial dysfunction, raising troponin and worsening the shock."
+  - target: 01-human/05-tissue/alveolus
+    relation: connects-to
+    note: "It floods the air sacs: sepsis is the commonest cause of ARDS, where inflammation damages the alveolar-capillary barrier, flooding the alveoli with protein-rich fluid and crippling gas exchange."
+  - target: 01-human/05-tissue/hepatic-lobule
+    relation: connects-to
+    note: "It injures the liver lobule: hypoperfusion and inflammation in sepsis cause 'shock liver' (ischaemic hepatitis) and cholestasis of sepsis, damaging the centrilobular hepatocytes and spiking transaminases."
 ---
 
 # Sepsis
@@ -425,6 +434,9 @@ Sepsis is not localized to one system — it manifests as dysfunction across mul
 - `connects-to` → **[Corticosteroids](../../../03-medicine/01-modern/02-respiratory/corticosteroids/README.md)** — A rescue for refractory shock: low-dose hydrocortisone is added in septic shock that stays hypotensive despite fluids and vasopressors, shortening the time to shock reversal.
 - `connects-to` → **[Norepinephrine](../../03-molecular/norepinephrine/README.md)** — The first-line vasopressor: noradrenaline is the initial drug to restore blood pressure in septic shock, raising vascular tone when sepsis causes profound vasodilation.
 - `connects-to` → **[Listeria monocytogenes](../../../02-pathogen/02-bacteria/listeria-monocytogenes/README.md)** — A cause in the vulnerable: Listeria monocytogenes causes sepsis and meningitis in neonates, pregnant women, the elderly and the immunosuppressed, requiring ampicillin rather than the usual empiric cover.
+- `connects-to` → **[Myocardium](../../05-tissue/myocardium/README.md)** — It stuns the heart muscle: septic cardiomyopathy is a reversible depression of myocardial contractility from circulating cytokines and mitochondrial dysfunction, raising troponin and worsening the shock.
+- `connects-to` → **[Alveolus](../../05-tissue/alveolus/README.md)** — It floods the air sacs: sepsis is the commonest cause of ARDS, where inflammation damages the alveolar-capillary barrier, flooding the alveoli with protein-rich fluid and crippling gas exchange.
+- `connects-to` → **[Hepatic Lobule](../../05-tissue/hepatic-lobule/README.md)** — It injures the liver lobule: hypoperfusion and inflammation in sepsis cause 'shock liver' (ischaemic hepatitis) and cholestasis of sepsis, damaging the centrilobular hepatocytes and spiking transaminases.
 - `treated-by` → **[Vancomycin](../../../03-medicine/01-modern/06-antimicrobial/vancomycin/README.md)** — First-line empiric IV therapy for MRSA bacteremia and gram-positive sepsis; added to beta-lactam empiric regimens when MRSA risk is elevated; AUC/MIC-guided dosing (IDSA 2021); MIC ≤1 mg/L required for endocarditis; daptomycin alternative for high MIC.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*

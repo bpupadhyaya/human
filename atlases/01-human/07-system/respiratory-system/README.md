@@ -243,6 +243,15 @@ cross_links:
   - target: 03-medicine/01-modern/04-cardio/ace-inhibitors
     relation: connects-to
     note: "A heart drug heard in the chest: ACE inhibitors raise bradykinin in the airway, causing the dry cough and rare angioedema that are among the commonest reasons patients stop them."
+  - target: 01-human/05-tissue/lung-slice
+    relation: connects-to
+    note: "The working tissue of breathing: the lung's conducting airways and alveolar parenchyma — seen on a lung slice — humidify, conduct and exchange air, the tissue-level substrate of every respiratory disease from asthma to fibrosis."
+  - target: 03-medicine/01-modern/13-cancer/targeted-therapy
+    relation: connects-to
+    note: "Biologics and TKIs target the airway: anti-IL-5/IL-4 monoclonals control severe asthma while EGFR, ALK and checkpoint therapies treat lung cancer — precision drugs reshaping respiratory medicine."
+  - target: 03-medicine/01-modern/13-cancer/cancer-chemotherapy
+    relation: connects-to
+    note: "It treats and it scars the lung: cytotoxic chemotherapy is central to lung cancer, yet agents like bleomycin and methotrexate cause drug-induced pneumonitis and pulmonary fibrosis, a toxicity unique to the respiratory system."
 taxonomy:
   uberon: "UBERON:0001004"
   fma: "FMA:7161"
@@ -399,6 +408,9 @@ The mucociliary escalator (ciliated cells + goblet cell mucus) continuously clea
 - **Connects-to** → [Staphylococcus aureus](../../../02-pathogen/02-bacteria/staphylococcus-aureus/README.md): A major cause of pneumonia: Staphylococcus aureus, including MRSA, causes severe necrotising and post-influenza pneumonia and is a leading organism in ventilator-associated lung infection.
 - **Connects-to** → [Vitamin D](../../../03-medicine/03-food/vitamin-d/README.md): Nutrition shapes lung defence: vitamin D supports airway immunity, and deficiency is associated with more frequent respiratory infections and worse asthma control.
 - **Connects-to** → [ACE Inhibitors](../../../03-medicine/01-modern/04-cardio/ace-inhibitors/README.md): A heart drug heard in the chest: ACE inhibitors raise bradykinin in the airway, causing the dry cough and rare angioedema that are among the commonest reasons patients stop them.
+- **Connects-to** → [Lung Slice](../../05-tissue/lung-slice/README.md): The working tissue of breathing: the lung's conducting airways and alveolar parenchyma — seen on a lung slice — humidify, conduct and exchange air, the tissue-level substrate of every respiratory disease from asthma to fibrosis.
+- **Connects-to** → [Targeted Therapy](../../../03-medicine/01-modern/13-cancer/targeted-therapy/README.md): Biologics and TKIs target the airway: anti-IL-5/IL-4 monoclonals control severe asthma while EGFR, ALK and checkpoint therapies treat lung cancer — precision drugs reshaping respiratory medicine.
+- **Connects-to** → [Cancer Chemotherapy](../../../03-medicine/01-modern/13-cancer/cancer-chemotherapy/README.md): It treats and it scars the lung: cytotoxic chemotherapy is central to lung cancer, yet agents like bleomycin and methotrexate cause drug-induced pneumonitis and pulmonary fibrosis, a toxicity unique to the respiratory system.
 - `prevented-by` → **[PCV13 (Prevnar 13)](../../../../04-vaccine/08-conjugate/pcv13/README.md)** — CAPiTA RCT (N=84,496 adults ≥65): PCV13 achieved 45.6% VE against vaccine-type CAP and 75% VE against invasive pneumococcal disease; prevents pneumococcal pneumonia, the leading infectious cause of respiratory hospitalisation in older adults.
 
 ## Pathology
