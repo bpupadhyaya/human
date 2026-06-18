@@ -217,6 +217,15 @@ cross_links:
   - target: 01-human/07-system/integumentary-system
     relation: connects-to
     note: "Old clots scar the skin: post-thrombotic syndrome after a DVT causes chronic venous stasis with pigmentation and leg ulcers, and warfarin can rarely cause acute skin necrosis."
+  - target: 01-human/07-system/cardiovascular-system
+    relation: connects-to
+    note: "A large clot can stop the heart: massive pulmonary embolism causes acute right-heart strain and obstructive shock, and via a patent foramen ovale a venous clot can cause paradoxical arterial embolism."
+  - target: 01-human/07-system/nervous-system
+    relation: connects-to
+    note: "Clots strike the brain's veins too: cerebral venous sinus thrombosis is venous thromboembolism within the skull, causing headache, seizures and raised intracranial pressure."
+  - target: 01-human/07-system/endocrine-system
+    relation: connects-to
+    note: "Hormones tip the balance toward clotting: oestrogen in combined contraceptives and HRT, and cortisol excess, raise clotting factors and are major hormonal drivers of venous thromboembolism."
 ---
 
 # Venous Thromboembolism
@@ -402,6 +411,9 @@ cross_links:
 - `connects-to` → **[Respiratory System](../respiratory-system/README.md)** — Half of it lands in the lungs: a deep-vein clot that breaks loose travels to the pulmonary arteries as pulmonary embolism, abruptly blocking gas exchange and straining the right heart, the lethal face of VTE.
 - `connects-to` → **[Digestive System](../digestive-system/README.md)** — It clots the gut's veins and its drugs bleed it: VTE includes splanchnic, portal and mesenteric vein thrombosis threatening the bowel, while the anticoagulants treating it raise the risk of GI haemorrhage.
 - `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — Old clots scar the skin: post-thrombotic syndrome after a DVT causes chronic venous stasis with pigmentation and leg ulcers, and warfarin can rarely cause acute skin necrosis.
+- `connects-to` → **[Cardiovascular System](../cardiovascular-system/README.md)** — A large clot can stop the heart: massive pulmonary embolism causes acute right-heart strain and obstructive shock, and via a patent foramen ovale a venous clot can cause paradoxical arterial embolism.
+- `connects-to` → **[Nervous System](../nervous-system/README.md)** — Clots strike the brain's veins too: cerebral venous sinus thrombosis is venous thromboembolism within the skull, causing headache, seizures and raised intracranial pressure.
+- `connects-to` → **[Endocrine System](../endocrine-system/README.md)** — Hormones tip the balance toward clotting: oestrogen in combined contraceptives and HRT, and cortisol excess, raise clotting factors and are major hormonal drivers of venous thromboembolism.
 
 [^agnelli-2013-amplify-apixaban-vte]: Agnelli G, Buller HR, Cohen A, et al. Oral apixaban for the treatment of acute venous thromboembolism. *N Engl J Med.* 2013;369(9):799-808. [doi:10.1056/NEJMoa1302507](https://doi.org/10.1056/NEJMoa1302507) · [PubMed 23808982](https://pubmed.ncbi.nlm.nih.gov/23808982/)
 [^bauersachs-2010-einstein-rivaroxaban]: EINSTEIN Investigators. Oral rivaroxaban for symptomatic venous thromboembolism. *N Engl J Med.* 2010;363(26):2499-2510. [doi:10.1056/NEJMoa1007903](https://doi.org/10.1056/NEJMoa1007903) · [PubMed 21128814](https://pubmed.ncbi.nlm.nih.gov/21128814/)

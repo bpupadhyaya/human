@@ -216,6 +216,15 @@ cross_links:
   - target: 01-human/07-system/generalized-anxiety-disorder
     relation: connects-to
     note: "A lifelong transfusion-dependent disease breeds worry: the endless transfusions, iron-chelation burden and inherited nature of thalassemia foster chronic health anxiety alongside depression."
+  - target: 01-human/07-system/cardiovascular-system
+    relation: connects-to
+    note: "Iron poisons the heart: transfusional iron overload deposits in the myocardium, causing a cardiomyopathy and arrhythmias that are the leading cause of death in thalassemia major."
+  - target: 01-human/07-system/lymphatic-system
+    relation: connects-to
+    note: "It swells the spleen: extramedullary haematopoiesis and ongoing red-cell destruction cause massive splenomegaly, often requiring splenectomy that then raises infection risk."
+  - target: 01-human/07-system/nervous-system
+    relation: connects-to
+    note: "Blood-making can compress the cord: paraspinal masses of extramedullary haematopoiesis in thalassemia can grow into the spinal canal and cause cord compression."
 ---
 
 # Thalassemia
@@ -426,6 +435,9 @@ Untransfused or undertransfused β-thal major:
 - `connects-to` → **[Digestive System](../digestive-system/README.md)** — Iron overload and haemolysis hit the gut organs: transfusional iron scars the liver toward cirrhosis, chronic haemolysis forms pigment gallstones, and extramedullary haematopoiesis enlarges the spleen and liver.
 - `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — Iron and anaemia mark the skin: transfusional iron overload bronzes the skin like haemochromatosis, and chronic anaemia and poor perfusion cause leg ulcers over the ankles.
 - `connects-to` → **[Generalized Anxiety Disorder](../generalized-anxiety-disorder/README.md)** — A lifelong transfusion-dependent disease breeds worry: the endless transfusions, iron-chelation burden and inherited nature of thalassemia foster chronic health anxiety alongside depression.
+- `connects-to` → **[Cardiovascular System](../cardiovascular-system/README.md)** — Iron poisons the heart: transfusional iron overload deposits in the myocardium, causing a cardiomyopathy and arrhythmias that are the leading cause of death in thalassemia major.
+- `connects-to` → **[Lymphatic System](../lymphatic-system/README.md)** — It swells the spleen: extramedullary haematopoiesis and ongoing red-cell destruction cause massive splenomegaly, often requiring splenectomy that then raises infection risk.
+- `connects-to` → **[Nervous System](../nervous-system/README.md)** — Blood-making can compress the cord: paraspinal masses of extramedullary haematopoiesis in thalassemia can grow into the spinal canal and cause cord compression.
 
 [^weatherall-2008-thalassemia-review]: Weatherall DJ. The inherited diseases of hemoglobin are an emerging global health burden. *Blood.* 2010;115(22):4331-4336. [doi:10.1182/blood-2010-01-251348](https://doi.org/10.1182/blood-2010-01-251348) · [PubMed 20233970](https://pubmed.ncbi.nlm.nih.gov/20233970/)
 [^cappellini-2014-thalassemia-guidelines]: Cappellini MD, Cohen A, Porter J, et al. (eds). Guidelines for the Management of Transfusion Dependent Thalassaemia (TDT). 3rd ed. Thalassaemia International Federation; 2014.
