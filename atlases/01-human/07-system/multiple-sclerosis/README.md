@@ -226,6 +226,15 @@ cross_links:
   - target: 01-human/07-system/integumentary-system
     relation: connects-to
     note: "Immobility and injections mark the skin: pressure sores arise with reduced mobility, while injectable disease-modifying therapies cause injection-site reactions and lipoatrophy."
+  - target: 01-human/07-system/endocrine-system
+    relation: connects-to
+    note: "Its strong therapies disturb hormones: alemtuzumab commonly triggers autoimmune thyroid disease, and the high-dose steroids used for relapses bring their own endocrine effects."
+  - target: 01-human/07-system/lymphatic-system
+    relation: connects-to
+    note: "Modern treatment works through the lymphocytes: natalizumab blocks their entry to the brain, fingolimod traps them in lymph nodes and ocrelizumab depletes B cells, reshaping the immune traffic that drives MS."
+  - target: 02-pathogen/01-viruses/herpesvirus
+    relation: connects-to
+    note: "Herpesviruses are implicated alongside EBV: human herpesvirus-6 has been studied as a co-factor in multiple sclerosis, and reactivation under immunosuppressive therapy is a clinical concern."
 ---
 
 # Multiple Sclerosis
@@ -405,6 +414,9 @@ MS affects approximately **2.8 million people worldwide** (~1 million in the US)
 - `connects-to` → **[Respiratory System](../respiratory-system/README.md)** — Advanced disease weakens breathing: brainstem and high cervical lesions impair respiratory muscles and swallowing, so aspiration and respiratory failure become a leading cause of death in late MS.
 - `connects-to` → **[Cardiovascular System](../cardiovascular-system/README.md)** — Nerves and drugs unsettle the heart: autonomic dysfunction causes orthostatic hypotension and arrhythmia, and starting fingolimod causes first-dose bradycardia and heart block requiring monitoring.
 - `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — Immobility and injections mark the skin: pressure sores arise with reduced mobility, while injectable disease-modifying therapies cause injection-site reactions and lipoatrophy.
+- `connects-to` → **[Endocrine System](../endocrine-system/README.md)** — Its strong therapies disturb hormones: alemtuzumab commonly triggers autoimmune thyroid disease, and the high-dose steroids used for relapses bring their own endocrine effects.
+- `connects-to` → **[Lymphatic System](../lymphatic-system/README.md)** — Modern treatment works through the lymphocytes: natalizumab blocks their entry to the brain, fingolimod traps them in lymph nodes and ocrelizumab depletes B cells, reshaping the immune traffic that drives MS.
+- `connects-to` → **[Herpesvirus](../../../02-pathogen/01-viruses/herpesvirus/README.md)** — Herpesviruses are implicated alongside EBV: human herpesvirus-6 has been studied as a co-factor in multiple sclerosis, and reactivation under immunosuppressive therapy is a clinical concern.
 
 [^compston-2008-ms-review]: Compston A, Coles A. Multiple sclerosis. *Lancet.* 2008;372(9648):1502-1517. [doi:10.1016/S0140-6736(08)61620-7](https://doi.org/10.1016/S0140-6736(08)61620-7) · [PubMed 18970977](https://pubmed.ncbi.nlm.nih.gov/18970977/)
 [^kappos-2006-natalizumab]: Polman CH, O'Connor PW, Havrdova E, et al. A randomized, placebo-controlled trial of natalizumab for relapsing multiple sclerosis. *N Engl J Med.* 2006;354(9):899-910. [doi:10.1056/NEJMoa044397](https://doi.org/10.1056/NEJMoa044397) · [PubMed 16510744](https://pubmed.ncbi.nlm.nih.gov/16510744/)

@@ -229,6 +229,15 @@ cross_links:
   - target: 01-human/07-system/immune-system
     relation: connects-to
     note: "It runs on neurogenic inflammation: the trigeminovascular system releases CGRP and inflammatory mediators that dilate vessels and sensitise nerves, a process now blocked by anti-CGRP therapies."
+  - target: 03-medicine/01-modern/04-cardio/beta-blockers
+    relation: connects-to
+    note: "First-line prevention borrows a heart drug: beta-blockers like propranolol are a mainstay of migraine prophylaxis, reducing attack frequency though their mechanism in migraine is incompletely understood."
+  - target: 03-medicine/03-food/magnesium-dietary
+    relation: connects-to
+    note: "A supplement with real evidence: magnesium is one of the better-supported nutritional prophylactics for migraine, and low magnesium status is linked to attack susceptibility."
+  - target: 01-human/07-system/lymphatic-system
+    relation: connects-to
+    note: "Waste clearance may matter: dysfunction of the brain's glymphatic drainage system is increasingly implicated in migraine, linking sleep, fluid balance and headache."
 ---
 
 # Migraine
@@ -436,6 +445,9 @@ Episodic migraine (EM, <15 headache days/month) transforms to **chronic migraine
 - `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — The skin turns painful to touch: cutaneous allodynia — scalp and skin hypersensitivity so that brushing hair or wearing glasses hurts — is a hallmark of central sensitisation during migraine attacks.
 - `connects-to` → **[Renal System](../renal-system/README.md)** — Its painkillers can harm the kidney: frequent NSAID use for migraine risks analgesic nephropathy and acute kidney injury, and renal impairment limits which abortive drugs are safe.
 - `connects-to` → **[Immune System](../immune-system/README.md)** — It runs on neurogenic inflammation: the trigeminovascular system releases CGRP and inflammatory mediators that dilate vessels and sensitise nerves, a process now blocked by anti-CGRP therapies.
+- `connects-to` → **[Beta-blockers](../../../03-medicine/01-modern/04-cardio/beta-blockers/README.md)** — First-line prevention borrows a heart drug: beta-blockers like propranolol are a mainstay of migraine prophylaxis, reducing attack frequency though their mechanism in migraine is incompletely understood.
+- `connects-to` → **[Dietary Magnesium](../../../03-medicine/03-food/magnesium-dietary/README.md)** — A supplement with real evidence: magnesium is one of the better-supported nutritional prophylactics for migraine, and low magnesium status is linked to attack susceptibility.
+- `connects-to` → **[Lymphatic System](../lymphatic-system/README.md)** — Waste clearance may matter: dysfunction of the brain's glymphatic drainage system is increasingly implicated in migraine, linking sleep, fluid balance and headache.
 
 [^gbd-2016-migraine-burden]: GBD 2016 Headache Collaborators. Global, regional, and national burden of migraine and tension-type headache, 1990-2016. *Lancet Neurol.* 2018;17(11):954-976. [doi:10.1016/S1474-4422(18)30322-3](https://doi.org/10.1016/S1474-4422(18)30322-3) · [PubMed 30353868](https://pubmed.ncbi.nlm.nih.gov/30353868/)
 [^goadsby-2002-migraine-review]: Goadsby PJ, Lipton RB, Ferrari MD. Migraine — current understanding and treatment. *N Engl J Med.* 2002;346(4):257-270. [doi:10.1056/NEJMra010917](https://doi.org/10.1056/NEJMra010917) · [PubMed 11807151](https://pubmed.ncbi.nlm.nih.gov/11807151/)
