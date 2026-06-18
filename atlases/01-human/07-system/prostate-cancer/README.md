@@ -214,6 +214,15 @@ cross_links:
   - target: 01-human/07-system/generalized-anxiety-disorder
     relation: connects-to
     note: "PSA surveillance breeds chronic worry: the repeated PSA checks, active-surveillance uncertainty and fear of recurrence in prostate cancer foster persistent health anxiety alongside depression."
+  - target: 01-human/07-system/musculoskeletal-system
+    relation: connects-to
+    note: "It loves to spread to bone: prostate cancer produces characteristic osteoblastic metastases, especially in the spine and pelvis, causing bone pain and pathological fractures."
+  - target: 01-human/07-system/nervous-system
+    relation: connects-to
+    note: "Spinal metastases can crush the cord: vertebral deposits from prostate cancer cause malignant spinal cord compression, an oncological emergency presenting with back pain, weakness and incontinence."
+  - target: 01-human/07-system/cardiovascular-system
+    relation: connects-to
+    note: "Hormone therapy strains the heart: androgen-deprivation therapy raises cardiovascular risk and metabolic syndrome, increasing myocardial infarction and stroke during long-term treatment."
 ---
 
 # Prostate Cancer
@@ -406,6 +415,9 @@ cross_links:
 - `connects-to` → **[Endocrine System](../endocrine-system/README.md)** — Its mainstay treatment is endocrine: androgen-deprivation therapy chemically or surgically castrates men, causing hypogonadism with hot flushes, gynaecomastia, metabolic syndrome and bone loss.
 - `connects-to` → **[Renal System](../renal-system/README.md)** — It sits astride the urinary outflow: prostate cancer obstructs the bladder outlet and can invade the ureters or trigones, causing retention and hydronephrosis, while prostatectomy risks lasting incontinence.
 - `connects-to` → **[Generalized Anxiety Disorder](../generalized-anxiety-disorder/README.md)** — PSA surveillance breeds chronic worry: the repeated PSA checks, active-surveillance uncertainty and fear of recurrence in prostate cancer foster persistent health anxiety alongside depression.
+- `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — It loves to spread to bone: prostate cancer produces characteristic osteoblastic metastases, especially in the spine and pelvis, causing bone pain and pathological fractures.
+- `connects-to` → **[Nervous System](../nervous-system/README.md)** — Spinal metastases can crush the cord: vertebral deposits from prostate cancer cause malignant spinal cord compression, an oncological emergency presenting with back pain, weakness and incontinence.
+- `connects-to` → **[Cardiovascular System](../cardiovascular-system/README.md)** — Hormone therapy strains the heart: androgen-deprivation therapy raises cardiovascular risk and metabolic syndrome, increasing myocardial infarction and stroke during long-term treatment.
 
 [^beer-2014-prevail]: Beer TM, Armstrong AJ, Rathkopf D, et al. Enzalutamide in metastatic prostate cancer before chemotherapy. *N Engl J Med.* 2014;371(5):424-433. [doi:10.1056/NEJMoa1405095](https://doi.org/10.1056/NEJMoa1405095) · [PubMed 24881730](https://pubmed.ncbi.nlm.nih.gov/24881730/)
 [^sartor-2021-vision]: Sartor O, de Bono J, Chi KN, et al. Lutetium-PSMA-617 for metastatic castration-resistant prostate cancer. *N Engl J Med.* 2021;385(12):1091-1103. [doi:10.1056/NEJMoa2107322](https://doi.org/10.1056/NEJMoa2107322) · [PubMed 34161051](https://pubmed.ncbi.nlm.nih.gov/34161051/)

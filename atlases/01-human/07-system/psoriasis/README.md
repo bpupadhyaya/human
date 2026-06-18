@@ -214,6 +214,15 @@ cross_links:
   - target: 02-pathogen/01-viruses/varicella-zoster-virus
     relation: connects-to
     note: "Its biologics reawaken shingles: the TNF, IL-17/23 and especially JAK inhibitors used for moderate-to-severe psoriasis blunt antiviral immunity and raise the risk of herpes-zoster reactivation."
+  - target: 01-human/07-system/immune-system
+    relation: connects-to
+    note: "It runs on the IL-23/IL-17 axis: psoriasis is a T-cell-driven autoinflammatory disease in which dendritic cells, IL-23 and IL-17 inflame the skin — the pathway every modern biologic targets."
+  - target: 01-human/07-system/respiratory-system
+    relation: connects-to
+    note: "A core drug can scar the lungs: methotrexate, a mainstay systemic therapy for psoriasis, can cause hypersensitivity pneumonitis and pulmonary fibrosis, requiring vigilance for new breathlessness."
+  - target: 01-human/07-system/lymphatic-system
+    relation: connects-to
+    note: "Extensive disease swells the nodes: erythrodermic and widespread psoriasis causes reactive dermatopathic lymphadenopathy, and severe disease carries a modestly increased lymphoma risk."
 ---
 
 # Psoriasis
@@ -394,6 +403,9 @@ Differential: Seborrheic dermatitis (common), pityriasis rosea (herald patch, Ch
 - `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — It is the archetypal skin disease: psoriasis drives hyperproliferation of the epidermis into well-demarcated scaly plaques, with nail pitting and scalp involvement, the visible core of the disorder.
 - `connects-to` → **[Endocrine System](../endocrine-system/README.md)** — It travels with metabolic and thyroid disease: psoriasis is strongly tied to the insulin resistance and metabolic syndrome of endocrine dysfunction and shows raised rates of autoimmune thyroid disease.
 - `connects-to` → **[Varicella-Zoster Virus](../../../02-pathogen/01-viruses/varicella-zoster-virus/README.md)** — Its biologics reawaken shingles: the TNF, IL-17/23 and especially JAK inhibitors used for moderate-to-severe psoriasis blunt antiviral immunity and raise the risk of herpes-zoster reactivation.
+- `connects-to` → **[Immune System](../immune-system/README.md)** — It runs on the IL-23/IL-17 axis: psoriasis is a T-cell-driven autoinflammatory disease in which dendritic cells, IL-23 and IL-17 inflame the skin — the pathway every modern biologic targets.
+- `connects-to` → **[Respiratory System](../respiratory-system/README.md)** — A core drug can scar the lungs: methotrexate, a mainstay systemic therapy for psoriasis, can cause hypersensitivity pneumonitis and pulmonary fibrosis, requiring vigilance for new breathlessness.
+- `connects-to` → **[Lymphatic System](../lymphatic-system/README.md)** — Extensive disease swells the nodes: erythrodermic and widespread psoriasis causes reactive dermatopathic lymphadenopathy, and severe disease carries a modestly increased lymphoma risk.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
