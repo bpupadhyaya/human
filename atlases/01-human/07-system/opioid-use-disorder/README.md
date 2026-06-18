@@ -247,6 +247,15 @@ cross_links:
   - target: 01-human/07-system/binge-eating-disorder
     relation: connects-to
     note: "Shared reward wiring links them: opioid use disorder and binge eating both hijack the mu-opioid and dopamine reward system, and the opioid antagonist naltrexone is used against both."
+  - target: 01-human/05-tissue/endocardium
+    relation: connects-to
+    note: "Injecting seeds the heart valves: injection drug use carries skin bacteria like Staphylococcus aureus to the heart, causing infective endocarditis — classically right-sided on the tricuspid valve — a major cause of OUD hospitalisation and death."
+  - target: 01-human/07-system/cannabis-use-disorder
+    relation: connects-to
+    note: "Polysubstance use is the rule: opioid and cannabis use disorders frequently co-occur, and cannabis is debated both as a relapse risk and as a harm-reduction aid during opioid tapering."
+  - target: 01-human/05-tissue/alveolus
+    relation: connects-to
+    note: "Overdose silences the breath: opioids suppress the brainstem respiratory drive, and overdose causes hypoventilation, aspiration and noncardiogenic pulmonary oedema flooding the alveoli — the proximate cause of opioid death that naloxone reverses."
 ---
 
 # Opioid Use Disorder
@@ -478,6 +487,9 @@ The primary mechanism by which opioids produce euphoria:
 - `connects-to` → **[Hepatitis C Virus](../../../02-pathogen/01-viruses/hepatitis-c-virus/README.md)** — The epidemic's biggest driver: injection opioid use is now the leading cause of new hepatitis C infections, though direct-acting antivirals can cure it once people are reached and treated.
 - `connects-to` → **[CRH](../../03-molecular/crh/README.md)** — Stress drives the relapse: corticotropin-releasing hormone and the noradrenergic stress system mediate opioid withdrawal distress and craving, a major force behind relapse in opioid use disorder.
 - `connects-to` → **[Binge-Eating Disorder](../binge-eating-disorder/README.md)** — Shared reward wiring links them: opioid use disorder and binge eating both hijack the mu-opioid and dopamine reward system, and the opioid antagonist naltrexone is used against both.
+- `connects-to` → **[Endocardium](../../05-tissue/endocardium/README.md)** — Injecting seeds the heart valves: injection drug use carries skin bacteria like Staphylococcus aureus to the heart, causing infective endocarditis — classically right-sided on the tricuspid valve — a major cause of OUD hospitalisation and death.
+- `connects-to` → **[Cannabis Use Disorder](../cannabis-use-disorder/README.md)** — Polysubstance use is the rule: opioid and cannabis use disorders frequently co-occur, and cannabis is debated both as a relapse risk and as a harm-reduction aid during opioid tapering.
+- `connects-to` → **[Alveolus](../../05-tissue/alveolus/README.md)** — Overdose silences the breath: opioids suppress the brainstem respiratory drive, and overdose causes hypoventilation, aspiration and noncardiogenic pulmonary oedema flooding the alveoli — the proximate cause of opioid death that naloxone reverses.
 
 [^volkow-2016-opioid-crisis]: Volkow ND, Collins FS. The role of science in addressing the opioid crisis. *N Engl J Med.* 2017;377(4):391-394. [doi:10.1056/NEJMsr1706626](https://doi.org/10.1056/NEJMsr1706626) · [PubMed 28723324](https://pubmed.ncbi.nlm.nih.gov/28723324/)
 [^mattick-2009-bupe-meta]: Mattick RP, Breen C, Kimber J, Davoli M. Buprenorphine maintenance versus placebo or methadone maintenance for opioid dependence. *Cochrane Database Syst Rev.* 2014;2:CD002207. [doi:10.1002/14651858.CD002207.pub4](https://doi.org/10.1002/14651858.CD002207.pub4) · [PubMed 24500948](https://pubmed.ncbi.nlm.nih.gov/24500948/)
