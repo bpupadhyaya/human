@@ -229,6 +229,15 @@ cross_links:
   - target: 01-human/07-system/integumentary-system
     relation: connects-to
     note: "It and its treatment mark the skin: smoking accelerates skin ageing, hypoxaemia causes central cyanosis, and long-term corticosteroids thin and bruise the skin."
+  - target: 03-medicine/01-modern/02-respiratory/corticosteroids
+    relation: connects-to
+    note: "A double-edged controller: inhaled corticosteroids reduce exacerbations in some COPD, while courses of systemic steroids treat flares at the cost of pneumonia risk, osteoporosis and hyperglycaemia."
+  - target: 01-human/07-system/reproductive-system
+    relation: connects-to
+    note: "Breathlessness and low oxygen reach the bedroom: COPD commonly causes sexual dysfunction and is linked to hypogonadism from chronic illness, hypoxia and steroid use."
+  - target: 01-human/07-system/lymphatic-system
+    relation: connects-to
+    note: "Lymphoid follicles fuel the disease: COPD induces bronchus-associated lymphoid tissue — tertiary lymphoid follicles in the small airways — that sustain the chronic inflammation and remodelling of severe disease."
 ---
 
 # COPD
@@ -442,6 +451,9 @@ COPD encompasses two overlapping pathological processes:
 - `connects-to` → **[Immune System](../immune-system/README.md)** — Damaged airways lose their defences: impaired innate and adaptive immunity invites bacterial colonisation and exacerbations, and lymphoid follicles in the airway walls drive its chronic inflammation.
 - `connects-to` → **[Renal System](../renal-system/README.md)** — It strains the kidney through hypoxia and acid-base shifts: chronic hypoxia and shared smoking damage link COPD to chronic kidney disease, and CO2 retention drives compensatory renal bicarbonate handling.
 - `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — It and its treatment mark the skin: smoking accelerates skin ageing, hypoxaemia causes central cyanosis, and long-term corticosteroids thin and bruise the skin.
+- `connects-to` → **[Corticosteroids](../../../03-medicine/01-modern/02-respiratory/corticosteroids/README.md)** — A double-edged controller: inhaled corticosteroids reduce exacerbations in some COPD, while courses of systemic steroids treat flares at the cost of pneumonia risk, osteoporosis and hyperglycaemia.
+- `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — Breathlessness and low oxygen reach the bedroom: COPD commonly causes sexual dysfunction and is linked to hypogonadism from chronic illness, hypoxia and steroid use.
+- `connects-to` → **[Lymphatic System](../lymphatic-system/README.md)** — Lymphoid follicles fuel the disease: COPD induces bronchus-associated lymphoid tissue — tertiary lymphoid follicles in the small airways — that sustain the chronic inflammation and remodelling of severe disease.
 
 ---
 

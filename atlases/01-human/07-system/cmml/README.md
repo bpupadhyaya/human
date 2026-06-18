@@ -223,6 +223,15 @@ cross_links:
   - target: 01-human/07-system/respiratory-system
     relation: connects-to
     note: "It can flood the body cavities: leukemic infiltration in CMML can cause pleural and pericardial effusions, and neutropenia leaves the lungs prone to infection."
+  - target: 01-human/07-system/musculoskeletal-system
+    relation: connects-to
+    note: "Marrow disease and inflammation reach bone and joints: CMML crowds the marrow causing cytopenias, and it is notably associated with systemic inflammatory and autoimmune syndromes, including arthritis."
+  - target: 01-human/07-system/cardiovascular-system
+    relation: connects-to
+    note: "Anaemia and infiltration burden the heart: chronic cytopenia forces a high-output state, and leukaemic monocytes can rarely infiltrate the myocardium."
+  - target: 01-human/07-system/nervous-system
+    relation: connects-to
+    note: "It can deposit beyond the marrow: myeloid (granulocytic) sarcomas and rare central-nervous-system involvement occur as CMML progresses, especially near transformation to acute leukaemia."
 ---
 
 # Chronic Myelomonocytic Leukemia
@@ -417,6 +426,9 @@ CMML → AML transformation (~15-30% at 5 years): Treat as secondary AML; CPX-35
 - `connects-to` → **[Lymphatic System](../lymphatic-system/README.md)** — Its proliferative form swells the spleen: leukemic infiltration in CMML causes splenomegaly and hepatomegaly, distinguishing the myeloproliferative subtype from the dysplastic one.
 - `connects-to` → **[Renal System](../renal-system/README.md)** — Its monocytes poison the tubules: the excess monocytes of CMML release lysozyme that injures the renal tubules, causing tubular dysfunction with hypokalaemia.
 - `connects-to` → **[Respiratory System](../respiratory-system/README.md)** — It can flood the body cavities: leukemic infiltration in CMML can cause pleural and pericardial effusions, and neutropenia leaves the lungs prone to infection.
+- `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — Marrow disease and inflammation reach bone and joints: CMML crowds the marrow causing cytopenias, and it is notably associated with systemic inflammatory and autoimmune syndromes, including arthritis.
+- `connects-to` → **[Cardiovascular System](../cardiovascular-system/README.md)** — Anaemia and infiltration burden the heart: chronic cytopenia forces a high-output state, and leukaemic monocytes can rarely infiltrate the myocardium.
+- `connects-to` → **[Nervous System](../nervous-system/README.md)** — It can deposit beyond the marrow: myeloid (granulocytic) sarcomas and rare central-nervous-system involvement occur as CMML progresses, especially near transformation to acute leukaemia.
 
 ---
 
