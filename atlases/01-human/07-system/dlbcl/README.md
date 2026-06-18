@@ -223,6 +223,15 @@ cross_links:
   - target: 01-human/07-system/endocrine-system
     relation: connects-to
     note: "It can take over endocrine glands: DLBCL can present as primary thyroid lymphoma or bilateral adrenal lymphoma, the latter causing adrenal insufficiency."
+  - target: 01-human/07-system/renal-system
+    relation: connects-to
+    note: "It infiltrates and obstructs the kidney: DLBCL can directly involve the kidneys or block the ureters with bulky retroperitoneal nodes, and tumour lysis at treatment threatens acute kidney injury."
+  - target: 01-human/07-system/musculoskeletal-system
+    relation: connects-to
+    note: "It grows in bone and marrow: DLBCL can present as primary bone lymphoma or infiltrate the marrow, causing pain, fractures and cytopenias."
+  - target: 01-human/07-system/reproductive-system
+    relation: connects-to
+    note: "The testis is a sanctuary site: primary testicular DLBCL is an aggressive form prone to relapse in the contralateral testis and central nervous system, needing prophylaxis."
 ---
 
 # Diffuse Large B-Cell Lymphoma
@@ -413,6 +422,9 @@ DLBCL is an aggressive malignancy of mature B cells. The normal equivalents are 
 - `connects-to` → **[Cardiovascular System](../cardiovascular-system/README.md)** — Its cure can scar the heart: the doxorubicin in R-CHOP causes dose-dependent cardiotoxicity, and mediastinal disease can directly involve the heart and pericardium.
 - `connects-to` → **[Respiratory System](../respiratory-system/README.md)** — Bulky chest disease obstructs the airway and vessels: primary mediastinal large B-cell lymphoma and bulky mediastinal nodes cause superior vena cava obstruction, airway compression and pleural effusions.
 - `connects-to` → **[Endocrine System](../endocrine-system/README.md)** — It can take over endocrine glands: DLBCL can present as primary thyroid lymphoma or bilateral adrenal lymphoma, the latter causing adrenal insufficiency.
+- `connects-to` → **[Renal System](../renal-system/README.md)** — It infiltrates and obstructs the kidney: DLBCL can directly involve the kidneys or block the ureters with bulky retroperitoneal nodes, and tumour lysis at treatment threatens acute kidney injury.
+- `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — It grows in bone and marrow: DLBCL can present as primary bone lymphoma or infiltrate the marrow, causing pain, fractures and cytopenias.
+- `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — The testis is a sanctuary site: primary testicular DLBCL is an aggressive form prone to relapse in the contralateral testis and central nervous system, needing prophylaxis.
 
 ---
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*

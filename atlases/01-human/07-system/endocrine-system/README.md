@@ -221,6 +221,15 @@ cross_links:
   - target: 01-human/07-system/lymphatic-system
     relation: connects-to
     note: "The thymus is an endocrine-immune organ: it secretes thymic hormones that direct T-cell maturation, and thyroid autoimmunity such as Graves' disease drives thymic hyperplasia."
+  - target: 03-medicine/01-modern/02-respiratory/corticosteroids
+    relation: connects-to
+    note: "The commonest Cushing's is iatrogenic: exogenous glucocorticoids like prednisolone and dexamethasone suppress the hypothalamic-pituitary-adrenal axis and cause Cushing syndrome, the archetype of drug-induced endocrine disease."
+  - target: 03-medicine/03-food/magnesium-dietary
+    relation: connects-to
+    note: "A mineral the hormones need: magnesium is required for insulin sensitivity and parathyroid-hormone secretion, so deficiency disturbs glucose and calcium regulation."
+  - target: 03-medicine/03-food/zinc-dietary
+    relation: connects-to
+    note: "Zinc underpins hormone signalling: it is essential for insulin storage in the pancreas and for testosterone and thyroid-hormone production, so deficiency impairs growth and reproduction."
 ---
 
 # Endocrine System
@@ -446,6 +455,9 @@ The endocrine system coordinates fuel metabolism across multiple organs in respo
 - `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — Hormones build and maintain the frame: parathyroid hormone, vitamin D, sex steroids, growth hormone and cortisol govern bone and muscle, so endocrine disease causes osteoporosis, acromegalic arthropathy and steroid myopathy.
 - `connects-to` → **[Respiratory System](../respiratory-system/README.md)** — It reaches into the lungs: the pulmonary endothelium activates angiotensin via ACE, and endocrine disorders affect breathing — acromegaly causes sleep apnoea and hypothyroidism causes hypoventilation.
 - `connects-to` → **[Lymphatic System](../lymphatic-system/README.md)** — The thymus is an endocrine-immune organ: it secretes thymic hormones that direct T-cell maturation, and thyroid autoimmunity such as Graves' disease drives thymic hyperplasia.
+- `connects-to` → **[Corticosteroids](../../../03-medicine/01-modern/02-respiratory/corticosteroids/README.md)** — The commonest Cushing's is iatrogenic: exogenous glucocorticoids like prednisolone and dexamethasone suppress the hypothalamic-pituitary-adrenal axis and cause Cushing syndrome, the archetype of drug-induced endocrine disease.
+- `connects-to` → **[Dietary Magnesium](../../../03-medicine/03-food/magnesium-dietary/README.md)** — A mineral the hormones need: magnesium is required for insulin sensitivity and parathyroid-hormone secretion, so deficiency disturbs glucose and calcium regulation.
+- `connects-to` → **[Dietary Zinc](../../../03-medicine/03-food/zinc-dietary/README.md)** — Zinc underpins hormone signalling: it is essential for insulin storage in the pancreas and for testosterone and thyroid-hormone production, so deficiency impairs growth and reproduction.
 
 ## Pathology
 
