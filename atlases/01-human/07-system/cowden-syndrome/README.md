@@ -241,6 +241,15 @@ cross_links:
   - target: 01-human/07-system/men1-syndrome
     relation: connects-to
     note: "A fellow endocrine-tumour syndrome: Cowden's thyroid and other glandular tumours echo the multiple endocrine neoplasia syndromes like MEN1, both inherited drivers of multi-gland tumour predisposition."
+  - target: 03-medicine/01-modern/13-cancer/cancer-chemotherapy
+    relation: connects-to
+    note: "Its many cancers need treating: Cowden syndrome's high lifetime risk of breast, endometrial and thyroid cancer means chemotherapy and cancer-directed therapy join the lifelong surveillance that defines its management."
+  - target: 01-human/05-tissue/arterial-wall
+    relation: connects-to
+    note: "PTEN loss malforms vessels: PTEN hamartoma tumour syndrome causes vascular anomalies including arteriovenous malformations, where disordered arterial-wall growth produces the vascular lesions seen alongside its hamartomas."
+  - target: 01-human/07-system/fap
+    relation: connects-to
+    note: "Two polyposis syndromes contrasted: Cowden produces hamartomatous gastrointestinal polyps, whereas familial adenomatous polyposis carpets the colon with adenomas — different polyp biology demanding different cancer surveillance."
 ---
 
 # Cowden Syndrome
@@ -495,6 +504,9 @@ cross_links:
 - `connects-to` → **[Targeted Therapy](../../../03-medicine/01-modern/13-cancer/targeted-therapy/README.md)** — mTOR drugs match its biology: PTEN loss in Cowden syndrome unleashes PI3K-AKT-mTOR, so mTOR and PI3K inhibitors (sirolimus, alpelisib) are studied for its hamartomas and tumours.
 - `connects-to` → **[Carney Complex](../carney-complex/README.md)** — Overlapping breast and thyroid tumours: like Carney complex, Cowden syndrome predisposes to breast and thyroid neoplasia with mucocutaneous lesions, two hamartoma syndromes spanning skin and glands.
 - `connects-to` → **[MEN1 Syndrome](../men1-syndrome/README.md)** — A fellow endocrine-tumour syndrome: Cowden's thyroid and other glandular tumours echo the multiple endocrine neoplasia syndromes like MEN1, both inherited drivers of multi-gland tumour predisposition.
+- `connects-to` → **[Cancer Chemotherapy](../../../03-medicine/01-modern/13-cancer/cancer-chemotherapy/README.md)** — Its many cancers need treating: Cowden syndrome's high lifetime risk of breast, endometrial and thyroid cancer means chemotherapy and cancer-directed therapy join the lifelong surveillance that defines its management.
+- `connects-to` → **[Arterial Wall](../../05-tissue/arterial-wall/README.md)** — PTEN loss malforms vessels: PTEN hamartoma tumour syndrome causes vascular anomalies including arteriovenous malformations, where disordered arterial-wall growth produces the vascular lesions seen alongside its hamartomas.
+- `connects-to` → **[FAP](../fap/README.md)** — Two polyposis syndromes contrasted: Cowden produces hamartomatous gastrointestinal polyps, whereas familial adenomatous polyposis carpets the colon with adenomas — different polyp biology demanding different cancer surveillance.
 
 ---
 

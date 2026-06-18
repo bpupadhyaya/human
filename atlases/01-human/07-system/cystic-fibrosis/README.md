@@ -241,6 +241,15 @@ cross_links:
   - target: 01-human/07-system/asthma
     relation: connects-to
     note: "Allergic airway disease overlaps it: many people with cystic fibrosis have coexisting asthma and allergic bronchopulmonary aspergillosis, adding reversible airway obstruction to their fixed disease."
+  - target: 03-medicine/01-modern/13-cancer/targeted-therapy
+    relation: connects-to
+    note: "CFTR modulators transformed it: small-molecule correctors and potentiators — culminating in elexacaftor-tezacaftor-ivacaftor (Trikafta) — restore mutant CFTR function and dramatically improve lung function and survival in cystic fibrosis."
+  - target: 01-human/05-tissue/lung-slice
+    relation: connects-to
+    note: "It destroys the airways: thick CFTR-deficient mucus plugs the bronchi, breeding chronic Pseudomonas and Staphylococcus infection that scar the lung into bronchiectasis — the airway destruction that drives most CF mortality."
+  - target: 01-human/05-tissue/islet-of-langerhans
+    relation: connects-to
+    note: "It destroys the islets too: progressive pancreatic fibrosis and fatty replacement damage the islets of Langerhans, causing cystic-fibrosis-related diabetes — the commonest CF comorbidity, with features of both type 1 and type 2."
 ---
 
 # Cystic Fibrosis
@@ -443,6 +452,9 @@ AND
 - `connects-to` → **[Vancomycin](../../../03-medicine/01-modern/06-antimicrobial/vancomycin/README.md)** — MRSA now haunts the CF airway: methicillin-resistant Staphylococcus aureus is an increasingly common chronic coloniser of cystic-fibrosis lungs, treated with vancomycin and linked to faster lung-function decline.
 - `connects-to` → **[Amoxicillin](../../../03-medicine/01-modern/06-antimicrobial/amoxicillin/README.md)** — Early antibiotics guard young lungs: anti-staphylococcal antibiotics are used from infancy in cystic fibrosis to treat and sometimes prevent the Staphylococcus aureus infections that begin the cycle of airway damage.
 - `connects-to` → **[Asthma](../asthma/README.md)** — Allergic airway disease overlaps it: many people with cystic fibrosis have coexisting asthma and allergic bronchopulmonary aspergillosis, adding reversible airway obstruction to their fixed disease.
+- `connects-to` → **[Targeted Therapy](../../../03-medicine/01-modern/13-cancer/targeted-therapy/README.md)** — CFTR modulators transformed it: small-molecule correctors and potentiators — culminating in elexacaftor-tezacaftor-ivacaftor (Trikafta) — restore mutant CFTR function and dramatically improve lung function and survival in cystic fibrosis.
+- `connects-to` → **[Lung Slice](../../05-tissue/lung-slice/README.md)** — It destroys the airways: thick CFTR-deficient mucus plugs the bronchi, breeding chronic Pseudomonas and Staphylococcus infection that scar the lung into bronchiectasis — the airway destruction that drives most CF mortality.
+- `connects-to` → **[Islet of Langerhans](../../05-tissue/islet-of-langerhans/README.md)** — It destroys the islets too: progressive pancreatic fibrosis and fatty replacement damage the islets of Langerhans, causing cystic-fibrosis-related diabetes — the commonest CF comorbidity, with features of both type 1 and type 2.
 
 ---
 
