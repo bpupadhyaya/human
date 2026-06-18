@@ -223,6 +223,15 @@ cross_links:
   - target: 01-human/07-system/lymphatic-system
     relation: connects-to
     note: "The brain has its own drainage: the glymphatic system and meningeal lymphatic vessels clear waste and immune cells from the central nervous system, a route increasingly tied to neurodegeneration."
+  - target: 02-pathogen/01-viruses/herpesvirus
+    relation: connects-to
+    note: "A common virus can inflame the brain: herpes simplex is the leading cause of sporadic viral encephalitis, with a predilection for the temporal lobes, and varicella-zoster causes the painful neuralgia of shingles."
+  - target: 02-pathogen/01-viruses/measles-virus
+    relation: connects-to
+    note: "Measles can smoulder in the brain for years: subacute sclerosing panencephalitis is a fatal degenerative brain disease emerging years after measles infection, from persistent virus in neurons."
+  - target: 02-pathogen/02-bacteria/mycobacterium-tuberculosis
+    relation: connects-to
+    note: "Tuberculosis can besiege the meninges: tuberculous meningitis is a slow, devastating infection of the basal meninges causing cranial nerve palsies, hydrocephalus and stroke."
 ---
 
 # Nervous System
@@ -327,6 +336,9 @@ Distributed cortical networks underlie language (Broca's area, Wernicke's area, 
 - `connects-to` → **[Respiratory System](../respiratory-system/README.md)** — It drives every breath: brainstem respiratory centres set the rhythm of breathing and the diaphragm obeys the phrenic nerve, so brainstem injury, high spinal cord damage and neuromuscular disease cause respiratory failure.
 - `connects-to` → **[Renal System](../renal-system/README.md)** — It governs the bladder: the autonomic and somatic innervation of the bladder coordinates storage and voiding, so spinal cord and autonomic injury cause neurogenic bladder with retention and incontinence.
 - `connects-to` → **[Lymphatic System](../lymphatic-system/README.md)** — The brain has its own drainage: the glymphatic system and meningeal lymphatic vessels clear waste and immune cells from the central nervous system, a route increasingly tied to neurodegeneration.
+- `connects-to` → **[Herpesviridae](../../../02-pathogen/01-viruses/herpesvirus/README.md)** — A common virus can inflame the brain: herpes simplex is the leading cause of sporadic viral encephalitis, with a predilection for the temporal lobes, and varicella-zoster causes the painful neuralgia of shingles.
+- `connects-to` → **[Measles Virus](../../../02-pathogen/01-viruses/measles-virus/README.md)** — Measles can smoulder in the brain for years: subacute sclerosing panencephalitis is a fatal degenerative brain disease emerging years after measles infection, from persistent virus in neurons.
+- `connects-to` → **[Mycobacterium tuberculosis](../../../02-pathogen/02-bacteria/mycobacterium-tuberculosis/README.md)** — Tuberculosis can besiege the meninges: tuberculous meningitis is a slow, devastating infection of the basal meninges causing cranial nerve palsies, hydrocephalus and stroke.
 
 ## Pathology
 

@@ -201,6 +201,15 @@ cross_links:
   - target: 01-human/07-system/musculoskeletal-system
     relation: connects-to
     note: "Cataplexy drops the body without warning: the sudden emotion-triggered loss of muscle tone in narcolepsy type 1 causes collapses and falls that risk fractures and soft-tissue injury."
+  - target: 01-human/07-system/digestive-system
+    relation: connects-to
+    note: "Loss of orexin reshapes appetite and the gut: hypocretin deficiency dysregulates appetite and contributes to weight gain, and sodium oxybate, a mainstay treatment, commonly causes nausea."
+  - target: 01-human/07-system/renal-system
+    relation: connects-to
+    note: "Its drug carries a heavy salt load: sodium oxybate delivers a large daily dose of sodium that affects blood pressure and fluid balance, prompting development of lower-sodium formulations."
+  - target: 01-human/07-system/integumentary-system
+    relation: connects-to
+    note: "A stimulant can trigger severe rashes: modafinil, used for narcolepsy's daytime sleepiness, carries a warning for serious skin reactions including Stevens-Johnson syndrome."
 sources:
   - id: scammell-2015-narcolepsy-review
     type: peer-reviewed
@@ -402,6 +411,9 @@ Cataplexy is the **pathognomonic** feature of NT1 — sudden, bilateral loss of 
 - `connects-to` → **[Endocrine System](../endocrine-system/README.md)** — Orexin loss unsettles metabolism and hormones: hypocretin/orexin normally governs energy balance and arousal, so its loss in narcolepsy type 1 brings weight gain, metabolic change and, in children, precocious puberty.
 - `connects-to` → **[Respiratory System](../respiratory-system/README.md)** — It travels with sleep-disordered breathing: narcolepsy is frequently complicated by comorbid obstructive sleep apnoea, on a background of its associated obesity, fragmenting sleep further.
 - `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — Cataplexy drops the body without warning: the sudden emotion-triggered loss of muscle tone in narcolepsy type 1 causes collapses and falls that risk fractures and soft-tissue injury.
+- `connects-to` → **[Digestive System](../digestive-system/README.md)** — Loss of orexin reshapes appetite and the gut: hypocretin deficiency dysregulates appetite and contributes to weight gain, and sodium oxybate, a mainstay treatment, commonly causes nausea.
+- `connects-to` → **[Renal System](../renal-system/README.md)** — Its drug carries a heavy salt load: sodium oxybate delivers a large daily dose of sodium that affects blood pressure and fluid balance, prompting development of lower-sodium formulations.
+- `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — A stimulant can trigger severe rashes: modafinil, used for narcolepsy's daytime sleepiness, carries a warning for serious skin reactions including Stevens-Johnson syndrome.
 
 [^scammell-2015-narcolepsy-review]: Scammell TE. Narcolepsy. *N Engl J Med.* 2015;373(27):2654-2662. [doi:10.1056/NEJMra1500587](https://doi.org/10.1056/NEJMra1500587) · [PubMed 26716917](https://pubmed.ncbi.nlm.nih.gov/26716917/)
 [^dauvilliers-2007-narcolepsy-clinical]: Dauvilliers Y, Arnulf I, Mignot E. Narcolepsy with cataplexy. *Lancet.* 2007;369(9560):499-511. [doi:10.1016/S0140-6736(07)60237-2](https://doi.org/10.1016/S0140-6736(07)60237-2) · [PubMed 17292770](https://pubmed.ncbi.nlm.nih.gov/17292770/)
