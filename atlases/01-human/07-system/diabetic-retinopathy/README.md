@@ -214,6 +214,15 @@ cross_links:
   - target: 01-human/07-system/musculoskeletal-system
     relation: connects-to
     note: "Losing vision means losing footing: the visual impairment of advanced diabetic retinopathy is a major risk factor for falls and the fractures that follow, especially in older diabetics."
+  - target: 01-human/07-system/immune-system
+    relation: connects-to
+    note: "Inflammation drives the damage and the cure: leukostasis and cytokines such as VEGF inflame and occlude retinal capillaries, which is why intravitreal anti-VEGF and corticosteroid injections treat diabetic macular oedema."
+  - target: 01-human/07-system/integumentary-system
+    relation: connects-to
+    note: "It is a window onto systemic small-vessel disease: the same diabetic microangiopathy that scars the retina injures the skin's microcirculation, so retinopathy severity tracks diabetic dermopathy and foot microvascular damage."
+  - target: 01-human/07-system/digestive-system
+    relation: connects-to
+    note: "It clusters with autonomic gut damage: advanced retinopathy marks long-standing, poorly-controlled diabetes, so it commonly accompanies diabetic gastroparesis and other autonomic gastrointestinal complications."
 ---
 
 # Diabetic Retinopathy
@@ -389,6 +398,9 @@ DR encompasses a spectrum from subtle vascular changes to sight-threatening neov
 - `connects-to` → **[Endocrine System](../endocrine-system/README.md)** — It is a direct readout of glycaemic control: diabetic retinopathy is driven by the chronic hyperglycaemia of the endocrine diabetic state, and hormonal surges of puberty and pregnancy can accelerate it.
 - `connects-to` → **[Staphylococcus aureus](../../../02-pathogen/02-bacteria/staphylococcus-aureus/README.md)** — Each anti-VEGF injection risks acute endophthalmitis: the repeated intravitreal injections that treat diabetic retinopathy can introduce skin bacteria like Staphylococcus aureus, causing sight-threatening bacterial endophthalmitis.
 - `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — Losing vision means losing footing: the visual impairment of advanced diabetic retinopathy is a major risk factor for falls and the fractures that follow, especially in older diabetics.
+- `connects-to` → **[Immune System](../immune-system/README.md)** — Inflammation drives the damage and the cure: leukostasis and cytokines such as VEGF inflame and occlude retinal capillaries, which is why intravitreal anti-VEGF and corticosteroid injections treat diabetic macular oedema.
+- `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — It is a window onto systemic small-vessel disease: the same diabetic microangiopathy that scars the retina injures the skin's microcirculation, so retinopathy severity tracks diabetic dermopathy and foot microvascular damage.
+- `connects-to` → **[Digestive System](../digestive-system/README.md)** — It clusters with autonomic gut damage: advanced retinopathy marks long-standing, poorly-controlled diabetes, so it commonly accompanies diabetic gastroparesis and other autonomic gastrointestinal complications.
 
 [^fong-2004-dr-review]: Fong DS, Aiello L, Gardner TW, et al. Diabetic retinopathy. *Diabetes Care.* 2004;27(10):2540-2553. [doi:10.2337/diacare.27.10.2540](https://doi.org/10.2337/diacare.27.10.2540) · [PubMed 15451934](https://pubmed.ncbi.nlm.nih.gov/15451934/)
 [^brown-2015-aflibercept-protocol-t]: Diabetic Retinopathy Clinical Research Network; Wells JA, Glassman AR, et al. Aflibercept, Bevacizumab, or Ranibizumab for Diabetic Macular Edema. *N Engl J Med.* 2015;372(13):1193-1203. [doi:10.1056/NEJMoa1414264](https://doi.org/10.1056/NEJMoa1414264) · [PubMed 25692915](https://pubmed.ncbi.nlm.nih.gov/25692915/)
