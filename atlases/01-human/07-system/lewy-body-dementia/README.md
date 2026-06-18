@@ -238,6 +238,15 @@ cross_links:
   - target: 03-medicine/01-modern/10-mental-health/fluoxetine
     relation: connects-to
     note: "Mood symptoms are common but drugs need care: SSRIs like fluoxetine treat the frequent depression, while antipsychotics must be used with great caution given the severe neuroleptic sensitivity of Lewy body dementia."
+  - target: 01-human/07-system/endocrine-system
+    relation: connects-to
+    note: "Autonomic and circadian control fails: Lewy pathology in the hypothalamus and autonomic ganglia disrupts blood-pressure regulation, temperature and circadian rhythm, producing the orthostatic hypotension and sleep-wake disturbance of DLB."
+  - target: 01-human/07-system/epilepsy
+    relation: connects-to
+    note: "Seizures complicate the failing brain: like other neurodegenerative dementias, Lewy body dementia carries a raised risk of seizures and myoclonus as cortical networks degenerate."
+  - target: 01-human/07-system/als
+    relation: connects-to
+    note: "A shared misfolded protein: TDP-43 co-pathology is found in a large minority of Lewy body dementia brains, linking it to the TDP-43 proteinopathy that defines amyotrophic lateral sclerosis."
 ---
 
 # Lewy Body Dementia
@@ -437,6 +446,9 @@ Approximately 25-50% of clinically diagnosed DLB cases have significant AD co-pa
 - `connects-to` → **[Lymphatic System](../lymphatic-system/README.md)** — Like other dementias it may fail to clear its waste protein: impaired glymphatic drainage during sleep is implicated in the build-up of alpha-synuclein that defines Lewy body disease.
 - `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — Early autonomic failure reaches the pelvis: erectile dysfunction and urinary disturbance often precede the cognitive decline of Lewy body dementia by years.
 - `connects-to` → **[Fluoxetine](../../../03-medicine/01-modern/10-mental-health/fluoxetine/README.md)** — Mood symptoms are common but drugs need care: SSRIs like fluoxetine treat the frequent depression, while antipsychotics must be used with great caution given the severe neuroleptic sensitivity of Lewy body dementia.
+- `connects-to` → **[Endocrine System](../endocrine-system/README.md)** — Autonomic and circadian control fails: Lewy pathology in the hypothalamus and autonomic ganglia disrupts blood-pressure regulation, temperature and circadian rhythm, producing the orthostatic hypotension and sleep-wake disturbance of DLB.
+- `connects-to` → **[Epilepsy](../epilepsy/README.md)** — Seizures complicate the failing brain: like other neurodegenerative dementias, Lewy body dementia carries a raised risk of seizures and myoclonus as cortical networks degenerate.
+- `connects-to` → **[ALS](../als/README.md)** — A shared misfolded protein: TDP-43 co-pathology is found in a large minority of Lewy body dementia brains, linking it to the TDP-43 proteinopathy that defines amyotrophic lateral sclerosis.
 
 [^mckeith-2017-dlb-criteria]: McKeith IG, Boeve BF, Dickson DW, et al. Diagnosis and management of dementia with Lewy bodies: Fourth consensus report of the DLB Consortium. *Neurology.* 2017;89(1):88-100. [doi:10.1212/WNL.0000000000004058](https://doi.org/10.1212/WNL.0000000000004058) · [PubMed 28592453](https://pubmed.ncbi.nlm.nih.gov/28592453/)
 [^spillantini-1997-lewy-body]: Spillantini MG, Schmidt ML, Lee VM, Trojanowski JQ, Jakes R, Goedert M. Alpha-synuclein in Lewy bodies. *Nature.* 1997;388(6645):839-840. [doi:10.1038/42166](https://doi.org/10.1038/42166) · [PubMed 9278044](https://pubmed.ncbi.nlm.nih.gov/9278044/)

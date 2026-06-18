@@ -228,6 +228,15 @@ cross_links:
   - target: 01-human/07-system/lymphatic-system
     relation: connects-to
     note: "The spleen recycles most of the body's iron: its reticuloendothelial macrophages salvage iron from worn-out red cells, and these stores are drawn down before the marrow runs short."
+  - target: 01-human/07-system/sickle-cell-disease
+    relation: connects-to
+    note: "Opposite iron problems: unlike iron-deficiency anaemia, sickle cell is a haemolytic anaemia where repeated transfusion causes iron overload, so the two demand opposite iron management."
+  - target: 01-human/07-system/pancreatic-cancer
+    relation: connects-to
+    note: "A red flag for hidden malignancy: unexplained iron-deficiency anaemia from occult gastrointestinal blood loss can signal pancreatic, ampullary or other gut cancers, prompting endoscopic and imaging work-up."
+  - target: 02-pathogen/04-parasites/plasmodium-falciparum
+    relation: connects-to
+    note: "Malaria drains the blood and iron: falciparum malaria causes anaemia through haemolysis and inflammatory iron sequestration, and iron supplementation in endemic areas must be balanced against infection risk."
 ---
 
 # Iron Deficiency Anemia
@@ -418,6 +427,9 @@ Iron is essential for:
 - `connects-to` → **[Ibuprofen](../../../03-medicine/01-modern/12-anti-inflammatory/ibuprofen/README.md)** — NSAIDs erode the gut lining: ibuprofen and related drugs cause gastric and duodenal ulcers whose slow bleeding is a leading drug-induced cause of iron-deficiency anemia.
 - `connects-to` → **[Aspirin](../../../03-medicine/01-modern/04-cardio/aspirin/README.md)** — Antiplatelet therapy bleeds slowly: regular aspirin promotes chronic occult gastrointestinal blood loss, a frequent and easily missed source of iron-deficiency anemia in older adults.
 - `connects-to` → **[Lymphatic System](../lymphatic-system/README.md)** — The spleen recycles most of the body's iron: its reticuloendothelial macrophages salvage iron from worn-out red cells, and these stores are drawn down before the marrow runs short.
+- `connects-to` → **[Sickle Cell Disease](../sickle-cell-disease/README.md)** — Opposite iron problems: unlike iron-deficiency anaemia, sickle cell is a haemolytic anaemia where repeated transfusion causes iron overload, so the two demand opposite iron management.
+- `connects-to` → **[Pancreatic Cancer](../pancreatic-cancer/README.md)** — A red flag for hidden malignancy: unexplained iron-deficiency anaemia from occult gastrointestinal blood loss can signal pancreatic, ampullary or other gut cancers, prompting endoscopic and imaging work-up.
+- `connects-to` → **[Plasmodium falciparum](../../../02-pathogen/04-parasites/plasmodium-falciparum/README.md)** — Malaria drains the blood and iron: falciparum malaria causes anaemia through haemolysis and inflammatory iron sequestration, and iron supplementation in endemic areas must be balanced against infection risk.
 
 [^camaschella-2015-iron-deficiency]: Camaschella C. Iron-deficiency anemia. *N Engl J Med.* 2015;372(19):1832-1843. [doi:10.1056/NEJMra1401038](https://doi.org/10.1056/NEJMra1401038) · [PubMed 25946282](https://pubmed.ncbi.nlm.nih.gov/25946282/)
 [^who-ferritin-guideline-2020]: World Health Organization. WHO guideline on use of ferritin concentrations to assess iron status in individuals and populations. WHO; 2020. [WHO publication](https://www.who.int/publications/i/item/9789240000124)
