@@ -232,6 +232,15 @@ cross_links:
   - target: 02-pathogen/04-parasites/toxoplasma-gondii
     relation: connects-to
     note: "Ocular masses have infectious mimics: chorioretinitis from toxoplasmosis is among the differentials of a pigmented or inflammatory intraocular lesion that uveal melanoma must be distinguished from."
+  - target: 03-medicine/01-modern/13-cancer/checkpoint-inhibitors
+    relation: connects-to
+    note: "Unlike skin melanoma, it resists checkpoints: uveal melanoma carries a low mutational burden and an immunosuppressive microenvironment, so PD-1 and CTLA-4 blockade that transforms cutaneous melanoma works poorly — the gap that drove tebentafusp's development."
+  - target: 03-medicine/01-modern/13-cancer/cancer-chemotherapy
+    relation: connects-to
+    note: "Largely chemoresistant: conventional cytotoxic chemotherapy such as dacarbazine, of limited use in any melanoma, achieves little in metastatic uveal melanoma, leaving liver-directed and T-cell-redirecting approaches as the mainstays."
+  - target: 01-human/05-tissue/hepatic-lobule
+    relation: connects-to
+    note: "It seeds the liver sinusoids: uveal melanoma cells lodge in the hepatic sinusoids and grow within the lobule as micrometastases that can smoulder for years, the reason serial liver MRI surveillance underpins follow-up after the eye is treated."
 ---
 
 # Uveal Melanoma
@@ -440,6 +449,9 @@ Uveal melanocytes are neural crest-derived, residing in the uveal stroma and mai
 - `connects-to` → **[Targeted Therapy](../../../03-medicine/01-modern/13-cancer/targeted-therapy/README.md)** — A bispecific T-cell engager extended survival: tebentafusp redirects T cells against the gp100-HLA complex on uveal melanoma, the first therapy to improve survival in this checkpoint-resistant cancer.
 - `connects-to` → **[Endocrine System](../endocrine-system/README.md)** — Liver-dominant spread disrupts metabolism: uveal melanoma metastasises overwhelmingly to the liver, whose failure in advanced disease deranges glucose and hormone metabolism.
 - `connects-to` → **[Toxoplasma gondii](../../../02-pathogen/04-parasites/toxoplasma-gondii/README.md)** — Ocular masses have infectious mimics: chorioretinitis from toxoplasmosis is among the differentials of a pigmented or inflammatory intraocular lesion that uveal melanoma must be distinguished from.
+- `connects-to` → **[Checkpoint Inhibitors](../../../03-medicine/01-modern/13-cancer/checkpoint-inhibitors/README.md)** — Unlike skin melanoma, it resists checkpoints: uveal melanoma carries a low mutational burden and an immunosuppressive microenvironment, so PD-1 and CTLA-4 blockade that transforms cutaneous melanoma works poorly — the gap that drove tebentafusp's development.
+- `connects-to` → **[Cancer Chemotherapy](../../../03-medicine/01-modern/13-cancer/cancer-chemotherapy/README.md)** — Largely chemoresistant: conventional cytotoxic chemotherapy such as dacarbazine, of limited use in any melanoma, achieves little in metastatic uveal melanoma, leaving liver-directed and T-cell-redirecting approaches as the mainstays.
+- `connects-to` → **[Hepatic Lobule](../../05-tissue/hepatic-lobule/README.md)** — It seeds the liver sinusoids: uveal melanoma cells lodge in the hepatic sinusoids and grow within the lobule as micrometastases that can smoulder for years, the reason serial liver MRI surveillance underpins follow-up after the eye is treated.
 
 ---
 

@@ -238,6 +238,15 @@ cross_links:
   - target: 01-human/07-system/respiratory-system
     relation: connects-to
     note: "It shadows the lungs: type 2 diabetes is strongly associated with obstructive sleep apnoea and raises the risk of pneumonia and tuberculosis through impaired immunity."
+  - target: 03-medicine/01-modern/04-cardio/statins
+    relation: connects-to
+    note: "A cardiovascular risk equivalent: type 2 diabetes accelerates atherosclerosis so much that most patients over 40 are offered a statin for primary prevention, lipid-lowering being as central to outcomes as glucose control."
+  - target: 01-human/05-tissue/glomerulus
+    relation: connects-to
+    note: "It scars the filtering unit: chronic hyperglycaemia thickens the glomerular basement membrane and expands the mesangium, producing the Kimmelstiel-Wilson nodules and hyperfiltration that precede the proteinuria of diabetic nephropathy."
+  - target: 01-human/07-system/type-1-diabetes
+    relation: connects-to
+    note: "Two diseases, one hyperglycaemia: type 2 diabetes arises from insulin resistance with relative insulin deficiency, whereas type 1 is autoimmune destruction of beta cells causing absolute deficiency — distinct causes converging on high glucose and shared complications."
 ---
 
 # Type 2 Diabetes
@@ -414,6 +423,9 @@ T2DM, CKD, heart failure, and obesity form the **cardiorenal metabolic (CRM) syn
 - `connects-to` → **[Metformin](../../../03-medicine/01-modern/07-metabolic/metformin/README.md)** — First-line lowers the glucose: metformin reduces hepatic glucose output and improves insulin sensitivity, the foundation drug for type 2 diabetes with cardiovascular benefit.
 - `connects-to` → **[Renal System](../renal-system/README.md)** — It is the leading cause of kidney failure: diabetic nephropathy from chronic hyperglycaemia damages the glomeruli, the commonest cause of end-stage renal disease worldwide.
 - `connects-to` → **[Respiratory System](../respiratory-system/README.md)** — It shadows the lungs: type 2 diabetes is strongly associated with obstructive sleep apnoea and raises the risk of pneumonia and tuberculosis through impaired immunity.
+- `connects-to` → **[Statins](../../../03-medicine/01-modern/04-cardio/statins/README.md)** — A cardiovascular risk equivalent: type 2 diabetes accelerates atherosclerosis so much that most patients over 40 are offered a statin for primary prevention, lipid-lowering being as central to outcomes as glucose control.
+- `connects-to` → **[Glomerulus](../../05-tissue/glomerulus/README.md)** — It scars the filtering unit: chronic hyperglycaemia thickens the glomerular basement membrane and expands the mesangium, producing the Kimmelstiel-Wilson nodules and hyperfiltration that precede the proteinuria of diabetic nephropathy.
+- `connects-to` → **[Type 1 Diabetes](../type-1-diabetes/README.md)** — Two diseases, one hyperglycaemia: type 2 diabetes arises from insulin resistance with relative insulin deficiency, whereas type 1 is autoimmune destruction of beta cells causing absolute deficiency — distinct causes converging on high glucose and shared complications.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
