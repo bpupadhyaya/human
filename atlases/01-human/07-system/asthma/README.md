@@ -241,6 +241,15 @@ cross_links:
   - target: 03-medicine/01-modern/04-cardio/aspirin
     relation: connects-to
     note: "Aspirin can set off asthma: in aspirin-exacerbated respiratory disease (Samter's triad), NSAIDs trigger severe bronchospasm in asthmatics with nasal polyps."
+  - target: 03-medicine/01-modern/13-cancer/targeted-therapy
+    relation: connects-to
+    note: "Biologics for severe type-2 disease: monoclonal antibodies against IgE (omalizumab), IL-5 (mepolizumab), IL-4Rα (dupilumab) and TSLP (tezepelumab) control severe eosinophilic and allergic asthma that escapes inhaled steroids."
+  - target: 01-human/05-tissue/lung-slice
+    relation: connects-to
+    note: "It remodels the airway wall: chronic asthma thickens airway smooth muscle, deposits subepithelial collagen and fills the lumen with mucus — the bronchial-wall remodelling that turns reversible bronchospasm into fixed airflow obstruction."
+  - target: 01-human/07-system/cystic-fibrosis
+    relation: connects-to
+    note: "A contrasting chronic airway disease: asthma is reversible bronchospasm of type-2 inflammation, whereas cystic fibrosis is a genetic defect of mucus clearance causing infection and bronchiectasis — though they overlap when Aspergillus drives ABPA in both."
 ---
 
 # Asthma
@@ -424,6 +433,9 @@ Asthma affects approximately **339 million people worldwide** (WHO 2019) and is 
 - `connects-to` → **[Corticosteroids](../../../03-medicine/01-modern/02-respiratory/corticosteroids/README.md)** — Inhaled steroids are the controller: they suppress airway inflammation as the foundation of asthma maintenance, with systemic steroids for acute severe attacks.
 - `connects-to` → **[Beta-blockers](../../../03-medicine/01-modern/04-cardio/beta-blockers/README.md)** — Some drugs can trigger an attack: non-selective beta-blockers can provoke bronchospasm and are used with caution or avoided in asthma.
 - `connects-to` → **[Aspirin](../../../03-medicine/01-modern/04-cardio/aspirin/README.md)** — Aspirin can set off asthma: in aspirin-exacerbated respiratory disease (Samter's triad), NSAIDs trigger severe bronchospasm in asthmatics with nasal polyps.
+- `connects-to` → **[Targeted Therapy](../../../03-medicine/01-modern/13-cancer/targeted-therapy/README.md)** — Biologics for severe type-2 disease: monoclonal antibodies against IgE (omalizumab), IL-5 (mepolizumab), IL-4Rα (dupilumab) and TSLP (tezepelumab) control severe eosinophilic and allergic asthma that escapes inhaled steroids.
+- `connects-to` → **[Lung Slice](../../05-tissue/lung-slice/README.md)** — It remodels the airway wall: chronic asthma thickens airway smooth muscle, deposits subepithelial collagen and fills the lumen with mucus — the bronchial-wall remodelling that turns reversible bronchospasm into fixed airflow obstruction.
+- `connects-to` → **[Cystic Fibrosis](../cystic-fibrosis/README.md)** — A contrasting chronic airway disease: asthma is reversible bronchospasm of type-2 inflammation, whereas cystic fibrosis is a genetic defect of mucus clearance causing infection and bronchiectasis — though they overlap when Aspergillus drives ABPA in both.
 
 [^gina-2023-asthma]: Global Initiative for Asthma. Global Strategy for Asthma Management and Prevention. 2023. [ginasthma.org](https://ginasthma.org/2023-gina-main-report/)
 [^wenzel-2012-asthma-phenotypes]: Wenzel SE. Asthma phenotypes: the evolution from clinical to molecular approaches. *Nat Med.* 2012;18(5):716-725. [doi:10.1038/nm.2678](https://doi.org/10.1038/nm.2678) · [PubMed 22561835](https://pubmed.ncbi.nlm.nih.gov/22561835/)

@@ -241,6 +241,15 @@ cross_links:
   - target: 01-human/07-system/renal-system
     relation: connects-to
     note: "Overdose threatens the kidney: impulsive self-poisoning, common in borderline personality disorder, can cause acute kidney injury from paracetamol, lithium or NSAID toxicity."
+  - target: 01-human/07-system/gambling-disorder
+    relation: connects-to
+    note: "Shared impulsivity: the impulsive, reward-seeking, self-damaging behaviour of borderline personality disorder overlaps with gambling disorder, both reflecting dysregulated reward and impulse-control circuitry and frequently co-occurring."
+  - target: 01-human/07-system/internet-gaming-disorder
+    relation: connects-to
+    note: "Another outlet for dysregulation: excessive gaming can serve as escape and emotional regulation in borderline personality disorder, part of the broader pattern of behavioural addictions used to manage unbearable affect and emptiness."
+  - target: 03-medicine/03-food/omega-3-fatty-acids
+    relation: connects-to
+    note: "A modest adjunct: omega-3 supplementation has shown small benefits on the affective instability, impulsivity and aggression of borderline personality disorder in trials, a low-risk add-on to the psychotherapy that remains primary."
 ---
 
 # Borderline Personality Disorder
@@ -455,6 +464,9 @@ This model directly informs DBT treatment: validate emotional experience (the bi
 - `connects-to` → **[Fluoxetine](../../../03-medicine/01-modern/10-mental-health/fluoxetine/README.md)** — No drug cures it, but symptoms are treated: SSRIs like fluoxetine are used for the depression, impulsivity and mood instability of borderline personality disorder, alongside the mainstay of psychotherapy.
 - `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — It carries a heavy somatic-pain burden: borderline personality disorder strongly overlaps fibromyalgia and chronic widespread pain, and self-harm causes recurrent soft-tissue injury.
 - `connects-to` → **[Renal System](../renal-system/README.md)** — Overdose threatens the kidney: impulsive self-poisoning, common in borderline personality disorder, can cause acute kidney injury from paracetamol, lithium or NSAID toxicity.
+- `connects-to` → **[Gambling Disorder](../gambling-disorder/README.md)** — Shared impulsivity: the impulsive, reward-seeking, self-damaging behaviour of borderline personality disorder overlaps with gambling disorder, both reflecting dysregulated reward and impulse-control circuitry and frequently co-occurring.
+- `connects-to` → **[Internet Gaming Disorder](../internet-gaming-disorder/README.md)** — Another outlet for dysregulation: excessive gaming can serve as escape and emotional regulation in borderline personality disorder, part of the broader pattern of behavioural addictions used to manage unbearable affect and emptiness.
+- `connects-to` → **[Omega-3 fatty acids](../../../03-medicine/03-food/omega-3-fatty-acids/README.md)** — A modest adjunct: omega-3 supplementation has shown small benefits on the affective instability, impulsivity and aggression of borderline personality disorder in trials, a low-risk add-on to the psychotherapy that remains primary.
 
 [^linehan-1993-dbt]: Linehan MM. *Cognitive-Behavioral Treatment of Borderline Personality Disorder.* Guilford; 1993. [PubMed 8192506](https://pubmed.ncbi.nlm.nih.gov/8192506/)
 [^skodol-2002-bpd-neurobiology]: Siever LJ, Davis KL. A psychobiological perspective on the personality disorders. *Am J Psychiatry.* 1991;148(12):1647-1658. [doi:10.1176/ajp.148.12.1647](https://doi.org/10.1176/ajp.148.12.1647) · [PubMed 1957927](https://pubmed.ncbi.nlm.nih.gov/1957927/)
