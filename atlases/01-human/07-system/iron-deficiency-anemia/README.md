@@ -219,6 +219,15 @@ cross_links:
   - target: 01-human/07-system/renal-system
     relation: connects-to
     note: "Kidney disease drives and complicates it: chronic kidney disease causes anaemia through low erythropoietin and functional iron deficiency, so intravenous iron is central to its management."
+  - target: 03-medicine/01-modern/12-anti-inflammatory/ibuprofen
+    relation: connects-to
+    note: "NSAIDs erode the gut lining: ibuprofen and related drugs cause gastric and duodenal ulcers whose slow bleeding is a leading drug-induced cause of iron-deficiency anemia."
+  - target: 03-medicine/01-modern/04-cardio/aspirin
+    relation: connects-to
+    note: "Antiplatelet therapy bleeds slowly: regular aspirin promotes chronic occult gastrointestinal blood loss, a frequent and easily missed source of iron-deficiency anemia in older adults."
+  - target: 01-human/07-system/lymphatic-system
+    relation: connects-to
+    note: "The spleen recycles most of the body's iron: its reticuloendothelial macrophages salvage iron from worn-out red cells, and these stores are drawn down before the marrow runs short."
 ---
 
 # Iron Deficiency Anemia
@@ -406,6 +415,9 @@ Iron is essential for:
 - `connects-to` → **[Cardiovascular System](../cardiovascular-system/README.md)** — It forces the heart to overwork: to deliver oxygen with fewer red cells, iron-deficiency anaemia drives a high-output state with tachycardia and a flow murmur, and worsens angina in severe cases.
 - `connects-to` → **[Respiratory System](../respiratory-system/README.md)** — It starves tissues of oxygen: reduced haemoglobin lowers oxygen-carrying capacity, producing exertional breathlessness and fatigue out of proportion to any lung disease.
 - `connects-to` → **[Renal System](../renal-system/README.md)** — Kidney disease drives and complicates it: chronic kidney disease causes anaemia through low erythropoietin and functional iron deficiency, so intravenous iron is central to its management.
+- `connects-to` → **[Ibuprofen](../../../03-medicine/01-modern/12-anti-inflammatory/ibuprofen/README.md)** — NSAIDs erode the gut lining: ibuprofen and related drugs cause gastric and duodenal ulcers whose slow bleeding is a leading drug-induced cause of iron-deficiency anemia.
+- `connects-to` → **[Aspirin](../../../03-medicine/01-modern/04-cardio/aspirin/README.md)** — Antiplatelet therapy bleeds slowly: regular aspirin promotes chronic occult gastrointestinal blood loss, a frequent and easily missed source of iron-deficiency anemia in older adults.
+- `connects-to` → **[Lymphatic System](../lymphatic-system/README.md)** — The spleen recycles most of the body's iron: its reticuloendothelial macrophages salvage iron from worn-out red cells, and these stores are drawn down before the marrow runs short.
 
 [^camaschella-2015-iron-deficiency]: Camaschella C. Iron-deficiency anemia. *N Engl J Med.* 2015;372(19):1832-1843. [doi:10.1056/NEJMra1401038](https://doi.org/10.1056/NEJMra1401038) · [PubMed 25946282](https://pubmed.ncbi.nlm.nih.gov/25946282/)
 [^who-ferritin-guideline-2020]: World Health Organization. WHO guideline on use of ferritin concentrations to assess iron status in individuals and populations. WHO; 2020. [WHO publication](https://www.who.int/publications/i/item/9789240000124)

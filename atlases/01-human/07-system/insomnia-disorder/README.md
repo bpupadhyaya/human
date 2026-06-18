@@ -229,6 +229,15 @@ cross_links:
   - target: 01-human/07-system/integumentary-system
     relation: connects-to
     note: "Lost sleep shows on the skin: sleep deprivation flares inflammatory skin disease and the itch of eczema disrupts sleep in return, and chronic sleep loss accelerates skin ageing."
+  - target: 01-human/07-system/lymphatic-system
+    relation: connects-to
+    note: "Sleep cleans the brain: the glymphatic system clears metabolic waste, including amyloid-beta, most actively during deep sleep, so chronic insomnia may impair this nightly housekeeping."
+  - target: 01-human/07-system/renal-system
+    relation: connects-to
+    note: "A full bladder breaks sleep: nocturia is a leading cause of fragmented sleep, and the kidney's circadian fall in night-time urine output is itself disturbed by poor sleep."
+  - target: 03-medicine/03-food/magnesium-dietary
+    relation: connects-to
+    note: "Diet draws interest: magnesium supplementation has been trialled as a gentle sleep aid, with modest evidence for easing insomnia in older adults."
 ---
 
 # Insomnia Disorder
@@ -436,6 +445,9 @@ CBT-I directly targets perpetuating factors.
 - `connects-to` → **[Respiratory System](../respiratory-system/README.md)** — It often hides sleep apnoea: insomnia frequently coexists with obstructive sleep apnoea — comorbid insomnia and sleep apnoea (COMISA) — and each worsens the other and resists single treatments.
 - `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — Sleeplessness amplifies pain: poor sleep lowers the pain threshold and worsens chronic musculoskeletal pain, while that pain disrupts sleep in turn, a self-reinforcing loop.
 - `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — Lost sleep shows on the skin: sleep deprivation flares inflammatory skin disease and the itch of eczema disrupts sleep in return, and chronic sleep loss accelerates skin ageing.
+- `connects-to` → **[Lymphatic System](../lymphatic-system/README.md)** — Sleep cleans the brain: the glymphatic system clears metabolic waste, including amyloid-beta, most actively during deep sleep, so chronic insomnia may impair this nightly housekeeping.
+- `connects-to` → **[Renal System](../renal-system/README.md)** — A full bladder breaks sleep: nocturia is a leading cause of fragmented sleep, and the kidney's circadian fall in night-time urine output is itself disturbed by poor sleep.
+- `connects-to` → **[Dietary Magnesium](../../../03-medicine/03-food/magnesium-dietary/README.md)** — Diet draws interest: magnesium supplementation has been trialled as a gentle sleep aid, with modest evidence for easing insomnia in older adults.
 
 [^riemann-2017-insomnia-lancet]: Riemann D, Baglioni C, Bassetti C, et al. European guideline for the diagnosis and treatment of insomnia. *J Sleep Res.* 2017;26(6):675-700. [doi:10.1111/jsr.12594](https://doi.org/10.1111/jsr.12594) · [PubMed 28875581](https://pubmed.ncbi.nlm.nih.gov/28875581/)
 [^trauer-2015-cbti-meta]: Trauer JM, Qian MY, Doyle JS, et al. Cognitive behavioral therapy for chronic insomnia. *Ann Intern Med.* 2015;163(3):191-204. [doi:10.7326/M14-2841](https://doi.org/10.7326/M14-2841) · [PubMed 26054060](https://pubmed.ncbi.nlm.nih.gov/26054060/)
