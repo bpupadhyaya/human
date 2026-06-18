@@ -234,6 +234,15 @@ cross_links:
   - target: 01-human/07-system/tuberculosis
     relation: connects-to
     note: "Uraemia suppresses immunity: the impaired T-cell function of advanced kidney disease and dialysis raises the risk of reactivating latent tuberculosis."
+  - target: 03-medicine/01-modern/04-cardio/ace-inhibitors
+    relation: connects-to
+    note: "The cornerstone of renoprotection: ACE inhibitors block angiotensin II, lowering glomerular pressure and proteinuria to slow CKD progression, the foundation of treatment in diabetic and proteinuric kidney disease."
+  - target: 03-medicine/03-food/dietary-fiber
+    relation: connects-to
+    note: "The gut shapes uraemic toxicity: a high-fibre diet shifts the microbiome to make fewer protein-bound uraemic toxins like indoxyl sulfate, of interest in slowing CKD and its cardiovascular complications."
+  - target: 02-pathogen/01-viruses/hepatitis-c-virus
+    relation: connects-to
+    note: "A virus that scars the kidney: chronic hepatitis C causes membranoproliferative glomerulonephritis and cryoglobulinaemic kidney disease, a treatable infectious driver of chronic kidney disease."
 ---
 
 # Chronic Kidney Disease
@@ -382,6 +391,9 @@ As nephron mass decreases, impaired renal functions accumulate:
 - `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — It marks the skin: uraemia brings intractable pruritus and 'uraemic frost', while disordered calcium and phosphate can cause calciphylaxis, painful necrotic skin ulcers in advanced kidney failure.
 - `connects-to` → **[Hepatitis B virus](../../../02-pathogen/01-viruses/hepatitis-b-virus/README.md)** — Dialysis carries a transmission risk: shared circuits and frequent vascular access historically spread hepatitis B and C between patients, so units screen, isolate and vaccinate against HBV.
 - `connects-to` → **[Tuberculosis](../tuberculosis/README.md)** — Uraemia suppresses immunity: the impaired T-cell function of advanced kidney disease and dialysis raises the risk of reactivating latent tuberculosis.
+- `connects-to` → **[ACE Inhibitors](../../../03-medicine/01-modern/04-cardio/ace-inhibitors/README.md)** — The cornerstone of renoprotection: ACE inhibitors block angiotensin II, lowering glomerular pressure and proteinuria to slow CKD progression, the foundation of treatment in diabetic and proteinuric kidney disease.
+- `connects-to` → **[Dietary Fiber](../../../03-medicine/03-food/dietary-fiber/README.md)** — The gut shapes uraemic toxicity: a high-fibre diet shifts the microbiome to make fewer protein-bound uraemic toxins like indoxyl sulfate, of interest in slowing CKD and its cardiovascular complications.
+- `connects-to` → **[Hepatitis C Virus](../../../02-pathogen/01-viruses/hepatitis-c-virus/README.md)** — A virus that scars the kidney: chronic hepatitis C causes membranoproliferative glomerulonephritis and cryoglobulinaemic kidney disease, a treatable infectious driver of chronic kidney disease.
 
 ## Pathology
 

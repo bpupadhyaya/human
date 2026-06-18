@@ -229,6 +229,15 @@ cross_links:
   - target: 01-human/07-system/integumentary-system
     relation: connects-to
     note: "It can surface at the navel: like other intra-abdominal cancers it occasionally seeds a Sister Mary Joseph nodule at the umbilicus, a visible sign of peritoneal spread."
+  - target: 03-medicine/01-modern/13-cancer/checkpoint-inhibitors
+    relation: connects-to
+    note: "Mismatch-repair loss makes it immunogenic: about a quarter of endometrial cancers are dMMR/MSI-high and respond strongly to PD-1 inhibitors like pembrolizumab, now central to advanced and Lynch-associated disease."
+  - target: 03-medicine/01-modern/13-cancer/targeted-therapy
+    relation: connects-to
+    note: "Molecular drivers guide newer drugs: lenvatinib (anti-VEGFR) with pembrolizumab, mTOR inhibitors for PTEN-altered tumours and anti-HER2 antibody-drug conjugates for HER2-positive serous cancer extend treatment options."
+  - target: 03-medicine/01-modern/07-metabolic/metformin
+    relation: connects-to
+    note: "A diabetes drug studied against it: metformin lowers the insulin and IGF-1 signalling that fuels endometrial cancer, and is investigated as adjunct and chemoprevention in the obese, insulin-resistant women most at risk."
 ---
 
 # Endometrial Cancer
@@ -424,6 +433,9 @@ cross_links:
 - `connects-to` → **[Cardiovascular System](../cardiovascular-system/README.md)** — Shared metabolic roots: the obesity, insulin resistance and unopposed oestrogen that drive type-I endometrial cancer are the same risk cluster behind cardiovascular disease, a leading cause of death in survivors.
 - `connects-to` → **[Digestive System](../digestive-system/README.md)** — Advanced disease spreads within the abdomen: endometrial cancer seeds the omentum and bowel surfaces, and platinum-taxane chemotherapy brings nausea and mucositis.
 - `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — It can surface at the navel: like other intra-abdominal cancers it occasionally seeds a Sister Mary Joseph nodule at the umbilicus, a visible sign of peritoneal spread.
+- `connects-to` → **[Checkpoint Inhibitors](../../../03-medicine/01-modern/13-cancer/checkpoint-inhibitors/README.md)** — Mismatch-repair loss makes it immunogenic: about a quarter of endometrial cancers are dMMR/MSI-high and respond strongly to PD-1 inhibitors like pembrolizumab, now central to advanced and Lynch-associated disease.
+- `connects-to` → **[Targeted Therapy](../../../03-medicine/01-modern/13-cancer/targeted-therapy/README.md)** — Molecular drivers guide newer drugs: lenvatinib (anti-VEGFR) with pembrolizumab, mTOR inhibitors for PTEN-altered tumours and anti-HER2 antibody-drug conjugates for HER2-positive serous cancer extend treatment options.
+- `connects-to` → **[Metformin](../../../03-medicine/01-modern/07-metabolic/metformin/README.md)** — A diabetes drug studied against it: metformin lowers the insulin and IGF-1 signalling that fuels endometrial cancer, and is investigated as adjunct and chemoprevention in the obese, insulin-resistant women most at risk.
 
 [^konstantinopoulos-2019-dostarlimab]: Konstantinopoulos PA, Lheureux S, Moore KN. PARP inhibitors for ovarian and endometrial cancers: state of the art and clinical perspectives. *J Clin Oncol.* 2020;38(25):2896-2909. [doi:10.1200/JCO.20.00571](https://doi.org/10.1200/JCO.20.00571) · [PubMed 32706635](https://pubmed.ncbi.nlm.nih.gov/32706635/)
 [^eskander-2023-ruby]: Eskander RN, Sill MW, Beffa L, et al. Pembrolizumab plus chemotherapy in advanced endometrial cancer. *N Engl J Med.* 2023;388(23):2159-2170. [doi:10.1056/NEJMoa2302312](https://doi.org/10.1056/NEJMoa2302312) · [PubMed 37166384](https://pubmed.ncbi.nlm.nih.gov/37166384/)
