@@ -203,6 +203,15 @@ cross_links:
   - target: 01-human/07-system/major-depressive-disorder
     relation: connects-to
     note: "Chronic swelling and disfigurement weigh on mood: the disabling, visible and progressive nature of lymphedema, and the burden of lymphatic cancers, contribute to depression and reduced quality of life."
+  - target: 01-human/07-system/musculoskeletal-system
+    relation: connects-to
+    note: "The skeleton houses its factory and its drainage burdens the limbs: bone marrow is the primary lymphoid organ that makes lymphocytes, and limb lymphatics, when they fail, swell the soft tissues with lymphedema."
+  - target: 01-human/07-system/respiratory-system
+    relation: connects-to
+    note: "The chest holds its great vessel: the thoracic duct returns lymph to the bloodstream in the chest, so its injury causes chylothorax, and pulmonary lymphatics clear the lung's interstitial fluid."
+  - target: 01-human/07-system/integumentary-system
+    relation: connects-to
+    note: "It drains the skin and shows there when it fails: dermal lymphatics clear fluid and immune cells from the skin, so lymphedema thickens and hardens it and breached skin lets lymphangitis track up the limb."
 ---
 
 # Lymphatic System
@@ -374,6 +383,9 @@ Enterocytes package dietary triglycerides + cholesterol + apoB-48 into chylomicr
 - `connects-to` → **[Wound Healing](../wound-healing/README.md)** — When lymph drainage fails, the skin breaks down: lymphedema from damaged or removed lymphatics causes chronic swelling, fibrotic skin changes and ulcers that heal poorly without drainage.
 - `connects-to` → **[Staphylococcus aureus](../../../02-pathogen/02-bacteria/staphylococcus-aureus/README.md)** — Stagnant lymph invites recurrent infection: lymphedema impairs immune surveillance in the swollen limb, predisposing to repeated cellulitis and erysipelas, often from staphylococci and streptococci.
 - `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — Chronic swelling and disfigurement weigh on mood: the disabling, visible and progressive nature of lymphedema, and the burden of lymphatic cancers, contribute to depression and reduced quality of life.
+- `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — The skeleton houses its factory and its drainage burdens the limbs: bone marrow is the primary lymphoid organ that makes lymphocytes, and limb lymphatics, when they fail, swell the soft tissues with lymphedema.
+- `connects-to` → **[Respiratory System](../respiratory-system/README.md)** — The chest holds its great vessel: the thoracic duct returns lymph to the bloodstream in the chest, so its injury causes chylothorax, and pulmonary lymphatics clear the lung's interstitial fluid.
+- `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — It drains the skin and shows there when it fails: dermal lymphatics clear fluid and immune cells from the skin, so lymphedema thickens and hardens it and breached skin lets lymphangitis track up the limb.
 
 ## Pathology
 

@@ -205,6 +205,15 @@ cross_links:
   - target: 01-human/07-system/neuropathic-pain
     relation: connects-to
     note: "Its chemotherapy injures the nerves: the vincristine, platinum and taxane agents used across the sarcomas and carcinomas of Li-Fraumeni cause peripheral neuropathy with neuropathic pain."
+  - target: 01-human/07-system/endocrine-system
+    relation: connects-to
+    note: "Adrenocortical carcinoma is a hallmark: TP53 mutation makes adrenocortical carcinoma a defining childhood Li-Fraumeni tumour, often hormonally active with Cushing's syndrome or virilisation."
+  - target: 01-human/07-system/wound-healing
+    relation: connects-to
+    note: "Surgery is favoured over radiation: because radiation induces new cancers in TP53 carriers, Li-Fraumeni management leans on surgical resection, leaving a lifetime of wounds to heal."
+  - target: 02-pathogen/01-viruses/varicella-zoster-virus
+    relation: connects-to
+    note: "Repeated chemo reawakens shingles: the recurrent chemotherapy for the many cancers of Li-Fraumeni deeply suppresses T-cell immunity, allowing latent varicella-zoster to reactivate."
 ---
 
 # Li-Fraumeni Syndrome
@@ -418,6 +427,9 @@ Annual surveillance significantly reduces mortality in LFS carriers (Villani 201
 - `connects-to` → **[Generalized Anxiety Disorder](../generalized-anxiety-disorder/README.md)** — Relentless cancer risk and surveillance breed worry: living with a near-certain lifetime risk of multiple cancers and the demanding whole-body screening of Li-Fraumeni fosters profound health anxiety.
 - `connects-to` → **[Aspergillus fumigatus](../../../02-pathogen/03-fungi/aspergillus-fumigatus/README.md)** — Treating its many cancers opens the lung to mold: the repeated chemotherapy for the diverse malignancies of Li-Fraumeni causes neutropenia that can let inhaled Aspergillus invade.
 - `connects-to` → **[Neuropathic Pain](../neuropathic-pain/README.md)** — Its chemotherapy injures the nerves: the vincristine, platinum and taxane agents used across the sarcomas and carcinomas of Li-Fraumeni cause peripheral neuropathy with neuropathic pain.
+- `connects-to` → **[Endocrine System](../endocrine-system/README.md)** — Adrenocortical carcinoma is a hallmark: TP53 mutation makes adrenocortical carcinoma a defining childhood Li-Fraumeni tumour, often hormonally active with Cushing's syndrome or virilisation.
+- `connects-to` → **[Wound Healing](../wound-healing/README.md)** — Surgery is favoured over radiation: because radiation induces new cancers in TP53 carriers, Li-Fraumeni management leans on surgical resection, leaving a lifetime of wounds to heal.
+- `connects-to` → **[Varicella-Zoster Virus](../../../02-pathogen/01-viruses/varicella-zoster-virus/README.md)** — Repeated chemo reawakens shingles: the recurrent chemotherapy for the many cancers of Li-Fraumeni deeply suppresses T-cell immunity, allowing latent varicella-zoster to reactivate.
 
 [^bougeard-2015-lfs-chompret]: Bougeard G, Renaux-Petel M, Flaman JM, et al. Revisiting Li-Fraumeni Syndrome From TP53 Mutation Carriers. *J Clin Oncol.* 2015;33(21):2345-2352. [doi:10.1200/JCO.2014.59.5728](https://doi.org/10.1200/JCO.2014.59.5728) · [PubMed 26014290](https://pubmed.ncbi.nlm.nih.gov/26014290/)
 [^villani-2016-lfs-surveillance]: Villani A, Shore A, Wasserman JD, et al. Biochemical and imaging surveillance in germline TP53 mutation carriers with Li-Fraumeni syndrome: 11 year follow-up of a prospective observational study. *Lancet Oncol.* 2016;17(9):1295-1305. [doi:10.1016/S1470-2045(16)30249-2](https://doi.org/10.1016/S1470-2045(16)30249-2) · [PubMed 27501770](https://pubmed.ncbi.nlm.nih.gov/27501770/)
