@@ -223,6 +223,15 @@ cross_links:
   - target: 01-human/07-system/integumentary-system
     relation: connects-to
     note: "It leaves marks on the skin: chilblain-like 'COVID toes', maculopapular eruptions and urticaria are recognised cutaneous signs, sometimes appearing when respiratory symptoms are mild."
+  - target: 01-human/07-system/lymphatic-system
+    relation: connects-to
+    note: "It depletes the lymphocytes: lymphopenia is a hallmark laboratory finding and prognostic marker in COVID-19, reflecting the immune dysregulation of severe disease."
+  - target: 01-human/07-system/renal-system
+    relation: connects-to
+    note: "It can shut down the kidney: severe COVID-19 causes acute kidney injury, and a collapsing glomerulopathy occurs in people carrying high-risk APOL1 variants."
+  - target: 01-human/07-system/endocrine-system
+    relation: connects-to
+    note: "It unsettles glucose and the thyroid: COVID-19 can precipitate new-onset hyperglycaemia and diabetes, and subacute thyroiditis can follow the infection."
 ---
 
 # COVID-19 Disease
@@ -356,6 +365,9 @@ Symptoms persisting >4 weeks: fatigue (most common), cognitive impairment ("brai
 - `connects-to` → **[Cardiovascular System](../cardiovascular-system/README.md)** — It strikes the heart directly: COVID-19 can cause acute myocarditis, arrhythmias and a raised risk of myocardial infarction, with troponin rises marking myocardial injury in severe disease.
 - `connects-to` → **[Digestive System](../digestive-system/README.md)** — It enters and irritates the gut: ACE2 on intestinal and liver cells lets SARS-CoV-2 cause diarrhoea and nausea and raise transaminases, sometimes as the presenting features of COVID-19.
 - `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — It leaves marks on the skin: chilblain-like 'COVID toes', maculopapular eruptions and urticaria are recognised cutaneous signs, sometimes appearing when respiratory symptoms are mild.
+- `connects-to` → **[Lymphatic System](../lymphatic-system/README.md)** — It depletes the lymphocytes: lymphopenia is a hallmark laboratory finding and prognostic marker in COVID-19, reflecting the immune dysregulation of severe disease.
+- `connects-to` → **[Renal System](../renal-system/README.md)** — It can shut down the kidney: severe COVID-19 causes acute kidney injury, and a collapsing glomerulopathy occurs in people carrying high-risk APOL1 variants.
+- `connects-to` → **[Endocrine System](../endocrine-system/README.md)** — It unsettles glucose and the thyroid: COVID-19 can precipitate new-onset hyperglycaemia and diabetes, and subacute thyroiditis can follow the infection.
 
 ## Pathology
 

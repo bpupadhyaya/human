@@ -223,6 +223,15 @@ cross_links:
   - target: 01-human/07-system/immune-system
     relation: connects-to
     note: "Mismatch-repair failure makes it visible: MSI-high colorectal tumours carry many neoantigens and respond strongly to checkpoint-inhibitor immunotherapy, unlike the common microsatellite-stable cancers."
+  - target: 01-human/07-system/cardiovascular-system
+    relation: connects-to
+    note: "Its chemotherapy can spasm the coronaries: 5-fluorouracil and capecitabine cause coronary vasospasm and cardiotoxicity, and bevacizumab raises blood pressure and thrombosis risk."
+  - target: 01-human/07-system/integumentary-system
+    relation: connects-to
+    note: "Its targeted drugs erupt on the skin: the EGFR inhibitor cetuximab causes a characteristic acneiform rash, and capecitabine causes hand-foot syndrome."
+  - target: 01-human/07-system/nervous-system
+    relation: connects-to
+    note: "Its drugs and spread reach the nerves: oxaliplatin causes a cold-triggered peripheral neuropathy, and advanced rectal cancer can metastasise to the brain."
 ---
 
 # Colorectal Cancer
@@ -407,6 +416,9 @@ The step-wise genetic progression from normal epithelium to carcinoma in CRC was
 - `connects-to` → **[Respiratory System](../respiratory-system/README.md)** — After the liver, it climbs to the lungs: pulmonary metastases are the second commonest distant site in colorectal cancer, and resectable lung deposits are sometimes removed with curative intent.
 - `connects-to` → **[Lymphatic System](../lymphatic-system/README.md)** — The nodes decide its fate: regional lymph-node involvement is the dominant prognostic factor in colorectal cancer, defining stage III disease and the need for adjuvant chemotherapy after surgery.
 - `connects-to` → **[Immune System](../immune-system/README.md)** — Mismatch-repair failure makes it visible: MSI-high colorectal tumours carry many neoantigens and respond strongly to checkpoint-inhibitor immunotherapy, unlike the common microsatellite-stable cancers.
+- `connects-to` → **[Cardiovascular System](../cardiovascular-system/README.md)** — Its chemotherapy can spasm the coronaries: 5-fluorouracil and capecitabine cause coronary vasospasm and cardiotoxicity, and bevacizumab raises blood pressure and thrombosis risk.
+- `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — Its targeted drugs erupt on the skin: the EGFR inhibitor cetuximab causes a characteristic acneiform rash, and capecitabine causes hand-foot syndrome.
+- `connects-to` → **[Nervous System](../nervous-system/README.md)** — Its drugs and spread reach the nerves: oxaliplatin causes a cold-triggered peripheral neuropathy, and advanced rectal cancer can metastasise to the brain.
 
 ---
 
