@@ -210,6 +210,15 @@ cross_links:
   - target: 01-human/07-system/integumentary-system
     relation: connects-to
     note: "A stimulant can trigger severe rashes: modafinil, used for narcolepsy's daytime sleepiness, carries a warning for serious skin reactions including Stevens-Johnson syndrome."
+  - target: 03-medicine/01-modern/10-mental-health/fluoxetine
+    relation: connects-to
+    note: "SSRIs and SNRIs treat cataplexy: by suppressing REM sleep, antidepressants like fluoxetine reduce the cataplexy, sleep paralysis and hallucinations of narcolepsy."
+  - target: 01-human/07-system/stimulant-use-disorder
+    relation: connects-to
+    note: "Its sleepiness is treated with stimulants: modafinil, methylphenidate and amphetamines promote daytime wakefulness in narcolepsy, linking it to stimulant pharmacology and controlled prescribing."
+  - target: 03-medicine/02-traditional/panax-ginseng
+    relation: connects-to
+    note: "Traditional stimulants are tried for fatigue: ginseng and other adaptogens are used by some for daytime tiredness, though they are no substitute for the established wake-promoting drugs of narcolepsy."
 sources:
   - id: scammell-2015-narcolepsy-review
     type: peer-reviewed
@@ -414,6 +423,9 @@ Cataplexy is the **pathognomonic** feature of NT1 — sudden, bilateral loss of 
 - `connects-to` → **[Digestive System](../digestive-system/README.md)** — Loss of orexin reshapes appetite and the gut: hypocretin deficiency dysregulates appetite and contributes to weight gain, and sodium oxybate, a mainstay treatment, commonly causes nausea.
 - `connects-to` → **[Renal System](../renal-system/README.md)** — Its drug carries a heavy salt load: sodium oxybate delivers a large daily dose of sodium that affects blood pressure and fluid balance, prompting development of lower-sodium formulations.
 - `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — A stimulant can trigger severe rashes: modafinil, used for narcolepsy's daytime sleepiness, carries a warning for serious skin reactions including Stevens-Johnson syndrome.
+- `connects-to` → **[Fluoxetine](../../../03-medicine/01-modern/10-mental-health/fluoxetine/README.md)** — SSRIs and SNRIs treat cataplexy: by suppressing REM sleep, antidepressants like fluoxetine reduce the cataplexy, sleep paralysis and hallucinations of narcolepsy.
+- `connects-to` → **[Stimulant Use Disorder](../stimulant-use-disorder/README.md)** — Its sleepiness is treated with stimulants: modafinil, methylphenidate and amphetamines promote daytime wakefulness in narcolepsy, linking it to stimulant pharmacology and controlled prescribing.
+- `connects-to` → **[Panax Ginseng](../../../03-medicine/02-traditional/panax-ginseng/README.md)** — Traditional stimulants are tried for fatigue: ginseng and other adaptogens are used by some for daytime tiredness, though they are no substitute for the established wake-promoting drugs of narcolepsy.
 
 [^scammell-2015-narcolepsy-review]: Scammell TE. Narcolepsy. *N Engl J Med.* 2015;373(27):2654-2662. [doi:10.1056/NEJMra1500587](https://doi.org/10.1056/NEJMra1500587) · [PubMed 26716917](https://pubmed.ncbi.nlm.nih.gov/26716917/)
 [^dauvilliers-2007-narcolepsy-clinical]: Dauvilliers Y, Arnulf I, Mignot E. Narcolepsy with cataplexy. *Lancet.* 2007;369(9560):499-511. [doi:10.1016/S0140-6736(07)60237-2](https://doi.org/10.1016/S0140-6736(07)60237-2) · [PubMed 17292770](https://pubmed.ncbi.nlm.nih.gov/17292770/)

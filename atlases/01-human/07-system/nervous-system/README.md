@@ -232,6 +232,15 @@ cross_links:
   - target: 02-pathogen/02-bacteria/mycobacterium-tuberculosis
     relation: connects-to
     note: "Tuberculosis can besiege the meninges: tuberculous meningitis is a slow, devastating infection of the basal meninges causing cranial nerve palsies, hydrocephalus and stroke."
+  - target: 02-pathogen/01-viruses/coxsackievirus-b
+    relation: connects-to
+    note: "Enteroviruses inflame the nervous system: Coxsackie and other enteroviruses are leading causes of viral (aseptic) meningitis and can cause encephalitis and acute flaccid paralysis."
+  - target: 03-medicine/03-food/omega-3-fatty-acids
+    relation: connects-to
+    note: "The brain is built from dietary fat: docosahexaenoic acid (DHA), an omega-3, is the dominant structural fatty acid of neuronal membranes, essential for brain development and function."
+  - target: 03-medicine/01-modern/10-mental-health/fluoxetine
+    relation: connects-to
+    note: "Drugs reshape its chemistry: SSRIs like fluoxetine raise synaptic serotonin to treat depression and anxiety, exemplifying how the nervous system is modulated pharmacologically."
 ---
 
 # Nervous System
@@ -339,6 +348,9 @@ Distributed cortical networks underlie language (Broca's area, Wernicke's area, 
 - `connects-to` → **[Herpesviridae](../../../02-pathogen/01-viruses/herpesvirus/README.md)** — A common virus can inflame the brain: herpes simplex is the leading cause of sporadic viral encephalitis, with a predilection for the temporal lobes, and varicella-zoster causes the painful neuralgia of shingles.
 - `connects-to` → **[Measles Virus](../../../02-pathogen/01-viruses/measles-virus/README.md)** — Measles can smoulder in the brain for years: subacute sclerosing panencephalitis is a fatal degenerative brain disease emerging years after measles infection, from persistent virus in neurons.
 - `connects-to` → **[Mycobacterium tuberculosis](../../../02-pathogen/02-bacteria/mycobacterium-tuberculosis/README.md)** — Tuberculosis can besiege the meninges: tuberculous meningitis is a slow, devastating infection of the basal meninges causing cranial nerve palsies, hydrocephalus and stroke.
+- `connects-to` → **[Coxsackievirus B](../../../02-pathogen/01-viruses/coxsackievirus-b/README.md)** — Enteroviruses inflame the nervous system: Coxsackie and other enteroviruses are leading causes of viral (aseptic) meningitis and can cause encephalitis and acute flaccid paralysis.
+- `connects-to` → **[Omega-3 fatty acids](../../../03-medicine/03-food/omega-3-fatty-acids/README.md)** — The brain is built from dietary fat: docosahexaenoic acid (DHA), an omega-3, is the dominant structural fatty acid of neuronal membranes, essential for brain development and function.
+- `connects-to` → **[Fluoxetine](../../../03-medicine/01-modern/10-mental-health/fluoxetine/README.md)** — Drugs reshape its chemistry: SSRIs like fluoxetine raise synaptic serotonin to treat depression and anxiety, exemplifying how the nervous system is modulated pharmacologically.
 
 ## Pathology
 
