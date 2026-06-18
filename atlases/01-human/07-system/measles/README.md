@@ -218,6 +218,15 @@ cross_links:
   - target: 01-human/07-system/digestive-system
     relation: connects-to
     note: "It inflames the gut and depletes vitamin A: measles causes stomatitis, diarrhoea and hepatitis, and it sharply lowers vitamin A, worsening outcomes, so vitamin A is given as treatment."
+  - target: 01-human/07-system/cardiovascular-system
+    relation: connects-to
+    note: "It can inflame the heart: myocarditis and pericarditis are uncommon but recognised complications of measles, causing chest pain, arrhythmia and rarely heart failure."
+  - target: 01-human/07-system/renal-system
+    relation: connects-to
+    note: "Severe disease threatens the kidney: profuse diarrhoea and high fever in measles cause dehydration and acute kidney injury, with rare post-infectious glomerulonephritis."
+  - target: 01-human/07-system/musculoskeletal-system
+    relation: connects-to
+    note: "It aches in the muscles: measles causes prominent myalgia during the febrile prodrome, and rare post-infectious myositis can follow."
 ---
 
 # Measles
@@ -429,6 +438,9 @@ Beyond immune amnesia (memory B cell depletion), MV causes acute immune suppress
 - `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — It announces itself on the skin: measles produces the pathognomonic Koplik spots inside the cheeks followed by a confluent maculopapular rash spreading from the face downward over the body.
 - `connects-to` → **[Respiratory System](../respiratory-system/README.md)** — It attacks the airways and lungs: measles causes croup, bronchitis and a giant-cell pneumonia, and secondary bacterial pneumonia is the leading cause of measles death in children.
 - `connects-to` → **[Digestive System](../digestive-system/README.md)** — It inflames the gut and depletes vitamin A: measles causes stomatitis, diarrhoea and hepatitis, and it sharply lowers vitamin A, worsening outcomes, so vitamin A is given as treatment.
+- `connects-to` → **[Cardiovascular System](../cardiovascular-system/README.md)** — It can inflame the heart: myocarditis and pericarditis are uncommon but recognised complications of measles, causing chest pain, arrhythmia and rarely heart failure.
+- `connects-to` → **[Renal System](../renal-system/README.md)** — Severe disease threatens the kidney: profuse diarrhoea and high fever in measles cause dehydration and acute kidney injury, with rare post-infectious glomerulonephritis.
+- `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — It aches in the muscles: measles causes prominent myalgia during the febrile prodrome, and rare post-infectious myositis can follow.
 
 [^panum-1847-faroe-measles]: Panum PL. Observations made during the epidemic of measles on the Faroe Islands in the year 1846. *Med Classics.* 1939;3:829-886.
 [^mina-2019-immune-amnesia]: Mina MJ, Kula T, Leng Y, et al. Measles virus infection diminishes preexisting antibodies that offer protection from other pathogens. *Science.* 2019;366(6465):599-606. [doi:10.1126/science.aay6485](https://doi.org/10.1126/science.aay6485) · [PubMed 31672891](https://pubmed.ncbi.nlm.nih.gov/31672891/)
