@@ -217,6 +217,15 @@ cross_links:
   - target: 01-human/07-system/endocrine-system
     relation: connects-to
     note: "It clusters with autoimmune thyroid disease: myasthenia gravis frequently coexists with Graves' disease and Hashimoto's thyroiditis, and thyroid dysfunction can itself worsen the muscle weakness."
+  - target: 01-human/07-system/lymphatic-system
+    relation: connects-to
+    note: "The thymus drives the disease: thymic hyperplasia and thymoma generate the autoreactive response against acetylcholine receptors, which is why thymectomy improves outcomes in myasthenia gravis."
+  - target: 01-human/07-system/cardiovascular-system
+    relation: connects-to
+    note: "It can inflame the heart: autoimmune myocarditis occurs especially with thymoma and anti-striational antibodies, causing arrhythmia and heart failure that complicate the disease."
+  - target: 01-human/07-system/integumentary-system
+    relation: connects-to
+    note: "Its thymoma brings skin autoimmunity: thymoma-associated myasthenia can accompany paraneoplastic pemphigus and other cutaneous autoimmune disease, reflecting the syndrome's broad autoreactivity."
 ---
 
 # Myasthenia Gravis
@@ -394,6 +403,9 @@ cross_links:
 - `connects-to` → **[Respiratory System](../respiratory-system/README.md)** — A crisis can paralyse breathing: weakness of the diaphragm and bulbar muscles in a myasthenic crisis causes neuromuscular respiratory failure, the most dangerous manifestation, requiring ventilation.
 - `connects-to` → **[Digestive System](../digestive-system/README.md)** — Bulbar weakness disrupts swallowing: myasthenia gravis weakens the muscles of chewing and swallowing, causing dysphagia and aspiration, while pyridostigmine's cholinergic effect brings cramps and diarrhoea.
 - `connects-to` → **[Endocrine System](../endocrine-system/README.md)** — It clusters with autoimmune thyroid disease: myasthenia gravis frequently coexists with Graves' disease and Hashimoto's thyroiditis, and thyroid dysfunction can itself worsen the muscle weakness.
+- `connects-to` → **[Lymphatic System](../lymphatic-system/README.md)** — The thymus drives the disease: thymic hyperplasia and thymoma generate the autoreactive response against acetylcholine receptors, which is why thymectomy improves outcomes in myasthenia gravis.
+- `connects-to` → **[Cardiovascular System](../cardiovascular-system/README.md)** — It can inflame the heart: autoimmune myocarditis occurs especially with thymoma and anti-striational antibodies, causing arrhythmia and heart failure that complicate the disease.
+- `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — Its thymoma brings skin autoimmunity: thymoma-associated myasthenia can accompany paraneoplastic pemphigus and other cutaneous autoimmune disease, reflecting the syndrome's broad autoreactivity.
 
 [^gilhus-2016-mg-review]: Gilhus NE. Myasthenia Gravis. *N Engl J Med.* 2016;375(26):2570-2581. [doi:10.1056/NEJMra1602678](https://doi.org/10.1056/NEJMra1602678) · [PubMed 28029925](https://pubmed.ncbi.nlm.nih.gov/28029925/)
 [^howard-2021-efgartigimod-adapt]: Howard JF Jr, Bril V, Vu T, et al. Safety, efficacy, and tolerability of efgartigimod in patients with generalised myasthenia gravis (ADAPT). *Lancet Neurol.* 2021;20(7):526-536. [doi:10.1016/S1474-4422(21)00159-9](https://doi.org/10.1016/S1474-4422(21)00159-9) · [PubMed 34146511](https://pubmed.ncbi.nlm.nih.gov/34146511/)

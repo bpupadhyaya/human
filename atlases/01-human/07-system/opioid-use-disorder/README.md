@@ -220,6 +220,15 @@ cross_links:
   - target: 01-human/07-system/musculoskeletal-system
     relation: connects-to
     note: "Injection seeds bone and joint infection: bloodborne spread from injecting drugs causes vertebral osteomyelitis, discitis, epidural abscess and septic arthritis, serious deep musculoskeletal infections."
+  - target: 01-human/07-system/cardiovascular-system
+    relation: connects-to
+    note: "Injection and methadone threaten the heart: injecting drug use causes right-sided infective endocarditis, and methadone prolongs the QT interval, risking dangerous arrhythmias."
+  - target: 01-human/07-system/immune-system
+    relation: connects-to
+    note: "Opioids themselves suppress immunity: opioid receptors on immune cells blunt their function, so opioid use disorder weakens host defence on top of the infections that injecting introduces."
+  - target: 01-human/07-system/lymphatic-system
+    relation: connects-to
+    note: "Repeated injection wrecks the lymphatics: 'puffy hand syndrome' is a chronic, disfiguring lymphoedema of the hands and forearms from injection damage to lymphatic vessels in long-term users."
 ---
 
 # Opioid Use Disorder
@@ -442,6 +451,9 @@ The primary mechanism by which opioids produce euphoria:
 - `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — Injection wounds and infects the skin: injecting drugs causes abscesses, cellulitis, track marks and necrotising soft-tissue infections, with skin-popping leaving chronic ulcers and scarring.
 - `connects-to` → **[Endocrine System](../endocrine-system/README.md)** — Chronic opioids suppress the hormones: long-term opioid use causes opioid-induced androgen deficiency with hypogonadism and low libido, and can suppress the adrenal cortisol axis.
 - `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — Injection seeds bone and joint infection: bloodborne spread from injecting drugs causes vertebral osteomyelitis, discitis, epidural abscess and septic arthritis, serious deep musculoskeletal infections.
+- `connects-to` → **[Cardiovascular System](../cardiovascular-system/README.md)** — Injection and methadone threaten the heart: injecting drug use causes right-sided infective endocarditis, and methadone prolongs the QT interval, risking dangerous arrhythmias.
+- `connects-to` → **[Immune System](../immune-system/README.md)** — Opioids themselves suppress immunity: opioid receptors on immune cells blunt their function, so opioid use disorder weakens host defence on top of the infections that injecting introduces.
+- `connects-to` → **[Lymphatic System](../lymphatic-system/README.md)** — Repeated injection wrecks the lymphatics: 'puffy hand syndrome' is a chronic, disfiguring lymphoedema of the hands and forearms from injection damage to lymphatic vessels in long-term users.
 
 [^volkow-2016-opioid-crisis]: Volkow ND, Collins FS. The role of science in addressing the opioid crisis. *N Engl J Med.* 2017;377(4):391-394. [doi:10.1056/NEJMsr1706626](https://doi.org/10.1056/NEJMsr1706626) · [PubMed 28723324](https://pubmed.ncbi.nlm.nih.gov/28723324/)
 [^mattick-2009-bupe-meta]: Mattick RP, Breen C, Kimber J, Davoli M. Buprenorphine maintenance versus placebo or methadone maintenance for opioid dependence. *Cochrane Database Syst Rev.* 2014;2:CD002207. [doi:10.1002/14651858.CD002207.pub4](https://doi.org/10.1002/14651858.CD002207.pub4) · [PubMed 24500948](https://pubmed.ncbi.nlm.nih.gov/24500948/)
