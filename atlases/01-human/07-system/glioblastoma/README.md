@@ -232,6 +232,15 @@ cross_links:
   - target: 01-human/07-system/reproductive-system
     relation: connects-to
     note: "Chemotherapy can impair fertility: the temozolomide used against glioblastoma is gonadotoxic, a consideration for the younger patients who receive it."
+  - target: 03-medicine/01-modern/13-cancer/cancer-chemotherapy
+    relation: connects-to
+    note: "Temozolomide defines its care: the Stupp protocol — temozolomide chemotherapy with radiation after maximal surgery — is the standard treatment, with benefit greatest in MGMT-methylated tumours."
+  - target: 03-medicine/01-modern/13-cancer/targeted-therapy
+    relation: connects-to
+    note: "Anti-angiogenics for recurrence: bevacizumab against VEGF controls oedema and is used at recurrence, though EGFR and other targeted drugs have largely failed against glioblastoma's heterogeneity."
+  - target: 03-medicine/01-modern/13-cancer/checkpoint-inhibitors
+    relation: connects-to
+    note: "An immunologically cold tumour: PD-1 checkpoint inhibitors have mostly failed in glioblastoma, which has few mutations and a profoundly immunosuppressive microenvironment behind the blood-brain barrier."
 ---
 
 # Glioblastoma
@@ -433,6 +442,9 @@ The blood-brain barrier (BBB) creates a pharmacological challenge:
 - `connects-to` → **[Cardiovascular System](../cardiovascular-system/README.md)** — It is intensely prothrombotic: glioblastoma carries one of the highest rates of venous thromboembolism of any cancer, and corticosteroids for oedema add hypertension.
 - `connects-to` → **[Respiratory System](../respiratory-system/README.md)** — Immobility and immunosuppression threaten the lungs: pulmonary embolism, aspiration in late disease and steroid-related Pneumocystis pneumonia all endanger glioblastoma patients.
 - `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — Chemotherapy can impair fertility: the temozolomide used against glioblastoma is gonadotoxic, a consideration for the younger patients who receive it.
+- `connects-to` → **[Cancer Chemotherapy](../../../03-medicine/01-modern/13-cancer/cancer-chemotherapy/README.md)** — Temozolomide defines its care: the Stupp protocol — temozolomide chemotherapy with radiation after maximal surgery — is the standard treatment, with benefit greatest in MGMT-methylated tumours.
+- `connects-to` → **[Targeted Therapy](../../../03-medicine/01-modern/13-cancer/targeted-therapy/README.md)** — Anti-angiogenics for recurrence: bevacizumab against VEGF controls oedema and is used at recurrence, though EGFR and other targeted drugs have largely failed against glioblastoma's heterogeneity.
+- `connects-to` → **[Checkpoint Inhibitors](../../../03-medicine/01-modern/13-cancer/checkpoint-inhibitors/README.md)** — An immunologically cold tumour: PD-1 checkpoint inhibitors have mostly failed in glioblastoma, which has few mutations and a profoundly immunosuppressive microenvironment behind the blood-brain barrier.
 
 ---
 

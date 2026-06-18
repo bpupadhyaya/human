@@ -232,6 +232,15 @@ cross_links:
   - target: 01-human/07-system/nervous-system
     relation: connects-to
     note: "It springs from the gut's pacemaker cells: GIST arises from the interstitial cells of Cajal that drive peristalsis, and it is over-represented in neurofibromatosis type 1."
+  - target: 03-medicine/01-modern/13-cancer/targeted-therapy
+    relation: connects-to
+    note: "The model of targeted therapy in solid tumours: imatinib against KIT, with sunitinib, regorafenib, avapritinib and ripretinib, transformed GIST from chemoresistant to a manageable cancer."
+  - target: 01-human/07-system/cml
+    relation: connects-to
+    note: "A shared imatinib triumph: GIST (KIT-driven) and chronic myeloid leukaemia (BCR-ABL-driven) were the twin proofs that a single kinase inhibitor could control cancer."
+  - target: 03-medicine/01-modern/13-cancer/cancer-chemotherapy
+    relation: connects-to
+    note: "Conventional chemo fails it: GIST is resistant to cytotoxic chemotherapy, which is why kinase inhibitors rather than chemo became its treatment."
 ---
 
 # GIST
@@ -434,6 +443,9 @@ No approved targeted therapy; sunitinib may have modest activity; clinical trial
 - `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — Its targeted drugs ache the body: imatinib and other KIT inhibitors commonly cause muscle cramps, myalgia and fluid retention with periorbital oedema.
 - `connects-to` → **[Respiratory System](../respiratory-system/README.md)** — It travels in rare syndromes and to the chest: the Carney triad pairs GIST with pulmonary chondroma and paraganglioma, and advanced GIST can metastasise to the lungs.
 - `connects-to` → **[Nervous System](../nervous-system/README.md)** — It springs from the gut's pacemaker cells: GIST arises from the interstitial cells of Cajal that drive peristalsis, and it is over-represented in neurofibromatosis type 1.
+- `connects-to` → **[Targeted Therapy](../../../03-medicine/01-modern/13-cancer/targeted-therapy/README.md)** — The model of targeted therapy in solid tumours: imatinib against KIT, with sunitinib, regorafenib, avapritinib and ripretinib, transformed GIST from chemoresistant to a manageable cancer.
+- `connects-to` → **[CML](../cml/README.md)** — A shared imatinib triumph: GIST (KIT-driven) and chronic myeloid leukaemia (BCR-ABL-driven) were the twin proofs that a single kinase inhibitor could control cancer.
+- `connects-to` → **[Cancer Chemotherapy](../../../03-medicine/01-modern/13-cancer/cancer-chemotherapy/README.md)** — Conventional chemo fails it: GIST is resistant to cytotoxic chemotherapy, which is why kinase inhibitors rather than chemo became its treatment.
 
 ---
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
