@@ -238,6 +238,15 @@ cross_links:
   - target: 03-medicine/01-modern/10-mental-health/fluoxetine
     relation: connects-to
     note: "Antidepressants are double-edged here: an SSRI like fluoxetine can flip a patient into mania or rapid cycling if given without a mood stabiliser, though fluoxetine-olanzapine is approved for bipolar depression."
+  - target: 02-pathogen/04-parasites/toxoplasma-gondii
+    relation: connects-to
+    note: "A latent parasite linked to mood: chronic Toxoplasma gondii infection is epidemiologically associated with bipolar disorder and higher suicide risk, possibly by altering brain dopamine."
+  - target: 03-medicine/03-food/omega-3-fatty-acids
+    relation: connects-to
+    note: "Diet is studied as an adjunct: omega-3 supplementation shows modest benefit for bipolar depression in some trials, added to but not replacing mood stabilisers."
+  - target: 03-medicine/02-traditional/st-johns-wort
+    relation: connects-to
+    note: "A herbal antidepressant that can destabilise it: St John's wort, taken for depression, can trigger mania or rapid cycling in undiagnosed bipolar disorder and interferes with mood-stabiliser metabolism."
 ---
 
 # Bipolar Disorder
@@ -441,6 +450,9 @@ During bipolar depression (often longer and more disabling than mania):
 - `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — Both the illness and its drugs weaken bone: sedentary depressive phases and some psychotropics are linked to lower bone density and a higher fracture risk.
 - `connects-to` → **[Respiratory System](../respiratory-system/README.md)** — Heavy smoking shadows the illness: far higher smoking rates in bipolar disorder drive COPD and respiratory disease, compounding its cardiovascular mortality gap.
 - `connects-to` → **[Fluoxetine](../../../03-medicine/01-modern/10-mental-health/fluoxetine/README.md)** — Antidepressants are double-edged here: an SSRI like fluoxetine can flip a patient into mania or rapid cycling if given without a mood stabiliser, though fluoxetine-olanzapine is approved for bipolar depression.
+- `connects-to` → **[Toxoplasma gondii](../../../02-pathogen/04-parasites/toxoplasma-gondii/README.md)** — A latent parasite linked to mood: chronic Toxoplasma gondii infection is epidemiologically associated with bipolar disorder and higher suicide risk, possibly by altering brain dopamine.
+- `connects-to` → **[Omega-3 Fatty Acids](../../../03-medicine/03-food/omega-3-fatty-acids/README.md)** — Diet is studied as an adjunct: omega-3 supplementation shows modest benefit for bipolar depression in some trials, added to but not replacing mood stabilisers.
+- `connects-to` → **[St John's Wort](../../../03-medicine/02-traditional/st-johns-wort/README.md)** — A herbal antidepressant that can destabilise it: St John's wort, taken for depression, can trigger mania or rapid cycling in undiagnosed bipolar disorder and interferes with mood-stabiliser metabolism.
 
 [^grande-2016-bipolar-review]: Grande I, Berk M, Birmaher B, Vieta E. Bipolar disorder. *Lancet.* 2016;387(10027):1561-1572. [doi:10.1016/S0140-6736(15)00241-X](https://doi.org/10.1016/S0140-6736(15)00241-X) · [PubMed 26388529](https://pubmed.ncbi.nlm.nih.gov/26388529/)
 [^geddes-2013-bipolar-treatment]: Geddes JR, Miklowitz DJ. Treatment of bipolar disorder. *Lancet.* 2013;381(9878):1672-1682. [doi:10.1016/S0140-6736(13)60857-0](https://doi.org/10.1016/S0140-6736(13)60857-0) · [PubMed 23663953](https://pubmed.ncbi.nlm.nih.gov/23663953/)

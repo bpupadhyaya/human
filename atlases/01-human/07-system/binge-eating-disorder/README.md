@@ -216,6 +216,15 @@ cross_links:
   - target: 03-medicine/01-modern/10-mental-health/fluoxetine
     relation: connects-to
     note: "SSRIs blunt the urge: fluoxetine and related antidepressants reduce binge frequency, used alongside the stimulant lisdexamfetamine that is licensed specifically for the disorder."
+  - target: 01-human/07-system/opioid-use-disorder
+    relation: connects-to
+    note: "Shared reward wiring binds them: binge eating engages the same mu-opioid and dopamine reward circuitry as substance addiction, and opioid antagonists like naltrexone reduce binge frequency."
+  - target: 01-human/07-system/alcohol-use-disorder
+    relation: connects-to
+    note: "Impulsivity links the two: binge-eating disorder frequently coexists with alcohol use disorder, sharing traits of impaired impulse control and reward-driven consumption."
+  - target: 01-human/07-system/insomnia-disorder
+    relation: connects-to
+    note: "Disrupted sleep feeds the binge: poor sleep and night-eating worsen binge-eating disorder, as circadian and orexin dysregulation increase evening food intake."
 sources:
   - id: american-psychiatric-2013-bed-dsm5
     type: clinical-guideline
@@ -443,6 +452,9 @@ BED is among the most psychiatrically comorbid of all eating disorders:
 - `connects-to` → **[Cardiovascular System](../cardiovascular-system/README.md)** — It carries cardiovascular risk beyond the weight: binge eating disorder is independently tied to hypertension, dyslipidaemia and cardiovascular disease, in excess of what BMI alone predicts.
 - `connects-to` → **[Renal System](../renal-system/README.md)** — The obesity it drives strains the kidney: sustained glomerular hyperfiltration and obesity-related glomerulopathy can progress to chronic kidney damage.
 - `connects-to` → **[Fluoxetine](../../../03-medicine/01-modern/10-mental-health/fluoxetine/README.md)** — SSRIs blunt the urge: fluoxetine and related antidepressants reduce binge frequency, used alongside the stimulant lisdexamfetamine that is licensed specifically for the disorder.
+- `connects-to` → **[Opioid Use Disorder](../opioid-use-disorder/README.md)** — Shared reward wiring binds them: binge eating engages the same mu-opioid and dopamine reward circuitry as substance addiction, and opioid antagonists like naltrexone reduce binge frequency.
+- `connects-to` → **[Alcohol Use Disorder](../alcohol-use-disorder/README.md)** — Impulsivity links the two: binge-eating disorder frequently coexists with alcohol use disorder, sharing traits of impaired impulse control and reward-driven consumption.
+- `connects-to` → **[Insomnia Disorder](../insomnia-disorder/README.md)** — Disrupted sleep feeds the binge: poor sleep and night-eating worsen binge-eating disorder, as circadian and orexin dysregulation increase evening food intake.
 
 [^american-psychiatric-2013-bed-dsm5]: American Psychiatric Association. Binge Eating Disorder (307.51). In: *Diagnostic and Statistical Manual of Mental Disorders, 5th ed.* Arlington, VA: APA; 2013. [doi:10.1176/appi.books.9780890425596](https://doi.org/10.1176/appi.books.9780890425596)
 [^mccallum-2003-bed-review]: McCallum K, Bruton AM. Binge eating disorder: eating disorder or somatic syndrome? *Prim Care Companion J Clin Psychiatry.* 2003;5(Suppl 4):20-25. [PubMed 15213784](https://pubmed.ncbi.nlm.nih.gov/15213784/)
