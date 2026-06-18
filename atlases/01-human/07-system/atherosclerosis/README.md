@@ -247,6 +247,15 @@ cross_links:
   - target: 03-medicine/03-food/omega-3-fatty-acids
     relation: connects-to
     note: "A fish-oil drug cuts events: high-dose icosapent ethyl (purified EPA) reduced cardiovascular events in high-risk patients, one diet-derived therapy with proven benefit in atherosclerosis."
+  - target: 03-medicine/01-modern/13-cancer/targeted-therapy
+    relation: connects-to
+    note: "Antibody and RNA drugs slash LDL: PCSK9-inhibitor antibodies (evolocumab) and the siRNA inclisiran drive LDL far below what statins achieve, while anti-inflammatory approaches target the residual inflammatory risk of atherosclerosis."
+  - target: 01-human/05-tissue/arterial-wall
+    relation: connects-to
+    note: "It is a disease of the artery wall: atherosclerosis builds within the intima — LDL retention, foam-cell-laden macrophages, a smooth-muscle fibrous cap over a lipid-necrotic core — that can rupture and thrombose the vessel."
+  - target: 01-human/05-tissue/myocardium
+    relation: connects-to
+    note: "It starves the heart muscle: coronary atherosclerosis is the cause of myocardial infarction, where plaque rupture and thrombosis occlude an artery and infarct the myocardium — the leading cause of death worldwide."
 ---
 
 # Atherosclerosis
@@ -437,6 +446,9 @@ The process begins in childhood with **fatty streaks** and progresses silently o
 - `connects-to` → **[ACE Inhibitors](../../../03-medicine/01-modern/04-cardio/ace-inhibitors/README.md)** — They protect the vessel wall: ACE inhibitors lower blood pressure and improve endothelial function, slowing atherosclerosis and reducing cardiovascular events beyond their pressure effect.
 - `connects-to` → **[Herpesvirus](../../../02-pathogen/01-viruses/herpesvirus/README.md)** — Infection may inflame the plaque: cytomegalovirus and other herpesviruses are found in atherosclerotic lesions and are proposed to add to the chronic inflammation that drives plaque growth.
 - `connects-to` → **[Omega-3 Fatty Acids](../../../03-medicine/03-food/omega-3-fatty-acids/README.md)** — A fish-oil drug cuts events: high-dose icosapent ethyl (purified EPA) reduced cardiovascular events in high-risk patients, one diet-derived therapy with proven benefit in atherosclerosis.
+- `connects-to` → **[Targeted Therapy](../../../03-medicine/01-modern/13-cancer/targeted-therapy/README.md)** — Antibody and RNA drugs slash LDL: PCSK9-inhibitor antibodies (evolocumab) and the siRNA inclisiran drive LDL far below what statins achieve, while anti-inflammatory approaches target the residual inflammatory risk of atherosclerosis.
+- `connects-to` → **[Arterial Wall](../../05-tissue/arterial-wall/README.md)** — It is a disease of the artery wall: atherosclerosis builds within the intima — LDL retention, foam-cell-laden macrophages, a smooth-muscle fibrous cap over a lipid-necrotic core — that can rupture and thrombose the vessel.
+- `connects-to` → **[Myocardium](../../05-tissue/myocardium/README.md)** — It starves the heart muscle: coronary atherosclerosis is the cause of myocardial infarction, where plaque rupture and thrombosis occlude an artery and infarct the myocardium — the leading cause of death worldwide.
 
 ---
 

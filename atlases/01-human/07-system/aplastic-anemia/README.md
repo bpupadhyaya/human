@@ -241,6 +241,15 @@ cross_links:
   - target: 02-pathogen/01-viruses/hiv-1
     relation: connects-to
     note: "A virus that empties the marrow: untreated HIV suppresses haematopoiesis and causes pancytopenia and marrow failure that can resemble aplastic anaemia."
+  - target: 03-medicine/01-modern/13-cancer/targeted-therapy
+    relation: connects-to
+    note: "Eltrombopag revived its treatment: the thrombopoietin-receptor agonist eltrombopag restores trilineage haematopoiesis in aplastic anaemia, added to the antithymocyte globulin and ciclosporin immunosuppression that targets the marrow-destroying T cells."
+  - target: 01-human/07-system/thalassemia
+    relation: connects-to
+    note: "Two routes to transfusion dependence: aplastic anaemia is an empty, failed marrow, whereas thalassaemia is a genetic globin defect with a hyperactive but ineffective marrow — opposite marrow states converging on lifelong transfusion."
+  - target: 01-human/05-tissue/hepatic-lobule
+    relation: connects-to
+    note: "Hepatitis can precede it: a seronegative hepatitis that injures the liver lobule is a recognised trigger of post-hepatitic aplastic anaemia, where an immune attack on the marrow follows the liver inflammation weeks later."
 ---
 
 # Aplastic Anemia
@@ -428,6 +437,9 @@ In >80% of acquired AA cases, the disease is **immune-mediated**: autoreactive *
 - `connects-to` → **[Cancer Chemotherapy](../../../03-medicine/01-modern/13-cancer/cancer-chemotherapy/README.md)** — The commonest cause of marrow aplasia: cytotoxic chemotherapy predictably suppresses the bone marrow, the dose-dependent and usually reversible counterpart of idiopathic aplastic anaemia.
 - `connects-to` → **[Ibuprofen](../../../03-medicine/01-modern/12-anti-inflammatory/ibuprofen/README.md)** — Drugs can switch off the marrow: NSAIDs such as ibuprofen are among the many agents that rarely trigger idiosyncratic aplastic anaemia, alongside chloramphenicol and antithyroid drugs.
 - `connects-to` → **[HIV-1](../../../02-pathogen/01-viruses/hiv-1/README.md)** — A virus that empties the marrow: untreated HIV suppresses haematopoiesis and causes pancytopenia and marrow failure that can resemble aplastic anaemia.
+- `connects-to` → **[Targeted Therapy](../../../03-medicine/01-modern/13-cancer/targeted-therapy/README.md)** — Eltrombopag revived its treatment: the thrombopoietin-receptor agonist eltrombopag restores trilineage haematopoiesis in aplastic anaemia, added to the antithymocyte globulin and ciclosporin immunosuppression that targets the marrow-destroying T cells.
+- `connects-to` → **[Thalassemia](../thalassemia/README.md)** — Two routes to transfusion dependence: aplastic anaemia is an empty, failed marrow, whereas thalassaemia is a genetic globin defect with a hyperactive but ineffective marrow — opposite marrow states converging on lifelong transfusion.
+- `connects-to` → **[Hepatic Lobule](../../05-tissue/hepatic-lobule/README.md)** — Hepatitis can precede it: a seronegative hepatitis that injures the liver lobule is a recognised trigger of post-hepatitic aplastic anaemia, where an immune attack on the marrow follows the liver inflammation weeks later.
 
 ---
 
