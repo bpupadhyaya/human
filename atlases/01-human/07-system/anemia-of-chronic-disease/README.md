@@ -235,6 +235,15 @@ cross_links:
   - target: 01-human/07-system/respiratory-system
     relation: connects-to
     note: "Lung disease usually raises red cells via hypoxic erythropoietin, but in COPD the systemic inflammation blunts that response, so anemia of chronic disease can paradoxically appear instead."
+  - target: 01-human/07-system/renal-system
+    relation: connects-to
+    note: "It overlaps with the anaemia of kidney disease: chronic kidney disease causes a closely related anaemia through erythropoietin deficiency and inflammatory hepcidin excess, blurring the line with anaemia of chronic disease."
+  - target: 01-human/07-system/musculoskeletal-system
+    relation: connects-to
+    note: "Chronic joint inflammation drives it: rheumatoid arthritis and other inflammatory arthritides raise IL-6 and hepcidin, making anaemia of chronic disease their commonest extra-articular feature."
+  - target: 02-pathogen/02-bacteria/mycobacterium-tuberculosis
+    relation: connects-to
+    note: "A chronic infection that causes it: tuberculosis sustains the inflammatory cytokines that block iron use, making anaemia of chronic disease a frequent finding in active TB."
 ---
 
 # Anemia of Chronic Disease
@@ -431,6 +440,9 @@ This adaptive rationale explains why **aggressive iron supplementation during ac
 - `connects-to` → **[Cardiovascular System](../cardiovascular-system/README.md)** — Low oxygen-carrying capacity raises the cardiac workload: chronic anemia drives compensatory tachycardia and a high-output state, aggravating ischaemia and, over time, straining the heart.
 - `connects-to` → **[Lymphatic System](../lymphatic-system/README.md)** — The reticuloendothelial system drives it: splenic and nodal macrophages trap recycled iron behind hepcidin, the core mechanism that starves the marrow of iron for erythropoiesis.
 - `connects-to` → **[Respiratory System](../respiratory-system/README.md)** — Lung disease usually raises red cells via hypoxic erythropoietin, but in COPD the systemic inflammation blunts that response, so anemia of chronic disease can paradoxically appear instead.
+- `connects-to` → **[Renal System](../renal-system/README.md)** — It overlaps with the anaemia of kidney disease: chronic kidney disease causes a closely related anaemia through erythropoietin deficiency and inflammatory hepcidin excess, blurring the line with anaemia of chronic disease.
+- `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — Chronic joint inflammation drives it: rheumatoid arthritis and other inflammatory arthritides raise IL-6 and hepcidin, making anaemia of chronic disease their commonest extra-articular feature.
+- `connects-to` → **[Mycobacterium tuberculosis](../../../02-pathogen/02-bacteria/mycobacterium-tuberculosis/README.md)** — A chronic infection that causes it: tuberculosis sustains the inflammatory cytokines that block iron use, making anaemia of chronic disease a frequent finding in active TB.
 
 [^weiss-2005-acd-review]: Weiss G, Goodnough LT. Anemia of chronic disease. *N Engl J Med.* 2005;352(10):1011-1023. [doi:10.1056/NEJMra041809](https://doi.org/10.1056/NEJMra041809) · [PubMed 15758012](https://pubmed.ncbi.nlm.nih.gov/15758012/)
 [^nemeth-2004-il6-hepcidin]: Nemeth E, Rivera S, Gabayan V, et al. IL-6 mediates hypoferremia of inflammation by inducing the synthesis of the iron regulatory hormone hepcidin. *J Clin Invest.* 2004;113(9):1271-1276. [doi:10.1172/JCI200420945](https://doi.org/10.1172/JCI200420945) · [PubMed 15124018](https://pubmed.ncbi.nlm.nih.gov/15124018/)

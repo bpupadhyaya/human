@@ -238,6 +238,15 @@ cross_links:
   - target: 03-medicine/01-modern/10-mental-health/fluoxetine
     relation: connects-to
     note: "Antidepressants barely work in the starved brain: SSRIs like fluoxetine show little benefit until weight is restored, though they are used for the depression and OCD that commonly coexist."
+  - target: 01-human/07-system/lymphatic-system
+    relation: connects-to
+    note: "Starvation shrinks the immune tissue: severe anorexia causes thymic atrophy, lymphopenia and gelatinous marrow transformation, weakening lymphoid defences despite a paradoxically low infection rate at low weight."
+  - target: 03-medicine/03-food/zinc-dietary
+    relation: connects-to
+    note: "A deficiency that feeds the cycle: zinc deficiency is common in anorexia and itself blunts appetite and taste, so zinc supplementation is used as an adjunct to help restore weight."
+  - target: 01-human/04-cellular/osteoclast
+    relation: connects-to
+    note: "Bone is lost from both sides: chronic anorexia suppresses bone-forming osteoblasts while oestrogen and leptin loss unleash bone-resorbing osteoclasts, producing its early and often irreversible osteoporosis."
 ---
 
 # Anorexia Nervosa
@@ -452,6 +461,9 @@ In healthy individuals, food cues activate the mesolimbic reward circuit (VTA �
 - `connects-to` → **[Tuberculosis](../tuberculosis/README.md)** — Severe undernutrition is the world's leading risk factor for tuberculosis: the cell-mediated immune collapse of starvation lets latent infection reactivate into active disease.
 - `connects-to` → **[Vitamin D](../../../03-medicine/03-food/vitamin-d/README.md)** — Restrictive eating starves the body of fat-soluble vitamins: chronic vitamin D deficiency compounds the bone demineralisation already driven by low oestrogen and high cortisol.
 - `connects-to` → **[Fluoxetine](../../../03-medicine/01-modern/10-mental-health/fluoxetine/README.md)** — Antidepressants barely work in the starved brain: SSRIs like fluoxetine show little benefit until weight is restored, though they are used for the depression and OCD that commonly coexist.
+- `connects-to` → **[Lymphatic System](../lymphatic-system/README.md)** — Starvation shrinks the immune tissue: severe anorexia causes thymic atrophy, lymphopenia and gelatinous marrow transformation, weakening lymphoid defences despite a paradoxically low infection rate at low weight.
+- `connects-to` → **[Zinc (Dietary)](../../../03-medicine/03-food/zinc-dietary/README.md)** — A deficiency that feeds the cycle: zinc deficiency is common in anorexia and itself blunts appetite and taste, so zinc supplementation is used as an adjunct to help restore weight.
+- `connects-to` → **[Osteoclast](../../04-cellular/osteoclast/README.md)** — Bone is lost from both sides: chronic anorexia suppresses bone-forming osteoblasts while oestrogen and leptin loss unleash bone-resorbing osteoclasts, producing its early and often irreversible osteoporosis.
 
 [^treasure-2010-an-lancet]: Treasure J, Claudino AM, Zucker N. Eating disorders. *Lancet.* 2010;375(9714):583-593. [doi:10.1016/S0140-6736(09)61748-7](https://doi.org/10.1016/S0140-6736(09)61748-7) · [PubMed 19931176](https://pubmed.ncbi.nlm.nih.gov/19931176/)
 [^lock-2010-fbt-an]: Lock J, Le Grange D, Agras WS, et al. Randomized clinical trial comparing family-based treatment with adolescent-focused individual therapy for adolescents with anorexia nervosa. *Arch Gen Psychiatry.* 2010;67(10):1025-1032. [doi:10.1001/archgenpsychiatry.2010.128](https://doi.org/10.1001/archgenpsychiatry.2010.128) · [PubMed 20921118](https://pubmed.ncbi.nlm.nih.gov/20921118/)
