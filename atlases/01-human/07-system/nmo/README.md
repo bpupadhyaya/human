@@ -211,6 +211,15 @@ cross_links:
   - target: 02-pathogen/03-fungi/aspergillus-fumigatus
     relation: connects-to
     note: "Its potent immunotherapy opens the lung to mold: rituximab and other B-cell-depleting and immunosuppressive treatments for NMO can permit invasive Aspergillus infection."
+  - target: 01-human/07-system/nervous-system
+    relation: connects-to
+    note: "It is an antibody attack on the CNS: NMO targets aquaporin-4 on astrocytes, causing optic neuritis and longitudinally extensive transverse myelitis that blind and paralyse, a defining nervous-system autoimmune disease."
+  - target: 01-human/07-system/respiratory-system
+    relation: connects-to
+    note: "High cord attacks can stop breathing: an NMO lesion in the cervical spinal cord or brainstem can paralyse the diaphragm and respiratory drive, causing neurogenic respiratory failure."
+  - target: 02-pathogen/02-bacteria/neisseria-meningitidis
+    relation: connects-to
+    note: "Its complement-blocking drug invites meningococcus: eculizumab, used to prevent NMO relapses, blocks the terminal complement that defends against Neisseria meningitidis, so vaccination is mandatory before treatment."
 ---
 
 # NMOSD
@@ -421,6 +430,9 @@ NMOSD impairs CNS function through three attack-related mechanisms:
 - `connects-to` → **[Wound Healing](../wound-healing/README.md)** — Paralysis from myelitis breaks down the skin: severe transverse myelitis in NMO can leave patients immobile and insensate, predisposing to pressure ulcers that are slow to heal over bony prominences.
 - `connects-to` → **[Chronic Kidney Disease](../ckd/README.md)** — A neurogenic bladder threatens the kidneys: spinal-cord attacks in NMO impair bladder control, and the recurrent urinary infections and back-pressure that follow can progress to chronic kidney disease.
 - `connects-to` → **[Aspergillus fumigatus](../../../02-pathogen/03-fungi/aspergillus-fumigatus/README.md)** — Its potent immunotherapy opens the lung to mold: rituximab and other B-cell-depleting and immunosuppressive treatments for NMO can permit invasive Aspergillus infection.
+- `connects-to` → **[Nervous System](../nervous-system/README.md)** — It is an antibody attack on the CNS: NMO targets aquaporin-4 on astrocytes, causing optic neuritis and longitudinally extensive transverse myelitis that blind and paralyse, a defining nervous-system autoimmune disease.
+- `connects-to` → **[Respiratory System](../respiratory-system/README.md)** — High cord attacks can stop breathing: an NMO lesion in the cervical spinal cord or brainstem can paralyse the diaphragm and respiratory drive, causing neurogenic respiratory failure.
+- `connects-to` → **[Neisseria meningitidis](../../../02-pathogen/02-bacteria/neisseria-meningitidis/README.md)** — Its complement-blocking drug invites meningococcus: eculizumab, used to prevent NMO relapses, blocks the terminal complement that defends against Neisseria meningitidis, so vaccination is mandatory before treatment.
 
 [^wingerchuk-2015-nmosd-criteria]: Wingerchuk DM, Banwell B, Bennett JL, et al. International consensus diagnostic criteria for neuromyelitis optica spectrum disorders. *Neurology.* 2015;85(2):177-189. [doi:10.1212/WNL.0000000000001729](https://doi.org/10.1212/WNL.0000000000001729) · [PubMed 26092914](https://pubmed.ncbi.nlm.nih.gov/26092914/)
 [^pittock-2019-eculizumab-prevent]: Pittock SJ, Berthele A, Fujihara K, et al. Eculizumab in Aquaporin-4-Positive Neuromyelitis Optica Spectrum Disorder. *N Engl J Med.* 2019;381(7):614-625. [doi:10.1056/NEJMoa1900866](https://doi.org/10.1056/NEJMoa1900866) · [PubMed 31050279](https://pubmed.ncbi.nlm.nih.gov/31050279/)

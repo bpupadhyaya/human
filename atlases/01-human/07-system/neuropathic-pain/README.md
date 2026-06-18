@@ -186,6 +186,15 @@ cross_links:
   - target: 01-human/07-system/colorectal-cancer
     relation: connects-to
     note: "Its chemotherapy leaves nerves raw: the oxaliplatin in colorectal-cancer regimens causes a cold-triggered and chronic peripheral neuropathy, a leading example of chemotherapy-induced neuropathic pain."
+  - target: 01-human/07-system/nervous-system
+    relation: connects-to
+    note: "It is a disease of the nervous system itself: neuropathic pain arises from damage or dysfunction anywhere along the somatosensory pathway, from peripheral nerves to the spinal cord and brain, with central sensitisation amplifying it."
+  - target: 01-human/07-system/musculoskeletal-system
+    relation: connects-to
+    note: "Spine disease pinches the nerves: a herniated disc or degenerative stenosis compressing a nerve root causes radiculopathy and sciatica, a very common musculoskeletal source of neuropathic pain."
+  - target: 01-human/07-system/digestive-system
+    relation: connects-to
+    note: "Its mainstay drugs constipate the gut: the opioids, tricyclics and gabapentinoids used to treat neuropathic pain all slow intestinal transit, making constipation a common, limiting side effect."
 sources:
   - id: jensen-2011-neuropathic-pain-review
     type: peer-reviewed
@@ -405,6 +414,9 @@ Chronic neuropathic pain carries significant psychological burden:
 - `connects-to` → **[Alcohol Use Disorder](../alcohol-use-disorder/README.md)** — Heavy drinking poisons the peripheral nerves: chronic alcohol use, with its associated thiamine and B-vitamin deficiency, causes a length-dependent axonal neuropathy that produces burning neuropathic pain in the feet.
 - `connects-to` → **[Multiple Myeloma](../multiple-myeloma/README.md)** — Its plasma-cell disease and treatment both hit nerves: amyloid deposition and tumor can injure nerves in multiple myeloma, and the bortezomib used to treat it causes a painful, dose-limiting peripheral neuropathy.
 - `connects-to` → **[Colorectal Cancer](../colorectal-cancer/README.md)** — Its chemotherapy leaves nerves raw: the oxaliplatin in colorectal-cancer regimens causes a cold-triggered and chronic peripheral neuropathy, a leading example of chemotherapy-induced neuropathic pain.
+- `connects-to` → **[Nervous System](../nervous-system/README.md)** — It is a disease of the nervous system itself: neuropathic pain arises from damage or dysfunction anywhere along the somatosensory pathway, from peripheral nerves to the spinal cord and brain, with central sensitisation amplifying it.
+- `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — Spine disease pinches the nerves: a herniated disc or degenerative stenosis compressing a nerve root causes radiculopathy and sciatica, a very common musculoskeletal source of neuropathic pain.
+- `connects-to` → **[Digestive System](../digestive-system/README.md)** — Its mainstay drugs constipate the gut: the opioids, tricyclics and gabapentinoids used to treat neuropathic pain all slow intestinal transit, making constipation a common, limiting side effect.
 
 [^jensen-2011-neuropathic-pain-review]: Jensen TS, Baron R, Haanpää M, et al. A new definition of neuropathic pain. *Pain.* 2011;152(10):2204-2205. [doi:10.1016/j.pain.2011.06.017](https://doi.org/10.1016/j.pain.2011.06.017) · [PubMed 21764514](https://pubmed.ncbi.nlm.nih.gov/21764514/)
 [^dworkin-2010-neuropathic-pain-treatment]: Dworkin RH, O'Connor AB, Audette J, et al. Recommendations for the pharmacological management of neuropathic pain. *Mayo Clin Proc.* 2010;85(3 Suppl):S3-14. [doi:10.4065/mcp.2009.0649](https://doi.org/10.4065/mcp.2009.0649) · [PubMed 20194146](https://pubmed.ncbi.nlm.nih.gov/20194146/)
