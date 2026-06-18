@@ -232,6 +232,15 @@ cross_links:
   - target: 01-human/07-system/li-fraumeni-syndrome
     relation: connects-to
     note: "A fellow multi-tumour syndrome: like Li-Fraumeni, Carney complex is an autosomal-dominant predisposition to several distinct tumours, here driven by loss of the PRKAR1A tumour suppressor."
+  - target: 01-human/07-system/vhl-disease
+    relation: connects-to
+    note: "Both can grow phaeochromocytomas: von Hippel-Lindau and Carney complex each predispose to phaeochromocytoma and other endocrine tumours, overlapping in this dangerous catecholamine-secreting neoplasm."
+  - target: 01-human/07-system/neurofibromatosis-type-2
+    relation: connects-to
+    note: "Both grow schwannomas: Carney complex causes psammomatous melanotic schwannomas, joining neurofibromatosis type 2 among inherited syndromes defined by nerve-sheath tumours."
+  - target: 01-human/07-system/cowden-syndrome
+    relation: connects-to
+    note: "Overlapping breast and thyroid tumours: like Cowden syndrome, Carney complex predisposes to breast and thyroid neoplasia with mucocutaneous lesions, two hamartomatous syndromes marked by skin and glandular tumours."
 ---
 
 # Carney Complex
@@ -425,6 +434,9 @@ PRKAR1A somatic LOH occurs in ~15-20% of sporadic adrenocortical adenomas and ca
 - `connects-to` → **[Noonan Syndrome](../noonan-syndrome/README.md)** — A lentigines-and-heart comparator: LEOPARD/Noonan syndrome, like Carney complex, pairs multiple skin lentigines with cardiac disease, though it arises from RAS-pathway rather than cAMP-PKA signalling.
 - `connects-to` → **[Staphylococcus aureus](../../../02-pathogen/02-bacteria/staphylococcus-aureus/README.md)** — Its heart tumour mimics infection: Carney's recurrent atrial myxomas cause embolic strokes and constitutional fever that can be mistaken for the infective endocarditis that organisms like Staphylococcus aureus cause.
 - `connects-to` → **[Li-Fraumeni Syndrome](../li-fraumeni-syndrome/README.md)** — A fellow multi-tumour syndrome: like Li-Fraumeni, Carney complex is an autosomal-dominant predisposition to several distinct tumours, here driven by loss of the PRKAR1A tumour suppressor.
+- `connects-to` → **[VHL Disease](../vhl-disease/README.md)** — Both can grow phaeochromocytomas: von Hippel-Lindau and Carney complex each predispose to phaeochromocytoma and other endocrine tumours, overlapping in this dangerous catecholamine-secreting neoplasm.
+- `connects-to` → **[Neurofibromatosis Type 2](../neurofibromatosis-type-2/README.md)** — Both grow schwannomas: Carney complex causes psammomatous melanotic schwannomas, joining neurofibromatosis type 2 among inherited syndromes defined by nerve-sheath tumours.
+- `connects-to` → **[Cowden Syndrome](../cowden-syndrome/README.md)** — Overlapping breast and thyroid tumours: like Cowden syndrome, Carney complex predisposes to breast and thyroid neoplasia with mucocutaneous lesions, two hamartomatous syndromes marked by skin and glandular tumours.
 
 ---
 

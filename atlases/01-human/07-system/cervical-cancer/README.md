@@ -232,6 +232,15 @@ cross_links:
   - target: 02-pathogen/01-viruses/herpesvirus
     relation: connects-to
     note: "A suspected co-factor: herpes simplex virus type 2 was long studied as a possible co-factor cooperating with HPV in cervical carcinogenesis, and genital herpes shares its transmission route."
+  - target: 03-medicine/01-modern/13-cancer/checkpoint-inhibitors
+    relation: connects-to
+    note: "Immunotherapy extends survival: pembrolizumab added to chemotherapy, and cemiplimab after it, improve survival in advanced PD-L1-positive cervical cancer, which is virally driven and immunogenic."
+  - target: 03-medicine/01-modern/13-cancer/cancer-chemotherapy
+    relation: connects-to
+    note: "Cisplatin chemoradiation is the backbone: concurrent cisplatin-based chemoradiotherapy is the curative-intent standard for locally advanced cervical cancer."
+  - target: 02-pathogen/01-viruses/hiv-1
+    relation: connects-to
+    note: "Immunodeficiency accelerates it: HIV greatly raises cervical cancer risk by impairing clearance of oncogenic HPV, making it an AIDS-defining cancer and a screening priority in HIV-positive women."
 ---
 
 # Cervical Cancer
@@ -426,6 +435,9 @@ The cervical transformation zone (TZ) — the area between the original and new 
 - `connects-to` → **[Cardiovascular System](../cardiovascular-system/README.md)** — Treatment strains the circulation: cisplatin chemoradiation carries cardiovascular and thromboembolic risk, and pelvic radiation can damage the iliac vessels over time.
 - `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — Virus and therapy both touch the skin: the same HPV family causes genital and skin warts, while pelvic radiotherapy produces radiation dermatitis and rare cutaneous metastases mark advanced disease.
 - `connects-to` → **[Herpesvirus](../../../02-pathogen/01-viruses/herpesvirus/README.md)** — A suspected co-factor: herpes simplex virus type 2 was long studied as a possible co-factor cooperating with HPV in cervical carcinogenesis, and genital herpes shares its transmission route.
+- `connects-to` → **[Checkpoint Inhibitors](../../../03-medicine/01-modern/13-cancer/checkpoint-inhibitors/README.md)** — Immunotherapy extends survival: pembrolizumab added to chemotherapy, and cemiplimab after it, improve survival in advanced PD-L1-positive cervical cancer, which is virally driven and immunogenic.
+- `connects-to` → **[Cancer Chemotherapy](../../../03-medicine/01-modern/13-cancer/cancer-chemotherapy/README.md)** — Cisplatin chemoradiation is the backbone: concurrent cisplatin-based chemoradiotherapy is the curative-intent standard for locally advanced cervical cancer.
+- `connects-to` → **[HIV-1](../../../02-pathogen/01-viruses/hiv-1/README.md)** — Immunodeficiency accelerates it: HIV greatly raises cervical cancer risk by impairing clearance of oncogenic HPV, making it an AIDS-defining cancer and a screening priority in HIV-positive women.
 
 ---
 
