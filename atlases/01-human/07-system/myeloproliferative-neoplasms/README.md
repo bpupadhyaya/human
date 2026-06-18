@@ -232,6 +232,15 @@ cross_links:
   - target: 03-medicine/01-modern/04-cardio/aspirin
     relation: connects-to
     note: "Low-dose aspirin counters the clotting: by inhibiting the overactive platelets of myeloproliferative neoplasms, aspirin reduces thrombosis and microvascular symptoms, alongside cytoreduction."
+  - target: 03-medicine/01-modern/13-cancer/targeted-therapy
+    relation: connects-to
+    note: "JAK inhibition is the targeted backbone: ruxolitinib and fedratinib block the JAK2-STAT pathway driving myeloproliferative neoplasms, shrinking the spleen and easing symptoms in myelofibrosis and polycythaemia vera."
+  - target: 02-pathogen/02-bacteria/mycobacterium-tuberculosis
+    relation: connects-to
+    note: "JAK inhibitors reawaken latent infection: ruxolitinib suppresses immunity enough to reactivate tuberculosis and other opportunists, requiring screening before treatment."
+  - target: 03-medicine/01-modern/13-cancer/cancer-chemotherapy
+    relation: connects-to
+    note: "Hydroxyurea cytoreduces: the oral chemotherapy hydroxyurea lowers excess blood counts in high-risk myeloproliferative neoplasms, a long-standing cytoreductive mainstay."
 ---
 
 # Myeloproliferative Neoplasms
@@ -447,6 +456,9 @@ In PV and ET, JAK2 V617F also affects myeloid progenitors → granulocytosis and
 - `connects-to` → **[Respiratory System](../respiratory-system/README.md)** — Clots and blood-making reach the lungs: MPNs cause pulmonary embolism and pulmonary hypertension, and extramedullary haematopoiesis can rarely involve the lungs.
 - `connects-to` → **[Renal System](../renal-system/README.md)** — High cell turnover taxes the kidney: hyperuricaemia causes urate nephropathy, an MPN-associated glomerulopathy occurs, and renal vein thrombosis can complicate the prothrombotic state.
 - `connects-to` → **[Aspirin](../../../03-medicine/01-modern/04-cardio/aspirin/README.md)** — Low-dose aspirin counters the clotting: by inhibiting the overactive platelets of myeloproliferative neoplasms, aspirin reduces thrombosis and microvascular symptoms, alongside cytoreduction.
+- `connects-to` → **[Targeted Therapy](../../../03-medicine/01-modern/13-cancer/targeted-therapy/README.md)** — JAK inhibition is the targeted backbone: ruxolitinib and fedratinib block the JAK2-STAT pathway driving myeloproliferative neoplasms, shrinking the spleen and easing symptoms in myelofibrosis and polycythaemia vera.
+- `connects-to` → **[Mycobacterium tuberculosis](../../../02-pathogen/02-bacteria/mycobacterium-tuberculosis/README.md)** — JAK inhibitors reawaken latent infection: ruxolitinib suppresses immunity enough to reactivate tuberculosis and other opportunists, requiring screening before treatment.
+- `connects-to` → **[Cancer Chemotherapy](../../../03-medicine/01-modern/13-cancer/cancer-chemotherapy/README.md)** — Hydroxyurea cytoreduces: the oral chemotherapy hydroxyurea lowers excess blood counts in high-risk myeloproliferative neoplasms, a long-standing cytoreductive mainstay.
 
 [^verstovsek-2012-comfort-i]: Verstovsek S, Mesa RA, Gotlib J, et al. A double-blind, placebo-controlled trial of ruxolitinib for myelofibrosis. *N Engl J Med.* 2012;366(9):799-807. [doi:10.1056/NEJMoa1110557](https://doi.org/10.1056/NEJMoa1110557) · [PubMed 22375971](https://pubmed.ncbi.nlm.nih.gov/22375971/)
 [^vannucchi-2015-response]: Vannucchi AM, Kiladjian JJ, Griesshammer M, et al. Ruxolitinib versus standard therapy for the treatment of polycythemia vera. *N Engl J Med.* 2015;372(5):426-435. [doi:10.1056/NEJMoa1409002](https://doi.org/10.1056/NEJMoa1409002) · [PubMed 25426978](https://pubmed.ncbi.nlm.nih.gov/25426978/)

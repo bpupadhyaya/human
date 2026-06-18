@@ -219,6 +219,15 @@ cross_links:
   - target: 03-medicine/02-traditional/panax-ginseng
     relation: connects-to
     note: "Traditional stimulants are tried for fatigue: ginseng and other adaptogens are used by some for daytime tiredness, though they are no substitute for the established wake-promoting drugs of narcolepsy."
+  - target: 02-pathogen/01-viruses/influenza-a
+    relation: connects-to
+    note: "A pandemic flu that triggered it: the 2009 H1N1 influenza and the Pandemrix vaccine against it sharply raised narcolepsy incidence, the virus's antigens cross-reacting with orexin neurons in genetically susceptible people."
+  - target: 01-human/07-system/huntingtons-disease
+    relation: connects-to
+    note: "Neurodegeneration steals orexin too: Huntington's disease damages hypothalamic orexin neurons, producing the fragmented sleep and daytime sleepiness that overlap with narcolepsy's hallmark orexin loss."
+  - target: 01-human/07-system/fibromyalgia
+    relation: connects-to
+    note: "Unrefreshing sleep links them: narcolepsy and fibromyalgia both disrupt sleep architecture and cause profound daytime fatigue, and the two are more likely to coexist."
 sources:
   - id: scammell-2015-narcolepsy-review
     type: peer-reviewed
@@ -426,6 +435,9 @@ Cataplexy is the **pathognomonic** feature of NT1 — sudden, bilateral loss of 
 - `connects-to` → **[Fluoxetine](../../../03-medicine/01-modern/10-mental-health/fluoxetine/README.md)** — SSRIs and SNRIs treat cataplexy: by suppressing REM sleep, antidepressants like fluoxetine reduce the cataplexy, sleep paralysis and hallucinations of narcolepsy.
 - `connects-to` → **[Stimulant Use Disorder](../stimulant-use-disorder/README.md)** — Its sleepiness is treated with stimulants: modafinil, methylphenidate and amphetamines promote daytime wakefulness in narcolepsy, linking it to stimulant pharmacology and controlled prescribing.
 - `connects-to` → **[Panax Ginseng](../../../03-medicine/02-traditional/panax-ginseng/README.md)** — Traditional stimulants are tried for fatigue: ginseng and other adaptogens are used by some for daytime tiredness, though they are no substitute for the established wake-promoting drugs of narcolepsy.
+- `connects-to` → **[Influenza A](../../../02-pathogen/01-viruses/influenza-a/README.md)** — A pandemic flu that triggered it: the 2009 H1N1 influenza and the Pandemrix vaccine against it sharply raised narcolepsy incidence, the virus's antigens cross-reacting with orexin neurons in genetically susceptible people.
+- `connects-to` → **[Huntington's Disease](../huntingtons-disease/README.md)** — Neurodegeneration steals orexin too: Huntington's disease damages hypothalamic orexin neurons, producing the fragmented sleep and daytime sleepiness that overlap with narcolepsy's hallmark orexin loss.
+- `connects-to` → **[Fibromyalgia](../fibromyalgia/README.md)** — Unrefreshing sleep links them: narcolepsy and fibromyalgia both disrupt sleep architecture and cause profound daytime fatigue, and the two are more likely to coexist.
 
 [^scammell-2015-narcolepsy-review]: Scammell TE. Narcolepsy. *N Engl J Med.* 2015;373(27):2654-2662. [doi:10.1056/NEJMra1500587](https://doi.org/10.1056/NEJMra1500587) · [PubMed 26716917](https://pubmed.ncbi.nlm.nih.gov/26716917/)
 [^dauvilliers-2007-narcolepsy-clinical]: Dauvilliers Y, Arnulf I, Mignot E. Narcolepsy with cataplexy. *Lancet.* 2007;369(9560):499-511. [doi:10.1016/S0140-6736(07)60237-2](https://doi.org/10.1016/S0140-6736(07)60237-2) · [PubMed 17292770](https://pubmed.ncbi.nlm.nih.gov/17292770/)
