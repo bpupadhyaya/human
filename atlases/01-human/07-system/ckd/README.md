@@ -207,6 +207,15 @@ cross_links:
   - target: 01-human/07-system/neuropathic-pain
     relation: connects-to
     note: "Retained toxins injure the nerves: uremia causes a length-dependent peripheral neuropathy and restless, painful legs, producing chronic neuropathic pain in advanced kidney disease."
+  - target: 01-human/07-system/endocrine-system
+    relation: connects-to
+    note: "The kidney is itself an endocrine organ that fails: CKD causes erythropoietin deficiency, impaired vitamin D activation and secondary hyperparathyroidism, the mineral-and-hormone disorder at its core."
+  - target: 01-human/07-system/digestive-system
+    relation: connects-to
+    note: "Uraemia poisons the gut: advanced CKD causes anorexia, nausea and uraemic gastritis with a raised risk of GI bleeding, while a uraemic foetor and altered taste worsen the malnutrition."
+  - target: 01-human/07-system/immune-system
+    relation: connects-to
+    note: "Uraemia cripples immune defence: CKD impairs both innate and adaptive immunity and blunts vaccine responses, leaving dialysis patients especially prone to severe infection — a leading cause of death."
 ---
 
 # Chronic Kidney Disease
@@ -346,6 +355,9 @@ As nephron mass decreases, impaired renal functions accumulate:
 - `connects-to` → **[Staphylococcus aureus](../../../02-pathogen/02-bacteria/staphylococcus-aureus/README.md)** — Dialysis access is a portal for Staph: hemodialysis catheters and fistulas give Staphylococcus aureus repeated entry to the bloodstream, making access-related S. aureus bacteremia a leading infection in CKD.
 - `connects-to` → **[Wound Healing](../wound-healing/README.md)** — Uremia stalls tissue repair: the impaired immunity, anemia and, in advanced disease, calciphylaxis of CKD leave skin ulcers and surgical wounds slow to heal, a major source of morbidity.
 - `connects-to` → **[Neuropathic Pain](../neuropathic-pain/README.md)** — Retained toxins injure the nerves: uremia causes a length-dependent peripheral neuropathy and restless, painful legs, producing chronic neuropathic pain in advanced kidney disease.
+- `connects-to` → **[Endocrine System](../endocrine-system/README.md)** — The kidney is itself an endocrine organ that fails: CKD causes erythropoietin deficiency, impaired vitamin D activation and secondary hyperparathyroidism, the mineral-and-hormone disorder at its core.
+- `connects-to` → **[Digestive System](../digestive-system/README.md)** — Uraemia poisons the gut: advanced CKD causes anorexia, nausea and uraemic gastritis with a raised risk of GI bleeding, while a uraemic foetor and altered taste worsen the malnutrition.
+- `connects-to` → **[Immune System](../immune-system/README.md)** — Uraemia cripples immune defence: CKD impairs both innate and adaptive immunity and blunts vaccine responses, leaving dialysis patients especially prone to severe infection — a leading cause of death.
 
 ## Pathology
 

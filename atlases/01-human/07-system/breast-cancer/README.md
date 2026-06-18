@@ -208,6 +208,15 @@ cross_links:
   - target: 02-pathogen/03-fungi/aspergillus-fumigatus
     relation: connects-to
     note: "Its chemotherapy opens the lung to mold: the neutropenia from breast-cancer chemotherapy can let inhaled Aspergillus invade as pulmonary aspergillosis, particularly with dose-dense regimens."
+  - target: 01-human/07-system/endocrine-system
+    relation: connects-to
+    note: "Most breast cancer is hormone-driven: oestrogen-receptor-positive tumours grow on oestrogen, so endocrine therapy with tamoxifen or aromatase inhibitors is central, bringing menopausal symptoms and bone loss."
+  - target: 01-human/07-system/wound-healing
+    relation: connects-to
+    note: "Mastectomy and radiation heal slowly: breast surgery with reconstruction and axillary dissection leaves wounds prone to seroma and infection, and prior or adjuvant radiation impairs tissue healing."
+  - target: 01-human/07-system/generalized-anxiety-disorder
+    relation: connects-to
+    note: "Recurrence fear breeds chronic worry: the scan and tumour-marker surveillance, body-image change and dread of relapse in breast cancer foster persistent health anxiety alongside depression."
 ---
 
 # Breast Cancer
@@ -377,6 +386,9 @@ cross_links:
 - `connects-to` → **[Neuropathic Pain](../neuropathic-pain/README.md)** — Treatment leaves nerves aching: taxane chemotherapy causes peripheral neuropathy, mastectomy can produce post-surgical neuropathic pain, and aromatase inhibitors bring disabling arthralgias.
 - `connects-to` → **[Stroke](../stroke/README.md)** — Cancer and its therapy raise clot risk to the brain: the hypercoagulable state of malignancy, tamoxifen's thrombotic risk and chest radiation's vascular damage together raise the risk of ischemic stroke.
 - `connects-to` → **[Aspergillus fumigatus](../../../02-pathogen/03-fungi/aspergillus-fumigatus/README.md)** — Its chemotherapy opens the lung to mold: the neutropenia from breast-cancer chemotherapy can let inhaled Aspergillus invade as pulmonary aspergillosis, particularly with dose-dense regimens.
+- `connects-to` → **[Endocrine System](../endocrine-system/README.md)** — Most breast cancer is hormone-driven: oestrogen-receptor-positive tumours grow on oestrogen, so endocrine therapy with tamoxifen or aromatase inhibitors is central, bringing menopausal symptoms and bone loss.
+- `connects-to` → **[Wound Healing](../wound-healing/README.md)** — Mastectomy and radiation heal slowly: breast surgery with reconstruction and axillary dissection leaves wounds prone to seroma and infection, and prior or adjuvant radiation impairs tissue healing.
+- `connects-to` → **[Generalized Anxiety Disorder](../generalized-anxiety-disorder/README.md)** — Recurrence fear breeds chronic worry: the scan and tumour-marker surveillance, body-image change and dread of relapse in breast cancer foster persistent health anxiety alongside depression.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
