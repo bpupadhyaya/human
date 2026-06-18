@@ -205,6 +205,15 @@ cross_links:
   - target: 01-human/07-system/generalized-anxiety-disorder
     relation: connects-to
     note: "Breathlessness and a grim prognosis breed worry: the air hunger, chest pain and near-uniformly fatal outlook of mesothelioma, with its asbestos-litigation stress, foster severe anxiety alongside depression."
+  - target: 01-human/07-system/digestive-system
+    relation: connects-to
+    note: "It also grows in the belly: peritoneal mesothelioma, the second commonest form, encases the bowel and causes ascites, abdominal pain and intestinal obstruction."
+  - target: 01-human/07-system/integumentary-system
+    relation: connects-to
+    note: "It seeds the skin along procedure tracks: mesothelioma characteristically grows out along the tracts of chest drains, biopsies and surgical scars, forming painful cutaneous tumour nodules."
+  - target: 01-human/07-system/musculoskeletal-system
+    relation: connects-to
+    note: "It eats into the chest wall: pleural mesothelioma invades the ribs and intercostal structures, causing relentless chest-wall pain and bony destruction as it spreads."
 ---
 
 # Mesothelioma
@@ -386,6 +395,9 @@ Cytoreductive surgery (CRS) + hyperthermic intraperitoneal chemotherapy (HIPEC):
 - `connects-to` → **[Aspergillus fumigatus](../../../02-pathogen/03-fungi/aspergillus-fumigatus/README.md)** — Chemotherapy and damaged pleura open the lung to mold: the neutropenia from pemetrexed-platinum chemotherapy, plus a scarred, trapped lung, can let inhaled Aspergillus invade as pulmonary aspergillosis.
 - `connects-to` → **[Wound Healing](../wound-healing/README.md)** — Radical chest surgery heals badly: extrapleural pneumonectomy or decortication for mesothelioma, plus repeated chest drains and pleurodesis, leave large thoracic wounds slow to heal in a cachectic patient.
 - `connects-to` → **[Generalized Anxiety Disorder](../generalized-anxiety-disorder/README.md)** — Breathlessness and a grim prognosis breed worry: the air hunger, chest pain and near-uniformly fatal outlook of mesothelioma, with its asbestos-litigation stress, foster severe anxiety alongside depression.
+- `connects-to` → **[Digestive System](../digestive-system/README.md)** — It also grows in the belly: peritoneal mesothelioma, the second commonest form, encases the bowel and causes ascites, abdominal pain and intestinal obstruction.
+- `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — It seeds the skin along procedure tracks: mesothelioma characteristically grows out along the tracts of chest drains, biopsies and surgical scars, forming painful cutaneous tumour nodules.
+- `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — It eats into the chest wall: pleural mesothelioma invades the ribs and intercostal structures, causing relentless chest-wall pain and bony destruction as it spreads.
 
 [^baas-2021-checkmate743]: Baas P, Scherpereel A, Nowak AK, et al. First-line nivolumab plus ipilimumab in unresectable malignant pleural mesothelioma (CheckMate 743). *Lancet.* 2021;397(10272):375-386. [doi:10.1016/S0140-6736(20)32714-8](https://doi.org/10.1016/S0140-6736(20)32714-8) · [PubMed 33485464](https://pubmed.ncbi.nlm.nih.gov/33485464/)
 [^vogelzang-2003-pemetrexed]: Vogelzang NJ, Rusthoven JJ, Symanowski J, et al. Phase III study of pemetrexed in combination with cisplatin versus cisplatin alone in patients with malignant pleural mesothelioma. *J Clin Oncol.* 2003;21(14):2636-2644. [doi:10.1200/JCO.2003.11.136](https://doi.org/10.1200/JCO.2003.11.136) · [PubMed 12860938](https://pubmed.ncbi.nlm.nih.gov/12860938/)

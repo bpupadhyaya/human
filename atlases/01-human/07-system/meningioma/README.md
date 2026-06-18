@@ -205,6 +205,15 @@ cross_links:
   - target: 01-human/07-system/wound-healing
     relation: connects-to
     note: "Craniotomy and steroids hinder repair: the surgery to resect a meningioma, often with chronic dexamethasone, leaves scalp and dural wounds prone to CSF leak and slow healing."
+  - target: 01-human/07-system/endocrine-system
+    relation: connects-to
+    note: "It is hormone-sensitive and presses on the pituitary: meningiomas express progesterone receptors and can grow in pregnancy, and skull-base tumours compress the pituitary and hypothalamus."
+  - target: 01-human/07-system/musculoskeletal-system
+    relation: connects-to
+    note: "It reshapes the skull bone: meningiomas characteristically provoke hyperostosis of the overlying calvarium and can invade and remodel the cranial bones, a recognised radiological hallmark."
+  - target: 01-human/07-system/generalized-anxiety-disorder
+    relation: connects-to
+    note: "An incidental brain tumour under watch breeds worry: the surveillance of a slow-growing meningioma, fear of growth or recurrence and neurological symptoms foster chronic health anxiety alongside depression."
 ---
 
 # Meningioma
@@ -384,6 +393,9 @@ VEGF overexpression in meningioma (YAP target); Phase 2 COMBIT (Huang 2019, N=40
 - `connects-to` → **[Neuropathic Pain](../neuropathic-pain/README.md)** — Skull-base tumors compress cranial nerves: meningiomas near the cavernous sinus or skull base entrap the trigeminal and other cranial nerves, producing facial and neuropathic pain.
 - `connects-to` → **[Type 2 Diabetes](../type-2-diabetes/README.md)** — Its steroids raise blood sugar: the dexamethasone used to control peritumoral edema around a meningioma induces insulin resistance and can precipitate steroid-induced diabetes.
 - `connects-to` → **[Wound Healing](../wound-healing/README.md)** — Craniotomy and steroids hinder repair: the surgery to resect a meningioma, often with chronic dexamethasone, leaves scalp and dural wounds prone to CSF leak and slow healing.
+- `connects-to` → **[Endocrine System](../endocrine-system/README.md)** — It is hormone-sensitive and presses on the pituitary: meningiomas express progesterone receptors and can grow in pregnancy, and skull-base tumours compress the pituitary and hypothalamus.
+- `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — It reshapes the skull bone: meningiomas characteristically provoke hyperostosis of the overlying calvarium and can invade and remodel the cranial bones, a recognised radiological hallmark.
+- `connects-to` → **[Generalized Anxiety Disorder](../generalized-anxiety-disorder/README.md)** — An incidental brain tumour under watch breeds worry: the surveillance of a slow-growing meningioma, fear of growth or recurrence and neurological symptoms foster chronic health anxiety alongside depression.
 
 [^brastianos-2013-akt1-meningioma]: Brastianos PK, Horowitz PM, Santagata S, et al. Genomic sequencing of meningiomas identifies oncogenic SMO and AKT1 mutations. *Nat Genet.* 2013;45(3):285-289. [doi:10.1038/ng.2526](https://doi.org/10.1038/ng.2526) · [PubMed 23334667](https://pubmed.ncbi.nlm.nih.gov/23334667/)
 [^nassiri-2021-meningioma-classification]: Nassiri F, Liu J, Patil V, et al. A clinically applicable integrative molecular classification of meningiomas. *Nature.* 2021;597(7874):119-125. [doi:10.1038/s41586-021-03850-3](https://doi.org/10.1038/s41586-021-03850-3) · [PubMed 34385709](https://pubmed.ncbi.nlm.nih.gov/34385709/)
