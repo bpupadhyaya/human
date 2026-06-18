@@ -229,6 +229,15 @@ cross_links:
   - target: 02-pathogen/01-viruses/varicella-zoster-virus
     relation: connects-to
     note: "Shingles flags failing immunity: multidermatomal or recurrent herpes-zoster is an early marker of HIV-related immune decline and can disseminate in advanced AIDS."
+  - target: 01-human/04-cellular/microglia
+    relation: connects-to
+    note: "The virus injures the brain through them: HIV-infected microglia and macrophages release neurotoxins driving HIV encephalitis and the cognitive decline of HIV-associated neurocognitive disorder."
+  - target: 03-medicine/03-food/zinc-dietary
+    relation: connects-to
+    note: "Wasting depletes key nutrients: zinc deficiency is common in advanced HIV and contributes to immune dysfunction, with supplementation studied to support immunity in the malnourished."
+  - target: 01-human/03-molecular/il-6
+    relation: connects-to
+    note: "Smouldering inflammation persists despite treatment: chronically raised IL-6 from residual immune activation drives the cardiovascular disease, frailty and other comorbidities seen in treated HIV."
 ---
 
 # HIV/AIDS
@@ -414,6 +423,9 @@ HIV-1 pathogenesis is primarily driven by CD4⁺ T cell loss:
 - `connects-to` → **[Renal System](../renal-system/README.md)** — HIV attacks the kidney directly: HIV-associated nephropathy, a collapsing FSGS, plus tenofovir tubular toxicity and immune-complex disease drive chronic kidney failure.
 - `connects-to` → **[Herpesvirus](../../../02-pathogen/01-viruses/herpesvirus/README.md)** — AIDS reactivates the herpes family: CMV causes sight-threatening retinitis and colitis, HHV-8 drives Kaposi sarcoma, and severe mucocutaneous herpes-simplex marks deep immunodeficiency.
 - `connects-to` → **[Varicella-zoster virus](../../../02-pathogen/01-viruses/varicella-zoster-virus/README.md)** — Shingles flags failing immunity: multidermatomal or recurrent herpes-zoster is an early marker of HIV-related immune decline and can disseminate in advanced AIDS.
+- `connects-to` → **[Microglia](../../04-cellular/microglia/README.md)** — The virus injures the brain through them: HIV-infected microglia and macrophages release neurotoxins driving HIV encephalitis and the cognitive decline of HIV-associated neurocognitive disorder.
+- `connects-to` → **[Dietary Zinc](../../../03-medicine/03-food/zinc-dietary/README.md)** — Wasting depletes key nutrients: zinc deficiency is common in advanced HIV and contributes to immune dysfunction, with supplementation studied to support immunity in the malnourished.
+- `connects-to` → **[Interleukin-6](../../03-molecular/il-6/README.md)** — Smouldering inflammation persists despite treatment: chronically raised IL-6 from residual immune activation drives the cardiovascular disease, frailty and other comorbidities seen in treated HIV.
 
 ## See Also
 
