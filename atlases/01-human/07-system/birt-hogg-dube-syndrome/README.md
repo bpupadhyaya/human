@@ -232,6 +232,15 @@ cross_links:
   - target: 01-human/07-system/gorlin-syndrome
     relation: connects-to
     note: "A comparator of inherited facial papules: Gorlin syndrome's multiple basal cell carcinomas enter the differential of Birt-Hogg-Dubé's fibrofolliculomas, both hereditary causes of numerous facial skin tumours."
+  - target: 03-medicine/01-modern/13-cancer/targeted-therapy
+    relation: connects-to
+    note: "Advanced kidney tumours need systemic drugs: the chromophobe and oncocytic renal cancers of Birt-Hogg-Dubé, when metastatic, are treated with mTOR and VEGFR-targeted agents reflecting their FLCN-mTOR biology."
+  - target: 01-human/07-system/dicer1-syndrome
+    relation: connects-to
+    note: "A fellow cause of inherited cystic lung disease: like Birt-Hogg-Dubé, DICER1 syndrome produces familial lung cysts prone to pneumothorax, so both demand awareness of cystic lung change in young patients."
+  - target: 01-human/07-system/carney-complex
+    relation: connects-to
+    note: "A shared lifetime of surveillance: like Carney complex, Birt-Hogg-Dubé commits carriers to lifelong multi-organ imaging surveillance, here annual renal MRI to catch its kidney tumours early."
 ---
 
 # Birt-Hogg-Dubé Syndrome
@@ -444,6 +453,9 @@ Definite BHD: 1 major OR 2 minor criteria (European BHD Consortium definition)
 - `connects-to` → **[Neurofibromatosis Type 1](../neurofibromatosis-type-1/README.md)** — A fellow skin-led tumour syndrome: like Birt-Hogg-Dubé, NF1 is autosomal-dominant and announced by skin signs — café-au-lait macules and neurofibromas — that flag inherited tumour predisposition.
 - `connects-to` → **[Neurofibromatosis Type 2](../neurofibromatosis-type-2/README.md)** — Another tumour-suppressor syndrome: NF2 joins Birt-Hogg-Dubé among inherited disorders where loss of a single tumour-suppressor gene drives characteristic tumours, here bilateral vestibular schwannomas.
 - `connects-to` → **[Gorlin Syndrome](../gorlin-syndrome/README.md)** — A comparator of inherited facial papules: Gorlin syndrome's multiple basal cell carcinomas enter the differential of Birt-Hogg-Dubé's fibrofolliculomas, both hereditary causes of numerous facial skin tumours.
+- `connects-to` → **[Targeted Therapy](../../../03-medicine/01-modern/13-cancer/targeted-therapy/README.md)** — Advanced kidney tumours need systemic drugs: the chromophobe and oncocytic renal cancers of Birt-Hogg-Dubé, when metastatic, are treated with mTOR and VEGFR-targeted agents reflecting their FLCN-mTOR biology.
+- `connects-to` → **[DICER1 Syndrome](../dicer1-syndrome/README.md)** — A fellow cause of inherited cystic lung disease: like Birt-Hogg-Dubé, DICER1 syndrome produces familial lung cysts prone to pneumothorax, so both demand awareness of cystic lung change in young patients.
+- `connects-to` → **[Carney Complex](../carney-complex/README.md)** — A shared lifetime of surveillance: like Carney complex, Birt-Hogg-Dubé commits carriers to lifelong multi-organ imaging surveillance, here annual renal MRI to catch its kidney tumours early.
 
 ---
 

@@ -232,6 +232,15 @@ cross_links:
   - target: 03-medicine/03-food/sulforaphane
     relation: connects-to
     note: "Dietary chemoprevention is studied: sulforaphane from cruciferous vegetables shows photoprotective, chemopreventive activity against UV-induced skin cancer in models, an area of active research."
+  - target: 03-medicine/01-modern/13-cancer/targeted-therapy
+    relation: connects-to
+    note: "Hedgehog inhibitors target its driver: vismodegib and sonidegib block SMO in the constitutively active Hedgehog pathway that causes basal cell carcinoma, used for advanced and Gorlin-related disease."
+  - target: 03-medicine/01-modern/13-cancer/checkpoint-inhibitors
+    relation: connects-to
+    note: "Immunotherapy follows Hedgehog failure: the anti-PD-1 antibody cemiplimab treats locally advanced or metastatic basal cell carcinoma after Hedgehog inhibitors stop working."
+  - target: 01-human/07-system/hnscc
+    relation: connects-to
+    note: "Carcinogen field cancerisation links them: as tobacco and alcohol field-damage the head-and-neck mucosa, UV field damage of sun-exposed skin produces multiple basal cell carcinomas across a damaged field."
 ---
 
 # Basal Cell Carcinoma
@@ -425,6 +434,9 @@ BCC has a complex immune microenvironment:
 - `connects-to` → **[Renal System](../renal-system/README.md)** — Transplantation multiplies the risk: long-term immunosuppression in kidney and other organ transplant recipients sharply increases basal cell and other skin cancers, demanding lifelong dermatological surveillance.
 - `connects-to` → **[Endocrine System](../endocrine-system/README.md)** — Sun is double-edged for the skin's endocrine role: the UV radiation that drives basal cell carcinoma is also what the skin uses to synthesise vitamin D, a hormone precursor.
 - `connects-to` → **[Sulforaphane](../../../03-medicine/03-food/sulforaphane/README.md)** — Dietary chemoprevention is studied: sulforaphane from cruciferous vegetables shows photoprotective, chemopreventive activity against UV-induced skin cancer in models, an area of active research.
+- `connects-to` → **[Targeted Therapy](../../../03-medicine/01-modern/13-cancer/targeted-therapy/README.md)** — Hedgehog inhibitors target its driver: vismodegib and sonidegib block SMO in the constitutively active Hedgehog pathway that causes basal cell carcinoma, used for advanced and Gorlin-related disease.
+- `connects-to` → **[Checkpoint Inhibitors](../../../03-medicine/01-modern/13-cancer/checkpoint-inhibitors/README.md)** — Immunotherapy follows Hedgehog failure: the anti-PD-1 antibody cemiplimab treats locally advanced or metastatic basal cell carcinoma after Hedgehog inhibitors stop working.
+- `connects-to` → **[HNSCC](../hnscc/README.md)** — Carcinogen field cancerisation links them: as tobacco and alcohol field-damage the head-and-neck mucosa, UV field damage of sun-exposed skin produces multiple basal cell carcinomas across a damaged field.
 
 ---
 
