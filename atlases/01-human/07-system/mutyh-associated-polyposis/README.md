@@ -223,6 +223,15 @@ cross_links:
   - target: 01-human/07-system/lymphatic-system
     relation: connects-to
     note: "Its cancers travel through the nodes: the colorectal cancers of MAP spread to regional lymph nodes, which determines staging and the need for adjuvant chemotherapy."
+  - target: 03-medicine/01-modern/04-cardio/aspirin
+    relation: connects-to
+    note: "Aspirin lowers colorectal risk: like in other inherited polyposis, regular aspirin reduces colorectal adenoma and cancer risk in MUTYH-associated polyposis as chemoprevention."
+  - target: 01-human/07-system/renal-system
+    relation: connects-to
+    note: "It reaches the urinary tract: MUTYH-associated polyposis raises the risk of bladder and other urothelial cancers among its extracolonic tumours."
+  - target: 01-human/07-system/respiratory-system
+    relation: connects-to
+    note: "Advanced disease spreads to the lungs: the colorectal cancers of MUTYH-associated polyposis metastasise to the lungs and liver if they progress."
 ---
 
 # MUTYH-Associated Polyposis
@@ -393,6 +402,9 @@ Because MAP is autosomal recessive: siblings of MAP patients are at **25%** risk
 - `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — It shares FAP's bony lesions: like familial adenomatous polyposis, MAP can cause osteomas of the jaw and skull among its FAP-like extracolonic features.
 - `connects-to` → **[Immune System](../immune-system/README.md)** — Its DNA-repair defect raises mutation burden: MUTYH-deficient tumours accumulate many mutations from unrepaired oxidative DNA damage, which may make them responsive to checkpoint-inhibitor immunotherapy.
 - `connects-to` → **[Lymphatic System](../lymphatic-system/README.md)** — Its cancers travel through the nodes: the colorectal cancers of MAP spread to regional lymph nodes, which determines staging and the need for adjuvant chemotherapy.
+- `connects-to` → **[Aspirin](../../../03-medicine/01-modern/04-cardio/aspirin/README.md)** — Aspirin lowers colorectal risk: like in other inherited polyposis, regular aspirin reduces colorectal adenoma and cancer risk in MUTYH-associated polyposis as chemoprevention.
+- `connects-to` → **[Renal System](../renal-system/README.md)** — It reaches the urinary tract: MUTYH-associated polyposis raises the risk of bladder and other urothelial cancers among its extracolonic tumours.
+- `connects-to` → **[Respiratory System](../respiratory-system/README.md)** — Advanced disease spreads to the lungs: the colorectal cancers of MUTYH-associated polyposis metastasise to the lungs and liver if they progress.
 - `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — MAP breaks the dominant-inheritance pattern of its cousins: it is autosomal recessive, so two carrier parents — often with no polyposis themselves — have a 1-in-4 risk each pregnancy, making partner carrier testing and recurrence counseling central to families.
 - `connects-to` → **[Platelet](../../04-cellular/platelet/README.md)** — Aspirin's colorectal protection extends here: blocking platelet COX-1 and the tumor-promoting signals platelets release underpins the chemoprevention studied across hereditary colorectal syndromes, including MUTYH-driven polyposis.
 - `connects-to` → **[Plasma Cell](../../04-cellular/plasma-cell/README.md)** — The repair defect leaves an immune fingerprint: MUTYH loss spawns a heavy load of G-to-T mutations and neoantigens, drawing B cells and plasma cells into the tumor — an immune-rich profile that may make these cancers responsive to checkpoint therapy.

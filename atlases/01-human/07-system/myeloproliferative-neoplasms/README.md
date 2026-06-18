@@ -223,6 +223,15 @@ cross_links:
   - target: 01-human/07-system/musculoskeletal-system
     relation: connects-to
     note: "They burden bone and joints: marrow expansion and the osteosclerosis of myelofibrosis cause bone pain, while high cell turnover raises uric acid and precipitates gout."
+  - target: 01-human/07-system/respiratory-system
+    relation: connects-to
+    note: "Clots and blood-making reach the lungs: MPNs cause pulmonary embolism and pulmonary hypertension, and extramedullary haematopoiesis can rarely involve the lungs."
+  - target: 01-human/07-system/renal-system
+    relation: connects-to
+    note: "High cell turnover taxes the kidney: hyperuricaemia causes urate nephropathy, an MPN-associated glomerulopathy occurs, and renal vein thrombosis can complicate the prothrombotic state."
+  - target: 03-medicine/01-modern/04-cardio/aspirin
+    relation: connects-to
+    note: "Low-dose aspirin counters the clotting: by inhibiting the overactive platelets of myeloproliferative neoplasms, aspirin reduces thrombosis and microvascular symptoms, alongside cytoreduction."
 ---
 
 # Myeloproliferative Neoplasms
@@ -435,6 +444,9 @@ In PV and ET, JAK2 V617F also affects myeloid progenitors → granulocytosis and
 - `connects-to` → **[Lymphatic System](../lymphatic-system/README.md)** — They swell the spleen: extramedullary haematopoiesis and pooling of blood cells enlarge the spleen, often massively in myelofibrosis, with a risk of splenic infarction and early satiety.
 - `connects-to` → **[Nervous System](../nervous-system/README.md)** — Thick blood disturbs the brain: hyperviscosity and microvascular thrombosis in MPNs cause headache, visual disturbance, transient ischaemic attacks and stroke.
 - `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — They burden bone and joints: marrow expansion and the osteosclerosis of myelofibrosis cause bone pain, while high cell turnover raises uric acid and precipitates gout.
+- `connects-to` → **[Respiratory System](../respiratory-system/README.md)** — Clots and blood-making reach the lungs: MPNs cause pulmonary embolism and pulmonary hypertension, and extramedullary haematopoiesis can rarely involve the lungs.
+- `connects-to` → **[Renal System](../renal-system/README.md)** — High cell turnover taxes the kidney: hyperuricaemia causes urate nephropathy, an MPN-associated glomerulopathy occurs, and renal vein thrombosis can complicate the prothrombotic state.
+- `connects-to` → **[Aspirin](../../../03-medicine/01-modern/04-cardio/aspirin/README.md)** — Low-dose aspirin counters the clotting: by inhibiting the overactive platelets of myeloproliferative neoplasms, aspirin reduces thrombosis and microvascular symptoms, alongside cytoreduction.
 
 [^verstovsek-2012-comfort-i]: Verstovsek S, Mesa RA, Gotlib J, et al. A double-blind, placebo-controlled trial of ruxolitinib for myelofibrosis. *N Engl J Med.* 2012;366(9):799-807. [doi:10.1056/NEJMoa1110557](https://doi.org/10.1056/NEJMoa1110557) · [PubMed 22375971](https://pubmed.ncbi.nlm.nih.gov/22375971/)
 [^vannucchi-2015-response]: Vannucchi AM, Kiladjian JJ, Griesshammer M, et al. Ruxolitinib versus standard therapy for the treatment of polycythemia vera. *N Engl J Med.* 2015;372(5):426-435. [doi:10.1056/NEJMoa1409002](https://doi.org/10.1056/NEJMoa1409002) · [PubMed 25426978](https://pubmed.ncbi.nlm.nih.gov/25426978/)
