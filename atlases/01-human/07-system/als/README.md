@@ -241,6 +241,15 @@ cross_links:
   - target: 02-pathogen/01-viruses/coxsackievirus-b
     relation: connects-to
     note: "Enteroviruses target motor neurons too: like poliovirus, Coxsackie and other enteroviruses can infect anterior-horn cells and cause acute flaccid paralysis, part of the infectious differential of motor neuron disease."
+  - target: 01-human/07-system/lewy-body-dementia
+    relation: connects-to
+    note: "A shared misfolded protein: TDP-43 aggregation links ALS to the frontotemporal dementia it overlaps with and to the TDP-43 co-pathology found in Lewy body dementia, blurring the lines between neurodegenerations."
+  - target: 01-human/04-cellular/endothelial-cell
+    relation: connects-to
+    note: "The barrier around motor neurons leaks: blood-spinal-cord barrier breakdown and reduced VEGF-driven vascular support contribute to motor-neuron degeneration in ALS, a vascular dimension of the disease."
+  - target: 01-human/07-system/obesity
+    relation: connects-to
+    note: "Body fat paradoxically protects: ALS drives a hypermetabolic, weight-losing state, and higher body-mass index and high-calorie nutrition are associated with longer survival, the opposite of most diseases."
 ---
 
 # ALS
@@ -447,6 +456,9 @@ ALS diagnosis is **clinical** — no single definitive biomarker test (though Nf
 - `connects-to` → **[HIV-1](../../../02-pathogen/01-viruses/hiv-1/README.md)** — A treatable mimic: HIV can cause a motor neuron syndrome resembling ALS that may improve with antiretroviral therapy, an important differential to exclude before diagnosis.
 - `connects-to` → **[West Nile virus](../west-nile-virus/README.md)** — A virus can destroy the same neurons: West Nile virus attacks anterior-horn motor neurons, causing a poliomyelitis-like acute flaccid paralysis that mimics rapidly progressive motor neuron disease.
 - `connects-to` → **[Coxsackievirus B](../../../02-pathogen/01-viruses/coxsackievirus-b/README.md)** — Enteroviruses target motor neurons too: like poliovirus, Coxsackie and other enteroviruses can infect anterior-horn cells and cause acute flaccid paralysis, part of the infectious differential of motor neuron disease.
+- `connects-to` → **[Lewy Body Dementia](../lewy-body-dementia/README.md)** — A shared misfolded protein: TDP-43 aggregation links ALS to the frontotemporal dementia it overlaps with and to the TDP-43 co-pathology found in Lewy body dementia, blurring the lines between neurodegenerations.
+- `connects-to` → **[Endothelial Cell](../../04-cellular/endothelial-cell/README.md)** — The barrier around motor neurons leaks: blood-spinal-cord barrier breakdown and reduced VEGF-driven vascular support contribute to motor-neuron degeneration in ALS, a vascular dimension of the disease.
+- `connects-to` → **[Obesity](../obesity/README.md)** — Body fat paradoxically protects: ALS drives a hypermetabolic, weight-losing state, and higher body-mass index and high-calorie nutrition are associated with longer survival, the opposite of most diseases.
 - `connects-to` → **[Generalized Anxiety Disorder](../generalized-anxiety-disorder/README.md)** — Watching the body fail breeds dread: the relentless progression of paralysis and the fear of suffocation give ALS a heavy burden of anxiety alongside its depression.
 - `connects-to` → **[Chronic Kidney Disease](../ckd/README.md)** — Swallowing failure dries out the kidneys: dysphagia limits fluid intake while immobility and recurrent illness add prerenal stress, so chronic dehydration can erode renal function in advanced ALS.
 - `connects-to` → **[Streptococcus pneumoniae](../../../02-pathogen/02-bacteria/streptococcus-pneumoniae/README.md)** — Failing swallow and cough flood the lungs: bulbar and respiratory muscle weakness in ALS causes aspiration and an ineffective cough, and the resulting pneumonia — often pneumococcal — is the leading cause of death.

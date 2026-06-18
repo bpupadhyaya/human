@@ -232,6 +232,15 @@ cross_links:
   - target: 02-pathogen/01-viruses/herpesvirus
     relation: connects-to
     note: "Chemotherapy reawakens latent virus: under the deep immunosuppression of ALL treatment, cytomegalovirus reactivation and severe herpes-simplex infection are major threats, prompting surveillance and antiviral prophylaxis."
+  - target: 03-medicine/01-modern/13-cancer/cancer-chemotherapy
+    relation: connects-to
+    note: "The backbone of cure: intensive multi-agent chemotherapy over two to three years, with intrathecal therapy for the CNS, cures most childhood acute lymphoblastic leukaemia."
+  - target: 03-medicine/01-modern/13-cancer/car-t
+    relation: connects-to
+    note: "Engineered cells rescue relapse: CD19-directed CAR-T therapy (tisagenlecleucel) induces remission in relapsed or refractory B-cell ALL, a landmark of cellular immunotherapy."
+  - target: 03-medicine/01-modern/13-cancer/targeted-therapy
+    relation: connects-to
+    note: "Philadelphia-positive disease needs a TKI: BCR-ABL1 tyrosine-kinase inhibitors such as imatinib and dasatinib, added to chemotherapy, transformed the once-dismal Ph+ subtype of ALL."
 ---
 
 # Acute Lymphoblastic Leukemia
@@ -443,6 +452,9 @@ Childhood ALL survivors (now majority of patients): neurocognitive impairment (M
 - `connects-to` → **[Cardiovascular System](../cardiovascular-system/README.md)** — Its chemotherapy bruises the heart: anthracyclines like daunorubicin used in ALL induction can cause cardiomyopathy, a late effect that follows childhood survivors for life.
 - `connects-to` → **[Respiratory System](../respiratory-system/README.md)** — It can fill the chest: T-cell ALL classically presents with a mediastinal mass compressing the airway and SVC, while immunosuppression invites pneumonia and fungal lung infection.
 - `connects-to` → **[Herpesvirus](../../../02-pathogen/01-viruses/herpesvirus/README.md)** — Chemotherapy reawakens latent virus: under the deep immunosuppression of ALL treatment, cytomegalovirus reactivation and severe herpes-simplex infection are major threats, prompting surveillance and antiviral prophylaxis.
+- `connects-to` → **[Cancer Chemotherapy](../../../03-medicine/01-modern/13-cancer/cancer-chemotherapy/README.md)** — The backbone of cure: intensive multi-agent chemotherapy over two to three years, with intrathecal therapy for the CNS, cures most childhood acute lymphoblastic leukaemia.
+- `connects-to` → **[CAR-T](../../../03-medicine/01-modern/13-cancer/car-t/README.md)** — Engineered cells rescue relapse: CD19-directed CAR-T therapy (tisagenlecleucel) induces remission in relapsed or refractory B-cell ALL, a landmark of cellular immunotherapy.
+- `connects-to` → **[Targeted Therapy](../../../03-medicine/01-modern/13-cancer/targeted-therapy/README.md)** — Philadelphia-positive disease needs a TKI: BCR-ABL1 tyrosine-kinase inhibitors such as imatinib and dasatinib, added to chemotherapy, transformed the once-dismal Ph+ subtype of ALL.
 
 [^pui-2018-all-cure]: Pui CH, Yang JJ, Bhakta N, et al. Global efforts toward the cure of childhood acute lymphoblastic leukemia. *Lancet Child Adolesc Health.* 2018;2(6):440-454. [doi:10.1016/S2352-4642(18)30066-X](https://doi.org/10.1016/S2352-4642(18)30066-X) · [PubMed 29976322](https://pubmed.ncbi.nlm.nih.gov/29976322/)
 [^maude-2018-tisagenlecleucel]: Maude SL, Laetsch TW, Buechner J, et al. Tisagenlecleucel in children and young adults with B-cell lymphoblastic leukemia. *N Engl J Med.* 2018;378(5):439-448. [doi:10.1056/NEJMoa1709866](https://doi.org/10.1056/NEJMoa1709866) · [PubMed 29385370](https://pubmed.ncbi.nlm.nih.gov/29385370/)
