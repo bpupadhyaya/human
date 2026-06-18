@@ -229,6 +229,15 @@ cross_links:
   - target: 01-human/07-system/immune-system
     relation: connects-to
     note: "The immune system can ignite seizures: autoimmune encephalitis with anti-NMDA-receptor or LGI1 antibodies causes seizures that respond to immunotherapy rather than to anti-seizure drugs alone."
+  - target: 01-human/07-system/digestive-system
+    relation: connects-to
+    note: "Treatment touches the gut and liver: valproate can be hepatotoxic, many antiepileptics induce liver enzymes, and the ketogenic diet used for refractory epilepsy works through gut metabolism."
+  - target: 01-human/07-system/renal-system
+    relation: connects-to
+    note: "Some drugs stone the kidney: carbonic-anhydrase-inhibiting antiepileptics like topiramate and zonisamide promote kidney stones and a metabolic acidosis."
+  - target: 01-human/07-system/lymphatic-system
+    relation: connects-to
+    note: "Anticonvulsants can swell the nodes: phenytoin and aromatic antiepileptics cause hypersensitivity reactions (DRESS) with fever, rash and lymphadenopathy."
 ---
 
 # Epilepsy
@@ -451,6 +460,9 @@ Anti-NMDAR encephalitis is the most common autoimmune encephalitis (~37% of auto
 - `connects-to` → **[Cardiovascular System](../cardiovascular-system/README.md)** — It can stop the heart: ictal bradycardia, asystole and arrhythmias occur around seizures and contribute to sudden unexpected death in epilepsy (SUDEP).
 - `connects-to` → **[Respiratory System](../respiratory-system/README.md)** — Seizures suppress breathing: peri-ictal central apnoea and aspiration are common, and the resulting hypoxia is a leading mechanism in sudden unexpected death in epilepsy.
 - `connects-to` → **[Immune System](../immune-system/README.md)** — The immune system can ignite seizures: autoimmune encephalitis with anti-NMDA-receptor or LGI1 antibodies causes seizures that respond to immunotherapy rather than to anti-seizure drugs alone.
+- `connects-to` → **[Digestive System](../digestive-system/README.md)** — Treatment touches the gut and liver: valproate can be hepatotoxic, many antiepileptics induce liver enzymes, and the ketogenic diet used for refractory epilepsy works through gut metabolism.
+- `connects-to` → **[Renal System](../renal-system/README.md)** — Some drugs stone the kidney: carbonic-anhydrase-inhibiting antiepileptics like topiramate and zonisamide promote kidney stones and a metabolic acidosis.
+- `connects-to` → **[Lymphatic System](../lymphatic-system/README.md)** — Anticonvulsants can swell the nodes: phenytoin and aromatic antiepileptics cause hypersensitivity reactions (DRESS) with fever, rash and lymphadenopathy.
 
 [^fisher-2017-ilae-classification]: Fisher RS, Cross JH, D'Souza C, et al. Instruction manual for the ILAE 2017 operational classification of seizure types. *Epilepsia.* 2017;58(4):531-542. [doi:10.1111/epi.13671](https://doi.org/10.1111/epi.13671) · [PubMed 28276060](https://pubmed.ncbi.nlm.nih.gov/28276060/)
 [^devinsky-2018-epilepsy-review]: Devinsky O, Vezzani A, O'Brien TJ, et al. Epilepsy. *Nat Rev Dis Primers.* 2018;4:18024. [doi:10.1038/nrdp.2018.24](https://doi.org/10.1038/nrdp.2018.24) · [PubMed 29722352](https://pubmed.ncbi.nlm.nih.gov/29722352/)

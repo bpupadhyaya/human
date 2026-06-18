@@ -220,6 +220,15 @@ cross_links:
   - target: 01-human/07-system/renal-system
     relation: connects-to
     note: "A bulky pelvic tumour can block the ureters: locally advanced endometrial cancer can obstruct the ureters, causing hydronephrosis and post-renal acute kidney injury."
+  - target: 01-human/07-system/cardiovascular-system
+    relation: connects-to
+    note: "Shared metabolic roots: the obesity, insulin resistance and unopposed oestrogen that drive type-I endometrial cancer are the same risk cluster behind cardiovascular disease, a leading cause of death in survivors."
+  - target: 01-human/07-system/digestive-system
+    relation: connects-to
+    note: "Advanced disease spreads within the abdomen: endometrial cancer seeds the omentum and bowel surfaces, and platinum-taxane chemotherapy brings nausea and mucositis."
+  - target: 01-human/07-system/integumentary-system
+    relation: connects-to
+    note: "It can surface at the navel: like other intra-abdominal cancers it occasionally seeds a Sister Mary Joseph nodule at the umbilicus, a visible sign of peritoneal spread."
 ---
 
 # Endometrial Cancer
@@ -412,6 +421,9 @@ cross_links:
 - `connects-to` → **[Respiratory System](../respiratory-system/README.md)** — It spreads to the lungs: the lungs are a common site of distant metastasis in endometrial cancer, found on staging imaging and at recurrence as pulmonary nodules.
 - `connects-to` → **[Immune System](../immune-system/README.md)** — Mismatch-repair failure makes it treatable by immunotherapy: dMMR/MSI-high endometrial tumours — common and often linked to Lynch syndrome — respond to checkpoint-inhibitor therapy.
 - `connects-to` → **[Renal System](../renal-system/README.md)** — A bulky pelvic tumour can block the ureters: locally advanced endometrial cancer can obstruct the ureters, causing hydronephrosis and post-renal acute kidney injury.
+- `connects-to` → **[Cardiovascular System](../cardiovascular-system/README.md)** — Shared metabolic roots: the obesity, insulin resistance and unopposed oestrogen that drive type-I endometrial cancer are the same risk cluster behind cardiovascular disease, a leading cause of death in survivors.
+- `connects-to` → **[Digestive System](../digestive-system/README.md)** — Advanced disease spreads within the abdomen: endometrial cancer seeds the omentum and bowel surfaces, and platinum-taxane chemotherapy brings nausea and mucositis.
+- `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — It can surface at the navel: like other intra-abdominal cancers it occasionally seeds a Sister Mary Joseph nodule at the umbilicus, a visible sign of peritoneal spread.
 
 [^konstantinopoulos-2019-dostarlimab]: Konstantinopoulos PA, Lheureux S, Moore KN. PARP inhibitors for ovarian and endometrial cancers: state of the art and clinical perspectives. *J Clin Oncol.* 2020;38(25):2896-2909. [doi:10.1200/JCO.20.00571](https://doi.org/10.1200/JCO.20.00571) · [PubMed 32706635](https://pubmed.ncbi.nlm.nih.gov/32706635/)
 [^eskander-2023-ruby]: Eskander RN, Sill MW, Beffa L, et al. Pembrolizumab plus chemotherapy in advanced endometrial cancer. *N Engl J Med.* 2023;388(23):2159-2170. [doi:10.1056/NEJMoa2302312](https://doi.org/10.1056/NEJMoa2302312) · [PubMed 37166384](https://pubmed.ncbi.nlm.nih.gov/37166384/)
