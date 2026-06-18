@@ -238,6 +238,15 @@ cross_links:
   - target: 01-human/07-system/lymphatic-system
     relation: connects-to
     note: "Its drugs raise lymphoma risk: thiopurines and anti-TNF therapy for IBD slightly increase the risk of lymphoma, including the rare hepatosplenic T-cell lymphoma in young men."
+  - target: 03-medicine/01-modern/02-respiratory/corticosteroids
+    relation: connects-to
+    note: "Steroids tame the flare: corticosteroids induce remission in acute inflammatory bowel disease flares, but their toxicity makes them unsuitable for maintenance, driving the use of steroid-sparing biologics."
+  - target: 01-human/07-system/atopic-dermatitis
+    relation: connects-to
+    note: "Shared immune dysregulation: inflammatory bowel disease and atopic dermatitis co-occur more than expected and share cytokine pathways, with JAK inhibitors now treating both."
+  - target: 02-pathogen/02-bacteria/mycobacterium-tuberculosis
+    relation: connects-to
+    note: "TB shadows its treatment and mimics it: latent tuberculosis must be excluded before anti-TNF therapy, which can reactivate it, and intestinal TB closely mimics Crohn's disease."
 ---
 
 # Inflammatory Bowel Disease
@@ -439,6 +448,9 @@ IBD is a complex polygenic disease with >240 susceptibility loci (GWAS):
 - `connects-to` → **[Cardiovascular System](../cardiovascular-system/README.md)** — Chronic gut inflammation reaches the vessels: IBD raises the risk of venous thromboembolism and, through systemic inflammation, of cardiovascular disease and rare pericarditis.
 - `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — It touches fertility and pregnancy: active IBD and pelvic surgery can impair fertility, sulfasalazine causes reversible male infertility, and flares complicate pregnancy.
 - `connects-to` → **[Lymphatic System](../lymphatic-system/README.md)** — Its drugs raise lymphoma risk: thiopurines and anti-TNF therapy for IBD slightly increase the risk of lymphoma, including the rare hepatosplenic T-cell lymphoma in young men.
+- `connects-to` → **[Corticosteroids](../../../03-medicine/01-modern/02-respiratory/corticosteroids/README.md)** — Steroids tame the flare: corticosteroids induce remission in acute inflammatory bowel disease flares, but their toxicity makes them unsuitable for maintenance, driving the use of steroid-sparing biologics.
+- `connects-to` → **[Atopic Dermatitis](../atopic-dermatitis/README.md)** — Shared immune dysregulation: inflammatory bowel disease and atopic dermatitis co-occur more than expected and share cytokine pathways, with JAK inhibitors now treating both.
+- `connects-to` → **[Mycobacterium tuberculosis](../../../02-pathogen/02-bacteria/mycobacterium-tuberculosis/README.md)** — TB shadows its treatment and mimics it: latent tuberculosis must be excluded before anti-TNF therapy, which can reactivate it, and intestinal TB closely mimics Crohn's disease.
 
 [^ng-2017-ibd-epidemiology]: Ng SC, Shi HY, Hamidi N, et al. Worldwide incidence and prevalence of inflammatory bowel disease in the 21st century: a systematic review of population-based studies. *Lancet.* 2018;390(10114):2769-2778. [doi:10.1016/S0140-6736(17)32448-0](https://doi.org/10.1016/S0140-6736(17)32448-0) · [PubMed 29050646](https://pubmed.ncbi.nlm.nih.gov/29050646/)
 [^sandborn-2012-vedolizumab]: Feagan BG, Rutgeerts P, Sands BE, et al. Vedolizumab as induction and maintenance therapy for ulcerative colitis. *N Engl J Med.* 2013;369(8):699-710. [doi:10.1056/NEJMoa1215734](https://doi.org/10.1056/NEJMoa1215734) · [PubMed 23964932](https://pubmed.ncbi.nlm.nih.gov/23964932/)

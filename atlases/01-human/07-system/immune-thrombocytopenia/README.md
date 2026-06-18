@@ -240,6 +240,15 @@ cross_links:
   - target: 01-human/07-system/renal-system
     relation: connects-to
     note: "Bleeding and overlap reach the kidney: ITP can cause haematuria, and when it accompanies lupus or Evans syndrome a coexisting glomerulonephritis may be present."
+  - target: 02-pathogen/01-viruses/hepatitis-c-virus
+    relation: connects-to
+    note: "A virus that lowers the platelets: chronic hepatitis C is a recognised secondary cause of immune thrombocytopenia, and treating the infection often raises the platelet count."
+  - target: 01-human/07-system/heparin-induced-thrombocytopenia
+    relation: connects-to
+    note: "A thrombocytopenia that clots instead of bleeds: unlike immune thrombocytopenia, heparin-induced thrombocytopenia causes thrombosis, a key contrast in the workup of a falling platelet count."
+  - target: 03-medicine/01-modern/13-cancer/cancer-chemotherapy
+    relation: connects-to
+    note: "Cytotoxic immunosuppression for refractory disease: vincristine, cyclophosphamide and azathioprine are used in immune thrombocytopenia that resists steroids and first-line agents."
 ---
 
 # Immune Thrombocytopenia
@@ -449,6 +458,9 @@ ITP in pregnancy carries risk of neonatal thrombocytopenia (maternal IgG crosses
 - `connects-to` → **[Corticosteroids](../../../03-medicine/01-modern/02-respiratory/corticosteroids/README.md)** — First-line lifts the platelets: corticosteroids are the initial treatment for immune thrombocytopenia, dampening the autoimmune platelet destruction, with IVIG added for urgent rises.
 - `connects-to` → **[Cardiovascular System](../cardiovascular-system/README.md)** — Treatment can swing toward clotting: the thrombopoietin-receptor agonists used in chronic ITP raise platelet counts but carry a thrombotic and cardiovascular risk.
 - `connects-to` → **[Renal System](../renal-system/README.md)** — Bleeding and overlap reach the kidney: ITP can cause haematuria, and when it accompanies lupus or Evans syndrome a coexisting glomerulonephritis may be present.
+- `connects-to` → **[Hepatitis C Virus](../../../02-pathogen/01-viruses/hepatitis-c-virus/README.md)** — A virus that lowers the platelets: chronic hepatitis C is a recognised secondary cause of immune thrombocytopenia, and treating the infection often raises the platelet count.
+- `connects-to` → **[Heparin-Induced Thrombocytopenia](../heparin-induced-thrombocytopenia/README.md)** — A thrombocytopenia that clots instead of bleeds: unlike immune thrombocytopenia, heparin-induced thrombocytopenia causes thrombosis, a key contrast in the workup of a falling platelet count.
+- `connects-to` → **[Cancer Chemotherapy](../../../03-medicine/01-modern/13-cancer/cancer-chemotherapy/README.md)** — Cytotoxic immunosuppression for refractory disease: vincristine, cyclophosphamide and azathioprine are used in immune thrombocytopenia that resists steroids and first-line agents.
 
 [^cines-2002-itp-review]: Cines DB, Blanchette VS. Immune thrombocytopenic purpura. *N Engl J Med.* 2002;346(13):995-1008. [doi:10.1056/NEJMra010532](https://doi.org/10.1056/NEJMra010532) · [PubMed 11919310](https://pubmed.ncbi.nlm.nih.gov/11919310/)
 [^neunert-2019-ash-itp-guidelines]: Neunert C, et al. American Society of Hematology 2019 guidelines for immune thrombocytopenia. *Blood Adv.* 2019;3(23):3829-3866. [doi:10.1182/bloodadvances.2019000966](https://doi.org/10.1182/bloodadvances.2019000966) · [PubMed 31794604](https://pubmed.ncbi.nlm.nih.gov/31794604/)
