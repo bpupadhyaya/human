@@ -235,6 +235,15 @@ cross_links:
   - target: 03-medicine/03-food/omega-3-fatty-acids
     relation: connects-to
     note: "Diet adds a modest lever: omega-3 supplements mainly lower triglycerides and complement statins, though they do little for the very high LDL that defines FH."
+  - target: 01-human/05-tissue/arterial-wall
+    relation: connects-to
+    note: "This is where it does its damage: lifelong high LDL drives cholesterol into the arterial wall, building the atherosclerotic plaque that causes premature coronary disease in familial hypercholesterolaemia."
+  - target: 01-human/07-system/lymphatic-system
+    relation: connects-to
+    note: "Cholesterol leaves tissues through it: HDL-mediated reverse cholesterol transport drains peripheral cholesterol via the lymphatics, and FH's deposits surface as tendon and skin xanthomas when that clearance is overwhelmed."
+  - target: 03-medicine/02-traditional/berberine
+    relation: connects-to
+    note: "A natural compound that lowers LDL: berberine upregulates the LDL receptor and modestly reduces cholesterol, studied as an adjunct in people who cannot tolerate or fully respond to statins."
 ---
 
 # Familial Hypercholesterolemia
@@ -415,6 +424,9 @@ FH is a **monogenic autosomal dominant disorder** caused by mutations in three g
 - `connects-to` → **[Aspirin](../../../03-medicine/01-modern/04-cardio/aspirin/README.md)** — Once arteries are damaged, antiplatelet cover follows: aspirin is added for secondary prevention after the premature heart attacks and strokes that untreated FH causes.
 - `connects-to` → **[ACE inhibitors](../../../03-medicine/01-modern/04-cardio/ace-inhibitors/README.md)** — They protect the heart after early infarction: ACE inhibitors support left-ventricular function after the premature myocardial infarction FH produces and treat the hypertension that compounds its vascular risk.
 - `connects-to` → **[Omega-3 fatty acids](../../../03-medicine/03-food/omega-3-fatty-acids/README.md)** — Diet adds a modest lever: omega-3 supplements mainly lower triglycerides and complement statins, though they do little for the very high LDL that defines FH.
+- `connects-to` → **[Arterial Wall](../../05-tissue/arterial-wall/README.md)** — This is where it does its damage: lifelong high LDL drives cholesterol into the arterial wall, building the atherosclerotic plaque that causes premature coronary disease in familial hypercholesterolaemia.
+- `connects-to` → **[Lymphatic System](../lymphatic-system/README.md)** — Cholesterol leaves tissues through it: HDL-mediated reverse cholesterol transport drains peripheral cholesterol via the lymphatics, and FH's deposits surface as tendon and skin xanthomas when that clearance is overwhelmed.
+- `connects-to` → **[Berberine](../../../03-medicine/02-traditional/berberine/README.md)** — A natural compound that lowers LDL: berberine upregulates the LDL receptor and modestly reduces cholesterol, studied as an adjunct in people who cannot tolerate or fully respond to statins.
 
 [^goldstein-1985-ldlr-nobel]: Goldstein JL, Brown MS. The LDL receptor. *Arterioscler Thromb Vasc Biol.* 2009;29(4):431-438. [doi:10.1161/ATVBAHA.108.179564](https://doi.org/10.1161/ATVBAHA.108.179564) · [PubMed 19299327](https://pubmed.ncbi.nlm.nih.gov/19299327/)
 [^raal-2020-inclisiran-fh]: Raal FJ, Kallend D, Ray KK, et al. Inclisiran for the Treatment of Heterozygous Familial Hypercholesterolemia. *N Engl J Med.* 2020;382(16):1520-1530. [doi:10.1056/NEJMoa1913805](https://doi.org/10.1056/NEJMoa1913805) · [PubMed 32197277](https://pubmed.ncbi.nlm.nih.gov/32197277/)
