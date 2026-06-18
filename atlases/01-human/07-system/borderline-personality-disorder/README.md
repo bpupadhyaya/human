@@ -214,6 +214,15 @@ cross_links:
   - target: 02-pathogen/01-viruses/hepatitis-b-virus
     relation: connects-to
     note: "Impulsive risk behaviour spreads bloodborne virus: the injection drug use and unprotected sex common in BPD raise the risk of acquiring hepatitis B alongside the HIV and hepatitis C it carries."
+  - target: 01-human/07-system/integumentary-system
+    relation: connects-to
+    note: "Distress is carved into the skin: non-suicidal self-injury — cutting and burning — is a hallmark of BPD, leaving characteristic scars on the forearms and a need for wound and dermatological care."
+  - target: 01-human/07-system/digestive-system
+    relation: connects-to
+    note: "Impulsive overdose can wreck the liver: self-poisoning is common in BPD, and paracetamol overdose in particular causes acute hepatic injury and fulminant liver failure if not treated promptly."
+  - target: 01-human/07-system/endocrine-system
+    relation: connects-to
+    note: "Early trauma resets the stress axis: childhood adversity common in BPD dysregulates the HPA cortisol response, an endocrine signature thought to underlie its intense emotional reactivity."
 ---
 
 # Borderline Personality Disorder
@@ -419,6 +428,9 @@ This model directly informs DBT treatment: validate emotional experience (the bi
 - `connects-to` → **[Wound Healing](../wound-healing/README.md)** — Recurrent self-injury makes recurrent wounds: the non-suicidal self-harm — cutting and burning — characteristic of BPD produces repeated skin wounds and scars that must heal, sometimes becoming infected.
 - `connects-to` → **[Epilepsy](../epilepsy/README.md)** — Spells blur the line with seizures: psychogenic non-epileptic (dissociative) seizures are notably common in BPD and are frequently mistaken for epilepsy, with which they can also coexist.
 - `connects-to` → **[Hepatitis B Virus](../../../02-pathogen/01-viruses/hepatitis-b-virus/README.md)** — Impulsive risk behaviour spreads bloodborne virus: the injection drug use and unprotected sex common in BPD raise the risk of acquiring hepatitis B alongside the HIV and hepatitis C it carries.
+- `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — Distress is carved into the skin: non-suicidal self-injury — cutting and burning — is a hallmark of BPD, leaving characteristic scars on the forearms and a need for wound and dermatological care.
+- `connects-to` → **[Digestive System](../digestive-system/README.md)** — Impulsive overdose can wreck the liver: self-poisoning is common in BPD, and paracetamol overdose in particular causes acute hepatic injury and fulminant liver failure if not treated promptly.
+- `connects-to` → **[Endocrine System](../endocrine-system/README.md)** — Early trauma resets the stress axis: childhood adversity common in BPD dysregulates the HPA cortisol response, an endocrine signature thought to underlie its intense emotional reactivity.
 
 [^linehan-1993-dbt]: Linehan MM. *Cognitive-Behavioral Treatment of Borderline Personality Disorder.* Guilford; 1993. [PubMed 8192506](https://pubmed.ncbi.nlm.nih.gov/8192506/)
 [^skodol-2002-bpd-neurobiology]: Siever LJ, Davis KL. A psychobiological perspective on the personality disorders. *Am J Psychiatry.* 1991;148(12):1647-1658. [doi:10.1176/ajp.148.12.1647](https://doi.org/10.1176/ajp.148.12.1647) · [PubMed 1957927](https://pubmed.ncbi.nlm.nih.gov/1957927/)

@@ -195,6 +195,15 @@ cross_links:
   - target: 01-human/07-system/obsessive-compulsive-disorder
     relation: connects-to
     note: "Self-medication that can backfire: people with OCD use cannabis to ease anxiety, but cannabis use disorder is more common in OCD and heavy use can intensify obsessions and compulsions over time."
+  - target: 01-human/07-system/endocrine-system
+    relation: connects-to
+    note: "Chronic use shifts hormones: heavy cannabis can lower testosterone and LH, alter the HPA cortisol axis and prolactin, and acutely stimulate appetite through endocannabinoid signalling."
+  - target: 01-human/07-system/integumentary-system
+    relation: connects-to
+    note: "It can starve the fingertips: cannabis arteritis, a rare Buerger-like distal vasculopathy in heavy young users, causes finger and toe ischaemia, ulceration and skin necrosis."
+  - target: 01-human/07-system/musculoskeletal-system
+    relation: connects-to
+    note: "It may weaken bone: cannabinoid receptors are expressed on bone cells regulating remodelling, and heavy chronic cannabis use is associated with lower bone mineral density and higher fracture risk."
 sources:
   - id: hasin-2015-cannabis-disorder
     type: peer-reviewed
@@ -409,6 +418,9 @@ Paradoxical syndrome in heavy long-term users: cyclic vomiting relieved by hot b
 - `connects-to` → **[Cardiovascular System](../cardiovascular-system/README.md)** — It acutely stresses the heart and vessels: cannabis raises heart rate and causes vasospasm, and the hours after use carry a recognised spike in risk of myocardial infarction and arrhythmia.
 - `connects-to` → **[Borderline Personality Disorder](../borderline-personality-disorder/README.md)** — It is heavily over-represented in emotional dysregulation: cannabis use disorder is markedly more common in borderline personality disorder, where it is used to manage distress but worsens impulsivity and mood instability.
 - `connects-to` → **[Obsessive-Compulsive Disorder](../obsessive-compulsive-disorder/README.md)** — Self-medication that can backfire: people with OCD use cannabis to ease anxiety, but cannabis use disorder is more common in OCD and heavy use can intensify obsessions and compulsions over time.
+- `connects-to` → **[Endocrine System](../endocrine-system/README.md)** — Chronic use shifts hormones: heavy cannabis can lower testosterone and LH, alter the HPA cortisol axis and prolactin, and acutely stimulate appetite through endocannabinoid signalling.
+- `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — It can starve the fingertips: cannabis arteritis, a rare Buerger-like distal vasculopathy in heavy young users, causes finger and toe ischaemia, ulceration and skin necrosis.
+- `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — It may weaken bone: cannabinoid receptors are expressed on bone cells regulating remodelling, and heavy chronic cannabis use is associated with lower bone mineral density and higher fracture risk.
 
 [^hasin-2015-cannabis-disorder]: Hasin DS, Saha TD, Kerridge BT, et al. Prevalence of marijuana use disorders in the United States between 2001-2002 and 2012-2013. *JAMA Psychiatry.* 2015;72(12):1235-1242. [doi:10.1001/jamapsychiatry.2015.1858](https://doi.org/10.1001/jamapsychiatry.2015.1858) · [PubMed 26502112](https://pubmed.ncbi.nlm.nih.gov/26502112/)
 [^budney-2004-cannabis-withdrawal]: Budney AJ, Moore BA, Vandrey RG, Hughes JR. The time course and significance of cannabis withdrawal. *J Abnorm Psychol.* 2003;112(3):393-402. [doi:10.1037/0021-843X.112.3.393](https://doi.org/10.1037/0021-843X.112.3.393) · [PubMed 12943018](https://pubmed.ncbi.nlm.nih.gov/12943018/)
