@@ -253,6 +253,15 @@ cross_links:
   - target: 02-pathogen/02-bacteria/mycobacterium-tuberculosis
     relation: connects-to
     note: "A granulomatous mimic to exclude: the lung nodules and cavities of granulomatosis with polyangiitis resemble tuberculosis, which must be excluded before the heavy immunosuppression that would let TB run rampant."
+  - target: 03-medicine/01-modern/13-cancer/targeted-therapy
+    relation: connects-to
+    note: "Biologics reshaped its treatment: rituximab against CD20 induces and maintains remission, avacopan blocks the C5a receptor to spare steroids, and mepolizumab against IL-5 treats eosinophilic GPA — targeted therapies for ANCA vasculitis."
+  - target: 03-medicine/01-modern/13-cancer/cancer-chemotherapy
+    relation: connects-to
+    note: "Cyclophosphamide induces, at a cost: cyclophosphamide remains a mainstay for organ-threatening ANCA vasculitis, but its bladder toxicity and later bladder-cancer risk push earlier use of rituximab where possible."
+  - target: 01-human/07-system/iga-nephropathy
+    relation: connects-to
+    note: "Two faces of glomerulonephritis: ANCA vasculitis causes a pauci-immune crescentic glomerulonephritis with scant deposits, whereas IgA nephropathy is an immune-complex disease with mesangial IgA — contrasting mechanisms of the same renal emergency."
 ---
 
 # ANCA Vasculitis
@@ -463,6 +472,9 @@ EGPA is mechanistically distinct — eosinophils, not neutrophils, mediate tissu
 - `connects-to` → **[Staphylococcus aureus](../../../02-pathogen/02-bacteria/staphylococcus-aureus/README.md)** — A trigger living in the nose: chronic nasal carriage of Staphylococcus aureus is linked to relapse of granulomatosis with polyangiitis, and decolonisation can reduce flares.
 - `connects-to` → **[Rheumatoid Arthritis](../rheumatoid-arthritis/README.md)** — Autoimmunity can overlap: rheumatoid arthritis and ANCA vasculitis sometimes coexist, and rheumatoid vasculitis is a feared small-vessel complication of long-standing severe RA.
 - `connects-to` → **[Mycobacterium tuberculosis](../../../02-pathogen/02-bacteria/mycobacterium-tuberculosis/README.md)** — A granulomatous mimic to exclude: the lung nodules and cavities of granulomatosis with polyangiitis resemble tuberculosis, which must be excluded before the heavy immunosuppression that would let TB run rampant.
+- `connects-to` → **[Targeted Therapy](../../../03-medicine/01-modern/13-cancer/targeted-therapy/README.md)** — Biologics reshaped its treatment: rituximab against CD20 induces and maintains remission, avacopan blocks the C5a receptor to spare steroids, and mepolizumab against IL-5 treats eosinophilic GPA — targeted therapies for ANCA vasculitis.
+- `connects-to` → **[Cancer Chemotherapy](../../../03-medicine/01-modern/13-cancer/cancer-chemotherapy/README.md)** — Cyclophosphamide induces, at a cost: cyclophosphamide remains a mainstay for organ-threatening ANCA vasculitis, but its bladder toxicity and later bladder-cancer risk push earlier use of rituximab where possible.
+- `connects-to` → **[IgA Nephropathy](../iga-nephropathy/README.md)** — Two faces of glomerulonephritis: ANCA vasculitis causes a pauci-immune crescentic glomerulonephritis with scant deposits, whereas IgA nephropathy is an immune-complex disease with mesangial IgA — contrasting mechanisms of the same renal emergency.
 
 [^yates-2022-anca-review]: Yates M, Watts RA, Bajema IM, et al. EULAR/ERA-EDTA recommendations for the management of ANCA-associated vasculitis. *Ann Rheum Dis.* 2016;75(9):1583-1594. [doi:10.1136/annrheumdis-2016-209133](https://doi.org/10.1136/annrheumdis-2016-209133) · [PubMed 27338776](https://pubmed.ncbi.nlm.nih.gov/27338776/)
 [^stone-2010-rituximab-gpa-rave]: Stone JH, Merkel PA, Spiera R, et al. Rituximab versus cyclophosphamide for ANCA-associated vasculitis. *N Engl J Med.* 2010;363(3):221-232. [doi:10.1056/NEJMoa0909905](https://doi.org/10.1056/NEJMoa0909905) · [PubMed 20647199](https://pubmed.ncbi.nlm.nih.gov/20647199/)

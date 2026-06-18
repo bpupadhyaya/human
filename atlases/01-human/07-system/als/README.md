@@ -250,6 +250,15 @@ cross_links:
   - target: 01-human/07-system/obesity
     relation: connects-to
     note: "Body fat paradoxically protects: ALS drives a hypermetabolic, weight-losing state, and higher body-mass index and high-calorie nutrition are associated with longer survival, the opposite of most diseases."
+  - target: 03-medicine/01-modern/13-cancer/targeted-therapy
+    relation: connects-to
+    note: "Gene-targeted therapy arrives: tofersen, an antisense oligonucleotide silencing mutant SOD1, treats that familial ALS subtype, joining riluzole and edaravone — the vanguard of precision therapy for motor neuron disease."
+  - target: 01-human/05-tissue/axonal-transport
+    relation: connects-to
+    note: "Failing transport kills the motor neuron: ALS is a dying-back axonopathy in which disrupted axonal transport — many ALS genes encode transport and cytoskeletal proteins — starves the long motor axons before the cell body dies."
+  - target: 01-human/05-tissue/cortical-bone
+    relation: connects-to
+    note: "Immobility and falls break bone: progressive weakness in ALS causes disuse osteoporosis and frequent falls, so fractures add to the burden of a disease that steadily strips muscle and mobility."
 ---
 
 # ALS
@@ -459,6 +468,9 @@ ALS diagnosis is **clinical** — no single definitive biomarker test (though Nf
 - `connects-to` → **[Lewy Body Dementia](../lewy-body-dementia/README.md)** — A shared misfolded protein: TDP-43 aggregation links ALS to the frontotemporal dementia it overlaps with and to the TDP-43 co-pathology found in Lewy body dementia, blurring the lines between neurodegenerations.
 - `connects-to` → **[Endothelial Cell](../../04-cellular/endothelial-cell/README.md)** — The barrier around motor neurons leaks: blood-spinal-cord barrier breakdown and reduced VEGF-driven vascular support contribute to motor-neuron degeneration in ALS, a vascular dimension of the disease.
 - `connects-to` → **[Obesity](../obesity/README.md)** — Body fat paradoxically protects: ALS drives a hypermetabolic, weight-losing state, and higher body-mass index and high-calorie nutrition are associated with longer survival, the opposite of most diseases.
+- `connects-to` → **[Targeted Therapy](../../../03-medicine/01-modern/13-cancer/targeted-therapy/README.md)** — Gene-targeted therapy arrives: tofersen, an antisense oligonucleotide silencing mutant SOD1, treats that familial ALS subtype, joining riluzole and edaravone — the vanguard of precision therapy for motor neuron disease.
+- `connects-to` → **[Axonal Transport](../../05-tissue/axonal-transport/README.md)** — Failing transport kills the motor neuron: ALS is a dying-back axonopathy in which disrupted axonal transport — many ALS genes encode transport and cytoskeletal proteins — starves the long motor axons before the cell body dies.
+- `connects-to` → **[Cortical Bone](../../05-tissue/cortical-bone/README.md)** — Immobility and falls break bone: progressive weakness in ALS causes disuse osteoporosis and frequent falls, so fractures add to the burden of a disease that steadily strips muscle and mobility.
 - `connects-to` → **[Generalized Anxiety Disorder](../generalized-anxiety-disorder/README.md)** — Watching the body fail breeds dread: the relentless progression of paralysis and the fear of suffocation give ALS a heavy burden of anxiety alongside its depression.
 - `connects-to` → **[Chronic Kidney Disease](../ckd/README.md)** — Swallowing failure dries out the kidneys: dysphagia limits fluid intake while immobility and recurrent illness add prerenal stress, so chronic dehydration can erode renal function in advanced ALS.
 - `connects-to` → **[Streptococcus pneumoniae](../../../02-pathogen/02-bacteria/streptococcus-pneumoniae/README.md)** — Failing swallow and cough flood the lungs: bulbar and respiratory muscle weakness in ALS causes aspiration and an ineffective cough, and the resulting pneumonia — often pneumococcal — is the leading cause of death.
