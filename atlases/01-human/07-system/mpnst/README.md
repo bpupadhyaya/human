@@ -214,6 +214,15 @@ cross_links:
   - target: 02-pathogen/01-viruses/varicella-zoster-virus
     relation: connects-to
     note: "Its chemotherapy reawakens shingles: the doxorubicin-ifosfamide regimens for MPNST cause deep immunosuppression that allows latent varicella-zoster to reactivate."
+  - target: 01-human/07-system/renal-system
+    relation: connects-to
+    note: "Its chemotherapy injures the kidney and bladder: the ifosfamide in MPNST regimens causes a Fanconi-like renal tubulopathy and haemorrhagic cystitis."
+  - target: 01-human/07-system/cardiovascular-system
+    relation: connects-to
+    note: "Its cure can scar the heart: the doxorubicin used against MPNST carries a dose-dependent cardiotoxicity risk on top of the disease's aggressive course."
+  - target: 01-human/07-system/lymphatic-system
+    relation: connects-to
+    note: "It bypasses the lymph nodes: like other sarcomas, MPNST spreads haematogenously to the lungs and only rarely to lymph nodes, so it is staged differently from carcinomas."
 ---
 
 # MPNST
@@ -411,6 +420,9 @@ Wide local excision with negative margins is the only potentially curative inter
 - `connects-to` → **[Respiratory System](../respiratory-system/README.md)** — It spreads to the lungs: like other soft-tissue sarcomas, MPNST metastasises preferentially to the lungs, so pulmonary metastases dominate its surveillance and drive much of its mortality.
 - `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — It erupts from a skin-associated nerve tumour: MPNST often arises within the plexiform neurofibromas of NF1, presenting as an enlarging, painful subcutaneous mass that signals malignant change.
 - `connects-to` → **[Varicella-Zoster Virus](../../../02-pathogen/01-viruses/varicella-zoster-virus/README.md)** — Its chemotherapy reawakens shingles: the doxorubicin-ifosfamide regimens for MPNST cause deep immunosuppression that allows latent varicella-zoster to reactivate.
+- `connects-to` → **[Renal System](../renal-system/README.md)** — Its chemotherapy injures the kidney and bladder: the ifosfamide in MPNST regimens causes a Fanconi-like renal tubulopathy and haemorrhagic cystitis.
+- `connects-to` → **[Cardiovascular System](../cardiovascular-system/README.md)** — Its cure can scar the heart: the doxorubicin used against MPNST carries a dose-dependent cardiotoxicity risk on top of the disease's aggressive course.
+- `connects-to` → **[Lymphatic System](../lymphatic-system/README.md)** — It bypasses the lymph nodes: like other sarcomas, MPNST spreads haematogenously to the lungs and only rarely to lymph nodes, so it is staged differently from carcinomas.
 
 [^evans-2002-mpnst-nf1]: Evans DGR, Baser ME, McGaughran J, et al. Malignant peripheral nerve sheath tumours in neurofibromatosis 1. *J Med Genet.* 2002;39(5):311-314. [doi:10.1136/jmg.39.5.311](https://doi.org/10.1136/jmg.39.5.311) · [PubMed 12011145](https://pubmed.ncbi.nlm.nih.gov/12011145/)
 [^lee-2014-mpnst-prc2]: Lee W, Teckie S, Wiesner T, et al. PRC2 is recurrently inactivated through EED or SUZ12 loss in malignant peripheral nerve sheath tumors. *Nat Genet.* 2014;46(11):1227-1232. [doi:10.1038/ng.3095](https://doi.org/10.1038/ng.3095) · [PubMed 25240281](https://pubmed.ncbi.nlm.nih.gov/25240281/)

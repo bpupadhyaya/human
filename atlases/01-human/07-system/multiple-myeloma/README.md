@@ -220,6 +220,15 @@ cross_links:
   - target: 01-human/07-system/endocrine-system
     relation: connects-to
     note: "Bone breakdown floods the blood with calcium: the osteolysis of multiple myeloma releases calcium, causing the hypercalcaemia — the 'C' of CRAB — that disturbs the calcium-PTH endocrine axis."
+  - target: 01-human/07-system/cardiovascular-system
+    relation: connects-to
+    note: "Its light chains and drugs strike the heart: AL amyloidosis infiltrates the myocardium causing restrictive cardiomyopathy, and the proteasome inhibitor carfilzomib is cardiotoxic."
+  - target: 01-human/07-system/integumentary-system
+    relation: connects-to
+    note: "It shows on the skin through amyloid: AL amyloid deposits cause periorbital purpura and waxy skin papules, and cutaneous plasmacytomas can appear in advanced disease."
+  - target: 01-human/07-system/digestive-system
+    relation: connects-to
+    note: "Amyloid and drugs disturb the gut: amyloid deposition causes macroglossia, malabsorption and hepatomegaly, while proteasome inhibitors commonly cause diarrhoea and nausea."
 ---
 
 # Multiple Myeloma
@@ -416,6 +425,9 @@ MM evolves from precursor conditions through a well-defined continuum:
 - `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — It dissolves the skeleton: multiple myeloma drives osteoclasts to carve lytic bone lesions, causing pathological fractures, vertebral collapse and bone pain — the 'B' of its defining CRAB features.
 - `connects-to` → **[Nervous System](../nervous-system/README.md)** — It compresses and poisons the nerves: vertebral collapse causes spinal cord compression, and AL amyloid and bortezomib produce peripheral neuropathy, while hyperviscosity and hypercalcaemia cloud the brain.
 - `connects-to` → **[Endocrine System](../endocrine-system/README.md)** — Bone breakdown floods the blood with calcium: the osteolysis of multiple myeloma releases calcium, causing the hypercalcaemia — the 'C' of CRAB — that disturbs the calcium-PTH endocrine axis.
+- `connects-to` → **[Cardiovascular System](../cardiovascular-system/README.md)** — Its light chains and drugs strike the heart: AL amyloidosis infiltrates the myocardium causing restrictive cardiomyopathy, and the proteasome inhibitor carfilzomib is cardiotoxic.
+- `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — It shows on the skin through amyloid: AL amyloid deposits cause periorbital purpura and waxy skin papules, and cutaneous plasmacytomas can appear in advanced disease.
+- `connects-to` → **[Digestive System](../digestive-system/README.md)** — Amyloid and drugs disturb the gut: amyloid deposition causes macroglossia, malabsorption and hepatomegaly, while proteasome inhibitors commonly cause diarrhoea and nausea.
 
 [^kumar-2022-imwg-criteria]: Kumar SK, Callander NS, Adekola K, et al. Multiple myeloma, version 3.2021, NCCN clinical practice guidelines in oncology. *J Natl Compr Canc Netw.* 2020;18(12):1685-1717. [doi:10.6004/jnccn.2020.0057](https://doi.org/10.6004/jnccn.2020.0057) · [PubMed 33285519](https://pubmed.ncbi.nlm.nih.gov/33285519/)
 [^moreau-2022-teclistamab]: Moreau P, Garfall AL, van de Donk NWCJ, et al. Teclistamab in relapsed or refractory multiple myeloma. *N Engl J Med.* 2022;387(6):495-505. [doi:10.1056/NEJMoa2203478](https://doi.org/10.1056/NEJMoa2203478) · [PubMed 35661166](https://pubmed.ncbi.nlm.nih.gov/35661166/)
