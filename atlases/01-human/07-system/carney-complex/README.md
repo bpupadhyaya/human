@@ -241,6 +241,15 @@ cross_links:
   - target: 01-human/07-system/cowden-syndrome
     relation: connects-to
     note: "Overlapping breast and thyroid tumours: like Cowden syndrome, Carney complex predisposes to breast and thyroid neoplasia with mucocutaneous lesions, two hamartomatous syndromes marked by skin and glandular tumours."
+  - target: 01-human/05-tissue/endocardium
+    relation: connects-to
+    note: "Its myxomas grow on the heart's lining: Carney complex causes recurrent cardiac myxomas arising from the endocardium, usually the left atrium, where they embolise or obstruct flow — the leading cause of death in the syndrome."
+  - target: 01-human/05-tissue/cortical-bone
+    relation: connects-to
+    note: "It grows a rare bone tumour: osteochondromyxoma, a distinctive benign bone tumour of early childhood, is part of Carney complex, adding a skeletal lesion to its cardiac, skin and endocrine tumours."
+  - target: 01-human/07-system/neurofibromatosis-type-1
+    relation: connects-to
+    note: "Two pigmented neurocutaneous syndromes: like NF1 with its café-au-lait macules, Carney complex marks the skin with spotty lentigines and blue naevi, both dominantly inherited disorders pairing pigmentation with multi-organ tumours."
 ---
 
 # Carney Complex
@@ -437,6 +446,9 @@ PRKAR1A somatic LOH occurs in ~15-20% of sporadic adrenocortical adenomas and ca
 - `connects-to` → **[VHL Disease](../vhl-disease/README.md)** — Both can grow phaeochromocytomas: von Hippel-Lindau and Carney complex each predispose to phaeochromocytoma and other endocrine tumours, overlapping in this dangerous catecholamine-secreting neoplasm.
 - `connects-to` → **[Neurofibromatosis Type 2](../neurofibromatosis-type-2/README.md)** — Both grow schwannomas: Carney complex causes psammomatous melanotic schwannomas, joining neurofibromatosis type 2 among inherited syndromes defined by nerve-sheath tumours.
 - `connects-to` → **[Cowden Syndrome](../cowden-syndrome/README.md)** — Overlapping breast and thyroid tumours: like Cowden syndrome, Carney complex predisposes to breast and thyroid neoplasia with mucocutaneous lesions, two hamartomatous syndromes marked by skin and glandular tumours.
+- `connects-to` → **[Endocardium](../../05-tissue/endocardium/README.md)** — Its myxomas grow on the heart's lining: Carney complex causes recurrent cardiac myxomas arising from the endocardium, usually the left atrium, where they embolise or obstruct flow — the leading cause of death in the syndrome.
+- `connects-to` → **[Cortical Bone](../../05-tissue/cortical-bone/README.md)** — It grows a rare bone tumour: osteochondromyxoma, a distinctive benign bone tumour of early childhood, is part of Carney complex, adding a skeletal lesion to its cardiac, skin and endocrine tumours.
+- `connects-to` → **[Neurofibromatosis Type 1](../neurofibromatosis-type-1/README.md)** — Two pigmented neurocutaneous syndromes: like NF1 with its café-au-lait macules, Carney complex marks the skin with spotty lentigines and blue naevi, both dominantly inherited disorders pairing pigmentation with multi-organ tumours.
 
 ---
 

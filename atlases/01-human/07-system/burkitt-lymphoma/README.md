@@ -241,6 +241,15 @@ cross_links:
   - target: 03-medicine/01-modern/13-cancer/car-t
     relation: connects-to
     note: "Engineered cells for relapse: CD19-directed CAR-T therapy is an option for relapsed or refractory Burkitt and other aggressive B-cell lymphomas after chemotherapy fails."
+  - target: 03-medicine/01-modern/13-cancer/targeted-therapy
+    relation: connects-to
+    note: "Rituximab cemented the cure: adding the anti-CD20 antibody rituximab to intensive chemotherapy markedly improved survival in Burkitt lymphoma, and its MYC-driven biology is a target of ongoing precision approaches."
+  - target: 01-human/05-tissue/cortical-bone
+    relation: connects-to
+    note: "Endemic Burkitt deforms the jaw: in equatorial Africa, EBV- and malaria-associated Burkitt lymphoma classically presents as a rapidly growing jaw or facial-bone mass in children, distorting the cortical bone."
+  - target: 01-human/05-tissue/intestinal-epithelium
+    relation: connects-to
+    note: "Sporadic Burkitt fills the abdomen: outside the endemic belt, Burkitt lymphoma typically presents as a bulky ileocaecal mass in the bowel wall, causing obstruction or intussusception from the intestinal lining."
 ---
 
 # Burkitt Lymphoma
@@ -450,6 +459,9 @@ FISH for MYC, BCL2, and BCL6 is essential; if BCL2 FISH negative and Ki-67 ~100%
 - `connects-to` → **[Cancer Chemotherapy](../../../03-medicine/01-modern/13-cancer/cancer-chemotherapy/README.md)** — Intensive chemo cures it: Burkitt lymphoma, the fastest-growing human tumour, is treated with short intensive multi-agent chemotherapy plus CNS prophylaxis, curing most patients.
 - `connects-to` → **[HIV-1](../../../02-pathogen/01-viruses/hiv-1/README.md)** — Immunodeficiency unleashes the clone: HIV is a major cause of Burkitt lymphoma, an AIDS-defining cancer arising as falling immunity permits EBV-driven B-cell proliferation.
 - `connects-to` → **[CAR-T](../../../03-medicine/01-modern/13-cancer/car-t/README.md)** — Engineered cells for relapse: CD19-directed CAR-T therapy is an option for relapsed or refractory Burkitt and other aggressive B-cell lymphomas after chemotherapy fails.
+- `connects-to` → **[Targeted Therapy](../../../03-medicine/01-modern/13-cancer/targeted-therapy/README.md)** — Rituximab cemented the cure: adding the anti-CD20 antibody rituximab to intensive chemotherapy markedly improved survival in Burkitt lymphoma, and its MYC-driven biology is a target of ongoing precision approaches.
+- `connects-to` → **[Cortical Bone](../../05-tissue/cortical-bone/README.md)** — Endemic Burkitt deforms the jaw: in equatorial Africa, EBV- and malaria-associated Burkitt lymphoma classically presents as a rapidly growing jaw or facial-bone mass in children, distorting the cortical bone.
+- `connects-to` → **[Intestinal Epithelium](../../05-tissue/intestinal-epithelium/README.md)** — Sporadic Burkitt fills the abdomen: outside the endemic belt, Burkitt lymphoma typically presents as a bulky ileocaecal mass in the bowel wall, causing obstruction or intussusception from the intestinal lining.
 
 ---
 
