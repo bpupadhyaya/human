@@ -225,6 +225,15 @@ cross_links:
   - target: 01-human/04-cellular/oligodendrocyte
     relation: connects-to
     note: "Reward circuits show wear in the wiring: diffusion-imaging studies find white-matter microstructural changes in gambling disorder, implicating oligodendrocyte-formed myelin in its impulsivity and disrupted reward processing."
+  - target: 01-human/07-system/autism-spectrum-disorder
+    relation: connects-to
+    note: "A neurodevelopmental vulnerability: impulsivity, atypical reward processing and repetitive, restricted behaviours give some autistic people heightened susceptibility to behavioural addictions including gambling."
+  - target: 01-human/07-system/alzheimers-disease
+    relation: connects-to
+    note: "Disinhibition unmasks it: pathological gambling and other impulse-control behaviours emerge with the frontal disinhibition of dementias and with dopaminergic therapy of parkinsonian disorders, linking reward dysregulation to neurodegeneration."
+  - target: 01-human/07-system/narcolepsy
+    relation: connects-to
+    note: "A shared orexin-reward axis: orexin, deficient in narcolepsy, also tunes the brain's reward and arousal circuitry, and the dopaminergic stimulants used to treat narcolepsy can unmask impulse-control behaviours like gambling."
 sources:
   - id: grant-2016-gambling-review
     type: peer-reviewed
@@ -440,6 +449,9 @@ Persistent and recurrent problematic gambling behavior causing distress (≥4 of
 - `connects-to` → **[CRH](../../03-molecular/crh/README.md)** — Stress hormones fuel the urge: corticotropin-releasing hormone and HPA-axis activation drive craving and relapse in gambling disorder, tying chronic stress to its reward-seeking cycle.
 - `connects-to` → **[Ghrelin](../../03-molecular/ghrelin/README.md)** — The hunger hormone also feeds craving: ghrelin acts on the brain's reward circuitry and is studied as a modulator of craving across addictions, including the appetitive drive of gambling disorder.
 - `connects-to` → **[Oligodendrocyte](../../04-cellular/oligodendrocyte/README.md)** — Reward circuits show wear in the wiring: diffusion-imaging studies find white-matter microstructural changes in gambling disorder, implicating oligodendrocyte-formed myelin in its impulsivity and disrupted reward processing.
+- `connects-to` → **[Autism Spectrum Disorder](../autism-spectrum-disorder/README.md)** — A neurodevelopmental vulnerability: impulsivity, atypical reward processing and repetitive, restricted behaviours give some autistic people heightened susceptibility to behavioural addictions including gambling.
+- `connects-to` → **[Alzheimer's Disease](../alzheimers-disease/README.md)** — Disinhibition unmasks it: pathological gambling and other impulse-control behaviours emerge with the frontal disinhibition of dementias and with dopaminergic therapy of parkinsonian disorders, linking reward dysregulation to neurodegeneration.
+- `connects-to` → **[Narcolepsy](../narcolepsy/README.md)** — A shared orexin-reward axis: orexin, deficient in narcolepsy, also tunes the brain's reward and arousal circuitry, and the dopaminergic stimulants used to treat narcolepsy can unmask impulse-control behaviours like gambling.
 
 [^potenza-2014-gambling-neuroscience]: Potenza MN. The neurobiology of pathological gambling and drug addiction: an overview and new findings. *Philos Trans R Soc Lond B Biol Sci.* 2008;363(1507):3181-3189. [doi:10.1098/rstb.2008.0100](https://doi.org/10.1098/rstb.2008.0100) · [PubMed 18640909](https://pubmed.ncbi.nlm.nih.gov/18640909/)
 [^grant-2016-gambling-review]: Grant JE, Chamberlain SR. Gambling disorder and its relationship with substance use disorders. *Am J Addict.* 2015;24(2):126-131. [doi:10.1111/ajad.12112](https://doi.org/10.1111/ajad.12112) · [PubMed 25376793](https://pubmed.ncbi.nlm.nih.gov/25376793/)

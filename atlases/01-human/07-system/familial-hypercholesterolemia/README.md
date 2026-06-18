@@ -244,6 +244,15 @@ cross_links:
   - target: 03-medicine/02-traditional/berberine
     relation: connects-to
     note: "A natural compound that lowers LDL: berberine upregulates the LDL receptor and modestly reduces cholesterol, studied as an adjunct in people who cannot tolerate or fully respond to statins."
+  - target: 03-medicine/01-modern/13-cancer/targeted-therapy
+    relation: connects-to
+    note: "Modern LDL-lowering beyond statins: PCSK9-inhibitor antibodies (evolocumab, alirocumab), the siRNA inclisiran and ANGPTL3-blocking evinacumab dramatically cut LDL in familial hypercholesterolaemia when statins alone fall short."
+  - target: 01-human/05-tissue/hepatic-lobule
+    relation: connects-to
+    note: "The defect lives in the liver: FH stems from faulty LDL receptors on hepatocytes of the liver lobule that normally clear LDL from blood, so cholesterol accumulates from birth — and the liver is the target of statins and PCSK9 therapy."
+  - target: 01-human/05-tissue/myocardium
+    relation: connects-to
+    note: "It infarcts the heart young: untreated familial hypercholesterolaemia drives accelerated coronary atherosclerosis and myocardial infarction in the third to fifth decades, decades earlier than ordinary high cholesterol."
 ---
 
 # Familial Hypercholesterolemia
@@ -427,6 +436,9 @@ FH is a **monogenic autosomal dominant disorder** caused by mutations in three g
 - `connects-to` → **[Arterial Wall](../../05-tissue/arterial-wall/README.md)** — This is where it does its damage: lifelong high LDL drives cholesterol into the arterial wall, building the atherosclerotic plaque that causes premature coronary disease in familial hypercholesterolaemia.
 - `connects-to` → **[Lymphatic System](../lymphatic-system/README.md)** — Cholesterol leaves tissues through it: HDL-mediated reverse cholesterol transport drains peripheral cholesterol via the lymphatics, and FH's deposits surface as tendon and skin xanthomas when that clearance is overwhelmed.
 - `connects-to` → **[Berberine](../../../03-medicine/02-traditional/berberine/README.md)** — A natural compound that lowers LDL: berberine upregulates the LDL receptor and modestly reduces cholesterol, studied as an adjunct in people who cannot tolerate or fully respond to statins.
+- `connects-to` → **[Targeted Therapy](../../../03-medicine/01-modern/13-cancer/targeted-therapy/README.md)** — Modern LDL-lowering beyond statins: PCSK9-inhibitor antibodies (evolocumab, alirocumab), the siRNA inclisiran and ANGPTL3-blocking evinacumab dramatically cut LDL in familial hypercholesterolaemia when statins alone fall short.
+- `connects-to` → **[Hepatic Lobule](../../05-tissue/hepatic-lobule/README.md)** — The defect lives in the liver: FH stems from faulty LDL receptors on hepatocytes of the liver lobule that normally clear LDL from blood, so cholesterol accumulates from birth — and the liver is the target of statins and PCSK9 therapy.
+- `connects-to` → **[Myocardium](../../05-tissue/myocardium/README.md)** — It infarcts the heart young: untreated familial hypercholesterolaemia drives accelerated coronary atherosclerosis and myocardial infarction in the third to fifth decades, decades earlier than ordinary high cholesterol.
 
 [^goldstein-1985-ldlr-nobel]: Goldstein JL, Brown MS. The LDL receptor. *Arterioscler Thromb Vasc Biol.* 2009;29(4):431-438. [doi:10.1161/ATVBAHA.108.179564](https://doi.org/10.1161/ATVBAHA.108.179564) · [PubMed 19299327](https://pubmed.ncbi.nlm.nih.gov/19299327/)
 [^raal-2020-inclisiran-fh]: Raal FJ, Kallend D, Ray KK, et al. Inclisiran for the Treatment of Heterozygous Familial Hypercholesterolemia. *N Engl J Med.* 2020;382(16):1520-1530. [doi:10.1056/NEJMoa1913805](https://doi.org/10.1056/NEJMoa1913805) · [PubMed 32197277](https://pubmed.ncbi.nlm.nih.gov/32197277/)
