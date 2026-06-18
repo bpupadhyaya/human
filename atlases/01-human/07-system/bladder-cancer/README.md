@@ -211,6 +211,15 @@ cross_links:
   - target: 02-pathogen/03-fungi/aspergillus-fumigatus
     relation: connects-to
     note: "Chemotherapy opens the lung to mold: the neutropenia from cisplatin-based bladder-cancer chemotherapy can let inhaled Aspergillus invade as pulmonary aspergillosis."
+  - target: 01-human/07-system/wound-healing
+    relation: connects-to
+    note: "Cystectomy and urinary diversion are major wounds: removing the bladder and building an ileal conduit or neobladder is extensive pelvic surgery whose anastomoses and wounds are prone to leak and slow healing."
+  - target: 01-human/07-system/digestive-system
+    relation: connects-to
+    note: "It borrows the bowel and irradiates it: urinary diversion is fashioned from a segment of intestine, risking metabolic and bowel complications, while pelvic radiation for bladder cancer inflames the gut into radiation enteritis."
+  - target: 01-human/07-system/generalized-anxiety-disorder
+    relation: connects-to
+    note: "Frequent cystoscopy surveillance breeds worry: the high recurrence rate and lifelong surveillance cystoscopies of bladder cancer, plus living with a stoma, foster chronic health anxiety alongside depression."
 ---
 
 # Bladder Cancer
@@ -396,6 +405,9 @@ NMIBC and MIBC have distinct molecular landscapes:
 - `connects-to` → **[Neuropathic Pain](../neuropathic-pain/README.md)** — Its cisplatin chemo leaves nerves raw: the platinum-based regimens central to muscle-invasive bladder cancer cause a dose-limiting peripheral neuropathy with chronic neuropathic pain.
 - `connects-to` → **[Anemia of Chronic Disease](../anemia-of-chronic-disease/README.md)** — Bleeding tumor and chemo drain the blood: chronic hematuria, the inflammatory burden of the cancer and marrow-suppressing chemotherapy combine to produce anemia of chronic disease.
 - `connects-to` → **[Aspergillus fumigatus](../../../02-pathogen/03-fungi/aspergillus-fumigatus/README.md)** — Chemotherapy opens the lung to mold: the neutropenia from cisplatin-based bladder-cancer chemotherapy can let inhaled Aspergillus invade as pulmonary aspergillosis.
+- `connects-to` → **[Wound Healing](../wound-healing/README.md)** — Cystectomy and urinary diversion are major wounds: removing the bladder and building an ileal conduit or neobladder is extensive pelvic surgery whose anastomoses and wounds are prone to leak and slow healing.
+- `connects-to` → **[Digestive System](../digestive-system/README.md)** — It borrows the bowel and irradiates it: urinary diversion is fashioned from a segment of intestine, risking metabolic and bowel complications, while pelvic radiation for bladder cancer inflames the gut into radiation enteritis.
+- `connects-to` → **[Generalized Anxiety Disorder](../generalized-anxiety-disorder/README.md)** — Frequent cystoscopy surveillance breeds worry: the high recurrence rate and lifelong surveillance cystoscopies of bladder cancer, plus living with a stoma, foster chronic health anxiety alongside depression.
 
 ---
 

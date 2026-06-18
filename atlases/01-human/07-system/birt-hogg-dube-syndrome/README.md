@@ -205,6 +205,15 @@ cross_links:
   - target: 01-human/07-system/generalized-anxiety-disorder
     relation: connects-to
     note: "Unpredictable lung collapse breeds worry: the threat of a sudden spontaneous pneumothorax and the constant renal-cancer surveillance of BHD foster chronic health anxiety."
+  - target: 01-human/07-system/wound-healing
+    relation: connects-to
+    note: "It demands repeated surgery that must heal: BHD brings recurrent nephron-sparing renal-tumour operations and pleurodesis or surgery for recurrent pneumothorax, leaving wounds to heal over a lifetime."
+  - target: 01-human/07-system/digestive-system
+    relation: connects-to
+    note: "FLCN loss seeds tumours beyond the kidney: BHD is associated with colonic polyps and parotid oncocytomas, extending its hamartoma-tumour spectrum into the digestive and salivary tract."
+  - target: 01-human/07-system/endocrine-system
+    relation: connects-to
+    note: "Its gene sits in the metabolic pathway: FLCN regulates the AMPK-mTOR axis that governs cellular metabolism, and BHD shows associations with thyroid and parathyroid nodules."
 ---
 
 # Birt-Hogg-Dubé Syndrome
@@ -408,6 +417,9 @@ Definite BHD: 1 major OR 2 minor criteria (European BHD Consortium definition)
 - `connects-to` → **[Aspergillus fumigatus](../../../02-pathogen/03-fungi/aspergillus-fumigatus/README.md)** — Its lung cysts can harbor mold: the thin-walled pulmonary cysts of Birt-Hogg-Dubé create air spaces where inhaled Aspergillus can colonize and form an aspergilloma.
 - `connects-to` → **[Sepsis](../sepsis/README.md)** — Recurrent pneumothorax and surgery invite infection: repeated chest-tube drainage and pleurodesis for collapsing lungs, plus nephron-sparing renal-tumor surgery, carry a cumulative risk of serious infection and sepsis.
 - `connects-to` → **[Generalized Anxiety Disorder](../generalized-anxiety-disorder/README.md)** — Unpredictable lung collapse breeds worry: the threat of a sudden spontaneous pneumothorax and the constant renal-cancer surveillance of BHD foster chronic health anxiety.
+- `connects-to` → **[Wound Healing](../wound-healing/README.md)** — It demands repeated surgery that must heal: BHD brings recurrent nephron-sparing renal-tumour operations and pleurodesis or surgery for recurrent pneumothorax, leaving wounds to heal over a lifetime.
+- `connects-to` → **[Digestive System](../digestive-system/README.md)** — FLCN loss seeds tumours beyond the kidney: BHD is associated with colonic polyps and parotid oncocytomas, extending its hamartoma-tumour spectrum into the digestive and salivary tract.
+- `connects-to` → **[Endocrine System](../endocrine-system/README.md)** — Its gene sits in the metabolic pathway: FLCN regulates the AMPK-mTOR axis that governs cellular metabolism, and BHD shows associations with thyroid and parathyroid nodules.
 
 ---
 
