@@ -217,6 +217,15 @@ cross_links:
   - target: 01-human/07-system/renal-system
     relation: connects-to
     note: "It unsettles the bladder and threatens the kidneys: stroke commonly causes urinary incontinence or retention with infection, and contrast for imaging and thrombectomy can injure the kidneys."
+  - target: 01-human/07-system/endocrine-system
+    relation: connects-to
+    note: "It disturbs glucose and sodium: stress hyperglycaemia worsens stroke outcomes, and hypothalamic or pituitary strokes cause SIADH or cerebral salt wasting with dangerous sodium shifts."
+  - target: 01-human/07-system/immune-system
+    relation: connects-to
+    note: "Brain injury suppresses immunity: stroke-induced immunodepression in the days afterward raises the risk of pneumonia and urinary infection, a major driver of early mortality."
+  - target: 01-human/07-system/integumentary-system
+    relation: connects-to
+    note: "Paralysis and immobility break the skin: pressure ulcers over the sacrum and heels are a major preventable complication after a disabling stroke."
 ---
 
 # Stroke
@@ -387,6 +396,9 @@ Normal brain maintains CBF constant (50-150 mmHg MAP range) via autoregulation (
 - `connects-to` → **[Respiratory System](../respiratory-system/README.md)** — Swallowing failure floods the lungs: stroke causes dysphagia and impaired cough, so aspiration pneumonia is a leading early complication, and large strokes can trigger neurogenic pulmonary oedema.
 - `connects-to` → **[Digestive System](../digestive-system/README.md)** — It disrupts the whole gut from mouth to bowel: stroke-related dysphagia forces modified diets or PEG feeding, and immobility and autonomic change bring constipation and faecal incontinence.
 - `connects-to` → **[Renal System](../renal-system/README.md)** — It unsettles the bladder and threatens the kidneys: stroke commonly causes urinary incontinence or retention with infection, and contrast for imaging and thrombectomy can injure the kidneys.
+- `connects-to` → **[Endocrine System](../endocrine-system/README.md)** — It disturbs glucose and sodium: stress hyperglycaemia worsens stroke outcomes, and hypothalamic or pituitary strokes cause SIADH or cerebral salt wasting with dangerous sodium shifts.
+- `connects-to` → **[Immune System](../immune-system/README.md)** — Brain injury suppresses immunity: stroke-induced immunodepression in the days afterward raises the risk of pneumonia and urinary infection, a major driver of early mortality.
+- `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — Paralysis and immobility break the skin: pressure ulcers over the sacrum and heels are a major preventable complication after a disabling stroke.
 
 [^powers-2019-aha-stroke]: Powers WJ, Rabinstein AA, Ackerson T, et al. Guidelines for the Early Management of Patients With Acute Ischemic Stroke: 2019 Update to the 2018 Guidelines. *Stroke.* 2019;50(12):e344-e418. [doi:10.1161/STR.0000000000000211](https://doi.org/10.1161/STR.0000000000000211) · [PubMed 31662037](https://pubmed.ncbi.nlm.nih.gov/31662037/)
 [^feigin-2021-gbd-stroke]: Feigin VL, Krishnamurthi RV, Parmar P, et al. Update on the Global Burden of Ischemic and Hemorrhagic Stroke in 1990-2013. *Neuroepidemiology.* 2015;45(3):161-176. [doi:10.1159/000441085](https://doi.org/10.1159/000441085) · [PubMed 26505981](https://pubmed.ncbi.nlm.nih.gov/26505981/)

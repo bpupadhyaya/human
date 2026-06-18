@@ -214,6 +214,15 @@ cross_links:
   - target: 01-human/07-system/musculoskeletal-system
     relation: connects-to
     note: "Overdose can dissolve muscle: stimulant-induced hyperthermia, agitation and seizures cause rhabdomyolysis, releasing myoglobin that can precipitate acute kidney injury."
+  - target: 01-human/07-system/respiratory-system
+    relation: connects-to
+    note: "Inhaled stimulants scar the lungs: smoking crack cocaine or methamphetamine causes 'crack lung' — acute eosinophilic pneumonitis and alveolar haemorrhage — and barotrauma with pneumothorax."
+  - target: 01-human/07-system/endocrine-system
+    relation: connects-to
+    note: "They drive sympathetic overdrive: stimulants suppress appetite and cause weight loss, and overdose brings hyperthermia and a hypermetabolic, adrenergic storm resembling thyroid excess."
+  - target: 01-human/07-system/renal-system
+    relation: connects-to
+    note: "Cocaine attacks the kidney directly: it causes renal infarction and malignant hypertension with acute kidney injury, distinct from the rhabdomyolysis that also threatens renal function."
 ---
 
 # Stimulant Use Disorder
@@ -401,6 +410,9 @@ Unlike cocaine, methamphetamine causes **direct neurotoxic damage** to dopaminer
 - `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — Stimulants scar the skin and mouth: methamphetamine causes formication with compulsive skin-picking ('meth sores') and rampant 'meth mouth' dental decay, and cocaine perforates the nasal septum.
 - `connects-to` → **[Digestive System](../digestive-system/README.md)** — Cocaine starves the bowel of blood: its intense vasoconstriction causes mesenteric ischaemia and bowel infarction, and stimulant-driven appetite suppression leads to marked weight loss and malnutrition.
 - `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — Overdose can dissolve muscle: stimulant-induced hyperthermia, agitation and seizures cause rhabdomyolysis, releasing myoglobin that can precipitate acute kidney injury.
+- `connects-to` → **[Respiratory System](../respiratory-system/README.md)** — Inhaled stimulants scar the lungs: smoking crack cocaine or methamphetamine causes 'crack lung' — acute eosinophilic pneumonitis and alveolar haemorrhage — and barotrauma with pneumothorax.
+- `connects-to` → **[Endocrine System](../endocrine-system/README.md)** — They drive sympathetic overdrive: stimulants suppress appetite and cause weight loss, and overdose brings hyperthermia and a hypermetabolic, adrenergic storm resembling thyroid excess.
+- `connects-to` → **[Renal System](../renal-system/README.md)** — Cocaine attacks the kidney directly: it causes renal infarction and malignant hypertension with acute kidney injury, distinct from the rhabdomyolysis that also threatens renal function.
 
 ## Treatment
 
