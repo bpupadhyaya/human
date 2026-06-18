@@ -235,6 +235,15 @@ cross_links:
   - target: 01-human/07-system/lymphatic-system
     relation: connects-to
     note: "Late sepsis paralyses immunity: massive apoptosis of lymphocytes in spleen and lymph nodes causes a profound lymphopenia and immunosuppression that leaves survivors prone to secondary infection."
+  - target: 03-medicine/01-modern/02-respiratory/corticosteroids
+    relation: connects-to
+    note: "A rescue for refractory shock: low-dose hydrocortisone is added in septic shock that stays hypotensive despite fluids and vasopressors, shortening the time to shock reversal."
+  - target: 01-human/03-molecular/norepinephrine
+    relation: connects-to
+    note: "The first-line vasopressor: noradrenaline is the initial drug to restore blood pressure in septic shock, raising vascular tone when sepsis causes profound vasodilation."
+  - target: 02-pathogen/02-bacteria/listeria-monocytogenes
+    relation: connects-to
+    note: "A cause in the vulnerable: Listeria monocytogenes causes sepsis and meningitis in neonates, pregnant women, the elderly and the immunosuppressed, requiring ampicillin rather than the usual empiric cover."
 ---
 
 # Sepsis
@@ -413,6 +422,9 @@ Sepsis is not localized to one system — it manifests as dysfunction across mul
 - `connects-to` → **[Renal System](../renal-system/README.md)** — It is the commonest cause of acute kidney injury in the critically ill: septic shock starves the kidney of perfusion while inflammation injures the tubules, often demanding dialysis.
 - `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — The skin signals shock and clotting: mottling, prolonged capillary refill and the purpura of meningococcaemia or purpura fulminans reveal the microvascular collapse of severe sepsis.
 - `connects-to` → **[Lymphatic System](../lymphatic-system/README.md)** — Late sepsis paralyses immunity: massive apoptosis of lymphocytes in spleen and lymph nodes causes a profound lymphopenia and immunosuppression that leaves survivors prone to secondary infection.
+- `connects-to` → **[Corticosteroids](../../../03-medicine/01-modern/02-respiratory/corticosteroids/README.md)** — A rescue for refractory shock: low-dose hydrocortisone is added in septic shock that stays hypotensive despite fluids and vasopressors, shortening the time to shock reversal.
+- `connects-to` → **[Norepinephrine](../../03-molecular/norepinephrine/README.md)** — The first-line vasopressor: noradrenaline is the initial drug to restore blood pressure in septic shock, raising vascular tone when sepsis causes profound vasodilation.
+- `connects-to` → **[Listeria monocytogenes](../../../02-pathogen/02-bacteria/listeria-monocytogenes/README.md)** — A cause in the vulnerable: Listeria monocytogenes causes sepsis and meningitis in neonates, pregnant women, the elderly and the immunosuppressed, requiring ampicillin rather than the usual empiric cover.
 - `treated-by` → **[Vancomycin](../../../03-medicine/01-modern/06-antimicrobial/vancomycin/README.md)** — First-line empiric IV therapy for MRSA bacteremia and gram-positive sepsis; added to beta-lactam empiric regimens when MRSA risk is elevated; AUC/MIC-guided dosing (IDSA 2021); MIC ≤1 mg/L required for endocarditis; daptomycin alternative for high MIC.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
