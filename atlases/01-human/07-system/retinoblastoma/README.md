@@ -214,6 +214,15 @@ cross_links:
   - target: 01-human/07-system/integumentary-system
     relation: connects-to
     note: "Enucleation and radiation mark the orbit: removing the eye leaves a socket fitted with a prosthesis, and orbital radiation thins and scars the periorbital skin and lashes."
+  - target: 01-human/07-system/renal-system
+    relation: connects-to
+    note: "Its chemotherapy taxes the kidney: the carboplatin used to treat retinoblastoma is nephrotoxic and can cause electrolyte wasting, needing monitoring in small children."
+  - target: 01-human/07-system/endocrine-system
+    relation: connects-to
+    note: "Orbital radiation reaches the growing child: external-beam radiation for hereditary retinoblastoma can impair facial-bone growth and nearby endocrine structures and raises the risk of second cancers in the field."
+  - target: 01-human/07-system/respiratory-system
+    relation: connects-to
+    note: "Survivors face second cancers in the chest: hereditary retinoblastoma carriers have a high lifetime risk of second primary cancers including lung cancer, especially with smoking, and sarcomas."
 ---
 
 # Retinoblastoma
@@ -392,6 +401,9 @@ Standard regimen: **vincristine + carboplatin + etoposide (VCE)**, 6 cycles; red
 - `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — Radiation deforms the growing face and seeds sarcoma: orbital radiotherapy stunts midfacial bone growth, and germline RB1 carriers face a high risk of radiation-induced and spontaneous bone sarcomas.
 - `connects-to` → **[Digestive System](../digestive-system/README.md)** — Its chemotherapy injures the gut: the systemic chemotherapy for retinoblastoma causes mucositis, nausea and, with some agents, hepatotoxicity in the young patient.
 - `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — Enucleation and radiation mark the orbit: removing the eye leaves a socket fitted with a prosthesis, and orbital radiation thins and scars the periorbital skin and lashes.
+- `connects-to` → **[Renal System](../renal-system/README.md)** — Its chemotherapy taxes the kidney: the carboplatin used to treat retinoblastoma is nephrotoxic and can cause electrolyte wasting, needing monitoring in small children.
+- `connects-to` → **[Endocrine System](../endocrine-system/README.md)** — Orbital radiation reaches the growing child: external-beam radiation for hereditary retinoblastoma can impair facial-bone growth and nearby endocrine structures and raises the risk of second cancers in the field.
+- `connects-to` → **[Respiratory System](../respiratory-system/README.md)** — Survivors face second cancers in the chest: hereditary retinoblastoma carriers have a high lifetime risk of second primary cancers including lung cancer, especially with smoking, and sarcomas.
 
 [^knudson-1971-two-hit]: Knudson AG Jr. Mutation and cancer: statistical study of retinoblastoma. *Proc Natl Acad Sci USA.* 1971;68(4):820-823. [doi:10.1073/pnas.68.4.820](https://doi.org/10.1073/pnas.68.4.820) · [PubMed 5279523](https://pubmed.ncbi.nlm.nih.gov/5279523/)
 [^shields-2008-retinoblastoma]: Shields CL, Shields JA. Retinoblastoma management: advances in enucleation, intravenous chemoreduction, and intra-arterial chemotherapy. *Curr Opin Ophthalmol.* 2010;21(3):203-212. [doi:10.1097/ICU.0b013e328338676a](https://doi.org/10.1097/ICU.0b013e328338676a) · [PubMed 20224400](https://pubmed.ncbi.nlm.nih.gov/20224400/)

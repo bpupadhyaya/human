@@ -212,6 +212,15 @@ cross_links:
   - target: 02-pathogen/01-viruses/hepatitis-b-virus
     relation: connects-to
     note: "It transmits a virus sexually and to the newborn: hepatitis B spreads through sexual contact and, crucially, vertically from mother to baby at birth, which neonatal vaccination is designed to prevent."
+  - target: 01-human/07-system/respiratory-system
+    relation: connects-to
+    note: "Pregnancy reshapes breathing and vertical infection reaches the airway: the gravid uterus and progesterone raise ventilation and cause breathlessness, and vertically-transmitted HPV causes recurrent respiratory papillomatosis in the child."
+  - target: 02-pathogen/01-viruses/hiv-1
+    relation: connects-to
+    note: "It carries HIV to partners and babies: HIV spreads through sexual contact and vertically from mother to child, the route that antiretroviral prophylaxis in pregnancy is designed to interrupt."
+  - target: 02-pathogen/01-viruses/hepatitis-c-virus
+    relation: connects-to
+    note: "It can pass hepatitis C onward: the virus is transmitted sexually and vertically from mother to baby, though less efficiently than hepatitis B."
 ---
 
 # Reproductive System
@@ -392,6 +401,9 @@ Testosterone binds androgen receptor (AR, nuclear receptor NR3C4) → AR dimeriz
 - `connects-to` → **[Wound Healing](../wound-healing/README.md)** — Childbirth and its surgery leave wounds to heal: vaginal delivery causes perineal tears and episiotomies, and caesarean section a uterine and abdominal-wall wound, all needing to heal in the postpartum period.
 - `connects-to` → **[Streptococcus pyogenes](../../../02-pathogen/02-bacteria/streptococcus-pyogenes/README.md)** — Childbed fever stalks the puerperium: Streptococcus pyogenes infecting the raw post-delivery uterus causes puerperal sepsis and endometritis, the historic killer that hand hygiene helped tame.
 - `connects-to` → **[Hepatitis B Virus](../../../02-pathogen/01-viruses/hepatitis-b-virus/README.md)** — It transmits a virus sexually and to the newborn: hepatitis B spreads through sexual contact and, crucially, vertically from mother to baby at birth, which neonatal vaccination is designed to prevent.
+- `connects-to` → **[Respiratory System](../respiratory-system/README.md)** — Pregnancy reshapes breathing and vertical infection reaches the airway: the gravid uterus and progesterone raise ventilation and cause breathlessness, and vertically-transmitted HPV causes recurrent respiratory papillomatosis in the child.
+- `connects-to` → **[HIV-1](../../../02-pathogen/01-viruses/hiv-1/README.md)** — It carries HIV to partners and babies: HIV spreads through sexual contact and vertically from mother to child, the route that antiretroviral prophylaxis in pregnancy is designed to interrupt.
+- `connects-to` → **[Hepatitis C Virus](../../../02-pathogen/01-viruses/hepatitis-c-virus/README.md)** — It can pass hepatitis C onward: the virus is transmitted sexually and vertically from mother to baby, though less efficiently than hepatitis B.
 
 ## Pathology
 
