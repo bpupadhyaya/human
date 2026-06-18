@@ -220,6 +220,15 @@ cross_links:
   - target: 01-human/07-system/nervous-system
     relation: connects-to
     note: "Failing gas exchange clouds the brain: COPD's hypoxaemia and carbon-dioxide retention can cause CO2 narcosis with confusion and drowsiness, and chronic hypoxia impairs cognition."
+  - target: 01-human/07-system/immune-system
+    relation: connects-to
+    note: "Damaged airways lose their defences: impaired innate and adaptive immunity invites bacterial colonisation and exacerbations, and lymphoid follicles in the airway walls drive its chronic inflammation."
+  - target: 01-human/07-system/renal-system
+    relation: connects-to
+    note: "It strains the kidney through hypoxia and acid-base shifts: chronic hypoxia and shared smoking damage link COPD to chronic kidney disease, and CO2 retention drives compensatory renal bicarbonate handling."
+  - target: 01-human/07-system/integumentary-system
+    relation: connects-to
+    note: "It and its treatment mark the skin: smoking accelerates skin ageing, hypoxaemia causes central cyanosis, and long-term corticosteroids thin and bruise the skin."
 ---
 
 # COPD
@@ -430,6 +439,9 @@ COPD encompasses two overlapping pathological processes:
 - `connects-to` → **[Digestive System](../digestive-system/README.md)** — The gut and lungs trouble each other: gastro-oesophageal reflux is common in COPD and triggers exacerbations through microaspiration, and advanced disease causes cachexia with muscle and fat wasting.
 - `connects-to` → **[Endocrine System](../endocrine-system/README.md)** — Its steroids reach beyond the lungs: repeated systemic corticosteroid courses for COPD exacerbations cause hyperglycaemia, adrenal suppression and bone loss, the endocrine cost of control.
 - `connects-to` → **[Nervous System](../nervous-system/README.md)** — Failing gas exchange clouds the brain: COPD's hypoxaemia and carbon-dioxide retention can cause CO2 narcosis with confusion and drowsiness, and chronic hypoxia impairs cognition.
+- `connects-to` → **[Immune System](../immune-system/README.md)** — Damaged airways lose their defences: impaired innate and adaptive immunity invites bacterial colonisation and exacerbations, and lymphoid follicles in the airway walls drive its chronic inflammation.
+- `connects-to` → **[Renal System](../renal-system/README.md)** — It strains the kidney through hypoxia and acid-base shifts: chronic hypoxia and shared smoking damage link COPD to chronic kidney disease, and CO2 retention drives compensatory renal bicarbonate handling.
+- `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — It and its treatment mark the skin: smoking accelerates skin ageing, hypoxaemia causes central cyanosis, and long-term corticosteroids thin and bruise the skin.
 
 ---
 

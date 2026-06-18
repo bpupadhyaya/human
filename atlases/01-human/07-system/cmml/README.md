@@ -214,6 +214,15 @@ cross_links:
   - target: 01-human/07-system/generalized-anxiety-disorder
     relation: connects-to
     note: "A transfusion-dependent pre-leukaemia breeds worry: the cytopenias, transfusion dependence and threat of transformation to acute leukaemia in CMML foster chronic health anxiety alongside depression."
+  - target: 01-human/07-system/lymphatic-system
+    relation: connects-to
+    note: "Its proliferative form swells the spleen: leukemic infiltration in CMML causes splenomegaly and hepatomegaly, distinguishing the myeloproliferative subtype from the dysplastic one."
+  - target: 01-human/07-system/renal-system
+    relation: connects-to
+    note: "Its monocytes poison the tubules: the excess monocytes of CMML release lysozyme that injures the renal tubules, causing tubular dysfunction with hypokalaemia."
+  - target: 01-human/07-system/respiratory-system
+    relation: connects-to
+    note: "It can flood the body cavities: leukemic infiltration in CMML can cause pleural and pericardial effusions, and neutropenia leaves the lungs prone to infection."
 ---
 
 # Chronic Myelomonocytic Leukemia
@@ -405,6 +414,9 @@ CMML → AML transformation (~15-30% at 5 years): Treat as secondary AML; CPX-35
 - `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — Its monocytes infiltrate the skin: CMML characteristically causes leukaemia cutis and is associated with Sweet syndrome, neutrophilic dermatoses that flag the underlying monocytic disorder.
 - `connects-to` → **[Digestive System](../digestive-system/README.md)** — Monocytic infiltration swells the gut organs: CMML commonly enlarges the spleen and liver through tissue infiltration, causing early satiety, and can produce serous effusions and ascites.
 - `connects-to` → **[Generalized Anxiety Disorder](../generalized-anxiety-disorder/README.md)** — A transfusion-dependent pre-leukaemia breeds worry: the cytopenias, transfusion dependence and threat of transformation to acute leukaemia in CMML foster chronic health anxiety alongside depression.
+- `connects-to` → **[Lymphatic System](../lymphatic-system/README.md)** — Its proliferative form swells the spleen: leukemic infiltration in CMML causes splenomegaly and hepatomegaly, distinguishing the myeloproliferative subtype from the dysplastic one.
+- `connects-to` → **[Renal System](../renal-system/README.md)** — Its monocytes poison the tubules: the excess monocytes of CMML release lysozyme that injures the renal tubules, causing tubular dysfunction with hypokalaemia.
+- `connects-to` → **[Respiratory System](../respiratory-system/README.md)** — It can flood the body cavities: leukemic infiltration in CMML can cause pleural and pericardial effusions, and neutropenia leaves the lungs prone to infection.
 
 ---
 
