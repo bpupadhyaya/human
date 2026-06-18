@@ -225,6 +225,15 @@ cross_links:
   - target: 01-human/07-system/nervous-system
     relation: connects-to
     note: "Blood-making can compress the cord: paraspinal masses of extramedullary haematopoiesis in thalassemia can grow into the spinal canal and cause cord compression."
+  - target: 01-human/07-system/immune-system
+    relation: connects-to
+    note: "Asplenia and iron overload weaken defence: splenectomy leaves vulnerability to encapsulated bacteria, while iron overload itself impairs immunity, making infection a leading cause of death in thalassemia."
+  - target: 01-human/07-system/renal-system
+    relation: connects-to
+    note: "Disease and chelators both reach the kidney: chronic anaemia and iron overload cause tubular dysfunction, and the iron chelator deferasirox can be nephrotoxic, demanding renal monitoring."
+  - target: 01-human/07-system/respiratory-system
+    relation: connects-to
+    note: "Iron and anaemia burden the lungs: chronic transfusion and haemolysis drive pulmonary hypertension and a restrictive ventilatory defect in thalassemia."
 ---
 
 # Thalassemia
@@ -438,6 +447,9 @@ Untransfused or undertransfused β-thal major:
 - `connects-to` → **[Cardiovascular System](../cardiovascular-system/README.md)** — Iron poisons the heart: transfusional iron overload deposits in the myocardium, causing a cardiomyopathy and arrhythmias that are the leading cause of death in thalassemia major.
 - `connects-to` → **[Lymphatic System](../lymphatic-system/README.md)** — It swells the spleen: extramedullary haematopoiesis and ongoing red-cell destruction cause massive splenomegaly, often requiring splenectomy that then raises infection risk.
 - `connects-to` → **[Nervous System](../nervous-system/README.md)** — Blood-making can compress the cord: paraspinal masses of extramedullary haematopoiesis in thalassemia can grow into the spinal canal and cause cord compression.
+- `connects-to` → **[Immune System](../immune-system/README.md)** — Asplenia and iron overload weaken defence: splenectomy leaves vulnerability to encapsulated bacteria, while iron overload itself impairs immunity, making infection a leading cause of death in thalassemia.
+- `connects-to` → **[Renal System](../renal-system/README.md)** — Disease and chelators both reach the kidney: chronic anaemia and iron overload cause tubular dysfunction, and the iron chelator deferasirox can be nephrotoxic, demanding renal monitoring.
+- `connects-to` → **[Respiratory System](../respiratory-system/README.md)** — Iron and anaemia burden the lungs: chronic transfusion and haemolysis drive pulmonary hypertension and a restrictive ventilatory defect in thalassemia.
 
 [^weatherall-2008-thalassemia-review]: Weatherall DJ. The inherited diseases of hemoglobin are an emerging global health burden. *Blood.* 2010;115(22):4331-4336. [doi:10.1182/blood-2010-01-251348](https://doi.org/10.1182/blood-2010-01-251348) · [PubMed 20233970](https://pubmed.ncbi.nlm.nih.gov/20233970/)
 [^cappellini-2014-thalassemia-guidelines]: Cappellini MD, Cohen A, Porter J, et al. (eds). Guidelines for the Management of Transfusion Dependent Thalassaemia (TDT). 3rd ed. Thalassaemia International Federation; 2014.

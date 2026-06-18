@@ -226,6 +226,15 @@ cross_links:
   - target: 01-human/07-system/endocrine-system
     relation: connects-to
     note: "Hormones tip the balance toward clotting: oestrogen in combined contraceptives and HRT, and cortisol excess, raise clotting factors and are major hormonal drivers of venous thromboembolism."
+  - target: 01-human/07-system/renal-system
+    relation: connects-to
+    note: "The leaky kidney clots: nephrotic syndrome loses antithrombin in the urine, creating a hypercoagulable state that classically causes renal vein thrombosis and other venous clots."
+  - target: 01-human/07-system/immune-system
+    relation: connects-to
+    note: "Inflammation and clotting are intertwined: 'immunothrombosis' sees neutrophil extracellular traps and inflammatory cytokines trigger coagulation, linking infection and autoimmunity to venous thrombosis."
+  - target: 01-human/07-system/lymphatic-system
+    relation: connects-to
+    note: "It leaves a lasting swelling: after a deep-vein thrombosis, valve damage and impaired drainage cause the post-thrombotic syndrome, a chronic oedema that mimics lymphatic failure."
 ---
 
 # Venous Thromboembolism
@@ -414,6 +423,9 @@ cross_links:
 - `connects-to` → **[Cardiovascular System](../cardiovascular-system/README.md)** — A large clot can stop the heart: massive pulmonary embolism causes acute right-heart strain and obstructive shock, and via a patent foramen ovale a venous clot can cause paradoxical arterial embolism.
 - `connects-to` → **[Nervous System](../nervous-system/README.md)** — Clots strike the brain's veins too: cerebral venous sinus thrombosis is venous thromboembolism within the skull, causing headache, seizures and raised intracranial pressure.
 - `connects-to` → **[Endocrine System](../endocrine-system/README.md)** — Hormones tip the balance toward clotting: oestrogen in combined contraceptives and HRT, and cortisol excess, raise clotting factors and are major hormonal drivers of venous thromboembolism.
+- `connects-to` → **[Renal System](../renal-system/README.md)** — The leaky kidney clots: nephrotic syndrome loses antithrombin in the urine, creating a hypercoagulable state that classically causes renal vein thrombosis and other venous clots.
+- `connects-to` → **[Immune System](../immune-system/README.md)** — Inflammation and clotting are intertwined: 'immunothrombosis' sees neutrophil extracellular traps and inflammatory cytokines trigger coagulation, linking infection and autoimmunity to venous thrombosis.
+- `connects-to` → **[Lymphatic System](../lymphatic-system/README.md)** — It leaves a lasting swelling: after a deep-vein thrombosis, valve damage and impaired drainage cause the post-thrombotic syndrome, a chronic oedema that mimics lymphatic failure.
 
 [^agnelli-2013-amplify-apixaban-vte]: Agnelli G, Buller HR, Cohen A, et al. Oral apixaban for the treatment of acute venous thromboembolism. *N Engl J Med.* 2013;369(9):799-808. [doi:10.1056/NEJMoa1302507](https://doi.org/10.1056/NEJMoa1302507) · [PubMed 23808982](https://pubmed.ncbi.nlm.nih.gov/23808982/)
 [^bauersachs-2010-einstein-rivaroxaban]: EINSTEIN Investigators. Oral rivaroxaban for symptomatic venous thromboembolism. *N Engl J Med.* 2010;363(26):2499-2510. [doi:10.1056/NEJMoa1007903](https://doi.org/10.1056/NEJMoa1007903) · [PubMed 21128814](https://pubmed.ncbi.nlm.nih.gov/21128814/)
