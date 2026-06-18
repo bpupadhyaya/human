@@ -223,6 +223,15 @@ cross_links:
   - target: 01-human/07-system/respiratory-system
     relation: connects-to
     note: "Swallowing failure floods the lungs: dysphagia leads to aspiration pneumonia — a leading cause of death in Parkinson's — while rigidity of the chest wall restricts breathing."
+  - target: 01-human/07-system/immune-system
+    relation: connects-to
+    note: "Brain inflammation drives it: microglial neuroinflammation and the immune-regulating LRRK2 gene implicate the immune system in the onset and progression of Parkinson's disease."
+  - target: 01-human/07-system/lymphatic-system
+    relation: connects-to
+    note: "Failing waste clearance lets protein build up: impaired glymphatic and meningeal-lymphatic clearance of alpha-synuclein is increasingly implicated in the neurodegeneration of Parkinson's."
+  - target: 01-human/07-system/endocrine-system
+    relation: connects-to
+    note: "It is tied to metabolism: Parkinson's causes unexplained weight loss and is bidirectionally linked with type 2 diabetes, sharing mitochondrial and insulin-signalling pathways."
 ---
 
 # Parkinson's Disease
@@ -430,6 +439,9 @@ PD is primarily a disease of aging (mean onset ~60 years), but **~10–15% of ca
 - `connects-to` → **[Cardiovascular System](../cardiovascular-system/README.md)** — Autonomic failure drops the blood pressure: Parkinson's causes orthostatic hypotension — a major non-motor feature worsened by levodopa — leading to dizziness, syncope and falls on standing.
 - `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — It shows on the skin: seborrhoeic dermatitis with a greasy, scaly face and excess sweating are classic dermatological features of Parkinson's, reflecting its autonomic and sebaceous dysregulation.
 - `connects-to` → **[Respiratory System](../respiratory-system/README.md)** — Swallowing failure floods the lungs: dysphagia leads to aspiration pneumonia — a leading cause of death in Parkinson's — while rigidity of the chest wall restricts breathing.
+- `connects-to` → **[Immune System](../immune-system/README.md)** — Brain inflammation drives it: microglial neuroinflammation and the immune-regulating LRRK2 gene implicate the immune system in the onset and progression of Parkinson's disease.
+- `connects-to` → **[Lymphatic System](../lymphatic-system/README.md)** — Failing waste clearance lets protein build up: impaired glymphatic and meningeal-lymphatic clearance of alpha-synuclein is increasingly implicated in the neurodegeneration of Parkinson's.
+- `connects-to` → **[Endocrine System](../endocrine-system/README.md)** — It is tied to metabolism: Parkinson's causes unexplained weight loss and is bidirectionally linked with type 2 diabetes, sharing mitochondrial and insulin-signalling pathways.
 
 [^kalia-2015-pd-review]: Kalia LV, Lang AE. Parkinson's disease. *Lancet.* 2015;386(9996):896-912. [doi:10.1016/S0140-6736(14)61393-3](https://doi.org/10.1016/S0140-6736(14)61393-3) · [PubMed 25904081](https://pubmed.ncbi.nlm.nih.gov/25904081/)
 [^spillantini-1997-lewy-body]: Spillantini MG, Schmidt ML, Lee VM, Trojanowski JQ, Jakes R, Goedert M. Alpha-synuclein in Lewy bodies. *Nature.* 1997;388(6645):839-840. [doi:10.1038/42166](https://doi.org/10.1038/42166) · [PubMed 9278044](https://pubmed.ncbi.nlm.nih.gov/9278044/)

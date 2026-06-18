@@ -217,6 +217,15 @@ cross_links:
   - target: 01-human/07-system/cardiovascular-system
     relation: connects-to
     note: "It clots arteries as well as veins: although venous thrombosis dominates, PNH also causes arterial events including myocardial infarction and peripheral arterial occlusion."
+  - target: 01-human/07-system/musculoskeletal-system
+    relation: connects-to
+    note: "It is born in the marrow: PNH arises from a clonal PIGA-mutant stem cell in the bone marrow and frequently overlaps marrow failure, while severe haemolytic crises cause bone and abdominal pain."
+  - target: 01-human/07-system/renal-system
+    relation: connects-to
+    note: "Free haemoglobin floods the tubules: acute haemolytic crises release haemoglobin that causes acute kidney injury, distinct from the slow haemosiderin scarring of chronic disease."
+  - target: 02-pathogen/02-bacteria/neisseria-meningitidis
+    relation: connects-to
+    note: "Its complement-blocking drug invites meningococcus: eculizumab, the mainstay treatment, blocks the terminal complement that defends against Neisseria meningitidis, so vaccination is mandatory before therapy."
 ---
 
 # Paroxysmal Nocturnal Hemoglobinuria
@@ -375,6 +384,9 @@ When PIGA is mutated in an HSC → all progeny cells (RBCs, WBCs, platelets) of 
 - `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — It is visible at the skin and bedside: haemolysis causes jaundice and pallor with dark cola-coloured morning urine, while dermal thrombosis can produce painful purpuric skin lesions and necrosis.
 - `connects-to` → **[Respiratory System](../respiratory-system/README.md)** — Its clots can lodge in the lungs: beyond NO-driven pulmonary hypertension, the thrombotic tendency of PNH causes pulmonary embolism with acute breathlessness and chest pain.
 - `connects-to` → **[Cardiovascular System](../cardiovascular-system/README.md)** — It clots arteries as well as veins: although venous thrombosis dominates, PNH also causes arterial events including myocardial infarction and peripheral arterial occlusion.
+- `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — It is born in the marrow: PNH arises from a clonal PIGA-mutant stem cell in the bone marrow and frequently overlaps marrow failure, while severe haemolytic crises cause bone and abdominal pain.
+- `connects-to` → **[Renal System](../renal-system/README.md)** — Free haemoglobin floods the tubules: acute haemolytic crises release haemoglobin that causes acute kidney injury, distinct from the slow haemosiderin scarring of chronic disease.
+- `connects-to` → **[Neisseria meningitidis](../../../02-pathogen/02-bacteria/neisseria-meningitidis/README.md)** — Its complement-blocking drug invites meningococcus: eculizumab, the mainstay treatment, blocks the terminal complement that defends against Neisseria meningitidis, so vaccination is mandatory before therapy.
 
 ---
 
