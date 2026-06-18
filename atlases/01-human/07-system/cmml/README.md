@@ -205,6 +205,15 @@ cross_links:
   - target: 01-human/07-system/major-depressive-disorder
     relation: connects-to
     note: "A chronic leukemia with leukemic threat weighs on mood: the transfusion dependence, poor prognosis and risk of transformation to acute leukemia in CMML, mostly in older patients, contribute to depression."
+  - target: 01-human/07-system/integumentary-system
+    relation: connects-to
+    note: "Its monocytes infiltrate the skin: CMML characteristically causes leukaemia cutis and is associated with Sweet syndrome, neutrophilic dermatoses that flag the underlying monocytic disorder."
+  - target: 01-human/07-system/digestive-system
+    relation: connects-to
+    note: "Monocytic infiltration swells the gut organs: CMML commonly enlarges the spleen and liver through tissue infiltration, causing early satiety, and can produce serous effusions and ascites."
+  - target: 01-human/07-system/generalized-anxiety-disorder
+    relation: connects-to
+    note: "A transfusion-dependent pre-leukaemia breeds worry: the cytopenias, transfusion dependence and threat of transformation to acute leukaemia in CMML foster chronic health anxiety alongside depression."
 ---
 
 # Chronic Myelomonocytic Leukemia
@@ -393,6 +402,9 @@ CMML → AML transformation (~15-30% at 5 years): Treat as secondary AML; CPX-35
 - `connects-to` → **[Pneumocystis jirovecii](../../../02-pathogen/03-fungi/pneumocystis-jirovecii/README.md)** — Its hypomethylating therapy deepens immune suppression: azacitidine for CMML adds to the disease's own immune dysfunction, raising the risk of Pneumocystis pneumonia.
 - `connects-to` → **[Chronic Kidney Disease](../ckd/README.md)** — Monocyte products injure the kidney: the marked monocytosis of CMML can infiltrate the kidney and release lysozyme that damages the renal tubules, contributing to kidney impairment.
 - `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — A chronic leukemia with leukemic threat weighs on mood: the transfusion dependence, poor prognosis and risk of transformation to acute leukemia in CMML, mostly in older patients, contribute to depression.
+- `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — Its monocytes infiltrate the skin: CMML characteristically causes leukaemia cutis and is associated with Sweet syndrome, neutrophilic dermatoses that flag the underlying monocytic disorder.
+- `connects-to` → **[Digestive System](../digestive-system/README.md)** — Monocytic infiltration swells the gut organs: CMML commonly enlarges the spleen and liver through tissue infiltration, causing early satiety, and can produce serous effusions and ascites.
+- `connects-to` → **[Generalized Anxiety Disorder](../generalized-anxiety-disorder/README.md)** — A transfusion-dependent pre-leukaemia breeds worry: the cytopenias, transfusion dependence and threat of transformation to acute leukaemia in CMML foster chronic health anxiety alongside depression.
 
 ---
 

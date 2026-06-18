@@ -211,6 +211,15 @@ cross_links:
   - target: 01-human/07-system/alzheimers-disease
     relation: connects-to
     note: "Chronic low oxygen wears on the brain: the sustained hypoxemia, systemic inflammation and vascular disease of COPD are linked to accelerated cognitive decline and dementia."
+  - target: 01-human/07-system/digestive-system
+    relation: connects-to
+    note: "The gut and lungs trouble each other: gastro-oesophageal reflux is common in COPD and triggers exacerbations through microaspiration, and advanced disease causes cachexia with muscle and fat wasting."
+  - target: 01-human/07-system/endocrine-system
+    relation: connects-to
+    note: "Its steroids reach beyond the lungs: repeated systemic corticosteroid courses for COPD exacerbations cause hyperglycaemia, adrenal suppression and bone loss, the endocrine cost of control."
+  - target: 01-human/07-system/nervous-system
+    relation: connects-to
+    note: "Failing gas exchange clouds the brain: COPD's hypoxaemia and carbon-dioxide retention can cause CO2 narcosis with confusion and drowsiness, and chronic hypoxia impairs cognition."
 ---
 
 # COPD
@@ -418,6 +427,9 @@ COPD encompasses two overlapping pathological processes:
 - `connects-to` → **[Type 2 Diabetes](../type-2-diabetes/README.md)** — Inflammation and steroids raise blood sugar: COPD's systemic inflammation and the corticosteroids used for exacerbations promote insulin resistance, giving it an elevated rate of type 2 diabetes.
 - `connects-to` → **[Gout](../gout/README.md)** — Hypoxia and diuretics raise uric acid: chronic hypoxemia increases purine turnover and the diuretics used for cor pulmonale retain urate, so gout is a common COPD comorbidity.
 - `connects-to` → **[Alzheimer's Disease](../alzheimers-disease/README.md)** — Chronic low oxygen wears on the brain: the sustained hypoxemia, systemic inflammation and vascular disease of COPD are linked to accelerated cognitive decline and dementia.
+- `connects-to` → **[Digestive System](../digestive-system/README.md)** — The gut and lungs trouble each other: gastro-oesophageal reflux is common in COPD and triggers exacerbations through microaspiration, and advanced disease causes cachexia with muscle and fat wasting.
+- `connects-to` → **[Endocrine System](../endocrine-system/README.md)** — Its steroids reach beyond the lungs: repeated systemic corticosteroid courses for COPD exacerbations cause hyperglycaemia, adrenal suppression and bone loss, the endocrine cost of control.
+- `connects-to` → **[Nervous System](../nervous-system/README.md)** — Failing gas exchange clouds the brain: COPD's hypoxaemia and carbon-dioxide retention can cause CO2 narcosis with confusion and drowsiness, and chronic hypoxia impairs cognition.
 
 ---
 
