@@ -232,6 +232,15 @@ cross_links:
   - target: 01-human/07-system/renal-system
     relation: connects-to
     note: "Treatment and obstruction reach the kidney: cisplatin chemotherapy is nephrotoxic, and the deep jaundice of biliary obstruction predisposes to acute kidney injury during surgery."
+  - target: 03-medicine/01-modern/13-cancer/targeted-therapy
+    relation: connects-to
+    note: "A precision-oncology showcase: cholangiocarcinoma is rich in actionable mutations — FGFR2 fusions (pemigatinib), IDH1 mutations (ivosidenib), and BRAF or HER2 alterations all have matched targeted drugs."
+  - target: 03-medicine/01-modern/13-cancer/cancer-chemotherapy
+    relation: connects-to
+    note: "The chemotherapy backbone: gemcitabine combined with cisplatin is the long-standing first-line chemotherapy foundation for advanced biliary tract cancer."
+  - target: 02-pathogen/01-viruses/hepatitis-b-virus
+    relation: connects-to
+    note: "Chronic hepatitis seeds the bile ducts: hepatitis B, like hepatitis C and liver flukes, chronically inflames the liver and is an established risk factor for intrahepatic cholangiocarcinoma."
 ---
 
 # Cholangiocarcinoma
@@ -400,6 +409,9 @@ Chronic biliary injury (from PSC, fluke infection, bile acid reflux, biliary sta
 - `connects-to` → **[Respiratory System](../respiratory-system/README.md)** — It spreads to the lungs: cholangiocarcinoma commonly metastasises to the lung and pleura, and high biliary obstruction in the porta can compromise breathing in advanced disease.
 - `connects-to` → **[Immune System](../immune-system/README.md)** — Immunotherapy joins the regimen: PD-L1 blockade with durvalumab added to gemcitabine-cisplatin is now standard for advanced biliary cancer, and primary sclerosing cholangitis provides its autoimmune backdrop.
 - `connects-to` → **[Renal System](../renal-system/README.md)** — Treatment and obstruction reach the kidney: cisplatin chemotherapy is nephrotoxic, and the deep jaundice of biliary obstruction predisposes to acute kidney injury during surgery.
+- `connects-to` → **[Targeted Therapy](../../../03-medicine/01-modern/13-cancer/targeted-therapy/README.md)** — A precision-oncology showcase: cholangiocarcinoma is rich in actionable mutations — FGFR2 fusions (pemigatinib), IDH1 mutations (ivosidenib), and BRAF or HER2 alterations all have matched targeted drugs.
+- `connects-to` → **[Cancer Chemotherapy](../../../03-medicine/01-modern/13-cancer/cancer-chemotherapy/README.md)** — The chemotherapy backbone: gemcitabine combined with cisplatin is the long-standing first-line chemotherapy foundation for advanced biliary tract cancer.
+- `connects-to` → **[Hepatitis B Virus](../../../02-pathogen/01-viruses/hepatitis-b-virus/README.md)** — Chronic hepatitis seeds the bile ducts: hepatitis B, like hepatitis C and liver flukes, chronically inflames the liver and is an established risk factor for intrahepatic cholangiocarcinoma.
 
 ---
 

@@ -232,6 +232,15 @@ cross_links:
   - target: 02-pathogen/02-bacteria/streptococcus-pneumoniae
     relation: connects-to
     note: "Skull-base surgery risks meningitis: resecting a clival chordoma can cause a cerebrospinal-fluid leak, opening a route for bacterial meningitis from organisms such as Streptococcus pneumoniae."
+  - target: 03-medicine/01-modern/13-cancer/targeted-therapy
+    relation: connects-to
+    note: "Kinase inhibitors when surgery fails: chordoma expresses PDGFR and EGFR, so imatinib and EGFR inhibitors are used for advanced disease that has exhausted surgery and radiation."
+  - target: 01-human/07-system/rhabdomyosarcoma
+    relation: connects-to
+    note: "A fellow rare tumour of the skull base: like parameningeal rhabdomyosarcoma, chordoma arises near the cranial base and brainstem, demanding complex resection and high-dose particle radiation."
+  - target: 01-human/05-tissue/cortical-bone
+    relation: connects-to
+    note: "It eats through the axial skeleton: chordoma destroys the cortical bone of the clivus, spine and sacrum as it grows, the bone destruction driving its pain and instability."
 ---
 
 # Chordoma
@@ -438,6 +447,9 @@ CDKN2A deletion in ~30-40% → CDK4/6 hyperactivation → RB1 phosphorylation; p
 - `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — Sacral tumours reach the skin: a large sacrococcygeal chordoma can bulge beneath and ulcerate the overlying skin, and its extensive resection leaves difficult wounds to heal.
 - `connects-to` → **[Lymphatic System](../lymphatic-system/README.md)** — It can spread to nodes late: though chordoma chiefly recurs locally, advanced disease occasionally metastasises to lymph nodes as well as lung and bone.
 - `connects-to` → **[Streptococcus pneumoniae](../../../02-pathogen/02-bacteria/streptococcus-pneumoniae/README.md)** — Skull-base surgery risks meningitis: resecting a clival chordoma can cause a cerebrospinal-fluid leak, opening a route for bacterial meningitis from organisms such as Streptococcus pneumoniae.
+- `connects-to` → **[Targeted Therapy](../../../03-medicine/01-modern/13-cancer/targeted-therapy/README.md)** — Kinase inhibitors when surgery fails: chordoma expresses PDGFR and EGFR, so imatinib and EGFR inhibitors are used for advanced disease that has exhausted surgery and radiation.
+- `connects-to` → **[Rhabdomyosarcoma](../rhabdomyosarcoma/README.md)** — A fellow rare tumour of the skull base: like parameningeal rhabdomyosarcoma, chordoma arises near the cranial base and brainstem, demanding complex resection and high-dose particle radiation.
+- `connects-to` → **[Cortical Bone](../../05-tissue/cortical-bone/README.md)** — It eats through the axial skeleton: chordoma destroys the cortical bone of the clivus, spine and sacrum as it grows, the bone destruction driving its pain and instability.
 
 ---
 
