@@ -232,6 +232,15 @@ cross_links:
   - target: 01-human/07-system/tuberculosis
     relation: connects-to
     note: "Renal tuberculosis can mimic it: genitourinary TB causes renal masses, cavitation and haematuria that enter the imaging differential of renal cell carcinoma."
+  - target: 03-medicine/01-modern/13-cancer/checkpoint-inhibitors
+    relation: connects-to
+    note: "A highly immunogenic tumour: clear-cell RCC responds to checkpoint blockade — nivolumab plus ipilimumab or pembrolizumab with a VEGF TKI is now first-line for advanced disease, exploiting its heavy immune infiltrate."
+  - target: 03-medicine/01-modern/13-cancer/cancer-chemotherapy
+    relation: connects-to
+    note: "Classically chemoresistant: conventional cytotoxic chemotherapy barely touches renal cell carcinoma owing to high P-glycoprotein drug efflux, which is why treatment moved to cytokines, then VEGF TKIs and immunotherapy."
+  - target: 01-human/05-tissue/cortical-bone
+    relation: connects-to
+    note: "It seeds destructive bone metastases: RCC frequently spreads to bone as hypervascular osteolytic lesions causing pain and pathological fractures that can bleed briskly, sometimes needing embolisation before surgery."
 ---
 
 # Renal Cell Carcinoma
@@ -422,6 +431,9 @@ Kidney → primary site of EPO production under hypoxia; VHL-intact renal inters
 - `connects-to` → **[Targeted Therapy](../../../03-medicine/01-modern/13-cancer/targeted-therapy/README.md)** — It is a prototype of targeted and immune therapy: anti-VEGF tyrosine-kinase inhibitors, mTOR inhibitors and checkpoint immunotherapy define modern treatment of advanced renal cell carcinoma.
 - `connects-to` → **[Cowden Syndrome](../cowden-syndrome/README.md)** — Another hereditary kidney-cancer syndrome: like von Hippel-Lindau and Birt-Hogg-Dubé, Cowden (PTEN) syndrome raises renal cell carcinoma risk, part of its inherited differential.
 - `connects-to` → **[Tuberculosis](../tuberculosis/README.md)** — Renal tuberculosis can mimic it: genitourinary TB causes renal masses, cavitation and haematuria that enter the imaging differential of renal cell carcinoma.
+- `connects-to` → **[Checkpoint Inhibitors](../../../03-medicine/01-modern/13-cancer/checkpoint-inhibitors/README.md)** — A highly immunogenic tumour: clear-cell RCC responds to checkpoint blockade — nivolumab plus ipilimumab or pembrolizumab with a VEGF TKI is now first-line for advanced disease, exploiting its heavy immune infiltrate.
+- `connects-to` → **[Cancer Chemotherapy](../../../03-medicine/01-modern/13-cancer/cancer-chemotherapy/README.md)** — Classically chemoresistant: conventional cytotoxic chemotherapy barely touches renal cell carcinoma owing to high P-glycoprotein drug efflux, which is why treatment moved to cytokines, then VEGF TKIs and immunotherapy.
+- `connects-to` → **[Cortical Bone](../../05-tissue/cortical-bone/README.md)** — It seeds destructive bone metastases: RCC frequently spreads to bone as hypervascular osteolytic lesions causing pain and pathological fractures that can bleed briskly, sometimes needing embolisation before surgery.
 
 [^motzer-2018-checkmate214]: Motzer RJ, Tannir NM, McDermott DF, et al. Nivolumab plus ipilimumab versus sunitinib in advanced renal-cell carcinoma. *N Engl J Med.* 2018;378(14):1277-1290. [doi:10.1056/NEJMoa1712126](https://doi.org/10.1056/NEJMoa1712126) · [PubMed 29562145](https://pubmed.ncbi.nlm.nih.gov/29562145/)
 [^rini-2019-keynote426]: Rini BI, Plimack ER, Stus V, et al. Pembrolizumab plus axitinib versus sunitinib for advanced renal-cell carcinoma. *N Engl J Med.* 2019;380(12):1116-1127. [doi:10.1056/NEJMoa1816714](https://doi.org/10.1056/NEJMoa1816714) · [PubMed 30779529](https://pubmed.ncbi.nlm.nih.gov/30779529/)

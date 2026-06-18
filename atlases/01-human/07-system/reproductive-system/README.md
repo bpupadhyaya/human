@@ -230,6 +230,15 @@ cross_links:
   - target: 03-medicine/03-food/zinc-dietary
     relation: connects-to
     note: "Zinc underpins fertility: it is essential for spermatogenesis, testosterone production and oocyte quality, so deficiency impairs reproduction in both sexes."
+  - target: 02-pathogen/02-bacteria/staphylococcus-aureus
+    relation: connects-to
+    note: "Reproductive practices invite toxic shock: prolonged tampon use and the postpartum uterus let Staphylococcus aureus release TSST-1 superantigen causing menstrual toxic shock syndrome, and the organism also drives lactational mastitis and breast abscess."
+  - target: 03-medicine/01-modern/04-cardio/aspirin
+    relation: connects-to
+    note: "Low-dose aspirin protects pregnancy: started before 16 weeks in high-risk women, low-dose aspirin lowers the incidence of pre-eclampsia and fetal growth restriction by rebalancing placental thromboxane and prostacyclin."
+  - target: 01-human/05-tissue/cortical-bone
+    relation: connects-to
+    note: "Sex steroids govern the skeleton: oestrogen and testosterone restrain osteoclasts and maintain bone density, so menopause, hypogonadism, and anti-hormonal cancer therapy all accelerate cortical bone loss and fracture risk."
 ---
 
 # Reproductive System
@@ -416,6 +425,9 @@ Testosterone binds androgen receptor (AR, nuclear receptor NR3C4) → AR dimeriz
 - `connects-to` → **[Toxoplasma gondii](../../../02-pathogen/04-parasites/toxoplasma-gondii/README.md)** — It crosses the placenta: maternal toxoplasmosis in pregnancy can transmit to the fetus, causing congenital toxoplasmosis with chorioretinitis and brain calcification, part of the TORCH group.
 - `connects-to` → **[Listeria monocytogenes](../../../02-pathogen/02-bacteria/listeria-monocytogenes/README.md)** — It targets the pregnant uterus: Listeria has a tropism for the placenta, and listeriosis in pregnancy causes miscarriage, stillbirth and severe neonatal sepsis.
 - `connects-to` → **[Dietary Zinc](../../../03-medicine/03-food/zinc-dietary/README.md)** — Zinc underpins fertility: it is essential for spermatogenesis, testosterone production and oocyte quality, so deficiency impairs reproduction in both sexes.
+- `connects-to` → **[Staphylococcus aureus](../../../02-pathogen/02-bacteria/staphylococcus-aureus/README.md)** — Reproductive practices invite toxic shock: prolonged tampon use and the postpartum uterus let Staphylococcus aureus release TSST-1 superantigen causing menstrual toxic shock syndrome, and the organism also drives lactational mastitis and breast abscess.
+- `connects-to` → **[Aspirin](../../../03-medicine/01-modern/04-cardio/aspirin/README.md)** — Low-dose aspirin protects pregnancy: started before 16 weeks in high-risk women, low-dose aspirin lowers the incidence of pre-eclampsia and fetal growth restriction by rebalancing placental thromboxane and prostacyclin.
+- `connects-to` → **[Cortical Bone](../../05-tissue/cortical-bone/README.md)** — Sex steroids govern the skeleton: oestrogen and testosterone restrain osteoclasts and maintain bone density, so menopause, hypogonadism, and anti-hormonal cancer therapy all accelerate cortical bone loss and fracture risk.
 
 ## Pathology
 
