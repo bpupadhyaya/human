@@ -223,6 +223,15 @@ cross_links:
   - target: 01-human/07-system/immune-system
     relation: connects-to
     note: "Its gene also tunes immunity: PTEN regulates immune-cell signalling, and Cowden syndrome is associated with immune dysregulation and a raised tendency to autoimmunity."
+  - target: 01-human/07-system/renal-system
+    relation: connects-to
+    note: "It raises kidney-cancer risk: Cowden syndrome predisposes to renal cell carcinoma, adding the kidney to the breast, thyroid and endometrium in its tumour spectrum and surveillance."
+  - target: 01-human/07-system/li-fraumeni-syndrome
+    relation: connects-to
+    note: "A fellow multi-cancer syndrome: like Li-Fraumeni, Cowden syndrome is an autosomal-dominant predisposition to several cancers including breast, the two entering each other's differential."
+  - target: 01-human/07-system/gorlin-syndrome
+    relation: connects-to
+    note: "A comparator skin-marker tumour syndrome: both Cowden and Gorlin syndrome are autosomal-dominant disorders announced by characteristic skin lesions and carrying a raised lifetime tumour risk."
 ---
 
 # Cowden Syndrome
@@ -471,6 +480,9 @@ cross_links:
 - `connects-to` → **[Cardiovascular System](../cardiovascular-system/README.md)** — Its pathway spawns vascular malformations: PTEN loss overactivates PI3K-AKT signalling, producing arteriovenous and other vascular malformations across the PTEN hamartoma tumour syndrome spectrum.
 - `connects-to` → **[Lymphatic System](../lymphatic-system/README.md)** — It seeds lymphatic and fatty anomalies: the PTEN hamartoma spectrum, overlapping Bannayan-Riley-Ruvalcaba syndrome, features lymphatic malformations and multiple lipomas.
 - `connects-to` → **[Immune System](../immune-system/README.md)** — Its gene also tunes immunity: PTEN regulates immune-cell signalling, and Cowden syndrome is associated with immune dysregulation and a raised tendency to autoimmunity.
+- `connects-to` → **[Renal System](../renal-system/README.md)** — It raises kidney-cancer risk: Cowden syndrome predisposes to renal cell carcinoma, adding the kidney to the breast, thyroid and endometrium in its tumour spectrum and surveillance.
+- `connects-to` → **[Li-Fraumeni Syndrome](../li-fraumeni-syndrome/README.md)** — A fellow multi-cancer syndrome: like Li-Fraumeni, Cowden syndrome is an autosomal-dominant predisposition to several cancers including breast, the two entering each other's differential.
+- `connects-to` → **[Gorlin Syndrome](../gorlin-syndrome/README.md)** — A comparator skin-marker tumour syndrome: both Cowden and Gorlin syndrome are autosomal-dominant disorders announced by characteristic skin lesions and carrying a raised lifetime tumour risk.
 
 ---
 

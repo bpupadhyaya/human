@@ -223,6 +223,15 @@ cross_links:
   - target: 01-human/07-system/renal-system
     relation: connects-to
     note: "Salt loss and antibiotics tax the kidney: heavy sweat salt loss can cause a pseudo-Bartter syndrome with hypochloraemic alkalosis, and repeated aminoglycoside courses are nephrotoxic."
+  - target: 02-pathogen/02-bacteria/mycobacterium-tuberculosis
+    relation: connects-to
+    note: "Mycobacteria threaten the CF lung: non-tuberculous mycobacteria related to M. tuberculosis, such as M. abscessus, are emerging chronic infections in cystic fibrosis that can complicate transplant."
+  - target: 02-pathogen/02-bacteria/clostridioides-difficile
+    relation: connects-to
+    note: "Lifelong antibiotics disturb the gut: the heavy, repeated antibiotic courses for CF lung infections raise the risk of Clostridioides difficile colitis."
+  - target: 03-medicine/03-food/zinc-dietary
+    relation: connects-to
+    note: "Fat malabsorption drains nutrients: pancreatic insufficiency in CF impairs absorption of fat-soluble vitamins and zinc, contributing to poor growth and weakened immunity."
 ---
 
 # Cystic Fibrosis
@@ -419,6 +428,9 @@ AND
 - `connects-to` → **[Nervous System](../nervous-system/README.md)** — Fat malabsorption starves the nerves: deficiency of fat-soluble vitamin E can cause peripheral neuropathy and ataxia, and the aminoglycosides used for infections add ototoxicity.
 - `connects-to` → **[Cardiovascular System](../cardiovascular-system/README.md)** — Chronic lung disease overloads the right heart: progressive CF lung disease raises pulmonary pressures, leading to pulmonary hypertension and cor pulmonale with right heart failure.
 - `connects-to` → **[Renal System](../renal-system/README.md)** — Salt loss and antibiotics tax the kidney: heavy sweat salt loss can cause a pseudo-Bartter syndrome with hypochloraemic alkalosis, and repeated aminoglycoside courses are nephrotoxic.
+- `connects-to` → **[Mycobacterium tuberculosis](../../../02-pathogen/02-bacteria/mycobacterium-tuberculosis/README.md)** — Mycobacteria threaten the CF lung: non-tuberculous mycobacteria related to M. tuberculosis, such as M. abscessus, are emerging chronic infections in cystic fibrosis that can complicate transplant.
+- `connects-to` → **[Clostridioides difficile](../../../02-pathogen/02-bacteria/clostridioides-difficile/README.md)** — Lifelong antibiotics disturb the gut: the heavy, repeated antibiotic courses for CF lung infections raise the risk of Clostridioides difficile colitis.
+- `connects-to` → **[Dietary Zinc](../../../03-medicine/03-food/zinc-dietary/README.md)** — Fat malabsorption drains nutrients: pancreatic insufficiency in CF impairs absorption of fat-soluble vitamins and zinc, contributing to poor growth and weakened immunity.
 
 ---
 
