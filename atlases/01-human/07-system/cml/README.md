@@ -205,6 +205,15 @@ cross_links:
   - target: 02-pathogen/03-fungi/aspergillus-fumigatus
     relation: connects-to
     note: "Blast crisis and its chemo open the lung to mold: progression of CML to blast crisis requires intensive chemotherapy that causes deep neutropenia, allowing inhaled Aspergillus to invade."
+  - target: 01-human/07-system/digestive-system
+    relation: connects-to
+    note: "Its TKIs and big spleen upset the gut: tyrosine-kinase inhibitors cause nausea, diarrhoea and hepatotoxicity, and the massive splenomegaly of CML presses on the stomach causing early satiety."
+  - target: 01-human/07-system/integumentary-system
+    relation: connects-to
+    note: "Its targeted drugs mark the skin: imatinib and other TKIs commonly cause rashes and periorbital oedema, and they can characteristically lighten skin pigmentation through KIT inhibition."
+  - target: 01-human/07-system/generalized-anxiety-disorder
+    relation: connects-to
+    note: "Lifelong therapy and PCR monitoring breed worry: the indefinite tyrosine-kinase-inhibitor treatment and the scrutiny of molecular-response blood tests in CML foster chronic health anxiety alongside depression."
 ---
 
 # Chronic Myeloid Leukemia
@@ -380,6 +389,9 @@ Following the imatinib revolution, the current frontier is achieving **deep mole
 - `connects-to` → **[Atherosclerosis](../atherosclerosis/README.md)** — Some of its TKIs harden the arteries: nilotinib and ponatinib used for CML accelerate atherosclerosis and cause arterial occlusive events, a major vascular toxicity of these later-line drugs.
 - `connects-to` → **[Anemia of Chronic Disease](../anemia-of-chronic-disease/README.md)** — Marrow crowding and TKIs lower the count: the expanded myeloid clone and the myelosuppression of tyrosine-kinase inhibitor therapy can produce an anemia with a chronic-disease component.
 - `connects-to` → **[Aspergillus fumigatus](../../../02-pathogen/03-fungi/aspergillus-fumigatus/README.md)** — Blast crisis and its chemo open the lung to mold: progression of CML to blast crisis requires intensive chemotherapy that causes deep neutropenia, allowing inhaled Aspergillus to invade.
+- `connects-to` → **[Digestive System](../digestive-system/README.md)** — Its TKIs and big spleen upset the gut: tyrosine-kinase inhibitors cause nausea, diarrhoea and hepatotoxicity, and the massive splenomegaly of CML presses on the stomach causing early satiety.
+- `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — Its targeted drugs mark the skin: imatinib and other TKIs commonly cause rashes and periorbital oedema, and they can characteristically lighten skin pigmentation through KIT inhibition.
+- `connects-to` → **[Generalized Anxiety Disorder](../generalized-anxiety-disorder/README.md)** — Lifelong therapy and PCR monitoring breed worry: the indefinite tyrosine-kinase-inhibitor treatment and the scrutiny of molecular-response blood tests in CML foster chronic health anxiety alongside depression.
 
 ---
 

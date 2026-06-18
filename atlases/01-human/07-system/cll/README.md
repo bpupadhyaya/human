@@ -205,6 +205,15 @@ cross_links:
   - target: 01-human/07-system/major-depressive-disorder
     relation: connects-to
     note: "A chronic, watch-and-wait cancer weighs on mood: the indolent but incurable course, repeated relapses and lifelong monitoring of CLL carry a substantial burden of depression and anxiety."
+  - target: 01-human/07-system/cardiovascular-system
+    relation: connects-to
+    note: "Its BTK inhibitors stress the heart: ibrutinib used for CLL causes atrial fibrillation, hypertension, ventricular arrhythmia and bleeding, the main cardiovascular toxicities limiting its long-term use."
+  - target: 01-human/07-system/integumentary-system
+    relation: connects-to
+    note: "Immune dysregulation shows on the skin: CLL brings leukaemia cutis, exaggerated insect-bite reactions and a markedly raised risk of skin cancers from its underlying immune defect."
+  - target: 01-human/07-system/generalized-anxiety-disorder
+    relation: connects-to
+    note: "Watchful waiting breeds worry: living with an untreated but incurable leukaemia under active surveillance, plus the infection risk of its immune defect, fosters chronic health anxiety alongside depression."
 ---
 
 # CLL
@@ -380,6 +389,9 @@ BCR cross-linking → LYN (SRC kinase) phosphorylates CD79a/b ITAMs → SYK recr
 - `connects-to` → **[Heart Failure](../heart-failure/README.md)** — Its BTK-inhibitor therapy strains the heart: ibrutinib, a mainstay for CLL, causes atrial fibrillation, hypertension and cardiotoxicity that can precipitate heart failure.
 - `connects-to` → **[Varicella-Zoster Virus](../../../02-pathogen/01-viruses/varicella-zoster-virus/README.md)** — Its immune defect reawakens shingles: the profound immunodeficiency of CLL and its therapies readily reactivate latent varicella-zoster as herpes zoster, prompting prophylaxis.
 - `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — A chronic, watch-and-wait cancer weighs on mood: the indolent but incurable course, repeated relapses and lifelong monitoring of CLL carry a substantial burden of depression and anxiety.
+- `connects-to` → **[Cardiovascular System](../cardiovascular-system/README.md)** — Its BTK inhibitors stress the heart: ibrutinib used for CLL causes atrial fibrillation, hypertension, ventricular arrhythmia and bleeding, the main cardiovascular toxicities limiting its long-term use.
+- `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — Immune dysregulation shows on the skin: CLL brings leukaemia cutis, exaggerated insect-bite reactions and a markedly raised risk of skin cancers from its underlying immune defect.
+- `connects-to` → **[Generalized Anxiety Disorder](../generalized-anxiety-disorder/README.md)** — Watchful waiting breeds worry: living with an untreated but incurable leukaemia under active surveillance, plus the infection risk of its immune defect, fosters chronic health anxiety alongside depression.
 
 ---
 
