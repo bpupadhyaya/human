@@ -223,6 +223,15 @@ cross_links:
   - target: 01-human/07-system/cardiovascular-system
     relation: connects-to
     note: "Its cure can scar the heart: the doxorubicin in Ewing sarcoma chemotherapy carries a dose-dependent, long-term cardiotoxicity risk in the young survivors who receive it."
+  - target: 01-human/07-system/endocrine-system
+    relation: connects-to
+    note: "Treatment leaves lasting hormone effects: chemotherapy and radiation in childhood Ewing sarcoma impair growth, fertility and thyroid function in survivors."
+  - target: 01-human/07-system/digestive-system
+    relation: connects-to
+    note: "Therapy hits the gut: the intensive multi-agent chemotherapy used against Ewing sarcoma causes severe nausea, mucositis and the risk of neutropenic colitis."
+  - target: 01-human/07-system/integumentary-system
+    relation: connects-to
+    note: "It and its treatment mark the skin: chemotherapy causes alopecia and mucositis, radiotherapy produces dermatitis over the treated bone, and rare cutaneous Ewing tumours occur."
 ---
 
 # Ewing Sarcoma
@@ -414,6 +423,9 @@ After induction → surgical specimen assessed for percent tumor necrosis (Salze
 - `connects-to` → **[Respiratory System](../respiratory-system/README.md)** — The lungs are its commonest target: Ewing sarcoma metastasises preferentially to the lungs, so chest imaging stages disease and pulmonary metastases are treated with whole-lung radiation.
 - `connects-to` → **[Renal System](../renal-system/README.md)** — Its chemotherapy injures the kidney and bladder: ifosfamide causes a Fanconi-like renal tubulopathy, and cyclophosphamide and ifosfamide cause haemorrhagic cystitis.
 - `connects-to` → **[Cardiovascular System](../cardiovascular-system/README.md)** — Its cure can scar the heart: the doxorubicin in Ewing sarcoma chemotherapy carries a dose-dependent, long-term cardiotoxicity risk in the young survivors who receive it.
+- `connects-to` → **[Endocrine System](../endocrine-system/README.md)** — Treatment leaves lasting hormone effects: chemotherapy and radiation in childhood Ewing sarcoma impair growth, fertility and thyroid function in survivors.
+- `connects-to` → **[Digestive System](../digestive-system/README.md)** — Therapy hits the gut: the intensive multi-agent chemotherapy used against Ewing sarcoma causes severe nausea, mucositis and the risk of neutropenic colitis.
+- `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — It and its treatment mark the skin: chemotherapy causes alopecia and mucositis, radiotherapy produces dermatitis over the treated bone, and rare cutaneous Ewing tumours occur.
 
 ---
 

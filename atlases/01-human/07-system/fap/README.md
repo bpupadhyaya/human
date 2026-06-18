@@ -223,6 +223,15 @@ cross_links:
   - target: 01-human/07-system/cardiovascular-system
     relation: connects-to
     note: "Its desmoids encase the great vessels: bulky mesenteric desmoid tumours in FAP can compress and encase major abdominal vessels, complicating surgery and risking ischaemia."
+  - target: 03-medicine/01-modern/12-anti-inflammatory/ibuprofen
+    relation: connects-to
+    note: "NSAIDs slow the polyps: sulindac and celecoxib, in the same anti-inflammatory family as ibuprofen, reduce colorectal adenoma burden in FAP as an adjunct to surveillance and surgery."
+  - target: 01-human/07-system/lymphatic-system
+    relation: connects-to
+    note: "Its desmoids choke lymph flow: the mesenteric desmoid tumours that commonly arise in FAP can obstruct lymphatic drainage and cause chylous ascites."
+  - target: 03-medicine/03-food/dietary-fiber
+    relation: connects-to
+    note: "Diet modifies colorectal risk: a high-fibre diet supports gut health and colorectal-cancer prevention generally, a backdrop to the surveillance and surgery that FAP's near-certain cancer risk demands."
 ---
 
 # Familial Adenomatous Polyposis
@@ -431,6 +440,9 @@ With modern surveillance and prophylactic colectomy: FAP is no longer an inevita
 - `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — It passes to half the children: FAP is autosomal dominant with a 50% transmission risk, driving cascade genetic testing and reproductive choices, and pregnancy can trigger desmoid growth.
 - `connects-to` → **[Renal System](../renal-system/README.md)** — Its desmoids can block the ureters: large intra-abdominal desmoid tumours in FAP can compress the ureters, causing hydronephrosis and obstructive renal impairment.
 - `connects-to` → **[Cardiovascular System](../cardiovascular-system/README.md)** — Its desmoids encase the great vessels: bulky mesenteric desmoid tumours in FAP can compress and encase major abdominal vessels, complicating surgery and risking ischaemia.
+- `connects-to` → **[Ibuprofen](../../../03-medicine/01-modern/12-anti-inflammatory/ibuprofen/README.md)** — NSAIDs slow the polyps: sulindac and celecoxib, in the same anti-inflammatory family as ibuprofen, reduce colorectal adenoma burden in FAP as an adjunct to surveillance and surgery.
+- `connects-to` → **[Lymphatic System](../lymphatic-system/README.md)** — Its desmoids choke lymph flow: the mesenteric desmoid tumours that commonly arise in FAP can obstruct lymphatic drainage and cause chylous ascites.
+- `connects-to` → **[Dietary Fiber](../../../03-medicine/03-food/dietary-fiber/README.md)** — Diet modifies colorectal risk: a high-fibre diet supports gut health and colorectal-cancer prevention generally, a backdrop to the surveillance and surgery that FAP's near-certain cancer risk demands.
 
 [^kinzler-1991-apc]: Kinzler KW, Nilbert MC, Su LK, et al. Identification of FAP locus genes from chromosome 5q21. *Science.* 1991;253(5020):661-665. [doi:10.1126/science.1651562](https://doi.org/10.1126/science.1651562) · [PubMed 1651562](https://pubmed.ncbi.nlm.nih.gov/1651562/)
 [^fearon-1990-vogelstein]: Fearon ER, Vogelstein B. A genetic model for colorectal tumorigenesis. *Cell.* 1990;61(5):759-767. [doi:10.1016/0092-8674(90)90186-i](https://doi.org/10.1016/0092-8674(90)90186-i) · [PubMed 2188735](https://pubmed.ncbi.nlm.nih.gov/2188735/)
