@@ -232,6 +232,15 @@ cross_links:
   - target: 01-human/07-system/endocrine-system
     relation: connects-to
     note: "Its autoimmunity can strike glands: the immune dysregulation that causes autoimmune haemolysis in CLL can extend to autoimmune thyroid disease, and steroids used for cytopenias bring endocrine effects."
+  - target: 03-medicine/01-modern/13-cancer/targeted-therapy
+    relation: connects-to
+    note: "A chemo-free targeted era: BTK inhibitors (ibrutinib, acalabrutinib) and the BCL-2 inhibitor venetoclax have replaced chemotherapy as first-line treatment for chronic lymphocytic leukaemia."
+  - target: 01-human/07-system/waldenstrom-macroglobulinemia
+    relation: connects-to
+    note: "A fellow indolent B-cell cancer: like Waldenström macroglobulinaemia, CLL is a slow-growing mature B-cell malignancy driven by B-cell-receptor signalling and treated with BTK inhibitors."
+  - target: 02-pathogen/01-viruses/epstein-barr-virus
+    relation: connects-to
+    note: "A driver of dangerous transformation: EBV is implicated in the Richter transformation of CLL into aggressive diffuse large B-cell lymphoma, and reactivates under its immune suppression."
 ---
 
 # CLL
@@ -416,6 +425,9 @@ BCR cross-linking → LYN (SRC kinase) phosphorylates CD79a/b ITAMs → SYK recr
 - `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — Marrow crowding and drugs reach bone and muscle: CLL infiltrates the bone marrow to cause cytopenias, and BTK inhibitors like ibrutinib commonly cause arthralgia and muscle cramps.
 - `connects-to` → **[Nervous System](../nervous-system/README.md)** — It occasionally invades the nervous system: leptomeningeal CLL and Richter transformation can affect the CNS, and autoimmune and infectious neuropathies complicate its immune dysregulation.
 - `connects-to` → **[Endocrine System](../endocrine-system/README.md)** — Its autoimmunity can strike glands: the immune dysregulation that causes autoimmune haemolysis in CLL can extend to autoimmune thyroid disease, and steroids used for cytopenias bring endocrine effects.
+- `connects-to` → **[Targeted Therapy](../../../03-medicine/01-modern/13-cancer/targeted-therapy/README.md)** — A chemo-free targeted era: BTK inhibitors (ibrutinib, acalabrutinib) and the BCL-2 inhibitor venetoclax have replaced chemotherapy as first-line treatment for chronic lymphocytic leukaemia.
+- `connects-to` → **[Waldenström Macroglobulinemia](../waldenstrom-macroglobulinemia/README.md)** — A fellow indolent B-cell cancer: like Waldenström macroglobulinaemia, CLL is a slow-growing mature B-cell malignancy driven by B-cell-receptor signalling and treated with BTK inhibitors.
+- `connects-to` → **[Epstein-Barr Virus](../../../02-pathogen/01-viruses/epstein-barr-virus/README.md)** — A driver of dangerous transformation: EBV is implicated in the Richter transformation of CLL into aggressive diffuse large B-cell lymphoma, and reactivates under its immune suppression.
 
 ---
 

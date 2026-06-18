@@ -240,6 +240,15 @@ cross_links:
   - target: 01-human/07-system/reproductive-system
     relation: connects-to
     note: "Pregnancy can flare it: CIDP often worsens during pregnancy and the puerperium, and the immunosuppressants used to control it complicate reproductive planning."
+  - target: 03-medicine/01-modern/13-cancer/cancer-chemotherapy
+    relation: connects-to
+    note: "Chemo both mimics and treats it: drugs like vincristine and bortezomib cause a peripheral neuropathy that enters CIDP's differential, while cyclophosphamide is used for refractory CIDP."
+  - target: 02-pathogen/01-viruses/hiv-1
+    relation: connects-to
+    note: "A virus that triggers the same attack: HIV can cause an inflammatory demyelinating polyneuropathy resembling CIDP, especially around seroconversion, one of its many neurological complications."
+  - target: 01-human/07-system/anca-vasculitis
+    relation: connects-to
+    note: "A vasculitic mimic to exclude: ANCA-associated and other vasculitides damage peripheral nerves as mononeuritis multiplex, a key differential of CIDP that demands different treatment."
 ---
 
 # CIDP
@@ -456,6 +465,9 @@ IgG4 anti-NF155 or anti-CNTN1 disrupts this complex → paranodal loop detachmen
 - `connects-to` → **[Corticosteroids](../../../03-medicine/01-modern/02-respiratory/corticosteroids/README.md)** — A first-line immunotherapy: unlike Guillain-Barré, CIDP responds to corticosteroids, used with IVIG and plasma exchange to suppress the autoimmune attack on myelin.
 - `connects-to` → **[Lymphatic System](../lymphatic-system/README.md)** — It travels with paraproteins: CIDP-like neuropathies arise with MGUS and lymphoplasmacytic disorders, and its treatment leans on immunoglobulin pooled from the lymphoid system.
 - `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — Pregnancy can flare it: CIDP often worsens during pregnancy and the puerperium, and the immunosuppressants used to control it complicate reproductive planning.
+- `connects-to` → **[Cancer Chemotherapy](../../../03-medicine/01-modern/13-cancer/cancer-chemotherapy/README.md)** — Chemo both mimics and treats it: drugs like vincristine and bortezomib cause a peripheral neuropathy that enters CIDP's differential, while cyclophosphamide is used for refractory CIDP.
+- `connects-to` → **[HIV-1](../../../02-pathogen/01-viruses/hiv-1/README.md)** — A virus that triggers the same attack: HIV can cause an inflammatory demyelinating polyneuropathy resembling CIDP, especially around seroconversion, one of its many neurological complications.
+- `connects-to` → **[ANCA Vasculitis](../anca-vasculitis/README.md)** — A vasculitic mimic to exclude: ANCA-associated and other vasculitides damage peripheral nerves as mononeuritis multiplex, a key differential of CIDP that demands different treatment.
 
 ---
 
