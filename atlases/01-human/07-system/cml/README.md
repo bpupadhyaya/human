@@ -223,6 +223,15 @@ cross_links:
   - target: 01-human/07-system/endocrine-system
     relation: connects-to
     note: "Its inhibitors disturb metabolism: nilotinib can raise blood glucose and cause hyperglycaemia, and tyrosine-kinase inhibitors affect thyroid function and growth in children."
+  - target: 01-human/07-system/cardiovascular-system
+    relation: connects-to
+    note: "Its newer drugs clog arteries: TKIs like nilotinib and ponatinib raise the risk of arterial occlusive events — peripheral arterial disease, heart attack and stroke — needing cardiovascular monitoring."
+  - target: 01-human/07-system/musculoskeletal-system
+    relation: connects-to
+    note: "Treatment aches in muscle and bone: imatinib commonly causes muscle cramps and bone-aching, and the expanding marrow of untreated CML brings bone pain."
+  - target: 01-human/07-system/renal-system
+    relation: connects-to
+    note: "Rapid cell turnover and drugs reach the kidney: tumour lysis at the start of therapy and the nephrotoxicity of some TKIs can impair kidney function."
 ---
 
 # Chronic Myeloid Leukemia
@@ -404,6 +413,9 @@ Following the imatinib revolution, the current frontier is achieving **deep mole
 - `connects-to` → **[Lymphatic System](../lymphatic-system/README.md)** — It massively swells the spleen: overproduction of myeloid cells enlarges the spleen, often dramatically, causing early satiety and left-upper-quadrant pain with risk of splenic infarction.
 - `connects-to` → **[Respiratory System](../respiratory-system/README.md)** — One of its drugs floods the chest: the tyrosine-kinase inhibitor dasatinib characteristically causes pleural effusions, sometimes large and recurrent, requiring dose change or drainage.
 - `connects-to` → **[Endocrine System](../endocrine-system/README.md)** — Its inhibitors disturb metabolism: nilotinib can raise blood glucose and cause hyperglycaemia, and tyrosine-kinase inhibitors affect thyroid function and growth in children.
+- `connects-to` → **[Cardiovascular System](../cardiovascular-system/README.md)** — Its newer drugs clog arteries: TKIs like nilotinib and ponatinib raise the risk of arterial occlusive events — peripheral arterial disease, heart attack and stroke — needing cardiovascular monitoring.
+- `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — Treatment aches in muscle and bone: imatinib commonly causes muscle cramps and bone-aching, and the expanding marrow of untreated CML brings bone pain.
+- `connects-to` → **[Renal System](../renal-system/README.md)** — Rapid cell turnover and drugs reach the kidney: tumour lysis at the start of therapy and the nephrotoxicity of some TKIs can impair kidney function.
 
 ---
 

@@ -223,6 +223,15 @@ cross_links:
   - target: 01-human/07-system/digestive-system
     relation: connects-to
     note: "It enlarges the liver and weighs on the gut: hepatomegaly and bulky abdominal nodes cause early satiety and discomfort, and CLL can drive autoimmune liver involvement."
+  - target: 01-human/07-system/musculoskeletal-system
+    relation: connects-to
+    note: "Marrow crowding and drugs reach bone and muscle: CLL infiltrates the bone marrow to cause cytopenias, and BTK inhibitors like ibrutinib commonly cause arthralgia and muscle cramps."
+  - target: 01-human/07-system/nervous-system
+    relation: connects-to
+    note: "It occasionally invades the nervous system: leptomeningeal CLL and Richter transformation can affect the CNS, and autoimmune and infectious neuropathies complicate its immune dysregulation."
+  - target: 01-human/07-system/endocrine-system
+    relation: connects-to
+    note: "Its autoimmunity can strike glands: the immune dysregulation that causes autoimmune haemolysis in CLL can extend to autoimmune thyroid disease, and steroids used for cytopenias bring endocrine effects."
 ---
 
 # CLL
@@ -404,6 +413,9 @@ BCR cross-linking → LYN (SRC kinase) phosphorylates CD79a/b ITAMs → SYK recr
 - `connects-to` → **[Respiratory System](../respiratory-system/README.md)** — Failing antibodies leave the lungs exposed: the hypogammaglobulinaemia of CLL drives recurrent bacterial respiratory infections, a leading cause of morbidity, and the lung can be infiltrated.
 - `connects-to` → **[Renal System](../renal-system/README.md)** — Its therapy can flood the kidney: venetoclax can trigger tumour lysis syndrome with acute kidney injury at initiation, and autoimmune or infiltrative processes occasionally affect the kidneys.
 - `connects-to` → **[Digestive System](../digestive-system/README.md)** — It enlarges the liver and weighs on the gut: hepatomegaly and bulky abdominal nodes cause early satiety and discomfort, and CLL can drive autoimmune liver involvement.
+- `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — Marrow crowding and drugs reach bone and muscle: CLL infiltrates the bone marrow to cause cytopenias, and BTK inhibitors like ibrutinib commonly cause arthralgia and muscle cramps.
+- `connects-to` → **[Nervous System](../nervous-system/README.md)** — It occasionally invades the nervous system: leptomeningeal CLL and Richter transformation can affect the CNS, and autoimmune and infectious neuropathies complicate its immune dysregulation.
+- `connects-to` → **[Endocrine System](../endocrine-system/README.md)** — Its autoimmunity can strike glands: the immune dysregulation that causes autoimmune haemolysis in CLL can extend to autoimmune thyroid disease, and steroids used for cytopenias bring endocrine effects.
 
 ---
 
