@@ -205,6 +205,15 @@ cross_links:
   - target: 01-human/07-system/generalized-anxiety-disorder
     relation: connects-to
     note: "Aggressive cancer and NF1 surveillance breed worry: the poor prognosis of MPNST and, in NF1 patients, the constant vigilance for malignant change in plexiform neurofibromas foster chronic health anxiety."
+  - target: 01-human/07-system/respiratory-system
+    relation: connects-to
+    note: "It spreads to the lungs: like other soft-tissue sarcomas, MPNST metastasises preferentially to the lungs, so pulmonary metastases dominate its surveillance and drive much of its mortality."
+  - target: 01-human/07-system/integumentary-system
+    relation: connects-to
+    note: "It erupts from a skin-associated nerve tumour: MPNST often arises within the plexiform neurofibromas of NF1, presenting as an enlarging, painful subcutaneous mass that signals malignant change."
+  - target: 02-pathogen/01-viruses/varicella-zoster-virus
+    relation: connects-to
+    note: "Its chemotherapy reawakens shingles: the doxorubicin-ifosfamide regimens for MPNST cause deep immunosuppression that allows latent varicella-zoster to reactivate."
 ---
 
 # MPNST
@@ -399,6 +408,9 @@ Wide local excision with negative margins is the only potentially curative inter
 - `connects-to` → **[Chronic Kidney Disease](../ckd/README.md)** — Ifosfamide scars the kidney: the alkylator used in MPNST chemotherapy is tubulotoxic, causing a Fanconi-type tubulopathy and lasting chronic kidney impairment.
 - `connects-to` → **[Wound Healing](../wound-healing/README.md)** — Radical resection and radiation heal badly: the wide excision of an MPNST, often with adjuvant radiation, leaves large soft-tissue wounds prone to dehiscence and slow healing.
 - `connects-to` → **[Generalized Anxiety Disorder](../generalized-anxiety-disorder/README.md)** — Aggressive cancer and NF1 surveillance breed worry: the poor prognosis of MPNST and, in NF1 patients, the constant vigilance for malignant change in plexiform neurofibromas foster chronic health anxiety.
+- `connects-to` → **[Respiratory System](../respiratory-system/README.md)** — It spreads to the lungs: like other soft-tissue sarcomas, MPNST metastasises preferentially to the lungs, so pulmonary metastases dominate its surveillance and drive much of its mortality.
+- `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — It erupts from a skin-associated nerve tumour: MPNST often arises within the plexiform neurofibromas of NF1, presenting as an enlarging, painful subcutaneous mass that signals malignant change.
+- `connects-to` → **[Varicella-Zoster Virus](../../../02-pathogen/01-viruses/varicella-zoster-virus/README.md)** — Its chemotherapy reawakens shingles: the doxorubicin-ifosfamide regimens for MPNST cause deep immunosuppression that allows latent varicella-zoster to reactivate.
 
 [^evans-2002-mpnst-nf1]: Evans DGR, Baser ME, McGaughran J, et al. Malignant peripheral nerve sheath tumours in neurofibromatosis 1. *J Med Genet.* 2002;39(5):311-314. [doi:10.1136/jmg.39.5.311](https://doi.org/10.1136/jmg.39.5.311) · [PubMed 12011145](https://pubmed.ncbi.nlm.nih.gov/12011145/)
 [^lee-2014-mpnst-prc2]: Lee W, Teckie S, Wiesner T, et al. PRC2 is recurrently inactivated through EED or SUZ12 loss in malignant peripheral nerve sheath tumors. *Nat Genet.* 2014;46(11):1227-1232. [doi:10.1038/ng.3095](https://doi.org/10.1038/ng.3095) · [PubMed 25240281](https://pubmed.ncbi.nlm.nih.gov/25240281/)

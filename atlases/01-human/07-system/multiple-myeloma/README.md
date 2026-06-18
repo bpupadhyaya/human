@@ -211,6 +211,15 @@ cross_links:
   - target: 01-human/07-system/generalized-anxiety-disorder
     relation: connects-to
     note: "An incurable relapsing cancer breeds worry: the lifelong cycle of remission and relapse, fracture risk and continuous therapy in multiple myeloma fosters chronic health anxiety alongside depression."
+  - target: 01-human/07-system/musculoskeletal-system
+    relation: connects-to
+    note: "It dissolves the skeleton: multiple myeloma drives osteoclasts to carve lytic bone lesions, causing pathological fractures, vertebral collapse and bone pain — the 'B' of its defining CRAB features."
+  - target: 01-human/07-system/nervous-system
+    relation: connects-to
+    note: "It compresses and poisons the nerves: vertebral collapse causes spinal cord compression, and AL amyloid and bortezomib produce peripheral neuropathy, while hyperviscosity and hypercalcaemia cloud the brain."
+  - target: 01-human/07-system/endocrine-system
+    relation: connects-to
+    note: "Bone breakdown floods the blood with calcium: the osteolysis of multiple myeloma releases calcium, causing the hypercalcaemia — the 'C' of CRAB — that disturbs the calcium-PTH endocrine axis."
 ---
 
 # Multiple Myeloma
@@ -404,6 +413,9 @@ MM evolves from precursor conditions through a well-defined continuum:
 - `connects-to` → **[Varicella-Zoster Virus](../../../02-pathogen/01-viruses/varicella-zoster-virus/README.md)** — Its therapy reawakens shingles: bortezomib and daratumumab used for multiple myeloma characteristically reactivate latent varicella-zoster, so antiviral prophylaxis is standard during treatment.
 - `connects-to` → **[Aspergillus fumigatus](../../../02-pathogen/03-fungi/aspergillus-fumigatus/README.md)** — Profound immune suppression opens the lung to mold: the immune paresis of myeloma plus high-dose steroids, transplant and novel agents can permit invasive aspergillosis.
 - `connects-to` → **[Generalized Anxiety Disorder](../generalized-anxiety-disorder/README.md)** — An incurable relapsing cancer breeds worry: the lifelong cycle of remission and relapse, fracture risk and continuous therapy in multiple myeloma fosters chronic health anxiety alongside depression.
+- `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — It dissolves the skeleton: multiple myeloma drives osteoclasts to carve lytic bone lesions, causing pathological fractures, vertebral collapse and bone pain — the 'B' of its defining CRAB features.
+- `connects-to` → **[Nervous System](../nervous-system/README.md)** — It compresses and poisons the nerves: vertebral collapse causes spinal cord compression, and AL amyloid and bortezomib produce peripheral neuropathy, while hyperviscosity and hypercalcaemia cloud the brain.
+- `connects-to` → **[Endocrine System](../endocrine-system/README.md)** — Bone breakdown floods the blood with calcium: the osteolysis of multiple myeloma releases calcium, causing the hypercalcaemia — the 'C' of CRAB — that disturbs the calcium-PTH endocrine axis.
 
 [^kumar-2022-imwg-criteria]: Kumar SK, Callander NS, Adekola K, et al. Multiple myeloma, version 3.2021, NCCN clinical practice guidelines in oncology. *J Natl Compr Canc Netw.* 2020;18(12):1685-1717. [doi:10.6004/jnccn.2020.0057](https://doi.org/10.6004/jnccn.2020.0057) · [PubMed 33285519](https://pubmed.ncbi.nlm.nih.gov/33285519/)
 [^moreau-2022-teclistamab]: Moreau P, Garfall AL, van de Donk NWCJ, et al. Teclistamab in relapsed or refractory multiple myeloma. *N Engl J Med.* 2022;387(6):495-505. [doi:10.1056/NEJMoa2203478](https://doi.org/10.1056/NEJMoa2203478) · [PubMed 35661166](https://pubmed.ncbi.nlm.nih.gov/35661166/)
