@@ -241,6 +241,15 @@ cross_links:
   - target: 01-human/07-system/li-fraumeni-syndrome
     relation: connects-to
     note: "The two great hereditary cancer syndromes: Lynch syndrome (mismatch-repair loss) and Li-Fraumeni (germline TP53) are the archetypal autosomal-dominant multi-cancer predispositions with distinct mechanisms and spectra."
+  - target: 01-human/07-system/mutyh-associated-polyposis
+    relation: connects-to
+    note: "Two DNA-repair colorectal syndromes: Lynch arises from dominant mismatch-repair loss causing microsatellite instability, while MUTYH-associated polyposis comes from recessive base-excision-repair loss causing G:C→T:A mutations—different defects, overlapping colorectal risk."
+  - target: 01-human/07-system/ovarian-clear-cell-carcinoma
+    relation: connects-to
+    note: "Its ovarian cancers favour a histology: Lynch-associated ovarian tumours are predominantly endometrioid and clear-cell rather than the high-grade serous cancers of BRCA carriers, so clear-cell ovarian cancer in a young woman can flag mismatch-repair deficiency."
+  - target: 01-human/05-tissue/germinal-center
+    relation: connects-to
+    note: "Why its tumours invite immunotherapy: mismatch-repair-deficient Lynch cancers accumulate frameshift neoantigens and draw dense lymphocytic infiltrates with germinal-centre-like tertiary lymphoid structures—the immune richness behind their response to checkpoint blockade."
 ---
 
 # Lynch Syndrome
@@ -455,6 +464,9 @@ MSI-H stage II CRC: adjuvant 5-FU/leucovorin does NOT improve OS (may be harmful
 - `connects-to` → **[Checkpoint Inhibitors](../../../03-medicine/01-modern/13-cancer/checkpoint-inhibitors/README.md)** — Mismatch-repair loss makes it immunotherapy-sensitive: Lynch tumours are microsatellite-unstable with a high mutational burden, responding dramatically to PD-1 inhibitors like pembrolizumab, which has tissue-agnostic approval for MSI-high cancer.
 - `connects-to` → **[Cancer Chemotherapy](../../../03-medicine/01-modern/13-cancer/cancer-chemotherapy/README.md)** — Chemo with a twist: Lynch-associated colorectal cancers are treated with chemotherapy, though MSI-high tumours respond poorly to fluorouracil alone, favouring immunotherapy.
 - `connects-to` → **[Li-Fraumeni Syndrome](../li-fraumeni-syndrome/README.md)** — The two great hereditary cancer syndromes: Lynch syndrome (mismatch-repair loss) and Li-Fraumeni (germline TP53) are the archetypal autosomal-dominant multi-cancer predispositions with distinct mechanisms and spectra.
+- `connects-to` → **[MUTYH-Associated Polyposis](../mutyh-associated-polyposis/README.md)** — Two DNA-repair colorectal syndromes: Lynch arises from dominant mismatch-repair loss causing microsatellite instability, while MUTYH-associated polyposis comes from recessive base-excision-repair loss causing G:C→T:A mutations—different defects, overlapping colorectal risk.
+- `connects-to` → **[Ovarian Clear Cell Carcinoma](../ovarian-clear-cell-carcinoma/README.md)** — Its ovarian cancers favour a histology: Lynch-associated ovarian tumours are predominantly endometrioid and clear-cell rather than the high-grade serous cancers of BRCA carriers, so clear-cell ovarian cancer in a young woman can flag mismatch-repair deficiency.
+- `connects-to` → **[Germinal Center](../../05-tissue/germinal-center/README.md)** — Why its tumours invite immunotherapy: mismatch-repair-deficient Lynch cancers accumulate frameshift neoantigens and draw dense lymphocytic infiltrates with germinal-centre-like tertiary lymphoid structures—the immune richness behind their response to checkpoint blockade.
 
 [^bonadona-2011-lynch-risks]: Bonadona V, Bonaïti B, Olschwang S, et al. Cancer risks associated with germline mutations in MLH1, MSH2, and MSH6 genes in Lynch syndrome. *JAMA.* 2011;305(22):2304-2310. [doi:10.1001/jama.2011.743](https://doi.org/10.1001/jama.2011.743) · [PubMed 21642683](https://pubmed.ncbi.nlm.nih.gov/21642683/)
 [^lynch-2015-lynch-review]: Lynch HT, Snyder CL, Shaw TG, et al. Milestones of Lynch syndrome: 1895-2015. *Nat Rev Cancer.* 2015;15(3):181-194. [doi:10.1038/nrc3878](https://doi.org/10.1038/nrc3878) · [PubMed 25673086](https://pubmed.ncbi.nlm.nih.gov/25673086/)

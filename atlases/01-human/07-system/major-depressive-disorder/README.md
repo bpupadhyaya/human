@@ -250,6 +250,15 @@ cross_links:
   - target: 02-pathogen/04-parasites/toxoplasma-gondii
     relation: connects-to
     note: "A latent parasite linked to mood: chronic Toxoplasma gondii infection is epidemiologically associated with major depression and suicidal behaviour, possibly through neuroinflammation and altered dopamine."
+  - target: 01-human/07-system/parkinsons-disease
+    relation: connects-to
+    note: "Depression shadows the dopamine loss: major depression is a common prodrome and comorbidity of Parkinson's disease, sharing degeneration of monoaminergic dopamine, serotonin and noradrenaline systems, so mood symptoms can precede the tremor by years."
+  - target: 01-human/07-system/epilepsy
+    relation: connects-to
+    note: "A two-way street with seizures: depression and epilepsy are bidirectionally linked—each roughly doubles the risk of the other—through shared GABA/glutamate imbalance, HPA-axis overactivity and neuroinflammation, and some antidepressant and antiseizure drugs cross over."
+  - target: 01-human/07-system/migraine
+    relation: connects-to
+    note: "Pain and mood travel together: major depression and migraine are strongly comorbid and bidirectional, sharing serotonergic dysfunction and central sensitisation, so each worsens the other's course and some drugs like amitriptyline and SNRIs treat both."
 ---
 
 # Major Depressive Disorder
@@ -484,6 +493,9 @@ Approximately 30–40% of MDD patients have elevated inflammatory markers:
 - `connects-to` → **[St John's Wort](../../../03-medicine/02-traditional/st-johns-wort/README.md)** — A herbal antidepressant: St John's wort is effective for mild-to-moderate depression in trials, acting on monoamines, but it dangerously induces drug-metabolising enzymes and risks serotonin syndrome with SSRIs.
 - `connects-to` → **[Omega-3 Fatty Acids](../../../03-medicine/03-food/omega-3-fatty-acids/README.md)** — Diet offers a modest adjunct: omega-3 (EPA-rich) supplementation has small antidepressant effects in trials, used alongside but not instead of established therapy for major depression.
 - `connects-to` → **[Toxoplasma gondii](../../../02-pathogen/04-parasites/toxoplasma-gondii/README.md)** — A latent parasite linked to mood: chronic Toxoplasma gondii infection is epidemiologically associated with major depression and suicidal behaviour, possibly through neuroinflammation and altered dopamine.
+- `connects-to` → **[Parkinson's Disease](../parkinsons-disease/README.md)** — Depression shadows the dopamine loss: major depression is a common prodrome and comorbidity of Parkinson's disease, sharing degeneration of monoaminergic dopamine, serotonin and noradrenaline systems, so mood symptoms can precede the tremor by years.
+- `connects-to` → **[Epilepsy](../epilepsy/README.md)** — A two-way street with seizures: depression and epilepsy are bidirectionally linked—each roughly doubles the risk of the other—through shared GABA/glutamate imbalance, HPA-axis overactivity and neuroinflammation, and some antidepressant and antiseizure drugs cross over.
+- `connects-to` → **[Migraine](../migraine/README.md)** — Pain and mood travel together: major depression and migraine are strongly comorbid and bidirectional, sharing serotonergic dysfunction and central sensitisation, so each worsens the other's course and some drugs like amitriptyline and SNRIs treat both.
 
 [^cipriani-2018-antidepressants-meta]: Cipriani A, Furukawa TA, Salanti G, et al. Comparative efficacy and acceptability of 21 antidepressant drugs for acute treatment of adults with major depressive disorder. *Lancet.* 2018;391(10128):1357-1366. [doi:10.1016/S0140-6736(17)32802-7](https://doi.org/10.1016/S0140-6736(17)32802-7) · [PubMed 29477251](https://pubmed.ncbi.nlm.nih.gov/29477251/)
 [^zarate-2006-ketamine-rapid]: Zarate CA Jr, Singh JB, Carlson PJ, et al. A randomized trial of an N-methyl-D-aspartate antagonist in treatment-resistant major depression. *Arch Gen Psychiatry.* 2006;63(8):856-864. [doi:10.1001/archpsyc.63.8.856](https://doi.org/10.1001/archpsyc.63.8.856) · [PubMed 16894061](https://pubmed.ncbi.nlm.nih.gov/16894061/)
