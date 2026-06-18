@@ -195,6 +195,15 @@ cross_links:
   - target: 01-human/07-system/digestive-system
     relation: connects-to
     note: "Its mainstay drugs constipate the gut: the opioids, tricyclics and gabapentinoids used to treat neuropathic pain all slow intestinal transit, making constipation a common, limiting side effect."
+  - target: 01-human/07-system/integumentary-system
+    relation: connects-to
+    note: "It is read and treated through the skin: small-fibre neuropathy is diagnosed by skin biopsy, postherpetic neuralgia and CRPS bring skin allodynia and trophic changes, and topical capsaicin and lidocaine patches relieve it."
+  - target: 01-human/07-system/immune-system
+    relation: connects-to
+    note: "The immune system can attack nerves: immune-mediated neuropathies such as Guillain-Barré, CIDP and vasculitic neuropathy damage peripheral nerves and are important, treatable causes of neuropathic pain."
+  - target: 01-human/07-system/cardiovascular-system
+    relation: connects-to
+    note: "Autonomic and vascular nerve injury intertwine: autonomic neuropathy causes orthostatic hypotension, while ischaemia from peripheral vascular disease itself injures nerves and produces painful neuropathy."
 sources:
   - id: jensen-2011-neuropathic-pain-review
     type: peer-reviewed
@@ -417,6 +426,9 @@ Chronic neuropathic pain carries significant psychological burden:
 - `connects-to` → **[Nervous System](../nervous-system/README.md)** — It is a disease of the nervous system itself: neuropathic pain arises from damage or dysfunction anywhere along the somatosensory pathway, from peripheral nerves to the spinal cord and brain, with central sensitisation amplifying it.
 - `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — Spine disease pinches the nerves: a herniated disc or degenerative stenosis compressing a nerve root causes radiculopathy and sciatica, a very common musculoskeletal source of neuropathic pain.
 - `connects-to` → **[Digestive System](../digestive-system/README.md)** — Its mainstay drugs constipate the gut: the opioids, tricyclics and gabapentinoids used to treat neuropathic pain all slow intestinal transit, making constipation a common, limiting side effect.
+- `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — It is read and treated through the skin: small-fibre neuropathy is diagnosed by skin biopsy, postherpetic neuralgia and CRPS bring skin allodynia and trophic changes, and topical capsaicin and lidocaine patches relieve it.
+- `connects-to` → **[Immune System](../immune-system/README.md)** — The immune system can attack nerves: immune-mediated neuropathies such as Guillain-Barré, CIDP and vasculitic neuropathy damage peripheral nerves and are important, treatable causes of neuropathic pain.
+- `connects-to` → **[Cardiovascular System](../cardiovascular-system/README.md)** — Autonomic and vascular nerve injury intertwine: autonomic neuropathy causes orthostatic hypotension, while ischaemia from peripheral vascular disease itself injures nerves and produces painful neuropathy.
 
 [^jensen-2011-neuropathic-pain-review]: Jensen TS, Baron R, Haanpää M, et al. A new definition of neuropathic pain. *Pain.* 2011;152(10):2204-2205. [doi:10.1016/j.pain.2011.06.017](https://doi.org/10.1016/j.pain.2011.06.017) · [PubMed 21764514](https://pubmed.ncbi.nlm.nih.gov/21764514/)
 [^dworkin-2010-neuropathic-pain-treatment]: Dworkin RH, O'Connor AB, Audette J, et al. Recommendations for the pharmacological management of neuropathic pain. *Mayo Clin Proc.* 2010;85(3 Suppl):S3-14. [doi:10.4065/mcp.2009.0649](https://doi.org/10.4065/mcp.2009.0649) · [PubMed 20194146](https://pubmed.ncbi.nlm.nih.gov/20194146/)

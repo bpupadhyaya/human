@@ -220,6 +220,15 @@ cross_links:
   - target: 02-pathogen/02-bacteria/neisseria-meningitidis
     relation: connects-to
     note: "Its complement-blocking drug invites meningococcus: eculizumab, used to prevent NMO relapses, blocks the terminal complement that defends against Neisseria meningitidis, so vaccination is mandatory before treatment."
+  - target: 01-human/07-system/digestive-system
+    relation: connects-to
+    note: "It announces itself through the gut: area postrema syndrome — intractable hiccups, nausea and vomiting from a medullary lesion — is a classic and often first manifestation of NMO."
+  - target: 01-human/07-system/endocrine-system
+    relation: connects-to
+    note: "It targets the hypothalamus: AQP4-rich diencephalic regions are vulnerable, so NMO can cause SIADH, narcolepsy, hypothermia and other endocrine disturbances from hypothalamic lesions."
+  - target: 01-human/07-system/musculoskeletal-system
+    relation: connects-to
+    note: "Severe myelitis disables the limbs: longitudinally extensive transverse myelitis causes paralysis with spasticity and contractures, while long-term corticosteroids add bone and muscle complications."
 ---
 
 # NMOSD
@@ -433,6 +442,9 @@ NMOSD impairs CNS function through three attack-related mechanisms:
 - `connects-to` → **[Nervous System](../nervous-system/README.md)** — It is an antibody attack on the CNS: NMO targets aquaporin-4 on astrocytes, causing optic neuritis and longitudinally extensive transverse myelitis that blind and paralyse, a defining nervous-system autoimmune disease.
 - `connects-to` → **[Respiratory System](../respiratory-system/README.md)** — High cord attacks can stop breathing: an NMO lesion in the cervical spinal cord or brainstem can paralyse the diaphragm and respiratory drive, causing neurogenic respiratory failure.
 - `connects-to` → **[Neisseria meningitidis](../../../02-pathogen/02-bacteria/neisseria-meningitidis/README.md)** — Its complement-blocking drug invites meningococcus: eculizumab, used to prevent NMO relapses, blocks the terminal complement that defends against Neisseria meningitidis, so vaccination is mandatory before treatment.
+- `connects-to` → **[Digestive System](../digestive-system/README.md)** — It announces itself through the gut: area postrema syndrome — intractable hiccups, nausea and vomiting from a medullary lesion — is a classic and often first manifestation of NMO.
+- `connects-to` → **[Endocrine System](../endocrine-system/README.md)** — It targets the hypothalamus: AQP4-rich diencephalic regions are vulnerable, so NMO can cause SIADH, narcolepsy, hypothermia and other endocrine disturbances from hypothalamic lesions.
+- `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — Severe myelitis disables the limbs: longitudinally extensive transverse myelitis causes paralysis with spasticity and contractures, while long-term corticosteroids add bone and muscle complications.
 
 [^wingerchuk-2015-nmosd-criteria]: Wingerchuk DM, Banwell B, Bennett JL, et al. International consensus diagnostic criteria for neuromyelitis optica spectrum disorders. *Neurology.* 2015;85(2):177-189. [doi:10.1212/WNL.0000000000001729](https://doi.org/10.1212/WNL.0000000000001729) · [PubMed 26092914](https://pubmed.ncbi.nlm.nih.gov/26092914/)
 [^pittock-2019-eculizumab-prevent]: Pittock SJ, Berthele A, Fujihara K, et al. Eculizumab in Aquaporin-4-Positive Neuromyelitis Optica Spectrum Disorder. *N Engl J Med.* 2019;381(7):614-625. [doi:10.1056/NEJMoa1900866](https://doi.org/10.1056/NEJMoa1900866) · [PubMed 31050279](https://pubmed.ncbi.nlm.nih.gov/31050279/)
