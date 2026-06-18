@@ -198,6 +198,15 @@ cross_links:
   - target: 01-human/07-system/endocrine-system
     relation: connects-to
     note: "Relentless stress dysregulates the hormones: the chronic HPA-axis and cortisol arousal of compulsive gambling, with disrupted sleep and eating, contributes to the metabolic and endocrine disturbances seen in the disorder."
+  - target: 01-human/07-system/musculoskeletal-system
+    relation: connects-to
+    note: "Hours at the machine or screen take a toll: prolonged sedentary gambling promotes back and neck pain, repetitive strain and physical deconditioning."
+  - target: 01-human/07-system/immune-system
+    relation: connects-to
+    note: "Chronic stress lowers defences: the sustained stress arousal and sleep deprivation of compulsive gambling blunt immune function, raising susceptibility to infection."
+  - target: 01-human/07-system/respiratory-system
+    relation: connects-to
+    note: "It travels with heavy smoking: tobacco use is markedly elevated in gambling disorder, so chronic respiratory disease is a common downstream harm of the behaviour."
 sources:
   - id: grant-2016-gambling-review
     type: peer-reviewed
@@ -404,6 +413,9 @@ Persistent and recurrent problematic gambling behavior causing distress (≥4 of
 - `connects-to` → **[COPD](../copd/README.md)** — It travels with heavy smoking: gambling disorder is strongly associated with high rates of tobacco use, and the resulting chronic obstructive pulmonary disease adds to its long-term physical toll.
 - `connects-to` → **[Digestive System](../digestive-system/README.md)** — Chronic stress and comorbid drinking hit the gut: the sustained stress arousal of gambling disorder fosters functional GI symptoms and peptic ulcers, compounded by the heavy alcohol use that often accompanies it.
 - `connects-to` → **[Endocrine System](../endocrine-system/README.md)** — Relentless stress dysregulates the hormones: the chronic HPA-axis and cortisol arousal of compulsive gambling, with disrupted sleep and eating, contributes to the metabolic and endocrine disturbances seen in the disorder.
+- `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — Hours at the machine or screen take a toll: prolonged sedentary gambling promotes back and neck pain, repetitive strain and physical deconditioning.
+- `connects-to` → **[Immune System](../immune-system/README.md)** — Chronic stress lowers defences: the sustained stress arousal and sleep deprivation of compulsive gambling blunt immune function, raising susceptibility to infection.
+- `connects-to` → **[Respiratory System](../respiratory-system/README.md)** — It travels with heavy smoking: tobacco use is markedly elevated in gambling disorder, so chronic respiratory disease is a common downstream harm of the behaviour.
 
 [^potenza-2014-gambling-neuroscience]: Potenza MN. The neurobiology of pathological gambling and drug addiction: an overview and new findings. *Philos Trans R Soc Lond B Biol Sci.* 2008;363(1507):3181-3189. [doi:10.1098/rstb.2008.0100](https://doi.org/10.1098/rstb.2008.0100) · [PubMed 18640909](https://pubmed.ncbi.nlm.nih.gov/18640909/)
 [^grant-2016-gambling-review]: Grant JE, Chamberlain SR. Gambling disorder and its relationship with substance use disorders. *Am J Addict.* 2015;24(2):126-131. [doi:10.1111/ajad.12112](https://doi.org/10.1111/ajad.12112) · [PubMed 25376793](https://pubmed.ncbi.nlm.nih.gov/25376793/)
