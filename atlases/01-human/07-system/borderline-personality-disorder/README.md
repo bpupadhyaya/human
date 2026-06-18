@@ -232,6 +232,15 @@ cross_links:
   - target: 01-human/07-system/immune-system
     relation: connects-to
     note: "Trauma leaves an inflammatory mark: childhood adversity and chronic stress in BPD raise inflammatory cytokines, linking it to systemic low-grade inflammation."
+  - target: 03-medicine/01-modern/10-mental-health/fluoxetine
+    relation: connects-to
+    note: "No drug cures it, but symptoms are treated: SSRIs like fluoxetine are used for the depression, impulsivity and mood instability of borderline personality disorder, alongside the mainstay of psychotherapy."
+  - target: 01-human/07-system/musculoskeletal-system
+    relation: connects-to
+    note: "It carries a heavy somatic-pain burden: borderline personality disorder strongly overlaps fibromyalgia and chronic widespread pain, and self-harm causes recurrent soft-tissue injury."
+  - target: 01-human/07-system/renal-system
+    relation: connects-to
+    note: "Overdose threatens the kidney: impulsive self-poisoning, common in borderline personality disorder, can cause acute kidney injury from paracetamol, lithium or NSAID toxicity."
 ---
 
 # Borderline Personality Disorder
@@ -443,6 +452,9 @@ This model directly informs DBT treatment: validate emotional experience (the bi
 - `connects-to` → **[Cardiovascular System](../cardiovascular-system/README.md)** — Impulsive overdose can stop the heart: tricyclic and stimulant overdoses in self-harm cause life-threatening arrhythmias, and chronic stress and comorbidities raise long-term cardiovascular risk.
 - `connects-to` → **[Respiratory System](../respiratory-system/README.md)** — Overdose suppresses breathing: impulsive overdose with opioids, alcohol or sedatives — common in BPD self-harm — causes respiratory depression that can be fatal.
 - `connects-to` → **[Immune System](../immune-system/README.md)** — Trauma leaves an inflammatory mark: childhood adversity and chronic stress in BPD raise inflammatory cytokines, linking it to systemic low-grade inflammation.
+- `connects-to` → **[Fluoxetine](../../../03-medicine/01-modern/10-mental-health/fluoxetine/README.md)** — No drug cures it, but symptoms are treated: SSRIs like fluoxetine are used for the depression, impulsivity and mood instability of borderline personality disorder, alongside the mainstay of psychotherapy.
+- `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — It carries a heavy somatic-pain burden: borderline personality disorder strongly overlaps fibromyalgia and chronic widespread pain, and self-harm causes recurrent soft-tissue injury.
+- `connects-to` → **[Renal System](../renal-system/README.md)** — Overdose threatens the kidney: impulsive self-poisoning, common in borderline personality disorder, can cause acute kidney injury from paracetamol, lithium or NSAID toxicity.
 
 [^linehan-1993-dbt]: Linehan MM. *Cognitive-Behavioral Treatment of Borderline Personality Disorder.* Guilford; 1993. [PubMed 8192506](https://pubmed.ncbi.nlm.nih.gov/8192506/)
 [^skodol-2002-bpd-neurobiology]: Siever LJ, Davis KL. A psychobiological perspective on the personality disorders. *Am J Psychiatry.* 1991;148(12):1647-1658. [doi:10.1176/ajp.148.12.1647](https://doi.org/10.1176/ajp.148.12.1647) · [PubMed 1957927](https://pubmed.ncbi.nlm.nih.gov/1957927/)

@@ -213,6 +213,15 @@ cross_links:
   - target: 02-pathogen/02-bacteria/mycobacterium-tuberculosis
     relation: connects-to
     note: "Shared smoking spreads tuberculosis: passing joints and sharing waterpipes can transmit Mycobacterium tuberculosis between users, a recognised route of outbreaks."
+  - target: 03-medicine/01-modern/10-mental-health/fluoxetine
+    relation: connects-to
+    note: "Comorbid mood is treated: there is no approved drug for cannabis use disorder itself, but SSRIs like fluoxetine address the depression and anxiety that frequently accompany it."
+  - target: 01-human/07-system/gambling-disorder
+    relation: connects-to
+    note: "A fellow disorder of reward: cannabis use disorder shares the dopaminergic reward-circuit dysregulation of behavioural addictions like gambling disorder, and the two frequently co-occur."
+  - target: 01-human/07-system/epilepsy
+    relation: connects-to
+    note: "The same plant cuts both ways: while heavy THC use is the substance of cannabis use disorder, the plant's cannabidiol is an approved anticonvulsant for severe childhood epilepsies."
 sources:
   - id: hasin-2015-cannabis-disorder
     type: peer-reviewed
@@ -433,6 +442,9 @@ Paradoxical syndrome in heavy long-term users: cyclic vomiting relieved by hot b
 - `connects-to` → **[Renal System](../renal-system/README.md)** — Vomiting and synthetics can injure the kidney: cannabinoid hyperemesis syndrome causes severe vomiting and dehydration with acute kidney injury, and synthetic cannabinoids have caused AKI.
 - `connects-to` → **[Aspergillus fumigatus](../../../02-pathogen/03-fungi/aspergillus-fumigatus/README.md)** — Mouldy cannabis carries a fungus: contaminated cannabis can be laden with Aspergillus spores, causing pulmonary aspergillosis, especially in immunocompromised smokers.
 - `connects-to` → **[Mycobacterium tuberculosis](../../../02-pathogen/02-bacteria/mycobacterium-tuberculosis/README.md)** — Shared smoking spreads tuberculosis: passing joints and sharing waterpipes can transmit Mycobacterium tuberculosis between users, a recognised route of outbreaks.
+- `connects-to` → **[Fluoxetine](../../../03-medicine/01-modern/10-mental-health/fluoxetine/README.md)** — Comorbid mood is treated: there is no approved drug for cannabis use disorder itself, but SSRIs like fluoxetine address the depression and anxiety that frequently accompany it.
+- `connects-to` → **[Gambling Disorder](../gambling-disorder/README.md)** — A fellow disorder of reward: cannabis use disorder shares the dopaminergic reward-circuit dysregulation of behavioural addictions like gambling disorder, and the two frequently co-occur.
+- `connects-to` → **[Epilepsy](../epilepsy/README.md)** — The same plant cuts both ways: while heavy THC use is the substance of cannabis use disorder, the plant's cannabidiol is an approved anticonvulsant for severe childhood epilepsies.
 
 [^hasin-2015-cannabis-disorder]: Hasin DS, Saha TD, Kerridge BT, et al. Prevalence of marijuana use disorders in the United States between 2001-2002 and 2012-2013. *JAMA Psychiatry.* 2015;72(12):1235-1242. [doi:10.1001/jamapsychiatry.2015.1858](https://doi.org/10.1001/jamapsychiatry.2015.1858) · [PubMed 26502112](https://pubmed.ncbi.nlm.nih.gov/26502112/)
 [^budney-2004-cannabis-withdrawal]: Budney AJ, Moore BA, Vandrey RG, Hughes JR. The time course and significance of cannabis withdrawal. *J Abnorm Psychol.* 2003;112(3):393-402. [doi:10.1037/0021-843X.112.3.393](https://doi.org/10.1037/0021-843X.112.3.393) · [PubMed 12943018](https://pubmed.ncbi.nlm.nih.gov/12943018/)
