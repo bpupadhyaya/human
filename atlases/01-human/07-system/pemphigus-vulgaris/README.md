@@ -211,6 +211,15 @@ cross_links:
   - target: 01-human/07-system/generalized-anxiety-disorder
     relation: connects-to
     note: "An unpredictable relapsing disease breeds worry: the flares, painful mucosal erosions and long immunosuppressive treatment of pemphigus foster chronic health anxiety alongside its well-known depression."
+  - target: 01-human/07-system/wound-healing
+    relation: connects-to
+    note: "Its erosions resist healing: the denuded skin and mucosa of pemphigus are chronic open wounds, and the high-dose steroids used to control it further impair their repair and invite infection."
+  - target: 01-human/07-system/endocrine-system
+    relation: connects-to
+    note: "Months of high-dose steroids reshape metabolism: the prolonged corticosteroids needed to control pemphigus cause steroid-induced diabetes, adrenal suppression and a Cushingoid state."
+  - target: 01-human/07-system/musculoskeletal-system
+    relation: connects-to
+    note: "Steroids waste muscle and bone: the chronic high-dose corticosteroids for pemphigus cause proximal steroid myopathy, osteoporosis and avascular necrosis over time."
 ---
 
 # Pemphigus Vulgaris
@@ -419,6 +428,9 @@ Pemphigus belongs to the **pemphigus group of autoimmune bullous diseases** (AIB
 - `connects-to` → **[Varicella-Zoster Virus](../../../02-pathogen/01-viruses/varicella-zoster-virus/README.md)** — Its immunosuppression reawakens shingles: the rituximab and high-dose steroids used to control pemphigus deplete B- and T-cell immunity, allowing latent varicella-zoster to reactivate, so antiviral prophylaxis is considered.
 - `connects-to` → **[Hepatitis B Virus](../../../02-pathogen/01-viruses/hepatitis-b-virus/README.md)** — Rituximab can resurrect hepatitis B: the B-cell-depleting therapy for refractory pemphigus removes the immune control of latent HBV, risking viral reactivation and hepatitis, so screening before treatment is mandatory.
 - `connects-to` → **[Generalized Anxiety Disorder](../generalized-anxiety-disorder/README.md)** — An unpredictable relapsing disease breeds worry: the flares, painful mucosal erosions and long immunosuppressive treatment of pemphigus foster chronic health anxiety alongside its well-known depression.
+- `connects-to` → **[Wound Healing](../wound-healing/README.md)** — Its erosions resist healing: the denuded skin and mucosa of pemphigus are chronic open wounds, and the high-dose steroids used to control it further impair their repair and invite infection.
+- `connects-to` → **[Endocrine System](../endocrine-system/README.md)** — Months of high-dose steroids reshape metabolism: the prolonged corticosteroids needed to control pemphigus cause steroid-induced diabetes, adrenal suppression and a Cushingoid state.
+- `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — Steroids waste muscle and bone: the chronic high-dose corticosteroids for pemphigus cause proximal steroid myopathy, osteoporosis and avascular necrosis over time.
 
 ---
 

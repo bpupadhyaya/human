@@ -205,6 +205,15 @@ cross_links:
   - target: 01-human/07-system/generalized-anxiety-disorder
     relation: connects-to
     note: "Pervasive cancer risk breeds worry: the very high lifetime malignancy risk, lifelong multi-organ screening and recurrent surgery of Peutz-Jeghers foster chronic health anxiety alongside depression."
+  - target: 01-human/07-system/respiratory-system
+    relation: connects-to
+    note: "It markedly raises lung-cancer risk: Peutz-Jeghers carries one of the highest lifetime risks of lung cancer among the hereditary cancer syndromes, extending its spectrum to the respiratory tract."
+  - target: 01-human/07-system/gut-microbiome
+    relation: connects-to
+    note: "Microbiome and hamartoma carcinogenesis intertwine: in PJS the colonic microbiome contributes to the inflammation and genotoxic stress that drive its hamartomatous polyps toward malignancy."
+  - target: 01-human/07-system/immune-system
+    relation: connects-to
+    note: "Loss of LKB1 cools tumour immunity: STK11/LKB1 loss in PJS-related cancers reprogrammes metabolism and creates an immunosuppressive, immune-excluded tumour microenvironment resistant to checkpoint therapy."
 ---
 
 # Peutz-Jeghers Syndrome
@@ -391,6 +400,9 @@ Without surveillance: cumulative cancer risk reaches ~85-93% by age 70 (all canc
 - `connects-to` → **[Wound Healing](../wound-healing/README.md)** — Recurrent bowel surgery means recurrent wounds: the repeated laparotomies for intussusception and polypectomy in PJS, sometimes in malnourished patients, leave abdominal wounds and anastomoses prone to slow healing.
 - `connects-to` → **[Endocrine System](../endocrine-system/README.md)** — Its rare gonadal tumours disturb hormones: PJS predisposes to large-cell calcifying Sertoli cell tumours of the testis and sex-cord tumours of the ovary, which secrete oestrogen to cause gynaecomastia and precocious puberty.
 - `connects-to` → **[Generalized Anxiety Disorder](../generalized-anxiety-disorder/README.md)** — Pervasive cancer risk breeds worry: the very high lifetime malignancy risk, lifelong multi-organ screening and recurrent surgery of Peutz-Jeghers foster chronic health anxiety alongside depression.
+- `connects-to` → **[Respiratory System](../respiratory-system/README.md)** — It markedly raises lung-cancer risk: Peutz-Jeghers carries one of the highest lifetime risks of lung cancer among the hereditary cancer syndromes, extending its spectrum to the respiratory tract.
+- `connects-to` → **[Gut Microbiome](../gut-microbiome/README.md)** — Microbiome and hamartoma carcinogenesis intertwine: in PJS the colonic microbiome contributes to the inflammation and genotoxic stress that drive its hamartomatous polyps toward malignancy.
+- `connects-to` → **[Immune System](../immune-system/README.md)** — Loss of LKB1 cools tumour immunity: STK11/LKB1 loss in PJS-related cancers reprogrammes metabolism and creates an immunosuppressive, immune-excluded tumour microenvironment resistant to checkpoint therapy.
 
 ---
 
