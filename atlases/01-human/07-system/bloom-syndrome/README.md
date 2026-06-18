@@ -241,6 +241,15 @@ cross_links:
   - target: 01-human/07-system/gastric-cancer
     relation: connects-to
     note: "Instability seeds gut tumours: chromosomal instability in Bloom syndrome predisposes to gastrointestinal adenocarcinomas, including gastric and colorectal cancer, often decades earlier than usual."
+  - target: 03-medicine/01-modern/13-cancer/targeted-therapy
+    relation: connects-to
+    note: "A synthetic-lethal vulnerability: BLM helicase loss leaves Bloom cells reliant on other DNA-repair routes, making homologous-recombination and replication-stress pathways (PARP, ATR) candidate targets — and BLM itself an anticancer drug target in unstable tumours."
+  - target: 03-medicine/01-modern/13-cancer/checkpoint-inhibitors
+    relation: connects-to
+    note: "Genomic chaos may aid immunotherapy: the extreme chromosomal instability of Bloom syndrome can generate the high mutational burden and neoantigens that make some of its cancers candidates for checkpoint blockade."
+  - target: 01-human/05-tissue/germinal-center
+    relation: connects-to
+    note: "Immunodeficiency rides along: Bloom syndrome impairs B-cell maturation and class switching in germinal centres, causing low immunoglobulins and recurrent sinopulmonary infections alongside its cancer risk."
 ---
 
 # Bloom Syndrome
@@ -453,6 +462,9 @@ BS is characterized by three cardinal features: **small body size** (the most co
 - `connects-to` → **[Cancer Chemotherapy](../../../03-medicine/01-modern/13-cancer/cancer-chemotherapy/README.md)** — Treatment must be gentler: the DNA-repair defect of Bloom syndrome makes patients hypersensitive to DNA-damaging chemotherapy and radiation, forcing dose reduction when their many cancers are treated.
 - `connects-to` → **[Basal Cell Carcinoma](../basal-cell-carcinoma/README.md)** — Sun sensitivity breeds skin cancer: the photosensitive facial rash of Bloom syndrome reflects defective DNA repair that also drives basal and squamous cell skin cancers at a young age.
 - `connects-to` → **[Gastric Cancer](../gastric-cancer/README.md)** — Instability seeds gut tumours: chromosomal instability in Bloom syndrome predisposes to gastrointestinal adenocarcinomas, including gastric and colorectal cancer, often decades earlier than usual.
+- `connects-to` → **[Targeted Therapy](../../../03-medicine/01-modern/13-cancer/targeted-therapy/README.md)** — A synthetic-lethal vulnerability: BLM helicase loss leaves Bloom cells reliant on other DNA-repair routes, making homologous-recombination and replication-stress pathways (PARP, ATR) candidate targets — and BLM itself an anticancer drug target in unstable tumours.
+- `connects-to` → **[Checkpoint Inhibitors](../../../03-medicine/01-modern/13-cancer/checkpoint-inhibitors/README.md)** — Genomic chaos may aid immunotherapy: the extreme chromosomal instability of Bloom syndrome can generate the high mutational burden and neoantigens that make some of its cancers candidates for checkpoint blockade.
+- `connects-to` → **[Germinal Center](../../05-tissue/germinal-center/README.md)** — Immunodeficiency rides along: Bloom syndrome impairs B-cell maturation and class switching in germinal centres, causing low immunoglobulins and recurrent sinopulmonary infections alongside its cancer risk.
 
 ---
 

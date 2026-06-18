@@ -243,6 +243,15 @@ cross_links:
   - target: 01-human/04-cellular/osteoclast
     relation: connects-to
     note: "Hormonal disruption thins bone: menstrual irregularity and low oestrogen in bulimia nervosa tip the balance toward bone-resorbing osteoclasts, reducing bone density even at normal body weight."
+  - target: 01-human/05-tissue/myocardium
+    relation: connects-to
+    note: "Purging poisons the heart: repeated vomiting and laxative abuse cause hypokalaemia and (historically) ipecac cardiotoxicity, triggering the arrhythmias and cardiomyopathy behind sudden cardiac death in bulimia nervosa."
+  - target: 01-human/07-system/internet-gaming-disorder
+    relation: connects-to
+    note: "Shared impulsivity and loss of control: bulimia nervosa and internet gaming disorder both feature binge-like loss of control and reward-circuit dysregulation, on the spectrum of impulsive and behavioural-addiction disorders."
+  - target: 01-human/07-system/opioid-use-disorder
+    relation: connects-to
+    note: "A common reward pathway: bulimia nervosa frequently co-occurs with substance use, and the mu-opioid reward system it shares with opioid use disorder is why the antagonist naltrexone is studied for binge-purge behaviour."
 ---
 
 # Bulimia Nervosa
@@ -447,6 +456,9 @@ All of the following must be met:
 - `connects-to` → **[Gambling Disorder](../gambling-disorder/README.md)** — Impulsivity binds them: bulimia nervosa shares with gambling disorder a core failure of impulse control and reward dysregulation, and the two co-occur more than chance.
 - `connects-to` → **[Cannabis Use Disorder](../cannabis-use-disorder/README.md)** — Substance use rides alongside: bulimia nervosa carries high rates of substance use disorders including cannabis, reflecting shared impulsivity and the use of substances to modulate mood and appetite.
 - `connects-to` → **[Osteoclast](../../04-cellular/osteoclast/README.md)** — Hormonal disruption thins bone: menstrual irregularity and low oestrogen in bulimia nervosa tip the balance toward bone-resorbing osteoclasts, reducing bone density even at normal body weight.
+- `connects-to` → **[Myocardium](../../05-tissue/myocardium/README.md)** — Purging poisons the heart: repeated vomiting and laxative abuse cause hypokalaemia and (historically) ipecac cardiotoxicity, triggering the arrhythmias and cardiomyopathy behind sudden cardiac death in bulimia nervosa.
+- `connects-to` → **[Internet Gaming Disorder](../internet-gaming-disorder/README.md)** — Shared impulsivity and loss of control: bulimia nervosa and internet gaming disorder both feature binge-like loss of control and reward-circuit dysregulation, on the spectrum of impulsive and behavioural-addiction disorders.
+- `connects-to` → **[Opioid Use Disorder](../opioid-use-disorder/README.md)** — A common reward pathway: bulimia nervosa frequently co-occurs with substance use, and the mu-opioid reward system it shares with opioid use disorder is why the antagonist naltrexone is studied for binge-purge behaviour.
 
 ## Treatment
 
