@@ -236,6 +236,15 @@ cross_links:
   - target: 02-pathogen/01-viruses/varicella-zoster-virus
     relation: connects-to
     note: "A fellow vaccine-preventable exanthem: distinguishing measles from chickenpox is a classic clinical exercise, both being highly contagious viral rashes spread by the respiratory route."
+  - target: 02-pathogen/02-bacteria/mycobacterium-tuberculosis
+    relation: connects-to
+    note: "It erases immune memory: measles causes prolonged immunosuppression and tuberculin anergy, reactivating latent tuberculosis and leaving children vulnerable to it for years after recovery."
+  - target: 01-human/04-cellular/type-ii-pneumocyte
+    relation: connects-to
+    note: "Giant-cell pneumonia attacks the alveolus: measles infects alveolar type II pneumocytes, fusing them into the multinucleated giant cells of Hecht pneumonia, a severe complication in the malnourished and immunocompromised."
+  - target: 02-pathogen/02-bacteria/streptococcus-pyogenes
+    relation: connects-to
+    note: "Secondary bacteria invade the damaged host: post-measles immune suppression and skin breakdown predispose to group A streptococcal pneumonia, otitis and soft-tissue infection."
 ---
 
 # Measles
@@ -453,6 +462,9 @@ Beyond immune amnesia (memory B cell depletion), MV causes acute immune suppress
 - `connects-to` → **[Dietary Zinc](../../../03-medicine/03-food/zinc-dietary/README.md)** — Micronutrients change outcomes: WHO recommends vitamin A in measles to cut mortality and blindness, and zinc supplementation shortens the diarrhoea that frequently complicates and kills in measles.
 - `connects-to` → **[Vitamin D](../../../03-medicine/03-food/vitamin-d/README.md)** — Vitamin D supports antiviral defence: deficiency is linked to more severe respiratory viral infection, and adequate status may modestly aid recovery from the respiratory complications of measles.
 - `connects-to` → **[Varicella-zoster virus](../../../02-pathogen/01-viruses/varicella-zoster-virus/README.md)** — A fellow vaccine-preventable exanthem: distinguishing measles from chickenpox is a classic clinical exercise, both being highly contagious viral rashes spread by the respiratory route.
+- `connects-to` → **[Mycobacterium tuberculosis](../../../02-pathogen/02-bacteria/mycobacterium-tuberculosis/README.md)** — It erases immune memory: measles causes prolonged immunosuppression and tuberculin anergy, reactivating latent tuberculosis and leaving children vulnerable to it for years after recovery.
+- `connects-to` → **[Type II Pneumocyte](../../04-cellular/type-ii-pneumocyte/README.md)** — Giant-cell pneumonia attacks the alveolus: measles infects alveolar type II pneumocytes, fusing them into the multinucleated giant cells of Hecht pneumonia, a severe complication in the malnourished and immunocompromised.
+- `connects-to` → **[Streptococcus pyogenes](../../../02-pathogen/02-bacteria/streptococcus-pyogenes/README.md)** — Secondary bacteria invade the damaged host: post-measles immune suppression and skin breakdown predispose to group A streptococcal pneumonia, otitis and soft-tissue infection.
 
 [^panum-1847-faroe-measles]: Panum PL. Observations made during the epidemic of measles on the Faroe Islands in the year 1846. *Med Classics.* 1939;3:829-886.
 [^mina-2019-immune-amnesia]: Mina MJ, Kula T, Leng Y, et al. Measles virus infection diminishes preexisting antibodies that offer protection from other pathogens. *Science.* 2019;366(6465):599-606. [doi:10.1126/science.aay6485](https://doi.org/10.1126/science.aay6485) · [PubMed 31672891](https://pubmed.ncbi.nlm.nih.gov/31672891/)

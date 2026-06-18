@@ -238,6 +238,15 @@ cross_links:
   - target: 01-human/07-system/lymphatic-system
     relation: connects-to
     note: "Waste clearance may matter: dysfunction of the brain's glymphatic drainage system is increasingly implicated in migraine, linking sleep, fluid balance and headache."
+  - target: 03-medicine/01-modern/04-cardio/aspirin
+    relation: connects-to
+    note: "A first-line acute treatment: high-dose aspirin and other NSAIDs abort migraine attacks, and aspirin combined with caffeine and paracetamol is a common over-the-counter option."
+  - target: 03-medicine/01-modern/04-cardio/arbs
+    relation: connects-to
+    note: "Blood-pressure drugs prevent attacks: the ARB candesartan, like beta-blockers, reduces migraine frequency, a useful preventive especially when hypertension coexists."
+  - target: 01-human/07-system/multiple-sclerosis
+    relation: connects-to
+    note: "Headache shadows demyelination: migraine is more common in multiple sclerosis than in the general population, the two sharing neuroinflammatory and vascular mechanisms."
 ---
 
 # Migraine
@@ -448,6 +457,9 @@ Episodic migraine (EM, <15 headache days/month) transforms to **chronic migraine
 - `connects-to` → **[Beta-blockers](../../../03-medicine/01-modern/04-cardio/beta-blockers/README.md)** — First-line prevention borrows a heart drug: beta-blockers like propranolol are a mainstay of migraine prophylaxis, reducing attack frequency though their mechanism in migraine is incompletely understood.
 - `connects-to` → **[Dietary Magnesium](../../../03-medicine/03-food/magnesium-dietary/README.md)** — A supplement with real evidence: magnesium is one of the better-supported nutritional prophylactics for migraine, and low magnesium status is linked to attack susceptibility.
 - `connects-to` → **[Lymphatic System](../lymphatic-system/README.md)** — Waste clearance may matter: dysfunction of the brain's glymphatic drainage system is increasingly implicated in migraine, linking sleep, fluid balance and headache.
+- `connects-to` → **[Aspirin](../../../03-medicine/01-modern/04-cardio/aspirin/README.md)** — A first-line acute treatment: high-dose aspirin and other NSAIDs abort migraine attacks, and aspirin combined with caffeine and paracetamol is a common over-the-counter option.
+- `connects-to` → **[ARBs](../../../03-medicine/01-modern/04-cardio/arbs/README.md)** — Blood-pressure drugs prevent attacks: the ARB candesartan, like beta-blockers, reduces migraine frequency, a useful preventive especially when hypertension coexists.
+- `connects-to` → **[Multiple Sclerosis](../multiple-sclerosis/README.md)** — Headache shadows demyelination: migraine is more common in multiple sclerosis than in the general population, the two sharing neuroinflammatory and vascular mechanisms.
 
 [^gbd-2016-migraine-burden]: GBD 2016 Headache Collaborators. Global, regional, and national burden of migraine and tension-type headache, 1990-2016. *Lancet Neurol.* 2018;17(11):954-976. [doi:10.1016/S1474-4422(18)30322-3](https://doi.org/10.1016/S1474-4422(18)30322-3) · [PubMed 30353868](https://pubmed.ncbi.nlm.nih.gov/30353868/)
 [^goadsby-2002-migraine-review]: Goadsby PJ, Lipton RB, Ferrari MD. Migraine — current understanding and treatment. *N Engl J Med.* 2002;346(4):257-270. [doi:10.1056/NEJMra010917](https://doi.org/10.1056/NEJMra010917) · [PubMed 11807151](https://pubmed.ncbi.nlm.nih.gov/11807151/)
