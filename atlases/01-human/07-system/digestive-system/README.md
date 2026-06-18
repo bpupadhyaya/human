@@ -253,6 +253,15 @@ cross_links:
   - target: 03-medicine/03-food/magnesium-dietary
     relation: connects-to
     note: "The gut handles magnesium two ways: the intestine absorbs dietary magnesium, and poorly absorbed magnesium salts act as osmotic laxatives, while malabsorption causes deficiency."
+  - target: 01-human/07-system/esophageal-cancer
+    relation: connects-to
+    note: "It begins at the top of the tract: esophageal cancer — squamous from smoking and alcohol, adenocarcinoma from reflux and Barrett's — completes the digestive tract's malignancies alongside gastric, colorectal and pancreatic cancer."
+  - target: 01-human/05-tissue/hepatic-lobule
+    relation: connects-to
+    note: "The liver is its chemical factory: the hepatic lobule, the liver's functional unit, processes everything absorbed from the gut via the portal vein, secretes bile for fat digestion, and detoxifies and stores the nutrients the gut delivers."
+  - target: 03-medicine/01-modern/13-cancer/cancer-chemotherapy
+    relation: connects-to
+    note: "It both treats and is harmed: the gut's common cancers depend on cytotoxic chemotherapy, while the rapidly dividing intestinal lining makes the digestive tract a prime victim of chemo, producing the mucositis, nausea and diarrhoea that limit dosing."
 taxonomy:
   uberon: "UBERON:0001007"
 ---
@@ -420,6 +429,9 @@ The ENS can function autonomously without extrinsic innervation (Hirschsprung's 
 - **Connects to:** [Omega-3 fatty acids](../../../03-medicine/03-food/omega-3-fatty-acids/README.md) — dietary fats shape gut health: long-chain omega-3 fatty acids, absorbed via intestinal lacteals, have anti-inflammatory effects studied in inflammatory bowel disease and the gut-liver axis.
 - **Connects to:** [Coxsackievirus B](../../../02-pathogen/01-viruses/coxsackievirus-b/README.md) — enteroviruses pass through the gut: Coxsackie and other enteroviruses are swallowed and replicate in the intestinal lining, causing herpangina and hand-foot-and-mouth disease before systemic spread.
 - **Connects to:** [Dietary Magnesium](../../../03-medicine/03-food/magnesium-dietary/README.md) — the gut handles magnesium two ways: the intestine absorbs dietary magnesium, and poorly absorbed magnesium salts act as osmotic laxatives, while malabsorption causes deficiency.
+- **Connects to:** [Esophageal Cancer](../esophageal-cancer/README.md) — it begins at the top of the tract: esophageal cancer — squamous from smoking and alcohol, adenocarcinoma from reflux and Barrett's — completes the digestive tract's malignancies alongside gastric, colorectal and pancreatic cancer.
+- **Connects to:** [Hepatic Lobule](../../05-tissue/hepatic-lobule/README.md) — the liver is its chemical factory: the hepatic lobule, the liver's functional unit, processes everything absorbed from the gut via the portal vein, secretes bile for fat digestion, and detoxifies and stores the nutrients the gut delivers.
+- **Connects to:** [Cancer Chemotherapy](../../../03-medicine/01-modern/13-cancer/cancer-chemotherapy/README.md) — it both treats and is harmed: the gut's common cancers depend on cytotoxic chemotherapy, while the rapidly dividing intestinal lining makes the digestive tract a prime victim of chemo, producing the mucositis, nausea and diarrhoea that limit dosing.
 
 ## Pathology
 
