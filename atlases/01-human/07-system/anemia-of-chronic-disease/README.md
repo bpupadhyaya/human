@@ -226,6 +226,15 @@ cross_links:
   - target: 01-human/07-system/reproductive-system
     relation: connects-to
     note: "Pregnancy compounds it: when chronic inflammatory disease coexists with the physiological dilutional anemia of pregnancy, the combined anemia can affect maternal wellbeing and fetal outcomes."
+  - target: 01-human/07-system/cardiovascular-system
+    relation: connects-to
+    note: "Low oxygen-carrying capacity raises the cardiac workload: chronic anemia drives compensatory tachycardia and a high-output state, aggravating ischaemia and, over time, straining the heart."
+  - target: 01-human/07-system/lymphatic-system
+    relation: connects-to
+    note: "The reticuloendothelial system drives it: splenic and nodal macrophages trap recycled iron behind hepcidin, the core mechanism that starves the marrow of iron for erythropoiesis."
+  - target: 01-human/07-system/respiratory-system
+    relation: connects-to
+    note: "Lung disease usually raises red cells via hypoxic erythropoietin, but in COPD the systemic inflammation blunts that response, so anemia of chronic disease can paradoxically appear instead."
 ---
 
 # Anemia of Chronic Disease
@@ -419,6 +428,9 @@ This adaptive rationale explains why **aggressive iron supplementation during ac
 - `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — Pallor is its visible sign: anemia of chronic disease shows as pallor of the skin, conjunctivae and nail beds, a bedside clue that prompts the search for an underlying chronic illness.
 - `connects-to` → **[Nervous System](../nervous-system/README.md)** — Low oxygen delivery dulls the mind and stirs the legs: the anemia contributes to fatigue and impaired concentration, and the iron-restriction underlying it can exacerbate restless legs syndrome.
 - `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — Pregnancy compounds it: when chronic inflammatory disease coexists with the physiological dilutional anemia of pregnancy, the combined anemia can affect maternal wellbeing and fetal outcomes.
+- `connects-to` → **[Cardiovascular System](../cardiovascular-system/README.md)** — Low oxygen-carrying capacity raises the cardiac workload: chronic anemia drives compensatory tachycardia and a high-output state, aggravating ischaemia and, over time, straining the heart.
+- `connects-to` → **[Lymphatic System](../lymphatic-system/README.md)** — The reticuloendothelial system drives it: splenic and nodal macrophages trap recycled iron behind hepcidin, the core mechanism that starves the marrow of iron for erythropoiesis.
+- `connects-to` → **[Respiratory System](../respiratory-system/README.md)** — Lung disease usually raises red cells via hypoxic erythropoietin, but in COPD the systemic inflammation blunts that response, so anemia of chronic disease can paradoxically appear instead.
 
 [^weiss-2005-acd-review]: Weiss G, Goodnough LT. Anemia of chronic disease. *N Engl J Med.* 2005;352(10):1011-1023. [doi:10.1056/NEJMra041809](https://doi.org/10.1056/NEJMra041809) · [PubMed 15758012](https://pubmed.ncbi.nlm.nih.gov/15758012/)
 [^nemeth-2004-il6-hepcidin]: Nemeth E, Rivera S, Gabayan V, et al. IL-6 mediates hypoferremia of inflammation by inducing the synthesis of the iron regulatory hormone hepcidin. *J Clin Invest.* 2004;113(9):1271-1276. [doi:10.1172/JCI200420945](https://doi.org/10.1172/JCI200420945) · [PubMed 15124018](https://pubmed.ncbi.nlm.nih.gov/15124018/)

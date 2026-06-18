@@ -229,6 +229,15 @@ cross_links:
   - target: 01-human/07-system/renal-system
     relation: connects-to
     note: "It hides kidney trouble: the very low muscle mass of anorexia makes serum creatinine misleadingly normal, masking the prerenal injury that dehydration and electrolyte loss inflict on the kidney."
+  - target: 01-human/07-system/tuberculosis
+    relation: connects-to
+    note: "Severe undernutrition is the world's leading risk factor for tuberculosis: the cell-mediated immune collapse of starvation lets latent infection reactivate into active disease."
+  - target: 03-medicine/03-food/vitamin-d
+    relation: connects-to
+    note: "Restrictive eating starves the body of fat-soluble vitamins: chronic vitamin D deficiency compounds the bone demineralisation already driven by low oestrogen and high cortisol."
+  - target: 03-medicine/01-modern/10-mental-health/fluoxetine
+    relation: connects-to
+    note: "Antidepressants barely work in the starved brain: SSRIs like fluoxetine show little benefit until weight is restored, though they are used for the depression and OCD that commonly coexist."
 ---
 
 # Anorexia Nervosa
@@ -440,6 +449,9 @@ In healthy individuals, food cues activate the mesolimbic reward circuit (VTA �
 - `connects-to` → **[Respiratory System](../respiratory-system/README.md)** — Starvation weakens the breath: respiratory muscle wasting reduces ventilatory capacity, and self-induced vomiting can cause spontaneous pneumomediastinum and aspiration.
 - `connects-to` → **[Immune System](../immune-system/README.md)** — Starvation transforms the marrow: severe anorexia causes gelatinous marrow transformation with leukopenia and lymphopenia, leaving relative immune compromise despite often-preserved skin-test responses.
 - `connects-to` → **[Renal System](../renal-system/README.md)** — It hides kidney trouble: the very low muscle mass of anorexia makes serum creatinine misleadingly normal, masking the prerenal injury that dehydration and electrolyte loss inflict on the kidney.
+- `connects-to` → **[Tuberculosis](../tuberculosis/README.md)** — Severe undernutrition is the world's leading risk factor for tuberculosis: the cell-mediated immune collapse of starvation lets latent infection reactivate into active disease.
+- `connects-to` → **[Vitamin D](../../../03-medicine/03-food/vitamin-d/README.md)** — Restrictive eating starves the body of fat-soluble vitamins: chronic vitamin D deficiency compounds the bone demineralisation already driven by low oestrogen and high cortisol.
+- `connects-to` → **[Fluoxetine](../../../03-medicine/01-modern/10-mental-health/fluoxetine/README.md)** — Antidepressants barely work in the starved brain: SSRIs like fluoxetine show little benefit until weight is restored, though they are used for the depression and OCD that commonly coexist.
 
 [^treasure-2010-an-lancet]: Treasure J, Claudino AM, Zucker N. Eating disorders. *Lancet.* 2010;375(9714):583-593. [doi:10.1016/S0140-6736(09)61748-7](https://doi.org/10.1016/S0140-6736(09)61748-7) · [PubMed 19931176](https://pubmed.ncbi.nlm.nih.gov/19931176/)
 [^lock-2010-fbt-an]: Lock J, Le Grange D, Agras WS, et al. Randomized clinical trial comparing family-based treatment with adolescent-focused individual therapy for adolescents with anorexia nervosa. *Arch Gen Psychiatry.* 2010;67(10):1025-1032. [doi:10.1001/archgenpsychiatry.2010.128](https://doi.org/10.1001/archgenpsychiatry.2010.128) · [PubMed 20921118](https://pubmed.ncbi.nlm.nih.gov/20921118/)
