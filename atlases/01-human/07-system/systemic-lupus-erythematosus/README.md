@@ -241,6 +241,15 @@ cross_links:
   - target: 03-medicine/01-modern/09-hematology/warfarin
     relation: connects-to
     note: "Clotting needs lifelong anticoagulation: lupus patients with secondary antiphospholipid syndrome require warfarin after thrombosis, as it prevents recurrent clots better than direct oral anticoagulants in this setting."
+  - target: 03-medicine/01-modern/13-cancer/cancer-chemotherapy
+    relation: connects-to
+    note: "Cytotoxics control severe disease: cyclophosphamide, mycophenolate and azathioprine — chemotherapy-derived immunosuppressants — are mainstays for lupus nephritis and major organ involvement, sparing the high-dose steroids that cause long-term harm."
+  - target: 03-medicine/01-modern/13-cancer/targeted-therapy
+    relation: connects-to
+    note: "Biologics target its drivers: belimumab against BAFF and anifrolumab against the type-I interferon receptor, with rituximab, treat refractory SLE by hitting the B-cell and interferon pathways central to its autoimmunity."
+  - target: 01-human/05-tissue/arterial-wall
+    relation: connects-to
+    note: "It ages the arteries early: chronic inflammation and antiphospholipid antibodies accelerate atherosclerosis of the arterial wall in SLE, so premature myocardial infarction and stroke are leading causes of late death."
 ---
 
 # Systemic Lupus Erythematosus
@@ -439,6 +448,9 @@ Highly polygenic disease with >100 susceptibility loci; heritability ~66%:
 - `connects-to` → **[Endocrine System](../endocrine-system/README.md)** — Hormones and glands entangle with it: autoimmune thyroid disease frequently coexists with lupus, oestrogen shapes its female predominance, and glucocorticoid treatment causes diabetes and adrenal suppression.
 - `connects-to` → **[Corticosteroids](../../../03-medicine/01-modern/02-respiratory/corticosteroids/README.md)** — They control flares at a cost: corticosteroids are the rapid mainstay for lupus flares and nephritis, but long-term use brings osteoporosis, infection and metabolic harm, so steroid-sparing drugs are sought.
 - `connects-to` → **[Warfarin](../../../03-medicine/01-modern/09-hematology/warfarin/README.md)** — Clotting needs lifelong anticoagulation: lupus patients with secondary antiphospholipid syndrome require warfarin after thrombosis, as it prevents recurrent clots better than direct oral anticoagulants in this setting.
+- `connects-to` → **[Cancer Chemotherapy](../../../03-medicine/01-modern/13-cancer/cancer-chemotherapy/README.md)** — Cytotoxics control severe disease: cyclophosphamide, mycophenolate and azathioprine — chemotherapy-derived immunosuppressants — are mainstays for lupus nephritis and major organ involvement, sparing the high-dose steroids that cause long-term harm.
+- `connects-to` → **[Targeted Therapy](../../../03-medicine/01-modern/13-cancer/targeted-therapy/README.md)** — Biologics target its drivers: belimumab against BAFF and anifrolumab against the type-I interferon receptor, with rituximab, treat refractory SLE by hitting the B-cell and interferon pathways central to its autoimmunity.
+- `connects-to` → **[Arterial Wall](../../05-tissue/arterial-wall/README.md)** — It ages the arteries early: chronic inflammation and antiphospholipid antibodies accelerate atherosclerosis of the arterial wall in SLE, so premature myocardial infarction and stroke are leading causes of late death.
 
 [^tsokos-2011-sle-review]: Tsokos GC. Systemic lupus erythematosus. *N Engl J Med.* 2011;365(22):2110-2121. [doi:10.1056/NEJMra1100359](https://doi.org/10.1056/NEJMra1100359) · [PubMed 22129253](https://pubmed.ncbi.nlm.nih.gov/22129253/)
 [^furie-2011-belimumab]: Furie R, Petri M, Zamani O, et al. A phase III, randomized, placebo-controlled study of belimumab, a monoclonal antibody that inhibits B lymphocyte stimulator, in patients with systemic lupus erythematosus. *Arthritis Rheum.* 2011;63(12):3918-3930. [doi:10.1002/art.30613](https://doi.org/10.1002/art.30613) · [PubMed 22127708](https://pubmed.ncbi.nlm.nih.gov/22127708/)
