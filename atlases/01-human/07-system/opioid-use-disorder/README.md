@@ -229,6 +229,15 @@ cross_links:
   - target: 01-human/07-system/lymphatic-system
     relation: connects-to
     note: "Repeated injection wrecks the lymphatics: 'puffy hand syndrome' is a chronic, disfiguring lymphoedema of the hands and forearms from injection damage to lymphatic vessels in long-term users."
+  - target: 01-human/07-system/renal-system
+    relation: connects-to
+    note: "It reaches the kidney through the muscle: opioid overdose causes prolonged immobility and rhabdomyolysis with acute kidney injury, and heroin use is linked to a focal segmental glomerulosclerosis."
+  - target: 02-pathogen/01-viruses/hepatitis-b-virus
+    relation: connects-to
+    note: "Shared needles spread blood-borne virus: alongside hepatitis C and HIV, hepatitis B is transmitted by injecting drug use, making vaccination and harm-reduction central to care."
+  - target: 02-pathogen/02-bacteria/clostridium-tetani
+    relation: connects-to
+    note: "Contaminated injection seeds soil organisms: 'skin-popping' and dirty needles expose injectors to tetanus and wound botulism from Clostridium spores, a re-emerging cause of severe illness."
 ---
 
 # Opioid Use Disorder
@@ -454,6 +463,9 @@ The primary mechanism by which opioids produce euphoria:
 - `connects-to` → **[Cardiovascular System](../cardiovascular-system/README.md)** — Injection and methadone threaten the heart: injecting drug use causes right-sided infective endocarditis, and methadone prolongs the QT interval, risking dangerous arrhythmias.
 - `connects-to` → **[Immune System](../immune-system/README.md)** — Opioids themselves suppress immunity: opioid receptors on immune cells blunt their function, so opioid use disorder weakens host defence on top of the infections that injecting introduces.
 - `connects-to` → **[Lymphatic System](../lymphatic-system/README.md)** — Repeated injection wrecks the lymphatics: 'puffy hand syndrome' is a chronic, disfiguring lymphoedema of the hands and forearms from injection damage to lymphatic vessels in long-term users.
+- `connects-to` → **[Renal System](../renal-system/README.md)** — It reaches the kidney through the muscle: opioid overdose causes prolonged immobility and rhabdomyolysis with acute kidney injury, and heroin use is linked to a focal segmental glomerulosclerosis.
+- `connects-to` → **[Hepatitis B virus](../../../02-pathogen/01-viruses/hepatitis-b-virus/README.md)** — Shared needles spread blood-borne virus: alongside hepatitis C and HIV, hepatitis B is transmitted by injecting drug use, making vaccination and harm-reduction central to care.
+- `connects-to` → **[Clostridium tetani](../../../02-pathogen/02-bacteria/clostridium-tetani/README.md)** — Contaminated injection seeds soil organisms: 'skin-popping' and dirty needles expose injectors to tetanus and wound botulism from Clostridium spores, a re-emerging cause of severe illness.
 
 [^volkow-2016-opioid-crisis]: Volkow ND, Collins FS. The role of science in addressing the opioid crisis. *N Engl J Med.* 2017;377(4):391-394. [doi:10.1056/NEJMsr1706626](https://doi.org/10.1056/NEJMsr1706626) · [PubMed 28723324](https://pubmed.ncbi.nlm.nih.gov/28723324/)
 [^mattick-2009-bupe-meta]: Mattick RP, Breen C, Kimber J, Davoli M. Buprenorphine maintenance versus placebo or methadone maintenance for opioid dependence. *Cochrane Database Syst Rev.* 2014;2:CD002207. [doi:10.1002/14651858.CD002207.pub4](https://doi.org/10.1002/14651858.CD002207.pub4) · [PubMed 24500948](https://pubmed.ncbi.nlm.nih.gov/24500948/)

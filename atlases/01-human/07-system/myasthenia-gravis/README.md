@@ -226,6 +226,15 @@ cross_links:
   - target: 01-human/07-system/integumentary-system
     relation: connects-to
     note: "Its thymoma brings skin autoimmunity: thymoma-associated myasthenia can accompany paraneoplastic pemphigus and other cutaneous autoimmune disease, reflecting the syndrome's broad autoreactivity."
+  - target: 01-human/07-system/renal-system
+    relation: connects-to
+    note: "Treatment, not the disease, reaches the kidney: long-term calcineurin-inhibitor immunosuppression for myasthenia is nephrotoxic, and a thymoma can rarely associate with membranous nephropathy."
+  - target: 03-medicine/01-modern/04-cardio/beta-blockers
+    relation: connects-to
+    note: "Some common drugs worsen it: beta-blockers, like aminoglycosides and intravenous magnesium, can impair neuromuscular transmission and unmask or aggravate myasthenia gravis."
+  - target: 02-pathogen/02-bacteria/streptococcus-pneumoniae
+    relation: connects-to
+    note: "Infection can tip it into crisis: a respiratory infection such as pneumococcal pneumonia is a frequent trigger of life-threatening myasthenic crisis, and vaccination is advised before immunosuppression."
 ---
 
 # Myasthenia Gravis
@@ -406,6 +415,9 @@ cross_links:
 - `connects-to` → **[Lymphatic System](../lymphatic-system/README.md)** — The thymus drives the disease: thymic hyperplasia and thymoma generate the autoreactive response against acetylcholine receptors, which is why thymectomy improves outcomes in myasthenia gravis.
 - `connects-to` → **[Cardiovascular System](../cardiovascular-system/README.md)** — It can inflame the heart: autoimmune myocarditis occurs especially with thymoma and anti-striational antibodies, causing arrhythmia and heart failure that complicate the disease.
 - `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — Its thymoma brings skin autoimmunity: thymoma-associated myasthenia can accompany paraneoplastic pemphigus and other cutaneous autoimmune disease, reflecting the syndrome's broad autoreactivity.
+- `connects-to` → **[Renal System](../renal-system/README.md)** — Treatment, not the disease, reaches the kidney: long-term calcineurin-inhibitor immunosuppression for myasthenia is nephrotoxic, and a thymoma can rarely associate with membranous nephropathy.
+- `connects-to` → **[Beta-blockers](../../../03-medicine/01-modern/04-cardio/beta-blockers/README.md)** — Some common drugs worsen it: beta-blockers, like aminoglycosides and intravenous magnesium, can impair neuromuscular transmission and unmask or aggravate myasthenia gravis.
+- `connects-to` → **[Streptococcus pneumoniae](../../../02-pathogen/02-bacteria/streptococcus-pneumoniae/README.md)** — Infection can tip it into crisis: a respiratory infection such as pneumococcal pneumonia is a frequent trigger of life-threatening myasthenic crisis, and vaccination is advised before immunosuppression.
 
 [^gilhus-2016-mg-review]: Gilhus NE. Myasthenia Gravis. *N Engl J Med.* 2016;375(26):2570-2581. [doi:10.1056/NEJMra1602678](https://doi.org/10.1056/NEJMra1602678) · [PubMed 28029925](https://pubmed.ncbi.nlm.nih.gov/28029925/)
 [^howard-2021-efgartigimod-adapt]: Howard JF Jr, Bril V, Vu T, et al. Safety, efficacy, and tolerability of efgartigimod in patients with generalised myasthenia gravis (ADAPT). *Lancet Neurol.* 2021;20(7):526-536. [doi:10.1016/S1474-4422(21)00159-9](https://doi.org/10.1016/S1474-4422(21)00159-9) · [PubMed 34146511](https://pubmed.ncbi.nlm.nih.gov/34146511/)
