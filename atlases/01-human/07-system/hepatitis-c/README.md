@@ -237,6 +237,15 @@ cross_links:
   - target: 03-medicine/01-modern/11-biologics/adalimumab
     relation: connects-to
     note: "Unlike hepatitis B, it tolerates biologics: anti-TNF drugs like adalimumab are relatively safe in chronic hepatitis C and do not reactivate it as they do hepatitis B, though monitoring continues."
+  - target: 01-human/05-tissue/hepatic-lobule
+    relation: connects-to
+    note: "It quietly scars the lobule: hepatitis C smoulders in hepatocytes for decades, with lobular inflammation and (in genotype 3) steatosis driving the fibrosis and cirrhosis that precede liver failure and cancer."
+  - target: 03-medicine/01-modern/13-cancer/cancer-chemotherapy
+    relation: connects-to
+    note: "It seeds B-cell lymphomas: chronic HCV antigen stimulation drives B-cell non-Hodgkin lymphomas treated with chemotherapy — and clearing the virus with antivirals can itself regress indolent HCV-associated lymphoma."
+  - target: 03-medicine/01-modern/13-cancer/checkpoint-inhibitors
+    relation: connects-to
+    note: "Immunotherapy for its liver cancer: HCV-related hepatocellular carcinoma, even after viral cure, is treated with checkpoint inhibitors such as atezolizumab with bevacizumab when it reaches the advanced stage."
 ---
 
 # Hepatitis C
@@ -436,3 +445,6 @@ HCV cirrhosis → HCC risk 1–5% per year (annual ultrasound surveillance ± AF
 - `connects-to` → **[Respiratory System](../respiratory-system/README.md)** — Its cryoglobulins can scar the lungs: hepatitis-C-associated mixed cryoglobulinaemia can cause interstitial lung disease and pulmonary vasculitis among its extrahepatic effects.
 - `connects-to` → **[Corticosteroids](../../../03-medicine/01-modern/02-respiratory/corticosteroids/README.md)** — Steroids treat its vasculitis: corticosteroids, with rituximab and antivirals, control the cryoglobulinaemic vasculitis that hepatitis C drives through chronic B-cell stimulation.
 - `connects-to` → **[Adalimumab](../../../03-medicine/01-modern/11-biologics/adalimumab/README.md)** — Unlike hepatitis B, it tolerates biologics: anti-TNF drugs like adalimumab are relatively safe in chronic hepatitis C and do not reactivate it as they do hepatitis B, though monitoring continues.
+- `connects-to` → **[Hepatic Lobule](../../05-tissue/hepatic-lobule/README.md)** — It quietly scars the lobule: hepatitis C smoulders in hepatocytes for decades, with lobular inflammation and (in genotype 3) steatosis driving the fibrosis and cirrhosis that precede liver failure and cancer.
+- `connects-to` → **[Cancer Chemotherapy](../../../03-medicine/01-modern/13-cancer/cancer-chemotherapy/README.md)** — It seeds B-cell lymphomas: chronic HCV antigen stimulation drives B-cell non-Hodgkin lymphomas treated with chemotherapy — and clearing the virus with antivirals can itself regress indolent HCV-associated lymphoma.
+- `connects-to` → **[Checkpoint Inhibitors](../../../03-medicine/01-modern/13-cancer/checkpoint-inhibitors/README.md)** — Immunotherapy for its liver cancer: HCV-related hepatocellular carcinoma, even after viral cure, is treated with checkpoint inhibitors such as atezolizumab with bevacizumab when it reaches the advanced stage.
