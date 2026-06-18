@@ -205,6 +205,15 @@ cross_links:
   - target: 01-human/07-system/generalized-anxiety-disorder
     relation: connects-to
     note: "Lifelong recurrence monitoring breeds worry: the thyroglobulin checks, neck ultrasounds and scan-anxiety of thyroid-cancer surveillance foster chronic health anxiety even in this often indolent cancer."
+  - target: 01-human/07-system/respiratory-system
+    relation: connects-to
+    note: "It invades the airway and spreads to the lungs: locally advanced thyroid cancer can infiltrate the trachea causing airway compromise, and differentiated thyroid cancer metastasises to the lungs."
+  - target: 01-human/07-system/nervous-system
+    relation: connects-to
+    note: "Surgery threatens the voice and the nerves: thyroidectomy risks recurrent laryngeal nerve injury with hoarseness, and the resulting hypoparathyroidism causes hypocalcaemic tetany and paraesthesiae."
+  - target: 01-human/07-system/integumentary-system
+    relation: connects-to
+    note: "Aggressive disease reaches the skin: anaplastic thyroid cancer invades the overlying neck skin, and the radioiodine and surgery used for thyroid cancer leave their own cutaneous and scar effects."
 ---
 
 # Thyroid Cancer
@@ -411,6 +420,9 @@ Calcitonin doubling time <6 months → poor prognosis → early systemic therapy
 - `connects-to` → **[Wound Healing](../wound-healing/README.md)** — Thyroidectomy and anti-angiogenic drugs heal slowly: total thyroidectomy leaves a neck wound at risk to the recurrent laryngeal nerve and parathyroids, and the multikinase inhibitors for refractory disease impair wound healing.
 - `connects-to` → **[Digestive System](../digestive-system/README.md)** — Some thyroid cancers churn the gut: medullary thyroid cancer secretes calcitonin that causes secretory diarrhoea, and the multikinase inhibitors used for advanced disease commonly cause diarrhoea too.
 - `connects-to` → **[Generalized Anxiety Disorder](../generalized-anxiety-disorder/README.md)** — Lifelong recurrence monitoring breeds worry: the thyroglobulin checks, neck ultrasounds and scan-anxiety of thyroid-cancer surveillance foster chronic health anxiety even in this often indolent cancer.
+- `connects-to` → **[Respiratory System](../respiratory-system/README.md)** — It invades the airway and spreads to the lungs: locally advanced thyroid cancer can infiltrate the trachea causing airway compromise, and differentiated thyroid cancer metastasises to the lungs.
+- `connects-to` → **[Nervous System](../nervous-system/README.md)** — Surgery threatens the voice and the nerves: thyroidectomy risks recurrent laryngeal nerve injury with hoarseness, and the resulting hypoparathyroidism causes hypocalcaemic tetany and paraesthesiae.
+- `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — Aggressive disease reaches the skin: anaplastic thyroid cancer invades the overlying neck skin, and the radioiodine and surgery used for thyroid cancer leave their own cutaneous and scar effects.
 
 [^schlumberger-2015-lenvatinib]: Schlumberger M, Tahara M, Wirth LJ, et al. Lenvatinib versus placebo in radioiodine-refractory differentiated thyroid cancer. *N Engl J Med.* 2015;372(7):621-630. [doi:10.1056/NEJMoa1406470](https://doi.org/10.1056/NEJMoa1406470) · [PubMed 25671254](https://pubmed.ncbi.nlm.nih.gov/25671254/)
 [^subbiah-2018-atc-dabrafenib]: Subbiah V, Kreitman RJ, Wainberg ZA, et al. Dabrafenib and trametinib treatment in patients with locally advanced or metastatic BRAF V600-mutant anaplastic thyroid cancer. *J Clin Oncol.* 2018;36(1):7-13. [doi:10.1200/JCO.2017.73.6785](https://doi.org/10.1200/JCO.2017.73.6785) · [PubMed 28892432](https://pubmed.ncbi.nlm.nih.gov/28892432/)

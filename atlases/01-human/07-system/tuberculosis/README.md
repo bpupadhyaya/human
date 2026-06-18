@@ -205,6 +205,15 @@ cross_links:
   - target: 01-human/07-system/generalized-anxiety-disorder
     relation: connects-to
     note: "A long, isolating, stigmatised illness breeds worry: the months of treatment, infectivity precautions and social stigma of TB foster chronic anxiety alongside the depression its course and drugs can bring."
+  - target: 01-human/07-system/respiratory-system
+    relation: connects-to
+    note: "The lung is its home: pulmonary tuberculosis is the dominant form, cavitating the upper lobes and causing chronic cough, haemoptysis and fibrosis, and it spreads by infectious aerosols."
+  - target: 01-human/07-system/nervous-system
+    relation: connects-to
+    note: "It invades the brain and spine: tuberculous meningitis and intracranial tuberculomas are devastating, and Pott's disease of the spine can collapse vertebrae onto the spinal cord."
+  - target: 01-human/07-system/renal-system
+    relation: connects-to
+    note: "It seeds the urinary tract: genitourinary tuberculosis causes sterile pyuria, ureteric strictures and renal destruction, a common site of extrapulmonary disease."
 ---
 
 # Tuberculosis
@@ -401,6 +410,9 @@ Standard **HRZE** regimen [^nahid-2016-tb-treatment]:
 - `connects-to` → **[Endocrine System](../endocrine-system/README.md)** — It is the classic cause of adrenal failure worldwide: TB can destroy both adrenal glands, producing Addison's disease, and tuberculous involvement of the pituitary or thyroid adds further endocrine damage.
 - `connects-to` → **[Digestive System](../digestive-system/README.md)** — TB attacks the gut and its drugs poison the liver: intestinal and peritoneal tuberculosis mimic Crohn's disease and cause obstruction, while isoniazid, rifampicin and pyrazinamide are all hepatotoxic.
 - `connects-to` → **[Generalized Anxiety Disorder](../generalized-anxiety-disorder/README.md)** — A long, isolating, stigmatised illness breeds worry: the months of treatment, infectivity precautions and social stigma of TB foster chronic anxiety alongside the depression its course and drugs can bring.
+- `connects-to` → **[Respiratory System](../respiratory-system/README.md)** — The lung is its home: pulmonary tuberculosis is the dominant form, cavitating the upper lobes and causing chronic cough, haemoptysis and fibrosis, and it spreads by infectious aerosols.
+- `connects-to` → **[Nervous System](../nervous-system/README.md)** — It invades the brain and spine: tuberculous meningitis and intracranial tuberculomas are devastating, and Pott's disease of the spine can collapse vertebrae onto the spinal cord.
+- `connects-to` → **[Renal System](../renal-system/README.md)** — It seeds the urinary tract: genitourinary tuberculosis causes sterile pyuria, ureteric strictures and renal destruction, a common site of extrapulmonary disease.
 
 ## See Also
 
