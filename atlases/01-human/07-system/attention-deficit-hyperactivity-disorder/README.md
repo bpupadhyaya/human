@@ -250,6 +250,15 @@ cross_links:
   - target: 01-human/07-system/schizophrenia
     relation: connects-to
     note: "Shared neurodevelopmental roots: ADHD and schizophrenia overlap in genetic risk and dopaminergic dysfunction, and childhood ADHD is associated with a modestly raised later risk of psychosis."
+  - target: 01-human/05-tissue/axonal-transport
+    relation: connects-to
+    note: "Its wiring is subtly altered: ADHD shows differences in white-matter microstructure and axonal connectivity across fronto-striatal and cerebellar networks, the structural correlate of its attention and impulse-control difficulties."
+  - target: 01-human/07-system/parkinsons-disease
+    relation: connects-to
+    note: "A shared dopamine thread: ADHD and Parkinson's both centre on dopamine dysregulation — one treated by boosting dopamine with stimulants, the other by replacing it — and ADHD is linked to a modestly higher later risk of Parkinson's."
+  - target: 01-human/05-tissue/cardiac-conduction-system
+    relation: connects-to
+    note: "Its stimulants touch the heart's rhythm: methylphenidate and amphetamines raise heart rate and blood pressure and can affect cardiac conduction, so cardiac history is screened before starting stimulant treatment for ADHD."
 ---
 
 # Attention-Deficit/Hyperactivity Disorder
@@ -473,6 +482,9 @@ ADHD is a clinical diagnosis requiring [^biederman-2005-adhd-adults]:
 - `connects-to` → **[Neurofibromatosis Type 1](../neurofibromatosis-type-1/README.md)** — A genetic cause of the attention phenotype: around half of children with neurofibromatosis type 1 meet criteria for ADHD, making it one of the strongest single-gene contributors to the disorder.
 - `connects-to` → **[Fibromyalgia](../fibromyalgia/README.md)** — Inattention and chronic pain overlap: ADHD is markedly more common in fibromyalgia, the two sharing dopaminergic dysregulation, poor sleep and difficulties with attention and pain processing.
 - `connects-to` → **[Schizophrenia](../schizophrenia/README.md)** — Shared neurodevelopmental roots: ADHD and schizophrenia overlap in genetic risk and dopaminergic dysfunction, and childhood ADHD is associated with a modestly raised later risk of psychosis.
+- `connects-to` → **[Axonal Transport](../../05-tissue/axonal-transport/README.md)** — Its wiring is subtly altered: ADHD shows differences in white-matter microstructure and axonal connectivity across fronto-striatal and cerebellar networks, the structural correlate of its attention and impulse-control difficulties.
+- `connects-to` → **[Parkinson's Disease](../parkinsons-disease/README.md)** — A shared dopamine thread: ADHD and Parkinson's both centre on dopamine dysregulation — one treated by boosting dopamine with stimulants, the other by replacing it — and ADHD is linked to a modestly higher later risk of Parkinson's.
+- `connects-to` → **[Cardiac Conduction System](../../05-tissue/cardiac-conduction-system/README.md)** — Its stimulants touch the heart's rhythm: methylphenidate and amphetamines raise heart rate and blood pressure and can affect cardiac conduction, so cardiac history is screened before starting stimulant treatment for ADHD.
 
 [^faraone-2021-adhd-primer]: Faraone SV, Banaschewski T, Coghill D, et al. The World Federation of ADHD International Consensus Statement: 208 Evidence-based conclusions about the disorder. *Neurosci Biobehav Rev.* 2021;128:789-818. [doi:10.1016/j.neubiorev.2021.01.022](https://doi.org/10.1016/j.neubiorev.2021.01.022) · [PubMed 33549739](https://pubmed.ncbi.nlm.nih.gov/33549739/)
 [^arnsten-2009-adhd-neuroscience]: Arnsten AF. Toward a new understanding of ADHD pathophysiology: an important role for prefrontal cortex dysfunction. *CNS Drugs.* 2009;23(Suppl 1):33-41. [doi:10.2165/00023210-200923000-00005](https://doi.org/10.2165/00023210-200923000-00005) · [PubMed 19621976](https://pubmed.ncbi.nlm.nih.gov/19621976/)

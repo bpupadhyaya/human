@@ -241,6 +241,15 @@ cross_links:
   - target: 01-human/07-system/atherosclerosis
     relation: connects-to
     note: "Chronic skin inflammation reaches the arteries: like psoriasis, severe atopic dermatitis is associated with higher cardiovascular and atherosclerotic risk through sustained systemic inflammation."
+  - target: 03-medicine/01-modern/13-cancer/targeted-therapy
+    relation: connects-to
+    note: "Type-2 biologics transformed it: dupilumab against IL-4Rα and tralokinumab against IL-13, with oral JAK inhibitors, clear moderate-to-severe atopic dermatitis by blocking the IL-4/IL-13 type-2 inflammation that drives it."
+  - target: 03-medicine/01-modern/13-cancer/cancer-chemotherapy
+    relation: connects-to
+    note: "Older systemic immunosuppressants still serve: methotrexate, azathioprine, mycophenolate and ciclosporin are used for severe atopic dermatitis before or alongside biologics, broad suppressors of the immune flare."
+  - target: 01-human/05-tissue/intestinal-epithelium
+    relation: connects-to
+    note: "A gut-skin barrier parallel: the same barrier and type-2 immune dysregulation of atopic dermatitis extends to the gut, where altered intestinal-epithelial integrity and the microbiome shape food sensitisation and the atopic march."
 ---
 
 # Atopic Dermatitis
@@ -438,6 +447,9 @@ S. aureus colonizes >90% of AD lesional skin (vs. 20% normal skin):
 - `connects-to` → **[Omega-3 Fatty Acids](../../../03-medicine/03-food/omega-3-fatty-acids/README.md)** — Diet draws prevention interest: omega-3 supplementation, especially in infancy, has been studied for preventing and easing atopic dermatitis, with modest and inconsistent evidence.
 - `connects-to` → **[Inflammatory Bowel Disease](../inflammatory-bowel-disease/README.md)** — Shared immune dysregulation links them: atopic dermatitis and inflammatory bowel disease co-occur more than expected, sharing barrier and immune-pathway defects, and JAK inhibitors treat both.
 - `connects-to` → **[Atherosclerosis](../atherosclerosis/README.md)** — Chronic skin inflammation reaches the arteries: like psoriasis, severe atopic dermatitis is associated with higher cardiovascular and atherosclerotic risk through sustained systemic inflammation.
+- `connects-to` → **[Targeted Therapy](../../../03-medicine/01-modern/13-cancer/targeted-therapy/README.md)** — Type-2 biologics transformed it: dupilumab against IL-4Rα and tralokinumab against IL-13, with oral JAK inhibitors, clear moderate-to-severe atopic dermatitis by blocking the IL-4/IL-13 type-2 inflammation that drives it.
+- `connects-to` → **[Cancer Chemotherapy](../../../03-medicine/01-modern/13-cancer/cancer-chemotherapy/README.md)** — Older systemic immunosuppressants still serve: methotrexate, azathioprine, mycophenolate and ciclosporin are used for severe atopic dermatitis before or alongside biologics, broad suppressors of the immune flare.
+- `connects-to` → **[Intestinal Epithelium](../../05-tissue/intestinal-epithelium/README.md)** — A gut-skin barrier parallel: the same barrier and type-2 immune dysregulation of atopic dermatitis extends to the gut, where altered intestinal-epithelial integrity and the microbiome shape food sensitisation and the atopic march.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
