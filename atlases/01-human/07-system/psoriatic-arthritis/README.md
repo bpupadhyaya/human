@@ -222,6 +222,15 @@ cross_links:
   - target: 01-human/07-system/wound-healing
     relation: connects-to
     note: "Immunosuppression slows surgical healing: the methotrexate and biologics that control PsA blunt the immune and inflammatory steps of repair, so wounds and joint surgery heal more slowly and infect more readily."
+  - target: 01-human/07-system/renal-system
+    relation: connects-to
+    note: "Chronic inflammation and its drugs reach the kidney: sustained inflammation can deposit secondary AA amyloid in the kidney causing proteinuria, and NSAIDs used for symptoms are nephrotoxic."
+  - target: 01-human/07-system/nervous-system
+    relation: connects-to
+    note: "Spine, eye and drugs touch the nervous system: axial disease can compress the cord, anterior uveitis affects the eye, and TNF-inhibitor therapy rarely triggers demyelination."
+  - target: 01-human/07-system/lymphatic-system
+    relation: connects-to
+    note: "Immune activation modestly raises lymphoma risk: chronic immune activation and TNF-inhibitor therapy slightly increase lymphoma risk, with reactive lymphadenopathy during active disease."
 ---
 
 # Psoriatic Arthritis
@@ -437,6 +446,9 @@ Risankizumab (anti-IL-23p19) **failed primary endpoints** in the SURPASS trial f
 - `connects-to` → **[Digestive System](../digestive-system/README.md)** — Its drugs and gut inflammation trouble the digestive tract: NSAIDs cause gastritis, methotrexate and leflunomide are hepatotoxic, and PsA shares the subclinical gut inflammation of the spondyloarthritis spectrum.
 - `connects-to` → **[Respiratory System](../respiratory-system/README.md)** — Its therapies reach the lungs: methotrexate can cause a hypersensitivity pneumonitis, and the biologics for PsA raise the risk of respiratory infections including reactivated tuberculosis.
 - `connects-to` → **[Wound Healing](../wound-healing/README.md)** — Immunosuppression slows surgical healing: the methotrexate and biologics that control PsA blunt the immune and inflammatory steps of repair, so wounds and joint surgery heal more slowly and infect more readily.
+- `connects-to` → **[Renal System](../renal-system/README.md)** — Chronic inflammation and its drugs reach the kidney: sustained inflammation can deposit secondary AA amyloid in the kidney causing proteinuria, and NSAIDs used for symptoms are nephrotoxic.
+- `connects-to` → **[Nervous System](../nervous-system/README.md)** — Spine, eye and drugs touch the nervous system: axial disease can compress the cord, anterior uveitis affects the eye, and TNF-inhibitor therapy rarely triggers demyelination.
+- `connects-to` → **[Lymphatic System](../lymphatic-system/README.md)** — Immune activation modestly raises lymphoma risk: chronic immune activation and TNF-inhibitor therapy slightly increase lymphoma risk, with reactive lymphadenopathy during active disease.
 
 [^ritchlin-2017-psa-review]: Ritchlin CT, Colbert RA, Gladman DD. Psoriatic arthritis. *N Engl J Med.* 2017;376(10):957-970. [doi:10.1056/NEJMra1505557](https://doi.org/10.1056/NEJMra1505557) · [PubMed 28273019](https://pubmed.ncbi.nlm.nih.gov/28273019/)
 [^mease-2015-secukinumab-psa-future2]: Mease PJ, et al. Secukinumab inhibition of interleukin-17A in patients with psoriatic arthritis. *N Engl J Med.* 2015;373(14):1329-1339. [doi:10.1056/NEJMoa1503317](https://doi.org/10.1056/NEJMoa1503317) · [PubMed 26422723](https://pubmed.ncbi.nlm.nih.gov/26422723/)

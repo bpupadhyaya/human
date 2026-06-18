@@ -214,6 +214,15 @@ cross_links:
   - target: 01-human/07-system/nervous-system
     relation: connects-to
     note: "It reaches the nervous system: PTCL can involve the central nervous system and meninges, and its chemotherapy adds peripheral neuropathy, complicating its aggressive course."
+  - target: 01-human/07-system/endocrine-system
+    relation: connects-to
+    note: "One subtype floods the blood with calcium: adult T-cell leukaemia/lymphoma, an HTLV-1-driven PTCL, classically causes severe paraneoplastic hypercalcaemia from osteoclast-activating signals."
+  - target: 01-human/07-system/respiratory-system
+    relation: connects-to
+    note: "It crowds and exposes the chest: mediastinal and pulmonary involvement and pleural effusions occur, and the profound immunosuppression invites opportunistic pneumonia."
+  - target: 01-human/07-system/cardiovascular-system
+    relation: connects-to
+    note: "Its chemotherapy can scar the heart: the anthracycline in CHOP-based regimens for PTCL carries a dose-dependent cardiotoxicity risk."
 ---
 
 # Peripheral T-cell Lymphoma
@@ -424,6 +433,9 @@ Aggressive presentation; generalized lymphadenopathy; extranodal involvement (~6
 - `connects-to` → **[Digestive System](../digestive-system/README.md)** — One subtype erupts in the bowel: enteropathy-associated T-cell lymphoma arises in the small intestine of coeliac disease, causing pain, obstruction, bleeding and a high risk of perforation.
 - `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — T-cell lymphomas often involve the skin: PTCL subtypes infiltrate the skin with plaques, nodules and ulcers, and angioimmunoblastic disease causes a widespread paraneoplastic rash.
 - `connects-to` → **[Nervous System](../nervous-system/README.md)** — It reaches the nervous system: PTCL can involve the central nervous system and meninges, and its chemotherapy adds peripheral neuropathy, complicating its aggressive course.
+- `connects-to` → **[Endocrine System](../endocrine-system/README.md)** — One subtype floods the blood with calcium: adult T-cell leukaemia/lymphoma, an HTLV-1-driven PTCL, classically causes severe paraneoplastic hypercalcaemia from osteoclast-activating signals.
+- `connects-to` → **[Respiratory System](../respiratory-system/README.md)** — It crowds and exposes the chest: mediastinal and pulmonary involvement and pleural effusions occur, and the profound immunosuppression invites opportunistic pneumonia.
+- `connects-to` → **[Cardiovascular System](../cardiovascular-system/README.md)** — Its chemotherapy can scar the heart: the anthracycline in CHOP-based regimens for PTCL carries a dose-dependent cardiotoxicity risk.
 
 ---
 
