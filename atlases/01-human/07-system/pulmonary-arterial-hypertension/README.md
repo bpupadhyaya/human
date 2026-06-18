@@ -229,6 +229,15 @@ cross_links:
   - target: 01-human/07-system/integumentary-system
     relation: connects-to
     note: "It shows on skin and at the drip site: connective-tissue-disease PAH brings sclerodactyly and telangiectasia, hypoxaemia causes cyanosis and clubbing, and continuous prostacyclin infusions cause skin and line-site reactions."
+  - target: 03-medicine/01-modern/04-cardio/calcium-channel-blockers
+    relation: connects-to
+    note: "A subset responds to vasodilators: the minority of idiopathic PAH patients who are vasoreactive on testing benefit from high-dose calcium-channel blockers."
+  - target: 03-medicine/01-modern/09-hematology/warfarin
+    relation: connects-to
+    note: "Anticoagulation has a historical role: warfarin was traditionally used in idiopathic pulmonary arterial hypertension to counter in-situ thrombosis, though its benefit is now debated."
+  - target: 01-human/07-system/musculoskeletal-system
+    relation: connects-to
+    note: "Breathlessness wastes the muscles: severe PAH causes profound exercise limitation and peripheral muscle deconditioning, and advanced right-heart failure brings cardiac cachexia."
 ---
 
 # Pulmonary Arterial Hypertension
@@ -422,6 +431,9 @@ Key variables: WHO functional class (I-IV), 6-minute walk distance (6MWD), NT-pr
 - `connects-to` → **[Renal System](../renal-system/README.md)** — The failing right heart backs up into the kidney: systemic venous congestion and reduced cardiac output in PAH impair renal function as a cardiorenal syndrome, worsening fluid overload.
 - `connects-to` → **[Immune System](../immune-system/README.md)** — Autoimmunity is a major cause: connective-tissue diseases such as scleroderma and lupus drive PAH through inflammatory and immune-mediated remodelling of the pulmonary arteries.
 - `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — It shows on skin and at the drip site: connective-tissue-disease PAH brings sclerodactyly and telangiectasia, hypoxaemia causes cyanosis and clubbing, and continuous prostacyclin infusions cause skin and line-site reactions.
+- `connects-to` → **[Calcium-channel Blockers](../../../03-medicine/01-modern/04-cardio/calcium-channel-blockers/README.md)** — A subset responds to vasodilators: the minority of idiopathic PAH patients who are vasoreactive on testing benefit from high-dose calcium-channel blockers.
+- `connects-to` → **[Warfarin](../../../03-medicine/01-modern/09-hematology/warfarin/README.md)** — Anticoagulation has a historical role: warfarin was traditionally used in idiopathic pulmonary arterial hypertension to counter in-situ thrombosis, though its benefit is now debated.
+- `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — Breathlessness wastes the muscles: severe PAH causes profound exercise limitation and peripheral muscle deconditioning, and advanced right-heart failure brings cardiac cachexia.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 

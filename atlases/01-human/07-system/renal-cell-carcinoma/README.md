@@ -223,6 +223,15 @@ cross_links:
   - target: 01-human/07-system/lymphatic-system
     relation: connects-to
     note: "It spreads to the nodes: regional and retroperitoneal lymph-node involvement is a poor prognostic factor in renal cell carcinoma and guides surgical and systemic treatment."
+  - target: 03-medicine/01-modern/13-cancer/targeted-therapy
+    relation: connects-to
+    note: "It is a prototype of targeted and immune therapy: anti-VEGF tyrosine-kinase inhibitors, mTOR inhibitors and checkpoint immunotherapy define modern treatment of advanced renal cell carcinoma."
+  - target: 01-human/07-system/cowden-syndrome
+    relation: connects-to
+    note: "Another hereditary kidney-cancer syndrome: like von Hippel-Lindau and Birt-Hogg-Dubé, Cowden (PTEN) syndrome raises renal cell carcinoma risk, part of its inherited differential."
+  - target: 01-human/07-system/tuberculosis
+    relation: connects-to
+    note: "Renal tuberculosis can mimic it: genitourinary TB causes renal masses, cavitation and haematuria that enter the imaging differential of renal cell carcinoma."
 ---
 
 # Renal Cell Carcinoma
@@ -410,6 +419,9 @@ Kidney → primary site of EPO production under hypoxia; VHL-intact renal inters
 - `connects-to` → **[Cardiovascular System](../cardiovascular-system/README.md)** — It grows up into the great veins: renal cell carcinoma characteristically forms a tumour thrombus that extends up the renal vein and inferior vena cava, sometimes reaching the right atrium.
 - `connects-to` → **[Nervous System](../nervous-system/README.md)** — It reaches the brain: renal cell carcinoma metastasises to the brain as vascular deposits prone to bleeding, and spinal metastases can compress the cord.
 - `connects-to` → **[Lymphatic System](../lymphatic-system/README.md)** — It spreads to the nodes: regional and retroperitoneal lymph-node involvement is a poor prognostic factor in renal cell carcinoma and guides surgical and systemic treatment.
+- `connects-to` → **[Targeted Therapy](../../../03-medicine/01-modern/13-cancer/targeted-therapy/README.md)** — It is a prototype of targeted and immune therapy: anti-VEGF tyrosine-kinase inhibitors, mTOR inhibitors and checkpoint immunotherapy define modern treatment of advanced renal cell carcinoma.
+- `connects-to` → **[Cowden Syndrome](../cowden-syndrome/README.md)** — Another hereditary kidney-cancer syndrome: like von Hippel-Lindau and Birt-Hogg-Dubé, Cowden (PTEN) syndrome raises renal cell carcinoma risk, part of its inherited differential.
+- `connects-to` → **[Tuberculosis](../tuberculosis/README.md)** — Renal tuberculosis can mimic it: genitourinary TB causes renal masses, cavitation and haematuria that enter the imaging differential of renal cell carcinoma.
 
 [^motzer-2018-checkmate214]: Motzer RJ, Tannir NM, McDermott DF, et al. Nivolumab plus ipilimumab versus sunitinib in advanced renal-cell carcinoma. *N Engl J Med.* 2018;378(14):1277-1290. [doi:10.1056/NEJMoa1712126](https://doi.org/10.1056/NEJMoa1712126) · [PubMed 29562145](https://pubmed.ncbi.nlm.nih.gov/29562145/)
 [^rini-2019-keynote426]: Rini BI, Plimack ER, Stus V, et al. Pembrolizumab plus axitinib versus sunitinib for advanced renal-cell carcinoma. *N Engl J Med.* 2019;380(12):1116-1127. [doi:10.1056/NEJMoa1816714](https://doi.org/10.1056/NEJMoa1816714) · [PubMed 30779529](https://pubmed.ncbi.nlm.nih.gov/30779529/)
