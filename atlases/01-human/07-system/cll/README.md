@@ -241,6 +241,15 @@ cross_links:
   - target: 02-pathogen/01-viruses/epstein-barr-virus
     relation: connects-to
     note: "A driver of dangerous transformation: EBV is implicated in the Richter transformation of CLL into aggressive diffuse large B-cell lymphoma, and reactivates under its immune suppression."
+  - target: 03-medicine/01-modern/13-cancer/cancer-chemotherapy
+    relation: connects-to
+    note: "From chemo to targeted era: the old FCR regimen — fludarabine, cyclophosphamide and rituximab — cured some fit CLL patients but is now largely replaced by BTK and BCL-2 inhibitors that spare cytotoxic toxicity."
+  - target: 03-medicine/01-modern/13-cancer/car-t
+    relation: connects-to
+    note: "Engineered cells for refractory disease: CD19-directed CAR-T achieves remissions in CLL that has failed BTK and BCL-2 inhibitors, extending cellular immunotherapy to the commonest adult leukaemia."
+  - target: 01-human/07-system/aml
+    relation: connects-to
+    note: "Chronic lymphoid versus acute myeloid: CLL is an indolent accumulation of mature B-cells often watched for years, whereas AML is an explosive proliferation of myeloid blasts demanding urgent therapy — the slow and fast extremes of leukaemia."
 ---
 
 # CLL
@@ -428,6 +437,9 @@ BCR cross-linking → LYN (SRC kinase) phosphorylates CD79a/b ITAMs → SYK recr
 - `connects-to` → **[Targeted Therapy](../../../03-medicine/01-modern/13-cancer/targeted-therapy/README.md)** — A chemo-free targeted era: BTK inhibitors (ibrutinib, acalabrutinib) and the BCL-2 inhibitor venetoclax have replaced chemotherapy as first-line treatment for chronic lymphocytic leukaemia.
 - `connects-to` → **[Waldenström Macroglobulinemia](../waldenstrom-macroglobulinemia/README.md)** — A fellow indolent B-cell cancer: like Waldenström macroglobulinaemia, CLL is a slow-growing mature B-cell malignancy driven by B-cell-receptor signalling and treated with BTK inhibitors.
 - `connects-to` → **[Epstein-Barr Virus](../../../02-pathogen/01-viruses/epstein-barr-virus/README.md)** — A driver of dangerous transformation: EBV is implicated in the Richter transformation of CLL into aggressive diffuse large B-cell lymphoma, and reactivates under its immune suppression.
+- `connects-to` → **[Cancer Chemotherapy](../../../03-medicine/01-modern/13-cancer/cancer-chemotherapy/README.md)** — From chemo to targeted era: the old FCR regimen — fludarabine, cyclophosphamide and rituximab — cured some fit CLL patients but is now largely replaced by BTK and BCL-2 inhibitors that spare cytotoxic toxicity.
+- `connects-to` → **[CAR-T](../../../03-medicine/01-modern/13-cancer/car-t/README.md)** — Engineered cells for refractory disease: CD19-directed CAR-T achieves remissions in CLL that has failed BTK and BCL-2 inhibitors, extending cellular immunotherapy to the commonest adult leukaemia.
+- `connects-to` → **[AML](../aml/README.md)** — Chronic lymphoid versus acute myeloid: CLL is an indolent accumulation of mature B-cells often watched for years, whereas AML is an explosive proliferation of myeloid blasts demanding urgent therapy — the slow and fast extremes of leukaemia.
 
 ---
 

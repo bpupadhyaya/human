@@ -241,6 +241,15 @@ cross_links:
   - target: 03-medicine/01-modern/13-cancer/cancer-chemotherapy
     relation: connects-to
     note: "Before and beyond the TKIs: hydroxyurea, busulfan and interferon controlled CML before imatinib, and intensive chemotherapy is still needed if it transforms to blast crisis."
+  - target: 01-human/05-tissue/arterial-wall
+    relation: connects-to
+    note: "Its drugs harm the arteries: the TKIs that control CML, especially nilotinib and ponatinib, accelerate atherosclerosis and cause arterial occlusive events — peripheral, coronary and cerebral — a key long-term toxicity to monitor."
+  - target: 01-human/05-tissue/cortical-bone
+    relation: connects-to
+    note: "Marrow overgrowth aches the bones: the massive myeloid hyperplasia of CML expands the marrow and can cause bone pain, while high cell turnover and infiltration stress the skeleton."
+  - target: 01-human/05-tissue/myocardium
+    relation: connects-to
+    note: "TKIs can stress the heart: beyond arterial events, CML tyrosine-kinase inhibitors cause fluid retention, QT prolongation and, with ponatinib, heart failure, so cardiac function is monitored during long-term therapy."
 ---
 
 # Chronic Myeloid Leukemia
@@ -428,6 +437,9 @@ Following the imatinib revolution, the current frontier is achieving **deep mole
 - `connects-to` → **[Targeted Therapy](../../../03-medicine/01-modern/13-cancer/targeted-therapy/README.md)** — The archetype of targeted therapy: BCR-ABL1 tyrosine-kinase inhibitors (imatinib and successors) turned CML from fatal into a chronic, often treatment-free-remission disease, the founding success of precision oncology.
 - `connects-to` → **[GIST](../gist/README.md)** — A shared imatinib target: gastrointestinal stromal tumour, driven by KIT, responds to imatinib just as BCR-ABL-driven CML does, the same drug treating two unrelated cancers.
 - `connects-to` → **[Cancer Chemotherapy](../../../03-medicine/01-modern/13-cancer/cancer-chemotherapy/README.md)** — Before and beyond the TKIs: hydroxyurea, busulfan and interferon controlled CML before imatinib, and intensive chemotherapy is still needed if it transforms to blast crisis.
+- `connects-to` → **[Arterial Wall](../../05-tissue/arterial-wall/README.md)** — Its drugs harm the arteries: the TKIs that control CML, especially nilotinib and ponatinib, accelerate atherosclerosis and cause arterial occlusive events — peripheral, coronary and cerebral — a key long-term toxicity to monitor.
+- `connects-to` → **[Cortical Bone](../../05-tissue/cortical-bone/README.md)** — Marrow overgrowth aches the bones: the massive myeloid hyperplasia of CML expands the marrow and can cause bone pain, while high cell turnover and infiltration stress the skeleton.
+- `connects-to` → **[Myocardium](../../05-tissue/myocardium/README.md)** — TKIs can stress the heart: beyond arterial events, CML tyrosine-kinase inhibitors cause fluid retention, QT prolongation and, with ponatinib, heart failure, so cardiac function is monitored during long-term therapy.
 
 ---
 
