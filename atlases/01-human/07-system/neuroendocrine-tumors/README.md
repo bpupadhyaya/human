@@ -205,6 +205,15 @@ cross_links:
   - target: 01-human/07-system/anemia-of-chronic-disease
     relation: connects-to
     note: "A smouldering tumour blunts the marrow: the chronic inflammatory state of metastatic NETs, compounded by GI blood loss from bowel primaries, produces a normocytic anemia of chronic disease."
+  - target: 01-human/07-system/integumentary-system
+    relation: connects-to
+    note: "Carcinoid shows on the skin: serotonin-secreting NETs cause the episodic flushing of carcinoid syndrome, and tryptophan diversion to serotonin depletes niacin, producing the dermatitis of pellagra."
+  - target: 01-human/07-system/respiratory-system
+    relation: connects-to
+    note: "They grow in and squeeze the airways: bronchial carcinoids are a recognised NET, and the bronchospasm and wheeze of carcinoid syndrome are part of its vasoactive-mediator effects."
+  - target: 01-human/07-system/nervous-system
+    relation: connects-to
+    note: "Pellagra and metastases reach the brain: the niacin deficiency of serotonin-secreting NETs causes the dementia of pellagra, and NETs can metastasise to the central nervous system."
 ---
 
 # Neuroendocrine Tumors
@@ -372,6 +381,9 @@ Treatment identical to SCLC: cisplatin (or carboplatin) + etoposide (4-6 cycles)
 - `connects-to` → **[Generalized Anxiety Disorder](../generalized-anxiety-disorder/README.md)** — Unpredictable flushing and a chronic cancer breed worry: the episodic carcinoid attacks, lifelong indolent-but-incurable course and continual imaging surveillance of NETs foster persistent health anxiety.
 - `connects-to` → **[Wound Healing](../wound-healing/README.md)** — Resecting the tumour and its liver deposits heals slowly: surgery for primary NETs and hepatic debulking, sometimes in malnourished patients with carcinoid diarrhoea, leaves wounds prone to delayed closure.
 - `connects-to` → **[Anemia of Chronic Disease](../anemia-of-chronic-disease/README.md)** — A smouldering tumour blunts the marrow: the chronic inflammatory state of metastatic NETs, compounded by GI blood loss from bowel primaries, produces a normocytic anemia of chronic disease.
+- `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — Carcinoid shows on the skin: serotonin-secreting NETs cause the episodic flushing of carcinoid syndrome, and tryptophan diversion to serotonin depletes niacin, producing the dermatitis of pellagra.
+- `connects-to` → **[Respiratory System](../respiratory-system/README.md)** — They grow in and squeeze the airways: bronchial carcinoids are a recognised NET, and the bronchospasm and wheeze of carcinoid syndrome are part of its vasoactive-mediator effects.
+- `connects-to` → **[Nervous System](../nervous-system/README.md)** — Pellagra and metastases reach the brain: the niacin deficiency of serotonin-secreting NETs causes the dementia of pellagra, and NETs can metastasise to the central nervous system.
 
 [^yao-2011-radiant3]: Yao JC, Shah MH, Ito T, et al. Everolimus for advanced pancreatic neuroendocrine tumors. *N Engl J Med.* 2011;364(6):514-523. [doi:10.1056/NEJMoa1009290](https://doi.org/10.1056/NEJMoa1009290) · [PubMed 21306237](https://pubmed.ncbi.nlm.nih.gov/21306237/)
 [^raymond-2011-sunitinib-pnet]: Raymond E, Dahan L, Raoul JL, et al. Sunitinib malate for the treatment of pancreatic neuroendocrine tumors. *N Engl J Med.* 2011;364(6):501-513. [doi:10.1056/NEJMoa1003825](https://doi.org/10.1056/NEJMoa1003825) · [PubMed 21306236](https://pubmed.ncbi.nlm.nih.gov/21306236/)
