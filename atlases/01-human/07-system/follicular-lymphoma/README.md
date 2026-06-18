@@ -205,6 +205,15 @@ cross_links:
   - target: 01-human/07-system/major-depressive-disorder
     relation: connects-to
     note: "A chronic, relapsing, incurable cancer weighs on mood: the indolent but recurring course and lifelong watchful management of follicular lymphoma contribute to a substantial burden of depression."
+  - target: 01-human/07-system/digestive-system
+    relation: connects-to
+    note: "It has a home in the gut: duodenal-type follicular lymphoma is a recognised indolent GI presentation, and nodal disease enlarges the spleen and can involve the bowel."
+  - target: 02-pathogen/01-viruses/varicella-zoster-virus
+    relation: connects-to
+    note: "Its B-cell-depleting therapy reawakens shingles: rituximab and bendamustine for follicular lymphoma cause deep, lasting immunosuppression that allows latent varicella-zoster to reactivate."
+  - target: 01-human/07-system/generalized-anxiety-disorder
+    relation: connects-to
+    note: "Watchful waiting with an incurable cancer breeds worry: the indolent but relapsing course and constant surveillance of follicular lymphoma foster chronic health anxiety alongside depression."
 ---
 
 # Follicular Lymphoma
@@ -393,6 +402,9 @@ High-risk subset (progression within 24 months of first chemoimmunotherapy): Con
 - `connects-to` → **[Neuropathic Pain](../neuropathic-pain/README.md)** — Its chemotherapy injures the nerves: the vincristine in R-CHOP and the bendamustine used for follicular lymphoma cause peripheral neuropathy with numbness and neuropathic pain.
 - `connects-to` → **[Aspergillus fumigatus](../../../02-pathogen/03-fungi/aspergillus-fumigatus/README.md)** — B-cell-depleting therapy opens the lung to mold: rituximab and bendamustine for follicular lymphoma cause prolonged immunosuppression that can permit invasive aspergillosis.
 - `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — A chronic, relapsing, incurable cancer weighs on mood: the indolent but recurring course and lifelong watchful management of follicular lymphoma contribute to a substantial burden of depression.
+- `connects-to` → **[Digestive System](../digestive-system/README.md)** — It has a home in the gut: duodenal-type follicular lymphoma is a recognised indolent GI presentation, and nodal disease enlarges the spleen and can involve the bowel.
+- `connects-to` → **[Varicella-Zoster Virus](../../../02-pathogen/01-viruses/varicella-zoster-virus/README.md)** — Its B-cell-depleting therapy reawakens shingles: rituximab and bendamustine for follicular lymphoma cause deep, lasting immunosuppression that allows latent varicella-zoster to reactivate.
+- `connects-to` → **[Generalized Anxiety Disorder](../generalized-anxiety-disorder/README.md)** — Watchful waiting with an incurable cancer breeds worry: the indolent but relapsing course and constant surveillance of follicular lymphoma foster chronic health anxiety alongside depression.
 
 ---
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
