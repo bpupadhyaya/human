@@ -205,6 +205,15 @@ cross_links:
   - target: 01-human/07-system/major-depressive-disorder
     relation: connects-to
     note: "Diagnosis and hormone therapy weigh on mood: the cancer itself plus the fatigue, loss of libido and brain effects of androgen-deprivation therapy contribute to substantial depression in treated men."
+  - target: 01-human/07-system/endocrine-system
+    relation: connects-to
+    note: "Its mainstay treatment is endocrine: androgen-deprivation therapy chemically or surgically castrates men, causing hypogonadism with hot flushes, gynaecomastia, metabolic syndrome and bone loss."
+  - target: 01-human/07-system/renal-system
+    relation: connects-to
+    note: "It sits astride the urinary outflow: prostate cancer obstructs the bladder outlet and can invade the ureters or trigones, causing retention and hydronephrosis, while prostatectomy risks lasting incontinence."
+  - target: 01-human/07-system/generalized-anxiety-disorder
+    relation: connects-to
+    note: "PSA surveillance breeds chronic worry: the repeated PSA checks, active-surveillance uncertainty and fear of recurrence in prostate cancer foster persistent health anxiety alongside depression."
 ---
 
 # Prostate Cancer
@@ -394,6 +403,9 @@ cross_links:
 - `connects-to` → **[Heart Failure](../heart-failure/README.md)** — Androgen deprivation strains the heart: the metabolic syndrome and direct vascular effects of ADT raise cardiovascular risk, and the resulting coronary disease and cardiac stress can progress to heart failure.
 - `connects-to` → **[Neuropathic Pain](../neuropathic-pain/README.md)** — Bone metastases press on nerves: prostate cancer spreads avidly to the spine, where vertebral deposits and epidural cord or nerve-root compression produce severe neuropathic pain and neurological emergency.
 - `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — Diagnosis and hormone therapy weigh on mood: the cancer itself plus the fatigue, loss of libido and brain effects of androgen-deprivation therapy contribute to substantial depression in treated men.
+- `connects-to` → **[Endocrine System](../endocrine-system/README.md)** — Its mainstay treatment is endocrine: androgen-deprivation therapy chemically or surgically castrates men, causing hypogonadism with hot flushes, gynaecomastia, metabolic syndrome and bone loss.
+- `connects-to` → **[Renal System](../renal-system/README.md)** — It sits astride the urinary outflow: prostate cancer obstructs the bladder outlet and can invade the ureters or trigones, causing retention and hydronephrosis, while prostatectomy risks lasting incontinence.
+- `connects-to` → **[Generalized Anxiety Disorder](../generalized-anxiety-disorder/README.md)** — PSA surveillance breeds chronic worry: the repeated PSA checks, active-surveillance uncertainty and fear of recurrence in prostate cancer foster persistent health anxiety alongside depression.
 
 [^beer-2014-prevail]: Beer TM, Armstrong AJ, Rathkopf D, et al. Enzalutamide in metastatic prostate cancer before chemotherapy. *N Engl J Med.* 2014;371(5):424-433. [doi:10.1056/NEJMoa1405095](https://doi.org/10.1056/NEJMoa1405095) · [PubMed 24881730](https://pubmed.ncbi.nlm.nih.gov/24881730/)
 [^sartor-2021-vision]: Sartor O, de Bono J, Chi KN, et al. Lutetium-PSMA-617 for metastatic castration-resistant prostate cancer. *N Engl J Med.* 2021;385(12):1091-1103. [doi:10.1056/NEJMoa2107322](https://doi.org/10.1056/NEJMoa2107322) · [PubMed 34161051](https://pubmed.ncbi.nlm.nih.gov/34161051/)

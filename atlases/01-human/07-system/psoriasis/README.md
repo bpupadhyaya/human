@@ -205,6 +205,15 @@ cross_links:
   - target: 01-human/07-system/dlbcl
     relation: connects-to
     note: "Severe disease and its therapy nudge lymphoma risk: chronic immune activation in severe psoriasis, and the immunosuppressants used to treat it, are associated with a modestly raised risk of lymphoma."
+  - target: 01-human/07-system/integumentary-system
+    relation: connects-to
+    note: "It is the archetypal skin disease: psoriasis drives hyperproliferation of the epidermis into well-demarcated scaly plaques, with nail pitting and scalp involvement, the visible core of the disorder."
+  - target: 01-human/07-system/endocrine-system
+    relation: connects-to
+    note: "It travels with metabolic and thyroid disease: psoriasis is strongly tied to the insulin resistance and metabolic syndrome of endocrine dysfunction and shows raised rates of autoimmune thyroid disease."
+  - target: 02-pathogen/01-viruses/varicella-zoster-virus
+    relation: connects-to
+    note: "Its biologics reawaken shingles: the TNF, IL-17/23 and especially JAK inhibitors used for moderate-to-severe psoriasis blunt antiviral immunity and raise the risk of herpes-zoster reactivation."
 ---
 
 # Psoriasis
@@ -382,6 +391,9 @@ Differential: Seborrheic dermatitis (common), pityriasis rosea (herald patch, Ch
 - `connects-to` → **[Tuberculosis](../tuberculosis/README.md)** — TNF blockade can wake latent TB: the anti-TNF biologics used for moderate-to-severe psoriasis disable the cytokine that walls off tuberculosis, so screening and treatment of latent infection precede therapy.
 - `connects-to` → **[Generalized Anxiety Disorder](../generalized-anxiety-disorder/README.md)** — Visible disease feeds chronic worry: the stigma, unpredictability and social impact of psoriasis drive anxiety alongside its well-known depression, worsening quality of life independent of skin severity.
 - `connects-to` → **[DLBCL](../dlbcl/README.md)** — Severe disease and its therapy nudge lymphoma risk: chronic immune activation in severe psoriasis, and the immunosuppressants used to treat it, are associated with a modestly raised risk of lymphoma.
+- `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — It is the archetypal skin disease: psoriasis drives hyperproliferation of the epidermis into well-demarcated scaly plaques, with nail pitting and scalp involvement, the visible core of the disorder.
+- `connects-to` → **[Endocrine System](../endocrine-system/README.md)** — It travels with metabolic and thyroid disease: psoriasis is strongly tied to the insulin resistance and metabolic syndrome of endocrine dysfunction and shows raised rates of autoimmune thyroid disease.
+- `connects-to` → **[Varicella-Zoster Virus](../../../02-pathogen/01-viruses/varicella-zoster-virus/README.md)** — Its biologics reawaken shingles: the TNF, IL-17/23 and especially JAK inhibitors used for moderate-to-severe psoriasis blunt antiviral immunity and raise the risk of herpes-zoster reactivation.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
