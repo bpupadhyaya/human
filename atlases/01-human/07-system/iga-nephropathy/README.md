@@ -223,6 +223,15 @@ cross_links:
   - target: 01-human/07-system/nervous-system
     relation: connects-to
     note: "Its vasculitic form can reach the brain: rare central-nervous-system involvement of IgA vasculitis causes seizures, headache and intracerebral haemorrhage."
+  - target: 03-medicine/01-modern/04-cardio/ace-inhibitors
+    relation: connects-to
+    note: "First-line slows the proteinuria: ACE inhibitors and ARBs reduce intraglomerular pressure and proteinuria in IgA nephropathy, the foundation of conservative treatment."
+  - target: 01-human/07-system/cardiovascular-system
+    relation: connects-to
+    note: "It carries cardiovascular risk through the kidney: the hypertension and progressive chronic kidney disease of IgA nephropathy markedly raise cardiovascular morbidity."
+  - target: 03-medicine/01-modern/02-respiratory/corticosteroids
+    relation: connects-to
+    note: "Steroids target the immune drive: corticosteroids and targeted budesonide are used in progressive IgA nephropathy to suppress the mucosal IgA response damaging the glomeruli."
 ---
 
 # IgA Nephropathy
@@ -375,6 +384,9 @@ IgAN is a **multi-hit disease** described by the Oxford Four-Hit Model:
 - `connects-to` → **[Respiratory System](../respiratory-system/README.md)** — Colds set off its bleeding kidney: IgA nephropathy classically flares with visible haematuria during or just after an upper respiratory infection — 'synpharyngitic' haematuria — reflecting its mucosal-immune origin.
 - `connects-to` → **[Lymphatic System](../lymphatic-system/README.md)** — It is born in mucosal lymphoid tissue: the galactose-deficient IgA1 that drives the disease is produced by tonsillar and gut-associated lymphoid tissue, which is why tonsillectomy is sometimes used.
 - `connects-to` → **[Nervous System](../nervous-system/README.md)** — Its vasculitic form can reach the brain: rare central-nervous-system involvement of IgA vasculitis causes seizures, headache and intracerebral haemorrhage.
+- `connects-to` → **[ACE inhibitors](../../../03-medicine/01-modern/04-cardio/ace-inhibitors/README.md)** — First-line slows the proteinuria: ACE inhibitors and ARBs reduce intraglomerular pressure and proteinuria in IgA nephropathy, the foundation of conservative treatment.
+- `connects-to` → **[Cardiovascular System](../cardiovascular-system/README.md)** — It carries cardiovascular risk through the kidney: the hypertension and progressive chronic kidney disease of IgA nephropathy markedly raise cardiovascular morbidity.
+- `connects-to` → **[Corticosteroids](../../../03-medicine/01-modern/02-respiratory/corticosteroids/README.md)** — Steroids target the immune drive: corticosteroids and targeted budesonide are used in progressive IgA nephropathy to suppress the mucosal IgA response damaging the glomeruli.
 
 ---
 

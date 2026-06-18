@@ -231,6 +231,15 @@ cross_links:
   - target: 01-human/07-system/musculoskeletal-system
     relation: connects-to
     note: "Its platelet-boosting drugs can scar the marrow: the thrombopoietin-receptor agonists eltrombopag and romiplostim can cause bone-marrow reticulin fibrosis with long-term use."
+  - target: 03-medicine/01-modern/02-respiratory/corticosteroids
+    relation: connects-to
+    note: "First-line lifts the platelets: corticosteroids are the initial treatment for immune thrombocytopenia, dampening the autoimmune platelet destruction, with IVIG added for urgent rises."
+  - target: 01-human/07-system/cardiovascular-system
+    relation: connects-to
+    note: "Treatment can swing toward clotting: the thrombopoietin-receptor agonists used in chronic ITP raise platelet counts but carry a thrombotic and cardiovascular risk."
+  - target: 01-human/07-system/renal-system
+    relation: connects-to
+    note: "Bleeding and overlap reach the kidney: ITP can cause haematuria, and when it accompanies lupus or Evans syndrome a coexisting glomerulonephritis may be present."
 ---
 
 # Immune Thrombocytopenia
@@ -437,6 +446,9 @@ ITP in pregnancy carries risk of neonatal thrombocytopenia (maternal IgG crosses
 - `connects-to` → **[Lymphatic System](../lymphatic-system/README.md)** — The spleen is its engine: the spleen is the principal site where antibody-coated platelets are destroyed and where the autoantibodies are made, which is why splenectomy is a long-standing treatment.
 - `connects-to` → **[Endocrine System](../endocrine-system/README.md)** — It clusters with autoimmune glands: ITP commonly coexists with autoimmune thyroid disease and other autoimmunity, reflecting a broader autoimmune predisposition.
 - `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — Its platelet-boosting drugs can scar the marrow: the thrombopoietin-receptor agonists eltrombopag and romiplostim can cause bone-marrow reticulin fibrosis with long-term use.
+- `connects-to` → **[Corticosteroids](../../../03-medicine/01-modern/02-respiratory/corticosteroids/README.md)** — First-line lifts the platelets: corticosteroids are the initial treatment for immune thrombocytopenia, dampening the autoimmune platelet destruction, with IVIG added for urgent rises.
+- `connects-to` → **[Cardiovascular System](../cardiovascular-system/README.md)** — Treatment can swing toward clotting: the thrombopoietin-receptor agonists used in chronic ITP raise platelet counts but carry a thrombotic and cardiovascular risk.
+- `connects-to` → **[Renal System](../renal-system/README.md)** — Bleeding and overlap reach the kidney: ITP can cause haematuria, and when it accompanies lupus or Evans syndrome a coexisting glomerulonephritis may be present.
 
 [^cines-2002-itp-review]: Cines DB, Blanchette VS. Immune thrombocytopenic purpura. *N Engl J Med.* 2002;346(13):995-1008. [doi:10.1056/NEJMra010532](https://doi.org/10.1056/NEJMra010532) · [PubMed 11919310](https://pubmed.ncbi.nlm.nih.gov/11919310/)
 [^neunert-2019-ash-itp-guidelines]: Neunert C, et al. American Society of Hematology 2019 guidelines for immune thrombocytopenia. *Blood Adv.* 2019;3(23):3829-3866. [doi:10.1182/bloodadvances.2019000966](https://doi.org/10.1182/bloodadvances.2019000966) · [PubMed 31794604](https://pubmed.ncbi.nlm.nih.gov/31794604/)
