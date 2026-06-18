@@ -207,6 +207,15 @@ cross_links:
   - target: 01-human/07-system/respiratory-system
     relation: connects-to
     note: "It travels with heavy smoking: tobacco use is markedly elevated in gambling disorder, so chronic respiratory disease is a common downstream harm of the behaviour."
+  - target: 01-human/07-system/venous-thromboembolism
+    relation: connects-to
+    note: "Marathon sessions immobilise the legs: case reports describe deep-vein thrombosis and pulmonary embolism in people who sit motionless for many hours at slot machines or screens."
+  - target: 01-human/07-system/integumentary-system
+    relation: connects-to
+    note: "Stress shows on the skin: the chronic financial stress, sleep deprivation and self-neglect of severe gambling addiction can aggravate stress-sensitive skin conditions."
+  - target: 03-medicine/01-modern/10-mental-health/fluoxetine
+    relation: connects-to
+    note: "Medication targets the comorbidity: SSRIs like fluoxetine are trialled in gambling disorder and treat the depression and anxiety that so often accompany it, though evidence for the gambling itself is mixed."
 sources:
   - id: grant-2016-gambling-review
     type: peer-reviewed
@@ -416,6 +425,9 @@ Persistent and recurrent problematic gambling behavior causing distress (≥4 of
 - `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — Hours at the machine or screen take a toll: prolonged sedentary gambling promotes back and neck pain, repetitive strain and physical deconditioning.
 - `connects-to` → **[Immune System](../immune-system/README.md)** — Chronic stress lowers defences: the sustained stress arousal and sleep deprivation of compulsive gambling blunt immune function, raising susceptibility to infection.
 - `connects-to` → **[Respiratory System](../respiratory-system/README.md)** — It travels with heavy smoking: tobacco use is markedly elevated in gambling disorder, so chronic respiratory disease is a common downstream harm of the behaviour.
+- `connects-to` → **[Venous thromboembolism](../venous-thromboembolism/README.md)** — Marathon sessions immobilise the legs: case reports describe deep-vein thrombosis and pulmonary embolism in people who sit motionless for many hours at slot machines or screens.
+- `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — Stress shows on the skin: the chronic financial stress, sleep deprivation and self-neglect of severe gambling addiction can aggravate stress-sensitive skin conditions.
+- `connects-to` → **[Fluoxetine](../../../03-medicine/01-modern/10-mental-health/fluoxetine/README.md)** — Medication targets the comorbidity: SSRIs like fluoxetine are trialled in gambling disorder and treat the depression and anxiety that so often accompany it, though evidence for the gambling itself is mixed.
 
 [^potenza-2014-gambling-neuroscience]: Potenza MN. The neurobiology of pathological gambling and drug addiction: an overview and new findings. *Philos Trans R Soc Lond B Biol Sci.* 2008;363(1507):3181-3189. [doi:10.1098/rstb.2008.0100](https://doi.org/10.1098/rstb.2008.0100) · [PubMed 18640909](https://pubmed.ncbi.nlm.nih.gov/18640909/)
 [^grant-2016-gambling-review]: Grant JE, Chamberlain SR. Gambling disorder and its relationship with substance use disorders. *Am J Addict.* 2015;24(2):126-131. [doi:10.1111/ajad.12112](https://doi.org/10.1111/ajad.12112) · [PubMed 25376793](https://pubmed.ncbi.nlm.nih.gov/25376793/)

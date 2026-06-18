@@ -226,6 +226,15 @@ cross_links:
   - target: 01-human/07-system/immune-system
     relation: connects-to
     note: "Its atherosclerosis is an inflammatory process: chronically elevated LDL is taken up by arterial macrophages into foam cells, driving the immune-cell-rich plaques that FH accelerates."
+  - target: 03-medicine/01-modern/04-cardio/aspirin
+    relation: connects-to
+    note: "Once arteries are damaged, antiplatelet cover follows: aspirin is added for secondary prevention after the premature heart attacks and strokes that untreated FH causes."
+  - target: 03-medicine/01-modern/04-cardio/ace-inhibitors
+    relation: connects-to
+    note: "They protect the heart after early infarction: ACE inhibitors support left-ventricular function after the premature myocardial infarction FH produces and treat the hypertension that compounds its vascular risk."
+  - target: 03-medicine/03-food/omega-3-fatty-acids
+    relation: connects-to
+    note: "Diet adds a modest lever: omega-3 supplements mainly lower triglycerides and complement statins, though they do little for the very high LDL that defines FH."
 ---
 
 # Familial Hypercholesterolemia
@@ -403,6 +412,9 @@ FH is a **monogenic autosomal dominant disorder** caused by mutations in three g
 - `connects-to` → **[Renal System](../renal-system/README.md)** — Its plaques narrow the renal arteries: premature atherosclerosis in FH affects the renal arteries, causing renovascular hypertension and ischaemic nephropathy with declining kidney function.
 - `connects-to` → **[Nervous System](../nervous-system/README.md)** — It hardens the arteries to the brain: lifelong high LDL drives early carotid and cerebral atherosclerosis, raising the risk of transient ischaemic attacks and ischaemic stroke at a young age.
 - `connects-to` → **[Immune System](../immune-system/README.md)** — Its atherosclerosis is an inflammatory process: chronically elevated LDL is taken up by arterial macrophages into foam cells, driving the immune-cell-rich plaques that FH accelerates.
+- `connects-to` → **[Aspirin](../../../03-medicine/01-modern/04-cardio/aspirin/README.md)** — Once arteries are damaged, antiplatelet cover follows: aspirin is added for secondary prevention after the premature heart attacks and strokes that untreated FH causes.
+- `connects-to` → **[ACE inhibitors](../../../03-medicine/01-modern/04-cardio/ace-inhibitors/README.md)** — They protect the heart after early infarction: ACE inhibitors support left-ventricular function after the premature myocardial infarction FH produces and treat the hypertension that compounds its vascular risk.
+- `connects-to` → **[Omega-3 fatty acids](../../../03-medicine/03-food/omega-3-fatty-acids/README.md)** — Diet adds a modest lever: omega-3 supplements mainly lower triglycerides and complement statins, though they do little for the very high LDL that defines FH.
 
 [^goldstein-1985-ldlr-nobel]: Goldstein JL, Brown MS. The LDL receptor. *Arterioscler Thromb Vasc Biol.* 2009;29(4):431-438. [doi:10.1161/ATVBAHA.108.179564](https://doi.org/10.1161/ATVBAHA.108.179564) · [PubMed 19299327](https://pubmed.ncbi.nlm.nih.gov/19299327/)
 [^raal-2020-inclisiran-fh]: Raal FJ, Kallend D, Ray KK, et al. Inclisiran for the Treatment of Heterozygous Familial Hypercholesterolemia. *N Engl J Med.* 2020;382(16):1520-1530. [doi:10.1056/NEJMoa1913805](https://doi.org/10.1056/NEJMoa1913805) · [PubMed 32197277](https://pubmed.ncbi.nlm.nih.gov/32197277/)
