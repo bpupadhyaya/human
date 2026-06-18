@@ -238,6 +238,15 @@ cross_links:
   - target: 02-pathogen/01-viruses/sars-cov-2
     relation: connects-to
     note: "Two pandemic respiratory viruses meet: influenza and SARS-CoV-2 co-circulate and can co-infect, share airborne spread and overlapping severe pneumonia, but differ in antivirals and vaccine strategy."
+  - target: 03-medicine/01-modern/13-cancer/targeted-therapy
+    relation: connects-to
+    note: "Newer antivirals beyond oseltamivir: baloxavir, a cap-dependent endonuclease inhibitor, and monoclonal antibodies against haemagglutinin target distinct steps of the influenza life cycle for treatment and prophylaxis."
+  - target: 01-human/05-tissue/myocardium
+    relation: connects-to
+    note: "It strains and inflames the heart: influenza causes myocarditis and sharply raises the risk of acute myocardial infarction in the days after infection — risk that influenza vaccination measurably reduces."
+  - target: 02-pathogen/06-environmental/zoonosis
+    relation: connects-to
+    note: "Pandemics come from animals: influenza A reservoirs in wild birds and pigs reassort to create novel strains (avian H5N1, swine H1N1) against which humans have little immunity — the zoonotic antigenic shift behind pandemics."
 ---
 
 # Influenza
@@ -447,3 +456,6 @@ Influenza damages mucociliary clearance and exposes basal lamina glycoproteins �
 - `connects-to` → **[Oseltamivir](../../../03-medicine/01-modern/05-antiviral/oseltamivir/README.md)** — The mainstay antiviral: oseltamivir, a neuraminidase inhibitor, shortens influenza when started early and is used for treatment and prophylaxis, alongside the newer endonuclease inhibitor baloxavir.
 - `connects-to` → **[Streptococcus pyogenes](../../../02-pathogen/02-bacteria/streptococcus-pyogenes/README.md)** — It opens the door to invasive strep: post-influenza airway damage predisposes to severe group A streptococcal pneumonia and toxic shock, a less common but devastating secondary infection.
 - `connects-to` → **[SARS-CoV-2](../../../02-pathogen/01-viruses/sars-cov-2/README.md)** — Two pandemic respiratory viruses meet: influenza and SARS-CoV-2 co-circulate and can co-infect, share airborne spread and overlapping severe pneumonia, but differ in antivirals and vaccine strategy.
+- `connects-to` → **[Targeted Therapy](../../../03-medicine/01-modern/13-cancer/targeted-therapy/README.md)** — Newer antivirals beyond oseltamivir: baloxavir, a cap-dependent endonuclease inhibitor, and monoclonal antibodies against haemagglutinin target distinct steps of the influenza life cycle for treatment and prophylaxis.
+- `connects-to` → **[Myocardium](../../05-tissue/myocardium/README.md)** — It strains and inflames the heart: influenza causes myocarditis and sharply raises the risk of acute myocardial infarction in the days after infection — risk that influenza vaccination measurably reduces.
+- `connects-to` → **[Zoonosis](../../../02-pathogen/06-environmental/zoonosis/README.md)** — Pandemics come from animals: influenza A reservoirs in wild birds and pigs reassort to create novel strains (avian H5N1, swine H1N1) against which humans have little immunity — the zoonotic antigenic shift behind pandemics.

@@ -238,6 +238,15 @@ cross_links:
   - target: 01-human/03-molecular/il-6
     relation: connects-to
     note: "Smouldering inflammation persists despite treatment: chronically raised IL-6 from residual immune activation drives the cardiovascular disease, frailty and other comorbidities seen in treated HIV."
+  - target: 03-medicine/01-modern/13-cancer/cancer-chemotherapy
+    relation: connects-to
+    note: "AIDS-defining cancers need chemo: Kaposi sarcoma and the aggressive non-Hodgkin lymphomas that define AIDS are treated with chemotherapy alongside antiretrovirals, with immune reconstitution itself improving tumour control."
+  - target: 03-medicine/01-modern/13-cancer/checkpoint-inhibitors
+    relation: connects-to
+    note: "Immunotherapy enters HIV oncology: checkpoint inhibitors treat HIV-associated lung cancer and Kaposi sarcoma, and by reversing T-cell exhaustion are studied as part of cure strategies to flush the latent reservoir."
+  - target: 01-human/05-tissue/axonal-transport
+    relation: connects-to
+    note: "It degenerates the long nerves: HIV and some antiretrovirals cause a distal sensory polyneuropathy, a dying-back axonopathy of impaired axonal transport producing painful, length-dependent neuropathy."
 ---
 
 # HIV/AIDS
@@ -426,6 +435,9 @@ HIV-1 pathogenesis is primarily driven by CD4⁺ T cell loss:
 - `connects-to` → **[Microglia](../../04-cellular/microglia/README.md)** — The virus injures the brain through them: HIV-infected microglia and macrophages release neurotoxins driving HIV encephalitis and the cognitive decline of HIV-associated neurocognitive disorder.
 - `connects-to` → **[Dietary Zinc](../../../03-medicine/03-food/zinc-dietary/README.md)** — Wasting depletes key nutrients: zinc deficiency is common in advanced HIV and contributes to immune dysfunction, with supplementation studied to support immunity in the malnourished.
 - `connects-to` → **[Interleukin-6](../../03-molecular/il-6/README.md)** — Smouldering inflammation persists despite treatment: chronically raised IL-6 from residual immune activation drives the cardiovascular disease, frailty and other comorbidities seen in treated HIV.
+- `connects-to` → **[Cancer Chemotherapy](../../../03-medicine/01-modern/13-cancer/cancer-chemotherapy/README.md)** — AIDS-defining cancers need chemo: Kaposi sarcoma and the aggressive non-Hodgkin lymphomas that define AIDS are treated with chemotherapy alongside antiretrovirals, with immune reconstitution itself improving tumour control.
+- `connects-to` → **[Checkpoint Inhibitors](../../../03-medicine/01-modern/13-cancer/checkpoint-inhibitors/README.md)** — Immunotherapy enters HIV oncology: checkpoint inhibitors treat HIV-associated lung cancer and Kaposi sarcoma, and by reversing T-cell exhaustion are studied as part of cure strategies to flush the latent reservoir.
+- `connects-to` → **[Axonal Transport](../../05-tissue/axonal-transport/README.md)** — It degenerates the long nerves: HIV and some antiretrovirals cause a distal sensory polyneuropathy, a dying-back axonopathy of impaired axonal transport producing painful, length-dependent neuropathy.
 
 ## See Also
 
