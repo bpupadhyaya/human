@@ -225,6 +225,15 @@ cross_links:
   - target: 01-human/07-system/insomnia-disorder
     relation: connects-to
     note: "Disrupted sleep feeds the binge: poor sleep and night-eating worsen binge-eating disorder, as circadian and orexin dysregulation increase evening food intake."
+  - target: 01-human/07-system/internet-gaming-disorder
+    relation: connects-to
+    note: "A fellow behavioural addiction: binge-eating and internet gaming disorder share loss of control, reward-circuit dysregulation and use of the behaviour to regulate emotion, on the addictive-behaviour spectrum."
+  - target: 01-human/07-system/cannabis-use-disorder
+    relation: connects-to
+    note: "The endocannabinoid appetite link: CB1 signalling powerfully drives food intake, so the same endocannabinoid system disordered in cannabis use also fuels the loss-of-control overeating of binge-eating disorder."
+  - target: 01-human/05-tissue/islet-of-langerhans
+    relation: connects-to
+    note: "Bingeing strains the islets: repeated large carbohydrate loads in binge-eating disorder spike insulin demand on the pancreatic islets, contributing to the hyperinsulinaemia, weight gain and type 2 diabetes risk that follow."
 sources:
   - id: american-psychiatric-2013-bed-dsm5
     type: clinical-guideline
@@ -455,6 +464,9 @@ BED is among the most psychiatrically comorbid of all eating disorders:
 - `connects-to` → **[Opioid Use Disorder](../opioid-use-disorder/README.md)** — Shared reward wiring binds them: binge eating engages the same mu-opioid and dopamine reward circuitry as substance addiction, and opioid antagonists like naltrexone reduce binge frequency.
 - `connects-to` → **[Alcohol Use Disorder](../alcohol-use-disorder/README.md)** — Impulsivity links the two: binge-eating disorder frequently coexists with alcohol use disorder, sharing traits of impaired impulse control and reward-driven consumption.
 - `connects-to` → **[Insomnia Disorder](../insomnia-disorder/README.md)** — Disrupted sleep feeds the binge: poor sleep and night-eating worsen binge-eating disorder, as circadian and orexin dysregulation increase evening food intake.
+- `connects-to` → **[Internet Gaming Disorder](../internet-gaming-disorder/README.md)** — A fellow behavioural addiction: binge-eating and internet gaming disorder share loss of control, reward-circuit dysregulation and use of the behaviour to regulate emotion, on the addictive-behaviour spectrum.
+- `connects-to` → **[Cannabis Use Disorder](../cannabis-use-disorder/README.md)** — The endocannabinoid appetite link: CB1 signalling powerfully drives food intake, so the same endocannabinoid system disordered in cannabis use also fuels the loss-of-control overeating of binge-eating disorder.
+- `connects-to` → **[Islet of Langerhans](../../05-tissue/islet-of-langerhans/README.md)** — Bingeing strains the islets: repeated large carbohydrate loads in binge-eating disorder spike insulin demand on the pancreatic islets, contributing to the hyperinsulinaemia, weight gain and type 2 diabetes risk that follow.
 
 [^american-psychiatric-2013-bed-dsm5]: American Psychiatric Association. Binge Eating Disorder (307.51). In: *Diagnostic and Statistical Manual of Mental Disorders, 5th ed.* Arlington, VA: APA; 2013. [doi:10.1176/appi.books.9780890425596](https://doi.org/10.1176/appi.books.9780890425596)
 [^mccallum-2003-bed-review]: McCallum K, Bruton AM. Binge eating disorder: eating disorder or somatic syndrome? *Prim Care Companion J Clin Psychiatry.* 2003;5(Suppl 4):20-25. [PubMed 15213784](https://pubmed.ncbi.nlm.nih.gov/15213784/)

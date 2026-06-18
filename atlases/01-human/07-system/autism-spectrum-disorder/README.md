@@ -247,6 +247,15 @@ cross_links:
   - target: 03-medicine/03-food/sulforaphane
     relation: connects-to
     note: "A food compound with a trial behind it: a randomised trial found broccoli-derived sulforaphane modestly improved behaviour in autism, proposed to act by reducing oxidative stress and inflammation."
+  - target: 03-medicine/01-modern/13-cancer/targeted-therapy
+    relation: connects-to
+    note: "Syndromic autism has druggable pathways: in TSC-, PTEN- and fragile-X-related autism the mTOR and synaptic-signalling pathways are dysregulated, making mTOR inhibitors and other targeted agents candidates for the syndromic forms."
+  - target: 01-human/05-tissue/axonal-transport
+    relation: connects-to
+    note: "Connectivity is altered: autism shows atypical long-range underconnectivity and local overconnectivity, with white-matter and axonal-transport differences shaping how distant brain regions communicate."
+  - target: 01-human/05-tissue/intestinal-epithelium
+    relation: connects-to
+    note: "The gut-brain axis is implicated: many autistic people have GI symptoms and altered intestinal-epithelial barrier function, part of the microbiome-gut-brain signalling increasingly linked to autism."
 ---
 
 # Autism Spectrum Disorder
@@ -460,6 +469,9 @@ The neural basis of ASD social deficits involves dysfunction of the **social bra
 - `connects-to` → **[Herpesviridae](../../../02-pathogen/01-viruses/herpesvirus/README.md)** — A congenital infection that raises risk: maternal cytomegalovirus and other congenital infections are established environmental risk factors for autism, acting through fetal neuroinflammation.
 - `connects-to` → **[Copper](../../02-atomic/copper/README.md)** — A trace-metal imbalance is described: altered copper-to-zinc ratios are reported in autism, with relative copper excess and zinc deficiency linked to oxidative stress in the developing brain.
 - `connects-to` → **[Sulforaphane](../../../03-medicine/03-food/sulforaphane/README.md)** — A food compound with a trial behind it: a randomised trial found broccoli-derived sulforaphane modestly improved behaviour in autism, proposed to act by reducing oxidative stress and inflammation.
+- `connects-to` → **[Targeted Therapy](../../../03-medicine/01-modern/13-cancer/targeted-therapy/README.md)** — Syndromic autism has druggable pathways: in TSC-, PTEN- and fragile-X-related autism the mTOR and synaptic-signalling pathways are dysregulated, making mTOR inhibitors and other targeted agents candidates for the syndromic forms.
+- `connects-to` → **[Axonal Transport](../../05-tissue/axonal-transport/README.md)** — Connectivity is altered: autism shows atypical long-range underconnectivity and local overconnectivity, with white-matter and axonal-transport differences shaping how distant brain regions communicate.
+- `connects-to` → **[Intestinal Epithelium](../../05-tissue/intestinal-epithelium/README.md)** — The gut-brain axis is implicated: many autistic people have GI symptoms and altered intestinal-epithelial barrier function, part of the microbiome-gut-brain signalling increasingly linked to autism.
 
 [^maenner-2023-asd-prevalence]: Maenner MJ, Warren Z, Williams AR, et al. Prevalence and characteristics of autism spectrum disorder among children aged 8 years — ADDM Network, 2020. *MMWR Surveill Summ.* 2023;72(2):1-14. [doi:10.15585/mmwr.ss7202a1](https://doi.org/10.15585/mmwr.ss7202a1) · [PubMed 36952216](https://pubmed.ncbi.nlm.nih.gov/36952216/)
 [^lord-2020-asd-review]: Lord C, Elsabbagh M, Baird G, Veenstra-Vanderweele J. Autism spectrum disorder. *Lancet.* 2018;392(10146):508-520. [doi:10.1016/S0140-6736(18)31129-2](https://doi.org/10.1016/S0140-6736(18)31129-2) · [PubMed 30078460](https://pubmed.ncbi.nlm.nih.gov/30078460/)
