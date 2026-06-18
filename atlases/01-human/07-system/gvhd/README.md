@@ -208,6 +208,15 @@ cross_links:
   - target: 01-human/07-system/major-depressive-disorder
     relation: connects-to
     note: "A grueling chronic complication weighs on mood: the prolonged disability, disfigurement and treatment burden of chronic GVHD after a hoped-for cure contribute to substantial depression in survivors."
+  - target: 01-human/07-system/integumentary-system
+    relation: connects-to
+    note: "The skin is its commonest target: GVHD produces an acute maculopapular rash and, in chronic disease, lichenoid and sclerodermatous skin with fibrosis, dyspigmentation and nail and hair loss."
+  - target: 01-human/07-system/digestive-system
+    relation: connects-to
+    note: "It attacks the gut and liver: GVHD causes profuse secretory diarrhoea, nausea and mucositis along the GI tract, and a cholestatic hepatitis when it strikes the liver."
+  - target: 01-human/07-system/respiratory-system
+    relation: connects-to
+    note: "Chronic disease scars the airways: lung GVHD presents as bronchiolitis obliterans, an obstructive, progressive and often irreversible narrowing of the small airways."
 ---
 
 # Graft-Versus-Host Disease
@@ -409,6 +418,9 @@ The protective Treg/IL-10 axis is the key biological counterbalance to alloreact
 - `connects-to` → **[Wound Healing](../wound-healing/README.md)** — Chronic GVHD scleroses and ulcerates the skin: its sclerodermatous skin changes, oral and genital erosions, on top of steroid immunosuppression, leave wounds that are slow and difficult to heal.
 - `connects-to` → **[Osteoporosis](../osteoporosis/README.md)** — Prolonged steroids erode the skeleton: the months to years of high-dose corticosteroids used to control chronic GVHD cause bone loss and avascular necrosis, a major long-term complication.
 - `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — A grueling chronic complication weighs on mood: the prolonged disability, disfigurement and treatment burden of chronic GVHD after a hoped-for cure contribute to substantial depression in survivors.
+- `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — The skin is its commonest target: GVHD produces an acute maculopapular rash and, in chronic disease, lichenoid and sclerodermatous skin with fibrosis, dyspigmentation and nail and hair loss.
+- `connects-to` → **[Digestive System](../digestive-system/README.md)** — It attacks the gut and liver: GVHD causes profuse secretory diarrhoea, nausea and mucositis along the GI tract, and a cholestatic hepatitis when it strikes the liver.
+- `connects-to` → **[Respiratory System](../respiratory-system/README.md)** — Chronic disease scars the airways: lung GVHD presents as bronchiolitis obliterans, an obstructive, progressive and often irreversible narrowing of the small airways.
 
 [^ferrara-2009-gvhd-review]: Ferrara JL, Levine JE, Reddy P, Holler E. Graft-versus-host disease. *Lancet.* 2009;373(9674):1550-1561. [doi:10.1016/S0140-6736(09)60237-3](https://doi.org/10.1016/S0140-6736(09)60237-3) · [PubMed 19380114](https://pubmed.ncbi.nlm.nih.gov/19380114/)
 [^zeiser-2020-ruxolitinib-gvhd-reach]: Zeiser R, von Bubnoff N, Butler J, et al. Ruxolitinib for Glucocorticoid-Refractory Acute Graft-versus-Host Disease. *N Engl J Med.* 2020;382(19):1800-1810. [doi:10.1056/NEJMoa1917635](https://doi.org/10.1056/NEJMoa1917635) · [PubMed 32374962](https://pubmed.ncbi.nlm.nih.gov/32374962/)

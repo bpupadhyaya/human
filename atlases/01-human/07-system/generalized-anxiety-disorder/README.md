@@ -211,6 +211,15 @@ cross_links:
   - target: 01-human/07-system/osteoporosis
     relation: connects-to
     note: "Stress hormones and sedative falls cost bone: chronic cortisol elevation in GAD lowers bone density, while the benzodiazepines often used raise fall and fracture risk on already fragile bone."
+  - target: 01-human/07-system/endocrine-system
+    relation: connects-to
+    note: "Hormones both mimic and drive it: thyrotoxicosis, phaeochromocytoma and cortisol dysregulation produce anxiety identical to GAD, and chronic worry itself dysregulates the HPA stress axis."
+  - target: 01-human/07-system/cardiovascular-system
+    relation: connects-to
+    note: "Chronic worry presses on the heart: GAD causes palpitations and sustained sympathetic arousal, and is independently associated with raised blood pressure and cardiovascular events including takotsubo cardiomyopathy."
+  - target: 01-human/07-system/attention-deficit-hyperactivity-disorder
+    relation: connects-to
+    note: "They frequently travel together: anxiety disorders are highly comorbid with ADHD, where inattention and the strain of coping fuel worry, and stimulant treatment can itself heighten anxiety."
 ---
 
 # Generalized Anxiety Disorder
@@ -413,6 +422,9 @@ Allow **4-8 weeks** for onset of anxiolytic effect. Continue treatment ≥12 mon
 - `connects-to` → **[COPD](../copd/README.md)** — Breathlessness and anxiety amplify each other: GAD is highly comorbid with COPD, where air hunger triggers panic and chronic worry, and anxiety in turn worsens dyspnea and disability.
 - `connects-to` → **[Alzheimer's Disease](../alzheimers-disease/README.md)** — Chronic worry may wear on the aging brain: sustained cortisol elevation and the long-term sedatives used for GAD are associated with an increased risk of later cognitive decline and dementia.
 - `connects-to` → **[Osteoporosis](../osteoporosis/README.md)** — Stress hormones and sedative falls cost bone: chronic cortisol elevation in GAD lowers bone density, while the benzodiazepines often used raise fall and fracture risk on already fragile bone.
+- `connects-to` → **[Endocrine System](../endocrine-system/README.md)** — Hormones both mimic and drive it: thyrotoxicosis, phaeochromocytoma and cortisol dysregulation produce anxiety identical to GAD, and chronic worry itself dysregulates the HPA stress axis.
+- `connects-to` → **[Cardiovascular System](../cardiovascular-system/README.md)** — Chronic worry presses on the heart: GAD causes palpitations and sustained sympathetic arousal, and is independently associated with raised blood pressure and cardiovascular events including takotsubo cardiomyopathy.
+- `connects-to` → **[Attention-Deficit/Hyperactivity Disorder](../attention-deficit-hyperactivity-disorder/README.md)** — They frequently travel together: anxiety disorders are highly comorbid with ADHD, where inattention and the strain of coping fuel worry, and stimulant treatment can itself heighten anxiety.
 
 [^kessler-2005-gad-prevalence]: Kessler RC, Berglund P, Demler O, et al. Lifetime prevalence and age-of-onset distributions of DSM-IV disorders in the NCS Replication. *Arch Gen Psychiatry.* 2005;62(6):593-602. [doi:10.1001/archpsyc.62.6.593](https://doi.org/10.1001/archpsyc.62.6.593) · [PubMed 15939837](https://pubmed.ncbi.nlm.nih.gov/15939837/)
 [^bandelow-2015-anxiety-biology]: Bandelow B, Michaelis S. Epidemiology of anxiety disorders in the 21st century. *Dialogues Clin Neurosci.* 2015;17(3):327-335. [doi:10.31887/DCNS.2015.17.3/bbandelow](https://doi.org/10.31887/DCNS.2015.17.3/bbandelow) · [PubMed 26487812](https://pubmed.ncbi.nlm.nih.gov/26487812/)
