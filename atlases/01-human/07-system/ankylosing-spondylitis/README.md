@@ -232,6 +232,15 @@ cross_links:
   - target: 01-human/07-system/endocrine-system
     relation: connects-to
     note: "Chronic inflammation thins bone and disturbs hormones: sustained inflammation and reduced mobility drive secondary osteoporosis, and the inflammatory state can suppress the gonadal axis."
+  - target: 03-medicine/01-modern/11-biologics/adalimumab
+    relation: connects-to
+    note: "Biologics control the spine: anti-TNF agents like adalimumab, and IL-17 inhibitors, suppress the axial inflammation of ankylosing spondylitis when NSAIDs are insufficient."
+  - target: 03-medicine/01-modern/12-anti-inflammatory/ibuprofen
+    relation: connects-to
+    note: "NSAIDs are first-line: continuous NSAIDs like ibuprofen relieve the inflammatory back pain and may slow radiographic progression of ankylosing spondylitis."
+  - target: 03-medicine/01-modern/02-respiratory/corticosteroids
+    relation: connects-to
+    note: "Steroids have a limited, local role: unlike in rheumatoid arthritis, systemic steroids help little in axial disease, but local injections treat enthesitis, peripheral arthritis and acute uveitis."
 ---
 
 # Ankylosing Spondylitis
@@ -412,6 +421,9 @@ AS originates at the **enthesis** — the site where tendons, ligaments, and joi
 - `connects-to` → **[Digestive System](../digestive-system/README.md)** — It begins in the gut: most patients with ankylosing spondylitis have subclinical microscopic gut inflammation reflecting a shared gut-joint axis, and a minority develop overt inflammatory bowel disease.
 - `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — Skin overlaps and reacts: as a spondyloarthritis it overlaps with psoriasis, and the TNF inhibitors used to treat it can paradoxically trigger psoriasiform skin eruptions.
 - `connects-to` → **[Endocrine System](../endocrine-system/README.md)** — Chronic inflammation thins bone and disturbs hormones: sustained inflammation and reduced mobility drive secondary osteoporosis, and the inflammatory state can suppress the gonadal axis.
+- `connects-to` → **[Adalimumab](../../../03-medicine/01-modern/11-biologics/adalimumab/README.md)** — Biologics control the spine: anti-TNF agents like adalimumab, and IL-17 inhibitors, suppress the axial inflammation of ankylosing spondylitis when NSAIDs are insufficient.
+- `connects-to` → **[Ibuprofen](../../../03-medicine/01-modern/12-anti-inflammatory/ibuprofen/README.md)** — NSAIDs are first-line: continuous NSAIDs like ibuprofen relieve the inflammatory back pain and may slow radiographic progression of ankylosing spondylitis.
+- `connects-to` → **[Corticosteroids](../../../03-medicine/01-modern/02-respiratory/corticosteroids/README.md)** — Steroids have a limited, local role: unlike in rheumatoid arthritis, systemic steroids help little in axial disease, but local injections treat enthesitis, peripheral arthritis and acute uveitis.
 
 [^sieper-2015-ankylosing-spondylitis-review]: Sieper J, Poddubnyy D. Ankylosing spondylitis. *Lancet.* 2017;390(10089):73-84. [doi:10.1016/S0140-6736(16)31591-4](https://doi.org/10.1016/S0140-6736(16)31591-4) · [PubMed 28110981](https://pubmed.ncbi.nlm.nih.gov/28110981/)
 [^baeten-2015-secukinumab-as]: Baeten D, Sieper J, Braun J, et al. Secukinumab, an Interleukin-17A Inhibitor, in Ankylosing Spondylitis. *N Engl J Med.* 2015;373(26):2534-2548. [doi:10.1056/NEJMoa1505066](https://doi.org/10.1056/NEJMoa1505066) · [PubMed 26699169](https://pubmed.ncbi.nlm.nih.gov/26699169/)

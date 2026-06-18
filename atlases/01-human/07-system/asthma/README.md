@@ -232,6 +232,15 @@ cross_links:
   - target: 01-human/07-system/renal-system
     relation: connects-to
     note: "Severe eosinophilic disease can attack the kidney: difficult eosinophilic asthma can herald eosinophilic granulomatosis with polyangiitis, which causes a pauci-immune glomerulonephritis."
+  - target: 03-medicine/01-modern/02-respiratory/corticosteroids
+    relation: connects-to
+    note: "Inhaled steroids are the controller: they suppress airway inflammation as the foundation of asthma maintenance, with systemic steroids for acute severe attacks."
+  - target: 03-medicine/01-modern/04-cardio/beta-blockers
+    relation: connects-to
+    note: "Some drugs can trigger an attack: non-selective beta-blockers can provoke bronchospasm and are used with caution or avoided in asthma."
+  - target: 03-medicine/01-modern/04-cardio/aspirin
+    relation: connects-to
+    note: "Aspirin can set off asthma: in aspirin-exacerbated respiratory disease (Samter's triad), NSAIDs trigger severe bronchospasm in asthmatics with nasal polyps."
 ---
 
 # Asthma
@@ -412,6 +421,9 @@ Asthma affects approximately **339 million people worldwide** (WHO 2019) and is 
 - `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — It sits in the atopic spectrum: asthma travels with eczema and urticaria through shared type 2 inflammation, and anti-IgE omalizumab treats both asthma and chronic urticaria.
 - `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — Its steroid courses weaken bone and muscle: repeated oral corticosteroid bursts for exacerbations cause osteoporosis and proximal steroid myopathy over time.
 - `connects-to` → **[Renal System](../renal-system/README.md)** — Severe eosinophilic disease can attack the kidney: difficult eosinophilic asthma can herald eosinophilic granulomatosis with polyangiitis, which causes a pauci-immune glomerulonephritis.
+- `connects-to` → **[Corticosteroids](../../../03-medicine/01-modern/02-respiratory/corticosteroids/README.md)** — Inhaled steroids are the controller: they suppress airway inflammation as the foundation of asthma maintenance, with systemic steroids for acute severe attacks.
+- `connects-to` → **[Beta-blockers](../../../03-medicine/01-modern/04-cardio/beta-blockers/README.md)** — Some drugs can trigger an attack: non-selective beta-blockers can provoke bronchospasm and are used with caution or avoided in asthma.
+- `connects-to` → **[Aspirin](../../../03-medicine/01-modern/04-cardio/aspirin/README.md)** — Aspirin can set off asthma: in aspirin-exacerbated respiratory disease (Samter's triad), NSAIDs trigger severe bronchospasm in asthmatics with nasal polyps.
 
 [^gina-2023-asthma]: Global Initiative for Asthma. Global Strategy for Asthma Management and Prevention. 2023. [ginasthma.org](https://ginasthma.org/2023-gina-main-report/)
 [^wenzel-2012-asthma-phenotypes]: Wenzel SE. Asthma phenotypes: the evolution from clinical to molecular approaches. *Nat Med.* 2012;18(5):716-725. [doi:10.1038/nm.2678](https://doi.org/10.1038/nm.2678) · [PubMed 22561835](https://pubmed.ncbi.nlm.nih.gov/22561835/)
