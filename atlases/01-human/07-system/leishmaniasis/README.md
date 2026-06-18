@@ -226,6 +226,15 @@ cross_links:
   - target: 01-human/07-system/reproductive-system
     relation: connects-to
     note: "It can pass to the unborn: visceral leishmaniasis can be transmitted congenitally and tends to worsen with the immune changes of pregnancy."
+  - target: 01-human/07-system/nervous-system
+    relation: connects-to
+    note: "It can reach the nervous system: rare cases of leishmaniasis involve the central or peripheral nerves, and the antimonial and amphotericin drugs used against it carry neurological side-effects."
+  - target: 02-pathogen/06-environmental/zoonosis
+    relation: connects-to
+    note: "It is a vector-borne zoonosis: Leishmania is transmitted by sandflies from animal reservoirs such as dogs and rodents, so its control links human and animal health."
+  - target: 02-pathogen/02-bacteria/mycobacterium-tuberculosis
+    relation: connects-to
+    note: "It opens the door to TB: the profound immunosuppression of visceral leishmaniasis can reactivate latent tuberculosis, and the two infections are co-endemic in many regions."
 ---
 
 # Leishmaniasis
@@ -397,3 +406,6 @@ HIV-VL co-infection: CD4+ depletion → loss of IFN-γ production → *Leishmani
 - `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — Visceral disease fills the marrow: kala-azar infiltrates the bone marrow causing pancytopenia, and immune-complex arthritis can accompany the infection.
 - `connects-to` → **[Endocrine System](../endocrine-system/README.md)** — Chronic infection stunts growth and hormones: long-standing visceral leishmaniasis causes growth retardation and hypogonadism in affected children.
 - `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — It can pass to the unborn: visceral leishmaniasis can be transmitted congenitally and tends to worsen with the immune changes of pregnancy.
+- `connects-to` → **[Nervous System](../nervous-system/README.md)** — It can reach the nervous system: rare cases of leishmaniasis involve the central or peripheral nerves, and the antimonial and amphotericin drugs used against it carry neurological side-effects.
+- `connects-to` → **[Zoonosis](../../../02-pathogen/06-environmental/zoonosis/README.md)** — It is a vector-borne zoonosis: Leishmania is transmitted by sandflies from animal reservoirs such as dogs and rodents, so its control links human and animal health.
+- `connects-to` → **[Mycobacterium tuberculosis](../../../02-pathogen/02-bacteria/mycobacterium-tuberculosis/README.md)** — It opens the door to TB: the profound immunosuppression of visceral leishmaniasis can reactivate latent tuberculosis, and the two infections are co-endemic in many regions.

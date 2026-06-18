@@ -231,6 +231,15 @@ cross_links:
   - target: 01-human/07-system/integumentary-system
     relation: connects-to
     note: "It pointedly spares the skin: malaria characteristically causes no rash — a clue distinguishing it from dengue and other tropical fevers — though pallor and jaundice from haemolysis appear."
+  - target: 02-pathogen/06-environmental/zoonosis
+    relation: connects-to
+    note: "A species jumps from monkeys: Plasmodium knowlesi malaria is a zoonosis spread from macaques in Southeast Asia, an emerging cause of severe human malaria."
+  - target: 02-pathogen/01-viruses/epstein-barr-virus
+    relation: connects-to
+    note: "It cooperates to cause lymphoma: chronic malaria is the key co-factor with Epstein-Barr virus in endemic Burkitt lymphoma, driving the B-cell proliferation the virus transforms."
+  - target: 02-pathogen/06-environmental/diarrheal-disease
+    relation: connects-to
+    note: "Two great child killers overlap: in endemic regions malaria and diarrhoeal disease are leading causes of childhood death, frequently co-occurring and straining the same fragile health systems."
 ---
 
 # Malaria
@@ -460,6 +469,9 @@ cross_links:
 - `connects-to` → **[Cardiovascular System](../cardiovascular-system/README.md)** — Severe disease collapses the circulation: 'algid malaria' brings hypotension and shock, with myocardial dysfunction from microvascular sequestration and the inflammatory response.
 - `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — It aches deep in the muscles: prominent myalgia and back pain accompany the fever and rigors of a malarial paroxysm.
 - `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — It pointedly spares the skin: malaria characteristically causes no rash — a clue distinguishing it from dengue and other tropical fevers — though pallor and jaundice from haemolysis appear.
+- `connects-to` → **[Zoonosis](../../../02-pathogen/06-environmental/zoonosis/README.md)** — A species jumps from monkeys: Plasmodium knowlesi malaria is a zoonosis spread from macaques in Southeast Asia, an emerging cause of severe human malaria.
+- `connects-to` → **[Epstein-Barr Virus](../../../02-pathogen/01-viruses/epstein-barr-virus/README.md)** — It cooperates to cause lymphoma: chronic malaria is the key co-factor with Epstein-Barr virus in endemic Burkitt lymphoma, driving the B-cell proliferation the virus transforms.
+- `connects-to` → **[Diarrheal Disease](../../../02-pathogen/06-environmental/diarrheal-disease/README.md)** — Two great child killers overlap: in endemic regions malaria and diarrhoeal disease are leading causes of childhood death, frequently co-occurring and straining the same fragile health systems.
 
 [^who-malaria-report-2023]: World Health Organization. World Malaria Report 2023. WHO; 2023.
 [^white-2014-malaria-lancet]: White NJ, Pukrittayakamee S, Hien TT, et al. Malaria. *Lancet.* 2014;383(9918):723-735. [doi:10.1016/S0140-6736(13)60024-0](https://doi.org/10.1016/S0140-6736(13)60024-0) · [PubMed 23953767](https://pubmed.ncbi.nlm.nih.gov/23953767/)
