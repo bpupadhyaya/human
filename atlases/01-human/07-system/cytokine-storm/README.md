@@ -205,6 +205,15 @@ cross_links:
   - target: 01-human/07-system/major-depressive-disorder
     relation: connects-to
     note: "Surviving the storm leaves a mental toll: the critical illness, ICU stay and neuroinflammation of a cytokine storm contribute to the depression and cognitive impairment of post-intensive-care syndrome."
+  - target: 01-human/07-system/immune-system
+    relation: connects-to
+    note: "It is the immune system turned against itself: a cytokine storm is uncontrolled hyperactivation of immune cells and their mediators, as in HLH, macrophage activation syndrome and CAR-T cytokine release."
+  - target: 01-human/07-system/respiratory-system
+    relation: connects-to
+    note: "It floods the lungs first: the capillary leak and inflammation of a cytokine storm cause acute respiratory distress syndrome, the most common and lethal organ failure it produces."
+  - target: 01-human/07-system/nervous-system
+    relation: connects-to
+    note: "It can inflame the brain: cytokine storms, especially CAR-T cell therapy, cause immune-effector-cell-associated neurotoxicity (ICANS) with encephalopathy, seizures and cerebral oedema."
 ---
 
 # Cytokine Storm
@@ -358,6 +367,9 @@ CS drives a **consumptive coagulopathy (DIC)**:
 - `connects-to` → **[DLBCL](../dlbcl/README.md)** — Its treatment is a deliberate trigger: CAR-T cell therapy for DLBCL unleashes a controlled cytokine release syndrome, the iconic iatrogenic cytokine storm managed with the IL-6 blocker tocilizumab.
 - `connects-to` → **[Acute Lymphoblastic Leukemia](../all/README.md)** — Immunotherapy for leukemia ignites it: CAR-T cells and bispecific antibodies against acute lymphoblastic leukemia provoke cytokine release syndrome, a frequent and sometimes severe storm during treatment.
 - `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — Surviving the storm leaves a mental toll: the critical illness, ICU stay and neuroinflammation of a cytokine storm contribute to the depression and cognitive impairment of post-intensive-care syndrome.
+- `connects-to` → **[Immune System](../immune-system/README.md)** — It is the immune system turned against itself: a cytokine storm is uncontrolled hyperactivation of immune cells and their mediators, as in HLH, macrophage activation syndrome and CAR-T cytokine release.
+- `connects-to` → **[Respiratory System](../respiratory-system/README.md)** — It floods the lungs first: the capillary leak and inflammation of a cytokine storm cause acute respiratory distress syndrome, the most common and lethal organ failure it produces.
+- `connects-to` → **[Nervous System](../nervous-system/README.md)** — It can inflame the brain: cytokine storms, especially CAR-T cell therapy, cause immune-effector-cell-associated neurotoxicity (ICANS) with encephalopathy, seizures and cerebral oedema.
 
 ## Pathology
 

@@ -205,6 +205,15 @@ cross_links:
   - target: 01-human/07-system/anemia-of-chronic-disease
     relation: connects-to
     note: "It transiently suppresses the marrow: dengue infects bone-marrow precursors and drives inflammation that depresses blood-cell production, contributing to anemia during and after the illness."
+  - target: 01-human/07-system/musculoskeletal-system
+    relation: connects-to
+    note: "It earns the name breakbone fever: dengue causes severe myalgia, arthralgia and deep bone pain at its peak, a defining feature so intense it gave the disease its classic nickname."
+  - target: 01-human/07-system/integumentary-system
+    relation: connects-to
+    note: "It writes itself on the skin: dengue produces a flushed face and a characteristic maculopapular rash with 'white islands in a sea of red', and petechiae and bruising as platelets fall."
+  - target: 01-human/07-system/digestive-system
+    relation: connects-to
+    note: "It inflames the liver and bleeds the gut: dengue commonly raises transaminases with hepatomegaly, and abdominal pain and GI bleeding are warning signs of progression to severe dengue."
 ---
 
 # Dengue Fever
@@ -379,3 +388,6 @@ No approved antiviral therapy for dengue. Management is entirely supportive:
 - `connects-to` → **[Fibromyalgia](../fibromyalgia/README.md)** — It can leave chronic widespread pain: post-dengue syndrome includes prolonged arthralgia, fatigue and a fibromyalgia-like central pain that can persist for months after the infection clears.
 - `connects-to` → **[Neuropathic Pain](../neuropathic-pain/README.md)** — It inflames the peripheral nerves: dengue can cause a post-infectious neuropathy and Guillain-Barré-type injury, leaving neuropathic pain among its neurological sequelae.
 - `connects-to` → **[Anemia of Chronic Disease](../anemia-of-chronic-disease/README.md)** — It transiently suppresses the marrow: dengue infects bone-marrow precursors and drives inflammation that depresses blood-cell production, contributing to anemia during and after the illness.
+- `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — It earns the name breakbone fever: dengue causes severe myalgia, arthralgia and deep bone pain at its peak, a defining feature so intense it gave the disease its classic nickname.
+- `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — It writes itself on the skin: dengue produces a flushed face and a characteristic maculopapular rash with 'white islands in a sea of red', and petechiae and bruising as platelets fall.
+- `connects-to` → **[Digestive System](../digestive-system/README.md)** — It inflames the liver and bleeds the gut: dengue commonly raises transaminases with hepatomegaly, and abdominal pain and GI bleeding are warning signs of progression to severe dengue.
