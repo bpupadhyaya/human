@@ -229,6 +229,15 @@ cross_links:
   - target: 03-medicine/03-food/vitamin-d
     relation: connects-to
     note: "Vitamin D status nudges susceptibility: deficiency is associated with more respiratory infection, and supplementation may give a small protective effect against influenza-like illness."
+  - target: 03-medicine/01-modern/05-antiviral/oseltamivir
+    relation: connects-to
+    note: "The mainstay antiviral: oseltamivir, a neuraminidase inhibitor, shortens influenza when started early and is used for treatment and prophylaxis, alongside the newer endonuclease inhibitor baloxavir."
+  - target: 02-pathogen/02-bacteria/streptococcus-pyogenes
+    relation: connects-to
+    note: "It opens the door to invasive strep: post-influenza airway damage predisposes to severe group A streptococcal pneumonia and toxic shock, a less common but devastating secondary infection."
+  - target: 02-pathogen/01-viruses/sars-cov-2
+    relation: connects-to
+    note: "Two pandemic respiratory viruses meet: influenza and SARS-CoV-2 co-circulate and can co-infect, share airborne spread and overlapping severe pneumonia, but differ in antivirals and vaccine strategy."
 ---
 
 # Influenza
@@ -435,3 +444,6 @@ Influenza damages mucociliary clearance and exposes basal lamina glycoproteins �
 - `connects-to` → **[Aspirin](../../../03-medicine/01-modern/04-cardio/aspirin/README.md)** — Aspirin is dangerous in childhood flu: giving it to children during influenza or chickenpox can trigger Reye syndrome, acute liver failure with encephalopathy, so it is avoided.
 - `connects-to` → **[Venous thromboembolism](../venous-thromboembolism/README.md)** — Acute infection is prothrombotic: influenza transiently raises the risk of venous thromboembolism, heart attack and stroke in the weeks after illness.
 - `connects-to` → **[Vitamin D](../../../03-medicine/03-food/vitamin-d/README.md)** — Vitamin D status nudges susceptibility: deficiency is associated with more respiratory infection, and supplementation may give a small protective effect against influenza-like illness.
+- `connects-to` → **[Oseltamivir](../../../03-medicine/01-modern/05-antiviral/oseltamivir/README.md)** — The mainstay antiviral: oseltamivir, a neuraminidase inhibitor, shortens influenza when started early and is used for treatment and prophylaxis, alongside the newer endonuclease inhibitor baloxavir.
+- `connects-to` → **[Streptococcus pyogenes](../../../02-pathogen/02-bacteria/streptococcus-pyogenes/README.md)** — It opens the door to invasive strep: post-influenza airway damage predisposes to severe group A streptococcal pneumonia and toxic shock, a less common but devastating secondary infection.
+- `connects-to` → **[SARS-CoV-2](../../../02-pathogen/01-viruses/sars-cov-2/README.md)** — Two pandemic respiratory viruses meet: influenza and SARS-CoV-2 co-circulate and can co-infect, share airborne spread and overlapping severe pneumonia, but differ in antivirals and vaccine strategy.

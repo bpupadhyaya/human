@@ -238,6 +238,15 @@ cross_links:
   - target: 03-medicine/03-food/magnesium-dietary
     relation: connects-to
     note: "Diet draws interest: magnesium supplementation has been trialled as a gentle sleep aid, with modest evidence for easing insomnia in older adults."
+  - target: 03-medicine/02-traditional/ashwagandha
+    relation: connects-to
+    note: "A traditional herb that aids sleep: ashwagandha root extract improves sleep onset and quality in trials, acting partly by lowering cortisol, and is among the better-studied natural sleep aids."
+  - target: 01-human/07-system/obsessive-compulsive-disorder
+    relation: connects-to
+    note: "Intrusive thoughts steal sleep: insomnia is common in OCD, where night-time rumination and compulsions delay sleep onset, and poor sleep in turn worsens obsessive symptoms."
+  - target: 01-human/07-system/social-anxiety-disorder
+    relation: connects-to
+    note: "Anticipatory worry keeps it awake: people with social anxiety frequently have insomnia, as pre-event dread and rumination raise arousal at bedtime in a self-reinforcing cycle."
 ---
 
 # Insomnia Disorder
@@ -448,6 +457,9 @@ CBT-I directly targets perpetuating factors.
 - `connects-to` → **[Lymphatic System](../lymphatic-system/README.md)** — Sleep cleans the brain: the glymphatic system clears metabolic waste, including amyloid-beta, most actively during deep sleep, so chronic insomnia may impair this nightly housekeeping.
 - `connects-to` → **[Renal System](../renal-system/README.md)** — A full bladder breaks sleep: nocturia is a leading cause of fragmented sleep, and the kidney's circadian fall in night-time urine output is itself disturbed by poor sleep.
 - `connects-to` → **[Dietary Magnesium](../../../03-medicine/03-food/magnesium-dietary/README.md)** — Diet draws interest: magnesium supplementation has been trialled as a gentle sleep aid, with modest evidence for easing insomnia in older adults.
+- `connects-to` → **[Ashwagandha](../../../03-medicine/02-traditional/ashwagandha/README.md)** — A traditional herb that aids sleep: ashwagandha root extract improves sleep onset and quality in trials, acting partly by lowering cortisol, and is among the better-studied natural sleep aids.
+- `connects-to` → **[Obsessive-Compulsive Disorder](../obsessive-compulsive-disorder/README.md)** — Intrusive thoughts steal sleep: insomnia is common in OCD, where night-time rumination and compulsions delay sleep onset, and poor sleep in turn worsens obsessive symptoms.
+- `connects-to` → **[Social Anxiety Disorder](../social-anxiety-disorder/README.md)** — Anticipatory worry keeps it awake: people with social anxiety frequently have insomnia, as pre-event dread and rumination raise arousal at bedtime in a self-reinforcing cycle.
 
 [^riemann-2017-insomnia-lancet]: Riemann D, Baglioni C, Bassetti C, et al. European guideline for the diagnosis and treatment of insomnia. *J Sleep Res.* 2017;26(6):675-700. [doi:10.1111/jsr.12594](https://doi.org/10.1111/jsr.12594) · [PubMed 28875581](https://pubmed.ncbi.nlm.nih.gov/28875581/)
 [^trauer-2015-cbti-meta]: Trauer JM, Qian MY, Doyle JS, et al. Cognitive behavioral therapy for chronic insomnia. *Ann Intern Med.* 2015;163(3):191-204. [doi:10.7326/M14-2841](https://doi.org/10.7326/M14-2841) · [PubMed 26054060](https://pubmed.ncbi.nlm.nih.gov/26054060/)
