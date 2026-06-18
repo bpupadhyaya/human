@@ -250,6 +250,15 @@ cross_links:
   - target: 01-human/04-cellular/osteoblast
     relation: connects-to
     note: "Alcohol starves the bone-builders: chronic alcohol suppresses osteoblast activity and bone formation, a key mechanism behind the osteoporosis and fracture risk of alcohol use disorder."
+  - target: 01-human/05-tissue/hepatic-lobule
+    relation: connects-to
+    note: "It scars the liver lobule: chronic alcohol drives steatosis, alcoholic hepatitis and pericentral fibrosis in the hepatic lobule, progressing to cirrhosis — the classic and often fatal organ damage of alcohol use disorder."
+  - target: 01-human/05-tissue/myocardium
+    relation: connects-to
+    note: "It weakens the heart muscle: sustained heavy drinking causes a dilated alcoholic cardiomyopathy and, acutely, atrial fibrillation ('holiday heart'), adding cardiac failure to the harms of alcohol use disorder."
+  - target: 03-medicine/01-modern/13-cancer/cancer-chemotherapy
+    relation: connects-to
+    note: "Alcohol is a carcinogen: it causes cancers of the mouth, throat, oesophagus, liver, colon and breast — malignancies treated with chemotherapy — making alcohol use disorder a major and preventable cancer risk."
 ---
 
 # Alcohol Use Disorder
@@ -507,6 +516,9 @@ Prenatal alcohol exposure → leading preventable cause of intellectual disabili
 - `connects-to` → **[Mycobacterium tuberculosis](../../../02-pathogen/02-bacteria/mycobacterium-tuberculosis/README.md)** — Drinking raises the risk: heavy alcohol use roughly triples the risk of active tuberculosis through impaired immunity, malnutrition and social exposure, a major driver of the global TB burden.
 - `connects-to` → **[PTSD](../ptsd/README.md)** — Trauma and drinking entwine: alcohol use disorder and PTSD frequently co-occur, as people drink to numb intrusive memories and hyperarousal, each disorder worsening the other.
 - `connects-to` → **[Osteoblast](../../04-cellular/osteoblast/README.md)** — Alcohol starves the bone-builders: chronic alcohol suppresses osteoblast activity and bone formation, a key mechanism behind the osteoporosis and fracture risk of alcohol use disorder.
+- `connects-to` → **[Hepatic Lobule](../../05-tissue/hepatic-lobule/README.md)** — It scars the liver lobule: chronic alcohol drives steatosis, alcoholic hepatitis and pericentral fibrosis in the hepatic lobule, progressing to cirrhosis — the classic and often fatal organ damage of alcohol use disorder.
+- `connects-to` → **[Myocardium](../../05-tissue/myocardium/README.md)** — It weakens the heart muscle: sustained heavy drinking causes a dilated alcoholic cardiomyopathy and, acutely, atrial fibrillation ('holiday heart'), adding cardiac failure to the harms of alcohol use disorder.
+- `connects-to` → **[Cancer Chemotherapy](../../../03-medicine/01-modern/13-cancer/cancer-chemotherapy/README.md)** — Alcohol is a carcinogen: it causes cancers of the mouth, throat, oesophagus, liver, colon and breast — malignancies treated with chemotherapy — making alcohol use disorder a major and preventable cancer risk.
 
 [^koob-2013-addiction-neuroscience]: Koob GF, Volkow ND. Neurocircuitry of addiction. *Neuropsychopharmacology.* 2010;35(1):217-238. [doi:10.1038/npp.2009.110](https://doi.org/10.1038/npp.2009.110) · [PubMed 19710631](https://pubmed.ncbi.nlm.nih.gov/19710631/)
 [^anton-2006-combine]: Anton RF, O'Malley SS, Ciraulo DA, et al. Combined pharmacotherapies and behavioral interventions for alcohol dependence: the COMBINE study. *JAMA.* 2006;295(17):2003-2017. [doi:10.1001/jama.295.17.2003](https://doi.org/10.1001/jama.295.17.2003) · [PubMed 16670409](https://pubmed.ncbi.nlm.nih.gov/16670409/)

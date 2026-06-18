@@ -241,6 +241,15 @@ cross_links:
   - target: 03-medicine/01-modern/13-cancer/targeted-therapy
     relation: connects-to
     note: "Philadelphia-positive disease needs a TKI: BCR-ABL1 tyrosine-kinase inhibitors such as imatinib and dasatinib, added to chemotherapy, transformed the once-dismal Ph+ subtype of ALL."
+  - target: 01-human/05-tissue/cortical-bone
+    relation: connects-to
+    note: "It hurts and weakens bone: leukaemic marrow infiltration causes the bone pain of ALL, while prolonged corticosteroids and methotrexate leave survivors with osteonecrosis and osteoporosis as major late effects."
+  - target: 01-human/05-tissue/hippocampus
+    relation: connects-to
+    note: "The CNS is a sanctuary site: leukaemic cells hide in the meninges, so ALL needs intrathecal chemotherapy and once cranial irradiation — treatments that injure the hippocampus and cause neurocognitive late effects in survivors."
+  - target: 01-human/07-system/cll
+    relation: connects-to
+    note: "Acute versus chronic lymphoid leukaemia: ALL is an aggressive proliferation of immature lymphoblasts needing immediate intensive therapy, whereas CLL is an indolent accumulation of mature B-lymphocytes — opposite ends of lymphoid malignancy."
 ---
 
 # Acute Lymphoblastic Leukemia
@@ -455,6 +464,9 @@ Childhood ALL survivors (now majority of patients): neurocognitive impairment (M
 - `connects-to` → **[Cancer Chemotherapy](../../../03-medicine/01-modern/13-cancer/cancer-chemotherapy/README.md)** — The backbone of cure: intensive multi-agent chemotherapy over two to three years, with intrathecal therapy for the CNS, cures most childhood acute lymphoblastic leukaemia.
 - `connects-to` → **[CAR-T](../../../03-medicine/01-modern/13-cancer/car-t/README.md)** — Engineered cells rescue relapse: CD19-directed CAR-T therapy (tisagenlecleucel) induces remission in relapsed or refractory B-cell ALL, a landmark of cellular immunotherapy.
 - `connects-to` → **[Targeted Therapy](../../../03-medicine/01-modern/13-cancer/targeted-therapy/README.md)** — Philadelphia-positive disease needs a TKI: BCR-ABL1 tyrosine-kinase inhibitors such as imatinib and dasatinib, added to chemotherapy, transformed the once-dismal Ph+ subtype of ALL.
+- `connects-to` → **[Cortical Bone](../../05-tissue/cortical-bone/README.md)** — It hurts and weakens bone: leukaemic marrow infiltration causes the bone pain of ALL, while prolonged corticosteroids and methotrexate leave survivors with osteonecrosis and osteoporosis as major late effects.
+- `connects-to` → **[Hippocampus](../../05-tissue/hippocampus/README.md)** — The CNS is a sanctuary site: leukaemic cells hide in the meninges, so ALL needs intrathecal chemotherapy and once cranial irradiation — treatments that injure the hippocampus and cause neurocognitive late effects in survivors.
+- `connects-to` → **[CLL](../cll/README.md)** — Acute versus chronic lymphoid leukaemia: ALL is an aggressive proliferation of immature lymphoblasts needing immediate intensive therapy, whereas CLL is an indolent accumulation of mature B-lymphocytes — opposite ends of lymphoid malignancy.
 
 [^pui-2018-all-cure]: Pui CH, Yang JJ, Bhakta N, et al. Global efforts toward the cure of childhood acute lymphoblastic leukemia. *Lancet Child Adolesc Health.* 2018;2(6):440-454. [doi:10.1016/S2352-4642(18)30066-X](https://doi.org/10.1016/S2352-4642(18)30066-X) · [PubMed 29976322](https://pubmed.ncbi.nlm.nih.gov/29976322/)
 [^maude-2018-tisagenlecleucel]: Maude SL, Laetsch TW, Buechner J, et al. Tisagenlecleucel in children and young adults with B-cell lymphoblastic leukemia. *N Engl J Med.* 2018;378(5):439-448. [doi:10.1056/NEJMoa1709866](https://doi.org/10.1056/NEJMoa1709866) · [PubMed 29385370](https://pubmed.ncbi.nlm.nih.gov/29385370/)
