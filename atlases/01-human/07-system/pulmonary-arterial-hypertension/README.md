@@ -211,6 +211,15 @@ cross_links:
   - target: 01-human/07-system/generalized-anxiety-disorder
     relation: connects-to
     note: "A breathless, life-limiting disease breeds worry: the relentless dyspnoea, fear of right-heart failure and burdensome continuous therapy of PAH foster chronic health anxiety alongside depression."
+  - target: 01-human/07-system/digestive-system
+    relation: connects-to
+    note: "The liver both causes and suffers it: cirrhosis with portal hypertension causes portopulmonary hypertension, and right-heart failure from PAH congests the liver and gut, causing ascites and malabsorption."
+  - target: 01-human/07-system/endocrine-system
+    relation: connects-to
+    note: "It clusters with thyroid disease: both hyper- and hypothyroidism are over-represented in pulmonary arterial hypertension, and thyroid dysfunction can worsen its haemodynamics."
+  - target: 01-human/07-system/nervous-system
+    relation: connects-to
+    note: "A fixed low output starves the brain: severe PAH cannot raise cardiac output on exertion, so exertional syncope and presyncope from cerebral hypoperfusion are ominous warning signs."
 ---
 
 # Pulmonary Arterial Hypertension
@@ -398,6 +407,9 @@ Key variables: WHO functional class (I-IV), 6-minute walk distance (6MWD), NT-pr
 - `connects-to` → **[Myeloproliferative Neoplasms](../myeloproliferative-neoplasms/README.md)** — Clonal blood disease is a recognised cause: myeloproliferative neoplasms feature in Group 5 pulmonary hypertension, driving PAH through abnormal cells, splenectomy and high-output states.
 - `connects-to` → **[Cystic Fibrosis](../cystic-fibrosis/README.md)** — Chronic hypoxic lung damage pressurises the pulmonary bed: the bronchiectasis and persistent hypoxaemia of advanced cystic fibrosis cause hypoxic pulmonary vasoconstriction and Group 3 pulmonary hypertension with cor pulmonale.
 - `connects-to` → **[Generalized Anxiety Disorder](../generalized-anxiety-disorder/README.md)** — A breathless, life-limiting disease breeds worry: the relentless dyspnoea, fear of right-heart failure and burdensome continuous therapy of PAH foster chronic health anxiety alongside depression.
+- `connects-to` → **[Digestive System](../digestive-system/README.md)** — The liver both causes and suffers it: cirrhosis with portal hypertension causes portopulmonary hypertension, and right-heart failure from PAH congests the liver and gut, causing ascites and malabsorption.
+- `connects-to` → **[Endocrine System](../endocrine-system/README.md)** — It clusters with thyroid disease: both hyper- and hypothyroidism are over-represented in pulmonary arterial hypertension, and thyroid dysfunction can worsen its haemodynamics.
+- `connects-to` → **[Nervous System](../nervous-system/README.md)** — A fixed low output starves the brain: severe PAH cannot raise cardiac output on exertion, so exertional syncope and presyncope from cerebral hypoperfusion are ominous warning signs.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 

@@ -205,6 +205,15 @@ cross_links:
   - target: 01-human/07-system/generalized-anxiety-disorder
     relation: connects-to
     note: "A metastatic cancer watched scan-to-scan breeds worry: the recurrence risk, prolonged targeted and immune therapy and uncertain prognosis of advanced RCC foster chronic health anxiety alongside depression."
+  - target: 01-human/07-system/respiratory-system
+    relation: connects-to
+    note: "It seeds the lungs with cannonballs: renal cell carcinoma metastasises classically to the lungs as multiple round 'cannonball' nodules, a defining pattern of its distant spread."
+  - target: 01-human/07-system/endocrine-system
+    relation: connects-to
+    note: "It is a great paraneoplastic mimic: RCC secretes PTHrP causing hypercalcaemia, erythropoietin causing polycythaemia and renin causing hypertension, and its immunotherapy triggers endocrine irAEs."
+  - target: 01-human/07-system/musculoskeletal-system
+    relation: connects-to
+    note: "It carves holes in bone: renal cell carcinoma metastasises to the skeleton as destructive, hypervascular osteolytic lesions that cause pain, fractures and spinal cord compression."
 ---
 
 # Renal Cell Carcinoma
@@ -386,6 +395,9 @@ Kidney → primary site of EPO production under hypoxia; VHL-intact renal inters
 - `connects-to` → **[Wound Healing](../wound-healing/README.md)** — Surgery and anti-VEGF therapy heal poorly: nephrectomy is the mainstay for localised RCC, and the VEGF-targeted tyrosine-kinase inhibitors used for advanced disease impair angiogenesis, delaying wound closure.
 - `connects-to` → **[Digestive System](../digestive-system/README.md)** — Checkpoint immunotherapy can inflame the gut: the PD-1 and CTLA-4 inhibitors used for advanced RCC frequently trigger immune-related colitis with diarrhoea, a characteristic toxicity needing steroids.
 - `connects-to` → **[Generalized Anxiety Disorder](../generalized-anxiety-disorder/README.md)** — A metastatic cancer watched scan-to-scan breeds worry: the recurrence risk, prolonged targeted and immune therapy and uncertain prognosis of advanced RCC foster chronic health anxiety alongside depression.
+- `connects-to` → **[Respiratory System](../respiratory-system/README.md)** — It seeds the lungs with cannonballs: renal cell carcinoma metastasises classically to the lungs as multiple round 'cannonball' nodules, a defining pattern of its distant spread.
+- `connects-to` → **[Endocrine System](../endocrine-system/README.md)** — It is a great paraneoplastic mimic: RCC secretes PTHrP causing hypercalcaemia, erythropoietin causing polycythaemia and renin causing hypertension, and its immunotherapy triggers endocrine irAEs.
+- `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — It carves holes in bone: renal cell carcinoma metastasises to the skeleton as destructive, hypervascular osteolytic lesions that cause pain, fractures and spinal cord compression.
 
 [^motzer-2018-checkmate214]: Motzer RJ, Tannir NM, McDermott DF, et al. Nivolumab plus ipilimumab versus sunitinib in advanced renal-cell carcinoma. *N Engl J Med.* 2018;378(14):1277-1290. [doi:10.1056/NEJMoa1712126](https://doi.org/10.1056/NEJMoa1712126) · [PubMed 29562145](https://pubmed.ncbi.nlm.nih.gov/29562145/)
 [^rini-2019-keynote426]: Rini BI, Plimack ER, Stus V, et al. Pembrolizumab plus axitinib versus sunitinib for advanced renal-cell carcinoma. *N Engl J Med.* 2019;380(12):1116-1127. [doi:10.1056/NEJMoa1816714](https://doi.org/10.1056/NEJMoa1816714) · [PubMed 30779529](https://pubmed.ncbi.nlm.nih.gov/30779529/)
