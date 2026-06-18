@@ -214,6 +214,15 @@ cross_links:
   - target: 01-human/07-system/endocrine-system
     relation: connects-to
     note: "Removing the ovaries forces menopause: bilateral salpingo-oophorectomy for ovarian cancer abruptly ends ovarian oestrogen, causing surgical menopause with its hormonal, bone and vasomotor effects."
+  - target: 01-human/07-system/lymphatic-system
+    relation: connects-to
+    note: "It spreads to the deep nodes: ovarian cancer disseminates to pelvic and para-aortic lymph nodes, so lymphadenectomy is part of its surgical staging."
+  - target: 01-human/07-system/nervous-system
+    relation: connects-to
+    note: "It can attack the brain by autoimmunity: ovarian cancer causes paraneoplastic anti-Yo cerebellar degeneration, and ovarian teratomas are the classic trigger of anti-NMDA-receptor encephalitis."
+  - target: 01-human/07-system/integumentary-system
+    relation: connects-to
+    note: "Its drugs blister the hands and feet: pegylated liposomal doxorubicin causes hand-foot syndrome (palmar-plantar erythrodysesthesia), and bevacizumab impairs wound healing."
 ---
 
 # Ovarian Cancer
@@ -395,6 +404,9 @@ FTSEC ciliated and secretory cells line the Fallopian tube; secretory cells are 
 - `connects-to` → **[Wound Healing](../wound-healing/README.md)** — Cytoreductive surgery is extensive: ovarian-cancer debulking removes peritoneal and bowel disease in long operations, leaving large abdominal wounds and anastomoses prone to leak and slow healing.
 - `connects-to` → **[Respiratory System](../respiratory-system/README.md)** — It floods the chest with fluid: advanced ovarian cancer spreads across the diaphragm to cause malignant pleural effusions, a common marker of stage IV disease and a source of breathlessness.
 - `connects-to` → **[Endocrine System](../endocrine-system/README.md)** — Removing the ovaries forces menopause: bilateral salpingo-oophorectomy for ovarian cancer abruptly ends ovarian oestrogen, causing surgical menopause with its hormonal, bone and vasomotor effects.
+- `connects-to` → **[Lymphatic System](../lymphatic-system/README.md)** — It spreads to the deep nodes: ovarian cancer disseminates to pelvic and para-aortic lymph nodes, so lymphadenectomy is part of its surgical staging.
+- `connects-to` → **[Nervous System](../nervous-system/README.md)** — It can attack the brain by autoimmunity: ovarian cancer causes paraneoplastic anti-Yo cerebellar degeneration, and ovarian teratomas are the classic trigger of anti-NMDA-receptor encephalitis.
+- `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — Its drugs blister the hands and feet: pegylated liposomal doxorubicin causes hand-foot syndrome (palmar-plantar erythrodysesthesia), and bevacizumab impairs wound healing.
 
 [^burger-2011-gog0218]: Burger RA, Brady MF, Bookman MA, et al. Incorporation of bevacizumab in the primary treatment of ovarian cancer. *N Engl J Med.* 2011;365(26):2473-2483. [doi:10.1056/NEJMoa1104390](https://doi.org/10.1056/NEJMoa1104390) · [PubMed 22204724](https://pubmed.ncbi.nlm.nih.gov/22204724/)
 [^moore-2018-olaparib-solo1]: Moore K, Colombo N, Scambia G, et al. Maintenance olaparib in patients with newly diagnosed advanced ovarian cancer. *N Engl J Med.* 2018;379(26):2495-2505. [doi:10.1056/NEJMoa1810858](https://doi.org/10.1056/NEJMoa1810858) · [PubMed 30345884](https://pubmed.ncbi.nlm.nih.gov/30345884/)

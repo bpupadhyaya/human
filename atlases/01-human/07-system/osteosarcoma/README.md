@@ -214,6 +214,15 @@ cross_links:
   - target: 01-human/07-system/digestive-system
     relation: connects-to
     note: "Its chemo injures the gut and liver: high-dose methotrexate causes severe mucositis and hepatotoxicity, and the multi-agent osteosarcoma regimen brings nausea and GI toxicity."
+  - target: 01-human/07-system/renal-system
+    relation: connects-to
+    note: "Its chemotherapy is hard on the kidney: cisplatin is nephrotoxic and high-dose methotrexate can precipitate in the renal tubules, needing urine alkalinisation and leucovorin rescue to prevent acute kidney injury."
+  - target: 01-human/07-system/cardiovascular-system
+    relation: connects-to
+    note: "Its cure can scar the heart: the doxorubicin in the MAP regimen for osteosarcoma carries a dose-dependent, long-term cardiotoxicity risk in young survivors."
+  - target: 01-human/07-system/nervous-system
+    relation: connects-to
+    note: "Its drugs and spread reach the nerves: cisplatin causes ototoxicity and peripheral neuropathy, and spinal metastases can compress the cord."
 ---
 
 # Osteosarcoma
@@ -410,6 +419,9 @@ OS is relatively radiation-resistant (high-dose radiation ~70+ Gy may achieve lo
 - `connects-to` → **[Respiratory System](../respiratory-system/README.md)** — Its metastases home to the lungs: osteosarcoma spreads almost exclusively to the lungs, so pulmonary metastasectomy and lung surveillance dominate its management and prognosis.
 - `connects-to` → **[Varicella-Zoster Virus](../../../02-pathogen/01-viruses/varicella-zoster-virus/README.md)** — Intensive chemo reawakens shingles: the high-dose methotrexate, doxorubicin and cisplatin regimens for osteosarcoma deeply suppress immunity, allowing latent varicella-zoster to reactivate.
 - `connects-to` → **[Digestive System](../digestive-system/README.md)** — Its chemo injures the gut and liver: high-dose methotrexate causes severe mucositis and hepatotoxicity, and the multi-agent osteosarcoma regimen brings nausea and GI toxicity.
+- `connects-to` → **[Renal System](../renal-system/README.md)** — Its chemotherapy is hard on the kidney: cisplatin is nephrotoxic and high-dose methotrexate can precipitate in the renal tubules, needing urine alkalinisation and leucovorin rescue to prevent acute kidney injury.
+- `connects-to` → **[Cardiovascular System](../cardiovascular-system/README.md)** — Its cure can scar the heart: the doxorubicin in the MAP regimen for osteosarcoma carries a dose-dependent, long-term cardiotoxicity risk in young survivors.
+- `connects-to` → **[Nervous System](../nervous-system/README.md)** — Its drugs and spread reach the nerves: cisplatin causes ototoxicity and peripheral neuropathy, and spinal metastases can compress the cord.
 
 [^bielack-2002-coss-osteosarcoma]: Bielack SS, Kempf-Bielack B, Delling G, et al. Prognostic factors in high-grade osteosarcoma of the extremities or trunk: an analysis of 1,702 patients treated on neoadjuvant Cooperative Osteosarcoma Study Group protocols. *J Clin Oncol.* 2002;20(3):776-790. [doi:10.1200/JCO.2002.20.3.776](https://doi.org/10.1200/JCO.2002.20.3.776) · [PubMed 11821461](https://pubmed.ncbi.nlm.nih.gov/11821461/)
 [^marina-2016-euramos1-osteosarcoma]: Marina NM, Smeland S, Bielack SS, et al. Comparison of MAPIE versus MAP in patients with a poor response to preoperative chemotherapy for newly diagnosed high-grade osteosarcoma (EURAMOS-1). *Lancet Oncol.* 2016;17(10):1396-1408. [doi:10.1016/S1470-2045(16)30214-5](https://doi.org/10.1016/S1470-2045(16)30214-5) · [PubMed 27569442](https://pubmed.ncbi.nlm.nih.gov/27569442/)
