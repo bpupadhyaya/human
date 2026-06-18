@@ -223,6 +223,15 @@ cross_links:
   - target: 01-human/07-system/endocrine-system
     relation: connects-to
     note: "Its anti-angiogenic drug unsettles the thyroid: bevacizumab, used to shrink vestibular schwannomas in NF2, can cause hypothyroidism and hypertension as class effects of VEGF blockade."
+  - target: 03-medicine/01-modern/13-cancer/targeted-therapy
+    relation: connects-to
+    note: "Systemic therapy supplements surgery: when its schwannomas and meningiomas are too numerous to resect, NF2 is treated with targeted agents such as bevacizumab and trial mTOR and merlin-pathway inhibitors."
+  - target: 01-human/07-system/gorlin-syndrome
+    relation: connects-to
+    note: "A fellow CNS-tumour syndrome: like Gorlin syndrome, NF2 is an autosomal-dominant disorder predisposing to nervous-system tumours, here multiple schwannomas, meningiomas and ependymomas."
+  - target: 01-human/07-system/carney-complex
+    relation: connects-to
+    note: "They share a schwannoma link: Carney complex causes psammomatous melanotic schwannomas, placing it alongside NF2 and schwannomatosis among the inherited schwannoma-predisposing syndromes."
 ---
 
 # Neurofibromatosis Type 2
@@ -411,6 +420,9 @@ Merlin has an N-terminal FERM domain (α, β, γ lobes) that binds membrane lipi
 - `connects-to` → **[Respiratory System](../respiratory-system/README.md)** — High tumours can stop the breath: foramen-magnum and high cervical-cord schwannomas, ependymomas and meningiomas, or a phrenic-nerve schwannoma, can impair the respiratory muscles.
 - `connects-to` → **[Immune System](../immune-system/README.md)** — Its biology and drug work on growth signals: merlin, the NF2 protein, enforces contact-dependent growth arrest, and the bevacizumab that shrinks vestibular schwannomas blocks tumour angiogenesis.
 - `connects-to` → **[Endocrine System](../endocrine-system/README.md)** — Its anti-angiogenic drug unsettles the thyroid: bevacizumab, used to shrink vestibular schwannomas in NF2, can cause hypothyroidism and hypertension as class effects of VEGF blockade.
+- `connects-to` → **[Targeted Therapy](../../../03-medicine/01-modern/13-cancer/targeted-therapy/README.md)** — Systemic therapy supplements surgery: when its schwannomas and meningiomas are too numerous to resect, NF2 is treated with targeted agents such as bevacizumab and trial mTOR and merlin-pathway inhibitors.
+- `connects-to` → **[Gorlin Syndrome](../gorlin-syndrome/README.md)** — A fellow CNS-tumour syndrome: like Gorlin syndrome, NF2 is an autosomal-dominant disorder predisposing to nervous-system tumours, here multiple schwannomas, meningiomas and ependymomas.
+- `connects-to` → **[Carney Complex](../carney-complex/README.md)** — They share a schwannoma link: Carney complex causes psammomatous melanotic schwannomas, placing it alongside NF2 and schwannomatosis among the inherited schwannoma-predisposing syndromes.
 
 [^asthagiri-2009-nf2-lancet]: Asthagiri AR, Parry DM, Butman JA, et al. Neurofibromatosis type 2. *Lancet.* 2009;373(9679):1974-1986. [doi:10.1016/S0140-6736(09)60259-2](https://doi.org/10.1016/S0140-6736(09)60259-2) · [PubMed 19476995](https://pubmed.ncbi.nlm.nih.gov/19476995/)
 [^plotkin-2009-nf2-bevacizumab]: Plotkin SR, Stemmer-Rachamimov AO, Barker FG 2nd, et al. Hearing improvement after bevacizumab in patients with neurofibromatosis type 2. *N Engl J Med.* 2009;361(4):358-367. [doi:10.1056/NEJMoa0902579](https://doi.org/10.1056/NEJMoa0902579) · [PubMed 19587327](https://pubmed.ncbi.nlm.nih.gov/19587327/)

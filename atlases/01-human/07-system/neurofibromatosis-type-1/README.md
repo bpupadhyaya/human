@@ -223,6 +223,15 @@ cross_links:
   - target: 01-human/07-system/immune-system
     relation: connects-to
     note: "Mast cells feed its tumours and it predisposes to leukaemia: mast cells recruited into neurofibromas drive their growth and itch, and NF1 children have a raised risk of juvenile myelomonocytic leukaemia."
+  - target: 03-medicine/01-modern/13-cancer/targeted-therapy
+    relation: connects-to
+    note: "A MEK inhibitor shrinks its tumours: selumetinib, targeting the hyperactive RAS-MEK pathway of NF1, is approved to reduce inoperable plexiform neurofibromas in children."
+  - target: 01-human/07-system/tuberous-sclerosis-complex
+    relation: connects-to
+    note: "A fellow neurocutaneous syndrome: like tuberous sclerosis, NF1 combines skin signs with nervous-system tumours in an autosomal-dominant pattern, both converging on mTOR-pathway dysregulation."
+  - target: 01-human/07-system/schwannomatosis
+    relation: connects-to
+    note: "A spectrum cousin: schwannomatosis joins NF1 and NF2 among the neurofibromatosis-spectrum disorders, all causing multiple nerve-sheath tumours from different genes."
 ---
 
 # Neurofibromatosis Type 1
@@ -404,6 +413,9 @@ In glioma and MPNST: additional alterations required — MPNST requires CDKN2A/2
 - `connects-to` → **[Renal System](../renal-system/README.md)** — Its vasculopathy narrows the renal artery: NF1 causes renal artery stenosis, a treatable cause of renovascular hypertension that is important to find in young patients with high blood pressure.
 - `connects-to` → **[Respiratory System](../respiratory-system/README.md)** — It can scar the lungs and crowd the chest: NF1 is associated with a diffuse interstitial lung disease with bullae, and plexiform neurofibromas can involve the chest wall and airway.
 - `connects-to` → **[Immune System](../immune-system/README.md)** — Mast cells feed its tumours and it predisposes to leukaemia: mast cells recruited into neurofibromas drive their growth and itch, and NF1 children have a raised risk of juvenile myelomonocytic leukaemia.
+- `connects-to` → **[Targeted Therapy](../../../03-medicine/01-modern/13-cancer/targeted-therapy/README.md)** — A MEK inhibitor shrinks its tumours: selumetinib, targeting the hyperactive RAS-MEK pathway of NF1, is approved to reduce inoperable plexiform neurofibromas in children.
+- `connects-to` → **[Tuberous Sclerosis Complex](../tuberous-sclerosis-complex/README.md)** — A fellow neurocutaneous syndrome: like tuberous sclerosis, NF1 combines skin signs with nervous-system tumours in an autosomal-dominant pattern, both converging on mTOR-pathway dysregulation.
+- `connects-to` → **[Schwannomatosis](../schwannomatosis/README.md)** — A spectrum cousin: schwannomatosis joins NF1 and NF2 among the neurofibromatosis-spectrum disorders, all causing multiple nerve-sheath tumours from different genes.
 
 [^gutmann-2017-nf1-primer]: Gutmann DH, Ferner RE, Listernick RH, et al. Neurofibromatosis type 1. *Nat Rev Dis Primers.* 2017;3:17004. [doi:10.1038/nrdp.2017.4](https://doi.org/10.1038/nrdp.2017.4) · [PubMed 28230061](https://pubmed.ncbi.nlm.nih.gov/28230061/)
 [^dombi-2016-selumetinib]: Dombi E, Baldwin A, Marcus LJ, et al. Activity of Selumetinib in Neurofibromatosis Type 1-Related Plexiform Neurofibromas. *N Engl J Med.* 2016;375(26):2550-2560. [doi:10.1056/NEJMoa1605943](https://doi.org/10.1056/NEJMoa1605943) · [PubMed 28029918](https://pubmed.ncbi.nlm.nih.gov/28029918/)
