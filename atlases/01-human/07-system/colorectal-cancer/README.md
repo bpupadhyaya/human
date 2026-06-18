@@ -241,6 +241,15 @@ cross_links:
   - target: 01-human/07-system/reproductive-system
     relation: connects-to
     note: "Pelvic surgery and spread affect it: rectal cancer surgery risks injury to nerves controlling sexual function, and colorectal cancer can metastasise to the ovaries as Krukenberg-type deposits."
+  - target: 03-medicine/01-modern/13-cancer/cancer-chemotherapy
+    relation: connects-to
+    note: "FOLFOX is the backbone: 5-fluorouracil with oxaliplatin or irinotecan is the cytotoxic core of colorectal cancer treatment, given adjuvantly after surgery for node-positive disease and as first-line therapy for metastatic disease."
+  - target: 03-medicine/01-modern/13-cancer/checkpoint-inhibitors
+    relation: connects-to
+    note: "MSI status splits the response: the ~15% of colorectal cancers that are mismatch-repair-deficient (MSI-high) respond dramatically to PD-1 blockade like pembrolizumab, while the microsatellite-stable majority remain immunologically cold and resistant."
+  - target: 01-human/05-tissue/hepatic-lobule
+    relation: connects-to
+    note: "It seeds the liver first: draining via the portal vein, colorectal cancer metastasises preferentially to the hepatic lobules, and these liver metastases — uniquely among cancers — are often resected or ablated for cure."
 ---
 
 # Colorectal Cancer
@@ -431,6 +440,9 @@ The step-wise genetic progression from normal epithelium to carcinoma in CRC was
 - `connects-to` → **[Targeted Therapy](../../../03-medicine/01-modern/13-cancer/targeted-therapy/README.md)** — It is matched to tumour genotype: anti-EGFR antibodies (cetuximab) for RAS-wild-type tumours, anti-VEGF bevacizumab and checkpoint immunotherapy for MSI-high disease guide modern colorectal cancer treatment.
 - `connects-to` → **[Renal System](../renal-system/README.md)** — Tumour and drugs reach the kidney: a bulky rectal or pelvic tumour can obstruct the ureters, and oxaliplatin-based chemotherapy carries nephrotoxic risk.
 - `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — Pelvic surgery and spread affect it: rectal cancer surgery risks injury to nerves controlling sexual function, and colorectal cancer can metastasise to the ovaries as Krukenberg-type deposits.
+- `connects-to` → **[Cancer Chemotherapy](../../../03-medicine/01-modern/13-cancer/cancer-chemotherapy/README.md)** — FOLFOX is the backbone: 5-fluorouracil with oxaliplatin or irinotecan is the cytotoxic core of colorectal cancer treatment, given adjuvantly after surgery for node-positive disease and as first-line therapy for metastatic disease.
+- `connects-to` → **[Checkpoint Inhibitors](../../../03-medicine/01-modern/13-cancer/checkpoint-inhibitors/README.md)** — MSI status splits the response: the ~15% of colorectal cancers that are mismatch-repair-deficient (MSI-high) respond dramatically to PD-1 blockade like pembrolizumab, while the microsatellite-stable majority remain immunologically cold and resistant.
+- `connects-to` → **[Hepatic Lobule](../../05-tissue/hepatic-lobule/README.md)** — It seeds the liver first: draining via the portal vein, colorectal cancer metastasises preferentially to the hepatic lobules, and these liver metastases — uniquely among cancers — are often resected or ablated for cure.
 
 ---
 

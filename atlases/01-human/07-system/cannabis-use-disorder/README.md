@@ -222,6 +222,15 @@ cross_links:
   - target: 01-human/07-system/epilepsy
     relation: connects-to
     note: "The same plant cuts both ways: while heavy THC use is the substance of cannabis use disorder, the plant's cannabidiol is an approved anticonvulsant for severe childhood epilepsies."
+  - target: 03-medicine/01-modern/13-cancer/cancer-chemotherapy
+    relation: connects-to
+    note: "A medicinal flip-side: while heavy use defines the disorder, synthetic cannabinoids like nabilone and dronabinol are licensed antiemetics for chemotherapy-induced nausea and vomiting, exploiting CB1 receptors in the brainstem."
+  - target: 01-human/07-system/hiv-aids
+    relation: connects-to
+    note: "Cannabinoids stimulate appetite: dronabinol is approved for the anorexia and wasting of advanced HIV/AIDS, and cannabis use is common in this population — the appetite-promoting side of a drug otherwise misused."
+  - target: 01-human/07-system/obesity
+    relation: connects-to
+    note: "The endocannabinoid system and weight: CB1 signalling drives appetite and fat storage, so the same system disordered in chronic cannabis use was targeted for obesity by the CB1 blocker rimonabant, withdrawn for triggering depression and anxiety."
 sources:
   - id: hasin-2015-cannabis-disorder
     type: peer-reviewed
@@ -445,6 +454,9 @@ Paradoxical syndrome in heavy long-term users: cyclic vomiting relieved by hot b
 - `connects-to` → **[Fluoxetine](../../../03-medicine/01-modern/10-mental-health/fluoxetine/README.md)** — Comorbid mood is treated: there is no approved drug for cannabis use disorder itself, but SSRIs like fluoxetine address the depression and anxiety that frequently accompany it.
 - `connects-to` → **[Gambling Disorder](../gambling-disorder/README.md)** — A fellow disorder of reward: cannabis use disorder shares the dopaminergic reward-circuit dysregulation of behavioural addictions like gambling disorder, and the two frequently co-occur.
 - `connects-to` → **[Epilepsy](../epilepsy/README.md)** — The same plant cuts both ways: while heavy THC use is the substance of cannabis use disorder, the plant's cannabidiol is an approved anticonvulsant for severe childhood epilepsies.
+- `connects-to` → **[Cancer Chemotherapy](../../../03-medicine/01-modern/13-cancer/cancer-chemotherapy/README.md)** — A medicinal flip-side: while heavy use defines the disorder, synthetic cannabinoids like nabilone and dronabinol are licensed antiemetics for chemotherapy-induced nausea and vomiting, exploiting CB1 receptors in the brainstem.
+- `connects-to` → **[HIV/AIDS](../hiv-aids/README.md)** — Cannabinoids stimulate appetite: dronabinol is approved for the anorexia and wasting of advanced HIV/AIDS, and cannabis use is common in this population — the appetite-promoting side of a drug otherwise misused.
+- `connects-to` → **[Obesity](../obesity/README.md)** — The endocannabinoid system and weight: CB1 signalling drives appetite and fat storage, so the same system disordered in chronic cannabis use was targeted for obesity by the CB1 blocker rimonabant, withdrawn for triggering depression and anxiety.
 
 [^hasin-2015-cannabis-disorder]: Hasin DS, Saha TD, Kerridge BT, et al. Prevalence of marijuana use disorders in the United States between 2001-2002 and 2012-2013. *JAMA Psychiatry.* 2015;72(12):1235-1242. [doi:10.1001/jamapsychiatry.2015.1858](https://doi.org/10.1001/jamapsychiatry.2015.1858) · [PubMed 26502112](https://pubmed.ncbi.nlm.nih.gov/26502112/)
 [^budney-2004-cannabis-withdrawal]: Budney AJ, Moore BA, Vandrey RG, Hughes JR. The time course and significance of cannabis withdrawal. *J Abnorm Psychol.* 2003;112(3):393-402. [doi:10.1037/0021-843X.112.3.393](https://doi.org/10.1037/0021-843X.112.3.393) · [PubMed 12943018](https://pubmed.ncbi.nlm.nih.gov/12943018/)
