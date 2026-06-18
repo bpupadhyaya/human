@@ -251,6 +251,15 @@ cross_links:
   - target: 03-medicine/02-traditional/ashwagandha
     relation: connects-to
     note: "Traditional anxiolytics are tried: adaptogens such as ashwagandha are used by some for the anxiety underlying OCD, complementing rather than replacing first-line SSRIs."
+  - target: 01-human/07-system/gambling-disorder
+    relation: connects-to
+    note: "Two ends of compulsivity: OCD compulsions are anxiety-driven and ego-dystonic while gambling is reward-driven, yet both engage dysfunctional cortico-striatal circuits, placing them on a shared obsessive-compulsive and impulsive spectrum."
+  - target: 03-medicine/02-traditional/st-johns-wort
+    relation: connects-to
+    note: "A herbal serotonergic adjunct: St John's wort, which raises serotonin like the SSRIs that treat OCD, is tried for comorbid depression and anxiety — though OCD-specific evidence is weak and interactions are a concern."
+  - target: 03-medicine/02-traditional/panax-ginseng
+    relation: connects-to
+    note: "An adaptogen for the anxiety burden: Panax ginseng is among the traditional remedies used for the chronic stress and anxiety accompanying OCD, an adjunct to the established SSRI and exposure therapy."
 ---
 
 # Obsessive-Compulsive Disorder
@@ -453,6 +462,9 @@ OCD is often underdiagnosed due to shame and secrecy. Mean time from symptom ons
 - `connects-to` → **[Lymphatic System](../lymphatic-system/README.md)** — Its post-streptococcal form starts in lymphoid tissue: in PANDAS, antibodies raised in tonsillar lymphoid tissue against streptococcus cross-react with the basal ganglia to trigger abrupt OCD.
 - `connects-to` → **[Omega-3 fatty acids](../../../03-medicine/03-food/omega-3-fatty-acids/README.md)** — Diet is studied as an adjunct: omega-3 fatty acids have been trialled for OCD and anxiety, with modest and inconsistent benefit alongside SSRIs and therapy.
 - `connects-to` → **[Ashwagandha](../../../03-medicine/02-traditional/ashwagandha/README.md)** — Traditional anxiolytics are tried: adaptogens such as ashwagandha are used by some for the anxiety underlying OCD, complementing rather than replacing first-line SSRIs.
+- `connects-to` → **[Gambling Disorder](../gambling-disorder/README.md)** — Two ends of compulsivity: OCD compulsions are anxiety-driven and ego-dystonic while gambling is reward-driven, yet both engage dysfunctional cortico-striatal circuits, placing them on a shared obsessive-compulsive and impulsive spectrum.
+- `connects-to` → **[St John's Wort](../../../03-medicine/02-traditional/st-johns-wort/README.md)** — A herbal serotonergic adjunct: St John's wort, which raises serotonin like the SSRIs that treat OCD, is tried for comorbid depression and anxiety — though OCD-specific evidence is weak and interactions are a concern.
+- `connects-to` → **[Panax Ginseng](../../../03-medicine/02-traditional/panax-ginseng/README.md)** — An adaptogen for the anxiety burden: Panax ginseng is among the traditional remedies used for the chronic stress and anxiety accompanying OCD, an adjunct to the established SSRI and exposure therapy.
 
 [^abramowitz-2009-ocd-review]: Abramowitz JS, Taylor S, McKay D. Obsessive-compulsive disorder. *Lancet.* 2009;374(9688):491-499. [doi:10.1016/S0140-6736(09)60240-3](https://doi.org/10.1016/S0140-6736(09)60240-3) · [PubMed 19665647](https://pubmed.ncbi.nlm.nih.gov/19665647/)
 [^chamberlain-2008-ocd-neuroscience]: Chamberlain SR, Menzies L, Hampshire A, et al. Orbitofrontal dysfunction in patients with OCD and their unaffected relatives. *Science.* 2008;321(5887):421-422. [doi:10.1126/science.1154433](https://doi.org/10.1126/science.1154433) · [PubMed 18635808](https://pubmed.ncbi.nlm.nih.gov/18635808/)

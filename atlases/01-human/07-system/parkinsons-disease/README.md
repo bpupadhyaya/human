@@ -241,6 +241,15 @@ cross_links:
   - target: 03-medicine/02-traditional/ginkgo-biloba
     relation: connects-to
     note: "Traditional neuroprotectants are explored: antioxidant herbs such as ginkgo biloba are studied for neurodegeneration, though none substitute for dopaminergic therapy in Parkinson's."
+  - target: 01-human/05-tissue/axonal-transport
+    relation: connects-to
+    note: "Aggregates clog the axon: α-synuclein oligomers impair axonal transport in nigrostriatal neurons, contributing to the dying-back degeneration that strips dopamine terminals from the striatum before cell bodies die."
+  - target: 01-human/05-tissue/myocardium
+    relation: connects-to
+    note: "It denervates the heart: Parkinson's causes cardiac sympathetic denervation, so reduced MIBG uptake in the myocardium is an early biomarker distinguishing it from atypical parkinsonism, and contributes to orthostatic hypotension."
+  - target: 03-medicine/02-traditional/panax-ginseng
+    relation: connects-to
+    note: "Ginsenosides are studied for neuroprotection: Panax ginseng shows dopaminergic-neuron-protective effects in Parkinson's models, joining ginkgo among traditional remedies explored as adjuncts, though none replace levodopa."
 ---
 
 # Parkinson's Disease
@@ -454,6 +463,9 @@ PD is primarily a disease of aging (mean onset ~60 years), but **~10–15% of ca
 - `connects-to` → **[Helicobacter pylori](../../../02-pathogen/02-bacteria/helicobacter-pylori/README.md)** — A gut bug that blocks the drug: Helicobacter pylori infection impairs levodopa absorption and is epidemiologically linked to Parkinson's, so eradication can improve motor control.
 - `connects-to` → **[Influenza A](../../../02-pathogen/01-viruses/influenza-a/README.md)** — A historical post-infectious link: the encephalitis lethargica that followed the 1918 influenza pandemic caused a striking post-encephalitic parkinsonism, fuelling interest in infectious triggers.
 - `connects-to` → **[Ginkgo Biloba](../../../03-medicine/02-traditional/ginkgo-biloba/README.md)** — Traditional neuroprotectants are explored: antioxidant herbs such as ginkgo biloba are studied for neurodegeneration, though none substitute for dopaminergic therapy in Parkinson's.
+- `connects-to` → **[Axonal Transport](../../05-tissue/axonal-transport/README.md)** — Aggregates clog the axon: α-synuclein oligomers impair axonal transport in nigrostriatal neurons, contributing to the dying-back degeneration that strips dopamine terminals from the striatum before cell bodies die.
+- `connects-to` → **[Myocardium](../../05-tissue/myocardium/README.md)** — It denervates the heart: Parkinson's causes cardiac sympathetic denervation, so reduced MIBG uptake in the myocardium is an early biomarker distinguishing it from atypical parkinsonism, and contributes to orthostatic hypotension.
+- `connects-to` → **[Panax Ginseng](../../../03-medicine/02-traditional/panax-ginseng/README.md)** — Ginsenosides are studied for neuroprotection: Panax ginseng shows dopaminergic-neuron-protective effects in Parkinson's models, joining ginkgo among traditional remedies explored as adjuncts, though none replace levodopa.
 
 [^kalia-2015-pd-review]: Kalia LV, Lang AE. Parkinson's disease. *Lancet.* 2015;386(9996):896-912. [doi:10.1016/S0140-6736(14)61393-3](https://doi.org/10.1016/S0140-6736(14)61393-3) · [PubMed 25904081](https://pubmed.ncbi.nlm.nih.gov/25904081/)
 [^spillantini-1997-lewy-body]: Spillantini MG, Schmidt ML, Lee VM, Trojanowski JQ, Jakes R, Goedert M. Alpha-synuclein in Lewy bodies. *Nature.* 1997;388(6645):839-840. [doi:10.1038/42166](https://doi.org/10.1038/42166) · [PubMed 9278044](https://pubmed.ncbi.nlm.nih.gov/9278044/)
