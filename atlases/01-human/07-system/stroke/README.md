@@ -226,6 +226,15 @@ cross_links:
   - target: 01-human/07-system/integumentary-system
     relation: connects-to
     note: "Paralysis and immobility break the skin: pressure ulcers over the sacrum and heels are a major preventable complication after a disabling stroke."
+  - target: 03-medicine/01-modern/04-cardio/statins
+    relation: connects-to
+    note: "Lipid-lowering prevents the next one: high-intensity statins reduce recurrent ischaemic stroke by stabilising atherosclerotic plaque, a cornerstone of secondary prevention."
+  - target: 03-medicine/01-modern/04-cardio/ace-inhibitors
+    relation: connects-to
+    note: "Blood pressure is the dominant modifiable risk: lowering it with ACE inhibitors and other antihypertensives is the single most effective way to prevent both ischaemic and haemorrhagic stroke."
+  - target: 02-pathogen/01-viruses/varicella-zoster-virus
+    relation: connects-to
+    note: "A virus that inflames cerebral arteries: varicella-zoster can cause a vasculopathy of the brain arteries leading to stroke, weeks after shingles and especially in children or the immunocompromised."
 ---
 
 # Stroke
@@ -399,6 +408,9 @@ Normal brain maintains CBF constant (50-150 mmHg MAP range) via autoregulation (
 - `connects-to` → **[Endocrine System](../endocrine-system/README.md)** — It disturbs glucose and sodium: stress hyperglycaemia worsens stroke outcomes, and hypothalamic or pituitary strokes cause SIADH or cerebral salt wasting with dangerous sodium shifts.
 - `connects-to` → **[Immune System](../immune-system/README.md)** — Brain injury suppresses immunity: stroke-induced immunodepression in the days afterward raises the risk of pneumonia and urinary infection, a major driver of early mortality.
 - `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — Paralysis and immobility break the skin: pressure ulcers over the sacrum and heels are a major preventable complication after a disabling stroke.
+- `connects-to` → **[Statins](../../../03-medicine/01-modern/04-cardio/statins/README.md)** — Lipid-lowering prevents the next one: high-intensity statins reduce recurrent ischaemic stroke by stabilising atherosclerotic plaque, a cornerstone of secondary prevention.
+- `connects-to` → **[ACE inhibitors](../../../03-medicine/01-modern/04-cardio/ace-inhibitors/README.md)** — Blood pressure is the dominant modifiable risk: lowering it with ACE inhibitors and other antihypertensives is the single most effective way to prevent both ischaemic and haemorrhagic stroke.
+- `connects-to` → **[Varicella-zoster virus](../../../02-pathogen/01-viruses/varicella-zoster-virus/README.md)** — A virus that inflames cerebral arteries: varicella-zoster can cause a vasculopathy of the brain arteries leading to stroke, weeks after shingles and especially in children or the immunocompromised.
 
 [^powers-2019-aha-stroke]: Powers WJ, Rabinstein AA, Ackerson T, et al. Guidelines for the Early Management of Patients With Acute Ischemic Stroke: 2019 Update to the 2018 Guidelines. *Stroke.* 2019;50(12):e344-e418. [doi:10.1161/STR.0000000000000211](https://doi.org/10.1161/STR.0000000000000211) · [PubMed 31662037](https://pubmed.ncbi.nlm.nih.gov/31662037/)
 [^feigin-2021-gbd-stroke]: Feigin VL, Krishnamurthi RV, Parmar P, et al. Update on the Global Burden of Ischemic and Hemorrhagic Stroke in 1990-2013. *Neuroepidemiology.* 2015;45(3):161-176. [doi:10.1159/000441085](https://doi.org/10.1159/000441085) · [PubMed 26505981](https://pubmed.ncbi.nlm.nih.gov/26505981/)

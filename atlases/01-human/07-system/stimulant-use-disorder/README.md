@@ -223,6 +223,15 @@ cross_links:
   - target: 01-human/07-system/renal-system
     relation: connects-to
     note: "Cocaine attacks the kidney directly: it causes renal infarction and malignant hypertension with acute kidney injury, distinct from the rhabdomyolysis that also threatens renal function."
+  - target: 01-human/07-system/immune-system
+    relation: connects-to
+    note: "An adulterant cripples the marrow: cocaine is widely cut with levamisole, which can cause severe agranulocytosis and an ANCA-associated vasculitis, while stimulant use broadly impairs host defence."
+  - target: 02-pathogen/01-viruses/hepatitis-b-virus
+    relation: connects-to
+    note: "Injecting and risky sex spread blood-borne virus: stimulant use disorder transmits hepatitis B alongside hepatitis C and HIV, through shared needles and disinhibited behaviour."
+  - target: 02-pathogen/02-bacteria/clostridium-tetani
+    relation: connects-to
+    note: "Contaminated injection seeds soil spores: injecting stimulants risks tetanus and wound botulism from Clostridium, especially with subcutaneous 'skin-popping'."
 ---
 
 # Stimulant Use Disorder
@@ -413,6 +422,9 @@ Unlike cocaine, methamphetamine causes **direct neurotoxic damage** to dopaminer
 - `connects-to` → **[Respiratory System](../respiratory-system/README.md)** — Inhaled stimulants scar the lungs: smoking crack cocaine or methamphetamine causes 'crack lung' — acute eosinophilic pneumonitis and alveolar haemorrhage — and barotrauma with pneumothorax.
 - `connects-to` → **[Endocrine System](../endocrine-system/README.md)** — They drive sympathetic overdrive: stimulants suppress appetite and cause weight loss, and overdose brings hyperthermia and a hypermetabolic, adrenergic storm resembling thyroid excess.
 - `connects-to` → **[Renal System](../renal-system/README.md)** — Cocaine attacks the kidney directly: it causes renal infarction and malignant hypertension with acute kidney injury, distinct from the rhabdomyolysis that also threatens renal function.
+- `connects-to` → **[Immune System](../immune-system/README.md)** — An adulterant cripples the marrow: cocaine is widely cut with levamisole, which can cause severe agranulocytosis and an ANCA-associated vasculitis, while stimulant use broadly impairs host defence.
+- `connects-to` → **[Hepatitis B virus](../../../02-pathogen/01-viruses/hepatitis-b-virus/README.md)** — Injecting and risky sex spread blood-borne virus: stimulant use disorder transmits hepatitis B alongside hepatitis C and HIV, through shared needles and disinhibited behaviour.
+- `connects-to` → **[Clostridium tetani](../../../02-pathogen/02-bacteria/clostridium-tetani/README.md)** — Contaminated injection seeds soil spores: injecting stimulants risks tetanus and wound botulism from Clostridium, especially with subcutaneous 'skin-popping'.
 
 ## Treatment
 
