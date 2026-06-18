@@ -205,6 +205,15 @@ cross_links:
   - target: 01-human/07-system/generalized-anxiety-disorder
     relation: connects-to
     note: "A relapsing cancer watched by a blood marker breeds worry: the recurrent course of ovarian cancer and the dread of a rising CA-125 between scans foster chronic health anxiety alongside depression."
+  - target: 01-human/07-system/wound-healing
+    relation: connects-to
+    note: "Cytoreductive surgery is extensive: ovarian-cancer debulking removes peritoneal and bowel disease in long operations, leaving large abdominal wounds and anastomoses prone to leak and slow healing."
+  - target: 01-human/07-system/respiratory-system
+    relation: connects-to
+    note: "It floods the chest with fluid: advanced ovarian cancer spreads across the diaphragm to cause malignant pleural effusions, a common marker of stage IV disease and a source of breathlessness."
+  - target: 01-human/07-system/endocrine-system
+    relation: connects-to
+    note: "Removing the ovaries forces menopause: bilateral salpingo-oophorectomy for ovarian cancer abruptly ends ovarian oestrogen, causing surgical menopause with its hormonal, bone and vasomotor effects."
 ---
 
 # Ovarian Cancer
@@ -383,6 +392,9 @@ FTSEC ciliated and secretory cells line the Fallopian tube; secretory cells are 
 - `connects-to` → **[Neuropathic Pain](../neuropathic-pain/README.md)** — Its taxane-platinum chemo numbs the nerves: the paclitaxel and carboplatin central to ovarian-cancer treatment cause a dose-dependent, often persistent peripheral neuropathy with painful paraesthesiae.
 - `connects-to` → **[Acute Myeloid Leukemia](../aml/README.md)** — Years of DNA-damaging therapy can seed leukaemia: the platinum chemotherapy and PARP inhibitors used in ovarian cancer carry a small but real risk of therapy-related myelodysplasia and acute myeloid leukaemia.
 - `connects-to` → **[Generalized Anxiety Disorder](../generalized-anxiety-disorder/README.md)** — A relapsing cancer watched by a blood marker breeds worry: the recurrent course of ovarian cancer and the dread of a rising CA-125 between scans foster chronic health anxiety alongside depression.
+- `connects-to` → **[Wound Healing](../wound-healing/README.md)** — Cytoreductive surgery is extensive: ovarian-cancer debulking removes peritoneal and bowel disease in long operations, leaving large abdominal wounds and anastomoses prone to leak and slow healing.
+- `connects-to` → **[Respiratory System](../respiratory-system/README.md)** — It floods the chest with fluid: advanced ovarian cancer spreads across the diaphragm to cause malignant pleural effusions, a common marker of stage IV disease and a source of breathlessness.
+- `connects-to` → **[Endocrine System](../endocrine-system/README.md)** — Removing the ovaries forces menopause: bilateral salpingo-oophorectomy for ovarian cancer abruptly ends ovarian oestrogen, causing surgical menopause with its hormonal, bone and vasomotor effects.
 
 [^burger-2011-gog0218]: Burger RA, Brady MF, Bookman MA, et al. Incorporation of bevacizumab in the primary treatment of ovarian cancer. *N Engl J Med.* 2011;365(26):2473-2483. [doi:10.1056/NEJMoa1104390](https://doi.org/10.1056/NEJMoa1104390) · [PubMed 22204724](https://pubmed.ncbi.nlm.nih.gov/22204724/)
 [^moore-2018-olaparib-solo1]: Moore K, Colombo N, Scambia G, et al. Maintenance olaparib in patients with newly diagnosed advanced ovarian cancer. *N Engl J Med.* 2018;379(26):2495-2505. [doi:10.1056/NEJMoa1810858](https://doi.org/10.1056/NEJMoa1810858) · [PubMed 30345884](https://pubmed.ncbi.nlm.nih.gov/30345884/)
