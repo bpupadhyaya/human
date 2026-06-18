@@ -241,6 +241,15 @@ cross_links:
   - target: 01-human/07-system/thyroid-cancer
     relation: connects-to
     note: "Both flag familial polyposis: desmoid tumours and cribriform-morular thyroid carcinoma are extracolonic manifestations of familial adenomatous polyposis, sharing its APC/Wnt-pathway driver."
+  - target: 01-human/05-tissue/intestinal-epithelium
+    relation: connects-to
+    note: "It strangles the bowel: in FAP/Gardner syndrome, mesenteric desmoid tumours encase and obstruct the small intestine and its vessels, a leading cause of death after colectomy despite being histologically benign."
+  - target: 01-human/05-tissue/cortical-bone
+    relation: connects-to
+    note: "It erodes adjacent bone: though non-metastasising, aggressive desmoid fibromatosis infiltrates muscle and fascia and can scallop and erode the cortical bone it abuts, driving pain and local destruction."
+  - target: 01-human/07-system/systemic-sclerosis
+    relation: connects-to
+    note: "Two faces of fibroblast overgrowth: desmoid is a clonal neoplastic proliferation of myofibroblasts laying down collagen, whereas systemic sclerosis is autoimmune-driven fibroblast activation — different triggers converging on excess fibrous tissue."
 ---
 
 # Desmoid Tumor
@@ -449,6 +458,9 @@ Standard initial approach for newly diagnosed desmoid without symptoms or rapid 
 - `connects-to` → **[Targeted Therapy](../../../03-medicine/01-modern/13-cancer/targeted-therapy/README.md)** — A new drug targets its pathway: nirogacestat, a gamma-secretase inhibitor of Notch, and multikinase inhibitors (sorafenib, pazopanib) shrink progressive desmoid tumours that exploit Wnt/β-catenin signalling.
 - `connects-to` → **[Cancer Chemotherapy](../../../03-medicine/01-modern/13-cancer/cancer-chemotherapy/README.md)** — Low-dose chemo controls progression: regimens like methotrexate-vinblastine or liposomal doxorubicin treat progressive or symptomatic desmoid tumours unsuitable for surgery.
 - `connects-to` → **[Thyroid Cancer](../thyroid-cancer/README.md)** — Both flag familial polyposis: desmoid tumours and cribriform-morular thyroid carcinoma are extracolonic manifestations of familial adenomatous polyposis, sharing its APC/Wnt-pathway driver.
+- `connects-to` → **[Intestinal Epithelium](../../05-tissue/intestinal-epithelium/README.md)** — It strangles the bowel: in FAP/Gardner syndrome, mesenteric desmoid tumours encase and obstruct the small intestine and its vessels, a leading cause of death after colectomy despite being histologically benign.
+- `connects-to` → **[Cortical Bone](../../05-tissue/cortical-bone/README.md)** — It erodes adjacent bone: though non-metastasising, aggressive desmoid fibromatosis infiltrates muscle and fascia and can scallop and erode the cortical bone it abuts, driving pain and local destruction.
+- `connects-to` → **[Systemic Sclerosis](../systemic-sclerosis/README.md)** — Two faces of fibroblast overgrowth: desmoid is a clonal neoplastic proliferation of myofibroblasts laying down collagen, whereas systemic sclerosis is autoimmune-driven fibroblast activation — different triggers converging on excess fibrous tissue.
 
 ---
 

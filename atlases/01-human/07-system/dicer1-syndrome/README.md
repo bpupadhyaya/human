@@ -241,6 +241,15 @@ cross_links:
   - target: 01-human/07-system/ewing-sarcoma
     relation: connects-to
     note: "A fellow paediatric sarcoma: DICER1-related sarcomas join Ewing sarcoma among aggressive childhood sarcomas treated with multimodal therapy, entering each other's pathological differential."
+  - target: 01-human/05-tissue/lung-slice
+    relation: connects-to
+    note: "Its hallmark tumour is cystic lung: pleuropulmonary blastoma begins as benign air-filled lung cysts in early childhood that can transform into an aggressive sarcoma, so cystic change on a lung slice triggers DICER1 surveillance."
+  - target: 03-medicine/01-modern/13-cancer/targeted-therapy
+    relation: connects-to
+    note: "Beyond chemotherapy: anti-angiogenic and other targeted agents are explored for the diverse DICER1 sarcomas, and the syndrome's miRNA-processing defect is itself a focus of emerging precision approaches."
+  - target: 01-human/07-system/carney-complex
+    relation: connects-to
+    note: "Inherited multi-endocrine tumour cousins: like Carney complex, DICER1 syndrome predisposes to a spread of endocrine tumours — thyroid carcinoma and ovarian Sertoli-Leydig tumours — under germline control demanding glandular surveillance."
 ---
 
 # DICER1 Syndrome
@@ -430,6 +439,9 @@ When a child is found to have a thoracic cystic lesion, DICER1 syndrome should b
 - `connects-to` → **[Cancer Chemotherapy](../../../03-medicine/01-modern/13-cancer/cancer-chemotherapy/README.md)** — Chemo treats its embryonal tumours: pleuropulmonary blastoma and other DICER1 sarcomas are treated with intensive multi-agent, often sarcoma-type, chemotherapy after surgery.
 - `connects-to` → **[Birt-Hogg-Dubé Syndrome](../birt-hogg-dube-syndrome/README.md)** — Two inherited causes of lung cysts: like Birt-Hogg-Dubé, DICER1 syndrome produces familial cystic lung disease, though DICER1's cysts can transform into pleuropulmonary blastoma, demanding early surveillance.
 - `connects-to` → **[Ewing Sarcoma](../ewing-sarcoma/README.md)** — A fellow paediatric sarcoma: DICER1-related sarcomas join Ewing sarcoma among aggressive childhood sarcomas treated with multimodal therapy, entering each other's pathological differential.
+- `connects-to` → **[Lung Slice](../../05-tissue/lung-slice/README.md)** — Its hallmark tumour is cystic lung: pleuropulmonary blastoma begins as benign air-filled lung cysts in early childhood that can transform into an aggressive sarcoma, so cystic change on a lung slice triggers DICER1 surveillance.
+- `connects-to` → **[Targeted Therapy](../../../03-medicine/01-modern/13-cancer/targeted-therapy/README.md)** — Beyond chemotherapy: anti-angiogenic and other targeted agents are explored for the diverse DICER1 sarcomas, and the syndrome's miRNA-processing defect is itself a focus of emerging precision approaches.
+- `connects-to` → **[Carney Complex](../carney-complex/README.md)** — Inherited multi-endocrine tumour cousins: like Carney complex, DICER1 syndrome predisposes to a spread of endocrine tumours — thyroid carcinoma and ovarian Sertoli-Leydig tumours — under germline control demanding glandular surveillance.
 
 ---
 
