@@ -214,6 +214,15 @@ cross_links:
   - target: 01-human/07-system/generalized-anxiety-disorder
     relation: connects-to
     note: "A young cancer with decades of late-effect risk breeds worry: the diagnosis in youth and the lifelong surveillance for second cancers and cardiac and lung damage foster chronic health anxiety."
+  - target: 01-human/07-system/cardiovascular-system
+    relation: connects-to
+    note: "Its cure scars the heart for decades: mediastinal radiation and the doxorubicin in ABVD cause late premature coronary disease, valve damage and cardiomyopathy in young survivors."
+  - target: 01-human/07-system/integumentary-system
+    relation: connects-to
+    note: "It announces itself through the skin: severe generalised pruritus is a classic constitutional feature of Hodgkin lymphoma, and alcohol-induced pain at involved nodes is a curious sign."
+  - target: 01-human/07-system/renal-system
+    relation: connects-to
+    note: "It can leak protein from the kidney: Hodgkin lymphoma is the cancer most classically associated with paraneoplastic minimal-change nephrotic syndrome, which resolves when the lymphoma is treated."
 ---
 
 # Hodgkin Lymphoma
@@ -401,6 +410,9 @@ Modern protocols minimize RT fields and doses (ISRT replacing extended-field RT)
 - `connects-to` → **[Respiratory System](../respiratory-system/README.md)** — Its drugs and bulk attack the lungs: bleomycin in ABVD causes pulmonary fibrosis, and a bulky mediastinal Hodgkin mass can compress the airway and superior vena cava.
 - `connects-to` → **[Endocrine System](../endocrine-system/README.md)** — Mantle radiation silences glands and gonads: neck radiotherapy for Hodgkin lymphoma causes late hypothyroidism, while chemotherapy and pelvic radiation impair fertility and gonadal function.
 - `connects-to` → **[Generalized Anxiety Disorder](../generalized-anxiety-disorder/README.md)** — A young cancer with decades of late-effect risk breeds worry: the diagnosis in youth and the lifelong surveillance for second cancers and cardiac and lung damage foster chronic health anxiety.
+- `connects-to` → **[Cardiovascular System](../cardiovascular-system/README.md)** — Its cure scars the heart for decades: mediastinal radiation and the doxorubicin in ABVD cause late premature coronary disease, valve damage and cardiomyopathy in young survivors.
+- `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — It announces itself through the skin: severe generalised pruritus is a classic constitutional feature of Hodgkin lymphoma, and alcohol-induced pain at involved nodes is a curious sign.
+- `connects-to` → **[Renal System](../renal-system/README.md)** — It can leak protein from the kidney: Hodgkin lymphoma is the cancer most classically associated with paraneoplastic minimal-change nephrotic syndrome, which resolves when the lymphoma is treated.
 
 [^connors-2018-echelon1]: Connors JM, Jurczak W, Straus DJ, et al. Brentuximab vedotin with chemotherapy for stage III or IV Hodgkin's lymphoma. *N Engl J Med.* 2018;378(4):331-344. [doi:10.1056/NEJMoa1708984](https://doi.org/10.1056/NEJMoa1708984) · [PubMed 29360494](https://pubmed.ncbi.nlm.nih.gov/29360494/)
 [^armand-2018-nivo-hl]: Armand P, Engert A, Younes A, et al. Nivolumab for relapsed/refractory classic Hodgkin lymphoma after failure of autologous hematopoietic cell transplantation: extended follow-up of the multicohort single-arm phase II CheckMate 205 trial. *J Clin Oncol.* 2018;36(14):1428-1439. [doi:10.1200/JCO.2017.77.6717](https://doi.org/10.1200/JCO.2017.77.6717) · [PubMed 29584546](https://pubmed.ncbi.nlm.nih.gov/29584546/)

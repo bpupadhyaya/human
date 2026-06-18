@@ -201,6 +201,15 @@ cross_links:
   - target: 01-human/07-system/gut-microbiome
     relation: connects-to
     note: "The gut-brain axis is disturbed: Huntington's disease is associated with gut dysbiosis that, through the gut-brain axis, may contribute to its weight loss and the progression of its symptoms."
+  - target: 01-human/07-system/cardiovascular-system
+    relation: connects-to
+    note: "The mutant protein also harms the heart: huntingtin is expressed in cardiac muscle, contributing to cardiomyopathy and autonomic dysfunction, with heart disease a leading cause of death in Huntington's."
+  - target: 01-human/07-system/immune-system
+    relation: connects-to
+    note: "It hyperactivates the immune system: mutant huntingtin in immune cells causes peripheral immune hyperactivation and neuroinflammation thought to contribute to disease progression."
+  - target: 01-human/07-system/renal-system
+    relation: connects-to
+    note: "It loses bladder control: advancing Huntington's brings neurogenic bladder with urinary urgency and incontinence and a raised risk of urinary infection."
 sources:
   - id: gusella-1983-htt-locus
     type: peer-reviewed
@@ -313,3 +322,6 @@ HD disrupts multiple neural circuit functions:
 - `connects-to` → **[Respiratory System](../respiratory-system/README.md)** — Swallowing failure floods the lungs: progressive dysphagia and chorea of the swallowing muscles in Huntington's cause aspiration, and aspiration pneumonia is the leading cause of death.
 - `connects-to` → **[Endocrine System](../endocrine-system/README.md)** — It burns weight despite eating: Huntington's causes profound weight loss through a hypermetabolic state and hypothalamic dysfunction that also disrupts circadian and metabolic hormones.
 - `connects-to` → **[Gut Microbiome](../gut-microbiome/README.md)** — The gut-brain axis is disturbed: Huntington's disease is associated with gut dysbiosis that, through the gut-brain axis, may contribute to its weight loss and the progression of its symptoms.
+- `connects-to` → **[Cardiovascular System](../cardiovascular-system/README.md)** — The mutant protein also harms the heart: huntingtin is expressed in cardiac muscle, contributing to cardiomyopathy and autonomic dysfunction, with heart disease a leading cause of death in Huntington's.
+- `connects-to` → **[Immune System](../immune-system/README.md)** — It hyperactivates the immune system: mutant huntingtin in immune cells causes peripheral immune hyperactivation and neuroinflammation thought to contribute to disease progression.
+- `connects-to` → **[Renal System](../renal-system/README.md)** — It loses bladder control: advancing Huntington's brings neurogenic bladder with urinary urgency and incontinence and a raised risk of urinary infection.
