@@ -214,6 +214,15 @@ cross_links:
   - target: 01-human/07-system/generalized-anxiety-disorder
     relation: connects-to
     note: "Profound cancer risk breeds worry: the chromosomal instability and very high lifetime malignancy risk of Bloom syndrome demand lifelong surveillance that fosters chronic health anxiety."
+  - target: 01-human/07-system/musculoskeletal-system
+    relation: connects-to
+    note: "It stunts the whole skeleton: profound proportionate pre- and postnatal growth deficiency leaves a small, slender frame, one of the defining clinical features of Bloom syndrome."
+  - target: 01-human/07-system/respiratory-system
+    relation: connects-to
+    note: "Antibody deficiency lets the lungs get infected: the immunodeficiency of Bloom syndrome causes recurrent respiratory and ear infections that can progress to bronchiectasis."
+  - target: 01-human/07-system/digestive-system
+    relation: connects-to
+    note: "It troubles the gut early and late: feeding difficulties and gastro-oesophageal reflux are common in infancy, while a high lifetime risk of gastrointestinal cancers emerges in adulthood."
 ---
 
 # Bloom Syndrome
@@ -417,6 +426,9 @@ BS is characterized by three cardinal features: **small body size** (the most co
 - `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — Sunlight inflames its skin: Bloom syndrome causes a photosensitive telangiectatic butterfly erythema across the face, along with café-au-lait macules and a raised risk of skin cancer.
 - `connects-to` → **[Endocrine System](../endocrine-system/README.md)** — It stunts growth and disturbs metabolism: Bloom syndrome features severe proportionate short stature, and patients develop diabetes and hypogonadism with subfertility, tying it to the endocrine system.
 - `connects-to` → **[Generalized Anxiety Disorder](../generalized-anxiety-disorder/README.md)** — Profound cancer risk breeds worry: the chromosomal instability and very high lifetime malignancy risk of Bloom syndrome demand lifelong surveillance that fosters chronic health anxiety.
+- `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — It stunts the whole skeleton: profound proportionate pre- and postnatal growth deficiency leaves a small, slender frame, one of the defining clinical features of Bloom syndrome.
+- `connects-to` → **[Respiratory System](../respiratory-system/README.md)** — Antibody deficiency lets the lungs get infected: the immunodeficiency of Bloom syndrome causes recurrent respiratory and ear infections that can progress to bronchiectasis.
+- `connects-to` → **[Digestive System](../digestive-system/README.md)** — It troubles the gut early and late: feeding difficulties and gastro-oesophageal reflux are common in infancy, while a high lifetime risk of gastrointestinal cancers emerges in adulthood.
 
 ---
 

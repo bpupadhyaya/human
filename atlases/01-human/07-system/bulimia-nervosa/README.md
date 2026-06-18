@@ -216,6 +216,15 @@ cross_links:
   - target: 01-human/07-system/panic-disorder
     relation: connects-to
     note: "Anxiety rides alongside the bingeing: panic and anxiety disorders are highly comorbid with bulimia, with the loss-of-control episodes and shame both fed by and feeding anxious arousal."
+  - target: 01-human/07-system/respiratory-system
+    relation: connects-to
+    note: "Vomiting endangers the airway and chest: recurrent self-induced vomiting risks aspiration, and forceful vomiting can rupture the oesophagus (Boerhaave syndrome), causing pneumomediastinum and mediastinitis."
+  - target: 01-human/07-system/musculoskeletal-system
+    relation: connects-to
+    note: "Purging drains the muscles' minerals: hypokalaemia and other electrolyte losses from vomiting and laxative abuse cause muscle weakness, cramps and, in severe cases, rhabdomyolysis."
+  - target: 01-human/07-system/immune-system
+    relation: connects-to
+    note: "Chronic purging wears down defences: the malnutrition and metabolic stress of recurrent vomiting modestly impair immune function and delay wound healing."
 ---
 
 # Bulimia Nervosa
@@ -411,6 +420,9 @@ All of the following must be met:
 - `connects-to` → **[Cardiovascular System](../cardiovascular-system/README.md)** — Purging-driven hypokalaemia destabilises the heart: the potassium loss from repeated vomiting and laxative abuse in bulimia causes arrhythmias and QT prolongation, and ipecac abuse can cause a fatal cardiomyopathy.
 - `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — Self-induced vomiting marks the skin: repeated use of the fingers to induce vomiting leaves Russell's sign — calluses and scarring over the knuckles — a telltale physical clue to bulimia.
 - `connects-to` → **[Panic Disorder](../panic-disorder/README.md)** — Anxiety rides alongside the bingeing: panic and anxiety disorders are highly comorbid with bulimia, with the loss-of-control episodes and shame both fed by and feeding anxious arousal.
+- `connects-to` → **[Respiratory System](../respiratory-system/README.md)** — Vomiting endangers the airway and chest: recurrent self-induced vomiting risks aspiration, and forceful vomiting can rupture the oesophagus (Boerhaave syndrome), causing pneumomediastinum and mediastinitis.
+- `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — Purging drains the muscles' minerals: hypokalaemia and other electrolyte losses from vomiting and laxative abuse cause muscle weakness, cramps and, in severe cases, rhabdomyolysis.
+- `connects-to` → **[Immune System](../immune-system/README.md)** — Chronic purging wears down defences: the malnutrition and metabolic stress of recurrent vomiting modestly impair immune function and delay wound healing.
 
 ## Treatment
 
