@@ -214,6 +214,15 @@ cross_links:
   - target: 01-human/07-system/generalized-anxiety-disorder
     relation: connects-to
     note: "A sudden, relapse-prone cancer breeds dread: the abrupt life-threatening onset, intensive therapy and constant relapse risk of AML fuel chronic anxiety alongside the depression its course imposes."
+  - target: 01-human/07-system/integumentary-system
+    relation: connects-to
+    note: "It writes itself on the skin: monocytic AML infiltrates the dermis as leukaemia cutis and the gums as hyperplasia, and can trigger Sweet syndrome, a paraneoplastic neutrophilic dermatosis of tender plaques."
+  - target: 01-human/07-system/nervous-system
+    relation: connects-to
+    note: "It can seed the central nervous system: monocytic AML subtypes invade the leptomeninges and form myeloid sarcomas, prompting CSF examination and intrathecal therapy when neurological signs appear."
+  - target: 01-human/07-system/digestive-system
+    relation: connects-to
+    note: "Its chemotherapy can rot the gut wall: profound neutropenia after AML induction causes neutropenic enterocolitis (typhlitis), a life-threatening inflammation of the caecum with fever, pain and bleeding."
 ---
 
 # AML
@@ -390,6 +399,9 @@ AML requires cooperative mutations in at least 2 functional categories (Gillilan
 - `connects-to` → **[Varicella-Zoster Virus](../../../02-pathogen/01-viruses/varicella-zoster-virus/README.md)** — Chemotherapy and transplant reawaken shingles: the deep, prolonged immune suppression of AML induction and stem-cell transplant lets latent varicella-zoster reactivate, so antiviral prophylaxis is standard.
 - `connects-to` → **[Aplastic Anemia](../aplastic-anemia/README.md)** — Marrow failure can transform into leukaemia: acquired aplastic anemia carries a real risk of clonal evolution to MDS and acute myeloid leukaemia, linking the empty marrow to the malignant one.
 - `connects-to` → **[Generalized Anxiety Disorder](../generalized-anxiety-disorder/README.md)** — A sudden, relapse-prone cancer breeds dread: the abrupt life-threatening onset, intensive therapy and constant relapse risk of AML fuel chronic anxiety alongside the depression its course imposes.
+- `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — It writes itself on the skin: monocytic AML infiltrates the dermis as leukaemia cutis and the gums as hyperplasia, and can trigger Sweet syndrome, a paraneoplastic neutrophilic dermatosis of tender plaques.
+- `connects-to` → **[Nervous System](../nervous-system/README.md)** — It can seed the central nervous system: monocytic AML subtypes invade the leptomeninges and form myeloid sarcomas, prompting CSF examination and intrathecal therapy when neurological signs appear.
+- `connects-to` → **[Digestive System](../digestive-system/README.md)** — Its chemotherapy can rot the gut wall: profound neutropenia after AML induction causes neutropenic enterocolitis (typhlitis), a life-threatening inflammation of the caecum with fever, pain and bleeding.
 
 [^dinardo-2020-viale-a]: DiNardo CD, Jonas BA, Pullarkat V, et al. Azacitidine and venetoclax in previously untreated acute myeloid leukemia. *N Engl J Med.* 2020;383(7):617-629. [doi:10.1056/NEJMoa2012971](https://doi.org/10.1056/NEJMoa2012971) · [PubMed 32786187](https://pubmed.ncbi.nlm.nih.gov/32786187/)
 [^stone-2017-midostaurin]: Stone RM, Mandrekar SJ, Sanford BL, et al. Midostaurin plus chemotherapy for acute myeloid leukemia with a FLT3 mutation. *N Engl J Med.* 2017;377(5):454-464. [doi:10.1056/NEJMoa1614359](https://doi.org/10.1056/NEJMoa1614359) · [PubMed 28644114](https://pubmed.ncbi.nlm.nih.gov/28644114/)

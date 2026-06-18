@@ -211,6 +211,15 @@ cross_links:
   - target: 02-pathogen/02-bacteria/streptococcus-pyogenes
     relation: connects-to
     note: "A breached barrier invites invasive strep: an open wound is a portal for Streptococcus pyogenes, which causes wound cellulitis, erysipelas and, at its worst, rapidly spreading necrotising fasciitis."
+  - target: 01-human/07-system/nervous-system
+    relation: connects-to
+    note: "Nerves help wounds close: sensory neuropeptides like substance P drive the inflammatory and angiogenic phases, so denervation and diabetic or pressure-related neuropathy produce chronic, slow-healing ulcers."
+  - target: 01-human/07-system/endocrine-system
+    relation: connects-to
+    note: "Hormones tune repair: glucocorticoid excess from Cushing's or steroids blunts inflammation and collagen synthesis, while thyroid hormone, growth hormone and sex steroids each modulate the speed and strength of healing."
+  - target: 01-human/07-system/musculoskeletal-system
+    relation: connects-to
+    note: "The same cascade rebuilds bone and tendon: fracture and tendon repair follow the inflammation-proliferation-remodelling sequence of wound healing, so the conditions that impair skin healing also delay bony union."
 ---
 
 # Wound Healing
@@ -394,6 +403,9 @@ cross_links:
 - `connects-to` → **[Immune System](../immune-system/README.md)** — Immune cells orchestrate repair: neutrophils and macrophages clear debris and release the growth factors that drive proliferation, so immunodeficiency, neutropenia and immunosuppressive drugs all delay healing.
 - `connects-to` → **[Lymphatic System](../lymphatic-system/README.md)** — Lymphatic drainage is needed to close a wound: the lymphatics clear interstitial fluid and inflammatory debris from the wound bed, so lymphedema leaves a swollen, stagnant field where chronic ulcers fail to heal.
 - `connects-to` → **[Streptococcus pyogenes](../../../02-pathogen/02-bacteria/streptococcus-pyogenes/README.md)** — A breached barrier invites invasive strep: an open wound is a portal for Streptococcus pyogenes, which causes wound cellulitis, erysipelas and, at its worst, rapidly spreading necrotising fasciitis.
+- `connects-to` → **[Nervous System](../nervous-system/README.md)** — Nerves help wounds close: sensory neuropeptides like substance P drive the inflammatory and angiogenic phases, so denervation and diabetic or pressure-related neuropathy produce chronic, slow-healing ulcers.
+- `connects-to` → **[Endocrine System](../endocrine-system/README.md)** — Hormones tune repair: glucocorticoid excess from Cushing's or steroids blunts inflammation and collagen synthesis, while thyroid hormone, growth hormone and sex steroids each modulate the speed and strength of healing.
+- `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — The same cascade rebuilds bone and tendon: fracture and tendon repair follow the inflammation-proliferation-remodelling sequence of wound healing, so the conditions that impair skin healing also delay bony union.
 
 [^singer-1999-wound-healing-review]: Singer AJ, Clark RA. Cutaneous wound healing. *N Engl J Med.* 1999;341(10):738-746. [doi:10.1056/NEJM199909023411006](https://doi.org/10.1056/NEJM199909023411006) · [PubMed 10471461](https://pubmed.ncbi.nlm.nih.gov/10471461/)
 [^gurtner-2008-wound-repair-regeneration]: Gurtner GC, Werner S, Barrandon Y, Longaker MT. Wound repair and regeneration. *Nature.* 2008;453(7193):314-321. [doi:10.1038/nature07039](https://doi.org/10.1038/nature07039) · [PubMed 18480812](https://pubmed.ncbi.nlm.nih.gov/18480812/)
