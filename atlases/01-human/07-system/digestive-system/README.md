@@ -235,6 +235,15 @@ cross_links:
   - target: 03-medicine/03-food/zinc-dietary
     relation: connects-to
     note: "Zinc and the gut depend on each other: zinc is absorbed in the small intestine and maintains mucosal integrity, so malabsorption causes deficiency with diarrhoea and acrodermatitis, and supplementation shortens acute diarrhoea."
+  - target: 03-medicine/01-modern/08-gi/omeprazole
+    relation: connects-to
+    note: "A drug that quietens the stomach: proton pump inhibitors like omeprazole suppress gastric acid to heal ulcers and reflux, but long-term use can impair absorption of B12, iron, calcium and magnesium and alter the gut microbiome."
+  - target: 03-medicine/01-modern/12-anti-inflammatory/ibuprofen
+    relation: connects-to
+    note: "A common painkiller that ulcerates it: NSAIDs like ibuprofen block the prostaglandins that protect the gastric lining, causing peptic ulcers and gastrointestinal bleeding."
+  - target: 03-medicine/03-food/curcumin
+    relation: connects-to
+    note: "A spice studied for the gut: curcumin from turmeric has anti-inflammatory effects investigated in inflammatory bowel disease, though its poor absorption limits how much reaches the bloodstream."
 taxonomy:
   uberon: "UBERON:0001007"
 ---
@@ -396,6 +405,9 @@ The ENS can function autonomously without extrinsic innervation (Hirschsprung's 
 - **Connects to:** [Musculoskeletal System](../musculoskeletal-system/README.md) — the gut feeds the skeleton: it absorbs the calcium and vitamin D that build bone, so malabsorption from coeliac or bowel disease causes osteoporosis and osteomalacia, while inflammatory bowel disease brings enteropathic arthritis.
 - **Connects to:** [Hepatitis C Virus](../../../02-pathogen/01-viruses/hepatitis-c-virus/README.md) — a virus that smoulders in the liver: hepatitis C establishes chronic infection of hepatocytes, driving cirrhosis and hepatocellular carcinoma, though direct-acting antivirals now cure most cases.
 - **Connects to:** [Zinc (Dietary)](../../../03-medicine/03-food/zinc-dietary/README.md) — zinc and the gut depend on each other: zinc is absorbed in the small intestine and maintains mucosal integrity, so malabsorption causes deficiency with diarrhoea and acrodermatitis, and supplementation shortens acute diarrhoea.
+- **Connects to:** [Omeprazole](../../../03-medicine/01-modern/08-gi/omeprazole/README.md) — a drug that quietens the stomach: proton pump inhibitors like omeprazole suppress gastric acid to heal ulcers and reflux, but long-term use can impair absorption of B12, iron, calcium and magnesium and alter the gut microbiome.
+- **Connects to:** [Ibuprofen](../../../03-medicine/01-modern/12-anti-inflammatory/ibuprofen/README.md) — a common painkiller that ulcerates it: NSAIDs like ibuprofen block the prostaglandins that protect the gastric lining, causing peptic ulcers and gastrointestinal bleeding.
+- **Connects to:** [Curcumin](../../../03-medicine/03-food/curcumin/README.md) — a spice studied for the gut: curcumin from turmeric has anti-inflammatory effects investigated in inflammatory bowel disease, though its poor absorption limits how much reaches the bloodstream.
 
 ## Pathology
 
