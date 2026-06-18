@@ -208,6 +208,15 @@ cross_links:
   - target: 01-human/07-system/major-depressive-disorder
     relation: connects-to
     note: "Its fatigue compounds low mood: the persistent tiredness and reduced oxygen delivery of anemia of chronic disease worsen the fatigue and functional decline that feed depression in chronically ill patients."
+  - target: 01-human/07-system/digestive-system
+    relation: connects-to
+    note: "The liver runs its central switch: hepatic hepcidin, raised by inflammation, locks iron away from red-cell production, and chronic gut inflammation and bleeding compound the anemia of chronic disease."
+  - target: 01-human/07-system/endocrine-system
+    relation: connects-to
+    note: "Hormones tune red-cell output: erythropoietin is an endocrine signal, and hypothyroidism, hypogonadism and hypopituitarism each blunt erythropoiesis, overlapping with the picture of anemia of chronic disease."
+  - target: 02-pathogen/02-bacteria/helicobacter-pylori
+    relation: connects-to
+    note: "A chronic gastric infection saps the blood: persistent Helicobacter pylori gastritis drives both iron-deficiency and an inflammatory anemia, and its eradication can correct otherwise refractory anemia."
 ---
 
 # Anemia of Chronic Disease
@@ -395,6 +404,9 @@ This adaptive rationale explains why **aggressive iron supplementation during ac
 - `connects-to` → **[Psoriatic Arthritis](../psoriatic-arthritis/README.md)** — Its joint inflammation drains the blood: the sustained IL-6 and inflammatory drive of active psoriatic arthritis raises hepcidin and blunts erythropoiesis, producing an anemia of chronic disease in poorly controlled patients.
 - `connects-to` → **[DLBCL](../dlbcl/README.md)** — Lymphoma stokes the inflammatory anemia: the cytokine output and marrow involvement of aggressive lymphomas like DLBCL raise hepcidin and suppress red-cell production, a frequent cause of anemia of chronic disease.
 - `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — Its fatigue compounds low mood: the persistent tiredness and reduced oxygen delivery of anemia of chronic disease worsen the fatigue and functional decline that feed depression in chronically ill patients.
+- `connects-to` → **[Digestive System](../digestive-system/README.md)** — The liver runs its central switch: hepatic hepcidin, raised by inflammation, locks iron away from red-cell production, and chronic gut inflammation and bleeding compound the anemia of chronic disease.
+- `connects-to` → **[Endocrine System](../endocrine-system/README.md)** — Hormones tune red-cell output: erythropoietin is an endocrine signal, and hypothyroidism, hypogonadism and hypopituitarism each blunt erythropoiesis, overlapping with the picture of anemia of chronic disease.
+- `connects-to` → **[Helicobacter pylori](../../../02-pathogen/02-bacteria/helicobacter-pylori/README.md)** — A chronic gastric infection saps the blood: persistent Helicobacter pylori gastritis drives both iron-deficiency and an inflammatory anemia, and its eradication can correct otherwise refractory anemia.
 
 [^weiss-2005-acd-review]: Weiss G, Goodnough LT. Anemia of chronic disease. *N Engl J Med.* 2005;352(10):1011-1023. [doi:10.1056/NEJMra041809](https://doi.org/10.1056/NEJMra041809) · [PubMed 15758012](https://pubmed.ncbi.nlm.nih.gov/15758012/)
 [^nemeth-2004-il6-hepcidin]: Nemeth E, Rivera S, Gabayan V, et al. IL-6 mediates hypoferremia of inflammation by inducing the synthesis of the iron regulatory hormone hepcidin. *J Clin Invest.* 2004;113(9):1271-1276. [doi:10.1172/JCI200420945](https://doi.org/10.1172/JCI200420945) · [PubMed 15124018](https://pubmed.ncbi.nlm.nih.gov/15124018/)

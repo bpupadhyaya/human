@@ -211,6 +211,15 @@ cross_links:
   - target: 01-human/07-system/wound-healing
     relation: connects-to
     note: "Without protein and nutrients, repair fails: the profound protein-energy malnutrition of anorexia deprives wounds of the substrate and collagen synthesis they need, markedly impairing healing."
+  - target: 01-human/07-system/cardiovascular-system
+    relation: connects-to
+    note: "Starvation slows and destabilises the heart: anorexia causes sinus bradycardia, hypotension, QT prolongation and arrhythmia, and refeeding can precipitate cardiac failure — cardiac causes drive much of its mortality."
+  - target: 01-human/07-system/digestive-system
+    relation: connects-to
+    note: "Starvation paralyses the gut: anorexia causes gastroparesis, severe constipation and superior mesenteric artery syndrome, and refeeding risks the dangerous electrolyte shifts of refeeding syndrome."
+  - target: 01-human/07-system/musculoskeletal-system
+    relation: connects-to
+    note: "It wastes muscle as well as bone: the protein-energy malnutrition of anorexia causes profound sarcopenia and proximal myopathy alongside the osteoporosis of oestrogen loss and low body weight."
 ---
 
 # Anorexia Nervosa
@@ -416,6 +425,9 @@ In healthy individuals, food cues activate the mesolimbic reward circuit (VTA �
 - `connects-to` → **[Iron-Deficiency Anemia](../iron-deficiency-anemia/README.md)** — Restriction starves the body of iron: the severely limited diet of anorexia provides too little dietary iron, producing iron-deficiency anemia alongside the marrow hypoplasia of starvation.
 - `connects-to` → **[Neuropathic Pain](../neuropathic-pain/README.md)** — Malnutrition injures the peripheral nerves: deficiencies of thiamine, B12 and other nutrients in severe anorexia cause a peripheral neuropathy with numbness and neuropathic pain.
 - `connects-to` → **[Wound Healing](../wound-healing/README.md)** — Without protein and nutrients, repair fails: the profound protein-energy malnutrition of anorexia deprives wounds of the substrate and collagen synthesis they need, markedly impairing healing.
+- `connects-to` → **[Cardiovascular System](../cardiovascular-system/README.md)** — Starvation slows and destabilises the heart: anorexia causes sinus bradycardia, hypotension, QT prolongation and arrhythmia, and refeeding can precipitate cardiac failure — cardiac causes drive much of its mortality.
+- `connects-to` → **[Digestive System](../digestive-system/README.md)** — Starvation paralyses the gut: anorexia causes gastroparesis, severe constipation and superior mesenteric artery syndrome, and refeeding risks the dangerous electrolyte shifts of refeeding syndrome.
+- `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — It wastes muscle as well as bone: the protein-energy malnutrition of anorexia causes profound sarcopenia and proximal myopathy alongside the osteoporosis of oestrogen loss and low body weight.
 
 [^treasure-2010-an-lancet]: Treasure J, Claudino AM, Zucker N. Eating disorders. *Lancet.* 2010;375(9714):583-593. [doi:10.1016/S0140-6736(09)61748-7](https://doi.org/10.1016/S0140-6736(09)61748-7) · [PubMed 19931176](https://pubmed.ncbi.nlm.nih.gov/19931176/)
 [^lock-2010-fbt-an]: Lock J, Le Grange D, Agras WS, et al. Randomized clinical trial comparing family-based treatment with adolescent-focused individual therapy for adolescents with anorexia nervosa. *Arch Gen Psychiatry.* 2010;67(10):1025-1032. [doi:10.1001/archgenpsychiatry.2010.128](https://doi.org/10.1001/archgenpsychiatry.2010.128) · [PubMed 20921118](https://pubmed.ncbi.nlm.nih.gov/20921118/)
