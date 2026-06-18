@@ -244,6 +244,15 @@ cross_links:
   - target: 03-medicine/03-food/curcumin
     relation: connects-to
     note: "A spice studied for the gut: curcumin from turmeric has anti-inflammatory effects investigated in inflammatory bowel disease, though its poor absorption limits how much reaches the bloodstream."
+  - target: 03-medicine/03-food/omega-3-fatty-acids
+    relation: connects-to
+    note: "Dietary fats shape gut health: long-chain omega-3 fatty acids, absorbed via intestinal lacteals, have anti-inflammatory effects studied in inflammatory bowel disease and the gut-liver axis."
+  - target: 02-pathogen/01-viruses/coxsackievirus-b
+    relation: connects-to
+    note: "Enteroviruses pass through the gut: Coxsackie and other enteroviruses are swallowed and replicate in the intestinal lining, causing herpangina and hand-foot-and-mouth disease before systemic spread."
+  - target: 03-medicine/03-food/magnesium-dietary
+    relation: connects-to
+    note: "The gut handles magnesium two ways: the intestine absorbs dietary magnesium, and poorly absorbed magnesium salts act as osmotic laxatives, while malabsorption causes deficiency."
 taxonomy:
   uberon: "UBERON:0001007"
 ---
@@ -408,6 +417,9 @@ The ENS can function autonomously without extrinsic innervation (Hirschsprung's 
 - **Connects to:** [Omeprazole](../../../03-medicine/01-modern/08-gi/omeprazole/README.md) — a drug that quietens the stomach: proton pump inhibitors like omeprazole suppress gastric acid to heal ulcers and reflux, but long-term use can impair absorption of B12, iron, calcium and magnesium and alter the gut microbiome.
 - **Connects to:** [Ibuprofen](../../../03-medicine/01-modern/12-anti-inflammatory/ibuprofen/README.md) — a common painkiller that ulcerates it: NSAIDs like ibuprofen block the prostaglandins that protect the gastric lining, causing peptic ulcers and gastrointestinal bleeding.
 - **Connects to:** [Curcumin](../../../03-medicine/03-food/curcumin/README.md) — a spice studied for the gut: curcumin from turmeric has anti-inflammatory effects investigated in inflammatory bowel disease, though its poor absorption limits how much reaches the bloodstream.
+- **Connects to:** [Omega-3 fatty acids](../../../03-medicine/03-food/omega-3-fatty-acids/README.md) — dietary fats shape gut health: long-chain omega-3 fatty acids, absorbed via intestinal lacteals, have anti-inflammatory effects studied in inflammatory bowel disease and the gut-liver axis.
+- **Connects to:** [Coxsackievirus B](../../../02-pathogen/01-viruses/coxsackievirus-b/README.md) — enteroviruses pass through the gut: Coxsackie and other enteroviruses are swallowed and replicate in the intestinal lining, causing herpangina and hand-foot-and-mouth disease before systemic spread.
+- **Connects to:** [Dietary Magnesium](../../../03-medicine/03-food/magnesium-dietary/README.md) — the gut handles magnesium two ways: the intestine absorbs dietary magnesium, and poorly absorbed magnesium salts act as osmotic laxatives, while malabsorption causes deficiency.
 
 ## Pathology
 

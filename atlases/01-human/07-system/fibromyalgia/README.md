@@ -213,6 +213,15 @@ cross_links:
   - target: 03-medicine/03-food/magnesium-dietary
     relation: connects-to
     note: "Magnesium is studied for its symptoms: low magnesium can worsen muscle cramps and pain, and magnesium supplementation is investigated as an adjunct for fibromyalgia."
+  - target: 03-medicine/01-modern/10-mental-health/fluoxetine
+    relation: connects-to
+    note: "Antidepressants modulate the pain: SSRIs like fluoxetine, and especially the SNRI duloxetine, raise serotonin and noradrenaline to dampen the central pain amplification of fibromyalgia."
+  - target: 02-pathogen/01-viruses/epstein-barr-virus
+    relation: connects-to
+    note: "It can follow an infection: fibromyalgia often begins after a viral illness such as Epstein-Barr glandular fever, part of the post-infectious central-sensitisation picture also seen after COVID."
+  - target: 03-medicine/02-traditional/ashwagandha
+    relation: connects-to
+    note: "Traditional remedies are sought for it: adaptogens like ashwagandha are used by some for the fatigue, pain and poor sleep of fibromyalgia, complementing exercise and the established drugs."
 sources:
   - id: wolfe-2016-fibromyalgia-criteria
     type: peer-reviewed
@@ -438,6 +447,9 @@ FM is not a single-etiology disorder but a convergent syndrome resulting from th
 - `connects-to` → **[Respiratory System](../respiratory-system/README.md)** — It alters the pattern of breathing: a dysfunctional breathing pattern with air hunger and breathlessness despite normal lungs is common in fibromyalgia, part of its central-sensitivity symptom cluster.
 - `connects-to` → **[COVID-19](../covid-19-disease/README.md)** — It can follow a viral illness: a fibromyalgia-like syndrome of widespread pain and fatigue commonly emerges after COVID-19, overlapping with long COVID.
 - `connects-to` → **[Magnesium (Dietary)](../../../03-medicine/03-food/magnesium-dietary/README.md)** — Magnesium is studied for its symptoms: low magnesium can worsen muscle cramps and pain, and magnesium supplementation is investigated as an adjunct for fibromyalgia.
+- `connects-to` → **[Fluoxetine](../../../03-medicine/01-modern/10-mental-health/fluoxetine/README.md)** — Antidepressants modulate the pain: SSRIs like fluoxetine, and especially the SNRI duloxetine, raise serotonin and noradrenaline to dampen the central pain amplification of fibromyalgia.
+- `connects-to` → **[Epstein-Barr Virus](../../../02-pathogen/01-viruses/epstein-barr-virus/README.md)** — It can follow an infection: fibromyalgia often begins after a viral illness such as Epstein-Barr glandular fever, part of the post-infectious central-sensitisation picture also seen after COVID.
+- `connects-to` → **[Ashwagandha](../../../03-medicine/02-traditional/ashwagandha/README.md)** — Traditional remedies are sought for it: adaptogens like ashwagandha are used by some for the fatigue, pain and poor sleep of fibromyalgia, complementing exercise and the established drugs.
 
 [^wolfe-2016-fibromyalgia-criteria]: Wolfe F, Clauw DJ, Fitzcharles MA, et al. 2016 Revisions to the 2010/2011 fibromyalgia diagnostic criteria. *Semin Arthritis Rheum.* 2016;46(3):319-329. [doi:10.1016/j.semarthrit.2016.08.012](https://doi.org/10.1016/j.semarthrit.2016.08.012) · [PubMed 27916278](https://pubmed.ncbi.nlm.nih.gov/27916278/)
 [^clauw-2014-fibromyalgia-review]: Clauw DJ. Fibromyalgia: a clinical review. *JAMA.* 2014;311(15):1547-1555. [doi:10.1001/jama.2014.3266](https://doi.org/10.1001/jama.2014.3266) · [PubMed 24737367](https://pubmed.ncbi.nlm.nih.gov/24737367/)
