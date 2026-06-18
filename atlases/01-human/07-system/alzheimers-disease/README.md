@@ -226,6 +226,15 @@ cross_links:
   - target: 01-human/07-system/cardiovascular-system
     relation: connects-to
     note: "Amyloid also lines the vessels: cerebral amyloid angiopathy deposits beta-amyloid in cortical artery walls, causing lobar haemorrhages, while vascular disease adds to mixed dementia."
+  - target: 01-human/07-system/endocrine-system
+    relation: connects-to
+    note: "Brain insulin resistance earns it a nickname: impaired cerebral insulin signalling has led some to call Alzheimer's 'type 3 diabetes', and hypothalamic degeneration disturbs weight, appetite and circadian rhythm."
+  - target: 01-human/07-system/reproductive-system
+    relation: connects-to
+    note: "Oestrogen loss shifts the risk: the fall in oestrogen at menopause is implicated in women's higher Alzheimer's risk, interacting with the APOE genotype."
+  - target: 01-human/07-system/integumentary-system
+    relation: connects-to
+    note: "End-stage immobility breaks the skin: in advanced Alzheimer's, immobility and incontinence make pressure ulcers a major preventable complication of care."
 ---
 
 # Alzheimer's Disease
@@ -394,6 +403,9 @@ Microglia play a central, dual role in AD:
 - `connects-to` → **[Respiratory System](../respiratory-system/README.md)** — Aspiration pneumonia ends it: dysphagia in end-stage Alzheimer's lets food and saliva enter the lungs, making aspiration pneumonia the most common immediate cause of death.
 - `connects-to` → **[Immune System](../immune-system/README.md)** — Innate immunity shapes the plaques: microglial neuroinflammation and risk genes like TREM2 drive amyloid clearance and damage, making the brain's immune response a central target of new therapies.
 - `connects-to` → **[Cardiovascular System](../cardiovascular-system/README.md)** — Amyloid also lines the vessels: cerebral amyloid angiopathy deposits beta-amyloid in cortical artery walls, causing lobar haemorrhages, while vascular disease adds to mixed dementia.
+- `connects-to` → **[Endocrine System](../endocrine-system/README.md)** — Brain insulin resistance earns it a nickname: impaired cerebral insulin signalling has led some to call Alzheimer's 'type 3 diabetes', and hypothalamic degeneration disturbs weight, appetite and circadian rhythm.
+- `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — Oestrogen loss shifts the risk: the fall in oestrogen at menopause is implicated in women's higher Alzheimer's risk, interacting with the APOE genotype.
+- `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — End-stage immobility breaks the skin: in advanced Alzheimer's, immobility and incontinence make pressure ulcers a major preventable complication of care.
 
 [^selkoe-2016-alzheimer]: Selkoe DJ, Hardy J. The amyloid hypothesis of Alzheimer's disease at 25 years. *EMBO Mol Med.* 2016;8(6):595-608. [doi:10.15252/emmm.201606210](https://doi.org/10.15252/emmm.201606210) · [PubMed 27025652](https://pubmed.ncbi.nlm.nih.gov/27025652/)
 [^jack-2018-nia-aa]: Jack CR Jr, Bennett DA, Blennow K, et al. NIA-AA Research Framework: Toward a biological definition of Alzheimer's disease. *Alzheimers Dement.* 2018;14(4):535-562. [doi:10.1016/j.jalz.2018.02.018](https://doi.org/10.1016/j.jalz.2018.02.018) · [PubMed 29653606](https://pubmed.ncbi.nlm.nih.gov/29653606/)

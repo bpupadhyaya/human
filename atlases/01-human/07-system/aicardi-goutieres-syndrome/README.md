@@ -222,6 +222,15 @@ cross_links:
   - target: 01-human/07-system/lymphatic-system
     relation: connects-to
     note: "The newborn form mimics congenital infection: AGS can present at birth with hepatosplenomegaly, thrombocytopenia and raised liver enzymes — a 'TORCH-negative' picture from sterile interferon-driven inflammation."
+  - target: 01-human/07-system/renal-system
+    relation: connects-to
+    note: "Its interferon autoimmunity can hit the kidney: AGS overlaps systemic lupus, and the resulting immune-complex nephritis can damage the kidney alongside its chilblain and CNS features."
+  - target: 01-human/07-system/reproductive-system
+    relation: connects-to
+    note: "It declares itself before or at birth: AGS presents in the newborn mimicking an in-utero infection, raising prenatal diagnosis and genetic-counselling questions for affected families."
+  - target: 02-pathogen/04-parasites/toxoplasma-gondii
+    relation: connects-to
+    note: "It is the classic 'TORCH-negative' mimic: AGS reproduces the intracranial calcification and white-matter disease of congenital toxoplasmosis and CMV without any infection, from sterile interferon excess."
 ---
 
 # Aicardi-Goutières Syndrome
@@ -384,6 +393,9 @@ Severe early-onset AGS (TREX1 homozygous, RNASEH2A): death in childhood from res
 - `connects-to` → **[Cardiovascular System](../cardiovascular-system/README.md)** — Its interferon state damages vessels: SAMHD1-related AGS causes a systemic vasculopathy with intracranial large-vessel disease, aneurysms and a moyamoya-like arteriopathy that can cause stroke.
 - `connects-to` → **[Endocrine System](../endocrine-system/README.md)** — Chronic interferon fosters autoimmune endocrinopathy: AGS is associated with autoimmune thyroid disease and the type 1 diabetes its interferon signature shares with other interferonopathies.
 - `connects-to` → **[Lymphatic System](../lymphatic-system/README.md)** — The newborn form mimics congenital infection: AGS can present at birth with hepatosplenomegaly, thrombocytopenia and raised liver enzymes — a 'TORCH-negative' picture from sterile interferon-driven inflammation.
+- `connects-to` → **[Renal System](../renal-system/README.md)** — Its interferon autoimmunity can hit the kidney: AGS overlaps systemic lupus, and the resulting immune-complex nephritis can damage the kidney alongside its chilblain and CNS features.
+- `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — It declares itself before or at birth: AGS presents in the newborn mimicking an in-utero infection, raising prenatal diagnosis and genetic-counselling questions for affected families.
+- `connects-to` → **[Toxoplasma gondii](../../../02-pathogen/04-parasites/toxoplasma-gondii/README.md)** — It is the classic 'TORCH-negative' mimic: AGS reproduces the intracranial calcification and white-matter disease of congenital toxoplasmosis and CMV without any infection, from sterile interferon excess.
 
 ---
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
