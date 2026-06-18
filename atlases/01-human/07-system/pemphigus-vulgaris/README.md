@@ -220,6 +220,15 @@ cross_links:
   - target: 01-human/07-system/musculoskeletal-system
     relation: connects-to
     note: "Steroids waste muscle and bone: the chronic high-dose corticosteroids for pemphigus cause proximal steroid myopathy, osteoporosis and avascular necrosis over time."
+  - target: 01-human/07-system/respiratory-system
+    relation: connects-to
+    note: "Its blisters spread to the airway: pemphigus erodes the mucosa of the larynx, pharynx and oesophagus causing hoarseness and painful swallowing with aspiration risk, and immunosuppression invites pneumonia."
+  - target: 01-human/07-system/cardiovascular-system
+    relation: connects-to
+    note: "Its long steroid courses strain the circulation: chronic high-dose corticosteroids cause hypertension, fluid retention and accelerated atherosclerosis."
+  - target: 01-human/07-system/lymphatic-system
+    relation: connects-to
+    note: "A paraneoplastic variant flags lymphoma: paraneoplastic pemphigus is associated with underlying lymphoproliferative disorders such as lymphoma and Castleman disease."
 ---
 
 # Pemphigus Vulgaris
@@ -431,6 +440,9 @@ Pemphigus belongs to the **pemphigus group of autoimmune bullous diseases** (AIB
 - `connects-to` → **[Wound Healing](../wound-healing/README.md)** — Its erosions resist healing: the denuded skin and mucosa of pemphigus are chronic open wounds, and the high-dose steroids used to control it further impair their repair and invite infection.
 - `connects-to` → **[Endocrine System](../endocrine-system/README.md)** — Months of high-dose steroids reshape metabolism: the prolonged corticosteroids needed to control pemphigus cause steroid-induced diabetes, adrenal suppression and a Cushingoid state.
 - `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — Steroids waste muscle and bone: the chronic high-dose corticosteroids for pemphigus cause proximal steroid myopathy, osteoporosis and avascular necrosis over time.
+- `connects-to` → **[Respiratory System](../respiratory-system/README.md)** — Its blisters spread to the airway: pemphigus erodes the mucosa of the larynx, pharynx and oesophagus causing hoarseness and painful swallowing with aspiration risk, and immunosuppression invites pneumonia.
+- `connects-to` → **[Cardiovascular System](../cardiovascular-system/README.md)** — Its long steroid courses strain the circulation: chronic high-dose corticosteroids cause hypertension, fluid retention and accelerated atherosclerosis.
+- `connects-to` → **[Lymphatic System](../lymphatic-system/README.md)** — A paraneoplastic variant flags lymphoma: paraneoplastic pemphigus is associated with underlying lymphoproliferative disorders such as lymphoma and Castleman disease.
 
 ---
 

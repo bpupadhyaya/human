@@ -214,6 +214,15 @@ cross_links:
   - target: 01-human/07-system/immune-system
     relation: connects-to
     note: "Loss of LKB1 cools tumour immunity: STK11/LKB1 loss in PJS-related cancers reprogrammes metabolism and creates an immunosuppressive, immune-excluded tumour microenvironment resistant to checkpoint therapy."
+  - target: 01-human/07-system/lymphatic-system
+    relation: connects-to
+    note: "Its many cancers spread through the nodes: the breast, gastrointestinal and gynaecological cancers of PJS metastasise to lymph nodes, determining staging and treatment."
+  - target: 01-human/07-system/cardiovascular-system
+    relation: connects-to
+    note: "Bleeding and obstruction stress the circulation: recurrent polyp bleeding causes iron-deficiency anaemia that strains the heart, while acute intussusception can cause bowel ischaemia and shock."
+  - target: 01-human/07-system/musculoskeletal-system
+    relation: connects-to
+    note: "Its gene tunes energy metabolism: LKB1/AMPK is a master regulator of cellular energy that also governs muscle metabolism, and chronic anaemia and malnutrition from GI bleeding sap muscle strength."
 ---
 
 # Peutz-Jeghers Syndrome
@@ -403,6 +412,9 @@ Without surveillance: cumulative cancer risk reaches ~85-93% by age 70 (all canc
 - `connects-to` → **[Respiratory System](../respiratory-system/README.md)** — It markedly raises lung-cancer risk: Peutz-Jeghers carries one of the highest lifetime risks of lung cancer among the hereditary cancer syndromes, extending its spectrum to the respiratory tract.
 - `connects-to` → **[Gut Microbiome](../gut-microbiome/README.md)** — Microbiome and hamartoma carcinogenesis intertwine: in PJS the colonic microbiome contributes to the inflammation and genotoxic stress that drive its hamartomatous polyps toward malignancy.
 - `connects-to` → **[Immune System](../immune-system/README.md)** — Loss of LKB1 cools tumour immunity: STK11/LKB1 loss in PJS-related cancers reprogrammes metabolism and creates an immunosuppressive, immune-excluded tumour microenvironment resistant to checkpoint therapy.
+- `connects-to` → **[Lymphatic System](../lymphatic-system/README.md)** — Its many cancers spread through the nodes: the breast, gastrointestinal and gynaecological cancers of PJS metastasise to lymph nodes, determining staging and treatment.
+- `connects-to` → **[Cardiovascular System](../cardiovascular-system/README.md)** — Bleeding and obstruction stress the circulation: recurrent polyp bleeding causes iron-deficiency anaemia that strains the heart, while acute intussusception can cause bowel ischaemia and shock.
+- `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — Its gene tunes energy metabolism: LKB1/AMPK is a master regulator of cellular energy that also governs muscle metabolism, and chronic anaemia and malnutrition from GI bleeding sap muscle strength.
 
 ---
 
