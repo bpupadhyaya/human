@@ -232,6 +232,15 @@ cross_links:
   - target: 01-human/07-system/cowden-syndrome
     relation: connects-to
     note: "Shared thyroid-cancer risk: DICER1 and Cowden syndrome both predispose to thyroid nodules and cancer from childhood, placing both in thyroid-surveillance guidance for inherited disease."
+  - target: 03-medicine/01-modern/13-cancer/cancer-chemotherapy
+    relation: connects-to
+    note: "Chemo treats its embryonal tumours: pleuropulmonary blastoma and other DICER1 sarcomas are treated with intensive multi-agent, often sarcoma-type, chemotherapy after surgery."
+  - target: 01-human/07-system/birt-hogg-dube-syndrome
+    relation: connects-to
+    note: "Two inherited causes of lung cysts: like Birt-Hogg-Dubé, DICER1 syndrome produces familial cystic lung disease, though DICER1's cysts can transform into pleuropulmonary blastoma, demanding early surveillance."
+  - target: 01-human/07-system/ewing-sarcoma
+    relation: connects-to
+    note: "A fellow paediatric sarcoma: DICER1-related sarcomas join Ewing sarcoma among aggressive childhood sarcomas treated with multimodal therapy, entering each other's pathological differential."
 ---
 
 # DICER1 Syndrome
@@ -418,6 +427,9 @@ When a child is found to have a thoracic cystic lesion, DICER1 syndrome should b
 - `connects-to` → **[Digestive System](../digestive-system/README.md)** — It can sprout polyps in the gut: DICER1 syndrome is reported to cause gastrointestinal juvenile-type polyps and rare hepatic and pancreatic tumours among its diverse lesions.
 - `connects-to` → **[Gorlin Syndrome](../gorlin-syndrome/README.md)** — A fellow medulloblastoma predisposition: like Gorlin syndrome, DICER1 syndrome raises childhood brain-tumour risk, the two entering the differential of inherited medulloblastoma (pineoblastoma).
 - `connects-to` → **[Cowden Syndrome](../cowden-syndrome/README.md)** — Shared thyroid-cancer risk: DICER1 and Cowden syndrome both predispose to thyroid nodules and cancer from childhood, placing both in thyroid-surveillance guidance for inherited disease.
+- `connects-to` → **[Cancer Chemotherapy](../../../03-medicine/01-modern/13-cancer/cancer-chemotherapy/README.md)** — Chemo treats its embryonal tumours: pleuropulmonary blastoma and other DICER1 sarcomas are treated with intensive multi-agent, often sarcoma-type, chemotherapy after surgery.
+- `connects-to` → **[Birt-Hogg-Dubé Syndrome](../birt-hogg-dube-syndrome/README.md)** — Two inherited causes of lung cysts: like Birt-Hogg-Dubé, DICER1 syndrome produces familial cystic lung disease, though DICER1's cysts can transform into pleuropulmonary blastoma, demanding early surveillance.
+- `connects-to` → **[Ewing Sarcoma](../ewing-sarcoma/README.md)** — A fellow paediatric sarcoma: DICER1-related sarcomas join Ewing sarcoma among aggressive childhood sarcomas treated with multimodal therapy, entering each other's pathological differential.
 
 ---
 

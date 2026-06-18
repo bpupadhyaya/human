@@ -232,6 +232,15 @@ cross_links:
   - target: 02-pathogen/03-fungi/pneumocystis-jirovecii
     relation: connects-to
     note: "Long steroids invite an opportunist: the prolonged dexamethasone used for diffuse midline glioma suppresses immunity enough to risk Pneumocystis pneumonia, so prophylaxis is advised."
+  - target: 03-medicine/01-modern/13-cancer/targeted-therapy
+    relation: connects-to
+    note: "Epigenetic and targeted drugs are the hope: ONC201/dordaviprone and agents aimed at the H3K27M-driven PRC2/EZH2 dysregulation are the leading experimental therapies for this otherwise untreatable tumour."
+  - target: 03-medicine/01-modern/13-cancer/car-t
+    relation: connects-to
+    note: "Cell therapy enters the brainstem: GD2- and B7-H3-directed CAR-T cells have produced the first meaningful responses in H3K27M diffuse midline glioma, a landmark for solid-tumour cell therapy."
+  - target: 03-medicine/01-modern/13-cancer/cancer-chemotherapy
+    relation: connects-to
+    note: "Conventional chemo barely helps: diffuse midline glioma is notoriously chemoresistant and the intact blood-brain barrier keeps drugs out, leaving radiation as the only standard treatment."
 ---
 
 # Diffuse Midline Glioma
@@ -442,6 +451,9 @@ Direct infusion of drugs into the pons via stereotactic catheter; bypasses BBB; 
 - `connects-to` → **[Cardiovascular System](../cardiovascular-system/README.md)** — It sits at the body's control centre: a pontine diffuse midline glioma can disturb the brainstem cardiorespiratory and autonomic centres, causing blood-pressure and heart-rate instability.
 - `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — Treatment reaches the hormone axis: radiation near the hypothalamus and pituitary can disturb puberty and fertility in children surviving midline glioma.
 - `connects-to` → **[Pneumocystis jirovecii](../../../02-pathogen/03-fungi/pneumocystis-jirovecii/README.md)** — Long steroids invite an opportunist: the prolonged dexamethasone used for diffuse midline glioma suppresses immunity enough to risk Pneumocystis pneumonia, so prophylaxis is advised.
+- `connects-to` → **[Targeted Therapy](../../../03-medicine/01-modern/13-cancer/targeted-therapy/README.md)** — Epigenetic and targeted drugs are the hope: ONC201/dordaviprone and agents aimed at the H3K27M-driven PRC2/EZH2 dysregulation are the leading experimental therapies for this otherwise untreatable tumour.
+- `connects-to` → **[CAR-T](../../../03-medicine/01-modern/13-cancer/car-t/README.md)** — Cell therapy enters the brainstem: GD2- and B7-H3-directed CAR-T cells have produced the first meaningful responses in H3K27M diffuse midline glioma, a landmark for solid-tumour cell therapy.
+- `connects-to` → **[Cancer Chemotherapy](../../../03-medicine/01-modern/13-cancer/cancer-chemotherapy/README.md)** — Conventional chemo barely helps: diffuse midline glioma is notoriously chemoresistant and the intact blood-brain barrier keeps drugs out, leaving radiation as the only standard treatment.
 
 ---
 
