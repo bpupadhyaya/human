@@ -205,6 +205,15 @@ cross_links:
   - target: 01-human/07-system/generalized-anxiety-disorder
     relation: connects-to
     note: "An aggressive brain lymphoma breeds worry: the poor prognosis, relapse risk and intensive neurotoxic therapy of PCNSL foster chronic health anxiety alongside the depression and cognitive change it brings."
+  - target: 01-human/07-system/endocrine-system
+    relation: connects-to
+    note: "Steroids and radiation disturb the glands: the high-dose dexamethasone used in PCNSL causes steroid diabetes, and whole-brain radiation or sellar-region disease can damage the pituitary."
+  - target: 01-human/07-system/digestive-system
+    relation: connects-to
+    note: "Its mainstay drug injures gut and liver: high-dose methotrexate for PCNSL causes severe mucositis and hepatotoxicity, and chronic dexamethasone raises peptic-ulcer risk."
+  - target: 01-human/07-system/musculoskeletal-system
+    relation: connects-to
+    note: "Prolonged steroids waste muscle and bone: the chronic dexamethasone used to control PCNSL oedema causes proximal steroid myopathy, osteoporosis and avascular necrosis."
 ---
 
 # Primary CNS Lymphoma
@@ -381,6 +390,9 @@ Score 0-1: 2-year OS ~80%; Score 2-3: ~48%; Score 4-5: ~15%
 - `connects-to` → **[Varicella-Zoster Virus](../../../02-pathogen/01-viruses/varicella-zoster-virus/README.md)** — Deep immune suppression reawakens shingles: the high-dose methotrexate chemoimmunotherapy and steroids for PCNSL deplete T-cell immunity, allowing latent varicella-zoster to reactivate, so antiviral prophylaxis is standard.
 - `connects-to` → **[Anemia of Chronic Disease](../anemia-of-chronic-disease/README.md)** — Marrow-suppressing therapy and a chronic cancer blunt the blood: the cytotoxic chemotherapy for PCNSL plus the inflammatory state of an aggressive lymphoma produce anemia during treatment.
 - `connects-to` → **[Generalized Anxiety Disorder](../generalized-anxiety-disorder/README.md)** — An aggressive brain lymphoma breeds worry: the poor prognosis, relapse risk and intensive neurotoxic therapy of PCNSL foster chronic health anxiety alongside the depression and cognitive change it brings.
+- `connects-to` → **[Endocrine System](../endocrine-system/README.md)** — Steroids and radiation disturb the glands: the high-dose dexamethasone used in PCNSL causes steroid diabetes, and whole-brain radiation or sellar-region disease can damage the pituitary.
+- `connects-to` → **[Digestive System](../digestive-system/README.md)** — Its mainstay drug injures gut and liver: high-dose methotrexate for PCNSL causes severe mucositis and hepatotoxicity, and chronic dexamethasone raises peptic-ulcer risk.
+- `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — Prolonged steroids waste muscle and bone: the chronic dexamethasone used to control PCNSL oedema causes proximal steroid myopathy, osteoporosis and avascular necrosis.
 
 [^bromberg-2019-hovon105]: Bromberg JE, Issa S, Bakunina K, et al. Rituximab in patients with primary CNS lymphoma (HOVON 105/ALLG NHL 24): a randomised, open-label, phase 3 intergroup study. *Lancet Oncol.* 2019;20(2):216-228. [doi:10.1016/S1470-2045(18)30747-2](https://doi.org/10.1016/S1470-2045(18)30747-2) · [PubMed 30528440](https://pubmed.ncbi.nlm.nih.gov/30528440/)
 [^grommes-2017-ibrutinib-pcnsl]: Grommes C, Pastore A, Palaskas N, et al. Ibrutinib unmasks critical role of Bruton tyrosine kinase in primary CNS lymphoma. *Cancer Cell.* 2017;31(6):833-843. [doi:10.1016/j.ccell.2017.04.012](https://doi.org/10.1016/j.ccell.2017.04.012) · [PubMed 28552327](https://pubmed.ncbi.nlm.nih.gov/28552327/)

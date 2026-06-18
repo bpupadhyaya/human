@@ -211,6 +211,15 @@ cross_links:
   - target: 01-human/07-system/attention-deficit-hyperactivity-disorder
     relation: connects-to
     note: "Frequently comorbid, and treatment can collide: anxiety and panic are common alongside ADHD, and the stimulants used to treat ADHD can provoke or worsen panic attacks, complicating management."
+  - target: 01-human/07-system/digestive-system
+    relation: connects-to
+    note: "Panic speaks through the gut: attacks bring nausea and abdominal distress, and panic disorder is strongly comorbid with irritable bowel syndrome through the gut-brain axis."
+  - target: 01-human/07-system/musculoskeletal-system
+    relation: connects-to
+    note: "Hyperventilation cramps the muscles: the overbreathing of a panic attack causes respiratory alkalosis with carpopedal spasm and tetany, on top of the chronic muscle tension anxiety brings."
+  - target: 01-human/07-system/integumentary-system
+    relation: connects-to
+    note: "The body sweats and flushes in fear: profuse diaphoresis, flushing and chills are autonomic skin manifestations of a panic attack, mediated by the adrenaline surge."
 ---
 
 # Panic Disorder
@@ -420,6 +429,9 @@ The **interoceptive fear conditioning model** (Bouton, Mineka, Barlow) explains 
 - `connects-to` → **[Obsessive-Compulsive Disorder](../obsessive-compulsive-disorder/README.md)** — Two anxiety-spectrum disorders that travel together: panic disorder frequently coexists with OCD, sharing heightened threat sensitivity and serotonergic dysregulation and responding to overlapping SSRI and CBT treatment.
 - `connects-to` → **[Endocrine System](../endocrine-system/README.md)** — Stress hormones drive the attacks: panic is mediated by surges of adrenaline and HPA-axis cortisol, and endocrine disease such as thyrotoxicosis or a phaeochromocytoma can precipitate panic-identical episodes.
 - `connects-to` → **[Attention-Deficit/Hyperactivity Disorder](../attention-deficit-hyperactivity-disorder/README.md)** — Frequently comorbid, and treatment can collide: anxiety and panic are common alongside ADHD, and the stimulants used to treat ADHD can provoke or worsen panic attacks, complicating management.
+- `connects-to` → **[Digestive System](../digestive-system/README.md)** — Panic speaks through the gut: attacks bring nausea and abdominal distress, and panic disorder is strongly comorbid with irritable bowel syndrome through the gut-brain axis.
+- `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — Hyperventilation cramps the muscles: the overbreathing of a panic attack causes respiratory alkalosis with carpopedal spasm and tetany, on top of the chronic muscle tension anxiety brings.
+- `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — The body sweats and flushes in fear: profuse diaphoresis, flushing and chills are autonomic skin manifestations of a panic attack, mediated by the adrenaline surge.
 
 [^gorman-2000-panic-neurobiology]: Gorman JM, Kent JM, Sullivan GM, Coplan JD. Neuroanatomical hypothesis of panic disorder, revised. *Am J Psychiatry.* 2000;157(4):493-505. [doi:10.1176/appi.ajp.157.4.493](https://doi.org/10.1176/appi.ajp.157.4.493) · [PubMed 10739407](https://pubmed.ncbi.nlm.nih.gov/10739407/)
 [^nardi-2009-clonazepam-panic]: Nardi AE, Freire RC, Zin WA. Panic disorder and control of breathing. *Respir Physiol Neurobiol.* 2009;167(1):133-143. [doi:10.1016/j.resp.2008.07.011](https://doi.org/10.1016/j.resp.2008.07.011) · [PubMed 18708168](https://pubmed.ncbi.nlm.nih.gov/18708168/)
