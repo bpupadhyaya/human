@@ -223,6 +223,15 @@ cross_links:
   - target: 01-human/07-system/nervous-system
     relation: connects-to
     note: "It invades the chest-wall nerves: tumour growth into the intercostal nerves causes severe neuropathic chest-wall pain, the dominant and hardest-to-control symptom of advanced mesothelioma."
+  - target: 01-human/07-system/renal-system
+    relation: connects-to
+    note: "Chemotherapy threatens the kidney: the cisplatin-pemetrexed regimen central to mesothelioma treatment is nephrotoxic, and pemetrexed itself requires adequate renal function."
+  - target: 03-medicine/01-modern/13-cancer/targeted-therapy
+    relation: connects-to
+    note: "Immunotherapy extended survival: dual checkpoint blockade with nivolumab and ipilimumab is now a standard first-line option for unresectable pleural mesothelioma."
+  - target: 01-human/07-system/endocrine-system
+    relation: connects-to
+    note: "It can derange metabolism: mesothelioma occasionally causes paraneoplastic hypoglycaemia or SIADH with hyponatraemia among its systemic effects."
 ---
 
 # Mesothelioma
@@ -410,6 +419,9 @@ Cytoreductive surgery (CRS) + hyperthermic intraperitoneal chemotherapy (HIPEC):
 - `connects-to` → **[Lymphatic System](../lymphatic-system/README.md)** — It spreads through and blocks the lymphatics: mesothelioma invades mediastinal and hilar lymph nodes, and obstruction of pleural lymphatic drainage produces the recurrent effusions that dominate its course.
 - `connects-to` → **[Cardiovascular System](../cardiovascular-system/README.md)** — It can encase and arise on the heart: pleural mesothelioma can wrap the pericardium causing constrictive physiology, and a rare primary pericardial mesothelioma exists.
 - `connects-to` → **[Nervous System](../nervous-system/README.md)** — It invades the chest-wall nerves: tumour growth into the intercostal nerves causes severe neuropathic chest-wall pain, the dominant and hardest-to-control symptom of advanced mesothelioma.
+- `connects-to` → **[Renal System](../renal-system/README.md)** — Chemotherapy threatens the kidney: the cisplatin-pemetrexed regimen central to mesothelioma treatment is nephrotoxic, and pemetrexed itself requires adequate renal function.
+- `connects-to` → **[Targeted Therapy](../../../03-medicine/01-modern/13-cancer/targeted-therapy/README.md)** — Immunotherapy extended survival: dual checkpoint blockade with nivolumab and ipilimumab is now a standard first-line option for unresectable pleural mesothelioma.
+- `connects-to` → **[Endocrine System](../endocrine-system/README.md)** — It can derange metabolism: mesothelioma occasionally causes paraneoplastic hypoglycaemia or SIADH with hyponatraemia among its systemic effects.
 
 [^baas-2021-checkmate743]: Baas P, Scherpereel A, Nowak AK, et al. First-line nivolumab plus ipilimumab in unresectable malignant pleural mesothelioma (CheckMate 743). *Lancet.* 2021;397(10272):375-386. [doi:10.1016/S0140-6736(20)32714-8](https://doi.org/10.1016/S0140-6736(20)32714-8) · [PubMed 33485464](https://pubmed.ncbi.nlm.nih.gov/33485464/)
 [^vogelzang-2003-pemetrexed]: Vogelzang NJ, Rusthoven JJ, Symanowski J, et al. Phase III study of pemetrexed in combination with cisplatin versus cisplatin alone in patients with malignant pleural mesothelioma. *J Clin Oncol.* 2003;21(14):2636-2644. [doi:10.1200/JCO.2003.11.136](https://doi.org/10.1200/JCO.2003.11.136) · [PubMed 12860938](https://pubmed.ncbi.nlm.nih.gov/12860938/)
