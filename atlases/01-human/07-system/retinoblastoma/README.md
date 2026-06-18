@@ -232,6 +232,15 @@ cross_links:
   - target: 01-human/07-system/lymphatic-system
     relation: connects-to
     note: "Extraocular spread reaches the nodes: when retinoblastoma extends beyond the eye, it can metastasise to preauricular and cervical lymph nodes, a marker of advanced disease."
+  - target: 03-medicine/01-modern/13-cancer/cancer-chemotherapy
+    relation: connects-to
+    note: "Chemoreduction by route saves eyes: systemic carboplatin-vincristine-etoposide, intra-arterial melphalan, and intravitreal injection shrink retinoblastoma so focal therapy can preserve vision and avoid enucleation."
+  - target: 03-medicine/01-modern/13-cancer/targeted-therapy
+    relation: connects-to
+    note: "Rb loss defies CDK4/6 inhibitors: because retinoblastoma deletes RB1 itself, the target downstream of CDK4/6 is already gone, so CDK4/6 inhibitors that need intact Rb fail — the disease that named the pathway resists blocking it."
+  - target: 01-human/05-tissue/cortical-bone
+    relation: connects-to
+    note: "Survivors face bone sarcomas: children with heritable RB1 mutations, and those given external-beam radiotherapy, carry a high lifetime risk of osteosarcoma and radiation-induced bone sarcomas, often in the irradiated facial bones."
 ---
 
 # Retinoblastoma
@@ -416,6 +425,9 @@ Standard regimen: **vincristine + carboplatin + etoposide (VCE)**, 6 cycles; red
 - `connects-to` → **[Cardiovascular System](../cardiovascular-system/README.md)** — Treatment can reach the heart: systemic chemotherapy for retinoblastoma, and the radiation given historically, carry long-term cardiovascular risk in survivors.
 - `connects-to` → **[Immune System](../immune-system/README.md)** — Therapy suppresses immunity: intensive chemotherapy for advanced retinoblastoma leaves children immunocompromised, and immunotherapy is being explored for refractory disease.
 - `connects-to` → **[Lymphatic System](../lymphatic-system/README.md)** — Extraocular spread reaches the nodes: when retinoblastoma extends beyond the eye, it can metastasise to preauricular and cervical lymph nodes, a marker of advanced disease.
+- `connects-to` → **[Cancer Chemotherapy](../../../03-medicine/01-modern/13-cancer/cancer-chemotherapy/README.md)** — Chemoreduction by route saves eyes: systemic carboplatin-vincristine-etoposide, intra-arterial melphalan, and intravitreal injection shrink retinoblastoma so focal therapy can preserve vision and avoid enucleation.
+- `connects-to` → **[Targeted Therapy](../../../03-medicine/01-modern/13-cancer/targeted-therapy/README.md)** — Rb loss defies CDK4/6 inhibitors: because retinoblastoma deletes RB1 itself, the target downstream of CDK4/6 is already gone, so CDK4/6 inhibitors that need intact Rb fail — the disease that named the pathway resists blocking it.
+- `connects-to` → **[Cortical Bone](../../05-tissue/cortical-bone/README.md)** — Survivors face bone sarcomas: children with heritable RB1 mutations, and those given external-beam radiotherapy, carry a high lifetime risk of osteosarcoma and radiation-induced bone sarcomas, often in the irradiated facial bones.
 
 [^knudson-1971-two-hit]: Knudson AG Jr. Mutation and cancer: statistical study of retinoblastoma. *Proc Natl Acad Sci USA.* 1971;68(4):820-823. [doi:10.1073/pnas.68.4.820](https://doi.org/10.1073/pnas.68.4.820) · [PubMed 5279523](https://pubmed.ncbi.nlm.nih.gov/5279523/)
 [^shields-2008-retinoblastoma]: Shields CL, Shields JA. Retinoblastoma management: advances in enucleation, intravenous chemoreduction, and intra-arterial chemotherapy. *Curr Opin Ophthalmol.* 2010;21(3):203-212. [doi:10.1097/ICU.0b013e328338676a](https://doi.org/10.1097/ICU.0b013e328338676a) · [PubMed 20224400](https://pubmed.ncbi.nlm.nih.gov/20224400/)

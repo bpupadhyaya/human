@@ -232,6 +232,15 @@ cross_links:
   - target: 03-medicine/01-modern/13-cancer/targeted-therapy
     relation: connects-to
     note: "New agents target its fusion biology: research pursues drugs against the PAX3/7-FOXO1 fusion and downstream pathways of alveolar rhabdomyosarcoma beyond conventional chemotherapy."
+  - target: 03-medicine/01-modern/13-cancer/cancer-chemotherapy
+    relation: connects-to
+    note: "VAC is the backbone: rhabdomyosarcoma is treated with intensive multi-agent chemotherapy — vincristine, actinomycin-D and cyclophosphamide — alongside surgery and radiotherapy, the regimen that turned a once-fatal childhood sarcoma curable."
+  - target: 01-human/07-system/gist
+    relation: connects-to
+    note: "A contrasting mesenchymal tumour: both are soft-tissue sarcomas, but GIST is a KIT/PDGFRA-driven adult tumour exquisitely sensitive to imatinib, whereas rhabdomyosarcoma is a paediatric myogenic cancer relying on cytotoxic chemotherapy."
+  - target: 03-medicine/01-modern/13-cancer/checkpoint-inhibitors
+    relation: connects-to
+    note: "Immunologically cold: rhabdomyosarcoma has a low mutational burden and sparse T-cell infiltrate, so checkpoint blockade that transformed melanoma and lung cancer shows little activity, keeping chemotherapy central."
 ---
 
 # Rhabdomyosarcoma
@@ -431,6 +440,9 @@ Maximal safe resection with negative margins (R0) wherever achievable without mu
 - `connects-to` → **[Immune System](../immune-system/README.md)** — Therapy suppresses immunity: the intensive vincristine-actinomycin-cyclophosphamide chemotherapy for rhabdomyosarcoma is profoundly immunosuppressive, raising opportunistic-infection risk.
 - `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — Treatment marks the skin: chemotherapy causes alopecia and mucositis, and radiotherapy produces dermatitis over the treated site, with rare cutaneous rhabdomyosarcoma.
 - `connects-to` → **[Targeted Therapy](../../../03-medicine/01-modern/13-cancer/targeted-therapy/README.md)** — New agents target its fusion biology: research pursues drugs against the PAX3/7-FOXO1 fusion and downstream pathways of alveolar rhabdomyosarcoma beyond conventional chemotherapy.
+- `connects-to` → **[Cancer Chemotherapy](../../../03-medicine/01-modern/13-cancer/cancer-chemotherapy/README.md)** — VAC is the backbone: rhabdomyosarcoma is treated with intensive multi-agent chemotherapy — vincristine, actinomycin-D and cyclophosphamide — alongside surgery and radiotherapy, the regimen that turned a once-fatal childhood sarcoma curable.
+- `connects-to` → **[GIST](../gist/README.md)** — A contrasting mesenchymal tumour: both are soft-tissue sarcomas, but GIST is a KIT/PDGFRA-driven adult tumour exquisitely sensitive to imatinib, whereas rhabdomyosarcoma is a paediatric myogenic cancer relying on cytotoxic chemotherapy.
+- `connects-to` → **[Checkpoint Inhibitors](../../../03-medicine/01-modern/13-cancer/checkpoint-inhibitors/README.md)** — Immunologically cold: rhabdomyosarcoma has a low mutational burden and sparse T-cell infiltrate, so checkpoint blockade that transformed melanoma and lung cancer shows little activity, keeping chemotherapy central.
 
 [^crist-2001-irs4-rms]: Crist WM, Anderson JR, Meza JL, et al. Intergroup rhabdomyosarcoma study-IV: results for patients with nonmetastatic disease. *J Clin Oncol.* 2001;19(12):3091-3102. [doi:10.1200/JCO.2001.19.12.3091](https://doi.org/10.1200/JCO.2001.19.12.3091) · [PubMed 11408506](https://pubmed.ncbi.nlm.nih.gov/11408506/)
 [^oberlin-2012-mmt95-rms]: Oberlin O, Rey A, Sanchez de Toledo J, et al. Randomized comparison of intensified six-drug versus standard three-drug chemotherapy for high-risk nonmetastatic rhabdomyosarcoma and other chemotherapy-sensitive childhood soft tissue sarcomas. *J Clin Oncol.* 2012;30(19):2457-2465. [doi:10.1200/JCO.2011.39.3538](https://doi.org/10.1200/JCO.2011.39.3538) · [PubMed 22665546](https://pubmed.ncbi.nlm.nih.gov/22665546/)
