@@ -232,6 +232,15 @@ cross_links:
   - target: 01-human/07-system/renal-system
     relation: connects-to
     note: "Treatment and overlap reach the kidney: the ciclosporin used to suppress the immune attack is nephrotoxic, and aplastic anaemia overlaps PNH, whose haemolysis injures the kidney."
+  - target: 03-medicine/01-modern/13-cancer/cancer-chemotherapy
+    relation: connects-to
+    note: "The commonest cause of marrow aplasia: cytotoxic chemotherapy predictably suppresses the bone marrow, the dose-dependent and usually reversible counterpart of idiopathic aplastic anaemia."
+  - target: 03-medicine/01-modern/12-anti-inflammatory/ibuprofen
+    relation: connects-to
+    note: "Drugs can switch off the marrow: NSAIDs such as ibuprofen are among the many agents that rarely trigger idiosyncratic aplastic anaemia, alongside chloramphenicol and antithyroid drugs."
+  - target: 02-pathogen/01-viruses/hiv-1
+    relation: connects-to
+    note: "A virus that empties the marrow: untreated HIV suppresses haematopoiesis and causes pancytopenia and marrow failure that can resemble aplastic anaemia."
 ---
 
 # Aplastic Anemia
@@ -416,6 +425,9 @@ In >80% of acquired AA cases, the disease is **immune-mediated**: autoreactive *
 - `connects-to` → **[Cardiovascular System](../cardiovascular-system/README.md)** — Profound anaemia strains the heart: chronic pancytopenia forces a high-output state, and transfusional iron overload can damage the myocardium over years of transfusion support.
 - `connects-to` → **[Lymphatic System](../lymphatic-system/README.md)** — An autoimmune attack from the lymphoid system: in most cases cytotoxic T cells destroy haematopoietic stem cells, and a thymoma can drive the related pure red cell aplasia.
 - `connects-to` → **[Renal System](../renal-system/README.md)** — Treatment and overlap reach the kidney: the ciclosporin used to suppress the immune attack is nephrotoxic, and aplastic anaemia overlaps PNH, whose haemolysis injures the kidney.
+- `connects-to` → **[Cancer Chemotherapy](../../../03-medicine/01-modern/13-cancer/cancer-chemotherapy/README.md)** — The commonest cause of marrow aplasia: cytotoxic chemotherapy predictably suppresses the bone marrow, the dose-dependent and usually reversible counterpart of idiopathic aplastic anaemia.
+- `connects-to` → **[Ibuprofen](../../../03-medicine/01-modern/12-anti-inflammatory/ibuprofen/README.md)** — Drugs can switch off the marrow: NSAIDs such as ibuprofen are among the many agents that rarely trigger idiosyncratic aplastic anaemia, alongside chloramphenicol and antithyroid drugs.
+- `connects-to` → **[HIV-1](../../../02-pathogen/01-viruses/hiv-1/README.md)** — A virus that empties the marrow: untreated HIV suppresses haematopoiesis and causes pancytopenia and marrow failure that can resemble aplastic anaemia.
 
 ---
 

@@ -244,6 +244,15 @@ cross_links:
   - target: 03-medicine/01-modern/02-respiratory/corticosteroids
     relation: connects-to
     note: "Remission starts with steroids: high-dose glucocorticoids, with rituximab or cyclophosphamide, induce remission in ANCA-associated vasculitis, though their toxicity drives steroid-sparing strategies."
+  - target: 02-pathogen/02-bacteria/staphylococcus-aureus
+    relation: connects-to
+    note: "A trigger living in the nose: chronic nasal carriage of Staphylococcus aureus is linked to relapse of granulomatosis with polyangiitis, and decolonisation can reduce flares."
+  - target: 01-human/07-system/rheumatoid-arthritis
+    relation: connects-to
+    note: "Autoimmunity can overlap: rheumatoid arthritis and ANCA vasculitis sometimes coexist, and rheumatoid vasculitis is a feared small-vessel complication of long-standing severe RA."
+  - target: 02-pathogen/02-bacteria/mycobacterium-tuberculosis
+    relation: connects-to
+    note: "A granulomatous mimic to exclude: the lung nodules and cavities of granulomatosis with polyangiitis resemble tuberculosis, which must be excluded before the heavy immunosuppression that would let TB run rampant."
 ---
 
 # ANCA Vasculitis
@@ -451,6 +460,9 @@ EGPA is mechanistically distinct — eosinophils, not neutrophils, mediate tissu
 - `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — It aches in joints and muscles: migratory arthralgia, frank arthritis and myalgia are common features of ANCA-associated vasculitis, especially at disease onset.
 - `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — Its cyclophosphamide threatens fertility: the alkylating agent long used to induce remission causes ovarian failure and impaired spermatogenesis, prompting fertility preservation before treatment.
 - `connects-to` → **[Corticosteroids](../../../03-medicine/01-modern/02-respiratory/corticosteroids/README.md)** — Remission starts with steroids: high-dose glucocorticoids, with rituximab or cyclophosphamide, induce remission in ANCA-associated vasculitis, though their toxicity drives steroid-sparing strategies.
+- `connects-to` → **[Staphylococcus aureus](../../../02-pathogen/02-bacteria/staphylococcus-aureus/README.md)** — A trigger living in the nose: chronic nasal carriage of Staphylococcus aureus is linked to relapse of granulomatosis with polyangiitis, and decolonisation can reduce flares.
+- `connects-to` → **[Rheumatoid Arthritis](../rheumatoid-arthritis/README.md)** — Autoimmunity can overlap: rheumatoid arthritis and ANCA vasculitis sometimes coexist, and rheumatoid vasculitis is a feared small-vessel complication of long-standing severe RA.
+- `connects-to` → **[Mycobacterium tuberculosis](../../../02-pathogen/02-bacteria/mycobacterium-tuberculosis/README.md)** — A granulomatous mimic to exclude: the lung nodules and cavities of granulomatosis with polyangiitis resemble tuberculosis, which must be excluded before the heavy immunosuppression that would let TB run rampant.
 
 [^yates-2022-anca-review]: Yates M, Watts RA, Bajema IM, et al. EULAR/ERA-EDTA recommendations for the management of ANCA-associated vasculitis. *Ann Rheum Dis.* 2016;75(9):1583-1594. [doi:10.1136/annrheumdis-2016-209133](https://doi.org/10.1136/annrheumdis-2016-209133) · [PubMed 27338776](https://pubmed.ncbi.nlm.nih.gov/27338776/)
 [^stone-2010-rituximab-gpa-rave]: Stone JH, Merkel PA, Spiera R, et al. Rituximab versus cyclophosphamide for ANCA-associated vasculitis. *N Engl J Med.* 2010;363(3):221-232. [doi:10.1056/NEJMoa0909905](https://doi.org/10.1056/NEJMoa0909905) · [PubMed 20647199](https://pubmed.ncbi.nlm.nih.gov/20647199/)
