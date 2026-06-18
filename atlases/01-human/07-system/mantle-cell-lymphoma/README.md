@@ -232,6 +232,15 @@ cross_links:
   - target: 01-human/07-system/endocrine-system
     relation: connects-to
     note: "It can infiltrate endocrine glands: aggressive mantle cell lymphoma occasionally involves the thyroid or adrenal glands, and steroid-containing regimens disturb glucose control."
+  - target: 03-medicine/01-modern/13-cancer/targeted-therapy
+    relation: connects-to
+    note: "BTK inhibition transformed it: BTK inhibitors (ibrutinib, acalabrutinib), the BCL-2 inhibitor venetoclax and CDK4/6 inhibitors against its cyclin-D1 driver are central to modern mantle cell lymphoma care."
+  - target: 03-medicine/01-modern/13-cancer/car-t
+    relation: connects-to
+    note: "Engineered cells for relapse: brexucabtagene autoleucel, a CD19 CAR-T therapy, achieves durable remissions in mantle cell lymphoma that has relapsed after chemotherapy and BTK inhibitors."
+  - target: 03-medicine/01-modern/13-cancer/cancer-chemotherapy
+    relation: connects-to
+    note: "Intensive chemoimmunotherapy upfront: high-dose cytarabine-containing regimens with rituximab, often with autologous transplant, are the chemotherapy backbone for younger patients."
 ---
 
 # Mantle Cell Lymphoma
@@ -425,6 +434,9 @@ For SOX11−, mutated IGHV, non-bulky, asymptomatic nnMCL: Observation is safe; 
 - `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — It can mark the skin: mantle cell lymphoma occasionally infiltrates the skin, and its BTK-inhibitor and chemotherapy treatments cause rashes, bruising and alopecia.
 - `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — Treatment threatens fertility and sanctuary sites: chemotherapy for mantle cell lymphoma can impair fertility, and the testis can act as a sanctuary site for residual disease.
 - `connects-to` → **[Endocrine System](../endocrine-system/README.md)** — It can infiltrate endocrine glands: aggressive mantle cell lymphoma occasionally involves the thyroid or adrenal glands, and steroid-containing regimens disturb glucose control.
+- `connects-to` → **[Targeted Therapy](../../../03-medicine/01-modern/13-cancer/targeted-therapy/README.md)** — BTK inhibition transformed it: BTK inhibitors (ibrutinib, acalabrutinib), the BCL-2 inhibitor venetoclax and CDK4/6 inhibitors against its cyclin-D1 driver are central to modern mantle cell lymphoma care.
+- `connects-to` → **[CAR-T](../../../03-medicine/01-modern/13-cancer/car-t/README.md)** — Engineered cells for relapse: brexucabtagene autoleucel, a CD19 CAR-T therapy, achieves durable remissions in mantle cell lymphoma that has relapsed after chemotherapy and BTK inhibitors.
+- `connects-to` → **[Cancer Chemotherapy](../../../03-medicine/01-modern/13-cancer/cancer-chemotherapy/README.md)** — Intensive chemoimmunotherapy upfront: high-dose cytarabine-containing regimens with rituximab, often with autologous transplant, are the chemotherapy backbone for younger patients.
 
 ---
 

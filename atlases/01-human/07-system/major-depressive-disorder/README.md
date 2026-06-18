@@ -241,6 +241,15 @@ cross_links:
   - target: 01-human/07-system/integumentary-system
     relation: connects-to
     note: "The skin and mind interact: depression accompanies chronic skin disease such as psoriasis and acne, and the distress of visible disease deepens low mood in turn."
+  - target: 03-medicine/02-traditional/st-johns-wort
+    relation: connects-to
+    note: "A herbal antidepressant: St John's wort is effective for mild-to-moderate depression in trials, acting on monoamines, but it dangerously induces drug-metabolising enzymes and risks serotonin syndrome with SSRIs."
+  - target: 03-medicine/03-food/omega-3-fatty-acids
+    relation: connects-to
+    note: "Diet offers a modest adjunct: omega-3 (EPA-rich) supplementation has small antidepressant effects in trials, used alongside but not instead of established therapy for major depression."
+  - target: 02-pathogen/04-parasites/toxoplasma-gondii
+    relation: connects-to
+    note: "A latent parasite linked to mood: chronic Toxoplasma gondii infection is epidemiologically associated with major depression and suicidal behaviour, possibly through neuroinflammation and altered dopamine."
 ---
 
 # Major Depressive Disorder
@@ -472,6 +481,9 @@ Approximately 30–40% of MDD patients have elevated inflammatory markers:
 - `connects-to` → **[Cardiovascular System](../cardiovascular-system/README.md)** — Heart and mood are bound together: depression worsens outcomes after myocardial infarction and independently raises cardiovascular risk through inflammation, autonomic and behavioural pathways.
 - `connects-to` → **[Respiratory System](../respiratory-system/README.md)** — It travels with breathing disease: depression is common in COPD and asthma, worsening symptom burden and adherence, and breathlessness itself feeds low mood.
 - `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — The skin and mind interact: depression accompanies chronic skin disease such as psoriasis and acne, and the distress of visible disease deepens low mood in turn.
+- `connects-to` → **[St John's Wort](../../../03-medicine/02-traditional/st-johns-wort/README.md)** — A herbal antidepressant: St John's wort is effective for mild-to-moderate depression in trials, acting on monoamines, but it dangerously induces drug-metabolising enzymes and risks serotonin syndrome with SSRIs.
+- `connects-to` → **[Omega-3 Fatty Acids](../../../03-medicine/03-food/omega-3-fatty-acids/README.md)** — Diet offers a modest adjunct: omega-3 (EPA-rich) supplementation has small antidepressant effects in trials, used alongside but not instead of established therapy for major depression.
+- `connects-to` → **[Toxoplasma gondii](../../../02-pathogen/04-parasites/toxoplasma-gondii/README.md)** — A latent parasite linked to mood: chronic Toxoplasma gondii infection is epidemiologically associated with major depression and suicidal behaviour, possibly through neuroinflammation and altered dopamine.
 
 [^cipriani-2018-antidepressants-meta]: Cipriani A, Furukawa TA, Salanti G, et al. Comparative efficacy and acceptability of 21 antidepressant drugs for acute treatment of adults with major depressive disorder. *Lancet.* 2018;391(10128):1357-1366. [doi:10.1016/S0140-6736(17)32802-7](https://doi.org/10.1016/S0140-6736(17)32802-7) · [PubMed 29477251](https://pubmed.ncbi.nlm.nih.gov/29477251/)
 [^zarate-2006-ketamine-rapid]: Zarate CA Jr, Singh JB, Carlson PJ, et al. A randomized trial of an N-methyl-D-aspartate antagonist in treatment-resistant major depression. *Arch Gen Psychiatry.* 2006;63(8):856-864. [doi:10.1001/archpsyc.63.8.856](https://doi.org/10.1001/archpsyc.63.8.856) · [PubMed 16894061](https://pubmed.ncbi.nlm.nih.gov/16894061/)
