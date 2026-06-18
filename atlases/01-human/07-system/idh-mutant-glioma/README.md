@@ -205,6 +205,15 @@ cross_links:
   - target: 01-human/07-system/wound-healing
     relation: connects-to
     note: "Chronic steroids impair repair: the long-term dexamethasone used to manage IDH-mutant glioma thins skin and slows the healing of craniotomy and biopsy wounds."
+  - target: 01-human/07-system/endocrine-system
+    relation: connects-to
+    note: "Steroids and radiation disturb the glands: the prolonged dexamethasone for IDH-mutant glioma causes steroid diabetes and adrenal suppression, and radiation near the sella can damage the pituitary."
+  - target: 01-human/07-system/digestive-system
+    relation: connects-to
+    note: "Its drugs trouble the gut: dexamethasone raises peptic-ulcer risk and temozolomide causes nausea and hepatotoxicity, complicating the long treatment course of IDH-mutant glioma."
+  - target: 01-human/07-system/generalized-anxiety-disorder
+    relation: connects-to
+    note: "A slow but incurable brain tumour breeds worry: the indolent-but-progressive course, repeated scans and eventual transformation risk of IDH-mutant glioma foster chronic health anxiety alongside depression."
 ---
 
 # IDH-Mutant Glioma
@@ -399,6 +408,9 @@ IDH-mutant glioma with MGMT methylation shows strong alkylating agent sensitivit
 - `connects-to` → **[Type 2 Diabetes](../type-2-diabetes/README.md)** — Its steroids raise blood sugar: the dexamethasone used to control peritumoral edema in IDH-mutant glioma induces insulin resistance, frequently causing steroid-induced hyperglycemia and diabetes.
 - `connects-to` → **[Aspergillus fumigatus](../../../02-pathogen/03-fungi/aspergillus-fumigatus/README.md)** — Temozolomide and steroids open the lung to mold: the lymphopenia from temozolomide plus prolonged dexamethasone suppress immunity, occasionally permitting invasive aspergillosis.
 - `connects-to` → **[Wound Healing](../wound-healing/README.md)** — Chronic steroids impair repair: the long-term dexamethasone used to manage IDH-mutant glioma thins skin and slows the healing of craniotomy and biopsy wounds.
+- `connects-to` → **[Endocrine System](../endocrine-system/README.md)** — Steroids and radiation disturb the glands: the prolonged dexamethasone for IDH-mutant glioma causes steroid diabetes and adrenal suppression, and radiation near the sella can damage the pituitary.
+- `connects-to` → **[Digestive System](../digestive-system/README.md)** — Its drugs trouble the gut: dexamethasone raises peptic-ulcer risk and temozolomide causes nausea and hepatotoxicity, complicating the long treatment course of IDH-mutant glioma.
+- `connects-to` → **[Generalized Anxiety Disorder](../generalized-anxiety-disorder/README.md)** — A slow but incurable brain tumour breeds worry: the indolent-but-progressive course, repeated scans and eventual transformation risk of IDH-mutant glioma foster chronic health anxiety alongside depression.
 
 [^mellinghoff-2023-vorasidenib-lgg]: Mellinghoff IK, van den Bent MJ, Blumenthal DT, et al. Vorasidenib in IDH1- or IDH2-mutant low-grade glioma. *N Engl J Med.* 2023;389(7):589-601. [doi:10.1056/NEJMoa2304194](https://doi.org/10.1056/NEJMoa2304194) · [PubMed 37272530](https://pubmed.ncbi.nlm.nih.gov/37272530/)
 [^jiao-2012-atrx-glioma]: Jiao Y, Killela PJ, Reitman ZJ, et al. Frequent ATRX, CIC, FUBP1 and IDH mutations refine the classification of malignant gliomas. *Oncotarget.* 2012;3(7):709-722. [doi:10.18632/oncotarget.588](https://doi.org/10.18632/oncotarget.588) · [PubMed 22869205](https://pubmed.ncbi.nlm.nih.gov/22869205/)

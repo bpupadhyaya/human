@@ -205,6 +205,15 @@ cross_links:
   - target: 01-human/07-system/anemia-of-chronic-disease
     relation: connects-to
     note: "Through the kidney it lowers the blood count: hypertensive nephrosclerosis is a leading cause of chronic kidney disease, and the failing kidney's loss of erythropoietin produces a renal anemia."
+  - target: 01-human/07-system/endocrine-system
+    relation: connects-to
+    note: "Hormones cause and control blood pressure: secondary hypertension arises from primary aldosteronism, Cushing's, thyroid disease and phaeochromocytoma, and the RAAS that drives it is an endocrine axis."
+  - target: 01-human/07-system/nervous-system
+    relation: connects-to
+    note: "Severe spikes injure the brain: a hypertensive emergency causes encephalopathy and posterior reversible encephalopathy syndrome, and chronic hypertension is the leading cause of intracerebral haemorrhage."
+  - target: 01-human/07-system/respiratory-system
+    relation: connects-to
+    note: "Sleep-disordered breathing drives it up: obstructive sleep apnoea, with its nocturnal hypoxia and sympathetic surges, is a major reversible cause of resistant hypertension."
 ---
 
 # Hypertension
@@ -358,6 +367,9 @@ Blood pressure is determined by: BP = Cardiac Output × Peripheral Vascular Resi
 - `connects-to` → **[Generalized Anxiety Disorder](../generalized-anxiety-disorder/README.md)** — Anxiety and blood pressure feed each other: chronic anxiety and sympathetic arousal acutely raise blood pressure, and living with hypertension breeds health anxiety — a bidirectional, clinically relevant link.
 - `connects-to` → **[NASH](../nash/README.md)** — It clusters with fatty-liver disease: hypertension is a core component of the metabolic syndrome that drives NASH, the two coexisting through shared insulin resistance and visceral adiposity.
 - `connects-to` → **[Anemia of Chronic Disease](../anemia-of-chronic-disease/README.md)** — Through the kidney it lowers the blood count: hypertensive nephrosclerosis is a leading cause of chronic kidney disease, and the failing kidney's loss of erythropoietin produces a renal anemia.
+- `connects-to` → **[Endocrine System](../endocrine-system/README.md)** — Hormones cause and control blood pressure: secondary hypertension arises from primary aldosteronism, Cushing's, thyroid disease and phaeochromocytoma, and the RAAS that drives it is an endocrine axis.
+- `connects-to` → **[Nervous System](../nervous-system/README.md)** — Severe spikes injure the brain: a hypertensive emergency causes encephalopathy and posterior reversible encephalopathy syndrome, and chronic hypertension is the leading cause of intracerebral haemorrhage.
+- `connects-to` → **[Respiratory System](../respiratory-system/README.md)** — Sleep-disordered breathing drives it up: obstructive sleep apnoea, with its nocturnal hypoxia and sympathetic surges, is a major reversible cause of resistant hypertension.
 
 ## Pathology
 
