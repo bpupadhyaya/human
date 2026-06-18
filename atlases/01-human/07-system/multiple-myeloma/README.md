@@ -238,6 +238,15 @@ cross_links:
   - target: 01-human/07-system/reproductive-system
     relation: connects-to
     note: "Treatment threatens fertility: the alkylators and high-dose therapy with stem-cell transplant used in myeloma can impair fertility, relevant to younger patients."
+  - target: 01-human/05-tissue/cortical-bone
+    relation: connects-to
+    note: "It eats holes in the skeleton: myeloma plasma cells activate osteoclasts and suppress osteoblasts, producing the punched-out lytic bone lesions, pathological fractures and hypercalcaemia of CRAB."
+  - target: 03-medicine/01-modern/02-respiratory/corticosteroids
+    relation: connects-to
+    note: "Dexamethasone anchors every regimen: high-dose corticosteroids are directly cytotoxic to plasma cells and form the backbone of nearly all myeloma drug combinations."
+  - target: 01-human/07-system/cll
+    relation: connects-to
+    note: "A fellow clonal B-lineage cancer: like chronic lymphocytic leukaemia, multiple myeloma is a clonal expansion of the mature B/plasma-cell lineage in older adults, the two among the commonest blood cancers."
 ---
 
 # Multiple Myeloma
@@ -440,6 +449,9 @@ MM evolves from precursor conditions through a well-defined continuum:
 - `connects-to` → **[Respiratory System](../respiratory-system/README.md)** — It leaves the lungs exposed and can invade them: the immunoparesis of myeloma invites recurrent pneumonia, and plasmacytomas or amyloid can cause pleural effusions and lung infiltration.
 - `connects-to` → **[Targeted Therapy](../../../03-medicine/01-modern/13-cancer/targeted-therapy/README.md)** — It is treated by precision immunotherapies: anti-CD38 antibodies like daratumumab, proteasome inhibitors, immunomodulators and BCMA-directed CAR-T cells have transformed myeloma care.
 - `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — Treatment threatens fertility: the alkylators and high-dose therapy with stem-cell transplant used in myeloma can impair fertility, relevant to younger patients.
+- `connects-to` → **[Cortical Bone](../../05-tissue/cortical-bone/README.md)** — It eats holes in the skeleton: myeloma plasma cells activate osteoclasts and suppress osteoblasts, producing the punched-out lytic bone lesions, pathological fractures and hypercalcaemia of CRAB.
+- `connects-to` → **[Corticosteroids](../../../03-medicine/01-modern/02-respiratory/corticosteroids/README.md)** — Dexamethasone anchors every regimen: high-dose corticosteroids are directly cytotoxic to plasma cells and form the backbone of nearly all myeloma drug combinations.
+- `connects-to` → **[CLL](../cll/README.md)** — A fellow clonal B-lineage cancer: like chronic lymphocytic leukaemia, multiple myeloma is a clonal expansion of the mature B/plasma-cell lineage in older adults, the two among the commonest blood cancers.
 
 [^kumar-2022-imwg-criteria]: Kumar SK, Callander NS, Adekola K, et al. Multiple myeloma, version 3.2021, NCCN clinical practice guidelines in oncology. *J Natl Compr Canc Netw.* 2020;18(12):1685-1717. [doi:10.6004/jnccn.2020.0057](https://doi.org/10.6004/jnccn.2020.0057) · [PubMed 33285519](https://pubmed.ncbi.nlm.nih.gov/33285519/)
 [^moreau-2022-teclistamab]: Moreau P, Garfall AL, van de Donk NWCJ, et al. Teclistamab in relapsed or refractory multiple myeloma. *N Engl J Med.* 2022;387(6):495-505. [doi:10.1056/NEJMoa2203478](https://doi.org/10.1056/NEJMoa2203478) · [PubMed 35661166](https://pubmed.ncbi.nlm.nih.gov/35661166/)

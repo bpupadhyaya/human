@@ -232,6 +232,15 @@ cross_links:
   - target: 01-human/07-system/respiratory-system
     relation: connects-to
     note: "Advanced disease spreads to the lungs: the colorectal cancers of MUTYH-associated polyposis metastasise to the lungs and liver if they progress."
+  - target: 03-medicine/01-modern/13-cancer/cancer-chemotherapy
+    relation: connects-to
+    note: "Chemo for cancers that develop: MUTYH-associated polyposis carries a high colorectal-cancer risk, and established cancers are treated with standard cytotoxic chemotherapy."
+  - target: 02-pathogen/02-bacteria/escherichia-coli
+    relation: connects-to
+    note: "A microbe that compounds the defect: colibactin-producing Escherichia coli damages colonic DNA, synergising with MUTYH's failure to repair oxidative lesions to accelerate adenoma-to-carcinoma progression."
+  - target: 03-medicine/01-modern/13-cancer/checkpoint-inhibitors
+    relation: connects-to
+    note: "Mostly microsatellite-stable: like FAP, MUTYH-associated colorectal cancers are usually microsatellite-stable and respond poorly to PD-1 checkpoint inhibitors, unlike Lynch tumours."
 ---
 
 # MUTYH-Associated Polyposis
@@ -405,6 +414,9 @@ Because MAP is autosomal recessive: siblings of MAP patients are at **25%** risk
 - `connects-to` → **[Aspirin](../../../03-medicine/01-modern/04-cardio/aspirin/README.md)** — Aspirin lowers colorectal risk: like in other inherited polyposis, regular aspirin reduces colorectal adenoma and cancer risk in MUTYH-associated polyposis as chemoprevention.
 - `connects-to` → **[Renal System](../renal-system/README.md)** — It reaches the urinary tract: MUTYH-associated polyposis raises the risk of bladder and other urothelial cancers among its extracolonic tumours.
 - `connects-to` → **[Respiratory System](../respiratory-system/README.md)** — Advanced disease spreads to the lungs: the colorectal cancers of MUTYH-associated polyposis metastasise to the lungs and liver if they progress.
+- `connects-to` → **[Cancer Chemotherapy](../../../03-medicine/01-modern/13-cancer/cancer-chemotherapy/README.md)** — Chemo for cancers that develop: MUTYH-associated polyposis carries a high colorectal-cancer risk, and established cancers are treated with standard cytotoxic chemotherapy.
+- `connects-to` → **[Escherichia coli](../../../02-pathogen/02-bacteria/escherichia-coli/README.md)** — A microbe that compounds the defect: colibactin-producing Escherichia coli damages colonic DNA, synergising with MUTYH's failure to repair oxidative lesions to accelerate adenoma-to-carcinoma progression.
+- `connects-to` → **[Checkpoint Inhibitors](../../../03-medicine/01-modern/13-cancer/checkpoint-inhibitors/README.md)** — Mostly microsatellite-stable: like FAP, MUTYH-associated colorectal cancers are usually microsatellite-stable and respond poorly to PD-1 checkpoint inhibitors, unlike Lynch tumours.
 - `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — MAP breaks the dominant-inheritance pattern of its cousins: it is autosomal recessive, so two carrier parents — often with no polyposis themselves — have a 1-in-4 risk each pregnancy, making partner carrier testing and recurrence counseling central to families.
 - `connects-to` → **[Platelet](../../04-cellular/platelet/README.md)** — Aspirin's colorectal protection extends here: blocking platelet COX-1 and the tumor-promoting signals platelets release underpins the chemoprevention studied across hereditary colorectal syndromes, including MUTYH-driven polyposis.
 - `connects-to` → **[Plasma Cell](../../04-cellular/plasma-cell/README.md)** — The repair defect leaves an immune fingerprint: MUTYH loss spawns a heavy load of G-to-T mutations and neoantigens, drawing B cells and plasma cells into the tumor — an immune-rich profile that may make these cancers responsive to checkpoint therapy.
