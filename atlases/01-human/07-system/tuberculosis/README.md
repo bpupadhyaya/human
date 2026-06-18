@@ -214,6 +214,15 @@ cross_links:
   - target: 01-human/07-system/renal-system
     relation: connects-to
     note: "It seeds the urinary tract: genitourinary tuberculosis causes sterile pyuria, ureteric strictures and renal destruction, a common site of extrapulmonary disease."
+  - target: 01-human/07-system/cardiovascular-system
+    relation: connects-to
+    note: "It can wrap and squeeze the heart: tuberculous pericarditis causes a pericardial effusion that can progress to constrictive pericarditis, a major extrapulmonary manifestation in endemic regions."
+  - target: 01-human/07-system/integumentary-system
+    relation: connects-to
+    note: "It settles in and reacts on the skin: cutaneous tuberculosis such as lupus vulgaris and scrofuloderma, and the reactive panniculitis of erythema nodosum, are dermatological signs of infection."
+  - target: 01-human/07-system/gout
+    relation: connects-to
+    note: "One of its drugs raises uric acid: pyrazinamide, a first-line antitubercular, reduces urate excretion and can cause hyperuricaemia and precipitate gout flares."
 ---
 
 # Tuberculosis
@@ -413,6 +422,9 @@ Standard **HRZE** regimen [^nahid-2016-tb-treatment]:
 - `connects-to` → **[Respiratory System](../respiratory-system/README.md)** — The lung is its home: pulmonary tuberculosis is the dominant form, cavitating the upper lobes and causing chronic cough, haemoptysis and fibrosis, and it spreads by infectious aerosols.
 - `connects-to` → **[Nervous System](../nervous-system/README.md)** — It invades the brain and spine: tuberculous meningitis and intracranial tuberculomas are devastating, and Pott's disease of the spine can collapse vertebrae onto the spinal cord.
 - `connects-to` → **[Renal System](../renal-system/README.md)** — It seeds the urinary tract: genitourinary tuberculosis causes sterile pyuria, ureteric strictures and renal destruction, a common site of extrapulmonary disease.
+- `connects-to` → **[Cardiovascular System](../cardiovascular-system/README.md)** — It can wrap and squeeze the heart: tuberculous pericarditis causes a pericardial effusion that can progress to constrictive pericarditis, a major extrapulmonary manifestation in endemic regions.
+- `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — It settles in and reacts on the skin: cutaneous tuberculosis such as lupus vulgaris and scrofuloderma, and the reactive panniculitis of erythema nodosum, are dermatological signs of infection.
+- `connects-to` → **[Gout](../gout/README.md)** — One of its drugs raises uric acid: pyrazinamide, a first-line antitubercular, reduces urate excretion and can cause hyperuricaemia and precipitate gout flares.
 
 ## See Also
 

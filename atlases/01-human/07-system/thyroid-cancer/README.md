@@ -214,6 +214,15 @@ cross_links:
   - target: 01-human/07-system/integumentary-system
     relation: connects-to
     note: "Aggressive disease reaches the skin: anaplastic thyroid cancer invades the overlying neck skin, and the radioiodine and surgery used for thyroid cancer leave their own cutaneous and scar effects."
+  - target: 01-human/07-system/cardiovascular-system
+    relation: connects-to
+    note: "Its hormone-suppression and targeted drugs strain the heart: long-term TSH-suppressive levothyroxine can cause atrial fibrillation, and multikinase inhibitors like lenvatinib cause hypertension and QT prolongation."
+  - target: 01-human/07-system/renal-system
+    relation: connects-to
+    note: "Its targeted drugs reach the kidney: the multikinase inhibitors used for advanced thyroid cancer cause proteinuria and hypertension that affect renal function."
+  - target: 01-human/07-system/breast-cancer
+    relation: connects-to
+    note: "It travels with breast cancer: thyroid and breast cancer co-occur more often than chance, so survivors of one carry a modestly raised risk of the other."
 ---
 
 # Thyroid Cancer
@@ -423,6 +432,9 @@ Calcitonin doubling time <6 months → poor prognosis → early systemic therapy
 - `connects-to` → **[Respiratory System](../respiratory-system/README.md)** — It invades the airway and spreads to the lungs: locally advanced thyroid cancer can infiltrate the trachea causing airway compromise, and differentiated thyroid cancer metastasises to the lungs.
 - `connects-to` → **[Nervous System](../nervous-system/README.md)** — Surgery threatens the voice and the nerves: thyroidectomy risks recurrent laryngeal nerve injury with hoarseness, and the resulting hypoparathyroidism causes hypocalcaemic tetany and paraesthesiae.
 - `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — Aggressive disease reaches the skin: anaplastic thyroid cancer invades the overlying neck skin, and the radioiodine and surgery used for thyroid cancer leave their own cutaneous and scar effects.
+- `connects-to` → **[Cardiovascular System](../cardiovascular-system/README.md)** — Its hormone-suppression and targeted drugs strain the heart: long-term TSH-suppressive levothyroxine can cause atrial fibrillation, and multikinase inhibitors like lenvatinib cause hypertension and QT prolongation.
+- `connects-to` → **[Renal System](../renal-system/README.md)** — Its targeted drugs reach the kidney: the multikinase inhibitors used for advanced thyroid cancer cause proteinuria and hypertension that affect renal function.
+- `connects-to` → **[Breast Cancer](../breast-cancer/README.md)** — It travels with breast cancer: thyroid and breast cancer co-occur more often than chance, so survivors of one carry a modestly raised risk of the other.
 
 [^schlumberger-2015-lenvatinib]: Schlumberger M, Tahara M, Wirth LJ, et al. Lenvatinib versus placebo in radioiodine-refractory differentiated thyroid cancer. *N Engl J Med.* 2015;372(7):621-630. [doi:10.1056/NEJMoa1406470](https://doi.org/10.1056/NEJMoa1406470) · [PubMed 25671254](https://pubmed.ncbi.nlm.nih.gov/25671254/)
 [^subbiah-2018-atc-dabrafenib]: Subbiah V, Kreitman RJ, Wainberg ZA, et al. Dabrafenib and trametinib treatment in patients with locally advanced or metastatic BRAF V600-mutant anaplastic thyroid cancer. *J Clin Oncol.* 2018;36(1):7-13. [doi:10.1200/JCO.2017.73.6785](https://doi.org/10.1200/JCO.2017.73.6785) · [PubMed 28892432](https://pubmed.ncbi.nlm.nih.gov/28892432/)
