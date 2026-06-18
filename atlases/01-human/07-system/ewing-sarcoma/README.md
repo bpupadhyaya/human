@@ -241,6 +241,15 @@ cross_links:
   - target: 03-medicine/01-modern/13-cancer/car-t
     relation: connects-to
     note: "Cell therapy in trials: GD2- and other antigen-directed CAR-T and immunotherapies are being trialled for relapsed Ewing sarcoma, which resists conventional salvage treatment."
+  - target: 01-human/05-tissue/cortical-bone
+    relation: connects-to
+    note: "It is a bone tumour of the young: Ewing sarcoma arises in the diaphysis of long bones and the pelvis, destroying cortical bone with a permeative lytic pattern and the classic onion-skin periosteal reaction."
+  - target: 03-medicine/01-modern/13-cancer/checkpoint-inhibitors
+    relation: connects-to
+    note: "An immunologically cold sarcoma: Ewing sarcoma has a very low mutational burden and sparse T-cell infiltrate, so checkpoint inhibitors have shown little benefit, keeping chemotherapy and emerging cell therapies central."
+  - target: 01-human/05-tissue/lung-slice
+    relation: connects-to
+    note: "It seeds the lungs: Ewing sarcoma metastasises preferentially to the lungs, where pulmonary metastases on a lung slice are staged by chest CT and treated with whole-lung irradiation."
 ---
 
 # Ewing Sarcoma
@@ -438,6 +447,9 @@ After induction → surgical specimen assessed for percent tumor necrosis (Salze
 - `connects-to` → **[Cancer Chemotherapy](../../../03-medicine/01-modern/13-cancer/cancer-chemotherapy/README.md)** — Intensive chemo is curative: alternating vincristine-doxorubicin-cyclophosphamide with ifosfamide-etoposide, around surgery or radiation, cures most localised Ewing sarcoma.
 - `connects-to` → **[Targeted Therapy](../../../03-medicine/01-modern/13-cancer/targeted-therapy/README.md)** — A testbed for targeted drugs: Ewing sarcoma's IGF-1 dependence made it an early target for IGF-1R antibodies, and agents aimed at the EWSR1-FLI1 fusion are in development.
 - `connects-to` → **[CAR-T](../../../03-medicine/01-modern/13-cancer/car-t/README.md)** — Cell therapy in trials: GD2- and other antigen-directed CAR-T and immunotherapies are being trialled for relapsed Ewing sarcoma, which resists conventional salvage treatment.
+- `connects-to` → **[Cortical Bone](../../05-tissue/cortical-bone/README.md)** — It is a bone tumour of the young: Ewing sarcoma arises in the diaphysis of long bones and the pelvis, destroying cortical bone with a permeative lytic pattern and the classic onion-skin periosteal reaction.
+- `connects-to` → **[Checkpoint Inhibitors](../../../03-medicine/01-modern/13-cancer/checkpoint-inhibitors/README.md)** — An immunologically cold sarcoma: Ewing sarcoma has a very low mutational burden and sparse T-cell infiltrate, so checkpoint inhibitors have shown little benefit, keeping chemotherapy and emerging cell therapies central.
+- `connects-to` → **[Lung Slice](../../05-tissue/lung-slice/README.md)** — It seeds the lungs: Ewing sarcoma metastasises preferentially to the lungs, where pulmonary metastases on a lung slice are staged by chest CT and treated with whole-lung irradiation.
 
 ---
 

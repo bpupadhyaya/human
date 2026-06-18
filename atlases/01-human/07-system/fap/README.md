@@ -241,6 +241,15 @@ cross_links:
   - target: 02-pathogen/02-bacteria/escherichia-coli
     relation: connects-to
     note: "A gut microbe abets the mutation: colibactin-producing Escherichia coli damages colonic DNA and accelerates APC-driven carcinogenesis, linking the gut microbiome to FAP's polyp-to-cancer progression."
+  - target: 01-human/05-tissue/cortical-bone
+    relation: connects-to
+    note: "Gardner's bony stigmata: the Gardner variant of FAP produces osteomas of the skull, mandible and long bones, plus dental anomalies and epidermoid cysts — extracolonic clues that often precede the polyposis."
+  - target: 01-human/05-tissue/hepatic-lobule
+    relation: connects-to
+    note: "It threatens the child's liver: young children with FAP carry a markedly raised risk of hepatoblastoma, a liver cancer arising in the hepatic lobule, prompting AFP and ultrasound surveillance in infancy."
+  - target: 03-medicine/01-modern/04-cardio/aspirin
+    relation: connects-to
+    note: "Aspirin curbs the polyps: beyond the sulindac and celecoxib used in FAP, regular aspirin reduces colorectal adenoma and cancer risk (as in the CAPP trials), a chemopreventive adjunct to the surveillance and surgery that anchor hereditary polyposis care."
 ---
 
 # Familial Adenomatous Polyposis
@@ -455,6 +464,9 @@ With modern surveillance and prophylactic colectomy: FAP is no longer an inevita
 - `connects-to` → **[Checkpoint Inhibitors](../../../03-medicine/01-modern/13-cancer/checkpoint-inhibitors/README.md)** — Immunotherapy mostly misses it: FAP-associated colorectal cancers are microsatellite-stable from chromosomal instability, so unlike Lynch tumours they respond poorly to PD-1 checkpoint inhibitors.
 - `connects-to` → **[Cancer Chemotherapy](../../../03-medicine/01-modern/13-cancer/cancer-chemotherapy/README.md)** — Chemo for cancers that escape surveillance: metastatic FAP-associated colorectal cancer is treated with standard cytotoxic chemotherapy, and low-dose regimens are used for its desmoid tumours.
 - `connects-to` → **[Escherichia coli](../../../02-pathogen/02-bacteria/escherichia-coli/README.md)** — A gut microbe abets the mutation: colibactin-producing Escherichia coli damages colonic DNA and accelerates APC-driven carcinogenesis, linking the gut microbiome to FAP's polyp-to-cancer progression.
+- `connects-to` → **[Cortical Bone](../../05-tissue/cortical-bone/README.md)** — Gardner's bony stigmata: the Gardner variant of FAP produces osteomas of the skull, mandible and long bones, plus dental anomalies and epidermoid cysts — extracolonic clues that often precede the polyposis.
+- `connects-to` → **[Hepatic Lobule](../../05-tissue/hepatic-lobule/README.md)** — It threatens the child's liver: young children with FAP carry a markedly raised risk of hepatoblastoma, a liver cancer arising in the hepatic lobule, prompting AFP and ultrasound surveillance in infancy.
+- `connects-to` → **[Aspirin](../../../03-medicine/01-modern/04-cardio/aspirin/README.md)** — Aspirin curbs the polyps: beyond the sulindac and celecoxib used in FAP, regular aspirin reduces colorectal adenoma and cancer risk (as in the CAPP trials), a chemopreventive adjunct to the surveillance and surgery that anchor hereditary polyposis care.
 
 [^kinzler-1991-apc]: Kinzler KW, Nilbert MC, Su LK, et al. Identification of FAP locus genes from chromosome 5q21. *Science.* 1991;253(5020):661-665. [doi:10.1126/science.1651562](https://doi.org/10.1126/science.1651562) · [PubMed 1651562](https://pubmed.ncbi.nlm.nih.gov/1651562/)
 [^fearon-1990-vogelstein]: Fearon ER, Vogelstein B. A genetic model for colorectal tumorigenesis. *Cell.* 1990;61(5):759-767. [doi:10.1016/0092-8674(90)90186-i](https://doi.org/10.1016/0092-8674(90)90186-i) · [PubMed 2188735](https://pubmed.ncbi.nlm.nih.gov/2188735/)
