@@ -214,6 +214,15 @@ cross_links:
   - target: 02-pathogen/01-viruses/varicella-zoster-virus
     relation: connects-to
     note: "Sarcoma chemotherapy reawakens shingles: the chemotherapy for RTS-associated osteosarcoma deeply suppresses immunity, allowing latent or primary varicella-zoster to cause severe disease."
+  - target: 01-human/07-system/immune-system
+    relation: connects-to
+    note: "A subset have weakened immunity: some Rothmund-Thomson patients show immune dysfunction with recurrent infections and impaired antibody responses, on top of the chemo-related immunosuppression."
+  - target: 01-human/07-system/renal-system
+    relation: connects-to
+    note: "Its sarcoma chemotherapy taxes the kidney: the cisplatin and high-dose methotrexate used for RTS-associated osteosarcoma are nephrotoxic, needing protective hydration and rescue."
+  - target: 01-human/07-system/cardiovascular-system
+    relation: connects-to
+    note: "That chemotherapy can scar the heart: the doxorubicin in osteosarcoma regimens for Rothmund-Thomson carries a dose-dependent cardiotoxicity risk."
 ---
 
 # Rothmund-Thomson Syndrome
@@ -416,6 +425,9 @@ The cardinal features of RTS type II are: (1) **poikiloderma** — the defining 
 - `connects-to` → **[Digestive System](../digestive-system/README.md)** — It troubles the gut from infancy: Rothmund-Thomson commonly causes feeding difficulties and chronic diarrhoea in early childhood, and the chemotherapy for its osteosarcomas adds mucositis.
 - `connects-to` → **[Respiratory System](../respiratory-system/README.md)** — Its sarcomas spread to the lungs: the osteosarcomas that Rothmund-Thomson strongly predisposes to metastasise to the lungs, making pulmonary metastases a key prognostic concern.
 - `connects-to` → **[Varicella-Zoster Virus](../../../02-pathogen/01-viruses/varicella-zoster-virus/README.md)** — Sarcoma chemotherapy reawakens shingles: the chemotherapy for RTS-associated osteosarcoma deeply suppresses immunity, allowing latent or primary varicella-zoster to cause severe disease.
+- `connects-to` → **[Immune System](../immune-system/README.md)** — A subset have weakened immunity: some Rothmund-Thomson patients show immune dysfunction with recurrent infections and impaired antibody responses, on top of the chemo-related immunosuppression.
+- `connects-to` → **[Renal System](../renal-system/README.md)** — Its sarcoma chemotherapy taxes the kidney: the cisplatin and high-dose methotrexate used for RTS-associated osteosarcoma are nephrotoxic, needing protective hydration and rescue.
+- `connects-to` → **[Cardiovascular System](../cardiovascular-system/README.md)** — That chemotherapy can scar the heart: the doxorubicin in osteosarcoma regimens for Rothmund-Thomson carries a dose-dependent cardiotoxicity risk.
 
 [^kitao-1999-recql4-rts]: Kitao S, Shimamoto A, Goto M, et al. Mutations in RECQL4 cause a subset of cases of Rothmund-Thomson syndrome. *Nat Genet.* 1999;22(1):82-84. [doi:10.1038/8788](https://doi.org/10.1038/8788) · [PubMed 10319867](https://pubmed.ncbi.nlm.nih.gov/10319867/)
 [^wang-2003-rts-cancer]: Wang LL, Gannavarapu A, Kozinetz CA, et al. Association between osteosarcoma and deleterious mutations in the RECQL4 gene in Rothmund-Thomson syndrome. *J Natl Cancer Inst.* 2003;95(9):669-674. [doi:10.1093/jnci/95.9.669](https://doi.org/10.1093/jnci/95.9.669) · [PubMed 12734318](https://pubmed.ncbi.nlm.nih.gov/12734318/)
