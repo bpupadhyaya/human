@@ -226,6 +226,15 @@ cross_links:
   - target: 01-human/07-system/endocrine-system
     relation: connects-to
     note: "It strains the stress hormones: sepsis causes critical-illness-related corticosteroid insufficiency and stress hyperglycaemia, and meningococcal sepsis can destroy the adrenals (Waterhouse-Friderichsen)."
+  - target: 01-human/07-system/renal-system
+    relation: connects-to
+    note: "It is the commonest cause of acute kidney injury in the critically ill: septic shock starves the kidney of perfusion while inflammation injures the tubules, often demanding dialysis."
+  - target: 01-human/07-system/integumentary-system
+    relation: connects-to
+    note: "The skin signals shock and clotting: mottling, prolonged capillary refill and the purpura of meningococcaemia or purpura fulminans reveal the microvascular collapse of severe sepsis."
+  - target: 01-human/07-system/lymphatic-system
+    relation: connects-to
+    note: "Late sepsis paralyses immunity: massive apoptosis of lymphocytes in spleen and lymph nodes causes a profound lymphopenia and immunosuppression that leaves survivors prone to secondary infection."
 ---
 
 # Sepsis
@@ -401,6 +410,9 @@ Sepsis is not localized to one system — it manifests as dysfunction across mul
 - `connects-to` → **[Cardiovascular System](../cardiovascular-system/README.md)** — It collapses the circulation: septic shock is distributive shock with profound vasodilation and a septic cardiomyopathy that depresses the heart, demanding fluids and vasopressors to maintain perfusion.
 - `connects-to` → **[Nervous System](../nervous-system/README.md)** — It clouds the brain and weakens the nerves: sepsis-associated encephalopathy causes delirium, and critical-illness polyneuropathy and myopathy leave prolonged weakness in survivors.
 - `connects-to` → **[Endocrine System](../endocrine-system/README.md)** — It strains the stress hormones: sepsis causes critical-illness-related corticosteroid insufficiency and stress hyperglycaemia, and meningococcal sepsis can destroy the adrenals (Waterhouse-Friderichsen).
+- `connects-to` → **[Renal System](../renal-system/README.md)** — It is the commonest cause of acute kidney injury in the critically ill: septic shock starves the kidney of perfusion while inflammation injures the tubules, often demanding dialysis.
+- `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — The skin signals shock and clotting: mottling, prolonged capillary refill and the purpura of meningococcaemia or purpura fulminans reveal the microvascular collapse of severe sepsis.
+- `connects-to` → **[Lymphatic System](../lymphatic-system/README.md)** — Late sepsis paralyses immunity: massive apoptosis of lymphocytes in spleen and lymph nodes causes a profound lymphopenia and immunosuppression that leaves survivors prone to secondary infection.
 - `treated-by` → **[Vancomycin](../../../03-medicine/01-modern/06-antimicrobial/vancomycin/README.md)** — First-line empiric IV therapy for MRSA bacteremia and gram-positive sepsis; added to beta-lactam empiric regimens when MRSA risk is elevated; AUC/MIC-guided dosing (IDSA 2021); MIC ≤1 mg/L required for endocarditis; daptomycin alternative for high MIC.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*

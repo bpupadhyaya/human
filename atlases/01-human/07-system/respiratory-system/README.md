@@ -225,6 +225,15 @@ cross_links:
   - target: 01-human/07-system/integumentary-system
     relation: connects-to
     note: "The skin mirrors the lungs: finger clubbing, central cyanosis and tar staining reveal chronic respiratory disease, and skin and airway share the body's barrier defences against the environment."
+  - target: 02-pathogen/02-bacteria/mycobacterium-tuberculosis
+    relation: connects-to
+    note: "The lung is its principal home: Mycobacterium tuberculosis is inhaled into the alveoli where it sets up the granulomatous infection that remains the world's leading infectious cause of death."
+  - target: 02-pathogen/01-viruses/sars-cov-2
+    relation: connects-to
+    note: "A pandemic virus that targets the airways: SARS-CoV-2 enters through ACE2 on respiratory epithelium, causing pneumonia and diffuse alveolar damage in severe COVID-19."
+  - target: 02-pathogen/06-environmental/zoonosis
+    relation: connects-to
+    note: "Many emerging lung infections jump from animals: avian influenza, SARS, MERS and hantavirus reach the human respiratory tract from animal reservoirs, a recurring source of pandemics."
 taxonomy:
   uberon: "UBERON:0001004"
   fma: "FMA:7161"
@@ -375,6 +384,9 @@ The mucociliary escalator (ciliated cells + goblet cell mucus) continuously clea
 - **Connects-to** → [Endocrine System](../endocrine-system/README.md): The lung is also an endocrine organ: its endothelium converts angiotensin I to II via ACE, a key step in blood-pressure control, and pulmonary neuroendocrine cells secrete bioactive peptides.
 - **Connects-to** → [Lymphatic System](../lymphatic-system/README.md): It is guarded and drained by lymphatics: bronchus-associated lymphoid tissue defends the airways and a rich lymphatic network clears the lungs, so injury to it causes chylothorax.
 - **Connects-to** → [Integumentary System](../integumentary-system/README.md): The skin mirrors the lungs: finger clubbing, central cyanosis and tar staining reveal chronic respiratory disease, and skin and airway share the body's barrier defences against the environment.
+- **Connects-to** → [Mycobacterium tuberculosis](../../../02-pathogen/02-bacteria/mycobacterium-tuberculosis/README.md): The lung is its principal home: Mycobacterium tuberculosis is inhaled into the alveoli where it sets up the granulomatous infection that remains the world's leading infectious cause of death.
+- **Connects-to** → [SARS-CoV-2](../../../02-pathogen/01-viruses/sars-cov-2/README.md): A pandemic virus that targets the airways: SARS-CoV-2 enters through ACE2 on respiratory epithelium, causing pneumonia and diffuse alveolar damage in severe COVID-19.
+- **Connects-to** → [Zoonosis](../../../02-pathogen/06-environmental/zoonosis/README.md): Many emerging lung infections jump from animals: avian influenza, SARS, MERS and hantavirus reach the human respiratory tract from animal reservoirs, a recurring source of pandemics.
 - `prevented-by` → **[PCV13 (Prevnar 13)](../../../../04-vaccine/08-conjugate/pcv13/README.md)** — CAPiTA RCT (N=84,496 adults ≥65): PCV13 achieved 45.6% VE against vaccine-type CAP and 75% VE against invasive pneumococcal disease; prevents pneumococcal pneumonia, the leading infectious cause of respiratory hospitalisation in older adults.
 
 ## Pathology
