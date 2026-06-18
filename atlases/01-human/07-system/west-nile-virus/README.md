@@ -210,6 +210,15 @@ cross_links:
   - target: 01-human/07-system/generalized-anxiety-disorder
     relation: connects-to
     note: "A slow, uncertain recovery breeds worry: the lingering fatigue, weakness and cognitive problems after West Nile neuroinvasive disease foster chronic health anxiety alongside its depression and PTSD."
+  - target: 01-human/07-system/digestive-system
+    relation: connects-to
+    note: "Its febrile phase upsets the gut: West Nile fever commonly causes nausea, vomiting, diarrhoea and abdominal pain, with rare hepatitis and pancreatitis in severe disease."
+  - target: 01-human/07-system/endocrine-system
+    relation: connects-to
+    note: "Brain infection unbalances sodium: West Nile encephalitis can trigger SIADH with hyponatraemia, a common electrolyte disturbance in central nervous system infections that needs careful fluid management."
+  - target: 01-human/07-system/lymphatic-system
+    relation: connects-to
+    note: "Classic West Nile fever swells the nodes: generalized lymphadenopathy was a defining feature of the originally described illness, accompanying the fever and maculopapular rash."
 ---
 
 # West Nile Virus
@@ -394,3 +403,6 @@ WNV has evolved a multilayered strategy to evade innate immunity:
 - `connects-to` → **[Respiratory System](../respiratory-system/README.md)** — Its polio-like paralysis can stop breathing: neuroinvasive West Nile virus attacks anterior horn cells, causing acute flaccid paralysis that can involve the diaphragm and require prolonged mechanical ventilation.
 - `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — West Nile fever often shows on the skin: the milder febrile form commonly produces a transient maculopapular or roseolar rash over the trunk and limbs, a recognised clinical clue.
 - `connects-to` → **[Generalized Anxiety Disorder](../generalized-anxiety-disorder/README.md)** — A slow, uncertain recovery breeds worry: the lingering fatigue, weakness and cognitive problems after West Nile neuroinvasive disease foster chronic health anxiety alongside its depression and PTSD.
+- `connects-to` → **[Digestive System](../digestive-system/README.md)** — Its febrile phase upsets the gut: West Nile fever commonly causes nausea, vomiting, diarrhoea and abdominal pain, with rare hepatitis and pancreatitis in severe disease.
+- `connects-to` → **[Endocrine System](../endocrine-system/README.md)** — Brain infection unbalances sodium: West Nile encephalitis can trigger SIADH with hyponatraemia, a common electrolyte disturbance in central nervous system infections that needs careful fluid management.
+- `connects-to` → **[Lymphatic System](../lymphatic-system/README.md)** — Classic West Nile fever swells the nodes: generalized lymphadenopathy was a defining feature of the originally described illness, accompanying the fever and maculopapular rash.

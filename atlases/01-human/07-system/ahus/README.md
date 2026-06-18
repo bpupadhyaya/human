@@ -217,6 +217,15 @@ cross_links:
   - target: 01-human/07-system/generalized-anxiety-disorder
     relation: connects-to
     note: "A sudden, relapsing, complement-driven disease breeds worry: the abrupt kidney-and-blood crisis, relapse risk and indefinite complement-blocking therapy of aHUS foster chronic health anxiety alongside depression."
+  - target: 01-human/07-system/immune-system
+    relation: connects-to
+    note: "It is a disease of uncontrolled complement: mutations in alternative-pathway regulators or anti-factor-H antibodies let complement attack the endothelium, which is why complement-blocking eculizumab is the treatment."
+  - target: 01-human/07-system/cardiovascular-system
+    relation: connects-to
+    note: "Its microthrombi strike the heart: the thrombotic microangiopathy of aHUS can occlude cardiac microvessels, causing ischaemia, arrhythmia and cardiomyopathy beyond the hypertension it drives."
+  - target: 01-human/07-system/endocrine-system
+    relation: connects-to
+    note: "It can injure the pancreatic islets: thrombotic microangiopathy of the pancreatic microvasculature can impair insulin-producing islets, causing transient hyperglycaemia during an aHUS crisis."
 ---
 
 # Atypical HUS
@@ -445,6 +454,9 @@ Repeated TMA episodes → glomerular fibrosis → CKD → ESRD
 - `connects-to` → **[Digestive System](../digestive-system/README.md)** — Its microthrombi injure the gut: aHUS thrombotic microangiopathy can involve the GI tract, causing pancreatitis, hepatic dysfunction, colitis and bowel ischaemia as extra-renal manifestations.
 - `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — Severe microvascular thrombosis reaches the skin: extensive aHUS can cause cutaneous microvascular ischaemia with digital and skin necrosis when the thrombotic microangiopathy is widespread.
 - `connects-to` → **[Generalized Anxiety Disorder](../generalized-anxiety-disorder/README.md)** — A sudden, relapsing, complement-driven disease breeds worry: the abrupt kidney-and-blood crisis, relapse risk and indefinite complement-blocking therapy of aHUS foster chronic health anxiety alongside depression.
+- `connects-to` → **[Immune System](../immune-system/README.md)** — It is a disease of uncontrolled complement: mutations in alternative-pathway regulators or anti-factor-H antibodies let complement attack the endothelium, which is why complement-blocking eculizumab is the treatment.
+- `connects-to` → **[Cardiovascular System](../cardiovascular-system/README.md)** — Its microthrombi strike the heart: the thrombotic microangiopathy of aHUS can occlude cardiac microvessels, causing ischaemia, arrhythmia and cardiomyopathy beyond the hypertension it drives.
+- `connects-to` → **[Endocrine System](../endocrine-system/README.md)** — It can injure the pancreatic islets: thrombotic microangiopathy of the pancreatic microvasculature can impair insulin-producing islets, causing transient hyperglycaemia during an aHUS crisis.
 
 [^fakhouri-2017-ahus-lancet]: Fakhouri F, Zuber J, Frémeaux-Bacchi V, Loirat C. Haemolytic uraemic syndrome. *Lancet.* 2017;390(10095):681-696. [doi:10.1016/S0140-6736(17)30062-4](https://doi.org/10.1016/S0140-6736(17)30062-4) · [PubMed 28242109](https://pubmed.ncbi.nlm.nih.gov/28242109/)
 [^legendre-2013-eculizumab-ahus-nejm]: Legendre CM, Licht C, Muus P, et al. Terminal complement inhibitor eculizumab in atypical hemolytic-uremic syndrome. *N Engl J Med.* 2013;368(23):2169-2181. [doi:10.1056/NEJMoa1208981](https://doi.org/10.1056/NEJMoa1208981) · [PubMed 23738544](https://pubmed.ncbi.nlm.nih.gov/23738544/)
