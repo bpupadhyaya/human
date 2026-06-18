@@ -232,6 +232,15 @@ cross_links:
   - target: 01-human/07-system/integumentary-system
     relation: connects-to
     note: "It touches the skin: ADHD co-occurs with atopic dermatitis and with chronic skin-picking, and stimulant-related formication can drive scratching and excoriation."
+  - target: 01-human/07-system/respiratory-system
+    relation: connects-to
+    note: "It travels with allergy and bad sleep: ADHD frequently coexists with asthma and allergic disease, and obstructive sleep apnoea can mimic or worsen the inattention and hyperactivity."
+  - target: 03-medicine/03-food/omega-3-fatty-acids
+    relation: connects-to
+    note: "Diet offers a small lever: omega-3 supplementation shows modest benefit for ADHD symptoms in trials, a complement rather than a substitute for established treatment."
+  - target: 03-medicine/03-food/zinc-dietary
+    relation: connects-to
+    note: "Trace minerals draw interest: low zinc and iron status are associated with ADHD, and supplementation may help when deficiency is present, though it is not a primary therapy."
 ---
 
 # Attention-Deficit/Hyperactivity Disorder
@@ -449,6 +458,9 @@ ADHD is a clinical diagnosis requiring [^biederman-2005-adhd-adults]:
 - `connects-to` → **[Renal System](../renal-system/README.md)** — It often comes with bedwetting: nocturnal enuresis and daytime urinary incontinence are markedly more common in children with ADHD, reflecting shared maturational and attentional factors.
 - `connects-to` → **[Immune System](../immune-system/README.md)** — It clusters with allergy and autoimmunity: ADHD is associated with atopic and allergic conditions and shows links to immune dysregulation and low-grade inflammation.
 - `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — It touches the skin: ADHD co-occurs with atopic dermatitis and with chronic skin-picking, and stimulant-related formication can drive scratching and excoriation.
+- `connects-to` → **[Respiratory System](../respiratory-system/README.md)** — It travels with allergy and bad sleep: ADHD frequently coexists with asthma and allergic disease, and obstructive sleep apnoea can mimic or worsen the inattention and hyperactivity.
+- `connects-to` → **[Omega-3 fatty acids](../../../03-medicine/03-food/omega-3-fatty-acids/README.md)** — Diet offers a small lever: omega-3 supplementation shows modest benefit for ADHD symptoms in trials, a complement rather than a substitute for established treatment.
+- `connects-to` → **[Dietary Zinc](../../../03-medicine/03-food/zinc-dietary/README.md)** — Trace minerals draw interest: low zinc and iron status are associated with ADHD, and supplementation may help when deficiency is present, though it is not a primary therapy.
 
 [^faraone-2021-adhd-primer]: Faraone SV, Banaschewski T, Coghill D, et al. The World Federation of ADHD International Consensus Statement: 208 Evidence-based conclusions about the disorder. *Neurosci Biobehav Rev.* 2021;128:789-818. [doi:10.1016/j.neubiorev.2021.01.022](https://doi.org/10.1016/j.neubiorev.2021.01.022) · [PubMed 33549739](https://pubmed.ncbi.nlm.nih.gov/33549739/)
 [^arnsten-2009-adhd-neuroscience]: Arnsten AF. Toward a new understanding of ADHD pathophysiology: an important role for prefrontal cortex dysfunction. *CNS Drugs.* 2009;23(Suppl 1):33-41. [doi:10.2165/00023210-200923000-00005](https://doi.org/10.2165/00023210-200923000-00005) · [PubMed 19621976](https://pubmed.ncbi.nlm.nih.gov/19621976/)

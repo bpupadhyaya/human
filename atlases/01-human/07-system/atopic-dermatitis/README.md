@@ -223,6 +223,15 @@ cross_links:
   - target: 01-human/07-system/cardiovascular-system
     relation: connects-to
     note: "Chronic skin inflammation reaches the vessels: severe atopic dermatitis carries a modestly increased cardiovascular risk attributed to its sustained systemic inflammation."
+  - target: 01-human/07-system/digestive-system
+    relation: connects-to
+    note: "Part of the atopic march: atopic dermatitis predisposes to food allergy and eosinophilic oesophagitis, and an impaired gut barrier interacts with the same allergic immune drive."
+  - target: 03-medicine/01-modern/02-respiratory/corticosteroids
+    relation: connects-to
+    note: "First-line calms the flare: topical corticosteroids are the mainstay of treatment, with short courses of systemic steroids reserved for severe disease despite their skin-thinning and rebound risks."
+  - target: 02-pathogen/01-viruses/coxsackievirus-b
+    relation: connects-to
+    note: "A broken barrier invites viral spread: atopic skin is prone to eczema coxsackium, a widespread eruption when Coxsackie virus disseminates across the damaged skin, akin to eczema herpeticum."
 ---
 
 # Atopic Dermatitis
@@ -414,6 +423,9 @@ S. aureus colonizes >90% of AD lesional skin (vs. 20% normal skin):
 - `connects-to` → **[Respiratory System](../respiratory-system/README.md)** — It begins the atopic march: infant atopic dermatitis predicts later asthma and allergic rhinitis, sharing the type 2 IL-4/IL-13 inflammation that dupilumab now treats across both.
 - `connects-to` → **[Lymphatic System](../lymphatic-system/README.md)** — Widespread disease swells the nodes: erythrodermic and extensive atopic dermatitis causes dermatopathic lymphadenopathy, and barrier breakdown lets infection drain to and inflame the lymph nodes.
 - `connects-to` → **[Cardiovascular System](../cardiovascular-system/README.md)** — Chronic skin inflammation reaches the vessels: severe atopic dermatitis carries a modestly increased cardiovascular risk attributed to its sustained systemic inflammation.
+- `connects-to` → **[Digestive System](../digestive-system/README.md)** — Part of the atopic march: atopic dermatitis predisposes to food allergy and eosinophilic oesophagitis, and an impaired gut barrier interacts with the same allergic immune drive.
+- `connects-to` → **[Corticosteroids](../../../03-medicine/01-modern/02-respiratory/corticosteroids/README.md)** — First-line calms the flare: topical corticosteroids are the mainstay of treatment, with short courses of systemic steroids reserved for severe disease despite their skin-thinning and rebound risks.
+- `connects-to` → **[Coxsackievirus B](../../../02-pathogen/01-viruses/coxsackievirus-b/README.md)** — A broken barrier invites viral spread: atopic skin is prone to eczema coxsackium, a widespread eruption when Coxsackie virus disseminates across the damaged skin, akin to eczema herpeticum.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
