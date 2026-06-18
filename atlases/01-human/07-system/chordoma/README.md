@@ -223,6 +223,15 @@ cross_links:
   - target: 01-human/07-system/respiratory-system
     relation: connects-to
     note: "Late disease reaches the lungs: although chordoma is mainly locally destructive, advanced tumours can metastasise to the lungs over their slow, relentless course."
+  - target: 01-human/07-system/integumentary-system
+    relation: connects-to
+    note: "Sacral tumours reach the skin: a large sacrococcygeal chordoma can bulge beneath and ulcerate the overlying skin, and its extensive resection leaves difficult wounds to heal."
+  - target: 01-human/07-system/lymphatic-system
+    relation: connects-to
+    note: "It can spread to nodes late: though chordoma chiefly recurs locally, advanced disease occasionally metastasises to lymph nodes as well as lung and bone."
+  - target: 02-pathogen/02-bacteria/streptococcus-pneumoniae
+    relation: connects-to
+    note: "Skull-base surgery risks meningitis: resecting a clival chordoma can cause a cerebrospinal-fluid leak, opening a route for bacterial meningitis from organisms such as Streptococcus pneumoniae."
 ---
 
 # Chordoma
@@ -426,6 +435,9 @@ CDKN2A deletion in ~30-40% → CDK4/6 hyperactivation → RB1 phosphorylation; p
 - `connects-to` → **[Renal System](../renal-system/README.md)** — Sacral tumours wreck pelvic nerve control: a sacral chordoma and its resection damage the sacral nerve roots, causing neurogenic bladder and bowel dysfunction and incontinence.
 - `connects-to` → **[Cardiovascular System](../cardiovascular-system/README.md)** — Skull-base tumours wrap the great arteries: clival chordoma encases the carotid and vertebral arteries, making resection hazardous and risking stroke from vessel injury.
 - `connects-to` → **[Respiratory System](../respiratory-system/README.md)** — Late disease reaches the lungs: although chordoma is mainly locally destructive, advanced tumours can metastasise to the lungs over their slow, relentless course.
+- `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — Sacral tumours reach the skin: a large sacrococcygeal chordoma can bulge beneath and ulcerate the overlying skin, and its extensive resection leaves difficult wounds to heal.
+- `connects-to` → **[Lymphatic System](../lymphatic-system/README.md)** — It can spread to nodes late: though chordoma chiefly recurs locally, advanced disease occasionally metastasises to lymph nodes as well as lung and bone.
+- `connects-to` → **[Streptococcus pneumoniae](../../../02-pathogen/02-bacteria/streptococcus-pneumoniae/README.md)** — Skull-base surgery risks meningitis: resecting a clival chordoma can cause a cerebrospinal-fluid leak, opening a route for bacterial meningitis from organisms such as Streptococcus pneumoniae.
 
 ---
 

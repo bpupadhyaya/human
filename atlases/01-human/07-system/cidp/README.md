@@ -231,6 +231,15 @@ cross_links:
   - target: 01-human/07-system/cardiovascular-system
     relation: connects-to
     note: "Its treatments strain the circulation: IVIG carries thromboembolic and volume-overload risks, and long-term corticosteroids used in CIDP add hypertension and fluid retention."
+  - target: 03-medicine/01-modern/02-respiratory/corticosteroids
+    relation: connects-to
+    note: "A first-line immunotherapy: unlike Guillain-Barré, CIDP responds to corticosteroids, used with IVIG and plasma exchange to suppress the autoimmune attack on myelin."
+  - target: 01-human/07-system/lymphatic-system
+    relation: connects-to
+    note: "It travels with paraproteins: CIDP-like neuropathies arise with MGUS and lymphoplasmacytic disorders, and its treatment leans on immunoglobulin pooled from the lymphoid system."
+  - target: 01-human/07-system/reproductive-system
+    relation: connects-to
+    note: "Pregnancy can flare it: CIDP often worsens during pregnancy and the puerperium, and the immunosuppressants used to control it complicate reproductive planning."
 ---
 
 # CIDP
@@ -444,6 +453,9 @@ IgG4 anti-NF155 or anti-CNTN1 disrupts this complex → paranodal loop detachmen
 - `connects-to` → **[Respiratory System](../respiratory-system/README.md)** — Severe disease can weaken breathing: although milder than Guillain-Barré, severe or acute-onset CIDP can involve the respiratory muscles and occasionally require ventilatory support.
 - `connects-to` → **[Renal System](../renal-system/README.md)** — Its immunoglobulin therapy can injure the kidney: intravenous immunoglobulin, a mainstay CIDP treatment, can cause acute kidney injury, particularly with older sucrose-stabilised preparations.
 - `connects-to` → **[Cardiovascular System](../cardiovascular-system/README.md)** — Its treatments strain the circulation: IVIG carries thromboembolic and volume-overload risks, and long-term corticosteroids used in CIDP add hypertension and fluid retention.
+- `connects-to` → **[Corticosteroids](../../../03-medicine/01-modern/02-respiratory/corticosteroids/README.md)** — A first-line immunotherapy: unlike Guillain-Barré, CIDP responds to corticosteroids, used with IVIG and plasma exchange to suppress the autoimmune attack on myelin.
+- `connects-to` → **[Lymphatic System](../lymphatic-system/README.md)** — It travels with paraproteins: CIDP-like neuropathies arise with MGUS and lymphoplasmacytic disorders, and its treatment leans on immunoglobulin pooled from the lymphoid system.
+- `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — Pregnancy can flare it: CIDP often worsens during pregnancy and the puerperium, and the immunosuppressants used to control it complicate reproductive planning.
 
 ---
 
