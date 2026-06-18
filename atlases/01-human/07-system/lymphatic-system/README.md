@@ -221,6 +221,15 @@ cross_links:
   - target: 01-human/07-system/renal-system
     relation: connects-to
     note: "A hidden network drains the kidney: a rich renal lymphatic system clears interstitial fluid and protein from the kidney, and when overwhelmed it contributes to the oedema of nephrotic syndrome."
+  - target: 02-pathogen/04-parasites/toxoplasma-gondii
+    relation: connects-to
+    note: "A classic cause of swollen nodes: toxoplasmosis typically presents with painless cervical lymphadenopathy, a common reactive enlargement of the lymphatic system."
+  - target: 03-medicine/03-food/omega-3-fatty-acids
+    relation: connects-to
+    note: "The lymphatics absorb dietary fat: long-chain fats and fat-soluble vitamins enter specialised intestinal lacteals as chyle rather than the portal blood, carried by the lymphatic system to the circulation."
+  - target: 01-human/07-system/waldenstrom-macroglobulinemia
+    relation: connects-to
+    note: "A lymphoid malignancy of the system: Waldenström macroglobulinaemia is a lymphoplasmacytic lymphoma that infiltrates lymph nodes, spleen and marrow, secreting IgM that thickens the blood."
 ---
 
 # Lymphatic System
@@ -398,6 +407,9 @@ Enterocytes package dietary triglycerides + cholesterol + apoB-48 into chylomicr
 - `connects-to` → **[Nervous System](../nervous-system/README.md)** — The brain has its own drainage: the glymphatic system and newly-discovered meningeal lymphatic vessels clear cerebrospinal fluid and waste to cervical lymph nodes, linking the lymphatic and nervous systems.
 - `connects-to` → **[Endocrine System](../endocrine-system/README.md)** — The thymus is a lymphoid and endocrine organ: this primary lymphoid organ where T cells mature also secretes thymic hormones, sitting at the crossroads of the lymphatic and endocrine systems.
 - `connects-to` → **[Renal System](../renal-system/README.md)** — A hidden network drains the kidney: a rich renal lymphatic system clears interstitial fluid and protein from the kidney, and when overwhelmed it contributes to the oedema of nephrotic syndrome.
+- `connects-to` → **[Toxoplasma gondii](../../../02-pathogen/04-parasites/toxoplasma-gondii/README.md)** — A classic cause of swollen nodes: toxoplasmosis typically presents with painless cervical lymphadenopathy, a common reactive enlargement of the lymphatic system.
+- `connects-to` → **[Omega-3 fatty acids](../../../03-medicine/03-food/omega-3-fatty-acids/README.md)** — The lymphatics absorb dietary fat: long-chain fats and fat-soluble vitamins enter specialised intestinal lacteals as chyle rather than the portal blood, carried by the lymphatic system to the circulation.
+- `connects-to` → **[Waldenström Macroglobulinemia](../waldenstrom-macroglobulinemia/README.md)** — A lymphoid malignancy of the system: Waldenström macroglobulinaemia is a lymphoplasmacytic lymphoma that infiltrates lymph nodes, spleen and marrow, secreting IgM that thickens the blood.
 
 ## Pathology
 

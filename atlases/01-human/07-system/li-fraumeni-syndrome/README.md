@@ -223,6 +223,15 @@ cross_links:
   - target: 01-human/07-system/integumentary-system
     relation: connects-to
     note: "Its radiosensitivity shows in the skin: radiotherapy can induce skin cancers in the irradiated field of Li-Fraumeni carriers, and melanoma is part of its broad tumour spectrum."
+  - target: 01-human/07-system/cardiovascular-system
+    relation: connects-to
+    note: "Treatment burdens the heart for life: many Li-Fraumeni cancers need anthracyclines whose cardiotoxicity compounds therapy in young patients, though radiation is minimised given their hypersensitivity."
+  - target: 01-human/07-system/digestive-system
+    relation: connects-to
+    note: "Its spectrum reaches the gut: Li-Fraumeni syndrome raises the risk of colorectal and gastric cancers from an early age, part of the broad TP53-driven tumour predisposition."
+  - target: 01-human/07-system/lymphatic-system
+    relation: connects-to
+    note: "It predisposes to blood cancers: leukaemia and lymphoma are part of the Li-Fraumeni spectrum, arising from the germline TP53 defect's genome-wide instability."
 ---
 
 # Li-Fraumeni Syndrome
@@ -442,6 +451,9 @@ Annual surveillance significantly reduces mortality in LFS carriers (Villani 201
 - `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — Bone and soft-tissue sarcomas are its hallmark: osteosarcoma and soft-tissue sarcomas arise in the bone and muscle of Li-Fraumeni carriers, often in childhood and at unusually young ages.
 - `connects-to` → **[Respiratory System](../respiratory-system/README.md)** — Radiation to the chest is hazardous: TP53 loss makes cells radiosensitive, so thoracic radiotherapy is avoided where possible as it induces second cancers, and lung adenocarcinoma is part of its spectrum.
 - `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — Its radiosensitivity shows in the skin: radiotherapy can induce skin cancers in the irradiated field of Li-Fraumeni carriers, and melanoma is part of its broad tumour spectrum.
+- `connects-to` → **[Cardiovascular System](../cardiovascular-system/README.md)** — Treatment burdens the heart for life: many Li-Fraumeni cancers need anthracyclines whose cardiotoxicity compounds therapy in young patients, though radiation is minimised given their hypersensitivity.
+- `connects-to` → **[Digestive System](../digestive-system/README.md)** — Its spectrum reaches the gut: Li-Fraumeni syndrome raises the risk of colorectal and gastric cancers from an early age, part of the broad TP53-driven tumour predisposition.
+- `connects-to` → **[Lymphatic System](../lymphatic-system/README.md)** — It predisposes to blood cancers: leukaemia and lymphoma are part of the Li-Fraumeni spectrum, arising from the germline TP53 defect's genome-wide instability.
 
 [^bougeard-2015-lfs-chompret]: Bougeard G, Renaux-Petel M, Flaman JM, et al. Revisiting Li-Fraumeni Syndrome From TP53 Mutation Carriers. *J Clin Oncol.* 2015;33(21):2345-2352. [doi:10.1200/JCO.2014.59.5728](https://doi.org/10.1200/JCO.2014.59.5728) · [PubMed 26014290](https://pubmed.ncbi.nlm.nih.gov/26014290/)
 [^villani-2016-lfs-surveillance]: Villani A, Shore A, Wasserman JD, et al. Biochemical and imaging surveillance in germline TP53 mutation carriers with Li-Fraumeni syndrome: 11 year follow-up of a prospective observational study. *Lancet Oncol.* 2016;17(9):1295-1305. [doi:10.1016/S1470-2045(16)30249-2](https://doi.org/10.1016/S1470-2045(16)30249-2) · [PubMed 27501770](https://pubmed.ncbi.nlm.nih.gov/27501770/)
