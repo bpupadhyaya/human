@@ -232,6 +232,15 @@ cross_links:
   - target: 03-medicine/01-modern/12-anti-inflammatory/ibuprofen
     relation: connects-to
     note: "Pain control is a mainstay: NSAIDs like ibuprofen and stronger analgesics manage the recurrent abdominal pain of hereditary pancreatitis, though chronic use carries gastrointestinal and renal risk."
+  - target: 02-pathogen/02-bacteria/escherichia-coli
+    relation: connects-to
+    note: "Gut bacteria infect the dead tissue: in severe acute attacks, bacteria such as Escherichia coli translocate from the bowel to infect pancreatic necrosis, a life-threatening complication needing antibiotics and drainage."
+  - target: 03-medicine/01-modern/13-cancer/cancer-chemotherapy
+    relation: connects-to
+    note: "Its great late danger is pancreatic cancer: hereditary pancreatitis carries a markedly raised lifetime risk of pancreatic adenocarcinoma, which is treated with chemotherapy when it arises."
+  - target: 01-human/05-tissue/islet-of-langerhans
+    relation: connects-to
+    note: "Fibrosis destroys the islets: repeated inflammation scars the pancreas and obliterates the islets of Langerhans, producing the pancreatogenic (type 3c) diabetes that complicates hereditary pancreatitis."
 ---
 
 # Hereditary Pancreatitis
@@ -447,6 +456,9 @@ cross_links:
 - `connects-to` → **[Immune System](../immune-system/README.md)** — It must be told apart from autoimmune disease: recurrent hereditary pancreatitis can mimic autoimmune (IgG4-related) pancreatitis, and repeated attacks drive chronic inflammatory injury to the gland.
 - `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — It shapes family planning: as an autosomal-dominant PRSS1 disorder, hereditary pancreatitis raises genetic-counselling and prenatal questions for affected families.
 - `connects-to` → **[Ibuprofen](../../../03-medicine/01-modern/12-anti-inflammatory/ibuprofen/README.md)** — Pain control is a mainstay: NSAIDs like ibuprofen and stronger analgesics manage the recurrent abdominal pain of hereditary pancreatitis, though chronic use carries gastrointestinal and renal risk.
+- `connects-to` → **[Escherichia coli](../../../02-pathogen/02-bacteria/escherichia-coli/README.md)** — Gut bacteria infect the dead tissue: in severe acute attacks, bacteria such as Escherichia coli translocate from the bowel to infect pancreatic necrosis, a life-threatening complication needing antibiotics and drainage.
+- `connects-to` → **[Cancer Chemotherapy](../../../03-medicine/01-modern/13-cancer/cancer-chemotherapy/README.md)** — Its great late danger is pancreatic cancer: hereditary pancreatitis carries a markedly raised lifetime risk of pancreatic adenocarcinoma, which is treated with chemotherapy when it arises.
+- `connects-to` → **[Islet of Langerhans](../../05-tissue/islet-of-langerhans/README.md)** — Fibrosis destroys the islets: repeated inflammation scars the pancreas and obliterates the islets of Langerhans, producing the pancreatogenic (type 3c) diabetes that complicates hereditary pancreatitis.
 
 [^whitcomb-1996-prss1]: Whitcomb DC, Gorry MC, Preston RA, et al. Hereditary pancreatitis is caused by a mutation in the cationic trypsinogen gene. *Nat Genet.* 1996;14(2):141-145. [doi:10.1038/ng1096-141](https://doi.org/10.1038/ng1096-141) · [PubMed 8841182](https://pubmed.ncbi.nlm.nih.gov/8841182/)
 [^lowenfels-2001-hp-pdac]: Lowenfels AB, Maisonneuve P, DiMagno EP, et al. Hereditary pancreatitis and the risk of pancreatic cancer. *J Natl Cancer Inst.* 2001;93(1):26-31. [doi:10.1093/jnci/93.1.26](https://doi.org/10.1093/jnci/93.1.26) · [PubMed 11136838](https://pubmed.ncbi.nlm.nih.gov/11136838/)
