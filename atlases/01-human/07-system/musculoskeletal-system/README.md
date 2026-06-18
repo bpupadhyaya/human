@@ -215,6 +215,15 @@ cross_links:
   - target: 03-medicine/03-food/magnesium-dietary
     relation: connects-to
     note: "Magnesium underpins bone: most body magnesium is stored in bone, and it is required to activate vitamin D and regulate parathyroid hormone, so deficiency contributes to weak bones and muscle cramps."
+  - target: 03-medicine/01-modern/12-anti-inflammatory/ibuprofen
+    relation: connects-to
+    note: "NSAIDs are its mainstay painkiller: drugs like ibuprofen relieve the pain and inflammation of arthritis and injury, though gastric and renal side effects limit long-term use."
+  - target: 02-pathogen/02-bacteria/streptococcus-pyogenes
+    relation: connects-to
+    note: "Strep attacks muscle and joints: Streptococcus pyogenes causes necrotising fasciitis and pyomyositis, and triggers post-streptococcal reactive arthritis and rheumatic fever."
+  - target: 03-medicine/03-food/omega-3-fatty-acids
+    relation: connects-to
+    note: "Omega-3 fats calm inflamed joints: their anti-inflammatory effects are studied for joint pain and stiffness in rheumatoid and osteoarthritis."
 ---
 
 # Musculoskeletal System
@@ -417,6 +426,9 @@ Chronic exercise drives profound musculoskeletal remodelling [^guyton-hall]:
 - `connects-to` → **[Renal System](../renal-system/README.md)** — The kidney governs bone mineral: by controlling calcium, phosphate and active vitamin D, the kidneys keep the skeleton mineralised, so renal failure causes renal osteodystrophy with weakened, painful bones.
 - `connects-to` → **[Mycobacterium tuberculosis](../../../02-pathogen/02-bacteria/mycobacterium-tuberculosis/README.md)** — Tuberculosis can erode the skeleton: spinal TB (Pott's disease) destroys vertebrae and can cause gibbus deformity and cord compression, while tuberculous arthritis attacks large joints.
 - `connects-to` → **[Magnesium (Dietary)](../../../03-medicine/03-food/magnesium-dietary/README.md)** — Magnesium underpins bone: most body magnesium is stored in bone, and it is required to activate vitamin D and regulate parathyroid hormone, so deficiency contributes to weak bones and muscle cramps.
+- `connects-to` → **[Ibuprofen](../../../03-medicine/01-modern/12-anti-inflammatory/ibuprofen/README.md)** — NSAIDs are its mainstay painkiller: drugs like ibuprofen relieve the pain and inflammation of arthritis and injury, though gastric and renal side effects limit long-term use.
+- `connects-to` → **[Streptococcus pyogenes](../../../02-pathogen/02-bacteria/streptococcus-pyogenes/README.md)** — Strep attacks muscle and joints: Streptococcus pyogenes causes necrotising fasciitis and pyomyositis, and triggers post-streptococcal reactive arthritis and rheumatic fever.
+- `connects-to` → **[Omega-3 Fatty Acids](../../../03-medicine/03-food/omega-3-fatty-acids/README.md)** — Omega-3 fats calm inflamed joints: their anti-inflammatory effects are studied for joint pain and stiffness in rheumatoid and osteoarthritis.
 
 ## Pathology
 

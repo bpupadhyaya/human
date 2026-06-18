@@ -217,6 +217,15 @@ cross_links:
   - target: 01-human/07-system/digestive-system
     relation: connects-to
     note: "Years of transfusion poison the liver: repeated red-cell transfusions in MDS deposit iron in hepatocytes, causing iron-overload liver injury that iron chelation aims to prevent."
+  - target: 01-human/07-system/nervous-system
+    relation: connects-to
+    note: "Its low platelets and anaemia reach the brain: severe thrombocytopenia risks intracranial haemorrhage, and chronic anaemia causes fatigue and cognitive slowing."
+  - target: 01-human/07-system/respiratory-system
+    relation: connects-to
+    note: "Failing marrow exposes the lungs: neutropenia invites bacterial and invasive fungal pneumonia, and repeated transfusion can cause circulatory overload or lung injury."
+  - target: 01-human/07-system/lymphatic-system
+    relation: connects-to
+    note: "Its autoinflammation can swell the nodes and spleen: MDS-associated systemic inflammation, including VEXAS syndrome, can cause lymphadenopathy, and overlap forms bring splenomegaly."
 ---
 
 # Myelodysplastic Syndromes
@@ -394,6 +403,9 @@ MDS → AML transformation rate: ~10% at 1 year for very-low risk; ~40-50% at 2 
 - `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — It erupts on the skin: MDS is a classic trigger of Sweet syndrome, a neutrophilic dermatosis of tender plaques, and other autoinflammatory eruptions, with leukaemia cutis if it transforms to AML.
 - `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — It overlaps systemic autoinflammation: MDS associates with VEXAS syndrome and relapsing polychondritis, producing inflammatory arthritis, chondritis and other rheumatic features alongside the cytopenias.
 - `connects-to` → **[Digestive System](../digestive-system/README.md)** — Years of transfusion poison the liver: repeated red-cell transfusions in MDS deposit iron in hepatocytes, causing iron-overload liver injury that iron chelation aims to prevent.
+- `connects-to` → **[Nervous System](../nervous-system/README.md)** — Its low platelets and anaemia reach the brain: severe thrombocytopenia risks intracranial haemorrhage, and chronic anaemia causes fatigue and cognitive slowing.
+- `connects-to` → **[Respiratory System](../respiratory-system/README.md)** — Failing marrow exposes the lungs: neutropenia invites bacterial and invasive fungal pneumonia, and repeated transfusion can cause circulatory overload or lung injury.
+- `connects-to` → **[Lymphatic System](../lymphatic-system/README.md)** — Its autoinflammation can swell the nodes and spleen: MDS-associated systemic inflammation, including VEXAS syndrome, can cause lymphadenopathy, and overlap forms bring splenomegaly.
 
 [^fenaux-2009-aza001]: Fenaux P, Mufti GJ, Hellstrom-Lindberg E, et al. Efficacy of azacitidine compared with conventional care regimens in patients with higher-risk myelodysplastic syndromes. *Lancet Oncol.* 2009;10(3):223-232. [doi:10.1016/S1470-2045(09)70003-8](https://doi.org/10.1016/S1470-2045(09)70003-8) · [PubMed 19230772](https://pubmed.ncbi.nlm.nih.gov/19230772/)
 [^fenaux-2020-medalist]: Fenaux P, Platzbecker U, Mufti GJ, et al. Luspatercept in patients with lower-risk myelodysplastic syndromes. *N Engl J Med.* 2020;382(2):140-151. [doi:10.1056/NEJMoa1908892](https://doi.org/10.1056/NEJMoa1908892) · [PubMed 31914241](https://pubmed.ncbi.nlm.nih.gov/31914241/)
