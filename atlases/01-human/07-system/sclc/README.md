@@ -232,6 +232,15 @@ cross_links:
   - target: 01-human/07-system/reproductive-system
     relation: connects-to
     note: "Treatment threatens fertility: the intensive platinum chemotherapy for small cell lung cancer can impair fertility, and the cancer rarely metastasises to the ovaries."
+  - target: 03-medicine/01-modern/13-cancer/cancer-chemotherapy
+    relation: connects-to
+    note: "Platinum-etoposide is the backbone: SCLC is exquisitely chemosensitive at first, with platinum-etoposide producing rapid responses, but it almost always relapses within months as chemoresistant disease, when topotecan or lurbinectedin follow."
+  - target: 01-human/07-system/myasthenia-gravis
+    relation: connects-to
+    note: "It triggers Lambert-Eaton: about half of Lambert-Eaton myasthenic syndrome is paraneoplastic to SCLC, with anti-VGCC antibodies causing proximal weakness that improves with use — the mirror image of, and key differential for, myasthenia gravis."
+  - target: 03-medicine/01-modern/13-cancer/checkpoint-inhibitors
+    relation: connects-to
+    note: "First-line immunotherapy adds months: adding atezolizumab or durvalumab to chemotherapy and continuing it as maintenance is now standard in extensive-stage SCLC, giving a real but modest survival gain that proves durable in only a minority."
 ---
 
 # Small Cell Lung Cancer
@@ -413,6 +422,9 @@ SCLC has highest rate of brain metastases among solid tumors (~50% at 2 years); 
 - `connects-to` → **[Targeted Therapy](../../../03-medicine/01-modern/13-cancer/targeted-therapy/README.md)** — Immunotherapy joined its chemo: checkpoint inhibitors such as atezolizumab and durvalumab added to platinum-etoposide chemotherapy modestly extend survival in small cell lung cancer.
 - `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — It signals through paraneoplastic skin signs: small cell lung cancer can cause dermatomyositis and acanthosis nigricans, cutaneous clues to the underlying tumour.
 - `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — Treatment threatens fertility: the intensive platinum chemotherapy for small cell lung cancer can impair fertility, and the cancer rarely metastasises to the ovaries.
+- `connects-to` → **[Cancer Chemotherapy](../../../03-medicine/01-modern/13-cancer/cancer-chemotherapy/README.md)** — Platinum-etoposide is the backbone: SCLC is exquisitely chemosensitive at first, with platinum-etoposide producing rapid responses, but it almost always relapses within months as chemoresistant disease, when topotecan or lurbinectedin follow.
+- `connects-to` → **[Myasthenia Gravis](../myasthenia-gravis/README.md)** — It triggers Lambert-Eaton: about half of Lambert-Eaton myasthenic syndrome is paraneoplastic to SCLC, with anti-VGCC antibodies causing proximal weakness that improves with use — the mirror image of, and key differential for, myasthenia gravis.
+- `connects-to` → **[Checkpoint Inhibitors](../../../03-medicine/01-modern/13-cancer/checkpoint-inhibitors/README.md)** — First-line immunotherapy adds months: adding atezolizumab or durvalumab to chemotherapy and continuing it as maintenance is now standard in extensive-stage SCLC, giving a real but modest survival gain that proves durable in only a minority.
 
 [^horn-2018-impower133]: Horn L, Mansfield AS, Szczęsna A, et al. First-line atezolizumab plus chemotherapy in extensive-stage small-cell lung cancer. *N Engl J Med.* 2018;379(23):2220-2229. [doi:10.1056/NEJMoa1809064](https://doi.org/10.1056/NEJMoa1809064) · [PubMed 30280641](https://pubmed.ncbi.nlm.nih.gov/30280641/)
 [^paz-ares-2019-caspian]: Paz-Ares L, Dvorkin M, Chen Y, et al. Durvalumab plus platinum-etoposide versus platinum-etoposide in first-line treatment of extensive-stage small-cell lung cancer (CASPIAN). *Lancet.* 2019;394(10212):1929-1939. [doi:10.1016/S0140-6736(19)32222-6](https://doi.org/10.1016/S0140-6736(19)32222-6) · [PubMed 31590988](https://pubmed.ncbi.nlm.nih.gov/31590988/)

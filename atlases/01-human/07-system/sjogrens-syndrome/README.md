@@ -238,6 +238,15 @@ cross_links:
   - target: 03-medicine/03-food/omega-3-fatty-acids
     relation: connects-to
     note: "Diet is tried for the dryness: omega-3 supplementation is studied for the dry-eye symptoms of Sjögren's, with modest and inconsistent benefit."
+  - target: 03-medicine/01-modern/13-cancer/cancer-chemotherapy
+    relation: connects-to
+    note: "Its lymphomas need chemo: Sjögren's carries the highest lymphoma risk of any autoimmune disease, and the MALT and diffuse large B-cell lymphomas it spawns are treated with rituximab-based chemotherapy, while cyclophosphamide handles severe systemic disease."
+  - target: 03-medicine/01-modern/13-cancer/targeted-therapy
+    relation: connects-to
+    note: "B-cell-directed biologics: because Sjögren is driven by BAFF-fuelled autoreactive B cells, anti-CD20 rituximab, anti-BAFF agents and JAK inhibitors are used or trialled for its systemic and glandular manifestations."
+  - target: 01-human/05-tissue/fibrosis
+    relation: connects-to
+    note: "It scars the lung: Sjögren's syndrome causes interstitial lung disease, usually a non-specific interstitial pneumonia pattern, where chronic lymphocytic inflammation lays down pulmonary fibrosis that stiffens the lungs and impairs gas exchange."
 ---
 
 # Sjögren's Syndrome
@@ -441,6 +450,9 @@ Sjögren's syndrome can occur:
 - `connects-to` → **[Corticosteroids](../../../03-medicine/01-modern/02-respiratory/corticosteroids/README.md)** — Steroids treat its systemic flares: while dryness is managed with substitutes, corticosteroids and immunosuppressants control the extraglandular vasculitis, arthritis and organ involvement of Sjögren's.
 - `connects-to` → **[Epstein-Barr Virus](../../../02-pathogen/01-viruses/epstein-barr-virus/README.md)** — A virus implicated in its biology: EBV is found in Sjögren's salivary glands and is linked to the chronic B-cell activation that drives both the autoimmunity and its MALT-lymphoma risk.
 - `connects-to` → **[Omega-3 fatty acids](../../../03-medicine/03-food/omega-3-fatty-acids/README.md)** — Diet is tried for the dryness: omega-3 supplementation is studied for the dry-eye symptoms of Sjögren's, with modest and inconsistent benefit.
+- `connects-to` → **[Cancer Chemotherapy](../../../03-medicine/01-modern/13-cancer/cancer-chemotherapy/README.md)** — Its lymphomas need chemo: Sjögren's carries the highest lymphoma risk of any autoimmune disease, and the MALT and diffuse large B-cell lymphomas it spawns are treated with rituximab-based chemotherapy, while cyclophosphamide handles severe systemic disease.
+- `connects-to` → **[Targeted Therapy](../../../03-medicine/01-modern/13-cancer/targeted-therapy/README.md)** — B-cell-directed biologics: because Sjögren is driven by BAFF-fuelled autoreactive B cells, anti-CD20 rituximab, anti-BAFF agents and JAK inhibitors are used or trialled for its systemic and glandular manifestations.
+- `connects-to` → **[Fibrosis](../../05-tissue/fibrosis/README.md)** — It scars the lung: Sjögren's syndrome causes interstitial lung disease, usually a non-specific interstitial pneumonia pattern, where chronic lymphocytic inflammation lays down pulmonary fibrosis that stiffens the lungs and impairs gas exchange.
 
 ---
 
