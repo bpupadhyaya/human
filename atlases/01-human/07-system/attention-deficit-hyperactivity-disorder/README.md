@@ -223,6 +223,15 @@ cross_links:
   - target: 01-human/07-system/panic-disorder
     relation: connects-to
     note: "Anxiety rides alongside it: panic and anxiety disorders are frequently comorbid with ADHD, and the stimulants used to treat it can provoke or worsen panic attacks, complicating management."
+  - target: 01-human/07-system/renal-system
+    relation: connects-to
+    note: "It often comes with bedwetting: nocturnal enuresis and daytime urinary incontinence are markedly more common in children with ADHD, reflecting shared maturational and attentional factors."
+  - target: 01-human/07-system/immune-system
+    relation: connects-to
+    note: "It clusters with allergy and autoimmunity: ADHD is associated with atopic and allergic conditions and shows links to immune dysregulation and low-grade inflammation."
+  - target: 01-human/07-system/integumentary-system
+    relation: connects-to
+    note: "It touches the skin: ADHD co-occurs with atopic dermatitis and with chronic skin-picking, and stimulant-related formication can drive scratching and excoriation."
 ---
 
 # Attention-Deficit/Hyperactivity Disorder
@@ -437,6 +446,9 @@ ADHD is a clinical diagnosis requiring [^biederman-2005-adhd-adults]:
 - `connects-to` → **[Endocrine System](../endocrine-system/README.md)** — Its stimulant treatment touches growth: appetite-suppressing stimulants can modestly slow height and weight gain in children with ADHD, prompting growth monitoring, and they raise heart rate and blood pressure.
 - `connects-to` → **[Digestive System](../digestive-system/README.md)** — Stimulants curb appetite and upset the gut: the medications for ADHD commonly cause appetite suppression with weight loss, nausea and abdominal pain, complicating nutrition in growing children.
 - `connects-to` → **[Panic Disorder](../panic-disorder/README.md)** — Anxiety rides alongside it: panic and anxiety disorders are frequently comorbid with ADHD, and the stimulants used to treat it can provoke or worsen panic attacks, complicating management.
+- `connects-to` → **[Renal System](../renal-system/README.md)** — It often comes with bedwetting: nocturnal enuresis and daytime urinary incontinence are markedly more common in children with ADHD, reflecting shared maturational and attentional factors.
+- `connects-to` → **[Immune System](../immune-system/README.md)** — It clusters with allergy and autoimmunity: ADHD is associated with atopic and allergic conditions and shows links to immune dysregulation and low-grade inflammation.
+- `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — It touches the skin: ADHD co-occurs with atopic dermatitis and with chronic skin-picking, and stimulant-related formication can drive scratching and excoriation.
 
 [^faraone-2021-adhd-primer]: Faraone SV, Banaschewski T, Coghill D, et al. The World Federation of ADHD International Consensus Statement: 208 Evidence-based conclusions about the disorder. *Neurosci Biobehav Rev.* 2021;128:789-818. [doi:10.1016/j.neubiorev.2021.01.022](https://doi.org/10.1016/j.neubiorev.2021.01.022) · [PubMed 33549739](https://pubmed.ncbi.nlm.nih.gov/33549739/)
 [^arnsten-2009-adhd-neuroscience]: Arnsten AF. Toward a new understanding of ADHD pathophysiology: an important role for prefrontal cortex dysfunction. *CNS Drugs.* 2009;23(Suppl 1):33-41. [doi:10.2165/00023210-200923000-00005](https://doi.org/10.2165/00023210-200923000-00005) · [PubMed 19621976](https://pubmed.ncbi.nlm.nih.gov/19621976/)

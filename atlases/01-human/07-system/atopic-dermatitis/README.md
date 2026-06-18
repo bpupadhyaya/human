@@ -214,6 +214,15 @@ cross_links:
   - target: 01-human/07-system/endocrine-system
     relation: connects-to
     note: "Its steroid treatment reaches the glands: prolonged topical and systemic corticosteroids for severe atopic dermatitis can suppress the adrenal axis and, in children, blunt growth."
+  - target: 01-human/07-system/respiratory-system
+    relation: connects-to
+    note: "It begins the atopic march: infant atopic dermatitis predicts later asthma and allergic rhinitis, sharing the type 2 IL-4/IL-13 inflammation that dupilumab now treats across both."
+  - target: 01-human/07-system/lymphatic-system
+    relation: connects-to
+    note: "Widespread disease swells the nodes: erythrodermic and extensive atopic dermatitis causes dermatopathic lymphadenopathy, and barrier breakdown lets infection drain to and inflame the lymph nodes."
+  - target: 01-human/07-system/cardiovascular-system
+    relation: connects-to
+    note: "Chronic skin inflammation reaches the vessels: severe atopic dermatitis carries a modestly increased cardiovascular risk attributed to its sustained systemic inflammation."
 ---
 
 # Atopic Dermatitis
@@ -402,6 +411,9 @@ S. aureus colonizes >90% of AD lesional skin (vs. 20% normal skin):
 - `connects-to` → **[Immune System](../immune-system/README.md)** — It is a Th2 immune disease: atopic dermatitis is driven by type-2 inflammation with IL-4 and IL-13, the basis of the atopic march and the target of biologics like dupilumab.
 - `connects-to` → **[Herpesviridae](../../../02-pathogen/01-viruses/herpesvirus/README.md)** — Herpes can race across broken skin: HSV infecting eczematous skin causes eczema herpeticum, a rapidly spreading, painful vesicular eruption that is a dermatological emergency in atopic dermatitis.
 - `connects-to` → **[Endocrine System](../endocrine-system/README.md)** — Its steroid treatment reaches the glands: prolonged topical and systemic corticosteroids for severe atopic dermatitis can suppress the adrenal axis and, in children, blunt growth.
+- `connects-to` → **[Respiratory System](../respiratory-system/README.md)** — It begins the atopic march: infant atopic dermatitis predicts later asthma and allergic rhinitis, sharing the type 2 IL-4/IL-13 inflammation that dupilumab now treats across both.
+- `connects-to` → **[Lymphatic System](../lymphatic-system/README.md)** — Widespread disease swells the nodes: erythrodermic and extensive atopic dermatitis causes dermatopathic lymphadenopathy, and barrier breakdown lets infection drain to and inflame the lymph nodes.
+- `connects-to` → **[Cardiovascular System](../cardiovascular-system/README.md)** — Chronic skin inflammation reaches the vessels: severe atopic dermatitis carries a modestly increased cardiovascular risk attributed to its sustained systemic inflammation.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
