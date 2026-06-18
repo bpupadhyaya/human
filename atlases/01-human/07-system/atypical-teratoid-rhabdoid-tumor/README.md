@@ -241,6 +241,15 @@ cross_links:
   - target: 01-human/07-system/ewing-sarcoma
     relation: connects-to
     note: "A fellow aggressive childhood tumour: like Ewing sarcoma, AT/RT is a highly malignant paediatric cancer driven by a single defining genetic lesion, and the two enter the small-round-blue-cell differential."
+  - target: 03-medicine/01-modern/13-cancer/car-t
+    relation: connects-to
+    note: "Engineered cells are being aimed at it: CAR-T and related cell therapies against targets like B7-H3, delivered intrathecally for CNS tumours, are investigational for the dismal-prognosis rhabdoid tumours including AT/RT."
+  - target: 03-medicine/01-modern/13-cancer/checkpoint-inhibitors
+    relation: connects-to
+    note: "Immunotherapy has limited reach: despite a low mutational burden, some rhabdoid tumours carry immune infiltrate, so checkpoint inhibitors are explored in AT/RT, though responses so far are modest."
+  - target: 01-human/05-tissue/hippocampus
+    relation: connects-to
+    note: "Craniospinal radiation scars cognition: the intensive radiotherapy needed to control AT/RT, especially craniospinal irradiation in older children, injures the hippocampus and leaves survivors with lasting neurocognitive deficits."
 ---
 
 # Atypical Teratoid/Rhabdoid Tumor
@@ -434,6 +443,9 @@ AT/RT has no established standard of care; protocols are protocol-driven and cen
 - `connects-to` → **[Cancer Chemotherapy](../../../03-medicine/01-modern/13-cancer/cancer-chemotherapy/README.md)** — Intensive chemo is the backbone: AT/RT is treated with aggressive multi-agent chemotherapy, sometimes high-dose with stem-cell rescue, given its poor prognosis in very young children.
 - `connects-to` → **[Targeted Therapy](../../../03-medicine/01-modern/13-cancer/targeted-therapy/README.md)** — Epigenetic drugs target the defect: because SMARCB1 loss unleashes EZH2, EZH2 inhibitors such as tazemetostat and CDK4/6 inhibitors are being trialled against rhabdoid tumours.
 - `connects-to` → **[Ewing Sarcoma](../ewing-sarcoma/README.md)** — A fellow aggressive childhood tumour: like Ewing sarcoma, AT/RT is a highly malignant paediatric cancer driven by a single defining genetic lesion, and the two enter the small-round-blue-cell differential.
+- `connects-to` → **[CAR-T](../../../03-medicine/01-modern/13-cancer/car-t/README.md)** — Engineered cells are being aimed at it: CAR-T and related cell therapies against targets like B7-H3, delivered intrathecally for CNS tumours, are investigational for the dismal-prognosis rhabdoid tumours including AT/RT.
+- `connects-to` → **[Checkpoint Inhibitors](../../../03-medicine/01-modern/13-cancer/checkpoint-inhibitors/README.md)** — Immunotherapy has limited reach: despite a low mutational burden, some rhabdoid tumours carry immune infiltrate, so checkpoint inhibitors are explored in AT/RT, though responses so far are modest.
+- `connects-to` → **[Hippocampus](../../05-tissue/hippocampus/README.md)** — Craniospinal radiation scars cognition: the intensive radiotherapy needed to control AT/RT, especially craniospinal irradiation in older children, injures the hippocampus and leaves survivors with lasting neurocognitive deficits.
 
 ---
 

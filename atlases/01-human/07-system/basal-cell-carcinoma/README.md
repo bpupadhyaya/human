@@ -241,6 +241,15 @@ cross_links:
   - target: 01-human/07-system/hnscc
     relation: connects-to
     note: "Carcinogen field cancerisation links them: as tobacco and alcohol field-damage the head-and-neck mucosa, UV field damage of sun-exposed skin produces multiple basal cell carcinomas across a damaged field."
+  - target: 03-medicine/01-modern/13-cancer/cancer-chemotherapy
+    relation: connects-to
+    note: "Topical chemotherapy, not systemic: superficial basal cell carcinoma is treated with topical 5-fluorouracil, but the tumour is otherwise chemoresistant, relying on surgery, Hedgehog inhibitors and immunotherapy rather than systemic cytotoxics."
+  - target: 01-human/05-tissue/cortical-bone
+    relation: connects-to
+    note: "It invades bone, and Gorlin deforms it: neglected aggressive basal cell carcinoma erodes into underlying cartilage and bone, while the Gorlin syndrome that spawns multiple BCCs also causes jaw keratocysts and skeletal anomalies."
+  - target: 01-human/05-tissue/lung-slice
+    relation: connects-to
+    note: "Rare metastasis seeks the lung: although basal cell carcinoma almost never spreads, the exceptional metastasising BCC seeds the lungs and bones, marking the small subset with lethal potential."
 ---
 
 # Basal Cell Carcinoma
@@ -437,6 +446,9 @@ BCC has a complex immune microenvironment:
 - `connects-to` → **[Targeted Therapy](../../../03-medicine/01-modern/13-cancer/targeted-therapy/README.md)** — Hedgehog inhibitors target its driver: vismodegib and sonidegib block SMO in the constitutively active Hedgehog pathway that causes basal cell carcinoma, used for advanced and Gorlin-related disease.
 - `connects-to` → **[Checkpoint Inhibitors](../../../03-medicine/01-modern/13-cancer/checkpoint-inhibitors/README.md)** — Immunotherapy follows Hedgehog failure: the anti-PD-1 antibody cemiplimab treats locally advanced or metastatic basal cell carcinoma after Hedgehog inhibitors stop working.
 - `connects-to` → **[HNSCC](../hnscc/README.md)** — Carcinogen field cancerisation links them: as tobacco and alcohol field-damage the head-and-neck mucosa, UV field damage of sun-exposed skin produces multiple basal cell carcinomas across a damaged field.
+- `connects-to` → **[Cancer Chemotherapy](../../../03-medicine/01-modern/13-cancer/cancer-chemotherapy/README.md)** — Topical chemotherapy, not systemic: superficial basal cell carcinoma is treated with topical 5-fluorouracil, but the tumour is otherwise chemoresistant, relying on surgery, Hedgehog inhibitors and immunotherapy rather than systemic cytotoxics.
+- `connects-to` → **[Cortical Bone](../../05-tissue/cortical-bone/README.md)** — It invades bone, and Gorlin deforms it: neglected aggressive basal cell carcinoma erodes into underlying cartilage and bone, while the Gorlin syndrome that spawns multiple BCCs also causes jaw keratocysts and skeletal anomalies.
+- `connects-to` → **[Lung Slice](../../05-tissue/lung-slice/README.md)** — Rare metastasis seeks the lung: although basal cell carcinoma almost never spreads, the exceptional metastasising BCC seeds the lungs and bones, marking the small subset with lethal potential.
 
 ---
 
