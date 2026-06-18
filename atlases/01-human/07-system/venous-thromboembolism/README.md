@@ -208,6 +208,15 @@ cross_links:
   - target: 01-human/07-system/osteoporosis
     relation: connects-to
     note: "Its long anticoagulation can cost bone: prolonged heparin used to treat venous thromboembolism, especially in pregnancy, lowers bone mineral density, a recognized treatment-related bone loss."
+  - target: 01-human/07-system/respiratory-system
+    relation: connects-to
+    note: "Half of it lands in the lungs: a deep-vein clot that breaks loose travels to the pulmonary arteries as pulmonary embolism, abruptly blocking gas exchange and straining the right heart, the lethal face of VTE."
+  - target: 01-human/07-system/digestive-system
+    relation: connects-to
+    note: "It clots the gut's veins and its drugs bleed it: VTE includes splanchnic, portal and mesenteric vein thrombosis threatening the bowel, while the anticoagulants treating it raise the risk of GI haemorrhage."
+  - target: 01-human/07-system/integumentary-system
+    relation: connects-to
+    note: "Old clots scar the skin: post-thrombotic syndrome after a DVT causes chronic venous stasis with pigmentation and leg ulcers, and warfarin can rarely cause acute skin necrosis."
 ---
 
 # Venous Thromboembolism
@@ -390,6 +399,9 @@ cross_links:
 - `connects-to` → **[Wound Healing](../wound-healing/README.md)** — Damaged veins leave chronic ulcers: deep vein thrombosis injures venous valves, and the resulting post-thrombotic syndrome and venous hypertension produce slow-healing venous leg ulcers.
 - `connects-to` → **[Gastric Cancer](../gastric-cancer/README.md)** — An unprovoked clot can herald hidden cancer: Trousseau's syndrome of migratory thrombosis points to occult malignancy, and adenocarcinomas like gastric cancer are classic culprits found on the ensuing search.
 - `connects-to` → **[Osteoporosis](../osteoporosis/README.md)** — Its long anticoagulation can cost bone: prolonged heparin used to treat venous thromboembolism, especially in pregnancy, lowers bone mineral density, a recognized treatment-related bone loss.
+- `connects-to` → **[Respiratory System](../respiratory-system/README.md)** — Half of it lands in the lungs: a deep-vein clot that breaks loose travels to the pulmonary arteries as pulmonary embolism, abruptly blocking gas exchange and straining the right heart, the lethal face of VTE.
+- `connects-to` → **[Digestive System](../digestive-system/README.md)** — It clots the gut's veins and its drugs bleed it: VTE includes splanchnic, portal and mesenteric vein thrombosis threatening the bowel, while the anticoagulants treating it raise the risk of GI haemorrhage.
+- `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — Old clots scar the skin: post-thrombotic syndrome after a DVT causes chronic venous stasis with pigmentation and leg ulcers, and warfarin can rarely cause acute skin necrosis.
 
 [^agnelli-2013-amplify-apixaban-vte]: Agnelli G, Buller HR, Cohen A, et al. Oral apixaban for the treatment of acute venous thromboembolism. *N Engl J Med.* 2013;369(9):799-808. [doi:10.1056/NEJMoa1302507](https://doi.org/10.1056/NEJMoa1302507) · [PubMed 23808982](https://pubmed.ncbi.nlm.nih.gov/23808982/)
 [^bauersachs-2010-einstein-rivaroxaban]: EINSTEIN Investigators. Oral rivaroxaban for symptomatic venous thromboembolism. *N Engl J Med.* 2010;363(26):2499-2510. [doi:10.1056/NEJMoa1007903](https://doi.org/10.1056/NEJMoa1007903) · [PubMed 21128814](https://pubmed.ncbi.nlm.nih.gov/21128814/)

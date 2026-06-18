@@ -207,6 +207,15 @@ cross_links:
   - target: 01-human/07-system/stroke
     relation: connects-to
     note: "It carries a hidden clot risk: thalassemia, especially after splenectomy, is a hypercoagulable state with abnormal red cells and platelet activation that raises the risk of ischemic stroke."
+  - target: 01-human/07-system/digestive-system
+    relation: connects-to
+    note: "Iron overload and haemolysis hit the gut organs: transfusional iron scars the liver toward cirrhosis, chronic haemolysis forms pigment gallstones, and extramedullary haematopoiesis enlarges the spleen and liver."
+  - target: 01-human/07-system/integumentary-system
+    relation: connects-to
+    note: "Iron and anaemia mark the skin: transfusional iron overload bronzes the skin like haemochromatosis, and chronic anaemia and poor perfusion cause leg ulcers over the ankles."
+  - target: 01-human/07-system/generalized-anxiety-disorder
+    relation: connects-to
+    note: "A lifelong transfusion-dependent disease breeds worry: the endless transfusions, iron-chelation burden and inherited nature of thalassemia foster chronic health anxiety alongside depression."
 ---
 
 # Thalassemia
@@ -414,6 +423,9 @@ Untransfused or undertransfused β-thal major:
 - `connects-to` → **[Type 2 Diabetes](../type-2-diabetes/README.md)** — Transfusional iron poisons the pancreas: repeated transfusions in thalassemia deposit iron in the islets, and the resulting beta-cell damage produces a secondary diabetes that is a classic endocrine complication.
 - `connects-to` → **[Neisseria meningitidis](../../../02-pathogen/02-bacteria/neisseria-meningitidis/README.md)** — Splenectomy strips defense against encapsulated bacteria: many thalassemia patients undergo splenectomy for hypersplenism, leaving them vulnerable to meningococcus and other encapsulated organisms.
 - `connects-to` → **[Stroke](../stroke/README.md)** — It carries a hidden clot risk: thalassemia, especially after splenectomy, is a hypercoagulable state with abnormal red cells and platelet activation that raises the risk of ischemic stroke.
+- `connects-to` → **[Digestive System](../digestive-system/README.md)** — Iron overload and haemolysis hit the gut organs: transfusional iron scars the liver toward cirrhosis, chronic haemolysis forms pigment gallstones, and extramedullary haematopoiesis enlarges the spleen and liver.
+- `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — Iron and anaemia mark the skin: transfusional iron overload bronzes the skin like haemochromatosis, and chronic anaemia and poor perfusion cause leg ulcers over the ankles.
+- `connects-to` → **[Generalized Anxiety Disorder](../generalized-anxiety-disorder/README.md)** — A lifelong transfusion-dependent disease breeds worry: the endless transfusions, iron-chelation burden and inherited nature of thalassemia foster chronic health anxiety alongside depression.
 
 [^weatherall-2008-thalassemia-review]: Weatherall DJ. The inherited diseases of hemoglobin are an emerging global health burden. *Blood.* 2010;115(22):4331-4336. [doi:10.1182/blood-2010-01-251348](https://doi.org/10.1182/blood-2010-01-251348) · [PubMed 20233970](https://pubmed.ncbi.nlm.nih.gov/20233970/)
 [^cappellini-2014-thalassemia-guidelines]: Cappellini MD, Cohen A, Porter J, et al. (eds). Guidelines for the Management of Transfusion Dependent Thalassaemia (TDT). 3rd ed. Thalassaemia International Federation; 2014.
