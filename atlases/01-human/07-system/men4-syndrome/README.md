@@ -205,6 +205,15 @@ cross_links:
   - target: 01-human/07-system/generalized-anxiety-disorder
     relation: connects-to
     note: "Lifelong tumor surveillance breeds worry: the constant biochemical and imaging screening for the multiple endocrine tumors of MEN4, and its hereditary nature, foster chronic health anxiety."
+  - target: 01-human/07-system/renal-system
+    relation: connects-to
+    note: "Its hyperparathyroidism stones the kidneys: the primary hyperparathyroidism that dominates MEN4 raises calcium and causes recurrent kidney stones and nephrocalcinosis threatening renal function."
+  - target: 01-human/07-system/nervous-system
+    relation: connects-to
+    note: "Its pituitary tumours press on the brain: MEN4 pituitary adenomas can compress the optic chiasm and surrounding structures, causing visual-field loss, headache and cranial-nerve palsies."
+  - target: 01-human/07-system/digestive-system
+    relation: connects-to
+    note: "Its pancreatic tumours ulcerate the gut: gastrinomas in MEN4 secrete gastrin to cause the refractory peptic ulcers of Zollinger-Ellison syndrome, alongside other gastroenteropancreatic NETs."
 ---
 
 # MEN4 Syndrome
@@ -379,6 +388,9 @@ When clinical MEN features are present:
 - `connects-to` → **[Hypertension](../hypertension/README.md)** — Its hormone-secreting tumors raise blood pressure: like MEN1, MEN4's primary hyperparathyroidism and functioning pituitary and neuroendocrine tumors contribute to secondary hypertension.
 - `connects-to` → **[Wound Healing](../wound-healing/README.md)** — Recurrent endocrine surgery taxes healing: the parathyroid, pituitary and pancreatic operations MEN4 requires leave repeated surgical wounds to heal over the patient's lifetime.
 - `connects-to` → **[Generalized Anxiety Disorder](../generalized-anxiety-disorder/README.md)** — Lifelong tumor surveillance breeds worry: the constant biochemical and imaging screening for the multiple endocrine tumors of MEN4, and its hereditary nature, foster chronic health anxiety.
+- `connects-to` → **[Renal System](../renal-system/README.md)** — Its hyperparathyroidism stones the kidneys: the primary hyperparathyroidism that dominates MEN4 raises calcium and causes recurrent kidney stones and nephrocalcinosis threatening renal function.
+- `connects-to` → **[Nervous System](../nervous-system/README.md)** — Its pituitary tumours press on the brain: MEN4 pituitary adenomas can compress the optic chiasm and surrounding structures, causing visual-field loss, headache and cranial-nerve palsies.
+- `connects-to` → **[Digestive System](../digestive-system/README.md)** — Its pancreatic tumours ulcerate the gut: gastrinomas in MEN4 secrete gastrin to cause the refractory peptic ulcers of Zollinger-Ellison syndrome, alongside other gastroenteropancreatic NETs.
 
 [^alrezk-2017-men4]: Alrezk R, Hannah-Shmouni F, Stratakis CA. MEN4 and CDKN1B mutations: the latest of the MEN syndromes. *Endocr Relat Cancer.* 2017;24(10):T195-T208. [doi:10.1530/ERC-17-0243](https://doi.org/10.1530/ERC-17-0243) · [PubMed 28894007](https://pubmed.ncbi.nlm.nih.gov/28894007/)
 [^pellegata-2006-cdkn1b-men4]: Pellegata NS, Quintanilla-Martinez L, Siggelkow H, et al. Germ-line mutations in p27Kip1 cause a multiple endocrine neoplasia syndrome in rats and humans. *Proc Natl Acad Sci USA.* 2006;103(42):15558-15563. [doi:10.1073/pnas.0603306103](https://doi.org/10.1073/pnas.0603306103) · [PubMed 17030811](https://pubmed.ncbi.nlm.nih.gov/17030811/)

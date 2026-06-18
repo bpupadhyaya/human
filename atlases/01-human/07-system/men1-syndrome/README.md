@@ -205,6 +205,15 @@ cross_links:
   - target: 01-human/07-system/generalized-anxiety-disorder
     relation: connects-to
     note: "Lifelong multi-organ surveillance breeds worry: the constant biochemical and imaging screening for the many tumors of MEN1, and the hereditary burden, foster chronic health anxiety."
+  - target: 01-human/07-system/renal-system
+    relation: connects-to
+    note: "Its hyperparathyroidism stones the kidneys: primary hyperparathyroidism, the commonest MEN1 feature, raises calcium and causes recurrent kidney stones and nephrocalcinosis that threaten renal function."
+  - target: 01-human/07-system/nervous-system
+    relation: connects-to
+    note: "Its pituitary tumours press on the brain: MEN1 pituitary adenomas can grow to compress the optic chiasm and cavernous sinus, causing visual-field loss, headache and cranial-nerve palsies."
+  - target: 01-human/07-system/musculoskeletal-system
+    relation: connects-to
+    note: "Parathyroid excess dissolves bone: the chronic hyperparathyroidism of MEN1 drives osteoclastic bone resorption toward osteitis fibrosa and fragility, beyond the osteoporosis it causes."
 ---
 
 # MEN1 Syndrome
@@ -387,6 +396,9 @@ Menin haploinsufficiency (one functional allele) creates susceptibility: cells a
 - `connects-to` → **[Hypertension](../hypertension/README.md)** — Its hormone-secreting tumors raise blood pressure: the primary hyperparathyroidism, pituitary Cushing's and functioning neuroendocrine tumors of MEN1 each contribute to secondary hypertension.
 - `connects-to` → **[Wound Healing](../wound-healing/README.md)** — Recurrent endocrine surgery taxes healing: the repeated parathyroid, pancreatic and pituitary operations MEN1 demands leave patients with multiple surgical wounds to heal over a lifetime.
 - `connects-to` → **[Generalized Anxiety Disorder](../generalized-anxiety-disorder/README.md)** — Lifelong multi-organ surveillance breeds worry: the constant biochemical and imaging screening for the many tumors of MEN1, and the hereditary burden, foster chronic health anxiety.
+- `connects-to` → **[Renal System](../renal-system/README.md)** — Its hyperparathyroidism stones the kidneys: primary hyperparathyroidism, the commonest MEN1 feature, raises calcium and causes recurrent kidney stones and nephrocalcinosis that threaten renal function.
+- `connects-to` → **[Nervous System](../nervous-system/README.md)** — Its pituitary tumours press on the brain: MEN1 pituitary adenomas can grow to compress the optic chiasm and cavernous sinus, causing visual-field loss, headache and cranial-nerve palsies.
+- `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — Parathyroid excess dissolves bone: the chronic hyperparathyroidism of MEN1 drives osteoclastic bone resorption toward osteitis fibrosa and fragility, beyond the osteoporosis it causes.
 
 ---
 
