@@ -213,6 +213,15 @@ cross_links:
   - target: 02-pathogen/02-bacteria/staphylococcus-aureus
     relation: connects-to
     note: "Neglect invites skin infection: pressure injuries and lapses in hygiene during gaming binges predispose to staphylococcal skin and soft-tissue infections."
+  - target: 03-medicine/01-modern/10-mental-health/fluoxetine
+    relation: connects-to
+    note: "Medication targets the comorbidity: SSRIs like fluoxetine, with cognitive behavioural therapy, treat the depression and anxiety that commonly accompany internet gaming disorder."
+  - target: 01-human/07-system/atherosclerosis
+    relation: connects-to
+    note: "Sedentary hours raise vascular risk: the prolonged sitting and disrupted sleep of internet gaming disorder contribute to obesity and the metabolic changes that drive atherosclerosis."
+  - target: 01-human/07-system/nash
+    relation: connects-to
+    note: "Sedentary excess reaches the liver: the inactivity and poor diet that accompany internet gaming disorder feed the obesity and insulin resistance underlying non-alcoholic steatohepatitis."
 sources:
   - id: kuss-2012-gaming-disorder-review
     type: peer-reviewed
@@ -452,6 +461,9 @@ A pattern of persistent or recurrent gaming behavior characterized by:
 - `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — Extreme sedentary binges mark the skin: prolonged sitting and self-neglect during marathon gaming can cause pressure sores and poor skin care in severe cases.
 - `connects-to` → **[Lymphatic System](../lymphatic-system/README.md)** — Sitting still stalls the body's fluids: prolonged immobility impairs venous and lymphatic return, contributing to leg swelling alongside the deep-vein thrombosis risk of marathon sessions.
 - `connects-to` → **[Staphylococcus aureus](../../../02-pathogen/02-bacteria/staphylococcus-aureus/README.md)** — Neglect invites skin infection: pressure injuries and lapses in hygiene during gaming binges predispose to staphylococcal skin and soft-tissue infections.
+- `connects-to` → **[Fluoxetine](../../../03-medicine/01-modern/10-mental-health/fluoxetine/README.md)** — Medication targets the comorbidity: SSRIs like fluoxetine, with cognitive behavioural therapy, treat the depression and anxiety that commonly accompany internet gaming disorder.
+- `connects-to` → **[Atherosclerosis](../atherosclerosis/README.md)** — Sedentary hours raise vascular risk: the prolonged sitting and disrupted sleep of internet gaming disorder contribute to obesity and the metabolic changes that drive atherosclerosis.
+- `connects-to` → **[NASH](../nash/README.md)** — Sedentary excess reaches the liver: the inactivity and poor diet that accompany internet gaming disorder feed the obesity and insulin resistance underlying non-alcoholic steatohepatitis.
 
 [^kuss-2012-gaming-disorder-review]: Kuss DJ, Griffiths MD. Internet gaming addiction: a systematic review of empirical research. *Int J Ment Health Addict.* 2012;10(2):278-296. [doi:10.1007/s11469-011-9318-5](https://doi.org/10.1007/s11469-011-9318-5)
 [^who-icd11-gaming-disorder]: World Health Organization. ICD-11: Gaming Disorder (6C51). Geneva: WHO; 2019. [icd.who.int](https://icd.who.int/browse/2025-01/mms/en#1448597234)
