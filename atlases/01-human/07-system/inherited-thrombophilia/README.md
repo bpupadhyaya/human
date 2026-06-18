@@ -214,6 +214,15 @@ cross_links:
   - target: 01-human/07-system/generalized-anxiety-disorder
     relation: connects-to
     note: "Lifelong clot risk and pregnancy worry breed anxiety: the threat of recurrent thrombosis, fear of pregnancy loss and the demands of indefinite anticoagulation foster chronic health anxiety alongside depression."
+  - target: 01-human/07-system/respiratory-system
+    relation: connects-to
+    note: "Its clots travel to the lungs: pulmonary embolism from a deep-vein thrombosis is the most life-threatening consequence of inherited thrombophilia, causing breathlessness, chest pain and sudden death."
+  - target: 01-human/07-system/integumentary-system
+    relation: connects-to
+    note: "Severe deficiency strikes the skin: profound protein C or S deficiency causes neonatal purpura fulminans, and starting warfarin can trigger warfarin-induced skin necrosis from transient protein C drop."
+  - target: 01-human/07-system/renal-system
+    relation: connects-to
+    note: "It can clot the renal veins: inherited thrombophilia predisposes to renal vein thrombosis, a risk compounded when nephrotic syndrome adds acquired antithrombin loss in the urine."
 ---
 
 # Inherited Thrombophilia
@@ -438,6 +447,9 @@ Antithrombin (ATIII) is the primary plasma inhibitor of thrombin, FXa, FIXa, and
 - `connects-to` → **[Digestive System](../digestive-system/README.md)** — It clots the veins draining the gut and liver: inherited thrombophilia is a leading cause of splanchnic, portal and mesenteric vein thrombosis and Budd-Chiari syndrome, threatening the bowel and liver.
 - `connects-to` → **[Nervous System](../nervous-system/README.md)** — It can clot the brain's veins: thrombophilia predisposes to cerebral venous sinus thrombosis, a stroke-like event causing headache, seizures and raised intracranial pressure, often in young patients.
 - `connects-to` → **[Generalized Anxiety Disorder](../generalized-anxiety-disorder/README.md)** — Lifelong clot risk and pregnancy worry breed anxiety: the threat of recurrent thrombosis, fear of pregnancy loss and the demands of indefinite anticoagulation foster chronic health anxiety alongside depression.
+- `connects-to` → **[Respiratory System](../respiratory-system/README.md)** — Its clots travel to the lungs: pulmonary embolism from a deep-vein thrombosis is the most life-threatening consequence of inherited thrombophilia, causing breathlessness, chest pain and sudden death.
+- `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — Severe deficiency strikes the skin: profound protein C or S deficiency causes neonatal purpura fulminans, and starting warfarin can trigger warfarin-induced skin necrosis from transient protein C drop.
+- `connects-to` → **[Renal System](../renal-system/README.md)** — It can clot the renal veins: inherited thrombophilia predisposes to renal vein thrombosis, a risk compounded when nephrotic syndrome adds acquired antithrombin loss in the urine.
 
 [^bertina-1994-factor-v-leiden]: Bertina RM, Koeleman BP, Koster T, et al. Mutation in blood coagulation factor V associated with resistance to activated protein C. *Nature.* 1994;369(6475):64-67. [doi:10.1038/369064a0](https://doi.org/10.1038/369064a0) · [PubMed 8164741](https://pubmed.ncbi.nlm.nih.gov/8164741/)
 [^dahlback-2008-protein-c-review]: Dahlbäck B. Advances in understanding pathogenic mechanisms of thrombophilic disorders. *Blood.* 2008;112(1):19-27. [doi:10.1182/blood-2008-01-077909](https://doi.org/10.1182/blood-2008-01-077909) · [PubMed 18574048](https://pubmed.ncbi.nlm.nih.gov/18574048/)

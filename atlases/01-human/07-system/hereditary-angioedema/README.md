@@ -214,6 +214,15 @@ cross_links:
   - target: 01-human/07-system/cardiovascular-system
     relation: connects-to
     note: "It runs on the bradykinin pathway shared with blood-pressure drugs: HAE swelling is bradykinin-mediated, so ACE inhibitors, which block bradykinin breakdown, are contraindicated and can precipitate severe attacks."
+  - target: 01-human/07-system/nervous-system
+    relation: connects-to
+    note: "It can rarely reach the brain: cerebral angioedema is an uncommon but serious HAE attack causing headache, seizures and transient neurological deficits, and bradykinin itself is a potent driver of pain."
+  - target: 01-human/07-system/renal-system
+    relation: connects-to
+    note: "Attacks can swell the urinary tract: bradykinin-mediated angioedema of the bladder and urethra during an HAE attack can cause painful dysuria and acute urinary retention."
+  - target: 01-human/07-system/musculoskeletal-system
+    relation: connects-to
+    note: "Deep limb attacks disable and deceive: HAE swelling of the hands, feet and limbs can be painful and disabling and is often mistaken for cellulitis, compartment syndrome or arthritis, delaying correct treatment."
 ---
 
 # Hereditary Angioedema
@@ -414,6 +423,9 @@ Fluid extravasation → ANGIOEDEMA
 - `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — Its hallmark is swelling of the skin: HAE produces recurrent non-itchy subcutaneous angioedema of the face, limbs and genitals, often preceded by the rash-like prodrome of erythema marginatum.
 - `connects-to` → **[Endocrine System](../endocrine-system/README.md)** — Hormones both trigger and treat it: oestrogen from the pill or pregnancy worsens HAE attacks, while attenuated androgens like danazol have long been used as prophylaxis, tying the disease to the endocrine system.
 - `connects-to` → **[Cardiovascular System](../cardiovascular-system/README.md)** — It runs on the bradykinin pathway shared with blood-pressure drugs: HAE swelling is bradykinin-mediated, so ACE inhibitors, which block bradykinin breakdown, are contraindicated and can precipitate severe attacks.
+- `connects-to` → **[Nervous System](../nervous-system/README.md)** — It can rarely reach the brain: cerebral angioedema is an uncommon but serious HAE attack causing headache, seizures and transient neurological deficits, and bradykinin itself is a potent driver of pain.
+- `connects-to` → **[Renal System](../renal-system/README.md)** — Attacks can swell the urinary tract: bradykinin-mediated angioedema of the bladder and urethra during an HAE attack can cause painful dysuria and acute urinary retention.
+- `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — Deep limb attacks disable and deceive: HAE swelling of the hands, feet and limbs can be painful and disabling and is often mistaken for cellulitis, compartment syndrome or arthritis, delaying correct treatment.
 
 [^cicardi-2010-icatibant-nejm]: Cicardi M, Banerji A, Bracho F, et al. Icatibant, a new bradykinin-receptor antagonist, in hereditary angioedema. *N Engl J Med.* 2010;363(6):532-541. [doi:10.1056/NEJMoa0906393](https://doi.org/10.1056/NEJMoa0906393) · [PubMed 20818873](https://pubmed.ncbi.nlm.nih.gov/20818873/)
 [^maurer-2018-lanadelumab-help]: Banerji A, Riedl MA, Bernstein JA, et al. Effect of lanadelumab compared with placebo on prevention of hereditary angioedema attacks. *JAMA.* 2018;320(20):2108-2121. [doi:10.1001/jama.2018.16773](https://doi.org/10.1001/jama.2018.16773) · [PubMed 30480729](https://pubmed.ncbi.nlm.nih.gov/30480729/)
