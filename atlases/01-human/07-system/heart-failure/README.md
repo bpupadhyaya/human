@@ -235,6 +235,15 @@ cross_links:
   - target: 03-medicine/01-modern/04-cardio/loop-diuretics
     relation: connects-to
     note: "They relieve the congestion: loop diuretics like furosemide remove the salt and water overload that causes the breathlessness and oedema of decompensated heart failure."
+  - target: 03-medicine/01-modern/04-cardio/arbs
+    relation: connects-to
+    note: "RAS blockade when ACE fails: angiotensin-receptor blockers replace ACE inhibitors in patients who cannot tolerate their cough, and combined with neprilysin inhibition as ARNI they are a cornerstone of heart-failure therapy."
+  - target: 01-human/05-tissue/myocardium
+    relation: connects-to
+    note: "The failing muscle remodels: heart failure reflects diseased myocardium — dilated and thin in systolic failure, stiff and hypertrophied in HFpEF — where cardiomyocyte loss and interstitial fibrosis progressively impair contraction and filling."
+  - target: 01-human/05-tissue/cardiac-conduction-system
+    relation: connects-to
+    note: "It is an electrical disease too: heart failure disrupts conduction, causing ventricular arrhythmias and sudden death that warrant ICDs, while left-bundle delay creates dyssynchrony corrected by cardiac resynchronisation therapy."
 ---
 
 # Heart Failure
@@ -380,6 +389,9 @@ Normal hearts increase stroke volume with increasing preload (Starling curve). T
 - `connects-to` → **[ACE inhibitors](../../../03-medicine/01-modern/04-cardio/ace-inhibitors/README.md)** — A cornerstone of treatment: ACE inhibitors reduce afterload and block harmful neurohormonal remodelling, lowering mortality in heart failure with reduced ejection fraction.
 - `connects-to` → **[Beta-blockers](../../../03-medicine/01-modern/04-cardio/beta-blockers/README.md)** — They reverse the harmful drive: beta-blockers blunt the chronic sympathetic overactivation of heart failure, improving survival despite initially reducing contractility.
 - `connects-to` → **[Loop Diuretics](../../../03-medicine/01-modern/04-cardio/loop-diuretics/README.md)** — They relieve the congestion: loop diuretics like furosemide remove the salt and water overload that causes the breathlessness and oedema of decompensated heart failure.
+- `connects-to` → **[ARBs](../../../03-medicine/01-modern/04-cardio/arbs/README.md)** — RAS blockade when ACE fails: angiotensin-receptor blockers replace ACE inhibitors in patients who cannot tolerate their cough, and combined with neprilysin inhibition as ARNI they are a cornerstone of heart-failure therapy.
+- `connects-to` → **[Myocardium](../../05-tissue/myocardium/README.md)** — The failing muscle remodels: heart failure reflects diseased myocardium — dilated and thin in systolic failure, stiff and hypertrophied in HFpEF — where cardiomyocyte loss and interstitial fibrosis progressively impair contraction and filling.
+- `connects-to` → **[Cardiac Conduction System](../../05-tissue/cardiac-conduction-system/README.md)** — It is an electrical disease too: heart failure disrupts conduction, causing ventricular arrhythmias and sudden death that warrant ICDs, while left-bundle delay creates dyssynchrony corrected by cardiac resynchronisation therapy.
 
 ## Pathology
 
