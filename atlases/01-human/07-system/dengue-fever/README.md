@@ -223,6 +223,15 @@ cross_links:
   - target: 01-human/07-system/lymphatic-system
     relation: connects-to
     note: "It swells nodes and leaks into cavities: tender lymphadenopathy and hepatosplenomegaly are typical, and as capillary integrity fails plasma leaks into the pleural and peritoneal spaces."
+  - target: 01-human/07-system/reproductive-system
+    relation: connects-to
+    note: "It crosses to the fetus: dengue in pregnancy raises the risk of preterm birth, low birth weight and peripartum haemorrhage, and vertical transmission can infect the newborn."
+  - target: 03-medicine/01-modern/12-anti-inflammatory/ibuprofen
+    relation: connects-to
+    note: "Some painkillers are dangerous here: NSAIDs like ibuprofen are avoided in dengue because they worsen the bleeding tendency and gastritis of thrombocytopenia, so paracetamol is preferred."
+  - target: 01-human/07-system/endocrine-system
+    relation: connects-to
+    note: "It can disturb the glands: severe dengue is reported to cause transient thyroid dysfunction and, through profound shock, rare pituitary and adrenal insufficiency."
 ---
 
 # Dengue Fever
@@ -403,3 +412,6 @@ No approved antiviral therapy for dengue. Management is entirely supportive:
 - `connects-to` → **[Respiratory System](../respiratory-system/README.md)** — Plasma leak floods the lungs: the capillary leak of severe dengue causes pleural effusions and pulmonary oedema, and the most severe cases progress to acute respiratory distress syndrome.
 - `connects-to` → **[Renal System](../renal-system/README.md)** — Severe disease shuts down the kidney: shock, rhabdomyolysis and acute tubular necrosis in severe dengue cause acute kidney injury that worsens prognosis.
 - `connects-to` → **[Lymphatic System](../lymphatic-system/README.md)** — It swells nodes and leaks into cavities: tender lymphadenopathy and hepatosplenomegaly are typical, and as capillary integrity fails plasma leaks into the pleural and peritoneal spaces.
+- `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — It crosses to the fetus: dengue in pregnancy raises the risk of preterm birth, low birth weight and peripartum haemorrhage, and vertical transmission can infect the newborn.
+- `connects-to` → **[Ibuprofen](../../../03-medicine/01-modern/12-anti-inflammatory/ibuprofen/README.md)** — Some painkillers are dangerous here: NSAIDs like ibuprofen are avoided in dengue because they worsen the bleeding tendency and gastritis of thrombocytopenia, so paracetamol is preferred.
+- `connects-to` → **[Endocrine System](../endocrine-system/README.md)** — It can disturb the glands: severe dengue is reported to cause transient thyroid dysfunction and, through profound shock, rare pituitary and adrenal insufficiency.

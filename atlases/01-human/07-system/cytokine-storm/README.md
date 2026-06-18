@@ -223,6 +223,15 @@ cross_links:
   - target: 01-human/07-system/digestive-system
     relation: connects-to
     note: "It floods and inflames the abdomen: hepatic dysfunction with soaring ferritin and transaminases is a hallmark, and capillary leak causes ascites and gut oedema."
+  - target: 01-human/07-system/renal-system
+    relation: connects-to
+    note: "It shuts down the kidney: the systemic inflammation and capillary leak of a cytokine storm cause hypotension and acute kidney injury, often needing dialysis in severe cases."
+  - target: 01-human/07-system/integumentary-system
+    relation: connects-to
+    note: "It flushes and leaks at the skin: cytokine release causes widespread rash, flushing and capillary leak with oedema, prominent in CAR-T cell and infection-triggered storms."
+  - target: 01-human/07-system/musculoskeletal-system
+    relation: connects-to
+    note: "It aches deep in the muscles: high circulating IL-6 and TNF cause severe myalgia, and extreme cases bring rhabdomyolysis from inflammatory muscle injury."
 ---
 
 # Cytokine Storm
@@ -382,6 +391,9 @@ CS drives a **consumptive coagulopathy (DIC)**:
 - `connects-to` → **[Cardiovascular System](../cardiovascular-system/README.md)** — It collapses the circulation: massive cytokine release causes vasodilatory shock with capillary leak and myocardial depression, the cardiovascular failure that makes cytokine release syndrome life-threatening.
 - `connects-to` → **[Lymphatic System](../lymphatic-system/README.md)** — In HLH the macrophages run wild: macrophage activation syndrome causes hepatosplenomegaly and haemophagocytosis in the marrow, spleen and lymph nodes, a defining feature of this cytokine storm.
 - `connects-to` → **[Digestive System](../digestive-system/README.md)** — It floods and inflames the abdomen: hepatic dysfunction with soaring ferritin and transaminases is a hallmark, and capillary leak causes ascites and gut oedema.
+- `connects-to` → **[Renal System](../renal-system/README.md)** — It shuts down the kidney: the systemic inflammation and capillary leak of a cytokine storm cause hypotension and acute kidney injury, often needing dialysis in severe cases.
+- `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — It flushes and leaks at the skin: cytokine release causes widespread rash, flushing and capillary leak with oedema, prominent in CAR-T cell and infection-triggered storms.
+- `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — It aches deep in the muscles: high circulating IL-6 and TNF cause severe myalgia, and extreme cases bring rhabdomyolysis from inflammatory muscle injury.
 
 ## Pathology
 
