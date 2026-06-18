@@ -214,6 +214,15 @@ cross_links:
   - target: 01-human/07-system/generalized-anxiety-disorder
     relation: connects-to
     note: "A childhood brain cancer with long survivorship breeds worry: the intensive therapy, neurocognitive late effects and relapse surveillance of medulloblastoma foster chronic anxiety in survivors and families."
+  - target: 01-human/07-system/musculoskeletal-system
+    relation: connects-to
+    note: "Spinal radiation stunts the growing skeleton: craniospinal radiotherapy impairs vertebral growth, leaving survivors with short stature, reduced sitting height and scoliosis — a hallmark late effect."
+  - target: 01-human/07-system/respiratory-system
+    relation: connects-to
+    note: "Posterior-fossa surgery threatens swallowing and breath: cerebellar mutism syndrome with dysphagia raises aspiration risk, and brainstem involvement can compromise respiratory control."
+  - target: 01-human/07-system/integumentary-system
+    relation: connects-to
+    note: "Radiation marks the scalp and skin: craniospinal radiotherapy causes dermatitis and permanent alopecia in the treated field, alongside the skin effects of chemotherapy."
 ---
 
 # Medulloblastoma
@@ -409,6 +418,9 @@ MB survivors face substantial late effects — inversely proportional to age at 
 - `connects-to` → **[Digestive System](../digestive-system/README.md)** — Posterior-fossa damage and treatment hit the gut: brainstem and cerebellar involvement causes dysphagia and aspiration, and craniospinal radiation plus chemotherapy bring mucositis and nausea.
 - `connects-to` → **[Varicella-Zoster Virus](../../../02-pathogen/01-viruses/varicella-zoster-virus/README.md)** — Chemotherapy reawakens shingles: the chemotherapy for medulloblastoma suppresses a child's immunity, allowing latent or primary varicella-zoster to cause severe disseminated infection.
 - `connects-to` → **[Generalized Anxiety Disorder](../generalized-anxiety-disorder/README.md)** — A childhood brain cancer with long survivorship breeds worry: the intensive therapy, neurocognitive late effects and relapse surveillance of medulloblastoma foster chronic anxiety in survivors and families.
+- `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — Spinal radiation stunts the growing skeleton: craniospinal radiotherapy impairs vertebral growth, leaving survivors with short stature, reduced sitting height and scoliosis — a hallmark late effect.
+- `connects-to` → **[Respiratory System](../respiratory-system/README.md)** — Posterior-fossa surgery threatens swallowing and breath: cerebellar mutism syndrome with dysphagia raises aspiration risk, and brainstem involvement can compromise respiratory control.
+- `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — Radiation marks the scalp and skin: craniospinal radiotherapy causes dermatitis and permanent alopecia in the treated field, alongside the skin effects of chemotherapy.
 
 [^packer-2006-std-risk-mb]: Packer RJ, Gajjar A, Vezina G, et al. Phase III study of craniospinal radiation therapy followed by adjuvant chemotherapy for newly diagnosed average-risk medulloblastoma. *J Clin Oncol.* 2006;24(25):4202-4208. [doi:10.1200/JCO.2006.06.4980](https://doi.org/10.1200/JCO.2006.06.4980) · [PubMed 16943538](https://pubmed.ncbi.nlm.nih.gov/16943538/)
 [^taylor-2012-mb-subgroups]: Taylor MD, Northcott PA, Korshunov A, et al. Molecular subgroups of medulloblastoma: the current consensus. *Acta Neuropathol.* 2012;123(4):465-472. [doi:10.1007/s00401-011-0922-z](https://doi.org/10.1007/s00401-011-0922-z) · [PubMed 22134537](https://pubmed.ncbi.nlm.nih.gov/22134537/)

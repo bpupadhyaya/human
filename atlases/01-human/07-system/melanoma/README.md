@@ -220,6 +220,15 @@ cross_links:
   - target: 01-human/07-system/wound-healing
     relation: connects-to
     note: "Its surgery is wide and node-sampling: melanoma is treated with wide local excision and sentinel-node biopsy or lymph-node dissection, leaving wounds and lymphatic disruption that heal slowly."
+  - target: 01-human/07-system/cardiovascular-system
+    relation: connects-to
+    note: "It favours the heart among metastases: melanoma is the tumour most likely to metastasise to the heart and pericardium, and its checkpoint-inhibitor therapy can cause life-threatening myocarditis."
+  - target: 01-human/07-system/musculoskeletal-system
+    relation: connects-to
+    note: "It spreads to bone and inflames joints: melanoma metastasises to the skeleton causing pain and fractures, and checkpoint-inhibitor immunotherapy can trigger inflammatory arthritis and myositis."
+  - target: 01-human/07-system/renal-system
+    relation: connects-to
+    note: "Its immunotherapy can inflame the kidney: checkpoint inhibitors used for melanoma can cause immune-related interstitial nephritis with acute kidney injury."
 ---
 
 # Melanoma
@@ -377,6 +386,9 @@ cross_links:
 - `connects-to` → **[Digestive System](../digestive-system/README.md)** — Checkpoint immunotherapy inflames the gut: the PD-1 and CTLA-4 inhibitors used for melanoma frequently cause immune-related colitis with severe diarrhoea and autoimmune hepatitis, the commonest serious irAEs.
 - `connects-to` → **[Respiratory System](../respiratory-system/README.md)** — It spreads to and inflames the lungs: melanoma metastasises readily to the lungs, and checkpoint immunotherapy can cause an immune-mediated pneumonitis.
 - `connects-to` → **[Wound Healing](../wound-healing/README.md)** — Its surgery is wide and node-sampling: melanoma is treated with wide local excision and sentinel-node biopsy or lymph-node dissection, leaving wounds and lymphatic disruption that heal slowly.
+- `connects-to` → **[Cardiovascular System](../cardiovascular-system/README.md)** — It favours the heart among metastases: melanoma is the tumour most likely to metastasise to the heart and pericardium, and its checkpoint-inhibitor therapy can cause life-threatening myocarditis.
+- `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — It spreads to bone and inflames joints: melanoma metastasises to the skeleton causing pain and fractures, and checkpoint-inhibitor immunotherapy can trigger inflammatory arthritis and myositis.
+- `connects-to` → **[Renal System](../renal-system/README.md)** — Its immunotherapy can inflame the kidney: checkpoint inhibitors used for melanoma can cause immune-related interstitial nephritis with acute kidney injury.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
