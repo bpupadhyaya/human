@@ -217,6 +217,15 @@ cross_links:
   - target: 01-human/07-system/generalized-anxiety-disorder
     relation: connects-to
     note: "Recurrence fear breeds chronic worry: the scan and tumour-marker surveillance, body-image change and dread of relapse in breast cancer foster persistent health anxiety alongside depression."
+  - target: 01-human/07-system/musculoskeletal-system
+    relation: connects-to
+    note: "Bone is its favourite distant home: breast cancer most often metastasises to the skeleton, causing bone pain, pathological fractures, hypercalcaemia and spinal cord compression."
+  - target: 01-human/07-system/respiratory-system
+    relation: connects-to
+    note: "It spreads to lung and pleura: breast cancer commonly metastasises to the lungs and pleura, producing nodules and malignant pleural effusions with breathlessness."
+  - target: 01-human/07-system/nervous-system
+    relation: connects-to
+    note: "It reaches the brain: HER2-positive and triple-negative breast cancers in particular metastasise to the brain and leptomeninges, causing headaches, seizures and focal deficits."
 ---
 
 # Breast Cancer
@@ -389,6 +398,9 @@ cross_links:
 - `connects-to` → **[Endocrine System](../endocrine-system/README.md)** — Most breast cancer is hormone-driven: oestrogen-receptor-positive tumours grow on oestrogen, so endocrine therapy with tamoxifen or aromatase inhibitors is central, bringing menopausal symptoms and bone loss.
 - `connects-to` → **[Wound Healing](../wound-healing/README.md)** — Mastectomy and radiation heal slowly: breast surgery with reconstruction and axillary dissection leaves wounds prone to seroma and infection, and prior or adjuvant radiation impairs tissue healing.
 - `connects-to` → **[Generalized Anxiety Disorder](../generalized-anxiety-disorder/README.md)** — Recurrence fear breeds chronic worry: the scan and tumour-marker surveillance, body-image change and dread of relapse in breast cancer foster persistent health anxiety alongside depression.
+- `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — Bone is its favourite distant home: breast cancer most often metastasises to the skeleton, causing bone pain, pathological fractures, hypercalcaemia and spinal cord compression.
+- `connects-to` → **[Respiratory System](../respiratory-system/README.md)** — It spreads to lung and pleura: breast cancer commonly metastasises to the lungs and pleura, producing nodules and malignant pleural effusions with breathlessness.
+- `connects-to` → **[Nervous System](../nervous-system/README.md)** — It reaches the brain: HER2-positive and triple-negative breast cancers in particular metastasise to the brain and leptomeninges, causing headaches, seizures and focal deficits.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 

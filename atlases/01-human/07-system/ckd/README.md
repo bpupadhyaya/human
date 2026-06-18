@@ -216,6 +216,15 @@ cross_links:
   - target: 01-human/07-system/immune-system
     relation: connects-to
     note: "Uraemia cripples immune defence: CKD impairs both innate and adaptive immunity and blunts vaccine responses, leaving dialysis patients especially prone to severe infection — a leading cause of death."
+  - target: 01-human/07-system/nervous-system
+    relation: connects-to
+    note: "Uraemic toxins poison the nerves: CKD causes uraemic encephalopathy with confusion and asterixis, peripheral and autonomic neuropathy, and restless legs that disturb sleep."
+  - target: 01-human/07-system/respiratory-system
+    relation: connects-to
+    note: "Fluid and acid reach the lungs: salt and water retention in CKD cause pulmonary oedema and pleural effusions, while metabolic acidosis drives the deep Kussmaul breathing of advanced disease."
+  - target: 01-human/07-system/musculoskeletal-system
+    relation: connects-to
+    note: "It weakens the skeleton: by disturbing calcium, phosphate, vitamin D and parathyroid hormone, CKD causes renal osteodystrophy — the mineral and bone disorder — with bone pain and fractures."
 ---
 
 # Chronic Kidney Disease
@@ -358,6 +367,9 @@ As nephron mass decreases, impaired renal functions accumulate:
 - `connects-to` → **[Endocrine System](../endocrine-system/README.md)** — The kidney is itself an endocrine organ that fails: CKD causes erythropoietin deficiency, impaired vitamin D activation and secondary hyperparathyroidism, the mineral-and-hormone disorder at its core.
 - `connects-to` → **[Digestive System](../digestive-system/README.md)** — Uraemia poisons the gut: advanced CKD causes anorexia, nausea and uraemic gastritis with a raised risk of GI bleeding, while a uraemic foetor and altered taste worsen the malnutrition.
 - `connects-to` → **[Immune System](../immune-system/README.md)** — Uraemia cripples immune defence: CKD impairs both innate and adaptive immunity and blunts vaccine responses, leaving dialysis patients especially prone to severe infection — a leading cause of death.
+- `connects-to` → **[Nervous System](../nervous-system/README.md)** — Uraemic toxins poison the nerves: CKD causes uraemic encephalopathy with confusion and asterixis, peripheral and autonomic neuropathy, and restless legs that disturb sleep.
+- `connects-to` → **[Respiratory System](../respiratory-system/README.md)** — Fluid and acid reach the lungs: salt and water retention in CKD cause pulmonary oedema and pleural effusions, while metabolic acidosis drives the deep Kussmaul breathing of advanced disease.
+- `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — It weakens the skeleton: by disturbing calcium, phosphate, vitamin D and parathyroid hormone, CKD causes renal osteodystrophy — the mineral and bone disorder — with bone pain and fractures.
 
 ## Pathology
 
