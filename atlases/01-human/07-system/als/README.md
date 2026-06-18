@@ -223,6 +223,15 @@ cross_links:
   - target: 01-human/07-system/cardiovascular-system
     relation: connects-to
     note: "Chronic hypoventilation strains the right heart: the progressive respiratory failure of ALS raises pulmonary pressures toward cor pulmonale, and some patients show autonomic cardiovascular dysfunction."
+  - target: 01-human/07-system/integumentary-system
+    relation: connects-to
+    note: "It curiously spares the skin: pressure ulcers are rare in ALS even with profound immobility, attributed to altered dermal collagen, though drooling causes troublesome perioral skin irritation."
+  - target: 01-human/07-system/renal-system
+    relation: connects-to
+    note: "Bladder control is usually preserved: ALS characteristically spares the sphincter motor neurons of Onuf's nucleus, so continence is maintained until late, a feature distinguishing it from other neurodegeneration."
+  - target: 01-human/07-system/reproductive-system
+    relation: connects-to
+    note: "Autonomic and sexual function are spared: ALS selectively attacks motor neurons, leaving sexual function and autonomic control largely intact, which shapes counselling and care."
 ---
 
 # ALS
@@ -423,6 +432,9 @@ ALS diagnosis is **clinical** — no single definitive biomarker test (though Nf
 - `connects-to` → **[Sepsis](../sepsis/README.md)** — Bulbar weakness routes food into the lungs: failing swallow and cough cause aspiration pneumonia, which together with ventilator dependence makes infection and sepsis a frequent terminal event in ALS.
 - `connects-to` → **[Insomnia Disorder](../insomnia-disorder/README.md)** — Nights are broken by failing muscles: nocturnal hypoventilation, the inability to reposition, cramps and anxiety fragment sleep in ALS, so insomnia is common and worsens daytime fatigue and breathlessness.
 - `connects-to` → **[Osteoporosis](../osteoporosis/README.md)** — Disuse and falls weaken the skeleton: progressive immobility and reduced weight-bearing in ALS drive bone loss, while the falls of failing limbs make osteoporotic fractures a real hazard.
+- `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — It curiously spares the skin: pressure ulcers are rare in ALS even with profound immobility, attributed to altered dermal collagen, though drooling causes troublesome perioral skin irritation.
+- `connects-to` → **[Renal System](../renal-system/README.md)** — Bladder control is usually preserved: ALS characteristically spares the sphincter motor neurons of Onuf's nucleus, so continence is maintained until late, a feature distinguishing it from other neurodegeneration.
+- `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — Autonomic and sexual function are spared: ALS selectively attacks motor neurons, leaving sexual function and autonomic control largely intact, which shapes counselling and care.
 - `connects-to` → **[Generalized Anxiety Disorder](../generalized-anxiety-disorder/README.md)** — Watching the body fail breeds dread: the relentless progression of paralysis and the fear of suffocation give ALS a heavy burden of anxiety alongside its depression.
 - `connects-to` → **[Chronic Kidney Disease](../ckd/README.md)** — Swallowing failure dries out the kidneys: dysphagia limits fluid intake while immobility and recurrent illness add prerenal stress, so chronic dehydration can erode renal function in advanced ALS.
 - `connects-to` → **[Streptococcus pneumoniae](../../../02-pathogen/02-bacteria/streptococcus-pneumoniae/README.md)** — Failing swallow and cough flood the lungs: bulbar and respiratory muscle weakness in ALS causes aspiration and an ineffective cough, and the resulting pneumonia — often pneumococcal — is the leading cause of death.

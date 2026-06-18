@@ -226,6 +226,15 @@ cross_links:
   - target: 02-pathogen/01-viruses/varicella-zoster-virus
     relation: connects-to
     note: "Its heavy immunosuppression reawakens shingles: the cyclophosphamide, rituximab and steroids used to induce remission in ANCA vasculitis deplete immunity, allowing herpes-zoster reactivation."
+  - target: 01-human/07-system/renal-system
+    relation: connects-to
+    note: "The kidney is its classic target: ANCA vasculitis causes pauci-immune crescentic rapidly progressive glomerulonephritis, a renal emergency demanding prompt immunosuppression to prevent permanent failure."
+  - target: 01-human/07-system/cardiovascular-system
+    relation: connects-to
+    note: "Eosinophilic GPA strikes the heart: myocarditis and cardiomyopathy are a leading cause of death in EGPA, and coronary arteritis can occur, so cardiac assessment is essential."
+  - target: 01-human/07-system/endocrine-system
+    relation: connects-to
+    note: "Granulomatous disease can hit the pituitary: GPA occasionally involves the pituitary gland, causing hypophysitis and diabetes insipidus among its protean manifestations."
 ---
 
 # ANCA Vasculitis
@@ -427,6 +436,9 @@ EGPA is mechanistically distinct — eosinophils, not neutrophils, mediate tissu
 - `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — Small-vessel inflammation erupts on the skin: ANCA vasculitis causes palpable purpura, cutaneous nodules and ulcers, and granulomatosis with polyangiitis classically destroys the nasal cartilage into a saddle-nose.
 - `connects-to` → **[Digestive System](../digestive-system/README.md)** — It can inflame the gut's vessels: mesenteric vasculitis in ANCA disease causes abdominal pain, bowel ischaemia and GI bleeding, a serious extra-renal manifestation.
 - `connects-to` → **[Varicella-Zoster Virus](../../../02-pathogen/01-viruses/varicella-zoster-virus/README.md)** — Its heavy immunosuppression reawakens shingles: the cyclophosphamide, rituximab and steroids used to induce remission in ANCA vasculitis deplete immunity, allowing herpes-zoster reactivation.
+- `connects-to` → **[Renal System](../renal-system/README.md)** — The kidney is its classic target: ANCA vasculitis causes pauci-immune crescentic rapidly progressive glomerulonephritis, a renal emergency demanding prompt immunosuppression to prevent permanent failure.
+- `connects-to` → **[Cardiovascular System](../cardiovascular-system/README.md)** — Eosinophilic GPA strikes the heart: myocarditis and cardiomyopathy are a leading cause of death in EGPA, and coronary arteritis can occur, so cardiac assessment is essential.
+- `connects-to` → **[Endocrine System](../endocrine-system/README.md)** — Granulomatous disease can hit the pituitary: GPA occasionally involves the pituitary gland, causing hypophysitis and diabetes insipidus among its protean manifestations.
 
 [^yates-2022-anca-review]: Yates M, Watts RA, Bajema IM, et al. EULAR/ERA-EDTA recommendations for the management of ANCA-associated vasculitis. *Ann Rheum Dis.* 2016;75(9):1583-1594. [doi:10.1136/annrheumdis-2016-209133](https://doi.org/10.1136/annrheumdis-2016-209133) · [PubMed 27338776](https://pubmed.ncbi.nlm.nih.gov/27338776/)
 [^stone-2010-rituximab-gpa-rave]: Stone JH, Merkel PA, Spiera R, et al. Rituximab versus cyclophosphamide for ANCA-associated vasculitis. *N Engl J Med.* 2010;363(3):221-232. [doi:10.1056/NEJMoa0909905](https://doi.org/10.1056/NEJMoa0909905) · [PubMed 20647199](https://pubmed.ncbi.nlm.nih.gov/20647199/)
