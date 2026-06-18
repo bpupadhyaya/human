@@ -214,6 +214,15 @@ cross_links:
   - target: 01-human/07-system/respiratory-system
     relation: connects-to
     note: "Sleep-disordered breathing drives it up: obstructive sleep apnoea, with its nocturnal hypoxia and sympathetic surges, is a major reversible cause of resistant hypertension."
+  - target: 01-human/07-system/immune-system
+    relation: connects-to
+    note: "The immune system helps raise the pressure: T lymphocytes and macrophages infiltrating the vessel wall and kidney drive blood-pressure elevation, and dietary salt activates these inflammatory pathways."
+  - target: 01-human/07-system/integumentary-system
+    relation: connects-to
+    note: "Its drugs surface on the skin: calcium-channel blockers cause flushing and gum hypertrophy, and hydralazine can trigger a drug-induced lupus rash."
+  - target: 01-human/07-system/digestive-system
+    relation: connects-to
+    note: "Its biology and drugs touch the gut: the liver makes angiotensinogen, the substrate of the renin-angiotensin system, while calcium-channel blockers cause constipation and ACE inhibitors can rarely cause intestinal angioedema."
 ---
 
 # Hypertension
@@ -370,6 +379,9 @@ Blood pressure is determined by: BP = Cardiac Output × Peripheral Vascular Resi
 - `connects-to` → **[Endocrine System](../endocrine-system/README.md)** — Hormones cause and control blood pressure: secondary hypertension arises from primary aldosteronism, Cushing's, thyroid disease and phaeochromocytoma, and the RAAS that drives it is an endocrine axis.
 - `connects-to` → **[Nervous System](../nervous-system/README.md)** — Severe spikes injure the brain: a hypertensive emergency causes encephalopathy and posterior reversible encephalopathy syndrome, and chronic hypertension is the leading cause of intracerebral haemorrhage.
 - `connects-to` → **[Respiratory System](../respiratory-system/README.md)** — Sleep-disordered breathing drives it up: obstructive sleep apnoea, with its nocturnal hypoxia and sympathetic surges, is a major reversible cause of resistant hypertension.
+- `connects-to` → **[Immune System](../immune-system/README.md)** — The immune system helps raise the pressure: T lymphocytes and macrophages infiltrating the vessel wall and kidney drive blood-pressure elevation, and dietary salt activates these inflammatory pathways.
+- `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — Its drugs surface on the skin: calcium-channel blockers cause flushing and gum hypertrophy, and hydralazine can trigger a drug-induced lupus rash.
+- `connects-to` → **[Digestive System](../digestive-system/README.md)** — Its biology and drugs touch the gut: the liver makes angiotensinogen, the substrate of the renin-angiotensin system, while calcium-channel blockers cause constipation and ACE inhibitors can rarely cause intestinal angioedema.
 
 ## Pathology
 

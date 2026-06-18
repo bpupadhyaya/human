@@ -214,6 +214,15 @@ cross_links:
   - target: 01-human/07-system/generalized-anxiety-disorder
     relation: connects-to
     note: "A slow but incurable brain tumour breeds worry: the indolent-but-progressive course, repeated scans and eventual transformation risk of IDH-mutant glioma foster chronic health anxiety alongside depression."
+  - target: 01-human/07-system/immune-system
+    relation: connects-to
+    note: "Its oncometabolite hides it from immunity: the D-2-hydroxyglutarate made by IDH-mutant tumours is immunosuppressive, making these 'cold' tumours, and dexamethasone further blunts immune defence."
+  - target: 01-human/07-system/musculoskeletal-system
+    relation: connects-to
+    note: "The same mutation deforms bone: mosaic IDH mutations cause the multiple enchondromas of Ollier disease and Maffucci syndrome, which themselves predispose to gliomas."
+  - target: 01-human/07-system/integumentary-system
+    relation: connects-to
+    note: "It can come with skin haemangiomas: Maffucci syndrome pairs IDH-driven enchondromas with spindle-cell haemangiomas of the skin, on top of the radiation and steroid skin effects of treatment."
 ---
 
 # IDH-Mutant Glioma
@@ -411,6 +420,9 @@ IDH-mutant glioma with MGMT methylation shows strong alkylating agent sensitivit
 - `connects-to` → **[Endocrine System](../endocrine-system/README.md)** — Steroids and radiation disturb the glands: the prolonged dexamethasone for IDH-mutant glioma causes steroid diabetes and adrenal suppression, and radiation near the sella can damage the pituitary.
 - `connects-to` → **[Digestive System](../digestive-system/README.md)** — Its drugs trouble the gut: dexamethasone raises peptic-ulcer risk and temozolomide causes nausea and hepatotoxicity, complicating the long treatment course of IDH-mutant glioma.
 - `connects-to` → **[Generalized Anxiety Disorder](../generalized-anxiety-disorder/README.md)** — A slow but incurable brain tumour breeds worry: the indolent-but-progressive course, repeated scans and eventual transformation risk of IDH-mutant glioma foster chronic health anxiety alongside depression.
+- `connects-to` → **[Immune System](../immune-system/README.md)** — Its oncometabolite hides it from immunity: the D-2-hydroxyglutarate made by IDH-mutant tumours is immunosuppressive, making these 'cold' tumours, and dexamethasone further blunts immune defence.
+- `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — The same mutation deforms bone: mosaic IDH mutations cause the multiple enchondromas of Ollier disease and Maffucci syndrome, which themselves predispose to gliomas.
+- `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — It can come with skin haemangiomas: Maffucci syndrome pairs IDH-driven enchondromas with spindle-cell haemangiomas of the skin, on top of the radiation and steroid skin effects of treatment.
 
 [^mellinghoff-2023-vorasidenib-lgg]: Mellinghoff IK, van den Bent MJ, Blumenthal DT, et al. Vorasidenib in IDH1- or IDH2-mutant low-grade glioma. *N Engl J Med.* 2023;389(7):589-601. [doi:10.1056/NEJMoa2304194](https://doi.org/10.1056/NEJMoa2304194) · [PubMed 37272530](https://pubmed.ncbi.nlm.nih.gov/37272530/)
 [^jiao-2012-atrx-glioma]: Jiao Y, Killela PJ, Reitman ZJ, et al. Frequent ATRX, CIC, FUBP1 and IDH mutations refine the classification of malignant gliomas. *Oncotarget.* 2012;3(7):709-722. [doi:10.18632/oncotarget.588](https://doi.org/10.18632/oncotarget.588) · [PubMed 22869205](https://pubmed.ncbi.nlm.nih.gov/22869205/)
