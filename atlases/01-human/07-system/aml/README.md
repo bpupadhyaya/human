@@ -241,6 +241,15 @@ cross_links:
   - target: 01-human/07-system/endocrine-system
     relation: connects-to
     note: "Treatment leaves endocrine scars: chemotherapy and stem-cell transplant for AML impair fertility and thyroid and gonadal function in survivors."
+  - target: 03-medicine/01-modern/13-cancer/cancer-chemotherapy
+    relation: connects-to
+    note: "The 7+3 backbone: intensive induction with seven days of cytarabine and three of an anthracycline aims to clear the marrow of blasts, followed by consolidation or allogeneic transplant — the cytotoxic core of AML therapy for decades."
+  - target: 03-medicine/01-modern/13-cancer/checkpoint-inhibitors
+    relation: connects-to
+    note: "Largely resistant to checkpoints: AML evades immunity through antigen loss and an immunosuppressive marrow rather than checkpoint exhaustion, so PD-1 blockade shows limited single-agent activity, studied mainly with hypomethylating agents."
+  - target: 01-human/07-system/cll
+    relation: connects-to
+    note: "Myeloid versus lymphoid leukaemia: AML is an acute proliferation of myeloid blasts needing urgent intensive therapy, whereas CLL is an indolent accumulation of mature B-lymphocytes often watched for years — opposite poles of leukaemia in lineage and tempo."
 ---
 
 # AML
@@ -426,6 +435,9 @@ AML requires cooperative mutations in at least 2 functional categories (Gillilan
 - `connects-to` → **[Targeted Therapy](../../../03-medicine/01-modern/13-cancer/targeted-therapy/README.md)** — Precision drugs now match its mutations: FLT3 inhibitors (midostaurin), IDH inhibitors and the BCL-2 inhibitor venetoclax target specific AML subtypes beyond standard chemotherapy.
 - `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — It grows in and out of the marrow: AML crowds the bone marrow causing bone pain and cytopenias, and a myeloid sarcoma (chloroma) can form a solid mass in bone or soft tissue.
 - `connects-to` → **[Endocrine System](../endocrine-system/README.md)** — Treatment leaves endocrine scars: chemotherapy and stem-cell transplant for AML impair fertility and thyroid and gonadal function in survivors.
+- `connects-to` → **[Cancer Chemotherapy](../../../03-medicine/01-modern/13-cancer/cancer-chemotherapy/README.md)** — The 7+3 backbone: intensive induction with seven days of cytarabine and three of an anthracycline aims to clear the marrow of blasts, followed by consolidation or allogeneic transplant — the cytotoxic core of AML therapy for decades.
+- `connects-to` → **[Checkpoint Inhibitors](../../../03-medicine/01-modern/13-cancer/checkpoint-inhibitors/README.md)** — Largely resistant to checkpoints: AML evades immunity through antigen loss and an immunosuppressive marrow rather than checkpoint exhaustion, so PD-1 blockade shows limited single-agent activity, studied mainly with hypomethylating agents.
+- `connects-to` → **[CLL](../cll/README.md)** — Myeloid versus lymphoid leukaemia: AML is an acute proliferation of myeloid blasts needing urgent intensive therapy, whereas CLL is an indolent accumulation of mature B-lymphocytes often watched for years — opposite poles of leukaemia in lineage and tempo.
 
 [^dinardo-2020-viale-a]: DiNardo CD, Jonas BA, Pullarkat V, et al. Azacitidine and venetoclax in previously untreated acute myeloid leukemia. *N Engl J Med.* 2020;383(7):617-629. [doi:10.1056/NEJMoa2012971](https://doi.org/10.1056/NEJMoa2012971) · [PubMed 32786187](https://pubmed.ncbi.nlm.nih.gov/32786187/)
 [^stone-2017-midostaurin]: Stone RM, Mandrekar SJ, Sanford BL, et al. Midostaurin plus chemotherapy for acute myeloid leukemia with a FLT3 mutation. *N Engl J Med.* 2017;377(5):454-464. [doi:10.1056/NEJMoa1614359](https://doi.org/10.1056/NEJMoa1614359) · [PubMed 28644114](https://pubmed.ncbi.nlm.nih.gov/28644114/)

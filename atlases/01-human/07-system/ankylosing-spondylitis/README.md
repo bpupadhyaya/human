@@ -241,6 +241,15 @@ cross_links:
   - target: 03-medicine/01-modern/02-respiratory/corticosteroids
     relation: connects-to
     note: "Steroids have a limited, local role: unlike in rheumatoid arthritis, systemic steroids help little in axial disease, but local injections treat enthesitis, peripheral arthritis and acute uveitis."
+  - target: 03-medicine/01-modern/13-cancer/targeted-therapy
+    relation: connects-to
+    note: "Biologics target its cytokines: when NSAIDs fail, ankylosing spondylitis responds to anti-TNF and IL-17 inhibitors like secukinumab, and to JAK inhibitors — agents hitting the IL-23/IL-17 axis that drives the spinal inflammation."
+  - target: 01-human/05-tissue/cortical-bone
+    relation: connects-to
+    note: "It both fuses and weakens bone: ankylosing spondylitis paradoxically lays down syndesmophytes that bridge vertebrae into a bamboo spine while the trapped, inflamed bone becomes osteoporotic — a rigid spine prone to fracture from minor trauma."
+  - target: 01-human/05-tissue/arterial-wall
+    relation: connects-to
+    note: "It inflames the aortic root: chronic inflammation in ankylosing spondylitis causes aortitis and aortic-root dilatation, producing aortic regurgitation and conduction block as the disease reaches the wall of the great vessel."
 ---
 
 # Ankylosing Spondylitis
@@ -424,6 +433,9 @@ AS originates at the **enthesis** — the site where tendons, ligaments, and joi
 - `connects-to` → **[Adalimumab](../../../03-medicine/01-modern/11-biologics/adalimumab/README.md)** — Biologics control the spine: anti-TNF agents like adalimumab, and IL-17 inhibitors, suppress the axial inflammation of ankylosing spondylitis when NSAIDs are insufficient.
 - `connects-to` → **[Ibuprofen](../../../03-medicine/01-modern/12-anti-inflammatory/ibuprofen/README.md)** — NSAIDs are first-line: continuous NSAIDs like ibuprofen relieve the inflammatory back pain and may slow radiographic progression of ankylosing spondylitis.
 - `connects-to` → **[Corticosteroids](../../../03-medicine/01-modern/02-respiratory/corticosteroids/README.md)** — Steroids have a limited, local role: unlike in rheumatoid arthritis, systemic steroids help little in axial disease, but local injections treat enthesitis, peripheral arthritis and acute uveitis.
+- `connects-to` → **[Targeted Therapy](../../../03-medicine/01-modern/13-cancer/targeted-therapy/README.md)** — Biologics target its cytokines: when NSAIDs fail, ankylosing spondylitis responds to anti-TNF and IL-17 inhibitors like secukinumab, and to JAK inhibitors — agents hitting the IL-23/IL-17 axis that drives the spinal inflammation.
+- `connects-to` → **[Cortical Bone](../../05-tissue/cortical-bone/README.md)** — It both fuses and weakens bone: ankylosing spondylitis paradoxically lays down syndesmophytes that bridge vertebrae into a bamboo spine while the trapped, inflamed bone becomes osteoporotic — a rigid spine prone to fracture from minor trauma.
+- `connects-to` → **[Arterial Wall](../../05-tissue/arterial-wall/README.md)** — It inflames the aortic root: chronic inflammation in ankylosing spondylitis causes aortitis and aortic-root dilatation, producing aortic regurgitation and conduction block as the disease reaches the wall of the great vessel.
 
 [^sieper-2015-ankylosing-spondylitis-review]: Sieper J, Poddubnyy D. Ankylosing spondylitis. *Lancet.* 2017;390(10089):73-84. [doi:10.1016/S0140-6736(16)31591-4](https://doi.org/10.1016/S0140-6736(16)31591-4) · [PubMed 28110981](https://pubmed.ncbi.nlm.nih.gov/28110981/)
 [^baeten-2015-secukinumab-as]: Baeten D, Sieper J, Braun J, et al. Secukinumab, an Interleukin-17A Inhibitor, in Ankylosing Spondylitis. *N Engl J Med.* 2015;373(26):2534-2548. [doi:10.1056/NEJMoa1505066](https://doi.org/10.1056/NEJMoa1505066) · [PubMed 26699169](https://pubmed.ncbi.nlm.nih.gov/26699169/)
