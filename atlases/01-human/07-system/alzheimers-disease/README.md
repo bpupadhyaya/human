@@ -244,6 +244,15 @@ cross_links:
   - target: 03-medicine/02-traditional/ginkgo-biloba
     relation: connects-to
     note: "A traditional remedy long tried: Ginkgo biloba extract has been widely used and studied for dementia and Alzheimer's, though large trials show little benefit in prevention or treatment."
+  - target: 03-medicine/01-modern/13-cancer/targeted-therapy
+    relation: connects-to
+    note: "Anti-amyloid antibodies modify it: lecanemab and donanemab, monoclonal antibodies that clear amyloid-beta plaques, are the first disease-modifying Alzheimer's drugs, modestly slowing decline at the cost of brain-swelling and microhaemorrhage (ARIA)."
+  - target: 01-human/05-tissue/axonal-transport
+    relation: connects-to
+    note: "Tau wrecks the axon's railway: hyperphosphorylated tau detaches from microtubules and forms neurofibrillary tangles, collapsing the axonal transport that supplies synapses — a core mechanism of neurodegeneration in Alzheimer's."
+  - target: 01-human/05-tissue/arterial-wall
+    relation: connects-to
+    note: "Amyloid lines the cerebral vessels: in cerebral amyloid angiopathy, amyloid-beta deposits in the arterial wall of cortical vessels, weakening them and causing the lobar haemorrhages and microbleeds common in Alzheimer's."
 ---
 
 # Alzheimer's Disease
@@ -418,6 +427,9 @@ Microglia play a central, dual role in AD:
 - `connects-to` → **[Renal System](../renal-system/README.md)** — The failing kidney ages the brain: chronic kidney disease is an independent risk factor for Alzheimer's, through shared vascular damage and the accumulation of uraemic toxins that impair cognition.
 - `connects-to` → **[Herpesviridae](../../../02-pathogen/01-viruses/herpesvirus/README.md)** — A virus implicated in its origin: herpes simplex type 1 reactivation in the brain is a long-standing hypothesis in Alzheimer's, with amyloid-beta itself acting as an antimicrobial peptide that traps the virus.
 - `connects-to` → **[Ginkgo Biloba](../../../03-medicine/02-traditional/ginkgo-biloba/README.md)** — A traditional remedy long tried: Ginkgo biloba extract has been widely used and studied for dementia and Alzheimer's, though large trials show little benefit in prevention or treatment.
+- `connects-to` → **[Targeted Therapy](../../../03-medicine/01-modern/13-cancer/targeted-therapy/README.md)** — Anti-amyloid antibodies modify it: lecanemab and donanemab, monoclonal antibodies that clear amyloid-beta plaques, are the first disease-modifying Alzheimer's drugs, modestly slowing decline at the cost of brain-swelling and microhaemorrhage (ARIA).
+- `connects-to` → **[Axonal Transport](../../05-tissue/axonal-transport/README.md)** — Tau wrecks the axon's railway: hyperphosphorylated tau detaches from microtubules and forms neurofibrillary tangles, collapsing the axonal transport that supplies synapses — a core mechanism of neurodegeneration in Alzheimer's.
+- `connects-to` → **[Arterial Wall](../../05-tissue/arterial-wall/README.md)** — Amyloid lines the cerebral vessels: in cerebral amyloid angiopathy, amyloid-beta deposits in the arterial wall of cortical vessels, weakening them and causing the lobar haemorrhages and microbleeds common in Alzheimer's.
 
 [^selkoe-2016-alzheimer]: Selkoe DJ, Hardy J. The amyloid hypothesis of Alzheimer's disease at 25 years. *EMBO Mol Med.* 2016;8(6):595-608. [doi:10.15252/emmm.201606210](https://doi.org/10.15252/emmm.201606210) · [PubMed 27025652](https://pubmed.ncbi.nlm.nih.gov/27025652/)
 [^jack-2018-nia-aa]: Jack CR Jr, Bennett DA, Blennow K, et al. NIA-AA Research Framework: Toward a biological definition of Alzheimer's disease. *Alzheimers Dement.* 2018;14(4):535-562. [doi:10.1016/j.jalz.2018.02.018](https://doi.org/10.1016/j.jalz.2018.02.018) · [PubMed 29653606](https://pubmed.ncbi.nlm.nih.gov/29653606/)

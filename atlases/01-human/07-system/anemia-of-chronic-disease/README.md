@@ -244,6 +244,15 @@ cross_links:
   - target: 02-pathogen/02-bacteria/mycobacterium-tuberculosis
     relation: connects-to
     note: "A chronic infection that causes it: tuberculosis sustains the inflammatory cytokines that block iron use, making anaemia of chronic disease a frequent finding in active TB."
+  - target: 01-human/05-tissue/hepatic-lobule
+    relation: connects-to
+    note: "The liver sets the iron trap: IL-6 from inflammation drives hepatocytes in the liver lobule to make hepcidin, the master regulator that locks iron inside macrophages and starves erythropoiesis — the core of anaemia of chronic disease."
+  - target: 03-medicine/01-modern/13-cancer/cancer-chemotherapy
+    relation: connects-to
+    note: "Cancer anaemia comes from both sides: malignancy itself drives anaemia of chronic disease through inflammation, while chemotherapy adds marrow suppression — managed with iron, erythropoiesis-stimulating agents or transfusion."
+  - target: 01-human/07-system/aplastic-anemia
+    relation: connects-to
+    note: "Two non-deficiency anaemias contrasted: anaemia of chronic disease comes from inflammatory iron sequestration with a working marrow, whereas aplastic anaemia is failure of the marrow itself — both with normal iron stores."
 ---
 
 # Anemia of Chronic Disease
@@ -443,6 +452,9 @@ This adaptive rationale explains why **aggressive iron supplementation during ac
 - `connects-to` → **[Renal System](../renal-system/README.md)** — It overlaps with the anaemia of kidney disease: chronic kidney disease causes a closely related anaemia through erythropoietin deficiency and inflammatory hepcidin excess, blurring the line with anaemia of chronic disease.
 - `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — Chronic joint inflammation drives it: rheumatoid arthritis and other inflammatory arthritides raise IL-6 and hepcidin, making anaemia of chronic disease their commonest extra-articular feature.
 - `connects-to` → **[Mycobacterium tuberculosis](../../../02-pathogen/02-bacteria/mycobacterium-tuberculosis/README.md)** — A chronic infection that causes it: tuberculosis sustains the inflammatory cytokines that block iron use, making anaemia of chronic disease a frequent finding in active TB.
+- `connects-to` → **[Hepatic Lobule](../../05-tissue/hepatic-lobule/README.md)** — The liver sets the iron trap: IL-6 from inflammation drives hepatocytes in the liver lobule to make hepcidin, the master regulator that locks iron inside macrophages and starves erythropoiesis — the core of anaemia of chronic disease.
+- `connects-to` → **[Cancer Chemotherapy](../../../03-medicine/01-modern/13-cancer/cancer-chemotherapy/README.md)** — Cancer anaemia comes from both sides: malignancy itself drives anaemia of chronic disease through inflammation, while chemotherapy adds marrow suppression — managed with iron, erythropoiesis-stimulating agents or transfusion.
+- `connects-to` → **[Aplastic Anemia](../aplastic-anemia/README.md)** — Two non-deficiency anaemias contrasted: anaemia of chronic disease comes from inflammatory iron sequestration with a working marrow, whereas aplastic anaemia is failure of the marrow itself — both with normal iron stores.
 
 [^weiss-2005-acd-review]: Weiss G, Goodnough LT. Anemia of chronic disease. *N Engl J Med.* 2005;352(10):1011-1023. [doi:10.1056/NEJMra041809](https://doi.org/10.1056/NEJMra041809) · [PubMed 15758012](https://pubmed.ncbi.nlm.nih.gov/15758012/)
 [^nemeth-2004-il6-hepcidin]: Nemeth E, Rivera S, Gabayan V, et al. IL-6 mediates hypoferremia of inflammation by inducing the synthesis of the iron regulatory hormone hepcidin. *J Clin Invest.* 2004;113(9):1271-1276. [doi:10.1172/JCI200420945](https://doi.org/10.1172/JCI200420945) · [PubMed 15124018](https://pubmed.ncbi.nlm.nih.gov/15124018/)
