@@ -232,6 +232,15 @@ cross_links:
   - target: 01-human/07-system/integumentary-system
     relation: connects-to
     note: "It and its treatment mark the skin: chemotherapy causes alopecia and mucositis, radiotherapy produces dermatitis over the treated bone, and rare cutaneous Ewing tumours occur."
+  - target: 03-medicine/01-modern/13-cancer/cancer-chemotherapy
+    relation: connects-to
+    note: "Intensive chemo is curative: alternating vincristine-doxorubicin-cyclophosphamide with ifosfamide-etoposide, around surgery or radiation, cures most localised Ewing sarcoma."
+  - target: 03-medicine/01-modern/13-cancer/targeted-therapy
+    relation: connects-to
+    note: "A testbed for targeted drugs: Ewing sarcoma's IGF-1 dependence made it an early target for IGF-1R antibodies, and agents aimed at the EWSR1-FLI1 fusion are in development."
+  - target: 03-medicine/01-modern/13-cancer/car-t
+    relation: connects-to
+    note: "Cell therapy in trials: GD2- and other antigen-directed CAR-T and immunotherapies are being trialled for relapsed Ewing sarcoma, which resists conventional salvage treatment."
 ---
 
 # Ewing Sarcoma
@@ -426,6 +435,9 @@ After induction → surgical specimen assessed for percent tumor necrosis (Salze
 - `connects-to` → **[Endocrine System](../endocrine-system/README.md)** — Treatment leaves lasting hormone effects: chemotherapy and radiation in childhood Ewing sarcoma impair growth, fertility and thyroid function in survivors.
 - `connects-to` → **[Digestive System](../digestive-system/README.md)** — Therapy hits the gut: the intensive multi-agent chemotherapy used against Ewing sarcoma causes severe nausea, mucositis and the risk of neutropenic colitis.
 - `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — It and its treatment mark the skin: chemotherapy causes alopecia and mucositis, radiotherapy produces dermatitis over the treated bone, and rare cutaneous Ewing tumours occur.
+- `connects-to` → **[Cancer Chemotherapy](../../../03-medicine/01-modern/13-cancer/cancer-chemotherapy/README.md)** — Intensive chemo is curative: alternating vincristine-doxorubicin-cyclophosphamide with ifosfamide-etoposide, around surgery or radiation, cures most localised Ewing sarcoma.
+- `connects-to` → **[Targeted Therapy](../../../03-medicine/01-modern/13-cancer/targeted-therapy/README.md)** — A testbed for targeted drugs: Ewing sarcoma's IGF-1 dependence made it an early target for IGF-1R antibodies, and agents aimed at the EWSR1-FLI1 fusion are in development.
+- `connects-to` → **[CAR-T](../../../03-medicine/01-modern/13-cancer/car-t/README.md)** — Cell therapy in trials: GD2- and other antigen-directed CAR-T and immunotherapies are being trialled for relapsed Ewing sarcoma, which resists conventional salvage treatment.
 
 ---
 
