@@ -211,6 +211,15 @@ cross_links:
   - target: 01-human/07-system/iron-deficiency-anemia
     relation: connects-to
     note: "Low iron can itch: iron deficiency is a recognised systemic cause of generalised pruritus, and correcting it can relieve the itch that perpetuates prurigo nodularis."
+  - target: 01-human/07-system/respiratory-system
+    relation: connects-to
+    note: "It shares the atopic, type-2 inflammatory pathway: prurigo nodularis is enriched for atopy and asthma, and the IL-4/IL-13 axis it shares with airway disease is why dupilumab treats both."
+  - target: 01-human/07-system/lymphatic-system
+    relation: connects-to
+    note: "Relentless itch can flag a lymphoma: severe chronic pruritus and prurigo nodularis can be a paraneoplastic sign of Hodgkin and other lymphomas, prompting nodal examination and screening."
+  - target: 01-human/07-system/reproductive-system
+    relation: connects-to
+    note: "Pregnancy complicates its itch and care: chronic pruritus can flare in pregnancy, where the systemic immunomodulators used for prurigo nodularis are restricted, limiting treatment options."
 ---
 
 # Prurigo Nodularis
@@ -358,6 +367,9 @@ PN affects approximately **72,000 patients** in the US; true prevalence is likel
 - `connects-to` → **[Immune System](../immune-system/README.md)** — It is a neuroimmune itch disorder: prurigo nodularis is driven by Th2 cytokines and IL-31 sensitising itch nerves, which is why the immune-targeting biologic dupilumab is now an effective treatment.
 - `connects-to` → **[Endocrine System](../endocrine-system/README.md)** — Endocrine disease can drive the itch: thyroid dysfunction and diabetes are among the systemic causes of the chronic pruritus that seeds prurigo nodularis, so endocrine screening is part of its work-up.
 - `connects-to` → **[Iron-Deficiency Anemia](../iron-deficiency-anemia/README.md)** — Low iron can itch: iron deficiency is a recognised systemic cause of generalised pruritus, and correcting it can relieve the itch that perpetuates prurigo nodularis.
+- `connects-to` → **[Respiratory System](../respiratory-system/README.md)** — It shares the atopic, type-2 inflammatory pathway: prurigo nodularis is enriched for atopy and asthma, and the IL-4/IL-13 axis it shares with airway disease is why dupilumab treats both.
+- `connects-to` → **[Lymphatic System](../lymphatic-system/README.md)** — Relentless itch can flag a lymphoma: severe chronic pruritus and prurigo nodularis can be a paraneoplastic sign of Hodgkin and other lymphomas, prompting nodal examination and screening.
+- `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — Pregnancy complicates its itch and care: chronic pruritus can flare in pregnancy, where the systemic immunomodulators used for prurigo nodularis are restricted, limiting treatment options.
 
 [^stander-2020-nemolizumab-pn]: Ständer S, Yosipovitch G, Legat FJ, et al. Trial of nemolizumab in moderate-to-severe prurigo nodularis. *N Engl J Med.* 2020;382(8):706-716. [doi:10.1056/NEJMoa1908316](https://doi.org/10.1056/NEJMoa1908316) · [PubMed 32053299](https://pubmed.ncbi.nlm.nih.gov/32053299/)
 [^briggs-2022-dupilumab-pn-liberty]: Briggs JN, Cho YY, Khanna R, et al. Dupilumab for prurigo nodularis: the LIBERTY-PN PRIME and PRIME2 trials. *N Engl J Med.* 2022;387(18):1683-1693. [doi:10.1056/NEJMoa2205093](https://doi.org/10.1056/NEJMoa2205093) · [PubMed 36300905](https://pubmed.ncbi.nlm.nih.gov/36300905/)

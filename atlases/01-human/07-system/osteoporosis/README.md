@@ -217,6 +217,15 @@ cross_links:
   - target: 01-human/07-system/gvhd
     relation: connects-to
     note: "Its transplant survivors lose bone: the prolonged high-dose corticosteroids used to control chronic graft-versus-host disease cause steroid-induced osteoporosis and avascular necrosis."
+  - target: 01-human/07-system/respiratory-system
+    relation: connects-to
+    note: "Spinal fractures crush the chest: multiple thoracic vertebral compression fractures cause kyphosis that restricts lung expansion, reducing vital capacity and worsening breathlessness."
+  - target: 01-human/07-system/nervous-system
+    relation: connects-to
+    note: "Collapsing vertebrae reach the nerves: vertebral fractures cause chronic back pain and can compress the spinal cord or nerve roots, while fall-related fractures risk head injury."
+  - target: 01-human/07-system/cardiovascular-system
+    relation: connects-to
+    note: "Bone loss and vessel calcification track together: low bone density and vascular calcification share mechanisms in the 'calcification paradox', linking osteoporosis to atherosclerotic disease."
 ---
 
 # Osteoporosis
@@ -391,6 +400,9 @@ All newly diagnosed osteoporosis should be evaluated for secondary causes: CBC (
 - `connects-to` → **[Immune System](../immune-system/README.md)** — Immune signals govern bone turnover: the RANK-RANKL-OPG axis links the immune and skeletal systems, so the chronic inflammation of immune and rheumatic disease drives the osteoclast activity that thins bone.
 - `connects-to` → **[Stroke](../stroke/README.md)** — Stroke and weak bone form a vicious circle: post-stroke immobility and disuse accelerate bone loss on the paretic side, and the resulting osteoporosis plus fall risk makes hip fracture far more likely.
 - `connects-to` → **[Graft-versus-Host Disease](../gvhd/README.md)** — Its transplant survivors lose bone: the prolonged high-dose corticosteroids used to control chronic graft-versus-host disease cause steroid-induced osteoporosis and avascular necrosis.
+- `connects-to` → **[Respiratory System](../respiratory-system/README.md)** — Spinal fractures crush the chest: multiple thoracic vertebral compression fractures cause kyphosis that restricts lung expansion, reducing vital capacity and worsening breathlessness.
+- `connects-to` → **[Nervous System](../nervous-system/README.md)** — Collapsing vertebrae reach the nerves: vertebral fractures cause chronic back pain and can compress the spinal cord or nerve roots, while fall-related fractures risk head injury.
+- `connects-to` → **[Cardiovascular System](../cardiovascular-system/README.md)** — Bone loss and vessel calcification track together: low bone density and vascular calcification share mechanisms in the 'calcification paradox', linking osteoporosis to atherosclerotic disease.
 
 [^kanis-2019-who-osteoporosis]: Kanis JA, Cooper C, Rizzoli R, Reginster JY. European guidance for the diagnosis and management of osteoporosis in postmenopausal women. *Osteoporos Int.* 2019;30(1):3-44. [doi:10.1007/s00198-018-4704-5](https://doi.org/10.1007/s00198-018-4704-5) · [PubMed 30324412](https://pubmed.ncbi.nlm.nih.gov/30324412/)
 [^cosman-2016-romosozumab]: Cosman F, Crittenden DB, Adachi JD, et al. Romosozumab treatment in postmenopausal women with osteoporosis. *N Engl J Med.* 2016;375(16):1532-1543. [doi:10.1056/NEJMoa1607948](https://doi.org/10.1056/NEJMoa1607948) · [PubMed 27641143](https://pubmed.ncbi.nlm.nih.gov/27641143/)
