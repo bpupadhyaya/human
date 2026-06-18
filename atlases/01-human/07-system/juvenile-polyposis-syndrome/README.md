@@ -241,6 +241,15 @@ cross_links:
   - target: 02-pathogen/02-bacteria/staphylococcus-aureus
     relation: connects-to
     note: "Lung AVMs open a path to brain abscess: SMAD4 juvenile polyposis overlaps hereditary haemorrhagic telangiectasia, whose pulmonary arteriovenous malformations let bacteria like Staphylococcus aureus bypass the lung and seed brain abscesses."
+  - target: 01-human/07-system/marfan-syndrome
+    relation: connects-to
+    note: "Diseases of one signalling axis: juvenile polyposis arises from loss of SMAD4, the central transducer of TGF-β/BMP signalling, while Marfan syndrome stems from FBN1 loss that unleashes excess TGF-β—opposite disturbances of the same pathway."
+  - target: 01-human/05-tissue/arterial-wall
+    relation: connects-to
+    note: "SMAD4 keeps the vessel wall intact: SMAD4 relays the BMP9/ALK1 signals maintaining the arterial wall, so its loss in SMAD4-type juvenile polyposis yields the fragile telangiectatic vessels and AVMs of overlapping hereditary haemorrhagic telangiectasia."
+  - target: 01-human/05-tissue/endocardium
+    relation: connects-to
+    note: "The same signal builds the heart valves: TGF-β/BMP-SMAD4 signalling drives the endocardial cushion transformation that forms cardiac valves, so SMAD4 loss in juvenile polyposis can accompany the congenital valvular and septal anomalies seen in its HHT overlap."
 ---
 
 # Juvenile Polyposis Syndrome
@@ -445,6 +454,9 @@ No approved chemopreventive agents specifically for JPS. Options under investiga
 - `connects-to` → **[Cancer Chemotherapy](../../../03-medicine/01-modern/13-cancer/cancer-chemotherapy/README.md)** — Chemo for the cancers it breeds: juvenile polyposis carries a high lifetime risk of colorectal and gastric cancer, treated with standard chemotherapy when surveillance and surgery are outrun.
 - `connects-to` → **[Checkpoint Inhibitors](../../../03-medicine/01-modern/13-cancer/checkpoint-inhibitors/README.md)** — Mostly microsatellite-stable: like FAP, the gastrointestinal cancers of juvenile polyposis are usually microsatellite-stable and, unlike Lynch tumours, respond poorly to PD-1 checkpoint inhibitors.
 - `connects-to` → **[Staphylococcus aureus](../../../02-pathogen/02-bacteria/staphylococcus-aureus/README.md)** — Lung AVMs open a path to brain abscess: SMAD4 juvenile polyposis overlaps hereditary haemorrhagic telangiectasia, whose pulmonary arteriovenous malformations let bacteria like Staphylococcus aureus bypass the lung and seed brain abscesses.
+- `connects-to` → **[Marfan Syndrome](../marfan-syndrome/README.md)** — Diseases of one signalling axis: juvenile polyposis arises from loss of SMAD4, the central transducer of TGF-β/BMP signalling, while Marfan syndrome stems from FBN1 loss that unleashes excess TGF-β—opposite disturbances of the same pathway.
+- `connects-to` → **[Arterial Wall](../../05-tissue/arterial-wall/README.md)** — SMAD4 keeps the vessel wall intact: SMAD4 relays the BMP9/ALK1 signals maintaining the arterial wall, so its loss in SMAD4-type juvenile polyposis yields the fragile telangiectatic vessels and AVMs of overlapping hereditary haemorrhagic telangiectasia.
+- `connects-to` → **[Endocardium](../../05-tissue/endocardium/README.md)** — The same signal builds the heart valves: TGF-β/BMP-SMAD4 signalling drives the endocardial cushion transformation that forms cardiac valves, so SMAD4 loss in juvenile polyposis can accompany the congenital valvular and septal anomalies seen in its HHT overlap.
 
 [^howe-1998-smad4-jps]: Howe JR, Roth S, Ringold JC, et al. Mutations in the SMAD4/DPC4 gene in juvenile polyposis. *Science.* 1998;280(5366):1086-1088. [doi:10.1126/science.280.5366.1086](https://doi.org/10.1126/science.280.5366.1086) · [PubMed 9582123](https://pubmed.ncbi.nlm.nih.gov/9582123/)
 [^aretz-2007-jps-spectrum]: Aretz S, Stienen D, Uhlhaas S, et al. High proportion of large genomic deletions and a genotype-phenotype update in 80 unrelated families with juvenile polyposis syndrome. *J Med Genet.* 2007;44(11):702-709. [doi:10.1136/jmg.2007.051839](https://doi.org/10.1136/jmg.2007.051839) · [PubMed 17601924](https://pubmed.ncbi.nlm.nih.gov/17601924/)
