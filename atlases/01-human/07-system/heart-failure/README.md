@@ -208,6 +208,15 @@ cross_links:
   - target: 01-human/07-system/generalized-anxiety-disorder
     relation: connects-to
     note: "Breathlessness and a fragile prognosis breed worry: the dyspnoea, fear of decompensation and burdensome regimen of heart failure foster chronic anxiety alongside its well-recognised depression."
+  - target: 01-human/07-system/respiratory-system
+    relation: connects-to
+    note: "It floods the lungs: a failing left heart backs pressure into the pulmonary circulation, causing congestion and oedema with orthopnoea, paroxysmal nocturnal dyspnoea, pleural effusions and Cheyne-Stokes breathing."
+  - target: 01-human/07-system/renal-system
+    relation: connects-to
+    note: "Heart and kidney fail together: in cardiorenal syndrome poor cardiac output and venous congestion impair renal function, while fluid retention worsens the heart, and diuretic resistance complicates both."
+  - target: 01-human/07-system/endocrine-system
+    relation: connects-to
+    note: "Hormones drive its decline: neurohormonal activation of the renin-angiotensin-aldosterone and sympathetic systems propels heart failure, so blocking them with ACE inhibitors, MRAs and beta-blockers is the core of therapy."
 ---
 
 # Heart Failure
@@ -344,6 +353,9 @@ Normal hearts increase stroke volume with increasing preload (Starling curve). T
 - `connects-to` → **[Iron-Deficiency Anemia](../iron-deficiency-anemia/README.md)** — Iron deficiency is rife in failing hearts: both absolute and functional iron deficiency are very common in heart failure, worsening symptoms and exercise capacity, so intravenous iron is a recognised therapy.
 - `connects-to` → **[Digestive System](../digestive-system/README.md)** — A congested gut starves the body: venous congestion and low output in heart failure cause bowel-wall oedema with malabsorption and a leaky gut, driving the cardiac cachexia that marks advanced disease.
 - `connects-to` → **[Generalized Anxiety Disorder](../generalized-anxiety-disorder/README.md)** — Breathlessness and a fragile prognosis breed worry: the dyspnoea, fear of decompensation and burdensome regimen of heart failure foster chronic anxiety alongside its well-recognised depression.
+- `connects-to` → **[Respiratory System](../respiratory-system/README.md)** — It floods the lungs: a failing left heart backs pressure into the pulmonary circulation, causing congestion and oedema with orthopnoea, paroxysmal nocturnal dyspnoea, pleural effusions and Cheyne-Stokes breathing.
+- `connects-to` → **[Renal System](../renal-system/README.md)** — Heart and kidney fail together: in cardiorenal syndrome poor cardiac output and venous congestion impair renal function, while fluid retention worsens the heart, and diuretic resistance complicates both.
+- `connects-to` → **[Endocrine System](../endocrine-system/README.md)** — Hormones drive its decline: neurohormonal activation of the renin-angiotensin-aldosterone and sympathetic systems propels heart failure, so blocking them with ACE inhibitors, MRAs and beta-blockers is the core of therapy.
 
 ## Pathology
 

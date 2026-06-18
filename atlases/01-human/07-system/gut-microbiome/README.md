@@ -208,6 +208,15 @@ cross_links:
   - target: 01-human/07-system/reproductive-system
     relation: connects-to
     note: "Gut and genital microbiomes are linked: the gut seeds the vaginal flora and shapes systemic oestrogen via the estrobolome, while birth and breastfeeding transfer the founding microbiome to the newborn."
+  - target: 01-human/07-system/cardiovascular-system
+    relation: connects-to
+    note: "Its metabolites reach the heart and vessels: gut microbes generate TMAO that promotes atherosclerosis and short-chain fatty acids that help set blood pressure, linking the microbiome to cardiovascular risk."
+  - target: 01-human/07-system/respiratory-system
+    relation: connects-to
+    note: "A gut-lung axis shapes the airways: the intestinal microbiome trains systemic and mucosal immunity, influencing susceptibility to respiratory infection and the development of asthma and allergy."
+  - target: 01-human/07-system/musculoskeletal-system
+    relation: connects-to
+    note: "A gut-bone axis tunes the skeleton: short-chain fatty acids, immune signalling and the absorption of calcium and vitamin K let the microbiome modulate bone density and osteoporosis risk."
 ---
 
 # Gut Microbiome
@@ -349,6 +358,9 @@ The microbiome influences CNS function via multiple pathways:
 - `connects-to` → **[Digestive System](../digestive-system/README.md)** — It lives in and shapes the gut it inhabits: the microbiome ferments fibre into short-chain fatty acids that feed colonocytes, metabolises bile acids and trains gut immunity, fundamentally shaping digestion.
 - `connects-to` → **[Endocrine System](../endocrine-system/README.md)** — The microbes act as an endocrine organ: gut bacteria produce and modulate hormones, regulate the estrobolome that recycles oestrogen and shape insulin and appetite signalling through their metabolites.
 - `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — Gut and genital microbiomes are linked: the gut seeds the vaginal flora and shapes systemic oestrogen via the estrobolome, while birth and breastfeeding transfer the founding microbiome to the newborn.
+- `connects-to` → **[Cardiovascular System](../cardiovascular-system/README.md)** — Its metabolites reach the heart and vessels: gut microbes generate TMAO that promotes atherosclerosis and short-chain fatty acids that help set blood pressure, linking the microbiome to cardiovascular risk.
+- `connects-to` → **[Respiratory System](../respiratory-system/README.md)** — A gut-lung axis shapes the airways: the intestinal microbiome trains systemic and mucosal immunity, influencing susceptibility to respiratory infection and the development of asthma and allergy.
+- `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — A gut-bone axis tunes the skeleton: short-chain fatty acids, immune signalling and the absorption of calcium and vitamin K let the microbiome modulate bone density and osteoporosis risk.
 
 ## Pathology
 
