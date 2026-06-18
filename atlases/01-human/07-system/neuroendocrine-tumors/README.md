@@ -223,6 +223,15 @@ cross_links:
   - target: 01-human/07-system/musculoskeletal-system
     relation: connects-to
     note: "It seeds the bones as dense deposits: well-differentiated neuroendocrine tumours characteristically produce osteoblastic (sclerotic) bone metastases detectable on functional imaging."
+  - target: 03-medicine/01-modern/13-cancer/targeted-therapy
+    relation: connects-to
+    note: "It is the model for receptor-targeted treatment: somatostatin analogues, Lu-177 DOTATATE peptide-receptor radionuclide therapy and mTOR inhibitors exploit neuroendocrine tumours' somatostatin receptors and biology."
+  - target: 01-human/07-system/renal-system
+    relation: connects-to
+    note: "Its radionuclide therapy taxes the kidney: peptide-receptor radionuclide therapy concentrates in and can damage the kidneys, requiring amino-acid renal protection during treatment."
+  - target: 01-human/07-system/reproductive-system
+    relation: connects-to
+    note: "They can arise in the gonads: primary neuroendocrine tumours (carcinoids) occur in the ovary and testis, and ovarian carcinoids can secrete hormones causing the carcinoid syndrome."
 ---
 
 # Neuroendocrine Tumors
@@ -396,6 +405,9 @@ Treatment identical to SCLC: cisplatin (or carboplatin) + etoposide (4-6 cycles)
 - `connects-to` → **[Cardiovascular System](../cardiovascular-system/README.md)** — Serotonin scars the right heart: carcinoid heart disease is a hallmark complication in which serotonin from the tumour fibroses the tricuspid and pulmonary valves, causing right heart failure.
 - `connects-to` → **[Lymphatic System](../lymphatic-system/README.md)** — It spreads to nodes and liver with desmoplasia: NETs metastasise to mesenteric lymph nodes, provoking a dense desmoplastic reaction that kinks the bowel, and characteristically to the liver.
 - `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — It seeds the bones as dense deposits: well-differentiated neuroendocrine tumours characteristically produce osteoblastic (sclerotic) bone metastases detectable on functional imaging.
+- `connects-to` → **[Targeted Therapy](../../../03-medicine/01-modern/13-cancer/targeted-therapy/README.md)** — It is the model for receptor-targeted treatment: somatostatin analogues, Lu-177 DOTATATE peptide-receptor radionuclide therapy and mTOR inhibitors exploit neuroendocrine tumours' somatostatin receptors and biology.
+- `connects-to` → **[Renal System](../renal-system/README.md)** — Its radionuclide therapy taxes the kidney: peptide-receptor radionuclide therapy concentrates in and can damage the kidneys, requiring amino-acid renal protection during treatment.
+- `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — They can arise in the gonads: primary neuroendocrine tumours (carcinoids) occur in the ovary and testis, and ovarian carcinoids can secrete hormones causing the carcinoid syndrome.
 
 [^yao-2011-radiant3]: Yao JC, Shah MH, Ito T, et al. Everolimus for advanced pancreatic neuroendocrine tumors. *N Engl J Med.* 2011;364(6):514-523. [doi:10.1056/NEJMoa1009290](https://doi.org/10.1056/NEJMoa1009290) · [PubMed 21306237](https://pubmed.ncbi.nlm.nih.gov/21306237/)
 [^raymond-2011-sunitinib-pnet]: Raymond E, Dahan L, Raoul JL, et al. Sunitinib malate for the treatment of pancreatic neuroendocrine tumors. *N Engl J Med.* 2011;364(6):501-513. [doi:10.1056/NEJMoa1003825](https://doi.org/10.1056/NEJMoa1003825) · [PubMed 21306236](https://pubmed.ncbi.nlm.nih.gov/21306236/)
