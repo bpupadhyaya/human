@@ -208,6 +208,15 @@ cross_links:
   - target: 01-human/07-system/generalized-anxiety-disorder
     relation: connects-to
     note: "An unpredictable haemolytic, clotting disease breeds worry: the paroxysmal haemolysis, lifelong thrombosis risk and indefinite infusional therapy of PNH foster chronic health anxiety alongside depression."
+  - target: 01-human/07-system/integumentary-system
+    relation: connects-to
+    note: "It is visible at the skin and bedside: haemolysis causes jaundice and pallor with dark cola-coloured morning urine, while dermal thrombosis can produce painful purpuric skin lesions and necrosis."
+  - target: 01-human/07-system/respiratory-system
+    relation: connects-to
+    note: "Its clots can lodge in the lungs: beyond NO-driven pulmonary hypertension, the thrombotic tendency of PNH causes pulmonary embolism with acute breathlessness and chest pain."
+  - target: 01-human/07-system/cardiovascular-system
+    relation: connects-to
+    note: "It clots arteries as well as veins: although venous thrombosis dominates, PNH also causes arterial events including myocardial infarction and peripheral arterial occlusion."
 ---
 
 # Paroxysmal Nocturnal Hemoglobinuria
@@ -363,6 +372,9 @@ When PIGA is mutated in an HSC → all progeny cells (RBCs, WBCs, platelets) of 
 - `connects-to` → **[Digestive System](../digestive-system/README.md)** — It clots the gut's veins and cramps its muscle: PNH causes hepatic and mesenteric vein thrombosis (Budd-Chiari) and, from nitric-oxide depletion by free haemoglobin, oesophageal spasm and severe abdominal pain.
 - `connects-to` → **[Nervous System](../nervous-system/README.md)** — It can clot the brain's veins: PNH's intense prothrombotic state predisposes to cerebral venous sinus thrombosis, and free-haemoglobin nitric-oxide scavenging drives the disabling headaches it causes.
 - `connects-to` → **[Generalized Anxiety Disorder](../generalized-anxiety-disorder/README.md)** — An unpredictable haemolytic, clotting disease breeds worry: the paroxysmal haemolysis, lifelong thrombosis risk and indefinite infusional therapy of PNH foster chronic health anxiety alongside depression.
+- `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — It is visible at the skin and bedside: haemolysis causes jaundice and pallor with dark cola-coloured morning urine, while dermal thrombosis can produce painful purpuric skin lesions and necrosis.
+- `connects-to` → **[Respiratory System](../respiratory-system/README.md)** — Its clots can lodge in the lungs: beyond NO-driven pulmonary hypertension, the thrombotic tendency of PNH causes pulmonary embolism with acute breathlessness and chest pain.
+- `connects-to` → **[Cardiovascular System](../cardiovascular-system/README.md)** — It clots arteries as well as veins: although venous thrombosis dominates, PNH also causes arterial events including myocardial infarction and peripheral arterial occlusion.
 
 ---
 

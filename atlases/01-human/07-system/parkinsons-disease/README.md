@@ -214,6 +214,15 @@ cross_links:
   - target: 01-human/07-system/renal-system
     relation: connects-to
     note: "Autonomic failure unsettles the bladder: Parkinson's disrupts autonomic control of the bladder, causing urinary urgency, frequency and nocturia, with retention and recurrent infection in advanced disease."
+  - target: 01-human/07-system/cardiovascular-system
+    relation: connects-to
+    note: "Autonomic failure drops the blood pressure: Parkinson's causes orthostatic hypotension — a major non-motor feature worsened by levodopa — leading to dizziness, syncope and falls on standing."
+  - target: 01-human/07-system/integumentary-system
+    relation: connects-to
+    note: "It shows on the skin: seborrhoeic dermatitis with a greasy, scaly face and excess sweating are classic dermatological features of Parkinson's, reflecting its autonomic and sebaceous dysregulation."
+  - target: 01-human/07-system/respiratory-system
+    relation: connects-to
+    note: "Swallowing failure floods the lungs: dysphagia leads to aspiration pneumonia — a leading cause of death in Parkinson's — while rigidity of the chest wall restricts breathing."
 ---
 
 # Parkinson's Disease
@@ -418,6 +427,9 @@ PD is primarily a disease of aging (mean onset ~60 years), but **~10–15% of ca
 - `connects-to` → **[Gambling Disorder](../gambling-disorder/README.md)** — Its dopamine drugs unleash compulsions: dopamine-agonist therapy for Parkinson's classically triggers impulse-control disorders — pathological gambling, hypersexuality and compulsive shopping — that resolve when the drug is reduced.
 - `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — Rigidity and falls batter the skeleton: the bradykinesia, postural instability and stooped camptocormic posture of Parkinson's cause frequent falls and fractures, contractures and chronic musculoskeletal pain.
 - `connects-to` → **[Renal System](../renal-system/README.md)** — Autonomic failure unsettles the bladder: Parkinson's disrupts autonomic control of the bladder, causing urinary urgency, frequency and nocturia, with retention and recurrent infection in advanced disease.
+- `connects-to` → **[Cardiovascular System](../cardiovascular-system/README.md)** — Autonomic failure drops the blood pressure: Parkinson's causes orthostatic hypotension — a major non-motor feature worsened by levodopa — leading to dizziness, syncope and falls on standing.
+- `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — It shows on the skin: seborrhoeic dermatitis with a greasy, scaly face and excess sweating are classic dermatological features of Parkinson's, reflecting its autonomic and sebaceous dysregulation.
+- `connects-to` → **[Respiratory System](../respiratory-system/README.md)** — Swallowing failure floods the lungs: dysphagia leads to aspiration pneumonia — a leading cause of death in Parkinson's — while rigidity of the chest wall restricts breathing.
 
 [^kalia-2015-pd-review]: Kalia LV, Lang AE. Parkinson's disease. *Lancet.* 2015;386(9996):896-912. [doi:10.1016/S0140-6736(14)61393-3](https://doi.org/10.1016/S0140-6736(14)61393-3) · [PubMed 25904081](https://pubmed.ncbi.nlm.nih.gov/25904081/)
 [^spillantini-1997-lewy-body]: Spillantini MG, Schmidt ML, Lee VM, Trojanowski JQ, Jakes R, Goedert M. Alpha-synuclein in Lewy bodies. *Nature.* 1997;388(6645):839-840. [doi:10.1038/42166](https://doi.org/10.1038/42166) · [PubMed 9278044](https://pubmed.ncbi.nlm.nih.gov/9278044/)
