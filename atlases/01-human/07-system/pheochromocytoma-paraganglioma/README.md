@@ -232,6 +232,15 @@ cross_links:
   - target: 01-human/07-system/neuroendocrine-tumors
     relation: connects-to
     note: "It belongs to the neuroendocrine family: phaeochromocytomas and paragangliomas are catecholamine-secreting neuroendocrine tumours, sharing somatostatin-receptor imaging and PRRT with other NETs."
+  - target: 03-medicine/01-modern/13-cancer/cancer-chemotherapy
+    relation: connects-to
+    note: "Chemo for malignant disease: the cyclophosphamide-vincristine-dacarbazine (CVD) regimen treats metastatic phaeochromocytoma and paraganglioma, alongside MIBG and peptide-receptor radionuclide therapy."
+  - target: 01-human/07-system/polycythemia-vera
+    relation: connects-to
+    note: "Two routes to too many red cells: EPAS1 (HIF2A)-mutant paragangliomas can drive erythropoietin-mediated polycythaemia (Pacak-Zhuang syndrome), a secondary erythrocytosis distinct from the JAK2-driven polycythaemia vera."
+  - target: 03-medicine/01-modern/13-cancer/checkpoint-inhibitors
+    relation: connects-to
+    note: "Immunotherapy for the aggressive few: metastatic phaeochromocytoma and paraganglioma, though rare, are being trialled with PD-1 checkpoint inhibitors when other options are exhausted."
 ---
 
 # Pheochromocytoma/Paraganglioma
@@ -445,6 +454,9 @@ Active in Cluster 1 (MET/AXL co-expressed in SDH-deficient tumors); Phase 2 CABO
 - `connects-to` → **[Calcium-channel Blockers](../../../03-medicine/01-modern/04-cardio/calcium-channel-blockers/README.md)** — They help control the surges: calcium-channel blockers assist in managing the paroxysmal hypertension of phaeochromocytoma, after alpha-blockade and before any beta-blocker is added.
 - `connects-to` → **[Targeted Therapy](../../../03-medicine/01-modern/13-cancer/targeted-therapy/README.md)** — Metastatic disease gets targeted treatment: MIBG radiotherapy, somatostatin-receptor PRRT and kinase inhibitors such as sunitinib treat unresectable phaeochromocytoma and paraganglioma.
 - `connects-to` → **[Neuroendocrine Tumors](../neuroendocrine-tumors/README.md)** — It belongs to the neuroendocrine family: phaeochromocytomas and paragangliomas are catecholamine-secreting neuroendocrine tumours, sharing somatostatin-receptor imaging and PRRT with other NETs.
+- `connects-to` → **[Cancer Chemotherapy](../../../03-medicine/01-modern/13-cancer/cancer-chemotherapy/README.md)** — Chemo for malignant disease: the cyclophosphamide-vincristine-dacarbazine (CVD) regimen treats metastatic phaeochromocytoma and paraganglioma, alongside MIBG and peptide-receptor radionuclide therapy.
+- `connects-to` → **[Polycythemia Vera](../polycythemia-vera/README.md)** — Two routes to too many red cells: EPAS1 (HIF2A)-mutant paragangliomas can drive erythropoietin-mediated polycythaemia (Pacak-Zhuang syndrome), a secondary erythrocytosis distinct from the JAK2-driven polycythaemia vera.
+- `connects-to` → **[Checkpoint Inhibitors](../../../03-medicine/01-modern/13-cancer/checkpoint-inhibitors/README.md)** — Immunotherapy for the aggressive few: metastatic phaeochromocytoma and paraganglioma, though rare, are being trialled with PD-1 checkpoint inhibitors when other options are exhausted.
 
 [^lenders-2014-pheo-guideline]: Lenders JW, Duh QY, Eisenhofer G, et al. Pheochromocytoma and paraganglioma: an endocrine society clinical practice guideline. *J Clin Endocrinol Metab.* 2014;99(6):1915-1942. [doi:10.1210/jc.2014-1498](https://doi.org/10.1210/jc.2014-1498) · [PubMed 24893135](https://pubmed.ncbi.nlm.nih.gov/24893135/)
 [^baudin-2021-firstmappp-sunitinib]: Baudin E, Goichot B, Berruti A, et al. First International Randomized Study in Malignant Progressive Pheochromocytoma and Paragangliomas (FIRSTMAPPP). *Ann Oncol.* 2021;32(10):1245-1254. [doi:10.1016/j.annonc.2021.07.009](https://doi.org/10.1016/j.annonc.2021.07.009) · [PubMed 34246769](https://pubmed.ncbi.nlm.nih.gov/34246769/)

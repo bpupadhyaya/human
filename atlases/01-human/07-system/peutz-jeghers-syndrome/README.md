@@ -232,6 +232,15 @@ cross_links:
   - target: 03-medicine/03-food/dietary-fiber
     relation: connects-to
     note: "Diet supports the at-risk gut: a high-fibre diet aids gastrointestinal health, a backdrop to the intensive endoscopic surveillance that Peutz-Jeghers syndrome's polyp and cancer risk demands."
+  - target: 03-medicine/01-modern/13-cancer/cancer-chemotherapy
+    relation: connects-to
+    note: "Chemo for the many cancers it brings: Peutz-Jeghers syndrome sharply raises lifetime risk of gastrointestinal, breast, pancreatic and gynaecological cancers, treated with standard chemotherapy."
+  - target: 01-human/07-system/carney-complex
+    relation: connects-to
+    note: "Pigmentation marks both: like Carney complex's lentigines, the mucocutaneous pigmentation of Peutz-Jeghers flags an inherited multi-tumour syndrome, the spots a clue to internal cancer risk."
+  - target: 03-medicine/01-modern/13-cancer/checkpoint-inhibitors
+    relation: connects-to
+    note: "A marker of immunotherapy resistance: loss of STK11/LKB1, the gene behind Peutz-Jeghers, makes lung and other cancers resistant to PD-1 checkpoint inhibitors, a key negative predictive biomarker."
 ---
 
 # Peutz-Jeghers Syndrome
@@ -427,6 +436,9 @@ Without surveillance: cumulative cancer risk reaches ~85-93% by age 70 (all canc
 - `connects-to` → **[Targeted Therapy](../../../03-medicine/01-modern/13-cancer/targeted-therapy/README.md)** — mTOR inhibition is being explored: because STK11 loss disinhibits mTOR, rapamycin-class drugs are studied to slow the hamartomatous polyps of Peutz-Jeghers syndrome.
 - `connects-to` → **[Hereditary Diffuse Gastric Cancer](../hereditary-diffuse-gastric-cancer/README.md)** — Shared gastric and breast risk: like hereditary diffuse gastric cancer, Peutz-Jeghers syndrome raises the risk of gastric and lobular breast cancer, overlapping their surveillance.
 - `connects-to` → **[Dietary Fiber](../../../03-medicine/03-food/dietary-fiber/README.md)** — Diet supports the at-risk gut: a high-fibre diet aids gastrointestinal health, a backdrop to the intensive endoscopic surveillance that Peutz-Jeghers syndrome's polyp and cancer risk demands.
+- `connects-to` → **[Cancer Chemotherapy](../../../03-medicine/01-modern/13-cancer/cancer-chemotherapy/README.md)** — Chemo for the many cancers it brings: Peutz-Jeghers syndrome sharply raises lifetime risk of gastrointestinal, breast, pancreatic and gynaecological cancers, treated with standard chemotherapy.
+- `connects-to` → **[Carney Complex](../carney-complex/README.md)** — Pigmentation marks both: like Carney complex's lentigines, the mucocutaneous pigmentation of Peutz-Jeghers flags an inherited multi-tumour syndrome, the spots a clue to internal cancer risk.
+- `connects-to` → **[Checkpoint Inhibitors](../../../03-medicine/01-modern/13-cancer/checkpoint-inhibitors/README.md)** — A marker of immunotherapy resistance: loss of STK11/LKB1, the gene behind Peutz-Jeghers, makes lung and other cancers resistant to PD-1 checkpoint inhibitors, a key negative predictive biomarker.
 
 ---
 
