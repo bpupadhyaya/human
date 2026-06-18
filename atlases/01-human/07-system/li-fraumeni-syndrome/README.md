@@ -241,6 +241,15 @@ cross_links:
   - target: 01-human/07-system/neurofibromatosis-type-1
     relation: connects-to
     note: "Childhood cancer predispositions overlap: like neurofibromatosis type 1, Li-Fraumeni syndrome predisposes to childhood CNS tumours and sarcomas, both demanding paediatric cancer surveillance."
+  - target: 01-human/05-tissue/cortical-bone
+    relation: connects-to
+    note: "Where its signature sarcoma grows: osteosarcoma, a defining Li-Fraumeni cancer, arises in cortical bone where p53 loss frees osteoblast precursors to proliferate—and radiotherapy adds further bone-sarcoma risk in these radiosensitive patients."
+  - target: 03-medicine/01-modern/13-cancer/targeted-therapy
+    relation: connects-to
+    note: "The hardest target is the missing guardian: Li-Fraumeni cells lack functional p53, so MDM2 inhibitors that stabilise wild-type p53 fail; targeted therapy turns instead to mutant-p53 reactivators and the downstream vulnerabilities of p53 loss."
+  - target: 01-human/07-system/synovial-sarcoma
+    relation: connects-to
+    note: "Part of its sarcoma spectrum: beyond osteosarcoma and rhabdomyosarcoma, Li-Fraumeni predisposes to soft-tissue sarcomas like synovial sarcoma, though synovial sarcoma's defining SS18-SSX fusion contrasts with the genome-wide instability p53 loss brings."
 ---
 
 # Li-Fraumeni Syndrome
@@ -466,6 +475,9 @@ Annual surveillance significantly reduces mortality in LFS carriers (Villani 201
 - `connects-to` → **[Cancer Chemotherapy](../../../03-medicine/01-modern/13-cancer/cancer-chemotherapy/README.md)** — Chemo with a radiation caveat: Li-Fraumeni cancers are treated with chemotherapy, but radiotherapy is minimised because germline TP53 loss makes irradiated tissue prone to second cancers.
 - `connects-to` → **[Lynch Syndrome](../lynch-syndrome/README.md)** — The two great hereditary cancer syndromes: Li-Fraumeni (germline TP53) and Lynch syndrome (mismatch-repair loss) are the archetypal autosomal-dominant multi-cancer predispositions, differing in tumour spectrum and mechanism.
 - `connects-to` → **[Neurofibromatosis Type 1](../neurofibromatosis-type-1/README.md)** — Childhood cancer predispositions overlap: like neurofibromatosis type 1, Li-Fraumeni syndrome predisposes to childhood CNS tumours and sarcomas, both demanding paediatric cancer surveillance.
+- `connects-to` → **[Cortical Bone](../../05-tissue/cortical-bone/README.md)** — Where its signature sarcoma grows: osteosarcoma, a defining Li-Fraumeni cancer, arises in cortical bone where p53 loss frees osteoblast precursors to proliferate—and radiotherapy adds further bone-sarcoma risk in these radiosensitive patients.
+- `connects-to` → **[Targeted Therapy](../../../03-medicine/01-modern/13-cancer/targeted-therapy/README.md)** — The hardest target is the missing guardian: Li-Fraumeni cells lack functional p53, so MDM2 inhibitors that stabilise wild-type p53 fail; targeted therapy turns instead to mutant-p53 reactivators and the downstream vulnerabilities of p53 loss.
+- `connects-to` → **[Synovial Sarcoma](../synovial-sarcoma/README.md)** — Part of its sarcoma spectrum: beyond osteosarcoma and rhabdomyosarcoma, Li-Fraumeni predisposes to soft-tissue sarcomas like synovial sarcoma, though synovial sarcoma's defining SS18-SSX fusion contrasts with the genome-wide instability p53 loss brings.
 
 [^bougeard-2015-lfs-chompret]: Bougeard G, Renaux-Petel M, Flaman JM, et al. Revisiting Li-Fraumeni Syndrome From TP53 Mutation Carriers. *J Clin Oncol.* 2015;33(21):2345-2352. [doi:10.1200/JCO.2014.59.5728](https://doi.org/10.1200/JCO.2014.59.5728) · [PubMed 26014290](https://pubmed.ncbi.nlm.nih.gov/26014290/)
 [^villani-2016-lfs-surveillance]: Villani A, Shore A, Wasserman JD, et al. Biochemical and imaging surveillance in germline TP53 mutation carriers with Li-Fraumeni syndrome: 11 year follow-up of a prospective observational study. *Lancet Oncol.* 2016;17(9):1295-1305. [doi:10.1016/S1470-2045(16)30249-2](https://doi.org/10.1016/S1470-2045(16)30249-2) · [PubMed 27501770](https://pubmed.ncbi.nlm.nih.gov/27501770/)

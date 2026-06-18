@@ -239,6 +239,15 @@ cross_links:
   - target: 03-medicine/01-modern/13-cancer/cancer-chemotherapy
     relation: connects-to
     note: "Its cancers are chemo-treated: the lymphomas and leukaemias arising in lymphoid tissue are treated with combination chemotherapy, the mainstay of curing many of them."
+  - target: 01-human/07-system/all
+    relation: connects-to
+    note: "Cancer of the lymphoid progenitor: acute lymphoblastic leukaemia is the malignant proliferation of immature B- or T-lymphocyte precursors, the founding cells of the lymphatic system, filling marrow and infiltrating lymph nodes, thymus and spleen."
+  - target: 01-human/07-system/multiple-myeloma
+    relation: connects-to
+    note: "The plasma cell at its end stage turns malignant: multiple myeloma is a clonal cancer of antibody-secreting plasma cells—the terminal product of the lymphatic system's B-cell lineage—accumulating in bone marrow and flooding blood with monoclonal immunoglobulin."
+  - target: 03-medicine/01-modern/13-cancer/checkpoint-inhibitors
+    relation: connects-to
+    note: "Where anti-tumour immunity is orchestrated: checkpoint inhibitors work largely within the lymphatic system, freeing T cells primed by dendritic cells in the lymph nodes that drain a tumour, so intact lymphatic drainage shapes the response to immunotherapy."
 ---
 
 # Lymphatic System
@@ -422,6 +431,9 @@ Enterocytes package dietary triglycerides + cholesterol + apoB-48 into chylomicr
 - `connects-to` → **[Peyer's Patches](../../05-tissue/peyers-patches/README.md)** — Gut lymphoid tissue is part of it: Peyer's patches and other gut-associated lymphoid tissue are major secondary lymphoid organs of the lymphatic system, sampling intestinal antigens to launch mucosal immunity.
 - `connects-to` → **[HIV-1](../../../02-pathogen/01-viruses/hiv-1/README.md)** — A virus that lives in the lymph nodes: HIV replicates in and progressively destroys lymphoid tissue, causing the generalised lymphadenopathy and follicular collapse that mark advancing infection.
 - `connects-to` → **[Cancer Chemotherapy](../../../03-medicine/01-modern/13-cancer/cancer-chemotherapy/README.md)** — Its cancers are chemo-treated: the lymphomas and leukaemias arising in lymphoid tissue are treated with combination chemotherapy, the mainstay of curing many of them.
+- `connects-to` → **[ALL](../all/README.md)** — Cancer of the lymphoid progenitor: acute lymphoblastic leukaemia is the malignant proliferation of immature B- or T-lymphocyte precursors, the founding cells of the lymphatic system, filling marrow and infiltrating lymph nodes, thymus and spleen.
+- `connects-to` → **[Multiple Myeloma](../multiple-myeloma/README.md)** — The plasma cell at its end stage turns malignant: multiple myeloma is a clonal cancer of antibody-secreting plasma cells—the terminal product of the lymphatic system's B-cell lineage—accumulating in bone marrow and flooding blood with monoclonal immunoglobulin.
+- `connects-to` → **[Checkpoint Inhibitors](../../../03-medicine/01-modern/13-cancer/checkpoint-inhibitors/README.md)** — Where anti-tumour immunity is orchestrated: checkpoint inhibitors work largely within the lymphatic system, freeing T cells primed by dendritic cells in the lymph nodes that drain a tumour, so intact lymphatic drainage shapes the response to immunotherapy.
 
 ## Pathology
 
