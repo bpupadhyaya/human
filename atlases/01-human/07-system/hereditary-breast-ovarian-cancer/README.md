@@ -205,6 +205,15 @@ cross_links:
   - target: 02-pathogen/03-fungi/aspergillus-fumigatus
     relation: connects-to
     note: "Chemotherapy opens the lung to mold: the neutropenia from chemotherapy for the breast and ovarian cancers of HBOC carriers can let inhaled Aspergillus invade as pulmonary aspergillosis."
+  - target: 01-human/07-system/wound-healing
+    relation: connects-to
+    note: "Risk-reducing surgery means major wounds: prophylactic mastectomy with reconstruction and salpingo-oophorectomy in HBOC carriers leave surgical wounds, sometimes irradiated, that must heal."
+  - target: 01-human/07-system/endocrine-system
+    relation: connects-to
+    note: "Removing the ovaries forces early menopause: the risk-reducing salpingo-oophorectomy recommended to BRCA carriers triggers abrupt surgical menopause with its hormonal, bone and cardiovascular consequences."
+  - target: 01-human/07-system/digestive-system
+    relation: connects-to
+    note: "Its drugs and its genes reach the gut: PARP inhibitors and platinum used in BRCA-mutant cancers cause nausea and GI toxicity, and BRCA mutations also raise pancreatic and other GI cancer risk."
 ---
 
 # Hereditary Breast and Ovarian Cancer
@@ -403,6 +412,9 @@ BRCA-mutant cells (HRD):
 - `connects-to` → **[Generalized Anxiety Disorder](../generalized-anxiety-disorder/README.md)** — A genetic verdict and hard choices breed worry: learning of a BRCA mutation, weighing risk-reducing mastectomy and oophorectomy, and lifelong screening foster chronic health anxiety in HBOC carriers.
 - `connects-to` → **[Neuropathic Pain](../neuropathic-pain/README.md)** — Its chemotherapy injures the nerves: the platinum and taxane chemotherapy and post-mastectomy surgery in HBOC carriers cause peripheral and post-surgical neuropathic pain.
 - `connects-to` → **[Aspergillus fumigatus](../../../02-pathogen/03-fungi/aspergillus-fumigatus/README.md)** — Chemotherapy opens the lung to mold: the neutropenia from chemotherapy for the breast and ovarian cancers of HBOC carriers can let inhaled Aspergillus invade as pulmonary aspergillosis.
+- `connects-to` → **[Wound Healing](../wound-healing/README.md)** — Risk-reducing surgery means major wounds: prophylactic mastectomy with reconstruction and salpingo-oophorectomy in HBOC carriers leave surgical wounds, sometimes irradiated, that must heal.
+- `connects-to` → **[Endocrine System](../endocrine-system/README.md)** — Removing the ovaries forces early menopause: the risk-reducing salpingo-oophorectomy recommended to BRCA carriers triggers abrupt surgical menopause with its hormonal, bone and cardiovascular consequences.
+- `connects-to` → **[Digestive System](../digestive-system/README.md)** — Its drugs and its genes reach the gut: PARP inhibitors and platinum used in BRCA-mutant cancers cause nausea and GI toxicity, and BRCA mutations also raise pancreatic and other GI cancer risk.
 
 ---
 

@@ -211,6 +211,15 @@ cross_links:
   - target: 01-human/07-system/osteoporosis
     relation: connects-to
     note: "Chronic inflammation and immobility cost bone: longstanding gout's persistent inflammation, joint damage and reduced mobility are associated with lower bone density and a raised fracture risk."
+  - target: 01-human/07-system/immune-system
+    relation: connects-to
+    note: "Urate crystals trip the innate alarm: monosodium urate crystals activate the NLRP3 inflammasome to release IL-1β, the autoinflammatory burst that drives the acute gout flare and the target of IL-1 blockers."
+  - target: 01-human/07-system/digestive-system
+    relation: connects-to
+    note: "Both the diet and the drugs hit the gut: purine- and fructose-rich food and alcohol drive hyperuricaemia, while colchicine causes diarrhoea and the NSAIDs used in flares inflame the stomach."
+  - target: 01-human/07-system/endocrine-system
+    relation: connects-to
+    note: "It is woven into metabolic disease: hyperuricaemia is tightly linked to insulin resistance and the metabolic syndrome, so gout clusters with the endocrine disturbances of obesity and diabetes."
 ---
 
 # Gout
@@ -368,6 +377,9 @@ The central mechanism linking MSU crystals to acute gouty arthritis is **NLRP3 i
 - `connects-to` → **[Wound Healing](../wound-healing/README.md)** — Tophi erode through the skin: large chronic tophi can ulcerate and discharge chalky urate, leaving open wounds over joints that are slow to heal and prone to infection.
 - `connects-to` → **[Staphylococcus aureus](../../../02-pathogen/02-bacteria/staphylococcus-aureus/README.md)** — Ulcerated tophi invite Staph: when a tophus breaks through the skin, Staphylococcus aureus readily colonizes and infects it, risking cellulitis, septic arthritis and bloodstream infection.
 - `connects-to` → **[Osteoporosis](../osteoporosis/README.md)** — Chronic inflammation and immobility cost bone: longstanding gout's persistent inflammation, joint damage and reduced mobility are associated with lower bone density and a raised fracture risk.
+- `connects-to` → **[Immune System](../immune-system/README.md)** — Urate crystals trip the innate alarm: monosodium urate crystals activate the NLRP3 inflammasome to release IL-1β, the autoinflammatory burst that drives the acute gout flare and the target of IL-1 blockers.
+- `connects-to` → **[Digestive System](../digestive-system/README.md)** — Both the diet and the drugs hit the gut: purine- and fructose-rich food and alcohol drive hyperuricaemia, while colchicine causes diarrhoea and the NSAIDs used in flares inflame the stomach.
+- `connects-to` → **[Endocrine System](../endocrine-system/README.md)** — It is woven into metabolic disease: hyperuricaemia is tightly linked to insulin resistance and the metabolic syndrome, so gout clusters with the endocrine disturbances of obesity and diabetes.
 
 [^dalbeth-2019-gout-primer]: Dalbeth N, Choi HK, Joosten LAB, et al. Gout. *Nat Rev Dis Primers.* 2019;5(1):69. [doi:10.1038/s41572-019-0115-y](https://doi.org/10.1038/s41572-019-0115-y) · [PubMed 31558729](https://pubmed.ncbi.nlm.nih.gov/31558729/)
 [^martinon-2006-nlrp3-gout]: Martinon F, Pétrilli V, Mayor A, Tardivel A, Tschopp J. Gout-associated uric acid crystals activate the NALP3 inflammasome. *Nature.* 2006;440(7081):237-241. [doi:10.1038/nature04516](https://doi.org/10.1038/nature04516) · [PubMed 16407889](https://pubmed.ncbi.nlm.nih.gov/16407889/)
