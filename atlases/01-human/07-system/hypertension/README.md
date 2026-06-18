@@ -241,6 +241,15 @@ cross_links:
   - target: 03-medicine/03-food/dietary-fiber
     relation: connects-to
     note: "Diet lowers the pressure: a high-fibre DASH-style diet rich in fruit, vegetables and whole grains meaningfully reduces blood pressure alongside sodium restriction."
+  - target: 03-medicine/01-modern/04-cardio/loop-diuretics
+    relation: connects-to
+    note: "Diuretics for tougher cases: when kidney function is reduced or heart failure coexists and thiazides fail, loop diuretics like furosemide lower blood pressure by offloading the salt and water volume that sustains hypertension."
+  - target: 01-human/05-tissue/arterial-wall
+    relation: connects-to
+    note: "Pressure remodels the vessel itself: sustained hypertension thickens and stiffens the arterial wall through smooth-muscle hypertrophy and hyaline arteriosclerosis, a structural change that raises pressure further and sets up aneurysm and dissection."
+  - target: 01-human/05-tissue/glomerulus
+    relation: connects-to
+    note: "High pressure scars the filter: hypertension transmitted to the glomerulus causes hyalinosis and glomerulosclerosis—hypertensive nephrosclerosis—one of the leading causes of chronic kidney disease and end-stage renal failure worldwide."
 ---
 
 # Hypertension
@@ -406,6 +415,9 @@ Blood pressure is determined by: BP = Cardiac Output × Peripheral Vascular Resi
 - `connects-to` → **[ARBs](../../../03-medicine/01-modern/04-cardio/arbs/README.md)** — A first-line RAAS blocker: angiotensin-receptor blockers like losartan lower blood pressure by blocking angiotensin II at its receptor, used like ACE inhibitors but without the cough.
 - `connects-to` → **[Statins](../../../03-medicine/01-modern/04-cardio/statins/README.md)** — Treating the company it keeps: most people with hypertension also need cholesterol lowering, and statins are added to cut the shared atherosclerotic cardiovascular risk.
 - `connects-to` → **[Dietary Fiber](../../../03-medicine/03-food/dietary-fiber/README.md)** — Diet lowers the pressure: a high-fibre DASH-style diet rich in fruit, vegetables and whole grains meaningfully reduces blood pressure alongside sodium restriction.
+- `connects-to` → **[Loop Diuretics](../../../03-medicine/01-modern/04-cardio/loop-diuretics/README.md)** — Diuretics for tougher cases: when kidney function is reduced or heart failure coexists and thiazides fail, loop diuretics like furosemide lower blood pressure by offloading the salt and water volume that sustains hypertension.
+- `connects-to` → **[Arterial Wall](../../05-tissue/arterial-wall/README.md)** — Pressure remodels the vessel itself: sustained hypertension thickens and stiffens the arterial wall through smooth-muscle hypertrophy and hyaline arteriosclerosis, a structural change that raises pressure further and sets up aneurysm and dissection.
+- `connects-to` → **[Glomerulus](../../05-tissue/glomerulus/README.md)** — High pressure scars the filter: hypertension transmitted to the glomerulus causes hyalinosis and glomerulosclerosis—hypertensive nephrosclerosis—one of the leading causes of chronic kidney disease and end-stage renal failure worldwide.
 
 ## Pathology
 

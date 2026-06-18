@@ -241,6 +241,15 @@ cross_links:
   - target: 01-human/07-system/lymphatic-system
     relation: connects-to
     note: "Brain drainage shapes its immunity: CNS antigens drain through meningeal lymphatics, and the limited immune surveillance of this route helps keep IDH-mutant glioma immunologically cold."
+  - target: 01-human/03-molecular/collagen
+    relation: connects-to
+    note: "The oncometabolite reaches beyond DNA: D-2-hydroxyglutarate inhibits α-ketoglutarate-dependent prolyl-hydroxylases that mature collagen, so IDH-mutant cells suffer impaired collagen and basement-membrane assembly alongside the DNA hypermethylation that defines them."
+  - target: 01-human/07-system/cml
+    relation: connects-to
+    note: "A targeted-therapy milestone repeated: as imatinib turned chronic myeloid leukaemia controllable, vorasidenib (INDIGO, 2023) became the first targeted drug to delay treatment in IDH-mutant glioma—each proof that blocking one driver reshapes a cancer."
+  - target: 01-human/07-system/cmml
+    relation: connects-to
+    note: "One epigenetic lesion, blood and brain: CMML, a myelodysplastic/myeloproliferative overlap, is driven by TET2-pathway methylation disturbances akin to the DNA hypermethylation IDH mutation causes in glioma—convergent epigenetic dysregulation in unrelated tissues."
 ---
 
 # IDH-Mutant Glioma
@@ -447,6 +456,9 @@ IDH-mutant glioma with MGMT methylation shows strong alkylating agent sensitivit
 - `connects-to` → **[Cancer Chemotherapy](../../../03-medicine/01-modern/13-cancer/cancer-chemotherapy/README.md)** — Chemo follows surgery and radiation: PCV (procarbazine-CCNU-vincristine) or temozolomide is the chemotherapy backbone, with the 1p/19q-codeleted oligodendroglioma especially chemosensitive.
 - `connects-to` → **[Checkpoint Inhibitors](../../../03-medicine/01-modern/13-cancer/checkpoint-inhibitors/README.md)** — An immunologically cold tumour: the 2-hydroxyglutarate oncometabolite suppresses T-cell infiltration, leaving IDH-mutant glioma largely unresponsive to PD-1 checkpoint inhibitors.
 - `connects-to` → **[Lymphatic System](../lymphatic-system/README.md)** — Brain drainage shapes its immunity: CNS antigens drain through meningeal lymphatics, and the limited immune surveillance of this route helps keep IDH-mutant glioma immunologically cold.
+- `connects-to` → **[Collagen](../../03-molecular/collagen/README.md)** — The oncometabolite reaches beyond DNA: D-2-hydroxyglutarate inhibits α-ketoglutarate-dependent prolyl-hydroxylases that mature collagen, so IDH-mutant cells suffer impaired collagen and basement-membrane assembly alongside the DNA hypermethylation that defines them.
+- `connects-to` → **[CML](../cml/README.md)** — A targeted-therapy milestone repeated: as imatinib turned chronic myeloid leukaemia controllable, vorasidenib (INDIGO, 2023) became the first targeted drug to delay treatment in IDH-mutant glioma—each proof that blocking one driver reshapes a cancer.
+- `connects-to` → **[CMML](../cmml/README.md)** — One epigenetic lesion, blood and brain: CMML, a myelodysplastic/myeloproliferative overlap, is driven by TET2-pathway methylation disturbances akin to the DNA hypermethylation IDH mutation causes in glioma—convergent epigenetic dysregulation in unrelated tissues.
 
 [^mellinghoff-2023-vorasidenib-lgg]: Mellinghoff IK, van den Bent MJ, Blumenthal DT, et al. Vorasidenib in IDH1- or IDH2-mutant low-grade glioma. *N Engl J Med.* 2023;389(7):589-601. [doi:10.1056/NEJMoa2304194](https://doi.org/10.1056/NEJMoa2304194) · [PubMed 37272530](https://pubmed.ncbi.nlm.nih.gov/37272530/)
 [^jiao-2012-atrx-glioma]: Jiao Y, Killela PJ, Reitman ZJ, et al. Frequent ATRX, CIC, FUBP1 and IDH mutations refine the classification of malignant gliomas. *Oncotarget.* 2012;3(7):709-722. [doi:10.18632/oncotarget.588](https://doi.org/10.18632/oncotarget.588) · [PubMed 22869205](https://pubmed.ncbi.nlm.nih.gov/22869205/)
