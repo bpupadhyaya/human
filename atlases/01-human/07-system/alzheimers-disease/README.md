@@ -208,6 +208,15 @@ cross_links:
   - target: 01-human/07-system/generalized-anxiety-disorder
     relation: connects-to
     note: "Confusion breeds chronic worry: anxiety and agitation are common neuropsychiatric features of Alzheimer's, fueled by the disorientation and memory loss of failing cognition."
+  - target: 01-human/07-system/nervous-system
+    relation: connects-to
+    note: "It is the archetypal neurodegeneration: Alzheimer's destroys cortical and hippocampal neurons through amyloid plaques and tau tangles, the leading neurodegenerative disease of the nervous system."
+  - target: 01-human/07-system/musculoskeletal-system
+    relation: connects-to
+    note: "Late disease robs the body of movement: advancing Alzheimer's brings gait disturbance and falls with fractures, and end-stage immobility leaves contractures and profound sarcopenia."
+  - target: 01-human/07-system/digestive-system
+    relation: connects-to
+    note: "Eventually it takes away swallowing: advanced Alzheimer's causes dysphagia with aspiration and progressive weight loss, raising the difficult questions around assisted and tube feeding."
 ---
 
 # Alzheimer's Disease
@@ -370,6 +379,9 @@ Microglia play a central, dual role in AD:
 - `connects-to` → **[Streptococcus pneumoniae](../../../02-pathogen/02-bacteria/streptococcus-pneumoniae/README.md)** — Late dementia lets food reach the lungs: progressive dysphagia in advanced Alzheimer's causes aspiration, and the resulting pneumonia — often pneumococcal — is the leading immediate cause of death.
 - `connects-to` → **[Wound Healing](../wound-healing/README.md)** — Bedbound immobility breaks down the skin: in end-stage Alzheimer's, immobility and incontinence predispose to pressure ulcers over bony prominences that heal poorly in the frail, malnourished patient.
 - `connects-to` → **[Generalized Anxiety Disorder](../generalized-anxiety-disorder/README.md)** — Confusion breeds chronic worry: anxiety and agitation are common neuropsychiatric features of Alzheimer's, fueled by the disorientation and memory loss of failing cognition.
+- `connects-to` → **[Nervous System](../nervous-system/README.md)** — It is the archetypal neurodegeneration: Alzheimer's destroys cortical and hippocampal neurons through amyloid plaques and tau tangles, the leading neurodegenerative disease of the nervous system.
+- `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — Late disease robs the body of movement: advancing Alzheimer's brings gait disturbance and falls with fractures, and end-stage immobility leaves contractures and profound sarcopenia.
+- `connects-to` → **[Digestive System](../digestive-system/README.md)** — Eventually it takes away swallowing: advanced Alzheimer's causes dysphagia with aspiration and progressive weight loss, raising the difficult questions around assisted and tube feeding.
 
 [^selkoe-2016-alzheimer]: Selkoe DJ, Hardy J. The amyloid hypothesis of Alzheimer's disease at 25 years. *EMBO Mol Med.* 2016;8(6):595-608. [doi:10.15252/emmm.201606210](https://doi.org/10.15252/emmm.201606210) · [PubMed 27025652](https://pubmed.ncbi.nlm.nih.gov/27025652/)
 [^jack-2018-nia-aa]: Jack CR Jr, Bennett DA, Blennow K, et al. NIA-AA Research Framework: Toward a biological definition of Alzheimer's disease. *Alzheimers Dement.* 2018;14(4):535-562. [doi:10.1016/j.jalz.2018.02.018](https://doi.org/10.1016/j.jalz.2018.02.018) · [PubMed 29653606](https://pubmed.ncbi.nlm.nih.gov/29653606/)

@@ -204,6 +204,15 @@ cross_links:
   - target: 01-human/07-system/neuropathic-pain
     relation: connects-to
     note: "Its brain injury leaves the body in pain: the spasticity, dystonia and painful chilblains of AGS, on top of damaged sensory pathways, produce chronic neuropathic and nociceptive pain that is hard to control."
+  - target: 01-human/07-system/integumentary-system
+    relation: connects-to
+    note: "Its interferon excess inflames the skin: AGS characteristically causes painful chilblain lesions on the fingers, toes and ears, a cutaneous hallmark shared with the type I interferonopathies and lupus."
+  - target: 01-human/07-system/digestive-system
+    relation: connects-to
+    note: "It swells the liver and disrupts feeding: AGS can mimic congenital infection with hepatosplenomegaly and deranged liver function, and its severe encephalopathy causes dysphagia needing gastrostomy feeding."
+  - target: 01-human/07-system/respiratory-system
+    relation: connects-to
+    note: "Severe neurodisability endangers the lungs: the bulbar dysfunction and immobility of AGS lead to recurrent aspiration and chest infections, a leading cause of respiratory morbidity and death."
 ---
 
 # Aicardi-Goutières Syndrome
@@ -360,6 +369,9 @@ Severe early-onset AGS (TREX1 homozygous, RNASEH2A): death in childhood from res
 - `connects-to` → **[Aspergillus fumigatus](../../../02-pathogen/03-fungi/aspergillus-fumigatus/README.md)** — Its JAK-inhibitor therapy opens the door to mold: baricitinib and other JAK inhibitors used to dampen the interferon signature of AGS suppress immunity, raising the risk of invasive infections such as aspergillosis.
 - `connects-to` → **[Type 1 Diabetes](../type-1-diabetes/README.md)** — Its interferon excess can attack the islets: as a type I interferonopathy with autoimmune features, AGS shares the interferon-driven mechanisms that destroy pancreatic beta cells in type 1 diabetes.
 - `connects-to` → **[Neuropathic Pain](../neuropathic-pain/README.md)** — Its brain injury leaves the body in pain: the spasticity, dystonia and painful chilblains of AGS, on top of damaged sensory pathways, produce chronic neuropathic and nociceptive pain that is hard to control.
+- `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — Its interferon excess inflames the skin: AGS characteristically causes painful chilblain lesions on the fingers, toes and ears, a cutaneous hallmark shared with the type I interferonopathies and lupus.
+- `connects-to` → **[Digestive System](../digestive-system/README.md)** — It swells the liver and disrupts feeding: AGS can mimic congenital infection with hepatosplenomegaly and deranged liver function, and its severe encephalopathy causes dysphagia needing gastrostomy feeding.
+- `connects-to` → **[Respiratory System](../respiratory-system/README.md)** — Severe neurodisability endangers the lungs: the bulbar dysfunction and immobility of AGS lead to recurrent aspiration and chest infections, a leading cause of respiratory morbidity and death.
 
 ---
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
