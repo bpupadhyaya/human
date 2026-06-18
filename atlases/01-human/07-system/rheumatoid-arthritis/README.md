@@ -220,6 +220,15 @@ cross_links:
   - target: 01-human/07-system/immune-system
     relation: connects-to
     note: "It is an archetypal autoimmune disease: rheumatoid arthritis is driven by anti-citrullinated-protein and rheumatoid-factor autoantibodies and T-cell-driven synovial inflammation, the target of its immune therapies."
+  - target: 01-human/07-system/integumentary-system
+    relation: connects-to
+    note: "It shows on the skin: rheumatoid nodules form over pressure points, and rheumatoid vasculitis causes skin ulcers and nail-fold infarcts in severe seropositive disease."
+  - target: 01-human/07-system/lymphatic-system
+    relation: connects-to
+    note: "It can swell the spleen and raise lymphoma risk: Felty's syndrome combines rheumatoid arthritis with splenomegaly and neutropenia, and chronic immune activation modestly increases lymphoma risk."
+  - target: 01-human/07-system/renal-system
+    relation: connects-to
+    note: "Inflammation and its drugs reach the kidney: sustained inflammation deposits secondary AA amyloid causing proteinuria, and NSAIDs and some disease-modifying drugs are nephrotoxic."
 ---
 
 # Rheumatoid Arthritis
@@ -429,6 +438,9 @@ RA patients have:
 - `connects-to` → **[Respiratory System](../respiratory-system/README.md)** — It scars and nodules the lungs: rheumatoid arthritis causes interstitial lung disease, pulmonary nodules, pleuritis and bronchiectasis, and methotrexate adds a risk of hypersensitivity pneumonitis.
 - `connects-to` → **[Nervous System](../nervous-system/README.md)** — It can compress and inflame nerves: cervical atlantoaxial subluxation in RA threatens the spinal cord, and entrapment neuropathies and vasculitic mononeuritis multiplex injure peripheral nerves.
 - `connects-to` → **[Immune System](../immune-system/README.md)** — It is an archetypal autoimmune disease: rheumatoid arthritis is driven by anti-citrullinated-protein and rheumatoid-factor autoantibodies and T-cell-driven synovial inflammation, the target of its immune therapies.
+- `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — It shows on the skin: rheumatoid nodules form over pressure points, and rheumatoid vasculitis causes skin ulcers and nail-fold infarcts in severe seropositive disease.
+- `connects-to` → **[Lymphatic System](../lymphatic-system/README.md)** — It can swell the spleen and raise lymphoma risk: Felty's syndrome combines rheumatoid arthritis with splenomegaly and neutropenia, and chronic immune activation modestly increases lymphoma risk.
+- `connects-to` → **[Renal System](../renal-system/README.md)** — Inflammation and its drugs reach the kidney: sustained inflammation deposits secondary AA amyloid causing proteinuria, and NSAIDs and some disease-modifying drugs are nephrotoxic.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 

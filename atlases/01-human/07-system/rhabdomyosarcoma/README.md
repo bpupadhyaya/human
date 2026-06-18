@@ -214,6 +214,15 @@ cross_links:
   - target: 01-human/07-system/digestive-system
     relation: connects-to
     note: "Pelvic tumours and chemo disturb the gut: genitourinary and pelvic rhabdomyosarcoma can obstruct the bowel, and its multi-agent chemotherapy causes mucositis, nausea and hepatotoxicity."
+  - target: 01-human/07-system/lymphatic-system
+    relation: connects-to
+    note: "Unlike most sarcomas it spreads to nodes: rhabdomyosarcoma, especially the alveolar subtype, involves regional lymph nodes, so nodal sampling is part of its staging."
+  - target: 01-human/07-system/renal-system
+    relation: connects-to
+    note: "Its drugs and pelvic tumours injure the urinary tract: ifosfamide and cyclophosphamide cause haemorrhagic cystitis and a Fanconi-like tubulopathy, and genitourinary tumours can obstruct the urinary tract."
+  - target: 01-human/07-system/cardiovascular-system
+    relation: connects-to
+    note: "Its chemotherapy can scar the heart: the doxorubicin and dactinomycin in rhabdomyosarcoma regimens carry a cardiotoxicity risk in the children who receive them."
 ---
 
 # Rhabdomyosarcoma
@@ -407,6 +416,9 @@ Maximal safe resection with negative margins (R0) wherever achievable without mu
 - `connects-to` → **[Respiratory System](../respiratory-system/README.md)** — It spreads to the lungs: like other sarcomas, rhabdomyosarcoma metastasises preferentially to the lungs, so pulmonary metastases shape its staging, treatment and prognosis.
 - `connects-to` → **[Endocrine System](../endocrine-system/README.md)** — Head-and-neck radiation and chemo hit the glands: parameningeal and orbital radiotherapy for rhabdomyosarcoma can damage the hypothalamus and pituitary, and chemotherapy impairs future fertility.
 - `connects-to` → **[Digestive System](../digestive-system/README.md)** — Pelvic tumours and chemo disturb the gut: genitourinary and pelvic rhabdomyosarcoma can obstruct the bowel, and its multi-agent chemotherapy causes mucositis, nausea and hepatotoxicity.
+- `connects-to` → **[Lymphatic System](../lymphatic-system/README.md)** — Unlike most sarcomas it spreads to nodes: rhabdomyosarcoma, especially the alveolar subtype, involves regional lymph nodes, so nodal sampling is part of its staging.
+- `connects-to` → **[Renal System](../renal-system/README.md)** — Its drugs and pelvic tumours injure the urinary tract: ifosfamide and cyclophosphamide cause haemorrhagic cystitis and a Fanconi-like tubulopathy, and genitourinary tumours can obstruct the urinary tract.
+- `connects-to` → **[Cardiovascular System](../cardiovascular-system/README.md)** — Its chemotherapy can scar the heart: the doxorubicin and dactinomycin in rhabdomyosarcoma regimens carry a cardiotoxicity risk in the children who receive them.
 
 [^crist-2001-irs4-rms]: Crist WM, Anderson JR, Meza JL, et al. Intergroup rhabdomyosarcoma study-IV: results for patients with nonmetastatic disease. *J Clin Oncol.* 2001;19(12):3091-3102. [doi:10.1200/JCO.2001.19.12.3091](https://doi.org/10.1200/JCO.2001.19.12.3091) · [PubMed 11408506](https://pubmed.ncbi.nlm.nih.gov/11408506/)
 [^oberlin-2012-mmt95-rms]: Oberlin O, Rey A, Sanchez de Toledo J, et al. Randomized comparison of intensified six-drug versus standard three-drug chemotherapy for high-risk nonmetastatic rhabdomyosarcoma and other chemotherapy-sensitive childhood soft tissue sarcomas. *J Clin Oncol.* 2012;30(19):2457-2465. [doi:10.1200/JCO.2011.39.3538](https://doi.org/10.1200/JCO.2011.39.3538) · [PubMed 22665546](https://pubmed.ncbi.nlm.nih.gov/22665546/)
