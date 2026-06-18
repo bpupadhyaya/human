@@ -220,6 +220,15 @@ cross_links:
   - target: 01-human/07-system/musculoskeletal-system
     relation: connects-to
     note: "Neck and jaw feed the headache: migraine is highly comorbid with neck pain and temporomandibular disorder, with cervical muscle and joint dysfunction both triggering and amplifying attacks."
+  - target: 01-human/07-system/integumentary-system
+    relation: connects-to
+    note: "The skin turns painful to touch: cutaneous allodynia — scalp and skin hypersensitivity so that brushing hair or wearing glasses hurts — is a hallmark of central sensitisation during migraine attacks."
+  - target: 01-human/07-system/renal-system
+    relation: connects-to
+    note: "Its painkillers can harm the kidney: frequent NSAID use for migraine risks analgesic nephropathy and acute kidney injury, and renal impairment limits which abortive drugs are safe."
+  - target: 01-human/07-system/immune-system
+    relation: connects-to
+    note: "It runs on neurogenic inflammation: the trigeminovascular system releases CGRP and inflammatory mediators that dilate vessels and sensitise nerves, a process now blocked by anti-CGRP therapies."
 ---
 
 # Migraine
@@ -424,6 +433,9 @@ Episodic migraine (EM, <15 headache days/month) transforms to **chronic migraine
 - `connects-to` → **[Endocrine System](../endocrine-system/README.md)** — Hormones drive a major migraine subtype: oestrogen withdrawal around menstruation triggers menstrual migraine, and the swings of puberty, pregnancy and menopause reshape its pattern across a woman's life.
 - `connects-to` → **[Gut Microbiome](../gut-microbiome/README.md)** — The gut-brain axis modulates attacks: migraine is strongly tied to the gut through nausea, abdominal migraine and cyclic vomiting, and the microbiome and gut-brain signalling influence its frequency.
 - `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — Neck and jaw feed the headache: migraine is highly comorbid with neck pain and temporomandibular disorder, with cervical muscle and joint dysfunction both triggering and amplifying attacks.
+- `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — The skin turns painful to touch: cutaneous allodynia — scalp and skin hypersensitivity so that brushing hair or wearing glasses hurts — is a hallmark of central sensitisation during migraine attacks.
+- `connects-to` → **[Renal System](../renal-system/README.md)** — Its painkillers can harm the kidney: frequent NSAID use for migraine risks analgesic nephropathy and acute kidney injury, and renal impairment limits which abortive drugs are safe.
+- `connects-to` → **[Immune System](../immune-system/README.md)** — It runs on neurogenic inflammation: the trigeminovascular system releases CGRP and inflammatory mediators that dilate vessels and sensitise nerves, a process now blocked by anti-CGRP therapies.
 
 [^gbd-2016-migraine-burden]: GBD 2016 Headache Collaborators. Global, regional, and national burden of migraine and tension-type headache, 1990-2016. *Lancet Neurol.* 2018;17(11):954-976. [doi:10.1016/S1474-4422(18)30322-3](https://doi.org/10.1016/S1474-4422(18)30322-3) · [PubMed 30353868](https://pubmed.ncbi.nlm.nih.gov/30353868/)
 [^goadsby-2002-migraine-review]: Goadsby PJ, Lipton RB, Ferrari MD. Migraine — current understanding and treatment. *N Engl J Med.* 2002;346(4):257-270. [doi:10.1056/NEJMra010917](https://doi.org/10.1056/NEJMra010917) · [PubMed 11807151](https://pubmed.ncbi.nlm.nih.gov/11807151/)

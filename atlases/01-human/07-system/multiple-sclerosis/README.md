@@ -217,6 +217,15 @@ cross_links:
   - target: 02-pathogen/01-viruses/varicella-zoster-virus
     relation: connects-to
     note: "Its immunotherapies reawaken shingles: the B-cell-depleting and S1P-modulator disease-modifying therapies for MS, especially fingolimod, raise the risk of herpes-zoster reactivation."
+  - target: 01-human/07-system/respiratory-system
+    relation: connects-to
+    note: "Advanced disease weakens breathing: brainstem and high cervical lesions impair respiratory muscles and swallowing, so aspiration and respiratory failure become a leading cause of death in late MS."
+  - target: 01-human/07-system/cardiovascular-system
+    relation: connects-to
+    note: "Nerves and drugs unsettle the heart: autonomic dysfunction causes orthostatic hypotension and arrhythmia, and starting fingolimod causes first-dose bradycardia and heart block requiring monitoring."
+  - target: 01-human/07-system/integumentary-system
+    relation: connects-to
+    note: "Immobility and injections mark the skin: pressure sores arise with reduced mobility, while injectable disease-modifying therapies cause injection-site reactions and lipoatrophy."
 ---
 
 # Multiple Sclerosis
@@ -393,6 +402,9 @@ MS affects approximately **2.8 million people worldwide** (~1 million in the US)
 - `connects-to` → **[Renal System](../renal-system/README.md)** — Spinal demyelination wrecks bladder control: neurogenic bladder is one of the most common and disabling features of MS, causing urgency, incontinence and retention with recurrent UTIs and upper-tract damage.
 - `connects-to` → **[Digestive System](../digestive-system/README.md)** — It disrupts the bowel too: MS commonly causes neurogenic bowel with constipation and faecal incontinence, and brainstem lesions can produce dysphagia with aspiration risk.
 - `connects-to` → **[Varicella-Zoster Virus](../../../02-pathogen/01-viruses/varicella-zoster-virus/README.md)** — Its immunotherapies reawaken shingles: the B-cell-depleting and S1P-modulator disease-modifying therapies for MS, especially fingolimod, raise the risk of herpes-zoster reactivation.
+- `connects-to` → **[Respiratory System](../respiratory-system/README.md)** — Advanced disease weakens breathing: brainstem and high cervical lesions impair respiratory muscles and swallowing, so aspiration and respiratory failure become a leading cause of death in late MS.
+- `connects-to` → **[Cardiovascular System](../cardiovascular-system/README.md)** — Nerves and drugs unsettle the heart: autonomic dysfunction causes orthostatic hypotension and arrhythmia, and starting fingolimod causes first-dose bradycardia and heart block requiring monitoring.
+- `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — Immobility and injections mark the skin: pressure sores arise with reduced mobility, while injectable disease-modifying therapies cause injection-site reactions and lipoatrophy.
 
 [^compston-2008-ms-review]: Compston A, Coles A. Multiple sclerosis. *Lancet.* 2008;372(9648):1502-1517. [doi:10.1016/S0140-6736(08)61620-7](https://doi.org/10.1016/S0140-6736(08)61620-7) · [PubMed 18970977](https://pubmed.ncbi.nlm.nih.gov/18970977/)
 [^kappos-2006-natalizumab]: Polman CH, O'Connor PW, Havrdova E, et al. A randomized, placebo-controlled trial of natalizumab for relapsing multiple sclerosis. *N Engl J Med.* 2006;354(9):899-910. [doi:10.1056/NEJMoa044397](https://doi.org/10.1056/NEJMoa044397) · [PubMed 16510744](https://pubmed.ncbi.nlm.nih.gov/16510744/)
