@@ -205,6 +205,15 @@ cross_links:
   - target: 02-pathogen/03-fungi/aspergillus-fumigatus
     relation: connects-to
     note: "Its chemoradiation opens the lung to mold: the neutropenia from cisplatin-based chemoradiation for cervical cancer can let inhaled Aspergillus invade as pulmonary aspergillosis."
+  - target: 01-human/07-system/renal-system
+    relation: connects-to
+    note: "Locally advanced tumour strangles the ureters: cervical cancer spreading into the pelvis obstructs the ureters, causing hydronephrosis and renal failure — a classic and common cause of death from the disease."
+  - target: 01-human/07-system/digestive-system
+    relation: connects-to
+    note: "Pelvic radiation and spread injure the bowel: chemoradiation for cervical cancer causes radiation proctitis and enteritis, and advanced tumour can erode into the rectum to form a rectovaginal fistula."
+  - target: 01-human/07-system/generalized-anxiety-disorder
+    relation: connects-to
+    note: "A young woman's cancer with fertility loss breeds worry: the diagnosis, loss of fertility and recurrence surveillance of cervical cancer foster chronic health anxiety alongside depression."
 ---
 
 # Cervical Cancer
@@ -390,6 +399,9 @@ The cervical transformation zone (TZ) — the area between the original and new 
 - `connects-to` → **[Neuropathic Pain](../neuropathic-pain/README.md)** — Pelvic spread and treatment injure nerves: tumor invading the pelvic sidewall and the cisplatin and radiation used to treat cervical cancer cause lumbosacral plexopathy and chemotherapy neuropathy with chronic pain.
 - `connects-to` → **[Osteoporosis](../osteoporosis/README.md)** — Pelvic radiation and lost ovaries weaken bone: radiotherapy causes insufficiency fractures and bone loss, and treatment-induced menopause in younger patients withdraws estrogen, accelerating osteoporosis.
 - `connects-to` → **[Aspergillus fumigatus](../../../02-pathogen/03-fungi/aspergillus-fumigatus/README.md)** — Its chemoradiation opens the lung to mold: the neutropenia from cisplatin-based chemoradiation for cervical cancer can let inhaled Aspergillus invade as pulmonary aspergillosis.
+- `connects-to` → **[Renal System](../renal-system/README.md)** — Locally advanced tumour strangles the ureters: cervical cancer spreading into the pelvis obstructs the ureters, causing hydronephrosis and renal failure — a classic and common cause of death from the disease.
+- `connects-to` → **[Digestive System](../digestive-system/README.md)** — Pelvic radiation and spread injure the bowel: chemoradiation for cervical cancer causes radiation proctitis and enteritis, and advanced tumour can erode into the rectum to form a rectovaginal fistula.
+- `connects-to` → **[Generalized Anxiety Disorder](../generalized-anxiety-disorder/README.md)** — A young woman's cancer with fertility loss breeds worry: the diagnosis, loss of fertility and recurrence surveillance of cervical cancer foster chronic health anxiety alongside depression.
 
 ---
 

@@ -205,6 +205,15 @@ cross_links:
   - target: 02-pathogen/03-fungi/aspergillus-fumigatus
     relation: connects-to
     note: "Its chemotherapy opens the lung to mold: the neutropenia from gemcitabine-cisplatin therapy for cholangiocarcinoma can let inhaled Aspergillus invade as pulmonary aspergillosis."
+  - target: 01-human/07-system/digestive-system
+    relation: connects-to
+    note: "It is a cancer of the biliary tree: cholangiocarcinoma obstructs the bile ducts, causing obstructive jaundice, pruritus, ascending cholangitis and fat malabsorption central to its presentation."
+  - target: 01-human/07-system/wound-healing
+    relation: connects-to
+    note: "Its surgery is among the most demanding: curative resection means major hepatectomy or a Whipple with biliary reconstruction, leaving complex anastomoses prone to bile leak and slow healing."
+  - target: 01-human/07-system/generalized-anxiety-disorder
+    relation: connects-to
+    note: "A late-presenting, poor-prognosis cancer breeds worry: the obstructive jaundice, difficult surgery and grim survival of cholangiocarcinoma foster chronic health anxiety alongside depression."
 ---
 
 # Cholangiocarcinoma
@@ -364,6 +373,9 @@ Chronic biliary injury (from PSC, fluke infection, bile acid reflux, biliary sta
 - `connects-to` → **[Prurigo Nodularis](../prurigo-nodularis/README.md)** — Biliary obstruction drives relentless itch: cholangiocarcinoma blocks bile flow, and the retained bile salts cause an intense cholestatic pruritus that scratching can turn into prurigo nodularis.
 - `connects-to` → **[Neuropathic Pain](../neuropathic-pain/README.md)** — Tumor and chemo strain the nerves: invasion of the porta hepatis and the gemcitabine-cisplatin chemotherapy for cholangiocarcinoma produce visceral and chemotherapy-induced neuropathic pain.
 - `connects-to` → **[Aspergillus fumigatus](../../../02-pathogen/03-fungi/aspergillus-fumigatus/README.md)** — Its chemotherapy opens the lung to mold: the neutropenia from gemcitabine-cisplatin therapy for cholangiocarcinoma can let inhaled Aspergillus invade as pulmonary aspergillosis.
+- `connects-to` → **[Digestive System](../digestive-system/README.md)** — It is a cancer of the biliary tree: cholangiocarcinoma obstructs the bile ducts, causing obstructive jaundice, pruritus, ascending cholangitis and fat malabsorption central to its presentation.
+- `connects-to` → **[Wound Healing](../wound-healing/README.md)** — Its surgery is among the most demanding: curative resection means major hepatectomy or a Whipple with biliary reconstruction, leaving complex anastomoses prone to bile leak and slow healing.
+- `connects-to` → **[Generalized Anxiety Disorder](../generalized-anxiety-disorder/README.md)** — A late-presenting, poor-prognosis cancer breeds worry: the obstructive jaundice, difficult surgery and grim survival of cholangiocarcinoma foster chronic health anxiety alongside depression.
 
 ---
 
