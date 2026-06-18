@@ -223,6 +223,15 @@ cross_links:
   - target: 01-human/07-system/nervous-system
     relation: connects-to
     note: "It crawls along the nerves: cholangiocarcinoma is notorious for perineural invasion, spreading through the nerve sheaths around the bile ducts and raising the risk of pain and recurrence."
+  - target: 01-human/07-system/respiratory-system
+    relation: connects-to
+    note: "It spreads to the lungs: cholangiocarcinoma commonly metastasises to the lung and pleura, and high biliary obstruction in the porta can compromise breathing in advanced disease."
+  - target: 01-human/07-system/immune-system
+    relation: connects-to
+    note: "Immunotherapy joins the regimen: PD-L1 blockade with durvalumab added to gemcitabine-cisplatin is now standard for advanced biliary cancer, and primary sclerosing cholangitis provides its autoimmune backdrop."
+  - target: 01-human/07-system/renal-system
+    relation: connects-to
+    note: "Treatment and obstruction reach the kidney: cisplatin chemotherapy is nephrotoxic, and the deep jaundice of biliary obstruction predisposes to acute kidney injury during surgery."
 ---
 
 # Cholangiocarcinoma
@@ -388,6 +397,9 @@ Chronic biliary injury (from PSC, fluke infection, bile acid reflux, biliary sta
 - `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — It paints the skin yellow and itchy: biliary obstruction by cholangiocarcinoma causes jaundice and intense cholestatic pruritus, often the presenting features that prompt diagnosis.
 - `connects-to` → **[Lymphatic System](../lymphatic-system/README.md)** — Lymph-node spread decides resectability: regional lymph-node metastasis is a major prognostic factor in cholangiocarcinoma, guiding whether surgery is possible and the need for adjuvant therapy.
 - `connects-to` → **[Nervous System](../nervous-system/README.md)** — It crawls along the nerves: cholangiocarcinoma is notorious for perineural invasion, spreading through the nerve sheaths around the bile ducts and raising the risk of pain and recurrence.
+- `connects-to` → **[Respiratory System](../respiratory-system/README.md)** — It spreads to the lungs: cholangiocarcinoma commonly metastasises to the lung and pleura, and high biliary obstruction in the porta can compromise breathing in advanced disease.
+- `connects-to` → **[Immune System](../immune-system/README.md)** — Immunotherapy joins the regimen: PD-L1 blockade with durvalumab added to gemcitabine-cisplatin is now standard for advanced biliary cancer, and primary sclerosing cholangitis provides its autoimmune backdrop.
+- `connects-to` → **[Renal System](../renal-system/README.md)** — Treatment and obstruction reach the kidney: cisplatin chemotherapy is nephrotoxic, and the deep jaundice of biliary obstruction predisposes to acute kidney injury during surgery.
 
 ---
 

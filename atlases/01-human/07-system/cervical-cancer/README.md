@@ -223,6 +223,15 @@ cross_links:
   - target: 01-human/07-system/nervous-system
     relation: connects-to
     note: "Pelvic recurrence invades the nerves: tumour growth into the lumbosacral plexus causes a painful plexopathy with leg weakness and numbness, a distressing late complication."
+  - target: 01-human/07-system/cardiovascular-system
+    relation: connects-to
+    note: "Treatment strains the circulation: cisplatin chemoradiation carries cardiovascular and thromboembolic risk, and pelvic radiation can damage the iliac vessels over time."
+  - target: 01-human/07-system/integumentary-system
+    relation: connects-to
+    note: "Virus and therapy both touch the skin: the same HPV family causes genital and skin warts, while pelvic radiotherapy produces radiation dermatitis and rare cutaneous metastases mark advanced disease."
+  - target: 02-pathogen/01-viruses/herpesvirus
+    relation: connects-to
+    note: "A suspected co-factor: herpes simplex virus type 2 was long studied as a possible co-factor cooperating with HPV in cervical carcinogenesis, and genital herpes shares its transmission route."
 ---
 
 # Cervical Cancer
@@ -414,6 +423,9 @@ The cervical transformation zone (TZ) — the area between the original and new 
 - `connects-to` → **[Respiratory System](../respiratory-system/README.md)** — It spreads to the lungs: the lungs are the commonest site of distant metastasis in cervical cancer, appearing as nodules on staging and recurrence imaging.
 - `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — It seeds the bones: cervical cancer metastasises to the spine and pelvis, causing bone pain and pathological fractures in advanced disease.
 - `connects-to` → **[Nervous System](../nervous-system/README.md)** — Pelvic recurrence invades the nerves: tumour growth into the lumbosacral plexus causes a painful plexopathy with leg weakness and numbness, a distressing late complication.
+- `connects-to` → **[Cardiovascular System](../cardiovascular-system/README.md)** — Treatment strains the circulation: cisplatin chemoradiation carries cardiovascular and thromboembolic risk, and pelvic radiation can damage the iliac vessels over time.
+- `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — Virus and therapy both touch the skin: the same HPV family causes genital and skin warts, while pelvic radiotherapy produces radiation dermatitis and rare cutaneous metastases mark advanced disease.
+- `connects-to` → **[Herpesvirus](../../../02-pathogen/01-viruses/herpesvirus/README.md)** — A suspected co-factor: herpes simplex virus type 2 was long studied as a possible co-factor cooperating with HPV in cervical carcinogenesis, and genital herpes shares its transmission route.
 
 ---
 
