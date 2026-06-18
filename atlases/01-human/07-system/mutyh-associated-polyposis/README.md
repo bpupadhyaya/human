@@ -205,6 +205,15 @@ cross_links:
   - target: 01-human/07-system/neuropathic-pain
     relation: connects-to
     note: "Oxaliplatin chemotherapy stings the nerves: when MAP progresses to colorectal cancer treated with FOLFOX, the oxaliplatin causes a cold-triggered, often lasting peripheral neuropathy."
+  - target: 01-human/07-system/gut-microbiome
+    relation: connects-to
+    note: "Oxidative damage meets the microbiome: MUTYH repairs the 8-oxoguanine lesions that reactive oxygen leaves in DNA, and the colonic microbiome's genotoxins and ROS add to the mutational load that drives MAP's polyps to cancer."
+  - target: 01-human/07-system/endocrine-system
+    relation: connects-to
+    note: "Its tumour spectrum reaches the thyroid: beyond the colon, MAP raises the risk of thyroid and other extracolonic cancers, extending the syndrome into the endocrine system."
+  - target: 01-human/07-system/integumentary-system
+    relation: connects-to
+    note: "It can show in the skin: MAP is associated with sebaceous gland tumours and other cutaneous lesions, overlapping the skin findings of the mismatch-repair polyposis syndromes."
 ---
 
 # MUTYH-Associated Polyposis
@@ -369,6 +378,9 @@ Because MAP is autosomal recessive: siblings of MAP patients are at **25%** risk
 - `connects-to` → **[Generalized Anxiety Disorder](../generalized-anxiety-disorder/README.md)** — Lifelong cancer vigilance breeds worry: the recessive inheritance, scores of adenomas and unending colonoscopic surveillance of MAP foster chronic health anxiety alongside low mood.
 - `connects-to` → **[Wound Healing](../wound-healing/README.md)** — Prophylactic colectomy is a healing challenge: the colectomy or proctocolectomy that removes the polyp-laden bowel in MAP leaves anastomoses and abdominal wounds at risk of leak and slow closure.
 - `connects-to` → **[Neuropathic Pain](../neuropathic-pain/README.md)** — Oxaliplatin chemotherapy stings the nerves: when MAP progresses to colorectal cancer treated with FOLFOX, the oxaliplatin causes a cold-triggered, often lasting peripheral neuropathy.
+- `connects-to` → **[Gut Microbiome](../gut-microbiome/README.md)** — Oxidative damage meets the microbiome: MUTYH repairs the 8-oxoguanine lesions that reactive oxygen leaves in DNA, and the colonic microbiome's genotoxins and ROS add to the mutational load that drives MAP's polyps to cancer.
+- `connects-to` → **[Endocrine System](../endocrine-system/README.md)** — Its tumour spectrum reaches the thyroid: beyond the colon, MAP raises the risk of thyroid and other extracolonic cancers, extending the syndrome into the endocrine system.
+- `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — It can show in the skin: MAP is associated with sebaceous gland tumours and other cutaneous lesions, overlapping the skin findings of the mismatch-repair polyposis syndromes.
 - `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — MAP breaks the dominant-inheritance pattern of its cousins: it is autosomal recessive, so two carrier parents — often with no polyposis themselves — have a 1-in-4 risk each pregnancy, making partner carrier testing and recurrence counseling central to families.
 - `connects-to` → **[Platelet](../../04-cellular/platelet/README.md)** — Aspirin's colorectal protection extends here: blocking platelet COX-1 and the tumor-promoting signals platelets release underpins the chemoprevention studied across hereditary colorectal syndromes, including MUTYH-driven polyposis.
 - `connects-to` → **[Plasma Cell](../../04-cellular/plasma-cell/README.md)** — The repair defect leaves an immune fingerprint: MUTYH loss spawns a heavy load of G-to-T mutations and neoantigens, drawing B cells and plasma cells into the tumor — an immune-rich profile that may make these cancers responsive to checkpoint therapy.

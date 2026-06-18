@@ -205,6 +205,15 @@ cross_links:
   - target: 01-human/07-system/generalized-anxiety-disorder
     relation: connects-to
     note: "Lifelong clot-and-transformation risk breeds worry: the constant threat of thrombosis and progression to acute leukaemia in MPNs, plus relentless symptoms, fosters chronic health anxiety alongside low mood."
+  - target: 01-human/07-system/digestive-system
+    relation: connects-to
+    note: "They clot the gut's veins and swell the spleen: MPNs are a leading cause of splanchnic, portal and hepatic vein thrombosis (Budd-Chiari), and massive splenomegaly from extramedullary haematopoiesis causes early satiety."
+  - target: 01-human/07-system/integumentary-system
+    relation: connects-to
+    note: "Excess blood cells torment the skin: polycythemia vera causes the intense aquagenic pruritus after bathing, and essential thrombocythemia produces the burning red erythromelalgia of the extremities."
+  - target: 01-human/07-system/cardiovascular-system
+    relation: connects-to
+    note: "Sludgy, clot-prone blood strains the circulation: the raised cell mass and platelet activation of MPNs cause arterial thrombosis with myocardial infarction, hypertension and a high-output cardiovascular burden."
 ---
 
 # Myeloproliferative Neoplasms
@@ -411,6 +420,9 @@ In PV and ET, JAK2 V617F also affects myeloid progenitors → granulocytosis and
 - `connects-to` → **[Varicella-Zoster Virus](../../../02-pathogen/01-viruses/varicella-zoster-virus/README.md)** — JAK inhibition reawakens shingles: ruxolitinib used for myelofibrosis and polycythemia vera dampens T-cell immunity and characteristically reactivates latent varicella-zoster, a recognised risk during therapy.
 - `connects-to` → **[Iron-Deficiency Anemia](../iron-deficiency-anemia/README.md)** — Treating polycythemia drains the iron stores: the repeated therapeutic phlebotomy used to control the red-cell mass in polycythemia vera deliberately induces iron deficiency to limit erythropoiesis.
 - `connects-to` → **[Generalized Anxiety Disorder](../generalized-anxiety-disorder/README.md)** — Lifelong clot-and-transformation risk breeds worry: the constant threat of thrombosis and progression to acute leukaemia in MPNs, plus relentless symptoms, fosters chronic health anxiety alongside low mood.
+- `connects-to` → **[Digestive System](../digestive-system/README.md)** — They clot the gut's veins and swell the spleen: MPNs are a leading cause of splanchnic, portal and hepatic vein thrombosis (Budd-Chiari), and massive splenomegaly from extramedullary haematopoiesis causes early satiety.
+- `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — Excess blood cells torment the skin: polycythemia vera causes the intense aquagenic pruritus after bathing, and essential thrombocythemia produces the burning red erythromelalgia of the extremities.
+- `connects-to` → **[Cardiovascular System](../cardiovascular-system/README.md)** — Sludgy, clot-prone blood strains the circulation: the raised cell mass and platelet activation of MPNs cause arterial thrombosis with myocardial infarction, hypertension and a high-output cardiovascular burden.
 
 [^verstovsek-2012-comfort-i]: Verstovsek S, Mesa RA, Gotlib J, et al. A double-blind, placebo-controlled trial of ruxolitinib for myelofibrosis. *N Engl J Med.* 2012;366(9):799-807. [doi:10.1056/NEJMoa1110557](https://doi.org/10.1056/NEJMoa1110557) · [PubMed 22375971](https://pubmed.ncbi.nlm.nih.gov/22375971/)
 [^vannucchi-2015-response]: Vannucchi AM, Kiladjian JJ, Griesshammer M, et al. Ruxolitinib versus standard therapy for the treatment of polycythemia vera. *N Engl J Med.* 2015;372(5):426-435. [doi:10.1056/NEJMoa1409002](https://doi.org/10.1056/NEJMoa1409002) · [PubMed 25426978](https://pubmed.ncbi.nlm.nih.gov/25426978/)
