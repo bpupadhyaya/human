@@ -214,6 +214,15 @@ cross_links:
   - target: 01-human/07-system/generalized-anxiety-disorder
     relation: connects-to
     note: "A sudden paradoxical clotting crisis breeds worry: the abrupt limb- and life-threatening thrombosis of HIT and the lifelong need to avoid heparin foster chronic health anxiety alongside the PTSD and depression it leaves."
+  - target: 01-human/07-system/immune-system
+    relation: connects-to
+    note: "It is an immune drug reaction at heart: IgG antibodies against platelet factor 4-heparin complexes cross-link platelet FcγRIIa receptors, activating platelets and the clotting cascade despite a falling platelet count."
+  - target: 01-human/07-system/respiratory-system
+    relation: connects-to
+    note: "It often clots the lungs: pulmonary embolism is a frequent thrombotic outcome of HIT, and a rapid intravenous heparin bolus can trigger an acute anaphylactoid reaction with dyspnoea and collapse."
+  - target: 01-human/07-system/digestive-system
+    relation: connects-to
+    note: "It thromboses unusual sites: HIT can clot the mesenteric and portal veins, causing bowel ischaemia and abdominal pain, and adrenal vein thrombosis can lead to haemorrhagic adrenal infarction."
 ---
 
 # Heparin-Induced Thrombocytopenia
@@ -423,6 +432,9 @@ Platelet consumption → thrombocytopenia (paradox: clotting despite low platele
 - `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — It can necrose the skin at injection sites: HIT classically causes skin lesions ranging from erythematous plaques to frank necrosis where heparin is injected, a recognised marker of the syndrome.
 - `connects-to` → **[Endocrine System](../endocrine-system/README.md)** — It can infarct both adrenal glands: thrombosis of the adrenal veins in HIT causes bilateral haemorrhagic adrenal infarction, precipitating acute adrenal insufficiency that is easily missed.
 - `connects-to` → **[Generalized Anxiety Disorder](../generalized-anxiety-disorder/README.md)** — A sudden paradoxical clotting crisis breeds worry: the abrupt limb- and life-threatening thrombosis of HIT and the lifelong need to avoid heparin foster chronic health anxiety alongside the PTSD and depression it leaves.
+- `connects-to` → **[Immune System](../immune-system/README.md)** — It is an immune drug reaction at heart: IgG antibodies against platelet factor 4-heparin complexes cross-link platelet FcγRIIa receptors, activating platelets and the clotting cascade despite a falling platelet count.
+- `connects-to` → **[Respiratory System](../respiratory-system/README.md)** — It often clots the lungs: pulmonary embolism is a frequent thrombotic outcome of HIT, and a rapid intravenous heparin bolus can trigger an acute anaphylactoid reaction with dyspnoea and collapse.
+- `connects-to` → **[Digestive System](../digestive-system/README.md)** — It thromboses unusual sites: HIT can clot the mesenteric and portal veins, causing bowel ischaemia and abdominal pain, and adrenal vein thrombosis can lead to haemorrhagic adrenal infarction.
 
 [^warkentin-2007-hit-review]: Warkentin TE, Greinacher A. Heparin-induced thrombocytopenia: recognition, treatment, and prevention. *Chest.* 2004;126(3 Suppl):311S-337S. [doi:10.1378/chest.126.3_suppl.311S](https://doi.org/10.1378/chest.126.3_suppl.311S) · [PubMed 15383477](https://pubmed.ncbi.nlm.nih.gov/15383477/)
 [^greinacher-2021-vitt-nejm]: Greinacher A, Thiele T, Warkentin TE, et al. Thrombotic thrombocytopenia after ChAdOx1 nCov-19 vaccination. *N Engl J Med.* 2021;384(22):2092-2101. [doi:10.1056/NEJMoa2104840](https://doi.org/10.1056/NEJMoa2104840) · [PubMed 33835769](https://pubmed.ncbi.nlm.nih.gov/33835769/)
