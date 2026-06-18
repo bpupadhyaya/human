@@ -232,6 +232,15 @@ cross_links:
   - target: 01-human/07-system/digestive-system
     relation: connects-to
     note: "Harsh chemotherapy hits the gut: the multidrug regimens used against ATRT cause severe nausea, mucositis and feeding difficulty in very young children."
+  - target: 03-medicine/01-modern/13-cancer/cancer-chemotherapy
+    relation: connects-to
+    note: "Intensive chemo is the backbone: AT/RT is treated with aggressive multi-agent chemotherapy, sometimes high-dose with stem-cell rescue, given its poor prognosis in very young children."
+  - target: 03-medicine/01-modern/13-cancer/targeted-therapy
+    relation: connects-to
+    note: "Epigenetic drugs target the defect: because SMARCB1 loss unleashes EZH2, EZH2 inhibitors such as tazemetostat and CDK4/6 inhibitors are being trialled against rhabdoid tumours."
+  - target: 01-human/07-system/ewing-sarcoma
+    relation: connects-to
+    note: "A fellow aggressive childhood tumour: like Ewing sarcoma, AT/RT is a highly malignant paediatric cancer driven by a single defining genetic lesion, and the two enter the small-round-blue-cell differential."
 ---
 
 # Atypical Teratoid/Rhabdoid Tumor
@@ -422,6 +431,9 @@ AT/RT has no established standard of care; protocols are protocol-driven and cen
 - `connects-to` → **[Immune System](../immune-system/README.md)** — Treatment suppresses immunity and biology invites it: intensive infant chemotherapy leaves children profoundly immunocompromised, while SMARCB1-deficient rhabdoid tumours are being explored for immune and EZH2-targeted therapy.
 - `connects-to` → **[Respiratory System](../respiratory-system/README.md)** — It seeds the neuraxis and beyond: ATRT spreads through the cerebrospinal fluid and can metastasise outside the brain, including to the lungs, while intensive therapy invites pneumonia.
 - `connects-to` → **[Digestive System](../digestive-system/README.md)** — Harsh chemotherapy hits the gut: the multidrug regimens used against ATRT cause severe nausea, mucositis and feeding difficulty in very young children.
+- `connects-to` → **[Cancer Chemotherapy](../../../03-medicine/01-modern/13-cancer/cancer-chemotherapy/README.md)** — Intensive chemo is the backbone: AT/RT is treated with aggressive multi-agent chemotherapy, sometimes high-dose with stem-cell rescue, given its poor prognosis in very young children.
+- `connects-to` → **[Targeted Therapy](../../../03-medicine/01-modern/13-cancer/targeted-therapy/README.md)** — Epigenetic drugs target the defect: because SMARCB1 loss unleashes EZH2, EZH2 inhibitors such as tazemetostat and CDK4/6 inhibitors are being trialled against rhabdoid tumours.
+- `connects-to` → **[Ewing Sarcoma](../ewing-sarcoma/README.md)** — A fellow aggressive childhood tumour: like Ewing sarcoma, AT/RT is a highly malignant paediatric cancer driven by a single defining genetic lesion, and the two enter the small-round-blue-cell differential.
 
 ---
 

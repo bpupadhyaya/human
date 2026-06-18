@@ -241,6 +241,15 @@ cross_links:
   - target: 03-medicine/03-food/zinc-dietary
     relation: connects-to
     note: "Trace minerals draw interest: low zinc and iron status are associated with ADHD, and supplementation may help when deficiency is present, though it is not a primary therapy."
+  - target: 01-human/07-system/neurofibromatosis-type-1
+    relation: connects-to
+    note: "A genetic cause of the attention phenotype: around half of children with neurofibromatosis type 1 meet criteria for ADHD, making it one of the strongest single-gene contributors to the disorder."
+  - target: 01-human/07-system/fibromyalgia
+    relation: connects-to
+    note: "Inattention and chronic pain overlap: ADHD is markedly more common in fibromyalgia, the two sharing dopaminergic dysregulation, poor sleep and difficulties with attention and pain processing."
+  - target: 01-human/07-system/schizophrenia
+    relation: connects-to
+    note: "Shared neurodevelopmental roots: ADHD and schizophrenia overlap in genetic risk and dopaminergic dysfunction, and childhood ADHD is associated with a modestly raised later risk of psychosis."
 ---
 
 # Attention-Deficit/Hyperactivity Disorder
@@ -461,6 +470,9 @@ ADHD is a clinical diagnosis requiring [^biederman-2005-adhd-adults]:
 - `connects-to` → **[Respiratory System](../respiratory-system/README.md)** — It travels with allergy and bad sleep: ADHD frequently coexists with asthma and allergic disease, and obstructive sleep apnoea can mimic or worsen the inattention and hyperactivity.
 - `connects-to` → **[Omega-3 fatty acids](../../../03-medicine/03-food/omega-3-fatty-acids/README.md)** — Diet offers a small lever: omega-3 supplementation shows modest benefit for ADHD symptoms in trials, a complement rather than a substitute for established treatment.
 - `connects-to` → **[Dietary Zinc](../../../03-medicine/03-food/zinc-dietary/README.md)** — Trace minerals draw interest: low zinc and iron status are associated with ADHD, and supplementation may help when deficiency is present, though it is not a primary therapy.
+- `connects-to` → **[Neurofibromatosis Type 1](../neurofibromatosis-type-1/README.md)** — A genetic cause of the attention phenotype: around half of children with neurofibromatosis type 1 meet criteria for ADHD, making it one of the strongest single-gene contributors to the disorder.
+- `connects-to` → **[Fibromyalgia](../fibromyalgia/README.md)** — Inattention and chronic pain overlap: ADHD is markedly more common in fibromyalgia, the two sharing dopaminergic dysregulation, poor sleep and difficulties with attention and pain processing.
+- `connects-to` → **[Schizophrenia](../schizophrenia/README.md)** — Shared neurodevelopmental roots: ADHD and schizophrenia overlap in genetic risk and dopaminergic dysfunction, and childhood ADHD is associated with a modestly raised later risk of psychosis.
 
 [^faraone-2021-adhd-primer]: Faraone SV, Banaschewski T, Coghill D, et al. The World Federation of ADHD International Consensus Statement: 208 Evidence-based conclusions about the disorder. *Neurosci Biobehav Rev.* 2021;128:789-818. [doi:10.1016/j.neubiorev.2021.01.022](https://doi.org/10.1016/j.neubiorev.2021.01.022) · [PubMed 33549739](https://pubmed.ncbi.nlm.nih.gov/33549739/)
 [^arnsten-2009-adhd-neuroscience]: Arnsten AF. Toward a new understanding of ADHD pathophysiology: an important role for prefrontal cortex dysfunction. *CNS Drugs.* 2009;23(Suppl 1):33-41. [doi:10.2165/00023210-200923000-00005](https://doi.org/10.2165/00023210-200923000-00005) · [PubMed 19621976](https://pubmed.ncbi.nlm.nih.gov/19621976/)
