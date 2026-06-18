@@ -223,6 +223,15 @@ cross_links:
   - target: 01-human/07-system/digestive-system
     relation: connects-to
     note: "It thromboses unusual sites: HIT can clot the mesenteric and portal veins, causing bowel ischaemia and abdominal pain, and adrenal vein thrombosis can lead to haemorrhagic adrenal infarction."
+  - target: 01-human/07-system/nervous-system
+    relation: connects-to
+    note: "It clots the brain's vessels: cerebral venous sinus thrombosis and arterial stroke are serious neurological thrombotic complications of HIT."
+  - target: 01-human/07-system/renal-system
+    relation: connects-to
+    note: "It clots the renal vessels: renal vein and renal artery thrombosis in HIT cause acute kidney injury."
+  - target: 01-human/07-system/musculoskeletal-system
+    relation: connects-to
+    note: "It can cost a limb: arterial thrombosis in HIT causes acute limb ischaemia and gangrene that may require amputation, the 'white clot syndrome'."
 ---
 
 # Heparin-Induced Thrombocytopenia
@@ -435,6 +444,9 @@ Platelet consumption → thrombocytopenia (paradox: clotting despite low platele
 - `connects-to` → **[Immune System](../immune-system/README.md)** — It is an immune drug reaction at heart: IgG antibodies against platelet factor 4-heparin complexes cross-link platelet FcγRIIa receptors, activating platelets and the clotting cascade despite a falling platelet count.
 - `connects-to` → **[Respiratory System](../respiratory-system/README.md)** — It often clots the lungs: pulmonary embolism is a frequent thrombotic outcome of HIT, and a rapid intravenous heparin bolus can trigger an acute anaphylactoid reaction with dyspnoea and collapse.
 - `connects-to` → **[Digestive System](../digestive-system/README.md)** — It thromboses unusual sites: HIT can clot the mesenteric and portal veins, causing bowel ischaemia and abdominal pain, and adrenal vein thrombosis can lead to haemorrhagic adrenal infarction.
+- `connects-to` → **[Nervous System](../nervous-system/README.md)** — It clots the brain's vessels: cerebral venous sinus thrombosis and arterial stroke are serious neurological thrombotic complications of HIT.
+- `connects-to` → **[Renal System](../renal-system/README.md)** — It clots the renal vessels: renal vein and renal artery thrombosis in HIT cause acute kidney injury.
+- `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — It can cost a limb: arterial thrombosis in HIT causes acute limb ischaemia and gangrene that may require amputation, the 'white clot syndrome'.
 
 [^warkentin-2007-hit-review]: Warkentin TE, Greinacher A. Heparin-induced thrombocytopenia: recognition, treatment, and prevention. *Chest.* 2004;126(3 Suppl):311S-337S. [doi:10.1378/chest.126.3_suppl.311S](https://doi.org/10.1378/chest.126.3_suppl.311S) · [PubMed 15383477](https://pubmed.ncbi.nlm.nih.gov/15383477/)
 [^greinacher-2021-vitt-nejm]: Greinacher A, Thiele T, Warkentin TE, et al. Thrombotic thrombocytopenia after ChAdOx1 nCov-19 vaccination. *N Engl J Med.* 2021;384(22):2092-2101. [doi:10.1056/NEJMoa2104840](https://doi.org/10.1056/NEJMoa2104840) · [PubMed 33835769](https://pubmed.ncbi.nlm.nih.gov/33835769/)
