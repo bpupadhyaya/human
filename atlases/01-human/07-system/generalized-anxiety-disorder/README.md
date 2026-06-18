@@ -229,6 +229,15 @@ cross_links:
   - target: 01-human/07-system/integumentary-system
     relation: connects-to
     note: "Anxiety surfaces on the skin: stress aggravates eczema, psoriasis and itch and drives sweating, and skin-picking or hair-pulling behaviours can accompany chronic anxiety."
+  - target: 01-human/07-system/respiratory-system
+    relation: connects-to
+    note: "Breathing carries the symptoms: anxiety drives hyperventilation, breathlessness and chest tightness, and a vicious circle ties it tightly to asthma and breathing disorders."
+  - target: 03-medicine/01-modern/10-mental-health/fluoxetine
+    relation: connects-to
+    note: "First-line treatment is an antidepressant: SSRIs like fluoxetine are the mainstay for generalized anxiety disorder, preferred over benzodiazepines for long-term control."
+  - target: 03-medicine/03-food/magnesium-dietary
+    relation: connects-to
+    note: "Diet draws interest: low magnesium status has been linked to anxiety and supplementation trialled as an adjunct, though the evidence remains modest."
 ---
 
 # Generalized Anxiety Disorder
@@ -437,6 +446,9 @@ Allow **4-8 weeks** for onset of anxiolytic effect. Continue treatment ≥12 mon
 - `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — Worry lives in the muscles: persistent muscle tension, aches and tension headaches are core somatic features of generalized anxiety disorder, often the symptoms that bring people to the doctor.
 - `connects-to` → **[Immune System](../immune-system/README.md)** — Chronic worry unsettles immunity: sustained anxiety dysregulates cortisol and raises inflammatory markers, blunting immune function over time.
 - `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — Anxiety surfaces on the skin: stress aggravates eczema, psoriasis and itch and drives sweating, and skin-picking or hair-pulling behaviours can accompany chronic anxiety.
+- `connects-to` → **[Respiratory System](../respiratory-system/README.md)** — Breathing carries the symptoms: anxiety drives hyperventilation, breathlessness and chest tightness, and a vicious circle ties it tightly to asthma and breathing disorders.
+- `connects-to` → **[Fluoxetine](../../../03-medicine/01-modern/10-mental-health/fluoxetine/README.md)** — First-line treatment is an antidepressant: SSRIs like fluoxetine are the mainstay for generalized anxiety disorder, preferred over benzodiazepines for long-term control.
+- `connects-to` → **[Dietary Magnesium](../../../03-medicine/03-food/magnesium-dietary/README.md)** — Diet draws interest: low magnesium status has been linked to anxiety and supplementation trialled as an adjunct, though the evidence remains modest.
 
 [^kessler-2005-gad-prevalence]: Kessler RC, Berglund P, Demler O, et al. Lifetime prevalence and age-of-onset distributions of DSM-IV disorders in the NCS Replication. *Arch Gen Psychiatry.* 2005;62(6):593-602. [doi:10.1001/archpsyc.62.6.593](https://doi.org/10.1001/archpsyc.62.6.593) · [PubMed 15939837](https://pubmed.ncbi.nlm.nih.gov/15939837/)
 [^bandelow-2015-anxiety-biology]: Bandelow B, Michaelis S. Epidemiology of anxiety disorders in the 21st century. *Dialogues Clin Neurosci.* 2015;17(3):327-335. [doi:10.31887/DCNS.2015.17.3/bbandelow](https://doi.org/10.31887/DCNS.2015.17.3/bbandelow) · [PubMed 26487812](https://pubmed.ncbi.nlm.nih.gov/26487812/)
