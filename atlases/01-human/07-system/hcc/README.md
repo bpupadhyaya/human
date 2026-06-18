@@ -220,6 +220,15 @@ cross_links:
   - target: 01-human/07-system/cardiovascular-system
     relation: connects-to
     note: "It grows into the great veins: HCC characteristically invades the hepatic vein and inferior vena cava, with tumour thrombus that can extend into the right atrium."
+  - target: 01-human/07-system/musculoskeletal-system
+    relation: connects-to
+    note: "It spreads to bone and wastes muscle: HCC commonly metastasises to the skeleton with painful lytic lesions, while the sarcopenia of cirrhosis erodes muscle and worsens prognosis."
+  - target: 01-human/07-system/renal-system
+    relation: connects-to
+    note: "A failing liver drags down the kidney: advanced HCC and its cirrhosis precipitate hepatorenal syndrome, a functional kidney failure driven by splanchnic vasodilation."
+  - target: 01-human/07-system/integumentary-system
+    relation: connects-to
+    note: "The skin betrays the diseased liver: jaundice, intractable cholestatic pruritus and the spider naevi of cirrhosis accompany HCC, and HCV-related disease can bring porphyria cutanea tarda."
 ---
 
 # Hepatocellular Carcinoma
@@ -425,6 +434,9 @@ In high-risk patients (cirrhosis, HBV regardless of cirrhosis): ultrasound ± AF
 - `connects-to` → **[Respiratory System](../respiratory-system/README.md)** — It spreads first to the lungs: the lungs are the commonest site of extrahepatic metastasis in hepatocellular carcinoma, appearing as nodules on staging and follow-up imaging.
 - `connects-to` → **[Endocrine System](../endocrine-system/README.md)** — It makes hormones it shouldn't: HCC causes paraneoplastic hypoglycaemia from IGF-II, erythrocytosis from erythropoietin and hypercalcaemia from PTHrP.
 - `connects-to` → **[Cardiovascular System](../cardiovascular-system/README.md)** — It grows into the great veins: HCC characteristically invades the hepatic vein and inferior vena cava, with tumour thrombus that can extend into the right atrium.
+- `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — It spreads to bone and wastes muscle: HCC commonly metastasises to the skeleton with painful lytic lesions, while the sarcopenia of cirrhosis erodes muscle and worsens prognosis.
+- `connects-to` → **[Renal System](../renal-system/README.md)** — A failing liver drags down the kidney: advanced HCC and its cirrhosis precipitate hepatorenal syndrome, a functional kidney failure driven by splanchnic vasodilation.
+- `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — The skin betrays the diseased liver: jaundice, intractable cholestatic pruritus and the spider naevi of cirrhosis accompany HCC, and HCV-related disease can bring porphyria cutanea tarda.
 
 [^llovet-2008-sorafenib]: Llovet JM, Ricci S, Mazzaferro V, et al. Sorafenib in advanced hepatocellular carcinoma. *N Engl J Med.* 2008;359(4):378-390. [doi:10.1056/NEJMoa0708857](https://doi.org/10.1056/NEJMoa0708857) · [PubMed 18650514](https://pubmed.ncbi.nlm.nih.gov/18650514/)
 [^finn-2020-imbrave150]: Finn RS, Qin S, Ikeda M, et al. Atezolizumab plus bevacizumab in unresectable hepatocellular carcinoma. *N Engl J Med.* 2020;382(20):1894-1905. [doi:10.1056/NEJMoa1915745](https://doi.org/10.1056/NEJMoa1915745) · [PubMed 32402160](https://pubmed.ncbi.nlm.nih.gov/32402160/)
