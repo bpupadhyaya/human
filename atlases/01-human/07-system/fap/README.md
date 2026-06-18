@@ -205,6 +205,15 @@ cross_links:
   - target: 01-human/07-system/generalized-anxiety-disorder
     relation: connects-to
     note: "Inevitable cancer risk and surveillance breed worry: the certainty of colorectal cancer without surgery and the lifelong endoscopic surveillance of FAP foster chronic health anxiety alongside depression."
+  - target: 01-human/07-system/endocrine-system
+    relation: connects-to
+    note: "APC loss reaches the endocrine glands: FAP raises the risk of papillary thyroid cancer (the cribriform-morular variant) and adrenal adenomas, extending its tumour spectrum into the endocrine system."
+  - target: 01-human/07-system/nervous-system
+    relation: connects-to
+    note: "It marks the eye and, rarely, the brain: FAP causes congenital hypertrophy of the retinal pigment epithelium, and the Turcot variant pairs colonic polyposis with brain tumours like medulloblastoma."
+  - target: 01-human/07-system/gut-microbiome
+    relation: connects-to
+    note: "Gut bacteria speed its polyps to cancer: in FAP the colonic microbiome — colibactin-producing E. coli and enterotoxigenic Bacteroides — accelerates the progression of its myriad adenomas toward carcinoma."
 ---
 
 # Familial Adenomatous Polyposis
@@ -407,6 +416,9 @@ With modern surveillance and prophylactic colectomy: FAP is no longer an inevita
 - `connects-to` → **[Wound Healing](../wound-healing/README.md)** — Repeated abdominal surgery taxes healing: prophylactic colectomy, pouch construction and desmoid resections in FAP leave patients with recurrent surgical wounds, adhesions and the slow healing of reoperated tissue.
 - `connects-to` → **[Neuropathic Pain](../neuropathic-pain/README.md)** — Surgery and desmoids irritate nerves: extensive abdominal operations and mesenteric desmoid tumors in FAP can entrap and compress nerves, producing chronic post-surgical and neuropathic abdominal pain.
 - `connects-to` → **[Generalized Anxiety Disorder](../generalized-anxiety-disorder/README.md)** — Inevitable cancer risk and surveillance breed worry: the certainty of colorectal cancer without surgery and the lifelong endoscopic surveillance of FAP foster chronic health anxiety alongside depression.
+- `connects-to` → **[Endocrine System](../endocrine-system/README.md)** — APC loss reaches the endocrine glands: FAP raises the risk of papillary thyroid cancer (the cribriform-morular variant) and adrenal adenomas, extending its tumour spectrum into the endocrine system.
+- `connects-to` → **[Nervous System](../nervous-system/README.md)** — It marks the eye and, rarely, the brain: FAP causes congenital hypertrophy of the retinal pigment epithelium, and the Turcot variant pairs colonic polyposis with brain tumours like medulloblastoma.
+- `connects-to` → **[Gut Microbiome](../gut-microbiome/README.md)** — Gut bacteria speed its polyps to cancer: in FAP the colonic microbiome — colibactin-producing E. coli and enterotoxigenic Bacteroides — accelerates the progression of its myriad adenomas toward carcinoma.
 
 [^kinzler-1991-apc]: Kinzler KW, Nilbert MC, Su LK, et al. Identification of FAP locus genes from chromosome 5q21. *Science.* 1991;253(5020):661-665. [doi:10.1126/science.1651562](https://doi.org/10.1126/science.1651562) · [PubMed 1651562](https://pubmed.ncbi.nlm.nih.gov/1651562/)
 [^fearon-1990-vogelstein]: Fearon ER, Vogelstein B. A genetic model for colorectal tumorigenesis. *Cell.* 1990;61(5):759-767. [doi:10.1016/0092-8674(90)90186-i](https://doi.org/10.1016/0092-8674(90)90186-i) · [PubMed 2188735](https://pubmed.ncbi.nlm.nih.gov/2188735/)

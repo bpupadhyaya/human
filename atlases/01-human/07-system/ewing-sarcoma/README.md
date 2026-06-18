@@ -205,6 +205,15 @@ cross_links:
   - target: 01-human/07-system/major-depressive-disorder
     relation: connects-to
     note: "A bone cancer of the young with hard therapy weighs on mood: Ewing's diagnosis in children and young adults, amputation or limb-salvage surgery and grueling chemotherapy contribute to depression and distress."
+  - target: 01-human/07-system/wound-healing
+    relation: connects-to
+    note: "Limb salvage and radiation heal poorly: the wide bone resection with endoprosthesis or amputation in Ewing sarcoma, in irradiated and chemotherapy-suppressed tissue, leaves wounds prone to breakdown."
+  - target: 02-pathogen/01-viruses/varicella-zoster-virus
+    relation: connects-to
+    note: "Intensive chemo reawakens shingles: the dose-dense VDC/IE chemotherapy for Ewing sarcoma deeply suppresses a young patient's immunity, allowing latent or primary varicella-zoster to cause severe disease."
+  - target: 01-human/07-system/generalized-anxiety-disorder
+    relation: connects-to
+    note: "A young cancer with relapse risk breeds worry: the limb loss, lung-metastasis surveillance and long survivorship of Ewing sarcoma foster chronic anxiety in survivors and families."
 ---
 
 # Ewing Sarcoma
@@ -390,6 +399,9 @@ After induction → surgical specimen assessed for percent tumor necrosis (Salze
 - `connects-to` → **[Neuropathic Pain](../neuropathic-pain/README.md)** — Vincristine and tumor injure the nerves: the vincristine in Ewing regimens causes peripheral neuropathy, and tumor near the spine or pelvis can compress nerves, together producing neuropathic pain.
 - `connects-to` → **[Chronic Kidney Disease](../ckd/README.md)** — Ifosfamide scars the young kidney: the alkylator central to Ewing chemotherapy is tubulotoxic, causing a Fanconi-type tubulopathy and lasting chronic kidney impairment in treated children.
 - `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — A bone cancer of the young with hard therapy weighs on mood: Ewing's diagnosis in children and young adults, amputation or limb-salvage surgery and grueling chemotherapy contribute to depression and distress.
+- `connects-to` → **[Wound Healing](../wound-healing/README.md)** — Limb salvage and radiation heal poorly: the wide bone resection with endoprosthesis or amputation in Ewing sarcoma, in irradiated and chemotherapy-suppressed tissue, leaves wounds prone to breakdown.
+- `connects-to` → **[Varicella-Zoster Virus](../../../02-pathogen/01-viruses/varicella-zoster-virus/README.md)** — Intensive chemo reawakens shingles: the dose-dense VDC/IE chemotherapy for Ewing sarcoma deeply suppresses a young patient's immunity, allowing latent or primary varicella-zoster to cause severe disease.
+- `connects-to` → **[Generalized Anxiety Disorder](../generalized-anxiety-disorder/README.md)** — A young cancer with relapse risk breeds worry: the limb loss, lung-metastasis surveillance and long survivorship of Ewing sarcoma foster chronic anxiety in survivors and families.
 
 ---
 
