@@ -223,6 +223,15 @@ cross_links:
   - target: 01-human/07-system/gout
     relation: connects-to
     note: "One of its drugs raises uric acid: pyrazinamide, a first-line antitubercular, reduces urate excretion and can cause hyperuricaemia and precipitate gout flares."
+  - target: 03-medicine/01-modern/02-respiratory/corticosteroids
+    relation: connects-to
+    note: "Steroids help in some sites: adjunctive corticosteroids reduce mortality in tuberculous meningitis and pericarditis by dampening the destructive granulomatous inflammation."
+  - target: 03-medicine/03-food/zinc-dietary
+    relation: connects-to
+    note: "Undernutrition and TB feed each other: malnutrition is a leading risk factor for active tuberculosis, and zinc and other micronutrient support aids recovery alongside drug treatment."
+  - target: 03-medicine/01-modern/11-biologics/adalimumab
+    relation: connects-to
+    note: "Biologics reawaken it: anti-TNF drugs like adalimumab can reactivate latent tuberculosis, so screening and treatment of latent infection are mandatory before starting them."
 ---
 
 # Tuberculosis
@@ -425,6 +434,9 @@ Standard **HRZE** regimen [^nahid-2016-tb-treatment]:
 - `connects-to` → **[Cardiovascular System](../cardiovascular-system/README.md)** — It can wrap and squeeze the heart: tuberculous pericarditis causes a pericardial effusion that can progress to constrictive pericarditis, a major extrapulmonary manifestation in endemic regions.
 - `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — It settles in and reacts on the skin: cutaneous tuberculosis such as lupus vulgaris and scrofuloderma, and the reactive panniculitis of erythema nodosum, are dermatological signs of infection.
 - `connects-to` → **[Gout](../gout/README.md)** — One of its drugs raises uric acid: pyrazinamide, a first-line antitubercular, reduces urate excretion and can cause hyperuricaemia and precipitate gout flares.
+- `connects-to` → **[Corticosteroids](../../../03-medicine/01-modern/02-respiratory/corticosteroids/README.md)** — Steroids help in some sites: adjunctive corticosteroids reduce mortality in tuberculous meningitis and pericarditis by dampening the destructive granulomatous inflammation.
+- `connects-to` → **[Dietary Zinc](../../../03-medicine/03-food/zinc-dietary/README.md)** — Undernutrition and TB feed each other: malnutrition is a leading risk factor for active tuberculosis, and zinc and other micronutrient support aids recovery alongside drug treatment.
+- `connects-to` → **[Adalimumab](../../../03-medicine/01-modern/11-biologics/adalimumab/README.md)** — Biologics reawaken it: anti-TNF drugs like adalimumab can reactivate latent tuberculosis, so screening and treatment of latent infection are mandatory before starting them.
 
 ## See Also
 

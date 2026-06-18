@@ -223,6 +223,15 @@ cross_links:
   - target: 01-human/07-system/breast-cancer
     relation: connects-to
     note: "It travels with breast cancer: thyroid and breast cancer co-occur more often than chance, so survivors of one carry a modestly raised risk of the other."
+  - target: 03-medicine/01-modern/13-cancer/targeted-therapy
+    relation: connects-to
+    note: "It is treated by isotope and kinase drugs: radioactive iodine ablates differentiated thyroid cancer, while multikinase and RET-specific inhibitors (selpercatinib) treat advanced and medullary disease."
+  - target: 01-human/07-system/carney-complex
+    relation: connects-to
+    note: "A fellow thyroid-tumour syndrome: Carney complex predisposes to thyroid adenomas and carcinoma, joining the inherited syndromes that raise thyroid-cancer risk."
+  - target: 01-human/07-system/dicer1-syndrome
+    relation: connects-to
+    note: "It runs in DICER1 families: DICER1 syndrome predisposes to differentiated thyroid carcinoma and multinodular goitre from childhood, part of inherited thyroid-cancer surveillance."
 ---
 
 # Thyroid Cancer
@@ -435,6 +444,9 @@ Calcitonin doubling time <6 months → poor prognosis → early systemic therapy
 - `connects-to` → **[Cardiovascular System](../cardiovascular-system/README.md)** — Its hormone-suppression and targeted drugs strain the heart: long-term TSH-suppressive levothyroxine can cause atrial fibrillation, and multikinase inhibitors like lenvatinib cause hypertension and QT prolongation.
 - `connects-to` → **[Renal System](../renal-system/README.md)** — Its targeted drugs reach the kidney: the multikinase inhibitors used for advanced thyroid cancer cause proteinuria and hypertension that affect renal function.
 - `connects-to` → **[Breast Cancer](../breast-cancer/README.md)** — It travels with breast cancer: thyroid and breast cancer co-occur more often than chance, so survivors of one carry a modestly raised risk of the other.
+- `connects-to` → **[Targeted Therapy](../../../03-medicine/01-modern/13-cancer/targeted-therapy/README.md)** — It is treated by isotope and kinase drugs: radioactive iodine ablates differentiated thyroid cancer, while multikinase and RET-specific inhibitors (selpercatinib) treat advanced and medullary disease.
+- `connects-to` → **[Carney Complex](../carney-complex/README.md)** — A fellow thyroid-tumour syndrome: Carney complex predisposes to thyroid adenomas and carcinoma, joining the inherited syndromes that raise thyroid-cancer risk.
+- `connects-to` → **[DICER1 Syndrome](../dicer1-syndrome/README.md)** — It runs in DICER1 families: DICER1 syndrome predisposes to differentiated thyroid carcinoma and multinodular goitre from childhood, part of inherited thyroid-cancer surveillance.
 
 [^schlumberger-2015-lenvatinib]: Schlumberger M, Tahara M, Wirth LJ, et al. Lenvatinib versus placebo in radioiodine-refractory differentiated thyroid cancer. *N Engl J Med.* 2015;372(7):621-630. [doi:10.1056/NEJMoa1406470](https://doi.org/10.1056/NEJMoa1406470) · [PubMed 25671254](https://pubmed.ncbi.nlm.nih.gov/25671254/)
 [^subbiah-2018-atc-dabrafenib]: Subbiah V, Kreitman RJ, Wainberg ZA, et al. Dabrafenib and trametinib treatment in patients with locally advanced or metastatic BRAF V600-mutant anaplastic thyroid cancer. *J Clin Oncol.* 2018;36(1):7-13. [doi:10.1200/JCO.2017.73.6785](https://doi.org/10.1200/JCO.2017.73.6785) · [PubMed 28892432](https://pubmed.ncbi.nlm.nih.gov/28892432/)
