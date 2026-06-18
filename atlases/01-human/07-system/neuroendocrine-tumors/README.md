@@ -214,6 +214,15 @@ cross_links:
   - target: 01-human/07-system/nervous-system
     relation: connects-to
     note: "Pellagra and metastases reach the brain: the niacin deficiency of serotonin-secreting NETs causes the dementia of pellagra, and NETs can metastasise to the central nervous system."
+  - target: 01-human/07-system/cardiovascular-system
+    relation: connects-to
+    note: "Serotonin scars the right heart: carcinoid heart disease is a hallmark complication in which serotonin from the tumour fibroses the tricuspid and pulmonary valves, causing right heart failure."
+  - target: 01-human/07-system/lymphatic-system
+    relation: connects-to
+    note: "It spreads to nodes and liver with desmoplasia: NETs metastasise to mesenteric lymph nodes, provoking a dense desmoplastic reaction that kinks the bowel, and characteristically to the liver."
+  - target: 01-human/07-system/musculoskeletal-system
+    relation: connects-to
+    note: "It seeds the bones as dense deposits: well-differentiated neuroendocrine tumours characteristically produce osteoblastic (sclerotic) bone metastases detectable on functional imaging."
 ---
 
 # Neuroendocrine Tumors
@@ -384,6 +393,9 @@ Treatment identical to SCLC: cisplatin (or carboplatin) + etoposide (4-6 cycles)
 - `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — Carcinoid shows on the skin: serotonin-secreting NETs cause the episodic flushing of carcinoid syndrome, and tryptophan diversion to serotonin depletes niacin, producing the dermatitis of pellagra.
 - `connects-to` → **[Respiratory System](../respiratory-system/README.md)** — They grow in and squeeze the airways: bronchial carcinoids are a recognised NET, and the bronchospasm and wheeze of carcinoid syndrome are part of its vasoactive-mediator effects.
 - `connects-to` → **[Nervous System](../nervous-system/README.md)** — Pellagra and metastases reach the brain: the niacin deficiency of serotonin-secreting NETs causes the dementia of pellagra, and NETs can metastasise to the central nervous system.
+- `connects-to` → **[Cardiovascular System](../cardiovascular-system/README.md)** — Serotonin scars the right heart: carcinoid heart disease is a hallmark complication in which serotonin from the tumour fibroses the tricuspid and pulmonary valves, causing right heart failure.
+- `connects-to` → **[Lymphatic System](../lymphatic-system/README.md)** — It spreads to nodes and liver with desmoplasia: NETs metastasise to mesenteric lymph nodes, provoking a dense desmoplastic reaction that kinks the bowel, and characteristically to the liver.
+- `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — It seeds the bones as dense deposits: well-differentiated neuroendocrine tumours characteristically produce osteoblastic (sclerotic) bone metastases detectable on functional imaging.
 
 [^yao-2011-radiant3]: Yao JC, Shah MH, Ito T, et al. Everolimus for advanced pancreatic neuroendocrine tumors. *N Engl J Med.* 2011;364(6):514-523. [doi:10.1056/NEJMoa1009290](https://doi.org/10.1056/NEJMoa1009290) · [PubMed 21306237](https://pubmed.ncbi.nlm.nih.gov/21306237/)
 [^raymond-2011-sunitinib-pnet]: Raymond E, Dahan L, Raoul JL, et al. Sunitinib malate for the treatment of pancreatic neuroendocrine tumors. *N Engl J Med.* 2011;364(6):501-513. [doi:10.1056/NEJMoa1003825](https://doi.org/10.1056/NEJMoa1003825) · [PubMed 21306236](https://pubmed.ncbi.nlm.nih.gov/21306236/)

@@ -214,6 +214,15 @@ cross_links:
   - target: 01-human/07-system/endocrine-system
     relation: connects-to
     note: "It is a hormone-secreting neural-crest tumour: arising from the sympathoadrenal lineage, neuroblastoma secretes catecholamines and sometimes VIP, and MIBG therapy requires thyroid protection."
+  - target: 01-human/07-system/integumentary-system
+    relation: connects-to
+    note: "It shows on the skin and around the eyes: infants with stage MS disease develop blue 'blueberry muffin' skin nodules, and orbital metastases cause periorbital 'raccoon eye' ecchymoses."
+  - target: 01-human/07-system/respiratory-system
+    relation: connects-to
+    note: "Thoracic tumours crowd the chest: a posterior mediastinal neuroblastoma can compress the airway and spinal cord, and the disease can rarely metastasise to the lungs."
+  - target: 01-human/07-system/lymphatic-system
+    relation: connects-to
+    note: "It spreads through the nodes: neuroblastoma disseminates to regional and distant lymph nodes, part of the staging that guides its risk-stratified treatment."
 ---
 
 # Neuroblastoma
@@ -416,6 +425,9 @@ Stage MS (metastatic, <18 months, skin/liver/bone marrow only, MYCN wild-type): 
 - `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — It spreads to bone and marrow: high-risk neuroblastoma metastasises avidly to the bones and bone marrow, causing bone pain, limping and the periorbital 'raccoon eyes' of orbital deposits.
 - `connects-to` → **[Digestive System](../digestive-system/README.md)** — Its mass and hormones disturb the gut: an abdominal or adrenal neuroblastoma compresses the bowel, and VIP-secreting tumours cause a profuse, intractable secretory diarrhoea.
 - `connects-to` → **[Endocrine System](../endocrine-system/README.md)** — It is a hormone-secreting neural-crest tumour: arising from the sympathoadrenal lineage, neuroblastoma secretes catecholamines and sometimes VIP, and MIBG therapy requires thyroid protection.
+- `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — It shows on the skin and around the eyes: infants with stage MS disease develop blue 'blueberry muffin' skin nodules, and orbital metastases cause periorbital 'raccoon eye' ecchymoses.
+- `connects-to` → **[Respiratory System](../respiratory-system/README.md)** — Thoracic tumours crowd the chest: a posterior mediastinal neuroblastoma can compress the airway and spinal cord, and the disease can rarely metastasise to the lungs.
+- `connects-to` → **[Lymphatic System](../lymphatic-system/README.md)** — It spreads through the nodes: neuroblastoma disseminates to regional and distant lymph nodes, part of the staging that guides its risk-stratified treatment.
 
 [^yu-2010-dinutuximab-nb]: Yu AL, Gilman AL, Ozkaynak MF, et al. Anti-GD2 antibody with GM-CSF, interleukin-2, and isotretinoin for neuroblastoma. *N Engl J Med.* 2010;363(14):1324-1334. [doi:10.1056/NEJMoa0911123](https://doi.org/10.1056/NEJMoa0911123) · [PubMed 20879881](https://pubmed.ncbi.nlm.nih.gov/20879881/)
 [^park-2019-tandem-sct-nb]: Park JR, Kreissman SG, London WB, et al. Effect of tandem autologous stem cell transplant vs single transplant on event-free survival in patients with high-risk neuroblastoma: a randomized clinical trial. *JAMA.* 2019;322(8):746-755. [doi:10.1001/jama.2019.11642](https://doi.org/10.1001/jama.2019.11642) · [PubMed 31454023](https://pubmed.ncbi.nlm.nih.gov/31454023/)
