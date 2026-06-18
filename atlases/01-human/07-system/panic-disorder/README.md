@@ -220,6 +220,15 @@ cross_links:
   - target: 01-human/07-system/integumentary-system
     relation: connects-to
     note: "The body sweats and flushes in fear: profuse diaphoresis, flushing and chills are autonomic skin manifestations of a panic attack, mediated by the adrenaline surge."
+  - target: 01-human/07-system/reproductive-system
+    relation: connects-to
+    note: "Hormones modulate its attacks: panic symptoms can fluctuate with the menstrual cycle and emerge or worsen in pregnancy and the postpartum period, reflecting hormonal influences on anxiety."
+  - target: 01-human/07-system/renal-system
+    relation: connects-to
+    note: "Overbreathing and its drugs shift chemistry: hyperventilation during attacks causes respiratory alkalosis that the kidney buffers, and the SSRIs used to treat panic can cause hyponatraemia."
+  - target: 01-human/07-system/immune-system
+    relation: connects-to
+    note: "Chronic anxiety inflames the body: persistent panic and stress raise inflammatory markers and dysregulate cortisol, linking the disorder to systemic inflammation over time."
 ---
 
 # Panic Disorder
@@ -432,6 +441,9 @@ The **interoceptive fear conditioning model** (Bouton, Mineka, Barlow) explains 
 - `connects-to` → **[Digestive System](../digestive-system/README.md)** — Panic speaks through the gut: attacks bring nausea and abdominal distress, and panic disorder is strongly comorbid with irritable bowel syndrome through the gut-brain axis.
 - `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — Hyperventilation cramps the muscles: the overbreathing of a panic attack causes respiratory alkalosis with carpopedal spasm and tetany, on top of the chronic muscle tension anxiety brings.
 - `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — The body sweats and flushes in fear: profuse diaphoresis, flushing and chills are autonomic skin manifestations of a panic attack, mediated by the adrenaline surge.
+- `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — Hormones modulate its attacks: panic symptoms can fluctuate with the menstrual cycle and emerge or worsen in pregnancy and the postpartum period, reflecting hormonal influences on anxiety.
+- `connects-to` → **[Renal System](../renal-system/README.md)** — Overbreathing and its drugs shift chemistry: hyperventilation during attacks causes respiratory alkalosis that the kidney buffers, and the SSRIs used to treat panic can cause hyponatraemia.
+- `connects-to` → **[Immune System](../immune-system/README.md)** — Chronic anxiety inflames the body: persistent panic and stress raise inflammatory markers and dysregulate cortisol, linking the disorder to systemic inflammation over time.
 
 [^gorman-2000-panic-neurobiology]: Gorman JM, Kent JM, Sullivan GM, Coplan JD. Neuroanatomical hypothesis of panic disorder, revised. *Am J Psychiatry.* 2000;157(4):493-505. [doi:10.1176/appi.ajp.157.4.493](https://doi.org/10.1176/appi.ajp.157.4.493) · [PubMed 10739407](https://pubmed.ncbi.nlm.nih.gov/10739407/)
 [^nardi-2009-clonazepam-panic]: Nardi AE, Freire RC, Zin WA. Panic disorder and control of breathing. *Respir Physiol Neurobiol.* 2009;167(1):133-143. [doi:10.1016/j.resp.2008.07.011](https://doi.org/10.1016/j.resp.2008.07.011) · [PubMed 18708168](https://pubmed.ncbi.nlm.nih.gov/18708168/)

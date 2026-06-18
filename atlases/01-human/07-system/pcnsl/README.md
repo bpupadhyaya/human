@@ -214,6 +214,15 @@ cross_links:
   - target: 01-human/07-system/musculoskeletal-system
     relation: connects-to
     note: "Prolonged steroids waste muscle and bone: the chronic dexamethasone used to control PCNSL oedema causes proximal steroid myopathy, osteoporosis and avascular necrosis."
+  - target: 01-human/07-system/renal-system
+    relation: connects-to
+    note: "Its key drug can block the kidney: the high-dose methotrexate central to PCNSL treatment can precipitate in the renal tubules causing acute kidney injury, needing hydration, alkalinisation and leucovorin rescue."
+  - target: 01-human/07-system/respiratory-system
+    relation: connects-to
+    note: "Drug and immunosuppression hit the lungs: methotrexate can cause pneumonitis, and the profound immunosuppression of PCNSL and its therapy invites Pneumocystis and fungal pneumonia."
+  - target: 01-human/07-system/integumentary-system
+    relation: connects-to
+    note: "Its therapy assaults skin and mucosa: high-dose methotrexate causes severe mucositis and skin toxicity, and the dexamethasone used for oedema thins and bruises the skin."
 ---
 
 # Primary CNS Lymphoma
@@ -393,6 +402,9 @@ Score 0-1: 2-year OS ~80%; Score 2-3: ~48%; Score 4-5: ~15%
 - `connects-to` → **[Endocrine System](../endocrine-system/README.md)** — Steroids and radiation disturb the glands: the high-dose dexamethasone used in PCNSL causes steroid diabetes, and whole-brain radiation or sellar-region disease can damage the pituitary.
 - `connects-to` → **[Digestive System](../digestive-system/README.md)** — Its mainstay drug injures gut and liver: high-dose methotrexate for PCNSL causes severe mucositis and hepatotoxicity, and chronic dexamethasone raises peptic-ulcer risk.
 - `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — Prolonged steroids waste muscle and bone: the chronic dexamethasone used to control PCNSL oedema causes proximal steroid myopathy, osteoporosis and avascular necrosis.
+- `connects-to` → **[Renal System](../renal-system/README.md)** — Its key drug can block the kidney: the high-dose methotrexate central to PCNSL treatment can precipitate in the renal tubules causing acute kidney injury, needing hydration, alkalinisation and leucovorin rescue.
+- `connects-to` → **[Respiratory System](../respiratory-system/README.md)** — Drug and immunosuppression hit the lungs: methotrexate can cause pneumonitis, and the profound immunosuppression of PCNSL and its therapy invites Pneumocystis and fungal pneumonia.
+- `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — Its therapy assaults skin and mucosa: high-dose methotrexate causes severe mucositis and skin toxicity, and the dexamethasone used for oedema thins and bruises the skin.
 
 [^bromberg-2019-hovon105]: Bromberg JE, Issa S, Bakunina K, et al. Rituximab in patients with primary CNS lymphoma (HOVON 105/ALLG NHL 24): a randomised, open-label, phase 3 intergroup study. *Lancet Oncol.* 2019;20(2):216-228. [doi:10.1016/S1470-2045(18)30747-2](https://doi.org/10.1016/S1470-2045(18)30747-2) · [PubMed 30528440](https://pubmed.ncbi.nlm.nih.gov/30528440/)
 [^grommes-2017-ibrutinib-pcnsl]: Grommes C, Pastore A, Palaskas N, et al. Ibrutinib unmasks critical role of Bruton tyrosine kinase in primary CNS lymphoma. *Cancer Cell.* 2017;31(6):833-843. [doi:10.1016/j.ccell.2017.04.012](https://doi.org/10.1016/j.ccell.2017.04.012) · [PubMed 28552327](https://pubmed.ncbi.nlm.nih.gov/28552327/)
