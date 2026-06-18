@@ -229,6 +229,15 @@ cross_links:
   - target: 01-human/07-system/renal-system
     relation: connects-to
     note: "Severe muscle breakdown can reach the kidney: extensive myositis can release myoglobin and cause acute kidney injury, and rarely an immune-complex glomerulonephritis accompanies the disease."
+  - target: 01-human/07-system/cardiovascular-system
+    relation: connects-to
+    note: "It damages vessels beyond the heart muscle: dermatomyositis causes Raynaud's phenomenon and a nailfold capillaropathy, and the chronic inflammation accelerates atherosclerosis."
+  - target: 01-human/07-system/lymphatic-system
+    relation: connects-to
+    note: "Its cancer link works through the nodes: adult dermatomyositis (especially anti-TIF1γ) is strongly paraneoplastic, and those cancers spread via lymph nodes, with a raised lymphoma risk too."
+  - target: 01-human/07-system/nervous-system
+    relation: connects-to
+    note: "It spares the nerves: dermatomyositis attacks muscle and skin while sparing the peripheral nerves — distinguishing it from neuropathic weakness — though juvenile disease can rarely cause CNS vasculitis."
 ---
 
 # Dermatomyositis
@@ -424,6 +433,9 @@ DM carries a ~3–7× elevated cancer risk overall. Anti-TIF1γ (TRIM33) suppres
 - `connects-to` → **[Immune System](../immune-system/README.md)** — It is an autoantibody-defined autoimmune disease: myositis-specific antibodies such as anti-MDA5 and anti-TIF1γ mark distinct phenotypes, and a type I interferon signature with complement-mediated capillary damage drives the muscle and skin injury.
 - `connects-to` → **[Endocrine System](../endocrine-system/README.md)** — Its treatment hits the endocrine system: long-term high-dose corticosteroids and immunosuppressants cause Cushingoid features, steroid-induced diabetes and adrenal suppression that must be managed alongside the disease.
 - `connects-to` → **[Renal System](../renal-system/README.md)** — Severe muscle breakdown can reach the kidney: extensive myositis can release myoglobin and cause acute kidney injury, and rarely an immune-complex glomerulonephritis accompanies the disease.
+- `connects-to` → **[Cardiovascular System](../cardiovascular-system/README.md)** — It damages vessels beyond the heart muscle: dermatomyositis causes Raynaud's phenomenon and a nailfold capillaropathy, and the chronic inflammation accelerates atherosclerosis.
+- `connects-to` → **[Lymphatic System](../lymphatic-system/README.md)** — Its cancer link works through the nodes: adult dermatomyositis (especially anti-TIF1γ) is strongly paraneoplastic, and those cancers spread via lymph nodes, with a raised lymphoma risk too.
+- `connects-to` → **[Nervous System](../nervous-system/README.md)** — It spares the nerves: dermatomyositis attacks muscle and skin while sparing the peripheral nerves — distinguishing it from neuropathic weakness — though juvenile disease can rarely cause CNS vasculitis.
 
 [^bohan-peter-1975-dm-criteria]: Bohan A, Peter JB. Polymyositis and dermatomyositis. *N Engl J Med.* 1975;292(7):344-347. [doi:10.1056/NEJM197502132920706](https://doi.org/10.1056/NEJM197502132920706) · [PubMed 1090839](https://pubmed.ncbi.nlm.nih.gov/1090839/)
 [^lundberg-2021-iim-classification]: Lundberg IE, et al. 2017 EULAR/ACR classification criteria for adult and juvenile idiopathic inflammatory myopathies. *Arthritis Rheumatol.* 2017;69(12):2271-2282. [doi:10.1002/art.40320](https://doi.org/10.1002/art.40320) · [PubMed 29106061](https://pubmed.ncbi.nlm.nih.gov/29106061/)
