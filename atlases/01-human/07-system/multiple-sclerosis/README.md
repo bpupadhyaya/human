@@ -208,6 +208,15 @@ cross_links:
   - target: 01-human/07-system/wound-healing
     relation: connects-to
     note: "Immobility and lost sensation break down the skin: as MS advances to wheelchair or bedbound disability with impaired sensation, pressure ulcers form and heal slowly over insensate, poorly perfused skin."
+  - target: 01-human/07-system/renal-system
+    relation: connects-to
+    note: "Spinal demyelination wrecks bladder control: neurogenic bladder is one of the most common and disabling features of MS, causing urgency, incontinence and retention with recurrent UTIs and upper-tract damage."
+  - target: 01-human/07-system/digestive-system
+    relation: connects-to
+    note: "It disrupts the bowel too: MS commonly causes neurogenic bowel with constipation and faecal incontinence, and brainstem lesions can produce dysphagia with aspiration risk."
+  - target: 02-pathogen/01-viruses/varicella-zoster-virus
+    relation: connects-to
+    note: "Its immunotherapies reawaken shingles: the B-cell-depleting and S1P-modulator disease-modifying therapies for MS, especially fingolimod, raise the risk of herpes-zoster reactivation."
 ---
 
 # Multiple Sclerosis
@@ -381,6 +390,9 @@ MS affects approximately **2.8 million people worldwide** (~1 million in the US)
 - `connects-to` → **[Chronic Kidney Disease](../ckd/README.md)** — A neurogenic bladder endangers the kidneys: spinal demyelination in MS impairs bladder control, and the recurrent urinary infections and back-pressure that follow can progress over years to chronic kidney disease.
 - `connects-to` → **[Aspergillus fumigatus](../../../02-pathogen/03-fungi/aspergillus-fumigatus/README.md)** — Its disease-modifying drugs blunt immunity: the immunosuppressive and B-cell-depleting therapies for MS, like ocrelizumab and fingolimod, can permit opportunistic infections including invasive aspergillosis.
 - `connects-to` → **[Wound Healing](../wound-healing/README.md)** — Immobility and lost sensation break down the skin: as MS advances to wheelchair or bedbound disability with impaired sensation, pressure ulcers form and heal slowly over insensate, poorly perfused skin.
+- `connects-to` → **[Renal System](../renal-system/README.md)** — Spinal demyelination wrecks bladder control: neurogenic bladder is one of the most common and disabling features of MS, causing urgency, incontinence and retention with recurrent UTIs and upper-tract damage.
+- `connects-to` → **[Digestive System](../digestive-system/README.md)** — It disrupts the bowel too: MS commonly causes neurogenic bowel with constipation and faecal incontinence, and brainstem lesions can produce dysphagia with aspiration risk.
+- `connects-to` → **[Varicella-Zoster Virus](../../../02-pathogen/01-viruses/varicella-zoster-virus/README.md)** — Its immunotherapies reawaken shingles: the B-cell-depleting and S1P-modulator disease-modifying therapies for MS, especially fingolimod, raise the risk of herpes-zoster reactivation.
 
 [^compston-2008-ms-review]: Compston A, Coles A. Multiple sclerosis. *Lancet.* 2008;372(9648):1502-1517. [doi:10.1016/S0140-6736(08)61620-7](https://doi.org/10.1016/S0140-6736(08)61620-7) · [PubMed 18970977](https://pubmed.ncbi.nlm.nih.gov/18970977/)
 [^kappos-2006-natalizumab]: Polman CH, O'Connor PW, Havrdova E, et al. A randomized, placebo-controlled trial of natalizumab for relapsing multiple sclerosis. *N Engl J Med.* 2006;354(9):899-910. [doi:10.1056/NEJMoa044397](https://doi.org/10.1056/NEJMoa044397) · [PubMed 16510744](https://pubmed.ncbi.nlm.nih.gov/16510744/)

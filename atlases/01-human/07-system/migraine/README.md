@@ -211,6 +211,15 @@ cross_links:
   - target: 01-human/07-system/venous-thromboembolism
     relation: connects-to
     note: "Aura plus estrogen raises the clot risk: migraine with aura carries a prothrombotic tendency, and combined with estrogen-containing contraception it elevates the risk of venous thromboembolism, prompting caution in prescribing."
+  - target: 01-human/07-system/endocrine-system
+    relation: connects-to
+    note: "Hormones drive a major migraine subtype: oestrogen withdrawal around menstruation triggers menstrual migraine, and the swings of puberty, pregnancy and menopause reshape its pattern across a woman's life."
+  - target: 01-human/07-system/gut-microbiome
+    relation: connects-to
+    note: "The gut-brain axis modulates attacks: migraine is strongly tied to the gut through nausea, abdominal migraine and cyclic vomiting, and the microbiome and gut-brain signalling influence its frequency."
+  - target: 01-human/07-system/musculoskeletal-system
+    relation: connects-to
+    note: "Neck and jaw feed the headache: migraine is highly comorbid with neck pain and temporomandibular disorder, with cervical muscle and joint dysfunction both triggering and amplifying attacks."
 ---
 
 # Migraine
@@ -412,6 +421,9 @@ Episodic migraine (EM, <15 headache days/month) transforms to **chronic migraine
 - `connects-to` → **[Atherosclerosis](../atherosclerosis/README.md)** — Aura signals vascular dysfunction: migraine with aura is associated with endothelial dysfunction and accelerated atherosclerosis, part of why it carries elevated cardiovascular and cerebrovascular risk.
 - `connects-to` → **[Hypertension](../hypertension/README.md)** — Headache and blood pressure travel together: migraine and hypertension are bidirectionally comorbid, and uncontrolled hypertension can worsen headache while some antihypertensives double as migraine prophylaxis.
 - `connects-to` → **[Venous Thromboembolism](../venous-thromboembolism/README.md)** — Aura plus estrogen raises the clot risk: migraine with aura carries a prothrombotic tendency, and combined with estrogen-containing contraception it elevates the risk of venous thromboembolism, prompting caution in prescribing.
+- `connects-to` → **[Endocrine System](../endocrine-system/README.md)** — Hormones drive a major migraine subtype: oestrogen withdrawal around menstruation triggers menstrual migraine, and the swings of puberty, pregnancy and menopause reshape its pattern across a woman's life.
+- `connects-to` → **[Gut Microbiome](../gut-microbiome/README.md)** — The gut-brain axis modulates attacks: migraine is strongly tied to the gut through nausea, abdominal migraine and cyclic vomiting, and the microbiome and gut-brain signalling influence its frequency.
+- `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — Neck and jaw feed the headache: migraine is highly comorbid with neck pain and temporomandibular disorder, with cervical muscle and joint dysfunction both triggering and amplifying attacks.
 
 [^gbd-2016-migraine-burden]: GBD 2016 Headache Collaborators. Global, regional, and national burden of migraine and tension-type headache, 1990-2016. *Lancet Neurol.* 2018;17(11):954-976. [doi:10.1016/S1474-4422(18)30322-3](https://doi.org/10.1016/S1474-4422(18)30322-3) · [PubMed 30353868](https://pubmed.ncbi.nlm.nih.gov/30353868/)
 [^goadsby-2002-migraine-review]: Goadsby PJ, Lipton RB, Ferrari MD. Migraine — current understanding and treatment. *N Engl J Med.* 2002;346(4):257-270. [doi:10.1056/NEJMra010917](https://doi.org/10.1056/NEJMra010917) · [PubMed 11807151](https://pubmed.ncbi.nlm.nih.gov/11807151/)
