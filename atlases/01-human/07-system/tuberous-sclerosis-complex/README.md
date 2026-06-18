@@ -232,6 +232,15 @@ cross_links:
   - target: 01-human/07-system/carney-complex
     relation: connects-to
     note: "Both cause syndromic heart tumours: tuberous sclerosis produces cardiac rhabdomyomas while Carney complex produces myxomas, two inherited syndromes presenting with childhood cardiac masses."
+  - target: 01-human/07-system/neurofibromatosis-type-2
+    relation: connects-to
+    note: "A fellow neurocutaneous syndrome: TSC and NF2 are both phakomatoses — dominantly inherited tumour-suppressor disorders causing nervous-system tumours, though TSC drives mTOR-fuelled hamartomas across many organs while NF2 causes schwannomas and meningiomas."
+  - target: 01-human/05-tissue/lung-slice
+    relation: connects-to
+    note: "It cystically destroys the lung: women with TSC develop lymphangioleiomyomatosis, in which mTOR-driven smooth-muscle proliferation riddles the lung with cysts, causing recurrent pneumothorax and progressive breathlessness treated with sirolimus."
+  - target: 01-human/05-tissue/hippocampus
+    relation: connects-to
+    note: "It drives early, hard-to-control epilepsy: cortical tubers make TSC a leading genetic cause of infantile spasms and refractory seizures, and the disrupted hippocampal networks underlie much of the memory and cognitive impairment of TSC-associated neuropsychiatric disorders."
 ---
 
 # Tuberous Sclerosis Complex
@@ -443,6 +452,9 @@ With modern management: life expectancy increasingly normal; major risks: renal 
 - `connects-to` → **[Targeted Therapy](../../../03-medicine/01-modern/13-cancer/targeted-therapy/README.md)** — mTOR inhibitors are its targeted treatment: because TSC1/TSC2 loss unleashes mTOR, everolimus and sirolimus shrink its brain (SEGA), kidney (angiomyolipoma) and lung (LAM) lesions and reduce seizures.
 - `connects-to` → **[MEN1 Syndrome](../men1-syndrome/README.md)** — A fellow mTOR-pathway tumour syndrome: tuberous sclerosis and MEN1 both produce tumours driven by mTOR-pathway dysregulation, and both respond to the mTOR inhibitors now used across these syndromes.
 - `connects-to` → **[Carney Complex](../carney-complex/README.md)** — Both cause syndromic heart tumours: tuberous sclerosis produces cardiac rhabdomyomas while Carney complex produces myxomas, two inherited syndromes presenting with childhood cardiac masses.
+- `connects-to` → **[Neurofibromatosis Type 2](../neurofibromatosis-type-2/README.md)** — A fellow neurocutaneous syndrome: TSC and NF2 are both phakomatoses — dominantly inherited tumour-suppressor disorders causing nervous-system tumours, though TSC drives mTOR-fuelled hamartomas across many organs while NF2 causes schwannomas and meningiomas.
+- `connects-to` → **[Lung Slice](../../05-tissue/lung-slice/README.md)** — It cystically destroys the lung: women with TSC develop lymphangioleiomyomatosis, in which mTOR-driven smooth-muscle proliferation riddles the lung with cysts, causing recurrent pneumothorax and progressive breathlessness treated with sirolimus.
+- `connects-to` → **[Hippocampus](../../05-tissue/hippocampus/README.md)** — It drives early, hard-to-control epilepsy: cortical tubers make TSC a leading genetic cause of infantile spasms and refractory seizures, and the disrupted hippocampal networks underlie much of the memory and cognitive impairment of TSC-associated neuropsychiatric disorders.
 
 ---
 

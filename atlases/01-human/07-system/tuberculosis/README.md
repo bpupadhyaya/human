@@ -232,6 +232,15 @@ cross_links:
   - target: 03-medicine/01-modern/11-biologics/adalimumab
     relation: connects-to
     note: "Biologics reawaken it: anti-TNF drugs like adalimumab can reactivate latent tuberculosis, so screening and treatment of latent infection are mandatory before starting them."
+  - target: 03-medicine/01-modern/06-antimicrobial/rifampicin
+    relation: connects-to
+    note: "The cornerstone of cure: rifampicin anchors the multi-drug RIPE regimen that sterilises tuberculosis over months; a potent CYP450 inducer that turns secretions orange, its loss to resistance defines multidrug-resistant TB."
+  - target: 01-human/05-tissue/cortical-bone
+    relation: connects-to
+    note: "Pott's disease destroys the spine: skeletal tuberculosis, especially tuberculous spondylitis of the thoracolumbar vertebrae, erodes bone and intervertebral discs, causing gibbus deformity, cold abscesses and spinal-cord compression."
+  - target: 01-human/07-system/inflammatory-bowel-disease
+    relation: connects-to
+    note: "Abdominal TB mimics Crohn's: intestinal tuberculosis produces ileocaecal ulceration, strictures and granulomas almost indistinguishable from Crohn's disease — a critical distinction, since the anti-TNF drugs used for IBD reactivate latent TB."
 ---
 
 # Tuberculosis
@@ -437,6 +446,9 @@ Standard **HRZE** regimen [^nahid-2016-tb-treatment]:
 - `connects-to` → **[Corticosteroids](../../../03-medicine/01-modern/02-respiratory/corticosteroids/README.md)** — Steroids help in some sites: adjunctive corticosteroids reduce mortality in tuberculous meningitis and pericarditis by dampening the destructive granulomatous inflammation.
 - `connects-to` → **[Dietary Zinc](../../../03-medicine/03-food/zinc-dietary/README.md)** — Undernutrition and TB feed each other: malnutrition is a leading risk factor for active tuberculosis, and zinc and other micronutrient support aids recovery alongside drug treatment.
 - `connects-to` → **[Adalimumab](../../../03-medicine/01-modern/11-biologics/adalimumab/README.md)** — Biologics reawaken it: anti-TNF drugs like adalimumab can reactivate latent tuberculosis, so screening and treatment of latent infection are mandatory before starting them.
+- `connects-to` → **[Rifampicin](../../../03-medicine/01-modern/06-antimicrobial/rifampicin/README.md)** — The cornerstone of cure: rifampicin anchors the multi-drug RIPE regimen that sterilises tuberculosis over months; a potent CYP450 inducer that turns secretions orange, its loss to resistance defines multidrug-resistant TB.
+- `connects-to` → **[Cortical Bone](../../05-tissue/cortical-bone/README.md)** — Pott's disease destroys the spine: skeletal tuberculosis, especially tuberculous spondylitis of the thoracolumbar vertebrae, erodes bone and intervertebral discs, causing gibbus deformity, cold abscesses and spinal-cord compression.
+- `connects-to` → **[Inflammatory Bowel Disease](../inflammatory-bowel-disease/README.md)** — Abdominal TB mimics Crohn's: intestinal tuberculosis produces ileocaecal ulceration, strictures and granulomas almost indistinguishable from Crohn's disease — a critical distinction, since the anti-TNF drugs used for IBD reactivate latent TB.
 
 ## See Also
 
