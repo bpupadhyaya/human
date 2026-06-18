@@ -208,6 +208,15 @@ cross_links:
   - target: 01-human/07-system/generalized-anxiety-disorder
     relation: connects-to
     note: "A progressive marrow cancer breeds worry: the worsening cytopenias, transfusion dependence and threat of leukaemic transformation in myelofibrosis foster chronic health anxiety alongside depression."
+  - target: 01-human/07-system/musculoskeletal-system
+    relation: connects-to
+    note: "It hardens and pains the bones: the marrow fibrosis of myelofibrosis is accompanied by osteosclerosis seen on imaging and by deep, debilitating bone pain as the skeleton's blood factory is replaced by scar."
+  - target: 01-human/07-system/nervous-system
+    relation: connects-to
+    note: "Its blood-making can crush the cord: extramedullary haematopoiesis in the epidural space can compress the spinal cord, a neurological emergency presenting with back pain, weakness and sensory loss."
+  - target: 01-human/07-system/integumentary-system
+    relation: connects-to
+    note: "It can itch and surface on the skin: myelofibrosis causes intractable aquagenic pruritus and, rarely, cutaneous extramedullary haematopoiesis appearing as red-brown skin nodules."
 ---
 
 # Myelofibrosis
@@ -399,6 +408,9 @@ Abrupt ruxolitinib cessation → cytokine rebound → fever, splenomegaly surge,
 - `connects-to` → **[Digestive System](../digestive-system/README.md)** — Extramedullary haematopoiesis swells the gut organs: when the scarred marrow pushes blood-making into the spleen and liver, the massive splenomegaly causes early satiety and portal hypertension with varices.
 - `connects-to` → **[Endocrine System](../endocrine-system/README.md)** — Transfusion iron overload poisons the glands: transfusion-dependent myelofibrosis accumulates iron that deposits in the pancreas, pituitary and thyroid, causing diabetes and other endocrinopathies.
 - `connects-to` → **[Generalized Anxiety Disorder](../generalized-anxiety-disorder/README.md)** — A progressive marrow cancer breeds worry: the worsening cytopenias, transfusion dependence and threat of leukaemic transformation in myelofibrosis foster chronic health anxiety alongside depression.
+- `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — It hardens and pains the bones: the marrow fibrosis of myelofibrosis is accompanied by osteosclerosis seen on imaging and by deep, debilitating bone pain as the skeleton's blood factory is replaced by scar.
+- `connects-to` → **[Nervous System](../nervous-system/README.md)** — Its blood-making can crush the cord: extramedullary haematopoiesis in the epidural space can compress the spinal cord, a neurological emergency presenting with back pain, weakness and sensory loss.
+- `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — It can itch and surface on the skin: myelofibrosis causes intractable aquagenic pruritus and, rarely, cutaneous extramedullary haematopoiesis appearing as red-brown skin nodules.
 
 ---
 

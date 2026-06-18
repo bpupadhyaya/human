@@ -214,6 +214,15 @@ cross_links:
   - target: 01-human/07-system/endocrine-system
     relation: connects-to
     note: "It is the liver face of metabolic disease: NASH is driven by insulin resistance and is tightly linked to type 2 diabetes, polycystic ovary syndrome and hypothyroidism across the endocrine system."
+  - target: 01-human/07-system/respiratory-system
+    relation: connects-to
+    note: "Sleep apnoea feeds it: obstructive sleep apnoea is common in NASH, and its intermittent nocturnal hypoxia independently worsens hepatic inflammation and fibrosis beyond obesity alone."
+  - target: 01-human/07-system/musculoskeletal-system
+    relation: connects-to
+    note: "Lost muscle worsens it: sarcopenia and low muscle mass — sarcopenic obesity — independently accelerate NASH and predict more advanced fibrosis, so preserving muscle is part of management."
+  - target: 01-human/07-system/immune-system
+    relation: connects-to
+    note: "Innate immunity drives the inflammation: activation of Kupffer cells and the NLRP3 inflammasome turns simple fatty liver into steatohepatitis, the inflammatory step that defines NASH."
 ---
 
 # NASH
@@ -368,6 +377,9 @@ NASH pathogenesis is driven by multiple simultaneous and sequential hits, not a 
 - `connects-to` → **[Digestive System](../digestive-system/README.md)** — It scars the body's metabolic factory: NASH progresses to cirrhosis with portal hypertension, oesophageal varices and ascites, the end-stage liver failure of a digestive organ.
 - `connects-to` → **[Nervous System](../nervous-system/README.md)** — A failing fatty liver poisons the brain: as NASH cirrhosis decompensates, the liver can no longer clear ammonia and toxins, producing hepatic encephalopathy with confusion and coma.
 - `connects-to` → **[Endocrine System](../endocrine-system/README.md)** — It is the liver face of metabolic disease: NASH is driven by insulin resistance and is tightly linked to type 2 diabetes, polycystic ovary syndrome and hypothyroidism across the endocrine system.
+- `connects-to` → **[Respiratory System](../respiratory-system/README.md)** — Sleep apnoea feeds it: obstructive sleep apnoea is common in NASH, and its intermittent nocturnal hypoxia independently worsens hepatic inflammation and fibrosis beyond obesity alone.
+- `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — Lost muscle worsens it: sarcopenia and low muscle mass — sarcopenic obesity — independently accelerate NASH and predict more advanced fibrosis, so preserving muscle is part of management.
+- `connects-to` → **[Immune System](../immune-system/README.md)** — Innate immunity drives the inflammation: activation of Kupffer cells and the NLRP3 inflammasome turns simple fatty liver into steatohepatitis, the inflammatory step that defines NASH.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
