@@ -232,6 +232,15 @@ cross_links:
   - target: 01-human/07-system/lymphatic-system
     relation: connects-to
     note: "Active disease swells the nodes and spleen: generalized lymphadenopathy and splenomegaly are common during lupus flares, reflecting its systemic immune activation."
+  - target: 01-human/07-system/endocrine-system
+    relation: connects-to
+    note: "Hormones and glands entangle with it: autoimmune thyroid disease frequently coexists with lupus, oestrogen shapes its female predominance, and glucocorticoid treatment causes diabetes and adrenal suppression."
+  - target: 03-medicine/01-modern/02-respiratory/corticosteroids
+    relation: connects-to
+    note: "They control flares at a cost: corticosteroids are the rapid mainstay for lupus flares and nephritis, but long-term use brings osteoporosis, infection and metabolic harm, so steroid-sparing drugs are sought."
+  - target: 03-medicine/01-modern/09-hematology/warfarin
+    relation: connects-to
+    note: "Clotting needs lifelong anticoagulation: lupus patients with secondary antiphospholipid syndrome require warfarin after thrombosis, as it prevents recurrent clots better than direct oral anticoagulants in this setting."
 ---
 
 # Systemic Lupus Erythematosus
@@ -427,6 +436,9 @@ Highly polygenic disease with >100 susceptibility loci; heritability ~66%:
 - `connects-to` → **[Renal System](../renal-system/README.md)** — The kidney is its prognostic linchpin: lupus nephritis is an immune-complex glomerulonephritis ranging from mild proteinuria to nephrotic syndrome and renal failure, a defining and dangerous manifestation.
 - `connects-to` → **[Respiratory System](../respiratory-system/README.md)** — It inflames the lungs and pleura: lupus causes pleuritis with effusions, acute lupus pneumonitis and shrinking lung syndrome with progressive breathlessness.
 - `connects-to` → **[Lymphatic System](../lymphatic-system/README.md)** — Active disease swells the nodes and spleen: generalized lymphadenopathy and splenomegaly are common during lupus flares, reflecting its systemic immune activation.
+- `connects-to` → **[Endocrine System](../endocrine-system/README.md)** — Hormones and glands entangle with it: autoimmune thyroid disease frequently coexists with lupus, oestrogen shapes its female predominance, and glucocorticoid treatment causes diabetes and adrenal suppression.
+- `connects-to` → **[Corticosteroids](../../../03-medicine/01-modern/02-respiratory/corticosteroids/README.md)** — They control flares at a cost: corticosteroids are the rapid mainstay for lupus flares and nephritis, but long-term use brings osteoporosis, infection and metabolic harm, so steroid-sparing drugs are sought.
+- `connects-to` → **[Warfarin](../../../03-medicine/01-modern/09-hematology/warfarin/README.md)** — Clotting needs lifelong anticoagulation: lupus patients with secondary antiphospholipid syndrome require warfarin after thrombosis, as it prevents recurrent clots better than direct oral anticoagulants in this setting.
 
 [^tsokos-2011-sle-review]: Tsokos GC. Systemic lupus erythematosus. *N Engl J Med.* 2011;365(22):2110-2121. [doi:10.1056/NEJMra1100359](https://doi.org/10.1056/NEJMra1100359) · [PubMed 22129253](https://pubmed.ncbi.nlm.nih.gov/22129253/)
 [^furie-2011-belimumab]: Furie R, Petri M, Zamani O, et al. A phase III, randomized, placebo-controlled study of belimumab, a monoclonal antibody that inhibits B lymphocyte stimulator, in patients with systemic lupus erythematosus. *Arthritis Rheum.* 2011;63(12):3918-3930. [doi:10.1002/art.30613](https://doi.org/10.1002/art.30613) · [PubMed 22127708](https://pubmed.ncbi.nlm.nih.gov/22127708/)

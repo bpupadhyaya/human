@@ -228,6 +228,15 @@ cross_links:
   - target: 02-pathogen/02-bacteria/staphylococcus-aureus
     relation: connects-to
     note: "Severe disease invites staph superinfection: severe RSV bronchiolitis can be complicated by secondary staphylococcal pneumonia, especially in young infants."
+  - target: 02-pathogen/01-viruses/influenza-a
+    relation: connects-to
+    note: "A fellow winter respiratory virus: influenza A co-circulates with RSV, causes overlapping bronchiolitis and pneumonia, and the two can co-infect, though influenza has antivirals and annual vaccines that RSV long lacked."
+  - target: 03-medicine/01-modern/02-respiratory/corticosteroids
+    relation: connects-to
+    note: "Steroids do not help routine cases: trials show systemic corticosteroids do not shorten RSV bronchiolitis in healthy infants and are not recommended, though they treat associated viral wheeze and croup."
+  - target: 03-medicine/03-food/zinc-dietary
+    relation: connects-to
+    note: "Nutrition shapes defence: zinc supports mucosal immunity and is studied to reduce the severity of childhood respiratory infections including RSV bronchiolitis in deficient populations."
 ---
 
 # RSV
@@ -442,3 +451,6 @@ Radiological findings: Hyperinflation, peribronchial thickening, occasional atel
 - `connects-to` → **[Lymphatic System](../lymphatic-system/README.md)** — It rouses the airway's lymphoid tissue: RSV bronchiolitis provokes a brisk peribronchial lymphocytic infiltrate and reactive lymphadenopathy as the immune system responds.
 - `connects-to` → **[Streptococcus pneumoniae](../../../02-pathogen/02-bacteria/streptococcus-pneumoniae/README.md)** — It opens the door to pneumococcus: RSV damages the airway epithelium and predisposes to secondary bacterial pneumonia, classically from Streptococcus pneumoniae.
 - `connects-to` → **[Staphylococcus aureus](../../../02-pathogen/02-bacteria/staphylococcus-aureus/README.md)** — Severe disease invites staph superinfection: severe RSV bronchiolitis can be complicated by secondary staphylococcal pneumonia, especially in young infants.
+- `connects-to` → **[Influenza A](../../../02-pathogen/01-viruses/influenza-a/README.md)** — A fellow winter respiratory virus: influenza A co-circulates with RSV, causes overlapping bronchiolitis and pneumonia, and the two can co-infect, though influenza has antivirals and annual vaccines that RSV long lacked.
+- `connects-to` → **[Corticosteroids](../../../03-medicine/01-modern/02-respiratory/corticosteroids/README.md)** — Steroids do not help routine cases: trials show systemic corticosteroids do not shorten RSV bronchiolitis in healthy infants and are not recommended, though they treat associated viral wheeze and croup.
+- `connects-to` → **[Zinc (Dietary)](../../../03-medicine/03-food/zinc-dietary/README.md)** — Nutrition shapes defence: zinc supports mucosal immunity and is studied to reduce the severity of childhood respiratory infections including RSV bronchiolitis in deficient populations.
