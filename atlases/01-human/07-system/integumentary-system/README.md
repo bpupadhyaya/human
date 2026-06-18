@@ -206,6 +206,15 @@ cross_links:
   - target: 02-pathogen/01-viruses/herpesvirus
     relation: connects-to
     note: "Herpesviruses erupt on the skin: HSV causes cold sores and genital lesions and can spread catastrophically across eczematous skin as eczema herpeticum, while VZV produces chickenpox and shingles."
+  - target: 01-human/07-system/respiratory-system
+    relation: connects-to
+    note: "The skin announces lung disease: finger clubbing, central cyanosis and tar staining flag chronic respiratory illness, and granulomatous diseases like sarcoidosis strike skin and lung together."
+  - target: 02-pathogen/02-bacteria/neisseria-meningitidis
+    relation: connects-to
+    note: "A rash that signals an emergency: meningococcal sepsis produces a non-blanching petechial and purpuric rash that can progress to purpura fulminans with skin necrosis, demanding immediate antibiotics."
+  - target: 02-pathogen/02-bacteria/mycobacterium-tuberculosis
+    relation: connects-to
+    note: "Tuberculosis can settle in the skin: cutaneous TB such as lupus vulgaris and scrofuloderma, and the reactive panniculitis of erythema nodosum, are dermatological signs of mycobacterial infection."
 ---
 
 # Integumentary System
@@ -374,6 +383,9 @@ Wound healing is a precisely orchestrated process in four overlapping phases [^g
 - `connects-to` → **[Digestive System](../digestive-system/README.md)** — The skin mirrors the gut and liver: a gut-skin axis links bowel disease to conditions like dermatitis herpetiformis and pyoderma gangrenosum, while liver failure shows as jaundice and malabsorption as hair and nail change.
 - `connects-to` → **[Renal System](../renal-system/README.md)** — Failing kidneys are written on the skin: chronic kidney disease causes intractable uraemic pruritus, a sallow complexion and calciphylaxis, and gadolinium in renal failure can trigger nephrogenic systemic fibrosis.
 - `connects-to` → **[Herpesviridae](../../../02-pathogen/01-viruses/herpesvirus/README.md)** — Herpesviruses erupt on the skin: HSV causes cold sores and genital lesions and can spread catastrophically across eczematous skin as eczema herpeticum, while VZV produces chickenpox and shingles.
+- `connects-to` → **[Respiratory System](../respiratory-system/README.md)** — The skin announces lung disease: finger clubbing, central cyanosis and tar staining flag chronic respiratory illness, and granulomatous diseases like sarcoidosis strike skin and lung together.
+- `connects-to` → **[Neisseria meningitidis](../../../02-pathogen/02-bacteria/neisseria-meningitidis/README.md)** — A rash that signals an emergency: meningococcal sepsis produces a non-blanching petechial and purpuric rash that can progress to purpura fulminans with skin necrosis, demanding immediate antibiotics.
+- `connects-to` → **[Mycobacterium tuberculosis](../../../02-pathogen/02-bacteria/mycobacterium-tuberculosis/README.md)** — Tuberculosis can settle in the skin: cutaneous TB such as lupus vulgaris and scrofuloderma, and the reactive panniculitis of erythema nodosum, are dermatological signs of mycobacterial infection.
 
 ## Pathology
 

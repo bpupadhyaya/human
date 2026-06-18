@@ -195,6 +195,15 @@ cross_links:
   - target: 01-human/07-system/digestive-system
     relation: connects-to
     note: "It distorts how and what one eats: gaming displaces regular meals toward skipped or grazed junk food and energy drinks, and prolonged sitting and ignored urges promote constipation and reflux."
+  - target: 01-human/07-system/respiratory-system
+    relation: connects-to
+    note: "Marathon immobility can clot the lungs: prolonged sitting during extreme gaming sessions has caused deep-vein thrombosis and, in rare reported cases, fatal pulmonary embolism in young players."
+  - target: 01-human/07-system/renal-system
+    relation: connects-to
+    note: "Extreme sessions can stress the kidney: prolonged immobility and dehydration have caused rhabdomyolysis and acute kidney injury in marathon gamers, while ignoring the urge to void risks urinary retention."
+  - target: 01-human/07-system/immune-system
+    relation: connects-to
+    note: "Lost sleep lowers defences: the chronic sleep deprivation and stress of compulsive gaming blunt immune function, raising susceptibility to infection and slowing recovery."
 sources:
   - id: kuss-2012-gaming-disorder-review
     type: peer-reviewed
@@ -428,6 +437,9 @@ A pattern of persistent or recurrent gaming behavior characterized by:
 - `connects-to` → **[Cardiovascular System](../cardiovascular-system/README.md)** — Marathon sessions can strain the heart and vessels: extreme prolonged immobility during gaming has caused fatal pulmonary embolism and sudden cardiac death, on top of the sedentary cardiovascular risk it builds over time.
 - `connects-to` → **[Endocrine System](../endocrine-system/README.md)** — Night-time gaming wrecks the body clock: late screen exposure suppresses melatonin and disrupts the circadian and cortisol rhythms, dysregulating the appetite and stress hormones that govern metabolism.
 - `connects-to` → **[Digestive System](../digestive-system/README.md)** — It distorts how and what one eats: gaming displaces regular meals toward skipped or grazed junk food and energy drinks, and prolonged sitting and ignored urges promote constipation and reflux.
+- `connects-to` → **[Respiratory System](../respiratory-system/README.md)** — Marathon immobility can clot the lungs: prolonged sitting during extreme gaming sessions has caused deep-vein thrombosis and, in rare reported cases, fatal pulmonary embolism in young players.
+- `connects-to` → **[Renal System](../renal-system/README.md)** — Extreme sessions can stress the kidney: prolonged immobility and dehydration have caused rhabdomyolysis and acute kidney injury in marathon gamers, while ignoring the urge to void risks urinary retention.
+- `connects-to` → **[Immune System](../immune-system/README.md)** — Lost sleep lowers defences: the chronic sleep deprivation and stress of compulsive gaming blunt immune function, raising susceptibility to infection and slowing recovery.
 
 [^kuss-2012-gaming-disorder-review]: Kuss DJ, Griffiths MD. Internet gaming addiction: a systematic review of empirical research. *Int J Ment Health Addict.* 2012;10(2):278-296. [doi:10.1007/s11469-011-9318-5](https://doi.org/10.1007/s11469-011-9318-5)
 [^who-icd11-gaming-disorder]: World Health Organization. ICD-11: Gaming Disorder (6C51). Geneva: WHO; 2019. [icd.who.int](https://icd.who.int/browse/2025-01/mms/en#1448597234)
