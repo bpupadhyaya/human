@@ -244,6 +244,15 @@ cross_links:
   - target: 01-human/07-system/bulimia-nervosa
     relation: connects-to
     note: "Fear of judgement links them: social anxiety disorder commonly precedes and coexists with bulimia nervosa, where intense fear of negative evaluation feeds disordered eating and shame."
+  - target: 01-human/07-system/borderline-personality-disorder
+    relation: connects-to
+    note: "Rejection sensitivity in common: social anxiety disorder and borderline personality disorder both centre on intense fear of rejection and negative evaluation, frequently coexist, and amplify each other's interpersonal distress."
+  - target: 03-medicine/02-traditional/st-johns-wort
+    relation: connects-to
+    note: "A herbal serotonergic option: St John's wort raises serotonin like the SSRIs that are first-line for social anxiety, and is used by some for milder symptoms, though evidence is limited and interactions are common."
+  - target: 03-medicine/02-traditional/panax-ginseng
+    relation: connects-to
+    note: "An adaptogen tried for anxiety: like ashwagandha, Panax ginseng is among the traditional remedies used for the chronic stress and arousal of social anxiety, complementing rather than replacing established therapy."
 ---
 
 # Social Anxiety Disorder
@@ -449,6 +458,9 @@ The unique **dopaminergic social reward deficit** in SAD has clinical implicatio
 - `connects-to` → **[Ashwagandha](../../../03-medicine/02-traditional/ashwagandha/README.md)** — A traditional calm for nerves: ashwagandha and similar adaptogens are used to ease anxiety and lower cortisol, a complementary option alongside the SSRIs that treat social anxiety disorder.
 - `connects-to` → **[Omega-3 Fatty Acids](../../../03-medicine/03-food/omega-3-fatty-acids/README.md)** — Diet offers a modest adjunct: omega-3 supplementation shows small anxiety-reducing effects in trials, used alongside but not instead of established treatment for social anxiety.
 - `connects-to` → **[Bulimia Nervosa](../bulimia-nervosa/README.md)** — Fear of judgement links them: social anxiety disorder commonly precedes and coexists with bulimia nervosa, where intense fear of negative evaluation feeds disordered eating and shame.
+- `connects-to` → **[Borderline Personality Disorder](../borderline-personality-disorder/README.md)** — Rejection sensitivity in common: social anxiety disorder and borderline personality disorder both centre on intense fear of rejection and negative evaluation, frequently coexist, and amplify each other's interpersonal distress.
+- `connects-to` → **[St John's Wort](../../../03-medicine/02-traditional/st-johns-wort/README.md)** — A herbal serotonergic option: St John's wort raises serotonin like the SSRIs that are first-line for social anxiety, and is used by some for milder symptoms, though evidence is limited and interactions are common.
+- `connects-to` → **[Panax Ginseng](../../../03-medicine/02-traditional/panax-ginseng/README.md)** — An adaptogen tried for anxiety: like ashwagandha, Panax ginseng is among the traditional remedies used for the chronic stress and arousal of social anxiety, complementing rather than replacing established therapy.
 
 [^liebowitz-1987-sad-scale]: Liebowitz MR. Social phobia. *Mod Probl Pharmacopsychiatry.* 1987;22:141-173. [PubMed 2885745](https://pubmed.ncbi.nlm.nih.gov/2885745/)
 [^stein-2008-sad-review]: Stein MB, Stein DJ. Social anxiety disorder. *Lancet.* 2008;371(9618):1115-1125. [doi:10.1016/S0140-6736(08)60488-2](https://doi.org/10.1016/S0140-6736(08)60488-2) · [PubMed 18374843](https://pubmed.ncbi.nlm.nih.gov/18374843/)

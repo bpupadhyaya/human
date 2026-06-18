@@ -244,6 +244,15 @@ cross_links:
   - target: 01-human/07-system/iron-deficiency-anemia
     relation: connects-to
     note: "Opposite iron problems: unlike iron-deficiency anaemia, sickle cell is a haemolytic anaemia where repeated transfusion brings iron overload, so the two need opposite iron management."
+  - target: 03-medicine/01-modern/13-cancer/cancer-chemotherapy
+    relation: connects-to
+    note: "Hydroxyurea is the cornerstone: the chemotherapy agent hydroxyurea raises fetal haemoglobin in sickle cell disease, reducing the painful crises, acute chest syndrome and need for transfusion — its first disease-modifying drug."
+  - target: 03-medicine/01-modern/13-cancer/targeted-therapy
+    relation: connects-to
+    note: "New molecular and gene therapies: crizanlizumab against P-selectin and voxelotor stabilising oxygenated haemoglobin reduce crises, while CRISPR (exa-cel) and lentiviral gene therapies now offer a one-time cure by reactivating fetal haemoglobin."
+  - target: 01-human/05-tissue/cortical-bone
+    relation: connects-to
+    note: "Vaso-occlusion infarcts bone: sickling blocks the bone microcirculation, causing dactylitis, painful bone infarcts, avascular necrosis of the femoral head and a predisposition to Salmonella osteomyelitis."
 ---
 
 # Sickle Cell Disease
@@ -478,6 +487,9 @@ SCD vaso-occlusion is not just from sickled RBCs mechanically blocking vessels �
 - `connects-to` → **[Amoxicillin](../../../03-medicine/01-modern/06-antimicrobial/amoxicillin/README.md)** — Daily antibiotic shields the child: because sickle cell disease destroys the spleen early, prophylactic penicillin or amoxicillin is given through childhood to prevent overwhelming pneumococcal sepsis.
 - `connects-to` → **[Staphylococcus aureus](../../../02-pathogen/02-bacteria/staphylococcus-aureus/README.md)** — It seeds infarcted bone: alongside Salmonella, Staphylococcus aureus is a leading cause of the osteomyelitis that complicates the bone infarcts of sickle cell disease.
 - `connects-to` → **[Iron-Deficiency Anemia](../iron-deficiency-anemia/README.md)** — Opposite iron problems: unlike iron-deficiency anaemia, sickle cell is a haemolytic anaemia where repeated transfusion brings iron overload, so the two need opposite iron management.
+- `connects-to` → **[Cancer Chemotherapy](../../../03-medicine/01-modern/13-cancer/cancer-chemotherapy/README.md)** — Hydroxyurea is the cornerstone: the chemotherapy agent hydroxyurea raises fetal haemoglobin in sickle cell disease, reducing the painful crises, acute chest syndrome and need for transfusion — its first disease-modifying drug.
+- `connects-to` → **[Targeted Therapy](../../../03-medicine/01-modern/13-cancer/targeted-therapy/README.md)** — New molecular and gene therapies: crizanlizumab against P-selectin and voxelotor stabilising oxygenated haemoglobin reduce crises, while CRISPR (exa-cel) and lentiviral gene therapies now offer a one-time cure by reactivating fetal haemoglobin.
+- `connects-to` → **[Cortical Bone](../../05-tissue/cortical-bone/README.md)** — Vaso-occlusion infarcts bone: sickling blocks the bone microcirculation, causing dactylitis, painful bone infarcts, avascular necrosis of the femoral head and a predisposition to Salmonella osteomyelitis.
 
 [^steinberg-1999-scd-management]: Steinberg MH. Management of sickle cell disease. *N Engl J Med.* 1999;340(13):1021-1030. [doi:10.1056/NEJM199904013401307](https://doi.org/10.1056/NEJM199904013401307) · [PubMed 10099145](https://pubmed.ncbi.nlm.nih.gov/10099145/)
 [^vichinsky-2000-acs-scd]: Vichinsky EP, Neumayr LD, Earles AN, et al. Causes and outcomes of the acute chest syndrome in sickle cell disease. *N Engl J Med.* 2000;342(25):1855-1865. [doi:10.1056/NEJM200006223422502](https://doi.org/10.1056/NEJM200006223422502) · [PubMed 10861320](https://pubmed.ncbi.nlm.nih.gov/10861320/)
