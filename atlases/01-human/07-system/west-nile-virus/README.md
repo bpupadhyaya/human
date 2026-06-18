@@ -201,6 +201,15 @@ cross_links:
   - target: 01-human/07-system/ptsd
     relation: connects-to
     note: "Surviving neuroinvasive disease can scar the mind: prolonged ICU care and the slow, incomplete recovery from West Nile encephalitis and paralysis can leave post-traumatic stress alongside its cognitive sequelae."
+  - target: 01-human/07-system/respiratory-system
+    relation: connects-to
+    note: "Its polio-like paralysis can stop breathing: neuroinvasive West Nile virus attacks anterior horn cells, causing acute flaccid paralysis that can involve the diaphragm and require prolonged mechanical ventilation."
+  - target: 01-human/07-system/integumentary-system
+    relation: connects-to
+    note: "West Nile fever often shows on the skin: the milder febrile form commonly produces a transient maculopapular or roseolar rash over the trunk and limbs, a recognised clinical clue."
+  - target: 01-human/07-system/generalized-anxiety-disorder
+    relation: connects-to
+    note: "A slow, uncertain recovery breeds worry: the lingering fatigue, weakness and cognitive problems after West Nile neuroinvasive disease foster chronic health anxiety alongside its depression and PTSD."
 ---
 
 # West Nile Virus
@@ -382,3 +391,6 @@ WNV has evolved a multilayered strategy to evade innate immunity:
 - `connects-to` → **[Neuropathic Pain](../neuropathic-pain/README.md)** — Its poliomyelitis-like injury leaves lasting pain: neuroinvasive West Nile can destroy anterior-horn motor neurons and inflame nerves, leaving persistent weakness and neuropathic pain long after the acute illness.
 - `connects-to` → **[Stroke](../stroke/README.md)** — Severe neuroinvasion can damage cerebral vessels: West Nile meningoencephalitis can be complicated by vasculitis and hemorrhage, occasionally precipitating stroke in the acute phase.
 - `connects-to` → **[PTSD](../ptsd/README.md)** — Surviving neuroinvasive disease can scar the mind: prolonged ICU care and the slow, incomplete recovery from West Nile encephalitis and paralysis can leave post-traumatic stress alongside its cognitive sequelae.
+- `connects-to` → **[Respiratory System](../respiratory-system/README.md)** — Its polio-like paralysis can stop breathing: neuroinvasive West Nile virus attacks anterior horn cells, causing acute flaccid paralysis that can involve the diaphragm and require prolonged mechanical ventilation.
+- `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — West Nile fever often shows on the skin: the milder febrile form commonly produces a transient maculopapular or roseolar rash over the trunk and limbs, a recognised clinical clue.
+- `connects-to` → **[Generalized Anxiety Disorder](../generalized-anxiety-disorder/README.md)** — A slow, uncertain recovery breeds worry: the lingering fatigue, weakness and cognitive problems after West Nile neuroinvasive disease foster chronic health anxiety alongside its depression and PTSD.
