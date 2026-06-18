@@ -223,6 +223,15 @@ cross_links:
   - target: 01-human/07-system/integumentary-system
     relation: connects-to
     note: "It can mark the skin: like MEN1, MEN4 can produce cutaneous angiofibromas and collagenomas among its varied manifestations."
+  - target: 03-medicine/01-modern/13-cancer/targeted-therapy
+    relation: connects-to
+    note: "Its neuroendocrine tumours get targeted drugs: like MEN1, MEN4 produces pancreatic and pituitary neuroendocrine tumours treatable with mTOR inhibitors and somatostatin analogues."
+  - target: 02-pathogen/02-bacteria/helicobacter-pylori
+    relation: connects-to
+    note: "Gastrinomas ulcer without it: MEN4 can cause Zollinger-Ellison syndrome whose severe peptic ulcers, unlike the common kind, are not driven by Helicobacter pylori."
+  - target: 01-human/07-system/neurofibromatosis-type-1
+    relation: connects-to
+    note: "A fellow tumour syndrome with neuroendocrine tumours: NF1, like MEN4, can cause duodenal neuroendocrine tumours and phaeochromocytoma, overlapping its endocrine spectrum."
 ---
 
 # MEN4 Syndrome
@@ -403,6 +412,9 @@ When clinical MEN features are present:
 - `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — Parathyroid excess dissolves bone: primary hyperparathyroidism — its most common feature — drives osteoclastic bone resorption with osteitis fibrosa and fragility fractures.
 - `connects-to` → **[Cardiovascular System](../cardiovascular-system/README.md)** — Its high calcium unsettles the heart: the hypercalcaemia of MEN4 hyperparathyroidism shortens the QT interval and can cause arrhythmias and hypertension.
 - `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — It can mark the skin: like MEN1, MEN4 can produce cutaneous angiofibromas and collagenomas among its varied manifestations.
+- `connects-to` → **[Targeted Therapy](../../../03-medicine/01-modern/13-cancer/targeted-therapy/README.md)** — Its neuroendocrine tumours get targeted drugs: like MEN1, MEN4 produces pancreatic and pituitary neuroendocrine tumours treatable with mTOR inhibitors and somatostatin analogues.
+- `connects-to` → **[Helicobacter pylori](../../../02-pathogen/02-bacteria/helicobacter-pylori/README.md)** — Gastrinomas ulcer without it: MEN4 can cause Zollinger-Ellison syndrome whose severe peptic ulcers, unlike the common kind, are not driven by Helicobacter pylori.
+- `connects-to` → **[Neurofibromatosis Type 1](../neurofibromatosis-type-1/README.md)** — A fellow tumour syndrome with neuroendocrine tumours: NF1, like MEN4, can cause duodenal neuroendocrine tumours and phaeochromocytoma, overlapping its endocrine spectrum.
 
 [^alrezk-2017-men4]: Alrezk R, Hannah-Shmouni F, Stratakis CA. MEN4 and CDKN1B mutations: the latest of the MEN syndromes. *Endocr Relat Cancer.* 2017;24(10):T195-T208. [doi:10.1530/ERC-17-0243](https://doi.org/10.1530/ERC-17-0243) · [PubMed 28894007](https://pubmed.ncbi.nlm.nih.gov/28894007/)
 [^pellegata-2006-cdkn1b-men4]: Pellegata NS, Quintanilla-Martinez L, Siggelkow H, et al. Germ-line mutations in p27Kip1 cause a multiple endocrine neoplasia syndrome in rats and humans. *Proc Natl Acad Sci USA.* 2006;103(42):15558-15563. [doi:10.1073/pnas.0603306103](https://doi.org/10.1073/pnas.0603306103) · [PubMed 17030811](https://pubmed.ncbi.nlm.nih.gov/17030811/)

@@ -223,6 +223,15 @@ cross_links:
   - target: 01-human/07-system/lymphatic-system
     relation: connects-to
     note: "It grows aggressive tumours in the thymus: thymic carcinoid tumours, arising in this lymphoid organ, are a leading cause of death in MEN1, especially in men."
+  - target: 03-medicine/01-modern/13-cancer/targeted-therapy
+    relation: connects-to
+    note: "Its pancreatic tumours get targeted drugs: mTOR inhibitors such as everolimus and the kinase inhibitor sunitinib treat the pancreatic neuroendocrine tumours of MEN1, exploiting the menin-mTOR axis."
+  - target: 02-pathogen/02-bacteria/helicobacter-pylori
+    relation: connects-to
+    note: "It causes ulcers without the usual culprit: MEN1 gastrinomas drive Zollinger-Ellison syndrome with severe peptic ulcers that, unlike common ulcers, are not due to Helicobacter pylori."
+  - target: 01-human/07-system/tuberous-sclerosis-complex
+    relation: connects-to
+    note: "A fellow mTOR-driven tumour syndrome: like tuberous sclerosis, MEN1 produces pancreatic neuroendocrine tumours that respond to mTOR inhibition, sharing that therapeutic axis."
 ---
 
 # MEN1 Syndrome
@@ -411,6 +420,9 @@ Menin haploinsufficiency (one functional allele) creates susceptibility: cells a
 - `connects-to` → **[Respiratory System](../respiratory-system/README.md)** — It seeds neuroendocrine tumours in the lungs: bronchial carcinoid tumours are part of MEN1, adding to its gastroenteropancreatic and thymic neuroendocrine neoplasms.
 - `connects-to` → **[Cardiovascular System](../cardiovascular-system/README.md)** — Its high calcium unsettles the heart: chronic hypercalcaemia from hyperparathyroidism shortens the QT interval and can cause arrhythmias and hypertension.
 - `connects-to` → **[Lymphatic System](../lymphatic-system/README.md)** — It grows aggressive tumours in the thymus: thymic carcinoid tumours, arising in this lymphoid organ, are a leading cause of death in MEN1, especially in men.
+- `connects-to` → **[Targeted Therapy](../../../03-medicine/01-modern/13-cancer/targeted-therapy/README.md)** — Its pancreatic tumours get targeted drugs: mTOR inhibitors such as everolimus and the kinase inhibitor sunitinib treat the pancreatic neuroendocrine tumours of MEN1, exploiting the menin-mTOR axis.
+- `connects-to` → **[Helicobacter pylori](../../../02-pathogen/02-bacteria/helicobacter-pylori/README.md)** — It causes ulcers without the usual culprit: MEN1 gastrinomas drive Zollinger-Ellison syndrome with severe peptic ulcers that, unlike common ulcers, are not due to Helicobacter pylori.
+- `connects-to` → **[Tuberous Sclerosis Complex](../tuberous-sclerosis-complex/README.md)** — A fellow mTOR-driven tumour syndrome: like tuberous sclerosis, MEN1 produces pancreatic neuroendocrine tumours that respond to mTOR inhibition, sharing that therapeutic axis.
 
 ---
 
