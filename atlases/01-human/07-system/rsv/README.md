@@ -201,6 +201,15 @@ cross_links:
   - target: 01-human/07-system/nsclc
     relation: connects-to
     note: "Damaged, immunosuppressed lungs fare badly: patients with lung cancer such as NSCLC, with their structural lung disease and treatment-related immunosuppression, are prone to severe RSV lower-respiratory infection."
+  - target: 01-human/07-system/cardiovascular-system
+    relation: connects-to
+    note: "Like influenza, it strains the heart: RSV infection in older adults triggers acute cardiovascular events and decompensation, precipitating arrhythmias, heart failure and myocardial infarction."
+  - target: 01-human/07-system/digestive-system
+    relation: connects-to
+    note: "Bronchiolitis stops infants feeding: the tachypnoea and nasal congestion of RSV make young babies unable to feed, causing poor intake and dehydration that often drives the need for hospital admission."
+  - target: 01-human/07-system/renal-system
+    relation: connects-to
+    note: "Severe disease threatens the kidneys: dehydration from poor feeding and the hypoxia and sepsis of severe RSV can cause acute kidney injury, especially in infants and frail older adults."
 ---
 
 # RSV
@@ -406,3 +415,6 @@ Radiological findings: Hyperinflation, peribronchial thickening, occasional atel
 - `connects-to` → **[Acute Myeloid Leukemia](../aml/README.md)** — It turns deadly in the neutropenic host: in leukemia patients like those with AML, RSV readily progresses from the upper airway to fatal pneumonia, a major respiratory-virus threat during chemotherapy-induced immunosuppression.
 - `connects-to` → **[Graft-versus-Host Disease](../gvhd/README.md)** — Post-transplant lungs are defenseless against it: hematopoietic stem-cell recipients, especially with graft-versus-host disease on immunosuppression, suffer severe RSV pneumonia, a leading cause of post-transplant respiratory failure.
 - `connects-to` → **[NSCLC](../nsclc/README.md)** — Damaged, immunosuppressed lungs fare badly: patients with lung cancer such as NSCLC, with their structural lung disease and treatment-related immunosuppression, are prone to severe RSV lower-respiratory infection.
+- `connects-to` → **[Cardiovascular System](../cardiovascular-system/README.md)** — Like influenza, it strains the heart: RSV infection in older adults triggers acute cardiovascular events and decompensation, precipitating arrhythmias, heart failure and myocardial infarction.
+- `connects-to` → **[Digestive System](../digestive-system/README.md)** — Bronchiolitis stops infants feeding: the tachypnoea and nasal congestion of RSV make young babies unable to feed, causing poor intake and dehydration that often drives the need for hospital admission.
+- `connects-to` → **[Renal System](../renal-system/README.md)** — Severe disease threatens the kidneys: dehydration from poor feeding and the hypoxia and sepsis of severe RSV can cause acute kidney injury, especially in infants and frail older adults.

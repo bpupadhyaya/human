@@ -205,6 +205,15 @@ cross_links:
   - target: 01-human/07-system/tuberculosis
     relation: connects-to
     note: "Its immunosuppression can wake latent TB: the corticosteroids and immunosuppressants used to control lupus blunt cell-mediated immunity, allowing reactivation of tuberculosis."
+  - target: 01-human/07-system/integumentary-system
+    relation: connects-to
+    note: "The skin is a defining battleground: SLE produces the malar butterfly rash, scarring discoid lesions, photosensitivity and alopecia, cutaneous signs that are among its diagnostic hallmarks."
+  - target: 02-pathogen/01-viruses/varicella-zoster-virus
+    relation: connects-to
+    note: "Its immunosuppression reawakens shingles: the steroids, mycophenolate, rituximab and belimumab used for lupus deplete antiviral immunity, making herpes-zoster reactivation notably common."
+  - target: 01-human/07-system/digestive-system
+    relation: connects-to
+    note: "Lupus can inflame the gut: it causes mesenteric vasculitis with lupus enteritis, serositis with peritoneal effusions, and autoimmune hepatitis and pancreatitis across the digestive tract."
 ---
 
 # Systemic Lupus Erythematosus
@@ -391,6 +400,9 @@ Highly polygenic disease with >100 susceptibility loci; heritability ~66%:
 - `connects-to` → **[Pulmonary Arterial Hypertension](../pulmonary-arterial-hypertension/README.md)** — As a connective-tissue disease it can pressurize the lungs: lupus is associated with pulmonary arterial hypertension through immune-mediated vascular remodeling and vasculitis, a serious and under-recognized complication.
 - `connects-to` → **[Stroke](../stroke/README.md)** — It strikes the brain's vessels early: accelerated atherosclerosis, vasculitis and antiphospholipid antibodies in lupus markedly raise the risk of ischemic stroke, often in young patients.
 - `connects-to` → **[Tuberculosis](../tuberculosis/README.md)** — Its immunosuppression can wake latent TB: the corticosteroids and immunosuppressants used to control lupus blunt cell-mediated immunity, allowing reactivation of tuberculosis.
+- `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — The skin is a defining battleground: SLE produces the malar butterfly rash, scarring discoid lesions, photosensitivity and alopecia, cutaneous signs that are among its diagnostic hallmarks.
+- `connects-to` → **[Varicella-Zoster Virus](../../../02-pathogen/01-viruses/varicella-zoster-virus/README.md)** — Its immunosuppression reawakens shingles: the steroids, mycophenolate, rituximab and belimumab used for lupus deplete antiviral immunity, making herpes-zoster reactivation notably common.
+- `connects-to` → **[Digestive System](../digestive-system/README.md)** — Lupus can inflame the gut: it causes mesenteric vasculitis with lupus enteritis, serositis with peritoneal effusions, and autoimmune hepatitis and pancreatitis across the digestive tract.
 
 [^tsokos-2011-sle-review]: Tsokos GC. Systemic lupus erythematosus. *N Engl J Med.* 2011;365(22):2110-2121. [doi:10.1056/NEJMra1100359](https://doi.org/10.1056/NEJMra1100359) · [PubMed 22129253](https://pubmed.ncbi.nlm.nih.gov/22129253/)
 [^furie-2011-belimumab]: Furie R, Petri M, Zamani O, et al. A phase III, randomized, placebo-controlled study of belimumab, a monoclonal antibody that inhibits B lymphocyte stimulator, in patients with systemic lupus erythematosus. *Arthritis Rheum.* 2011;63(12):3918-3930. [doi:10.1002/art.30613](https://doi.org/10.1002/art.30613) · [PubMed 22127708](https://pubmed.ncbi.nlm.nih.gov/22127708/)
