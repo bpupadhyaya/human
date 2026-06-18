@@ -220,6 +220,15 @@ cross_links:
   - target: 01-human/07-system/musculoskeletal-system
     relation: connects-to
     note: "It attacks bone from afar and up close: NSCLC metastasises to bone causing pain and fractures, and it characteristically produces hypertrophic pulmonary osteoarthropathy with clubbing and joint pain."
+  - target: 01-human/07-system/immune-system
+    relation: connects-to
+    note: "Immunotherapy has transformed it: NSCLC, especially with high PD-L1 expression, responds to checkpoint-inhibitor immunotherapy, now a cornerstone of treatment for advanced disease."
+  - target: 01-human/07-system/integumentary-system
+    relation: connects-to
+    note: "Its targeted drugs erupt on the skin: EGFR-inhibitor therapy causes a characteristic acneiform rash and paronychia, and paraneoplastic dermatomyositis can herald the cancer."
+  - target: 01-human/07-system/cardiovascular-system
+    relation: connects-to
+    note: "It invades the heart and great veins: NSCLC can seed the pericardium causing malignant effusion and tamponade, and central tumours cause superior vena cava obstruction."
 ---
 
 # NSCLC
@@ -388,6 +397,9 @@ cross_links:
 - `connects-to` → **[Nervous System](../nervous-system/README.md)** — It seeds the brain: NSCLC metastasises commonly to the brain, causing seizures, focal deficits and raised intracranial pressure, and Pancoast tumours and paraneoplastic syndromes injure nerves.
 - `connects-to` → **[Endocrine System](../endocrine-system/README.md)** — It deranges hormones and calcium: squamous NSCLC secretes PTHrP causing hypercalcaemia, and checkpoint immunotherapy triggers endocrine irAEs like thyroiditis and hypophysitis.
 - `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — It attacks bone from afar and up close: NSCLC metastasises to bone causing pain and fractures, and it characteristically produces hypertrophic pulmonary osteoarthropathy with clubbing and joint pain.
+- `connects-to` → **[Immune System](../immune-system/README.md)** — Immunotherapy has transformed it: NSCLC, especially with high PD-L1 expression, responds to checkpoint-inhibitor immunotherapy, now a cornerstone of treatment for advanced disease.
+- `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — Its targeted drugs erupt on the skin: EGFR-inhibitor therapy causes a characteristic acneiform rash and paronychia, and paraneoplastic dermatomyositis can herald the cancer.
+- `connects-to` → **[Cardiovascular System](../cardiovascular-system/README.md)** — It invades the heart and great veins: NSCLC can seed the pericardium causing malignant effusion and tamponade, and central tumours cause superior vena cava obstruction.
 
 [^soria-2018-osimertinib-flaura]: Soria JC, Ohe Y, Vansteenkiste J, et al. Osimertinib in untreated EGFR-mutated advanced non-small-cell lung cancer. *N Engl J Med.* 2018;378(2):113-125. [doi:10.1056/NEJMoa1713137](https://doi.org/10.1056/NEJMoa1713137) · [PubMed 29151359](https://pubmed.ncbi.nlm.nih.gov/29151359/)
 [^reck-2016-pembrolizumab-keynote024]: Reck M, Rodríguez-Abreu D, Robinson AG, et al. Pembrolizumab versus chemotherapy for PD-L1-positive non-small-cell lung cancer. *N Engl J Med.* 2016;375(19):1823-1833. [doi:10.1056/NEJMoa1606774](https://doi.org/10.1056/NEJMoa1606774) · [PubMed 27718347](https://pubmed.ncbi.nlm.nih.gov/27718347/)
