@@ -220,6 +220,15 @@ cross_links:
   - target: 01-human/07-system/musculoskeletal-system
     relation: connects-to
     note: "It wastes muscle as well as bone: the protein-energy malnutrition of anorexia causes profound sarcopenia and proximal myopathy alongside the osteoporosis of oestrogen loss and low body weight."
+  - target: 01-human/07-system/respiratory-system
+    relation: connects-to
+    note: "Starvation weakens the breath: respiratory muscle wasting reduces ventilatory capacity, and self-induced vomiting can cause spontaneous pneumomediastinum and aspiration."
+  - target: 01-human/07-system/immune-system
+    relation: connects-to
+    note: "Starvation transforms the marrow: severe anorexia causes gelatinous marrow transformation with leukopenia and lymphopenia, leaving relative immune compromise despite often-preserved skin-test responses."
+  - target: 01-human/07-system/renal-system
+    relation: connects-to
+    note: "It hides kidney trouble: the very low muscle mass of anorexia makes serum creatinine misleadingly normal, masking the prerenal injury that dehydration and electrolyte loss inflict on the kidney."
 ---
 
 # Anorexia Nervosa
@@ -428,6 +437,9 @@ In healthy individuals, food cues activate the mesolimbic reward circuit (VTA �
 - `connects-to` → **[Cardiovascular System](../cardiovascular-system/README.md)** — Starvation slows and destabilises the heart: anorexia causes sinus bradycardia, hypotension, QT prolongation and arrhythmia, and refeeding can precipitate cardiac failure — cardiac causes drive much of its mortality.
 - `connects-to` → **[Digestive System](../digestive-system/README.md)** — Starvation paralyses the gut: anorexia causes gastroparesis, severe constipation and superior mesenteric artery syndrome, and refeeding risks the dangerous electrolyte shifts of refeeding syndrome.
 - `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — It wastes muscle as well as bone: the protein-energy malnutrition of anorexia causes profound sarcopenia and proximal myopathy alongside the osteoporosis of oestrogen loss and low body weight.
+- `connects-to` → **[Respiratory System](../respiratory-system/README.md)** — Starvation weakens the breath: respiratory muscle wasting reduces ventilatory capacity, and self-induced vomiting can cause spontaneous pneumomediastinum and aspiration.
+- `connects-to` → **[Immune System](../immune-system/README.md)** — Starvation transforms the marrow: severe anorexia causes gelatinous marrow transformation with leukopenia and lymphopenia, leaving relative immune compromise despite often-preserved skin-test responses.
+- `connects-to` → **[Renal System](../renal-system/README.md)** — It hides kidney trouble: the very low muscle mass of anorexia makes serum creatinine misleadingly normal, masking the prerenal injury that dehydration and electrolyte loss inflict on the kidney.
 
 [^treasure-2010-an-lancet]: Treasure J, Claudino AM, Zucker N. Eating disorders. *Lancet.* 2010;375(9714):583-593. [doi:10.1016/S0140-6736(09)61748-7](https://doi.org/10.1016/S0140-6736(09)61748-7) · [PubMed 19931176](https://pubmed.ncbi.nlm.nih.gov/19931176/)
 [^lock-2010-fbt-an]: Lock J, Le Grange D, Agras WS, et al. Randomized clinical trial comparing family-based treatment with adolescent-focused individual therapy for adolescents with anorexia nervosa. *Arch Gen Psychiatry.* 2010;67(10):1025-1032. [doi:10.1001/archgenpsychiatry.2010.128](https://doi.org/10.1001/archgenpsychiatry.2010.128) · [PubMed 20921118](https://pubmed.ncbi.nlm.nih.gov/20921118/)

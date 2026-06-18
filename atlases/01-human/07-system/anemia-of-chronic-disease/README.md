@@ -217,6 +217,15 @@ cross_links:
   - target: 02-pathogen/02-bacteria/helicobacter-pylori
     relation: connects-to
     note: "A chronic gastric infection saps the blood: persistent Helicobacter pylori gastritis drives both iron-deficiency and an inflammatory anemia, and its eradication can correct otherwise refractory anemia."
+  - target: 01-human/07-system/integumentary-system
+    relation: connects-to
+    note: "Pallor is its visible sign: anemia of chronic disease shows as pallor of the skin, conjunctivae and nail beds, a bedside clue that prompts the search for an underlying chronic illness."
+  - target: 01-human/07-system/nervous-system
+    relation: connects-to
+    note: "Low oxygen delivery dulls the mind and stirs the legs: the anemia contributes to fatigue and impaired concentration, and the iron-restriction underlying it can exacerbate restless legs syndrome."
+  - target: 01-human/07-system/reproductive-system
+    relation: connects-to
+    note: "Pregnancy compounds it: when chronic inflammatory disease coexists with the physiological dilutional anemia of pregnancy, the combined anemia can affect maternal wellbeing and fetal outcomes."
 ---
 
 # Anemia of Chronic Disease
@@ -407,6 +416,9 @@ This adaptive rationale explains why **aggressive iron supplementation during ac
 - `connects-to` → **[Digestive System](../digestive-system/README.md)** — The liver runs its central switch: hepatic hepcidin, raised by inflammation, locks iron away from red-cell production, and chronic gut inflammation and bleeding compound the anemia of chronic disease.
 - `connects-to` → **[Endocrine System](../endocrine-system/README.md)** — Hormones tune red-cell output: erythropoietin is an endocrine signal, and hypothyroidism, hypogonadism and hypopituitarism each blunt erythropoiesis, overlapping with the picture of anemia of chronic disease.
 - `connects-to` → **[Helicobacter pylori](../../../02-pathogen/02-bacteria/helicobacter-pylori/README.md)** — A chronic gastric infection saps the blood: persistent Helicobacter pylori gastritis drives both iron-deficiency and an inflammatory anemia, and its eradication can correct otherwise refractory anemia.
+- `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — Pallor is its visible sign: anemia of chronic disease shows as pallor of the skin, conjunctivae and nail beds, a bedside clue that prompts the search for an underlying chronic illness.
+- `connects-to` → **[Nervous System](../nervous-system/README.md)** — Low oxygen delivery dulls the mind and stirs the legs: the anemia contributes to fatigue and impaired concentration, and the iron-restriction underlying it can exacerbate restless legs syndrome.
+- `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — Pregnancy compounds it: when chronic inflammatory disease coexists with the physiological dilutional anemia of pregnancy, the combined anemia can affect maternal wellbeing and fetal outcomes.
 
 [^weiss-2005-acd-review]: Weiss G, Goodnough LT. Anemia of chronic disease. *N Engl J Med.* 2005;352(10):1011-1023. [doi:10.1056/NEJMra041809](https://doi.org/10.1056/NEJMra041809) · [PubMed 15758012](https://pubmed.ncbi.nlm.nih.gov/15758012/)
 [^nemeth-2004-il6-hepcidin]: Nemeth E, Rivera S, Gabayan V, et al. IL-6 mediates hypoferremia of inflammation by inducing the synthesis of the iron regulatory hormone hepcidin. *J Clin Invest.* 2004;113(9):1271-1276. [doi:10.1172/JCI200420945](https://doi.org/10.1172/JCI200420945) · [PubMed 15124018](https://pubmed.ncbi.nlm.nih.gov/15124018/)
