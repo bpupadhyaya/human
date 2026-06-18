@@ -232,6 +232,15 @@ cross_links:
   - target: 03-medicine/01-modern/13-cancer/targeted-therapy
     relation: connects-to
     note: "Targeted antibodies refine its treatment: brentuximab vedotin against CD30 and HDAC inhibitors supplement CHOP-based chemotherapy in peripheral T-cell lymphoma."
+  - target: 03-medicine/01-modern/13-cancer/cancer-chemotherapy
+    relation: connects-to
+    note: "CHOEP then transplant: peripheral T-cell lymphoma is treated with anthracycline regimens like CHOEP followed by autologous stem-cell transplant, yet responds far worse than B-cell lymphomas with frequent early relapse."
+  - target: 01-human/07-system/burkitt-lymphoma
+    relation: connects-to
+    note: "A B-lineage aggressive counterpart: Burkitt and PTCL are both aggressive non-Hodgkin lymphomas, but Burkitt is a MYC-driven B-cell tumour cured by intensive chemo, whereas PTCL is a chemo-resistant T-cell malignancy — lineage dictates prognosis."
+  - target: 03-medicine/01-modern/13-cancer/car-t
+    relation: connects-to
+    note: "Fratricide blocks T-cell CAR-T: the CAR-T therapy that transformed B-cell lymphoma is hard to apply to PTCL because engineered T-cells share target antigens with the tumour and kill each other, driving gene-edited and NK-cell designs."
 ---
 
 # Peripheral T-cell Lymphoma
@@ -448,6 +457,9 @@ Aggressive presentation; generalized lymphadenopathy; extranodal involvement (~6
 - `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — It can dissolve bone: adult T-cell leukaemia/lymphoma classically causes severe hypercalcaemia with lytic bone lesions, and marrow involvement causes cytopenias.
 - `connects-to` → **[Renal System](../renal-system/README.md)** — Treatment and metabolism reach the kidney: tumour lysis syndrome at the start of therapy and ATLL hypercalcaemia threaten acute kidney injury.
 - `connects-to` → **[Targeted Therapy](../../../03-medicine/01-modern/13-cancer/targeted-therapy/README.md)** — Targeted antibodies refine its treatment: brentuximab vedotin against CD30 and HDAC inhibitors supplement CHOP-based chemotherapy in peripheral T-cell lymphoma.
+- `connects-to` → **[Cancer Chemotherapy](../../../03-medicine/01-modern/13-cancer/cancer-chemotherapy/README.md)** — CHOEP then transplant: peripheral T-cell lymphoma is treated with anthracycline regimens like CHOEP followed by autologous stem-cell transplant, yet responds far worse than B-cell lymphomas with frequent early relapse.
+- `connects-to` → **[Burkitt Lymphoma](../burkitt-lymphoma/README.md)** — A B-lineage aggressive counterpart: Burkitt and PTCL are both aggressive non-Hodgkin lymphomas, but Burkitt is a MYC-driven B-cell tumour cured by intensive chemo, whereas PTCL is a chemo-resistant T-cell malignancy — lineage dictates prognosis.
+- `connects-to` → **[CAR-T](../../../03-medicine/01-modern/13-cancer/car-t/README.md)** — Fratricide blocks T-cell CAR-T: the CAR-T therapy that transformed B-cell lymphoma is hard to apply to PTCL because engineered T-cells share target antigens with the tumour and kill each other, driving gene-edited and NK-cell designs.
 
 ---
 

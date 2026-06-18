@@ -238,6 +238,15 @@ cross_links:
   - target: 01-human/07-system/musculoskeletal-system
     relation: connects-to
     note: "Breathlessness wastes the muscles: severe PAH causes profound exercise limitation and peripheral muscle deconditioning, and advanced right-heart failure brings cardiac cachexia."
+  - target: 03-medicine/01-modern/04-cardio/loop-diuretics
+    relation: connects-to
+    note: "They unload the failing right heart: as PAH causes right-ventricular failure, loop diuretics like furosemide relieve peripheral oedema, ascites, and congestion, though over-diuresis can drop the preload-dependent RV output."
+  - target: 01-human/05-tissue/arterial-wall
+    relation: connects-to
+    note: "It is a disease of the arterial wall: PAH remodels small pulmonary arteries with intimal fibrosis, medial smooth-muscle hypertrophy, and plexiform lesions that progressively narrow the lumen and raise pulmonary pressures."
+  - target: 01-human/07-system/polycythemia-vera
+    relation: connects-to
+    note: "Myeloproliferative disease can drive it: polycythaemia vera and related MPNs cause group-5 pulmonary hypertension through hyperviscosity, splenomegaly, and chronic thromboembolic obstruction of the pulmonary vasculature."
 ---
 
 # Pulmonary Arterial Hypertension
@@ -433,6 +442,9 @@ Key variables: WHO functional class (I-IV), 6-minute walk distance (6MWD), NT-pr
 - `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — It shows on skin and at the drip site: connective-tissue-disease PAH brings sclerodactyly and telangiectasia, hypoxaemia causes cyanosis and clubbing, and continuous prostacyclin infusions cause skin and line-site reactions.
 - `connects-to` → **[Calcium-channel Blockers](../../../03-medicine/01-modern/04-cardio/calcium-channel-blockers/README.md)** — A subset responds to vasodilators: the minority of idiopathic PAH patients who are vasoreactive on testing benefit from high-dose calcium-channel blockers.
 - `connects-to` → **[Warfarin](../../../03-medicine/01-modern/09-hematology/warfarin/README.md)** — Anticoagulation has a historical role: warfarin was traditionally used in idiopathic pulmonary arterial hypertension to counter in-situ thrombosis, though its benefit is now debated.
+- `connects-to` → **[Loop Diuretics](../../../03-medicine/01-modern/04-cardio/loop-diuretics/README.md)** — They unload the failing right heart: as PAH causes right-ventricular failure, loop diuretics like furosemide relieve peripheral oedema, ascites, and congestion, though over-diuresis can drop the preload-dependent RV output.
+- `connects-to` → **[Arterial Wall](../../05-tissue/arterial-wall/README.md)** — It is a disease of the arterial wall: PAH remodels small pulmonary arteries with intimal fibrosis, medial smooth-muscle hypertrophy, and plexiform lesions that progressively narrow the lumen and raise pulmonary pressures.
+- `connects-to` → **[Polycythemia Vera](../polycythemia-vera/README.md)** — Myeloproliferative disease can drive it: polycythaemia vera and related MPNs cause group-5 pulmonary hypertension through hyperviscosity, splenomegaly, and chronic thromboembolic obstruction of the pulmonary vasculature.
 - `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — Breathlessness wastes the muscles: severe PAH causes profound exercise limitation and peripheral muscle deconditioning, and advanced right-heart failure brings cardiac cachexia.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
