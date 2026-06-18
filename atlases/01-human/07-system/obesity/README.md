@@ -244,6 +244,15 @@ cross_links:
   - target: 03-medicine/03-food/magnesium-dietary
     relation: connects-to
     note: "Diet quality, not just quantity, matters: obesity is associated with low magnesium status that worsens insulin resistance, part of the micronutrient picture beyond calorie excess."
+  - target: 01-human/05-tissue/islet-of-langerhans
+    relation: connects-to
+    note: "It overworks the islets: obesity-driven insulin resistance forces pancreatic islet beta cells into chronic hyperinsulinaemia, and their eventual compensatory failure is the tipping point from obesity into type 2 diabetes."
+  - target: 01-human/05-tissue/myocardium
+    relation: connects-to
+    note: "It remodels the heart muscle: obesity causes left-ventricular hypertrophy, diastolic dysfunction and fatty infiltration — an obesity cardiomyopathy that, with the raised volume load, predisposes to heart failure and atrial fibrillation."
+  - target: 01-human/07-system/hcc
+    relation: connects-to
+    note: "It now drives liver cancer: through fatty liver and steatohepatitis, obesity has become a leading cause of hepatocellular carcinoma, which can even arise before frank cirrhosis in metabolic liver disease."
 ---
 
 # Obesity
@@ -459,6 +468,9 @@ This **metainflammation** mechanistically links obesity to type 2 diabetes, athe
 - `connects-to` → **[Renal System](../renal-system/README.md)** — It silently scars the kidney: obesity causes glomerular hyperfiltration and an obesity-related glomerulopathy (a secondary FSGS), an independent driver of chronic kidney disease.
 - `connects-to` → **[Metformin](../../../03-medicine/01-modern/07-metabolic/metformin/README.md)** — It treats the metabolic consequence: although weight loss and GLP-1 agonists are central, metformin manages the insulin resistance and type 2 diabetes that obesity drives.
 - `connects-to` → **[Dietary Magnesium](../../../03-medicine/03-food/magnesium-dietary/README.md)** — Diet quality, not just quantity, matters: obesity is associated with low magnesium status that worsens insulin resistance, part of the micronutrient picture beyond calorie excess.
+- `connects-to` → **[Islet of Langerhans](../../05-tissue/islet-of-langerhans/README.md)** — It overworks the islets: obesity-driven insulin resistance forces pancreatic islet beta cells into chronic hyperinsulinaemia, and their eventual compensatory failure is the tipping point from obesity into type 2 diabetes.
+- `connects-to` → **[Myocardium](../../05-tissue/myocardium/README.md)** — It remodels the heart muscle: obesity causes left-ventricular hypertrophy, diastolic dysfunction and fatty infiltration — an obesity cardiomyopathy that, with the raised volume load, predisposes to heart failure and atrial fibrillation.
+- `connects-to` → **[HCC](../hcc/README.md)** — It now drives liver cancer: through fatty liver and steatohepatitis, obesity has become a leading cause of hepatocellular carcinoma, which can even arise before frank cirrhosis in metabolic liver disease.
 
 [^bluher-2019-obesity-review]: Blüher M. Obesity: global epidemiology and pathogenesis. *Nat Rev Endocrinol.* 2019;15(5):288-298. [doi:10.1038/s41574-019-0176-8](https://doi.org/10.1038/s41574-019-0176-8) · [PubMed 30814686](https://pubmed.ncbi.nlm.nih.gov/30814686/)
 [^wilding-2021-semaglutide-step1]: Wilding JPH, Batterham RL, Calanna S, et al. Once-weekly semaglutide in adults with overweight or obesity. *N Engl J Med.* 2021;384(11):989-1002. [doi:10.1056/NEJMoa2032183](https://doi.org/10.1056/NEJMoa2032183) · [PubMed 33567185](https://pubmed.ncbi.nlm.nih.gov/33567185/)

@@ -247,6 +247,15 @@ cross_links:
   - target: 02-pathogen/01-viruses/epstein-barr-virus
     relation: connects-to
     note: "Viruses may help trigger it: like other CNS autoimmunity, neuromyelitis optica has been linked to prior Epstein-Barr virus infection shaping the aberrant antibody response."
+  - target: 03-medicine/01-modern/13-cancer/cancer-chemotherapy
+    relation: connects-to
+    note: "Cytotoxic immunosuppression and a cancer link: azathioprine, mycophenolate and cyclophosphamide serve as steroid-sparing maintenance in NMO, and a minority of AQP4-positive disease is paraneoplastic, declaring an underlying cancer."
+  - target: 03-medicine/01-modern/13-cancer/checkpoint-inhibitors
+    relation: connects-to
+    note: "Immunotherapy can unmask it: cancer checkpoint inhibitors occasionally trigger AQP4-antibody neuromyelitis optica and other CNS demyelinating syndromes as severe immune-related adverse events."
+  - target: 01-human/05-tissue/axonal-transport
+    relation: connects-to
+    note: "Astrocyte attack severs axons: although NMO primarily destroys aquaporin-4-bearing astrocytes, the resulting lesions disrupt axonal transport and cause the secondary axonal loss behind permanent optic and spinal-cord disability."
 ---
 
 # NMOSD
@@ -469,6 +478,9 @@ NMOSD impairs CNS function through three attack-related mechanisms:
 - `connects-to` → **[Targeted Therapy](../../../03-medicine/01-modern/13-cancer/targeted-therapy/README.md)** — Monoclonal antibodies transformed its care: eculizumab (anti-C5), satralizumab (anti-IL-6R) and inebilizumab (anti-CD19) prevent the relapses of AQP4-antibody neuromyelitis optica.
 - `connects-to` → **[Corticosteroids](../../../03-medicine/01-modern/02-respiratory/corticosteroids/README.md)** — High-dose steroids treat the attack: intravenous corticosteroids, with plasma exchange, are first-line for acute optic neuritis and transverse myelitis relapses in NMO.
 - `connects-to` → **[Epstein-Barr Virus](../../../02-pathogen/01-viruses/epstein-barr-virus/README.md)** — Viruses may help trigger it: like other CNS autoimmunity, neuromyelitis optica has been linked to prior Epstein-Barr virus infection shaping the aberrant antibody response.
+- `connects-to` → **[Cancer Chemotherapy](../../../03-medicine/01-modern/13-cancer/cancer-chemotherapy/README.md)** — Cytotoxic immunosuppression and a cancer link: azathioprine, mycophenolate and cyclophosphamide serve as steroid-sparing maintenance in NMO, and a minority of AQP4-positive disease is paraneoplastic, declaring an underlying cancer.
+- `connects-to` → **[Checkpoint Inhibitors](../../../03-medicine/01-modern/13-cancer/checkpoint-inhibitors/README.md)** — Immunotherapy can unmask it: cancer checkpoint inhibitors occasionally trigger AQP4-antibody neuromyelitis optica and other CNS demyelinating syndromes as severe immune-related adverse events.
+- `connects-to` → **[Axonal Transport](../../05-tissue/axonal-transport/README.md)** — Astrocyte attack severs axons: although NMO primarily destroys aquaporin-4-bearing astrocytes, the resulting lesions disrupt axonal transport and cause the secondary axonal loss behind permanent optic and spinal-cord disability.
 
 [^wingerchuk-2015-nmosd-criteria]: Wingerchuk DM, Banwell B, Bennett JL, et al. International consensus diagnostic criteria for neuromyelitis optica spectrum disorders. *Neurology.* 2015;85(2):177-189. [doi:10.1212/WNL.0000000000001729](https://doi.org/10.1212/WNL.0000000000001729) · [PubMed 26092914](https://pubmed.ncbi.nlm.nih.gov/26092914/)
 [^pittock-2019-eculizumab-prevent]: Pittock SJ, Berthele A, Fujihara K, et al. Eculizumab in Aquaporin-4-Positive Neuromyelitis Optica Spectrum Disorder. *N Engl J Med.* 2019;381(7):614-625. [doi:10.1056/NEJMoa1900866](https://doi.org/10.1056/NEJMoa1900866) · [PubMed 31050279](https://pubmed.ncbi.nlm.nih.gov/31050279/)
