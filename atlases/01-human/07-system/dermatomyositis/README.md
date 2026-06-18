@@ -238,6 +238,15 @@ cross_links:
   - target: 01-human/07-system/nervous-system
     relation: connects-to
     note: "It spares the nerves: dermatomyositis attacks muscle and skin while sparing the peripheral nerves — distinguishing it from neuropathic weakness — though juvenile disease can rarely cause CNS vasculitis."
+  - target: 03-medicine/01-modern/02-respiratory/corticosteroids
+    relation: connects-to
+    note: "High-dose steroids are first-line: corticosteroids suppress the muscle and skin inflammation of dermatomyositis, with steroid-sparing immunosuppressants added for long-term control."
+  - target: 03-medicine/01-modern/13-cancer/targeted-therapy
+    relation: connects-to
+    note: "Refractory disease gets targeted agents: rituximab, IVIG and JAK inhibitors (targeting the type-I-interferon signature) treat dermatomyositis resistant to steroids, especially anti-MDA5 lung disease."
+  - target: 02-pathogen/01-viruses/herpesvirus
+    relation: connects-to
+    note: "Immunosuppression reawakens latent virus: the heavy immunosuppression for dermatomyositis allows cytomegalovirus and herpes-simplex reactivation, alongside the Pneumocystis risk."
 ---
 
 # Dermatomyositis
@@ -436,6 +445,9 @@ DM carries a ~3–7× elevated cancer risk overall. Anti-TIF1γ (TRIM33) suppres
 - `connects-to` → **[Cardiovascular System](../cardiovascular-system/README.md)** — It damages vessels beyond the heart muscle: dermatomyositis causes Raynaud's phenomenon and a nailfold capillaropathy, and the chronic inflammation accelerates atherosclerosis.
 - `connects-to` → **[Lymphatic System](../lymphatic-system/README.md)** — Its cancer link works through the nodes: adult dermatomyositis (especially anti-TIF1γ) is strongly paraneoplastic, and those cancers spread via lymph nodes, with a raised lymphoma risk too.
 - `connects-to` → **[Nervous System](../nervous-system/README.md)** — It spares the nerves: dermatomyositis attacks muscle and skin while sparing the peripheral nerves — distinguishing it from neuropathic weakness — though juvenile disease can rarely cause CNS vasculitis.
+- `connects-to` → **[Corticosteroids](../../../03-medicine/01-modern/02-respiratory/corticosteroids/README.md)** — High-dose steroids are first-line: corticosteroids suppress the muscle and skin inflammation of dermatomyositis, with steroid-sparing immunosuppressants added for long-term control.
+- `connects-to` → **[Targeted Therapy](../../../03-medicine/01-modern/13-cancer/targeted-therapy/README.md)** — Refractory disease gets targeted agents: rituximab, IVIG and JAK inhibitors (targeting the type-I-interferon signature) treat dermatomyositis resistant to steroids, especially anti-MDA5 lung disease.
+- `connects-to` → **[Herpesvirus](../../../02-pathogen/01-viruses/herpesvirus/README.md)** — Immunosuppression reawakens latent virus: the heavy immunosuppression for dermatomyositis allows cytomegalovirus and herpes-simplex reactivation, alongside the Pneumocystis risk.
 
 [^bohan-peter-1975-dm-criteria]: Bohan A, Peter JB. Polymyositis and dermatomyositis. *N Engl J Med.* 1975;292(7):344-347. [doi:10.1056/NEJM197502132920706](https://doi.org/10.1056/NEJM197502132920706) · [PubMed 1090839](https://pubmed.ncbi.nlm.nih.gov/1090839/)
 [^lundberg-2021-iim-classification]: Lundberg IE, et al. 2017 EULAR/ACR classification criteria for adult and juvenile idiopathic inflammatory myopathies. *Arthritis Rheumatol.* 2017;69(12):2271-2282. [doi:10.1002/art.40320](https://doi.org/10.1002/art.40320) · [PubMed 29106061](https://pubmed.ncbi.nlm.nih.gov/29106061/)

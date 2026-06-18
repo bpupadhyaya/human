@@ -232,6 +232,15 @@ cross_links:
   - target: 02-pathogen/02-bacteria/staphylococcus-aureus
     relation: connects-to
     note: "Its treatment carries an infection risk: the repeated intravitreal anti-VEGF injections used for diabetic macular oedema can rarely introduce endophthalmitis, often from skin staphylococci."
+  - target: 01-human/07-system/renal-system
+    relation: connects-to
+    note: "It travels with diabetic kidney disease: retinopathy and nephropathy are parallel microvascular complications, so retinal changes predict and mirror diabetic kidney damage."
+  - target: 03-medicine/01-modern/13-cancer/targeted-therapy
+    relation: connects-to
+    note: "Anti-VEGF injections save sight: intravitreal anti-VEGF agents (ranibizumab, aflibercept) and steroids treat the macular oedema and neovascularisation of diabetic retinopathy."
+  - target: 03-medicine/01-modern/07-metabolic/metformin
+    relation: connects-to
+    note: "Glycaemic control prevents it: tight glucose control with metformin and other agents slows the onset and progression of diabetic retinopathy, the leading cause of blindness in working-age adults."
 ---
 
 # Diabetic Retinopathy
@@ -413,6 +422,9 @@ DR encompasses a spectrum from subtle vascular changes to sight-threatening neov
 - `connects-to` → **[Respiratory System](../respiratory-system/README.md)** — Sleep apnoea worsens it: obstructive sleep apnoea and its intermittent nocturnal hypoxia independently aggravate diabetic retinopathy and macular oedema.
 - `connects-to` → **[Lymphatic System](../lymphatic-system/README.md)** — The eye has no lymphatics to clear it: the immune-privileged retina lacks conventional lymphatic drainage, so VEGF and oedema fluid accumulate rather than being carried away, driving the disease.
 - `connects-to` → **[Staphylococcus aureus](../../../02-pathogen/02-bacteria/staphylococcus-aureus/README.md)** — Its treatment carries an infection risk: the repeated intravitreal anti-VEGF injections used for diabetic macular oedema can rarely introduce endophthalmitis, often from skin staphylococci.
+- `connects-to` → **[Renal System](../renal-system/README.md)** — It travels with diabetic kidney disease: retinopathy and nephropathy are parallel microvascular complications, so retinal changes predict and mirror diabetic kidney damage.
+- `connects-to` → **[Targeted Therapy](../../../03-medicine/01-modern/13-cancer/targeted-therapy/README.md)** — Anti-VEGF injections save sight: intravitreal anti-VEGF agents (ranibizumab, aflibercept) and steroids treat the macular oedema and neovascularisation of diabetic retinopathy.
+- `connects-to` → **[Metformin](../../../03-medicine/01-modern/07-metabolic/metformin/README.md)** — Glycaemic control prevents it: tight glucose control with metformin and other agents slows the onset and progression of diabetic retinopathy, the leading cause of blindness in working-age adults.
 
 [^fong-2004-dr-review]: Fong DS, Aiello L, Gardner TW, et al. Diabetic retinopathy. *Diabetes Care.* 2004;27(10):2540-2553. [doi:10.2337/diacare.27.10.2540](https://doi.org/10.2337/diacare.27.10.2540) · [PubMed 15451934](https://pubmed.ncbi.nlm.nih.gov/15451934/)
 [^brown-2015-aflibercept-protocol-t]: Diabetic Retinopathy Clinical Research Network; Wells JA, Glassman AR, et al. Aflibercept, Bevacizumab, or Ranibizumab for Diabetic Macular Edema. *N Engl J Med.* 2015;372(13):1193-1203. [doi:10.1056/NEJMoa1414264](https://doi.org/10.1056/NEJMoa1414264) · [PubMed 25692915](https://pubmed.ncbi.nlm.nih.gov/25692915/)
