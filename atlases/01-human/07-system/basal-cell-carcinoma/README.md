@@ -205,6 +205,15 @@ cross_links:
   - target: 01-human/07-system/generalized-anxiety-disorder
     relation: connects-to
     note: "Visible lesions and recurrence breed worry: the cosmetically sensitive sites and tendency to develop further skin cancers in basal cell carcinoma fuel health anxiety alongside depression."
+  - target: 01-human/07-system/nervous-system
+    relation: connects-to
+    note: "Aggressive facial tumours track along nerves: neglected or recurrent basal cell carcinoma, especially on the face, can invade perineurally and spread along cranial nerves toward the skull base."
+  - target: 01-human/07-system/neuropathic-pain
+    relation: connects-to
+    note: "Perineural spread causes pain and numbness: when basal cell carcinoma invades along nerves, it produces facial paraesthesia, numbness and neuropathic pain that signal deep, advanced disease."
+  - target: 01-human/07-system/digestive-system
+    relation: connects-to
+    note: "Its targeted drug attacks taste and appetite: the hedgehog-pathway inhibitor vismodegib used for advanced basal cell carcinoma commonly causes severe dysgeusia, nausea and weight loss."
 ---
 
 # Basal Cell Carcinoma
@@ -389,6 +398,9 @@ BCC has a complex immune microenvironment:
 - `connects-to` → **[Bladder Cancer](../bladder-cancer/README.md)** — Arsenic links skin and bladder cancer: chronic arsenic exposure causes basal cell carcinomas (often multiple and on covered skin) alongside an elevated risk of bladder cancer, a shared environmental carcinogenesis.
 - `connects-to` → **[Chronic Kidney Disease](../ckd/README.md)** — Transplant immunosuppression multiplies skin cancer: the chronic immunosuppression after kidney transplantation markedly raises the risk and aggressiveness of basal cell and other skin carcinomas.
 - `connects-to` → **[Generalized Anxiety Disorder](../generalized-anxiety-disorder/README.md)** — Visible lesions and recurrence breed worry: the cosmetically sensitive sites and tendency to develop further skin cancers in basal cell carcinoma fuel health anxiety alongside depression.
+- `connects-to` → **[Nervous System](../nervous-system/README.md)** — Aggressive facial tumours track along nerves: neglected or recurrent basal cell carcinoma, especially on the face, can invade perineurally and spread along cranial nerves toward the skull base.
+- `connects-to` → **[Neuropathic Pain](../neuropathic-pain/README.md)** — Perineural spread causes pain and numbness: when basal cell carcinoma invades along nerves, it produces facial paraesthesia, numbness and neuropathic pain that signal deep, advanced disease.
+- `connects-to` → **[Digestive System](../digestive-system/README.md)** — Its targeted drug attacks taste and appetite: the hedgehog-pathway inhibitor vismodegib used for advanced basal cell carcinoma commonly causes severe dysgeusia, nausea and weight loss.
 
 ---
 

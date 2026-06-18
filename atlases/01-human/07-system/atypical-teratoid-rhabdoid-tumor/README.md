@@ -205,6 +205,15 @@ cross_links:
   - target: 01-human/07-system/major-depressive-disorder
     relation: connects-to
     note: "A devastating infant brain cancer strains families: the dire prognosis, intensive treatment and neurological injury of ATRT impose a heavy psychological burden on survivors and their parents."
+  - target: 01-human/07-system/wound-healing
+    relation: connects-to
+    note: "Infant neurosurgery is a healing challenge: the maximal-safe resection of an ATRT in a small child, often followed by chemotherapy and radiation, leaves a cranial wound that must heal in a vulnerable patient."
+  - target: 01-human/07-system/endocrine-system
+    relation: connects-to
+    note: "Treatment damages the hormone axis: craniospinal irradiation and surgery near the hypothalamus and pituitary in ATRT cause growth-hormone deficiency and other endocrinopathies in survivors."
+  - target: 01-human/07-system/generalized-anxiety-disorder
+    relation: connects-to
+    note: "A dire prognosis breeds relentless worry: the aggressive course, intensive therapy and grim outlook of ATRT foster profound anxiety in families alongside the depression it brings."
 ---
 
 # Atypical Teratoid/Rhabdoid Tumor
@@ -386,6 +395,9 @@ AT/RT has no established standard of care; protocols are protocol-driven and cen
 - `connects-to` → **[Neuropathic Pain](../neuropathic-pain/README.md)** — Vincristine and CNS injury leave lasting pain: the vincristine in ATRT regimens causes peripheral neuropathy, and tumor or surgery affecting the spinal cord adds neuropathic pain in these young patients.
 - `connects-to` → **[Anemia of Chronic Disease](../anemia-of-chronic-disease/README.md)** — Intensive therapy and tumor blunt the marrow: the aggressive multi-agent chemotherapy for ATRT plus the inflammatory burden of an advanced tumor suppress erythropoiesis into an anemia of chronic disease.
 - `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — A devastating infant brain cancer strains families: the dire prognosis, intensive treatment and neurological injury of ATRT impose a heavy psychological burden on survivors and their parents.
+- `connects-to` → **[Wound Healing](../wound-healing/README.md)** — Infant neurosurgery is a healing challenge: the maximal-safe resection of an ATRT in a small child, often followed by chemotherapy and radiation, leaves a cranial wound that must heal in a vulnerable patient.
+- `connects-to` → **[Endocrine System](../endocrine-system/README.md)** — Treatment damages the hormone axis: craniospinal irradiation and surgery near the hypothalamus and pituitary in ATRT cause growth-hormone deficiency and other endocrinopathies in survivors.
+- `connects-to` → **[Generalized Anxiety Disorder](../generalized-anxiety-disorder/README.md)** — A dire prognosis breeds relentless worry: the aggressive course, intensive therapy and grim outlook of ATRT foster profound anxiety in families alongside the depression it brings.
 
 ---
 
