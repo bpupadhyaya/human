@@ -241,6 +241,15 @@ cross_links:
   - target: 02-pathogen/02-bacteria/staphylococcus-aureus
     relation: connects-to
     note: "Infection can trigger anti-PF4 antibodies: 'spontaneous' or autoimmune HIT, occurring without heparin after infection or orthopaedic surgery, has been linked to bacterial triggers such as Staphylococcus aureus."
+  - target: 01-human/05-tissue/arterial-wall
+    relation: connects-to
+    note: "White clots in the arteries: the platelet-activating PF4 antibodies of HIT seed platelet-rich 'white clot' thrombi not only in veins but in arteries, causing limb ischaemia, stroke and acute arterial occlusion."
+  - target: 01-human/05-tissue/myocardium
+    relation: connects-to
+    note: "Cardiac surgery is the danger zone: cardiopulmonary bypass exposes patients to massive heparin doses, making cardiac surgery the highest-incidence setting for HIT, where the antibodies can drive coronary thrombosis and myocardial infarction."
+  - target: 01-human/07-system/essential-thrombocythemia
+    relation: connects-to
+    note: "Opposite counts, shared thrombosis: HIT thromboses while platelets fall as they are consumed by activation, whereas essential thrombocythemia thromboses with a high platelet count — a paradox of platelet number versus platelet activation."
 ---
 
 # Heparin-Induced Thrombocytopenia
@@ -459,6 +468,9 @@ Platelet consumption → thrombocytopenia (paradox: clotting despite low platele
 - `connects-to` → **[Warfarin](../../../03-medicine/01-modern/09-hematology/warfarin/README.md)** — Warfarin is dangerous early in it: starting warfarin during acute HIT can precipitate venous limb gangrene by dropping protein C, so a non-heparin anticoagulant is used first.
 - `connects-to` → **[aHUS](../ahus/README.md)** — A fellow antibody-driven thrombotic disorder: like atypical HUS, HIT is an antibody-mediated prothrombotic state, here from anti-PF4-heparin immune complexes that activate platelets.
 - `connects-to` → **[Staphylococcus aureus](../../../02-pathogen/02-bacteria/staphylococcus-aureus/README.md)** — Infection can trigger anti-PF4 antibodies: 'spontaneous' or autoimmune HIT, occurring without heparin after infection or orthopaedic surgery, has been linked to bacterial triggers such as Staphylococcus aureus.
+- `connects-to` → **[Arterial Wall](../../05-tissue/arterial-wall/README.md)** — White clots in the arteries: the platelet-activating PF4 antibodies of HIT seed platelet-rich 'white clot' thrombi not only in veins but in arteries, causing limb ischaemia, stroke and acute arterial occlusion.
+- `connects-to` → **[Myocardium](../../05-tissue/myocardium/README.md)** — Cardiac surgery is the danger zone: cardiopulmonary bypass exposes patients to massive heparin doses, making cardiac surgery the highest-incidence setting for HIT, where the antibodies can drive coronary thrombosis and myocardial infarction.
+- `connects-to` → **[Essential Thrombocythemia](../essential-thrombocythemia/README.md)** — Opposite counts, shared thrombosis: HIT thromboses while platelets fall as they are consumed by activation, whereas essential thrombocythemia thromboses with a high platelet count — a paradox of platelet number versus platelet activation.
 
 [^warkentin-2007-hit-review]: Warkentin TE, Greinacher A. Heparin-induced thrombocytopenia: recognition, treatment, and prevention. *Chest.* 2004;126(3 Suppl):311S-337S. [doi:10.1378/chest.126.3_suppl.311S](https://doi.org/10.1378/chest.126.3_suppl.311S) · [PubMed 15383477](https://pubmed.ncbi.nlm.nih.gov/15383477/)
 [^greinacher-2021-vitt-nejm]: Greinacher A, Thiele T, Warkentin TE, et al. Thrombotic thrombocytopenia after ChAdOx1 nCov-19 vaccination. *N Engl J Med.* 2021;384(22):2092-2101. [doi:10.1056/NEJMoa2104840](https://doi.org/10.1056/NEJMoa2104840) · [PubMed 33835769](https://pubmed.ncbi.nlm.nih.gov/33835769/)

@@ -237,6 +237,15 @@ cross_links:
   - target: 01-human/07-system/respiratory-system
     relation: connects-to
     note: "Its vasculitis can reach the lungs: hepatitis-B-associated polyarteritis nodosa is a systemic vasculitis that, beyond the kidneys and gut, can rarely involve the pulmonary vessels."
+  - target: 01-human/05-tissue/hepatic-lobule
+    relation: connects-to
+    note: "It lives in the liver lobule: hepatitis B replicates in hepatocytes, producing ground-glass cells and lobular necroinflammation whose chronic cycles of damage and repair drive the fibrosis, cirrhosis and cancer of the liver."
+  - target: 03-medicine/01-modern/13-cancer/checkpoint-inhibitors
+    relation: connects-to
+    note: "Immunotherapy treats its cancer: HBV-related hepatocellular carcinoma is treated with checkpoint inhibitors such as atezolizumab with bevacizumab, though viral reactivation under immunotherapy must be guarded against with antivirals."
+  - target: 03-medicine/02-traditional/milk-thistle
+    relation: connects-to
+    note: "A popular hepatoprotective herb: silymarin from milk thistle is widely taken by people with chronic hepatitis B for its antioxidant, liver-supportive reputation, though it does not clear the virus and the evidence for benefit is weak."
 ---
 
 # Hepatitis B
@@ -445,3 +454,6 @@ HDV is a satellite RNA virus that requires HBsAg for virion assembly:
 - `connects-to` → **[Adalimumab](../../../03-medicine/01-modern/11-biologics/adalimumab/README.md)** — Anti-TNF biologics can reawaken it: drugs like adalimumab risk reactivating hepatitis B, so screening and antiviral prophylaxis are mandatory before starting them.
 - `connects-to` → **[Corticosteroids](../../../03-medicine/01-modern/02-respiratory/corticosteroids/README.md)** — Steroids and chemotherapy reactivate it: hepatitis B can flare dangerously during high-dose corticosteroid or cytotoxic therapy, requiring pre-treatment screening and prophylactic antivirals.
 - `connects-to` → **[Respiratory System](../respiratory-system/README.md)** — Its vasculitis can reach the lungs: hepatitis-B-associated polyarteritis nodosa is a systemic vasculitis that, beyond the kidneys and gut, can rarely involve the pulmonary vessels.
+- `connects-to` → **[Hepatic Lobule](../../05-tissue/hepatic-lobule/README.md)** — It lives in the liver lobule: hepatitis B replicates in hepatocytes, producing ground-glass cells and lobular necroinflammation whose chronic cycles of damage and repair drive the fibrosis, cirrhosis and cancer of the liver.
+- `connects-to` → **[Checkpoint Inhibitors](../../../03-medicine/01-modern/13-cancer/checkpoint-inhibitors/README.md)** — Immunotherapy treats its cancer: HBV-related hepatocellular carcinoma is treated with checkpoint inhibitors such as atezolizumab with bevacizumab, though viral reactivation under immunotherapy must be guarded against with antivirals.
+- `connects-to` → **[Milk Thistle](../../../03-medicine/02-traditional/milk-thistle/README.md)** — A popular hepatoprotective herb: silymarin from milk thistle is widely taken by people with chronic hepatitis B for its antioxidant, liver-supportive reputation, though it does not clear the virus and the evidence for benefit is weak.
