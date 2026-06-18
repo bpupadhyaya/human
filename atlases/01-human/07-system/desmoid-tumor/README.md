@@ -205,6 +205,15 @@ cross_links:
   - target: 01-human/07-system/generalized-anxiety-disorder
     relation: connects-to
     note: "Unpredictable recurrence breeds worry: the locally aggressive, frequently recurring behavior of desmoid tumors and the need for ongoing imaging surveillance foster chronic health anxiety."
+  - target: 01-human/07-system/endocrine-system
+    relation: connects-to
+    note: "It is fuelled by oestrogen: desmoid tumours often grow during pregnancy and with the contraceptive pill and express oestrogen receptors, so anti-oestrogens like tamoxifen are used to treat them."
+  - target: 01-human/07-system/renal-system
+    relation: connects-to
+    note: "Mesenteric tumour can throttle the ureters: a bulky intra-abdominal desmoid, common in FAP, can encase and obstruct the ureters, causing hydronephrosis and threatening kidney function."
+  - target: 01-human/07-system/integumentary-system
+    relation: connects-to
+    note: "It arises in the abdominal wall and skin: desmoid tumours frequently grow in the abdominal-wall soft tissue, and in Gardner syndrome accompany epidermoid cysts and other cutaneous lesions."
 ---
 
 # Desmoid Tumor
@@ -401,6 +410,9 @@ Standard initial approach for newly diagnosed desmoid without symptoms or rapid 
 - `connects-to` → **[Heart Failure](../heart-failure/README.md)** — Its targeted drugs strain the heart: the sorafenib and other tyrosine-kinase inhibitors used to control aggressive desmoid tumors raise blood pressure and are cardiotoxic, risking heart failure.
 - `connects-to` → **[Anemia of Chronic Disease](../anemia-of-chronic-disease/README.md)** — A large infiltrative tumor drains the blood: bulky mesenteric or abdominal desmoids with their inflammatory burden, and any associated bleeding, can produce an anemia of chronic disease.
 - `connects-to` → **[Generalized Anxiety Disorder](../generalized-anxiety-disorder/README.md)** — Unpredictable recurrence breeds worry: the locally aggressive, frequently recurring behavior of desmoid tumors and the need for ongoing imaging surveillance foster chronic health anxiety.
+- `connects-to` → **[Endocrine System](../endocrine-system/README.md)** — It is fuelled by oestrogen: desmoid tumours often grow during pregnancy and with the contraceptive pill and express oestrogen receptors, so anti-oestrogens like tamoxifen are used to treat them.
+- `connects-to` → **[Renal System](../renal-system/README.md)** — Mesenteric tumour can throttle the ureters: a bulky intra-abdominal desmoid, common in FAP, can encase and obstruct the ureters, causing hydronephrosis and threatening kidney function.
+- `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — It arises in the abdominal wall and skin: desmoid tumours frequently grow in the abdominal-wall soft tissue, and in Gardner syndrome accompany epidermoid cysts and other cutaneous lesions.
 
 ---
 

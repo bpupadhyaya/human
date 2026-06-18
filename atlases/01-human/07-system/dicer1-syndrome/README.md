@@ -205,6 +205,15 @@ cross_links:
   - target: 01-human/07-system/generalized-anxiety-disorder
     relation: connects-to
     note: "Constant multi-organ surveillance breeds worry: the lifelong screening for the many tumors of DICER1 syndrome, often beginning in childhood, fosters chronic health anxiety in patients and families."
+  - target: 01-human/07-system/renal-system
+    relation: connects-to
+    note: "It seeds tumours in the kidney: DICER1 syndrome causes cystic nephroma and, less often, renal sarcoma and Wilms-like tumours, part of its broad childhood-tumour spectrum."
+  - target: 01-human/07-system/wound-healing
+    relation: connects-to
+    note: "Resecting its tumours means many wounds: surgery for pleuropulmonary blastoma, cystic nephroma, ovarian and other DICER1 tumours leaves children with operative wounds that must heal."
+  - target: 02-pathogen/01-viruses/varicella-zoster-virus
+    relation: connects-to
+    note: "Chemotherapy reawakens shingles: the chemotherapy used against DICER1-related cancers suppresses a child's immunity, allowing latent or primary varicella-zoster to cause severe disease."
 ---
 
 # DICER1 Syndrome
@@ -382,6 +391,9 @@ When a child is found to have a thoracic cystic lesion, DICER1 syndrome should b
 - `connects-to` → **[Heart Failure](../heart-failure/README.md)** — Treating its tumors strains the heart: the anthracycline and alkylator chemotherapy for the sarcomas and blastomas DICER1 predisposes to is cardiotoxic, risking cardiomyopathy and heart failure in survivors.
 - `connects-to` → **[Aspergillus fumigatus](../../../02-pathogen/03-fungi/aspergillus-fumigatus/README.md)** — Its cancer chemotherapy opens the lung to mold: the neutropenia from treating DICER1-related tumors such as pleuropulmonary blastoma can let inhaled Aspergillus invade as pulmonary aspergillosis.
 - `connects-to` → **[Generalized Anxiety Disorder](../generalized-anxiety-disorder/README.md)** — Constant multi-organ surveillance breeds worry: the lifelong screening for the many tumors of DICER1 syndrome, often beginning in childhood, fosters chronic health anxiety in patients and families.
+- `connects-to` → **[Renal System](../renal-system/README.md)** — It seeds tumours in the kidney: DICER1 syndrome causes cystic nephroma and, less often, renal sarcoma and Wilms-like tumours, part of its broad childhood-tumour spectrum.
+- `connects-to` → **[Wound Healing](../wound-healing/README.md)** — Resecting its tumours means many wounds: surgery for pleuropulmonary blastoma, cystic nephroma, ovarian and other DICER1 tumours leaves children with operative wounds that must heal.
+- `connects-to` → **[Varicella-Zoster Virus](../../../02-pathogen/01-viruses/varicella-zoster-virus/README.md)** — Chemotherapy reawakens shingles: the chemotherapy used against DICER1-related cancers suppresses a child's immunity, allowing latent or primary varicella-zoster to cause severe disease.
 
 ---
 
