@@ -232,6 +232,15 @@ cross_links:
   - target: 01-human/07-system/endocrine-system
     relation: connects-to
     note: "It can disturb the glands: severe dengue is reported to cause transient thyroid dysfunction and, through profound shock, rare pituitary and adrenal insufficiency."
+  - target: 02-pathogen/01-viruses/zika-virus
+    relation: connects-to
+    note: "A flavivirus cousin and immune trap: Zika shares dengue's Aedes vector and produces cross-reactive antibodies that can worsen the other infection through antibody-dependent enhancement, complicating diagnosis and vaccine design."
+  - target: 02-pathogen/02-bacteria/salmonella-typhi
+    relation: connects-to
+    note: "A fever to tell apart: in endemic regions and returning travellers, dengue must be distinguished from typhoid and malaria, overlapping febrile illnesses with very different treatments."
+  - target: 01-human/07-system/immune-thrombocytopenia
+    relation: connects-to
+    note: "It crashes the platelets: dengue causes a profound thrombocytopenia through marrow suppression and immune platelet destruction, overlapping mechanistically with immune thrombocytopenia."
 ---
 
 # Dengue Fever
@@ -415,3 +424,6 @@ No approved antiviral therapy for dengue. Management is entirely supportive:
 - `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — It crosses to the fetus: dengue in pregnancy raises the risk of preterm birth, low birth weight and peripartum haemorrhage, and vertical transmission can infect the newborn.
 - `connects-to` → **[Ibuprofen](../../../03-medicine/01-modern/12-anti-inflammatory/ibuprofen/README.md)** — Some painkillers are dangerous here: NSAIDs like ibuprofen are avoided in dengue because they worsen the bleeding tendency and gastritis of thrombocytopenia, so paracetamol is preferred.
 - `connects-to` → **[Endocrine System](../endocrine-system/README.md)** — It can disturb the glands: severe dengue is reported to cause transient thyroid dysfunction and, through profound shock, rare pituitary and adrenal insufficiency.
+- `connects-to` → **[Zika Virus](../../../02-pathogen/01-viruses/zika-virus/README.md)** — A flavivirus cousin and immune trap: Zika shares dengue's Aedes vector and produces cross-reactive antibodies that can worsen the other infection through antibody-dependent enhancement, complicating diagnosis and vaccine design.
+- `connects-to` → **[Salmonella typhi](../../../02-pathogen/02-bacteria/salmonella-typhi/README.md)** — A fever to tell apart: in endemic regions and returning travellers, dengue must be distinguished from typhoid and malaria, overlapping febrile illnesses with very different treatments.
+- `connects-to` → **[Immune Thrombocytopenia](../immune-thrombocytopenia/README.md)** — It crashes the platelets: dengue causes a profound thrombocytopenia through marrow suppression and immune platelet destruction, overlapping mechanistically with immune thrombocytopenia.

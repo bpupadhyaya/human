@@ -232,6 +232,15 @@ cross_links:
   - target: 01-human/07-system/immune-system
     relation: connects-to
     note: "It builds an inflammatory stroma: desmoid tumours carry a fibroinflammatory microenvironment rich in immune cells, and their indolent, sometimes self-regressing behaviour has drawn interest in immune modulation."
+  - target: 03-medicine/01-modern/13-cancer/targeted-therapy
+    relation: connects-to
+    note: "A new drug targets its pathway: nirogacestat, a gamma-secretase inhibitor of Notch, and multikinase inhibitors (sorafenib, pazopanib) shrink progressive desmoid tumours that exploit Wnt/β-catenin signalling."
+  - target: 03-medicine/01-modern/13-cancer/cancer-chemotherapy
+    relation: connects-to
+    note: "Low-dose chemo controls progression: regimens like methotrexate-vinblastine or liposomal doxorubicin treat progressive or symptomatic desmoid tumours unsuitable for surgery."
+  - target: 01-human/07-system/thyroid-cancer
+    relation: connects-to
+    note: "Both flag familial polyposis: desmoid tumours and cribriform-morular thyroid carcinoma are extracolonic manifestations of familial adenomatous polyposis, sharing its APC/Wnt-pathway driver."
 ---
 
 # Desmoid Tumor
@@ -437,6 +446,9 @@ Standard initial approach for newly diagnosed desmoid without symptoms or rapid 
 - `connects-to` → **[Respiratory System](../respiratory-system/README.md)** — It can grow in the chest: thoracic and chest-wall desmoid tumours can encase the ribs and compress the lung, and mesenteric disease can press on the diaphragm.
 - `connects-to` → **[Ibuprofen](../../../03-medicine/01-modern/12-anti-inflammatory/ibuprofen/README.md)** — Anti-inflammatories can hold it back: NSAIDs such as sulindac, in the same class as ibuprofen, are used to slow desmoid growth, sometimes with anti-oestrogens, before resorting to surgery or systemic therapy.
 - `connects-to` → **[Immune System](../immune-system/README.md)** — It builds an inflammatory stroma: desmoid tumours carry a fibroinflammatory microenvironment rich in immune cells, and their indolent, sometimes self-regressing behaviour has drawn interest in immune modulation.
+- `connects-to` → **[Targeted Therapy](../../../03-medicine/01-modern/13-cancer/targeted-therapy/README.md)** — A new drug targets its pathway: nirogacestat, a gamma-secretase inhibitor of Notch, and multikinase inhibitors (sorafenib, pazopanib) shrink progressive desmoid tumours that exploit Wnt/β-catenin signalling.
+- `connects-to` → **[Cancer Chemotherapy](../../../03-medicine/01-modern/13-cancer/cancer-chemotherapy/README.md)** — Low-dose chemo controls progression: regimens like methotrexate-vinblastine or liposomal doxorubicin treat progressive or symptomatic desmoid tumours unsuitable for surgery.
+- `connects-to` → **[Thyroid Cancer](../thyroid-cancer/README.md)** — Both flag familial polyposis: desmoid tumours and cribriform-morular thyroid carcinoma are extracolonic manifestations of familial adenomatous polyposis, sharing its APC/Wnt-pathway driver.
 
 ---
 
