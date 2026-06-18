@@ -205,6 +205,15 @@ cross_links:
   - target: 01-human/07-system/neuropathic-pain
     relation: connects-to
     note: "Surgery, chemo and B12 loss injure nerves: post-gastrectomy adhesive pain, platinum chemotherapy neuropathy and the B12 deficiency of an absent stomach combine to produce neuropathic pain."
+  - target: 01-human/07-system/endocrine-system
+    relation: connects-to
+    note: "Losing the stomach upends metabolism: prophylactic total gastrectomy in HDGC removes ghrelin-producing tissue and causes dumping syndrome with reactive hypoglycaemia and lasting nutritional disturbance."
+  - target: 01-human/07-system/musculoskeletal-system
+    relation: connects-to
+    note: "Malabsorption after gastrectomy weakens bone and muscle: the impaired calcium, vitamin D and protein uptake of an absent stomach causes metabolic bone disease and sarcopenia in HDGC survivors."
+  - target: 01-human/07-system/nervous-system
+    relation: connects-to
+    note: "Vitamin B12 loss can degrade the spinal cord: with no stomach to make intrinsic factor, untreated B12 deficiency after gastrectomy causes subacute combined degeneration with sensory and cognitive decline."
 ---
 
 # Hereditary Diffuse Gastric Cancer
@@ -375,6 +384,9 @@ Testing for CDH1 (and CTNNA1) is indicated in any of the following:
 - `connects-to` → **[Generalized Anxiety Disorder](../generalized-anxiety-disorder/README.md)** — A genetic verdict and prophylactic gastrectomy breed worry: CDH1 carriers face the decision to remove a healthy stomach and lifelong cancer risk, fostering profound health anxiety.
 - `connects-to` → **[Wound Healing](../wound-healing/README.md)** — Total gastrectomy is a major wound to heal: the prophylactic or therapeutic removal of the entire stomach creates a high-risk esophageal anastomosis prone to leak and slow healing.
 - `connects-to` → **[Neuropathic Pain](../neuropathic-pain/README.md)** — Surgery, chemo and B12 loss injure nerves: post-gastrectomy adhesive pain, platinum chemotherapy neuropathy and the B12 deficiency of an absent stomach combine to produce neuropathic pain.
+- `connects-to` → **[Endocrine System](../endocrine-system/README.md)** — Losing the stomach upends metabolism: prophylactic total gastrectomy in HDGC removes ghrelin-producing tissue and causes dumping syndrome with reactive hypoglycaemia and lasting nutritional disturbance.
+- `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — Malabsorption after gastrectomy weakens bone and muscle: the impaired calcium, vitamin D and protein uptake of an absent stomach causes metabolic bone disease and sarcopenia in HDGC survivors.
+- `connects-to` → **[Nervous System](../nervous-system/README.md)** — Vitamin B12 loss can degrade the spinal cord: with no stomach to make intrinsic factor, untreated B12 deficiency after gastrectomy causes subacute combined degeneration with sensory and cognitive decline.
 
 [^van-der-post-2015-hdgc-guidelines]: van der Post RS, Vogelaar IP, Carneiro F, et al. Hereditary diffuse gastric cancer: updated clinical guidelines with an emphasis on germline CDH1 mutation carriers. *J Med Genet.* 2015;52(6):361-374. [doi:10.1136/jmedgenet-2015-103094](https://doi.org/10.1136/jmedgenet-2015-103094) · [PubMed 25979631](https://pubmed.ncbi.nlm.nih.gov/25979631/)
 [^hansford-2015-hdgc]: Hansford S, Kaurah P, Li-Chang H, et al. Hereditary Diffuse Gastric Cancer Syndrome: CDH1 Mutations and Beyond. *JAMA Oncol.* 2015;1(1):23-32. [doi:10.1001/jamaoncol.2014.168](https://doi.org/10.1001/jamaoncol.2014.168) · [PubMed 26182300](https://pubmed.ncbi.nlm.nih.gov/26182300/)

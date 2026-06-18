@@ -205,6 +205,15 @@ cross_links:
   - target: 01-human/07-system/generalized-anxiety-disorder
     relation: connects-to
     note: "Unrelenting pain and cancer risk breed worry: the recurrent severe abdominal pain, opioid dependence and lifelong pancreatic-cancer surveillance of hereditary pancreatitis foster chronic anxiety alongside depression."
+  - target: 01-human/07-system/respiratory-system
+    relation: connects-to
+    note: "Severe attacks flood the lungs: an acute pancreatitis flare in hereditary pancreatitis can cause pleural effusions and acute respiratory distress syndrome from the systemic inflammatory response."
+  - target: 01-human/07-system/integumentary-system
+    relation: connects-to
+    note: "Leaked pancreatic enzymes mark the skin: severe pancreatitis causes the bruising of Cullen's and Grey-Turner's signs, and circulating lipase can produce a nodular pancreatic panniculitis."
+  - target: 01-human/07-system/musculoskeletal-system
+    relation: connects-to
+    note: "Enzyme release can inflame fat and joints: hereditary pancreatitis can cause the pancreatitis-panniculitis-polyarthritis syndrome, and chronic malabsorption of vitamin D weakens bone."
 ---
 
 # Hereditary Pancreatitis
@@ -411,6 +420,9 @@ cross_links:
 - `connects-to` → **[Iron-Deficiency Anemia](../iron-deficiency-anemia/README.md)** — Exocrine failure starves the body of iron: the fat and nutrient malabsorption of chronic pancreatic insufficiency in hereditary pancreatitis impairs iron uptake, contributing to anemia.
 - `connects-to` → **[Wound Healing](../wound-healing/README.md)** — Malnutrition and surgery hinder repair: the protein-energy and fat-soluble-vitamin malabsorption of hereditary pancreatitis, plus its repeated pancreatic operations, leave wounds slow to heal.
 - `connects-to` → **[Generalized Anxiety Disorder](../generalized-anxiety-disorder/README.md)** — Unrelenting pain and cancer risk breed worry: the recurrent severe abdominal pain, opioid dependence and lifelong pancreatic-cancer surveillance of hereditary pancreatitis foster chronic anxiety alongside depression.
+- `connects-to` → **[Respiratory System](../respiratory-system/README.md)** — Severe attacks flood the lungs: an acute pancreatitis flare in hereditary pancreatitis can cause pleural effusions and acute respiratory distress syndrome from the systemic inflammatory response.
+- `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — Leaked pancreatic enzymes mark the skin: severe pancreatitis causes the bruising of Cullen's and Grey-Turner's signs, and circulating lipase can produce a nodular pancreatic panniculitis.
+- `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — Enzyme release can inflame fat and joints: hereditary pancreatitis can cause the pancreatitis-panniculitis-polyarthritis syndrome, and chronic malabsorption of vitamin D weakens bone.
 
 [^whitcomb-1996-prss1]: Whitcomb DC, Gorry MC, Preston RA, et al. Hereditary pancreatitis is caused by a mutation in the cationic trypsinogen gene. *Nat Genet.* 1996;14(2):141-145. [doi:10.1038/ng1096-141](https://doi.org/10.1038/ng1096-141) · [PubMed 8841182](https://pubmed.ncbi.nlm.nih.gov/8841182/)
 [^lowenfels-2001-hp-pdac]: Lowenfels AB, Maisonneuve P, DiMagno EP, et al. Hereditary pancreatitis and the risk of pancreatic cancer. *J Natl Cancer Inst.* 2001;93(1):26-31. [doi:10.1093/jnci/93.1.26](https://doi.org/10.1093/jnci/93.1.26) · [PubMed 11136838](https://pubmed.ncbi.nlm.nih.gov/11136838/)
