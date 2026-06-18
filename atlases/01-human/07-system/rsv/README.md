@@ -210,6 +210,15 @@ cross_links:
   - target: 01-human/07-system/renal-system
     relation: connects-to
     note: "Severe disease threatens the kidneys: dehydration from poor feeding and the hypoxia and sepsis of severe RSV can cause acute kidney injury, especially in infants and frail older adults."
+  - target: 01-human/07-system/endocrine-system
+    relation: connects-to
+    note: "It can drop the blood sodium: severe RSV bronchiolitis is a recognised cause of SIADH with hyponatraemia in infants, requiring careful fluid management during hospital care."
+  - target: 01-human/07-system/musculoskeletal-system
+    relation: connects-to
+    note: "It can inflame the muscles: like other respiratory viruses, RSV causes myalgia, and in children benign acute viral myositis with calf pain and raised creatine kinase can follow infection."
+  - target: 01-human/07-system/integumentary-system
+    relation: connects-to
+    note: "Distress shows on the skin: in severe infant bronchiolitis RSV causes perioral and peripheral cyanosis with mottled, poorly-perfused skin, visible warning signs of respiratory failure."
 ---
 
 # RSV
@@ -418,3 +427,6 @@ Radiological findings: Hyperinflation, peribronchial thickening, occasional atel
 - `connects-to` → **[Cardiovascular System](../cardiovascular-system/README.md)** — Like influenza, it strains the heart: RSV infection in older adults triggers acute cardiovascular events and decompensation, precipitating arrhythmias, heart failure and myocardial infarction.
 - `connects-to` → **[Digestive System](../digestive-system/README.md)** — Bronchiolitis stops infants feeding: the tachypnoea and nasal congestion of RSV make young babies unable to feed, causing poor intake and dehydration that often drives the need for hospital admission.
 - `connects-to` → **[Renal System](../renal-system/README.md)** — Severe disease threatens the kidneys: dehydration from poor feeding and the hypoxia and sepsis of severe RSV can cause acute kidney injury, especially in infants and frail older adults.
+- `connects-to` → **[Endocrine System](../endocrine-system/README.md)** — It can drop the blood sodium: severe RSV bronchiolitis is a recognised cause of SIADH with hyponatraemia in infants, requiring careful fluid management during hospital care.
+- `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — It can inflame the muscles: like other respiratory viruses, RSV causes myalgia, and in children benign acute viral myositis with calf pain and raised creatine kinase can follow infection.
+- `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — Distress shows on the skin: in severe infant bronchiolitis RSV causes perioral and peripheral cyanosis with mottled, poorly-perfused skin, visible warning signs of respiratory failure.

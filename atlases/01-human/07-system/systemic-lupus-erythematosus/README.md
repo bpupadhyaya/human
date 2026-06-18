@@ -214,6 +214,15 @@ cross_links:
   - target: 01-human/07-system/digestive-system
     relation: connects-to
     note: "Lupus can inflame the gut: it causes mesenteric vasculitis with lupus enteritis, serositis with peritoneal effusions, and autoimmune hepatitis and pancreatitis across the digestive tract."
+  - target: 01-human/07-system/immune-system
+    relation: connects-to
+    note: "It is the archetypal systemic autoimmune disease: ANA and anti-dsDNA antibodies, immune-complex deposition, complement consumption and a type I interferon signature drive its multi-organ damage."
+  - target: 01-human/07-system/musculoskeletal-system
+    relation: connects-to
+    note: "It attacks joints and muscle without eroding them: lupus causes a non-erosive Jaccoud's arthropathy and myositis, while corticosteroid therapy adds avascular necrosis of bone."
+  - target: 01-human/07-system/cardiovascular-system
+    relation: connects-to
+    note: "It inflames every layer of the heart: lupus causes pericarditis, myocarditis and Libman-Sacks non-bacterial endocarditis, on top of the accelerated atherosclerosis it drives."
 ---
 
 # Systemic Lupus Erythematosus
@@ -403,6 +412,9 @@ Highly polygenic disease with >100 susceptibility loci; heritability ~66%:
 - `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — The skin is a defining battleground: SLE produces the malar butterfly rash, scarring discoid lesions, photosensitivity and alopecia, cutaneous signs that are among its diagnostic hallmarks.
 - `connects-to` → **[Varicella-Zoster Virus](../../../02-pathogen/01-viruses/varicella-zoster-virus/README.md)** — Its immunosuppression reawakens shingles: the steroids, mycophenolate, rituximab and belimumab used for lupus deplete antiviral immunity, making herpes-zoster reactivation notably common.
 - `connects-to` → **[Digestive System](../digestive-system/README.md)** — Lupus can inflame the gut: it causes mesenteric vasculitis with lupus enteritis, serositis with peritoneal effusions, and autoimmune hepatitis and pancreatitis across the digestive tract.
+- `connects-to` → **[Immune System](../immune-system/README.md)** — It is the archetypal systemic autoimmune disease: ANA and anti-dsDNA antibodies, immune-complex deposition, complement consumption and a type I interferon signature drive its multi-organ damage.
+- `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — It attacks joints and muscle without eroding them: lupus causes a non-erosive Jaccoud's arthropathy and myositis, while corticosteroid therapy adds avascular necrosis of bone.
+- `connects-to` → **[Cardiovascular System](../cardiovascular-system/README.md)** — It inflames every layer of the heart: lupus causes pericarditis, myocarditis and Libman-Sacks non-bacterial endocarditis, on top of the accelerated atherosclerosis it drives.
 
 [^tsokos-2011-sle-review]: Tsokos GC. Systemic lupus erythematosus. *N Engl J Med.* 2011;365(22):2110-2121. [doi:10.1056/NEJMra1100359](https://doi.org/10.1056/NEJMra1100359) · [PubMed 22129253](https://pubmed.ncbi.nlm.nih.gov/22129253/)
 [^furie-2011-belimumab]: Furie R, Petri M, Zamani O, et al. A phase III, randomized, placebo-controlled study of belimumab, a monoclonal antibody that inhibits B lymphocyte stimulator, in patients with systemic lupus erythematosus. *Arthritis Rheum.* 2011;63(12):3918-3930. [doi:10.1002/art.30613](https://doi.org/10.1002/art.30613) · [PubMed 22127708](https://pubmed.ncbi.nlm.nih.gov/22127708/)
