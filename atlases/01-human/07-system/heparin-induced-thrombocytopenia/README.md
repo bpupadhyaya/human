@@ -232,6 +232,15 @@ cross_links:
   - target: 01-human/07-system/musculoskeletal-system
     relation: connects-to
     note: "It can cost a limb: arterial thrombosis in HIT causes acute limb ischaemia and gangrene that may require amputation, the 'white clot syndrome'."
+  - target: 03-medicine/01-modern/09-hematology/warfarin
+    relation: connects-to
+    note: "Warfarin is dangerous early in it: starting warfarin during acute HIT can precipitate venous limb gangrene by dropping protein C, so a non-heparin anticoagulant is used first."
+  - target: 01-human/07-system/ahus
+    relation: connects-to
+    note: "A fellow antibody-driven thrombotic disorder: like atypical HUS, HIT is an antibody-mediated prothrombotic state, here from anti-PF4-heparin immune complexes that activate platelets."
+  - target: 02-pathogen/02-bacteria/staphylococcus-aureus
+    relation: connects-to
+    note: "Infection can trigger anti-PF4 antibodies: 'spontaneous' or autoimmune HIT, occurring without heparin after infection or orthopaedic surgery, has been linked to bacterial triggers such as Staphylococcus aureus."
 ---
 
 # Heparin-Induced Thrombocytopenia
@@ -447,6 +456,9 @@ Platelet consumption → thrombocytopenia (paradox: clotting despite low platele
 - `connects-to` → **[Nervous System](../nervous-system/README.md)** — It clots the brain's vessels: cerebral venous sinus thrombosis and arterial stroke are serious neurological thrombotic complications of HIT.
 - `connects-to` → **[Renal System](../renal-system/README.md)** — It clots the renal vessels: renal vein and renal artery thrombosis in HIT cause acute kidney injury.
 - `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — It can cost a limb: arterial thrombosis in HIT causes acute limb ischaemia and gangrene that may require amputation, the 'white clot syndrome'.
+- `connects-to` → **[Warfarin](../../../03-medicine/01-modern/09-hematology/warfarin/README.md)** — Warfarin is dangerous early in it: starting warfarin during acute HIT can precipitate venous limb gangrene by dropping protein C, so a non-heparin anticoagulant is used first.
+- `connects-to` → **[aHUS](../ahus/README.md)** — A fellow antibody-driven thrombotic disorder: like atypical HUS, HIT is an antibody-mediated prothrombotic state, here from anti-PF4-heparin immune complexes that activate platelets.
+- `connects-to` → **[Staphylococcus aureus](../../../02-pathogen/02-bacteria/staphylococcus-aureus/README.md)** — Infection can trigger anti-PF4 antibodies: 'spontaneous' or autoimmune HIT, occurring without heparin after infection or orthopaedic surgery, has been linked to bacterial triggers such as Staphylococcus aureus.
 
 [^warkentin-2007-hit-review]: Warkentin TE, Greinacher A. Heparin-induced thrombocytopenia: recognition, treatment, and prevention. *Chest.* 2004;126(3 Suppl):311S-337S. [doi:10.1378/chest.126.3_suppl.311S](https://doi.org/10.1378/chest.126.3_suppl.311S) · [PubMed 15383477](https://pubmed.ncbi.nlm.nih.gov/15383477/)
 [^greinacher-2021-vitt-nejm]: Greinacher A, Thiele T, Warkentin TE, et al. Thrombotic thrombocytopenia after ChAdOx1 nCov-19 vaccination. *N Engl J Med.* 2021;384(22):2092-2101. [doi:10.1056/NEJMoa2104840](https://doi.org/10.1056/NEJMoa2104840) · [PubMed 33835769](https://pubmed.ncbi.nlm.nih.gov/33835769/)

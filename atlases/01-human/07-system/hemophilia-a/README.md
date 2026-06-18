@@ -232,6 +232,15 @@ cross_links:
   - target: 03-medicine/01-modern/12-anti-inflammatory/ibuprofen
     relation: connects-to
     note: "A common painkiller is off-limits: NSAIDs like ibuprofen are avoided in hemophilia because they impair platelet function and irritate the gut, compounding the bleeding risk."
+  - target: 03-medicine/01-modern/13-cancer/targeted-therapy
+    relation: connects-to
+    note: "New drugs bypass the missing factor: the bispecific antibody emicizumab mimics factor VIII, and gene therapy delivering an FVIII gene now offers durable correction in haemophilia A."
+  - target: 01-human/07-system/lymphatic-system
+    relation: connects-to
+    note: "A tragic legacy in the lymphoid system: before viral inactivation, pooled factor concentrates transmitted HIV and hepatitis C to many haemophilia patients, with downstream AIDS-related lymphomas."
+  - target: 02-pathogen/05-prions/prion-protein
+    relation: connects-to
+    note: "A feared transfusion legacy: plasma-derived clotting products carried a theoretical variant-CJD prion risk in the UK, prompting recipient notification and a shift to recombinant factor VIII."
 ---
 
 # Hemophilia A
@@ -424,6 +433,9 @@ FVIII is a critical **amplifier** of the coagulation cascade at the junction bet
 - `connects-to` → **[Respiratory System](../respiratory-system/README.md)** — Bleeding can block the airway: retropharyngeal and neck haematomas in hemophilia A can obstruct the airway — a bleeding emergency — and haemothorax can occur with chest trauma.
 - `connects-to` → **[Cardiovascular System](../cardiovascular-system/README.md)** — Longer life brings a treatment dilemma: as patients with hemophilia A now age into coronary disease and atrial fibrillation, the antiplatelet and anticoagulant therapy they need is hazardous given their bleeding tendency.
 - `connects-to` → **[Ibuprofen](../../../03-medicine/01-modern/12-anti-inflammatory/ibuprofen/README.md)** — A common painkiller is off-limits: NSAIDs like ibuprofen are avoided in hemophilia because they impair platelet function and irritate the gut, compounding the bleeding risk.
+- `connects-to` → **[Targeted Therapy](../../../03-medicine/01-modern/13-cancer/targeted-therapy/README.md)** — New drugs bypass the missing factor: the bispecific antibody emicizumab mimics factor VIII, and gene therapy delivering an FVIII gene now offers durable correction in haemophilia A.
+- `connects-to` → **[Lymphatic System](../lymphatic-system/README.md)** — A tragic legacy in the lymphoid system: before viral inactivation, pooled factor concentrates transmitted HIV and hepatitis C to many haemophilia patients, with downstream AIDS-related lymphomas.
+- `connects-to` → **[Prion Protein](../../../02-pathogen/05-prions/prion-protein/README.md)** — A feared transfusion legacy: plasma-derived clotting products carried a theoretical variant-CJD prion risk in the UK, prompting recipient notification and a shift to recombinant factor VIII.
 
 [^oldenburg-2017-emicizumab-haven1]: Oldenburg J, Mahlangu JN, Kim B, et al. Emicizumab prophylaxis in hemophilia A with inhibitors. *N Engl J Med.* 2017;377(9):809-818. [doi:10.1056/NEJMoa1703068](https://doi.org/10.1056/NEJMoa1703068) · [PubMed 28691557](https://pubmed.ncbi.nlm.nih.gov/28691557/)
 [^mahlangu-2018-emicizumab-haven3]: Mahlangu J, Oldenburg J, Paz-Priel I, et al. Emicizumab prophylaxis in patients who have hemophilia A without inhibitors. *N Engl J Med.* 2018;379(9):811-822. [doi:10.1056/NEJMoa1803550](https://doi.org/10.1056/NEJMoa1803550) · [PubMed 30157389](https://pubmed.ncbi.nlm.nih.gov/30157389/)
