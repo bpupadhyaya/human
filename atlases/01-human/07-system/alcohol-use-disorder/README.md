@@ -223,6 +223,15 @@ cross_links:
   - target: 01-human/07-system/immune-system
     relation: connects-to
     note: "It disarms host defence: alcohol impairs neutrophil and lymphocyte function and ciliary clearance, leaving people with alcohol use disorder prone to pneumonia, tuberculosis and severe infection."
+  - target: 01-human/07-system/cardiovascular-system
+    relation: connects-to
+    note: "It disturbs the heart's rhythm and muscle: binge drinking triggers 'holiday heart' atrial fibrillation, and chronic use causes a dilated alcoholic cardiomyopathy alongside the hypertension it drives."
+  - target: 01-human/07-system/musculoskeletal-system
+    relation: connects-to
+    note: "It wastes muscle and kills bone: acute and chronic alcoholic myopathy weaken proximal muscles, and alcohol is a leading cause of avascular necrosis of the femoral head."
+  - target: 01-human/07-system/integumentary-system
+    relation: connects-to
+    note: "Liver damage shows on the skin: spider naevi, palmar erythema and telangiectasia of alcohol-related liver disease appear on the skin, and alcohol can trigger porphyria cutanea tarda and psoriasis."
 ---
 
 # Alcohol Use Disorder
@@ -471,6 +480,9 @@ Prenatal alcohol exposure → leading preventable cause of intellectual disabili
 - `connects-to` → **[Digestive System](../digestive-system/README.md)** — It ravages the gut from end to end: alcohol causes gastritis and Mallory-Weiss tears, acute and chronic pancreatitis, and the alcoholic hepatitis and cirrhosis with varices that define end-stage liver disease.
 - `connects-to` → **[Endocrine System](../endocrine-system/README.md)** — It disrupts the hormones and fuel control: chronic alcohol causes hypogonadism, a pseudo-Cushing's state and dangerous hypoglycaemia, and pancreatitis can destroy the islets into diabetes.
 - `connects-to` → **[Immune System](../immune-system/README.md)** — It disarms host defence: alcohol impairs neutrophil and lymphocyte function and ciliary clearance, leaving people with alcohol use disorder prone to pneumonia, tuberculosis and severe infection.
+- `connects-to` → **[Cardiovascular System](../cardiovascular-system/README.md)** — It disturbs the heart's rhythm and muscle: binge drinking triggers 'holiday heart' atrial fibrillation, and chronic use causes a dilated alcoholic cardiomyopathy alongside the hypertension it drives.
+- `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — It wastes muscle and kills bone: acute and chronic alcoholic myopathy weaken proximal muscles, and alcohol is a leading cause of avascular necrosis of the femoral head.
+- `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — Liver damage shows on the skin: spider naevi, palmar erythema and telangiectasia of alcohol-related liver disease appear on the skin, and alcohol can trigger porphyria cutanea tarda and psoriasis.
 
 [^koob-2013-addiction-neuroscience]: Koob GF, Volkow ND. Neurocircuitry of addiction. *Neuropsychopharmacology.* 2010;35(1):217-238. [doi:10.1038/npp.2009.110](https://doi.org/10.1038/npp.2009.110) · [PubMed 19710631](https://pubmed.ncbi.nlm.nih.gov/19710631/)
 [^anton-2006-combine]: Anton RF, O'Malley SS, Ciraulo DA, et al. Combined pharmacotherapies and behavioral interventions for alcohol dependence: the COMBINE study. *JAMA.* 2006;295(17):2003-2017. [doi:10.1001/jama.295.17.2003](https://doi.org/10.1001/jama.295.17.2003) · [PubMed 16670409](https://pubmed.ncbi.nlm.nih.gov/16670409/)

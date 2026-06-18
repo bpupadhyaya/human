@@ -214,6 +214,15 @@ cross_links:
   - target: 02-pathogen/01-viruses/varicella-zoster-virus
     relation: connects-to
     note: "Profound immune suppression reawakens shingles: the prolonged chemotherapy and stem-cell transplant for ALL deplete T-cell immunity, allowing latent or primary varicella-zoster to cause severe disease."
+  - target: 01-human/07-system/lymphatic-system
+    relation: connects-to
+    note: "It arises in and fills the lymphoid organs: ALL infiltrates lymph nodes, spleen and thymus, with T-cell ALL classically forming an anterior mediastinal mass alongside hepatosplenomegaly."
+  - target: 01-human/07-system/renal-system
+    relation: connects-to
+    note: "Treatment can flood and block the kidney: tumour lysis syndrome releases urate and potassium causing acute kidney injury, and leukemic cells can directly infiltrate the kidneys."
+  - target: 01-human/07-system/integumentary-system
+    relation: connects-to
+    note: "It marks the skin: thrombocytopenia causes petechiae and bruising, and leukemic infiltration produces leukemia cutis and, occasionally, chloromas."
 ---
 
 # Acute Lymphoblastic Leukemia
@@ -419,6 +428,9 @@ Childhood ALL survivors (now majority of patients): neurocognitive impairment (M
 - `connects-to` → **[Endocrine System](../endocrine-system/README.md)** — Its therapy disturbs many glands: the high-dose steroids of ALL cause hyperglycaemia and osteonecrosis, asparaginase can inflame the pancreas, and cranial irradiation damages the pituitary and growth in children.
 - `connects-to` → **[Digestive System](../digestive-system/README.md)** — Its drugs injure the gut and liver: asparaginase causes acute pancreatitis and hepatotoxicity, and chemotherapy brings mucositis and the dangerous neutropenic colitis (typhlitis).
 - `connects-to` → **[Varicella-Zoster Virus](../../../02-pathogen/01-viruses/varicella-zoster-virus/README.md)** — Profound immune suppression reawakens shingles: the prolonged chemotherapy and stem-cell transplant for ALL deplete T-cell immunity, allowing latent or primary varicella-zoster to cause severe disease.
+- `connects-to` → **[Lymphatic System](../lymphatic-system/README.md)** — It arises in and fills the lymphoid organs: ALL infiltrates lymph nodes, spleen and thymus, with T-cell ALL classically forming an anterior mediastinal mass alongside hepatosplenomegaly.
+- `connects-to` → **[Renal System](../renal-system/README.md)** — Treatment can flood and block the kidney: tumour lysis syndrome releases urate and potassium causing acute kidney injury, and leukemic cells can directly infiltrate the kidneys.
+- `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — It marks the skin: thrombocytopenia causes petechiae and bruising, and leukemic infiltration produces leukemia cutis and, occasionally, chloromas.
 
 [^pui-2018-all-cure]: Pui CH, Yang JJ, Bhakta N, et al. Global efforts toward the cure of childhood acute lymphoblastic leukemia. *Lancet Child Adolesc Health.* 2018;2(6):440-454. [doi:10.1016/S2352-4642(18)30066-X](https://doi.org/10.1016/S2352-4642(18)30066-X) · [PubMed 29976322](https://pubmed.ncbi.nlm.nih.gov/29976322/)
 [^maude-2018-tisagenlecleucel]: Maude SL, Laetsch TW, Buechner J, et al. Tisagenlecleucel in children and young adults with B-cell lymphoblastic leukemia. *N Engl J Med.* 2018;378(5):439-448. [doi:10.1056/NEJMoa1709866](https://doi.org/10.1056/NEJMoa1709866) · [PubMed 29385370](https://pubmed.ncbi.nlm.nih.gov/29385370/)
