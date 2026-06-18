@@ -213,6 +213,15 @@ cross_links:
   - target: 01-human/07-system/generalized-anxiety-disorder
     relation: connects-to
     note: "A painful, visible, lifelong disease breeds worry: the unpredictable flares, skin and joint disfigurement and disability of PsA foster chronic health anxiety alongside its well-documented depression."
+  - target: 01-human/07-system/digestive-system
+    relation: connects-to
+    note: "Its drugs and gut inflammation trouble the digestive tract: NSAIDs cause gastritis, methotrexate and leflunomide are hepatotoxic, and PsA shares the subclinical gut inflammation of the spondyloarthritis spectrum."
+  - target: 01-human/07-system/respiratory-system
+    relation: connects-to
+    note: "Its therapies reach the lungs: methotrexate can cause a hypersensitivity pneumonitis, and the biologics for PsA raise the risk of respiratory infections including reactivated tuberculosis."
+  - target: 01-human/07-system/wound-healing
+    relation: connects-to
+    note: "Immunosuppression slows surgical healing: the methotrexate and biologics that control PsA blunt the immune and inflammatory steps of repair, so wounds and joint surgery heal more slowly and infect more readily."
 ---
 
 # Psoriatic Arthritis
@@ -425,6 +434,9 @@ Risankizumab (anti-IL-23p19) **failed primary endpoints** in the SURPASS trial f
 - `connects-to` → **[Varicella-Zoster Virus](../../../02-pathogen/01-viruses/varicella-zoster-virus/README.md)** — Its immunomodulatory drugs reawaken shingles: the TNF, IL-17 and especially JAK inhibitors used for PsA blunt antiviral immunity and raise the risk of herpes-zoster reactivation.
 - `connects-to` → **[Chronic Kidney Disease](../ckd/README.md)** — Long-term NSAIDs wear on the kidneys: the chronic non-steroidal anti-inflammatory use that controls PsA joint pain can cause analgesic nephropathy and a gradual decline in kidney function.
 - `connects-to` → **[Generalized Anxiety Disorder](../generalized-anxiety-disorder/README.md)** — A painful, visible, lifelong disease breeds worry: the unpredictable flares, skin and joint disfigurement and disability of PsA foster chronic health anxiety alongside its well-documented depression.
+- `connects-to` → **[Digestive System](../digestive-system/README.md)** — Its drugs and gut inflammation trouble the digestive tract: NSAIDs cause gastritis, methotrexate and leflunomide are hepatotoxic, and PsA shares the subclinical gut inflammation of the spondyloarthritis spectrum.
+- `connects-to` → **[Respiratory System](../respiratory-system/README.md)** — Its therapies reach the lungs: methotrexate can cause a hypersensitivity pneumonitis, and the biologics for PsA raise the risk of respiratory infections including reactivated tuberculosis.
+- `connects-to` → **[Wound Healing](../wound-healing/README.md)** — Immunosuppression slows surgical healing: the methotrexate and biologics that control PsA blunt the immune and inflammatory steps of repair, so wounds and joint surgery heal more slowly and infect more readily.
 
 [^ritchlin-2017-psa-review]: Ritchlin CT, Colbert RA, Gladman DD. Psoriatic arthritis. *N Engl J Med.* 2017;376(10):957-970. [doi:10.1056/NEJMra1505557](https://doi.org/10.1056/NEJMra1505557) · [PubMed 28273019](https://pubmed.ncbi.nlm.nih.gov/28273019/)
 [^mease-2015-secukinumab-psa-future2]: Mease PJ, et al. Secukinumab inhibition of interleukin-17A in patients with psoriatic arthritis. *N Engl J Med.* 2015;373(14):1329-1339. [doi:10.1056/NEJMoa1503317](https://doi.org/10.1056/NEJMoa1503317) · [PubMed 26422723](https://pubmed.ncbi.nlm.nih.gov/26422723/)

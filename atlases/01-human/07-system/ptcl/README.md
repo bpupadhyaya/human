@@ -205,6 +205,15 @@ cross_links:
   - target: 01-human/07-system/generalized-anxiety-disorder
     relation: connects-to
     note: "An aggressive, relapsing lymphoma breeds worry: the poor prognosis, high relapse rate and intensive therapy of PTCL foster chronic health anxiety alongside the depression it brings."
+  - target: 01-human/07-system/digestive-system
+    relation: connects-to
+    note: "One subtype erupts in the bowel: enteropathy-associated T-cell lymphoma arises in the small intestine of coeliac disease, causing pain, obstruction, bleeding and a high risk of perforation."
+  - target: 01-human/07-system/integumentary-system
+    relation: connects-to
+    note: "T-cell lymphomas often involve the skin: PTCL subtypes infiltrate the skin with plaques, nodules and ulcers, and angioimmunoblastic disease causes a widespread paraneoplastic rash."
+  - target: 01-human/07-system/nervous-system
+    relation: connects-to
+    note: "It reaches the nervous system: PTCL can involve the central nervous system and meninges, and its chemotherapy adds peripheral neuropathy, complicating its aggressive course."
 ---
 
 # Peripheral T-cell Lymphoma
@@ -412,6 +421,9 @@ Aggressive presentation; generalized lymphadenopathy; extranodal involvement (~6
 - `connects-to` → **[Varicella-Zoster Virus](../../../02-pathogen/01-viruses/varicella-zoster-virus/README.md)** — Chemotherapy reawakens shingles: the CHOP/CHOEP and salvage regimens for PTCL deplete T-cell immunity, allowing latent varicella-zoster to reactivate, so antiviral prophylaxis is standard.
 - `connects-to` → **[Chronic Kidney Disease](../ckd/README.md)** — Bulky disease and chemo strain the kidneys: rapid tumour lysis from treating a high-burden PTCL, plus nephrotoxic agents, can cause acute kidney injury that may settle into chronic impairment.
 - `connects-to` → **[Generalized Anxiety Disorder](../generalized-anxiety-disorder/README.md)** — An aggressive, relapsing lymphoma breeds worry: the poor prognosis, high relapse rate and intensive therapy of PTCL foster chronic health anxiety alongside the depression it brings.
+- `connects-to` → **[Digestive System](../digestive-system/README.md)** — One subtype erupts in the bowel: enteropathy-associated T-cell lymphoma arises in the small intestine of coeliac disease, causing pain, obstruction, bleeding and a high risk of perforation.
+- `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — T-cell lymphomas often involve the skin: PTCL subtypes infiltrate the skin with plaques, nodules and ulcers, and angioimmunoblastic disease causes a widespread paraneoplastic rash.
+- `connects-to` → **[Nervous System](../nervous-system/README.md)** — It reaches the nervous system: PTCL can involve the central nervous system and meninges, and its chemotherapy adds peripheral neuropathy, complicating its aggressive course.
 
 ---
 
