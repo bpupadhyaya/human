@@ -208,6 +208,15 @@ cross_links:
   - target: 01-human/07-system/wound-healing
     relation: connects-to
     note: "Shock and microthrombi starve the skin: sepsis-driven hypoperfusion, vasopressors and disseminated coagulation cause tissue ischemia and necrosis — even limb gangrene — leaving major wounds that heal poorly."
+  - target: 01-human/07-system/immune-system
+    relation: connects-to
+    note: "It is a dysregulated immune response by definition: sepsis is the body's overwhelming, disordered reaction to infection — a hyperinflammatory surge followed by immunoparalysis — that injures its own organs."
+  - target: 01-human/07-system/respiratory-system
+    relation: connects-to
+    note: "Its commonest organ failure is the lung: the inflammatory capillary leak of sepsis floods the alveoli as acute respiratory distress syndrome, a leading cause of its mortality."
+  - target: 01-human/07-system/digestive-system
+    relation: connects-to
+    note: "The gut is both motor and victim: sepsis breaks the intestinal barrier, letting bacteria and toxins translocate to amplify it, while hypoperfusion causes ileus, stress ulcers and ischaemic hepatitis."
 ---
 
 # Sepsis
@@ -377,6 +386,9 @@ Sepsis is not localized to one system — it manifests as dysfunction across mul
 - `connects-to` → **[PTSD](../ptsd/README.md)** — Surviving the ICU can leave trauma: the delirium, ventilation and life-threatening course of severe sepsis frequently leave survivors with post-traumatic stress, a core part of post-intensive-care syndrome.
 - `connects-to` → **[Neuropathic Pain](../neuropathic-pain/README.md)** — Critical illness damages the nerves: severe sepsis causes critical-illness polyneuropathy and myopathy, leaving lasting weakness and neuropathic pain that prolong recovery for months.
 - `connects-to` → **[Wound Healing](../wound-healing/README.md)** — Shock and microthrombi starve the skin: sepsis-driven hypoperfusion, vasopressors and disseminated coagulation cause tissue ischemia and necrosis — even limb gangrene — leaving major wounds that heal poorly.
+- `connects-to` → **[Immune System](../immune-system/README.md)** — It is a dysregulated immune response by definition: sepsis is the body's overwhelming, disordered reaction to infection — a hyperinflammatory surge followed by immunoparalysis — that injures its own organs.
+- `connects-to` → **[Respiratory System](../respiratory-system/README.md)** — Its commonest organ failure is the lung: the inflammatory capillary leak of sepsis floods the alveoli as acute respiratory distress syndrome, a leading cause of its mortality.
+- `connects-to` → **[Digestive System](../digestive-system/README.md)** — The gut is both motor and victim: sepsis breaks the intestinal barrier, letting bacteria and toxins translocate to amplify it, while hypoperfusion causes ileus, stress ulcers and ischaemic hepatitis.
 - `treated-by` → **[Vancomycin](../../../03-medicine/01-modern/06-antimicrobial/vancomycin/README.md)** — First-line empiric IV therapy for MRSA bacteremia and gram-positive sepsis; added to beta-lactam empiric regimens when MRSA risk is elevated; AUC/MIC-guided dosing (IDSA 2021); MIC ≤1 mg/L required for endocarditis; daptomycin alternative for high MIC.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*

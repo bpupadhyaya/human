@@ -207,6 +207,15 @@ cross_links:
   - target: 01-human/07-system/major-depressive-disorder
     relation: connects-to
     note: "Chronic breathlessness wears on mood: the activity limitation, fear of suffocation and poor sleep of chronic respiratory disease give conditions like COPD high rates of depression."
+  - target: 01-human/07-system/digestive-system
+    relation: connects-to
+    note: "They share an origin and a crossroads: lungs and gut both arise from the embryonic foregut and meet at the pharynx, so swallowing disorders cause aspiration and a gut-lung axis links the two."
+  - target: 01-human/07-system/renal-system
+    relation: connects-to
+    note: "Lungs and kidneys jointly balance acid: the respiratory and renal systems co-regulate pH by controlling CO2 and bicarbonate, and pulmonary-renal syndromes like Goodpasture attack both at once."
+  - target: 01-human/07-system/musculoskeletal-system
+    relation: connects-to
+    note: "Muscle and rib cage are its pump: the diaphragm and intercostals power ventilation within a bony thorax, so neuromuscular weakness and chest-wall deformity cause restrictive respiratory failure."
 taxonomy:
   uberon: "UBERON:0001004"
   fma: "FMA:7161"
@@ -351,6 +360,9 @@ The mucociliary escalator (ciliated cells + goblet cell mucus) continuously clea
 - **Connects-to** → [Heart Failure](../heart-failure/README.md): The lungs and right heart share one circuit: chronic lung disease that stiffens the pulmonary vasculature overloads the right ventricle into cor pulmonale, a respiratory route to heart failure.
 - **Connects-to** → [Venous Thromboembolism](../venous-thromboembolism/README.md): Its great emergency is a lodged clot: pulmonary embolism, a venous thromboembolism that travels to the lung arteries, abruptly blocks gas exchange and strains the right heart — a leading cause of sudden respiratory collapse.
 - **Connects-to** → [Major Depressive Disorder](../major-depressive-disorder/README.md): Chronic breathlessness wears on mood: the activity limitation, fear of suffocation and poor sleep of chronic respiratory disease give conditions like COPD high rates of depression.
+- **Connects-to** → [Digestive System](../digestive-system/README.md): They share an origin and a crossroads: lungs and gut both arise from the embryonic foregut and meet at the pharynx, so swallowing disorders cause aspiration and a gut-lung axis links the two.
+- **Connects-to** → [Renal System](../renal-system/README.md): Lungs and kidneys jointly balance acid: the respiratory and renal systems co-regulate pH by controlling CO2 and bicarbonate, and pulmonary-renal syndromes like Goodpasture attack both at once.
+- **Connects-to** → [Musculoskeletal System](../musculoskeletal-system/README.md): Muscle and rib cage are its pump: the diaphragm and intercostals power ventilation within a bony thorax, so neuromuscular weakness and chest-wall deformity cause restrictive respiratory failure.
 - `prevented-by` → **[PCV13 (Prevnar 13)](../../../../04-vaccine/08-conjugate/pcv13/README.md)** — CAPiTA RCT (N=84,496 adults ≥65): PCV13 achieved 45.6% VE against vaccine-type CAP and 75% VE against invasive pneumococcal disease; prevents pneumococcal pneumonia, the leading infectious cause of respiratory hospitalisation in older adults.
 
 ## Pathology
