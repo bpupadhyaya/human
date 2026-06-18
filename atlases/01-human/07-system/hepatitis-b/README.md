@@ -228,6 +228,15 @@ cross_links:
   - target: 01-human/07-system/endocrine-system
     relation: connects-to
     note: "Advancing liver disease unsettles hormones: hepatitis B cirrhosis causes hepatogenous diabetes from insulin resistance and hypogonadism from impaired hormone metabolism."
+  - target: 03-medicine/01-modern/11-biologics/adalimumab
+    relation: connects-to
+    note: "Anti-TNF biologics can reawaken it: drugs like adalimumab risk reactivating hepatitis B, so screening and antiviral prophylaxis are mandatory before starting them."
+  - target: 03-medicine/01-modern/02-respiratory/corticosteroids
+    relation: connects-to
+    note: "Steroids and chemotherapy reactivate it: hepatitis B can flare dangerously during high-dose corticosteroid or cytotoxic therapy, requiring pre-treatment screening and prophylactic antivirals."
+  - target: 01-human/07-system/respiratory-system
+    relation: connects-to
+    note: "Its vasculitis can reach the lungs: hepatitis-B-associated polyarteritis nodosa is a systemic vasculitis that, beyond the kidneys and gut, can rarely involve the pulmonary vessels."
 ---
 
 # Hepatitis B
@@ -433,3 +442,6 @@ HDV is a satellite RNA virus that requires HBsAg for virion assembly:
 - `connects-to` → **[Cardiovascular System](../cardiovascular-system/README.md)** — It is the classic cause of polyarteritis nodosa: hepatitis B drives this medium-vessel vasculitis that damages coronary, mesenteric and renal arteries and causes hypertension.
 - `connects-to` → **[Lymphatic System](../lymphatic-system/README.md)** — It drives lymphoma and lurks in the marrow: chronic hepatitis B raises the risk of B-cell lymphoma and reactivates dangerously during rituximab or chemotherapy, while cirrhosis brings splenomegaly.
 - `connects-to` → **[Endocrine System](../endocrine-system/README.md)** — Advancing liver disease unsettles hormones: hepatitis B cirrhosis causes hepatogenous diabetes from insulin resistance and hypogonadism from impaired hormone metabolism.
+- `connects-to` → **[Adalimumab](../../../03-medicine/01-modern/11-biologics/adalimumab/README.md)** — Anti-TNF biologics can reawaken it: drugs like adalimumab risk reactivating hepatitis B, so screening and antiviral prophylaxis are mandatory before starting them.
+- `connects-to` → **[Corticosteroids](../../../03-medicine/01-modern/02-respiratory/corticosteroids/README.md)** — Steroids and chemotherapy reactivate it: hepatitis B can flare dangerously during high-dose corticosteroid or cytotoxic therapy, requiring pre-treatment screening and prophylactic antivirals.
+- `connects-to` → **[Respiratory System](../respiratory-system/README.md)** — Its vasculitis can reach the lungs: hepatitis-B-associated polyarteritis nodosa is a systemic vasculitis that, beyond the kidneys and gut, can rarely involve the pulmonary vessels.

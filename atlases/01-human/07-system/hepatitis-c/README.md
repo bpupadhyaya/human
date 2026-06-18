@@ -228,6 +228,15 @@ cross_links:
   - target: 01-human/07-system/musculoskeletal-system
     relation: connects-to
     note: "It aches the joints and muscles: hepatitis C commonly causes arthralgia and a non-erosive arthritis, along with myalgia, as extrahepatic manifestations."
+  - target: 01-human/07-system/respiratory-system
+    relation: connects-to
+    note: "Its cryoglobulins can scar the lungs: hepatitis-C-associated mixed cryoglobulinaemia can cause interstitial lung disease and pulmonary vasculitis among its extrahepatic effects."
+  - target: 03-medicine/01-modern/02-respiratory/corticosteroids
+    relation: connects-to
+    note: "Steroids treat its vasculitis: corticosteroids, with rituximab and antivirals, control the cryoglobulinaemic vasculitis that hepatitis C drives through chronic B-cell stimulation."
+  - target: 03-medicine/01-modern/11-biologics/adalimumab
+    relation: connects-to
+    note: "Unlike hepatitis B, it tolerates biologics: anti-TNF drugs like adalimumab are relatively safe in chronic hepatitis C and do not reactivate it as they do hepatitis B, though monitoring continues."
 ---
 
 # Hepatitis C
@@ -424,3 +433,6 @@ HCV cirrhosis → HCC risk 1–5% per year (annual ultrasound surveillance ± AF
 - `connects-to` → **[Lymphatic System](../lymphatic-system/README.md)** — It drives B-cell lymphoma: chronic hepatitis C, through sustained B-cell stimulation, causes marginal-zone, follicular and diffuse large B-cell lymphomas, with lymphadenopathy.
 - `connects-to` → **[Nervous System](../nervous-system/README.md)** — It inflames the nerves and clouds the mind: cryoglobulinaemic vasculitis causes a painful peripheral neuropathy, and hepatitis C is associated with fatigue and cognitive 'brain fog'.
 - `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — It aches the joints and muscles: hepatitis C commonly causes arthralgia and a non-erosive arthritis, along with myalgia, as extrahepatic manifestations.
+- `connects-to` → **[Respiratory System](../respiratory-system/README.md)** — Its cryoglobulins can scar the lungs: hepatitis-C-associated mixed cryoglobulinaemia can cause interstitial lung disease and pulmonary vasculitis among its extrahepatic effects.
+- `connects-to` → **[Corticosteroids](../../../03-medicine/01-modern/02-respiratory/corticosteroids/README.md)** — Steroids treat its vasculitis: corticosteroids, with rituximab and antivirals, control the cryoglobulinaemic vasculitis that hepatitis C drives through chronic B-cell stimulation.
+- `connects-to` → **[Adalimumab](../../../03-medicine/01-modern/11-biologics/adalimumab/README.md)** — Unlike hepatitis B, it tolerates biologics: anti-TNF drugs like adalimumab are relatively safe in chronic hepatitis C and do not reactivate it as they do hepatitis B, though monitoring continues.
