@@ -229,6 +229,15 @@ cross_links:
   - target: 01-human/07-system/musculoskeletal-system
     relation: connects-to
     note: "Its strong systemic treatments cost the skeleton: prolonged corticosteroids and immunosuppressants used for severe refractory prurigo nodularis drive bone loss and muscle weakness."
+  - target: 01-human/07-system/renal-system
+    relation: connects-to
+    note: "Kidney failure drives the itch: chronic kidney disease causes uraemic pruritus that can evolve into prurigo nodularis, one of the strongest systemic associations of the condition."
+  - target: 03-medicine/01-modern/02-respiratory/corticosteroids
+    relation: connects-to
+    note: "First-line calms the nodule: potent topical and intralesional corticosteroids reduce the inflammation and itch of prurigo nodularis, used before stepping up to biologics like dupilumab."
+  - target: 01-human/07-system/cholangiocarcinoma
+    relation: connects-to
+    note: "Cholestatic itch can underlie it: bile-duct obstruction from cholangiocarcinoma causes intense cholestatic pruritus, and the relentless scratching it provokes can produce prurigo nodularis."
 ---
 
 # Prurigo Nodularis
@@ -382,6 +391,9 @@ PN affects approximately **72,000 patients** in the US; true prevalence is likel
 - `connects-to` → **[Digestive System](../digestive-system/README.md)** — Liver and bile drive the itch: cholestatic liver disease floods the skin with bile salts and pruritogens, a systemic cause of the relentless itch that builds prurigo nodularis.
 - `connects-to` → **[Cardiovascular System](../cardiovascular-system/README.md)** — Chronic inflammatory skin disease tracks with cardiovascular risk: like psoriasis and atopic dermatitis, severe prurigo nodularis is associated with a higher burden of cardiovascular and metabolic comorbidity.
 - `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — Its strong systemic treatments cost the skeleton: prolonged corticosteroids and immunosuppressants used for severe refractory prurigo nodularis drive bone loss and muscle weakness.
+- `connects-to` → **[Renal System](../renal-system/README.md)** — Kidney failure drives the itch: chronic kidney disease causes uraemic pruritus that can evolve into prurigo nodularis, one of the strongest systemic associations of the condition.
+- `connects-to` → **[Corticosteroids](../../../03-medicine/01-modern/02-respiratory/corticosteroids/README.md)** — First-line calms the nodule: potent topical and intralesional corticosteroids reduce the inflammation and itch of prurigo nodularis, used before stepping up to biologics like dupilumab.
+- `connects-to` → **[Cholangiocarcinoma](../cholangiocarcinoma/README.md)** — Cholestatic itch can underlie it: bile-duct obstruction from cholangiocarcinoma causes intense cholestatic pruritus, and the relentless scratching it provokes can produce prurigo nodularis.
 
 [^stander-2020-nemolizumab-pn]: Ständer S, Yosipovitch G, Legat FJ, et al. Trial of nemolizumab in moderate-to-severe prurigo nodularis. *N Engl J Med.* 2020;382(8):706-716. [doi:10.1056/NEJMoa1908316](https://doi.org/10.1056/NEJMoa1908316) · [PubMed 32053299](https://pubmed.ncbi.nlm.nih.gov/32053299/)
 [^briggs-2022-dupilumab-pn-liberty]: Briggs JN, Cho YY, Khanna R, et al. Dupilumab for prurigo nodularis: the LIBERTY-PN PRIME and PRIME2 trials. *N Engl J Med.* 2022;387(18):1683-1693. [doi:10.1056/NEJMoa2205093](https://doi.org/10.1056/NEJMoa2205093) · [PubMed 36300905](https://pubmed.ncbi.nlm.nih.gov/36300905/)

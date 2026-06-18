@@ -234,6 +234,15 @@ cross_links:
   - target: 02-pathogen/06-environmental/zoonosis
     relation: connects-to
     note: "Many emerging lung infections jump from animals: avian influenza, SARS, MERS and hantavirus reach the human respiratory tract from animal reservoirs, a recurring source of pandemics."
+  - target: 02-pathogen/02-bacteria/staphylococcus-aureus
+    relation: connects-to
+    note: "A major cause of pneumonia: Staphylococcus aureus, including MRSA, causes severe necrotising and post-influenza pneumonia and is a leading organism in ventilator-associated lung infection."
+  - target: 03-medicine/03-food/vitamin-d
+    relation: connects-to
+    note: "Nutrition shapes lung defence: vitamin D supports airway immunity, and deficiency is associated with more frequent respiratory infections and worse asthma control."
+  - target: 03-medicine/01-modern/04-cardio/ace-inhibitors
+    relation: connects-to
+    note: "A heart drug heard in the chest: ACE inhibitors raise bradykinin in the airway, causing the dry cough and rare angioedema that are among the commonest reasons patients stop them."
 taxonomy:
   uberon: "UBERON:0001004"
   fma: "FMA:7161"
@@ -387,6 +396,9 @@ The mucociliary escalator (ciliated cells + goblet cell mucus) continuously clea
 - **Connects-to** → [Mycobacterium tuberculosis](../../../02-pathogen/02-bacteria/mycobacterium-tuberculosis/README.md): The lung is its principal home: Mycobacterium tuberculosis is inhaled into the alveoli where it sets up the granulomatous infection that remains the world's leading infectious cause of death.
 - **Connects-to** → [SARS-CoV-2](../../../02-pathogen/01-viruses/sars-cov-2/README.md): A pandemic virus that targets the airways: SARS-CoV-2 enters through ACE2 on respiratory epithelium, causing pneumonia and diffuse alveolar damage in severe COVID-19.
 - **Connects-to** → [Zoonosis](../../../02-pathogen/06-environmental/zoonosis/README.md): Many emerging lung infections jump from animals: avian influenza, SARS, MERS and hantavirus reach the human respiratory tract from animal reservoirs, a recurring source of pandemics.
+- **Connects-to** → [Staphylococcus aureus](../../../02-pathogen/02-bacteria/staphylococcus-aureus/README.md): A major cause of pneumonia: Staphylococcus aureus, including MRSA, causes severe necrotising and post-influenza pneumonia and is a leading organism in ventilator-associated lung infection.
+- **Connects-to** → [Vitamin D](../../../03-medicine/03-food/vitamin-d/README.md): Nutrition shapes lung defence: vitamin D supports airway immunity, and deficiency is associated with more frequent respiratory infections and worse asthma control.
+- **Connects-to** → [ACE Inhibitors](../../../03-medicine/01-modern/04-cardio/ace-inhibitors/README.md): A heart drug heard in the chest: ACE inhibitors raise bradykinin in the airway, causing the dry cough and rare angioedema that are among the commonest reasons patients stop them.
 - `prevented-by` → **[PCV13 (Prevnar 13)](../../../../04-vaccine/08-conjugate/pcv13/README.md)** — CAPiTA RCT (N=84,496 adults ≥65): PCV13 achieved 45.6% VE against vaccine-type CAP and 75% VE against invasive pneumococcal disease; prevents pneumococcal pneumonia, the leading infectious cause of respiratory hospitalisation in older adults.
 
 ## Pathology
