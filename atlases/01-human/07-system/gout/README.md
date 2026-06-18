@@ -220,6 +220,15 @@ cross_links:
   - target: 01-human/07-system/endocrine-system
     relation: connects-to
     note: "It is woven into metabolic disease: hyperuricaemia is tightly linked to insulin resistance and the metabolic syndrome, so gout clusters with the endocrine disturbances of obesity and diabetes."
+  - target: 01-human/07-system/integumentary-system
+    relation: connects-to
+    note: "It deposits chalky lumps under the skin: tophi — subcutaneous urate crystal deposits on the ear helix, fingers and Achilles tendon — can ulcerate and discharge a white pasty material in chronic gout."
+  - target: 01-human/07-system/nervous-system
+    relation: connects-to
+    note: "It can rarely reach the spine: tophaceous urate deposits in the spine can compress nerve roots or the spinal cord, an uncommon but serious neurological complication of long-standing gout."
+  - target: 01-human/07-system/respiratory-system
+    relation: connects-to
+    note: "Sleep apnoea feeds it: obstructive sleep apnoea raises uric acid through intermittent hypoxia and nucleotide turnover, triggering nocturnal gout flares."
 ---
 
 # Gout
@@ -380,6 +389,9 @@ The central mechanism linking MSU crystals to acute gouty arthritis is **NLRP3 i
 - `connects-to` → **[Immune System](../immune-system/README.md)** — Urate crystals trip the innate alarm: monosodium urate crystals activate the NLRP3 inflammasome to release IL-1β, the autoinflammatory burst that drives the acute gout flare and the target of IL-1 blockers.
 - `connects-to` → **[Digestive System](../digestive-system/README.md)** — Both the diet and the drugs hit the gut: purine- and fructose-rich food and alcohol drive hyperuricaemia, while colchicine causes diarrhoea and the NSAIDs used in flares inflame the stomach.
 - `connects-to` → **[Endocrine System](../endocrine-system/README.md)** — It is woven into metabolic disease: hyperuricaemia is tightly linked to insulin resistance and the metabolic syndrome, so gout clusters with the endocrine disturbances of obesity and diabetes.
+- `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — It deposits chalky lumps under the skin: tophi — subcutaneous urate crystal deposits on the ear helix, fingers and Achilles tendon — can ulcerate and discharge a white pasty material in chronic gout.
+- `connects-to` → **[Nervous System](../nervous-system/README.md)** — It can rarely reach the spine: tophaceous urate deposits in the spine can compress nerve roots or the spinal cord, an uncommon but serious neurological complication of long-standing gout.
+- `connects-to` → **[Respiratory System](../respiratory-system/README.md)** — Sleep apnoea feeds it: obstructive sleep apnoea raises uric acid through intermittent hypoxia and nucleotide turnover, triggering nocturnal gout flares.
 
 [^dalbeth-2019-gout-primer]: Dalbeth N, Choi HK, Joosten LAB, et al. Gout. *Nat Rev Dis Primers.* 2019;5(1):69. [doi:10.1038/s41572-019-0115-y](https://doi.org/10.1038/s41572-019-0115-y) · [PubMed 31558729](https://pubmed.ncbi.nlm.nih.gov/31558729/)
 [^martinon-2006-nlrp3-gout]: Martinon F, Pétrilli V, Mayor A, Tardivel A, Tschopp J. Gout-associated uric acid crystals activate the NALP3 inflammasome. *Nature.* 2006;440(7081):237-241. [doi:10.1038/nature04516](https://doi.org/10.1038/nature04516) · [PubMed 16407889](https://pubmed.ncbi.nlm.nih.gov/16407889/)

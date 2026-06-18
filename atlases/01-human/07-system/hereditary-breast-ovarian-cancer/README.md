@@ -214,6 +214,15 @@ cross_links:
   - target: 01-human/07-system/digestive-system
     relation: connects-to
     note: "Its drugs and its genes reach the gut: PARP inhibitors and platinum used in BRCA-mutant cancers cause nausea and GI toxicity, and BRCA mutations also raise pancreatic and other GI cancer risk."
+  - target: 01-human/07-system/cardiovascular-system
+    relation: connects-to
+    note: "Risk reduction and treatment burden the heart: prophylactic oophorectomy induces premature menopause that raises cardiovascular risk, and anthracycline and HER2 therapy for BRCA breast cancer is cardiotoxic."
+  - target: 01-human/07-system/lymphatic-system
+    relation: connects-to
+    note: "Its cancers travel through the nodes: BRCA-associated breast and ovarian cancers spread to lymph nodes, and axillary surgery for breast cancer causes arm lymphoedema."
+  - target: 01-human/07-system/nervous-system
+    relation: connects-to
+    note: "It favours the brain and harms the nerves: BRCA1 breast cancers are often triple-negative with a propensity for brain metastasis, and platinum and taxane chemotherapy cause peripheral neuropathy."
 ---
 
 # Hereditary Breast and Ovarian Cancer
@@ -415,6 +424,9 @@ BRCA-mutant cells (HRD):
 - `connects-to` → **[Wound Healing](../wound-healing/README.md)** — Risk-reducing surgery means major wounds: prophylactic mastectomy with reconstruction and salpingo-oophorectomy in HBOC carriers leave surgical wounds, sometimes irradiated, that must heal.
 - `connects-to` → **[Endocrine System](../endocrine-system/README.md)** — Removing the ovaries forces early menopause: the risk-reducing salpingo-oophorectomy recommended to BRCA carriers triggers abrupt surgical menopause with its hormonal, bone and cardiovascular consequences.
 - `connects-to` → **[Digestive System](../digestive-system/README.md)** — Its drugs and its genes reach the gut: PARP inhibitors and platinum used in BRCA-mutant cancers cause nausea and GI toxicity, and BRCA mutations also raise pancreatic and other GI cancer risk.
+- `connects-to` → **[Cardiovascular System](../cardiovascular-system/README.md)** — Risk reduction and treatment burden the heart: prophylactic oophorectomy induces premature menopause that raises cardiovascular risk, and anthracycline and HER2 therapy for BRCA breast cancer is cardiotoxic.
+- `connects-to` → **[Lymphatic System](../lymphatic-system/README.md)** — Its cancers travel through the nodes: BRCA-associated breast and ovarian cancers spread to lymph nodes, and axillary surgery for breast cancer causes arm lymphoedema.
+- `connects-to` → **[Nervous System](../nervous-system/README.md)** — It favours the brain and harms the nerves: BRCA1 breast cancers are often triple-negative with a propensity for brain metastasis, and platinum and taxane chemotherapy cause peripheral neuropathy.
 
 ---
 
