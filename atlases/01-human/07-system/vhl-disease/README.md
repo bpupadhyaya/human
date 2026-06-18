@@ -205,6 +205,15 @@ cross_links:
   - target: 01-human/07-system/generalized-anxiety-disorder
     relation: connects-to
     note: "Endless tumours in many organs breed worry: the lifelong surveillance of brain, eye, kidney, adrenal and pancreas and the certainty of new tumours in VHL foster chronic health anxiety alongside depression."
+  - target: 01-human/07-system/nervous-system
+    relation: connects-to
+    note: "Its hallmark tumours are in the CNS: haemangioblastomas of the cerebellum, brainstem and spinal cord — and of the retina — are the defining VHL lesions, causing headache, ataxia and cord compression."
+  - target: 01-human/07-system/endocrine-system
+    relation: connects-to
+    note: "It is a multi-endocrine tumour syndrome: VHL produces catecholamine-secreting pheochromocytomas and pancreatic neuroendocrine tumours, demanding hormonal screening and careful perioperative blood-pressure control."
+  - target: 01-human/07-system/digestive-system
+    relation: connects-to
+    note: "It fills the pancreas with lesions: serous cystadenomas and multiple pancreatic cysts are common in VHL, and the exocrine pancreas can be progressively replaced, complicating surgery for its neuroendocrine tumours."
 ---
 
 # VHL Disease
@@ -389,6 +398,9 @@ The genotype-phenotype correlation reflects the degree of pVHL function retained
 - `connects-to` → **[Anemia of Chronic Disease](../anemia-of-chronic-disease/README.md)** — Its HIF-2α inhibitor flips erythropoiesis to anemia: belzutifan, used to shrink VHL tumours, blocks the HIF pathway that drives EPO, commonly causing anemia — the mirror image of VHL's polycythemia.
 - `connects-to` → **[Wound Healing](../wound-healing/README.md)** — A lifetime of tumour surgery means a lifetime of wounds: the repeated craniotomies, spinal operations and partial nephrectomies VHL demands leave many surgical wounds that must heal over the years.
 - `connects-to` → **[Generalized Anxiety Disorder](../generalized-anxiety-disorder/README.md)** — Endless tumours in many organs breed worry: the lifelong surveillance of brain, eye, kidney, adrenal and pancreas and the certainty of new tumours in VHL foster chronic health anxiety alongside depression.
+- `connects-to` → **[Nervous System](../nervous-system/README.md)** — Its hallmark tumours are in the CNS: haemangioblastomas of the cerebellum, brainstem and spinal cord — and of the retina — are the defining VHL lesions, causing headache, ataxia and cord compression.
+- `connects-to` → **[Endocrine System](../endocrine-system/README.md)** — It is a multi-endocrine tumour syndrome: VHL produces catecholamine-secreting pheochromocytomas and pancreatic neuroendocrine tumours, demanding hormonal screening and careful perioperative blood-pressure control.
+- `connects-to` → **[Digestive System](../digestive-system/README.md)** — It fills the pancreas with lesions: serous cystadenomas and multiple pancreatic cysts are common in VHL, and the exocrine pancreas can be progressively replaced, complicating surgery for its neuroendocrine tumours.
 
 [^lonser-2003-vhl-disease]: Lonser RR, Glenn GM, Walther M, et al. von Hippel-Lindau disease. *Lancet.* 2003;361(9374):2059-2067. [doi:10.1016/S0140-6736(03)13643-4](https://doi.org/10.1016/S0140-6736(03)13643-4) · [PubMed 12814730](https://pubmed.ncbi.nlm.nih.gov/12814730/)
 [^choueiri-2020-hif2-rcc]: Choueiri TK, Kaelin WG Jr. Targeting the HIF2-VEGF axis in renal cell carcinoma. *Nat Med.* 2020;26(10):1519-1530. [doi:10.1038/s41591-020-1093-z](https://doi.org/10.1038/s41591-020-1093-z) · [PubMed 33020650](https://pubmed.ncbi.nlm.nih.gov/33020650/)

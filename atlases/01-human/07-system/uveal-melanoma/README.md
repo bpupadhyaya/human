@@ -205,6 +205,15 @@ cross_links:
   - target: 01-human/07-system/generalized-anxiety-disorder
     relation: connects-to
     note: "Vision loss and lifelong liver-metastasis surveillance breed worry: the threat of late hepatic spread years after treatment and the loss of an eye foster chronic health anxiety alongside depression."
+  - target: 01-human/07-system/respiratory-system
+    relation: connects-to
+    note: "After the liver, it favours the lungs: pulmonary metastases are the second commonest site of uveal-melanoma spread, often appearing as nodules years after the primary eye tumour is treated."
+  - target: 01-human/07-system/integumentary-system
+    relation: connects-to
+    note: "It shares a lineage with skin melanoma but differs sharply: oculodermal melanocytosis (nevus of Ota) raises its risk, yet uveal melanoma is driven by GNAQ/GNA11 rather than the BRAF mutations of cutaneous disease."
+  - target: 01-human/07-system/lymphatic-system
+    relation: connects-to
+    note: "The eye has no lymphatics, so it cannot spread to nodes: unlike cutaneous melanoma, uveal melanoma disseminates almost purely haematogenously to the liver, which is why sentinel-node biopsy plays no role."
 ---
 
 # Uveal Melanoma
@@ -404,6 +413,9 @@ Uveal melanocytes are neural crest-derived, residing in the uveal stroma and mai
 - `connects-to` → **[Digestive System](../digestive-system/README.md)** — It spreads almost only to the liver: uveal melanoma is strikingly hepatotropic, with the great majority of metastases lodging in the liver, so surveillance and treatment centre on hepatic disease.
 - `connects-to` → **[Wound Healing](../wound-healing/README.md)** — Enucleation is a healing challenge: removing the eye for a large uveal melanoma and fitting an orbital implant leaves a socket that must heal, and any prior plaque brachytherapy compromises the tissue.
 - `connects-to` → **[Generalized Anxiety Disorder](../generalized-anxiety-disorder/README.md)** — Vision loss and lifelong liver-metastasis surveillance breed worry: the threat of late hepatic spread years after treatment and the loss of an eye foster chronic health anxiety alongside depression.
+- `connects-to` → **[Respiratory System](../respiratory-system/README.md)** — After the liver, it favours the lungs: pulmonary metastases are the second commonest site of uveal-melanoma spread, often appearing as nodules years after the primary eye tumour is treated.
+- `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — It shares a lineage with skin melanoma but differs sharply: oculodermal melanocytosis (nevus of Ota) raises its risk, yet uveal melanoma is driven by GNAQ/GNA11 rather than the BRAF mutations of cutaneous disease.
+- `connects-to` → **[Lymphatic System](../lymphatic-system/README.md)** — The eye has no lymphatics, so it cannot spread to nodes: unlike cutaneous melanoma, uveal melanoma disseminates almost purely haematogenously to the liver, which is why sentinel-node biopsy plays no role.
 
 ---
 
