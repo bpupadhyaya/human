@@ -239,6 +239,15 @@ cross_links:
   - target: 03-medicine/01-modern/13-cancer/checkpoint-inhibitors
     relation: connects-to
     note: "Immunotherapy unleashes endocrinopathy: PD-1 and CTLA-4 inhibitors commonly cause immune-related thyroiditis, hypophysitis, adrenalitis and autoimmune diabetes, among the most frequent toxicities of cancer immunotherapy."
+  - target: 01-human/05-tissue/islet-of-langerhans
+    relation: connects-to
+    note: "The pancreas is an endocrine organ too: the islets of Langerhans secrete insulin, glucagon and somatostatin to govern blood glucose, making the endocrine pancreas central to the system and the seat of diabetes."
+  - target: 01-human/05-tissue/cortical-bone
+    relation: connects-to
+    note: "Bone is both target and gland: PTH, calcitonin, vitamin D, oestrogen and thyroid hormone remodel cortical bone, while bone itself secretes FGF23 and osteocalcin — a two-way endocrine relationship governing calcium and phosphate."
+  - target: 03-medicine/01-modern/13-cancer/targeted-therapy
+    relation: connects-to
+    note: "Hormone pathways are drug targets: somatostatin analogues and peptide-receptor radionuclide therapy treat neuroendocrine tumours, while mTOR inhibitors and hormone-receptor-directed agents act on endocrine tumours and their hormone axes."
 ---
 
 # Endocrine System
@@ -470,6 +479,9 @@ The endocrine system coordinates fuel metabolism across multiple organs in respo
 - `connects-to` → **[Metformin](../../../03-medicine/01-modern/07-metabolic/metformin/README.md)** — The most-prescribed endocrine drug: metformin lowers hepatic glucose output as first-line therapy for type 2 diabetes and is also used in polycystic ovary syndrome, an everyday tool of endocrinology.
 - `connects-to` → **[Mycobacterium tuberculosis](../../../02-pathogen/02-bacteria/mycobacterium-tuberculosis/README.md)** — It can destroy the glands: tuberculosis is a classic cause of primary adrenal insufficiency (Addison's disease) through bilateral adrenal destruction, and can also trigger SIADH.
 - `connects-to` → **[Checkpoint Inhibitors](../../../03-medicine/01-modern/13-cancer/checkpoint-inhibitors/README.md)** — Immunotherapy unleashes endocrinopathy: PD-1 and CTLA-4 inhibitors commonly cause immune-related thyroiditis, hypophysitis, adrenalitis and autoimmune diabetes, among the most frequent toxicities of cancer immunotherapy.
+- `connects-to` → **[Islet of Langerhans](../../05-tissue/islet-of-langerhans/README.md)** — The pancreas is an endocrine organ too: the islets of Langerhans secrete insulin, glucagon and somatostatin to govern blood glucose, making the endocrine pancreas central to the system and the seat of diabetes.
+- `connects-to` → **[Cortical Bone](../../05-tissue/cortical-bone/README.md)** — Bone is both target and gland: PTH, calcitonin, vitamin D, oestrogen and thyroid hormone remodel cortical bone, while bone itself secretes FGF23 and osteocalcin — a two-way endocrine relationship governing calcium and phosphate.
+- `connects-to` → **[Targeted Therapy](../../../03-medicine/01-modern/13-cancer/targeted-therapy/README.md)** — Hormone pathways are drug targets: somatostatin analogues and peptide-receptor radionuclide therapy treat neuroendocrine tumours, while mTOR inhibitors and hormone-receptor-directed agents act on endocrine tumours and their hormone axes.
 
 ## Pathology
 
