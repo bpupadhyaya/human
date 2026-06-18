@@ -223,6 +223,15 @@ cross_links:
   - target: 01-human/07-system/lymphatic-system
     relation: connects-to
     note: "It can masquerade as occult disease: large-vessel GCA presents as fever of unknown origin with intense systemic inflammation that mimics lymphoma, distinguished by PET showing vasculitic aortic uptake rather than nodal disease."
+  - target: 03-medicine/01-modern/02-respiratory/corticosteroids
+    relation: connects-to
+    note: "High-dose steroids are the emergency treatment: prompt glucocorticoids prevent the irreversible blindness of giant cell arteritis, then taper over many months despite their cumulative toxicity."
+  - target: 03-medicine/01-modern/04-cardio/aspirin
+    relation: connects-to
+    note: "Low-dose aspirin guards the circulation: it is often added in giant cell arteritis to reduce the risk of the ischaemic visual loss and strokes the vasculitis can cause."
+  - target: 03-medicine/03-food/vitamin-d
+    relation: connects-to
+    note: "Long steroids demand bone protection: patients on prolonged glucocorticoids for giant cell arteritis take vitamin D and calcium, often with a bisphosphonate, to counter steroid-induced osteoporosis."
 ---
 
 # Giant Cell Arteritis
@@ -406,6 +415,9 @@ The temporal arteries supply scalp, temporalis muscle, and dura. In GCA, transmu
 - `connects-to` → **[Respiratory System](../respiratory-system/README.md)** — It can present as a new cough: a persistent dry cough is an under-recognised symptom of giant cell arteritis, reflecting large-vessel and aortic involvement of the disease.
 - `connects-to` → **[Renal System](../renal-system/README.md)** — It spares the kidney, unlike small-vessel vasculitis: GCA characteristically leaves the kidneys untouched — a key feature distinguishing it from ANCA-associated vasculitis — though large-vessel disease can rarely involve the renal arteries.
 - `connects-to` → **[Lymphatic System](../lymphatic-system/README.md)** — It can masquerade as occult disease: large-vessel GCA presents as fever of unknown origin with intense systemic inflammation that mimics lymphoma, distinguished by PET showing vasculitic aortic uptake rather than nodal disease.
+- `connects-to` → **[Corticosteroids](../../../03-medicine/01-modern/02-respiratory/corticosteroids/README.md)** — High-dose steroids are the emergency treatment: prompt glucocorticoids prevent the irreversible blindness of giant cell arteritis, then taper over many months despite their cumulative toxicity.
+- `connects-to` → **[Aspirin](../../../03-medicine/01-modern/04-cardio/aspirin/README.md)** — Low-dose aspirin guards the circulation: it is often added in giant cell arteritis to reduce the risk of the ischaemic visual loss and strokes the vasculitis can cause.
+- `connects-to` → **[Vitamin D](../../../03-medicine/03-food/vitamin-d/README.md)** — Long steroids demand bone protection: patients on prolonged glucocorticoids for giant cell arteritis take vitamin D and calcium, often with a bisphosphonate, to counter steroid-induced osteoporosis.
 
 [^stone-2017-giact]: Stone JH, Tuckwell K, Dimonaco S, et al. Trial of tocilizumab in giant-cell arteritis. *N Engl J Med.* 2017;377(4):317-328. [doi:10.1056/NEJMoa1613849](https://doi.org/10.1056/NEJMoa1613849) · [PubMed 28745999](https://pubmed.ncbi.nlm.nih.gov/28745999/)
 [^weyand-2014-gca-review]: Weyand CM, Goronzy JJ. Clinical practice. Giant-cell arteritis and polymyalgia rheumatica. *N Engl J Med.* 2014;371(1):50-57. [doi:10.1056/NEJMcp1214926](https://doi.org/10.1056/NEJMcp1214926) · [PubMed 24988557](https://pubmed.ncbi.nlm.nih.gov/24988557/)

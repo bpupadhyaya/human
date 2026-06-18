@@ -223,6 +223,15 @@ cross_links:
   - target: 01-human/07-system/renal-system
     relation: connects-to
     note: "Sunitinib taxes the kidney: the multi-target inhibitor sunitinib causes hypertension, proteinuria and occasional thrombotic microangiopathy affecting renal function."
+  - target: 01-human/07-system/musculoskeletal-system
+    relation: connects-to
+    note: "Its targeted drugs ache the body: imatinib and other KIT inhibitors commonly cause muscle cramps, myalgia and fluid retention with periorbital oedema."
+  - target: 01-human/07-system/respiratory-system
+    relation: connects-to
+    note: "It travels in rare syndromes and to the chest: the Carney triad pairs GIST with pulmonary chondroma and paraganglioma, and advanced GIST can metastasise to the lungs."
+  - target: 01-human/07-system/nervous-system
+    relation: connects-to
+    note: "It springs from the gut's pacemaker cells: GIST arises from the interstitial cells of Cajal that drive peristalsis, and it is over-represented in neurofibromatosis type 1."
 ---
 
 # GIST
@@ -422,6 +431,9 @@ No approved targeted therapy; sunitinib may have modest activity; clinical trial
 - `connects-to` → **[Cardiovascular System](../cardiovascular-system/README.md)** — Its targeted drugs strain the heart: the tyrosine-kinase inhibitors imatinib and especially sunitinib cause cardiotoxicity, heart failure and hypertension during long-term treatment.
 - `connects-to` → **[Lymphatic System](../lymphatic-system/README.md)** — It skips the lymph nodes: unlike GI carcinomas, GIST spreads haematogenously to the liver and peritoneum and rarely to lymph nodes, so routine lymphadenectomy is unnecessary.
 - `connects-to` → **[Renal System](../renal-system/README.md)** — Sunitinib taxes the kidney: the multi-target inhibitor sunitinib causes hypertension, proteinuria and occasional thrombotic microangiopathy affecting renal function.
+- `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — Its targeted drugs ache the body: imatinib and other KIT inhibitors commonly cause muscle cramps, myalgia and fluid retention with periorbital oedema.
+- `connects-to` → **[Respiratory System](../respiratory-system/README.md)** — It travels in rare syndromes and to the chest: the Carney triad pairs GIST with pulmonary chondroma and paraganglioma, and advanced GIST can metastasise to the lungs.
+- `connects-to` → **[Nervous System](../nervous-system/README.md)** — It springs from the gut's pacemaker cells: GIST arises from the interstitial cells of Cajal that drive peristalsis, and it is over-represented in neurofibromatosis type 1.
 
 ---
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
