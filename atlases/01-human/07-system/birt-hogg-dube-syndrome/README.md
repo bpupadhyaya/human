@@ -214,6 +214,15 @@ cross_links:
   - target: 01-human/07-system/endocrine-system
     relation: connects-to
     note: "Its gene sits in the metabolic pathway: FLCN regulates the AMPK-mTOR axis that governs cellular metabolism, and BHD shows associations with thyroid and parathyroid nodules."
+  - target: 01-human/07-system/cardiovascular-system
+    relation: connects-to
+    note: "A lung collapse can crash the circulation: rupture of BHD lung cysts can cause a tension pneumothorax that shifts the mediastinum and obstructs venous return, producing obstructive shock and cardiac arrest."
+  - target: 01-human/07-system/musculoskeletal-system
+    relation: connects-to
+    note: "Its hamartomas reach soft tissue: BHD's tumour spectrum includes lipomas and angiolipomas among connective-tissue lesions beyond the skin, lung and kidney."
+  - target: 01-human/07-system/immune-system
+    relation: connects-to
+    note: "Its gene tunes immune metabolism: FLCN regulates the mTOR/TFEB axis that also governs lysosomal function and immune-cell metabolism, the molecular hub underlying BHD's varied tumours."
 ---
 
 # Birt-Hogg-Dubé Syndrome
@@ -420,6 +429,9 @@ Definite BHD: 1 major OR 2 minor criteria (European BHD Consortium definition)
 - `connects-to` → **[Wound Healing](../wound-healing/README.md)** — It demands repeated surgery that must heal: BHD brings recurrent nephron-sparing renal-tumour operations and pleurodesis or surgery for recurrent pneumothorax, leaving wounds to heal over a lifetime.
 - `connects-to` → **[Digestive System](../digestive-system/README.md)** — FLCN loss seeds tumours beyond the kidney: BHD is associated with colonic polyps and parotid oncocytomas, extending its hamartoma-tumour spectrum into the digestive and salivary tract.
 - `connects-to` → **[Endocrine System](../endocrine-system/README.md)** — Its gene sits in the metabolic pathway: FLCN regulates the AMPK-mTOR axis that governs cellular metabolism, and BHD shows associations with thyroid and parathyroid nodules.
+- `connects-to` → **[Cardiovascular System](../cardiovascular-system/README.md)** — A lung collapse can crash the circulation: rupture of BHD lung cysts can cause a tension pneumothorax that shifts the mediastinum and obstructs venous return, producing obstructive shock and cardiac arrest.
+- `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — Its hamartomas reach soft tissue: BHD's tumour spectrum includes lipomas and angiolipomas among connective-tissue lesions beyond the skin, lung and kidney.
+- `connects-to` → **[Immune System](../immune-system/README.md)** — Its gene tunes immune metabolism: FLCN regulates the mTOR/TFEB axis that also governs lysosomal function and immune-cell metabolism, the molecular hub underlying BHD's varied tumours.
 
 ---
 

@@ -220,6 +220,15 @@ cross_links:
   - target: 01-human/07-system/generalized-anxiety-disorder
     relation: connects-to
     note: "Frequent cystoscopy surveillance breeds worry: the high recurrence rate and lifelong surveillance cystoscopies of bladder cancer, plus living with a stoma, foster chronic health anxiety alongside depression."
+  - target: 01-human/07-system/lymphatic-system
+    relation: connects-to
+    note: "Pelvic nodes decide its stage: lymph-node involvement is a key prognostic factor in bladder cancer, so pelvic lymphadenectomy accompanies radical cystectomy."
+  - target: 01-human/07-system/musculoskeletal-system
+    relation: connects-to
+    note: "It spreads to bone: the skeleton is a common site of distant metastasis in advanced bladder cancer, causing painful osteolytic lesions and pathological fractures."
+  - target: 01-human/07-system/nervous-system
+    relation: connects-to
+    note: "It can reach the brain and pelvic nerves: advanced bladder cancer occasionally metastasises to the brain, and pelvic tumour or radical surgery can injure nerves controlling continence and sexual function."
 ---
 
 # Bladder Cancer
@@ -408,6 +417,9 @@ NMIBC and MIBC have distinct molecular landscapes:
 - `connects-to` → **[Wound Healing](../wound-healing/README.md)** — Cystectomy and urinary diversion are major wounds: removing the bladder and building an ileal conduit or neobladder is extensive pelvic surgery whose anastomoses and wounds are prone to leak and slow healing.
 - `connects-to` → **[Digestive System](../digestive-system/README.md)** — It borrows the bowel and irradiates it: urinary diversion is fashioned from a segment of intestine, risking metabolic and bowel complications, while pelvic radiation for bladder cancer inflames the gut into radiation enteritis.
 - `connects-to` → **[Generalized Anxiety Disorder](../generalized-anxiety-disorder/README.md)** — Frequent cystoscopy surveillance breeds worry: the high recurrence rate and lifelong surveillance cystoscopies of bladder cancer, plus living with a stoma, foster chronic health anxiety alongside depression.
+- `connects-to` → **[Lymphatic System](../lymphatic-system/README.md)** — Pelvic nodes decide its stage: lymph-node involvement is a key prognostic factor in bladder cancer, so pelvic lymphadenectomy accompanies radical cystectomy.
+- `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — It spreads to bone: the skeleton is a common site of distant metastasis in advanced bladder cancer, causing painful osteolytic lesions and pathological fractures.
+- `connects-to` → **[Nervous System](../nervous-system/README.md)** — It can reach the brain and pelvic nerves: advanced bladder cancer occasionally metastasises to the brain, and pelvic tumour or radical surgery can injure nerves controlling continence and sexual function.
 
 ---
 
