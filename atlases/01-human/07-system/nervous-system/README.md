@@ -214,6 +214,15 @@ cross_links:
   - target: 02-pathogen/02-bacteria/neisseria-meningitidis
     relation: connects-to
     note: "A classic assault on its protective membranes: Neisseria meningitidis crosses into the cerebrospinal fluid to cause acute bacterial meningitis, inflaming the meninges that sheath the brain and spinal cord."
+  - target: 01-human/07-system/respiratory-system
+    relation: connects-to
+    note: "It drives every breath: brainstem respiratory centres set the rhythm of breathing and the diaphragm obeys the phrenic nerve, so brainstem injury, high spinal cord damage and neuromuscular disease cause respiratory failure."
+  - target: 01-human/07-system/renal-system
+    relation: connects-to
+    note: "It governs the bladder: the autonomic and somatic innervation of the bladder coordinates storage and voiding, so spinal cord and autonomic injury cause neurogenic bladder with retention and incontinence."
+  - target: 01-human/07-system/lymphatic-system
+    relation: connects-to
+    note: "The brain has its own drainage: the glymphatic system and meningeal lymphatic vessels clear waste and immune cells from the central nervous system, a route increasingly tied to neurodegeneration."
 ---
 
 # Nervous System
@@ -315,6 +324,9 @@ Distributed cortical networks underlie language (Broca's area, Wernicke's area, 
 - `connects-to` → **[Digestive System](../digestive-system/README.md)** — It runs a second brain in the gut: the enteric nervous system governs motility and secretion, and the bidirectional gut-brain axis links nervous-system signalling to digestion, microbiome and mood.
 - `connects-to` → **[Immune System](../immune-system/README.md)** — Nerves and immunity converse constantly: the nervous system shapes inflammation through the vagal cholinergic anti-inflammatory pathway and sympathetic tone, while neuroinflammation in turn drives neurological disease.
 - `connects-to` → **[Neisseria meningitidis](../../../02-pathogen/02-bacteria/neisseria-meningitidis/README.md)** — A classic assault on its protective membranes: Neisseria meningitidis crosses into the cerebrospinal fluid to cause acute bacterial meningitis, inflaming the meninges that sheath the brain and spinal cord.
+- `connects-to` → **[Respiratory System](../respiratory-system/README.md)** — It drives every breath: brainstem respiratory centres set the rhythm of breathing and the diaphragm obeys the phrenic nerve, so brainstem injury, high spinal cord damage and neuromuscular disease cause respiratory failure.
+- `connects-to` → **[Renal System](../renal-system/README.md)** — It governs the bladder: the autonomic and somatic innervation of the bladder coordinates storage and voiding, so spinal cord and autonomic injury cause neurogenic bladder with retention and incontinence.
+- `connects-to` → **[Lymphatic System](../lymphatic-system/README.md)** — The brain has its own drainage: the glymphatic system and meningeal lymphatic vessels clear waste and immune cells from the central nervous system, a route increasingly tied to neurodegeneration.
 
 ## Pathology
 

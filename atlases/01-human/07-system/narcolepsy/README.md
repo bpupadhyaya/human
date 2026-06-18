@@ -192,6 +192,15 @@ cross_links:
   - target: 01-human/07-system/parkinsons-disease
     relation: connects-to
     note: "Both disorders unsettle REM sleep: narcolepsy's REM intrusion and the REM sleep behavior disorder and hypocretin-neuron loss seen in Parkinson's reflect overlapping dysregulation of sleep-state control."
+  - target: 01-human/07-system/endocrine-system
+    relation: connects-to
+    note: "Orexin loss unsettles metabolism and hormones: hypocretin/orexin normally governs energy balance and arousal, so its loss in narcolepsy type 1 brings weight gain, metabolic change and, in children, precocious puberty."
+  - target: 01-human/07-system/respiratory-system
+    relation: connects-to
+    note: "It travels with sleep-disordered breathing: narcolepsy is frequently complicated by comorbid obstructive sleep apnoea, on a background of its associated obesity, fragmenting sleep further."
+  - target: 01-human/07-system/musculoskeletal-system
+    relation: connects-to
+    note: "Cataplexy drops the body without warning: the sudden emotion-triggered loss of muscle tone in narcolepsy type 1 causes collapses and falls that risk fractures and soft-tissue injury."
 sources:
   - id: scammell-2015-narcolepsy-review
     type: peer-reviewed
@@ -390,6 +399,9 @@ Cataplexy is the **pathognomonic** feature of NT1 — sudden, bilateral loss of 
 - `connects-to` → **[Binge-Eating Disorder](../binge-eating-disorder/README.md)** — Orexin loss reshapes appetite: hypocretin-deficient narcolepsy type 1 carries higher BMI and a recognised tendency to binge-eating and disordered eating beyond the weight gain alone.
 - `connects-to` → **[Epilepsy](../epilepsy/README.md)** — Sudden attacks blur the diagnosis: cataplexy and sleep-onset events of narcolepsy are frequently mistaken for seizures, and the two coexist, so EEG and sleep studies are needed to separate them.
 - `connects-to` → **[Parkinson's Disease](../parkinsons-disease/README.md)** — Both disorders unsettle REM sleep: narcolepsy's REM intrusion and the REM sleep behavior disorder and hypocretin-neuron loss seen in Parkinson's reflect overlapping dysregulation of sleep-state control.
+- `connects-to` → **[Endocrine System](../endocrine-system/README.md)** — Orexin loss unsettles metabolism and hormones: hypocretin/orexin normally governs energy balance and arousal, so its loss in narcolepsy type 1 brings weight gain, metabolic change and, in children, precocious puberty.
+- `connects-to` → **[Respiratory System](../respiratory-system/README.md)** — It travels with sleep-disordered breathing: narcolepsy is frequently complicated by comorbid obstructive sleep apnoea, on a background of its associated obesity, fragmenting sleep further.
+- `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — Cataplexy drops the body without warning: the sudden emotion-triggered loss of muscle tone in narcolepsy type 1 causes collapses and falls that risk fractures and soft-tissue injury.
 
 [^scammell-2015-narcolepsy-review]: Scammell TE. Narcolepsy. *N Engl J Med.* 2015;373(27):2654-2662. [doi:10.1056/NEJMra1500587](https://doi.org/10.1056/NEJMra1500587) · [PubMed 26716917](https://pubmed.ncbi.nlm.nih.gov/26716917/)
 [^dauvilliers-2007-narcolepsy-clinical]: Dauvilliers Y, Arnulf I, Mignot E. Narcolepsy with cataplexy. *Lancet.* 2007;369(9560):499-511. [doi:10.1016/S0140-6736(07)60237-2](https://doi.org/10.1016/S0140-6736(07)60237-2) · [PubMed 17292770](https://pubmed.ncbi.nlm.nih.gov/17292770/)
