@@ -235,6 +235,15 @@ cross_links:
   - target: 01-human/07-system/immune-system
     relation: connects-to
     note: "Chronic social stress inflames the body: sustained anxiety dysregulates cortisol and raises inflammatory markers, a stress-immune link shared across the anxiety disorders."
+  - target: 03-medicine/02-traditional/ashwagandha
+    relation: connects-to
+    note: "A traditional calm for nerves: ashwagandha and similar adaptogens are used to ease anxiety and lower cortisol, a complementary option alongside the SSRIs that treat social anxiety disorder."
+  - target: 03-medicine/03-food/omega-3-fatty-acids
+    relation: connects-to
+    note: "Diet offers a modest adjunct: omega-3 supplementation shows small anxiety-reducing effects in trials, used alongside but not instead of established treatment for social anxiety."
+  - target: 01-human/07-system/bulimia-nervosa
+    relation: connects-to
+    note: "Fear of judgement links them: social anxiety disorder commonly precedes and coexists with bulimia nervosa, where intense fear of negative evaluation feeds disordered eating and shame."
 ---
 
 # Social Anxiety Disorder
@@ -437,6 +446,9 @@ The unique **dopaminergic social reward deficit** in SAD has clinical implicatio
 - `connects-to` → **[Fluoxetine](../../../03-medicine/01-modern/10-mental-health/fluoxetine/README.md)** — First-line treatment is an SSRI: antidepressants like fluoxetine, alongside cognitive behavioural therapy, are the mainstay for generalised social anxiety disorder.
 - `connects-to` → **[Beta-blockers](../../../03-medicine/01-modern/04-cardio/beta-blockers/README.md)** — A heart drug calms performance nerves: beta-blockers like propranolol blunt the tremor, palpitations and sweating of performance anxiety when taken before a feared event.
 - `connects-to` → **[Immune System](../immune-system/README.md)** — Chronic social stress inflames the body: sustained anxiety dysregulates cortisol and raises inflammatory markers, a stress-immune link shared across the anxiety disorders.
+- `connects-to` → **[Ashwagandha](../../../03-medicine/02-traditional/ashwagandha/README.md)** — A traditional calm for nerves: ashwagandha and similar adaptogens are used to ease anxiety and lower cortisol, a complementary option alongside the SSRIs that treat social anxiety disorder.
+- `connects-to` → **[Omega-3 Fatty Acids](../../../03-medicine/03-food/omega-3-fatty-acids/README.md)** — Diet offers a modest adjunct: omega-3 supplementation shows small anxiety-reducing effects in trials, used alongside but not instead of established treatment for social anxiety.
+- `connects-to` → **[Bulimia Nervosa](../bulimia-nervosa/README.md)** — Fear of judgement links them: social anxiety disorder commonly precedes and coexists with bulimia nervosa, where intense fear of negative evaluation feeds disordered eating and shame.
 
 [^liebowitz-1987-sad-scale]: Liebowitz MR. Social phobia. *Mod Probl Pharmacopsychiatry.* 1987;22:141-173. [PubMed 2885745](https://pubmed.ncbi.nlm.nih.gov/2885745/)
 [^stein-2008-sad-review]: Stein MB, Stein DJ. Social anxiety disorder. *Lancet.* 2008;371(9618):1115-1125. [doi:10.1016/S0140-6736(08)60488-2](https://doi.org/10.1016/S0140-6736(08)60488-2) · [PubMed 18374843](https://pubmed.ncbi.nlm.nih.gov/18374843/)

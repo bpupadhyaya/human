@@ -232,6 +232,15 @@ cross_links:
   - target: 02-pathogen/02-bacteria/clostridium-tetani
     relation: connects-to
     note: "Contaminated injection seeds soil spores: injecting stimulants risks tetanus and wound botulism from Clostridium, especially with subcutaneous 'skin-popping'."
+  - target: 01-human/03-molecular/crh
+    relation: connects-to
+    note: "Stress fuels the crash and craving: corticotropin-releasing hormone and HPA-axis activation drive the dysphoric withdrawal and relapse that follow stimulant binges."
+  - target: 01-human/07-system/parkinsons-disease
+    relation: connects-to
+    note: "Methamphetamine scars dopamine neurons: chronic methamphetamine is toxic to striatal dopaminergic terminals and is linked to a higher later risk of Parkinson's disease."
+  - target: 01-human/07-system/epilepsy
+    relation: connects-to
+    note: "It lowers the seizure threshold: cocaine and amphetamines provoke seizures acutely through massive monoamine release and cerebral vasospasm, a common reason for stimulant-related emergencies."
 ---
 
 # Stimulant Use Disorder
@@ -425,6 +434,9 @@ Unlike cocaine, methamphetamine causes **direct neurotoxic damage** to dopaminer
 - `connects-to` → **[Immune System](../immune-system/README.md)** — An adulterant cripples the marrow: cocaine is widely cut with levamisole, which can cause severe agranulocytosis and an ANCA-associated vasculitis, while stimulant use broadly impairs host defence.
 - `connects-to` → **[Hepatitis B virus](../../../02-pathogen/01-viruses/hepatitis-b-virus/README.md)** — Injecting and risky sex spread blood-borne virus: stimulant use disorder transmits hepatitis B alongside hepatitis C and HIV, through shared needles and disinhibited behaviour.
 - `connects-to` → **[Clostridium tetani](../../../02-pathogen/02-bacteria/clostridium-tetani/README.md)** — Contaminated injection seeds soil spores: injecting stimulants risks tetanus and wound botulism from Clostridium, especially with subcutaneous 'skin-popping'.
+- `connects-to` → **[CRH](../../03-molecular/crh/README.md)** — Stress fuels the crash and craving: corticotropin-releasing hormone and HPA-axis activation drive the dysphoric withdrawal and relapse that follow stimulant binges.
+- `connects-to` → **[Parkinson's Disease](../parkinsons-disease/README.md)** — Methamphetamine scars dopamine neurons: chronic methamphetamine is toxic to striatal dopaminergic terminals and is linked to a higher later risk of Parkinson's disease.
+- `connects-to` → **[Epilepsy](../epilepsy/README.md)** — It lowers the seizure threshold: cocaine and amphetamines provoke seizures acutely through massive monoamine release and cerebral vasospasm, a common reason for stimulant-related emergencies.
 
 ## Treatment
 
