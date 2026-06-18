@@ -224,6 +224,15 @@ cross_links:
   - target: 03-medicine/03-food/omega-3-fatty-acids
     relation: connects-to
     note: "Omega-3 fats calm inflamed joints: their anti-inflammatory effects are studied for joint pain and stiffness in rheumatoid and osteoarthritis."
+  - target: 03-medicine/01-modern/02-respiratory/corticosteroids
+    relation: connects-to
+    note: "Steroids both treat and harm it: intra-articular and systemic corticosteroids relieve inflammatory joint and muscle disease, but long-term use causes osteoporosis, avascular necrosis and a proximal myopathy."
+  - target: 02-pathogen/01-viruses/coxsackievirus-b
+    relation: connects-to
+    note: "A virus that inflames muscle: Coxsackievirus B causes Bornholm disease (epidemic pleurodynia) with severe muscle pain, and viral myositis more broadly."
+  - target: 02-pathogen/02-bacteria/salmonella-typhi
+    relation: connects-to
+    note: "A classic cause of bone infection: Salmonella is a characteristic cause of osteomyelitis in sickle cell disease, alongside the more common staphylococcal bone and joint infections."
 ---
 
 # Musculoskeletal System
@@ -429,6 +438,9 @@ Chronic exercise drives profound musculoskeletal remodelling [^guyton-hall]:
 - `connects-to` → **[Ibuprofen](../../../03-medicine/01-modern/12-anti-inflammatory/ibuprofen/README.md)** — NSAIDs are its mainstay painkiller: drugs like ibuprofen relieve the pain and inflammation of arthritis and injury, though gastric and renal side effects limit long-term use.
 - `connects-to` → **[Streptococcus pyogenes](../../../02-pathogen/02-bacteria/streptococcus-pyogenes/README.md)** — Strep attacks muscle and joints: Streptococcus pyogenes causes necrotising fasciitis and pyomyositis, and triggers post-streptococcal reactive arthritis and rheumatic fever.
 - `connects-to` → **[Omega-3 Fatty Acids](../../../03-medicine/03-food/omega-3-fatty-acids/README.md)** — Omega-3 fats calm inflamed joints: their anti-inflammatory effects are studied for joint pain and stiffness in rheumatoid and osteoarthritis.
+- `connects-to` → **[Corticosteroids](../../../03-medicine/01-modern/02-respiratory/corticosteroids/README.md)** — Steroids both treat and harm it: intra-articular and systemic corticosteroids relieve inflammatory joint and muscle disease, but long-term use causes osteoporosis, avascular necrosis and a proximal myopathy.
+- `connects-to` → **[Coxsackievirus B](../../../02-pathogen/01-viruses/coxsackievirus-b/README.md)** — A virus that inflames muscle: Coxsackievirus B causes Bornholm disease (epidemic pleurodynia) with severe muscle pain, and viral myositis more broadly.
+- `connects-to` → **[Salmonella typhi](../../../02-pathogen/02-bacteria/salmonella-typhi/README.md)** — A classic cause of bone infection: Salmonella is a characteristic cause of osteomyelitis in sickle cell disease, alongside the more common staphylococcal bone and joint infections.
 
 ## Pathology
 

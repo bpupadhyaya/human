@@ -226,6 +226,15 @@ cross_links:
   - target: 01-human/07-system/lymphatic-system
     relation: connects-to
     note: "Its autoinflammation can swell the nodes and spleen: MDS-associated systemic inflammation, including VEXAS syndrome, can cause lymphadenopathy, and overlap forms bring splenomegaly."
+  - target: 01-human/07-system/renal-system
+    relation: connects-to
+    note: "Treatment and overload reach the kidney: hypomethylating chemotherapy plus the renal effects of anaemia and transfusional iron overload strain the kidney in MDS."
+  - target: 03-medicine/01-modern/13-cancer/targeted-therapy
+    relation: connects-to
+    note: "Tailored drugs match its biology: hypomethylating agents (azacitidine, decitabine), lenalidomide for del(5q) MDS and luspatercept for anaemia are mainstays beyond supportive transfusion."
+  - target: 02-pathogen/01-viruses/herpesvirus
+    relation: connects-to
+    note: "Transplant reawakens latent virus: many MDS patients undergo allogeneic stem-cell transplant, after which cytomegalovirus and other herpesviruses reactivate under immunosuppression."
 ---
 
 # Myelodysplastic Syndromes
@@ -406,6 +415,9 @@ MDS → AML transformation rate: ~10% at 1 year for very-low risk; ~40-50% at 2 
 - `connects-to` → **[Nervous System](../nervous-system/README.md)** — Its low platelets and anaemia reach the brain: severe thrombocytopenia risks intracranial haemorrhage, and chronic anaemia causes fatigue and cognitive slowing.
 - `connects-to` → **[Respiratory System](../respiratory-system/README.md)** — Failing marrow exposes the lungs: neutropenia invites bacterial and invasive fungal pneumonia, and repeated transfusion can cause circulatory overload or lung injury.
 - `connects-to` → **[Lymphatic System](../lymphatic-system/README.md)** — Its autoinflammation can swell the nodes and spleen: MDS-associated systemic inflammation, including VEXAS syndrome, can cause lymphadenopathy, and overlap forms bring splenomegaly.
+- `connects-to` → **[Renal System](../renal-system/README.md)** — Treatment and overload reach the kidney: hypomethylating chemotherapy plus the renal effects of anaemia and transfusional iron overload strain the kidney in MDS.
+- `connects-to` → **[Targeted Therapy](../../../03-medicine/01-modern/13-cancer/targeted-therapy/README.md)** — Tailored drugs match its biology: hypomethylating agents (azacitidine, decitabine), lenalidomide for del(5q) MDS and luspatercept for anaemia are mainstays beyond supportive transfusion.
+- `connects-to` → **[Herpesvirus](../../../02-pathogen/01-viruses/herpesvirus/README.md)** — Transplant reawakens latent virus: many MDS patients undergo allogeneic stem-cell transplant, after which cytomegalovirus and other herpesviruses reactivate under immunosuppression.
 
 [^fenaux-2009-aza001]: Fenaux P, Mufti GJ, Hellstrom-Lindberg E, et al. Efficacy of azacitidine compared with conventional care regimens in patients with higher-risk myelodysplastic syndromes. *Lancet Oncol.* 2009;10(3):223-232. [doi:10.1016/S1470-2045(09)70003-8](https://doi.org/10.1016/S1470-2045(09)70003-8) · [PubMed 19230772](https://pubmed.ncbi.nlm.nih.gov/19230772/)
 [^fenaux-2020-medalist]: Fenaux P, Platzbecker U, Mufti GJ, et al. Luspatercept in patients with lower-risk myelodysplastic syndromes. *N Engl J Med.* 2020;382(2):140-151. [doi:10.1056/NEJMoa1908892](https://doi.org/10.1056/NEJMoa1908892) · [PubMed 31914241](https://pubmed.ncbi.nlm.nih.gov/31914241/)
