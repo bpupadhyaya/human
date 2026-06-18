@@ -212,6 +212,15 @@ cross_links:
   - target: 01-human/07-system/integumentary-system
     relation: connects-to
     note: "Hormones are written on the skin: endocrine disease shows as acanthosis nigricans of insulin resistance, the hyperpigmentation of Addison's, myxoedema of thyroid disease and vitiligo of autoimmunity."
+  - target: 01-human/07-system/musculoskeletal-system
+    relation: connects-to
+    note: "Hormones build and maintain the frame: parathyroid hormone, vitamin D, sex steroids, growth hormone and cortisol govern bone and muscle, so endocrine disease causes osteoporosis, acromegalic arthropathy and steroid myopathy."
+  - target: 01-human/07-system/respiratory-system
+    relation: connects-to
+    note: "It reaches into the lungs: the pulmonary endothelium activates angiotensin via ACE, and endocrine disorders affect breathing — acromegaly causes sleep apnoea and hypothyroidism causes hypoventilation."
+  - target: 01-human/07-system/lymphatic-system
+    relation: connects-to
+    note: "The thymus is an endocrine-immune organ: it secretes thymic hormones that direct T-cell maturation, and thyroid autoimmunity such as Graves' disease drives thymic hyperplasia."
 ---
 
 # Endocrine System
@@ -434,6 +443,9 @@ The endocrine system coordinates fuel metabolism across multiple organs in respo
 - `connects-to` → **[Digestive System](../digestive-system/README.md)** — The gut is a vast endocrine organ: incretins, gastrin, ghrelin and other gut hormones regulate digestion and metabolism, and the pancreas is both an endocrine and a digestive gland.
 - `connects-to` → **[Renal System](../renal-system/README.md)** — The kidney is itself an endocrine gland: it secretes erythropoietin and renin and activates vitamin D, while it is also the target of aldosterone, ADH and parathyroid hormone.
 - `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — Hormones are written on the skin: endocrine disease shows as acanthosis nigricans of insulin resistance, the hyperpigmentation of Addison's, myxoedema of thyroid disease and vitiligo of autoimmunity.
+- `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — Hormones build and maintain the frame: parathyroid hormone, vitamin D, sex steroids, growth hormone and cortisol govern bone and muscle, so endocrine disease causes osteoporosis, acromegalic arthropathy and steroid myopathy.
+- `connects-to` → **[Respiratory System](../respiratory-system/README.md)** — It reaches into the lungs: the pulmonary endothelium activates angiotensin via ACE, and endocrine disorders affect breathing — acromegaly causes sleep apnoea and hypothyroidism causes hypoventilation.
+- `connects-to` → **[Lymphatic System](../lymphatic-system/README.md)** — The thymus is an endocrine-immune organ: it secretes thymic hormones that direct T-cell maturation, and thyroid autoimmunity such as Graves' disease drives thymic hyperplasia.
 
 ## Pathology
 

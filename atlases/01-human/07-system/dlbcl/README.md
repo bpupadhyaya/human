@@ -214,6 +214,15 @@ cross_links:
   - target: 01-human/07-system/generalized-anxiety-disorder
     relation: connects-to
     note: "An aggressive but curable cancer breeds worry: the urgency of treatment, intensive immunochemotherapy and scan-anxiety over relapse in DLBCL foster chronic health anxiety alongside depression."
+  - target: 01-human/07-system/cardiovascular-system
+    relation: connects-to
+    note: "Its cure can scar the heart: the doxorubicin in R-CHOP causes dose-dependent cardiotoxicity, and mediastinal disease can directly involve the heart and pericardium."
+  - target: 01-human/07-system/respiratory-system
+    relation: connects-to
+    note: "Bulky chest disease obstructs the airway and vessels: primary mediastinal large B-cell lymphoma and bulky mediastinal nodes cause superior vena cava obstruction, airway compression and pleural effusions."
+  - target: 01-human/07-system/endocrine-system
+    relation: connects-to
+    note: "It can take over endocrine glands: DLBCL can present as primary thyroid lymphoma or bilateral adrenal lymphoma, the latter causing adrenal insufficiency."
 ---
 
 # Diffuse Large B-Cell Lymphoma
@@ -401,6 +410,9 @@ DLBCL is an aggressive malignancy of mature B cells. The normal equivalents are 
 - `connects-to` → **[Digestive System](../digestive-system/README.md)** — It is the commonest lymphoma of the gut: the GI tract is the leading extranodal site for DLBCL, where gastric or intestinal disease causes bleeding, obstruction and a risk of perforation during chemotherapy.
 - `connects-to` → **[Varicella-Zoster Virus](../../../02-pathogen/01-viruses/varicella-zoster-virus/README.md)** — R-CHOP reawakens shingles: the rituximab and steroids of DLBCL immunochemotherapy deplete B-cell and T-cell immunity, allowing latent varicella-zoster to reactivate, so prophylaxis is given.
 - `connects-to` → **[Generalized Anxiety Disorder](../generalized-anxiety-disorder/README.md)** — An aggressive but curable cancer breeds worry: the urgency of treatment, intensive immunochemotherapy and scan-anxiety over relapse in DLBCL foster chronic health anxiety alongside depression.
+- `connects-to` → **[Cardiovascular System](../cardiovascular-system/README.md)** — Its cure can scar the heart: the doxorubicin in R-CHOP causes dose-dependent cardiotoxicity, and mediastinal disease can directly involve the heart and pericardium.
+- `connects-to` → **[Respiratory System](../respiratory-system/README.md)** — Bulky chest disease obstructs the airway and vessels: primary mediastinal large B-cell lymphoma and bulky mediastinal nodes cause superior vena cava obstruction, airway compression and pleural effusions.
+- `connects-to` → **[Endocrine System](../endocrine-system/README.md)** — It can take over endocrine glands: DLBCL can present as primary thyroid lymphoma or bilateral adrenal lymphoma, the latter causing adrenal insufficiency.
 
 ---
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
