@@ -238,6 +238,15 @@ cross_links:
   - target: 01-human/07-system/musculoskeletal-system
     relation: connects-to
     note: "It bleeds into soft tissue: consumption of platelets and clotting factors causes spontaneous bleeding into muscles and, with purpura fulminans, ischaemic limb necrosis."
+  - target: 02-pathogen/02-bacteria/staphylococcus-aureus
+    relation: connects-to
+    note: "Sepsis and toxic shock ignite it: Staphylococcus aureus bacteraemia and toxic-shock syndrome are major triggers of DIC, the bacterial sepsis driving uncontrolled coagulation."
+  - target: 01-human/07-system/ahus
+    relation: connects-to
+    note: "A thrombotic-microangiopathy to distinguish: DIC must be told apart from aHUS and TTP, which also consume platelets and shear red cells but spare the clotting factors that DIC depletes."
+  - target: 01-human/07-system/heparin-induced-thrombocytopenia
+    relation: connects-to
+    note: "A paradoxical clotting comparator: like DIC, heparin-induced thrombocytopenia combines a falling platelet count with thrombosis, but through antibody-mediated platelet activation rather than consumption."
 ---
 
 # Disseminated Intravascular Coagulation
@@ -442,6 +451,9 @@ DIC is always **secondary** — it does not occur in isolation but as a conseque
 - `connects-to` → **[Cardiovascular System](../cardiovascular-system/README.md)** — It clots and bleeds in the vessels at once: DIC scatters microthrombi that occlude small vessels while consuming clotting factors, causing both ischaemia and haemorrhage with circulatory collapse.
 - `connects-to` → **[Immune System](../immune-system/README.md)** — It is driven by inflammation: sepsis and cytokine release trigger DIC through tissue factor and immunothrombosis, tying coagulation tightly to the innate immune response.
 - `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — It bleeds into soft tissue: consumption of platelets and clotting factors causes spontaneous bleeding into muscles and, with purpura fulminans, ischaemic limb necrosis.
+- `connects-to` → **[Staphylococcus aureus](../../../02-pathogen/02-bacteria/staphylococcus-aureus/README.md)** — Sepsis and toxic shock ignite it: Staphylococcus aureus bacteraemia and toxic-shock syndrome are major triggers of DIC, the bacterial sepsis driving uncontrolled coagulation.
+- `connects-to` → **[aHUS](../ahus/README.md)** — A thrombotic-microangiopathy to distinguish: DIC must be told apart from aHUS and TTP, which also consume platelets and shear red cells but spare the clotting factors that DIC depletes.
+- `connects-to` → **[Heparin-Induced Thrombocytopenia](../heparin-induced-thrombocytopenia/README.md)** — A paradoxical clotting comparator: like DIC, heparin-induced thrombocytopenia combines a falling platelet count with thrombosis, but through antibody-mediated platelet activation rather than consumption.
 
 ---
 

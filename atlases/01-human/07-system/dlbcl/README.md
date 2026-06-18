@@ -232,6 +232,15 @@ cross_links:
   - target: 01-human/07-system/reproductive-system
     relation: connects-to
     note: "The testis is a sanctuary site: primary testicular DLBCL is an aggressive form prone to relapse in the contralateral testis and central nervous system, needing prophylaxis."
+  - target: 03-medicine/01-modern/13-cancer/cancer-chemotherapy
+    relation: connects-to
+    note: "R-CHOP is the curative standard: rituximab with CHOP chemotherapy cures about 60% of diffuse large B-cell lymphoma, the backbone of first-line treatment."
+  - target: 03-medicine/01-modern/13-cancer/car-t
+    relation: connects-to
+    note: "A cure after relapse: CD19-directed CAR-T cells (axicabtagene, tisagenlecleucel) achieve durable remissions in relapsed or refractory DLBCL, now moving into earlier lines."
+  - target: 02-pathogen/01-viruses/hiv-1
+    relation: connects-to
+    note: "Immunodeficiency drives it: HIV markedly raises the risk of diffuse large B-cell lymphoma, an AIDS-defining cancer often EBV-associated, arising as immune surveillance fails."
 ---
 
 # Diffuse Large B-Cell Lymphoma
@@ -425,6 +434,9 @@ DLBCL is an aggressive malignancy of mature B cells. The normal equivalents are 
 - `connects-to` → **[Renal System](../renal-system/README.md)** — It infiltrates and obstructs the kidney: DLBCL can directly involve the kidneys or block the ureters with bulky retroperitoneal nodes, and tumour lysis at treatment threatens acute kidney injury.
 - `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — It grows in bone and marrow: DLBCL can present as primary bone lymphoma or infiltrate the marrow, causing pain, fractures and cytopenias.
 - `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — The testis is a sanctuary site: primary testicular DLBCL is an aggressive form prone to relapse in the contralateral testis and central nervous system, needing prophylaxis.
+- `connects-to` → **[Cancer Chemotherapy](../../../03-medicine/01-modern/13-cancer/cancer-chemotherapy/README.md)** — R-CHOP is the curative standard: rituximab with CHOP chemotherapy cures about 60% of diffuse large B-cell lymphoma, the backbone of first-line treatment.
+- `connects-to` → **[CAR-T](../../../03-medicine/01-modern/13-cancer/car-t/README.md)** — A cure after relapse: CD19-directed CAR-T cells (axicabtagene, tisagenlecleucel) achieve durable remissions in relapsed or refractory DLBCL, now moving into earlier lines.
+- `connects-to` → **[HIV-1](../../../02-pathogen/01-viruses/hiv-1/README.md)** — Immunodeficiency drives it: HIV markedly raises the risk of diffuse large B-cell lymphoma, an AIDS-defining cancer often EBV-associated, arising as immune surveillance fails.
 
 ---
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
