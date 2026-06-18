@@ -219,6 +219,15 @@ cross_links:
   - target: 01-human/07-system/endocrine-system
     relation: connects-to
     note: "It unsettles hormones and glucose: hepatitis C is linked to autoimmune thyroiditis and strongly promotes insulin resistance and type 2 diabetes, even before cirrhosis develops."
+  - target: 01-human/07-system/lymphatic-system
+    relation: connects-to
+    note: "It drives B-cell lymphoma: chronic hepatitis C, through sustained B-cell stimulation, causes marginal-zone, follicular and diffuse large B-cell lymphomas, with lymphadenopathy."
+  - target: 01-human/07-system/nervous-system
+    relation: connects-to
+    note: "It inflames the nerves and clouds the mind: cryoglobulinaemic vasculitis causes a painful peripheral neuropathy, and hepatitis C is associated with fatigue and cognitive 'brain fog'."
+  - target: 01-human/07-system/musculoskeletal-system
+    relation: connects-to
+    note: "It aches the joints and muscles: hepatitis C commonly causes arthralgia and a non-erosive arthritis, along with myalgia, as extrahepatic manifestations."
 ---
 
 # Hepatitis C
@@ -412,3 +421,6 @@ HCV cirrhosis → HCC risk 1–5% per year (annual ultrasound surveillance ± AF
 - `connects-to` → **[Renal System](../renal-system/README.md)** — It scars the kidney through cryoglobulins: hepatitis C is the classic cause of cryoglobulinaemic membranoproliferative glomerulonephritis, presenting with proteinuria, haematuria and declining renal function.
 - `connects-to` → **[Immune System](../immune-system/README.md)** — It hijacks B cells: chronic hepatitis C drives type II mixed cryoglobulinaemia and clonal B-cell expansion, fuelling autoimmunity, vasculitis and the lymphomas it predisposes to.
 - `connects-to` → **[Endocrine System](../endocrine-system/README.md)** — It unsettles hormones and glucose: hepatitis C is linked to autoimmune thyroiditis and strongly promotes insulin resistance and type 2 diabetes, even before cirrhosis develops.
+- `connects-to` → **[Lymphatic System](../lymphatic-system/README.md)** — It drives B-cell lymphoma: chronic hepatitis C, through sustained B-cell stimulation, causes marginal-zone, follicular and diffuse large B-cell lymphomas, with lymphadenopathy.
+- `connects-to` → **[Nervous System](../nervous-system/README.md)** — It inflames the nerves and clouds the mind: cryoglobulinaemic vasculitis causes a painful peripheral neuropathy, and hepatitis C is associated with fatigue and cognitive 'brain fog'.
+- `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — It aches the joints and muscles: hepatitis C commonly causes arthralgia and a non-erosive arthritis, along with myalgia, as extrahepatic manifestations.

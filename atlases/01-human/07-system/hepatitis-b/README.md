@@ -219,6 +219,15 @@ cross_links:
   - target: 01-human/07-system/musculoskeletal-system
     relation: connects-to
     note: "It can ache the joints before the jaundice: an immune-complex prodrome causes symmetrical arthralgia and arthritis, a recognised extrahepatic feature of acute hepatitis B."
+  - target: 01-human/07-system/cardiovascular-system
+    relation: connects-to
+    note: "It is the classic cause of polyarteritis nodosa: hepatitis B drives this medium-vessel vasculitis that damages coronary, mesenteric and renal arteries and causes hypertension."
+  - target: 01-human/07-system/lymphatic-system
+    relation: connects-to
+    note: "It drives lymphoma and lurks in the marrow: chronic hepatitis B raises the risk of B-cell lymphoma and reactivates dangerously during rituximab or chemotherapy, while cirrhosis brings splenomegaly."
+  - target: 01-human/07-system/endocrine-system
+    relation: connects-to
+    note: "Advancing liver disease unsettles hormones: hepatitis B cirrhosis causes hepatogenous diabetes from insulin resistance and hypogonadism from impaired hormone metabolism."
 ---
 
 # Hepatitis B
@@ -421,3 +430,6 @@ HDV is a satellite RNA virus that requires HBsAg for virion assembly:
 - `connects-to` → **[Renal System](../renal-system/README.md)** — It attacks the kidney by immune complex: hepatitis B is a classic cause of membranous nephropathy, especially in children, and drives the renal involvement of polyarteritis nodosa.
 - `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — Its onset can show on the skin: a serum-sickness-like prodrome brings urticaria and rash, and in children hepatitis B causes Gianotti-Crosti papular acrodermatitis.
 - `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — It can ache the joints before the jaundice: an immune-complex prodrome causes symmetrical arthralgia and arthritis, a recognised extrahepatic feature of acute hepatitis B.
+- `connects-to` → **[Cardiovascular System](../cardiovascular-system/README.md)** — It is the classic cause of polyarteritis nodosa: hepatitis B drives this medium-vessel vasculitis that damages coronary, mesenteric and renal arteries and causes hypertension.
+- `connects-to` → **[Lymphatic System](../lymphatic-system/README.md)** — It drives lymphoma and lurks in the marrow: chronic hepatitis B raises the risk of B-cell lymphoma and reactivates dangerously during rituximab or chemotherapy, while cirrhosis brings splenomegaly.
+- `connects-to` → **[Endocrine System](../endocrine-system/README.md)** — Advancing liver disease unsettles hormones: hepatitis B cirrhosis causes hepatogenous diabetes from insulin resistance and hypogonadism from impaired hormone metabolism.
