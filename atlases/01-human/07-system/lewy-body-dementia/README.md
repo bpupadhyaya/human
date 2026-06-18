@@ -229,6 +229,15 @@ cross_links:
   - target: 01-human/07-system/integumentary-system
     relation: connects-to
     note: "Immobility and drug sensitivity reach the skin: it brings pressure sores and seborrhoeic skin changes, while its severe neuroleptic sensitivity can trigger rigidity and neuroleptic malignant syndrome."
+  - target: 01-human/07-system/lymphatic-system
+    relation: connects-to
+    note: "Like other dementias it may fail to clear its waste protein: impaired glymphatic drainage during sleep is implicated in the build-up of alpha-synuclein that defines Lewy body disease."
+  - target: 01-human/07-system/reproductive-system
+    relation: connects-to
+    note: "Early autonomic failure reaches the pelvis: erectile dysfunction and urinary disturbance often precede the cognitive decline of Lewy body dementia by years."
+  - target: 03-medicine/01-modern/10-mental-health/fluoxetine
+    relation: connects-to
+    note: "Mood symptoms are common but drugs need care: SSRIs like fluoxetine treat the frequent depression, while antipsychotics must be used with great caution given the severe neuroleptic sensitivity of Lewy body dementia."
 ---
 
 # Lewy Body Dementia
@@ -425,6 +434,9 @@ Approximately 25-50% of clinically diagnosed DLB cases have significant AD co-pa
 - `connects-to` → **[Respiratory System](../respiratory-system/README.md)** — Swallowing failure floods the lungs: dysphagia in Lewy body dementia causes aspiration pneumonia, a leading cause of death, while REM sleep behaviour disorder disrupts breathing and sleep.
 - `connects-to` → **[Immune System](../immune-system/README.md)** — Misfolded protein stirs brain inflammation: alpha-synuclein aggregation provokes microglial neuroinflammation, an immune response implicated in the progression of Lewy body dementia.
 - `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — Immobility and drug sensitivity reach the skin: it brings pressure sores and seborrhoeic skin changes, while its severe neuroleptic sensitivity can trigger rigidity and neuroleptic malignant syndrome.
+- `connects-to` → **[Lymphatic System](../lymphatic-system/README.md)** — Like other dementias it may fail to clear its waste protein: impaired glymphatic drainage during sleep is implicated in the build-up of alpha-synuclein that defines Lewy body disease.
+- `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — Early autonomic failure reaches the pelvis: erectile dysfunction and urinary disturbance often precede the cognitive decline of Lewy body dementia by years.
+- `connects-to` → **[Fluoxetine](../../../03-medicine/01-modern/10-mental-health/fluoxetine/README.md)** — Mood symptoms are common but drugs need care: SSRIs like fluoxetine treat the frequent depression, while antipsychotics must be used with great caution given the severe neuroleptic sensitivity of Lewy body dementia.
 
 [^mckeith-2017-dlb-criteria]: McKeith IG, Boeve BF, Dickson DW, et al. Diagnosis and management of dementia with Lewy bodies: Fourth consensus report of the DLB Consortium. *Neurology.* 2017;89(1):88-100. [doi:10.1212/WNL.0000000000004058](https://doi.org/10.1212/WNL.0000000000004058) · [PubMed 28592453](https://pubmed.ncbi.nlm.nih.gov/28592453/)
 [^spillantini-1997-lewy-body]: Spillantini MG, Schmidt ML, Lee VM, Trojanowski JQ, Jakes R, Goedert M. Alpha-synuclein in Lewy bodies. *Nature.* 1997;388(6645):839-840. [doi:10.1038/42166](https://doi.org/10.1038/42166) · [PubMed 9278044](https://pubmed.ncbi.nlm.nih.gov/9278044/)
