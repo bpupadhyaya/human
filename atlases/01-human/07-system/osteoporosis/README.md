@@ -226,6 +226,15 @@ cross_links:
   - target: 01-human/07-system/cardiovascular-system
     relation: connects-to
     note: "Bone loss and vessel calcification track together: low bone density and vascular calcification share mechanisms in the 'calcification paradox', linking osteoporosis to atherosclerotic disease."
+  - target: 01-human/07-system/renal-system
+    relation: connects-to
+    note: "The kidney governs the minerals bone needs: chronic kidney disease disturbs calcium, phosphate and vitamin D activation, producing renal osteodystrophy and accelerating bone loss."
+  - target: 03-medicine/03-food/magnesium-dietary
+    relation: connects-to
+    note: "A mineral for the matrix: magnesium is needed for healthy bone mineralisation and parathyroid function, and chronic deficiency contributes to osteoporosis alongside calcium and vitamin D."
+  - target: 01-human/07-system/integumentary-system
+    relation: connects-to
+    note: "Bone and skin thin together: oestrogen loss and ageing reduce both bone density and dermal collagen, so skin thinning broadly tracks with osteoporosis risk."
 ---
 
 # Osteoporosis
@@ -403,6 +412,9 @@ All newly diagnosed osteoporosis should be evaluated for secondary causes: CBC (
 - `connects-to` → **[Respiratory System](../respiratory-system/README.md)** — Spinal fractures crush the chest: multiple thoracic vertebral compression fractures cause kyphosis that restricts lung expansion, reducing vital capacity and worsening breathlessness.
 - `connects-to` → **[Nervous System](../nervous-system/README.md)** — Collapsing vertebrae reach the nerves: vertebral fractures cause chronic back pain and can compress the spinal cord or nerve roots, while fall-related fractures risk head injury.
 - `connects-to` → **[Cardiovascular System](../cardiovascular-system/README.md)** — Bone loss and vessel calcification track together: low bone density and vascular calcification share mechanisms in the 'calcification paradox', linking osteoporosis to atherosclerotic disease.
+- `connects-to` → **[Renal System](../renal-system/README.md)** — The kidney governs the minerals bone needs: chronic kidney disease disturbs calcium, phosphate and vitamin D activation, producing renal osteodystrophy and accelerating bone loss.
+- `connects-to` → **[Dietary Magnesium](../../../03-medicine/03-food/magnesium-dietary/README.md)** — A mineral for the matrix: magnesium is needed for healthy bone mineralisation and parathyroid function, and chronic deficiency contributes to osteoporosis alongside calcium and vitamin D.
+- `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — Bone and skin thin together: oestrogen loss and ageing reduce both bone density and dermal collagen, so skin thinning broadly tracks with osteoporosis risk.
 
 [^kanis-2019-who-osteoporosis]: Kanis JA, Cooper C, Rizzoli R, Reginster JY. European guidance for the diagnosis and management of osteoporosis in postmenopausal women. *Osteoporos Int.* 2019;30(1):3-44. [doi:10.1007/s00198-018-4704-5](https://doi.org/10.1007/s00198-018-4704-5) · [PubMed 30324412](https://pubmed.ncbi.nlm.nih.gov/30324412/)
 [^cosman-2016-romosozumab]: Cosman F, Crittenden DB, Adachi JD, et al. Romosozumab treatment in postmenopausal women with osteoporosis. *N Engl J Med.* 2016;375(16):1532-1543. [doi:10.1056/NEJMoa1607948](https://doi.org/10.1056/NEJMoa1607948) · [PubMed 27641143](https://pubmed.ncbi.nlm.nih.gov/27641143/)
