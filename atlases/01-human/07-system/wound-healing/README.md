@@ -229,6 +229,15 @@ cross_links:
   - target: 01-human/07-system/reproductive-system
     relation: connects-to
     note: "Hormones and life-stage shape healing: oestrogen promotes wound repair so healing slows after menopause, while fetal wounds heal scarlessly — a model for regenerative repair."
+  - target: 01-human/07-system/digestive-system
+    relation: connects-to
+    note: "Nutrition and the gut underpin repair: protein, energy and the gut's absorptive function fuel healing, and anastomotic wounds in the bowel must heal against constant mechanical and bacterial stress."
+  - target: 01-human/07-system/renal-system
+    relation: connects-to
+    note: "Uraemia stalls healing: chronic kidney disease impairs wound repair through uraemic toxins, anaemia and poor nutrition, a major reason dialysis-access and surgical wounds heal poorly."
+  - target: 03-medicine/03-food/zinc-dietary
+    relation: connects-to
+    note: "Zinc is essential to repair: it is a cofactor for the enzymes of collagen synthesis and cell proliferation, so zinc deficiency markedly delays wound healing."
 ---
 
 # Wound Healing
@@ -418,6 +427,9 @@ cross_links:
 - `connects-to` → **[Cardiovascular System](../cardiovascular-system/README.md)** — Repair depends on blood supply: healing requires perfusion and an angiogenic phase, so ischaemia from peripheral arterial disease and poor perfusion produce chronic, non-healing wounds.
 - `connects-to` → **[Respiratory System](../respiratory-system/README.md)** — Oxygen drives collagen synthesis: adequate tissue oxygenation is essential for repair, so hypoxia and the vasoconstriction of smoking markedly impair wound healing.
 - `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — Hormones and life-stage shape healing: oestrogen promotes wound repair so healing slows after menopause, while fetal wounds heal scarlessly — a model for regenerative repair.
+- `connects-to` → **[Digestive System](../digestive-system/README.md)** — Nutrition and the gut underpin repair: protein, energy and the gut's absorptive function fuel healing, and anastomotic wounds in the bowel must heal against constant mechanical and bacterial stress.
+- `connects-to` → **[Renal System](../renal-system/README.md)** — Uraemia stalls healing: chronic kidney disease impairs wound repair through uraemic toxins, anaemia and poor nutrition, a major reason dialysis-access and surgical wounds heal poorly.
+- `connects-to` → **[Dietary Zinc](../../../03-medicine/03-food/zinc-dietary/README.md)** — Zinc is essential to repair: it is a cofactor for the enzymes of collagen synthesis and cell proliferation, so zinc deficiency markedly delays wound healing.
 
 [^singer-1999-wound-healing-review]: Singer AJ, Clark RA. Cutaneous wound healing. *N Engl J Med.* 1999;341(10):738-746. [doi:10.1056/NEJM199909023411006](https://doi.org/10.1056/NEJM199909023411006) · [PubMed 10471461](https://pubmed.ncbi.nlm.nih.gov/10471461/)
 [^gurtner-2008-wound-repair-regeneration]: Gurtner GC, Werner S, Barrandon Y, Longaker MT. Wound repair and regeneration. *Nature.* 2008;453(7193):314-321. [doi:10.1038/nature07039](https://doi.org/10.1038/nature07039) · [PubMed 18480812](https://pubmed.ncbi.nlm.nih.gov/18480812/)

@@ -232,6 +232,15 @@ cross_links:
   - target: 01-human/07-system/cardiovascular-system
     relation: connects-to
     note: "Its induction chemotherapy is cardiotoxic: the daunorubicin and other anthracyclines used to treat AML carry a dose-dependent risk of cardiomyopathy and heart failure."
+  - target: 03-medicine/01-modern/13-cancer/targeted-therapy
+    relation: connects-to
+    note: "Precision drugs now match its mutations: FLT3 inhibitors (midostaurin), IDH inhibitors and the BCL-2 inhibitor venetoclax target specific AML subtypes beyond standard chemotherapy."
+  - target: 01-human/07-system/musculoskeletal-system
+    relation: connects-to
+    note: "It grows in and out of the marrow: AML crowds the bone marrow causing bone pain and cytopenias, and a myeloid sarcoma (chloroma) can form a solid mass in bone or soft tissue."
+  - target: 01-human/07-system/endocrine-system
+    relation: connects-to
+    note: "Treatment leaves endocrine scars: chemotherapy and stem-cell transplant for AML impair fertility and thyroid and gonadal function in survivors."
 ---
 
 # AML
@@ -414,6 +423,9 @@ AML requires cooperative mutations in at least 2 functional categories (Gillilan
 - `connects-to` → **[Respiratory System](../respiratory-system/README.md)** — It clogs and infects the lungs: hyperleukocytosis causes pulmonary leukostasis with breathlessness, and profound neutropenia invites fungal and bacterial pneumonia.
 - `connects-to` → **[Renal System](../renal-system/README.md)** — Its breakdown floods the kidney: tumour lysis syndrome at induction releases urate and potassium causing acute kidney injury, and monocytic AML lysozyme injures the renal tubules.
 - `connects-to` → **[Cardiovascular System](../cardiovascular-system/README.md)** — Its induction chemotherapy is cardiotoxic: the daunorubicin and other anthracyclines used to treat AML carry a dose-dependent risk of cardiomyopathy and heart failure.
+- `connects-to` → **[Targeted Therapy](../../../03-medicine/01-modern/13-cancer/targeted-therapy/README.md)** — Precision drugs now match its mutations: FLT3 inhibitors (midostaurin), IDH inhibitors and the BCL-2 inhibitor venetoclax target specific AML subtypes beyond standard chemotherapy.
+- `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — It grows in and out of the marrow: AML crowds the bone marrow causing bone pain and cytopenias, and a myeloid sarcoma (chloroma) can form a solid mass in bone or soft tissue.
+- `connects-to` → **[Endocrine System](../endocrine-system/README.md)** — Treatment leaves endocrine scars: chemotherapy and stem-cell transplant for AML impair fertility and thyroid and gonadal function in survivors.
 
 [^dinardo-2020-viale-a]: DiNardo CD, Jonas BA, Pullarkat V, et al. Azacitidine and venetoclax in previously untreated acute myeloid leukemia. *N Engl J Med.* 2020;383(7):617-629. [doi:10.1056/NEJMoa2012971](https://doi.org/10.1056/NEJMoa2012971) · [PubMed 32786187](https://pubmed.ncbi.nlm.nih.gov/32786187/)
 [^stone-2017-midostaurin]: Stone RM, Mandrekar SJ, Sanford BL, et al. Midostaurin plus chemotherapy for acute myeloid leukemia with a FLT3 mutation. *N Engl J Med.* 2017;377(5):454-464. [doi:10.1056/NEJMoa1614359](https://doi.org/10.1056/NEJMoa1614359) · [PubMed 28644114](https://pubmed.ncbi.nlm.nih.gov/28644114/)
