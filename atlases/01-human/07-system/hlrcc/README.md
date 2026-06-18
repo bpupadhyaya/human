@@ -223,6 +223,15 @@ cross_links:
   - target: 01-human/07-system/cardiovascular-system
     relation: connects-to
     note: "Its metabolic defect drives tumour vessels: fumarate hydratase loss stabilises HIF in a pseudohypoxic state that boosts VEGF and tumour vascularity, the rationale for anti-VEGF bevacizumab-based therapy."
+  - target: 03-medicine/01-modern/13-cancer/targeted-therapy
+    relation: connects-to
+    note: "It needs a tailored regimen: the aggressive type-2 papillary RCC of HLRCC is treated by combining anti-VEGF and EGFR-targeted agents (bevacizumab plus erlotinib) rather than the standard kidney-cancer drugs."
+  - target: 01-human/07-system/nervous-system
+    relation: connects-to
+    note: "Its kidney cancer spreads early and far: the type-2 papillary RCC of HLRCC metastasises rapidly, including to the brain, even from small primary tumours."
+  - target: 01-human/07-system/digestive-system
+    relation: connects-to
+    note: "It reaches the liver and reshapes metabolism: HLRCC's renal cancer commonly metastasises to the liver, and the fumarate-hydratase defect drives a Warburg-like metabolic shift in its cells."
 ---
 
 # Hereditary Leiomyomatosis and Renal Cell Carcinoma
@@ -423,6 +432,9 @@ Cutaneous:
 - `connects-to` → **[Respiratory System](../respiratory-system/README.md)** — Its kidney cancer races to the lungs: the aggressive type 2 papillary renal cell carcinoma of HLRCC metastasises early and frequently to the lungs, so chest imaging is part of surveillance.
 - `connects-to` → **[Lymphatic System](../lymphatic-system/README.md)** — It spreads early to the nodes: HLRCC renal cell carcinoma involves regional and retroperitoneal lymph nodes early, a marker of its unusual aggressiveness among kidney cancers.
 - `connects-to` → **[Cardiovascular System](../cardiovascular-system/README.md)** — Its metabolic defect drives tumour vessels: fumarate hydratase loss stabilises HIF in a pseudohypoxic state that boosts VEGF and tumour vascularity, the rationale for anti-VEGF bevacizumab-based therapy.
+- `connects-to` → **[Targeted Therapy](../../../03-medicine/01-modern/13-cancer/targeted-therapy/README.md)** — It needs a tailored regimen: the aggressive type-2 papillary RCC of HLRCC is treated by combining anti-VEGF and EGFR-targeted agents (bevacizumab plus erlotinib) rather than the standard kidney-cancer drugs.
+- `connects-to` → **[Nervous System](../nervous-system/README.md)** — Its kidney cancer spreads early and far: the type-2 papillary RCC of HLRCC metastasises rapidly, including to the brain, even from small primary tumours.
+- `connects-to` → **[Digestive System](../digestive-system/README.md)** — It reaches the liver and reshapes metabolism: HLRCC's renal cancer commonly metastasises to the liver, and the fumarate-hydratase defect drives a Warburg-like metabolic shift in its cells.
 
 [^tomlinson-2002-fh]: Tomlinson IP, Alam NA, Rowan AJ, et al. Germline mutations in FH predispose to dominantly inherited uterine fibroids, skin leiomyomata and papillary renal cell cancer. *Nat Genet.* 2002;30(4):406-410. [doi:10.1038/ng849](https://doi.org/10.1038/ng849) · [PubMed 11865300](https://pubmed.ncbi.nlm.nih.gov/11865300/)
 [^linehan-2013-fh-review]: Linehan WM, Rouault TA. Molecular pathways: fumarate hydratase-deficient kidney cancer — targeting the Warburg effect in cancer. *Clin Cancer Res.* 2013;19(13):3345-3352. [doi:10.1158/1078-0432.CCR-13-0304](https://doi.org/10.1158/1078-0432.CCR-13-0304) · [PubMed 23836472](https://pubmed.ncbi.nlm.nih.gov/23836472/)
