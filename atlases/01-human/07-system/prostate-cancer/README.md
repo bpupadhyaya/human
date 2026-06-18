@@ -241,6 +241,15 @@ cross_links:
   - target: 03-medicine/03-food/sulforaphane
     relation: connects-to
     note: "Diet draws chemoprevention interest: cruciferous-vegetable sulforaphane is studied for slowing prostate cancer, part of the dietary research around this hormone-driven tumour."
+  - target: 03-medicine/01-modern/13-cancer/cancer-chemotherapy
+    relation: connects-to
+    note: "Taxanes for castration-resistant disease: docetaxel and cabazitaxel chemotherapy prolong survival in metastatic prostate cancer once it escapes hormonal control, used alongside androgen-pathway inhibitors."
+  - target: 01-human/05-tissue/cortical-bone
+    relation: connects-to
+    note: "It seeds the skeleton with dense bone: prostate cancer characteristically makes osteoblastic (sclerotic) bone metastases driving pain and fractures, treated with radium-223, denosumab and bisphosphonates targeting the bone."
+  - target: 03-medicine/01-modern/13-cancer/checkpoint-inhibitors
+    relation: connects-to
+    note: "A largely cold tumour: most prostate cancers respond poorly to PD-1 checkpoint blockade owing to low mutational burden and sparse T-cell infiltrate, with benefit limited to the rare MSI-high or dMMR tumours."
 ---
 
 # Prostate Cancer
@@ -442,6 +451,9 @@ cross_links:
 - `connects-to` → **[Targeted Therapy](../../../03-medicine/01-modern/13-cancer/targeted-therapy/README.md)** — Hormonal and precision drugs lead its care: androgen-deprivation and AR inhibitors (enzalutamide, abiraterone), PARP inhibitors for BRCA-mutant disease and Lu-177-PSMA radioligand therapy treat advanced prostate cancer.
 - `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — Treatment shows on the skin: androgen-deprivation therapy causes hot flushes and gynaecomastia, and rare cutaneous metastases mark advanced prostate cancer.
 - `connects-to` → **[Sulforaphane](../../../03-medicine/03-food/sulforaphane/README.md)** — Diet draws chemoprevention interest: cruciferous-vegetable sulforaphane is studied for slowing prostate cancer, part of the dietary research around this hormone-driven tumour.
+- `connects-to` → **[Cancer Chemotherapy](../../../03-medicine/01-modern/13-cancer/cancer-chemotherapy/README.md)** — Taxanes for castration-resistant disease: docetaxel and cabazitaxel chemotherapy prolong survival in metastatic prostate cancer once it escapes hormonal control, used alongside androgen-pathway inhibitors.
+- `connects-to` → **[Cortical Bone](../../05-tissue/cortical-bone/README.md)** — It seeds the skeleton with dense bone: prostate cancer characteristically makes osteoblastic (sclerotic) bone metastases driving pain and fractures, treated with radium-223, denosumab and bisphosphonates targeting the bone.
+- `connects-to` → **[Checkpoint Inhibitors](../../../03-medicine/01-modern/13-cancer/checkpoint-inhibitors/README.md)** — A largely cold tumour: most prostate cancers respond poorly to PD-1 checkpoint blockade owing to low mutational burden and sparse T-cell infiltrate, with benefit limited to the rare MSI-high or dMMR tumours.
 
 [^beer-2014-prevail]: Beer TM, Armstrong AJ, Rathkopf D, et al. Enzalutamide in metastatic prostate cancer before chemotherapy. *N Engl J Med.* 2014;371(5):424-433. [doi:10.1056/NEJMoa1405095](https://doi.org/10.1056/NEJMoa1405095) · [PubMed 24881730](https://pubmed.ncbi.nlm.nih.gov/24881730/)
 [^sartor-2021-vision]: Sartor O, de Bono J, Chi KN, et al. Lutetium-PSMA-617 for metastatic castration-resistant prostate cancer. *N Engl J Med.* 2021;385(12):1091-1103. [doi:10.1056/NEJMoa2107322](https://doi.org/10.1056/NEJMoa2107322) · [PubMed 34161051](https://pubmed.ncbi.nlm.nih.gov/34161051/)

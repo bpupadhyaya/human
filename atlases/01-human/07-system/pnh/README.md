@@ -235,6 +235,15 @@ cross_links:
   - target: 03-medicine/01-modern/09-hematology/warfarin
     relation: connects-to
     note: "Anticoagulation guards against its clots: before complement inhibitors, anticoagulation including warfarin was central to managing the life-threatening venous thrombosis of PNH, still used adjunctively."
+  - target: 03-medicine/01-modern/13-cancer/cancer-chemotherapy
+    relation: connects-to
+    note: "Marrow failure links it to cytotoxics: PNH arises against aplastic anaemia and MDS, whose immunosuppressive and chemotherapy regimens — and conditioning for the curative bone-marrow transplant — intersect with its course."
+  - target: 01-human/07-system/sickle-cell-disease
+    relation: connects-to
+    note: "Both unleash free haemoglobin: PNH and sickle cell disease share intravascular haemolysis that releases cell-free haemoglobin, scavenging nitric oxide to cause smooth-muscle dystonia, pulmonary hypertension and thrombosis."
+  - target: 01-human/05-tissue/hepatic-lobule
+    relation: connects-to
+    note: "It clots the hepatic veins: PNH characteristically causes Budd-Chiari syndrome, where hepatic-vein thrombosis congests the centrilobular zones of the liver lobule, a leading cause of its mortality."
 ---
 
 # Paroxysmal Nocturnal Hemoglobinuria
@@ -399,6 +408,9 @@ When PIGA is mutated in an HSC → all progeny cells (RBCs, WBCs, platelets) of 
 - `connects-to` → **[Targeted Therapy](../../../03-medicine/01-modern/13-cancer/targeted-therapy/README.md)** — Complement inhibitors transformed it: anti-C5 antibodies (eculizumab, ravulizumab) and the anti-C3 agent pegcetacoplan block the complement-mediated haemolysis and thrombosis of PNH.
 - `connects-to` → **[Lymphatic System](../lymphatic-system/README.md)** — It springs from failing marrow under immune attack: PNH clones expand from GPI-deficient stem cells that escape the T-cell-mediated marrow destruction of aplastic anaemia, a lymphoid-immune origin.
 - `connects-to` → **[Warfarin](../../../03-medicine/01-modern/09-hematology/warfarin/README.md)** — Anticoagulation guards against its clots: before complement inhibitors, anticoagulation including warfarin was central to managing the life-threatening venous thrombosis of PNH, still used adjunctively.
+- `connects-to` → **[Cancer Chemotherapy](../../../03-medicine/01-modern/13-cancer/cancer-chemotherapy/README.md)** — Marrow failure links it to cytotoxics: PNH arises against aplastic anaemia and MDS, whose immunosuppressive and chemotherapy regimens — and conditioning for the curative bone-marrow transplant — intersect with its course.
+- `connects-to` → **[Sickle Cell Disease](../sickle-cell-disease/README.md)** — Both unleash free haemoglobin: PNH and sickle cell disease share intravascular haemolysis that releases cell-free haemoglobin, scavenging nitric oxide to cause smooth-muscle dystonia, pulmonary hypertension and thrombosis.
+- `connects-to` → **[Hepatic Lobule](../../05-tissue/hepatic-lobule/README.md)** — It clots the hepatic veins: PNH characteristically causes Budd-Chiari syndrome, where hepatic-vein thrombosis congests the centrilobular zones of the liver lobule, a leading cause of its mortality.
 
 ---
 
