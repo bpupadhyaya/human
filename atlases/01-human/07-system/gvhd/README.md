@@ -217,6 +217,15 @@ cross_links:
   - target: 01-human/07-system/respiratory-system
     relation: connects-to
     note: "Chronic disease scars the airways: lung GVHD presents as bronchiolitis obliterans, an obstructive, progressive and often irreversible narrowing of the small airways."
+  - target: 01-human/07-system/nervous-system
+    relation: connects-to
+    note: "It and its drugs can harm the nerves: chronic GVHD causes immune-mediated peripheral neuropathy and myositis, while the calcineurin inhibitors used to treat it cause tremor, seizures and PRES."
+  - target: 01-human/07-system/endocrine-system
+    relation: connects-to
+    note: "Transplant and chronic GVHD derail hormones: thyroid dysfunction, gonadal failure and steroid-induced adrenal insufficiency are common endocrine complications after allogeneic transplant."
+  - target: 01-human/07-system/renal-system
+    relation: connects-to
+    note: "It can attack the kidney: membranous nephropathy is a recognised renal manifestation of chronic GVHD, compounded by the nephrotoxicity of calcineurin-inhibitor immunosuppression."
 ---
 
 # Graft-Versus-Host Disease
@@ -421,6 +430,9 @@ The protective Treg/IL-10 axis is the key biological counterbalance to alloreact
 - `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — The skin is its commonest target: GVHD produces an acute maculopapular rash and, in chronic disease, lichenoid and sclerodermatous skin with fibrosis, dyspigmentation and nail and hair loss.
 - `connects-to` → **[Digestive System](../digestive-system/README.md)** — It attacks the gut and liver: GVHD causes profuse secretory diarrhoea, nausea and mucositis along the GI tract, and a cholestatic hepatitis when it strikes the liver.
 - `connects-to` → **[Respiratory System](../respiratory-system/README.md)** — Chronic disease scars the airways: lung GVHD presents as bronchiolitis obliterans, an obstructive, progressive and often irreversible narrowing of the small airways.
+- `connects-to` → **[Nervous System](../nervous-system/README.md)** — It and its drugs can harm the nerves: chronic GVHD causes immune-mediated peripheral neuropathy and myositis, while the calcineurin inhibitors used to treat it cause tremor, seizures and PRES.
+- `connects-to` → **[Endocrine System](../endocrine-system/README.md)** — Transplant and chronic GVHD derail hormones: thyroid dysfunction, gonadal failure and steroid-induced adrenal insufficiency are common endocrine complications after allogeneic transplant.
+- `connects-to` → **[Renal System](../renal-system/README.md)** — It can attack the kidney: membranous nephropathy is a recognised renal manifestation of chronic GVHD, compounded by the nephrotoxicity of calcineurin-inhibitor immunosuppression.
 
 [^ferrara-2009-gvhd-review]: Ferrara JL, Levine JE, Reddy P, Holler E. Graft-versus-host disease. *Lancet.* 2009;373(9674):1550-1561. [doi:10.1016/S0140-6736(09)60237-3](https://doi.org/10.1016/S0140-6736(09)60237-3) · [PubMed 19380114](https://pubmed.ncbi.nlm.nih.gov/19380114/)
 [^zeiser-2020-ruxolitinib-gvhd-reach]: Zeiser R, von Bubnoff N, Butler J, et al. Ruxolitinib for Glucocorticoid-Refractory Acute Graft-versus-Host Disease. *N Engl J Med.* 2020;382(19):1800-1810. [doi:10.1056/NEJMoa1917635](https://doi.org/10.1056/NEJMoa1917635) · [PubMed 32374962](https://pubmed.ncbi.nlm.nih.gov/32374962/)
