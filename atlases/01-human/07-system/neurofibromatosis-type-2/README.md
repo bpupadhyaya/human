@@ -214,6 +214,15 @@ cross_links:
   - target: 01-human/07-system/digestive-system
     relation: connects-to
     note: "The same drug can perforate the gut: bevacizumab therapy for NF2, by impairing angiogenesis, carries a risk of gastrointestinal bleeding and bowel perforation."
+  - target: 01-human/07-system/respiratory-system
+    relation: connects-to
+    note: "High tumours can stop the breath: foramen-magnum and high cervical-cord schwannomas, ependymomas and meningiomas, or a phrenic-nerve schwannoma, can impair the respiratory muscles."
+  - target: 01-human/07-system/immune-system
+    relation: connects-to
+    note: "Its biology and drug work on growth signals: merlin, the NF2 protein, enforces contact-dependent growth arrest, and the bevacizumab that shrinks vestibular schwannomas blocks tumour angiogenesis."
+  - target: 01-human/07-system/endocrine-system
+    relation: connects-to
+    note: "Its anti-angiogenic drug unsettles the thyroid: bevacizumab, used to shrink vestibular schwannomas in NF2, can cause hypothyroidism and hypertension as class effects of VEGF blockade."
 ---
 
 # Neurofibromatosis Type 2
@@ -399,6 +408,9 @@ Merlin has an N-terminal FERM domain (α, β, γ lobes) that binds membrane lipi
 - `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — Losing balance topples the body: the bilateral vestibular schwannomas of NF2 destroy balance as well as hearing, and spinal tumours add weakness, together causing falls and fractures.
 - `connects-to` → **[Cardiovascular System](../cardiovascular-system/README.md)** — Its anti-VEGF drug strains the vessels: the bevacizumab used to shrink NF2 schwannomas and preserve hearing causes hypertension and a recognised risk of arterial thromboembolic events.
 - `connects-to` → **[Digestive System](../digestive-system/README.md)** — The same drug can perforate the gut: bevacizumab therapy for NF2, by impairing angiogenesis, carries a risk of gastrointestinal bleeding and bowel perforation.
+- `connects-to` → **[Respiratory System](../respiratory-system/README.md)** — High tumours can stop the breath: foramen-magnum and high cervical-cord schwannomas, ependymomas and meningiomas, or a phrenic-nerve schwannoma, can impair the respiratory muscles.
+- `connects-to` → **[Immune System](../immune-system/README.md)** — Its biology and drug work on growth signals: merlin, the NF2 protein, enforces contact-dependent growth arrest, and the bevacizumab that shrinks vestibular schwannomas blocks tumour angiogenesis.
+- `connects-to` → **[Endocrine System](../endocrine-system/README.md)** — Its anti-angiogenic drug unsettles the thyroid: bevacizumab, used to shrink vestibular schwannomas in NF2, can cause hypothyroidism and hypertension as class effects of VEGF blockade.
 
 [^asthagiri-2009-nf2-lancet]: Asthagiri AR, Parry DM, Butman JA, et al. Neurofibromatosis type 2. *Lancet.* 2009;373(9679):1974-1986. [doi:10.1016/S0140-6736(09)60259-2](https://doi.org/10.1016/S0140-6736(09)60259-2) · [PubMed 19476995](https://pubmed.ncbi.nlm.nih.gov/19476995/)
 [^plotkin-2009-nf2-bevacizumab]: Plotkin SR, Stemmer-Rachamimov AO, Barker FG 2nd, et al. Hearing improvement after bevacizumab in patients with neurofibromatosis type 2. *N Engl J Med.* 2009;361(4):358-367. [doi:10.1056/NEJMoa0902579](https://doi.org/10.1056/NEJMoa0902579) · [PubMed 19587327](https://pubmed.ncbi.nlm.nih.gov/19587327/)

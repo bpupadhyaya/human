@@ -214,6 +214,15 @@ cross_links:
   - target: 01-human/07-system/digestive-system
     relation: connects-to
     note: "Neurofibromas and tumours stud the gut: NF1 causes gastrointestinal neurofibromas that can bleed or obstruct, and predisposes to GIST and duodenal somatostatinoma along the digestive tract."
+  - target: 01-human/07-system/renal-system
+    relation: connects-to
+    note: "Its vasculopathy narrows the renal artery: NF1 causes renal artery stenosis, a treatable cause of renovascular hypertension that is important to find in young patients with high blood pressure."
+  - target: 01-human/07-system/respiratory-system
+    relation: connects-to
+    note: "It can scar the lungs and crowd the chest: NF1 is associated with a diffuse interstitial lung disease with bullae, and plexiform neurofibromas can involve the chest wall and airway."
+  - target: 01-human/07-system/immune-system
+    relation: connects-to
+    note: "Mast cells feed its tumours and it predisposes to leukaemia: mast cells recruited into neurofibromas drive their growth and itch, and NF1 children have a raised risk of juvenile myelomonocytic leukaemia."
 ---
 
 # Neurofibromatosis Type 1
@@ -392,6 +401,9 @@ In glioma and MPNST: additional alterations required — MPNST requires CDKN2A/2
 - `connects-to` → **[Endocrine System](../endocrine-system/README.md)** — RAS dysregulation disturbs growth and glands: NF1 optic-pathway gliomas near the hypothalamus cause precocious puberty and growth-hormone problems, and NF1 predisposes to phaeochromocytoma and somatostatinoma.
 - `connects-to` → **[Cardiovascular System](../cardiovascular-system/README.md)** — It is a vasculopathy too: NF1 causes a distinctive arteriopathy with renal-artery stenosis driving hypertension, plus aneurysms and a moyamoya-like cerebral vasculopathy.
 - `connects-to` → **[Digestive System](../digestive-system/README.md)** — Neurofibromas and tumours stud the gut: NF1 causes gastrointestinal neurofibromas that can bleed or obstruct, and predisposes to GIST and duodenal somatostatinoma along the digestive tract.
+- `connects-to` → **[Renal System](../renal-system/README.md)** — Its vasculopathy narrows the renal artery: NF1 causes renal artery stenosis, a treatable cause of renovascular hypertension that is important to find in young patients with high blood pressure.
+- `connects-to` → **[Respiratory System](../respiratory-system/README.md)** — It can scar the lungs and crowd the chest: NF1 is associated with a diffuse interstitial lung disease with bullae, and plexiform neurofibromas can involve the chest wall and airway.
+- `connects-to` → **[Immune System](../immune-system/README.md)** — Mast cells feed its tumours and it predisposes to leukaemia: mast cells recruited into neurofibromas drive their growth and itch, and NF1 children have a raised risk of juvenile myelomonocytic leukaemia.
 
 [^gutmann-2017-nf1-primer]: Gutmann DH, Ferner RE, Listernick RH, et al. Neurofibromatosis type 1. *Nat Rev Dis Primers.* 2017;3:17004. [doi:10.1038/nrdp.2017.4](https://doi.org/10.1038/nrdp.2017.4) · [PubMed 28230061](https://pubmed.ncbi.nlm.nih.gov/28230061/)
 [^dombi-2016-selumetinib]: Dombi E, Baldwin A, Marcus LJ, et al. Activity of Selumetinib in Neurofibromatosis Type 1-Related Plexiform Neurofibromas. *N Engl J Med.* 2016;375(26):2550-2560. [doi:10.1056/NEJMoa1605943](https://doi.org/10.1056/NEJMoa1605943) · [PubMed 28029918](https://pubmed.ncbi.nlm.nih.gov/28029918/)
