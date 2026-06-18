@@ -232,6 +232,15 @@ cross_links:
   - target: 01-human/07-system/tuberous-sclerosis-complex
     relation: connects-to
     note: "A fellow syndromic cause of childhood heart tumours: like tuberous sclerosis with its cardiac rhabdomyomas, Noonan syndrome produces congenital heart disease in a multisystem autosomal-dominant disorder."
+  - target: 03-medicine/01-modern/13-cancer/cancer-chemotherapy
+    relation: connects-to
+    note: "Chemo for its leukaemias: Noonan syndrome greatly raises the risk of juvenile myelomonocytic leukaemia and other myeloid neoplasms, treated with chemotherapy and stem-cell transplant."
+  - target: 01-human/05-tissue/endocardium
+    relation: connects-to
+    note: "A dysplastic pulmonary valve defines its heart disease: Noonan syndrome characteristically causes pulmonary valve stenosis from a thickened dysplastic valve, alongside hypertrophic cardiomyopathy."
+  - target: 01-human/05-tissue/cardiac-conduction-system
+    relation: connects-to
+    note: "Its ECG bears a signature: Noonan syndrome produces characteristic conduction abnormalities and a superior QRS axis, reflecting the RASopathy's effect on cardiac development."
 ---
 
 # Noonan Syndrome
@@ -441,6 +450,9 @@ NS is characterized by four cardinal features: **(1) short stature** (below 3rd 
 - `connects-to` → **[Targeted Therapy](../../../03-medicine/01-modern/13-cancer/targeted-therapy/README.md)** — A pathway drug for its heart disease: MEK inhibitors that block the overactive RAS-MAPK signalling of Noonan syndrome are being trialled to reverse its hypertrophic cardiomyopathy.
 - `connects-to` → **[Carney Complex](../carney-complex/README.md)** — A lentigines-and-heart comparator: like the LEOPARD variant of Noonan syndrome, Carney complex combines multiple skin lentigines with cardiac disease, here from cAMP rather than RAS signalling.
 - `connects-to` → **[Tuberous Sclerosis Complex](../tuberous-sclerosis-complex/README.md)** — A fellow syndromic cause of childhood heart tumours: like tuberous sclerosis with its cardiac rhabdomyomas, Noonan syndrome produces congenital heart disease in a multisystem autosomal-dominant disorder.
+- `connects-to` → **[Cancer Chemotherapy](../../../03-medicine/01-modern/13-cancer/cancer-chemotherapy/README.md)** — Chemo for its leukaemias: Noonan syndrome greatly raises the risk of juvenile myelomonocytic leukaemia and other myeloid neoplasms, treated with chemotherapy and stem-cell transplant.
+- `connects-to` → **[Endocardium](../../05-tissue/endocardium/README.md)** — A dysplastic pulmonary valve defines its heart disease: Noonan syndrome characteristically causes pulmonary valve stenosis from a thickened dysplastic valve, alongside hypertrophic cardiomyopathy.
+- `connects-to` → **[Cardiac Conduction System](../../05-tissue/cardiac-conduction-system/README.md)** — Its ECG bears a signature: Noonan syndrome produces characteristic conduction abnormalities and a superior QRS axis, reflecting the RASopathy's effect on cardiac development.
 
 [^tartaglia-2001-ptpn11-noonan]: Tartaglia M, Mehler EL, Goldberg R, et al. Mutations in PTPN11, encoding the protein tyrosine phosphatase SHP-2, cause Noonan syndrome. *Nat Genet.* 2001;29(4):465-468. [doi:10.1038/ng772](https://doi.org/10.1038/ng772) · [PubMed 11704759](https://pubmed.ncbi.nlm.nih.gov/11704759/)
 [^van-der-burgt-2007-noonan-review]: van der Burgt I. Noonan syndrome. *Orphanet J Rare Dis.* 2007;2:4. [doi:10.1186/1750-1172-2-4](https://doi.org/10.1186/1750-1172-2-4) · [PubMed 17222357](https://pubmed.ncbi.nlm.nih.gov/17222357/)

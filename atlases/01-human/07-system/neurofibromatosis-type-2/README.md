@@ -232,6 +232,15 @@ cross_links:
   - target: 01-human/07-system/carney-complex
     relation: connects-to
     note: "They share a schwannoma link: Carney complex causes psammomatous melanotic schwannomas, placing it alongside NF2 and schwannomatosis among the inherited schwannoma-predisposing syndromes."
+  - target: 03-medicine/01-modern/13-cancer/cancer-chemotherapy
+    relation: connects-to
+    note: "A limited role against its tumours: the schwannomas, meningiomas and ependymomas of NF2 are largely chemoresistant, managed by surgery and radiosurgery, with bevacizumab the main systemic option."
+  - target: 03-medicine/01-modern/13-cancer/checkpoint-inhibitors
+    relation: connects-to
+    note: "Immunologically quiet tumours: NF2-related schwannomas and meningiomas have low mutational burden and a cold microenvironment, so checkpoint inhibitors play little role."
+  - target: 01-human/05-tissue/cortical-bone
+    relation: connects-to
+    note: "Its meningiomas remodel bone: NF2 causes multiple meningiomas that provoke reactive hyperostosis of the skull, alongside its hallmark bilateral vestibular schwannomas."
 ---
 
 # Neurofibromatosis Type 2
@@ -423,6 +432,9 @@ Merlin has an N-terminal FERM domain (α, β, γ lobes) that binds membrane lipi
 - `connects-to` → **[Targeted Therapy](../../../03-medicine/01-modern/13-cancer/targeted-therapy/README.md)** — Systemic therapy supplements surgery: when its schwannomas and meningiomas are too numerous to resect, NF2 is treated with targeted agents such as bevacizumab and trial mTOR and merlin-pathway inhibitors.
 - `connects-to` → **[Gorlin Syndrome](../gorlin-syndrome/README.md)** — A fellow CNS-tumour syndrome: like Gorlin syndrome, NF2 is an autosomal-dominant disorder predisposing to nervous-system tumours, here multiple schwannomas, meningiomas and ependymomas.
 - `connects-to` → **[Carney Complex](../carney-complex/README.md)** — They share a schwannoma link: Carney complex causes psammomatous melanotic schwannomas, placing it alongside NF2 and schwannomatosis among the inherited schwannoma-predisposing syndromes.
+- `connects-to` → **[Cancer Chemotherapy](../../../03-medicine/01-modern/13-cancer/cancer-chemotherapy/README.md)** — A limited role against its tumours: the schwannomas, meningiomas and ependymomas of NF2 are largely chemoresistant, managed by surgery and radiosurgery, with bevacizumab the main systemic option.
+- `connects-to` → **[Checkpoint Inhibitors](../../../03-medicine/01-modern/13-cancer/checkpoint-inhibitors/README.md)** — Immunologically quiet tumours: NF2-related schwannomas and meningiomas have low mutational burden and a cold microenvironment, so checkpoint inhibitors play little role.
+- `connects-to` → **[Cortical Bone](../../05-tissue/cortical-bone/README.md)** — Its meningiomas remodel bone: NF2 causes multiple meningiomas that provoke reactive hyperostosis of the skull, alongside its hallmark bilateral vestibular schwannomas.
 
 [^asthagiri-2009-nf2-lancet]: Asthagiri AR, Parry DM, Butman JA, et al. Neurofibromatosis type 2. *Lancet.* 2009;373(9679):1974-1986. [doi:10.1016/S0140-6736(09)60259-2](https://doi.org/10.1016/S0140-6736(09)60259-2) · [PubMed 19476995](https://pubmed.ncbi.nlm.nih.gov/19476995/)
 [^plotkin-2009-nf2-bevacizumab]: Plotkin SR, Stemmer-Rachamimov AO, Barker FG 2nd, et al. Hearing improvement after bevacizumab in patients with neurofibromatosis type 2. *N Engl J Med.* 2009;361(4):358-367. [doi:10.1056/NEJMoa0902579](https://doi.org/10.1056/NEJMoa0902579) · [PubMed 19587327](https://pubmed.ncbi.nlm.nih.gov/19587327/)
