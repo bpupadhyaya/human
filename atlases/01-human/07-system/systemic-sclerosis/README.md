@@ -211,6 +211,15 @@ cross_links:
   - target: 01-human/07-system/generalized-anxiety-disorder
     relation: connects-to
     note: "A progressive, disfiguring multi-organ disease breeds worry: the relentless skin and organ involvement, painful ulcers and uncertain prognosis of systemic sclerosis foster chronic health anxiety alongside depression."
+  - target: 01-human/07-system/respiratory-system
+    relation: connects-to
+    note: "It scars the lungs: interstitial lung disease from progressive pulmonary fibrosis is the leading cause of death in systemic sclerosis, alongside the pulmonary hypertension it also drives."
+  - target: 01-human/07-system/renal-system
+    relation: connects-to
+    note: "It can strike the kidneys abruptly: scleroderma renal crisis brings malignant hypertension and acute kidney injury, a once-fatal emergency now treated with ACE inhibitors."
+  - target: 01-human/07-system/musculoskeletal-system
+    relation: connects-to
+    note: "Fibrosis stiffens joints and deposits calcium: systemic sclerosis causes joint contractures, tendon friction rubs, calcinosis of the soft tissues and an inflammatory myopathy."
 ---
 
 # Systemic Sclerosis
@@ -389,6 +398,9 @@ Identical to IPAH: medial hypertrophy, intimal fibrosis, concentric laminar inti
 - `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — The skin is its defining organ: systemic sclerosis hardens and thickens the skin through excess collagen, with sclerodactyly, calcinosis, telangiectasia and Raynaud's, the visible hallmark of the disease.
 - `connects-to` → **[Wound Healing](../wound-healing/README.md)** — Fibrosis and ischaemia cripple healing: the Raynaud's and microvascular damage of systemic sclerosis cause painful digital ulcers over the fingertips that are notoriously slow to heal and can gangrene.
 - `connects-to` → **[Generalized Anxiety Disorder](../generalized-anxiety-disorder/README.md)** — A progressive, disfiguring multi-organ disease breeds worry: the relentless skin and organ involvement, painful ulcers and uncertain prognosis of systemic sclerosis foster chronic health anxiety alongside depression.
+- `connects-to` → **[Respiratory System](../respiratory-system/README.md)** — It scars the lungs: interstitial lung disease from progressive pulmonary fibrosis is the leading cause of death in systemic sclerosis, alongside the pulmonary hypertension it also drives.
+- `connects-to` → **[Renal System](../renal-system/README.md)** — It can strike the kidneys abruptly: scleroderma renal crisis brings malignant hypertension and acute kidney injury, a once-fatal emergency now treated with ACE inhibitors.
+- `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — Fibrosis stiffens joints and deposits calcium: systemic sclerosis causes joint contractures, tendon friction rubs, calcinosis of the soft tissues and an inflammatory myopathy.
 
 [^denton-2017-ssc-review]: Denton CP, Khanna D. Systemic sclerosis. *Lancet.* 2017;390(10103):1685-1699. [doi:10.1016/S0140-6736(17)30933-9](https://doi.org/10.1016/S0140-6736(17)30933-9) · [PubMed 28413064](https://pubmed.ncbi.nlm.nih.gov/28413064/)
 [^distler-2019-nintedanib-senscis]: Distler O, Highland KB, Gahlemann M, et al. Nintedanib for Systemic Sclerosis-Associated Interstitial Lung Disease. *N Engl J Med.* 2019;380(26):2518-2528. [doi:10.1056/NEJMoa1903076](https://doi.org/10.1056/NEJMoa1903076) · [PubMed 31112379](https://pubmed.ncbi.nlm.nih.gov/31112379/)

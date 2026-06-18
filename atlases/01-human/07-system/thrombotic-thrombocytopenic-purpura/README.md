@@ -211,6 +211,15 @@ cross_links:
   - target: 01-human/07-system/generalized-anxiety-disorder
     relation: connects-to
     note: "A sudden, relapsing, life-threatening illness breeds worry: the abrupt onset, risk of relapse and need for ongoing monitoring in TTP foster chronic health anxiety alongside the PTSD and depression it can leave."
+  - target: 01-human/07-system/nervous-system
+    relation: connects-to
+    note: "It clots the brain's small vessels: fluctuating confusion, headache, seizures, focal deficits and coma from cerebral microthrombi are defining features of TTP and a hallmark of its classic pentad."
+  - target: 01-human/07-system/integumentary-system
+    relation: connects-to
+    note: "Falling platelets bruise the skin: the severe thrombocytopenia of TTP causes widespread petechiae, purpura and mucosal bleeding, often the first visible clue to the diagnosis."
+  - target: 01-human/07-system/cardiovascular-system
+    relation: connects-to
+    note: "Microthrombi can injure the heart: cardiac involvement in TTP causes myocardial microinfarction, arrhythmias and sudden death, an under-recognised cause of its mortality."
 ---
 
 # Thrombotic Thrombocytopenic Purpura
@@ -430,6 +439,9 @@ In healthy individuals, ADAMTS13 (~190 kDa plasma glycoprotein; hepatic synthesi
 - `connects-to` → **[Varicella-Zoster Virus](../../../02-pathogen/01-viruses/varicella-zoster-virus/README.md)** — Its rituximab reawakens shingles: the B-cell-depleting therapy used to treat and prevent relapse in immune TTP blunts antiviral immunity, allowing latent varicella-zoster to reactivate.
 - `connects-to` → **[Digestive System](../digestive-system/README.md)** — Microthrombi starve the gut: the platelet-rich microvascular clots of TTP can lodge in mesenteric and pancreatic vessels, causing abdominal pain, pancreatitis and bowel ischaemia.
 - `connects-to` → **[Generalized Anxiety Disorder](../generalized-anxiety-disorder/README.md)** — A sudden, relapsing, life-threatening illness breeds worry: the abrupt onset, risk of relapse and need for ongoing monitoring in TTP foster chronic health anxiety alongside the PTSD and depression it can leave.
+- `connects-to` → **[Nervous System](../nervous-system/README.md)** — It clots the brain's small vessels: fluctuating confusion, headache, seizures, focal deficits and coma from cerebral microthrombi are defining features of TTP and a hallmark of its classic pentad.
+- `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — Falling platelets bruise the skin: the severe thrombocytopenia of TTP causes widespread petechiae, purpura and mucosal bleeding, often the first visible clue to the diagnosis.
+- `connects-to` → **[Cardiovascular System](../cardiovascular-system/README.md)** — Microthrombi can injure the heart: cardiac involvement in TTP causes myocardial microinfarction, arrhythmias and sudden death, an under-recognised cause of its mortality.
 
 ---
 
