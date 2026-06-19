@@ -241,6 +241,15 @@ cross_links:
   - target: 03-medicine/01-modern/13-cancer/checkpoint-inhibitors
     relation: connects-to
     note: "A marker of immunotherapy resistance: loss of STK11/LKB1, the gene behind Peutz-Jeghers, makes lung and other cancers resistant to PD-1 checkpoint inhibitors, a key negative predictive biomarker."
+  - target: 03-medicine/01-modern/07-metabolic/metformin
+    relation: connects-to
+    note: "It targets the missing kinase's pathway: PJS loses LKB1 (STK11), the kinase that switches on AMPK, so metformin—an AMPK activator—is studied to restrain the mTOR-driven polyp growth and cancer risk that LKB1 loss unleashes."
+  - target: 01-human/07-system/tuberous-sclerosis-complex
+    relation: connects-to
+    note: "Two syndromes that unleash mTOR: Peutz-Jeghers loses LKB1-AMPK restraint on mTOR, while tuberous sclerosis loses the TSC1/2 brake on it—different upstream lesions converging on the same hamartoma-driving kinase."
+  - target: 01-human/03-molecular/autophagy
+    relation: connects-to
+    note: "Losing a master metabolic switch: the LKB1-AMPK signalling lost in Peutz-Jeghers normally induces autophagy via ULK1 under energy stress, so STK11 loss impairs this recycling pathway while freeing mTOR—coupling the syndrome's metabolism and cancer risk."
 ---
 
 # Peutz-Jeghers Syndrome
@@ -439,6 +448,9 @@ Without surveillance: cumulative cancer risk reaches ~85-93% by age 70 (all canc
 - `connects-to` → **[Cancer Chemotherapy](../../../03-medicine/01-modern/13-cancer/cancer-chemotherapy/README.md)** — Chemo for the many cancers it brings: Peutz-Jeghers syndrome sharply raises lifetime risk of gastrointestinal, breast, pancreatic and gynaecological cancers, treated with standard chemotherapy.
 - `connects-to` → **[Carney Complex](../carney-complex/README.md)** — Pigmentation marks both: like Carney complex's lentigines, the mucocutaneous pigmentation of Peutz-Jeghers flags an inherited multi-tumour syndrome, the spots a clue to internal cancer risk.
 - `connects-to` → **[Checkpoint Inhibitors](../../../03-medicine/01-modern/13-cancer/checkpoint-inhibitors/README.md)** — A marker of immunotherapy resistance: loss of STK11/LKB1, the gene behind Peutz-Jeghers, makes lung and other cancers resistant to PD-1 checkpoint inhibitors, a key negative predictive biomarker.
+- `connects-to` → **[Metformin](../../../03-medicine/01-modern/07-metabolic/metformin/README.md)** — It targets the missing kinase's pathway: PJS loses LKB1 (STK11), the kinase that switches on AMPK, so metformin—an AMPK activator—is studied to restrain the mTOR-driven polyp growth and cancer risk that LKB1 loss unleashes.
+- `connects-to` → **[Tuberous Sclerosis Complex](../tuberous-sclerosis-complex/README.md)** — Two syndromes that unleash mTOR: Peutz-Jeghers loses LKB1-AMPK restraint on mTOR, while tuberous sclerosis loses the TSC1/2 brake on it—different upstream lesions converging on the same hamartoma-driving kinase.
+- `connects-to` → **[Autophagy](../../03-molecular/autophagy/README.md)** — Losing a master metabolic switch: the LKB1-AMPK signalling lost in Peutz-Jeghers normally induces autophagy via ULK1 under energy stress, so STK11 loss impairs this recycling pathway while freeing mTOR—coupling the syndrome's metabolism and cancer risk.
 
 ---
 

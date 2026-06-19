@@ -247,6 +247,15 @@ cross_links:
   - target: 01-human/07-system/nmo
     relation: connects-to
     note: "Antibody and complement attack in common: like neuromyelitis optica, pemphigus vulgaris is an antibody-driven disease where complement and B-cell-derived IgG cause the tissue damage, both treated by rituximab."
+  - target: 01-human/05-tissue/germinal-center
+    relation: connects-to
+    note: "Where its autoantibody is born: pemphigus vulgaris arises from autoreactive B cells and plasma cells in germinal centres that secrete anti-desmoglein-3 IgG, which is why rituximab—depleting CD20+ B cells—has become first-line therapy."
+  - target: 01-human/07-system/psoriasis
+    relation: connects-to
+    note: "Two immune skin diseases, opposite mechanisms: pemphigus vulgaris is an antibody/B-cell-driven blistering disease that splits the epidermis, while psoriasis is a T-cell and IL-17-driven hyperproliferation—autoantibody versus cytokine immunopathology."
+  - target: 01-human/07-system/systemic-sclerosis
+    relation: connects-to
+    note: "A fellow autoantibody connective-tissue disease: like systemic sclerosis, pemphigus vulgaris is an HLA-associated autoimmune disorder defined by pathogenic autoantibodies, though PV blisters the skin while scleroderma fibroses it."
 ---
 
 # Pemphigus Vulgaris
@@ -467,6 +476,9 @@ Pemphigus belongs to the **pemphigus group of autoimmune bullous diseases** (AIB
 - `connects-to` → **[Cancer Chemotherapy](../../../03-medicine/01-modern/13-cancer/cancer-chemotherapy/README.md)** — Immunosuppression beyond steroids: rituximab (anti-CD20) is now first-line with steroids, and cyclophosphamide, azathioprine and mycophenolate are used as steroid-sparing immunosuppressants in pemphigus vulgaris.
 - `connects-to` → **[CIDP](../cidp/README.md)** — A fellow antibody-mediated autoimmune disease: like CIDP, pemphigus vulgaris is driven by pathogenic autoantibodies and responds to B-cell depletion, IVIG and plasma exchange that remove or block them.
 - `connects-to` → **[NMO](../nmo/README.md)** — Antibody and complement attack in common: like neuromyelitis optica, pemphigus vulgaris is an antibody-driven disease where complement and B-cell-derived IgG cause the tissue damage, both treated by rituximab.
+- `connects-to` → **[Germinal Center](../../05-tissue/germinal-center/README.md)** — Where its autoantibody is born: pemphigus vulgaris arises from autoreactive B cells and plasma cells in germinal centres that secrete anti-desmoglein-3 IgG, which is why rituximab—depleting CD20+ B cells—has become first-line therapy.
+- `connects-to` → **[Psoriasis](../psoriasis/README.md)** — Two immune skin diseases, opposite mechanisms: pemphigus vulgaris is an antibody/B-cell-driven blistering disease that splits the epidermis, while psoriasis is a T-cell and IL-17-driven hyperproliferation—autoantibody versus cytokine immunopathology.
+- `connects-to` → **[Systemic Sclerosis](../systemic-sclerosis/README.md)** — A fellow autoantibody connective-tissue disease: like systemic sclerosis, pemphigus vulgaris is an HLA-associated autoimmune disorder defined by pathogenic autoantibodies, though PV blisters the skin while scleroderma fibroses it.
 
 ---
 
