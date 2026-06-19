@@ -275,6 +275,15 @@ cross_links:
   - target: 02-pathogen/04-parasites/trypanosoma-brucei
     relation: connects-to
     note: "Lymphatic-tropic infection: African trypanosomiasis spreads through and enlarges lymph nodes—the posterior cervical swelling of Winterbottom's sign—before invading the central nervous system."
+  - target: 01-human/03-molecular/tnf-alpha
+    relation: connects-to
+    note: "Lymphoid organogenesis: TNF-family signalling builds and maintains the secondary lymphoid organs, and excess TNF-α drives the reactive lymph-node enlargement of infection and inflammation."
+  - target: 01-human/03-molecular/baff
+    relation: connects-to
+    note: "B-cell follicles: BAFF sustains the B cells of lymph-node and splenic follicles, organising the germinal-centre reactions at the heart of the lymphatic system's adaptive immunity."
+  - target: 01-human/03-molecular/il-6
+    relation: connects-to
+    note: "Germinal-centre signalling: IL-6 within lymph nodes supports T-follicular-helper and B-cell responses, and its excess drives lymphadenopathy in conditions like Castleman disease."
 ---
 
 # Lymphatic System
@@ -470,6 +479,9 @@ Enterocytes package dietary triglycerides + cholesterol + apoB-48 into chylomicr
 - `connects-to` → **[CXCL12](../../03-molecular/cxcl12/README.md)** — Lymph-node homing: CXCL12 (with CXCR4) directs the trafficking and positioning of lymphocytes and dendritic cells within lymph nodes, organising the adaptive immune response.
 - `connects-to` → **[Leptin](../../03-molecular/leptin/README.md)** — Obesity and lymphedema: adipose-derived leptin links obesity to impaired lymphatic vessel function and lymphoedema, and it also modulates immune cells within lymph nodes.
 - `connects-to` → **[Trypanosoma brucei](../../../02-pathogen/04-parasites/trypanosoma-brucei/README.md)** — Lymphatic-tropic infection: African trypanosomiasis spreads through and enlarges lymph nodes—the posterior cervical swelling of Winterbottom's sign—before invading the central nervous system.
+- `connects-to` → **[TNF-α](../../03-molecular/tnf-alpha/README.md)** — Lymphoid organogenesis: TNF-family signalling builds and maintains the secondary lymphoid organs, and excess TNF-α drives the reactive lymph-node enlargement of infection and inflammation.
+- `connects-to` → **[BAFF](../../03-molecular/baff/README.md)** — B-cell follicles: BAFF sustains the B cells of lymph-node and splenic follicles, organising the germinal-centre reactions at the heart of the lymphatic system's adaptive immunity.
+- `connects-to` → **[IL-6](../../03-molecular/il-6/README.md)** — Germinal-centre signalling: IL-6 within lymph nodes supports T-follicular-helper and B-cell responses, and its excess drives lymphadenopathy in conditions like Castleman disease.
 
 ## Pathology
 
