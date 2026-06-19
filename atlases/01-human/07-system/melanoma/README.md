@@ -256,6 +256,15 @@ cross_links:
   - target: 01-human/07-system/thyroid-cancer
     relation: connects-to
     note: "A shared BRAF driver: papillary thyroid cancer and melanoma both frequently harbour the BRAF V600E mutation, and BRAF/MEK inhibitors developed in melanoma are now used in BRAF-mutant thyroid cancer—one mutation across two organs."
+  - target: 01-human/07-system/pancreatic-cancer
+    relation: connects-to
+    note: "CDKN2A and the FAMMM syndrome: germline CDKN2A mutation causes familial atypical multiple mole melanoma, raising the risk of both melanoma and pancreatic cancer—one gene linking skin and pancreas."
+  - target: 01-human/05-tissue/myocardium
+    relation: connects-to
+    note: "Checkpoint myocarditis: the immune checkpoint inhibitors that revolutionised melanoma treatment can trigger a rare but often fatal autoimmune myocarditis of the myocardium, a feared immune-related adverse event."
+  - target: 01-human/05-tissue/hepatic-lobule
+    relation: connects-to
+    note: "Liver is a favoured metastatic site: melanoma—especially ocular melanoma—spreads to the liver, seeding the hepatic lobule, a pattern that dominates uveal melanoma's course."
 ---
 
 # Melanoma
@@ -425,6 +434,9 @@ cross_links:
 - `connects-to` → **[Germinal Center](../../05-tissue/germinal-center/README.md)** — Lymphoid islands forecast its immunotherapy response: melanomas that contain tertiary lymphoid structures with germinal-centre-like B-cell aggregates respond better to checkpoint blockade, marking the cancer where immunotherapy first proved transformative.
 - `connects-to` → **[GIST](../gist/README.md)** — KIT links a skin cancer to a gut tumour: acral and mucosal melanomas often carry activating KIT mutations like gastrointestinal stromal tumours, so these melanoma subtypes can respond to the KIT inhibitor imatinib that defines GIST therapy.
 - `connects-to` → **[Thyroid Cancer](../thyroid-cancer/README.md)** — A shared BRAF driver: papillary thyroid cancer and melanoma both frequently harbour the BRAF V600E mutation, and BRAF/MEK inhibitors developed in melanoma are now used in BRAF-mutant thyroid cancer—one mutation across two organs.
+- `connects-to` → **[Pancreatic Cancer](../pancreatic-cancer/README.md)** — CDKN2A and the FAMMM syndrome: germline CDKN2A mutation causes familial atypical multiple mole melanoma, raising the risk of both melanoma and pancreatic cancer—one gene linking skin and pancreas.
+- `connects-to` → **[Myocardium](../../05-tissue/myocardium/README.md)** — Checkpoint myocarditis: the immune checkpoint inhibitors that revolutionised melanoma treatment can trigger a rare but often fatal autoimmune myocarditis of the myocardium, a feared immune-related adverse event.
+- `connects-to` → **[Hepatic Lobule](../../05-tissue/hepatic-lobule/README.md)** — Liver is a favoured metastatic site: melanoma—especially ocular melanoma—spreads to the liver, seeding the hepatic lobule, a pattern that dominates uveal melanoma's course.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 

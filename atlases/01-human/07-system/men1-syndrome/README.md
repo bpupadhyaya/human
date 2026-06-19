@@ -250,6 +250,15 @@ cross_links:
   - target: 01-human/06-organ/brain
     relation: connects-to
     note: "The pituitary completes its triad: MEN1's third classic site is the anterior pituitary, where prolactinomas and growth-hormone or ACTH adenomas grow at the skull base, demanding brain imaging in surveillance alongside the parathyroid and pancreas."
+  - target: 01-human/05-tissue/glomerulus
+    relation: connects-to
+    note: "Hypercalcaemia injures the kidney: MEN1's primary hyperparathyroidism—its commonest feature—raises calcium, causing kidney stones and nephrocalcinosis that scar the glomerulus and tubules."
+  - target: 01-human/07-system/dicer1-syndrome
+    relation: connects-to
+    note: "Two germline endocrine-tumour syndromes: MEN1 and DICER1 both predispose to pituitary and other endocrine tumours under autosomal-dominant control, demanding lifelong multi-gland surveillance."
+  - target: 01-human/05-tissue/intestinal-epithelium
+    relation: connects-to
+    note: "Zollinger-Ellison and peptic ulcers: gastrinomas in MEN1 flood the gut with gastrin, driving refractory, multiple peptic ulcers that erode the intestinal epithelium."
 ---
 
 # MEN1 Syndrome
@@ -447,6 +456,9 @@ Menin haploinsufficiency (one functional allele) creates susceptibility: cells a
 - `connects-to` → **[Cortical Bone](../../05-tissue/cortical-bone/README.md)** — Overactive parathyroids dissolve the bone: primary hyperparathyroidism, the earliest and commonest MEN1 tumour, raises PTH that resorbs cortical bone—producing osteitis fibrosa, subperiosteal erosions and osteoporosis—so bone density tracks the parathyroid disease.
 - `connects-to` → **[Cancer Chemotherapy](../../../03-medicine/01-modern/13-cancer/cancer-chemotherapy/README.md)** — Chemo for advanced neuroendocrine tumours: when MEN1 pancreatic neuroendocrine tumours or thymic carcinoids progress, regimens like streptozocin-based or temozolomide-capecitabine chemotherapy are used alongside somatostatin analogues and targeted drugs.
 - `connects-to` → **[Brain](../../06-organ/brain/README.md)** — The pituitary completes its triad: MEN1's third classic site is the anterior pituitary, where prolactinomas and growth-hormone or ACTH adenomas grow at the skull base, demanding brain imaging in surveillance alongside the parathyroid and pancreas.
+- `connects-to` → **[Glomerulus](../../05-tissue/glomerulus/README.md)** — Hypercalcaemia injures the kidney: MEN1's primary hyperparathyroidism—its commonest feature—raises calcium, causing kidney stones and nephrocalcinosis that scar the glomerulus and tubules.
+- `connects-to` → **[DICER1 Syndrome](../dicer1-syndrome/README.md)** — Two germline endocrine-tumour syndromes: MEN1 and DICER1 both predispose to pituitary and other endocrine tumours under autosomal-dominant control, demanding lifelong multi-gland surveillance.
+- `connects-to` → **[Intestinal Epithelium](../../05-tissue/intestinal-epithelium/README.md)** — Zollinger-Ellison and peptic ulcers: gastrinomas in MEN1 flood the gut with gastrin, driving refractory, multiple peptic ulcers that erode the intestinal epithelium.
 
 ---
 
