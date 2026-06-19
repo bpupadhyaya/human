@@ -274,6 +274,15 @@ cross_links:
   - target: 01-human/05-tissue/cortical-bone
     relation: connects-to
     note: "Antiepileptic bone disease: enzyme-inducing antiseizure drugs accelerate vitamin D catabolism, lowering cortical-bone density and raising fracture risk with long-term use—compounded by seizure-related falls."
+  - target: 01-human/07-system/covid-19-disease
+    relation: connects-to
+    note: "Seizures with infection: COVID-19 causes acute symptomatic seizures through encephalopathy, hypoxia and inflammation, and new-onset epilepsy has been reported after infection."
+  - target: 01-human/07-system/sclc
+    relation: connects-to
+    note: "Paraneoplastic seizures: small-cell lung cancer triggers seizures through brain metastases and anti-Hu paraneoplastic limbic encephalitis, an oncological cause of new-onset epilepsy in smokers."
+  - target: 01-human/07-system/narcolepsy
+    relation: connects-to
+    note: "Paroxysmal-event mimics: cataplexy and sleep attacks of narcolepsy can be mistaken for seizures, making it part of the differential of episodic neurological events alongside epilepsy."
 ---
 
 # Epilepsy
@@ -511,6 +520,9 @@ Anti-NMDAR encephalitis is the most common autoimmune encephalitis (~37% of auto
 - `connects-to` → **[PTSD](../ptsd/README.md)** — Seizures that aren't epileptic: psychogenic non-epileptic seizures, often rooted in trauma and PTSD, closely mimic epileptic events and frequently coexist with epilepsy, making video-EEG essential to tell them apart.
 - `connects-to` → **[Fibromyalgia](../fibromyalgia/README.md)** — Shared central hyperexcitability: epilepsy and fibromyalgia both reflect a hyperexcitable nervous system with disturbed glutamate/GABA balance, and the gabapentinoids pregabalin and gabapentin treat both.
 - `connects-to` → **[Cortical Bone](../../05-tissue/cortical-bone/README.md)** — Antiepileptic bone disease: enzyme-inducing antiseizure drugs accelerate vitamin D catabolism, lowering cortical-bone density and raising fracture risk with long-term use—compounded by seizure-related falls.
+- `connects-to` → **[COVID-19 Disease](../covid-19-disease/README.md)** — Seizures with infection: COVID-19 causes acute symptomatic seizures through encephalopathy, hypoxia and inflammation, and new-onset epilepsy has been reported after infection.
+- `connects-to` → **[SCLC](../sclc/README.md)** — Paraneoplastic seizures: small-cell lung cancer triggers seizures through brain metastases and anti-Hu paraneoplastic limbic encephalitis, an oncological cause of new-onset epilepsy in smokers.
+- `connects-to` → **[Narcolepsy](../narcolepsy/README.md)** — Paroxysmal-event mimics: cataplexy and sleep attacks of narcolepsy can be mistaken for seizures, making it part of the differential of episodic neurological events alongside epilepsy.
 
 [^fisher-2017-ilae-classification]: Fisher RS, Cross JH, D'Souza C, et al. Instruction manual for the ILAE 2017 operational classification of seizure types. *Epilepsia.* 2017;58(4):531-542. [doi:10.1111/epi.13671](https://doi.org/10.1111/epi.13671) · [PubMed 28276060](https://pubmed.ncbi.nlm.nih.gov/28276060/)
 [^devinsky-2018-epilepsy-review]: Devinsky O, Vezzani A, O'Brien TJ, et al. Epilepsy. *Nat Rev Dis Primers.* 2018;4:18024. [doi:10.1038/nrdp.2018.24](https://doi.org/10.1038/nrdp.2018.24) · [PubMed 29722352](https://pubmed.ncbi.nlm.nih.gov/29722352/)

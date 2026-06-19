@@ -271,6 +271,15 @@ cross_links:
   - target: 01-human/07-system/type-1-diabetes
     relation: connects-to
     note: "Compounded cardiovascular risk: when familial hypercholesterolaemia coexists with diabetes such as type 1, the lipid and glycaemic insults multiply atherosclerotic risk, demanding aggressive LDL lowering."
+  - target: 01-human/07-system/werner-syndrome
+    relation: connects-to
+    note: "Two routes to early heart attacks: familial hypercholesterolaemia drives premature atherosclerosis through lifelong high LDL, while Werner syndrome reaches the same early coronary disease through accelerated cellular ageing."
+  - target: 01-human/07-system/marfan-syndrome
+    relation: connects-to
+    note: "Inherited cardiovascular disease, different walls: familial hypercholesterolaemia attacks the coronary arteries with cholesterol, while Marfan weakens the aortic wall through fibrillin loss—two autosomal-dominant routes to cardiac death."
+  - target: 01-human/05-tissue/cortical-bone
+    relation: connects-to
+    note: "Tendon xanthomas: familial hypercholesterolaemia deposits cholesterol in tendons—classically the Achilles and finger-extensor tendons at their cortical-bone insertions—forming the xanthomas that are a clinical hallmark."
 ---
 
 # Familial Hypercholesterolemia
@@ -463,6 +472,9 @@ FH is a **monogenic autosomal dominant disorder** caused by mutations in three g
 - `connects-to` → **[Endocardium](../../05-tissue/endocardium/README.md)** — Cholesterol on the valves: severe (especially homozygous) familial hypercholesterolaemia deposits cholesterol in the aortic valve and root, causing supravalvular and calcific aortic stenosis of the endocardium.
 - `connects-to` → **[Intestinal Epithelium](../../05-tissue/intestinal-epithelium/README.md)** — Where dietary cholesterol enters: the intestinal epithelium absorbs cholesterol via NPC1L1, the target of ezetimibe—an FH therapy that complements statins by cutting absorption alongside reduced synthesis.
 - `connects-to` → **[Type 1 Diabetes](../type-1-diabetes/README.md)** — Compounded cardiovascular risk: when familial hypercholesterolaemia coexists with diabetes such as type 1, the lipid and glycaemic insults multiply atherosclerotic risk, demanding aggressive LDL lowering.
+- `connects-to` → **[Werner Syndrome](../werner-syndrome/README.md)** — Two routes to early heart attacks: familial hypercholesterolaemia drives premature atherosclerosis through lifelong high LDL, while Werner syndrome reaches the same early coronary disease through accelerated cellular ageing.
+- `connects-to` → **[Marfan Syndrome](../marfan-syndrome/README.md)** — Inherited cardiovascular disease, different walls: familial hypercholesterolaemia attacks the coronary arteries with cholesterol, while Marfan weakens the aortic wall through fibrillin loss—two autosomal-dominant routes to cardiac death.
+- `connects-to` → **[Cortical Bone](../../05-tissue/cortical-bone/README.md)** — Tendon xanthomas: familial hypercholesterolaemia deposits cholesterol in tendons—classically the Achilles and finger-extensor tendons at their cortical-bone insertions—forming the xanthomas that are a clinical hallmark.
 
 [^goldstein-1985-ldlr-nobel]: Goldstein JL, Brown MS. The LDL receptor. *Arterioscler Thromb Vasc Biol.* 2009;29(4):431-438. [doi:10.1161/ATVBAHA.108.179564](https://doi.org/10.1161/ATVBAHA.108.179564) · [PubMed 19299327](https://pubmed.ncbi.nlm.nih.gov/19299327/)
 [^raal-2020-inclisiran-fh]: Raal FJ, Kallend D, Ray KK, et al. Inclisiran for the Treatment of Heterozygous Familial Hypercholesterolemia. *N Engl J Med.* 2020;382(16):1520-1530. [doi:10.1056/NEJMoa1913805](https://doi.org/10.1056/NEJMoa1913805) · [PubMed 32197277](https://pubmed.ncbi.nlm.nih.gov/32197277/)
