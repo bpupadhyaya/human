@@ -262,6 +262,15 @@ cross_links:
   - target: 01-human/07-system/gvhd
     relation: connects-to
     note: "Transplant can trigger myasthenia: chronic graft-versus-host disease occasionally produces an acquired myasthenia with anti-AChR antibodies, alloreactive B-cell autoimmunity striking the neuromuscular junction."
+  - target: 01-human/07-system/pnh
+    relation: connects-to
+    note: "A complement-therapy bridge: the anti-C5 drugs (eculizumab, ravulizumab) that treat antibody-positive myasthenia gravis also control complement diseases like PNH, the same terminal pathway across very different illnesses."
+  - target: 01-human/07-system/dermatomyositis
+    relation: connects-to
+    note: "Checkpoint-inhibitor overlap: cancer immunotherapy can trigger a dangerous overlap of myasthenia gravis, an inflammatory myositis (as in dermatomyositis) and myocarditis—an immune-related adverse event with high mortality."
+  - target: 01-human/07-system/covid-19-disease
+    relation: connects-to
+    note: "Infection precipitates crisis: respiratory infections including COVID-19 can trigger a myasthenic crisis with respiratory failure, and the disease's immunosuppression complicates infection management."
 ---
 
 # Myasthenia Gravis
@@ -454,6 +463,9 @@ cross_links:
 - `connects-to` → **[Myocardium](../../05-tissue/myocardium/README.md)** — The heart in myasthenia: thymoma-associated and checkpoint-inhibitor-induced MG can come with myocarditis, autoimmune giant-cell inflammation reaching the myocardium—a dangerous overlap with high mortality.
 - `connects-to` → **[Guillain-Barré](../../05-tissue/guillain-barre/README.md)** — Two causes of acute neuromuscular failure: myasthenia fails at the neuromuscular junction and Guillain-Barré at the nerve, but both can crash respiration and both respond to IVIG and plasma exchange.
 - `connects-to` → **[GVHD](../gvhd/README.md)** — Transplant can trigger myasthenia: chronic graft-versus-host disease occasionally produces an acquired myasthenia with anti-AChR antibodies, alloreactive B-cell autoimmunity striking the neuromuscular junction.
+- `connects-to` → **[PNH](../pnh/README.md)** — A complement-therapy bridge: the anti-C5 drugs (eculizumab, ravulizumab) that treat antibody-positive myasthenia gravis also control complement diseases like PNH, the same terminal pathway across very different illnesses.
+- `connects-to` → **[Dermatomyositis](../dermatomyositis/README.md)** — Checkpoint-inhibitor overlap: cancer immunotherapy can trigger a dangerous overlap of myasthenia gravis, an inflammatory myositis (as in dermatomyositis) and myocarditis—an immune-related adverse event with high mortality.
+- `connects-to` → **[COVID-19 Disease](../covid-19-disease/README.md)** — Infection precipitates crisis: respiratory infections including COVID-19 can trigger a myasthenic crisis with respiratory failure, and the disease's immunosuppression complicates infection management.
 
 [^gilhus-2016-mg-review]: Gilhus NE. Myasthenia Gravis. *N Engl J Med.* 2016;375(26):2570-2581. [doi:10.1056/NEJMra1602678](https://doi.org/10.1056/NEJMra1602678) · [PubMed 28029925](https://pubmed.ncbi.nlm.nih.gov/28029925/)
 [^howard-2021-efgartigimod-adapt]: Howard JF Jr, Bril V, Vu T, et al. Safety, efficacy, and tolerability of efgartigimod in patients with generalised myasthenia gravis (ADAPT). *Lancet Neurol.* 2021;20(7):526-536. [doi:10.1016/S1474-4422(21)00159-9](https://doi.org/10.1016/S1474-4422(21)00159-9) · [PubMed 34146511](https://pubmed.ncbi.nlm.nih.gov/34146511/)

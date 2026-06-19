@@ -265,6 +265,15 @@ cross_links:
   - target: 01-human/07-system/bipolar-disorder
     relation: connects-to
     note: "Mood and opioids entangle: opioid use disorder is highly comorbid with bipolar disorder, with self-medication of mood swings and shared impulsivity and reward-circuit dysfunction driving the overlap."
+  - target: 01-human/07-system/hepatitis-b
+    relation: connects-to
+    note: "Needle-borne infection: injection opioid use spreads hepatitis B alongside hepatitis C and HIV through shared needles, so chronic HBV and its liver disease are common in this population."
+  - target: 01-human/05-tissue/cortical-bone
+    relation: connects-to
+    note: "Deep infections of bone: injection drug use seeds vertebral osteomyelitis, discitis and septic arthritis, infections that erode the cortical bone and are notoriously hard to clear."
+  - target: 01-human/07-system/covid-19-disease
+    relation: connects-to
+    note: "A pandemic of overdose: opioid overdose deaths surged during COVID-19 from disrupted services and isolation, while opioid respiratory depression compounds the lung injury of severe infection."
 ---
 
 # Opioid Use Disorder
@@ -502,6 +511,9 @@ The primary mechanism by which opioids produce euphoria:
 - `connects-to` → **[Cardiac Conduction System](../../05-tissue/cardiac-conduction-system/README.md)** — Methadone and the QT interval: methadone blocks the hERG potassium channel and prolongs the QT interval, risking torsades de pointes—the reason ECG monitoring accompanies opioid agonist therapy.
 - `connects-to` → **[Intestinal Epithelium](../../05-tissue/intestinal-epithelium/README.md)** — The constipation no one escapes: mu-opioid receptors on the gut wall slow intestinal motility, causing the near-universal constipation of chronic opioid use, treated with peripherally-acting opioid antagonists.
 - `connects-to` → **[Bipolar Disorder](../bipolar-disorder/README.md)** — Mood and opioids entangle: opioid use disorder is highly comorbid with bipolar disorder, with self-medication of mood swings and shared impulsivity and reward-circuit dysfunction driving the overlap.
+- `connects-to` → **[Hepatitis B](../hepatitis-b/README.md)** — Needle-borne infection: injection opioid use spreads hepatitis B alongside hepatitis C and HIV through shared needles, so chronic HBV and its liver disease are common in this population.
+- `connects-to` → **[Cortical Bone](../../05-tissue/cortical-bone/README.md)** — Deep infections of bone: injection drug use seeds vertebral osteomyelitis, discitis and septic arthritis, infections that erode the cortical bone and are notoriously hard to clear.
+- `connects-to` → **[COVID-19 Disease](../covid-19-disease/README.md)** — A pandemic of overdose: opioid overdose deaths surged during COVID-19 from disrupted services and isolation, while opioid respiratory depression compounds the lung injury of severe infection.
 
 [^volkow-2016-opioid-crisis]: Volkow ND, Collins FS. The role of science in addressing the opioid crisis. *N Engl J Med.* 2017;377(4):391-394. [doi:10.1056/NEJMsr1706626](https://doi.org/10.1056/NEJMsr1706626) · [PubMed 28723324](https://pubmed.ncbi.nlm.nih.gov/28723324/)
 [^mattick-2009-bupe-meta]: Mattick RP, Breen C, Kimber J, Davoli M. Buprenorphine maintenance versus placebo or methadone maintenance for opioid dependence. *Cochrane Database Syst Rev.* 2014;2:CD002207. [doi:10.1002/14651858.CD002207.pub4](https://doi.org/10.1002/14651858.CD002207.pub4) · [PubMed 24500948](https://pubmed.ncbi.nlm.nih.gov/24500948/)
