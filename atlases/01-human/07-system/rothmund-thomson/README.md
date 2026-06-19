@@ -277,6 +277,15 @@ cross_links:
   - target: 01-human/03-molecular/myc
     relation: connects-to
     note: "Amplified oncogene: MYC amplification drives the osteosarcomas that arise in Rothmund-Thomson, downstream of its defective DNA repair and genomic instability."
+  - target: 01-human/03-molecular/akt
+    relation: connects-to
+    note: "Survival signalling: PI3K/AKT activation supports the survival of the genomically unstable cells of Rothmund-Thomson, cooperating with its DNA-repair defect in tumorigenesis."
+  - target: 01-human/03-molecular/cyclin-d1
+    relation: connects-to
+    note: "Cell-cycle drive: the genomic instability of Rothmund-Thomson readily amplifies cyclin D1 and other cell-cycle drivers, fuelling the osteosarcomas and skin cancers it predisposes to."
+  - target: 01-human/03-molecular/hif-1alpha
+    relation: connects-to
+    note: "Tumour hypoxia: HIF-1α stabilised in the bone and skin tumours of Rothmund-Thomson drives the angiogenesis that supports their growth."
 ---
 
 # Rothmund-Thomson Syndrome
@@ -500,6 +509,9 @@ The cardinal features of RTS type II are: (1) **poikiloderma** — the defining 
 - `connects-to` → **[CDK4/6](../../03-molecular/cdk4-6/README.md)** — Cell-cycle in osteosarcoma: the genomic instability of RECQL4 loss cooperates with CDK4/6-cyclin dysregulation to drive the osteosarcomas characteristic of Rothmund-Thomson.
 - `connects-to` → **[IGF-1](../../03-molecular/igf-1/README.md)** — Growth axis and bone tumours: GH/IGF-1 signalling, relevant to the short stature of Rothmund-Thomson, also feeds the osteosarcomas that are its signature malignancy.
 - `connects-to` → **[MYC](../../03-molecular/myc/README.md)** — Amplified oncogene: MYC amplification drives the osteosarcomas that arise in Rothmund-Thomson, downstream of its defective DNA repair and genomic instability.
+- `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — Survival signalling: PI3K/AKT activation supports the survival of the genomically unstable cells of Rothmund-Thomson, cooperating with its DNA-repair defect in tumorigenesis.
+- `connects-to` → **[Cyclin D1](../../03-molecular/cyclin-d1/README.md)** — Cell-cycle drive: the genomic instability of Rothmund-Thomson readily amplifies cyclin D1 and other cell-cycle drivers, fuelling the osteosarcomas and skin cancers it predisposes to.
+- `connects-to` → **[HIF-1α](../../03-molecular/hif-1alpha/README.md)** — Tumour hypoxia: HIF-1α stabilised in the bone and skin tumours of Rothmund-Thomson drives the angiogenesis that supports their growth.
 
 [^kitao-1999-recql4-rts]: Kitao S, Shimamoto A, Goto M, et al. Mutations in RECQL4 cause a subset of cases of Rothmund-Thomson syndrome. *Nat Genet.* 1999;22(1):82-84. [doi:10.1038/8788](https://doi.org/10.1038/8788) · [PubMed 10319867](https://pubmed.ncbi.nlm.nih.gov/10319867/)
 [^wang-2003-rts-cancer]: Wang LL, Gannavarapu A, Kozinetz CA, et al. Association between osteosarcoma and deleterious mutations in the RECQL4 gene in Rothmund-Thomson syndrome. *J Natl Cancer Inst.* 2003;95(9):669-674. [doi:10.1093/jnci/95.9.669](https://doi.org/10.1093/jnci/95.9.669) · [PubMed 12734318](https://pubmed.ncbi.nlm.nih.gov/12734318/)

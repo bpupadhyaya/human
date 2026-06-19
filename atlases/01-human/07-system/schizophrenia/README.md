@@ -286,6 +286,15 @@ cross_links:
   - target: 01-human/03-molecular/tnf-alpha
     relation: connects-to
     note: "Neuroinflammation: raised TNF-α and other inflammatory cytokines, with microglial activation, are increasingly implicated in the neurodevelopmental pathology of schizophrenia."
+  - target: 01-human/03-molecular/il-1b
+    relation: connects-to
+    note: "Maternal immune activation: IL-1β is a key cytokine of the maternal immune activation linked to schizophrenia risk, and features in the neuroinflammation of the disorder."
+  - target: 01-human/03-molecular/ifn-gamma
+    relation: connects-to
+    note: "Immune dysregulation: altered IFN-γ signalling is part of the immune dysregulation increasingly tied to schizophrenia, linking infection and inflammation to its neurodevelopment."
+  - target: 01-human/03-molecular/norepinephrine
+    relation: connects-to
+    note: "Noradrenergic arousal: noradrenergic dysregulation contributes to the arousal, attention and stress-response abnormalities seen in schizophrenia alongside the dopamine hypothesis."
 ---
 
 # Schizophrenia
@@ -539,6 +548,9 @@ Notably, schizophrenia shares genetic loci with bipolar disorder, ASD, ADHD, maj
 - `connects-to` → **[Endocannabinoid](../../03-molecular/endocannabinoid/README.md)** — Cannabinoid risk axis: endocannabinoid signalling is dysregulated in schizophrenia, and cannabis use through CB1-receptor agonism is a robust environmental risk factor for psychosis.
 - `connects-to` → **[Oxytocin](../../03-molecular/oxytocin/README.md)** — Social cognition: oxytocin modulates the social cognition and trust deficits central to schizophrenia, and has been explored as an adjunct to antipsychotics.
 - `connects-to` → **[TNF-α](../../03-molecular/tnf-alpha/README.md)** — Neuroinflammation: raised TNF-α and other inflammatory cytokines, with microglial activation, are increasingly implicated in the neurodevelopmental pathology of schizophrenia.
+- `connects-to` → **[IL-1β](../../03-molecular/il-1b/README.md)** — Maternal immune activation: IL-1β is a key cytokine of the maternal immune activation linked to schizophrenia risk, and features in the neuroinflammation of the disorder.
+- `connects-to` → **[IFN-γ](../../03-molecular/ifn-gamma/README.md)** — Immune dysregulation: altered IFN-γ signalling is part of the immune dysregulation increasingly tied to schizophrenia, linking infection and inflammation to its neurodevelopment.
+- `connects-to` → **[Norepinephrine](../../03-molecular/norepinephrine/README.md)** — Noradrenergic arousal: noradrenergic dysregulation contributes to the arousal, attention and stress-response abnormalities seen in schizophrenia alongside the dopamine hypothesis.
 
 [^howes-2009-dopamine-hypothesis]: Howes OD, Kapur S. The dopamine hypothesis of schizophrenia: version III—the final common pathway. *Schizophr Bull.* 2009;35(3):549-562. [doi:10.1093/schbul/sbp006](https://doi.org/10.1093/schbul/sbp006) · [PubMed 19325164](https://pubmed.ncbi.nlm.nih.gov/19325164/)
 [^moghaddam-2012-glutamate]: Moghaddam B, Javitt D. From revolution to evolution: the glutamate hypothesis of schizophrenia and its implication for treatment. *Neuropsychopharmacology.* 2012;37(1):4-15. [doi:10.1038/npp.2011.181](https://doi.org/10.1038/npp.2011.181) · [PubMed 21956446](https://pubmed.ncbi.nlm.nih.gov/21956446/)
