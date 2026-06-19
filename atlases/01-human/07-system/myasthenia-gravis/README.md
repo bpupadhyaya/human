@@ -253,6 +253,15 @@ cross_links:
   - target: 01-human/07-system/sclc
     relation: connects-to
     note: "Mirror images at the synapse: MG attacks postsynaptic acetylcholine receptors with fatigable weakness, while Lambert-Eaton — usually paraneoplastic to small cell lung cancer — attacks presynaptic calcium channels with weakness that improves on exertion."
+  - target: 01-human/05-tissue/myocardium
+    relation: connects-to
+    note: "The heart in myasthenia: thymoma-associated and checkpoint-inhibitor-induced MG can come with myocarditis, autoimmune giant-cell inflammation reaching the myocardium—a dangerous overlap with high mortality."
+  - target: 01-human/05-tissue/guillain-barre
+    relation: connects-to
+    note: "Two causes of acute neuromuscular failure: myasthenia fails at the neuromuscular junction and Guillain-Barré at the nerve, but both can crash respiration and both respond to IVIG and plasma exchange."
+  - target: 01-human/07-system/gvhd
+    relation: connects-to
+    note: "Transplant can trigger myasthenia: chronic graft-versus-host disease occasionally produces an acquired myasthenia with anti-AChR antibodies, alloreactive B-cell autoimmunity striking the neuromuscular junction."
 ---
 
 # Myasthenia Gravis
@@ -442,6 +451,9 @@ cross_links:
 - `connects-to` → **[Targeted Therapy](../../../03-medicine/01-modern/13-cancer/targeted-therapy/README.md)** — Targeted biologics treat refractory disease: the complement inhibitor eculizumab, anti-FcRn agents like efgartigimod that strip pathogenic IgG, and rituximab against B cells control myasthenia gravis resistant to standard immunosuppression.
 - `connects-to` → **[Cancer Chemotherapy](../../../03-medicine/01-modern/13-cancer/cancer-chemotherapy/README.md)** — Immunosuppressants and a tumour link: azathioprine and mycophenolate spare steroids in myasthenia gravis, and because thymoma drives a subset, chemotherapy directed at the thymic tumour is part of management.
 - `connects-to` → **[SCLC](../sclc/README.md)** — Mirror images at the synapse: MG attacks postsynaptic acetylcholine receptors with fatigable weakness, while Lambert-Eaton — usually paraneoplastic to small cell lung cancer — attacks presynaptic calcium channels with weakness that improves on exertion.
+- `connects-to` → **[Myocardium](../../05-tissue/myocardium/README.md)** — The heart in myasthenia: thymoma-associated and checkpoint-inhibitor-induced MG can come with myocarditis, autoimmune giant-cell inflammation reaching the myocardium—a dangerous overlap with high mortality.
+- `connects-to` → **[Guillain-Barré](../../05-tissue/guillain-barre/README.md)** — Two causes of acute neuromuscular failure: myasthenia fails at the neuromuscular junction and Guillain-Barré at the nerve, but both can crash respiration and both respond to IVIG and plasma exchange.
+- `connects-to` → **[GVHD](../gvhd/README.md)** — Transplant can trigger myasthenia: chronic graft-versus-host disease occasionally produces an acquired myasthenia with anti-AChR antibodies, alloreactive B-cell autoimmunity striking the neuromuscular junction.
 
 [^gilhus-2016-mg-review]: Gilhus NE. Myasthenia Gravis. *N Engl J Med.* 2016;375(26):2570-2581. [doi:10.1056/NEJMra1602678](https://doi.org/10.1056/NEJMra1602678) · [PubMed 28029925](https://pubmed.ncbi.nlm.nih.gov/28029925/)
 [^howard-2021-efgartigimod-adapt]: Howard JF Jr, Bril V, Vu T, et al. Safety, efficacy, and tolerability of efgartigimod in patients with generalised myasthenia gravis (ADAPT). *Lancet Neurol.* 2021;20(7):526-536. [doi:10.1016/S1474-4422(21)00159-9](https://doi.org/10.1016/S1474-4422(21)00159-9) · [PubMed 34146511](https://pubmed.ncbi.nlm.nih.gov/34146511/)
