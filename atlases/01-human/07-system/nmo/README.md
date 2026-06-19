@@ -274,6 +274,15 @@ cross_links:
   - target: 01-human/07-system/sclc
     relation: connects-to
     note: "A paraneoplastic trigger: AQP4-antibody NMO is occasionally paraneoplastic, reported with cancers including small-cell lung cancer, so a new diagnosis in an older smoker can prompt a tumour search."
+  - target: 01-human/07-system/covid-19-disease
+    relation: connects-to
+    note: "An infectious trigger: NMOSD attacks have been reported after SARS-CoV-2 infection and, rarely, vaccination, fitting the pattern of immune activation precipitating relapses of this antibody-mediated disease."
+  - target: 01-human/07-system/type-1-diabetes
+    relation: connects-to
+    note: "Autoimmune clustering: NMOSD frequently coexists with other organ-specific autoimmune diseases such as type 1 diabetes, thyroiditis and myasthenia, reflecting a shared predisposition to autoimmunity."
+  - target: 01-human/07-system/narcolepsy
+    relation: connects-to
+    note: "Diencephalic syndrome: AQP4-rich hypothalamic lesions in NMO can cause symptomatic narcolepsy and hypersomnia along with SIADH, the antibody attacking the same brain regions that govern sleep and water balance."
 ---
 
 # NMOSD
@@ -505,6 +514,9 @@ NMOSD impairs CNS function through three attack-related mechanisms:
 - `connects-to` → **[Germinal Center](../../05-tissue/germinal-center/README.md)** — Where the autoantibody is made: AQP4-IgG in neuromyelitis optica is produced by plasmablasts from germinal-centre B-cell responses, the target of B-cell-depleting and IL-6 (Tfh) therapies like rituximab and satralizumab.
 - `connects-to` → **[Antiphospholipid Syndrome](../antiphospholipid-syndrome/README.md)** — Clustering autoimmunity: neuromyelitis optica frequently coexists with systemic autoimmune diseases including antiphospholipid syndrome and lupus, reflecting a shared predisposition to pathogenic autoantibody production.
 - `connects-to` → **[SCLC](../sclc/README.md)** — A paraneoplastic trigger: AQP4-antibody NMO is occasionally paraneoplastic, reported with cancers including small-cell lung cancer, so a new diagnosis in an older smoker can prompt a tumour search.
+- `connects-to` → **[COVID-19 Disease](../covid-19-disease/README.md)** — An infectious trigger: NMOSD attacks have been reported after SARS-CoV-2 infection and, rarely, vaccination, fitting the pattern of immune activation precipitating relapses of this antibody-mediated disease.
+- `connects-to` → **[Type 1 Diabetes](../type-1-diabetes/README.md)** — Autoimmune clustering: NMOSD frequently coexists with other organ-specific autoimmune diseases such as type 1 diabetes, thyroiditis and myasthenia, reflecting a shared predisposition to autoimmunity.
+- `connects-to` → **[Narcolepsy](../narcolepsy/README.md)** — Diencephalic syndrome: AQP4-rich hypothalamic lesions in NMO can cause symptomatic narcolepsy and hypersomnia along with SIADH, the antibody attacking the same brain regions that govern sleep and water balance.
 
 [^wingerchuk-2015-nmosd-criteria]: Wingerchuk DM, Banwell B, Bennett JL, et al. International consensus diagnostic criteria for neuromyelitis optica spectrum disorders. *Neurology.* 2015;85(2):177-189. [doi:10.1212/WNL.0000000000001729](https://doi.org/10.1212/WNL.0000000000001729) · [PubMed 26092914](https://pubmed.ncbi.nlm.nih.gov/26092914/)
 [^pittock-2019-eculizumab-prevent]: Pittock SJ, Berthele A, Fujihara K, et al. Eculizumab in Aquaporin-4-Positive Neuromyelitis Optica Spectrum Disorder. *N Engl J Med.* 2019;381(7):614-625. [doi:10.1056/NEJMoa1900866](https://doi.org/10.1056/NEJMoa1900866) · [PubMed 31050279](https://pubmed.ncbi.nlm.nih.gov/31050279/)
