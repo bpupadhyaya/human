@@ -259,6 +259,15 @@ cross_links:
   - target: 01-human/07-system/alzheimers-disease
     relation: connects-to
     note: "Late-life psychosis and shared mechanisms: psychotic features arise in Alzheimer's dementia, and schizophrenia and Alzheimer's share synaptic loss, microglial and complement-driven pruning and neuroinflammation despite their different ages of onset."
+  - target: 01-human/05-tissue/cardiac-conduction-system
+    relation: connects-to
+    note: "Antipsychotics and sudden death: many antipsychotics prolong the QT interval, and schizophrenia carries an elevated risk of sudden cardiac death through arrhythmia and the conduction system."
+  - target: 01-human/05-tissue/myocardium
+    relation: connects-to
+    note: "Clozapine myocarditis: clozapine—the most effective drug for treatment-resistant schizophrenia—can cause an acute myocarditis and cardiomyopathy of the myocardium, monitored closely in the first weeks of treatment."
+  - target: 01-human/07-system/breast-cancer
+    relation: connects-to
+    note: "Hyperprolactinaemia and breast cancer: dopamine-blocking antipsychotics raise prolactin, and sustained hyperprolactinaemia is associated with a modest increase in breast cancer risk in long-treated patients."
 ---
 
 # Schizophrenia
@@ -503,6 +512,9 @@ Notably, schizophrenia shares genetic loci with bipolar disorder, ASD, ADHD, maj
 - `connects-to` → **[Insomnia Disorder](../insomnia-disorder/README.md)** — Sleep falls apart in psychosis: schizophrenia disrupts sleep architecture—reduced slow-wave sleep and sleep spindles—and insomnia often heralds relapse, with the two sharing dopaminergic and circadian dysregulation.
 - `connects-to` → **[Huntington's Disease](../huntingtons-disease/README.md)** — Psychosis from the striatum: Huntington's disease frequently produces psychotic symptoms, and its striatal dopamine dysregulation echoes the dopamine hypothesis of schizophrenia—one a degenerative, one a developmental disorder of the same circuits.
 - `connects-to` → **[Alzheimer's Disease](../alzheimers-disease/README.md)** — Late-life psychosis and shared mechanisms: psychotic features arise in Alzheimer's dementia, and schizophrenia and Alzheimer's share synaptic loss, microglial and complement-driven pruning and neuroinflammation despite their different ages of onset.
+- `connects-to` → **[Cardiac Conduction System](../../05-tissue/cardiac-conduction-system/README.md)** — Antipsychotics and sudden death: many antipsychotics prolong the QT interval, and schizophrenia carries an elevated risk of sudden cardiac death through arrhythmia and the conduction system.
+- `connects-to` → **[Myocardium](../../05-tissue/myocardium/README.md)** — Clozapine myocarditis: clozapine—the most effective drug for treatment-resistant schizophrenia—can cause an acute myocarditis and cardiomyopathy of the myocardium, monitored closely in the first weeks of treatment.
+- `connects-to` → **[Breast Cancer](../breast-cancer/README.md)** — Hyperprolactinaemia and breast cancer: dopamine-blocking antipsychotics raise prolactin, and sustained hyperprolactinaemia is associated with a modest increase in breast cancer risk in long-treated patients.
 
 [^howes-2009-dopamine-hypothesis]: Howes OD, Kapur S. The dopamine hypothesis of schizophrenia: version III—the final common pathway. *Schizophr Bull.* 2009;35(3):549-562. [doi:10.1093/schbul/sbp006](https://doi.org/10.1093/schbul/sbp006) · [PubMed 19325164](https://pubmed.ncbi.nlm.nih.gov/19325164/)
 [^moghaddam-2012-glutamate]: Moghaddam B, Javitt D. From revolution to evolution: the glutamate hypothesis of schizophrenia and its implication for treatment. *Neuropsychopharmacology.* 2012;37(1):4-15. [doi:10.1038/npp.2011.181](https://doi.org/10.1038/npp.2011.181) · [PubMed 21956446](https://pubmed.ncbi.nlm.nih.gov/21956446/)
