@@ -250,6 +250,15 @@ cross_links:
   - target: 01-human/07-system/hcc
     relation: connects-to
     note: "Liver-directed therapy unites them: uveal melanoma metastasises almost exclusively to the liver, so like hepatocellular carcinoma it is treated with liver-directed approaches—hepatic perfusion, radioembolization and resection—when disease is liver-confined."
+  - target: 01-human/05-tissue/arterial-wall
+    relation: connects-to
+    note: "Vasculogenic mimicry: uveal melanoma cells form their own PAS-positive vascular channels that imitate the arterial wall, a pattern predicting metastasis and helping explain its resistance to anti-angiogenic therapy."
+  - target: 01-human/07-system/synovial-sarcoma
+    relation: connects-to
+    note: "Engineered T-cells for cold tumours: uveal melanoma (treated with the gp100 ImmTAC tebentafusp) and synovial sarcoma (treated with NY-ESO-1 TCR cells) both resist checkpoint blockade and instead yield to HLA-restricted redirected T-cells."
+  - target: 01-human/07-system/breast-cancer
+    relation: connects-to
+    note: "The choroid as a target: uveal melanoma is the commonest primary intraocular tumour in adults, but the choroid is also the commonest site of intraocular metastasis—classically from breast cancer—a key differential."
 ---
 
 # Uveal Melanoma
@@ -464,6 +473,9 @@ Uveal melanocytes are neural crest-derived, residing in the uveal stroma and mai
 - `connects-to` → **[Germinal Center](../../05-tissue/germinal-center/README.md)** — An immune-privileged, cold tumour: arising in the immune-privileged eye with a low mutational burden, uveal melanoma rarely forms the germinal-centre-like lymphoid structures that predict checkpoint response, so the TCR-bispecific tebentafusp—not PD-1 blockade—extends survival.
 - `connects-to` → **[MDS](../mds/README.md)** — A shared splicing-factor mutation: SF3B1, mutated in a subset of uveal melanomas, is the same spliceosome gene that defines myelodysplastic syndrome with ring sideroblasts—one splicing defect across an eye cancer and a marrow disease.
 - `connects-to` → **[HCC](../hcc/README.md)** — Liver-directed therapy unites them: uveal melanoma metastasises almost exclusively to the liver, so like hepatocellular carcinoma it is treated with liver-directed approaches—hepatic perfusion, radioembolization and resection—when disease is liver-confined.
+- `connects-to` → **[Arterial Wall](../../05-tissue/arterial-wall/README.md)** — Vasculogenic mimicry: uveal melanoma cells form their own PAS-positive vascular channels that imitate the arterial wall, a pattern predicting metastasis and helping explain its resistance to anti-angiogenic therapy.
+- `connects-to` → **[Synovial Sarcoma](../synovial-sarcoma/README.md)** — Engineered T-cells for cold tumours: uveal melanoma (treated with the gp100 ImmTAC tebentafusp) and synovial sarcoma (treated with NY-ESO-1 TCR cells) both resist checkpoint blockade and instead yield to HLA-restricted redirected T-cells.
+- `connects-to` → **[Breast Cancer](../breast-cancer/README.md)** — The choroid as a target: uveal melanoma is the commonest primary intraocular tumour in adults, but the choroid is also the commonest site of intraocular metastasis—classically from breast cancer—a key differential.
 
 ---
 

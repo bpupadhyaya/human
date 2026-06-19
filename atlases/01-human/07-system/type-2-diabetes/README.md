@@ -256,6 +256,15 @@ cross_links:
   - target: 01-human/07-system/gout
     relation: connects-to
     note: "Insulin resistance raises urate: type 2 diabetes and gout cluster within the metabolic syndrome, as hyperinsulinaemia reduces renal uric-acid excretion and shared obesity drives both."
+  - target: 01-human/07-system/endometrial-cancer
+    relation: connects-to
+    note: "Insulin and oestrogen drive it: type 2 diabetes and its obesity raise endometrial cancer risk markedly, as hyperinsulinaemia and adipose-derived oestrogen both stimulate endometrial proliferation."
+  - target: 01-human/05-tissue/myocardium
+    relation: connects-to
+    note: "Diabetic cardiomyopathy: glucotoxicity and AGE deposition stiffen the myocardium and cause heart failure with preserved ejection fraction, independent of coronary disease or hypertension."
+  - target: 01-human/05-tissue/cortical-bone
+    relation: connects-to
+    note: "The diabetic bone paradox: despite normal or high bone density, type 2 diabetes degrades cortical bone microarchitecture and collagen through AGE cross-linking, paradoxically raising fracture risk."
 ---
 
 # Type 2 Diabetes
@@ -438,6 +447,9 @@ T2DM, CKD, heart failure, and obesity form the **cardiorenal metabolic (CRM) syn
 - `connects-to` → **[Islet of Langerhans](../../05-tissue/islet-of-langerhans/README.md)** — The beta cell finally fails: type 2 diabetes begins with insulin resistance but progresses as the islets of Langerhans exhaust and lose beta cells—with islet amyloid (IAPP) deposition—so insulin output falls and hyperglycaemia worsens.
 - `connects-to` → **[Arterial Wall](../../05-tissue/arterial-wall/README.md)** — It hardens the arteries: type 2 diabetes accelerates atherosclerosis and stiffens the arterial wall through hyperglycaemia, AGEs and dyslipidaemia, making macrovascular disease—heart attack and stroke—the leading cause of diabetic death.
 - `connects-to` → **[Gout](../gout/README.md)** — Insulin resistance raises urate: type 2 diabetes and gout cluster within the metabolic syndrome, as hyperinsulinaemia reduces renal uric-acid excretion and shared obesity drives both.
+- `connects-to` → **[Endometrial Cancer](../endometrial-cancer/README.md)** — Insulin and oestrogen drive it: type 2 diabetes and its obesity raise endometrial cancer risk markedly, as hyperinsulinaemia and adipose-derived oestrogen both stimulate endometrial proliferation.
+- `connects-to` → **[Myocardium](../../05-tissue/myocardium/README.md)** — Diabetic cardiomyopathy: glucotoxicity and AGE deposition stiffen the myocardium and cause heart failure with preserved ejection fraction, independent of coronary disease or hypertension.
+- `connects-to` → **[Cortical Bone](../../05-tissue/cortical-bone/README.md)** — The diabetic bone paradox: despite normal or high bone density, type 2 diabetes degrades cortical bone microarchitecture and collagen through AGE cross-linking, paradoxically raising fracture risk.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
