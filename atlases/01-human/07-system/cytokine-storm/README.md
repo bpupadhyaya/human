@@ -259,6 +259,15 @@ cross_links:
   - target: 01-human/05-tissue/hepatic-lobule
     relation: connects-to
     note: "Hepatitis of the storm: in HLH and macrophage-activation syndrome the cytokine surge inflames the hepatic lobule, causing hepatitis, hepatosplenomegaly and extreme hyperferritinaemia."
+  - target: 01-human/05-tissue/arterial-wall
+    relation: connects-to
+    note: "Endothelial leak: the cytokine storm activates and disrupts the endothelium of the arterial wall and capillaries, causing the vascular leak, hypotension and oedema of severe systemic inflammation."
+  - target: 01-human/07-system/rsv
+    relation: connects-to
+    note: "Inflammation injures the infant lung: severe RSV bronchiolitis drives an exaggerated cytokine response that damages airways and alveoli, a paediatric cytokine storm beyond direct viral injury."
+  - target: 01-human/07-system/burkitt-lymphoma
+    relation: connects-to
+    note: "Treatment-triggered storms: Burkitt and other aggressive lymphomas can unleash cytokine release syndrome with CD19 immunotherapy and severe tumour lysis, acute systemic-inflammation emergencies."
 ---
 
 # Cytokine Storm
@@ -430,6 +439,9 @@ CS drives a **consumptive coagulopathy (DIC)**:
 - `connects-to` → **[Alveolus](../../05-tissue/alveolus/README.md)** — ARDS at the gas-exchange surface: the cytokine flood makes alveolar capillaries leak and flood the air sacs, causing the acute respiratory distress syndrome that is the commonest fatal endpoint.
 - `connects-to` → **[Glomerulus](../../05-tissue/glomerulus/README.md)** — Cytokine acute kidney injury: systemic inflammation and microvascular injury impair the glomerulus, a major contributor to the multi-organ failure of cytokine storm.
 - `connects-to` → **[Hepatic Lobule](../../05-tissue/hepatic-lobule/README.md)** — Hepatitis of the storm: in HLH and macrophage-activation syndrome the cytokine surge inflames the hepatic lobule, causing hepatitis, hepatosplenomegaly and extreme hyperferritinaemia.
+- `connects-to` → **[Arterial Wall](../../05-tissue/arterial-wall/README.md)** — Endothelial leak: the cytokine storm activates and disrupts the endothelium of the arterial wall and capillaries, causing the vascular leak, hypotension and oedema of severe systemic inflammation.
+- `connects-to` → **[RSV](../rsv/README.md)** — Inflammation injures the infant lung: severe RSV bronchiolitis drives an exaggerated cytokine response that damages airways and alveoli, a paediatric cytokine storm beyond direct viral injury.
+- `connects-to` → **[Burkitt Lymphoma](../burkitt-lymphoma/README.md)** — Treatment-triggered storms: Burkitt and other aggressive lymphomas can unleash cytokine release syndrome with CD19 immunotherapy and severe tumour lysis, acute systemic-inflammation emergencies.
 
 ## Pathology
 

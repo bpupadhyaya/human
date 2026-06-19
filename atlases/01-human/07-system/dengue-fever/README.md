@@ -259,6 +259,15 @@ cross_links:
   - target: 01-human/05-tissue/germinal-center
     relation: connects-to
     note: "Antibody-dependent enhancement: cross-reactive antibodies from a prior serotype, made in germinal centres, can paradoxically worsen a second dengue infection by ferrying virus into macrophages."
+  - target: 01-human/05-tissue/arterial-wall
+    relation: connects-to
+    note: "Plasma leak through the vessel: dengue's severe form leaks plasma across a cytokine-damaged endothelium of the arterial wall and capillaries, causing the shock and effusions of dengue haemorrhagic fever."
+  - target: 01-human/05-tissue/cardiac-conduction-system
+    relation: connects-to
+    note: "Cardiac dengue: dengue commonly causes bradycardia and conduction abnormalities, and a viral myocarditis, affecting the cardiac conduction system even in non-severe disease."
+  - target: 01-human/07-system/covid-19-disease
+    relation: connects-to
+    note: "Overlapping fevers: dengue and COVID-19 co-circulate in many regions and share early features—fever, myalgia, thrombocytopenia and cytokine-driven illness—posing a diagnostic and co-infection challenge."
 ---
 
 # Dengue Fever
@@ -451,3 +460,6 @@ No approved antiviral therapy for dengue. Management is entirely supportive:
 - `connects-to` → **[Glomerulus](../../05-tissue/glomerulus/README.md)** — Dengue acute kidney injury: capillary leak, rhabdomyolysis and immune-complex deposition injure the glomerulus, and AKI marks severe dengue and predicts mortality.
 - `connects-to` → **[Alveolus](../../05-tissue/alveolus/README.md)** — Plasma leak floods the lungs: severe dengue's vascular leak fills the pleura and alveoli, and pulmonary haemorrhage and ARDS at the gas-exchange surface mark its most dangerous form.
 - `connects-to` → **[Germinal Center](../../05-tissue/germinal-center/README.md)** — Antibody-dependent enhancement: cross-reactive antibodies from a prior serotype, made in germinal centres, can paradoxically worsen a second dengue infection by ferrying virus into macrophages.
+- `connects-to` → **[Arterial Wall](../../05-tissue/arterial-wall/README.md)** — Plasma leak through the vessel: dengue's severe form leaks plasma across a cytokine-damaged endothelium of the arterial wall and capillaries, causing the shock and effusions of dengue haemorrhagic fever.
+- `connects-to` → **[Cardiac Conduction System](../../05-tissue/cardiac-conduction-system/README.md)** — Cardiac dengue: dengue commonly causes bradycardia and conduction abnormalities, and a viral myocarditis, affecting the cardiac conduction system even in non-severe disease.
+- `connects-to` → **[COVID-19 Disease](../covid-19-disease/README.md)** — Overlapping fevers: dengue and COVID-19 co-circulate in many regions and share early features—fever, myalgia, thrombocytopenia and cytokine-driven illness—posing a diagnostic and co-infection challenge.
