@@ -277,6 +277,15 @@ cross_links:
   - target: 01-human/03-molecular/ezh2
     relation: connects-to
     note: "Epigenetic progression: EZH2 and other epigenetic-regulator mutations accumulate in polycythaemia vera and contribute to its progression toward myelofibrosis and leukaemia."
+  - target: 01-human/03-molecular/il-6
+    relation: connects-to
+    note: "Clonal inflammation: IL-6 from the JAK2-mutant clone fuels the chronic inflammation of polycythaemia vera, contributing to its symptoms and thrombotic risk."
+  - target: 01-human/03-molecular/il-1b
+    relation: connects-to
+    note: "Inflammatory marrow: IL-1β secreted by the mutant clone damages the bone-marrow niche, promoting the clonal advantage and progression of polycythaemia vera."
+  - target: 01-human/03-molecular/vegf
+    relation: connects-to
+    note: "Marrow angiogenesis: elevated VEGF increases bone-marrow microvessel density in polycythaemia vera, part of the proliferative MPN microenvironment."
 ---
 
 # Polycythemia Vera
@@ -485,6 +494,9 @@ PV must be distinguished from secondary erythrocytosis (elevated EPO, JAK2 wild-
 - `connects-to` → **[Type I Interferon](../../03-molecular/type-i-interferon/README.md)** — Clone-reducing therapy: pegylated interferon-alpha is a disease-modifying treatment for polycythaemia vera that can lower the JAK2-mutant allele burden and induce molecular responses.
 - `connects-to` → **[HIF-1α](../../03-molecular/hif-1alpha/README.md)** — Oxygen-sensing axis: HIF/oxygen-sensing signalling underlies erythrocytosis, and HIF2A, PHD2 and VHL defects cause polycythaemia-vera-like erythrocytosis distinct from JAK2-driven disease.
 - `connects-to` → **[EZH2](../../03-molecular/ezh2/README.md)** — Epigenetic progression: EZH2 and other epigenetic-regulator mutations accumulate in polycythaemia vera and contribute to its progression toward myelofibrosis and leukaemia.
+- `connects-to` → **[IL-6](../../03-molecular/il-6/README.md)** — Clonal inflammation: IL-6 from the JAK2-mutant clone fuels the chronic inflammation of polycythaemia vera, contributing to its symptoms and thrombotic risk.
+- `connects-to` → **[IL-1β](../../03-molecular/il-1b/README.md)** — Inflammatory marrow: IL-1β secreted by the mutant clone damages the bone-marrow niche, promoting the clonal advantage and progression of polycythaemia vera.
+- `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — Marrow angiogenesis: elevated VEGF increases bone-marrow microvessel density in polycythaemia vera, part of the proliferative MPN microenvironment.
 
 [^vannucchi-2015-response]: Vannucchi AM, Kiladjian JJ, Griesshammer M, et al. Ruxolitinib versus standard therapy for the treatment of polycythemia vera. *N Engl J Med.* 2015;372(5):426-435. [doi:10.1056/NEJMoa1409630](https://doi.org/10.1056/NEJMoa1409630) · [PubMed 25577388](https://pubmed.ncbi.nlm.nih.gov/25577388/)
 [^gisslinger-2020-proud-pv]: Gisslinger H, Gotic M, Holowiecki J, et al. Ropeginterferon alfa-2b versus standard therapy for polycythaemia vera (PROUD-PV and CONTINUATION-PV): a randomised, non-inferiority, phase 3 trial and its extension study. *Lancet Haematol.* 2020;7(3):e196-e208. [doi:10.1016/S2352-3026(19)30236-4](https://doi.org/10.1016/S2352-3026(19)30236-4) · [PubMed 32046833](https://pubmed.ncbi.nlm.nih.gov/32046833/)

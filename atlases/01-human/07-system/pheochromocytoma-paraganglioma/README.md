@@ -277,6 +277,15 @@ cross_links:
   - target: 01-human/03-molecular/pdgf
     relation: connects-to
     note: "Angiogenic RTK target: PDGFR and VEGFR signalling drive the rich vasculature of PPGL, the basis for multikinase inhibitors such as sunitinib in metastatic disease."
+  - target: 01-human/03-molecular/erk1-2
+    relation: connects-to
+    note: "MAPK output: the RET, NF1 and RAS lesions of the kinase-signalling PPGL cluster converge on ERK1/2, driving the proliferation of these neuroendocrine tumours."
+  - target: 01-human/03-molecular/myc
+    relation: connects-to
+    note: "Proliferative oncogene: MYC activation downstream of the kinase and pseudohypoxic pathways helps drive the growth of pheochromocytoma-paraganglioma."
+  - target: 01-human/03-molecular/cyclin-d1
+    relation: connects-to
+    note: "Cell-cycle drive: cyclin D1-CDK4/6 activity propels PPGL tumour cells through the G1 checkpoint, the proliferative output of their driver pathways."
 ---
 
 # Pheochromocytoma/Paraganglioma
@@ -505,6 +514,9 @@ Active in Cluster 1 (MET/AXL co-expressed in SDH-deficient tumors); Phase 2 CABO
 - `connects-to` → **[EZH2](../../03-molecular/ezh2/README.md)** — Pseudohypoxic epigenetics: in SDH-deficient PPGL, accumulated succinate inhibits histone demethylases and, with EZH2/polycomb, drives the DNA/histone hypermethylator phenotype shared with IDH- and FH-mutant tumours.
 - `connects-to` → **[KRAS](../../03-molecular/kras/README.md)** — Kinase-signalling group: alongside NF1 and RET, RAS-MAPK activation defines the kinase-signalling cluster of PPGL, with HRAS/KRAS mutations in some sporadic tumours.
 - `connects-to` → **[PDGF](../../03-molecular/pdgf/README.md)** — Angiogenic RTK target: PDGFR and VEGFR signalling drive the rich vasculature of PPGL, the basis for multikinase inhibitors such as sunitinib in metastatic disease.
+- `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — MAPK output: the RET, NF1 and RAS lesions of the kinase-signalling PPGL cluster converge on ERK1/2, driving the proliferation of these neuroendocrine tumours.
+- `connects-to` → **[MYC](../../03-molecular/myc/README.md)** — Proliferative oncogene: MYC activation downstream of the kinase and pseudohypoxic pathways helps drive the growth of pheochromocytoma-paraganglioma.
+- `connects-to` → **[Cyclin D1](../../03-molecular/cyclin-d1/README.md)** — Cell-cycle drive: cyclin D1-CDK4/6 activity propels PPGL tumour cells through the G1 checkpoint, the proliferative output of their driver pathways.
 
 [^lenders-2014-pheo-guideline]: Lenders JW, Duh QY, Eisenhofer G, et al. Pheochromocytoma and paraganglioma: an endocrine society clinical practice guideline. *J Clin Endocrinol Metab.* 2014;99(6):1915-1942. [doi:10.1210/jc.2014-1498](https://doi.org/10.1210/jc.2014-1498) · [PubMed 24893135](https://pubmed.ncbi.nlm.nih.gov/24893135/)
 [^baudin-2021-firstmappp-sunitinib]: Baudin E, Goichot B, Berruti A, et al. First International Randomized Study in Malignant Progressive Pheochromocytoma and Paragangliomas (FIRSTMAPPP). *Ann Oncol.* 2021;32(10):1245-1254. [doi:10.1016/j.annonc.2021.07.009](https://doi.org/10.1016/j.annonc.2021.07.009) · [PubMed 34246769](https://pubmed.ncbi.nlm.nih.gov/34246769/)
