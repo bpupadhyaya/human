@@ -286,6 +286,15 @@ cross_links:
   - target: 01-human/03-molecular/npy
     relation: connects-to
     note: "Resilience signal: neuropeptide Y has anti-stress, antidepressant-like effects, and low NPY levels are associated with depression and impaired stress resilience."
+  - target: 01-human/03-molecular/serotonin-transporter
+    relation: connects-to
+    note: "SSRI target: the serotonin transporter is blocked by the SSRIs that are first-line for depression, and its gene variants modulate stress-related depression risk."
+  - target: 01-human/03-molecular/glucocorticoid-receptor
+    relation: connects-to
+    note: "HPA dysregulation: impaired glucocorticoid-receptor feedback underlies the cortisol hypersecretion of melancholic depression, a core stress-axis abnormality of the disorder."
+  - target: 01-human/03-molecular/ifn-gamma
+    relation: connects-to
+    note: "Inflammatory depression: IFN-γ and interferon therapy can precipitate depression by diverting tryptophan from serotonin toward neurotoxic kynurenines, part of the cytokine model of MDD."
 ---
 
 # Major Depressive Disorder
@@ -532,6 +541,9 @@ Approximately 30–40% of MDD patients have elevated inflammatory markers:
 - `connects-to` → **[IL-1β](../../03-molecular/il-1b/README.md)** — Inflammatory hypothesis: IL-1β and the inflammasome drive the neuroinflammation increasingly implicated in depression, joining IL-6 and TNF-α in the cytokine signature of low mood.
 - `connects-to` → **[Substance P](../../03-molecular/substance-p/README.md)** — Stress neuropeptide: substance P and its NK1 receptor regulate mood and stress responses, an early antidepressant target that, though clinically disappointing, illuminated depression biology.
 - `connects-to` → **[NPY](../../03-molecular/npy/README.md)** — Resilience signal: neuropeptide Y has anti-stress, antidepressant-like effects, and low NPY levels are associated with depression and impaired stress resilience.
+- `connects-to` → **[Serotonin Transporter](../../03-molecular/serotonin-transporter/README.md)** — SSRI target: the serotonin transporter is blocked by the SSRIs that are first-line for depression, and its gene variants modulate stress-related depression risk.
+- `connects-to` → **[Glucocorticoid Receptor](../../03-molecular/glucocorticoid-receptor/README.md)** — HPA dysregulation: impaired glucocorticoid-receptor feedback underlies the cortisol hypersecretion of melancholic depression, a core stress-axis abnormality of the disorder.
+- `connects-to` → **[IFN-γ](../../03-molecular/ifn-gamma/README.md)** — Inflammatory depression: IFN-γ and interferon therapy can precipitate depression by diverting tryptophan from serotonin toward neurotoxic kynurenines, part of the cytokine model of MDD.
 
 [^cipriani-2018-antidepressants-meta]: Cipriani A, Furukawa TA, Salanti G, et al. Comparative efficacy and acceptability of 21 antidepressant drugs for acute treatment of adults with major depressive disorder. *Lancet.* 2018;391(10128):1357-1366. [doi:10.1016/S0140-6736(17)32802-7](https://doi.org/10.1016/S0140-6736(17)32802-7) · [PubMed 29477251](https://pubmed.ncbi.nlm.nih.gov/29477251/)
 [^zarate-2006-ketamine-rapid]: Zarate CA Jr, Singh JB, Carlson PJ, et al. A randomized trial of an N-methyl-D-aspartate antagonist in treatment-resistant major depression. *Arch Gen Psychiatry.* 2006;63(8):856-864. [doi:10.1001/archpsyc.63.8.856](https://doi.org/10.1001/archpsyc.63.8.856) · [PubMed 16894061](https://pubmed.ncbi.nlm.nih.gov/16894061/)

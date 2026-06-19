@@ -277,6 +277,15 @@ cross_links:
   - target: 01-human/03-molecular/tert
     relation: connects-to
     note: "Replicative immortality: like other cancers, Lynch-associated tumours reactivate TERT to maintain telomeres, sustaining the unlimited division enabled by mismatch-repair loss."
+  - target: 01-human/03-molecular/akt
+    relation: connects-to
+    note: "PI3K/AKT activation: frameshift and PIK3CA mutations in the hypermutated Lynch tumours activate AKT, driving growth alongside the mismatch-repair defect."
+  - target: 01-human/03-molecular/myc
+    relation: connects-to
+    note: "Wnt-driven oncogene: APC/Wnt activation common in Lynch colorectal cancers upregulates MYC, driving the proliferation of these mismatch-repair-deficient tumours."
+  - target: 01-human/03-molecular/hif-1alpha
+    relation: connects-to
+    note: "Tumour hypoxia: HIF-1α stabilised in growing Lynch-associated tumours drives the angiogenesis that supports their expansion, complementing their high immunogenicity."
 ---
 
 # Lynch Syndrome
@@ -503,6 +512,9 @@ MSI-H stage II CRC: adjuvant 5-FU/leucovorin does NOT improve OS (may be harmful
 - `connects-to` → **[p53](../../03-molecular/p53/README.md)** — A distinct pathway: unlike chromosomally unstable colorectal cancers driven by p53 loss, Lynch (MSI) tumours arise from mismatch-repair failure and frameshift mutations, often retaining wild-type p53.
 - `connects-to` → **[PIK3CA](../../03-molecular/pik3ca/README.md)** — Hypermutated activation: the mismatch-repair-deficient tumours of Lynch syndrome accumulate activating PIK3CA and frameshift mutations across their hypermutated genomes.
 - `connects-to` → **[TERT](../../03-molecular/tert/README.md)** — Replicative immortality: like other cancers, Lynch-associated tumours reactivate TERT to maintain telomeres, sustaining the unlimited division enabled by mismatch-repair loss.
+- `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — PI3K/AKT activation: frameshift and PIK3CA mutations in the hypermutated Lynch tumours activate AKT, driving growth alongside the mismatch-repair defect.
+- `connects-to` → **[MYC](../../03-molecular/myc/README.md)** — Wnt-driven oncogene: APC/Wnt activation common in Lynch colorectal cancers upregulates MYC, driving the proliferation of these mismatch-repair-deficient tumours.
+- `connects-to` → **[HIF-1α](../../03-molecular/hif-1alpha/README.md)** — Tumour hypoxia: HIF-1α stabilised in growing Lynch-associated tumours drives the angiogenesis that supports their expansion, complementing their high immunogenicity.
 
 [^bonadona-2011-lynch-risks]: Bonadona V, Bonaïti B, Olschwang S, et al. Cancer risks associated with germline mutations in MLH1, MSH2, and MSH6 genes in Lynch syndrome. *JAMA.* 2011;305(22):2304-2310. [doi:10.1001/jama.2011.743](https://doi.org/10.1001/jama.2011.743) · [PubMed 21642683](https://pubmed.ncbi.nlm.nih.gov/21642683/)
 [^lynch-2015-lynch-review]: Lynch HT, Snyder CL, Shaw TG, et al. Milestones of Lynch syndrome: 1895-2015. *Nat Rev Cancer.* 2015;15(3):181-194. [doi:10.1038/nrc3878](https://doi.org/10.1038/nrc3878) · [PubMed 25673086](https://pubmed.ncbi.nlm.nih.gov/25673086/)
