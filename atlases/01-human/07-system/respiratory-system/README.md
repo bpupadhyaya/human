@@ -279,6 +279,15 @@ cross_links:
   - target: 01-human/07-system/marfan-syndrome
     relation: connects-to
     note: "Spontaneous pneumothorax: connective-tissue disorders such as Marfan form apical lung blebs that rupture, making spontaneous pneumothorax a structural respiratory complication of the syndrome."
+  - target: 01-human/03-molecular/il-6
+    relation: connects-to
+    note: "Airway inflammation: IL-6 is a central cytokine of respiratory inflammation, elevated in asthma, COPD and the pneumonias and ARDS that injure the lung."
+  - target: 01-human/03-molecular/tnf-alpha
+    relation: connects-to
+    note: "Inflammatory lung injury: TNF-α drives the neutrophilic inflammation of acute lung injury and chronic airway disease, a key mediator of respiratory pathology."
+  - target: 01-human/04-cellular/dendritic-cell
+    relation: connects-to
+    note: "Airway sentinels: dendritic cells lining the airway epithelium sample inhaled antigens and orchestrate the immune responses—protective and allergic—of the respiratory mucosa."
 taxonomy:
   uberon: "UBERON:0001004"
   fma: "FMA:7161"
@@ -447,6 +456,9 @@ The mucociliary escalator (ciliated cells + goblet cell mucus) continuously clea
 - **Connects-to** → [Lung Slice](../../05-tissue/lung-slice/README.md): The working tissue of breathing: the lung's conducting airways and alveolar parenchyma — seen on a lung slice — humidify, conduct and exchange air, the tissue-level substrate of every respiratory disease from asthma to fibrosis.
 - **Connects-to** → [Targeted Therapy](../../../03-medicine/01-modern/13-cancer/targeted-therapy/README.md): Biologics and TKIs target the airway: anti-IL-5/IL-4 monoclonals control severe asthma while EGFR, ALK and checkpoint therapies treat lung cancer — precision drugs reshaping respiratory medicine.
 - **Connects-to** → [Cancer Chemotherapy](../../../03-medicine/01-modern/13-cancer/cancer-chemotherapy/README.md): It treats and it scars the lung: cytotoxic chemotherapy is central to lung cancer, yet agents like bleomycin and methotrexate cause drug-induced pneumonitis and pulmonary fibrosis, a toxicity unique to the respiratory system.
+- **Connects-to** → [IL-6](../../03-molecular/il-6/README.md): Airway inflammation: IL-6 is a central cytokine of respiratory inflammation, elevated in asthma, COPD and the pneumonias and ARDS that injure the lung.
+- **Connects-to** → [TNF-α](../../03-molecular/tnf-alpha/README.md): Inflammatory lung injury: TNF-α drives the neutrophilic inflammation of acute lung injury and chronic airway disease, a key mediator of respiratory pathology.
+- **Connects-to** → [Dendritic Cell](../../04-cellular/dendritic-cell/README.md): Airway sentinels: dendritic cells lining the airway epithelium sample inhaled antigens and orchestrate the immune responses—protective and allergic—of the respiratory mucosa.
 - `prevented-by` → **[PCV13 (Prevnar 13)](../../../../04-vaccine/08-conjugate/pcv13/README.md)** — CAPiTA RCT (N=84,496 adults ≥65): PCV13 achieved 45.6% VE against vaccine-type CAP and 75% VE against invasive pneumococcal disease; prevents pneumococcal pneumonia, the leading infectious cause of respiratory hospitalisation in older adults.
 
 ## Pathology

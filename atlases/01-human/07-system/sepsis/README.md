@@ -280,6 +280,15 @@ cross_links:
   - target: 01-human/05-tissue/cardiac-conduction-system
     relation: connects-to
     note: "Septic arrhythmia: sepsis frequently triggers new-onset atrial fibrillation and conduction disturbances through inflammation, catecholamine surge and electrolyte shifts in the conduction system."
+  - target: 01-human/03-molecular/il-1b
+    relation: connects-to
+    note: "Pyrogenic alarm: IL-1β released through inflammasome activation drives the fever, vasodilation and endothelial activation of the early hyperinflammatory phase of sepsis."
+  - target: 01-human/03-molecular/ifn-gamma
+    relation: connects-to
+    note: "Macrophage activation: IFN-γ amplifies the macrophage response in sepsis, and its dysregulation can tip into the macrophage-activation syndrome of overwhelming infection."
+  - target: 01-human/03-molecular/fibrinogen
+    relation: connects-to
+    note: "Consumptive coagulopathy: sepsis activates coagulation that consumes fibrinogen into microthrombi, the disseminated intravascular coagulation that drives organ failure and bleeding."
 ---
 
 # Sepsis
@@ -473,6 +482,9 @@ Sepsis is not localized to one system — it manifests as dysfunction across mul
 - `connects-to` → **[Peripheral Nerve](../../05-tissue/peripheral-nerve/README.md)** — ICU-acquired weakness: critical illness polyneuropathy and myopathy from sepsis damage peripheral nerves and muscle, leaving survivors with profound, prolonged weakness after the infection resolves.
 - `connects-to` → **[Alzheimer's Disease](../alzheimers-disease/README.md)** — Post-sepsis brain: severe sepsis accelerates long-term cognitive decline and raises dementia risk through neuroinflammation, microvascular injury and hypoperfusion of the brain.
 - `connects-to` → **[Cardiac Conduction System](../../05-tissue/cardiac-conduction-system/README.md)** — Septic arrhythmia: sepsis frequently triggers new-onset atrial fibrillation and conduction disturbances through inflammation, catecholamine surge and electrolyte shifts in the conduction system.
+- `connects-to` → **[IL-1β](../../03-molecular/il-1b/README.md)** — Pyrogenic alarm: IL-1β released through inflammasome activation drives the fever, vasodilation and endothelial activation of the early hyperinflammatory phase of sepsis.
+- `connects-to` → **[IFN-γ](../../03-molecular/ifn-gamma/README.md)** — Macrophage activation: IFN-γ amplifies the macrophage response in sepsis, and its dysregulation can tip into the macrophage-activation syndrome of overwhelming infection.
+- `connects-to` → **[Fibrinogen](../../03-molecular/fibrinogen/README.md)** — Consumptive coagulopathy: sepsis activates coagulation that consumes fibrinogen into microthrombi, the disseminated intravascular coagulation that drives organ failure and bleeding.
 - `treated-by` → **[Vancomycin](../../../03-medicine/01-modern/06-antimicrobial/vancomycin/README.md)** — First-line empiric IV therapy for MRSA bacteremia and gram-positive sepsis; added to beta-lactam empiric regimens when MRSA risk is elevated; AUC/MIC-guided dosing (IDSA 2021); MIC ≤1 mg/L required for endocarditis; daptomycin alternative for high MIC.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
