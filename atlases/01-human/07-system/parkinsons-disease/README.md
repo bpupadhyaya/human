@@ -268,6 +268,15 @@ cross_links:
   - target: 01-human/07-system/bipolar-disorder
     relation: connects-to
     note: "A shared dopamine thread: bipolar disorder is associated with a higher later risk of Parkinson's disease, and the dopaminergic dysregulation of mania mirrors, in reverse, the dopamine loss of Parkinson's."
+  - target: 01-human/05-tissue/alveolus
+    relation: connects-to
+    note: "Aspiration ends it: dysphagia in advanced Parkinson's leads to aspiration pneumonia, seeding the alveoli with oral flora—the leading cause of death in the disease."
+  - target: 01-human/05-tissue/endocardium
+    relation: connects-to
+    note: "Drug-induced valve disease: ergot-derived dopamine agonists (pergolide, cabergoline) stimulate 5-HT2B receptors to fibrose the heart valves and endocardium, the reason these agonists are now largely avoided."
+  - target: 01-human/07-system/fibromyalgia
+    relation: connects-to
+    note: "Pain in Parkinson's: chronic pain is a common non-motor symptom of Parkinson's with central-sensitisation features that overlap fibromyalgia, beyond the rigidity and dystonia of the motor disease."
 ---
 
 # Parkinson's Disease
@@ -490,6 +499,9 @@ PD is primarily a disease of aging (mean onset ~60 years), but **~10–15% of ca
 - `connects-to` → **[Arterial Wall](../../05-tissue/arterial-wall/README.md)** — Vascular parkinsonism: small-vessel disease of the brain's arterial walls can mimic Parkinson's with a lower-body, gait-predominant parkinsonism that responds poorly to levodopa, a key differential.
 - `connects-to` → **[ALS](../als/README.md)** — Neurodegeneration's shared themes: Parkinson's and ALS are both age-related neurodegenerations driven by protein misfolding and aggregation, with rare overlap syndromes and the Guam ALS-parkinsonism-dementia complex linking them.
 - `connects-to` → **[Bipolar Disorder](../bipolar-disorder/README.md)** — A shared dopamine thread: bipolar disorder is associated with a higher later risk of Parkinson's disease, and the dopaminergic dysregulation of mania mirrors, in reverse, the dopamine loss of Parkinson's.
+- `connects-to` → **[Alveolus](../../05-tissue/alveolus/README.md)** — Aspiration ends it: dysphagia in advanced Parkinson's leads to aspiration pneumonia, seeding the alveoli with oral flora—the leading cause of death in the disease.
+- `connects-to` → **[Endocardium](../../05-tissue/endocardium/README.md)** — Drug-induced valve disease: ergot-derived dopamine agonists (pergolide, cabergoline) stimulate 5-HT2B receptors to fibrose the heart valves and endocardium, the reason these agonists are now largely avoided.
+- `connects-to` → **[Fibromyalgia](../fibromyalgia/README.md)** — Pain in Parkinson's: chronic pain is a common non-motor symptom of Parkinson's with central-sensitisation features that overlap fibromyalgia, beyond the rigidity and dystonia of the motor disease.
 
 [^kalia-2015-pd-review]: Kalia LV, Lang AE. Parkinson's disease. *Lancet.* 2015;386(9996):896-912. [doi:10.1016/S0140-6736(14)61393-3](https://doi.org/10.1016/S0140-6736(14)61393-3) · [PubMed 25904081](https://pubmed.ncbi.nlm.nih.gov/25904081/)
 [^spillantini-1997-lewy-body]: Spillantini MG, Schmidt ML, Lee VM, Trojanowski JQ, Jakes R, Goedert M. Alpha-synuclein in Lewy bodies. *Nature.* 1997;388(6645):839-840. [doi:10.1038/42166](https://doi.org/10.1038/42166) · [PubMed 9278044](https://pubmed.ncbi.nlm.nih.gov/9278044/)

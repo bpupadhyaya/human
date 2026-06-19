@@ -262,6 +262,15 @@ cross_links:
   - target: 01-human/06-organ/placenta
     relation: connects-to
     note: "A dangerous mix with pregnancy: PNH sharply raises the already high thrombosis risk of pregnancy, threatening placental and maternal veins, so anticoagulation and complement inhibition are intensified throughout."
+  - target: 01-human/07-system/antiphospholipid-syndrome
+    relation: connects-to
+    note: "Acquired thrombophilia differential: like antiphospholipid syndrome, PNH causes thrombosis at unusual sites, so both are screened in unexplained clots—PNH distinguished by the haemolysis driving its hypercoagulability."
+  - target: 01-human/07-system/essential-thrombocythemia
+    relation: connects-to
+    note: "Splanchnic-thrombosis workup: PNH and JAK2-mutant myeloproliferative neoplasms such as essential thrombocythaemia are both routinely sought in Budd-Chiari and portal-vein thrombosis, two clonal causes of unusual-site clots."
+  - target: 01-human/07-system/covid-19-disease
+    relation: connects-to
+    note: "Complement and clots collide: COVID-19 activates complement and is prothrombotic, compounding PNH, while patients on the complement inhibitor eculizumab need meningococcal protection against breakthrough infection."
 ---
 
 # Paroxysmal Nocturnal Hemoglobinuria
@@ -435,6 +444,9 @@ When PIGA is mutated in an HSC → all progeny cells (RBCs, WBCs, platelets) of 
 - `connects-to` → **[Myasthenia Gravis](../myasthenia-gravis/README.md)** — A complement-therapy bridge: the anti-C5 drugs (eculizumab, ravulizumab) that transformed PNH also treat complement-mediated diseases like myasthenia gravis, showing how one pathway links unrelated disorders.
 - `connects-to` → **[NMO](../nmo/README.md)** — Shared complement blockade: as in PNH, terminal-complement inhibition with eculizumab controls aquaporin-4 neuromyelitis optica, uniting a haemolytic and a neurological disease through the same C5 target.
 - `connects-to` → **[Placenta](../../06-organ/placenta/README.md)** — A dangerous mix with pregnancy: PNH sharply raises the already high thrombosis risk of pregnancy, threatening placental and maternal veins, so anticoagulation and complement inhibition are intensified throughout.
+- `connects-to` → **[Antiphospholipid Syndrome](../antiphospholipid-syndrome/README.md)** — Acquired thrombophilia differential: like antiphospholipid syndrome, PNH causes thrombosis at unusual sites, so both are screened in unexplained clots—PNH distinguished by the haemolysis driving its hypercoagulability.
+- `connects-to` → **[Essential Thrombocythemia](../essential-thrombocythemia/README.md)** — Splanchnic-thrombosis workup: PNH and JAK2-mutant myeloproliferative neoplasms such as essential thrombocythaemia are both routinely sought in Budd-Chiari and portal-vein thrombosis, two clonal causes of unusual-site clots.
+- `connects-to` → **[COVID-19 Disease](../covid-19-disease/README.md)** — Complement and clots collide: COVID-19 activates complement and is prothrombotic, compounding PNH, while patients on the complement inhibitor eculizumab need meningococcal protection against breakthrough infection.
 
 ---
 
