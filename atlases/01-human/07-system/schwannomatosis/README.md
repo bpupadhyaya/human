@@ -241,6 +241,15 @@ cross_links:
   - target: 01-human/07-system/tuberous-sclerosis-complex
     relation: connects-to
     note: "A converging mTOR syndrome: like TSC, schwannomatosis is a tumour-suppressor disorder whose pathway feeds into mTOR signalling — merlin loss de-represses mTOR much as hamartin-tuberin loss does — making mTOR inhibition a shared therapeutic theme."
+  - target: 01-human/07-system/renal-cell-carcinoma
+    relation: connects-to
+    note: "A shared SMARCB1 lesion: SMARCB1-related schwannomatosis loses the same SWI/SNF subunit inactivated in SMARCB1-deficient renal medullary carcinoma and rhabdoid tumours, linking a benign nerve-tumour syndrome to an aggressive kidney cancer."
+  - target: 01-human/07-system/mesothelioma
+    relation: connects-to
+    note: "Both run through merlin and Hippo: schwannomatosis tumours (NF2/LZTR1) and many mesotheliomas inactivate NF2/merlin, unleashing the Hippo effector YAP—shared loss of a contact-inhibition brake in unrelated tissues."
+  - target: 01-human/05-tissue/guillain-barre
+    relation: connects-to
+    note: "Two diseases of the Schwann cell: schwannomatosis grows benign tumours from Schwann cells, while Guillain-Barré is an autoimmune attack on the myelin those cells make—opposite pathologies of one peripheral-nerve cell."
 ---
 
 # Schwannomatosis
@@ -417,6 +426,9 @@ Both NF2 (22q12.2), SMARCB1 (22q11.23), and LZTR1 (22q11.21) are on chromosome 2
 - `connects-to` → **[Targeted Therapy](../../../03-medicine/01-modern/13-cancer/targeted-therapy/README.md)** — Anti-angiogenics shrink schwannomas: bevacizumab against VEGF can reduce schwannoma volume and stabilise hearing in NF2-spectrum disease, and mTOR and MEK inhibitors are under study for inoperable or progressive tumours.
 - `connects-to` → **[Dexamethasone](../../../03-medicine/01-modern/12-anti-inflammatory/dexamethasone/README.md)** — Steroids calm acute flares: corticosteroids like dexamethasone reduce peritumoral oedema and the acute nerve-compression pain of an enlarging schwannoma, and are used perioperatively, though they do not control the underlying tumour.
 - `connects-to` → **[Tuberous Sclerosis Complex](../tuberous-sclerosis-complex/README.md)** — A converging mTOR syndrome: like TSC, schwannomatosis is a tumour-suppressor disorder whose pathway feeds into mTOR signalling — merlin loss de-represses mTOR much as hamartin-tuberin loss does — making mTOR inhibition a shared therapeutic theme.
+- `connects-to` → **[Renal Cell Carcinoma](../renal-cell-carcinoma/README.md)** — A shared SMARCB1 lesion: SMARCB1-related schwannomatosis loses the same SWI/SNF subunit inactivated in SMARCB1-deficient renal medullary carcinoma and rhabdoid tumours, linking a benign nerve-tumour syndrome to an aggressive kidney cancer.
+- `connects-to` → **[Mesothelioma](../mesothelioma/README.md)** — Both run through merlin and Hippo: schwannomatosis tumours (NF2/LZTR1) and many mesotheliomas inactivate NF2/merlin, unleashing the Hippo effector YAP—shared loss of a contact-inhibition brake in unrelated tissues.
+- `connects-to` → **[Guillain-Barré](../../05-tissue/guillain-barre/README.md)** — Two diseases of the Schwann cell: schwannomatosis grows benign tumours from Schwann cells, while Guillain-Barré is an autoimmune attack on the myelin those cells make—opposite pathologies of one peripheral-nerve cell.
 
 [^merker-2012-schwannomatosis]: Merker VL, Esparza S, Smith MJ, Stemmer-Rachamimov A, Plotkin SR. Clinical features of schwannomatosis: a retrospective analysis of 87 patients. *Oncologist.* 2012;17(10):1317-1322. [doi:10.1634/theoncologist.2012-0162](https://doi.org/10.1634/theoncologist.2012-0162) · [PubMed 22927469](https://pubmed.ncbi.nlm.nih.gov/22927469/)
 [^piotrowski-2014-lztr1]: Piotrowski A, Xie J, Liu YF, et al. Germline loss-of-function mutations in LZTR1 predispose to an inherited disorder of multiple schwannomas. *Nat Genet.* 2014;46(2):182-187. [doi:10.1038/ng.2855](https://doi.org/10.1038/ng.2855) · [PubMed 24362817](https://pubmed.ncbi.nlm.nih.gov/24362817/)
