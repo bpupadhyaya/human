@@ -277,6 +277,15 @@ cross_links:
   - target: 01-human/07-system/myelofibrosis
     relation: connects-to
     note: "Thrombosis on thrombosis: myeloproliferative neoplasms like myelofibrosis are intrinsically prothrombotic and their patients receive heparin, a setting where HIT can stack a second, antibody-driven clotting risk on top."
+  - target: 01-human/03-molecular/akt
+    relation: connects-to
+    note: "FcγR-triggered activation: cross-linking of platelet FcγRIIa by PF4-heparin immune complexes signals through PI3K-AKT to drive the explosive platelet activation behind HIT thrombosis."
+  - target: 01-human/03-molecular/nlrp3-inflammasome
+    relation: connects-to
+    note: "Immunothrombosis: monocyte NLRP3-inflammasome activation contributes to the tissue-factor expression and immunothrombosis that make HIT so prothrombotic."
+  - target: 01-human/03-molecular/tnf-alpha
+    relation: connects-to
+    note: "Inflammatory amplification: TNF-α in the inflammatory milieu of HIT upregulates endothelial and monocyte tissue factor, compounding the antibody-driven clotting."
 ---
 
 # Heparin-Induced Thrombocytopenia
@@ -507,6 +516,9 @@ Platelet consumption → thrombocytopenia (paradox: clotting despite low platele
 - `connects-to` → **[Protein C](../../03-molecular/protein-c/README.md)** — Why warfarin is dangerous in HIT: starting warfarin during acute HIT depletes protein C faster than the procoagulant factors, tipping into venous limb gangrene—so warfarin is withheld until the platelet count recovers.
 - `connects-to` → **[Peripheral Nerve](../../05-tissue/peripheral-nerve/README.md)** — Limb-threatening ischaemia: HIT's arterial thromboses and venous limb gangrene starve the extremities, damaging peripheral nerves with ischaemic neuropathy and sometimes forcing amputation.
 - `connects-to` → **[Myelofibrosis](../myelofibrosis/README.md)** — Thrombosis on thrombosis: myeloproliferative neoplasms like myelofibrosis are intrinsically prothrombotic and their patients receive heparin, a setting where HIT can stack a second, antibody-driven clotting risk on top.
+- `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — FcγR-triggered activation: cross-linking of platelet FcγRIIa by PF4-heparin immune complexes signals through PI3K-AKT to drive the explosive platelet activation behind HIT thrombosis.
+- `connects-to` → **[NLRP3 Inflammasome](../../03-molecular/nlrp3-inflammasome/README.md)** — Immunothrombosis: monocyte NLRP3-inflammasome activation contributes to the tissue-factor expression and immunothrombosis that make HIT so prothrombotic.
+- `connects-to` → **[TNF-α](../../03-molecular/tnf-alpha/README.md)** — Inflammatory amplification: TNF-α in the inflammatory milieu of HIT upregulates endothelial and monocyte tissue factor, compounding the antibody-driven clotting.
 
 [^warkentin-2007-hit-review]: Warkentin TE, Greinacher A. Heparin-induced thrombocytopenia: recognition, treatment, and prevention. *Chest.* 2004;126(3 Suppl):311S-337S. [doi:10.1378/chest.126.3_suppl.311S](https://doi.org/10.1378/chest.126.3_suppl.311S) · [PubMed 15383477](https://pubmed.ncbi.nlm.nih.gov/15383477/)
 [^greinacher-2021-vitt-nejm]: Greinacher A, Thiele T, Warkentin TE, et al. Thrombotic thrombocytopenia after ChAdOx1 nCov-19 vaccination. *N Engl J Med.* 2021;384(22):2092-2101. [doi:10.1056/NEJMoa2104840](https://doi.org/10.1056/NEJMoa2104840) · [PubMed 33835769](https://pubmed.ncbi.nlm.nih.gov/33835769/)

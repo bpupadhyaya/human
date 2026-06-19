@@ -273,6 +273,15 @@ cross_links:
   - target: 01-human/07-system/covid-19-disease
     relation: connects-to
     note: "Reactivation and coinfection: immunosuppressive treatment of severe COVID-19 with steroids and IL-6 blockade can reactivate latent hepatitis B, and the two infections can coexist and tax the liver together."
+  - target: 01-human/03-molecular/pd-1
+    relation: connects-to
+    note: "T-cell exhaustion: chronic hepatitis B exhausts antiviral T cells via PD-1, allowing viral persistence—a brake that checkpoint reinvigoration aims to release in functional-cure strategies."
+  - target: 01-human/03-molecular/myc
+    relation: connects-to
+    note: "Integration-driven oncogene: HBV DNA integration and the HBx protein activate MYC, contributing to the hepatocellular carcinoma that complicates chronic infection."
+  - target: 01-human/03-molecular/il-6
+    relation: connects-to
+    note: "Inflammation to fibrosis: IL-6 drives the chronic hepatic inflammation of hepatitis B, fuelling the fibrosis and carcinogenesis of long-standing disease."
 ---
 
 # Hepatitis B
@@ -493,3 +502,6 @@ HDV is a satellite RNA virus that requires HBsAg for virion assembly:
 - `connects-to` → **[Peripheral Nerve](../../05-tissue/peripheral-nerve/README.md)** — Polyarteritis nodosa: chronic HBV is the classic infectious cause of polyarteritis nodosa, a medium-vessel vasculitis whose ischaemic neuropathy (mononeuritis multiplex) damages peripheral nerves.
 - `connects-to` → **[Multiple Myeloma](../multiple-myeloma/README.md)** — Reactivation under myeloma therapy: the anti-CD38 antibodies, steroids and stem-cell transplant used for multiple myeloma can reactivate occult hepatitis B, so screening and antiviral prophylaxis are mandatory before treatment.
 - `connects-to` → **[COVID-19 Disease](../covid-19-disease/README.md)** — Reactivation and coinfection: immunosuppressive treatment of severe COVID-19 with steroids and IL-6 blockade can reactivate latent hepatitis B, and the two infections can coexist and tax the liver together.
+- `connects-to` → **[PD-1](../../03-molecular/pd-1/README.md)** — T-cell exhaustion: chronic hepatitis B exhausts antiviral T cells via PD-1, allowing viral persistence—a brake that checkpoint reinvigoration aims to release in functional-cure strategies.
+- `connects-to` → **[MYC](../../03-molecular/myc/README.md)** — Integration-driven oncogene: HBV DNA integration and the HBx protein activate MYC, contributing to the hepatocellular carcinoma that complicates chronic infection.
+- `connects-to` → **[IL-6](../../03-molecular/il-6/README.md)** — Inflammation to fibrosis: IL-6 drives the chronic hepatic inflammation of hepatitis B, fuelling the fibrosis and carcinogenesis of long-standing disease.
