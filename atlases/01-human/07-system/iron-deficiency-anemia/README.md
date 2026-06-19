@@ -246,6 +246,15 @@ cross_links:
   - target: 01-human/07-system/obesity
     relation: connects-to
     note: "Obesity causes a functional deficiency: chronic low-grade inflammation in obesity raises hepcidin, trapping iron and impairing its absorption, so iron deficiency is common despite adequate intake and stores."
+  - target: 01-human/05-tissue/myocardium
+    relation: connects-to
+    note: "When anaemia strains the heart: severe iron deficiency forces a high-output state and, chronically, an anaemic cardiomyopathy, and iron itself is needed for cardiomyocyte energetics—worsening any heart failure."
+  - target: 01-human/06-organ/kidney
+    relation: connects-to
+    note: "The body's oxygen sensor: the kidney detects the low oxygen delivery of anaemia and releases erythropoietin to drive red-cell production, the compensatory loop that iron deficiency tries to outrun."
+  - target: 01-human/07-system/aplastic-anemia
+    relation: connects-to
+    note: "Two anaemias, opposite causes: iron-deficiency anaemia comes from too little iron for haemoglobin while aplastic anaemia comes from marrow failure—a key contrast when the blood count and iron studies don't add up."
 ---
 
 # Iron Deficiency Anemia
@@ -442,6 +451,9 @@ Iron is essential for:
 - `connects-to` → **[Hepatic Lobule](../../05-tissue/hepatic-lobule/README.md)** — The liver gauges iron need: hepatocytes in the liver lobule make hepcidin, the master iron-regulatory hormone, which is appropriately suppressed in iron deficiency to maximise dietary absorption and release of stored iron.
 - `connects-to` → **[Omeprazole](../../../03-medicine/01-modern/08-gi/omeprazole/README.md)** — Acid suppression starves iron uptake: proton-pump inhibitors like omeprazole reduce the gastric acid needed to absorb dietary non-haem iron, a recognised contributor to iron-deficiency anaemia with long-term use.
 - `connects-to` → **[Obesity](../obesity/README.md)** — Obesity causes a functional deficiency: chronic low-grade inflammation in obesity raises hepcidin, trapping iron and impairing its absorption, so iron deficiency is common despite adequate intake and stores.
+- `connects-to` → **[Myocardium](../../05-tissue/myocardium/README.md)** — When anaemia strains the heart: severe iron deficiency forces a high-output state and, chronically, an anaemic cardiomyopathy, and iron itself is needed for cardiomyocyte energetics—worsening any heart failure.
+- `connects-to` → **[Kidney](../../06-organ/kidney/README.md)** — The body's oxygen sensor: the kidney detects the low oxygen delivery of anaemia and releases erythropoietin to drive red-cell production, the compensatory loop that iron deficiency tries to outrun.
+- `connects-to` → **[Aplastic Anemia](../aplastic-anemia/README.md)** — Two anaemias, opposite causes: iron-deficiency anaemia comes from too little iron for haemoglobin while aplastic anaemia comes from marrow failure—a key contrast when the blood count and iron studies don't add up.
 
 [^camaschella-2015-iron-deficiency]: Camaschella C. Iron-deficiency anemia. *N Engl J Med.* 2015;372(19):1832-1843. [doi:10.1056/NEJMra1401038](https://doi.org/10.1056/NEJMra1401038) · [PubMed 25946282](https://pubmed.ncbi.nlm.nih.gov/25946282/)
 [^who-ferritin-guideline-2020]: World Health Organization. WHO guideline on use of ferritin concentrations to assess iron status in individuals and populations. WHO; 2020. [WHO publication](https://www.who.int/publications/i/item/9789240000124)

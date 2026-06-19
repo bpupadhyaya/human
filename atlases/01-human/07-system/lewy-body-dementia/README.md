@@ -256,6 +256,15 @@ cross_links:
   - target: 01-human/05-tissue/intestinal-epithelium
     relation: connects-to
     note: "It may begin in the gut: α-synuclein pathology is found in the enteric nerves of the gut wall years before dementia, supporting a body-first route where the protein ascends the vagus to the brain (the Braak hypothesis)."
+  - target: 01-human/05-tissue/cardiac-conduction-system
+    relation: connects-to
+    note: "The synucleinopathy autonomic clue: LBD damages cardiac sympathetic nerves and autonomic control, causing orthostatic hypotension and heart-rate dysregulation—cardiac sympathetic denervation is a diagnostic marker."
+  - target: 01-human/03-molecular/lrrk2
+    relation: connects-to
+    note: "Shared genetics with Parkinson's: LRRK2 mutations cause familial parkinsonism and contribute to Lewy-body pathology, tying the genetics of synucleinopathy across Parkinson's disease and dementia with Lewy bodies."
+  - target: 01-human/03-molecular/complement-c3
+    relation: connects-to
+    note: "Inflammation that prunes synapses: activated microglia and complement C3 tag and eliminate synapses in Lewy-body dementia, a mechanism of the synaptic loss that drives the cognitive decline."
 ---
 
 # Lewy Body Dementia
@@ -461,6 +470,9 @@ Approximately 25-50% of clinically diagnosed DLB cases have significant AD co-pa
 - `connects-to` → **[Myocardium](../../05-tissue/myocardium/README.md)** — It denervates the heart: like Parkinson's, Lewy body dementia causes cardiac sympathetic denervation, so reduced MIBG uptake in the myocardium helps distinguish it from Alzheimer's and contributes to orthostatic hypotension.
 - `connects-to` → **[Axonal Transport](../../05-tissue/axonal-transport/README.md)** — α-synuclein clogs the axon: Lewy bodies are aggregates of α-synuclein that impair axonal transport in neurons, contributing to the synaptic failure and degeneration that drive its fluctuating cognition and hallucinations.
 - `connects-to` → **[Intestinal Epithelium](../../05-tissue/intestinal-epithelium/README.md)** — It may begin in the gut: α-synuclein pathology is found in the enteric nerves of the gut wall years before dementia, supporting a body-first route where the protein ascends the vagus to the brain (the Braak hypothesis).
+- `connects-to` → **[Cardiac Conduction System](../../05-tissue/cardiac-conduction-system/README.md)** — The synucleinopathy autonomic clue: LBD damages cardiac sympathetic nerves and autonomic control, causing orthostatic hypotension and heart-rate dysregulation—cardiac sympathetic denervation is a diagnostic marker.
+- `connects-to` → **[LRRK2](../../03-molecular/lrrk2/README.md)** — Shared genetics with Parkinson's: LRRK2 mutations cause familial parkinsonism and contribute to Lewy-body pathology, tying the genetics of synucleinopathy across Parkinson's disease and dementia with Lewy bodies.
+- `connects-to` → **[Complement C3](../../03-molecular/complement-c3/README.md)** — Inflammation that prunes synapses: activated microglia and complement C3 tag and eliminate synapses in Lewy-body dementia, a mechanism of the synaptic loss that drives the cognitive decline.
 
 [^mckeith-2017-dlb-criteria]: McKeith IG, Boeve BF, Dickson DW, et al. Diagnosis and management of dementia with Lewy bodies: Fourth consensus report of the DLB Consortium. *Neurology.* 2017;89(1):88-100. [doi:10.1212/WNL.0000000000004058](https://doi.org/10.1212/WNL.0000000000004058) · [PubMed 28592453](https://pubmed.ncbi.nlm.nih.gov/28592453/)
 [^spillantini-1997-lewy-body]: Spillantini MG, Schmidt ML, Lee VM, Trojanowski JQ, Jakes R, Goedert M. Alpha-synuclein in Lewy bodies. *Nature.* 1997;388(6645):839-840. [doi:10.1038/42166](https://doi.org/10.1038/42166) · [PubMed 9278044](https://pubmed.ncbi.nlm.nih.gov/9278044/)
