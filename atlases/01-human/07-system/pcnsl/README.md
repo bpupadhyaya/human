@@ -277,6 +277,15 @@ cross_links:
   - target: 01-human/03-molecular/ezh2
     relation: connects-to
     note: "Germinal-centre epigenetics: EZH2 enforces the proliferative, anti-differentiation chromatin programme of the germinal-centre B cells from which PCNSL arises."
+  - target: 01-human/03-molecular/cyclin-d1
+    relation: connects-to
+    note: "Cell-cycle drive: with CDKN2A loss frequent in PCNSL, cyclin D-CDK4/6 activity propels the lymphoma cells through the G1 checkpoint."
+  - target: 01-human/03-molecular/vegf
+    relation: connects-to
+    note: "CNS angiogenesis: VEGF drives the angiogenesis of these brain lymphomas, whose angiocentric growth pattern wraps proliferating B cells around cerebral vessels."
+  - target: 01-human/03-molecular/hif-1alpha
+    relation: connects-to
+    note: "Tumour hypoxia: HIF-1α stabilised in the hypoxic CNS lymphoma drives the metabolic adaptation and angiogenesis that support its growth within the brain."
 ---
 
 # Primary CNS Lymphoma
@@ -477,6 +486,9 @@ Score 0-1: 2-year OS ~80%; Score 2-3: ~48%; Score 4-5: ~15%
 - `connects-to` → **[FOXO1](../../03-molecular/foxo1/README.md)** — Recurrent driver: FOXO1 mutations recur in primary CNS lymphoma, dysregulating this transcription factor in the malignant germinal-centre-derived B cells.
 - `connects-to` → **[CDKN2A](../../03-molecular/cdkn2a/README.md)** — Cell-cycle brake lost: CDKN2A deletion is frequent in PCNSL, removing a key cell-cycle checkpoint and conferring a poorer prognosis.
 - `connects-to` → **[EZH2](../../03-molecular/ezh2/README.md)** — Germinal-centre epigenetics: EZH2 enforces the proliferative, anti-differentiation chromatin programme of the germinal-centre B cells from which PCNSL arises.
+- `connects-to` → **[Cyclin D1](../../03-molecular/cyclin-d1/README.md)** — Cell-cycle drive: with CDKN2A loss frequent in PCNSL, cyclin D-CDK4/6 activity propels the lymphoma cells through the G1 checkpoint.
+- `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — CNS angiogenesis: VEGF drives the angiogenesis of these brain lymphomas, whose angiocentric growth pattern wraps proliferating B cells around cerebral vessels.
+- `connects-to` → **[HIF-1α](../../03-molecular/hif-1alpha/README.md)** — Tumour hypoxia: HIF-1α stabilised in the hypoxic CNS lymphoma drives the metabolic adaptation and angiogenesis that support its growth within the brain.
 
 [^bromberg-2019-hovon105]: Bromberg JE, Issa S, Bakunina K, et al. Rituximab in patients with primary CNS lymphoma (HOVON 105/ALLG NHL 24): a randomised, open-label, phase 3 intergroup study. *Lancet Oncol.* 2019;20(2):216-228. [doi:10.1016/S1470-2045(18)30747-2](https://doi.org/10.1016/S1470-2045(18)30747-2) · [PubMed 30528440](https://pubmed.ncbi.nlm.nih.gov/30528440/)
 [^grommes-2017-ibrutinib-pcnsl]: Grommes C, Pastore A, Palaskas N, et al. Ibrutinib unmasks critical role of Bruton tyrosine kinase in primary CNS lymphoma. *Cancer Cell.* 2017;31(6):833-843. [doi:10.1016/j.ccell.2017.04.012](https://doi.org/10.1016/j.ccell.2017.04.012) · [PubMed 28552327](https://pubmed.ncbi.nlm.nih.gov/28552327/)
