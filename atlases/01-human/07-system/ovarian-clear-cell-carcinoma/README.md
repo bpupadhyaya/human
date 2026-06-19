@@ -259,6 +259,15 @@ cross_links:
   - target: 01-human/05-tissue/alveolus
     relation: connects-to
     note: "Lung and pleural metastasis: clear-cell ovarian carcinoma can spread to the lungs and pleura, seeding the alveolar bed in its chemoresistant advanced course."
+  - target: 01-human/07-system/disseminated-intravascular-coagulation
+    relation: connects-to
+    note: "The most thrombogenic ovarian cancer: clear-cell carcinoma carries the highest venous thromboembolism rate of the ovarian subtypes and can trigger Trousseau-type consumptive coagulopathy and DIC."
+  - target: 01-human/05-tissue/arterial-wall
+    relation: connects-to
+    note: "HIF-driven vasculature: like clear-cell renal cancer, ovarian clear-cell carcinoma is intensely angiogenic through HIF and VEGF, building abnormal tumour arterial walls that antiangiogenic drugs target."
+  - target: 01-human/07-system/mesothelioma
+    relation: connects-to
+    note: "A peritoneal differential: peritoneal mesothelioma produces serosal masses, effusions and ascites that overlap with the peritoneal spread of ovarian clear-cell carcinoma, a distinction made on biopsy and markers."
 ---
 
 # Ovarian Clear Cell Carcinoma
@@ -481,6 +490,9 @@ Comprehensive surgical staging (TAH-BSO, omentectomy, pelvic/para-aortic lymphad
 - `connects-to` → **[Intestinal Epithelium](../../05-tissue/intestinal-epithelium/README.md)** — Peritoneal and bowel spread: like other ovarian cancers, clear-cell carcinoma seeds the peritoneum and infiltrates the bowel wall, though it more often presents as an early-stage pelvic mass arising from endometriosis.
 - `connects-to` → **[HLRCC](../hlrcc/README.md)** — Clear cells and HIF across organs: OCCC, like HLRCC's renal cancer and clear-cell RCC, shows glycogen-rich clear cytoplasm and constitutive HIF/pseudohypoxia—a convergent clear-cell phenotype in different organs.
 - `connects-to` → **[Alveolus](../../05-tissue/alveolus/README.md)** — Lung and pleural metastasis: clear-cell ovarian carcinoma can spread to the lungs and pleura, seeding the alveolar bed in its chemoresistant advanced course.
+- `connects-to` → **[Disseminated Intravascular Coagulation](../disseminated-intravascular-coagulation/README.md)** — The most thrombogenic ovarian cancer: clear-cell carcinoma carries the highest venous thromboembolism rate of the ovarian subtypes and can trigger Trousseau-type consumptive coagulopathy and DIC.
+- `connects-to` → **[Arterial Wall](../../05-tissue/arterial-wall/README.md)** — HIF-driven vasculature: like clear-cell renal cancer, ovarian clear-cell carcinoma is intensely angiogenic through HIF and VEGF, building abnormal tumour arterial walls that antiangiogenic drugs target.
+- `connects-to` → **[Mesothelioma](../mesothelioma/README.md)** — A peritoneal differential: peritoneal mesothelioma produces serosal masses, effusions and ascites that overlap with the peritoneal spread of ovarian clear-cell carcinoma, a distinction made on biopsy and markers.
 
 ---
 

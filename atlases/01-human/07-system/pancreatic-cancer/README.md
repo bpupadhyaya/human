@@ -265,6 +265,15 @@ cross_links:
   - target: 01-human/05-tissue/intestinal-epithelium
     relation: connects-to
     note: "Duodenal invasion and obstruction: a pancreatic head tumour invades the adjacent duodenum, eroding the intestinal epithelium to cause bleeding and gastric-outlet obstruction."
+  - target: 01-human/05-tissue/arterial-wall
+    relation: connects-to
+    note: "The line between operable and not: pancreatic cancer's tendency to encase the celiac axis and superior mesenteric artery defines borderline-resectable and unresectable disease, making arterial-wall involvement the key surgical decision point."
+  - target: 01-human/07-system/stroke
+    relation: connects-to
+    note: "Trousseau's hypercoagulability: pancreatic cancer is among the most thrombogenic tumours, causing migratory thrombophlebitis, VTE and nonbacterial thrombotic endocarditis that can throw emboli to the brain and cause stroke."
+  - target: 01-human/07-system/cystic-fibrosis
+    relation: connects-to
+    note: "CFTR and the pancreas: cystic fibrosis chronically damages the exocrine pancreas, and CFTR carriers and patients carry a modestly raised lifetime risk of pancreatic cancer."
 ---
 
 # Pancreatic Cancer
@@ -467,6 +476,9 @@ cross_links:
 - `connects-to` → **[Hepatic Lobule](../../05-tissue/hepatic-lobule/README.md)** — Liver is the dominant metastatic site: pancreatic cancer drains via the portal vein to the liver, seeding the hepatic lobule, the spread that leaves most patients incurable at diagnosis.
 - `connects-to` → **[Gastric Cancer](../gastric-cancer/README.md)** — Aggressive upper-GI adenocarcinomas: pancreatic and gastric cancer share late presentation, desmoplastic biology, peritoneal spread and grim prognosis—the lethal upper-gastrointestinal malignancies.
 - `connects-to` → **[Intestinal Epithelium](../../05-tissue/intestinal-epithelium/README.md)** — Duodenal invasion and obstruction: a pancreatic head tumour invades the adjacent duodenum, eroding the intestinal epithelium to cause bleeding and gastric-outlet obstruction.
+- `connects-to` → **[Arterial Wall](../../05-tissue/arterial-wall/README.md)** — The line between operable and not: pancreatic cancer's tendency to encase the celiac axis and superior mesenteric artery defines borderline-resectable and unresectable disease, making arterial-wall involvement the key surgical decision point.
+- `connects-to` → **[Stroke](../stroke/README.md)** — Trousseau's hypercoagulability: pancreatic cancer is among the most thrombogenic tumours, causing migratory thrombophlebitis, VTE and nonbacterial thrombotic endocarditis that can throw emboli to the brain and cause stroke.
+- `connects-to` → **[Cystic Fibrosis](../cystic-fibrosis/README.md)** — CFTR and the pancreas: cystic fibrosis chronically damages the exocrine pancreas, and CFTR carriers and patients carry a modestly raised lifetime risk of pancreatic cancer.
 
 ---
 
