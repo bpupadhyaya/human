@@ -277,6 +277,15 @@ cross_links:
   - target: 01-human/03-molecular/fgfr
     relation: connects-to
     note: "Another wild-type lever: FGFR fusions and activation arise in some KIT/PDGFRA wild-type GISTs, an alternative oncogenic driver targetable with FGFR inhibitors."
+  - target: 01-human/03-molecular/ezh2
+    relation: connects-to
+    note: "Epigenetic silencing: EZH2-mediated PRC2 repression of tumour-suppressor genes contributes to GIST progression, an epigenetic vulnerability under study."
+  - target: 01-human/03-molecular/myc
+    relation: connects-to
+    note: "Downstream oncogene: KIT/PDGFRA signalling activates MYC in GIST, driving the biosynthetic and proliferative programme of the tumour."
+  - target: 01-human/03-molecular/tert
+    relation: connects-to
+    note: "Malignant progression: TERT promoter mutations and reactivation mark the progression of GIST toward higher-grade, metastatic behaviour."
 ---
 
 # GIST
@@ -494,6 +503,9 @@ No approved targeted therapy; sunitinib may have modest activity; clinical trial
 - `connects-to` → **[IGF-1](../../03-molecular/igf-1/README.md)** — Wild-type GIST driver: SDH-deficient (KIT/PDGFRA wild-type) GISTs overexpress IGF1R, making IGF-1 signalling a therapeutic target in this distinct, often paediatric subtype.
 - `connects-to` → **[NTRK](../../03-molecular/ntrk/README.md)** — Rare targetable fusion: a small subset of quadruple-wild-type GISTs harbour NTRK gene fusions, rendering them sensitive to TRK inhibitors beyond the usual KIT-directed drugs.
 - `connects-to` → **[FGFR](../../03-molecular/fgfr/README.md)** — Another wild-type lever: FGFR fusions and activation arise in some KIT/PDGFRA wild-type GISTs, an alternative oncogenic driver targetable with FGFR inhibitors.
+- `connects-to` → **[EZH2](../../03-molecular/ezh2/README.md)** — Epigenetic silencing: EZH2-mediated PRC2 repression of tumour-suppressor genes contributes to GIST progression, an epigenetic vulnerability under study.
+- `connects-to` → **[MYC](../../03-molecular/myc/README.md)** — Downstream oncogene: KIT/PDGFRA signalling activates MYC in GIST, driving the biosynthetic and proliferative programme of the tumour.
+- `connects-to` → **[TERT](../../03-molecular/tert/README.md)** — Malignant progression: TERT promoter mutations and reactivation mark the progression of GIST toward higher-grade, metastatic behaviour.
 
 ---
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*

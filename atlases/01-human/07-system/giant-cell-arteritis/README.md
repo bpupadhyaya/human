@@ -277,6 +277,15 @@ cross_links:
   - target: 01-human/04-cellular/t-cytotoxic-cell
     relation: connects-to
     note: "CD8 T-cell infiltrate: cytotoxic and tissue-resident memory CD8 T cells populate the inflamed arterial wall in giant-cell arteritis, contributing to vessel damage and relapse."
+  - target: 01-human/03-molecular/nlrp3-inflammasome
+    relation: connects-to
+    note: "Innate vasculitis: NLRP3-inflammasome activation in vessel-wall macrophages matures the IL-1β that amplifies the granulomatous inflammation of giant-cell arteritis."
+  - target: 01-human/03-molecular/ccl2
+    relation: connects-to
+    note: "Monocyte recruitment: CCL2 draws monocytes into the arterial wall in giant-cell arteritis, where they fuse into the multinucleated giant cells that name the disease."
+  - target: 01-human/03-molecular/hif-1alpha
+    relation: connects-to
+    note: "Ischaemic wall: the inflamed, thickened artery in giant-cell arteritis becomes hypoxic, stabilising HIF-1α to drive the VEGF angiogenesis of neovascularisation in the vessel wall."
 ---
 
 # Giant Cell Arteritis
@@ -478,6 +487,9 @@ The temporal arteries supply scalp, temporalis muscle, and dura. In GCA, transmu
 - `connects-to` → **[Endothelin-1](../../03-molecular/endothelin-1/README.md)** — Ischaemia from vasoconstriction: endothelin-1 released by the inflamed vessel wall drives the vasoconstriction underlying the ischaemic blindness and jaw claudication of giant-cell arteritis.
 - `connects-to` → **[Notch](../../03-molecular/notch/README.md)** — Notch-driven vasculitis: Notch signalling activates the pathogenic Th1 and Th17 vascular T cells and promotes the vessel-wall remodelling central to giant-cell arteritis.
 - `connects-to` → **[T Cytotoxic Cell](../../04-cellular/t-cytotoxic-cell/README.md)** — CD8 T-cell infiltrate: cytotoxic and tissue-resident memory CD8 T cells populate the inflamed arterial wall in giant-cell arteritis, contributing to vessel damage and relapse.
+- `connects-to` → **[NLRP3 Inflammasome](../../03-molecular/nlrp3-inflammasome/README.md)** — Innate vasculitis: NLRP3-inflammasome activation in vessel-wall macrophages matures the IL-1β that amplifies the granulomatous inflammation of giant-cell arteritis.
+- `connects-to` → **[CCL2](../../03-molecular/ccl2/README.md)** — Monocyte recruitment: CCL2 draws monocytes into the arterial wall in giant-cell arteritis, where they fuse into the multinucleated giant cells that name the disease.
+- `connects-to` → **[HIF-1α](../../03-molecular/hif-1alpha/README.md)** — Ischaemic wall: the inflamed, thickened artery in giant-cell arteritis becomes hypoxic, stabilising HIF-1α to drive the VEGF angiogenesis of neovascularisation in the vessel wall.
 
 [^stone-2017-giact]: Stone JH, Tuckwell K, Dimonaco S, et al. Trial of tocilizumab in giant-cell arteritis. *N Engl J Med.* 2017;377(4):317-328. [doi:10.1056/NEJMoa1613849](https://doi.org/10.1056/NEJMoa1613849) · [PubMed 28745999](https://pubmed.ncbi.nlm.nih.gov/28745999/)
 [^weyand-2014-gca-review]: Weyand CM, Goronzy JJ. Clinical practice. Giant-cell arteritis and polymyalgia rheumatica. *N Engl J Med.* 2014;371(1):50-57. [doi:10.1056/NEJMcp1214926](https://doi.org/10.1056/NEJMcp1214926) · [PubMed 24988557](https://pubmed.ncbi.nlm.nih.gov/24988557/)
