@@ -253,6 +253,15 @@ cross_links:
   - target: 01-human/05-tissue/cortical-bone
     relation: connects-to
     note: "Its treatment wrecks the skeleton: prolonged corticosteroids and calcineurin inhibitors for GVHD cause osteoporosis and avascular necrosis of bone, a major cause of disability in long-term transplant survivors."
+  - target: 01-human/07-system/aplastic-anemia
+    relation: connects-to
+    note: "The cure that can turn hostile: allogeneic stem-cell transplant is curative for severe aplastic anaemia, and GVHD is its principal transplant-related danger—the same donor graft that rebuilds the marrow can attack the host."
+  - target: 01-human/05-tissue/hepatic-lobule
+    relation: connects-to
+    note: "Hepatic GVHD strikes the bile ducts: donor T cells attack the small bile ducts within the hepatic lobule, causing cholestatic jaundice and a rising bilirubin that grades liver involvement."
+  - target: 01-human/05-tissue/germinal-center
+    relation: connects-to
+    note: "Chronic GVHD's autoimmune face: alloreactive germinal-centre reactions and B-cell help generate the autoantibodies and the sclerotic, Sjögren- and scleroderma-like features of chronic graft-versus-host disease."
 ---
 
 # Graft-Versus-Host Disease
@@ -469,6 +478,9 @@ The protective Treg/IL-10 axis is the key biological counterbalance to alloreact
 - `connects-to` → **[Targeted Therapy](../../../03-medicine/01-modern/13-cancer/targeted-therapy/README.md)** — JAK inhibition for refractory disease: ruxolitinib, a JAK1/2 inhibitor, is approved for steroid-refractory acute and chronic GVHD, with belumosudil (ROCK2) for chronic disease — targeted alternatives to broad immunosuppression.
 - `connects-to` → **[Cancer Chemotherapy](../../../03-medicine/01-modern/13-cancer/cancer-chemotherapy/README.md)** — Chemo prevents and conditions: methotrexate is a classic GVHD prophylactic and post-transplant cyclophosphamide enables haploidentical grafts by deleting alloreactive T cells, while the conditioning chemo sets the stage for the donor immune attack.
 - `connects-to` → **[Cortical Bone](../../05-tissue/cortical-bone/README.md)** — Its treatment wrecks the skeleton: prolonged corticosteroids and calcineurin inhibitors for GVHD cause osteoporosis and avascular necrosis of bone, a major cause of disability in long-term transplant survivors.
+- `connects-to` → **[Aplastic Anemia](../aplastic-anemia/README.md)** — The cure that can turn hostile: allogeneic stem-cell transplant is curative for severe aplastic anaemia, and GVHD is its principal transplant-related danger—the same donor graft that rebuilds the marrow can attack the host.
+- `connects-to` → **[Hepatic Lobule](../../05-tissue/hepatic-lobule/README.md)** — Hepatic GVHD strikes the bile ducts: donor T cells attack the small bile ducts within the hepatic lobule, causing cholestatic jaundice and a rising bilirubin that grades liver involvement.
+- `connects-to` → **[Germinal Center](../../05-tissue/germinal-center/README.md)** — Chronic GVHD's autoimmune face: alloreactive germinal-centre reactions and B-cell help generate the autoantibodies and the sclerotic, Sjögren- and scleroderma-like features of chronic graft-versus-host disease.
 
 [^ferrara-2009-gvhd-review]: Ferrara JL, Levine JE, Reddy P, Holler E. Graft-versus-host disease. *Lancet.* 2009;373(9674):1550-1561. [doi:10.1016/S0140-6736(09)60237-3](https://doi.org/10.1016/S0140-6736(09)60237-3) · [PubMed 19380114](https://pubmed.ncbi.nlm.nih.gov/19380114/)
 [^zeiser-2020-ruxolitinib-gvhd-reach]: Zeiser R, von Bubnoff N, Butler J, et al. Ruxolitinib for Glucocorticoid-Refractory Acute Graft-versus-Host Disease. *N Engl J Med.* 2020;382(19):1800-1810. [doi:10.1056/NEJMoa1917635](https://doi.org/10.1056/NEJMoa1917635) · [PubMed 32374962](https://pubmed.ncbi.nlm.nih.gov/32374962/)
