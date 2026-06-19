@@ -250,6 +250,15 @@ cross_links:
   - target: 01-human/05-tissue/germinal-center
     relation: connects-to
     note: "Immunodeficiency rides along: Bloom syndrome impairs B-cell maturation and class switching in germinal centres, causing low immunoglobulins and recurrent sinopulmonary infections alongside its cancer risk."
+  - target: 01-human/07-system/aplastic-anemia
+    relation: connects-to
+    note: "Genome instability fails the marrow: like other DNA-repair-defective syndromes, Bloom syndrome can progress to bone-marrow failure and cytopenias on the path to myelodysplasia and leukaemia."
+  - target: 01-human/05-tissue/cortical-bone
+    relation: connects-to
+    note: "Short stature and skeletal anomalies: proportionate dwarfism is a defining feature of Bloom syndrome, with thin cortical bone and skeletal anomalies reflecting profoundly impaired growth."
+  - target: 01-human/07-system/pancreatic-cancer
+    relation: connects-to
+    note: "Cancer at every site: Bloom syndrome's extreme genomic instability predisposes to the full spectrum of malignancy at young ages, including pancreatic and other gastrointestinal adenocarcinomas."
 ---
 
 # Bloom Syndrome
@@ -465,6 +474,9 @@ BS is characterized by three cardinal features: **small body size** (the most co
 - `connects-to` → **[Targeted Therapy](../../../03-medicine/01-modern/13-cancer/targeted-therapy/README.md)** — A synthetic-lethal vulnerability: BLM helicase loss leaves Bloom cells reliant on other DNA-repair routes, making homologous-recombination and replication-stress pathways (PARP, ATR) candidate targets — and BLM itself an anticancer drug target in unstable tumours.
 - `connects-to` → **[Checkpoint Inhibitors](../../../03-medicine/01-modern/13-cancer/checkpoint-inhibitors/README.md)** — Genomic chaos may aid immunotherapy: the extreme chromosomal instability of Bloom syndrome can generate the high mutational burden and neoantigens that make some of its cancers candidates for checkpoint blockade.
 - `connects-to` → **[Germinal Center](../../05-tissue/germinal-center/README.md)** — Immunodeficiency rides along: Bloom syndrome impairs B-cell maturation and class switching in germinal centres, causing low immunoglobulins and recurrent sinopulmonary infections alongside its cancer risk.
+- `connects-to` → **[Aplastic Anemia](../aplastic-anemia/README.md)** — Genome instability fails the marrow: like other DNA-repair-defective syndromes, Bloom syndrome can progress to bone-marrow failure and cytopenias on the path to myelodysplasia and leukaemia.
+- `connects-to` → **[Cortical Bone](../../05-tissue/cortical-bone/README.md)** — Short stature and skeletal anomalies: proportionate dwarfism is a defining feature of Bloom syndrome, with thin cortical bone and skeletal anomalies reflecting profoundly impaired growth.
+- `connects-to` → **[Pancreatic Cancer](../pancreatic-cancer/README.md)** — Cancer at every site: Bloom syndrome's extreme genomic instability predisposes to the full spectrum of malignancy at young ages, including pancreatic and other gastrointestinal adenocarcinomas.
 
 ---
 

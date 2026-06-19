@@ -256,6 +256,15 @@ cross_links:
   - target: 01-human/05-tissue/cortical-bone
     relation: connects-to
     note: "Advanced disease seeds bone: muscle-invasive and metastatic urothelial carcinoma spreads to bone as painful osteolytic lesions, a common site of distant relapse after cystectomy."
+  - target: 01-human/05-tissue/alveolus
+    relation: connects-to
+    note: "Where it spreads: the lung is a common metastatic site for urothelial bladder cancer, tumour emboli lodging in the alveolar capillary bed to seed pulmonary nodules."
+  - target: 01-human/05-tissue/germinal-center
+    relation: connects-to
+    note: "The oldest cancer immunotherapy: intravesical BCG provokes a strong Th1 immune response in the bladder wall, recruiting lymphoid aggregates and germinal-centre reactions that clear early urothelial cancer."
+  - target: 01-human/07-system/pancreatic-cancer
+    relation: connects-to
+    note: "Two smoking-driven cancers: tobacco carcinogens excreted in urine drive bladder cancer while the same smoking exposure is a leading risk factor for pancreatic cancer—shared chemical carcinogenesis."
 ---
 
 # Bladder Cancer
@@ -456,6 +465,9 @@ NMIBC and MIBC have distinct molecular landscapes:
 - `connects-to` → **[Endometrial Cancer](../endometrial-cancer/README.md)** — Lynch links them: mismatch-repair-deficient Lynch syndrome raises the risk of both endometrial and urothelial (bladder and upper-tract) cancers, and their MSI-high tumours share dramatic checkpoint-inhibitor responsiveness.
 - `connects-to` → **[Cholangiocarcinoma](../cholangiocarcinoma/README.md)** — A shared FGFR target: FGFR alterations drive a subset of both bladder cancer (FGFR3) and cholangiocarcinoma (FGFR2 fusions), so FGFR inhibitors like erdafitinib and pemigatinib treat these otherwise unrelated cancers.
 - `connects-to` → **[Cortical Bone](../../05-tissue/cortical-bone/README.md)** — Advanced disease seeds bone: muscle-invasive and metastatic urothelial carcinoma spreads to bone as painful osteolytic lesions, a common site of distant relapse after cystectomy.
+- `connects-to` → **[Alveolus](../../05-tissue/alveolus/README.md)** — Where it spreads: the lung is a common metastatic site for urothelial bladder cancer, tumour emboli lodging in the alveolar capillary bed to seed pulmonary nodules.
+- `connects-to` → **[Germinal Center](../../05-tissue/germinal-center/README.md)** — The oldest cancer immunotherapy: intravesical BCG provokes a strong Th1 immune response in the bladder wall, recruiting lymphoid aggregates and germinal-centre reactions that clear early urothelial cancer.
+- `connects-to` → **[Pancreatic Cancer](../pancreatic-cancer/README.md)** — Two smoking-driven cancers: tobacco carcinogens excreted in urine drive bladder cancer while the same smoking exposure is a leading risk factor for pancreatic cancer—shared chemical carcinogenesis.
 
 ---
 
