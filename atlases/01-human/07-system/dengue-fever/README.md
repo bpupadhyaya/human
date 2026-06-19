@@ -277,6 +277,15 @@ cross_links:
   - target: 01-human/05-tissue/peripheral-nerve
     relation: connects-to
     note: "Peripheral neuropathy: beyond Guillain-Barré, dengue can injure peripheral nerves directly, causing mononeuropathies, brachial neuritis and post-infectious neuropathic syndromes."
+  - target: 01-human/03-molecular/il-1b
+    relation: connects-to
+    note: "Vascular leak cytokine: IL-1β from inflammasome-activated monocytes contributes to the endothelial permeability and plasma leakage of severe dengue."
+  - target: 01-human/03-molecular/nlrp3-inflammasome
+    relation: connects-to
+    note: "Inflammasome activation: dengue virus and platelet activation trigger the NLRP3 inflammasome, whose IL-1β release drives the vascular leak of dengue haemorrhagic fever."
+  - target: 01-human/03-molecular/ifn-gamma
+    relation: connects-to
+    note: "Antiviral and immunopathic: IFN-γ from T and NK cells helps control dengue but, in secondary infection, contributes to the cytokine surge behind severe disease."
 ---
 
 # Dengue Fever
@@ -475,3 +484,6 @@ No approved antiviral therapy for dengue. Management is entirely supportive:
 - `connects-to` → **[RIG-I](../../03-molecular/rig-i/README.md)** — Viral RNA sensing: RIG-I detects dengue's RNA and signals through MAVS to trigger interferon, and the virus's NS proteins antagonise this sensor to blunt the early antiviral response.
 - `connects-to` → **[Complement C3](../../03-molecular/complement-c3/README.md)** — Complement and leak: excessive complement activation generates anaphylatoxins that help drive the vascular permeability and plasma leakage of dengue haemorrhagic fever and shock.
 - `connects-to` → **[Peripheral Nerve](../../05-tissue/peripheral-nerve/README.md)** — Peripheral neuropathy: beyond Guillain-Barré, dengue can injure peripheral nerves directly, causing mononeuropathies, brachial neuritis and post-infectious neuropathic syndromes.
+- `connects-to` → **[IL-1β](../../03-molecular/il-1b/README.md)** — Vascular leak cytokine: IL-1β from inflammasome-activated monocytes contributes to the endothelial permeability and plasma leakage of severe dengue.
+- `connects-to` → **[NLRP3 Inflammasome](../../03-molecular/nlrp3-inflammasome/README.md)** — Inflammasome activation: dengue virus and platelet activation trigger the NLRP3 inflammasome, whose IL-1β release drives the vascular leak of dengue haemorrhagic fever.
+- `connects-to` → **[IFN-γ](../../03-molecular/ifn-gamma/README.md)** — Antiviral and immunopathic: IFN-γ from T and NK cells helps control dengue but, in secondary infection, contributes to the cytokine surge behind severe disease.

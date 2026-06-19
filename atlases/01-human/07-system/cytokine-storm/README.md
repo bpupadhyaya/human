@@ -277,6 +277,15 @@ cross_links:
   - target: 01-human/03-molecular/type-i-interferon
     relation: connects-to
     note: "Interferon-driven hyperinflammation: dysregulated type I interferon fuels the systemic inflammation of viral cytokine storms and interferonopathies, a double-edged antiviral response."
+  - target: 01-human/03-molecular/c5ar1
+    relation: connects-to
+    note: "Complement amplification: C5a signalling through C5aR1 activates neutrophils and macrophages in the cytokine storm, a complement-driven feed-forward loop targeted by anti-C5 therapy."
+  - target: 01-human/03-molecular/il-17a
+    relation: connects-to
+    note: "Th17 contribution: IL-17 from activated T cells adds neutrophil-recruiting inflammation to the cytokine storm, broadening tissue injury beyond the dominant IL-6/TNF axis."
+  - target: 01-human/03-molecular/hif-1alpha
+    relation: connects-to
+    note: "Shock and hypoxia: the circulatory collapse and tissue hypoxia of severe cytokine storm stabilise HIF-1α, which further amplifies inflammatory gene expression in a vicious cycle."
 ---
 
 # Cytokine Storm
@@ -454,6 +463,9 @@ CS drives a **consumptive coagulopathy (DIC)**:
 - `connects-to` → **[Epstein-Barr Virus](../../../02-pathogen/01-viruses/epstein-barr-virus/README.md)** — EBV-driven HLH: Epstein-Barr virus is the classic trigger of secondary haemophagocytic lymphohistiocytosis, a prototypical cytokine storm of uncontrolled T-cell and macrophage activation.
 - `connects-to` → **[Staphylococcus aureus](../../../02-pathogen/02-bacteria/staphylococcus-aureus/README.md)** — Superantigen shock: staphylococcal TSST-1 and related superantigens cross-link T cells en masse, unleashing the massive cytokine release of toxic shock syndrome.
 - `connects-to` → **[Type I Interferon](../../03-molecular/type-i-interferon/README.md)** — Interferon-driven hyperinflammation: dysregulated type I interferon fuels the systemic inflammation of viral cytokine storms and interferonopathies, a double-edged antiviral response.
+- `connects-to` → **[C5aR1](../../03-molecular/c5ar1/README.md)** — Complement amplification: C5a signalling through C5aR1 activates neutrophils and macrophages in the cytokine storm, a complement-driven feed-forward loop targeted by anti-C5 therapy.
+- `connects-to` → **[IL-17A](../../03-molecular/il-17a/README.md)** — Th17 contribution: IL-17 from activated T cells adds neutrophil-recruiting inflammation to the cytokine storm, broadening tissue injury beyond the dominant IL-6/TNF axis.
+- `connects-to` → **[HIF-1α](../../03-molecular/hif-1alpha/README.md)** — Shock and hypoxia: the circulatory collapse and tissue hypoxia of severe cytokine storm stabilise HIF-1α, which further amplifies inflammatory gene expression in a vicious cycle.
 
 ## Pathology
 
