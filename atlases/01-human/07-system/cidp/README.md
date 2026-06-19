@@ -276,6 +276,15 @@ cross_links:
   - target: 01-human/07-system/covid-19-disease
     relation: connects-to
     note: "Post-viral demyelination: COVID-19, like other infections, can precipitate or worsen CIDP and Guillain-Barré-spectrum neuropathies through molecular mimicry and immune activation."
+  - target: 01-human/03-molecular/ctla-4
+    relation: connects-to
+    note: "Checkpoint and tolerance: CTLA-4 restrains autoreactive T cells, and anti-CTLA-4 checkpoint-inhibitor cancer therapy can unleash a CIDP-like immune neuropathy by breaking peripheral tolerance."
+  - target: 01-human/03-molecular/btk
+    relation: connects-to
+    note: "B-cell signalling target: Bruton tyrosine kinase relays B-cell receptor signals that sustain the autoantibody response, and BTK inhibitors are being trialled to dampen CIDP."
+  - target: 01-human/03-molecular/jak1-2
+    relation: connects-to
+    note: "Cytokine signal relay: JAK1/JAK2 transduce the inflammatory cytokines (IL-6 and others) that drive CIDP nerve damage, positioning JAK inhibition as an investigational approach."
 ---
 
 # CIDP
@@ -504,6 +513,9 @@ IgG4 anti-NF155 or anti-CNTN1 disrupts this complex → paranodal loop detachmen
 - `connects-to` → **[Checkpoint Inhibitors](../../../03-medicine/01-modern/13-cancer/checkpoint-inhibitors/README.md)** — Immunotherapy-triggered neuropathy: checkpoint-inhibitor cancer therapy can precipitate a CIDP-like immune demyelinating neuropathy, an emerging iatrogenic cause needing prompt recognition.
 - `connects-to` → **[Melanoma](../melanoma/README.md)** — A cancer context for immune neuropathy: checkpoint-inhibitor treatment of cancers like melanoma is a growing trigger of CIDP-like neuropathy, the same immune activation that fights the tumour attacking nerves.
 - `connects-to` → **[COVID-19 Disease](../covid-19-disease/README.md)** — Post-viral demyelination: COVID-19, like other infections, can precipitate or worsen CIDP and Guillain-Barré-spectrum neuropathies through molecular mimicry and immune activation.
+- `connects-to` → **[CTLA-4](../../03-molecular/ctla-4/README.md)** — Checkpoint and tolerance: CTLA-4 restrains autoreactive T cells, and anti-CTLA-4 checkpoint-inhibitor cancer therapy can unleash a CIDP-like immune neuropathy by breaking peripheral tolerance.
+- `connects-to` → **[BTK](../../03-molecular/btk/README.md)** — B-cell signalling target: Bruton tyrosine kinase relays B-cell receptor signals that sustain the autoantibody response, and BTK inhibitors are being trialled to dampen CIDP.
+- `connects-to` → **[JAK1/2](../../03-molecular/jak1-2/README.md)** — Cytokine signal relay: JAK1/JAK2 transduce the inflammatory cytokines (IL-6 and others) that drive CIDP nerve damage, positioning JAK inhibition as an investigational approach.
 
 ---
 

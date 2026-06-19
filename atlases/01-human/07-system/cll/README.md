@@ -268,6 +268,15 @@ cross_links:
   - target: 01-human/07-system/nsclc
     relation: connects-to
     note: "A second-cancer risk: the immune dysfunction of CLL raises the risk of second cancers, including aggressive skin cancers and lung cancer such as NSCLC."
+  - target: 01-human/07-system/mds
+    relation: connects-to
+    note: "Therapy-related marrow failure: chemoimmunotherapy for CLL and underlying clonal haematopoiesis raise the risk of treatment-related myelodysplastic syndrome and secondary AML."
+  - target: 01-human/03-molecular/akt
+    relation: connects-to
+    note: "BCR survival signal: PI3K-AKT signalling downstream of the B-cell receptor sustains CLL cell survival, the axis blocked by PI3K-delta inhibitors complementing BTK-targeted therapy."
+  - target: 01-human/03-molecular/cyclin-d1
+    relation: connects-to
+    note: "A distinguishing marker: unlike mantle cell lymphoma, CLL does not overexpress cyclin D1, a key feature separating the two CD5-positive B-cell neoplasms at diagnosis."
 ---
 
 # CLL
@@ -464,6 +473,9 @@ BCR cross-linking → LYN (SRC kinase) phosphorylates CD79a/b ITAMs → SYK recr
 - `connects-to` → **[COVID-19 Disease](../covid-19-disease/README.md)** — Immunodeficiency and infection: CLL's hypogammaglobulinaemia and blunted vaccine responses make COVID-19 and other infections more severe and prolonged—infection being a leading cause of death.
 - `connects-to` → **[Cardiac Conduction System](../../05-tissue/cardiac-conduction-system/README.md)** — Targeted-therapy cardiotoxicity: the BTK inhibitors (ibrutinib) that treat CLL commonly cause atrial fibrillation and hypertension, disturbing the cardiac conduction system.
 - `connects-to` → **[NSCLC](../nsclc/README.md)** — A second-cancer risk: the immune dysfunction of CLL raises the risk of second cancers, including aggressive skin cancers and lung cancer such as NSCLC.
+- `connects-to` → **[MDS](../mds/README.md)** — Therapy-related marrow failure: chemoimmunotherapy for CLL and underlying clonal haematopoiesis raise the risk of treatment-related myelodysplastic syndrome and secondary AML.
+- `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — BCR survival signal: PI3K-AKT signalling downstream of the B-cell receptor sustains CLL cell survival, the axis blocked by PI3K-delta inhibitors complementing BTK-targeted therapy.
+- `connects-to` → **[Cyclin D1](../../03-molecular/cyclin-d1/README.md)** — A distinguishing marker: unlike mantle cell lymphoma, CLL does not overexpress cyclin D1, a key feature separating the two CD5-positive B-cell neoplasms at diagnosis.
 
 ---
 
