@@ -256,6 +256,15 @@ cross_links:
   - target: 01-human/07-system/multiple-sclerosis
     relation: connects-to
     note: "A cautionary overlap of autoimmunity: TNF inhibitors that treat inflammatory bowel disease can unmask or worsen demyelinating disease, so multiple sclerosis is a contraindication—evidence that blocking one cytokine helps the gut yet harms the central nervous system."
+  - target: 01-human/05-tissue/hepatic-lobule
+    relation: connects-to
+    note: "Primary sclerosing cholangitis: IBD—especially ulcerative colitis—associates with PSC, where bile-duct inflammation and fibrosis injure the hepatic lobule, progressing to cirrhosis and raising cholangiocarcinoma risk."
+  - target: 01-human/07-system/psoriatic-arthritis
+    relation: connects-to
+    note: "Enteropathic spondyloarthritis: IBD shares the IL-23/Th17 axis with psoriatic arthritis and ankylosing spondylitis, the seronegative spondyloarthropathies that frequently co-occur with bowel inflammation."
+  - target: 01-human/05-tissue/arterial-wall
+    relation: connects-to
+    note: "A prothrombotic, atherogenic state: active IBD inflammation raises the risk of venous and arterial thrombosis and accelerates atherosclerosis of the arterial wall, a cardiovascular hazard beyond the gut."
 ---
 
 # Inflammatory Bowel Disease
@@ -463,6 +472,9 @@ IBD is a complex polygenic disease with >240 susceptibility loci (GWAS):
 - `connects-to` → **[Peyer's Patches](../../05-tissue/peyers-patches/README.md)** — Crohn's begins over the gut's lymphoid follicles: its earliest lesions are aphthous ulcers of the epithelium covering Peyer's patches, where defective handling of bacteria by M cells and macrophages ignites the transmural inflammation of Crohn's disease.
 - `connects-to` → **[IgA Nephropathy](../iga-nephropathy/README.md)** — The gut-kidney axis of mucosal IgA: inflammatory bowel disease disturbs intestinal IgA production and barrier integrity, and IgA nephropathy is the commonest glomerulonephritis complicating IBD—mucosal immune dysregulation surfacing in the kidney.
 - `connects-to` → **[Multiple Sclerosis](../multiple-sclerosis/README.md)** — A cautionary overlap of autoimmunity: TNF inhibitors that treat inflammatory bowel disease can unmask or worsen demyelinating disease, so multiple sclerosis is a contraindication—evidence that blocking one cytokine helps the gut yet harms the central nervous system.
+- `connects-to` → **[Hepatic Lobule](../../05-tissue/hepatic-lobule/README.md)** — Primary sclerosing cholangitis: IBD—especially ulcerative colitis—associates with PSC, where bile-duct inflammation and fibrosis injure the hepatic lobule, progressing to cirrhosis and raising cholangiocarcinoma risk.
+- `connects-to` → **[Psoriatic Arthritis](../psoriatic-arthritis/README.md)** — Enteropathic spondyloarthritis: IBD shares the IL-23/Th17 axis with psoriatic arthritis and ankylosing spondylitis, the seronegative spondyloarthropathies that frequently co-occur with bowel inflammation.
+- `connects-to` → **[Arterial Wall](../../05-tissue/arterial-wall/README.md)** — A prothrombotic, atherogenic state: active IBD inflammation raises the risk of venous and arterial thrombosis and accelerates atherosclerosis of the arterial wall, a cardiovascular hazard beyond the gut.
 
 [^ng-2017-ibd-epidemiology]: Ng SC, Shi HY, Hamidi N, et al. Worldwide incidence and prevalence of inflammatory bowel disease in the 21st century: a systematic review of population-based studies. *Lancet.* 2018;390(10114):2769-2778. [doi:10.1016/S0140-6736(17)32448-0](https://doi.org/10.1016/S0140-6736(17)32448-0) · [PubMed 29050646](https://pubmed.ncbi.nlm.nih.gov/29050646/)
 [^sandborn-2012-vedolizumab]: Feagan BG, Rutgeerts P, Sands BE, et al. Vedolizumab as induction and maintenance therapy for ulcerative colitis. *N Engl J Med.* 2013;369(8):699-710. [doi:10.1056/NEJMoa1215734](https://doi.org/10.1056/NEJMoa1215734) · [PubMed 23964932](https://pubmed.ncbi.nlm.nih.gov/23964932/)
