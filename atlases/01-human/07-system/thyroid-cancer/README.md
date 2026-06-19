@@ -259,6 +259,15 @@ cross_links:
   - target: 01-human/07-system/aml
     relation: connects-to
     note: "A late cost of cure: high cumulative radioactive-iodine doses for thyroid cancer slightly raise the risk of secondary leukaemias such as AML, a marrow consequence of the radioisotope that treats the thyroid tumour."
+  - target: 01-human/03-molecular/pth
+    relation: connects-to
+    note: "Surgical hypoparathyroidism: total thyroidectomy can inadvertently remove or devascularise the parathyroid glands, dropping PTH and causing hypocalcaemia—the commonest complication of thyroid cancer surgery."
+  - target: 01-human/05-tissue/hepatic-lobule
+    relation: connects-to
+    note: "Haematogenous spread: follicular and medullary thyroid cancers disseminate through the bloodstream to the liver, bone and lung, seeding the hepatic lobule unlike the lymph-node-spreading papillary type."
+  - target: 01-human/05-tissue/cardiac-conduction-system
+    relation: connects-to
+    note: "Two routes to arrhythmia: post-thyroidectomy hypocalcaemia prolongs the QT interval, while the long-term TSH-suppressive thyroxine used after surgery raises the risk of atrial fibrillation in the conduction system."
 ---
 
 # Thyroid Cancer
@@ -483,6 +492,9 @@ Calcitonin doubling time <6 months → poor prognosis → early systemic therapy
 - `connects-to` → **[Germinal Center](../../05-tissue/germinal-center/README.md)** — Hashimoto's link: chronic lymphocytic thyroiditis fills the gland with germinal centres, both predisposing to papillary thyroid cancer and forming the soil from which primary thyroid lymphoma arises.
 - `connects-to` → **[DLBCL](../dlbcl/README.md)** — Lymphoma in the same gland: a rapidly enlarging thyroid mass in long-standing Hashimoto's thyroiditis is often a primary thyroid diffuse large B-cell lymphoma, not a carcinoma—a crucial distinction with a very different treatment.
 - `connects-to` → **[AML](../aml/README.md)** — A late cost of cure: high cumulative radioactive-iodine doses for thyroid cancer slightly raise the risk of secondary leukaemias such as AML, a marrow consequence of the radioisotope that treats the thyroid tumour.
+- `connects-to` → **[PTH](../../03-molecular/pth/README.md)** — Surgical hypoparathyroidism: total thyroidectomy can inadvertently remove or devascularise the parathyroid glands, dropping PTH and causing hypocalcaemia—the commonest complication of thyroid cancer surgery.
+- `connects-to` → **[Hepatic Lobule](../../05-tissue/hepatic-lobule/README.md)** — Haematogenous spread: follicular and medullary thyroid cancers disseminate through the bloodstream to the liver, bone and lung, seeding the hepatic lobule unlike the lymph-node-spreading papillary type.
+- `connects-to` → **[Cardiac Conduction System](../../05-tissue/cardiac-conduction-system/README.md)** — Two routes to arrhythmia: post-thyroidectomy hypocalcaemia prolongs the QT interval, while the long-term TSH-suppressive thyroxine used after surgery raises the risk of atrial fibrillation in the conduction system.
 
 [^schlumberger-2015-lenvatinib]: Schlumberger M, Tahara M, Wirth LJ, et al. Lenvatinib versus placebo in radioiodine-refractory differentiated thyroid cancer. *N Engl J Med.* 2015;372(7):621-630. [doi:10.1056/NEJMoa1406470](https://doi.org/10.1056/NEJMoa1406470) · [PubMed 25671254](https://pubmed.ncbi.nlm.nih.gov/25671254/)
 [^subbiah-2018-atc-dabrafenib]: Subbiah V, Kreitman RJ, Wainberg ZA, et al. Dabrafenib and trametinib treatment in patients with locally advanced or metastatic BRAF V600-mutant anaplastic thyroid cancer. *J Clin Oncol.* 2018;36(1):7-13. [doi:10.1200/JCO.2017.73.6785](https://doi.org/10.1200/JCO.2017.73.6785) · [PubMed 28892432](https://pubmed.ncbi.nlm.nih.gov/28892432/)

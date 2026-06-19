@@ -259,6 +259,15 @@ cross_links:
   - target: 01-human/07-system/bladder-cancer
     relation: connects-to
     note: "The BCG paradox: the live attenuated TB vaccine is instilled into the bladder to treat early bladder cancer, the mycobacterial immune activation that fights cancer being the same response TB exploits and evades."
+  - target: 01-human/07-system/epilepsy
+    relation: connects-to
+    note: "CNS tuberculosis seizes the brain: tuberculous meningitis and tuberculomas are major causes of seizures and chronic epilepsy in endemic regions, especially in children, long after the infection is treated."
+  - target: 01-human/07-system/mesothelioma
+    relation: connects-to
+    note: "Pleural mimics: tuberculous pleurisy and mesothelioma both produce pleural thickening, effusion and a rind, an infectious-versus-malignant differential resolved only by biopsy especially where TB is common."
+  - target: 01-human/07-system/covid-19-disease
+    relation: connects-to
+    note: "A deadly syndemic: COVID-19 disrupted TB diagnosis and treatment programmes worldwide and reversed years of progress, while the two respiratory infections can coexist and worsen each other's outcomes."
 ---
 
 # Tuberculosis
@@ -473,6 +482,9 @@ Standard **HRZE** regimen [^nahid-2016-tb-treatment]:
 - `connects-to` → **[Germinal Center](../../05-tissue/germinal-center/README.md)** — Granuloma immunity: the TB granuloma is ringed by lymphoid aggregates with germinal-centre-like B-cell follicles, and BCG works by priming these adaptive responses—immunity that fades, leaving latent bacilli walled but alive.
 - `connects-to` → **[Skin](../../06-organ/skin/README.md)** — Cutaneous TB: lupus vulgaris and scrofuloderma are direct mycobacterial skin infections, while erythema nodosum is a hypersensitivity rash—both show TB and the immune response to it reaching the skin.
 - `connects-to` → **[Bladder Cancer](../bladder-cancer/README.md)** — The BCG paradox: the live attenuated TB vaccine is instilled into the bladder to treat early bladder cancer, the mycobacterial immune activation that fights cancer being the same response TB exploits and evades.
+- `connects-to` → **[Epilepsy](../epilepsy/README.md)** — CNS tuberculosis seizes the brain: tuberculous meningitis and tuberculomas are major causes of seizures and chronic epilepsy in endemic regions, especially in children, long after the infection is treated.
+- `connects-to` → **[Mesothelioma](../mesothelioma/README.md)** — Pleural mimics: tuberculous pleurisy and mesothelioma both produce pleural thickening, effusion and a rind, an infectious-versus-malignant differential resolved only by biopsy especially where TB is common.
+- `connects-to` → **[COVID-19 Disease](../covid-19-disease/README.md)** — A deadly syndemic: COVID-19 disrupted TB diagnosis and treatment programmes worldwide and reversed years of progress, while the two respiratory infections can coexist and worsen each other's outcomes.
 
 ## See Also
 
