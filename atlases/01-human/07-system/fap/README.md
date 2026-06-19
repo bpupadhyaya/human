@@ -268,6 +268,15 @@ cross_links:
   - target: 01-human/07-system/bladder-cancer
     relation: connects-to
     note: "Urinary-tract tumours: FAP can produce adenomatous polyps and rare carcinomas of the urinary tract, an uncommon extracolonic manifestation of widespread APC loss."
+  - target: 01-human/03-molecular/prostaglandins
+    relation: connects-to
+    note: "COX-2 chemoprevention: FAP polyps overexpress COX-2 and prostaglandins, the rationale for NSAID and celecoxib chemoprevention that shrinks polyp burden in the disease."
+  - target: 01-human/03-molecular/tgf-beta
+    relation: connects-to
+    note: "Adenoma-to-carcinoma switch: loss of TGF-β/SMAD tumour-suppressor signalling drives the progression of APC-initiated adenomas toward invasive carcinoma in FAP."
+  - target: 01-human/03-molecular/mtor
+    relation: connects-to
+    note: "mTOR downstream of APC loss: unrestrained Wnt signalling from APC loss activates mTOR, and mTOR inhibition reduces intestinal polyp formation in APC-deficient models."
 ---
 
 # Familial Adenomatous Polyposis
@@ -491,6 +500,9 @@ With modern surveillance and prophylactic colectomy: FAP is no longer an inevita
 - `connects-to` → **[Cholangiocarcinoma](../cholangiocarcinoma/README.md)** — Hepatobiliary tumours: beyond colorectal cancer, FAP raises the risk of ampullary, biliary and pancreatic adenocarcinomas, including cholangiocarcinoma of the bile ducts.
 - `connects-to` → **[HCC](../hcc/README.md)** — Childhood liver cancer: FAP raises the risk of hepatoblastoma in young children, a primary liver tumour distinct from adult hepatocellular carcinoma but reflecting APC/Wnt's role in the liver.
 - `connects-to` → **[Bladder Cancer](../bladder-cancer/README.md)** — Urinary-tract tumours: FAP can produce adenomatous polyps and rare carcinomas of the urinary tract, an uncommon extracolonic manifestation of widespread APC loss.
+- `connects-to` → **[Prostaglandins](../../03-molecular/prostaglandins/README.md)** — COX-2 chemoprevention: FAP polyps overexpress COX-2 and prostaglandins, the rationale for NSAID and celecoxib chemoprevention that shrinks polyp burden in the disease.
+- `connects-to` → **[TGF-β](../../03-molecular/tgf-beta/README.md)** — Adenoma-to-carcinoma switch: loss of TGF-β/SMAD tumour-suppressor signalling drives the progression of APC-initiated adenomas toward invasive carcinoma in FAP.
+- `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — mTOR downstream of APC loss: unrestrained Wnt signalling from APC loss activates mTOR, and mTOR inhibition reduces intestinal polyp formation in APC-deficient models.
 
 [^kinzler-1991-apc]: Kinzler KW, Nilbert MC, Su LK, et al. Identification of FAP locus genes from chromosome 5q21. *Science.* 1991;253(5020):661-665. [doi:10.1126/science.1651562](https://doi.org/10.1126/science.1651562) · [PubMed 1651562](https://pubmed.ncbi.nlm.nih.gov/1651562/)
 [^fearon-1990-vogelstein]: Fearon ER, Vogelstein B. A genetic model for colorectal tumorigenesis. *Cell.* 1990;61(5):759-767. [doi:10.1016/0092-8674(90)90186-i](https://doi.org/10.1016/0092-8674(90)90186-i) · [PubMed 2188735](https://pubmed.ncbi.nlm.nih.gov/2188735/)

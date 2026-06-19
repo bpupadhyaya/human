@@ -268,6 +268,15 @@ cross_links:
   - target: 01-human/05-tissue/glomerulus
     relation: connects-to
     note: "Renal complications: follicular lymphoma can cause renal injury through tumour-lysis at treatment, ureteric obstruction by bulky nodes, or rarely a paraneoplastic glomerulonephritis."
+  - target: 02-pathogen/01-viruses/hepatitis-c-virus
+    relation: connects-to
+    note: "Chronic antigen drive: chronic hepatitis C is associated with follicular and marginal-zone lymphomas through sustained B-cell stimulation, and antiviral therapy can induce remission."
+  - target: 01-human/03-molecular/foxo1
+    relation: connects-to
+    note: "Recurrent mutation: FOXO1 mutations recur in follicular lymphoma, dysregulating this transcription factor in germinal-centre B cells and contributing to transformation."
+  - target: 01-human/03-molecular/pik3ca
+    relation: connects-to
+    note: "PI3K-delta dependence: PI3K signalling sustains follicular lymphoma survival, and PI3K-delta inhibitors such as idelalisib and copanlisib are approved for relapsed disease."
 ---
 
 # Follicular Lymphoma
@@ -477,6 +486,9 @@ High-risk subset (progression within 24 months of first chemoimmunotherapy): Con
 - `connects-to` → **[Hepatitis C](../hepatitis-c/README.md)** — An infectious driver: chronic hepatitis C drives the B-cell stimulation behind some indolent B-cell lymphomas including follicular lymphoma, which can respond to antiviral therapy.
 - `connects-to` → **[Sjögren's Syndrome](../sjogrens-syndrome/README.md)** — Autoimmune lymphoma risk: chronic autoimmune B-cell stimulation in Sjögren's syndrome and rheumatoid arthritis raises the risk of follicular and other B-cell lymphomas.
 - `connects-to` → **[Glomerulus](../../05-tissue/glomerulus/README.md)** — Renal complications: follicular lymphoma can cause renal injury through tumour-lysis at treatment, ureteric obstruction by bulky nodes, or rarely a paraneoplastic glomerulonephritis.
+- `connects-to` → **[Hepatitis C Virus](../../../02-pathogen/01-viruses/hepatitis-c-virus/README.md)** — Chronic antigen drive: chronic hepatitis C is associated with follicular and marginal-zone lymphomas through sustained B-cell stimulation, and antiviral therapy can induce remission.
+- `connects-to` → **[FOXO1](../../03-molecular/foxo1/README.md)** — Recurrent mutation: FOXO1 mutations recur in follicular lymphoma, dysregulating this transcription factor in germinal-centre B cells and contributing to transformation.
+- `connects-to` → **[PIK3CA](../../03-molecular/pik3ca/README.md)** — PI3K-delta dependence: PI3K signalling sustains follicular lymphoma survival, and PI3K-delta inhibitors such as idelalisib and copanlisib are approved for relapsed disease.
 
 ---
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
