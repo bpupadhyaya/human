@@ -264,6 +264,15 @@ cross_links:
   - target: 01-human/05-tissue/cardiac-conduction-system
     relation: connects-to
     note: "A fast, high-output heart: severe iron-deficiency anaemia drives compensatory tachycardia and palpitations through the cardiac conduction system, and can precipitate high-output heart failure."
+  - target: 01-human/07-system/insomnia-disorder
+    relation: connects-to
+    note: "Restless legs and sleep: iron deficiency causes restless legs syndrome, a major driver of sleep-onset insomnia that improves with iron repletion—iron being a cofactor for dopamine synthesis in the brain."
+  - target: 01-human/07-system/pulmonary-arterial-hypertension
+    relation: connects-to
+    note: "Iron and the pulmonary vasculature: iron deficiency is common in pulmonary arterial hypertension and independently worsens symptoms and outcomes, prompting trials of intravenous iron repletion."
+  - target: 01-human/07-system/covid-19-disease
+    relation: connects-to
+    note: "Dysregulated iron in infection: COVID-19 disturbs iron metabolism with hyperferritinaemia and functional iron deficiency, and post-COVID anaemia and fatigue are increasingly recognised."
 ---
 
 # Iron Deficiency Anemia
@@ -466,6 +475,9 @@ Iron is essential for:
 - `connects-to` → **[Renal Cell Carcinoma](../renal-cell-carcinoma/README.md)** — Haematuria as a clue: renal cell carcinoma classically presents with haematuria that can cause iron-deficiency anaemia, one of the urological cancers uncovered during an unexplained-anaemia workup.
 - `connects-to` → **[Rheumatoid Arthritis](../rheumatoid-arthritis/README.md)** — Two anaemias in one disease: rheumatoid arthritis causes anaemia of chronic disease and, through NSAID-induced gastrointestinal bleeding, a superimposed iron-deficiency anaemia.
 - `connects-to` → **[Cardiac Conduction System](../../05-tissue/cardiac-conduction-system/README.md)** — A fast, high-output heart: severe iron-deficiency anaemia drives compensatory tachycardia and palpitations through the cardiac conduction system, and can precipitate high-output heart failure.
+- `connects-to` → **[Insomnia Disorder](../insomnia-disorder/README.md)** — Restless legs and sleep: iron deficiency causes restless legs syndrome, a major driver of sleep-onset insomnia that improves with iron repletion—iron being a cofactor for dopamine synthesis in the brain.
+- `connects-to` → **[Pulmonary Arterial Hypertension](../pulmonary-arterial-hypertension/README.md)** — Iron and the pulmonary vasculature: iron deficiency is common in pulmonary arterial hypertension and independently worsens symptoms and outcomes, prompting trials of intravenous iron repletion.
+- `connects-to` → **[COVID-19 Disease](../covid-19-disease/README.md)** — Dysregulated iron in infection: COVID-19 disturbs iron metabolism with hyperferritinaemia and functional iron deficiency, and post-COVID anaemia and fatigue are increasingly recognised.
 
 [^camaschella-2015-iron-deficiency]: Camaschella C. Iron-deficiency anemia. *N Engl J Med.* 2015;372(19):1832-1843. [doi:10.1056/NEJMra1401038](https://doi.org/10.1056/NEJMra1401038) · [PubMed 25946282](https://pubmed.ncbi.nlm.nih.gov/25946282/)
 [^who-ferritin-guideline-2020]: World Health Organization. WHO guideline on use of ferritin concentrations to assess iron status in individuals and populations. WHO; 2020. [WHO publication](https://www.who.int/publications/i/item/9789240000124)

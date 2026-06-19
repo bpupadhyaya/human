@@ -274,6 +274,15 @@ cross_links:
   - target: 01-human/05-tissue/cortical-bone
     relation: connects-to
     note: "Falls and fractures: the parkinsonism, orthostatic hypotension and cognitive fluctuations of Lewy-body dementia cause frequent falls, fracturing the cortical bone of already osteoporotic elderly patients."
+  - target: 01-human/05-tissue/alveolus
+    relation: connects-to
+    note: "Aspiration ends it: dysphagia in advanced Lewy-body dementia leads to aspiration pneumonia, seeding the alveoli with oral flora—the leading cause of death as in other neurodegenerative diseases."
+  - target: 01-human/07-system/panic-disorder
+    relation: connects-to
+    note: "Anxiety as a prodrome: prominent anxiety and panic are common non-motor and prodromal features of Lewy-body dementia, often preceding the cognitive and motor signs by years."
+  - target: 01-human/07-system/bipolar-disorder
+    relation: connects-to
+    note: "Late-life mood instability: new-onset mood disturbance in older adults can herald an emerging synucleinopathy like Lewy-body dementia, blurring the line between primary mood disorder and neurodegeneration."
 ---
 
 # Lewy Body Dementia
@@ -485,6 +494,9 @@ Approximately 25-50% of clinically diagnosed DLB cases have significant AD co-pa
 - `connects-to` → **[COVID-19 Disease](../covid-19-disease/README.md)** — Infection unmasks fragility: COVID-19 commonly precipitates delirium and accelerates cognitive decline in Lewy-body dementia, whose patients are acutely vulnerable to any systemic insult.
 - `connects-to` → **[Type 2 Diabetes](../type-2-diabetes/README.md)** — Metabolism and the ageing brain: type 2 diabetes and insulin resistance raise the risk and pace of dementias including Lewy-body disease, through vascular injury and impaired neuronal glucose handling.
 - `connects-to` → **[Cortical Bone](../../05-tissue/cortical-bone/README.md)** — Falls and fractures: the parkinsonism, orthostatic hypotension and cognitive fluctuations of Lewy-body dementia cause frequent falls, fracturing the cortical bone of already osteoporotic elderly patients.
+- `connects-to` → **[Alveolus](../../05-tissue/alveolus/README.md)** — Aspiration ends it: dysphagia in advanced Lewy-body dementia leads to aspiration pneumonia, seeding the alveoli with oral flora—the leading cause of death as in other neurodegenerative diseases.
+- `connects-to` → **[Panic Disorder](../panic-disorder/README.md)** — Anxiety as a prodrome: prominent anxiety and panic are common non-motor and prodromal features of Lewy-body dementia, often preceding the cognitive and motor signs by years.
+- `connects-to` → **[Bipolar Disorder](../bipolar-disorder/README.md)** — Late-life mood instability: new-onset mood disturbance in older adults can herald an emerging synucleinopathy like Lewy-body dementia, blurring the line between primary mood disorder and neurodegeneration.
 
 [^mckeith-2017-dlb-criteria]: McKeith IG, Boeve BF, Dickson DW, et al. Diagnosis and management of dementia with Lewy bodies: Fourth consensus report of the DLB Consortium. *Neurology.* 2017;89(1):88-100. [doi:10.1212/WNL.0000000000004058](https://doi.org/10.1212/WNL.0000000000004058) · [PubMed 28592453](https://pubmed.ncbi.nlm.nih.gov/28592453/)
 [^spillantini-1997-lewy-body]: Spillantini MG, Schmidt ML, Lee VM, Trojanowski JQ, Jakes R, Goedert M. Alpha-synuclein in Lewy bodies. *Nature.* 1997;388(6645):839-840. [doi:10.1038/42166](https://doi.org/10.1038/42166) · [PubMed 9278044](https://pubmed.ncbi.nlm.nih.gov/9278044/)
