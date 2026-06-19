@@ -262,6 +262,15 @@ cross_links:
   - target: 01-human/07-system/polycythemia-vera
     relation: connects-to
     note: "Too-thick blood clots the brain: the raised red-cell mass and platelet count of polycythaemia vera cause hyperviscosity and thrombosis, making stroke a presenting feature."
+  - target: 01-human/07-system/giant-cell-arteritis
+    relation: connects-to
+    note: "Vasculitic stroke: giant-cell arteritis and other large-vessel vasculitides can occlude cerebral and ophthalmic arteries, causing stroke and sudden blindness that prompt steroids can prevent."
+  - target: 01-human/07-system/covid-19-disease
+    relation: connects-to
+    note: "Infection-triggered clots: COVID-19 raises stroke risk through a hypercoagulable, inflammatory state, sometimes causing large-vessel occlusion even in younger patients."
+  - target: 01-human/05-tissue/myocardium
+    relation: connects-to
+    note: "A cardioembolic source: a left-ventricular mural thrombus after myocardial infarction or in cardiomyopathy can dislodge from the myocardium and embolise to the brain, causing cardioembolic stroke."
 ---
 
 # Stroke
@@ -447,6 +456,9 @@ Normal brain maintains CBF constant (50-150 mmHg MAP range) via autoregulation (
 - `connects-to` → **[Thalassemia](../thalassemia/README.md)** — Thalassaemia raises stroke risk: chronic haemolysis, a hypercoagulable state and post-splenectomy thrombocytosis predispose to ischaemic stroke, especially in non-transfusion-dependent thalassaemia.
 - `connects-to` → **[Endocardium](../../05-tissue/endocardium/README.md)** — The cardioembolic source: clots forming on a fibrillating atrium, a damaged valve or infective endocarditis on the endocardium break off and lodge in cerebral arteries, a leading cause of ischaemic stroke.
 - `connects-to` → **[Polycythemia Vera](../polycythemia-vera/README.md)** — Too-thick blood clots the brain: the raised red-cell mass and platelet count of polycythaemia vera cause hyperviscosity and thrombosis, making stroke a presenting feature.
+- `connects-to` → **[Giant Cell Arteritis](../giant-cell-arteritis/README.md)** — Vasculitic stroke: giant-cell arteritis and other large-vessel vasculitides can occlude cerebral and ophthalmic arteries, causing stroke and sudden blindness that prompt steroids can prevent.
+- `connects-to` → **[COVID-19 Disease](../covid-19-disease/README.md)** — Infection-triggered clots: COVID-19 raises stroke risk through a hypercoagulable, inflammatory state, sometimes causing large-vessel occlusion even in younger patients.
+- `connects-to` → **[Myocardium](../../05-tissue/myocardium/README.md)** — A cardioembolic source: a left-ventricular mural thrombus after myocardial infarction or in cardiomyopathy can dislodge from the myocardium and embolise to the brain, causing cardioembolic stroke.
 
 [^powers-2019-aha-stroke]: Powers WJ, Rabinstein AA, Ackerson T, et al. Guidelines for the Early Management of Patients With Acute Ischemic Stroke: 2019 Update to the 2018 Guidelines. *Stroke.* 2019;50(12):e344-e418. [doi:10.1161/STR.0000000000000211](https://doi.org/10.1161/STR.0000000000000211) · [PubMed 31662037](https://pubmed.ncbi.nlm.nih.gov/31662037/)
 [^feigin-2021-gbd-stroke]: Feigin VL, Krishnamurthi RV, Parmar P, et al. Update on the Global Burden of Ischemic and Hemorrhagic Stroke in 1990-2013. *Neuroepidemiology.* 2015;45(3):161-176. [doi:10.1159/000441085](https://doi.org/10.1159/000441085) · [PubMed 26505981](https://pubmed.ncbi.nlm.nih.gov/26505981/)

@@ -259,6 +259,15 @@ cross_links:
   - target: 01-human/05-tissue/alveolus
     relation: connects-to
     note: "'Crack lung': inhaled cocaine causes acute lung injury within hours—alveolar haemorrhage, oedema and eosinophilic pneumonitis flooding the gas-exchange surface."
+  - target: 01-human/07-system/hepatitis-b
+    relation: connects-to
+    note: "Needle-borne infection: injection stimulant use spreads hepatitis B alongside hepatitis C and HIV through shared needles, adding chronic liver disease to the harms of stimulant use."
+  - target: 01-human/05-tissue/glomerulus
+    relation: connects-to
+    note: "Kidney injury: stimulants cause acute kidney injury through rhabdomyolysis, intense vasoconstriction and malignant hypertension, damaging the glomerulus and renal tubules."
+  - target: 01-human/07-system/venous-thromboembolism
+    relation: connects-to
+    note: "Clots from injecting: injection stimulant use causes thrombophlebitis and deep-vein thrombosis at injection sites, and the prothrombotic, vasoconstrictive drug effects raise venous thromboembolism risk."
 ---
 
 # Stimulant Use Disorder
@@ -461,6 +470,9 @@ Unlike cocaine, methamphetamine causes **direct neurotoxic damage** to dopaminer
 - `connects-to` → **[Cardiac Conduction System](../../05-tissue/cardiac-conduction-system/README.md)** — Stimulant sudden death: cocaine and methamphetamine block cardiac sodium and potassium channels and flood the heart with catecholamines, causing the arrhythmias and QRS/QT changes behind sudden cardiac death.
 - `connects-to` → **[Endocardium](../../05-tissue/endocardium/README.md)** — Injection endocarditis: intravenous stimulant use seeds the endocardium and heart valves with skin bacteria, causing right-sided infective endocarditis and septic emboli to the lungs.
 - `connects-to` → **[Alveolus](../../05-tissue/alveolus/README.md)** — 'Crack lung': inhaled cocaine causes acute lung injury within hours—alveolar haemorrhage, oedema and eosinophilic pneumonitis flooding the gas-exchange surface.
+- `connects-to` → **[Hepatitis B](../hepatitis-b/README.md)** — Needle-borne infection: injection stimulant use spreads hepatitis B alongside hepatitis C and HIV through shared needles, adding chronic liver disease to the harms of stimulant use.
+- `connects-to` → **[Glomerulus](../../05-tissue/glomerulus/README.md)** — Kidney injury: stimulants cause acute kidney injury through rhabdomyolysis, intense vasoconstriction and malignant hypertension, damaging the glomerulus and renal tubules.
+- `connects-to` → **[Venous Thromboembolism](../venous-thromboembolism/README.md)** — Clots from injecting: injection stimulant use causes thrombophlebitis and deep-vein thrombosis at injection sites, and the prothrombotic, vasoconstrictive drug effects raise venous thromboembolism risk.
 
 ## Treatment
 
