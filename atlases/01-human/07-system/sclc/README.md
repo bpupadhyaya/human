@@ -268,6 +268,15 @@ cross_links:
   - target: 01-human/05-tissue/cardiac-conduction-system
     relation: connects-to
     note: "Electrolytes and the heart: SCLC's ectopic hormones disturb the heart's conduction—SIADH-driven hyponatraemia and ectopic-ACTH hypokalaemia destabilise rhythm—while paraneoplastic autonomic neuropathy adds to the risk."
+  - target: 01-human/03-molecular/yap1
+    relation: connects-to
+    note: "Molecular subtype: YAP1 defines a distinct SCLC subgroup (SCLC-Y) with a more inflamed, mesenchymal phenotype and differing chemotherapy sensitivity."
+  - target: 01-human/03-molecular/ezh2
+    relation: connects-to
+    note: "Epigenetic dependency: EZH2 is a key epigenetic vulnerability in SCLC, enforcing the neuroendocrine programme and chemoresistance—an actionable target."
+  - target: 01-human/03-molecular/bcl-2
+    relation: connects-to
+    note: "Apoptosis evasion: SCLC strongly expresses anti-apoptotic BCL-2, a long-standing therapeutic target exploited by BH3-mimetic drugs."
 ---
 
 # Small Cell Lung Cancer
@@ -461,6 +470,9 @@ SCLC has highest rate of brain metastases among solid tumors (~50% at 2 years); 
 - `connects-to` → **[Epilepsy](../epilepsy/README.md)** — Seizures from two directions: SCLC frequently metastasises to the brain and also causes paraneoplastic limbic encephalitis (anti-Hu), both producing seizures and secondary epilepsy in advanced disease.
 - `connects-to` → **[Axonal Transport](../../05-tissue/axonal-transport/README.md)** — Paraneoplastic neuronopathy: anti-Hu antibodies in SCLC destroy dorsal-root-ganglion neurons and their axonal transport, causing a severe subacute sensory neuronopathy that can precede the cancer's discovery.
 - `connects-to` → **[Cardiac Conduction System](../../05-tissue/cardiac-conduction-system/README.md)** — Electrolytes and the heart: SCLC's ectopic hormones disturb the heart's conduction—SIADH-driven hyponatraemia and ectopic-ACTH hypokalaemia destabilise rhythm—while paraneoplastic autonomic neuropathy adds to the risk.
+- `connects-to` → **[YAP1](../../03-molecular/yap1/README.md)** — Molecular subtype: YAP1 defines a distinct SCLC subgroup (SCLC-Y) with a more inflamed, mesenchymal phenotype and differing chemotherapy sensitivity.
+- `connects-to` → **[EZH2](../../03-molecular/ezh2/README.md)** — Epigenetic dependency: EZH2 is a key epigenetic vulnerability in SCLC, enforcing the neuroendocrine programme and chemoresistance—an actionable target.
+- `connects-to` → **[BCL-2](../../03-molecular/bcl-2/README.md)** — Apoptosis evasion: SCLC strongly expresses anti-apoptotic BCL-2, a long-standing therapeutic target exploited by BH3-mimetic drugs.
 
 [^horn-2018-impower133]: Horn L, Mansfield AS, Szczęsna A, et al. First-line atezolizumab plus chemotherapy in extensive-stage small-cell lung cancer. *N Engl J Med.* 2018;379(23):2220-2229. [doi:10.1056/NEJMoa1809064](https://doi.org/10.1056/NEJMoa1809064) · [PubMed 30280641](https://pubmed.ncbi.nlm.nih.gov/30280641/)
 [^paz-ares-2019-caspian]: Paz-Ares L, Dvorkin M, Chen Y, et al. Durvalumab plus platinum-etoposide versus platinum-etoposide in first-line treatment of extensive-stage small-cell lung cancer (CASPIAN). *Lancet.* 2019;394(10212):1929-1939. [doi:10.1016/S0140-6736(19)32222-6](https://doi.org/10.1016/S0140-6736(19)32222-6) · [PubMed 31590988](https://pubmed.ncbi.nlm.nih.gov/31590988/)

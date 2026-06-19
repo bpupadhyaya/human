@@ -274,6 +274,15 @@ cross_links:
   - target: 01-human/07-system/covid-19-disease
     relation: connects-to
     note: "Interferon and immunosuppression: Sjögren's shares a type-I interferon signature with severe COVID-19, and the rituximab used to deplete B cells leaves treated patients vulnerable to severe infection and poor vaccine responses."
+  - target: 01-human/03-molecular/ifn-gamma
+    relation: connects-to
+    note: "Th1 glandular attack: alongside the type I interferon signature, IFN-γ-driven Th1 inflammation fuels the lymphocytic infiltration that destroys salivary and lacrimal glands in Sjögren's."
+  - target: 01-human/03-molecular/il-17a
+    relation: connects-to
+    note: "Th17 contribution: the IL-17/Th17 axis participates in the glandular inflammation and ectopic lymphoid structures of Sjögren's syndrome."
+  - target: 01-human/03-molecular/aquaporin-4
+    relation: connects-to
+    note: "Aquaporin overlap: anti-aquaporin-4 antibodies link Sjögren's to neuromyelitis optica, and aquaporin water channels in exocrine glands are central to the secretory failure causing sicca."
 ---
 
 # Sjögren's Syndrome
@@ -489,6 +498,9 @@ Sjögren's syndrome can occur:
 - `connects-to` → **[Cardiac Conduction System](../../05-tissue/cardiac-conduction-system/README.md)** — Neonatal heart block: maternal anti-Ro/SSA antibodies in Sjögren's cross the placenta and attack the developing cardiac conduction system, causing congenital complete heart block in the fetus.
 - `connects-to` → **[PTCL](../ptcl/README.md)** — Lymphoma's broad reach: Sjögren's carries the highest lymphoma risk of the autoimmune diseases—mostly MALT B-cell lymphoma but also T-cell lymphomas, and angioimmunoblastic T-cell lymphoma can itself mimic Sjögren's sicca and hypergammaglobulinaemia.
 - `connects-to` → **[COVID-19 Disease](../covid-19-disease/README.md)** — Interferon and immunosuppression: Sjögren's shares a type-I interferon signature with severe COVID-19, and the rituximab used to deplete B cells leaves treated patients vulnerable to severe infection and poor vaccine responses.
+- `connects-to` → **[IFN-γ](../../03-molecular/ifn-gamma/README.md)** — Th1 glandular attack: alongside the type I interferon signature, IFN-γ-driven Th1 inflammation fuels the lymphocytic infiltration that destroys salivary and lacrimal glands in Sjögren's.
+- `connects-to` → **[IL-17A](../../03-molecular/il-17a/README.md)** — Th17 contribution: the IL-17/Th17 axis participates in the glandular inflammation and ectopic lymphoid structures of Sjögren's syndrome.
+- `connects-to` → **[Aquaporin-4](../../03-molecular/aquaporin-4/README.md)** — Aquaporin overlap: anti-aquaporin-4 antibodies link Sjögren's to neuromyelitis optica, and aquaporin water channels in exocrine glands are central to the secretory failure causing sicca.
 
 ---
 
