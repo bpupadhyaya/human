@@ -250,6 +250,15 @@ cross_links:
   - target: 03-medicine/01-modern/04-cardio/aspirin
     relation: connects-to
     note: "Aspirin curbs the polyps: beyond the sulindac and celecoxib used in FAP, regular aspirin reduces colorectal adenoma and cancer risk (as in the CAPP trials), a chemopreventive adjunct to the surveillance and surgery that anchor hereditary polyposis care."
+  - target: 01-human/07-system/gorlin-syndrome
+    relation: connects-to
+    note: "Two syndromes, two medulloblastomas: FAP (via Turcot) predisposes to WNT-subgroup medulloblastoma while Gorlin syndrome causes the SHH subgroup—two inherited routes to the same childhood brain tumour through different pathways."
+  - target: 01-human/07-system/neuroendocrine-tumors
+    relation: connects-to
+    note: "Duodenal neuroendocrine tumours: beyond adenomas, FAP raises the risk of duodenal and ampullary neuroendocrine tumours, adding to the upper-GI surveillance burden after colectomy."
+  - target: 01-human/07-system/li-fraumeni-syndrome
+    relation: connects-to
+    note: "Childhood-and-adult tumour syndromes: like Li-Fraumeni, FAP is an autosomal-dominant predisposition striking from childhood (hepatoblastoma, medulloblastoma) into adulthood, demanding lifelong multi-organ surveillance."
 ---
 
 # Familial Adenomatous Polyposis
@@ -467,6 +476,9 @@ With modern surveillance and prophylactic colectomy: FAP is no longer an inevita
 - `connects-to` → **[Cortical Bone](../../05-tissue/cortical-bone/README.md)** — Gardner's bony stigmata: the Gardner variant of FAP produces osteomas of the skull, mandible and long bones, plus dental anomalies and epidermoid cysts — extracolonic clues that often precede the polyposis.
 - `connects-to` → **[Hepatic Lobule](../../05-tissue/hepatic-lobule/README.md)** — It threatens the child's liver: young children with FAP carry a markedly raised risk of hepatoblastoma, a liver cancer arising in the hepatic lobule, prompting AFP and ultrasound surveillance in infancy.
 - `connects-to` → **[Aspirin](../../../03-medicine/01-modern/04-cardio/aspirin/README.md)** — Aspirin curbs the polyps: beyond the sulindac and celecoxib used in FAP, regular aspirin reduces colorectal adenoma and cancer risk (as in the CAPP trials), a chemopreventive adjunct to the surveillance and surgery that anchor hereditary polyposis care.
+- `connects-to` → **[Gorlin Syndrome](../gorlin-syndrome/README.md)** — Two syndromes, two medulloblastomas: FAP (via Turcot) predisposes to WNT-subgroup medulloblastoma while Gorlin syndrome causes the SHH subgroup—two inherited routes to the same childhood brain tumour through different pathways.
+- `connects-to` → **[Neuroendocrine Tumors](../neuroendocrine-tumors/README.md)** — Duodenal neuroendocrine tumours: beyond adenomas, FAP raises the risk of duodenal and ampullary neuroendocrine tumours, adding to the upper-GI surveillance burden after colectomy.
+- `connects-to` → **[Li-Fraumeni Syndrome](../li-fraumeni-syndrome/README.md)** — Childhood-and-adult tumour syndromes: like Li-Fraumeni, FAP is an autosomal-dominant predisposition striking from childhood (hepatoblastoma, medulloblastoma) into adulthood, demanding lifelong multi-organ surveillance.
 
 [^kinzler-1991-apc]: Kinzler KW, Nilbert MC, Su LK, et al. Identification of FAP locus genes from chromosome 5q21. *Science.* 1991;253(5020):661-665. [doi:10.1126/science.1651562](https://doi.org/10.1126/science.1651562) · [PubMed 1651562](https://pubmed.ncbi.nlm.nih.gov/1651562/)
 [^fearon-1990-vogelstein]: Fearon ER, Vogelstein B. A genetic model for colorectal tumorigenesis. *Cell.* 1990;61(5):759-767. [doi:10.1016/0092-8674(90)90186-i](https://doi.org/10.1016/0092-8674(90)90186-i) · [PubMed 2188735](https://pubmed.ncbi.nlm.nih.gov/2188735/)

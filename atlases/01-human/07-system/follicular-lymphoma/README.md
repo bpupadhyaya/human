@@ -250,6 +250,15 @@ cross_links:
   - target: 01-human/07-system/waldenstrom-macroglobulinemia
     relation: connects-to
     note: "Two indolent B-cell neoplasms: follicular lymphoma and Waldenström macroglobulinaemia are both slow-growing mature B-cell cancers managed by watchful waiting and rituximab-based therapy, contrasting with the aggressive lymphomas."
+  - target: 01-human/03-molecular/p53
+    relation: connects-to
+    note: "The mark of transformation: acquiring a TP53 mutation drives indolent follicular lymphoma to transform into aggressive diffuse large B-cell lymphoma, the event that worsens prognosis."
+  - target: 01-human/07-system/rheumatoid-arthritis
+    relation: connects-to
+    note: "Immunosuppression-associated lymphoma: chronic immune stimulation and methotrexate or biologic therapy in rheumatoid arthritis raise the risk of non-Hodgkin lymphomas including follicular lymphoma."
+  - target: 01-human/05-tissue/myocardium
+    relation: connects-to
+    note: "Anthracycline cardiotoxicity: when follicular lymphoma transforms or needs R-CHOP, the doxorubicin component causes dose-dependent cardiomyopathy, monitored during treatment."
 ---
 
 # Follicular Lymphoma
@@ -453,6 +462,9 @@ High-risk subset (progression within 24 months of first chemoimmunotherapy): Con
 - `connects-to` → **[Checkpoint Inhibitors](../../../03-medicine/01-modern/13-cancer/checkpoint-inhibitors/README.md)** — A microenvironment-dependent tumour: follicular lymphoma leans heavily on its immunosuppressive niche of regulatory and exhausted T cells, so checkpoint blockade and immunomodulators like lenalidomide act through that microenvironment rather than the tumour cell alone.
 - `connects-to` → **[Intestinal Epithelium](../../05-tissue/intestinal-epithelium/README.md)** — It has an indolent gut form: primary duodenal-type follicular lymphoma grows in the small-bowel mucosa as a remarkably indolent, often localized disease, contrasting with nodal follicular lymphoma.
 - `connects-to` → **[Waldenström Macroglobulinemia](../waldenstrom-macroglobulinemia/README.md)** — Two indolent B-cell neoplasms: follicular lymphoma and Waldenström macroglobulinaemia are both slow-growing mature B-cell cancers managed by watchful waiting and rituximab-based therapy, contrasting with the aggressive lymphomas.
+- `connects-to` → **[p53](../../03-molecular/p53/README.md)** — The mark of transformation: acquiring a TP53 mutation drives indolent follicular lymphoma to transform into aggressive diffuse large B-cell lymphoma, the event that worsens prognosis.
+- `connects-to` → **[Rheumatoid Arthritis](../rheumatoid-arthritis/README.md)** — Immunosuppression-associated lymphoma: chronic immune stimulation and methotrexate or biologic therapy in rheumatoid arthritis raise the risk of non-Hodgkin lymphomas including follicular lymphoma.
+- `connects-to` → **[Myocardium](../../05-tissue/myocardium/README.md)** — Anthracycline cardiotoxicity: when follicular lymphoma transforms or needs R-CHOP, the doxorubicin component causes dose-dependent cardiomyopathy, monitored during treatment.
 
 ---
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
