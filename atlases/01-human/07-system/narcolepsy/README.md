@@ -228,6 +228,15 @@ cross_links:
   - target: 01-human/07-system/fibromyalgia
     relation: connects-to
     note: "Unrefreshing sleep links them: narcolepsy and fibromyalgia both disrupt sleep architecture and cause profound daytime fatigue, and the two are more likely to coexist."
+  - target: 01-human/07-system/myasthenia-gravis
+    relation: connects-to
+    note: "Two HLA-linked neuro-autoimmune diseases: type 1 narcolepsy is a T-cell attack on orexin neurons tied to HLA-DQB1*06:02, as myasthenia gravis is an antibody attack on the neuromuscular junction—self-directed immunity striking different neural targets."
+  - target: 01-human/07-system/ptsd
+    relation: connects-to
+    note: "Disordered REM connects them: narcolepsy intrudes REM sleep into wakefulness, while PTSD fragments REM with nightmares; the two are comorbid and share noradrenergic and orexin dysregulation of the sleep-wake switch."
+  - target: 01-human/05-tissue/guillain-barre
+    relation: connects-to
+    note: "Both can follow an infection: narcolepsy surged after H1N1 influenza and Pandemrix vaccination, and Guillain-Barré syndrome classically follows infection too—post-infectious autoimmunity by molecular mimicry striking the nervous system."
 sources:
   - id: scammell-2015-narcolepsy-review
     type: peer-reviewed
@@ -438,6 +447,9 @@ Cataplexy is the **pathognomonic** feature of NT1 — sudden, bilateral loss of 
 - `connects-to` → **[Influenza A](../../../02-pathogen/01-viruses/influenza-a/README.md)** — A pandemic flu that triggered it: the 2009 H1N1 influenza and the Pandemrix vaccine against it sharply raised narcolepsy incidence, the virus's antigens cross-reacting with orexin neurons in genetically susceptible people.
 - `connects-to` → **[Huntington's Disease](../huntingtons-disease/README.md)** — Neurodegeneration steals orexin too: Huntington's disease damages hypothalamic orexin neurons, producing the fragmented sleep and daytime sleepiness that overlap with narcolepsy's hallmark orexin loss.
 - `connects-to` → **[Fibromyalgia](../fibromyalgia/README.md)** — Unrefreshing sleep links them: narcolepsy and fibromyalgia both disrupt sleep architecture and cause profound daytime fatigue, and the two are more likely to coexist.
+- `connects-to` → **[Myasthenia Gravis](../myasthenia-gravis/README.md)** — Two HLA-linked neuro-autoimmune diseases: type 1 narcolepsy is a T-cell attack on orexin neurons tied to HLA-DQB1*06:02, as myasthenia gravis is an antibody attack on the neuromuscular junction—self-directed immunity striking different neural targets.
+- `connects-to` → **[PTSD](../ptsd/README.md)** — Disordered REM connects them: narcolepsy intrudes REM sleep into wakefulness, while PTSD fragments REM with nightmares; the two are comorbid and share noradrenergic and orexin dysregulation of the sleep-wake switch.
+- `connects-to` → **[Guillain-Barré](../../05-tissue/guillain-barre/README.md)** — Both can follow an infection: narcolepsy surged after H1N1 influenza and Pandemrix vaccination, and Guillain-Barré syndrome classically follows infection too—post-infectious autoimmunity by molecular mimicry striking the nervous system.
 
 [^scammell-2015-narcolepsy-review]: Scammell TE. Narcolepsy. *N Engl J Med.* 2015;373(27):2654-2662. [doi:10.1056/NEJMra1500587](https://doi.org/10.1056/NEJMra1500587) · [PubMed 26716917](https://pubmed.ncbi.nlm.nih.gov/26716917/)
 [^dauvilliers-2007-narcolepsy-clinical]: Dauvilliers Y, Arnulf I, Mignot E. Narcolepsy with cataplexy. *Lancet.* 2007;369(9560):499-511. [doi:10.1016/S0140-6736(07)60237-2](https://doi.org/10.1016/S0140-6736(07)60237-2) · [PubMed 17292770](https://pubmed.ncbi.nlm.nih.gov/17292770/)

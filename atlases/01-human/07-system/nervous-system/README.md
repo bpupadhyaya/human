@@ -250,6 +250,15 @@ cross_links:
   - target: 03-medicine/01-modern/02-respiratory/corticosteroids
     relation: connects-to
     note: "Steroids quiet neuro-inflammation: corticosteroids reduce cerebral oedema around tumours, treat acute multiple-sclerosis relapses and autoimmune encephalitis, a mainstay across inflammatory nervous-system disease."
+  - target: 01-human/05-tissue/peripheral-nerve
+    relation: connects-to
+    note: "Its reach beyond the brain and cord: the peripheral nerves carry the nervous system's motor commands out to muscle and sensory signals back in, and their axons—wrapped in Schwann-cell myelin—are where neuropathies and nerve injuries strike."
+  - target: 01-human/05-tissue/neuromuscular-junction
+    relation: connects-to
+    note: "Where nerve commands muscle: the neuromuscular junction is the cholinergic synapse through which the nervous system drives every voluntary movement, the target of myasthenia gravis, botulinum toxin and curare."
+  - target: 01-human/07-system/huntingtons-disease
+    relation: connects-to
+    note: "A hereditary neurodegeneration of the nervous system: Huntington's disease, from a CAG-repeat expansion in HTT, destroys striatal neurons to cause chorea, cognitive decline and psychiatric change—one of the system's monogenic degenerative diseases."
 ---
 
 # Nervous System
@@ -363,6 +372,9 @@ Distributed cortical networks underlie language (Broca's area, Wernicke's area, 
 - `connects-to` → **[ALS](../../07-system/als/README.md)** — Motor neurons degenerate: amyotrophic lateral sclerosis progressively destroys upper and lower motor neurons of the nervous system, causing relentless paralysis while sparing sensation and cognition until late.
 - `connects-to` → **[HIV-1](../../../02-pathogen/01-viruses/hiv-1/README.md)** — A virus that invades the brain: HIV enters the central nervous system early, infecting microglia and macrophages to cause HIV encephalitis and the cognitive decline of HIV-associated neurocognitive disorder.
 - `connects-to` → **[Corticosteroids](../../../03-medicine/01-modern/02-respiratory/corticosteroids/README.md)** — Steroids quiet neuro-inflammation: corticosteroids reduce cerebral oedema around tumours, treat acute multiple-sclerosis relapses and autoimmune encephalitis, a mainstay across inflammatory nervous-system disease.
+- `connects-to` → **[Peripheral Nerve](../../05-tissue/peripheral-nerve/README.md)** — Its reach beyond the brain and cord: the peripheral nerves carry the nervous system's motor commands out to muscle and sensory signals back in, and their axons—wrapped in Schwann-cell myelin—are where neuropathies and nerve injuries strike.
+- `connects-to` → **[Neuromuscular Junction](../../05-tissue/neuromuscular-junction/README.md)** — Where nerve commands muscle: the neuromuscular junction is the cholinergic synapse through which the nervous system drives every voluntary movement, the target of myasthenia gravis, botulinum toxin and curare.
+- `connects-to` → **[Huntington's Disease](../huntingtons-disease/README.md)** — A hereditary neurodegeneration of the nervous system: Huntington's disease, from a CAG-repeat expansion in HTT, destroys striatal neurons to cause chorea, cognitive decline and psychiatric change—one of the system's monogenic degenerative diseases.
 
 ## Pathology
 
