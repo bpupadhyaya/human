@@ -268,6 +268,15 @@ cross_links:
   - target: 01-human/07-system/gout
     relation: connects-to
     note: "Tumour-lysis fallout: bulky or blastoid mantle-cell lymphoma releases a flood of urate when treated, driving acute hyperuricaemia and crystal disease that overlaps with gout and threatens the kidney unless rasburicase is given."
+  - target: 01-human/03-molecular/notch
+    relation: connects-to
+    note: "Recurrent driver: NOTCH1 and NOTCH2 mutations recur in mantle cell lymphoma and mark a more aggressive clinical course, a candidate therapeutic target."
+  - target: 01-human/03-molecular/myc
+    relation: connects-to
+    note: "Blastoid transformation: MYC amplification or translocation drives the aggressive blastoid and pleomorphic variants of mantle cell lymphoma, worsening prognosis."
+  - target: 01-human/03-molecular/ezh2
+    relation: connects-to
+    note: "Epigenetic dependence: EZH2 overexpression contributes to mantle cell lymphoma proliferation, an emerging epigenetic vulnerability beyond the defining cyclin D1 lesion."
 ---
 
 # Mantle Cell Lymphoma
@@ -473,6 +482,9 @@ For SOX11−, mutated IGHV, non-bulky, asymptomatic nnMCL: Observation is safe; 
 - `connects-to` → **[Immune Thrombocytopenia](../immune-thrombocytopenia/README.md)** — Secondary autoimmune cytopenia: like other low-grade B-cell malignancies, mantle-cell lymphoma can drive antibody-mediated platelet destruction, so a new immune thrombocytopenia in an older adult warrants screening for an underlying lymphoma.
 - `connects-to` → **[COVID-19 Disease](../covid-19-disease/README.md)** — Defenceless against infection: anti-CD20 antibodies and BTK inhibitors used for mantle-cell lymphoma deplete B cells profoundly, causing severe, prolonged COVID-19 and poor vaccine responses in these patients.
 - `connects-to` → **[Gout](../gout/README.md)** — Tumour-lysis fallout: bulky or blastoid mantle-cell lymphoma releases a flood of urate when treated, driving acute hyperuricaemia and crystal disease that overlaps with gout and threatens the kidney unless rasburicase is given.
+- `connects-to` → **[Notch](../../03-molecular/notch/README.md)** — Recurrent driver: NOTCH1 and NOTCH2 mutations recur in mantle cell lymphoma and mark a more aggressive clinical course, a candidate therapeutic target.
+- `connects-to` → **[MYC](../../03-molecular/myc/README.md)** — Blastoid transformation: MYC amplification or translocation drives the aggressive blastoid and pleomorphic variants of mantle cell lymphoma, worsening prognosis.
+- `connects-to` → **[EZH2](../../03-molecular/ezh2/README.md)** — Epigenetic dependence: EZH2 overexpression contributes to mantle cell lymphoma proliferation, an emerging epigenetic vulnerability beyond the defining cyclin D1 lesion.
 
 ---
 
