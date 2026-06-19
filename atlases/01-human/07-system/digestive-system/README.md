@@ -262,6 +262,15 @@ cross_links:
   - target: 03-medicine/01-modern/13-cancer/cancer-chemotherapy
     relation: connects-to
     note: "It both treats and is harmed: the gut's common cancers depend on cytotoxic chemotherapy, while the rapidly dividing intestinal lining makes the digestive tract a prime victim of chemo, producing the mucositis, nausea and diarrhoea that limit dosing."
+  - target: 01-human/05-tissue/peyers-patches
+    relation: connects-to
+    note: "The gut's immune sentinels: Peyer's patches in the small-intestinal wall sample luminal antigens through M cells, the gut-associated lymphoid tissue where the digestive and immune systems meet."
+  - target: 01-human/05-tissue/islet-of-langerhans
+    relation: connects-to
+    note: "The endocrine pancreas within the gut: the islets of Langerhans, embedded in the digestive organ that also makes digestive enzymes, secrete insulin and glucagon to regulate the metabolism of absorbed nutrients."
+  - target: 01-human/07-system/gist
+    relation: connects-to
+    note: "Its commonest mesenchymal tumour: gastrointestinal stromal tumours arise from the interstitial cells of Cajal—the gut's pacemaker cells—anywhere from oesophagus to rectum, distinct from the epithelial carcinomas of the digestive tract."
 taxonomy:
   uberon: "UBERON:0001007"
 ---
@@ -432,6 +441,9 @@ The ENS can function autonomously without extrinsic innervation (Hirschsprung's 
 - **Connects to:** [Esophageal Cancer](../esophageal-cancer/README.md) — it begins at the top of the tract: esophageal cancer — squamous from smoking and alcohol, adenocarcinoma from reflux and Barrett's — completes the digestive tract's malignancies alongside gastric, colorectal and pancreatic cancer.
 - **Connects to:** [Hepatic Lobule](../../05-tissue/hepatic-lobule/README.md) — the liver is its chemical factory: the hepatic lobule, the liver's functional unit, processes everything absorbed from the gut via the portal vein, secretes bile for fat digestion, and detoxifies and stores the nutrients the gut delivers.
 - **Connects to:** [Cancer Chemotherapy](../../../03-medicine/01-modern/13-cancer/cancer-chemotherapy/README.md) — it both treats and is harmed: the gut's common cancers depend on cytotoxic chemotherapy, while the rapidly dividing intestinal lining makes the digestive tract a prime victim of chemo, producing the mucositis, nausea and diarrhoea that limit dosing.
+- **Connects to:** [Peyer's Patches](../../05-tissue/peyers-patches/README.md) — the gut's immune sentinels: Peyer's patches in the small-intestinal wall sample luminal antigens through M cells, the gut-associated lymphoid tissue where the digestive and immune systems meet.
+- **Connects to:** [Islet of Langerhans](../../05-tissue/islet-of-langerhans/README.md) — the endocrine pancreas within the gut: the islets of Langerhans, embedded in the digestive organ that also makes digestive enzymes, secrete insulin and glucagon to regulate the metabolism of absorbed nutrients.
+- **Connects to:** [GIST](../gist/README.md) — its commonest mesenchymal tumour: gastrointestinal stromal tumours arise from the interstitial cells of Cajal—the gut's pacemaker cells—anywhere from oesophagus to rectum, distinct from the epithelial carcinomas of the digestive tract.
 
 ## Pathology
 

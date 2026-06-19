@@ -231,6 +231,15 @@ cross_links:
   - target: 03-medicine/01-modern/13-cancer/cancer-chemotherapy
     relation: connects-to
     note: "Treatment-related central sensitisation: chemotherapy and aromatase-inhibitor therapy in cancer survivors commonly cause chronic widespread musculoskeletal pain and fatigue resembling fibromyalgia, reflecting shared central pain-sensitisation mechanisms."
+  - target: 01-human/07-system/ankylosing-spondylitis
+    relation: connects-to
+    note: "A confounding overlay on inflammatory arthritis: comorbid fibromyalgia is common in ankylosing spondylitis and inflates its disease-activity scores with widespread pain, so separating central sensitisation from active inflammation guides treatment."
+  - target: 01-human/07-system/narcolepsy
+    relation: connects-to
+    note: "Unrefreshing sleep links them: fibromyalgia and narcolepsy both fragment sleep and cause profound daytime fatigue, with alpha-wave intrusion into deep sleep a hallmark of the non-restorative sleep of fibromyalgia."
+  - target: 01-human/07-system/epilepsy
+    relation: connects-to
+    note: "Shared central hyperexcitability: fibromyalgia and epilepsy both reflect neuronal hyperexcitability with disturbed glutamate/GABA balance, and the gabapentinoids pregabalin and gabapentin treat both."
 sources:
   - id: wolfe-2016-fibromyalgia-criteria
     type: peer-reviewed
@@ -462,6 +471,9 @@ FM is not a single-etiology disorder but a convergent syndrome resulting from th
 - `connects-to` → **[Cannabis Use Disorder](../cannabis-use-disorder/README.md)** — Cannabinoids are widely tried for it: fibromyalgia is a leading reason for medical-cannabis use, and the clinical endocannabinoid deficiency hypothesis frames its pain and sleep disturbance — though efficacy is uncertain and dependence is a real risk.
 - `connects-to` → **[Panax Ginseng](../../../03-medicine/02-traditional/panax-ginseng/README.md)** — A studied botanical adjunct: like ashwagandha, Panax ginseng has been trialled for the fatigue, pain and poor sleep of fibromyalgia, part of the complementary approaches patients often turn to when drugs disappoint.
 - `connects-to` → **[Cancer Chemotherapy](../../../03-medicine/01-modern/13-cancer/cancer-chemotherapy/README.md)** — Treatment-related central sensitisation: chemotherapy and aromatase-inhibitor therapy in cancer survivors commonly cause chronic widespread musculoskeletal pain and fatigue resembling fibromyalgia, reflecting shared central pain-sensitisation mechanisms.
+- `connects-to` → **[Ankylosing Spondylitis](../ankylosing-spondylitis/README.md)** — A confounding overlay on inflammatory arthritis: comorbid fibromyalgia is common in ankylosing spondylitis and inflates its disease-activity scores with widespread pain, so separating central sensitisation from active inflammation guides treatment.
+- `connects-to` → **[Narcolepsy](../narcolepsy/README.md)** — Unrefreshing sleep links them: fibromyalgia and narcolepsy both fragment sleep and cause profound daytime fatigue, with alpha-wave intrusion into deep sleep a hallmark of the non-restorative sleep of fibromyalgia.
+- `connects-to` → **[Epilepsy](../epilepsy/README.md)** — Shared central hyperexcitability: fibromyalgia and epilepsy both reflect neuronal hyperexcitability with disturbed glutamate/GABA balance, and the gabapentinoids pregabalin and gabapentin treat both.
 
 [^wolfe-2016-fibromyalgia-criteria]: Wolfe F, Clauw DJ, Fitzcharles MA, et al. 2016 Revisions to the 2010/2011 fibromyalgia diagnostic criteria. *Semin Arthritis Rheum.* 2016;46(3):319-329. [doi:10.1016/j.semarthrit.2016.08.012](https://doi.org/10.1016/j.semarthrit.2016.08.012) · [PubMed 27916278](https://pubmed.ncbi.nlm.nih.gov/27916278/)
 [^clauw-2014-fibromyalgia-review]: Clauw DJ. Fibromyalgia: a clinical review. *JAMA.* 2014;311(15):1547-1555. [doi:10.1001/jama.2014.3266](https://doi.org/10.1001/jama.2014.3266) · [PubMed 24737367](https://pubmed.ncbi.nlm.nih.gov/24737367/)
