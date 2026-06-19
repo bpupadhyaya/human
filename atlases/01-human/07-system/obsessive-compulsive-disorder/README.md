@@ -287,6 +287,15 @@ cross_links:
   - target: 01-human/07-system/multiple-sclerosis
     relation: connects-to
     note: "Organic OCD: demyelinating lesions of multiple sclerosis in frontal and basal-ganglia circuits can produce secondary obsessive-compulsive symptoms, illustrating the cortico-striatal basis of the disorder."
+  - target: 01-human/03-molecular/il-1b
+    relation: connects-to
+    note: "Neuroinflammation: elevated IL-1β and microglial activation in cortico-striatal circuits are increasingly implicated in OCD, linking immune signalling to symptom severity."
+  - target: 01-human/03-molecular/tnf-alpha
+    relation: connects-to
+    note: "Inflammatory cytokine: raised TNF-α in OCD supports an immune-mediated component to the disorder, consistent with its overlap with autoimmune and PANDAS-type presentations."
+  - target: 01-human/03-molecular/nlrp3-inflammasome
+    relation: connects-to
+    note: "Inflammasome link: NLRP3-driven IL-1β release from activated microglia is a proposed mechanism connecting innate immune activation to the neurocircuit dysfunction of OCD."
 ---
 
 # Obsessive-Compulsive Disorder
@@ -501,6 +510,9 @@ OCD is often underdiagnosed due to shame and secrecy. Mean time from symptom ons
 - `connects-to` → **[COVID-19 Disease](../covid-19-disease/README.md)** — Pandemic amplifier: COVID-19 worsened obsessive-compulsive disorder, especially contamination and washing subtypes, while post-infectious immune activation is among the mechanisms linking infection to OCD.
 - `connects-to` → **[Intestinal Epithelium](../../05-tissue/intestinal-epithelium/README.md)** — The gut-brain axis in OCD: microbiome and intestinal-barrier signals influence the cortico-striatal circuits of obsessive-compulsive disorder, an emerging dimension of its biology beyond serotonin.
 - `connects-to` → **[Multiple Sclerosis](../multiple-sclerosis/README.md)** — Organic OCD: demyelinating lesions of multiple sclerosis in frontal and basal-ganglia circuits can produce secondary obsessive-compulsive symptoms, illustrating the cortico-striatal basis of the disorder.
+- `connects-to` → **[IL-1β](../../03-molecular/il-1b/README.md)** — Neuroinflammation: elevated IL-1β and microglial activation in cortico-striatal circuits are increasingly implicated in OCD, linking immune signalling to symptom severity.
+- `connects-to` → **[TNF-α](../../03-molecular/tnf-alpha/README.md)** — Inflammatory cytokine: raised TNF-α in OCD supports an immune-mediated component to the disorder, consistent with its overlap with autoimmune and PANDAS-type presentations.
+- `connects-to` → **[NLRP3 Inflammasome](../../03-molecular/nlrp3-inflammasome/README.md)** — Inflammasome link: NLRP3-driven IL-1β release from activated microglia is a proposed mechanism connecting innate immune activation to the neurocircuit dysfunction of OCD.
 
 [^abramowitz-2009-ocd-review]: Abramowitz JS, Taylor S, McKay D. Obsessive-compulsive disorder. *Lancet.* 2009;374(9688):491-499. [doi:10.1016/S0140-6736(09)60240-3](https://doi.org/10.1016/S0140-6736(09)60240-3) · [PubMed 19665647](https://pubmed.ncbi.nlm.nih.gov/19665647/)
 [^chamberlain-2008-ocd-neuroscience]: Chamberlain SR, Menzies L, Hampshire A, et al. Orbitofrontal dysfunction in patients with OCD and their unaffected relatives. *Science.* 2008;321(5887):421-422. [doi:10.1126/science.1154433](https://doi.org/10.1126/science.1154433) · [PubMed 18635808](https://pubmed.ncbi.nlm.nih.gov/18635808/)

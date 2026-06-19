@@ -277,6 +277,15 @@ cross_links:
   - target: 01-human/07-system/fibromyalgia
     relation: connects-to
     note: "Pain in Parkinson's: chronic pain is a common non-motor symptom of Parkinson's with central-sensitisation features that overlap fibromyalgia, beyond the rigidity and dystonia of the motor disease."
+  - target: 01-human/03-molecular/il-1b
+    relation: connects-to
+    note: "Neuroinflammation: IL-1β released by activated microglia around degenerating dopaminergic neurons amplifies the inflammatory cascade that drives nigral cell loss in Parkinson's."
+  - target: 01-human/03-molecular/il-6
+    relation: connects-to
+    note: "Inflammatory marker: elevated IL-6 in CSF and blood tracks neuroinflammation and disease progression in Parkinson's, part of the cytokine milieu fuelling neurodegeneration."
+  - target: 01-human/03-molecular/mtor
+    relation: connects-to
+    note: "Impaired clearance: mTOR overactivity suppresses the autophagy/mitophagy needed to clear α-synuclein and damaged mitochondria, and its inhibition is neuroprotective in Parkinson's models."
 ---
 
 # Parkinson's Disease
@@ -502,6 +511,9 @@ PD is primarily a disease of aging (mean onset ~60 years), but **~10–15% of ca
 - `connects-to` → **[Alveolus](../../05-tissue/alveolus/README.md)** — Aspiration ends it: dysphagia in advanced Parkinson's leads to aspiration pneumonia, seeding the alveoli with oral flora—the leading cause of death in the disease.
 - `connects-to` → **[Endocardium](../../05-tissue/endocardium/README.md)** — Drug-induced valve disease: ergot-derived dopamine agonists (pergolide, cabergoline) stimulate 5-HT2B receptors to fibrose the heart valves and endocardium, the reason these agonists are now largely avoided.
 - `connects-to` → **[Fibromyalgia](../fibromyalgia/README.md)** — Pain in Parkinson's: chronic pain is a common non-motor symptom of Parkinson's with central-sensitisation features that overlap fibromyalgia, beyond the rigidity and dystonia of the motor disease.
+- `connects-to` → **[IL-1β](../../03-molecular/il-1b/README.md)** — Neuroinflammation: IL-1β released by activated microglia around degenerating dopaminergic neurons amplifies the inflammatory cascade that drives nigral cell loss in Parkinson's.
+- `connects-to` → **[IL-6](../../03-molecular/il-6/README.md)** — Inflammatory marker: elevated IL-6 in CSF and blood tracks neuroinflammation and disease progression in Parkinson's, part of the cytokine milieu fuelling neurodegeneration.
+- `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — Impaired clearance: mTOR overactivity suppresses the autophagy/mitophagy needed to clear α-synuclein and damaged mitochondria, and its inhibition is neuroprotective in Parkinson's models.
 
 [^kalia-2015-pd-review]: Kalia LV, Lang AE. Parkinson's disease. *Lancet.* 2015;386(9996):896-912. [doi:10.1016/S0140-6736(14)61393-3](https://doi.org/10.1016/S0140-6736(14)61393-3) · [PubMed 25904081](https://pubmed.ncbi.nlm.nih.gov/25904081/)
 [^spillantini-1997-lewy-body]: Spillantini MG, Schmidt ML, Lee VM, Trojanowski JQ, Jakes R, Goedert M. Alpha-synuclein in Lewy bodies. *Nature.* 1997;388(6645):839-840. [doi:10.1038/42166](https://doi.org/10.1038/42166) · [PubMed 9278044](https://pubmed.ncbi.nlm.nih.gov/9278044/)
