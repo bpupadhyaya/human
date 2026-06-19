@@ -231,6 +231,15 @@ cross_links:
   - target: 01-human/07-system/obesity
     relation: connects-to
     note: "The endocannabinoid system and weight: CB1 signalling drives appetite and fat storage, so the same system disordered in chronic cannabis use was targeted for obesity by the CB1 blocker rimonabant, withdrawn for triggering depression and anxiety."
+  - target: 01-human/05-tissue/cardiac-conduction-system
+    relation: connects-to
+    note: "THC strains the heart's rhythm: acute cannabis use raises heart rate and can trigger atrial and ventricular arrhythmias and even myocardial infarction in young users, a rising cause of cannabis-related cardiac events."
+  - target: 01-human/05-tissue/alveolus
+    relation: connects-to
+    note: "Smoke damages the air sacs: chronic cannabis smoking inflames the airways and can create large apical bullae that rupture as spontaneous pneumothorax, injuring the alveolar parenchyma despite cannabis's unclear link to emphysema."
+  - target: 01-human/07-system/binge-eating-disorder
+    relation: connects-to
+    note: "The 'munchies' and disordered eating: cannabis stimulates appetite through CB1 signalling, and its reward and appetite effects overlap with binge-eating disorder, sharing the endocannabinoid drive behind hedonic eating."
 sources:
   - id: hasin-2015-cannabis-disorder
     type: peer-reviewed
@@ -457,6 +466,9 @@ Paradoxical syndrome in heavy long-term users: cyclic vomiting relieved by hot b
 - `connects-to` → **[Cancer Chemotherapy](../../../03-medicine/01-modern/13-cancer/cancer-chemotherapy/README.md)** — A medicinal flip-side: while heavy use defines the disorder, synthetic cannabinoids like nabilone and dronabinol are licensed antiemetics for chemotherapy-induced nausea and vomiting, exploiting CB1 receptors in the brainstem.
 - `connects-to` → **[HIV/AIDS](../hiv-aids/README.md)** — Cannabinoids stimulate appetite: dronabinol is approved for the anorexia and wasting of advanced HIV/AIDS, and cannabis use is common in this population — the appetite-promoting side of a drug otherwise misused.
 - `connects-to` → **[Obesity](../obesity/README.md)** — The endocannabinoid system and weight: CB1 signalling drives appetite and fat storage, so the same system disordered in chronic cannabis use was targeted for obesity by the CB1 blocker rimonabant, withdrawn for triggering depression and anxiety.
+- `connects-to` → **[Cardiac Conduction System](../../05-tissue/cardiac-conduction-system/README.md)** — THC strains the heart's rhythm: acute cannabis use raises heart rate and can trigger atrial and ventricular arrhythmias and even myocardial infarction in young users, a rising cause of cannabis-related cardiac events.
+- `connects-to` → **[Alveolus](../../05-tissue/alveolus/README.md)** — Smoke damages the air sacs: chronic cannabis smoking inflames the airways and can create large apical bullae that rupture as spontaneous pneumothorax, injuring the alveolar parenchyma despite cannabis's unclear link to emphysema.
+- `connects-to` → **[Binge-Eating Disorder](../binge-eating-disorder/README.md)** — The 'munchies' and disordered eating: cannabis stimulates appetite through CB1 signalling, and its reward and appetite effects overlap with binge-eating disorder, sharing the endocannabinoid drive behind hedonic eating.
 
 [^hasin-2015-cannabis-disorder]: Hasin DS, Saha TD, Kerridge BT, et al. Prevalence of marijuana use disorders in the United States between 2001-2002 and 2012-2013. *JAMA Psychiatry.* 2015;72(12):1235-1242. [doi:10.1001/jamapsychiatry.2015.1858](https://doi.org/10.1001/jamapsychiatry.2015.1858) · [PubMed 26502112](https://pubmed.ncbi.nlm.nih.gov/26502112/)
 [^budney-2004-cannabis-withdrawal]: Budney AJ, Moore BA, Vandrey RG, Hughes JR. The time course and significance of cannabis withdrawal. *J Abnorm Psychol.* 2003;112(3):393-402. [doi:10.1037/0021-843X.112.3.393](https://doi.org/10.1037/0021-843X.112.3.393) · [PubMed 12943018](https://pubmed.ncbi.nlm.nih.gov/12943018/)

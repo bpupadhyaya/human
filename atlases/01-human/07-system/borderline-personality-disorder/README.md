@@ -250,6 +250,15 @@ cross_links:
   - target: 03-medicine/03-food/omega-3-fatty-acids
     relation: connects-to
     note: "A modest adjunct: omega-3 supplementation has shown small benefits on the affective instability, impulsivity and aggression of borderline personality disorder in trials, a low-risk add-on to the psychotherapy that remains primary."
+  - target: 01-human/03-molecular/serotonin-transporter
+    relation: connects-to
+    note: "A candidate gene for its impulsivity: the serotonin-transporter promoter polymorphism (5-HTTLPR) short allele is associated with the emotional dysregulation and impulsive aggression of borderline personality disorder, and SSRIs that block this transporter offer partial relief."
+  - target: 01-human/07-system/neuropathic-pain
+    relation: connects-to
+    note: "Pain and emotion blur in it: borderline personality disorder carries high rates of chronic pain and an altered pain experience, with self-injury and disturbed endogenous-opioid signalling reshaping how bodily and emotional pain are felt."
+  - target: 01-human/07-system/atherosclerosis
+    relation: connects-to
+    note: "Chronic stress reaches the arteries: the lifelong HPA-axis activation, inflammation and adverse health behaviours of borderline personality disorder raise the risk of premature atherosclerotic cardiovascular disease."
 ---
 
 # Borderline Personality Disorder
@@ -467,6 +476,9 @@ This model directly informs DBT treatment: validate emotional experience (the bi
 - `connects-to` → **[Gambling Disorder](../gambling-disorder/README.md)** — Shared impulsivity: the impulsive, reward-seeking, self-damaging behaviour of borderline personality disorder overlaps with gambling disorder, both reflecting dysregulated reward and impulse-control circuitry and frequently co-occurring.
 - `connects-to` → **[Internet Gaming Disorder](../internet-gaming-disorder/README.md)** — Another outlet for dysregulation: excessive gaming can serve as escape and emotional regulation in borderline personality disorder, part of the broader pattern of behavioural addictions used to manage unbearable affect and emptiness.
 - `connects-to` → **[Omega-3 fatty acids](../../../03-medicine/03-food/omega-3-fatty-acids/README.md)** — A modest adjunct: omega-3 supplementation has shown small benefits on the affective instability, impulsivity and aggression of borderline personality disorder in trials, a low-risk add-on to the psychotherapy that remains primary.
+- `connects-to` → **[Serotonin Transporter](../../03-molecular/serotonin-transporter/README.md)** — A candidate gene for its impulsivity: the serotonin-transporter promoter polymorphism (5-HTTLPR) short allele is associated with the emotional dysregulation and impulsive aggression of borderline personality disorder, and SSRIs that block this transporter offer partial relief.
+- `connects-to` → **[Neuropathic Pain](../neuropathic-pain/README.md)** — Pain and emotion blur in it: borderline personality disorder carries high rates of chronic pain and an altered pain experience, with self-injury and disturbed endogenous-opioid signalling reshaping how bodily and emotional pain are felt.
+- `connects-to` → **[Atherosclerosis](../atherosclerosis/README.md)** — Chronic stress reaches the arteries: the lifelong HPA-axis activation, inflammation and adverse health behaviours of borderline personality disorder raise the risk of premature atherosclerotic cardiovascular disease.
 
 [^linehan-1993-dbt]: Linehan MM. *Cognitive-Behavioral Treatment of Borderline Personality Disorder.* Guilford; 1993. [PubMed 8192506](https://pubmed.ncbi.nlm.nih.gov/8192506/)
 [^skodol-2002-bpd-neurobiology]: Siever LJ, Davis KL. A psychobiological perspective on the personality disorders. *Am J Psychiatry.* 1991;148(12):1647-1658. [doi:10.1176/ajp.148.12.1647](https://doi.org/10.1176/ajp.148.12.1647) · [PubMed 1957927](https://pubmed.ncbi.nlm.nih.gov/1957927/)
