@@ -268,6 +268,15 @@ cross_links:
   - target: 01-human/07-system/neuropathic-pain
     relation: connects-to
     note: "When the wiring itself hurts: damage to the nervous system's own pain pathways produces neuropathic pain, a maladaptive output of an injured nervous system distinct from ordinary nociceptive pain."
+  - target: 01-human/07-system/narcolepsy
+    relation: connects-to
+    note: "Sleep is a brain state: narcolepsy is a focal nervous-system disease in which loss of hypothalamic orexin neurons destabilises the sleep-wake switch, intruding REM and cataplexy into waking life."
+  - target: 01-human/07-system/gut-microbiome
+    relation: connects-to
+    note: "The gut-brain axis: the nervous system is in constant two-way dialogue with the gut microbiome via the vagus nerve, immune signalling and microbial metabolites, shaping mood, appetite and even neurodegeneration."
+  - target: 02-pathogen/04-parasites/plasmodium-falciparum
+    relation: connects-to
+    note: "Cerebral malaria: Plasmodium falciparum sequesters in the brain's microvasculature, causing the coma and seizures of cerebral malaria—one of the deadliest infections of the nervous system worldwide."
 ---
 
 # Nervous System
@@ -387,6 +396,9 @@ Distributed cortical networks underlie language (Broca's area, Wernicke's area, 
 - `connects-to` → **[BDNF](../../03-molecular/bdnf/README.md)** — The plasticity neurotrophin: brain-derived neurotrophic factor supports neuron survival and synaptic plasticity, the molecular substrate of learning and a node where exercise, stress and antidepressants converge on the nervous system.
 - `connects-to` → **[Hippocampus](../../05-tissue/hippocampus/README.md)** — The seat of memory: the hippocampus encodes new memories and is one of the few sites of adult neurogenesis, selectively vulnerable to Alzheimer's, ischaemia and chronic stress.
 - `connects-to` → **[Neuropathic Pain](../neuropathic-pain/README.md)** — When the wiring itself hurts: damage to the nervous system's own pain pathways produces neuropathic pain, a maladaptive output of an injured nervous system distinct from ordinary nociceptive pain.
+- `connects-to` → **[Narcolepsy](../narcolepsy/README.md)** — Sleep is a brain state: narcolepsy is a focal nervous-system disease in which loss of hypothalamic orexin neurons destabilises the sleep-wake switch, intruding REM and cataplexy into waking life.
+- `connects-to` → **[Gut Microbiome](../gut-microbiome/README.md)** — The gut-brain axis: the nervous system is in constant two-way dialogue with the gut microbiome via the vagus nerve, immune signalling and microbial metabolites, shaping mood, appetite and even neurodegeneration.
+- `connects-to` → **[Plasmodium falciparum](../../../02-pathogen/04-parasites/plasmodium-falciparum/README.md)** — Cerebral malaria: Plasmodium falciparum sequesters in the brain's microvasculature, causing the coma and seizures of cerebral malaria—one of the deadliest infections of the nervous system worldwide.
 
 ## Pathology
 

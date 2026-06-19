@@ -246,6 +246,15 @@ cross_links:
   - target: 01-human/07-system/lewy-body-dementia
     relation: connects-to
     note: "Orexin and sleep across disorders: orexin loss causes narcolepsy's cataplexy and sleep instability, while synucleinopathies like Lewy body dementia disrupt orexin signalling and REM sleep in their own way."
+  - target: 01-human/07-system/covid-19-disease
+    relation: connects-to
+    note: "Another infectious trigger: just as the H1N1 pandemic and its vaccine raised narcolepsy incidence, SARS-CoV-2 has been investigated as a trigger of new hypersomnia, with post-COVID fatigue and excessive sleepiness commonly reported."
+  - target: 01-human/03-molecular/cortisol
+    relation: connects-to
+    note: "Disrupted daily rhythm: orexin neurons help drive the HPA axis, so their loss in narcolepsy flattens the normal circadian cortisol curve, contributing to the disorder's blurred boundary between sleep and wake."
+  - target: 01-human/05-tissue/hippocampus
+    relation: connects-to
+    note: "Memory and arousal: orexin neurons project to the hippocampus to support attention and memory encoding, and their loss in narcolepsy underlies the memory complaints and reported hippocampal changes seen in patients."
 sources:
   - id: scammell-2015-narcolepsy-review
     type: peer-reviewed
@@ -462,6 +471,9 @@ Cataplexy is the **pathognomonic** feature of NT1 — sudden, bilateral loss of 
 - `connects-to` → **[Gambling Disorder](../gambling-disorder/README.md)** — Stimulant-linked impulse control: the dopaminergic stimulants treating narcolepsy can unmask impulse-control behaviours such as pathological gambling, a reward-circuit overlap between the two conditions.
 - `connects-to` → **[Cardiac Conduction System](../../05-tissue/cardiac-conduction-system/README.md)** — Cardiovascular load of treatment: narcolepsy carries raised cardiovascular risk, and its stimulant treatments (modafinil, amphetamines) raise heart rate and blood pressure and can affect cardiac conduction.
 - `connects-to` → **[Lewy Body Dementia](../lewy-body-dementia/README.md)** — Orexin and sleep across disorders: orexin loss causes narcolepsy's cataplexy and sleep instability, while synucleinopathies like Lewy body dementia disrupt orexin signalling and REM sleep in their own way.
+- `connects-to` → **[COVID-19 Disease](../covid-19-disease/README.md)** — Another infectious trigger: just as the H1N1 pandemic and its vaccine raised narcolepsy incidence, SARS-CoV-2 has been investigated as a trigger of new hypersomnia, with post-COVID fatigue and excessive sleepiness commonly reported.
+- `connects-to` → **[Cortisol](../../03-molecular/cortisol/README.md)** — Disrupted daily rhythm: orexin neurons help drive the HPA axis, so their loss in narcolepsy flattens the normal circadian cortisol curve, contributing to the disorder's blurred boundary between sleep and wake.
+- `connects-to` → **[Hippocampus](../../05-tissue/hippocampus/README.md)** — Memory and arousal: orexin neurons project to the hippocampus to support attention and memory encoding, and their loss in narcolepsy underlies the memory complaints and reported hippocampal changes seen in patients.
 
 [^scammell-2015-narcolepsy-review]: Scammell TE. Narcolepsy. *N Engl J Med.* 2015;373(27):2654-2662. [doi:10.1056/NEJMra1500587](https://doi.org/10.1056/NEJMra1500587) · [PubMed 26716917](https://pubmed.ncbi.nlm.nih.gov/26716917/)
 [^dauvilliers-2007-narcolepsy-clinical]: Dauvilliers Y, Arnulf I, Mignot E. Narcolepsy with cataplexy. *Lancet.* 2007;369(9560):499-511. [doi:10.1016/S0140-6736(07)60237-2](https://doi.org/10.1016/S0140-6736(07)60237-2) · [PubMed 17292770](https://pubmed.ncbi.nlm.nih.gov/17292770/)
