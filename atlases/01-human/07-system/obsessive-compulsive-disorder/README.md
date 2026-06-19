@@ -278,6 +278,15 @@ cross_links:
   - target: 01-human/07-system/fibromyalgia
     relation: connects-to
     note: "An anxious, serotonergic overlap: obsessive-compulsive disorder commonly coexists with fibromyalgia, sharing serotonergic dysregulation and an anxiety-stress burden that both respond partly to SSRIs and SNRIs."
+  - target: 01-human/07-system/covid-19-disease
+    relation: connects-to
+    note: "Pandemic amplifier: COVID-19 worsened obsessive-compulsive disorder, especially contamination and washing subtypes, while post-infectious immune activation is among the mechanisms linking infection to OCD."
+  - target: 01-human/05-tissue/intestinal-epithelium
+    relation: connects-to
+    note: "The gut-brain axis in OCD: microbiome and intestinal-barrier signals influence the cortico-striatal circuits of obsessive-compulsive disorder, an emerging dimension of its biology beyond serotonin."
+  - target: 01-human/07-system/multiple-sclerosis
+    relation: connects-to
+    note: "Organic OCD: demyelinating lesions of multiple sclerosis in frontal and basal-ganglia circuits can produce secondary obsessive-compulsive symptoms, illustrating the cortico-striatal basis of the disorder."
 ---
 
 # Obsessive-Compulsive Disorder
@@ -489,6 +498,9 @@ OCD is often underdiagnosed due to shame and secrecy. Mean time from symptom ons
 - `connects-to` → **[Stroke](../stroke/README.md)** — Lesions reveal the circuit: strokes and other injuries to the basal ganglia and orbitofrontal cortex can produce new-onset obsessive-compulsive symptoms, mapping OCD onto cortico-striatal-thalamic circuitry.
 - `connects-to` → **[Opioid Use Disorder](../opioid-use-disorder/README.md)** — Compulsivity across disorders: obsessive-compulsive disorder and opioid use disorder share dysregulated cortico-striatal habit circuits, both marked by the shift from goal-directed to compulsive, hard-to-stop behaviour.
 - `connects-to` → **[Fibromyalgia](../fibromyalgia/README.md)** — An anxious, serotonergic overlap: obsessive-compulsive disorder commonly coexists with fibromyalgia, sharing serotonergic dysregulation and an anxiety-stress burden that both respond partly to SSRIs and SNRIs.
+- `connects-to` → **[COVID-19 Disease](../covid-19-disease/README.md)** — Pandemic amplifier: COVID-19 worsened obsessive-compulsive disorder, especially contamination and washing subtypes, while post-infectious immune activation is among the mechanisms linking infection to OCD.
+- `connects-to` → **[Intestinal Epithelium](../../05-tissue/intestinal-epithelium/README.md)** — The gut-brain axis in OCD: microbiome and intestinal-barrier signals influence the cortico-striatal circuits of obsessive-compulsive disorder, an emerging dimension of its biology beyond serotonin.
+- `connects-to` → **[Multiple Sclerosis](../multiple-sclerosis/README.md)** — Organic OCD: demyelinating lesions of multiple sclerosis in frontal and basal-ganglia circuits can produce secondary obsessive-compulsive symptoms, illustrating the cortico-striatal basis of the disorder.
 
 [^abramowitz-2009-ocd-review]: Abramowitz JS, Taylor S, McKay D. Obsessive-compulsive disorder. *Lancet.* 2009;374(9688):491-499. [doi:10.1016/S0140-6736(09)60240-3](https://doi.org/10.1016/S0140-6736(09)60240-3) · [PubMed 19665647](https://pubmed.ncbi.nlm.nih.gov/19665647/)
 [^chamberlain-2008-ocd-neuroscience]: Chamberlain SR, Menzies L, Hampshire A, et al. Orbitofrontal dysfunction in patients with OCD and their unaffected relatives. *Science.* 2008;321(5887):421-422. [doi:10.1126/science.1154433](https://doi.org/10.1126/science.1154433) · [PubMed 18635808](https://pubmed.ncbi.nlm.nih.gov/18635808/)

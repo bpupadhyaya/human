@@ -271,6 +271,15 @@ cross_links:
   - target: 01-human/07-system/multiple-myeloma
     relation: connects-to
     note: "An overlooked cancer link: obesity is an established risk factor for multiple myeloma and for the progression of its precursor MGUS, adding a haematologic malignancy to obesity's cancer toll."
+  - target: 01-human/07-system/thyroid-cancer
+    relation: connects-to
+    note: "Another obesity-linked cancer: rising body mass index raises the risk of thyroid cancer, part of obesity's broad oncogenic reach through insulin/IGF-1 signalling, sex hormones and chronic inflammation."
+  - target: 01-human/05-tissue/hepatic-lobule
+    relation: connects-to
+    note: "Fat in the liver: obesity drives triglyceride accumulation in the hepatocytes of the hepatic lobule, the steatosis that begins non-alcoholic fatty liver disease and can progress to NASH and cirrhosis."
+  - target: 01-human/05-tissue/cardiac-conduction-system
+    relation: connects-to
+    note: "Obesity and atrial fibrillation: excess adiposity—through atrial stretch, epicardial fat and inflammation—is a leading modifiable driver of atrial fibrillation, and weight loss can reduce its burden."
 ---
 
 # Obesity
@@ -495,6 +504,9 @@ This **metainflammation** mechanistically links obesity to type 2 diabetes, athe
 - `connects-to` → **[COVID-19](../covid-19-disease/README.md)** — A leading driver of severe COVID: obesity was among the strongest predictors of severe COVID-19, through impaired ventilation, a pro-inflammatory adipose milieu and underlying endothelial dysfunction.
 - `connects-to` → **[Alzheimer's Disease](../alzheimers-disease/README.md)** — Midlife adiposity and the brain: midlife obesity raises the risk of later dementia, with insulin resistance, vascular injury and chronic neuroinflammation linking excess fat to Alzheimer's disease.
 - `connects-to` → **[Multiple Myeloma](../multiple-myeloma/README.md)** — An overlooked cancer link: obesity is an established risk factor for multiple myeloma and for the progression of its precursor MGUS, adding a haematologic malignancy to obesity's cancer toll.
+- `connects-to` → **[Thyroid Cancer](../thyroid-cancer/README.md)** — Another obesity-linked cancer: rising body mass index raises the risk of thyroid cancer, part of obesity's broad oncogenic reach through insulin/IGF-1 signalling, sex hormones and chronic inflammation.
+- `connects-to` → **[Hepatic Lobule](../../05-tissue/hepatic-lobule/README.md)** — Fat in the liver: obesity drives triglyceride accumulation in the hepatocytes of the hepatic lobule, the steatosis that begins non-alcoholic fatty liver disease and can progress to NASH and cirrhosis.
+- `connects-to` → **[Cardiac Conduction System](../../05-tissue/cardiac-conduction-system/README.md)** — Obesity and atrial fibrillation: excess adiposity—through atrial stretch, epicardial fat and inflammation—is a leading modifiable driver of atrial fibrillation, and weight loss can reduce its burden.
 
 [^bluher-2019-obesity-review]: Blüher M. Obesity: global epidemiology and pathogenesis. *Nat Rev Endocrinol.* 2019;15(5):288-298. [doi:10.1038/s41574-019-0176-8](https://doi.org/10.1038/s41574-019-0176-8) · [PubMed 30814686](https://pubmed.ncbi.nlm.nih.gov/30814686/)
 [^wilding-2021-semaglutide-step1]: Wilding JPH, Batterham RL, Calanna S, et al. Once-weekly semaglutide in adults with overweight or obesity. *N Engl J Med.* 2021;384(11):989-1002. [doi:10.1056/NEJMoa2032183](https://doi.org/10.1056/NEJMoa2032183) · [PubMed 33567185](https://pubmed.ncbi.nlm.nih.gov/33567185/)
