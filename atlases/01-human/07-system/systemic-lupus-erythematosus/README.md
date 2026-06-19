@@ -268,6 +268,15 @@ cross_links:
   - target: 01-human/05-tissue/myocardium
     relation: connects-to
     note: "Lupus inflames the heart muscle: beyond Libman-Sacks endocarditis, SLE causes a myocarditis of the myocardium with reduced contractility and arrhythmia, part of its broad cardiac involvement."
+  - target: 01-human/05-tissue/cardiac-conduction-system
+    relation: connects-to
+    note: "Neonatal heart block: maternal anti-Ro/SSA antibodies in lupus cross the placenta and attack the fetal cardiac conduction system, causing congenital complete heart block in the developing heart."
+  - target: 01-human/07-system/cytokine-storm
+    relation: connects-to
+    note: "Macrophage activation syndrome: a severe lupus flare can tip into secondary haemophagocytic lymphohistiocytosis (MAS), a cytokine storm of activated macrophages with cytopenias, high ferritin and organ failure."
+  - target: 01-human/07-system/epilepsy
+    relation: connects-to
+    note: "Neuropsychiatric lupus: CNS involvement through cerebritis, antiphospholipid microthrombi and vasculitis makes seizures a recognised manifestation of SLE and a cause of secondary epilepsy."
 ---
 
 # Systemic Lupus Erythematosus
@@ -475,6 +484,9 @@ Highly polygenic disease with >100 susceptibility loci; heritability ~66%:
 - `connects-to` → **[DLBCL](../dlbcl/README.md)** — Chronic activation and lymphoma: SLE's persistent B-cell hyperactivity modestly raises the risk of non-Hodgkin lymphoma, particularly diffuse large B-cell lymphoma, on top of immunosuppression effects.
 - `connects-to` → **[Dermatomyositis](../dermatomyositis/README.md)** — Overlapping connective-tissue disease: SLE and dermatomyositis can coexist in overlap and mixed connective-tissue syndromes, sharing interferon-driven autoimmunity though they target different organs.
 - `connects-to` → **[Myocardium](../../05-tissue/myocardium/README.md)** — Lupus inflames the heart muscle: beyond Libman-Sacks endocarditis, SLE causes a myocarditis of the myocardium with reduced contractility and arrhythmia, part of its broad cardiac involvement.
+- `connects-to` → **[Cardiac Conduction System](../../05-tissue/cardiac-conduction-system/README.md)** — Neonatal heart block: maternal anti-Ro/SSA antibodies in lupus cross the placenta and attack the fetal cardiac conduction system, causing congenital complete heart block in the developing heart.
+- `connects-to` → **[Cytokine Storm](../cytokine-storm/README.md)** — Macrophage activation syndrome: a severe lupus flare can tip into secondary haemophagocytic lymphohistiocytosis (MAS), a cytokine storm of activated macrophages with cytopenias, high ferritin and organ failure.
+- `connects-to` → **[Epilepsy](../epilepsy/README.md)** — Neuropsychiatric lupus: CNS involvement through cerebritis, antiphospholipid microthrombi and vasculitis makes seizures a recognised manifestation of SLE and a cause of secondary epilepsy.
 
 [^tsokos-2011-sle-review]: Tsokos GC. Systemic lupus erythematosus. *N Engl J Med.* 2011;365(22):2110-2121. [doi:10.1056/NEJMra1100359](https://doi.org/10.1056/NEJMra1100359) · [PubMed 22129253](https://pubmed.ncbi.nlm.nih.gov/22129253/)
 [^furie-2011-belimumab]: Furie R, Petri M, Zamani O, et al. A phase III, randomized, placebo-controlled study of belimumab, a monoclonal antibody that inhibits B lymphocyte stimulator, in patients with systemic lupus erythematosus. *Arthritis Rheum.* 2011;63(12):3918-3930. [doi:10.1002/art.30613](https://doi.org/10.1002/art.30613) · [PubMed 22127708](https://pubmed.ncbi.nlm.nih.gov/22127708/)

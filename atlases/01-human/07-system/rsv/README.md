@@ -264,6 +264,15 @@ cross_links:
   - target: 01-human/07-system/epilepsy
     relation: connects-to
     note: "Neurological complications: severe RSV in infants can cause apnoea, seizures and encephalopathy, occasionally leaving lasting neurological sequelae beyond the airway disease itself."
+  - target: 01-human/07-system/gut-microbiome
+    relation: connects-to
+    note: "Microbiome shapes the response: the early-life airway and gut microbiome modulate the severity of RSV bronchiolitis and the subsequent risk of asthma, with dysbiosis tilting the immune response toward worse disease."
+  - target: 01-human/07-system/sickle-cell-disease
+    relation: connects-to
+    note: "Acute chest syndrome trigger: RSV and other respiratory viruses precipitate acute chest syndrome in sickle cell disease, a leading cause of death, so viral lower-respiratory infection is especially dangerous in SCD."
+  - target: 01-human/05-tissue/fibrosis
+    relation: connects-to
+    note: "Post-viral airway scarring: severe RSV bronchiolitis can lead to bronchiolitis obliterans, where fibrosis narrows and obliterates the small airways long after the infection clears."
 ---
 
 # RSV
@@ -490,3 +499,6 @@ Radiological findings: Hyperinflation, peribronchial thickening, occasional atel
 - `connects-to` → **[Atopic Dermatitis](../atopic-dermatitis/README.md)** — Early infection and the atopic march: severe infant RSV bronchiolitis is linked to later recurrent wheeze and asthma within the broader atopic march that begins with atopic dermatitis.
 - `connects-to` → **[Cytokine Storm](../cytokine-storm/README.md)** — Inflammation injures the lung: severe RSV bronchiolitis and pneumonia drive an exaggerated cytokine response that, like other cytokine storms, damages airways and alveoli beyond direct viral cytopathic effect.
 - `connects-to` → **[Epilepsy](../epilepsy/README.md)** — Neurological complications: severe RSV in infants can cause apnoea, seizures and encephalopathy, occasionally leaving lasting neurological sequelae beyond the airway disease itself.
+- `connects-to` → **[Gut Microbiome](../gut-microbiome/README.md)** — Microbiome shapes the response: the early-life airway and gut microbiome modulate the severity of RSV bronchiolitis and the subsequent risk of asthma, with dysbiosis tilting the immune response toward worse disease.
+- `connects-to` → **[Sickle Cell Disease](../sickle-cell-disease/README.md)** — Acute chest syndrome trigger: RSV and other respiratory viruses precipitate acute chest syndrome in sickle cell disease, a leading cause of death, so viral lower-respiratory infection is especially dangerous in SCD.
+- `connects-to` → **[Fibrosis](../../05-tissue/fibrosis/README.md)** — Post-viral airway scarring: severe RSV bronchiolitis can lead to bronchiolitis obliterans, where fibrosis narrows and obliterates the small airways long after the infection clears.
