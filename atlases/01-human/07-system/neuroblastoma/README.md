@@ -259,6 +259,15 @@ cross_links:
   - target: 01-human/07-system/rhabdomyosarcoma
     relation: connects-to
     note: "A small-round-blue-cell mimic: neuroblastoma joins rhabdomyosarcoma, Ewing sarcoma and lymphoma in the childhood small-round-blue-cell differential, distinguished by neuroendocrine markers and urinary catecholamines."
+  - target: 01-human/07-system/nsclc
+    relation: connects-to
+    note: "A shared druggable driver: ALK rearrangements in lung cancer and activating ALK mutations in neuroblastoma make the same kinase targetable in both, so ALK inhibitors like lorlatinib cross from adult NSCLC into paediatric neuroblastoma."
+  - target: 01-human/07-system/aml
+    relation: connects-to
+    note: "Therapy-related leukaemia: the high-dose alkylator chemotherapy and stem-cell transplant used for high-risk neuroblastoma damage the marrow, occasionally causing secondary myelodysplasia and acute myeloid leukaemia in survivors."
+  - target: 01-human/05-tissue/myocardium
+    relation: connects-to
+    note: "Cardiotoxic survivorship: anthracyclines in high-risk neuroblastoma regimens injure the myocardium, leaving childhood survivors at lifelong risk of cardiomyopathy and heart failure decades later."
 ---
 
 # Neuroblastoma
@@ -476,6 +485,9 @@ Stage MS (metastatic, <18 months, skin/liver/bone marrow only, MYCN wild-type): 
 - `connects-to` → **[Hepatic Lobule](../../05-tissue/hepatic-lobule/README.md)** — Stage 4S liver disease: in infant 4S neuroblastoma, tumour floods the hepatic lobule causing massive hepatomegaly that can spontaneously regress—a behaviour unique among cancers.
 - `connects-to` → **[Retinoblastoma](../retinoblastoma/README.md)** — Two infant cancers, opposite genetics: neuroblastoma (MYCN amplification, an oncogene) and retinoblastoma (RB1 loss, a tumour suppressor) are both classic tumours of infancy from contrasting molecular routes.
 - `connects-to` → **[Rhabdomyosarcoma](../rhabdomyosarcoma/README.md)** — A small-round-blue-cell mimic: neuroblastoma joins rhabdomyosarcoma, Ewing sarcoma and lymphoma in the childhood small-round-blue-cell differential, distinguished by neuroendocrine markers and urinary catecholamines.
+- `connects-to` → **[NSCLC](../nsclc/README.md)** — A shared druggable driver: ALK rearrangements in lung cancer and activating ALK mutations in neuroblastoma make the same kinase targetable in both, so ALK inhibitors like lorlatinib cross from adult NSCLC into paediatric neuroblastoma.
+- `connects-to` → **[AML](../aml/README.md)** — Therapy-related leukaemia: the high-dose alkylator chemotherapy and stem-cell transplant used for high-risk neuroblastoma damage the marrow, occasionally causing secondary myelodysplasia and acute myeloid leukaemia in survivors.
+- `connects-to` → **[Myocardium](../../05-tissue/myocardium/README.md)** — Cardiotoxic survivorship: anthracyclines in high-risk neuroblastoma regimens injure the myocardium, leaving childhood survivors at lifelong risk of cardiomyopathy and heart failure decades later.
 
 [^yu-2010-dinutuximab-nb]: Yu AL, Gilman AL, Ozkaynak MF, et al. Anti-GD2 antibody with GM-CSF, interleukin-2, and isotretinoin for neuroblastoma. *N Engl J Med.* 2010;363(14):1324-1334. [doi:10.1056/NEJMoa0911123](https://doi.org/10.1056/NEJMoa0911123) · [PubMed 20879881](https://pubmed.ncbi.nlm.nih.gov/20879881/)
 [^park-2019-tandem-sct-nb]: Park JR, Kreissman SG, London WB, et al. Effect of tandem autologous stem cell transplant vs single transplant on event-free survival in patients with high-risk neuroblastoma: a randomized clinical trial. *JAMA.* 2019;322(8):746-755. [doi:10.1001/jama.2019.11642](https://doi.org/10.1001/jama.2019.11642) · [PubMed 31454023](https://pubmed.ncbi.nlm.nih.gov/31454023/)

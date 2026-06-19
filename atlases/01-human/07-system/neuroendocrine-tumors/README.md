@@ -259,6 +259,15 @@ cross_links:
   - target: 01-human/05-tissue/alveolus
     relation: connects-to
     note: "Bronchial carcinoid: a well-differentiated lung neuroendocrine tumour arises in the airway and alveolar region, the indolent end of pulmonary neuroendocrine neoplasia distinct from small-cell carcinoma."
+  - target: 01-human/07-system/pancreatic-cancer
+    relation: connects-to
+    note: "Two pancreatic tumours, opposite outlooks: well-differentiated pancreatic neuroendocrine tumours are far more indolent and treatable than pancreatic ductal adenocarcinoma, making their distinction one of the most consequential in oncology."
+  - target: 01-human/07-system/gastric-cancer
+    relation: connects-to
+    note: "Gastric carcinoids: ECL-cell neuroendocrine tumours of the stomach (types 1-2 driven by hypergastrinaemia) are a distinct entity from gastric adenocarcinoma, with different drivers, behaviour and management."
+  - target: 01-human/05-tissue/intestinal-epithelium
+    relation: connects-to
+    note: "The carcinoid cell of origin: midgut carcinoids arise from enterochromaffin cells scattered through the intestinal epithelium, the serotonin-secreting source whose liver metastases produce carcinoid syndrome."
 ---
 
 # Neuroendocrine Tumors
@@ -444,6 +453,9 @@ Treatment identical to SCLC: cisplatin (or carboplatin) + etoposide (4-6 cycles)
 - `connects-to` → **[Hepatic Lobule](../../05-tissue/hepatic-lobule/README.md)** — Liver metastases drive carcinoid syndrome: midgut NETs spread to the hepatic lobule, and only when their serotonin bypasses hepatic first-pass clearance—via liver metastases draining to systemic veins—do flushing and diarrhoea appear.
 - `connects-to` → **[Thyroid Cancer](../thyroid-cancer/README.md)** — Medullary thyroid carcinoma is a NET: arising from calcitonin-secreting C cells and driven by RET, MTC is a neuroendocrine tumour, linking the NET family to the thyroid.
 - `connects-to` → **[Alveolus](../../05-tissue/alveolus/README.md)** — Bronchial carcinoid: a well-differentiated lung neuroendocrine tumour arises in the airway and alveolar region, the indolent end of pulmonary neuroendocrine neoplasia distinct from small-cell carcinoma.
+- `connects-to` → **[Pancreatic Cancer](../pancreatic-cancer/README.md)** — Two pancreatic tumours, opposite outlooks: well-differentiated pancreatic neuroendocrine tumours are far more indolent and treatable than pancreatic ductal adenocarcinoma, making their distinction one of the most consequential in oncology.
+- `connects-to` → **[Gastric Cancer](../gastric-cancer/README.md)** — Gastric carcinoids: ECL-cell neuroendocrine tumours of the stomach (types 1-2 driven by hypergastrinaemia) are a distinct entity from gastric adenocarcinoma, with different drivers, behaviour and management.
+- `connects-to` → **[Intestinal Epithelium](../../05-tissue/intestinal-epithelium/README.md)** — The carcinoid cell of origin: midgut carcinoids arise from enterochromaffin cells scattered through the intestinal epithelium, the serotonin-secreting source whose liver metastases produce carcinoid syndrome.
 
 [^yao-2011-radiant3]: Yao JC, Shah MH, Ito T, et al. Everolimus for advanced pancreatic neuroendocrine tumors. *N Engl J Med.* 2011;364(6):514-523. [doi:10.1056/NEJMoa1009290](https://doi.org/10.1056/NEJMoa1009290) · [PubMed 21306237](https://pubmed.ncbi.nlm.nih.gov/21306237/)
 [^raymond-2011-sunitinib-pnet]: Raymond E, Dahan L, Raoul JL, et al. Sunitinib malate for the treatment of pancreatic neuroendocrine tumors. *N Engl J Med.* 2011;364(6):501-513. [doi:10.1056/NEJMoa1003825](https://doi.org/10.1056/NEJMoa1003825) · [PubMed 21306236](https://pubmed.ncbi.nlm.nih.gov/21306236/)
