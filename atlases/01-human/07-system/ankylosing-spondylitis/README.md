@@ -268,6 +268,15 @@ cross_links:
   - target: 01-human/05-tissue/glomerulus
     relation: connects-to
     note: "Secondary amyloidosis: decades of uncontrolled inflammation in ankylosing spondylitis can deposit AA amyloid in the glomerulus, causing proteinuria and renal failure—now rare in the biologic era."
+  - target: 01-human/05-tissue/endocardium
+    relation: connects-to
+    note: "Aortitis and valve disease: ankylosing spondylitis inflames the aortic root and valve, causing aortic regurgitation and scarring of the endocardium alongside the conduction-system disease it is better known for."
+  - target: 02-pathogen/03-fungi/aspergillus-fumigatus
+    relation: connects-to
+    note: "Apical fibrobullous disease: the upper lobes in long-standing ankylosing spondylitis develop fibrocavitary change that can become colonised by Aspergillus, forming an aspergilloma within the cavity."
+  - target: 01-human/05-tissue/peripheral-nerve
+    relation: connects-to
+    note: "Cauda equina syndrome: a rare late complication of ankylosing spondylitis is arachnoiditis and dural ectasia in the rigid lumbar spine that compresses the cauda equina nerve roots, causing bladder, bowel and leg dysfunction."
 ---
 
 # Ankylosing Spondylitis
@@ -460,6 +469,9 @@ AS originates at the **enthesis** — the site where tendons, ligaments, and joi
 - `connects-to` → **[Cardiac Conduction System](../../05-tissue/cardiac-conduction-system/README.md)** — Conduction disease and aortitis: ankylosing spondylitis inflames the aortic root and the cardiac conduction system, causing aortic regurgitation and atrioventricular block independent of atherosclerosis.
 - `connects-to` → **[Alveolus](../../05-tissue/alveolus/README.md)** — Apical lung fibrosis: long-standing ankylosing spondylitis produces upper-lobe fibrobullous disease in the alveoli, restricting an already rigid, fused thoracic cage and risking secondary aspergillus colonisation.
 - `connects-to` → **[Glomerulus](../../05-tissue/glomerulus/README.md)** — Secondary amyloidosis: decades of uncontrolled inflammation in ankylosing spondylitis can deposit AA amyloid in the glomerulus, causing proteinuria and renal failure—now rare in the biologic era.
+- `connects-to` → **[Endocardium](../../05-tissue/endocardium/README.md)** — Aortitis and valve disease: ankylosing spondylitis inflames the aortic root and valve, causing aortic regurgitation and scarring of the endocardium alongside the conduction-system disease it is better known for.
+- `connects-to` → **[Aspergillus fumigatus](../../../02-pathogen/03-fungi/aspergillus-fumigatus/README.md)** — Apical fibrobullous disease: the upper lobes in long-standing ankylosing spondylitis develop fibrocavitary change that can become colonised by Aspergillus, forming an aspergilloma within the cavity.
+- `connects-to` → **[Peripheral Nerve](../../05-tissue/peripheral-nerve/README.md)** — Cauda equina syndrome: a rare late complication of ankylosing spondylitis is arachnoiditis and dural ectasia in the rigid lumbar spine that compresses the cauda equina nerve roots, causing bladder, bowel and leg dysfunction.
 
 [^sieper-2015-ankylosing-spondylitis-review]: Sieper J, Poddubnyy D. Ankylosing spondylitis. *Lancet.* 2017;390(10089):73-84. [doi:10.1016/S0140-6736(16)31591-4](https://doi.org/10.1016/S0140-6736(16)31591-4) · [PubMed 28110981](https://pubmed.ncbi.nlm.nih.gov/28110981/)
 [^baeten-2015-secukinumab-as]: Baeten D, Sieper J, Braun J, et al. Secukinumab, an Interleukin-17A Inhibitor, in Ankylosing Spondylitis. *N Engl J Med.* 2015;373(26):2534-2548. [doi:10.1056/NEJMoa1505066](https://doi.org/10.1056/NEJMoa1505066) · [PubMed 26699169](https://pubmed.ncbi.nlm.nih.gov/26699169/)

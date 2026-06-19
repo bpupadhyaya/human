@@ -268,6 +268,15 @@ cross_links:
   - target: 02-pathogen/01-viruses/sars-cov-2
     relation: connects-to
     note: "A surprising non-risk: well-controlled type-2-high allergic asthma did not raise COVID-19 severity—inhaled corticosteroids and lower airway ACE2 expression may even protect—unlike most other chronic lung diseases."
+  - target: 01-human/07-system/covid-19-disease
+    relation: connects-to
+    note: "Clinical interplay: although type-2 asthma did not worsen COVID-19, severe COVID can present with wheeze and bronchospasm, and the pandemic reshaped asthma care toward inhaled-steroid maintenance and remote monitoring."
+  - target: 01-human/05-tissue/peripheral-nerve
+    relation: connects-to
+    note: "Neural control of the airway: vagal cholinergic tone drives bronchoconstriction (the target of anticholinergics like tiotropium), and sensory-nerve neurogenic inflammation amplifies the airway hyperresponsiveness of asthma."
+  - target: 01-human/03-molecular/surfactant
+    relation: connects-to
+    note: "Surfactant in small-airway closure: airway surfactant becomes dysfunctional in asthma, contributing to the mucus plugging and small-airway collapse that drive severe and fatal attacks."
 ---
 
 # Asthma
@@ -460,6 +469,9 @@ Asthma affects approximately **339 million people worldwide** (WHO 2019) and is 
 - `connects-to` → **[Germinal Center](../../05-tissue/germinal-center/README.md)** — Allergic sensitisation: the allergen-specific IgE that drives allergic asthma is class-switched by B cells in germinal centres, under IL-4/IL-13 and follicular helper T-cell help.
 - `connects-to` → **[Bone Marrow](../../05-tissue/bone-marrow/README.md)** — The eosinophil supply line: allergic asthma's IL-5 drives eosinophil production in the bone marrow, and anti-IL-5 biologics like mepolizumab cut off this source to control eosinophilic asthma.
 - `connects-to` → **[SARS-CoV-2](../../../02-pathogen/01-viruses/sars-cov-2/README.md)** — A surprising non-risk: well-controlled type-2-high allergic asthma did not raise COVID-19 severity—inhaled corticosteroids and lower airway ACE2 expression may even protect—unlike most other chronic lung diseases.
+- `connects-to` → **[COVID-19 Disease](../covid-19-disease/README.md)** — Clinical interplay: although type-2 asthma did not worsen COVID-19, severe COVID can present with wheeze and bronchospasm, and the pandemic reshaped asthma care toward inhaled-steroid maintenance and remote monitoring.
+- `connects-to` → **[Peripheral Nerve](../../05-tissue/peripheral-nerve/README.md)** — Neural control of the airway: vagal cholinergic tone drives bronchoconstriction (the target of anticholinergics like tiotropium), and sensory-nerve neurogenic inflammation amplifies the airway hyperresponsiveness of asthma.
+- `connects-to` → **[Surfactant](../../03-molecular/surfactant/README.md)** — Surfactant in small-airway closure: airway surfactant becomes dysfunctional in asthma, contributing to the mucus plugging and small-airway collapse that drive severe and fatal attacks.
 
 [^gina-2023-asthma]: Global Initiative for Asthma. Global Strategy for Asthma Management and Prevention. 2023. [ginasthma.org](https://ginasthma.org/2023-gina-main-report/)
 [^wenzel-2012-asthma-phenotypes]: Wenzel SE. Asthma phenotypes: the evolution from clinical to molecular approaches. *Nat Med.* 2012;18(5):716-725. [doi:10.1038/nm.2678](https://doi.org/10.1038/nm.2678) · [PubMed 22561835](https://pubmed.ncbi.nlm.nih.gov/22561835/)
