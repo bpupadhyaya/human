@@ -259,6 +259,15 @@ cross_links:
   - target: 01-human/07-system/ptcl
     relation: connects-to
     note: "Shared epigenetic mutations across lineages: angioimmunoblastic T-cell lymphoma carries the same TET2, DNMT3A and IDH2 mutations as AML, sometimes arising from a common clonal-haematopoiesis precursor in blood and lymph node."
+  - target: 01-human/07-system/breast-cancer
+    relation: connects-to
+    note: "Therapy-related AML: the alkylators and topoisomerase-II inhibitors used to cure solid tumours like breast cancer can seed a secondary, poor-prognosis AML years later—a dark side of cytotoxic chemotherapy."
+  - target: 01-human/05-tissue/alveolus
+    relation: connects-to
+    note: "Pulmonary leukostasis: in hyperleukocytic AML, blast cells plug the alveolar capillaries, causing acute hypoxaemic respiratory failure—a haematologic emergency needing urgent cytoreduction."
+  - target: 01-human/05-tissue/glomerulus
+    relation: connects-to
+    note: "Tumour-lysis nephropathy: the rapid blast turnover of AML induction floods the blood with urate and phosphate that precipitate in the kidney, injuring the glomerulus and tubules into acute kidney injury."
 ---
 
 # AML
@@ -450,6 +459,9 @@ AML requires cooperative mutations in at least 2 functional categories (Gillilan
 - `connects-to` → **[CMML](../cmml/README.md)** — A pre-leukaemic myeloid neighbour: chronic myelomonocytic leukaemia, a myelodysplastic/myeloproliferative overlap, frequently transforms into AML and shares its TET2, ASXL1 and SRSF2 epigenetic mutations.
 - `connects-to` → **[Myocardium](../../05-tissue/myocardium/README.md)** — Its cure can scar the heart: anthracyclines like daunorubicin, central to AML induction, are cardiotoxic and damage the myocardium dose-dependently, leaving cardiomyopathy and heart failure as late effects in survivors.
 - `connects-to` → **[PTCL](../ptcl/README.md)** — Shared epigenetic mutations across lineages: angioimmunoblastic T-cell lymphoma carries the same TET2, DNMT3A and IDH2 mutations as AML, sometimes arising from a common clonal-haematopoiesis precursor in blood and lymph node.
+- `connects-to` → **[Breast Cancer](../breast-cancer/README.md)** — Therapy-related AML: the alkylators and topoisomerase-II inhibitors used to cure solid tumours like breast cancer can seed a secondary, poor-prognosis AML years later—a dark side of cytotoxic chemotherapy.
+- `connects-to` → **[Alveolus](../../05-tissue/alveolus/README.md)** — Pulmonary leukostasis: in hyperleukocytic AML, blast cells plug the alveolar capillaries, causing acute hypoxaemic respiratory failure—a haematologic emergency needing urgent cytoreduction.
+- `connects-to` → **[Glomerulus](../../05-tissue/glomerulus/README.md)** — Tumour-lysis nephropathy: the rapid blast turnover of AML induction floods the blood with urate and phosphate that precipitate in the kidney, injuring the glomerulus and tubules into acute kidney injury.
 
 [^dinardo-2020-viale-a]: DiNardo CD, Jonas BA, Pullarkat V, et al. Azacitidine and venetoclax in previously untreated acute myeloid leukemia. *N Engl J Med.* 2020;383(7):617-629. [doi:10.1056/NEJMoa2012971](https://doi.org/10.1056/NEJMoa2012971) · [PubMed 32786187](https://pubmed.ncbi.nlm.nih.gov/32786187/)
 [^stone-2017-midostaurin]: Stone RM, Mandrekar SJ, Sanford BL, et al. Midostaurin plus chemotherapy for acute myeloid leukemia with a FLT3 mutation. *N Engl J Med.* 2017;377(5):454-464. [doi:10.1056/NEJMoa1614359](https://doi.org/10.1056/NEJMoa1614359) · [PubMed 28644114](https://pubmed.ncbi.nlm.nih.gov/28644114/)

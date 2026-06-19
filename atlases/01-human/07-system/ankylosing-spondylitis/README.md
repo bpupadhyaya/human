@@ -259,6 +259,15 @@ cross_links:
   - target: 01-human/07-system/fibromyalgia
     relation: connects-to
     note: "A confounding comorbidity: fibromyalgia is common in ankylosing spondylitis and inflates composite disease-activity scores with widespread pain, so distinguishing it from active inflammation guides whether to escalate biologics."
+  - target: 01-human/05-tissue/cardiac-conduction-system
+    relation: connects-to
+    note: "Conduction disease and aortitis: ankylosing spondylitis inflames the aortic root and the cardiac conduction system, causing aortic regurgitation and atrioventricular block independent of atherosclerosis."
+  - target: 01-human/05-tissue/alveolus
+    relation: connects-to
+    note: "Apical lung fibrosis: long-standing ankylosing spondylitis produces upper-lobe fibrobullous disease in the alveoli, restricting an already rigid, fused thoracic cage and risking secondary aspergillus colonisation."
+  - target: 01-human/05-tissue/glomerulus
+    relation: connects-to
+    note: "Secondary amyloidosis: decades of uncontrolled inflammation in ankylosing spondylitis can deposit AA amyloid in the glomerulus, causing proteinuria and renal failure—now rare in the biologic era."
 ---
 
 # Ankylosing Spondylitis
@@ -448,6 +457,9 @@ AS originates at the **enthesis** — the site where tendons, ligaments, and joi
 - `connects-to` → **[Multiple Sclerosis](../multiple-sclerosis/README.md)** — A caution for its TNF blockers: the anti-TNF biologics central to ankylosing spondylitis can unmask or worsen demyelination, so multiple sclerosis contraindicates them—one cytokine blockade easing the spine yet harming nerves.
 - `connects-to` → **[Intestinal Epithelium](../../05-tissue/intestinal-epithelium/README.md)** — A gut-joint axis: most people with ankylosing spondylitis have subclinical inflammation of the intestinal epithelium, and the same IL-23/IL-17 mucosal immunity links the gut microbiome to the inflamed spine.
 - `connects-to` → **[Fibromyalgia](../fibromyalgia/README.md)** — A confounding comorbidity: fibromyalgia is common in ankylosing spondylitis and inflates composite disease-activity scores with widespread pain, so distinguishing it from active inflammation guides whether to escalate biologics.
+- `connects-to` → **[Cardiac Conduction System](../../05-tissue/cardiac-conduction-system/README.md)** — Conduction disease and aortitis: ankylosing spondylitis inflames the aortic root and the cardiac conduction system, causing aortic regurgitation and atrioventricular block independent of atherosclerosis.
+- `connects-to` → **[Alveolus](../../05-tissue/alveolus/README.md)** — Apical lung fibrosis: long-standing ankylosing spondylitis produces upper-lobe fibrobullous disease in the alveoli, restricting an already rigid, fused thoracic cage and risking secondary aspergillus colonisation.
+- `connects-to` → **[Glomerulus](../../05-tissue/glomerulus/README.md)** — Secondary amyloidosis: decades of uncontrolled inflammation in ankylosing spondylitis can deposit AA amyloid in the glomerulus, causing proteinuria and renal failure—now rare in the biologic era.
 
 [^sieper-2015-ankylosing-spondylitis-review]: Sieper J, Poddubnyy D. Ankylosing spondylitis. *Lancet.* 2017;390(10089):73-84. [doi:10.1016/S0140-6736(16)31591-4](https://doi.org/10.1016/S0140-6736(16)31591-4) · [PubMed 28110981](https://pubmed.ncbi.nlm.nih.gov/28110981/)
 [^baeten-2015-secukinumab-as]: Baeten D, Sieper J, Braun J, et al. Secukinumab, an Interleukin-17A Inhibitor, in Ankylosing Spondylitis. *N Engl J Med.* 2015;373(26):2534-2548. [doi:10.1056/NEJMoa1505066](https://doi.org/10.1056/NEJMoa1505066) · [PubMed 26699169](https://pubmed.ncbi.nlm.nih.gov/26699169/)
