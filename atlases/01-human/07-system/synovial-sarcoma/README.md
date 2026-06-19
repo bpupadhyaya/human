@@ -268,6 +268,15 @@ cross_links:
   - target: 01-human/05-tissue/peripheral-nerve
     relation: connects-to
     note: "A spindle-cell mimic near nerves: synovial sarcoma often arises beside nerves and shares a monophasic spindle-cell pattern with MPNST, the two sitting in the differential of a paraneural soft-tissue mass."
+  - target: 01-human/03-molecular/myc
+    relation: connects-to
+    note: "Fusion-driven oncogene: the SS18-SSX fusion retargets the BAF complex and activates MYC, driving the proliferation of synovial sarcoma."
+  - target: 01-human/03-molecular/cyclin-d1
+    relation: connects-to
+    note: "Cell-cycle drive: cyclin D1 upregulation, with CDKN2A loss, propels synovial sarcoma cells through the cell cycle, supporting CDK4/6-directed strategies."
+  - target: 01-human/03-molecular/yap1
+    relation: connects-to
+    note: "Hippo activation: nuclear YAP from deregulated Hippo signalling contributes to synovial sarcoma growth and its mesenchymal phenotype."
 ---
 
 # Synovial Sarcoma
@@ -477,6 +486,9 @@ SS has low TMB (~1-2 mut/Mb) and variable PD-L1 expression; ICB response rates ~
 - `connects-to` → **[Melanoma](../melanoma/README.md)** — A shared cancer-testis target: synovial sarcoma and melanoma both express NY-ESO-1, and engineered TCR T-cell therapy against it (afami-cel) won its first approval in synovial sarcoma after melanoma trials paved the way.
 - `connects-to` → **[Cortical Bone](../../05-tissue/cortical-bone/README.md)** — Juxta-articular invasion: arising near joints in the limbs, synovial sarcoma can erode adjacent cortical bone and metastasise to the skeleton, shaping the extent of limb-salvage surgery.
 - `connects-to` → **[Peripheral Nerve](../../05-tissue/peripheral-nerve/README.md)** — A spindle-cell mimic near nerves: synovial sarcoma often arises beside nerves and shares a monophasic spindle-cell pattern with MPNST, the two sitting in the differential of a paraneural soft-tissue mass.
+- `connects-to` → **[MYC](../../03-molecular/myc/README.md)** — Fusion-driven oncogene: the SS18-SSX fusion retargets the BAF complex and activates MYC, driving the proliferation of synovial sarcoma.
+- `connects-to` → **[Cyclin D1](../../03-molecular/cyclin-d1/README.md)** — Cell-cycle drive: cyclin D1 upregulation, with CDKN2A loss, propels synovial sarcoma cells through the cell cycle, supporting CDK4/6-directed strategies.
+- `connects-to` → **[YAP1](../../03-molecular/yap1/README.md)** — Hippo activation: nuclear YAP from deregulated Hippo signalling contributes to synovial sarcoma growth and its mesenchymal phenotype.
 
 ---
 
