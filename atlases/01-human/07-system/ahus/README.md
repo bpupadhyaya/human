@@ -262,6 +262,15 @@ cross_links:
   - target: 01-human/05-tissue/alveolus
     relation: connects-to
     note: "It is not only renal: although aHUS is a renal-predominant thrombotic microangiopathy, uncontrolled complement can also injure the pulmonary alveolar-capillary bed, causing extrarenal lung involvement in severe disease."
+  - target: 01-human/07-system/myasthenia-gravis
+    relation: connects-to
+    note: "A complement-therapy bridge: the anti-C5 drugs (eculizumab, ravulizumab) that control aHUS also treat complement-mediated diseases like myasthenia gravis, the same terminal pathway behind very different illnesses."
+  - target: 01-human/07-system/iga-nephropathy
+    relation: connects-to
+    note: "Complement in the glomerulus: aHUS and IgA nephropathy both involve alternative-complement dysregulation injuring the glomerulus, and C5- and factor-B-targeted inhibitors are now used or trialled in both."
+  - target: 01-human/06-organ/skin
+    relation: connects-to
+    note: "Systemic, not only renal: as a complement-driven thrombotic microangiopathy, aHUS can also injure the skin and gut with the same microthrombi, causing digital ischaemia and extrarenal organ damage in severe disease."
 ---
 
 # Atypical HUS
@@ -505,6 +514,9 @@ Repeated TMA episodes → glomerular fibrosis → CKD → ESRD
 - `connects-to` → **[Inherited Thrombophilia](../inherited-thrombophilia/README.md)** — Complement versus coagulation thrombosis: atypical haemolytic uraemic syndrome thromboses the microvasculature through uncontrolled complement, contrasting with the coagulation-factor defects of inherited thrombophilia—two genetic routes to clotting.
 - `connects-to` → **[COVID-19 Disease](../covid-19-disease/README.md)** — A virus that can trigger it: severe COVID-19 activates complement and injures the endothelium, precipitating a thrombotic microangiopathy resembling aHUS in susceptible patients.
 - `connects-to` → **[Alveolus](../../05-tissue/alveolus/README.md)** — It is not only renal: although aHUS is a renal-predominant thrombotic microangiopathy, uncontrolled complement can also injure the pulmonary alveolar-capillary bed, causing extrarenal lung involvement in severe disease.
+- `connects-to` → **[Myasthenia Gravis](../myasthenia-gravis/README.md)** — A complement-therapy bridge: the anti-C5 drugs (eculizumab, ravulizumab) that control aHUS also treat complement-mediated diseases like myasthenia gravis, the same terminal pathway behind very different illnesses.
+- `connects-to` → **[IgA Nephropathy](../iga-nephropathy/README.md)** — Complement in the glomerulus: aHUS and IgA nephropathy both involve alternative-complement dysregulation injuring the glomerulus, and C5- and factor-B-targeted inhibitors are now used or trialled in both.
+- `connects-to` → **[Skin](../../06-organ/skin/README.md)** — Systemic, not only renal: as a complement-driven thrombotic microangiopathy, aHUS can also injure the skin and gut with the same microthrombi, causing digital ischaemia and extrarenal organ damage in severe disease.
 
 [^fakhouri-2017-ahus-lancet]: Fakhouri F, Zuber J, Frémeaux-Bacchi V, Loirat C. Haemolytic uraemic syndrome. *Lancet.* 2017;390(10095):681-696. [doi:10.1016/S0140-6736(17)30062-4](https://doi.org/10.1016/S0140-6736(17)30062-4) · [PubMed 28242109](https://pubmed.ncbi.nlm.nih.gov/28242109/)
 [^legendre-2013-eculizumab-ahus-nejm]: Legendre CM, Licht C, Muus P, et al. Terminal complement inhibitor eculizumab in atypical hemolytic-uremic syndrome. *N Engl J Med.* 2013;368(23):2169-2181. [doi:10.1056/NEJMoa1208981](https://doi.org/10.1056/NEJMoa1208981) · [PubMed 23738544](https://pubmed.ncbi.nlm.nih.gov/23738544/)

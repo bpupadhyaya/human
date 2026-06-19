@@ -258,6 +258,15 @@ cross_links:
   - target: 01-human/07-system/psoriasis
     relation: connects-to
     note: "A shared type-I-interferon signature: Aicardi-Goutières is the prototype interferonopathy with constitutive type-I-IFN, the same plasmacytoid-dendritic-cell IFN axis that helps initiate psoriasis—linking a brain disease to a skin one."
+  - target: 01-human/07-system/rheumatoid-arthritis
+    relation: connects-to
+    note: "JAK inhibition across diseases: the JAK inhibitors (baricitinib) that calm the type-I-interferon storm of Aicardi-Goutières also treat rheumatoid arthritis, a pharmacologic bridge from a monogenic to a common autoimmune disease."
+  - target: 01-human/05-tissue/germinal-center
+    relation: connects-to
+    note: "Innate disease, adaptive autoantibodies: though driven by innate type-I-interferon, Aicardi-Goutières often shows lupus-like autoantibodies arising from germinal-centre B-cell activation, blurring innate and adaptive autoimmunity."
+  - target: 01-human/05-tissue/cortical-bone
+    relation: connects-to
+    note: "Interferon reaches the skeleton: the related interferonopathy SPENCD (spondyloenchondrodysplasia) couples an AGS-like type-I-IFN signature with metaphyseal and vertebral lesions of cortical bone, tying innate immunity to the skeleton."
 ---
 
 # Aicardi-Goutières Syndrome
@@ -432,6 +441,9 @@ Severe early-onset AGS (TREX1 homozygous, RNASEH2A): death in childhood from res
 - `connects-to` → **[Glomerulus](../../05-tissue/glomerulus/README.md)** — An SLE-like kidney overlap: as a monogenic type-I-interferonopathy that mimics lupus, Aicardi-Goutières (especially SAMHD1) can deposit immune complexes in the glomerulus, causing a lupus-like nephritis.
 - `connects-to` → **[Hepatic Lobule](../../05-tissue/hepatic-lobule/README.md)** — It mimics congenital infection in the liver: neonatal Aicardi-Goutières causes hepatosplenomegaly and a hepatitis with raised transaminases that imitate congenital CMV or toxoplasmosis, inflaming the hepatic lobule.
 - `connects-to` → **[Psoriasis](../psoriasis/README.md)** — A shared type-I-interferon signature: Aicardi-Goutières is the prototype interferonopathy with constitutive type-I-IFN, the same plasmacytoid-dendritic-cell IFN axis that helps initiate psoriasis—linking a brain disease to a skin one.
+- `connects-to` → **[Rheumatoid Arthritis](../rheumatoid-arthritis/README.md)** — JAK inhibition across diseases: the JAK inhibitors (baricitinib) that calm the type-I-interferon storm of Aicardi-Goutières also treat rheumatoid arthritis, a pharmacologic bridge from a monogenic to a common autoimmune disease.
+- `connects-to` → **[Germinal Center](../../05-tissue/germinal-center/README.md)** — Innate disease, adaptive autoantibodies: though driven by innate type-I-interferon, Aicardi-Goutières often shows lupus-like autoantibodies arising from germinal-centre B-cell activation, blurring innate and adaptive autoimmunity.
+- `connects-to` → **[Cortical Bone](../../05-tissue/cortical-bone/README.md)** — Interferon reaches the skeleton: the related interferonopathy SPENCD (spondyloenchondrodysplasia) couples an AGS-like type-I-IFN signature with metaphyseal and vertebral lesions of cortical bone, tying innate immunity to the skeleton.
 
 ---
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
