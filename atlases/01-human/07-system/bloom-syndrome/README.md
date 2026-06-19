@@ -259,6 +259,15 @@ cross_links:
   - target: 01-human/07-system/pancreatic-cancer
     relation: connects-to
     note: "Cancer at every site: Bloom syndrome's extreme genomic instability predisposes to the full spectrum of malignancy at young ages, including pancreatic and other gastrointestinal adenocarcinomas."
+  - target: 01-human/07-system/dlbcl
+    relation: connects-to
+    note: "Lymphoma in a broad spectrum: Bloom syndrome's genomic instability raises the risk of aggressive lymphomas like diffuse large B-cell lymphoma, often at unusually young ages."
+  - target: 01-human/07-system/osteosarcoma
+    relation: connects-to
+    note: "Sarcomas of genomic instability: like its sister helicaseopathies Werner and Rothmund-Thomson, Bloom syndrome raises the risk of osteosarcoma and other sarcomas alongside its carcinomas."
+  - target: 01-human/05-tissue/hepatic-lobule
+    relation: connects-to
+    note: "Liver tumours too: the all-cancer predisposition of Bloom syndrome extends to the liver, with hepatocellular and other tumours arising in the hepatic lobules at young ages."
 ---
 
 # Bloom Syndrome
@@ -477,6 +486,9 @@ BS is characterized by three cardinal features: **small body size** (the most co
 - `connects-to` → **[Aplastic Anemia](../aplastic-anemia/README.md)** — Genome instability fails the marrow: like other DNA-repair-defective syndromes, Bloom syndrome can progress to bone-marrow failure and cytopenias on the path to myelodysplasia and leukaemia.
 - `connects-to` → **[Cortical Bone](../../05-tissue/cortical-bone/README.md)** — Short stature and skeletal anomalies: proportionate dwarfism is a defining feature of Bloom syndrome, with thin cortical bone and skeletal anomalies reflecting profoundly impaired growth.
 - `connects-to` → **[Pancreatic Cancer](../pancreatic-cancer/README.md)** — Cancer at every site: Bloom syndrome's extreme genomic instability predisposes to the full spectrum of malignancy at young ages, including pancreatic and other gastrointestinal adenocarcinomas.
+- `connects-to` → **[DLBCL](../dlbcl/README.md)** — Lymphoma in a broad spectrum: Bloom syndrome's genomic instability raises the risk of aggressive lymphomas like diffuse large B-cell lymphoma, often at unusually young ages.
+- `connects-to` → **[Osteosarcoma](../osteosarcoma/README.md)** — Sarcomas of genomic instability: like its sister helicaseopathies Werner and Rothmund-Thomson, Bloom syndrome raises the risk of osteosarcoma and other sarcomas alongside its carcinomas.
+- `connects-to` → **[Hepatic Lobule](../../05-tissue/hepatic-lobule/README.md)** — Liver tumours too: the all-cancer predisposition of Bloom syndrome extends to the liver, with hepatocellular and other tumours arising in the hepatic lobules at young ages.
 
 ---
 

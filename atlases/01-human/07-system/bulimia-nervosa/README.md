@@ -261,6 +261,15 @@ cross_links:
   - target: 01-human/03-molecular/insulin
     relation: connects-to
     note: "Insulin as a purge ('diabulimia'): people with type 1 diabetes and bulimia may deliberately omit insulin to lose weight through glycosuria, a dangerous purging behaviour driving ketoacidosis and complications."
+  - target: 01-human/05-tissue/glomerulus
+    relation: connects-to
+    note: "Kidney injury from purging: recurrent vomiting and laxative or diuretic misuse in bulimia cause hypokalaemia and dehydration that injure the glomerulus and tubules, risking chronic kidney disease."
+  - target: 01-human/07-system/epilepsy
+    relation: connects-to
+    note: "A seizure caution: bulimia nervosa contraindicates the antidepressant bupropion because purging-related electrolyte disturbance and the disorder itself lower the seizure threshold toward epilepsy."
+  - target: 01-human/07-system/covid-19-disease
+    relation: connects-to
+    note: "A pandemic surge: eating disorders including bulimia rose sharply during COVID-19, as isolation, disrupted routines and anxiety worsened binge-purge behaviour and limited access to care."
 ---
 
 # Bulimia Nervosa
@@ -471,6 +480,9 @@ All of the following must be met:
 - `connects-to` → **[Cardiac Conduction System](../../05-tissue/cardiac-conduction-system/README.md)** — Purging and fatal arrhythmia: vomiting and laxative abuse cause hypokalaemia and hypomagnesaemia that prolong the QT interval, the electrolyte derangement behind sudden cardiac death in bulimia.
 - `connects-to` → **[Intestinal Epithelium](../../05-tissue/intestinal-epithelium/README.md)** — Cathartic colon: chronic stimulant-laxative abuse for purging injures the colonic epithelium and myenteric nerves, leaving a poorly contractile, dilated 'cathartic colon'.
 - `connects-to` → **[Insulin](../../03-molecular/insulin/README.md)** — Insulin as a purge ('diabulimia'): people with type 1 diabetes and bulimia may deliberately omit insulin to lose weight through glycosuria, a dangerous purging behaviour driving ketoacidosis and complications.
+- `connects-to` → **[Glomerulus](../../05-tissue/glomerulus/README.md)** — Kidney injury from purging: recurrent vomiting and laxative or diuretic misuse in bulimia cause hypokalaemia and dehydration that injure the glomerulus and tubules, risking chronic kidney disease.
+- `connects-to` → **[Epilepsy](../epilepsy/README.md)** — A seizure caution: bulimia nervosa contraindicates the antidepressant bupropion because purging-related electrolyte disturbance and the disorder itself lower the seizure threshold toward epilepsy.
+- `connects-to` → **[COVID-19 Disease](../covid-19-disease/README.md)** — A pandemic surge: eating disorders including bulimia rose sharply during COVID-19, as isolation, disrupted routines and anxiety worsened binge-purge behaviour and limited access to care.
 
 ## Treatment
 
