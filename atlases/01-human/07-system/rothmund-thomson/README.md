@@ -241,6 +241,15 @@ cross_links:
   - target: 01-human/05-tissue/cortical-bone
     relation: connects-to
     note: "Osteosarcoma springs from its bones: RECQL4 maintains genome stability in osteoblasts, so its loss — with the radial-ray and metaphyseal skeletal malformations of RTS — predisposes the long-bone metaphyses to early osteosarcoma."
+  - target: 01-human/05-tissue/alveolus
+    relation: connects-to
+    note: "Its hallmark sarcoma seeds the lung: the osteosarcoma that defines Rothmund-Thomson metastasises to the lungs like sporadic osteosarcoma, studding the alveolar parenchyma, so chest surveillance and pulmonary metastasectomy matter."
+  - target: 01-human/07-system/rhabdomyosarcoma
+    relation: connects-to
+    note: "Genomic instability widens the sarcoma risk: beyond its hallmark osteosarcoma, the chromosomal instability of Rothmund-Thomson can predispose to soft-tissue sarcomas including rhabdomyosarcoma, reflecting RECQL4's role in genome maintenance."
+  - target: 01-human/07-system/all
+    relation: connects-to
+    note: "Leukaemia rounds out its cancer spectrum: alongside the myelodysplasia and acute myeloid leukaemia already tied to it, Rothmund-Thomson's genome instability has been reported with lymphoid leukaemias, so blood counts are watched lifelong."
 ---
 
 # Rothmund-Thomson Syndrome
@@ -452,6 +461,9 @@ The cardinal features of RTS type II are: (1) **poikiloderma** — the defining 
 - `connects-to` → **[Cancer Chemotherapy](../../../03-medicine/01-modern/13-cancer/cancer-chemotherapy/README.md)** — RECQL4 loss heightens genotoxic toxicity: without the RECQL4 helicase to repair DNA, Rothmund-Thomson cells are hypersensitive to DNA-damaging chemotherapy and radiotherapy, so genotoxic regimens must be dose-adjusted to avoid severe marrow and tissue toxicity.
 - `connects-to` → **[Checkpoint Inhibitors](../../../03-medicine/01-modern/13-cancer/checkpoint-inhibitors/README.md)** — Sun-driven skin cancers may respond: lifelong photodamage gives RTS patients cutaneous squamous and basal cell carcinomas whose high mutational burden can make advanced cutaneous SCC responsive to anti-PD-1 checkpoint blockade.
 - `connects-to` → **[Cortical Bone](../../05-tissue/cortical-bone/README.md)** — Osteosarcoma springs from its bones: RECQL4 maintains genome stability in osteoblasts, so its loss — with the radial-ray and metaphyseal skeletal malformations of RTS — predisposes the long-bone metaphyses to early osteosarcoma.
+- `connects-to` → **[Alveolus](../../05-tissue/alveolus/README.md)** — Its hallmark sarcoma seeds the lung: the osteosarcoma that defines Rothmund-Thomson metastasises to the lungs like sporadic osteosarcoma, studding the alveolar parenchyma, so chest surveillance and pulmonary metastasectomy matter.
+- `connects-to` → **[Rhabdomyosarcoma](../rhabdomyosarcoma/README.md)** — Genomic instability widens the sarcoma risk: beyond its hallmark osteosarcoma, the chromosomal instability of Rothmund-Thomson can predispose to soft-tissue sarcomas including rhabdomyosarcoma, reflecting RECQL4's role in genome maintenance.
+- `connects-to` → **[ALL](../all/README.md)** — Leukaemia rounds out its cancer spectrum: alongside the myelodysplasia and acute myeloid leukaemia already tied to it, Rothmund-Thomson's genome instability has been reported with lymphoid leukaemias, so blood counts are watched lifelong.
 
 [^kitao-1999-recql4-rts]: Kitao S, Shimamoto A, Goto M, et al. Mutations in RECQL4 cause a subset of cases of Rothmund-Thomson syndrome. *Nat Genet.* 1999;22(1):82-84. [doi:10.1038/8788](https://doi.org/10.1038/8788) · [PubMed 10319867](https://pubmed.ncbi.nlm.nih.gov/10319867/)
 [^wang-2003-rts-cancer]: Wang LL, Gannavarapu A, Kozinetz CA, et al. Association between osteosarcoma and deleterious mutations in the RECQL4 gene in Rothmund-Thomson syndrome. *J Natl Cancer Inst.* 2003;95(9):669-674. [doi:10.1093/jnci/95.9.669](https://doi.org/10.1093/jnci/95.9.669) · [PubMed 12734318](https://pubmed.ncbi.nlm.nih.gov/12734318/)
