@@ -259,6 +259,15 @@ cross_links:
   - target: 01-human/07-system/atherosclerosis
     relation: connects-to
     note: "Chronic inflammation carries cardiovascular cost: severe and late-onset asthma is associated with increased atherosclerotic cardiovascular disease, driven by systemic inflammation and the metabolic effects of long-term corticosteroids."
+  - target: 01-human/05-tissue/germinal-center
+    relation: connects-to
+    note: "Allergic sensitisation: the allergen-specific IgE that drives allergic asthma is class-switched by B cells in germinal centres, under IL-4/IL-13 and follicular helper T-cell help."
+  - target: 01-human/05-tissue/bone-marrow
+    relation: connects-to
+    note: "The eosinophil supply line: allergic asthma's IL-5 drives eosinophil production in the bone marrow, and anti-IL-5 biologics like mepolizumab cut off this source to control eosinophilic asthma."
+  - target: 02-pathogen/01-viruses/sars-cov-2
+    relation: connects-to
+    note: "A surprising non-risk: well-controlled type-2-high allergic asthma did not raise COVID-19 severity—inhaled corticosteroids and lower airway ACE2 expression may even protect—unlike most other chronic lung diseases."
 ---
 
 # Asthma
@@ -448,6 +457,9 @@ Asthma affects approximately **339 million people worldwide** (WHO 2019) and is 
 - `connects-to` → **[Heart Failure](../heart-failure/README.md)** — Cardiac asthma mimics it: left heart failure causes wheeze and breathlessness from pulmonary congestion that imitate an asthma attack, a key differential—and the beta-blockers used for heart failure can themselves provoke bronchospasm.
 - `connects-to` → **[Cardiac Conduction System](../../05-tissue/cardiac-conduction-system/README.md)** — Its drugs and the heart's rhythm: beta-2 agonists and theophylline used in asthma can provoke tachyarrhythmias, while the beta-blockers acting on cardiac conduction are avoided in asthma because they trigger bronchospasm.
 - `connects-to` → **[Atherosclerosis](../atherosclerosis/README.md)** — Chronic inflammation carries cardiovascular cost: severe and late-onset asthma is associated with increased atherosclerotic cardiovascular disease, driven by systemic inflammation and the metabolic effects of long-term corticosteroids.
+- `connects-to` → **[Germinal Center](../../05-tissue/germinal-center/README.md)** — Allergic sensitisation: the allergen-specific IgE that drives allergic asthma is class-switched by B cells in germinal centres, under IL-4/IL-13 and follicular helper T-cell help.
+- `connects-to` → **[Bone Marrow](../../05-tissue/bone-marrow/README.md)** — The eosinophil supply line: allergic asthma's IL-5 drives eosinophil production in the bone marrow, and anti-IL-5 biologics like mepolizumab cut off this source to control eosinophilic asthma.
+- `connects-to` → **[SARS-CoV-2](../../../02-pathogen/01-viruses/sars-cov-2/README.md)** — A surprising non-risk: well-controlled type-2-high allergic asthma did not raise COVID-19 severity—inhaled corticosteroids and lower airway ACE2 expression may even protect—unlike most other chronic lung diseases.
 
 [^gina-2023-asthma]: Global Initiative for Asthma. Global Strategy for Asthma Management and Prevention. 2023. [ginasthma.org](https://ginasthma.org/2023-gina-main-report/)
 [^wenzel-2012-asthma-phenotypes]: Wenzel SE. Asthma phenotypes: the evolution from clinical to molecular approaches. *Nat Med.* 2012;18(5):716-725. [doi:10.1038/nm.2678](https://doi.org/10.1038/nm.2678) · [PubMed 22561835](https://pubmed.ncbi.nlm.nih.gov/22561835/)
