@@ -250,6 +250,15 @@ cross_links:
   - target: 01-human/05-tissue/arterial-wall
     relation: connects-to
     note: "It inflames the aortic root: chronic inflammation in ankylosing spondylitis causes aortitis and aortic-root dilatation, producing aortic regurgitation and conduction block as the disease reaches the wall of the great vessel."
+  - target: 01-human/07-system/multiple-sclerosis
+    relation: connects-to
+    note: "A caution for its TNF blockers: the anti-TNF biologics central to ankylosing spondylitis can unmask or worsen demyelination, so multiple sclerosis contraindicates them—one cytokine blockade easing the spine yet harming nerves."
+  - target: 01-human/05-tissue/intestinal-epithelium
+    relation: connects-to
+    note: "A gut-joint axis: most people with ankylosing spondylitis have subclinical inflammation of the intestinal epithelium, and the same IL-23/IL-17 mucosal immunity links the gut microbiome to the inflamed spine."
+  - target: 01-human/07-system/fibromyalgia
+    relation: connects-to
+    note: "A confounding comorbidity: fibromyalgia is common in ankylosing spondylitis and inflates composite disease-activity scores with widespread pain, so distinguishing it from active inflammation guides whether to escalate biologics."
 ---
 
 # Ankylosing Spondylitis
@@ -436,6 +445,9 @@ AS originates at the **enthesis** — the site where tendons, ligaments, and joi
 - `connects-to` → **[Targeted Therapy](../../../03-medicine/01-modern/13-cancer/targeted-therapy/README.md)** — Biologics target its cytokines: when NSAIDs fail, ankylosing spondylitis responds to anti-TNF and IL-17 inhibitors like secukinumab, and to JAK inhibitors — agents hitting the IL-23/IL-17 axis that drives the spinal inflammation.
 - `connects-to` → **[Cortical Bone](../../05-tissue/cortical-bone/README.md)** — It both fuses and weakens bone: ankylosing spondylitis paradoxically lays down syndesmophytes that bridge vertebrae into a bamboo spine while the trapped, inflamed bone becomes osteoporotic — a rigid spine prone to fracture from minor trauma.
 - `connects-to` → **[Arterial Wall](../../05-tissue/arterial-wall/README.md)** — It inflames the aortic root: chronic inflammation in ankylosing spondylitis causes aortitis and aortic-root dilatation, producing aortic regurgitation and conduction block as the disease reaches the wall of the great vessel.
+- `connects-to` → **[Multiple Sclerosis](../multiple-sclerosis/README.md)** — A caution for its TNF blockers: the anti-TNF biologics central to ankylosing spondylitis can unmask or worsen demyelination, so multiple sclerosis contraindicates them—one cytokine blockade easing the spine yet harming nerves.
+- `connects-to` → **[Intestinal Epithelium](../../05-tissue/intestinal-epithelium/README.md)** — A gut-joint axis: most people with ankylosing spondylitis have subclinical inflammation of the intestinal epithelium, and the same IL-23/IL-17 mucosal immunity links the gut microbiome to the inflamed spine.
+- `connects-to` → **[Fibromyalgia](../fibromyalgia/README.md)** — A confounding comorbidity: fibromyalgia is common in ankylosing spondylitis and inflates composite disease-activity scores with widespread pain, so distinguishing it from active inflammation guides whether to escalate biologics.
 
 [^sieper-2015-ankylosing-spondylitis-review]: Sieper J, Poddubnyy D. Ankylosing spondylitis. *Lancet.* 2017;390(10089):73-84. [doi:10.1016/S0140-6736(16)31591-4](https://doi.org/10.1016/S0140-6736(16)31591-4) · [PubMed 28110981](https://pubmed.ncbi.nlm.nih.gov/28110981/)
 [^baeten-2015-secukinumab-as]: Baeten D, Sieper J, Braun J, et al. Secukinumab, an Interleukin-17A Inhibitor, in Ankylosing Spondylitis. *N Engl J Med.* 2015;373(26):2534-2548. [doi:10.1056/NEJMoa1505066](https://doi.org/10.1056/NEJMoa1505066) · [PubMed 26699169](https://pubmed.ncbi.nlm.nih.gov/26699169/)

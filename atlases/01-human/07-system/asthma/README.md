@@ -250,6 +250,15 @@ cross_links:
   - target: 01-human/07-system/cystic-fibrosis
     relation: connects-to
     note: "A contrasting chronic airway disease: asthma is reversible bronchospasm of type-2 inflammation, whereas cystic fibrosis is a genetic defect of mucus clearance causing infection and bronchiectasis — though they overlap when Aspergillus drives ABPA in both."
+  - target: 01-human/07-system/heart-failure
+    relation: connects-to
+    note: "Cardiac asthma mimics it: left heart failure causes wheeze and breathlessness from pulmonary congestion that imitate an asthma attack, a key differential—and the beta-blockers used for heart failure can themselves provoke bronchospasm."
+  - target: 01-human/05-tissue/cardiac-conduction-system
+    relation: connects-to
+    note: "Its drugs and the heart's rhythm: beta-2 agonists and theophylline used in asthma can provoke tachyarrhythmias, while the beta-blockers acting on cardiac conduction are avoided in asthma because they trigger bronchospasm."
+  - target: 01-human/07-system/atherosclerosis
+    relation: connects-to
+    note: "Chronic inflammation carries cardiovascular cost: severe and late-onset asthma is associated with increased atherosclerotic cardiovascular disease, driven by systemic inflammation and the metabolic effects of long-term corticosteroids."
 ---
 
 # Asthma
@@ -436,6 +445,9 @@ Asthma affects approximately **339 million people worldwide** (WHO 2019) and is 
 - `connects-to` → **[Targeted Therapy](../../../03-medicine/01-modern/13-cancer/targeted-therapy/README.md)** — Biologics for severe type-2 disease: monoclonal antibodies against IgE (omalizumab), IL-5 (mepolizumab), IL-4Rα (dupilumab) and TSLP (tezepelumab) control severe eosinophilic and allergic asthma that escapes inhaled steroids.
 - `connects-to` → **[Lung Slice](../../05-tissue/lung-slice/README.md)** — It remodels the airway wall: chronic asthma thickens airway smooth muscle, deposits subepithelial collagen and fills the lumen with mucus — the bronchial-wall remodelling that turns reversible bronchospasm into fixed airflow obstruction.
 - `connects-to` → **[Cystic Fibrosis](../cystic-fibrosis/README.md)** — A contrasting chronic airway disease: asthma is reversible bronchospasm of type-2 inflammation, whereas cystic fibrosis is a genetic defect of mucus clearance causing infection and bronchiectasis — though they overlap when Aspergillus drives ABPA in both.
+- `connects-to` → **[Heart Failure](../heart-failure/README.md)** — Cardiac asthma mimics it: left heart failure causes wheeze and breathlessness from pulmonary congestion that imitate an asthma attack, a key differential—and the beta-blockers used for heart failure can themselves provoke bronchospasm.
+- `connects-to` → **[Cardiac Conduction System](../../05-tissue/cardiac-conduction-system/README.md)** — Its drugs and the heart's rhythm: beta-2 agonists and theophylline used in asthma can provoke tachyarrhythmias, while the beta-blockers acting on cardiac conduction are avoided in asthma because they trigger bronchospasm.
+- `connects-to` → **[Atherosclerosis](../atherosclerosis/README.md)** — Chronic inflammation carries cardiovascular cost: severe and late-onset asthma is associated with increased atherosclerotic cardiovascular disease, driven by systemic inflammation and the metabolic effects of long-term corticosteroids.
 
 [^gina-2023-asthma]: Global Initiative for Asthma. Global Strategy for Asthma Management and Prevention. 2023. [ginasthma.org](https://ginasthma.org/2023-gina-main-report/)
 [^wenzel-2012-asthma-phenotypes]: Wenzel SE. Asthma phenotypes: the evolution from clinical to molecular approaches. *Nat Med.* 2012;18(5):716-725. [doi:10.1038/nm.2678](https://doi.org/10.1038/nm.2678) · [PubMed 22561835](https://pubmed.ncbi.nlm.nih.gov/22561835/)
