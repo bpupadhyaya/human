@@ -241,6 +241,15 @@ cross_links:
   - target: 03-medicine/01-modern/13-cancer/checkpoint-inhibitors
     relation: connects-to
     note: "Biomarkers favour immunotherapy here: ovarian clear cell carcinoma more often shows microsatellite instability and PD-L1 expression, making PD-1 checkpoint inhibitors a more promising option than in serous ovarian cancer."
+  - target: 01-human/05-tissue/germinal-center
+    relation: connects-to
+    note: "B-cell islands beyond the T cells: clear cell ovarian cancers that organise tertiary lymphoid structures with germinal-centre B cells mount a broader antitumour response and tend to fare better, adding to the T-cell infiltrate that already shapes ovarian-cancer outcome."
+  - target: 01-human/07-system/hcc
+    relation: connects-to
+    note: "A shared chromatin-remodeller defect: ARID1A, the SWI/SNF subunit mutated in roughly half of clear cell ovarian cancers, is also among the commonest mutations in hepatocellular carcinoma—one epigenetic machinery failing across two organs."
+  - target: 01-human/07-system/colorectal-cancer
+    relation: connects-to
+    note: "Driven by the same oncogenes: clear cell ovarian cancers frequently carry KRAS and PIK3CA mutations that also drive colorectal cancer, so the RAS-PI3K signalling these tumours share guides targeted-therapy thinking across both."
 ---
 
 # Ovarian Clear Cell Carcinoma
@@ -457,6 +466,9 @@ Comprehensive surgical staging (TAH-BSO, omentectomy, pelvic/para-aortic lymphad
 - `connects-to` → **[Bladder Cancer](../bladder-cancer/README.md)** — A fellow ARID1A-driven cancer: like a subset of bladder cancer, ovarian clear cell carcinoma is frequently driven by ARID1A loss disrupting the SWI/SNF chromatin-remodelling complex.
 - `connects-to` → **[Cancer Chemotherapy](../../../03-medicine/01-modern/13-cancer/cancer-chemotherapy/README.md)** — It still receives the standard regimen: carboplatin-paclitaxel is given after surgery, though ovarian clear cell carcinoma's relative platinum resistance makes complete response less common than in serous cancer.
 - `connects-to` → **[Checkpoint Inhibitors](../../../03-medicine/01-modern/13-cancer/checkpoint-inhibitors/README.md)** — Biomarkers favour immunotherapy here: ovarian clear cell carcinoma more often shows microsatellite instability and PD-L1 expression, making PD-1 checkpoint inhibitors a more promising option than in serous ovarian cancer.
+- `connects-to` → **[Germinal Center](../../05-tissue/germinal-center/README.md)** — B-cell islands beyond the T cells: clear cell ovarian cancers that organise tertiary lymphoid structures with germinal-centre B cells mount a broader antitumour response and tend to fare better, adding to the T-cell infiltrate that already shapes ovarian-cancer outcome.
+- `connects-to` → **[HCC](../hcc/README.md)** — A shared chromatin-remodeller defect: ARID1A, the SWI/SNF subunit mutated in roughly half of clear cell ovarian cancers, is also among the commonest mutations in hepatocellular carcinoma—one epigenetic machinery failing across two organs.
+- `connects-to` → **[Colorectal Cancer](../colorectal-cancer/README.md)** — Driven by the same oncogenes: clear cell ovarian cancers frequently carry KRAS and PIK3CA mutations that also drive colorectal cancer, so the RAS-PI3K signalling these tumours share guides targeted-therapy thinking across both.
 
 ---
 

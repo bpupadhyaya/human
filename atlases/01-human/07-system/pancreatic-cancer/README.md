@@ -247,6 +247,15 @@ cross_links:
   - target: 01-human/05-tissue/islet-of-langerhans
     relation: connects-to
     note: "New-onset diabetes can herald it: pancreatic cancer impairs and destroys the islets of Langerhans, and unexplained new diabetes in an older adult can be an early paraneoplastic sign."
+  - target: 01-human/05-tissue/germinal-center
+    relation: connects-to
+    note: "A profoundly cold tumour: pancreatic ductal adenocarcinoma's dense desmoplastic stroma excludes T cells and rarely forms tertiary lymphoid structures, so it lacks the germinal-centre immune organisation that would let checkpoint inhibitors work."
+  - target: 01-human/07-system/cholangiocarcinoma
+    relation: connects-to
+    note: "Two desmoplastic foregut adenocarcinomas: pancreatic cancer and cholangiocarcinoma share a dense fibrotic stroma, late presentation, gemcitabine-based chemotherapy and a grim prognosis, arising from the linked pancreatic and biliary ductal systems."
+  - target: 01-human/07-system/colorectal-cancer
+    relation: connects-to
+    note: "Both ride the KRAS pathway differently: nearly all pancreatic cancers are KRAS-driven and long untargetable, while KRAS-mutant colorectal cancers add druggable context like anti-EGFR resistance and G12C inhibitors—two windows on one oncogene."
 ---
 
 # Pancreatic Cancer
@@ -443,6 +452,9 @@ cross_links:
 - `connects-to` → **[Cancer Chemotherapy](../../../03-medicine/01-modern/13-cancer/cancer-chemotherapy/README.md)** — FOLFIRINOX is the most active regimen: FOLFIRINOX or gemcitabine with nab-paclitaxel is the chemotherapy backbone for pancreatic adenocarcinoma, given around Whipple surgery and for advanced disease.
 - `connects-to` → **[Checkpoint Inhibitors](../../../03-medicine/01-modern/13-cancer/checkpoint-inhibitors/README.md)** — A profoundly cold tumour: dense desmoplastic stroma and few infiltrating T cells leave pancreatic cancer largely unresponsive to checkpoint inhibitors, except the rare microsatellite-unstable case.
 - `connects-to` → **[Islet of Langerhans](../../05-tissue/islet-of-langerhans/README.md)** — New-onset diabetes can herald it: pancreatic cancer impairs and destroys the islets of Langerhans, and unexplained new diabetes in an older adult can be an early paraneoplastic sign.
+- `connects-to` → **[Germinal Center](../../05-tissue/germinal-center/README.md)** — A profoundly cold tumour: pancreatic ductal adenocarcinoma's dense desmoplastic stroma excludes T cells and rarely forms tertiary lymphoid structures, so it lacks the germinal-centre immune organisation that would let checkpoint inhibitors work.
+- `connects-to` → **[Cholangiocarcinoma](../cholangiocarcinoma/README.md)** — Two desmoplastic foregut adenocarcinomas: pancreatic cancer and cholangiocarcinoma share a dense fibrotic stroma, late presentation, gemcitabine-based chemotherapy and a grim prognosis, arising from the linked pancreatic and biliary ductal systems.
+- `connects-to` → **[Colorectal Cancer](../colorectal-cancer/README.md)** — Both ride the KRAS pathway differently: nearly all pancreatic cancers are KRAS-driven and long untargetable, while KRAS-mutant colorectal cancers add druggable context like anti-EGFR resistance and G12C inhibitors—two windows on one oncogene.
 
 ---
 
