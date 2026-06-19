@@ -247,6 +247,15 @@ cross_links:
   - target: 01-human/05-tissue/axonal-transport
     relation: connects-to
     note: "It degenerates the long nerves: HIV and some antiretrovirals cause a distal sensory polyneuropathy, a dying-back axonopathy of impaired axonal transport producing painful, length-dependent neuropathy."
+  - target: 01-human/05-tissue/germinal-center
+    relation: connects-to
+    note: "It dismantles the lymph node: HIV destroys the follicular dendritic networks and germinal centres where antibody responses mature, so humoral immunity decays even as the virus hides in this reservoir."
+  - target: 01-human/05-tissue/glomerulus
+    relation: connects-to
+    note: "HIV-associated nephropathy: HIV injures glomerular cells to cause a collapsing focal segmental glomerulosclerosis, classically in people of African ancestry, a leading cause of kidney failure in untreated AIDS."
+  - target: 01-human/07-system/atherosclerosis
+    relation: connects-to
+    note: "Treated HIV still inflames arteries: persistent immune activation and antiretroviral metabolic effects accelerate atherosclerosis, making cardiovascular disease a leading cause of death in the ART era."
 ---
 
 # HIV/AIDS
@@ -438,6 +447,9 @@ HIV-1 pathogenesis is primarily driven by CD4⁺ T cell loss:
 - `connects-to` → **[Cancer Chemotherapy](../../../03-medicine/01-modern/13-cancer/cancer-chemotherapy/README.md)** — AIDS-defining cancers need chemo: Kaposi sarcoma and the aggressive non-Hodgkin lymphomas that define AIDS are treated with chemotherapy alongside antiretrovirals, with immune reconstitution itself improving tumour control.
 - `connects-to` → **[Checkpoint Inhibitors](../../../03-medicine/01-modern/13-cancer/checkpoint-inhibitors/README.md)** — Immunotherapy enters HIV oncology: checkpoint inhibitors treat HIV-associated lung cancer and Kaposi sarcoma, and by reversing T-cell exhaustion are studied as part of cure strategies to flush the latent reservoir.
 - `connects-to` → **[Axonal Transport](../../05-tissue/axonal-transport/README.md)** — It degenerates the long nerves: HIV and some antiretrovirals cause a distal sensory polyneuropathy, a dying-back axonopathy of impaired axonal transport producing painful, length-dependent neuropathy.
+- `connects-to` → **[Germinal Center](../../05-tissue/germinal-center/README.md)** — It dismantles the lymph node: HIV destroys the follicular dendritic networks and germinal centres where antibody responses mature, so humoral immunity decays even as the virus hides in this reservoir.
+- `connects-to` → **[Glomerulus](../../05-tissue/glomerulus/README.md)** — HIV-associated nephropathy: HIV injures glomerular cells to cause a collapsing focal segmental glomerulosclerosis, classically in people of African ancestry, a leading cause of kidney failure in untreated AIDS.
+- `connects-to` → **[Atherosclerosis](../atherosclerosis/README.md)** — Treated HIV still inflames arteries: persistent immune activation and antiretroviral metabolic effects accelerate atherosclerosis, making cardiovascular disease a leading cause of death in the ART era.
 
 ## See Also
 

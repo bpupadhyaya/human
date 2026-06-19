@@ -256,6 +256,15 @@ cross_links:
   - target: 03-medicine/01-modern/13-cancer/targeted-therapy
     relation: connects-to
     note: "Antibodies and entry blockers join the arsenal: the CCR5 antagonist maraviroc, the anti-CD4 antibody ibalizumab and broadly neutralizing antibodies target HIV's entry machinery, complementing standard antiretrovirals."
+  - target: 01-human/07-system/burkitt-lymphoma
+    relation: connects-to
+    note: "An AIDS-defining lymphoma: Burkitt lymphoma arises in HIV from EBV co-infection and relentless B-cell activation amid CD4 loss, one of the aggressive lymphomas that mark immune collapse."
+  - target: 01-human/05-tissue/peripheral-nerve
+    relation: connects-to
+    note: "The commonest HIV neuropathy: distal symmetric polyneuropathy comes both from HIV itself and from older nucleoside antiretrovirals, producing painful, length-dependent sensory loss in the feet."
+  - target: 01-human/07-system/anemia-of-chronic-disease
+    relation: connects-to
+    note: "Why HIV makes you anaemic: chronic inflammation, marrow infection and zidovudine suppress red-cell production, making anaemia of chronic disease the commonest cytopenia and a marker of advancing HIV."
 ---
 
 # HIV
@@ -470,6 +479,9 @@ The **latent reservoir** — HIV integrated into quiescent resting memory CD4+ T
 - `connects-to` → **[Germinal Center](../../05-tissue/germinal-center/README.md)** — Lymphoid tissue is its reservoir: HIV concentrates in lymph-node germinal centres, where follicular dendritic cells trap virions and infected follicular helper T cells form a latent reservoir that ART cannot clear.
 - `connects-to` → **[Glomerulus](../../05-tissue/glomerulus/README.md)** — It scars the kidney filter: HIV-associated nephropathy is a collapsing focal segmental glomerulosclerosis striking the glomerulus, classically in untreated patients of African ancestry with APOL1 variants, causing rapid renal failure.
 - `connects-to` → **[Targeted Therapy](../../../03-medicine/01-modern/13-cancer/targeted-therapy/README.md)** — Antibodies and entry blockers join the arsenal: the CCR5 antagonist maraviroc, the anti-CD4 antibody ibalizumab and broadly neutralizing antibodies target HIV's entry machinery, complementing standard antiretrovirals.
+- `connects-to` → **[Burkitt Lymphoma](../burkitt-lymphoma/README.md)** — An AIDS-defining lymphoma: Burkitt lymphoma arises in HIV from EBV co-infection and relentless B-cell activation amid CD4 loss, one of the aggressive lymphomas that mark immune collapse.
+- `connects-to` → **[Peripheral Nerve](../../05-tissue/peripheral-nerve/README.md)** — The commonest HIV neuropathy: distal symmetric polyneuropathy comes both from HIV itself and from older nucleoside antiretrovirals, producing painful, length-dependent sensory loss in the feet.
+- `connects-to` → **[Anemia of Chronic Disease](../anemia-of-chronic-disease/README.md)** — Why HIV makes you anaemic: chronic inflammation, marrow infection and zidovudine suppress red-cell production, making anaemia of chronic disease the commonest cytopenia and a marker of advancing HIV.
 
 [^barre-sinoussi-1983-hiv-isolation]: Barré-Sinoussi F, Chermann JC, Rey F, et al. Isolation of a T-lymphotropic retrovirus from a patient at risk for acquired immune deficiency syndrome (AIDS). *Science.* 1983;220(4599):868-871. [doi:10.1126/science.6189183](https://doi.org/10.1126/science.6189183) · [PubMed 6189183](https://pubmed.ncbi.nlm.nih.gov/6189183/)
 [^ho-1995-viral-dynamics]: Ho DD, Neumann AU, Perelson AS, et al. Rapid turnover of plasma virions and CD4 lymphocytes in HIV-1 infection. *Nature.* 1995;373(6510):123-126. [doi:10.1038/373123a0](https://doi.org/10.1038/373123a0) · [PubMed 7816094](https://pubmed.ncbi.nlm.nih.gov/7816094/)
