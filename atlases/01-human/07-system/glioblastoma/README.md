@@ -268,6 +268,15 @@ cross_links:
   - target: 01-human/07-system/medulloblastoma
     relation: connects-to
     note: "Brain tumours of different ages: glioblastoma is the commonest malignant brain tumour of adults, while medulloblastoma is its childhood counterpart in the cerebellum—two ends of the neuro-oncology spectrum."
+  - target: 01-human/03-molecular/met
+    relation: connects-to
+    note: "Resistance kinase: MET amplification and activation drive glioblastoma growth and emerge as a resistance mechanism to EGFR-targeted therapy, a candidate co-target."
+  - target: 01-human/03-molecular/notch
+    relation: connects-to
+    note: "Stem-cell maintenance: Notch signalling sustains glioblastoma stem cells and their self-renewal, contributing to therapy resistance and recurrence after treatment."
+  - target: 01-human/03-molecular/akt
+    relation: connects-to
+    note: "Core PI3K-AKT axis: loss of PTEN unleashes PI3K-AKT-mTOR signalling, one of glioblastoma's defining altered pathways driving proliferation and survival."
 ---
 
 # Glioblastoma
@@ -481,6 +490,9 @@ The blood-brain barrier (BBB) creates a pharmacological challenge:
 - `connects-to` → **[Neurofibromatosis Type 1](../neurofibromatosis-type-1/README.md)** — Gliomas in NF1: neurofibromatosis type 1 predisposes to optic pathway gliomas in children and higher-grade gliomas including glioblastoma in adults, NF1 loss being a recurrent GBM driver.
 - `connects-to` → **[Arterial Wall](../../05-tissue/arterial-wall/README.md)** — Microvascular proliferation: glioblastoma's defining histology is florid, abnormal angiogenesis—glomeruloid tufts of disordered arterial-wall growth driven by VEGF and hypoxia, the target of bevacizumab.
 - `connects-to` → **[Medulloblastoma](../medulloblastoma/README.md)** — Brain tumours of different ages: glioblastoma is the commonest malignant brain tumour of adults, while medulloblastoma is its childhood counterpart in the cerebellum—two ends of the neuro-oncology spectrum.
+- `connects-to` → **[MET](../../03-molecular/met/README.md)** — Resistance kinase: MET amplification and activation drive glioblastoma growth and emerge as a resistance mechanism to EGFR-targeted therapy, a candidate co-target.
+- `connects-to` → **[Notch](../../03-molecular/notch/README.md)** — Stem-cell maintenance: Notch signalling sustains glioblastoma stem cells and their self-renewal, contributing to therapy resistance and recurrence after treatment.
+- `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — Core PI3K-AKT axis: loss of PTEN unleashes PI3K-AKT-mTOR signalling, one of glioblastoma's defining altered pathways driving proliferation and survival.
 
 ---
 

@@ -268,6 +268,15 @@ cross_links:
   - target: 01-human/05-tissue/alveolus
     relation: connects-to
     note: "Uncommon distant spread: although GIST metastasises mainly to the liver and peritoneum, advanced disease can reach the lungs and bone, unusual sites for this sarcoma."
+  - target: 01-human/03-molecular/igf-1
+    relation: connects-to
+    note: "Wild-type GIST driver: SDH-deficient (KIT/PDGFRA wild-type) GISTs overexpress IGF1R, making IGF-1 signalling a therapeutic target in this distinct, often paediatric subtype."
+  - target: 01-human/03-molecular/ntrk
+    relation: connects-to
+    note: "Rare targetable fusion: a small subset of quadruple-wild-type GISTs harbour NTRK gene fusions, rendering them sensitive to TRK inhibitors beyond the usual KIT-directed drugs."
+  - target: 01-human/03-molecular/fgfr
+    relation: connects-to
+    note: "Another wild-type lever: FGFR fusions and activation arise in some KIT/PDGFRA wild-type GISTs, an alternative oncogenic driver targetable with FGFR inhibitors."
 ---
 
 # GIST
@@ -482,6 +491,9 @@ No approved targeted therapy; sunitinib may have modest activity; clinical trial
 - `connects-to` → **[Neuroendocrine Tumors](../neuroendocrine-tumors/README.md)** — Two submucosal gut tumours: GISTs (KIT-driven, from interstitial cells of Cajal) and gastrointestinal neuroendocrine tumours both present as submucosal masses but arise from different cells and need different therapy.
 - `connects-to` → **[Cardiac Conduction System](../../05-tissue/cardiac-conduction-system/README.md)** — Pacemaker cells of two organs: GIST arises from the interstitial cells of Cajal—the gut's electrical pacemaker—conceptually paralleling the cardiac conduction system that paces the heart.
 - `connects-to` → **[Alveolus](../../05-tissue/alveolus/README.md)** — Uncommon distant spread: although GIST metastasises mainly to the liver and peritoneum, advanced disease can reach the lungs and bone, unusual sites for this sarcoma.
+- `connects-to` → **[IGF-1](../../03-molecular/igf-1/README.md)** — Wild-type GIST driver: SDH-deficient (KIT/PDGFRA wild-type) GISTs overexpress IGF1R, making IGF-1 signalling a therapeutic target in this distinct, often paediatric subtype.
+- `connects-to` → **[NTRK](../../03-molecular/ntrk/README.md)** — Rare targetable fusion: a small subset of quadruple-wild-type GISTs harbour NTRK gene fusions, rendering them sensitive to TRK inhibitors beyond the usual KIT-directed drugs.
+- `connects-to` → **[FGFR](../../03-molecular/fgfr/README.md)** — Another wild-type lever: FGFR fusions and activation arise in some KIT/PDGFRA wild-type GISTs, an alternative oncogenic driver targetable with FGFR inhibitors.
 
 ---
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
