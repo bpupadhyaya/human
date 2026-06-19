@@ -250,6 +250,15 @@ cross_links:
   - target: 03-medicine/02-traditional/panax-ginseng
     relation: connects-to
     note: "Ginsenosides are studied for neuroprotection: Panax ginseng shows dopaminergic-neuron-protective effects in Parkinson's models, joining ginkgo among traditional remedies explored as adjuncts, though none replace levodopa."
+  - target: 01-human/05-tissue/intestinal-epithelium
+    relation: connects-to
+    note: "It may begin in the gut: α-synuclein pathology can start in the enteric nervous system of the intestinal wall and ascend the vagus to the brain (Braak's gut-first hypothesis), and constipation precedes the tremor by years."
+  - target: 01-human/05-tissue/hippocampus
+    relation: connects-to
+    note: "Dementia comes with time: most people with Parkinson's eventually develop cognitive decline as α-synuclein and Lewy pathology spread to the hippocampus and cortex, blurring the line with Lewy body dementia."
+  - target: 01-human/07-system/covid-19-disease
+    relation: connects-to
+    note: "Infections can trigger parkinsonism: as influenza once left post-encephalitic parkinsonism, viral infections including COVID-19 are reported to precipitate or unmask Parkinson's, supporting a role for neuroinflammation in its onset."
 ---
 
 # Parkinson's Disease
@@ -466,6 +475,9 @@ PD is primarily a disease of aging (mean onset ~60 years), but **~10–15% of ca
 - `connects-to` → **[Axonal Transport](../../05-tissue/axonal-transport/README.md)** — Aggregates clog the axon: α-synuclein oligomers impair axonal transport in nigrostriatal neurons, contributing to the dying-back degeneration that strips dopamine terminals from the striatum before cell bodies die.
 - `connects-to` → **[Myocardium](../../05-tissue/myocardium/README.md)** — It denervates the heart: Parkinson's causes cardiac sympathetic denervation, so reduced MIBG uptake in the myocardium is an early biomarker distinguishing it from atypical parkinsonism, and contributes to orthostatic hypotension.
 - `connects-to` → **[Panax Ginseng](../../../03-medicine/02-traditional/panax-ginseng/README.md)** — Ginsenosides are studied for neuroprotection: Panax ginseng shows dopaminergic-neuron-protective effects in Parkinson's models, joining ginkgo among traditional remedies explored as adjuncts, though none replace levodopa.
+- `connects-to` → **[Intestinal Epithelium](../../05-tissue/intestinal-epithelium/README.md)** — It may begin in the gut: α-synuclein pathology can start in the enteric nervous system of the intestinal wall and ascend the vagus to the brain (Braak's gut-first hypothesis), and constipation precedes the tremor by years.
+- `connects-to` → **[Hippocampus](../../05-tissue/hippocampus/README.md)** — Dementia comes with time: most people with Parkinson's eventually develop cognitive decline as α-synuclein and Lewy pathology spread to the hippocampus and cortex, blurring the line with Lewy body dementia.
+- `connects-to` → **[COVID-19 Disease](../covid-19-disease/README.md)** — Infections can trigger parkinsonism: as influenza once left post-encephalitic parkinsonism, viral infections including COVID-19 are reported to precipitate or unmask Parkinson's, supporting a role for neuroinflammation in its onset.
 
 [^kalia-2015-pd-review]: Kalia LV, Lang AE. Parkinson's disease. *Lancet.* 2015;386(9996):896-912. [doi:10.1016/S0140-6736(14)61393-3](https://doi.org/10.1016/S0140-6736(14)61393-3) · [PubMed 25904081](https://pubmed.ncbi.nlm.nih.gov/25904081/)
 [^spillantini-1997-lewy-body]: Spillantini MG, Schmidt ML, Lee VM, Trojanowski JQ, Jakes R, Goedert M. Alpha-synuclein in Lewy bodies. *Nature.* 1997;388(6645):839-840. [doi:10.1038/42166](https://doi.org/10.1038/42166) · [PubMed 9278044](https://pubmed.ncbi.nlm.nih.gov/9278044/)

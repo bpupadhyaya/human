@@ -244,6 +244,15 @@ cross_links:
   - target: 01-human/05-tissue/hepatic-lobule
     relation: connects-to
     note: "It clots the hepatic veins: PNH characteristically causes Budd-Chiari syndrome, where hepatic-vein thrombosis congests the centrilobular zones of the liver lobule, a leading cause of its mortality."
+  - target: 01-human/05-tissue/glomerulus
+    relation: connects-to
+    note: "Free haemoglobin scars the kidney: chronic intravascular haemolysis in PNH spills haemoglobin that causes pigment nephropathy and tubular haemosiderosis, driving the chronic kidney disease that shortens survival."
+  - target: 01-human/05-tissue/arterial-wall
+    relation: connects-to
+    note: "It strips the blood of nitric oxide: free haemoglobin from PNH haemolysis scavenges nitric oxide, causing smooth-muscle dystonia, pulmonary hypertension and the prothrombotic vascular dysfunction central to the disease."
+  - target: 01-human/07-system/thrombotic-thrombocytopenic-purpura
+    relation: connects-to
+    note: "A differential of haemolytic anaemia: PNH and thrombotic thrombocytopenic purpura both cause intravascular haemolysis—PNH by complement lysis, TTP by microangiopathic shearing—distinguished by flow cytometry, the blood film and ADAMTS13."
 ---
 
 # Paroxysmal Nocturnal Hemoglobinuria
@@ -411,6 +420,9 @@ When PIGA is mutated in an HSC → all progeny cells (RBCs, WBCs, platelets) of 
 - `connects-to` → **[Cancer Chemotherapy](../../../03-medicine/01-modern/13-cancer/cancer-chemotherapy/README.md)** — Marrow failure links it to cytotoxics: PNH arises against aplastic anaemia and MDS, whose immunosuppressive and chemotherapy regimens — and conditioning for the curative bone-marrow transplant — intersect with its course.
 - `connects-to` → **[Sickle Cell Disease](../sickle-cell-disease/README.md)** — Both unleash free haemoglobin: PNH and sickle cell disease share intravascular haemolysis that releases cell-free haemoglobin, scavenging nitric oxide to cause smooth-muscle dystonia, pulmonary hypertension and thrombosis.
 - `connects-to` → **[Hepatic Lobule](../../05-tissue/hepatic-lobule/README.md)** — It clots the hepatic veins: PNH characteristically causes Budd-Chiari syndrome, where hepatic-vein thrombosis congests the centrilobular zones of the liver lobule, a leading cause of its mortality.
+- `connects-to` → **[Glomerulus](../../05-tissue/glomerulus/README.md)** — Free haemoglobin scars the kidney: chronic intravascular haemolysis in PNH spills haemoglobin that causes pigment nephropathy and tubular haemosiderosis, driving the chronic kidney disease that shortens survival.
+- `connects-to` → **[Arterial Wall](../../05-tissue/arterial-wall/README.md)** — It strips the blood of nitric oxide: free haemoglobin from PNH haemolysis scavenges nitric oxide, causing smooth-muscle dystonia, pulmonary hypertension and the prothrombotic vascular dysfunction central to the disease.
+- `connects-to` → **[Thrombotic Thrombocytopenic Purpura](../thrombotic-thrombocytopenic-purpura/README.md)** — A differential of haemolytic anaemia: PNH and thrombotic thrombocytopenic purpura both cause intravascular haemolysis—PNH by complement lysis, TTP by microangiopathic shearing—distinguished by flow cytometry, the blood film and ADAMTS13.
 
 ---
 
