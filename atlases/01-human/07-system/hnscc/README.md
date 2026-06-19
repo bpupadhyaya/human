@@ -259,6 +259,15 @@ cross_links:
   - target: 01-human/05-tissue/arterial-wall
     relation: connects-to
     note: "Carotid blowout: tumour or radiation eroding the carotid artery wall causes catastrophic carotid-blowout haemorrhage, a feared head-and-neck cancer emergency."
+  - target: 01-human/07-system/dermatomyositis
+    relation: connects-to
+    note: "A paraneoplastic flag: nasopharyngeal carcinoma is the head-and-neck cancer most tied to dermatomyositis (especially in East Asia), so a new diagnosis prompts a thorough cancer search."
+  - target: 01-human/07-system/aplastic-anemia
+    relation: connects-to
+    note: "Cancer of DNA-repair failure: Fanconi anaemia patients develop head-and-neck SCC at strikingly young ages, the same DNA-repair defect causing their marrow failure sensitising the mucosa to carcinogens."
+  - target: 01-human/07-system/gvhd
+    relation: connects-to
+    note: "Oral cancer after transplant: chronic graft-versus-host disease of the mouth predisposes to oral squamous cell carcinoma, a late head-and-neck cancer in long-term transplant survivors."
 ---
 
 # HNSCC
@@ -454,6 +463,9 @@ HPV+ oropharyngeal: Node staging based on number (not laterality); HPV-negative 
 - `connects-to` → **[Peripheral Nerve](../../05-tissue/peripheral-nerve/README.md)** — Perineural invasion: HNSCC characteristically tracks along peripheral nerves beyond the visible tumour, a pattern that predicts recurrence and mandates wider resection and adjuvant radiation.
 - `connects-to` → **[Alveolus](../../05-tissue/alveolus/README.md)** — Lung is the main distant site: HNSCC metastasises to the lungs and shares smoking risk with second primary lung cancers, seeding the alveolar capillary bed.
 - `connects-to` → **[Arterial Wall](../../05-tissue/arterial-wall/README.md)** — Carotid blowout: tumour or radiation eroding the carotid artery wall causes catastrophic carotid-blowout haemorrhage, a feared head-and-neck cancer emergency.
+- `connects-to` → **[Dermatomyositis](../dermatomyositis/README.md)** — A paraneoplastic flag: nasopharyngeal carcinoma is the head-and-neck cancer most tied to dermatomyositis (especially in East Asia), so a new diagnosis prompts a thorough cancer search.
+- `connects-to` → **[Aplastic Anemia](../aplastic-anemia/README.md)** — Cancer of DNA-repair failure: Fanconi anaemia patients develop head-and-neck SCC at strikingly young ages, the same DNA-repair defect causing their marrow failure sensitising the mucosa to carcinogens.
+- `connects-to` → **[GVHD](../gvhd/README.md)** — Oral cancer after transplant: chronic graft-versus-host disease of the mouth predisposes to oral squamous cell carcinoma, a late head-and-neck cancer in long-term transplant survivors.
 
 [^burtness-2019-keynote048]: Burtness B, Harrington KJ, Greil R, et al. Pembrolizumab alone or with chemotherapy versus cetuximab with chemotherapy for recurrent or metastatic squamous cell carcinoma of the head and neck (KEYNOTE-048). *Lancet.* 2019;394(10212):1915-1928. [doi:10.1016/S0140-6736(19)32591-7](https://doi.org/10.1016/S0140-6736(19)32591-7) · [PubMed 31679945](https://pubmed.ncbi.nlm.nih.gov/31679945/)
 [^vermorken-2008-extreme]: Vermorken JB, Mesia R, Rivera F, et al. Platinum-based chemotherapy plus cetuximab in head and neck cancer. *N Engl J Med.* 2008;359(11):1116-1127. [doi:10.1056/NEJMoa0802656](https://doi.org/10.1056/NEJMoa0802656) · [PubMed 18784101](https://pubmed.ncbi.nlm.nih.gov/18784101/)
