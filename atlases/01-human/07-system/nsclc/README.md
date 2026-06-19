@@ -247,6 +247,15 @@ cross_links:
   - target: 01-human/05-tissue/cortical-bone
     relation: connects-to
     note: "It spreads to and erodes bone: non-small-cell lung cancer frequently metastasises to the skeleton, causing lytic cortical bone destruction, pain and fractures treated with bone-protective agents."
+  - target: 01-human/05-tissue/germinal-center
+    relation: connects-to
+    note: "Lymphoid islands predict its immunotherapy response: non-small-cell lung cancers bearing tertiary lymphoid structures with germinal-centre B-cell aggregates respond better to checkpoint blockade, the immunotherapy that transformed NSCLC care."
+  - target: 01-human/07-system/thyroid-cancer
+    relation: connects-to
+    note: "A shared RET-fusion target: RET-rearranged non-small-cell lung cancer and RET-altered thyroid cancers both respond to selective RET inhibitors (selpercatinib, pralsetinib)—one druggable fusion across two organs."
+  - target: 01-human/07-system/bladder-cancer
+    relation: connects-to
+    note: "Tobacco's twin malignancies: cigarette carcinogens that cause non-small-cell lung cancer are also excreted in urine to drive bladder cancer, so the two are classic field-cancerisation partners and a smoker often risks both."
 ---
 
 # NSCLC
@@ -424,6 +433,9 @@ cross_links:
 - `connects-to` → **[Checkpoint Inhibitors](../../../03-medicine/01-modern/13-cancer/checkpoint-inhibitors/README.md)** — Immunotherapy is now first-line: pembrolizumab, alone or with chemotherapy by PD-L1 level, transformed advanced non-small-cell lung cancer, with adjuvant and neoadjuvant use expanding.
 - `connects-to` → **[Cancer Chemotherapy](../../../03-medicine/01-modern/13-cancer/cancer-chemotherapy/README.md)** — Platinum doublets remain a backbone: carboplatin or cisplatin with pemetrexed or a taxane is the chemotherapy foundation, given with immunotherapy or after targeted options are exhausted.
 - `connects-to` → **[Cortical Bone](../../05-tissue/cortical-bone/README.md)** — It spreads to and erodes bone: non-small-cell lung cancer frequently metastasises to the skeleton, causing lytic cortical bone destruction, pain and fractures treated with bone-protective agents.
+- `connects-to` → **[Germinal Center](../../05-tissue/germinal-center/README.md)** — Lymphoid islands predict its immunotherapy response: non-small-cell lung cancers bearing tertiary lymphoid structures with germinal-centre B-cell aggregates respond better to checkpoint blockade, the immunotherapy that transformed NSCLC care.
+- `connects-to` → **[Thyroid Cancer](../thyroid-cancer/README.md)** — A shared RET-fusion target: RET-rearranged non-small-cell lung cancer and RET-altered thyroid cancers both respond to selective RET inhibitors (selpercatinib, pralsetinib)—one druggable fusion across two organs.
+- `connects-to` → **[Bladder Cancer](../bladder-cancer/README.md)** — Tobacco's twin malignancies: cigarette carcinogens that cause non-small-cell lung cancer are also excreted in urine to drive bladder cancer, so the two are classic field-cancerisation partners and a smoker often risks both.
 
 [^soria-2018-osimertinib-flaura]: Soria JC, Ohe Y, Vansteenkiste J, et al. Osimertinib in untreated EGFR-mutated advanced non-small-cell lung cancer. *N Engl J Med.* 2018;378(2):113-125. [doi:10.1056/NEJMoa1713137](https://doi.org/10.1056/NEJMoa1713137) · [PubMed 29151359](https://pubmed.ncbi.nlm.nih.gov/29151359/)
 [^reck-2016-pembrolizumab-keynote024]: Reck M, Rodríguez-Abreu D, Robinson AG, et al. Pembrolizumab versus chemotherapy for PD-L1-positive non-small-cell lung cancer. *N Engl J Med.* 2016;375(19):1823-1833. [doi:10.1056/NEJMoa1606774](https://doi.org/10.1056/NEJMoa1606774) · [PubMed 27718347](https://pubmed.ncbi.nlm.nih.gov/27718347/)
