@@ -253,6 +253,15 @@ cross_links:
   - target: 01-human/07-system/aplastic-anemia
     relation: connects-to
     note: "Two non-deficiency anaemias contrasted: anaemia of chronic disease comes from inflammatory iron sequestration with a working marrow, whereas aplastic anaemia is failure of the marrow itself — both with normal iron stores."
+  - target: 01-human/05-tissue/myocardium
+    relation: connects-to
+    note: "Chronic anaemia strains the heart: persistent low haemoglobin forces a higher cardiac output, and in heart failure or CKD the anaemia of chronic disease worsens myocardial workload and outcomes."
+  - target: 01-human/07-system/covid-19-disease
+    relation: connects-to
+    note: "Anaemia of inflammation in infection: severe COVID-19 raises IL-6 and hepcidin, sequestering iron in macrophages and causing the anaemia of inflammation typical of chronic-disease anaemia."
+  - target: 01-human/07-system/myelofibrosis
+    relation: connects-to
+    note: "Anaemia of a chronic marrow disease: myelofibrosis causes anaemia through marrow fibrosis and splenic sequestration compounded by an inflammatory, hepcidin-driven component, blending with the anaemia of chronic disease."
 ---
 
 # Anemia of Chronic Disease
@@ -455,6 +464,9 @@ This adaptive rationale explains why **aggressive iron supplementation during ac
 - `connects-to` → **[Hepatic Lobule](../../05-tissue/hepatic-lobule/README.md)** — The liver sets the iron trap: IL-6 from inflammation drives hepatocytes in the liver lobule to make hepcidin, the master regulator that locks iron inside macrophages and starves erythropoiesis — the core of anaemia of chronic disease.
 - `connects-to` → **[Cancer Chemotherapy](../../../03-medicine/01-modern/13-cancer/cancer-chemotherapy/README.md)** — Cancer anaemia comes from both sides: malignancy itself drives anaemia of chronic disease through inflammation, while chemotherapy adds marrow suppression — managed with iron, erythropoiesis-stimulating agents or transfusion.
 - `connects-to` → **[Aplastic Anemia](../aplastic-anemia/README.md)** — Two non-deficiency anaemias contrasted: anaemia of chronic disease comes from inflammatory iron sequestration with a working marrow, whereas aplastic anaemia is failure of the marrow itself — both with normal iron stores.
+- `connects-to` → **[Myocardium](../../05-tissue/myocardium/README.md)** — Chronic anaemia strains the heart: persistent low haemoglobin forces a higher cardiac output, and in heart failure or CKD the anaemia of chronic disease worsens myocardial workload and outcomes.
+- `connects-to` → **[COVID-19 Disease](../covid-19-disease/README.md)** — Anaemia of inflammation in infection: severe COVID-19 raises IL-6 and hepcidin, sequestering iron in macrophages and causing the anaemia of inflammation typical of chronic-disease anaemia.
+- `connects-to` → **[Myelofibrosis](../myelofibrosis/README.md)** — Anaemia of a chronic marrow disease: myelofibrosis causes anaemia through marrow fibrosis and splenic sequestration compounded by an inflammatory, hepcidin-driven component, blending with the anaemia of chronic disease.
 
 [^weiss-2005-acd-review]: Weiss G, Goodnough LT. Anemia of chronic disease. *N Engl J Med.* 2005;352(10):1011-1023. [doi:10.1056/NEJMra041809](https://doi.org/10.1056/NEJMra041809) · [PubMed 15758012](https://pubmed.ncbi.nlm.nih.gov/15758012/)
 [^nemeth-2004-il6-hepcidin]: Nemeth E, Rivera S, Gabayan V, et al. IL-6 mediates hypoferremia of inflammation by inducing the synthesis of the iron regulatory hormone hepcidin. *J Clin Invest.* 2004;113(9):1271-1276. [doi:10.1172/JCI200420945](https://doi.org/10.1172/JCI200420945) · [PubMed 15124018](https://pubmed.ncbi.nlm.nih.gov/15124018/)
