@@ -265,6 +265,15 @@ cross_links:
   - target: 01-human/07-system/malaria
     relation: connects-to
     note: "A TMA mimic in the returning traveller: severe falciparum malaria sequesters parasitised red cells in the microvasculature, producing thrombocytopenia and haemolysis that can be mistaken for a thrombotic microangiopathy."
+  - target: 01-human/07-system/covid-19-disease
+    relation: connects-to
+    note: "An infectious trigger: COVID-19 can precipitate relapse of immune TTP and cause its own thrombotic microangiopathy through widespread endothelial injury, blurring the line between the two."
+  - target: 01-human/07-system/pancreatic-cancer
+    relation: connects-to
+    note: "Cancer-associated microangiopathy: mucin-producing adenocarcinomas such as pancreatic and gastric cancer cause a microangiopathic haemolytic anaemia that mimics TTP but has normal ADAMTS13 and needs treating the tumour."
+  - target: 01-human/05-tissue/cardiac-conduction-system
+    relation: connects-to
+    note: "Microthrombi in the heart: platelet-rich microthrombi lodge in the myocardium and its conduction system during TTP, causing arrhythmia and sudden cardiac death—a major and often overlooked cause of acute mortality."
 ---
 
 # Thrombotic Thrombocytopenic Purpura
@@ -502,6 +511,9 @@ In healthy individuals, ADAMTS13 (~190 kDa plasma glycoprotein; hepatic synthesi
 - `connects-to` → **[Arterial Wall](../../05-tissue/arterial-wall/README.md)** — Disseminated arteriolar occlusion: TTP's platelet-VWF microthrombi lodge in terminal arterioles throughout the body—brain, heart, kidney—and this systemic small-vessel obstruction drives its multi-organ ischaemia.
 - `connects-to` → **[Gastric Cancer](../gastric-cancer/README.md)** — Cancer-associated microangiopathy: widely metastatic adenocarcinomas—classically gastric cancer—can trigger a microangiopathic haemolytic anaemia mimicking TTP, but with normal ADAMTS13 and no response to plasma exchange.
 - `connects-to` → **[Malaria](../malaria/README.md)** — A TMA mimic in the returning traveller: severe falciparum malaria sequesters parasitised red cells in the microvasculature, producing thrombocytopenia and haemolysis that can be mistaken for a thrombotic microangiopathy.
+- `connects-to` → **[COVID-19 Disease](../covid-19-disease/README.md)** — An infectious trigger: COVID-19 can precipitate relapse of immune TTP and cause its own thrombotic microangiopathy through widespread endothelial injury, blurring the line between the two.
+- `connects-to` → **[Pancreatic Cancer](../pancreatic-cancer/README.md)** — Cancer-associated microangiopathy: mucin-producing adenocarcinomas such as pancreatic and gastric cancer cause a microangiopathic haemolytic anaemia that mimics TTP but has normal ADAMTS13 and needs treating the tumour.
+- `connects-to` → **[Cardiac Conduction System](../../05-tissue/cardiac-conduction-system/README.md)** — Microthrombi in the heart: platelet-rich microthrombi lodge in the myocardium and its conduction system during TTP, causing arrhythmia and sudden cardiac death—a major and often overlooked cause of acute mortality.
 
 ---
 

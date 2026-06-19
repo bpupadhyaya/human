@@ -265,6 +265,15 @@ cross_links:
   - target: 01-human/07-system/gvhd
     relation: connects-to
     note: "A fibrosis it imitates: chronic sclerodermatous graft-versus-host disease reproduces SSc's skin tightening and fibrosis, showing how alloimmune and autoimmune injury converge on the same fibrotic endpoint."
+  - target: 01-human/07-system/esophageal-cancer
+    relation: connects-to
+    note: "Reflux to malignancy: severe oesophageal dysmotility and chronic acid reflux in systemic sclerosis drive Barrett's metaplasia, raising the long-term risk of oesophageal adenocarcinoma."
+  - target: 01-human/07-system/breast-cancer
+    relation: connects-to
+    note: "Cancer-triggered autoimmunity: anti-RNA-polymerase-III-positive systemic sclerosis is associated with a synchronous cancer, often breast or lung, within a few years—a paraneoplastic scleroderma where the tumour appears to spark the disease."
+  - target: 01-human/05-tissue/cardiac-conduction-system
+    relation: connects-to
+    note: "Fibrosis hits the wiring: patchy myocardial fibrosis in systemic sclerosis scars the cardiac conduction system, causing heart block and ventricular arrhythmias that are a leading cause of sudden death in the disease."
 ---
 
 # Systemic Sclerosis
@@ -461,6 +470,9 @@ Identical to IPAH: medial hypertrophy, intimal fibrosis, concentric laminar inti
 - `connects-to` → **[Alveolus](../../05-tissue/alveolus/README.md)** — The leading cause of death: SSc-associated interstitial lung disease scars the alveolar walls into a stiff, fibrotic lung, and progressive fibrosis here now kills more scleroderma patients than renal crisis.
 - `connects-to` → **[Cortical Bone](../../05-tissue/cortical-bone/README.md)** — Bone and soft-tissue destruction: SSc causes acro-osteolysis—resorption of the distal phalangeal cortical bone—alongside subcutaneous calcinosis, deforming the fingertips.
 - `connects-to` → **[GVHD](../gvhd/README.md)** — A fibrosis it imitates: chronic sclerodermatous graft-versus-host disease reproduces SSc's skin tightening and fibrosis, showing how alloimmune and autoimmune injury converge on the same fibrotic endpoint.
+- `connects-to` → **[Esophageal Cancer](../esophageal-cancer/README.md)** — Reflux to malignancy: severe oesophageal dysmotility and chronic acid reflux in systemic sclerosis drive Barrett's metaplasia, raising the long-term risk of oesophageal adenocarcinoma.
+- `connects-to` → **[Breast Cancer](../breast-cancer/README.md)** — Cancer-triggered autoimmunity: anti-RNA-polymerase-III-positive systemic sclerosis is associated with a synchronous cancer, often breast or lung, within a few years—a paraneoplastic scleroderma where the tumour appears to spark the disease.
+- `connects-to` → **[Cardiac Conduction System](../../05-tissue/cardiac-conduction-system/README.md)** — Fibrosis hits the wiring: patchy myocardial fibrosis in systemic sclerosis scars the cardiac conduction system, causing heart block and ventricular arrhythmias that are a leading cause of sudden death in the disease.
 
 [^denton-2017-ssc-review]: Denton CP, Khanna D. Systemic sclerosis. *Lancet.* 2017;390(10103):1685-1699. [doi:10.1016/S0140-6736(17)30933-9](https://doi.org/10.1016/S0140-6736(17)30933-9) · [PubMed 28413064](https://pubmed.ncbi.nlm.nih.gov/28413064/)
 [^distler-2019-nintedanib-senscis]: Distler O, Highland KB, Gahlemann M, et al. Nintedanib for Systemic Sclerosis-Associated Interstitial Lung Disease. *N Engl J Med.* 2019;380(26):2518-2528. [doi:10.1056/NEJMoa1903076](https://doi.org/10.1056/NEJMoa1903076) · [PubMed 31112379](https://pubmed.ncbi.nlm.nih.gov/31112379/)
