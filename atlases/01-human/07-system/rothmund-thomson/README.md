@@ -268,6 +268,15 @@ cross_links:
   - target: 01-human/07-system/covid-19-disease
     relation: connects-to
     note: "Vulnerable to infection: Rothmund-Thomson can include immune dysfunction and bone-marrow failure, leaving affected patients more susceptible to severe infections including COVID-19."
+  - target: 01-human/03-molecular/cdk4-6
+    relation: connects-to
+    note: "Cell-cycle in osteosarcoma: the genomic instability of RECQL4 loss cooperates with CDK4/6-cyclin dysregulation to drive the osteosarcomas characteristic of Rothmund-Thomson."
+  - target: 01-human/03-molecular/igf-1
+    relation: connects-to
+    note: "Growth axis and bone tumours: GH/IGF-1 signalling, relevant to the short stature of Rothmund-Thomson, also feeds the osteosarcomas that are its signature malignancy."
+  - target: 01-human/03-molecular/myc
+    relation: connects-to
+    note: "Amplified oncogene: MYC amplification drives the osteosarcomas that arise in Rothmund-Thomson, downstream of its defective DNA repair and genomic instability."
 ---
 
 # Rothmund-Thomson Syndrome
@@ -488,6 +497,9 @@ The cardinal features of RTS type II are: (1) **poikiloderma** — the defining 
 - `connects-to` → **[BRCA1](../../03-molecular/brca1/README.md)** — Homologous recombination in common: RECQL4 works alongside the BRCA1-driven repair machinery, so like BRCA-deficient cells, Rothmund-Thomson cells handle DNA double-strand breaks poorly and show sensitivity to replication stress and PARP inhibition.
 - `connects-to` → **[CMML](../cmml/README.md)** — Myeloid clonal evolution: the genomic instability of Rothmund-Thomson predisposes to myeloid neoplasia, with myelodysplasia and overlap disorders like CMML arising as the damaged marrow accumulates mutations.
 - `connects-to` → **[COVID-19 Disease](../covid-19-disease/README.md)** — Vulnerable to infection: Rothmund-Thomson can include immune dysfunction and bone-marrow failure, leaving affected patients more susceptible to severe infections including COVID-19.
+- `connects-to` → **[CDK4/6](../../03-molecular/cdk4-6/README.md)** — Cell-cycle in osteosarcoma: the genomic instability of RECQL4 loss cooperates with CDK4/6-cyclin dysregulation to drive the osteosarcomas characteristic of Rothmund-Thomson.
+- `connects-to` → **[IGF-1](../../03-molecular/igf-1/README.md)** — Growth axis and bone tumours: GH/IGF-1 signalling, relevant to the short stature of Rothmund-Thomson, also feeds the osteosarcomas that are its signature malignancy.
+- `connects-to` → **[MYC](../../03-molecular/myc/README.md)** — Amplified oncogene: MYC amplification drives the osteosarcomas that arise in Rothmund-Thomson, downstream of its defective DNA repair and genomic instability.
 
 [^kitao-1999-recql4-rts]: Kitao S, Shimamoto A, Goto M, et al. Mutations in RECQL4 cause a subset of cases of Rothmund-Thomson syndrome. *Nat Genet.* 1999;22(1):82-84. [doi:10.1038/8788](https://doi.org/10.1038/8788) · [PubMed 10319867](https://pubmed.ncbi.nlm.nih.gov/10319867/)
 [^wang-2003-rts-cancer]: Wang LL, Gannavarapu A, Kozinetz CA, et al. Association between osteosarcoma and deleterious mutations in the RECQL4 gene in Rothmund-Thomson syndrome. *J Natl Cancer Inst.* 2003;95(9):669-674. [doi:10.1093/jnci/95.9.669](https://doi.org/10.1093/jnci/95.9.669) · [PubMed 12734318](https://pubmed.ncbi.nlm.nih.gov/12734318/)

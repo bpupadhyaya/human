@@ -274,6 +274,15 @@ cross_links:
   - target: 01-human/07-system/psoriasis
     relation: connects-to
     note: "Paradoxical psoriasis: the anti-TNF biologics that treat rheumatoid arthritis can paradoxically trigger psoriasiform skin eruptions, an unexpected adverse effect of blocking a cytokine central to both diseases."
+  - target: 01-human/03-molecular/vegf
+    relation: connects-to
+    note: "Pannus angiogenesis: VEGF-driven new vessel growth feeds the invasive synovial pannus of rheumatoid arthritis, sustaining the inflamed tissue that erodes joints."
+  - target: 01-human/03-molecular/baff
+    relation: connects-to
+    note: "Autoantibody support: BAFF sustains the autoreactive B cells that produce rheumatoid factor and anti-citrullinated-protein antibodies central to rheumatoid arthritis."
+  - target: 01-human/03-molecular/il-23
+    relation: connects-to
+    note: "Th17 inflammation: the IL-23/Th17 axis drives the IL-17-mediated synovial inflammation of rheumatoid arthritis, complementing TNF and IL-6 signalling."
 ---
 
 # Rheumatoid Arthritis
@@ -501,6 +510,9 @@ RA patients have:
 - `connects-to` → **[PTCL](../ptcl/README.md)** — Clonal T-cells in chronic autoimmunity: rheumatoid arthritis is classically associated with T-cell large granular lymphocytic leukaemia (Felty-like neutropenia) and a raised risk of T-cell lymphomas alongside the more familiar B-cell ones.
 - `connects-to` → **[Gout](../gout/README.md)** — Two inflammatory arthritides: gout and rheumatoid arthritis can mimic and even coexist, both causing acute swollen joints and erosions, distinguished by urate crystals versus autoantibodies and pannus.
 - `connects-to` → **[Psoriasis](../psoriasis/README.md)** — Paradoxical psoriasis: the anti-TNF biologics that treat rheumatoid arthritis can paradoxically trigger psoriasiform skin eruptions, an unexpected adverse effect of blocking a cytokine central to both diseases.
+- `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — Pannus angiogenesis: VEGF-driven new vessel growth feeds the invasive synovial pannus of rheumatoid arthritis, sustaining the inflamed tissue that erodes joints.
+- `connects-to` → **[BAFF](../../03-molecular/baff/README.md)** — Autoantibody support: BAFF sustains the autoreactive B cells that produce rheumatoid factor and anti-citrullinated-protein antibodies central to rheumatoid arthritis.
+- `connects-to` → **[IL-23](../../03-molecular/il-23/README.md)** — Th17 inflammation: the IL-23/Th17 axis drives the IL-17-mediated synovial inflammation of rheumatoid arthritis, complementing TNF and IL-6 signalling.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
