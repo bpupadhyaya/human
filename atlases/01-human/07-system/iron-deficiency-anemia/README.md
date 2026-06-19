@@ -273,6 +273,15 @@ cross_links:
   - target: 01-human/07-system/covid-19-disease
     relation: connects-to
     note: "Dysregulated iron in infection: COVID-19 disturbs iron metabolism with hyperferritinaemia and functional iron deficiency, and post-COVID anaemia and fatigue are increasingly recognised."
+  - target: 01-human/03-molecular/von-willebrand-factor
+    relation: connects-to
+    note: "Bleeding-driven loss: von Willebrand disease, from defective von Willebrand factor, causes mucosal bleeding and heavy menstruation that is a common occult cause of iron-deficiency anaemia."
+  - target: 01-human/07-system/hemophilia-a
+    relation: connects-to
+    note: "Chronic blood loss: recurrent bleeding in haemophilia A depletes body iron over time, a coagulation-disorder route to iron-deficiency anaemia distinct from the more common GI and menstrual losses."
+  - target: 01-human/07-system/immune-thrombocytopenia
+    relation: connects-to
+    note: "Platelet-loss bleeding: the mucocutaneous and menstrual bleeding of immune thrombocytopenia can drain iron stores, layering iron-deficiency anaemia onto the underlying low platelet count."
 ---
 
 # Iron Deficiency Anemia
@@ -478,6 +487,9 @@ Iron is essential for:
 - `connects-to` → **[Insomnia Disorder](../insomnia-disorder/README.md)** — Restless legs and sleep: iron deficiency causes restless legs syndrome, a major driver of sleep-onset insomnia that improves with iron repletion—iron being a cofactor for dopamine synthesis in the brain.
 - `connects-to` → **[Pulmonary Arterial Hypertension](../pulmonary-arterial-hypertension/README.md)** — Iron and the pulmonary vasculature: iron deficiency is common in pulmonary arterial hypertension and independently worsens symptoms and outcomes, prompting trials of intravenous iron repletion.
 - `connects-to` → **[COVID-19 Disease](../covid-19-disease/README.md)** — Dysregulated iron in infection: COVID-19 disturbs iron metabolism with hyperferritinaemia and functional iron deficiency, and post-COVID anaemia and fatigue are increasingly recognised.
+- `connects-to` → **[Von Willebrand Factor](../../03-molecular/von-willebrand-factor/README.md)** — Bleeding-driven loss: von Willebrand disease, from defective von Willebrand factor, causes mucosal bleeding and heavy menstruation that is a common occult cause of iron-deficiency anaemia.
+- `connects-to` → **[Hemophilia A](../hemophilia-a/README.md)** — Chronic blood loss: recurrent bleeding in haemophilia A depletes body iron over time, a coagulation-disorder route to iron-deficiency anaemia distinct from the more common GI and menstrual losses.
+- `connects-to` → **[Immune Thrombocytopenia](../immune-thrombocytopenia/README.md)** — Platelet-loss bleeding: the mucocutaneous and menstrual bleeding of immune thrombocytopenia can drain iron stores, layering iron-deficiency anaemia onto the underlying low platelet count.
 
 [^camaschella-2015-iron-deficiency]: Camaschella C. Iron-deficiency anemia. *N Engl J Med.* 2015;372(19):1832-1843. [doi:10.1056/NEJMra1401038](https://doi.org/10.1056/NEJMra1401038) · [PubMed 25946282](https://pubmed.ncbi.nlm.nih.gov/25946282/)
 [^who-ferritin-guideline-2020]: World Health Organization. WHO guideline on use of ferritin concentrations to assess iron status in individuals and populations. WHO; 2020. [WHO publication](https://www.who.int/publications/i/item/9789240000124)

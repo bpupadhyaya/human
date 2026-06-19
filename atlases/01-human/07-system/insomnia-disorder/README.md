@@ -283,6 +283,15 @@ cross_links:
   - target: 01-human/05-tissue/myocardium
     relation: connects-to
     note: "Sleeplessness strains the heart: chronic insomnia independently raises the risk of hypertension, myocardial infarction and heart failure through sympathetic overactivity and inflammation."
+  - target: 01-human/03-molecular/crh
+    relation: connects-to
+    note: "Hyperarousal axis: insomnia is a disorder of hyperarousal driven by overactive CRH and HPA-axis signalling, the stress hormone keeping the brain alert when it should sleep."
+  - target: 01-human/03-molecular/il-1b
+    relation: connects-to
+    note: "Somnogenic cytokine: IL-1β is a physiological sleep regulator, and the dysregulated immune signalling of chronic insomnia disturbs the cytokine balance that normally promotes restorative sleep."
+  - target: 01-human/03-molecular/tnf-alpha
+    relation: connects-to
+    note: "Sleep-regulatory inflammation: TNF-α normally promotes sleep, and its disruption in chronic insomnia both reflects and feeds the low-grade inflammation that raises cardiometabolic risk."
 ---
 
 # Insomnia Disorder
@@ -508,6 +517,9 @@ CBT-I directly targets perpetuating factors.
 - `connects-to` → **[Iron-Deficiency Anemia](../iron-deficiency-anemia/README.md)** — Restless legs from low iron: iron deficiency causes restless legs syndrome, a major driver of sleep-onset insomnia that often resolves once iron stores are repleted.
 - `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — Menopausal sleeplessness: falling oestrogen and progesterone at menopause, with hot flushes and night sweats, are a leading cause of insomnia in midlife women.
 - `connects-to` → **[Myocardium](../../05-tissue/myocardium/README.md)** — Sleeplessness strains the heart: chronic insomnia independently raises the risk of hypertension, myocardial infarction and heart failure through sympathetic overactivity and inflammation.
+- `connects-to` → **[CRH](../../03-molecular/crh/README.md)** — Hyperarousal axis: insomnia is a disorder of hyperarousal driven by overactive CRH and HPA-axis signalling, the stress hormone keeping the brain alert when it should sleep.
+- `connects-to` → **[IL-1β](../../03-molecular/il-1b/README.md)** — Somnogenic cytokine: IL-1β is a physiological sleep regulator, and the dysregulated immune signalling of chronic insomnia disturbs the cytokine balance that normally promotes restorative sleep.
+- `connects-to` → **[TNF-α](../../03-molecular/tnf-alpha/README.md)** — Sleep-regulatory inflammation: TNF-α normally promotes sleep, and its disruption in chronic insomnia both reflects and feeds the low-grade inflammation that raises cardiometabolic risk.
 
 [^riemann-2017-insomnia-lancet]: Riemann D, Baglioni C, Bassetti C, et al. European guideline for the diagnosis and treatment of insomnia. *J Sleep Res.* 2017;26(6):675-700. [doi:10.1111/jsr.12594](https://doi.org/10.1111/jsr.12594) · [PubMed 28875581](https://pubmed.ncbi.nlm.nih.gov/28875581/)
 [^trauer-2015-cbti-meta]: Trauer JM, Qian MY, Doyle JS, et al. Cognitive behavioral therapy for chronic insomnia. *Ann Intern Med.* 2015;163(3):191-204. [doi:10.7326/M14-2841](https://doi.org/10.7326/M14-2841) · [PubMed 26054060](https://pubmed.ncbi.nlm.nih.gov/26054060/)
