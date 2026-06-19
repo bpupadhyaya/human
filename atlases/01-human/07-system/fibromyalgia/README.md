@@ -249,6 +249,15 @@ cross_links:
   - target: 01-human/03-molecular/tnf-alpha
     relation: connects-to
     note: "A low-grade neuroimmune signal: though fibromyalgia lacks classic inflammation, modestly raised TNF-α and other cytokines in blood and CSF support a neuroimmune contribution to its central sensitisation."
+  - target: 01-human/05-tissue/intestinal-epithelium
+    relation: connects-to
+    note: "The IBS overlap: fibromyalgia coexists strongly with irritable bowel syndrome, sharing central sensitisation and gut-brain dysregulation at the intestinal epithelium and barrier, so the two are best treated together."
+  - target: 01-human/05-tissue/cardiac-conduction-system
+    relation: connects-to
+    note: "Dysautonomia: fibromyalgia frequently features autonomic dysfunction with orthostatic intolerance, POTS and reduced heart-rate variability, reflecting dysregulated autonomic control of the cardiac conduction system."
+  - target: 01-human/07-system/obsessive-compulsive-disorder
+    relation: connects-to
+    note: "Anxiety-spectrum comorbidity: fibromyalgia is over-represented alongside obsessive-compulsive and other anxiety disorders, sharing the serotonergic and stress-axis dysregulation that links central pain to anxiety."
 sources:
   - id: wolfe-2016-fibromyalgia-criteria
     type: peer-reviewed
@@ -486,6 +495,9 @@ FM is not a single-etiology disorder but a convergent syndrome resulting from th
 - `connects-to` → **[Systemic Sclerosis](../systemic-sclerosis/README.md)** — A confounder in connective-tissue disease: fibromyalgia frequently coexists with systemic sclerosis, its central pain amplification inflating disease-activity scores and complicating assessment of true inflammatory burden.
 - `connects-to` → **[Social Anxiety Disorder](../social-anxiety-disorder/README.md)** — The anxiety overlap: fibromyalgia is highly comorbid with anxiety disorders including social anxiety, sharing serotonergic-noradrenergic dysregulation that SNRIs like duloxetine target in both.
 - `connects-to` → **[TNF-alpha](../../03-molecular/tnf-alpha/README.md)** — A low-grade neuroimmune signal: though fibromyalgia lacks classic inflammation, modestly raised TNF-α and other cytokines in blood and CSF support a neuroimmune contribution to its central sensitisation.
+- `connects-to` → **[Intestinal Epithelium](../../05-tissue/intestinal-epithelium/README.md)** — The IBS overlap: fibromyalgia coexists strongly with irritable bowel syndrome, sharing central sensitisation and gut-brain dysregulation at the intestinal epithelium and barrier, so the two are best treated together.
+- `connects-to` → **[Cardiac Conduction System](../../05-tissue/cardiac-conduction-system/README.md)** — Dysautonomia: fibromyalgia frequently features autonomic dysfunction with orthostatic intolerance, POTS and reduced heart-rate variability, reflecting dysregulated autonomic control of the cardiac conduction system.
+- `connects-to` → **[Obsessive-Compulsive Disorder](../obsessive-compulsive-disorder/README.md)** — Anxiety-spectrum comorbidity: fibromyalgia is over-represented alongside obsessive-compulsive and other anxiety disorders, sharing the serotonergic and stress-axis dysregulation that links central pain to anxiety.
 
 [^wolfe-2016-fibromyalgia-criteria]: Wolfe F, Clauw DJ, Fitzcharles MA, et al. 2016 Revisions to the 2010/2011 fibromyalgia diagnostic criteria. *Semin Arthritis Rheum.* 2016;46(3):319-329. [doi:10.1016/j.semarthrit.2016.08.012](https://doi.org/10.1016/j.semarthrit.2016.08.012) · [PubMed 27916278](https://pubmed.ncbi.nlm.nih.gov/27916278/)
 [^clauw-2014-fibromyalgia-review]: Clauw DJ. Fibromyalgia: a clinical review. *JAMA.* 2014;311(15):1547-1555. [doi:10.1001/jama.2014.3266](https://doi.org/10.1001/jama.2014.3266) · [PubMed 24737367](https://pubmed.ncbi.nlm.nih.gov/24737367/)

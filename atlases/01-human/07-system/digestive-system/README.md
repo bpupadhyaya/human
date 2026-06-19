@@ -280,6 +280,15 @@ cross_links:
   - target: 01-human/06-organ/spleen
     relation: connects-to
     note: "The portal partner: the spleen drains into the portal vein, so cirrhosis and portal hypertension cause congestive splenomegaly and hypersplenism—linking digestive disease to sequestration of blood cells."
+  - target: 01-human/07-system/parkinsons-disease
+    relation: connects-to
+    note: "The gut-brain axis: Parkinson's may begin in the enteric nervous system, with alpha-synuclein aggregating in the gut wall and ascending the vagus nerve, and constipation often precedes the motor disease by years."
+  - target: 01-human/07-system/hereditary-pancreatitis
+    relation: connects-to
+    note: "Recurrent pancreatic injury: hereditary pancreatitis (PRSS1) causes repeated attacks of pancreatitis in the digestive system's exocrine pancreas, leading to chronic pancreatitis and a high lifetime pancreatic-cancer risk."
+  - target: 01-human/07-system/type-1-diabetes
+    relation: connects-to
+    note: "Two roles for one organ: the pancreas is both a digestive (exocrine) and endocrine gland, and type 1 diabetes destroys its islets of Langerhans, the endocrine cells embedded within this digestive organ."
 taxonomy:
   uberon: "UBERON:0001007"
 ---
@@ -456,6 +465,9 @@ The ENS can function autonomously without extrinsic innervation (Hirschsprung's 
 - **Connects to:** [HCC](../hcc/README.md) — cancer of the digestive system's largest organ: hepatocellular carcinoma arises in the chronically injured liver—from viral hepatitis, alcohol or fatty liver—the dominant primary cancer of the gut's metabolic powerhouse.
 - **Connects to:** [Obesity](../obesity/README.md) — the metabolic burden on the gut: obesity reshapes bile acids and the microbiome and drives fatty liver, gallstones, reflux and colorectal cancer, tying excess adiposity to disease across the digestive tract.
 - **Connects to:** [Spleen](../../06-organ/spleen/README.md) — the portal partner: the spleen drains into the portal vein, so cirrhosis and portal hypertension cause congestive splenomegaly and hypersplenism—linking digestive disease to sequestration of blood cells.
+- **Connects to:** [Parkinson's Disease](../parkinsons-disease/README.md) — the gut-brain axis: Parkinson's may begin in the enteric nervous system, with alpha-synuclein aggregating in the gut wall and ascending the vagus nerve, and constipation often precedes the motor disease by years.
+- **Connects to:** [Hereditary Pancreatitis](../hereditary-pancreatitis/README.md) — recurrent pancreatic injury: hereditary pancreatitis (PRSS1) causes repeated attacks of pancreatitis in the digestive system's exocrine pancreas, leading to chronic pancreatitis and a high lifetime pancreatic-cancer risk.
+- **Connects to:** [Type 1 Diabetes](../type-1-diabetes/README.md) — two roles for one organ: the pancreas is both a digestive (exocrine) and endocrine gland, and type 1 diabetes destroys its islets of Langerhans, the endocrine cells embedded within this digestive organ.
 
 ## Pathology
 
