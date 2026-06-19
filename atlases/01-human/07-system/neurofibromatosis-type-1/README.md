@@ -277,6 +277,15 @@ cross_links:
   - target: 01-human/03-molecular/pdgf
     relation: connects-to
     note: "Tumour microenvironment: PDGF signalling promotes neurofibroma growth and recruits the supportive stroma around the Schwann-cell tumours of NF1."
+  - target: 01-human/03-molecular/myc
+    relation: connects-to
+    note: "RAS-driven oncogene: unrestrained RAS signalling from NF1 loss upregulates MYC, driving the proliferation behind neurofibroma growth and malignant transformation."
+  - target: 01-human/03-molecular/vegf
+    relation: connects-to
+    note: "Plexiform angiogenesis: VEGF drives the rich vascularisation of the plexiform neurofibromas of NF1, supporting their growth and the bleeding risk of these tumours."
+  - target: 01-human/03-molecular/hif-1alpha
+    relation: connects-to
+    note: "Tumour hypoxia: HIF-1α stabilised in growing NF1 tumours drives the angiogenesis and metabolic adaptation that accompany their transformation to MPNST."
 ---
 
 # Neurofibromatosis Type 1
@@ -476,6 +485,9 @@ In glioma and MPNST: additional alterations required — MPNST requires CDKN2A/2
 - `connects-to` → **[BRAF](../../03-molecular/braf/README.md)** — RAF down the cascade: NF1 loss unleashes RAS into the BRAF-MEK-ERK cascade, the pathway targeted by MEK inhibitors such as selumetinib for NF1 plexiform neurofibromas.
 - `connects-to` → **[CDK4/6](../../03-molecular/cdk4-6/README.md)** — Cell-cycle in transformation: CDKN2A loss with CDK4/6 activation drives the malignant transformation of NF1 neurofibromas to MPNST and the growth of high-grade NF1 gliomas.
 - `connects-to` → **[PDGF](../../03-molecular/pdgf/README.md)** — Tumour microenvironment: PDGF signalling promotes neurofibroma growth and recruits the supportive stroma around the Schwann-cell tumours of NF1.
+- `connects-to` → **[MYC](../../03-molecular/myc/README.md)** — RAS-driven oncogene: unrestrained RAS signalling from NF1 loss upregulates MYC, driving the proliferation behind neurofibroma growth and malignant transformation.
+- `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — Plexiform angiogenesis: VEGF drives the rich vascularisation of the plexiform neurofibromas of NF1, supporting their growth and the bleeding risk of these tumours.
+- `connects-to` → **[HIF-1α](../../03-molecular/hif-1alpha/README.md)** — Tumour hypoxia: HIF-1α stabilised in growing NF1 tumours drives the angiogenesis and metabolic adaptation that accompany their transformation to MPNST.
 
 [^gutmann-2017-nf1-primer]: Gutmann DH, Ferner RE, Listernick RH, et al. Neurofibromatosis type 1. *Nat Rev Dis Primers.* 2017;3:17004. [doi:10.1038/nrdp.2017.4](https://doi.org/10.1038/nrdp.2017.4) · [PubMed 28230061](https://pubmed.ncbi.nlm.nih.gov/28230061/)
 [^dombi-2016-selumetinib]: Dombi E, Baldwin A, Marcus LJ, et al. Activity of Selumetinib in Neurofibromatosis Type 1-Related Plexiform Neurofibromas. *N Engl J Med.* 2016;375(26):2550-2560. [doi:10.1056/NEJMoa1605943](https://doi.org/10.1056/NEJMoa1605943) · [PubMed 28029918](https://pubmed.ncbi.nlm.nih.gov/28029918/)

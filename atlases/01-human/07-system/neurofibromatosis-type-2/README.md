@@ -277,6 +277,15 @@ cross_links:
   - target: 01-human/03-molecular/notch
     relation: connects-to
     note: "Crosstalk with Hippo: Notch signalling interacts with the NF2-merlin-Hippo-YAP axis in NF2 tumorigenesis, contributing to schwannoma and meningioma growth."
+  - target: 01-human/03-molecular/pik3ca
+    relation: connects-to
+    note: "PI3K activation: loss of merlin's growth restraint activates PI3K/AKT signalling that drives the proliferation of NF2-associated schwannomas and meningiomas."
+  - target: 01-human/03-molecular/myc
+    relation: connects-to
+    note: "Hippo-YAP target: with merlin loss derepressing YAP, MYC is upregulated to drive the proliferation of the schwannomas and meningiomas of NF2."
+  - target: 01-human/03-molecular/hif-1alpha
+    relation: connects-to
+    note: "Tumour hypoxia: HIF-1α stabilised in the growing NF2 tumours drives the VEGF angiogenesis that supplies vestibular schwannomas and meningiomas."
 ---
 
 # Neurofibromatosis Type 2
@@ -483,6 +492,9 @@ Merlin has an N-terminal FERM domain (α, β, γ lobes) that binds membrane lipi
 - `connects-to` → **[MET](../../03-molecular/met/README.md)** — RTK restraint lost: merlin (NF2) normally limits receptor tyrosine kinase signalling, so its loss de-represses MET and related receptors to drive schwannoma and meningioma growth.
 - `connects-to` → **[CDK4/6](../../03-molecular/cdk4-6/README.md)** — Cell-cycle progression: CDKN2A loss with CDK4/6 activation drives the progression of NF2-related meningiomas to higher grade, a candidate therapeutic target.
 - `connects-to` → **[Notch](../../03-molecular/notch/README.md)** — Crosstalk with Hippo: Notch signalling interacts with the NF2-merlin-Hippo-YAP axis in NF2 tumorigenesis, contributing to schwannoma and meningioma growth.
+- `connects-to` → **[PIK3CA](../../03-molecular/pik3ca/README.md)** — PI3K activation: loss of merlin's growth restraint activates PI3K/AKT signalling that drives the proliferation of NF2-associated schwannomas and meningiomas.
+- `connects-to` → **[MYC](../../03-molecular/myc/README.md)** — Hippo-YAP target: with merlin loss derepressing YAP, MYC is upregulated to drive the proliferation of the schwannomas and meningiomas of NF2.
+- `connects-to` → **[HIF-1α](../../03-molecular/hif-1alpha/README.md)** — Tumour hypoxia: HIF-1α stabilised in the growing NF2 tumours drives the VEGF angiogenesis that supplies vestibular schwannomas and meningiomas.
 
 [^asthagiri-2009-nf2-lancet]: Asthagiri AR, Parry DM, Butman JA, et al. Neurofibromatosis type 2. *Lancet.* 2009;373(9679):1974-1986. [doi:10.1016/S0140-6736(09)60259-2](https://doi.org/10.1016/S0140-6736(09)60259-2) · [PubMed 19476995](https://pubmed.ncbi.nlm.nih.gov/19476995/)
 [^plotkin-2009-nf2-bevacizumab]: Plotkin SR, Stemmer-Rachamimov AO, Barker FG 2nd, et al. Hearing improvement after bevacizumab in patients with neurofibromatosis type 2. *N Engl J Med.* 2009;361(4):358-367. [doi:10.1056/NEJMoa0902579](https://doi.org/10.1056/NEJMoa0902579) · [PubMed 19587327](https://pubmed.ncbi.nlm.nih.gov/19587327/)
