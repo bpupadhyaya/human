@@ -250,6 +250,15 @@ cross_links:
   - target: 03-medicine/01-modern/13-cancer/checkpoint-inhibitors
     relation: connects-to
     note: "Immunotherapy with a caveat: some peripheral T-cell lymphomas (especially EBV-driven or PD-L1-high subtypes) respond to PD-1 inhibitors, but checkpoint blockade can paradoxically accelerate certain T-cell lymphomas, so it is used cautiously."
+  - target: 01-human/07-system/cmml
+    relation: connects-to
+    note: "Shared clonal-haematopoiesis mutations: angioimmunoblastic T-cell lymphoma shares TET2 and DNMT3A mutations with CMML and other myeloid neoplasms, a common clonal-haematopoiesis origin—patients can develop both."
+  - target: 01-human/07-system/idh-mutant-glioma
+    relation: connects-to
+    note: "A shared IDH2 oncometabolite: angioimmunoblastic PTCL carries IDH2 mutations like those of IDH-mutant glioma and AML, producing 2-hydroxyglutarate—an unexpected metabolic link to a brain tumour."
+  - target: 01-human/05-tissue/hepatic-lobule
+    relation: connects-to
+    note: "Hepatosplenic infiltration: PTCL, especially the hepatosplenic subtype, infiltrates the sinusoids of the hepatic lobule and the spleen, causing cytopenias and hepatosplenomegaly."
 ---
 
 # Peripheral T-cell Lymphoma
@@ -472,6 +481,9 @@ Aggressive presentation; generalized lymphadenopathy; extranodal involvement (~6
 - `connects-to` → **[AML](../aml/README.md)** — Shared epigenetic mutations: angioimmunoblastic T-cell lymphoma carries TET2, DNMT3A and IDH2 mutations like acute myeloid leukaemia and clonal haematopoiesis, sometimes arising from the same mutant haematopoietic precursor.
 - `connects-to` → **[NSCLC](../nsclc/README.md)** — A shared ALK fusion: ALK-positive anaplastic large-cell lymphoma and ALK-rearranged non-small-cell lung cancer both depend on a constitutively active ALK kinase, so ALK inhibitors like crizotinib treat both across blood and lung.
 - `connects-to` → **[Checkpoint Inhibitors](../../../03-medicine/01-modern/13-cancer/checkpoint-inhibitors/README.md)** — Immunotherapy with a caveat: some peripheral T-cell lymphomas (especially EBV-driven or PD-L1-high subtypes) respond to PD-1 inhibitors, but checkpoint blockade can paradoxically accelerate certain T-cell lymphomas, so it is used cautiously.
+- `connects-to` → **[CMML](../cmml/README.md)** — Shared clonal-haematopoiesis mutations: angioimmunoblastic T-cell lymphoma shares TET2 and DNMT3A mutations with CMML and other myeloid neoplasms, a common clonal-haematopoiesis origin—patients can develop both.
+- `connects-to` → **[IDH-mutant Glioma](../idh-mutant-glioma/README.md)** — A shared IDH2 oncometabolite: angioimmunoblastic PTCL carries IDH2 mutations like those of IDH-mutant glioma and AML, producing 2-hydroxyglutarate—an unexpected metabolic link to a brain tumour.
+- `connects-to` → **[Hepatic Lobule](../../05-tissue/hepatic-lobule/README.md)** — Hepatosplenic infiltration: PTCL, especially the hepatosplenic subtype, infiltrates the sinusoids of the hepatic lobule and the spleen, causing cytopenias and hepatosplenomegaly.
 
 ---
 

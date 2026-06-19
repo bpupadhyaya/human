@@ -256,6 +256,15 @@ cross_links:
   - target: 01-human/07-system/tuberous-sclerosis-complex
     relation: connects-to
     note: "A rare route to PAH: tuberous sclerosis causes lymphangioleiomyomatosis (LAM), whose smooth-muscle proliferation destroys lung tissue and can produce pulmonary hypertension, linking the mTOR-driven syndrome to the pulmonary vasculature."
+  - target: 01-human/05-tissue/alveolus
+    relation: connects-to
+    note: "The gas-exchange interface: PAH's remodelled small pulmonary arteries sit beside the alveoli, and hypoxic pulmonary vasoconstriction—the alveolar oxygen response—drives the pressure rise in lung-disease-associated PAH."
+  - target: 01-human/05-tissue/cardiac-conduction-system
+    relation: connects-to
+    note: "Right-heart arrhythmia: progressive right-ventricular strain and dilatation in PAH cause atrial arrhythmias and conduction delay (right bundle branch block), worsening an already failing right heart."
+  - target: 01-human/07-system/neurofibromatosis-type-1
+    relation: connects-to
+    note: "A rare NF1 association: neurofibromatosis type 1 is a recognised, often severe cause of pulmonary arterial hypertension, adding a vasculopathy to its tumour and skin features."
 ---
 
 # Pulmonary Arterial Hypertension
@@ -458,6 +467,9 @@ Key variables: WHO functional class (I-IV), 6-minute walk distance (6MWD), NT-pr
 - `connects-to` → **[Myocardium](../../05-tissue/myocardium/README.md)** — It kills through the right heart: pulmonary arterial hypertension forces the right ventricle to pump against high resistance, driving RV hypertrophy then dilatation and failure (cor pulmonale)—the myocardial decline that determines survival.
 - `connects-to` → **[Endocardium](../../05-tissue/endocardium/README.md)** — It loosens the tricuspid valve: as the right ventricle dilates under pulmonary arterial hypertension, the tricuspid annulus stretches and the valve leaks, and the severity of this functional regurgitation tracks the pressure overload.
 - `connects-to` → **[Tuberous Sclerosis Complex](../tuberous-sclerosis-complex/README.md)** — A rare route to PAH: tuberous sclerosis causes lymphangioleiomyomatosis (LAM), whose smooth-muscle proliferation destroys lung tissue and can produce pulmonary hypertension, linking the mTOR-driven syndrome to the pulmonary vasculature.
+- `connects-to` → **[Alveolus](../../05-tissue/alveolus/README.md)** — The gas-exchange interface: PAH's remodelled small pulmonary arteries sit beside the alveoli, and hypoxic pulmonary vasoconstriction—the alveolar oxygen response—drives the pressure rise in lung-disease-associated PAH.
+- `connects-to` → **[Cardiac Conduction System](../../05-tissue/cardiac-conduction-system/README.md)** — Right-heart arrhythmia: progressive right-ventricular strain and dilatation in PAH cause atrial arrhythmias and conduction delay (right bundle branch block), worsening an already failing right heart.
+- `connects-to` → **[Neurofibromatosis Type 1](../neurofibromatosis-type-1/README.md)** — A rare NF1 association: neurofibromatosis type 1 is a recognised, often severe cause of pulmonary arterial hypertension, adding a vasculopathy to its tumour and skin features.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
