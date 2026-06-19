@@ -266,6 +266,15 @@ cross_links:
   - target: 01-human/05-tissue/hepatic-lobule
     relation: connects-to
     note: "The biggest lymph source: the liver generates a large share of the body's lymph from protein-rich fluid in the hepatic sinusoids, and when cirrhosis overwhelms this drainage the overflow becomes ascites."
+  - target: 01-human/03-molecular/cxcl12
+    relation: connects-to
+    note: "Lymph-node homing: CXCL12 (with CXCR4) directs the trafficking and positioning of lymphocytes and dendritic cells within lymph nodes, organising the adaptive immune response."
+  - target: 01-human/03-molecular/leptin
+    relation: connects-to
+    note: "Obesity and lymphedema: adipose-derived leptin links obesity to impaired lymphatic vessel function and lymphoedema, and it also modulates immune cells within lymph nodes."
+  - target: 02-pathogen/04-parasites/trypanosoma-brucei
+    relation: connects-to
+    note: "Lymphatic-tropic infection: African trypanosomiasis spreads through and enlarges lymph nodes—the posterior cervical swelling of Winterbottom's sign—before invading the central nervous system."
 ---
 
 # Lymphatic System
@@ -458,6 +467,9 @@ Enterocytes package dietary triglycerides + cholesterol + apoB-48 into chylomicr
 - `connects-to` → **[Atherosclerosis](../atherosclerosis/README.md)** — Lymphatics clear the artery: adventitial lymphatic vessels drain cholesterol from the arterial wall in reverse cholesterol transport, and when they fail, lipid accumulates and atherosclerosis worsens—an unexpected role for the lymphatic system in heart disease.
 - `connects-to` → **[HNSCC](../hnscc/README.md)** — Nodal spread defines prognosis: head and neck cancer metastasises first to the cervical lymph nodes, so the lymphatic system's drainage map dictates staging, neck dissection and the entire treatment plan.
 - `connects-to` → **[Hepatic Lobule](../../05-tissue/hepatic-lobule/README.md)** — The biggest lymph source: the liver generates a large share of the body's lymph from protein-rich fluid in the hepatic sinusoids, and when cirrhosis overwhelms this drainage the overflow becomes ascites.
+- `connects-to` → **[CXCL12](../../03-molecular/cxcl12/README.md)** — Lymph-node homing: CXCL12 (with CXCR4) directs the trafficking and positioning of lymphocytes and dendritic cells within lymph nodes, organising the adaptive immune response.
+- `connects-to` → **[Leptin](../../03-molecular/leptin/README.md)** — Obesity and lymphedema: adipose-derived leptin links obesity to impaired lymphatic vessel function and lymphoedema, and it also modulates immune cells within lymph nodes.
+- `connects-to` → **[Trypanosoma brucei](../../../02-pathogen/04-parasites/trypanosoma-brucei/README.md)** — Lymphatic-tropic infection: African trypanosomiasis spreads through and enlarges lymph nodes—the posterior cervical swelling of Winterbottom's sign—before invading the central nervous system.
 
 ## Pathology
 

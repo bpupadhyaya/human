@@ -268,6 +268,15 @@ cross_links:
   - target: 01-human/07-system/cowden-syndrome
     relation: connects-to
     note: "Overlapping endometrial and colon risk: Cowden syndrome (PTEN) independently raises the risk of endometrial and colorectal cancer, a PTEN/mTOR-driven syndrome to distinguish from Lynch in women with these tumours."
+  - target: 01-human/03-molecular/p53
+    relation: connects-to
+    note: "A distinct pathway: unlike chromosomally unstable colorectal cancers driven by p53 loss, Lynch (MSI) tumours arise from mismatch-repair failure and frameshift mutations, often retaining wild-type p53."
+  - target: 01-human/03-molecular/pik3ca
+    relation: connects-to
+    note: "Hypermutated activation: the mismatch-repair-deficient tumours of Lynch syndrome accumulate activating PIK3CA and frameshift mutations across their hypermutated genomes."
+  - target: 01-human/03-molecular/tert
+    relation: connects-to
+    note: "Replicative immortality: like other cancers, Lynch-associated tumours reactivate TERT to maintain telomeres, sustaining the unlimited division enabled by mismatch-repair loss."
 ---
 
 # Lynch Syndrome
@@ -491,6 +500,9 @@ MSI-H stage II CRC: adjuvant 5-FU/leucovorin does NOT improve OS (may be harmful
 - `connects-to` → **[Neurofibromatosis Type 1](../neurofibromatosis-type-1/README.md)** — When both copies fail: constitutional mismatch-repair deficiency (biallelic Lynch genes) causes a childhood-cancer syndrome with café-au-lait macules that closely mimics neurofibromatosis type 1, a key diagnostic pitfall.
 - `connects-to` → **[Peutz-Jeghers Syndrome](../peutz-jeghers-syndrome/README.md)** — A different polyposis pathway: Peutz-Jeghers (STK11) produces hamartomatous gut polyps and high GI cancer risk, contrasting with the mismatch-repair-driven adenoma-carcinoma route of Lynch in the differential of hereditary GI cancer.
 - `connects-to` → **[Cowden Syndrome](../cowden-syndrome/README.md)** — Overlapping endometrial and colon risk: Cowden syndrome (PTEN) independently raises the risk of endometrial and colorectal cancer, a PTEN/mTOR-driven syndrome to distinguish from Lynch in women with these tumours.
+- `connects-to` → **[p53](../../03-molecular/p53/README.md)** — A distinct pathway: unlike chromosomally unstable colorectal cancers driven by p53 loss, Lynch (MSI) tumours arise from mismatch-repair failure and frameshift mutations, often retaining wild-type p53.
+- `connects-to` → **[PIK3CA](../../03-molecular/pik3ca/README.md)** — Hypermutated activation: the mismatch-repair-deficient tumours of Lynch syndrome accumulate activating PIK3CA and frameshift mutations across their hypermutated genomes.
+- `connects-to` → **[TERT](../../03-molecular/tert/README.md)** — Replicative immortality: like other cancers, Lynch-associated tumours reactivate TERT to maintain telomeres, sustaining the unlimited division enabled by mismatch-repair loss.
 
 [^bonadona-2011-lynch-risks]: Bonadona V, Bonaïti B, Olschwang S, et al. Cancer risks associated with germline mutations in MLH1, MSH2, and MSH6 genes in Lynch syndrome. *JAMA.* 2011;305(22):2304-2310. [doi:10.1001/jama.2011.743](https://doi.org/10.1001/jama.2011.743) · [PubMed 21642683](https://pubmed.ncbi.nlm.nih.gov/21642683/)
 [^lynch-2015-lynch-review]: Lynch HT, Snyder CL, Shaw TG, et al. Milestones of Lynch syndrome: 1895-2015. *Nat Rev Cancer.* 2015;15(3):181-194. [doi:10.1038/nrc3878](https://doi.org/10.1038/nrc3878) · [PubMed 25673086](https://pubmed.ncbi.nlm.nih.gov/25673086/)
