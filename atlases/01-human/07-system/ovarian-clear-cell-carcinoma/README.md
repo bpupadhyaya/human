@@ -277,6 +277,15 @@ cross_links:
   - target: 01-human/03-molecular/tert
     relation: connects-to
     note: "Replicative immortality: TERT reactivation maintaining telomeres supports the persistent proliferation of ovarian clear-cell carcinoma, a notably chemoresistant tumour."
+  - target: 01-human/03-molecular/myc
+    relation: connects-to
+    note: "Proliferative oncogene: MYC activation drives the proliferation of ovarian clear-cell carcinoma, cooperating with its ARID1A and PIK3CA lesions."
+  - target: 01-human/03-molecular/cdk4-6
+    relation: connects-to
+    note: "Cell-cycle drive: cyclin D-CDK4/6 activity propels ovarian clear-cell carcinoma cells through the G1 checkpoint, a candidate vulnerability in this chemoresistant tumour."
+  - target: 01-human/03-molecular/tgf-beta
+    relation: connects-to
+    note: "Fibrosis and EMT: TGF-β signalling promotes the epithelial-mesenchymal transition and stromal remodelling that aid the invasion of ovarian clear-cell carcinoma."
 ---
 
 # Ovarian Clear Cell Carcinoma
@@ -505,6 +514,9 @@ Comprehensive surgical staging (TAH-BSO, omentectomy, pelvic/para-aortic lymphad
 - `connects-to` → **[YAP1](../../03-molecular/yap1/README.md)** — Hippo-YAP activation: ARID1A loss in ovarian clear-cell carcinoma deregulates the Hippo-YAP pathway, contributing to its growth and treatment resistance.
 - `connects-to` → **[Notch](../../03-molecular/notch/README.md)** — Notch signalling: dysregulated Notch signalling participates in ovarian clear-cell carcinoma, an additional pathway alongside its ARID1A and PI3K alterations.
 - `connects-to` → **[TERT](../../03-molecular/tert/README.md)** — Replicative immortality: TERT reactivation maintaining telomeres supports the persistent proliferation of ovarian clear-cell carcinoma, a notably chemoresistant tumour.
+- `connects-to` → **[MYC](../../03-molecular/myc/README.md)** — Proliferative oncogene: MYC activation drives the proliferation of ovarian clear-cell carcinoma, cooperating with its ARID1A and PIK3CA lesions.
+- `connects-to` → **[CDK4/6](../../03-molecular/cdk4-6/README.md)** — Cell-cycle drive: cyclin D-CDK4/6 activity propels ovarian clear-cell carcinoma cells through the G1 checkpoint, a candidate vulnerability in this chemoresistant tumour.
+- `connects-to` → **[TGF-β](../../03-molecular/tgf-beta/README.md)** — Fibrosis and EMT: TGF-β signalling promotes the epithelial-mesenchymal transition and stromal remodelling that aid the invasion of ovarian clear-cell carcinoma.
 
 ---
 

@@ -283,6 +283,15 @@ cross_links:
   - target: 01-human/03-molecular/ntrk
     relation: connects-to
     note: "Rare actionable fusion: NTRK gene fusions, though uncommon, offer one of the few targeted-therapy options in otherwise treatment-resistant pancreatic cancer."
+  - target: 01-human/03-molecular/akt
+    relation: connects-to
+    note: "PI3K/AKT survival: AKT signalling downstream of KRAS sustains pancreatic cancer cell survival and metabolism, contributing to its profound treatment resistance."
+  - target: 01-human/03-molecular/cyclin-d1
+    relation: connects-to
+    note: "Cell-cycle drive: with CDKN2A loss near-universal in pancreatic cancer, cyclin D-CDK4/6 activity drives unrestrained passage through the G1 checkpoint."
+  - target: 01-human/03-molecular/ezh2
+    relation: connects-to
+    note: "Epigenetic driver: EZH2 overexpression silences tumour-suppressor genes in pancreatic cancer, promoting proliferation and metastasis as an epigenetic target."
 ---
 
 # Pancreatic Cancer
@@ -491,6 +500,9 @@ cross_links:
 - `connects-to` → **[MYC](../../03-molecular/myc/README.md)** — Cooperating oncogene: MYC amplification cooperates with mutant KRAS to drive the proliferation and metabolic rewiring of pancreatic cancer.
 - `connects-to` → **[HIF-1α](../../03-molecular/hif-1alpha/README.md)** — Hypoxic stroma: the dense, poorly perfused desmoplastic stroma of pancreatic cancer stabilises HIF-1α, driving metabolic adaptation and resistance to chemotherapy.
 - `connects-to` → **[NTRK](../../03-molecular/ntrk/README.md)** — Rare actionable fusion: NTRK gene fusions, though uncommon, offer one of the few targeted-therapy options in otherwise treatment-resistant pancreatic cancer.
+- `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — PI3K/AKT survival: AKT signalling downstream of KRAS sustains pancreatic cancer cell survival and metabolism, contributing to its profound treatment resistance.
+- `connects-to` → **[Cyclin D1](../../03-molecular/cyclin-d1/README.md)** — Cell-cycle drive: with CDKN2A loss near-universal in pancreatic cancer, cyclin D-CDK4/6 activity drives unrestrained passage through the G1 checkpoint.
+- `connects-to` → **[EZH2](../../03-molecular/ezh2/README.md)** — Epigenetic driver: EZH2 overexpression silences tumour-suppressor genes in pancreatic cancer, promoting proliferation and metastasis as an epigenetic target.
 
 ---
 
