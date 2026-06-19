@@ -268,6 +268,15 @@ cross_links:
   - target: 01-human/05-tissue/myocardium
     relation: connects-to
     note: "Cardiotoxic survivorship: anthracyclines in high-risk neuroblastoma regimens injure the myocardium, leaving childhood survivors at lifelong risk of cardiomyopathy and heart failure decades later."
+  - target: 01-human/03-molecular/bcl-2
+    relation: connects-to
+    note: "Apoptosis evasion: neuroblastoma depends on anti-apoptotic BCL-2 family proteins for survival, a vulnerability targeted by BH3-mimetic drugs."
+  - target: 01-human/03-molecular/cdk4-6
+    relation: connects-to
+    note: "Cell-cycle drive: CDK4/6-cyclin D activity, amplified by MYCN, propels neuroblastoma proliferation, making CDK4/6 inhibition an investigational strategy."
+  - target: 01-human/03-molecular/ezh2
+    relation: connects-to
+    note: "MYCN's epigenetic effector: MYCN upregulates EZH2 to enforce the repressive, anti-differentiation chromatin programme of high-risk neuroblastoma."
 ---
 
 # Neuroblastoma
@@ -488,6 +497,9 @@ Stage MS (metastatic, <18 months, skin/liver/bone marrow only, MYCN wild-type): 
 - `connects-to` → **[NSCLC](../nsclc/README.md)** — A shared druggable driver: ALK rearrangements in lung cancer and activating ALK mutations in neuroblastoma make the same kinase targetable in both, so ALK inhibitors like lorlatinib cross from adult NSCLC into paediatric neuroblastoma.
 - `connects-to` → **[AML](../aml/README.md)** — Therapy-related leukaemia: the high-dose alkylator chemotherapy and stem-cell transplant used for high-risk neuroblastoma damage the marrow, occasionally causing secondary myelodysplasia and acute myeloid leukaemia in survivors.
 - `connects-to` → **[Myocardium](../../05-tissue/myocardium/README.md)** — Cardiotoxic survivorship: anthracyclines in high-risk neuroblastoma regimens injure the myocardium, leaving childhood survivors at lifelong risk of cardiomyopathy and heart failure decades later.
+- `connects-to` → **[BCL-2](../../03-molecular/bcl-2/README.md)** — Apoptosis evasion: neuroblastoma depends on anti-apoptotic BCL-2 family proteins for survival, a vulnerability targeted by BH3-mimetic drugs.
+- `connects-to` → **[CDK4/6](../../03-molecular/cdk4-6/README.md)** — Cell-cycle drive: CDK4/6-cyclin D activity, amplified by MYCN, propels neuroblastoma proliferation, making CDK4/6 inhibition an investigational strategy.
+- `connects-to` → **[EZH2](../../03-molecular/ezh2/README.md)** — MYCN's epigenetic effector: MYCN upregulates EZH2 to enforce the repressive, anti-differentiation chromatin programme of high-risk neuroblastoma.
 
 [^yu-2010-dinutuximab-nb]: Yu AL, Gilman AL, Ozkaynak MF, et al. Anti-GD2 antibody with GM-CSF, interleukin-2, and isotretinoin for neuroblastoma. *N Engl J Med.* 2010;363(14):1324-1334. [doi:10.1056/NEJMoa0911123](https://doi.org/10.1056/NEJMoa0911123) · [PubMed 20879881](https://pubmed.ncbi.nlm.nih.gov/20879881/)
 [^park-2019-tandem-sct-nb]: Park JR, Kreissman SG, London WB, et al. Effect of tandem autologous stem cell transplant vs single transplant on event-free survival in patients with high-risk neuroblastoma: a randomized clinical trial. *JAMA.* 2019;322(8):746-755. [doi:10.1001/jama.2019.11642](https://doi.org/10.1001/jama.2019.11642) · [PubMed 31454023](https://pubmed.ncbi.nlm.nih.gov/31454023/)

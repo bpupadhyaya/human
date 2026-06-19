@@ -277,6 +277,15 @@ cross_links:
   - target: 02-pathogen/04-parasites/plasmodium-falciparum
     relation: connects-to
     note: "Cerebral malaria: Plasmodium falciparum sequesters in the brain's microvasculature, causing the coma and seizures of cerebral malaria—one of the deadliest infections of the nervous system worldwide."
+  - target: 01-human/05-tissue/axonal-transport
+    relation: connects-to
+    note: "Long-distance logistics: fast axonal transport along microtubules ferries cargo across the vast lengths of neurons, and its failure underlies many neurodegenerative and peripheral nerve diseases."
+  - target: 01-human/06-organ/eye
+    relation: connects-to
+    note: "A window on the brain: the retina and optic nerve are direct extensions of the central nervous system, so the eye reveals neurological disease and shares its developmental and degenerative biology."
+  - target: 01-human/03-molecular/endocannabinoid
+    relation: connects-to
+    note: "Retrograde neuromodulation: the endocannabinoid system acts as a widespread retrograde messenger that tunes synaptic transmission throughout the nervous system."
 ---
 
 # Nervous System
@@ -399,6 +408,9 @@ Distributed cortical networks underlie language (Broca's area, Wernicke's area, 
 - `connects-to` → **[Narcolepsy](../narcolepsy/README.md)** — Sleep is a brain state: narcolepsy is a focal nervous-system disease in which loss of hypothalamic orexin neurons destabilises the sleep-wake switch, intruding REM and cataplexy into waking life.
 - `connects-to` → **[Gut Microbiome](../gut-microbiome/README.md)** — The gut-brain axis: the nervous system is in constant two-way dialogue with the gut microbiome via the vagus nerve, immune signalling and microbial metabolites, shaping mood, appetite and even neurodegeneration.
 - `connects-to` → **[Plasmodium falciparum](../../../02-pathogen/04-parasites/plasmodium-falciparum/README.md)** — Cerebral malaria: Plasmodium falciparum sequesters in the brain's microvasculature, causing the coma and seizures of cerebral malaria—one of the deadliest infections of the nervous system worldwide.
+- `connects-to` → **[Axonal Transport](../../05-tissue/axonal-transport/README.md)** — Long-distance logistics: fast axonal transport along microtubules ferries cargo across the vast lengths of neurons, and its failure underlies many neurodegenerative and peripheral nerve diseases.
+- `connects-to` → **[Eye](../../06-organ/eye/README.md)** — A window on the brain: the retina and optic nerve are direct extensions of the central nervous system, so the eye reveals neurological disease and shares its developmental and degenerative biology.
+- `connects-to` → **[Endocannabinoid](../../03-molecular/endocannabinoid/README.md)** — Retrograde neuromodulation: the endocannabinoid system acts as a widespread retrograde messenger that tunes synaptic transmission throughout the nervous system.
 
 ## Pathology
 
