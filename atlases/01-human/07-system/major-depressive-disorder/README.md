@@ -268,6 +268,15 @@ cross_links:
   - target: 01-human/05-tissue/intestinal-epithelium
     relation: connects-to
     note: "The gut-brain axis: the intestinal epithelium and its microbiome signal to the brain via the vagus and immune and metabolic pathways, a route increasingly implicated in depression."
+  - target: 01-human/07-system/schizophrenia
+    relation: connects-to
+    note: "Depression within psychosis: major depressive symptoms are common in schizophrenia and define schizoaffective disorder, with shared neurotransmitter and inflammatory biology and a markedly raised suicide risk across both."
+  - target: 01-human/07-system/covid-19-disease
+    relation: connects-to
+    note: "Post-viral depression: SARS-CoV-2 infection and the chronic neuroinflammation of long COVID raise rates of new-onset depression, while the pandemic itself drove a global surge in depressive illness."
+  - target: 01-human/07-system/inflammatory-bowel-disease
+    relation: connects-to
+    note: "Inflammation feeds mood: depression is strikingly common in inflammatory bowel disease, a bidirectional link through systemic cytokines, the gut microbiome and the gut-brain axis that worsens both conditions."
 ---
 
 # Major Depressive Disorder
@@ -508,6 +517,9 @@ Approximately 30–40% of MDD patients have elevated inflammatory markers:
 - `connects-to` → **[Cardiac Conduction System](../../05-tissue/cardiac-conduction-system/README.md)** — The heart-depression link: depression worsens survival after myocardial infarction and is itself a cardiovascular risk factor, while antidepressants—especially tricyclics—affect the QT interval and cardiac conduction.
 - `connects-to` → **[Rheumatoid Arthritis](../rheumatoid-arthritis/README.md)** — Inflammation and mood: chronic inflammatory diseases like rheumatoid arthritis carry high rates of depression, and cytokines (IL-6, TNF) drive the sickness behaviour behind the inflammatory hypothesis of depression.
 - `connects-to` → **[Intestinal Epithelium](../../05-tissue/intestinal-epithelium/README.md)** — The gut-brain axis: the intestinal epithelium and its microbiome signal to the brain via the vagus and immune and metabolic pathways, a route increasingly implicated in depression.
+- `connects-to` → **[Schizophrenia](../schizophrenia/README.md)** — Depression within psychosis: major depressive symptoms are common in schizophrenia and define schizoaffective disorder, with shared neurotransmitter and inflammatory biology and a markedly raised suicide risk across both.
+- `connects-to` → **[COVID-19 Disease](../covid-19-disease/README.md)** — Post-viral depression: SARS-CoV-2 infection and the chronic neuroinflammation of long COVID raise rates of new-onset depression, while the pandemic itself drove a global surge in depressive illness.
+- `connects-to` → **[Inflammatory Bowel Disease](../inflammatory-bowel-disease/README.md)** — Inflammation feeds mood: depression is strikingly common in inflammatory bowel disease, a bidirectional link through systemic cytokines, the gut microbiome and the gut-brain axis that worsens both conditions.
 
 [^cipriani-2018-antidepressants-meta]: Cipriani A, Furukawa TA, Salanti G, et al. Comparative efficacy and acceptability of 21 antidepressant drugs for acute treatment of adults with major depressive disorder. *Lancet.* 2018;391(10128):1357-1366. [doi:10.1016/S0140-6736(17)32802-7](https://doi.org/10.1016/S0140-6736(17)32802-7) · [PubMed 29477251](https://pubmed.ncbi.nlm.nih.gov/29477251/)
 [^zarate-2006-ketamine-rapid]: Zarate CA Jr, Singh JB, Carlson PJ, et al. A randomized trial of an N-methyl-D-aspartate antagonist in treatment-resistant major depression. *Arch Gen Psychiatry.* 2006;63(8):856-864. [doi:10.1001/archpsyc.63.8.856](https://doi.org/10.1001/archpsyc.63.8.856) · [PubMed 16894061](https://pubmed.ncbi.nlm.nih.gov/16894061/)

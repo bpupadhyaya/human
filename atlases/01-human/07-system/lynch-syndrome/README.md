@@ -259,6 +259,15 @@ cross_links:
   - target: 01-human/05-tissue/hepatic-lobule
     relation: connects-to
     note: "Hepatobiliary spread: Lynch raises the risk of biliary-tract cancer, and mismatch-repair-deficient tumours metastasise to the liver, seeding the hepatic lobule."
+  - target: 01-human/07-system/neurofibromatosis-type-1
+    relation: connects-to
+    note: "When both copies fail: constitutional mismatch-repair deficiency (biallelic Lynch genes) causes a childhood-cancer syndrome with café-au-lait macules that closely mimics neurofibromatosis type 1, a key diagnostic pitfall."
+  - target: 01-human/07-system/peutz-jeghers-syndrome
+    relation: connects-to
+    note: "A different polyposis pathway: Peutz-Jeghers (STK11) produces hamartomatous gut polyps and high GI cancer risk, contrasting with the mismatch-repair-driven adenoma-carcinoma route of Lynch in the differential of hereditary GI cancer."
+  - target: 01-human/07-system/cowden-syndrome
+    relation: connects-to
+    note: "Overlapping endometrial and colon risk: Cowden syndrome (PTEN) independently raises the risk of endometrial and colorectal cancer, a PTEN/mTOR-driven syndrome to distinguish from Lynch in women with these tumours."
 ---
 
 # Lynch Syndrome
@@ -479,6 +488,9 @@ MSI-H stage II CRC: adjuvant 5-FU/leucovorin does NOT improve OS (may be harmful
 - `connects-to` → **[Medulloblastoma](../medulloblastoma/README.md)** — The recessive extreme (CMMRD): biallelic loss of a Lynch mismatch-repair gene causes constitutional MMR deficiency, a childhood syndrome with brain tumours including medulloblastoma and glioma.
 - `connects-to` → **[ALL](../all/README.md)** — CMMRD leukaemia: constitutional mismatch-repair deficiency from biallelic Lynch-gene loss predisposes children to leukaemia and lymphoma alongside the brain and gut tumours.
 - `connects-to` → **[Hepatic Lobule](../../05-tissue/hepatic-lobule/README.md)** — Hepatobiliary spread: Lynch raises the risk of biliary-tract cancer, and mismatch-repair-deficient tumours metastasise to the liver, seeding the hepatic lobule.
+- `connects-to` → **[Neurofibromatosis Type 1](../neurofibromatosis-type-1/README.md)** — When both copies fail: constitutional mismatch-repair deficiency (biallelic Lynch genes) causes a childhood-cancer syndrome with café-au-lait macules that closely mimics neurofibromatosis type 1, a key diagnostic pitfall.
+- `connects-to` → **[Peutz-Jeghers Syndrome](../peutz-jeghers-syndrome/README.md)** — A different polyposis pathway: Peutz-Jeghers (STK11) produces hamartomatous gut polyps and high GI cancer risk, contrasting with the mismatch-repair-driven adenoma-carcinoma route of Lynch in the differential of hereditary GI cancer.
+- `connects-to` → **[Cowden Syndrome](../cowden-syndrome/README.md)** — Overlapping endometrial and colon risk: Cowden syndrome (PTEN) independently raises the risk of endometrial and colorectal cancer, a PTEN/mTOR-driven syndrome to distinguish from Lynch in women with these tumours.
 
 [^bonadona-2011-lynch-risks]: Bonadona V, Bonaïti B, Olschwang S, et al. Cancer risks associated with germline mutations in MLH1, MSH2, and MSH6 genes in Lynch syndrome. *JAMA.* 2011;305(22):2304-2310. [doi:10.1001/jama.2011.743](https://doi.org/10.1001/jama.2011.743) · [PubMed 21642683](https://pubmed.ncbi.nlm.nih.gov/21642683/)
 [^lynch-2015-lynch-review]: Lynch HT, Snyder CL, Shaw TG, et al. Milestones of Lynch syndrome: 1895-2015. *Nat Rev Cancer.* 2015;15(3):181-194. [doi:10.1038/nrc3878](https://doi.org/10.1038/nrc3878) · [PubMed 25673086](https://pubmed.ncbi.nlm.nih.gov/25673086/)
