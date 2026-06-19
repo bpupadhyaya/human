@@ -256,6 +256,15 @@ cross_links:
   - target: 01-human/05-tissue/intestinal-epithelium
     relation: connects-to
     note: "The gut-brain axis is implicated: many autistic people have GI symptoms and altered intestinal-epithelial barrier function, part of the microbiome-gut-brain signalling increasingly linked to autism."
+  - target: 01-human/07-system/cowden-syndrome
+    relation: connects-to
+    note: "A PTEN route to autism: germline PTEN loss causes macrocephaly with autism spectrum disorder, linking ASD to Cowden syndrome's PTEN-hamartoma-tumour predisposition—one gene bridging neurodevelopment and cancer."
+  - target: 01-human/07-system/noonan-syndrome
+    relation: connects-to
+    note: "RASopathies raise autism traits: like other RAS-MAPK developmental syndromes, Noonan syndrome carries an increased rate of autism spectrum features, implicating RAS signalling in social-cognitive development."
+  - target: 01-human/05-tissue/cardiac-conduction-system
+    relation: connects-to
+    note: "When an ion channel links heart and brain: Timothy syndrome's CACNA1C calcium-channel mutation causes long-QT arrhythmia with autism, and antipsychotics used in ASD prolong the QT, tying ASD to cardiac conduction."
 ---
 
 # Autism Spectrum Disorder
@@ -472,6 +481,9 @@ The neural basis of ASD social deficits involves dysfunction of the **social bra
 - `connects-to` → **[Targeted Therapy](../../../03-medicine/01-modern/13-cancer/targeted-therapy/README.md)** — Syndromic autism has druggable pathways: in TSC-, PTEN- and fragile-X-related autism the mTOR and synaptic-signalling pathways are dysregulated, making mTOR inhibitors and other targeted agents candidates for the syndromic forms.
 - `connects-to` → **[Axonal Transport](../../05-tissue/axonal-transport/README.md)** — Connectivity is altered: autism shows atypical long-range underconnectivity and local overconnectivity, with white-matter and axonal-transport differences shaping how distant brain regions communicate.
 - `connects-to` → **[Intestinal Epithelium](../../05-tissue/intestinal-epithelium/README.md)** — The gut-brain axis is implicated: many autistic people have GI symptoms and altered intestinal-epithelial barrier function, part of the microbiome-gut-brain signalling increasingly linked to autism.
+- `connects-to` → **[Cowden Syndrome](../cowden-syndrome/README.md)** — A PTEN route to autism: germline PTEN loss causes macrocephaly with autism spectrum disorder, linking ASD to Cowden syndrome's PTEN-hamartoma-tumour predisposition—one gene bridging neurodevelopment and cancer.
+- `connects-to` → **[Noonan Syndrome](../noonan-syndrome/README.md)** — RASopathies raise autism traits: like other RAS-MAPK developmental syndromes, Noonan syndrome carries an increased rate of autism spectrum features, implicating RAS signalling in social-cognitive development.
+- `connects-to` → **[Cardiac Conduction System](../../05-tissue/cardiac-conduction-system/README.md)** — When an ion channel links heart and brain: Timothy syndrome's CACNA1C calcium-channel mutation causes long-QT arrhythmia with autism, and antipsychotics used in ASD prolong the QT, tying ASD to cardiac conduction.
 
 [^maenner-2023-asd-prevalence]: Maenner MJ, Warren Z, Williams AR, et al. Prevalence and characteristics of autism spectrum disorder among children aged 8 years — ADDM Network, 2020. *MMWR Surveill Summ.* 2023;72(2):1-14. [doi:10.15585/mmwr.ss7202a1](https://doi.org/10.15585/mmwr.ss7202a1) · [PubMed 36952216](https://pubmed.ncbi.nlm.nih.gov/36952216/)
 [^lord-2020-asd-review]: Lord C, Elsabbagh M, Baird G, Veenstra-Vanderweele J. Autism spectrum disorder. *Lancet.* 2018;392(10146):508-520. [doi:10.1016/S0140-6736(18)31129-2](https://doi.org/10.1016/S0140-6736(18)31129-2) · [PubMed 30078460](https://pubmed.ncbi.nlm.nih.gov/30078460/)
