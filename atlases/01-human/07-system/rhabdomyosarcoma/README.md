@@ -268,6 +268,15 @@ cross_links:
   - target: 01-human/07-system/mpnst
     relation: connects-to
     note: "NF1 sarcomas: neurofibromatosis type 1 predisposes to both rhabdomyosarcoma in childhood and MPNST from nerve sheaths, two RAS-pathway soft-tissue sarcomas of the syndrome."
+  - target: 01-human/03-molecular/fgfr
+    relation: connects-to
+    note: "Targetable kinase: FGFR4 activating mutations and amplification drive a subset of rhabdomyosarcomas, marking an actionable receptor tyrosine kinase."
+  - target: 01-human/03-molecular/yap1
+    relation: connects-to
+    note: "Hippo activation: Hippo-YAP signalling drives fusion-negative embryonal rhabdomyosarcoma, sustaining proliferation and blocking muscle differentiation."
+  - target: 01-human/03-molecular/notch
+    relation: connects-to
+    note: "Differentiation block: Notch signalling maintains the undifferentiated, proliferative state of rhabdomyosarcoma, preventing the myogenic maturation its cells are poised toward."
 ---
 
 # Rhabdomyosarcoma
@@ -479,6 +488,9 @@ Maximal safe resection with negative margins (R0) wherever achievable without mu
 - `connects-to` → **[Cervical Cancer](../cervical-cancer/README.md)** — Sarcoma botryoides of the genital tract: embryonal rhabdomyosarcoma arises in the vagina and cervix of young girls as grape-like botryoid masses, often DICER1-driven—a sarcoma of the same region as cervical carcinoma.
 - `connects-to` → **[Desmoid Tumor](../desmoid-tumor/README.md)** — A deep soft-tissue differential: like rhabdomyosarcoma, a desmoid tumour presents as an infiltrative soft-tissue mass, the two sitting in the differential of an enlarging extremity or trunk lesion despite very different biology.
 - `connects-to` → **[MPNST](../mpnst/README.md)** — NF1 sarcomas: neurofibromatosis type 1 predisposes to both rhabdomyosarcoma in childhood and MPNST from nerve sheaths, two RAS-pathway soft-tissue sarcomas of the syndrome.
+- `connects-to` → **[FGFR](../../03-molecular/fgfr/README.md)** — Targetable kinase: FGFR4 activating mutations and amplification drive a subset of rhabdomyosarcomas, marking an actionable receptor tyrosine kinase.
+- `connects-to` → **[YAP1](../../03-molecular/yap1/README.md)** — Hippo activation: Hippo-YAP signalling drives fusion-negative embryonal rhabdomyosarcoma, sustaining proliferation and blocking muscle differentiation.
+- `connects-to` → **[Notch](../../03-molecular/notch/README.md)** — Differentiation block: Notch signalling maintains the undifferentiated, proliferative state of rhabdomyosarcoma, preventing the myogenic maturation its cells are poised toward.
 
 [^crist-2001-irs4-rms]: Crist WM, Anderson JR, Meza JL, et al. Intergroup rhabdomyosarcoma study-IV: results for patients with nonmetastatic disease. *J Clin Oncol.* 2001;19(12):3091-3102. [doi:10.1200/JCO.2001.19.12.3091](https://doi.org/10.1200/JCO.2001.19.12.3091) · [PubMed 11408506](https://pubmed.ncbi.nlm.nih.gov/11408506/)
 [^oberlin-2012-mmt95-rms]: Oberlin O, Rey A, Sanchez de Toledo J, et al. Randomized comparison of intensified six-drug versus standard three-drug chemotherapy for high-risk nonmetastatic rhabdomyosarcoma and other chemotherapy-sensitive childhood soft tissue sarcomas. *J Clin Oncol.* 2012;30(19):2457-2465. [doi:10.1200/JCO.2011.39.3538](https://doi.org/10.1200/JCO.2011.39.3538) · [PubMed 22665546](https://pubmed.ncbi.nlm.nih.gov/22665546/)

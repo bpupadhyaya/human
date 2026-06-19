@@ -268,6 +268,15 @@ cross_links:
   - target: 01-human/07-system/synovial-sarcoma
     relation: connects-to
     note: "Second cancers of survivors: germline RB1 carriers face a high lifetime risk of second malignancies including soft-tissue sarcomas such as synovial sarcoma, especially within prior radiation fields."
+  - target: 01-human/03-molecular/myc
+    relation: connects-to
+    note: "Amplified aggression: MYC and MYCN amplification mark aggressive retinoblastomas, including rare RB1-wild-type tumours driven by MYCN amplification alone."
+  - target: 01-human/03-molecular/bcl-2
+    relation: connects-to
+    note: "Apoptosis-resistant origin: the cone-precursor cell of origin highly expresses anti-apoptotic BCL-2 and MDM2, helping retinoblastoma cells survive despite RB1 loss."
+  - target: 01-human/03-molecular/ezh2
+    relation: connects-to
+    note: "Epigenetic dependence: EZH2/polycomb activity helps maintain the proliferative, dedifferentiated state of retinoblastoma, a candidate epigenetic vulnerability."
 ---
 
 # Retinoblastoma
@@ -464,6 +473,9 @@ Standard regimen: **vincristine + carboplatin + etoposide (VCE)**, 6 cycles; red
 - `connects-to` → **[Meningioma](../meningioma/README.md)** — Radiation-induced second tumour: hereditary retinoblastoma survivors treated with external-beam radiotherapy face a raised risk of meningioma in the radiation field decades later, a survivorship hazard like that in Li-Fraumeni.
 - `connects-to` → **[Prostate Cancer](../prostate-cancer/README.md)** — RB1 across cancers: loss of RB1, the gene behind retinoblastoma, also drives treatment-emergent neuroendocrine prostate cancer and small-cell transformation, the same tumour suppressor failing in very different tissues.
 - `connects-to` → **[Synovial Sarcoma](../synovial-sarcoma/README.md)** — Second cancers of survivors: germline RB1 carriers face a high lifetime risk of second malignancies including soft-tissue sarcomas such as synovial sarcoma, especially within prior radiation fields.
+- `connects-to` → **[MYC](../../03-molecular/myc/README.md)** — Amplified aggression: MYC and MYCN amplification mark aggressive retinoblastomas, including rare RB1-wild-type tumours driven by MYCN amplification alone.
+- `connects-to` → **[BCL-2](../../03-molecular/bcl-2/README.md)** — Apoptosis-resistant origin: the cone-precursor cell of origin highly expresses anti-apoptotic BCL-2 and MDM2, helping retinoblastoma cells survive despite RB1 loss.
+- `connects-to` → **[EZH2](../../03-molecular/ezh2/README.md)** — Epigenetic dependence: EZH2/polycomb activity helps maintain the proliferative, dedifferentiated state of retinoblastoma, a candidate epigenetic vulnerability.
 
 [^knudson-1971-two-hit]: Knudson AG Jr. Mutation and cancer: statistical study of retinoblastoma. *Proc Natl Acad Sci USA.* 1971;68(4):820-823. [doi:10.1073/pnas.68.4.820](https://doi.org/10.1073/pnas.68.4.820) · [PubMed 5279523](https://pubmed.ncbi.nlm.nih.gov/5279523/)
 [^shields-2008-retinoblastoma]: Shields CL, Shields JA. Retinoblastoma management: advances in enucleation, intravenous chemoreduction, and intra-arterial chemotherapy. *Curr Opin Ophthalmol.* 2010;21(3):203-212. [doi:10.1097/ICU.0b013e328338676a](https://doi.org/10.1097/ICU.0b013e328338676a) · [PubMed 20224400](https://pubmed.ncbi.nlm.nih.gov/20224400/)
