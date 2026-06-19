@@ -268,6 +268,15 @@ cross_links:
   - target: 01-human/07-system/glioblastoma
     relation: connects-to
     note: "Brain tumours and clots: glioblastoma carries one of the highest cancer-associated venous-thrombosis rates, and a background inherited thrombophilia further raises the peri-operative and treatment clot risk."
+  - target: 01-human/05-tissue/myocardium
+    relation: connects-to
+    note: "Arterial events too: while inherited thrombophilias mainly cause venous clots, several contribute to arterial thrombosis and myocardial infarction in young patients, especially combined with smoking or oestrogen exposure."
+  - target: 01-human/07-system/thalassemia
+    relation: connects-to
+    note: "A hypercoagulable haemoglobinopathy: thalassaemia, especially the non-transfusion-dependent intermedia form and after splenectomy, carries a high thrombotic risk that stacks with any inherited thrombophilia."
+  - target: 01-human/07-system/myelofibrosis
+    relation: connects-to
+    note: "Acquired on inherited risk: JAK2-mutant myelofibrosis is a powerful acquired prothrombotic state causing splanchnic-vein thrombosis, often unmasked or worsened when an inherited thrombophilia coexists."
 ---
 
 # Inherited Thrombophilia
@@ -510,6 +519,9 @@ Antithrombin (ATIII) is the primary plasma inhibitor of thrombin, FXa, FIXa, and
 - `connects-to` → **[Arterial Wall](../../05-tissue/arterial-wall/README.md)** — Mostly venous, sometimes arterial: inherited thrombophilias clot chiefly in veins, but a venous clot crossing a patent foramen ovale can reach the arterial wall and brain, causing paradoxical embolic stroke.
 - `connects-to` → **[Inflammatory Bowel Disease](../inflammatory-bowel-disease/README.md)** — Inflammation amplifies clotting: inflammatory bowel disease is itself strongly prothrombotic, so an inherited thrombophilia on top sharply raises the venous-thrombosis risk during active flares.
 - `connects-to` → **[Glioblastoma](../glioblastoma/README.md)** — Brain tumours and clots: glioblastoma carries one of the highest cancer-associated venous-thrombosis rates, and a background inherited thrombophilia further raises the peri-operative and treatment clot risk.
+- `connects-to` → **[Myocardium](../../05-tissue/myocardium/README.md)** — Arterial events too: while inherited thrombophilias mainly cause venous clots, several contribute to arterial thrombosis and myocardial infarction in young patients, especially combined with smoking or oestrogen exposure.
+- `connects-to` → **[Thalassemia](../thalassemia/README.md)** — A hypercoagulable haemoglobinopathy: thalassaemia, especially the non-transfusion-dependent intermedia form and after splenectomy, carries a high thrombotic risk that stacks with any inherited thrombophilia.
+- `connects-to` → **[Myelofibrosis](../myelofibrosis/README.md)** — Acquired on inherited risk: JAK2-mutant myelofibrosis is a powerful acquired prothrombotic state causing splanchnic-vein thrombosis, often unmasked or worsened when an inherited thrombophilia coexists.
 
 [^bertina-1994-factor-v-leiden]: Bertina RM, Koeleman BP, Koster T, et al. Mutation in blood coagulation factor V associated with resistance to activated protein C. *Nature.* 1994;369(6475):64-67. [doi:10.1038/369064a0](https://doi.org/10.1038/369064a0) · [PubMed 8164741](https://pubmed.ncbi.nlm.nih.gov/8164741/)
 [^dahlback-2008-protein-c-review]: Dahlbäck B. Advances in understanding pathogenic mechanisms of thrombophilic disorders. *Blood.* 2008;112(1):19-27. [doi:10.1182/blood-2008-01-077909](https://doi.org/10.1182/blood-2008-01-077909) · [PubMed 18574048](https://pubmed.ncbi.nlm.nih.gov/18574048/)

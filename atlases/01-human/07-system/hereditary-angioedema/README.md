@@ -268,6 +268,15 @@ cross_links:
   - target: 01-human/05-tissue/germinal-center
     relation: connects-to
     note: "Autoantibodies behind acquired disease: acquired angioedema can arise from anti-C1-inhibitor autoantibodies produced by germinal-centre-derived B-cell clones, distinguishing it from the purely genetic hereditary form."
+  - target: 01-human/07-system/follicular-lymphoma
+    relation: connects-to
+    note: "An indolent lymphoma trigger: follicular lymphoma is among the low-grade B-cell neoplasms that consume C1-inhibitor and cause acquired angioedema, which can improve when the lymphoma is treated."
+  - target: 01-human/07-system/mantle-cell-lymphoma
+    relation: connects-to
+    note: "Another lymphoproliferative cause: mantle-cell lymphoma joins the B-cell malignancies that can produce acquired C1-inhibitor deficiency, so new late-onset angioedema warrants a search for occult lymphoma."
+  - target: 01-human/06-organ/spleen
+    relation: connects-to
+    note: "A splenic source: splenic marginal-zone lymphoma is a classic cause of acquired angioedema, the clone consuming C1-inhibitor, and treating the lymphoma or removing the spleen can resolve the attacks."
 ---
 
 # Hereditary Angioedema
@@ -486,6 +495,9 @@ Fluid extravasation → ANGIOEDEMA
 - `connects-to` → **[Hepatic Lobule](../../05-tissue/hepatic-lobule/README.md)** — Where the missing protein is made: C1-inhibitor is synthesised by hepatocytes in the liver lobule, which is why attenuated androgens that boost hepatic synthesis—and emerging liver-targeted RNA and gene therapies—act here.
 - `connects-to` → **[Waldenström Macroglobulinemia](../waldenstrom-macroglobulinemia/README.md)** — Acquired angioedema's clue: new-onset angioedema in an older adult without family history suggests acquired C1-inhibitor deficiency, classically from a lymphoproliferative clone such as Waldenström macroglobulinaemia or an MGUS.
 - `connects-to` → **[Germinal Center](../../05-tissue/germinal-center/README.md)** — Autoantibodies behind acquired disease: acquired angioedema can arise from anti-C1-inhibitor autoantibodies produced by germinal-centre-derived B-cell clones, distinguishing it from the purely genetic hereditary form.
+- `connects-to` → **[Follicular Lymphoma](../follicular-lymphoma/README.md)** — An indolent lymphoma trigger: follicular lymphoma is among the low-grade B-cell neoplasms that consume C1-inhibitor and cause acquired angioedema, which can improve when the lymphoma is treated.
+- `connects-to` → **[Mantle Cell Lymphoma](../mantle-cell-lymphoma/README.md)** — Another lymphoproliferative cause: mantle-cell lymphoma joins the B-cell malignancies that can produce acquired C1-inhibitor deficiency, so new late-onset angioedema warrants a search for occult lymphoma.
+- `connects-to` → **[Spleen](../../06-organ/spleen/README.md)** — A splenic source: splenic marginal-zone lymphoma is a classic cause of acquired angioedema, the clone consuming C1-inhibitor, and treating the lymphoma or removing the spleen can resolve the attacks.
 
 [^cicardi-2010-icatibant-nejm]: Cicardi M, Banerji A, Bracho F, et al. Icatibant, a new bradykinin-receptor antagonist, in hereditary angioedema. *N Engl J Med.* 2010;363(6):532-541. [doi:10.1056/NEJMoa0906393](https://doi.org/10.1056/NEJMoa0906393) · [PubMed 20818873](https://pubmed.ncbi.nlm.nih.gov/20818873/)
 [^maurer-2018-lanadelumab-help]: Banerji A, Riedl MA, Bernstein JA, et al. Effect of lanadelumab compared with placebo on prevention of hereditary angioedema attacks. *JAMA.* 2018;320(20):2108-2121. [doi:10.1001/jama.2018.16773](https://doi.org/10.1001/jama.2018.16773) · [PubMed 30480729](https://pubmed.ncbi.nlm.nih.gov/30480729/)
