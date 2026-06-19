@@ -259,6 +259,15 @@ cross_links:
   - target: 01-human/05-tissue/hepatic-lobule
     relation: connects-to
     note: "Hepatosplenic infiltration: PTCL, especially the hepatosplenic subtype, infiltrates the sinusoids of the hepatic lobule and the spleen, causing cytopenias and hepatosplenomegaly."
+  - target: 01-human/07-system/sjogrens-syndrome
+    relation: connects-to
+    note: "An autoimmune masquerade: angioimmunoblastic T-cell lymphoma presents with rash, polyclonal hypergammaglobulinaemia, autoimmune cytopenias and sicca that mimic Sjogren's, while chronic autoimmunity itself raises lymphoma risk."
+  - target: 01-human/07-system/rheumatoid-arthritis
+    relation: connects-to
+    note: "Immunosuppression and T-cell clones: rheumatoid arthritis and its therapies raise lymphoma risk, and RA is classically associated with T-cell large granular lymphocytic leukaemia, a clonal T-cell disorder on the PTCL spectrum."
+  - target: 01-human/07-system/hiv-aids
+    relation: connects-to
+    note: "Immunodeficiency-driven lymphoma: HIV-associated immune dysregulation and EBV reactivation raise the risk of aggressive non-Hodgkin lymphomas, including peripheral T-cell lymphomas alongside the more common B-cell types."
 ---
 
 # Peripheral T-cell Lymphoma
@@ -484,6 +493,9 @@ Aggressive presentation; generalized lymphadenopathy; extranodal involvement (~6
 - `connects-to` → **[CMML](../cmml/README.md)** — Shared clonal-haematopoiesis mutations: angioimmunoblastic T-cell lymphoma shares TET2 and DNMT3A mutations with CMML and other myeloid neoplasms, a common clonal-haematopoiesis origin—patients can develop both.
 - `connects-to` → **[IDH-mutant Glioma](../idh-mutant-glioma/README.md)** — A shared IDH2 oncometabolite: angioimmunoblastic PTCL carries IDH2 mutations like those of IDH-mutant glioma and AML, producing 2-hydroxyglutarate—an unexpected metabolic link to a brain tumour.
 - `connects-to` → **[Hepatic Lobule](../../05-tissue/hepatic-lobule/README.md)** — Hepatosplenic infiltration: PTCL, especially the hepatosplenic subtype, infiltrates the sinusoids of the hepatic lobule and the spleen, causing cytopenias and hepatosplenomegaly.
+- `connects-to` → **[Sjögren's Syndrome](../sjogrens-syndrome/README.md)** — An autoimmune masquerade: angioimmunoblastic T-cell lymphoma presents with rash, polyclonal hypergammaglobulinaemia, autoimmune cytopenias and sicca that mimic Sjogren's, while chronic autoimmunity itself raises lymphoma risk.
+- `connects-to` → **[Rheumatoid Arthritis](../rheumatoid-arthritis/README.md)** — Immunosuppression and T-cell clones: rheumatoid arthritis and its therapies raise lymphoma risk, and RA is classically associated with T-cell large granular lymphocytic leukaemia, a clonal T-cell disorder on the PTCL spectrum.
+- `connects-to` → **[HIV/AIDS](../hiv-aids/README.md)** — Immunodeficiency-driven lymphoma: HIV-associated immune dysregulation and EBV reactivation raise the risk of aggressive non-Hodgkin lymphomas, including peripheral T-cell lymphomas alongside the more common B-cell types.
 
 ---
 
