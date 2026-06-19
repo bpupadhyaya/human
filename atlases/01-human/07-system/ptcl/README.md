@@ -268,6 +268,15 @@ cross_links:
   - target: 01-human/07-system/hiv-aids
     relation: connects-to
     note: "Immunodeficiency-driven lymphoma: HIV-associated immune dysregulation and EBV reactivation raise the risk of aggressive non-Hodgkin lymphomas, including peripheral T-cell lymphomas alongside the more common B-cell types."
+  - target: 01-human/03-molecular/ezh2
+    relation: connects-to
+    note: "Epigenetic dysregulation: EZH2 and the broader epigenetic machinery (with TET2, DNMT3A and IDH2) are deranged in angioimmunoblastic and other peripheral T-cell lymphomas, a rationale for epigenetic therapy."
+  - target: 01-human/03-molecular/ifn-gamma
+    relation: connects-to
+    note: "Inflammatory microenvironment: an IFN-γ-rich, cytotoxic-skewed microenvironment characterises many peripheral T-cell lymphomas, driving the B symptoms and immune dysregulation of the disease."
+  - target: 01-human/03-molecular/il-2
+    relation: connects-to
+    note: "T-cell growth axis: IL-2 and its receptor subunit CD25 drive the proliferation of malignant T cells in peripheral T-cell lymphoma, and CD25 is exploited by targeted antibody-drug conjugates."
 ---
 
 # Peripheral T-cell Lymphoma
@@ -496,6 +505,9 @@ Aggressive presentation; generalized lymphadenopathy; extranodal involvement (~6
 - `connects-to` → **[Sjögren's Syndrome](../sjogrens-syndrome/README.md)** — An autoimmune masquerade: angioimmunoblastic T-cell lymphoma presents with rash, polyclonal hypergammaglobulinaemia, autoimmune cytopenias and sicca that mimic Sjogren's, while chronic autoimmunity itself raises lymphoma risk.
 - `connects-to` → **[Rheumatoid Arthritis](../rheumatoid-arthritis/README.md)** — Immunosuppression and T-cell clones: rheumatoid arthritis and its therapies raise lymphoma risk, and RA is classically associated with T-cell large granular lymphocytic leukaemia, a clonal T-cell disorder on the PTCL spectrum.
 - `connects-to` → **[HIV/AIDS](../hiv-aids/README.md)** — Immunodeficiency-driven lymphoma: HIV-associated immune dysregulation and EBV reactivation raise the risk of aggressive non-Hodgkin lymphomas, including peripheral T-cell lymphomas alongside the more common B-cell types.
+- `connects-to` → **[EZH2](../../03-molecular/ezh2/README.md)** — Epigenetic dysregulation: EZH2 and the broader epigenetic machinery (with TET2, DNMT3A and IDH2) are deranged in angioimmunoblastic and other peripheral T-cell lymphomas, a rationale for epigenetic therapy.
+- `connects-to` → **[IFN-γ](../../03-molecular/ifn-gamma/README.md)** — Inflammatory microenvironment: an IFN-γ-rich, cytotoxic-skewed microenvironment characterises many peripheral T-cell lymphomas, driving the B symptoms and immune dysregulation of the disease.
+- `connects-to` → **[IL-2](../../03-molecular/il-2/README.md)** — T-cell growth axis: IL-2 and its receptor subunit CD25 drive the proliferation of malignant T cells in peripheral T-cell lymphoma, and CD25 is exploited by targeted antibody-drug conjugates.
 
 ---
 
