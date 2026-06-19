@@ -277,6 +277,15 @@ cross_links:
   - target: 01-human/06-organ/placenta
     relation: connects-to
     note: "Pregnancy-associated aplasia: pregnancy can trigger or worsen aplastic anaemia, often remitting after delivery, implicating the hormonal and immune shifts of the placental state."
+  - target: 01-human/03-molecular/il-17a
+    relation: connects-to
+    note: "Th17 marrow attack: IL-17-producing T-helper cells contribute to the autoimmune destruction of haematopoietic stem cells in aplastic anaemia, alongside the dominant Th1 response."
+  - target: 01-human/03-molecular/il-6
+    relation: connects-to
+    note: "Inflammatory milieu: IL-6 is elevated in aplastic anaemia, part of the cytokine environment that suppresses haematopoiesis and supports the autoreactive immune response."
+  - target: 01-human/03-molecular/flt3
+    relation: connects-to
+    note: "Marrow-failure signal: FLT3 ligand rises markedly in aplastic anaemia as the body tries to stimulate the failing stem-cell pool, a useful marker of the depth of marrow failure."
 ---
 
 # Aplastic Anemia
@@ -476,6 +485,9 @@ In >80% of acquired AA cases, the disease is **immune-mediated**: autoreactive *
 - `connects-to` → **[Dengue Virus](../../../02-pathogen/01-viruses/dengue-virus/README.md)** — Viral marrow suppression: dengue transiently suppresses the bone marrow, producing the profound thrombocytopenia and pancytopenia that can mimic or unmask aplastic anaemia.
 - `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — Androgen therapy: synthetic androgens such as danazol and oxymetholone stimulate residual haematopoiesis and lengthen telomeres, an older but still-used treatment for aplastic anaemia, especially telomere-related disease.
 - `connects-to` → **[Placenta](../../06-organ/placenta/README.md)** — Pregnancy-associated aplasia: pregnancy can trigger or worsen aplastic anaemia, often remitting after delivery, implicating the hormonal and immune shifts of the placental state.
+- `connects-to` → **[IL-17A](../../03-molecular/il-17a/README.md)** — Th17 marrow attack: IL-17-producing T-helper cells contribute to the autoimmune destruction of haematopoietic stem cells in aplastic anaemia, alongside the dominant Th1 response.
+- `connects-to` → **[IL-6](../../03-molecular/il-6/README.md)** — Inflammatory milieu: IL-6 is elevated in aplastic anaemia, part of the cytokine environment that suppresses haematopoiesis and supports the autoreactive immune response.
+- `connects-to` → **[FLT3](../../03-molecular/flt3/README.md)** — Marrow-failure signal: FLT3 ligand rises markedly in aplastic anaemia as the body tries to stimulate the failing stem-cell pool, a useful marker of the depth of marrow failure.
 
 ---
 
