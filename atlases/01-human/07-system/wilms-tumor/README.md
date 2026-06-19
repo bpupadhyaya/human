@@ -259,6 +259,15 @@ cross_links:
   - target: 01-human/05-tissue/myocardium
     relation: connects-to
     note: "Tumour reaches the heart, treatment harms it: Wilms tumour thrombus can extend up the IVC into the right atrium, while the anthracycline chemotherapy that cures it can leave survivors with a late cardiomyopathy of the myocardium."
+  - target: 01-human/07-system/ovarian-cancer
+    relation: connects-to
+    note: "A shared diagnostic marker: WT1, the gene behind Wilms tumour, is a key immunohistochemical marker also expressed by serous ovarian carcinoma and mesothelioma, tying an embryonal kidney cancer to adult tumours."
+  - target: 01-human/07-system/mds
+    relation: connects-to
+    note: "WT1 in the marrow: WT1 is overexpressed in acute myeloid leukaemia and myelodysplasia, where it serves as a minimal-residual-disease marker—the same gene whose loss drives Wilms tumour acting as an oncogene in myeloid cells."
+  - target: 01-human/07-system/colorectal-cancer
+    relation: connects-to
+    note: "Wnt/beta-catenin in common: CTNNB1-activating mutations drive a subset of Wilms tumours just as constitutive Wnt/beta-catenin signalling drives colorectal cancer, the same pathway hijacked in very different tissues."
 ---
 
 # Wilms Tumor
@@ -468,6 +477,9 @@ Wilms tumor survivors face late effects proportional to treatment intensity:
 - `connects-to` → **[Hepatic Lobule](../../05-tissue/hepatic-lobule/README.md)** — Beyond lung metastasis: Wilms tumour also spreads to the liver, seeding the hepatic lobules; like hepatoblastoma it is an embryonal childhood tumour, both over-represented in Beckwith-Wiedemann overgrowth.
 - `connects-to` → **[Polycythemia Vera](../polycythemia-vera/README.md)** — A paraneoplastic polycythaemia: some Wilms tumours secrete erythropoietin, raising the red-cell mass and resolving on resection—an acquired, tumour-driven echo of the JAK2-driven erythrocytosis of polycythaemia vera.
 - `connects-to` → **[Myocardium](../../05-tissue/myocardium/README.md)** — Tumour reaches the heart, treatment harms it: Wilms tumour thrombus can extend up the IVC into the right atrium, while the anthracycline chemotherapy that cures it can leave survivors with a late cardiomyopathy of the myocardium.
+- `connects-to` → **[Ovarian Cancer](../ovarian-cancer/README.md)** — A shared diagnostic marker: WT1, the gene behind Wilms tumour, is a key immunohistochemical marker also expressed by serous ovarian carcinoma and mesothelioma, tying an embryonal kidney cancer to adult tumours.
+- `connects-to` → **[MDS](../mds/README.md)** — WT1 in the marrow: WT1 is overexpressed in acute myeloid leukaemia and myelodysplasia, where it serves as a minimal-residual-disease marker—the same gene whose loss drives Wilms tumour acting as an oncogene in myeloid cells.
+- `connects-to` → **[Colorectal Cancer](../colorectal-cancer/README.md)** — Wnt/beta-catenin in common: CTNNB1-activating mutations drive a subset of Wilms tumours just as constitutive Wnt/beta-catenin signalling drives colorectal cancer, the same pathway hijacked in very different tissues.
 
 [^dome-2015-wilms]: Dome JS, Graf N, Geller JI, et al. Advances in Wilms tumor treatment and biology: progress through international collaboration. *J Clin Oncol.* 2015;33(27):2999-3007. [doi:10.1200/JCO.2015.62.1888](https://doi.org/10.1200/JCO.2015.62.1888) · [PubMed 26261251](https://pubmed.ncbi.nlm.nih.gov/26261251/)
 [^dix-2006-arenl0002]: Dix DB, Bhatt SM, Geller JI, et al. Treatment of Stage IV favorable histology Wilms tumor with incomplete lung metastasis response after chemotherapy: a report from Children's Oncology Group Study AREN0533. *J Clin Oncol.* 2018;36(16):1564-1570. [doi:10.1200/JCO.2017.77.1877](https://doi.org/10.1200/JCO.2017.77.1877) · [PubMed 29584550](https://pubmed.ncbi.nlm.nih.gov/29584550/)

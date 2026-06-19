@@ -259,6 +259,15 @@ cross_links:
   - target: 01-human/07-system/synovial-sarcoma
     relation: connects-to
     note: "An unusual tumour spectrum: Werner's genomic instability skews cancers toward mesenchymal types—soft-tissue sarcomas like synovial sarcoma and osteosarcoma—rather than the epithelial carcinomas of most cancer syndromes."
+  - target: 01-human/03-molecular/brca1
+    relation: connects-to
+    note: "Replication-fork repair: the WRN helicase works alongside the homologous-recombination machinery, so like BRCA1-deficient cells, Werner cells suffer replication stress and double-strand-break repair defects with potential PARP sensitivity."
+  - target: 01-human/07-system/nash
+    relation: connects-to
+    note: "Lipodystrophic metabolic disease: Werner syndrome strips subcutaneous fat while accumulating visceral fat, driving severe insulin resistance and hepatic steatosis that progresses to NASH alongside its diabetes."
+  - target: 01-human/07-system/familial-hypercholesterolemia
+    relation: connects-to
+    note: "Two roads to early heart attacks: Werner syndrome causes premature atherosclerosis through accelerated cellular ageing, paralleling the early coronary disease of familial hypercholesterolaemia driven instead by lifelong high LDL."
 ---
 
 # Werner Syndrome
@@ -502,6 +511,9 @@ cross_links:
 - `connects-to` → **[Endometrial Cancer](../endometrial-cancer/README.md)** — WRN as a drug target: WRN helicase is synthetically lethal in microsatellite-unstable cancers such as MSI-high endometrial and gastric tumours, so the very gene mutated in Werner syndrome is now a sought-after oncology target.
 - `connects-to` → **[Myocardium](../../05-tissue/myocardium/README.md)** — Premature heart death: accelerated atherosclerosis in Werner syndrome causes early myocardial infarction, and along with cancer it is one of the two leading causes of death in these patients in their fifties.
 - `connects-to` → **[Synovial Sarcoma](../synovial-sarcoma/README.md)** — An unusual tumour spectrum: Werner's genomic instability skews cancers toward mesenchymal types—soft-tissue sarcomas like synovial sarcoma and osteosarcoma—rather than the epithelial carcinomas of most cancer syndromes.
+- `connects-to` → **[BRCA1](../../03-molecular/brca1/README.md)** — Replication-fork repair: the WRN helicase works alongside the homologous-recombination machinery, so like BRCA1-deficient cells, Werner cells suffer replication stress and double-strand-break repair defects with potential PARP sensitivity.
+- `connects-to` → **[NASH](../nash/README.md)** — Lipodystrophic metabolic disease: Werner syndrome strips subcutaneous fat while accumulating visceral fat, driving severe insulin resistance and hepatic steatosis that progresses to NASH alongside its diabetes.
+- `connects-to` → **[Familial Hypercholesterolemia](../familial-hypercholesterolemia/README.md)** — Two roads to early heart attacks: Werner syndrome causes premature atherosclerosis through accelerated cellular ageing, paralleling the early coronary disease of familial hypercholesterolaemia driven instead by lifelong high LDL.
 
 [^yu-1996-wrn]: Yu CE, Oshima J, Fu YH, et al. Positional cloning of the Werner's syndrome gene. *Science.* 1996;272(5259):258-262. [doi:10.1126/science.272.5259.258](https://doi.org/10.1126/science.272.5259.258) · [PubMed 8602509](https://pubmed.ncbi.nlm.nih.gov/8602509/)
 [^lauper-2013-wrn-neoplasia]: Lauper JM, Krause A, Vaughan TL, Monnat RJ Jr. Spectrum and risk of neoplasia in Werner syndrome: a systematic review. *PLoS One.* 2013;8(4):e59709. [doi:10.1371/journal.pone.0059709](https://doi.org/10.1371/journal.pone.0059709) · [PubMed 23579047](https://pubmed.ncbi.nlm.nih.gov/23579047/)
