@@ -256,6 +256,15 @@ cross_links:
   - target: 01-human/05-tissue/arterial-wall
     relation: connects-to
     note: "Shared metabolic roots with heart disease: the obesity, insulin resistance and unopposed oestrogen that drive endometrial cancer also accelerate arterial-wall atherosclerosis, so cardiovascular disease is a leading cause of death in survivors."
+  - target: 01-human/05-tissue/alveolus
+    relation: connects-to
+    note: "Lung as a metastatic site: endometrial cancer, especially serous and high-grade subtypes, spreads haematogenously to the lungs, seeding nodules in the alveolar parenchyma in advanced disease."
+  - target: 01-human/05-tissue/hepatic-lobule
+    relation: connects-to
+    note: "Liver metastasis: advanced endometrial cancer can spread to the liver, seeding the hepatic lobules, a marker of disseminated disease beyond its usual pelvic and nodal spread."
+  - target: 01-human/07-system/bladder-cancer
+    relation: connects-to
+    note: "Lynch beyond gut and uterus: the mismatch-repair deficiency behind hereditary endometrial cancer also raises urothelial (bladder and ureter) cancer risk, part of the broad Lynch tumour spectrum."
 ---
 
 # Endometrial Cancer
@@ -460,6 +469,9 @@ cross_links:
 - `connects-to` → **[Germinal Center](../../05-tissue/germinal-center/README.md)** — Why it responds to immunotherapy: mismatch-repair-deficient (MSI-high) endometrial cancers—Lynch and sporadic—accumulate neoantigens and tertiary lymphoid structures with germinal-centre B cells, the immune richness behind checkpoint-inhibitor response.
 - `connects-to` → **[Gastric Cancer](../gastric-cancer/README.md)** — Two cancers of the Lynch spectrum: endometrial cancer is the sentinel Lynch-syndrome cancer in women and gastric cancer is another mismatch-repair-deficient Lynch tumour—shared MMR loss across the uterus and stomach.
 - `connects-to` → **[Arterial Wall](../../05-tissue/arterial-wall/README.md)** — Shared metabolic roots with heart disease: the obesity, insulin resistance and unopposed oestrogen that drive endometrial cancer also accelerate arterial-wall atherosclerosis, so cardiovascular disease is a leading cause of death in survivors.
+- `connects-to` → **[Alveolus](../../05-tissue/alveolus/README.md)** — Lung as a metastatic site: endometrial cancer, especially serous and high-grade subtypes, spreads haematogenously to the lungs, seeding nodules in the alveolar parenchyma in advanced disease.
+- `connects-to` → **[Hepatic Lobule](../../05-tissue/hepatic-lobule/README.md)** — Liver metastasis: advanced endometrial cancer can spread to the liver, seeding the hepatic lobules, a marker of disseminated disease beyond its usual pelvic and nodal spread.
+- `connects-to` → **[Bladder Cancer](../bladder-cancer/README.md)** — Lynch beyond gut and uterus: the mismatch-repair deficiency behind hereditary endometrial cancer also raises urothelial (bladder and ureter) cancer risk, part of the broad Lynch tumour spectrum.
 
 [^konstantinopoulos-2019-dostarlimab]: Konstantinopoulos PA, Lheureux S, Moore KN. PARP inhibitors for ovarian and endometrial cancers: state of the art and clinical perspectives. *J Clin Oncol.* 2020;38(25):2896-2909. [doi:10.1200/JCO.20.00571](https://doi.org/10.1200/JCO.20.00571) · [PubMed 32706635](https://pubmed.ncbi.nlm.nih.gov/32706635/)
 [^eskander-2023-ruby]: Eskander RN, Sill MW, Beffa L, et al. Pembrolizumab plus chemotherapy in advanced endometrial cancer. *N Engl J Med.* 2023;388(23):2159-2170. [doi:10.1056/NEJMoa2302312](https://doi.org/10.1056/NEJMoa2302312) · [PubMed 37166384](https://pubmed.ncbi.nlm.nih.gov/37166384/)

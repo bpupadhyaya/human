@@ -265,6 +265,15 @@ cross_links:
   - target: 01-human/07-system/systemic-lupus-erythematosus
     relation: connects-to
     note: "Lupus that fires the brain: neuropsychiatric SLE can present with seizures, as immune-complex vasculopathy, autoantibodies and inflammation lower the cortical seizure threshold—epilepsy as a manifestation of systemic autoimmunity."
+  - target: 01-human/07-system/ptsd
+    relation: connects-to
+    note: "Seizures that aren't epileptic: psychogenic non-epileptic seizures, often rooted in trauma and PTSD, closely mimic epileptic events and frequently coexist with epilepsy, making video-EEG essential to tell them apart."
+  - target: 01-human/07-system/fibromyalgia
+    relation: connects-to
+    note: "Shared central hyperexcitability: epilepsy and fibromyalgia both reflect a hyperexcitable nervous system with disturbed glutamate/GABA balance, and the gabapentinoids pregabalin and gabapentin treat both."
+  - target: 01-human/05-tissue/cortical-bone
+    relation: connects-to
+    note: "Antiepileptic bone disease: enzyme-inducing antiseizure drugs accelerate vitamin D catabolism, lowering cortical-bone density and raising fracture risk with long-term use—compounded by seizure-related falls."
 ---
 
 # Epilepsy
@@ -499,6 +508,9 @@ Anti-NMDAR encephalitis is the most common autoimmune encephalitis (~37% of auto
 - `connects-to` → **[Fluoxetine](../../../03-medicine/01-modern/10-mental-health/fluoxetine/README.md)** — Treating the depression that shadows seizures: depression is the commonest psychiatric comorbidity in epilepsy, and SSRIs like fluoxetine are first-line—the old fear that they meaningfully lower the seizure threshold is largely unfounded.
 - `connects-to` → **[Multiple Sclerosis](../multiple-sclerosis/README.md)** — Cortical lesions that spark seizures: epilepsy is several-fold more common in multiple sclerosis, where demyelinating plaques reaching the cerebral cortex create irritable, hyperexcitable foci that discharge as seizures.
 - `connects-to` → **[Systemic Lupus Erythematosus](../systemic-lupus-erythematosus/README.md)** — Lupus that fires the brain: neuropsychiatric SLE can present with seizures, as immune-complex vasculopathy, autoantibodies and inflammation lower the cortical seizure threshold—epilepsy as a manifestation of systemic autoimmunity.
+- `connects-to` → **[PTSD](../ptsd/README.md)** — Seizures that aren't epileptic: psychogenic non-epileptic seizures, often rooted in trauma and PTSD, closely mimic epileptic events and frequently coexist with epilepsy, making video-EEG essential to tell them apart.
+- `connects-to` → **[Fibromyalgia](../fibromyalgia/README.md)** — Shared central hyperexcitability: epilepsy and fibromyalgia both reflect a hyperexcitable nervous system with disturbed glutamate/GABA balance, and the gabapentinoids pregabalin and gabapentin treat both.
+- `connects-to` → **[Cortical Bone](../../05-tissue/cortical-bone/README.md)** — Antiepileptic bone disease: enzyme-inducing antiseizure drugs accelerate vitamin D catabolism, lowering cortical-bone density and raising fracture risk with long-term use—compounded by seizure-related falls.
 
 [^fisher-2017-ilae-classification]: Fisher RS, Cross JH, D'Souza C, et al. Instruction manual for the ILAE 2017 operational classification of seizure types. *Epilepsia.* 2017;58(4):531-542. [doi:10.1111/epi.13671](https://doi.org/10.1111/epi.13671) · [PubMed 28276060](https://pubmed.ncbi.nlm.nih.gov/28276060/)
 [^devinsky-2018-epilepsy-review]: Devinsky O, Vezzani A, O'Brien TJ, et al. Epilepsy. *Nat Rev Dis Primers.* 2018;4:18024. [doi:10.1038/nrdp.2018.24](https://doi.org/10.1038/nrdp.2018.24) · [PubMed 29722352](https://pubmed.ncbi.nlm.nih.gov/29722352/)
