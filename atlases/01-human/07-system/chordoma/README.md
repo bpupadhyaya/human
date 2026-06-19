@@ -277,6 +277,15 @@ cross_links:
   - target: 01-human/03-molecular/tert
     relation: connects-to
     note: "Telomere maintenance: TERT activation helps chordoma cells sustain replicative immortality, a shared hallmark with other slow-growing but relentless bone and soft-tissue tumours."
+  - target: 01-human/03-molecular/hif-1alpha
+    relation: connects-to
+    note: "Hypoxic skull-base niche: HIF-1α stabilised in the poorly vascularised chordoma promotes the VEGF angiogenesis and metabolic adaptation that sustain its slow but relentless growth."
+  - target: 01-human/03-molecular/myc
+    relation: connects-to
+    note: "Proliferative drive: MYC activation, downstream of growth-factor receptor signalling, contributes to the biosynthesis and proliferation of chordoma cells."
+  - target: 01-human/03-molecular/cyclin-d1
+    relation: connects-to
+    note: "Cell-cycle progression: with CDKN2A loss common in chordoma, cyclin D1-CDK4/6 activity drives cells through the G1 checkpoint, a rationale for CDK4/6 inhibition."
 ---
 
 # Chordoma
@@ -498,6 +507,9 @@ CDKN2A deletion in ~30-40% → CDK4/6 hyperactivation → RB1 phosphorylation; p
 - `connects-to` → **[EZH2](../../03-molecular/ezh2/README.md)** — Epigenetic vulnerability: poorly differentiated, SMARCB1-deleted chordomas become dependent on EZH2, making this histone methyltransferase a rational drug target as in other rhabdoid tumours.
 - `connects-to` → **[KIT](../../03-molecular/kit/README.md)** — KIT and imatinib: chordomas frequently express KIT (CD117) alongside PDGFR, the rationale behind imatinib therapy that gives modest disease control in advanced chordoma.
 - `connects-to` → **[TERT](../../03-molecular/tert/README.md)** — Telomere maintenance: TERT activation helps chordoma cells sustain replicative immortality, a shared hallmark with other slow-growing but relentless bone and soft-tissue tumours.
+- `connects-to` → **[HIF-1α](../../03-molecular/hif-1alpha/README.md)** — Hypoxic skull-base niche: HIF-1α stabilised in the poorly vascularised chordoma promotes the VEGF angiogenesis and metabolic adaptation that sustain its slow but relentless growth.
+- `connects-to` → **[MYC](../../03-molecular/myc/README.md)** — Proliferative drive: MYC activation, downstream of growth-factor receptor signalling, contributes to the biosynthesis and proliferation of chordoma cells.
+- `connects-to` → **[Cyclin D1](../../03-molecular/cyclin-d1/README.md)** — Cell-cycle progression: with CDKN2A loss common in chordoma, cyclin D1-CDK4/6 activity drives cells through the G1 checkpoint, a rationale for CDK4/6 inhibition.
 
 ---
 

@@ -285,6 +285,15 @@ cross_links:
   - target: 01-human/03-molecular/jak1-2
     relation: connects-to
     note: "Cytokine signal relay: JAK1/JAK2 transduce the inflammatory cytokines (IL-6 and others) that drive CIDP nerve damage, positioning JAK inhibition as an investigational approach."
+  - target: 01-human/03-molecular/ifn-gamma
+    relation: connects-to
+    note: "Th1 demyelination: IFN-γ from autoreactive T-helper cells activates macrophages that strip myelin from peripheral nerves, a central driver of the demyelination in CIDP."
+  - target: 01-human/03-molecular/il-1b
+    relation: connects-to
+    note: "Macrophage inflammation: IL-1β released by the activated macrophages that invade CIDP nerves amplifies the inflammatory demyelination of the disease."
+  - target: 01-human/03-molecular/nlrp3-inflammasome
+    relation: connects-to
+    note: "Innate amplification: NLRP3-inflammasome activation in macrophages matures the IL-1β that intensifies the autoimmune attack on peripheral myelin in CIDP."
 ---
 
 # CIDP
@@ -516,6 +525,9 @@ IgG4 anti-NF155 or anti-CNTN1 disrupts this complex → paranodal loop detachmen
 - `connects-to` → **[CTLA-4](../../03-molecular/ctla-4/README.md)** — Checkpoint and tolerance: CTLA-4 restrains autoreactive T cells, and anti-CTLA-4 checkpoint-inhibitor cancer therapy can unleash a CIDP-like immune neuropathy by breaking peripheral tolerance.
 - `connects-to` → **[BTK](../../03-molecular/btk/README.md)** — B-cell signalling target: Bruton tyrosine kinase relays B-cell receptor signals that sustain the autoantibody response, and BTK inhibitors are being trialled to dampen CIDP.
 - `connects-to` → **[JAK1/2](../../03-molecular/jak1-2/README.md)** — Cytokine signal relay: JAK1/JAK2 transduce the inflammatory cytokines (IL-6 and others) that drive CIDP nerve damage, positioning JAK inhibition as an investigational approach.
+- `connects-to` → **[IFN-γ](../../03-molecular/ifn-gamma/README.md)** — Th1 demyelination: IFN-γ from autoreactive T-helper cells activates macrophages that strip myelin from peripheral nerves, a central driver of the demyelination in CIDP.
+- `connects-to` → **[IL-1β](../../03-molecular/il-1b/README.md)** — Macrophage inflammation: IL-1β released by the activated macrophages that invade CIDP nerves amplifies the inflammatory demyelination of the disease.
+- `connects-to` → **[NLRP3 Inflammasome](../../03-molecular/nlrp3-inflammasome/README.md)** — Innate amplification: NLRP3-inflammasome activation in macrophages matures the IL-1β that intensifies the autoimmune attack on peripheral myelin in CIDP.
 
 ---
 
