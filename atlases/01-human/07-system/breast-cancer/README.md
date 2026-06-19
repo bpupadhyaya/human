@@ -253,6 +253,15 @@ cross_links:
   - target: 01-human/05-tissue/myocardium
     relation: connects-to
     note: "Its treatment can injure the heart: anthracyclines cause dose-dependent cardiomyopathy and trastuzumab a usually reversible cardiac dysfunction, so monitoring myocardial function is central to cardio-oncology in breast cancer."
+  - target: 01-human/07-system/hereditary-diffuse-gastric-cancer
+    relation: connects-to
+    note: "CDH1 links breast and stomach: germline loss of E-cadherin (CDH1) causes hereditary diffuse gastric cancer together with lobular breast cancer, so CDH1 carriers undergo breast surveillance and risk-reducing surgery."
+  - target: 01-human/05-tissue/germinal-center
+    relation: connects-to
+    note: "Lymphoid islands predict its immunotherapy response: triple-negative breast cancers that form tertiary lymphoid structures with germinal-centre B cells respond better to checkpoint blockade."
+  - target: 01-human/07-system/pancreatic-cancer
+    relation: connects-to
+    note: "Shared BRCA vulnerability: BRCA1/2 and PALB2-mutant breast and pancreatic cancers both respond to PARP inhibitors and platinum chemotherapy, within the HBOC spectrum of homologous-recombination-deficient tumours."
 ---
 
 # Breast Cancer
@@ -437,6 +446,9 @@ cross_links:
 - `connects-to` → **[Cancer Chemotherapy](../../../03-medicine/01-modern/13-cancer/cancer-chemotherapy/README.md)** — Anthracyclines and taxanes anchor it: cytotoxic chemotherapy with anthracyclines and taxanes is given neoadjuvantly or adjuvantly across breast cancer subtypes, especially triple-negative and node-positive disease, alongside targeted and endocrine therapy.
 - `connects-to` → **[Cortical Bone](../../05-tissue/cortical-bone/README.md)** — Bone is its favourite metastatic site: breast cancer spreads to bone as RANKL-driven osteolytic metastases causing pain and fractures, while aromatase inhibitors add their own bone loss — both countered by bisphosphonates and denosumab.
 - `connects-to` → **[Myocardium](../../05-tissue/myocardium/README.md)** — Its treatment can injure the heart: anthracyclines cause dose-dependent cardiomyopathy and trastuzumab a usually reversible cardiac dysfunction, so monitoring myocardial function is central to cardio-oncology in breast cancer.
+- `connects-to` → **[Hereditary Diffuse Gastric Cancer](../hereditary-diffuse-gastric-cancer/README.md)** — CDH1 links breast and stomach: germline loss of E-cadherin (CDH1) causes hereditary diffuse gastric cancer together with lobular breast cancer, so CDH1 carriers undergo breast surveillance and risk-reducing surgery.
+- `connects-to` → **[Germinal Center](../../05-tissue/germinal-center/README.md)** — Lymphoid islands predict its immunotherapy response: triple-negative breast cancers that form tertiary lymphoid structures with germinal-centre B cells respond better to checkpoint blockade.
+- `connects-to` → **[Pancreatic Cancer](../pancreatic-cancer/README.md)** — Shared BRCA vulnerability: BRCA1/2 and PALB2-mutant breast and pancreatic cancers both respond to PARP inhibitors and platinum chemotherapy, within the HBOC spectrum of homologous-recombination-deficient tumours.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 

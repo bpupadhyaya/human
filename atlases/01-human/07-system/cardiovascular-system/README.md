@@ -258,6 +258,15 @@ cross_links:
   - target: 01-human/07-system/atherosclerosis
     relation: connects-to
     note: "Its central disease: atherosclerosis — lipid-laden, inflamed plaque in artery walls — underlies coronary disease, stroke and peripheral arterial disease, the leading cause of death and the dominant pathology of the cardiovascular system."
+  - target: 01-human/05-tissue/myocardium
+    relation: connects-to
+    note: "The contractile engine: the myocardium is the heart muscle that pumps blood through the cardiovascular system, and its failure—through infarction, cardiomyopathy or hypertrophy—drives most cardiac disease."
+  - target: 01-human/05-tissue/endocardium
+    relation: connects-to
+    note: "The valves and inner lining: the endocardium forms the heart valves that keep blood moving in one direction and lines the chambers, the site of valvular disease, endocarditis and mural thrombus."
+  - target: 01-human/07-system/heart-failure
+    relation: connects-to
+    note: "The common final pathway: heart failure is where cardiovascular disease converges—the heart can no longer meet the body's circulatory demand, the shared endpoint of ischaemia, hypertension and valve disease."
 taxonomy:
   uberon: "UBERON:0004535"
   fma: "FMA:7161"
@@ -420,6 +429,9 @@ Each major vascular bed has **autoregulation** — a local mechanism that holds 
 - `connects-to` → **[Cardiac Conduction System](../../05-tissue/cardiac-conduction-system/README.md)** — It sets the rhythm: the SA node, AV node and His-Purkinje system generate and route the electrical impulse that coordinates the heartbeat, and their failure produces the arrhythmias, blocks and sudden death the cardiovascular system must avoid.
 - `connects-to` → **[ACE Inhibitors](../../../03-medicine/01-modern/04-cardio/ace-inhibitors/README.md)** — A cornerstone of cardiovascular therapy: ACE inhibitors blunt the renin-angiotensin system to lower blood pressure, unload the failing heart and protect after myocardial infarction, among the most-used cardiovascular drugs.
 - `connects-to` → **[Atherosclerosis](../atherosclerosis/README.md)** — Its central disease: atherosclerosis — lipid-laden, inflamed plaque in artery walls — underlies coronary disease, stroke and peripheral arterial disease, the leading cause of death and the dominant pathology of the cardiovascular system.
+- `connects-to` → **[Myocardium](../../05-tissue/myocardium/README.md)** — The contractile engine: the myocardium is the heart muscle that pumps blood through the cardiovascular system, and its failure—through infarction, cardiomyopathy or hypertrophy—drives most cardiac disease.
+- `connects-to` → **[Endocardium](../../05-tissue/endocardium/README.md)** — The valves and inner lining: the endocardium forms the heart valves that keep blood moving in one direction and lines the chambers, the site of valvular disease, endocarditis and mural thrombus.
+- `connects-to` → **[Heart Failure](../heart-failure/README.md)** — The common final pathway: heart failure is where cardiovascular disease converges—the heart can no longer meet the body's circulatory demand, the shared endpoint of ischaemia, hypertension and valve disease.
 
 ## Pathology
 
