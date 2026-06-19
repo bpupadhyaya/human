@@ -243,6 +243,15 @@ cross_links:
   - target: 01-human/05-tissue/myocardium
     relation: connects-to
     note: "When a loss breaks the heart: the acute adrenergic surge of catastrophic gambling stress can precipitate takotsubo (stress) cardiomyopathy, transient ballooning of the myocardium that mimics a heart attack."
+  - target: 01-human/07-system/atherosclerosis
+    relation: connects-to
+    note: "The slow cardiovascular toll: chronic stress, poor sleep, smoking comorbidity and a sedentary lifestyle in gambling disorder accelerate atherosclerotic cardiovascular disease over years, beyond its acute cardiac stress events."
+  - target: 01-human/05-tissue/cardiac-conduction-system
+    relation: connects-to
+    note: "Sympathetic surges and rhythm: the intense adrenergic arousal of high-stakes gambling stresses the cardiac conduction system, and case reports link acute gambling stress to arrhythmias and sudden cardiac events."
+  - target: 01-human/07-system/nash
+    relation: connects-to
+    note: "A metabolic side effect: the weight gain, sedentary behaviour and frequent alcohol use accompanying gambling disorder promote metabolic syndrome and non-alcoholic fatty liver disease."
 sources:
   - id: grant-2016-gambling-review
     type: peer-reviewed
@@ -464,6 +473,9 @@ Persistent and recurrent problematic gambling behavior causing distress (≥4 of
 - `connects-to` → **[Leptin](../../03-molecular/leptin/README.md)** — Metabolic hormone meets reward: leptin modulates mesolimbic dopamine and reward circuitry, and its dysregulation in the obesity that often accompanies gambling and binge behaviour links metabolic signalling to compulsive reward-seeking.
 - `connects-to` → **[NPY](../../03-molecular/npy/README.md)** — A stress-and-reward neuropeptide: NPY dampens stress and anxiety and shapes the craving circuits engaged in addictions, a candidate link between using gambling to relieve distress and the slide into compulsion.
 - `connects-to` → **[Myocardium](../../05-tissue/myocardium/README.md)** — When a loss breaks the heart: the acute adrenergic surge of catastrophic gambling stress can precipitate takotsubo (stress) cardiomyopathy, transient ballooning of the myocardium that mimics a heart attack.
+- `connects-to` → **[Atherosclerosis](../atherosclerosis/README.md)** — The slow cardiovascular toll: chronic stress, poor sleep, smoking comorbidity and a sedentary lifestyle in gambling disorder accelerate atherosclerotic cardiovascular disease over years, beyond its acute cardiac stress events.
+- `connects-to` → **[Cardiac Conduction System](../../05-tissue/cardiac-conduction-system/README.md)** — Sympathetic surges and rhythm: the intense adrenergic arousal of high-stakes gambling stresses the cardiac conduction system, and case reports link acute gambling stress to arrhythmias and sudden cardiac events.
+- `connects-to` → **[NASH](../nash/README.md)** — A metabolic side effect: the weight gain, sedentary behaviour and frequent alcohol use accompanying gambling disorder promote metabolic syndrome and non-alcoholic fatty liver disease.
 
 [^potenza-2014-gambling-neuroscience]: Potenza MN. The neurobiology of pathological gambling and drug addiction: an overview and new findings. *Philos Trans R Soc Lond B Biol Sci.* 2008;363(1507):3181-3189. [doi:10.1098/rstb.2008.0100](https://doi.org/10.1098/rstb.2008.0100) · [PubMed 18640909](https://pubmed.ncbi.nlm.nih.gov/18640909/)
 [^grant-2016-gambling-review]: Grant JE, Chamberlain SR. Gambling disorder and its relationship with substance use disorders. *Am J Addict.* 2015;24(2):126-131. [doi:10.1111/ajad.12112](https://doi.org/10.1111/ajad.12112) · [PubMed 25376793](https://pubmed.ncbi.nlm.nih.gov/25376793/)

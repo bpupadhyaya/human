@@ -262,6 +262,15 @@ cross_links:
   - target: 01-human/05-tissue/glomerulus
     relation: connects-to
     note: "Lipids injure the kidney too: chronic LDL excess drives atherosclerotic renovascular disease and lipid-mediated glomerular injury, so severe untreated FH accelerates kidney as well as heart disease."
+  - target: 01-human/05-tissue/endocardium
+    relation: connects-to
+    note: "Cholesterol on the valves: severe (especially homozygous) familial hypercholesterolaemia deposits cholesterol in the aortic valve and root, causing supravalvular and calcific aortic stenosis of the endocardium."
+  - target: 01-human/05-tissue/intestinal-epithelium
+    relation: connects-to
+    note: "Where dietary cholesterol enters: the intestinal epithelium absorbs cholesterol via NPC1L1, the target of ezetimibe—an FH therapy that complements statins by cutting absorption alongside reduced synthesis."
+  - target: 01-human/07-system/type-1-diabetes
+    relation: connects-to
+    note: "Compounded cardiovascular risk: when familial hypercholesterolaemia coexists with diabetes such as type 1, the lipid and glycaemic insults multiply atherosclerotic risk, demanding aggressive LDL lowering."
 ---
 
 # Familial Hypercholesterolemia
@@ -451,6 +460,9 @@ FH is a **monogenic autosomal dominant disorder** caused by mutations in three g
 - `connects-to` → **[Cardiac Conduction System](../../05-tissue/cardiac-conduction-system/README.md)** — Early ischaemia hits the wiring: the premature, severe coronary atherosclerosis of untreated FH damages the conduction system, predisposing young adults to ventricular arrhythmia and sudden cardiac death.
 - `connects-to` → **[Adrenal Gland](../../06-organ/adrenal-gland/README.md)** — Cholesterol feeds steroid hormones: the adrenal cortex takes up LDL cholesterol through the very LDL receptor defective in FH to build cortisol and aldosterone, tying lipoprotein handling to steroidogenesis.
 - `connects-to` → **[Glomerulus](../../05-tissue/glomerulus/README.md)** — Lipids injure the kidney too: chronic LDL excess drives atherosclerotic renovascular disease and lipid-mediated glomerular injury, so severe untreated FH accelerates kidney as well as heart disease.
+- `connects-to` → **[Endocardium](../../05-tissue/endocardium/README.md)** — Cholesterol on the valves: severe (especially homozygous) familial hypercholesterolaemia deposits cholesterol in the aortic valve and root, causing supravalvular and calcific aortic stenosis of the endocardium.
+- `connects-to` → **[Intestinal Epithelium](../../05-tissue/intestinal-epithelium/README.md)** — Where dietary cholesterol enters: the intestinal epithelium absorbs cholesterol via NPC1L1, the target of ezetimibe—an FH therapy that complements statins by cutting absorption alongside reduced synthesis.
+- `connects-to` → **[Type 1 Diabetes](../type-1-diabetes/README.md)** — Compounded cardiovascular risk: when familial hypercholesterolaemia coexists with diabetes such as type 1, the lipid and glycaemic insults multiply atherosclerotic risk, demanding aggressive LDL lowering.
 
 [^goldstein-1985-ldlr-nobel]: Goldstein JL, Brown MS. The LDL receptor. *Arterioscler Thromb Vasc Biol.* 2009;29(4):431-438. [doi:10.1161/ATVBAHA.108.179564](https://doi.org/10.1161/ATVBAHA.108.179564) · [PubMed 19299327](https://pubmed.ncbi.nlm.nih.gov/19299327/)
 [^raal-2020-inclisiran-fh]: Raal FJ, Kallend D, Ray KK, et al. Inclisiran for the Treatment of Heterozygous Familial Hypercholesterolemia. *N Engl J Med.* 2020;382(16):1520-1530. [doi:10.1056/NEJMoa1913805](https://doi.org/10.1056/NEJMoa1913805) · [PubMed 32197277](https://pubmed.ncbi.nlm.nih.gov/32197277/)
