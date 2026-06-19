@@ -267,6 +267,15 @@ cross_links:
   - target: 01-human/05-tissue/cortical-bone
     relation: connects-to
     note: "Interferon reaches the skeleton: the related interferonopathy SPENCD (spondyloenchondrodysplasia) couples an AGS-like type-I-IFN signature with metaphyseal and vertebral lesions of cortical bone, tying innate immunity to the skeleton."
+  - target: 01-human/05-tissue/axonal-transport
+    relation: connects-to
+    note: "A genetic leukodystrophy: chronic type-I interferon in Aicardi-Goutières damages cerebral white matter and the oligodendrocytes that myelinate it, disrupting the myelinated axons and their transport across the developing brain."
+  - target: 01-human/07-system/cll
+    relation: connects-to
+    note: "One gene, two diseases: SAMHD1, an Aicardi-Goutières gene, is also a recurrently mutated tumour suppressor in chronic lymphocytic leukaemia, so the same DNA-metabolism enzyme links an interferonopathy to a B-cell cancer."
+  - target: 01-human/07-system/alzheimers-disease
+    relation: connects-to
+    note: "Interferon in neurodegeneration: as a pure type-I-interferonopathy of the brain driven by cGAS-STING sensing of self-DNA, Aicardi-Goutières informs the emerging role of the same innate-immune pathway in Alzheimer's neuroinflammation."
 ---
 
 # Aicardi-Goutières Syndrome
@@ -444,6 +453,9 @@ Severe early-onset AGS (TREX1 homozygous, RNASEH2A): death in childhood from res
 - `connects-to` → **[Rheumatoid Arthritis](../rheumatoid-arthritis/README.md)** — JAK inhibition across diseases: the JAK inhibitors (baricitinib) that calm the type-I-interferon storm of Aicardi-Goutières also treat rheumatoid arthritis, a pharmacologic bridge from a monogenic to a common autoimmune disease.
 - `connects-to` → **[Germinal Center](../../05-tissue/germinal-center/README.md)** — Innate disease, adaptive autoantibodies: though driven by innate type-I-interferon, Aicardi-Goutières often shows lupus-like autoantibodies arising from germinal-centre B-cell activation, blurring innate and adaptive autoimmunity.
 - `connects-to` → **[Cortical Bone](../../05-tissue/cortical-bone/README.md)** — Interferon reaches the skeleton: the related interferonopathy SPENCD (spondyloenchondrodysplasia) couples an AGS-like type-I-IFN signature with metaphyseal and vertebral lesions of cortical bone, tying innate immunity to the skeleton.
+- `connects-to` → **[Axonal Transport](../../05-tissue/axonal-transport/README.md)** — A genetic leukodystrophy: chronic type-I interferon in Aicardi-Goutières damages cerebral white matter and the oligodendrocytes that myelinate it, disrupting the myelinated axons and their transport across the developing brain.
+- `connects-to` → **[CLL](../cll/README.md)** — One gene, two diseases: SAMHD1, an Aicardi-Goutières gene, is also a recurrently mutated tumour suppressor in chronic lymphocytic leukaemia, so the same DNA-metabolism enzyme links an interferonopathy to a B-cell cancer.
+- `connects-to` → **[Alzheimer's Disease](../alzheimers-disease/README.md)** — Interferon in neurodegeneration: as a pure type-I-interferonopathy of the brain driven by cGAS-STING sensing of self-DNA, Aicardi-Goutières informs the emerging role of the same innate-immune pathway in Alzheimer's neuroinflammation.
 
 ---
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*

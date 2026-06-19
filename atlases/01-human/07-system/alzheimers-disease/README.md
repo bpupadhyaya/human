@@ -271,6 +271,15 @@ cross_links:
   - target: 01-human/06-organ/liver
     relation: connects-to
     note: "The peripheral amyloid sink: the liver clears circulating amyloid-beta via LRP1, and impaired hepatic clearance may raise the brain's amyloid burden—linking systemic metabolism to Alzheimer's."
+  - target: 01-human/07-system/ptsd
+    relation: connects-to
+    note: "Trauma and later dementia: chronic PTSD and the sustained cortisol of traumatic stress damage the hippocampus and are associated with a substantially raised risk of later Alzheimer's disease."
+  - target: 01-human/07-system/narcolepsy
+    relation: connects-to
+    note: "Orexin, sleep and amyloid: orexin governs the sleep-wake cycle that drives glymphatic amyloid clearance, tying the orexin system disrupted in narcolepsy to the sleep disturbance and amyloid accumulation of Alzheimer's."
+  - target: 01-human/07-system/bipolar-disorder
+    relation: connects-to
+    note: "Mood disorder and dementia risk: bipolar disorder is associated with a higher risk of later dementia, while long-term lithium appears neuroprotective—through GSK-3β inhibition—and lowers Alzheimer's incidence."
 ---
 
 # Alzheimer's Disease
@@ -454,6 +463,9 @@ Microglia play a central, dual role in AD:
 - `connects-to` → **[Obesity](../obesity/README.md)** — Midlife adiposity and dementia: midlife obesity raises the later risk of Alzheimer's through insulin resistance, vascular injury and chronic neuroinflammation, tying metabolic health to brain ageing.
 - `connects-to` → **[COVID-19 Disease](../covid-19-disease/README.md)** — Infection and cognitive decline: COVID-19 can leave lasting 'brain fog' and accelerate cognitive decline in older adults, with neuroinflammation a proposed link to Alzheimer's pathology.
 - `connects-to` → **[Liver](../../06-organ/liver/README.md)** — The peripheral amyloid sink: the liver clears circulating amyloid-beta via LRP1, and impaired hepatic clearance may raise the brain's amyloid burden—linking systemic metabolism to Alzheimer's.
+- `connects-to` → **[PTSD](../ptsd/README.md)** — Trauma and later dementia: chronic PTSD and the sustained cortisol of traumatic stress damage the hippocampus and are associated with a substantially raised risk of later Alzheimer's disease.
+- `connects-to` → **[Narcolepsy](../narcolepsy/README.md)** — Orexin, sleep and amyloid: orexin governs the sleep-wake cycle that drives glymphatic amyloid clearance, tying the orexin system disrupted in narcolepsy to the sleep disturbance and amyloid accumulation of Alzheimer's.
+- `connects-to` → **[Bipolar Disorder](../bipolar-disorder/README.md)** — Mood disorder and dementia risk: bipolar disorder is associated with a higher risk of later dementia, while long-term lithium appears neuroprotective—through GSK-3β inhibition—and lowers Alzheimer's incidence.
 
 [^selkoe-2016-alzheimer]: Selkoe DJ, Hardy J. The amyloid hypothesis of Alzheimer's disease at 25 years. *EMBO Mol Med.* 2016;8(6):595-608. [doi:10.15252/emmm.201606210](https://doi.org/10.15252/emmm.201606210) · [PubMed 27025652](https://pubmed.ncbi.nlm.nih.gov/27025652/)
 [^jack-2018-nia-aa]: Jack CR Jr, Bennett DA, Blennow K, et al. NIA-AA Research Framework: Toward a biological definition of Alzheimer's disease. *Alzheimers Dement.* 2018;14(4):535-562. [doi:10.1016/j.jalz.2018.02.018](https://doi.org/10.1016/j.jalz.2018.02.018) · [PubMed 29653606](https://pubmed.ncbi.nlm.nih.gov/29653606/)
