@@ -250,6 +250,15 @@ cross_links:
   - target: 01-human/05-tissue/myocardium
     relation: connects-to
     note: "TKIs can stress the heart: beyond arterial events, CML tyrosine-kinase inhibitors cause fluid retention, QT prolongation and, with ponatinib, heart failure, so cardiac function is monitored during long-term therapy."
+  - target: 01-human/07-system/cmml
+    relation: connects-to
+    note: "Ph-negative myeloproliferation: CMML is a myelodysplastic/myeloproliferative overlap that lacks the BCR-ABL fusion of CML, the key distinction in a patient with leukocytosis, monocytosis and splenomegaly."
+  - target: 01-human/05-tissue/hepatic-lobule
+    relation: connects-to
+    note: "Extramedullary disease in the liver: in advanced or blast-phase CML, leukaemic cells and extramedullary haematopoiesis infiltrate the hepatic lobule, contributing to hepatomegaly."
+  - target: 01-human/07-system/type-2-diabetes
+    relation: connects-to
+    note: "A price of long-term TKIs: the BCR-ABL inhibitor nilotinib raises blood glucose and worsens insulin resistance, so diabetes and arterial disease are monitored during the chronic therapy that now makes CML survivable."
 ---
 
 # Chronic Myeloid Leukemia
@@ -440,6 +449,9 @@ Following the imatinib revolution, the current frontier is achieving **deep mole
 - `connects-to` → **[Arterial Wall](../../05-tissue/arterial-wall/README.md)** — Its drugs harm the arteries: the TKIs that control CML, especially nilotinib and ponatinib, accelerate atherosclerosis and cause arterial occlusive events — peripheral, coronary and cerebral — a key long-term toxicity to monitor.
 - `connects-to` → **[Cortical Bone](../../05-tissue/cortical-bone/README.md)** — Marrow overgrowth aches the bones: the massive myeloid hyperplasia of CML expands the marrow and can cause bone pain, while high cell turnover and infiltration stress the skeleton.
 - `connects-to` → **[Myocardium](../../05-tissue/myocardium/README.md)** — TKIs can stress the heart: beyond arterial events, CML tyrosine-kinase inhibitors cause fluid retention, QT prolongation and, with ponatinib, heart failure, so cardiac function is monitored during long-term therapy.
+- `connects-to` → **[CMML](../cmml/README.md)** — Ph-negative myeloproliferation: CMML is a myelodysplastic/myeloproliferative overlap that lacks the BCR-ABL fusion of CML, the key distinction in a patient with leukocytosis, monocytosis and splenomegaly.
+- `connects-to` → **[Hepatic Lobule](../../05-tissue/hepatic-lobule/README.md)** — Extramedullary disease in the liver: in advanced or blast-phase CML, leukaemic cells and extramedullary haematopoiesis infiltrate the hepatic lobule, contributing to hepatomegaly.
+- `connects-to` → **[Type 2 Diabetes](../type-2-diabetes/README.md)** — A price of long-term TKIs: the BCR-ABL inhibitor nilotinib raises blood glucose and worsens insulin resistance, so diabetes and arterial disease are monitored during the chronic therapy that now makes CML survivable.
 
 ---
 

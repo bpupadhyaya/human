@@ -250,6 +250,15 @@ cross_links:
   - target: 01-human/07-system/rheumatoid-arthritis
     relation: connects-to
     note: "It comes with autoimmunity: CMML and the myelodysplastic syndromes are associated with systemic inflammatory and autoimmune disorders including inflammatory arthritis and vasculitis, paraneoplastic manifestations of the clonal marrow."
+  - target: 01-human/05-tissue/arterial-wall
+    relation: connects-to
+    note: "Monocytes inflame the arteries: CMML's expanded monocytes and its clonal-haematopoiesis biology infiltrate and inflame the arterial wall, accelerating atherosclerosis and cardiovascular risk."
+  - target: 01-human/03-molecular/tnf-alpha
+    relation: connects-to
+    note: "An inflammatory cytokine drive: TNF-alpha and IL-6 from the clonal monocytes drive the fevers, weight loss and cytopenias that give CMML its systemic, inflammatory character."
+  - target: 01-human/07-system/stroke
+    relation: connects-to
+    note: "Clonal haematopoiesis and vascular events: the TET2- and DNMT3A-mutant clones of CMML, like clonal haematopoiesis generally, raise the risk of stroke and other cardiovascular events."
 ---
 
 # Chronic Myelomonocytic Leukemia
@@ -453,6 +462,9 @@ CMML → AML transformation (~15-30% at 5 years): Treat as secondary AML; CPX-35
 - `connects-to` → **[Targeted Therapy](../../../03-medicine/01-modern/13-cancer/targeted-therapy/README.md)** — Hypomethylators and JAK inhibition: azacitidine and decitabine (hypomethylating agents) are mainstays for higher-risk CMML, and JAK inhibitors are used for the proliferative, splenomegalic subtype driven by its monocytosis.
 - `connects-to` → **[Hepatic Lobule](../../05-tissue/hepatic-lobule/README.md)** — Monocytes infiltrate the liver: proliferative CMML causes hepatosplenomegaly as malignant monocytes and extramedullary haematopoiesis populate the liver lobule, adding organomegaly to its cytopenias.
 - `connects-to` → **[Rheumatoid Arthritis](../rheumatoid-arthritis/README.md)** — It comes with autoimmunity: CMML and the myelodysplastic syndromes are associated with systemic inflammatory and autoimmune disorders including inflammatory arthritis and vasculitis, paraneoplastic manifestations of the clonal marrow.
+- `connects-to` → **[Arterial Wall](../../05-tissue/arterial-wall/README.md)** — Monocytes inflame the arteries: CMML's expanded monocytes and its clonal-haematopoiesis biology infiltrate and inflame the arterial wall, accelerating atherosclerosis and cardiovascular risk.
+- `connects-to` → **[TNF-alpha](../../03-molecular/tnf-alpha/README.md)** — An inflammatory cytokine drive: TNF-alpha and IL-6 from the clonal monocytes drive the fevers, weight loss and cytopenias that give CMML its systemic, inflammatory character.
+- `connects-to` → **[Stroke](../stroke/README.md)** — Clonal haematopoiesis and vascular events: the TET2- and DNMT3A-mutant clones of CMML, like clonal haematopoiesis generally, raise the risk of stroke and other cardiovascular events.
 
 ---
 
