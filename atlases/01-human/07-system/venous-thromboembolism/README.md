@@ -280,6 +280,15 @@ cross_links:
   - target: 01-human/05-tissue/glomerulus
     relation: connects-to
     note: "Renal vein thrombosis: nephrotic-range proteinuria from glomerular disease loses antithrombin in the urine, creating a hypercoagulable state that classically thromboses the renal vein."
+  - target: 01-human/03-molecular/il-6
+    relation: connects-to
+    note: "Immunothrombosis: IL-6 drives the inflammation-coagulation crosstalk that raises VTE risk in infection, cancer and inflammatory disease, linking acute illness to clot formation."
+  - target: 01-human/03-molecular/tnf-alpha
+    relation: connects-to
+    note: "Prothrombotic inflammation: TNF-α activates endothelium to express tissue factor and downregulate anticoagulant pathways, a mechanism connecting systemic inflammation to venous thrombosis."
+  - target: 01-human/03-molecular/hif-1alpha
+    relation: connects-to
+    note: "Stasis hypoxia: venous stasis creates local hypoxia that stabilises HIF-1α and upregulates procoagulant factors, part of why immobility and stasis precipitate deep-vein thrombosis."
 ---
 
 # Venous Thromboembolism
@@ -486,6 +495,9 @@ cross_links:
 - `connects-to` → **[Myelofibrosis](../myelofibrosis/README.md)** — Myeloproliferative thrombosis: like polycythaemia vera and essential thrombocythaemia, myelofibrosis is strongly thrombogenic and a leading cause of splanchnic (portal and hepatic vein) thrombosis.
 - `connects-to` → **[Hepatic Lobule](../../05-tissue/hepatic-lobule/README.md)** — Splanchnic vein clots: thrombosis of the portal vein or the hepatic veins (Budd-Chiari syndrome) draining the hepatic lobule is a distinct, often MPN-driven form of venous thromboembolism.
 - `connects-to` → **[Glomerulus](../../05-tissue/glomerulus/README.md)** — Renal vein thrombosis: nephrotic-range proteinuria from glomerular disease loses antithrombin in the urine, creating a hypercoagulable state that classically thromboses the renal vein.
+- `connects-to` → **[IL-6](../../03-molecular/il-6/README.md)** — Immunothrombosis: IL-6 drives the inflammation-coagulation crosstalk that raises VTE risk in infection, cancer and inflammatory disease, linking acute illness to clot formation.
+- `connects-to` → **[TNF-α](../../03-molecular/tnf-alpha/README.md)** — Prothrombotic inflammation: TNF-α activates endothelium to express tissue factor and downregulate anticoagulant pathways, a mechanism connecting systemic inflammation to venous thrombosis.
+- `connects-to` → **[HIF-1α](../../03-molecular/hif-1alpha/README.md)** — Stasis hypoxia: venous stasis creates local hypoxia that stabilises HIF-1α and upregulates procoagulant factors, part of why immobility and stasis precipitate deep-vein thrombosis.
 
 [^agnelli-2013-amplify-apixaban-vte]: Agnelli G, Buller HR, Cohen A, et al. Oral apixaban for the treatment of acute venous thromboembolism. *N Engl J Med.* 2013;369(9):799-808. [doi:10.1056/NEJMoa1302507](https://doi.org/10.1056/NEJMoa1302507) · [PubMed 23808982](https://pubmed.ncbi.nlm.nih.gov/23808982/)
 [^bauersachs-2010-einstein-rivaroxaban]: EINSTEIN Investigators. Oral rivaroxaban for symptomatic venous thromboembolism. *N Engl J Med.* 2010;363(26):2499-2510. [doi:10.1056/NEJMoa1007903](https://doi.org/10.1056/NEJMoa1007903) · [PubMed 21128814](https://pubmed.ncbi.nlm.nih.gov/21128814/)

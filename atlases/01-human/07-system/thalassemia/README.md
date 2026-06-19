@@ -279,6 +279,15 @@ cross_links:
   - target: 01-human/07-system/wound-healing
     relation: connects-to
     note: "Poor-healing leg ulcers: chronic anaemia, tissue hypoxia and sluggish perfusion in thalassemia produce stubborn lower-limb ulcers, a chronic wound-healing failure shared with sickle cell disease."
+  - target: 01-human/03-molecular/hif-1alpha
+    relation: connects-to
+    note: "Erythropoietic drive: chronic anaemia and hypoxia stabilise HIF-1α in thalassemia, driving the erythropoietin surge and marrow expansion behind its skeletal deformities and extramedullary haematopoiesis."
+  - target: 01-human/03-molecular/endothelin-1
+    relation: connects-to
+    note: "Vascular complication: haemolysis and endothelial dysfunction raise endothelin-1 in thalassemia, contributing to the pulmonary hypertension that complicates the chronic anaemia."
+  - target: 01-human/03-molecular/tnf-alpha
+    relation: connects-to
+    note: "Marrow inflammation: TNF-α from the chronically stressed, expanded marrow of thalassemia contributes to its ineffective erythropoiesis and the inflammatory disturbance of iron handling."
 ---
 
 # Thalassemia
@@ -510,6 +519,9 @@ Untransfused or undertransfused β-thal major:
 - `connects-to` → **[Intestinal Epithelium](../../05-tissue/intestinal-epithelium/README.md)** — Duodenal iron absorption: thalassemia's ineffective erythropoiesis suppresses hepcidin, driving the intestinal epithelium to over-absorb dietary iron and worsening overload even without transfusion.
 - `connects-to` → **[Aplastic Anemia](../aplastic-anemia/README.md)** — Aplastic crisis: parvovirus B19 infection or folate deficiency can abruptly shut down red-cell production in thalassemia's chronically haemolytic marrow, the same marrow-failure vulnerability central to aplastic anaemia.
 - `connects-to` → **[Wound Healing](../wound-healing/README.md)** — Poor-healing leg ulcers: chronic anaemia, tissue hypoxia and sluggish perfusion in thalassemia produce stubborn lower-limb ulcers, a chronic wound-healing failure shared with sickle cell disease.
+- `connects-to` → **[HIF-1α](../../03-molecular/hif-1alpha/README.md)** — Erythropoietic drive: chronic anaemia and hypoxia stabilise HIF-1α in thalassemia, driving the erythropoietin surge and marrow expansion behind its skeletal deformities and extramedullary haematopoiesis.
+- `connects-to` → **[Endothelin-1](../../03-molecular/endothelin-1/README.md)** — Vascular complication: haemolysis and endothelial dysfunction raise endothelin-1 in thalassemia, contributing to the pulmonary hypertension that complicates the chronic anaemia.
+- `connects-to` → **[TNF-α](../../03-molecular/tnf-alpha/README.md)** — Marrow inflammation: TNF-α from the chronically stressed, expanded marrow of thalassemia contributes to its ineffective erythropoiesis and the inflammatory disturbance of iron handling.
 
 [^weatherall-2008-thalassemia-review]: Weatherall DJ. The inherited diseases of hemoglobin are an emerging global health burden. *Blood.* 2010;115(22):4331-4336. [doi:10.1182/blood-2010-01-251348](https://doi.org/10.1182/blood-2010-01-251348) · [PubMed 20233970](https://pubmed.ncbi.nlm.nih.gov/20233970/)
 [^cappellini-2014-thalassemia-guidelines]: Cappellini MD, Cohen A, Porter J, et al. (eds). Guidelines for the Management of Transfusion Dependent Thalassaemia (TDT). 3rd ed. Thalassaemia International Federation; 2014.
