@@ -269,6 +269,15 @@ cross_links:
   - target: 01-human/07-system/stimulant-use-disorder
     relation: connects-to
     note: "Shared striatal-dopamine dysregulation: obsessive-compulsive disorder and stimulant use disorder both involve dysregulated reward and habit circuits of the striatum, and stimulants can exacerbate compulsions and tics."
+  - target: 01-human/07-system/stroke
+    relation: connects-to
+    note: "Lesions reveal the circuit: strokes and other injuries to the basal ganglia and orbitofrontal cortex can produce new-onset obsessive-compulsive symptoms, mapping OCD onto cortico-striatal-thalamic circuitry."
+  - target: 01-human/07-system/opioid-use-disorder
+    relation: connects-to
+    note: "Compulsivity across disorders: obsessive-compulsive disorder and opioid use disorder share dysregulated cortico-striatal habit circuits, both marked by the shift from goal-directed to compulsive, hard-to-stop behaviour."
+  - target: 01-human/07-system/fibromyalgia
+    relation: connects-to
+    note: "An anxious, serotonergic overlap: obsessive-compulsive disorder commonly coexists with fibromyalgia, sharing serotonergic dysregulation and an anxiety-stress burden that both respond partly to SSRIs and SNRIs."
 ---
 
 # Obsessive-Compulsive Disorder
@@ -477,6 +486,9 @@ OCD is often underdiagnosed due to shame and secrecy. Mean time from symptom ons
 - `connects-to` → **[Cardiac Conduction System](../../05-tissue/cardiac-conduction-system/README.md)** — Its drugs watch the QT interval: high-dose SSRIs and especially clomipramine used for obsessive-compulsive disorder prolong the QT interval and can disturb cardiac conduction, requiring ECG monitoring at higher doses.
 - `connects-to` → **[Type 2 Diabetes](../type-2-diabetes/README.md)** — Augmentation carries metabolic cost: antipsychotics added to SSRIs in treatment-resistant OCD cause weight gain and insulin resistance, raising the risk of type 2 diabetes over time.
 - `connects-to` → **[Stimulant Use Disorder](../stimulant-use-disorder/README.md)** — Shared striatal-dopamine dysregulation: obsessive-compulsive disorder and stimulant use disorder both involve dysregulated reward and habit circuits of the striatum, and stimulants can exacerbate compulsions and tics.
+- `connects-to` → **[Stroke](../stroke/README.md)** — Lesions reveal the circuit: strokes and other injuries to the basal ganglia and orbitofrontal cortex can produce new-onset obsessive-compulsive symptoms, mapping OCD onto cortico-striatal-thalamic circuitry.
+- `connects-to` → **[Opioid Use Disorder](../opioid-use-disorder/README.md)** — Compulsivity across disorders: obsessive-compulsive disorder and opioid use disorder share dysregulated cortico-striatal habit circuits, both marked by the shift from goal-directed to compulsive, hard-to-stop behaviour.
+- `connects-to` → **[Fibromyalgia](../fibromyalgia/README.md)** — An anxious, serotonergic overlap: obsessive-compulsive disorder commonly coexists with fibromyalgia, sharing serotonergic dysregulation and an anxiety-stress burden that both respond partly to SSRIs and SNRIs.
 
 [^abramowitz-2009-ocd-review]: Abramowitz JS, Taylor S, McKay D. Obsessive-compulsive disorder. *Lancet.* 2009;374(9688):491-499. [doi:10.1016/S0140-6736(09)60240-3](https://doi.org/10.1016/S0140-6736(09)60240-3) · [PubMed 19665647](https://pubmed.ncbi.nlm.nih.gov/19665647/)
 [^chamberlain-2008-ocd-neuroscience]: Chamberlain SR, Menzies L, Hampshire A, et al. Orbitofrontal dysfunction in patients with OCD and their unaffected relatives. *Science.* 2008;321(5887):421-422. [doi:10.1126/science.1154433](https://doi.org/10.1126/science.1154433) · [PubMed 18635808](https://pubmed.ncbi.nlm.nih.gov/18635808/)

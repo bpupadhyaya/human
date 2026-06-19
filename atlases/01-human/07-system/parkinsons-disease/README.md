@@ -259,6 +259,15 @@ cross_links:
   - target: 01-human/07-system/covid-19-disease
     relation: connects-to
     note: "Infections can trigger parkinsonism: as influenza once left post-encephalitic parkinsonism, viral infections including COVID-19 are reported to precipitate or unmask Parkinson's, supporting a role for neuroinflammation in its onset."
+  - target: 01-human/05-tissue/arterial-wall
+    relation: connects-to
+    note: "Vascular parkinsonism: small-vessel disease of the brain's arterial walls can mimic Parkinson's with a lower-body, gait-predominant parkinsonism that responds poorly to levodopa, a key differential."
+  - target: 01-human/07-system/als
+    relation: connects-to
+    note: "Neurodegeneration's shared themes: Parkinson's and ALS are both age-related neurodegenerations driven by protein misfolding and aggregation, with rare overlap syndromes and the Guam ALS-parkinsonism-dementia complex linking them."
+  - target: 01-human/07-system/bipolar-disorder
+    relation: connects-to
+    note: "A shared dopamine thread: bipolar disorder is associated with a higher later risk of Parkinson's disease, and the dopaminergic dysregulation of mania mirrors, in reverse, the dopamine loss of Parkinson's."
 ---
 
 # Parkinson's Disease
@@ -478,6 +487,9 @@ PD is primarily a disease of aging (mean onset ~60 years), but **~10–15% of ca
 - `connects-to` → **[Intestinal Epithelium](../../05-tissue/intestinal-epithelium/README.md)** — It may begin in the gut: α-synuclein pathology can start in the enteric nervous system of the intestinal wall and ascend the vagus to the brain (Braak's gut-first hypothesis), and constipation precedes the tremor by years.
 - `connects-to` → **[Hippocampus](../../05-tissue/hippocampus/README.md)** — Dementia comes with time: most people with Parkinson's eventually develop cognitive decline as α-synuclein and Lewy pathology spread to the hippocampus and cortex, blurring the line with Lewy body dementia.
 - `connects-to` → **[COVID-19 Disease](../covid-19-disease/README.md)** — Infections can trigger parkinsonism: as influenza once left post-encephalitic parkinsonism, viral infections including COVID-19 are reported to precipitate or unmask Parkinson's, supporting a role for neuroinflammation in its onset.
+- `connects-to` → **[Arterial Wall](../../05-tissue/arterial-wall/README.md)** — Vascular parkinsonism: small-vessel disease of the brain's arterial walls can mimic Parkinson's with a lower-body, gait-predominant parkinsonism that responds poorly to levodopa, a key differential.
+- `connects-to` → **[ALS](../als/README.md)** — Neurodegeneration's shared themes: Parkinson's and ALS are both age-related neurodegenerations driven by protein misfolding and aggregation, with rare overlap syndromes and the Guam ALS-parkinsonism-dementia complex linking them.
+- `connects-to` → **[Bipolar Disorder](../bipolar-disorder/README.md)** — A shared dopamine thread: bipolar disorder is associated with a higher later risk of Parkinson's disease, and the dopaminergic dysregulation of mania mirrors, in reverse, the dopamine loss of Parkinson's.
 
 [^kalia-2015-pd-review]: Kalia LV, Lang AE. Parkinson's disease. *Lancet.* 2015;386(9996):896-912. [doi:10.1016/S0140-6736(14)61393-3](https://doi.org/10.1016/S0140-6736(14)61393-3) · [PubMed 25904081](https://pubmed.ncbi.nlm.nih.gov/25904081/)
 [^spillantini-1997-lewy-body]: Spillantini MG, Schmidt ML, Lee VM, Trojanowski JQ, Jakes R, Goedert M. Alpha-synuclein in Lewy bodies. *Nature.* 1997;388(6645):839-840. [doi:10.1038/42166](https://doi.org/10.1038/42166) · [PubMed 9278044](https://pubmed.ncbi.nlm.nih.gov/9278044/)
