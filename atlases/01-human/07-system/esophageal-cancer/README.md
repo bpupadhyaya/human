@@ -259,6 +259,15 @@ cross_links:
   - target: 01-human/07-system/bladder-cancer
     relation: connects-to
     note: "Smoking's shared field: tobacco and alcohol drive oesophageal squamous cancer, and the same carcinogens raise the risk of bladder cancer—a field effect across smoke-exposed epithelia."
+  - target: 01-human/05-tissue/hepatic-lobule
+    relation: connects-to
+    note: "Liver as a metastatic site: oesophageal cancer spreads to the liver, seeding the hepatic lobules, a common site of distant metastasis that marks incurable disease."
+  - target: 01-human/07-system/copd
+    relation: connects-to
+    note: "Shared smoking carcinogenesis: oesophageal squamous cancer and COPD both arise from tobacco and shared field injury, and COPD's hypoxia and frailty worsen surgical and chemoradiation outcomes."
+  - target: 01-human/05-tissue/myocardium
+    relation: connects-to
+    note: "Radiation's cardiac cost: chemoradiation for oesophageal cancer irradiates the adjacent heart, causing late myocardial fibrosis, coronary disease and cardiomyopathy of the myocardium."
 ---
 
 # Esophageal Cancer
@@ -477,6 +486,9 @@ T1a: Lamina propria/muscularis mucosae; T1b: Submucosa; T2: Muscularis propria; 
 - `connects-to` → **[Alveolus](../../05-tissue/alveolus/README.md)** — Airway erosion and aspiration: oesophageal cancer can erode into the trachea, forming a tracheo-oesophageal fistula that floods the alveoli with saliva and food, causing recurrent aspiration pneumonia.
 - `connects-to` → **[Germinal Center](../../05-tissue/germinal-center/README.md)** — Immunotherapy and the immune microenvironment: oesophageal squamous carcinoma can harbour tertiary lymphoid structures with germinal-centre activity, and checkpoint inhibitors now extend survival in advanced disease.
 - `connects-to` → **[Bladder Cancer](../bladder-cancer/README.md)** — Smoking's shared field: tobacco and alcohol drive oesophageal squamous cancer, and the same carcinogens raise the risk of bladder cancer—a field effect across smoke-exposed epithelia.
+- `connects-to` → **[Hepatic Lobule](../../05-tissue/hepatic-lobule/README.md)** — Liver as a metastatic site: oesophageal cancer spreads to the liver, seeding the hepatic lobules, a common site of distant metastasis that marks incurable disease.
+- `connects-to` → **[COPD](../copd/README.md)** — Shared smoking carcinogenesis: oesophageal squamous cancer and COPD both arise from tobacco and shared field injury, and COPD's hypoxia and frailty worsen surgical and chemoradiation outcomes.
+- `connects-to` → **[Myocardium](../../05-tissue/myocardium/README.md)** — Radiation's cardiac cost: chemoradiation for oesophageal cancer irradiates the adjacent heart, causing late myocardial fibrosis, coronary disease and cardiomyopathy of the myocardium.
 
 ---
 
