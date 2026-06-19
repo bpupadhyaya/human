@@ -264,6 +264,15 @@ cross_links:
   - target: 01-human/03-molecular/il-6
     relation: connects-to
     note: "Inflammatory milieu: raised IL-6 and other inflammatory cytokines accompany narcolepsy, consistent with an immune-mediated process damaging the hypothalamic orexin system."
+  - target: 01-human/03-molecular/perforin
+    relation: connects-to
+    note: "Cytotoxic neuron loss: autoreactive CD8 T cells use perforin to destroy the hypothalamic orexin (hypocretin) neurons, the cytotoxic mechanism behind type 1 narcolepsy."
+  - target: 01-human/03-molecular/il-1b
+    relation: connects-to
+    note: "Hypothalamic inflammation: IL-1β from activated microglia contributes to the neuroinflammation accompanying the autoimmune attack on orexin neurons in narcolepsy."
+  - target: 01-human/03-molecular/nlrp3-inflammasome
+    relation: connects-to
+    note: "Innate amplification: NLRP3-inflammasome activation and its IL-1β output may amplify the immune response that destroys orexin neurons in narcolepsy."
 sources:
   - id: scammell-2015-narcolepsy-review
     type: peer-reviewed
@@ -486,6 +495,9 @@ Cataplexy is the **pathognomonic** feature of NT1 — sudden, bilateral loss of 
 - `connects-to` → **[IFN-γ](../../03-molecular/ifn-gamma/README.md)** — Autoimmune neuron loss: type 1 narcolepsy is increasingly understood as autoimmune, with IFN-γ-producing autoreactive T cells implicated in the destruction of hypocretin/orexin neurons.
 - `connects-to` → **[Type I Interferon](../../03-molecular/type-i-interferon/README.md)** — Viral-trigger interferon: type I interferon responses after H1N1 influenza infection and the Pandemrix vaccine are implicated in triggering the autoimmune loss of orexin neurons in narcolepsy.
 - `connects-to` → **[IL-6](../../03-molecular/il-6/README.md)** — Inflammatory milieu: raised IL-6 and other inflammatory cytokines accompany narcolepsy, consistent with an immune-mediated process damaging the hypothalamic orexin system.
+- `connects-to` → **[Perforin](../../03-molecular/perforin/README.md)** — Cytotoxic neuron loss: autoreactive CD8 T cells use perforin to destroy the hypothalamic orexin (hypocretin) neurons, the cytotoxic mechanism behind type 1 narcolepsy.
+- `connects-to` → **[IL-1β](../../03-molecular/il-1b/README.md)** — Hypothalamic inflammation: IL-1β from activated microglia contributes to the neuroinflammation accompanying the autoimmune attack on orexin neurons in narcolepsy.
+- `connects-to` → **[NLRP3 Inflammasome](../../03-molecular/nlrp3-inflammasome/README.md)** — Innate amplification: NLRP3-inflammasome activation and its IL-1β output may amplify the immune response that destroys orexin neurons in narcolepsy.
 
 [^scammell-2015-narcolepsy-review]: Scammell TE. Narcolepsy. *N Engl J Med.* 2015;373(27):2654-2662. [doi:10.1056/NEJMra1500587](https://doi.org/10.1056/NEJMra1500587) · [PubMed 26716917](https://pubmed.ncbi.nlm.nih.gov/26716917/)
 [^dauvilliers-2007-narcolepsy-clinical]: Dauvilliers Y, Arnulf I, Mignot E. Narcolepsy with cataplexy. *Lancet.* 2007;369(9560):499-511. [doi:10.1016/S0140-6736(07)60237-2](https://doi.org/10.1016/S0140-6736(07)60237-2) · [PubMed 17292770](https://pubmed.ncbi.nlm.nih.gov/17292770/)

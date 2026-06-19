@@ -286,6 +286,15 @@ cross_links:
   - target: 01-human/03-molecular/endocannabinoid
     relation: connects-to
     note: "Retrograde neuromodulation: the endocannabinoid system acts as a widespread retrograde messenger that tunes synaptic transmission throughout the nervous system."
+  - target: 01-human/03-molecular/substance-p
+    relation: connects-to
+    note: "Pain neurotransmission: substance P is a key neuropeptide of nociceptive signalling in the nervous system, transmitting pain from sensory neurons to the spinal cord and brain."
+  - target: 01-human/03-molecular/cgrp
+    relation: connects-to
+    note: "Sensory neuropeptide: CGRP, released by sensory neurons, mediates pain and neurogenic vasodilation, a nervous-system signal central to migraine and now targeted by CGRP-blocking drugs."
+  - target: 01-human/03-molecular/adenosine
+    relation: connects-to
+    note: "Sleep and inhibition: adenosine accumulates with neural activity to promote sleep pressure and dampen neurotransmission, the brake that caffeine blocks to sustain wakefulness."
 ---
 
 # Nervous System
@@ -411,6 +420,9 @@ Distributed cortical networks underlie language (Broca's area, Wernicke's area, 
 - `connects-to` → **[Axonal Transport](../../05-tissue/axonal-transport/README.md)** — Long-distance logistics: fast axonal transport along microtubules ferries cargo across the vast lengths of neurons, and its failure underlies many neurodegenerative and peripheral nerve diseases.
 - `connects-to` → **[Eye](../../06-organ/eye/README.md)** — A window on the brain: the retina and optic nerve are direct extensions of the central nervous system, so the eye reveals neurological disease and shares its developmental and degenerative biology.
 - `connects-to` → **[Endocannabinoid](../../03-molecular/endocannabinoid/README.md)** — Retrograde neuromodulation: the endocannabinoid system acts as a widespread retrograde messenger that tunes synaptic transmission throughout the nervous system.
+- `connects-to` → **[Substance P](../../03-molecular/substance-p/README.md)** — Pain neurotransmission: substance P is a key neuropeptide of nociceptive signalling in the nervous system, transmitting pain from sensory neurons to the spinal cord and brain.
+- `connects-to` → **[CGRP](../../03-molecular/cgrp/README.md)** — Sensory neuropeptide: CGRP, released by sensory neurons, mediates pain and neurogenic vasodilation, a nervous-system signal central to migraine and now targeted by CGRP-blocking drugs.
+- `connects-to` → **[Adenosine](../../03-molecular/adenosine/README.md)** — Sleep and inhibition: adenosine accumulates with neural activity to promote sleep pressure and dampen neurotransmission, the brake that caffeine blocks to sustain wakefulness.
 
 ## Pathology
 
