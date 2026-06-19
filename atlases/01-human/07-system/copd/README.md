@@ -283,6 +283,15 @@ cross_links:
   - target: 01-human/04-cellular/dendritic-cell
     relation: connects-to
     note: "Immune orchestration: dendritic cells accumulate in COPD airways, presenting smoke-modified antigens and driving the chronic T-cell inflammation and lymphoid follicles of advanced disease."
+  - target: 01-human/03-molecular/nlrp3-inflammasome
+    relation: connects-to
+    note: "Inflammasome activation: cigarette smoke activates the NLRP3 inflammasome in airway cells, releasing IL-1β to amplify the chronic neutrophilic inflammation of COPD."
+  - target: 01-human/03-molecular/ccl2
+    relation: connects-to
+    note: "Monocyte recruitment: CCL2 draws monocytes and macrophages into the COPD lung, where their proteases and cytokines drive the alveolar destruction of emphysema."
+  - target: 01-human/03-molecular/perforin
+    relation: connects-to
+    note: "Cytotoxic alveolar damage: CD8 T cells accumulating in COPD use perforin and granzyme to kill alveolar cells, contributing to the emphysematous loss of lung tissue."
 ---
 
 # COPD
@@ -514,6 +523,9 @@ COPD encompasses two overlapping pathological processes:
 - `connects-to` → **[NFE2L2](../../03-molecular/nfe2l2/README.md)** — Failing antioxidant defence: NRF2 (NFE2L2) drives the lung's antioxidant response, and its impairment in COPD leaves airways defenceless against cigarette-smoke oxidative stress—a therapeutic target.
 - `connects-to` → **[Wnt/β-catenin](../../03-molecular/wnt-beta-catenin/README.md)** — Stalled repair: defective Wnt/β-catenin signalling blunts alveolar regeneration in emphysema, helping explain why destroyed lung tissue in COPD fails to repair.
 - `connects-to` → **[Dendritic Cell](../../04-cellular/dendritic-cell/README.md)** — Immune orchestration: dendritic cells accumulate in COPD airways, presenting smoke-modified antigens and driving the chronic T-cell inflammation and lymphoid follicles of advanced disease.
+- `connects-to` → **[NLRP3 Inflammasome](../../03-molecular/nlrp3-inflammasome/README.md)** — Inflammasome activation: cigarette smoke activates the NLRP3 inflammasome in airway cells, releasing IL-1β to amplify the chronic neutrophilic inflammation of COPD.
+- `connects-to` → **[CCL2](../../03-molecular/ccl2/README.md)** — Monocyte recruitment: CCL2 draws monocytes and macrophages into the COPD lung, where their proteases and cytokines drive the alveolar destruction of emphysema.
+- `connects-to` → **[Perforin](../../03-molecular/perforin/README.md)** — Cytotoxic alveolar damage: CD8 T cells accumulating in COPD use perforin and granzyme to kill alveolar cells, contributing to the emphysematous loss of lung tissue.
 
 ---
 

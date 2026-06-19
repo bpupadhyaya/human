@@ -277,6 +277,15 @@ cross_links:
   - target: 01-human/03-molecular/flt3
     relation: connects-to
     note: "Kinase at transformation: FLT3 activation, though less common than in AML, can appear as CMML progresses, marking a targetable driver of its leukaemic transformation."
+  - target: 01-human/03-molecular/il-1b
+    relation: connects-to
+    note: "Inflammatory cytokine: IL-1β from the dysplastic myeloid clone drives the inflammatory bone-marrow milieu of CMML, with IL-1 blockade explored to ease its symptoms."
+  - target: 01-human/03-molecular/hif-1alpha
+    relation: connects-to
+    note: "Marrow hypoxia: HIF-1α stabilised in the crowded, hypoxic CMML marrow supports the survival and angiogenic signalling of the dysplastic clone."
+  - target: 01-human/03-molecular/vegf
+    relation: connects-to
+    note: "Marrow angiogenesis: elevated VEGF increases bone-marrow microvessel density in CMML, part of the proliferative microenvironment of the disease."
 ---
 
 # Chronic Myelomonocytic Leukemia
@@ -489,6 +498,9 @@ CMML → AML transformation (~15-30% at 5 years): Treat as secondary AML; CPX-35
 - `connects-to` → **[EZH2](../../03-molecular/ezh2/README.md)** — Polycomb dysregulation: loss-of-function EZH2 mutations are recurrent in CMML, disrupting epigenetic repression and conferring a poorer prognosis among its driver lesions.
 - `connects-to` → **[IDH2](../../03-molecular/idh2/README.md)** — Oncometabolite target: IDH2 (and IDH1) mutations arise in a subset of CMML, generating 2-hydroxyglutarate that blocks differentiation and is targetable with IDH inhibitors.
 - `connects-to` → **[FLT3](../../03-molecular/flt3/README.md)** — Kinase at transformation: FLT3 activation, though less common than in AML, can appear as CMML progresses, marking a targetable driver of its leukaemic transformation.
+- `connects-to` → **[IL-1β](../../03-molecular/il-1b/README.md)** — Inflammatory cytokine: IL-1β from the dysplastic myeloid clone drives the inflammatory bone-marrow milieu of CMML, with IL-1 blockade explored to ease its symptoms.
+- `connects-to` → **[HIF-1α](../../03-molecular/hif-1alpha/README.md)** — Marrow hypoxia: HIF-1α stabilised in the crowded, hypoxic CMML marrow supports the survival and angiogenic signalling of the dysplastic clone.
+- `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — Marrow angiogenesis: elevated VEGF increases bone-marrow microvessel density in CMML, part of the proliferative microenvironment of the disease.
 
 ---
 
