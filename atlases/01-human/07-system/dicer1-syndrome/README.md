@@ -250,6 +250,15 @@ cross_links:
   - target: 01-human/07-system/carney-complex
     relation: connects-to
     note: "Inherited multi-endocrine tumour cousins: like Carney complex, DICER1 syndrome predisposes to a spread of endocrine tumours — thyroid carcinoma and ovarian Sertoli-Leydig tumours — under germline control demanding glandular surveillance."
+  - target: 01-human/05-tissue/glomerulus
+    relation: connects-to
+    note: "Renal tumours of childhood: DICER1 causes cystic nephroma and a subset of Wilms tumours, developmental kidney tumours arising in the nephron near the glomerulus."
+  - target: 01-human/07-system/peutz-jeghers-syndrome
+    relation: connects-to
+    note: "Shared ovarian sex-cord tumours: DICER1's Sertoli-Leydig tumours and the sex-cord tumours with annular tubules of Peutz-Jeghers both arise in the ovary, two germline syndromes converging on this rare tumour family."
+  - target: 01-human/07-system/hereditary-breast-ovarian-cancer
+    relation: connects-to
+    note: "A different kind of ovarian cancer: DICER1 drives sex-cord-stromal ovarian tumours of the young, biologically distinct from the BRCA-driven epithelial ovarian cancer of hereditary breast-ovarian syndrome."
 ---
 
 # DICER1 Syndrome
@@ -442,6 +451,9 @@ When a child is found to have a thoracic cystic lesion, DICER1 syndrome should b
 - `connects-to` → **[Lung Slice](../../05-tissue/lung-slice/README.md)** — Its hallmark tumour is cystic lung: pleuropulmonary blastoma begins as benign air-filled lung cysts in early childhood that can transform into an aggressive sarcoma, so cystic change on a lung slice triggers DICER1 surveillance.
 - `connects-to` → **[Targeted Therapy](../../../03-medicine/01-modern/13-cancer/targeted-therapy/README.md)** — Beyond chemotherapy: anti-angiogenic and other targeted agents are explored for the diverse DICER1 sarcomas, and the syndrome's miRNA-processing defect is itself a focus of emerging precision approaches.
 - `connects-to` → **[Carney Complex](../carney-complex/README.md)** — Inherited multi-endocrine tumour cousins: like Carney complex, DICER1 syndrome predisposes to a spread of endocrine tumours — thyroid carcinoma and ovarian Sertoli-Leydig tumours — under germline control demanding glandular surveillance.
+- `connects-to` → **[Glomerulus](../../05-tissue/glomerulus/README.md)** — Renal tumours of childhood: DICER1 causes cystic nephroma and a subset of Wilms tumours, developmental kidney tumours arising in the nephron near the glomerulus.
+- `connects-to` → **[Peutz-Jeghers Syndrome](../peutz-jeghers-syndrome/README.md)** — Shared ovarian sex-cord tumours: DICER1's Sertoli-Leydig tumours and the sex-cord tumours with annular tubules of Peutz-Jeghers both arise in the ovary, two germline syndromes converging on this rare tumour family.
+- `connects-to` → **[Hereditary Breast-Ovarian Cancer](../hereditary-breast-ovarian-cancer/README.md)** — A different kind of ovarian cancer: DICER1 drives sex-cord-stromal ovarian tumours of the young, biologically distinct from the BRCA-driven epithelial ovarian cancer of hereditary breast-ovarian syndrome.
 
 ---
 

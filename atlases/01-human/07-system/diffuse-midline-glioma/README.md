@@ -250,6 +250,15 @@ cross_links:
   - target: 01-human/07-system/neuroblastoma
     relation: connects-to
     note: "A shared GD2 target: both diffuse midline glioma and neuroblastoma express the GD2 disialoganglioside, and GD2-directed CAR-T and antibody therapy developed for neuroblastoma now show promise against this glioma."
+  - target: 01-human/03-molecular/bdnf
+    relation: connects-to
+    note: "Neuron-glioma synapses: neuronal activity and BDNF-TrkB signalling drive diffuse midline glioma growth through electrical and paracrine synapses with neurons, a discovery reframing the tumour as part of a neural circuit."
+  - target: 01-human/03-molecular/tert
+    relation: connects-to
+    note: "Immortality without TERT: ATRX loss in diffuse midline glioma maintains telomeres by alternative lengthening (ALT) rather than the TERT-promoter activation other cancers use—two routes to replicative immortality."
+  - target: 01-human/05-tissue/hippocampus
+    relation: connects-to
+    note: "Cognition in the crossfire: midline and thalamic tumours, and the radiotherapy that palliates them, injure the hippocampus and memory circuits, adding neurocognitive decline to the disease's burden."
 ---
 
 # Diffuse Midline Glioma
@@ -466,6 +475,9 @@ Direct infusion of drugs into the pons via stereotactic catheter; bypasses BBB; 
 - `connects-to` → **[Checkpoint Inhibitors](../../../03-medicine/01-modern/13-cancer/checkpoint-inhibitors/README.md)** — An immunologically cold tumour: diffuse midline glioma has a low mutational burden and sparse T-cell infiltrate in an immunosuppressed brain, so checkpoint inhibitors have shown little benefit, redirecting effort to engineered cell therapies.
 - `connects-to` → **[Axonal Transport](../../05-tissue/axonal-transport/README.md)** — It infiltrates along the white matter: diffuse midline glioma spreads diffusely through the pons and brainstem tracts rather than as a resectable mass, weaving among axons in a way that makes surgery impossible.
 - `connects-to` → **[Neuroblastoma](../neuroblastoma/README.md)** — A shared GD2 target: both diffuse midline glioma and neuroblastoma express the GD2 disialoganglioside, and GD2-directed CAR-T and antibody therapy developed for neuroblastoma now show promise against this glioma.
+- `connects-to` → **[BDNF](../../03-molecular/bdnf/README.md)** — Neuron-glioma synapses: neuronal activity and BDNF-TrkB signalling drive diffuse midline glioma growth through electrical and paracrine synapses with neurons, a discovery reframing the tumour as part of a neural circuit.
+- `connects-to` → **[TERT](../../03-molecular/tert/README.md)** — Immortality without TERT: ATRX loss in diffuse midline glioma maintains telomeres by alternative lengthening (ALT) rather than the TERT-promoter activation other cancers use—two routes to replicative immortality.
+- `connects-to` → **[Hippocampus](../../05-tissue/hippocampus/README.md)** — Cognition in the crossfire: midline and thalamic tumours, and the radiotherapy that palliates them, injure the hippocampus and memory circuits, adding neurocognitive decline to the disease's burden.
 
 ---
 
