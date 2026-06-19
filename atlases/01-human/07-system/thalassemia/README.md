@@ -270,6 +270,15 @@ cross_links:
   - target: 01-human/05-tissue/cardiac-conduction-system
     relation: connects-to
     note: "Iron and arrhythmia: transfusional iron overload injures the cardiac conduction system as well as the myocardium, causing arrhythmias that, with cardiomyopathy, are a leading cause of death in thalassemia."
+  - target: 01-human/05-tissue/intestinal-epithelium
+    relation: connects-to
+    note: "Duodenal iron absorption: thalassemia's ineffective erythropoiesis suppresses hepcidin, driving the intestinal epithelium to over-absorb dietary iron and worsening overload even without transfusion."
+  - target: 01-human/07-system/aplastic-anemia
+    relation: connects-to
+    note: "Aplastic crisis: parvovirus B19 infection or folate deficiency can abruptly shut down red-cell production in thalassemia's chronically haemolytic marrow, the same marrow-failure vulnerability central to aplastic anaemia."
+  - target: 01-human/07-system/wound-healing
+    relation: connects-to
+    note: "Poor-healing leg ulcers: chronic anaemia, tissue hypoxia and sluggish perfusion in thalassemia produce stubborn lower-limb ulcers, a chronic wound-healing failure shared with sickle cell disease."
 ---
 
 # Thalassemia
@@ -498,6 +507,9 @@ Untransfused or undertransfused β-thal major:
 - `connects-to` → **[GVHD](../gvhd/README.md)** — A curative transplant: allogeneic stem-cell transplant can cure transfusion-dependent thalassemia, but graft-versus-host disease is a major risk—now joined by gene therapy as a cure.
 - `connects-to` → **[Germinal Center](../../05-tissue/germinal-center/README.md)** — Alloimmunisation from transfusion: chronic red-cell transfusions in thalassemia drive germinal-centre antibody responses against donor red-cell antigens, complicating future cross-matching.
 - `connects-to` → **[Cardiac Conduction System](../../05-tissue/cardiac-conduction-system/README.md)** — Iron and arrhythmia: transfusional iron overload injures the cardiac conduction system as well as the myocardium, causing arrhythmias that, with cardiomyopathy, are a leading cause of death in thalassemia.
+- `connects-to` → **[Intestinal Epithelium](../../05-tissue/intestinal-epithelium/README.md)** — Duodenal iron absorption: thalassemia's ineffective erythropoiesis suppresses hepcidin, driving the intestinal epithelium to over-absorb dietary iron and worsening overload even without transfusion.
+- `connects-to` → **[Aplastic Anemia](../aplastic-anemia/README.md)** — Aplastic crisis: parvovirus B19 infection or folate deficiency can abruptly shut down red-cell production in thalassemia's chronically haemolytic marrow, the same marrow-failure vulnerability central to aplastic anaemia.
+- `connects-to` → **[Wound Healing](../wound-healing/README.md)** — Poor-healing leg ulcers: chronic anaemia, tissue hypoxia and sluggish perfusion in thalassemia produce stubborn lower-limb ulcers, a chronic wound-healing failure shared with sickle cell disease.
 
 [^weatherall-2008-thalassemia-review]: Weatherall DJ. The inherited diseases of hemoglobin are an emerging global health burden. *Blood.* 2010;115(22):4331-4336. [doi:10.1182/blood-2010-01-251348](https://doi.org/10.1182/blood-2010-01-251348) · [PubMed 20233970](https://pubmed.ncbi.nlm.nih.gov/20233970/)
 [^cappellini-2014-thalassemia-guidelines]: Cappellini MD, Cohen A, Porter J, et al. (eds). Guidelines for the Management of Transfusion Dependent Thalassaemia (TDT). 3rd ed. Thalassaemia International Federation; 2014.

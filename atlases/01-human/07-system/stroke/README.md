@@ -271,6 +271,15 @@ cross_links:
   - target: 01-human/05-tissue/myocardium
     relation: connects-to
     note: "A cardioembolic source: a left-ventricular mural thrombus after myocardial infarction or in cardiomyopathy can dislodge from the myocardium and embolise to the brain, causing cardioembolic stroke."
+  - target: 01-human/05-tissue/alveolus
+    relation: connects-to
+    note: "Aspiration pneumonia: stroke commonly impairs swallowing, and aspirated material seeds the alveolus with infection—a leading cause of post-stroke morbidity and death."
+  - target: 01-human/07-system/anca-vasculitis
+    relation: connects-to
+    note: "Vasculitic stroke: ANCA-associated and other CNS vasculitides inflame and occlude cerebral arteries, causing ischaemic stroke through a non-atherosclerotic mechanism."
+  - target: 01-human/07-system/hemophilia-a
+    relation: connects-to
+    note: "Haemorrhagic stroke: severe factor VIII deficiency predisposes to spontaneous intracranial haemorrhage, a leading cause of death in haemophilia and the bleeding counterpart of ischaemic stroke."
 ---
 
 # Stroke
@@ -459,6 +468,9 @@ Normal brain maintains CBF constant (50-150 mmHg MAP range) via autoregulation (
 - `connects-to` → **[Giant Cell Arteritis](../giant-cell-arteritis/README.md)** — Vasculitic stroke: giant-cell arteritis and other large-vessel vasculitides can occlude cerebral and ophthalmic arteries, causing stroke and sudden blindness that prompt steroids can prevent.
 - `connects-to` → **[COVID-19 Disease](../covid-19-disease/README.md)** — Infection-triggered clots: COVID-19 raises stroke risk through a hypercoagulable, inflammatory state, sometimes causing large-vessel occlusion even in younger patients.
 - `connects-to` → **[Myocardium](../../05-tissue/myocardium/README.md)** — A cardioembolic source: a left-ventricular mural thrombus after myocardial infarction or in cardiomyopathy can dislodge from the myocardium and embolise to the brain, causing cardioembolic stroke.
+- `connects-to` → **[Alveolus](../../05-tissue/alveolus/README.md)** — Aspiration pneumonia: stroke commonly impairs swallowing, and aspirated material seeds the alveolus with infection—a leading cause of post-stroke morbidity and death.
+- `connects-to` → **[ANCA Vasculitis](../anca-vasculitis/README.md)** — Vasculitic stroke: ANCA-associated and other CNS vasculitides inflame and occlude cerebral arteries, causing ischaemic stroke through a non-atherosclerotic mechanism.
+- `connects-to` → **[Hemophilia A](../hemophilia-a/README.md)** — Haemorrhagic stroke: severe factor VIII deficiency predisposes to spontaneous intracranial haemorrhage, a leading cause of death in haemophilia and the bleeding counterpart of ischaemic stroke.
 
 [^powers-2019-aha-stroke]: Powers WJ, Rabinstein AA, Ackerson T, et al. Guidelines for the Early Management of Patients With Acute Ischemic Stroke: 2019 Update to the 2018 Guidelines. *Stroke.* 2019;50(12):e344-e418. [doi:10.1161/STR.0000000000000211](https://doi.org/10.1161/STR.0000000000000211) · [PubMed 31662037](https://pubmed.ncbi.nlm.nih.gov/31662037/)
 [^feigin-2021-gbd-stroke]: Feigin VL, Krishnamurthi RV, Parmar P, et al. Update on the Global Burden of Ischemic and Hemorrhagic Stroke in 1990-2013. *Neuroepidemiology.* 2015;45(3):161-176. [doi:10.1159/000441085](https://doi.org/10.1159/000441085) · [PubMed 26505981](https://pubmed.ncbi.nlm.nih.gov/26505981/)
