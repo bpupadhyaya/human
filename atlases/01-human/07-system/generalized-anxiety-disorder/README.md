@@ -274,6 +274,15 @@ cross_links:
   - target: 01-human/07-system/covid-19-disease
     relation: connects-to
     note: "A pandemic of anxiety: COVID-19 sharply raised rates of generalized anxiety through health fears, isolation and bereavement, and post-COVID neuroinflammation may directly worsen anxiety symptoms."
+  - target: 01-human/07-system/pheochromocytoma-paraganglioma
+    relation: connects-to
+    note: "The organic anxiety mimic: a catecholamine-secreting phaeochromocytoma causes paroxysmal anxiety, palpitations and sweating that imitate generalized anxiety, a can't-miss endocrine cause to exclude in atypical cases."
+  - target: 01-human/05-tissue/intestinal-epithelium
+    relation: connects-to
+    note: "The gut-brain axis: generalized anxiety overlaps heavily with irritable bowel syndrome, with the intestinal epithelium and microbiome signalling to anxiety circuits via the vagus and immune pathways."
+  - target: 01-human/05-tissue/myocardium
+    relation: connects-to
+    note: "Anxiety and the heart muscle: chronic anxiety raises cardiovascular risk, and acute extreme stress can precipitate Takotsubo (stress) cardiomyopathy, transiently stunning the myocardium."
 ---
 
 # Generalized Anxiety Disorder
@@ -497,6 +506,9 @@ Allow **4-8 weeks** for onset of anxiolytic effect. Continue treatment ≥12 mon
 - `connects-to` → **[Epilepsy](../epilepsy/README.md)** — The commonest psychiatric comorbidity of seizures: anxiety is the most frequent psychiatric companion of epilepsy, bidirectionally linked through shared GABAergic dysfunction and the stress of unpredictable seizures.
 - `connects-to` → **[Neuropathic Pain](../neuropathic-pain/README.md)** — Anxiety amplifies pain: generalized anxiety disorder commonly coexists with chronic and neuropathic pain, each worsening the other through shared serotonergic-noradrenergic pathways that SNRIs like duloxetine target in both.
 - `connects-to` → **[COVID-19 Disease](../covid-19-disease/README.md)** — A pandemic of anxiety: COVID-19 sharply raised rates of generalized anxiety through health fears, isolation and bereavement, and post-COVID neuroinflammation may directly worsen anxiety symptoms.
+- `connects-to` → **[Pheochromocytoma & Paraganglioma](../pheochromocytoma-paraganglioma/README.md)** — The organic anxiety mimic: a catecholamine-secreting phaeochromocytoma causes paroxysmal anxiety, palpitations and sweating that imitate generalized anxiety, a can't-miss endocrine cause to exclude in atypical cases.
+- `connects-to` → **[Intestinal Epithelium](../../05-tissue/intestinal-epithelium/README.md)** — The gut-brain axis: generalized anxiety overlaps heavily with irritable bowel syndrome, with the intestinal epithelium and microbiome signalling to anxiety circuits via the vagus and immune pathways.
+- `connects-to` → **[Myocardium](../../05-tissue/myocardium/README.md)** — Anxiety and the heart muscle: chronic anxiety raises cardiovascular risk, and acute extreme stress can precipitate Takotsubo (stress) cardiomyopathy, transiently stunning the myocardium.
 
 [^kessler-2005-gad-prevalence]: Kessler RC, Berglund P, Demler O, et al. Lifetime prevalence and age-of-onset distributions of DSM-IV disorders in the NCS Replication. *Arch Gen Psychiatry.* 2005;62(6):593-602. [doi:10.1001/archpsyc.62.6.593](https://doi.org/10.1001/archpsyc.62.6.593) · [PubMed 15939837](https://pubmed.ncbi.nlm.nih.gov/15939837/)
 [^bandelow-2015-anxiety-biology]: Bandelow B, Michaelis S. Epidemiology of anxiety disorders in the 21st century. *Dialogues Clin Neurosci.* 2015;17(3):327-335. [doi:10.31887/DCNS.2015.17.3/bbandelow](https://doi.org/10.31887/DCNS.2015.17.3/bbandelow) · [PubMed 26487812](https://pubmed.ncbi.nlm.nih.gov/26487812/)

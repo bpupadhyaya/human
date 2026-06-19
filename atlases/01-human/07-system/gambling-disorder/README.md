@@ -252,6 +252,15 @@ cross_links:
   - target: 01-human/07-system/nash
     relation: connects-to
     note: "A metabolic side effect: the weight gain, sedentary behaviour and frequent alcohol use accompanying gambling disorder promote metabolic syndrome and non-alcoholic fatty liver disease."
+  - target: 01-human/07-system/covid-19-disease
+    relation: connects-to
+    note: "Online gambling surge: COVID-19 lockdowns and the shift to online betting accelerated problematic gambling, isolation and financial stress fuelling relapse and new disorder."
+  - target: 01-human/05-tissue/intestinal-epithelium
+    relation: connects-to
+    note: "Gut-brain reward signalling: gut hormones and the microbiome acting through the intestinal epithelium modulate the dopaminergic reward circuits hijacked in gambling disorder, an emerging dimension of behavioural addiction."
+  - target: 01-human/05-tissue/arterial-wall
+    relation: connects-to
+    note: "Chronic stress on the vessels: the sustained stress, poor sleep and metabolic syndrome of gambling disorder accelerate atherosclerosis of the arterial wall, adding cardiovascular risk to the financial and psychiatric toll."
 sources:
   - id: grant-2016-gambling-review
     type: peer-reviewed
@@ -476,6 +485,9 @@ Persistent and recurrent problematic gambling behavior causing distress (≥4 of
 - `connects-to` → **[Atherosclerosis](../atherosclerosis/README.md)** — The slow cardiovascular toll: chronic stress, poor sleep, smoking comorbidity and a sedentary lifestyle in gambling disorder accelerate atherosclerotic cardiovascular disease over years, beyond its acute cardiac stress events.
 - `connects-to` → **[Cardiac Conduction System](../../05-tissue/cardiac-conduction-system/README.md)** — Sympathetic surges and rhythm: the intense adrenergic arousal of high-stakes gambling stresses the cardiac conduction system, and case reports link acute gambling stress to arrhythmias and sudden cardiac events.
 - `connects-to` → **[NASH](../nash/README.md)** — A metabolic side effect: the weight gain, sedentary behaviour and frequent alcohol use accompanying gambling disorder promote metabolic syndrome and non-alcoholic fatty liver disease.
+- `connects-to` → **[COVID-19 Disease](../covid-19-disease/README.md)** — Online gambling surge: COVID-19 lockdowns and the shift to online betting accelerated problematic gambling, isolation and financial stress fuelling relapse and new disorder.
+- `connects-to` → **[Intestinal Epithelium](../../05-tissue/intestinal-epithelium/README.md)** — Gut-brain reward signalling: gut hormones and the microbiome acting through the intestinal epithelium modulate the dopaminergic reward circuits hijacked in gambling disorder, an emerging dimension of behavioural addiction.
+- `connects-to` → **[Arterial Wall](../../05-tissue/arterial-wall/README.md)** — Chronic stress on the vessels: the sustained stress, poor sleep and metabolic syndrome of gambling disorder accelerate atherosclerosis of the arterial wall, adding cardiovascular risk to the financial and psychiatric toll.
 
 [^potenza-2014-gambling-neuroscience]: Potenza MN. The neurobiology of pathological gambling and drug addiction: an overview and new findings. *Philos Trans R Soc Lond B Biol Sci.* 2008;363(1507):3181-3189. [doi:10.1098/rstb.2008.0100](https://doi.org/10.1098/rstb.2008.0100) · [PubMed 18640909](https://pubmed.ncbi.nlm.nih.gov/18640909/)
 [^grant-2016-gambling-review]: Grant JE, Chamberlain SR. Gambling disorder and its relationship with substance use disorders. *Am J Addict.* 2015;24(2):126-131. [doi:10.1111/ajad.12112](https://doi.org/10.1111/ajad.12112) · [PubMed 25376793](https://pubmed.ncbi.nlm.nih.gov/25376793/)
