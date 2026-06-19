@@ -259,6 +259,15 @@ cross_links:
   - target: 01-human/07-system/li-fraumeni-syndrome
     relation: connects-to
     note: "Germline multi-cancer surveillance: like Li-Fraumeni, Peutz-Jeghers is an autosomal-dominant syndrome with a very high lifetime cancer risk across many organs, demanding lifelong structured screening."
+  - target: 01-human/07-system/neuroendocrine-tumors
+    relation: connects-to
+    note: "Pancreatic neoplasia beyond adenocarcinoma: Peutz-Jeghers raises the risk of pancreatic tumours including neuroendocrine tumours, reflecting STK11/LKB1 loss in enteropancreatic tissue alongside the ductal cancers it predisposes to."
+  - target: 01-human/07-system/men1-syndrome
+    relation: connects-to
+    note: "Two syndromes, shared pancreatic surveillance: Peutz-Jeghers and MEN1 are both autosomal-dominant predispositions to pancreatic neoplasia, so both warrant lifelong imaging surveillance of the pancreas despite their different driver genes."
+  - target: 01-human/05-tissue/hepatic-lobule
+    relation: connects-to
+    note: "Metastatic endpoint: the gastrointestinal and pancreatic cancers that arise in Peutz-Jeghers spread to the liver, seeding the hepatic lobule in advanced disease."
 ---
 
 # Peutz-Jeghers Syndrome
@@ -463,6 +472,9 @@ Without surveillance: cumulative cancer risk reaches ~85-93% by age 70 (all canc
 - `connects-to` → **[DICER1 Syndrome](../dicer1-syndrome/README.md)** — Shared ovarian sex-cord tumours: Peutz-Jeghers (sex-cord tumours with annular tubules) and DICER1 (Sertoli-Leydig) both predispose to ovarian sex-cord-stromal tumours, two germline syndromes converging on this rare tumour family.
 - `connects-to` → **[Alveolus](../../05-tissue/alveolus/README.md)** — STK11 and lung cancer: the LKB1/STK11 loss of Peutz-Jeghers raises lung cancer risk and is the same gene inactivated somatically in lung adenocarcinoma—where it confers immunotherapy resistance—tying the syndrome to the alveolar epithelium.
 - `connects-to` → **[Li-Fraumeni Syndrome](../li-fraumeni-syndrome/README.md)** — Germline multi-cancer surveillance: like Li-Fraumeni, Peutz-Jeghers is an autosomal-dominant syndrome with a very high lifetime cancer risk across many organs, demanding lifelong structured screening.
+- `connects-to` → **[Neuroendocrine Tumors](../neuroendocrine-tumors/README.md)** — Pancreatic neoplasia beyond adenocarcinoma: Peutz-Jeghers raises the risk of pancreatic tumours including neuroendocrine tumours, reflecting STK11/LKB1 loss in enteropancreatic tissue alongside the ductal cancers it predisposes to.
+- `connects-to` → **[MEN1 Syndrome](../men1-syndrome/README.md)** — Two syndromes, shared pancreatic surveillance: Peutz-Jeghers and MEN1 are both autosomal-dominant predispositions to pancreatic neoplasia, so both warrant lifelong imaging surveillance of the pancreas despite their different driver genes.
+- `connects-to` → **[Hepatic Lobule](../../05-tissue/hepatic-lobule/README.md)** — Metastatic endpoint: the gastrointestinal and pancreatic cancers that arise in Peutz-Jeghers spread to the liver, seeding the hepatic lobule in advanced disease.
 
 ---
 

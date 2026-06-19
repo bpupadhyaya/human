@@ -265,6 +265,15 @@ cross_links:
   - target: 01-human/07-system/follicular-lymphoma
     relation: connects-to
     note: "Paraneoplastic pemphigus: indolent B-cell lymphomas like follicular lymphoma (and CLL and Castleman disease) can trigger paraneoplastic pemphigus, where anti-plakin and anti-desmoglein antibodies blister skin and mucosa."
+  - target: 01-human/07-system/waldenstrom-macroglobulinemia
+    relation: connects-to
+    note: "Another lymphoproliferative trigger: Waldenstrom macroglobulinaemia and other low-grade B-cell neoplasms can underlie paraneoplastic pemphigus, so a new severe pemphigus in an older adult warrants a search for occult lymphoma."
+  - target: 01-human/07-system/anca-vasculitis
+    relation: connects-to
+    note: "B-cell depletion across autoimmunity: like ANCA vasculitis, pemphigus vulgaris is an autoantibody-mediated disease for which rituximab (anti-CD20) is now first-line, showcasing B-cell-targeted therapy beyond cancer."
+  - target: 01-human/07-system/covid-19-disease
+    relation: connects-to
+    note: "Immunosuppressed and exposed: the rituximab and corticosteroids used to control pemphigus deplete B cells and blunt vaccine responses, leaving patients vulnerable to severe and prolonged COVID-19."
 ---
 
 # Pemphigus Vulgaris
@@ -491,6 +500,9 @@ Pemphigus belongs to the **pemphigus group of autoimmune bullous diseases** (AIB
 - `connects-to` → **[Intestinal Epithelium](../../05-tissue/intestinal-epithelium/README.md)** — Mucosal erosions beyond the mouth: pemphigus can erode the oesophageal and other gastrointestinal epithelia—the gut counterpart of desmoglein-joined skin keratinocytes—causing painful erosions and dysphagia.
 - `connects-to` → **[Alveolus](../../05-tissue/alveolus/README.md)** — Paraneoplastic pemphigus and the lung: the paraneoplastic variant attacks respiratory epithelium too, causing a fatal bronchiolitis obliterans that obstructs airflow toward the alveoli.
 - `connects-to` → **[Follicular Lymphoma](../follicular-lymphoma/README.md)** — Paraneoplastic pemphigus: indolent B-cell lymphomas like follicular lymphoma (and CLL and Castleman disease) can trigger paraneoplastic pemphigus, where anti-plakin and anti-desmoglein antibodies blister skin and mucosa.
+- `connects-to` → **[Waldenström Macroglobulinemia](../waldenstrom-macroglobulinemia/README.md)** — Another lymphoproliferative trigger: Waldenstrom macroglobulinaemia and other low-grade B-cell neoplasms can underlie paraneoplastic pemphigus, so a new severe pemphigus in an older adult warrants a search for occult lymphoma.
+- `connects-to` → **[ANCA Vasculitis](../anca-vasculitis/README.md)** — B-cell depletion across autoimmunity: like ANCA vasculitis, pemphigus vulgaris is an autoantibody-mediated disease for which rituximab (anti-CD20) is now first-line, showcasing B-cell-targeted therapy beyond cancer.
+- `connects-to` → **[COVID-19 Disease](../covid-19-disease/README.md)** — Immunosuppressed and exposed: the rituximab and corticosteroids used to control pemphigus deplete B cells and blunt vaccine responses, leaving patients vulnerable to severe and prolonged COVID-19.
 
 ---
 
