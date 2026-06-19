@@ -268,6 +268,15 @@ cross_links:
   - target: 01-human/05-tissue/arterial-wall
     relation: connects-to
     note: "A vascular tumour: meningiomas parasitise dural arterial feeders such as the middle meningeal artery, vessels often embolised before surgery to shrink the tumour and reduce intraoperative bleeding."
+  - target: 01-human/03-molecular/cdk4-6
+    relation: connects-to
+    note: "Cell-cycle target: CDKN2A loss in high-grade meningioma unleashes CDK4/6-driven proliferation, making CDK4/6 inhibition a candidate strategy for aggressive tumours."
+  - target: 01-human/03-molecular/ezh2
+    relation: connects-to
+    note: "Epigenetic progression: EZH2 and polycomb activity contribute to the malignant progression of higher-grade meningiomas, an emerging epigenetic vulnerability."
+  - target: 01-human/03-molecular/notch
+    relation: connects-to
+    note: "Developmental signalling: dysregulated Notch signalling participates in meningioma tumorigenesis, interacting with the NF2-Hippo axis that defines many of these tumours."
 ---
 
 # Meningioma
@@ -468,6 +477,9 @@ VEGF overexpression in meningioma (YAP target); Phase 2 COMBIT (Huang 2019, N=40
 - `connects-to` → **[Li-Fraumeni Syndrome](../li-fraumeni-syndrome/README.md)** — Radiation-induced and predisposed: meningioma is the commonest radiation-induced brain tumour, and Li-Fraumeni patients given radiotherapy face a high rate of them—one reason radiation is avoided in the syndrome wherever possible.
 - `connects-to` → **[NSCLC](../nsclc/README.md)** — The malignant mimic: lung and breast cancers commonly seed dura-based metastases that radiologically imitate a meningioma, the key malignant differential of a dural mass in a patient with known cancer.
 - `connects-to` → **[Arterial Wall](../../05-tissue/arterial-wall/README.md)** — A vascular tumour: meningiomas parasitise dural arterial feeders such as the middle meningeal artery, vessels often embolised before surgery to shrink the tumour and reduce intraoperative bleeding.
+- `connects-to` → **[CDK4/6](../../03-molecular/cdk4-6/README.md)** — Cell-cycle target: CDKN2A loss in high-grade meningioma unleashes CDK4/6-driven proliferation, making CDK4/6 inhibition a candidate strategy for aggressive tumours.
+- `connects-to` → **[EZH2](../../03-molecular/ezh2/README.md)** — Epigenetic progression: EZH2 and polycomb activity contribute to the malignant progression of higher-grade meningiomas, an emerging epigenetic vulnerability.
+- `connects-to` → **[Notch](../../03-molecular/notch/README.md)** — Developmental signalling: dysregulated Notch signalling participates in meningioma tumorigenesis, interacting with the NF2-Hippo axis that defines many of these tumours.
 
 [^brastianos-2013-akt1-meningioma]: Brastianos PK, Horowitz PM, Santagata S, et al. Genomic sequencing of meningiomas identifies oncogenic SMO and AKT1 mutations. *Nat Genet.* 2013;45(3):285-289. [doi:10.1038/ng.2526](https://doi.org/10.1038/ng.2526) · [PubMed 23334667](https://pubmed.ncbi.nlm.nih.gov/23334667/)
 [^nassiri-2021-meningioma-classification]: Nassiri F, Liu J, Patil V, et al. A clinically applicable integrative molecular classification of meningiomas. *Nature.* 2021;597(7874):119-125. [doi:10.1038/s41586-021-03850-3](https://doi.org/10.1038/s41586-021-03850-3) · [PubMed 34385709](https://pubmed.ncbi.nlm.nih.gov/34385709/)

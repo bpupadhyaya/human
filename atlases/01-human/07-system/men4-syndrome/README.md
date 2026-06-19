@@ -268,6 +268,15 @@ cross_links:
   - target: 01-human/05-tissue/endocardium
     relation: connects-to
     note: "Valve scarring from hormone overflow: serotonin from liver-metastatic MEN4 carcinoids lays down fibrous plaque on the right-heart valves and endocardium, the substrate of carcinoid heart disease."
+  - target: 01-human/03-molecular/e2f1
+    relation: connects-to
+    note: "Released cell cycle: loss of the p27/CDKN1B brake in MEN4 frees the CDK-RB-E2F axis, letting E2F1 drive the cell-cycle entry of its endocrine tumours."
+  - target: 01-human/03-molecular/hif-1alpha
+    relation: connects-to
+    note: "Vascular neuroendocrine tumours: HIF-1α-driven, VEGF-rich angiogenesis makes MEN4 neuroendocrine tumours highly vascular, supporting anti-angiogenic therapy."
+  - target: 01-human/03-molecular/tert
+    relation: connects-to
+    note: "Replicative persistence: TERT reactivation maintaining telomeres accompanies the progression of MEN4 endocrine tumours toward more aggressive disease."
 ---
 
 # MEN4 Syndrome
@@ -463,6 +472,9 @@ When clinical MEN features are present:
 - `connects-to` → **[Hepatic Lobule](../../05-tissue/hepatic-lobule/README.md)** — The metastatic sink: like MEN1, the enteropancreatic neuroendocrine tumours of MEN4 spread to the liver, and this hepatic involvement through the lobule largely determines prognosis and survival.
 - `connects-to` → **[Serotonin](../../03-molecular/serotonin/README.md)** — Functional carcinoids: enteropancreatic and foregut neuroendocrine tumours in MEN4 can secrete serotonin, and once they reach the liver the hormone drives the flushing and diarrhoea of carcinoid syndrome.
 - `connects-to` → **[Endocardium](../../05-tissue/endocardium/README.md)** — Valve scarring from hormone overflow: serotonin from liver-metastatic MEN4 carcinoids lays down fibrous plaque on the right-heart valves and endocardium, the substrate of carcinoid heart disease.
+- `connects-to` → **[E2F1](../../03-molecular/e2f1/README.md)** — Released cell cycle: loss of the p27/CDKN1B brake in MEN4 frees the CDK-RB-E2F axis, letting E2F1 drive the cell-cycle entry of its endocrine tumours.
+- `connects-to` → **[HIF-1α](../../03-molecular/hif-1alpha/README.md)** — Vascular neuroendocrine tumours: HIF-1α-driven, VEGF-rich angiogenesis makes MEN4 neuroendocrine tumours highly vascular, supporting anti-angiogenic therapy.
+- `connects-to` → **[TERT](../../03-molecular/tert/README.md)** — Replicative persistence: TERT reactivation maintaining telomeres accompanies the progression of MEN4 endocrine tumours toward more aggressive disease.
 
 [^alrezk-2017-men4]: Alrezk R, Hannah-Shmouni F, Stratakis CA. MEN4 and CDKN1B mutations: the latest of the MEN syndromes. *Endocr Relat Cancer.* 2017;24(10):T195-T208. [doi:10.1530/ERC-17-0243](https://doi.org/10.1530/ERC-17-0243) · [PubMed 28894007](https://pubmed.ncbi.nlm.nih.gov/28894007/)
 [^pellegata-2006-cdkn1b-men4]: Pellegata NS, Quintanilla-Martinez L, Siggelkow H, et al. Germ-line mutations in p27Kip1 cause a multiple endocrine neoplasia syndrome in rats and humans. *Proc Natl Acad Sci USA.* 2006;103(42):15558-15563. [doi:10.1073/pnas.0603306103](https://doi.org/10.1073/pnas.0603306103) · [PubMed 17030811](https://pubmed.ncbi.nlm.nih.gov/17030811/)
