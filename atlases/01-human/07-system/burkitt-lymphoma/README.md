@@ -259,6 +259,15 @@ cross_links:
   - target: 01-human/07-system/pcnsl
     relation: connects-to
     note: "Aggressive B-cell lymphomas that seek sanctuary sites: Burkitt readily seeds the CNS and meninges, requiring intrathecal prophylaxis, a behaviour it shares with primary CNS lymphoma."
+  - target: 01-human/07-system/cytokine-storm
+    relation: connects-to
+    note: "Acute treatment storms: Burkitt's explosive growth causes severe tumour-lysis syndrome at induction, and CD19 immunotherapies add cytokine release syndrome—two systemic emergencies of its therapy."
+  - target: 01-human/05-tissue/hepatic-lobule
+    relation: connects-to
+    note: "Abdominal and visceral bulk: sporadic Burkitt lymphoma forms large abdominal masses that involve the liver, infiltrating the hepatic lobules alongside the bowel and mesentery."
+  - target: 01-human/07-system/gvhd
+    relation: connects-to
+    note: "EBV-driven B-cell proliferation: like the post-transplant lymphoproliferative disease that complicates GVHD-prone transplants, Burkitt lymphoma exploits EBV and impaired immunity to drive B-cell growth."
 ---
 
 # Burkitt Lymphoma
@@ -474,6 +483,9 @@ FISH for MYC, BCL2, and BCL6 is essential; if BCL2 FISH negative and Ki-67 ~100%
 - `connects-to` → **[Glomerulus](../../05-tissue/glomerulus/README.md)** — Tumour lysis nephropathy: Burkitt's explosive growth causes tumour lysis syndrome, whose urate and phosphate crystals obstruct the glomerulus and tubules, triggering acute kidney injury at presentation.
 - `connects-to` → **[CLL](../cll/README.md)** — Opposite tempos of B-cell cancer: Burkitt is the fastest-growing human tumour, MYC-driven and doubling within a day, whereas chronic lymphocytic leukaemia is the most indolent—the extremes of mature B-cell malignancy.
 - `connects-to` → **[PCNSL](../pcnsl/README.md)** — Aggressive B-cell lymphomas that seek sanctuary sites: Burkitt readily seeds the CNS and meninges, requiring intrathecal prophylaxis, a behaviour it shares with primary CNS lymphoma.
+- `connects-to` → **[Cytokine Storm](../cytokine-storm/README.md)** — Acute treatment storms: Burkitt's explosive growth causes severe tumour-lysis syndrome at induction, and CD19 immunotherapies add cytokine release syndrome—two systemic emergencies of its therapy.
+- `connects-to` → **[Hepatic Lobule](../../05-tissue/hepatic-lobule/README.md)** — Abdominal and visceral bulk: sporadic Burkitt lymphoma forms large abdominal masses that involve the liver, infiltrating the hepatic lobules alongside the bowel and mesentery.
+- `connects-to` → **[GVHD](../gvhd/README.md)** — EBV-driven B-cell proliferation: like the post-transplant lymphoproliferative disease that complicates GVHD-prone transplants, Burkitt lymphoma exploits EBV and impaired immunity to drive B-cell growth.
 
 ---
 

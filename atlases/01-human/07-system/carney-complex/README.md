@@ -259,6 +259,15 @@ cross_links:
   - target: 01-human/05-tissue/myocardium
     relation: connects-to
     note: "Recurrent tumours in the heart: Carney complex causes cardiac myxomas that project into the chambers and impair filling—the leading cause of death—and they regrow after surgical removal."
+  - target: 01-human/07-system/gist
+    relation: connects-to
+    note: "A confusing eponym: Carney complex (PRKAR1A) is distinct from the Carney triad—gastrointestinal stromal tumour, paraganglioma and pulmonary chondroma—a separate non-hereditary association sharing only the name."
+  - target: 01-human/07-system/dicer1-syndrome
+    relation: connects-to
+    note: "Endocrine-tumour predisposition syndromes: like DICER1 syndrome, Carney complex is a hereditary disorder producing a characteristic constellation of endocrine and other tumours needing lifelong surveillance."
+  - target: 01-human/07-system/gorlin-syndrome
+    relation: connects-to
+    note: "Skin signs flag a tumour syndrome: like Gorlin syndrome's pits and basal cell carcinomas, Carney complex's lentigines and blue naevi are cutaneous clues to an underlying multi-tumour predisposition."
 ---
 
 # Carney Complex
@@ -461,6 +470,9 @@ PRKAR1A somatic LOH occurs in ~15-20% of sporadic adrenocortical adenomas and ca
 - `connects-to` → **[Arterial Wall](../../05-tissue/arterial-wall/README.md)** — Myxoma emboli strike arteries: fragments of Carney complex cardiac myxomas break off and lodge in cerebral and peripheral arteries, causing strokes and myxomatous aneurysms of the arterial wall.
 - `connects-to` → **[Birt-Hogg-Dubé Syndrome](../birt-hogg-dube-syndrome/README.md)** — Kindred tumour-predisposition syndromes: like Birt-Hogg-Dubé, Carney complex is an autosomal-dominant syndrome combining distinctive skin lesions with multi-organ tumours that demand lifelong surveillance.
 - `connects-to` → **[Myocardium](../../05-tissue/myocardium/README.md)** — Recurrent tumours in the heart: Carney complex causes cardiac myxomas that project into the chambers and impair filling—the leading cause of death—and they regrow after surgical removal.
+- `connects-to` → **[GIST](../gist/README.md)** — A confusing eponym: Carney complex (PRKAR1A) is distinct from the Carney triad—gastrointestinal stromal tumour, paraganglioma and pulmonary chondroma—a separate non-hereditary association sharing only the name.
+- `connects-to` → **[DICER1 Syndrome](../dicer1-syndrome/README.md)** — Endocrine-tumour predisposition syndromes: like DICER1 syndrome, Carney complex is a hereditary disorder producing a characteristic constellation of endocrine and other tumours needing lifelong surveillance.
+- `connects-to` → **[Gorlin Syndrome](../gorlin-syndrome/README.md)** — Skin signs flag a tumour syndrome: like Gorlin syndrome's pits and basal cell carcinomas, Carney complex's lentigines and blue naevi are cutaneous clues to an underlying multi-tumour predisposition.
 
 ---
 
