@@ -277,6 +277,15 @@ cross_links:
   - target: 01-human/03-molecular/notch
     relation: connects-to
     note: "Differentiation block: Notch signalling maintains the undifferentiated, proliferative state of rhabdomyosarcoma, preventing the myogenic maturation its cells are poised toward."
+  - target: 01-human/03-molecular/cyclin-d1
+    relation: connects-to
+    note: "Cell-cycle drive: with CDKN2A loss in many tumours, cyclin D-CDK4/6 activity propels rhabdomyosarcoma cells through the G1 checkpoint."
+  - target: 01-human/03-molecular/pdgf
+    relation: connects-to
+    note: "Growth-factor signalling: PDGFR, a target of the PAX3-FOXO1 fusion, drives the proliferation of alveolar rhabdomyosarcoma, a candidate therapeutic axis."
+  - target: 01-human/03-molecular/hif-1alpha
+    relation: connects-to
+    note: "Tumour hypoxia: HIF-1α stabilised in the hypoxic rhabdomyosarcoma drives angiogenesis and an aggressive, metastatic phenotype."
 ---
 
 # Rhabdomyosarcoma
@@ -491,6 +500,9 @@ Maximal safe resection with negative margins (R0) wherever achievable without mu
 - `connects-to` → **[FGFR](../../03-molecular/fgfr/README.md)** — Targetable kinase: FGFR4 activating mutations and amplification drive a subset of rhabdomyosarcomas, marking an actionable receptor tyrosine kinase.
 - `connects-to` → **[YAP1](../../03-molecular/yap1/README.md)** — Hippo activation: Hippo-YAP signalling drives fusion-negative embryonal rhabdomyosarcoma, sustaining proliferation and blocking muscle differentiation.
 - `connects-to` → **[Notch](../../03-molecular/notch/README.md)** — Differentiation block: Notch signalling maintains the undifferentiated, proliferative state of rhabdomyosarcoma, preventing the myogenic maturation its cells are poised toward.
+- `connects-to` → **[Cyclin D1](../../03-molecular/cyclin-d1/README.md)** — Cell-cycle drive: with CDKN2A loss in many tumours, cyclin D-CDK4/6 activity propels rhabdomyosarcoma cells through the G1 checkpoint.
+- `connects-to` → **[PDGF](../../03-molecular/pdgf/README.md)** — Growth-factor signalling: PDGFR, a target of the PAX3-FOXO1 fusion, drives the proliferation of alveolar rhabdomyosarcoma, a candidate therapeutic axis.
+- `connects-to` → **[HIF-1α](../../03-molecular/hif-1alpha/README.md)** — Tumour hypoxia: HIF-1α stabilised in the hypoxic rhabdomyosarcoma drives angiogenesis and an aggressive, metastatic phenotype.
 
 [^crist-2001-irs4-rms]: Crist WM, Anderson JR, Meza JL, et al. Intergroup rhabdomyosarcoma study-IV: results for patients with nonmetastatic disease. *J Clin Oncol.* 2001;19(12):3091-3102. [doi:10.1200/JCO.2001.19.12.3091](https://doi.org/10.1200/JCO.2001.19.12.3091) · [PubMed 11408506](https://pubmed.ncbi.nlm.nih.gov/11408506/)
 [^oberlin-2012-mmt95-rms]: Oberlin O, Rey A, Sanchez de Toledo J, et al. Randomized comparison of intensified six-drug versus standard three-drug chemotherapy for high-risk nonmetastatic rhabdomyosarcoma and other chemotherapy-sensitive childhood soft tissue sarcomas. *J Clin Oncol.* 2012;30(19):2457-2465. [doi:10.1200/JCO.2011.39.3538](https://doi.org/10.1200/JCO.2011.39.3538) · [PubMed 22665546](https://pubmed.ncbi.nlm.nih.gov/22665546/)

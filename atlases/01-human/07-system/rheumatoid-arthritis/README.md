@@ -283,6 +283,15 @@ cross_links:
   - target: 01-human/03-molecular/il-23
     relation: connects-to
     note: "Th17 inflammation: the IL-23/Th17 axis drives the IL-17-mediated synovial inflammation of rheumatoid arthritis, complementing TNF and IL-6 signalling."
+  - target: 01-human/03-molecular/ifn-gamma
+    relation: connects-to
+    note: "Th1 contribution: IFN-γ from Th1 cells participates in the mixed cytokine milieu of the rheumatoid synovium, activating macrophages that drive joint destruction."
+  - target: 01-human/03-molecular/hif-1alpha
+    relation: connects-to
+    note: "Pannus hypoxia: the hyperplastic, poorly perfused rheumatoid synovium becomes hypoxic, stabilising HIF-1α to drive the VEGF angiogenesis that feeds the invasive pannus."
+  - target: 01-human/03-molecular/pdgf
+    relation: connects-to
+    note: "Synovial proliferation: PDGF drives the proliferation of the synovial fibroblasts that form the destructive pannus invading cartilage and bone in rheumatoid arthritis."
 ---
 
 # Rheumatoid Arthritis
@@ -513,6 +522,9 @@ RA patients have:
 - `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — Pannus angiogenesis: VEGF-driven new vessel growth feeds the invasive synovial pannus of rheumatoid arthritis, sustaining the inflamed tissue that erodes joints.
 - `connects-to` → **[BAFF](../../03-molecular/baff/README.md)** — Autoantibody support: BAFF sustains the autoreactive B cells that produce rheumatoid factor and anti-citrullinated-protein antibodies central to rheumatoid arthritis.
 - `connects-to` → **[IL-23](../../03-molecular/il-23/README.md)** — Th17 inflammation: the IL-23/Th17 axis drives the IL-17-mediated synovial inflammation of rheumatoid arthritis, complementing TNF and IL-6 signalling.
+- `connects-to` → **[IFN-γ](../../03-molecular/ifn-gamma/README.md)** — Th1 contribution: IFN-γ from Th1 cells participates in the mixed cytokine milieu of the rheumatoid synovium, activating macrophages that drive joint destruction.
+- `connects-to` → **[HIF-1α](../../03-molecular/hif-1alpha/README.md)** — Pannus hypoxia: the hyperplastic, poorly perfused rheumatoid synovium becomes hypoxic, stabilising HIF-1α to drive the VEGF angiogenesis that feeds the invasive pannus.
+- `connects-to` → **[PDGF](../../03-molecular/pdgf/README.md)** — Synovial proliferation: PDGF drives the proliferation of the synovial fibroblasts that form the destructive pannus invading cartilage and bone in rheumatoid arthritis.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
