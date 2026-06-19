@@ -256,6 +256,15 @@ cross_links:
   - target: 01-human/07-system/borderline-personality-disorder
     relation: connects-to
     note: "Chronic anxiety amid instability: generalized anxiety is a frequent comorbidity of borderline personality disorder, sharing emotional dysregulation and an exaggerated threat response that compound each other."
+  - target: 01-human/03-molecular/npy
+    relation: connects-to
+    note: "The brain's anti-anxiety neuropeptide: NPY buffers the stress response and amygdala reactivity, and low NPY tone tracks with anxiety vulnerability and poor resilience—an endogenous counterweight to the CRH-driven stress underlying GAD."
+  - target: 01-human/07-system/gambling-disorder
+    relation: connects-to
+    note: "Anxiety and compulsive reward feed each other: people with GAD may gamble to escape anxious distress, and mounting losses deepen worry—a bidirectional loop between anxiety and behavioural addiction."
+  - target: 01-human/05-tissue/cardiac-conduction-system
+    relation: connects-to
+    note: "Why anxiety feels like the heart: GAD's autonomic arousal drives palpitations, sinus tachycardia and ectopy through the conduction system, the somatic symptom that brings many anxious patients to cardiology and the rationale for beta-blockade."
 ---
 
 # Generalized Anxiety Disorder
@@ -473,6 +482,9 @@ Allow **4-8 weeks** for onset of anxiolytic effect. Continue treatment ≥12 mon
 - `connects-to` → **[Beta-blockers](../../../03-medicine/01-modern/04-cardio/beta-blockers/README.md)** — They blunt the body's anxiety: beta-blockers like propranolol damp the adrenergic physical symptoms of anxiety — racing heart, tremor, sweating — useful for performance and situational anxiety though they do not treat the underlying worry.
 - `connects-to` → **[St John's Wort](../../../03-medicine/02-traditional/st-johns-wort/README.md)** — A herbal serotonergic option: St John's wort, which raises serotonin like the SSRIs used for anxiety, is taken by some for mild anxiety and depression, though efficacy is uncertain and it interacts with many drugs.
 - `connects-to` → **[Borderline Personality Disorder](../borderline-personality-disorder/README.md)** — Chronic anxiety amid instability: generalized anxiety is a frequent comorbidity of borderline personality disorder, sharing emotional dysregulation and an exaggerated threat response that compound each other.
+- `connects-to` → **[NPY](../../03-molecular/npy/README.md)** — The brain's anti-anxiety neuropeptide: NPY buffers the stress response and amygdala reactivity, and low NPY tone tracks with anxiety vulnerability and poor resilience—an endogenous counterweight to the CRH-driven stress underlying GAD.
+- `connects-to` → **[Gambling Disorder](../gambling-disorder/README.md)** — Anxiety and compulsive reward feed each other: people with GAD may gamble to escape anxious distress, and mounting losses deepen worry—a bidirectional loop between anxiety and behavioural addiction.
+- `connects-to` → **[Cardiac Conduction System](../../05-tissue/cardiac-conduction-system/README.md)** — Why anxiety feels like the heart: GAD's autonomic arousal drives palpitations, sinus tachycardia and ectopy through the conduction system, the somatic symptom that brings many anxious patients to cardiology and the rationale for beta-blockade.
 
 [^kessler-2005-gad-prevalence]: Kessler RC, Berglund P, Demler O, et al. Lifetime prevalence and age-of-onset distributions of DSM-IV disorders in the NCS Replication. *Arch Gen Psychiatry.* 2005;62(6):593-602. [doi:10.1001/archpsyc.62.6.593](https://doi.org/10.1001/archpsyc.62.6.593) · [PubMed 15939837](https://pubmed.ncbi.nlm.nih.gov/15939837/)
 [^bandelow-2015-anxiety-biology]: Bandelow B, Michaelis S. Epidemiology of anxiety disorders in the 21st century. *Dialogues Clin Neurosci.* 2015;17(3):327-335. [doi:10.31887/DCNS.2015.17.3/bbandelow](https://doi.org/10.31887/DCNS.2015.17.3/bbandelow) · [PubMed 26487812](https://pubmed.ncbi.nlm.nih.gov/26487812/)
