@@ -250,6 +250,15 @@ cross_links:
   - target: 01-human/07-system/myeloproliferative-neoplasms
     relation: connects-to
     note: "Congenital versus acquired polycythaemia: VHL and its pathway partners (EPAS1, EGLN1) cause hereditary HIF-driven erythrocytosis, the inherited mirror of the acquired, JAK2-driven erythrocytosis of myeloproliferative neoplasms."
+  - target: 01-human/07-system/diabetic-retinopathy
+    relation: connects-to
+    note: "Two VEGF-driven retinal diseases: VHL retinal haemangioblastomas, like diabetic retinopathy, leak and proliferate under HIF-driven VEGF and are managed with laser photocoagulation and anti-VEGF therapy."
+  - target: 01-human/07-system/glioblastoma
+    relation: connects-to
+    note: "Vascularity, opposite fates: VHL haemangioblastomas and glioblastoma are both intensely VEGF-driven, microvascular-rich CNS tumours, but the haemangioblastoma is benign and curable by resection while glioblastoma is relentlessly malignant."
+  - target: 01-human/07-system/neurofibromatosis-type-1
+    relation: connects-to
+    note: "Shared phaeochromocytoma risk: VHL and neurofibromatosis type 1 both predispose to phaeochromocytoma, two of the hereditary syndromes—with MEN2 and SDHx—behind catecholamine-secreting adrenal tumours."
 ---
 
 # VHL Disease
@@ -449,6 +458,9 @@ The genotype-phenotype correlation reflects the degree of pVHL function retained
 - `connects-to` → **[IDH-mutant Glioma](../idh-mutant-glioma/README.md)** — Two routes to pseudohypoxia: VHL loss directly stabilises HIF, while IDH-mutant glioma's 2-hydroxyglutarate inhibits the dioxygenases that degrade it—convergent HIF-driven, pseudohypoxic oncogenesis from different lesions.
 - `connects-to` → **[Arterial Wall](../../05-tissue/arterial-wall/README.md)** — It is a disease of runaway vessels: unrestrained HIF/VEGF in VHL drives the florid capillary proliferation of CNS and retinal hemangioblastomas and the hypervascularity of its renal cancers, vessel growth gone unchecked.
 - `connects-to` → **[Myeloproliferative Neoplasms](../myeloproliferative-neoplasms/README.md)** — Congenital versus acquired polycythaemia: VHL and its pathway partners (EPAS1, EGLN1) cause hereditary HIF-driven erythrocytosis, the inherited mirror of the acquired, JAK2-driven erythrocytosis of myeloproliferative neoplasms.
+- `connects-to` → **[Diabetic Retinopathy](../diabetic-retinopathy/README.md)** — Two VEGF-driven retinal diseases: VHL retinal haemangioblastomas, like diabetic retinopathy, leak and proliferate under HIF-driven VEGF and are managed with laser photocoagulation and anti-VEGF therapy.
+- `connects-to` → **[Glioblastoma](../glioblastoma/README.md)** — Vascularity, opposite fates: VHL haemangioblastomas and glioblastoma are both intensely VEGF-driven, microvascular-rich CNS tumours, but the haemangioblastoma is benign and curable by resection while glioblastoma is relentlessly malignant.
+- `connects-to` → **[Neurofibromatosis Type 1](../neurofibromatosis-type-1/README.md)** — Shared phaeochromocytoma risk: VHL and neurofibromatosis type 1 both predispose to phaeochromocytoma, two of the hereditary syndromes—with MEN2 and SDHx—behind catecholamine-secreting adrenal tumours.
 
 [^lonser-2003-vhl-disease]: Lonser RR, Glenn GM, Walther M, et al. von Hippel-Lindau disease. *Lancet.* 2003;361(9374):2059-2067. [doi:10.1016/S0140-6736(03)13643-4](https://doi.org/10.1016/S0140-6736(03)13643-4) · [PubMed 12814730](https://pubmed.ncbi.nlm.nih.gov/12814730/)
 [^choueiri-2020-hif2-rcc]: Choueiri TK, Kaelin WG Jr. Targeting the HIF2-VEGF axis in renal cell carcinoma. *Nat Med.* 2020;26(10):1519-1530. [doi:10.1038/s41591-020-1093-z](https://doi.org/10.1038/s41591-020-1093-z) · [PubMed 33020650](https://pubmed.ncbi.nlm.nih.gov/33020650/)

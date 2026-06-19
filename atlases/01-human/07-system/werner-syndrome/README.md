@@ -250,6 +250,15 @@ cross_links:
   - target: 01-human/05-tissue/islet-of-langerhans
     relation: connects-to
     note: "It brings a severe diabetes: Werner syndrome causes lipodystrophy and visceral fat that drive profound insulin resistance, overworking the islets of Langerhans into an early, hard-to-control type 2 diabetes."
+  - target: 01-human/07-system/endometrial-cancer
+    relation: connects-to
+    note: "WRN as a drug target: WRN helicase is synthetically lethal in microsatellite-unstable cancers such as MSI-high endometrial and gastric tumours, so the very gene mutated in Werner syndrome is now a sought-after oncology target."
+  - target: 01-human/05-tissue/myocardium
+    relation: connects-to
+    note: "Premature heart death: accelerated atherosclerosis in Werner syndrome causes early myocardial infarction, and along with cancer it is one of the two leading causes of death in these patients in their fifties."
+  - target: 01-human/07-system/synovial-sarcoma
+    relation: connects-to
+    note: "An unusual tumour spectrum: Werner's genomic instability skews cancers toward mesenchymal types—soft-tissue sarcomas like synovial sarcoma and osteosarcoma—rather than the epithelial carcinomas of most cancer syndromes."
 ---
 
 # Werner Syndrome
@@ -490,6 +499,9 @@ cross_links:
 - `connects-to` → **[Targeted Therapy](../../../03-medicine/01-modern/13-cancer/targeted-therapy/README.md)** — Its gene became a drug target: WRN-helicase inhibitors are synthetically lethal in microsatellite-unstable cancers that depend on WRN to survive their unstable DNA—turning the premature-aging gene of Werner syndrome into precision oncology.
 - `connects-to` → **[Lynch Syndrome](../lynch-syndrome/README.md)** — Synthetic lethality meets mismatch repair: the MSI-high tumours that WRN inhibitors kill are largely the mismatch-repair-deficient cancers of Lynch syndrome, so Werner's helicase is the vulnerability that Lynch's genomic instability creates.
 - `connects-to` → **[Islet of Langerhans](../../05-tissue/islet-of-langerhans/README.md)** — It brings a severe diabetes: Werner syndrome causes lipodystrophy and visceral fat that drive profound insulin resistance, overworking the islets of Langerhans into an early, hard-to-control type 2 diabetes.
+- `connects-to` → **[Endometrial Cancer](../endometrial-cancer/README.md)** — WRN as a drug target: WRN helicase is synthetically lethal in microsatellite-unstable cancers such as MSI-high endometrial and gastric tumours, so the very gene mutated in Werner syndrome is now a sought-after oncology target.
+- `connects-to` → **[Myocardium](../../05-tissue/myocardium/README.md)** — Premature heart death: accelerated atherosclerosis in Werner syndrome causes early myocardial infarction, and along with cancer it is one of the two leading causes of death in these patients in their fifties.
+- `connects-to` → **[Synovial Sarcoma](../synovial-sarcoma/README.md)** — An unusual tumour spectrum: Werner's genomic instability skews cancers toward mesenchymal types—soft-tissue sarcomas like synovial sarcoma and osteosarcoma—rather than the epithelial carcinomas of most cancer syndromes.
 
 [^yu-1996-wrn]: Yu CE, Oshima J, Fu YH, et al. Positional cloning of the Werner's syndrome gene. *Science.* 1996;272(5259):258-262. [doi:10.1126/science.272.5259.258](https://doi.org/10.1126/science.272.5259.258) · [PubMed 8602509](https://pubmed.ncbi.nlm.nih.gov/8602509/)
 [^lauper-2013-wrn-neoplasia]: Lauper JM, Krause A, Vaughan TL, Monnat RJ Jr. Spectrum and risk of neoplasia in Werner syndrome: a systematic review. *PLoS One.* 2013;8(4):e59709. [doi:10.1371/journal.pone.0059709](https://doi.org/10.1371/journal.pone.0059709) · [PubMed 23579047](https://pubmed.ncbi.nlm.nih.gov/23579047/)
