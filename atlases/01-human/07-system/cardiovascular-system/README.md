@@ -285,6 +285,15 @@ cross_links:
   - target: 01-human/07-system/marfan-syndrome
     relation: connects-to
     note: "Heritable aortopathy: Marfan and related connective-tissue disorders weaken the aortic wall, causing root dilatation, aneurysm and dissection—a genetic cardiovascular disease demanding lifelong aortic surveillance."
+  - target: 01-human/03-molecular/endothelin-1
+    relation: connects-to
+    note: "Vascular tone: endothelin-1, the body's most potent vasoconstrictor, sets vascular resistance against the nitric oxide that opposes it, and its excess drives hypertension and vascular remodelling."
+  - target: 01-human/03-molecular/vegf
+    relation: connects-to
+    note: "Vessel growth: VEGF directs the angiogenesis that builds and repairs the vasculature, governing collateral formation after ischaemia and the neovascularisation of atherosclerotic plaque."
+  - target: 01-human/03-molecular/il-6
+    relation: connects-to
+    note: "Vascular inflammation: IL-6 is a central mediator of the inflammation that drives atherosclerosis, and trials targeting the IL-6/CRP axis confirm inflammation as a modifiable cardiovascular risk."
 taxonomy:
   uberon: "UBERON:0004535"
   fma: "FMA:7161"
@@ -456,6 +465,9 @@ Each major vascular bed has **autoregulation** — a local mechanism that holds 
 - `connects-to` → **[Pulmonary Arterial Hypertension](../pulmonary-arterial-hypertension/README.md)** — The right-heart circulation: pulmonary arterial hypertension is the cardiovascular system's pulmonary-vascular disease, raising pressure in the lungs and failing the right ventricle—distinct from systemic hypertension and left heart disease.
 - `connects-to` → **[Coxsackievirus B](../../../02-pathogen/01-viruses/coxsackievirus-b/README.md)** — Viral myocarditis: enteroviruses like Coxsackie B directly infect the heart muscle, a leading cause of acute myocarditis and dilated cardiomyopathy in young, previously healthy people.
 - `connects-to` → **[Marfan Syndrome](../marfan-syndrome/README.md)** — Heritable aortopathy: Marfan and related connective-tissue disorders weaken the aortic wall, causing root dilatation, aneurysm and dissection—a genetic cardiovascular disease demanding lifelong aortic surveillance.
+- `connects-to` → **[Endothelin-1](../../03-molecular/endothelin-1/README.md)** — Vascular tone: endothelin-1, the body's most potent vasoconstrictor, sets vascular resistance against the nitric oxide that opposes it, and its excess drives hypertension and vascular remodelling.
+- `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — Vessel growth: VEGF directs the angiogenesis that builds and repairs the vasculature, governing collateral formation after ischaemia and the neovascularisation of atherosclerotic plaque.
+- `connects-to` → **[IL-6](../../03-molecular/il-6/README.md)** — Vascular inflammation: IL-6 is a central mediator of the inflammation that drives atherosclerosis, and trials targeting the IL-6/CRP axis confirm inflammation as a modifiable cardiovascular risk.
 
 ## Pathology
 

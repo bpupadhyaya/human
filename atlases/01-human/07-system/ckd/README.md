@@ -279,6 +279,15 @@ cross_links:
   - target: 01-human/07-system/epilepsy
     relation: connects-to
     note: "Uraemic seizures: accumulated uraemic toxins, electrolyte derangements and dialysis disequilibrium can provoke seizures, and CKD complicates the dosing of renally-cleared anti-seizure drugs."
+  - target: 01-human/03-molecular/nitric-oxide
+    relation: connects-to
+    note: "Endothelial dysfunction: uraemic toxins and the accumulation of the eNOS inhibitor ADMA cut nitric oxide in CKD, driving the hypertension and accelerated vascular disease of kidney failure."
+  - target: 01-human/03-molecular/endothelin-1
+    relation: connects-to
+    note: "Vasoconstrictor and fibrosis: endothelin-1 rises in CKD to constrict renal vessels, retain sodium and promote tubulointerstitial fibrosis, a target of endothelin antagonists in proteinuric disease."
+  - target: 01-human/03-molecular/tnf-alpha
+    relation: connects-to
+    note: "Uraemic inflammation: TNF-α is a key cytokine of the chronic low-grade inflammation of CKD, contributing to its anaemia, muscle wasting and high cardiovascular risk."
 ---
 
 # Chronic Kidney Disease
@@ -442,6 +451,9 @@ As nephron mass decreases, impaired renal functions accumulate:
 - `connects-to` → **[Cardiac Conduction System](../../05-tissue/cardiac-conduction-system/README.md)** — Potassium kills the rhythm: as the kidney fails to excrete potassium, hyperkalaemia peaks the T wave and can trigger fatal arrhythmia through the cardiac conduction system—a leading cause of sudden death on dialysis.
 - `connects-to` → **[COVID-19 Disease](../covid-19-disease/README.md)** — A deadly vulnerability: dialysis and advanced CKD carried among the highest COVID-19 mortality, while severe COVID-19 itself causes acute kidney injury that can leave lasting chronic kidney disease.
 - `connects-to` → **[Epilepsy](../epilepsy/README.md)** — Uraemic seizures: accumulated uraemic toxins, electrolyte derangements and dialysis disequilibrium can provoke seizures, and CKD complicates the dosing of renally-cleared anti-seizure drugs.
+- `connects-to` → **[Nitric Oxide](../../03-molecular/nitric-oxide/README.md)** — Endothelial dysfunction: uraemic toxins and the accumulation of the eNOS inhibitor ADMA cut nitric oxide in CKD, driving the hypertension and accelerated vascular disease of kidney failure.
+- `connects-to` → **[Endothelin-1](../../03-molecular/endothelin-1/README.md)** — Vasoconstrictor and fibrosis: endothelin-1 rises in CKD to constrict renal vessels, retain sodium and promote tubulointerstitial fibrosis, a target of endothelin antagonists in proteinuric disease.
+- `connects-to` → **[TNF-α](../../03-molecular/tnf-alpha/README.md)** — Uraemic inflammation: TNF-α is a key cytokine of the chronic low-grade inflammation of CKD, contributing to its anaemia, muscle wasting and high cardiovascular risk.
 
 ## Pathology
 
