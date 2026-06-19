@@ -247,6 +247,15 @@ cross_links:
   - target: 03-medicine/01-modern/13-cancer/cancer-chemotherapy
     relation: connects-to
     note: "Chemo that history left behind: melanoma is notoriously chemoresistant, and dacarbazine-based chemotherapy has been largely abandoned in favour of immunotherapy and targeted drugs."
+  - target: 01-human/05-tissue/germinal-center
+    relation: connects-to
+    note: "Lymphoid islands forecast its immunotherapy response: melanomas that contain tertiary lymphoid structures with germinal-centre-like B-cell aggregates respond better to checkpoint blockade, marking the cancer where immunotherapy first proved transformative."
+  - target: 01-human/07-system/gist
+    relation: connects-to
+    note: "KIT links a skin cancer to a gut tumour: acral and mucosal melanomas often carry activating KIT mutations like gastrointestinal stromal tumours, so these melanoma subtypes can respond to the KIT inhibitor imatinib that defines GIST therapy."
+  - target: 01-human/07-system/thyroid-cancer
+    relation: connects-to
+    note: "A shared BRAF driver: papillary thyroid cancer and melanoma both frequently harbour the BRAF V600E mutation, and BRAF/MEK inhibitors developed in melanoma are now used in BRAF-mutant thyroid cancer—one mutation across two organs."
 ---
 
 # Melanoma
@@ -413,6 +422,9 @@ cross_links:
 - `connects-to` → **[Checkpoint Inhibitors](../../../03-medicine/01-modern/13-cancer/checkpoint-inhibitors/README.md)** — The breakthrough that defined immunotherapy: ipilimumab (anti-CTLA-4) and anti-PD-1 antibodies transformed metastatic melanoma from rapidly fatal to often durably controlled, the disease where checkpoint blockade first proved itself.
 - `connects-to` → **[Parkinson's Disease](../parkinsons-disease/README.md)** — A surprising two-way link: melanoma and Parkinson's disease show a bidirectional epidemiological association, thought to reflect shared biology of melanin and neuromelanin in pigment-cell pathways.
 - `connects-to` → **[Cancer Chemotherapy](../../../03-medicine/01-modern/13-cancer/cancer-chemotherapy/README.md)** — Chemo that history left behind: melanoma is notoriously chemoresistant, and dacarbazine-based chemotherapy has been largely abandoned in favour of immunotherapy and targeted drugs.
+- `connects-to` → **[Germinal Center](../../05-tissue/germinal-center/README.md)** — Lymphoid islands forecast its immunotherapy response: melanomas that contain tertiary lymphoid structures with germinal-centre-like B-cell aggregates respond better to checkpoint blockade, marking the cancer where immunotherapy first proved transformative.
+- `connects-to` → **[GIST](../gist/README.md)** — KIT links a skin cancer to a gut tumour: acral and mucosal melanomas often carry activating KIT mutations like gastrointestinal stromal tumours, so these melanoma subtypes can respond to the KIT inhibitor imatinib that defines GIST therapy.
+- `connects-to` → **[Thyroid Cancer](../thyroid-cancer/README.md)** — A shared BRAF driver: papillary thyroid cancer and melanoma both frequently harbour the BRAF V600E mutation, and BRAF/MEK inhibitors developed in melanoma are now used in BRAF-mutant thyroid cancer—one mutation across two organs.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
