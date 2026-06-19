@@ -289,6 +289,15 @@ cross_links:
   - target: 01-human/07-system/type-1-diabetes
     relation: connects-to
     note: "Two roles for one organ: the pancreas is both a digestive (exocrine) and endocrine gland, and type 1 diabetes destroys its islets of Langerhans, the endocrine cells embedded within this digestive organ."
+  - target: 01-human/03-molecular/acetylcholine
+    relation: connects-to
+    note: "Parasympathetic drive: acetylcholine is the principal enteric and vagal neurotransmitter stimulating gut motility, secretion and sphincter function throughout the digestive tract."
+  - target: 01-human/03-molecular/nitric-oxide
+    relation: connects-to
+    note: "Inhibitory neurotransmission: nitric oxide from enteric inhibitory neurons relaxes gut smooth muscle for peristalsis and sphincter opening, with its loss causing achalasia and pyloric stenosis."
+  - target: 02-pathogen/02-bacteria/staphylococcus-aureus
+    relation: connects-to
+    note: "Toxin food poisoning: preformed staphylococcal enterotoxin causes rapid-onset vomiting and diarrhoea, a classic toxin-mediated gastroenteritis of the digestive tract."
 taxonomy:
   uberon: "UBERON:0001007"
 ---
@@ -468,6 +477,9 @@ The ENS can function autonomously without extrinsic innervation (Hirschsprung's 
 - **Connects to:** [Parkinson's Disease](../parkinsons-disease/README.md) — the gut-brain axis: Parkinson's may begin in the enteric nervous system, with alpha-synuclein aggregating in the gut wall and ascending the vagus nerve, and constipation often precedes the motor disease by years.
 - **Connects to:** [Hereditary Pancreatitis](../hereditary-pancreatitis/README.md) — recurrent pancreatic injury: hereditary pancreatitis (PRSS1) causes repeated attacks of pancreatitis in the digestive system's exocrine pancreas, leading to chronic pancreatitis and a high lifetime pancreatic-cancer risk.
 - **Connects to:** [Type 1 Diabetes](../type-1-diabetes/README.md) — two roles for one organ: the pancreas is both a digestive (exocrine) and endocrine gland, and type 1 diabetes destroys its islets of Langerhans, the endocrine cells embedded within this digestive organ.
+- **Connects to:** [Acetylcholine](../../03-molecular/acetylcholine/README.md) — parasympathetic drive: acetylcholine is the principal enteric and vagal neurotransmitter stimulating gut motility, secretion and sphincter function throughout the digestive tract.
+- **Connects to:** [Nitric Oxide](../../03-molecular/nitric-oxide/README.md) — inhibitory neurotransmission: nitric oxide from enteric inhibitory neurons relaxes gut smooth muscle for peristalsis and sphincter opening, with its loss causing achalasia and pyloric stenosis.
+- **Connects to:** [Staphylococcus aureus](../../../02-pathogen/02-bacteria/staphylococcus-aureus/README.md) — toxin food poisoning: preformed staphylococcal enterotoxin causes rapid-onset vomiting and diarrhoea, a classic toxin-mediated gastroenteritis of the digestive tract.
 
 ## Pathology
 

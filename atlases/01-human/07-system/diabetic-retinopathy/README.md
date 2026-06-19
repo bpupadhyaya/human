@@ -277,6 +277,15 @@ cross_links:
   - target: 01-human/07-system/thalassemia
     relation: connects-to
     note: "Another retinopathy: transfusion-dependent thalassaemia damages the retina through iron-chelator (deferoxamine) toxicity and angioid streaks, a distinct hereditary-anaemia retinopathy to contrast with the diabetic one."
+  - target: 01-human/03-molecular/angiotensin-ii
+    relation: connects-to
+    note: "Local RAS in the retina: the retinal renin-angiotensin system contributes to diabetic retinopathy, and systemic RAS blockade with ACE inhibitors or ARBs slows its progression."
+  - target: 01-human/03-molecular/endothelin-1
+    relation: connects-to
+    note: "Vasoconstriction and ischaemia: endothelin-1-driven vasoconstriction and endothelial dysfunction worsen the retinal ischaemia that drives neovascular diabetic retinopathy."
+  - target: 01-human/03-molecular/il-1b
+    relation: connects-to
+    note: "Inflammatory capillary loss: IL-1β and inflammasome activation drive the chronic low-grade inflammation and capillary degeneration underlying diabetic retinopathy."
 ---
 
 # Diabetic Retinopathy
@@ -473,6 +482,9 @@ DR encompasses a spectrum from subtle vascular changes to sight-threatening neov
 - `connects-to` → **[COVID-19 Disease](../covid-19-disease/README.md)** — Retinal microvascular insult: COVID-19 can produce retinal cotton-wool spots and vein or artery occlusions through its endothelial injury, and the pandemic disrupted diabetic-retinopathy screening, worsening outcomes.
 - `connects-to` → **[Complement C5](../../03-molecular/complement-c5/README.md)** — Complement-driven capillary damage: activation of the complement cascade through C5 and the membrane-attack complex injures retinal capillaries in diabetic retinopathy, an inflammatory mechanism beyond pure hyperglycaemia.
 - `connects-to` → **[Thalassemia](../thalassemia/README.md)** — Another retinopathy: transfusion-dependent thalassaemia damages the retina through iron-chelator (deferoxamine) toxicity and angioid streaks, a distinct hereditary-anaemia retinopathy to contrast with the diabetic one.
+- `connects-to` → **[Angiotensin II](../../03-molecular/angiotensin-ii/README.md)** — Local RAS in the retina: the retinal renin-angiotensin system contributes to diabetic retinopathy, and systemic RAS blockade with ACE inhibitors or ARBs slows its progression.
+- `connects-to` → **[Endothelin-1](../../03-molecular/endothelin-1/README.md)** — Vasoconstriction and ischaemia: endothelin-1-driven vasoconstriction and endothelial dysfunction worsen the retinal ischaemia that drives neovascular diabetic retinopathy.
+- `connects-to` → **[IL-1β](../../03-molecular/il-1b/README.md)** — Inflammatory capillary loss: IL-1β and inflammasome activation drive the chronic low-grade inflammation and capillary degeneration underlying diabetic retinopathy.
 
 [^fong-2004-dr-review]: Fong DS, Aiello L, Gardner TW, et al. Diabetic retinopathy. *Diabetes Care.* 2004;27(10):2540-2553. [doi:10.2337/diacare.27.10.2540](https://doi.org/10.2337/diacare.27.10.2540) · [PubMed 15451934](https://pubmed.ncbi.nlm.nih.gov/15451934/)
 [^brown-2015-aflibercept-protocol-t]: Diabetic Retinopathy Clinical Research Network; Wells JA, Glassman AR, et al. Aflibercept, Bevacizumab, or Ranibizumab for Diabetic Macular Edema. *N Engl J Med.* 2015;372(13):1193-1203. [doi:10.1056/NEJMoa1414264](https://doi.org/10.1056/NEJMoa1414264) · [PubMed 25692915](https://pubmed.ncbi.nlm.nih.gov/25692915/)
