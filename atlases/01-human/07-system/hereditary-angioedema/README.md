@@ -277,6 +277,15 @@ cross_links:
   - target: 01-human/06-organ/spleen
     relation: connects-to
     note: "A splenic source: splenic marginal-zone lymphoma is a classic cause of acquired angioedema, the clone consuming C1-inhibitor, and treating the lymphoma or removing the spleen can resolve the attacks."
+  - target: 01-human/03-molecular/angiopoietin
+    relation: connects-to
+    note: "Endothelial barrier control: the angiopoietin-Tie2 axis governs endothelial junction stability, and its dysregulation contributes to the vascular leak that produces angioedema swelling."
+  - target: 01-human/03-molecular/fibrinogen
+    relation: connects-to
+    note: "Contact-system crosstalk: activated factor XII in hereditary angioedema triggers both bradykinin generation and the coagulation cascade, so fibrinogen turnover and D-dimer rise during attacks."
+  - target: 01-human/03-molecular/von-willebrand-factor
+    relation: connects-to
+    note: "Endothelial activation marker: angioedema attacks activate the endothelium to release von Willebrand factor from Weibel-Palade bodies, reflecting the vascular disturbance driving the swelling."
 ---
 
 # Hereditary Angioedema
@@ -498,6 +507,9 @@ Fluid extravasation → ANGIOEDEMA
 - `connects-to` → **[Follicular Lymphoma](../follicular-lymphoma/README.md)** — An indolent lymphoma trigger: follicular lymphoma is among the low-grade B-cell neoplasms that consume C1-inhibitor and cause acquired angioedema, which can improve when the lymphoma is treated.
 - `connects-to` → **[Mantle Cell Lymphoma](../mantle-cell-lymphoma/README.md)** — Another lymphoproliferative cause: mantle-cell lymphoma joins the B-cell malignancies that can produce acquired C1-inhibitor deficiency, so new late-onset angioedema warrants a search for occult lymphoma.
 - `connects-to` → **[Spleen](../../06-organ/spleen/README.md)** — A splenic source: splenic marginal-zone lymphoma is a classic cause of acquired angioedema, the clone consuming C1-inhibitor, and treating the lymphoma or removing the spleen can resolve the attacks.
+- `connects-to` → **[Angiopoietin](../../03-molecular/angiopoietin/README.md)** — Endothelial barrier control: the angiopoietin-Tie2 axis governs endothelial junction stability, and its dysregulation contributes to the vascular leak that produces angioedema swelling.
+- `connects-to` → **[Fibrinogen](../../03-molecular/fibrinogen/README.md)** — Contact-system crosstalk: activated factor XII in hereditary angioedema triggers both bradykinin generation and the coagulation cascade, so fibrinogen turnover and D-dimer rise during attacks.
+- `connects-to` → **[Von Willebrand Factor](../../03-molecular/von-willebrand-factor/README.md)** — Endothelial activation marker: angioedema attacks activate the endothelium to release von Willebrand factor from Weibel-Palade bodies, reflecting the vascular disturbance driving the swelling.
 
 [^cicardi-2010-icatibant-nejm]: Cicardi M, Banerji A, Bracho F, et al. Icatibant, a new bradykinin-receptor antagonist, in hereditary angioedema. *N Engl J Med.* 2010;363(6):532-541. [doi:10.1056/NEJMoa0906393](https://doi.org/10.1056/NEJMoa0906393) · [PubMed 20818873](https://pubmed.ncbi.nlm.nih.gov/20818873/)
 [^maurer-2018-lanadelumab-help]: Banerji A, Riedl MA, Bernstein JA, et al. Effect of lanadelumab compared with placebo on prevention of hereditary angioedema attacks. *JAMA.* 2018;320(20):2108-2121. [doi:10.1001/jama.2018.16773](https://doi.org/10.1001/jama.2018.16773) · [PubMed 30480729](https://pubmed.ncbi.nlm.nih.gov/30480729/)

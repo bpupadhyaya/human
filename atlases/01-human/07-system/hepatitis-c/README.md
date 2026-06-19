@@ -273,6 +273,15 @@ cross_links:
   - target: 01-human/07-system/covid-19-disease
     relation: connects-to
     note: "Coinfection and disrupted care: COVID-19 strained hepatitis C elimination programmes and direct-acting-antiviral access, while coinfection adds inflammatory and hepatic burden in vulnerable patients."
+  - target: 01-human/03-molecular/rig-i
+    relation: connects-to
+    note: "Sensing and evasion: RIG-I detects HCV RNA and signals through MAVS to induce interferon, but the HCV NS3/4A protease cleaves both sensor and adaptor to blunt the antiviral response."
+  - target: 01-human/03-molecular/pd-1
+    relation: connects-to
+    note: "T-cell exhaustion: chronic hepatitis C drives PD-1-mediated exhaustion of antiviral T cells, contributing to viral persistence before direct-acting antivirals achieve cure."
+  - target: 01-human/03-molecular/myc
+    relation: connects-to
+    note: "Oncogenic progression: MYC activation contributes to the hepatocellular carcinoma that can arise from HCV-driven cirrhosis even after viral clearance."
 ---
 
 # Hepatitis C
@@ -484,3 +493,6 @@ HCV cirrhosis → HCC risk 1–5% per year (annual ultrasound surveillance ± AF
 - `connects-to` → **[IgA Nephropathy](../iga-nephropathy/README.md)** — Cirrhotic and viral glomerulonephritis: chronic hepatitis C—and the cirrhosis it causes—impairs hepatic clearance of IgA immune complexes, producing secondary IgA deposition in the glomerulus alongside its better-known cryoglobulinaemic nephritis.
 - `connects-to` → **[Aplastic Anemia](../aplastic-anemia/README.md)** — Hepatitis-associated aplastic anaemia: a severe marrow-failure syndrome can follow an acute hepatitis (HCV among the implicated viruses), where an aberrant immune response destroys haematopoietic stem cells weeks later.
 - `connects-to` → **[COVID-19 Disease](../covid-19-disease/README.md)** — Coinfection and disrupted care: COVID-19 strained hepatitis C elimination programmes and direct-acting-antiviral access, while coinfection adds inflammatory and hepatic burden in vulnerable patients.
+- `connects-to` → **[RIG-I](../../03-molecular/rig-i/README.md)** — Sensing and evasion: RIG-I detects HCV RNA and signals through MAVS to induce interferon, but the HCV NS3/4A protease cleaves both sensor and adaptor to blunt the antiviral response.
+- `connects-to` → **[PD-1](../../03-molecular/pd-1/README.md)** — T-cell exhaustion: chronic hepatitis C drives PD-1-mediated exhaustion of antiviral T cells, contributing to viral persistence before direct-acting antivirals achieve cure.
+- `connects-to` → **[MYC](../../03-molecular/myc/README.md)** — Oncogenic progression: MYC activation contributes to the hepatocellular carcinoma that can arise from HCV-driven cirrhosis even after viral clearance.
