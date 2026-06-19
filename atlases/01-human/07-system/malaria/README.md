@@ -276,6 +276,15 @@ cross_links:
   - target: 01-human/05-tissue/myocardium
     relation: connects-to
     note: "The heart in severe malaria: cytokines and microvascular sequestration can depress myocardial function in severe disease, a strain compounded by the cardiotoxicity of high-dose antimalarials."
+  - target: 01-human/03-molecular/nlrp3-inflammasome
+    relation: connects-to
+    note: "Hemozoin-driven fevers: malaria pigment (hemozoin) and parasite products activate the NLRP3 inflammasome to release IL-1β, driving the cyclical fevers and inflammation of malaria."
+  - target: 01-human/03-molecular/ifn-gamma
+    relation: connects-to
+    note: "Protective but double-edged: IFN-γ-driven Th1 immunity controls blood-stage malaria yet contributes to the immunopathology of cerebral malaria."
+  - target: 01-human/03-molecular/complement-c5
+    relation: connects-to
+    note: "Complement in severe disease: complement activation, including C5a, contributes to the malarial anaemia and microvascular injury of severe malaria."
 ---
 
 # Malaria
@@ -520,6 +529,9 @@ cross_links:
 - `connects-to` → **[COVID-19 Disease](../covid-19-disease/README.md)** — Overlapping fevers and a syndemic: COVID-19 and malaria present with similar acute febrile illness, risking misdiagnosis, and the pandemic disrupted malaria control programmes across endemic regions.
 - `connects-to` → **[Cardiac Conduction System](../../05-tissue/cardiac-conduction-system/README.md)** — Antimalarials and the QT interval: quinine, chloroquine and related drugs prolong cardiac repolarisation and can trigger arrhythmia, so the conduction system is watched closely during treatment of severe malaria.
 - `connects-to` → **[Myocardium](../../05-tissue/myocardium/README.md)** — The heart in severe malaria: cytokines and microvascular sequestration can depress myocardial function in severe disease, a strain compounded by the cardiotoxicity of high-dose antimalarials.
+- `connects-to` → **[NLRP3 Inflammasome](../../03-molecular/nlrp3-inflammasome/README.md)** — Hemozoin-driven fevers: malaria pigment (hemozoin) and parasite products activate the NLRP3 inflammasome to release IL-1β, driving the cyclical fevers and inflammation of malaria.
+- `connects-to` → **[IFN-γ](../../03-molecular/ifn-gamma/README.md)** — Protective but double-edged: IFN-γ-driven Th1 immunity controls blood-stage malaria yet contributes to the immunopathology of cerebral malaria.
+- `connects-to` → **[Complement C5](../../03-molecular/complement-c5/README.md)** — Complement in severe disease: complement activation, including C5a, contributes to the malarial anaemia and microvascular injury of severe malaria.
 
 [^who-malaria-report-2023]: World Health Organization. World Malaria Report 2023. WHO; 2023.
 [^white-2014-malaria-lancet]: White NJ, Pukrittayakamee S, Hien TT, et al. Malaria. *Lancet.* 2014;383(9918):723-735. [doi:10.1016/S0140-6736(13)60024-0](https://doi.org/10.1016/S0140-6736(13)60024-0) · [PubMed 23953767](https://pubmed.ncbi.nlm.nih.gov/23953767/)

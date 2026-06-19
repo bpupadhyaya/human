@@ -271,6 +271,15 @@ cross_links:
   - target: 01-human/07-system/type-2-diabetes
     relation: connects-to
     note: "Iron-driven diabetes: transfusional iron overload in MDS deposits in the pancreas, impairing insulin secretion and causing a secondary 'bronze' diabetes alongside the cardiac and hepatic iron loading."
+  - target: 01-human/03-molecular/tnf-alpha
+    relation: connects-to
+    note: "Inflammaging marrow: TNF-α and other inflammatory cytokines drive the ineffective haematopoiesis and apoptosis that cause the cytopenias of myelodysplastic syndrome."
+  - target: 01-human/03-molecular/flt3
+    relation: connects-to
+    note: "Transformation kinase: FLT3 mutations, though less common than in AML, appear in MDS and mark progression toward acute myeloid leukaemia."
+  - target: 01-human/03-molecular/akt
+    relation: connects-to
+    note: "Clonal survival signalling: PI3K-AKT-mTOR signalling supports the survival of the dysplastic clone in myelodysplastic syndrome."
 ---
 
 # Myelodysplastic Syndromes
@@ -466,6 +475,9 @@ MDS → AML transformation rate: ~10% at 1 year for very-low risk; ~40-50% at 2 
 - `connects-to` → **[Atherosclerosis](../atherosclerosis/README.md)** — Clonal haematopoiesis and the artery: the TET2 and DNMT3A clones underlying MDS and CHIP spawn inflammatory monocytes that accelerate atherosclerosis, linking clonal marrow disease to heart attacks and strokes.
 - `connects-to` → **[IDH-Mutant Glioma](../idh-mutant-glioma/README.md)** — A shared oncometabolite: IDH1/IDH2-mutant MDS and IDH-mutant glioma both generate 2-hydroxyglutarate that reprograms the epigenome and respond to the same IDH inhibitors, one drug class across blood and brain.
 - `connects-to` → **[Type 2 Diabetes](../type-2-diabetes/README.md)** — Iron-driven diabetes: transfusional iron overload in MDS deposits in the pancreas, impairing insulin secretion and causing a secondary 'bronze' diabetes alongside the cardiac and hepatic iron loading.
+- `connects-to` → **[TNF-α](../../03-molecular/tnf-alpha/README.md)** — Inflammaging marrow: TNF-α and other inflammatory cytokines drive the ineffective haematopoiesis and apoptosis that cause the cytopenias of myelodysplastic syndrome.
+- `connects-to` → **[FLT3](../../03-molecular/flt3/README.md)** — Transformation kinase: FLT3 mutations, though less common than in AML, appear in MDS and mark progression toward acute myeloid leukaemia.
+- `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — Clonal survival signalling: PI3K-AKT-mTOR signalling supports the survival of the dysplastic clone in myelodysplastic syndrome.
 
 [^fenaux-2009-aza001]: Fenaux P, Mufti GJ, Hellstrom-Lindberg E, et al. Efficacy of azacitidine compared with conventional care regimens in patients with higher-risk myelodysplastic syndromes. *Lancet Oncol.* 2009;10(3):223-232. [doi:10.1016/S1470-2045(09)70003-8](https://doi.org/10.1016/S1470-2045(09)70003-8) · [PubMed 19230772](https://pubmed.ncbi.nlm.nih.gov/19230772/)
 [^fenaux-2020-medalist]: Fenaux P, Platzbecker U, Mufti GJ, et al. Luspatercept in patients with lower-risk myelodysplastic syndromes. *N Engl J Med.* 2020;382(2):140-151. [doi:10.1056/NEJMoa1908892](https://doi.org/10.1056/NEJMoa1908892) · [PubMed 31914241](https://pubmed.ncbi.nlm.nih.gov/31914241/)
