@@ -268,6 +268,15 @@ cross_links:
   - target: 01-human/05-tissue/synapse
     relation: connects-to
     note: "The learning gene: neurofibromin restrains RAS at the synapse, and its loss raises GABAergic inhibition and impairs synaptic plasticity, underlying the learning disabilities and attention problems common in NF1."
+  - target: 01-human/03-molecular/braf
+    relation: connects-to
+    note: "RAF down the cascade: NF1 loss unleashes RAS into the BRAF-MEK-ERK cascade, the pathway targeted by MEK inhibitors such as selumetinib for NF1 plexiform neurofibromas."
+  - target: 01-human/03-molecular/cdk4-6
+    relation: connects-to
+    note: "Cell-cycle in transformation: CDKN2A loss with CDK4/6 activation drives the malignant transformation of NF1 neurofibromas to MPNST and the growth of high-grade NF1 gliomas."
+  - target: 01-human/03-molecular/pdgf
+    relation: connects-to
+    note: "Tumour microenvironment: PDGF signalling promotes neurofibroma growth and recruits the supportive stroma around the Schwann-cell tumours of NF1."
 ---
 
 # Neurofibromatosis Type 1
@@ -464,6 +473,9 @@ In glioma and MPNST: additional alterations required — MPNST requires CDKN2A/2
 - `connects-to` → **[Lynch Syndrome](../lynch-syndrome/README.md)** — The café-au-lait mimic: constitutional mismatch-repair deficiency (biallelic Lynch genes) produces café-au-lait macules and childhood cancers that closely imitate NF1, a critical distinction since the two demand entirely different surveillance.
 - `connects-to` → **[VHL Disease](../vhl-disease/README.md)** — Two phakomatoses, one shared tumour: NF1 and von Hippel-Lindau are both neurocutaneous tumour-suppressor syndromes that predispose to pheochromocytoma, though NF1 dysregulates RAS while VHL drives HIF and angiogenesis.
 - `connects-to` → **[Synapse](../../05-tissue/synapse/README.md)** — The learning gene: neurofibromin restrains RAS at the synapse, and its loss raises GABAergic inhibition and impairs synaptic plasticity, underlying the learning disabilities and attention problems common in NF1.
+- `connects-to` → **[BRAF](../../03-molecular/braf/README.md)** — RAF down the cascade: NF1 loss unleashes RAS into the BRAF-MEK-ERK cascade, the pathway targeted by MEK inhibitors such as selumetinib for NF1 plexiform neurofibromas.
+- `connects-to` → **[CDK4/6](../../03-molecular/cdk4-6/README.md)** — Cell-cycle in transformation: CDKN2A loss with CDK4/6 activation drives the malignant transformation of NF1 neurofibromas to MPNST and the growth of high-grade NF1 gliomas.
+- `connects-to` → **[PDGF](../../03-molecular/pdgf/README.md)** — Tumour microenvironment: PDGF signalling promotes neurofibroma growth and recruits the supportive stroma around the Schwann-cell tumours of NF1.
 
 [^gutmann-2017-nf1-primer]: Gutmann DH, Ferner RE, Listernick RH, et al. Neurofibromatosis type 1. *Nat Rev Dis Primers.* 2017;3:17004. [doi:10.1038/nrdp.2017.4](https://doi.org/10.1038/nrdp.2017.4) · [PubMed 28230061](https://pubmed.ncbi.nlm.nih.gov/28230061/)
 [^dombi-2016-selumetinib]: Dombi E, Baldwin A, Marcus LJ, et al. Activity of Selumetinib in Neurofibromatosis Type 1-Related Plexiform Neurofibromas. *N Engl J Med.* 2016;375(26):2550-2560. [doi:10.1056/NEJMoa1605943](https://doi.org/10.1056/NEJMoa1605943) · [PubMed 28029918](https://pubmed.ncbi.nlm.nih.gov/28029918/)

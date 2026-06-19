@@ -268,6 +268,15 @@ cross_links:
   - target: 01-human/05-tissue/intestinal-epithelium
     relation: connects-to
     note: "The carcinoid cell of origin: midgut carcinoids arise from enterochromaffin cells scattered through the intestinal epithelium, the serotonin-secreting source whose liver metastases produce carcinoid syndrome."
+  - target: 01-human/03-molecular/dll3
+    relation: connects-to
+    note: "High-grade target: DLL3 is expressed on poorly differentiated neuroendocrine carcinomas, the target of DLL3-directed agents like tarlatamab that extend beyond somatostatin-based therapy."
+  - target: 01-human/03-molecular/hif-1alpha
+    relation: connects-to
+    note: "Hypervascular tumours: HIF-1α-driven, VEGF-rich angiogenesis makes neuroendocrine tumours strikingly vascular, the rationale for anti-angiogenic agents such as sunitinib."
+  - target: 01-human/03-molecular/tert
+    relation: connects-to
+    note: "Grade and progression: TERT activation maintaining telomeres accompanies the progression of neuroendocrine tumours toward higher-grade, more aggressive disease."
 ---
 
 # Neuroendocrine Tumors
@@ -456,6 +465,9 @@ Treatment identical to SCLC: cisplatin (or carboplatin) + etoposide (4-6 cycles)
 - `connects-to` → **[Pancreatic Cancer](../pancreatic-cancer/README.md)** — Two pancreatic tumours, opposite outlooks: well-differentiated pancreatic neuroendocrine tumours are far more indolent and treatable than pancreatic ductal adenocarcinoma, making their distinction one of the most consequential in oncology.
 - `connects-to` → **[Gastric Cancer](../gastric-cancer/README.md)** — Gastric carcinoids: ECL-cell neuroendocrine tumours of the stomach (types 1-2 driven by hypergastrinaemia) are a distinct entity from gastric adenocarcinoma, with different drivers, behaviour and management.
 - `connects-to` → **[Intestinal Epithelium](../../05-tissue/intestinal-epithelium/README.md)** — The carcinoid cell of origin: midgut carcinoids arise from enterochromaffin cells scattered through the intestinal epithelium, the serotonin-secreting source whose liver metastases produce carcinoid syndrome.
+- `connects-to` → **[DLL3](../../03-molecular/dll3/README.md)** — High-grade target: DLL3 is expressed on poorly differentiated neuroendocrine carcinomas, the target of DLL3-directed agents like tarlatamab that extend beyond somatostatin-based therapy.
+- `connects-to` → **[HIF-1α](../../03-molecular/hif-1alpha/README.md)** — Hypervascular tumours: HIF-1α-driven, VEGF-rich angiogenesis makes neuroendocrine tumours strikingly vascular, the rationale for anti-angiogenic agents such as sunitinib.
+- `connects-to` → **[TERT](../../03-molecular/tert/README.md)** — Grade and progression: TERT activation maintaining telomeres accompanies the progression of neuroendocrine tumours toward higher-grade, more aggressive disease.
 
 [^yao-2011-radiant3]: Yao JC, Shah MH, Ito T, et al. Everolimus for advanced pancreatic neuroendocrine tumors. *N Engl J Med.* 2011;364(6):514-523. [doi:10.1056/NEJMoa1009290](https://doi.org/10.1056/NEJMoa1009290) · [PubMed 21306237](https://pubmed.ncbi.nlm.nih.gov/21306237/)
 [^raymond-2011-sunitinib-pnet]: Raymond E, Dahan L, Raoul JL, et al. Sunitinib malate for the treatment of pancreatic neuroendocrine tumors. *N Engl J Med.* 2011;364(6):501-513. [doi:10.1056/NEJMoa1003825](https://doi.org/10.1056/NEJMoa1003825) · [PubMed 21306236](https://pubmed.ncbi.nlm.nih.gov/21306236/)
