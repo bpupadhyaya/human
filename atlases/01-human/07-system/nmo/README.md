@@ -256,6 +256,15 @@ cross_links:
   - target: 01-human/05-tissue/axonal-transport
     relation: connects-to
     note: "Astrocyte attack severs axons: although NMO primarily destroys aquaporin-4-bearing astrocytes, the resulting lesions disrupt axonal transport and cause the secondary axonal loss behind permanent optic and spinal-cord disability."
+  - target: 01-human/07-system/pemphigus-vulgaris
+    relation: connects-to
+    note: "Antibody-and-complement disease in common: like pemphigus vulgaris, neuromyelitis optica is driven by pathogenic IgG and complement and responds to B-cell depletion (rituximab, inebilizumab)—autoimmunity striking the CNS rather than the skin."
+  - target: 01-human/07-system/breast-cancer
+    relation: connects-to
+    note: "It can be paraneoplastic: aquaporin-4 neuromyelitis optica is occasionally a paraneoplastic syndrome, reported with breast and lung cancers, so new NMO in an older adult may prompt a malignancy search."
+  - target: 01-human/07-system/immune-thrombocytopenia
+    relation: connects-to
+    note: "Antibody-mediated autoimmunity that can coexist: like immune thrombocytopenia, NMO is an organ-specific autoantibody disease cleared by B-cell depletion, and the two can occur together in autoimmune-prone patients."
 ---
 
 # NMOSD
@@ -481,6 +490,9 @@ NMOSD impairs CNS function through three attack-related mechanisms:
 - `connects-to` → **[Cancer Chemotherapy](../../../03-medicine/01-modern/13-cancer/cancer-chemotherapy/README.md)** — Cytotoxic immunosuppression and a cancer link: azathioprine, mycophenolate and cyclophosphamide serve as steroid-sparing maintenance in NMO, and a minority of AQP4-positive disease is paraneoplastic, declaring an underlying cancer.
 - `connects-to` → **[Checkpoint Inhibitors](../../../03-medicine/01-modern/13-cancer/checkpoint-inhibitors/README.md)** — Immunotherapy can unmask it: cancer checkpoint inhibitors occasionally trigger AQP4-antibody neuromyelitis optica and other CNS demyelinating syndromes as severe immune-related adverse events.
 - `connects-to` → **[Axonal Transport](../../05-tissue/axonal-transport/README.md)** — Astrocyte attack severs axons: although NMO primarily destroys aquaporin-4-bearing astrocytes, the resulting lesions disrupt axonal transport and cause the secondary axonal loss behind permanent optic and spinal-cord disability.
+- `connects-to` → **[Pemphigus Vulgaris](../pemphigus-vulgaris/README.md)** — Antibody-and-complement disease in common: like pemphigus vulgaris, neuromyelitis optica is driven by pathogenic IgG and complement and responds to B-cell depletion (rituximab, inebilizumab)—autoimmunity striking the CNS rather than the skin.
+- `connects-to` → **[Breast Cancer](../breast-cancer/README.md)** — It can be paraneoplastic: aquaporin-4 neuromyelitis optica is occasionally a paraneoplastic syndrome, reported with breast and lung cancers, so new NMO in an older adult may prompt a malignancy search.
+- `connects-to` → **[Immune Thrombocytopenia](../immune-thrombocytopenia/README.md)** — Antibody-mediated autoimmunity that can coexist: like immune thrombocytopenia, NMO is an organ-specific autoantibody disease cleared by B-cell depletion, and the two can occur together in autoimmune-prone patients.
 
 [^wingerchuk-2015-nmosd-criteria]: Wingerchuk DM, Banwell B, Bennett JL, et al. International consensus diagnostic criteria for neuromyelitis optica spectrum disorders. *Neurology.* 2015;85(2):177-189. [doi:10.1212/WNL.0000000000001729](https://doi.org/10.1212/WNL.0000000000001729) · [PubMed 26092914](https://pubmed.ncbi.nlm.nih.gov/26092914/)
 [^pittock-2019-eculizumab-prevent]: Pittock SJ, Berthele A, Fujihara K, et al. Eculizumab in Aquaporin-4-Positive Neuromyelitis Optica Spectrum Disorder. *N Engl J Med.* 2019;381(7):614-625. [doi:10.1056/NEJMoa1900866](https://doi.org/10.1056/NEJMoa1900866) · [PubMed 31050279](https://pubmed.ncbi.nlm.nih.gov/31050279/)

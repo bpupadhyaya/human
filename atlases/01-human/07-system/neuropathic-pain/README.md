@@ -231,6 +231,15 @@ cross_links:
   - target: 01-human/07-system/cannabis-use-disorder
     relation: connects-to
     note: "Cannabinoids are sought for refractory pain: medical cannabis is widely used for neuropathic pain via the endocannabinoid system, with modest evidence and the attendant risk of cannabis use disorder."
+  - target: 01-human/07-system/epilepsy
+    relation: connects-to
+    note: "Shared neuronal hyperexcitability: neuropathic pain and epilepsy both arise from over-excitable neurons with disordered sodium-channel and GABA signalling, which is why anticonvulsants like gabapentin, pregabalin and carbamazepine treat both."
+  - target: 01-human/07-system/anca-vasculitis
+    relation: connects-to
+    note: "It inflames the nerves' blood supply: ANCA-associated vasculitis causes a vasculitic neuropathy (mononeuritis multiplex) by occluding the small vessels feeding peripheral nerves, a painful cause of neuropathic pain."
+  - target: 01-human/07-system/hepatitis-c
+    relation: connects-to
+    note: "Cryoglobulins attack the nerves: chronic hepatitis C generates cryoglobulin immune complexes that inflame the vasa nervorum, causing a painful sensorimotor neuropathy—an infectious driver of neuropathic pain."
 sources:
   - id: jensen-2011-neuropathic-pain-review
     type: peer-reviewed
@@ -465,6 +474,9 @@ Chronic neuropathic pain carries significant psychological burden:
 - `connects-to` → **[Cancer Chemotherapy](../../../03-medicine/01-modern/13-cancer/cancer-chemotherapy/README.md)** — Chemo is a leading iatrogenic cause: platinum, taxane, vincristine and bortezomib chemotherapies produce chemotherapy-induced peripheral neuropathy, a dose-limiting, often lasting neuropathic pain in cancer survivors.
 - `connects-to` → **[Axonal Transport](../../05-tissue/axonal-transport/README.md)** — Failing axons fire abnormally: many neuropathic pains arise from a dying-back axonopathy where disrupted axonal transport starves the distal nerve, generating ectopic impulses felt as burning, length-dependent pain.
 - `connects-to` → **[Cannabis Use Disorder](../cannabis-use-disorder/README.md)** — Cannabinoids are sought for refractory pain: medical cannabis is widely used for neuropathic pain via the endocannabinoid system, with modest evidence and the attendant risk of cannabis use disorder.
+- `connects-to` → **[Epilepsy](../epilepsy/README.md)** — Shared neuronal hyperexcitability: neuropathic pain and epilepsy both arise from over-excitable neurons with disordered sodium-channel and GABA signalling, which is why anticonvulsants like gabapentin, pregabalin and carbamazepine treat both.
+- `connects-to` → **[ANCA Vasculitis](../anca-vasculitis/README.md)** — It inflames the nerves' blood supply: ANCA-associated vasculitis causes a vasculitic neuropathy (mononeuritis multiplex) by occluding the small vessels feeding peripheral nerves, a painful cause of neuropathic pain.
+- `connects-to` → **[Hepatitis C](../hepatitis-c/README.md)** — Cryoglobulins attack the nerves: chronic hepatitis C generates cryoglobulin immune complexes that inflame the vasa nervorum, causing a painful sensorimotor neuropathy—an infectious driver of neuropathic pain.
 
 [^jensen-2011-neuropathic-pain-review]: Jensen TS, Baron R, Haanpää M, et al. A new definition of neuropathic pain. *Pain.* 2011;152(10):2204-2205. [doi:10.1016/j.pain.2011.06.017](https://doi.org/10.1016/j.pain.2011.06.017) · [PubMed 21764514](https://pubmed.ncbi.nlm.nih.gov/21764514/)
 [^dworkin-2010-neuropathic-pain-treatment]: Dworkin RH, O'Connor AB, Audette J, et al. Recommendations for the pharmacological management of neuropathic pain. *Mayo Clin Proc.* 2010;85(3 Suppl):S3-14. [doi:10.4065/mcp.2009.0649](https://doi.org/10.4065/mcp.2009.0649) · [PubMed 20194146](https://pubmed.ncbi.nlm.nih.gov/20194146/)
