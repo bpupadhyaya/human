@@ -262,6 +262,15 @@ cross_links:
   - target: 01-human/07-system/opioid-use-disorder
     relation: connects-to
     note: "Opioids thin bone: chronic opioids suppress sex hormones (opioid-induced hypogonadism) and raise fall and fracture risk, a reciprocal link between addiction and bone loss."
+  - target: 01-human/07-system/alcohol-use-disorder
+    relation: connects-to
+    note: "Alcohol thins and breaks bone: chronic heavy drinking suppresses osteoblasts, impairs calcium and vitamin D handling and raises fall risk, making alcohol a major modifiable cause of osteoporosis and fractures."
+  - target: 01-human/07-system/parkinsons-disease
+    relation: connects-to
+    note: "Immobility meets falls: Parkinson's disease lowers bone density through immobility, low vitamin D and weight loss, and its falls turn that osteoporosis into hip and vertebral fractures."
+  - target: 01-human/07-system/werner-syndrome
+    relation: connects-to
+    note: "Premature bone loss: Werner syndrome and other progeroid disorders cause early osteoporosis as part of accelerated ageing, the skeleton thinning decades ahead of schedule."
 ---
 
 # Osteoporosis
@@ -451,6 +460,9 @@ All newly diagnosed osteoporosis should be evaluated for secondary causes: CBC (
 - `connects-to` → **[Arterial Wall](../../05-tissue/arterial-wall/README.md)** — The calcification paradox: as bone loses mineral in osteoporosis, calcium deposits in the arterial wall, so low bone density and vascular calcification often coexist through shared inflammatory and vitamin-K and D pathways.
 - `connects-to` → **[Omeprazole](../../../03-medicine/01-modern/08-gi/omeprazole/README.md)** — Acid suppression and fracture: long-term proton-pump inhibitors reduce calcium absorption and are linked to a modestly higher risk of hip and spine fractures, a caution in osteoporotic patients.
 - `connects-to` → **[Opioid Use Disorder](../opioid-use-disorder/README.md)** — Opioids thin bone: chronic opioids suppress sex hormones (opioid-induced hypogonadism) and raise fall and fracture risk, a reciprocal link between addiction and bone loss.
+- `connects-to` → **[Alcohol Use Disorder](../alcohol-use-disorder/README.md)** — Alcohol thins and breaks bone: chronic heavy drinking suppresses osteoblasts, impairs calcium and vitamin D handling and raises fall risk, making alcohol a major modifiable cause of osteoporosis and fractures.
+- `connects-to` → **[Parkinson's Disease](../parkinsons-disease/README.md)** — Immobility meets falls: Parkinson's disease lowers bone density through immobility, low vitamin D and weight loss, and its falls turn that osteoporosis into hip and vertebral fractures.
+- `connects-to` → **[Werner Syndrome](../werner-syndrome/README.md)** — Premature bone loss: Werner syndrome and other progeroid disorders cause early osteoporosis as part of accelerated ageing, the skeleton thinning decades ahead of schedule.
 
 [^kanis-2019-who-osteoporosis]: Kanis JA, Cooper C, Rizzoli R, Reginster JY. European guidance for the diagnosis and management of osteoporosis in postmenopausal women. *Osteoporos Int.* 2019;30(1):3-44. [doi:10.1007/s00198-018-4704-5](https://doi.org/10.1007/s00198-018-4704-5) · [PubMed 30324412](https://pubmed.ncbi.nlm.nih.gov/30324412/)
 [^cosman-2016-romosozumab]: Cosman F, Crittenden DB, Adachi JD, et al. Romosozumab treatment in postmenopausal women with osteoporosis. *N Engl J Med.* 2016;375(16):1532-1543. [doi:10.1056/NEJMoa1607948](https://doi.org/10.1056/NEJMoa1607948) · [PubMed 27641143](https://pubmed.ncbi.nlm.nih.gov/27641143/)

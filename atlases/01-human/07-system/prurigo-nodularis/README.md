@@ -256,6 +256,15 @@ cross_links:
   - target: 01-human/03-molecular/bdnf
     relation: connects-to
     note: "Neurotrophins and the itch nerve: BDNF and nerve growth factor drive the dermal nerve-fibre hyperplasia and neuronal sensitisation that make prurigo nodularis so intensely and persistently itchy."
+  - target: 01-human/07-system/myelofibrosis
+    relation: connects-to
+    note: "Myeloproliferative itch: like polycythaemia vera, myelofibrosis causes severe aquagenic and chronic pruritus that can drive prurigo nodularis, the itch a clue to an underlying myeloproliferative neoplasm."
+  - target: 01-human/07-system/pancreatic-cancer
+    relation: connects-to
+    note: "Cholestatic and paraneoplastic itch: a pancreatic head cancer obstructing the bile duct causes intense cholestatic pruritus, and generalised itch can be a paraneoplastic clue presenting as prurigo nodularis."
+  - target: 01-human/07-system/ptsd
+    relation: connects-to
+    note: "The psychodermatology link: prurigo nodularis is strongly tied to anxiety, depression and trauma (PTSD), the itch-scratch cycle both worsened by and worsening psychological distress."
 ---
 
 # Prurigo Nodularis
@@ -418,6 +427,9 @@ PN affects approximately **72,000 patients** in the US; true prevalence is likel
 - `connects-to` → **[Asthma](../asthma/README.md)** — Type-2 atopy connection: prurigo nodularis shares the IL-4/IL-13 type-2 inflammation of asthma and atopic disease, and the anti-IL-4-receptor biologic dupilumab treats both conditions.
 - `connects-to` → **[Polycythemia Vera](../polycythemia-vera/README.md)** — Itch from the blood: aquagenic pruritus is a classic feature of polycythaemia vera, and relentless scratching can raise prurigo-like nodules—severe itch as a clue to a myeloproliferative cause.
 - `connects-to` → **[BDNF](../../03-molecular/bdnf/README.md)** — Neurotrophins and the itch nerve: BDNF and nerve growth factor drive the dermal nerve-fibre hyperplasia and neuronal sensitisation that make prurigo nodularis so intensely and persistently itchy.
+- `connects-to` → **[Myelofibrosis](../myelofibrosis/README.md)** — Myeloproliferative itch: like polycythaemia vera, myelofibrosis causes severe aquagenic and chronic pruritus that can drive prurigo nodularis, the itch a clue to an underlying myeloproliferative neoplasm.
+- `connects-to` → **[Pancreatic Cancer](../pancreatic-cancer/README.md)** — Cholestatic and paraneoplastic itch: a pancreatic head cancer obstructing the bile duct causes intense cholestatic pruritus, and generalised itch can be a paraneoplastic clue presenting as prurigo nodularis.
+- `connects-to` → **[PTSD](../ptsd/README.md)** — The psychodermatology link: prurigo nodularis is strongly tied to anxiety, depression and trauma (PTSD), the itch-scratch cycle both worsened by and worsening psychological distress.
 
 [^stander-2020-nemolizumab-pn]: Ständer S, Yosipovitch G, Legat FJ, et al. Trial of nemolizumab in moderate-to-severe prurigo nodularis. *N Engl J Med.* 2020;382(8):706-716. [doi:10.1056/NEJMoa1908316](https://doi.org/10.1056/NEJMoa1908316) · [PubMed 32053299](https://pubmed.ncbi.nlm.nih.gov/32053299/)
 [^briggs-2022-dupilumab-pn-liberty]: Briggs JN, Cho YY, Khanna R, et al. Dupilumab for prurigo nodularis: the LIBERTY-PN PRIME and PRIME2 trials. *N Engl J Med.* 2022;387(18):1683-1693. [doi:10.1056/NEJMoa2205093](https://doi.org/10.1056/NEJMoa2205093) · [PubMed 36300905](https://pubmed.ncbi.nlm.nih.gov/36300905/)
