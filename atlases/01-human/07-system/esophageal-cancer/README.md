@@ -250,6 +250,15 @@ cross_links:
   - target: 01-human/05-tissue/cortical-bone
     relation: connects-to
     note: "It spreads to the skeleton: advanced oesophageal cancer metastasises to bone as painful osteolytic lesions, one of the distant sites — with liver and lung — that mark incurable disease."
+  - target: 01-human/05-tissue/alveolus
+    relation: connects-to
+    note: "Airway erosion and aspiration: oesophageal cancer can erode into the trachea, forming a tracheo-oesophageal fistula that floods the alveoli with saliva and food, causing recurrent aspiration pneumonia."
+  - target: 01-human/05-tissue/germinal-center
+    relation: connects-to
+    note: "Immunotherapy and the immune microenvironment: oesophageal squamous carcinoma can harbour tertiary lymphoid structures with germinal-centre activity, and checkpoint inhibitors now extend survival in advanced disease."
+  - target: 01-human/07-system/bladder-cancer
+    relation: connects-to
+    note: "Smoking's shared field: tobacco and alcohol drive oesophageal squamous cancer, and the same carcinogens raise the risk of bladder cancer—a field effect across smoke-exposed epithelia."
 ---
 
 # Esophageal Cancer
@@ -465,6 +474,9 @@ T1a: Lamina propria/muscularis mucosae; T1b: Submucosa; T2: Muscularis propria; 
 - `connects-to` → **[NSCLC](../nsclc/README.md)** — Smoking links them in the chest: oesophageal squamous-cell carcinoma and lung cancer share tobacco and alcohol carcinogenesis and mediastinal proximity, so they co-occur and invade across the chest cavity.
 - `connects-to` → **[Peripheral Nerve](../../05-tissue/peripheral-nerve/README.md)** — It invades mediastinal nerves: oesophageal cancer can engulf the recurrent laryngeal nerve, causing hoarseness, and infiltrate other mediastinal nerves — local nerve invasion marking unresectable disease.
 - `connects-to` → **[Cortical Bone](../../05-tissue/cortical-bone/README.md)** — It spreads to the skeleton: advanced oesophageal cancer metastasises to bone as painful osteolytic lesions, one of the distant sites — with liver and lung — that mark incurable disease.
+- `connects-to` → **[Alveolus](../../05-tissue/alveolus/README.md)** — Airway erosion and aspiration: oesophageal cancer can erode into the trachea, forming a tracheo-oesophageal fistula that floods the alveoli with saliva and food, causing recurrent aspiration pneumonia.
+- `connects-to` → **[Germinal Center](../../05-tissue/germinal-center/README.md)** — Immunotherapy and the immune microenvironment: oesophageal squamous carcinoma can harbour tertiary lymphoid structures with germinal-centre activity, and checkpoint inhibitors now extend survival in advanced disease.
+- `connects-to` → **[Bladder Cancer](../bladder-cancer/README.md)** — Smoking's shared field: tobacco and alcohol drive oesophageal squamous cancer, and the same carcinogens raise the risk of bladder cancer—a field effect across smoke-exposed epithelia.
 
 ---
 

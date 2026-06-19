@@ -248,6 +248,15 @@ cross_links:
   - target: 03-medicine/01-modern/13-cancer/targeted-therapy
     relation: connects-to
     note: "Hormone pathways are drug targets: somatostatin analogues and peptide-receptor radionuclide therapy treat neuroendocrine tumours, while mTOR inhibitors and hormone-receptor-directed agents act on endocrine tumours and their hormone axes."
+  - target: 01-human/03-molecular/igf-1
+    relation: connects-to
+    note: "The growth-hormone effector: most of growth hormone's actions work through liver-made IGF-1, the axis disrupted in acromegaly and gigantism—a core endocrine feedback loop measured to diagnose GH excess."
+  - target: 01-human/06-organ/placenta
+    relation: connects-to
+    note: "A temporary endocrine organ: in pregnancy the placenta becomes a massive hormone factory, secreting hCG, progesterone, oestrogen and placental lactogen that reshape maternal metabolism."
+  - target: 01-human/07-system/dicer1-syndrome
+    relation: connects-to
+    note: "Inherited endocrine tumours: DICER1 predisposes to thyroid cancer, pituitary blastoma and ovarian sex-cord tumours, one of the germline syndromes that strike multiple endocrine glands."
 ---
 
 # Endocrine System
@@ -482,6 +491,9 @@ The endocrine system coordinates fuel metabolism across multiple organs in respo
 - `connects-to` → **[Islet of Langerhans](../../05-tissue/islet-of-langerhans/README.md)** — The pancreas is an endocrine organ too: the islets of Langerhans secrete insulin, glucagon and somatostatin to govern blood glucose, making the endocrine pancreas central to the system and the seat of diabetes.
 - `connects-to` → **[Cortical Bone](../../05-tissue/cortical-bone/README.md)** — Bone is both target and gland: PTH, calcitonin, vitamin D, oestrogen and thyroid hormone remodel cortical bone, while bone itself secretes FGF23 and osteocalcin — a two-way endocrine relationship governing calcium and phosphate.
 - `connects-to` → **[Targeted Therapy](../../../03-medicine/01-modern/13-cancer/targeted-therapy/README.md)** — Hormone pathways are drug targets: somatostatin analogues and peptide-receptor radionuclide therapy treat neuroendocrine tumours, while mTOR inhibitors and hormone-receptor-directed agents act on endocrine tumours and their hormone axes.
+- `connects-to` → **[IGF-1](../../03-molecular/igf-1/README.md)** — The growth-hormone effector: most of growth hormone's actions work through liver-made IGF-1, the axis disrupted in acromegaly and gigantism—a core endocrine feedback loop measured to diagnose GH excess.
+- `connects-to` → **[Placenta](../../06-organ/placenta/README.md)** — A temporary endocrine organ: in pregnancy the placenta becomes a massive hormone factory, secreting hCG, progesterone, oestrogen and placental lactogen that reshape maternal metabolism.
+- `connects-to` → **[DICER1 Syndrome](../dicer1-syndrome/README.md)** — Inherited endocrine tumours: DICER1 predisposes to thyroid cancer, pituitary blastoma and ovarian sex-cord tumours, one of the germline syndromes that strike multiple endocrine glands.
 
 ## Pathology
 
