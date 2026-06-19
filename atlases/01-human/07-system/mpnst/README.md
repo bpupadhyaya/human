@@ -241,6 +241,15 @@ cross_links:
   - target: 01-human/07-system/chordoma
     relation: connects-to
     note: "A rare tumour where surgery and particle radiation lead: like chordoma, MPNST is a rare, radioresistant malignancy whose control depends on complete resection and high-dose proton or photon radiation."
+  - target: 01-human/07-system/pheochromocytoma-paraganglioma
+    relation: connects-to
+    note: "Two tumours of the NF1 spectrum: neurofibromatosis type 1 predisposes both to malignant peripheral nerve sheath tumours and to pheochromocytoma, neural-crest-derived growths unleashed when neurofibromin no longer restrains RAS signalling."
+  - target: 03-medicine/01-modern/13-cancer/checkpoint-inhibitors
+    relation: connects-to
+    note: "A poorly immunogenic sarcoma: malignant peripheral nerve sheath tumours have low mutational burden and respond little to PD-1 checkpoint inhibitors as monotherapy, so immunotherapy is investigated mainly in combinations for this chemoresistant cancer."
+  - target: 01-human/07-system/cmml
+    relation: connects-to
+    note: "One RAS pathway, blood and nerve: NF1 loss drives RAS-MAPK overactivity, predisposing not only to MPNST but to myeloid neoplasms—juvenile myelomonocytic and chronic myelomonocytic leukaemia—so neurofibromin links a nerve-sheath sarcoma to the marrow."
 ---
 
 # MPNST
@@ -447,6 +456,9 @@ Wide local excision with negative margins is the only potentially curative inter
 - `connects-to` → **[Cancer Chemotherapy](../../../03-medicine/01-modern/13-cancer/cancer-chemotherapy/README.md)** — Sarcoma chemo for advanced disease: doxorubicin and ifosfamide, the standard soft-tissue sarcoma regimen, are used for unresectable or metastatic MPNST, though responses are limited.
 - `connects-to` → **[Neuroblastoma](../neuroblastoma/README.md)** — A fellow neural-crest tumour: like neuroblastoma, MPNST derives from neural-crest lineage, the two among the nerve-associated malignancies that arise in children and young adults.
 - `connects-to` → **[Chordoma](../chordoma/README.md)** — A rare tumour where surgery and particle radiation lead: like chordoma, MPNST is a rare, radioresistant malignancy whose control depends on complete resection and high-dose proton or photon radiation.
+- `connects-to` → **[Pheochromocytoma/Paraganglioma](../pheochromocytoma-paraganglioma/README.md)** — Two tumours of the NF1 spectrum: neurofibromatosis type 1 predisposes both to malignant peripheral nerve sheath tumours and to pheochromocytoma, neural-crest-derived growths unleashed when neurofibromin no longer restrains RAS signalling.
+- `connects-to` → **[Checkpoint Inhibitors](../../../03-medicine/01-modern/13-cancer/checkpoint-inhibitors/README.md)** — A poorly immunogenic sarcoma: malignant peripheral nerve sheath tumours have low mutational burden and respond little to PD-1 checkpoint inhibitors as monotherapy, so immunotherapy is investigated mainly in combinations for this chemoresistant cancer.
+- `connects-to` → **[CMML](../cmml/README.md)** — One RAS pathway, blood and nerve: NF1 loss drives RAS-MAPK overactivity, predisposing not only to MPNST but to myeloid neoplasms—juvenile myelomonocytic and chronic myelomonocytic leukaemia—so neurofibromin links a nerve-sheath sarcoma to the marrow.
 
 [^evans-2002-mpnst-nf1]: Evans DGR, Baser ME, McGaughran J, et al. Malignant peripheral nerve sheath tumours in neurofibromatosis 1. *J Med Genet.* 2002;39(5):311-314. [doi:10.1136/jmg.39.5.311](https://doi.org/10.1136/jmg.39.5.311) · [PubMed 12011145](https://pubmed.ncbi.nlm.nih.gov/12011145/)
 [^lee-2014-mpnst-prc2]: Lee W, Teckie S, Wiesner T, et al. PRC2 is recurrently inactivated through EED or SUZ12 loss in malignant peripheral nerve sheath tumors. *Nat Genet.* 2014;46(11):1227-1232. [doi:10.1038/ng.3095](https://doi.org/10.1038/ng.3095) · [PubMed 25240281](https://pubmed.ncbi.nlm.nih.gov/25240281/)

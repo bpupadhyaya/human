@@ -247,6 +247,15 @@ cross_links:
   - target: 01-human/07-system/cll
     relation: connects-to
     note: "A fellow clonal B-lineage cancer: like chronic lymphocytic leukaemia, multiple myeloma is a clonal expansion of the mature B/plasma-cell lineage in older adults, the two among the commonest blood cancers."
+  - target: 03-medicine/01-modern/13-cancer/car-t
+    relation: connects-to
+    note: "Engineered cells against the plasma cell: BCMA-directed CAR-T therapies (idecabtagene and ciltacabtagene) achieve deep remissions in relapsed multiple myeloma, targeting the B-cell maturation antigen that marks malignant plasma cells."
+  - target: 01-human/05-tissue/glomerulus
+    relation: connects-to
+    note: "Beyond the tubules, it scars the filter: monoclonal light chains and AL amyloid deposit in the glomerulus as light-chain deposition disease and amyloidosis, adding glomerular injury and proteinuria to the cast nephropathy of myeloma kidney."
+  - target: 01-human/07-system/mds
+    relation: connects-to
+    note: "The late cost of its alkylators: melphalan and other DNA-damaging drugs used in myeloma, especially with autologous transplant, raise the risk of therapy-related myelodysplastic syndrome and acute leukaemia years later."
 ---
 
 # Multiple Myeloma
@@ -452,6 +461,9 @@ MM evolves from precursor conditions through a well-defined continuum:
 - `connects-to` → **[Cortical Bone](../../05-tissue/cortical-bone/README.md)** — It eats holes in the skeleton: myeloma plasma cells activate osteoclasts and suppress osteoblasts, producing the punched-out lytic bone lesions, pathological fractures and hypercalcaemia of CRAB.
 - `connects-to` → **[Corticosteroids](../../../03-medicine/01-modern/02-respiratory/corticosteroids/README.md)** — Dexamethasone anchors every regimen: high-dose corticosteroids are directly cytotoxic to plasma cells and form the backbone of nearly all myeloma drug combinations.
 - `connects-to` → **[CLL](../cll/README.md)** — A fellow clonal B-lineage cancer: like chronic lymphocytic leukaemia, multiple myeloma is a clonal expansion of the mature B/plasma-cell lineage in older adults, the two among the commonest blood cancers.
+- `connects-to` → **[CAR-T](../../../03-medicine/01-modern/13-cancer/car-t/README.md)** — Engineered cells against the plasma cell: BCMA-directed CAR-T therapies (idecabtagene and ciltacabtagene) achieve deep remissions in relapsed multiple myeloma, targeting the B-cell maturation antigen that marks malignant plasma cells.
+- `connects-to` → **[Glomerulus](../../05-tissue/glomerulus/README.md)** — Beyond the tubules, it scars the filter: monoclonal light chains and AL amyloid deposit in the glomerulus as light-chain deposition disease and amyloidosis, adding glomerular injury and proteinuria to the cast nephropathy of myeloma kidney.
+- `connects-to` → **[MDS](../mds/README.md)** — The late cost of its alkylators: melphalan and other DNA-damaging drugs used in myeloma, especially with autologous transplant, raise the risk of therapy-related myelodysplastic syndrome and acute leukaemia years later.
 
 [^kumar-2022-imwg-criteria]: Kumar SK, Callander NS, Adekola K, et al. Multiple myeloma, version 3.2021, NCCN clinical practice guidelines in oncology. *J Natl Compr Canc Netw.* 2020;18(12):1685-1717. [doi:10.6004/jnccn.2020.0057](https://doi.org/10.6004/jnccn.2020.0057) · [PubMed 33285519](https://pubmed.ncbi.nlm.nih.gov/33285519/)
 [^moreau-2022-teclistamab]: Moreau P, Garfall AL, van de Donk NWCJ, et al. Teclistamab in relapsed or refractory multiple myeloma. *N Engl J Med.* 2022;387(6):495-505. [doi:10.1056/NEJMoa2203478](https://doi.org/10.1056/NEJMoa2203478) · [PubMed 35661166](https://pubmed.ncbi.nlm.nih.gov/35661166/)
