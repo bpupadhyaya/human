@@ -268,6 +268,15 @@ cross_links:
   - target: 01-human/05-tissue/glomerulus
     relation: connects-to
     note: "Tumour-lysis nephropathy: the high tumour burden of DLBCL can flood the blood with urate and phosphate at treatment, precipitating in the glomerulus and tubules to cause acute kidney injury."
+  - target: 02-pathogen/02-bacteria/helicobacter-pylori
+    relation: connects-to
+    note: "From MALT to DLBCL: chronic Helicobacter pylori gastritis drives gastric MALT lymphoma that can transform into gastric DLBCL, with antibiotic eradication regressing early disease."
+  - target: 02-pathogen/01-viruses/hepatitis-c-virus
+    relation: connects-to
+    note: "Chronic antigen drive: chronic hepatitis C drives sustained B-cell stimulation that can give rise to DLBCL and marginal-zone lymphoma, sometimes regressing with antiviral therapy."
+  - target: 01-human/03-molecular/foxo1
+    relation: connects-to
+    note: "Recurrent driver: FOXO1 mutations are recurrent in DLBCL, dysregulating this transcription factor's control of survival and differentiation to promote lymphomagenesis."
 ---
 
 # Diffuse Large B-Cell Lymphoma
@@ -473,6 +482,9 @@ DLBCL is an aggressive malignancy of mature B cells. The normal equivalents are 
 - `connects-to` → **[Hepatitis C](../hepatitis-c/README.md)** — Chronic antigen and lymphoma: hepatitis C drives chronic B-cell stimulation that can transform into DLBCL, a lymphoma that sometimes regresses with antiviral therapy.
 - `connects-to` → **[Thyroid](../../06-organ/thyroid/README.md)** — Lymphoma in an autoimmune gland: primary thyroid DLBCL arises in long-standing Hashimoto's thyroiditis, presenting as a rapidly enlarging thyroid mass distinct from thyroid carcinoma.
 - `connects-to` → **[Glomerulus](../../05-tissue/glomerulus/README.md)** — Tumour-lysis nephropathy: the high tumour burden of DLBCL can flood the blood with urate and phosphate at treatment, precipitating in the glomerulus and tubules to cause acute kidney injury.
+- `connects-to` → **[Helicobacter pylori](../../../02-pathogen/02-bacteria/helicobacter-pylori/README.md)** — From MALT to DLBCL: chronic Helicobacter pylori gastritis drives gastric MALT lymphoma that can transform into gastric DLBCL, with antibiotic eradication regressing early disease.
+- `connects-to` → **[Hepatitis C Virus](../../../02-pathogen/01-viruses/hepatitis-c-virus/README.md)** — Chronic antigen drive: chronic hepatitis C drives sustained B-cell stimulation that can give rise to DLBCL and marginal-zone lymphoma, sometimes regressing with antiviral therapy.
+- `connects-to` → **[FOXO1](../../03-molecular/foxo1/README.md)** — Recurrent driver: FOXO1 mutations are recurrent in DLBCL, dysregulating this transcription factor's control of survival and differentiation to promote lymphomagenesis.
 
 ---
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*

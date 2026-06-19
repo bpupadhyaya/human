@@ -274,6 +274,15 @@ cross_links:
   - target: 01-human/07-system/covid-19-disease
     relation: connects-to
     note: "COVID coagulopathy: severe COVID-19 causes a distinctive coagulopathy with very high D-dimer and microthrombi that overlaps DIC, though usually with thrombosis rather than the consumptive bleeding."
+  - target: 02-pathogen/01-viruses/ebola-virus
+    relation: connects-to
+    note: "Viral haemorrhagic coagulopathy: Ebola virus triggers severe DIC with consumptive coagulopathy and bleeding, a hallmark of the haemorrhagic fever it causes."
+  - target: 02-pathogen/02-bacteria/streptococcus-pyogenes
+    relation: connects-to
+    note: "Toxic shock and purpura: invasive group A streptococcal infection and toxic shock syndrome drive DIC and purpura fulminans through overwhelming systemic inflammation."
+  - target: 01-human/03-molecular/il-6
+    relation: connects-to
+    note: "Inflammation-coagulation crosstalk: IL-6 induces tissue factor and fibrinogen and amplifies the cytokine response that ignites DIC in sepsis, linking inflammation to clotting."
 ---
 
 # Disseminated Intravascular Coagulation
@@ -490,6 +499,9 @@ DIC is always **secondary** — it does not occur in isolation but as a conseque
 - `connects-to` → **[Neisseria meningitidis](../../../02-pathogen/02-bacteria/neisseria-meningitidis/README.md)** — Purpura fulminans: meningococcal sepsis triggers fulminant DIC with skin necrosis and bilateral adrenal haemorrhage (Waterhouse-Friderichsen), a classic and rapidly fatal infectious cause.
 - `connects-to` → **[Arterial Wall](../../05-tissue/arterial-wall/README.md)** — Endothelium drives the consumption: DIC begins when an injured or activated endothelium of the arterial wall and capillaries exposes tissue factor, igniting the runaway clotting that consumes platelets and factors.
 - `connects-to` → **[COVID-19 Disease](../covid-19-disease/README.md)** — COVID coagulopathy: severe COVID-19 causes a distinctive coagulopathy with very high D-dimer and microthrombi that overlaps DIC, though usually with thrombosis rather than the consumptive bleeding.
+- `connects-to` → **[Ebola Virus](../../../02-pathogen/01-viruses/ebola-virus/README.md)** — Viral haemorrhagic coagulopathy: Ebola virus triggers severe DIC with consumptive coagulopathy and bleeding, a hallmark of the haemorrhagic fever it causes.
+- `connects-to` → **[Streptococcus pyogenes](../../../02-pathogen/02-bacteria/streptococcus-pyogenes/README.md)** — Toxic shock and purpura: invasive group A streptococcal infection and toxic shock syndrome drive DIC and purpura fulminans through overwhelming systemic inflammation.
+- `connects-to` → **[IL-6](../../03-molecular/il-6/README.md)** — Inflammation-coagulation crosstalk: IL-6 induces tissue factor and fibrinogen and amplifies the cytokine response that ignites DIC in sepsis, linking inflammation to clotting.
 
 ---
 
