@@ -268,6 +268,15 @@ cross_links:
   - target: 01-human/05-tissue/arterial-wall
     relation: connects-to
     note: "Angiocentric growth: PCNSL characteristically grows in perivascular cuffs around cerebral vessels, infiltrating the arterial wall and Virchow-Robin spaces, a pattern that helps distinguish it from glioma at biopsy."
+  - target: 01-human/03-molecular/foxo1
+    relation: connects-to
+    note: "Recurrent driver: FOXO1 mutations recur in primary CNS lymphoma, dysregulating this transcription factor in the malignant germinal-centre-derived B cells."
+  - target: 01-human/03-molecular/cdkn2a
+    relation: connects-to
+    note: "Cell-cycle brake lost: CDKN2A deletion is frequent in PCNSL, removing a key cell-cycle checkpoint and conferring a poorer prognosis."
+  - target: 01-human/03-molecular/ezh2
+    relation: connects-to
+    note: "Germinal-centre epigenetics: EZH2 enforces the proliferative, anti-differentiation chromatin programme of the germinal-centre B cells from which PCNSL arises."
 ---
 
 # Primary CNS Lymphoma
@@ -465,6 +474,9 @@ Score 0-1: 2-year OS ~80%; Score 2-3: ~48%; Score 4-5: ~15%
 - `connects-to` → **[Cryptococcus neoformans](../../../02-pathogen/03-fungi/cryptococcus-neoformans/README.md)** — An infectious mass mimic: in an HIV or immunosuppressed patient, a brain lesion's differential includes cryptococcoma alongside toxoplasmosis and PCNSL, so biopsy and CSF studies are needed to tell tumour from infection.
 - `connects-to` → **[Systemic Lupus Erythematosus](../systemic-lupus-erythematosus/README.md)** — Iatrogenic lymphoma: long-term immunosuppression for autoimmune diseases such as lupus predisposes to EBV-driven CNS lymphoproliferative disease, an immunodeficiency-associated route to PCNSL like that seen with methotrexate.
 - `connects-to` → **[Arterial Wall](../../05-tissue/arterial-wall/README.md)** — Angiocentric growth: PCNSL characteristically grows in perivascular cuffs around cerebral vessels, infiltrating the arterial wall and Virchow-Robin spaces, a pattern that helps distinguish it from glioma at biopsy.
+- `connects-to` → **[FOXO1](../../03-molecular/foxo1/README.md)** — Recurrent driver: FOXO1 mutations recur in primary CNS lymphoma, dysregulating this transcription factor in the malignant germinal-centre-derived B cells.
+- `connects-to` → **[CDKN2A](../../03-molecular/cdkn2a/README.md)** — Cell-cycle brake lost: CDKN2A deletion is frequent in PCNSL, removing a key cell-cycle checkpoint and conferring a poorer prognosis.
+- `connects-to` → **[EZH2](../../03-molecular/ezh2/README.md)** — Germinal-centre epigenetics: EZH2 enforces the proliferative, anti-differentiation chromatin programme of the germinal-centre B cells from which PCNSL arises.
 
 [^bromberg-2019-hovon105]: Bromberg JE, Issa S, Bakunina K, et al. Rituximab in patients with primary CNS lymphoma (HOVON 105/ALLG NHL 24): a randomised, open-label, phase 3 intergroup study. *Lancet Oncol.* 2019;20(2):216-228. [doi:10.1016/S1470-2045(18)30747-2](https://doi.org/10.1016/S1470-2045(18)30747-2) · [PubMed 30528440](https://pubmed.ncbi.nlm.nih.gov/30528440/)
 [^grommes-2017-ibrutinib-pcnsl]: Grommes C, Pastore A, Palaskas N, et al. Ibrutinib unmasks critical role of Bruton tyrosine kinase in primary CNS lymphoma. *Cancer Cell.* 2017;31(6):833-843. [doi:10.1016/j.ccell.2017.04.012](https://doi.org/10.1016/j.ccell.2017.04.012) · [PubMed 28552327](https://pubmed.ncbi.nlm.nih.gov/28552327/)

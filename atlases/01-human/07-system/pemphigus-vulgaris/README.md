@@ -274,6 +274,15 @@ cross_links:
   - target: 01-human/07-system/covid-19-disease
     relation: connects-to
     note: "Immunosuppressed and exposed: the rituximab and corticosteroids used to control pemphigus deplete B cells and blunt vaccine responses, leaving patients vulnerable to severe and prolonged COVID-19."
+  - target: 01-human/03-molecular/cdh1
+    relation: connects-to
+    note: "Adhesion molecule overlap: beyond desmoglein-3, E-cadherin (CDH1) maintains keratinocyte adhesion and is a reported pemphigus autoantigen, widening the loss of cell-cell cohesion that causes blistering."
+  - target: 01-human/03-molecular/ifn-gamma
+    relation: connects-to
+    note: "Th1 contribution: alongside the Th2 response, IFN-γ-producing T cells help drive the autoimmune attack on desmogleins in pemphigus vulgaris."
+  - target: 01-human/03-molecular/il-1b
+    relation: connects-to
+    note: "Inflammatory amplification: IL-1β and other inflammatory cytokines released in pemphigus lesions amplify keratinocyte injury and blister formation."
 ---
 
 # Pemphigus Vulgaris
@@ -503,6 +512,9 @@ Pemphigus belongs to the **pemphigus group of autoimmune bullous diseases** (AIB
 - `connects-to` → **[Waldenström Macroglobulinemia](../waldenstrom-macroglobulinemia/README.md)** — Another lymphoproliferative trigger: Waldenstrom macroglobulinaemia and other low-grade B-cell neoplasms can underlie paraneoplastic pemphigus, so a new severe pemphigus in an older adult warrants a search for occult lymphoma.
 - `connects-to` → **[ANCA Vasculitis](../anca-vasculitis/README.md)** — B-cell depletion across autoimmunity: like ANCA vasculitis, pemphigus vulgaris is an autoantibody-mediated disease for which rituximab (anti-CD20) is now first-line, showcasing B-cell-targeted therapy beyond cancer.
 - `connects-to` → **[COVID-19 Disease](../covid-19-disease/README.md)** — Immunosuppressed and exposed: the rituximab and corticosteroids used to control pemphigus deplete B cells and blunt vaccine responses, leaving patients vulnerable to severe and prolonged COVID-19.
+- `connects-to` → **[CDH1](../../03-molecular/cdh1/README.md)** — Adhesion molecule overlap: beyond desmoglein-3, E-cadherin (CDH1) maintains keratinocyte adhesion and is a reported pemphigus autoantigen, widening the loss of cell-cell cohesion that causes blistering.
+- `connects-to` → **[IFN-γ](../../03-molecular/ifn-gamma/README.md)** — Th1 contribution: alongside the Th2 response, IFN-γ-producing T cells help drive the autoimmune attack on desmogleins in pemphigus vulgaris.
+- `connects-to` → **[IL-1β](../../03-molecular/il-1b/README.md)** — Inflammatory amplification: IL-1β and other inflammatory cytokines released in pemphigus lesions amplify keratinocyte injury and blister formation.
 
 ---
 
