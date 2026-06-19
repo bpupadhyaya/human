@@ -277,6 +277,15 @@ cross_links:
   - target: 01-human/07-system/idh-mutant-glioma
     relation: connects-to
     note: "Epigenetic contrast: like ATRT, IDH-mutant glioma is fundamentally an epigenetic disease, but driven by oncometabolite-mediated DNA hypermethylation rather than SWI/SNF chromatin-remodeller loss."
+  - target: 01-human/03-molecular/akt
+    relation: connects-to
+    note: "Growth signalling: SMARCB1 loss in ATRT activates PI3K/AKT signalling, driving the survival and proliferation that make this aggressive infant brain tumour so rapidly fatal."
+  - target: 01-human/03-molecular/hif-1alpha
+    relation: connects-to
+    note: "Tumour hypoxia: HIF-1α stabilised in the rapidly growing, hypoxic ATRT promotes the VEGF angiogenesis that feeds its aggressive expansion."
+  - target: 01-human/03-molecular/tert
+    relation: connects-to
+    note: "Replicative immortality: TERT reactivation maintains telomeres in ATRT cells, granting the limitless proliferation needed to sustain this fast-growing embryonal tumour."
 ---
 
 # Atypical Teratoid/Rhabdoid Tumor
@@ -482,6 +491,9 @@ AT/RT has no established standard of care; protocols are protocol-driven and cen
 - `connects-to` → **[Cyclin D1](../../03-molecular/cyclin-d1/README.md)** — Cyclin D1 dependence: loss of SMARCB1 derepresses cyclin D1, driving the CDK4/6-fuelled cell cycle and making ATRT cells dependent on this axis—the rationale for CDK4/6 inhibition.
 - `connects-to` → **[Wnt/β-catenin](../../03-molecular/wnt-beta-catenin/README.md)** — Aberrant Wnt signalling: SMARCB1 loss can derepress Wnt/β-catenin target genes, an oncogenic signalling pathway contributing to rhabdoid tumour proliferation distinct from the cell-cycle axis.
 - `connects-to` → **[IDH-Mutant Glioma](../idh-mutant-glioma/README.md)** — Epigenetic contrast: like ATRT, IDH-mutant glioma is fundamentally an epigenetic disease, but driven by oncometabolite-mediated DNA hypermethylation rather than SWI/SNF chromatin-remodeller loss.
+- `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — Growth signalling: SMARCB1 loss in ATRT activates PI3K/AKT signalling, driving the survival and proliferation that make this aggressive infant brain tumour so rapidly fatal.
+- `connects-to` → **[HIF-1α](../../03-molecular/hif-1alpha/README.md)** — Tumour hypoxia: HIF-1α stabilised in the rapidly growing, hypoxic ATRT promotes the VEGF angiogenesis that feeds its aggressive expansion.
+- `connects-to` → **[TERT](../../03-molecular/tert/README.md)** — Replicative immortality: TERT reactivation maintains telomeres in ATRT cells, granting the limitless proliferation needed to sustain this fast-growing embryonal tumour.
 
 ---
 

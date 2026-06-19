@@ -277,6 +277,15 @@ cross_links:
   - target: 01-human/03-molecular/pten
     relation: connects-to
     note: "PI3K-AKT crosstalk: loss of the PTEN tumour suppressor activates PI3K-AKT-mTOR signalling that cooperates with Hedgehog in basal cell carcinoma and is implicated in resistance to SMO inhibitors."
+  - target: 01-human/03-molecular/myc
+    relation: connects-to
+    note: "Hedgehog target: GLI-driven Hedgehog signalling upregulates MYC in basal cell carcinoma, coupling the pathway's activation to the proliferative drive of the tumour."
+  - target: 01-human/03-molecular/ezh2
+    relation: connects-to
+    note: "Epigenetic silencing: EZH2-containing PRC2 represses tumour-suppressor genes in basal cell carcinoma, an epigenetic mechanism cooperating with Hedgehog activation."
+  - target: 01-human/03-molecular/fgfr
+    relation: connects-to
+    note: "Alternative growth signal: FGFR signalling contributes to basal cell carcinoma proliferation and is among the bypass pathways implicated in resistance to Hedgehog-pathway inhibitors."
 ---
 
 # Basal Cell Carcinoma
@@ -485,6 +494,9 @@ BCC has a complex immune microenvironment:
 - `connects-to` → **[SUFU](../../03-molecular/sufu/README.md)** — Hedgehog brake released: SUFU negatively regulates Hedgehog signalling downstream of SMO, and germline SUFU mutations predispose to basal cell carcinoma and medulloblastoma, overlapping Gorlin syndrome.
 - `connects-to` → **[YAP1](../../03-molecular/yap1/README.md)** — Hippo-YAP cooperation: nuclear YAP from a deregulated Hippo pathway drives basal cell carcinoma proliferation and cooperates with Hedgehog signalling to sustain tumour growth.
 - `connects-to` → **[PTEN](../../03-molecular/pten/README.md)** — PI3K-AKT crosstalk: loss of the PTEN tumour suppressor activates PI3K-AKT-mTOR signalling that cooperates with Hedgehog in basal cell carcinoma and is implicated in resistance to SMO inhibitors.
+- `connects-to` → **[MYC](../../03-molecular/myc/README.md)** — Hedgehog target: GLI-driven Hedgehog signalling upregulates MYC in basal cell carcinoma, coupling the pathway's activation to the proliferative drive of the tumour.
+- `connects-to` → **[EZH2](../../03-molecular/ezh2/README.md)** — Epigenetic silencing: EZH2-containing PRC2 represses tumour-suppressor genes in basal cell carcinoma, an epigenetic mechanism cooperating with Hedgehog activation.
+- `connects-to` → **[FGFR](../../03-molecular/fgfr/README.md)** — Alternative growth signal: FGFR signalling contributes to basal cell carcinoma proliferation and is among the bypass pathways implicated in resistance to Hedgehog-pathway inhibitors.
 
 ---
 
