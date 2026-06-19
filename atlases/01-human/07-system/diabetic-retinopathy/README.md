@@ -250,6 +250,15 @@ cross_links:
   - target: 03-medicine/01-modern/04-cardio/ace-inhibitors
     relation: connects-to
     note: "Blocking the renin system slows it: tight blood-pressure control, particularly with ACE inhibitors that also blunt local renin-angiotensin signalling in the retina, reduces the progression of diabetic retinopathy."
+  - target: 01-human/07-system/polycythemia-vera
+    relation: connects-to
+    note: "Thick blood blurs the retina too: polycythaemia vera and other hyperviscosity states cause a retinopathy with engorged tortuous veins and haemorrhages that resembles diabetic retinopathy—different cause, similar retinal vascular damage."
+  - target: 01-human/05-tissue/synapse
+    relation: connects-to
+    note: "It is also a neurodegeneration: before the microvascular signs, diabetic retinopathy quietly kills retinal neurons and their synapses, an early neurodegenerative component now recognised alongside the vascular leak and ischaemia."
+  - target: 01-human/05-tissue/arterial-wall
+    relation: connects-to
+    note: "The retina mirrors the arteries: diabetic retinal microvascular damage signals systemic vascular injury, and retinopathy predicts stroke and coronary disease, making the eye a window onto the health of the arterial wall."
 ---
 
 # Diabetic Retinopathy
@@ -437,6 +446,9 @@ DR encompasses a spectrum from subtle vascular changes to sight-threatening neov
 - `connects-to` → **[Dexamethasone](../../../03-medicine/01-modern/12-anti-inflammatory/dexamethasone/README.md)** — Sustained-release steroids for the oedema: intravitreal dexamethasone implants and triamcinolone reduce diabetic macular oedema by calming inflammation and VEGF, a second-line option when repeated anti-VEGF injections are insufficient.
 - `connects-to` → **[Glomerulus](../../05-tissue/glomerulus/README.md)** — The retina and kidney share a microangiopathy: the same hyperglycaemic capillary damage — basement-membrane thickening, pericyte loss and leak — strikes the retina and the renal glomerulus together, so retinopathy predicts diabetic nephropathy.
 - `connects-to` → **[ACE Inhibitors](../../../03-medicine/01-modern/04-cardio/ace-inhibitors/README.md)** — Blocking the renin system slows it: tight blood-pressure control, particularly with ACE inhibitors that also blunt local renin-angiotensin signalling in the retina, reduces the progression of diabetic retinopathy.
+- `connects-to` → **[Polycythemia Vera](../polycythemia-vera/README.md)** — Thick blood blurs the retina too: polycythaemia vera and other hyperviscosity states cause a retinopathy with engorged tortuous veins and haemorrhages that resembles diabetic retinopathy—different cause, similar retinal vascular damage.
+- `connects-to` → **[Synapse](../../05-tissue/synapse/README.md)** — It is also a neurodegeneration: before the microvascular signs, diabetic retinopathy quietly kills retinal neurons and their synapses, an early neurodegenerative component now recognised alongside the vascular leak and ischaemia.
+- `connects-to` → **[Arterial Wall](../../05-tissue/arterial-wall/README.md)** — The retina mirrors the arteries: diabetic retinal microvascular damage signals systemic vascular injury, and retinopathy predicts stroke and coronary disease, making the eye a window onto the health of the arterial wall.
 
 [^fong-2004-dr-review]: Fong DS, Aiello L, Gardner TW, et al. Diabetic retinopathy. *Diabetes Care.* 2004;27(10):2540-2553. [doi:10.2337/diacare.27.10.2540](https://doi.org/10.2337/diacare.27.10.2540) · [PubMed 15451934](https://pubmed.ncbi.nlm.nih.gov/15451934/)
 [^brown-2015-aflibercept-protocol-t]: Diabetic Retinopathy Clinical Research Network; Wells JA, Glassman AR, et al. Aflibercept, Bevacizumab, or Ranibizumab for Diabetic Macular Edema. *N Engl J Med.* 2015;372(13):1193-1203. [doi:10.1056/NEJMoa1414264](https://doi.org/10.1056/NEJMoa1414264) · [PubMed 25692915](https://pubmed.ncbi.nlm.nih.gov/25692915/)
