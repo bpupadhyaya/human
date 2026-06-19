@@ -268,6 +268,15 @@ cross_links:
   - target: 01-human/07-system/covid-19-disease
     relation: connects-to
     note: "Stacked thrombotic risk: the JAK2-driven hypercoagulable state of myeloproliferative neoplasms compounds the thrombo-inflammation of COVID-19, raising the risk of arterial and venous clots during infection."
+  - target: 01-human/03-molecular/type-i-interferon
+    relation: connects-to
+    note: "Clone-reducing therapy: pegylated interferon-alpha is a disease-modifying treatment for myeloproliferative neoplasms that can shrink the JAK2/CALR-mutant clone and induce molecular responses."
+  - target: 01-human/03-molecular/ezh2
+    relation: connects-to
+    note: "Epigenetic progression: EZH2 and other epigenetic-regulator mutations accumulate in myeloproliferative neoplasms and drive progression toward myelofibrosis and acute leukaemia."
+  - target: 01-human/03-molecular/il-1b
+    relation: connects-to
+    note: "Inflammatory niche: IL-1β secreted by the mutant clone damages the bone-marrow stroma, promoting the fibrosis and clonal advantage that mark myeloproliferative neoplasm progression."
 ---
 
 # Myeloproliferative Neoplasms
@@ -495,6 +504,9 @@ In PV and ET, JAK2 V617F also affects myeloid progenitors → granulocytosis and
 - `connects-to` → **[Von Willebrand Factor](../../03-molecular/von-willebrand-factor/README.md)** — Bleeding amid thrombosis: extreme thrombocytosis in essential thrombocythaemia adsorbs and clears high-molecular-weight von Willebrand multimers, causing an acquired von Willebrand syndrome that bleeds paradoxically in a prothrombotic disease.
 - `connects-to` → **[Glomerulus](../../05-tissue/glomerulus/README.md)** — MPN nephropathy: chronic myeloproliferative neoplasms cause a distinctive glomerulopathy with mesangial sclerosis and proteinuria, megakaryocytes and platelet-derived factors injuring the glomerulus over time.
 - `connects-to` → **[COVID-19 Disease](../covid-19-disease/README.md)** — Stacked thrombotic risk: the JAK2-driven hypercoagulable state of myeloproliferative neoplasms compounds the thrombo-inflammation of COVID-19, raising the risk of arterial and venous clots during infection.
+- `connects-to` → **[Type I Interferon](../../03-molecular/type-i-interferon/README.md)** — Clone-reducing therapy: pegylated interferon-alpha is a disease-modifying treatment for myeloproliferative neoplasms that can shrink the JAK2/CALR-mutant clone and induce molecular responses.
+- `connects-to` → **[EZH2](../../03-molecular/ezh2/README.md)** — Epigenetic progression: EZH2 and other epigenetic-regulator mutations accumulate in myeloproliferative neoplasms and drive progression toward myelofibrosis and acute leukaemia.
+- `connects-to` → **[IL-1β](../../03-molecular/il-1b/README.md)** — Inflammatory niche: IL-1β secreted by the mutant clone damages the bone-marrow stroma, promoting the fibrosis and clonal advantage that mark myeloproliferative neoplasm progression.
 
 [^verstovsek-2012-comfort-i]: Verstovsek S, Mesa RA, Gotlib J, et al. A double-blind, placebo-controlled trial of ruxolitinib for myelofibrosis. *N Engl J Med.* 2012;366(9):799-807. [doi:10.1056/NEJMoa1110557](https://doi.org/10.1056/NEJMoa1110557) · [PubMed 22375971](https://pubmed.ncbi.nlm.nih.gov/22375971/)
 [^vannucchi-2015-response]: Vannucchi AM, Kiladjian JJ, Griesshammer M, et al. Ruxolitinib versus standard therapy for the treatment of polycythemia vera. *N Engl J Med.* 2015;372(5):426-435. [doi:10.1056/NEJMoa1409002](https://doi.org/10.1056/NEJMoa1409002) · [PubMed 25426978](https://pubmed.ncbi.nlm.nih.gov/25426978/)
