@@ -276,6 +276,15 @@ cross_links:
   - target: 01-human/07-system/waldenstrom-macroglobulinemia
     relation: connects-to
     note: "Secondary ITP from lymphoma: low-grade B-cell malignancies like Waldenstrom macroglobulinaemia can drive autoimmune platelet destruction, so a new ITP in an older adult warrants screening for an underlying lymphoproliferative disorder."
+  - target: 02-pathogen/01-viruses/hiv-1
+    relation: connects-to
+    note: "HIV-associated ITP: HIV is a recognised cause of secondary immune thrombocytopenia, sometimes its presenting feature, and the platelet count often improves with antiretroviral therapy."
+  - target: 01-human/03-molecular/ifn-gamma
+    relation: connects-to
+    note: "Th1-skewed autoimmunity: an IFN-γ-dominated cytokine profile drives the autoreactive T-cell help and macrophage activation that destroy antibody-coated platelets in ITP."
+  - target: 01-human/03-molecular/baff
+    relation: connects-to
+    note: "B-cell survival factor: BAFF sustains the autoreactive B cells producing anti-platelet antibodies in ITP, part of the rationale for B-cell-directed therapy."
 ---
 
 # Immune Thrombocytopenia
@@ -497,6 +506,9 @@ ITP in pregnancy carries risk of neonatal thrombocytopenia (maternal IgG crosses
 - `connects-to` → **[Myelofibrosis](../myelofibrosis/README.md)** — Central versus peripheral: myelofibrosis crowds out megakaryocytes for a production-failure low platelet count, the marrow-failure differential to distinguish from the peripheral antibody-mediated platelet destruction of ITP.
 - `connects-to` → **[Dengue Fever](../dengue-fever/README.md)** — Infection-driven thrombocytopenia: dengue causes profound platelet falls through immune-mediated destruction and marrow suppression, a leading infectious mimic of ITP in endemic regions.
 - `connects-to` → **[Waldenström Macroglobulinemia](../waldenstrom-macroglobulinemia/README.md)** — Secondary ITP from lymphoma: low-grade B-cell malignancies like Waldenstrom macroglobulinaemia can drive autoimmune platelet destruction, so a new ITP in an older adult warrants screening for an underlying lymphoproliferative disorder.
+- `connects-to` → **[HIV-1](../../../02-pathogen/01-viruses/hiv-1/README.md)** — HIV-associated ITP: HIV is a recognised cause of secondary immune thrombocytopenia, sometimes its presenting feature, and the platelet count often improves with antiretroviral therapy.
+- `connects-to` → **[IFN-γ](../../03-molecular/ifn-gamma/README.md)** — Th1-skewed autoimmunity: an IFN-γ-dominated cytokine profile drives the autoreactive T-cell help and macrophage activation that destroy antibody-coated platelets in ITP.
+- `connects-to` → **[BAFF](../../03-molecular/baff/README.md)** — B-cell survival factor: BAFF sustains the autoreactive B cells producing anti-platelet antibodies in ITP, part of the rationale for B-cell-directed therapy.
 
 [^cines-2002-itp-review]: Cines DB, Blanchette VS. Immune thrombocytopenic purpura. *N Engl J Med.* 2002;346(13):995-1008. [doi:10.1056/NEJMra010532](https://doi.org/10.1056/NEJMra010532) · [PubMed 11919310](https://pubmed.ncbi.nlm.nih.gov/11919310/)
 [^neunert-2019-ash-itp-guidelines]: Neunert C, et al. American Society of Hematology 2019 guidelines for immune thrombocytopenia. *Blood Adv.* 2019;3(23):3829-3866. [doi:10.1182/bloodadvances.2019000966](https://doi.org/10.1182/bloodadvances.2019000966) · [PubMed 31794604](https://pubmed.ncbi.nlm.nih.gov/31794604/)

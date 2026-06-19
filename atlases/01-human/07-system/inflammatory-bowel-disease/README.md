@@ -274,6 +274,15 @@ cross_links:
   - target: 01-human/05-tissue/germinal-center
     relation: connects-to
     note: "Aberrant mucosal antibody factories: chronic IBD spawns ectopic lymphoid follicles with active germinal centres in the inflamed gut wall, fuelling the local plasma-cell and autoantibody responses that sustain the disease."
+  - target: 01-human/03-molecular/il-6
+    relation: connects-to
+    note: "IL-6-STAT3 inflammation: IL-6 signalling through STAT3 sustains mucosal inflammation in IBD and renders lamina propria T cells resistant to apoptosis, perpetuating the disease."
+  - target: 01-human/03-molecular/tgf-beta
+    relation: connects-to
+    note: "Fibrosis and stricturing: TGF-β drives the intestinal fibrosis behind the strictures of Crohn's disease, with the SMAD7 antagonist concept aimed at restoring its anti-inflammatory signalling."
+  - target: 01-human/03-molecular/leptin
+    relation: connects-to
+    note: "Creeping fat: hypertrophied mesenteric adipose ('creeping fat') wrapping inflamed Crohn's bowel secretes leptin and other adipokines that modulate local gut inflammation."
 ---
 
 # Inflammatory Bowel Disease
@@ -487,6 +496,9 @@ IBD is a complex polygenic disease with >240 susceptibility loci (GWAS):
 - `connects-to` → **[Type 1 Diabetes](../type-1-diabetes/README.md)** — Autoimmune clustering: inflammatory bowel disease and type 1 diabetes co-occur more than chance through shared HLA and immune-susceptibility loci, part of the broader tendency of organ-specific autoimmune diseases to aggregate.
 - `connects-to` → **[NASH](../nash/README.md)** — The liver comorbidity: non-alcoholic steatohepatitis is the commonest liver disease in IBD, driven by chronic inflammation, corticosteroids and metabolic disturbance rather than the bile-duct disease of associated cholangitis.
 - `connects-to` → **[Germinal Center](../../05-tissue/germinal-center/README.md)** — Aberrant mucosal antibody factories: chronic IBD spawns ectopic lymphoid follicles with active germinal centres in the inflamed gut wall, fuelling the local plasma-cell and autoantibody responses that sustain the disease.
+- `connects-to` → **[IL-6](../../03-molecular/il-6/README.md)** — IL-6-STAT3 inflammation: IL-6 signalling through STAT3 sustains mucosal inflammation in IBD and renders lamina propria T cells resistant to apoptosis, perpetuating the disease.
+- `connects-to` → **[TGF-β](../../03-molecular/tgf-beta/README.md)** — Fibrosis and stricturing: TGF-β drives the intestinal fibrosis behind the strictures of Crohn's disease, with the SMAD7 antagonist concept aimed at restoring its anti-inflammatory signalling.
+- `connects-to` → **[Leptin](../../03-molecular/leptin/README.md)** — Creeping fat: hypertrophied mesenteric adipose ('creeping fat') wrapping inflamed Crohn's bowel secretes leptin and other adipokines that modulate local gut inflammation.
 
 [^ng-2017-ibd-epidemiology]: Ng SC, Shi HY, Hamidi N, et al. Worldwide incidence and prevalence of inflammatory bowel disease in the 21st century: a systematic review of population-based studies. *Lancet.* 2018;390(10114):2769-2778. [doi:10.1016/S0140-6736(17)32448-0](https://doi.org/10.1016/S0140-6736(17)32448-0) · [PubMed 29050646](https://pubmed.ncbi.nlm.nih.gov/29050646/)
 [^sandborn-2012-vedolizumab]: Feagan BG, Rutgeerts P, Sands BE, et al. Vedolizumab as induction and maintenance therapy for ulcerative colitis. *N Engl J Med.* 2013;369(8):699-710. [doi:10.1056/NEJMoa1215734](https://doi.org/10.1056/NEJMoa1215734) · [PubMed 23964932](https://pubmed.ncbi.nlm.nih.gov/23964932/)
