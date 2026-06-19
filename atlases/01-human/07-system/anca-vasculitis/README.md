@@ -262,6 +262,15 @@ cross_links:
   - target: 01-human/07-system/iga-nephropathy
     relation: connects-to
     note: "Two faces of glomerulonephritis: ANCA vasculitis causes a pauci-immune crescentic glomerulonephritis with scant deposits, whereas IgA nephropathy is an immune-complex disease with mesangial IgA — contrasting mechanisms of the same renal emergency."
+  - target: 01-human/05-tissue/arterial-wall
+    relation: connects-to
+    note: "Small-vessel vasculitis: ANCA-activated neutrophils degranulate on the walls of small arteries, capillaries and venules, causing the fibrinoid necrosis and vessel destruction that define the disease."
+  - target: 01-human/05-tissue/intestinal-epithelium
+    relation: connects-to
+    note: "Gut vasculitis: mesenteric small-vessel involvement, especially in granulomatosis with polyangiitis and EGPA, causes bowel ischaemia, ulceration and, rarely, perforation."
+  - target: 01-human/07-system/stimulant-use-disorder
+    relation: connects-to
+    note: "Drug-induced ANCA vasculitis: levamisole, a common cocaine adulterant, triggers an ANCA-positive vasculitis with skin necrosis and neutropenia—a drug-induced mimic to recognise in stimulant users."
 ---
 
 # ANCA Vasculitis
@@ -475,6 +484,9 @@ EGPA is mechanistically distinct — eosinophils, not neutrophils, mediate tissu
 - `connects-to` → **[Targeted Therapy](../../../03-medicine/01-modern/13-cancer/targeted-therapy/README.md)** — Biologics reshaped its treatment: rituximab against CD20 induces and maintains remission, avacopan blocks the C5a receptor to spare steroids, and mepolizumab against IL-5 treats eosinophilic GPA — targeted therapies for ANCA vasculitis.
 - `connects-to` → **[Cancer Chemotherapy](../../../03-medicine/01-modern/13-cancer/cancer-chemotherapy/README.md)** — Cyclophosphamide induces, at a cost: cyclophosphamide remains a mainstay for organ-threatening ANCA vasculitis, but its bladder toxicity and later bladder-cancer risk push earlier use of rituximab where possible.
 - `connects-to` → **[IgA Nephropathy](../iga-nephropathy/README.md)** — Two faces of glomerulonephritis: ANCA vasculitis causes a pauci-immune crescentic glomerulonephritis with scant deposits, whereas IgA nephropathy is an immune-complex disease with mesangial IgA — contrasting mechanisms of the same renal emergency.
+- `connects-to` → **[Arterial Wall](../../05-tissue/arterial-wall/README.md)** — Small-vessel vasculitis: ANCA-activated neutrophils degranulate on the walls of small arteries, capillaries and venules, causing the fibrinoid necrosis and vessel destruction that define the disease.
+- `connects-to` → **[Intestinal Epithelium](../../05-tissue/intestinal-epithelium/README.md)** — Gut vasculitis: mesenteric small-vessel involvement, especially in granulomatosis with polyangiitis and EGPA, causes bowel ischaemia, ulceration and, rarely, perforation.
+- `connects-to` → **[Stimulant Use Disorder](../stimulant-use-disorder/README.md)** — Drug-induced ANCA vasculitis: levamisole, a common cocaine adulterant, triggers an ANCA-positive vasculitis with skin necrosis and neutropenia—a drug-induced mimic to recognise in stimulant users.
 
 [^yates-2022-anca-review]: Yates M, Watts RA, Bajema IM, et al. EULAR/ERA-EDTA recommendations for the management of ANCA-associated vasculitis. *Ann Rheum Dis.* 2016;75(9):1583-1594. [doi:10.1136/annrheumdis-2016-209133](https://doi.org/10.1136/annrheumdis-2016-209133) · [PubMed 27338776](https://pubmed.ncbi.nlm.nih.gov/27338776/)
 [^stone-2010-rituximab-gpa-rave]: Stone JH, Merkel PA, Spiera R, et al. Rituximab versus cyclophosphamide for ANCA-associated vasculitis. *N Engl J Med.* 2010;363(3):221-232. [doi:10.1056/NEJMoa0909905](https://doi.org/10.1056/NEJMoa0909905) · [PubMed 20647199](https://pubmed.ncbi.nlm.nih.gov/20647199/)

@@ -250,6 +250,15 @@ cross_links:
   - target: 01-human/05-tissue/hepatic-lobule
     relation: connects-to
     note: "Hepatitis can precede it: a seronegative hepatitis that injures the liver lobule is a recognised trigger of post-hepatitic aplastic anaemia, where an immune attack on the marrow follows the liver inflammation weeks later."
+  - target: 01-human/07-system/iron-deficiency-anemia
+    relation: connects-to
+    note: "Opposite anaemias: aplastic anaemia fails to make blood cells (pancytopenia) while iron-deficiency anaemia lacks the iron to build haemoglobin—and repeated transfusions for aplastic anaemia ironically cause iron overload."
+  - target: 01-human/05-tissue/intestinal-epithelium
+    relation: connects-to
+    note: "Neutropenic gut infection: profound neutropenia in aplastic anaemia lets gut bacteria invade the bowel wall, causing typhlitis and a major route of life-threatening sepsis."
+  - target: 01-human/07-system/sickle-cell-disease
+    relation: connects-to
+    note: "Parvovirus aplastic crisis: parvovirus B19 transiently shuts down red-cell production, causing a sudden severe anaemia in sickle cell disease—a focused red-cell aplasia distinct from the global marrow failure of aplastic anaemia."
 ---
 
 # Aplastic Anemia
@@ -440,6 +449,9 @@ In >80% of acquired AA cases, the disease is **immune-mediated**: autoreactive *
 - `connects-to` → **[Targeted Therapy](../../../03-medicine/01-modern/13-cancer/targeted-therapy/README.md)** — Eltrombopag revived its treatment: the thrombopoietin-receptor agonist eltrombopag restores trilineage haematopoiesis in aplastic anaemia, added to the antithymocyte globulin and ciclosporin immunosuppression that targets the marrow-destroying T cells.
 - `connects-to` → **[Thalassemia](../thalassemia/README.md)** — Two routes to transfusion dependence: aplastic anaemia is an empty, failed marrow, whereas thalassaemia is a genetic globin defect with a hyperactive but ineffective marrow — opposite marrow states converging on lifelong transfusion.
 - `connects-to` → **[Hepatic Lobule](../../05-tissue/hepatic-lobule/README.md)** — Hepatitis can precede it: a seronegative hepatitis that injures the liver lobule is a recognised trigger of post-hepatitic aplastic anaemia, where an immune attack on the marrow follows the liver inflammation weeks later.
+- `connects-to` → **[Iron Deficiency Anemia](../iron-deficiency-anemia/README.md)** — Opposite anaemias: aplastic anaemia fails to make blood cells (pancytopenia) while iron-deficiency anaemia lacks the iron to build haemoglobin—and repeated transfusions for aplastic anaemia ironically cause iron overload.
+- `connects-to` → **[Intestinal Epithelium](../../05-tissue/intestinal-epithelium/README.md)** — Neutropenic gut infection: profound neutropenia in aplastic anaemia lets gut bacteria invade the bowel wall, causing typhlitis and a major route of life-threatening sepsis.
+- `connects-to` → **[Sickle Cell Disease](../sickle-cell-disease/README.md)** — Parvovirus aplastic crisis: parvovirus B19 transiently shuts down red-cell production, causing a sudden severe anaemia in sickle cell disease—a focused red-cell aplasia distinct from the global marrow failure of aplastic anaemia.
 
 ---
 
