@@ -264,6 +264,15 @@ cross_links:
   - target: 01-human/07-system/measles
     relation: connects-to
     note: "Viruses that invade the brain: like measles—which causes acute encephalitis and the late, fatal SSPE—West Nile virus crosses into the CNS, the two showing viral neuroinvasion by different routes."
+  - target: 01-human/07-system/cidp
+    relation: connects-to
+    note: "Flaccid paralysis and demyelination: West Nile virus causes a poliomyelitis-like acute flaccid paralysis from anterior-horn injury and can also trigger a Guillain-Barré/demyelinating neuropathy on the CIDP spectrum."
+  - target: 01-human/07-system/malaria
+    relation: connects-to
+    note: "Vector-borne febrile differential: West Nile virus (Culex-borne) and malaria both present as acute mosquito-transmitted febrile illness, an overlapping differential in travellers and endemic regions."
+  - target: 01-human/05-tissue/alveolus
+    relation: connects-to
+    note: "Respiratory failure from paralysis: severe neuroinvasive West Nile virus can paralyse the diaphragm and respiratory muscles, leading to ventilator dependence and aspiration that injure the alveoli."
 ---
 
 # West Nile Virus
@@ -466,3 +475,6 @@ WNV has evolved a multilayered strategy to evade innate immunity:
 - `connects-to` → **[ALS](../als/README.md)** — A polio-like paralysis: West Nile virus can attack anterior-horn motor neurons, causing an acute asymmetric flaccid paralysis that resembles poliomyelitis and, in its motor-neuron targeting, the cells lost in ALS.
 - `connects-to` → **[Germinal Center](../../05-tissue/germinal-center/README.md)** — Antibody clears the virus: control of West Nile virus depends on neutralizing antibody matured in germinal centres, which is why B-cell-deficient and elderly patients suffer the severe neuroinvasive disease.
 - `connects-to` → **[Measles](../measles/README.md)** — Viruses that invade the brain: like measles—which causes acute encephalitis and the late, fatal SSPE—West Nile virus crosses into the CNS, the two showing viral neuroinvasion by different routes.
+- `connects-to` → **[CIDP](../cidp/README.md)** — Flaccid paralysis and demyelination: West Nile virus causes a poliomyelitis-like acute flaccid paralysis from anterior-horn injury and can also trigger a Guillain-Barré/demyelinating neuropathy on the CIDP spectrum.
+- `connects-to` → **[Malaria](../malaria/README.md)** — Vector-borne febrile differential: West Nile virus (Culex-borne) and malaria both present as acute mosquito-transmitted febrile illness, an overlapping differential in travellers and endemic regions.
+- `connects-to` → **[Alveolus](../../05-tissue/alveolus/README.md)** — Respiratory failure from paralysis: severe neuroinvasive West Nile virus can paralyse the diaphragm and respiratory muscles, leading to ventilator dependence and aspiration that injure the alveoli.

@@ -271,6 +271,15 @@ cross_links:
   - target: 01-human/06-organ/skin
     relation: connects-to
     note: "Systemic, not only renal: as a complement-driven thrombotic microangiopathy, aHUS can also injure the skin and gut with the same microthrombi, causing digital ischaemia and extrarenal organ damage in severe disease."
+  - target: 01-human/05-tissue/intestinal-epithelium
+    relation: connects-to
+    note: "The STEC-HUS differential: typical HUS follows Shiga-toxin E. coli colitis that damages the intestinal epithelium with bloody diarrhoea, the key diagnosis to distinguish from complement-driven, often diarrhoea-negative aHUS."
+  - target: 01-human/07-system/pancreatic-cancer
+    relation: connects-to
+    note: "Cancer-associated TMA: mucin-producing adenocarcinomas like pancreatic cancer and chemotherapies such as gemcitabine and mitomycin cause a secondary thrombotic microangiopathy that mimics aHUS but needs treating the cause."
+  - target: 01-human/05-tissue/cardiac-conduction-system
+    relation: connects-to
+    note: "Microthrombi in the heart: the complement-driven microangiopathy of aHUS lodges platelet-rich thrombi in the myocardium and its conduction system, causing arrhythmia and cardiac injury as extrarenal complications."
 ---
 
 # Atypical HUS
@@ -517,6 +526,9 @@ Repeated TMA episodes → glomerular fibrosis → CKD → ESRD
 - `connects-to` → **[Myasthenia Gravis](../myasthenia-gravis/README.md)** — A complement-therapy bridge: the anti-C5 drugs (eculizumab, ravulizumab) that control aHUS also treat complement-mediated diseases like myasthenia gravis, the same terminal pathway behind very different illnesses.
 - `connects-to` → **[IgA Nephropathy](../iga-nephropathy/README.md)** — Complement in the glomerulus: aHUS and IgA nephropathy both involve alternative-complement dysregulation injuring the glomerulus, and C5- and factor-B-targeted inhibitors are now used or trialled in both.
 - `connects-to` → **[Skin](../../06-organ/skin/README.md)** — Systemic, not only renal: as a complement-driven thrombotic microangiopathy, aHUS can also injure the skin and gut with the same microthrombi, causing digital ischaemia and extrarenal organ damage in severe disease.
+- `connects-to` → **[Intestinal Epithelium](../../05-tissue/intestinal-epithelium/README.md)** — The STEC-HUS differential: typical HUS follows Shiga-toxin E. coli colitis that damages the intestinal epithelium with bloody diarrhoea, the key diagnosis to distinguish from complement-driven, often diarrhoea-negative aHUS.
+- `connects-to` → **[Pancreatic Cancer](../pancreatic-cancer/README.md)** — Cancer-associated TMA: mucin-producing adenocarcinomas like pancreatic cancer and chemotherapies such as gemcitabine and mitomycin cause a secondary thrombotic microangiopathy that mimics aHUS but needs treating the cause.
+- `connects-to` → **[Cardiac Conduction System](../../05-tissue/cardiac-conduction-system/README.md)** — Microthrombi in the heart: the complement-driven microangiopathy of aHUS lodges platelet-rich thrombi in the myocardium and its conduction system, causing arrhythmia and cardiac injury as extrarenal complications.
 
 [^fakhouri-2017-ahus-lancet]: Fakhouri F, Zuber J, Frémeaux-Bacchi V, Loirat C. Haemolytic uraemic syndrome. *Lancet.* 2017;390(10095):681-696. [doi:10.1016/S0140-6736(17)30062-4](https://doi.org/10.1016/S0140-6736(17)30062-4) · [PubMed 28242109](https://pubmed.ncbi.nlm.nih.gov/28242109/)
 [^legendre-2013-eculizumab-ahus-nejm]: Legendre CM, Licht C, Muus P, et al. Terminal complement inhibitor eculizumab in atypical hemolytic-uremic syndrome. *N Engl J Med.* 2013;368(23):2169-2181. [doi:10.1056/NEJMoa1208981](https://doi.org/10.1056/NEJMoa1208981) · [PubMed 23738544](https://pubmed.ncbi.nlm.nih.gov/23738544/)
