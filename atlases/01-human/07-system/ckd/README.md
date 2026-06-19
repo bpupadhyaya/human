@@ -252,6 +252,15 @@ cross_links:
   - target: 03-medicine/01-modern/04-cardio/statins
     relation: connects-to
     note: "Cardiovascular risk dominates: CKD multiplies cardiovascular risk so much that statins reduce events in non-dialysis CKD (as in the SHARP trial), though the benefit attenuates once patients reach dialysis."
+  - target: 01-human/05-tissue/myocardium
+    relation: connects-to
+    note: "Uraemia weakens the heart muscle: CKD drives left ventricular hypertrophy and myocardial fibrosis through pressure-volume overload, FGF23 and uraemic toxins, making cardiac death the commonest outcome of kidney disease."
+  - target: 01-human/07-system/multiple-myeloma
+    relation: connects-to
+    note: "Light chains clog the kidney: multiple myeloma's monoclonal free light chains precipitate as casts (cast nephropathy) causing CKD, so unexplained renal failure with anaemia warrants a myeloma screen."
+  - target: 01-human/07-system/systemic-lupus-erythematosus
+    relation: connects-to
+    note: "Lupus nephritis scars the kidney: immune-complex glomerulonephritis is a leading cause of chronic kidney disease in young women with SLE, sometimes progressing to end-stage failure."
 ---
 
 # Chronic Kidney Disease
@@ -406,6 +415,9 @@ As nephron mass decreases, impaired renal functions accumulate:
 - `connects-to` → **[Cortical Bone](../../05-tissue/cortical-bone/README.md)** — It deranges the skeleton: CKD-mineral-bone disorder — phosphate retention, low vitamin D and secondary hyperparathyroidism with high FGF23 — weakens cortical bone as renal osteodystrophy, raising fracture risk.
 - `connects-to` → **[Arterial Wall](../../05-tissue/arterial-wall/README.md)** — It calcifies the arteries: disturbed calcium-phosphate balance in CKD drives medial vascular calcification of the arterial wall, stiffening vessels and accelerating the cardiovascular disease that kills most CKD patients.
 - `connects-to` → **[Statins](../../../03-medicine/01-modern/04-cardio/statins/README.md)** — Cardiovascular risk dominates: CKD multiplies cardiovascular risk so much that statins reduce events in non-dialysis CKD (as in the SHARP trial), though the benefit attenuates once patients reach dialysis.
+- `connects-to` → **[Myocardium](../../05-tissue/myocardium/README.md)** — Uraemia weakens the heart muscle: CKD drives left ventricular hypertrophy and myocardial fibrosis through pressure-volume overload, FGF23 and uraemic toxins, making cardiac death the commonest outcome of kidney disease.
+- `connects-to` → **[Multiple Myeloma](../multiple-myeloma/README.md)** — Light chains clog the kidney: multiple myeloma's monoclonal free light chains precipitate as casts (cast nephropathy) causing CKD, so unexplained renal failure with anaemia warrants a myeloma screen.
+- `connects-to` → **[Systemic Lupus Erythematosus](../systemic-lupus-erythematosus/README.md)** — Lupus nephritis scars the kidney: immune-complex glomerulonephritis is a leading cause of chronic kidney disease in young women with SLE, sometimes progressing to end-stage failure.
 
 ## Pathology
 

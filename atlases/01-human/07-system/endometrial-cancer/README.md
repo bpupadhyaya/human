@@ -247,6 +247,15 @@ cross_links:
   - target: 01-human/07-system/ovarian-clear-cell-carcinoma
     relation: connects-to
     note: "A shared ARID1A/endometriosis pathway: endometrioid and clear-cell cancers of both the uterus and ovary arise from endometriosis-like glands with ARID1A and PIK3CA mutations, linking these gynaecological malignancies mechanistically."
+  - target: 01-human/05-tissue/germinal-center
+    relation: connects-to
+    note: "Why it responds to immunotherapy: mismatch-repair-deficient (MSI-high) endometrial cancers—Lynch and sporadic—accumulate neoantigens and tertiary lymphoid structures with germinal-centre B cells, the immune richness behind checkpoint-inhibitor response."
+  - target: 01-human/07-system/gastric-cancer
+    relation: connects-to
+    note: "Two cancers of the Lynch spectrum: endometrial cancer is the sentinel Lynch-syndrome cancer in women and gastric cancer is another mismatch-repair-deficient Lynch tumour—shared MMR loss across the uterus and stomach."
+  - target: 01-human/05-tissue/arterial-wall
+    relation: connects-to
+    note: "Shared metabolic roots with heart disease: the obesity, insulin resistance and unopposed oestrogen that drive endometrial cancer also accelerate arterial-wall atherosclerosis, so cardiovascular disease is a leading cause of death in survivors."
 ---
 
 # Endometrial Cancer
@@ -448,6 +457,9 @@ cross_links:
 - `connects-to` → **[Cancer Chemotherapy](../../../03-medicine/01-modern/13-cancer/cancer-chemotherapy/README.md)** — Carboplatin-paclitaxel for advanced disease: while early endometrial cancer is cured by surgery, advanced and high-grade (serous, carcinosarcoma) disease relies on platinum-taxane chemotherapy, now often combined with immunotherapy.
 - `connects-to` → **[Cervical Cancer](../cervical-cancer/README.md)** — The two uterine cancers contrasted: endometrial cancer arises from the hormone-responsive uterine lining driven by unopposed oestrogen and obesity, whereas cervical cancer arises from HPV infection of the cervix — different organs, causes and prevention.
 - `connects-to` → **[Ovarian Clear Cell Carcinoma](../ovarian-clear-cell-carcinoma/README.md)** — A shared ARID1A/endometriosis pathway: endometrioid and clear-cell cancers of both the uterus and ovary arise from endometriosis-like glands with ARID1A and PIK3CA mutations, linking these gynaecological malignancies mechanistically.
+- `connects-to` → **[Germinal Center](../../05-tissue/germinal-center/README.md)** — Why it responds to immunotherapy: mismatch-repair-deficient (MSI-high) endometrial cancers—Lynch and sporadic—accumulate neoantigens and tertiary lymphoid structures with germinal-centre B cells, the immune richness behind checkpoint-inhibitor response.
+- `connects-to` → **[Gastric Cancer](../gastric-cancer/README.md)** — Two cancers of the Lynch spectrum: endometrial cancer is the sentinel Lynch-syndrome cancer in women and gastric cancer is another mismatch-repair-deficient Lynch tumour—shared MMR loss across the uterus and stomach.
+- `connects-to` → **[Arterial Wall](../../05-tissue/arterial-wall/README.md)** — Shared metabolic roots with heart disease: the obesity, insulin resistance and unopposed oestrogen that drive endometrial cancer also accelerate arterial-wall atherosclerosis, so cardiovascular disease is a leading cause of death in survivors.
 
 [^konstantinopoulos-2019-dostarlimab]: Konstantinopoulos PA, Lheureux S, Moore KN. PARP inhibitors for ovarian and endometrial cancers: state of the art and clinical perspectives. *J Clin Oncol.* 2020;38(25):2896-2909. [doi:10.1200/JCO.20.00571](https://doi.org/10.1200/JCO.20.00571) · [PubMed 32706635](https://pubmed.ncbi.nlm.nih.gov/32706635/)
 [^eskander-2023-ruby]: Eskander RN, Sill MW, Beffa L, et al. Pembrolizumab plus chemotherapy in advanced endometrial cancer. *N Engl J Med.* 2023;388(23):2159-2170. [doi:10.1056/NEJMoa2302312](https://doi.org/10.1056/NEJMoa2302312) · [PubMed 37166384](https://pubmed.ncbi.nlm.nih.gov/37166384/)
