@@ -277,6 +277,15 @@ cross_links:
   - target: 01-human/03-molecular/wnt-beta-catenin
     relation: connects-to
     note: "Plasticity and spread: Wnt/β-catenin signalling modulates EWS-FLI1 activity and promotes the phenotypic plasticity and metastasis that drive aggressive Ewing sarcoma."
+  - target: 01-human/03-molecular/akt
+    relation: connects-to
+    note: "Survival signalling: IGF-1R-driven PI3K/AKT signalling sustains Ewing sarcoma cell survival, cooperating with EWS-FLI1 and offering a combination therapeutic target."
+  - target: 01-human/03-molecular/pdgf
+    relation: connects-to
+    note: "Stromal growth factor: PDGF signalling, an EWS-FLI1 target, supports the autocrine growth and angiogenesis of Ewing sarcoma."
+  - target: 01-human/03-molecular/hif-1alpha
+    relation: connects-to
+    note: "Hypoxic aggression: HIF-1α stabilised in the hypoxic Ewing sarcoma enhances EWS-FLI1 activity and drives the angiogenesis and metastasis of more aggressive disease."
 ---
 
 # Ewing Sarcoma
@@ -486,6 +495,9 @@ After induction → surgical specimen assessed for percent tumor necrosis (Salze
 - `connects-to` → **[EZH2](../../03-molecular/ezh2/README.md)** — EWS-FLI1's epigenetic effector: the EWS-FLI1 fusion upregulates EZH2 to enforce the oncogenic, anti-differentiation chromatin programme of Ewing sarcoma, a candidate therapeutic target.
 - `connects-to` → **[MYC](../../03-molecular/myc/README.md)** — Fusion-driven oncogene: EWS-FLI1 activates MYC, whose proliferative transcriptional programme is essential to the rapid growth of Ewing sarcoma cells.
 - `connects-to` → **[Wnt/β-catenin](../../03-molecular/wnt-beta-catenin/README.md)** — Plasticity and spread: Wnt/β-catenin signalling modulates EWS-FLI1 activity and promotes the phenotypic plasticity and metastasis that drive aggressive Ewing sarcoma.
+- `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — Survival signalling: IGF-1R-driven PI3K/AKT signalling sustains Ewing sarcoma cell survival, cooperating with EWS-FLI1 and offering a combination therapeutic target.
+- `connects-to` → **[PDGF](../../03-molecular/pdgf/README.md)** — Stromal growth factor: PDGF signalling, an EWS-FLI1 target, supports the autocrine growth and angiogenesis of Ewing sarcoma.
+- `connects-to` → **[HIF-1α](../../03-molecular/hif-1alpha/README.md)** — Hypoxic aggression: HIF-1α stabilised in the hypoxic Ewing sarcoma enhances EWS-FLI1 activity and drives the angiogenesis and metastasis of more aggressive disease.
 
 ---
 
