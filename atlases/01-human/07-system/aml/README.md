@@ -250,6 +250,15 @@ cross_links:
   - target: 01-human/07-system/cll
     relation: connects-to
     note: "Myeloid versus lymphoid leukaemia: AML is an acute proliferation of myeloid blasts needing urgent intensive therapy, whereas CLL is an indolent accumulation of mature B-lymphocytes often watched for years — opposite poles of leukaemia in lineage and tempo."
+  - target: 01-human/07-system/cmml
+    relation: connects-to
+    note: "A pre-leukaemic myeloid neighbour: chronic myelomonocytic leukaemia, a myelodysplastic/myeloproliferative overlap, frequently transforms into AML and shares its TET2, ASXL1 and SRSF2 epigenetic mutations."
+  - target: 01-human/05-tissue/myocardium
+    relation: connects-to
+    note: "Its cure can scar the heart: anthracyclines like daunorubicin, central to AML induction, are cardiotoxic and damage the myocardium dose-dependently, leaving cardiomyopathy and heart failure as late effects in survivors."
+  - target: 01-human/07-system/ptcl
+    relation: connects-to
+    note: "Shared epigenetic mutations across lineages: angioimmunoblastic T-cell lymphoma carries the same TET2, DNMT3A and IDH2 mutations as AML, sometimes arising from a common clonal-haematopoiesis precursor in blood and lymph node."
 ---
 
 # AML
@@ -438,6 +447,9 @@ AML requires cooperative mutations in at least 2 functional categories (Gillilan
 - `connects-to` → **[Cancer Chemotherapy](../../../03-medicine/01-modern/13-cancer/cancer-chemotherapy/README.md)** — The 7+3 backbone: intensive induction with seven days of cytarabine and three of an anthracycline aims to clear the marrow of blasts, followed by consolidation or allogeneic transplant — the cytotoxic core of AML therapy for decades.
 - `connects-to` → **[Checkpoint Inhibitors](../../../03-medicine/01-modern/13-cancer/checkpoint-inhibitors/README.md)** — Largely resistant to checkpoints: AML evades immunity through antigen loss and an immunosuppressive marrow rather than checkpoint exhaustion, so PD-1 blockade shows limited single-agent activity, studied mainly with hypomethylating agents.
 - `connects-to` → **[CLL](../cll/README.md)** — Myeloid versus lymphoid leukaemia: AML is an acute proliferation of myeloid blasts needing urgent intensive therapy, whereas CLL is an indolent accumulation of mature B-lymphocytes often watched for years — opposite poles of leukaemia in lineage and tempo.
+- `connects-to` → **[CMML](../cmml/README.md)** — A pre-leukaemic myeloid neighbour: chronic myelomonocytic leukaemia, a myelodysplastic/myeloproliferative overlap, frequently transforms into AML and shares its TET2, ASXL1 and SRSF2 epigenetic mutations.
+- `connects-to` → **[Myocardium](../../05-tissue/myocardium/README.md)** — Its cure can scar the heart: anthracyclines like daunorubicin, central to AML induction, are cardiotoxic and damage the myocardium dose-dependently, leaving cardiomyopathy and heart failure as late effects in survivors.
+- `connects-to` → **[PTCL](../ptcl/README.md)** — Shared epigenetic mutations across lineages: angioimmunoblastic T-cell lymphoma carries the same TET2, DNMT3A and IDH2 mutations as AML, sometimes arising from a common clonal-haematopoiesis precursor in blood and lymph node.
 
 [^dinardo-2020-viale-a]: DiNardo CD, Jonas BA, Pullarkat V, et al. Azacitidine and venetoclax in previously untreated acute myeloid leukemia. *N Engl J Med.* 2020;383(7):617-629. [doi:10.1056/NEJMoa2012971](https://doi.org/10.1056/NEJMoa2012971) · [PubMed 32786187](https://pubmed.ncbi.nlm.nih.gov/32786187/)
 [^stone-2017-midostaurin]: Stone RM, Mandrekar SJ, Sanford BL, et al. Midostaurin plus chemotherapy for acute myeloid leukemia with a FLT3 mutation. *N Engl J Med.* 2017;377(5):454-464. [doi:10.1056/NEJMoa1614359](https://doi.org/10.1056/NEJMoa1614359) · [PubMed 28644114](https://pubmed.ncbi.nlm.nih.gov/28644114/)
