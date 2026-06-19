@@ -253,6 +253,15 @@ cross_links:
   - target: 01-human/07-system/ahus
     relation: connects-to
     note: "A renal-limited thrombotic microangiopathy: atypical haemolytic uraemic syndrome, from uncontrolled complement activation, attacks the glomerular and arteriolar endothelium to cause acute kidney injury, treated with the complement inhibitor eculizumab."
+  - target: 01-human/05-tissue/arterial-wall
+    relation: connects-to
+    note: "It governs blood pressure through the arteries: the kidney's renin-angiotensin system tunes arterial-wall tone and volume, while renal-artery atherosclerosis or stenosis drives secondary hypertension—a two-way axis between kidney and vessel."
+  - target: 01-human/07-system/tuberous-sclerosis-complex
+    relation: connects-to
+    note: "A hereditary cause of kidney lesions: tuberous sclerosis studs the kidneys with angiomyolipomas (fat-and-vessel hamartomas that can haemorrhage) and cysts, a leading source of its morbidity treated with mTOR inhibitors."
+  - target: 01-human/07-system/vhl-disease
+    relation: connects-to
+    note: "Inherited renal cysts and cancer: von Hippel-Lindau disease fills the kidneys with cysts and multiple clear cell renal cell carcinomas, the leading cause of death in VHL and a model of hereditary kidney cancer."
 taxonomy:
   uberon: "UBERON:0001008"
 ---
@@ -426,6 +435,9 @@ Natriuretic counterpoint:
 - **Connects to:** [Fibrosis](../../05-tissue/fibrosis/README.md) — scarring is the common endpoint: whatever the initial insult — diabetes, hypertension, glomerulonephritis — progressive kidney disease converges on tubulointerstitial fibrosis, the strongest histological predictor of nephron loss and renal failure.
 - **Connects to:** [Cancer Chemotherapy](../../../03-medicine/01-modern/13-cancer/cancer-chemotherapy/README.md) — the kidney both clears and is harmed: it excretes many cytotoxic drugs so dosing tracks GFR, while cisplatin, methotrexate and tumour-lysis from chemotherapy are major causes of acute kidney injury.
 - **Connects to:** [aHUS](../ahus/README.md) — a renal-limited thrombotic microangiopathy: atypical haemolytic uraemic syndrome, from uncontrolled complement activation, attacks the glomerular and arteriolar endothelium to cause acute kidney injury, treated with the complement inhibitor eculizumab.
+- **Connects to:** [Arterial Wall](../../05-tissue/arterial-wall/README.md) — it governs blood pressure through the arteries: the kidney's renin-angiotensin system tunes arterial-wall tone and volume, while renal-artery atherosclerosis or stenosis drives secondary hypertension—a two-way axis between kidney and vessel.
+- **Connects to:** [Tuberous Sclerosis Complex](../tuberous-sclerosis-complex/README.md) — a hereditary cause of kidney lesions: tuberous sclerosis studs the kidneys with angiomyolipomas (fat-and-vessel hamartomas that can haemorrhage) and cysts, a leading source of its morbidity treated with mTOR inhibitors.
+- **Connects to:** [VHL Disease](../vhl-disease/README.md) — inherited renal cysts and cancer: von Hippel-Lindau disease fills the kidneys with cysts and multiple clear cell renal cell carcinomas, the leading cause of death in VHL and a model of hereditary kidney cancer.
 - **Treated by:** ACE inhibitors — renoprotection in CKD.
 - **Treated by:** Loop diuretics — fluid management.
 
