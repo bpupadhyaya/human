@@ -250,6 +250,15 @@ cross_links:
   - target: 01-human/05-tissue/arterial-wall
     relation: connects-to
     note: "It is an endothelial disease: SARS-CoV-2 infects and inflames the vascular endothelium, and this endotheliitis of the arterial wall underlies the microthrombi, strokes and multi-organ ischaemia of severe COVID-19."
+  - target: 01-human/05-tissue/glomerulus
+    relation: connects-to
+    note: "It injures the kidney's filter: COVID-19 causes acute kidney injury and a collapsing glomerulopathy (especially with APOL1 risk variants), with ACE2 expression making the glomerulus a target of SARS-CoV-2."
+  - target: 01-human/07-system/fibromyalgia
+    relation: connects-to
+    note: "Long COVID overlaps chronic-fatigue syndromes: persistent post-COVID fatigue, widespread pain and autonomic dysfunction overlap heavily with fibromyalgia and ME/CFS, a post-viral chronic-symptom state."
+  - target: 01-human/07-system/type-1-diabetes
+    relation: connects-to
+    note: "It can precipitate diabetes: COVID-19 raises the risk of new-onset diabetes, both stress-driven type 2 and autoimmune-pattern type 1, with ACE2 on pancreatic islets implicated in beta-cell injury."
 ---
 
 # COVID-19 Disease
@@ -392,6 +401,9 @@ Symptoms persisting >4 weeks: fatigue (most common), cognitive impairment ("brai
 - `connects-to` → **[Warfarin](../../../03-medicine/01-modern/09-hematology/warfarin/README.md)** — It is a thrombotic disease: severe COVID-19 drives venous thromboembolism and microthrombi, so hospitalised patients receive prophylactic anticoagulation, and the coagulopathy is a central reason for its high mortality.
 - `connects-to` → **[Myocardium](../../05-tissue/myocardium/README.md)** — It injures the heart muscle: COVID-19 causes myocarditis and troponin-positive cardiac injury through direct infection and cytokine storm, with arrhythmia and heart failure — and rare myocarditis also follows mRNA vaccination.
 - `connects-to` → **[Arterial Wall](../../05-tissue/arterial-wall/README.md)** — It is an endothelial disease: SARS-CoV-2 infects and inflames the vascular endothelium, and this endotheliitis of the arterial wall underlies the microthrombi, strokes and multi-organ ischaemia of severe COVID-19.
+- `connects-to` → **[Glomerulus](../../05-tissue/glomerulus/README.md)** — It injures the kidney's filter: COVID-19 causes acute kidney injury and a collapsing glomerulopathy (especially with APOL1 risk variants), with ACE2 expression making the glomerulus a target of SARS-CoV-2.
+- `connects-to` → **[Fibromyalgia](../fibromyalgia/README.md)** — Long COVID overlaps chronic-fatigue syndromes: persistent post-COVID fatigue, widespread pain and autonomic dysfunction overlap heavily with fibromyalgia and ME/CFS, a post-viral chronic-symptom state.
+- `connects-to` → **[Type 1 Diabetes](../type-1-diabetes/README.md)** — It can precipitate diabetes: COVID-19 raises the risk of new-onset diabetes, both stress-driven type 2 and autoimmune-pattern type 1, with ACE2 on pancreatic islets implicated in beta-cell injury.
 
 ## Pathology
 

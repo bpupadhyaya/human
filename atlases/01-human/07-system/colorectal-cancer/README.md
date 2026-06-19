@@ -250,6 +250,15 @@ cross_links:
   - target: 01-human/05-tissue/hepatic-lobule
     relation: connects-to
     note: "It seeds the liver first: draining via the portal vein, colorectal cancer metastasises preferentially to the hepatic lobules, and these liver metastases — uniquely among cancers — are often resected or ablated for cure."
+  - target: 01-human/05-tissue/germinal-center
+    relation: connects-to
+    note: "Why some colorectal cancers invite immunotherapy: mismatch-repair-deficient (MSI-high) tumours accumulate neoantigens and dense lymphocytic infiltrates with tertiary lymphoid structures, the immune richness behind their response to checkpoint blockade."
+  - target: 01-human/07-system/juvenile-polyposis-syndrome
+    relation: connects-to
+    note: "A hamartomatous route to colorectal cancer: SMAD4/BMPR1A juvenile polyposis studs the colon with hamartomatous polyps that raise lifetime colorectal-cancer risk, a hereditary syndrome beyond the adenomatous FAP and Lynch."
+  - target: 01-human/07-system/peutz-jeghers-syndrome
+    relation: connects-to
+    note: "Another hamartomatous predisposition: STK11/LKB1 Peutz-Jeghers syndrome carries a high lifetime risk of colorectal and other GI cancers from its hamartomatous polyps, joining the hereditary colorectal-cancer syndromes."
 ---
 
 # Colorectal Cancer
@@ -443,6 +452,9 @@ The step-wise genetic progression from normal epithelium to carcinoma in CRC was
 - `connects-to` → **[Cancer Chemotherapy](../../../03-medicine/01-modern/13-cancer/cancer-chemotherapy/README.md)** — FOLFOX is the backbone: 5-fluorouracil with oxaliplatin or irinotecan is the cytotoxic core of colorectal cancer treatment, given adjuvantly after surgery for node-positive disease and as first-line therapy for metastatic disease.
 - `connects-to` → **[Checkpoint Inhibitors](../../../03-medicine/01-modern/13-cancer/checkpoint-inhibitors/README.md)** — MSI status splits the response: the ~15% of colorectal cancers that are mismatch-repair-deficient (MSI-high) respond dramatically to PD-1 blockade like pembrolizumab, while the microsatellite-stable majority remain immunologically cold and resistant.
 - `connects-to` → **[Hepatic Lobule](../../05-tissue/hepatic-lobule/README.md)** — It seeds the liver first: draining via the portal vein, colorectal cancer metastasises preferentially to the hepatic lobules, and these liver metastases — uniquely among cancers — are often resected or ablated for cure.
+- `connects-to` → **[Germinal Center](../../05-tissue/germinal-center/README.md)** — Why some colorectal cancers invite immunotherapy: mismatch-repair-deficient (MSI-high) tumours accumulate neoantigens and dense lymphocytic infiltrates with tertiary lymphoid structures, the immune richness behind their response to checkpoint blockade.
+- `connects-to` → **[Juvenile Polyposis Syndrome](../juvenile-polyposis-syndrome/README.md)** — A hamartomatous route to colorectal cancer: SMAD4/BMPR1A juvenile polyposis studs the colon with hamartomatous polyps that raise lifetime colorectal-cancer risk, a hereditary syndrome beyond the adenomatous FAP and Lynch.
+- `connects-to` → **[Peutz-Jeghers Syndrome](../peutz-jeghers-syndrome/README.md)** — Another hamartomatous predisposition: STK11/LKB1 Peutz-Jeghers syndrome carries a high lifetime risk of colorectal and other GI cancers from its hamartomatous polyps, joining the hereditary colorectal-cancer syndromes.
 
 ---
 
