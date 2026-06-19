@@ -265,6 +265,15 @@ cross_links:
   - target: 01-human/05-tissue/myocardium
     relation: connects-to
     note: "Microthrombi injure the heart: widespread microvascular thrombosis and shock in DIC starve the myocardium, contributing to the cardiac dysfunction of multi-organ failure."
+  - target: 02-pathogen/02-bacteria/neisseria-meningitidis
+    relation: connects-to
+    note: "Purpura fulminans: meningococcal sepsis triggers fulminant DIC with skin necrosis and bilateral adrenal haemorrhage (Waterhouse-Friderichsen), a classic and rapidly fatal infectious cause."
+  - target: 01-human/05-tissue/arterial-wall
+    relation: connects-to
+    note: "Endothelium drives the consumption: DIC begins when an injured or activated endothelium of the arterial wall and capillaries exposes tissue factor, igniting the runaway clotting that consumes platelets and factors."
+  - target: 01-human/07-system/covid-19-disease
+    relation: connects-to
+    note: "COVID coagulopathy: severe COVID-19 causes a distinctive coagulopathy with very high D-dimer and microthrombi that overlaps DIC, though usually with thrombosis rather than the consumptive bleeding."
 ---
 
 # Disseminated Intravascular Coagulation
@@ -478,6 +487,9 @@ DIC is always **secondary** — it does not occur in isolation but as a conseque
 - `connects-to` → **[Alveolus](../../05-tissue/alveolus/README.md)** — Pulmonary microthrombi: fibrin microthrombi clog the alveolar capillaries in DIC, worsening the hypoxaemia and ARDS of severe sepsis and amniotic-fluid embolism.
 - `connects-to` → **[Gastric Cancer](../gastric-cancer/README.md)** — Chronic compensated DIC (Trousseau): mucin-secreting adenocarcinomas like gastric and pancreatic cancer activate coagulation, causing chronic DIC and migratory thrombophlebitis.
 - `connects-to` → **[Myocardium](../../05-tissue/myocardium/README.md)** — Microthrombi injure the heart: widespread microvascular thrombosis and shock in DIC starve the myocardium, contributing to the cardiac dysfunction of multi-organ failure.
+- `connects-to` → **[Neisseria meningitidis](../../../02-pathogen/02-bacteria/neisseria-meningitidis/README.md)** — Purpura fulminans: meningococcal sepsis triggers fulminant DIC with skin necrosis and bilateral adrenal haemorrhage (Waterhouse-Friderichsen), a classic and rapidly fatal infectious cause.
+- `connects-to` → **[Arterial Wall](../../05-tissue/arterial-wall/README.md)** — Endothelium drives the consumption: DIC begins when an injured or activated endothelium of the arterial wall and capillaries exposes tissue factor, igniting the runaway clotting that consumes platelets and factors.
+- `connects-to` → **[COVID-19 Disease](../covid-19-disease/README.md)** — COVID coagulopathy: severe COVID-19 causes a distinctive coagulopathy with very high D-dimer and microthrombi that overlaps DIC, though usually with thrombosis rather than the consumptive bleeding.
 
 ---
 

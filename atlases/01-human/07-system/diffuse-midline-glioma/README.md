@@ -259,6 +259,15 @@ cross_links:
   - target: 01-human/05-tissue/hippocampus
     relation: connects-to
     note: "Cognition in the crossfire: midline and thalamic tumours, and the radiotherapy that palliates them, injure the hippocampus and memory circuits, adding neurocognitive decline to the disease's burden."
+  - target: 01-human/07-system/chordoma
+    relation: connects-to
+    note: "Midline tumours of the neuraxis: diffuse midline glioma (brainstem, thalamus, cord) and chordoma (clivus, sacrum) both arise along the body's midline axis, posing similar surgical-access challenges despite different origins."
+  - target: 01-human/07-system/meningioma
+    relation: connects-to
+    note: "The CNS-tumour spectrum: against the lethal, infiltrative diffuse midline glioma, meningioma represents the benign, resectable extreme of brain tumours—two poles of neuro-oncology."
+  - target: 01-human/07-system/pcnsl
+    relation: connects-to
+    note: "Deep brain masses on imaging: a brainstem or thalamic mass raises a differential that includes diffuse midline glioma and, in older or immunocompromised patients, primary CNS lymphoma, told apart by biopsy and steroid response."
 ---
 
 # Diffuse Midline Glioma
@@ -478,6 +487,9 @@ Direct infusion of drugs into the pons via stereotactic catheter; bypasses BBB; 
 - `connects-to` → **[BDNF](../../03-molecular/bdnf/README.md)** — Neuron-glioma synapses: neuronal activity and BDNF-TrkB signalling drive diffuse midline glioma growth through electrical and paracrine synapses with neurons, a discovery reframing the tumour as part of a neural circuit.
 - `connects-to` → **[TERT](../../03-molecular/tert/README.md)** — Immortality without TERT: ATRX loss in diffuse midline glioma maintains telomeres by alternative lengthening (ALT) rather than the TERT-promoter activation other cancers use—two routes to replicative immortality.
 - `connects-to` → **[Hippocampus](../../05-tissue/hippocampus/README.md)** — Cognition in the crossfire: midline and thalamic tumours, and the radiotherapy that palliates them, injure the hippocampus and memory circuits, adding neurocognitive decline to the disease's burden.
+- `connects-to` → **[Chordoma](../chordoma/README.md)** — Midline tumours of the neuraxis: diffuse midline glioma (brainstem, thalamus, cord) and chordoma (clivus, sacrum) both arise along the body's midline axis, posing similar surgical-access challenges despite different origins.
+- `connects-to` → **[Meningioma](../meningioma/README.md)** — The CNS-tumour spectrum: against the lethal, infiltrative diffuse midline glioma, meningioma represents the benign, resectable extreme of brain tumours—two poles of neuro-oncology.
+- `connects-to` → **[PCNSL](../pcnsl/README.md)** — Deep brain masses on imaging: a brainstem or thalamic mass raises a differential that includes diffuse midline glioma and, in older or immunocompromised patients, primary CNS lymphoma, told apart by biopsy and steroid response.
 
 ---
 
