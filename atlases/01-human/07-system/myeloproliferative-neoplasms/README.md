@@ -250,6 +250,15 @@ cross_links:
   - target: 01-human/07-system/ckd
     relation: connects-to
     note: "It also wears down the kidney: myeloproliferative neoplasms impair renal function through hyperuricaemia, microvascular thrombosis and an MPN-associated glomerulopathy, so chronic kidney disease accumulates as the clone persists."
+  - target: 01-human/05-tissue/myocardium
+    relation: connects-to
+    note: "Arterial thrombosis and the heart: MPN hyperviscosity and reactive platelets cause arterial thrombi including myocardial infarction, a leading cause of death in polycythaemia vera and essential thrombocythaemia."
+  - target: 01-human/07-system/antiphospholipid-syndrome
+    relation: connects-to
+    note: "Two causes of unexplained thrombosis: MPN and antiphospholipid syndrome both cause arterial and unusual-site venous thrombosis (splanchnic, cerebral), key differentials in a young patient with a clot."
+  - target: 01-human/05-tissue/cortical-bone
+    relation: connects-to
+    note: "Osteosclerosis of myelofibrosis: as the marrow fibroses, reactive new bone formation thickens and scleroses the cortical bone, the radiographic counterpart of the fibrotic marrow."
 ---
 
 # Myeloproliferative Neoplasms
@@ -471,6 +480,9 @@ In PV and ET, JAK2 V617F also affects myeloid progenitors → granulocytosis and
 - `connects-to` → **[Hepatic Lobule](../../05-tissue/hepatic-lobule/README.md)** — It clots the liver and seeds it with blood-making: myeloproliferative neoplasms are a leading cause of Budd-Chiari and portal vein thrombosis, and their excess progenitors lodge in the hepatic lobules as extramedullary haematopoiesis, enlarging the liver.
 - `connects-to` → **[Arterial Wall](../../05-tissue/arterial-wall/README.md)** — Thrombosis is its chief killer: JAK2-mutant blood cells inflame and adhere to the arterial wall, promoting endothelial dysfunction and the arterial thrombosis—heart attack and stroke—that drives mortality in polycythaemia vera and essential thrombocythaemia.
 - `connects-to` → **[CKD](../ckd/README.md)** — It also wears down the kidney: myeloproliferative neoplasms impair renal function through hyperuricaemia, microvascular thrombosis and an MPN-associated glomerulopathy, so chronic kidney disease accumulates as the clone persists.
+- `connects-to` → **[Myocardium](../../05-tissue/myocardium/README.md)** — Arterial thrombosis and the heart: MPN hyperviscosity and reactive platelets cause arterial thrombi including myocardial infarction, a leading cause of death in polycythaemia vera and essential thrombocythaemia.
+- `connects-to` → **[Antiphospholipid Syndrome](../antiphospholipid-syndrome/README.md)** — Two causes of unexplained thrombosis: MPN and antiphospholipid syndrome both cause arterial and unusual-site venous thrombosis (splanchnic, cerebral), key differentials in a young patient with a clot.
+- `connects-to` → **[Cortical Bone](../../05-tissue/cortical-bone/README.md)** — Osteosclerosis of myelofibrosis: as the marrow fibroses, reactive new bone formation thickens and scleroses the cortical bone, the radiographic counterpart of the fibrotic marrow.
 
 [^verstovsek-2012-comfort-i]: Verstovsek S, Mesa RA, Gotlib J, et al. A double-blind, placebo-controlled trial of ruxolitinib for myelofibrosis. *N Engl J Med.* 2012;366(9):799-807. [doi:10.1056/NEJMoa1110557](https://doi.org/10.1056/NEJMoa1110557) · [PubMed 22375971](https://pubmed.ncbi.nlm.nih.gov/22375971/)
 [^vannucchi-2015-response]: Vannucchi AM, Kiladjian JJ, Griesshammer M, et al. Ruxolitinib versus standard therapy for the treatment of polycythemia vera. *N Engl J Med.* 2015;372(5):426-435. [doi:10.1056/NEJMoa1409002](https://doi.org/10.1056/NEJMoa1409002) · [PubMed 25426978](https://pubmed.ncbi.nlm.nih.gov/25426978/)

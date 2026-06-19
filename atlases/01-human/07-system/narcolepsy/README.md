@@ -237,6 +237,15 @@ cross_links:
   - target: 01-human/05-tissue/guillain-barre
     relation: connects-to
     note: "Both can follow an infection: narcolepsy surged after H1N1 influenza and Pandemrix vaccination, and Guillain-Barré syndrome classically follows infection too—post-infectious autoimmunity by molecular mimicry striking the nervous system."
+  - target: 01-human/07-system/gambling-disorder
+    relation: connects-to
+    note: "Stimulant-linked impulse control: the dopaminergic stimulants treating narcolepsy can unmask impulse-control behaviours such as pathological gambling, a reward-circuit overlap between the two conditions."
+  - target: 01-human/05-tissue/cardiac-conduction-system
+    relation: connects-to
+    note: "Cardiovascular load of treatment: narcolepsy carries raised cardiovascular risk, and its stimulant treatments (modafinil, amphetamines) raise heart rate and blood pressure and can affect cardiac conduction."
+  - target: 01-human/07-system/lewy-body-dementia
+    relation: connects-to
+    note: "Orexin and sleep across disorders: orexin loss causes narcolepsy's cataplexy and sleep instability, while synucleinopathies like Lewy body dementia disrupt orexin signalling and REM sleep in their own way."
 sources:
   - id: scammell-2015-narcolepsy-review
     type: peer-reviewed
@@ -450,6 +459,9 @@ Cataplexy is the **pathognomonic** feature of NT1 — sudden, bilateral loss of 
 - `connects-to` → **[Myasthenia Gravis](../myasthenia-gravis/README.md)** — Two HLA-linked neuro-autoimmune diseases: type 1 narcolepsy is a T-cell attack on orexin neurons tied to HLA-DQB1*06:02, as myasthenia gravis is an antibody attack on the neuromuscular junction—self-directed immunity striking different neural targets.
 - `connects-to` → **[PTSD](../ptsd/README.md)** — Disordered REM connects them: narcolepsy intrudes REM sleep into wakefulness, while PTSD fragments REM with nightmares; the two are comorbid and share noradrenergic and orexin dysregulation of the sleep-wake switch.
 - `connects-to` → **[Guillain-Barré](../../05-tissue/guillain-barre/README.md)** — Both can follow an infection: narcolepsy surged after H1N1 influenza and Pandemrix vaccination, and Guillain-Barré syndrome classically follows infection too—post-infectious autoimmunity by molecular mimicry striking the nervous system.
+- `connects-to` → **[Gambling Disorder](../gambling-disorder/README.md)** — Stimulant-linked impulse control: the dopaminergic stimulants treating narcolepsy can unmask impulse-control behaviours such as pathological gambling, a reward-circuit overlap between the two conditions.
+- `connects-to` → **[Cardiac Conduction System](../../05-tissue/cardiac-conduction-system/README.md)** — Cardiovascular load of treatment: narcolepsy carries raised cardiovascular risk, and its stimulant treatments (modafinil, amphetamines) raise heart rate and blood pressure and can affect cardiac conduction.
+- `connects-to` → **[Lewy Body Dementia](../lewy-body-dementia/README.md)** — Orexin and sleep across disorders: orexin loss causes narcolepsy's cataplexy and sleep instability, while synucleinopathies like Lewy body dementia disrupt orexin signalling and REM sleep in their own way.
 
 [^scammell-2015-narcolepsy-review]: Scammell TE. Narcolepsy. *N Engl J Med.* 2015;373(27):2654-2662. [doi:10.1056/NEJMra1500587](https://doi.org/10.1056/NEJMra1500587) · [PubMed 26716917](https://pubmed.ncbi.nlm.nih.gov/26716917/)
 [^dauvilliers-2007-narcolepsy-clinical]: Dauvilliers Y, Arnulf I, Mignot E. Narcolepsy with cataplexy. *Lancet.* 2007;369(9560):499-511. [doi:10.1016/S0140-6736(07)60237-2](https://doi.org/10.1016/S0140-6736(07)60237-2) · [PubMed 17292770](https://pubmed.ncbi.nlm.nih.gov/17292770/)
