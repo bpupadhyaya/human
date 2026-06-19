@@ -251,6 +251,15 @@ cross_links:
   - target: 01-human/07-system/werner-syndrome
     relation: connects-to
     note: "Premature ageing of the skin: Werner syndrome gives scleroderma-like tight, atrophic skin with intractable leg ulcers and early greying, a progeroid genodermatosis from WRN-helicase loss."
+  - target: 01-human/07-system/hiv-aids
+    relation: connects-to
+    note: "A barometer of immune status: HIV/AIDS produces a parade of skin diseases—Kaposi sarcoma, severe seborrhoea, eosinophilic folliculitis—the integument often the first signal of the underlying immunodeficiency."
+  - target: 01-human/07-system/anca-vasculitis
+    relation: connects-to
+    note: "Where vasculitis shows itself: small-vessel vasculitis like ANCA-associated disease announces itself in the skin as palpable purpura, making the integument a window onto systemic vascular inflammation."
+  - target: 01-human/07-system/sickle-cell-disease
+    relation: connects-to
+    note: "Skin as casualty of systemic disease: chronic, painful leg ulcers over the malleoli are a hard-to-heal complication of sickle cell disease, reflecting the skin's vulnerability to microvascular ischaemia."
 ---
 
 # Integumentary System
@@ -434,6 +443,9 @@ Wound healing is a precisely orchestrated process in four overlapping phases [^g
 - `connects-to` → **[Gorlin Syndrome](../gorlin-syndrome/README.md)** — When the skin makes too many cancers: Gorlin (nevoid basal cell carcinoma) syndrome causes hundreds of basal cell carcinomas across the skin from germline PTCH1/Hedgehog activation, the heritable extreme of the skin's commonest cancer.
 - `connects-to` → **[Rothmund-Thomson](../rothmund-thomson/README.md)** — A congenital poikiloderma: Rothmund-Thomson syndrome marbles the skin with the reticulate pigmentation, telangiectasia and atrophy of poikiloderma, a genodermatosis from RECQL4 loss with photosensitivity and cancer risk.
 - `connects-to` → **[Werner Syndrome](../werner-syndrome/README.md)** — Premature ageing of the skin: Werner syndrome gives scleroderma-like tight, atrophic skin with intractable leg ulcers and early greying, a progeroid genodermatosis from WRN-helicase loss.
+- `connects-to` → **[HIV/AIDS](../hiv-aids/README.md)** — A barometer of immune status: HIV/AIDS produces a parade of skin diseases—Kaposi sarcoma, severe seborrhoea, eosinophilic folliculitis—the integument often the first signal of the underlying immunodeficiency.
+- `connects-to` → **[ANCA Vasculitis](../anca-vasculitis/README.md)** — Where vasculitis shows itself: small-vessel vasculitis like ANCA-associated disease announces itself in the skin as palpable purpura, making the integument a window onto systemic vascular inflammation.
+- `connects-to` → **[Sickle Cell Disease](../sickle-cell-disease/README.md)** — Skin as casualty of systemic disease: chronic, painful leg ulcers over the malleoli are a hard-to-heal complication of sickle cell disease, reflecting the skin's vulnerability to microvascular ischaemia.
 
 ## Pathology
 
