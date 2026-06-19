@@ -277,6 +277,15 @@ cross_links:
   - target: 01-human/07-system/covid-19-disease
     relation: connects-to
     note: "Attention after the pandemic: COVID-19 disruption worsened ADHD symptoms and access to care, and long-COVID 'brain fog' can mimic or aggravate attention deficits."
+  - target: 01-human/07-system/atopic-dermatitis
+    relation: connects-to
+    note: "Atopy and attention: atopic dermatitis is epidemiologically associated with ADHD, plausibly through chronic inflammation and the sleep disruption that relentless itch causes in childhood."
+  - target: 01-human/03-molecular/acetylcholine
+    relation: connects-to
+    note: "Cholinergic attention: acetylcholine modulates arousal and selective attention, and nicotinic signalling is implicated in ADHD—reflected in high smoking rates and trials of nicotinic agonists."
+  - target: 01-human/03-molecular/adenosine
+    relation: connects-to
+    note: "Caffeine and arousal: blocking adenosine receptors with caffeine—often self-administered in ADHD—disinhibits dopamine signalling and boosts alertness, loosely mirroring stimulant medication."
 ---
 
 # Attention-Deficit/Hyperactivity Disorder
@@ -509,6 +518,9 @@ ADHD is a clinical diagnosis requiring [^biederman-2005-adhd-adults]:
 - `connects-to` → **[Tuberous Sclerosis Complex](../tuberous-sclerosis-complex/README.md)** — ADHD in genetic syndromes: tuberous sclerosis, like neurofibromatosis type 1, carries very high rates of ADHD, linking single-gene neurodevelopmental disorders to attention dysfunction.
 - `connects-to` → **[Alzheimer's Disease](../alzheimers-disease/README.md)** — A later dementia link: adult ADHD is associated with a higher later risk of dementia including Alzheimer's, possibly through shared catecholaminergic vulnerability and accumulated lifestyle risk.
 - `connects-to` → **[COVID-19 Disease](../covid-19-disease/README.md)** — Attention after the pandemic: COVID-19 disruption worsened ADHD symptoms and access to care, and long-COVID 'brain fog' can mimic or aggravate attention deficits.
+- `connects-to` → **[Atopic Dermatitis](../atopic-dermatitis/README.md)** — Atopy and attention: atopic dermatitis is epidemiologically associated with ADHD, plausibly through chronic inflammation and the sleep disruption that relentless itch causes in childhood.
+- `connects-to` → **[Acetylcholine](../../03-molecular/acetylcholine/README.md)** — Cholinergic attention: acetylcholine modulates arousal and selective attention, and nicotinic signalling is implicated in ADHD—reflected in high smoking rates and trials of nicotinic agonists.
+- `connects-to` → **[Adenosine](../../03-molecular/adenosine/README.md)** — Caffeine and arousal: blocking adenosine receptors with caffeine—often self-administered in ADHD—disinhibits dopamine signalling and boosts alertness, loosely mirroring stimulant medication.
 
 [^faraone-2021-adhd-primer]: Faraone SV, Banaschewski T, Coghill D, et al. The World Federation of ADHD International Consensus Statement: 208 Evidence-based conclusions about the disorder. *Neurosci Biobehav Rev.* 2021;128:789-818. [doi:10.1016/j.neubiorev.2021.01.022](https://doi.org/10.1016/j.neubiorev.2021.01.022) · [PubMed 33549739](https://pubmed.ncbi.nlm.nih.gov/33549739/)
 [^arnsten-2009-adhd-neuroscience]: Arnsten AF. Toward a new understanding of ADHD pathophysiology: an important role for prefrontal cortex dysfunction. *CNS Drugs.* 2009;23(Suppl 1):33-41. [doi:10.2165/00023210-200923000-00005](https://doi.org/10.2165/00023210-200923000-00005) · [PubMed 19621976](https://pubmed.ncbi.nlm.nih.gov/19621976/)

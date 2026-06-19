@@ -268,6 +268,15 @@ cross_links:
   - target: 01-human/05-tissue/cortical-bone
     relation: connects-to
     note: "Metastatic spread: malignant rhabdoid tumours, including extracranial forms, can metastasise to bone, depositing in the cortical bone alongside their spread to lung and liver."
+  - target: 01-human/03-molecular/cyclin-d1
+    relation: connects-to
+    note: "Cyclin D1 dependence: loss of SMARCB1 derepresses cyclin D1, driving the CDK4/6-fuelled cell cycle and making ATRT cells dependent on this axis—the rationale for CDK4/6 inhibition."
+  - target: 01-human/03-molecular/wnt-beta-catenin
+    relation: connects-to
+    note: "Aberrant Wnt signalling: SMARCB1 loss can derepress Wnt/β-catenin target genes, an oncogenic signalling pathway contributing to rhabdoid tumour proliferation distinct from the cell-cycle axis."
+  - target: 01-human/07-system/idh-mutant-glioma
+    relation: connects-to
+    note: "Epigenetic contrast: like ATRT, IDH-mutant glioma is fundamentally an epigenetic disease, but driven by oncometabolite-mediated DNA hypermethylation rather than SWI/SNF chromatin-remodeller loss."
 ---
 
 # Atypical Teratoid/Rhabdoid Tumor
@@ -470,6 +479,9 @@ AT/RT has no established standard of care; protocols are protocol-driven and cen
 - `connects-to` → **[Ovarian Clear Cell Carcinoma](../ovarian-clear-cell-carcinoma/README.md)** — Two ways to break SWI/SNF: AT/RT loses the SMARCB1 subunit while ovarian clear cell carcinoma loses ARID1A—different subunits crippling the same SWI/SNF chromatin-remodelling complex.
 - `connects-to` → **[Renal Cell Carcinoma](../renal-cell-carcinoma/README.md)** — SMARCB1 beyond the brain: the same SMARCB1 loss defining AT/RT drives renal medullary carcinoma (in sickle-cell trait) and malignant rhabdoid tumour of the kidney, a family of SMARCB1-deficient cancers.
 - `connects-to` → **[Cortical Bone](../../05-tissue/cortical-bone/README.md)** — Metastatic spread: malignant rhabdoid tumours, including extracranial forms, can metastasise to bone, depositing in the cortical bone alongside their spread to lung and liver.
+- `connects-to` → **[Cyclin D1](../../03-molecular/cyclin-d1/README.md)** — Cyclin D1 dependence: loss of SMARCB1 derepresses cyclin D1, driving the CDK4/6-fuelled cell cycle and making ATRT cells dependent on this axis—the rationale for CDK4/6 inhibition.
+- `connects-to` → **[Wnt/β-catenin](../../03-molecular/wnt-beta-catenin/README.md)** — Aberrant Wnt signalling: SMARCB1 loss can derepress Wnt/β-catenin target genes, an oncogenic signalling pathway contributing to rhabdoid tumour proliferation distinct from the cell-cycle axis.
+- `connects-to` → **[IDH-Mutant Glioma](../idh-mutant-glioma/README.md)** — Epigenetic contrast: like ATRT, IDH-mutant glioma is fundamentally an epigenetic disease, but driven by oncometabolite-mediated DNA hypermethylation rather than SWI/SNF chromatin-remodeller loss.
 
 ---
 
