@@ -250,6 +250,15 @@ cross_links:
   - target: 01-human/07-system/mpnst
     relation: connects-to
     note: "Two tumours from one lost gene: germline NF1 loss drives both NF1-associated GIST (KIT/PDGFRA-wildtype, RAS-MAPK-driven) and malignant peripheral nerve sheath tumours, so an NF1 patient's abdominal mass may be either—distinct neoplasms sharing a RAS engine."
+  - target: 01-human/05-tissue/hepatic-lobule
+    relation: connects-to
+    note: "Liver is the dominant metastatic site: GIST spreads within the abdomen, seeding the hepatic lobule and peritoneum, the pattern that defines advanced disease and drives lifelong imatinib."
+  - target: 01-human/07-system/renal-cell-carcinoma
+    relation: connects-to
+    note: "Shared SDH loss: SDH-deficient GIST (Carney-Stratakis) and SDH-deficient renal cell carcinoma both arise from succinate-dehydrogenase failure, a metabolic route to two very different tumours."
+  - target: 01-human/03-molecular/erk1-2
+    relation: connects-to
+    note: "KIT's downstream switch: the mutant KIT and PDGFRA receptors of GIST signal through the MAPK/ERK pathway, the proliferative effector that imatinib and successor inhibitors shut off."
 ---
 
 # GIST
@@ -458,6 +467,9 @@ No approved targeted therapy; sunitinib may have modest activity; clinical trial
 - `connects-to` → **[Targeted Therapy](../../../03-medicine/01-modern/13-cancer/targeted-therapy/README.md)** — The model of targeted therapy in solid tumours: imatinib against KIT, with sunitinib, regorafenib, avapritinib and ripretinib, transformed GIST from chemoresistant to a manageable cancer.
 - `connects-to` → **[CML](../cml/README.md)** — A shared imatinib triumph: GIST (KIT-driven) and chronic myeloid leukaemia (BCR-ABL-driven) were the twin proofs that a single kinase inhibitor could control cancer.
 - `connects-to` → **[Cancer Chemotherapy](../../../03-medicine/01-modern/13-cancer/cancer-chemotherapy/README.md)** — Conventional chemo fails it: GIST is resistant to cytotoxic chemotherapy, which is why kinase inhibitors rather than chemo became its treatment.
+- `connects-to` → **[Hepatic Lobule](../../05-tissue/hepatic-lobule/README.md)** — Liver is the dominant metastatic site: GIST spreads within the abdomen, seeding the hepatic lobule and peritoneum, the pattern that defines advanced disease and drives lifelong imatinib.
+- `connects-to` → **[Renal Cell Carcinoma](../renal-cell-carcinoma/README.md)** — Shared SDH loss: SDH-deficient GIST (Carney-Stratakis) and SDH-deficient renal cell carcinoma both arise from succinate-dehydrogenase failure, a metabolic route to two very different tumours.
+- `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — KIT's downstream switch: the mutant KIT and PDGFRA receptors of GIST signal through the MAPK/ERK pathway, the proliferative effector that imatinib and successor inhibitors shut off.
 
 ---
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*

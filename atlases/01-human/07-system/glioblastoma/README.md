@@ -250,6 +250,15 @@ cross_links:
   - target: 01-human/07-system/pancreatic-cancer
     relation: connects-to
     note: "Twin emblems of lethal cancer: glioblastoma and pancreatic adenocarcinoma share dismal survival, dense treatment-resistant stroma that walls out drugs, and infiltrative margins that defeat complete surgery despite their different organs and drivers."
+  - target: 01-human/07-system/cowden-syndrome
+    relation: connects-to
+    note: "Germline meets somatic PTEN loss: Cowden syndrome's inherited PTEN inactivation mirrors the somatic PTEN loss common in glioblastoma, a shared driver of the PI3K-AKT-mTOR pathway."
+  - target: 01-human/03-molecular/bdnf
+    relation: connects-to
+    note: "Neuron-glioma synapses: glioblastoma, like diffuse midline glioma, wires into neural circuits through activity-dependent and BDNF-driven synapses with neurons that fuel its growth and invasion."
+  - target: 01-human/05-tissue/hippocampus
+    relation: connects-to
+    note: "Memory in the crossfire: glioblastoma infiltration and the radiotherapy that treats it injure the hippocampus, driving the memory loss and cognitive decline that dominate quality of life."
 ---
 
 # Glioblastoma
@@ -457,6 +466,9 @@ The blood-brain barrier (BBB) creates a pharmacological challenge:
 - `connects-to` → **[CAR-T](../../../03-medicine/01-modern/13-cancer/car-t/README.md)** — Engineering T cells against the brain tumour: CAR-T therapies targeting EGFRvIII, IL13Rα2 and HER2 are in trials for glioblastoma, but antigen heterogeneity, the immunosuppressive microenvironment and the blood-brain barrier have so far limited durable responses.
 - `connects-to` → **[Axonal Transport](../../05-tissue/axonal-transport/README.md)** — It wires itself into the brain like a neuron: glioblastoma cells extend tumour microtubes—long axon-like membrane protrusions built on cytoskeletal transport machinery—that interconnect cells into an invasive network and receive neuron-to-glioma synaptic drive.
 - `connects-to` → **[Pancreatic Cancer](../pancreatic-cancer/README.md)** — Twin emblems of lethal cancer: glioblastoma and pancreatic adenocarcinoma share dismal survival, dense treatment-resistant stroma that walls out drugs, and infiltrative margins that defeat complete surgery despite their different organs and drivers.
+- `connects-to` → **[Cowden Syndrome](../cowden-syndrome/README.md)** — Germline meets somatic PTEN loss: Cowden syndrome's inherited PTEN inactivation mirrors the somatic PTEN loss common in glioblastoma, a shared driver of the PI3K-AKT-mTOR pathway.
+- `connects-to` → **[BDNF](../../03-molecular/bdnf/README.md)** — Neuron-glioma synapses: glioblastoma, like diffuse midline glioma, wires into neural circuits through activity-dependent and BDNF-driven synapses with neurons that fuel its growth and invasion.
+- `connects-to` → **[Hippocampus](../../05-tissue/hippocampus/README.md)** — Memory in the crossfire: glioblastoma infiltration and the radiotherapy that treats it injure the hippocampus, driving the memory loss and cognitive decline that dominate quality of life.
 
 ---
 
