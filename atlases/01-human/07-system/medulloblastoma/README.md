@@ -268,6 +268,15 @@ cross_links:
   - target: 01-human/03-molecular/igf-1
     relation: connects-to
     note: "Stunted growth after cure: radiation to the hypothalamic-pituitary axis blunts growth-hormone and IGF-1 signalling, making growth failure and short stature among the most common endocrine late effects in medulloblastoma survivors."
+  - target: 01-human/03-molecular/notch
+    relation: connects-to
+    note: "Stem-cell maintenance: Notch signalling sustains medulloblastoma stem-like cells, especially in Group 3/4 tumours, a candidate therapeutic target for these aggressive subgroups."
+  - target: 01-human/03-molecular/ezh2
+    relation: connects-to
+    note: "Epigenetic dependence: EZH2-driven histone methylation enforces the proliferative programme of Group 3/4 medulloblastoma, an actionable epigenetic vulnerability."
+  - target: 01-human/03-molecular/cyclin-d1
+    relation: connects-to
+    note: "SHH-driven cell cycle: Hedgehog signalling upregulates cyclin D1, partnering CDK4/6 to push SHH-subgroup medulloblastoma cells through the cell cycle."
 ---
 
 # Medulloblastoma
@@ -481,6 +490,9 @@ MB survivors face substantial late effects — inversely proportional to age at 
 - `connects-to` → **[Thyroid Cancer](../thyroid-cancer/README.md)** — Radiation through the neck: the craniospinal radiotherapy that cures medulloblastoma irradiates the thyroid in its exit path, causing hypothyroidism and a raised long-term risk of thyroid cancer in survivors.
 - `connects-to` → **[AML](../aml/README.md)** — Therapy-related leukaemia: the alkylating agents and topoisomerase inhibitors used against medulloblastoma damage haematopoietic stem cells, occasionally causing a secondary myelodysplasia or acute myeloid leukaemia years later.
 - `connects-to` → **[IGF-1](../../03-molecular/igf-1/README.md)** — Stunted growth after cure: radiation to the hypothalamic-pituitary axis blunts growth-hormone and IGF-1 signalling, making growth failure and short stature among the most common endocrine late effects in medulloblastoma survivors.
+- `connects-to` → **[Notch](../../03-molecular/notch/README.md)** — Stem-cell maintenance: Notch signalling sustains medulloblastoma stem-like cells, especially in Group 3/4 tumours, a candidate therapeutic target for these aggressive subgroups.
+- `connects-to` → **[EZH2](../../03-molecular/ezh2/README.md)** — Epigenetic dependence: EZH2-driven histone methylation enforces the proliferative programme of Group 3/4 medulloblastoma, an actionable epigenetic vulnerability.
+- `connects-to` → **[Cyclin D1](../../03-molecular/cyclin-d1/README.md)** — SHH-driven cell cycle: Hedgehog signalling upregulates cyclin D1, partnering CDK4/6 to push SHH-subgroup medulloblastoma cells through the cell cycle.
 
 [^packer-2006-std-risk-mb]: Packer RJ, Gajjar A, Vezina G, et al. Phase III study of craniospinal radiation therapy followed by adjuvant chemotherapy for newly diagnosed average-risk medulloblastoma. *J Clin Oncol.* 2006;24(25):4202-4208. [doi:10.1200/JCO.2006.06.4980](https://doi.org/10.1200/JCO.2006.06.4980) · [PubMed 16943538](https://pubmed.ncbi.nlm.nih.gov/16943538/)
 [^taylor-2012-mb-subgroups]: Taylor MD, Northcott PA, Korshunov A, et al. Molecular subgroups of medulloblastoma: the current consensus. *Acta Neuropathol.* 2012;123(4):465-472. [doi:10.1007/s00401-011-0922-z](https://doi.org/10.1007/s00401-011-0922-z) · [PubMed 22134537](https://pubmed.ncbi.nlm.nih.gov/22134537/)

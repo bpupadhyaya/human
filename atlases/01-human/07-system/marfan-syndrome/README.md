@@ -268,6 +268,15 @@ cross_links:
   - target: 01-human/03-molecular/igf-1
     relation: connects-to
     note: "The overgrowth axis: the tall stature and arachnodactyly of Marfan reflect dysregulated TGF-β interacting with GH/IGF-1 growth signalling, driving the excessive long-bone growth characteristic of the syndrome."
+  - target: 01-human/03-molecular/caspase-3
+    relation: connects-to
+    note: "Medial degeneration: apoptosis of aortic smooth-muscle cells via caspase-3 thins and weakens the aortic media in Marfan, a core mechanism behind aneurysm and dissection."
+  - target: 01-human/04-cellular/t-cytotoxic-cell
+    relation: connects-to
+    note: "Wall inflammation: cytotoxic T cells infiltrate the degenerating aortic wall in Marfan and other aneurysmal aortopathies, contributing to medial breakdown."
+  - target: 01-human/03-molecular/vegf
+    relation: connects-to
+    note: "Adventitial neovessels: VEGF-driven vasa-vasorum proliferation accompanies the medial degeneration of the Marfan aorta, a feature of the remodelling aneurysmal wall."
 ---
 
 # Marfan Syndrome
@@ -490,6 +499,9 @@ MFS is a **multi-system disorder** defined by cardiovascular, ocular, and skelet
 - `connects-to` → **[Atherosclerosis](../atherosclerosis/README.md)** — Two roads to an aortic aneurysm: Marfan's fibrillin-1 loss causes cystic medial degeneration of the young aorta, distinct from the lipid-driven atherosclerotic aneurysm of older age—same catastrophic endpoint, different wall pathology.
 - `connects-to` → **[BNP](../../03-molecular/bnp/README.md)** — Volume-loading the heart: chronic aortic and mitral regurgitation in Marfan stretches the ventricle, raising BNP as a marker of the heart failure that valve and aortic-root disease eventually cause.
 - `connects-to` → **[IGF-1](../../03-molecular/igf-1/README.md)** — The overgrowth axis: the tall stature and arachnodactyly of Marfan reflect dysregulated TGF-β interacting with GH/IGF-1 growth signalling, driving the excessive long-bone growth characteristic of the syndrome.
+- `connects-to` → **[Caspase-3](../../03-molecular/caspase-3/README.md)** — Medial degeneration: apoptosis of aortic smooth-muscle cells via caspase-3 thins and weakens the aortic media in Marfan, a core mechanism behind aneurysm and dissection.
+- `connects-to` → **[T Cytotoxic Cell](../../04-cellular/t-cytotoxic-cell/README.md)** — Wall inflammation: cytotoxic T cells infiltrate the degenerating aortic wall in Marfan and other aneurysmal aortopathies, contributing to medial breakdown.
+- `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — Adventitial neovessels: VEGF-driven vasa-vasorum proliferation accompanies the medial degeneration of the Marfan aorta, a feature of the remodelling aneurysmal wall.
 
 ---
 
