@@ -283,6 +283,15 @@ cross_links:
   - target: 01-human/03-molecular/ccl2
     relation: connects-to
     note: "Recruiting the flare: CCL2 (MCP-1) draws monocytes and macrophages to deposited urate crystals, amplifying the neutrophil-rich acute inflammation of a gout attack."
+  - target: 01-human/03-molecular/sglt2
+    relation: connects-to
+    note: "Urate-lowering bonus: SGLT2 inhibitors increase urinary urate excretion and lower serum urate, reducing gout flares—an unexpected benefit of these diabetes and heart drugs."
+  - target: 01-human/03-molecular/hif-1alpha
+    relation: connects-to
+    note: "Inflamed-joint hypoxia: the acutely inflamed gouty joint becomes hypoxic, stabilising HIF-1α in infiltrating cells and amplifying the inflammatory response to urate crystals."
+  - target: 01-human/03-molecular/tgf-beta
+    relation: connects-to
+    note: "Tophus and fibrosis: TGF-β contributes to the chronic granulomatous tophus and to the renal fibrosis of chronic urate nephropathy in long-standing gout."
 ---
 
 # Gout
@@ -464,6 +473,9 @@ The central mechanism linking MSU crystals to acute gouty arthritis is **NLRP3 i
 - `connects-to` → **[Angiotensin II](../../03-molecular/angiotensin-ii/README.md)** — RAAS and urate handling: angiotensin II links hyperuricaemia to hypertension and renal urate retention, and the ARB losartan is uniquely uricosuric, lowering urate while treating blood pressure.
 - `connects-to` → **[Leptin](../../03-molecular/leptin/README.md)** — Adiposity and urate: leptin, elevated in obesity, is associated with hyperuricaemia and gout, helping explain why excess body fat raises the risk of crystal disease.
 - `connects-to` → **[CCL2](../../03-molecular/ccl2/README.md)** — Recruiting the flare: CCL2 (MCP-1) draws monocytes and macrophages to deposited urate crystals, amplifying the neutrophil-rich acute inflammation of a gout attack.
+- `connects-to` → **[SGLT2](../../03-molecular/sglt2/README.md)** — Urate-lowering bonus: SGLT2 inhibitors increase urinary urate excretion and lower serum urate, reducing gout flares—an unexpected benefit of these diabetes and heart drugs.
+- `connects-to` → **[HIF-1α](../../03-molecular/hif-1alpha/README.md)** — Inflamed-joint hypoxia: the acutely inflamed gouty joint becomes hypoxic, stabilising HIF-1α in infiltrating cells and amplifying the inflammatory response to urate crystals.
+- `connects-to` → **[TGF-β](../../03-molecular/tgf-beta/README.md)** — Tophus and fibrosis: TGF-β contributes to the chronic granulomatous tophus and to the renal fibrosis of chronic urate nephropathy in long-standing gout.
 
 [^dalbeth-2019-gout-primer]: Dalbeth N, Choi HK, Joosten LAB, et al. Gout. *Nat Rev Dis Primers.* 2019;5(1):69. [doi:10.1038/s41572-019-0115-y](https://doi.org/10.1038/s41572-019-0115-y) · [PubMed 31558729](https://pubmed.ncbi.nlm.nih.gov/31558729/)
 [^martinon-2006-nlrp3-gout]: Martinon F, Pétrilli V, Mayor A, Tardivel A, Tschopp J. Gout-associated uric acid crystals activate the NALP3 inflammasome. *Nature.* 2006;440(7081):237-241. [doi:10.1038/nature04516](https://doi.org/10.1038/nature04516) · [PubMed 16407889](https://pubmed.ncbi.nlm.nih.gov/16407889/)

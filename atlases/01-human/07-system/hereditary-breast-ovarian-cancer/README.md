@@ -277,6 +277,15 @@ cross_links:
   - target: 01-human/03-molecular/mtor
     relation: connects-to
     note: "mTOR blockade: mTOR inhibitors like everolimus add benefit in hormone-receptor-positive breast cancer, part of the layered targeting of these BRCA-spectrum tumours."
+  - target: 01-human/03-molecular/hif-1alpha
+    relation: connects-to
+    note: "Hypoxic aggression: HIF-1α stabilised in the often hypoxic, triple-negative BRCA1-associated tumours drives angiogenesis and a metastatic, treatment-resistant phenotype."
+  - target: 01-human/03-molecular/ezh2
+    relation: connects-to
+    note: "Epigenetic driver: EZH2 overexpression cooperates with BRCA loss in HBOC tumours, silencing tumour-suppressor genes and offering an epigenetic therapeutic target."
+  - target: 01-human/03-molecular/tert
+    relation: connects-to
+    note: "Replicative immortality: TERT reactivation maintains telomeres in the genomically unstable BRCA-mutant tumours, enabling the limitless proliferation of HBOC cancers."
 ---
 
 # Hereditary Breast and Ovarian Cancer
@@ -499,6 +508,9 @@ BRCA-mutant cells (HRD):
 - `connects-to` → **[CDK4/6](../../03-molecular/cdk4-6/README.md)** — Cell-cycle therapy: CDK4/6 inhibitors are a mainstay for hormone-receptor-positive breast cancers, including many that arise in BRCA carriers, blocking cyclin-driven proliferation.
 - `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — PI3K-AKT targeting: AKT-pathway activation in BRCA-associated breast cancer is targetable with AKT inhibitors such as capivasertib, complementing PARP and endocrine therapy.
 - `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — mTOR blockade: mTOR inhibitors like everolimus add benefit in hormone-receptor-positive breast cancer, part of the layered targeting of these BRCA-spectrum tumours.
+- `connects-to` → **[HIF-1α](../../03-molecular/hif-1alpha/README.md)** — Hypoxic aggression: HIF-1α stabilised in the often hypoxic, triple-negative BRCA1-associated tumours drives angiogenesis and a metastatic, treatment-resistant phenotype.
+- `connects-to` → **[EZH2](../../03-molecular/ezh2/README.md)** — Epigenetic driver: EZH2 overexpression cooperates with BRCA loss in HBOC tumours, silencing tumour-suppressor genes and offering an epigenetic therapeutic target.
+- `connects-to` → **[TERT](../../03-molecular/tert/README.md)** — Replicative immortality: TERT reactivation maintains telomeres in the genomically unstable BRCA-mutant tumours, enabling the limitless proliferation of HBOC cancers.
 
 ---
 
