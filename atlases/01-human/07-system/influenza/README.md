@@ -274,6 +274,15 @@ cross_links:
   - target: 01-human/07-system/reproductive-system
     relation: connects-to
     note: "Severe in pregnancy: pregnant women are at high risk of severe influenza and complications, the basis for prioritising vaccination, which also protects the newborn through transferred antibodies."
+  - target: 01-human/03-molecular/tnf-alpha
+    relation: connects-to
+    note: "Cytokine storm: TNF-α is a leading driver of the hyperinflammatory cytokine storm that, in severe influenza, injures the lung and causes the systemic illness beyond direct viral damage."
+  - target: 01-human/03-molecular/ifn-gamma
+    relation: connects-to
+    note: "Antiviral T-cell signal: IFN-γ from T and NK cells activates macrophages and supports viral clearance in influenza, while contributing to the immunopathology of severe infection."
+  - target: 01-human/03-molecular/il-1b
+    relation: connects-to
+    note: "Inflammasome response: NLRP3-driven IL-1β release amplifies airway inflammation and fever in influenza, balancing protective antiviral immunity against lung injury."
 ---
 
 # Influenza
@@ -495,3 +504,6 @@ Influenza damages mucociliary clearance and exposes basal lamina glycoproteins �
 - `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — Viral myositis: influenza is a leading cause of the diffuse myalgia of acute illness and, in children, benign acute viral myositis with calf pain and raised creatine kinase, occasionally with rhabdomyolysis.
 - `connects-to` → **[Cardiac Conduction System](../../05-tissue/cardiac-conduction-system/README.md)** — Flu and the heartbeat: influenza can cause myocarditis and, through systemic inflammation and hypoxia, precipitate atrial fibrillation and other arrhythmias of the cardiac conduction system.
 - `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — Severe in pregnancy: pregnant women are at high risk of severe influenza and complications, the basis for prioritising vaccination, which also protects the newborn through transferred antibodies.
+- `connects-to` → **[TNF-α](../../03-molecular/tnf-alpha/README.md)** — Cytokine storm: TNF-α is a leading driver of the hyperinflammatory cytokine storm that, in severe influenza, injures the lung and causes the systemic illness beyond direct viral damage.
+- `connects-to` → **[IFN-γ](../../03-molecular/ifn-gamma/README.md)** — Antiviral T-cell signal: IFN-γ from T and NK cells activates macrophages and supports viral clearance in influenza, while contributing to the immunopathology of severe infection.
+- `connects-to` → **[IL-1β](../../03-molecular/il-1b/README.md)** — Inflammasome response: NLRP3-driven IL-1β release amplifies airway inflammation and fever in influenza, balancing protective antiviral immunity against lung injury.

@@ -274,6 +274,15 @@ cross_links:
   - target: 01-human/05-tissue/alveolus
     relation: connects-to
     note: "Pneumocystis fills the lung: PJP, the AIDS-defining pneumonia, packs the alveoli with foamy exudate and causes the hypoxic respiratory failure that long defined advanced HIV."
+  - target: 01-human/03-molecular/perforin
+    relation: connects-to
+    note: "Failing cytotoxicity: CD8 cytotoxic T cells kill HIV-infected cells with perforin, but as the disease advances toward AIDS this response becomes exhausted and the virus escapes control."
+  - target: 01-human/03-molecular/type-i-interferon
+    relation: connects-to
+    note: "Chronic interferon: persistent type-I interferon signalling in untreated HIV paradoxically drives immune exhaustion and activation rather than clearing the virus, contributing to progression to AIDS."
+  - target: 01-human/03-molecular/tnf-alpha
+    relation: connects-to
+    note: "Wasting and activation: TNF-α from the chronic immune activation of advanced HIV drives the cachexia, fever and systemic inflammation that mark the AIDS-defining state."
 ---
 
 # HIV/AIDS
@@ -474,6 +483,9 @@ HIV-1 pathogenesis is primarily driven by CD4⁺ T cell loss:
 - `connects-to` → **[Cytokine Storm](../cytokine-storm/README.md)** — Immune reconstitution storm: starting ART in advanced AIDS can unleash IRIS, a paradoxical inflammatory surge against unmasked opportunistic infections as the recovering immune system overreacts.
 - `connects-to` → **[Immune Thrombocytopenia](../immune-thrombocytopenia/README.md)** — HIV-associated low platelets: HIV is a classic secondary cause of immune thrombocytopenia, driving antibody-mediated platelet destruction that often improves once ART controls the virus.
 - `connects-to` → **[Alveolus](../../05-tissue/alveolus/README.md)** — Pneumocystis fills the lung: PJP, the AIDS-defining pneumonia, packs the alveoli with foamy exudate and causes the hypoxic respiratory failure that long defined advanced HIV.
+- `connects-to` → **[Perforin](../../03-molecular/perforin/README.md)** — Failing cytotoxicity: CD8 cytotoxic T cells kill HIV-infected cells with perforin, but as the disease advances toward AIDS this response becomes exhausted and the virus escapes control.
+- `connects-to` → **[Type I Interferon](../../03-molecular/type-i-interferon/README.md)** — Chronic interferon: persistent type-I interferon signalling in untreated HIV paradoxically drives immune exhaustion and activation rather than clearing the virus, contributing to progression to AIDS.
+- `connects-to` → **[TNF-α](../../03-molecular/tnf-alpha/README.md)** — Wasting and activation: TNF-α from the chronic immune activation of advanced HIV drives the cachexia, fever and systemic inflammation that mark the AIDS-defining state.
 
 ## See Also
 
