@@ -250,6 +250,15 @@ cross_links:
   - target: 01-human/07-system/li-fraumeni-syndrome
     relation: connects-to
     note: "Two great childhood cancer-predisposition syndromes: NF1 (neurofibromin/RAS) and Li-Fraumeni (germline TP53) both commit children to lifelong tumour surveillance, predisposing to overlapping CNS tumours and sarcomas via different pathways."
+  - target: 01-human/05-tissue/hippocampus
+    relation: connects-to
+    note: "Learning and cognition: NF1 causes learning disabilities, ADHD and autism features, as excess RAS-driven GABAergic signalling impairs hippocampal long-term potentiation and memory."
+  - target: 01-human/07-system/diffuse-midline-glioma
+    relation: connects-to
+    note: "NF1 gliomas: NF1 predisposes to optic-pathway and other childhood gliomas, some high-grade and midline, RAS-driven counterparts to the H3K27M-driven sporadic diffuse midline glioma."
+  - target: 01-human/05-tissue/myocardium
+    relation: connects-to
+    note: "RASopathy cardiac involvement: NF1 carries congenital heart disease (pulmonary stenosis) and a vasculopathy, and dysregulated RAS signalling underlies the cardiomyopathies of the RASopathies it overlaps."
 ---
 
 # Neurofibromatosis Type 1
@@ -440,6 +449,9 @@ In glioma and MPNST: additional alterations required — MPNST requires CDKN2A/2
 - `connects-to` → **[Arterial Wall](../../05-tissue/arterial-wall/README.md)** — It is also a vasculopathy: neurofibromin loss in vascular smooth muscle and endothelium causes an NF1 arteriopathy—renal-artery stenosis, aneurysms and moyamoya—an under-recognised cause of the hypertension and stroke that shorten NF1 lifespan.
 - `connects-to` → **[Neuroblastoma](../neuroblastoma/README.md)** — A RAS-pathway neural-crest tumour: NF1 loss removes a brake on RAS-MAPK in neural-crest cells, and NF1 modestly predisposes to neuroblastoma, the embryonal sympathetic-nervous-system cancer of childhood.
 - `connects-to` → **[Li-Fraumeni Syndrome](../li-fraumeni-syndrome/README.md)** — Two great childhood cancer-predisposition syndromes: NF1 (neurofibromin/RAS) and Li-Fraumeni (germline TP53) both commit children to lifelong tumour surveillance, predisposing to overlapping CNS tumours and sarcomas via different pathways.
+- `connects-to` → **[Hippocampus](../../05-tissue/hippocampus/README.md)** — Learning and cognition: NF1 causes learning disabilities, ADHD and autism features, as excess RAS-driven GABAergic signalling impairs hippocampal long-term potentiation and memory.
+- `connects-to` → **[Diffuse Midline Glioma](../diffuse-midline-glioma/README.md)** — NF1 gliomas: NF1 predisposes to optic-pathway and other childhood gliomas, some high-grade and midline, RAS-driven counterparts to the H3K27M-driven sporadic diffuse midline glioma.
+- `connects-to` → **[Myocardium](../../05-tissue/myocardium/README.md)** — RASopathy cardiac involvement: NF1 carries congenital heart disease (pulmonary stenosis) and a vasculopathy, and dysregulated RAS signalling underlies the cardiomyopathies of the RASopathies it overlaps.
 
 [^gutmann-2017-nf1-primer]: Gutmann DH, Ferner RE, Listernick RH, et al. Neurofibromatosis type 1. *Nat Rev Dis Primers.* 2017;3:17004. [doi:10.1038/nrdp.2017.4](https://doi.org/10.1038/nrdp.2017.4) · [PubMed 28230061](https://pubmed.ncbi.nlm.nih.gov/28230061/)
 [^dombi-2016-selumetinib]: Dombi E, Baldwin A, Marcus LJ, et al. Activity of Selumetinib in Neurofibromatosis Type 1-Related Plexiform Neurofibromas. *N Engl J Med.* 2016;375(26):2550-2560. [doi:10.1056/NEJMoa1605943](https://doi.org/10.1056/NEJMoa1605943) · [PubMed 28029918](https://pubmed.ncbi.nlm.nih.gov/28029918/)
