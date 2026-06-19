@@ -286,6 +286,15 @@ cross_links:
   - target: 01-human/05-tissue/intestinal-epithelium
     relation: connects-to
     note: "Gut-brain and feeding: progressive dysphagia in ALS often requires gastrostomy feeding, and an altered gut microbiome and intestinal barrier are increasingly implicated in disease progression."
+  - target: 01-human/03-molecular/cgas-sting
+    relation: connects-to
+    note: "Innate sensing of mislocalised DNA: TDP-43 pathology in ALS releases mitochondrial DNA that activates the cGAS-STING pathway, driving the type-I interferon neuroinflammation of the disease."
+  - target: 01-human/03-molecular/il-1b
+    relation: connects-to
+    note: "Microglial cytokine: IL-1β from activated microglia around degenerating motor neurons amplifies the neuroinflammation that accelerates motor-neuron loss in ALS."
+  - target: 01-human/03-molecular/il-6
+    relation: connects-to
+    note: "Inflammatory progression: elevated IL-6 reflects the neuroinflammatory and systemic inflammatory activity that tracks with faster decline in ALS."
 ---
 
 # ALS
@@ -515,6 +524,9 @@ ALS diagnosis is **clinical** — no single definitive biomarker test (though Nf
 - `connects-to` → **[BDNF](../../03-molecular/bdnf/README.md)** — Neurotrophic support: brain-derived neurotrophic factor promotes motor neuron survival, and its decline contributes to neurodegeneration in ALS—a rationale behind neurotrophin trials.
 - `connects-to` → **[IGF-1](../../03-molecular/igf-1/README.md)** — A neurotrophic candidate: insulin-like growth factor 1 supports motor neuron survival and axonal maintenance and has been trialled, with mixed results, as an ALS therapy.
 - `connects-to` → **[Intestinal Epithelium](../../05-tissue/intestinal-epithelium/README.md)** — Gut-brain and feeding: progressive dysphagia in ALS often requires gastrostomy feeding, and an altered gut microbiome and intestinal barrier are increasingly implicated in disease progression.
+- `connects-to` → **[cGAS-STING](../../03-molecular/cgas-sting/README.md)** — Innate sensing of mislocalised DNA: TDP-43 pathology in ALS releases mitochondrial DNA that activates the cGAS-STING pathway, driving the type-I interferon neuroinflammation of the disease.
+- `connects-to` → **[IL-1β](../../03-molecular/il-1b/README.md)** — Microglial cytokine: IL-1β from activated microglia around degenerating motor neurons amplifies the neuroinflammation that accelerates motor-neuron loss in ALS.
+- `connects-to` → **[IL-6](../../03-molecular/il-6/README.md)** — Inflammatory progression: elevated IL-6 reflects the neuroinflammatory and systemic inflammatory activity that tracks with faster decline in ALS.
 
 [^brown-2017-als-review]: Brown RH, Al-Chalabi A. Amyotrophic lateral sclerosis. *N Engl J Med.* 2017;377(2):162-172. [doi:10.1056/NEJMra1603471](https://doi.org/10.1056/NEJMra1603471) · [PubMed 28700839](https://pubmed.ncbi.nlm.nih.gov/28700839/)
 [^edaravone-als-2017]: Writing Group, Edaravone ALS 19 Study Group. Safety and efficacy of edaravone in well defined patients with amyotrophic lateral sclerosis. *Lancet Neurol.* 2017;16(7):505-512. [doi:10.1016/S1474-4422(17)30115-1](https://doi.org/10.1016/S1474-4422(17)30115-1) · [PubMed 28522180](https://pubmed.ncbi.nlm.nih.gov/28522180/)
