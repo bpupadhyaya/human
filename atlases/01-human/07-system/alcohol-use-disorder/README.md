@@ -286,6 +286,15 @@ cross_links:
   - target: 01-human/07-system/wound-healing
     relation: connects-to
     note: "Impaired healing: alcohol disrupts collagen deposition, immune defence and angiogenesis, slowing wound healing and raising surgical-site infection and post-operative complication rates."
+  - target: 01-human/03-molecular/tnf-alpha
+    relation: connects-to
+    note: "Alcoholic inflammation: gut-derived endotoxin in alcohol use disorder drives Kupffer-cell TNF-α release, a central mediator of alcoholic hepatitis and the neuroinflammation of dependence."
+  - target: 01-human/03-molecular/il-6
+    relation: connects-to
+    note: "Hepatic and brain inflammation: IL-6 rises with chronic alcohol intake, contributing to liver injury, the acute-phase response and the neuroinflammation linked to alcohol-related cognitive decline."
+  - target: 01-human/03-molecular/nlrp3-inflammasome
+    relation: connects-to
+    note: "Inflammasome activation: alcohol and its metabolites activate the NLRP3 inflammasome in liver and brain, releasing IL-1β to drive alcoholic liver disease and neuroinflammation."
 ---
 
 # Alcohol Use Disorder
@@ -555,6 +564,9 @@ Prenatal alcohol exposure → leading preventable cause of intellectual disabili
 - `connects-to` → **[Alveolus](../../05-tissue/alveolus/README.md)** — Alcoholic lung: chronic drinking impairs alveolar defence and depressed consciousness drives aspiration, raising the risk of aspiration pneumonia, lung abscess and acute respiratory distress syndrome.
 - `connects-to` → **[Streptococcus pneumoniae](../../../02-pathogen/02-bacteria/streptococcus-pneumoniae/README.md)** — Pneumococcal susceptibility: alcohol blunts neutrophil and macrophage function, making heavy drinkers prone to severe, bacteraemic pneumococcal pneumonia and invasive disease.
 - `connects-to` → **[Wound Healing](../wound-healing/README.md)** — Impaired healing: alcohol disrupts collagen deposition, immune defence and angiogenesis, slowing wound healing and raising surgical-site infection and post-operative complication rates.
+- `connects-to` → **[TNF-α](../../03-molecular/tnf-alpha/README.md)** — Alcoholic inflammation: gut-derived endotoxin in alcohol use disorder drives Kupffer-cell TNF-α release, a central mediator of alcoholic hepatitis and the neuroinflammation of dependence.
+- `connects-to` → **[IL-6](../../03-molecular/il-6/README.md)** — Hepatic and brain inflammation: IL-6 rises with chronic alcohol intake, contributing to liver injury, the acute-phase response and the neuroinflammation linked to alcohol-related cognitive decline.
+- `connects-to` → **[NLRP3 Inflammasome](../../03-molecular/nlrp3-inflammasome/README.md)** — Inflammasome activation: alcohol and its metabolites activate the NLRP3 inflammasome in liver and brain, releasing IL-1β to drive alcoholic liver disease and neuroinflammation.
 
 [^koob-2013-addiction-neuroscience]: Koob GF, Volkow ND. Neurocircuitry of addiction. *Neuropsychopharmacology.* 2010;35(1):217-238. [doi:10.1038/npp.2009.110](https://doi.org/10.1038/npp.2009.110) · [PubMed 19710631](https://pubmed.ncbi.nlm.nih.gov/19710631/)
 [^anton-2006-combine]: Anton RF, O'Malley SS, Ciraulo DA, et al. Combined pharmacotherapies and behavioral interventions for alcohol dependence: the COMBINE study. *JAMA.* 2006;295(17):2003-2017. [doi:10.1001/jama.295.17.2003](https://doi.org/10.1001/jama.295.17.2003) · [PubMed 16670409](https://pubmed.ncbi.nlm.nih.gov/16670409/)
