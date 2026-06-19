@@ -268,6 +268,15 @@ cross_links:
   - target: 01-human/07-system/familial-hypercholesterolemia
     relation: connects-to
     note: "Two roads to early heart attacks: Werner syndrome causes premature atherosclerosis through accelerated cellular ageing, paralleling the early coronary disease of familial hypercholesterolaemia driven instead by lifelong high LDL."
+  - target: 01-human/03-molecular/cyclin-d1
+    relation: connects-to
+    note: "Cell-cycle in cancer: the genomic instability of WRN loss with cell-cycle dysregulation (CDKN2A, cyclin D1) drives the diverse, often mesenchymal cancers of Werner syndrome."
+  - target: 01-human/03-molecular/myc
+    relation: connects-to
+    note: "Oncogene activation: MYC activation contributes to the sarcomas and other malignancies that arise from the genomic instability of Werner syndrome."
+  - target: 01-human/03-molecular/akt
+    relation: connects-to
+    note: "Metabolism and growth: PI3K-AKT-mTOR signalling links Werner syndrome's insulin resistance and diabetes to the growth signalling of its cancers."
 ---
 
 # Werner Syndrome
@@ -514,6 +523,9 @@ cross_links:
 - `connects-to` → **[BRCA1](../../03-molecular/brca1/README.md)** — Replication-fork repair: the WRN helicase works alongside the homologous-recombination machinery, so like BRCA1-deficient cells, Werner cells suffer replication stress and double-strand-break repair defects with potential PARP sensitivity.
 - `connects-to` → **[NASH](../nash/README.md)** — Lipodystrophic metabolic disease: Werner syndrome strips subcutaneous fat while accumulating visceral fat, driving severe insulin resistance and hepatic steatosis that progresses to NASH alongside its diabetes.
 - `connects-to` → **[Familial Hypercholesterolemia](../familial-hypercholesterolemia/README.md)** — Two roads to early heart attacks: Werner syndrome causes premature atherosclerosis through accelerated cellular ageing, paralleling the early coronary disease of familial hypercholesterolaemia driven instead by lifelong high LDL.
+- `connects-to` → **[Cyclin D1](../../03-molecular/cyclin-d1/README.md)** — Cell-cycle in cancer: the genomic instability of WRN loss with cell-cycle dysregulation (CDKN2A, cyclin D1) drives the diverse, often mesenchymal cancers of Werner syndrome.
+- `connects-to` → **[MYC](../../03-molecular/myc/README.md)** — Oncogene activation: MYC activation contributes to the sarcomas and other malignancies that arise from the genomic instability of Werner syndrome.
+- `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — Metabolism and growth: PI3K-AKT-mTOR signalling links Werner syndrome's insulin resistance and diabetes to the growth signalling of its cancers.
 
 [^yu-1996-wrn]: Yu CE, Oshima J, Fu YH, et al. Positional cloning of the Werner's syndrome gene. *Science.* 1996;272(5259):258-262. [doi:10.1126/science.272.5259.258](https://doi.org/10.1126/science.272.5259.258) · [PubMed 8602509](https://pubmed.ncbi.nlm.nih.gov/8602509/)
 [^lauper-2013-wrn-neoplasia]: Lauper JM, Krause A, Vaughan TL, Monnat RJ Jr. Spectrum and risk of neoplasia in Werner syndrome: a systematic review. *PLoS One.* 2013;8(4):e59709. [doi:10.1371/journal.pone.0059709](https://doi.org/10.1371/journal.pone.0059709) · [PubMed 23579047](https://pubmed.ncbi.nlm.nih.gov/23579047/)

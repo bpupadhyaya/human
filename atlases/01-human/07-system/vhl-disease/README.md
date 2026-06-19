@@ -268,6 +268,15 @@ cross_links:
   - target: 01-human/07-system/men4-syndrome
     relation: connects-to
     note: "Hereditary endocrine-tumour syndromes: like MEN1 and MEN4, VHL predisposes to pancreatic neuroendocrine tumours, one of several germline syndromes demanding lifelong surveillance of multiple endocrine organs."
+  - target: 01-human/03-molecular/myc
+    relation: connects-to
+    note: "HIF-MYC interplay: stabilised HIF cooperates with MYC activity to drive the proliferation and metabolism of the clear-cell renal carcinomas of VHL disease."
+  - target: 01-human/03-molecular/ezh2
+    relation: connects-to
+    note: "Chromatin dysregulation: EZH2/polycomb activity, in the context of PBRM1 and BAP1 loss accompanying VHL inactivation, contributes to clear-cell renal carcinoma."
+  - target: 01-human/03-molecular/yap1
+    relation: connects-to
+    note: "Hippo activation: deregulated Hippo-YAP signalling contributes to the renal carcinomas and hemangioblastomas of VHL disease, alongside its dominant HIF axis."
 ---
 
 # VHL Disease
@@ -473,6 +482,9 @@ The genotype-phenotype correlation reflects the degree of pVHL function retained
 - `connects-to` → **[Peripheral Nerve](../../05-tissue/peripheral-nerve/README.md)** — Hemangioblastomas on the nerve roots: VHL's vascular tumours stud not only the cerebellum and retina but the spinal cord and its nerve roots, compressing them to cause pain and neurological deficits.
 - `connects-to` → **[Cortical Bone](../../05-tissue/cortical-bone/README.md)** — Metastatic renal cancer in bone: the clear-cell renal carcinomas of VHL metastasise to the skeleton, producing the highly vascular, osteolytic cortical-bone lesions typical of renal cell carcinoma.
 - `connects-to` → **[MEN4 Syndrome](../men4-syndrome/README.md)** — Hereditary endocrine-tumour syndromes: like MEN1 and MEN4, VHL predisposes to pancreatic neuroendocrine tumours, one of several germline syndromes demanding lifelong surveillance of multiple endocrine organs.
+- `connects-to` → **[MYC](../../03-molecular/myc/README.md)** — HIF-MYC interplay: stabilised HIF cooperates with MYC activity to drive the proliferation and metabolism of the clear-cell renal carcinomas of VHL disease.
+- `connects-to` → **[EZH2](../../03-molecular/ezh2/README.md)** — Chromatin dysregulation: EZH2/polycomb activity, in the context of PBRM1 and BAP1 loss accompanying VHL inactivation, contributes to clear-cell renal carcinoma.
+- `connects-to` → **[YAP1](../../03-molecular/yap1/README.md)** — Hippo activation: deregulated Hippo-YAP signalling contributes to the renal carcinomas and hemangioblastomas of VHL disease, alongside its dominant HIF axis.
 
 [^lonser-2003-vhl-disease]: Lonser RR, Glenn GM, Walther M, et al. von Hippel-Lindau disease. *Lancet.* 2003;361(9374):2059-2067. [doi:10.1016/S0140-6736(03)13643-4](https://doi.org/10.1016/S0140-6736(03)13643-4) · [PubMed 12814730](https://pubmed.ncbi.nlm.nih.gov/12814730/)
 [^choueiri-2020-hif2-rcc]: Choueiri TK, Kaelin WG Jr. Targeting the HIF2-VEGF axis in renal cell carcinoma. *Nat Med.* 2020;26(10):1519-1530. [doi:10.1038/s41591-020-1093-z](https://doi.org/10.1038/s41591-020-1093-z) · [PubMed 33020650](https://pubmed.ncbi.nlm.nih.gov/33020650/)
