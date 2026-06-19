@@ -239,6 +239,15 @@ cross_links:
   - target: 01-human/05-tissue/cortical-bone
     relation: connects-to
     note: "Sex steroids govern the skeleton: oestrogen and testosterone restrain osteoclasts and maintain bone density, so menopause, hypogonadism, and anti-hormonal cancer therapy all accelerate cortical bone loss and fracture risk."
+  - target: 01-human/07-system/ovarian-clear-cell-carcinoma
+    relation: connects-to
+    note: "A gynaecological cancer born of endometriosis: ovarian clear cell carcinoma arises from endometriotic cysts of the reproductive tract, an ARID1A-driven, chemoresistant tumour that ties the reproductive system to oncology."
+  - target: 01-human/02-atomic/selenium
+    relation: connects-to
+    note: "A trace element male fertility needs: selenium is built into selenoproteins essential for sperm maturation and flagellar function, so selenium deficiency impairs sperm motility and male fertility."
+  - target: 01-human/03-molecular/nitric-oxide
+    relation: connects-to
+    note: "The molecule behind erection and uterine blood flow: nitric oxide relaxes vascular and smooth muscle to drive penile erection (the PDE5/cGMP pathway sildenafil targets) and to widen the blood supply of the uterus and placenta."
 ---
 
 # Reproductive System
@@ -428,6 +437,9 @@ Testosterone binds androgen receptor (AR, nuclear receptor NR3C4) → AR dimeriz
 - `connects-to` → **[Staphylococcus aureus](../../../02-pathogen/02-bacteria/staphylococcus-aureus/README.md)** — Reproductive practices invite toxic shock: prolonged tampon use and the postpartum uterus let Staphylococcus aureus release TSST-1 superantigen causing menstrual toxic shock syndrome, and the organism also drives lactational mastitis and breast abscess.
 - `connects-to` → **[Aspirin](../../../03-medicine/01-modern/04-cardio/aspirin/README.md)** — Low-dose aspirin protects pregnancy: started before 16 weeks in high-risk women, low-dose aspirin lowers the incidence of pre-eclampsia and fetal growth restriction by rebalancing placental thromboxane and prostacyclin.
 - `connects-to` → **[Cortical Bone](../../05-tissue/cortical-bone/README.md)** — Sex steroids govern the skeleton: oestrogen and testosterone restrain osteoclasts and maintain bone density, so menopause, hypogonadism, and anti-hormonal cancer therapy all accelerate cortical bone loss and fracture risk.
+- `connects-to` → **[Ovarian Clear Cell Carcinoma](../ovarian-clear-cell-carcinoma/README.md)** — A gynaecological cancer born of endometriosis: ovarian clear cell carcinoma arises from endometriotic cysts of the reproductive tract, an ARID1A-driven, chemoresistant tumour that ties the reproductive system to oncology.
+- `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — A trace element male fertility needs: selenium is built into selenoproteins essential for sperm maturation and flagellar function, so selenium deficiency impairs sperm motility and male fertility.
+- `connects-to` → **[Nitric Oxide](../../03-molecular/nitric-oxide/README.md)** — The molecule behind erection and uterine blood flow: nitric oxide relaxes vascular and smooth muscle to drive penile erection (the PDE5/cGMP pathway sildenafil targets) and to widen the blood supply of the uterus and placenta.
 
 ## Pathology
 
