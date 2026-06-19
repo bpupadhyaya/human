@@ -268,6 +268,15 @@ cross_links:
   - target: 01-human/03-molecular/h3k27m
     relation: connects-to
     note: "Two routes to the same epigenetic loss: the H3K27M oncohistone of diffuse midline glioma and PRC2 (SUZ12/EED) inactivation in MPNST both abolish the repressive H3K27me3 mark, a convergence exploited diagnostically by loss of H3K27me3 staining."
+  - target: 01-human/03-molecular/myc
+    relation: connects-to
+    note: "Malignant transformation: MYC activation helps drive the progression of plexiform neurofibroma to MPNST, fuelling the proliferation of this aggressive sarcoma."
+  - target: 01-human/03-molecular/tert
+    relation: connects-to
+    note: "Replicative immortality: TERT promoter activation maintains telomeres in MPNST, supporting the unlimited division of its transformed cells."
+  - target: 01-human/03-molecular/braf
+    relation: connects-to
+    note: "MAPK amplification: NF1 loss unleashes RAS, and additional BRAF/MAPK-pathway activation further drives the RAS-RAF-MEK-ERK signalling central to MPNST."
 ---
 
 # MPNST
@@ -483,6 +492,9 @@ Wide local excision with negative margins is the only potentially curative inter
 - `connects-to` → **[Desmoid Tumor](../desmoid-tumor/README.md)** — A fibroblastic differential: like MPNST, a desmoid tumour presents as a deep, infiltrative soft-tissue mass, and the two sit in the differential of an enlarging extremity or trunk lesion despite their very different biology and prognosis.
 - `connects-to` → **[Glioblastoma](../glioblastoma/README.md)** — NF1's two malignancies: neurofibromatosis type 1 predisposes to MPNST in peripheral nerves and to high-grade gliomas including glioblastoma in the CNS, both RAS-pathway-driven cancers of the syndrome.
 - `connects-to` → **[H3K27M](../../03-molecular/h3k27m/README.md)** — Two routes to the same epigenetic loss: the H3K27M oncohistone of diffuse midline glioma and PRC2 (SUZ12/EED) inactivation in MPNST both abolish the repressive H3K27me3 mark, a convergence exploited diagnostically by loss of H3K27me3 staining.
+- `connects-to` → **[MYC](../../03-molecular/myc/README.md)** — Malignant transformation: MYC activation helps drive the progression of plexiform neurofibroma to MPNST, fuelling the proliferation of this aggressive sarcoma.
+- `connects-to` → **[TERT](../../03-molecular/tert/README.md)** — Replicative immortality: TERT promoter activation maintains telomeres in MPNST, supporting the unlimited division of its transformed cells.
+- `connects-to` → **[BRAF](../../03-molecular/braf/README.md)** — MAPK amplification: NF1 loss unleashes RAS, and additional BRAF/MAPK-pathway activation further drives the RAS-RAF-MEK-ERK signalling central to MPNST.
 
 [^evans-2002-mpnst-nf1]: Evans DGR, Baser ME, McGaughran J, et al. Malignant peripheral nerve sheath tumours in neurofibromatosis 1. *J Med Genet.* 2002;39(5):311-314. [doi:10.1136/jmg.39.5.311](https://doi.org/10.1136/jmg.39.5.311) · [PubMed 12011145](https://pubmed.ncbi.nlm.nih.gov/12011145/)
 [^lee-2014-mpnst-prc2]: Lee W, Teckie S, Wiesner T, et al. PRC2 is recurrently inactivated through EED or SUZ12 loss in malignant peripheral nerve sheath tumors. *Nat Genet.* 2014;46(11):1227-1232. [doi:10.1038/ng.3095](https://doi.org/10.1038/ng.3095) · [PubMed 25240281](https://pubmed.ncbi.nlm.nih.gov/25240281/)

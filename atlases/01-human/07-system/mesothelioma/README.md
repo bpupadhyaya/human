@@ -268,6 +268,15 @@ cross_links:
   - target: 01-human/05-tissue/cortical-bone
     relation: connects-to
     note: "Chest-wall invasion: pleural mesothelioma grows outward through the pleura into the chest wall, eroding ribs and cortical bone and seeding the tracts left by biopsy needles and chest drains."
+  - target: 01-human/03-molecular/ezh2
+    relation: connects-to
+    note: "BAP1 synthetic lethality: BAP1 loss in mesothelioma creates a dependence on EZH2, the rationale for EZH2 inhibitors such as tazemetostat in BAP1-deficient tumours."
+  - target: 01-human/03-molecular/egfr
+    relation: connects-to
+    note: "Receptor overexpression: EGFR is frequently overexpressed in mesothelioma, contributing to its growth signalling though single-agent EGFR inhibition has had limited success."
+  - target: 01-human/03-molecular/myc
+    relation: connects-to
+    note: "Proliferative drive: MYC activation contributes to the aggressive proliferation of mesothelioma, downstream of its tumour-suppressor losses."
 ---
 
 # Mesothelioma
@@ -470,6 +479,9 @@ Cytoreductive surgery (CRS) + hyperthermic intraperitoneal chemotherapy (HIPEC):
 - `connects-to` → **[Tuberculosis](../tuberculosis/README.md)** — The benign mimic: tuberculous pleurisy produces pleural thickening, effusion and a rind that can closely imitate mesothelioma on imaging, a crucial differential to exclude with biopsy especially where TB is endemic.
 - `connects-to` → **[Intestinal Epithelium](../../05-tissue/intestinal-epithelium/README.md)** — The peritoneal variant: about a fifth of mesotheliomas arise in the peritoneum, studding the serosal surfaces and encasing the bowel over its intestinal epithelium to cause obstruction and ascites.
 - `connects-to` → **[Cortical Bone](../../05-tissue/cortical-bone/README.md)** — Chest-wall invasion: pleural mesothelioma grows outward through the pleura into the chest wall, eroding ribs and cortical bone and seeding the tracts left by biopsy needles and chest drains.
+- `connects-to` → **[EZH2](../../03-molecular/ezh2/README.md)** — BAP1 synthetic lethality: BAP1 loss in mesothelioma creates a dependence on EZH2, the rationale for EZH2 inhibitors such as tazemetostat in BAP1-deficient tumours.
+- `connects-to` → **[EGFR](../../03-molecular/egfr/README.md)** — Receptor overexpression: EGFR is frequently overexpressed in mesothelioma, contributing to its growth signalling though single-agent EGFR inhibition has had limited success.
+- `connects-to` → **[MYC](../../03-molecular/myc/README.md)** — Proliferative drive: MYC activation contributes to the aggressive proliferation of mesothelioma, downstream of its tumour-suppressor losses.
 
 [^baas-2021-checkmate743]: Baas P, Scherpereel A, Nowak AK, et al. First-line nivolumab plus ipilimumab in unresectable malignant pleural mesothelioma (CheckMate 743). *Lancet.* 2021;397(10272):375-386. [doi:10.1016/S0140-6736(20)32714-8](https://doi.org/10.1016/S0140-6736(20)32714-8) · [PubMed 33485464](https://pubmed.ncbi.nlm.nih.gov/33485464/)
 [^vogelzang-2003-pemetrexed]: Vogelzang NJ, Rusthoven JJ, Symanowski J, et al. Phase III study of pemetrexed in combination with cisplatin versus cisplatin alone in patients with malignant pleural mesothelioma. *J Clin Oncol.* 2003;21(14):2636-2644. [doi:10.1200/JCO.2003.11.136](https://doi.org/10.1200/JCO.2003.11.136) · [PubMed 12860938](https://pubmed.ncbi.nlm.nih.gov/12860938/)
