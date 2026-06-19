@@ -262,6 +262,15 @@ cross_links:
   - target: 01-human/07-system/renal-cell-carcinoma
     relation: connects-to
     note: "Tumour thrombus in the vein: renal cell carcinoma characteristically grows as a tumour thrombus up the renal vein and inferior vena cava, and its cancer-associated hypercoagulability adds to VTE risk."
+  - target: 01-human/07-system/stroke
+    relation: connects-to
+    note: "Paradoxical embolism: a venous clot can cross a patent foramen ovale into the arterial circulation and lodge in the brain, turning a deep-vein thrombosis into a paradoxical stroke."
+  - target: 01-human/07-system/breast-cancer
+    relation: connects-to
+    note: "Cancer-associated thrombosis: breast cancer raises VTE risk through tumour procoagulants, chemotherapy and hormonal therapy like tamoxifen, a common Trousseau-type complication."
+  - target: 01-human/05-tissue/cortical-bone
+    relation: connects-to
+    note: "Surgery and fracture provoke clots: major orthopaedic surgery and long-bone fractures of the cortical bone are among the strongest provokers of deep-vein thrombosis, driving routine post-operative prophylaxis."
 ---
 
 # Venous Thromboembolism
@@ -462,6 +471,9 @@ cross_links:
 - `connects-to` → **[Alveolus](../../05-tissue/alveolus/README.md)** — Pulmonary embolism at the gas-exchange unit: a clot lodging in the pulmonary arteries creates alveolar dead space—ventilated but not perfused—causing the hypoxaemia and, occasionally, pulmonary infarction of PE.
 - `connects-to` → **[Thalassemia](../thalassemia/README.md)** — A prothrombotic anaemia: thalassaemia, especially after splenectomy, carries a hypercoagulable state with procoagulant red-cell membranes and thrombocytosis that raises venous thrombosis risk.
 - `connects-to` → **[Renal Cell Carcinoma](../renal-cell-carcinoma/README.md)** — Tumour thrombus in the vein: renal cell carcinoma characteristically grows as a tumour thrombus up the renal vein and inferior vena cava, and its cancer-associated hypercoagulability adds to VTE risk.
+- `connects-to` → **[Stroke](../stroke/README.md)** — Paradoxical embolism: a venous clot can cross a patent foramen ovale into the arterial circulation and lodge in the brain, turning a deep-vein thrombosis into a paradoxical stroke.
+- `connects-to` → **[Breast Cancer](../breast-cancer/README.md)** — Cancer-associated thrombosis: breast cancer raises VTE risk through tumour procoagulants, chemotherapy and hormonal therapy like tamoxifen, a common Trousseau-type complication.
+- `connects-to` → **[Cortical Bone](../../05-tissue/cortical-bone/README.md)** — Surgery and fracture provoke clots: major orthopaedic surgery and long-bone fractures of the cortical bone are among the strongest provokers of deep-vein thrombosis, driving routine post-operative prophylaxis.
 
 [^agnelli-2013-amplify-apixaban-vte]: Agnelli G, Buller HR, Cohen A, et al. Oral apixaban for the treatment of acute venous thromboembolism. *N Engl J Med.* 2013;369(9):799-808. [doi:10.1056/NEJMoa1302507](https://doi.org/10.1056/NEJMoa1302507) · [PubMed 23808982](https://pubmed.ncbi.nlm.nih.gov/23808982/)
 [^bauersachs-2010-einstein-rivaroxaban]: EINSTEIN Investigators. Oral rivaroxaban for symptomatic venous thromboembolism. *N Engl J Med.* 2010;363(26):2499-2510. [doi:10.1056/NEJMoa1007903](https://doi.org/10.1056/NEJMoa1007903) · [PubMed 21128814](https://pubmed.ncbi.nlm.nih.gov/21128814/)

@@ -261,6 +261,15 @@ cross_links:
   - target: 01-human/06-organ/brain
     relation: connects-to
     note: "Extramedullary haematopoiesis: ineffective marrow pushes blood formation into masses outside the marrow, including paraspinal and intracranial deposits that can compress the cord or brain."
+  - target: 01-human/07-system/gvhd
+    relation: connects-to
+    note: "A curative transplant: allogeneic stem-cell transplant can cure transfusion-dependent thalassemia, but graft-versus-host disease is a major risk—now joined by gene therapy as a cure."
+  - target: 01-human/05-tissue/germinal-center
+    relation: connects-to
+    note: "Alloimmunisation from transfusion: chronic red-cell transfusions in thalassemia drive germinal-centre antibody responses against donor red-cell antigens, complicating future cross-matching."
+  - target: 01-human/05-tissue/cardiac-conduction-system
+    relation: connects-to
+    note: "Iron and arrhythmia: transfusional iron overload injures the cardiac conduction system as well as the myocardium, causing arrhythmias that, with cardiomyopathy, are a leading cause of death in thalassemia."
 ---
 
 # Thalassemia
@@ -486,6 +495,9 @@ Untransfused or undertransfused β-thal major:
 - `connects-to` → **[Myocardium](../../05-tissue/myocardium/README.md)** — Iron-overload cardiomyopathy: transfusional iron deposits in the myocardium, causing the heart failure and arrhythmias that are the leading cause of death in transfusion-dependent thalassaemia—the target of iron chelation.
 - `connects-to` → **[Hepatic Lobule](../../05-tissue/hepatic-lobule/README.md)** — Iron scars the liver: deposition of transfusional iron in the hepatic lobule drives fibrosis and cirrhosis, compounded by hepatitis C, a major complication tracked by liver iron quantification.
 - `connects-to` → **[Brain](../../06-organ/brain/README.md)** — Extramedullary haematopoiesis: ineffective marrow pushes blood formation into masses outside the marrow, including paraspinal and intracranial deposits that can compress the cord or brain.
+- `connects-to` → **[GVHD](../gvhd/README.md)** — A curative transplant: allogeneic stem-cell transplant can cure transfusion-dependent thalassemia, but graft-versus-host disease is a major risk—now joined by gene therapy as a cure.
+- `connects-to` → **[Germinal Center](../../05-tissue/germinal-center/README.md)** — Alloimmunisation from transfusion: chronic red-cell transfusions in thalassemia drive germinal-centre antibody responses against donor red-cell antigens, complicating future cross-matching.
+- `connects-to` → **[Cardiac Conduction System](../../05-tissue/cardiac-conduction-system/README.md)** — Iron and arrhythmia: transfusional iron overload injures the cardiac conduction system as well as the myocardium, causing arrhythmias that, with cardiomyopathy, are a leading cause of death in thalassemia.
 
 [^weatherall-2008-thalassemia-review]: Weatherall DJ. The inherited diseases of hemoglobin are an emerging global health burden. *Blood.* 2010;115(22):4331-4336. [doi:10.1182/blood-2010-01-251348](https://doi.org/10.1182/blood-2010-01-251348) · [PubMed 20233970](https://pubmed.ncbi.nlm.nih.gov/20233970/)
 [^cappellini-2014-thalassemia-guidelines]: Cappellini MD, Cohen A, Porter J, et al. (eds). Guidelines for the Management of Transfusion Dependent Thalassaemia (TDT). 3rd ed. Thalassaemia International Federation; 2014.
