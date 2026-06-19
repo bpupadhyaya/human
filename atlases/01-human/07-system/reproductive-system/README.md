@@ -257,6 +257,16 @@ cross_links:
   - target: 01-human/05-tissue/arterial-wall
     relation: connects-to
     note: "Vessels of pregnancy and protection: the reproductive system remodels the spiral arteries of the endometrium and placenta, and oestrogen protects the arterial wall—lost at menopause when cardiovascular risk climbs."
+  - target: 01-human/07-system/atherosclerosis
+    relation: connects-to
+    note: "Sex hormones and the arteries: oestrogen restrains atherosclerosis before menopause and its loss accelerates it, while erectile dysfunction from penile-artery disease is often the first warning sign of systemic atherosclerosis in men."
+  - target: 01-human/07-system/hnscc
+    relation: connects-to
+    note: "HPV beyond the cervix: the same oncogenic human papillomavirus that causes cervical and anogenital cancers of the reproductive tract also drives a rising share of oropharyngeal head and neck cancers."
+  - target: 01-human/07-system/thalassemia
+    relation: connects-to
+    note: "Iron and the gonads: lifelong transfusions in thalassaemia deposit iron in the pituitary and gonads, making hypogonadism and infertility the commonest endocrine complication of the disease."
+---
 ---
 
 # Reproductive System
@@ -452,6 +462,9 @@ Testosterone binds androgen receptor (AR, nuclear receptor NR3C4) → AR dimeriz
 - `connects-to` → **[DICER1 Syndrome](../dicer1-syndrome/README.md)** — Inherited reproductive tumours: DICER1 predisposes to ovarian sex-cord-stromal tumours such as Sertoli-Leydig tumours, one of the germline syndromes that strike the reproductive system.
 - `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — Angiogenesis in reproduction: VEGF drives the cyclical vessel growth of the corpus luteum, endometrium and placenta, the controlled angiogenesis on which the menstrual cycle and pregnancy depend.
 - `connects-to` → **[Arterial Wall](../../05-tissue/arterial-wall/README.md)** — Vessels of pregnancy and protection: the reproductive system remodels the spiral arteries of the endometrium and placenta, and oestrogen protects the arterial wall—lost at menopause when cardiovascular risk climbs.
+- `connects-to` → **[Atherosclerosis](../atherosclerosis/README.md)** — Sex hormones and the arteries: oestrogen restrains atherosclerosis before menopause and its loss accelerates it, while erectile dysfunction from penile-artery disease is often the first warning sign of systemic atherosclerosis in men.
+- `connects-to` → **[HNSCC](../hnscc/README.md)** — HPV beyond the cervix: the same oncogenic human papillomavirus that causes cervical and anogenital cancers of the reproductive tract also drives a rising share of oropharyngeal head and neck cancers.
+- `connects-to` → **[Thalassemia](../thalassemia/README.md)** — Iron and the gonads: lifelong transfusions in thalassaemia deposit iron in the pituitary and gonads, making hypogonadism and infertility the commonest endocrine complication of the disease.
 
 ## Pathology
 

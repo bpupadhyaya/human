@@ -259,6 +259,15 @@ cross_links:
   - target: 01-human/05-tissue/hepatic-lobule
     relation: connects-to
     note: "Metastatic spread to the liver: extraocular retinoblastoma seeds the liver and bone marrow, depositing in the hepatic lobule in the disseminated disease that dominates late presentations in low-resource settings."
+  - target: 01-human/07-system/meningioma
+    relation: connects-to
+    note: "Radiation-induced second tumour: hereditary retinoblastoma survivors treated with external-beam radiotherapy face a raised risk of meningioma in the radiation field decades later, a survivorship hazard like that in Li-Fraumeni."
+  - target: 01-human/07-system/prostate-cancer
+    relation: connects-to
+    note: "RB1 across cancers: loss of RB1, the gene behind retinoblastoma, also drives treatment-emergent neuroendocrine prostate cancer and small-cell transformation, the same tumour suppressor failing in very different tissues."
+  - target: 01-human/07-system/synovial-sarcoma
+    relation: connects-to
+    note: "Second cancers of survivors: germline RB1 carriers face a high lifetime risk of second malignancies including soft-tissue sarcomas such as synovial sarcoma, especially within prior radiation fields."
 ---
 
 # Retinoblastoma
@@ -452,6 +461,9 @@ Standard regimen: **vincristine + carboplatin + etoposide (VCE)**, 6 cycles; red
 - `connects-to` → **[Axonal Transport](../../05-tissue/axonal-transport/README.md)** — Optic nerve and CNS spread: retinoblastoma invades the optic nerve and tracks along its axons into the CNS, so optic-nerve involvement at the resection margin is the key prognostic factor and route to fatal leptomeningeal disease.
 - `connects-to` → **[Wilms Tumor](../wilms-tumor/README.md)** — Two embryonal childhood cancers: retinoblastoma (RB1, eye) and Wilms tumour (WT1, kidney) are both classic tumours of infancy, paradigms of inherited and developmental cancer.
 - `connects-to` → **[Hepatic Lobule](../../05-tissue/hepatic-lobule/README.md)** — Metastatic spread to the liver: extraocular retinoblastoma seeds the liver and bone marrow, depositing in the hepatic lobule in the disseminated disease that dominates late presentations in low-resource settings.
+- `connects-to` → **[Meningioma](../meningioma/README.md)** — Radiation-induced second tumour: hereditary retinoblastoma survivors treated with external-beam radiotherapy face a raised risk of meningioma in the radiation field decades later, a survivorship hazard like that in Li-Fraumeni.
+- `connects-to` → **[Prostate Cancer](../prostate-cancer/README.md)** — RB1 across cancers: loss of RB1, the gene behind retinoblastoma, also drives treatment-emergent neuroendocrine prostate cancer and small-cell transformation, the same tumour suppressor failing in very different tissues.
+- `connects-to` → **[Synovial Sarcoma](../synovial-sarcoma/README.md)** — Second cancers of survivors: germline RB1 carriers face a high lifetime risk of second malignancies including soft-tissue sarcomas such as synovial sarcoma, especially within prior radiation fields.
 
 [^knudson-1971-two-hit]: Knudson AG Jr. Mutation and cancer: statistical study of retinoblastoma. *Proc Natl Acad Sci USA.* 1971;68(4):820-823. [doi:10.1073/pnas.68.4.820](https://doi.org/10.1073/pnas.68.4.820) · [PubMed 5279523](https://pubmed.ncbi.nlm.nih.gov/5279523/)
 [^shields-2008-retinoblastoma]: Shields CL, Shields JA. Retinoblastoma management: advances in enucleation, intravenous chemoreduction, and intra-arterial chemotherapy. *Curr Opin Ophthalmol.* 2010;21(3):203-212. [doi:10.1097/ICU.0b013e328338676a](https://doi.org/10.1097/ICU.0b013e328338676a) · [PubMed 20224400](https://pubmed.ncbi.nlm.nih.gov/20224400/)
