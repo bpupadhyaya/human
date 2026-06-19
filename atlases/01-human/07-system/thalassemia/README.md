@@ -252,6 +252,15 @@ cross_links:
   - target: 01-human/05-tissue/cortical-bone
     relation: connects-to
     note: "Marrow expansion deforms the skeleton: ineffective erythropoiesis drives massive marrow hyperplasia that thins cortical bone, causing frontal bossing, the 'hair-on-end' skull, pathological fractures and osteoporosis."
+  - target: 01-human/05-tissue/myocardium
+    relation: connects-to
+    note: "Iron-overload cardiomyopathy: transfusional iron deposits in the myocardium, causing the heart failure and arrhythmias that are the leading cause of death in transfusion-dependent thalassaemia—the target of iron chelation."
+  - target: 01-human/05-tissue/hepatic-lobule
+    relation: connects-to
+    note: "Iron scars the liver: deposition of transfusional iron in the hepatic lobule drives fibrosis and cirrhosis, compounded by hepatitis C, a major complication tracked by liver iron quantification."
+  - target: 01-human/06-organ/brain
+    relation: connects-to
+    note: "Extramedullary haematopoiesis: ineffective marrow pushes blood formation into masses outside the marrow, including paraspinal and intracranial deposits that can compress the cord or brain."
 ---
 
 # Thalassemia
@@ -474,6 +483,9 @@ Untransfused or undertransfused β-thal major:
 - `connects-to` → **[Targeted Therapy](../../../03-medicine/01-modern/13-cancer/targeted-therapy/README.md)** — Gene therapy now offers a cure: lentiviral beti-cel and CRISPR-edited exa-cel restore functional haemoglobin and free transfusion-dependent β-thalassaemia patients from transfusions, alongside the iron-chelators that prevent organ damage.
 - `connects-to` → **[Cancer Chemotherapy](../../../03-medicine/01-modern/13-cancer/cancer-chemotherapy/README.md)** — Hydroxyurea and transplant conditioning: hydroxyurea raises fetal haemoglobin to ease some thalassaemias, and intensive conditioning chemotherapy precedes the allogeneic stem-cell transplant that can cure the disease.
 - `connects-to` → **[Cortical Bone](../../05-tissue/cortical-bone/README.md)** — Marrow expansion deforms the skeleton: ineffective erythropoiesis drives massive marrow hyperplasia that thins cortical bone, causing frontal bossing, the 'hair-on-end' skull, pathological fractures and osteoporosis.
+- `connects-to` → **[Myocardium](../../05-tissue/myocardium/README.md)** — Iron-overload cardiomyopathy: transfusional iron deposits in the myocardium, causing the heart failure and arrhythmias that are the leading cause of death in transfusion-dependent thalassaemia—the target of iron chelation.
+- `connects-to` → **[Hepatic Lobule](../../05-tissue/hepatic-lobule/README.md)** — Iron scars the liver: deposition of transfusional iron in the hepatic lobule drives fibrosis and cirrhosis, compounded by hepatitis C, a major complication tracked by liver iron quantification.
+- `connects-to` → **[Brain](../../06-organ/brain/README.md)** — Extramedullary haematopoiesis: ineffective marrow pushes blood formation into masses outside the marrow, including paraspinal and intracranial deposits that can compress the cord or brain.
 
 [^weatherall-2008-thalassemia-review]: Weatherall DJ. The inherited diseases of hemoglobin are an emerging global health burden. *Blood.* 2010;115(22):4331-4336. [doi:10.1182/blood-2010-01-251348](https://doi.org/10.1182/blood-2010-01-251348) · [PubMed 20233970](https://pubmed.ncbi.nlm.nih.gov/20233970/)
 [^cappellini-2014-thalassemia-guidelines]: Cappellini MD, Cohen A, Porter J, et al. (eds). Guidelines for the Management of Transfusion Dependent Thalassaemia (TDT). 3rd ed. Thalassaemia International Federation; 2014.
