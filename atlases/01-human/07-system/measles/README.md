@@ -281,6 +281,15 @@ cross_links:
   - target: 01-human/05-tissue/cardiac-conduction-system
     relation: connects-to
     note: "Measles and the heart: myocarditis is an uncommon complication of measles, inflaming the myocardium and its conduction system to cause arrhythmia during severe infection."
+  - target: 01-human/03-molecular/ifn-gamma
+    relation: connects-to
+    note: "Cell-mediated clearance: IFN-γ from T cells is essential for clearing measles virus, and the cellular immune response it drives produces the characteristic rash as the virus is eliminated."
+  - target: 01-human/03-molecular/il-6
+    relation: connects-to
+    note: "Acute inflammation: IL-6 rises in acute measles to drive the fever and acute-phase response, part of the cytokine surge of the systemic viral illness."
+  - target: 01-human/03-molecular/tnf-alpha
+    relation: connects-to
+    note: "Inflammatory mediator: TNF-α contributes to the systemic inflammation and tissue injury of severe measles, including its pneumonia and encephalitis complications."
 ---
 
 # Measles
@@ -513,6 +522,9 @@ Beyond immune amnesia (memory B cell depletion), MV causes acute immune suppress
 - `connects-to` → **[Axonal Transport](../../05-tissue/axonal-transport/README.md)** — SSPE, years later: subacute sclerosing panencephalitis is a fatal slow measles infection of the brain emerging years after the acute illness, a demyelinating panencephalitis destroying white-matter tracts and axons.
 - `connects-to` → **[Immune Thrombocytopenia](../immune-thrombocytopenia/README.md)** — Post-viral low platelets: measles (and rarely its vaccine) can trigger acute immune thrombocytopenia, antibody-mediated platelet destruction adding bleeding risk to the acute illness.
 - `connects-to` → **[Cardiac Conduction System](../../05-tissue/cardiac-conduction-system/README.md)** — Measles and the heart: myocarditis is an uncommon complication of measles, inflaming the myocardium and its conduction system to cause arrhythmia during severe infection.
+- `connects-to` → **[IFN-γ](../../03-molecular/ifn-gamma/README.md)** — Cell-mediated clearance: IFN-γ from T cells is essential for clearing measles virus, and the cellular immune response it drives produces the characteristic rash as the virus is eliminated.
+- `connects-to` → **[IL-6](../../03-molecular/il-6/README.md)** — Acute inflammation: IL-6 rises in acute measles to drive the fever and acute-phase response, part of the cytokine surge of the systemic viral illness.
+- `connects-to` → **[TNF-α](../../03-molecular/tnf-alpha/README.md)** — Inflammatory mediator: TNF-α contributes to the systemic inflammation and tissue injury of severe measles, including its pneumonia and encephalitis complications.
 
 [^panum-1847-faroe-measles]: Panum PL. Observations made during the epidemic of measles on the Faroe Islands in the year 1846. *Med Classics.* 1939;3:829-886.
 [^mina-2019-immune-amnesia]: Mina MJ, Kula T, Leng Y, et al. Measles virus infection diminishes preexisting antibodies that offer protection from other pathogens. *Science.* 2019;366(6465):599-606. [doi:10.1126/science.aay6485](https://doi.org/10.1126/science.aay6485) · [PubMed 31672891](https://pubmed.ncbi.nlm.nih.gov/31672891/)

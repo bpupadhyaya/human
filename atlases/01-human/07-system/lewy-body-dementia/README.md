@@ -283,6 +283,15 @@ cross_links:
   - target: 01-human/07-system/bipolar-disorder
     relation: connects-to
     note: "Late-life mood instability: new-onset mood disturbance in older adults can herald an emerging synucleinopathy like Lewy-body dementia, blurring the line between primary mood disorder and neurodegeneration."
+  - target: 01-human/03-molecular/il-1b
+    relation: connects-to
+    note: "Neuroinflammation: IL-1β from microglia activated around α-synuclein aggregates amplifies the inflammatory cascade that drives neuronal loss in Lewy-body dementia."
+  - target: 01-human/03-molecular/tnf-alpha
+    relation: connects-to
+    note: "Inflammatory neurodegeneration: elevated TNF-α reflects the chronic microglial activation accompanying the synucleinopathy of Lewy-body dementia, contributing to progressive neuronal injury."
+  - target: 01-human/03-molecular/gaba
+    relation: connects-to
+    note: "Cortical inhibition: loss of GABAergic interneurons contributes to the fluctuating attention, visual hallucinations and cognitive instability characteristic of Lewy-body dementia."
 ---
 
 # Lewy Body Dementia
@@ -497,6 +506,9 @@ Approximately 25-50% of clinically diagnosed DLB cases have significant AD co-pa
 - `connects-to` → **[Alveolus](../../05-tissue/alveolus/README.md)** — Aspiration ends it: dysphagia in advanced Lewy-body dementia leads to aspiration pneumonia, seeding the alveoli with oral flora—the leading cause of death as in other neurodegenerative diseases.
 - `connects-to` → **[Panic Disorder](../panic-disorder/README.md)** — Anxiety as a prodrome: prominent anxiety and panic are common non-motor and prodromal features of Lewy-body dementia, often preceding the cognitive and motor signs by years.
 - `connects-to` → **[Bipolar Disorder](../bipolar-disorder/README.md)** — Late-life mood instability: new-onset mood disturbance in older adults can herald an emerging synucleinopathy like Lewy-body dementia, blurring the line between primary mood disorder and neurodegeneration.
+- `connects-to` → **[IL-1β](../../03-molecular/il-1b/README.md)** — Neuroinflammation: IL-1β from microglia activated around α-synuclein aggregates amplifies the inflammatory cascade that drives neuronal loss in Lewy-body dementia.
+- `connects-to` → **[TNF-α](../../03-molecular/tnf-alpha/README.md)** — Inflammatory neurodegeneration: elevated TNF-α reflects the chronic microglial activation accompanying the synucleinopathy of Lewy-body dementia, contributing to progressive neuronal injury.
+- `connects-to` → **[GABA](../../03-molecular/gaba/README.md)** — Cortical inhibition: loss of GABAergic interneurons contributes to the fluctuating attention, visual hallucinations and cognitive instability characteristic of Lewy-body dementia.
 
 [^mckeith-2017-dlb-criteria]: McKeith IG, Boeve BF, Dickson DW, et al. Diagnosis and management of dementia with Lewy bodies: Fourth consensus report of the DLB Consortium. *Neurology.* 2017;89(1):88-100. [doi:10.1212/WNL.0000000000004058](https://doi.org/10.1212/WNL.0000000000004058) · [PubMed 28592453](https://pubmed.ncbi.nlm.nih.gov/28592453/)
 [^spillantini-1997-lewy-body]: Spillantini MG, Schmidt ML, Lee VM, Trojanowski JQ, Jakes R, Goedert M. Alpha-synuclein in Lewy bodies. *Nature.* 1997;388(6645):839-840. [doi:10.1038/42166](https://doi.org/10.1038/42166) · [PubMed 9278044](https://pubmed.ncbi.nlm.nih.gov/9278044/)
