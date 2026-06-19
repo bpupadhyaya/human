@@ -256,6 +256,15 @@ cross_links:
   - target: 01-human/07-system/binge-eating-disorder
     relation: connects-to
     note: "Anxiety can drive the binge: panic disorder and other anxiety disorders frequently co-occur with binge-eating disorder, where acute distress and emotional dysregulation trigger loss-of-control eating as a maladaptive coping response."
+  - target: 01-human/05-tissue/myocardium
+    relation: connects-to
+    note: "When panic mimics—and harms—the heart: panic attacks cause chest pain that mimics myocardial infarction, and extreme emotional stress can precipitate takotsubo stress cardiomyopathy of the myocardium."
+  - target: 01-human/05-tissue/alveolus
+    relation: connects-to
+    note: "Hyperventilation and the suffocation alarm: panic drives hyperventilation that blows off CO2 into respiratory alkalosis, and brain CO2-sensing underlies the 'false suffocation alarm' theory of panic."
+  - target: 01-human/05-tissue/peripheral-nerve
+    relation: connects-to
+    note: "Paraesthesiae and tetany: the respiratory alkalosis of a panic attack drops ionised calcium, hyperexciting peripheral nerves to cause the tingling, numbness and carpopedal spasm that frighten patients further."
 ---
 
 # Panic Disorder
@@ -480,6 +489,9 @@ The **interoceptive fear conditioning model** (Bouton, Mineka, Barlow) explains 
 - `connects-to` → **[Epilepsy](../epilepsy/README.md)** — Panic mimics and overlaps seizures: temporal-lobe epilepsy can produce fear and autonomic surges indistinguishable from a panic attack, and the two share limbic (amygdala-hippocampal) hyperexcitability and GABAergic dysfunction—an important diagnostic crossover.
 - `connects-to` → **[Cardiac Conduction System](../../05-tissue/cardiac-conduction-system/README.md)** — Its symptoms feel cardiac: a panic attack floods the heart with adrenaline, causing palpitations, tachycardia and chest pain that mimic a supraventricular arrhythmia and send patients to the emergency room fearing a heart attack.
 - `connects-to` → **[Binge-Eating Disorder](../binge-eating-disorder/README.md)** — Anxiety can drive the binge: panic disorder and other anxiety disorders frequently co-occur with binge-eating disorder, where acute distress and emotional dysregulation trigger loss-of-control eating as a maladaptive coping response.
+- `connects-to` → **[Myocardium](../../05-tissue/myocardium/README.md)** — When panic mimics—and harms—the heart: panic attacks cause chest pain that mimics myocardial infarction, and extreme emotional stress can precipitate takotsubo stress cardiomyopathy of the myocardium.
+- `connects-to` → **[Alveolus](../../05-tissue/alveolus/README.md)** — Hyperventilation and the suffocation alarm: panic drives hyperventilation that blows off CO2 into respiratory alkalosis, and brain CO2-sensing underlies the 'false suffocation alarm' theory of panic.
+- `connects-to` → **[Peripheral Nerve](../../05-tissue/peripheral-nerve/README.md)** — Paraesthesiae and tetany: the respiratory alkalosis of a panic attack drops ionised calcium, hyperexciting peripheral nerves to cause the tingling, numbness and carpopedal spasm that frighten patients further.
 
 [^gorman-2000-panic-neurobiology]: Gorman JM, Kent JM, Sullivan GM, Coplan JD. Neuroanatomical hypothesis of panic disorder, revised. *Am J Psychiatry.* 2000;157(4):493-505. [doi:10.1176/appi.ajp.157.4.493](https://doi.org/10.1176/appi.ajp.157.4.493) · [PubMed 10739407](https://pubmed.ncbi.nlm.nih.gov/10739407/)
 [^nardi-2009-clonazepam-panic]: Nardi AE, Freire RC, Zin WA. Panic disorder and control of breathing. *Respir Physiol Neurobiol.* 2009;167(1):133-143. [doi:10.1016/j.resp.2008.07.011](https://doi.org/10.1016/j.resp.2008.07.011) · [PubMed 18708168](https://pubmed.ncbi.nlm.nih.gov/18708168/)

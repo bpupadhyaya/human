@@ -256,6 +256,15 @@ cross_links:
   - target: 01-human/07-system/colorectal-cancer
     relation: connects-to
     note: "Both ride the KRAS pathway differently: nearly all pancreatic cancers are KRAS-driven and long untargetable, while KRAS-mutant colorectal cancers add druggable context like anti-EGFR resistance and G12C inhibitors—two windows on one oncogene."
+  - target: 01-human/05-tissue/hepatic-lobule
+    relation: connects-to
+    note: "Liver is the dominant metastatic site: pancreatic cancer drains via the portal vein to the liver, seeding the hepatic lobule, the spread that leaves most patients incurable at diagnosis."
+  - target: 01-human/07-system/gastric-cancer
+    relation: connects-to
+    note: "Aggressive upper-GI adenocarcinomas: pancreatic and gastric cancer share late presentation, desmoplastic biology, peritoneal spread and grim prognosis—the lethal upper-gastrointestinal malignancies."
+  - target: 01-human/05-tissue/intestinal-epithelium
+    relation: connects-to
+    note: "Duodenal invasion and obstruction: a pancreatic head tumour invades the adjacent duodenum, eroding the intestinal epithelium to cause bleeding and gastric-outlet obstruction."
 ---
 
 # Pancreatic Cancer
@@ -455,6 +464,9 @@ cross_links:
 - `connects-to` → **[Germinal Center](../../05-tissue/germinal-center/README.md)** — A profoundly cold tumour: pancreatic ductal adenocarcinoma's dense desmoplastic stroma excludes T cells and rarely forms tertiary lymphoid structures, so it lacks the germinal-centre immune organisation that would let checkpoint inhibitors work.
 - `connects-to` → **[Cholangiocarcinoma](../cholangiocarcinoma/README.md)** — Two desmoplastic foregut adenocarcinomas: pancreatic cancer and cholangiocarcinoma share a dense fibrotic stroma, late presentation, gemcitabine-based chemotherapy and a grim prognosis, arising from the linked pancreatic and biliary ductal systems.
 - `connects-to` → **[Colorectal Cancer](../colorectal-cancer/README.md)** — Both ride the KRAS pathway differently: nearly all pancreatic cancers are KRAS-driven and long untargetable, while KRAS-mutant colorectal cancers add druggable context like anti-EGFR resistance and G12C inhibitors—two windows on one oncogene.
+- `connects-to` → **[Hepatic Lobule](../../05-tissue/hepatic-lobule/README.md)** — Liver is the dominant metastatic site: pancreatic cancer drains via the portal vein to the liver, seeding the hepatic lobule, the spread that leaves most patients incurable at diagnosis.
+- `connects-to` → **[Gastric Cancer](../gastric-cancer/README.md)** — Aggressive upper-GI adenocarcinomas: pancreatic and gastric cancer share late presentation, desmoplastic biology, peritoneal spread and grim prognosis—the lethal upper-gastrointestinal malignancies.
+- `connects-to` → **[Intestinal Epithelium](../../05-tissue/intestinal-epithelium/README.md)** — Duodenal invasion and obstruction: a pancreatic head tumour invades the adjacent duodenum, eroding the intestinal epithelium to cause bleeding and gastric-outlet obstruction.
 
 ---
 
