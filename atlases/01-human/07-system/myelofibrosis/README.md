@@ -271,6 +271,15 @@ cross_links:
   - target: 01-human/05-tissue/peripheral-nerve
     relation: connects-to
     note: "Extramedullary haematopoiesis: blood-forming tissue colonises sites outside the marrow in myelofibrosis, and masses of epidural EMH can compress the spinal cord and nerve roots, a rare neurological emergency."
+  - target: 01-human/03-molecular/type-i-interferon
+    relation: connects-to
+    note: "Disease-modifying therapy: pegylated interferon-alpha can reduce the JAK2/CALR-mutant clone and even reverse marrow fibrosis in early myelofibrosis, unlike purely palliative JAK inhibitors."
+  - target: 01-human/03-molecular/ezh2
+    relation: connects-to
+    note: "High-risk mutation: loss-of-function EZH2 mutations are recurrent in myelofibrosis and mark a poorer prognosis among its epigenetic driver lesions."
+  - target: 01-human/03-molecular/hif-1alpha
+    relation: connects-to
+    note: "Hypoxic fibrotic niche: HIF-1α-driven angiogenesis and hypoxia characterise the densely fibrotic, neovascularised marrow of myelofibrosis."
 ---
 
 # Myelofibrosis
@@ -483,6 +492,9 @@ Abrupt ruxolitinib cessation → cytokine rebound → fever, splenomegaly surge,
 - `connects-to` → **[Von Willebrand Factor](../../03-molecular/von-willebrand-factor/README.md)** — Bleeding amid clotting: high platelet counts in myelofibrosis can adsorb and clear high-molecular-weight von Willebrand multimers, causing an acquired von Willebrand syndrome and paradoxical bleeding in a prothrombotic disease.
 - `connects-to` → **[Inherited Thrombophilia](../inherited-thrombophilia/README.md)** — Layered thrombotic risk: myelofibrosis is an acquired JAK2-driven prothrombotic state prone to splanchnic-vein thrombosis, a risk amplified when an inherited thrombophilia coexists.
 - `connects-to` → **[Peripheral Nerve](../../05-tissue/peripheral-nerve/README.md)** — Extramedullary haematopoiesis: blood-forming tissue colonises sites outside the marrow in myelofibrosis, and masses of epidural EMH can compress the spinal cord and nerve roots, a rare neurological emergency.
+- `connects-to` → **[Type I Interferon](../../03-molecular/type-i-interferon/README.md)** — Disease-modifying therapy: pegylated interferon-alpha can reduce the JAK2/CALR-mutant clone and even reverse marrow fibrosis in early myelofibrosis, unlike purely palliative JAK inhibitors.
+- `connects-to` → **[EZH2](../../03-molecular/ezh2/README.md)** — High-risk mutation: loss-of-function EZH2 mutations are recurrent in myelofibrosis and mark a poorer prognosis among its epigenetic driver lesions.
+- `connects-to` → **[HIF-1α](../../03-molecular/hif-1alpha/README.md)** — Hypoxic fibrotic niche: HIF-1α-driven angiogenesis and hypoxia characterise the densely fibrotic, neovascularised marrow of myelofibrosis.
 
 ---
 
