@@ -248,6 +248,15 @@ cross_links:
   - target: 03-medicine/01-modern/13-cancer/checkpoint-inhibitors
     relation: connects-to
     note: "Where anti-tumour immunity is orchestrated: checkpoint inhibitors work largely within the lymphatic system, freeing T cells primed by dendritic cells in the lymph nodes that drain a tumour, so intact lymphatic drainage shapes the response to immunotherapy."
+  - target: 01-human/05-tissue/fibrosis
+    relation: connects-to
+    note: "Lymphoedema fibrosis: chronic lymph stasis—after node dissection, radiation or filariasis—drives tissue fibrosis and fat deposition, the irreversible limb swelling that defines lymphoedema."
+  - target: 01-human/07-system/sjogrens-syndrome
+    relation: connects-to
+    note: "Lymphoid proliferation and MALT lymphoma: Sjögren's chronic lymphocytic infiltration of glands forms ectopic lymphoid tissue and carries the highest lymphoma risk of the autoimmune diseases, a disorder of the lymphatic system itself."
+  - target: 01-human/07-system/rheumatoid-arthritis
+    relation: connects-to
+    note: "Ectopic lymphoid tissue in the joint: rheumatoid arthritis builds germinal-centre-like follicles in inflamed synovium and causes lymphadenopathy, with a raised risk of lymphoma from chronic lymphatic activation."
 ---
 
 # Lymphatic System
@@ -434,6 +443,9 @@ Enterocytes package dietary triglycerides + cholesterol + apoB-48 into chylomicr
 - `connects-to` → **[ALL](../all/README.md)** — Cancer of the lymphoid progenitor: acute lymphoblastic leukaemia is the malignant proliferation of immature B- or T-lymphocyte precursors, the founding cells of the lymphatic system, filling marrow and infiltrating lymph nodes, thymus and spleen.
 - `connects-to` → **[Multiple Myeloma](../multiple-myeloma/README.md)** — The plasma cell at its end stage turns malignant: multiple myeloma is a clonal cancer of antibody-secreting plasma cells—the terminal product of the lymphatic system's B-cell lineage—accumulating in bone marrow and flooding blood with monoclonal immunoglobulin.
 - `connects-to` → **[Checkpoint Inhibitors](../../../03-medicine/01-modern/13-cancer/checkpoint-inhibitors/README.md)** — Where anti-tumour immunity is orchestrated: checkpoint inhibitors work largely within the lymphatic system, freeing T cells primed by dendritic cells in the lymph nodes that drain a tumour, so intact lymphatic drainage shapes the response to immunotherapy.
+- `connects-to` → **[Fibrosis](../../05-tissue/fibrosis/README.md)** — Lymphoedema fibrosis: chronic lymph stasis—after node dissection, radiation or filariasis—drives tissue fibrosis and fat deposition, the irreversible limb swelling that defines lymphoedema.
+- `connects-to` → **[Sjögren's Syndrome](../sjogrens-syndrome/README.md)** — Lymphoid proliferation and MALT lymphoma: Sjögren's chronic lymphocytic infiltration of glands forms ectopic lymphoid tissue and carries the highest lymphoma risk of the autoimmune diseases, a disorder of the lymphatic system itself.
+- `connects-to` → **[Rheumatoid Arthritis](../rheumatoid-arthritis/README.md)** — Ectopic lymphoid tissue in the joint: rheumatoid arthritis builds germinal-centre-like follicles in inflamed synovium and causes lymphadenopathy, with a raised risk of lymphoma from chronic lymphatic activation.
 
 ## Pathology
 

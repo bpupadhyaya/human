@@ -250,6 +250,15 @@ cross_links:
   - target: 01-human/05-tissue/germinal-center
     relation: connects-to
     note: "Why its tumours invite immunotherapy: mismatch-repair-deficient Lynch cancers accumulate frameshift neoantigens and draw dense lymphocytic infiltrates with germinal-centre-like tertiary lymphoid structures—the immune richness behind their response to checkpoint blockade."
+  - target: 01-human/07-system/medulloblastoma
+    relation: connects-to
+    note: "The recessive extreme (CMMRD): biallelic loss of a Lynch mismatch-repair gene causes constitutional MMR deficiency, a childhood syndrome with brain tumours including medulloblastoma and glioma."
+  - target: 01-human/07-system/all
+    relation: connects-to
+    note: "CMMRD leukaemia: constitutional mismatch-repair deficiency from biallelic Lynch-gene loss predisposes children to leukaemia and lymphoma alongside the brain and gut tumours."
+  - target: 01-human/05-tissue/hepatic-lobule
+    relation: connects-to
+    note: "Hepatobiliary spread: Lynch raises the risk of biliary-tract cancer, and mismatch-repair-deficient tumours metastasise to the liver, seeding the hepatic lobule."
 ---
 
 # Lynch Syndrome
@@ -467,6 +476,9 @@ MSI-H stage II CRC: adjuvant 5-FU/leucovorin does NOT improve OS (may be harmful
 - `connects-to` → **[MUTYH-Associated Polyposis](../mutyh-associated-polyposis/README.md)** — Two DNA-repair colorectal syndromes: Lynch arises from dominant mismatch-repair loss causing microsatellite instability, while MUTYH-associated polyposis comes from recessive base-excision-repair loss causing G:C→T:A mutations—different defects, overlapping colorectal risk.
 - `connects-to` → **[Ovarian Clear Cell Carcinoma](../ovarian-clear-cell-carcinoma/README.md)** — Its ovarian cancers favour a histology: Lynch-associated ovarian tumours are predominantly endometrioid and clear-cell rather than the high-grade serous cancers of BRCA carriers, so clear-cell ovarian cancer in a young woman can flag mismatch-repair deficiency.
 - `connects-to` → **[Germinal Center](../../05-tissue/germinal-center/README.md)** — Why its tumours invite immunotherapy: mismatch-repair-deficient Lynch cancers accumulate frameshift neoantigens and draw dense lymphocytic infiltrates with germinal-centre-like tertiary lymphoid structures—the immune richness behind their response to checkpoint blockade.
+- `connects-to` → **[Medulloblastoma](../medulloblastoma/README.md)** — The recessive extreme (CMMRD): biallelic loss of a Lynch mismatch-repair gene causes constitutional MMR deficiency, a childhood syndrome with brain tumours including medulloblastoma and glioma.
+- `connects-to` → **[ALL](../all/README.md)** — CMMRD leukaemia: constitutional mismatch-repair deficiency from biallelic Lynch-gene loss predisposes children to leukaemia and lymphoma alongside the brain and gut tumours.
+- `connects-to` → **[Hepatic Lobule](../../05-tissue/hepatic-lobule/README.md)** — Hepatobiliary spread: Lynch raises the risk of biliary-tract cancer, and mismatch-repair-deficient tumours metastasise to the liver, seeding the hepatic lobule.
 
 [^bonadona-2011-lynch-risks]: Bonadona V, Bonaïti B, Olschwang S, et al. Cancer risks associated with germline mutations in MLH1, MSH2, and MSH6 genes in Lynch syndrome. *JAMA.* 2011;305(22):2304-2310. [doi:10.1001/jama.2011.743](https://doi.org/10.1001/jama.2011.743) · [PubMed 21642683](https://pubmed.ncbi.nlm.nih.gov/21642683/)
 [^lynch-2015-lynch-review]: Lynch HT, Snyder CL, Shaw TG, et al. Milestones of Lynch syndrome: 1895-2015. *Nat Rev Cancer.* 2015;15(3):181-194. [doi:10.1038/nrc3878](https://doi.org/10.1038/nrc3878) · [PubMed 25673086](https://pubmed.ncbi.nlm.nih.gov/25673086/)
