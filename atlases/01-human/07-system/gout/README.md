@@ -265,6 +265,15 @@ cross_links:
   - target: 01-human/05-tissue/intestinal-epithelium
     relation: connects-to
     note: "The gut excretes urate too: about a third of uric acid is cleared through the intestinal epithelium via the ABCG2 transporter, so gut dysfunction shifts the urate load onto the kidney and worsens gout."
+  - target: 01-human/07-system/sickle-cell-disease
+    relation: connects-to
+    note: "Hyperuricaemia of high cell turnover: chronic haemolysis in sickle cell disease, like myeloproliferative disease, raises serum urate and causes secondary gout and urate nephropathy."
+  - target: 01-human/05-tissue/peripheral-nerve
+    relation: connects-to
+    note: "Tophi compress nerves: large tophaceous urate deposits can entrap peripheral nerves—classically carpal tunnel syndrome at the wrist—a mechanical complication of long-standing chronic gout."
+  - target: 01-human/07-system/covid-19-disease
+    relation: connects-to
+    note: "Shared inflammasome biology: gout's anti-inflammatory colchicine was repurposed and trialled for COVID-19's hyperinflammation, the two diseases linked through NLRP3-inflammasome and IL-1β signalling."
 ---
 
 # Gout
@@ -440,6 +449,9 @@ The central mechanism linking MSU crystals to acute gouty arthritis is **NLRP3 i
 - `connects-to` → **[AML](../aml/README.md)** — Tumour lysis hyperuricaemia: the rapid cell turnover of acute leukaemia and its chemotherapy floods the blood with purines and urate, triggering acute gout and urate nephropathy—prevented with allopurinol or rasburicase.
 - `connects-to` → **[Cardiac Conduction System](../../05-tissue/cardiac-conduction-system/README.md)** — Urate and the arrhythmic heart: hyperuricaemia and gout are linked to atrial fibrillation through systemic NLRP3-driven inflammation and shared metabolic risk.
 - `connects-to` → **[Intestinal Epithelium](../../05-tissue/intestinal-epithelium/README.md)** — The gut excretes urate too: about a third of uric acid is cleared through the intestinal epithelium via the ABCG2 transporter, so gut dysfunction shifts the urate load onto the kidney and worsens gout.
+- `connects-to` → **[Sickle Cell Disease](../sickle-cell-disease/README.md)** — Hyperuricaemia of high cell turnover: chronic haemolysis in sickle cell disease, like myeloproliferative disease, raises serum urate and causes secondary gout and urate nephropathy.
+- `connects-to` → **[Peripheral Nerve](../../05-tissue/peripheral-nerve/README.md)** — Tophi compress nerves: large tophaceous urate deposits can entrap peripheral nerves—classically carpal tunnel syndrome at the wrist—a mechanical complication of long-standing chronic gout.
+- `connects-to` → **[COVID-19 Disease](../covid-19-disease/README.md)** — Shared inflammasome biology: gout's anti-inflammatory colchicine was repurposed and trialled for COVID-19's hyperinflammation, the two diseases linked through NLRP3-inflammasome and IL-1β signalling.
 
 [^dalbeth-2019-gout-primer]: Dalbeth N, Choi HK, Joosten LAB, et al. Gout. *Nat Rev Dis Primers.* 2019;5(1):69. [doi:10.1038/s41572-019-0115-y](https://doi.org/10.1038/s41572-019-0115-y) · [PubMed 31558729](https://pubmed.ncbi.nlm.nih.gov/31558729/)
 [^martinon-2006-nlrp3-gout]: Martinon F, Pétrilli V, Mayor A, Tardivel A, Tschopp J. Gout-associated uric acid crystals activate the NALP3 inflammasome. *Nature.* 2006;440(7081):237-241. [doi:10.1038/nature04516](https://doi.org/10.1038/nature04516) · [PubMed 16407889](https://pubmed.ncbi.nlm.nih.gov/16407889/)

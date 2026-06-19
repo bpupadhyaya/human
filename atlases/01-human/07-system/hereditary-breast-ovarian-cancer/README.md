@@ -259,6 +259,15 @@ cross_links:
   - target: 01-human/07-system/ovarian-clear-cell-carcinoma
     relation: connects-to
     note: "Which ovarian cancer it causes: BRCA-associated ovarian cancer is high-grade serous, biologically distinct from the ARID1A-driven clear-cell subtype that arises from endometriosis."
+  - target: 01-human/07-system/uveal-melanoma
+    relation: connects-to
+    note: "BRCA2 and eye melanoma: germline BRCA2 mutations modestly raise the risk of uveal melanoma alongside the cutaneous melanoma of the broader BRCA2 cancer spectrum."
+  - target: 01-human/05-tissue/cortical-bone
+    relation: connects-to
+    note: "Surgical menopause and bone: risk-reducing oophorectomy in BRCA carriers brings early oestrogen loss that accelerates cortical-bone loss and osteoporosis—a trade-off of cancer prevention."
+  - target: 01-human/05-tissue/myocardium
+    relation: connects-to
+    note: "Treatment cardiotoxicity: anthracyclines and HER2-targeted trastuzumab used for BRCA-associated breast cancer can injure the myocardium, a survivorship concern alongside cure."
 ---
 
 # Hereditary Breast and Ovarian Cancer
@@ -475,6 +484,9 @@ BRCA-mutant cells (HRD):
 - `connects-to` → **[Werner Syndrome](../werner-syndrome/README.md)** — Genome-instability cancer syndromes: like Werner syndrome's RecQ-helicase defect, BRCA-driven HBOC reflects failed genome maintenance, predisposing to cancer through accumulated unrepaired DNA damage.
 - `connects-to` → **[Aplastic Anemia](../aplastic-anemia/README.md)** — Biallelic BRCA2 is Fanconi anaemia: inheriting two faulty BRCA2/FANCD1 alleles causes Fanconi anaemia with childhood bone-marrow failure—the recessive extreme of an HBOC gene.
 - `connects-to` → **[Ovarian Clear Cell Carcinoma](../ovarian-clear-cell-carcinoma/README.md)** — Which ovarian cancer it causes: BRCA-associated ovarian cancer is high-grade serous, biologically distinct from the ARID1A-driven clear-cell subtype that arises from endometriosis.
+- `connects-to` → **[Uveal Melanoma](../uveal-melanoma/README.md)** — BRCA2 and eye melanoma: germline BRCA2 mutations modestly raise the risk of uveal melanoma alongside the cutaneous melanoma of the broader BRCA2 cancer spectrum.
+- `connects-to` → **[Cortical Bone](../../05-tissue/cortical-bone/README.md)** — Surgical menopause and bone: risk-reducing oophorectomy in BRCA carriers brings early oestrogen loss that accelerates cortical-bone loss and osteoporosis—a trade-off of cancer prevention.
+- `connects-to` → **[Myocardium](../../05-tissue/myocardium/README.md)** — Treatment cardiotoxicity: anthracyclines and HER2-targeted trastuzumab used for BRCA-associated breast cancer can injure the myocardium, a survivorship concern alongside cure.
 
 ---
 
