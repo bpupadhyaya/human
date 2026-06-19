@@ -276,6 +276,15 @@ cross_links:
   - target: 01-human/07-system/covid-19-disease
     relation: connects-to
     note: "Immunosuppression and infection: the TNF, IL-17/23 and JAK inhibitors that control psoriatic arthritis modulate immunity, a consideration for COVID-19 severity and vaccine response in treated patients."
+  - target: 01-human/03-molecular/il-6
+    relation: connects-to
+    note: "Systemic inflammation: IL-6 contributes to the synovitis of psoriatic arthritis and to its comorbid cardiovascular and metabolic disease burden."
+  - target: 01-human/03-molecular/prostaglandins
+    relation: connects-to
+    note: "Eicosanoid pain pathway: COX-derived prostaglandins drive the joint pain and inflammation of psoriatic arthritis, the target of NSAIDs used for first-line symptom relief."
+  - target: 01-human/03-molecular/vegf
+    relation: connects-to
+    note: "Distinctive synovial vasculature: VEGF-driven angiogenesis produces the tortuous, bushy synovial vessels characteristic of psoriatic arthritis, differing from the pattern in rheumatoid arthritis."
 ---
 
 # Psoriatic Arthritis
@@ -509,6 +518,9 @@ Risankizumab (anti-IL-23p19) **failed primary endpoints** in the SURPASS trial f
 - `connects-to` → **[Intestinal Epithelium](../../05-tissue/intestinal-epithelium/README.md)** — The gut-joint axis: subclinical gut inflammation and microbiome changes drive spondyloarthritis including psoriatic arthritis through IL-23 from the intestinal epithelium, and IL-17 inhibitors can paradoxically flare bowel disease.
 - `connects-to` → **[Atopic Dermatitis](../atopic-dermatitis/README.md)** — Th17 versus Th2: psoriatic arthritis sits at the IL-17/23 (Th17) pole of skin immunity opposite the Th2-driven atopic dermatitis, and biologics for one can paradoxically induce eczematous eruptions resembling the other.
 - `connects-to` → **[COVID-19 Disease](../covid-19-disease/README.md)** — Immunosuppression and infection: the TNF, IL-17/23 and JAK inhibitors that control psoriatic arthritis modulate immunity, a consideration for COVID-19 severity and vaccine response in treated patients.
+- `connects-to` → **[IL-6](../../03-molecular/il-6/README.md)** — Systemic inflammation: IL-6 contributes to the synovitis of psoriatic arthritis and to its comorbid cardiovascular and metabolic disease burden.
+- `connects-to` → **[Prostaglandins](../../03-molecular/prostaglandins/README.md)** — Eicosanoid pain pathway: COX-derived prostaglandins drive the joint pain and inflammation of psoriatic arthritis, the target of NSAIDs used for first-line symptom relief.
+- `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — Distinctive synovial vasculature: VEGF-driven angiogenesis produces the tortuous, bushy synovial vessels characteristic of psoriatic arthritis, differing from the pattern in rheumatoid arthritis.
 
 [^ritchlin-2017-psa-review]: Ritchlin CT, Colbert RA, Gladman DD. Psoriatic arthritis. *N Engl J Med.* 2017;376(10):957-970. [doi:10.1056/NEJMra1505557](https://doi.org/10.1056/NEJMra1505557) · [PubMed 28273019](https://pubmed.ncbi.nlm.nih.gov/28273019/)
 [^mease-2015-secukinumab-psa-future2]: Mease PJ, et al. Secukinumab inhibition of interleukin-17A in patients with psoriatic arthritis. *N Engl J Med.* 2015;373(14):1329-1339. [doi:10.1056/NEJMoa1503317](https://doi.org/10.1056/NEJMoa1503317) · [PubMed 26422723](https://pubmed.ncbi.nlm.nih.gov/26422723/)

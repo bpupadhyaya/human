@@ -268,6 +268,15 @@ cross_links:
   - target: 01-human/07-system/pheochromocytoma-paraganglioma
     relation: connects-to
     note: "The HIF connection: EPAS1 (HIF-2alpha) gain-of-function links polycythaemia with paraganglioma in the Pacak-Zhuang syndrome, the same hypoxia-sensing pathway that JAK2 amplifies in polycythaemia vera."
+  - target: 01-human/03-molecular/type-i-interferon
+    relation: connects-to
+    note: "Clone-reducing therapy: pegylated interferon-alpha is a disease-modifying treatment for polycythaemia vera that can lower the JAK2-mutant allele burden and induce molecular responses."
+  - target: 01-human/03-molecular/hif-1alpha
+    relation: connects-to
+    note: "Oxygen-sensing axis: HIF/oxygen-sensing signalling underlies erythrocytosis, and HIF2A, PHD2 and VHL defects cause polycythaemia-vera-like erythrocytosis distinct from JAK2-driven disease."
+  - target: 01-human/03-molecular/ezh2
+    relation: connects-to
+    note: "Epigenetic progression: EZH2 and other epigenetic-regulator mutations accumulate in polycythaemia vera and contribute to its progression toward myelofibrosis and leukaemia."
 ---
 
 # Polycythemia Vera
@@ -473,6 +482,9 @@ PV must be distinguished from secondary erythrocytosis (elevated EPO, JAK2 wild-
 - `connects-to` → **[Von Willebrand Factor](../../03-molecular/von-willebrand-factor/README.md)** — Bleeding from too many cells: very high blood counts in polycythaemia vera adsorb and clear high-molecular-weight von Willebrand multimers, causing an acquired von Willebrand syndrome and a paradoxical bleeding risk.
 - `connects-to` → **[HCC](../hcc/README.md)** — Secondary polycythaemia mimic: EPO-secreting tumours such as hepatocellular carcinoma (and renal cancer) cause a paraneoplastic erythrocytosis that must be distinguished from primary, JAK2-driven polycythaemia vera.
 - `connects-to` → **[Pheochromocytoma & Paraganglioma](../pheochromocytoma-paraganglioma/README.md)** — The HIF connection: EPAS1 (HIF-2alpha) gain-of-function links polycythaemia with paraganglioma in the Pacak-Zhuang syndrome, the same hypoxia-sensing pathway that JAK2 amplifies in polycythaemia vera.
+- `connects-to` → **[Type I Interferon](../../03-molecular/type-i-interferon/README.md)** — Clone-reducing therapy: pegylated interferon-alpha is a disease-modifying treatment for polycythaemia vera that can lower the JAK2-mutant allele burden and induce molecular responses.
+- `connects-to` → **[HIF-1α](../../03-molecular/hif-1alpha/README.md)** — Oxygen-sensing axis: HIF/oxygen-sensing signalling underlies erythrocytosis, and HIF2A, PHD2 and VHL defects cause polycythaemia-vera-like erythrocytosis distinct from JAK2-driven disease.
+- `connects-to` → **[EZH2](../../03-molecular/ezh2/README.md)** — Epigenetic progression: EZH2 and other epigenetic-regulator mutations accumulate in polycythaemia vera and contribute to its progression toward myelofibrosis and leukaemia.
 
 [^vannucchi-2015-response]: Vannucchi AM, Kiladjian JJ, Griesshammer M, et al. Ruxolitinib versus standard therapy for the treatment of polycythemia vera. *N Engl J Med.* 2015;372(5):426-435. [doi:10.1056/NEJMoa1409630](https://doi.org/10.1056/NEJMoa1409630) · [PubMed 25577388](https://pubmed.ncbi.nlm.nih.gov/25577388/)
 [^gisslinger-2020-proud-pv]: Gisslinger H, Gotic M, Holowiecki J, et al. Ropeginterferon alfa-2b versus standard therapy for polycythaemia vera (PROUD-PV and CONTINUATION-PV): a randomised, non-inferiority, phase 3 trial and its extension study. *Lancet Haematol.* 2020;7(3):e196-e208. [doi:10.1016/S2352-3026(19)30236-4](https://doi.org/10.1016/S2352-3026(19)30236-4) · [PubMed 32046833](https://pubmed.ncbi.nlm.nih.gov/32046833/)
