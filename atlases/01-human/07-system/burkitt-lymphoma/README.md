@@ -277,6 +277,15 @@ cross_links:
   - target: 01-human/04-cellular/t-helper-cell
     relation: connects-to
     note: "Germinal-centre help: follicular helper T cells deliver the CD40 and cytokine signals that drive germinal-centre B-cell proliferation, the very reaction hijacked in Burkitt lymphomagenesis."
+  - target: 01-human/03-molecular/cyclin-d1
+    relation: connects-to
+    note: "Cell-cycle acceleration: MYC translocation in Burkitt lymphoma drives cyclin D and the cell-cycle machinery, producing the near-100% proliferative fraction that defines the disease."
+  - target: 01-human/03-molecular/tert
+    relation: connects-to
+    note: "Replicative immortality: TERT activation maintains telomeres in the explosively dividing Burkitt cells, sustaining the limitless proliferation MYC unleashes."
+  - target: 01-human/03-molecular/hif-1alpha
+    relation: connects-to
+    note: "Glycolytic metabolism: MYC and HIF-1α together drive the aerobic glycolysis (Warburg effect) that fuels the extreme proliferative rate of Burkitt lymphoma."
 ---
 
 # Burkitt Lymphoma
@@ -498,6 +507,9 @@ FISH for MYC, BCL2, and BCL6 is essential; if BCL2 FISH negative and Ki-67 ~100%
 - `connects-to` → **[FOXO1](../../03-molecular/foxo1/README.md)** — Recurrent driver mutation: activating FOXO1 mutations are among the most frequent secondary lesions in Burkitt lymphoma, cooperating with MYC to sustain the malignant germinal-centre B cell.
 - `connects-to` → **[EZH2](../../03-molecular/ezh2/README.md)** — Germinal-centre epigenetics: EZH2 enforces the proliferative, anti-differentiation programme of germinal-centre B cells from which Burkitt lymphoma arises, a shared lever across GC-derived lymphomas.
 - `connects-to` → **[T Helper Cell](../../04-cellular/t-helper-cell/README.md)** — Germinal-centre help: follicular helper T cells deliver the CD40 and cytokine signals that drive germinal-centre B-cell proliferation, the very reaction hijacked in Burkitt lymphomagenesis.
+- `connects-to` → **[Cyclin D1](../../03-molecular/cyclin-d1/README.md)** — Cell-cycle acceleration: MYC translocation in Burkitt lymphoma drives cyclin D and the cell-cycle machinery, producing the near-100% proliferative fraction that defines the disease.
+- `connects-to` → **[TERT](../../03-molecular/tert/README.md)** — Replicative immortality: TERT activation maintains telomeres in the explosively dividing Burkitt cells, sustaining the limitless proliferation MYC unleashes.
+- `connects-to` → **[HIF-1α](../../03-molecular/hif-1alpha/README.md)** — Glycolytic metabolism: MYC and HIF-1α together drive the aerobic glycolysis (Warburg effect) that fuels the extreme proliferative rate of Burkitt lymphoma.
 
 ---
 

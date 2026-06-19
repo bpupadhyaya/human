@@ -277,6 +277,15 @@ cross_links:
   - target: 01-human/03-molecular/erk1-2
     relation: connects-to
     note: "PKA-MAPK crosstalk: constitutive PKA signalling in PRKAR1A-mutant cells crosstalks with the ERK/MAPK cascade, contributing to the proliferative drive in Carney complex tumours."
+  - target: 01-human/03-molecular/myc
+    relation: connects-to
+    note: "PKA-driven MYC: unrestrained PKA-CREB signalling from PRKAR1A loss upregulates MYC, contributing to the proliferation of the endocrine and myxomatous tumours of Carney complex."
+  - target: 01-human/03-molecular/vegf
+    relation: connects-to
+    note: "Tumour angiogenesis: VEGF supports the vascularisation of the multiple endocrine tumours and cardiac myxomas of Carney complex, sustaining their growth."
+  - target: 01-human/03-molecular/hif-1alpha
+    relation: connects-to
+    note: "Hypoxic signalling: HIF-1α stabilised in the growing tumours of Carney complex drives the VEGF angiogenesis and metabolic adaptation that support their expansion."
 ---
 
 # Carney Complex
@@ -485,6 +494,9 @@ PRKAR1A somatic LOH occurs in ~15-20% of sporadic adrenocortical adenomas and ca
 - `connects-to` → **[Cardiac Conduction System](../../05-tissue/cardiac-conduction-system/README.md)** — Atrial myxoma hazard: recurrent cardiac myxomas—Carney complex's most lethal feature—can obstruct valves, embolise to the brain and disturb the conduction system, causing syncope and arrhythmia.
 - `connects-to` → **[Cyclin D1](../../03-molecular/cyclin-d1/README.md)** — Proliferation downstream of PKA: unrestrained PKA from PRKAR1A loss drives cyclin D1 overexpression in PPNAD and myxomas, pushing Carney complex lesions through the cell cycle.
 - `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — PKA-MAPK crosstalk: constitutive PKA signalling in PRKAR1A-mutant cells crosstalks with the ERK/MAPK cascade, contributing to the proliferative drive in Carney complex tumours.
+- `connects-to` → **[MYC](../../03-molecular/myc/README.md)** — PKA-driven MYC: unrestrained PKA-CREB signalling from PRKAR1A loss upregulates MYC, contributing to the proliferation of the endocrine and myxomatous tumours of Carney complex.
+- `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — Tumour angiogenesis: VEGF supports the vascularisation of the multiple endocrine tumours and cardiac myxomas of Carney complex, sustaining their growth.
+- `connects-to` → **[HIF-1α](../../03-molecular/hif-1alpha/README.md)** — Hypoxic signalling: HIF-1α stabilised in the growing tumours of Carney complex drives the VEGF angiogenesis and metabolic adaptation that support their expansion.
 
 ---
 
