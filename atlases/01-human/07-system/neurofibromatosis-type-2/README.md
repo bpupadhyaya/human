@@ -250,6 +250,15 @@ cross_links:
   - target: 01-human/05-tissue/hepatic-lobule
     relation: connects-to
     note: "The Hippo brake on organ size: merlin (NF2) signals cell-contact density to the Hippo pathway that caps proliferation, a mechanism vivid in the hepatic lobule where merlin loss lets hepatocytes overgrow—the tumour-suppressor role behind NF2 cancers."
+  - target: 01-human/05-tissue/axonal-transport
+    relation: connects-to
+    note: "Bilateral vestibular schwannomas: NF2's hallmark tumours arise from the Schwann cells of cranial nerve VIII, compressing the nerve and its axons to cause the progressive hearing loss and imbalance that define the syndrome."
+  - target: 01-human/05-tissue/fibrosis
+    relation: connects-to
+    note: "Dense fibrous tumour stroma: NF2 schwannomas and meningiomas lay down a collagen-rich, fibroblastic matrix—the firm Antoni-A texture of schwannoma—and merlin loss promotes this profibrotic phenotype."
+  - target: 01-human/05-tissue/myocardium
+    relation: connects-to
+    note: "Hippo-YAP and heart regeneration: the merlin-Hippo-YAP pathway that NF2 disrupts is a leading target to coax the adult myocardium to regenerate after infarction, a striking spin-off from a nerve-tumour gene."
 ---
 
 # Neurofibromatosis Type 2
@@ -447,6 +456,9 @@ Merlin has an N-terminal FERM domain (α, β, γ lobes) that binds membrane lipi
 - `connects-to` → **[HCC](../hcc/README.md)** — Merlin loss drives liver cancer through YAP: the NF2 protein merlin restrains the Hippo effector YAP, so NF2 inactivation—somatic in many hepatocellular carcinomas—unleashes YAP-driven proliferation, linking the schwannoma gene to liver cancer.
 - `connects-to` → **[Atypical Teratoid Rhabdoid Tumor](../atypical-teratoid-rhabdoid-tumor/README.md)** — Overlapping at SMARCB1: NF2-related and schwannomatosis tumours can involve SMARCB1, the SWI/SNF subunit whose biallelic loss defines atypical teratoid/rhabdoid tumours, tying nerve-sheath tumour biology to a malignant childhood CNS cancer.
 - `connects-to` → **[Hepatic Lobule](../../05-tissue/hepatic-lobule/README.md)** — The Hippo brake on organ size: merlin (NF2) signals cell-contact density to the Hippo pathway that caps proliferation, a mechanism vivid in the hepatic lobule where merlin loss lets hepatocytes overgrow—the tumour-suppressor role behind NF2 cancers.
+- `connects-to` → **[Axonal Transport](../../05-tissue/axonal-transport/README.md)** — Bilateral vestibular schwannomas: NF2's hallmark tumours arise from the Schwann cells of cranial nerve VIII, compressing the nerve and its axons to cause the progressive hearing loss and imbalance that define the syndrome.
+- `connects-to` → **[Fibrosis](../../05-tissue/fibrosis/README.md)** — Dense fibrous tumour stroma: NF2 schwannomas and meningiomas lay down a collagen-rich, fibroblastic matrix—the firm Antoni-A texture of schwannoma—and merlin loss promotes this profibrotic phenotype.
+- `connects-to` → **[Myocardium](../../05-tissue/myocardium/README.md)** — Hippo-YAP and heart regeneration: the merlin-Hippo-YAP pathway that NF2 disrupts is a leading target to coax the adult myocardium to regenerate after infarction, a striking spin-off from a nerve-tumour gene.
 
 [^asthagiri-2009-nf2-lancet]: Asthagiri AR, Parry DM, Butman JA, et al. Neurofibromatosis type 2. *Lancet.* 2009;373(9679):1974-1986. [doi:10.1016/S0140-6736(09)60259-2](https://doi.org/10.1016/S0140-6736(09)60259-2) · [PubMed 19476995](https://pubmed.ncbi.nlm.nih.gov/19476995/)
 [^plotkin-2009-nf2-bevacizumab]: Plotkin SR, Stemmer-Rachamimov AO, Barker FG 2nd, et al. Hearing improvement after bevacizumab in patients with neurofibromatosis type 2. *N Engl J Med.* 2009;361(4):358-367. [doi:10.1056/NEJMoa0902579](https://doi.org/10.1056/NEJMoa0902579) · [PubMed 19587327](https://pubmed.ncbi.nlm.nih.gov/19587327/)
