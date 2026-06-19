@@ -262,6 +262,15 @@ cross_links:
   - target: 01-human/07-system/inflammatory-bowel-disease
     relation: connects-to
     note: "A shared autoimmune axis: MS and inflammatory bowel disease co-occur and share Th17/IL-17 biology and gut-microbiome influences, and some MS therapies can unmask or worsen colitis."
+  - target: 01-human/07-system/covid-19-disease
+    relation: connects-to
+    note: "Immunotherapy meets infection: the B-cell-depleting MS therapies like ocrelizumab blunt the antibody response to COVID-19 vaccination and raise the risk of severe COVID-19, complicating treatment."
+  - target: 01-human/07-system/bipolar-disorder
+    relation: connects-to
+    note: "Mood disorder in demyelinating disease: multiple sclerosis raises the risk of bipolar disorder and mania, from demyelinating lesions in mood circuits and from corticosteroid treatment of relapses."
+  - target: 01-human/05-tissue/hippocampus
+    relation: connects-to
+    note: "Cognition in MS: demyelination and atrophy of the hippocampus contribute to the memory impairment and 'cog fog' that affect many MS patients, beyond the classic motor and sensory deficits."
 ---
 
 # Multiple Sclerosis
@@ -453,6 +462,9 @@ MS affects approximately **2.8 million people worldwide** (~1 million in the US)
 - `connects-to` → **[Germinal Center](../../05-tissue/germinal-center/README.md)** — EBV and B cells behind MS: Epstein-Barr infection is now a near-prerequisite, and ectopic B-cell follicles resembling germinal centres form in the meninges of progressive MS—the compartmentalised inflammation that anti-CD20 therapy targets.
 - `connects-to` → **[CIDP](../cidp/README.md)** — Central versus peripheral demyelination: MS strips myelin in the CNS while CIDP strips it from peripheral nerves—autoimmune attacks on the same insulating sheath in two compartments.
 - `connects-to` → **[Inflammatory Bowel Disease](../inflammatory-bowel-disease/README.md)** — A shared autoimmune axis: MS and inflammatory bowel disease co-occur and share Th17/IL-17 biology and gut-microbiome influences, and some MS therapies can unmask or worsen colitis.
+- `connects-to` → **[COVID-19 Disease](../covid-19-disease/README.md)** — Immunotherapy meets infection: the B-cell-depleting MS therapies like ocrelizumab blunt the antibody response to COVID-19 vaccination and raise the risk of severe COVID-19, complicating treatment.
+- `connects-to` → **[Bipolar Disorder](../bipolar-disorder/README.md)** — Mood disorder in demyelinating disease: multiple sclerosis raises the risk of bipolar disorder and mania, from demyelinating lesions in mood circuits and from corticosteroid treatment of relapses.
+- `connects-to` → **[Hippocampus](../../05-tissue/hippocampus/README.md)** — Cognition in MS: demyelination and atrophy of the hippocampus contribute to the memory impairment and 'cog fog' that affect many MS patients, beyond the classic motor and sensory deficits.
 
 [^compston-2008-ms-review]: Compston A, Coles A. Multiple sclerosis. *Lancet.* 2008;372(9648):1502-1517. [doi:10.1016/S0140-6736(08)61620-7](https://doi.org/10.1016/S0140-6736(08)61620-7) · [PubMed 18970977](https://pubmed.ncbi.nlm.nih.gov/18970977/)
 [^kappos-2006-natalizumab]: Polman CH, O'Connor PW, Havrdova E, et al. A randomized, placebo-controlled trial of natalizumab for relapsing multiple sclerosis. *N Engl J Med.* 2006;354(9):899-910. [doi:10.1056/NEJMoa044397](https://doi.org/10.1056/NEJMoa044397) · [PubMed 16510744](https://pubmed.ncbi.nlm.nih.gov/16510744/)
