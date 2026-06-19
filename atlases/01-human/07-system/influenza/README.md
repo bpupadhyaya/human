@@ -265,6 +265,15 @@ cross_links:
   - target: 01-human/07-system/cystic-fibrosis
     relation: connects-to
     note: "Dangerous in chronic lung disease: influenza causes severe exacerbations and bacterial superinfection in cystic fibrosis and other chronic lung diseases, making annual vaccination essential."
+  - target: 01-human/07-system/musculoskeletal-system
+    relation: connects-to
+    note: "Viral myositis: influenza is a leading cause of the diffuse myalgia of acute illness and, in children, benign acute viral myositis with calf pain and raised creatine kinase, occasionally with rhabdomyolysis."
+  - target: 01-human/05-tissue/cardiac-conduction-system
+    relation: connects-to
+    note: "Flu and the heartbeat: influenza can cause myocarditis and, through systemic inflammation and hypoxia, precipitate atrial fibrillation and other arrhythmias of the cardiac conduction system."
+  - target: 01-human/07-system/reproductive-system
+    relation: connects-to
+    note: "Severe in pregnancy: pregnant women are at high risk of severe influenza and complications, the basis for prioritising vaccination, which also protects the newborn through transferred antibodies."
 ---
 
 # Influenza
@@ -483,3 +492,6 @@ Influenza damages mucociliary clearance and exposes basal lamina glycoproteins �
 - `connects-to` → **[Germinal Center](../../05-tissue/germinal-center/README.md)** — Where flu immunity is built and outpaced: antibody to influenza haemagglutinin matures in germinal centres, but the virus's antigenic drift escapes prior responses, forcing annual revaccination.
 - `connects-to` → **[Epilepsy](../epilepsy/README.md)** — Neurological influenza: influenza can cause febrile seizures, encephalopathy and rarely acute necrotising encephalitis in children, occasionally triggering or unmasking epilepsy.
 - `connects-to` → **[Cystic Fibrosis](../cystic-fibrosis/README.md)** — Dangerous in chronic lung disease: influenza causes severe exacerbations and bacterial superinfection in cystic fibrosis and other chronic lung diseases, making annual vaccination essential.
+- `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — Viral myositis: influenza is a leading cause of the diffuse myalgia of acute illness and, in children, benign acute viral myositis with calf pain and raised creatine kinase, occasionally with rhabdomyolysis.
+- `connects-to` → **[Cardiac Conduction System](../../05-tissue/cardiac-conduction-system/README.md)** — Flu and the heartbeat: influenza can cause myocarditis and, through systemic inflammation and hypoxia, precipitate atrial fibrillation and other arrhythmias of the cardiac conduction system.
+- `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — Severe in pregnancy: pregnant women are at high risk of severe influenza and complications, the basis for prioritising vaccination, which also protects the newborn through transferred antibodies.

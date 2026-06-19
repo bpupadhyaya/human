@@ -274,6 +274,15 @@ cross_links:
   - target: 01-human/07-system/covid-19-disease
     relation: connects-to
     note: "Pandemic and post-viral sleeplessness: COVID-19 sharply raised insomnia through stress and isolation ('coronasomnia'), and long-COVID neuroinflammation can leave persistent sleep disruption."
+  - target: 01-human/07-system/iron-deficiency-anemia
+    relation: connects-to
+    note: "Restless legs from low iron: iron deficiency causes restless legs syndrome, a major driver of sleep-onset insomnia that often resolves once iron stores are repleted."
+  - target: 01-human/07-system/reproductive-system
+    relation: connects-to
+    note: "Menopausal sleeplessness: falling oestrogen and progesterone at menopause, with hot flushes and night sweats, are a leading cause of insomnia in midlife women."
+  - target: 01-human/05-tissue/myocardium
+    relation: connects-to
+    note: "Sleeplessness strains the heart: chronic insomnia independently raises the risk of hypertension, myocardial infarction and heart failure through sympathetic overactivity and inflammation."
 ---
 
 # Insomnia Disorder
@@ -496,6 +505,9 @@ CBT-I directly targets perpetuating factors.
 - `connects-to` → **[Epilepsy](../epilepsy/README.md)** — Sleep loss and seizures: sleep deprivation lowers the seizure threshold and triggers attacks in epilepsy, while seizures and antiseizure drugs fragment sleep—a bidirectional vicious cycle.
 - `connects-to` → **[Asthma](../asthma/README.md)** — Nocturnal worsening: asthma and COPD symptoms peak overnight, fragmenting sleep, while poor sleep heightens airway inflammation—insomnia and chronic airway disease reinforce each other.
 - `connects-to` → **[COVID-19 Disease](../covid-19-disease/README.md)** — Pandemic and post-viral sleeplessness: COVID-19 sharply raised insomnia through stress and isolation ('coronasomnia'), and long-COVID neuroinflammation can leave persistent sleep disruption.
+- `connects-to` → **[Iron-Deficiency Anemia](../iron-deficiency-anemia/README.md)** — Restless legs from low iron: iron deficiency causes restless legs syndrome, a major driver of sleep-onset insomnia that often resolves once iron stores are repleted.
+- `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — Menopausal sleeplessness: falling oestrogen and progesterone at menopause, with hot flushes and night sweats, are a leading cause of insomnia in midlife women.
+- `connects-to` → **[Myocardium](../../05-tissue/myocardium/README.md)** — Sleeplessness strains the heart: chronic insomnia independently raises the risk of hypertension, myocardial infarction and heart failure through sympathetic overactivity and inflammation.
 
 [^riemann-2017-insomnia-lancet]: Riemann D, Baglioni C, Bassetti C, et al. European guideline for the diagnosis and treatment of insomnia. *J Sleep Res.* 2017;26(6):675-700. [doi:10.1111/jsr.12594](https://doi.org/10.1111/jsr.12594) · [PubMed 28875581](https://pubmed.ncbi.nlm.nih.gov/28875581/)
 [^trauer-2015-cbti-meta]: Trauer JM, Qian MY, Doyle JS, et al. Cognitive behavioral therapy for chronic insomnia. *Ann Intern Med.* 2015;163(3):191-204. [doi:10.7326/M14-2841](https://doi.org/10.7326/M14-2841) · [PubMed 26054060](https://pubmed.ncbi.nlm.nih.gov/26054060/)
