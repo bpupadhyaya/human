@@ -277,6 +277,15 @@ cross_links:
   - target: 01-human/03-molecular/myc
     relation: connects-to
     note: "Proliferative drive: MYC activation contributes to the aggressive proliferation of mesothelioma, downstream of its tumour-suppressor losses."
+  - target: 01-human/03-molecular/akt
+    relation: connects-to
+    note: "PI3K/AKT survival: PTEN loss and PI3K/AKT activation sustain mesothelioma cell survival, cooperating with the NF2-Hippo and BAP1 lesions that define the disease."
+  - target: 01-human/03-molecular/cyclin-d1
+    relation: connects-to
+    note: "Cell-cycle drive: CDKN2A deletion—near-universal in mesothelioma—unleashes cyclin D-CDK4/6, accelerating the cell cycle and marking poor prognosis."
+  - target: 01-human/03-molecular/pdgf
+    relation: connects-to
+    note: "Autocrine growth: mesothelioma cells secrete PDGF that acts in an autocrine loop, driving the proliferation and desmoplastic stroma of these pleural tumours."
 ---
 
 # Mesothelioma
@@ -482,6 +491,9 @@ Cytoreductive surgery (CRS) + hyperthermic intraperitoneal chemotherapy (HIPEC):
 - `connects-to` → **[EZH2](../../03-molecular/ezh2/README.md)** — BAP1 synthetic lethality: BAP1 loss in mesothelioma creates a dependence on EZH2, the rationale for EZH2 inhibitors such as tazemetostat in BAP1-deficient tumours.
 - `connects-to` → **[EGFR](../../03-molecular/egfr/README.md)** — Receptor overexpression: EGFR is frequently overexpressed in mesothelioma, contributing to its growth signalling though single-agent EGFR inhibition has had limited success.
 - `connects-to` → **[MYC](../../03-molecular/myc/README.md)** — Proliferative drive: MYC activation contributes to the aggressive proliferation of mesothelioma, downstream of its tumour-suppressor losses.
+- `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — PI3K/AKT survival: PTEN loss and PI3K/AKT activation sustain mesothelioma cell survival, cooperating with the NF2-Hippo and BAP1 lesions that define the disease.
+- `connects-to` → **[Cyclin D1](../../03-molecular/cyclin-d1/README.md)** — Cell-cycle drive: CDKN2A deletion—near-universal in mesothelioma—unleashes cyclin D-CDK4/6, accelerating the cell cycle and marking poor prognosis.
+- `connects-to` → **[PDGF](../../03-molecular/pdgf/README.md)** — Autocrine growth: mesothelioma cells secrete PDGF that acts in an autocrine loop, driving the proliferation and desmoplastic stroma of these pleural tumours.
 
 [^baas-2021-checkmate743]: Baas P, Scherpereel A, Nowak AK, et al. First-line nivolumab plus ipilimumab in unresectable malignant pleural mesothelioma (CheckMate 743). *Lancet.* 2021;397(10272):375-386. [doi:10.1016/S0140-6736(20)32714-8](https://doi.org/10.1016/S0140-6736(20)32714-8) · [PubMed 33485464](https://pubmed.ncbi.nlm.nih.gov/33485464/)
 [^vogelzang-2003-pemetrexed]: Vogelzang NJ, Rusthoven JJ, Symanowski J, et al. Phase III study of pemetrexed in combination with cisplatin versus cisplatin alone in patients with malignant pleural mesothelioma. *J Clin Oncol.* 2003;21(14):2636-2644. [doi:10.1200/JCO.2003.11.136](https://doi.org/10.1200/JCO.2003.11.136) · [PubMed 12860938](https://pubmed.ncbi.nlm.nih.gov/12860938/)
