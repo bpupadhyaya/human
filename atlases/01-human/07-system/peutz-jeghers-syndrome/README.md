@@ -277,6 +277,15 @@ cross_links:
   - target: 01-human/03-molecular/myc
     relation: connects-to
     note: "Progression to cancer: unrestrained mTOR and Wnt signalling from LKB1 loss drive MYC activation, helping push Peutz-Jeghers hamartomas toward malignancy."
+  - target: 01-human/03-molecular/cyclin-d1
+    relation: connects-to
+    note: "Cell-cycle drive: mTOR-driven cyclin D1 upregulation from LKB1 loss propels Peutz-Jeghers polyp cells through the G1 checkpoint, fuelling hamartoma growth."
+  - target: 01-human/03-molecular/erk1-2
+    relation: connects-to
+    note: "MAPK crosstalk: LKB1 loss in Peutz-Jeghers also enhances RAS-ERK signalling, cooperating with mTOR activation to drive the hamartomatous overgrowth."
+  - target: 01-human/03-molecular/hif-1alpha
+    relation: connects-to
+    note: "Metabolic adaptation: loss of LKB1-AMPK energy sensing stabilises HIF-1α, shifting Peutz-Jeghers cells toward the glycolytic metabolism that supports their growth."
 ---
 
 # Peutz-Jeghers Syndrome
@@ -487,6 +496,9 @@ Without surveillance: cumulative cancer risk reaches ~85-93% by age 70 (all canc
 - `connects-to` → **[Prostaglandins](../../03-molecular/prostaglandins/README.md)** — COX-2 chemoprevention angle: LKB1 loss upregulates COX-2 and prostaglandins in Peutz-Jeghers hamartomas, a rationale for NSAID chemoprevention of its polyps.
 - `connects-to` → **[TSC1-TSC2](../../03-molecular/tsc1-tsc2/README.md)** — mTOR convergence: LKB1-AMPK normally restrains mTORC1 through the TSC1-TSC2 complex, so STK11 loss in Peutz-Jeghers deregulates the same mTOR pathway as tuberous sclerosis.
 - `connects-to` → **[MYC](../../03-molecular/myc/README.md)** — Progression to cancer: unrestrained mTOR and Wnt signalling from LKB1 loss drive MYC activation, helping push Peutz-Jeghers hamartomas toward malignancy.
+- `connects-to` → **[Cyclin D1](../../03-molecular/cyclin-d1/README.md)** — Cell-cycle drive: mTOR-driven cyclin D1 upregulation from LKB1 loss propels Peutz-Jeghers polyp cells through the G1 checkpoint, fuelling hamartoma growth.
+- `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — MAPK crosstalk: LKB1 loss in Peutz-Jeghers also enhances RAS-ERK signalling, cooperating with mTOR activation to drive the hamartomatous overgrowth.
+- `connects-to` → **[HIF-1α](../../03-molecular/hif-1alpha/README.md)** — Metabolic adaptation: loss of LKB1-AMPK energy sensing stabilises HIF-1α, shifting Peutz-Jeghers cells toward the glycolytic metabolism that supports their growth.
 
 ---
 

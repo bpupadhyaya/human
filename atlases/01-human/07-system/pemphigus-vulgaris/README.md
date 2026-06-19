@@ -283,6 +283,15 @@ cross_links:
   - target: 01-human/03-molecular/il-1b
     relation: connects-to
     note: "Inflammatory amplification: IL-1β and other inflammatory cytokines released in pemphigus lesions amplify keratinocyte injury and blister formation."
+  - target: 01-human/03-molecular/il-10
+    relation: connects-to
+    note: "Regulatory imbalance: defective IL-10 and regulatory T-cell function in pemphigus vulgaris fails to restrain the autoreactive B cells producing anti-desmoglein antibodies."
+  - target: 01-human/03-molecular/nlrp3-inflammasome
+    relation: connects-to
+    note: "Inflammasome activation: NLRP3-inflammasome activation in pemphigus skin matures IL-1β, amplifying the inflammation that accompanies acantholytic blistering."
+  - target: 01-human/04-cellular/macrophage
+    relation: connects-to
+    note: "Lesional infiltrate: macrophages recruited to pemphigus lesions secrete cytokines and proteases that contribute to the inflammation around the blistering epidermis."
 ---
 
 # Pemphigus Vulgaris
@@ -515,6 +524,9 @@ Pemphigus belongs to the **pemphigus group of autoimmune bullous diseases** (AIB
 - `connects-to` → **[CDH1](../../03-molecular/cdh1/README.md)** — Adhesion molecule overlap: beyond desmoglein-3, E-cadherin (CDH1) maintains keratinocyte adhesion and is a reported pemphigus autoantigen, widening the loss of cell-cell cohesion that causes blistering.
 - `connects-to` → **[IFN-γ](../../03-molecular/ifn-gamma/README.md)** — Th1 contribution: alongside the Th2 response, IFN-γ-producing T cells help drive the autoimmune attack on desmogleins in pemphigus vulgaris.
 - `connects-to` → **[IL-1β](../../03-molecular/il-1b/README.md)** — Inflammatory amplification: IL-1β and other inflammatory cytokines released in pemphigus lesions amplify keratinocyte injury and blister formation.
+- `connects-to` → **[IL-10](../../03-molecular/il-10/README.md)** — Regulatory imbalance: defective IL-10 and regulatory T-cell function in pemphigus vulgaris fails to restrain the autoreactive B cells producing anti-desmoglein antibodies.
+- `connects-to` → **[NLRP3 Inflammasome](../../03-molecular/nlrp3-inflammasome/README.md)** — Inflammasome activation: NLRP3-inflammasome activation in pemphigus skin matures IL-1β, amplifying the inflammation that accompanies acantholytic blistering.
+- `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — Lesional infiltrate: macrophages recruited to pemphigus lesions secrete cytokines and proteases that contribute to the inflammation around the blistering epidermis.
 
 ---
 
