@@ -265,6 +265,15 @@ cross_links:
   - target: 01-human/07-system/iga-nephropathy
     relation: connects-to
     note: "When inflammation reaches the kidney: long-standing RA can drive secondary IgA nephropathy and AA amyloidosis, the acute-phase response depositing in the glomerulus—a systemic joint disease turning renal."
+  - target: 01-human/07-system/ptcl
+    relation: connects-to
+    note: "Clonal T-cells in chronic autoimmunity: rheumatoid arthritis is classically associated with T-cell large granular lymphocytic leukaemia (Felty-like neutropenia) and a raised risk of T-cell lymphomas alongside the more familiar B-cell ones."
+  - target: 01-human/07-system/gout
+    relation: connects-to
+    note: "Two inflammatory arthritides: gout and rheumatoid arthritis can mimic and even coexist, both causing acute swollen joints and erosions, distinguished by urate crystals versus autoantibodies and pannus."
+  - target: 01-human/07-system/psoriasis
+    relation: connects-to
+    note: "Paradoxical psoriasis: the anti-TNF biologics that treat rheumatoid arthritis can paradoxically trigger psoriasiform skin eruptions, an unexpected adverse effect of blocking a cytokine central to both diseases."
 ---
 
 # Rheumatoid Arthritis
@@ -489,6 +498,9 @@ RA patients have:
 - `connects-to` → **[Arterial Wall](../../05-tissue/arterial-wall/README.md)** — Accelerated atherosclerosis: RA's chronic systemic inflammation accelerates atherosclerosis of the arterial wall, making cardiovascular disease the leading cause of death and shortening lifespan beyond the joint disease itself.
 - `connects-to` → **[Alveolus](../../05-tissue/alveolus/README.md)** — RA-associated interstitial lung disease: rheumatoid arthritis causes interstitial lung disease and fibrosis around the alveoli—a major extra-articular cause of death—alongside rheumatoid nodules and pleuritis.
 - `connects-to` → **[IgA Nephropathy](../iga-nephropathy/README.md)** — When inflammation reaches the kidney: long-standing RA can drive secondary IgA nephropathy and AA amyloidosis, the acute-phase response depositing in the glomerulus—a systemic joint disease turning renal.
+- `connects-to` → **[PTCL](../ptcl/README.md)** — Clonal T-cells in chronic autoimmunity: rheumatoid arthritis is classically associated with T-cell large granular lymphocytic leukaemia (Felty-like neutropenia) and a raised risk of T-cell lymphomas alongside the more familiar B-cell ones.
+- `connects-to` → **[Gout](../gout/README.md)** — Two inflammatory arthritides: gout and rheumatoid arthritis can mimic and even coexist, both causing acute swollen joints and erosions, distinguished by urate crystals versus autoantibodies and pannus.
+- `connects-to` → **[Psoriasis](../psoriasis/README.md)** — Paradoxical psoriasis: the anti-TNF biologics that treat rheumatoid arthritis can paradoxically trigger psoriasiform skin eruptions, an unexpected adverse effect of blocking a cytokine central to both diseases.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 

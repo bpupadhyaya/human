@@ -259,6 +259,15 @@ cross_links:
   - target: 01-human/05-tissue/peripheral-nerve
     relation: connects-to
     note: "Parameningeal invasion: head-and-neck rhabdomyosarcoma near the skull base invades along nerves toward the meninges, causing cranial-nerve palsies and a worse, CNS-threatening outlook."
+  - target: 01-human/07-system/cervical-cancer
+    relation: connects-to
+    note: "Sarcoma botryoides of the genital tract: embryonal rhabdomyosarcoma arises in the vagina and cervix of young girls as grape-like botryoid masses, often DICER1-driven—a sarcoma of the same region as cervical carcinoma."
+  - target: 01-human/07-system/desmoid-tumor
+    relation: connects-to
+    note: "A deep soft-tissue differential: like rhabdomyosarcoma, a desmoid tumour presents as an infiltrative soft-tissue mass, the two sitting in the differential of an enlarging extremity or trunk lesion despite very different biology."
+  - target: 01-human/07-system/mpnst
+    relation: connects-to
+    note: "NF1 sarcomas: neurofibromatosis type 1 predisposes to both rhabdomyosarcoma in childhood and MPNST from nerve sheaths, two RAS-pathway soft-tissue sarcomas of the syndrome."
 ---
 
 # Rhabdomyosarcoma
@@ -467,6 +476,9 @@ Maximal safe resection with negative margins (R0) wherever achievable without mu
 - `connects-to` → **[Retinoblastoma](../retinoblastoma/README.md)** — Embryonal childhood cancers compared: rhabdomyosarcoma and retinoblastoma are both classic paediatric tumours treated on cooperative-group protocols, contrasting a muscle-lineage sarcoma with an RB1-driven eye cancer.
 - `connects-to` → **[Cortical Bone](../../05-tissue/cortical-bone/README.md)** — Bone-marrow metastasis: rhabdomyosarcoma, especially the alveolar subtype, spreads to bone and bone marrow, and marrow involvement mimicking leukaemia carries a grim prognosis.
 - `connects-to` → **[Peripheral Nerve](../../05-tissue/peripheral-nerve/README.md)** — Parameningeal invasion: head-and-neck rhabdomyosarcoma near the skull base invades along nerves toward the meninges, causing cranial-nerve palsies and a worse, CNS-threatening outlook.
+- `connects-to` → **[Cervical Cancer](../cervical-cancer/README.md)** — Sarcoma botryoides of the genital tract: embryonal rhabdomyosarcoma arises in the vagina and cervix of young girls as grape-like botryoid masses, often DICER1-driven—a sarcoma of the same region as cervical carcinoma.
+- `connects-to` → **[Desmoid Tumor](../desmoid-tumor/README.md)** — A deep soft-tissue differential: like rhabdomyosarcoma, a desmoid tumour presents as an infiltrative soft-tissue mass, the two sitting in the differential of an enlarging extremity or trunk lesion despite very different biology.
+- `connects-to` → **[MPNST](../mpnst/README.md)** — NF1 sarcomas: neurofibromatosis type 1 predisposes to both rhabdomyosarcoma in childhood and MPNST from nerve sheaths, two RAS-pathway soft-tissue sarcomas of the syndrome.
 
 [^crist-2001-irs4-rms]: Crist WM, Anderson JR, Meza JL, et al. Intergroup rhabdomyosarcoma study-IV: results for patients with nonmetastatic disease. *J Clin Oncol.* 2001;19(12):3091-3102. [doi:10.1200/JCO.2001.19.12.3091](https://doi.org/10.1200/JCO.2001.19.12.3091) · [PubMed 11408506](https://pubmed.ncbi.nlm.nih.gov/11408506/)
 [^oberlin-2012-mmt95-rms]: Oberlin O, Rey A, Sanchez de Toledo J, et al. Randomized comparison of intensified six-drug versus standard three-drug chemotherapy for high-risk nonmetastatic rhabdomyosarcoma and other chemotherapy-sensitive childhood soft tissue sarcomas. *J Clin Oncol.* 2012;30(19):2457-2465. [doi:10.1200/JCO.2011.39.3538](https://doi.org/10.1200/JCO.2011.39.3538) · [PubMed 22665546](https://pubmed.ncbi.nlm.nih.gov/22665546/)
