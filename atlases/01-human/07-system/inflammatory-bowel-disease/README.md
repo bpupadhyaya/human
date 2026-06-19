@@ -265,6 +265,15 @@ cross_links:
   - target: 01-human/05-tissue/arterial-wall
     relation: connects-to
     note: "A prothrombotic, atherogenic state: active IBD inflammation raises the risk of venous and arterial thrombosis and accelerates atherosclerosis of the arterial wall, a cardiovascular hazard beyond the gut."
+  - target: 01-human/07-system/type-1-diabetes
+    relation: connects-to
+    note: "Autoimmune clustering: inflammatory bowel disease and type 1 diabetes co-occur more than chance through shared HLA and immune-susceptibility loci, part of the broader tendency of organ-specific autoimmune diseases to aggregate."
+  - target: 01-human/07-system/nash
+    relation: connects-to
+    note: "The liver comorbidity: non-alcoholic steatohepatitis is the commonest liver disease in IBD, driven by chronic inflammation, corticosteroids and metabolic disturbance rather than the bile-duct disease of associated cholangitis."
+  - target: 01-human/05-tissue/germinal-center
+    relation: connects-to
+    note: "Aberrant mucosal antibody factories: chronic IBD spawns ectopic lymphoid follicles with active germinal centres in the inflamed gut wall, fuelling the local plasma-cell and autoantibody responses that sustain the disease."
 ---
 
 # Inflammatory Bowel Disease
@@ -475,6 +484,9 @@ IBD is a complex polygenic disease with >240 susceptibility loci (GWAS):
 - `connects-to` → **[Hepatic Lobule](../../05-tissue/hepatic-lobule/README.md)** — Primary sclerosing cholangitis: IBD—especially ulcerative colitis—associates with PSC, where bile-duct inflammation and fibrosis injure the hepatic lobule, progressing to cirrhosis and raising cholangiocarcinoma risk.
 - `connects-to` → **[Psoriatic Arthritis](../psoriatic-arthritis/README.md)** — Enteropathic spondyloarthritis: IBD shares the IL-23/Th17 axis with psoriatic arthritis and ankylosing spondylitis, the seronegative spondyloarthropathies that frequently co-occur with bowel inflammation.
 - `connects-to` → **[Arterial Wall](../../05-tissue/arterial-wall/README.md)** — A prothrombotic, atherogenic state: active IBD inflammation raises the risk of venous and arterial thrombosis and accelerates atherosclerosis of the arterial wall, a cardiovascular hazard beyond the gut.
+- `connects-to` → **[Type 1 Diabetes](../type-1-diabetes/README.md)** — Autoimmune clustering: inflammatory bowel disease and type 1 diabetes co-occur more than chance through shared HLA and immune-susceptibility loci, part of the broader tendency of organ-specific autoimmune diseases to aggregate.
+- `connects-to` → **[NASH](../nash/README.md)** — The liver comorbidity: non-alcoholic steatohepatitis is the commonest liver disease in IBD, driven by chronic inflammation, corticosteroids and metabolic disturbance rather than the bile-duct disease of associated cholangitis.
+- `connects-to` → **[Germinal Center](../../05-tissue/germinal-center/README.md)** — Aberrant mucosal antibody factories: chronic IBD spawns ectopic lymphoid follicles with active germinal centres in the inflamed gut wall, fuelling the local plasma-cell and autoantibody responses that sustain the disease.
 
 [^ng-2017-ibd-epidemiology]: Ng SC, Shi HY, Hamidi N, et al. Worldwide incidence and prevalence of inflammatory bowel disease in the 21st century: a systematic review of population-based studies. *Lancet.* 2018;390(10114):2769-2778. [doi:10.1016/S0140-6736(17)32448-0](https://doi.org/10.1016/S0140-6736(17)32448-0) · [PubMed 29050646](https://pubmed.ncbi.nlm.nih.gov/29050646/)
 [^sandborn-2012-vedolizumab]: Feagan BG, Rutgeerts P, Sands BE, et al. Vedolizumab as induction and maintenance therapy for ulcerative colitis. *N Engl J Med.* 2013;369(8):699-710. [doi:10.1056/NEJMoa1215734](https://doi.org/10.1056/NEJMoa1215734) · [PubMed 23964932](https://pubmed.ncbi.nlm.nih.gov/23964932/)
