@@ -250,6 +250,15 @@ cross_links:
   - target: 01-human/05-tissue/glomerulus
     relation: connects-to
     note: "High pressure scars the filter: hypertension transmitted to the glomerulus causes hyalinosis and glomerulosclerosis—hypertensive nephrosclerosis—one of the leading causes of chronic kidney disease and end-stage renal failure worldwide."
+  - target: 01-human/05-tissue/myocardium
+    relation: connects-to
+    note: "Hypertensive heart disease: chronic pressure overload thickens the left ventricular myocardium (LVH), which stiffens into heart failure with preserved ejection fraction and predisposes to arrhythmia and infarction."
+  - target: 01-human/05-tissue/cardiac-conduction-system
+    relation: connects-to
+    note: "The leading cause of atrial fibrillation: hypertensive left-ventricular hypertrophy and atrial stretch remodel the conduction system, making hypertension the top modifiable driver of AF."
+  - target: 01-human/05-tissue/hippocampus
+    relation: connects-to
+    note: "Vascular cognitive decline: chronic hypertension damages cerebral small vessels and the hippocampus, driving vascular dementia and accelerating Alzheimer's disease."
 ---
 
 # Hypertension
@@ -418,6 +427,9 @@ Blood pressure is determined by: BP = Cardiac Output × Peripheral Vascular Resi
 - `connects-to` → **[Loop Diuretics](../../../03-medicine/01-modern/04-cardio/loop-diuretics/README.md)** — Diuretics for tougher cases: when kidney function is reduced or heart failure coexists and thiazides fail, loop diuretics like furosemide lower blood pressure by offloading the salt and water volume that sustains hypertension.
 - `connects-to` → **[Arterial Wall](../../05-tissue/arterial-wall/README.md)** — Pressure remodels the vessel itself: sustained hypertension thickens and stiffens the arterial wall through smooth-muscle hypertrophy and hyaline arteriosclerosis, a structural change that raises pressure further and sets up aneurysm and dissection.
 - `connects-to` → **[Glomerulus](../../05-tissue/glomerulus/README.md)** — High pressure scars the filter: hypertension transmitted to the glomerulus causes hyalinosis and glomerulosclerosis—hypertensive nephrosclerosis—one of the leading causes of chronic kidney disease and end-stage renal failure worldwide.
+- `connects-to` → **[Myocardium](../../05-tissue/myocardium/README.md)** — Hypertensive heart disease: chronic pressure overload thickens the left ventricular myocardium (LVH), which stiffens into heart failure with preserved ejection fraction and predisposes to arrhythmia and infarction.
+- `connects-to` → **[Cardiac Conduction System](../../05-tissue/cardiac-conduction-system/README.md)** — The leading cause of atrial fibrillation: hypertensive left-ventricular hypertrophy and atrial stretch remodel the conduction system, making hypertension the top modifiable driver of AF.
+- `connects-to` → **[Hippocampus](../../05-tissue/hippocampus/README.md)** — Vascular cognitive decline: chronic hypertension damages cerebral small vessels and the hippocampus, driving vascular dementia and accelerating Alzheimer's disease.
 
 ## Pathology
 

@@ -237,6 +237,15 @@ cross_links:
   - target: 01-human/07-system/anorexia-nervosa
     relation: connects-to
     note: "Opposite roads to wasting: Huntington's disease causes relentless weight loss from a hypermetabolic state despite preserved or increased appetite, the mirror image of anorexia nervosa, where psychological appetite suppression drives the weight loss."
+  - target: 01-human/05-tissue/cardiac-conduction-system
+    relation: connects-to
+    note: "Arrhythmia and sudden death: beyond cardiomyopathy, Huntington's autonomic failure prolongs the QT interval and disturbs cardiac rhythm, contributing to the sudden cardiac deaths that punctuate the disease."
+  - target: 01-human/05-tissue/cortical-bone
+    relation: connects-to
+    note: "Wasting thins the skeleton: HD's hypermetabolic, chorea-driven catabolism causes progressive weight loss and reduced bone density, raising fracture risk in a population already prone to falls."
+  - target: 01-human/05-tissue/intestinal-epithelium
+    relation: connects-to
+    note: "Gut involvement: mutant huntingtin is expressed in the gut, where enteric dysfunction and altered intestinal epithelium contribute to the weight loss and gut-brain disturbances of HD."
 sources:
   - id: gusella-1983-htt-locus
     type: peer-reviewed
@@ -361,3 +370,6 @@ HD disrupts multiple neural circuit functions:
 - `connects-to` → **[Axonal Transport](../../05-tissue/axonal-transport/README.md)** — Mutant huntingtin jams the cell's transport: expanded huntingtin disrupts microtubule-based axonal transport, starving neurons of BDNF and mitochondria delivered along the axon—a core driver of the striatal neuron death behind Huntington's chorea.
 - `connects-to` → **[Myocardium](../../05-tissue/myocardium/README.md)** — It is not only a brain disease: huntingtin is expressed in the heart, and Huntington's disease carries a peripheral cardiomyopathy with autonomic dysfunction, so cardiac causes rank among its leading deaths alongside aspiration pneumonia.
 - `connects-to` → **[Anorexia Nervosa](../anorexia-nervosa/README.md)** — Opposite roads to wasting: Huntington's disease causes relentless weight loss from a hypermetabolic state despite preserved or increased appetite, the mirror image of anorexia nervosa, where psychological appetite suppression drives the weight loss.
+- `connects-to` → **[Cardiac Conduction System](../../05-tissue/cardiac-conduction-system/README.md)** — Arrhythmia and sudden death: beyond cardiomyopathy, Huntington's autonomic failure prolongs the QT interval and disturbs cardiac rhythm, contributing to the sudden cardiac deaths that punctuate the disease.
+- `connects-to` → **[Cortical Bone](../../05-tissue/cortical-bone/README.md)** — Wasting thins the skeleton: HD's hypermetabolic, chorea-driven catabolism causes progressive weight loss and reduced bone density, raising fracture risk in a population already prone to falls.
+- `connects-to` → **[Intestinal Epithelium](../../05-tissue/intestinal-epithelium/README.md)** — Gut involvement: mutant huntingtin is expressed in the gut, where enteric dysfunction and altered intestinal epithelium contribute to the weight loss and gut-brain disturbances of HD.
