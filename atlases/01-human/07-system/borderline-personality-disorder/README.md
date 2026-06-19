@@ -277,6 +277,15 @@ cross_links:
   - target: 01-human/05-tissue/cardiac-conduction-system
     relation: connects-to
     note: "Drug and stress effects on rhythm: the polypharmacy common in borderline personality disorder (antipsychotics, antidepressants) can prolong the QT interval, while chronic stress and autonomic dysregulation add arrhythmia risk."
+  - target: 01-human/03-molecular/npy
+    relation: connects-to
+    note: "Stress resilience deficit: neuropeptide Y normally buffers the stress response, and reduced NPY signalling is associated with the impulsivity and stress vulnerability of borderline personality disorder."
+  - target: 01-human/03-molecular/il-1b
+    relation: connects-to
+    note: "Neuroinflammation: IL-1β and other inflammatory cytokines, raised with early-life adversity, are increasingly implicated in the affective dysregulation of borderline personality disorder."
+  - target: 01-human/03-molecular/acetylcholine
+    relation: connects-to
+    note: "Cholinergic mood balance: cholinergic-adrenergic imbalance is implicated in the rapid affective instability of borderline personality disorder, an old but enduring hypothesis of mood regulation."
 ---
 
 # Borderline Personality Disorder
@@ -503,6 +512,9 @@ This model directly informs DBT treatment: validate emotional experience (the bi
 - `connects-to` → **[Gut Microbiome](../gut-microbiome/README.md)** — The gut-brain axis in emotion: microbiome alterations communicate with the brain via the vagus and immune signalling, increasingly implicated in the impulsivity and emotional dysregulation of borderline personality disorder.
 - `connects-to` → **[COVID-19 Disease](../covid-19-disease/README.md)** — Pandemic strain: COVID-19 isolation, disrupted dialectical behaviour therapy and loss of routine sharply worsened self-harm and crises in borderline personality disorder, exposing its sensitivity to social disruption.
 - `connects-to` → **[Cardiac Conduction System](../../05-tissue/cardiac-conduction-system/README.md)** — Drug and stress effects on rhythm: the polypharmacy common in borderline personality disorder (antipsychotics, antidepressants) can prolong the QT interval, while chronic stress and autonomic dysregulation add arrhythmia risk.
+- `connects-to` → **[NPY](../../03-molecular/npy/README.md)** — Stress resilience deficit: neuropeptide Y normally buffers the stress response, and reduced NPY signalling is associated with the impulsivity and stress vulnerability of borderline personality disorder.
+- `connects-to` → **[IL-1β](../../03-molecular/il-1b/README.md)** — Neuroinflammation: IL-1β and other inflammatory cytokines, raised with early-life adversity, are increasingly implicated in the affective dysregulation of borderline personality disorder.
+- `connects-to` → **[Acetylcholine](../../03-molecular/acetylcholine/README.md)** — Cholinergic mood balance: cholinergic-adrenergic imbalance is implicated in the rapid affective instability of borderline personality disorder, an old but enduring hypothesis of mood regulation.
 
 [^linehan-1993-dbt]: Linehan MM. *Cognitive-Behavioral Treatment of Borderline Personality Disorder.* Guilford; 1993. [PubMed 8192506](https://pubmed.ncbi.nlm.nih.gov/8192506/)
 [^skodol-2002-bpd-neurobiology]: Siever LJ, Davis KL. A psychobiological perspective on the personality disorders. *Am J Psychiatry.* 1991;148(12):1647-1658. [doi:10.1176/ajp.148.12.1647](https://doi.org/10.1176/ajp.148.12.1647) · [PubMed 1957927](https://pubmed.ncbi.nlm.nih.gov/1957927/)

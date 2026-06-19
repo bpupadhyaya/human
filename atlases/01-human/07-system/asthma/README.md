@@ -277,6 +277,15 @@ cross_links:
   - target: 01-human/03-molecular/surfactant
     relation: connects-to
     note: "Surfactant in small-airway closure: airway surfactant becomes dysfunctional in asthma, contributing to the mucus plugging and small-airway collapse that drive severe and fatal attacks."
+  - target: 01-human/03-molecular/vegf
+    relation: connects-to
+    note: "Airway remodelling: VEGF drives the angiogenesis and vascular remodelling of the chronically inflamed asthmatic airway wall, contributing to fixed airflow obstruction."
+  - target: 01-human/03-molecular/leptin
+    relation: connects-to
+    note: "Obese-asthma phenotype: leptin from excess adipose tissue promotes airway inflammation and links obesity to a distinct, often steroid-resistant asthma phenotype."
+  - target: 01-human/03-molecular/il-1b
+    relation: connects-to
+    note: "Neutrophilic axis: IL-1β and inflammasome activation characterise the neutrophilic, non-Th2, steroid-resistant form of severe asthma, distinct from eosinophilic disease."
 ---
 
 # Asthma
@@ -472,6 +481,9 @@ Asthma affects approximately **339 million people worldwide** (WHO 2019) and is 
 - `connects-to` → **[COVID-19 Disease](../covid-19-disease/README.md)** — Clinical interplay: although type-2 asthma did not worsen COVID-19, severe COVID can present with wheeze and bronchospasm, and the pandemic reshaped asthma care toward inhaled-steroid maintenance and remote monitoring.
 - `connects-to` → **[Peripheral Nerve](../../05-tissue/peripheral-nerve/README.md)** — Neural control of the airway: vagal cholinergic tone drives bronchoconstriction (the target of anticholinergics like tiotropium), and sensory-nerve neurogenic inflammation amplifies the airway hyperresponsiveness of asthma.
 - `connects-to` → **[Surfactant](../../03-molecular/surfactant/README.md)** — Surfactant in small-airway closure: airway surfactant becomes dysfunctional in asthma, contributing to the mucus plugging and small-airway collapse that drive severe and fatal attacks.
+- `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — Airway remodelling: VEGF drives the angiogenesis and vascular remodelling of the chronically inflamed asthmatic airway wall, contributing to fixed airflow obstruction.
+- `connects-to` → **[Leptin](../../03-molecular/leptin/README.md)** — Obese-asthma phenotype: leptin from excess adipose tissue promotes airway inflammation and links obesity to a distinct, often steroid-resistant asthma phenotype.
+- `connects-to` → **[IL-1β](../../03-molecular/il-1b/README.md)** — Neutrophilic axis: IL-1β and inflammasome activation characterise the neutrophilic, non-Th2, steroid-resistant form of severe asthma, distinct from eosinophilic disease.
 
 [^gina-2023-asthma]: Global Initiative for Asthma. Global Strategy for Asthma Management and Prevention. 2023. [ginasthma.org](https://ginasthma.org/2023-gina-main-report/)
 [^wenzel-2012-asthma-phenotypes]: Wenzel SE. Asthma phenotypes: the evolution from clinical to molecular approaches. *Nat Med.* 2012;18(5):716-725. [doi:10.1038/nm.2678](https://doi.org/10.1038/nm.2678) · [PubMed 22561835](https://pubmed.ncbi.nlm.nih.gov/22561835/)
