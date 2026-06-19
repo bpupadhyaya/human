@@ -283,6 +283,15 @@ cross_links:
   - target: 01-human/07-system/narcolepsy
     relation: connects-to
     note: "Diencephalic syndrome: AQP4-rich hypothalamic lesions in NMO can cause symptomatic narcolepsy and hypersomnia along with SIADH, the antibody attacking the same brain regions that govern sleep and water balance."
+  - target: 01-human/03-molecular/ifn-gamma
+    relation: connects-to
+    note: "Th1 cytokine: IFN-γ from pathogenic T-helper cells amplifies the inflammatory, complement-fixing environment that drives the astrocyte destruction of NMO lesions."
+  - target: 01-human/03-molecular/perforin
+    relation: connects-to
+    note: "Cytotoxic killing: AQP4-IgG recruits NK cells and CD8 T cells whose perforin-mediated antibody-dependent cellular cytotoxicity adds to complement in destroying astrocytes."
+  - target: 01-human/03-molecular/nlrp3-inflammasome
+    relation: connects-to
+    note: "Glial inflammasome: NLRP3-inflammasome activation in microglia and macrophages within NMO lesions amplifies IL-1β-driven neuroinflammation and tissue damage."
 ---
 
 # NMOSD
@@ -517,6 +526,9 @@ NMOSD impairs CNS function through three attack-related mechanisms:
 - `connects-to` → **[COVID-19 Disease](../covid-19-disease/README.md)** — An infectious trigger: NMOSD attacks have been reported after SARS-CoV-2 infection and, rarely, vaccination, fitting the pattern of immune activation precipitating relapses of this antibody-mediated disease.
 - `connects-to` → **[Type 1 Diabetes](../type-1-diabetes/README.md)** — Autoimmune clustering: NMOSD frequently coexists with other organ-specific autoimmune diseases such as type 1 diabetes, thyroiditis and myasthenia, reflecting a shared predisposition to autoimmunity.
 - `connects-to` → **[Narcolepsy](../narcolepsy/README.md)** — Diencephalic syndrome: AQP4-rich hypothalamic lesions in NMO can cause symptomatic narcolepsy and hypersomnia along with SIADH, the antibody attacking the same brain regions that govern sleep and water balance.
+- `connects-to` → **[IFN-γ](../../03-molecular/ifn-gamma/README.md)** — Th1 cytokine: IFN-γ from pathogenic T-helper cells amplifies the inflammatory, complement-fixing environment that drives the astrocyte destruction of NMO lesions.
+- `connects-to` → **[Perforin](../../03-molecular/perforin/README.md)** — Cytotoxic killing: AQP4-IgG recruits NK cells and CD8 T cells whose perforin-mediated antibody-dependent cellular cytotoxicity adds to complement in destroying astrocytes.
+- `connects-to` → **[NLRP3 Inflammasome](../../03-molecular/nlrp3-inflammasome/README.md)** — Glial inflammasome: NLRP3-inflammasome activation in microglia and macrophages within NMO lesions amplifies IL-1β-driven neuroinflammation and tissue damage.
 
 [^wingerchuk-2015-nmosd-criteria]: Wingerchuk DM, Banwell B, Bennett JL, et al. International consensus diagnostic criteria for neuromyelitis optica spectrum disorders. *Neurology.* 2015;85(2):177-189. [doi:10.1212/WNL.0000000000001729](https://doi.org/10.1212/WNL.0000000000001729) · [PubMed 26092914](https://pubmed.ncbi.nlm.nih.gov/26092914/)
 [^pittock-2019-eculizumab-prevent]: Pittock SJ, Berthele A, Fujihara K, et al. Eculizumab in Aquaporin-4-Positive Neuromyelitis Optica Spectrum Disorder. *N Engl J Med.* 2019;381(7):614-625. [doi:10.1056/NEJMoa1900866](https://doi.org/10.1056/NEJMoa1900866) · [PubMed 31050279](https://pubmed.ncbi.nlm.nih.gov/31050279/)

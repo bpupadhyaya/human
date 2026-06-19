@@ -280,6 +280,15 @@ cross_links:
   - target: 01-human/05-tissue/cardiac-conduction-system
     relation: connects-to
     note: "Obesity and atrial fibrillation: excess adiposity—through atrial stretch, epicardial fat and inflammation—is a leading modifiable driver of atrial fibrillation, and weight loss can reduce its burden."
+  - target: 01-human/03-molecular/hif-1alpha
+    relation: connects-to
+    note: "Adipose hypoxia: as fat mass outgrows its blood supply, HIF-1α activation in hypoxic adipose tissue drives the inflammation and fibrosis central to obesity's metabolic dysfunction."
+  - target: 01-human/03-molecular/mtor
+    relation: connects-to
+    note: "Nutrient sensing: chronic overnutrition keeps mTOR signalling active in adipose and muscle, promoting fat storage and contributing to the insulin resistance of obesity."
+  - target: 01-human/03-molecular/ampk
+    relation: connects-to
+    note: "Energy gauge: AMPK, the cell's low-energy sensor, is blunted in obesity, reducing fat oxidation and glucose uptake—its reactivation is a key target of metformin and exercise."
 ---
 
 # Obesity
@@ -507,6 +516,9 @@ This **metainflammation** mechanistically links obesity to type 2 diabetes, athe
 - `connects-to` → **[Thyroid Cancer](../thyroid-cancer/README.md)** — Another obesity-linked cancer: rising body mass index raises the risk of thyroid cancer, part of obesity's broad oncogenic reach through insulin/IGF-1 signalling, sex hormones and chronic inflammation.
 - `connects-to` → **[Hepatic Lobule](../../05-tissue/hepatic-lobule/README.md)** — Fat in the liver: obesity drives triglyceride accumulation in the hepatocytes of the hepatic lobule, the steatosis that begins non-alcoholic fatty liver disease and can progress to NASH and cirrhosis.
 - `connects-to` → **[Cardiac Conduction System](../../05-tissue/cardiac-conduction-system/README.md)** — Obesity and atrial fibrillation: excess adiposity—through atrial stretch, epicardial fat and inflammation—is a leading modifiable driver of atrial fibrillation, and weight loss can reduce its burden.
+- `connects-to` → **[HIF-1α](../../03-molecular/hif-1alpha/README.md)** — Adipose hypoxia: as fat mass outgrows its blood supply, HIF-1α activation in hypoxic adipose tissue drives the inflammation and fibrosis central to obesity's metabolic dysfunction.
+- `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — Nutrient sensing: chronic overnutrition keeps mTOR signalling active in adipose and muscle, promoting fat storage and contributing to the insulin resistance of obesity.
+- `connects-to` → **[AMPK](../../03-molecular/ampk/README.md)** — Energy gauge: AMPK, the cell's low-energy sensor, is blunted in obesity, reducing fat oxidation and glucose uptake—its reactivation is a key target of metformin and exercise.
 
 [^bluher-2019-obesity-review]: Blüher M. Obesity: global epidemiology and pathogenesis. *Nat Rev Endocrinol.* 2019;15(5):288-298. [doi:10.1038/s41574-019-0176-8](https://doi.org/10.1038/s41574-019-0176-8) · [PubMed 30814686](https://pubmed.ncbi.nlm.nih.gov/30814686/)
 [^wilding-2021-semaglutide-step1]: Wilding JPH, Batterham RL, Calanna S, et al. Once-weekly semaglutide in adults with overweight or obesity. *N Engl J Med.* 2021;384(11):989-1002. [doi:10.1056/NEJMoa2032183](https://doi.org/10.1056/NEJMoa2032183) · [PubMed 33567185](https://pubmed.ncbi.nlm.nih.gov/33567185/)
