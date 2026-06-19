@@ -250,6 +250,15 @@ cross_links:
   - target: 03-medicine/01-modern/13-cancer/checkpoint-inhibitors
     relation: connects-to
     note: "Its liver cancer resists immunotherapy: NASH-driven hepatocellular carcinoma responds worse to PD-1 checkpoint blockade than viral HCC, as the impaired anti-tumour T-cell response of fatty liver blunts immunotherapy."
+  - target: 01-human/05-tissue/arterial-wall
+    relation: connects-to
+    note: "Its patients die of their arteries: cardiovascular disease, not liver failure, is the leading cause of death in NASH—hepatic insulin resistance, dyslipidaemia and inflammation accelerate arterial-wall atherosclerosis."
+  - target: 01-human/05-tissue/islet-of-langerhans
+    relation: connects-to
+    note: "A two-way metabolic loop with the pancreas: hepatic insulin resistance in NASH overworks the islets of Langerhans, and the resulting beta-cell strain and type 2 diabetes in turn worsen the fatty liver."
+  - target: 01-human/07-system/psoriasis
+    relation: connects-to
+    note: "Shared metabolic-inflammatory ground: NASH and psoriasis cluster within the metabolic syndrome through systemic inflammation, and some psoriasis therapies such as methotrexate are hepatotoxic, complicating an already fatty liver."
 ---
 
 # NASH
@@ -416,6 +425,9 @@ NASH pathogenesis is driven by multiple simultaneous and sequential hits, not a 
 - `connects-to` → **[Hepatic Lobule](../../05-tissue/hepatic-lobule/README.md)** — It plays out across the lobule: NASH shows steatosis, hepatocyte ballooning and Mallory bodies with lobular inflammation, and the pericellular 'chicken-wire' fibrosis that progresses toward cirrhosis within the hepatic lobule.
 - `connects-to` → **[Statins](../../../03-medicine/01-modern/04-cardio/statins/README.md)** — Cardiovascular risk dominates: most NASH patients die of cardiovascular disease, not liver failure, so statins are both safe and important here, lowering that risk despite the underlying liver disease.
 - `connects-to` → **[Checkpoint Inhibitors](../../../03-medicine/01-modern/13-cancer/checkpoint-inhibitors/README.md)** — Its liver cancer resists immunotherapy: NASH-driven hepatocellular carcinoma responds worse to PD-1 checkpoint blockade than viral HCC, as the impaired anti-tumour T-cell response of fatty liver blunts immunotherapy.
+- `connects-to` → **[Arterial Wall](../../05-tissue/arterial-wall/README.md)** — Its patients die of their arteries: cardiovascular disease, not liver failure, is the leading cause of death in NASH—hepatic insulin resistance, dyslipidaemia and inflammation accelerate arterial-wall atherosclerosis.
+- `connects-to` → **[Islet of Langerhans](../../05-tissue/islet-of-langerhans/README.md)** — A two-way metabolic loop with the pancreas: hepatic insulin resistance in NASH overworks the islets of Langerhans, and the resulting beta-cell strain and type 2 diabetes in turn worsen the fatty liver.
+- `connects-to` → **[Psoriasis](../psoriasis/README.md)** — Shared metabolic-inflammatory ground: NASH and psoriasis cluster within the metabolic syndrome through systemic inflammation, and some psoriasis therapies such as methotrexate are hepatotoxic, complicating an already fatty liver.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 

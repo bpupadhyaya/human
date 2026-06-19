@@ -244,6 +244,15 @@ cross_links:
   - target: 01-human/07-system/aplastic-anemia
     relation: connects-to
     note: "Two routes to marrow failure: myelofibrosis cytopenias come from a fibrosed, crowded marrow, whereas aplastic anaemia leaves an empty hypocellular marrow — opposite histology converging on pancytopenia."
+  - target: 01-human/05-tissue/hepatic-lobule
+    relation: connects-to
+    note: "Blood-making relocates to the liver: as marrow fibrosis fails haematopoiesis, extramedullary blood formation sets up in the spleen and the hepatic lobules, enlarging the liver alongside the massive spleen."
+  - target: 01-human/05-tissue/arterial-wall
+    relation: connects-to
+    note: "It still thromboses: like other myeloproliferative neoplasms, myelofibrosis's JAK2-mutant blood cells inflame the arterial wall and raise the risk of arterial thrombosis, stroke and heart attack."
+  - target: 01-human/07-system/leishmaniasis
+    relation: connects-to
+    note: "An infectious mimic of the big spleen: visceral leishmaniasis produces massive splenomegaly, pancytopenia and marrow change that imitate myelofibrosis, a key infectious differential in endemic regions."
 ---
 
 # Myelofibrosis
@@ -447,6 +456,9 @@ Abrupt ruxolitinib cessation → cytokine rebound → fever, splenomegaly surge,
 - `connects-to` → **[Cancer Chemotherapy](../../../03-medicine/01-modern/13-cancer/cancer-chemotherapy/README.md)** — Cytoreduction and conditioning: hydroxyurea controls the splenomegaly and high counts of myelofibrosis, and intensive conditioning chemotherapy precedes the allogeneic stem-cell transplant that is its only cure.
 - `connects-to` → **[Cortical Bone](../../05-tissue/cortical-bone/README.md)** — It can harden the bone: advanced myelofibrosis often brings osteosclerosis, thickening the bony trabeculae as marrow fibrosis spills into a denser skeleton visible on imaging.
 - `connects-to` → **[Aplastic Anemia](../aplastic-anemia/README.md)** — Two routes to marrow failure: myelofibrosis cytopenias come from a fibrosed, crowded marrow, whereas aplastic anaemia leaves an empty hypocellular marrow — opposite histology converging on pancytopenia.
+- `connects-to` → **[Hepatic Lobule](../../05-tissue/hepatic-lobule/README.md)** — Blood-making relocates to the liver: as marrow fibrosis fails haematopoiesis, extramedullary blood formation sets up in the spleen and the hepatic lobules, enlarging the liver alongside the massive spleen.
+- `connects-to` → **[Arterial Wall](../../05-tissue/arterial-wall/README.md)** — It still thromboses: like other myeloproliferative neoplasms, myelofibrosis's JAK2-mutant blood cells inflame the arterial wall and raise the risk of arterial thrombosis, stroke and heart attack.
+- `connects-to` → **[Leishmaniasis](../leishmaniasis/README.md)** — An infectious mimic of the big spleen: visceral leishmaniasis produces massive splenomegaly, pancytopenia and marrow change that imitate myelofibrosis, a key infectious differential in endemic regions.
 
 ---
 
