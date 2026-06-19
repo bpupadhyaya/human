@@ -265,6 +265,15 @@ cross_links:
   - target: 01-human/05-tissue/hepatic-lobule
     relation: connects-to
     note: "Liver is a favoured metastatic site: melanoma—especially ocular melanoma—spreads to the liver, seeding the hepatic lobule, a pattern that dominates uveal melanoma's course."
+  - target: 01-human/07-system/colorectal-cancer
+    relation: connects-to
+    note: "Same mutation, different response: BRAF V600E drives both melanoma and a colorectal cancer subset, yet BRAF inhibitors alone work in melanoma but fail in colon cancer because EGFR feedback reactivates the pathway—a lesson in context-dependent oncogene targeting."
+  - target: 01-human/07-system/inflammatory-bowel-disease
+    relation: connects-to
+    note: "Immunotherapy's autoimmune cost: the checkpoint inhibitors that revolutionised melanoma treatment unleash an autoimmune colitis closely resembling inflammatory bowel disease, managed with the same steroids and anti-TNF biologics."
+  - target: 01-human/07-system/epilepsy
+    relation: connects-to
+    note: "Seizures from brain spread: melanoma is among the cancers most prone to forming brain metastases, often haemorrhagic, making it a notable cause of secondary seizures and epilepsy in advanced disease."
 ---
 
 # Melanoma
@@ -437,6 +446,9 @@ cross_links:
 - `connects-to` → **[Pancreatic Cancer](../pancreatic-cancer/README.md)** — CDKN2A and the FAMMM syndrome: germline CDKN2A mutation causes familial atypical multiple mole melanoma, raising the risk of both melanoma and pancreatic cancer—one gene linking skin and pancreas.
 - `connects-to` → **[Myocardium](../../05-tissue/myocardium/README.md)** — Checkpoint myocarditis: the immune checkpoint inhibitors that revolutionised melanoma treatment can trigger a rare but often fatal autoimmune myocarditis of the myocardium, a feared immune-related adverse event.
 - `connects-to` → **[Hepatic Lobule](../../05-tissue/hepatic-lobule/README.md)** — Liver is a favoured metastatic site: melanoma—especially ocular melanoma—spreads to the liver, seeding the hepatic lobule, a pattern that dominates uveal melanoma's course.
+- `connects-to` → **[Colorectal Cancer](../colorectal-cancer/README.md)** — Same mutation, different response: BRAF V600E drives both melanoma and a colorectal cancer subset, yet BRAF inhibitors alone work in melanoma but fail in colon cancer because EGFR feedback reactivates the pathway—a lesson in context-dependent oncogene targeting.
+- `connects-to` → **[Inflammatory Bowel Disease](../inflammatory-bowel-disease/README.md)** — Immunotherapy's autoimmune cost: the checkpoint inhibitors that revolutionised melanoma treatment unleash an autoimmune colitis closely resembling inflammatory bowel disease, managed with the same steroids and anti-TNF biologics.
+- `connects-to` → **[Epilepsy](../epilepsy/README.md)** — Seizures from brain spread: melanoma is among the cancers most prone to forming brain metastases, often haemorrhagic, making it a notable cause of secondary seizures and epilepsy in advanced disease.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
