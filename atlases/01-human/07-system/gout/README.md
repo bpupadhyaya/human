@@ -274,6 +274,15 @@ cross_links:
   - target: 01-human/07-system/covid-19-disease
     relation: connects-to
     note: "Shared inflammasome biology: gout's anti-inflammatory colchicine was repurposed and trialled for COVID-19's hyperinflammation, the two diseases linked through NLRP3-inflammasome and IL-1β signalling."
+  - target: 01-human/03-molecular/angiotensin-ii
+    relation: connects-to
+    note: "RAAS and urate handling: angiotensin II links hyperuricaemia to hypertension and renal urate retention, and the ARB losartan is uniquely uricosuric, lowering urate while treating blood pressure."
+  - target: 01-human/03-molecular/leptin
+    relation: connects-to
+    note: "Adiposity and urate: leptin, elevated in obesity, is associated with hyperuricaemia and gout, helping explain why excess body fat raises the risk of crystal disease."
+  - target: 01-human/03-molecular/ccl2
+    relation: connects-to
+    note: "Recruiting the flare: CCL2 (MCP-1) draws monocytes and macrophages to deposited urate crystals, amplifying the neutrophil-rich acute inflammation of a gout attack."
 ---
 
 # Gout
@@ -452,6 +461,9 @@ The central mechanism linking MSU crystals to acute gouty arthritis is **NLRP3 i
 - `connects-to` → **[Sickle Cell Disease](../sickle-cell-disease/README.md)** — Hyperuricaemia of high cell turnover: chronic haemolysis in sickle cell disease, like myeloproliferative disease, raises serum urate and causes secondary gout and urate nephropathy.
 - `connects-to` → **[Peripheral Nerve](../../05-tissue/peripheral-nerve/README.md)** — Tophi compress nerves: large tophaceous urate deposits can entrap peripheral nerves—classically carpal tunnel syndrome at the wrist—a mechanical complication of long-standing chronic gout.
 - `connects-to` → **[COVID-19 Disease](../covid-19-disease/README.md)** — Shared inflammasome biology: gout's anti-inflammatory colchicine was repurposed and trialled for COVID-19's hyperinflammation, the two diseases linked through NLRP3-inflammasome and IL-1β signalling.
+- `connects-to` → **[Angiotensin II](../../03-molecular/angiotensin-ii/README.md)** — RAAS and urate handling: angiotensin II links hyperuricaemia to hypertension and renal urate retention, and the ARB losartan is uniquely uricosuric, lowering urate while treating blood pressure.
+- `connects-to` → **[Leptin](../../03-molecular/leptin/README.md)** — Adiposity and urate: leptin, elevated in obesity, is associated with hyperuricaemia and gout, helping explain why excess body fat raises the risk of crystal disease.
+- `connects-to` → **[CCL2](../../03-molecular/ccl2/README.md)** — Recruiting the flare: CCL2 (MCP-1) draws monocytes and macrophages to deposited urate crystals, amplifying the neutrophil-rich acute inflammation of a gout attack.
 
 [^dalbeth-2019-gout-primer]: Dalbeth N, Choi HK, Joosten LAB, et al. Gout. *Nat Rev Dis Primers.* 2019;5(1):69. [doi:10.1038/s41572-019-0115-y](https://doi.org/10.1038/s41572-019-0115-y) · [PubMed 31558729](https://pubmed.ncbi.nlm.nih.gov/31558729/)
 [^martinon-2006-nlrp3-gout]: Martinon F, Pétrilli V, Mayor A, Tardivel A, Tschopp J. Gout-associated uric acid crystals activate the NALP3 inflammasome. *Nature.* 2006;440(7081):237-241. [doi:10.1038/nature04516](https://doi.org/10.1038/nature04516) · [PubMed 16407889](https://pubmed.ncbi.nlm.nih.gov/16407889/)

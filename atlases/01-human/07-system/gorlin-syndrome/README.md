@@ -268,6 +268,15 @@ cross_links:
   - target: 01-human/07-system/werner-syndrome
     relation: connects-to
     note: "Cancer-predisposing genodermatoses: Gorlin and the progeroid Werner syndrome both raise cancer risk with characteristic skin findings, examples of single-gene disorders that reshape lifelong tumour surveillance."
+  - target: 01-human/03-molecular/notch
+    relation: connects-to
+    note: "Hedgehog-Notch crosstalk: Notch signalling intersects with the Hedgehog pathway in Gorlin's basal cell carcinomas and medulloblastomas, where it can act as a context-dependent tumour suppressor."
+  - target: 01-human/03-molecular/yap1
+    relation: connects-to
+    note: "Hippo cooperation: the Hippo effector YAP cooperates with constitutive Hedgehog signalling to drive proliferation in the basal cell carcinomas and medulloblastomas of Gorlin syndrome."
+  - target: 01-human/03-molecular/pten
+    relation: connects-to
+    note: "PI3K crosstalk and resistance: PTEN loss activates PI3K-AKT signalling that cooperates with Hedgehog and contributes to resistance against SMO inhibitors in Gorlin-related tumours."
 ---
 
 # Gorlin Syndrome
@@ -462,6 +471,9 @@ Both are two-hit tumor suppressors: germline heterozygous LOF + somatic second h
 - `connects-to` → **[Bloom Syndrome](../bloom-syndrome/README.md)** — Inherited skin-cancer syndromes: like Bloom syndrome, Gorlin predisposes to numerous skin cancers (basal cell carcinomas), though through Hedgehog activation rather than Bloom's defective DNA repair.
 - `connects-to` → **[Hippocampus](../../05-tissue/hippocampus/README.md)** — Cognition after childhood brain tumour: Gorlin's medulloblastoma and the craniospinal radiation treating it injure the hippocampus, deficits worsened by Gorlin's radiation hypersensitivity—so RT is avoided when possible.
 - `connects-to` → **[Werner Syndrome](../werner-syndrome/README.md)** — Cancer-predisposing genodermatoses: Gorlin and the progeroid Werner syndrome both raise cancer risk with characteristic skin findings, examples of single-gene disorders that reshape lifelong tumour surveillance.
+- `connects-to` → **[Notch](../../03-molecular/notch/README.md)** — Hedgehog-Notch crosstalk: Notch signalling intersects with the Hedgehog pathway in Gorlin's basal cell carcinomas and medulloblastomas, where it can act as a context-dependent tumour suppressor.
+- `connects-to` → **[YAP1](../../03-molecular/yap1/README.md)** — Hippo cooperation: the Hippo effector YAP cooperates with constitutive Hedgehog signalling to drive proliferation in the basal cell carcinomas and medulloblastomas of Gorlin syndrome.
+- `connects-to` → **[PTEN](../../03-molecular/pten/README.md)** — PI3K crosstalk and resistance: PTEN loss activates PI3K-AKT signalling that cooperates with Hedgehog and contributes to resistance against SMO inhibitors in Gorlin-related tumours.
 
 ---
 
