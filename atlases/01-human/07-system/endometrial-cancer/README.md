@@ -274,6 +274,15 @@ cross_links:
   - target: 01-human/07-system/covid-19-disease
     relation: connects-to
     note: "Obesity and disrupted care: the obesity that drives endometrial cancer also worsens COVID-19, and the pandemic delayed diagnosis of postmenopausal bleeding and gynaecological-cancer surgery."
+  - target: 01-human/03-molecular/akt
+    relation: connects-to
+    note: "PI3K/AKT engine: with PTEN loss and PIK3CA mutation near-universal in endometrioid tumours, AKT is constitutively active to drive growth and survival, making the PI3K/AKT/mTOR axis a key target."
+  - target: 01-human/03-molecular/cdk4-6
+    relation: connects-to
+    note: "Cell-cycle drive: oestrogen-driven endometrial cancer relies on cyclin D-CDK4/6 to pass the G1 checkpoint, and CDK4/6 inhibition with endocrine therapy is under active investigation."
+  - target: 01-human/03-molecular/hif-1alpha
+    relation: connects-to
+    note: "Tumour hypoxia: HIF-1α stabilised in hypoxic endometrial tumours promotes the VEGF angiogenesis, glycolysis and invasion that mark the more aggressive, higher-grade disease."
 ---
 
 # Endometrial Cancer
@@ -484,6 +493,9 @@ cross_links:
 - `connects-to` → **[Intestinal Epithelium](../../05-tissue/intestinal-epithelium/README.md)** — The Lynch sentinel: in women with Lynch syndrome, endometrial cancer often appears before colorectal cancer, the same mismatch-repair loss driving tumours in the uterine and intestinal epithelium.
 - `connects-to` → **[Li-Fraumeni Syndrome](../li-fraumeni-syndrome/README.md)** — Serous, p53-driven disease: the aggressive serous subtype of endometrial cancer is TP53-mutated, and germline TP53 (Li-Fraumeni) adds it to that syndrome's broad cancer spectrum.
 - `connects-to` → **[COVID-19 Disease](../covid-19-disease/README.md)** — Obesity and disrupted care: the obesity that drives endometrial cancer also worsens COVID-19, and the pandemic delayed diagnosis of postmenopausal bleeding and gynaecological-cancer surgery.
+- `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — PI3K/AKT engine: with PTEN loss and PIK3CA mutation near-universal in endometrioid tumours, AKT is constitutively active to drive growth and survival, making the PI3K/AKT/mTOR axis a key target.
+- `connects-to` → **[CDK4/6](../../03-molecular/cdk4-6/README.md)** — Cell-cycle drive: oestrogen-driven endometrial cancer relies on cyclin D-CDK4/6 to pass the G1 checkpoint, and CDK4/6 inhibition with endocrine therapy is under active investigation.
+- `connects-to` → **[HIF-1α](../../03-molecular/hif-1alpha/README.md)** — Tumour hypoxia: HIF-1α stabilised in hypoxic endometrial tumours promotes the VEGF angiogenesis, glycolysis and invasion that mark the more aggressive, higher-grade disease.
 
 [^konstantinopoulos-2019-dostarlimab]: Konstantinopoulos PA, Lheureux S, Moore KN. PARP inhibitors for ovarian and endometrial cancers: state of the art and clinical perspectives. *J Clin Oncol.* 2020;38(25):2896-2909. [doi:10.1200/JCO.20.00571](https://doi.org/10.1200/JCO.20.00571) · [PubMed 32706635](https://pubmed.ncbi.nlm.nih.gov/32706635/)
 [^eskander-2023-ruby]: Eskander RN, Sill MW, Beffa L, et al. Pembrolizumab plus chemotherapy in advanced endometrial cancer. *N Engl J Med.* 2023;388(23):2159-2170. [doi:10.1056/NEJMoa2302312](https://doi.org/10.1056/NEJMoa2302312) · [PubMed 37166384](https://pubmed.ncbi.nlm.nih.gov/37166384/)

@@ -283,6 +283,15 @@ cross_links:
   - target: 01-human/07-system/narcolepsy
     relation: connects-to
     note: "Paroxysmal-event mimics: cataplexy and sleep attacks of narcolepsy can be mistaken for seizures, making it part of the differential of episodic neurological events alongside epilepsy."
+  - target: 01-human/03-molecular/il-1b
+    relation: connects-to
+    note: "Pro-seizure cytokine: IL-1β released by activated glia lowers seizure threshold and promotes epileptogenesis, a central mediator of the neuroinflammation that sustains chronic epilepsy."
+  - target: 01-human/03-molecular/tnf-alpha
+    relation: connects-to
+    note: "Inflammatory excitability: TNF-α modulates glutamate and GABA receptor trafficking to enhance neuronal excitability, linking brain inflammation to seizure generation."
+  - target: 01-human/03-molecular/acetylcholine
+    relation: connects-to
+    note: "Cholinergic seizures: excess cholinergic activity, as in organophosphate poisoning or autosomal-dominant nocturnal frontal-lobe epilepsy, can trigger seizures and status epilepticus."
 ---
 
 # Epilepsy
@@ -523,6 +532,9 @@ Anti-NMDAR encephalitis is the most common autoimmune encephalitis (~37% of auto
 - `connects-to` → **[COVID-19 Disease](../covid-19-disease/README.md)** — Seizures with infection: COVID-19 causes acute symptomatic seizures through encephalopathy, hypoxia and inflammation, and new-onset epilepsy has been reported after infection.
 - `connects-to` → **[SCLC](../sclc/README.md)** — Paraneoplastic seizures: small-cell lung cancer triggers seizures through brain metastases and anti-Hu paraneoplastic limbic encephalitis, an oncological cause of new-onset epilepsy in smokers.
 - `connects-to` → **[Narcolepsy](../narcolepsy/README.md)** — Paroxysmal-event mimics: cataplexy and sleep attacks of narcolepsy can be mistaken for seizures, making it part of the differential of episodic neurological events alongside epilepsy.
+- `connects-to` → **[IL-1β](../../03-molecular/il-1b/README.md)** — Pro-seizure cytokine: IL-1β released by activated glia lowers seizure threshold and promotes epileptogenesis, a central mediator of the neuroinflammation that sustains chronic epilepsy.
+- `connects-to` → **[TNF-α](../../03-molecular/tnf-alpha/README.md)** — Inflammatory excitability: TNF-α modulates glutamate and GABA receptor trafficking to enhance neuronal excitability, linking brain inflammation to seizure generation.
+- `connects-to` → **[Acetylcholine](../../03-molecular/acetylcholine/README.md)** — Cholinergic seizures: excess cholinergic activity, as in organophosphate poisoning or autosomal-dominant nocturnal frontal-lobe epilepsy, can trigger seizures and status epilepticus.
 
 [^fisher-2017-ilae-classification]: Fisher RS, Cross JH, D'Souza C, et al. Instruction manual for the ILAE 2017 operational classification of seizure types. *Epilepsia.* 2017;58(4):531-542. [doi:10.1111/epi.13671](https://doi.org/10.1111/epi.13671) · [PubMed 28276060](https://pubmed.ncbi.nlm.nih.gov/28276060/)
 [^devinsky-2018-epilepsy-review]: Devinsky O, Vezzani A, O'Brien TJ, et al. Epilepsy. *Nat Rev Dis Primers.* 2018;4:18024. [doi:10.1038/nrdp.2018.24](https://doi.org/10.1038/nrdp.2018.24) · [PubMed 29722352](https://pubmed.ncbi.nlm.nih.gov/29722352/)
