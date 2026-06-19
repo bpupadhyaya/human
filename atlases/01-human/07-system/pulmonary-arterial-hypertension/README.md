@@ -283,6 +283,15 @@ cross_links:
   - target: 01-human/03-molecular/bnp
     relation: connects-to
     note: "Right-heart strain marker: BNP and NT-proBNP rise as the pressure-loaded right ventricle stretches in PAH, serving as key biomarkers for risk stratification and treatment response."
+  - target: 01-human/03-molecular/tnf-alpha
+    relation: connects-to
+    note: "Vascular inflammation: TNF-α contributes to the perivascular inflammation and pulmonary-artery remodelling that narrow the vessels in PAH."
+  - target: 01-human/03-molecular/il-1b
+    relation: connects-to
+    note: "Inflammasome-driven remodelling: IL-1β from the activated NLRP3 inflammasome promotes the pulmonary-arterial inflammation and remodelling of PAH, an emerging therapeutic target."
+  - target: 01-human/03-molecular/ccl2
+    relation: connects-to
+    note: "Monocyte recruitment: CCL2 draws monocytes and macrophages into the remodelling pulmonary-artery wall in PAH, fuelling the inflammation that drives vascular narrowing."
 ---
 
 # Pulmonary Arterial Hypertension
@@ -494,6 +503,9 @@ Key variables: WHO functional class (I-IV), 6-minute walk distance (6MWD), NT-pr
 - `connects-to` → **[Caspase-3](../../03-molecular/caspase-3/README.md)** — Apoptosis then resistance: early caspase-3-mediated endothelial apoptosis, followed by emergence of apoptosis-resistant proliferating cells, drives the plexiform vascular remodelling of PAH.
 - `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — Proliferative signalling: PI3K-AKT-mTOR activation drives the smooth-muscle and endothelial proliferation that narrows pulmonary arterioles in PAH.
 - `connects-to` → **[BNP](../../03-molecular/bnp/README.md)** — Right-heart strain marker: BNP and NT-proBNP rise as the pressure-loaded right ventricle stretches in PAH, serving as key biomarkers for risk stratification and treatment response.
+- `connects-to` → **[TNF-α](../../03-molecular/tnf-alpha/README.md)** — Vascular inflammation: TNF-α contributes to the perivascular inflammation and pulmonary-artery remodelling that narrow the vessels in PAH.
+- `connects-to` → **[IL-1β](../../03-molecular/il-1b/README.md)** — Inflammasome-driven remodelling: IL-1β from the activated NLRP3 inflammasome promotes the pulmonary-arterial inflammation and remodelling of PAH, an emerging therapeutic target.
+- `connects-to` → **[CCL2](../../03-molecular/ccl2/README.md)** — Monocyte recruitment: CCL2 draws monocytes and macrophages into the remodelling pulmonary-artery wall in PAH, fuelling the inflammation that drives vascular narrowing.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 

@@ -277,6 +277,15 @@ cross_links:
   - target: 01-human/03-molecular/ezh2
     relation: connects-to
     note: "Chromatin dysregulation: EZH2/polycomb activity, in the context of PBRM1 and BAP1 chromatin-remodeller loss, contributes to clear-cell renal carcinoma progression."
+  - target: 01-human/03-molecular/myc
+    relation: connects-to
+    note: "Metabolic-oncogene cooperation: the pseudohypoxic, HIF-driven state of clear-cell RCC upregulates MYC, fuelling the biosynthesis and proliferation of the tumour."
+  - target: 01-human/03-molecular/cyclin-d1
+    relation: connects-to
+    note: "HIF target and cell cycle: HIF-driven cyclin D1 upregulation in VHL-deficient RCC propels tumour cells through the G1 checkpoint, a hallmark of clear-cell disease."
+  - target: 01-human/03-molecular/pik3ca
+    relation: connects-to
+    note: "PI3K activation: PIK3CA mutations activate the PI3K/AKT/mTOR pathway in a subset of renal cell carcinomas, reinforcing the mTOR signalling targeted in therapy."
 ---
 
 # Renal Cell Carcinoma
@@ -482,6 +491,9 @@ Kidney → primary site of EPO production under hypoxia; VHL-intact renal inters
 - `connects-to` → **[Renin](../../03-molecular/renin/README.md)** — Paraneoplastic hypertension: some renal cell carcinomas secrete renin, causing hypertension and hypokalaemia—a hormonal syndrome distinct from the erythropoietin-driven polycythaemia they can also produce.
 - `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — PI3K-mTOR axis: PI3K-AKT-mTOR signalling drives renal cell carcinoma, the target of mTOR inhibitors such as everolimus and temsirolimus in advanced disease.
 - `connects-to` → **[EZH2](../../03-molecular/ezh2/README.md)** — Chromatin dysregulation: EZH2/polycomb activity, in the context of PBRM1 and BAP1 chromatin-remodeller loss, contributes to clear-cell renal carcinoma progression.
+- `connects-to` → **[MYC](../../03-molecular/myc/README.md)** — Metabolic-oncogene cooperation: the pseudohypoxic, HIF-driven state of clear-cell RCC upregulates MYC, fuelling the biosynthesis and proliferation of the tumour.
+- `connects-to` → **[Cyclin D1](../../03-molecular/cyclin-d1/README.md)** — HIF target and cell cycle: HIF-driven cyclin D1 upregulation in VHL-deficient RCC propels tumour cells through the G1 checkpoint, a hallmark of clear-cell disease.
+- `connects-to` → **[PIK3CA](../../03-molecular/pik3ca/README.md)** — PI3K activation: PIK3CA mutations activate the PI3K/AKT/mTOR pathway in a subset of renal cell carcinomas, reinforcing the mTOR signalling targeted in therapy.
 
 [^motzer-2018-checkmate214]: Motzer RJ, Tannir NM, McDermott DF, et al. Nivolumab plus ipilimumab versus sunitinib in advanced renal-cell carcinoma. *N Engl J Med.* 2018;378(14):1277-1290. [doi:10.1056/NEJMoa1712126](https://doi.org/10.1056/NEJMoa1712126) · [PubMed 29562145](https://pubmed.ncbi.nlm.nih.gov/29562145/)
 [^rini-2019-keynote426]: Rini BI, Plimack ER, Stus V, et al. Pembrolizumab plus axitinib versus sunitinib for advanced renal-cell carcinoma. *N Engl J Med.* 2019;380(12):1116-1127. [doi:10.1056/NEJMoa1816714](https://doi.org/10.1056/NEJMoa1816714) · [PubMed 30779529](https://pubmed.ncbi.nlm.nih.gov/30779529/)
