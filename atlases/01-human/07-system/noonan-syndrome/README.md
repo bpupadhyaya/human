@@ -268,6 +268,15 @@ cross_links:
   - target: 01-human/07-system/gist
     relation: connects-to
     note: "A RASopathy tumour: gastrointestinal stromal tumours occur in Noonan syndrome as part of the broader cancer predisposition of the RASopathies, the same RAS-MAPK overactivity driving the neoplasm."
+  - target: 01-human/03-molecular/calcineurin
+    relation: connects-to
+    note: "Hypertrophic heart: calcineurin-NFAT signalling, amplified by RAS-MAPK overactivity, drives the hypertrophic cardiomyopathy that is a hallmark cardiac feature of Noonan syndrome."
+  - target: 01-human/03-molecular/vegf
+    relation: connects-to
+    note: "Lymphatic dysplasia: dysregulated VEGF-driven lymphangiogenesis underlies the lymphoedema, chylothorax and lymphatic malformations characteristic of Noonan syndrome."
+  - target: 01-human/03-molecular/cyclin-d1
+    relation: connects-to
+    note: "Proliferative drive: RAS-MAPK hyperactivation in Noonan syndrome upregulates cyclin D1, contributing to its predisposition to juvenile myelomonocytic leukaemia and other neoplasms."
 ---
 
 # Noonan Syndrome
@@ -489,6 +498,9 @@ NS is characterized by four cardinal features: **(1) short stature** (below 3rd 
 - `connects-to` → **[Troponin Complex](../../03-molecular/troponin-complex/README.md)** — RAS-driven hypertrophy: the hypertrophic cardiomyopathy of Noonan thickens the myocardium and impairs the troponin-regulated contractile apparatus, phenocopying sarcomeric HCM through overactive RAS-MAPK signalling rather than a sarcomere-gene mutation.
 - `connects-to` → **[BNP](../../03-molecular/bnp/README.md)** — Monitoring the strained heart: the hypertrophic cardiomyopathy and pulmonary-valve stenosis of Noonan raise wall stress, lifting BNP as a biomarker of the cardiac burden these congenital lesions impose.
 - `connects-to` → **[GIST](../gist/README.md)** — A RASopathy tumour: gastrointestinal stromal tumours occur in Noonan syndrome as part of the broader cancer predisposition of the RASopathies, the same RAS-MAPK overactivity driving the neoplasm.
+- `connects-to` → **[Calcineurin](../../03-molecular/calcineurin/README.md)** — Hypertrophic heart: calcineurin-NFAT signalling, amplified by RAS-MAPK overactivity, drives the hypertrophic cardiomyopathy that is a hallmark cardiac feature of Noonan syndrome.
+- `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — Lymphatic dysplasia: dysregulated VEGF-driven lymphangiogenesis underlies the lymphoedema, chylothorax and lymphatic malformations characteristic of Noonan syndrome.
+- `connects-to` → **[Cyclin D1](../../03-molecular/cyclin-d1/README.md)** — Proliferative drive: RAS-MAPK hyperactivation in Noonan syndrome upregulates cyclin D1, contributing to its predisposition to juvenile myelomonocytic leukaemia and other neoplasms.
 
 [^tartaglia-2001-ptpn11-noonan]: Tartaglia M, Mehler EL, Goldberg R, et al. Mutations in PTPN11, encoding the protein tyrosine phosphatase SHP-2, cause Noonan syndrome. *Nat Genet.* 2001;29(4):465-468. [doi:10.1038/ng772](https://doi.org/10.1038/ng772) · [PubMed 11704759](https://pubmed.ncbi.nlm.nih.gov/11704759/)
 [^van-der-burgt-2007-noonan-review]: van der Burgt I. Noonan syndrome. *Orphanet J Rare Dis.* 2007;2:4. [doi:10.1186/1750-1172-2-4](https://doi.org/10.1186/1750-1172-2-4) · [PubMed 17222357](https://pubmed.ncbi.nlm.nih.gov/17222357/)
