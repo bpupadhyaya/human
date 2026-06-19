@@ -241,6 +241,15 @@ cross_links:
   - target: 01-human/05-tissue/cortical-bone
     relation: connects-to
     note: "Its meningiomas remodel bone: NF2 causes multiple meningiomas that provoke reactive hyperostosis of the skull, alongside its hallmark bilateral vestibular schwannomas."
+  - target: 01-human/07-system/hcc
+    relation: connects-to
+    note: "Merlin loss drives liver cancer through YAP: the NF2 protein merlin restrains the Hippo effector YAP, so NF2 inactivation—somatic in many hepatocellular carcinomas—unleashes YAP-driven proliferation, linking the schwannoma gene to liver cancer."
+  - target: 01-human/07-system/atypical-teratoid-rhabdoid-tumor
+    relation: connects-to
+    note: "Overlapping at SMARCB1: NF2-related and schwannomatosis tumours can involve SMARCB1, the SWI/SNF subunit whose biallelic loss defines atypical teratoid/rhabdoid tumours, tying nerve-sheath tumour biology to a malignant childhood CNS cancer."
+  - target: 01-human/05-tissue/hepatic-lobule
+    relation: connects-to
+    note: "The Hippo brake on organ size: merlin (NF2) signals cell-contact density to the Hippo pathway that caps proliferation, a mechanism vivid in the hepatic lobule where merlin loss lets hepatocytes overgrow—the tumour-suppressor role behind NF2 cancers."
 ---
 
 # Neurofibromatosis Type 2
@@ -435,6 +444,9 @@ Merlin has an N-terminal FERM domain (α, β, γ lobes) that binds membrane lipi
 - `connects-to` → **[Cancer Chemotherapy](../../../03-medicine/01-modern/13-cancer/cancer-chemotherapy/README.md)** — A limited role against its tumours: the schwannomas, meningiomas and ependymomas of NF2 are largely chemoresistant, managed by surgery and radiosurgery, with bevacizumab the main systemic option.
 - `connects-to` → **[Checkpoint Inhibitors](../../../03-medicine/01-modern/13-cancer/checkpoint-inhibitors/README.md)** — Immunologically quiet tumours: NF2-related schwannomas and meningiomas have low mutational burden and a cold microenvironment, so checkpoint inhibitors play little role.
 - `connects-to` → **[Cortical Bone](../../05-tissue/cortical-bone/README.md)** — Its meningiomas remodel bone: NF2 causes multiple meningiomas that provoke reactive hyperostosis of the skull, alongside its hallmark bilateral vestibular schwannomas.
+- `connects-to` → **[HCC](../hcc/README.md)** — Merlin loss drives liver cancer through YAP: the NF2 protein merlin restrains the Hippo effector YAP, so NF2 inactivation—somatic in many hepatocellular carcinomas—unleashes YAP-driven proliferation, linking the schwannoma gene to liver cancer.
+- `connects-to` → **[Atypical Teratoid Rhabdoid Tumor](../atypical-teratoid-rhabdoid-tumor/README.md)** — Overlapping at SMARCB1: NF2-related and schwannomatosis tumours can involve SMARCB1, the SWI/SNF subunit whose biallelic loss defines atypical teratoid/rhabdoid tumours, tying nerve-sheath tumour biology to a malignant childhood CNS cancer.
+- `connects-to` → **[Hepatic Lobule](../../05-tissue/hepatic-lobule/README.md)** — The Hippo brake on organ size: merlin (NF2) signals cell-contact density to the Hippo pathway that caps proliferation, a mechanism vivid in the hepatic lobule where merlin loss lets hepatocytes overgrow—the tumour-suppressor role behind NF2 cancers.
 
 [^asthagiri-2009-nf2-lancet]: Asthagiri AR, Parry DM, Butman JA, et al. Neurofibromatosis type 2. *Lancet.* 2009;373(9679):1974-1986. [doi:10.1016/S0140-6736(09)60259-2](https://doi.org/10.1016/S0140-6736(09)60259-2) · [PubMed 19476995](https://pubmed.ncbi.nlm.nih.gov/19476995/)
 [^plotkin-2009-nf2-bevacizumab]: Plotkin SR, Stemmer-Rachamimov AO, Barker FG 2nd, et al. Hearing improvement after bevacizumab in patients with neurofibromatosis type 2. *N Engl J Med.* 2009;361(4):358-367. [doi:10.1056/NEJMoa0902579](https://doi.org/10.1056/NEJMoa0902579) · [PubMed 19587327](https://pubmed.ncbi.nlm.nih.gov/19587327/)
