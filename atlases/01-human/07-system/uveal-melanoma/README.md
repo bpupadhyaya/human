@@ -241,6 +241,15 @@ cross_links:
   - target: 01-human/05-tissue/hepatic-lobule
     relation: connects-to
     note: "It seeds the liver sinusoids: uveal melanoma cells lodge in the hepatic sinusoids and grow within the lobule as micrometastases that can smoulder for years, the reason serial liver MRI surveillance underpins follow-up after the eye is treated."
+  - target: 01-human/05-tissue/germinal-center
+    relation: connects-to
+    note: "An immune-privileged, cold tumour: arising in the immune-privileged eye with a low mutational burden, uveal melanoma rarely forms the germinal-centre-like lymphoid structures that predict checkpoint response, so the TCR-bispecific tebentafusp—not PD-1 blockade—extends survival."
+  - target: 01-human/07-system/mds
+    relation: connects-to
+    note: "A shared splicing-factor mutation: SF3B1, mutated in a subset of uveal melanomas, is the same spliceosome gene that defines myelodysplastic syndrome with ring sideroblasts—one splicing defect across an eye cancer and a marrow disease."
+  - target: 01-human/07-system/hcc
+    relation: connects-to
+    note: "Liver-directed therapy unites them: uveal melanoma metastasises almost exclusively to the liver, so like hepatocellular carcinoma it is treated with liver-directed approaches—hepatic perfusion, radioembolization and resection—when disease is liver-confined."
 ---
 
 # Uveal Melanoma
@@ -452,6 +461,9 @@ Uveal melanocytes are neural crest-derived, residing in the uveal stroma and mai
 - `connects-to` → **[Checkpoint Inhibitors](../../../03-medicine/01-modern/13-cancer/checkpoint-inhibitors/README.md)** — Unlike skin melanoma, it resists checkpoints: uveal melanoma carries a low mutational burden and an immunosuppressive microenvironment, so PD-1 and CTLA-4 blockade that transforms cutaneous melanoma works poorly — the gap that drove tebentafusp's development.
 - `connects-to` → **[Cancer Chemotherapy](../../../03-medicine/01-modern/13-cancer/cancer-chemotherapy/README.md)** — Largely chemoresistant: conventional cytotoxic chemotherapy such as dacarbazine, of limited use in any melanoma, achieves little in metastatic uveal melanoma, leaving liver-directed and T-cell-redirecting approaches as the mainstays.
 - `connects-to` → **[Hepatic Lobule](../../05-tissue/hepatic-lobule/README.md)** — It seeds the liver sinusoids: uveal melanoma cells lodge in the hepatic sinusoids and grow within the lobule as micrometastases that can smoulder for years, the reason serial liver MRI surveillance underpins follow-up after the eye is treated.
+- `connects-to` → **[Germinal Center](../../05-tissue/germinal-center/README.md)** — An immune-privileged, cold tumour: arising in the immune-privileged eye with a low mutational burden, uveal melanoma rarely forms the germinal-centre-like lymphoid structures that predict checkpoint response, so the TCR-bispecific tebentafusp—not PD-1 blockade—extends survival.
+- `connects-to` → **[MDS](../mds/README.md)** — A shared splicing-factor mutation: SF3B1, mutated in a subset of uveal melanomas, is the same spliceosome gene that defines myelodysplastic syndrome with ring sideroblasts—one splicing defect across an eye cancer and a marrow disease.
+- `connects-to` → **[HCC](../hcc/README.md)** — Liver-directed therapy unites them: uveal melanoma metastasises almost exclusively to the liver, so like hepatocellular carcinoma it is treated with liver-directed approaches—hepatic perfusion, radioembolization and resection—when disease is liver-confined.
 
 ---
 
