@@ -255,6 +255,15 @@ cross_links:
   - target: 01-human/07-system/aplastic-anemia
     relation: connects-to
     note: "Two anaemias, opposite causes: iron-deficiency anaemia comes from too little iron for haemoglobin while aplastic anaemia comes from marrow failure—a key contrast when the blood count and iron studies don't add up."
+  - target: 01-human/07-system/renal-cell-carcinoma
+    relation: connects-to
+    note: "Haematuria as a clue: renal cell carcinoma classically presents with haematuria that can cause iron-deficiency anaemia, one of the urological cancers uncovered during an unexplained-anaemia workup."
+  - target: 01-human/07-system/rheumatoid-arthritis
+    relation: connects-to
+    note: "Two anaemias in one disease: rheumatoid arthritis causes anaemia of chronic disease and, through NSAID-induced gastrointestinal bleeding, a superimposed iron-deficiency anaemia."
+  - target: 01-human/05-tissue/cardiac-conduction-system
+    relation: connects-to
+    note: "A fast, high-output heart: severe iron-deficiency anaemia drives compensatory tachycardia and palpitations through the cardiac conduction system, and can precipitate high-output heart failure."
 ---
 
 # Iron Deficiency Anemia
@@ -454,6 +463,9 @@ Iron is essential for:
 - `connects-to` → **[Myocardium](../../05-tissue/myocardium/README.md)** — When anaemia strains the heart: severe iron deficiency forces a high-output state and, chronically, an anaemic cardiomyopathy, and iron itself is needed for cardiomyocyte energetics—worsening any heart failure.
 - `connects-to` → **[Kidney](../../06-organ/kidney/README.md)** — The body's oxygen sensor: the kidney detects the low oxygen delivery of anaemia and releases erythropoietin to drive red-cell production, the compensatory loop that iron deficiency tries to outrun.
 - `connects-to` → **[Aplastic Anemia](../aplastic-anemia/README.md)** — Two anaemias, opposite causes: iron-deficiency anaemia comes from too little iron for haemoglobin while aplastic anaemia comes from marrow failure—a key contrast when the blood count and iron studies don't add up.
+- `connects-to` → **[Renal Cell Carcinoma](../renal-cell-carcinoma/README.md)** — Haematuria as a clue: renal cell carcinoma classically presents with haematuria that can cause iron-deficiency anaemia, one of the urological cancers uncovered during an unexplained-anaemia workup.
+- `connects-to` → **[Rheumatoid Arthritis](../rheumatoid-arthritis/README.md)** — Two anaemias in one disease: rheumatoid arthritis causes anaemia of chronic disease and, through NSAID-induced gastrointestinal bleeding, a superimposed iron-deficiency anaemia.
+- `connects-to` → **[Cardiac Conduction System](../../05-tissue/cardiac-conduction-system/README.md)** — A fast, high-output heart: severe iron-deficiency anaemia drives compensatory tachycardia and palpitations through the cardiac conduction system, and can precipitate high-output heart failure.
 
 [^camaschella-2015-iron-deficiency]: Camaschella C. Iron-deficiency anemia. *N Engl J Med.* 2015;372(19):1832-1843. [doi:10.1056/NEJMra1401038](https://doi.org/10.1056/NEJMra1401038) · [PubMed 25946282](https://pubmed.ncbi.nlm.nih.gov/25946282/)
 [^who-ferritin-guideline-2020]: World Health Organization. WHO guideline on use of ferritin concentrations to assess iron status in individuals and populations. WHO; 2020. [WHO publication](https://www.who.int/publications/i/item/9789240000124)

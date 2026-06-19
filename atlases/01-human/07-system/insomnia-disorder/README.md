@@ -265,6 +265,15 @@ cross_links:
   - target: 01-human/07-system/opioid-use-disorder
     relation: connects-to
     note: "Opioids wreck sleep architecture: opioids suppress REM and deep sleep and worsen sleep apnoea, while withdrawal causes severe insomnia—sleep disturbance both drives and follows opioid use."
+  - target: 01-human/07-system/epilepsy
+    relation: connects-to
+    note: "Sleep loss and seizures: sleep deprivation lowers the seizure threshold and triggers attacks in epilepsy, while seizures and antiseizure drugs fragment sleep—a bidirectional vicious cycle."
+  - target: 01-human/07-system/asthma
+    relation: connects-to
+    note: "Nocturnal worsening: asthma and COPD symptoms peak overnight, fragmenting sleep, while poor sleep heightens airway inflammation—insomnia and chronic airway disease reinforce each other."
+  - target: 01-human/07-system/covid-19-disease
+    relation: connects-to
+    note: "Pandemic and post-viral sleeplessness: COVID-19 sharply raised insomnia through stress and isolation ('coronasomnia'), and long-COVID neuroinflammation can leave persistent sleep disruption."
 ---
 
 # Insomnia Disorder
@@ -484,6 +493,9 @@ CBT-I directly targets perpetuating factors.
 - `connects-to` → **[Internet Gaming Disorder](../internet-gaming-disorder/README.md)** — Screens that steal sleep: late-night gaming arousal and blue light delay sleep onset, and insomnia and problematic gaming are tightly comorbid, each feeding the other in a vicious cycle.
 - `connects-to` → **[Cardiac Conduction System](../../05-tissue/cardiac-conduction-system/README.md)** — Bad sleep, electrical heart risk: chronic insomnia and short sleep raise sympathetic tone, predisposing to hypertension, atrial fibrillation and other arrhythmias of the conduction system.
 - `connects-to` → **[Opioid Use Disorder](../opioid-use-disorder/README.md)** — Opioids wreck sleep architecture: opioids suppress REM and deep sleep and worsen sleep apnoea, while withdrawal causes severe insomnia—sleep disturbance both drives and follows opioid use.
+- `connects-to` → **[Epilepsy](../epilepsy/README.md)** — Sleep loss and seizures: sleep deprivation lowers the seizure threshold and triggers attacks in epilepsy, while seizures and antiseizure drugs fragment sleep—a bidirectional vicious cycle.
+- `connects-to` → **[Asthma](../asthma/README.md)** — Nocturnal worsening: asthma and COPD symptoms peak overnight, fragmenting sleep, while poor sleep heightens airway inflammation—insomnia and chronic airway disease reinforce each other.
+- `connects-to` → **[COVID-19 Disease](../covid-19-disease/README.md)** — Pandemic and post-viral sleeplessness: COVID-19 sharply raised insomnia through stress and isolation ('coronasomnia'), and long-COVID neuroinflammation can leave persistent sleep disruption.
 
 [^riemann-2017-insomnia-lancet]: Riemann D, Baglioni C, Bassetti C, et al. European guideline for the diagnosis and treatment of insomnia. *J Sleep Res.* 2017;26(6):675-700. [doi:10.1111/jsr.12594](https://doi.org/10.1111/jsr.12594) · [PubMed 28875581](https://pubmed.ncbi.nlm.nih.gov/28875581/)
 [^trauer-2015-cbti-meta]: Trauer JM, Qian MY, Doyle JS, et al. Cognitive behavioral therapy for chronic insomnia. *Ann Intern Med.* 2015;163(3):191-204. [doi:10.7326/M14-2841](https://doi.org/10.7326/M14-2841) · [PubMed 26054060](https://pubmed.ncbi.nlm.nih.gov/26054060/)
