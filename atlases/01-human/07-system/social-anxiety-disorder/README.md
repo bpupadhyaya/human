@@ -262,6 +262,15 @@ cross_links:
   - target: 01-human/07-system/gambling-disorder
     relation: connects-to
     note: "Reward pursued in private: social anxiety can predispose to solitary behavioural addictions like gambling, undertaken to avoid social exposure and relieve anticipatory distress."
+  - target: 01-human/07-system/opioid-use-disorder
+    relation: connects-to
+    note: "Self-medicating distress: social anxiety disorder raises the risk of substance use disorders including opioids, used to blunt anticipatory dread and the physical symptoms of social fear."
+  - target: 01-human/07-system/migraine
+    relation: connects-to
+    note: "Anxiety and headache: social anxiety disorder is comorbid with migraine, the two sharing serotonergic dysregulation and a stress-reactive nervous system that lowers the threshold for both."
+  - target: 01-human/07-system/covid-19-disease
+    relation: connects-to
+    note: "Isolation and reintegration fear: the COVID-19 pandemic worsened social anxiety, with prolonged isolation and later re-entry into social settings intensifying anticipatory distress."
 ---
 
 # Social Anxiety Disorder
@@ -473,6 +482,9 @@ The unique **dopaminergic social reward deficit** in SAD has clinical implicatio
 - `connects-to` → **[Cardiac Conduction System](../../05-tissue/cardiac-conduction-system/README.md)** — The racing, pounding heart: social anxiety's autonomic surge drives palpitations, tachycardia and tremor through the conduction system, and beta-blockers blunt these symptoms for performance anxiety.
 - `connects-to` → **[NPY](../../03-molecular/npy/README.md)** — The resilience neuropeptide: NPY dampens amygdala threat reactivity and the stress response, and low NPY tone is linked to the heightened social-threat sensitivity that underlies social anxiety.
 - `connects-to` → **[Gambling Disorder](../gambling-disorder/README.md)** — Reward pursued in private: social anxiety can predispose to solitary behavioural addictions like gambling, undertaken to avoid social exposure and relieve anticipatory distress.
+- `connects-to` → **[Opioid Use Disorder](../opioid-use-disorder/README.md)** — Self-medicating distress: social anxiety disorder raises the risk of substance use disorders including opioids, used to blunt anticipatory dread and the physical symptoms of social fear.
+- `connects-to` → **[Migraine](../migraine/README.md)** — Anxiety and headache: social anxiety disorder is comorbid with migraine, the two sharing serotonergic dysregulation and a stress-reactive nervous system that lowers the threshold for both.
+- `connects-to` → **[COVID-19 Disease](../covid-19-disease/README.md)** — Isolation and reintegration fear: the COVID-19 pandemic worsened social anxiety, with prolonged isolation and later re-entry into social settings intensifying anticipatory distress.
 
 [^liebowitz-1987-sad-scale]: Liebowitz MR. Social phobia. *Mod Probl Pharmacopsychiatry.* 1987;22:141-173. [PubMed 2885745](https://pubmed.ncbi.nlm.nih.gov/2885745/)
 [^stein-2008-sad-review]: Stein MB, Stein DJ. Social anxiety disorder. *Lancet.* 2008;371(9618):1115-1125. [doi:10.1016/S0140-6736(08)60488-2](https://doi.org/10.1016/S0140-6736(08)60488-2) · [PubMed 18374843](https://pubmed.ncbi.nlm.nih.gov/18374843/)
