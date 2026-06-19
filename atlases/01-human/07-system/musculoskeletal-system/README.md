@@ -242,6 +242,15 @@ cross_links:
   - target: 03-medicine/01-modern/04-cardio/statins
     relation: connects-to
     note: "A common cause of muscle complaints: statins are the most frequent drug cause of myalgia and, rarely, rhabdomyolysis, making muscle symptoms a routine consideration whenever the musculoskeletal system is assessed in statin users."
+  - target: 01-human/07-system/marfan-syndrome
+    relation: connects-to
+    note: "A heritable connective-tissue disorder of the frame: Marfan syndrome's fibrillin-1 defect lengthens the limbs (arachnodactyly, tall stature) and brings scoliosis, pectus deformity and joint laxity—the skeleton built on faulty connective tissue."
+  - target: 01-human/07-system/multiple-myeloma
+    relation: connects-to
+    note: "A cancer that dissolves bone: myeloma plasma cells activate osteoclasts via RANKL while suppressing osteoblasts, carving the lytic lesions, pathological fractures and hypercalcaemia that make it a disease of the skeleton."
+  - target: 01-human/07-system/als
+    relation: connects-to
+    note: "When the nerve dies, the muscle wastes: amyotrophic lateral sclerosis kills the motor neurons driving skeletal muscle, so progressive denervation atrophy and weakness destroy the musculoskeletal system's power despite initially healthy muscle fibres."
 ---
 
 # Musculoskeletal System
@@ -453,6 +462,9 @@ Chronic exercise drives profound musculoskeletal remodelling [^guyton-hall]:
 - `connects-to` → **[Cortical Bone](../../05-tissue/cortical-bone/README.md)** — The hard substance of the skeleton: dense cortical bone gives the musculoskeletal system its strength and lever arms, continuously remodelled by osteoblasts and osteoclasts under load (Wolff's law), and failing as fractures when it thins.
 - `connects-to` → **[Neuromuscular Junction](../../05-tissue/neuromuscular-junction/README.md)** — Where nerve commands muscle: the neuromuscular junction translates motor-nerve impulses into contraction via acetylcholine, the synapse whose failure — in myasthenia gravis or with paralytics — silences the musculoskeletal system.
 - `connects-to` → **[Statins](../../../03-medicine/01-modern/04-cardio/statins/README.md)** — A common cause of muscle complaints: statins are the most frequent drug cause of myalgia and, rarely, rhabdomyolysis, making muscle symptoms a routine consideration whenever the musculoskeletal system is assessed in statin users.
+- `connects-to` → **[Marfan Syndrome](../marfan-syndrome/README.md)** — A heritable connective-tissue disorder of the frame: Marfan syndrome's fibrillin-1 defect lengthens the limbs (arachnodactyly, tall stature) and brings scoliosis, pectus deformity and joint laxity—the skeleton built on faulty connective tissue.
+- `connects-to` → **[Multiple Myeloma](../multiple-myeloma/README.md)** — A cancer that dissolves bone: myeloma plasma cells activate osteoclasts via RANKL while suppressing osteoblasts, carving the lytic lesions, pathological fractures and hypercalcaemia that make it a disease of the skeleton.
+- `connects-to` → **[ALS](../als/README.md)** — When the nerve dies, the muscle wastes: amyotrophic lateral sclerosis kills the motor neurons driving skeletal muscle, so progressive denervation atrophy and weakness destroy the musculoskeletal system's power despite initially healthy muscle fibres.
 
 ## Pathology
 
