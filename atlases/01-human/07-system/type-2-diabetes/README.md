@@ -274,6 +274,15 @@ cross_links:
   - target: 01-human/07-system/colorectal-cancer
     relation: connects-to
     note: "Hyperinsulinaemia and the colon: type 2 diabetes raises colorectal cancer risk and worsens its outcomes through insulin/IGF-1 signalling, while metformin appears to reduce that risk."
+  - target: 01-human/03-molecular/adiponectin
+    relation: connects-to
+    note: "Insulin-sensitising adipokine: adiponectin falls as adipose tissue expands, and its decline drives the insulin resistance underlying type 2 diabetes."
+  - target: 01-human/03-molecular/resistin
+    relation: connects-to
+    note: "Pro-resistance adipokine: resistin from adipose tissue and macrophages promotes insulin resistance and chronic inflammation, contributing to type 2 diabetes."
+  - target: 01-human/03-molecular/endothelin-1
+    relation: connects-to
+    note: "Vascular complications: endothelin-1-driven vasoconstriction and endothelial dysfunction mediate much of the micro- and macrovascular damage of type 2 diabetes."
 ---
 
 # Type 2 Diabetes
@@ -462,6 +471,9 @@ T2DM, CKD, heart failure, and obesity form the **cardiorenal metabolic (CRM) syn
 - `connects-to` → **[COVID-19 Disease](../covid-19-disease/README.md)** — A two-way danger: type 2 diabetes is a leading risk factor for severe COVID-19 and death, and SARS-CoV-2 can in turn trigger new-onset diabetes and severe hyperglycaemic crises.
 - `connects-to` → **[HCC](../hcc/README.md)** — From fatty liver to cancer: type 2 diabetes and its associated NASH markedly raise the risk of hepatocellular carcinoma, now a leading cause of liver cancer in high-income countries even without cirrhosis.
 - `connects-to` → **[Colorectal Cancer](../colorectal-cancer/README.md)** — Hyperinsulinaemia and the colon: type 2 diabetes raises colorectal cancer risk and worsens its outcomes through insulin/IGF-1 signalling, while metformin appears to reduce that risk.
+- `connects-to` → **[Adiponectin](../../03-molecular/adiponectin/README.md)** — Insulin-sensitising adipokine: adiponectin falls as adipose tissue expands, and its decline drives the insulin resistance underlying type 2 diabetes.
+- `connects-to` → **[Resistin](../../03-molecular/resistin/README.md)** — Pro-resistance adipokine: resistin from adipose tissue and macrophages promotes insulin resistance and chronic inflammation, contributing to type 2 diabetes.
+- `connects-to` → **[Endothelin-1](../../03-molecular/endothelin-1/README.md)** — Vascular complications: endothelin-1-driven vasoconstriction and endothelial dysfunction mediate much of the micro- and macrovascular damage of type 2 diabetes.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 

@@ -268,6 +268,15 @@ cross_links:
   - target: 01-human/05-tissue/cortical-bone
     relation: connects-to
     note: "Late skeletal spread: in advanced uveal melanoma, metastases reach the bone, depositing in the cortical skeleton alongside the dominant hepatic and pulmonary disease."
+  - target: 01-human/03-molecular/ezh2
+    relation: connects-to
+    note: "BAP1-linked epigenetics: BAP1 loss in high-risk uveal melanoma creates a dependence on EZH2, paralleling the BAP1-EZH2 synthetic lethality seen in mesothelioma."
+  - target: 01-human/03-molecular/cyclin-d1
+    relation: connects-to
+    note: "Cell-cycle drive: cyclin D1 with CDK4/6 propels uveal melanoma proliferation downstream of GNAQ/GNA11-driven MAPK signalling."
+  - target: 01-human/03-molecular/myc
+    relation: connects-to
+    note: "Amplified aggression: MYC amplification (chromosome 8q gain) marks high-risk, metastasis-prone uveal melanoma."
 ---
 
 # Uveal Melanoma
@@ -488,6 +497,9 @@ Uveal melanocytes are neural crest-derived, residing in the uveal stroma and mai
 - `connects-to` → **[CLL](../cll/README.md)** — A shared splicing-factor mutation: SF3B1 mutations recur across uveal melanoma, myelodysplasia and a subset of chronic lymphocytic leukaemia, an unexpected molecular thread linking an eye cancer to blood cancers.
 - `connects-to` → **[Alveolus](../../05-tissue/alveolus/README.md)** — Beyond the liver: while uveal melanoma overwhelmingly metastasises to the liver, the lung is its second site, the tumour seeding the alveolar bed in later disseminated disease.
 - `connects-to` → **[Cortical Bone](../../05-tissue/cortical-bone/README.md)** — Late skeletal spread: in advanced uveal melanoma, metastases reach the bone, depositing in the cortical skeleton alongside the dominant hepatic and pulmonary disease.
+- `connects-to` → **[EZH2](../../03-molecular/ezh2/README.md)** — BAP1-linked epigenetics: BAP1 loss in high-risk uveal melanoma creates a dependence on EZH2, paralleling the BAP1-EZH2 synthetic lethality seen in mesothelioma.
+- `connects-to` → **[Cyclin D1](../../03-molecular/cyclin-d1/README.md)** — Cell-cycle drive: cyclin D1 with CDK4/6 propels uveal melanoma proliferation downstream of GNAQ/GNA11-driven MAPK signalling.
+- `connects-to` → **[MYC](../../03-molecular/myc/README.md)** — Amplified aggression: MYC amplification (chromosome 8q gain) marks high-risk, metastasis-prone uveal melanoma.
 
 ---
 
