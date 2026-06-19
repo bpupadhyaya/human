@@ -259,6 +259,15 @@ cross_links:
   - target: 01-human/07-system/systemic-sclerosis
     relation: connects-to
     note: "Two connective-tissue disorders via TGF-β: Marfan's fibrillin loss unleashes excess TGF-β signalling, while systemic sclerosis is autoimmune TGF-β-driven fibrosis—structural versus inflammatory routes to matrix dysregulation."
+  - target: 01-human/07-system/atherosclerosis
+    relation: connects-to
+    note: "Two roads to an aortic aneurysm: Marfan's fibrillin-1 loss causes cystic medial degeneration of the young aorta, distinct from the lipid-driven atherosclerotic aneurysm of older age—same catastrophic endpoint, different wall pathology."
+  - target: 01-human/03-molecular/bnp
+    relation: connects-to
+    note: "Volume-loading the heart: chronic aortic and mitral regurgitation in Marfan stretches the ventricle, raising BNP as a marker of the heart failure that valve and aortic-root disease eventually cause."
+  - target: 01-human/03-molecular/igf-1
+    relation: connects-to
+    note: "The overgrowth axis: the tall stature and arachnodactyly of Marfan reflect dysregulated TGF-β interacting with GH/IGF-1 growth signalling, driving the excessive long-bone growth characteristic of the syndrome."
 ---
 
 # Marfan Syndrome
@@ -478,6 +487,9 @@ MFS is a **multi-system disorder** defined by cardiovascular, ocular, and skelet
 - `connects-to` → **[Myocardium](../../05-tissue/myocardium/README.md)** — Primary Marfan cardiomyopathy: beyond valve and aortic disease, FBN1 loss causes an intrinsic dilated cardiomyopathy of the myocardium, a less-recognised cause of heart failure in Marfan syndrome.
 - `connects-to` → **[Peripheral Nerve](../../05-tissue/peripheral-nerve/README.md)** — Dural ectasia: the enlarging dural sac of Marfan erodes vertebrae and stretches nerve roots, causing low-back and radicular pain and headaches—a major diagnostic criterion.
 - `connects-to` → **[Systemic Sclerosis](../systemic-sclerosis/README.md)** — Two connective-tissue disorders via TGF-β: Marfan's fibrillin loss unleashes excess TGF-β signalling, while systemic sclerosis is autoimmune TGF-β-driven fibrosis—structural versus inflammatory routes to matrix dysregulation.
+- `connects-to` → **[Atherosclerosis](../atherosclerosis/README.md)** — Two roads to an aortic aneurysm: Marfan's fibrillin-1 loss causes cystic medial degeneration of the young aorta, distinct from the lipid-driven atherosclerotic aneurysm of older age—same catastrophic endpoint, different wall pathology.
+- `connects-to` → **[BNP](../../03-molecular/bnp/README.md)** — Volume-loading the heart: chronic aortic and mitral regurgitation in Marfan stretches the ventricle, raising BNP as a marker of the heart failure that valve and aortic-root disease eventually cause.
+- `connects-to` → **[IGF-1](../../03-molecular/igf-1/README.md)** — The overgrowth axis: the tall stature and arachnodactyly of Marfan reflect dysregulated TGF-β interacting with GH/IGF-1 growth signalling, driving the excessive long-bone growth characteristic of the syndrome.
 
 ---
 

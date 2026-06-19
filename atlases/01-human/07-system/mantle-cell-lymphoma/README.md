@@ -259,6 +259,15 @@ cross_links:
   - target: 01-human/07-system/ptcl
     relation: connects-to
     note: "Aggressive lymphomas, opposite lineages: mantle-cell lymphoma is an aggressive B-cell lymphoma while peripheral T-cell lymphoma is its T-cell counterpart, both hard to cure and often relapsing."
+  - target: 01-human/07-system/immune-thrombocytopenia
+    relation: connects-to
+    note: "Secondary autoimmune cytopenia: like other low-grade B-cell malignancies, mantle-cell lymphoma can drive antibody-mediated platelet destruction, so a new immune thrombocytopenia in an older adult warrants screening for an underlying lymphoma."
+  - target: 01-human/07-system/covid-19-disease
+    relation: connects-to
+    note: "Defenceless against infection: anti-CD20 antibodies and BTK inhibitors used for mantle-cell lymphoma deplete B cells profoundly, causing severe, prolonged COVID-19 and poor vaccine responses in these patients."
+  - target: 01-human/07-system/gout
+    relation: connects-to
+    note: "Tumour-lysis fallout: bulky or blastoid mantle-cell lymphoma releases a flood of urate when treated, driving acute hyperuricaemia and crystal disease that overlaps with gout and threatens the kidney unless rasburicase is given."
 ---
 
 # Mantle Cell Lymphoma
@@ -461,6 +470,9 @@ For SOX11−, mutated IGHV, non-bulky, asymptomatic nnMCL: Observation is safe; 
 - `connects-to` → **[Myocardium](../../05-tissue/myocardium/README.md)** — BTK-inhibitor cardiotoxicity: ibrutinib, a mainstay of mantle-cell lymphoma, causes atrial fibrillation, ventricular arrhythmia and cardiomyopathy, so cardiac monitoring accompanies treatment.
 - `connects-to` → **[Hepatic Lobule](../../05-tissue/hepatic-lobule/README.md)** — Hepatic and splenic infiltration: mantle-cell lymphoma spreads widely, infiltrating the liver's portal tracts and the hepatic lobule along with marrow, spleen and gut.
 - `connects-to` → **[PTCL](../ptcl/README.md)** — Aggressive lymphomas, opposite lineages: mantle-cell lymphoma is an aggressive B-cell lymphoma while peripheral T-cell lymphoma is its T-cell counterpart, both hard to cure and often relapsing.
+- `connects-to` → **[Immune Thrombocytopenia](../immune-thrombocytopenia/README.md)** — Secondary autoimmune cytopenia: like other low-grade B-cell malignancies, mantle-cell lymphoma can drive antibody-mediated platelet destruction, so a new immune thrombocytopenia in an older adult warrants screening for an underlying lymphoma.
+- `connects-to` → **[COVID-19 Disease](../covid-19-disease/README.md)** — Defenceless against infection: anti-CD20 antibodies and BTK inhibitors used for mantle-cell lymphoma deplete B cells profoundly, causing severe, prolonged COVID-19 and poor vaccine responses in these patients.
+- `connects-to` → **[Gout](../gout/README.md)** — Tumour-lysis fallout: bulky or blastoid mantle-cell lymphoma releases a flood of urate when treated, driving acute hyperuricaemia and crystal disease that overlaps with gout and threatens the kidney unless rasburicase is given.
 
 ---
 
