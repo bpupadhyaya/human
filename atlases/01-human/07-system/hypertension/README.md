@@ -259,6 +259,15 @@ cross_links:
   - target: 01-human/05-tissue/hippocampus
     relation: connects-to
     note: "Vascular cognitive decline: chronic hypertension damages cerebral small vessels and the hippocampus, driving vascular dementia and accelerating Alzheimer's disease."
+  - target: 01-human/07-system/iga-nephropathy
+    relation: connects-to
+    note: "Renal cause and consequence: IgA nephropathy produces secondary hypertension through glomerular injury, while the resulting hypertension accelerates the loss of kidney function—a vicious cycle demanding tight blood-pressure control."
+  - target: 01-human/07-system/pulmonary-arterial-hypertension
+    relation: connects-to
+    note: "Two circulations, two diseases: pulmonary arterial hypertension is the right-heart mirror of systemic hypertension, raising pressure in the lungs rather than the aorta and demanding entirely different vasodilator drugs."
+  - target: 01-human/07-system/migraine
+    relation: connects-to
+    note: "Shared vascular pharmacology: beta-blockers, calcium-channel blockers and ARBs (candesartan) all treat hypertension and also prevent migraine, reflecting overlapping neurovascular and autonomic mechanisms."
 ---
 
 # Hypertension
@@ -430,6 +439,9 @@ Blood pressure is determined by: BP = Cardiac Output × Peripheral Vascular Resi
 - `connects-to` → **[Myocardium](../../05-tissue/myocardium/README.md)** — Hypertensive heart disease: chronic pressure overload thickens the left ventricular myocardium (LVH), which stiffens into heart failure with preserved ejection fraction and predisposes to arrhythmia and infarction.
 - `connects-to` → **[Cardiac Conduction System](../../05-tissue/cardiac-conduction-system/README.md)** — The leading cause of atrial fibrillation: hypertensive left-ventricular hypertrophy and atrial stretch remodel the conduction system, making hypertension the top modifiable driver of AF.
 - `connects-to` → **[Hippocampus](../../05-tissue/hippocampus/README.md)** — Vascular cognitive decline: chronic hypertension damages cerebral small vessels and the hippocampus, driving vascular dementia and accelerating Alzheimer's disease.
+- `connects-to` → **[IgA Nephropathy](../iga-nephropathy/README.md)** — Renal cause and consequence: IgA nephropathy produces secondary hypertension through glomerular injury, while the resulting hypertension accelerates the loss of kidney function—a vicious cycle demanding tight blood-pressure control.
+- `connects-to` → **[Pulmonary Arterial Hypertension](../pulmonary-arterial-hypertension/README.md)** — Two circulations, two diseases: pulmonary arterial hypertension is the right-heart mirror of systemic hypertension, raising pressure in the lungs rather than the aorta and demanding entirely different vasodilator drugs.
+- `connects-to` → **[Migraine](../migraine/README.md)** — Shared vascular pharmacology: beta-blockers, calcium-channel blockers and ARBs (candesartan) all treat hypertension and also prevent migraine, reflecting overlapping neurovascular and autonomic mechanisms.
 
 ## Pathology
 

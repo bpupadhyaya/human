@@ -259,6 +259,15 @@ cross_links:
   - target: 01-human/05-tissue/axonal-transport
     relation: connects-to
     note: "Diffuse white-matter infiltration: IDH-mutant gliomas spread along white-matter tracts and the axonal scaffold far beyond the visible tumour, the reason they cannot be cured by surgery despite slow growth."
+  - target: 01-human/07-system/pheochromocytoma-paraganglioma
+    relation: connects-to
+    note: "Oncometabolite paradigm: the 2-hydroxyglutarate of IDH-mutant glioma parallels the succinate of SDH-mutant paraganglioma and the fumarate of HLRCC—each oncometabolite inhibits alpha-ketoglutarate dioxygenases and drives DNA hypermethylation."
+  - target: 01-human/07-system/colorectal-cancer
+    relation: connects-to
+    note: "Methylator phenotypes converge: the IDH-driven hypermethylation (G-CIMP) of IDH-mutant glioma mirrors the CpG-island methylator phenotype (CIMP) of a colorectal cancer subset, both silencing tumour suppressors epigenetically."
+  - target: 01-human/05-tissue/arterial-wall
+    relation: connects-to
+    note: "Tumour vasculature on transformation: high-grade progression of IDH-mutant glioma brings microvascular proliferation, the abnormal leaky arterial walls of tumour angiogenesis driven by VEGF and hypoxia."
 ---
 
 # IDH-Mutant Glioma
@@ -471,6 +480,9 @@ IDH-mutant glioma with MGMT methylation shows strong alkylating agent sensitivit
 - `connects-to` → **[BDNF](../../03-molecular/bdnf/README.md)** — Neuron-glioma synapses: IDH-mutant gliomas, like glioblastoma and diffuse midline glioma, wire into neural circuits through activity-dependent and BDNF-driven synapses with neurons that drive growth and invasion.
 - `connects-to` → **[MDS](../mds/README.md)** — IDH inhibitors across cancers: IDH1/2 mutations also drive a subset of myelodysplastic syndromes and AML, so the same IDH inhibitors (ivosidenib, enasidenib) target glioma, MDS and leukaemia.
 - `connects-to` → **[Axonal Transport](../../05-tissue/axonal-transport/README.md)** — Diffuse white-matter infiltration: IDH-mutant gliomas spread along white-matter tracts and the axonal scaffold far beyond the visible tumour, the reason they cannot be cured by surgery despite slow growth.
+- `connects-to` → **[Pheochromocytoma & Paraganglioma](../pheochromocytoma-paraganglioma/README.md)** — Oncometabolite paradigm: the 2-hydroxyglutarate of IDH-mutant glioma parallels the succinate of SDH-mutant paraganglioma and the fumarate of HLRCC—each oncometabolite inhibits alpha-ketoglutarate dioxygenases and drives DNA hypermethylation.
+- `connects-to` → **[Colorectal Cancer](../colorectal-cancer/README.md)** — Methylator phenotypes converge: the IDH-driven hypermethylation (G-CIMP) of IDH-mutant glioma mirrors the CpG-island methylator phenotype (CIMP) of a colorectal cancer subset, both silencing tumour suppressors epigenetically.
+- `connects-to` → **[Arterial Wall](../../05-tissue/arterial-wall/README.md)** — Tumour vasculature on transformation: high-grade progression of IDH-mutant glioma brings microvascular proliferation, the abnormal leaky arterial walls of tumour angiogenesis driven by VEGF and hypoxia.
 
 [^mellinghoff-2023-vorasidenib-lgg]: Mellinghoff IK, van den Bent MJ, Blumenthal DT, et al. Vorasidenib in IDH1- or IDH2-mutant low-grade glioma. *N Engl J Med.* 2023;389(7):589-601. [doi:10.1056/NEJMoa2304194](https://doi.org/10.1056/NEJMoa2304194) · [PubMed 37272530](https://pubmed.ncbi.nlm.nih.gov/37272530/)
 [^jiao-2012-atrx-glioma]: Jiao Y, Killela PJ, Reitman ZJ, et al. Frequent ATRX, CIC, FUBP1 and IDH mutations refine the classification of malignant gliomas. *Oncotarget.* 2012;3(7):709-722. [doi:10.18632/oncotarget.588](https://doi.org/10.18632/oncotarget.588) · [PubMed 22869205](https://pubmed.ncbi.nlm.nih.gov/22869205/)
