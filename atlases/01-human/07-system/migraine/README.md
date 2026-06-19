@@ -283,6 +283,15 @@ cross_links:
   - target: 01-human/05-tissue/endocardium
     relation: connects-to
     note: "Patent foramen ovale: migraine with aura is associated with a patent foramen ovale in the atrial septum, whose right-to-left shunt lets vasoactive substances and paradoxical emboli bypass the lungs."
+  - target: 01-human/03-molecular/il-6
+    relation: connects-to
+    note: "Neurogenic inflammation: IL-6 released during the sterile neurogenic inflammation around meningeal vessels contributes to the sensitisation and pain of a migraine attack."
+  - target: 01-human/03-molecular/tnf-alpha
+    relation: connects-to
+    note: "Inflammatory sensitisation: TNF-α is elevated during migraine and helps sensitise trigeminal nociceptors, part of the inflammatory cascade that sustains the headache."
+  - target: 01-human/03-molecular/norepinephrine
+    relation: connects-to
+    note: "Brainstem modulation: noradrenergic signalling from the locus coeruleus modulates cerebral blood flow and pain processing in migraine, and its dysregulation features in the autonomic symptoms of attacks."
 ---
 
 # Migraine
@@ -508,6 +517,9 @@ Episodic migraine (EM, <15 headache days/month) transforms to **chronic migraine
 - `connects-to` → **[Opioid Use Disorder](../opioid-use-disorder/README.md)** — Medication-overuse headache: opioids worsen migraine and transform it into chronic daily headache while risking dependence, the main reason they are avoided in headache management.
 - `connects-to` → **[Anorexia Nervosa](../anorexia-nervosa/README.md)** — A serotonergic, female-predominant overlap: migraine co-occurs with eating disorders such as anorexia nervosa, sharing serotonergic dysregulation, while meal-skipping and dehydration are potent migraine triggers.
 - `connects-to` → **[Endocardium](../../05-tissue/endocardium/README.md)** — Patent foramen ovale: migraine with aura is associated with a patent foramen ovale in the atrial septum, whose right-to-left shunt lets vasoactive substances and paradoxical emboli bypass the lungs.
+- `connects-to` → **[IL-6](../../03-molecular/il-6/README.md)** — Neurogenic inflammation: IL-6 released during the sterile neurogenic inflammation around meningeal vessels contributes to the sensitisation and pain of a migraine attack.
+- `connects-to` → **[TNF-α](../../03-molecular/tnf-alpha/README.md)** — Inflammatory sensitisation: TNF-α is elevated during migraine and helps sensitise trigeminal nociceptors, part of the inflammatory cascade that sustains the headache.
+- `connects-to` → **[Norepinephrine](../../03-molecular/norepinephrine/README.md)** — Brainstem modulation: noradrenergic signalling from the locus coeruleus modulates cerebral blood flow and pain processing in migraine, and its dysregulation features in the autonomic symptoms of attacks.
 
 [^gbd-2016-migraine-burden]: GBD 2016 Headache Collaborators. Global, regional, and national burden of migraine and tension-type headache, 1990-2016. *Lancet Neurol.* 2018;17(11):954-976. [doi:10.1016/S1474-4422(18)30322-3](https://doi.org/10.1016/S1474-4422(18)30322-3) · [PubMed 30353868](https://pubmed.ncbi.nlm.nih.gov/30353868/)
 [^goadsby-2002-migraine-review]: Goadsby PJ, Lipton RB, Ferrari MD. Migraine — current understanding and treatment. *N Engl J Med.* 2002;346(4):257-270. [doi:10.1056/NEJMra010917](https://doi.org/10.1056/NEJMra010917) · [PubMed 11807151](https://pubmed.ncbi.nlm.nih.gov/11807151/)

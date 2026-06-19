@@ -280,6 +280,15 @@ cross_links:
   - target: 01-human/05-tissue/intestinal-epithelium
     relation: connects-to
     note: "The gut-brain axis in MS: the microbiome and intestinal-barrier integrity shape MS susceptibility and relapse activity through immune signalling, an emerging influence on the demyelinating disease."
+  - target: 01-human/03-molecular/ifn-gamma
+    relation: connects-to
+    note: "Th1 demyelination: IFN-γ from autoreactive T-helper cells activates microglia and macrophages to attack myelin, a central cytokine of the inflammatory lesions of multiple sclerosis."
+  - target: 01-human/03-molecular/tnf-alpha
+    relation: connects-to
+    note: "Inflammatory injury: TNF-α contributes to the oligodendrocyte damage and blood-brain-barrier breakdown of MS lesions, though paradoxically anti-TNF therapy worsens the disease."
+  - target: 01-human/03-molecular/osteopontin
+    relation: connects-to
+    note: "Relapse biomarker: osteopontin is elevated in MS lesions and CSF, promoting the survival of autoreactive T cells and tracking with relapse and disease activity."
 ---
 
 # Multiple Sclerosis
@@ -477,6 +486,9 @@ MS affects approximately **2.8 million people worldwide** (~1 million in the US)
 - `connects-to` → **[Obsessive-Compulsive Disorder](../obsessive-compulsive-disorder/README.md)** — Lesion-driven OCD: demyelinating plaques in frontal and basal-ganglia circuits can produce secondary obsessive-compulsive symptoms, one of the neuropsychiatric manifestations of multiple sclerosis.
 - `connects-to` → **[Hepatitis B](../hepatitis-b/README.md)** — Reactivation risk from anti-CD20: the B-cell-depleting therapies (ocrelizumab, rituximab) central to MS treatment can reactivate latent hepatitis B, mandating screening and antiviral prophylaxis.
 - `connects-to` → **[Intestinal Epithelium](../../05-tissue/intestinal-epithelium/README.md)** — The gut-brain axis in MS: the microbiome and intestinal-barrier integrity shape MS susceptibility and relapse activity through immune signalling, an emerging influence on the demyelinating disease.
+- `connects-to` → **[IFN-γ](../../03-molecular/ifn-gamma/README.md)** — Th1 demyelination: IFN-γ from autoreactive T-helper cells activates microglia and macrophages to attack myelin, a central cytokine of the inflammatory lesions of multiple sclerosis.
+- `connects-to` → **[TNF-α](../../03-molecular/tnf-alpha/README.md)** — Inflammatory injury: TNF-α contributes to the oligodendrocyte damage and blood-brain-barrier breakdown of MS lesions, though paradoxically anti-TNF therapy worsens the disease.
+- `connects-to` → **[Osteopontin](../../03-molecular/osteopontin/README.md)** — Relapse biomarker: osteopontin is elevated in MS lesions and CSF, promoting the survival of autoreactive T cells and tracking with relapse and disease activity.
 
 [^compston-2008-ms-review]: Compston A, Coles A. Multiple sclerosis. *Lancet.* 2008;372(9648):1502-1517. [doi:10.1016/S0140-6736(08)61620-7](https://doi.org/10.1016/S0140-6736(08)61620-7) · [PubMed 18970977](https://pubmed.ncbi.nlm.nih.gov/18970977/)
 [^kappos-2006-natalizumab]: Polman CH, O'Connor PW, Havrdova E, et al. A randomized, placebo-controlled trial of natalizumab for relapsing multiple sclerosis. *N Engl J Med.* 2006;354(9):899-910. [doi:10.1056/NEJMoa044397](https://doi.org/10.1056/NEJMoa044397) · [PubMed 16510744](https://pubmed.ncbi.nlm.nih.gov/16510744/)
