@@ -268,6 +268,15 @@ cross_links:
   - target: 01-human/07-system/type-2-diabetes
     relation: connects-to
     note: "The metabolism paradox: ALS is a hypermetabolic, weight-losing disease, and higher BMI and type-2 diabetes are paradoxically linked to lower ALS risk and slower progression, a clue to its energetics."
+  - target: 01-human/07-system/schizophrenia
+    relation: connects-to
+    note: "Shared genetics with psychosis: C9orf72 and other ALS-FTD genes confer psychiatric features, with raised rates of schizophrenia in affected families—sometimes appearing years before motor symptoms."
+  - target: 01-human/07-system/bipolar-disorder
+    relation: connects-to
+    note: "Mood in the ALS-FTD spectrum: the C9orf72 expansion that links ALS to frontotemporal dementia also raises rates of mood disorders including bipolar disorder, part of its broad neuropsychiatric prodrome."
+  - target: 01-human/07-system/covid-19-disease
+    relation: connects-to
+    note: "Respiratory vulnerability: ALS patients with failing respiratory muscles are at high risk of severe COVID-19, and the infection can precipitate the respiratory failure that ends the disease."
 ---
 
 # ALS
@@ -491,6 +500,9 @@ ALS diagnosis is **clinical** — no single definitive biomarker test (though Nf
 - `connects-to` → **[Alveolus](../../05-tissue/alveolus/README.md)** — Respiratory failure is the endgame: motor-neuron loss paralyses the diaphragm, so ventilatory failure at the alveolar gas-exchange surface—not the limb weakness—is the usual cause of death, the reason for non-invasive ventilation.
 - `connects-to` → **[NFE2L2](../../03-molecular/nfe2l2/README.md)** — Oxidative-stress defence: motor neurons in ALS suffer oxidative damage, and the NRF2 (NFE2L2) antioxidant pathway is a neuroprotective target—edaravone, an approved ALS drug, is a free-radical scavenger.
 - `connects-to` → **[Type 2 Diabetes](../type-2-diabetes/README.md)** — The metabolism paradox: ALS is a hypermetabolic, weight-losing disease, and higher BMI and type-2 diabetes are paradoxically linked to lower ALS risk and slower progression, a clue to its energetics.
+- `connects-to` → **[Schizophrenia](../schizophrenia/README.md)** — Shared genetics with psychosis: C9orf72 and other ALS-FTD genes confer psychiatric features, with raised rates of schizophrenia in affected families—sometimes appearing years before motor symptoms.
+- `connects-to` → **[Bipolar Disorder](../bipolar-disorder/README.md)** — Mood in the ALS-FTD spectrum: the C9orf72 expansion that links ALS to frontotemporal dementia also raises rates of mood disorders including bipolar disorder, part of its broad neuropsychiatric prodrome.
+- `connects-to` → **[COVID-19 Disease](../covid-19-disease/README.md)** — Respiratory vulnerability: ALS patients with failing respiratory muscles are at high risk of severe COVID-19, and the infection can precipitate the respiratory failure that ends the disease.
 
 [^brown-2017-als-review]: Brown RH, Al-Chalabi A. Amyotrophic lateral sclerosis. *N Engl J Med.* 2017;377(2):162-172. [doi:10.1056/NEJMra1603471](https://doi.org/10.1056/NEJMra1603471) · [PubMed 28700839](https://pubmed.ncbi.nlm.nih.gov/28700839/)
 [^edaravone-als-2017]: Writing Group, Edaravone ALS 19 Study Group. Safety and efficacy of edaravone in well defined patients with amyotrophic lateral sclerosis. *Lancet Neurol.* 2017;16(7):505-512. [doi:10.1016/S1474-4422(17)30115-1](https://doi.org/10.1016/S1474-4422(17)30115-1) · [PubMed 28522180](https://pubmed.ncbi.nlm.nih.gov/28522180/)

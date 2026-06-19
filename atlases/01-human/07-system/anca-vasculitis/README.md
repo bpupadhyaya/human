@@ -271,6 +271,15 @@ cross_links:
   - target: 01-human/07-system/stimulant-use-disorder
     relation: connects-to
     note: "Drug-induced ANCA vasculitis: levamisole, a common cocaine adulterant, triggers an ANCA-positive vasculitis with skin necrosis and neutropenia—a drug-induced mimic to recognise in stimulant users."
+  - target: 01-human/05-tissue/myocardium
+    relation: connects-to
+    note: "Eosinophilic heart disease: EGPA (Churg-Strauss) infiltrates the myocardium with eosinophils, causing a cardiomyopathy and myocarditis that are a leading cause of death in this ANCA-associated vasculitis."
+  - target: 01-human/07-system/hepatitis-c
+    relation: connects-to
+    note: "An infectious mimic: hepatitis C causes a cryoglobulinaemic small-vessel vasculitis that overlaps clinically with ANCA-associated disease, a key infection to exclude before immunosuppression."
+  - target: 01-human/07-system/dlbcl
+    relation: connects-to
+    note: "Rituximab and lymphoma: the anti-CD20 antibody rituximab is now first-line for ANCA-associated vasculitis—the same drug treating B-cell lymphomas like DLBCL—while chronic immunosuppression slightly raises lymphoma risk."
 ---
 
 # ANCA Vasculitis
@@ -487,6 +496,9 @@ EGPA is mechanistically distinct — eosinophils, not neutrophils, mediate tissu
 - `connects-to` → **[Arterial Wall](../../05-tissue/arterial-wall/README.md)** — Small-vessel vasculitis: ANCA-activated neutrophils degranulate on the walls of small arteries, capillaries and venules, causing the fibrinoid necrosis and vessel destruction that define the disease.
 - `connects-to` → **[Intestinal Epithelium](../../05-tissue/intestinal-epithelium/README.md)** — Gut vasculitis: mesenteric small-vessel involvement, especially in granulomatosis with polyangiitis and EGPA, causes bowel ischaemia, ulceration and, rarely, perforation.
 - `connects-to` → **[Stimulant Use Disorder](../stimulant-use-disorder/README.md)** — Drug-induced ANCA vasculitis: levamisole, a common cocaine adulterant, triggers an ANCA-positive vasculitis with skin necrosis and neutropenia—a drug-induced mimic to recognise in stimulant users.
+- `connects-to` → **[Myocardium](../../05-tissue/myocardium/README.md)** — Eosinophilic heart disease: EGPA (Churg-Strauss) infiltrates the myocardium with eosinophils, causing a cardiomyopathy and myocarditis that are a leading cause of death in this ANCA-associated vasculitis.
+- `connects-to` → **[Hepatitis C](../hepatitis-c/README.md)** — An infectious mimic: hepatitis C causes a cryoglobulinaemic small-vessel vasculitis that overlaps clinically with ANCA-associated disease, a key infection to exclude before immunosuppression.
+- `connects-to` → **[DLBCL](../dlbcl/README.md)** — Rituximab and lymphoma: the anti-CD20 antibody rituximab is now first-line for ANCA-associated vasculitis—the same drug treating B-cell lymphomas like DLBCL—while chronic immunosuppression slightly raises lymphoma risk.
 
 [^yates-2022-anca-review]: Yates M, Watts RA, Bajema IM, et al. EULAR/ERA-EDTA recommendations for the management of ANCA-associated vasculitis. *Ann Rheum Dis.* 2016;75(9):1583-1594. [doi:10.1136/annrheumdis-2016-209133](https://doi.org/10.1136/annrheumdis-2016-209133) · [PubMed 27338776](https://pubmed.ncbi.nlm.nih.gov/27338776/)
 [^stone-2010-rituximab-gpa-rave]: Stone JH, Merkel PA, Spiera R, et al. Rituximab versus cyclophosphamide for ANCA-associated vasculitis. *N Engl J Med.* 2010;363(3):221-232. [doi:10.1056/NEJMoa0909905](https://doi.org/10.1056/NEJMoa0909905) · [PubMed 20647199](https://pubmed.ncbi.nlm.nih.gov/20647199/)
