@@ -268,6 +268,15 @@ cross_links:
   - target: 01-human/07-system/gorlin-syndrome
     relation: connects-to
     note: "Skin signs flag a tumour syndrome: like Gorlin syndrome's pits and basal cell carcinomas, Carney complex's lentigines and blue naevi are cutaneous clues to an underlying multi-tumour predisposition."
+  - target: 01-human/05-tissue/cardiac-conduction-system
+    relation: connects-to
+    note: "Atrial myxoma hazard: recurrent cardiac myxomas—Carney complex's most lethal feature—can obstruct valves, embolise to the brain and disturb the conduction system, causing syncope and arrhythmia."
+  - target: 01-human/03-molecular/cyclin-d1
+    relation: connects-to
+    note: "Proliferation downstream of PKA: unrestrained PKA from PRKAR1A loss drives cyclin D1 overexpression in PPNAD and myxomas, pushing Carney complex lesions through the cell cycle."
+  - target: 01-human/03-molecular/erk1-2
+    relation: connects-to
+    note: "PKA-MAPK crosstalk: constitutive PKA signalling in PRKAR1A-mutant cells crosstalks with the ERK/MAPK cascade, contributing to the proliferative drive in Carney complex tumours."
 ---
 
 # Carney Complex
@@ -473,6 +482,9 @@ PRKAR1A somatic LOH occurs in ~15-20% of sporadic adrenocortical adenomas and ca
 - `connects-to` → **[GIST](../gist/README.md)** — A confusing eponym: Carney complex (PRKAR1A) is distinct from the Carney triad—gastrointestinal stromal tumour, paraganglioma and pulmonary chondroma—a separate non-hereditary association sharing only the name.
 - `connects-to` → **[DICER1 Syndrome](../dicer1-syndrome/README.md)** — Endocrine-tumour predisposition syndromes: like DICER1 syndrome, Carney complex is a hereditary disorder producing a characteristic constellation of endocrine and other tumours needing lifelong surveillance.
 - `connects-to` → **[Gorlin Syndrome](../gorlin-syndrome/README.md)** — Skin signs flag a tumour syndrome: like Gorlin syndrome's pits and basal cell carcinomas, Carney complex's lentigines and blue naevi are cutaneous clues to an underlying multi-tumour predisposition.
+- `connects-to` → **[Cardiac Conduction System](../../05-tissue/cardiac-conduction-system/README.md)** — Atrial myxoma hazard: recurrent cardiac myxomas—Carney complex's most lethal feature—can obstruct valves, embolise to the brain and disturb the conduction system, causing syncope and arrhythmia.
+- `connects-to` → **[Cyclin D1](../../03-molecular/cyclin-d1/README.md)** — Proliferation downstream of PKA: unrestrained PKA from PRKAR1A loss drives cyclin D1 overexpression in PPNAD and myxomas, pushing Carney complex lesions through the cell cycle.
+- `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — PKA-MAPK crosstalk: constitutive PKA signalling in PRKAR1A-mutant cells crosstalks with the ERK/MAPK cascade, contributing to the proliferative drive in Carney complex tumours.
 
 ---
 

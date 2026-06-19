@@ -268,6 +268,15 @@ cross_links:
   - target: 01-human/07-system/covid-19-disease
     relation: connects-to
     note: "Screening disrupted: COVID-19 sharply cut cervical screening and HPV vaccination uptake, projected to raise cervical cancer incidence and stage at diagnosis in coming years."
+  - target: 01-human/03-molecular/myc
+    relation: connects-to
+    note: "MYC amplification: gain of the 3q26 region amplifying MYC is a common driver of cervical cancer progression, cooperating with HPV E6/E7 to fuel proliferation."
+  - target: 01-human/03-molecular/notch
+    relation: connects-to
+    note: "Context-dependent Notch: NOTCH1 is recurrently mutated in cervical cancer, where Notch signalling can act as either tumour suppressor or oncogene depending on stage and context."
+  - target: 01-human/05-tissue/intestinal-epithelium
+    relation: connects-to
+    note: "Local rectal invasion: advanced cervical cancer can invade the rectum and create rectovaginal fistulas, breaching the intestinal epithelium—a debilitating feature of locally advanced disease."
 ---
 
 # Cervical Cancer
@@ -474,6 +483,9 @@ The cervical transformation zone (TZ) — the area between the original and new 
 - `connects-to` → **[GVHD](../gvhd/README.md)** — Immunosuppression and HPV cancer: transplant recipients and those on GVHD-related immunosuppression have markedly higher rates of HPV-driven cervical and other anogenital cancers.
 - `connects-to` → **[Colorectal Cancer](../colorectal-cancer/README.md)** — Radiation's late cancer risk: pelvic radiotherapy for cervical cancer slightly raises the risk of second cancers in the radiation field, including rectal and colorectal cancer years later.
 - `connects-to` → **[COVID-19 Disease](../covid-19-disease/README.md)** — Screening disrupted: COVID-19 sharply cut cervical screening and HPV vaccination uptake, projected to raise cervical cancer incidence and stage at diagnosis in coming years.
+- `connects-to` → **[MYC](../../03-molecular/myc/README.md)** — MYC amplification: gain of the 3q26 region amplifying MYC is a common driver of cervical cancer progression, cooperating with HPV E6/E7 to fuel proliferation.
+- `connects-to` → **[Notch](../../03-molecular/notch/README.md)** — Context-dependent Notch: NOTCH1 is recurrently mutated in cervical cancer, where Notch signalling can act as either tumour suppressor or oncogene depending on stage and context.
+- `connects-to` → **[Intestinal Epithelium](../../05-tissue/intestinal-epithelium/README.md)** — Local rectal invasion: advanced cervical cancer can invade the rectum and create rectovaginal fistulas, breaching the intestinal epithelium—a debilitating feature of locally advanced disease.
 
 ---
 
