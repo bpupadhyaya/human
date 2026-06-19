@@ -247,6 +247,15 @@ cross_links:
   - target: 02-pathogen/06-environmental/zoonosis
     relation: connects-to
     note: "Pandemics come from animals: influenza A reservoirs in wild birds and pigs reassort to create novel strains (avian H5N1, swine H1N1) against which humans have little immunity — the zoonotic antigenic shift behind pandemics."
+  - target: 01-human/04-cellular/platelet
+    relation: connects-to
+    note: "It tips blood toward clotting: influenza causes thrombocytopenia and a prothrombotic, inflamed endothelium, part of why heart attacks, strokes and venous thrombosis spike in the weeks after infection."
+  - target: 01-human/05-tissue/intestinal-epithelium
+    relation: connects-to
+    note: "Not just a respiratory virus: influenza—especially avian strains and infection in children—can infect the gut epithelium, causing the vomiting and diarrhoea of so-called stomach flu."
+  - target: 01-human/07-system/atherosclerosis
+    relation: connects-to
+    note: "Why flu shots protect the heart: influenza can rupture atherosclerotic plaques and trigger myocardial infarction, and vaccination measurably lowers post-infection cardiovascular events."
 ---
 
 # Influenza
@@ -459,3 +468,6 @@ Influenza damages mucociliary clearance and exposes basal lamina glycoproteins �
 - `connects-to` → **[Targeted Therapy](../../../03-medicine/01-modern/13-cancer/targeted-therapy/README.md)** — Newer antivirals beyond oseltamivir: baloxavir, a cap-dependent endonuclease inhibitor, and monoclonal antibodies against haemagglutinin target distinct steps of the influenza life cycle for treatment and prophylaxis.
 - `connects-to` → **[Myocardium](../../05-tissue/myocardium/README.md)** — It strains and inflames the heart: influenza causes myocarditis and sharply raises the risk of acute myocardial infarction in the days after infection — risk that influenza vaccination measurably reduces.
 - `connects-to` → **[Zoonosis](../../../02-pathogen/06-environmental/zoonosis/README.md)** — Pandemics come from animals: influenza A reservoirs in wild birds and pigs reassort to create novel strains (avian H5N1, swine H1N1) against which humans have little immunity — the zoonotic antigenic shift behind pandemics.
+- `connects-to` → **[Platelet](../../04-cellular/platelet/README.md)** — It tips blood toward clotting: influenza causes thrombocytopenia and a prothrombotic, inflamed endothelium, part of why heart attacks, strokes and venous thrombosis spike in the weeks after infection.
+- `connects-to` → **[Intestinal Epithelium](../../05-tissue/intestinal-epithelium/README.md)** — Not just a respiratory virus: influenza—especially avian strains and infection in children—can infect the gut epithelium, causing the vomiting and diarrhoea of so-called stomach flu.
+- `connects-to` → **[Atherosclerosis](../atherosclerosis/README.md)** — Why flu shots protect the heart: influenza can rupture atherosclerotic plaques and trigger myocardial infarction, and vaccination measurably lowers post-infection cardiovascular events.

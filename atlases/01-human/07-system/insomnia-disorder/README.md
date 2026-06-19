@@ -256,6 +256,15 @@ cross_links:
   - target: 01-human/07-system/binge-eating-disorder
     relation: connects-to
     note: "Night-time arousal and eating intertwine: insomnia and night-eating reinforce each other, as disrupted sleep and circadian-orexin signalling drive the evening overeating of binge-eating disorder."
+  - target: 01-human/07-system/internet-gaming-disorder
+    relation: connects-to
+    note: "Screens that steal sleep: late-night gaming arousal and blue light delay sleep onset, and insomnia and problematic gaming are tightly comorbid, each feeding the other in a vicious cycle."
+  - target: 01-human/05-tissue/cardiac-conduction-system
+    relation: connects-to
+    note: "Bad sleep, electrical heart risk: chronic insomnia and short sleep raise sympathetic tone, predisposing to hypertension, atrial fibrillation and other arrhythmias of the conduction system."
+  - target: 01-human/07-system/opioid-use-disorder
+    relation: connects-to
+    note: "Opioids wreck sleep architecture: opioids suppress REM and deep sleep and worsen sleep apnoea, while withdrawal causes severe insomnia—sleep disturbance both drives and follows opioid use."
 ---
 
 # Insomnia Disorder
@@ -472,6 +481,9 @@ CBT-I directly targets perpetuating factors.
 - `connects-to` → **[Stimulant Use Disorder](../stimulant-use-disorder/README.md)** — Stimulants steal sleep: caffeine, nicotine and stimulant drugs delay sleep onset and fragment sleep, and stimulant use disorder both causes chronic insomnia and is sometimes driven by it as people self-medicate daytime fatigue.
 - `connects-to` → **[Cannabis Use Disorder](../cannabis-use-disorder/README.md)** — A double-edged sleep aid: many use cannabis to fall asleep, but tolerance develops and withdrawal causes rebound insomnia and vivid dreams, tying cannabis use disorder tightly to disordered sleep.
 - `connects-to` → **[Binge Eating Disorder](../binge-eating-disorder/README.md)** — Night-time arousal and eating intertwine: insomnia and night-eating reinforce each other, as disrupted sleep and circadian-orexin signalling drive the evening overeating of binge-eating disorder.
+- `connects-to` → **[Internet Gaming Disorder](../internet-gaming-disorder/README.md)** — Screens that steal sleep: late-night gaming arousal and blue light delay sleep onset, and insomnia and problematic gaming are tightly comorbid, each feeding the other in a vicious cycle.
+- `connects-to` → **[Cardiac Conduction System](../../05-tissue/cardiac-conduction-system/README.md)** — Bad sleep, electrical heart risk: chronic insomnia and short sleep raise sympathetic tone, predisposing to hypertension, atrial fibrillation and other arrhythmias of the conduction system.
+- `connects-to` → **[Opioid Use Disorder](../opioid-use-disorder/README.md)** — Opioids wreck sleep architecture: opioids suppress REM and deep sleep and worsen sleep apnoea, while withdrawal causes severe insomnia—sleep disturbance both drives and follows opioid use.
 
 [^riemann-2017-insomnia-lancet]: Riemann D, Baglioni C, Bassetti C, et al. European guideline for the diagnosis and treatment of insomnia. *J Sleep Res.* 2017;26(6):675-700. [doi:10.1111/jsr.12594](https://doi.org/10.1111/jsr.12594) · [PubMed 28875581](https://pubmed.ncbi.nlm.nih.gov/28875581/)
 [^trauer-2015-cbti-meta]: Trauer JM, Qian MY, Doyle JS, et al. Cognitive behavioral therapy for chronic insomnia. *Ann Intern Med.* 2015;163(3):191-204. [doi:10.7326/M14-2841](https://doi.org/10.7326/M14-2841) · [PubMed 26054060](https://pubmed.ncbi.nlm.nih.gov/26054060/)
