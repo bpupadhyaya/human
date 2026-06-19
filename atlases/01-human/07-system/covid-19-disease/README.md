@@ -277,6 +277,15 @@ cross_links:
   - target: 01-human/07-system/tuberculosis
     relation: connects-to
     note: "A pandemic syndemic: COVID-19 disrupted tuberculosis programmes worldwide and reversed years of progress, and the two respiratory infections can coexist and worsen each other's course."
+  - target: 01-human/03-molecular/complement-c5
+    relation: connects-to
+    note: "Complement-driven injury: complement activation, especially C5a, drives the endothelial damage and microthrombosis of severe COVID-19, prompting trials of anti-complement therapy."
+  - target: 01-human/03-molecular/il-1b
+    relation: connects-to
+    note: "Inflammasome cytokine: IL-1β from inflammasome activation fuels the hyperinflammation of severe COVID-19, the target of IL-1 blockade such as anakinra."
+  - target: 01-human/03-molecular/tnf-alpha
+    relation: connects-to
+    note: "Cytokine storm component: TNF-α contributes to the systemic cytokine storm of severe COVID-19, alongside IL-6 in driving its hyperinflammatory state."
 ---
 
 # COVID-19 Disease
@@ -428,6 +437,9 @@ Symptoms persisting >4 weeks: fatigue (most common), cognitive impairment ("brai
 - `connects-to` → **[Atherosclerosis](../atherosclerosis/README.md)** — Accelerated vascular disease: endothelial injury and systemic inflammation from COVID-19 destabilise atherosclerotic plaque, raising heart-attack and stroke risk for months after even mild infection.
 - `connects-to` → **[Disseminated Intravascular Coagulation](../disseminated-intravascular-coagulation/README.md)** — A distinct coagulopathy: severe COVID-19 produces a hypercoagulable state with high D-dimer and fibrinogen and widespread microthrombi that, in the sickest patients, tips into disseminated intravascular coagulation.
 - `connects-to` → **[Tuberculosis](../tuberculosis/README.md)** — A pandemic syndemic: COVID-19 disrupted tuberculosis programmes worldwide and reversed years of progress, and the two respiratory infections can coexist and worsen each other's course.
+- `connects-to` → **[Complement C5](../../03-molecular/complement-c5/README.md)** — Complement-driven injury: complement activation, especially C5a, drives the endothelial damage and microthrombosis of severe COVID-19, prompting trials of anti-complement therapy.
+- `connects-to` → **[IL-1β](../../03-molecular/il-1b/README.md)** — Inflammasome cytokine: IL-1β from inflammasome activation fuels the hyperinflammation of severe COVID-19, the target of IL-1 blockade such as anakinra.
+- `connects-to` → **[TNF-α](../../03-molecular/tnf-alpha/README.md)** — Cytokine storm component: TNF-α contributes to the systemic cytokine storm of severe COVID-19, alongside IL-6 in driving its hyperinflammatory state.
 
 ## Pathology
 

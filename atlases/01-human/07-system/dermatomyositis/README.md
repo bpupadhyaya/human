@@ -283,6 +283,15 @@ cross_links:
   - target: 01-human/05-tissue/neuromuscular-junction
     relation: connects-to
     note: "Localising the weakness: dermatomyositis is a myopathy whereas myasthenia gravis is a neuromuscular-junction disease, and both present with proximal weakness—distinguishing the lesion site is central to diagnosis."
+  - target: 01-human/03-molecular/mhc-class-ii
+    relation: connects-to
+    note: "HLA risk and presentation: specific MHC class II (HLA) alleles predispose to dermatomyositis, and antigen presentation drives the autoimmune attack on muscle and skin."
+  - target: 01-human/03-molecular/ifn-gamma
+    relation: connects-to
+    note: "Interferon-driven myopathy: alongside the dominant type I interferon signature, IFN-γ contributes to the immune-mediated muscle inflammation of dermatomyositis."
+  - target: 01-human/03-molecular/il-1b
+    relation: connects-to
+    note: "Inflammatory amplification: IL-1β participates in the muscle and skin inflammation of dermatomyositis, adding to its interferon-dominated cytokine milieu."
 ---
 ---
 
@@ -497,6 +506,9 @@ DM carries a ~3–7× elevated cancer risk overall. Anti-TIF1γ (TRIM33) suppres
 - `connects-to` → **[COVID-19 Disease](../covid-19-disease/README.md)** — MDA5 in common: MDA5 is the viral RNA sensor, and anti-MDA5 dermatomyositis produces a rapidly progressive interstitial lung disease and hyperinflammation strikingly reminiscent of severe COVID-19, with infection studied as a trigger.
 - `connects-to` → **[Endometrial Cancer](../endometrial-cancer/README.md)** — Paraneoplastic cancer search: anti-TIF1-gamma dermatomyositis is strongly cancer-associated, so a new diagnosis prompts screening for occult malignancy including the gynaecological cancers—ovarian, breast and endometrial.
 - `connects-to` → **[Neuromuscular Junction](../../05-tissue/neuromuscular-junction/README.md)** — Localising the weakness: dermatomyositis is a myopathy whereas myasthenia gravis is a neuromuscular-junction disease, and both present with proximal weakness—distinguishing the lesion site is central to diagnosis.
+- `connects-to` → **[MHC Class II](../../03-molecular/mhc-class-ii/README.md)** — HLA risk and presentation: specific MHC class II (HLA) alleles predispose to dermatomyositis, and antigen presentation drives the autoimmune attack on muscle and skin.
+- `connects-to` → **[IFN-γ](../../03-molecular/ifn-gamma/README.md)** — Interferon-driven myopathy: alongside the dominant type I interferon signature, IFN-γ contributes to the immune-mediated muscle inflammation of dermatomyositis.
+- `connects-to` → **[IL-1β](../../03-molecular/il-1b/README.md)** — Inflammatory amplification: IL-1β participates in the muscle and skin inflammation of dermatomyositis, adding to its interferon-dominated cytokine milieu.
 
 [^bohan-peter-1975-dm-criteria]: Bohan A, Peter JB. Polymyositis and dermatomyositis. *N Engl J Med.* 1975;292(7):344-347. [doi:10.1056/NEJM197502132920706](https://doi.org/10.1056/NEJM197502132920706) · [PubMed 1090839](https://pubmed.ncbi.nlm.nih.gov/1090839/)
 [^lundberg-2021-iim-classification]: Lundberg IE, et al. 2017 EULAR/ACR classification criteria for adult and juvenile idiopathic inflammatory myopathies. *Arthritis Rheumatol.* 2017;69(12):2271-2282. [doi:10.1002/art.40320](https://doi.org/10.1002/art.40320) · [PubMed 29106061](https://pubmed.ncbi.nlm.nih.gov/29106061/)
