@@ -265,6 +265,15 @@ cross_links:
   - target: 01-human/07-system/ckd
     relation: connects-to
     note: "Lungs and kidneys decline together: COPD and chronic kidney disease cluster through shared smoking, chronic hypoxia and systemic inflammation, and exacerbations can precipitate acute kidney injury."
+  - target: 01-human/07-system/tuberculosis
+    relation: connects-to
+    note: "Post-TB lung disease: prior tuberculosis is a major and under-recognised cause of COPD-like airflow obstruction worldwide, especially in high-burden regions, even in never-smokers."
+  - target: 01-human/07-system/polycythemia-vera
+    relation: connects-to
+    note: "Secondary erythrocytosis: chronic hypoxia in COPD raises erythropoietin and red-cell mass, a secondary polycythaemia distinct from the JAK2-driven polycythaemia vera."
+  - target: 01-human/05-tissue/cortical-bone
+    relation: connects-to
+    note: "Smoking, steroids and bone: COPD lowers bone density through smoking, systemic inflammation, inactivity and corticosteroid courses, fracturing the cortical bone and further impairing breathing."
 ---
 
 # COPD
@@ -490,6 +499,9 @@ COPD encompasses two overlapping pathological processes:
 - `connects-to` → **[Cardiac Conduction System](../../05-tissue/cardiac-conduction-system/README.md)** — Arrhythmia in failing lungs: hypoxia, hyperinflation and beta-agonist bronchodilators predispose COPD patients to multifocal atrial tachycardia and atrial fibrillation through the conduction system.
 - `connects-to` → **[Arterial Wall](../../05-tissue/arterial-wall/README.md)** — Systemic inflammation hits arteries: COPD's circulating inflammatory mediators accelerate atherosclerosis of the arterial wall, making cardiovascular disease a leading cause of death in the disease.
 - `connects-to` → **[CKD](../ckd/README.md)** — Lungs and kidneys decline together: COPD and chronic kidney disease cluster through shared smoking, chronic hypoxia and systemic inflammation, and exacerbations can precipitate acute kidney injury.
+- `connects-to` → **[Tuberculosis](../tuberculosis/README.md)** — Post-TB lung disease: prior tuberculosis is a major and under-recognised cause of COPD-like airflow obstruction worldwide, especially in high-burden regions, even in never-smokers.
+- `connects-to` → **[Polycythemia Vera](../polycythemia-vera/README.md)** — Secondary erythrocytosis: chronic hypoxia in COPD raises erythropoietin and red-cell mass, a secondary polycythaemia distinct from the JAK2-driven polycythaemia vera.
+- `connects-to` → **[Cortical Bone](../../05-tissue/cortical-bone/README.md)** — Smoking, steroids and bone: COPD lowers bone density through smoking, systemic inflammation, inactivity and corticosteroid courses, fracturing the cortical bone and further impairing breathing.
 
 ---
 

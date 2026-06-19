@@ -259,6 +259,15 @@ cross_links:
   - target: 01-human/07-system/stroke
     relation: connects-to
     note: "Clonal haematopoiesis and vascular events: the TET2- and DNMT3A-mutant clones of CMML, like clonal haematopoiesis generally, raise the risk of stroke and other cardiovascular events."
+  - target: 01-human/07-system/giant-cell-arteritis
+    relation: connects-to
+    note: "Clonal autoinflammation: CMML and VEXAS-spectrum clonal myeloid disease associate with systemic inflammatory syndromes overlapping giant-cell arteritis, polymyalgia and other vasculitides."
+  - target: 01-human/05-tissue/glomerulus
+    relation: connects-to
+    note: "Renal injury from monocytes: CMML can cause a paraneoplastic glomerulonephritis, and lysozyme released by its excess monocytes damages the renal tubules and glomerulus."
+  - target: 01-human/05-tissue/alveolus
+    relation: connects-to
+    note: "Pulmonary infiltration: CMML's excess monocytes can infiltrate the lung as leukaemic infiltrates and cause effusions around the alveoli, compromising gas exchange."
 ---
 
 # Chronic Myelomonocytic Leukemia
@@ -465,6 +474,9 @@ CMML → AML transformation (~15-30% at 5 years): Treat as secondary AML; CPX-35
 - `connects-to` → **[Arterial Wall](../../05-tissue/arterial-wall/README.md)** — Monocytes inflame the arteries: CMML's expanded monocytes and its clonal-haematopoiesis biology infiltrate and inflame the arterial wall, accelerating atherosclerosis and cardiovascular risk.
 - `connects-to` → **[TNF-alpha](../../03-molecular/tnf-alpha/README.md)** — An inflammatory cytokine drive: TNF-alpha and IL-6 from the clonal monocytes drive the fevers, weight loss and cytopenias that give CMML its systemic, inflammatory character.
 - `connects-to` → **[Stroke](../stroke/README.md)** — Clonal haematopoiesis and vascular events: the TET2- and DNMT3A-mutant clones of CMML, like clonal haematopoiesis generally, raise the risk of stroke and other cardiovascular events.
+- `connects-to` → **[Giant Cell Arteritis](../giant-cell-arteritis/README.md)** — Clonal autoinflammation: CMML and VEXAS-spectrum clonal myeloid disease associate with systemic inflammatory syndromes overlapping giant-cell arteritis, polymyalgia and other vasculitides.
+- `connects-to` → **[Glomerulus](../../05-tissue/glomerulus/README.md)** — Renal injury from monocytes: CMML can cause a paraneoplastic glomerulonephritis, and lysozyme released by its excess monocytes damages the renal tubules and glomerulus.
+- `connects-to` → **[Alveolus](../../05-tissue/alveolus/README.md)** — Pulmonary infiltration: CMML's excess monocytes can infiltrate the lung as leukaemic infiltrates and cause effusions around the alveoli, compromising gas exchange.
 
 ---
 
