@@ -264,6 +264,15 @@ cross_links:
   - target: 01-human/07-system/pancreatic-cancer
     relation: connects-to
     note: "Beyond the liver: chronic HBV is associated with a modestly raised risk of pancreatic cancer and cholangiocarcinoma, reflecting the virus's reach across the hepatobiliary-pancreatic system."
+  - target: 01-human/05-tissue/peripheral-nerve
+    relation: connects-to
+    note: "Polyarteritis nodosa: chronic HBV is the classic infectious cause of polyarteritis nodosa, a medium-vessel vasculitis whose ischaemic neuropathy (mononeuritis multiplex) damages peripheral nerves."
+  - target: 01-human/07-system/multiple-myeloma
+    relation: connects-to
+    note: "Reactivation under myeloma therapy: the anti-CD38 antibodies, steroids and stem-cell transplant used for multiple myeloma can reactivate occult hepatitis B, so screening and antiviral prophylaxis are mandatory before treatment."
+  - target: 01-human/07-system/covid-19-disease
+    relation: connects-to
+    note: "Reactivation and coinfection: immunosuppressive treatment of severe COVID-19 with steroids and IL-6 blockade can reactivate latent hepatitis B, and the two infections can coexist and tax the liver together."
 ---
 
 # Hepatitis B
@@ -481,3 +490,6 @@ HDV is a satellite RNA virus that requires HBsAg for virion assembly:
 - `connects-to` → **[Germinal Center](../../05-tissue/germinal-center/README.md)** — Chronic antigen and lymphoma: persistent HBV drives sustained germinal-centre B-cell activation, contributing to the raised risk of B-cell lymphomas such as follicular lymphoma and DLBCL.
 - `connects-to` → **[IgA Nephropathy](../iga-nephropathy/README.md)** — HBV and the kidney: chronic hepatitis B causes immune-complex glomerulonephritis—classically membranous, but also an IgA nephropathy—where viral antigen-antibody complexes deposit in the glomerulus.
 - `connects-to` → **[Pancreatic Cancer](../pancreatic-cancer/README.md)** — Beyond the liver: chronic HBV is associated with a modestly raised risk of pancreatic cancer and cholangiocarcinoma, reflecting the virus's reach across the hepatobiliary-pancreatic system.
+- `connects-to` → **[Peripheral Nerve](../../05-tissue/peripheral-nerve/README.md)** — Polyarteritis nodosa: chronic HBV is the classic infectious cause of polyarteritis nodosa, a medium-vessel vasculitis whose ischaemic neuropathy (mononeuritis multiplex) damages peripheral nerves.
+- `connects-to` → **[Multiple Myeloma](../multiple-myeloma/README.md)** — Reactivation under myeloma therapy: the anti-CD38 antibodies, steroids and stem-cell transplant used for multiple myeloma can reactivate occult hepatitis B, so screening and antiviral prophylaxis are mandatory before treatment.
+- `connects-to` → **[COVID-19 Disease](../covid-19-disease/README.md)** — Reactivation and coinfection: immunosuppressive treatment of severe COVID-19 with steroids and IL-6 blockade can reactivate latent hepatitis B, and the two infections can coexist and tax the liver together.

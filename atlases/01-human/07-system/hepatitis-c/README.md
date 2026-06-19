@@ -264,6 +264,15 @@ cross_links:
   - target: 01-human/07-system/immune-thrombocytopenia
     relation: connects-to
     note: "A secondary cause of low platelets: chronic HCV is a recognised trigger of immune thrombocytopenia, distinct from hypersplenic sequestration, and antiviral cure often resolves the thrombocytopenia."
+  - target: 01-human/07-system/iga-nephropathy
+    relation: connects-to
+    note: "Cirrhotic and viral glomerulonephritis: chronic hepatitis C—and the cirrhosis it causes—impairs hepatic clearance of IgA immune complexes, producing secondary IgA deposition in the glomerulus alongside its better-known cryoglobulinaemic nephritis."
+  - target: 01-human/07-system/aplastic-anemia
+    relation: connects-to
+    note: "Hepatitis-associated aplastic anaemia: a severe marrow-failure syndrome can follow an acute hepatitis (HCV among the implicated viruses), where an aberrant immune response destroys haematopoietic stem cells weeks later."
+  - target: 01-human/07-system/covid-19-disease
+    relation: connects-to
+    note: "Coinfection and disrupted care: COVID-19 strained hepatitis C elimination programmes and direct-acting-antiviral access, while coinfection adds inflammatory and hepatic burden in vulnerable patients."
 ---
 
 # Hepatitis C
@@ -472,3 +481,6 @@ HCV cirrhosis → HCC risk 1–5% per year (annual ultrasound surveillance ± AF
 - `connects-to` → **[Cholangiocarcinoma](../cholangiocarcinoma/README.md)** — Not just hepatocellular cancer: chronic HCV also raises the risk of intrahepatic cholangiocarcinoma, the bile-duct cancer, broadening the virus's oncogenic reach within the cirrhotic liver.
 - `connects-to` → **[Germinal Center](../../05-tissue/germinal-center/README.md)** — Chronic antigen drives B cells: persistent HCV stimulation expands germinal-centre B-cell clones, the root of mixed cryoglobulinaemia and the HCV-associated B-cell lymphomas that can regress with antiviral cure.
 - `connects-to` → **[Immune Thrombocytopenia](../immune-thrombocytopenia/README.md)** — A secondary cause of low platelets: chronic HCV is a recognised trigger of immune thrombocytopenia, distinct from hypersplenic sequestration, and antiviral cure often resolves the thrombocytopenia.
+- `connects-to` → **[IgA Nephropathy](../iga-nephropathy/README.md)** — Cirrhotic and viral glomerulonephritis: chronic hepatitis C—and the cirrhosis it causes—impairs hepatic clearance of IgA immune complexes, producing secondary IgA deposition in the glomerulus alongside its better-known cryoglobulinaemic nephritis.
+- `connects-to` → **[Aplastic Anemia](../aplastic-anemia/README.md)** — Hepatitis-associated aplastic anaemia: a severe marrow-failure syndrome can follow an acute hepatitis (HCV among the implicated viruses), where an aberrant immune response destroys haematopoietic stem cells weeks later.
+- `connects-to` → **[COVID-19 Disease](../covid-19-disease/README.md)** — Coinfection and disrupted care: COVID-19 strained hepatitis C elimination programmes and direct-acting-antiviral access, while coinfection adds inflammatory and hepatic burden in vulnerable patients.
