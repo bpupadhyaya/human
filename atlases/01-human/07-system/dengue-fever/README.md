@@ -268,6 +268,15 @@ cross_links:
   - target: 01-human/07-system/covid-19-disease
     relation: connects-to
     note: "Overlapping fevers: dengue and COVID-19 co-circulate in many regions and share early features—fever, myalgia, thrombocytopenia and cytokine-driven illness—posing a diagnostic and co-infection challenge."
+  - target: 01-human/03-molecular/rig-i
+    relation: connects-to
+    note: "Viral RNA sensing: RIG-I detects dengue's RNA and signals through MAVS to trigger interferon, and the virus's NS proteins antagonise this sensor to blunt the early antiviral response."
+  - target: 01-human/03-molecular/complement-c3
+    relation: connects-to
+    note: "Complement and leak: excessive complement activation generates anaphylatoxins that help drive the vascular permeability and plasma leakage of dengue haemorrhagic fever and shock."
+  - target: 01-human/05-tissue/peripheral-nerve
+    relation: connects-to
+    note: "Peripheral neuropathy: beyond Guillain-Barré, dengue can injure peripheral nerves directly, causing mononeuropathies, brachial neuritis and post-infectious neuropathic syndromes."
 ---
 
 # Dengue Fever
@@ -463,3 +472,6 @@ No approved antiviral therapy for dengue. Management is entirely supportive:
 - `connects-to` → **[Arterial Wall](../../05-tissue/arterial-wall/README.md)** — Plasma leak through the vessel: dengue's severe form leaks plasma across a cytokine-damaged endothelium of the arterial wall and capillaries, causing the shock and effusions of dengue haemorrhagic fever.
 - `connects-to` → **[Cardiac Conduction System](../../05-tissue/cardiac-conduction-system/README.md)** — Cardiac dengue: dengue commonly causes bradycardia and conduction abnormalities, and a viral myocarditis, affecting the cardiac conduction system even in non-severe disease.
 - `connects-to` → **[COVID-19 Disease](../covid-19-disease/README.md)** — Overlapping fevers: dengue and COVID-19 co-circulate in many regions and share early features—fever, myalgia, thrombocytopenia and cytokine-driven illness—posing a diagnostic and co-infection challenge.
+- `connects-to` → **[RIG-I](../../03-molecular/rig-i/README.md)** — Viral RNA sensing: RIG-I detects dengue's RNA and signals through MAVS to trigger interferon, and the virus's NS proteins antagonise this sensor to blunt the early antiviral response.
+- `connects-to` → **[Complement C3](../../03-molecular/complement-c3/README.md)** — Complement and leak: excessive complement activation generates anaphylatoxins that help drive the vascular permeability and plasma leakage of dengue haemorrhagic fever and shock.
+- `connects-to` → **[Peripheral Nerve](../../05-tissue/peripheral-nerve/README.md)** — Peripheral neuropathy: beyond Guillain-Barré, dengue can injure peripheral nerves directly, causing mononeuropathies, brachial neuritis and post-infectious neuropathic syndromes.

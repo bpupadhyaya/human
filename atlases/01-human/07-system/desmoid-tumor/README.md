@@ -268,6 +268,15 @@ cross_links:
   - target: 01-human/07-system/mpnst
     relation: connects-to
     note: "Benign-but-aggressive vs malignant: desmoid fibromatosis invades locally but never metastasizes, contrasting with malignant soft-tissue sarcomas like MPNST that both invade and spread distantly."
+  - target: 01-human/03-molecular/prostaglandins
+    relation: connects-to
+    note: "NSAID-responsive growth: prostaglandins promote desmoid proliferation, the rationale behind treating these tumours with COX inhibitors such as sulindac and other NSAIDs."
+  - target: 01-human/03-molecular/kit
+    relation: connects-to
+    note: "Kinase target: desmoids express KIT and PDGFR receptors, underpinning the partial responses seen with tyrosine kinase inhibitors like imatinib in progressive disease."
+  - target: 01-human/03-molecular/tert
+    relation: connects-to
+    note: "Replicative persistence: telomerase activity helps desmoid cells sustain the relentless, locally invasive proliferation that makes these benign tumours so difficult to control."
 ---
 
 # Desmoid Tumor
@@ -485,6 +494,9 @@ Standard initial approach for newly diagnosed desmoid without symptoms or rapid 
 - `connects-to` → **[MUTYH-Associated Polyposis](../mutyh-associated-polyposis/README.md)** — Polyposis and desmoids: desmoid tumours are a hallmark of APC-driven FAP/Gardner syndrome; MUTYH-associated polyposis phenocopies FAP's colorectal polyposis but rarely produces desmoids, a distinguishing feature.
 - `connects-to` → **[HCC](../hcc/README.md)** — Shared Wnt activation: desmoid tumours and a subset of hepatocellular carcinomas are both driven by activating CTNNB1 (β-catenin) mutations, the same Wnt pathway producing very different tumours.
 - `connects-to` → **[MPNST](../mpnst/README.md)** — Benign-but-aggressive vs malignant: desmoid fibromatosis invades locally but never metastasizes, contrasting with malignant soft-tissue sarcomas like MPNST that both invade and spread distantly.
+- `connects-to` → **[Prostaglandins](../../03-molecular/prostaglandins/README.md)** — NSAID-responsive growth: prostaglandins promote desmoid proliferation, the rationale behind treating these tumours with COX inhibitors such as sulindac and other NSAIDs.
+- `connects-to` → **[KIT](../../03-molecular/kit/README.md)** — Kinase target: desmoids express KIT and PDGFR receptors, underpinning the partial responses seen with tyrosine kinase inhibitors like imatinib in progressive disease.
+- `connects-to` → **[TERT](../../03-molecular/tert/README.md)** — Replicative persistence: telomerase activity helps desmoid cells sustain the relentless, locally invasive proliferation that makes these benign tumours so difficult to control.
 
 ---
 
