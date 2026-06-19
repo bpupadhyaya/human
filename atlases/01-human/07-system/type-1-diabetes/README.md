@@ -250,6 +250,15 @@ cross_links:
   - target: 01-human/05-tissue/glomerulus
     relation: connects-to
     note: "It scars the kidney filter too: like type 2 diabetes, chronic hyperglycaemia in type 1 thickens the glomerular basement membrane and expands the mesangium, causing the diabetic nephropathy that is a major long-term complication."
+  - target: 01-human/05-tissue/arterial-wall
+    relation: connects-to
+    note: "Macrovascular disease shortens it: type 1 diabetes accelerates atherosclerosis and arterial stiffening, so cardiovascular disease is the leading cause of death in long-standing T1D despite good glucose control."
+  - target: 01-human/05-tissue/germinal-center
+    relation: connects-to
+    note: "Its autoantibodies signal the autoimmunity: type 1 diabetes is a T-cell attack on beta cells, but islet autoantibodies (anti-GAD, anti-IA2) made with germinal-centre B-cell help mark the loss of tolerance and predict onset."
+  - target: 01-human/07-system/covid-19-disease
+    relation: connects-to
+    note: "It can be precipitated by infection: COVID-19 and other viral infections are linked to new-onset type 1 diabetes, with viral injury and molecular mimicry implicated in triggering islet autoimmunity in susceptible children."
 ---
 
 # Type 1 Diabetes
@@ -423,6 +432,9 @@ cross_links:
 - `connects-to` → **[Islet of Langerhans](../../05-tissue/islet-of-langerhans/README.md)** — It destroys the insulin source: type 1 diabetes is autoimmune T-cell destruction of the insulin-producing beta cells of the pancreatic islets, leaving absolute insulin deficiency once most islet mass is lost.
 - `connects-to` → **[Targeted Therapy](../../../03-medicine/01-modern/13-cancer/targeted-therapy/README.md)** — Immunotherapy can delay onset: the anti-CD3 antibody teplizumab postpones progression to clinical type 1 diabetes in at-risk individuals by blunting the autoreactive T cells, the first disease-modifying therapy for the condition.
 - `connects-to` → **[Glomerulus](../../05-tissue/glomerulus/README.md)** — It scars the kidney filter too: like type 2 diabetes, chronic hyperglycaemia in type 1 thickens the glomerular basement membrane and expands the mesangium, causing the diabetic nephropathy that is a major long-term complication.
+- `connects-to` → **[Arterial Wall](../../05-tissue/arterial-wall/README.md)** — Macrovascular disease shortens it: type 1 diabetes accelerates atherosclerosis and arterial stiffening, so cardiovascular disease is the leading cause of death in long-standing T1D despite good glucose control.
+- `connects-to` → **[Germinal Center](../../05-tissue/germinal-center/README.md)** — Its autoantibodies signal the autoimmunity: type 1 diabetes is a T-cell attack on beta cells, but islet autoantibodies (anti-GAD, anti-IA2) made with germinal-centre B-cell help mark the loss of tolerance and predict onset.
+- `connects-to` → **[COVID-19 Disease](../covid-19-disease/README.md)** — It can be precipitated by infection: COVID-19 and other viral infections are linked to new-onset type 1 diabetes, with viral injury and molecular mimicry implicated in triggering islet autoimmunity in susceptible children.
 
 [^atkinson-2014-t1d-lancet]: Atkinson MA, Eisenbarth GS, Michels AW. Type 1 diabetes. *Lancet.* 2014;383(9911):69-82. [doi:10.1016/S0140-6736(13)60591-7](https://doi.org/10.1016/S0140-6736(13)60591-7) · [PubMed 23890997](https://pubmed.ncbi.nlm.nih.gov/23890997/)
 [^herold-2019-teplizumab-t1d]: Herold KC, Bundy BN, Long SA, et al. An anti-CD3 antibody, teplizumab, in relatives at risk for type 1 diabetes. *N Engl J Med.* 2019;381(7):603-613. [doi:10.1056/NEJMoa1905155](https://doi.org/10.1056/NEJMoa1905155) · [PubMed 31180675](https://pubmed.ncbi.nlm.nih.gov/31180675/)
