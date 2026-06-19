@@ -268,6 +268,15 @@ cross_links:
   - target: 01-human/07-system/breast-cancer
     relation: connects-to
     note: "Hyperprolactinaemia and breast cancer: dopamine-blocking antipsychotics raise prolactin, and sustained hyperprolactinaemia is associated with a modest increase in breast cancer risk in long-treated patients."
+  - target: 01-human/07-system/covid-19-disease
+    relation: connects-to
+    note: "Infection and psychosis: maternal infection in pregnancy raises schizophrenia risk (as with influenza and toxoplasma), and severe COVID-19 with its neuroinflammation can precipitate new psychosis, while the pandemic worsened outcomes for patients."
+  - target: 01-human/07-system/narcolepsy
+    relation: connects-to
+    note: "A psychosis mimic: the vivid hypnagogic hallucinations and REM intrusions of narcolepsy can resemble psychosis, and the two intersect through dopaminergic and thalamic circuits and the drugs that modulate them."
+  - target: 01-human/07-system/nsclc
+    relation: connects-to
+    note: "Smoking's toll: very high smoking rates in schizophrenia—partly self-medicating cognitive and sensory-gating deficits with nicotine—drive excess lung cancer and COPD, contributing to the large mortality gap."
 ---
 
 # Schizophrenia
@@ -515,6 +524,9 @@ Notably, schizophrenia shares genetic loci with bipolar disorder, ASD, ADHD, maj
 - `connects-to` → **[Cardiac Conduction System](../../05-tissue/cardiac-conduction-system/README.md)** — Antipsychotics and sudden death: many antipsychotics prolong the QT interval, and schizophrenia carries an elevated risk of sudden cardiac death through arrhythmia and the conduction system.
 - `connects-to` → **[Myocardium](../../05-tissue/myocardium/README.md)** — Clozapine myocarditis: clozapine—the most effective drug for treatment-resistant schizophrenia—can cause an acute myocarditis and cardiomyopathy of the myocardium, monitored closely in the first weeks of treatment.
 - `connects-to` → **[Breast Cancer](../breast-cancer/README.md)** — Hyperprolactinaemia and breast cancer: dopamine-blocking antipsychotics raise prolactin, and sustained hyperprolactinaemia is associated with a modest increase in breast cancer risk in long-treated patients.
+- `connects-to` → **[COVID-19 Disease](../covid-19-disease/README.md)** — Infection and psychosis: maternal infection in pregnancy raises schizophrenia risk (as with influenza and toxoplasma), and severe COVID-19 with its neuroinflammation can precipitate new psychosis, while the pandemic worsened outcomes for patients.
+- `connects-to` → **[Narcolepsy](../narcolepsy/README.md)** — A psychosis mimic: the vivid hypnagogic hallucinations and REM intrusions of narcolepsy can resemble psychosis, and the two intersect through dopaminergic and thalamic circuits and the drugs that modulate them.
+- `connects-to` → **[NSCLC](../nsclc/README.md)** — Smoking's toll: very high smoking rates in schizophrenia—partly self-medicating cognitive and sensory-gating deficits with nicotine—drive excess lung cancer and COPD, contributing to the large mortality gap.
 
 [^howes-2009-dopamine-hypothesis]: Howes OD, Kapur S. The dopamine hypothesis of schizophrenia: version III—the final common pathway. *Schizophr Bull.* 2009;35(3):549-562. [doi:10.1093/schbul/sbp006](https://doi.org/10.1093/schbul/sbp006) · [PubMed 19325164](https://pubmed.ncbi.nlm.nih.gov/19325164/)
 [^moghaddam-2012-glutamate]: Moghaddam B, Javitt D. From revolution to evolution: the glutamate hypothesis of schizophrenia and its implication for treatment. *Neuropsychopharmacology.* 2012;37(1):4-15. [doi:10.1038/npp.2011.181](https://doi.org/10.1038/npp.2011.181) · [PubMed 21956446](https://pubmed.ncbi.nlm.nih.gov/21956446/)

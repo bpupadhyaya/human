@@ -259,6 +259,15 @@ cross_links:
   - target: 01-human/03-molecular/atp
     relation: connects-to
     note: "A mitochondrial role too: RECQL4, the helicase lost in Rothmund-Thomson, also localises to mitochondria and supports their DNA, so its loss impairs mitochondrial function and ATP production beyond the nuclear genome."
+  - target: 01-human/03-molecular/brca1
+    relation: connects-to
+    note: "Homologous recombination in common: RECQL4 works alongside the BRCA1-driven repair machinery, so like BRCA-deficient cells, Rothmund-Thomson cells handle DNA double-strand breaks poorly and show sensitivity to replication stress and PARP inhibition."
+  - target: 01-human/07-system/cmml
+    relation: connects-to
+    note: "Myeloid clonal evolution: the genomic instability of Rothmund-Thomson predisposes to myeloid neoplasia, with myelodysplasia and overlap disorders like CMML arising as the damaged marrow accumulates mutations."
+  - target: 01-human/07-system/covid-19-disease
+    relation: connects-to
+    note: "Vulnerable to infection: Rothmund-Thomson can include immune dysfunction and bone-marrow failure, leaving affected patients more susceptible to severe infections including COVID-19."
 ---
 
 # Rothmund-Thomson Syndrome
@@ -476,6 +485,9 @@ The cardinal features of RTS type II are: (1) **poikiloderma** — the defining 
 - `connects-to` → **[MUTYH-Associated Polyposis](../mutyh-associated-polyposis/README.md)** — Recessive DNA-repair cancer syndromes: like MUTYH-associated polyposis, Rothmund-Thomson is autosomal-recessive—a defect in DNA repair (RECQL4 helicase versus base-excision repair) that drives cancer through accumulated mutations.
 - `connects-to` → **[Hepatic Lobule](../../05-tissue/hepatic-lobule/README.md)** — Where its osteosarcoma can spread: the osteosarcoma that Rothmund-Thomson predisposes to metastasises chiefly to the lung and, less often, the liver, seeding the hepatic lobule.
 - `connects-to` → **[ATP](../../03-molecular/atp/README.md)** — A mitochondrial role too: RECQL4, the helicase lost in Rothmund-Thomson, also localises to mitochondria and supports their DNA, so its loss impairs mitochondrial function and ATP production beyond the nuclear genome.
+- `connects-to` → **[BRCA1](../../03-molecular/brca1/README.md)** — Homologous recombination in common: RECQL4 works alongside the BRCA1-driven repair machinery, so like BRCA-deficient cells, Rothmund-Thomson cells handle DNA double-strand breaks poorly and show sensitivity to replication stress and PARP inhibition.
+- `connects-to` → **[CMML](../cmml/README.md)** — Myeloid clonal evolution: the genomic instability of Rothmund-Thomson predisposes to myeloid neoplasia, with myelodysplasia and overlap disorders like CMML arising as the damaged marrow accumulates mutations.
+- `connects-to` → **[COVID-19 Disease](../covid-19-disease/README.md)** — Vulnerable to infection: Rothmund-Thomson can include immune dysfunction and bone-marrow failure, leaving affected patients more susceptible to severe infections including COVID-19.
 
 [^kitao-1999-recql4-rts]: Kitao S, Shimamoto A, Goto M, et al. Mutations in RECQL4 cause a subset of cases of Rothmund-Thomson syndrome. *Nat Genet.* 1999;22(1):82-84. [doi:10.1038/8788](https://doi.org/10.1038/8788) · [PubMed 10319867](https://pubmed.ncbi.nlm.nih.gov/10319867/)
 [^wang-2003-rts-cancer]: Wang LL, Gannavarapu A, Kozinetz CA, et al. Association between osteosarcoma and deleterious mutations in the RECQL4 gene in Rothmund-Thomson syndrome. *J Natl Cancer Inst.* 2003;95(9):669-674. [doi:10.1093/jnci/95.9.669](https://doi.org/10.1093/jnci/95.9.669) · [PubMed 12734318](https://pubmed.ncbi.nlm.nih.gov/12734318/)
