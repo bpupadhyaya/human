@@ -256,6 +256,15 @@ cross_links:
   - target: 01-human/07-system/myelofibrosis
     relation: connects-to
     note: "Cell turnover floods the blood with urate: myelofibrosis and other myeloproliferative neoplasms massively increase purine breakdown, raising serum urate and causing secondary gout—worsened further by cytoreductive therapy that lyses cells."
+  - target: 01-human/07-system/aml
+    relation: connects-to
+    note: "Tumour lysis hyperuricaemia: the rapid cell turnover of acute leukaemia and its chemotherapy floods the blood with purines and urate, triggering acute gout and urate nephropathy—prevented with allopurinol or rasburicase."
+  - target: 01-human/05-tissue/cardiac-conduction-system
+    relation: connects-to
+    note: "Urate and the arrhythmic heart: hyperuricaemia and gout are linked to atrial fibrillation through systemic NLRP3-driven inflammation and shared metabolic risk."
+  - target: 01-human/05-tissue/intestinal-epithelium
+    relation: connects-to
+    note: "The gut excretes urate too: about a third of uric acid is cleared through the intestinal epithelium via the ABCG2 transporter, so gut dysfunction shifts the urate load onto the kidney and worsens gout."
 ---
 
 # Gout
@@ -428,6 +437,9 @@ The central mechanism linking MSU crystals to acute gouty arthritis is **NLRP3 i
 - `connects-to` → **[Glomerulus](../../05-tissue/glomerulus/README.md)** — The kidney both makes and suffers gout: about 90% of hyperuricaemia is renal under-excretion of urate, while deposited urate crystals cause interstitial inflammation and chronic urate nephropathy that scars the glomerulus and lowers filtration.
 - `connects-to` → **[Arterial Wall](../../05-tissue/arterial-wall/README.md)** — Urate inflames the vessel wall: soluble urate and monosodium urate crystals promote endothelial dysfunction and NLRP3-driven inflammation in the arterial wall, a mechanistic link between hyperuricaemia and the atherosclerosis and hypertension that accompany gout.
 - `connects-to` → **[Myelofibrosis](../myelofibrosis/README.md)** — Cell turnover floods the blood with urate: myelofibrosis and other myeloproliferative neoplasms massively increase purine breakdown, raising serum urate and causing secondary gout—worsened further by cytoreductive therapy that lyses cells.
+- `connects-to` → **[AML](../aml/README.md)** — Tumour lysis hyperuricaemia: the rapid cell turnover of acute leukaemia and its chemotherapy floods the blood with purines and urate, triggering acute gout and urate nephropathy—prevented with allopurinol or rasburicase.
+- `connects-to` → **[Cardiac Conduction System](../../05-tissue/cardiac-conduction-system/README.md)** — Urate and the arrhythmic heart: hyperuricaemia and gout are linked to atrial fibrillation through systemic NLRP3-driven inflammation and shared metabolic risk.
+- `connects-to` → **[Intestinal Epithelium](../../05-tissue/intestinal-epithelium/README.md)** — The gut excretes urate too: about a third of uric acid is cleared through the intestinal epithelium via the ABCG2 transporter, so gut dysfunction shifts the urate load onto the kidney and worsens gout.
 
 [^dalbeth-2019-gout-primer]: Dalbeth N, Choi HK, Joosten LAB, et al. Gout. *Nat Rev Dis Primers.* 2019;5(1):69. [doi:10.1038/s41572-019-0115-y](https://doi.org/10.1038/s41572-019-0115-y) · [PubMed 31558729](https://pubmed.ncbi.nlm.nih.gov/31558729/)
 [^martinon-2006-nlrp3-gout]: Martinon F, Pétrilli V, Mayor A, Tardivel A, Tschopp J. Gout-associated uric acid crystals activate the NALP3 inflammasome. *Nature.* 2006;440(7081):237-241. [doi:10.1038/nature04516](https://doi.org/10.1038/nature04516) · [PubMed 16407889](https://pubmed.ncbi.nlm.nih.gov/16407889/)

@@ -250,6 +250,15 @@ cross_links:
   - target: 01-human/07-system/peutz-jeghers-syndrome
     relation: connects-to
     note: "Two dominant hamartoma syndromes, two pathways: Gorlin (PTCH1, Hedgehog) and Peutz-Jeghers (STK11, mTOR) are both autosomal-dominant cancer-predisposition syndromes with distinctive lesions, showing how separate developmental pathways each predispose to tumours."
+  - target: 01-human/07-system/fap
+    relation: connects-to
+    note: "Two medulloblastoma syndromes: Gorlin syndrome causes SHH-subgroup medulloblastoma while FAP (via Turcot) causes the WNT subgroup—two germline routes to the same childhood brain tumour through different pathways."
+  - target: 01-human/05-tissue/myocardium
+    relation: connects-to
+    note: "Cardiac fibroma: Gorlin syndrome causes benign fibromas within the myocardium, a characteristic if uncommon feature detected on cardiac imaging."
+  - target: 01-human/07-system/carney-complex
+    relation: connects-to
+    note: "Inherited cardiac-tumour syndromes: Gorlin causes cardiac fibromas and Carney complex causes cardiac myxomas—two autosomal-dominant syndromes each marked by a benign heart tumour."
 ---
 
 # Gorlin Syndrome
@@ -438,6 +447,9 @@ Both are two-hit tumor suppressors: germline heterozygous LOF + somatic second h
 - `connects-to` → **[Checkpoint Inhibitors](../../../03-medicine/01-modern/13-cancer/checkpoint-inhibitors/README.md)** — When Hedgehog blockade fails the skin: cemiplimab and other PD-1 checkpoint inhibitors are used for advanced basal cell carcinoma that progresses on or cannot tolerate Hedgehog inhibitors—an option relevant to Gorlin patients with many aggressive BCCs.
 - `connects-to` → **[Melanoma](../melanoma/README.md)** — Two routes to skin cancer: Gorlin syndrome drives countless basal cell carcinomas through germline PTCH1/Hedgehog activation largely independent of sun exposure, unlike melanoma, whose UV-driven mutational burden makes it immunotherapy-responsive.
 - `connects-to` → **[Peutz-Jeghers Syndrome](../peutz-jeghers-syndrome/README.md)** — Two dominant hamartoma syndromes, two pathways: Gorlin (PTCH1, Hedgehog) and Peutz-Jeghers (STK11, mTOR) are both autosomal-dominant cancer-predisposition syndromes with distinctive lesions, showing how separate developmental pathways each predispose to tumours.
+- `connects-to` → **[FAP](../fap/README.md)** — Two medulloblastoma syndromes: Gorlin syndrome causes SHH-subgroup medulloblastoma while FAP (via Turcot) causes the WNT subgroup—two germline routes to the same childhood brain tumour through different pathways.
+- `connects-to` → **[Myocardium](../../05-tissue/myocardium/README.md)** — Cardiac fibroma: Gorlin syndrome causes benign fibromas within the myocardium, a characteristic if uncommon feature detected on cardiac imaging.
+- `connects-to` → **[Carney Complex](../carney-complex/README.md)** — Inherited cardiac-tumour syndromes: Gorlin causes cardiac fibromas and Carney complex causes cardiac myxomas—two autosomal-dominant syndromes each marked by a benign heart tumour.
 
 ---
 
