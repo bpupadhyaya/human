@@ -244,6 +244,15 @@ cross_links:
   - target: 01-human/05-tissue/cardiac-conduction-system
     relation: connects-to
     note: "It is an electrical disease too: heart failure disrupts conduction, causing ventricular arrhythmias and sudden death that warrant ICDs, while left-bundle delay creates dyssynchrony corrected by cardiac resynchronisation therapy."
+  - target: 01-human/05-tissue/alveolus
+    relation: connects-to
+    note: "It floods the air sacs: left heart failure raises pulmonary venous pressure until fluid leaks into the alveoli, causing the pulmonary oedema, orthopnoea and breathlessness of acute decompensation."
+  - target: 01-human/05-tissue/glomerulus
+    relation: connects-to
+    note: "Cardiorenal syndrome strains the filter: falling cardiac output and venous congestion reduce glomerular perfusion and filtration, the kidney dysfunction that complicates heart failure and limits diuresis."
+  - target: 01-human/07-system/multiple-myeloma
+    relation: connects-to
+    note: "A treatable cause hides in the marrow: AL (light-chain) amyloidosis from a plasma-cell clone deposits in the myocardium as a restrictive cardiomyopathy, so unexplained heart failure with thick walls warrants a myeloma workup."
 ---
 
 # Heart Failure
@@ -392,6 +401,9 @@ Normal hearts increase stroke volume with increasing preload (Starling curve). T
 - `connects-to` → **[ARBs](../../../03-medicine/01-modern/04-cardio/arbs/README.md)** — RAS blockade when ACE fails: angiotensin-receptor blockers replace ACE inhibitors in patients who cannot tolerate their cough, and combined with neprilysin inhibition as ARNI they are a cornerstone of heart-failure therapy.
 - `connects-to` → **[Myocardium](../../05-tissue/myocardium/README.md)** — The failing muscle remodels: heart failure reflects diseased myocardium — dilated and thin in systolic failure, stiff and hypertrophied in HFpEF — where cardiomyocyte loss and interstitial fibrosis progressively impair contraction and filling.
 - `connects-to` → **[Cardiac Conduction System](../../05-tissue/cardiac-conduction-system/README.md)** — It is an electrical disease too: heart failure disrupts conduction, causing ventricular arrhythmias and sudden death that warrant ICDs, while left-bundle delay creates dyssynchrony corrected by cardiac resynchronisation therapy.
+- `connects-to` → **[Alveolus](../../05-tissue/alveolus/README.md)** — It floods the air sacs: left heart failure raises pulmonary venous pressure until fluid leaks into the alveoli, causing the pulmonary oedema, orthopnoea and breathlessness of acute decompensation.
+- `connects-to` → **[Glomerulus](../../05-tissue/glomerulus/README.md)** — Cardiorenal syndrome strains the filter: falling cardiac output and venous congestion reduce glomerular perfusion and filtration, the kidney dysfunction that complicates heart failure and limits diuresis.
+- `connects-to` → **[Multiple Myeloma](../multiple-myeloma/README.md)** — A treatable cause hides in the marrow: AL (light-chain) amyloidosis from a plasma-cell clone deposits in the myocardium as a restrictive cardiomyopathy, so unexplained heart failure with thick walls warrants a myeloma workup.
 
 ## Pathology
 

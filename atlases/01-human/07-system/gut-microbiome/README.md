@@ -244,6 +244,15 @@ cross_links:
   - target: 01-human/07-system/type-1-diabetes
     relation: connects-to
     note: "Early flora shape autoimmunity: reduced microbial diversity and altered short-chain-fatty-acid producers in infancy are linked to the development of type 1 diabetes, implicating the microbiome in the loss of immune tolerance to beta cells."
+  - target: 01-human/05-tissue/hepatic-lobule
+    relation: connects-to
+    note: "The gut-liver axis: microbial metabolites and translocated endotoxin travel up the portal vein to the hepatic lobule, driving the inflammation and fat accumulation of NAFLD/NASH and shaping bile-acid metabolism."
+  - target: 03-medicine/01-modern/07-metabolic/metformin
+    relation: connects-to
+    note: "The microbiome mediates its action: metformin reshapes gut bacterial composition, and that shift contributes both to its glucose-lowering effect and to the GI side effects that limit its use."
+  - target: 01-human/07-system/gvhd
+    relation: connects-to
+    note: "It steers transplant immunity: after stem-cell transplant, loss of intestinal microbial diversity worsens gut graft-versus-host disease and mortality, making the microbiome a target for protecting the new immune system."
 ---
 
 # Gut Microbiome
@@ -397,6 +406,9 @@ The microbiome influences CNS function via multiple pathways:
 - `connects-to` → **[Checkpoint Inhibitors](../../../03-medicine/01-modern/13-cancer/checkpoint-inhibitors/README.md)** — It tunes cancer immunotherapy: the gut microbiome powerfully shapes response to checkpoint blockade — species like Akkermansia and Faecalibacterium predict who responds, and antibiotics or faecal transplant can blunt or restore efficacy.
 - `connects-to` → **[Peyer's Patches](../../05-tissue/peyers-patches/README.md)** — It is sampled by gut immunity: Peyer's patches and their M cells continuously survey the microbiome, training the regulatory T cells and IgA responses that keep commensals tolerated while excluding pathogens.
 - `connects-to` → **[Type 1 Diabetes](../type-1-diabetes/README.md)** — Early flora shape autoimmunity: reduced microbial diversity and altered short-chain-fatty-acid producers in infancy are linked to the development of type 1 diabetes, implicating the microbiome in the loss of immune tolerance to beta cells.
+- `connects-to` → **[Hepatic Lobule](../../05-tissue/hepatic-lobule/README.md)** — The gut-liver axis: microbial metabolites and translocated endotoxin travel up the portal vein to the hepatic lobule, driving the inflammation and fat accumulation of NAFLD/NASH and shaping bile-acid metabolism.
+- `connects-to` → **[Metformin](../../../03-medicine/01-modern/07-metabolic/metformin/README.md)** — The microbiome mediates its action: metformin reshapes gut bacterial composition, and that shift contributes both to its glucose-lowering effect and to the GI side effects that limit its use.
+- `connects-to` → **[GvHD](../gvhd/README.md)** — It steers transplant immunity: after stem-cell transplant, loss of intestinal microbial diversity worsens gut graft-versus-host disease and mortality, making the microbiome a target for protecting the new immune system.
 
 ## Pathology
 
