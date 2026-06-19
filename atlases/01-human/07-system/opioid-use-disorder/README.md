@@ -256,6 +256,15 @@ cross_links:
   - target: 01-human/05-tissue/alveolus
     relation: connects-to
     note: "Overdose silences the breath: opioids suppress the brainstem respiratory drive, and overdose causes hypoventilation, aspiration and noncardiogenic pulmonary oedema flooding the alveoli — the proximate cause of opioid death that naloxone reverses."
+  - target: 01-human/05-tissue/cardiac-conduction-system
+    relation: connects-to
+    note: "Methadone and the QT interval: methadone blocks the hERG potassium channel and prolongs the QT interval, risking torsades de pointes—the reason ECG monitoring accompanies opioid agonist therapy."
+  - target: 01-human/05-tissue/intestinal-epithelium
+    relation: connects-to
+    note: "The constipation no one escapes: mu-opioid receptors on the gut wall slow intestinal motility, causing the near-universal constipation of chronic opioid use, treated with peripherally-acting opioid antagonists."
+  - target: 01-human/07-system/bipolar-disorder
+    relation: connects-to
+    note: "Mood and opioids entangle: opioid use disorder is highly comorbid with bipolar disorder, with self-medication of mood swings and shared impulsivity and reward-circuit dysfunction driving the overlap."
 ---
 
 # Opioid Use Disorder
@@ -490,6 +499,9 @@ The primary mechanism by which opioids produce euphoria:
 - `connects-to` → **[Endocardium](../../05-tissue/endocardium/README.md)** — Injecting seeds the heart valves: injection drug use carries skin bacteria like Staphylococcus aureus to the heart, causing infective endocarditis — classically right-sided on the tricuspid valve — a major cause of OUD hospitalisation and death.
 - `connects-to` → **[Cannabis Use Disorder](../cannabis-use-disorder/README.md)** — Polysubstance use is the rule: opioid and cannabis use disorders frequently co-occur, and cannabis is debated both as a relapse risk and as a harm-reduction aid during opioid tapering.
 - `connects-to` → **[Alveolus](../../05-tissue/alveolus/README.md)** — Overdose silences the breath: opioids suppress the brainstem respiratory drive, and overdose causes hypoventilation, aspiration and noncardiogenic pulmonary oedema flooding the alveoli — the proximate cause of opioid death that naloxone reverses.
+- `connects-to` → **[Cardiac Conduction System](../../05-tissue/cardiac-conduction-system/README.md)** — Methadone and the QT interval: methadone blocks the hERG potassium channel and prolongs the QT interval, risking torsades de pointes—the reason ECG monitoring accompanies opioid agonist therapy.
+- `connects-to` → **[Intestinal Epithelium](../../05-tissue/intestinal-epithelium/README.md)** — The constipation no one escapes: mu-opioid receptors on the gut wall slow intestinal motility, causing the near-universal constipation of chronic opioid use, treated with peripherally-acting opioid antagonists.
+- `connects-to` → **[Bipolar Disorder](../bipolar-disorder/README.md)** — Mood and opioids entangle: opioid use disorder is highly comorbid with bipolar disorder, with self-medication of mood swings and shared impulsivity and reward-circuit dysfunction driving the overlap.
 
 [^volkow-2016-opioid-crisis]: Volkow ND, Collins FS. The role of science in addressing the opioid crisis. *N Engl J Med.* 2017;377(4):391-394. [doi:10.1056/NEJMsr1706626](https://doi.org/10.1056/NEJMsr1706626) · [PubMed 28723324](https://pubmed.ncbi.nlm.nih.gov/28723324/)
 [^mattick-2009-bupe-meta]: Mattick RP, Breen C, Kimber J, Davoli M. Buprenorphine maintenance versus placebo or methadone maintenance for opioid dependence. *Cochrane Database Syst Rev.* 2014;2:CD002207. [doi:10.1002/14651858.CD002207.pub4](https://doi.org/10.1002/14651858.CD002207.pub4) · [PubMed 24500948](https://pubmed.ncbi.nlm.nih.gov/24500948/)

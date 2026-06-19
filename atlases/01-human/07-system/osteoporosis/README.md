@@ -253,6 +253,15 @@ cross_links:
   - target: 03-medicine/01-modern/13-cancer/cancer-chemotherapy
     relation: connects-to
     note: "Cancer treatment strips bone: aromatase inhibitors, androgen-deprivation therapy and cytotoxic chemotherapy cause accelerated cancer-treatment-induced bone loss, making osteoporosis monitoring routine in cancer survivors."
+  - target: 01-human/05-tissue/arterial-wall
+    relation: connects-to
+    note: "The calcification paradox: as bone loses mineral in osteoporosis, calcium deposits in the arterial wall, so low bone density and vascular calcification often coexist through shared inflammatory and vitamin-K and D pathways."
+  - target: 03-medicine/01-modern/08-gi/omeprazole
+    relation: connects-to
+    note: "Acid suppression and fracture: long-term proton-pump inhibitors reduce calcium absorption and are linked to a modestly higher risk of hip and spine fractures, a caution in osteoporotic patients."
+  - target: 01-human/07-system/opioid-use-disorder
+    relation: connects-to
+    note: "Opioids thin bone: chronic opioids suppress sex hormones (opioid-induced hypogonadism) and raise fall and fracture risk, a reciprocal link between addiction and bone loss."
 ---
 
 # Osteoporosis
@@ -439,6 +448,9 @@ All newly diagnosed osteoporosis should be evaluated for secondary causes: CBC (
 - `connects-to` → **[Targeted Therapy](../../../03-medicine/01-modern/13-cancer/targeted-therapy/README.md)** — Monoclonal antibodies rebuild bone: denosumab blocks RANKL to halt bone resorption and romosozumab blocks sclerostin to drive bone formation — antibody therapies targeting the exact pathways that govern osteoporosis.
 - `connects-to` → **[Cortical Bone](../../05-tissue/cortical-bone/README.md)** — It thins the bone itself: osteoporosis erodes cortical and trabecular bone as resorption outpaces formation, lowering bone density and strength until the hip, wrist and vertebrae fracture under minimal load.
 - `connects-to` → **[Cancer Chemotherapy](../../../03-medicine/01-modern/13-cancer/cancer-chemotherapy/README.md)** — Cancer treatment strips bone: aromatase inhibitors, androgen-deprivation therapy and cytotoxic chemotherapy cause accelerated cancer-treatment-induced bone loss, making osteoporosis monitoring routine in cancer survivors.
+- `connects-to` → **[Arterial Wall](../../05-tissue/arterial-wall/README.md)** — The calcification paradox: as bone loses mineral in osteoporosis, calcium deposits in the arterial wall, so low bone density and vascular calcification often coexist through shared inflammatory and vitamin-K and D pathways.
+- `connects-to` → **[Omeprazole](../../../03-medicine/01-modern/08-gi/omeprazole/README.md)** — Acid suppression and fracture: long-term proton-pump inhibitors reduce calcium absorption and are linked to a modestly higher risk of hip and spine fractures, a caution in osteoporotic patients.
+- `connects-to` → **[Opioid Use Disorder](../opioid-use-disorder/README.md)** — Opioids thin bone: chronic opioids suppress sex hormones (opioid-induced hypogonadism) and raise fall and fracture risk, a reciprocal link between addiction and bone loss.
 
 [^kanis-2019-who-osteoporosis]: Kanis JA, Cooper C, Rizzoli R, Reginster JY. European guidance for the diagnosis and management of osteoporosis in postmenopausal women. *Osteoporos Int.* 2019;30(1):3-44. [doi:10.1007/s00198-018-4704-5](https://doi.org/10.1007/s00198-018-4704-5) · [PubMed 30324412](https://pubmed.ncbi.nlm.nih.gov/30324412/)
 [^cosman-2016-romosozumab]: Cosman F, Crittenden DB, Adachi JD, et al. Romosozumab treatment in postmenopausal women with osteoporosis. *N Engl J Med.* 2016;375(16):1532-1543. [doi:10.1056/NEJMoa1607948](https://doi.org/10.1056/NEJMoa1607948) · [PubMed 27641143](https://pubmed.ncbi.nlm.nih.gov/27641143/)
