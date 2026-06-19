@@ -280,6 +280,15 @@ cross_links:
   - target: 01-human/05-tissue/cortical-bone
     relation: connects-to
     note: "Tendon xanthomas: familial hypercholesterolaemia deposits cholesterol in tendons—classically the Achilles and finger-extensor tendons at their cortical-bone insertions—forming the xanthomas that are a clinical hallmark."
+  - target: 01-human/03-molecular/nitric-oxide
+    relation: connects-to
+    note: "Early endothelial injury: lifelong high LDL in familial hypercholesterolaemia impairs endothelial nitric oxide production from childhood, the first step toward the premature atherosclerosis that defines the disease."
+  - target: 01-human/03-molecular/ccl2
+    relation: connects-to
+    note: "Monocyte recruitment: oxidised LDL accumulating in the arterial wall induces CCL2, drawing in the monocytes that become the foam cells of the accelerated plaques of familial hypercholesterolaemia."
+  - target: 01-human/03-molecular/endothelin-1
+    relation: connects-to
+    note: "Vascular tone imbalance: the endothelial dysfunction of familial hypercholesterolaemia shifts the balance toward endothelin-1 vasoconstriction, compounding the atherosclerotic narrowing of the arteries."
 ---
 
 # Familial Hypercholesterolemia
@@ -475,6 +484,9 @@ FH is a **monogenic autosomal dominant disorder** caused by mutations in three g
 - `connects-to` → **[Werner Syndrome](../werner-syndrome/README.md)** — Two routes to early heart attacks: familial hypercholesterolaemia drives premature atherosclerosis through lifelong high LDL, while Werner syndrome reaches the same early coronary disease through accelerated cellular ageing.
 - `connects-to` → **[Marfan Syndrome](../marfan-syndrome/README.md)** — Inherited cardiovascular disease, different walls: familial hypercholesterolaemia attacks the coronary arteries with cholesterol, while Marfan weakens the aortic wall through fibrillin loss—two autosomal-dominant routes to cardiac death.
 - `connects-to` → **[Cortical Bone](../../05-tissue/cortical-bone/README.md)** — Tendon xanthomas: familial hypercholesterolaemia deposits cholesterol in tendons—classically the Achilles and finger-extensor tendons at their cortical-bone insertions—forming the xanthomas that are a clinical hallmark.
+- `connects-to` → **[Nitric Oxide](../../03-molecular/nitric-oxide/README.md)** — Early endothelial injury: lifelong high LDL in familial hypercholesterolaemia impairs endothelial nitric oxide production from childhood, the first step toward the premature atherosclerosis that defines the disease.
+- `connects-to` → **[CCL2](../../03-molecular/ccl2/README.md)** — Monocyte recruitment: oxidised LDL accumulating in the arterial wall induces CCL2, drawing in the monocytes that become the foam cells of the accelerated plaques of familial hypercholesterolaemia.
+- `connects-to` → **[Endothelin-1](../../03-molecular/endothelin-1/README.md)** — Vascular tone imbalance: the endothelial dysfunction of familial hypercholesterolaemia shifts the balance toward endothelin-1 vasoconstriction, compounding the atherosclerotic narrowing of the arteries.
 
 [^goldstein-1985-ldlr-nobel]: Goldstein JL, Brown MS. The LDL receptor. *Arterioscler Thromb Vasc Biol.* 2009;29(4):431-438. [doi:10.1161/ATVBAHA.108.179564](https://doi.org/10.1161/ATVBAHA.108.179564) · [PubMed 19299327](https://pubmed.ncbi.nlm.nih.gov/19299327/)
 [^raal-2020-inclisiran-fh]: Raal FJ, Kallend D, Ray KK, et al. Inclisiran for the Treatment of Heterozygous Familial Hypercholesterolemia. *N Engl J Med.* 2020;382(16):1520-1530. [doi:10.1056/NEJMoa1913805](https://doi.org/10.1056/NEJMoa1913805) · [PubMed 32197277](https://pubmed.ncbi.nlm.nih.gov/32197277/)

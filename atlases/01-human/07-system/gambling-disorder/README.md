@@ -261,6 +261,15 @@ cross_links:
   - target: 01-human/05-tissue/arterial-wall
     relation: connects-to
     note: "Chronic stress on the vessels: the sustained stress, poor sleep and metabolic syndrome of gambling disorder accelerate atherosclerosis of the arterial wall, adding cardiovascular risk to the financial and psychiatric toll."
+  - target: 01-human/03-molecular/glp-1
+    relation: connects-to
+    note: "Reward modulation: GLP-1 acts on brain reward circuits as well as the gut, and GLP-1 receptor agonists are being explored to dampen the craving and reward signalling of behavioural addictions like gambling."
+  - target: 01-human/03-molecular/acetylcholine
+    relation: connects-to
+    note: "Cholinergic reward and impulsivity: acetylcholine modulates the striatal reward and impulse-control circuits implicated in gambling disorder, shaping decision-making and habit formation."
+  - target: 01-human/03-molecular/il-6
+    relation: connects-to
+    note: "Addiction inflammation: behavioural addictions including gambling are associated with elevated IL-6, reflecting the chronic stress and low-grade inflammation that accompany the disorder."
 sources:
   - id: grant-2016-gambling-review
     type: peer-reviewed
@@ -488,6 +497,9 @@ Persistent and recurrent problematic gambling behavior causing distress (≥4 of
 - `connects-to` → **[COVID-19 Disease](../covid-19-disease/README.md)** — Online gambling surge: COVID-19 lockdowns and the shift to online betting accelerated problematic gambling, isolation and financial stress fuelling relapse and new disorder.
 - `connects-to` → **[Intestinal Epithelium](../../05-tissue/intestinal-epithelium/README.md)** — Gut-brain reward signalling: gut hormones and the microbiome acting through the intestinal epithelium modulate the dopaminergic reward circuits hijacked in gambling disorder, an emerging dimension of behavioural addiction.
 - `connects-to` → **[Arterial Wall](../../05-tissue/arterial-wall/README.md)** — Chronic stress on the vessels: the sustained stress, poor sleep and metabolic syndrome of gambling disorder accelerate atherosclerosis of the arterial wall, adding cardiovascular risk to the financial and psychiatric toll.
+- `connects-to` → **[GLP-1](../../03-molecular/glp-1/README.md)** — Reward modulation: GLP-1 acts on brain reward circuits as well as the gut, and GLP-1 receptor agonists are being explored to dampen the craving and reward signalling of behavioural addictions like gambling.
+- `connects-to` → **[Acetylcholine](../../03-molecular/acetylcholine/README.md)** — Cholinergic reward and impulsivity: acetylcholine modulates the striatal reward and impulse-control circuits implicated in gambling disorder, shaping decision-making and habit formation.
+- `connects-to` → **[IL-6](../../03-molecular/il-6/README.md)** — Addiction inflammation: behavioural addictions including gambling are associated with elevated IL-6, reflecting the chronic stress and low-grade inflammation that accompany the disorder.
 
 [^potenza-2014-gambling-neuroscience]: Potenza MN. The neurobiology of pathological gambling and drug addiction: an overview and new findings. *Philos Trans R Soc Lond B Biol Sci.* 2008;363(1507):3181-3189. [doi:10.1098/rstb.2008.0100](https://doi.org/10.1098/rstb.2008.0100) · [PubMed 18640909](https://pubmed.ncbi.nlm.nih.gov/18640909/)
 [^grant-2016-gambling-review]: Grant JE, Chamberlain SR. Gambling disorder and its relationship with substance use disorders. *Am J Addict.* 2015;24(2):126-131. [doi:10.1111/ajad.12112](https://doi.org/10.1111/ajad.12112) · [PubMed 25376793](https://pubmed.ncbi.nlm.nih.gov/25376793/)
