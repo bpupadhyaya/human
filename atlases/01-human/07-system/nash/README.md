@@ -277,6 +277,15 @@ cross_links:
   - target: 01-human/05-tissue/intestinal-epithelium
     relation: connects-to
     note: "The gut-liver axis: a leaky intestinal epithelium and dysbiosis deliver bacterial endotoxin to the liver through the portal vein, driving the inflammation that turns simple steatosis into NASH."
+  - target: 01-human/03-molecular/hif-1alpha
+    relation: connects-to
+    note: "Hepatic hypoxia: HIF-1α activated in the fatty, poorly perfused liver promotes lipogenesis, inflammation and fibrosis, helping drive the progression of NASH."
+  - target: 01-human/03-molecular/vegf
+    relation: connects-to
+    note: "Pathological angiogenesis: VEGF-driven aberrant angiogenesis accompanies NASH fibrosis as it advances toward cirrhosis and hepatocellular carcinoma."
+  - target: 01-human/03-molecular/endothelin-1
+    relation: connects-to
+    note: "Stellate-cell activation: endothelin-1 contracts hepatic stellate cells and contributes to the portal hypertension and fibrosis of advancing NASH."
 ---
 
 # NASH
@@ -452,6 +461,9 @@ NASH pathogenesis is driven by multiple simultaneous and sequential hits, not a 
 - `connects-to` → **[Cardiac Conduction System](../../05-tissue/cardiac-conduction-system/README.md)** — Fatty liver and atrial fibrillation: NAFLD/NASH independently raises the risk of atrial fibrillation through systemic inflammation and cardiac fibrosis, beyond the metabolic risk factors it shares with arrhythmia.
 - `connects-to` → **[COVID-19 Disease](../covid-19-disease/README.md)** — A metabolic risk amplifier: NAFLD/MAFLD is an independent risk factor for severe COVID-19, its inflammatory, insulin-resistant milieu worsening outcomes during infection.
 - `connects-to` → **[Intestinal Epithelium](../../05-tissue/intestinal-epithelium/README.md)** — The gut-liver axis: a leaky intestinal epithelium and dysbiosis deliver bacterial endotoxin to the liver through the portal vein, driving the inflammation that turns simple steatosis into NASH.
+- `connects-to` → **[HIF-1α](../../03-molecular/hif-1alpha/README.md)** — Hepatic hypoxia: HIF-1α activated in the fatty, poorly perfused liver promotes lipogenesis, inflammation and fibrosis, helping drive the progression of NASH.
+- `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — Pathological angiogenesis: VEGF-driven aberrant angiogenesis accompanies NASH fibrosis as it advances toward cirrhosis and hepatocellular carcinoma.
+- `connects-to` → **[Endothelin-1](../../03-molecular/endothelin-1/README.md)** — Stellate-cell activation: endothelin-1 contracts hepatic stellate cells and contributes to the portal hypertension and fibrosis of advancing NASH.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 

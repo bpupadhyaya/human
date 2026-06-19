@@ -258,6 +258,15 @@ cross_links:
   - target: 01-human/05-tissue/hippocampus
     relation: connects-to
     note: "Pain's emotional brain: chronic neuropathic pain remodels the hippocampus and limbic circuits, driving the memory impairment, depression and catastrophising that accompany it as central sensitisation engages emotional centres."
+  - target: 01-human/03-molecular/nlrp3-inflammasome
+    relation: connects-to
+    note: "Glial inflammasome: NLRP3-inflammasome activation in microglia and macrophages around injured nerves sustains the neuroinflammation that drives neuropathic pain."
+  - target: 01-human/03-molecular/il-1b
+    relation: connects-to
+    note: "Neuronal sensitisation: IL-1β released by activated glia sensitises nociceptive neurons, lowering their firing threshold to produce the hypersensitivity of neuropathic pain."
+  - target: 01-human/03-molecular/npy
+    relation: connects-to
+    note: "Injured-neuron signal: neuropeptide Y is strongly upregulated in injured sensory neurons and modulates the abnormal signalling underlying neuropathic pain."
 sources:
   - id: jensen-2011-neuropathic-pain-review
     type: peer-reviewed
@@ -501,6 +510,9 @@ Chronic neuropathic pain carries significant psychological burden:
 - `connects-to` → **[NMO](../nmo/README.md)** — Central neuropathic pain: neuromyelitis optica causes painful tonic spasms and severe central pain from its longitudinally extensive spinal-cord lesions, a disabling neuropathic-pain syndrome distinct from peripheral causes.
 - `connects-to` → **[COVID-19 Disease](../covid-19-disease/README.md)** — Post-viral neuropathy: both acute COVID-19 and long COVID can cause a small-fibre neuropathy and new neuropathic pain, adding SARS-CoV-2 to the viral triggers of painful nerve injury alongside shingles and HIV.
 - `connects-to` → **[Hippocampus](../../05-tissue/hippocampus/README.md)** — Pain's emotional brain: chronic neuropathic pain remodels the hippocampus and limbic circuits, driving the memory impairment, depression and catastrophising that accompany it as central sensitisation engages emotional centres.
+- `connects-to` → **[NLRP3 Inflammasome](../../03-molecular/nlrp3-inflammasome/README.md)** — Glial inflammasome: NLRP3-inflammasome activation in microglia and macrophages around injured nerves sustains the neuroinflammation that drives neuropathic pain.
+- `connects-to` → **[IL-1β](../../03-molecular/il-1b/README.md)** — Neuronal sensitisation: IL-1β released by activated glia sensitises nociceptive neurons, lowering their firing threshold to produce the hypersensitivity of neuropathic pain.
+- `connects-to` → **[Neuropeptide Y](../../03-molecular/npy/README.md)** — Injured-neuron signal: neuropeptide Y is strongly upregulated in injured sensory neurons and modulates the abnormal signalling underlying neuropathic pain.
 
 [^jensen-2011-neuropathic-pain-review]: Jensen TS, Baron R, Haanpää M, et al. A new definition of neuropathic pain. *Pain.* 2011;152(10):2204-2205. [doi:10.1016/j.pain.2011.06.017](https://doi.org/10.1016/j.pain.2011.06.017) · [PubMed 21764514](https://pubmed.ncbi.nlm.nih.gov/21764514/)
 [^dworkin-2010-neuropathic-pain-treatment]: Dworkin RH, O'Connor AB, Audette J, et al. Recommendations for the pharmacological management of neuropathic pain. *Mayo Clin Proc.* 2010;85(3 Suppl):S3-14. [doi:10.4065/mcp.2009.0649](https://doi.org/10.4065/mcp.2009.0649) · [PubMed 20194146](https://pubmed.ncbi.nlm.nih.gov/20194146/)
