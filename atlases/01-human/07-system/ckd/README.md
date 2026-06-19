@@ -270,6 +270,15 @@ cross_links:
   - target: 01-human/05-tissue/bone-marrow
     relation: connects-to
     note: "Where renal anaemia bites: failing kidneys make too little erythropoietin, starving the bone marrow of the signal to produce red cells—the basis of the anaemia that tracks declining kidney function."
+  - target: 01-human/05-tissue/cardiac-conduction-system
+    relation: connects-to
+    note: "Potassium kills the rhythm: as the kidney fails to excrete potassium, hyperkalaemia peaks the T wave and can trigger fatal arrhythmia through the cardiac conduction system—a leading cause of sudden death on dialysis."
+  - target: 01-human/07-system/covid-19-disease
+    relation: connects-to
+    note: "A deadly vulnerability: dialysis and advanced CKD carried among the highest COVID-19 mortality, while severe COVID-19 itself causes acute kidney injury that can leave lasting chronic kidney disease."
+  - target: 01-human/07-system/epilepsy
+    relation: connects-to
+    note: "Uraemic seizures: accumulated uraemic toxins, electrolyte derangements and dialysis disequilibrium can provoke seizures, and CKD complicates the dosing of renally-cleared anti-seizure drugs."
 ---
 
 # Chronic Kidney Disease
@@ -430,6 +439,9 @@ As nephron mass decreases, impaired renal functions accumulate:
 - `connects-to` → **[Type 1 Diabetes](../type-1-diabetes/README.md)** — Diabetic nephropathy from youth: decades of type 1 diabetes scar the glomeruli into a leading cause of end-stage kidney disease, the same diabetic mechanism as type 2 but starting earlier in life.
 - `connects-to` → **[Obesity](../obesity/README.md)** — Obesity-related glomerulopathy: excess adiposity drives glomerular hyperfiltration and a secondary focal segmental glomerulosclerosis, an increasingly common and independent path to chronic kidney disease.
 - `connects-to` → **[Bone Marrow](../../05-tissue/bone-marrow/README.md)** — Where renal anaemia bites: failing kidneys make too little erythropoietin, starving the bone marrow of the signal to produce red cells—the basis of the anaemia that tracks declining kidney function.
+- `connects-to` → **[Cardiac Conduction System](../../05-tissue/cardiac-conduction-system/README.md)** — Potassium kills the rhythm: as the kidney fails to excrete potassium, hyperkalaemia peaks the T wave and can trigger fatal arrhythmia through the cardiac conduction system—a leading cause of sudden death on dialysis.
+- `connects-to` → **[COVID-19 Disease](../covid-19-disease/README.md)** — A deadly vulnerability: dialysis and advanced CKD carried among the highest COVID-19 mortality, while severe COVID-19 itself causes acute kidney injury that can leave lasting chronic kidney disease.
+- `connects-to` → **[Epilepsy](../epilepsy/README.md)** — Uraemic seizures: accumulated uraemic toxins, electrolyte derangements and dialysis disequilibrium can provoke seizures, and CKD complicates the dosing of renally-cleared anti-seizure drugs.
 
 ## Pathology
 

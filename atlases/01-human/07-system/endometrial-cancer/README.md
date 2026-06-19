@@ -265,6 +265,15 @@ cross_links:
   - target: 01-human/07-system/bladder-cancer
     relation: connects-to
     note: "Lynch beyond gut and uterus: the mismatch-repair deficiency behind hereditary endometrial cancer also raises urothelial (bladder and ureter) cancer risk, part of the broad Lynch tumour spectrum."
+  - target: 01-human/05-tissue/intestinal-epithelium
+    relation: connects-to
+    note: "The Lynch sentinel: in women with Lynch syndrome, endometrial cancer often appears before colorectal cancer, the same mismatch-repair loss driving tumours in the uterine and intestinal epithelium."
+  - target: 01-human/07-system/li-fraumeni-syndrome
+    relation: connects-to
+    note: "Serous, p53-driven disease: the aggressive serous subtype of endometrial cancer is TP53-mutated, and germline TP53 (Li-Fraumeni) adds it to that syndrome's broad cancer spectrum."
+  - target: 01-human/07-system/covid-19-disease
+    relation: connects-to
+    note: "Obesity and disrupted care: the obesity that drives endometrial cancer also worsens COVID-19, and the pandemic delayed diagnosis of postmenopausal bleeding and gynaecological-cancer surgery."
 ---
 
 # Endometrial Cancer
@@ -472,6 +481,9 @@ cross_links:
 - `connects-to` → **[Alveolus](../../05-tissue/alveolus/README.md)** — Lung as a metastatic site: endometrial cancer, especially serous and high-grade subtypes, spreads haematogenously to the lungs, seeding nodules in the alveolar parenchyma in advanced disease.
 - `connects-to` → **[Hepatic Lobule](../../05-tissue/hepatic-lobule/README.md)** — Liver metastasis: advanced endometrial cancer can spread to the liver, seeding the hepatic lobules, a marker of disseminated disease beyond its usual pelvic and nodal spread.
 - `connects-to` → **[Bladder Cancer](../bladder-cancer/README.md)** — Lynch beyond gut and uterus: the mismatch-repair deficiency behind hereditary endometrial cancer also raises urothelial (bladder and ureter) cancer risk, part of the broad Lynch tumour spectrum.
+- `connects-to` → **[Intestinal Epithelium](../../05-tissue/intestinal-epithelium/README.md)** — The Lynch sentinel: in women with Lynch syndrome, endometrial cancer often appears before colorectal cancer, the same mismatch-repair loss driving tumours in the uterine and intestinal epithelium.
+- `connects-to` → **[Li-Fraumeni Syndrome](../li-fraumeni-syndrome/README.md)** — Serous, p53-driven disease: the aggressive serous subtype of endometrial cancer is TP53-mutated, and germline TP53 (Li-Fraumeni) adds it to that syndrome's broad cancer spectrum.
+- `connects-to` → **[COVID-19 Disease](../covid-19-disease/README.md)** — Obesity and disrupted care: the obesity that drives endometrial cancer also worsens COVID-19, and the pandemic delayed diagnosis of postmenopausal bleeding and gynaecological-cancer surgery.
 
 [^konstantinopoulos-2019-dostarlimab]: Konstantinopoulos PA, Lheureux S, Moore KN. PARP inhibitors for ovarian and endometrial cancers: state of the art and clinical perspectives. *J Clin Oncol.* 2020;38(25):2896-2909. [doi:10.1200/JCO.20.00571](https://doi.org/10.1200/JCO.20.00571) · [PubMed 32706635](https://pubmed.ncbi.nlm.nih.gov/32706635/)
 [^eskander-2023-ruby]: Eskander RN, Sill MW, Beffa L, et al. Pembrolizumab plus chemotherapy in advanced endometrial cancer. *N Engl J Med.* 2023;388(23):2159-2170. [doi:10.1056/NEJMoa2302312](https://doi.org/10.1056/NEJMoa2302312) · [PubMed 37166384](https://pubmed.ncbi.nlm.nih.gov/37166384/)
