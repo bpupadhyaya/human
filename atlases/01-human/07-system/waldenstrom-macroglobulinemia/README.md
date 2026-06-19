@@ -271,6 +271,15 @@ cross_links:
   - target: 01-human/07-system/covid-19-disease
     relation: connects-to
     note: "Profound immunoparesis: Waldenström suppresses normal antibody production, and anti-CD20 and BTK-inhibitor therapy deepen the deficit, leaving patients with severe, prolonged COVID-19 and poor vaccine responses."
+  - target: 01-human/03-molecular/vegf
+    relation: connects-to
+    note: "Marrow angiogenesis: VEGF is elevated in Waldenström and drives the increased bone-marrow microvessel density that supports the lymphoplasmacytic clone."
+  - target: 01-human/03-molecular/tnf-alpha
+    relation: connects-to
+    note: "Inflammatory niche: TNF-α within the bone-marrow microenvironment helps sustain the malignant B-cell clone and contributes to the cytopenias and constitutional symptoms of Waldenström."
+  - target: 01-human/03-molecular/hif-1alpha
+    relation: connects-to
+    note: "Hypoxic marrow: HIF-1α stabilised in the crowded, hypoxic Waldenström marrow promotes the VEGF-driven angiogenesis and survival signalling of the tumour niche."
 ---
 
 # Waldenström Macroglobulinemia
@@ -473,6 +482,9 @@ For symptomatic hyperviscosity → removes IgM immediately; does not treat under
 - `connects-to` → **[Von Willebrand Factor](../../03-molecular/von-willebrand-factor/README.md)** — Acquired von Willebrand syndrome: the high IgM paraprotein of Waldenström binds and clears von Willebrand factor, causing acquired bleeding that, with hyperviscosity, makes mucosal haemorrhage a hallmark.
 - `connects-to` → **[Cardiac Conduction System](../../05-tissue/cardiac-conduction-system/README.md)** — BTK inhibitors and atrial fibrillation: ibrutinib, a mainstay of Waldenström therapy, off-targets cardiac kinases to cause atrial fibrillation and conduction disturbance, compounding the strain of IgM hyperviscosity on the heart.
 - `connects-to` → **[COVID-19 Disease](../covid-19-disease/README.md)** — Profound immunoparesis: Waldenström suppresses normal antibody production, and anti-CD20 and BTK-inhibitor therapy deepen the deficit, leaving patients with severe, prolonged COVID-19 and poor vaccine responses.
+- `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — Marrow angiogenesis: VEGF is elevated in Waldenström and drives the increased bone-marrow microvessel density that supports the lymphoplasmacytic clone.
+- `connects-to` → **[TNF-α](../../03-molecular/tnf-alpha/README.md)** — Inflammatory niche: TNF-α within the bone-marrow microenvironment helps sustain the malignant B-cell clone and contributes to the cytopenias and constitutional symptoms of Waldenström.
+- `connects-to` → **[HIF-1α](../../03-molecular/hif-1alpha/README.md)** — Hypoxic marrow: HIF-1α stabilised in the crowded, hypoxic Waldenström marrow promotes the VEGF-driven angiogenesis and survival signalling of the tumour niche.
 
 [^treon-2015-ibrutinib-wm]: Treon SP, Tripsas CK, Meid K, et al. Ibrutinib in previously treated Waldenström's macroglobulinemia. *N Engl J Med.* 2015;373(18):1765-1774. [doi:10.1056/NEJMoa1501548](https://doi.org/10.1056/NEJMoa1501548) · [PubMed 26352686](https://pubmed.ncbi.nlm.nih.gov/26352686/)
 [^tam-2020-aspen]: Tam CS, Opat S, D'Sa S, et al. A randomized phase 3 trial of zanubrutinib vs ibrutinib in symptomatic Waldenström macroglobulinemia: the ASPEN study. *Blood.* 2020;136(18):2038-2050. [doi:10.1182/blood.2020006844](https://doi.org/10.1182/blood.2020006844) · [PubMed 32828187](https://pubmed.ncbi.nlm.nih.gov/32828187/)

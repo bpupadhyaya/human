@@ -273,6 +273,15 @@ cross_links:
   - target: 01-human/05-tissue/alveolus
     relation: connects-to
     note: "Respiratory failure from paralysis: severe neuroinvasive West Nile virus can paralyse the diaphragm and respiratory muscles, leading to ventilator dependence and aspiration that injure the alveoli."
+  - target: 01-human/03-molecular/ifn-gamma
+    relation: connects-to
+    note: "Antiviral defence: IFN-γ from T and NK cells is critical for controlling West Nile virus and clearing it from the CNS, with deficiency predisposing to severe neuroinvasive disease."
+  - target: 01-human/03-molecular/il-1b
+    relation: connects-to
+    note: "Neuroinflammation: IL-1β from activated microglia drives the inflammatory response to West Nile encephalitis, contributing both to viral control and to bystander neuronal injury."
+  - target: 01-human/03-molecular/nlrp3-inflammasome
+    relation: connects-to
+    note: "Inflammasome sensing: the NLRP3 inflammasome detects West Nile virus and matures IL-1β, a double-edged response that restrains the virus yet aggravates CNS inflammation."
 ---
 
 # West Nile Virus
@@ -478,3 +487,6 @@ WNV has evolved a multilayered strategy to evade innate immunity:
 - `connects-to` → **[CIDP](../cidp/README.md)** — Flaccid paralysis and demyelination: West Nile virus causes a poliomyelitis-like acute flaccid paralysis from anterior-horn injury and can also trigger a Guillain-Barré/demyelinating neuropathy on the CIDP spectrum.
 - `connects-to` → **[Malaria](../malaria/README.md)** — Vector-borne febrile differential: West Nile virus (Culex-borne) and malaria both present as acute mosquito-transmitted febrile illness, an overlapping differential in travellers and endemic regions.
 - `connects-to` → **[Alveolus](../../05-tissue/alveolus/README.md)** — Respiratory failure from paralysis: severe neuroinvasive West Nile virus can paralyse the diaphragm and respiratory muscles, leading to ventilator dependence and aspiration that injure the alveoli.
+- `connects-to` → **[IFN-γ](../../03-molecular/ifn-gamma/README.md)** — Antiviral defence: IFN-γ from T and NK cells is critical for controlling West Nile virus and clearing it from the CNS, with deficiency predisposing to severe neuroinvasive disease.
+- `connects-to` → **[IL-1β](../../03-molecular/il-1b/README.md)** — Neuroinflammation: IL-1β from activated microglia drives the inflammatory response to West Nile encephalitis, contributing both to viral control and to bystander neuronal injury.
+- `connects-to` → **[NLRP3 Inflammasome](../../03-molecular/nlrp3-inflammasome/README.md)** — Inflammasome sensing: the NLRP3 inflammasome detects West Nile virus and matures IL-1β, a double-edged response that restrains the virus yet aggravates CNS inflammation.
