@@ -250,6 +250,15 @@ cross_links:
   - target: 01-human/07-system/neurofibromatosis-type-1
     relation: connects-to
     note: "Two pigmented neurocutaneous syndromes: like NF1 with its café-au-lait macules, Carney complex marks the skin with spotty lentigines and blue naevi, both dominantly inherited disorders pairing pigmentation with multi-organ tumours."
+  - target: 01-human/05-tissue/arterial-wall
+    relation: connects-to
+    note: "Myxoma emboli strike arteries: fragments of Carney complex cardiac myxomas break off and lodge in cerebral and peripheral arteries, causing strokes and myxomatous aneurysms of the arterial wall."
+  - target: 01-human/07-system/birt-hogg-dube-syndrome
+    relation: connects-to
+    note: "Kindred tumour-predisposition syndromes: like Birt-Hogg-Dubé, Carney complex is an autosomal-dominant syndrome combining distinctive skin lesions with multi-organ tumours that demand lifelong surveillance."
+  - target: 01-human/05-tissue/myocardium
+    relation: connects-to
+    note: "Recurrent tumours in the heart: Carney complex causes cardiac myxomas that project into the chambers and impair filling—the leading cause of death—and they regrow after surgical removal."
 ---
 
 # Carney Complex
@@ -449,6 +458,9 @@ PRKAR1A somatic LOH occurs in ~15-20% of sporadic adrenocortical adenomas and ca
 - `connects-to` → **[Endocardium](../../05-tissue/endocardium/README.md)** — Its myxomas grow on the heart's lining: Carney complex causes recurrent cardiac myxomas arising from the endocardium, usually the left atrium, where they embolise or obstruct flow — the leading cause of death in the syndrome.
 - `connects-to` → **[Cortical Bone](../../05-tissue/cortical-bone/README.md)** — It grows a rare bone tumour: osteochondromyxoma, a distinctive benign bone tumour of early childhood, is part of Carney complex, adding a skeletal lesion to its cardiac, skin and endocrine tumours.
 - `connects-to` → **[Neurofibromatosis Type 1](../neurofibromatosis-type-1/README.md)** — Two pigmented neurocutaneous syndromes: like NF1 with its café-au-lait macules, Carney complex marks the skin with spotty lentigines and blue naevi, both dominantly inherited disorders pairing pigmentation with multi-organ tumours.
+- `connects-to` → **[Arterial Wall](../../05-tissue/arterial-wall/README.md)** — Myxoma emboli strike arteries: fragments of Carney complex cardiac myxomas break off and lodge in cerebral and peripheral arteries, causing strokes and myxomatous aneurysms of the arterial wall.
+- `connects-to` → **[Birt-Hogg-Dubé Syndrome](../birt-hogg-dube-syndrome/README.md)** — Kindred tumour-predisposition syndromes: like Birt-Hogg-Dubé, Carney complex is an autosomal-dominant syndrome combining distinctive skin lesions with multi-organ tumours that demand lifelong surveillance.
+- `connects-to` → **[Myocardium](../../05-tissue/myocardium/README.md)** — Recurrent tumours in the heart: Carney complex causes cardiac myxomas that project into the chambers and impair filling—the leading cause of death—and they regrow after surgical removal.
 
 ---
 

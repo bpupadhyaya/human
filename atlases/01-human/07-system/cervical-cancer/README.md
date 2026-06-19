@@ -250,6 +250,15 @@ cross_links:
   - target: 01-human/05-tissue/glomerulus
     relation: connects-to
     note: "It kills through the kidneys: locally advanced cervical cancer encases the ureters, and bilateral obstruction backs pressure up to the glomeruli, dropping filtration to cause the uraemia that is a classic cause of death."
+  - target: 01-human/05-tissue/alveolus
+    relation: connects-to
+    note: "Where it spreads: advanced cervical cancer metastasises through the blood to the lungs, seeding tumour deposits in the alveolar capillary bed."
+  - target: 01-human/05-tissue/germinal-center
+    relation: connects-to
+    note: "Immune evasion and immunotherapy: HPV-driven cervical cancer draws tertiary lymphoid structures and responds to PD-1 checkpoint blockade, the immune dimension of an infection-driven cancer."
+  - target: 01-human/03-molecular/her2
+    relation: connects-to
+    note: "An emerging target: HER2 amplification occurs in a subset of cervical and other gynaecological cancers, making HER2-directed antibody-drug conjugates a developing treatment option."
 ---
 
 # Cervical Cancer
@@ -450,6 +459,9 @@ The cervical transformation zone (TZ) — the area between the original and new 
 - `connects-to` → **[Targeted Therapy](../../../03-medicine/01-modern/13-cancer/targeted-therapy/README.md)** — Anti-angiogenics and ADCs extend it: bevacizumab against VEGF improves survival in advanced cervical cancer, and tissue-factor-targeting tisotumab vedotin is an antibody-drug conjugate for recurrent disease beyond chemoradiation.
 - `connects-to` → **[Cortical Bone](../../05-tissue/cortical-bone/README.md)** — Advanced disease seeds bone: metastatic cervical cancer spreads to the spine and pelvis as painful osteolytic lesions, a late manifestation after pelvic and nodal spread.
 - `connects-to` → **[Glomerulus](../../05-tissue/glomerulus/README.md)** — It kills through the kidneys: locally advanced cervical cancer encases the ureters, and bilateral obstruction backs pressure up to the glomeruli, dropping filtration to cause the uraemia that is a classic cause of death.
+- `connects-to` → **[Alveolus](../../05-tissue/alveolus/README.md)** — Where it spreads: advanced cervical cancer metastasises through the blood to the lungs, seeding tumour deposits in the alveolar capillary bed.
+- `connects-to` → **[Germinal Center](../../05-tissue/germinal-center/README.md)** — Immune evasion and immunotherapy: HPV-driven cervical cancer draws tertiary lymphoid structures and responds to PD-1 checkpoint blockade, the immune dimension of an infection-driven cancer.
+- `connects-to` → **[HER2](../../03-molecular/her2/README.md)** — An emerging target: HER2 amplification occurs in a subset of cervical and other gynaecological cancers, making HER2-directed antibody-drug conjugates a developing treatment option.
 
 ---
 
