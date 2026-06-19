@@ -277,6 +277,15 @@ cross_links:
   - target: 01-human/04-cellular/smooth-muscle-cell
     relation: connects-to
     note: "Hamartoma and vessel walls: smooth muscle within the polyp stroma and the malformed vessel walls of associated HHT reflect the SMAD4/BMP control of mesenchymal and vascular cells."
+  - target: 01-human/03-molecular/akt
+    relation: connects-to
+    note: "PI3K/AKT cooperation: loss of SMAD4-mediated growth control activates PI3K/AKT signalling that helps drive the epithelial overgrowth of juvenile polyps toward cancer."
+  - target: 01-human/03-molecular/myc
+    relation: connects-to
+    note: "Proliferative oncogene: as juvenile polyps acquire Wnt and other oncogenic hits, MYC activation drives the proliferation that underlies their malignant progression."
+  - target: 01-human/03-molecular/hif-1alpha
+    relation: connects-to
+    note: "Polyp hypoxia: the inflamed, growing juvenile polyps become hypoxic, stabilising HIF-1α to drive the VEGF angiogenesis that feeds their expansion."
 ---
 
 # Juvenile Polyposis Syndrome
@@ -493,6 +502,9 @@ No approved chemopreventive agents specifically for JPS. Options under investiga
 - `connects-to` → **[Prostaglandins](../../03-molecular/prostaglandins/README.md)** — COX-2 chemoprevention angle: juvenile polyps overexpress COX-2 and prostaglandins, suggesting NSAID chemoprevention may help reduce polyp burden as it does in other polyposis syndromes.
 - `connects-to` → **[IL-6](../../03-molecular/il-6/README.md)** — Inflamed stroma: the abundant inflammatory, IL-6-rich lamina propria of juvenile polyps fuels chronic inflammation that contributes to their progression toward cancer.
 - `connects-to` → **[Smooth Muscle Cell](../../04-cellular/smooth-muscle-cell/README.md)** — Hamartoma and vessel walls: smooth muscle within the polyp stroma and the malformed vessel walls of associated HHT reflect the SMAD4/BMP control of mesenchymal and vascular cells.
+- `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — PI3K/AKT cooperation: loss of SMAD4-mediated growth control activates PI3K/AKT signalling that helps drive the epithelial overgrowth of juvenile polyps toward cancer.
+- `connects-to` → **[MYC](../../03-molecular/myc/README.md)** — Proliferative oncogene: as juvenile polyps acquire Wnt and other oncogenic hits, MYC activation drives the proliferation that underlies their malignant progression.
+- `connects-to` → **[HIF-1α](../../03-molecular/hif-1alpha/README.md)** — Polyp hypoxia: the inflamed, growing juvenile polyps become hypoxic, stabilising HIF-1α to drive the VEGF angiogenesis that feeds their expansion.
 
 [^howe-1998-smad4-jps]: Howe JR, Roth S, Ringold JC, et al. Mutations in the SMAD4/DPC4 gene in juvenile polyposis. *Science.* 1998;280(5366):1086-1088. [doi:10.1126/science.280.5366.1086](https://doi.org/10.1126/science.280.5366.1086) · [PubMed 9582123](https://pubmed.ncbi.nlm.nih.gov/9582123/)
 [^aretz-2007-jps-spectrum]: Aretz S, Stienen D, Uhlhaas S, et al. High proportion of large genomic deletions and a genotype-phenotype update in 80 unrelated families with juvenile polyposis syndrome. *J Med Genet.* 2007;44(11):702-709. [doi:10.1136/jmg.2007.051839](https://doi.org/10.1136/jmg.2007.051839) · [PubMed 17601924](https://pubmed.ncbi.nlm.nih.gov/17601924/)
