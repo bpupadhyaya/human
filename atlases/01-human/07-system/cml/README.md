@@ -259,6 +259,15 @@ cross_links:
   - target: 01-human/07-system/type-2-diabetes
     relation: connects-to
     note: "A price of long-term TKIs: the BCR-ABL inhibitor nilotinib raises blood glucose and worsens insulin resistance, so diabetes and arterial disease are monitored during the chronic therapy that now makes CML survivable."
+  - target: 01-human/05-tissue/cardiac-conduction-system
+    relation: connects-to
+    note: "TKI cardiac effects: BCR-ABL inhibitors like nilotinib prolong the QT interval and (with ponatinib) provoke vascular events, disturbing the cardiac conduction system during long-term therapy."
+  - target: 01-human/05-tissue/alveolus
+    relation: connects-to
+    note: "Dasatinib's pleural effusions: the second-generation TKI dasatinib commonly causes pleural effusions, fluid collecting around the lung's alveolar surface—a class-specific toxicity needing dose adjustment."
+  - target: 01-human/07-system/covid-19-disease
+    relation: connects-to
+    note: "An unexpected antiviral angle: BCR-ABL TKIs like imatinib were studied as COVID-19 therapeutics for their effects on viral entry and inflammation, and CML patients on TKIs largely tolerated infection well."
 ---
 
 # Chronic Myeloid Leukemia
@@ -452,6 +461,9 @@ Following the imatinib revolution, the current frontier is achieving **deep mole
 - `connects-to` → **[CMML](../cmml/README.md)** — Ph-negative myeloproliferation: CMML is a myelodysplastic/myeloproliferative overlap that lacks the BCR-ABL fusion of CML, the key distinction in a patient with leukocytosis, monocytosis and splenomegaly.
 - `connects-to` → **[Hepatic Lobule](../../05-tissue/hepatic-lobule/README.md)** — Extramedullary disease in the liver: in advanced or blast-phase CML, leukaemic cells and extramedullary haematopoiesis infiltrate the hepatic lobule, contributing to hepatomegaly.
 - `connects-to` → **[Type 2 Diabetes](../type-2-diabetes/README.md)** — A price of long-term TKIs: the BCR-ABL inhibitor nilotinib raises blood glucose and worsens insulin resistance, so diabetes and arterial disease are monitored during the chronic therapy that now makes CML survivable.
+- `connects-to` → **[Cardiac Conduction System](../../05-tissue/cardiac-conduction-system/README.md)** — TKI cardiac effects: BCR-ABL inhibitors like nilotinib prolong the QT interval and (with ponatinib) provoke vascular events, disturbing the cardiac conduction system during long-term therapy.
+- `connects-to` → **[Alveolus](../../05-tissue/alveolus/README.md)** — Dasatinib's pleural effusions: the second-generation TKI dasatinib commonly causes pleural effusions, fluid collecting around the lung's alveolar surface—a class-specific toxicity needing dose adjustment.
+- `connects-to` → **[COVID-19 Disease](../covid-19-disease/README.md)** — An unexpected antiviral angle: BCR-ABL TKIs like imatinib were studied as COVID-19 therapeutics for their effects on viral entry and inflammation, and CML patients on TKIs largely tolerated infection well.
 
 ---
 

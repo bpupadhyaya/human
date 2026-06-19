@@ -259,6 +259,15 @@ cross_links:
   - target: 01-human/05-tissue/hepatic-lobule
     relation: connects-to
     note: "It infiltrates the liver: CLL cells pack the portal tracts of the hepatic lobule, contributing to the hepatomegaly and organ infiltration of advanced disease."
+  - target: 01-human/07-system/covid-19-disease
+    relation: connects-to
+    note: "Immunodeficiency and infection: CLL's hypogammaglobulinaemia and blunted vaccine responses make COVID-19 and other infections more severe and prolonged—infection being a leading cause of death."
+  - target: 01-human/05-tissue/cardiac-conduction-system
+    relation: connects-to
+    note: "Targeted-therapy cardiotoxicity: the BTK inhibitors (ibrutinib) that treat CLL commonly cause atrial fibrillation and hypertension, disturbing the cardiac conduction system."
+  - target: 01-human/07-system/nsclc
+    relation: connects-to
+    note: "A second-cancer risk: the immune dysfunction of CLL raises the risk of second cancers, including aggressive skin cancers and lung cancer such as NSCLC."
 ---
 
 # CLL
@@ -452,6 +461,9 @@ BCR cross-linking → LYN (SRC kinase) phosphorylates CD79a/b ITAMs → SYK recr
 - `connects-to` → **[Burkitt Lymphoma](../burkitt-lymphoma/README.md)** — Opposite tempos of B-cell cancer: CLL is the most indolent mature B-cell malignancy, accumulating cells over years, whereas Burkitt lymphoma is the fastest-growing human tumour—the extremes of the B-cell spectrum.
 - `connects-to` → **[Multiple Myeloma](../multiple-myeloma/README.md)** — Two clonal B-lineage cancers of the marrow: CLL accumulates mature B-lymphocytes while multiple myeloma accumulates antibody-secreting plasma cells, distinct stops along B-cell maturation.
 - `connects-to` → **[Hepatic Lobule](../../05-tissue/hepatic-lobule/README.md)** — It infiltrates the liver: CLL cells pack the portal tracts of the hepatic lobule, contributing to the hepatomegaly and organ infiltration of advanced disease.
+- `connects-to` → **[COVID-19 Disease](../covid-19-disease/README.md)** — Immunodeficiency and infection: CLL's hypogammaglobulinaemia and blunted vaccine responses make COVID-19 and other infections more severe and prolonged—infection being a leading cause of death.
+- `connects-to` → **[Cardiac Conduction System](../../05-tissue/cardiac-conduction-system/README.md)** — Targeted-therapy cardiotoxicity: the BTK inhibitors (ibrutinib) that treat CLL commonly cause atrial fibrillation and hypertension, disturbing the cardiac conduction system.
+- `connects-to` → **[NSCLC](../nsclc/README.md)** — A second-cancer risk: the immune dysfunction of CLL raises the risk of second cancers, including aggressive skin cancers and lung cancer such as NSCLC.
 
 ---
 
