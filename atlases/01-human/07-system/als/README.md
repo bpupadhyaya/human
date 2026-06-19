@@ -259,6 +259,15 @@ cross_links:
   - target: 01-human/05-tissue/cortical-bone
     relation: connects-to
     note: "Immobility and falls break bone: progressive weakness in ALS causes disuse osteoporosis and frequent falls, so fractures add to the burden of a disease that steadily strips muscle and mobility."
+  - target: 01-human/05-tissue/alveolus
+    relation: connects-to
+    note: "Respiratory failure is the endgame: motor-neuron loss paralyses the diaphragm, so ventilatory failure at the alveolar gas-exchange surface—not the limb weakness—is the usual cause of death, the reason for non-invasive ventilation."
+  - target: 01-human/03-molecular/nfe2l2
+    relation: connects-to
+    note: "Oxidative-stress defence: motor neurons in ALS suffer oxidative damage, and the NRF2 (NFE2L2) antioxidant pathway is a neuroprotective target—edaravone, an approved ALS drug, is a free-radical scavenger."
+  - target: 01-human/07-system/type-2-diabetes
+    relation: connects-to
+    note: "The metabolism paradox: ALS is a hypermetabolic, weight-losing disease, and higher BMI and type-2 diabetes are paradoxically linked to lower ALS risk and slower progression, a clue to its energetics."
 ---
 
 # ALS
@@ -479,6 +488,9 @@ ALS diagnosis is **clinical** — no single definitive biomarker test (though Nf
 - `connects-to` → **[Digestive System](../digestive-system/README.md)** — Bulbar weakness wrecks swallowing: ALS causes dysphagia and sialorrhoea with aspiration and weight loss, driving the need for gastrostomy feeding, while riluzole adds a risk of hepatotoxicity.
 - `connects-to` → **[Endocrine System](../endocrine-system/README.md)** — It burns fuel abnormally fast: ALS is marked by a hypermetabolic state with raised resting energy expenditure and weight loss, and aggressive nutritional and metabolic support improves survival.
 - `connects-to` → **[Cardiovascular System](../cardiovascular-system/README.md)** — Chronic hypoventilation strains the right heart: the progressive respiratory failure of ALS raises pulmonary pressures toward cor pulmonale, and some patients show autonomic cardiovascular dysfunction.
+- `connects-to` → **[Alveolus](../../05-tissue/alveolus/README.md)** — Respiratory failure is the endgame: motor-neuron loss paralyses the diaphragm, so ventilatory failure at the alveolar gas-exchange surface—not the limb weakness—is the usual cause of death, the reason for non-invasive ventilation.
+- `connects-to` → **[NFE2L2](../../03-molecular/nfe2l2/README.md)** — Oxidative-stress defence: motor neurons in ALS suffer oxidative damage, and the NRF2 (NFE2L2) antioxidant pathway is a neuroprotective target—edaravone, an approved ALS drug, is a free-radical scavenger.
+- `connects-to` → **[Type 2 Diabetes](../type-2-diabetes/README.md)** — The metabolism paradox: ALS is a hypermetabolic, weight-losing disease, and higher BMI and type-2 diabetes are paradoxically linked to lower ALS risk and slower progression, a clue to its energetics.
 
 [^brown-2017-als-review]: Brown RH, Al-Chalabi A. Amyotrophic lateral sclerosis. *N Engl J Med.* 2017;377(2):162-172. [doi:10.1056/NEJMra1603471](https://doi.org/10.1056/NEJMra1603471) · [PubMed 28700839](https://pubmed.ncbi.nlm.nih.gov/28700839/)
 [^edaravone-als-2017]: Writing Group, Edaravone ALS 19 Study Group. Safety and efficacy of edaravone in well defined patients with amyotrophic lateral sclerosis. *Lancet Neurol.* 2017;16(7):505-512. [doi:10.1016/S1474-4422(17)30115-1](https://doi.org/10.1016/S1474-4422(17)30115-1) · [PubMed 28522180](https://pubmed.ncbi.nlm.nih.gov/28522180/)

@@ -250,6 +250,15 @@ cross_links:
   - target: 01-human/07-system/cll
     relation: connects-to
     note: "Acute versus chronic lymphoid leukaemia: ALL is an aggressive proliferation of immature lymphoblasts needing immediate intensive therapy, whereas CLL is an indolent accumulation of mature B-lymphocytes — opposite ends of lymphoid malignancy."
+  - target: 01-human/07-system/mds
+    relation: connects-to
+    note: "From dysplasia to acute leukaemia: myelodysplastic syndromes are clonal marrow-failure states that can transform into acute leukaemia, and intensive ALL therapy can itself later cause therapy-related myeloid neoplasms."
+  - target: 01-human/05-tissue/intestinal-epithelium
+    relation: connects-to
+    note: "Neutropenic enterocolitis: chemotherapy for ALL denudes the gut epithelium and, combined with profound neutropenia, causes typhlitis—a life-threatening infection of the bowel wall."
+  - target: 01-human/07-system/hodgkin-lymphoma
+    relation: connects-to
+    note: "Two cancers of the lymphoid system: ALL is a malignancy of lymphoid precursors in the marrow while Hodgkin lymphoma arises from mature B cells in lymph nodes—distinct lymphoid cancers that both strike the young."
 ---
 
 # Acute Lymphoblastic Leukemia
@@ -467,6 +476,9 @@ Childhood ALL survivors (now majority of patients): neurocognitive impairment (M
 - `connects-to` → **[Cortical Bone](../../05-tissue/cortical-bone/README.md)** — It hurts and weakens bone: leukaemic marrow infiltration causes the bone pain of ALL, while prolonged corticosteroids and methotrexate leave survivors with osteonecrosis and osteoporosis as major late effects.
 - `connects-to` → **[Hippocampus](../../05-tissue/hippocampus/README.md)** — The CNS is a sanctuary site: leukaemic cells hide in the meninges, so ALL needs intrathecal chemotherapy and once cranial irradiation — treatments that injure the hippocampus and cause neurocognitive late effects in survivors.
 - `connects-to` → **[CLL](../cll/README.md)** — Acute versus chronic lymphoid leukaemia: ALL is an aggressive proliferation of immature lymphoblasts needing immediate intensive therapy, whereas CLL is an indolent accumulation of mature B-lymphocytes — opposite ends of lymphoid malignancy.
+- `connects-to` → **[MDS](../mds/README.md)** — From dysplasia to acute leukaemia: myelodysplastic syndromes are clonal marrow-failure states that can transform into acute leukaemia, and intensive ALL therapy can itself later cause therapy-related myeloid neoplasms.
+- `connects-to` → **[Intestinal Epithelium](../../05-tissue/intestinal-epithelium/README.md)** — Neutropenic enterocolitis: chemotherapy for ALL denudes the gut epithelium and, combined with profound neutropenia, causes typhlitis—a life-threatening infection of the bowel wall.
+- `connects-to` → **[Hodgkin Lymphoma](../hodgkin-lymphoma/README.md)** — Two cancers of the lymphoid system: ALL is a malignancy of lymphoid precursors in the marrow while Hodgkin lymphoma arises from mature B cells in lymph nodes—distinct lymphoid cancers that both strike the young.
 
 [^pui-2018-all-cure]: Pui CH, Yang JJ, Bhakta N, et al. Global efforts toward the cure of childhood acute lymphoblastic leukemia. *Lancet Child Adolesc Health.* 2018;2(6):440-454. [doi:10.1016/S2352-4642(18)30066-X](https://doi.org/10.1016/S2352-4642(18)30066-X) · [PubMed 29976322](https://pubmed.ncbi.nlm.nih.gov/29976322/)
 [^maude-2018-tisagenlecleucel]: Maude SL, Laetsch TW, Buechner J, et al. Tisagenlecleucel in children and young adults with B-cell lymphoblastic leukemia. *N Engl J Med.* 2018;378(5):439-448. [doi:10.1056/NEJMoa1709866](https://doi.org/10.1056/NEJMoa1709866) · [PubMed 29385370](https://pubmed.ncbi.nlm.nih.gov/29385370/)
