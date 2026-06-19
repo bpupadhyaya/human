@@ -277,6 +277,15 @@ cross_links:
   - target: 01-human/03-molecular/hif-1alpha
     relation: connects-to
     note: "Protective hypoxic niche: HIF-1α-driven adaptation in the hypoxic bone-marrow niche shelters CML stem cells from TKIs, contributing to disease persistence and relapse on stopping treatment."
+  - target: 01-human/03-molecular/ezh2
+    relation: connects-to
+    note: "Blast-crisis epigenetics: EZH2 and PRC2 enforce a repressive chromatin state that contributes to the progression of CML from chronic phase to aggressive blast crisis."
+  - target: 01-human/03-molecular/cyclin-d1
+    relation: connects-to
+    note: "Cell-cycle drive: BCR-ABL signalling upregulates cyclin D and the cell-cycle machinery, pushing myeloid progenitors into the expanded proliferation of chronic myeloid leukaemia."
+  - target: 01-human/03-molecular/vegf
+    relation: connects-to
+    note: "Marrow angiogenesis: BCR-ABL raises VEGF, increasing bone-marrow microvessel density to support the expanded leukaemic population of CML."
 ---
 
 # Chronic Myeloid Leukemia
@@ -476,6 +485,9 @@ Following the imatinib revolution, the current frontier is achieving **deep mole
 - `connects-to` → **[KIT](../../03-molecular/kit/README.md)** — Off-target reach: imatinib and nilotinib also inhibit KIT, which is why these BCR-ABL drugs are effective in GIST and mast-cell disease—the same kinase explains some of their side effects.
 - `connects-to` → **[FOXO](../../03-molecular/foxo/README.md)** — Survival signal switched off: BCR-ABL drives PI3K-AKT signalling that inactivates FOXO transcription factors, suppressing apoptosis and quiescence and helping leukaemic stem cells persist under therapy.
 - `connects-to` → **[HIF-1α](../../03-molecular/hif-1alpha/README.md)** — Protective hypoxic niche: HIF-1α-driven adaptation in the hypoxic bone-marrow niche shelters CML stem cells from TKIs, contributing to disease persistence and relapse on stopping treatment.
+- `connects-to` → **[EZH2](../../03-molecular/ezh2/README.md)** — Blast-crisis epigenetics: EZH2 and PRC2 enforce a repressive chromatin state that contributes to the progression of CML from chronic phase to aggressive blast crisis.
+- `connects-to` → **[Cyclin D1](../../03-molecular/cyclin-d1/README.md)** — Cell-cycle drive: BCR-ABL signalling upregulates cyclin D and the cell-cycle machinery, pushing myeloid progenitors into the expanded proliferation of chronic myeloid leukaemia.
+- `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — Marrow angiogenesis: BCR-ABL raises VEGF, increasing bone-marrow microvessel density to support the expanded leukaemic population of CML.
 
 ---
 

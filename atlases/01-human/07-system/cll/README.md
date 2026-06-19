@@ -277,6 +277,15 @@ cross_links:
   - target: 01-human/03-molecular/cyclin-d1
     relation: connects-to
     note: "A distinguishing marker: unlike mantle cell lymphoma, CLL does not overexpress cyclin D1, a key feature separating the two CD5-positive B-cell neoplasms at diagnosis."
+  - target: 01-human/03-molecular/ezh2
+    relation: connects-to
+    note: "Epigenetic driver: EZH2 overexpression silences tumour-suppressor genes in CLL and is implicated in its aggressive Richter transformation to diffuse large B-cell lymphoma."
+  - target: 01-human/03-molecular/il-6
+    relation: connects-to
+    note: "Supportive microenvironment: IL-6 from the lymph-node and marrow niche supports CLL cell survival and proliferation, part of the protective stromal milieu the cells depend on."
+  - target: 01-human/03-molecular/tnf-alpha
+    relation: connects-to
+    note: "Microenvironment cytokine: TNF-α produced within the CLL microenvironment acts as an autocrine and paracrine growth factor sustaining the malignant B-cell clone."
 ---
 
 # CLL
@@ -476,6 +485,9 @@ BCR cross-linking → LYN (SRC kinase) phosphorylates CD79a/b ITAMs → SYK recr
 - `connects-to` → **[MDS](../mds/README.md)** — Therapy-related marrow failure: chemoimmunotherapy for CLL and underlying clonal haematopoiesis raise the risk of treatment-related myelodysplastic syndrome and secondary AML.
 - `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — BCR survival signal: PI3K-AKT signalling downstream of the B-cell receptor sustains CLL cell survival, the axis blocked by PI3K-delta inhibitors complementing BTK-targeted therapy.
 - `connects-to` → **[Cyclin D1](../../03-molecular/cyclin-d1/README.md)** — A distinguishing marker: unlike mantle cell lymphoma, CLL does not overexpress cyclin D1, a key feature separating the two CD5-positive B-cell neoplasms at diagnosis.
+- `connects-to` → **[EZH2](../../03-molecular/ezh2/README.md)** — Epigenetic driver: EZH2 overexpression silences tumour-suppressor genes in CLL and is implicated in its aggressive Richter transformation to diffuse large B-cell lymphoma.
+- `connects-to` → **[IL-6](../../03-molecular/il-6/README.md)** — Supportive microenvironment: IL-6 from the lymph-node and marrow niche supports CLL cell survival and proliferation, part of the protective stromal milieu the cells depend on.
+- `connects-to` → **[TNF-α](../../03-molecular/tnf-alpha/README.md)** — Microenvironment cytokine: TNF-α produced within the CLL microenvironment acts as an autocrine and paracrine growth factor sustaining the malignant B-cell clone.
 
 ---
 
