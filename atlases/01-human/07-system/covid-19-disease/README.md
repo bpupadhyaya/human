@@ -268,6 +268,15 @@ cross_links:
   - target: 01-human/05-tissue/bone-marrow
     relation: connects-to
     note: "Marrow under strain: severe COVID-19 drives profound lymphopenia and emergency myelopoiesis, releasing immature, dysfunctional neutrophils from the bone marrow that amplify the inflammatory response."
+  - target: 01-human/07-system/atherosclerosis
+    relation: connects-to
+    note: "Accelerated vascular disease: endothelial injury and systemic inflammation from COVID-19 destabilise atherosclerotic plaque, raising heart-attack and stroke risk for months after even mild infection."
+  - target: 01-human/07-system/disseminated-intravascular-coagulation
+    relation: connects-to
+    note: "A distinct coagulopathy: severe COVID-19 produces a hypercoagulable state with high D-dimer and fibrinogen and widespread microthrombi that, in the sickest patients, tips into disseminated intravascular coagulation."
+  - target: 01-human/07-system/tuberculosis
+    relation: connects-to
+    note: "A pandemic syndemic: COVID-19 disrupted tuberculosis programmes worldwide and reversed years of progress, and the two respiratory infections can coexist and worsen each other's course."
 ---
 
 # COVID-19 Disease
@@ -416,6 +425,9 @@ Symptoms persisting >4 weeks: fatigue (most common), cognitive impairment ("brai
 - `connects-to` → **[Germinal Center](../../05-tissue/germinal-center/README.md)** — Disrupted germinal centres: severe COVID-19 can ablate lymph-node germinal centres, blunting durable antibody maturation, whereas mRNA vaccines instead drive robust, long-lived germinal-centre responses.
 - `connects-to` → **[Obesity](../obesity/README.md)** — A leading severity risk: obesity was among the strongest predictors of severe COVID-19, through impaired ventilation, a pro-inflammatory adipose milieu and underlying endothelial dysfunction.
 - `connects-to` → **[Bone Marrow](../../05-tissue/bone-marrow/README.md)** — Marrow under strain: severe COVID-19 drives profound lymphopenia and emergency myelopoiesis, releasing immature, dysfunctional neutrophils from the bone marrow that amplify the inflammatory response.
+- `connects-to` → **[Atherosclerosis](../atherosclerosis/README.md)** — Accelerated vascular disease: endothelial injury and systemic inflammation from COVID-19 destabilise atherosclerotic plaque, raising heart-attack and stroke risk for months after even mild infection.
+- `connects-to` → **[Disseminated Intravascular Coagulation](../disseminated-intravascular-coagulation/README.md)** — A distinct coagulopathy: severe COVID-19 produces a hypercoagulable state with high D-dimer and fibrinogen and widespread microthrombi that, in the sickest patients, tips into disseminated intravascular coagulation.
+- `connects-to` → **[Tuberculosis](../tuberculosis/README.md)** — A pandemic syndemic: COVID-19 disrupted tuberculosis programmes worldwide and reversed years of progress, and the two respiratory infections can coexist and worsen each other's course.
 
 ## Pathology
 

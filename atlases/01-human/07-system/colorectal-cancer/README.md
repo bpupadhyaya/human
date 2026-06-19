@@ -268,6 +268,15 @@ cross_links:
   - target: 01-human/05-tissue/myocardium
     relation: connects-to
     note: "Chemotherapy's cardiac risk: 5-fluorouracil, the backbone of colorectal cancer therapy, can provoke coronary vasospasm and ischaemia of the myocardium, an under-recognised cardiotoxicity that occasionally causes infarction."
+  - target: 01-human/07-system/melanoma
+    relation: connects-to
+    note: "Same mutation, different drug response: BRAF V600E drives a colorectal cancer subset and melanoma, yet BRAF inhibitors alone fail in colon cancer because EGFR feedback reactivates the pathway—so combinations with anti-EGFR are needed."
+  - target: 01-human/07-system/gastric-cancer
+    relation: connects-to
+    note: "Shared GI adenocarcinoma biology: colorectal and gastric cancers overlap in HER2-targeted therapy, microsatellite-instability immunotherapy and Lynch-syndrome predisposition, two adenocarcinomas of the gut tube."
+  - target: 01-human/07-system/ovarian-cancer
+    relation: connects-to
+    note: "Peritoneal and Lynch links: colorectal cancer can metastasise to the ovary (Krukenberg-type) and seed the peritoneum like ovarian cancer, while Lynch syndrome predisposes to both tumours."
 ---
 
 # Colorectal Cancer
@@ -467,6 +476,9 @@ The step-wise genetic progression from normal epithelium to carcinoma in CRC was
 - `connects-to` → **[Alveolus](../../05-tissue/alveolus/README.md)** — Lung as a metastatic site: colorectal cancer—especially rectal tumours draining systemically—seeds the lungs after the liver, depositing nodules in the alveolar parenchyma that pulmonary metastasectomy can sometimes cure.
 - `connects-to` → **[Endometrial Cancer](../endometrial-cancer/README.md)** — Lynch's other hallmark tumour: the mismatch-repair deficiency that drives hereditary colorectal cancer drives endometrial cancer just as strongly, so the two define the Lynch syndrome spectrum and share MSI-targeted immunotherapy.
 - `connects-to` → **[Myocardium](../../05-tissue/myocardium/README.md)** — Chemotherapy's cardiac risk: 5-fluorouracil, the backbone of colorectal cancer therapy, can provoke coronary vasospasm and ischaemia of the myocardium, an under-recognised cardiotoxicity that occasionally causes infarction.
+- `connects-to` → **[Melanoma](../melanoma/README.md)** — Same mutation, different drug response: BRAF V600E drives a colorectal cancer subset and melanoma, yet BRAF inhibitors alone fail in colon cancer because EGFR feedback reactivates the pathway—so combinations with anti-EGFR are needed.
+- `connects-to` → **[Gastric Cancer](../gastric-cancer/README.md)** — Shared GI adenocarcinoma biology: colorectal and gastric cancers overlap in HER2-targeted therapy, microsatellite-instability immunotherapy and Lynch-syndrome predisposition, two adenocarcinomas of the gut tube.
+- `connects-to` → **[Ovarian Cancer](../ovarian-cancer/README.md)** — Peritoneal and Lynch links: colorectal cancer can metastasise to the ovary (Krukenberg-type) and seed the peritoneum like ovarian cancer, while Lynch syndrome predisposes to both tumours.
 
 ---
 
