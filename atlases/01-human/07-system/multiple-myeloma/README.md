@@ -256,6 +256,15 @@ cross_links:
   - target: 01-human/07-system/mds
     relation: connects-to
     note: "The late cost of its alkylators: melphalan and other DNA-damaging drugs used in myeloma, especially with autologous transplant, raise the risk of therapy-related myelodysplastic syndrome and acute leukaemia years later."
+  - target: 01-human/05-tissue/myocardium
+    relation: connects-to
+    note: "Cardiac amyloid and cardiotoxicity: AL amyloid from myeloma light chains infiltrates and stiffens the myocardium into a restrictive cardiomyopathy, and proteasome inhibitors like carfilzomib add further cardiotoxicity."
+  - target: 01-human/07-system/cytokine-storm
+    relation: connects-to
+    note: "CRS from the newest therapies: BCMA-directed CAR-T cells and bispecific antibodies, now central to relapsed myeloma, commonly trigger cytokine release syndrome managed with tocilizumab."
+  - target: 01-human/05-tissue/hepatic-lobule
+    relation: connects-to
+    note: "Liver involvement: extramedullary myeloma and AL amyloid can deposit in the hepatic lobule, causing hepatomegaly and, with amyloid, cholestatic liver dysfunction."
 ---
 
 # Multiple Myeloma
@@ -464,6 +473,9 @@ MM evolves from precursor conditions through a well-defined continuum:
 - `connects-to` → **[CAR-T](../../../03-medicine/01-modern/13-cancer/car-t/README.md)** — Engineered cells against the plasma cell: BCMA-directed CAR-T therapies (idecabtagene and ciltacabtagene) achieve deep remissions in relapsed multiple myeloma, targeting the B-cell maturation antigen that marks malignant plasma cells.
 - `connects-to` → **[Glomerulus](../../05-tissue/glomerulus/README.md)** — Beyond the tubules, it scars the filter: monoclonal light chains and AL amyloid deposit in the glomerulus as light-chain deposition disease and amyloidosis, adding glomerular injury and proteinuria to the cast nephropathy of myeloma kidney.
 - `connects-to` → **[MDS](../mds/README.md)** — The late cost of its alkylators: melphalan and other DNA-damaging drugs used in myeloma, especially with autologous transplant, raise the risk of therapy-related myelodysplastic syndrome and acute leukaemia years later.
+- `connects-to` → **[Myocardium](../../05-tissue/myocardium/README.md)** — Cardiac amyloid and cardiotoxicity: AL amyloid from myeloma light chains infiltrates and stiffens the myocardium into a restrictive cardiomyopathy, and proteasome inhibitors like carfilzomib add further cardiotoxicity.
+- `connects-to` → **[Cytokine Storm](../cytokine-storm/README.md)** — CRS from the newest therapies: BCMA-directed CAR-T cells and bispecific antibodies, now central to relapsed myeloma, commonly trigger cytokine release syndrome managed with tocilizumab.
+- `connects-to` → **[Hepatic Lobule](../../05-tissue/hepatic-lobule/README.md)** — Liver involvement: extramedullary myeloma and AL amyloid can deposit in the hepatic lobule, causing hepatomegaly and, with amyloid, cholestatic liver dysfunction.
 
 [^kumar-2022-imwg-criteria]: Kumar SK, Callander NS, Adekola K, et al. Multiple myeloma, version 3.2021, NCCN clinical practice guidelines in oncology. *J Natl Compr Canc Netw.* 2020;18(12):1685-1717. [doi:10.6004/jnccn.2020.0057](https://doi.org/10.6004/jnccn.2020.0057) · [PubMed 33285519](https://pubmed.ncbi.nlm.nih.gov/33285519/)
 [^moreau-2022-teclistamab]: Moreau P, Garfall AL, van de Donk NWCJ, et al. Teclistamab in relapsed or refractory multiple myeloma. *N Engl J Med.* 2022;387(6):495-505. [doi:10.1056/NEJMoa2203478](https://doi.org/10.1056/NEJMoa2203478) · [PubMed 35661166](https://pubmed.ncbi.nlm.nih.gov/35661166/)

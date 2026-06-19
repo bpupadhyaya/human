@@ -250,6 +250,15 @@ cross_links:
   - target: 01-human/07-system/desmoid-tumor
     relation: connects-to
     note: "It shares the polyposis APC/Wnt risk: MUTYH-associated polyposis drives somatic G:C→T:A hits in APC that activate Wnt, and like FAP it can spawn desmoid tumours—Wnt/β-catenin fibromatoses that complicate abdominal surgery."
+  - target: 01-human/07-system/bloom-syndrome
+    relation: connects-to
+    note: "Recessive DNA-repair cancer syndromes: like Bloom syndrome, MUTYH-associated polyposis is autosomal-recessive—biallelic loss of a DNA-repair gene (base-excision repair vs RecQ helicase) driving cancer through accumulated mutations."
+  - target: 01-human/05-tissue/germinal-center
+    relation: connects-to
+    note: "A hypermutated, immunogenic tumour: MUTYH-deficient cancers accumulate a distinctive G:C→T:A mutational signature and high neoantigen load, drawing tertiary lymphoid structures and responding to checkpoint blockade."
+  - target: 01-human/05-tissue/cortical-bone
+    relation: connects-to
+    note: "FAP-like bony lesions: MUTYH-associated polyposis can show attenuated FAP features including osteomas and dental anomalies in the cortical bone, reflecting its overlap with APC-driven polyposis."
 ---
 
 # MUTYH-Associated Polyposis
@@ -444,6 +453,9 @@ Because MAP is autosomal recessive: siblings of MAP patients are at **25%** risk
 - `connects-to` → **[NFE2L2](../../03-molecular/nfe2l2/README.md)** — A disease of unrepaired oxidative damage: MUTYH-associated polyposis comes from failure to excise the 8-oxoguanine lesions oxidative stress creates—the damage the NRF2 (NFE2L2) programme limits—so its mutations are the fingerprint of reactive oxygen on DNA.
 - `connects-to` → **[AML](../aml/README.md)** — Oxidative transversions can reach the marrow: biallelic MUTYH loss raises the risk not only of colorectal cancer but of myeloid neoplasms including acute myeloid leukaemia, which can carry the same G:C→T:A signature of unrepaired oxidative damage.
 - `connects-to` → **[Desmoid Tumor](../desmoid-tumor/README.md)** — It shares the polyposis APC/Wnt risk: MUTYH-associated polyposis drives somatic G:C→T:A hits in APC that activate Wnt, and like FAP it can spawn desmoid tumours—Wnt/β-catenin fibromatoses that complicate abdominal surgery.
+- `connects-to` → **[Bloom Syndrome](../bloom-syndrome/README.md)** — Recessive DNA-repair cancer syndromes: like Bloom syndrome, MUTYH-associated polyposis is autosomal-recessive—biallelic loss of a DNA-repair gene (base-excision repair vs RecQ helicase) driving cancer through accumulated mutations.
+- `connects-to` → **[Germinal Center](../../05-tissue/germinal-center/README.md)** — A hypermutated, immunogenic tumour: MUTYH-deficient cancers accumulate a distinctive G:C→T:A mutational signature and high neoantigen load, drawing tertiary lymphoid structures and responding to checkpoint blockade.
+- `connects-to` → **[Cortical Bone](../../05-tissue/cortical-bone/README.md)** — FAP-like bony lesions: MUTYH-associated polyposis can show attenuated FAP features including osteomas and dental anomalies in the cortical bone, reflecting its overlap with APC-driven polyposis.
 
 ---
 
