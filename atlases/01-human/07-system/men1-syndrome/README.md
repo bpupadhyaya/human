@@ -277,6 +277,15 @@ cross_links:
   - target: 01-human/03-molecular/hif-1alpha
     relation: connects-to
     note: "Angiogenic neuroendocrine tumours: HIF-1α-driven, VEGF-rich angiogenesis makes MEN1 neuroendocrine tumours highly vascular, underpinning the use of anti-angiogenic agents like sunitinib."
+  - target: 01-human/03-molecular/myc
+    relation: connects-to
+    note: "Menin-MLL target: menin normally restrains MYC-driven transcription, so MEN1 loss derepresses MYC, contributing to the proliferation of its endocrine tumours."
+  - target: 01-human/03-molecular/cdk4-6
+    relation: connects-to
+    note: "Cell-cycle drive: with cyclin D1 upregulated, CDK4/6 propels MEN1 endocrine tumour cells through the G1 checkpoint, a rationale for CDK4/6 inhibition."
+  - target: 01-human/03-molecular/tert
+    relation: connects-to
+    note: "Replicative immortality: TERT reactivation maintains telomeres in MEN1-associated neuroendocrine tumours, sustaining their proliferation."
 ---
 
 # MEN1 Syndrome
@@ -483,6 +492,9 @@ Menin haploinsufficiency (one functional allele) creates susceptibility: cells a
 - `connects-to` → **[Cyclin D1](../../03-molecular/cyclin-d1/README.md)** — Derepressed proliferation: loss of menin removes its restraint on cyclin D1, driving the cell-cycle entry of the parathyroid, pancreatic and pituitary tumours of MEN1.
 - `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — PI3K-mTOR target: PI3K-AKT-mTOR signalling is active in MEN1 pancreatic neuroendocrine tumours, the rationale for everolimus therapy in advanced disease.
 - `connects-to` → **[HIF-1α](../../03-molecular/hif-1alpha/README.md)** — Angiogenic neuroendocrine tumours: HIF-1α-driven, VEGF-rich angiogenesis makes MEN1 neuroendocrine tumours highly vascular, underpinning the use of anti-angiogenic agents like sunitinib.
+- `connects-to` → **[MYC](../../03-molecular/myc/README.md)** — Menin-MLL target: menin normally restrains MYC-driven transcription, so MEN1 loss derepresses MYC, contributing to the proliferation of its endocrine tumours.
+- `connects-to` → **[CDK4/6](../../03-molecular/cdk4-6/README.md)** — Cell-cycle drive: with cyclin D1 upregulated, CDK4/6 propels MEN1 endocrine tumour cells through the G1 checkpoint, a rationale for CDK4/6 inhibition.
+- `connects-to` → **[TERT](../../03-molecular/tert/README.md)** — Replicative immortality: TERT reactivation maintains telomeres in MEN1-associated neuroendocrine tumours, sustaining their proliferation.
 
 ---
 
