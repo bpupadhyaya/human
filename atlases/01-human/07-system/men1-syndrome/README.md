@@ -259,6 +259,15 @@ cross_links:
   - target: 01-human/05-tissue/intestinal-epithelium
     relation: connects-to
     note: "Zollinger-Ellison and peptic ulcers: gastrinomas in MEN1 flood the gut with gastrin, driving refractory, multiple peptic ulcers that erode the intestinal epithelium."
+  - target: 01-human/03-molecular/serotonin
+    relation: connects-to
+    note: "Carcinoid hormone: the foregut, thymic and bronchial carcinoids of MEN1 can secrete serotonin, and once they metastasise the hormone overflow produces the flushing and diarrhoea of carcinoid syndrome."
+  - target: 01-human/05-tissue/hepatic-lobule
+    relation: connects-to
+    note: "Where the tumours turn lethal: the pancreatic and duodenal neuroendocrine tumours of MEN1 metastasise preferentially to the liver, and this hepatic spread through the lobule is the leading cause of death in the syndrome."
+  - target: 01-human/05-tissue/endocardium
+    relation: connects-to
+    note: "Carcinoid heart disease: serotonin from liver-metastatic MEN1 carcinoids deposits fibrous plaque on the right-sided heart valves and endocardium, scarring them into the tricuspid and pulmonary lesions of carcinoid heart disease."
 ---
 
 # MEN1 Syndrome
@@ -459,6 +468,9 @@ Menin haploinsufficiency (one functional allele) creates susceptibility: cells a
 - `connects-to` → **[Glomerulus](../../05-tissue/glomerulus/README.md)** — Hypercalcaemia injures the kidney: MEN1's primary hyperparathyroidism—its commonest feature—raises calcium, causing kidney stones and nephrocalcinosis that scar the glomerulus and tubules.
 - `connects-to` → **[DICER1 Syndrome](../dicer1-syndrome/README.md)** — Two germline endocrine-tumour syndromes: MEN1 and DICER1 both predispose to pituitary and other endocrine tumours under autosomal-dominant control, demanding lifelong multi-gland surveillance.
 - `connects-to` → **[Intestinal Epithelium](../../05-tissue/intestinal-epithelium/README.md)** — Zollinger-Ellison and peptic ulcers: gastrinomas in MEN1 flood the gut with gastrin, driving refractory, multiple peptic ulcers that erode the intestinal epithelium.
+- `connects-to` → **[Serotonin](../../03-molecular/serotonin/README.md)** — Carcinoid hormone: the foregut, thymic and bronchial carcinoids of MEN1 can secrete serotonin, and once they metastasise the hormone overflow produces the flushing and diarrhoea of carcinoid syndrome.
+- `connects-to` → **[Hepatic Lobule](../../05-tissue/hepatic-lobule/README.md)** — Where the tumours turn lethal: the pancreatic and duodenal neuroendocrine tumours of MEN1 metastasise preferentially to the liver, and this hepatic spread through the lobule is the leading cause of death in the syndrome.
+- `connects-to` → **[Endocardium](../../05-tissue/endocardium/README.md)** — Carcinoid heart disease: serotonin from liver-metastatic MEN1 carcinoids deposits fibrous plaque on the right-sided heart valves and endocardium, scarring them into the tricuspid and pulmonary lesions of carcinoid heart disease.
 
 ---
 
