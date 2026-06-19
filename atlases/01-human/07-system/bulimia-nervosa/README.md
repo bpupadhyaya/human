@@ -270,6 +270,15 @@ cross_links:
   - target: 01-human/07-system/covid-19-disease
     relation: connects-to
     note: "A pandemic surge: eating disorders including bulimia rose sharply during COVID-19, as isolation, disrupted routines and anxiety worsened binge-purge behaviour and limited access to care."
+  - target: 01-human/05-tissue/alveolus
+    relation: connects-to
+    note: "Aspiration risk: recurrent self-induced vomiting can drive gastric contents into the airway, seeding the alveolus with aspiration pneumonia—a hazard amplified by electrolyte-driven obtundation."
+  - target: 01-human/03-molecular/npy
+    relation: connects-to
+    note: "Hunger drive gone awry: neuropeptide Y is a powerful orexigenic signal, and its dysregulation helps drive the overwhelming hunger and loss of control behind binge episodes in bulimia."
+  - target: 01-human/03-molecular/glp-1
+    relation: connects-to
+    note: "Satiety signalling: GLP-1 promotes fullness and curbs intake, and disordered incretin/satiety signalling—plus emerging GLP-1 agonist use—intersects with the binge-purge cycle of bulimia."
 ---
 
 # Bulimia Nervosa
@@ -483,6 +492,9 @@ All of the following must be met:
 - `connects-to` → **[Glomerulus](../../05-tissue/glomerulus/README.md)** — Kidney injury from purging: recurrent vomiting and laxative or diuretic misuse in bulimia cause hypokalaemia and dehydration that injure the glomerulus and tubules, risking chronic kidney disease.
 - `connects-to` → **[Epilepsy](../epilepsy/README.md)** — A seizure caution: bulimia nervosa contraindicates the antidepressant bupropion because purging-related electrolyte disturbance and the disorder itself lower the seizure threshold toward epilepsy.
 - `connects-to` → **[COVID-19 Disease](../covid-19-disease/README.md)** — A pandemic surge: eating disorders including bulimia rose sharply during COVID-19, as isolation, disrupted routines and anxiety worsened binge-purge behaviour and limited access to care.
+- `connects-to` → **[Alveolus](../../05-tissue/alveolus/README.md)** — Aspiration risk: recurrent self-induced vomiting can drive gastric contents into the airway, seeding the alveolus with aspiration pneumonia—a hazard amplified by electrolyte-driven obtundation.
+- `connects-to` → **[NPY](../../03-molecular/npy/README.md)** — Hunger drive gone awry: neuropeptide Y is a powerful orexigenic signal, and its dysregulation helps drive the overwhelming hunger and loss of control behind binge episodes in bulimia.
+- `connects-to` → **[GLP-1](../../03-molecular/glp-1/README.md)** — Satiety signalling: GLP-1 promotes fullness and curbs intake, and disordered incretin/satiety signalling—plus emerging GLP-1 agonist use—intersects with the binge-purge cycle of bulimia.
 
 ## Treatment
 

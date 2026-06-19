@@ -268,6 +268,15 @@ cross_links:
   - target: 01-human/07-system/gvhd
     relation: connects-to
     note: "EBV-driven B-cell proliferation: like the post-transplant lymphoproliferative disease that complicates GVHD-prone transplants, Burkitt lymphoma exploits EBV and impaired immunity to drive B-cell growth."
+  - target: 01-human/03-molecular/foxo1
+    relation: connects-to
+    note: "Recurrent driver mutation: activating FOXO1 mutations are among the most frequent secondary lesions in Burkitt lymphoma, cooperating with MYC to sustain the malignant germinal-centre B cell."
+  - target: 01-human/03-molecular/ezh2
+    relation: connects-to
+    note: "Germinal-centre epigenetics: EZH2 enforces the proliferative, anti-differentiation programme of germinal-centre B cells from which Burkitt lymphoma arises, a shared lever across GC-derived lymphomas."
+  - target: 01-human/04-cellular/t-helper-cell
+    relation: connects-to
+    note: "Germinal-centre help: follicular helper T cells deliver the CD40 and cytokine signals that drive germinal-centre B-cell proliferation, the very reaction hijacked in Burkitt lymphomagenesis."
 ---
 
 # Burkitt Lymphoma
@@ -486,6 +495,9 @@ FISH for MYC, BCL2, and BCL6 is essential; if BCL2 FISH negative and Ki-67 ~100%
 - `connects-to` → **[Cytokine Storm](../cytokine-storm/README.md)** — Acute treatment storms: Burkitt's explosive growth causes severe tumour-lysis syndrome at induction, and CD19 immunotherapies add cytokine release syndrome—two systemic emergencies of its therapy.
 - `connects-to` → **[Hepatic Lobule](../../05-tissue/hepatic-lobule/README.md)** — Abdominal and visceral bulk: sporadic Burkitt lymphoma forms large abdominal masses that involve the liver, infiltrating the hepatic lobules alongside the bowel and mesentery.
 - `connects-to` → **[GVHD](../gvhd/README.md)** — EBV-driven B-cell proliferation: like the post-transplant lymphoproliferative disease that complicates GVHD-prone transplants, Burkitt lymphoma exploits EBV and impaired immunity to drive B-cell growth.
+- `connects-to` → **[FOXO1](../../03-molecular/foxo1/README.md)** — Recurrent driver mutation: activating FOXO1 mutations are among the most frequent secondary lesions in Burkitt lymphoma, cooperating with MYC to sustain the malignant germinal-centre B cell.
+- `connects-to` → **[EZH2](../../03-molecular/ezh2/README.md)** — Germinal-centre epigenetics: EZH2 enforces the proliferative, anti-differentiation programme of germinal-centre B cells from which Burkitt lymphoma arises, a shared lever across GC-derived lymphomas.
+- `connects-to` → **[T Helper Cell](../../04-cellular/t-helper-cell/README.md)** — Germinal-centre help: follicular helper T cells deliver the CD40 and cytokine signals that drive germinal-centre B-cell proliferation, the very reaction hijacked in Burkitt lymphomagenesis.
 
 ---
 
