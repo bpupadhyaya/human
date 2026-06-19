@@ -250,6 +250,15 @@ cross_links:
   - target: 01-human/07-system/juvenile-polyposis-syndrome
     relation: connects-to
     note: "Opposite ends of one signalling axis: Marfan stems from FBN1 loss that unleashes excess TGF-β, while SMAD4-type juvenile polyposis loses the TGF-β/BMP transducer itself—two diseases dysregulating the same pathway from opposite directions."
+  - target: 01-human/05-tissue/myocardium
+    relation: connects-to
+    note: "Primary Marfan cardiomyopathy: beyond valve and aortic disease, FBN1 loss causes an intrinsic dilated cardiomyopathy of the myocardium, a less-recognised cause of heart failure in Marfan syndrome."
+  - target: 01-human/05-tissue/peripheral-nerve
+    relation: connects-to
+    note: "Dural ectasia: the enlarging dural sac of Marfan erodes vertebrae and stretches nerve roots, causing low-back and radicular pain and headaches—a major diagnostic criterion."
+  - target: 01-human/07-system/systemic-sclerosis
+    relation: connects-to
+    note: "Two connective-tissue disorders via TGF-β: Marfan's fibrillin loss unleashes excess TGF-β signalling, while systemic sclerosis is autoimmune TGF-β-driven fibrosis—structural versus inflammatory routes to matrix dysregulation."
 ---
 
 # Marfan Syndrome
@@ -466,6 +475,9 @@ MFS is a **multi-system disorder** defined by cardiovascular, ocular, and skelet
 - `connects-to` → **[Endocardium](../../05-tissue/endocardium/README.md)** — It loosens the heart valves: fibrillin-1 loss and excess TGF-β weaken the valve leaflets, producing the myxomatous mitral valve prolapse and aortic regurgitation that, with aortic root dilatation, define Marfan's cardiac disease.
 - `connects-to` → **[Cardiac Conduction System](../../05-tissue/cardiac-conduction-system/README.md)** — Beyond the aorta, an electrical risk: Marfan syndrome carries ventricular arrhythmias and a small risk of sudden cardiac death independent of valve and aortic disease, linked to conduction abnormalities and fibrillin-related myocardial changes.
 - `connects-to` → **[Juvenile Polyposis Syndrome](../juvenile-polyposis-syndrome/README.md)** — Opposite ends of one signalling axis: Marfan stems from FBN1 loss that unleashes excess TGF-β, while SMAD4-type juvenile polyposis loses the TGF-β/BMP transducer itself—two diseases dysregulating the same pathway from opposite directions.
+- `connects-to` → **[Myocardium](../../05-tissue/myocardium/README.md)** — Primary Marfan cardiomyopathy: beyond valve and aortic disease, FBN1 loss causes an intrinsic dilated cardiomyopathy of the myocardium, a less-recognised cause of heart failure in Marfan syndrome.
+- `connects-to` → **[Peripheral Nerve](../../05-tissue/peripheral-nerve/README.md)** — Dural ectasia: the enlarging dural sac of Marfan erodes vertebrae and stretches nerve roots, causing low-back and radicular pain and headaches—a major diagnostic criterion.
+- `connects-to` → **[Systemic Sclerosis](../systemic-sclerosis/README.md)** — Two connective-tissue disorders via TGF-β: Marfan's fibrillin loss unleashes excess TGF-β signalling, while systemic sclerosis is autoimmune TGF-β-driven fibrosis—structural versus inflammatory routes to matrix dysregulation.
 
 ---
 

@@ -250,6 +250,15 @@ cross_links:
   - target: 03-medicine/01-modern/13-cancer/checkpoint-inhibitors
     relation: connects-to
     note: "An immunologically cold tumour: medulloblastoma has a low mutational burden and sparse immune infiltrate, so PD-1 checkpoint inhibitors have shown little benefit, and immunotherapy effort has shifted toward CAR-T against B7-H3 and GD2."
+  - target: 01-human/07-system/basal-cell-carcinoma
+    relation: connects-to
+    note: "SHH-pathway tumours: SHH-subgroup medulloblastoma and basal cell carcinoma share aberrant Sonic-hedgehog signalling—both arise in Gorlin syndrome—and respond to SMO inhibitors like vismodegib."
+  - target: 01-human/05-tissue/hepatic-lobule
+    relation: connects-to
+    note: "Rare extraneural metastasis: although it usually spreads through the CSF, medulloblastoma can disseminate outside the nervous system to bone, marrow and the liver, seeding the hepatic lobule."
+  - target: 01-human/05-tissue/myocardium
+    relation: connects-to
+    note: "Survivorship cardiotoxicity: the anthracycline chemotherapy and incidental cardiac radiation used to cure medulloblastoma injure the myocardium, a late effect monitored for decades in survivors."
 ---
 
 # Medulloblastoma
@@ -457,6 +466,9 @@ MB survivors face substantial late effects — inversely proportional to age at 
 - `connects-to` → **[Hippocampus](../../05-tissue/hippocampus/README.md)** — The cure costs memory: craniospinal radiation and the cranial boost damage the hippocampus, impairing the formation of new memories and lowering IQ in childhood medulloblastoma survivors, which drives efforts to spare the hippocampus during radiotherapy.
 - `connects-to` → **[Ewing Sarcoma](../ewing-sarcoma/README.md)** — Two small-round-blue-cell tumours of childhood: medulloblastoma and Ewing sarcoma are both densely cellular embryonal-type cancers of the young but differ at the root—Ewing is driven by an EWSR1-FLI1 fusion, medulloblastoma by SHH, WNT or MYC programmes.
 - `connects-to` → **[Checkpoint Inhibitors](../../../03-medicine/01-modern/13-cancer/checkpoint-inhibitors/README.md)** — An immunologically cold tumour: medulloblastoma has a low mutational burden and sparse immune infiltrate, so PD-1 checkpoint inhibitors have shown little benefit, and immunotherapy effort has shifted toward CAR-T against B7-H3 and GD2.
+- `connects-to` → **[Basal Cell Carcinoma](../basal-cell-carcinoma/README.md)** — SHH-pathway tumours: SHH-subgroup medulloblastoma and basal cell carcinoma share aberrant Sonic-hedgehog signalling—both arise in Gorlin syndrome—and respond to SMO inhibitors like vismodegib.
+- `connects-to` → **[Hepatic Lobule](../../05-tissue/hepatic-lobule/README.md)** — Rare extraneural metastasis: although it usually spreads through the CSF, medulloblastoma can disseminate outside the nervous system to bone, marrow and the liver, seeding the hepatic lobule.
+- `connects-to` → **[Myocardium](../../05-tissue/myocardium/README.md)** — Survivorship cardiotoxicity: the anthracycline chemotherapy and incidental cardiac radiation used to cure medulloblastoma injure the myocardium, a late effect monitored for decades in survivors.
 
 [^packer-2006-std-risk-mb]: Packer RJ, Gajjar A, Vezina G, et al. Phase III study of craniospinal radiation therapy followed by adjuvant chemotherapy for newly diagnosed average-risk medulloblastoma. *J Clin Oncol.* 2006;24(25):4202-4208. [doi:10.1200/JCO.2006.06.4980](https://doi.org/10.1200/JCO.2006.06.4980) · [PubMed 16943538](https://pubmed.ncbi.nlm.nih.gov/16943538/)
 [^taylor-2012-mb-subgroups]: Taylor MD, Northcott PA, Korshunov A, et al. Molecular subgroups of medulloblastoma: the current consensus. *Acta Neuropathol.* 2012;123(4):465-472. [doi:10.1007/s00401-011-0922-z](https://doi.org/10.1007/s00401-011-0922-z) · [PubMed 22134537](https://pubmed.ncbi.nlm.nih.gov/22134537/)
