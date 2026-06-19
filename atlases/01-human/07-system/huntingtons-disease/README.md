@@ -246,6 +246,15 @@ cross_links:
   - target: 01-human/05-tissue/intestinal-epithelium
     relation: connects-to
     note: "Gut involvement: mutant huntingtin is expressed in the gut, where enteric dysfunction and altered intestinal epithelium contribute to the weight loss and gut-brain disturbances of HD."
+  - target: 01-human/05-tissue/alveolus
+    relation: connects-to
+    note: "Aspiration ends it: dysphagia from advanced Huntington's leads to aspiration pneumonia, seeding the alveoli with oral flora—the leading cause of death in the disease."
+  - target: 01-human/07-system/systemic-lupus-erythematosus
+    relation: connects-to
+    note: "Chorea has many causes: beyond Huntington's, chorea arises in lupus and antiphospholipid syndrome (autoimmune chorea), a treatable mimic to exclude before attributing new chorea to HD."
+  - target: 01-human/07-system/stroke
+    relation: connects-to
+    note: "Acquired chorea: a stroke in the subthalamic nucleus or basal ganglia causes hemiballismus and chorea, an acquired movement disorder that mimics the inherited chorea of Huntington's."
 sources:
   - id: gusella-1983-htt-locus
     type: peer-reviewed
@@ -373,3 +382,6 @@ HD disrupts multiple neural circuit functions:
 - `connects-to` → **[Cardiac Conduction System](../../05-tissue/cardiac-conduction-system/README.md)** — Arrhythmia and sudden death: beyond cardiomyopathy, Huntington's autonomic failure prolongs the QT interval and disturbs cardiac rhythm, contributing to the sudden cardiac deaths that punctuate the disease.
 - `connects-to` → **[Cortical Bone](../../05-tissue/cortical-bone/README.md)** — Wasting thins the skeleton: HD's hypermetabolic, chorea-driven catabolism causes progressive weight loss and reduced bone density, raising fracture risk in a population already prone to falls.
 - `connects-to` → **[Intestinal Epithelium](../../05-tissue/intestinal-epithelium/README.md)** — Gut involvement: mutant huntingtin is expressed in the gut, where enteric dysfunction and altered intestinal epithelium contribute to the weight loss and gut-brain disturbances of HD.
+- `connects-to` → **[Alveolus](../../05-tissue/alveolus/README.md)** — Aspiration ends it: dysphagia from advanced Huntington's leads to aspiration pneumonia, seeding the alveoli with oral flora—the leading cause of death in the disease.
+- `connects-to` → **[Systemic Lupus Erythematosus](../systemic-lupus-erythematosus/README.md)** — Chorea has many causes: beyond Huntington's, chorea arises in lupus and antiphospholipid syndrome (autoimmune chorea), a treatable mimic to exclude before attributing new chorea to HD.
+- `connects-to` → **[Stroke](../stroke/README.md)** — Acquired chorea: a stroke in the subthalamic nucleus or basal ganglia causes hemiballismus and chorea, an acquired movement disorder that mimics the inherited chorea of Huntington's.

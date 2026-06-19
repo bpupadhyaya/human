@@ -259,6 +259,15 @@ cross_links:
   - target: 01-human/07-system/thyroid-cancer
     relation: connects-to
     note: "A radiation late effect: neck radiotherapy for Hodgkin lymphoma raises the long-term risk of thyroid cancer and hypothyroidism, a survivorship concern decades after cure."
+  - target: 01-human/07-system/atherosclerosis
+    relation: connects-to
+    note: "Radiation's late heart disease: mediastinal radiotherapy for Hodgkin lymphoma accelerates coronary atherosclerosis and valve disease over decades, a leading cause of late mortality in cured survivors."
+  - target: 01-human/05-tissue/glomerulus
+    relation: connects-to
+    note: "Paraneoplastic kidney: Hodgkin lymphoma is the classic cause of paraneoplastic minimal-change nephrotic syndrome, the glomerulus leaking massive protein in response to lymphoma-derived cytokines."
+  - target: 02-pathogen/04-parasites/leishmania-donovani
+    relation: connects-to
+    note: "A great mimic: visceral leishmaniasis causes fever, weight loss and massive splenomegaly that can mimic Hodgkin lymphoma, an infectious differential to consider in endemic areas."
 ---
 
 # Hodgkin Lymphoma
@@ -461,6 +470,9 @@ Modern protocols minimize RT fields and doses (ISRT replacing extended-field RT)
 - `connects-to` → **[Burkitt Lymphoma](../burkitt-lymphoma/README.md)** — Two EBV-linked B-cell lymphomas: Hodgkin and Burkitt both derive from germinal-centre B cells and associate with EBV, contrasting an indolent-curable nodal lymphoma with the fastest-growing human tumour.
 - `connects-to` → **[Alveolus](../../05-tissue/alveolus/README.md)** — Mediastinal disease and lung toxicity: bulky mediastinal Hodgkin and the bleomycin and radiation used to cure it injure the alveoli, causing pneumonitis and pulmonary fibrosis.
 - `connects-to` → **[Thyroid Cancer](../thyroid-cancer/README.md)** — A radiation late effect: neck radiotherapy for Hodgkin lymphoma raises the long-term risk of thyroid cancer and hypothyroidism, a survivorship concern decades after cure.
+- `connects-to` → **[Atherosclerosis](../atherosclerosis/README.md)** — Radiation's late heart disease: mediastinal radiotherapy for Hodgkin lymphoma accelerates coronary atherosclerosis and valve disease over decades, a leading cause of late mortality in cured survivors.
+- `connects-to` → **[Glomerulus](../../05-tissue/glomerulus/README.md)** — Paraneoplastic kidney: Hodgkin lymphoma is the classic cause of paraneoplastic minimal-change nephrotic syndrome, the glomerulus leaking massive protein in response to lymphoma-derived cytokines.
+- `connects-to` → **[Leishmania donovani](../../../02-pathogen/04-parasites/leishmania-donovani/README.md)** — A great mimic: visceral leishmaniasis causes fever, weight loss and massive splenomegaly that can mimic Hodgkin lymphoma, an infectious differential to consider in endemic areas.
 
 [^connors-2018-echelon1]: Connors JM, Jurczak W, Straus DJ, et al. Brentuximab vedotin with chemotherapy for stage III or IV Hodgkin's lymphoma. *N Engl J Med.* 2018;378(4):331-344. [doi:10.1056/NEJMoa1708984](https://doi.org/10.1056/NEJMoa1708984) · [PubMed 29360494](https://pubmed.ncbi.nlm.nih.gov/29360494/)
 [^armand-2018-nivo-hl]: Armand P, Engert A, Younes A, et al. Nivolumab for relapsed/refractory classic Hodgkin lymphoma after failure of autologous hematopoietic cell transplantation: extended follow-up of the multicohort single-arm phase II CheckMate 205 trial. *J Clin Oncol.* 2018;36(14):1428-1439. [doi:10.1200/JCO.2017.77.6717](https://doi.org/10.1200/JCO.2017.77.6717) · [PubMed 29584546](https://pubmed.ncbi.nlm.nih.gov/29584546/)
