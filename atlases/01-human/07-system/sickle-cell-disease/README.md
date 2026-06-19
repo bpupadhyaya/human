@@ -280,6 +280,15 @@ cross_links:
   - target: 01-human/05-tissue/cardiac-conduction-system
     relation: connects-to
     note: "Iron and rhythm: chronic haemolysis and transfusional iron load the heart in sickle cell disease, scarring the myocardium and conduction system toward arrhythmia and sudden death."
+  - target: 01-human/03-molecular/endothelin-1
+    relation: connects-to
+    note: "Vaso-occlusive vasoconstriction: free haemoglobin and endothelial injury raise endothelin-1 in sickle cell disease, whose vasoconstriction aggravates vaso-occlusion and pulmonary hypertension."
+  - target: 01-human/03-molecular/tnf-alpha
+    relation: connects-to
+    note: "Inflammatory adhesion: TNF-α from the chronic inflammation of sickle cell disease upregulates endothelial adhesion molecules, promoting the sickle-cell and leukocyte adhesion that triggers vaso-occlusion."
+  - target: 01-human/03-molecular/hif-1alpha
+    relation: connects-to
+    note: "Hypoxic response: tissue hypoxia from vaso-occlusion stabilises HIF-1α, driving the erythropoietin surge and angiogenic and inflammatory responses of sickle cell disease."
 ---
 
 # Sickle Cell Disease
@@ -526,6 +535,9 @@ SCD vaso-occlusion is not just from sickled RBCs mechanically blocking vessels �
 - `connects-to` → **[RSV](../rsv/README.md)** — Acute chest syndrome trigger: RSV and other respiratory viruses precipitate acute chest syndrome—the vaso-occlusive lung crisis that is a leading cause of death in sickle cell disease.
 - `connects-to` → **[GVHD](../gvhd/README.md)** — A curative transplant's risk: allogeneic stem-cell transplant can cure sickle cell disease but carries graft-versus-host disease, the key trade-off alongside newer gene therapies.
 - `connects-to` → **[Cardiac Conduction System](../../05-tissue/cardiac-conduction-system/README.md)** — Iron and rhythm: chronic haemolysis and transfusional iron load the heart in sickle cell disease, scarring the myocardium and conduction system toward arrhythmia and sudden death.
+- `connects-to` → **[Endothelin-1](../../03-molecular/endothelin-1/README.md)** — Vaso-occlusive vasoconstriction: free haemoglobin and endothelial injury raise endothelin-1 in sickle cell disease, whose vasoconstriction aggravates vaso-occlusion and pulmonary hypertension.
+- `connects-to` → **[TNF-α](../../03-molecular/tnf-alpha/README.md)** — Inflammatory adhesion: TNF-α from the chronic inflammation of sickle cell disease upregulates endothelial adhesion molecules, promoting the sickle-cell and leukocyte adhesion that triggers vaso-occlusion.
+- `connects-to` → **[HIF-1α](../../03-molecular/hif-1alpha/README.md)** — Hypoxic response: tissue hypoxia from vaso-occlusion stabilises HIF-1α, driving the erythropoietin surge and angiogenic and inflammatory responses of sickle cell disease.
 
 [^steinberg-1999-scd-management]: Steinberg MH. Management of sickle cell disease. *N Engl J Med.* 1999;340(13):1021-1030. [doi:10.1056/NEJM199904013401307](https://doi.org/10.1056/NEJM199904013401307) · [PubMed 10099145](https://pubmed.ncbi.nlm.nih.gov/10099145/)
 [^vichinsky-2000-acs-scd]: Vichinsky EP, Neumayr LD, Earles AN, et al. Causes and outcomes of the acute chest syndrome in sickle cell disease. *N Engl J Med.* 2000;342(25):1855-1865. [doi:10.1056/NEJM200006223422502](https://doi.org/10.1056/NEJM200006223422502) · [PubMed 10861320](https://pubmed.ncbi.nlm.nih.gov/10861320/)
