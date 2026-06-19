@@ -250,6 +250,15 @@ cross_links:
   - target: 01-human/07-system/copd
     relation: connects-to
     note: "Primary versus secondary thick blood: polycythaemia vera makes too many red cells autonomously through JAK2, whereas COPD's chronic hypoxia raises erythropoietin to cause a secondary erythrocytosis—the key distinction when haematocrit is high."
+  - target: 01-human/05-tissue/myocardium
+    relation: connects-to
+    note: "Arterial thrombosis and MI: PV's raised red-cell mass causes hyperviscosity and arterial thrombosis including myocardial infarction, the leading cardiovascular cause of death in the disease."
+  - target: 01-human/07-system/antiphospholipid-syndrome
+    relation: connects-to
+    note: "Two causes of unusual-site thrombosis: PV—the leading cause of Budd-Chiari—and antiphospholipid syndrome both cause arterial and splanchnic or cerebral venous thrombosis, key differentials in a young patient with a clot."
+  - target: 01-human/05-tissue/peripheral-nerve
+    relation: connects-to
+    note: "Erythromelalgia and itch: PV's platelet excess causes erythromelalgia—burning, red, painful extremities from microvascular sensory-nerve involvement—dramatically relieved by low-dose aspirin."
 ---
 
 # Polycythemia Vera
@@ -449,6 +458,9 @@ PV must be distinguished from secondary erythrocytosis (elevated EPO, JAK2 wild-
 - `connects-to` → **[Arterial Wall](../../05-tissue/arterial-wall/README.md)** — Its chief danger is the clot: hyperviscosity and JAK2-mutant blood cells inflame and adhere to the arterial wall, driving the strokes and heart attacks that are the leading cause of death in polycythaemia vera.
 - `connects-to` → **[Hepatic Lobule](../../05-tissue/hepatic-lobule/README.md)** — Where its clots and overflow land: polycythaemia vera's JAK2-mutant clone thromboses the hepatic and portal veins and can seed extramedullary haematopoiesis in the hepatic lobules, so liver enlargement and splanchnic thrombosis both flag the disease.
 - `connects-to` → **[COPD](../copd/README.md)** — Primary versus secondary thick blood: polycythaemia vera makes too many red cells autonomously through JAK2, whereas COPD's chronic hypoxia raises erythropoietin to cause a secondary erythrocytosis—the key distinction when haematocrit is high.
+- `connects-to` → **[Myocardium](../../05-tissue/myocardium/README.md)** — Arterial thrombosis and MI: PV's raised red-cell mass causes hyperviscosity and arterial thrombosis including myocardial infarction, the leading cardiovascular cause of death in the disease.
+- `connects-to` → **[Antiphospholipid Syndrome](../antiphospholipid-syndrome/README.md)** — Two causes of unusual-site thrombosis: PV—the leading cause of Budd-Chiari—and antiphospholipid syndrome both cause arterial and splanchnic or cerebral venous thrombosis, key differentials in a young patient with a clot.
+- `connects-to` → **[Peripheral Nerve](../../05-tissue/peripheral-nerve/README.md)** — Erythromelalgia and itch: PV's platelet excess causes erythromelalgia—burning, red, painful extremities from microvascular sensory-nerve involvement—dramatically relieved by low-dose aspirin.
 
 [^vannucchi-2015-response]: Vannucchi AM, Kiladjian JJ, Griesshammer M, et al. Ruxolitinib versus standard therapy for the treatment of polycythemia vera. *N Engl J Med.* 2015;372(5):426-435. [doi:10.1056/NEJMoa1409630](https://doi.org/10.1056/NEJMoa1409630) · [PubMed 25577388](https://pubmed.ncbi.nlm.nih.gov/25577388/)
 [^gisslinger-2020-proud-pv]: Gisslinger H, Gotic M, Holowiecki J, et al. Ropeginterferon alfa-2b versus standard therapy for polycythaemia vera (PROUD-PV and CONTINUATION-PV): a randomised, non-inferiority, phase 3 trial and its extension study. *Lancet Haematol.* 2020;7(3):e196-e208. [doi:10.1016/S2352-3026(19)30236-4](https://doi.org/10.1016/S2352-3026(19)30236-4) · [PubMed 32046833](https://pubmed.ncbi.nlm.nih.gov/32046833/)
