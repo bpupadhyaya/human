@@ -268,6 +268,15 @@ cross_links:
   - target: 01-human/07-system/prostate-cancer
     relation: connects-to
     note: "E-cadherin loss and metastasis: as in the discohesive HDGC cancer, downregulation of E-cadherin (CDH1) signals the switch to invasive, metastatic disease in cancers such as prostate cancer."
+  - target: 01-human/03-molecular/fgfr
+    relation: connects-to
+    note: "Diffuse-type driver: FGFR2 amplification is characteristic of diffuse-type gastric cancer, a targetable lesion that can accompany the E-cadherin loss central to HDGC."
+  - target: 01-human/03-molecular/pik3ca
+    relation: connects-to
+    note: "PI3K activation: PIK3CA-driven PI3K signalling is common in diffuse gastric cancer, cooperating with CDH1 loss to promote the growth of these discohesive tumours."
+  - target: 01-human/03-molecular/met
+    relation: connects-to
+    note: "Unleashed growth signalling: loss of E-cadherin de-represses receptor signalling such as MET, whose activation drives invasion in diffuse gastric cancer."
 ---
 
 # Hereditary Diffuse Gastric Cancer
@@ -459,6 +468,9 @@ Testing for CDH1 (and CTNNA1) is indicated in any of the following:
 - `connects-to` → **[Pancreatic Cancer](../pancreatic-cancer/README.md)** — E-cadherin loss and diffuse growth: the CDH1/E-cadherin loss defining HDGC's signet-ring cancer also drives discohesive, infiltrative growth in other adenocarcinomas such as pancreatic cancer.
 - `connects-to` → **[Cholangiocarcinoma](../cholangiocarcinoma/README.md)** — EMT in adenocarcinoma: like HDGC's CDH1-driven discohesion, loss of E-cadherin and epithelial-mesenchymal transition mark invasion and spread in biliary adenocarcinomas like cholangiocarcinoma.
 - `connects-to` → **[Prostate Cancer](../prostate-cancer/README.md)** — E-cadherin loss and metastasis: as in the discohesive HDGC cancer, downregulation of E-cadherin (CDH1) signals the switch to invasive, metastatic disease in cancers such as prostate cancer.
+- `connects-to` → **[FGFR](../../03-molecular/fgfr/README.md)** — Diffuse-type driver: FGFR2 amplification is characteristic of diffuse-type gastric cancer, a targetable lesion that can accompany the E-cadherin loss central to HDGC.
+- `connects-to` → **[PIK3CA](../../03-molecular/pik3ca/README.md)** — PI3K activation: PIK3CA-driven PI3K signalling is common in diffuse gastric cancer, cooperating with CDH1 loss to promote the growth of these discohesive tumours.
+- `connects-to` → **[MET](../../03-molecular/met/README.md)** — Unleashed growth signalling: loss of E-cadherin de-represses receptor signalling such as MET, whose activation drives invasion in diffuse gastric cancer.
 
 [^van-der-post-2015-hdgc-guidelines]: van der Post RS, Vogelaar IP, Carneiro F, et al. Hereditary diffuse gastric cancer: updated clinical guidelines with an emphasis on germline CDH1 mutation carriers. *J Med Genet.* 2015;52(6):361-374. [doi:10.1136/jmedgenet-2015-103094](https://doi.org/10.1136/jmedgenet-2015-103094) · [PubMed 25979631](https://pubmed.ncbi.nlm.nih.gov/25979631/)
 [^hansford-2015-hdgc]: Hansford S, Kaurah P, Li-Chang H, et al. Hereditary Diffuse Gastric Cancer Syndrome: CDH1 Mutations and Beyond. *JAMA Oncol.* 2015;1(1):23-32. [doi:10.1001/jamaoncol.2014.168](https://doi.org/10.1001/jamaoncol.2014.168) · [PubMed 26182300](https://pubmed.ncbi.nlm.nih.gov/26182300/)

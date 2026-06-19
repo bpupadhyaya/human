@@ -268,6 +268,15 @@ cross_links:
   - target: 01-human/05-tissue/myocardium
     relation: connects-to
     note: "Treatment cardiotoxicity: anthracyclines and HER2-targeted trastuzumab used for BRCA-associated breast cancer can injure the myocardium, a survivorship concern alongside cure."
+  - target: 01-human/03-molecular/cdk4-6
+    relation: connects-to
+    note: "Cell-cycle therapy: CDK4/6 inhibitors are a mainstay for hormone-receptor-positive breast cancers, including many that arise in BRCA carriers, blocking cyclin-driven proliferation."
+  - target: 01-human/03-molecular/akt
+    relation: connects-to
+    note: "PI3K-AKT targeting: AKT-pathway activation in BRCA-associated breast cancer is targetable with AKT inhibitors such as capivasertib, complementing PARP and endocrine therapy."
+  - target: 01-human/03-molecular/mtor
+    relation: connects-to
+    note: "mTOR blockade: mTOR inhibitors like everolimus add benefit in hormone-receptor-positive breast cancer, part of the layered targeting of these BRCA-spectrum tumours."
 ---
 
 # Hereditary Breast and Ovarian Cancer
@@ -487,6 +496,9 @@ BRCA-mutant cells (HRD):
 - `connects-to` → **[Uveal Melanoma](../uveal-melanoma/README.md)** — BRCA2 and eye melanoma: germline BRCA2 mutations modestly raise the risk of uveal melanoma alongside the cutaneous melanoma of the broader BRCA2 cancer spectrum.
 - `connects-to` → **[Cortical Bone](../../05-tissue/cortical-bone/README.md)** — Surgical menopause and bone: risk-reducing oophorectomy in BRCA carriers brings early oestrogen loss that accelerates cortical-bone loss and osteoporosis—a trade-off of cancer prevention.
 - `connects-to` → **[Myocardium](../../05-tissue/myocardium/README.md)** — Treatment cardiotoxicity: anthracyclines and HER2-targeted trastuzumab used for BRCA-associated breast cancer can injure the myocardium, a survivorship concern alongside cure.
+- `connects-to` → **[CDK4/6](../../03-molecular/cdk4-6/README.md)** — Cell-cycle therapy: CDK4/6 inhibitors are a mainstay for hormone-receptor-positive breast cancers, including many that arise in BRCA carriers, blocking cyclin-driven proliferation.
+- `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — PI3K-AKT targeting: AKT-pathway activation in BRCA-associated breast cancer is targetable with AKT inhibitors such as capivasertib, complementing PARP and endocrine therapy.
+- `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — mTOR blockade: mTOR inhibitors like everolimus add benefit in hormone-receptor-positive breast cancer, part of the layered targeting of these BRCA-spectrum tumours.
 
 ---
 
