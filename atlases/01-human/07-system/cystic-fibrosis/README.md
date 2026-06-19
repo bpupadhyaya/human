@@ -259,6 +259,15 @@ cross_links:
   - target: 01-human/05-tissue/cortical-bone
     relation: connects-to
     note: "CF bone disease: malabsorption of vitamin D and calcium, chronic inflammation and steroids thin cortical bone, causing the early osteoporosis and fractures common in CF adults."
+  - target: 02-pathogen/03-fungi/aspergillus-fumigatus
+    relation: connects-to
+    note: "Allergic and invasive fungus: Aspergillus fumigatus colonises CF airways, causing allergic bronchopulmonary aspergillosis (ABPA) that worsens airflow and accelerates lung decline."
+  - target: 01-human/07-system/influenza
+    relation: connects-to
+    note: "Viral exacerbations: respiratory viruses like influenza and RSV trigger severe pulmonary exacerbations in cystic fibrosis, accelerating lung decline and predisposing to bacterial superinfection."
+  - target: 01-human/05-tissue/alveolus
+    relation: connects-to
+    note: "Mucus plugging reaches the air sacs: as CF lung disease advances, thick secretions and chronic infection extend into the small airways and alveoli, driving the respiratory failure that ends the disease."
 ---
 
 # Cystic Fibrosis
@@ -467,6 +476,9 @@ AND
 - `connects-to` → **[Hepatic Lobule](../../05-tissue/hepatic-lobule/README.md)** — CF liver disease: thick bile from CFTR loss in cholangiocytes obstructs the bile ductules of the hepatic lobule, causing focal biliary cirrhosis and portal hypertension—a leading non-pulmonary cause of death.
 - `connects-to` → **[Anemia of Chronic Disease](../anemia-of-chronic-disease/README.md)** — Anaemia of chronic infection: persistent airway infection and inflammation in CF raise hepcidin and blunt erythropoiesis, causing an anaemia of chronic disease despite adequate iron stores.
 - `connects-to` → **[Cortical Bone](../../05-tissue/cortical-bone/README.md)** — CF bone disease: malabsorption of vitamin D and calcium, chronic inflammation and steroids thin cortical bone, causing the early osteoporosis and fractures common in CF adults.
+- `connects-to` → **[Aspergillus fumigatus](../../../02-pathogen/03-fungi/aspergillus-fumigatus/README.md)** — Allergic and invasive fungus: Aspergillus fumigatus colonises CF airways, causing allergic bronchopulmonary aspergillosis (ABPA) that worsens airflow and accelerates lung decline.
+- `connects-to` → **[Influenza](../influenza/README.md)** — Viral exacerbations: respiratory viruses like influenza and RSV trigger severe pulmonary exacerbations in cystic fibrosis, accelerating lung decline and predisposing to bacterial superinfection.
+- `connects-to` → **[Alveolus](../../05-tissue/alveolus/README.md)** — Mucus plugging reaches the air sacs: as CF lung disease advances, thick secretions and chronic infection extend into the small airways and alveoli, driving the respiratory failure that ends the disease.
 
 ---
 

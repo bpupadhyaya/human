@@ -259,6 +259,15 @@ cross_links:
   - target: 01-human/05-tissue/hippocampus
     relation: connects-to
     note: "PTEN shapes the brain: loss of PTEN drives neuronal overgrowth, underlying the macrocephaly, autism-spectrum features and dysplastic cerebellar gangliocytoma (Lhermitte-Duclos disease) of Cowden syndrome."
+  - target: 01-human/07-system/obesity
+    relation: connects-to
+    note: "PTEN and overgrowth: germline PTEN loss enhances PI3K-Akt signalling and drives obesity and macrocephaly, the same overgrowth pathway behind Cowden syndrome's hamartomas."
+  - target: 01-human/07-system/type-2-diabetes
+    relation: connects-to
+    note: "An insulin-signalling paradox: PTEN loss enhances insulin's PI3K-Akt signal, so Cowden patients are often obese yet paradoxically insulin-sensitive, an unusual metabolic profile that informs diabetes biology."
+  - target: 01-human/07-system/medulloblastoma
+    relation: connects-to
+    note: "Cerebellar tumours, benign vs malignant: Cowden's Lhermitte-Duclos disease is a benign dysplastic cerebellar gangliocytoma, contrasting with the malignant cerebellar medulloblastoma of children."
 ---
 
 # Cowden Syndrome
@@ -519,6 +528,9 @@ cross_links:
 - `connects-to` → **[Prostate Cancer](../prostate-cancer/README.md)** — A sporadic PTEN cancer: PTEN loss is among the commonest events in prostate cancer, and Cowden carriers face elevated risk—the germline syndrome mirroring a frequent somatic driver.
 - `connects-to` → **[Glioblastoma](../glioblastoma/README.md)** — PTEN loss in the brain tumour too: PTEN is one of the most frequently inactivated genes in glioblastoma, the same tumour-suppressor whose germline loss defines Cowden syndrome.
 - `connects-to` → **[Hippocampus](../../05-tissue/hippocampus/README.md)** — PTEN shapes the brain: loss of PTEN drives neuronal overgrowth, underlying the macrocephaly, autism-spectrum features and dysplastic cerebellar gangliocytoma (Lhermitte-Duclos disease) of Cowden syndrome.
+- `connects-to` → **[Obesity](../obesity/README.md)** — PTEN and overgrowth: germline PTEN loss enhances PI3K-Akt signalling and drives obesity and macrocephaly, the same overgrowth pathway behind Cowden syndrome's hamartomas.
+- `connects-to` → **[Type 2 Diabetes](../type-2-diabetes/README.md)** — An insulin-signalling paradox: PTEN loss enhances insulin's PI3K-Akt signal, so Cowden patients are often obese yet paradoxically insulin-sensitive, an unusual metabolic profile that informs diabetes biology.
+- `connects-to` → **[Medulloblastoma](../medulloblastoma/README.md)** — Cerebellar tumours, benign vs malignant: Cowden's Lhermitte-Duclos disease is a benign dysplastic cerebellar gangliocytoma, contrasting with the malignant cerebellar medulloblastoma of children.
 
 ---
 
