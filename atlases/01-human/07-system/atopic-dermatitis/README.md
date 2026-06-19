@@ -250,6 +250,15 @@ cross_links:
   - target: 01-human/05-tissue/intestinal-epithelium
     relation: connects-to
     note: "A gut-skin barrier parallel: the same barrier and type-2 immune dysregulation of atopic dermatitis extends to the gut, where altered intestinal-epithelial integrity and the microbiome shape food sensitisation and the atopic march."
+  - target: 01-human/05-tissue/germinal-center
+    relation: connects-to
+    note: "Making the allergic antibody: IgE class-switching in the germinal centres of lymphoid tissue produces the allergen-specific IgE that drives the atopic march from eczema to asthma."
+  - target: 01-human/05-tissue/synapse
+    relation: connects-to
+    note: "Itch that rewires the cord: chronic scratching in atopic dermatitis sensitises itch-processing synapses in the spinal cord and brain, so the itch outlasts the rash—central sensitisation of pruritus."
+  - target: 01-human/04-cellular/plasma-cell
+    relation: connects-to
+    note: "The IgE factory: plasma cells differentiating from atopic B cells secrete the allergen-specific IgE that arms mast cells, sustaining the allergic inflammation of atopic dermatitis."
 ---
 
 # Atopic Dermatitis
@@ -450,6 +459,9 @@ S. aureus colonizes >90% of AD lesional skin (vs. 20% normal skin):
 - `connects-to` → **[Targeted Therapy](../../../03-medicine/01-modern/13-cancer/targeted-therapy/README.md)** — Type-2 biologics transformed it: dupilumab against IL-4Rα and tralokinumab against IL-13, with oral JAK inhibitors, clear moderate-to-severe atopic dermatitis by blocking the IL-4/IL-13 type-2 inflammation that drives it.
 - `connects-to` → **[Cancer Chemotherapy](../../../03-medicine/01-modern/13-cancer/cancer-chemotherapy/README.md)** — Older systemic immunosuppressants still serve: methotrexate, azathioprine, mycophenolate and ciclosporin are used for severe atopic dermatitis before or alongside biologics, broad suppressors of the immune flare.
 - `connects-to` → **[Intestinal Epithelium](../../05-tissue/intestinal-epithelium/README.md)** — A gut-skin barrier parallel: the same barrier and type-2 immune dysregulation of atopic dermatitis extends to the gut, where altered intestinal-epithelial integrity and the microbiome shape food sensitisation and the atopic march.
+- `connects-to` → **[Germinal Center](../../05-tissue/germinal-center/README.md)** — Making the allergic antibody: IgE class-switching in the germinal centres of lymphoid tissue produces the allergen-specific IgE that drives the atopic march from eczema to asthma.
+- `connects-to` → **[Synapse](../../05-tissue/synapse/README.md)** — Itch that rewires the cord: chronic scratching in atopic dermatitis sensitises itch-processing synapses in the spinal cord and brain, so the itch outlasts the rash—central sensitisation of pruritus.
+- `connects-to` → **[Plasma Cell](../../04-cellular/plasma-cell/README.md)** — The IgE factory: plasma cells differentiating from atopic B cells secrete the allergen-specific IgE that arms mast cells, sustaining the allergic inflammation of atopic dermatitis.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 

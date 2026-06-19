@@ -256,6 +256,15 @@ cross_links:
   - target: 01-human/05-tissue/myocardium
     relation: connects-to
     note: "It starves the heart muscle: coronary atherosclerosis is the cause of myocardial infarction, where plaque rupture and thrombosis occlude an artery and infarct the myocardium — the leading cause of death worldwide."
+  - target: 01-human/07-system/gout
+    relation: connects-to
+    note: "Urate and inflamed arteries: hyperuricaemia and gout are independently associated with atherosclerosis and cardiovascular events, sharing the NLRP3-inflammasome-driven inflammation that destabilises plaque."
+  - target: 01-human/05-tissue/glomerulus
+    relation: connects-to
+    note: "Ischaemic nephropathy: atherosclerosis of the renal arteries and intrarenal vessels starves the glomerulus, causing renovascular hypertension and ischaemic chronic kidney disease."
+  - target: 01-human/05-tissue/cardiac-conduction-system
+    relation: connects-to
+    note: "Ischaemia and arrhythmia: coronary atherosclerosis starves the conduction system, and infarction scars it, causing the heart block and ventricular arrhythmias of ischaemic heart disease."
 ---
 
 # Atherosclerosis
@@ -449,6 +458,9 @@ The process begins in childhood with **fatty streaks** and progresses silently o
 - `connects-to` → **[Targeted Therapy](../../../03-medicine/01-modern/13-cancer/targeted-therapy/README.md)** — Antibody and RNA drugs slash LDL: PCSK9-inhibitor antibodies (evolocumab) and the siRNA inclisiran drive LDL far below what statins achieve, while anti-inflammatory approaches target the residual inflammatory risk of atherosclerosis.
 - `connects-to` → **[Arterial Wall](../../05-tissue/arterial-wall/README.md)** — It is a disease of the artery wall: atherosclerosis builds within the intima — LDL retention, foam-cell-laden macrophages, a smooth-muscle fibrous cap over a lipid-necrotic core — that can rupture and thrombose the vessel.
 - `connects-to` → **[Myocardium](../../05-tissue/myocardium/README.md)** — It starves the heart muscle: coronary atherosclerosis is the cause of myocardial infarction, where plaque rupture and thrombosis occlude an artery and infarct the myocardium — the leading cause of death worldwide.
+- `connects-to` → **[Gout](../gout/README.md)** — Urate and inflamed arteries: hyperuricaemia and gout are independently associated with atherosclerosis and cardiovascular events, sharing the NLRP3-inflammasome-driven inflammation that destabilises plaque.
+- `connects-to` → **[Glomerulus](../../05-tissue/glomerulus/README.md)** — Ischaemic nephropathy: atherosclerosis of the renal arteries and intrarenal vessels starves the glomerulus, causing renovascular hypertension and ischaemic chronic kidney disease.
+- `connects-to` → **[Cardiac Conduction System](../../05-tissue/cardiac-conduction-system/README.md)** — Ischaemia and arrhythmia: coronary atherosclerosis starves the conduction system, and infarction scars it, causing the heart block and ventricular arrhythmias of ischaemic heart disease.
 
 ---
 
