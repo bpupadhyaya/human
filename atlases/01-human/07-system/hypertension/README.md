@@ -277,6 +277,15 @@ cross_links:
   - target: 01-human/07-system/type-1-diabetes
     relation: connects-to
     note: "Diabetic nephropathy and pressure: type 1 diabetes commonly causes hypertension through diabetic kidney disease, and tight blood-pressure control is central to protecting the kidneys."
+  - target: 01-human/03-molecular/il-6
+    relation: connects-to
+    note: "Vascular inflammation: IL-6 contributes to the immune and vascular inflammation increasingly recognised as a driver of hypertension and its end-organ damage."
+  - target: 01-human/03-molecular/tnf-alpha
+    relation: connects-to
+    note: "Immune hypertension: TNF-α from activated T cells and macrophages promotes vascular dysfunction and renal sodium retention, central to the emerging immune theory of hypertension."
+  - target: 01-human/03-molecular/ccl2
+    relation: connects-to
+    note: "Monocyte recruitment: CCL2 draws monocytes into the vessel wall and kidney in hypertension, fuelling the perivascular inflammation that stiffens arteries and raises pressure."
 ---
 
 # Hypertension
@@ -454,6 +463,9 @@ Blood pressure is determined by: BP = Cardiac Output × Peripheral Vascular Resi
 - `connects-to` → **[Leptin](../../03-molecular/leptin/README.md)** — Obesity's blood-pressure link: leptin from excess adipose tissue activates the sympathetic nervous system, a central mechanism of obesity-related hypertension.
 - `connects-to` → **[TGF-β](../../03-molecular/tgf-beta/README.md)** — Fibrosis of end organs: TGF-β drives the vascular stiffening and renal fibrosis of chronic hypertension, mediating much of its long-term damage to heart, kidney and arteries.
 - `connects-to` → **[Type 1 Diabetes](../type-1-diabetes/README.md)** — Diabetic nephropathy and pressure: type 1 diabetes commonly causes hypertension through diabetic kidney disease, and tight blood-pressure control is central to protecting the kidneys.
+- `connects-to` → **[IL-6](../../03-molecular/il-6/README.md)** — Vascular inflammation: IL-6 contributes to the immune and vascular inflammation increasingly recognised as a driver of hypertension and its end-organ damage.
+- `connects-to` → **[TNF-α](../../03-molecular/tnf-alpha/README.md)** — Immune hypertension: TNF-α from activated T cells and macrophages promotes vascular dysfunction and renal sodium retention, central to the emerging immune theory of hypertension.
+- `connects-to` → **[CCL2](../../03-molecular/ccl2/README.md)** — Monocyte recruitment: CCL2 draws monocytes into the vessel wall and kidney in hypertension, fuelling the perivascular inflammation that stiffens arteries and raises pressure.
 
 ## Pathology
 
