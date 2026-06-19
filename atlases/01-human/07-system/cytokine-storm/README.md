@@ -268,6 +268,15 @@ cross_links:
   - target: 01-human/07-system/burkitt-lymphoma
     relation: connects-to
     note: "Treatment-triggered storms: Burkitt and other aggressive lymphomas can unleash cytokine release syndrome with CD19 immunotherapy and severe tumour lysis, acute systemic-inflammation emergencies."
+  - target: 02-pathogen/01-viruses/epstein-barr-virus
+    relation: connects-to
+    note: "EBV-driven HLH: Epstein-Barr virus is the classic trigger of secondary haemophagocytic lymphohistiocytosis, a prototypical cytokine storm of uncontrolled T-cell and macrophage activation."
+  - target: 02-pathogen/02-bacteria/staphylococcus-aureus
+    relation: connects-to
+    note: "Superantigen shock: staphylococcal TSST-1 and related superantigens cross-link T cells en masse, unleashing the massive cytokine release of toxic shock syndrome."
+  - target: 01-human/03-molecular/type-i-interferon
+    relation: connects-to
+    note: "Interferon-driven hyperinflammation: dysregulated type I interferon fuels the systemic inflammation of viral cytokine storms and interferonopathies, a double-edged antiviral response."
 ---
 
 # Cytokine Storm
@@ -442,6 +451,9 @@ CS drives a **consumptive coagulopathy (DIC)**:
 - `connects-to` → **[Arterial Wall](../../05-tissue/arterial-wall/README.md)** — Endothelial leak: the cytokine storm activates and disrupts the endothelium of the arterial wall and capillaries, causing the vascular leak, hypotension and oedema of severe systemic inflammation.
 - `connects-to` → **[RSV](../rsv/README.md)** — Inflammation injures the infant lung: severe RSV bronchiolitis drives an exaggerated cytokine response that damages airways and alveoli, a paediatric cytokine storm beyond direct viral injury.
 - `connects-to` → **[Burkitt Lymphoma](../burkitt-lymphoma/README.md)** — Treatment-triggered storms: Burkitt and other aggressive lymphomas can unleash cytokine release syndrome with CD19 immunotherapy and severe tumour lysis, acute systemic-inflammation emergencies.
+- `connects-to` → **[Epstein-Barr Virus](../../../02-pathogen/01-viruses/epstein-barr-virus/README.md)** — EBV-driven HLH: Epstein-Barr virus is the classic trigger of secondary haemophagocytic lymphohistiocytosis, a prototypical cytokine storm of uncontrolled T-cell and macrophage activation.
+- `connects-to` → **[Staphylococcus aureus](../../../02-pathogen/02-bacteria/staphylococcus-aureus/README.md)** — Superantigen shock: staphylococcal TSST-1 and related superantigens cross-link T cells en masse, unleashing the massive cytokine release of toxic shock syndrome.
+- `connects-to` → **[Type I Interferon](../../03-molecular/type-i-interferon/README.md)** — Interferon-driven hyperinflammation: dysregulated type I interferon fuels the systemic inflammation of viral cytokine storms and interferonopathies, a double-edged antiviral response.
 
 ## Pathology
 

@@ -268,6 +268,15 @@ cross_links:
   - target: 01-human/05-tissue/alveolus
     relation: connects-to
     note: "Mucus plugging reaches the air sacs: as CF lung disease advances, thick secretions and chronic infection extend into the small airways and alveoli, driving the respiratory failure that ends the disease."
+  - target: 01-human/03-molecular/tnf-alpha
+    relation: connects-to
+    note: "Self-sustaining inflammation: TNF-α amplifies the relentless neutrophilic airway inflammation of cystic fibrosis, joining IL-1β, IL-6 and IL-17 in the cytokine loop that destroys lung tissue."
+  - target: 01-human/04-cellular/hepatocyte
+    relation: connects-to
+    note: "Cystic fibrosis liver disease: defective CFTR in biliary epithelium plugs bile ducts and causes focal biliary cirrhosis, injuring hepatocytes and progressing to portal hypertension."
+  - target: 01-human/03-molecular/surfactant
+    relation: connects-to
+    note: "Compromised host defence: chronic inflammation and proteases degrade and inactivate pulmonary surfactant in cystic fibrosis, weakening innate immune defence and small-airway stability."
 ---
 
 # Cystic Fibrosis
@@ -479,6 +488,9 @@ AND
 - `connects-to` → **[Aspergillus fumigatus](../../../02-pathogen/03-fungi/aspergillus-fumigatus/README.md)** — Allergic and invasive fungus: Aspergillus fumigatus colonises CF airways, causing allergic bronchopulmonary aspergillosis (ABPA) that worsens airflow and accelerates lung decline.
 - `connects-to` → **[Influenza](../influenza/README.md)** — Viral exacerbations: respiratory viruses like influenza and RSV trigger severe pulmonary exacerbations in cystic fibrosis, accelerating lung decline and predisposing to bacterial superinfection.
 - `connects-to` → **[Alveolus](../../05-tissue/alveolus/README.md)** — Mucus plugging reaches the air sacs: as CF lung disease advances, thick secretions and chronic infection extend into the small airways and alveoli, driving the respiratory failure that ends the disease.
+- `connects-to` → **[TNF-α](../../03-molecular/tnf-alpha/README.md)** — Self-sustaining inflammation: TNF-α amplifies the relentless neutrophilic airway inflammation of cystic fibrosis, joining IL-1β, IL-6 and IL-17 in the cytokine loop that destroys lung tissue.
+- `connects-to` → **[Hepatocyte](../../04-cellular/hepatocyte/README.md)** — Cystic fibrosis liver disease: defective CFTR in biliary epithelium plugs bile ducts and causes focal biliary cirrhosis, injuring hepatocytes and progressing to portal hypertension.
+- `connects-to` → **[Surfactant](../../03-molecular/surfactant/README.md)** — Compromised host defence: chronic inflammation and proteases degrade and inactivate pulmonary surfactant in cystic fibrosis, weakening innate immune defence and small-airway stability.
 
 ---
 
