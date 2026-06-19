@@ -250,6 +250,15 @@ cross_links:
   - target: 01-human/07-system/neuroblastoma
     relation: connects-to
     note: "Two MYCN-driven neuroendocrine cancers: small-cell lung cancer and neuroblastoma are both small-round-blue-cell tumours with neuroendocrine differentiation and frequent MYC/MYCN amplification, explaining their aggressive, chemo-sensitive-but-relapsing course."
+  - target: 01-human/05-tissue/alveolus
+    relation: connects-to
+    note: "Central origin, early spread: SCLC arises centrally near the bronchi and disseminates early, seeding the alveolar bed and distant organs—the most aggressive lung cancer, usually widespread at diagnosis."
+  - target: 01-human/07-system/bladder-cancer
+    relation: connects-to
+    note: "Two heavily-smoking cancers: SCLC and bladder cancer share tobacco causation, and small-cell neuroendocrine carcinoma can also arise in the bladder, mirroring the lung tumour's aggressive histology."
+  - target: 01-human/05-tissue/germinal-center
+    relation: connects-to
+    note: "Why immunotherapy helps: SCLC's heavy smoking-driven mutation load and tertiary lymphoid structures make it visible to T cells, so adding PD-L1 (and CTLA-4) blockade improves survival in extensive-stage disease."
 ---
 
 # Small Cell Lung Cancer
@@ -437,6 +446,9 @@ SCLC has highest rate of brain metastases among solid tumors (~50% at 2 years); 
 - `connects-to` → **[Hippocampus](../../05-tissue/hippocampus/README.md)** — The price of protecting the brain: SCLC metastasises early to the brain, so prophylactic cranial irradiation is offered—but it damages the hippocampus and impairs memory, driving hippocampal-avoidance techniques.
 - `connects-to` → **[Hepatic Lobule](../../05-tissue/hepatic-lobule/README.md)** — It floods the liver fast: small-cell lung cancer metastasises early and widely, with the liver a frequent site where deposits fill the hepatic lobules and herald the extensive-stage disease that dominates at diagnosis.
 - `connects-to` → **[Neuroblastoma](../neuroblastoma/README.md)** — Two MYCN-driven neuroendocrine cancers: small-cell lung cancer and neuroblastoma are both small-round-blue-cell tumours with neuroendocrine differentiation and frequent MYC/MYCN amplification, explaining their aggressive, chemo-sensitive-but-relapsing course.
+- `connects-to` → **[Alveolus](../../05-tissue/alveolus/README.md)** — Central origin, early spread: SCLC arises centrally near the bronchi and disseminates early, seeding the alveolar bed and distant organs—the most aggressive lung cancer, usually widespread at diagnosis.
+- `connects-to` → **[Bladder Cancer](../bladder-cancer/README.md)** — Two heavily-smoking cancers: SCLC and bladder cancer share tobacco causation, and small-cell neuroendocrine carcinoma can also arise in the bladder, mirroring the lung tumour's aggressive histology.
+- `connects-to` → **[Germinal Center](../../05-tissue/germinal-center/README.md)** — Why immunotherapy helps: SCLC's heavy smoking-driven mutation load and tertiary lymphoid structures make it visible to T cells, so adding PD-L1 (and CTLA-4) blockade improves survival in extensive-stage disease.
 
 [^horn-2018-impower133]: Horn L, Mansfield AS, Szczęsna A, et al. First-line atezolizumab plus chemotherapy in extensive-stage small-cell lung cancer. *N Engl J Med.* 2018;379(23):2220-2229. [doi:10.1056/NEJMoa1809064](https://doi.org/10.1056/NEJMoa1809064) · [PubMed 30280641](https://pubmed.ncbi.nlm.nih.gov/30280641/)
 [^paz-ares-2019-caspian]: Paz-Ares L, Dvorkin M, Chen Y, et al. Durvalumab plus platinum-etoposide versus platinum-etoposide in first-line treatment of extensive-stage small-cell lung cancer (CASPIAN). *Lancet.* 2019;394(10212):1929-1939. [doi:10.1016/S0140-6736(19)32222-6](https://doi.org/10.1016/S0140-6736(19)32222-6) · [PubMed 31590988](https://pubmed.ncbi.nlm.nih.gov/31590988/)

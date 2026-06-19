@@ -256,6 +256,15 @@ cross_links:
   - target: 01-human/05-tissue/guillain-barre
     relation: connects-to
     note: "It strikes the peripheral nerves too: Sjögren's syndrome is a leading cause of sensory ataxic neuronopathy and small-fibre neuropathy—an autoimmune assault on peripheral nerves, distinct from but echoing Guillain-Barré."
+  - target: 01-human/05-tissue/alveolus
+    relation: connects-to
+    note: "Interstitial lung disease: Sjögren's lymphocytic infiltration reaches the lung, causing interstitial lung disease and cystic change around the alveoli, an underrecognised source of morbidity."
+  - target: 01-human/05-tissue/glomerulus
+    relation: connects-to
+    note: "Renal involvement: Sjögren's causes interstitial nephritis with distal renal tubular acidosis and, less often, a cryoglobulin-driven glomerulonephritis injuring the glomerulus."
+  - target: 01-human/07-system/cidp
+    relation: connects-to
+    note: "Neurological Sjögren: beyond a sensory ganglionopathy, Sjögren's can produce a CIDP-like chronic demyelinating neuropathy, part of its peripheral and central nervous-system involvement."
 ---
 
 # Sjögren's Syndrome
@@ -465,6 +474,9 @@ Sjögren's syndrome can occur:
 - `connects-to` → **[NMO](../nmo/README.md)** — A neuro-autoimmune overlap: Sjögren's syndrome can co-occur with neuromyelitis optica, the two sharing anti-Ro/aquaporin autoantibody biology and a type-I-interferon signature, so dry eyes and mouth may accompany optic neuritis and myelitis.
 - `connects-to` → **[Pemphigus Vulgaris](../pemphigus-vulgaris/README.md)** — A fellow autoantibody, B-cell disease: like pemphigus vulgaris, Sjögren's is driven by autoreactive B cells and autoantibodies and responds to rituximab, though Sjögren targets exocrine glands and pemphigus the skin's desmosomes.
 - `connects-to` → **[Guillain-Barré](../../05-tissue/guillain-barre/README.md)** — It strikes the peripheral nerves too: Sjögren's syndrome is a leading cause of sensory ataxic neuronopathy and small-fibre neuropathy—an autoimmune assault on peripheral nerves, distinct from but echoing Guillain-Barré.
+- `connects-to` → **[Alveolus](../../05-tissue/alveolus/README.md)** — Interstitial lung disease: Sjögren's lymphocytic infiltration reaches the lung, causing interstitial lung disease and cystic change around the alveoli, an underrecognised source of morbidity.
+- `connects-to` → **[Glomerulus](../../05-tissue/glomerulus/README.md)** — Renal involvement: Sjögren's causes interstitial nephritis with distal renal tubular acidosis and, less often, a cryoglobulin-driven glomerulonephritis injuring the glomerulus.
+- `connects-to` → **[CIDP](../cidp/README.md)** — Neurological Sjögren: beyond a sensory ganglionopathy, Sjögren's can produce a CIDP-like chronic demyelinating neuropathy, part of its peripheral and central nervous-system involvement.
 
 ---
 
