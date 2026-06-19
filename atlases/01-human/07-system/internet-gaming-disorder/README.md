@@ -231,6 +231,15 @@ cross_links:
   - target: 01-human/06-organ/adrenal-gland
     relation: connects-to
     note: "It dysregulates the stress axis: craving, withdrawal irritability and the chronic arousal of internet gaming disorder are tied to HPA-axis and cortisol dysregulation from the adrenal gland, as in other addictions."
+  - target: 01-human/05-tissue/cardiac-conduction-system
+    relation: connects-to
+    note: "Marathon sessions can stop the heart: rare sudden cardiac deaths during prolonged gaming reflect arrhythmias from sleep deprivation, dehydration and energy-drink caffeine straining the cardiac conduction system."
+  - target: 01-human/07-system/narcolepsy
+    relation: connects-to
+    note: "It wrecks the sleep-wake cycle: late-night internet gaming fragments sleep and shifts circadian rhythm, amplifying the daytime sleepiness that overlaps the hypersomnolence of narcolepsy."
+  - target: 01-human/05-tissue/arterial-wall
+    relation: connects-to
+    note: "Hours of sitting harm the vessels: the prolonged immobility of internet gaming promotes venous stasis and, over time, the sedentary endothelial dysfunction and atherosclerosis of the arterial wall."
 sources:
   - id: kuss-2012-gaming-disorder-review
     type: peer-reviewed
@@ -476,6 +485,9 @@ A pattern of persistent or recurrent gaming behavior characterized by:
 - `connects-to` → **[Anorexia Nervosa](../anorexia-nervosa/README.md)** — Compulsion in two forms: like the eating disorders, internet gaming disorder is a compulsive behaviour with impaired control and reward dysregulation, and disordered, irregular eating is common during prolonged gaming.
 - `connects-to` → **[Bulimia Nervosa](../bulimia-nervosa/README.md)** — Shared loss of control: bulimia nervosa and internet gaming disorder both feature binge-like loss of control followed by guilt, reflecting the overlapping impulsivity and reward circuitry of behavioural and eating disorders.
 - `connects-to` → **[Adrenal Gland](../../06-organ/adrenal-gland/README.md)** — It dysregulates the stress axis: craving, withdrawal irritability and the chronic arousal of internet gaming disorder are tied to HPA-axis and cortisol dysregulation from the adrenal gland, as in other addictions.
+- `connects-to` → **[Cardiac Conduction System](../../05-tissue/cardiac-conduction-system/README.md)** — Marathon sessions can stop the heart: rare sudden cardiac deaths during prolonged gaming reflect arrhythmias from sleep deprivation, dehydration and energy-drink caffeine straining the cardiac conduction system.
+- `connects-to` → **[Narcolepsy](../narcolepsy/README.md)** — It wrecks the sleep-wake cycle: late-night internet gaming fragments sleep and shifts circadian rhythm, amplifying the daytime sleepiness that overlaps the hypersomnolence of narcolepsy.
+- `connects-to` → **[Arterial Wall](../../05-tissue/arterial-wall/README.md)** — Hours of sitting harm the vessels: the prolonged immobility of internet gaming promotes venous stasis and, over time, the sedentary endothelial dysfunction and atherosclerosis of the arterial wall.
 
 [^kuss-2012-gaming-disorder-review]: Kuss DJ, Griffiths MD. Internet gaming addiction: a systematic review of empirical research. *Int J Ment Health Addict.* 2012;10(2):278-296. [doi:10.1007/s11469-011-9318-5](https://doi.org/10.1007/s11469-011-9318-5)
 [^who-icd11-gaming-disorder]: World Health Organization. ICD-11: Gaming Disorder (6C51). Geneva: WHO; 2019. [icd.who.int](https://icd.who.int/browse/2025-01/mms/en#1448597234)

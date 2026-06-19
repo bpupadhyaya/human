@@ -242,6 +242,15 @@ cross_links:
   - target: 01-human/05-tissue/fibrosis
     relation: connects-to
     note: "The skin scars and hardens: dermal fibrosis underlies hypertrophic scars and keloids after injury, the tight bound-down skin of scleroderma, and radiation dermatitis — excess collagen replacing the normal supple dermis."
+  - target: 01-human/07-system/gorlin-syndrome
+    relation: connects-to
+    note: "When the skin makes too many cancers: Gorlin (nevoid basal cell carcinoma) syndrome causes hundreds of basal cell carcinomas across the skin from germline PTCH1/Hedgehog activation, the heritable extreme of the skin's commonest cancer."
+  - target: 01-human/07-system/rothmund-thomson
+    relation: connects-to
+    note: "A congenital poikiloderma: Rothmund-Thomson syndrome marbles the skin with the reticulate pigmentation, telangiectasia and atrophy of poikiloderma, a genodermatosis from RECQL4 loss with photosensitivity and cancer risk."
+  - target: 01-human/07-system/werner-syndrome
+    relation: connects-to
+    note: "Premature ageing of the skin: Werner syndrome gives scleroderma-like tight, atrophic skin with intractable leg ulcers and early greying, a progeroid genodermatosis from WRN-helicase loss."
 ---
 
 # Integumentary System
@@ -422,6 +431,9 @@ Wound healing is a precisely orchestrated process in four overlapping phases [^g
 - `connects-to` → **[Checkpoint Inhibitors](../../../03-medicine/01-modern/13-cancer/checkpoint-inhibitors/README.md)** — The skin shows immunotherapy's signature: checkpoint inhibitors cause the commonest immune-related adverse events in the skin — maculopapular rash, pruritus, lichenoid eruptions and vitiligo — and also treat the melanoma and skin cancers arising there.
 - `connects-to` → **[Cancer Chemotherapy](../../../03-medicine/01-modern/13-cancer/cancer-chemotherapy/README.md)** — It writes its toxicity on the skin: cytotoxic chemotherapy causes alopecia, painful hand-foot syndrome, mucositis, nail changes and photosensitivity, the visible price of drugs that target all rapidly dividing cells including the skin.
 - `connects-to` → **[Fibrosis](../../05-tissue/fibrosis/README.md)** — The skin scars and hardens: dermal fibrosis underlies hypertrophic scars and keloids after injury, the tight bound-down skin of scleroderma, and radiation dermatitis — excess collagen replacing the normal supple dermis.
+- `connects-to` → **[Gorlin Syndrome](../gorlin-syndrome/README.md)** — When the skin makes too many cancers: Gorlin (nevoid basal cell carcinoma) syndrome causes hundreds of basal cell carcinomas across the skin from germline PTCH1/Hedgehog activation, the heritable extreme of the skin's commonest cancer.
+- `connects-to` → **[Rothmund-Thomson](../rothmund-thomson/README.md)** — A congenital poikiloderma: Rothmund-Thomson syndrome marbles the skin with the reticulate pigmentation, telangiectasia and atrophy of poikiloderma, a genodermatosis from RECQL4 loss with photosensitivity and cancer risk.
+- `connects-to` → **[Werner Syndrome](../werner-syndrome/README.md)** — Premature ageing of the skin: Werner syndrome gives scleroderma-like tight, atrophic skin with intractable leg ulcers and early greying, a progeroid genodermatosis from WRN-helicase loss.
 
 ## Pathology
 
