@@ -259,6 +259,15 @@ cross_links:
   - target: 01-human/07-system/peutz-jeghers-syndrome
     relation: connects-to
     note: "Another hamartomatous predisposition: STK11/LKB1 Peutz-Jeghers syndrome carries a high lifetime risk of colorectal and other GI cancers from its hamartomatous polyps, joining the hereditary colorectal-cancer syndromes."
+  - target: 01-human/05-tissue/alveolus
+    relation: connects-to
+    note: "Lung as a metastatic site: colorectal cancer—especially rectal tumours draining systemically—seeds the lungs after the liver, depositing nodules in the alveolar parenchyma that pulmonary metastasectomy can sometimes cure."
+  - target: 01-human/07-system/endometrial-cancer
+    relation: connects-to
+    note: "Lynch's other hallmark tumour: the mismatch-repair deficiency that drives hereditary colorectal cancer drives endometrial cancer just as strongly, so the two define the Lynch syndrome spectrum and share MSI-targeted immunotherapy."
+  - target: 01-human/05-tissue/myocardium
+    relation: connects-to
+    note: "Chemotherapy's cardiac risk: 5-fluorouracil, the backbone of colorectal cancer therapy, can provoke coronary vasospasm and ischaemia of the myocardium, an under-recognised cardiotoxicity that occasionally causes infarction."
 ---
 
 # Colorectal Cancer
@@ -455,6 +464,9 @@ The step-wise genetic progression from normal epithelium to carcinoma in CRC was
 - `connects-to` → **[Germinal Center](../../05-tissue/germinal-center/README.md)** — Why some colorectal cancers invite immunotherapy: mismatch-repair-deficient (MSI-high) tumours accumulate neoantigens and dense lymphocytic infiltrates with tertiary lymphoid structures, the immune richness behind their response to checkpoint blockade.
 - `connects-to` → **[Juvenile Polyposis Syndrome](../juvenile-polyposis-syndrome/README.md)** — A hamartomatous route to colorectal cancer: SMAD4/BMPR1A juvenile polyposis studs the colon with hamartomatous polyps that raise lifetime colorectal-cancer risk, a hereditary syndrome beyond the adenomatous FAP and Lynch.
 - `connects-to` → **[Peutz-Jeghers Syndrome](../peutz-jeghers-syndrome/README.md)** — Another hamartomatous predisposition: STK11/LKB1 Peutz-Jeghers syndrome carries a high lifetime risk of colorectal and other GI cancers from its hamartomatous polyps, joining the hereditary colorectal-cancer syndromes.
+- `connects-to` → **[Alveolus](../../05-tissue/alveolus/README.md)** — Lung as a metastatic site: colorectal cancer—especially rectal tumours draining systemically—seeds the lungs after the liver, depositing nodules in the alveolar parenchyma that pulmonary metastasectomy can sometimes cure.
+- `connects-to` → **[Endometrial Cancer](../endometrial-cancer/README.md)** — Lynch's other hallmark tumour: the mismatch-repair deficiency that drives hereditary colorectal cancer drives endometrial cancer just as strongly, so the two define the Lynch syndrome spectrum and share MSI-targeted immunotherapy.
+- `connects-to` → **[Myocardium](../../05-tissue/myocardium/README.md)** — Chemotherapy's cardiac risk: 5-fluorouracil, the backbone of colorectal cancer therapy, can provoke coronary vasospasm and ischaemia of the myocardium, an under-recognised cardiotoxicity that occasionally causes infarction.
 
 ---
 

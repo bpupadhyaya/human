@@ -240,6 +240,15 @@ cross_links:
   - target: 01-human/07-system/binge-eating-disorder
     relation: connects-to
     note: "The 'munchies' and disordered eating: cannabis stimulates appetite through CB1 signalling, and its reward and appetite effects overlap with binge-eating disorder, sharing the endocannabinoid drive behind hedonic eating."
+  - target: 01-human/05-tissue/arterial-wall
+    relation: connects-to
+    note: "Cannabis and the vessels: heavy cannabis use can trigger reversible cerebral vasoconstriction and a Buerger-like cannabis arteritis of the arterial wall, an under-recognised cause of stroke and limb ischaemia in young users."
+  - target: 01-human/07-system/osteoporosis
+    relation: connects-to
+    note: "Cannabinoids and bone: CB1 and CB2 receptors help regulate bone remodelling, and heavy cannabis use is associated with lower bone mineral density and a higher fracture risk."
+  - target: 01-human/07-system/autism-spectrum-disorder
+    relation: connects-to
+    note: "Prenatal exposure and the developing brain: maternal cannabis crosses the placenta and is linked to attention, cognitive and behavioural problems in offspring, with debated associations to neurodevelopmental conditions like autism."
 sources:
   - id: hasin-2015-cannabis-disorder
     type: peer-reviewed
@@ -469,6 +478,9 @@ Paradoxical syndrome in heavy long-term users: cyclic vomiting relieved by hot b
 - `connects-to` → **[Cardiac Conduction System](../../05-tissue/cardiac-conduction-system/README.md)** — THC strains the heart's rhythm: acute cannabis use raises heart rate and can trigger atrial and ventricular arrhythmias and even myocardial infarction in young users, a rising cause of cannabis-related cardiac events.
 - `connects-to` → **[Alveolus](../../05-tissue/alveolus/README.md)** — Smoke damages the air sacs: chronic cannabis smoking inflames the airways and can create large apical bullae that rupture as spontaneous pneumothorax, injuring the alveolar parenchyma despite cannabis's unclear link to emphysema.
 - `connects-to` → **[Binge-Eating Disorder](../binge-eating-disorder/README.md)** — The 'munchies' and disordered eating: cannabis stimulates appetite through CB1 signalling, and its reward and appetite effects overlap with binge-eating disorder, sharing the endocannabinoid drive behind hedonic eating.
+- `connects-to` → **[Arterial Wall](../../05-tissue/arterial-wall/README.md)** — Cannabis and the vessels: heavy cannabis use can trigger reversible cerebral vasoconstriction and a Buerger-like cannabis arteritis of the arterial wall, an under-recognised cause of stroke and limb ischaemia in young users.
+- `connects-to` → **[Osteoporosis](../osteoporosis/README.md)** — Cannabinoids and bone: CB1 and CB2 receptors help regulate bone remodelling, and heavy cannabis use is associated with lower bone mineral density and a higher fracture risk.
+- `connects-to` → **[Autism Spectrum Disorder](../autism-spectrum-disorder/README.md)** — Prenatal exposure and the developing brain: maternal cannabis crosses the placenta and is linked to attention, cognitive and behavioural problems in offspring, with debated associations to neurodevelopmental conditions like autism.
 
 [^hasin-2015-cannabis-disorder]: Hasin DS, Saha TD, Kerridge BT, et al. Prevalence of marijuana use disorders in the United States between 2001-2002 and 2012-2013. *JAMA Psychiatry.* 2015;72(12):1235-1242. [doi:10.1001/jamapsychiatry.2015.1858](https://doi.org/10.1001/jamapsychiatry.2015.1858) · [PubMed 26502112](https://pubmed.ncbi.nlm.nih.gov/26502112/)
 [^budney-2004-cannabis-withdrawal]: Budney AJ, Moore BA, Vandrey RG, Hughes JR. The time course and significance of cannabis withdrawal. *J Abnorm Psychol.* 2003;112(3):393-402. [doi:10.1037/0021-843X.112.3.393](https://doi.org/10.1037/0021-843X.112.3.393) · [PubMed 12943018](https://pubmed.ncbi.nlm.nih.gov/12943018/)
