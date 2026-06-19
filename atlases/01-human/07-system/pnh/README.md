@@ -253,6 +253,15 @@ cross_links:
   - target: 01-human/07-system/thrombotic-thrombocytopenic-purpura
     relation: connects-to
     note: "A differential of haemolytic anaemia: PNH and thrombotic thrombocytopenic purpura both cause intravascular haemolysis—PNH by complement lysis, TTP by microangiopathic shearing—distinguished by flow cytometry, the blood film and ADAMTS13."
+  - target: 01-human/07-system/myasthenia-gravis
+    relation: connects-to
+    note: "A complement-therapy bridge: the anti-C5 drugs (eculizumab, ravulizumab) that transformed PNH also treat complement-mediated diseases like myasthenia gravis, showing how one pathway links unrelated disorders."
+  - target: 01-human/07-system/nmo
+    relation: connects-to
+    note: "Shared complement blockade: as in PNH, terminal-complement inhibition with eculizumab controls aquaporin-4 neuromyelitis optica, uniting a haemolytic and a neurological disease through the same C5 target."
+  - target: 01-human/06-organ/placenta
+    relation: connects-to
+    note: "A dangerous mix with pregnancy: PNH sharply raises the already high thrombosis risk of pregnancy, threatening placental and maternal veins, so anticoagulation and complement inhibition are intensified throughout."
 ---
 
 # Paroxysmal Nocturnal Hemoglobinuria
@@ -423,6 +432,9 @@ When PIGA is mutated in an HSC → all progeny cells (RBCs, WBCs, platelets) of 
 - `connects-to` → **[Glomerulus](../../05-tissue/glomerulus/README.md)** — Free haemoglobin scars the kidney: chronic intravascular haemolysis in PNH spills haemoglobin that causes pigment nephropathy and tubular haemosiderosis, driving the chronic kidney disease that shortens survival.
 - `connects-to` → **[Arterial Wall](../../05-tissue/arterial-wall/README.md)** — It strips the blood of nitric oxide: free haemoglobin from PNH haemolysis scavenges nitric oxide, causing smooth-muscle dystonia, pulmonary hypertension and the prothrombotic vascular dysfunction central to the disease.
 - `connects-to` → **[Thrombotic Thrombocytopenic Purpura](../thrombotic-thrombocytopenic-purpura/README.md)** — A differential of haemolytic anaemia: PNH and thrombotic thrombocytopenic purpura both cause intravascular haemolysis—PNH by complement lysis, TTP by microangiopathic shearing—distinguished by flow cytometry, the blood film and ADAMTS13.
+- `connects-to` → **[Myasthenia Gravis](../myasthenia-gravis/README.md)** — A complement-therapy bridge: the anti-C5 drugs (eculizumab, ravulizumab) that transformed PNH also treat complement-mediated diseases like myasthenia gravis, showing how one pathway links unrelated disorders.
+- `connects-to` → **[NMO](../nmo/README.md)** — Shared complement blockade: as in PNH, terminal-complement inhibition with eculizumab controls aquaporin-4 neuromyelitis optica, uniting a haemolytic and a neurological disease through the same C5 target.
+- `connects-to` → **[Placenta](../../06-organ/placenta/README.md)** — A dangerous mix with pregnancy: PNH sharply raises the already high thrombosis risk of pregnancy, threatening placental and maternal veins, so anticoagulation and complement inhibition are intensified throughout.
 
 ---
 
