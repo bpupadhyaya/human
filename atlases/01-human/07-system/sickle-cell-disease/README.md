@@ -271,6 +271,15 @@ cross_links:
   - target: 01-human/05-tissue/germinal-center
     relation: connects-to
     note: "Functional asplenia and immunity: autoinfarction of the spleen removes a key site of germinal-centre responses to encapsulated bacteria, mandating vaccination and penicillin prophylaxis in sickle cell disease."
+  - target: 01-human/07-system/rsv
+    relation: connects-to
+    note: "Acute chest syndrome trigger: RSV and other respiratory viruses precipitate acute chest syndrome—the vaso-occlusive lung crisis that is a leading cause of death in sickle cell disease."
+  - target: 01-human/07-system/gvhd
+    relation: connects-to
+    note: "A curative transplant's risk: allogeneic stem-cell transplant can cure sickle cell disease but carries graft-versus-host disease, the key trade-off alongside newer gene therapies."
+  - target: 01-human/05-tissue/cardiac-conduction-system
+    relation: connects-to
+    note: "Iron and rhythm: chronic haemolysis and transfusional iron load the heart in sickle cell disease, scarring the myocardium and conduction system toward arrhythmia and sudden death."
 ---
 
 # Sickle Cell Disease
@@ -514,6 +523,9 @@ SCD vaso-occlusion is not just from sickled RBCs mechanically blocking vessels �
 - `connects-to` → **[Arterial Wall](../../05-tissue/arterial-wall/README.md)** — Vasculopathy and stroke: sickle cell disease damages the arterial wall, narrowing cerebral arteries into a moyamoya pattern that causes the strokes screened for with transcranial Doppler in children.
 - `connects-to` → **[Myocardium](../../05-tissue/myocardium/README.md)** — Iron-overload cardiomyopathy: repeated transfusions for sickle cell disease deposit iron in the myocardium, causing cardiomyopathy and arrhythmia unless removed by chelation.
 - `connects-to` → **[Germinal Center](../../05-tissue/germinal-center/README.md)** — Functional asplenia and immunity: autoinfarction of the spleen removes a key site of germinal-centre responses to encapsulated bacteria, mandating vaccination and penicillin prophylaxis in sickle cell disease.
+- `connects-to` → **[RSV](../rsv/README.md)** — Acute chest syndrome trigger: RSV and other respiratory viruses precipitate acute chest syndrome—the vaso-occlusive lung crisis that is a leading cause of death in sickle cell disease.
+- `connects-to` → **[GVHD](../gvhd/README.md)** — A curative transplant's risk: allogeneic stem-cell transplant can cure sickle cell disease but carries graft-versus-host disease, the key trade-off alongside newer gene therapies.
+- `connects-to` → **[Cardiac Conduction System](../../05-tissue/cardiac-conduction-system/README.md)** — Iron and rhythm: chronic haemolysis and transfusional iron load the heart in sickle cell disease, scarring the myocardium and conduction system toward arrhythmia and sudden death.
 
 [^steinberg-1999-scd-management]: Steinberg MH. Management of sickle cell disease. *N Engl J Med.* 1999;340(13):1021-1030. [doi:10.1056/NEJM199904013401307](https://doi.org/10.1056/NEJM199904013401307) · [PubMed 10099145](https://pubmed.ncbi.nlm.nih.gov/10099145/)
 [^vichinsky-2000-acs-scd]: Vichinsky EP, Neumayr LD, Earles AN, et al. Causes and outcomes of the acute chest syndrome in sickle cell disease. *N Engl J Med.* 2000;342(25):1855-1865. [doi:10.1056/NEJM200006223422502](https://doi.org/10.1056/NEJM200006223422502) · [PubMed 10861320](https://pubmed.ncbi.nlm.nih.gov/10861320/)

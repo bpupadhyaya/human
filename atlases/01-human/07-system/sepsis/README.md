@@ -271,6 +271,15 @@ cross_links:
   - target: 01-human/07-system/covid-19-disease
     relation: connects-to
     note: "Viral sepsis: severe COVID-19 is a form of viral sepsis, the dysregulated host response and multi-organ failure mirroring bacterial sepsis despite the viral trigger."
+  - target: 01-human/05-tissue/peripheral-nerve
+    relation: connects-to
+    note: "ICU-acquired weakness: critical illness polyneuropathy and myopathy from sepsis damage peripheral nerves and muscle, leaving survivors with profound, prolonged weakness after the infection resolves."
+  - target: 01-human/07-system/alzheimers-disease
+    relation: connects-to
+    note: "Post-sepsis brain: severe sepsis accelerates long-term cognitive decline and raises dementia risk through neuroinflammation, microvascular injury and hypoperfusion of the brain."
+  - target: 01-human/05-tissue/cardiac-conduction-system
+    relation: connects-to
+    note: "Septic arrhythmia: sepsis frequently triggers new-onset atrial fibrillation and conduction disturbances through inflammation, catecholamine surge and electrolyte shifts in the conduction system."
 ---
 
 # Sepsis
@@ -461,6 +470,9 @@ Sepsis is not localized to one system — it manifests as dysfunction across mul
 - `connects-to` → **[Arterial Wall](../../05-tissue/arterial-wall/README.md)** — Vascular collapse: sepsis paralyses the arterial wall—nitric-oxide-driven vasodilation and endothelial leak cause the refractory hypotension and tissue hypoperfusion of septic shock.
 - `connects-to` → **[Type 2 Diabetes](../type-2-diabetes/README.md)** — A risk factor and amplifier: diabetes impairs immune defence and raises both the incidence and severity of sepsis, while critical illness drives stress hyperglycaemia that worsens outcomes.
 - `connects-to` → **[COVID-19 Disease](../covid-19-disease/README.md)** — Viral sepsis: severe COVID-19 is a form of viral sepsis, the dysregulated host response and multi-organ failure mirroring bacterial sepsis despite the viral trigger.
+- `connects-to` → **[Peripheral Nerve](../../05-tissue/peripheral-nerve/README.md)** — ICU-acquired weakness: critical illness polyneuropathy and myopathy from sepsis damage peripheral nerves and muscle, leaving survivors with profound, prolonged weakness after the infection resolves.
+- `connects-to` → **[Alzheimer's Disease](../alzheimers-disease/README.md)** — Post-sepsis brain: severe sepsis accelerates long-term cognitive decline and raises dementia risk through neuroinflammation, microvascular injury and hypoperfusion of the brain.
+- `connects-to` → **[Cardiac Conduction System](../../05-tissue/cardiac-conduction-system/README.md)** — Septic arrhythmia: sepsis frequently triggers new-onset atrial fibrillation and conduction disturbances through inflammation, catecholamine surge and electrolyte shifts in the conduction system.
 - `treated-by` → **[Vancomycin](../../../03-medicine/01-modern/06-antimicrobial/vancomycin/README.md)** — First-line empiric IV therapy for MRSA bacteremia and gram-positive sepsis; added to beta-lactam empiric regimens when MRSA risk is elevated; AUC/MIC-guided dosing (IDSA 2021); MIC ≤1 mg/L required for endocarditis; daptomycin alternative for high MIC.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
