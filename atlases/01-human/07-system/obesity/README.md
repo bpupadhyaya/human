@@ -262,6 +262,15 @@ cross_links:
   - target: 01-human/05-tissue/glomerulus
     relation: connects-to
     note: "It overworks the kidney's filter: obesity causes glomerular hyperfiltration and a secondary focal segmental glomerulosclerosis—obesity-related glomerulopathy—an under-recognised cause of proteinuria and chronic kidney disease."
+  - target: 01-human/07-system/covid-19-disease
+    relation: connects-to
+    note: "A leading driver of severe COVID: obesity was among the strongest predictors of severe COVID-19, through impaired ventilation, a pro-inflammatory adipose milieu and underlying endothelial dysfunction."
+  - target: 01-human/07-system/alzheimers-disease
+    relation: connects-to
+    note: "Midlife adiposity and the brain: midlife obesity raises the risk of later dementia, with insulin resistance, vascular injury and chronic neuroinflammation linking excess fat to Alzheimer's disease."
+  - target: 01-human/07-system/multiple-myeloma
+    relation: connects-to
+    note: "An overlooked cancer link: obesity is an established risk factor for multiple myeloma and for the progression of its precursor MGUS, adding a haematologic malignancy to obesity's cancer toll."
 ---
 
 # Obesity
@@ -483,6 +492,9 @@ This **metainflammation** mechanistically links obesity to type 2 diabetes, athe
 - `connects-to` → **[Binge-Eating Disorder](../binge-eating-disorder/README.md)** — The commonest eating disorder behind it: binge-eating disorder, with recurrent loss-of-control overeating, is a major driver of weight gain and obesity, and treating it (CBT, lisdexamfetamine) aids weight control.
 - `connects-to` → **[Arterial Wall](../../05-tissue/arterial-wall/README.md)** — It hardens the arteries: obesity accelerates atherosclerosis and arterial stiffening through chronic low-grade inflammation, insulin resistance and dyslipidaemia, the vascular path to its cardiovascular disease.
 - `connects-to` → **[Glomerulus](../../05-tissue/glomerulus/README.md)** — It overworks the kidney's filter: obesity causes glomerular hyperfiltration and a secondary focal segmental glomerulosclerosis—obesity-related glomerulopathy—an under-recognised cause of proteinuria and chronic kidney disease.
+- `connects-to` → **[COVID-19](../covid-19-disease/README.md)** — A leading driver of severe COVID: obesity was among the strongest predictors of severe COVID-19, through impaired ventilation, a pro-inflammatory adipose milieu and underlying endothelial dysfunction.
+- `connects-to` → **[Alzheimer's Disease](../alzheimers-disease/README.md)** — Midlife adiposity and the brain: midlife obesity raises the risk of later dementia, with insulin resistance, vascular injury and chronic neuroinflammation linking excess fat to Alzheimer's disease.
+- `connects-to` → **[Multiple Myeloma](../multiple-myeloma/README.md)** — An overlooked cancer link: obesity is an established risk factor for multiple myeloma and for the progression of its precursor MGUS, adding a haematologic malignancy to obesity's cancer toll.
 
 [^bluher-2019-obesity-review]: Blüher M. Obesity: global epidemiology and pathogenesis. *Nat Rev Endocrinol.* 2019;15(5):288-298. [doi:10.1038/s41574-019-0176-8](https://doi.org/10.1038/s41574-019-0176-8) · [PubMed 30814686](https://pubmed.ncbi.nlm.nih.gov/30814686/)
 [^wilding-2021-semaglutide-step1]: Wilding JPH, Batterham RL, Calanna S, et al. Once-weekly semaglutide in adults with overweight or obesity. *N Engl J Med.* 2021;384(11):989-1002. [doi:10.1056/NEJMoa2032183](https://doi.org/10.1056/NEJMoa2032183) · [PubMed 33567185](https://pubmed.ncbi.nlm.nih.gov/33567185/)

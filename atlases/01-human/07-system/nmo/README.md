@@ -265,6 +265,15 @@ cross_links:
   - target: 01-human/07-system/immune-thrombocytopenia
     relation: connects-to
     note: "Antibody-mediated autoimmunity that can coexist: like immune thrombocytopenia, NMO is an organ-specific autoantibody disease cleared by B-cell depletion, and the two can occur together in autoimmune-prone patients."
+  - target: 01-human/05-tissue/germinal-center
+    relation: connects-to
+    note: "Where the autoantibody is made: AQP4-IgG in neuromyelitis optica is produced by plasmablasts from germinal-centre B-cell responses, the target of B-cell-depleting and IL-6 (Tfh) therapies like rituximab and satralizumab."
+  - target: 01-human/07-system/antiphospholipid-syndrome
+    relation: connects-to
+    note: "Clustering autoimmunity: neuromyelitis optica frequently coexists with systemic autoimmune diseases including antiphospholipid syndrome and lupus, reflecting a shared predisposition to pathogenic autoantibody production."
+  - target: 01-human/07-system/sclc
+    relation: connects-to
+    note: "A paraneoplastic trigger: AQP4-antibody NMO is occasionally paraneoplastic, reported with cancers including small-cell lung cancer, so a new diagnosis in an older smoker can prompt a tumour search."
 ---
 
 # NMOSD
@@ -493,6 +502,9 @@ NMOSD impairs CNS function through three attack-related mechanisms:
 - `connects-to` → **[Pemphigus Vulgaris](../pemphigus-vulgaris/README.md)** — Antibody-and-complement disease in common: like pemphigus vulgaris, neuromyelitis optica is driven by pathogenic IgG and complement and responds to B-cell depletion (rituximab, inebilizumab)—autoimmunity striking the CNS rather than the skin.
 - `connects-to` → **[Breast Cancer](../breast-cancer/README.md)** — It can be paraneoplastic: aquaporin-4 neuromyelitis optica is occasionally a paraneoplastic syndrome, reported with breast and lung cancers, so new NMO in an older adult may prompt a malignancy search.
 - `connects-to` → **[Immune Thrombocytopenia](../immune-thrombocytopenia/README.md)** — Antibody-mediated autoimmunity that can coexist: like immune thrombocytopenia, NMO is an organ-specific autoantibody disease cleared by B-cell depletion, and the two can occur together in autoimmune-prone patients.
+- `connects-to` → **[Germinal Center](../../05-tissue/germinal-center/README.md)** — Where the autoantibody is made: AQP4-IgG in neuromyelitis optica is produced by plasmablasts from germinal-centre B-cell responses, the target of B-cell-depleting and IL-6 (Tfh) therapies like rituximab and satralizumab.
+- `connects-to` → **[Antiphospholipid Syndrome](../antiphospholipid-syndrome/README.md)** — Clustering autoimmunity: neuromyelitis optica frequently coexists with systemic autoimmune diseases including antiphospholipid syndrome and lupus, reflecting a shared predisposition to pathogenic autoantibody production.
+- `connects-to` → **[SCLC](../sclc/README.md)** — A paraneoplastic trigger: AQP4-antibody NMO is occasionally paraneoplastic, reported with cancers including small-cell lung cancer, so a new diagnosis in an older smoker can prompt a tumour search.
 
 [^wingerchuk-2015-nmosd-criteria]: Wingerchuk DM, Banwell B, Bennett JL, et al. International consensus diagnostic criteria for neuromyelitis optica spectrum disorders. *Neurology.* 2015;85(2):177-189. [doi:10.1212/WNL.0000000000001729](https://doi.org/10.1212/WNL.0000000000001729) · [PubMed 26092914](https://pubmed.ncbi.nlm.nih.gov/26092914/)
 [^pittock-2019-eculizumab-prevent]: Pittock SJ, Berthele A, Fujihara K, et al. Eculizumab in Aquaporin-4-Positive Neuromyelitis Optica Spectrum Disorder. *N Engl J Med.* 2019;381(7):614-625. [doi:10.1056/NEJMoa1900866](https://doi.org/10.1056/NEJMoa1900866) · [PubMed 31050279](https://pubmed.ncbi.nlm.nih.gov/31050279/)
