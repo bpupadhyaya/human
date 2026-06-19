@@ -256,6 +256,15 @@ cross_links:
   - target: 01-human/05-tissue/myocardium
     relation: connects-to
     note: "Its acute drugs squeeze the coronaries: triptans and ergots cause vasoconstriction and are contraindicated in coronary disease, and migraine with aura independently raises the risk of myocardial infarction."
+  - target: 01-human/03-molecular/orexin
+    relation: connects-to
+    note: "The hypothalamic trigger: orexin signalling from the hypothalamus is implicated in migraine's premonitory phase—yawning, food craving and fatigue—and in the tight link between migraine and disrupted sleep."
+  - target: 01-human/05-tissue/hippocampus
+    relation: connects-to
+    note: "Why chronic migraine clouds memory: repeated attacks and the stress of recurrent pain remodel the hippocampus, tying migraine to memory complaints and its comorbidity with anxiety and depression."
+  - target: 01-human/06-organ/thyroid
+    relation: connects-to
+    note: "A two-way thyroid link: hypothyroidism is commoner in people with migraine and migraine commoner in thyroid disease, likely through shared autonomic and inflammatory pathways."
 ---
 
 # Migraine
@@ -472,6 +481,9 @@ Episodic migraine (EM, <15 headache days/month) transforms to **chronic migraine
 - `connects-to` → **[Targeted Therapy](../../../03-medicine/01-modern/13-cancer/targeted-therapy/README.md)** — Anti-CGRP biology transformed it: monoclonal antibodies against CGRP or its receptor (erenumab, fremanezumab) and oral gepants prevent and abort migraine by blocking the neuropeptide central to the trigeminovascular attack.
 - `connects-to` → **[Arterial Wall](../../05-tissue/arterial-wall/README.md)** — It is a neurovascular disorder: migraine engages the trigeminovascular system and meningeal arteries, and migraine with aura raises the risk of ischaemic stroke and arterial-wall disease, especially with oestrogen and smoking.
 - `connects-to` → **[Myocardium](../../05-tissue/myocardium/README.md)** — Its acute drugs squeeze the coronaries: triptans and ergots cause vasoconstriction and are contraindicated in coronary disease, and migraine with aura independently raises the risk of myocardial infarction.
+- `connects-to` → **[Orexin](../../03-molecular/orexin/README.md)** — The hypothalamic trigger: orexin signalling from the hypothalamus is implicated in migraine's premonitory phase—yawning, food craving and fatigue—and in the tight link between migraine and disrupted sleep.
+- `connects-to` → **[Hippocampus](../../05-tissue/hippocampus/README.md)** — Why chronic migraine clouds memory: repeated attacks and the stress of recurrent pain remodel the hippocampus, tying migraine to memory complaints and its comorbidity with anxiety and depression.
+- `connects-to` → **[Thyroid](../../06-organ/thyroid/README.md)** — A two-way thyroid link: hypothyroidism is commoner in people with migraine and migraine commoner in thyroid disease, likely through shared autonomic and inflammatory pathways.
 
 [^gbd-2016-migraine-burden]: GBD 2016 Headache Collaborators. Global, regional, and national burden of migraine and tension-type headache, 1990-2016. *Lancet Neurol.* 2018;17(11):954-976. [doi:10.1016/S1474-4422(18)30322-3](https://doi.org/10.1016/S1474-4422(18)30322-3) · [PubMed 30353868](https://pubmed.ncbi.nlm.nih.gov/30353868/)
 [^goadsby-2002-migraine-review]: Goadsby PJ, Lipton RB, Ferrari MD. Migraine — current understanding and treatment. *N Engl J Med.* 2002;346(4):257-270. [doi:10.1056/NEJMra010917](https://doi.org/10.1056/NEJMra010917) · [PubMed 11807151](https://pubmed.ncbi.nlm.nih.gov/11807151/)

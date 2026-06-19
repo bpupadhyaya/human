@@ -254,6 +254,15 @@ cross_links:
   - target: 01-human/05-tissue/synapse
     relation: connects-to
     note: "It can persist and spread neuron to neuron: in rare subacute sclerosing panencephalitis, mutant measles virus persists in the brain and spreads trans-synaptically years after infection, causing fatal progressive neurodegeneration."
+  - target: 01-human/07-system/multiple-myeloma
+    relation: connects-to
+    note: "From pathogen to cancer cure: an engineered oncolytic measles virus selectively infects and lyses myeloma cells via the CD46 receptor, a striking repurposing of a vaccine-preventable virus as cancer therapy."
+  - target: 01-human/05-tissue/myocardium
+    relation: connects-to
+    note: "Measles can inflame the heart: myocarditis is a rare complication of severe measles, viral inflammation of the myocardium that can provoke arrhythmia and transient heart failure."
+  - target: 01-human/07-system/asthma
+    relation: connects-to
+    note: "Infection and the allergic airway: by transiently rewiring immunity, measles has been studied for whether it raises or lowers later asthma and allergy risk—an unresolved strand of the hygiene-hypothesis debate."
 ---
 
 # Measles
@@ -477,6 +486,9 @@ Beyond immune amnesia (memory B cell depletion), MV causes acute immune suppress
 - `connects-to` → **[Germinal Center](../../05-tissue/germinal-center/README.md)** — It erases immune memory: measles infects and depletes memory B and T cells in lymphoid germinal centres, causing 'immune amnesia' that wipes out prior immunity and raises mortality from other infections for years.
 - `connects-to` → **[Autism Spectrum Disorder](../autism-spectrum-disorder/README.md)** — The disproven MMR-autism myth: a fraudulent 1998 study falsely linked the measles vaccine to autism; the claim is thoroughly debunked, but the resulting vaccine hesitancy has driven measles resurgence.
 - `connects-to` → **[Synapse](../../05-tissue/synapse/README.md)** — It can persist and spread neuron to neuron: in rare subacute sclerosing panencephalitis, mutant measles virus persists in the brain and spreads trans-synaptically years after infection, causing fatal progressive neurodegeneration.
+- `connects-to` → **[Multiple Myeloma](../multiple-myeloma/README.md)** — From pathogen to cancer cure: an engineered oncolytic measles virus selectively infects and lyses myeloma cells via the CD46 receptor, a striking repurposing of a vaccine-preventable virus as cancer therapy.
+- `connects-to` → **[Myocardium](../../05-tissue/myocardium/README.md)** — Measles can inflame the heart: myocarditis is a rare complication of severe measles, viral inflammation of the myocardium that can provoke arrhythmia and transient heart failure.
+- `connects-to` → **[Asthma](../asthma/README.md)** — Infection and the allergic airway: by transiently rewiring immunity, measles has been studied for whether it raises or lowers later asthma and allergy risk—an unresolved strand of the hygiene-hypothesis debate.
 
 [^panum-1847-faroe-measles]: Panum PL. Observations made during the epidemic of measles on the Faroe Islands in the year 1846. *Med Classics.* 1939;3:829-886.
 [^mina-2019-immune-amnesia]: Mina MJ, Kula T, Leng Y, et al. Measles virus infection diminishes preexisting antibodies that offer protection from other pathogens. *Science.* 2019;366(6465):599-606. [doi:10.1126/science.aay6485](https://doi.org/10.1126/science.aay6485) · [PubMed 31672891](https://pubmed.ncbi.nlm.nih.gov/31672891/)
