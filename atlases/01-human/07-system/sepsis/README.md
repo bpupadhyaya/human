@@ -262,6 +262,15 @@ cross_links:
   - target: 01-human/05-tissue/intestinal-epithelium
     relation: connects-to
     note: "The gut as motor of sepsis: shock and inflammation break down the intestinal barrier, letting bacteria and toxins translocate and amplify systemic inflammation—a driver of multi-organ failure."
+  - target: 01-human/05-tissue/arterial-wall
+    relation: connects-to
+    note: "Vascular collapse: sepsis paralyses the arterial wall—nitric-oxide-driven vasodilation and endothelial leak cause the refractory hypotension and tissue hypoperfusion of septic shock."
+  - target: 01-human/07-system/type-2-diabetes
+    relation: connects-to
+    note: "A risk factor and amplifier: diabetes impairs immune defence and raises both the incidence and severity of sepsis, while critical illness drives stress hyperglycaemia that worsens outcomes."
+  - target: 01-human/07-system/covid-19-disease
+    relation: connects-to
+    note: "Viral sepsis: severe COVID-19 is a form of viral sepsis, the dysregulated host response and multi-organ failure mirroring bacterial sepsis despite the viral trigger."
 ---
 
 # Sepsis
@@ -449,6 +458,9 @@ Sepsis is not localized to one system — it manifests as dysfunction across mul
 - `connects-to` → **[Sickle Cell Disease](../sickle-cell-disease/README.md)** — Asplenia invites overwhelming sepsis: sickle cell disease destroys the spleen, leaving patients prone to fulminant infection by encapsulated bacteria—the reason for penicillin prophylaxis and pneumococcal vaccination.
 - `connects-to` → **[Glomerulus](../../05-tissue/glomerulus/README.md)** — Septic acute kidney injury: sepsis is the leading cause of AKI in the ICU, microvascular injury and inflammation impairing the glomerulus and tubules to drive oliguria and rising creatinine.
 - `connects-to` → **[Intestinal Epithelium](../../05-tissue/intestinal-epithelium/README.md)** — The gut as motor of sepsis: shock and inflammation break down the intestinal barrier, letting bacteria and toxins translocate and amplify systemic inflammation—a driver of multi-organ failure.
+- `connects-to` → **[Arterial Wall](../../05-tissue/arterial-wall/README.md)** — Vascular collapse: sepsis paralyses the arterial wall—nitric-oxide-driven vasodilation and endothelial leak cause the refractory hypotension and tissue hypoperfusion of septic shock.
+- `connects-to` → **[Type 2 Diabetes](../type-2-diabetes/README.md)** — A risk factor and amplifier: diabetes impairs immune defence and raises both the incidence and severity of sepsis, while critical illness drives stress hyperglycaemia that worsens outcomes.
+- `connects-to` → **[COVID-19 Disease](../covid-19-disease/README.md)** — Viral sepsis: severe COVID-19 is a form of viral sepsis, the dysregulated host response and multi-organ failure mirroring bacterial sepsis despite the viral trigger.
 - `treated-by` → **[Vancomycin](../../../03-medicine/01-modern/06-antimicrobial/vancomycin/README.md)** — First-line empiric IV therapy for MRSA bacteremia and gram-positive sepsis; added to beta-lactam empiric regimens when MRSA risk is elevated; AUC/MIC-guided dosing (IDSA 2021); MIC ≤1 mg/L required for endocarditis; daptomycin alternative for high MIC.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
