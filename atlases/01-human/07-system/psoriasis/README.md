@@ -268,6 +268,15 @@ cross_links:
   - target: 01-human/07-system/social-anxiety-disorder
     relation: connects-to
     note: "The psychosocial wound: visible psoriatic plaques carry stigma that drives social anxiety, avoidance and depression, a quality-of-life burden disproportionate to the body-surface area involved."
+  - target: 01-human/07-system/ptcl
+    relation: connects-to
+    note: "A great mimic: cutaneous T-cell lymphoma (mycosis fungoides) produces scaly erythematous plaques that imitate psoriasis and is sometimes mistreated as it for years, a malignant differential to keep in mind."
+  - target: 01-human/03-molecular/vegf
+    relation: connects-to
+    note: "Dermal angiogenesis: psoriatic plaques are richly vascularised through VEGF-driven new vessel growth in the dermal papillae, the basis of the pinpoint bleeding (Auspitz sign) when a scale is removed."
+  - target: 01-human/07-system/covid-19-disease
+    relation: connects-to
+    note: "Flares and immunosuppression: COVID-19 and its vaccines can trigger psoriasis flares, while the biologics that control it raised questions about infection risk during the pandemic."
 ---
 
 # Psoriasis
@@ -466,6 +475,9 @@ Differential: Seborrheic dermatitis (common), pityriasis rosea (herald patch, Ch
 - `connects-to` → **[Type 1 Diabetes](../type-1-diabetes/README.md)** — Shared autoimmune ground: psoriasis is associated with a higher risk of type 1 diabetes, the two sharing immune-regulatory susceptibility loci beyond psoriasis's better-known link to type 2 diabetes.
 - `connects-to` → **[Heart Failure](../heart-failure/README.md)** — Inflammation and the failing heart: severe psoriasis independently raises the risk of heart failure, its chronic systemic inflammation contributing beyond shared cardiovascular risk factors.
 - `connects-to` → **[Social Anxiety Disorder](../social-anxiety-disorder/README.md)** — The psychosocial wound: visible psoriatic plaques carry stigma that drives social anxiety, avoidance and depression, a quality-of-life burden disproportionate to the body-surface area involved.
+- `connects-to` → **[PTCL](../ptcl/README.md)** — A great mimic: cutaneous T-cell lymphoma (mycosis fungoides) produces scaly erythematous plaques that imitate psoriasis and is sometimes mistreated as it for years, a malignant differential to keep in mind.
+- `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — Dermal angiogenesis: psoriatic plaques are richly vascularised through VEGF-driven new vessel growth in the dermal papillae, the basis of the pinpoint bleeding (Auspitz sign) when a scale is removed.
+- `connects-to` → **[COVID-19 Disease](../covid-19-disease/README.md)** — Flares and immunosuppression: COVID-19 and its vaccines can trigger psoriasis flares, while the biologics that control it raised questions about infection risk during the pandemic.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 

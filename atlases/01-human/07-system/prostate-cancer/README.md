@@ -268,6 +268,15 @@ cross_links:
   - target: 01-human/07-system/disseminated-intravascular-coagulation
     relation: connects-to
     note: "A textbook cause of cancer DIC: metastatic prostate cancer is a classic trigger of chronic disseminated intravascular coagulation, its tumour procoagulants driving simultaneous clotting and bleeding."
+  - target: 01-human/07-system/retinoblastoma
+    relation: connects-to
+    note: "RB1 and lethal transformation: loss of RB1, the retinoblastoma gene, drives treatment-emergent neuroendocrine (small-cell) prostate cancer, an aggressive androgen-independent transformation under therapy pressure."
+  - target: 01-human/07-system/atherosclerosis
+    relation: connects-to
+    note: "The cardiovascular cost of ADT: androgen-deprivation therapy induces metabolic syndrome and accelerates atherosclerosis, so cardiovascular disease is a leading cause of non-cancer death in prostate cancer survivors."
+  - target: 01-human/05-tissue/peripheral-nerve
+    relation: connects-to
+    note: "Metastatic cord compression: prostate cancer's bone-tropic spinal metastases can collapse vertebrae and compress the spinal cord and nerve roots, an oncologic emergency threatening permanent paralysis."
 ---
 
 # Prostate Cancer
@@ -478,6 +487,9 @@ cross_links:
 - `connects-to` → **[Hepatic Lobule](../../05-tissue/hepatic-lobule/README.md)** — Liver spread marks aggressive disease: visceral metastasis to the hepatic lobules, uncommon in indolent prostate cancer, signals aggressive or neuroendocrine castration-resistant disease with a poor prognosis.
 - `connects-to` → **[Melanoma](../melanoma/README.md)** — A shared BRCA2 risk: germline BRCA2 mutations raise the risk of aggressive prostate cancer alongside breast, ovarian, pancreatic cancer and melanoma, defining a hereditary cancer spectrum that guides screening.
 - `connects-to` → **[Disseminated Intravascular Coagulation](../disseminated-intravascular-coagulation/README.md)** — A textbook cause of cancer DIC: metastatic prostate cancer is a classic trigger of chronic disseminated intravascular coagulation, its tumour procoagulants driving simultaneous clotting and bleeding.
+- `connects-to` → **[Retinoblastoma](../retinoblastoma/README.md)** — RB1 and lethal transformation: loss of RB1, the retinoblastoma gene, drives treatment-emergent neuroendocrine (small-cell) prostate cancer, an aggressive androgen-independent transformation under therapy pressure.
+- `connects-to` → **[Atherosclerosis](../atherosclerosis/README.md)** — The cardiovascular cost of ADT: androgen-deprivation therapy induces metabolic syndrome and accelerates atherosclerosis, so cardiovascular disease is a leading cause of non-cancer death in prostate cancer survivors.
+- `connects-to` → **[Peripheral Nerve](../../05-tissue/peripheral-nerve/README.md)** — Metastatic cord compression: prostate cancer's bone-tropic spinal metastases can collapse vertebrae and compress the spinal cord and nerve roots, an oncologic emergency threatening permanent paralysis.
 
 [^beer-2014-prevail]: Beer TM, Armstrong AJ, Rathkopf D, et al. Enzalutamide in metastatic prostate cancer before chemotherapy. *N Engl J Med.* 2014;371(5):424-433. [doi:10.1056/NEJMoa1405095](https://doi.org/10.1056/NEJMoa1405095) · [PubMed 24881730](https://pubmed.ncbi.nlm.nih.gov/24881730/)
 [^sartor-2021-vision]: Sartor O, de Bono J, Chi KN, et al. Lutetium-PSMA-617 for metastatic castration-resistant prostate cancer. *N Engl J Med.* 2021;385(12):1091-1103. [doi:10.1056/NEJMoa2107322](https://doi.org/10.1056/NEJMoa2107322) · [PubMed 34161051](https://pubmed.ncbi.nlm.nih.gov/34161051/)
