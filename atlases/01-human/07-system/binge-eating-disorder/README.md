@@ -261,6 +261,15 @@ cross_links:
   - target: 01-human/05-tissue/intestinal-epithelium
     relation: connects-to
     note: "Gut signals to reward: gut hormones such as ghrelin and GLP-1 released from the intestinal epithelium, along with the microbiome, modulate the satiety and reward circuits dysregulated in binge-eating disorder."
+  - target: 01-human/03-molecular/npy
+    relation: connects-to
+    note: "Appetite drive: neuropeptide Y is a powerful orexigenic signal whose dysregulation contributes to the intense hunger and loss-of-control eating that characterise binge-eating disorder."
+  - target: 01-human/03-molecular/tnf-alpha
+    relation: connects-to
+    note: "Metabolic inflammation: the obesity that frequently accompanies binge-eating disorder raises TNF-α from adipose tissue, fuelling the insulin resistance and low-grade inflammation of the metabolic syndrome."
+  - target: 01-human/03-molecular/adiponectin
+    relation: connects-to
+    note: "Adipose hormone: adiponectin falls with the visceral adiposity common in binge-eating disorder, contributing to the insulin resistance and cardiometabolic risk that accompany it."
 sources:
   - id: american-psychiatric-2013-bed-dsm5
     type: clinical-guideline
@@ -503,6 +512,9 @@ BED is among the most psychiatrically comorbid of all eating disorders:
 - `connects-to` → **[COVID-19 Disease](../covid-19-disease/README.md)** — Pandemic eating: COVID-19 stress, isolation and disrupted routines drove a rise in binge eating and weight gain, with emotional and boredom-driven eating worsening during lockdowns.
 - `connects-to` → **[Colorectal Cancer](../colorectal-cancer/README.md)** — Obesity's cancer reach: the obesity that binge-eating disorder drives raises colorectal cancer risk through hyperinsulinaemia and inflammation, adding to its endometrial and oesophageal cancer links.
 - `connects-to` → **[Intestinal Epithelium](../../05-tissue/intestinal-epithelium/README.md)** — Gut signals to reward: gut hormones such as ghrelin and GLP-1 released from the intestinal epithelium, along with the microbiome, modulate the satiety and reward circuits dysregulated in binge-eating disorder.
+- `connects-to` → **[Neuropeptide Y](../../03-molecular/npy/README.md)** — Appetite drive: neuropeptide Y is a powerful orexigenic signal whose dysregulation contributes to the intense hunger and loss-of-control eating that characterise binge-eating disorder.
+- `connects-to` → **[TNF-α](../../03-molecular/tnf-alpha/README.md)** — Metabolic inflammation: the obesity that frequently accompanies binge-eating disorder raises TNF-α from adipose tissue, fuelling the insulin resistance and low-grade inflammation of the metabolic syndrome.
+- `connects-to` → **[Adiponectin](../../03-molecular/adiponectin/README.md)** — Adipose hormone: adiponectin falls with the visceral adiposity common in binge-eating disorder, contributing to the insulin resistance and cardiometabolic risk that accompany it.
 
 [^american-psychiatric-2013-bed-dsm5]: American Psychiatric Association. Binge Eating Disorder (307.51). In: *Diagnostic and Statistical Manual of Mental Disorders, 5th ed.* Arlington, VA: APA; 2013. [doi:10.1176/appi.books.9780890425596](https://doi.org/10.1176/appi.books.9780890425596)
 [^mccallum-2003-bed-review]: McCallum K, Bruton AM. Binge eating disorder: eating disorder or somatic syndrome? *Prim Care Companion J Clin Psychiatry.* 2003;5(Suppl 4):20-25. [PubMed 15213784](https://pubmed.ncbi.nlm.nih.gov/15213784/)
