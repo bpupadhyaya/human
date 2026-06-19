@@ -255,6 +255,15 @@ cross_links:
   - target: 01-human/05-tissue/myocardium
     relation: connects-to
     note: "It occasionally inflames the heart: beyond its neuroinvasive disease, West Nile virus is a rare cause of myocarditis, adding cardiac injury to severe infection."
+  - target: 01-human/07-system/als
+    relation: connects-to
+    note: "A polio-like paralysis: West Nile virus can attack anterior-horn motor neurons, causing an acute asymmetric flaccid paralysis that resembles poliomyelitis and, in its motor-neuron targeting, the cells lost in ALS."
+  - target: 01-human/05-tissue/germinal-center
+    relation: connects-to
+    note: "Antibody clears the virus: control of West Nile virus depends on neutralizing antibody matured in germinal centres, which is why B-cell-deficient and elderly patients suffer the severe neuroinvasive disease."
+  - target: 01-human/07-system/measles
+    relation: connects-to
+    note: "Viruses that invade the brain: like measles—which causes acute encephalitis and the late, fatal SSPE—West Nile virus crosses into the CNS, the two showing viral neuroinvasion by different routes."
 ---
 
 # West Nile Virus
@@ -454,3 +463,6 @@ WNV has evolved a multilayered strategy to evade innate immunity:
 - `connects-to` → **[Type 2 Diabetes](../type-2-diabetes/README.md)** — Diabetes raises its danger: advanced age, immunosuppression and diabetes are the main risk factors for severe neuroinvasive West Nile disease—encephalitis, meningitis and acute flaccid paralysis—turning a usually mild infection deadly.
 - `connects-to` → **[Glomerulus](../../05-tissue/glomerulus/README.md)** — It can linger in the kidney: West Nile virus can persist in renal tissue with prolonged urinary shedding, and is associated with chronic kidney disease and proteinuria in some survivors.
 - `connects-to` → **[Myocardium](../../05-tissue/myocardium/README.md)** — It occasionally inflames the heart: beyond its neuroinvasive disease, West Nile virus is a rare cause of myocarditis, adding cardiac injury to severe infection.
+- `connects-to` → **[ALS](../als/README.md)** — A polio-like paralysis: West Nile virus can attack anterior-horn motor neurons, causing an acute asymmetric flaccid paralysis that resembles poliomyelitis and, in its motor-neuron targeting, the cells lost in ALS.
+- `connects-to` → **[Germinal Center](../../05-tissue/germinal-center/README.md)** — Antibody clears the virus: control of West Nile virus depends on neutralizing antibody matured in germinal centres, which is why B-cell-deficient and elderly patients suffer the severe neuroinvasive disease.
+- `connects-to` → **[Measles](../measles/README.md)** — Viruses that invade the brain: like measles—which causes acute encephalitis and the late, fatal SSPE—West Nile virus crosses into the CNS, the two showing viral neuroinvasion by different routes.
