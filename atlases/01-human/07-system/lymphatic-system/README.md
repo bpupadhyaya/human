@@ -257,6 +257,15 @@ cross_links:
   - target: 01-human/07-system/rheumatoid-arthritis
     relation: connects-to
     note: "Ectopic lymphoid tissue in the joint: rheumatoid arthritis builds germinal-centre-like follicles in inflamed synovium and causes lymphadenopathy, with a raised risk of lymphoma from chronic lymphatic activation."
+  - target: 01-human/07-system/atherosclerosis
+    relation: connects-to
+    note: "Lymphatics clear the artery: adventitial lymphatic vessels drain cholesterol from the arterial wall in reverse cholesterol transport, and when they fail, lipid accumulates and atherosclerosis worsens—an unexpected role for the lymphatic system in heart disease."
+  - target: 01-human/07-system/hnscc
+    relation: connects-to
+    note: "Nodal spread defines prognosis: head and neck cancer metastasises first to the cervical lymph nodes, so the lymphatic system's drainage map dictates staging, neck dissection and the entire treatment plan."
+  - target: 01-human/05-tissue/hepatic-lobule
+    relation: connects-to
+    note: "The biggest lymph source: the liver generates a large share of the body's lymph from protein-rich fluid in the hepatic sinusoids, and when cirrhosis overwhelms this drainage the overflow becomes ascites."
 ---
 
 # Lymphatic System
@@ -446,6 +455,9 @@ Enterocytes package dietary triglycerides + cholesterol + apoB-48 into chylomicr
 - `connects-to` → **[Fibrosis](../../05-tissue/fibrosis/README.md)** — Lymphoedema fibrosis: chronic lymph stasis—after node dissection, radiation or filariasis—drives tissue fibrosis and fat deposition, the irreversible limb swelling that defines lymphoedema.
 - `connects-to` → **[Sjögren's Syndrome](../sjogrens-syndrome/README.md)** — Lymphoid proliferation and MALT lymphoma: Sjögren's chronic lymphocytic infiltration of glands forms ectopic lymphoid tissue and carries the highest lymphoma risk of the autoimmune diseases, a disorder of the lymphatic system itself.
 - `connects-to` → **[Rheumatoid Arthritis](../rheumatoid-arthritis/README.md)** — Ectopic lymphoid tissue in the joint: rheumatoid arthritis builds germinal-centre-like follicles in inflamed synovium and causes lymphadenopathy, with a raised risk of lymphoma from chronic lymphatic activation.
+- `connects-to` → **[Atherosclerosis](../atherosclerosis/README.md)** — Lymphatics clear the artery: adventitial lymphatic vessels drain cholesterol from the arterial wall in reverse cholesterol transport, and when they fail, lipid accumulates and atherosclerosis worsens—an unexpected role for the lymphatic system in heart disease.
+- `connects-to` → **[HNSCC](../hnscc/README.md)** — Nodal spread defines prognosis: head and neck cancer metastasises first to the cervical lymph nodes, so the lymphatic system's drainage map dictates staging, neck dissection and the entire treatment plan.
+- `connects-to` → **[Hepatic Lobule](../../05-tissue/hepatic-lobule/README.md)** — The biggest lymph source: the liver generates a large share of the body's lymph from protein-rich fluid in the hepatic sinusoids, and when cirrhosis overwhelms this drainage the overflow becomes ascites.
 
 ## Pathology
 

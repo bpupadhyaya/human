@@ -259,6 +259,15 @@ cross_links:
   - target: 01-human/05-tissue/hepatic-lobule
     relation: connects-to
     note: "Childhood liver and adrenal cancers: Li-Fraumeni predisposes to hepatoblastoma and adrenocortical carcinoma in children, and the hepatic lobule is a site of both primary tumours and metastases."
+  - target: 01-human/07-system/retinoblastoma
+    relation: connects-to
+    note: "Two paradigms of inherited childhood cancer: like germline RB1 in retinoblastoma, germline TP53 in Li-Fraumeni follows Knudson's two-hit model, and both predispose survivors to radiation-induced second tumours such as osteosarcoma."
+  - target: 01-human/07-system/cowden-syndrome
+    relation: connects-to
+    note: "A rival multi-cancer syndrome: Cowden syndrome (germline PTEN) mirrors Li-Fraumeni as an autosomal-dominant predisposition to breast, thyroid and other cancers, distinguishing a PTEN/mTOR-driven spectrum from the p53-driven one."
+  - target: 01-human/07-system/meningioma
+    relation: connects-to
+    note: "Radiation's late cost: Li-Fraumeni patients given radiotherapy face a high rate of radiation-induced second tumours including meningioma, one reason surgery is preferred over radiation whenever possible in the syndrome."
 ---
 
 # Li-Fraumeni Syndrome
@@ -490,6 +499,9 @@ Annual surveillance significantly reduces mortality in LFS carriers (Villani 201
 - `connects-to` → **[Juvenile Polyposis Syndrome](../juvenile-polyposis-syndrome/README.md)** — Autosomal-dominant cancer predisposition: like juvenile polyposis, Li-Fraumeni is inherited dominantly and demands intensive surveillance, but its germline TP53 loss spans sarcomas, breast, brain and adrenal cancers rather than the gut.
 - `connects-to` → **[Myocardium](../../05-tissue/myocardium/README.md)** — Cardiotoxicity in cancer-prone survivors: treating Li-Fraumeni's many cancers exposes the myocardium to anthracyclines, and radiation is minimised because p53 loss makes tissues radiosensitive and prone to second cancers.
 - `connects-to` → **[Hepatic Lobule](../../05-tissue/hepatic-lobule/README.md)** — Childhood liver and adrenal cancers: Li-Fraumeni predisposes to hepatoblastoma and adrenocortical carcinoma in children, and the hepatic lobule is a site of both primary tumours and metastases.
+- `connects-to` → **[Retinoblastoma](../retinoblastoma/README.md)** — Two paradigms of inherited childhood cancer: like germline RB1 in retinoblastoma, germline TP53 in Li-Fraumeni follows Knudson's two-hit model, and both predispose survivors to radiation-induced second tumours such as osteosarcoma.
+- `connects-to` → **[Cowden Syndrome](../cowden-syndrome/README.md)** — A rival multi-cancer syndrome: Cowden syndrome (germline PTEN) mirrors Li-Fraumeni as an autosomal-dominant predisposition to breast, thyroid and other cancers, distinguishing a PTEN/mTOR-driven spectrum from the p53-driven one.
+- `connects-to` → **[Meningioma](../meningioma/README.md)** — Radiation's late cost: Li-Fraumeni patients given radiotherapy face a high rate of radiation-induced second tumours including meningioma, one reason surgery is preferred over radiation whenever possible in the syndrome.
 
 [^bougeard-2015-lfs-chompret]: Bougeard G, Renaux-Petel M, Flaman JM, et al. Revisiting Li-Fraumeni Syndrome From TP53 Mutation Carriers. *J Clin Oncol.* 2015;33(21):2345-2352. [doi:10.1200/JCO.2014.59.5728](https://doi.org/10.1200/JCO.2014.59.5728) · [PubMed 26014290](https://pubmed.ncbi.nlm.nih.gov/26014290/)
 [^villani-2016-lfs-surveillance]: Villani A, Shore A, Wasserman JD, et al. Biochemical and imaging surveillance in germline TP53 mutation carriers with Li-Fraumeni syndrome: 11 year follow-up of a prospective observational study. *Lancet Oncol.* 2016;17(9):1295-1305. [doi:10.1016/S1470-2045(16)30249-2](https://doi.org/10.1016/S1470-2045(16)30249-2) · [PubMed 27501770](https://pubmed.ncbi.nlm.nih.gov/27501770/)
