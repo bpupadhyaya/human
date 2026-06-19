@@ -247,6 +247,15 @@ cross_links:
   - target: 01-human/05-tissue/fibrosis
     relation: connects-to
     note: "It scars the lung: Sjögren's syndrome causes interstitial lung disease, usually a non-specific interstitial pneumonia pattern, where chronic lymphocytic inflammation lays down pulmonary fibrosis that stiffens the lungs and impairs gas exchange."
+  - target: 01-human/07-system/nmo
+    relation: connects-to
+    note: "A neuro-autoimmune overlap: Sjögren's syndrome can co-occur with neuromyelitis optica, the two sharing anti-Ro/aquaporin autoantibody biology and a type-I-interferon signature, so dry eyes and mouth may accompany optic neuritis and myelitis."
+  - target: 01-human/07-system/pemphigus-vulgaris
+    relation: connects-to
+    note: "A fellow autoantibody, B-cell disease: like pemphigus vulgaris, Sjögren's is driven by autoreactive B cells and autoantibodies and responds to rituximab, though Sjögren targets exocrine glands and pemphigus the skin's desmosomes."
+  - target: 01-human/05-tissue/guillain-barre
+    relation: connects-to
+    note: "It strikes the peripheral nerves too: Sjögren's syndrome is a leading cause of sensory ataxic neuronopathy and small-fibre neuropathy—an autoimmune assault on peripheral nerves, distinct from but echoing Guillain-Barré."
 ---
 
 # Sjögren's Syndrome
@@ -453,6 +462,9 @@ Sjögren's syndrome can occur:
 - `connects-to` → **[Cancer Chemotherapy](../../../03-medicine/01-modern/13-cancer/cancer-chemotherapy/README.md)** — Its lymphomas need chemo: Sjögren's carries the highest lymphoma risk of any autoimmune disease, and the MALT and diffuse large B-cell lymphomas it spawns are treated with rituximab-based chemotherapy, while cyclophosphamide handles severe systemic disease.
 - `connects-to` → **[Targeted Therapy](../../../03-medicine/01-modern/13-cancer/targeted-therapy/README.md)** — B-cell-directed biologics: because Sjögren is driven by BAFF-fuelled autoreactive B cells, anti-CD20 rituximab, anti-BAFF agents and JAK inhibitors are used or trialled for its systemic and glandular manifestations.
 - `connects-to` → **[Fibrosis](../../05-tissue/fibrosis/README.md)** — It scars the lung: Sjögren's syndrome causes interstitial lung disease, usually a non-specific interstitial pneumonia pattern, where chronic lymphocytic inflammation lays down pulmonary fibrosis that stiffens the lungs and impairs gas exchange.
+- `connects-to` → **[NMO](../nmo/README.md)** — A neuro-autoimmune overlap: Sjögren's syndrome can co-occur with neuromyelitis optica, the two sharing anti-Ro/aquaporin autoantibody biology and a type-I-interferon signature, so dry eyes and mouth may accompany optic neuritis and myelitis.
+- `connects-to` → **[Pemphigus Vulgaris](../pemphigus-vulgaris/README.md)** — A fellow autoantibody, B-cell disease: like pemphigus vulgaris, Sjögren's is driven by autoreactive B cells and autoantibodies and responds to rituximab, though Sjögren targets exocrine glands and pemphigus the skin's desmosomes.
+- `connects-to` → **[Guillain-Barré](../../05-tissue/guillain-barre/README.md)** — It strikes the peripheral nerves too: Sjögren's syndrome is a leading cause of sensory ataxic neuronopathy and small-fibre neuropathy—an autoimmune assault on peripheral nerves, distinct from but echoing Guillain-Barré.
 
 ---
 

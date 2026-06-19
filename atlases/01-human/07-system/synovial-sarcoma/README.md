@@ -241,6 +241,15 @@ cross_links:
   - target: 03-medicine/01-modern/13-cancer/checkpoint-inhibitors
     relation: connects-to
     note: "An immunologically cold tumour: despite its antigen expression, synovial sarcoma has a low mutational burden and sparse T-cell infiltrate, so PD-1 checkpoint blockade responds poorly — why adoptive engineered T-cells, not checkpoint inhibitors, broke through."
+  - target: 01-human/05-tissue/alveolus
+    relation: connects-to
+    note: "It spreads to the lungs: synovial sarcoma metastasises predominantly to the lungs, seeding the alveolar parenchyma, so chest imaging stages the disease and pulmonary metastasectomy is part of treatment."
+  - target: 01-human/07-system/gist
+    relation: connects-to
+    note: "One driver defines each: synovial sarcoma is specified by the SS18-SSX fusion and GIST by activating KIT mutation—twin proofs that a single genetic lesion can create a sarcoma, though only GIST's is directly druggable with imatinib."
+  - target: 01-human/07-system/ovarian-clear-cell-carcinoma
+    relation: connects-to
+    note: "Two ways to break SWI/SNF: synovial sarcoma's SS18-SSX fusion hijacks the BAF (SWI/SNF) chromatin complex, while clear cell ovarian cancer disables it through ARID1A loss—different routes to the same epigenetic dysregulation."
 ---
 
 # Synovial Sarcoma
@@ -441,6 +450,9 @@ SS has low TMB (~1-2 mut/Mb) and variable PD-L1 expression; ICB response rates ~
 - `connects-to` → **[Cancer Chemotherapy](../../../03-medicine/01-modern/13-cancer/cancer-chemotherapy/README.md)** — Chemosensitive among sarcomas: synovial sarcoma is one of the more chemoresponsive soft-tissue sarcomas, treated with ifosfamide and doxorubicin around surgery and radiotherapy, especially in younger patients with larger tumours.
 - `connects-to` → **[CAR-T](../../../03-medicine/01-modern/13-cancer/car-t/README.md)** — First solid tumour with engineered T-cells: synovial sarcoma frequently expresses MAGE-A4 and NY-ESO-1, and afami-cel — autologous TCR-engineered T-cells against MAGE-A4 — became the first approved engineered T-cell therapy for a solid tumour in this disease.
 - `connects-to` → **[Checkpoint Inhibitors](../../../03-medicine/01-modern/13-cancer/checkpoint-inhibitors/README.md)** — An immunologically cold tumour: despite its antigen expression, synovial sarcoma has a low mutational burden and sparse T-cell infiltrate, so PD-1 checkpoint blockade responds poorly — why adoptive engineered T-cells, not checkpoint inhibitors, broke through.
+- `connects-to` → **[Alveolus](../../05-tissue/alveolus/README.md)** — It spreads to the lungs: synovial sarcoma metastasises predominantly to the lungs, seeding the alveolar parenchyma, so chest imaging stages the disease and pulmonary metastasectomy is part of treatment.
+- `connects-to` → **[GIST](../gist/README.md)** — One driver defines each: synovial sarcoma is specified by the SS18-SSX fusion and GIST by activating KIT mutation—twin proofs that a single genetic lesion can create a sarcoma, though only GIST's is directly druggable with imatinib.
+- `connects-to` → **[Ovarian Clear Cell Carcinoma](../ovarian-clear-cell-carcinoma/README.md)** — Two ways to break SWI/SNF: synovial sarcoma's SS18-SSX fusion hijacks the BAF (SWI/SNF) chromatin complex, while clear cell ovarian cancer disables it through ARID1A loss—different routes to the same epigenetic dysregulation.
 
 ---
 
