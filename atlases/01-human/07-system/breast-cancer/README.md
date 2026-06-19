@@ -262,6 +262,15 @@ cross_links:
   - target: 01-human/07-system/pancreatic-cancer
     relation: connects-to
     note: "Shared BRCA vulnerability: BRCA1/2 and PALB2-mutant breast and pancreatic cancers both respond to PARP inhibitors and platinum chemotherapy, within the HBOC spectrum of homologous-recombination-deficient tumours."
+  - target: 01-human/05-tissue/hepatic-lobule
+    relation: connects-to
+    note: "Liver as a metastatic site: breast cancer commonly spreads to the liver, seeding the hepatic lobules, and luminal subtypes can present with liver-dominant metastatic disease years after the primary."
+  - target: 01-human/07-system/aml
+    relation: connects-to
+    note: "Therapy-related leukaemia: the alkylators, anthracyclines and radiation that cure breast cancer can seed a secondary, poor-prognosis AML or MDS years later, a late cost of cytotoxic treatment."
+  - target: 01-human/07-system/melanoma
+    relation: connects-to
+    note: "A shared BRCA2 spectrum: germline BRCA2 raises the risk of breast cancer alongside ovarian, prostate, pancreatic cancer and melanoma, a hereditary cancer cluster that guides cascade genetic testing."
 ---
 
 # Breast Cancer
@@ -449,6 +458,9 @@ cross_links:
 - `connects-to` → **[Hereditary Diffuse Gastric Cancer](../hereditary-diffuse-gastric-cancer/README.md)** — CDH1 links breast and stomach: germline loss of E-cadherin (CDH1) causes hereditary diffuse gastric cancer together with lobular breast cancer, so CDH1 carriers undergo breast surveillance and risk-reducing surgery.
 - `connects-to` → **[Germinal Center](../../05-tissue/germinal-center/README.md)** — Lymphoid islands predict its immunotherapy response: triple-negative breast cancers that form tertiary lymphoid structures with germinal-centre B cells respond better to checkpoint blockade.
 - `connects-to` → **[Pancreatic Cancer](../pancreatic-cancer/README.md)** — Shared BRCA vulnerability: BRCA1/2 and PALB2-mutant breast and pancreatic cancers both respond to PARP inhibitors and platinum chemotherapy, within the HBOC spectrum of homologous-recombination-deficient tumours.
+- `connects-to` → **[Hepatic Lobule](../../05-tissue/hepatic-lobule/README.md)** — Liver as a metastatic site: breast cancer commonly spreads to the liver, seeding the hepatic lobules, and luminal subtypes can present with liver-dominant metastatic disease years after the primary.
+- `connects-to` → **[AML](../aml/README.md)** — Therapy-related leukaemia: the alkylators, anthracyclines and radiation that cure breast cancer can seed a secondary, poor-prognosis AML or MDS years later, a late cost of cytotoxic treatment.
+- `connects-to` → **[Melanoma](../melanoma/README.md)** — A shared BRCA2 spectrum: germline BRCA2 raises the risk of breast cancer alongside ovarian, prostate, pancreatic cancer and melanoma, a hereditary cancer cluster that guides cascade genetic testing.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
