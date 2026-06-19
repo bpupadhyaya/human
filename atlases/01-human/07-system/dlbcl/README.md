@@ -277,6 +277,15 @@ cross_links:
   - target: 01-human/03-molecular/foxo1
     relation: connects-to
     note: "Recurrent driver: FOXO1 mutations are recurrent in DLBCL, dysregulating this transcription factor's control of survival and differentiation to promote lymphomagenesis."
+  - target: 01-human/03-molecular/akt
+    relation: connects-to
+    note: "PI3K/AKT survival: chronic active B-cell-receptor signalling activates the PI3K/AKT pathway in DLBCL, sustaining survival and proliferation alongside the NF-κB axis."
+  - target: 01-human/03-molecular/cdk4-6
+    relation: connects-to
+    note: "Cell-cycle drive: cyclin D-CDK4/6 activity propels DLBCL cells through the G1 checkpoint, the proliferative engine downstream of its oncogenic signalling."
+  - target: 01-human/03-molecular/hif-1alpha
+    relation: connects-to
+    note: "Metabolic adaptation: HIF-1α and MYC drive the glycolytic metabolism of the rapidly proliferating DLBCL, supporting growth in the hypoxic lymph-node microenvironment."
 ---
 
 # Diffuse Large B-Cell Lymphoma
@@ -485,6 +494,9 @@ DLBCL is an aggressive malignancy of mature B cells. The normal equivalents are 
 - `connects-to` → **[Helicobacter pylori](../../../02-pathogen/02-bacteria/helicobacter-pylori/README.md)** — From MALT to DLBCL: chronic Helicobacter pylori gastritis drives gastric MALT lymphoma that can transform into gastric DLBCL, with antibiotic eradication regressing early disease.
 - `connects-to` → **[Hepatitis C Virus](../../../02-pathogen/01-viruses/hepatitis-c-virus/README.md)** — Chronic antigen drive: chronic hepatitis C drives sustained B-cell stimulation that can give rise to DLBCL and marginal-zone lymphoma, sometimes regressing with antiviral therapy.
 - `connects-to` → **[FOXO1](../../03-molecular/foxo1/README.md)** — Recurrent driver: FOXO1 mutations are recurrent in DLBCL, dysregulating this transcription factor's control of survival and differentiation to promote lymphomagenesis.
+- `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — PI3K/AKT survival: chronic active B-cell-receptor signalling activates the PI3K/AKT pathway in DLBCL, sustaining survival and proliferation alongside the NF-κB axis.
+- `connects-to` → **[CDK4/6](../../03-molecular/cdk4-6/README.md)** — Cell-cycle drive: cyclin D-CDK4/6 activity propels DLBCL cells through the G1 checkpoint, the proliferative engine downstream of its oncogenic signalling.
+- `connects-to` → **[HIF-1α](../../03-molecular/hif-1alpha/README.md)** — Metabolic adaptation: HIF-1α and MYC drive the glycolytic metabolism of the rapidly proliferating DLBCL, supporting growth in the hypoxic lymph-node microenvironment.
 
 ---
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*

@@ -275,6 +275,15 @@ cross_links:
   - target: 01-human/03-molecular/progesterone
     relation: connects-to
     note: "Reproductive steroid axis: progesterone, with estrogen and testosterone, is a core gonadal steroid hormone of the endocrine system governing the menstrual cycle and pregnancy."
+  - target: 01-human/03-molecular/epinephrine
+    relation: connects-to
+    note: "Adrenal medulla hormone: epinephrine is the endocrine system's fast-response hormone, released from the adrenal medulla to drive the fight-or-flight metabolic and cardiovascular surge."
+  - target: 01-human/03-molecular/dopamine
+    relation: connects-to
+    note: "Prolactin brake: hypothalamic dopamine tonically inhibits pituitary prolactin release, an endocrine control point whose loss—or dopamine-blocking drugs—causes hyperprolactinaemia."
+  - target: 01-human/03-molecular/erythropoietin
+    relation: connects-to
+    note: "Renal endocrine hormone: erythropoietin from the kidney shows the endocrine system extends beyond classic glands, the hormone tying oxygen sensing to red-cell production."
 ---
 
 # Endocrine System
@@ -518,6 +527,9 @@ The endocrine system coordinates fuel metabolism across multiple organs in respo
 - `connects-to` → **[CRH](../../03-molecular/crh/README.md)** — Top of the stress axis: corticotropin-releasing hormone from the hypothalamus drives ACTH and cortisol release, the apex of the hypothalamic-pituitary-adrenal endocrine cascade.
 - `connects-to` → **[Renin](../../03-molecular/renin/README.md)** — Blood-pressure hormone cascade: renin initiates the renin-angiotensin-aldosterone system, the endocrine loop controlling blood pressure, sodium and potassium balance.
 - `connects-to` → **[Progesterone](../../03-molecular/progesterone/README.md)** — Reproductive steroid axis: progesterone, with estrogen and testosterone, is a core gonadal steroid hormone of the endocrine system governing the menstrual cycle and pregnancy.
+- `connects-to` → **[Epinephrine](../../03-molecular/epinephrine/README.md)** — Adrenal medulla hormone: epinephrine is the endocrine system's fast-response hormone, released from the adrenal medulla to drive the fight-or-flight metabolic and cardiovascular surge.
+- `connects-to` → **[Dopamine](../../03-molecular/dopamine/README.md)** — Prolactin brake: hypothalamic dopamine tonically inhibits pituitary prolactin release, an endocrine control point whose loss—or dopamine-blocking drugs—causes hyperprolactinaemia.
+- `connects-to` → **[Erythropoietin](../../03-molecular/erythropoietin/README.md)** — Renal endocrine hormone: erythropoietin from the kidney shows the endocrine system extends beyond classic glands, the hormone tying oxygen sensing to red-cell production.
 
 ## Pathology
 
