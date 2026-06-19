@@ -265,6 +265,15 @@ cross_links:
   - target: 01-human/05-tissue/myocardium
     relation: connects-to
     note: "HIV and the heart muscle: chronic immune activation in HIV/AIDS causes a dilated cardiomyopathy of the myocardium and accelerates heart failure, persisting as a cardiovascular burden despite ART."
+  - target: 01-human/07-system/cytokine-storm
+    relation: connects-to
+    note: "Immune reconstitution storm: starting ART in advanced AIDS can unleash IRIS, a paradoxical inflammatory surge against unmasked opportunistic infections as the recovering immune system overreacts."
+  - target: 01-human/07-system/immune-thrombocytopenia
+    relation: connects-to
+    note: "HIV-associated low platelets: HIV is a classic secondary cause of immune thrombocytopenia, driving antibody-mediated platelet destruction that often improves once ART controls the virus."
+  - target: 01-human/05-tissue/alveolus
+    relation: connects-to
+    note: "Pneumocystis fills the lung: PJP, the AIDS-defining pneumonia, packs the alveoli with foamy exudate and causes the hypoxic respiratory failure that long defined advanced HIV."
 ---
 
 # HIV/AIDS
@@ -462,6 +471,9 @@ HIV-1 pathogenesis is primarily driven by CD4⁺ T cell loss:
 - `connects-to` → **[Hepatitis C](../hepatitis-c/README.md)** — Shared routes, dual infection: HIV and hepatitis C share blood-borne and sexual transmission, and HIV accelerates HCV liver fibrosis, so co-infection is common and worsens both diseases.
 - `connects-to` → **[COVID-19 Disease](../covid-19-disease/README.md)** — Immunodeficiency meets a pandemic: advanced, untreated HIV raises the risk of severe COVID-19 and prolonged viral shedding, while blunting the antibody response to vaccination.
 - `connects-to` → **[Myocardium](../../05-tissue/myocardium/README.md)** — HIV and the heart muscle: chronic immune activation in HIV/AIDS causes a dilated cardiomyopathy of the myocardium and accelerates heart failure, persisting as a cardiovascular burden despite ART.
+- `connects-to` → **[Cytokine Storm](../cytokine-storm/README.md)** — Immune reconstitution storm: starting ART in advanced AIDS can unleash IRIS, a paradoxical inflammatory surge against unmasked opportunistic infections as the recovering immune system overreacts.
+- `connects-to` → **[Immune Thrombocytopenia](../immune-thrombocytopenia/README.md)** — HIV-associated low platelets: HIV is a classic secondary cause of immune thrombocytopenia, driving antibody-mediated platelet destruction that often improves once ART controls the virus.
+- `connects-to` → **[Alveolus](../../05-tissue/alveolus/README.md)** — Pneumocystis fills the lung: PJP, the AIDS-defining pneumonia, packs the alveoli with foamy exudate and causes the hypoxic respiratory failure that long defined advanced HIV.
 
 ## See Also
 

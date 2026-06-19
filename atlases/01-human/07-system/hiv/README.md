@@ -274,6 +274,15 @@ cross_links:
   - target: 01-human/05-tissue/myocardium
     relation: connects-to
     note: "HIV and the heart muscle: chronic HIV inflammation causes a dilated cardiomyopathy of the myocardium and accelerates heart failure, part of a cardiovascular burden that persists despite effective ART."
+  - target: 01-human/07-system/nash
+    relation: connects-to
+    note: "Metabolic liver disease in HIV: HIV-related and antiretroviral lipodystrophy and insulin resistance drive NAFLD/NASH, now a leading liver problem in well-treated, ageing patients with HIV."
+  - target: 01-human/07-system/hnscc
+    relation: connects-to
+    note: "HPV cancers beyond the cervix: the immunosuppression of HIV raises HPV-driven malignancies including oropharyngeal and anal squamous-cell cancers, broadening its oncogenic-virus risk."
+  - target: 01-human/07-system/covid-19-disease
+    relation: connects-to
+    note: "A two-virus interaction: uncontrolled HIV with low CD4 counts worsens COVID-19 outcomes and may foster prolonged infection and viral evolution, while the pandemic disrupted HIV testing and care."
 ---
 
 # HIV
@@ -494,6 +503,9 @@ The **latent reservoir** — HIV integrated into quiescent resting memory CD4+ T
 - `connects-to` → **[DLBCL](../dlbcl/README.md)** — The commonest AIDS lymphoma: HIV markedly raises the risk of aggressive B-cell lymphomas, particularly diffuse large B-cell lymphoma, driven by immunosuppression and EBV co-infection.
 - `connects-to` → **[HCC](../hcc/README.md)** — Liver cancer in coinfection: HIV accelerates hepatitis B/C-driven cirrhosis and hepatocellular carcinoma, liver disease now a leading non-AIDS cause of death in treated HIV.
 - `connects-to` → **[Myocardium](../../05-tissue/myocardium/README.md)** — HIV and the heart muscle: chronic HIV inflammation causes a dilated cardiomyopathy of the myocardium and accelerates heart failure, part of a cardiovascular burden that persists despite effective ART.
+- `connects-to` → **[NASH](../nash/README.md)** — Metabolic liver disease in HIV: HIV-related and antiretroviral lipodystrophy and insulin resistance drive NAFLD/NASH, now a leading liver problem in well-treated, ageing patients with HIV.
+- `connects-to` → **[HNSCC](../hnscc/README.md)** — HPV cancers beyond the cervix: the immunosuppression of HIV raises HPV-driven malignancies including oropharyngeal and anal squamous-cell cancers, broadening its oncogenic-virus risk.
+- `connects-to` → **[COVID-19 Disease](../covid-19-disease/README.md)** — A two-virus interaction: uncontrolled HIV with low CD4 counts worsens COVID-19 outcomes and may foster prolonged infection and viral evolution, while the pandemic disrupted HIV testing and care.
 
 [^barre-sinoussi-1983-hiv-isolation]: Barré-Sinoussi F, Chermann JC, Rey F, et al. Isolation of a T-lymphotropic retrovirus from a patient at risk for acquired immune deficiency syndrome (AIDS). *Science.* 1983;220(4599):868-871. [doi:10.1126/science.6189183](https://doi.org/10.1126/science.6189183) · [PubMed 6189183](https://pubmed.ncbi.nlm.nih.gov/6189183/)
 [^ho-1995-viral-dynamics]: Ho DD, Neumann AU, Perelson AS, et al. Rapid turnover of plasma virions and CD4 lymphocytes in HIV-1 infection. *Nature.* 1995;373(6510):123-126. [doi:10.1038/373123a0](https://doi.org/10.1038/373123a0) · [PubMed 7816094](https://pubmed.ncbi.nlm.nih.gov/7816094/)
