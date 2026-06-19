@@ -283,6 +283,15 @@ cross_links:
   - target: 01-human/05-tissue/myocardium
     relation: connects-to
     note: "Anxiety and the heart muscle: chronic anxiety raises cardiovascular risk, and acute extreme stress can precipitate Takotsubo (stress) cardiomyopathy, transiently stunning the myocardium."
+  - target: 01-human/03-molecular/il-1b
+    relation: connects-to
+    note: "Inflammatory anxiety: IL-1β from activated microglia is implicated in the neuroinflammation increasingly linked to anxiety, with chronic stress raising this innate cytokine."
+  - target: 01-human/03-molecular/tnf-alpha
+    relation: connects-to
+    note: "Stress cytokine: elevated TNF-α is among the inflammatory markers found in generalised anxiety, part of the bidirectional link between chronic stress and systemic inflammation."
+  - target: 01-human/03-molecular/dopamine
+    relation: connects-to
+    note: "Threat and reward: dopaminergic signalling shapes the uncertainty and threat appraisal that drive anxiety, and its dysregulation contributes to the avoidance and anticipatory worry of GAD."
 ---
 
 # Generalized Anxiety Disorder
@@ -509,6 +518,9 @@ Allow **4-8 weeks** for onset of anxiolytic effect. Continue treatment ≥12 mon
 - `connects-to` → **[Pheochromocytoma & Paraganglioma](../pheochromocytoma-paraganglioma/README.md)** — The organic anxiety mimic: a catecholamine-secreting phaeochromocytoma causes paroxysmal anxiety, palpitations and sweating that imitate generalized anxiety, a can't-miss endocrine cause to exclude in atypical cases.
 - `connects-to` → **[Intestinal Epithelium](../../05-tissue/intestinal-epithelium/README.md)** — The gut-brain axis: generalized anxiety overlaps heavily with irritable bowel syndrome, with the intestinal epithelium and microbiome signalling to anxiety circuits via the vagus and immune pathways.
 - `connects-to` → **[Myocardium](../../05-tissue/myocardium/README.md)** — Anxiety and the heart muscle: chronic anxiety raises cardiovascular risk, and acute extreme stress can precipitate Takotsubo (stress) cardiomyopathy, transiently stunning the myocardium.
+- `connects-to` → **[IL-1β](../../03-molecular/il-1b/README.md)** — Inflammatory anxiety: IL-1β from activated microglia is implicated in the neuroinflammation increasingly linked to anxiety, with chronic stress raising this innate cytokine.
+- `connects-to` → **[TNF-α](../../03-molecular/tnf-alpha/README.md)** — Stress cytokine: elevated TNF-α is among the inflammatory markers found in generalised anxiety, part of the bidirectional link between chronic stress and systemic inflammation.
+- `connects-to` → **[Dopamine](../../03-molecular/dopamine/README.md)** — Threat and reward: dopaminergic signalling shapes the uncertainty and threat appraisal that drive anxiety, and its dysregulation contributes to the avoidance and anticipatory worry of GAD.
 
 [^kessler-2005-gad-prevalence]: Kessler RC, Berglund P, Demler O, et al. Lifetime prevalence and age-of-onset distributions of DSM-IV disorders in the NCS Replication. *Arch Gen Psychiatry.* 2005;62(6):593-602. [doi:10.1001/archpsyc.62.6.593](https://doi.org/10.1001/archpsyc.62.6.593) · [PubMed 15939837](https://pubmed.ncbi.nlm.nih.gov/15939837/)
 [^bandelow-2015-anxiety-biology]: Bandelow B, Michaelis S. Epidemiology of anxiety disorders in the 21st century. *Dialogues Clin Neurosci.* 2015;17(3):327-335. [doi:10.31887/DCNS.2015.17.3/bbandelow](https://doi.org/10.31887/DCNS.2015.17.3/bbandelow) · [PubMed 26487812](https://pubmed.ncbi.nlm.nih.gov/26487812/)
