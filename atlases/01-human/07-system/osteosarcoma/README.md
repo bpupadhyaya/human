@@ -250,6 +250,15 @@ cross_links:
   - target: 01-human/07-system/rhabdomyosarcoma
     relation: connects-to
     note: "Two sarcomas of the young, different roots: osteosarcoma arises in bone with a chaotic, p53/RB-driven genome, while rhabdomyosarcoma arises in skeletal-muscle lineage often from a PAX-FOXO1 fusion—distinct origins guiding distinct chemotherapy."
+  - target: 01-human/07-system/werner-syndrome
+    relation: connects-to
+    note: "A RecQ-helicase predisposition: like Rothmund-Thomson, Werner syndrome's RecQ-helicase defect raises osteosarcoma risk, one of the genome-instability syndromes that spawn this bone cancer."
+  - target: 01-human/07-system/bloom-syndrome
+    relation: connects-to
+    note: "Another genome-instability syndrome: Bloom syndrome, a RecQ-helicase disorder with extreme chromosomal instability, predisposes to osteosarcoma among its many early-onset cancers."
+  - target: 01-human/05-tissue/hepatic-lobule
+    relation: connects-to
+    note: "Beyond the lungs: while osteosarcoma metastasises chiefly to the lungs, advanced disease can also seed the liver, depositing in the hepatic lobule."
 ---
 
 # Osteosarcoma
@@ -458,6 +467,9 @@ OS is relatively radiation-resistant (high-dose radiation ~70+ Gy may achieve lo
 - `connects-to` → **[Alveolus](../../05-tissue/alveolus/README.md)** — Its metastases home to the lungs: osteosarcoma spreads almost exclusively to the lungs, seeding nodules in the alveolar parenchyma, and surgically removing these pulmonary metastases is central to achieving cure.
 - `connects-to` → **[Myocardium](../../05-tissue/myocardium/README.md)** — Its cure threatens the heart: doxorubicin, a backbone of osteosarcoma chemotherapy, is cardiotoxic and damages the myocardium dose-dependently, so survivors carry a lifelong risk of cardiomyopathy and heart failure.
 - `connects-to` → **[Rhabdomyosarcoma](../rhabdomyosarcoma/README.md)** — Two sarcomas of the young, different roots: osteosarcoma arises in bone with a chaotic, p53/RB-driven genome, while rhabdomyosarcoma arises in skeletal-muscle lineage often from a PAX-FOXO1 fusion—distinct origins guiding distinct chemotherapy.
+- `connects-to` → **[Werner Syndrome](../werner-syndrome/README.md)** — A RecQ-helicase predisposition: like Rothmund-Thomson, Werner syndrome's RecQ-helicase defect raises osteosarcoma risk, one of the genome-instability syndromes that spawn this bone cancer.
+- `connects-to` → **[Bloom Syndrome](../bloom-syndrome/README.md)** — Another genome-instability syndrome: Bloom syndrome, a RecQ-helicase disorder with extreme chromosomal instability, predisposes to osteosarcoma among its many early-onset cancers.
+- `connects-to` → **[Hepatic Lobule](../../05-tissue/hepatic-lobule/README.md)** — Beyond the lungs: while osteosarcoma metastasises chiefly to the lungs, advanced disease can also seed the liver, depositing in the hepatic lobule.
 
 [^bielack-2002-coss-osteosarcoma]: Bielack SS, Kempf-Bielack B, Delling G, et al. Prognostic factors in high-grade osteosarcoma of the extremities or trunk: an analysis of 1,702 patients treated on neoadjuvant Cooperative Osteosarcoma Study Group protocols. *J Clin Oncol.* 2002;20(3):776-790. [doi:10.1200/JCO.2002.20.3.776](https://doi.org/10.1200/JCO.2002.20.3.776) · [PubMed 11821461](https://pubmed.ncbi.nlm.nih.gov/11821461/)
 [^marina-2016-euramos1-osteosarcoma]: Marina NM, Smeland S, Bielack SS, et al. Comparison of MAPIE versus MAP in patients with a poor response to preoperative chemotherapy for newly diagnosed high-grade osteosarcoma (EURAMOS-1). *Lancet Oncol.* 2016;17(10):1396-1408. [doi:10.1016/S1470-2045(16)30214-5](https://doi.org/10.1016/S1470-2045(16)30214-5) · [PubMed 27569442](https://pubmed.ncbi.nlm.nih.gov/27569442/)

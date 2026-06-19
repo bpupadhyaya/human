@@ -256,6 +256,15 @@ cross_links:
   - target: 01-human/07-system/bladder-cancer
     relation: connects-to
     note: "Tobacco's twin malignancies: cigarette carcinogens that cause non-small-cell lung cancer are also excreted in urine to drive bladder cancer, so the two are classic field-cancerisation partners and a smoker often risks both."
+  - target: 01-human/05-tissue/hepatic-lobule
+    relation: connects-to
+    note: "Liver metastasis: NSCLC commonly spreads to the liver, seeding the hepatic lobule—a poor-prognosis site that also predicts reduced benefit from immunotherapy."
+  - target: 01-human/07-system/pancreatic-cancer
+    relation: connects-to
+    note: "KRAS across two cancers: KRAS—notably the G12C variant—drives lung adenocarcinoma and pancreatic cancer, and the KRAS-G12C inhibitors developed in NSCLC are now tested in pancreatic disease."
+  - target: 01-human/05-tissue/myocardium
+    relation: connects-to
+    note: "Cardiac immune toxicity and metastasis: immunotherapy for NSCLC can cause autoimmune myocarditis of the myocardium, and the tumour itself can metastasise to the heart and pericardium."
 ---
 
 # NSCLC
@@ -436,6 +445,9 @@ cross_links:
 - `connects-to` → **[Germinal Center](../../05-tissue/germinal-center/README.md)** — Lymphoid islands predict its immunotherapy response: non-small-cell lung cancers bearing tertiary lymphoid structures with germinal-centre B-cell aggregates respond better to checkpoint blockade, the immunotherapy that transformed NSCLC care.
 - `connects-to` → **[Thyroid Cancer](../thyroid-cancer/README.md)** — A shared RET-fusion target: RET-rearranged non-small-cell lung cancer and RET-altered thyroid cancers both respond to selective RET inhibitors (selpercatinib, pralsetinib)—one druggable fusion across two organs.
 - `connects-to` → **[Bladder Cancer](../bladder-cancer/README.md)** — Tobacco's twin malignancies: cigarette carcinogens that cause non-small-cell lung cancer are also excreted in urine to drive bladder cancer, so the two are classic field-cancerisation partners and a smoker often risks both.
+- `connects-to` → **[Hepatic Lobule](../../05-tissue/hepatic-lobule/README.md)** — Liver metastasis: NSCLC commonly spreads to the liver, seeding the hepatic lobule—a poor-prognosis site that also predicts reduced benefit from immunotherapy.
+- `connects-to` → **[Pancreatic Cancer](../pancreatic-cancer/README.md)** — KRAS across two cancers: KRAS—notably the G12C variant—drives lung adenocarcinoma and pancreatic cancer, and the KRAS-G12C inhibitors developed in NSCLC are now tested in pancreatic disease.
+- `connects-to` → **[Myocardium](../../05-tissue/myocardium/README.md)** — Cardiac immune toxicity and metastasis: immunotherapy for NSCLC can cause autoimmune myocarditis of the myocardium, and the tumour itself can metastasise to the heart and pericardium.
 
 [^soria-2018-osimertinib-flaura]: Soria JC, Ohe Y, Vansteenkiste J, et al. Osimertinib in untreated EGFR-mutated advanced non-small-cell lung cancer. *N Engl J Med.* 2018;378(2):113-125. [doi:10.1056/NEJMoa1713137](https://doi.org/10.1056/NEJMoa1713137) · [PubMed 29151359](https://pubmed.ncbi.nlm.nih.gov/29151359/)
 [^reck-2016-pembrolizumab-keynote024]: Reck M, Rodríguez-Abreu D, Robinson AG, et al. Pembrolizumab versus chemotherapy for PD-L1-positive non-small-cell lung cancer. *N Engl J Med.* 2016;375(19):1823-1833. [doi:10.1056/NEJMoa1606774](https://doi.org/10.1056/NEJMoa1606774) · [PubMed 27718347](https://pubmed.ncbi.nlm.nih.gov/27718347/)
