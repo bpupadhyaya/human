@@ -277,6 +277,15 @@ cross_links:
   - target: 01-human/07-system/epilepsy
     relation: connects-to
     note: "Neuropsychiatric lupus: CNS involvement through cerebritis, antiphospholipid microthrombi and vasculitis makes seizures a recognised manifestation of SLE and a cause of secondary epilepsy."
+  - target: 01-human/03-molecular/il-6
+    relation: connects-to
+    note: "Inflammatory amplifier: IL-6 drives B-cell help, autoantibody production and acute-phase inflammation in lupus, and is among the cytokines targeted to control disease activity."
+  - target: 01-human/03-molecular/ifn-gamma
+    relation: connects-to
+    note: "Th1 axis: IFN-γ complements the type-I interferon signature of lupus, promoting macrophage activation and the tissue inflammation of nephritis and other organ involvement."
+  - target: 01-human/04-cellular/natural-killer-cell
+    relation: connects-to
+    note: "Defective clearance: NK-cell number and cytotoxic function are reduced in lupus, impairing the clearance of apoptotic cells and contributing to the autoantigen exposure that drives autoimmunity."
 ---
 
 # Systemic Lupus Erythematosus
@@ -487,6 +496,9 @@ Highly polygenic disease with >100 susceptibility loci; heritability ~66%:
 - `connects-to` → **[Cardiac Conduction System](../../05-tissue/cardiac-conduction-system/README.md)** — Neonatal heart block: maternal anti-Ro/SSA antibodies in lupus cross the placenta and attack the fetal cardiac conduction system, causing congenital complete heart block in the developing heart.
 - `connects-to` → **[Cytokine Storm](../cytokine-storm/README.md)** — Macrophage activation syndrome: a severe lupus flare can tip into secondary haemophagocytic lymphohistiocytosis (MAS), a cytokine storm of activated macrophages with cytopenias, high ferritin and organ failure.
 - `connects-to` → **[Epilepsy](../epilepsy/README.md)** — Neuropsychiatric lupus: CNS involvement through cerebritis, antiphospholipid microthrombi and vasculitis makes seizures a recognised manifestation of SLE and a cause of secondary epilepsy.
+- `connects-to` → **[IL-6](../../03-molecular/il-6/README.md)** — Inflammatory amplifier: IL-6 drives B-cell help, autoantibody production and acute-phase inflammation in lupus, and is among the cytokines targeted to control disease activity.
+- `connects-to` → **[IFN-γ](../../03-molecular/ifn-gamma/README.md)** — Th1 axis: IFN-γ complements the type-I interferon signature of lupus, promoting macrophage activation and the tissue inflammation of nephritis and other organ involvement.
+- `connects-to` → **[Natural Killer Cell](../../04-cellular/natural-killer-cell/README.md)** — Defective clearance: NK-cell number and cytotoxic function are reduced in lupus, impairing the clearance of apoptotic cells and contributing to the autoantigen exposure that drives autoimmunity.
 
 [^tsokos-2011-sle-review]: Tsokos GC. Systemic lupus erythematosus. *N Engl J Med.* 2011;365(22):2110-2121. [doi:10.1056/NEJMra1100359](https://doi.org/10.1056/NEJMra1100359) · [PubMed 22129253](https://pubmed.ncbi.nlm.nih.gov/22129253/)
 [^furie-2011-belimumab]: Furie R, Petri M, Zamani O, et al. A phase III, randomized, placebo-controlled study of belimumab, a monoclonal antibody that inhibits B lymphocyte stimulator, in patients with systemic lupus erythematosus. *Arthritis Rheum.* 2011;63(12):3918-3930. [doi:10.1002/art.30613](https://doi.org/10.1002/art.30613) · [PubMed 22127708](https://pubmed.ncbi.nlm.nih.gov/22127708/)
