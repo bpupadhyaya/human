@@ -277,6 +277,15 @@ cross_links:
   - target: 01-human/03-molecular/pik3ca
     relation: connects-to
     note: "PI3K-delta dependence: PI3K signalling sustains follicular lymphoma survival, and PI3K-delta inhibitors such as idelalisib and copanlisib are approved for relapsed disease."
+  - target: 01-human/03-molecular/cdk4-6
+    relation: connects-to
+    note: "Cell-cycle drive: cyclin D-CDK4/6 activity propels follicular lymphoma B cells through the G1 checkpoint, the proliferative engine that accelerates as the indolent disease transforms."
+  - target: 01-human/03-molecular/il-6
+    relation: connects-to
+    note: "Supportive niche: IL-6 from the follicular dendritic cells and T-helper cells of the germinal-centre microenvironment sustains follicular lymphoma cell survival."
+  - target: 01-human/03-molecular/hif-1alpha
+    relation: connects-to
+    note: "Germinal-centre hypoxia: the physiologically hypoxic germinal centre stabilises HIF-1α, shaping the metabolism and survival of the follicular lymphoma cells that arise there."
 ---
 
 # Follicular Lymphoma
@@ -489,6 +498,9 @@ High-risk subset (progression within 24 months of first chemoimmunotherapy): Con
 - `connects-to` → **[Hepatitis C Virus](../../../02-pathogen/01-viruses/hepatitis-c-virus/README.md)** — Chronic antigen drive: chronic hepatitis C is associated with follicular and marginal-zone lymphomas through sustained B-cell stimulation, and antiviral therapy can induce remission.
 - `connects-to` → **[FOXO1](../../03-molecular/foxo1/README.md)** — Recurrent mutation: FOXO1 mutations recur in follicular lymphoma, dysregulating this transcription factor in germinal-centre B cells and contributing to transformation.
 - `connects-to` → **[PIK3CA](../../03-molecular/pik3ca/README.md)** — PI3K-delta dependence: PI3K signalling sustains follicular lymphoma survival, and PI3K-delta inhibitors such as idelalisib and copanlisib are approved for relapsed disease.
+- `connects-to` → **[CDK4/6](../../03-molecular/cdk4-6/README.md)** — Cell-cycle drive: cyclin D-CDK4/6 activity propels follicular lymphoma B cells through the G1 checkpoint, the proliferative engine that accelerates as the indolent disease transforms.
+- `connects-to` → **[IL-6](../../03-molecular/il-6/README.md)** — Supportive niche: IL-6 from the follicular dendritic cells and T-helper cells of the germinal-centre microenvironment sustains follicular lymphoma cell survival.
+- `connects-to` → **[HIF-1α](../../03-molecular/hif-1alpha/README.md)** — Germinal-centre hypoxia: the physiologically hypoxic germinal centre stabilises HIF-1α, shaping the metabolism and survival of the follicular lymphoma cells that arise there.
 
 ---
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
