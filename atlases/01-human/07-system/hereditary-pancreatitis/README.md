@@ -277,6 +277,15 @@ cross_links:
   - target: 01-human/03-molecular/endothelin-1
     relation: connects-to
     note: "Microcirculatory failure: endothelin-1-driven vasoconstriction worsens pancreatic ischaemia in severe pancreatitis, converting interstitial inflammation toward necrotising disease."
+  - target: 01-human/03-molecular/il-1b
+    relation: connects-to
+    note: "Inflammasome injury: premature trypsin activation triggers NLRP3-driven IL-1β release in hereditary pancreatitis, amplifying the acinar inflammation of each recurrent attack."
+  - target: 01-human/03-molecular/ccl2
+    relation: connects-to
+    note: "Monocyte recruitment: CCL2 draws monocytes and macrophages into the injured pancreas, sustaining the chronic inflammation that progresses to fibrosis in hereditary pancreatitis."
+  - target: 01-human/03-molecular/hif-1alpha
+    relation: connects-to
+    note: "Ischaemic fibrosis: HIF-1α stabilised in the poorly perfused, fibrotic pancreas of chronic hereditary pancreatitis drives the stellate-cell activation that scars the gland."
 ---
 
 # Hereditary Pancreatitis
@@ -507,6 +516,9 @@ cross_links:
 - `connects-to` → **[Calcineurin](../../03-molecular/calcineurin/README.md)** — Calcium-triggered injury: sustained intra-acinar calcium activates calcineurin, driving the premature trypsinogen activation that initiates pancreatitis—a pathway protective when blocked experimentally.
 - `connects-to` → **[EGFR](../../03-molecular/egfr/README.md)** — Metaplasia toward cancer: repeated injury drives acinar-to-ductal metaplasia through EGFR signalling, which with KRAS sets chronic hereditary pancreatitis on the path to pancreatic cancer.
 - `connects-to` → **[Endothelin-1](../../03-molecular/endothelin-1/README.md)** — Microcirculatory failure: endothelin-1-driven vasoconstriction worsens pancreatic ischaemia in severe pancreatitis, converting interstitial inflammation toward necrotising disease.
+- `connects-to` → **[IL-1β](../../03-molecular/il-1b/README.md)** — Inflammasome injury: premature trypsin activation triggers NLRP3-driven IL-1β release in hereditary pancreatitis, amplifying the acinar inflammation of each recurrent attack.
+- `connects-to` → **[CCL2](../../03-molecular/ccl2/README.md)** — Monocyte recruitment: CCL2 draws monocytes and macrophages into the injured pancreas, sustaining the chronic inflammation that progresses to fibrosis in hereditary pancreatitis.
+- `connects-to` → **[HIF-1α](../../03-molecular/hif-1alpha/README.md)** — Ischaemic fibrosis: HIF-1α stabilised in the poorly perfused, fibrotic pancreas of chronic hereditary pancreatitis drives the stellate-cell activation that scars the gland.
 
 [^whitcomb-1996-prss1]: Whitcomb DC, Gorry MC, Preston RA, et al. Hereditary pancreatitis is caused by a mutation in the cationic trypsinogen gene. *Nat Genet.* 1996;14(2):141-145. [doi:10.1038/ng1096-141](https://doi.org/10.1038/ng1096-141) · [PubMed 8841182](https://pubmed.ncbi.nlm.nih.gov/8841182/)
 [^lowenfels-2001-hp-pdac]: Lowenfels AB, Maisonneuve P, DiMagno EP, et al. Hereditary pancreatitis and the risk of pancreatic cancer. *J Natl Cancer Inst.* 2001;93(1):26-31. [doi:10.1093/jnci/93.1.26](https://doi.org/10.1093/jnci/93.1.26) · [PubMed 11136838](https://pubmed.ncbi.nlm.nih.gov/11136838/)

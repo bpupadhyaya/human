@@ -277,6 +277,15 @@ cross_links:
   - target: 01-human/03-molecular/met
     relation: connects-to
     note: "Unleashed growth signalling: loss of E-cadherin de-represses receptor signalling such as MET, whose activation drives invasion in diffuse gastric cancer."
+  - target: 01-human/03-molecular/akt
+    relation: connects-to
+    note: "Survival signalling: PI3K/AKT activation downstream of PIK3CA cooperates with CDH1 loss in hereditary diffuse gastric cancer, sustaining the survival of discohesive signet-ring cells."
+  - target: 01-human/03-molecular/hif-1alpha
+    relation: connects-to
+    note: "Invasive hypoxia: HIF-1α stabilised in the diffusely infiltrating tumour drives the angiogenesis and epithelial-mesenchymal features that aid its scattered, hard-to-detect spread."
+  - target: 01-human/03-molecular/myc
+    relation: connects-to
+    note: "Proliferative oncogene: MYC activation, released by loss of E-cadherin-mediated contact inhibition, drives the proliferation of hereditary diffuse gastric cancer cells."
 ---
 
 # Hereditary Diffuse Gastric Cancer
@@ -471,6 +480,9 @@ Testing for CDH1 (and CTNNA1) is indicated in any of the following:
 - `connects-to` → **[FGFR](../../03-molecular/fgfr/README.md)** — Diffuse-type driver: FGFR2 amplification is characteristic of diffuse-type gastric cancer, a targetable lesion that can accompany the E-cadherin loss central to HDGC.
 - `connects-to` → **[PIK3CA](../../03-molecular/pik3ca/README.md)** — PI3K activation: PIK3CA-driven PI3K signalling is common in diffuse gastric cancer, cooperating with CDH1 loss to promote the growth of these discohesive tumours.
 - `connects-to` → **[MET](../../03-molecular/met/README.md)** — Unleashed growth signalling: loss of E-cadherin de-represses receptor signalling such as MET, whose activation drives invasion in diffuse gastric cancer.
+- `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — Survival signalling: PI3K/AKT activation downstream of PIK3CA cooperates with CDH1 loss in hereditary diffuse gastric cancer, sustaining the survival of discohesive signet-ring cells.
+- `connects-to` → **[HIF-1α](../../03-molecular/hif-1alpha/README.md)** — Invasive hypoxia: HIF-1α stabilised in the diffusely infiltrating tumour drives the angiogenesis and epithelial-mesenchymal features that aid its scattered, hard-to-detect spread.
+- `connects-to` → **[MYC](../../03-molecular/myc/README.md)** — Proliferative oncogene: MYC activation, released by loss of E-cadherin-mediated contact inhibition, drives the proliferation of hereditary diffuse gastric cancer cells.
 
 [^van-der-post-2015-hdgc-guidelines]: van der Post RS, Vogelaar IP, Carneiro F, et al. Hereditary diffuse gastric cancer: updated clinical guidelines with an emphasis on germline CDH1 mutation carriers. *J Med Genet.* 2015;52(6):361-374. [doi:10.1136/jmedgenet-2015-103094](https://doi.org/10.1136/jmedgenet-2015-103094) · [PubMed 25979631](https://pubmed.ncbi.nlm.nih.gov/25979631/)
 [^hansford-2015-hdgc]: Hansford S, Kaurah P, Li-Chang H, et al. Hereditary Diffuse Gastric Cancer Syndrome: CDH1 Mutations and Beyond. *JAMA Oncol.* 2015;1(1):23-32. [doi:10.1001/jamaoncol.2014.168](https://doi.org/10.1001/jamaoncol.2014.168) · [PubMed 26182300](https://pubmed.ncbi.nlm.nih.gov/26182300/)
