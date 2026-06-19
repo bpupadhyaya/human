@@ -256,6 +256,15 @@ cross_links:
   - target: 01-human/07-system/immune-thrombocytopenia
     relation: connects-to
     note: "Felty and beyond: rheumatoid arthritis can drive secondary immune cytopenias—Felty syndrome pairs RA with splenomegaly and neutropenia, and immune thrombocytopenia also complicates it as the same autoimmunity turns on blood cells."
+  - target: 01-human/05-tissue/arterial-wall
+    relation: connects-to
+    note: "Accelerated atherosclerosis: RA's chronic systemic inflammation accelerates atherosclerosis of the arterial wall, making cardiovascular disease the leading cause of death and shortening lifespan beyond the joint disease itself."
+  - target: 01-human/05-tissue/alveolus
+    relation: connects-to
+    note: "RA-associated interstitial lung disease: rheumatoid arthritis causes interstitial lung disease and fibrosis around the alveoli—a major extra-articular cause of death—alongside rheumatoid nodules and pleuritis."
+  - target: 01-human/07-system/iga-nephropathy
+    relation: connects-to
+    note: "When inflammation reaches the kidney: long-standing RA can drive secondary IgA nephropathy and AA amyloidosis, the acute-phase response depositing in the glomerulus—a systemic joint disease turning renal."
 ---
 
 # Rheumatoid Arthritis
@@ -477,6 +486,9 @@ RA patients have:
 - `connects-to` → **[Germinal Center](../../05-tissue/germinal-center/README.md)** — It builds lymphoid follicles in the joint: rheumatoid synovium forms ectopic germinal centres where autoreactive B cells produce anti-citrullinated-protein antibodies, which is why B-cell depletion with rituximab controls the disease.
 - `connects-to` → **[Multiple Sclerosis](../multiple-sclerosis/README.md)** — A caution for its TNF blockers: the anti-TNF biologics central to rheumatoid arthritis can unmask or worsen demyelination, so multiple sclerosis contraindicates them—one cytokine blockade helping joints yet harming nerves.
 - `connects-to` → **[Immune Thrombocytopenia](../immune-thrombocytopenia/README.md)** — Felty and beyond: rheumatoid arthritis can drive secondary immune cytopenias—Felty syndrome pairs RA with splenomegaly and neutropenia, and immune thrombocytopenia also complicates it as the same autoimmunity turns on blood cells.
+- `connects-to` → **[Arterial Wall](../../05-tissue/arterial-wall/README.md)** — Accelerated atherosclerosis: RA's chronic systemic inflammation accelerates atherosclerosis of the arterial wall, making cardiovascular disease the leading cause of death and shortening lifespan beyond the joint disease itself.
+- `connects-to` → **[Alveolus](../../05-tissue/alveolus/README.md)** — RA-associated interstitial lung disease: rheumatoid arthritis causes interstitial lung disease and fibrosis around the alveoli—a major extra-articular cause of death—alongside rheumatoid nodules and pleuritis.
+- `connects-to` → **[IgA Nephropathy](../iga-nephropathy/README.md)** — When inflammation reaches the kidney: long-standing RA can drive secondary IgA nephropathy and AA amyloidosis, the acute-phase response depositing in the glomerulus—a systemic joint disease turning renal.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
