@@ -268,6 +268,15 @@ cross_links:
   - target: 01-human/07-system/melanoma
     relation: connects-to
     note: "The immunotherapy-responsive pair: renal cell carcinoma and melanoma were the first solid tumours to respond to high-dose IL-2 and then checkpoint blockade, sharing an unusual immunogenicity and even spontaneous regression."
+  - target: 01-human/03-molecular/renin
+    relation: connects-to
+    note: "Paraneoplastic hypertension: some renal cell carcinomas secrete renin, causing hypertension and hypokalaemia—a hormonal syndrome distinct from the erythropoietin-driven polycythaemia they can also produce."
+  - target: 01-human/03-molecular/akt
+    relation: connects-to
+    note: "PI3K-mTOR axis: PI3K-AKT-mTOR signalling drives renal cell carcinoma, the target of mTOR inhibitors such as everolimus and temsirolimus in advanced disease."
+  - target: 01-human/03-molecular/ezh2
+    relation: connects-to
+    note: "Chromatin dysregulation: EZH2/polycomb activity, in the context of PBRM1 and BAP1 chromatin-remodeller loss, contributes to clear-cell renal carcinoma progression."
 ---
 
 # Renal Cell Carcinoma
@@ -470,6 +479,9 @@ Kidney → primary site of EPO production under hypoxia; VHL-intact renal inters
 - `connects-to` → **[Inflammatory Bowel Disease](../inflammatory-bowel-disease/README.md)** — Immunotherapy's autoimmune cost: the checkpoint inhibitors central to advanced renal cell carcinoma treatment can unleash an autoimmune colitis closely resembling inflammatory bowel disease, managed with steroids and anti-TNF biologics.
 - `connects-to` → **[Arterial Wall](../../05-tissue/arterial-wall/README.md)** — A hypervascular tumour: VHL/HIF/VEGF make renal cell carcinoma intensely angiogenic, underlying preoperative embolization, antiangiogenic TKIs, and its hallmark growth as a tumour thrombus up the renal vein and IVC.
 - `connects-to` → **[Melanoma](../melanoma/README.md)** — The immunotherapy-responsive pair: renal cell carcinoma and melanoma were the first solid tumours to respond to high-dose IL-2 and then checkpoint blockade, sharing an unusual immunogenicity and even spontaneous regression.
+- `connects-to` → **[Renin](../../03-molecular/renin/README.md)** — Paraneoplastic hypertension: some renal cell carcinomas secrete renin, causing hypertension and hypokalaemia—a hormonal syndrome distinct from the erythropoietin-driven polycythaemia they can also produce.
+- `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — PI3K-mTOR axis: PI3K-AKT-mTOR signalling drives renal cell carcinoma, the target of mTOR inhibitors such as everolimus and temsirolimus in advanced disease.
+- `connects-to` → **[EZH2](../../03-molecular/ezh2/README.md)** — Chromatin dysregulation: EZH2/polycomb activity, in the context of PBRM1 and BAP1 chromatin-remodeller loss, contributes to clear-cell renal carcinoma progression.
 
 [^motzer-2018-checkmate214]: Motzer RJ, Tannir NM, McDermott DF, et al. Nivolumab plus ipilimumab versus sunitinib in advanced renal-cell carcinoma. *N Engl J Med.* 2018;378(14):1277-1290. [doi:10.1056/NEJMoa1712126](https://doi.org/10.1056/NEJMoa1712126) · [PubMed 29562145](https://pubmed.ncbi.nlm.nih.gov/29562145/)
 [^rini-2019-keynote426]: Rini BI, Plimack ER, Stus V, et al. Pembrolizumab plus axitinib versus sunitinib for advanced renal-cell carcinoma. *N Engl J Med.* 2019;380(12):1116-1127. [doi:10.1056/NEJMoa1816714](https://doi.org/10.1056/NEJMoa1816714) · [PubMed 30779529](https://pubmed.ncbi.nlm.nih.gov/30779529/)

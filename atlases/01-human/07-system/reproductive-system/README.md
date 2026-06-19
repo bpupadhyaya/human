@@ -266,6 +266,15 @@ cross_links:
   - target: 01-human/07-system/thalassemia
     relation: connects-to
     note: "Iron and the gonads: lifelong transfusions in thalassaemia deposit iron in the pituitary and gonads, making hypogonadism and infertility the commonest endocrine complication of the disease."
+  - target: 01-human/03-molecular/crh
+    relation: connects-to
+    note: "Stress suppresses fertility: corticotropin-releasing hormone, the apex of the stress axis, inhibits GnRH and the reproductive axis, the mechanism behind stress- and illness-related amenorrhoea."
+  - target: 01-human/03-molecular/growth-hormone
+    relation: connects-to
+    note: "Growth axis and gonads: growth hormone and IGF-1 support gonadal steroidogenesis and gametogenesis, so GH deficiency or excess can impair fertility and reproductive function."
+  - target: 02-pathogen/02-bacteria/escherichia-coli
+    relation: connects-to
+    note: "Ascending genitourinary infection: uropathogenic E. coli ascends the genital and urinary tract to cause epididymo-orchitis, prostatitis and pelvic infection, threatening fertility."
 ---
 ---
 
@@ -465,6 +474,9 @@ Testosterone binds androgen receptor (AR, nuclear receptor NR3C4) → AR dimeriz
 - `connects-to` → **[Atherosclerosis](../atherosclerosis/README.md)** — Sex hormones and the arteries: oestrogen restrains atherosclerosis before menopause and its loss accelerates it, while erectile dysfunction from penile-artery disease is often the first warning sign of systemic atherosclerosis in men.
 - `connects-to` → **[HNSCC](../hnscc/README.md)** — HPV beyond the cervix: the same oncogenic human papillomavirus that causes cervical and anogenital cancers of the reproductive tract also drives a rising share of oropharyngeal head and neck cancers.
 - `connects-to` → **[Thalassemia](../thalassemia/README.md)** — Iron and the gonads: lifelong transfusions in thalassaemia deposit iron in the pituitary and gonads, making hypogonadism and infertility the commonest endocrine complication of the disease.
+- `connects-to` → **[CRH](../../03-molecular/crh/README.md)** — Stress suppresses fertility: corticotropin-releasing hormone, the apex of the stress axis, inhibits GnRH and the reproductive axis, the mechanism behind stress- and illness-related amenorrhoea.
+- `connects-to` → **[Growth Hormone](../../03-molecular/growth-hormone/README.md)** — Growth axis and gonads: growth hormone and IGF-1 support gonadal steroidogenesis and gametogenesis, so GH deficiency or excess can impair fertility and reproductive function.
+- `connects-to` → **[Escherichia coli](../../../02-pathogen/02-bacteria/escherichia-coli/README.md)** — Ascending genitourinary infection: uropathogenic E. coli ascends the genital and urinary tract to cause epididymo-orchitis, prostatitis and pelvic infection, threatening fertility.
 
 ## Pathology
 
