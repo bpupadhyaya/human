@@ -271,6 +271,15 @@ cross_links:
   - target: 01-human/07-system/gist
     relation: connects-to
     note: "Its commonest mesenchymal tumour: gastrointestinal stromal tumours arise from the interstitial cells of Cajal—the gut's pacemaker cells—anywhere from oesophagus to rectum, distinct from the epithelial carcinomas of the digestive tract."
+  - target: 01-human/07-system/hcc
+    relation: connects-to
+    note: "Cancer of the digestive system's largest organ: hepatocellular carcinoma arises in the chronically injured liver—from viral hepatitis, alcohol or fatty liver—the dominant primary cancer of the gut's metabolic powerhouse."
+  - target: 01-human/07-system/obesity
+    relation: connects-to
+    note: "The metabolic burden on the gut: obesity reshapes bile acids and the microbiome and drives fatty liver, gallstones, reflux and colorectal cancer, tying excess adiposity to disease across the digestive tract."
+  - target: 01-human/06-organ/spleen
+    relation: connects-to
+    note: "The portal partner: the spleen drains into the portal vein, so cirrhosis and portal hypertension cause congestive splenomegaly and hypersplenism—linking digestive disease to sequestration of blood cells."
 taxonomy:
   uberon: "UBERON:0001007"
 ---
@@ -444,6 +453,9 @@ The ENS can function autonomously without extrinsic innervation (Hirschsprung's 
 - **Connects to:** [Peyer's Patches](../../05-tissue/peyers-patches/README.md) — the gut's immune sentinels: Peyer's patches in the small-intestinal wall sample luminal antigens through M cells, the gut-associated lymphoid tissue where the digestive and immune systems meet.
 - **Connects to:** [Islet of Langerhans](../../05-tissue/islet-of-langerhans/README.md) — the endocrine pancreas within the gut: the islets of Langerhans, embedded in the digestive organ that also makes digestive enzymes, secrete insulin and glucagon to regulate the metabolism of absorbed nutrients.
 - **Connects to:** [GIST](../gist/README.md) — its commonest mesenchymal tumour: gastrointestinal stromal tumours arise from the interstitial cells of Cajal—the gut's pacemaker cells—anywhere from oesophagus to rectum, distinct from the epithelial carcinomas of the digestive tract.
+- **Connects to:** [HCC](../hcc/README.md) — cancer of the digestive system's largest organ: hepatocellular carcinoma arises in the chronically injured liver—from viral hepatitis, alcohol or fatty liver—the dominant primary cancer of the gut's metabolic powerhouse.
+- **Connects to:** [Obesity](../obesity/README.md) — the metabolic burden on the gut: obesity reshapes bile acids and the microbiome and drives fatty liver, gallstones, reflux and colorectal cancer, tying excess adiposity to disease across the digestive tract.
+- **Connects to:** [Spleen](../../06-organ/spleen/README.md) — the portal partner: the spleen drains into the portal vein, so cirrhosis and portal hypertension cause congestive splenomegaly and hypersplenism—linking digestive disease to sequestration of blood cells.
 
 ## Pathology
 
