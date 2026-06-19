@@ -253,6 +253,15 @@ cross_links:
   - target: 01-human/07-system/myelofibrosis
     relation: connects-to
     note: "A great mimic of blood cancer: visceral leishmaniasis causes massive splenomegaly, pancytopenia and marrow infiltration that mimic myelofibrosis and other haematological malignancies, delaying diagnosis in non-endemic areas."
+  - target: 01-human/07-system/hodgkin-lymphoma
+    relation: connects-to
+    note: "A lymphoma mimic: visceral leishmaniasis causes fever, weight loss and massive splenomegaly that closely mimic Hodgkin lymphoma, and immunosuppression for lymphoma can in turn unmask latent infection."
+  - target: 01-human/07-system/multiple-myeloma
+    relation: connects-to
+    note: "Polyclonal gammopathy, not myeloma: visceral leishmaniasis floods the blood with polyclonal IgG, a benign hypergammaglobulinaemia that must be distinguished from the monoclonal paraprotein spike of multiple myeloma."
+  - target: 01-human/07-system/iga-nephropathy
+    relation: connects-to
+    note: "Immune-complex kidney injury: the enormous antibody load of visceral leishmaniasis deposits immune complexes in the glomeruli, causing a glomerulonephritis that can include mesangial IgA deposition."
 ---
 
 # Leishmaniasis
@@ -433,3 +442,6 @@ HIV-VL co-infection: CD4+ depletion → loss of IFN-γ production → *Leishmani
 - `connects-to` → **[Hepatic Lobule](../../05-tissue/hepatic-lobule/README.md)** — It parasitizes the liver's macrophages: visceral leishmaniasis fills the Kupffer cells of the hepatic lobule with amastigotes, driving the granulomatous response and massive hepatomegaly of kala-azar.
 - `connects-to` → **[Glomerulus](../../05-tissue/glomerulus/README.md)** — It immune-complexes the kidney: chronic visceral leishmaniasis deposits immune complexes in the glomerulus, causing glomerulonephritis and proteinuria as part of its multi-organ disease.
 - `connects-to` → **[Myelofibrosis](../myelofibrosis/README.md)** — A great mimic of blood cancer: visceral leishmaniasis causes massive splenomegaly, pancytopenia and marrow infiltration that mimic myelofibrosis and other haematological malignancies, delaying diagnosis in non-endemic areas.
+- `connects-to` → **[Hodgkin Lymphoma](../hodgkin-lymphoma/README.md)** — A lymphoma mimic: visceral leishmaniasis causes fever, weight loss and massive splenomegaly that closely mimic Hodgkin lymphoma, and immunosuppression for lymphoma can in turn unmask latent infection.
+- `connects-to` → **[Multiple Myeloma](../multiple-myeloma/README.md)** — Polyclonal gammopathy, not myeloma: visceral leishmaniasis floods the blood with polyclonal IgG, a benign hypergammaglobulinaemia that must be distinguished from the monoclonal paraprotein spike of multiple myeloma.
+- `connects-to` → **[IgA Nephropathy](../iga-nephropathy/README.md)** — Immune-complex kidney injury: the enormous antibody load of visceral leishmaniasis deposits immune complexes in the glomeruli, causing a glomerulonephritis that can include mesangial IgA deposition.

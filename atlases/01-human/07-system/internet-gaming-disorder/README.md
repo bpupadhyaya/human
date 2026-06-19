@@ -240,6 +240,15 @@ cross_links:
   - target: 01-human/05-tissue/arterial-wall
     relation: connects-to
     note: "Hours of sitting harm the vessels: the prolonged immobility of internet gaming promotes venous stasis and, over time, the sedentary endothelial dysfunction and atherosclerosis of the arterial wall."
+  - target: 01-human/07-system/hypertension
+    relation: connects-to
+    note: "Sedentary screen time raises pressure: the prolonged sitting, poor sleep and stress of internet gaming disorder contribute to weight gain and hypertension, part of its cardio-metabolic toll."
+  - target: 01-human/03-molecular/leptin
+    relation: connects-to
+    note: "Reward and appetite collide: internet gaming disorder is linked to disrupted leptin signalling and weight gain, as long sedentary sessions and reward-driven snacking blunt the satiety hormone that normally curbs eating."
+  - target: 01-human/07-system/fibromyalgia
+    relation: connects-to
+    note: "Deconditioning and pain: the inactivity, unrefreshing sleep and stress of internet gaming disorder overlap with fibromyalgia, sharing the dopaminergic and sleep dysregulation that amplify pain perception."
 sources:
   - id: kuss-2012-gaming-disorder-review
     type: peer-reviewed
@@ -488,6 +497,9 @@ A pattern of persistent or recurrent gaming behavior characterized by:
 - `connects-to` → **[Cardiac Conduction System](../../05-tissue/cardiac-conduction-system/README.md)** — Marathon sessions can stop the heart: rare sudden cardiac deaths during prolonged gaming reflect arrhythmias from sleep deprivation, dehydration and energy-drink caffeine straining the cardiac conduction system.
 - `connects-to` → **[Narcolepsy](../narcolepsy/README.md)** — It wrecks the sleep-wake cycle: late-night internet gaming fragments sleep and shifts circadian rhythm, amplifying the daytime sleepiness that overlaps the hypersomnolence of narcolepsy.
 - `connects-to` → **[Arterial Wall](../../05-tissue/arterial-wall/README.md)** — Hours of sitting harm the vessels: the prolonged immobility of internet gaming promotes venous stasis and, over time, the sedentary endothelial dysfunction and atherosclerosis of the arterial wall.
+- `connects-to` → **[Hypertension](../hypertension/README.md)** — Sedentary screen time raises pressure: the prolonged sitting, poor sleep and stress of internet gaming disorder contribute to weight gain and hypertension, part of its cardio-metabolic toll.
+- `connects-to` → **[Leptin](../../03-molecular/leptin/README.md)** — Reward and appetite collide: internet gaming disorder is linked to disrupted leptin signalling and weight gain, as long sedentary sessions and reward-driven snacking blunt the satiety hormone that normally curbs eating.
+- `connects-to` → **[Fibromyalgia](../fibromyalgia/README.md)** — Deconditioning and pain: the inactivity, unrefreshing sleep and stress of internet gaming disorder overlap with fibromyalgia, sharing the dopaminergic and sleep dysregulation that amplify pain perception.
 
 [^kuss-2012-gaming-disorder-review]: Kuss DJ, Griffiths MD. Internet gaming addiction: a systematic review of empirical research. *Int J Ment Health Addict.* 2012;10(2):278-296. [doi:10.1007/s11469-011-9318-5](https://doi.org/10.1007/s11469-011-9318-5)
 [^who-icd11-gaming-disorder]: World Health Organization. ICD-11: Gaming Disorder (6C51). Geneva: WHO; 2019. [icd.who.int](https://icd.who.int/browse/2025-01/mms/en#1448597234)
