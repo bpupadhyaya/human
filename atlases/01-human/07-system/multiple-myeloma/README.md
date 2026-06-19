@@ -274,6 +274,15 @@ cross_links:
   - target: 01-human/07-system/stroke
     relation: connects-to
     note: "Thrombosis and viscosity: high paraprotein levels can cause hyperviscosity with neurological symptoms, while immunomodulatory drugs like lenalidomide markedly raise the risk of arterial and venous thrombosis including stroke."
+  - target: 01-human/03-molecular/akt
+    relation: connects-to
+    note: "Niche survival signal: PI3K-AKT-mTOR signalling driven by the marrow microenvironment sustains myeloma plasma-cell survival and drug resistance."
+  - target: 01-human/03-molecular/notch
+    relation: connects-to
+    note: "Stromal crosstalk: Notch signalling between myeloma cells and bone-marrow stroma promotes survival, drug resistance and the osteoclast activation behind lytic bone disease."
+  - target: 01-human/03-molecular/ezh2
+    relation: connects-to
+    note: "Epigenetic dependence: EZH2 is overexpressed in multiple myeloma and contributes to its progression, an emerging epigenetic therapeutic target."
 ---
 
 # Multiple Myeloma
@@ -488,6 +497,9 @@ MM evolves from precursor conditions through a well-defined continuum:
 - `connects-to` → **[COVID-19 Disease](../covid-19-disease/README.md)** — Profound immunoparesis: myeloma suppresses normal antibody production, and anti-CD38 and BCMA-directed therapies deepen the deficit, leaving patients with severe COVID-19 and poor vaccine responses.
 - `connects-to` → **[AML](../aml/README.md)** — Therapy-related leukaemia: alkylators such as melphalan and prolonged lenalidomide raise the risk of secondary myelodysplasia and acute myeloid leukaemia, a late complication in long-surviving myeloma patients.
 - `connects-to` → **[Stroke](../stroke/README.md)** — Thrombosis and viscosity: high paraprotein levels can cause hyperviscosity with neurological symptoms, while immunomodulatory drugs like lenalidomide markedly raise the risk of arterial and venous thrombosis including stroke.
+- `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — Niche survival signal: PI3K-AKT-mTOR signalling driven by the marrow microenvironment sustains myeloma plasma-cell survival and drug resistance.
+- `connects-to` → **[Notch](../../03-molecular/notch/README.md)** — Stromal crosstalk: Notch signalling between myeloma cells and bone-marrow stroma promotes survival, drug resistance and the osteoclast activation behind lytic bone disease.
+- `connects-to` → **[EZH2](../../03-molecular/ezh2/README.md)** — Epigenetic dependence: EZH2 is overexpressed in multiple myeloma and contributes to its progression, an emerging epigenetic therapeutic target.
 
 [^kumar-2022-imwg-criteria]: Kumar SK, Callander NS, Adekola K, et al. Multiple myeloma, version 3.2021, NCCN clinical practice guidelines in oncology. *J Natl Compr Canc Netw.* 2020;18(12):1685-1717. [doi:10.6004/jnccn.2020.0057](https://doi.org/10.6004/jnccn.2020.0057) · [PubMed 33285519](https://pubmed.ncbi.nlm.nih.gov/33285519/)
 [^moreau-2022-teclistamab]: Moreau P, Garfall AL, van de Donk NWCJ, et al. Teclistamab in relapsed or refractory multiple myeloma. *N Engl J Med.* 2022;387(6):495-505. [doi:10.1056/NEJMoa2203478](https://doi.org/10.1056/NEJMoa2203478) · [PubMed 35661166](https://pubmed.ncbi.nlm.nih.gov/35661166/)

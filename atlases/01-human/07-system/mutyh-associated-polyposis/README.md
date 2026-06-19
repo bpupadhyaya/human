@@ -268,6 +268,15 @@ cross_links:
   - target: 01-human/03-molecular/brca2
     relation: connects-to
     note: "Different repair, same vulnerability: MUTYH performs base-excision repair of oxidative DNA damage while BRCA2 mediates homologous recombination of double-strand breaks—loss of either is an inherited route to cancer through unrepaired DNA."
+  - target: 01-human/03-molecular/myc
+    relation: connects-to
+    note: "Wnt-driven oncogene: the G:C→T:A transversions of MUTYH deficiency activate Wnt signalling and MYC, driving the adenoma-to-carcinoma progression of its colorectal polyps."
+  - target: 01-human/03-molecular/egfr
+    relation: connects-to
+    note: "KRAS and anti-EGFR resistance: MUTYH-associated tumours characteristically carry KRAS G12C transversions, which activate EGFR-MAPK signalling and confer resistance to anti-EGFR antibodies."
+  - target: 01-human/03-molecular/tert
+    relation: connects-to
+    note: "Replicative immortality: TERT reactivation maintaining telomeres accompanies the malignant progression of MUTYH-associated polyps toward invasive cancer."
 ---
 
 # MUTYH-Associated Polyposis
@@ -468,6 +477,9 @@ Because MAP is autosomal recessive: siblings of MAP patients are at **25%** risk
 - `connects-to` → **[Werner Syndrome](../werner-syndrome/README.md)** — The genomic-instability family: like Bloom and Werner syndromes, MUTYH-associated polyposis is an autosomal-recessive disorder of genome maintenance—here failed base-excision repair of oxidative DNA damage—predisposing to cancer through accumulated mutations.
 - `connects-to` → **[MDS](../mds/README.md)** — Beyond the colon: biallelic MUTYH carriers have a raised risk of myeloid neoplasia, with the unrepaired oxidative mutations driving myelodysplasia and acute myeloid leukaemia as well as gut tumours.
 - `connects-to` → **[BRCA2](../../03-molecular/brca2/README.md)** — Different repair, same vulnerability: MUTYH performs base-excision repair of oxidative DNA damage while BRCA2 mediates homologous recombination of double-strand breaks—loss of either is an inherited route to cancer through unrepaired DNA.
+- `connects-to` → **[MYC](../../03-molecular/myc/README.md)** — Wnt-driven oncogene: the G:C→T:A transversions of MUTYH deficiency activate Wnt signalling and MYC, driving the adenoma-to-carcinoma progression of its colorectal polyps.
+- `connects-to` → **[EGFR](../../03-molecular/egfr/README.md)** — KRAS and anti-EGFR resistance: MUTYH-associated tumours characteristically carry KRAS G12C transversions, which activate EGFR-MAPK signalling and confer resistance to anti-EGFR antibodies.
+- `connects-to` → **[TERT](../../03-molecular/tert/README.md)** — Replicative immortality: TERT reactivation maintaining telomeres accompanies the malignant progression of MUTYH-associated polyps toward invasive cancer.
 
 ---
 
