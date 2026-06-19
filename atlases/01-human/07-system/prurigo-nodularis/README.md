@@ -247,6 +247,15 @@ cross_links:
   - target: 01-human/07-system/dermatomyositis
     relation: connects-to
     note: "Another intensely itchy dermatosis: like prurigo nodularis, dermatomyositis causes severe pruritus and can be paraneoplastic, both reminding clinicians that relentless itch may signal systemic or malignant disease."
+  - target: 01-human/07-system/asthma
+    relation: connects-to
+    note: "Type-2 atopy connection: prurigo nodularis shares the IL-4/IL-13 type-2 inflammation of asthma and atopic disease, and the anti-IL-4-receptor biologic dupilumab treats both conditions."
+  - target: 01-human/07-system/polycythemia-vera
+    relation: connects-to
+    note: "Itch from the blood: aquagenic pruritus is a classic feature of polycythaemia vera, and relentless scratching can raise prurigo-like nodules—severe itch as a clue to a myeloproliferative cause."
+  - target: 01-human/03-molecular/bdnf
+    relation: connects-to
+    note: "Neurotrophins and the itch nerve: BDNF and nerve growth factor drive the dermal nerve-fibre hyperplasia and neuronal sensitisation that make prurigo nodularis so intensely and persistently itchy."
 ---
 
 # Prurigo Nodularis
@@ -406,6 +415,9 @@ PN affects approximately **72,000 patients** in the US; true prevalence is likel
 - `connects-to` → **[Targeted Therapy](../../../03-medicine/01-modern/13-cancer/targeted-therapy/README.md)** — Type-2 and itch cytokines are the targets: dupilumab against IL-4Rα and nemolizumab against the IL-31 receptor — the 'itch cytokine' — are the first approved biologics for prurigo nodularis, with JAK inhibitors close behind.
 - `connects-to` → **[Cancer Chemotherapy](../../../03-medicine/01-modern/13-cancer/cancer-chemotherapy/README.md)** — It can be a paraneoplastic clue: severe new prurigo nodularis can herald an underlying lymphoma or solid cancer, where treating the malignancy with chemotherapy resolves the otherwise refractory itch.
 - `connects-to` → **[Dermatomyositis](../dermatomyositis/README.md)** — Another intensely itchy dermatosis: like prurigo nodularis, dermatomyositis causes severe pruritus and can be paraneoplastic, both reminding clinicians that relentless itch may signal systemic or malignant disease.
+- `connects-to` → **[Asthma](../asthma/README.md)** — Type-2 atopy connection: prurigo nodularis shares the IL-4/IL-13 type-2 inflammation of asthma and atopic disease, and the anti-IL-4-receptor biologic dupilumab treats both conditions.
+- `connects-to` → **[Polycythemia Vera](../polycythemia-vera/README.md)** — Itch from the blood: aquagenic pruritus is a classic feature of polycythaemia vera, and relentless scratching can raise prurigo-like nodules—severe itch as a clue to a myeloproliferative cause.
+- `connects-to` → **[BDNF](../../03-molecular/bdnf/README.md)** — Neurotrophins and the itch nerve: BDNF and nerve growth factor drive the dermal nerve-fibre hyperplasia and neuronal sensitisation that make prurigo nodularis so intensely and persistently itchy.
 
 [^stander-2020-nemolizumab-pn]: Ständer S, Yosipovitch G, Legat FJ, et al. Trial of nemolizumab in moderate-to-severe prurigo nodularis. *N Engl J Med.* 2020;382(8):706-716. [doi:10.1056/NEJMoa1908316](https://doi.org/10.1056/NEJMoa1908316) · [PubMed 32053299](https://pubmed.ncbi.nlm.nih.gov/32053299/)
 [^briggs-2022-dupilumab-pn-liberty]: Briggs JN, Cho YY, Khanna R, et al. Dupilumab for prurigo nodularis: the LIBERTY-PN PRIME and PRIME2 trials. *N Engl J Med.* 2022;387(18):1683-1693. [doi:10.1056/NEJMoa2205093](https://doi.org/10.1056/NEJMoa2205093) · [PubMed 36300905](https://pubmed.ncbi.nlm.nih.gov/36300905/)

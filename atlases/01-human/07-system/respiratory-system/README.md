@@ -252,6 +252,15 @@ cross_links:
   - target: 03-medicine/01-modern/13-cancer/cancer-chemotherapy
     relation: connects-to
     note: "It treats and it scars the lung: cytotoxic chemotherapy is central to lung cancer, yet agents like bleomycin and methotrexate cause drug-induced pneumonitis and pulmonary fibrosis, a toxicity unique to the respiratory system."
+  - target: 01-human/05-tissue/germinal-center
+    relation: connects-to
+    note: "Mucosal immunity of the airway: bronchus-associated lymphoid tissue forms germinal-centre-like structures in the lung that mature B cells and mount local antibody responses to inhaled pathogens."
+  - target: 01-human/07-system/sepsis
+    relation: connects-to
+    note: "Pneumonia is the leading source of sepsis: severe respiratory infection and ARDS are the commonest trigger of sepsis, the respiratory tract as the gateway to systemic collapse."
+  - target: 01-human/03-molecular/erythropoietin
+    relation: connects-to
+    note: "The lung-kidney oxygen axis: the respiratory system loads oxygen onto haemoglobin, and chronic hypoxic lung disease drives erythropoietin release and secondary polycythaemia."
 taxonomy:
   uberon: "UBERON:0001004"
   fma: "FMA:7161"
@@ -406,6 +415,9 @@ The mucociliary escalator (ciliated cells + goblet cell mucus) continuously clea
 - **Connects-to** → [SARS-CoV-2](../../../02-pathogen/01-viruses/sars-cov-2/README.md): A pandemic virus that targets the airways: SARS-CoV-2 enters through ACE2 on respiratory epithelium, causing pneumonia and diffuse alveolar damage in severe COVID-19.
 - **Connects-to** → [Zoonosis](../../../02-pathogen/06-environmental/zoonosis/README.md): Many emerging lung infections jump from animals: avian influenza, SARS, MERS and hantavirus reach the human respiratory tract from animal reservoirs, a recurring source of pandemics.
 - **Connects-to** → [Staphylococcus aureus](../../../02-pathogen/02-bacteria/staphylococcus-aureus/README.md): A major cause of pneumonia: Staphylococcus aureus, including MRSA, causes severe necrotising and post-influenza pneumonia and is a leading organism in ventilator-associated lung infection.
+- **Connects-to** → [Germinal Center](../../05-tissue/germinal-center/README.md): Mucosal immunity of the airway: bronchus-associated lymphoid tissue forms germinal-centre-like structures in the lung that mature B cells and mount local antibody responses to inhaled pathogens.
+- **Connects-to** → [Sepsis](../sepsis/README.md): Pneumonia is the leading source of sepsis: severe respiratory infection and ARDS are the commonest trigger of sepsis, the respiratory tract as the gateway to systemic collapse.
+- **Connects-to** → [Erythropoietin](../../03-molecular/erythropoietin/README.md): The lung-kidney oxygen axis: the respiratory system loads oxygen onto haemoglobin, and chronic hypoxic lung disease drives erythropoietin release and secondary polycythaemia.
 - **Connects-to** → [Vitamin D](../../../03-medicine/03-food/vitamin-d/README.md): Nutrition shapes lung defence: vitamin D supports airway immunity, and deficiency is associated with more frequent respiratory infections and worse asthma control.
 - **Connects-to** → [ACE Inhibitors](../../../03-medicine/01-modern/04-cardio/ace-inhibitors/README.md): A heart drug heard in the chest: ACE inhibitors raise bradykinin in the airway, causing the dry cough and rare angioedema that are among the commonest reasons patients stop them.
 - **Connects-to** → [Lung Slice](../../05-tissue/lung-slice/README.md): The working tissue of breathing: the lung's conducting airways and alveolar parenchyma — seen on a lung slice — humidify, conduct and exchange air, the tissue-level substrate of every respiratory disease from asthma to fibrosis.
