@@ -268,6 +268,15 @@ cross_links:
   - target: 01-human/05-tissue/cortical-bone
     relation: connects-to
     note: "An empty marrow cavity: aplastic anaemia leaves the cortical-bone-encased marrow hypocellular and fatty, the hallmark biopsy finding that distinguishes it from infiltrative marrow failure."
+  - target: 02-pathogen/01-viruses/dengue-virus
+    relation: connects-to
+    note: "Viral marrow suppression: dengue transiently suppresses the bone marrow, producing the profound thrombocytopenia and pancytopenia that can mimic or unmask aplastic anaemia."
+  - target: 01-human/03-molecular/testosterone
+    relation: connects-to
+    note: "Androgen therapy: synthetic androgens such as danazol and oxymetholone stimulate residual haematopoiesis and lengthen telomeres, an older but still-used treatment for aplastic anaemia, especially telomere-related disease."
+  - target: 01-human/06-organ/placenta
+    relation: connects-to
+    note: "Pregnancy-associated aplasia: pregnancy can trigger or worsen aplastic anaemia, often remitting after delivery, implicating the hormonal and immune shifts of the placental state."
 ---
 
 # Aplastic Anemia
@@ -464,6 +473,9 @@ In >80% of acquired AA cases, the disease is **immune-mediated**: autoreactive *
 - `connects-to` → **[HIV](../hiv/README.md)** — Viral marrow suppression: HIV directly and indirectly suppresses the bone marrow, causing pancytopenia and occasionally an aplastic-anaemia-like picture in advanced infection.
 - `connects-to` → **[Epilepsy](../epilepsy/README.md)** — Drug-induced marrow failure: anticonvulsants such as carbamazepine and felbamate are among the drugs that can trigger idiosyncratic aplastic anaemia, linking epilepsy treatment to marrow failure.
 - `connects-to` → **[Cortical Bone](../../05-tissue/cortical-bone/README.md)** — An empty marrow cavity: aplastic anaemia leaves the cortical-bone-encased marrow hypocellular and fatty, the hallmark biopsy finding that distinguishes it from infiltrative marrow failure.
+- `connects-to` → **[Dengue Virus](../../../02-pathogen/01-viruses/dengue-virus/README.md)** — Viral marrow suppression: dengue transiently suppresses the bone marrow, producing the profound thrombocytopenia and pancytopenia that can mimic or unmask aplastic anaemia.
+- `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — Androgen therapy: synthetic androgens such as danazol and oxymetholone stimulate residual haematopoiesis and lengthen telomeres, an older but still-used treatment for aplastic anaemia, especially telomere-related disease.
+- `connects-to` → **[Placenta](../../06-organ/placenta/README.md)** — Pregnancy-associated aplasia: pregnancy can trigger or worsen aplastic anaemia, often remitting after delivery, implicating the hormonal and immune shifts of the placental state.
 
 ---
 
