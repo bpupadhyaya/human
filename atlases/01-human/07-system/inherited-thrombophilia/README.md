@@ -250,6 +250,15 @@ cross_links:
   - target: 03-medicine/01-modern/04-cardio/statins
     relation: connects-to
     note: "They modestly lower clot risk: beyond cholesterol, statins reduce venous-thromboembolism incidence (as shown in JUPITER) through anti-inflammatory and endothelial effects, a useful adjunct in some thrombophilic patients."
+  - target: 01-human/05-tissue/alveolus
+    relation: connects-to
+    note: "Its clots reach the lungs: inherited thrombophilias predispose to deep vein thrombosis that embolises to the pulmonary vasculature, lodging clots in the alveolar capillary bed as pulmonary embolism."
+  - target: 01-human/05-tissue/glomerulus
+    relation: connects-to
+    note: "The kidney both causes and suffers clotting: nephrotic syndrome loses antithrombin in the urine to create an acquired thrombophilia and renal-vein thrombosis, while inherited thrombophilia adds to that glomerular-disease clotting risk."
+  - target: 01-human/07-system/ahus
+    relation: connects-to
+    note: "Two genetic prothrombotic disorders: inherited thrombophilia thromboses through coagulation-factor defects, while atypical haemolytic uraemic syndrome causes microvascular thrombosis through uncontrolled complement—different cascades, shared clotting."
 ---
 
 # Inherited Thrombophilia
@@ -486,6 +495,9 @@ Antithrombin (ATIII) is the primary plasma inhibitor of thrombin, FXa, FIXa, and
 - `connects-to` → **[Aspirin](../../../03-medicine/01-modern/04-cardio/aspirin/README.md)** — Antiplatelet cover in select cases: low-dose aspirin (often with heparin) is used in thrombophilia complicated by recurrent pregnancy loss or arterial events, and for extended venous-thromboembolism prophylaxis after initial anticoagulation.
 - `connects-to` → **[Hepatic Lobule](../../05-tissue/hepatic-lobule/README.md)** — The liver makes the anticoagulants: protein C, protein S and antithrombin — the very factors deficient in inherited thrombophilia — are synthesised in the hepatic lobule, where warfarin also acts, so liver disease confounds thrombophilia testing.
 - `connects-to` → **[Statins](../../../03-medicine/01-modern/04-cardio/statins/README.md)** — They modestly lower clot risk: beyond cholesterol, statins reduce venous-thromboembolism incidence (as shown in JUPITER) through anti-inflammatory and endothelial effects, a useful adjunct in some thrombophilic patients.
+- `connects-to` → **[Alveolus](../../05-tissue/alveolus/README.md)** — Its clots reach the lungs: inherited thrombophilias predispose to deep vein thrombosis that embolises to the pulmonary vasculature, lodging clots in the alveolar capillary bed as pulmonary embolism.
+- `connects-to` → **[Glomerulus](../../05-tissue/glomerulus/README.md)** — The kidney both causes and suffers clotting: nephrotic syndrome loses antithrombin in the urine to create an acquired thrombophilia and renal-vein thrombosis, while inherited thrombophilia adds to that glomerular-disease clotting risk.
+- `connects-to` → **[aHUS](../ahus/README.md)** — Two genetic prothrombotic disorders: inherited thrombophilia thromboses through coagulation-factor defects, while atypical haemolytic uraemic syndrome causes microvascular thrombosis through uncontrolled complement—different cascades, shared clotting.
 
 [^bertina-1994-factor-v-leiden]: Bertina RM, Koeleman BP, Koster T, et al. Mutation in blood coagulation factor V associated with resistance to activated protein C. *Nature.* 1994;369(6475):64-67. [doi:10.1038/369064a0](https://doi.org/10.1038/369064a0) · [PubMed 8164741](https://pubmed.ncbi.nlm.nih.gov/8164741/)
 [^dahlback-2008-protein-c-review]: Dahlbäck B. Advances in understanding pathogenic mechanisms of thrombophilic disorders. *Blood.* 2008;112(1):19-27. [doi:10.1182/blood-2008-01-077909](https://doi.org/10.1182/blood-2008-01-077909) · [PubMed 18574048](https://pubmed.ncbi.nlm.nih.gov/18574048/)

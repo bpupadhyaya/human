@@ -250,6 +250,15 @@ cross_links:
   - target: 03-medicine/01-modern/04-cardio/aspirin
     relation: connects-to
     note: "Bradykinin, not prostaglandin, drives it: unlike ACE inhibitors, which raise bradykinin and are contraindicated, aspirin and NSAIDs do not trigger hereditary angioedema and are generally tolerated — a useful point in analgesic choice."
+  - target: 01-human/07-system/hereditary-pancreatitis
+    relation: connects-to
+    note: "Diseases of an unchecked protease cascade: hereditary angioedema unleashes the kallikrein-bradykinin cascade when C1-inhibitor fails, much as hereditary pancreatitis unleashes trypsin when its SPINK1 inhibitor fails—each a missing brake on a destructive enzyme."
+  - target: 01-human/07-system/dlbcl
+    relation: connects-to
+    note: "Acquired angioedema points to lymphoma: acquired C1-inhibitor deficiency arises with B-cell lymphoproliferative disorders such as diffuse large B-cell lymphoma and autoantibodies, causing bradykinin angioedema in older adults without a family history."
+  - target: 01-human/05-tissue/arterial-wall
+    relation: connects-to
+    note: "Bradykinin makes the vessels leak: in hereditary angioedema, unopposed bradykinin acts on B2 receptors of the vascular endothelium to increase permeability, so plasma escapes the vessel wall into tissue as the non-itchy, non-pitting swelling."
 ---
 
 # Hereditary Angioedema
@@ -462,6 +471,9 @@ Fluid extravasation → ANGIOEDEMA
 - `connects-to` → **[COVID-19 Disease](../covid-19-disease/README.md)** — A shared bradykinin axis: HAE is driven by unchecked bradykinin, and the same kinin pathway — amplified when SARS-CoV-2 disrupts ACE2 — was proposed to drive the vascular leak of severe COVID-19, prompting trials of HAE drugs like icatibant.
 - `connects-to` → **[Cancer Chemotherapy](../../../03-medicine/01-modern/13-cancer/cancer-chemotherapy/README.md)** — Treating the cause of acquired angioedema: an acquired C1-inhibitor deficiency mimicking HAE arises in CLL, myeloma and lymphoma, where chemotherapy or rituximab against the underlying clone can resolve the angioedema.
 - `connects-to` → **[Aspirin](../../../03-medicine/01-modern/04-cardio/aspirin/README.md)** — Bradykinin, not prostaglandin, drives it: unlike ACE inhibitors, which raise bradykinin and are contraindicated, aspirin and NSAIDs do not trigger hereditary angioedema and are generally tolerated — a useful point in analgesic choice.
+- `connects-to` → **[Hereditary Pancreatitis](../hereditary-pancreatitis/README.md)** — Diseases of an unchecked protease cascade: hereditary angioedema unleashes the kallikrein-bradykinin cascade when C1-inhibitor fails, much as hereditary pancreatitis unleashes trypsin when its SPINK1 inhibitor fails—each a missing brake on a destructive enzyme.
+- `connects-to` → **[DLBCL](../dlbcl/README.md)** — Acquired angioedema points to lymphoma: acquired C1-inhibitor deficiency arises with B-cell lymphoproliferative disorders such as diffuse large B-cell lymphoma and autoantibodies, causing bradykinin angioedema in older adults without a family history.
+- `connects-to` → **[Arterial Wall](../../05-tissue/arterial-wall/README.md)** — Bradykinin makes the vessels leak: in hereditary angioedema, unopposed bradykinin acts on B2 receptors of the vascular endothelium to increase permeability, so plasma escapes the vessel wall into tissue as the non-itchy, non-pitting swelling.
 
 [^cicardi-2010-icatibant-nejm]: Cicardi M, Banerji A, Bracho F, et al. Icatibant, a new bradykinin-receptor antagonist, in hereditary angioedema. *N Engl J Med.* 2010;363(6):532-541. [doi:10.1056/NEJMoa0906393](https://doi.org/10.1056/NEJMoa0906393) · [PubMed 20818873](https://pubmed.ncbi.nlm.nih.gov/20818873/)
 [^maurer-2018-lanadelumab-help]: Banerji A, Riedl MA, Bernstein JA, et al. Effect of lanadelumab compared with placebo on prevention of hereditary angioedema attacks. *JAMA.* 2018;320(20):2108-2121. [doi:10.1001/jama.2018.16773](https://doi.org/10.1001/jama.2018.16773) · [PubMed 30480729](https://pubmed.ncbi.nlm.nih.gov/30480729/)
