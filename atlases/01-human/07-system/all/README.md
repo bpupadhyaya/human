@@ -259,6 +259,15 @@ cross_links:
   - target: 01-human/07-system/hodgkin-lymphoma
     relation: connects-to
     note: "Two cancers of the lymphoid system: ALL is a malignancy of lymphoid precursors in the marrow while Hodgkin lymphoma arises from mature B cells in lymph nodes—distinct lymphoid cancers that both strike the young."
+  - target: 03-medicine/01-modern/13-cancer/car-t
+    relation: connects-to
+    note: "The CAR-T breakthrough: B-cell ALL was the first cancer cured by CD19 CAR-T cells (tisagenlecleucel), engineered T cells now standard for relapsed and refractory disease."
+  - target: 01-human/07-system/cytokine-storm
+    relation: connects-to
+    note: "Immunotherapy's storm: CD19 CAR-T cells and the bispecific blinatumomab used for ALL trigger cytokine release syndrome, a systemic cytokine storm needing tocilizumab and intensive care."
+  - target: 01-human/05-tissue/glomerulus
+    relation: connects-to
+    note: "Tumour-lysis nephropathy: the rapid blast turnover of ALL at induction floods the blood with urate and phosphate that precipitate in the glomerulus and tubules, causing acute kidney injury."
 ---
 
 # Acute Lymphoblastic Leukemia
@@ -479,6 +488,9 @@ Childhood ALL survivors (now majority of patients): neurocognitive impairment (M
 - `connects-to` → **[MDS](../mds/README.md)** — From dysplasia to acute leukaemia: myelodysplastic syndromes are clonal marrow-failure states that can transform into acute leukaemia, and intensive ALL therapy can itself later cause therapy-related myeloid neoplasms.
 - `connects-to` → **[Intestinal Epithelium](../../05-tissue/intestinal-epithelium/README.md)** — Neutropenic enterocolitis: chemotherapy for ALL denudes the gut epithelium and, combined with profound neutropenia, causes typhlitis—a life-threatening infection of the bowel wall.
 - `connects-to` → **[Hodgkin Lymphoma](../hodgkin-lymphoma/README.md)** — Two cancers of the lymphoid system: ALL is a malignancy of lymphoid precursors in the marrow while Hodgkin lymphoma arises from mature B cells in lymph nodes—distinct lymphoid cancers that both strike the young.
+- `connects-to` → **[CAR-T](../../../03-medicine/01-modern/13-cancer/car-t/README.md)** — The CAR-T breakthrough: B-cell ALL was the first cancer cured by CD19 CAR-T cells (tisagenlecleucel), engineered T cells now standard for relapsed and refractory disease.
+- `connects-to` → **[Cytokine Storm](../cytokine-storm/README.md)** — Immunotherapy's storm: CD19 CAR-T cells and the bispecific blinatumomab used for ALL trigger cytokine release syndrome, a systemic cytokine storm needing tocilizumab and intensive care.
+- `connects-to` → **[Glomerulus](../../05-tissue/glomerulus/README.md)** — Tumour-lysis nephropathy: the rapid blast turnover of ALL at induction floods the blood with urate and phosphate that precipitate in the glomerulus and tubules, causing acute kidney injury.
 
 [^pui-2018-all-cure]: Pui CH, Yang JJ, Bhakta N, et al. Global efforts toward the cure of childhood acute lymphoblastic leukemia. *Lancet Child Adolesc Health.* 2018;2(6):440-454. [doi:10.1016/S2352-4642(18)30066-X](https://doi.org/10.1016/S2352-4642(18)30066-X) · [PubMed 29976322](https://pubmed.ncbi.nlm.nih.gov/29976322/)
 [^maude-2018-tisagenlecleucel]: Maude SL, Laetsch TW, Buechner J, et al. Tisagenlecleucel in children and young adults with B-cell lymphoblastic leukemia. *N Engl J Med.* 2018;378(5):439-448. [doi:10.1056/NEJMoa1709866](https://doi.org/10.1056/NEJMoa1709866) · [PubMed 29385370](https://pubmed.ncbi.nlm.nih.gov/29385370/)
