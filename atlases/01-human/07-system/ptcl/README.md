@@ -241,6 +241,15 @@ cross_links:
   - target: 03-medicine/01-modern/13-cancer/car-t
     relation: connects-to
     note: "Fratricide blocks T-cell CAR-T: the CAR-T therapy that transformed B-cell lymphoma is hard to apply to PTCL because engineered T-cells share target antigens with the tumour and kill each other, driving gene-edited and NK-cell designs."
+  - target: 01-human/07-system/aml
+    relation: connects-to
+    note: "Shared epigenetic mutations: angioimmunoblastic T-cell lymphoma carries TET2, DNMT3A and IDH2 mutations like acute myeloid leukaemia and clonal haematopoiesis, sometimes arising from the same mutant haematopoietic precursor."
+  - target: 01-human/07-system/nsclc
+    relation: connects-to
+    note: "A shared ALK fusion: ALK-positive anaplastic large-cell lymphoma and ALK-rearranged non-small-cell lung cancer both depend on a constitutively active ALK kinase, so ALK inhibitors like crizotinib treat both across blood and lung."
+  - target: 03-medicine/01-modern/13-cancer/checkpoint-inhibitors
+    relation: connects-to
+    note: "Immunotherapy with a caveat: some peripheral T-cell lymphomas (especially EBV-driven or PD-L1-high subtypes) respond to PD-1 inhibitors, but checkpoint blockade can paradoxically accelerate certain T-cell lymphomas, so it is used cautiously."
 ---
 
 # Peripheral T-cell Lymphoma
@@ -460,6 +469,9 @@ Aggressive presentation; generalized lymphadenopathy; extranodal involvement (~6
 - `connects-to` → **[Cancer Chemotherapy](../../../03-medicine/01-modern/13-cancer/cancer-chemotherapy/README.md)** — CHOEP then transplant: peripheral T-cell lymphoma is treated with anthracycline regimens like CHOEP followed by autologous stem-cell transplant, yet responds far worse than B-cell lymphomas with frequent early relapse.
 - `connects-to` → **[Burkitt Lymphoma](../burkitt-lymphoma/README.md)** — A B-lineage aggressive counterpart: Burkitt and PTCL are both aggressive non-Hodgkin lymphomas, but Burkitt is a MYC-driven B-cell tumour cured by intensive chemo, whereas PTCL is a chemo-resistant T-cell malignancy — lineage dictates prognosis.
 - `connects-to` → **[CAR-T](../../../03-medicine/01-modern/13-cancer/car-t/README.md)** — Fratricide blocks T-cell CAR-T: the CAR-T therapy that transformed B-cell lymphoma is hard to apply to PTCL because engineered T-cells share target antigens with the tumour and kill each other, driving gene-edited and NK-cell designs.
+- `connects-to` → **[AML](../aml/README.md)** — Shared epigenetic mutations: angioimmunoblastic T-cell lymphoma carries TET2, DNMT3A and IDH2 mutations like acute myeloid leukaemia and clonal haematopoiesis, sometimes arising from the same mutant haematopoietic precursor.
+- `connects-to` → **[NSCLC](../nsclc/README.md)** — A shared ALK fusion: ALK-positive anaplastic large-cell lymphoma and ALK-rearranged non-small-cell lung cancer both depend on a constitutively active ALK kinase, so ALK inhibitors like crizotinib treat both across blood and lung.
+- `connects-to` → **[Checkpoint Inhibitors](../../../03-medicine/01-modern/13-cancer/checkpoint-inhibitors/README.md)** — Immunotherapy with a caveat: some peripheral T-cell lymphomas (especially EBV-driven or PD-L1-high subtypes) respond to PD-1 inhibitors, but checkpoint blockade can paradoxically accelerate certain T-cell lymphomas, so it is used cautiously.
 
 ---
 

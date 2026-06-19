@@ -249,6 +249,15 @@ cross_links:
   - target: 02-pathogen/02-bacteria/mycobacterium-tuberculosis
     relation: connects-to
     note: "TB must be excluded before biologics: anti-TNF and other biologics used for psoriatic arthritis can reactivate latent tuberculosis, so screening with IGRA or skin test is mandatory before starting them."
+  - target: 01-human/05-tissue/cardiac-conduction-system
+    relation: connects-to
+    note: "HLA-B27 reaches the heart's wiring: like ankylosing spondylitis, psoriatic and other HLA-B27 spondyloarthropathies can cause atrioventricular conduction block and aortic-root inflammation, adding cardiac risk beyond their accelerated atherosclerosis."
+  - target: 01-human/07-system/iga-nephropathy
+    relation: connects-to
+    note: "A gut-joint-kidney axis: the IL-17/IL-23 mucosal immunity that drives psoriatic arthritis also dysregulates IgA, and spondyloarthropathies carry an increased risk of IgA nephropathy—inflammation surfacing in the kidney."
+  - target: 01-human/07-system/multiple-sclerosis
+    relation: connects-to
+    note: "A caution for its biologics: the TNF inhibitors central to psoriatic arthritis can unmask or worsen demyelinating disease, so multiple sclerosis contraindicates them—one cytokine blockade helping joints yet harming nerves."
 ---
 
 # Psoriatic Arthritis
@@ -473,6 +482,9 @@ Risankizumab (anti-IL-23p19) **failed primary endpoints** in the SURPASS trial f
 - `connects-to` → **[Adalimumab](../../../03-medicine/01-modern/11-biologics/adalimumab/README.md)** — Biologics target its cytokines: anti-TNF agents like adalimumab, along with IL-17 and IL-23 inhibitors, control the joint and skin inflammation of psoriatic arthritis.
 - `connects-to` → **[Endocrine System](../endocrine-system/README.md)** — It clusters with metabolic disease: psoriatic arthritis is strongly associated with obesity, insulin resistance and the metabolic syndrome, which also worsen its activity.
 - `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — It shapes pregnancy planning: psoriatic arthritis often improves or flares in pregnancy, and the safety of its biologic and methotrexate therapy guides conception decisions.
+- `connects-to` → **[Cardiac Conduction System](../../05-tissue/cardiac-conduction-system/README.md)** — HLA-B27 reaches the heart's wiring: like ankylosing spondylitis, psoriatic and other HLA-B27 spondyloarthropathies can cause atrioventricular conduction block and aortic-root inflammation, adding cardiac risk beyond their accelerated atherosclerosis.
+- `connects-to` → **[IgA Nephropathy](../iga-nephropathy/README.md)** — A gut-joint-kidney axis: the IL-17/IL-23 mucosal immunity that drives psoriatic arthritis also dysregulates IgA, and spondyloarthropathies carry an increased risk of IgA nephropathy—inflammation surfacing in the kidney.
+- `connects-to` → **[Multiple Sclerosis](../multiple-sclerosis/README.md)** — A caution for its biologics: the TNF inhibitors central to psoriatic arthritis can unmask or worsen demyelinating disease, so multiple sclerosis contraindicates them—one cytokine blockade helping joints yet harming nerves.
 
 [^ritchlin-2017-psa-review]: Ritchlin CT, Colbert RA, Gladman DD. Psoriatic arthritis. *N Engl J Med.* 2017;376(10):957-970. [doi:10.1056/NEJMra1505557](https://doi.org/10.1056/NEJMra1505557) · [PubMed 28273019](https://pubmed.ncbi.nlm.nih.gov/28273019/)
 [^mease-2015-secukinumab-psa-future2]: Mease PJ, et al. Secukinumab inhibition of interleukin-17A in patients with psoriatic arthritis. *N Engl J Med.* 2015;373(14):1329-1339. [doi:10.1056/NEJMoa1503317](https://doi.org/10.1056/NEJMoa1503317) · [PubMed 26422723](https://pubmed.ncbi.nlm.nih.gov/26422723/)
