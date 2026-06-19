@@ -283,6 +283,15 @@ cross_links:
   - target: 01-human/03-molecular/ezh2
     relation: connects-to
     note: "Epigenetic driver: the histone methyltransferase EZH2 is overexpressed in bladder cancer, silencing tumour-suppressor genes and promoting invasion—an emerging therapeutic target."
+  - target: 01-human/03-molecular/akt
+    relation: connects-to
+    note: "PI3K/AKT activation: PIK3CA mutation and PTEN loss converge on AKT in bladder cancer, driving growth and survival in the luminal molecular subtype."
+  - target: 01-human/03-molecular/cyclin-d1
+    relation: connects-to
+    note: "Cell-cycle drive: cyclin D1, often amplified alongside RB1 and CDKN2A loss, pushes bladder cancer cells through the G1 checkpoint to fuel proliferation."
+  - target: 01-human/03-molecular/hif-1alpha
+    relation: connects-to
+    note: "Tumour hypoxia: HIF-1α stabilised in hypoxic bladder tumours drives the VEGF angiogenesis and invasive, treatment-resistant phenotype of muscle-invasive disease."
 ---
 
 # Bladder Cancer
@@ -492,6 +501,9 @@ NMIBC and MIBC have distinct molecular landscapes:
 - `connects-to` → **[SCLC](../sclc/README.md)** — Small-cell variant: a rare neuroendocrine small-cell carcinoma of the bladder mirrors small-cell lung cancer, sharing RB1/TP53 loss, rapid growth and platinum-etoposide chemosensitivity.
 - `connects-to` → **[KRAS](../../03-molecular/kras/README.md)** — RAS-MAPK signalling: activating RAS-family mutations switch on MAPK signalling, especially in low-grade papillary bladder tumours, working alongside FGFR3 to drive proliferation.
 - `connects-to` → **[EZH2](../../03-molecular/ezh2/README.md)** — Epigenetic driver: the histone methyltransferase EZH2 is overexpressed in bladder cancer, silencing tumour-suppressor genes and promoting invasion—an emerging therapeutic target.
+- `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — PI3K/AKT activation: PIK3CA mutation and PTEN loss converge on AKT in bladder cancer, driving growth and survival in the luminal molecular subtype.
+- `connects-to` → **[Cyclin D1](../../03-molecular/cyclin-d1/README.md)** — Cell-cycle drive: cyclin D1, often amplified alongside RB1 and CDKN2A loss, pushes bladder cancer cells through the G1 checkpoint to fuel proliferation.
+- `connects-to` → **[HIF-1α](../../03-molecular/hif-1alpha/README.md)** — Tumour hypoxia: HIF-1α stabilised in hypoxic bladder tumours drives the VEGF angiogenesis and invasive, treatment-resistant phenotype of muscle-invasive disease.
 
 ---
 

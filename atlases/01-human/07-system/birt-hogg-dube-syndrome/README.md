@@ -277,6 +277,15 @@ cross_links:
   - target: 01-human/07-system/pheochromocytoma-paraganglioma
     relation: connects-to
     note: "Pseudohypoxic overlap: like SDH- and VHL-driven pheochromocytoma-paraganglioma, FLCN-deficient BHD tumours show HIF-1α-driven pseudohypoxic, angiogenic signalling within the inherited renal/endocrine tumour spectrum."
+  - target: 01-human/03-molecular/myc
+    relation: connects-to
+    note: "TFE3-driven MYC: FLCN loss in BHD releases the transcription factor TFE3 to the nucleus, where it upregulates MYC and the biosynthetic programme fuelling tumour growth."
+  - target: 01-human/03-molecular/nfe2l2
+    relation: connects-to
+    note: "Antioxidant reprogramming: FLCN-deficient BHD cells show constitutive NRF2 (NFE2L2) activation, driving the metabolic and antioxidant programme that supports their survival."
+  - target: 01-human/03-molecular/wnt-beta-catenin
+    relation: connects-to
+    note: "Wnt dysregulation: FLCN loss perturbs Wnt/β-catenin signalling, an additional oncogenic pathway contributing to the renal tumours of Birt-Hogg-Dubé."
 ---
 
 # Birt-Hogg-Dubé Syndrome
@@ -504,6 +513,9 @@ Definite BHD: 1 major OR 2 minor criteria (European BHD Consortium definition)
 - `connects-to` → **[TSC1-TSC2](../../03-molecular/tsc1-tsc2/README.md)** — mTOR convergence: FLCN and the TSC1-TSC2 complex both regulate mTORC1, and the two hamartoma syndromes share cystic lung disease and renal lesions, framing BHD as a sister mTOR-pathway disorder.
 - `connects-to` → **[YAP1](../../03-molecular/yap1/README.md)** — Hippo dysregulation: FLCN loss can deregulate the Hippo-YAP pathway, an additional driver implicated in the oncocytic and chromophobe renal tumours characteristic of Birt-Hogg-Dubé.
 - `connects-to` → **[Pheochromocytoma-Paraganglioma](../pheochromocytoma-paraganglioma/README.md)** — Pseudohypoxic overlap: like SDH- and VHL-driven pheochromocytoma-paraganglioma, FLCN-deficient BHD tumours show HIF-1α-driven pseudohypoxic, angiogenic signalling within the inherited renal/endocrine tumour spectrum.
+- `connects-to` → **[MYC](../../03-molecular/myc/README.md)** — TFE3-driven MYC: FLCN loss in BHD releases the transcription factor TFE3 to the nucleus, where it upregulates MYC and the biosynthetic programme fuelling tumour growth.
+- `connects-to` → **[NFE2L2](../../03-molecular/nfe2l2/README.md)** — Antioxidant reprogramming: FLCN-deficient BHD cells show constitutive NRF2 (NFE2L2) activation, driving the metabolic and antioxidant programme that supports their survival.
+- `connects-to` → **[Wnt/β-catenin](../../03-molecular/wnt-beta-catenin/README.md)** — Wnt dysregulation: FLCN loss perturbs Wnt/β-catenin signalling, an additional oncogenic pathway contributing to the renal tumours of Birt-Hogg-Dubé.
 
 ---
 
