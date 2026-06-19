@@ -259,6 +259,15 @@ cross_links:
   - target: 01-human/03-molecular/tert
     relation: connects-to
     note: "Telomerase reactivation: UV-signature TERT-promoter mutations reactivate telomerase in basal cell carcinoma, granting the replicative immortality that lets the tumour grow indefinitely."
+  - target: 01-human/07-system/bloom-syndrome
+    relation: connects-to
+    note: "DNA-repair genodermatoses: like Bloom syndrome, defects in DNA repair leave skin unable to fix UV damage, raising basal cell and other skin cancers from sun exposure."
+  - target: 01-human/07-system/werner-syndrome
+    relation: connects-to
+    note: "Premature ageing and skin cancer: the progeroid Werner syndrome, through WRN-helicase loss and accelerated cellular ageing, raises the risk of skin and other cancers including non-melanoma types."
+  - target: 01-human/07-system/rheumatoid-arthritis
+    relation: connects-to
+    note: "Immunosuppression and skin cancer: long-term immunosuppressants for rheumatoid arthritis (azathioprine and, to a lesser degree, biologics) raise the risk of basal and other skin cancers, demanding surveillance."
 ---
 
 # Basal Cell Carcinoma
@@ -461,6 +470,9 @@ BCC has a complex immune microenvironment:
 - `connects-to` → **[Rhabdomyosarcoma](../rhabdomyosarcoma/README.md)** — Shared hedgehog activation: like BCC and medulloblastoma, a subset of rhabdomyosarcoma is driven by aberrant Sonic-hedgehog/GLI signalling, the pathway blocked by SMO inhibitors.
 - `connects-to` → **[Notch](../../03-molecular/notch/README.md)** — A tumour suppressor in skin: NOTCH signalling normally restrains keratinocyte proliferation, and its loss cooperates with hedgehog pathway activation to drive basal cell carcinoma.
 - `connects-to` → **[TERT](../../03-molecular/tert/README.md)** — Telomerase reactivation: UV-signature TERT-promoter mutations reactivate telomerase in basal cell carcinoma, granting the replicative immortality that lets the tumour grow indefinitely.
+- `connects-to` → **[Bloom Syndrome](../bloom-syndrome/README.md)** — DNA-repair genodermatoses: like Bloom syndrome, defects in DNA repair leave skin unable to fix UV damage, raising basal cell and other skin cancers from sun exposure.
+- `connects-to` → **[Werner Syndrome](../werner-syndrome/README.md)** — Premature ageing and skin cancer: the progeroid Werner syndrome, through WRN-helicase loss and accelerated cellular ageing, raises the risk of skin and other cancers including non-melanoma types.
+- `connects-to` → **[Rheumatoid Arthritis](../rheumatoid-arthritis/README.md)** — Immunosuppression and skin cancer: long-term immunosuppressants for rheumatoid arthritis (azathioprine and, to a lesser degree, biologics) raise the risk of basal and other skin cancers, demanding surveillance.
 
 ---
 

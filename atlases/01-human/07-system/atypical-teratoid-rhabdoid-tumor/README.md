@@ -259,6 +259,15 @@ cross_links:
   - target: 01-human/07-system/osteosarcoma
     relation: connects-to
     note: "Childhood cancers of the Li-Fraumeni spectrum: like AT/RT, osteosarcoma can arise in Li-Fraumeni syndrome from germline TP53 loss, linking a brain rhabdoid tumour and a bone sarcoma through shared tumour-suppressor failure."
+  - target: 01-human/07-system/ovarian-clear-cell-carcinoma
+    relation: connects-to
+    note: "Two ways to break SWI/SNF: AT/RT loses the SMARCB1 subunit while ovarian clear cell carcinoma loses ARID1A—different subunits crippling the same SWI/SNF chromatin-remodelling complex."
+  - target: 01-human/07-system/renal-cell-carcinoma
+    relation: connects-to
+    note: "SMARCB1 beyond the brain: the same SMARCB1 loss defining AT/RT drives renal medullary carcinoma (in sickle-cell trait) and malignant rhabdoid tumour of the kidney, a family of SMARCB1-deficient cancers."
+  - target: 01-human/05-tissue/cortical-bone
+    relation: connects-to
+    note: "Metastatic spread: malignant rhabdoid tumours, including extracranial forms, can metastasise to bone, depositing in the cortical bone alongside their spread to lung and liver."
 ---
 
 # Atypical Teratoid/Rhabdoid Tumor
@@ -458,6 +467,9 @@ AT/RT has no established standard of care; protocols are protocol-driven and cen
 - `connects-to` → **[Alveolus](../../05-tissue/alveolus/README.md)** — Extracranial spread to the lung: AT/RT can disseminate beyond the CNS to seed pulmonary metastases in the alveolar capillary bed, a marker of widespread and often fatal disease.
 - `connects-to` → **[Hepatic Lobule](../../05-tissue/hepatic-lobule/README.md)** — Liver metastasis: AT/RT, one of the few brain tumours that spreads outside the nervous system, can seed the hepatic lobule as part of disseminated rhabdoid disease.
 - `connects-to` → **[Osteosarcoma](../osteosarcoma/README.md)** — Childhood cancers of the Li-Fraumeni spectrum: like AT/RT, osteosarcoma can arise in Li-Fraumeni syndrome from germline TP53 loss, linking a brain rhabdoid tumour and a bone sarcoma through shared tumour-suppressor failure.
+- `connects-to` → **[Ovarian Clear Cell Carcinoma](../ovarian-clear-cell-carcinoma/README.md)** — Two ways to break SWI/SNF: AT/RT loses the SMARCB1 subunit while ovarian clear cell carcinoma loses ARID1A—different subunits crippling the same SWI/SNF chromatin-remodelling complex.
+- `connects-to` → **[Renal Cell Carcinoma](../renal-cell-carcinoma/README.md)** — SMARCB1 beyond the brain: the same SMARCB1 loss defining AT/RT drives renal medullary carcinoma (in sickle-cell trait) and malignant rhabdoid tumour of the kidney, a family of SMARCB1-deficient cancers.
+- `connects-to` → **[Cortical Bone](../../05-tissue/cortical-bone/README.md)** — Metastatic spread: malignant rhabdoid tumours, including extracranial forms, can metastasise to bone, depositing in the cortical bone alongside their spread to lung and liver.
 
 ---
 
