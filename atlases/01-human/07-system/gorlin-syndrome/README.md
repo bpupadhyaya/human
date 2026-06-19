@@ -277,6 +277,15 @@ cross_links:
   - target: 01-human/03-molecular/pten
     relation: connects-to
     note: "PI3K crosstalk and resistance: PTEN loss activates PI3K-AKT signalling that cooperates with Hedgehog and contributes to resistance against SMO inhibitors in Gorlin-related tumours."
+  - target: 01-human/03-molecular/myc
+    relation: connects-to
+    note: "Hedgehog target: GLI-driven Hedgehog signalling from PTCH1 loss upregulates MYC (and MYCN), driving the proliferation of the basal cell carcinomas and medulloblastomas of Gorlin syndrome."
+  - target: 01-human/03-molecular/ezh2
+    relation: connects-to
+    note: "Epigenetic cooperation: EZH2-mediated PRC2 silencing of tumour-suppressor genes cooperates with Hedgehog activation in the tumours of Gorlin syndrome."
+  - target: 01-human/03-molecular/hif-1alpha
+    relation: connects-to
+    note: "Tumour hypoxia: HIF-1α stabilised in the growing tumours of Gorlin syndrome drives the VEGF angiogenesis that supports their expansion."
 ---
 
 # Gorlin Syndrome
@@ -474,6 +483,9 @@ Both are two-hit tumor suppressors: germline heterozygous LOF + somatic second h
 - `connects-to` → **[Notch](../../03-molecular/notch/README.md)** — Hedgehog-Notch crosstalk: Notch signalling intersects with the Hedgehog pathway in Gorlin's basal cell carcinomas and medulloblastomas, where it can act as a context-dependent tumour suppressor.
 - `connects-to` → **[YAP1](../../03-molecular/yap1/README.md)** — Hippo cooperation: the Hippo effector YAP cooperates with constitutive Hedgehog signalling to drive proliferation in the basal cell carcinomas and medulloblastomas of Gorlin syndrome.
 - `connects-to` → **[PTEN](../../03-molecular/pten/README.md)** — PI3K crosstalk and resistance: PTEN loss activates PI3K-AKT signalling that cooperates with Hedgehog and contributes to resistance against SMO inhibitors in Gorlin-related tumours.
+- `connects-to` → **[MYC](../../03-molecular/myc/README.md)** — Hedgehog target: GLI-driven Hedgehog signalling from PTCH1 loss upregulates MYC (and MYCN), driving the proliferation of the basal cell carcinomas and medulloblastomas of Gorlin syndrome.
+- `connects-to` → **[EZH2](../../03-molecular/ezh2/README.md)** — Epigenetic cooperation: EZH2-mediated PRC2 silencing of tumour-suppressor genes cooperates with Hedgehog activation in the tumours of Gorlin syndrome.
+- `connects-to` → **[HIF-1α](../../03-molecular/hif-1alpha/README.md)** — Tumour hypoxia: HIF-1α stabilised in the growing tumours of Gorlin syndrome drives the VEGF angiogenesis that supports their expansion.
 
 ---
 

@@ -277,6 +277,15 @@ cross_links:
   - target: 01-human/03-molecular/akt
     relation: connects-to
     note: "Core PI3K-AKT axis: loss of PTEN unleashes PI3K-AKT-mTOR signalling, one of glioblastoma's defining altered pathways driving proliferation and survival."
+  - target: 01-human/03-molecular/myc
+    relation: connects-to
+    note: "Stemness oncogene: MYC sustains the glioblastoma stem cells and their biosynthetic, proliferative programme, a downstream hub of its many growth-factor pathways."
+  - target: 01-human/03-molecular/cyclin-d1
+    relation: connects-to
+    note: "Cell-cycle drive: with CDKN2A loss and CDK4 amplification frequent in glioblastoma, cyclin D-CDK4/6 activity drives unrestrained passage through the G1 checkpoint."
+  - target: 01-human/03-molecular/ezh2
+    relation: connects-to
+    note: "Epigenetic stemness: EZH2 enforces the repressive chromatin state of glioblastoma stem cells, an epigenetic dependency promoting self-renewal and therapy resistance."
 ---
 
 # Glioblastoma
@@ -493,6 +502,9 @@ The blood-brain barrier (BBB) creates a pharmacological challenge:
 - `connects-to` → **[MET](../../03-molecular/met/README.md)** — Resistance kinase: MET amplification and activation drive glioblastoma growth and emerge as a resistance mechanism to EGFR-targeted therapy, a candidate co-target.
 - `connects-to` → **[Notch](../../03-molecular/notch/README.md)** — Stem-cell maintenance: Notch signalling sustains glioblastoma stem cells and their self-renewal, contributing to therapy resistance and recurrence after treatment.
 - `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — Core PI3K-AKT axis: loss of PTEN unleashes PI3K-AKT-mTOR signalling, one of glioblastoma's defining altered pathways driving proliferation and survival.
+- `connects-to` → **[MYC](../../03-molecular/myc/README.md)** — Stemness oncogene: MYC sustains the glioblastoma stem cells and their biosynthetic, proliferative programme, a downstream hub of its many growth-factor pathways.
+- `connects-to` → **[Cyclin D1](../../03-molecular/cyclin-d1/README.md)** — Cell-cycle drive: with CDKN2A loss and CDK4 amplification frequent in glioblastoma, cyclin D-CDK4/6 activity drives unrestrained passage through the G1 checkpoint.
+- `connects-to` → **[EZH2](../../03-molecular/ezh2/README.md)** — Epigenetic stemness: EZH2 enforces the repressive chromatin state of glioblastoma stem cells, an epigenetic dependency promoting self-renewal and therapy resistance.
 
 ---
 
