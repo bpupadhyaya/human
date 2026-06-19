@@ -250,6 +250,15 @@ cross_links:
   - target: 01-human/05-tissue/alveolus
     relation: connects-to
     note: "When pancreatitis reaches the lungs: a severe attack floods the blood with proteases and cytokines that injure the alveolar–capillary membrane, causing the acute respiratory distress syndrome that makes severe hereditary pancreatitis life-threatening."
+  - target: 01-human/05-tissue/hepatic-lobule
+    relation: connects-to
+    note: "Biliary obstruction and the liver: chronic pancreatitis with head fibrosis compresses the bile duct, causing cholestasis that backs up into the hepatic lobule, while shared alcohol injures both organs."
+  - target: 01-human/05-tissue/peripheral-nerve
+    relation: connects-to
+    note: "The relentless pain: pancreatic inflammation sensitises and remodels visceral and peripheral nerves, producing the severe neuropathic pain that dominates chronic pancreatitis and drives opioid use."
+  - target: 01-human/05-tissue/cortical-bone
+    relation: connects-to
+    note: "Pancreatic osteodystrophy: fat malabsorption and vitamin-D and calcium deficiency in chronic pancreatitis thin cortical bone, causing the osteoporosis and fractures common in these patients."
 ---
 
 # Hereditary Pancreatitis
@@ -471,6 +480,9 @@ cross_links:
 - `connects-to` → **[Hereditary Angioedema](../hereditary-angioedema/README.md)** — Diseases of an unchecked protease cascade: hereditary pancreatitis unleashes trypsin when its inhibitor SPINK1 fails, much as hereditary angioedema unleashes the kallikrein–bradykinin cascade when C1-inhibitor fails—each a missing brake on a destructive enzyme.
 - `connects-to` → **[Curcumin](../../../03-medicine/03-food/curcumin/README.md)** — Antioxidants aimed at the pain: oxidative stress drives the inflammation and pain of chronic pancreatitis, and antioxidant compounds such as curcumin have been studied as adjuncts to reduce flares and pain in hereditary pancreatitis.
 - `connects-to` → **[Alveolus](../../05-tissue/alveolus/README.md)** — When pancreatitis reaches the lungs: a severe attack floods the blood with proteases and cytokines that injure the alveolar–capillary membrane, causing the acute respiratory distress syndrome that makes severe hereditary pancreatitis life-threatening.
+- `connects-to` → **[Hepatic Lobule](../../05-tissue/hepatic-lobule/README.md)** — Biliary obstruction and the liver: chronic pancreatitis with head fibrosis compresses the bile duct, causing cholestasis that backs up into the hepatic lobule, while shared alcohol injures both organs.
+- `connects-to` → **[Peripheral Nerve](../../05-tissue/peripheral-nerve/README.md)** — The relentless pain: pancreatic inflammation sensitises and remodels visceral and peripheral nerves, producing the severe neuropathic pain that dominates chronic pancreatitis and drives opioid use.
+- `connects-to` → **[Cortical Bone](../../05-tissue/cortical-bone/README.md)** — Pancreatic osteodystrophy: fat malabsorption and vitamin-D and calcium deficiency in chronic pancreatitis thin cortical bone, causing the osteoporosis and fractures common in these patients.
 
 [^whitcomb-1996-prss1]: Whitcomb DC, Gorry MC, Preston RA, et al. Hereditary pancreatitis is caused by a mutation in the cationic trypsinogen gene. *Nat Genet.* 1996;14(2):141-145. [doi:10.1038/ng1096-141](https://doi.org/10.1038/ng1096-141) · [PubMed 8841182](https://pubmed.ncbi.nlm.nih.gov/8841182/)
 [^lowenfels-2001-hp-pdac]: Lowenfels AB, Maisonneuve P, DiMagno EP, et al. Hereditary pancreatitis and the risk of pancreatic cancer. *J Natl Cancer Inst.* 2001;93(1):26-31. [doi:10.1093/jnci/93.1.26](https://doi.org/10.1093/jnci/93.1.26) · [PubMed 11136838](https://pubmed.ncbi.nlm.nih.gov/11136838/)

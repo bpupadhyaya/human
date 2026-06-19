@@ -250,6 +250,15 @@ cross_links:
   - target: 01-human/07-system/nsclc
     relation: connects-to
     note: "Sharing a hijacked NRF2 pathway: HLRCC switches on NRF2 through fumarate, while squamous non-small-cell lung cancer activates the same antioxidant programme via NFE2L2/KEAP1 mutations—both gaining oxidative-stress resistance and chemoresistance from one pathway."
+  - target: 01-human/07-system/cholangiocarcinoma
+    relation: connects-to
+    note: "Oncometabolite cancers: HLRCC's fumarate, like the 2-hydroxyglutarate of IDH-mutant cholangiocarcinoma and glioma, is an oncometabolite that reprograms the epigenome and stabilises HIF—a shared metabolic route to cancer."
+  - target: 01-human/05-tissue/alveolus
+    relation: connects-to
+    note: "Early lung metastasis: the type-2 papillary renal cancer of HLRCC is aggressive and metastasises early, seeding the lungs and the alveolar capillary bed even from small primaries."
+  - target: 01-human/05-tissue/peripheral-nerve
+    relation: connects-to
+    note: "Painful skin tumours: the cutaneous leiomyomas of HLRCC are characteristically tender, painful to cold and touch, a clinical clue rooted in their nerve-rich smooth-muscle origin."
 ---
 
 # Hereditary Leiomyomatosis and Renal Cell Carcinoma
@@ -459,6 +468,9 @@ Cutaneous:
 - `connects-to` → **[GIST](../gist/README.md)** — Krebs-cycle enzymes as tumour suppressors: HLRCC loses fumarate hydratase while SDH-deficient GIST and paraganglioma lose succinate dehydrogenase—each crippled TCA enzyme floods the cell with an oncometabolite and a pseudohypoxic, angiogenic phenotype.
 - `connects-to` → **[Sulforaphane](../../../03-medicine/03-food/sulforaphane/README.md)** — The tumour hijacks the antioxidant switch: accumulated fumarate succinates KEAP1, constitutively activating NRF2 in HLRCC—the very transcription factor dietary sulforaphane induces—so the cancer permanently turns on the protective programme broccoli only transiently mimics.
 - `connects-to` → **[NSCLC](../nsclc/README.md)** — Sharing a hijacked NRF2 pathway: HLRCC switches on NRF2 through fumarate, while squamous non-small-cell lung cancer activates the same antioxidant programme via NFE2L2/KEAP1 mutations—both gaining oxidative-stress resistance and chemoresistance from one pathway.
+- `connects-to` → **[Cholangiocarcinoma](../cholangiocarcinoma/README.md)** — Oncometabolite cancers: HLRCC's fumarate, like the 2-hydroxyglutarate of IDH-mutant cholangiocarcinoma and glioma, is an oncometabolite that reprograms the epigenome and stabilises HIF—a shared metabolic route to cancer.
+- `connects-to` → **[Alveolus](../../05-tissue/alveolus/README.md)** — Early lung metastasis: the type-2 papillary renal cancer of HLRCC is aggressive and metastasises early, seeding the lungs and the alveolar capillary bed even from small primaries.
+- `connects-to` → **[Peripheral Nerve](../../05-tissue/peripheral-nerve/README.md)** — Painful skin tumours: the cutaneous leiomyomas of HLRCC are characteristically tender, painful to cold and touch, a clinical clue rooted in their nerve-rich smooth-muscle origin.
 
 [^tomlinson-2002-fh]: Tomlinson IP, Alam NA, Rowan AJ, et al. Germline mutations in FH predispose to dominantly inherited uterine fibroids, skin leiomyomata and papillary renal cell cancer. *Nat Genet.* 2002;30(4):406-410. [doi:10.1038/ng849](https://doi.org/10.1038/ng849) · [PubMed 11865300](https://pubmed.ncbi.nlm.nih.gov/11865300/)
 [^linehan-2013-fh-review]: Linehan WM, Rouault TA. Molecular pathways: fumarate hydratase-deficient kidney cancer — targeting the Warburg effect in cancer. *Clin Cancer Res.* 2013;19(13):3345-3352. [doi:10.1158/1078-0432.CCR-13-0304](https://doi.org/10.1158/1078-0432.CCR-13-0304) · [PubMed 23836472](https://pubmed.ncbi.nlm.nih.gov/23836472/)
