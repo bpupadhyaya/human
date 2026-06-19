@@ -257,6 +257,15 @@ cross_links:
   - target: 01-human/07-system/dicer1-syndrome
     relation: connects-to
     note: "Inherited endocrine tumours: DICER1 predisposes to thyroid cancer, pituitary blastoma and ovarian sex-cord tumours, one of the germline syndromes that strike multiple endocrine glands."
+  - target: 01-human/07-system/neurofibromatosis-type-1
+    relation: connects-to
+    note: "Endocrine tumours in a neurocutaneous syndrome: neurofibromatosis type 1 predisposes to phaeochromocytoma and other endocrine tumours, linking a nerve-sheath disorder to the endocrine system."
+  - target: 01-human/07-system/anorexia-nervosa
+    relation: connects-to
+    note: "Starvation reshapes hormones: anorexia nervosa suppresses the hypothalamic-pituitary axes—amenorrhoea, low thyroid and sex hormones, high cortisol—a functional endocrine disorder driven by energy deficit."
+  - target: 01-human/07-system/covid-19-disease
+    relation: connects-to
+    note: "Infection hits the glands: COVID-19 can trigger subacute thyroiditis, new-onset diabetes and adrenal dysfunction, the virus reaching multiple endocrine organs that express ACE2."
 ---
 
 # Endocrine System
@@ -494,6 +503,9 @@ The endocrine system coordinates fuel metabolism across multiple organs in respo
 - `connects-to` → **[IGF-1](../../03-molecular/igf-1/README.md)** — The growth-hormone effector: most of growth hormone's actions work through liver-made IGF-1, the axis disrupted in acromegaly and gigantism—a core endocrine feedback loop measured to diagnose GH excess.
 - `connects-to` → **[Placenta](../../06-organ/placenta/README.md)** — A temporary endocrine organ: in pregnancy the placenta becomes a massive hormone factory, secreting hCG, progesterone, oestrogen and placental lactogen that reshape maternal metabolism.
 - `connects-to` → **[DICER1 Syndrome](../dicer1-syndrome/README.md)** — Inherited endocrine tumours: DICER1 predisposes to thyroid cancer, pituitary blastoma and ovarian sex-cord tumours, one of the germline syndromes that strike multiple endocrine glands.
+- `connects-to` → **[Neurofibromatosis Type 1](../neurofibromatosis-type-1/README.md)** — Endocrine tumours in a neurocutaneous syndrome: neurofibromatosis type 1 predisposes to phaeochromocytoma and other endocrine tumours, linking a nerve-sheath disorder to the endocrine system.
+- `connects-to` → **[Anorexia Nervosa](../anorexia-nervosa/README.md)** — Starvation reshapes hormones: anorexia nervosa suppresses the hypothalamic-pituitary axes—amenorrhoea, low thyroid and sex hormones, high cortisol—a functional endocrine disorder driven by energy deficit.
+- `connects-to` → **[COVID-19 Disease](../covid-19-disease/README.md)** — Infection hits the glands: COVID-19 can trigger subacute thyroiditis, new-onset diabetes and adrenal dysfunction, the virus reaching multiple endocrine organs that express ACE2.
 
 ## Pathology
 

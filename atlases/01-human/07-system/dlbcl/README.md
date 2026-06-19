@@ -259,6 +259,15 @@ cross_links:
   - target: 01-human/07-system/rheumatoid-arthritis
     relation: connects-to
     note: "Immunosuppression-associated lymphoma: chronic immune stimulation and methotrexate or biologic therapy in rheumatoid arthritis raise the risk of DLBCL, sometimes EBV-driven and reversible on stopping the drug."
+  - target: 01-human/07-system/hepatitis-c
+    relation: connects-to
+    note: "Chronic antigen and lymphoma: hepatitis C drives chronic B-cell stimulation that can transform into DLBCL, a lymphoma that sometimes regresses with antiviral therapy."
+  - target: 01-human/06-organ/thyroid
+    relation: connects-to
+    note: "Lymphoma in an autoimmune gland: primary thyroid DLBCL arises in long-standing Hashimoto's thyroiditis, presenting as a rapidly enlarging thyroid mass distinct from thyroid carcinoma."
+  - target: 01-human/05-tissue/glomerulus
+    relation: connects-to
+    note: "Tumour-lysis nephropathy: the high tumour burden of DLBCL can flood the blood with urate and phosphate at treatment, precipitating in the glomerulus and tubules to cause acute kidney injury."
 ---
 
 # Diffuse Large B-Cell Lymphoma
@@ -461,6 +470,9 @@ DLBCL is an aggressive malignancy of mature B cells. The normal equivalents are 
 - `connects-to` → **[Waldenström Macroglobulinemia](../waldenstrom-macroglobulinemia/README.md)** — Shared MYD88 driver: activated-B-cell DLBCL and Waldenström macroglobulinaemia both carry the MYD88 L265P mutation that switches on NF-κB, making BTK inhibitors active against both.
 - `connects-to` → **[Intestinal Epithelium](../../05-tissue/intestinal-epithelium/README.md)** — The commonest extranodal site: DLBCL frequently arises in the gut, infiltrating the stomach and bowel mucosa and risking perforation when chemotherapy rapidly shrinks transmural tumour.
 - `connects-to` → **[Rheumatoid Arthritis](../rheumatoid-arthritis/README.md)** — Immunosuppression-associated lymphoma: chronic immune stimulation and methotrexate or biologic therapy in rheumatoid arthritis raise the risk of DLBCL, sometimes EBV-driven and reversible on stopping the drug.
+- `connects-to` → **[Hepatitis C](../hepatitis-c/README.md)** — Chronic antigen and lymphoma: hepatitis C drives chronic B-cell stimulation that can transform into DLBCL, a lymphoma that sometimes regresses with antiviral therapy.
+- `connects-to` → **[Thyroid](../../06-organ/thyroid/README.md)** — Lymphoma in an autoimmune gland: primary thyroid DLBCL arises in long-standing Hashimoto's thyroiditis, presenting as a rapidly enlarging thyroid mass distinct from thyroid carcinoma.
+- `connects-to` → **[Glomerulus](../../05-tissue/glomerulus/README.md)** — Tumour-lysis nephropathy: the high tumour burden of DLBCL can flood the blood with urate and phosphate at treatment, precipitating in the glomerulus and tubules to cause acute kidney injury.
 
 ---
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
