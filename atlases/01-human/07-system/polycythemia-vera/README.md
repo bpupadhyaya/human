@@ -241,6 +241,15 @@ cross_links:
   - target: 02-pathogen/02-bacteria/mycobacterium-tuberculosis
     relation: connects-to
     note: "Its JAK inhibitor reawakens infection: ruxolitinib used in PV suppresses immunity enough to reactivate tuberculosis and other opportunists, so latent TB should be screened before and during therapy."
+  - target: 01-human/05-tissue/arterial-wall
+    relation: connects-to
+    note: "Its chief danger is the clot: hyperviscosity and JAK2-mutant blood cells inflame and adhere to the arterial wall, driving the strokes and heart attacks that are the leading cause of death in polycythaemia vera."
+  - target: 01-human/05-tissue/hepatic-lobule
+    relation: connects-to
+    note: "Where its clots and overflow land: polycythaemia vera's JAK2-mutant clone thromboses the hepatic and portal veins and can seed extramedullary haematopoiesis in the hepatic lobules, so liver enlargement and splanchnic thrombosis both flag the disease."
+  - target: 01-human/07-system/copd
+    relation: connects-to
+    note: "Primary versus secondary thick blood: polycythaemia vera makes too many red cells autonomously through JAK2, whereas COPD's chronic hypoxia raises erythropoietin to cause a secondary erythrocytosis—the key distinction when haematocrit is high."
 ---
 
 # Polycythemia Vera
@@ -437,6 +446,9 @@ PV must be distinguished from secondary erythrocytosis (elevated EPO, JAK2 wild-
 - `connects-to` → **[Cancer Chemotherapy](../../../03-medicine/01-modern/13-cancer/cancer-chemotherapy/README.md)** — Hydroxyurea cytoreduces the marrow: this oral chemotherapy lowers the red-cell mass in higher-risk polycythaemia vera, used with phlebotomy and low-dose aspirin to prevent the thrombosis that drives most PV deaths.
 - `connects-to` → **[Mycobacterium tuberculosis](../../../02-pathogen/02-bacteria/mycobacterium-tuberculosis/README.md)** — Its JAK inhibitor reawakens infection: ruxolitinib used in PV suppresses immunity enough to reactivate tuberculosis and other opportunists, so latent TB should be screened before and during therapy.
 - `connects-to` → **[Renal System](../renal-system/README.md)** — Thick blood and urate strain the kidney: hyperviscosity and hyperuricaemia impair renal function, and PV is a classic cause of renal vein and Budd-Chiari thrombosis.
+- `connects-to` → **[Arterial Wall](../../05-tissue/arterial-wall/README.md)** — Its chief danger is the clot: hyperviscosity and JAK2-mutant blood cells inflame and adhere to the arterial wall, driving the strokes and heart attacks that are the leading cause of death in polycythaemia vera.
+- `connects-to` → **[Hepatic Lobule](../../05-tissue/hepatic-lobule/README.md)** — Where its clots and overflow land: polycythaemia vera's JAK2-mutant clone thromboses the hepatic and portal veins and can seed extramedullary haematopoiesis in the hepatic lobules, so liver enlargement and splanchnic thrombosis both flag the disease.
+- `connects-to` → **[COPD](../copd/README.md)** — Primary versus secondary thick blood: polycythaemia vera makes too many red cells autonomously through JAK2, whereas COPD's chronic hypoxia raises erythropoietin to cause a secondary erythrocytosis—the key distinction when haematocrit is high.
 
 [^vannucchi-2015-response]: Vannucchi AM, Kiladjian JJ, Griesshammer M, et al. Ruxolitinib versus standard therapy for the treatment of polycythemia vera. *N Engl J Med.* 2015;372(5):426-435. [doi:10.1056/NEJMoa1409630](https://doi.org/10.1056/NEJMoa1409630) · [PubMed 25577388](https://pubmed.ncbi.nlm.nih.gov/25577388/)
 [^gisslinger-2020-proud-pv]: Gisslinger H, Gotic M, Holowiecki J, et al. Ropeginterferon alfa-2b versus standard therapy for polycythaemia vera (PROUD-PV and CONTINUATION-PV): a randomised, non-inferiority, phase 3 trial and its extension study. *Lancet Haematol.* 2020;7(3):e196-e208. [doi:10.1016/S2352-3026(19)30236-4](https://doi.org/10.1016/S2352-3026(19)30236-4) · [PubMed 32046833](https://pubmed.ncbi.nlm.nih.gov/32046833/)

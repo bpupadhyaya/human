@@ -241,6 +241,15 @@ cross_links:
   - target: 03-medicine/01-modern/13-cancer/checkpoint-inhibitors
     relation: connects-to
     note: "Immunotherapy for the aggressive few: metastatic phaeochromocytoma and paraganglioma, though rare, are being trialled with PD-1 checkpoint inhibitors when other options are exhausted."
+  - target: 01-human/05-tissue/myocardium
+    relation: connects-to
+    note: "Catecholamines poison the heart muscle: sustained adrenaline and noradrenaline from a phaeochromocytoma cause catecholamine cardiomyopathy and Takotsubo-like myocardial stunning, which can present as acute heart failure before the tumour is found."
+  - target: 01-human/05-tissue/cardiac-conduction-system
+    relation: connects-to
+    note: "It also destabilises the heart's wiring: catecholamine surges from a phaeochromocytoma trigger tachyarrhythmias and dangerous blood-pressure swings, which is why alpha-blockade must precede any beta-blocker to avoid unopposed vasoconstriction."
+  - target: 01-human/07-system/idh-mutant-glioma
+    relation: connects-to
+    note: "A pseudohypoxic, oncometabolite tumour: SDH-deficient paraganglioma accumulates succinate that, like the 2-hydroxyglutarate of IDH-mutant glioma, inhibits α-ketoglutarate dioxygenases and stabilises HIF—two cancers driven by a metabolite."
 ---
 
 # Pheochromocytoma/Paraganglioma
@@ -457,6 +466,9 @@ Active in Cluster 1 (MET/AXL co-expressed in SDH-deficient tumors); Phase 2 CABO
 - `connects-to` → **[Cancer Chemotherapy](../../../03-medicine/01-modern/13-cancer/cancer-chemotherapy/README.md)** — Chemo for malignant disease: the cyclophosphamide-vincristine-dacarbazine (CVD) regimen treats metastatic phaeochromocytoma and paraganglioma, alongside MIBG and peptide-receptor radionuclide therapy.
 - `connects-to` → **[Polycythemia Vera](../polycythemia-vera/README.md)** — Two routes to too many red cells: EPAS1 (HIF2A)-mutant paragangliomas can drive erythropoietin-mediated polycythaemia (Pacak-Zhuang syndrome), a secondary erythrocytosis distinct from the JAK2-driven polycythaemia vera.
 - `connects-to` → **[Checkpoint Inhibitors](../../../03-medicine/01-modern/13-cancer/checkpoint-inhibitors/README.md)** — Immunotherapy for the aggressive few: metastatic phaeochromocytoma and paraganglioma, though rare, are being trialled with PD-1 checkpoint inhibitors when other options are exhausted.
+- `connects-to` → **[Myocardium](../../05-tissue/myocardium/README.md)** — Catecholamines poison the heart muscle: sustained adrenaline and noradrenaline from a phaeochromocytoma cause catecholamine cardiomyopathy and Takotsubo-like myocardial stunning, which can present as acute heart failure before the tumour is found.
+- `connects-to` → **[Cardiac Conduction System](../../05-tissue/cardiac-conduction-system/README.md)** — It also destabilises the heart's wiring: catecholamine surges from a phaeochromocytoma trigger tachyarrhythmias and dangerous blood-pressure swings, which is why alpha-blockade must precede any beta-blocker to avoid unopposed vasoconstriction.
+- `connects-to` → **[IDH-mutant Glioma](../idh-mutant-glioma/README.md)** — A pseudohypoxic, oncometabolite tumour: SDH-deficient paraganglioma accumulates succinate that, like the 2-hydroxyglutarate of IDH-mutant glioma, inhibits α-ketoglutarate dioxygenases and stabilises HIF—two cancers driven by a metabolite.
 
 [^lenders-2014-pheo-guideline]: Lenders JW, Duh QY, Eisenhofer G, et al. Pheochromocytoma and paraganglioma: an endocrine society clinical practice guideline. *J Clin Endocrinol Metab.* 2014;99(6):1915-1942. [doi:10.1210/jc.2014-1498](https://doi.org/10.1210/jc.2014-1498) · [PubMed 24893135](https://pubmed.ncbi.nlm.nih.gov/24893135/)
 [^baudin-2021-firstmappp-sunitinib]: Baudin E, Goichot B, Berruti A, et al. First International Randomized Study in Malignant Progressive Pheochromocytoma and Paragangliomas (FIRSTMAPPP). *Ann Oncol.* 2021;32(10):1245-1254. [doi:10.1016/j.annonc.2021.07.009](https://doi.org/10.1016/j.annonc.2021.07.009) · [PubMed 34246769](https://pubmed.ncbi.nlm.nih.gov/34246769/)
