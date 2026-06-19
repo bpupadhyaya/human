@@ -250,6 +250,15 @@ cross_links:
   - target: 01-human/07-system/neuroendocrine-tumors
     relation: connects-to
     note: "It shares a theranostic target with carcinoids: meningiomas strongly express somatostatin receptor 2, so like neuroendocrine tumours they light up on DOTATATE PET and can be treated with peptide receptor radionuclide therapy."
+  - target: 01-human/07-system/medulloblastoma
+    relation: connects-to
+    note: "Radiation-induced meningioma: childhood cranial radiotherapy—for medulloblastoma or leukaemia—is a leading cause of secondary meningiomas arising decades after treatment."
+  - target: 01-human/07-system/men4-syndrome
+    relation: connects-to
+    note: "An endocrine-syndrome association: MEN4 (CDKN1B loss) raises the risk of meningiomas alongside its parathyroid and pituitary tumours, one of the germline syndromes that predispose to them."
+  - target: 01-human/05-tissue/axonal-transport
+    relation: connects-to
+    note: "Compression of the neural axis: as it grows from the dura, a meningioma compresses the brain, cranial nerves and their axons, and the resulting axonal dysfunction produces its focal deficits and seizures."
 ---
 
 # Meningioma
@@ -444,6 +453,9 @@ VEGF overexpression in meningioma (YAP target); Phase 2 COMBIT (Huang 2019, N=40
 - `connects-to` → **[Atypical Teratoid Rhabdoid Tumor](../atypical-teratoid-rhabdoid-tumor/README.md)** — A shared SWI/SNF lesion: rhabdoid meningiomas and atypical teratoid/rhabdoid tumours both lose SMARCB1, a subunit of the SWI/SNF chromatin-remodelling complex, so the same epigenetic machinery failure produces an aggressive meningioma and a malignant childhood CNS tumour.
 - `connects-to` → **[ALL](../all/README.md)** — A late price of curing leukaemia: cranial irradiation for childhood acute lymphoblastic leukaemia is a leading cause of radiation-induced meningiomas, which emerge as second tumours decades later—so survivors need long-term neuro-imaging surveillance.
 - `connects-to` → **[Neuroendocrine Tumors](../neuroendocrine-tumors/README.md)** — It shares a theranostic target with carcinoids: meningiomas strongly express somatostatin receptor 2, so like neuroendocrine tumours they light up on DOTATATE PET and can be treated with peptide receptor radionuclide therapy.
+- `connects-to` → **[Medulloblastoma](../medulloblastoma/README.md)** — Radiation-induced meningioma: childhood cranial radiotherapy—for medulloblastoma or leukaemia—is a leading cause of secondary meningiomas arising decades after treatment.
+- `connects-to` → **[MEN4 Syndrome](../men4-syndrome/README.md)** — An endocrine-syndrome association: MEN4 (CDKN1B loss) raises the risk of meningiomas alongside its parathyroid and pituitary tumours, one of the germline syndromes that predispose to them.
+- `connects-to` → **[Axonal Transport](../../05-tissue/axonal-transport/README.md)** — Compression of the neural axis: as it grows from the dura, a meningioma compresses the brain, cranial nerves and their axons, and the resulting axonal dysfunction produces its focal deficits and seizures.
 
 [^brastianos-2013-akt1-meningioma]: Brastianos PK, Horowitz PM, Santagata S, et al. Genomic sequencing of meningiomas identifies oncogenic SMO and AKT1 mutations. *Nat Genet.* 2013;45(3):285-289. [doi:10.1038/ng.2526](https://doi.org/10.1038/ng.2526) · [PubMed 23334667](https://pubmed.ncbi.nlm.nih.gov/23334667/)
 [^nassiri-2021-meningioma-classification]: Nassiri F, Liu J, Patil V, et al. A clinically applicable integrative molecular classification of meningiomas. *Nature.* 2021;597(7874):119-125. [doi:10.1038/s41586-021-03850-3](https://doi.org/10.1038/s41586-021-03850-3) · [PubMed 34385709](https://pubmed.ncbi.nlm.nih.gov/34385709/)

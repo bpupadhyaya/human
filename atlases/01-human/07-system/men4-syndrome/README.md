@@ -250,6 +250,15 @@ cross_links:
   - target: 01-human/03-molecular/cdkn1a
     relation: connects-to
     note: "Its gene has a sibling brake: MEN4 is caused by loss of CDKN1B (p27); CDKN1A (p21) is the closely related CIP/KIP-family CDK inhibitor that enforces the same G1/S checkpoint, so the two share the job MEN4's mutation abolishes."
+  - target: 01-human/05-tissue/glomerulus
+    relation: connects-to
+    note: "Hypercalcaemia and the kidney: like MEN1, MEN4's primary hyperparathyroidism raises calcium and causes kidney stones and nephrocalcinosis that scar the glomerulus."
+  - target: 01-human/05-tissue/intestinal-epithelium
+    relation: connects-to
+    note: "Gastrinomas and peptic ulcers: pancreatic and duodenal gastrinomas in MEN4 can cause Zollinger-Ellison syndrome with refractory ulcers eroding the intestinal epithelium."
+  - target: 01-human/07-system/dicer1-syndrome
+    relation: connects-to
+    note: "Germline endocrine-tumour syndromes: MEN4 (CDKN1B) and DICER1 both predispose to pituitary and other endocrine tumours, two of the autosomal-dominant syndromes warranting multi-gland surveillance."
 ---
 
 # MEN4 Syndrome
@@ -439,6 +448,9 @@ When clinical MEN features are present:
 - `connects-to` → **[Cortical Bone](../../05-tissue/cortical-bone/README.md)** — Like MEN1, it starts in the parathyroids: hyperparathyroidism is the leading MEN4 feature, and the high PTH it drives resorbs cortical bone—causing osteoporosis and fractures—so the skeleton registers the endocrine tumour.
 - `connects-to` → **[Retinoblastoma](../retinoblastoma/README.md)** — Two brakes on the cell cycle lost: MEN4 arises from loss of CDKN1B (p27), a CDK inhibitor that restrains G1→S, much as retinoblastoma arises from loss of RB1 downstream in the same checkpoint—different stops on one cell-cycle pathway.
 - `connects-to` → **[CDKN1A](../../03-molecular/cdkn1a/README.md)** — Its gene has a sibling brake: MEN4 is caused by loss of CDKN1B (p27); CDKN1A (p21) is the closely related CIP/KIP-family CDK inhibitor that enforces the same G1/S checkpoint, so the two share the job MEN4's mutation abolishes.
+- `connects-to` → **[Glomerulus](../../05-tissue/glomerulus/README.md)** — Hypercalcaemia and the kidney: like MEN1, MEN4's primary hyperparathyroidism raises calcium and causes kidney stones and nephrocalcinosis that scar the glomerulus.
+- `connects-to` → **[Intestinal Epithelium](../../05-tissue/intestinal-epithelium/README.md)** — Gastrinomas and peptic ulcers: pancreatic and duodenal gastrinomas in MEN4 can cause Zollinger-Ellison syndrome with refractory ulcers eroding the intestinal epithelium.
+- `connects-to` → **[DICER1 Syndrome](../dicer1-syndrome/README.md)** — Germline endocrine-tumour syndromes: MEN4 (CDKN1B) and DICER1 both predispose to pituitary and other endocrine tumours, two of the autosomal-dominant syndromes warranting multi-gland surveillance.
 
 [^alrezk-2017-men4]: Alrezk R, Hannah-Shmouni F, Stratakis CA. MEN4 and CDKN1B mutations: the latest of the MEN syndromes. *Endocr Relat Cancer.* 2017;24(10):T195-T208. [doi:10.1530/ERC-17-0243](https://doi.org/10.1530/ERC-17-0243) · [PubMed 28894007](https://pubmed.ncbi.nlm.nih.gov/28894007/)
 [^pellegata-2006-cdkn1b-men4]: Pellegata NS, Quintanilla-Martinez L, Siggelkow H, et al. Germ-line mutations in p27Kip1 cause a multiple endocrine neoplasia syndrome in rats and humans. *Proc Natl Acad Sci USA.* 2006;103(42):15558-15563. [doi:10.1073/pnas.0603306103](https://doi.org/10.1073/pnas.0603306103) · [PubMed 17030811](https://pubmed.ncbi.nlm.nih.gov/17030811/)
