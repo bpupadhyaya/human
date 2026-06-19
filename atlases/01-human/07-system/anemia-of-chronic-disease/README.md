@@ -262,6 +262,15 @@ cross_links:
   - target: 01-human/07-system/myelofibrosis
     relation: connects-to
     note: "Anaemia of a chronic marrow disease: myelofibrosis causes anaemia through marrow fibrosis and splenic sequestration compounded by an inflammatory, hepcidin-driven component, blending with the anaemia of chronic disease."
+  - target: 01-human/07-system/giant-cell-arteritis
+    relation: connects-to
+    note: "A textbook inflammatory anaemia: giant-cell arteritis produces a marked anaemia of chronic disease with very high ESR/CRP and reactive thrombocytosis, the IL-6-driven hepcidin response a clue to the diagnosis."
+  - target: 01-human/07-system/systemic-sclerosis
+    relation: connects-to
+    note: "Multifactorial anaemia of autoimmunity: systemic sclerosis causes anaemia through chronic inflammation (hepcidin) compounded by GI blood loss from gastric antral vascular ectasia and renal involvement."
+  - target: 01-human/07-system/hepatitis-b
+    relation: connects-to
+    note: "Chronic viral inflammation lowers haemoglobin: persistent hepatitis B drives an inflammatory, hepcidin-mediated anaemia of chronic disease, compounded in cirrhosis by hypersplenism and bleeding."
 ---
 
 # Anemia of Chronic Disease
@@ -467,6 +476,9 @@ This adaptive rationale explains why **aggressive iron supplementation during ac
 - `connects-to` → **[Myocardium](../../05-tissue/myocardium/README.md)** — Chronic anaemia strains the heart: persistent low haemoglobin forces a higher cardiac output, and in heart failure or CKD the anaemia of chronic disease worsens myocardial workload and outcomes.
 - `connects-to` → **[COVID-19 Disease](../covid-19-disease/README.md)** — Anaemia of inflammation in infection: severe COVID-19 raises IL-6 and hepcidin, sequestering iron in macrophages and causing the anaemia of inflammation typical of chronic-disease anaemia.
 - `connects-to` → **[Myelofibrosis](../myelofibrosis/README.md)** — Anaemia of a chronic marrow disease: myelofibrosis causes anaemia through marrow fibrosis and splenic sequestration compounded by an inflammatory, hepcidin-driven component, blending with the anaemia of chronic disease.
+- `connects-to` → **[Giant Cell Arteritis](../giant-cell-arteritis/README.md)** — A textbook inflammatory anaemia: giant-cell arteritis produces a marked anaemia of chronic disease with very high ESR/CRP and reactive thrombocytosis, the IL-6-driven hepcidin response a clue to the diagnosis.
+- `connects-to` → **[Systemic Sclerosis](../systemic-sclerosis/README.md)** — Multifactorial anaemia of autoimmunity: systemic sclerosis causes anaemia through chronic inflammation (hepcidin) compounded by GI blood loss from gastric antral vascular ectasia and renal involvement.
+- `connects-to` → **[Hepatitis B](../hepatitis-b/README.md)** — Chronic viral inflammation lowers haemoglobin: persistent hepatitis B drives an inflammatory, hepcidin-mediated anaemia of chronic disease, compounded in cirrhosis by hypersplenism and bleeding.
 
 [^weiss-2005-acd-review]: Weiss G, Goodnough LT. Anemia of chronic disease. *N Engl J Med.* 2005;352(10):1011-1023. [doi:10.1056/NEJMra041809](https://doi.org/10.1056/NEJMra041809) · [PubMed 15758012](https://pubmed.ncbi.nlm.nih.gov/15758012/)
 [^nemeth-2004-il6-hepcidin]: Nemeth E, Rivera S, Gabayan V, et al. IL-6 mediates hypoferremia of inflammation by inducing the synthesis of the iron regulatory hormone hepcidin. *J Clin Invest.* 2004;113(9):1271-1276. [doi:10.1172/JCI200420945](https://doi.org/10.1172/JCI200420945) · [PubMed 15124018](https://pubmed.ncbi.nlm.nih.gov/15124018/)

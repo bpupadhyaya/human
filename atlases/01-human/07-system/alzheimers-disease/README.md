@@ -262,6 +262,15 @@ cross_links:
   - target: 01-human/07-system/schizophrenia
     relation: connects-to
     note: "Complement-driven synapse loss in both: Alzheimer's and schizophrenia share microglial, complement-mediated pruning of synapses and neuroinflammation, and late-life psychosis blurs into Alzheimer's despite their different ages of onset."
+  - target: 01-human/07-system/obesity
+    relation: connects-to
+    note: "Midlife adiposity and dementia: midlife obesity raises the later risk of Alzheimer's through insulin resistance, vascular injury and chronic neuroinflammation, tying metabolic health to brain ageing."
+  - target: 01-human/07-system/covid-19-disease
+    relation: connects-to
+    note: "Infection and cognitive decline: COVID-19 can leave lasting 'brain fog' and accelerate cognitive decline in older adults, with neuroinflammation a proposed link to Alzheimer's pathology."
+  - target: 01-human/06-organ/liver
+    relation: connects-to
+    note: "The peripheral amyloid sink: the liver clears circulating amyloid-beta via LRP1, and impaired hepatic clearance may raise the brain's amyloid burden—linking systemic metabolism to Alzheimer's."
 ---
 
 # Alzheimer's Disease
@@ -442,6 +451,9 @@ Microglia play a central, dual role in AD:
 - `connects-to` → **[ALS](../als/README.md)** — Overlapping proteinopathies: TDP-43 aggregates that define ALS-frontotemporal disease also appear in limbic-predominant age-related TDP-43 encephalopathy and many Alzheimer's brains, blurring the boundary between the neurodegenerations.
 - `connects-to` → **[Huntington's Disease](../huntingtons-disease/README.md)** — Two faces of neurodegeneration: Alzheimer's is a sporadic amyloid-and-tau dementia of late life, while Huntington's is a monogenic CAG-repeat disease striking midlife—different drivers converging on protein aggregation and neuronal loss.
 - `connects-to` → **[Schizophrenia](../schizophrenia/README.md)** — Complement-driven synapse loss in both: Alzheimer's and schizophrenia share microglial, complement-mediated pruning of synapses and neuroinflammation, and late-life psychosis blurs into Alzheimer's despite their different ages of onset.
+- `connects-to` → **[Obesity](../obesity/README.md)** — Midlife adiposity and dementia: midlife obesity raises the later risk of Alzheimer's through insulin resistance, vascular injury and chronic neuroinflammation, tying metabolic health to brain ageing.
+- `connects-to` → **[COVID-19 Disease](../covid-19-disease/README.md)** — Infection and cognitive decline: COVID-19 can leave lasting 'brain fog' and accelerate cognitive decline in older adults, with neuroinflammation a proposed link to Alzheimer's pathology.
+- `connects-to` → **[Liver](../../06-organ/liver/README.md)** — The peripheral amyloid sink: the liver clears circulating amyloid-beta via LRP1, and impaired hepatic clearance may raise the brain's amyloid burden—linking systemic metabolism to Alzheimer's.
 
 [^selkoe-2016-alzheimer]: Selkoe DJ, Hardy J. The amyloid hypothesis of Alzheimer's disease at 25 years. *EMBO Mol Med.* 2016;8(6):595-608. [doi:10.15252/emmm.201606210](https://doi.org/10.15252/emmm.201606210) · [PubMed 27025652](https://pubmed.ncbi.nlm.nih.gov/27025652/)
 [^jack-2018-nia-aa]: Jack CR Jr, Bennett DA, Blennow K, et al. NIA-AA Research Framework: Toward a biological definition of Alzheimer's disease. *Alzheimers Dement.* 2018;14(4):535-562. [doi:10.1016/j.jalz.2018.02.018](https://doi.org/10.1016/j.jalz.2018.02.018) · [PubMed 29653606](https://pubmed.ncbi.nlm.nih.gov/29653606/)
