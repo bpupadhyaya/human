@@ -274,6 +274,15 @@ cross_links:
   - target: 01-human/07-system/covid-19-disease
     relation: connects-to
     note: "Infection that ruptures plaques: COVID-19's hyperinflammatory, prothrombotic state can rupture atherosclerotic plaques and trigger heart attacks and strokes, with lasting cardiovascular risk after recovery."
+  - target: 01-human/07-system/nash
+    relation: connects-to
+    note: "Fatty liver and arteries: NASH and atherosclerosis share insulin resistance, atherogenic dyslipidaemia and systemic inflammation, and NASH is an independent risk factor for cardiovascular disease."
+  - target: 01-human/07-system/type-1-diabetes
+    relation: connects-to
+    note: "Accelerated disease: type 1 diabetes dramatically accelerates atherosclerosis through chronic hyperglycaemia, glycation and endothelial injury, making cardiovascular disease its leading cause of death."
+  - target: 01-human/03-molecular/endothelin-1
+    relation: connects-to
+    note: "Endothelial vasoconstrictor: endothelin-1 from dysfunctional endothelium drives vasoconstriction, smooth-muscle proliferation and inflammation that promote atherosclerotic plaque growth."
 ---
 
 # Atherosclerosis
@@ -473,6 +482,9 @@ The process begins in childhood with **fatty streaks** and progresses silently o
 - `connects-to` → **[HIV/AIDS](../hiv-aids/README.md)** — Accelerated arterial disease: HIV/AIDS speeds atherosclerosis through chronic immune activation, inflammation and antiretroviral metabolic effects, making cardiovascular disease a leading cause of death in treated HIV.
 - `connects-to` → **[Inflammatory Bowel Disease](../inflammatory-bowel-disease/README.md)** — Inflammation injures arteries: chronic inflammatory diseases like inflammatory bowel disease accelerate atherosclerosis, the systemic inflammation damaging the arterial wall beyond traditional risk factors.
 - `connects-to` → **[COVID-19 Disease](../covid-19-disease/README.md)** — Infection that ruptures plaques: COVID-19's hyperinflammatory, prothrombotic state can rupture atherosclerotic plaques and trigger heart attacks and strokes, with lasting cardiovascular risk after recovery.
+- `connects-to` → **[NASH](../nash/README.md)** — Fatty liver and arteries: NASH and atherosclerosis share insulin resistance, atherogenic dyslipidaemia and systemic inflammation, and NASH is an independent risk factor for cardiovascular disease.
+- `connects-to` → **[Type 1 Diabetes](../type-1-diabetes/README.md)** — Accelerated disease: type 1 diabetes dramatically accelerates atherosclerosis through chronic hyperglycaemia, glycation and endothelial injury, making cardiovascular disease its leading cause of death.
+- `connects-to` → **[Endothelin-1](../../03-molecular/endothelin-1/README.md)** — Endothelial vasoconstrictor: endothelin-1 from dysfunctional endothelium drives vasoconstriction, smooth-muscle proliferation and inflammation that promote atherosclerotic plaque growth.
 
 ---
 

@@ -268,6 +268,15 @@ cross_links:
   - target: 01-human/07-system/osteoporosis
     relation: connects-to
     note: "Steroids and bone: long courses of systemic corticosteroids for severe atopic dermatitis, plus chronic inflammation, can lower bone mineral density and raise fracture risk."
+  - target: 02-pathogen/01-viruses/varicella-zoster-virus
+    relation: connects-to
+    note: "Cutaneous viral spread: the broken skin barrier of atopic dermatitis predisposes to widespread cutaneous viral infection, including disseminated varicella-zoster, alongside the classic eczema herpeticum."
+  - target: 01-human/03-molecular/leptin
+    relation: connects-to
+    note: "Adipokine link to obesity: leptin, a pro-inflammatory adipokine raised in obesity, helps explain the association between higher body weight and more severe atopic dermatitis."
+  - target: 01-human/07-system/type-1-diabetes
+    relation: connects-to
+    note: "Th2 versus Th1 axis: atopic, Th2-skewed dermatitis shows an inverse epidemiological relationship with Th1-driven type 1 diabetes, illustrating the immune system's Th1/Th2 balance."
 ---
 
 # Atopic Dermatitis
@@ -474,6 +483,9 @@ S. aureus colonizes >90% of AD lesional skin (vs. 20% normal skin):
 - `connects-to` → **[RSV](../rsv/README.md)** — The atopic march begins early: severe infant RSV bronchiolitis is linked to later recurrent wheeze and asthma, part of the atopic march that often starts with atopic dermatitis.
 - `connects-to` → **[Autism Spectrum Disorder](../autism-spectrum-disorder/README.md)** — Skin-brain comorbidity: atopic dermatitis is associated with higher rates of ADHD and autism spectrum disorder, possibly through chronic itch, sleep loss and shared inflammatory pathways.
 - `connects-to` → **[Osteoporosis](../osteoporosis/README.md)** — Steroids and bone: long courses of systemic corticosteroids for severe atopic dermatitis, plus chronic inflammation, can lower bone mineral density and raise fracture risk.
+- `connects-to` → **[Varicella-Zoster Virus](../../../02-pathogen/01-viruses/varicella-zoster-virus/README.md)** — Cutaneous viral spread: the broken skin barrier of atopic dermatitis predisposes to widespread cutaneous viral infection, including disseminated varicella-zoster, alongside the classic eczema herpeticum.
+- `connects-to` → **[Leptin](../../03-molecular/leptin/README.md)** — Adipokine link to obesity: leptin, a pro-inflammatory adipokine raised in obesity, helps explain the association between higher body weight and more severe atopic dermatitis.
+- `connects-to` → **[Type 1 Diabetes](../type-1-diabetes/README.md)** — Th2 versus Th1 axis: atopic, Th2-skewed dermatitis shows an inverse epidemiological relationship with Th1-driven type 1 diabetes, illustrating the immune system's Th1/Th2 balance.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
