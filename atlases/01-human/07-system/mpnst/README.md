@@ -250,6 +250,15 @@ cross_links:
   - target: 01-human/07-system/cmml
     relation: connects-to
     note: "One RAS pathway, blood and nerve: NF1 loss drives RAS-MAPK overactivity, predisposing not only to MPNST but to myeloid neoplasms—juvenile myelomonocytic and chronic myelomonocytic leukaemia—so neurofibromin links a nerve-sheath sarcoma to the marrow."
+  - target: 01-human/07-system/diffuse-midline-glioma
+    relation: connects-to
+    note: "Convergent loss of H3K27me3: MPNST (via PRC2/SUZ12 loss) and diffuse midline glioma (via H3K27M) both erase the H3K27me3 repressive mark—two unrelated tumours sharing an epigenetic catastrophe diagnosed by its loss on staining."
+  - target: 01-human/05-tissue/alveolus
+    relation: connects-to
+    note: "Lung is the dominant metastatic site: MPNST spreads through the blood, preferentially seeding the lungs and the alveolar capillary bed, the pattern that dictates chest surveillance."
+  - target: 01-human/05-tissue/axonal-transport
+    relation: connects-to
+    note: "It arises within a nerve: MPNST grows from a peripheral nerve (often a plexiform neurofibroma in NF1), destroying the axons it engulfs and heralded by rapid growth and new neurological deficit."
 ---
 
 # MPNST
@@ -459,6 +468,9 @@ Wide local excision with negative margins is the only potentially curative inter
 - `connects-to` → **[Pheochromocytoma/Paraganglioma](../pheochromocytoma-paraganglioma/README.md)** — Two tumours of the NF1 spectrum: neurofibromatosis type 1 predisposes both to malignant peripheral nerve sheath tumours and to pheochromocytoma, neural-crest-derived growths unleashed when neurofibromin no longer restrains RAS signalling.
 - `connects-to` → **[Checkpoint Inhibitors](../../../03-medicine/01-modern/13-cancer/checkpoint-inhibitors/README.md)** — A poorly immunogenic sarcoma: malignant peripheral nerve sheath tumours have low mutational burden and respond little to PD-1 checkpoint inhibitors as monotherapy, so immunotherapy is investigated mainly in combinations for this chemoresistant cancer.
 - `connects-to` → **[CMML](../cmml/README.md)** — One RAS pathway, blood and nerve: NF1 loss drives RAS-MAPK overactivity, predisposing not only to MPNST but to myeloid neoplasms—juvenile myelomonocytic and chronic myelomonocytic leukaemia—so neurofibromin links a nerve-sheath sarcoma to the marrow.
+- `connects-to` → **[Diffuse Midline Glioma](../diffuse-midline-glioma/README.md)** — Convergent loss of H3K27me3: MPNST (via PRC2/SUZ12 loss) and diffuse midline glioma (via H3K27M) both erase the H3K27me3 repressive mark—two unrelated tumours sharing an epigenetic catastrophe diagnosed by its loss on staining.
+- `connects-to` → **[Alveolus](../../05-tissue/alveolus/README.md)** — Lung is the dominant metastatic site: MPNST spreads through the blood, preferentially seeding the lungs and the alveolar capillary bed, the pattern that dictates chest surveillance.
+- `connects-to` → **[Axonal Transport](../../05-tissue/axonal-transport/README.md)** — It arises within a nerve: MPNST grows from a peripheral nerve (often a plexiform neurofibroma in NF1), destroying the axons it engulfs and heralded by rapid growth and new neurological deficit.
 
 [^evans-2002-mpnst-nf1]: Evans DGR, Baser ME, McGaughran J, et al. Malignant peripheral nerve sheath tumours in neurofibromatosis 1. *J Med Genet.* 2002;39(5):311-314. [doi:10.1136/jmg.39.5.311](https://doi.org/10.1136/jmg.39.5.311) · [PubMed 12011145](https://pubmed.ncbi.nlm.nih.gov/12011145/)
 [^lee-2014-mpnst-prc2]: Lee W, Teckie S, Wiesner T, et al. PRC2 is recurrently inactivated through EED or SUZ12 loss in malignant peripheral nerve sheath tumors. *Nat Genet.* 2014;46(11):1227-1232. [doi:10.1038/ng.3095](https://doi.org/10.1038/ng.3095) · [PubMed 25240281](https://pubmed.ncbi.nlm.nih.gov/25240281/)
