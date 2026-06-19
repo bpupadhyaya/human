@@ -241,6 +241,15 @@ cross_links:
   - target: 01-human/05-tissue/cortical-bone
     relation: connects-to
     note: "Its bone-seeking mimic: clear cell sarcoma of the kidney, the bone-metastasising renal tumour of childhood and a key differential of Wilms, characteristically spreads to the skeleton — unlike favourable-histology Wilms, which favours lung and liver."
+  - target: 01-human/05-tissue/alveolus
+    relation: connects-to
+    note: "It spreads to the lungs: Wilms tumour metastasises preferentially to the lungs, so chest imaging stages disease and pulmonary metastases guide intensified chemotherapy and sometimes whole-lung radiation."
+  - target: 01-human/07-system/aml
+    relation: connects-to
+    note: "One gene, opposite roles: WT1 is the tumour-suppressor driver of Wilms tumour, yet it is overexpressed in acute myeloid leukaemia, where it serves as a minimal-residual-disease marker and an immunotherapy and vaccine target."
+  - target: 01-human/07-system/mesothelioma
+    relation: connects-to
+    note: "The gene named for a kidney tumour marks a pleural one: WT1, mutated in Wilms tumour, is a defining immunohistochemical marker of mesothelioma (and serous ovarian cancer), distinguishing it from its mimics."
 ---
 
 # Wilms Tumor
@@ -444,6 +453,9 @@ Wilms tumor survivors face late effects proportional to treatment intensity:
 - `connects-to` → **[Cancer Chemotherapy](../../../03-medicine/01-modern/13-cancer/cancer-chemotherapy/README.md)** — A triumph of chemotherapy: vincristine and actinomycin-D, with doxorubicin for higher stages, combine with surgery and sometimes radiation to cure the great majority of Wilms tumours — a model of how multimodal chemotherapy transformed a paediatric cancer.
 - `connects-to` → **[Checkpoint Inhibitors](../../../03-medicine/01-modern/13-cancer/checkpoint-inhibitors/README.md)** — A cold paediatric tumour: unlike the adult clear-cell kidney cancer it neighbours, Wilms tumour has a low mutational burden and responds poorly to PD-1 checkpoint blockade, so immunotherapy has little role in its largely chemo-curable course.
 - `connects-to` → **[Cortical Bone](../../05-tissue/cortical-bone/README.md)** — Its bone-seeking mimic: clear cell sarcoma of the kidney, the bone-metastasising renal tumour of childhood and a key differential of Wilms, characteristically spreads to the skeleton — unlike favourable-histology Wilms, which favours lung and liver.
+- `connects-to` → **[Alveolus](../../05-tissue/alveolus/README.md)** — It spreads to the lungs: Wilms tumour metastasises preferentially to the lungs, so chest imaging stages disease and pulmonary metastases guide intensified chemotherapy and sometimes whole-lung radiation.
+- `connects-to` → **[AML](../aml/README.md)** — One gene, opposite roles: WT1 is the tumour-suppressor driver of Wilms tumour, yet it is overexpressed in acute myeloid leukaemia, where it serves as a minimal-residual-disease marker and an immunotherapy and vaccine target.
+- `connects-to` → **[Mesothelioma](../mesothelioma/README.md)** — The gene named for a kidney tumour marks a pleural one: WT1, mutated in Wilms tumour, is a defining immunohistochemical marker of mesothelioma (and serous ovarian cancer), distinguishing it from its mimics.
 
 [^dome-2015-wilms]: Dome JS, Graf N, Geller JI, et al. Advances in Wilms tumor treatment and biology: progress through international collaboration. *J Clin Oncol.* 2015;33(27):2999-3007. [doi:10.1200/JCO.2015.62.1888](https://doi.org/10.1200/JCO.2015.62.1888) · [PubMed 26261251](https://pubmed.ncbi.nlm.nih.gov/26261251/)
 [^dix-2006-arenl0002]: Dix DB, Bhatt SM, Geller JI, et al. Treatment of Stage IV favorable histology Wilms tumor with incomplete lung metastasis response after chemotherapy: a report from Children's Oncology Group Study AREN0533. *J Clin Oncol.* 2018;36(16):1564-1570. [doi:10.1200/JCO.2017.77.1877](https://doi.org/10.1200/JCO.2017.77.1877) · [PubMed 29584550](https://pubmed.ncbi.nlm.nih.gov/29584550/)

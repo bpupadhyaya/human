@@ -241,6 +241,15 @@ cross_links:
   - target: 01-human/05-tissue/arterial-wall
     relation: connects-to
     note: "The artery wall itself ages: beyond lipids, Werner syndrome thickens the intima and lays down medial and arteriolar calcification, the structural arterial-wall changes that make its atherosclerosis so premature and diffuse."
+  - target: 03-medicine/01-modern/13-cancer/targeted-therapy
+    relation: connects-to
+    note: "Its gene became a drug target: WRN-helicase inhibitors are synthetically lethal in microsatellite-unstable cancers that depend on WRN to survive their unstable DNA—turning the premature-aging gene of Werner syndrome into precision oncology."
+  - target: 01-human/07-system/lynch-syndrome
+    relation: connects-to
+    note: "Synthetic lethality meets mismatch repair: the MSI-high tumours that WRN inhibitors kill are largely the mismatch-repair-deficient cancers of Lynch syndrome, so Werner's helicase is the vulnerability that Lynch's genomic instability creates."
+  - target: 01-human/05-tissue/islet-of-langerhans
+    relation: connects-to
+    note: "It brings a severe diabetes: Werner syndrome causes lipodystrophy and visceral fat that drive profound insulin resistance, overworking the islets of Langerhans into an early, hard-to-control type 2 diabetes."
 ---
 
 # Werner Syndrome
@@ -478,6 +487,9 @@ cross_links:
 - `connects-to` → **[Cancer Chemotherapy](../../../03-medicine/01-modern/13-cancer/cancer-chemotherapy/README.md)** — Its cancers need careful chemo: Werner syndrome predisposes to sarcomas, thyroid cancer and melanoma, but WRN-deficient cells are hypersensitive to DNA-crosslinking and topoisomerase agents, so chemotherapy must be dosed cautiously to limit toxicity.
 - `connects-to` → **[Cortical Bone](../../05-tissue/cortical-bone/README.md)** — It thins and warps bone: Werner syndrome causes early osteoporosis concentrated in the distal limbs, soft-tissue and tendon calcification, and a raised risk of osteosarcoma at unusual sites such as the patella and feet.
 - `connects-to` → **[Arterial Wall](../../05-tissue/arterial-wall/README.md)** — The artery wall itself ages: beyond lipids, Werner syndrome thickens the intima and lays down medial and arteriolar calcification, the structural arterial-wall changes that make its atherosclerosis so premature and diffuse.
+- `connects-to` → **[Targeted Therapy](../../../03-medicine/01-modern/13-cancer/targeted-therapy/README.md)** — Its gene became a drug target: WRN-helicase inhibitors are synthetically lethal in microsatellite-unstable cancers that depend on WRN to survive their unstable DNA—turning the premature-aging gene of Werner syndrome into precision oncology.
+- `connects-to` → **[Lynch Syndrome](../lynch-syndrome/README.md)** — Synthetic lethality meets mismatch repair: the MSI-high tumours that WRN inhibitors kill are largely the mismatch-repair-deficient cancers of Lynch syndrome, so Werner's helicase is the vulnerability that Lynch's genomic instability creates.
+- `connects-to` → **[Islet of Langerhans](../../05-tissue/islet-of-langerhans/README.md)** — It brings a severe diabetes: Werner syndrome causes lipodystrophy and visceral fat that drive profound insulin resistance, overworking the islets of Langerhans into an early, hard-to-control type 2 diabetes.
 
 [^yu-1996-wrn]: Yu CE, Oshima J, Fu YH, et al. Positional cloning of the Werner's syndrome gene. *Science.* 1996;272(5259):258-262. [doi:10.1126/science.272.5259.258](https://doi.org/10.1126/science.272.5259.258) · [PubMed 8602509](https://pubmed.ncbi.nlm.nih.gov/8602509/)
 [^lauper-2013-wrn-neoplasia]: Lauper JM, Krause A, Vaughan TL, Monnat RJ Jr. Spectrum and risk of neoplasia in Werner syndrome: a systematic review. *PLoS One.* 2013;8(4):e59709. [doi:10.1371/journal.pone.0059709](https://doi.org/10.1371/journal.pone.0059709) · [PubMed 23579047](https://pubmed.ncbi.nlm.nih.gov/23579047/)
