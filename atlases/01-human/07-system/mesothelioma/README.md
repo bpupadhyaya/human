@@ -241,6 +241,15 @@ cross_links:
   - target: 01-human/07-system/melanoma
     relation: connects-to
     note: "Both belong to the BAP1 family: germline BAP1 loss predisposes to mesothelioma alongside uveal and cutaneous melanoma and renal cancer, a hereditary tumour-predisposition syndrome."
+  - target: 03-medicine/01-modern/13-cancer/checkpoint-inhibitors
+    relation: connects-to
+    note: "Immunotherapy moved to the front line: dual checkpoint blockade with nivolumab and ipilimumab (CheckMate-743) improves survival over chemotherapy in unresectable pleural mesothelioma, especially the chemo-resistant sarcomatoid type."
+  - target: 01-human/05-tissue/alveolus
+    relation: connects-to
+    note: "Where the fibres land and the damage starts: inhaled asbestos fibres deposit in the distal alveoli, then migrate to the pleura over decades; the same fibres scar the alveolar walls as asbestosis, the fibrotic lung disease that accompanies mesothelioma risk."
+  - target: 01-human/07-system/breast-cancer
+    relation: connects-to
+    note: "The main mimic on a pleural biopsy: metastatic breast cancer is a common cause of malignant pleural effusion and pleural nodules that must be distinguished from mesothelioma, separated by immunohistochemistry (calretinin/WT1 versus epithelial markers)."
 ---
 
 # Mesothelioma
@@ -434,6 +443,9 @@ Cytoreductive surgery (CRS) + hyperthermic intraperitoneal chemotherapy (HIPEC):
 - `connects-to` → **[Cancer Chemotherapy](../../../03-medicine/01-modern/13-cancer/cancer-chemotherapy/README.md)** — Platinum-pemetrexed is the chemo backbone: cisplatin with pemetrexed, sometimes with bevacizumab, is the standard chemotherapy for mesothelioma not treated with immunotherapy.
 - `connects-to` → **[Synovial Sarcoma](../synovial-sarcoma/README.md)** — A pleural tumour to distinguish: primary pleural synovial sarcoma mimics mesothelioma radiologically and histologically, separated by its SS18 gene fusion.
 - `connects-to` → **[Melanoma](../melanoma/README.md)** — Both belong to the BAP1 family: germline BAP1 loss predisposes to mesothelioma alongside uveal and cutaneous melanoma and renal cancer, a hereditary tumour-predisposition syndrome.
+- `connects-to` → **[Checkpoint Inhibitors](../../../03-medicine/01-modern/13-cancer/checkpoint-inhibitors/README.md)** — Immunotherapy moved to the front line: dual checkpoint blockade with nivolumab and ipilimumab (CheckMate-743) improves survival over chemotherapy in unresectable pleural mesothelioma, especially the chemo-resistant sarcomatoid type.
+- `connects-to` → **[Alveolus](../../05-tissue/alveolus/README.md)** — Where the fibres land and the damage starts: inhaled asbestos fibres deposit in the distal alveoli, then migrate to the pleura over decades; the same fibres scar the alveolar walls as asbestosis, the fibrotic lung disease that accompanies mesothelioma risk.
+- `connects-to` → **[Breast Cancer](../breast-cancer/README.md)** — The main mimic on a pleural biopsy: metastatic breast cancer is a common cause of malignant pleural effusion and pleural nodules that must be distinguished from mesothelioma, separated by immunohistochemistry (calretinin/WT1 versus epithelial markers).
 
 [^baas-2021-checkmate743]: Baas P, Scherpereel A, Nowak AK, et al. First-line nivolumab plus ipilimumab in unresectable malignant pleural mesothelioma (CheckMate 743). *Lancet.* 2021;397(10272):375-386. [doi:10.1016/S0140-6736(20)32714-8](https://doi.org/10.1016/S0140-6736(20)32714-8) · [PubMed 33485464](https://pubmed.ncbi.nlm.nih.gov/33485464/)
 [^vogelzang-2003-pemetrexed]: Vogelzang NJ, Rusthoven JJ, Symanowski J, et al. Phase III study of pemetrexed in combination with cisplatin versus cisplatin alone in patients with malignant pleural mesothelioma. *J Clin Oncol.* 2003;21(14):2636-2644. [doi:10.1200/JCO.2003.11.136](https://doi.org/10.1200/JCO.2003.11.136) · [PubMed 12860938](https://pubmed.ncbi.nlm.nih.gov/12860938/)

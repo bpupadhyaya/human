@@ -241,6 +241,15 @@ cross_links:
   - target: 03-medicine/01-modern/13-cancer/checkpoint-inhibitors
     relation: connects-to
     note: "Trials in the aggressive grades: low-grade meningiomas are immunologically quiet, but PD-1 checkpoint inhibitors are being trialled for the rarer high-grade and recurrent meningiomas."
+  - target: 01-human/07-system/atypical-teratoid-rhabdoid-tumor
+    relation: connects-to
+    note: "A shared SWI/SNF lesion: rhabdoid meningiomas and atypical teratoid/rhabdoid tumours both lose SMARCB1, a subunit of the SWI/SNF chromatin-remodelling complex, so the same epigenetic machinery failure produces an aggressive meningioma and a malignant childhood CNS tumour."
+  - target: 01-human/07-system/all
+    relation: connects-to
+    note: "A late price of curing leukaemia: cranial irradiation for childhood acute lymphoblastic leukaemia is a leading cause of radiation-induced meningiomas, which emerge as second tumours decades later—so survivors need long-term neuro-imaging surveillance."
+  - target: 01-human/07-system/neuroendocrine-tumors
+    relation: connects-to
+    note: "It shares a theranostic target with carcinoids: meningiomas strongly express somatostatin receptor 2, so like neuroendocrine tumours they light up on DOTATATE PET and can be treated with peptide receptor radionuclide therapy."
 ---
 
 # Meningioma
@@ -432,6 +441,9 @@ VEGF overexpression in meningioma (YAP target); Phase 2 COMBIT (Huang 2019, N=40
 - `connects-to` → **[Cortical Bone](../../05-tissue/cortical-bone/README.md)** — It thickens the overlying skull: meningiomas characteristically provoke reactive hyperostosis of the adjacent skull bone, a radiological clue, and can invade bone directly.
 - `connects-to` → **[Cancer Chemotherapy](../../../03-medicine/01-modern/13-cancer/cancer-chemotherapy/README.md)** — Chemo barely helps: meningioma is largely chemoresistant, so surgery and radiation dominate, with somatostatin analogues and hydroxyurea giving only modest benefit in refractory disease.
 - `connects-to` → **[Checkpoint Inhibitors](../../../03-medicine/01-modern/13-cancer/checkpoint-inhibitors/README.md)** — Trials in the aggressive grades: low-grade meningiomas are immunologically quiet, but PD-1 checkpoint inhibitors are being trialled for the rarer high-grade and recurrent meningiomas.
+- `connects-to` → **[Atypical Teratoid Rhabdoid Tumor](../atypical-teratoid-rhabdoid-tumor/README.md)** — A shared SWI/SNF lesion: rhabdoid meningiomas and atypical teratoid/rhabdoid tumours both lose SMARCB1, a subunit of the SWI/SNF chromatin-remodelling complex, so the same epigenetic machinery failure produces an aggressive meningioma and a malignant childhood CNS tumour.
+- `connects-to` → **[ALL](../all/README.md)** — A late price of curing leukaemia: cranial irradiation for childhood acute lymphoblastic leukaemia is a leading cause of radiation-induced meningiomas, which emerge as second tumours decades later—so survivors need long-term neuro-imaging surveillance.
+- `connects-to` → **[Neuroendocrine Tumors](../neuroendocrine-tumors/README.md)** — It shares a theranostic target with carcinoids: meningiomas strongly express somatostatin receptor 2, so like neuroendocrine tumours they light up on DOTATATE PET and can be treated with peptide receptor radionuclide therapy.
 
 [^brastianos-2013-akt1-meningioma]: Brastianos PK, Horowitz PM, Santagata S, et al. Genomic sequencing of meningiomas identifies oncogenic SMO and AKT1 mutations. *Nat Genet.* 2013;45(3):285-289. [doi:10.1038/ng.2526](https://doi.org/10.1038/ng.2526) · [PubMed 23334667](https://pubmed.ncbi.nlm.nih.gov/23334667/)
 [^nassiri-2021-meningioma-classification]: Nassiri F, Liu J, Patil V, et al. A clinically applicable integrative molecular classification of meningiomas. *Nature.* 2021;597(7874):119-125. [doi:10.1038/s41586-021-03850-3](https://doi.org/10.1038/s41586-021-03850-3) · [PubMed 34385709](https://pubmed.ncbi.nlm.nih.gov/34385709/)
