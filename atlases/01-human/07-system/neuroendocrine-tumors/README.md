@@ -241,6 +241,15 @@ cross_links:
   - target: 03-medicine/01-modern/13-cancer/checkpoint-inhibitors
     relation: connects-to
     note: "Immunotherapy for the high-grade end: poorly differentiated neuroendocrine carcinomas, like small-cell lung cancer, are treated with chemotherapy plus PD-1/PD-L1 inhibitors, while well-differentiated NETs stay immunologically cold."
+  - target: 01-human/05-tissue/endocardium
+    relation: connects-to
+    note: "It can scar the heart valves: serotonin and vasoactive substances from metastatic carcinoid tumours deposit fibrous plaques on the right-sided endocardium and tricuspid/pulmonary valves, the carcinoid heart disease that complicates the syndrome."
+  - target: 01-human/07-system/meningioma
+    relation: connects-to
+    note: "A shared somatostatin-receptor target: like meningiomas, neuroendocrine tumours strongly express somatostatin receptor 2, so both are imaged with DOTATATE PET and can be treated with peptide receptor radionuclide therapy."
+  - target: 01-human/07-system/carney-complex
+    relation: connects-to
+    note: "Another inherited endocrine-tumour syndrome: like MEN1, Carney complex predisposes to neuroendocrine and endocrine tumours—pituitary, thyroid and adrenal—through PRKAR1A loss, joining the familial syndromes that spawn NETs."
 ---
 
 # Neuroendocrine Tumors
@@ -420,6 +429,9 @@ Treatment identical to SCLC: cisplatin (or carboplatin) + etoposide (4-6 cycles)
 - `connects-to` → **[Cancer Chemotherapy](../../../03-medicine/01-modern/13-cancer/cancer-chemotherapy/README.md)** — Chemo for pancreatic and high-grade tumours: capecitabine-temozolomide treats pancreatic neuroendocrine tumours, and platinum-etoposide treats poorly differentiated neuroendocrine carcinomas.
 - `connects-to` → **[Islet of Langerhans](../../05-tissue/islet-of-langerhans/README.md)** — Pancreatic NETs arise from these cells: insulinomas, gastrinomas and other functioning tumours of the islets of Langerhans are the pancreatic neuroendocrine tumours, secreting hormones that drive distinctive syndromes.
 - `connects-to` → **[Checkpoint Inhibitors](../../../03-medicine/01-modern/13-cancer/checkpoint-inhibitors/README.md)** — Immunotherapy for the high-grade end: poorly differentiated neuroendocrine carcinomas, like small-cell lung cancer, are treated with chemotherapy plus PD-1/PD-L1 inhibitors, while well-differentiated NETs stay immunologically cold.
+- `connects-to` → **[Endocardium](../../05-tissue/endocardium/README.md)** — It can scar the heart valves: serotonin and vasoactive substances from metastatic carcinoid tumours deposit fibrous plaques on the right-sided endocardium and tricuspid/pulmonary valves, the carcinoid heart disease that complicates the syndrome.
+- `connects-to` → **[Meningioma](../meningioma/README.md)** — A shared somatostatin-receptor target: like meningiomas, neuroendocrine tumours strongly express somatostatin receptor 2, so both are imaged with DOTATATE PET and can be treated with peptide receptor radionuclide therapy.
+- `connects-to` → **[Carney Complex](../carney-complex/README.md)** — Another inherited endocrine-tumour syndrome: like MEN1, Carney complex predisposes to neuroendocrine and endocrine tumours—pituitary, thyroid and adrenal—through PRKAR1A loss, joining the familial syndromes that spawn NETs.
 
 [^yao-2011-radiant3]: Yao JC, Shah MH, Ito T, et al. Everolimus for advanced pancreatic neuroendocrine tumors. *N Engl J Med.* 2011;364(6):514-523. [doi:10.1056/NEJMoa1009290](https://doi.org/10.1056/NEJMoa1009290) · [PubMed 21306237](https://pubmed.ncbi.nlm.nih.gov/21306237/)
 [^raymond-2011-sunitinib-pnet]: Raymond E, Dahan L, Raoul JL, et al. Sunitinib malate for the treatment of pancreatic neuroendocrine tumors. *N Engl J Med.* 2011;364(6):501-513. [doi:10.1056/NEJMoa1003825](https://doi.org/10.1056/NEJMoa1003825) · [PubMed 21306236](https://pubmed.ncbi.nlm.nih.gov/21306236/)

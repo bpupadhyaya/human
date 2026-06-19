@@ -241,6 +241,15 @@ cross_links:
   - target: 01-human/07-system/mpnst
     relation: connects-to
     note: "A fellow neural-crest tumour: like malignant peripheral nerve sheath tumour, neuroblastoma derives from neural-crest lineage, the two among the nerve-associated malignancies of childhood and young adults."
+  - target: 01-human/05-tissue/cortical-bone
+    relation: connects-to
+    note: "Its metastases love bone: neuroblastoma spreads to cortical bone and marrow—skull and orbits producing periorbital bruising ('raccoon eyes')—and these deposits, rich in catecholamine metabolism, are imaged with MIBG scintigraphy."
+  - target: 01-human/07-system/diffuse-midline-glioma
+    relation: connects-to
+    note: "A shared GD2 immunotherapy target: the disialoganglioside GD2 that anti-GD2 antibodies and CAR-T target in neuroblastoma is also highly expressed on diffuse midline glioma, where GD2 CAR-T has produced striking early responses."
+  - target: 03-medicine/01-modern/13-cancer/checkpoint-inhibitors
+    relation: connects-to
+    note: "An immunologically cold childhood tumour: neuroblastoma has a low mutational burden and responds poorly to PD-1 checkpoint inhibitors, so its immunotherapy relies on anti-GD2 antibodies and CAR-T rather than checkpoint blockade."
 ---
 
 # Neuroblastoma
@@ -452,6 +461,9 @@ Stage MS (metastatic, <18 months, skin/liver/bone marrow only, MYCN wild-type): 
 - `connects-to` → **[Cancer Chemotherapy](../../../03-medicine/01-modern/13-cancer/cancer-chemotherapy/README.md)** — Intensive chemo for high-risk disease: high-risk neuroblastoma is treated with multi-agent induction chemotherapy and high-dose therapy with autologous stem-cell rescue.
 - `connects-to` → **[CAR-T](../../../03-medicine/01-modern/13-cancer/car-t/README.md)** — GD2 cell therapy shows promise: GD2-directed CAR-T cells, building on the success of anti-GD2 antibodies, have produced responses in relapsed neuroblastoma, a leading solid-tumour CAR-T target.
 - `connects-to` → **[MPNST](../mpnst/README.md)** — A fellow neural-crest tumour: like malignant peripheral nerve sheath tumour, neuroblastoma derives from neural-crest lineage, the two among the nerve-associated malignancies of childhood and young adults.
+- `connects-to` → **[Cortical Bone](../../05-tissue/cortical-bone/README.md)** — Its metastases love bone: neuroblastoma spreads to cortical bone and marrow—skull and orbits producing periorbital bruising ('raccoon eyes')—and these deposits, rich in catecholamine metabolism, are imaged with MIBG scintigraphy.
+- `connects-to` → **[Diffuse Midline Glioma](../diffuse-midline-glioma/README.md)** — A shared GD2 immunotherapy target: the disialoganglioside GD2 that anti-GD2 antibodies and CAR-T target in neuroblastoma is also highly expressed on diffuse midline glioma, where GD2 CAR-T has produced striking early responses.
+- `connects-to` → **[Checkpoint Inhibitors](../../../03-medicine/01-modern/13-cancer/checkpoint-inhibitors/README.md)** — An immunologically cold childhood tumour: neuroblastoma has a low mutational burden and responds poorly to PD-1 checkpoint inhibitors, so its immunotherapy relies on anti-GD2 antibodies and CAR-T rather than checkpoint blockade.
 
 [^yu-2010-dinutuximab-nb]: Yu AL, Gilman AL, Ozkaynak MF, et al. Anti-GD2 antibody with GM-CSF, interleukin-2, and isotretinoin for neuroblastoma. *N Engl J Med.* 2010;363(14):1324-1334. [doi:10.1056/NEJMoa0911123](https://doi.org/10.1056/NEJMoa0911123) · [PubMed 20879881](https://pubmed.ncbi.nlm.nih.gov/20879881/)
 [^park-2019-tandem-sct-nb]: Park JR, Kreissman SG, London WB, et al. Effect of tandem autologous stem cell transplant vs single transplant on event-free survival in patients with high-risk neuroblastoma: a randomized clinical trial. *JAMA.* 2019;322(8):746-755. [doi:10.1001/jama.2019.11642](https://doi.org/10.1001/jama.2019.11642) · [PubMed 31454023](https://pubmed.ncbi.nlm.nih.gov/31454023/)
