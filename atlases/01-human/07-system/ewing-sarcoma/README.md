@@ -250,6 +250,15 @@ cross_links:
   - target: 01-human/05-tissue/lung-slice
     relation: connects-to
     note: "It seeds the lungs: Ewing sarcoma metastasises preferentially to the lungs, where pulmonary metastases on a lung slice are staged by chest CT and treated with whole-lung irradiation."
+  - target: 01-human/05-tissue/axonal-transport
+    relation: connects-to
+    note: "Neuroectodermal character: Ewing sarcoma (once called PNET) shows neural differentiation and expresses neuronal markers, reflecting a neuroectodermal lineage despite arising in bone."
+  - target: 01-human/07-system/burkitt-lymphoma
+    relation: connects-to
+    note: "A small-round-blue-cell mimic: Ewing sarcoma joins Burkitt lymphoma, neuroblastoma and rhabdomyosarcoma in the small-round-blue-cell tumour differential of childhood, distinguished by EWSR1 rearrangement."
+  - target: 01-human/07-system/wilms-tumor
+    relation: connects-to
+    note: "Another childhood small-cell tumour: Wilms tumour and Ewing sarcoma are both paediatric malignancies treated on cooperative-group protocols, differentiated by site (kidney vs bone) and molecular markers."
 ---
 
 # Ewing Sarcoma
@@ -450,6 +459,9 @@ After induction → surgical specimen assessed for percent tumor necrosis (Salze
 - `connects-to` → **[Cortical Bone](../../05-tissue/cortical-bone/README.md)** — It is a bone tumour of the young: Ewing sarcoma arises in the diaphysis of long bones and the pelvis, destroying cortical bone with a permeative lytic pattern and the classic onion-skin periosteal reaction.
 - `connects-to` → **[Checkpoint Inhibitors](../../../03-medicine/01-modern/13-cancer/checkpoint-inhibitors/README.md)** — An immunologically cold sarcoma: Ewing sarcoma has a very low mutational burden and sparse T-cell infiltrate, so checkpoint inhibitors have shown little benefit, keeping chemotherapy and emerging cell therapies central.
 - `connects-to` → **[Lung Slice](../../05-tissue/lung-slice/README.md)** — It seeds the lungs: Ewing sarcoma metastasises preferentially to the lungs, where pulmonary metastases on a lung slice are staged by chest CT and treated with whole-lung irradiation.
+- `connects-to` → **[Axonal Transport](../../05-tissue/axonal-transport/README.md)** — Neuroectodermal character: Ewing sarcoma (once called PNET) shows neural differentiation and expresses neuronal markers, reflecting a neuroectodermal lineage despite arising in bone.
+- `connects-to` → **[Burkitt Lymphoma](../burkitt-lymphoma/README.md)** — A small-round-blue-cell mimic: Ewing sarcoma joins Burkitt lymphoma, neuroblastoma and rhabdomyosarcoma in the small-round-blue-cell tumour differential of childhood, distinguished by EWSR1 rearrangement.
+- `connects-to` → **[Wilms Tumor](../wilms-tumor/README.md)** — Another childhood small-cell tumour: Wilms tumour and Ewing sarcoma are both paediatric malignancies treated on cooperative-group protocols, differentiated by site (kidney vs bone) and molecular markers.
 
 ---
 

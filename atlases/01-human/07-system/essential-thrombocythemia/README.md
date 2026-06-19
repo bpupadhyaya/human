@@ -250,6 +250,15 @@ cross_links:
   - target: 01-human/07-system/heparin-induced-thrombocytopenia
     relation: connects-to
     note: "Platelet count, then platelet activation: essential thrombocythaemia thromboses with a high platelet count, whereas heparin-induced thrombocytopenia thromboses as platelets fall — opposite counts united by pathological platelet activation."
+  - target: 01-human/05-tissue/myocardium
+    relation: connects-to
+    note: "Arterial thrombosis and the heart: ET's hyperreactive platelets cause arterial thrombi including myocardial infarction, a leading cause of morbidity that aspirin and cytoreduction aim to prevent."
+  - target: 01-human/05-tissue/glomerulus
+    relation: connects-to
+    note: "Microvascular thrombosis: beyond large arteries, ET causes microvascular occlusion—erythromelalgia and renal microthrombi reaching the glomerulus—relieved promptly by low-dose aspirin."
+  - target: 01-human/07-system/cmml
+    relation: connects-to
+    note: "Across the myeloid-neoplasm family: ET is a classic myeloproliferative neoplasm of platelets, while CMML is a myelodysplastic/myeloproliferative overlap of monocytes—neighbouring clonal marrow diseases that can transform to AML."
 ---
 
 # Essential Thrombocythemia
@@ -445,6 +454,9 @@ Management:
 - `connects-to` → **[Arterial Wall](../../05-tissue/arterial-wall/README.md)** — Activated platelets clot the arteries: essential thrombocythaemia drives arterial thrombosis — stroke, MI and digital ischaemia (erythromelalgia) — through hyperreactive platelets acting on the arterial wall, the target of low-dose aspirin.
 - `connects-to` → **[Hepatic Lobule](../../05-tissue/hepatic-lobule/README.md)** — It clots the splanchnic veins: like other myeloproliferative neoplasms, essential thrombocythaemia characteristically causes hepatic- and portal-vein thrombosis (Budd-Chiari), congesting the liver lobule, sometimes before the platelet count rises.
 - `connects-to` → **[Heparin-Induced Thrombocytopenia](../heparin-induced-thrombocytopenia/README.md)** — Platelet count, then platelet activation: essential thrombocythaemia thromboses with a high platelet count, whereas heparin-induced thrombocytopenia thromboses as platelets fall — opposite counts united by pathological platelet activation.
+- `connects-to` → **[Myocardium](../../05-tissue/myocardium/README.md)** — Arterial thrombosis and the heart: ET's hyperreactive platelets cause arterial thrombi including myocardial infarction, a leading cause of morbidity that aspirin and cytoreduction aim to prevent.
+- `connects-to` → **[Glomerulus](../../05-tissue/glomerulus/README.md)** — Microvascular thrombosis: beyond large arteries, ET causes microvascular occlusion—erythromelalgia and renal microthrombi reaching the glomerulus—relieved promptly by low-dose aspirin.
+- `connects-to` → **[CMML](../cmml/README.md)** — Across the myeloid-neoplasm family: ET is a classic myeloproliferative neoplasm of platelets, while CMML is a myelodysplastic/myeloproliferative overlap of monocytes—neighbouring clonal marrow diseases that can transform to AML.
 
 [^harrison-2005-pt1-et]: Harrison CN, Campbell PJ, Buck G, et al. Hydroxyurea compared with anagrelide in high-risk essential thrombocythemia. *N Engl J Med.* 2005;353(1):33-45. [doi:10.1056/NEJMoa043800](https://doi.org/10.1056/NEJMoa043800) · [PubMed 16000354](https://pubmed.ncbi.nlm.nih.gov/16000354/)
 [^barbui-2012-ipset]: Barbui T, Finazzi G, Carobbio A, et al. Development and validation of an International Prognostic Score of thrombosis in World Health Organization-essential thrombocythemia (IPSET-thrombosis). *Blood.* 2012;120(26):5128-5133. [doi:10.1182/blood-2012-07-444067](https://doi.org/10.1182/blood-2012-07-444067) · [PubMed 23086758](https://pubmed.ncbi.nlm.nih.gov/23086758/)
