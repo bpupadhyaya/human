@@ -259,6 +259,15 @@ cross_links:
   - target: 01-human/05-tissue/cortical-bone
     relation: connects-to
     note: "FAP-like bony lesions: MUTYH-associated polyposis can show attenuated FAP features including osteomas and dental anomalies in the cortical bone, reflecting its overlap with APC-driven polyposis."
+  - target: 01-human/07-system/werner-syndrome
+    relation: connects-to
+    note: "The genomic-instability family: like Bloom and Werner syndromes, MUTYH-associated polyposis is an autosomal-recessive disorder of genome maintenance—here failed base-excision repair of oxidative DNA damage—predisposing to cancer through accumulated mutations."
+  - target: 01-human/07-system/mds
+    relation: connects-to
+    note: "Beyond the colon: biallelic MUTYH carriers have a raised risk of myeloid neoplasia, with the unrepaired oxidative mutations driving myelodysplasia and acute myeloid leukaemia as well as gut tumours."
+  - target: 01-human/03-molecular/brca2
+    relation: connects-to
+    note: "Different repair, same vulnerability: MUTYH performs base-excision repair of oxidative DNA damage while BRCA2 mediates homologous recombination of double-strand breaks—loss of either is an inherited route to cancer through unrepaired DNA."
 ---
 
 # MUTYH-Associated Polyposis
@@ -456,6 +465,9 @@ Because MAP is autosomal recessive: siblings of MAP patients are at **25%** risk
 - `connects-to` → **[Bloom Syndrome](../bloom-syndrome/README.md)** — Recessive DNA-repair cancer syndromes: like Bloom syndrome, MUTYH-associated polyposis is autosomal-recessive—biallelic loss of a DNA-repair gene (base-excision repair vs RecQ helicase) driving cancer through accumulated mutations.
 - `connects-to` → **[Germinal Center](../../05-tissue/germinal-center/README.md)** — A hypermutated, immunogenic tumour: MUTYH-deficient cancers accumulate a distinctive G:C→T:A mutational signature and high neoantigen load, drawing tertiary lymphoid structures and responding to checkpoint blockade.
 - `connects-to` → **[Cortical Bone](../../05-tissue/cortical-bone/README.md)** — FAP-like bony lesions: MUTYH-associated polyposis can show attenuated FAP features including osteomas and dental anomalies in the cortical bone, reflecting its overlap with APC-driven polyposis.
+- `connects-to` → **[Werner Syndrome](../werner-syndrome/README.md)** — The genomic-instability family: like Bloom and Werner syndromes, MUTYH-associated polyposis is an autosomal-recessive disorder of genome maintenance—here failed base-excision repair of oxidative DNA damage—predisposing to cancer through accumulated mutations.
+- `connects-to` → **[MDS](../mds/README.md)** — Beyond the colon: biallelic MUTYH carriers have a raised risk of myeloid neoplasia, with the unrepaired oxidative mutations driving myelodysplasia and acute myeloid leukaemia as well as gut tumours.
+- `connects-to` → **[BRCA2](../../03-molecular/brca2/README.md)** — Different repair, same vulnerability: MUTYH performs base-excision repair of oxidative DNA damage while BRCA2 mediates homologous recombination of double-strand breaks—loss of either is an inherited route to cancer through unrepaired DNA.
 
 ---
 

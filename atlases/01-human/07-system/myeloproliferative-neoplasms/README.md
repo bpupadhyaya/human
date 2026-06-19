@@ -259,6 +259,15 @@ cross_links:
   - target: 01-human/05-tissue/cortical-bone
     relation: connects-to
     note: "Osteosclerosis of myelofibrosis: as the marrow fibroses, reactive new bone formation thickens and scleroses the cortical bone, the radiographic counterpart of the fibrotic marrow."
+  - target: 01-human/03-molecular/von-willebrand-factor
+    relation: connects-to
+    note: "Bleeding amid thrombosis: extreme thrombocytosis in essential thrombocythaemia adsorbs and clears high-molecular-weight von Willebrand multimers, causing an acquired von Willebrand syndrome that bleeds paradoxically in a prothrombotic disease."
+  - target: 01-human/05-tissue/glomerulus
+    relation: connects-to
+    note: "MPN nephropathy: chronic myeloproliferative neoplasms cause a distinctive glomerulopathy with mesangial sclerosis and proteinuria, megakaryocytes and platelet-derived factors injuring the glomerulus over time."
+  - target: 01-human/07-system/covid-19-disease
+    relation: connects-to
+    note: "Stacked thrombotic risk: the JAK2-driven hypercoagulable state of myeloproliferative neoplasms compounds the thrombo-inflammation of COVID-19, raising the risk of arterial and venous clots during infection."
 ---
 
 # Myeloproliferative Neoplasms
@@ -483,6 +492,9 @@ In PV and ET, JAK2 V617F also affects myeloid progenitors → granulocytosis and
 - `connects-to` → **[Myocardium](../../05-tissue/myocardium/README.md)** — Arterial thrombosis and the heart: MPN hyperviscosity and reactive platelets cause arterial thrombi including myocardial infarction, a leading cause of death in polycythaemia vera and essential thrombocythaemia.
 - `connects-to` → **[Antiphospholipid Syndrome](../antiphospholipid-syndrome/README.md)** — Two causes of unexplained thrombosis: MPN and antiphospholipid syndrome both cause arterial and unusual-site venous thrombosis (splanchnic, cerebral), key differentials in a young patient with a clot.
 - `connects-to` → **[Cortical Bone](../../05-tissue/cortical-bone/README.md)** — Osteosclerosis of myelofibrosis: as the marrow fibroses, reactive new bone formation thickens and scleroses the cortical bone, the radiographic counterpart of the fibrotic marrow.
+- `connects-to` → **[Von Willebrand Factor](../../03-molecular/von-willebrand-factor/README.md)** — Bleeding amid thrombosis: extreme thrombocytosis in essential thrombocythaemia adsorbs and clears high-molecular-weight von Willebrand multimers, causing an acquired von Willebrand syndrome that bleeds paradoxically in a prothrombotic disease.
+- `connects-to` → **[Glomerulus](../../05-tissue/glomerulus/README.md)** — MPN nephropathy: chronic myeloproliferative neoplasms cause a distinctive glomerulopathy with mesangial sclerosis and proteinuria, megakaryocytes and platelet-derived factors injuring the glomerulus over time.
+- `connects-to` → **[COVID-19 Disease](../covid-19-disease/README.md)** — Stacked thrombotic risk: the JAK2-driven hypercoagulable state of myeloproliferative neoplasms compounds the thrombo-inflammation of COVID-19, raising the risk of arterial and venous clots during infection.
 
 [^verstovsek-2012-comfort-i]: Verstovsek S, Mesa RA, Gotlib J, et al. A double-blind, placebo-controlled trial of ruxolitinib for myelofibrosis. *N Engl J Med.* 2012;366(9):799-807. [doi:10.1056/NEJMoa1110557](https://doi.org/10.1056/NEJMoa1110557) · [PubMed 22375971](https://pubmed.ncbi.nlm.nih.gov/22375971/)
 [^vannucchi-2015-response]: Vannucchi AM, Kiladjian JJ, Griesshammer M, et al. Ruxolitinib versus standard therapy for the treatment of polycythemia vera. *N Engl J Med.* 2015;372(5):426-435. [doi:10.1056/NEJMoa1409002](https://doi.org/10.1056/NEJMoa1409002) · [PubMed 25426978](https://pubmed.ncbi.nlm.nih.gov/25426978/)
