@@ -283,6 +283,15 @@ cross_links:
   - target: 01-human/03-molecular/myc
     relation: connects-to
     note: "Amplified aggression: MYC amplification drives proliferation and immune evasion in NSCLC and is associated with more aggressive, treatment-resistant disease."
+  - target: 01-human/03-molecular/akt
+    relation: connects-to
+    note: "PI3K/AKT survival: AKT, activated downstream of EGFR and PIK3CA, drives NSCLC survival and underlies resistance to EGFR-targeted therapy."
+  - target: 01-human/03-molecular/cyclin-d1
+    relation: connects-to
+    note: "Cell-cycle drive: with CDKN2A loss common in NSCLC, cyclin D1-CDK4/6 activity pushes tumour cells through the G1 checkpoint, a candidate therapeutic vulnerability."
+  - target: 01-human/03-molecular/hif-1alpha
+    relation: connects-to
+    note: "Tumour hypoxia: HIF-1α stabilised in hypoxic NSCLC drives angiogenesis and a treatment-resistant, metastatic phenotype linked to poor prognosis."
 ---
 
 # NSCLC
@@ -472,6 +481,9 @@ cross_links:
 - `connects-to` → **[NTRK](../../03-molecular/ntrk/README.md)** — Rare actionable fusion: NTRK gene fusions are uncommon but highly targetable drivers in NSCLC, treated with TRK inhibitors as part of its precision-oncology landscape.
 - `connects-to` → **[PIK3CA](../../03-molecular/pik3ca/README.md)** — Squamous PI3K activation: PIK3CA mutation and amplification activate PI3K signalling, especially in squamous NSCLC, a candidate therapeutic target.
 - `connects-to` → **[MYC](../../03-molecular/myc/README.md)** — Amplified aggression: MYC amplification drives proliferation and immune evasion in NSCLC and is associated with more aggressive, treatment-resistant disease.
+- `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — PI3K/AKT survival: AKT, activated downstream of EGFR and PIK3CA, drives NSCLC survival and underlies resistance to EGFR-targeted therapy.
+- `connects-to` → **[Cyclin D1](../../03-molecular/cyclin-d1/README.md)** — Cell-cycle drive: with CDKN2A loss common in NSCLC, cyclin D1-CDK4/6 activity pushes tumour cells through the G1 checkpoint, a candidate therapeutic vulnerability.
+- `connects-to` → **[HIF-1α](../../03-molecular/hif-1alpha/README.md)** — Tumour hypoxia: HIF-1α stabilised in hypoxic NSCLC drives angiogenesis and a treatment-resistant, metastatic phenotype linked to poor prognosis.
 
 [^soria-2018-osimertinib-flaura]: Soria JC, Ohe Y, Vansteenkiste J, et al. Osimertinib in untreated EGFR-mutated advanced non-small-cell lung cancer. *N Engl J Med.* 2018;378(2):113-125. [doi:10.1056/NEJMoa1713137](https://doi.org/10.1056/NEJMoa1713137) · [PubMed 29151359](https://pubmed.ncbi.nlm.nih.gov/29151359/)
 [^reck-2016-pembrolizumab-keynote024]: Reck M, Rodríguez-Abreu D, Robinson AG, et al. Pembrolizumab versus chemotherapy for PD-L1-positive non-small-cell lung cancer. *N Engl J Med.* 2016;375(19):1823-1833. [doi:10.1056/NEJMoa1606774](https://doi.org/10.1056/NEJMoa1606774) · [PubMed 27718347](https://pubmed.ncbi.nlm.nih.gov/27718347/)

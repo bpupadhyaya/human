@@ -277,6 +277,15 @@ cross_links:
   - target: 01-human/03-molecular/cyclin-d1
     relation: connects-to
     note: "Proliferative drive: RAS-MAPK hyperactivation in Noonan syndrome upregulates cyclin D1, contributing to its predisposition to juvenile myelomonocytic leukaemia and other neoplasms."
+  - target: 01-human/03-molecular/myc
+    relation: connects-to
+    note: "RAS-driven oncogene: the constitutive RAS-MAPK signalling of Noonan syndrome upregulates MYC, underlying its predisposition to JMML and other childhood cancers."
+  - target: 01-human/03-molecular/pik3ca
+    relation: connects-to
+    note: "Parallel PI3K pathway: PI3K/AKT signalling crosstalks with the hyperactive RAS-MAPK axis in Noonan syndrome, contributing to its cardiac hypertrophy and growth phenotypes."
+  - target: 01-human/03-molecular/pdgf
+    relation: connects-to
+    note: "Growth-factor signalling: PDGF acts through the RAS-MAPK pathway dysregulated in Noonan syndrome, feeding into the developmental and proliferative abnormalities of the disorder."
 ---
 
 # Noonan Syndrome
@@ -501,6 +510,9 @@ NS is characterized by four cardinal features: **(1) short stature** (below 3rd 
 - `connects-to` → **[Calcineurin](../../03-molecular/calcineurin/README.md)** — Hypertrophic heart: calcineurin-NFAT signalling, amplified by RAS-MAPK overactivity, drives the hypertrophic cardiomyopathy that is a hallmark cardiac feature of Noonan syndrome.
 - `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — Lymphatic dysplasia: dysregulated VEGF-driven lymphangiogenesis underlies the lymphoedema, chylothorax and lymphatic malformations characteristic of Noonan syndrome.
 - `connects-to` → **[Cyclin D1](../../03-molecular/cyclin-d1/README.md)** — Proliferative drive: RAS-MAPK hyperactivation in Noonan syndrome upregulates cyclin D1, contributing to its predisposition to juvenile myelomonocytic leukaemia and other neoplasms.
+- `connects-to` → **[MYC](../../03-molecular/myc/README.md)** — RAS-driven oncogene: the constitutive RAS-MAPK signalling of Noonan syndrome upregulates MYC, underlying its predisposition to JMML and other childhood cancers.
+- `connects-to` → **[PIK3CA](../../03-molecular/pik3ca/README.md)** — Parallel PI3K pathway: PI3K/AKT signalling crosstalks with the hyperactive RAS-MAPK axis in Noonan syndrome, contributing to its cardiac hypertrophy and growth phenotypes.
+- `connects-to` → **[PDGF](../../03-molecular/pdgf/README.md)** — Growth-factor signalling: PDGF acts through the RAS-MAPK pathway dysregulated in Noonan syndrome, feeding into the developmental and proliferative abnormalities of the disorder.
 
 [^tartaglia-2001-ptpn11-noonan]: Tartaglia M, Mehler EL, Goldberg R, et al. Mutations in PTPN11, encoding the protein tyrosine phosphatase SHP-2, cause Noonan syndrome. *Nat Genet.* 2001;29(4):465-468. [doi:10.1038/ng772](https://doi.org/10.1038/ng772) · [PubMed 11704759](https://pubmed.ncbi.nlm.nih.gov/11704759/)
 [^van-der-burgt-2007-noonan-review]: van der Burgt I. Noonan syndrome. *Orphanet J Rare Dis.* 2007;2:4. [doi:10.1186/1750-1172-2-4](https://doi.org/10.1186/1750-1172-2-4) · [PubMed 17222357](https://pubmed.ncbi.nlm.nih.gov/17222357/)
