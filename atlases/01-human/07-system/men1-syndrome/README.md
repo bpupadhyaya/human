@@ -241,6 +241,15 @@ cross_links:
   - target: 01-human/07-system/hlrcc
     relation: connects-to
     note: "Among the autosomal-dominant tumour syndromes: MEN1 sits with HLRCC and the other single-gene cancer-predisposition syndromes, each committing carriers to organ-specific tumour surveillance."
+  - target: 01-human/05-tissue/cortical-bone
+    relation: connects-to
+    note: "Overactive parathyroids dissolve the bone: primary hyperparathyroidism, the earliest and commonest MEN1 tumour, raises PTH that resorbs cortical bone—producing osteitis fibrosa, subperiosteal erosions and osteoporosis—so bone density tracks the parathyroid disease."
+  - target: 03-medicine/01-modern/13-cancer/cancer-chemotherapy
+    relation: connects-to
+    note: "Chemo for advanced neuroendocrine tumours: when MEN1 pancreatic neuroendocrine tumours or thymic carcinoids progress, regimens like streptozocin-based or temozolomide-capecitabine chemotherapy are used alongside somatostatin analogues and targeted drugs."
+  - target: 01-human/06-organ/brain
+    relation: connects-to
+    note: "The pituitary completes its triad: MEN1's third classic site is the anterior pituitary, where prolactinomas and growth-hormone or ACTH adenomas grow at the skull base, demanding brain imaging in surveillance alongside the parathyroid and pancreas."
 ---
 
 # MEN1 Syndrome
@@ -435,6 +444,9 @@ Menin haploinsufficiency (one functional allele) creates susceptibility: cells a
 - `connects-to` → **[Islet of Langerhans](../../05-tissue/islet-of-langerhans/README.md)** — Its pancreatic tumours arise here: MEN1 predisposes to islet-cell neuroendocrine tumours — gastrinomas, insulinomas and others — that secrete hormones and dominate its morbidity alongside hyperparathyroidism.
 - `connects-to` → **[Cowden Syndrome](../cowden-syndrome/README.md)** — A fellow endocrine-tumour syndrome: like Cowden syndrome, MEN1 is an inherited predisposition to multiple endocrine and other tumours, both driving lifelong gland surveillance.
 - `connects-to` → **[HLRCC](../hlrcc/README.md)** — Among the autosomal-dominant tumour syndromes: MEN1 sits with HLRCC and the other single-gene cancer-predisposition syndromes, each committing carriers to organ-specific tumour surveillance.
+- `connects-to` → **[Cortical Bone](../../05-tissue/cortical-bone/README.md)** — Overactive parathyroids dissolve the bone: primary hyperparathyroidism, the earliest and commonest MEN1 tumour, raises PTH that resorbs cortical bone—producing osteitis fibrosa, subperiosteal erosions and osteoporosis—so bone density tracks the parathyroid disease.
+- `connects-to` → **[Cancer Chemotherapy](../../../03-medicine/01-modern/13-cancer/cancer-chemotherapy/README.md)** — Chemo for advanced neuroendocrine tumours: when MEN1 pancreatic neuroendocrine tumours or thymic carcinoids progress, regimens like streptozocin-based or temozolomide-capecitabine chemotherapy are used alongside somatostatin analogues and targeted drugs.
+- `connects-to` → **[Brain](../../06-organ/brain/README.md)** — The pituitary completes its triad: MEN1's third classic site is the anterior pituitary, where prolactinomas and growth-hormone or ACTH adenomas grow at the skull base, demanding brain imaging in surveillance alongside the parathyroid and pancreas.
 
 ---
 

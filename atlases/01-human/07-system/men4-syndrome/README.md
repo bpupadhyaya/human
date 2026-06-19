@@ -241,6 +241,15 @@ cross_links:
   - target: 03-medicine/01-modern/13-cancer/cancer-chemotherapy
     relation: connects-to
     note: "Chemo for advanced neuroendocrine tumours: metastatic pancreatic neuroendocrine tumours in MEN4 are treated with chemotherapy such as capecitabine-temozolomide alongside targeted agents."
+  - target: 01-human/05-tissue/cortical-bone
+    relation: connects-to
+    note: "Like MEN1, it starts in the parathyroids: hyperparathyroidism is the leading MEN4 feature, and the high PTH it drives resorbs cortical bone—causing osteoporosis and fractures—so the skeleton registers the endocrine tumour."
+  - target: 01-human/07-system/retinoblastoma
+    relation: connects-to
+    note: "Two brakes on the cell cycle lost: MEN4 arises from loss of CDKN1B (p27), a CDK inhibitor that restrains G1→S, much as retinoblastoma arises from loss of RB1 downstream in the same checkpoint—different stops on one cell-cycle pathway."
+  - target: 01-human/03-molecular/cdkn1a
+    relation: connects-to
+    note: "Its gene has a sibling brake: MEN4 is caused by loss of CDKN1B (p27); CDKN1A (p21) is the closely related CIP/KIP-family CDK inhibitor that enforces the same G1/S checkpoint, so the two share the job MEN4's mutation abolishes."
 ---
 
 # MEN4 Syndrome
@@ -427,6 +436,9 @@ When clinical MEN features are present:
 - `connects-to` → **[Islet of Langerhans](../../05-tissue/islet-of-langerhans/README.md)** — Its pancreatic tumours arise here: like MEN1, MEN4 predisposes to islet-cell neuroendocrine tumours of the pancreas alongside parathyroid and pituitary tumours.
 - `connects-to` → **[Cowden Syndrome](../cowden-syndrome/README.md)** — A fellow endocrine-tumour syndrome: MEN4, like Cowden syndrome, is an inherited predisposition to multiple endocrine and other tumours requiring lifelong gland surveillance.
 - `connects-to` → **[Cancer Chemotherapy](../../../03-medicine/01-modern/13-cancer/cancer-chemotherapy/README.md)** — Chemo for advanced neuroendocrine tumours: metastatic pancreatic neuroendocrine tumours in MEN4 are treated with chemotherapy such as capecitabine-temozolomide alongside targeted agents.
+- `connects-to` → **[Cortical Bone](../../05-tissue/cortical-bone/README.md)** — Like MEN1, it starts in the parathyroids: hyperparathyroidism is the leading MEN4 feature, and the high PTH it drives resorbs cortical bone—causing osteoporosis and fractures—so the skeleton registers the endocrine tumour.
+- `connects-to` → **[Retinoblastoma](../retinoblastoma/README.md)** — Two brakes on the cell cycle lost: MEN4 arises from loss of CDKN1B (p27), a CDK inhibitor that restrains G1→S, much as retinoblastoma arises from loss of RB1 downstream in the same checkpoint—different stops on one cell-cycle pathway.
+- `connects-to` → **[CDKN1A](../../03-molecular/cdkn1a/README.md)** — Its gene has a sibling brake: MEN4 is caused by loss of CDKN1B (p27); CDKN1A (p21) is the closely related CIP/KIP-family CDK inhibitor that enforces the same G1/S checkpoint, so the two share the job MEN4's mutation abolishes.
 
 [^alrezk-2017-men4]: Alrezk R, Hannah-Shmouni F, Stratakis CA. MEN4 and CDKN1B mutations: the latest of the MEN syndromes. *Endocr Relat Cancer.* 2017;24(10):T195-T208. [doi:10.1530/ERC-17-0243](https://doi.org/10.1530/ERC-17-0243) · [PubMed 28894007](https://pubmed.ncbi.nlm.nih.gov/28894007/)
 [^pellegata-2006-cdkn1b-men4]: Pellegata NS, Quintanilla-Martinez L, Siggelkow H, et al. Germ-line mutations in p27Kip1 cause a multiple endocrine neoplasia syndrome in rats and humans. *Proc Natl Acad Sci USA.* 2006;103(42):15558-15563. [doi:10.1073/pnas.0603306103](https://doi.org/10.1073/pnas.0603306103) · [PubMed 17030811](https://pubmed.ncbi.nlm.nih.gov/17030811/)
