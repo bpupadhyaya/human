@@ -259,6 +259,15 @@ cross_links:
   - target: 01-human/07-system/psoriasis
     relation: connects-to
     note: "Shared metabolic-inflammatory ground: NASH and psoriasis cluster within the metabolic syndrome through systemic inflammation, and some psoriasis therapies such as methotrexate are hepatotoxic, complicating an already fatty liver."
+  - target: 01-human/07-system/hepatitis-b
+    relation: connects-to
+    note: "Two hits on one liver: coexisting hepatitis B and fatty-liver disease compound hepatocyte injury, accelerating fibrosis and raising hepatocellular-carcinoma risk beyond either alone."
+  - target: 01-human/05-tissue/myocardium
+    relation: connects-to
+    note: "A heart at risk: NAFLD/NASH independently associates with cardiac structural change—left-ventricular hypertrophy and diastolic dysfunction of the myocardium—beyond the shared metabolic risk factors."
+  - target: 01-human/07-system/cholangiocarcinoma
+    relation: connects-to
+    note: "Not only hepatocellular cancer: NASH raises the risk of intrahepatic cholangiocarcinoma as well as hepatocellular carcinoma, broadening the cancer spectrum of the cirrhotic fatty liver."
 ---
 
 # NASH
@@ -428,6 +437,9 @@ NASH pathogenesis is driven by multiple simultaneous and sequential hits, not a 
 - `connects-to` → **[Arterial Wall](../../05-tissue/arterial-wall/README.md)** — Its patients die of their arteries: cardiovascular disease, not liver failure, is the leading cause of death in NASH—hepatic insulin resistance, dyslipidaemia and inflammation accelerate arterial-wall atherosclerosis.
 - `connects-to` → **[Islet of Langerhans](../../05-tissue/islet-of-langerhans/README.md)** — A two-way metabolic loop with the pancreas: hepatic insulin resistance in NASH overworks the islets of Langerhans, and the resulting beta-cell strain and type 2 diabetes in turn worsen the fatty liver.
 - `connects-to` → **[Psoriasis](../psoriasis/README.md)** — Shared metabolic-inflammatory ground: NASH and psoriasis cluster within the metabolic syndrome through systemic inflammation, and some psoriasis therapies such as methotrexate are hepatotoxic, complicating an already fatty liver.
+- `connects-to` → **[Hepatitis B](../hepatitis-b/README.md)** — Two hits on one liver: coexisting hepatitis B and fatty-liver disease compound hepatocyte injury, accelerating fibrosis and raising hepatocellular-carcinoma risk beyond either alone.
+- `connects-to` → **[Myocardium](../../05-tissue/myocardium/README.md)** — A heart at risk: NAFLD/NASH independently associates with cardiac structural change—left-ventricular hypertrophy and diastolic dysfunction of the myocardium—beyond the shared metabolic risk factors.
+- `connects-to` → **[Cholangiocarcinoma](../cholangiocarcinoma/README.md)** — Not only hepatocellular cancer: NASH raises the risk of intrahepatic cholangiocarcinoma as well as hepatocellular carcinoma, broadening the cancer spectrum of the cirrhotic fatty liver.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
