@@ -251,6 +251,15 @@ cross_links:
   - target: 01-human/07-system/als
     relation: connects-to
     note: "When the nerve dies, the muscle wastes: amyotrophic lateral sclerosis kills the motor neurons driving skeletal muscle, so progressive denervation atrophy and weakness destroy the musculoskeletal system's power despite initially healthy muscle fibres."
+  - target: 01-human/07-system/sickle-cell-disease
+    relation: connects-to
+    note: "Bone as a target of sickling: vaso-occlusion causes painful bone infarcts, avascular necrosis of the femoral head and childhood dactylitis, and raises the risk of Salmonella osteomyelitis in the skeleton."
+  - target: 01-human/07-system/hemophilia-a
+    relation: connects-to
+    note: "Bleeding into the joints: recurrent haemarthrosis in haemophilia A destroys cartilage and synovium, producing a crippling chronic arthropathy that is a major musculoskeletal burden of the disease."
+  - target: 01-human/07-system/synovial-sarcoma
+    relation: connects-to
+    note: "A soft-tissue cancer near the joints: synovial sarcoma arises in the limbs around joints and tendons (despite its name, not from synovium), a malignant counterpart to the system's many benign soft-tissue tumours."
 ---
 
 # Musculoskeletal System
@@ -465,6 +474,9 @@ Chronic exercise drives profound musculoskeletal remodelling [^guyton-hall]:
 - `connects-to` → **[Marfan Syndrome](../marfan-syndrome/README.md)** — A heritable connective-tissue disorder of the frame: Marfan syndrome's fibrillin-1 defect lengthens the limbs (arachnodactyly, tall stature) and brings scoliosis, pectus deformity and joint laxity—the skeleton built on faulty connective tissue.
 - `connects-to` → **[Multiple Myeloma](../multiple-myeloma/README.md)** — A cancer that dissolves bone: myeloma plasma cells activate osteoclasts via RANKL while suppressing osteoblasts, carving the lytic lesions, pathological fractures and hypercalcaemia that make it a disease of the skeleton.
 - `connects-to` → **[ALS](../als/README.md)** — When the nerve dies, the muscle wastes: amyotrophic lateral sclerosis kills the motor neurons driving skeletal muscle, so progressive denervation atrophy and weakness destroy the musculoskeletal system's power despite initially healthy muscle fibres.
+- `connects-to` → **[Sickle Cell Disease](../sickle-cell-disease/README.md)** — Bone as a target of sickling: vaso-occlusion causes painful bone infarcts, avascular necrosis of the femoral head and childhood dactylitis, and raises the risk of Salmonella osteomyelitis in the skeleton.
+- `connects-to` → **[Hemophilia A](../hemophilia-a/README.md)** — Bleeding into the joints: recurrent haemarthrosis in haemophilia A destroys cartilage and synovium, producing a crippling chronic arthropathy that is a major musculoskeletal burden of the disease.
+- `connects-to` → **[Synovial Sarcoma](../synovial-sarcoma/README.md)** — A soft-tissue cancer near the joints: synovial sarcoma arises in the limbs around joints and tendons (despite its name, not from synovium), a malignant counterpart to the system's many benign soft-tissue tumours.
 
 ## Pathology
 

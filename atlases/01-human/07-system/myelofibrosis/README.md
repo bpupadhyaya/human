@@ -253,6 +253,15 @@ cross_links:
   - target: 01-human/07-system/leishmaniasis
     relation: connects-to
     note: "An infectious mimic of the big spleen: visceral leishmaniasis produces massive splenomegaly, pancytopenia and marrow change that imitate myelofibrosis, a key infectious differential in endemic regions."
+  - target: 01-human/07-system/gvhd
+    relation: connects-to
+    note: "The only cure, and its cost: allogeneic stem-cell transplant is the sole curative therapy for myelofibrosis, but graft-versus-host disease is a major source of its transplant-related mortality."
+  - target: 01-human/05-tissue/alveolus
+    relation: connects-to
+    note: "Hidden in the lungs: extramedullary haematopoiesis and microvascular megakaryocyte emboli in myelofibrosis can lodge in the alveolar capillaries, contributing to the pulmonary hypertension that worsens prognosis."
+  - target: 01-human/07-system/breast-cancer
+    relation: connects-to
+    note: "A mimic to exclude: marrow infiltration by metastatic cancer such as breast cancer causes reactive fibrosis and a leukoerythroblastic blood film that can imitate primary myelofibrosis."
 ---
 
 # Myelofibrosis
@@ -459,6 +468,9 @@ Abrupt ruxolitinib cessation → cytokine rebound → fever, splenomegaly surge,
 - `connects-to` → **[Hepatic Lobule](../../05-tissue/hepatic-lobule/README.md)** — Blood-making relocates to the liver: as marrow fibrosis fails haematopoiesis, extramedullary blood formation sets up in the spleen and the hepatic lobules, enlarging the liver alongside the massive spleen.
 - `connects-to` → **[Arterial Wall](../../05-tissue/arterial-wall/README.md)** — It still thromboses: like other myeloproliferative neoplasms, myelofibrosis's JAK2-mutant blood cells inflame the arterial wall and raise the risk of arterial thrombosis, stroke and heart attack.
 - `connects-to` → **[Leishmaniasis](../leishmaniasis/README.md)** — An infectious mimic of the big spleen: visceral leishmaniasis produces massive splenomegaly, pancytopenia and marrow change that imitate myelofibrosis, a key infectious differential in endemic regions.
+- `connects-to` → **[GvHD](../gvhd/README.md)** — The only cure, and its cost: allogeneic stem-cell transplant is the sole curative therapy for myelofibrosis, but graft-versus-host disease is a major source of its transplant-related mortality.
+- `connects-to` → **[Alveolus](../../05-tissue/alveolus/README.md)** — Hidden in the lungs: extramedullary haematopoiesis and microvascular megakaryocyte emboli in myelofibrosis can lodge in the alveolar capillaries, contributing to the pulmonary hypertension that worsens prognosis.
+- `connects-to` → **[Breast Cancer](../breast-cancer/README.md)** — A mimic to exclude: marrow infiltration by metastatic cancer such as breast cancer causes reactive fibrosis and a leukoerythroblastic blood film that can imitate primary myelofibrosis.
 
 ---
 
