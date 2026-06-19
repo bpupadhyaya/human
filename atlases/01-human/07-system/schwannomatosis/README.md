@@ -259,6 +259,15 @@ cross_links:
   - target: 01-human/05-tissue/fibrosis
     relation: connects-to
     note: "A collagen-rich tumour stroma: schwannomas lay down the dense, fibrous Antoni-A matrix, and the SMARCB1/NF2-merlin loss of schwannomatosis promotes this profibrotic phenotype."
+  - target: 01-human/07-system/ovarian-clear-cell-carcinoma
+    relation: connects-to
+    note: "SWI/SNF chromatin disorders: schwannomatosis (SMARCB1) and ovarian clear-cell carcinoma (ARID1A) both arise from loss of subunits of the SWI/SNF chromatin-remodelling complex, a shared epigenetic route to very different tumours."
+  - target: 01-human/07-system/cidp
+    relation: connects-to
+    note: "Chronic peripheral nerve disease: schwannomatosis sits in the differential of acquired chronic neuropathies like CIDP, both presenting with progressive peripheral nerve dysfunction though one is tumoural and the other inflammatory."
+  - target: 01-human/05-tissue/neuromuscular-junction
+    relation: connects-to
+    note: "A Schwann-cell disease: schwannomatosis tumours arise from the Schwann cells that ensheath peripheral nerves all the way to the neuromuscular junction, SMARCB1/LZTR1 loss driving their multifocal growth."
 ---
 
 # Schwannomatosis
@@ -441,6 +450,9 @@ Both NF2 (22q12.2), SMARCB1 (22q11.23), and LZTR1 (22q11.21) are on chromosome 2
 - `connects-to` → **[Neuropathic Pain](../neuropathic-pain/README.md)** — Pain is the defining feature: unlike NF2, schwannomatosis presents primarily with severe chronic neuropathic pain from peripheral schwannomas, often out of proportion to tumour size—the dominant management problem.
 - `connects-to` → **[Axonal Transport](../../05-tissue/axonal-transport/README.md)** — Schwannomas compress nerves: schwannomatosis's multiple peripheral and spinal schwannomas press on nerves and their axons, causing pain, weakness and sensory loss, without the bilateral vestibular tumours of NF2.
 - `connects-to` → **[Fibrosis](../../05-tissue/fibrosis/README.md)** — A collagen-rich tumour stroma: schwannomas lay down the dense, fibrous Antoni-A matrix, and the SMARCB1/NF2-merlin loss of schwannomatosis promotes this profibrotic phenotype.
+- `connects-to` → **[Ovarian Clear-Cell Carcinoma](../ovarian-clear-cell-carcinoma/README.md)** — SWI/SNF chromatin disorders: schwannomatosis (SMARCB1) and ovarian clear-cell carcinoma (ARID1A) both arise from loss of subunits of the SWI/SNF chromatin-remodelling complex, a shared epigenetic route to very different tumours.
+- `connects-to` → **[CIDP](../cidp/README.md)** — Chronic peripheral nerve disease: schwannomatosis sits in the differential of acquired chronic neuropathies like CIDP, both presenting with progressive peripheral nerve dysfunction though one is tumoural and the other inflammatory.
+- `connects-to` → **[Neuromuscular Junction](../../05-tissue/neuromuscular-junction/README.md)** — A Schwann-cell disease: schwannomatosis tumours arise from the Schwann cells that ensheath peripheral nerves all the way to the neuromuscular junction, SMARCB1/LZTR1 loss driving their multifocal growth.
 
 [^merker-2012-schwannomatosis]: Merker VL, Esparza S, Smith MJ, Stemmer-Rachamimov A, Plotkin SR. Clinical features of schwannomatosis: a retrospective analysis of 87 patients. *Oncologist.* 2012;17(10):1317-1322. [doi:10.1634/theoncologist.2012-0162](https://doi.org/10.1634/theoncologist.2012-0162) · [PubMed 22927469](https://pubmed.ncbi.nlm.nih.gov/22927469/)
 [^piotrowski-2014-lztr1]: Piotrowski A, Xie J, Liu YF, et al. Germline loss-of-function mutations in LZTR1 predispose to an inherited disorder of multiple schwannomas. *Nat Genet.* 2014;46(2):182-187. [doi:10.1038/ng.2855](https://doi.org/10.1038/ng.2855) · [PubMed 24362817](https://pubmed.ncbi.nlm.nih.gov/24362817/)

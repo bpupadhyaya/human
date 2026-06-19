@@ -259,6 +259,15 @@ cross_links:
   - target: 01-human/05-tissue/germinal-center
     relation: connects-to
     note: "Why immunotherapy helps: SCLC's heavy smoking-driven mutation load and tertiary lymphoid structures make it visible to T cells, so adding PD-L1 (and CTLA-4) blockade improves survival in extensive-stage disease."
+  - target: 01-human/07-system/epilepsy
+    relation: connects-to
+    note: "Seizures from two directions: SCLC frequently metastasises to the brain and also causes paraneoplastic limbic encephalitis (anti-Hu), both producing seizures and secondary epilepsy in advanced disease."
+  - target: 01-human/05-tissue/axonal-transport
+    relation: connects-to
+    note: "Paraneoplastic neuronopathy: anti-Hu antibodies in SCLC destroy dorsal-root-ganglion neurons and their axonal transport, causing a severe subacute sensory neuronopathy that can precede the cancer's discovery."
+  - target: 01-human/05-tissue/cardiac-conduction-system
+    relation: connects-to
+    note: "Electrolytes and the heart: SCLC's ectopic hormones disturb the heart's conduction—SIADH-driven hyponatraemia and ectopic-ACTH hypokalaemia destabilise rhythm—while paraneoplastic autonomic neuropathy adds to the risk."
 ---
 
 # Small Cell Lung Cancer
@@ -449,6 +458,9 @@ SCLC has highest rate of brain metastases among solid tumors (~50% at 2 years); 
 - `connects-to` → **[Alveolus](../../05-tissue/alveolus/README.md)** — Central origin, early spread: SCLC arises centrally near the bronchi and disseminates early, seeding the alveolar bed and distant organs—the most aggressive lung cancer, usually widespread at diagnosis.
 - `connects-to` → **[Bladder Cancer](../bladder-cancer/README.md)** — Two heavily-smoking cancers: SCLC and bladder cancer share tobacco causation, and small-cell neuroendocrine carcinoma can also arise in the bladder, mirroring the lung tumour's aggressive histology.
 - `connects-to` → **[Germinal Center](../../05-tissue/germinal-center/README.md)** — Why immunotherapy helps: SCLC's heavy smoking-driven mutation load and tertiary lymphoid structures make it visible to T cells, so adding PD-L1 (and CTLA-4) blockade improves survival in extensive-stage disease.
+- `connects-to` → **[Epilepsy](../epilepsy/README.md)** — Seizures from two directions: SCLC frequently metastasises to the brain and also causes paraneoplastic limbic encephalitis (anti-Hu), both producing seizures and secondary epilepsy in advanced disease.
+- `connects-to` → **[Axonal Transport](../../05-tissue/axonal-transport/README.md)** — Paraneoplastic neuronopathy: anti-Hu antibodies in SCLC destroy dorsal-root-ganglion neurons and their axonal transport, causing a severe subacute sensory neuronopathy that can precede the cancer's discovery.
+- `connects-to` → **[Cardiac Conduction System](../../05-tissue/cardiac-conduction-system/README.md)** — Electrolytes and the heart: SCLC's ectopic hormones disturb the heart's conduction—SIADH-driven hyponatraemia and ectopic-ACTH hypokalaemia destabilise rhythm—while paraneoplastic autonomic neuropathy adds to the risk.
 
 [^horn-2018-impower133]: Horn L, Mansfield AS, Szczęsna A, et al. First-line atezolizumab plus chemotherapy in extensive-stage small-cell lung cancer. *N Engl J Med.* 2018;379(23):2220-2229. [doi:10.1056/NEJMoa1809064](https://doi.org/10.1056/NEJMoa1809064) · [PubMed 30280641](https://pubmed.ncbi.nlm.nih.gov/30280641/)
 [^paz-ares-2019-caspian]: Paz-Ares L, Dvorkin M, Chen Y, et al. Durvalumab plus platinum-etoposide versus platinum-etoposide in first-line treatment of extensive-stage small-cell lung cancer (CASPIAN). *Lancet.* 2019;394(10212):1929-1939. [doi:10.1016/S0140-6736(19)32222-6](https://doi.org/10.1016/S0140-6736(19)32222-6) · [PubMed 31590988](https://pubmed.ncbi.nlm.nih.gov/31590988/)
