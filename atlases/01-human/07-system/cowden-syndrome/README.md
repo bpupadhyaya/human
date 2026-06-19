@@ -277,6 +277,15 @@ cross_links:
   - target: 01-human/04-cellular/astrocyte
     relation: connects-to
     note: "Glial overgrowth: PTEN loss in CNS glia including astrocytes drives the megalencephaly and dysplastic cerebellar overgrowth (Lhermitte-Duclos) characteristic of Cowden syndrome."
+  - target: 01-human/03-molecular/erk1-2
+    relation: connects-to
+    note: "MAPK crosstalk: PTEN loss in Cowden syndrome also potentiates RAS-ERK signalling, which cooperates with the PI3K/AKT pathway to drive the hamartomas and tumours."
+  - target: 01-human/03-molecular/myc
+    relation: connects-to
+    note: "Downstream proliferation: unrestrained PI3K/AKT/mTOR signalling from PTEN loss upregulates MYC, helping drive the cell growth and tumour predisposition of Cowden syndrome."
+  - target: 01-human/03-molecular/hif-1alpha
+    relation: connects-to
+    note: "Hypoxic and angiogenic: AKT/mTOR activation from PTEN loss stabilises HIF-1α, promoting the angiogenesis that supports the vascular hamartomas and tumours of the syndrome."
 ---
 
 # Cowden Syndrome
@@ -543,6 +552,9 @@ cross_links:
 - `connects-to` → **[TSC1-TSC2](../../03-molecular/tsc1-tsc2/README.md)** — Convergent mTOR control: PTEN and the TSC1-TSC2 complex are both brakes on mTORC1, making Cowden and tuberous sclerosis sister hamartoma syndromes driven by unrestrained mTOR signalling.
 - `connects-to` → **[p53](../../03-molecular/p53/README.md)** — Cooperating tumour suppressors: PTEN helps stabilise p53, and combined PTEN/p53 dysfunction accelerates the tumours of the Cowden spectrum beyond PTEN loss alone.
 - `connects-to` → **[Astrocyte](../../04-cellular/astrocyte/README.md)** — Glial overgrowth: PTEN loss in CNS glia including astrocytes drives the megalencephaly and dysplastic cerebellar overgrowth (Lhermitte-Duclos) characteristic of Cowden syndrome.
+- `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — MAPK crosstalk: PTEN loss in Cowden syndrome also potentiates RAS-ERK signalling, which cooperates with the PI3K/AKT pathway to drive the hamartomas and tumours.
+- `connects-to` → **[MYC](../../03-molecular/myc/README.md)** — Downstream proliferation: unrestrained PI3K/AKT/mTOR signalling from PTEN loss upregulates MYC, helping drive the cell growth and tumour predisposition of Cowden syndrome.
+- `connects-to` → **[HIF-1α](../../03-molecular/hif-1alpha/README.md)** — Hypoxic and angiogenic: AKT/mTOR activation from PTEN loss stabilises HIF-1α, promoting the angiogenesis that supports the vascular hamartomas and tumours of the syndrome.
 
 ---
 

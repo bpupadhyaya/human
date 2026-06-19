@@ -277,6 +277,15 @@ cross_links:
   - target: 01-human/03-molecular/surfactant
     relation: connects-to
     note: "Compromised host defence: chronic inflammation and proteases degrade and inactivate pulmonary surfactant in cystic fibrosis, weakening innate immune defence and small-airway stability."
+  - target: 01-human/03-molecular/ccl2
+    relation: connects-to
+    note: "Inflammatory cell recruitment: CCL2 draws monocytes into cystic-fibrosis airways, adding to the relentless neutrophil-dominated inflammation that destroys the lung."
+  - target: 01-human/03-molecular/hif-1alpha
+    relation: connects-to
+    note: "Mucus-plug hypoxia: thick mucus and Pseudomonas biofilms create steep oxygen gradients in cystic-fibrosis airways, stabilising HIF-1α in epithelial and immune cells."
+  - target: 01-human/03-molecular/vegf
+    relation: connects-to
+    note: "Bronchial angiogenesis: chronic inflammation in cystic fibrosis raises VEGF, expanding tortuous bronchial vessels that are the source of the life-threatening haemoptysis of advanced disease."
 ---
 
 # Cystic Fibrosis
@@ -491,6 +500,9 @@ AND
 - `connects-to` → **[TNF-α](../../03-molecular/tnf-alpha/README.md)** — Self-sustaining inflammation: TNF-α amplifies the relentless neutrophilic airway inflammation of cystic fibrosis, joining IL-1β, IL-6 and IL-17 in the cytokine loop that destroys lung tissue.
 - `connects-to` → **[Hepatocyte](../../04-cellular/hepatocyte/README.md)** — Cystic fibrosis liver disease: defective CFTR in biliary epithelium plugs bile ducts and causes focal biliary cirrhosis, injuring hepatocytes and progressing to portal hypertension.
 - `connects-to` → **[Surfactant](../../03-molecular/surfactant/README.md)** — Compromised host defence: chronic inflammation and proteases degrade and inactivate pulmonary surfactant in cystic fibrosis, weakening innate immune defence and small-airway stability.
+- `connects-to` → **[CCL2](../../03-molecular/ccl2/README.md)** — Inflammatory cell recruitment: CCL2 draws monocytes into cystic-fibrosis airways, adding to the relentless neutrophil-dominated inflammation that destroys the lung.
+- `connects-to` → **[HIF-1α](../../03-molecular/hif-1alpha/README.md)** — Mucus-plug hypoxia: thick mucus and Pseudomonas biofilms create steep oxygen gradients in cystic-fibrosis airways, stabilising HIF-1α in epithelial and immune cells.
+- `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — Bronchial angiogenesis: chronic inflammation in cystic fibrosis raises VEGF, expanding tortuous bronchial vessels that are the source of the life-threatening haemoptysis of advanced disease.
 
 ---
 
