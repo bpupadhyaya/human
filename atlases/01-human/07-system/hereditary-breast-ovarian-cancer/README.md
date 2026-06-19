@@ -250,6 +250,15 @@ cross_links:
   - target: 01-human/07-system/cervical-cancer
     relation: connects-to
     note: "Two gynaecological cancers, opposite prevention: cervical cancer is HPV-driven and largely prevented by vaccination and screening, whereas HBOC ovarian cancer is germline-driven with no good screening, so management turns to risk-reducing surgery."
+  - target: 01-human/07-system/werner-syndrome
+    relation: connects-to
+    note: "Genome-instability cancer syndromes: like Werner syndrome's RecQ-helicase defect, BRCA-driven HBOC reflects failed genome maintenance, predisposing to cancer through accumulated unrepaired DNA damage."
+  - target: 01-human/07-system/aplastic-anemia
+    relation: connects-to
+    note: "Biallelic BRCA2 is Fanconi anaemia: inheriting two faulty BRCA2/FANCD1 alleles causes Fanconi anaemia with childhood bone-marrow failure—the recessive extreme of an HBOC gene."
+  - target: 01-human/07-system/ovarian-clear-cell-carcinoma
+    relation: connects-to
+    note: "Which ovarian cancer it causes: BRCA-associated ovarian cancer is high-grade serous, biologically distinct from the ARID1A-driven clear-cell subtype that arises from endometriosis."
 ---
 
 # Hereditary Breast and Ovarian Cancer
@@ -463,6 +472,9 @@ BRCA-mutant cells (HRD):
 - `connects-to` → **[FAP](../fap/README.md)** — Gatekeeper versus caretaker: FAP is driven by loss of the APC gatekeeper that restrains tissue growth, whereas HBOC arises from loss of BRCA caretaker genes guarding genome integrity—the classic two categories of tumour-suppressor gene.
 - `connects-to` → **[Retinoblastoma](../retinoblastoma/README.md)** — Knudson's two-hit rule applies to both: retinoblastoma defined the model in which a germline first hit plus somatic loss of the second allele triggers cancer, exactly how BRCA1/2 carriers in HBOC lose their remaining wild-type allele in the tumour.
 - `connects-to` → **[Cervical Cancer](../cervical-cancer/README.md)** — Two gynaecological cancers, opposite prevention: cervical cancer is HPV-driven and largely prevented by vaccination and screening, whereas HBOC ovarian cancer is germline-driven with no good screening, so management turns to risk-reducing surgery.
+- `connects-to` → **[Werner Syndrome](../werner-syndrome/README.md)** — Genome-instability cancer syndromes: like Werner syndrome's RecQ-helicase defect, BRCA-driven HBOC reflects failed genome maintenance, predisposing to cancer through accumulated unrepaired DNA damage.
+- `connects-to` → **[Aplastic Anemia](../aplastic-anemia/README.md)** — Biallelic BRCA2 is Fanconi anaemia: inheriting two faulty BRCA2/FANCD1 alleles causes Fanconi anaemia with childhood bone-marrow failure—the recessive extreme of an HBOC gene.
+- `connects-to` → **[Ovarian Clear Cell Carcinoma](../ovarian-clear-cell-carcinoma/README.md)** — Which ovarian cancer it causes: BRCA-associated ovarian cancer is high-grade serous, biologically distinct from the ARID1A-driven clear-cell subtype that arises from endometriosis.
 
 ---
 

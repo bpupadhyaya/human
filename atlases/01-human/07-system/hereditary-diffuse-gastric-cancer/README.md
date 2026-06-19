@@ -250,6 +250,15 @@ cross_links:
   - target: 03-medicine/03-food/dietary-fiber
     relation: connects-to
     note: "Life after prophylactic gastrectomy: CDH1 carriers often undergo total gastrectomy, then manage dumping syndrome with dietary changes—small meals and soluble fibre to slow the rapid emptying of food into the small intestine."
+  - target: 01-human/05-tissue/hepatic-lobule
+    relation: connects-to
+    note: "Liver metastasis: diffuse gastric cancer drains via the portal vein to seed the hepatic lobule, one of the sites—with bone and lung—that mark incurable spread."
+  - target: 01-human/05-tissue/cortical-bone
+    relation: connects-to
+    note: "Marrow and bone metastasis: signet-ring diffuse gastric cancer characteristically seeds diffuse osteoblastic and bone-marrow metastases, sometimes presenting as marrow failure."
+  - target: 01-human/05-tissue/alveolus
+    relation: connects-to
+    note: "Lung and pleural spread: diffuse gastric cancer can disseminate to the lungs and pleura (lymphangitic carcinomatosis), seeding the alveolar bed and causing breathlessness."
 ---
 
 # Hereditary Diffuse Gastric Cancer
@@ -435,6 +444,9 @@ Testing for CDH1 (and CTNNA1) is indicated in any of the following:
 - `connects-to` → **[Retinoblastoma](../retinoblastoma/README.md)** — Knudson's two-hit model in the stomach: CDH1 is a tumour-suppressor inactivated like RB1—a germline first hit plus somatic loss (often promoter methylation) of the second allele—so HDGC mirrors retinoblastoma's founding mechanism of hereditary cancer.
 - `connects-to` → **[Desmoid Tumor](../desmoid-tumor/README.md)** — Two diseases of one adhesion complex: HDGC can arise from CTNNA1 (α-catenin) loss that breaks E-cadherin cell adhesion, while desmoid tumours arise from CTNNB1 (β-catenin) activation—opposite faults in the same cadherin–catenin Wnt machinery.
 - `connects-to` → **[Dietary Fiber](../../../03-medicine/03-food/dietary-fiber/README.md)** — Life after prophylactic gastrectomy: CDH1 carriers often undergo total gastrectomy, then manage dumping syndrome with dietary changes—small meals and soluble fibre to slow the rapid emptying of food into the small intestine.
+- `connects-to` → **[Hepatic Lobule](../../05-tissue/hepatic-lobule/README.md)** — Liver metastasis: diffuse gastric cancer drains via the portal vein to seed the hepatic lobule, one of the sites—with bone and lung—that mark incurable spread.
+- `connects-to` → **[Cortical Bone](../../05-tissue/cortical-bone/README.md)** — Marrow and bone metastasis: signet-ring diffuse gastric cancer characteristically seeds diffuse osteoblastic and bone-marrow metastases, sometimes presenting as marrow failure.
+- `connects-to` → **[Alveolus](../../05-tissue/alveolus/README.md)** — Lung and pleural spread: diffuse gastric cancer can disseminate to the lungs and pleura (lymphangitic carcinomatosis), seeding the alveolar bed and causing breathlessness.
 
 [^van-der-post-2015-hdgc-guidelines]: van der Post RS, Vogelaar IP, Carneiro F, et al. Hereditary diffuse gastric cancer: updated clinical guidelines with an emphasis on germline CDH1 mutation carriers. *J Med Genet.* 2015;52(6):361-374. [doi:10.1136/jmedgenet-2015-103094](https://doi.org/10.1136/jmedgenet-2015-103094) · [PubMed 25979631](https://pubmed.ncbi.nlm.nih.gov/25979631/)
 [^hansford-2015-hdgc]: Hansford S, Kaurah P, Li-Chang H, et al. Hereditary Diffuse Gastric Cancer Syndrome: CDH1 Mutations and Beyond. *JAMA Oncol.* 2015;1(1):23-32. [doi:10.1001/jamaoncol.2014.168](https://doi.org/10.1001/jamaoncol.2014.168) · [PubMed 26182300](https://pubmed.ncbi.nlm.nih.gov/26182300/)
