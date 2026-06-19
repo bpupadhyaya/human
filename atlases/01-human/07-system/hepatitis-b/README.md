@@ -255,6 +255,15 @@ cross_links:
   - target: 01-human/07-system/follicular-lymphoma
     relation: connects-to
     note: "Rituximab can reactivate it: B-cell-depleting therapy for follicular and other lymphomas reactivates hepatitis B (sometimes fatally), and chronic HBV itself modestly raises non-Hodgkin lymphoma risk."
+  - target: 01-human/05-tissue/germinal-center
+    relation: connects-to
+    note: "Chronic antigen and lymphoma: persistent HBV drives sustained germinal-centre B-cell activation, contributing to the raised risk of B-cell lymphomas such as follicular lymphoma and DLBCL."
+  - target: 01-human/07-system/iga-nephropathy
+    relation: connects-to
+    note: "HBV and the kidney: chronic hepatitis B causes immune-complex glomerulonephritis—classically membranous, but also an IgA nephropathy—where viral antigen-antibody complexes deposit in the glomerulus."
+  - target: 01-human/07-system/pancreatic-cancer
+    relation: connects-to
+    note: "Beyond the liver: chronic HBV is associated with a modestly raised risk of pancreatic cancer and cholangiocarcinoma, reflecting the virus's reach across the hepatobiliary-pancreatic system."
 ---
 
 # Hepatitis B
@@ -469,3 +478,6 @@ HDV is a satellite RNA virus that requires HBsAg for virion assembly:
 - `connects-to` → **[Arterial Wall](../../05-tissue/arterial-wall/README.md)** — It can inflame the arteries: hepatitis B is a classic cause of polyarteritis nodosa, where viral immune complexes deposit in medium-sized artery walls and produce a necrotising vasculitis with aneurysms and organ infarcts.
 - `connects-to` → **[Inflammatory Bowel Disease](../inflammatory-bowel-disease/README.md)** — Immunosuppression reawakens it: anti-TNF biologics and other immunosuppressants used for inflammatory bowel disease can reactivate hepatitis B, so HBV screening and antiviral prophylaxis precede treatment.
 - `connects-to` → **[Follicular Lymphoma](../follicular-lymphoma/README.md)** — Rituximab can reactivate it: B-cell-depleting therapy for follicular and other lymphomas reactivates hepatitis B (sometimes fatally), and chronic HBV itself modestly raises non-Hodgkin lymphoma risk.
+- `connects-to` → **[Germinal Center](../../05-tissue/germinal-center/README.md)** — Chronic antigen and lymphoma: persistent HBV drives sustained germinal-centre B-cell activation, contributing to the raised risk of B-cell lymphomas such as follicular lymphoma and DLBCL.
+- `connects-to` → **[IgA Nephropathy](../iga-nephropathy/README.md)** — HBV and the kidney: chronic hepatitis B causes immune-complex glomerulonephritis—classically membranous, but also an IgA nephropathy—where viral antigen-antibody complexes deposit in the glomerulus.
+- `connects-to` → **[Pancreatic Cancer](../pancreatic-cancer/README.md)** — Beyond the liver: chronic HBV is associated with a modestly raised risk of pancreatic cancer and cholangiocarcinoma, reflecting the virus's reach across the hepatobiliary-pancreatic system.
