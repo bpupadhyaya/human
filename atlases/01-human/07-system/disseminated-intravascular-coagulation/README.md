@@ -256,6 +256,15 @@ cross_links:
   - target: 01-human/07-system/antiphospholipid-syndrome
     relation: connects-to
     note: "Catastrophic APS mimics it: catastrophic antiphospholipid syndrome causes widespread small-vessel thrombosis with consumption resembling DIC, a key differential demanding anticoagulation rather than factor replacement."
+  - target: 01-human/05-tissue/alveolus
+    relation: connects-to
+    note: "Pulmonary microthrombi: fibrin microthrombi clog the alveolar capillaries in DIC, worsening the hypoxaemia and ARDS of severe sepsis and amniotic-fluid embolism."
+  - target: 01-human/07-system/gastric-cancer
+    relation: connects-to
+    note: "Chronic compensated DIC (Trousseau): mucin-secreting adenocarcinomas like gastric and pancreatic cancer activate coagulation, causing chronic DIC and migratory thrombophlebitis."
+  - target: 01-human/05-tissue/myocardium
+    relation: connects-to
+    note: "Microthrombi injure the heart: widespread microvascular thrombosis and shock in DIC starve the myocardium, contributing to the cardiac dysfunction of multi-organ failure."
 ---
 
 # Disseminated Intravascular Coagulation
@@ -466,6 +475,9 @@ DIC is always **secondary** — it does not occur in isolation but as a conseque
 - `connects-to` → **[Cancer Chemotherapy](../../../03-medicine/01-modern/13-cancer/cancer-chemotherapy/README.md)** — Acute leukaemia both causes and cures it: acute promyelocytic leukaemia classically triggers life-threatening DIC, and treating it with ATRA and chemotherapy rapidly resolves the coagulopathy — while tumour lysis and other chemo can also provoke DIC.
 - `connects-to` → **[Hepatic Lobule](../../05-tissue/hepatic-lobule/README.md)** — The liver makes and loses the factors: DIC microthrombi injure the hepatic lobule, and because the liver synthesises clotting factors, hepatic failure both worsens and mimics the coagulopathy of DIC.
 - `connects-to` → **[Antiphospholipid Syndrome](../antiphospholipid-syndrome/README.md)** — Catastrophic APS mimics it: catastrophic antiphospholipid syndrome causes widespread small-vessel thrombosis with consumption resembling DIC, a key differential demanding anticoagulation rather than factor replacement.
+- `connects-to` → **[Alveolus](../../05-tissue/alveolus/README.md)** — Pulmonary microthrombi: fibrin microthrombi clog the alveolar capillaries in DIC, worsening the hypoxaemia and ARDS of severe sepsis and amniotic-fluid embolism.
+- `connects-to` → **[Gastric Cancer](../gastric-cancer/README.md)** — Chronic compensated DIC (Trousseau): mucin-secreting adenocarcinomas like gastric and pancreatic cancer activate coagulation, causing chronic DIC and migratory thrombophlebitis.
+- `connects-to` → **[Myocardium](../../05-tissue/myocardium/README.md)** — Microthrombi injure the heart: widespread microvascular thrombosis and shock in DIC starve the myocardium, contributing to the cardiac dysfunction of multi-organ failure.
 
 ---
 

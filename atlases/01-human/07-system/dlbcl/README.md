@@ -250,6 +250,15 @@ cross_links:
   - target: 01-human/05-tissue/myocardium
     relation: connects-to
     note: "Its cure can harm the heart: the anthracycline (doxorubicin) in R-CHOP causes dose-dependent cardiomyopathy, so cardiac function is monitored as DLBCL is treated for cure."
+  - target: 01-human/07-system/waldenstrom-macroglobulinemia
+    relation: connects-to
+    note: "Shared MYD88 driver: activated-B-cell DLBCL and Waldenström macroglobulinaemia both carry the MYD88 L265P mutation that switches on NF-κB, making BTK inhibitors active against both."
+  - target: 01-human/05-tissue/intestinal-epithelium
+    relation: connects-to
+    note: "The commonest extranodal site: DLBCL frequently arises in the gut, infiltrating the stomach and bowel mucosa and risking perforation when chemotherapy rapidly shrinks transmural tumour."
+  - target: 01-human/07-system/rheumatoid-arthritis
+    relation: connects-to
+    note: "Immunosuppression-associated lymphoma: chronic immune stimulation and methotrexate or biologic therapy in rheumatoid arthritis raise the risk of DLBCL, sometimes EBV-driven and reversible on stopping the drug."
 ---
 
 # Diffuse Large B-Cell Lymphoma
@@ -449,6 +458,9 @@ DLBCL is an aggressive malignancy of mature B cells. The normal equivalents are 
 - `connects-to` → **[Targeted Therapy](../../../03-medicine/01-modern/13-cancer/targeted-therapy/README.md)** — Antibodies beyond rituximab: polatuzumab vedotin (anti-CD79b ADC), CD20×CD3 bispecifics like epcoritamab, and BTK inhibitors for ABC-subtype DLBCL extend the targeted armamentarium beyond the rituximab that defined R-CHOP.
 - `connects-to` → **[Checkpoint Inhibitors](../../../03-medicine/01-modern/13-cancer/checkpoint-inhibitors/README.md)** — Some subtypes are checkpoint-sensitive: primary mediastinal and EBV-positive DLBCL carry 9p24 amplification and high PD-L1, responding to checkpoint blockade unlike most other diffuse large B-cell lymphomas.
 - `connects-to` → **[Myocardium](../../05-tissue/myocardium/README.md)** — Its cure can harm the heart: the anthracycline (doxorubicin) in R-CHOP causes dose-dependent cardiomyopathy, so cardiac function is monitored as DLBCL is treated for cure.
+- `connects-to` → **[Waldenström Macroglobulinemia](../waldenstrom-macroglobulinemia/README.md)** — Shared MYD88 driver: activated-B-cell DLBCL and Waldenström macroglobulinaemia both carry the MYD88 L265P mutation that switches on NF-κB, making BTK inhibitors active against both.
+- `connects-to` → **[Intestinal Epithelium](../../05-tissue/intestinal-epithelium/README.md)** — The commonest extranodal site: DLBCL frequently arises in the gut, infiltrating the stomach and bowel mucosa and risking perforation when chemotherapy rapidly shrinks transmural tumour.
+- `connects-to` → **[Rheumatoid Arthritis](../rheumatoid-arthritis/README.md)** — Immunosuppression-associated lymphoma: chronic immune stimulation and methotrexate or biologic therapy in rheumatoid arthritis raise the risk of DLBCL, sometimes EBV-driven and reversible on stopping the drug.
 
 ---
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
