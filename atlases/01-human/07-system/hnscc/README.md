@@ -268,6 +268,15 @@ cross_links:
   - target: 01-human/07-system/gvhd
     relation: connects-to
     note: "Oral cancer after transplant: chronic graft-versus-host disease of the mouth predisposes to oral squamous cell carcinoma, a late head-and-neck cancer in long-term transplant survivors."
+  - target: 01-human/03-molecular/notch
+    relation: connects-to
+    note: "Frequent tumour-suppressor loss: NOTCH1 is among the most commonly mutated genes in head and neck squamous cell carcinoma, usually inactivated to release its differentiation-promoting brake."
+  - target: 01-human/03-molecular/fgfr
+    relation: connects-to
+    note: "Targetable amplification: FGFR1 amplification and FGFR3 mutations occur in HNSCC, especially HPV-negative disease, marking a druggable receptor tyrosine kinase."
+  - target: 01-human/03-molecular/yap1
+    relation: connects-to
+    note: "Squamous oncogene: FAT1 loss and 11q22 amplification activate the Hippo effector YAP in HNSCC, driving the proliferation and stemness of these squamous tumours."
 ---
 
 # HNSCC
@@ -466,6 +475,9 @@ HPV+ oropharyngeal: Node staging based on number (not laterality); HPV-negative 
 - `connects-to` → **[Dermatomyositis](../dermatomyositis/README.md)** — A paraneoplastic flag: nasopharyngeal carcinoma is the head-and-neck cancer most tied to dermatomyositis (especially in East Asia), so a new diagnosis prompts a thorough cancer search.
 - `connects-to` → **[Aplastic Anemia](../aplastic-anemia/README.md)** — Cancer of DNA-repair failure: Fanconi anaemia patients develop head-and-neck SCC at strikingly young ages, the same DNA-repair defect causing their marrow failure sensitising the mucosa to carcinogens.
 - `connects-to` → **[GVHD](../gvhd/README.md)** — Oral cancer after transplant: chronic graft-versus-host disease of the mouth predisposes to oral squamous cell carcinoma, a late head-and-neck cancer in long-term transplant survivors.
+- `connects-to` → **[Notch](../../03-molecular/notch/README.md)** — Frequent tumour-suppressor loss: NOTCH1 is among the most commonly mutated genes in head and neck squamous cell carcinoma, usually inactivated to release its differentiation-promoting brake.
+- `connects-to` → **[FGFR](../../03-molecular/fgfr/README.md)** — Targetable amplification: FGFR1 amplification and FGFR3 mutations occur in HNSCC, especially HPV-negative disease, marking a druggable receptor tyrosine kinase.
+- `connects-to` → **[YAP1](../../03-molecular/yap1/README.md)** — Squamous oncogene: FAT1 loss and 11q22 amplification activate the Hippo effector YAP in HNSCC, driving the proliferation and stemness of these squamous tumours.
 
 [^burtness-2019-keynote048]: Burtness B, Harrington KJ, Greil R, et al. Pembrolizumab alone or with chemotherapy versus cetuximab with chemotherapy for recurrent or metastatic squamous cell carcinoma of the head and neck (KEYNOTE-048). *Lancet.* 2019;394(10212):1915-1928. [doi:10.1016/S0140-6736(19)32591-7](https://doi.org/10.1016/S0140-6736(19)32591-7) · [PubMed 31679945](https://pubmed.ncbi.nlm.nih.gov/31679945/)
 [^vermorken-2008-extreme]: Vermorken JB, Mesia R, Rivera F, et al. Platinum-based chemotherapy plus cetuximab in head and neck cancer. *N Engl J Med.* 2008;359(11):1116-1127. [doi:10.1056/NEJMoa0802656](https://doi.org/10.1056/NEJMoa0802656) · [PubMed 18784101](https://pubmed.ncbi.nlm.nih.gov/18784101/)

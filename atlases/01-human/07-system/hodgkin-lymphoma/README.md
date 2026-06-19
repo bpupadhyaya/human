@@ -268,6 +268,15 @@ cross_links:
   - target: 02-pathogen/04-parasites/leishmania-donovani
     relation: connects-to
     note: "A great mimic: visceral leishmaniasis causes fever, weight loss and massive splenomegaly that can mimic Hodgkin lymphoma, an infectious differential to consider in endemic areas."
+  - target: 02-pathogen/01-viruses/hiv-1
+    relation: connects-to
+    note: "Raised risk despite ART: unlike most cancers, Hodgkin lymphoma incidence is markedly increased in HIV infection, often EBV-driven, making it a key non-AIDS-defining malignancy."
+  - target: 01-human/04-cellular/plasma-cell
+    relation: connects-to
+    note: "Reactive microenvironment: Hodgkin lymphoma is dominated by a reactive infiltrate of plasma cells, T cells and eosinophils surrounding the rare malignant Reed-Sternberg cells."
+  - target: 01-human/07-system/gastric-cancer
+    relation: connects-to
+    note: "Late radiation cancer: survivors who received subdiaphragmatic radiation for Hodgkin lymphoma face an increased long-term risk of gastric cancer, a delayed treatment complication."
 ---
 
 # Hodgkin Lymphoma
@@ -473,6 +482,9 @@ Modern protocols minimize RT fields and doses (ISRT replacing extended-field RT)
 - `connects-to` → **[Atherosclerosis](../atherosclerosis/README.md)** — Radiation's late heart disease: mediastinal radiotherapy for Hodgkin lymphoma accelerates coronary atherosclerosis and valve disease over decades, a leading cause of late mortality in cured survivors.
 - `connects-to` → **[Glomerulus](../../05-tissue/glomerulus/README.md)** — Paraneoplastic kidney: Hodgkin lymphoma is the classic cause of paraneoplastic minimal-change nephrotic syndrome, the glomerulus leaking massive protein in response to lymphoma-derived cytokines.
 - `connects-to` → **[Leishmania donovani](../../../02-pathogen/04-parasites/leishmania-donovani/README.md)** — A great mimic: visceral leishmaniasis causes fever, weight loss and massive splenomegaly that can mimic Hodgkin lymphoma, an infectious differential to consider in endemic areas.
+- `connects-to` → **[HIV-1](../../../02-pathogen/01-viruses/hiv-1/README.md)** — Raised risk despite ART: unlike most cancers, Hodgkin lymphoma incidence is markedly increased in HIV infection, often EBV-driven, making it a key non-AIDS-defining malignancy.
+- `connects-to` → **[Plasma Cell](../../04-cellular/plasma-cell/README.md)** — Reactive microenvironment: Hodgkin lymphoma is dominated by a reactive infiltrate of plasma cells, T cells and eosinophils surrounding the rare malignant Reed-Sternberg cells.
+- `connects-to` → **[Gastric Cancer](../gastric-cancer/README.md)** — Late radiation cancer: survivors who received subdiaphragmatic radiation for Hodgkin lymphoma face an increased long-term risk of gastric cancer, a delayed treatment complication.
 
 [^connors-2018-echelon1]: Connors JM, Jurczak W, Straus DJ, et al. Brentuximab vedotin with chemotherapy for stage III or IV Hodgkin's lymphoma. *N Engl J Med.* 2018;378(4):331-344. [doi:10.1056/NEJMoa1708984](https://doi.org/10.1056/NEJMoa1708984) · [PubMed 29360494](https://pubmed.ncbi.nlm.nih.gov/29360494/)
 [^armand-2018-nivo-hl]: Armand P, Engert A, Younes A, et al. Nivolumab for relapsed/refractory classic Hodgkin lymphoma after failure of autologous hematopoietic cell transplantation: extended follow-up of the multicohort single-arm phase II CheckMate 205 trial. *J Clin Oncol.* 2018;36(14):1428-1439. [doi:10.1200/JCO.2017.77.6717](https://doi.org/10.1200/JCO.2017.77.6717) · [PubMed 29584546](https://pubmed.ncbi.nlm.nih.gov/29584546/)
