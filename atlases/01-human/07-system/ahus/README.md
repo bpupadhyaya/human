@@ -253,6 +253,15 @@ cross_links:
   - target: 01-human/05-tissue/myocardium
     relation: connects-to
     note: "Microthrombi reach the heart: aHUS is not kidney-limited — complement-driven microthrombi in the myocardial microvasculature cause cardiac ischaemia and dysfunction in a notable minority, contributing to its mortality."
+  - target: 01-human/07-system/inherited-thrombophilia
+    relation: connects-to
+    note: "Complement versus coagulation thrombosis: atypical haemolytic uraemic syndrome thromboses the microvasculature through uncontrolled complement, contrasting with the coagulation-factor defects of inherited thrombophilia—two genetic routes to clotting."
+  - target: 01-human/07-system/covid-19-disease
+    relation: connects-to
+    note: "A virus that can trigger it: severe COVID-19 activates complement and injures the endothelium, precipitating a thrombotic microangiopathy resembling aHUS in susceptible patients."
+  - target: 01-human/05-tissue/alveolus
+    relation: connects-to
+    note: "It is not only renal: although aHUS is a renal-predominant thrombotic microangiopathy, uncontrolled complement can also injure the pulmonary alveolar-capillary bed, causing extrarenal lung involvement in severe disease."
 ---
 
 # Atypical HUS
@@ -493,6 +502,9 @@ Repeated TMA episodes → glomerular fibrosis → CKD → ESRD
 - `connects-to` → **[Targeted Therapy](../../../03-medicine/01-modern/13-cancer/targeted-therapy/README.md)** — Complement blockade transformed it: the anti-C5 monoclonals eculizumab and ravulizumab halt the uncontrolled alternative-complement activation of aHUS, preventing the microthrombi and rescuing the kidney where plasma exchange once failed.
 - `connects-to` → **[Arterial Wall](../../05-tissue/arterial-wall/README.md)** — It thickens small arteries: the thrombotic microangiopathy of aHUS injures arteriolar and capillary walls, producing the onion-skin intimal swelling and luminal narrowing of renal arterioles characteristic of TMA.
 - `connects-to` → **[Myocardium](../../05-tissue/myocardium/README.md)** — Microthrombi reach the heart: aHUS is not kidney-limited — complement-driven microthrombi in the myocardial microvasculature cause cardiac ischaemia and dysfunction in a notable minority, contributing to its mortality.
+- `connects-to` → **[Inherited Thrombophilia](../inherited-thrombophilia/README.md)** — Complement versus coagulation thrombosis: atypical haemolytic uraemic syndrome thromboses the microvasculature through uncontrolled complement, contrasting with the coagulation-factor defects of inherited thrombophilia—two genetic routes to clotting.
+- `connects-to` → **[COVID-19 Disease](../covid-19-disease/README.md)** — A virus that can trigger it: severe COVID-19 activates complement and injures the endothelium, precipitating a thrombotic microangiopathy resembling aHUS in susceptible patients.
+- `connects-to` → **[Alveolus](../../05-tissue/alveolus/README.md)** — It is not only renal: although aHUS is a renal-predominant thrombotic microangiopathy, uncontrolled complement can also injure the pulmonary alveolar-capillary bed, causing extrarenal lung involvement in severe disease.
 
 [^fakhouri-2017-ahus-lancet]: Fakhouri F, Zuber J, Frémeaux-Bacchi V, Loirat C. Haemolytic uraemic syndrome. *Lancet.* 2017;390(10095):681-696. [doi:10.1016/S0140-6736(17)30062-4](https://doi.org/10.1016/S0140-6736(17)30062-4) · [PubMed 28242109](https://pubmed.ncbi.nlm.nih.gov/28242109/)
 [^legendre-2013-eculizumab-ahus-nejm]: Legendre CM, Licht C, Muus P, et al. Terminal complement inhibitor eculizumab in atypical hemolytic-uremic syndrome. *N Engl J Med.* 2013;368(23):2169-2181. [doi:10.1056/NEJMoa1208981](https://doi.org/10.1056/NEJMoa1208981) · [PubMed 23738544](https://pubmed.ncbi.nlm.nih.gov/23738544/)
