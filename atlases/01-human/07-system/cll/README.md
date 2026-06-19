@@ -250,6 +250,15 @@ cross_links:
   - target: 01-human/07-system/aml
     relation: connects-to
     note: "Chronic lymphoid versus acute myeloid: CLL is an indolent accumulation of mature B-cells often watched for years, whereas AML is an explosive proliferation of myeloid blasts demanding urgent therapy — the slow and fast extremes of leukaemia."
+  - target: 01-human/07-system/burkitt-lymphoma
+    relation: connects-to
+    note: "Opposite tempos of B-cell cancer: CLL is the most indolent mature B-cell malignancy, accumulating cells over years, whereas Burkitt lymphoma is the fastest-growing human tumour—the extremes of the B-cell spectrum."
+  - target: 01-human/07-system/multiple-myeloma
+    relation: connects-to
+    note: "Two clonal B-lineage cancers of the marrow: CLL accumulates mature B-lymphocytes while multiple myeloma accumulates antibody-secreting plasma cells, distinct stops along B-cell maturation."
+  - target: 01-human/05-tissue/hepatic-lobule
+    relation: connects-to
+    note: "It infiltrates the liver: CLL cells pack the portal tracts of the hepatic lobule, contributing to the hepatomegaly and organ infiltration of advanced disease."
 ---
 
 # CLL
@@ -440,6 +449,9 @@ BCR cross-linking → LYN (SRC kinase) phosphorylates CD79a/b ITAMs → SYK recr
 - `connects-to` → **[Cancer Chemotherapy](../../../03-medicine/01-modern/13-cancer/cancer-chemotherapy/README.md)** — From chemo to targeted era: the old FCR regimen — fludarabine, cyclophosphamide and rituximab — cured some fit CLL patients but is now largely replaced by BTK and BCL-2 inhibitors that spare cytotoxic toxicity.
 - `connects-to` → **[CAR-T](../../../03-medicine/01-modern/13-cancer/car-t/README.md)** — Engineered cells for refractory disease: CD19-directed CAR-T achieves remissions in CLL that has failed BTK and BCL-2 inhibitors, extending cellular immunotherapy to the commonest adult leukaemia.
 - `connects-to` → **[AML](../aml/README.md)** — Chronic lymphoid versus acute myeloid: CLL is an indolent accumulation of mature B-cells often watched for years, whereas AML is an explosive proliferation of myeloid blasts demanding urgent therapy — the slow and fast extremes of leukaemia.
+- `connects-to` → **[Burkitt Lymphoma](../burkitt-lymphoma/README.md)** — Opposite tempos of B-cell cancer: CLL is the most indolent mature B-cell malignancy, accumulating cells over years, whereas Burkitt lymphoma is the fastest-growing human tumour—the extremes of the B-cell spectrum.
+- `connects-to` → **[Multiple Myeloma](../multiple-myeloma/README.md)** — Two clonal B-lineage cancers of the marrow: CLL accumulates mature B-lymphocytes while multiple myeloma accumulates antibody-secreting plasma cells, distinct stops along B-cell maturation.
+- `connects-to` → **[Hepatic Lobule](../../05-tissue/hepatic-lobule/README.md)** — It infiltrates the liver: CLL cells pack the portal tracts of the hepatic lobule, contributing to the hepatomegaly and organ infiltration of advanced disease.
 
 ---
 

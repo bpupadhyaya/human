@@ -258,6 +258,15 @@ cross_links:
   - target: 01-human/07-system/systemic-lupus-erythematosus
     relation: connects-to
     note: "Systemic autoimmunity can drive it: SLE and other connective-tissue diseases occasionally produce a CIDP-like demyelinating polyneuropathy, part of the autoimmune company CIDP keeps alongside Sjögren's and vasculitis."
+  - target: 01-human/05-tissue/germinal-center
+    relation: connects-to
+    note: "Where the autoantibodies form: CIDP's myelin- and nodal-protein-targeting antibodies arise from germinal-centre B-cell responses, the rationale for B-cell-depleting and FcRn-blocking therapy."
+  - target: 01-human/07-system/rheumatoid-arthritis
+    relation: connects-to
+    note: "A drug-induced trigger: anti-TNF therapy given for rheumatoid arthritis can paradoxically provoke a CIDP-like demyelinating neuropathy, an iatrogenic route into the disease."
+  - target: 01-human/07-system/inflammatory-bowel-disease
+    relation: connects-to
+    note: "Shared autoimmune ground: CIDP is over-represented in inflammatory bowel disease, both through shared immune dysregulation and through the demyelination that TNF inhibitors used for IBD can provoke."
 ---
 
 # CIDP
@@ -480,6 +489,9 @@ IgG4 anti-NF155 or anti-CNTN1 disrupts this complex → paranodal loop detachmen
 - `connects-to` → **[Targeted Therapy](../../../03-medicine/01-modern/13-cancer/targeted-therapy/README.md)** — New targeted immunotherapies arrive: the anti-FcRn agent efgartigimod, which strips pathogenic IgG, is now approved for CIDP, and rituximab against B cells treats refractory and antibody-mediated nodopathy subtypes.
 - `connects-to` → **[Axonal Transport](../../05-tissue/axonal-transport/README.md)** — Chronic demyelination starves the axon: repeated de- and remyelination in CIDP eventually causes secondary axonal degeneration with impaired axonal transport, the substrate of the permanent disability that immunotherapy cannot reverse.
 - `connects-to` → **[Systemic Lupus Erythematosus](../systemic-lupus-erythematosus/README.md)** — Systemic autoimmunity can drive it: SLE and other connective-tissue diseases occasionally produce a CIDP-like demyelinating polyneuropathy, part of the autoimmune company CIDP keeps alongside Sjögren's and vasculitis.
+- `connects-to` → **[Germinal Center](../../05-tissue/germinal-center/README.md)** — Where the autoantibodies form: CIDP's myelin- and nodal-protein-targeting antibodies arise from germinal-centre B-cell responses, the rationale for B-cell-depleting and FcRn-blocking therapy.
+- `connects-to` → **[Rheumatoid Arthritis](../rheumatoid-arthritis/README.md)** — A drug-induced trigger: anti-TNF therapy given for rheumatoid arthritis can paradoxically provoke a CIDP-like demyelinating neuropathy, an iatrogenic route into the disease.
+- `connects-to` → **[Inflammatory Bowel Disease](../inflammatory-bowel-disease/README.md)** — Shared autoimmune ground: CIDP is over-represented in inflammatory bowel disease, both through shared immune dysregulation and through the demyelination that TNF inhibitors used for IBD can provoke.
 
 ---
 
