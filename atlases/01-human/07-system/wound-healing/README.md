@@ -256,6 +256,15 @@ cross_links:
   - target: 01-human/05-tissue/myocardium
     relation: connects-to
     note: "The heart heals by scarring: after a myocardial infarction the dead myocardium is replaced by a collagen scar through the same fibroblast-driven repair as skin, since adult cardiomyocytes cannot regenerate."
+  - target: 01-human/07-system/inflammatory-bowel-disease
+    relation: connects-to
+    note: "Mucosal healing as the goal: in inflammatory bowel disease, achieving wound healing of the ulcerated gut lining—'mucosal healing'—is the modern treatment endpoint that predicts durable remission and fewer complications."
+  - target: 01-human/07-system/pancreatic-cancer
+    relation: connects-to
+    note: "Tumours as wounds that never heal: cancers like pancreatic adenocarcinoma hijack the wound-healing programme—angiogenesis, fibroblast activation and immune suppression—to build their desmoplastic stroma, Dvorak's classic insight."
+  - target: 01-human/05-tissue/alveolus
+    relation: connects-to
+    note: "Aberrant repair scars the lung: pulmonary fibrosis is dysregulated wound healing in the alveolus, where repeated injury drives fibroblast-myofibroblast scarring instead of restoring the thin gas-exchange surface."
 ---
 
 # Wound Healing
@@ -454,6 +463,9 @@ cross_links:
 - `connects-to` → **[Cortical Bone](../../05-tissue/cortical-bone/README.md)** — Fracture repair is wound healing of bone: a broken bone runs the same haemostasis-inflammation-proliferation-remodelling cascade, replacing the haematoma with a cartilaginous then bony callus instead of a fibrous scar.
 - `connects-to` → **[Type 1 Diabetes](../type-1-diabetes/README.md)** — Diabetes cripples repair: hyperglycaemia in type 1 (as in type 2) diabetes impairs every phase of wound healing—poor angiogenesis, dysfunctional neutrophils and neuropathy—producing the chronic diabetic foot ulcers that are a leading cause of amputation.
 - `connects-to` → **[Myocardium](../../05-tissue/myocardium/README.md)** — The heart heals by scarring: after a myocardial infarction the dead myocardium is replaced by a collagen scar through the same fibroblast-driven repair as skin, since adult cardiomyocytes cannot regenerate.
+- `connects-to` → **[Inflammatory Bowel Disease](../inflammatory-bowel-disease/README.md)** — Mucosal healing as the goal: in inflammatory bowel disease, achieving wound healing of the ulcerated gut lining—'mucosal healing'—is the modern treatment endpoint that predicts durable remission and fewer complications.
+- `connects-to` → **[Pancreatic Cancer](../pancreatic-cancer/README.md)** — Tumours as wounds that never heal: cancers like pancreatic adenocarcinoma hijack the wound-healing programme—angiogenesis, fibroblast activation and immune suppression—to build their desmoplastic stroma, Dvorak's classic insight.
+- `connects-to` → **[Alveolus](../../05-tissue/alveolus/README.md)** — Aberrant repair scars the lung: pulmonary fibrosis is dysregulated wound healing in the alveolus, where repeated injury drives fibroblast-myofibroblast scarring instead of restoring the thin gas-exchange surface.
 
 [^singer-1999-wound-healing-review]: Singer AJ, Clark RA. Cutaneous wound healing. *N Engl J Med.* 1999;341(10):738-746. [doi:10.1056/NEJM199909023411006](https://doi.org/10.1056/NEJM199909023411006) · [PubMed 10471461](https://pubmed.ncbi.nlm.nih.gov/10471461/)
 [^gurtner-2008-wound-repair-regeneration]: Gurtner GC, Werner S, Barrandon Y, Longaker MT. Wound repair and regeneration. *Nature.* 2008;453(7193):314-321. [doi:10.1038/nature07039](https://doi.org/10.1038/nature07039) · [PubMed 18480812](https://pubmed.ncbi.nlm.nih.gov/18480812/)

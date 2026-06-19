@@ -250,6 +250,15 @@ cross_links:
   - target: 01-human/07-system/mesothelioma
     relation: connects-to
     note: "The gene named for a kidney tumour marks a pleural one: WT1, mutated in Wilms tumour, is a defining immunohistochemical marker of mesothelioma (and serous ovarian cancer), distinguishing it from its mimics."
+  - target: 01-human/05-tissue/hepatic-lobule
+    relation: connects-to
+    note: "Beyond lung metastasis: Wilms tumour also spreads to the liver, seeding the hepatic lobules; like hepatoblastoma it is an embryonal childhood tumour, both over-represented in Beckwith-Wiedemann overgrowth."
+  - target: 01-human/07-system/polycythemia-vera
+    relation: connects-to
+    note: "A paraneoplastic polycythaemia: some Wilms tumours secrete erythropoietin, raising the red-cell mass and resolving on resection—an acquired, tumour-driven echo of the JAK2-driven erythrocytosis of polycythaemia vera."
+  - target: 01-human/05-tissue/myocardium
+    relation: connects-to
+    note: "Tumour reaches the heart, treatment harms it: Wilms tumour thrombus can extend up the IVC into the right atrium, while the anthracycline chemotherapy that cures it can leave survivors with a late cardiomyopathy of the myocardium."
 ---
 
 # Wilms Tumor
@@ -456,6 +465,9 @@ Wilms tumor survivors face late effects proportional to treatment intensity:
 - `connects-to` → **[Alveolus](../../05-tissue/alveolus/README.md)** — It spreads to the lungs: Wilms tumour metastasises preferentially to the lungs, so chest imaging stages disease and pulmonary metastases guide intensified chemotherapy and sometimes whole-lung radiation.
 - `connects-to` → **[AML](../aml/README.md)** — One gene, opposite roles: WT1 is the tumour-suppressor driver of Wilms tumour, yet it is overexpressed in acute myeloid leukaemia, where it serves as a minimal-residual-disease marker and an immunotherapy and vaccine target.
 - `connects-to` → **[Mesothelioma](../mesothelioma/README.md)** — The gene named for a kidney tumour marks a pleural one: WT1, mutated in Wilms tumour, is a defining immunohistochemical marker of mesothelioma (and serous ovarian cancer), distinguishing it from its mimics.
+- `connects-to` → **[Hepatic Lobule](../../05-tissue/hepatic-lobule/README.md)** — Beyond lung metastasis: Wilms tumour also spreads to the liver, seeding the hepatic lobules; like hepatoblastoma it is an embryonal childhood tumour, both over-represented in Beckwith-Wiedemann overgrowth.
+- `connects-to` → **[Polycythemia Vera](../polycythemia-vera/README.md)** — A paraneoplastic polycythaemia: some Wilms tumours secrete erythropoietin, raising the red-cell mass and resolving on resection—an acquired, tumour-driven echo of the JAK2-driven erythrocytosis of polycythaemia vera.
+- `connects-to` → **[Myocardium](../../05-tissue/myocardium/README.md)** — Tumour reaches the heart, treatment harms it: Wilms tumour thrombus can extend up the IVC into the right atrium, while the anthracycline chemotherapy that cures it can leave survivors with a late cardiomyopathy of the myocardium.
 
 [^dome-2015-wilms]: Dome JS, Graf N, Geller JI, et al. Advances in Wilms tumor treatment and biology: progress through international collaboration. *J Clin Oncol.* 2015;33(27):2999-3007. [doi:10.1200/JCO.2015.62.1888](https://doi.org/10.1200/JCO.2015.62.1888) · [PubMed 26261251](https://pubmed.ncbi.nlm.nih.gov/26261251/)
 [^dix-2006-arenl0002]: Dix DB, Bhatt SM, Geller JI, et al. Treatment of Stage IV favorable histology Wilms tumor with incomplete lung metastasis response after chemotherapy: a report from Children's Oncology Group Study AREN0533. *J Clin Oncol.* 2018;36(16):1564-1570. [doi:10.1200/JCO.2017.77.1877](https://doi.org/10.1200/JCO.2017.77.1877) · [PubMed 29584550](https://pubmed.ncbi.nlm.nih.gov/29584550/)
