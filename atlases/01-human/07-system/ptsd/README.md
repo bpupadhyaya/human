@@ -279,6 +279,15 @@ cross_links:
   - target: 01-human/05-tissue/intestinal-epithelium
     relation: connects-to
     note: "The gut-brain axis in trauma: PTSD alters the microbiome and intestinal barrier, the epithelium mediating stress-related GI symptoms and low-grade inflammation that feed back to the traumatised brain."
+  - target: 01-human/03-molecular/il-1b
+    relation: connects-to
+    note: "Neuroinflammation: elevated IL-1β from activated microglia is linked to the fear-circuit dysfunction and memory consolidation abnormalities of PTSD."
+  - target: 01-human/03-molecular/tnf-alpha
+    relation: connects-to
+    note: "Inflammatory signature: raised TNF-α is among the peripheral inflammatory markers consistently found in PTSD, tying chronic stress to systemic low-grade inflammation."
+  - target: 01-human/03-molecular/nlrp3-inflammasome
+    relation: connects-to
+    note: "Stress inflammasome: chronic stress activates the NLRP3 inflammasome, and its IL-1β output is increasingly implicated in the neuroinflammatory component of PTSD."
 ---
 
 # PTSD
@@ -501,6 +510,9 @@ Not all trauma leads to PTSD. Risk and resilience factors include:
 - `connects-to` → **[Cardiac Conduction System](../../05-tissue/cardiac-conduction-system/README.md)** — Autonomic toll: PTSD's chronic sympathetic overdrive reduces heart-rate variability and raises arrhythmia and sudden-cardiac-death risk, the conduction-system consequence of a perpetually activated stress response.
 - `connects-to` → **[Epilepsy](../epilepsy/README.md)** — Trauma and seizures: psychogenic nonepileptic seizures are strongly tied to trauma and PTSD and are the key differential of epilepsy, while PTSD and epilepsy are also bidirectionally associated.
 - `connects-to` → **[Intestinal Epithelium](../../05-tissue/intestinal-epithelium/README.md)** — The gut-brain axis in trauma: PTSD alters the microbiome and intestinal barrier, the epithelium mediating stress-related GI symptoms and low-grade inflammation that feed back to the traumatised brain.
+- `connects-to` → **[IL-1β](../../03-molecular/il-1b/README.md)** — Neuroinflammation: elevated IL-1β from activated microglia is linked to the fear-circuit dysfunction and memory consolidation abnormalities of PTSD.
+- `connects-to` → **[TNF-α](../../03-molecular/tnf-alpha/README.md)** — Inflammatory signature: raised TNF-α is among the peripheral inflammatory markers consistently found in PTSD, tying chronic stress to systemic low-grade inflammation.
+- `connects-to` → **[NLRP3 Inflammasome](../../03-molecular/nlrp3-inflammasome/README.md)** — Stress inflammasome: chronic stress activates the NLRP3 inflammasome, and its IL-1β output is increasingly implicated in the neuroinflammatory component of PTSD.
 
 [^yehuda-2015-ptsd-review]: Yehuda R, Hoge CW, McFarlane AC, et al. Post-traumatic stress disorder. *Nat Rev Dis Primers.* 2015;1:15057. [doi:10.1038/nrdp.2015.57](https://doi.org/10.1038/nrdp.2015.57) · [PubMed 27189040](https://pubmed.ncbi.nlm.nih.gov/27189040/)
 [^foa-2019-ptsd-treatments]: Foa EB, McLean CP. The efficacy of exposure therapy for anxiety and related disorders. *Annu Rev Clin Psychol.* 2016;12:1-28. [doi:10.1146/annurev-clinpsy-021815-093533](https://doi.org/10.1146/annurev-clinpsy-021815-093533) · [PubMed 26928206](https://pubmed.ncbi.nlm.nih.gov/26928206/)

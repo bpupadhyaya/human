@@ -277,6 +277,15 @@ cross_links:
   - target: 01-human/07-system/covid-19-disease
     relation: connects-to
     note: "Flares and immunosuppression: COVID-19 and its vaccines can trigger psoriasis flares, while the biologics that control it raised questions about infection risk during the pandemic."
+  - target: 01-human/03-molecular/il-1b
+    relation: connects-to
+    note: "Innate amplifier: IL-1β released by keratinocytes and myeloid cells helps ignite the IL-23/IL-17 axis, linking innate immune activation to the inflammatory loop of psoriasis."
+  - target: 01-human/03-molecular/nlrp3-inflammasome
+    relation: connects-to
+    note: "Inflammasome trigger: NLRP3-inflammasome activation in psoriatic skin drives IL-1β maturation, with the autoantigen LL-37 among the signals that prime this innate response."
+  - target: 01-human/03-molecular/hif-1alpha
+    relation: connects-to
+    note: "Hypoxic plaques: thickened, hyperproliferative psoriatic epidermis becomes hypoxic, stabilising HIF-1α to drive the VEGF angiogenesis and metabolic shift of the lesions."
 ---
 
 # Psoriasis
@@ -478,6 +487,9 @@ Differential: Seborrheic dermatitis (common), pityriasis rosea (herald patch, Ch
 - `connects-to` → **[PTCL](../ptcl/README.md)** — A great mimic: cutaneous T-cell lymphoma (mycosis fungoides) produces scaly erythematous plaques that imitate psoriasis and is sometimes mistreated as it for years, a malignant differential to keep in mind.
 - `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — Dermal angiogenesis: psoriatic plaques are richly vascularised through VEGF-driven new vessel growth in the dermal papillae, the basis of the pinpoint bleeding (Auspitz sign) when a scale is removed.
 - `connects-to` → **[COVID-19 Disease](../covid-19-disease/README.md)** — Flares and immunosuppression: COVID-19 and its vaccines can trigger psoriasis flares, while the biologics that control it raised questions about infection risk during the pandemic.
+- `connects-to` → **[IL-1β](../../03-molecular/il-1b/README.md)** — Innate amplifier: IL-1β released by keratinocytes and myeloid cells helps ignite the IL-23/IL-17 axis, linking innate immune activation to the inflammatory loop of psoriasis.
+- `connects-to` → **[NLRP3 Inflammasome](../../03-molecular/nlrp3-inflammasome/README.md)** — Inflammasome trigger: NLRP3-inflammasome activation in psoriatic skin drives IL-1β maturation, with the autoantigen LL-37 among the signals that prime this innate response.
+- `connects-to` → **[HIF-1α](../../03-molecular/hif-1alpha/README.md)** — Hypoxic plaques: thickened, hyperproliferative psoriatic epidermis becomes hypoxic, stabilising HIF-1α to drive the VEGF angiogenesis and metabolic shift of the lesions.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
