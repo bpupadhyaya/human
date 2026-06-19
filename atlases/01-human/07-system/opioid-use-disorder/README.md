@@ -283,6 +283,15 @@ cross_links:
   - target: 01-human/07-system/stroke
     relation: connects-to
     note: "Emboli and hypoxia: septic emboli from injection-related endocarditis cause ischaemic and mycotic-aneurysm strokes, while opioid overdose can leave hypoxic-ischaemic brain injury."
+  - target: 01-human/03-molecular/tnf-alpha
+    relation: connects-to
+    note: "Glial neuroinflammation: opioids activate microglia to release TNF-α, neuroinflammation that paradoxically worsens pain (hyperalgesia) and drives tolerance and dependence."
+  - target: 01-human/03-molecular/il-6
+    relation: connects-to
+    note: "Inflammatory signalling: chronic opioid exposure raises IL-6, contributing to the glial activation and immune dysregulation that accompany dependence and withdrawal."
+  - target: 01-human/03-molecular/cortisol
+    relation: connects-to
+    note: "Stress axis in withdrawal: opioid withdrawal activates the HPA axis with surging cortisol, driving the dysphoria and physiological distress that fuel relapse."
 ---
 
 # Opioid Use Disorder
@@ -526,6 +535,9 @@ The primary mechanism by which opioids produce euphoria:
 - `connects-to` → **[Tuberculosis](../tuberculosis/README.md)** — Injection, homelessness and TB: injection drug use, congregate housing and HIV coinfection raise the risk of tuberculosis and complicate adherence to its long treatment.
 - `connects-to` → **[Glomerulus](../../05-tissue/glomerulus/README.md)** — Heroin nephropathy: chronic injection drug use causes a collapsing FSGS-like glomerulopathy and, with skin-popping, AA amyloidosis—both injuring the glomerulus toward kidney failure.
 - `connects-to` → **[Stroke](../stroke/README.md)** — Emboli and hypoxia: septic emboli from injection-related endocarditis cause ischaemic and mycotic-aneurysm strokes, while opioid overdose can leave hypoxic-ischaemic brain injury.
+- `connects-to` → **[TNF-α](../../03-molecular/tnf-alpha/README.md)** — Glial neuroinflammation: opioids activate microglia to release TNF-α, neuroinflammation that paradoxically worsens pain (hyperalgesia) and drives tolerance and dependence.
+- `connects-to` → **[IL-6](../../03-molecular/il-6/README.md)** — Inflammatory signalling: chronic opioid exposure raises IL-6, contributing to the glial activation and immune dysregulation that accompany dependence and withdrawal.
+- `connects-to` → **[Cortisol](../../03-molecular/cortisol/README.md)** — Stress axis in withdrawal: opioid withdrawal activates the HPA axis with surging cortisol, driving the dysphoria and physiological distress that fuel relapse.
 
 [^volkow-2016-opioid-crisis]: Volkow ND, Collins FS. The role of science in addressing the opioid crisis. *N Engl J Med.* 2017;377(4):391-394. [doi:10.1056/NEJMsr1706626](https://doi.org/10.1056/NEJMsr1706626) · [PubMed 28723324](https://pubmed.ncbi.nlm.nih.gov/28723324/)
 [^mattick-2009-bupe-meta]: Mattick RP, Breen C, Kimber J, Davoli M. Buprenorphine maintenance versus placebo or methadone maintenance for opioid dependence. *Cochrane Database Syst Rev.* 2014;2:CD002207. [doi:10.1002/14651858.CD002207.pub4](https://doi.org/10.1002/14651858.CD002207.pub4) · [PubMed 24500948](https://pubmed.ncbi.nlm.nih.gov/24500948/)
