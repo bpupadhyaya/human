@@ -268,6 +268,15 @@ cross_links:
   - target: 01-human/07-system/cholangiocarcinoma
     relation: connects-to
     note: "Not only hepatocellular cancer: NASH raises the risk of intrahepatic cholangiocarcinoma as well as hepatocellular carcinoma, broadening the cancer spectrum of the cirrhotic fatty liver."
+  - target: 01-human/05-tissue/cardiac-conduction-system
+    relation: connects-to
+    note: "Fatty liver and atrial fibrillation: NAFLD/NASH independently raises the risk of atrial fibrillation through systemic inflammation and cardiac fibrosis, beyond the metabolic risk factors it shares with arrhythmia."
+  - target: 01-human/07-system/covid-19-disease
+    relation: connects-to
+    note: "A metabolic risk amplifier: NAFLD/MAFLD is an independent risk factor for severe COVID-19, its inflammatory, insulin-resistant milieu worsening outcomes during infection."
+  - target: 01-human/05-tissue/intestinal-epithelium
+    relation: connects-to
+    note: "The gut-liver axis: a leaky intestinal epithelium and dysbiosis deliver bacterial endotoxin to the liver through the portal vein, driving the inflammation that turns simple steatosis into NASH."
 ---
 
 # NASH
@@ -440,6 +449,9 @@ NASH pathogenesis is driven by multiple simultaneous and sequential hits, not a 
 - `connects-to` → **[Hepatitis B](../hepatitis-b/README.md)** — Two hits on one liver: coexisting hepatitis B and fatty-liver disease compound hepatocyte injury, accelerating fibrosis and raising hepatocellular-carcinoma risk beyond either alone.
 - `connects-to` → **[Myocardium](../../05-tissue/myocardium/README.md)** — A heart at risk: NAFLD/NASH independently associates with cardiac structural change—left-ventricular hypertrophy and diastolic dysfunction of the myocardium—beyond the shared metabolic risk factors.
 - `connects-to` → **[Cholangiocarcinoma](../cholangiocarcinoma/README.md)** — Not only hepatocellular cancer: NASH raises the risk of intrahepatic cholangiocarcinoma as well as hepatocellular carcinoma, broadening the cancer spectrum of the cirrhotic fatty liver.
+- `connects-to` → **[Cardiac Conduction System](../../05-tissue/cardiac-conduction-system/README.md)** — Fatty liver and atrial fibrillation: NAFLD/NASH independently raises the risk of atrial fibrillation through systemic inflammation and cardiac fibrosis, beyond the metabolic risk factors it shares with arrhythmia.
+- `connects-to` → **[COVID-19 Disease](../covid-19-disease/README.md)** — A metabolic risk amplifier: NAFLD/MAFLD is an independent risk factor for severe COVID-19, its inflammatory, insulin-resistant milieu worsening outcomes during infection.
+- `connects-to` → **[Intestinal Epithelium](../../05-tissue/intestinal-epithelium/README.md)** — The gut-liver axis: a leaky intestinal epithelium and dysbiosis deliver bacterial endotoxin to the liver through the portal vein, driving the inflammation that turns simple steatosis into NASH.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 

@@ -262,6 +262,15 @@ cross_links:
   - target: 01-human/07-system/breast-cancer
     relation: connects-to
     note: "A mimic to exclude: marrow infiltration by metastatic cancer such as breast cancer causes reactive fibrosis and a leukoerythroblastic blood film that can imitate primary myelofibrosis."
+  - target: 01-human/03-molecular/von-willebrand-factor
+    relation: connects-to
+    note: "Bleeding amid clotting: high platelet counts in myelofibrosis can adsorb and clear high-molecular-weight von Willebrand multimers, causing an acquired von Willebrand syndrome and paradoxical bleeding in a prothrombotic disease."
+  - target: 01-human/07-system/inherited-thrombophilia
+    relation: connects-to
+    note: "Layered thrombotic risk: myelofibrosis is an acquired JAK2-driven prothrombotic state prone to splanchnic-vein thrombosis, a risk amplified when an inherited thrombophilia coexists."
+  - target: 01-human/05-tissue/peripheral-nerve
+    relation: connects-to
+    note: "Extramedullary haematopoiesis: blood-forming tissue colonises sites outside the marrow in myelofibrosis, and masses of epidural EMH can compress the spinal cord and nerve roots, a rare neurological emergency."
 ---
 
 # Myelofibrosis
@@ -471,6 +480,9 @@ Abrupt ruxolitinib cessation → cytokine rebound → fever, splenomegaly surge,
 - `connects-to` → **[GvHD](../gvhd/README.md)** — The only cure, and its cost: allogeneic stem-cell transplant is the sole curative therapy for myelofibrosis, but graft-versus-host disease is a major source of its transplant-related mortality.
 - `connects-to` → **[Alveolus](../../05-tissue/alveolus/README.md)** — Hidden in the lungs: extramedullary haematopoiesis and microvascular megakaryocyte emboli in myelofibrosis can lodge in the alveolar capillaries, contributing to the pulmonary hypertension that worsens prognosis.
 - `connects-to` → **[Breast Cancer](../breast-cancer/README.md)** — A mimic to exclude: marrow infiltration by metastatic cancer such as breast cancer causes reactive fibrosis and a leukoerythroblastic blood film that can imitate primary myelofibrosis.
+- `connects-to` → **[Von Willebrand Factor](../../03-molecular/von-willebrand-factor/README.md)** — Bleeding amid clotting: high platelet counts in myelofibrosis can adsorb and clear high-molecular-weight von Willebrand multimers, causing an acquired von Willebrand syndrome and paradoxical bleeding in a prothrombotic disease.
+- `connects-to` → **[Inherited Thrombophilia](../inherited-thrombophilia/README.md)** — Layered thrombotic risk: myelofibrosis is an acquired JAK2-driven prothrombotic state prone to splanchnic-vein thrombosis, a risk amplified when an inherited thrombophilia coexists.
+- `connects-to` → **[Peripheral Nerve](../../05-tissue/peripheral-nerve/README.md)** — Extramedullary haematopoiesis: blood-forming tissue colonises sites outside the marrow in myelofibrosis, and masses of epidural EMH can compress the spinal cord and nerve roots, a rare neurological emergency.
 
 ---
 
