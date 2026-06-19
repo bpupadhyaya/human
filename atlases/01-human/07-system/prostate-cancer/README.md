@@ -250,6 +250,15 @@ cross_links:
   - target: 03-medicine/01-modern/13-cancer/checkpoint-inhibitors
     relation: connects-to
     note: "A largely cold tumour: most prostate cancers respond poorly to PD-1 checkpoint blockade owing to low mutational burden and sparse T-cell infiltrate, with benefit limited to the rare MSI-high or dMMR tumours."
+  - target: 01-human/07-system/ovarian-cancer
+    relation: connects-to
+    note: "Shared BRCA vulnerability: BRCA2-mutant prostate cancer, like high-grade serous ovarian cancer, carries homologous-recombination deficiency and responds to PARP inhibitors, placing both in the HBOC spectrum."
+  - target: 01-human/07-system/sclc
+    relation: connects-to
+    note: "It can transform to a small-cell cancer: under androgen-receptor blockade, prostate cancer can switch to treatment-emergent neuroendocrine/small-cell carcinoma with RB1 and p53 loss, resembling and treated like small-cell lung cancer."
+  - target: 01-human/05-tissue/arterial-wall
+    relation: connects-to
+    note: "Its hormone therapy hits the arteries: androgen-deprivation therapy accelerates metabolic syndrome and atherosclerosis of the arterial wall, making cardiovascular disease a leading cause of death in treated prostate cancer."
 ---
 
 # Prostate Cancer
@@ -454,6 +463,9 @@ cross_links:
 - `connects-to` → **[Cancer Chemotherapy](../../../03-medicine/01-modern/13-cancer/cancer-chemotherapy/README.md)** — Taxanes for castration-resistant disease: docetaxel and cabazitaxel chemotherapy prolong survival in metastatic prostate cancer once it escapes hormonal control, used alongside androgen-pathway inhibitors.
 - `connects-to` → **[Cortical Bone](../../05-tissue/cortical-bone/README.md)** — It seeds the skeleton with dense bone: prostate cancer characteristically makes osteoblastic (sclerotic) bone metastases driving pain and fractures, treated with radium-223, denosumab and bisphosphonates targeting the bone.
 - `connects-to` → **[Checkpoint Inhibitors](../../../03-medicine/01-modern/13-cancer/checkpoint-inhibitors/README.md)** — A largely cold tumour: most prostate cancers respond poorly to PD-1 checkpoint blockade owing to low mutational burden and sparse T-cell infiltrate, with benefit limited to the rare MSI-high or dMMR tumours.
+- `connects-to` → **[Ovarian Cancer](../ovarian-cancer/README.md)** — Shared BRCA vulnerability: BRCA2-mutant prostate cancer, like high-grade serous ovarian cancer, carries homologous-recombination deficiency and responds to PARP inhibitors, placing both in the HBOC spectrum.
+- `connects-to` → **[SCLC](../sclc/README.md)** — It can transform to a small-cell cancer: under androgen-receptor blockade, prostate cancer can switch to treatment-emergent neuroendocrine/small-cell carcinoma with RB1 and p53 loss, resembling and treated like small-cell lung cancer.
+- `connects-to` → **[Arterial Wall](../../05-tissue/arterial-wall/README.md)** — Its hormone therapy hits the arteries: androgen-deprivation therapy accelerates metabolic syndrome and atherosclerosis of the arterial wall, making cardiovascular disease a leading cause of death in treated prostate cancer.
 
 [^beer-2014-prevail]: Beer TM, Armstrong AJ, Rathkopf D, et al. Enzalutamide in metastatic prostate cancer before chemotherapy. *N Engl J Med.* 2014;371(5):424-433. [doi:10.1056/NEJMoa1405095](https://doi.org/10.1056/NEJMoa1405095) · [PubMed 24881730](https://pubmed.ncbi.nlm.nih.gov/24881730/)
 [^sartor-2021-vision]: Sartor O, de Bono J, Chi KN, et al. Lutetium-PSMA-617 for metastatic castration-resistant prostate cancer. *N Engl J Med.* 2021;385(12):1091-1103. [doi:10.1056/NEJMoa2107322](https://doi.org/10.1056/NEJMoa2107322) · [PubMed 34161051](https://pubmed.ncbi.nlm.nih.gov/34161051/)

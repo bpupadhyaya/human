@@ -250,6 +250,15 @@ cross_links:
   - target: 01-human/05-tissue/arterial-wall
     relation: connects-to
     note: "Skin inflammation reaches the arteries: the systemic inflammation of psoriasis accelerates atherosclerosis of the arterial wall — the 'psoriatic march' — raising cardiovascular risk independent of traditional factors."
+  - target: 01-human/07-system/multiple-sclerosis
+    relation: connects-to
+    note: "A caution for its TNF blockers: the anti-TNF biologics used for psoriasis can unmask or worsen demyelination, so multiple sclerosis contraindicates them—and paradoxically anti-TNF therapy can itself induce psoriasis."
+  - target: 01-human/07-system/iga-nephropathy
+    relation: connects-to
+    note: "A skin-kidney axis: psoriasis is associated with IgA nephropathy through shared mucosal IL-17/IL-23 immunity, and its TNF-inhibitor therapy can also trigger IgAN."
+  - target: 01-human/07-system/hepatitis-b
+    relation: connects-to
+    note: "Immunosuppression reawakens the virus: TNF inhibitors and methotrexate used for psoriasis can reactivate hepatitis B and are hepatotoxic, so HBV screening precedes systemic therapy."
 ---
 
 # Psoriasis
@@ -442,6 +451,9 @@ Differential: Seborrheic dermatitis (common), pityriasis rosea (herald patch, Ch
 - `connects-to` → **[Targeted Therapy](../../../03-medicine/01-modern/13-cancer/targeted-therapy/README.md)** — Cytokine-targeted biologics transformed it: monoclonals against IL-17 and IL-23 (secukinumab, guselkumab), anti-TNF, and oral TYK2/JAK inhibitors now clear severe psoriasis by blocking the IL-23/IL-17 axis that drives it.
 - `connects-to` → **[Cancer Chemotherapy](../../../03-medicine/01-modern/13-cancer/cancer-chemotherapy/README.md)** — Methotrexate is the classic systemic DMARD: low-dose methotrexate, a chemotherapy antimetabolite, has long treated extensive psoriasis and psoriatic arthritis, used before or alongside the newer biologics.
 - `connects-to` → **[Arterial Wall](../../05-tissue/arterial-wall/README.md)** — Skin inflammation reaches the arteries: the systemic inflammation of psoriasis accelerates atherosclerosis of the arterial wall — the 'psoriatic march' — raising cardiovascular risk independent of traditional factors.
+- `connects-to` → **[Multiple Sclerosis](../multiple-sclerosis/README.md)** — A caution for its TNF blockers: the anti-TNF biologics used for psoriasis can unmask or worsen demyelination, so multiple sclerosis contraindicates them—and paradoxically anti-TNF therapy can itself induce psoriasis.
+- `connects-to` → **[IgA Nephropathy](../iga-nephropathy/README.md)** — A skin-kidney axis: psoriasis is associated with IgA nephropathy through shared mucosal IL-17/IL-23 immunity, and its TNF-inhibitor therapy can also trigger IgAN.
+- `connects-to` → **[Hepatitis B](../hepatitis-b/README.md)** — Immunosuppression reawakens the virus: TNF inhibitors and methotrexate used for psoriasis can reactivate hepatitis B and are hepatotoxic, so HBV screening precedes systemic therapy.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
