@@ -268,6 +268,15 @@ cross_links:
   - target: 01-human/05-tissue/glomerulus
     relation: connects-to
     note: "Tumour-lysis nephropathy: the rapid blast turnover of AML induction floods the blood with urate and phosphate that precipitate in the kidney, injuring the glomerulus and tubules into acute kidney injury."
+  - target: 01-human/07-system/idh-mutant-glioma
+    relation: connects-to
+    note: "A shared oncometabolite: IDH1/IDH2-mutant AML and IDH-mutant glioma both produce 2-hydroxyglutarate that reprograms the epigenome, and both are now treated with the same IDH inhibitors—one drug class across blood and brain cancer."
+  - target: 01-human/07-system/stroke
+    relation: connects-to
+    note: "Leukostasis emergency: extreme blast counts in AML make the blood sludge, obstructing cerebral and pulmonary microvessels to cause stroke-like deficits and respiratory failure that demand urgent cytoreduction."
+  - target: 01-human/07-system/gout
+    relation: connects-to
+    note: "Tumour-lysis hyperuricaemia: the massive cell turnover of AML treatment releases a flood of urate that overlaps with gout's crystal disease and threatens the kidney unless pre-empted with rasburicase or allopurinol."
 ---
 
 # AML
@@ -462,6 +471,9 @@ AML requires cooperative mutations in at least 2 functional categories (Gillilan
 - `connects-to` → **[Breast Cancer](../breast-cancer/README.md)** — Therapy-related AML: the alkylators and topoisomerase-II inhibitors used to cure solid tumours like breast cancer can seed a secondary, poor-prognosis AML years later—a dark side of cytotoxic chemotherapy.
 - `connects-to` → **[Alveolus](../../05-tissue/alveolus/README.md)** — Pulmonary leukostasis: in hyperleukocytic AML, blast cells plug the alveolar capillaries, causing acute hypoxaemic respiratory failure—a haematologic emergency needing urgent cytoreduction.
 - `connects-to` → **[Glomerulus](../../05-tissue/glomerulus/README.md)** — Tumour-lysis nephropathy: the rapid blast turnover of AML induction floods the blood with urate and phosphate that precipitate in the kidney, injuring the glomerulus and tubules into acute kidney injury.
+- `connects-to` → **[IDH-Mutant Glioma](../idh-mutant-glioma/README.md)** — A shared oncometabolite: IDH1/IDH2-mutant AML and IDH-mutant glioma both produce 2-hydroxyglutarate that reprograms the epigenome, and both are now treated with the same IDH inhibitors—one drug class across blood and brain cancer.
+- `connects-to` → **[Stroke](../stroke/README.md)** — Leukostasis emergency: extreme blast counts in AML make the blood sludge, obstructing cerebral and pulmonary microvessels to cause stroke-like deficits and respiratory failure that demand urgent cytoreduction.
+- `connects-to` → **[Gout](../gout/README.md)** — Tumour-lysis hyperuricaemia: the massive cell turnover of AML treatment releases a flood of urate that overlaps with gout's crystal disease and threatens the kidney unless pre-empted with rasburicase or allopurinol.
 
 [^dinardo-2020-viale-a]: DiNardo CD, Jonas BA, Pullarkat V, et al. Azacitidine and venetoclax in previously untreated acute myeloid leukemia. *N Engl J Med.* 2020;383(7):617-629. [doi:10.1056/NEJMoa2012971](https://doi.org/10.1056/NEJMoa2012971) · [PubMed 32786187](https://pubmed.ncbi.nlm.nih.gov/32786187/)
 [^stone-2017-midostaurin]: Stone RM, Mandrekar SJ, Sanford BL, et al. Midostaurin plus chemotherapy for acute myeloid leukemia with a FLT3 mutation. *N Engl J Med.* 2017;377(5):454-464. [doi:10.1056/NEJMoa1614359](https://doi.org/10.1056/NEJMoa1614359) · [PubMed 28644114](https://pubmed.ncbi.nlm.nih.gov/28644114/)

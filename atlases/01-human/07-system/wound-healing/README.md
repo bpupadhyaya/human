@@ -265,6 +265,15 @@ cross_links:
   - target: 01-human/05-tissue/alveolus
     relation: connects-to
     note: "Aberrant repair scars the lung: pulmonary fibrosis is dysregulated wound healing in the alveolus, where repeated injury drives fibroblast-myofibroblast scarring instead of restoring the thin gas-exchange surface."
+  - target: 01-human/05-tissue/arterial-wall
+    relation: connects-to
+    note: "Granulation needs new vessels: wound healing depends on VEGF-driven angiogenesis to build the capillary-rich granulation tissue, and poor arterial perfusion as in peripheral artery disease stalls repair into chronic non-healing wounds."
+  - target: 01-human/05-tissue/hepatic-lobule
+    relation: connects-to
+    note: "The regeneration paradigm: the liver is the body's premier regenerating organ, and the same wound-healing programmes that restore the hepatic lobule after injury, when chronic, lay down the scar of cirrhosis."
+  - target: 01-human/03-molecular/fgfr
+    relation: connects-to
+    note: "Growth-factor drive: FGF signalling through FGFR spurs the keratinocyte proliferation, angiogenesis and fibroblast activation of wound repair, one of the core pathways re-epithelialising and rebuilding injured tissue."
 ---
 
 # Wound Healing
@@ -466,6 +475,9 @@ cross_links:
 - `connects-to` → **[Inflammatory Bowel Disease](../inflammatory-bowel-disease/README.md)** — Mucosal healing as the goal: in inflammatory bowel disease, achieving wound healing of the ulcerated gut lining—'mucosal healing'—is the modern treatment endpoint that predicts durable remission and fewer complications.
 - `connects-to` → **[Pancreatic Cancer](../pancreatic-cancer/README.md)** — Tumours as wounds that never heal: cancers like pancreatic adenocarcinoma hijack the wound-healing programme—angiogenesis, fibroblast activation and immune suppression—to build their desmoplastic stroma, Dvorak's classic insight.
 - `connects-to` → **[Alveolus](../../05-tissue/alveolus/README.md)** — Aberrant repair scars the lung: pulmonary fibrosis is dysregulated wound healing in the alveolus, where repeated injury drives fibroblast-myofibroblast scarring instead of restoring the thin gas-exchange surface.
+- `connects-to` → **[Arterial Wall](../../05-tissue/arterial-wall/README.md)** — Granulation needs new vessels: wound healing depends on VEGF-driven angiogenesis to build the capillary-rich granulation tissue, and poor arterial perfusion as in peripheral artery disease stalls repair into chronic non-healing wounds.
+- `connects-to` → **[Hepatic Lobule](../../05-tissue/hepatic-lobule/README.md)** — The regeneration paradigm: the liver is the body's premier regenerating organ, and the same wound-healing programmes that restore the hepatic lobule after injury, when chronic, lay down the scar of cirrhosis.
+- `connects-to` → **[FGFR](../../03-molecular/fgfr/README.md)** — Growth-factor drive: FGF signalling through FGFR spurs the keratinocyte proliferation, angiogenesis and fibroblast activation of wound repair, one of the core pathways re-epithelialising and rebuilding injured tissue.
 
 [^singer-1999-wound-healing-review]: Singer AJ, Clark RA. Cutaneous wound healing. *N Engl J Med.* 1999;341(10):738-746. [doi:10.1056/NEJM199909023411006](https://doi.org/10.1056/NEJM199909023411006) · [PubMed 10471461](https://pubmed.ncbi.nlm.nih.gov/10471461/)
 [^gurtner-2008-wound-repair-regeneration]: Gurtner GC, Werner S, Barrandon Y, Longaker MT. Wound repair and regeneration. *Nature.* 2008;453(7193):314-321. [doi:10.1038/nature07039](https://doi.org/10.1038/nature07039) · [PubMed 18480812](https://pubmed.ncbi.nlm.nih.gov/18480812/)
