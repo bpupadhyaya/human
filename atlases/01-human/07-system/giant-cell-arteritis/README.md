@@ -259,6 +259,15 @@ cross_links:
   - target: 01-human/03-molecular/fibrinogen
     relation: connects-to
     note: "The sky-high ESR: acute-phase fibrinogen produced in the inflammation of GCA drives the markedly raised ESR and CRP that are central to its diagnosis and monitoring."
+  - target: 01-human/07-system/mds
+    relation: connects-to
+    note: "Clonal inflammation in older men: VEXAS syndrome and other clonal myeloid diseases (MDS) can present with a giant-cell-arteritis-like large-vessel vasculitis, blurring autoinflammation and myeloid neoplasia."
+  - target: 02-pathogen/01-viruses/varicella-zoster-virus
+    relation: connects-to
+    note: "A debated trigger and a treatment risk: varicella-zoster virus has been controversially implicated in giant-cell arteritis, and the steroid/IL-6 immunosuppression that treats it reactivates VZV as shingles."
+  - target: 01-human/07-system/covid-19-disease
+    relation: connects-to
+    note: "Shared IL-6 biology: COVID-19 and giant-cell arteritis both feature IL-6-driven inflammation (both treated with tocilizumab), and de novo GCA and flares have been reported after infection or vaccination."
 ---
 
 # Giant Cell Arteritis
@@ -454,6 +463,9 @@ The temporal arteries supply scalp, temporalis muscle, and dura. In GCA, transmu
 - `connects-to` → **[Myocardium](../../05-tissue/myocardium/README.md)** — Coronary and aortic involvement: giant-cell arteritis inflames large arteries including the aorta and coronaries, causing aortitis with aneurysm and, rarely, myocardial ischaemia.
 - `connects-to` → **[Cortical Bone](../../05-tissue/cortical-bone/README.md)** — Steroids thin the bone: the prolonged high-dose glucocorticoids needed to control GCA cause osteoporosis and fracture, a major iatrogenic harm driving steroid-sparing tocilizumab use.
 - `connects-to` → **[Fibrinogen](../../03-molecular/fibrinogen/README.md)** — The sky-high ESR: acute-phase fibrinogen produced in the inflammation of GCA drives the markedly raised ESR and CRP that are central to its diagnosis and monitoring.
+- `connects-to` → **[MDS](../mds/README.md)** — Clonal inflammation in older men: VEXAS syndrome and other clonal myeloid diseases (MDS) can present with a giant-cell-arteritis-like large-vessel vasculitis, blurring autoinflammation and myeloid neoplasia.
+- `connects-to` → **[Varicella-Zoster Virus](../../../02-pathogen/01-viruses/varicella-zoster-virus/README.md)** — A debated trigger and a treatment risk: varicella-zoster virus has been controversially implicated in giant-cell arteritis, and the steroid/IL-6 immunosuppression that treats it reactivates VZV as shingles.
+- `connects-to` → **[COVID-19 Disease](../covid-19-disease/README.md)** — Shared IL-6 biology: COVID-19 and giant-cell arteritis both feature IL-6-driven inflammation (both treated with tocilizumab), and de novo GCA and flares have been reported after infection or vaccination.
 
 [^stone-2017-giact]: Stone JH, Tuckwell K, Dimonaco S, et al. Trial of tocilizumab in giant-cell arteritis. *N Engl J Med.* 2017;377(4):317-328. [doi:10.1056/NEJMoa1613849](https://doi.org/10.1056/NEJMoa1613849) · [PubMed 28745999](https://pubmed.ncbi.nlm.nih.gov/28745999/)
 [^weyand-2014-gca-review]: Weyand CM, Goronzy JJ. Clinical practice. Giant-cell arteritis and polymyalgia rheumatica. *N Engl J Med.* 2014;371(1):50-57. [doi:10.1056/NEJMcp1214926](https://doi.org/10.1056/NEJMcp1214926) · [PubMed 24988557](https://pubmed.ncbi.nlm.nih.gov/24988557/)

@@ -259,6 +259,15 @@ cross_links:
   - target: 01-human/03-molecular/erk1-2
     relation: connects-to
     note: "KIT's downstream switch: the mutant KIT and PDGFRA receptors of GIST signal through the MAPK/ERK pathway, the proliferative effector that imatinib and successor inhibitors shut off."
+  - target: 01-human/07-system/neuroendocrine-tumors
+    relation: connects-to
+    note: "Two submucosal gut tumours: GISTs (KIT-driven, from interstitial cells of Cajal) and gastrointestinal neuroendocrine tumours both present as submucosal masses but arise from different cells and need different therapy."
+  - target: 01-human/05-tissue/cardiac-conduction-system
+    relation: connects-to
+    note: "Pacemaker cells of two organs: GIST arises from the interstitial cells of Cajal—the gut's electrical pacemaker—conceptually paralleling the cardiac conduction system that paces the heart."
+  - target: 01-human/05-tissue/alveolus
+    relation: connects-to
+    note: "Uncommon distant spread: although GIST metastasises mainly to the liver and peritoneum, advanced disease can reach the lungs and bone, unusual sites for this sarcoma."
 ---
 
 # GIST
@@ -470,6 +479,9 @@ No approved targeted therapy; sunitinib may have modest activity; clinical trial
 - `connects-to` → **[Hepatic Lobule](../../05-tissue/hepatic-lobule/README.md)** — Liver is the dominant metastatic site: GIST spreads within the abdomen, seeding the hepatic lobule and peritoneum, the pattern that defines advanced disease and drives lifelong imatinib.
 - `connects-to` → **[Renal Cell Carcinoma](../renal-cell-carcinoma/README.md)** — Shared SDH loss: SDH-deficient GIST (Carney-Stratakis) and SDH-deficient renal cell carcinoma both arise from succinate-dehydrogenase failure, a metabolic route to two very different tumours.
 - `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — KIT's downstream switch: the mutant KIT and PDGFRA receptors of GIST signal through the MAPK/ERK pathway, the proliferative effector that imatinib and successor inhibitors shut off.
+- `connects-to` → **[Neuroendocrine Tumors](../neuroendocrine-tumors/README.md)** — Two submucosal gut tumours: GISTs (KIT-driven, from interstitial cells of Cajal) and gastrointestinal neuroendocrine tumours both present as submucosal masses but arise from different cells and need different therapy.
+- `connects-to` → **[Cardiac Conduction System](../../05-tissue/cardiac-conduction-system/README.md)** — Pacemaker cells of two organs: GIST arises from the interstitial cells of Cajal—the gut's electrical pacemaker—conceptually paralleling the cardiac conduction system that paces the heart.
+- `connects-to` → **[Alveolus](../../05-tissue/alveolus/README.md)** — Uncommon distant spread: although GIST metastasises mainly to the liver and peritoneum, advanced disease can reach the lungs and bone, unusual sites for this sarcoma.
 
 ---
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
