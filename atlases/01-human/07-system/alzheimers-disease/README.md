@@ -253,6 +253,15 @@ cross_links:
   - target: 01-human/05-tissue/arterial-wall
     relation: connects-to
     note: "Amyloid lines the cerebral vessels: in cerebral amyloid angiopathy, amyloid-beta deposits in the arterial wall of cortical vessels, weakening them and causing the lobar haemorrhages and microbleeds common in Alzheimer's."
+  - target: 01-human/07-system/als
+    relation: connects-to
+    note: "Overlapping proteinopathies: TDP-43 aggregates that define ALS-frontotemporal disease also appear in limbic-predominant age-related TDP-43 encephalopathy and many Alzheimer's brains, blurring the boundary between the neurodegenerations."
+  - target: 01-human/07-system/huntingtons-disease
+    relation: connects-to
+    note: "Two faces of neurodegeneration: Alzheimer's is a sporadic amyloid-and-tau dementia of late life, while Huntington's is a monogenic CAG-repeat disease striking midlife—different drivers converging on protein aggregation and neuronal loss."
+  - target: 01-human/07-system/schizophrenia
+    relation: connects-to
+    note: "Complement-driven synapse loss in both: Alzheimer's and schizophrenia share microglial, complement-mediated pruning of synapses and neuroinflammation, and late-life psychosis blurs into Alzheimer's despite their different ages of onset."
 ---
 
 # Alzheimer's Disease
@@ -430,6 +439,9 @@ Microglia play a central, dual role in AD:
 - `connects-to` → **[Targeted Therapy](../../../03-medicine/01-modern/13-cancer/targeted-therapy/README.md)** — Anti-amyloid antibodies modify it: lecanemab and donanemab, monoclonal antibodies that clear amyloid-beta plaques, are the first disease-modifying Alzheimer's drugs, modestly slowing decline at the cost of brain-swelling and microhaemorrhage (ARIA).
 - `connects-to` → **[Axonal Transport](../../05-tissue/axonal-transport/README.md)** — Tau wrecks the axon's railway: hyperphosphorylated tau detaches from microtubules and forms neurofibrillary tangles, collapsing the axonal transport that supplies synapses — a core mechanism of neurodegeneration in Alzheimer's.
 - `connects-to` → **[Arterial Wall](../../05-tissue/arterial-wall/README.md)** — Amyloid lines the cerebral vessels: in cerebral amyloid angiopathy, amyloid-beta deposits in the arterial wall of cortical vessels, weakening them and causing the lobar haemorrhages and microbleeds common in Alzheimer's.
+- `connects-to` → **[ALS](../als/README.md)** — Overlapping proteinopathies: TDP-43 aggregates that define ALS-frontotemporal disease also appear in limbic-predominant age-related TDP-43 encephalopathy and many Alzheimer's brains, blurring the boundary between the neurodegenerations.
+- `connects-to` → **[Huntington's Disease](../huntingtons-disease/README.md)** — Two faces of neurodegeneration: Alzheimer's is a sporadic amyloid-and-tau dementia of late life, while Huntington's is a monogenic CAG-repeat disease striking midlife—different drivers converging on protein aggregation and neuronal loss.
+- `connects-to` → **[Schizophrenia](../schizophrenia/README.md)** — Complement-driven synapse loss in both: Alzheimer's and schizophrenia share microglial, complement-mediated pruning of synapses and neuroinflammation, and late-life psychosis blurs into Alzheimer's despite their different ages of onset.
 
 [^selkoe-2016-alzheimer]: Selkoe DJ, Hardy J. The amyloid hypothesis of Alzheimer's disease at 25 years. *EMBO Mol Med.* 2016;8(6):595-608. [doi:10.15252/emmm.201606210](https://doi.org/10.15252/emmm.201606210) · [PubMed 27025652](https://pubmed.ncbi.nlm.nih.gov/27025652/)
 [^jack-2018-nia-aa]: Jack CR Jr, Bennett DA, Blennow K, et al. NIA-AA Research Framework: Toward a biological definition of Alzheimer's disease. *Alzheimers Dement.* 2018;14(4):535-562. [doi:10.1016/j.jalz.2018.02.018](https://doi.org/10.1016/j.jalz.2018.02.018) · [PubMed 29653606](https://pubmed.ncbi.nlm.nih.gov/29653606/)

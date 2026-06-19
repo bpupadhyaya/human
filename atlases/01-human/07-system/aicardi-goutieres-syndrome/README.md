@@ -249,6 +249,15 @@ cross_links:
   - target: 01-human/05-tissue/arterial-wall
     relation: connects-to
     note: "Some forms attack the arteries: SAMHD1-related AGS causes a cerebral large-vessel vasculopathy with arterial-wall disease, aneurysms and moyamoya-like stenoses, adding stroke risk to the leukodystrophy."
+  - target: 01-human/05-tissue/glomerulus
+    relation: connects-to
+    note: "An SLE-like kidney overlap: as a monogenic type-I-interferonopathy that mimics lupus, Aicardi-Goutières (especially SAMHD1) can deposit immune complexes in the glomerulus, causing a lupus-like nephritis."
+  - target: 01-human/05-tissue/hepatic-lobule
+    relation: connects-to
+    note: "It mimics congenital infection in the liver: neonatal Aicardi-Goutières causes hepatosplenomegaly and a hepatitis with raised transaminases that imitate congenital CMV or toxoplasmosis, inflaming the hepatic lobule."
+  - target: 01-human/07-system/psoriasis
+    relation: connects-to
+    note: "A shared type-I-interferon signature: Aicardi-Goutières is the prototype interferonopathy with constitutive type-I-IFN, the same plasmacytoid-dendritic-cell IFN axis that helps initiate psoriasis—linking a brain disease to a skin one."
 ---
 
 # Aicardi-Goutières Syndrome
@@ -420,6 +429,9 @@ Severe early-onset AGS (TREX1 homozygous, RNASEH2A): death in childhood from res
 - `connects-to` → **[Targeted Therapy](../../../03-medicine/01-modern/13-cancer/targeted-therapy/README.md)** — JAK inhibitors quiet the interferon: because AGS is driven by excess type I interferon signalling, JAK inhibitors like baricitinib that block the JAK-STAT pathway reduce the interferon signature and can improve skin and systemic disease.
 - `connects-to` → **[Herpesvirus](../../../02-pathogen/01-viruses/herpesvirus/README.md)** — It mimics congenital CMV: AGS is a 'pseudo-TORCH' whose intracranial calcifications, CSF lymphocytosis and white-matter disease imitate congenital cytomegalovirus, the herpesvirus that is its central diagnostic differential.
 - `connects-to` → **[Arterial Wall](../../05-tissue/arterial-wall/README.md)** — Some forms attack the arteries: SAMHD1-related AGS causes a cerebral large-vessel vasculopathy with arterial-wall disease, aneurysms and moyamoya-like stenoses, adding stroke risk to the leukodystrophy.
+- `connects-to` → **[Glomerulus](../../05-tissue/glomerulus/README.md)** — An SLE-like kidney overlap: as a monogenic type-I-interferonopathy that mimics lupus, Aicardi-Goutières (especially SAMHD1) can deposit immune complexes in the glomerulus, causing a lupus-like nephritis.
+- `connects-to` → **[Hepatic Lobule](../../05-tissue/hepatic-lobule/README.md)** — It mimics congenital infection in the liver: neonatal Aicardi-Goutières causes hepatosplenomegaly and a hepatitis with raised transaminases that imitate congenital CMV or toxoplasmosis, inflaming the hepatic lobule.
+- `connects-to` → **[Psoriasis](../psoriasis/README.md)** — A shared type-I-interferon signature: Aicardi-Goutières is the prototype interferonopathy with constitutive type-I-IFN, the same plasmacytoid-dendritic-cell IFN axis that helps initiate psoriasis—linking a brain disease to a skin one.
 
 ---
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
