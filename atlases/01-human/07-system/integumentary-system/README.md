@@ -260,6 +260,15 @@ cross_links:
   - target: 01-human/07-system/sickle-cell-disease
     relation: connects-to
     note: "Skin as casualty of systemic disease: chronic, painful leg ulcers over the malleoli are a hard-to-heal complication of sickle cell disease, reflecting the skin's vulnerability to microvascular ischaemia."
+  - target: 01-human/07-system/covid-19-disease
+    relation: connects-to
+    note: "The skin as a window on infection: COVID-19 produces a range of cutaneous signs—chilblain-like 'COVID toes', urticarial, vesicular and maculopapular rashes—that reflect the systemic vascular and immune response."
+  - target: 01-human/07-system/ptcl
+    relation: connects-to
+    note: "Lymphoma born in the skin: primary cutaneous T-cell lymphomas like mycosis fungoides and Sézary syndrome arise in the integument itself, making the skin a primary site of lymphoid malignancy."
+  - target: 01-human/07-system/gvhd
+    relation: connects-to
+    note: "The first organ of GVHD: the skin is the earliest and commonest target of graft-versus-host disease, its rash and later sclerodermatous change central to diagnosing and grading the alloimmune attack."
 ---
 
 # Integumentary System
@@ -446,6 +455,9 @@ Wound healing is a precisely orchestrated process in four overlapping phases [^g
 - `connects-to` → **[HIV/AIDS](../hiv-aids/README.md)** — A barometer of immune status: HIV/AIDS produces a parade of skin diseases—Kaposi sarcoma, severe seborrhoea, eosinophilic folliculitis—the integument often the first signal of the underlying immunodeficiency.
 - `connects-to` → **[ANCA Vasculitis](../anca-vasculitis/README.md)** — Where vasculitis shows itself: small-vessel vasculitis like ANCA-associated disease announces itself in the skin as palpable purpura, making the integument a window onto systemic vascular inflammation.
 - `connects-to` → **[Sickle Cell Disease](../sickle-cell-disease/README.md)** — Skin as casualty of systemic disease: chronic, painful leg ulcers over the malleoli are a hard-to-heal complication of sickle cell disease, reflecting the skin's vulnerability to microvascular ischaemia.
+- `connects-to` → **[COVID-19 Disease](../covid-19-disease/README.md)** — The skin as a window on infection: COVID-19 produces a range of cutaneous signs—chilblain-like 'COVID toes', urticarial, vesicular and maculopapular rashes—that reflect the systemic vascular and immune response.
+- `connects-to` → **[PTCL](../ptcl/README.md)** — Lymphoma born in the skin: primary cutaneous T-cell lymphomas like mycosis fungoides and Sézary syndrome arise in the integument itself, making the skin a primary site of lymphoid malignancy.
+- `connects-to` → **[GVHD](../gvhd/README.md)** — The first organ of GVHD: the skin is the earliest and commonest target of graft-versus-host disease, its rash and later sclerodermatous change central to diagnosing and grading the alloimmune attack.
 
 ## Pathology
 

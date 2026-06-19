@@ -249,6 +249,15 @@ cross_links:
   - target: 01-human/07-system/fibromyalgia
     relation: connects-to
     note: "Deconditioning and pain: the inactivity, unrefreshing sleep and stress of internet gaming disorder overlap with fibromyalgia, sharing the dopaminergic and sleep dysregulation that amplify pain perception."
+  - target: 01-human/07-system/covid-19-disease
+    relation: connects-to
+    note: "A pandemic accelerant: COVID-19 lockdowns and isolation drove a sharp rise in gaming and screen time, accelerating problematic use and formalising internet gaming disorder as a public-health concern."
+  - target: 01-human/03-molecular/crh
+    relation: connects-to
+    note: "Stress-axis dysregulation: the craving and withdrawal of internet gaming disorder engage the HPA stress axis through CRH and cortisol, the same neuroendocrine stress circuitry seen across the addictions."
+  - target: 01-human/05-tissue/myocardium
+    relation: connects-to
+    note: "The sedentary heart: marathon gaming sessions impose prolonged immobility and cardiometabolic strain on the myocardium, with rare reports of fatal arrhythmia during extreme, sleepless play."
 sources:
   - id: kuss-2012-gaming-disorder-review
     type: peer-reviewed
@@ -500,6 +509,9 @@ A pattern of persistent or recurrent gaming behavior characterized by:
 - `connects-to` → **[Hypertension](../hypertension/README.md)** — Sedentary screen time raises pressure: the prolonged sitting, poor sleep and stress of internet gaming disorder contribute to weight gain and hypertension, part of its cardio-metabolic toll.
 - `connects-to` → **[Leptin](../../03-molecular/leptin/README.md)** — Reward and appetite collide: internet gaming disorder is linked to disrupted leptin signalling and weight gain, as long sedentary sessions and reward-driven snacking blunt the satiety hormone that normally curbs eating.
 - `connects-to` → **[Fibromyalgia](../fibromyalgia/README.md)** — Deconditioning and pain: the inactivity, unrefreshing sleep and stress of internet gaming disorder overlap with fibromyalgia, sharing the dopaminergic and sleep dysregulation that amplify pain perception.
+- `connects-to` → **[COVID-19 Disease](../covid-19-disease/README.md)** — A pandemic accelerant: COVID-19 lockdowns and isolation drove a sharp rise in gaming and screen time, accelerating problematic use and formalising internet gaming disorder as a public-health concern.
+- `connects-to` → **[CRH](../../03-molecular/crh/README.md)** — Stress-axis dysregulation: the craving and withdrawal of internet gaming disorder engage the HPA stress axis through CRH and cortisol, the same neuroendocrine stress circuitry seen across the addictions.
+- `connects-to` → **[Myocardium](../../05-tissue/myocardium/README.md)** — The sedentary heart: marathon gaming sessions impose prolonged immobility and cardiometabolic strain on the myocardium, with rare reports of fatal arrhythmia during extreme, sleepless play.
 
 [^kuss-2012-gaming-disorder-review]: Kuss DJ, Griffiths MD. Internet gaming addiction: a systematic review of empirical research. *Int J Ment Health Addict.* 2012;10(2):278-296. [doi:10.1007/s11469-011-9318-5](https://doi.org/10.1007/s11469-011-9318-5)
 [^who-icd11-gaming-disorder]: World Health Organization. ICD-11: Gaming Disorder (6C51). Geneva: WHO; 2019. [icd.who.int](https://icd.who.int/browse/2025-01/mms/en#1448597234)
