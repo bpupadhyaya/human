@@ -258,6 +258,15 @@ cross_links:
   - target: 01-human/07-system/obsessive-compulsive-disorder
     relation: connects-to
     note: "Anxiety-spectrum comorbidity: fibromyalgia is over-represented alongside obsessive-compulsive and other anxiety disorders, sharing the serotonergic and stress-axis dysregulation that links central pain to anxiety."
+  - target: 01-human/03-molecular/npy
+    relation: connects-to
+    note: "Pain and autonomic dysregulation: altered neuropeptide Y signalling is implicated in the pain processing and autonomic dysfunction of fibromyalgia."
+  - target: 01-human/03-molecular/leptin
+    relation: connects-to
+    note: "Adiposity and pain: leptin, elevated in obesity, correlates with fibromyalgia pain severity, linking adipose-driven inflammation to central sensitisation."
+  - target: 01-human/03-molecular/il-1b
+    relation: connects-to
+    note: "Neuroinflammation: IL-1β and inflammasome activation contribute to the central neuroinflammation increasingly implicated in fibromyalgia."
 sources:
   - id: wolfe-2016-fibromyalgia-criteria
     type: peer-reviewed
@@ -498,6 +507,9 @@ FM is not a single-etiology disorder but a convergent syndrome resulting from th
 - `connects-to` → **[Intestinal Epithelium](../../05-tissue/intestinal-epithelium/README.md)** — The IBS overlap: fibromyalgia coexists strongly with irritable bowel syndrome, sharing central sensitisation and gut-brain dysregulation at the intestinal epithelium and barrier, so the two are best treated together.
 - `connects-to` → **[Cardiac Conduction System](../../05-tissue/cardiac-conduction-system/README.md)** — Dysautonomia: fibromyalgia frequently features autonomic dysfunction with orthostatic intolerance, POTS and reduced heart-rate variability, reflecting dysregulated autonomic control of the cardiac conduction system.
 - `connects-to` → **[Obsessive-Compulsive Disorder](../obsessive-compulsive-disorder/README.md)** — Anxiety-spectrum comorbidity: fibromyalgia is over-represented alongside obsessive-compulsive and other anxiety disorders, sharing the serotonergic and stress-axis dysregulation that links central pain to anxiety.
+- `connects-to` → **[NPY](../../03-molecular/npy/README.md)** — Pain and autonomic dysregulation: altered neuropeptide Y signalling is implicated in the pain processing and autonomic dysfunction of fibromyalgia.
+- `connects-to` → **[Leptin](../../03-molecular/leptin/README.md)** — Adiposity and pain: leptin, elevated in obesity, correlates with fibromyalgia pain severity, linking adipose-driven inflammation to central sensitisation.
+- `connects-to` → **[IL-1β](../../03-molecular/il-1b/README.md)** — Neuroinflammation: IL-1β and inflammasome activation contribute to the central neuroinflammation increasingly implicated in fibromyalgia.
 
 [^wolfe-2016-fibromyalgia-criteria]: Wolfe F, Clauw DJ, Fitzcharles MA, et al. 2016 Revisions to the 2010/2011 fibromyalgia diagnostic criteria. *Semin Arthritis Rheum.* 2016;46(3):319-329. [doi:10.1016/j.semarthrit.2016.08.012](https://doi.org/10.1016/j.semarthrit.2016.08.012) · [PubMed 27916278](https://pubmed.ncbi.nlm.nih.gov/27916278/)
 [^clauw-2014-fibromyalgia-review]: Clauw DJ. Fibromyalgia: a clinical review. *JAMA.* 2014;311(15):1547-1555. [doi:10.1001/jama.2014.3266](https://doi.org/10.1001/jama.2014.3266) · [PubMed 24737367](https://pubmed.ncbi.nlm.nih.gov/24737367/)

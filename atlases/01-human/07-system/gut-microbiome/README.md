@@ -271,6 +271,15 @@ cross_links:
   - target: 01-human/07-system/hcc
     relation: connects-to
     note: "The gut-liver axis to cancer: dysbiosis and bacterial-product translocation through the portal vein inflame the liver and, via NASH and cirrhosis, contribute to hepatocellular carcinoma."
+  - target: 01-human/03-molecular/glp-1
+    relation: connects-to
+    note: "SCFA-driven incretin: short-chain fatty acids produced by gut bacteria stimulate enteroendocrine GLP-1 secretion, linking the microbiome to appetite and glucose control."
+  - target: 01-human/04-cellular/b-cell
+    relation: connects-to
+    note: "Shaping mucosal antibodies: the gut microbiome drives the development of mucosal B cells and their secretory IgA, tuning the antibody repertoire that polices the gut."
+  - target: 01-human/07-system/fibromyalgia
+    relation: connects-to
+    note: "Gut-brain pain axis: gut dysbiosis is increasingly implicated in fibromyalgia, with altered microbiome composition linked to its central pain and fatigue through the gut-brain axis."
 ---
 
 # Gut Microbiome
@@ -433,6 +442,9 @@ The microbiome influences CNS function via multiple pathways:
 - `connects-to` → **[COVID-19 Disease](../covid-19-disease/README.md)** — Dysbiosis and COVID: the gut microbiome is altered in acute COVID-19 and shapes its severity, and persistent dysbiosis is implicated in the gastrointestinal and fatigue symptoms of long COVID.
 - `connects-to` → **[Schizophrenia](../schizophrenia/README.md)** — Gut-brain axis in psychosis: microbiome alterations communicate with the brain via immune, metabolic and vagal routes and are increasingly implicated in schizophrenia, extending the gut's reach into psychotic illness.
 - `connects-to` → **[HCC](../hcc/README.md)** — The gut-liver axis to cancer: dysbiosis and bacterial-product translocation through the portal vein inflame the liver and, via NASH and cirrhosis, contribute to hepatocellular carcinoma.
+- `connects-to` → **[GLP-1](../../03-molecular/glp-1/README.md)** — SCFA-driven incretin: short-chain fatty acids produced by gut bacteria stimulate enteroendocrine GLP-1 secretion, linking the microbiome to appetite and glucose control.
+- `connects-to` → **[B Cell](../../04-cellular/b-cell/README.md)** — Shaping mucosal antibodies: the gut microbiome drives the development of mucosal B cells and their secretory IgA, tuning the antibody repertoire that polices the gut.
+- `connects-to` → **[Fibromyalgia](../fibromyalgia/README.md)** — Gut-brain pain axis: gut dysbiosis is increasingly implicated in fibromyalgia, with altered microbiome composition linked to its central pain and fatigue through the gut-brain axis.
 
 ## Pathology
 
