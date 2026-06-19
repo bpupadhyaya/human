@@ -250,6 +250,15 @@ cross_links:
   - target: 01-human/07-system/essential-thrombocythemia
     relation: connects-to
     note: "Opposite counts, shared thrombosis: HIT thromboses while platelets fall as they are consumed by activation, whereas essential thrombocythemia thromboses with a high platelet count — a paradox of platelet number versus platelet activation."
+  - target: 01-human/07-system/hemophilia-a
+    relation: connects-to
+    note: "Opposite poles of haemostasis: heparin-induced thrombocytopenia clots despite falling platelets, while haemophilia A bleeds from absent factor VIII—the thrombosis-versus-bleeding extremes of coagulation."
+  - target: 01-human/05-tissue/glomerulus
+    relation: connects-to
+    note: "Microthrombi reach the kidney: the intense prothrombotic state of HIT can seed microvascular thrombi that impair the renal glomeruli, adding acute kidney injury to its limb and organ thromboses."
+  - target: 01-human/05-tissue/alveolus
+    relation: connects-to
+    note: "It clots the lungs: HIT's hypercoagulability drives venous thromboembolism and pulmonary embolism, lodging clots in the pulmonary vasculature feeding the alveoli—a leading cause of HIT death."
 ---
 
 # Heparin-Induced Thrombocytopenia
@@ -471,6 +480,9 @@ Platelet consumption → thrombocytopenia (paradox: clotting despite low platele
 - `connects-to` → **[Arterial Wall](../../05-tissue/arterial-wall/README.md)** — White clots in the arteries: the platelet-activating PF4 antibodies of HIT seed platelet-rich 'white clot' thrombi not only in veins but in arteries, causing limb ischaemia, stroke and acute arterial occlusion.
 - `connects-to` → **[Myocardium](../../05-tissue/myocardium/README.md)** — Cardiac surgery is the danger zone: cardiopulmonary bypass exposes patients to massive heparin doses, making cardiac surgery the highest-incidence setting for HIT, where the antibodies can drive coronary thrombosis and myocardial infarction.
 - `connects-to` → **[Essential Thrombocythemia](../essential-thrombocythemia/README.md)** — Opposite counts, shared thrombosis: HIT thromboses while platelets fall as they are consumed by activation, whereas essential thrombocythemia thromboses with a high platelet count — a paradox of platelet number versus platelet activation.
+- `connects-to` → **[Hemophilia A](../hemophilia-a/README.md)** — Opposite poles of haemostasis: heparin-induced thrombocytopenia clots despite falling platelets, while haemophilia A bleeds from absent factor VIII—the thrombosis-versus-bleeding extremes of coagulation.
+- `connects-to` → **[Glomerulus](../../05-tissue/glomerulus/README.md)** — Microthrombi reach the kidney: the intense prothrombotic state of HIT can seed microvascular thrombi that impair the renal glomeruli, adding acute kidney injury to its limb and organ thromboses.
+- `connects-to` → **[Alveolus](../../05-tissue/alveolus/README.md)** — It clots the lungs: HIT's hypercoagulability drives venous thromboembolism and pulmonary embolism, lodging clots in the pulmonary vasculature feeding the alveoli—a leading cause of HIT death.
 
 [^warkentin-2007-hit-review]: Warkentin TE, Greinacher A. Heparin-induced thrombocytopenia: recognition, treatment, and prevention. *Chest.* 2004;126(3 Suppl):311S-337S. [doi:10.1378/chest.126.3_suppl.311S](https://doi.org/10.1378/chest.126.3_suppl.311S) · [PubMed 15383477](https://pubmed.ncbi.nlm.nih.gov/15383477/)
 [^greinacher-2021-vitt-nejm]: Greinacher A, Thiele T, Warkentin TE, et al. Thrombotic thrombocytopenia after ChAdOx1 nCov-19 vaccination. *N Engl J Med.* 2021;384(22):2092-2101. [doi:10.1056/NEJMoa2104840](https://doi.org/10.1056/NEJMoa2104840) · [PubMed 33835769](https://pubmed.ncbi.nlm.nih.gov/33835769/)

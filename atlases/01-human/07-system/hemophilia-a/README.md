@@ -250,6 +250,15 @@ cross_links:
   - target: 01-human/07-system/sickle-cell-disease
     relation: connects-to
     note: "A contrasting inherited blood disorder: hemophilia A is an X-linked clotting-factor deficiency causing bleeding, while sickle cell is a recessive haemoglobinopathy causing vaso-occlusion — both inherited and both now targets of gene therapy."
+  - target: 01-human/07-system/heparin-induced-thrombocytopenia
+    relation: connects-to
+    note: "Opposite poles of haemostasis: haemophilia A bleeds from absent factor VIII, while heparin-induced thrombocytopenia paradoxically clots despite falling platelets—two disorders that frame the balance between bleeding and thrombosis."
+  - target: 01-human/07-system/rheumatoid-arthritis
+    relation: connects-to
+    note: "Acquired haemophilia is autoimmune: autoantibodies against factor VIII can arise in autoimmune disease such as rheumatoid arthritis (and postpartum), causing sudden bleeding distinct from the inherited X-linked deficiency."
+  - target: 01-human/07-system/dlbcl
+    relation: connects-to
+    note: "New bleeding can flag a hidden cancer: acquired haemophilia A from anti-factor-VIII autoantibodies is often paraneoplastic, classically with lymphoproliferative disorders like diffuse large B-cell lymphoma, so unexplained bleeding in an older adult warrants a malignancy search."
 ---
 
 # Hemophilia A
@@ -448,6 +457,9 @@ FVIII is a critical **amplifier** of the coagulation cascade at the junction bet
 - `connects-to` → **[Cortical Bone](../../05-tissue/cortical-bone/README.md)** — Bleeding wrecks joints and bone: recurrent haemarthroses drive hemophilic arthropathy with cartilage and subchondral-bone destruction, and reduced mobility plus chronic disease leave many patients with low bone density and fractures.
 - `connects-to` → **[Hepatic Lobule](../../05-tissue/hepatic-lobule/README.md)** — The liver makes its missing factor: factor VIII is produced largely by liver sinusoidal endothelial cells, which is why AAV gene therapy for hemophilia A delivers a working FVIII gene to the hepatocytes of the lobule for durable endogenous production.
 - `connects-to` → **[Sickle Cell Disease](../sickle-cell-disease/README.md)** — A contrasting inherited blood disorder: hemophilia A is an X-linked clotting-factor deficiency causing bleeding, while sickle cell is a recessive haemoglobinopathy causing vaso-occlusion — both inherited and both now targets of gene therapy.
+- `connects-to` → **[Heparin-Induced Thrombocytopenia](../heparin-induced-thrombocytopenia/README.md)** — Opposite poles of haemostasis: haemophilia A bleeds from absent factor VIII, while heparin-induced thrombocytopenia paradoxically clots despite falling platelets—two disorders that frame the balance between bleeding and thrombosis.
+- `connects-to` → **[Rheumatoid Arthritis](../rheumatoid-arthritis/README.md)** — Acquired haemophilia is autoimmune: autoantibodies against factor VIII can arise in autoimmune disease such as rheumatoid arthritis (and postpartum), causing sudden bleeding distinct from the inherited X-linked deficiency.
+- `connects-to` → **[DLBCL](../dlbcl/README.md)** — New bleeding can flag a hidden cancer: acquired haemophilia A from anti-factor-VIII autoantibodies is often paraneoplastic, classically with lymphoproliferative disorders like diffuse large B-cell lymphoma, so unexplained bleeding in an older adult warrants a malignancy search.
 
 [^oldenburg-2017-emicizumab-haven1]: Oldenburg J, Mahlangu JN, Kim B, et al. Emicizumab prophylaxis in hemophilia A with inhibitors. *N Engl J Med.* 2017;377(9):809-818. [doi:10.1056/NEJMoa1703068](https://doi.org/10.1056/NEJMoa1703068) · [PubMed 28691557](https://pubmed.ncbi.nlm.nih.gov/28691557/)
 [^mahlangu-2018-emicizumab-haven3]: Mahlangu J, Oldenburg J, Paz-Priel I, et al. Emicizumab prophylaxis in patients who have hemophilia A without inhibitors. *N Engl J Med.* 2018;379(9):811-822. [doi:10.1056/NEJMoa1803550](https://doi.org/10.1056/NEJMoa1803550) · [PubMed 30157389](https://pubmed.ncbi.nlm.nih.gov/30157389/)
