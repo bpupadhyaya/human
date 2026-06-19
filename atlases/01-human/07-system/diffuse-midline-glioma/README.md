@@ -277,6 +277,15 @@ cross_links:
   - target: 01-human/03-molecular/igf-1
     relation: connects-to
     note: "Growth-factor dependence: IGF-1/IGF1R signalling supports the proliferation and survival of diffuse midline glioma cells, an investigational therapeutic vulnerability in this lethal tumour."
+  - target: 01-human/03-molecular/hif-1alpha
+    relation: connects-to
+    note: "Hypoxic pons: HIF-1α stabilised in the hypoxic, infiltrative diffuse midline glioma drives the VEGF angiogenesis and metabolic adaptation that support its growth in the brainstem."
+  - target: 01-human/03-molecular/met
+    relation: connects-to
+    note: "Receptor amplification: MET amplification occurs in a subset of diffuse midline gliomas, marking an actionable receptor tyrosine kinase alongside the defining H3K27M epigenetic lesion."
+  - target: 01-human/03-molecular/ntrk
+    relation: connects-to
+    note: "Rare actionable fusion: NTRK fusions, though uncommon, render some diffuse midline gliomas sensitive to TRK inhibitors, a precision-oncology option for this otherwise untreatable tumour."
 ---
 
 # Diffuse Midline Glioma
@@ -502,6 +511,9 @@ Direct infusion of drugs into the pons via stereotactic catheter; bypasses BBB; 
 - `connects-to` → **[Cyclin D1](../../03-molecular/cyclin-d1/README.md)** — Cell-cycle amplification: CDK4/6 and cyclin D gains drive cell-cycle progression in diffuse midline glioma, a recurrent secondary lesion and the rationale for CDK4/6 inhibition.
 - `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — PI3K-AKT survival: PIK3CA-activated AKT signalling feeds the mTOR pathway sustaining diffuse midline glioma cells, a cooperating driver alongside the defining H3K27M mutation.
 - `connects-to` → **[IGF-1](../../03-molecular/igf-1/README.md)** — Growth-factor dependence: IGF-1/IGF1R signalling supports the proliferation and survival of diffuse midline glioma cells, an investigational therapeutic vulnerability in this lethal tumour.
+- `connects-to` → **[HIF-1α](../../03-molecular/hif-1alpha/README.md)** — Hypoxic pons: HIF-1α stabilised in the hypoxic, infiltrative diffuse midline glioma drives the VEGF angiogenesis and metabolic adaptation that support its growth in the brainstem.
+- `connects-to` → **[MET](../../03-molecular/met/README.md)** — Receptor amplification: MET amplification occurs in a subset of diffuse midline gliomas, marking an actionable receptor tyrosine kinase alongside the defining H3K27M epigenetic lesion.
+- `connects-to` → **[NTRK](../../03-molecular/ntrk/README.md)** — Rare actionable fusion: NTRK fusions, though uncommon, render some diffuse midline gliomas sensitive to TRK inhibitors, a precision-oncology option for this otherwise untreatable tumour.
 
 ---
 

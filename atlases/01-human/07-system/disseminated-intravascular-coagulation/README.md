@@ -283,6 +283,15 @@ cross_links:
   - target: 01-human/03-molecular/il-6
     relation: connects-to
     note: "Inflammation-coagulation crosstalk: IL-6 induces tissue factor and fibrinogen and amplifies the cytokine response that ignites DIC in sepsis, linking inflammation to clotting."
+  - target: 01-human/03-molecular/il-1b
+    relation: connects-to
+    note: "Tissue-factor induction: IL-1β from activated monocytes upregulates endothelial and monocyte tissue factor, a key inflammatory trigger of the systemic coagulation in DIC."
+  - target: 01-human/03-molecular/nitric-oxide
+    relation: connects-to
+    note: "Endothelial collapse: the widespread endothelial injury of DIC cuts protective nitric oxide, removing its antithrombotic brake and worsening microvascular thrombosis."
+  - target: 01-human/03-molecular/endothelin-1
+    relation: connects-to
+    note: "Microvascular constriction: injured endothelium in DIC releases endothelin-1, whose vasoconstriction compounds the microthrombi to drive the ischaemic organ failure of the syndrome."
 ---
 
 # Disseminated Intravascular Coagulation
@@ -502,6 +511,9 @@ DIC is always **secondary** — it does not occur in isolation but as a conseque
 - `connects-to` → **[Ebola Virus](../../../02-pathogen/01-viruses/ebola-virus/README.md)** — Viral haemorrhagic coagulopathy: Ebola virus triggers severe DIC with consumptive coagulopathy and bleeding, a hallmark of the haemorrhagic fever it causes.
 - `connects-to` → **[Streptococcus pyogenes](../../../02-pathogen/02-bacteria/streptococcus-pyogenes/README.md)** — Toxic shock and purpura: invasive group A streptococcal infection and toxic shock syndrome drive DIC and purpura fulminans through overwhelming systemic inflammation.
 - `connects-to` → **[IL-6](../../03-molecular/il-6/README.md)** — Inflammation-coagulation crosstalk: IL-6 induces tissue factor and fibrinogen and amplifies the cytokine response that ignites DIC in sepsis, linking inflammation to clotting.
+- `connects-to` → **[IL-1β](../../03-molecular/il-1b/README.md)** — Tissue-factor induction: IL-1β from activated monocytes upregulates endothelial and monocyte tissue factor, a key inflammatory trigger of the systemic coagulation in DIC.
+- `connects-to` → **[Nitric Oxide](../../03-molecular/nitric-oxide/README.md)** — Endothelial collapse: the widespread endothelial injury of DIC cuts protective nitric oxide, removing its antithrombotic brake and worsening microvascular thrombosis.
+- `connects-to` → **[Endothelin-1](../../03-molecular/endothelin-1/README.md)** — Microvascular constriction: injured endothelium in DIC releases endothelin-1, whose vasoconstriction compounds the microthrombi to drive the ischaemic organ failure of the syndrome.
 
 ---
 
