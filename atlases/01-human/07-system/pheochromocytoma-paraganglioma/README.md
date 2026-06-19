@@ -250,6 +250,15 @@ cross_links:
   - target: 01-human/07-system/idh-mutant-glioma
     relation: connects-to
     note: "A pseudohypoxic, oncometabolite tumour: SDH-deficient paraganglioma accumulates succinate that, like the 2-hydroxyglutarate of IDH-mutant glioma, inhibits α-ketoglutarate dioxygenases and stabilises HIF—two cancers driven by a metabolite."
+  - target: 01-human/05-tissue/arterial-wall
+    relation: connects-to
+    note: "Catecholamine vasculopathy: the noradrenaline surges of phaeochromocytoma cause severe vasoconstriction and hypertensive crises that damage the arterial wall, with pressure spikes risking stroke and aortic dissection."
+  - target: 01-human/05-tissue/glomerulus
+    relation: connects-to
+    note: "Hypertensive nephropathy: sustained and paroxysmal catecholamine hypertension transmits to the glomerulus, scarring it over time, while SDH and VHL also predispose to the kidney's own tumours."
+  - target: 01-human/07-system/men4-syndrome
+    relation: connects-to
+    note: "Another endocrine-tumour syndrome: like MEN1, MEN4 (CDKN1B loss) can include phaeochromocytoma and paraganglioma among its parathyroid and pituitary tumours, joining the germline syndromes that spawn them."
 ---
 
 # Pheochromocytoma/Paraganglioma
@@ -469,6 +478,9 @@ Active in Cluster 1 (MET/AXL co-expressed in SDH-deficient tumors); Phase 2 CABO
 - `connects-to` → **[Myocardium](../../05-tissue/myocardium/README.md)** — Catecholamines poison the heart muscle: sustained adrenaline and noradrenaline from a phaeochromocytoma cause catecholamine cardiomyopathy and Takotsubo-like myocardial stunning, which can present as acute heart failure before the tumour is found.
 - `connects-to` → **[Cardiac Conduction System](../../05-tissue/cardiac-conduction-system/README.md)** — It also destabilises the heart's wiring: catecholamine surges from a phaeochromocytoma trigger tachyarrhythmias and dangerous blood-pressure swings, which is why alpha-blockade must precede any beta-blocker to avoid unopposed vasoconstriction.
 - `connects-to` → **[IDH-mutant Glioma](../idh-mutant-glioma/README.md)** — A pseudohypoxic, oncometabolite tumour: SDH-deficient paraganglioma accumulates succinate that, like the 2-hydroxyglutarate of IDH-mutant glioma, inhibits α-ketoglutarate dioxygenases and stabilises HIF—two cancers driven by a metabolite.
+- `connects-to` → **[Arterial Wall](../../05-tissue/arterial-wall/README.md)** — Catecholamine vasculopathy: the noradrenaline surges of phaeochromocytoma cause severe vasoconstriction and hypertensive crises that damage the arterial wall, with pressure spikes risking stroke and aortic dissection.
+- `connects-to` → **[Glomerulus](../../05-tissue/glomerulus/README.md)** — Hypertensive nephropathy: sustained and paroxysmal catecholamine hypertension transmits to the glomerulus, scarring it over time, while SDH and VHL also predispose to the kidney's own tumours.
+- `connects-to` → **[MEN4 Syndrome](../men4-syndrome/README.md)** — Another endocrine-tumour syndrome: like MEN1, MEN4 (CDKN1B loss) can include phaeochromocytoma and paraganglioma among its parathyroid and pituitary tumours, joining the germline syndromes that spawn them.
 
 [^lenders-2014-pheo-guideline]: Lenders JW, Duh QY, Eisenhofer G, et al. Pheochromocytoma and paraganglioma: an endocrine society clinical practice guideline. *J Clin Endocrinol Metab.* 2014;99(6):1915-1942. [doi:10.1210/jc.2014-1498](https://doi.org/10.1210/jc.2014-1498) · [PubMed 24893135](https://pubmed.ncbi.nlm.nih.gov/24893135/)
 [^baudin-2021-firstmappp-sunitinib]: Baudin E, Goichot B, Berruti A, et al. First International Randomized Study in Malignant Progressive Pheochromocytoma and Paragangliomas (FIRSTMAPPP). *Ann Oncol.* 2021;32(10):1245-1254. [doi:10.1016/j.annonc.2021.07.009](https://doi.org/10.1016/j.annonc.2021.07.009) · [PubMed 34246769](https://pubmed.ncbi.nlm.nih.gov/34246769/)

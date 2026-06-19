@@ -250,6 +250,15 @@ cross_links:
   - target: 01-human/03-molecular/autophagy
     relation: connects-to
     note: "Losing a master metabolic switch: the LKB1-AMPK signalling lost in Peutz-Jeghers normally induces autophagy via ULK1 under energy stress, so STK11 loss impairs this recycling pathway while freeing mTOR—coupling the syndrome's metabolism and cancer risk."
+  - target: 01-human/07-system/dicer1-syndrome
+    relation: connects-to
+    note: "Shared ovarian sex-cord tumours: Peutz-Jeghers (sex-cord tumours with annular tubules) and DICER1 (Sertoli-Leydig) both predispose to ovarian sex-cord-stromal tumours, two germline syndromes converging on this rare tumour family."
+  - target: 01-human/05-tissue/alveolus
+    relation: connects-to
+    note: "STK11 and lung cancer: the LKB1/STK11 loss of Peutz-Jeghers raises lung cancer risk and is the same gene inactivated somatically in lung adenocarcinoma—where it confers immunotherapy resistance—tying the syndrome to the alveolar epithelium."
+  - target: 01-human/07-system/li-fraumeni-syndrome
+    relation: connects-to
+    note: "Germline multi-cancer surveillance: like Li-Fraumeni, Peutz-Jeghers is an autosomal-dominant syndrome with a very high lifetime cancer risk across many organs, demanding lifelong structured screening."
 ---
 
 # Peutz-Jeghers Syndrome
@@ -451,6 +460,9 @@ Without surveillance: cumulative cancer risk reaches ~85-93% by age 70 (all canc
 - `connects-to` → **[Metformin](../../../03-medicine/01-modern/07-metabolic/metformin/README.md)** — It targets the missing kinase's pathway: PJS loses LKB1 (STK11), the kinase that switches on AMPK, so metformin—an AMPK activator—is studied to restrain the mTOR-driven polyp growth and cancer risk that LKB1 loss unleashes.
 - `connects-to` → **[Tuberous Sclerosis Complex](../tuberous-sclerosis-complex/README.md)** — Two syndromes that unleash mTOR: Peutz-Jeghers loses LKB1-AMPK restraint on mTOR, while tuberous sclerosis loses the TSC1/2 brake on it—different upstream lesions converging on the same hamartoma-driving kinase.
 - `connects-to` → **[Autophagy](../../03-molecular/autophagy/README.md)** — Losing a master metabolic switch: the LKB1-AMPK signalling lost in Peutz-Jeghers normally induces autophagy via ULK1 under energy stress, so STK11 loss impairs this recycling pathway while freeing mTOR—coupling the syndrome's metabolism and cancer risk.
+- `connects-to` → **[DICER1 Syndrome](../dicer1-syndrome/README.md)** — Shared ovarian sex-cord tumours: Peutz-Jeghers (sex-cord tumours with annular tubules) and DICER1 (Sertoli-Leydig) both predispose to ovarian sex-cord-stromal tumours, two germline syndromes converging on this rare tumour family.
+- `connects-to` → **[Alveolus](../../05-tissue/alveolus/README.md)** — STK11 and lung cancer: the LKB1/STK11 loss of Peutz-Jeghers raises lung cancer risk and is the same gene inactivated somatically in lung adenocarcinoma—where it confers immunotherapy resistance—tying the syndrome to the alveolar epithelium.
+- `connects-to` → **[Li-Fraumeni Syndrome](../li-fraumeni-syndrome/README.md)** — Germline multi-cancer surveillance: like Li-Fraumeni, Peutz-Jeghers is an autosomal-dominant syndrome with a very high lifetime cancer risk across many organs, demanding lifelong structured screening.
 
 ---
 
