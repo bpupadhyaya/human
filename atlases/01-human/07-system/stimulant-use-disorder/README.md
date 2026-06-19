@@ -277,6 +277,15 @@ cross_links:
   - target: 01-human/07-system/musculoskeletal-system
     relation: connects-to
     note: "Stimulant rhabdomyolysis: cocaine and methamphetamine cause muscle breakdown through hyperthermia, vasoconstriction and seizures, releasing myoglobin that can precipitate acute kidney injury."
+  - target: 01-human/03-molecular/endothelin-1
+    relation: connects-to
+    note: "Vasoconstrictor surge: cocaine and methamphetamine raise endothelin-1 and sympathetic tone, the intense vasoconstriction behind their strokes, myocardial infarctions and mesenteric ischaemia."
+  - target: 01-human/03-molecular/tnf-alpha
+    relation: connects-to
+    note: "Glial neuroinflammation: stimulants activate microglia to release TNF-α, neuroinflammation that contributes to the neurotoxicity and cognitive deficits of chronic stimulant use."
+  - target: 01-human/03-molecular/il-6
+    relation: connects-to
+    note: "Inflammatory signalling: chronic stimulant use raises IL-6, part of the immune activation and vascular inflammation that accompany dependence and its cardiovascular harms."
 ---
 
 # Stimulant Use Disorder
@@ -485,6 +494,9 @@ Unlike cocaine, methamphetamine causes **direct neurotoxic damage** to dopaminer
 - `connects-to` → **[ANCA Vasculitis](../anca-vasculitis/README.md)** — Levamisole vasculitis: cocaine adulterated with levamisole triggers an ANCA-associated vasculitis with retiform purpura, agranulocytosis and a lupus-like syndrome, a distinctive drug-induced disease.
 - `connects-to` → **[Intestinal Epithelium](../../05-tissue/intestinal-epithelium/README.md)** — Mesenteric ischaemia: cocaine's intense vasoconstriction can starve the gut of blood, causing intestinal ischaemia and infarction that destroys the intestinal epithelium and bowel wall.
 - `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — Stimulant rhabdomyolysis: cocaine and methamphetamine cause muscle breakdown through hyperthermia, vasoconstriction and seizures, releasing myoglobin that can precipitate acute kidney injury.
+- `connects-to` → **[Endothelin-1](../../03-molecular/endothelin-1/README.md)** — Vasoconstrictor surge: cocaine and methamphetamine raise endothelin-1 and sympathetic tone, the intense vasoconstriction behind their strokes, myocardial infarctions and mesenteric ischaemia.
+- `connects-to` → **[TNF-α](../../03-molecular/tnf-alpha/README.md)** — Glial neuroinflammation: stimulants activate microglia to release TNF-α, neuroinflammation that contributes to the neurotoxicity and cognitive deficits of chronic stimulant use.
+- `connects-to` → **[IL-6](../../03-molecular/il-6/README.md)** — Inflammatory signalling: chronic stimulant use raises IL-6, part of the immune activation and vascular inflammation that accompany dependence and its cardiovascular harms.
 
 ## Treatment
 
