@@ -268,6 +268,15 @@ cross_links:
   - target: 01-human/05-tissue/hepatic-lobule
     relation: connects-to
     note: "Liver metastasis: the aggressive renal cancer of HLRCC readily spreads to the liver, seeding the hepatic lobules, part of its tendency to metastasise even from a small primary."
+  - target: 01-human/03-molecular/tet2
+    relation: connects-to
+    note: "Oncometabolite epigenetics: fumarate accumulating from FH loss inhibits TET DNA-demethylases, causing the DNA hypermethylation that silences tumour-suppressor genes in HLRCC."
+  - target: 01-human/03-molecular/idh1
+    relation: connects-to
+    note: "Shared oncometabolite mechanism: like IDH-mutant cancers making 2-hydroxyglutarate, FH-deficient HLRCC accumulates fumarate—both oncometabolites that inhibit the same α-ketoglutarate-dependent enzymes."
+  - target: 01-human/03-molecular/ezh2
+    relation: connects-to
+    note: "Reinforced silencing: the histone hypermethylation driven by fumarate, together with polycomb/EZH2 activity, locks in the repressed, dedifferentiated state of HLRCC tumour cells."
 ---
 
 # Hereditary Leiomyomatosis and Renal Cell Carcinoma
@@ -483,6 +492,9 @@ Cutaneous:
 - `connects-to` → **[Arterial Wall](../../05-tissue/arterial-wall/README.md)** — A hypervascular cancer: FH loss stabilises HIF, so HLRCC's type-2 papillary kidney cancer is intensely angiogenic, building abnormal vasculature targeted by VEGF/EGFR therapy (bevacizumab-erlotinib).
 - `connects-to` → **[Cortical Bone](../../05-tissue/cortical-bone/README.md)** — Aggressive bone metastasis: HLRCC's type-2 papillary renal cancer spreads early and aggressively, seeding the cortical bone among lung and liver as it disseminates.
 - `connects-to` → **[Hepatic Lobule](../../05-tissue/hepatic-lobule/README.md)** — Liver metastasis: the aggressive renal cancer of HLRCC readily spreads to the liver, seeding the hepatic lobules, part of its tendency to metastasise even from a small primary.
+- `connects-to` → **[TET2](../../03-molecular/tet2/README.md)** — Oncometabolite epigenetics: fumarate accumulating from FH loss inhibits TET DNA-demethylases, causing the DNA hypermethylation that silences tumour-suppressor genes in HLRCC.
+- `connects-to` → **[IDH1](../../03-molecular/idh1/README.md)** — Shared oncometabolite mechanism: like IDH-mutant cancers making 2-hydroxyglutarate, FH-deficient HLRCC accumulates fumarate—both oncometabolites that inhibit the same α-ketoglutarate-dependent enzymes.
+- `connects-to` → **[EZH2](../../03-molecular/ezh2/README.md)** — Reinforced silencing: the histone hypermethylation driven by fumarate, together with polycomb/EZH2 activity, locks in the repressed, dedifferentiated state of HLRCC tumour cells.
 
 [^tomlinson-2002-fh]: Tomlinson IP, Alam NA, Rowan AJ, et al. Germline mutations in FH predispose to dominantly inherited uterine fibroids, skin leiomyomata and papillary renal cell cancer. *Nat Genet.* 2002;30(4):406-410. [doi:10.1038/ng849](https://doi.org/10.1038/ng849) · [PubMed 11865300](https://pubmed.ncbi.nlm.nih.gov/11865300/)
 [^linehan-2013-fh-review]: Linehan WM, Rouault TA. Molecular pathways: fumarate hydratase-deficient kidney cancer — targeting the Warburg effect in cancer. *Clin Cancer Res.* 2013;19(13):3345-3352. [doi:10.1158/1078-0432.CCR-13-0304](https://doi.org/10.1158/1078-0432.CCR-13-0304) · [PubMed 23836472](https://pubmed.ncbi.nlm.nih.gov/23836472/)

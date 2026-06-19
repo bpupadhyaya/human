@@ -268,6 +268,15 @@ cross_links:
   - target: 01-human/07-system/covid-19-disease
     relation: connects-to
     note: "Infection-triggered pancreatitis: COVID-19 is a recognised cause of acute pancreatitis through ACE2 on acinar and islet cells, which can be severe on a background hereditary predisposition."
+  - target: 01-human/03-molecular/calcineurin
+    relation: connects-to
+    note: "Calcium-triggered injury: sustained intra-acinar calcium activates calcineurin, driving the premature trypsinogen activation that initiates pancreatitis—a pathway protective when blocked experimentally."
+  - target: 01-human/03-molecular/egfr
+    relation: connects-to
+    note: "Metaplasia toward cancer: repeated injury drives acinar-to-ductal metaplasia through EGFR signalling, which with KRAS sets chronic hereditary pancreatitis on the path to pancreatic cancer."
+  - target: 01-human/03-molecular/endothelin-1
+    relation: connects-to
+    note: "Microcirculatory failure: endothelin-1-driven vasoconstriction worsens pancreatic ischaemia in severe pancreatitis, converting interstitial inflammation toward necrotising disease."
 ---
 
 # Hereditary Pancreatitis
@@ -495,6 +504,9 @@ cross_links:
 - `connects-to` → **[Cytokine Storm](../cytokine-storm/README.md)** — SIRS of severe pancreatitis: a severe acute attack unleashes a systemic inflammatory response with ARDS and shock, the trypsin-triggered cytokine surge mechanistically overlapping a cytokine storm.
 - `connects-to` → **[Arterial Wall](../../05-tissue/arterial-wall/README.md)** — Vascular complications: chronic pancreatitis erodes nearby vessels, causing splenic-artery pseudoaneurysms of the arterial wall and splenic or portal vein thrombosis—dangerous bleeding and clotting.
 - `connects-to` → **[COVID-19 Disease](../covid-19-disease/README.md)** — Infection-triggered pancreatitis: COVID-19 is a recognised cause of acute pancreatitis through ACE2 on acinar and islet cells, which can be severe on a background hereditary predisposition.
+- `connects-to` → **[Calcineurin](../../03-molecular/calcineurin/README.md)** — Calcium-triggered injury: sustained intra-acinar calcium activates calcineurin, driving the premature trypsinogen activation that initiates pancreatitis—a pathway protective when blocked experimentally.
+- `connects-to` → **[EGFR](../../03-molecular/egfr/README.md)** — Metaplasia toward cancer: repeated injury drives acinar-to-ductal metaplasia through EGFR signalling, which with KRAS sets chronic hereditary pancreatitis on the path to pancreatic cancer.
+- `connects-to` → **[Endothelin-1](../../03-molecular/endothelin-1/README.md)** — Microcirculatory failure: endothelin-1-driven vasoconstriction worsens pancreatic ischaemia in severe pancreatitis, converting interstitial inflammation toward necrotising disease.
 
 [^whitcomb-1996-prss1]: Whitcomb DC, Gorry MC, Preston RA, et al. Hereditary pancreatitis is caused by a mutation in the cationic trypsinogen gene. *Nat Genet.* 1996;14(2):141-145. [doi:10.1038/ng1096-141](https://doi.org/10.1038/ng1096-141) · [PubMed 8841182](https://pubmed.ncbi.nlm.nih.gov/8841182/)
 [^lowenfels-2001-hp-pdac]: Lowenfels AB, Maisonneuve P, DiMagno EP, et al. Hereditary pancreatitis and the risk of pancreatic cancer. *J Natl Cancer Inst.* 2001;93(1):26-31. [doi:10.1093/jnci/93.1.26](https://doi.org/10.1093/jnci/93.1.26) · [PubMed 11136838](https://pubmed.ncbi.nlm.nih.gov/11136838/)
