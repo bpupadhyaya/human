@@ -280,6 +280,15 @@ cross_links:
   - target: 01-human/07-system/inflammatory-bowel-disease
     relation: connects-to
     note: "Immunotherapy's autoimmune cost: checkpoint inhibitors now used for triple-negative breast cancer can unleash an autoimmune colitis resembling inflammatory bowel disease, managed with steroids and anti-TNF biologics."
+  - target: 01-human/03-molecular/akt
+    relation: connects-to
+    note: "PI3K/AKT axis: AKT, activated downstream of PIK3CA and HER2, drives breast cancer growth and survival and underlies resistance to endocrine therapy, making AKT inhibitors a targeted option."
+  - target: 01-human/03-molecular/hif-1alpha
+    relation: connects-to
+    note: "Hypoxic aggression: HIF-1α stabilised in hypoxic breast tumours promotes angiogenesis, metastasis and treatment resistance, and marks the more aggressive triple-negative subtypes."
+  - target: 01-human/03-molecular/vegf
+    relation: connects-to
+    note: "Tumour angiogenesis: VEGF drives the new-vessel growth that feeds breast tumour expansion and metastasis, a hallmark exploited by anti-angiogenic therapy."
 ---
 
 # Breast Cancer
@@ -473,6 +482,9 @@ cross_links:
 - `connects-to` → **[Epilepsy](../epilepsy/README.md)** — Seizures from brain spread: breast cancer (especially HER2-positive and triple-negative) is a leading cause of brain metastases and leptomeningeal disease, producing seizures and secondary epilepsy.
 - `connects-to` → **[Peripheral Nerve](../../05-tissue/peripheral-nerve/README.md)** — Nerve and cord compromise: bone-tropic breast cancer can collapse vertebrae and compress the spinal cord and nerve roots, while tumour or radiation can injure the brachial plexus—threatening permanent deficits.
 - `connects-to` → **[Inflammatory Bowel Disease](../inflammatory-bowel-disease/README.md)** — Immunotherapy's autoimmune cost: checkpoint inhibitors now used for triple-negative breast cancer can unleash an autoimmune colitis resembling inflammatory bowel disease, managed with steroids and anti-TNF biologics.
+- `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — PI3K/AKT axis: AKT, activated downstream of PIK3CA and HER2, drives breast cancer growth and survival and underlies resistance to endocrine therapy, making AKT inhibitors a targeted option.
+- `connects-to` → **[HIF-1α](../../03-molecular/hif-1alpha/README.md)** — Hypoxic aggression: HIF-1α stabilised in hypoxic breast tumours promotes angiogenesis, metastasis and treatment resistance, and marks the more aggressive triple-negative subtypes.
+- `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — Tumour angiogenesis: VEGF drives the new-vessel growth that feeds breast tumour expansion and metastasis, a hallmark exploited by anti-angiogenic therapy.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
