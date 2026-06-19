@@ -250,6 +250,15 @@ cross_links:
   - target: 01-human/07-system/rheumatoid-arthritis
     relation: connects-to
     note: "Chronic inflammation scars the kidney too: long-standing rheumatoid arthritis can drive secondary renal disease—reactive mesangial IgA deposition and AA amyloidosis from sustained acute-phase IL-6 and serum amyloid A—so a systemic joint disease becomes a glomerular one."
+  - target: 01-human/03-molecular/endothelin-1
+    relation: connects-to
+    note: "A new drug target: endothelin-1 drives proteinuria and fibrosis in IgA nephropathy, and the dual endothelin/angiotensin blocker sparsentan reduces proteinuria—a recent therapeutic advance."
+  - target: 01-human/05-tissue/hepatic-lobule
+    relation: connects-to
+    note: "Secondary IgA nephropathy: a cirrhotic, failing liver cannot clear IgA immune complexes, so they deposit in the kidney—the gut-liver-kidney axis producing IgAN as a complication of liver disease."
+  - target: 01-human/07-system/psoriatic-arthritis
+    relation: connects-to
+    note: "The spondyloarthropathy link: IgA nephropathy is over-represented in spondyloarthropathies such as psoriatic arthritis and ankylosing spondylitis, reflecting shared mucosal-immune dysregulation."
 ---
 
 # IgA Nephropathy
@@ -411,6 +420,9 @@ IgAN is a **multi-hit disease** described by the Oxford Four-Hit Model:
 - `connects-to` → **[Arterial Wall](../../05-tissue/arterial-wall/README.md)** — The kidney disease kills through the arteries: IgA nephropathy drives hypertension and chronic kidney disease that accelerate arterial-wall atherosclerosis and stiffening, making cardiovascular events—not kidney failure alone—a leading cause of death in patients with IgAN.
 - `connects-to` → **[Psoriasis](../psoriasis/README.md)** — A shared mucocutaneous IgA immune axis: IgA nephropathy is associated with psoriasis, and the TNF inhibitors used to treat psoriasis can themselves trigger new-onset IgA nephropathy—linking skin inflammation to glomerular IgA deposition.
 - `connects-to` → **[Rheumatoid Arthritis](../rheumatoid-arthritis/README.md)** — Chronic inflammation scars the kidney too: long-standing rheumatoid arthritis can drive secondary renal disease—reactive mesangial IgA deposition and AA amyloidosis from sustained acute-phase IL-6 and serum amyloid A—so a systemic joint disease becomes a glomerular one.
+- `connects-to` → **[Endothelin-1](../../03-molecular/endothelin-1/README.md)** — A new drug target: endothelin-1 drives proteinuria and fibrosis in IgA nephropathy, and the dual endothelin/angiotensin blocker sparsentan reduces proteinuria—a recent therapeutic advance.
+- `connects-to` → **[Hepatic Lobule](../../05-tissue/hepatic-lobule/README.md)** — Secondary IgA nephropathy: a cirrhotic, failing liver cannot clear IgA immune complexes, so they deposit in the kidney—the gut-liver-kidney axis producing IgAN as a complication of liver disease.
+- `connects-to` → **[Psoriatic Arthritis](../psoriatic-arthritis/README.md)** — The spondyloarthropathy link: IgA nephropathy is over-represented in spondyloarthropathies such as psoriatic arthritis and ankylosing spondylitis, reflecting shared mucosal-immune dysregulation.
 
 ---
 

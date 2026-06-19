@@ -250,6 +250,15 @@ cross_links:
   - target: 01-human/07-system/cmml
     relation: connects-to
     note: "One epigenetic lesion, blood and brain: CMML, a myelodysplastic/myeloproliferative overlap, is driven by TET2-pathway methylation disturbances akin to the DNA hypermethylation IDH mutation causes in glioma—convergent epigenetic dysregulation in unrelated tissues."
+  - target: 01-human/03-molecular/bdnf
+    relation: connects-to
+    note: "Neuron-glioma synapses: IDH-mutant gliomas, like glioblastoma and diffuse midline glioma, wire into neural circuits through activity-dependent and BDNF-driven synapses with neurons that drive growth and invasion."
+  - target: 01-human/07-system/mds
+    relation: connects-to
+    note: "IDH inhibitors across cancers: IDH1/2 mutations also drive a subset of myelodysplastic syndromes and AML, so the same IDH inhibitors (ivosidenib, enasidenib) target glioma, MDS and leukaemia."
+  - target: 01-human/05-tissue/axonal-transport
+    relation: connects-to
+    note: "Diffuse white-matter infiltration: IDH-mutant gliomas spread along white-matter tracts and the axonal scaffold far beyond the visible tumour, the reason they cannot be cured by surgery despite slow growth."
 ---
 
 # IDH-Mutant Glioma
@@ -459,6 +468,9 @@ IDH-mutant glioma with MGMT methylation shows strong alkylating agent sensitivit
 - `connects-to` → **[Collagen](../../03-molecular/collagen/README.md)** — The oncometabolite reaches beyond DNA: D-2-hydroxyglutarate inhibits α-ketoglutarate-dependent prolyl-hydroxylases that mature collagen, so IDH-mutant cells suffer impaired collagen and basement-membrane assembly alongside the DNA hypermethylation that defines them.
 - `connects-to` → **[CML](../cml/README.md)** — A targeted-therapy milestone repeated: as imatinib turned chronic myeloid leukaemia controllable, vorasidenib (INDIGO, 2023) became the first targeted drug to delay treatment in IDH-mutant glioma—each proof that blocking one driver reshapes a cancer.
 - `connects-to` → **[CMML](../cmml/README.md)** — One epigenetic lesion, blood and brain: CMML, a myelodysplastic/myeloproliferative overlap, is driven by TET2-pathway methylation disturbances akin to the DNA hypermethylation IDH mutation causes in glioma—convergent epigenetic dysregulation in unrelated tissues.
+- `connects-to` → **[BDNF](../../03-molecular/bdnf/README.md)** — Neuron-glioma synapses: IDH-mutant gliomas, like glioblastoma and diffuse midline glioma, wire into neural circuits through activity-dependent and BDNF-driven synapses with neurons that drive growth and invasion.
+- `connects-to` → **[MDS](../mds/README.md)** — IDH inhibitors across cancers: IDH1/2 mutations also drive a subset of myelodysplastic syndromes and AML, so the same IDH inhibitors (ivosidenib, enasidenib) target glioma, MDS and leukaemia.
+- `connects-to` → **[Axonal Transport](../../05-tissue/axonal-transport/README.md)** — Diffuse white-matter infiltration: IDH-mutant gliomas spread along white-matter tracts and the axonal scaffold far beyond the visible tumour, the reason they cannot be cured by surgery despite slow growth.
 
 [^mellinghoff-2023-vorasidenib-lgg]: Mellinghoff IK, van den Bent MJ, Blumenthal DT, et al. Vorasidenib in IDH1- or IDH2-mutant low-grade glioma. *N Engl J Med.* 2023;389(7):589-601. [doi:10.1056/NEJMoa2304194](https://doi.org/10.1056/NEJMoa2304194) · [PubMed 37272530](https://pubmed.ncbi.nlm.nih.gov/37272530/)
 [^jiao-2012-atrx-glioma]: Jiao Y, Killela PJ, Reitman ZJ, et al. Frequent ATRX, CIC, FUBP1 and IDH mutations refine the classification of malignant gliomas. *Oncotarget.* 2012;3(7):709-722. [doi:10.18632/oncotarget.588](https://doi.org/10.18632/oncotarget.588) · [PubMed 22869205](https://pubmed.ncbi.nlm.nih.gov/22869205/)
