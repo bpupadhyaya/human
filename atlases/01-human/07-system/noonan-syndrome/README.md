@@ -259,6 +259,15 @@ cross_links:
   - target: 01-human/06-organ/placenta
     relation: connects-to
     note: "A prenatal presentation: severe Noonan can cause fetal hydrops and an oedematous, enlarged placenta from lymphatic dysplasia, alongside increased nuchal translucency seen on prenatal ultrasound."
+  - target: 01-human/03-molecular/troponin-complex
+    relation: connects-to
+    note: "RAS-driven hypertrophy: the hypertrophic cardiomyopathy of Noonan thickens the myocardium and impairs the troponin-regulated contractile apparatus, phenocopying sarcomeric HCM through overactive RAS-MAPK signalling rather than a sarcomere-gene mutation."
+  - target: 01-human/03-molecular/bnp
+    relation: connects-to
+    note: "Monitoring the strained heart: the hypertrophic cardiomyopathy and pulmonary-valve stenosis of Noonan raise wall stress, lifting BNP as a biomarker of the cardiac burden these congenital lesions impose."
+  - target: 01-human/07-system/gist
+    relation: connects-to
+    note: "A RASopathy tumour: gastrointestinal stromal tumours occur in Noonan syndrome as part of the broader cancer predisposition of the RASopathies, the same RAS-MAPK overactivity driving the neoplasm."
 ---
 
 # Noonan Syndrome
@@ -477,6 +486,9 @@ NS is characterized by four cardinal features: **(1) short stature** (below 3rd 
 - `connects-to` → **[Myeloproliferative Neoplasms](../myeloproliferative-neoplasms/README.md)** — JMML and myeloid disease: PTPN11/RAS mutations in Noonan cause a juvenile myelomonocytic leukaemia-like myeloproliferative disorder in infancy, often self-limiting, and raise overall leukaemia risk.
 - `connects-to` → **[Alveolus](../../05-tissue/alveolus/README.md)** — Chylothorax and lymphatic dysplasia: Noonan's abnormal lymphatics can leak chyle into the pleural space and cause pulmonary lymphangiectasia, flooding the region around the alveoli and impairing breathing.
 - `connects-to` → **[Placenta](../../06-organ/placenta/README.md)** — A prenatal presentation: severe Noonan can cause fetal hydrops and an oedematous, enlarged placenta from lymphatic dysplasia, alongside increased nuchal translucency seen on prenatal ultrasound.
+- `connects-to` → **[Troponin Complex](../../03-molecular/troponin-complex/README.md)** — RAS-driven hypertrophy: the hypertrophic cardiomyopathy of Noonan thickens the myocardium and impairs the troponin-regulated contractile apparatus, phenocopying sarcomeric HCM through overactive RAS-MAPK signalling rather than a sarcomere-gene mutation.
+- `connects-to` → **[BNP](../../03-molecular/bnp/README.md)** — Monitoring the strained heart: the hypertrophic cardiomyopathy and pulmonary-valve stenosis of Noonan raise wall stress, lifting BNP as a biomarker of the cardiac burden these congenital lesions impose.
+- `connects-to` → **[GIST](../gist/README.md)** — A RASopathy tumour: gastrointestinal stromal tumours occur in Noonan syndrome as part of the broader cancer predisposition of the RASopathies, the same RAS-MAPK overactivity driving the neoplasm.
 
 [^tartaglia-2001-ptpn11-noonan]: Tartaglia M, Mehler EL, Goldberg R, et al. Mutations in PTPN11, encoding the protein tyrosine phosphatase SHP-2, cause Noonan syndrome. *Nat Genet.* 2001;29(4):465-468. [doi:10.1038/ng772](https://doi.org/10.1038/ng772) · [PubMed 11704759](https://pubmed.ncbi.nlm.nih.gov/11704759/)
 [^van-der-burgt-2007-noonan-review]: van der Burgt I. Noonan syndrome. *Orphanet J Rare Dis.* 2007;2:4. [doi:10.1186/1750-1172-2-4](https://doi.org/10.1186/1750-1172-2-4) · [PubMed 17222357](https://pubmed.ncbi.nlm.nih.gov/17222357/)
