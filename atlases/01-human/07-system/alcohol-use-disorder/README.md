@@ -277,6 +277,15 @@ cross_links:
   - target: 01-human/07-system/iron-deficiency-anemia
     relation: connects-to
     note: "Anaemia of drinking: alcohol causes anaemia through gastrointestinal and variceal bleeding, marrow suppression and folate deficiency—often a mix of iron-deficiency and macrocytic anaemia."
+  - target: 01-human/05-tissue/alveolus
+    relation: connects-to
+    note: "Alcoholic lung: chronic drinking impairs alveolar defence and depressed consciousness drives aspiration, raising the risk of aspiration pneumonia, lung abscess and acute respiratory distress syndrome."
+  - target: 02-pathogen/02-bacteria/streptococcus-pneumoniae
+    relation: connects-to
+    note: "Pneumococcal susceptibility: alcohol blunts neutrophil and macrophage function, making heavy drinkers prone to severe, bacteraemic pneumococcal pneumonia and invasive disease."
+  - target: 01-human/07-system/wound-healing
+    relation: connects-to
+    note: "Impaired healing: alcohol disrupts collagen deposition, immune defence and angiogenesis, slowing wound healing and raising surgical-site infection and post-operative complication rates."
 ---
 
 # Alcohol Use Disorder
@@ -543,6 +552,9 @@ Prenatal alcohol exposure → leading preventable cause of intellectual disabili
 - `connects-to` → **[Hereditary Pancreatitis](../hereditary-pancreatitis/README.md)** — Alcohol and the pancreas: alcohol is the leading cause of chronic pancreatitis and dramatically accelerates disease in those with hereditary pancreatitis (PRSS1), compounding genetic and toxic injury.
 - `connects-to` → **[Alzheimer's Disease](../alzheimers-disease/README.md)** — Alcohol and dementia: heavy chronic drinking causes alcohol-related brain damage and raises later dementia risk including Alzheimer's, through thiamine deficiency, direct neurotoxicity and vascular injury.
 - `connects-to` → **[Iron Deficiency Anemia](../iron-deficiency-anemia/README.md)** — Anaemia of drinking: alcohol causes anaemia through gastrointestinal and variceal bleeding, marrow suppression and folate deficiency—often a mix of iron-deficiency and macrocytic anaemia.
+- `connects-to` → **[Alveolus](../../05-tissue/alveolus/README.md)** — Alcoholic lung: chronic drinking impairs alveolar defence and depressed consciousness drives aspiration, raising the risk of aspiration pneumonia, lung abscess and acute respiratory distress syndrome.
+- `connects-to` → **[Streptococcus pneumoniae](../../../02-pathogen/02-bacteria/streptococcus-pneumoniae/README.md)** — Pneumococcal susceptibility: alcohol blunts neutrophil and macrophage function, making heavy drinkers prone to severe, bacteraemic pneumococcal pneumonia and invasive disease.
+- `connects-to` → **[Wound Healing](../wound-healing/README.md)** — Impaired healing: alcohol disrupts collagen deposition, immune defence and angiogenesis, slowing wound healing and raising surgical-site infection and post-operative complication rates.
 
 [^koob-2013-addiction-neuroscience]: Koob GF, Volkow ND. Neurocircuitry of addiction. *Neuropsychopharmacology.* 2010;35(1):217-238. [doi:10.1038/npp.2009.110](https://doi.org/10.1038/npp.2009.110) · [PubMed 19710631](https://pubmed.ncbi.nlm.nih.gov/19710631/)
 [^anton-2006-combine]: Anton RF, O'Malley SS, Ciraulo DA, et al. Combined pharmacotherapies and behavioral interventions for alcohol dependence: the COMBINE study. *JAMA.* 2006;295(17):2003-2017. [doi:10.1001/jama.295.17.2003](https://doi.org/10.1001/jama.295.17.2003) · [PubMed 16670409](https://pubmed.ncbi.nlm.nih.gov/16670409/)

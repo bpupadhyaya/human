@@ -271,6 +271,15 @@ cross_links:
   - target: 01-human/05-tissue/cortical-bone
     relation: connects-to
     note: "Surgery and fracture provoke clots: major orthopaedic surgery and long-bone fractures of the cortical bone are among the strongest provokers of deep-vein thrombosis, driving routine post-operative prophylaxis."
+  - target: 01-human/07-system/myelofibrosis
+    relation: connects-to
+    note: "Myeloproliferative thrombosis: like polycythaemia vera and essential thrombocythaemia, myelofibrosis is strongly thrombogenic and a leading cause of splanchnic (portal and hepatic vein) thrombosis."
+  - target: 01-human/05-tissue/hepatic-lobule
+    relation: connects-to
+    note: "Splanchnic vein clots: thrombosis of the portal vein or the hepatic veins (Budd-Chiari syndrome) draining the hepatic lobule is a distinct, often MPN-driven form of venous thromboembolism."
+  - target: 01-human/05-tissue/glomerulus
+    relation: connects-to
+    note: "Renal vein thrombosis: nephrotic-range proteinuria from glomerular disease loses antithrombin in the urine, creating a hypercoagulable state that classically thromboses the renal vein."
 ---
 
 # Venous Thromboembolism
@@ -474,6 +483,9 @@ cross_links:
 - `connects-to` → **[Stroke](../stroke/README.md)** — Paradoxical embolism: a venous clot can cross a patent foramen ovale into the arterial circulation and lodge in the brain, turning a deep-vein thrombosis into a paradoxical stroke.
 - `connects-to` → **[Breast Cancer](../breast-cancer/README.md)** — Cancer-associated thrombosis: breast cancer raises VTE risk through tumour procoagulants, chemotherapy and hormonal therapy like tamoxifen, a common Trousseau-type complication.
 - `connects-to` → **[Cortical Bone](../../05-tissue/cortical-bone/README.md)** — Surgery and fracture provoke clots: major orthopaedic surgery and long-bone fractures of the cortical bone are among the strongest provokers of deep-vein thrombosis, driving routine post-operative prophylaxis.
+- `connects-to` → **[Myelofibrosis](../myelofibrosis/README.md)** — Myeloproliferative thrombosis: like polycythaemia vera and essential thrombocythaemia, myelofibrosis is strongly thrombogenic and a leading cause of splanchnic (portal and hepatic vein) thrombosis.
+- `connects-to` → **[Hepatic Lobule](../../05-tissue/hepatic-lobule/README.md)** — Splanchnic vein clots: thrombosis of the portal vein or the hepatic veins (Budd-Chiari syndrome) draining the hepatic lobule is a distinct, often MPN-driven form of venous thromboembolism.
+- `connects-to` → **[Glomerulus](../../05-tissue/glomerulus/README.md)** — Renal vein thrombosis: nephrotic-range proteinuria from glomerular disease loses antithrombin in the urine, creating a hypercoagulable state that classically thromboses the renal vein.
 
 [^agnelli-2013-amplify-apixaban-vte]: Agnelli G, Buller HR, Cohen A, et al. Oral apixaban for the treatment of acute venous thromboembolism. *N Engl J Med.* 2013;369(9):799-808. [doi:10.1056/NEJMoa1302507](https://doi.org/10.1056/NEJMoa1302507) · [PubMed 23808982](https://pubmed.ncbi.nlm.nih.gov/23808982/)
 [^bauersachs-2010-einstein-rivaroxaban]: EINSTEIN Investigators. Oral rivaroxaban for symptomatic venous thromboembolism. *N Engl J Med.* 2010;363(26):2499-2510. [doi:10.1056/NEJMoa1007903](https://doi.org/10.1056/NEJMoa1007903) · [PubMed 21128814](https://pubmed.ncbi.nlm.nih.gov/21128814/)
