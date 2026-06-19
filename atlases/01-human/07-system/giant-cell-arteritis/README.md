@@ -250,6 +250,15 @@ cross_links:
   - target: 01-human/05-tissue/germinal-center
     relation: connects-to
     note: "The inflamed artery builds its own lymphoid tissue: giant cell arteritis forms tertiary lymphoid structures with germinal-center-like T- and B-cell aggregates in the adventitia, organising the local immune attack much as a lymph node germinal center does."
+  - target: 01-human/05-tissue/myocardium
+    relation: connects-to
+    note: "Coronary and aortic involvement: giant-cell arteritis inflames large arteries including the aorta and coronaries, causing aortitis with aneurysm and, rarely, myocardial ischaemia."
+  - target: 01-human/05-tissue/cortical-bone
+    relation: connects-to
+    note: "Steroids thin the bone: the prolonged high-dose glucocorticoids needed to control GCA cause osteoporosis and fracture, a major iatrogenic harm driving steroid-sparing tocilizumab use."
+  - target: 01-human/03-molecular/fibrinogen
+    relation: connects-to
+    note: "The sky-high ESR: acute-phase fibrinogen produced in the inflammation of GCA drives the markedly raised ESR and CRP that are central to its diagnosis and monitoring."
 ---
 
 # Giant Cell Arteritis
@@ -442,6 +451,9 @@ The temporal arteries supply scalp, temporalis muscle, and dura. In GCA, transmu
 - `connects-to` → **[Arterial Wall](../../05-tissue/arterial-wall/README.md)** — It inflames the artery wall itself: giant cell arteritis is a granulomatous vasculitis of the media and adventitia of medium and large arteries, where T cells and macrophage-derived giant cells destroy the elastic lamina.
 - `connects-to` → **[Cancer Chemotherapy](../../../03-medicine/01-modern/13-cancer/cancer-chemotherapy/README.md)** — A steroid-sparing immunosuppressant: methotrexate, a low-dose chemotherapy agent, is used to reduce glucocorticoid exposure in giant cell arteritis alongside IL-6 blockade.
 - `connects-to` → **[Atherosclerosis](../atherosclerosis/README.md)** — Two ways to thicken an artery: giant cell arteritis must be distinguished from atherosclerosis on vascular imaging, and the chronic vascular inflammation it causes also accelerates atherosclerotic disease.
+- `connects-to` → **[Myocardium](../../05-tissue/myocardium/README.md)** — Coronary and aortic involvement: giant-cell arteritis inflames large arteries including the aorta and coronaries, causing aortitis with aneurysm and, rarely, myocardial ischaemia.
+- `connects-to` → **[Cortical Bone](../../05-tissue/cortical-bone/README.md)** — Steroids thin the bone: the prolonged high-dose glucocorticoids needed to control GCA cause osteoporosis and fracture, a major iatrogenic harm driving steroid-sparing tocilizumab use.
+- `connects-to` → **[Fibrinogen](../../03-molecular/fibrinogen/README.md)** — The sky-high ESR: acute-phase fibrinogen produced in the inflammation of GCA drives the markedly raised ESR and CRP that are central to its diagnosis and monitoring.
 
 [^stone-2017-giact]: Stone JH, Tuckwell K, Dimonaco S, et al. Trial of tocilizumab in giant-cell arteritis. *N Engl J Med.* 2017;377(4):317-328. [doi:10.1056/NEJMoa1613849](https://doi.org/10.1056/NEJMoa1613849) · [PubMed 28745999](https://pubmed.ncbi.nlm.nih.gov/28745999/)
 [^weyand-2014-gca-review]: Weyand CM, Goronzy JJ. Clinical practice. Giant-cell arteritis and polymyalgia rheumatica. *N Engl J Med.* 2014;371(1):50-57. [doi:10.1056/NEJMcp1214926](https://doi.org/10.1056/NEJMcp1214926) · [PubMed 24988557](https://pubmed.ncbi.nlm.nih.gov/24988557/)
