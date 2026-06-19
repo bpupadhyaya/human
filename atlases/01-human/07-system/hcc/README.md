@@ -274,6 +274,15 @@ cross_links:
   - target: 01-human/07-system/colorectal-cancer
     relation: connects-to
     note: "The focal-liver-lesion differential: the liver is the dominant metastatic site for colorectal cancer, so a liver mass raises HCC in a cirrhotic but metastasis in others—distinguishing primary from secondary is pivotal."
+  - target: 01-human/03-molecular/myc
+    relation: connects-to
+    note: "Amplified oncogene: MYC amplification is a frequent driver of hepatocellular carcinoma, fuelling the ribosome biogenesis and proliferation that mark its more aggressive tumours."
+  - target: 01-human/03-molecular/akt
+    relation: connects-to
+    note: "PI3K/AKT survival: AKT activation, often through PTEN loss, cooperates with mTOR to drive HCC growth and survival, part of the pathway exploited by targeted and combination therapy."
+  - target: 01-human/03-molecular/cyclin-d1
+    relation: connects-to
+    note: "Cell-cycle drive: cyclin D1, often amplified downstream of Wnt/β-catenin signalling, pushes hepatocytes through the G1 checkpoint to drive the proliferation of hepatocellular carcinoma."
 ---
 
 # Hepatocellular Carcinoma
@@ -497,6 +506,9 @@ In high-risk patients (cirrhosis, HBV regardless of cirrhosis): ultrasound ± AF
 - `connects-to` → **[Arterial Wall](../../05-tissue/arterial-wall/README.md)** — A hypervascular tumour: HCC's intense arterial neovascularity from HIF and VEGF underlies its diagnostic arterial-phase enhancement, trans-arterial chemoembolisation (TACE) and antiangiogenic therapy.
 - `connects-to` → **[Pulmonary Arterial Hypertension](../pulmonary-arterial-hypertension/README.md)** — Portopulmonary hypertension: the cirrhosis and portal hypertension that breed HCC can also drive pulmonary arterial hypertension, a complication that critically affects liver-transplant candidacy.
 - `connects-to` → **[Colorectal Cancer](../colorectal-cancer/README.md)** — The focal-liver-lesion differential: the liver is the dominant metastatic site for colorectal cancer, so a liver mass raises HCC in a cirrhotic but metastasis in others—distinguishing primary from secondary is pivotal.
+- `connects-to` → **[MYC](../../03-molecular/myc/README.md)** — Amplified oncogene: MYC amplification is a frequent driver of hepatocellular carcinoma, fuelling the ribosome biogenesis and proliferation that mark its more aggressive tumours.
+- `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — PI3K/AKT survival: AKT activation, often through PTEN loss, cooperates with mTOR to drive HCC growth and survival, part of the pathway exploited by targeted and combination therapy.
+- `connects-to` → **[Cyclin D1](../../03-molecular/cyclin-d1/README.md)** — Cell-cycle drive: cyclin D1, often amplified downstream of Wnt/β-catenin signalling, pushes hepatocytes through the G1 checkpoint to drive the proliferation of hepatocellular carcinoma.
 
 [^llovet-2008-sorafenib]: Llovet JM, Ricci S, Mazzaferro V, et al. Sorafenib in advanced hepatocellular carcinoma. *N Engl J Med.* 2008;359(4):378-390. [doi:10.1056/NEJMoa0708857](https://doi.org/10.1056/NEJMoa0708857) · [PubMed 18650514](https://pubmed.ncbi.nlm.nih.gov/18650514/)
 [^finn-2020-imbrave150]: Finn RS, Qin S, Ikeda M, et al. Atezolizumab plus bevacizumab in unresectable hepatocellular carcinoma. *N Engl J Med.* 2020;382(20):1894-1905. [doi:10.1056/NEJMoa1915745](https://doi.org/10.1056/NEJMoa1915745) · [PubMed 32402160](https://pubmed.ncbi.nlm.nih.gov/32402160/)

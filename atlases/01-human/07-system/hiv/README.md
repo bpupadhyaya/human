@@ -283,6 +283,15 @@ cross_links:
   - target: 01-human/07-system/covid-19-disease
     relation: connects-to
     note: "A two-virus interaction: uncontrolled HIV with low CD4 counts worsens COVID-19 outcomes and may foster prolonged infection and viral evolution, while the pandemic disrupted HIV testing and care."
+  - target: 01-human/03-molecular/perforin
+    relation: connects-to
+    note: "Cytotoxic control: CD8 T cells use perforin and granzyme to kill HIV-infected cells, the immune response that contains viraemia and whose exhaustion accompanies disease progression."
+  - target: 01-human/03-molecular/tnf-alpha
+    relation: connects-to
+    note: "Chronic immune activation: persistently elevated TNF-α drives the systemic inflammation of HIV that underlies its accelerated cardiovascular disease and frailty even on effective therapy."
+  - target: 01-human/03-molecular/il-1b
+    relation: connects-to
+    note: "Inflammasome and reservoir: IL-1β from infected and bystander myeloid cells fuels the chronic inflammation of HIV, and pyroptotic IL-1β release drives the CD4 T-cell loss of the infection."
 ---
 
 # HIV
@@ -506,6 +515,9 @@ The **latent reservoir** — HIV integrated into quiescent resting memory CD4+ T
 - `connects-to` → **[NASH](../nash/README.md)** — Metabolic liver disease in HIV: HIV-related and antiretroviral lipodystrophy and insulin resistance drive NAFLD/NASH, now a leading liver problem in well-treated, ageing patients with HIV.
 - `connects-to` → **[HNSCC](../hnscc/README.md)** — HPV cancers beyond the cervix: the immunosuppression of HIV raises HPV-driven malignancies including oropharyngeal and anal squamous-cell cancers, broadening its oncogenic-virus risk.
 - `connects-to` → **[COVID-19 Disease](../covid-19-disease/README.md)** — A two-virus interaction: uncontrolled HIV with low CD4 counts worsens COVID-19 outcomes and may foster prolonged infection and viral evolution, while the pandemic disrupted HIV testing and care.
+- `connects-to` → **[Perforin](../../03-molecular/perforin/README.md)** — Cytotoxic control: CD8 T cells use perforin and granzyme to kill HIV-infected cells, the immune response that contains viraemia and whose exhaustion accompanies disease progression.
+- `connects-to` → **[TNF-α](../../03-molecular/tnf-alpha/README.md)** — Chronic immune activation: persistently elevated TNF-α drives the systemic inflammation of HIV that underlies its accelerated cardiovascular disease and frailty even on effective therapy.
+- `connects-to` → **[IL-1β](../../03-molecular/il-1b/README.md)** — Inflammasome and reservoir: IL-1β from infected and bystander myeloid cells fuels the chronic inflammation of HIV, and pyroptotic IL-1β release drives the CD4 T-cell loss of the infection.
 
 [^barre-sinoussi-1983-hiv-isolation]: Barré-Sinoussi F, Chermann JC, Rey F, et al. Isolation of a T-lymphotropic retrovirus from a patient at risk for acquired immune deficiency syndrome (AIDS). *Science.* 1983;220(4599):868-871. [doi:10.1126/science.6189183](https://doi.org/10.1126/science.6189183) · [PubMed 6189183](https://pubmed.ncbi.nlm.nih.gov/6189183/)
 [^ho-1995-viral-dynamics]: Ho DD, Neumann AU, Perelson AS, et al. Rapid turnover of plasma virions and CD4 lymphocytes in HIV-1 infection. *Nature.* 1995;373(6510):123-126. [doi:10.1038/373123a0](https://doi.org/10.1038/373123a0) · [PubMed 7816094](https://pubmed.ncbi.nlm.nih.gov/7816094/)
