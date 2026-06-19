@@ -263,6 +263,15 @@ cross_links:
   - target: 01-human/07-system/asthma
     relation: connects-to
     note: "Infection and the allergic airway: by transiently rewiring immunity, measles has been studied for whether it raises or lowers later asthma and allergy risk—an unresolved strand of the hygiene-hypothesis debate."
+  - target: 01-human/07-system/west-nile-virus
+    relation: connects-to
+    note: "Viruses that invade the brain: like West Nile virus, measles crosses into the CNS—causing acute encephalitis and the late, fatal SSPE—two RNA viruses illustrating neuroinvasion by different routes."
+  - target: 01-human/05-tissue/guillain-barre
+    relation: connects-to
+    note: "Post-infectious neurology: measles can trigger acute disseminated encephalomyelitis and Guillain-Barré-like demyelination, immune-mediated nerve injury following the acute infection."
+  - target: 01-human/07-system/glioblastoma
+    relation: connects-to
+    note: "An oncolytic platform: engineered measles virus that targets cancer cells (trialled in myeloma) is also studied against glioblastoma and ovarian cancer, the vaccine strain repurposed to lyse tumours."
 ---
 
 # Measles
@@ -489,6 +498,9 @@ Beyond immune amnesia (memory B cell depletion), MV causes acute immune suppress
 - `connects-to` → **[Multiple Myeloma](../multiple-myeloma/README.md)** — From pathogen to cancer cure: an engineered oncolytic measles virus selectively infects and lyses myeloma cells via the CD46 receptor, a striking repurposing of a vaccine-preventable virus as cancer therapy.
 - `connects-to` → **[Myocardium](../../05-tissue/myocardium/README.md)** — Measles can inflame the heart: myocarditis is a rare complication of severe measles, viral inflammation of the myocardium that can provoke arrhythmia and transient heart failure.
 - `connects-to` → **[Asthma](../asthma/README.md)** — Infection and the allergic airway: by transiently rewiring immunity, measles has been studied for whether it raises or lowers later asthma and allergy risk—an unresolved strand of the hygiene-hypothesis debate.
+- `connects-to` → **[West Nile Virus](../west-nile-virus/README.md)** — Viruses that invade the brain: like West Nile virus, measles crosses into the CNS—causing acute encephalitis and the late, fatal SSPE—two RNA viruses illustrating neuroinvasion by different routes.
+- `connects-to` → **[Guillain-Barré](../../05-tissue/guillain-barre/README.md)** — Post-infectious neurology: measles can trigger acute disseminated encephalomyelitis and Guillain-Barré-like demyelination, immune-mediated nerve injury following the acute infection.
+- `connects-to` → **[Glioblastoma](../glioblastoma/README.md)** — An oncolytic platform: engineered measles virus that targets cancer cells (trialled in myeloma) is also studied against glioblastoma and ovarian cancer, the vaccine strain repurposed to lyse tumours.
 
 [^panum-1847-faroe-measles]: Panum PL. Observations made during the epidemic of measles on the Faroe Islands in the year 1846. *Med Classics.* 1939;3:829-886.
 [^mina-2019-immune-amnesia]: Mina MJ, Kula T, Leng Y, et al. Measles virus infection diminishes preexisting antibodies that offer protection from other pathogens. *Science.* 2019;366(6465):599-606. [doi:10.1126/science.aay6485](https://doi.org/10.1126/science.aay6485) · [PubMed 31672891](https://pubmed.ncbi.nlm.nih.gov/31672891/)

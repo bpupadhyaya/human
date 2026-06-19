@@ -265,6 +265,15 @@ cross_links:
   - target: 01-human/03-molecular/complement-c3
     relation: connects-to
     note: "Inflammation that prunes synapses: activated microglia and complement C3 tag and eliminate synapses in Lewy-body dementia, a mechanism of the synaptic loss that drives the cognitive decline."
+  - target: 01-human/07-system/covid-19-disease
+    relation: connects-to
+    note: "Infection unmasks fragility: COVID-19 commonly precipitates delirium and accelerates cognitive decline in Lewy-body dementia, whose patients are acutely vulnerable to any systemic insult."
+  - target: 01-human/07-system/type-2-diabetes
+    relation: connects-to
+    note: "Metabolism and the ageing brain: type 2 diabetes and insulin resistance raise the risk and pace of dementias including Lewy-body disease, through vascular injury and impaired neuronal glucose handling."
+  - target: 01-human/05-tissue/cortical-bone
+    relation: connects-to
+    note: "Falls and fractures: the parkinsonism, orthostatic hypotension and cognitive fluctuations of Lewy-body dementia cause frequent falls, fracturing the cortical bone of already osteoporotic elderly patients."
 ---
 
 # Lewy Body Dementia
@@ -473,6 +482,9 @@ Approximately 25-50% of clinically diagnosed DLB cases have significant AD co-pa
 - `connects-to` → **[Cardiac Conduction System](../../05-tissue/cardiac-conduction-system/README.md)** — The synucleinopathy autonomic clue: LBD damages cardiac sympathetic nerves and autonomic control, causing orthostatic hypotension and heart-rate dysregulation—cardiac sympathetic denervation is a diagnostic marker.
 - `connects-to` → **[LRRK2](../../03-molecular/lrrk2/README.md)** — Shared genetics with Parkinson's: LRRK2 mutations cause familial parkinsonism and contribute to Lewy-body pathology, tying the genetics of synucleinopathy across Parkinson's disease and dementia with Lewy bodies.
 - `connects-to` → **[Complement C3](../../03-molecular/complement-c3/README.md)** — Inflammation that prunes synapses: activated microglia and complement C3 tag and eliminate synapses in Lewy-body dementia, a mechanism of the synaptic loss that drives the cognitive decline.
+- `connects-to` → **[COVID-19 Disease](../covid-19-disease/README.md)** — Infection unmasks fragility: COVID-19 commonly precipitates delirium and accelerates cognitive decline in Lewy-body dementia, whose patients are acutely vulnerable to any systemic insult.
+- `connects-to` → **[Type 2 Diabetes](../type-2-diabetes/README.md)** — Metabolism and the ageing brain: type 2 diabetes and insulin resistance raise the risk and pace of dementias including Lewy-body disease, through vascular injury and impaired neuronal glucose handling.
+- `connects-to` → **[Cortical Bone](../../05-tissue/cortical-bone/README.md)** — Falls and fractures: the parkinsonism, orthostatic hypotension and cognitive fluctuations of Lewy-body dementia cause frequent falls, fracturing the cortical bone of already osteoporotic elderly patients.
 
 [^mckeith-2017-dlb-criteria]: McKeith IG, Boeve BF, Dickson DW, et al. Diagnosis and management of dementia with Lewy bodies: Fourth consensus report of the DLB Consortium. *Neurology.* 2017;89(1):88-100. [doi:10.1212/WNL.0000000000004058](https://doi.org/10.1212/WNL.0000000000004058) · [PubMed 28592453](https://pubmed.ncbi.nlm.nih.gov/28592453/)
 [^spillantini-1997-lewy-body]: Spillantini MG, Schmidt ML, Lee VM, Trojanowski JQ, Jakes R, Goedert M. Alpha-synuclein in Lewy bodies. *Nature.* 1997;388(6645):839-840. [doi:10.1038/42166](https://doi.org/10.1038/42166) · [PubMed 9278044](https://pubmed.ncbi.nlm.nih.gov/9278044/)
