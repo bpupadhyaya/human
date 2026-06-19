@@ -267,6 +267,15 @@ cross_links:
   - target: 01-human/07-system/heart-failure
     relation: connects-to
     note: "The common final pathway: heart failure is where cardiovascular disease converges—the heart can no longer meet the body's circulatory demand, the shared endpoint of ischaemia, hypertension and valve disease."
+  - target: 01-human/07-system/hypertension
+    relation: connects-to
+    note: "The dominant modifiable risk: chronic hypertension is the single biggest driver of cardiovascular disease, accelerating atherosclerosis, hypertrophying the heart and damaging vessels throughout the circulation."
+  - target: 01-human/07-system/stroke
+    relation: connects-to
+    note: "The brain end of vascular disease: stroke is cardiovascular disease striking the brain—atherosclerosis, atrial fibrillation and hypertension throwing clots or rupturing vessels that supply neural tissue."
+  - target: 01-human/07-system/venous-thromboembolism
+    relation: connects-to
+    note: "The venous side of circulation: deep-vein thrombosis and pulmonary embolism are the cardiovascular system's venous failure, clots forming in stagnant veins and lodging in the lungs."
 taxonomy:
   uberon: "UBERON:0004535"
   fma: "FMA:7161"
@@ -432,6 +441,9 @@ Each major vascular bed has **autoregulation** — a local mechanism that holds 
 - `connects-to` → **[Myocardium](../../05-tissue/myocardium/README.md)** — The contractile engine: the myocardium is the heart muscle that pumps blood through the cardiovascular system, and its failure—through infarction, cardiomyopathy or hypertrophy—drives most cardiac disease.
 - `connects-to` → **[Endocardium](../../05-tissue/endocardium/README.md)** — The valves and inner lining: the endocardium forms the heart valves that keep blood moving in one direction and lines the chambers, the site of valvular disease, endocarditis and mural thrombus.
 - `connects-to` → **[Heart Failure](../heart-failure/README.md)** — The common final pathway: heart failure is where cardiovascular disease converges—the heart can no longer meet the body's circulatory demand, the shared endpoint of ischaemia, hypertension and valve disease.
+- `connects-to` → **[Hypertension](../hypertension/README.md)** — The dominant modifiable risk: chronic hypertension is the single biggest driver of cardiovascular disease, accelerating atherosclerosis, hypertrophying the heart and damaging vessels throughout the circulation.
+- `connects-to` → **[Stroke](../stroke/README.md)** — The brain end of vascular disease: stroke is cardiovascular disease striking the brain—atherosclerosis, atrial fibrillation and hypertension throwing clots or rupturing vessels that supply neural tissue.
+- `connects-to` → **[Venous Thromboembolism](../venous-thromboembolism/README.md)** — The venous side of circulation: deep-vein thrombosis and pulmonary embolism are the cardiovascular system's venous failure, clots forming in stagnant veins and lodging in the lungs.
 
 ## Pathology
 

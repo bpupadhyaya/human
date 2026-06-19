@@ -261,6 +261,15 @@ cross_links:
   - target: 01-human/07-system/systemic-lupus-erythematosus
     relation: connects-to
     note: "Lupus nephritis scars the kidney: immune-complex glomerulonephritis is a leading cause of chronic kidney disease in young women with SLE, sometimes progressing to end-stage failure."
+  - target: 01-human/07-system/type-1-diabetes
+    relation: connects-to
+    note: "Diabetic nephropathy from youth: decades of type 1 diabetes scar the glomeruli into a leading cause of end-stage kidney disease, the same diabetic mechanism as type 2 but starting earlier in life."
+  - target: 01-human/07-system/obesity
+    relation: connects-to
+    note: "Obesity-related glomerulopathy: excess adiposity drives glomerular hyperfiltration and a secondary focal segmental glomerulosclerosis, an increasingly common and independent path to chronic kidney disease."
+  - target: 01-human/05-tissue/bone-marrow
+    relation: connects-to
+    note: "Where renal anaemia bites: failing kidneys make too little erythropoietin, starving the bone marrow of the signal to produce red cells—the basis of the anaemia that tracks declining kidney function."
 ---
 
 # Chronic Kidney Disease
@@ -418,6 +427,9 @@ As nephron mass decreases, impaired renal functions accumulate:
 - `connects-to` → **[Myocardium](../../05-tissue/myocardium/README.md)** — Uraemia weakens the heart muscle: CKD drives left ventricular hypertrophy and myocardial fibrosis through pressure-volume overload, FGF23 and uraemic toxins, making cardiac death the commonest outcome of kidney disease.
 - `connects-to` → **[Multiple Myeloma](../multiple-myeloma/README.md)** — Light chains clog the kidney: multiple myeloma's monoclonal free light chains precipitate as casts (cast nephropathy) causing CKD, so unexplained renal failure with anaemia warrants a myeloma screen.
 - `connects-to` → **[Systemic Lupus Erythematosus](../systemic-lupus-erythematosus/README.md)** — Lupus nephritis scars the kidney: immune-complex glomerulonephritis is a leading cause of chronic kidney disease in young women with SLE, sometimes progressing to end-stage failure.
+- `connects-to` → **[Type 1 Diabetes](../type-1-diabetes/README.md)** — Diabetic nephropathy from youth: decades of type 1 diabetes scar the glomeruli into a leading cause of end-stage kidney disease, the same diabetic mechanism as type 2 but starting earlier in life.
+- `connects-to` → **[Obesity](../obesity/README.md)** — Obesity-related glomerulopathy: excess adiposity drives glomerular hyperfiltration and a secondary focal segmental glomerulosclerosis, an increasingly common and independent path to chronic kidney disease.
+- `connects-to` → **[Bone Marrow](../../05-tissue/bone-marrow/README.md)** — Where renal anaemia bites: failing kidneys make too little erythropoietin, starving the bone marrow of the signal to produce red cells—the basis of the anaemia that tracks declining kidney function.
 
 ## Pathology
 
