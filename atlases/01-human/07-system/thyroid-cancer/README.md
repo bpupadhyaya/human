@@ -250,6 +250,15 @@ cross_links:
   - target: 01-human/05-tissue/alveolus
     relation: connects-to
     note: "Follicular thyroid cancer reaches the lung: differentiated thyroid cancers spread haematogenously to the lungs, seeding miliary or nodular deposits in the alveolar parenchyma that often still take up radioactive iodine for treatment."
+  - target: 01-human/05-tissue/germinal-center
+    relation: connects-to
+    note: "Hashimoto's link: chronic lymphocytic thyroiditis fills the gland with germinal centres, both predisposing to papillary thyroid cancer and forming the soil from which primary thyroid lymphoma arises."
+  - target: 01-human/07-system/dlbcl
+    relation: connects-to
+    note: "Lymphoma in the same gland: a rapidly enlarging thyroid mass in long-standing Hashimoto's thyroiditis is often a primary thyroid diffuse large B-cell lymphoma, not a carcinoma—a crucial distinction with a very different treatment."
+  - target: 01-human/07-system/aml
+    relation: connects-to
+    note: "A late cost of cure: high cumulative radioactive-iodine doses for thyroid cancer slightly raise the risk of secondary leukaemias such as AML, a marrow consequence of the radioisotope that treats the thyroid tumour."
 ---
 
 # Thyroid Cancer
@@ -471,6 +480,9 @@ Calcitonin doubling time <6 months → poor prognosis → early systemic therapy
 - `connects-to` → **[NSCLC](../nsclc/README.md)** — Shared targetable fusions: RET, NTRK and BRAF alterations drive both thyroid cancer and non-small-cell lung cancer, so selpercatinib, larotrectinib and dabrafenib cross over between the two—one druggable lesion, two organs.
 - `connects-to` → **[Melanoma](../melanoma/README.md)** — A BRAF V600E partnership: papillary thyroid cancer and melanoma both frequently carry BRAF V600E, and the BRAF/MEK inhibitors developed for melanoma now treat BRAF-mutant (including anaplastic) thyroid cancer.
 - `connects-to` → **[Alveolus](../../05-tissue/alveolus/README.md)** — Follicular thyroid cancer reaches the lung: differentiated thyroid cancers spread haematogenously to the lungs, seeding miliary or nodular deposits in the alveolar parenchyma that often still take up radioactive iodine for treatment.
+- `connects-to` → **[Germinal Center](../../05-tissue/germinal-center/README.md)** — Hashimoto's link: chronic lymphocytic thyroiditis fills the gland with germinal centres, both predisposing to papillary thyroid cancer and forming the soil from which primary thyroid lymphoma arises.
+- `connects-to` → **[DLBCL](../dlbcl/README.md)** — Lymphoma in the same gland: a rapidly enlarging thyroid mass in long-standing Hashimoto's thyroiditis is often a primary thyroid diffuse large B-cell lymphoma, not a carcinoma—a crucial distinction with a very different treatment.
+- `connects-to` → **[AML](../aml/README.md)** — A late cost of cure: high cumulative radioactive-iodine doses for thyroid cancer slightly raise the risk of secondary leukaemias such as AML, a marrow consequence of the radioisotope that treats the thyroid tumour.
 
 [^schlumberger-2015-lenvatinib]: Schlumberger M, Tahara M, Wirth LJ, et al. Lenvatinib versus placebo in radioiodine-refractory differentiated thyroid cancer. *N Engl J Med.* 2015;372(7):621-630. [doi:10.1056/NEJMoa1406470](https://doi.org/10.1056/NEJMoa1406470) · [PubMed 25671254](https://pubmed.ncbi.nlm.nih.gov/25671254/)
 [^subbiah-2018-atc-dabrafenib]: Subbiah V, Kreitman RJ, Wainberg ZA, et al. Dabrafenib and trametinib treatment in patients with locally advanced or metastatic BRAF V600-mutant anaplastic thyroid cancer. *J Clin Oncol.* 2018;36(1):7-13. [doi:10.1200/JCO.2017.73.6785](https://doi.org/10.1200/JCO.2017.73.6785) · [PubMed 28892432](https://pubmed.ncbi.nlm.nih.gov/28892432/)

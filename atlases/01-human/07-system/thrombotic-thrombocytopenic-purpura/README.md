@@ -256,6 +256,15 @@ cross_links:
   - target: 01-human/07-system/systemic-sclerosis
     relation: connects-to
     note: "Another thrombotic microangiopathy: scleroderma renal crisis causes microangiopathic haemolysis and thrombocytopenia resembling TTP but with normal ADAMTS13, so systemic sclerosis sits in the differential of an unexplained TMA."
+  - target: 01-human/05-tissue/arterial-wall
+    relation: connects-to
+    note: "Disseminated arteriolar occlusion: TTP's platelet-VWF microthrombi lodge in terminal arterioles throughout the body—brain, heart, kidney—and this systemic small-vessel obstruction drives its multi-organ ischaemia."
+  - target: 01-human/07-system/gastric-cancer
+    relation: connects-to
+    note: "Cancer-associated microangiopathy: widely metastatic adenocarcinomas—classically gastric cancer—can trigger a microangiopathic haemolytic anaemia mimicking TTP, but with normal ADAMTS13 and no response to plasma exchange."
+  - target: 01-human/07-system/malaria
+    relation: connects-to
+    note: "A TMA mimic in the returning traveller: severe falciparum malaria sequesters parasitised red cells in the microvasculature, producing thrombocytopenia and haemolysis that can be mistaken for a thrombotic microangiopathy."
 ---
 
 # Thrombotic Thrombocytopenic Purpura
@@ -490,6 +499,9 @@ In healthy individuals, ADAMTS13 (~190 kDa plasma glycoprotein; hepatic synthesi
 - `connects-to` → **[Glomerulus](../../05-tissue/glomerulus/README.md)** — Microthrombi clog the kidney's filters: the VWF-platelet microthrombi of TTP lodge in glomerular and arteriolar capillaries causing renal impairment, though kidney injury is typically milder than in its cousin aHUS.
 - `connects-to` → **[Myocardium](../../05-tissue/myocardium/README.md)** — Its clots stop the heart: microvascular thrombi in the myocardium during acute TTP cause troponin rise, arrhythmia and sudden cardiac death—a leading cause of mortality that justifies urgent plasma exchange.
 - `connects-to` → **[Systemic Sclerosis](../systemic-sclerosis/README.md)** — Another thrombotic microangiopathy: scleroderma renal crisis causes microangiopathic haemolysis and thrombocytopenia resembling TTP but with normal ADAMTS13, so systemic sclerosis sits in the differential of an unexplained TMA.
+- `connects-to` → **[Arterial Wall](../../05-tissue/arterial-wall/README.md)** — Disseminated arteriolar occlusion: TTP's platelet-VWF microthrombi lodge in terminal arterioles throughout the body—brain, heart, kidney—and this systemic small-vessel obstruction drives its multi-organ ischaemia.
+- `connects-to` → **[Gastric Cancer](../gastric-cancer/README.md)** — Cancer-associated microangiopathy: widely metastatic adenocarcinomas—classically gastric cancer—can trigger a microangiopathic haemolytic anaemia mimicking TTP, but with normal ADAMTS13 and no response to plasma exchange.
+- `connects-to` → **[Malaria](../malaria/README.md)** — A TMA mimic in the returning traveller: severe falciparum malaria sequesters parasitised red cells in the microvasculature, producing thrombocytopenia and haemolysis that can be mistaken for a thrombotic microangiopathy.
 
 ---
 
