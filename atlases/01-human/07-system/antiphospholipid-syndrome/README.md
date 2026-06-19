@@ -274,6 +274,15 @@ cross_links:
   - target: 01-human/07-system/systemic-sclerosis
     relation: connects-to
     note: "Overlapping connective-tissue autoimmunity: antiphospholipid antibodies and a thrombotic vasculopathy occur in systemic sclerosis and other connective-tissue diseases, compounding their own microvascular injury."
+  - target: 01-human/03-molecular/von-willebrand-factor
+    relation: connects-to
+    note: "Endothelial activation: antiphospholipid antibodies activate endothelium to release von Willebrand factor, promoting the platelet adhesion that contributes to APS thrombosis."
+  - target: 01-human/03-molecular/nitric-oxide
+    relation: connects-to
+    note: "eNOS inhibition: antiphospholipid antibodies suppress endothelial nitric oxide synthase, cutting the vasodilator, antithrombotic nitric oxide that normally protects the vessel wall in APS."
+  - target: 01-human/03-molecular/fibrinogen
+    relation: connects-to
+    note: "Clot substrate: the thrombin generation driven by antiphospholipid antibodies converts fibrinogen to fibrin, building the venous and arterial clots that define the syndrome."
 ---
 
 # Antiphospholipid Syndrome
@@ -505,6 +514,9 @@ In APS, anti-B2GPI IgG bound to B2GPI on phospholipid surfaces converts this ant
 - `connects-to` → **[Polycythemia Vera](../polycythemia-vera/README.md)** — Unusual-site thrombosis workup: antiphospholipid syndrome and JAK2-mutant myeloproliferative neoplasms like polycythaemia vera are both sought in Budd-Chiari and cerebral-vein thrombosis, two acquired causes of clots in odd places.
 - `connects-to` → **[Cortical Bone](../../05-tissue/cortical-bone/README.md)** — Osteonecrosis: antiphospholipid microthrombi—and the corticosteroids often used with it—starve the blood supply to bone, causing avascular necrosis (osteonecrosis) of the femoral head and other cortical bone.
 - `connects-to` → **[Systemic Sclerosis](../systemic-sclerosis/README.md)** — Overlapping connective-tissue autoimmunity: antiphospholipid antibodies and a thrombotic vasculopathy occur in systemic sclerosis and other connective-tissue diseases, compounding their own microvascular injury.
+- `connects-to` → **[Von Willebrand Factor](../../03-molecular/von-willebrand-factor/README.md)** — Endothelial activation: antiphospholipid antibodies activate endothelium to release von Willebrand factor, promoting the platelet adhesion that contributes to APS thrombosis.
+- `connects-to` → **[Nitric Oxide](../../03-molecular/nitric-oxide/README.md)** — eNOS inhibition: antiphospholipid antibodies suppress endothelial nitric oxide synthase, cutting the vasodilator, antithrombotic nitric oxide that normally protects the vessel wall in APS.
+- `connects-to` → **[Fibrinogen](../../03-molecular/fibrinogen/README.md)** — Clot substrate: the thrombin generation driven by antiphospholipid antibodies converts fibrinogen to fibrin, building the venous and arterial clots that define the syndrome.
 
 [^miyakis-2006-sydney-aps]: Miyakis S, Lockshin MD, Atsumi T, et al. International consensus statement on an update of the classification criteria for definite antiphospholipid syndrome (APS). *J Thromb Haemost.* 2006;4(2):295-306. [doi:10.1111/j.1538-7836.2006.01753.x](https://doi.org/10.1111/j.1538-7836.2006.01753.x) · [PubMed 16420554](https://pubmed.ncbi.nlm.nih.gov/16420554/)
 [^barbhaiya-2023-acreular-aps]: Barbhaiya M, Zuily S, Naden R, et al. The 2023 ACR/EULAR antiphospholipid syndrome classification criteria. *Ann Rheum Dis.* 2023;82(10):1258-1270. [doi:10.1136/ard-2023-224609](https://doi.org/10.1136/ard-2023-224609) · [PubMed 37643823](https://pubmed.ncbi.nlm.nih.gov/37643823/)

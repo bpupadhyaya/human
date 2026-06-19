@@ -283,6 +283,15 @@ cross_links:
   - target: 01-human/07-system/panic-disorder
     relation: connects-to
     note: "Anxiety underpinning restriction: anorexia nervosa is highly comorbid with panic and other anxiety disorders, sharing serotonergic and stress-axis dysregulation, and fear around eating drives much of the restriction."
+  - target: 01-human/03-molecular/npy
+    relation: connects-to
+    note: "Hunger signal overridden: neuropeptide Y, the brain's most potent orexigenic peptide, rises in the starved anorexic state yet fails to restore eating, highlighting the disorder's disrupted appetite regulation."
+  - target: 01-human/03-molecular/oxytocin
+    relation: connects-to
+    note: "Social and feeding peptide: oxytocin signalling is altered in anorexia nervosa, linked to its disturbed social cognition, anxiety and the abnormal processing of food and body-image cues."
+  - target: 01-human/03-molecular/adiponectin
+    relation: connects-to
+    note: "Adipose paradox: despite minimal fat mass, adiponectin is often paradoxically elevated in anorexia nervosa, part of the metabolic adaptation to chronic starvation."
 ---
 
 # Anorexia Nervosa
@@ -512,6 +521,9 @@ In healthy individuals, food cues activate the mesolimbic reward circuit (VTA �
 - `connects-to` → **[COVID-19 Disease](../covid-19-disease/README.md)** — A pandemic surge: COVID-19 lockdowns, isolation and disrupted routines drove a marked rise in anorexia nervosa presentations and severity, especially among adolescents.
 - `connects-to` → **[Intestinal Epithelium](../../05-tissue/intestinal-epithelium/README.md)** — Starvation atrophies the gut: prolonged restriction thins the intestinal epithelium and slows gastric emptying, causing malabsorption and bloating—and forcing cautious refeeding to avoid the refeeding syndrome.
 - `connects-to` → **[Panic Disorder](../panic-disorder/README.md)** — Anxiety underpinning restriction: anorexia nervosa is highly comorbid with panic and other anxiety disorders, sharing serotonergic and stress-axis dysregulation, and fear around eating drives much of the restriction.
+- `connects-to` → **[Neuropeptide Y](../../03-molecular/npy/README.md)** — Hunger signal overridden: neuropeptide Y, the brain's most potent orexigenic peptide, rises in the starved anorexic state yet fails to restore eating, highlighting the disorder's disrupted appetite regulation.
+- `connects-to` → **[Oxytocin](../../03-molecular/oxytocin/README.md)** — Social and feeding peptide: oxytocin signalling is altered in anorexia nervosa, linked to its disturbed social cognition, anxiety and the abnormal processing of food and body-image cues.
+- `connects-to` → **[Adiponectin](../../03-molecular/adiponectin/README.md)** — Adipose paradox: despite minimal fat mass, adiponectin is often paradoxically elevated in anorexia nervosa, part of the metabolic adaptation to chronic starvation.
 
 [^treasure-2010-an-lancet]: Treasure J, Claudino AM, Zucker N. Eating disorders. *Lancet.* 2010;375(9714):583-593. [doi:10.1016/S0140-6736(09)61748-7](https://doi.org/10.1016/S0140-6736(09)61748-7) · [PubMed 19931176](https://pubmed.ncbi.nlm.nih.gov/19931176/)
 [^lock-2010-fbt-an]: Lock J, Le Grange D, Agras WS, et al. Randomized clinical trial comparing family-based treatment with adolescent-focused individual therapy for adolescents with anorexia nervosa. *Arch Gen Psychiatry.* 2010;67(10):1025-1032. [doi:10.1001/archgenpsychiatry.2010.128](https://doi.org/10.1001/archgenpsychiatry.2010.128) · [PubMed 20921118](https://pubmed.ncbi.nlm.nih.gov/20921118/)
