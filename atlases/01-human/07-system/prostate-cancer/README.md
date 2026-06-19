@@ -277,6 +277,15 @@ cross_links:
   - target: 01-human/05-tissue/peripheral-nerve
     relation: connects-to
     note: "Metastatic cord compression: prostate cancer's bone-tropic spinal metastases can collapse vertebrae and compress the spinal cord and nerve roots, an oncologic emergency threatening permanent paralysis."
+  - target: 01-human/03-molecular/ezh2
+    relation: connects-to
+    note: "Epigenetic driver: EZH2 overexpression silences tumour-suppressor genes and helps drive the lethal neuroendocrine transdifferentiation of castration-resistant prostate cancer."
+  - target: 01-human/03-molecular/cyclin-d1
+    relation: connects-to
+    note: "Cell-cycle drive: cyclin D1-CDK4/6 activity pushes prostate cancer cells through the G1 checkpoint, cooperating with androgen-receptor signalling to fuel proliferation."
+  - target: 01-human/03-molecular/hif-1alpha
+    relation: connects-to
+    note: "Tumour hypoxia: HIF-1α stabilised in poorly oxygenated prostate tumours promotes angiogenesis, glycolysis and resistance to radiotherapy and androgen deprivation."
 ---
 
 # Prostate Cancer
@@ -490,6 +499,9 @@ cross_links:
 - `connects-to` → **[Retinoblastoma](../retinoblastoma/README.md)** — RB1 and lethal transformation: loss of RB1, the retinoblastoma gene, drives treatment-emergent neuroendocrine (small-cell) prostate cancer, an aggressive androgen-independent transformation under therapy pressure.
 - `connects-to` → **[Atherosclerosis](../atherosclerosis/README.md)** — The cardiovascular cost of ADT: androgen-deprivation therapy induces metabolic syndrome and accelerates atherosclerosis, so cardiovascular disease is a leading cause of non-cancer death in prostate cancer survivors.
 - `connects-to` → **[Peripheral Nerve](../../05-tissue/peripheral-nerve/README.md)** — Metastatic cord compression: prostate cancer's bone-tropic spinal metastases can collapse vertebrae and compress the spinal cord and nerve roots, an oncologic emergency threatening permanent paralysis.
+- `connects-to` → **[EZH2](../../03-molecular/ezh2/README.md)** — Epigenetic driver: EZH2 overexpression silences tumour-suppressor genes and helps drive the lethal neuroendocrine transdifferentiation of castration-resistant prostate cancer.
+- `connects-to` → **[Cyclin D1](../../03-molecular/cyclin-d1/README.md)** — Cell-cycle drive: cyclin D1-CDK4/6 activity pushes prostate cancer cells through the G1 checkpoint, cooperating with androgen-receptor signalling to fuel proliferation.
+- `connects-to` → **[HIF-1α](../../03-molecular/hif-1alpha/README.md)** — Tumour hypoxia: HIF-1α stabilised in poorly oxygenated prostate tumours promotes angiogenesis, glycolysis and resistance to radiotherapy and androgen deprivation.
 
 [^beer-2014-prevail]: Beer TM, Armstrong AJ, Rathkopf D, et al. Enzalutamide in metastatic prostate cancer before chemotherapy. *N Engl J Med.* 2014;371(5):424-433. [doi:10.1056/NEJMoa1405095](https://doi.org/10.1056/NEJMoa1405095) · [PubMed 24881730](https://pubmed.ncbi.nlm.nih.gov/24881730/)
 [^sartor-2021-vision]: Sartor O, de Bono J, Chi KN, et al. Lutetium-PSMA-617 for metastatic castration-resistant prostate cancer. *N Engl J Med.* 2021;385(12):1091-1103. [doi:10.1056/NEJMoa2107322](https://doi.org/10.1056/NEJMoa2107322) · [PubMed 34161051](https://pubmed.ncbi.nlm.nih.gov/34161051/)

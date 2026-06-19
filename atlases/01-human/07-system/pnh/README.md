@@ -271,6 +271,15 @@ cross_links:
   - target: 01-human/07-system/covid-19-disease
     relation: connects-to
     note: "Complement and clots collide: COVID-19 activates complement and is prothrombotic, compounding PNH, while patients on the complement inhibitor eculizumab need meningococcal protection against breakthrough infection."
+  - target: 01-human/03-molecular/fibrinogen
+    relation: connects-to
+    note: "Thrombotic engine: complement activation, NO depletion and platelet activation in PNH create a prothrombotic, fibrinogen-rich state, and thrombosis is the leading cause of death in the disease."
+  - target: 01-human/07-system/myelofibrosis
+    relation: connects-to
+    note: "Clonal marrow spectrum: PNH and JAK2-mutant myelofibrosis both arise from clonal haematopoiesis and are sought together in unusual-site thrombosis and marrow-failure workups."
+  - target: 01-human/07-system/polycythemia-vera
+    relation: connects-to
+    note: "Unusual-site clots: like polycythaemia vera, PNH is a clonal blood disorder routinely screened for in Budd-Chiari and splanchnic-vein thrombosis presentations."
 ---
 
 # Paroxysmal Nocturnal Hemoglobinuria
@@ -447,6 +456,9 @@ When PIGA is mutated in an HSC → all progeny cells (RBCs, WBCs, platelets) of 
 - `connects-to` → **[Antiphospholipid Syndrome](../antiphospholipid-syndrome/README.md)** — Acquired thrombophilia differential: like antiphospholipid syndrome, PNH causes thrombosis at unusual sites, so both are screened in unexplained clots—PNH distinguished by the haemolysis driving its hypercoagulability.
 - `connects-to` → **[Essential Thrombocythemia](../essential-thrombocythemia/README.md)** — Splanchnic-thrombosis workup: PNH and JAK2-mutant myeloproliferative neoplasms such as essential thrombocythaemia are both routinely sought in Budd-Chiari and portal-vein thrombosis, two clonal causes of unusual-site clots.
 - `connects-to` → **[COVID-19 Disease](../covid-19-disease/README.md)** — Complement and clots collide: COVID-19 activates complement and is prothrombotic, compounding PNH, while patients on the complement inhibitor eculizumab need meningococcal protection against breakthrough infection.
+- `connects-to` → **[Fibrinogen](../../03-molecular/fibrinogen/README.md)** — Thrombotic engine: complement activation, NO depletion and platelet activation in PNH create a prothrombotic, fibrinogen-rich state, and thrombosis is the leading cause of death in the disease.
+- `connects-to` → **[Myelofibrosis](../myelofibrosis/README.md)** — Clonal marrow spectrum: PNH and JAK2-mutant myelofibrosis both arise from clonal haematopoiesis and are sought together in unusual-site thrombosis and marrow-failure workups.
+- `connects-to` → **[Polycythemia Vera](../polycythemia-vera/README.md)** — Unusual-site clots: like polycythaemia vera, PNH is a clonal blood disorder routinely screened for in Budd-Chiari and splanchnic-vein thrombosis presentations.
 
 ---
 
