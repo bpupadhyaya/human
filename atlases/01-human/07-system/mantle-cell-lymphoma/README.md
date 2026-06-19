@@ -250,6 +250,15 @@ cross_links:
   - target: 03-medicine/01-modern/13-cancer/checkpoint-inhibitors
     relation: connects-to
     note: "Largely checkpoint-resistant: unlike Hodgkin lymphoma, mantle cell lymphoma responds poorly to PD-1 inhibitors as monotherapy, so its immunotherapy centres on CD19 CAR-T and bispecific antibodies rather than checkpoint blockade."
+  - target: 01-human/05-tissue/myocardium
+    relation: connects-to
+    note: "BTK-inhibitor cardiotoxicity: ibrutinib, a mainstay of mantle-cell lymphoma, causes atrial fibrillation, ventricular arrhythmia and cardiomyopathy, so cardiac monitoring accompanies treatment."
+  - target: 01-human/05-tissue/hepatic-lobule
+    relation: connects-to
+    note: "Hepatic and splenic infiltration: mantle-cell lymphoma spreads widely, infiltrating the liver's portal tracts and the hepatic lobule along with marrow, spleen and gut."
+  - target: 01-human/07-system/ptcl
+    relation: connects-to
+    note: "Aggressive lymphomas, opposite lineages: mantle-cell lymphoma is an aggressive B-cell lymphoma while peripheral T-cell lymphoma is its T-cell counterpart, both hard to cure and often relapsing."
 ---
 
 # Mantle Cell Lymphoma
@@ -449,6 +458,9 @@ For SOX11−, mutated IGHV, non-bulky, asymptomatic nnMCL: Observation is safe; 
 - `connects-to` → **[Cardiac Conduction System](../../05-tissue/cardiac-conduction-system/README.md)** — Its targeted drug provokes arrhythmia: the BTK inhibitors that treat mantle cell lymphoma—ibrutinib above all—commonly cause atrial fibrillation through off-target effects on cardiac signalling, so the conduction system is a key toxicity site of MCL therapy.
 - `connects-to` → **[ALL](../all/README.md)** — When it turns acute-leukaemia-like: the blastoid and pleomorphic variants of mantle cell lymphoma behave aggressively with a leukaemic phase and CNS spread, resembling acute lymphoblastic leukaemia and demanding similarly intensive, transplant-based treatment.
 - `connects-to` → **[Checkpoint Inhibitors](../../../03-medicine/01-modern/13-cancer/checkpoint-inhibitors/README.md)** — Largely checkpoint-resistant: unlike Hodgkin lymphoma, mantle cell lymphoma responds poorly to PD-1 inhibitors as monotherapy, so its immunotherapy centres on CD19 CAR-T and bispecific antibodies rather than checkpoint blockade.
+- `connects-to` → **[Myocardium](../../05-tissue/myocardium/README.md)** — BTK-inhibitor cardiotoxicity: ibrutinib, a mainstay of mantle-cell lymphoma, causes atrial fibrillation, ventricular arrhythmia and cardiomyopathy, so cardiac monitoring accompanies treatment.
+- `connects-to` → **[Hepatic Lobule](../../05-tissue/hepatic-lobule/README.md)** — Hepatic and splenic infiltration: mantle-cell lymphoma spreads widely, infiltrating the liver's portal tracts and the hepatic lobule along with marrow, spleen and gut.
+- `connects-to` → **[PTCL](../ptcl/README.md)** — Aggressive lymphomas, opposite lineages: mantle-cell lymphoma is an aggressive B-cell lymphoma while peripheral T-cell lymphoma is its T-cell counterpart, both hard to cure and often relapsing.
 
 ---
 
