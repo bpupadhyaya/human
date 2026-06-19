@@ -247,6 +247,15 @@ cross_links:
   - target: 01-human/05-tissue/cortical-bone
     relation: connects-to
     note: "It erodes bone at the joint: RANKL-driven osteoclasts in the rheumatoid pannus carve marginal bone erosions and periarticular osteopenia, while chronic inflammation and steroids add systemic bone loss."
+  - target: 01-human/05-tissue/germinal-center
+    relation: connects-to
+    note: "It builds lymphoid follicles in the joint: rheumatoid synovium forms ectopic germinal centres where autoreactive B cells produce anti-citrullinated-protein antibodies, which is why B-cell depletion with rituximab controls the disease."
+  - target: 01-human/07-system/multiple-sclerosis
+    relation: connects-to
+    note: "A caution for its TNF blockers: the anti-TNF biologics central to rheumatoid arthritis can unmask or worsen demyelination, so multiple sclerosis contraindicates them—one cytokine blockade helping joints yet harming nerves."
+  - target: 01-human/07-system/immune-thrombocytopenia
+    relation: connects-to
+    note: "Felty and beyond: rheumatoid arthritis can drive secondary immune cytopenias—Felty syndrome pairs RA with splenomegaly and neutropenia, and immune thrombocytopenia also complicates it as the same autoimmunity turns on blood cells."
 ---
 
 # Rheumatoid Arthritis
@@ -465,6 +474,9 @@ RA patients have:
 - `connects-to` → **[Cancer Chemotherapy](../../../03-medicine/01-modern/13-cancer/cancer-chemotherapy/README.md)** — Methotrexate anchors treatment: weekly low-dose methotrexate, a chemotherapy antimetabolite, is the first-line DMARD for rheumatoid arthritis, controlling synovitis and serving as the backbone for combination with biologics.
 - `connects-to` → **[Ankylosing Spondylitis](../ankylosing-spondylitis/README.md)** — Seropositive versus seronegative: RA is a symmetric, anti-CCP/RF-positive small-joint synovitis, whereas ankylosing spondylitis is an HLA-B27 axial spondyloarthropathy with sacroiliitis and enthesitis — the two poles of inflammatory arthritis.
 - `connects-to` → **[Cortical Bone](../../05-tissue/cortical-bone/README.md)** — It erodes bone at the joint: RANKL-driven osteoclasts in the rheumatoid pannus carve marginal bone erosions and periarticular osteopenia, while chronic inflammation and steroids add systemic bone loss.
+- `connects-to` → **[Germinal Center](../../05-tissue/germinal-center/README.md)** — It builds lymphoid follicles in the joint: rheumatoid synovium forms ectopic germinal centres where autoreactive B cells produce anti-citrullinated-protein antibodies, which is why B-cell depletion with rituximab controls the disease.
+- `connects-to` → **[Multiple Sclerosis](../multiple-sclerosis/README.md)** — A caution for its TNF blockers: the anti-TNF biologics central to rheumatoid arthritis can unmask or worsen demyelination, so multiple sclerosis contraindicates them—one cytokine blockade helping joints yet harming nerves.
+- `connects-to` → **[Immune Thrombocytopenia](../immune-thrombocytopenia/README.md)** — Felty and beyond: rheumatoid arthritis can drive secondary immune cytopenias—Felty syndrome pairs RA with splenomegaly and neutropenia, and immune thrombocytopenia also complicates it as the same autoimmunity turns on blood cells.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
