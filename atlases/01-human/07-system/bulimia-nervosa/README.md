@@ -279,6 +279,15 @@ cross_links:
   - target: 01-human/03-molecular/glp-1
     relation: connects-to
     note: "Satiety signalling: GLP-1 promotes fullness and curbs intake, and disordered incretin/satiety signalling—plus emerging GLP-1 agonist use—intersects with the binge-purge cycle of bulimia."
+  - target: 01-human/03-molecular/serotonin-transporter
+    relation: connects-to
+    note: "SSRI target: the serotonin transporter is the target of fluoxetine, the only drug approved for bulimia nervosa, and altered serotonin reuptake is central to its appetite and mood dysregulation."
+  - target: 01-human/03-molecular/crh
+    relation: connects-to
+    note: "Stress-axis dysregulation: CRH-driven HPA-axis overactivity in bulimia links chronic stress to the binge-purge cycle and the disturbed appetite and mood that characterise the disorder."
+  - target: 01-human/03-molecular/melatonin
+    relation: connects-to
+    note: "Circadian disruption: disturbed melatonin and circadian rhythm in bulimia relate to the night-time bingeing and sleep disruption common in the disorder."
 ---
 
 # Bulimia Nervosa
@@ -495,6 +504,9 @@ All of the following must be met:
 - `connects-to` → **[Alveolus](../../05-tissue/alveolus/README.md)** — Aspiration risk: recurrent self-induced vomiting can drive gastric contents into the airway, seeding the alveolus with aspiration pneumonia—a hazard amplified by electrolyte-driven obtundation.
 - `connects-to` → **[NPY](../../03-molecular/npy/README.md)** — Hunger drive gone awry: neuropeptide Y is a powerful orexigenic signal, and its dysregulation helps drive the overwhelming hunger and loss of control behind binge episodes in bulimia.
 - `connects-to` → **[GLP-1](../../03-molecular/glp-1/README.md)** — Satiety signalling: GLP-1 promotes fullness and curbs intake, and disordered incretin/satiety signalling—plus emerging GLP-1 agonist use—intersects with the binge-purge cycle of bulimia.
+- `connects-to` → **[Serotonin Transporter](../../03-molecular/serotonin-transporter/README.md)** — SSRI target: the serotonin transporter is the target of fluoxetine, the only drug approved for bulimia nervosa, and altered serotonin reuptake is central to its appetite and mood dysregulation.
+- `connects-to` → **[CRH](../../03-molecular/crh/README.md)** — Stress-axis dysregulation: CRH-driven HPA-axis overactivity in bulimia links chronic stress to the binge-purge cycle and the disturbed appetite and mood that characterise the disorder.
+- `connects-to` → **[Melatonin](../../03-molecular/melatonin/README.md)** — Circadian disruption: disturbed melatonin and circadian rhythm in bulimia relate to the night-time bingeing and sleep disruption common in the disorder.
 
 ## Treatment
 

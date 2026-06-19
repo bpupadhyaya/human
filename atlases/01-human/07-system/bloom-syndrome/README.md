@@ -277,6 +277,15 @@ cross_links:
   - target: 01-human/07-system/melanoma
     relation: connects-to
     note: "Sun-sensitive skin cancer: the photosensitivity and chromosomal instability of Bloom syndrome raise the risk of skin cancers including melanoma, alongside the basal cell carcinomas already typical of the disease."
+  - target: 01-human/03-molecular/myc
+    relation: connects-to
+    note: "Amplification-prone oncogene: the genomic instability of Bloom syndrome favours oncogene amplifications such as MYC, helping drive the broad spectrum of cancers that develop at young ages."
+  - target: 01-human/03-molecular/tert
+    relation: connects-to
+    note: "Telomere maintenance: BLM helicase normally helps resolve telomeric replication, and its loss stresses telomere maintenance, where TERT reactivation is one route the resulting tumours take to immortality."
+  - target: 01-human/03-molecular/cyclin-d1
+    relation: connects-to
+    note: "Cell-cycle drive: the chromosomal instability of Bloom syndrome readily amplifies cyclin D1 and other cell-cycle drivers, pushing damaged cells through the G1 checkpoint into proliferation."
 ---
 
 # Bloom Syndrome
@@ -501,6 +510,9 @@ BS is characterized by three cardinal features: **small body size** (the most co
 - `connects-to` → **[Lynch Syndrome](../lynch-syndrome/README.md)** — DNA-repair predisposition: like Lynch syndrome, Bloom syndrome is a hereditary DNA-repair defect that drives early colorectal and other cancers—genome instability from BLM loss rather than mismatch-repair failure.
 - `connects-to` → **[ATRX](../../03-molecular/atrx/README.md)** — Genome-stability partner: ATRX maintains chromatin and telomere stability and suppresses alternative lengthening of telomeres; its loss, like BLM loss, generates the replication stress and genomic instability that fuel cancer.
 - `connects-to` → **[Melanoma](../melanoma/README.md)** — Sun-sensitive skin cancer: the photosensitivity and chromosomal instability of Bloom syndrome raise the risk of skin cancers including melanoma, alongside the basal cell carcinomas already typical of the disease.
+- `connects-to` → **[MYC](../../03-molecular/myc/README.md)** — Amplification-prone oncogene: the genomic instability of Bloom syndrome favours oncogene amplifications such as MYC, helping drive the broad spectrum of cancers that develop at young ages.
+- `connects-to` → **[TERT](../../03-molecular/tert/README.md)** — Telomere maintenance: BLM helicase normally helps resolve telomeric replication, and its loss stresses telomere maintenance, where TERT reactivation is one route the resulting tumours take to immortality.
+- `connects-to` → **[Cyclin D1](../../03-molecular/cyclin-d1/README.md)** — Cell-cycle drive: the chromosomal instability of Bloom syndrome readily amplifies cyclin D1 and other cell-cycle drivers, pushing damaged cells through the G1 checkpoint into proliferation.
 
 ---
 
