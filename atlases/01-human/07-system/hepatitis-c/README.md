@@ -255,6 +255,15 @@ cross_links:
   - target: 01-human/05-tissue/arterial-wall
     relation: connects-to
     note: "Beyond the liver, it injures vessels: hepatitis C cryoglobulinemic vasculitis inflames small and medium artery walls, and chronic HCV also accelerates atherosclerosis, raising cardiovascular as well as hepatic risk."
+  - target: 01-human/07-system/cholangiocarcinoma
+    relation: connects-to
+    note: "Not just hepatocellular cancer: chronic HCV also raises the risk of intrahepatic cholangiocarcinoma, the bile-duct cancer, broadening the virus's oncogenic reach within the cirrhotic liver."
+  - target: 01-human/05-tissue/germinal-center
+    relation: connects-to
+    note: "Chronic antigen drives B cells: persistent HCV stimulation expands germinal-centre B-cell clones, the root of mixed cryoglobulinaemia and the HCV-associated B-cell lymphomas that can regress with antiviral cure."
+  - target: 01-human/07-system/immune-thrombocytopenia
+    relation: connects-to
+    note: "A secondary cause of low platelets: chronic HCV is a recognised trigger of immune thrombocytopenia, distinct from hypersplenic sequestration, and antiviral cure often resolves the thrombocytopenia."
 ---
 
 # Hepatitis C
@@ -460,3 +469,6 @@ HCV cirrhosis → HCC risk 1–5% per year (annual ultrasound surveillance ± AF
 - `connects-to` → **[Peripheral Nerve](../../05-tissue/peripheral-nerve/README.md)** — It attacks the nerves through cryoglobulins: chronic hepatitis C generates cryoglobulin immune complexes that inflame small vessels supplying peripheral nerves, causing a painful sensorimotor neuropathy or mononeuritis multiplex.
 - `connects-to` → **[ANCA Vasculitis](../anca-vasculitis/README.md)** — Two routes to small-vessel vasculitis: hepatitis C causes an immune-complex (cryoglobulinemic) vasculitis, contrasting with the pauci-immune ANCA-associated vasculitides—different mechanisms damaging the same small vessels.
 - `connects-to` → **[Arterial Wall](../../05-tissue/arterial-wall/README.md)** — Beyond the liver, it injures vessels: hepatitis C cryoglobulinemic vasculitis inflames small and medium artery walls, and chronic HCV also accelerates atherosclerosis, raising cardiovascular as well as hepatic risk.
+- `connects-to` → **[Cholangiocarcinoma](../cholangiocarcinoma/README.md)** — Not just hepatocellular cancer: chronic HCV also raises the risk of intrahepatic cholangiocarcinoma, the bile-duct cancer, broadening the virus's oncogenic reach within the cirrhotic liver.
+- `connects-to` → **[Germinal Center](../../05-tissue/germinal-center/README.md)** — Chronic antigen drives B cells: persistent HCV stimulation expands germinal-centre B-cell clones, the root of mixed cryoglobulinaemia and the HCV-associated B-cell lymphomas that can regress with antiviral cure.
+- `connects-to` → **[Immune Thrombocytopenia](../immune-thrombocytopenia/README.md)** — A secondary cause of low platelets: chronic HCV is a recognised trigger of immune thrombocytopenia, distinct from hypersplenic sequestration, and antiviral cure often resolves the thrombocytopenia.
