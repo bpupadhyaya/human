@@ -259,6 +259,15 @@ cross_links:
   - target: 01-human/05-tissue/myocardium
     relation: connects-to
     note: "Anthracycline cardiotoxicity: when follicular lymphoma transforms or needs R-CHOP, the doxorubicin component causes dose-dependent cardiomyopathy, monitored during treatment."
+  - target: 01-human/07-system/hepatitis-c
+    relation: connects-to
+    note: "An infectious driver: chronic hepatitis C drives the B-cell stimulation behind some indolent B-cell lymphomas including follicular lymphoma, which can respond to antiviral therapy."
+  - target: 01-human/07-system/sjogrens-syndrome
+    relation: connects-to
+    note: "Autoimmune lymphoma risk: chronic autoimmune B-cell stimulation in Sjögren's syndrome and rheumatoid arthritis raises the risk of follicular and other B-cell lymphomas."
+  - target: 01-human/05-tissue/glomerulus
+    relation: connects-to
+    note: "Renal complications: follicular lymphoma can cause renal injury through tumour-lysis at treatment, ureteric obstruction by bulky nodes, or rarely a paraneoplastic glomerulonephritis."
 ---
 
 # Follicular Lymphoma
@@ -465,6 +474,9 @@ High-risk subset (progression within 24 months of first chemoimmunotherapy): Con
 - `connects-to` → **[p53](../../03-molecular/p53/README.md)** — The mark of transformation: acquiring a TP53 mutation drives indolent follicular lymphoma to transform into aggressive diffuse large B-cell lymphoma, the event that worsens prognosis.
 - `connects-to` → **[Rheumatoid Arthritis](../rheumatoid-arthritis/README.md)** — Immunosuppression-associated lymphoma: chronic immune stimulation and methotrexate or biologic therapy in rheumatoid arthritis raise the risk of non-Hodgkin lymphomas including follicular lymphoma.
 - `connects-to` → **[Myocardium](../../05-tissue/myocardium/README.md)** — Anthracycline cardiotoxicity: when follicular lymphoma transforms or needs R-CHOP, the doxorubicin component causes dose-dependent cardiomyopathy, monitored during treatment.
+- `connects-to` → **[Hepatitis C](../hepatitis-c/README.md)** — An infectious driver: chronic hepatitis C drives the B-cell stimulation behind some indolent B-cell lymphomas including follicular lymphoma, which can respond to antiviral therapy.
+- `connects-to` → **[Sjögren's Syndrome](../sjogrens-syndrome/README.md)** — Autoimmune lymphoma risk: chronic autoimmune B-cell stimulation in Sjögren's syndrome and rheumatoid arthritis raises the risk of follicular and other B-cell lymphomas.
+- `connects-to` → **[Glomerulus](../../05-tissue/glomerulus/README.md)** — Renal complications: follicular lymphoma can cause renal injury through tumour-lysis at treatment, ureteric obstruction by bulky nodes, or rarely a paraneoplastic glomerulonephritis.
 
 ---
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
