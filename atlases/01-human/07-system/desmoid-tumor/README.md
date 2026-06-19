@@ -277,6 +277,15 @@ cross_links:
   - target: 01-human/03-molecular/tert
     relation: connects-to
     note: "Replicative persistence: telomerase activity helps desmoid cells sustain the relentless, locally invasive proliferation that makes these benign tumours so difficult to control."
+  - target: 01-human/03-molecular/myc
+    relation: connects-to
+    note: "Wnt target oncogene: nuclear β-catenin in desmoid tumours drives transcription of MYC, helping sustain the proliferative, locally aggressive fibromatosis."
+  - target: 01-human/03-molecular/cdk4-6
+    relation: connects-to
+    note: "Cell-cycle entry: β-catenin-driven cyclin D1 activates CDK4/6 to push desmoid fibroblasts through the G1 checkpoint, the engine of their relentless growth."
+  - target: 01-human/03-molecular/hif-1alpha
+    relation: connects-to
+    note: "Hypoxic stroma: the dense, poorly vascularised desmoid matrix becomes hypoxic, stabilising HIF-1α to drive the VEGF angiogenesis that supports continued expansion."
 ---
 
 # Desmoid Tumor
@@ -497,6 +506,9 @@ Standard initial approach for newly diagnosed desmoid without symptoms or rapid 
 - `connects-to` → **[Prostaglandins](../../03-molecular/prostaglandins/README.md)** — NSAID-responsive growth: prostaglandins promote desmoid proliferation, the rationale behind treating these tumours with COX inhibitors such as sulindac and other NSAIDs.
 - `connects-to` → **[KIT](../../03-molecular/kit/README.md)** — Kinase target: desmoids express KIT and PDGFR receptors, underpinning the partial responses seen with tyrosine kinase inhibitors like imatinib in progressive disease.
 - `connects-to` → **[TERT](../../03-molecular/tert/README.md)** — Replicative persistence: telomerase activity helps desmoid cells sustain the relentless, locally invasive proliferation that makes these benign tumours so difficult to control.
+- `connects-to` → **[MYC](../../03-molecular/myc/README.md)** — Wnt target oncogene: nuclear β-catenin in desmoid tumours drives transcription of MYC, helping sustain the proliferative, locally aggressive fibromatosis.
+- `connects-to` → **[CDK4/6](../../03-molecular/cdk4-6/README.md)** — Cell-cycle entry: β-catenin-driven cyclin D1 activates CDK4/6 to push desmoid fibroblasts through the G1 checkpoint, the engine of their relentless growth.
+- `connects-to` → **[HIF-1α](../../03-molecular/hif-1alpha/README.md)** — Hypoxic stroma: the dense, poorly vascularised desmoid matrix becomes hypoxic, stabilising HIF-1α to drive the VEGF angiogenesis that supports continued expansion.
 
 ---
 

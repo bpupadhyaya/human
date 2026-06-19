@@ -277,6 +277,15 @@ cross_links:
   - target: 01-human/03-molecular/tert
     relation: connects-to
     note: "Malignant progression: TERT activation enabling replicative immortality marks the shift of DICER1 lesions from low-grade cystic tumours toward aggressive sarcomatous malignancy."
+  - target: 01-human/03-molecular/cyclin-d1
+    relation: connects-to
+    note: "Cell-cycle drive: loss of let-7 microRNA control from DICER1 dysfunction derepresses cyclin D and the cell-cycle machinery, accelerating proliferation in DICER1-associated tumours."
+  - target: 01-human/03-molecular/hif-1alpha
+    relation: connects-to
+    note: "Tumour hypoxia: HIF-1α stabilised in growing DICER1-associated tumours such as pleuropulmonary blastoma drives the VEGF angiogenesis that supports their expansion."
+  - target: 01-human/03-molecular/ezh2
+    relation: connects-to
+    note: "Epigenetic dysregulation: disrupted microRNA processing in DICER1 syndrome derepresses EZH2 and other chromatin regulators, contributing to the embryonal tumour phenotype."
 ---
 
 # DICER1 Syndrome
@@ -478,6 +487,9 @@ When a child is found to have a thoracic cystic lesion, DICER1 syndrome should b
 - `connects-to` → **[MYC](../../03-molecular/myc/README.md)** — Let-7 brake released: DICER1 mutations impair processing of let-7 family microRNAs, derepressing oncogenes like MYC that these microRNAs normally restrain—a core mechanism of DICER1 tumours.
 - `connects-to` → **[PIK3CA](../../03-molecular/pik3ca/README.md)** — PI3K-mTOR activation: PIK3CA-driven PI3K signalling feeds the mTOR pathway active in DICER1-associated tumours, offering a targetable axis alongside the primary microRNA defect.
 - `connects-to` → **[TERT](../../03-molecular/tert/README.md)** — Malignant progression: TERT activation enabling replicative immortality marks the shift of DICER1 lesions from low-grade cystic tumours toward aggressive sarcomatous malignancy.
+- `connects-to` → **[Cyclin D1](../../03-molecular/cyclin-d1/README.md)** — Cell-cycle drive: loss of let-7 microRNA control from DICER1 dysfunction derepresses cyclin D and the cell-cycle machinery, accelerating proliferation in DICER1-associated tumours.
+- `connects-to` → **[HIF-1α](../../03-molecular/hif-1alpha/README.md)** — Tumour hypoxia: HIF-1α stabilised in growing DICER1-associated tumours such as pleuropulmonary blastoma drives the VEGF angiogenesis that supports their expansion.
+- `connects-to` → **[EZH2](../../03-molecular/ezh2/README.md)** — Epigenetic dysregulation: disrupted microRNA processing in DICER1 syndrome derepresses EZH2 and other chromatin regulators, contributing to the embryonal tumour phenotype.
 
 ---
 
