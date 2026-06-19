@@ -280,6 +280,15 @@ cross_links:
   - target: 01-human/07-system/type-2-diabetes
     relation: connects-to
     note: "An underrecognised anaemia: the chronic low-grade inflammation and kidney disease of type 2 diabetes contribute to an anaemia of inflammation, blunting erythropoietin and restricting iron through hepcidin."
+  - target: 01-human/03-molecular/il-1b
+    relation: connects-to
+    note: "Hepcidin inducer: IL-1β from activated macrophages stimulates hepcidin production and suppresses erythropoiesis, a key inflammatory driver of the iron-restricted anaemia of inflammation."
+  - target: 01-human/03-molecular/nlrp3-inflammasome
+    relation: connects-to
+    note: "Inflammasome source: NLRP3-inflammasome activation matures the IL-1β that, with IL-6, sustains the hepcidin-driven iron sequestration of anaemia of chronic disease."
+  - target: 01-human/07-system/anca-vasculitis
+    relation: connects-to
+    note: "Vasculitic anaemia: the systemic inflammation of ANCA-associated vasculitis drives an anaemia of chronic disease, often compounded by renal failure and alveolar haemorrhage."
 ---
 
 # Anemia of Chronic Disease
@@ -491,6 +500,9 @@ This adaptive rationale explains why **aggressive iron supplementation during ac
 - `connects-to` → **[Intestinal Epithelium](../../05-tissue/intestinal-epithelium/README.md)** — Hepcidin gates the gut: inflammation-driven hepcidin blocks ferroportin on the duodenal enterocytes of the intestinal epithelium, trapping dietary iron and starving erythropoiesis even when body iron stores are adequate.
 - `connects-to` → **[Ovarian Cancer](../ovarian-cancer/README.md)** — Cancer-related anaemia: solid tumours like ovarian cancer drive IL-6 and hepcidin to produce an anaemia of inflammation, compounded by chemotherapy myelosuppression and bleeding.
 - `connects-to` → **[Type 2 Diabetes](../type-2-diabetes/README.md)** — An underrecognised anaemia: the chronic low-grade inflammation and kidney disease of type 2 diabetes contribute to an anaemia of inflammation, blunting erythropoietin and restricting iron through hepcidin.
+- `connects-to` → **[IL-1β](../../03-molecular/il-1b/README.md)** — Hepcidin inducer: IL-1β from activated macrophages stimulates hepcidin production and suppresses erythropoiesis, a key inflammatory driver of the iron-restricted anaemia of inflammation.
+- `connects-to` → **[NLRP3 Inflammasome](../../03-molecular/nlrp3-inflammasome/README.md)** — Inflammasome source: NLRP3-inflammasome activation matures the IL-1β that, with IL-6, sustains the hepcidin-driven iron sequestration of anaemia of chronic disease.
+- `connects-to` → **[ANCA Vasculitis](../anca-vasculitis/README.md)** — Vasculitic anaemia: the systemic inflammation of ANCA-associated vasculitis drives an anaemia of chronic disease, often compounded by renal failure and alveolar haemorrhage.
 
 [^weiss-2005-acd-review]: Weiss G, Goodnough LT. Anemia of chronic disease. *N Engl J Med.* 2005;352(10):1011-1023. [doi:10.1056/NEJMra041809](https://doi.org/10.1056/NEJMra041809) · [PubMed 15758012](https://pubmed.ncbi.nlm.nih.gov/15758012/)
 [^nemeth-2004-il6-hepcidin]: Nemeth E, Rivera S, Gabayan V, et al. IL-6 mediates hypoferremia of inflammation by inducing the synthesis of the iron regulatory hormone hepcidin. *J Clin Invest.* 2004;113(9):1271-1276. [doi:10.1172/JCI200420945](https://doi.org/10.1172/JCI200420945) · [PubMed 15124018](https://pubmed.ncbi.nlm.nih.gov/15124018/)
