@@ -268,6 +268,15 @@ cross_links:
   - target: 01-human/07-system/covid-19-disease
     relation: connects-to
     note: "An unexpected antiviral angle: BCR-ABL TKIs like imatinib were studied as COVID-19 therapeutics for their effects on viral entry and inflammation, and CML patients on TKIs largely tolerated infection well."
+  - target: 01-human/03-molecular/kit
+    relation: connects-to
+    note: "Off-target reach: imatinib and nilotinib also inhibit KIT, which is why these BCR-ABL drugs are effective in GIST and mast-cell disease—the same kinase explains some of their side effects."
+  - target: 01-human/03-molecular/foxo
+    relation: connects-to
+    note: "Survival signal switched off: BCR-ABL drives PI3K-AKT signalling that inactivates FOXO transcription factors, suppressing apoptosis and quiescence and helping leukaemic stem cells persist under therapy."
+  - target: 01-human/03-molecular/hif-1alpha
+    relation: connects-to
+    note: "Protective hypoxic niche: HIF-1α-driven adaptation in the hypoxic bone-marrow niche shelters CML stem cells from TKIs, contributing to disease persistence and relapse on stopping treatment."
 ---
 
 # Chronic Myeloid Leukemia
@@ -464,6 +473,9 @@ Following the imatinib revolution, the current frontier is achieving **deep mole
 - `connects-to` → **[Cardiac Conduction System](../../05-tissue/cardiac-conduction-system/README.md)** — TKI cardiac effects: BCR-ABL inhibitors like nilotinib prolong the QT interval and (with ponatinib) provoke vascular events, disturbing the cardiac conduction system during long-term therapy.
 - `connects-to` → **[Alveolus](../../05-tissue/alveolus/README.md)** — Dasatinib's pleural effusions: the second-generation TKI dasatinib commonly causes pleural effusions, fluid collecting around the lung's alveolar surface—a class-specific toxicity needing dose adjustment.
 - `connects-to` → **[COVID-19 Disease](../covid-19-disease/README.md)** — An unexpected antiviral angle: BCR-ABL TKIs like imatinib were studied as COVID-19 therapeutics for their effects on viral entry and inflammation, and CML patients on TKIs largely tolerated infection well.
+- `connects-to` → **[KIT](../../03-molecular/kit/README.md)** — Off-target reach: imatinib and nilotinib also inhibit KIT, which is why these BCR-ABL drugs are effective in GIST and mast-cell disease—the same kinase explains some of their side effects.
+- `connects-to` → **[FOXO](../../03-molecular/foxo/README.md)** — Survival signal switched off: BCR-ABL drives PI3K-AKT signalling that inactivates FOXO transcription factors, suppressing apoptosis and quiescence and helping leukaemic stem cells persist under therapy.
+- `connects-to` → **[HIF-1α](../../03-molecular/hif-1alpha/README.md)** — Protective hypoxic niche: HIF-1α-driven adaptation in the hypoxic bone-marrow niche shelters CML stem cells from TKIs, contributing to disease persistence and relapse on stopping treatment.
 
 ---
 

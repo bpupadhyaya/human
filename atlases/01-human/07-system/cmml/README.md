@@ -268,6 +268,15 @@ cross_links:
   - target: 01-human/05-tissue/alveolus
     relation: connects-to
     note: "Pulmonary infiltration: CMML's excess monocytes can infiltrate the lung as leukaemic infiltrates and cause effusions around the alveoli, compromising gas exchange."
+  - target: 01-human/03-molecular/ezh2
+    relation: connects-to
+    note: "Polycomb dysregulation: loss-of-function EZH2 mutations are recurrent in CMML, disrupting epigenetic repression and conferring a poorer prognosis among its driver lesions."
+  - target: 01-human/03-molecular/idh2
+    relation: connects-to
+    note: "Oncometabolite target: IDH2 (and IDH1) mutations arise in a subset of CMML, generating 2-hydroxyglutarate that blocks differentiation and is targetable with IDH inhibitors."
+  - target: 01-human/03-molecular/flt3
+    relation: connects-to
+    note: "Kinase at transformation: FLT3 activation, though less common than in AML, can appear as CMML progresses, marking a targetable driver of its leukaemic transformation."
 ---
 
 # Chronic Myelomonocytic Leukemia
@@ -477,6 +486,9 @@ CMML → AML transformation (~15-30% at 5 years): Treat as secondary AML; CPX-35
 - `connects-to` → **[Giant Cell Arteritis](../giant-cell-arteritis/README.md)** — Clonal autoinflammation: CMML and VEXAS-spectrum clonal myeloid disease associate with systemic inflammatory syndromes overlapping giant-cell arteritis, polymyalgia and other vasculitides.
 - `connects-to` → **[Glomerulus](../../05-tissue/glomerulus/README.md)** — Renal injury from monocytes: CMML can cause a paraneoplastic glomerulonephritis, and lysozyme released by its excess monocytes damages the renal tubules and glomerulus.
 - `connects-to` → **[Alveolus](../../05-tissue/alveolus/README.md)** — Pulmonary infiltration: CMML's excess monocytes can infiltrate the lung as leukaemic infiltrates and cause effusions around the alveoli, compromising gas exchange.
+- `connects-to` → **[EZH2](../../03-molecular/ezh2/README.md)** — Polycomb dysregulation: loss-of-function EZH2 mutations are recurrent in CMML, disrupting epigenetic repression and conferring a poorer prognosis among its driver lesions.
+- `connects-to` → **[IDH2](../../03-molecular/idh2/README.md)** — Oncometabolite target: IDH2 (and IDH1) mutations arise in a subset of CMML, generating 2-hydroxyglutarate that blocks differentiation and is targetable with IDH inhibitors.
+- `connects-to` → **[FLT3](../../03-molecular/flt3/README.md)** — Kinase at transformation: FLT3 activation, though less common than in AML, can appear as CMML progresses, marking a targetable driver of its leukaemic transformation.
 
 ---
 
