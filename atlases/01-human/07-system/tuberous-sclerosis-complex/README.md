@@ -259,6 +259,15 @@ cross_links:
   - target: 01-human/05-tissue/hepatic-lobule
     relation: connects-to
     note: "Hamartomas beyond the kidney: fat-containing angiomyolipomas in TSC are not confined to the kidney—they also stud the hepatic lobules, usually benign but part of the same systemic hamartomatosis."
+  - target: 01-human/05-tissue/cardiac-conduction-system
+    relation: connects-to
+    note: "Rhabdomyomas in the fetal heart: cardiac rhabdomyomas, often the first sign of TSC on prenatal ultrasound, disrupt the conduction system to cause arrhythmias and pre-excitation before usually regressing in infancy."
+  - target: 01-human/05-tissue/arterial-wall
+    relation: connects-to
+    note: "Aneurysms that bleed: renal angiomyolipomas in TSC carry abnormal, fragile arterial walls prone to aneurysm formation and catastrophic retroperitoneal haemorrhage (Wunderlich syndrome) once they grow large."
+  - target: 01-human/05-tissue/cortical-bone
+    relation: connects-to
+    note: "Sclerotic bone lesions: TSC commonly produces scattered sclerotic foci (bone islands) in the cortical bone of the skull, spine and pelvis, a frequently incidental but characteristic skeletal feature."
 ---
 
 # Tuberous Sclerosis Complex
@@ -479,6 +488,9 @@ With modern management: life expectancy increasingly normal; major risks: renal 
 - `connects-to` → **[Neuroendocrine Tumors](../neuroendocrine-tumors/README.md)** — An under-recognised tumour: TSC's mTOR hyperactivity also predisposes to pancreatic neuroendocrine tumours, the same lesions for which mTOR inhibitors like everolimus—a TSC drug—are standard therapy.
 - `connects-to` → **[Glomerulus](../../05-tissue/glomerulus/README.md)** — Contiguous-gene kidney disease: TSC2 sits immediately beside PKD1, so a large deletion removing both genes produces tuberous sclerosis with severe early polycystic kidney disease, cysts distorting the glomeruli decades ahead of schedule.
 - `connects-to` → **[Hepatic Lobule](../../05-tissue/hepatic-lobule/README.md)** — Hamartomas beyond the kidney: fat-containing angiomyolipomas in TSC are not confined to the kidney—they also stud the hepatic lobules, usually benign but part of the same systemic hamartomatosis.
+- `connects-to` → **[Cardiac Conduction System](../../05-tissue/cardiac-conduction-system/README.md)** — Rhabdomyomas in the fetal heart: cardiac rhabdomyomas, often the first sign of TSC on prenatal ultrasound, disrupt the conduction system to cause arrhythmias and pre-excitation before usually regressing in infancy.
+- `connects-to` → **[Arterial Wall](../../05-tissue/arterial-wall/README.md)** — Aneurysms that bleed: renal angiomyolipomas in TSC carry abnormal, fragile arterial walls prone to aneurysm formation and catastrophic retroperitoneal haemorrhage (Wunderlich syndrome) once they grow large.
+- `connects-to` → **[Cortical Bone](../../05-tissue/cortical-bone/README.md)** — Sclerotic bone lesions: TSC commonly produces scattered sclerotic foci (bone islands) in the cortical bone of the skull, spine and pelvis, a frequently incidental but characteristic skeletal feature.
 
 ---
 

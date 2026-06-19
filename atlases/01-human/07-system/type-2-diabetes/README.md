@@ -265,6 +265,15 @@ cross_links:
   - target: 01-human/05-tissue/cortical-bone
     relation: connects-to
     note: "The diabetic bone paradox: despite normal or high bone density, type 2 diabetes degrades cortical bone microarchitecture and collagen through AGE cross-linking, paradoxically raising fracture risk."
+  - target: 01-human/07-system/covid-19-disease
+    relation: connects-to
+    note: "A two-way danger: type 2 diabetes is a leading risk factor for severe COVID-19 and death, and SARS-CoV-2 can in turn trigger new-onset diabetes and severe hyperglycaemic crises."
+  - target: 01-human/07-system/hcc
+    relation: connects-to
+    note: "From fatty liver to cancer: type 2 diabetes and its associated NASH markedly raise the risk of hepatocellular carcinoma, now a leading cause of liver cancer in high-income countries even without cirrhosis."
+  - target: 01-human/07-system/colorectal-cancer
+    relation: connects-to
+    note: "Hyperinsulinaemia and the colon: type 2 diabetes raises colorectal cancer risk and worsens its outcomes through insulin/IGF-1 signalling, while metformin appears to reduce that risk."
 ---
 
 # Type 2 Diabetes
@@ -450,6 +459,9 @@ T2DM, CKD, heart failure, and obesity form the **cardiorenal metabolic (CRM) syn
 - `connects-to` → **[Endometrial Cancer](../endometrial-cancer/README.md)** — Insulin and oestrogen drive it: type 2 diabetes and its obesity raise endometrial cancer risk markedly, as hyperinsulinaemia and adipose-derived oestrogen both stimulate endometrial proliferation.
 - `connects-to` → **[Myocardium](../../05-tissue/myocardium/README.md)** — Diabetic cardiomyopathy: glucotoxicity and AGE deposition stiffen the myocardium and cause heart failure with preserved ejection fraction, independent of coronary disease or hypertension.
 - `connects-to` → **[Cortical Bone](../../05-tissue/cortical-bone/README.md)** — The diabetic bone paradox: despite normal or high bone density, type 2 diabetes degrades cortical bone microarchitecture and collagen through AGE cross-linking, paradoxically raising fracture risk.
+- `connects-to` → **[COVID-19 Disease](../covid-19-disease/README.md)** — A two-way danger: type 2 diabetes is a leading risk factor for severe COVID-19 and death, and SARS-CoV-2 can in turn trigger new-onset diabetes and severe hyperglycaemic crises.
+- `connects-to` → **[HCC](../hcc/README.md)** — From fatty liver to cancer: type 2 diabetes and its associated NASH markedly raise the risk of hepatocellular carcinoma, now a leading cause of liver cancer in high-income countries even without cirrhosis.
+- `connects-to` → **[Colorectal Cancer](../colorectal-cancer/README.md)** — Hyperinsulinaemia and the colon: type 2 diabetes raises colorectal cancer risk and worsens its outcomes through insulin/IGF-1 signalling, while metformin appears to reduce that risk.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
