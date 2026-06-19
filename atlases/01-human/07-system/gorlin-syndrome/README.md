@@ -259,6 +259,15 @@ cross_links:
   - target: 01-human/07-system/carney-complex
     relation: connects-to
     note: "Inherited cardiac-tumour syndromes: Gorlin causes cardiac fibromas and Carney complex causes cardiac myxomas—two autosomal-dominant syndromes each marked by a benign heart tumour."
+  - target: 01-human/07-system/bloom-syndrome
+    relation: connects-to
+    note: "Inherited skin-cancer syndromes: like Bloom syndrome, Gorlin predisposes to numerous skin cancers (basal cell carcinomas), though through Hedgehog activation rather than Bloom's defective DNA repair."
+  - target: 01-human/05-tissue/hippocampus
+    relation: connects-to
+    note: "Cognition after childhood brain tumour: Gorlin's medulloblastoma and the craniospinal radiation treating it injure the hippocampus, deficits worsened by Gorlin's radiation hypersensitivity—so RT is avoided when possible."
+  - target: 01-human/07-system/werner-syndrome
+    relation: connects-to
+    note: "Cancer-predisposing genodermatoses: Gorlin and the progeroid Werner syndrome both raise cancer risk with characteristic skin findings, examples of single-gene disorders that reshape lifelong tumour surveillance."
 ---
 
 # Gorlin Syndrome
@@ -450,6 +459,9 @@ Both are two-hit tumor suppressors: germline heterozygous LOF + somatic second h
 - `connects-to` → **[FAP](../fap/README.md)** — Two medulloblastoma syndromes: Gorlin syndrome causes SHH-subgroup medulloblastoma while FAP (via Turcot) causes the WNT subgroup—two germline routes to the same childhood brain tumour through different pathways.
 - `connects-to` → **[Myocardium](../../05-tissue/myocardium/README.md)** — Cardiac fibroma: Gorlin syndrome causes benign fibromas within the myocardium, a characteristic if uncommon feature detected on cardiac imaging.
 - `connects-to` → **[Carney Complex](../carney-complex/README.md)** — Inherited cardiac-tumour syndromes: Gorlin causes cardiac fibromas and Carney complex causes cardiac myxomas—two autosomal-dominant syndromes each marked by a benign heart tumour.
+- `connects-to` → **[Bloom Syndrome](../bloom-syndrome/README.md)** — Inherited skin-cancer syndromes: like Bloom syndrome, Gorlin predisposes to numerous skin cancers (basal cell carcinomas), though through Hedgehog activation rather than Bloom's defective DNA repair.
+- `connects-to` → **[Hippocampus](../../05-tissue/hippocampus/README.md)** — Cognition after childhood brain tumour: Gorlin's medulloblastoma and the craniospinal radiation treating it injure the hippocampus, deficits worsened by Gorlin's radiation hypersensitivity—so RT is avoided when possible.
+- `connects-to` → **[Werner Syndrome](../werner-syndrome/README.md)** — Cancer-predisposing genodermatoses: Gorlin and the progeroid Werner syndrome both raise cancer risk with characteristic skin findings, examples of single-gene disorders that reshape lifelong tumour surveillance.
 
 ---
 

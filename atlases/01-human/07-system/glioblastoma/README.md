@@ -259,6 +259,15 @@ cross_links:
   - target: 01-human/05-tissue/hippocampus
     relation: connects-to
     note: "Memory in the crossfire: glioblastoma infiltration and the radiotherapy that treats it injure the hippocampus, driving the memory loss and cognitive decline that dominate quality of life."
+  - target: 01-human/07-system/neurofibromatosis-type-1
+    relation: connects-to
+    note: "Gliomas in NF1: neurofibromatosis type 1 predisposes to optic pathway gliomas in children and higher-grade gliomas including glioblastoma in adults, NF1 loss being a recurrent GBM driver."
+  - target: 01-human/05-tissue/arterial-wall
+    relation: connects-to
+    note: "Microvascular proliferation: glioblastoma's defining histology is florid, abnormal angiogenesis—glomeruloid tufts of disordered arterial-wall growth driven by VEGF and hypoxia, the target of bevacizumab."
+  - target: 01-human/07-system/medulloblastoma
+    relation: connects-to
+    note: "Brain tumours of different ages: glioblastoma is the commonest malignant brain tumour of adults, while medulloblastoma is its childhood counterpart in the cerebellum—two ends of the neuro-oncology spectrum."
 ---
 
 # Glioblastoma
@@ -469,6 +478,9 @@ The blood-brain barrier (BBB) creates a pharmacological challenge:
 - `connects-to` → **[Cowden Syndrome](../cowden-syndrome/README.md)** — Germline meets somatic PTEN loss: Cowden syndrome's inherited PTEN inactivation mirrors the somatic PTEN loss common in glioblastoma, a shared driver of the PI3K-AKT-mTOR pathway.
 - `connects-to` → **[BDNF](../../03-molecular/bdnf/README.md)** — Neuron-glioma synapses: glioblastoma, like diffuse midline glioma, wires into neural circuits through activity-dependent and BDNF-driven synapses with neurons that fuel its growth and invasion.
 - `connects-to` → **[Hippocampus](../../05-tissue/hippocampus/README.md)** — Memory in the crossfire: glioblastoma infiltration and the radiotherapy that treats it injure the hippocampus, driving the memory loss and cognitive decline that dominate quality of life.
+- `connects-to` → **[Neurofibromatosis Type 1](../neurofibromatosis-type-1/README.md)** — Gliomas in NF1: neurofibromatosis type 1 predisposes to optic pathway gliomas in children and higher-grade gliomas including glioblastoma in adults, NF1 loss being a recurrent GBM driver.
+- `connects-to` → **[Arterial Wall](../../05-tissue/arterial-wall/README.md)** — Microvascular proliferation: glioblastoma's defining histology is florid, abnormal angiogenesis—glomeruloid tufts of disordered arterial-wall growth driven by VEGF and hypoxia, the target of bevacizumab.
+- `connects-to` → **[Medulloblastoma](../medulloblastoma/README.md)** — Brain tumours of different ages: glioblastoma is the commonest malignant brain tumour of adults, while medulloblastoma is its childhood counterpart in the cerebellum—two ends of the neuro-oncology spectrum.
 
 ---
 
