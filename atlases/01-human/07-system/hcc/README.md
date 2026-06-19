@@ -256,6 +256,15 @@ cross_links:
   - target: 01-human/06-organ/kidney
     relation: connects-to
     note: "Hepatorenal syndrome: advanced HCC and its underlying cirrhosis cause functional kidney failure through splanchnic vasodilation and renal vasoconstriction—the kidney failing though structurally intact."
+  - target: 01-human/07-system/uveal-melanoma
+    relation: connects-to
+    note: "Liver-directed therapy unites them: like hepatocellular carcinoma, liver-confined uveal melanoma metastases are treated with hepatic perfusion, radioembolization and resection—both cancers managed by targeting the liver."
+  - target: 01-human/07-system/polycythemia-vera
+    relation: connects-to
+    note: "Paraneoplastic erythrocytosis: HCC can secrete erythropoietin, raising the red-cell mass—an acquired, tumour-driven polycythaemia distinct from the JAK2-driven polycythaemia vera."
+  - target: 01-human/05-tissue/cortical-bone
+    relation: connects-to
+    note: "Bone metastasis: though it spreads mainly within the liver and to the lung, HCC also metastasises to bone, producing painful, often osteolytic lesions in the cortical bone."
 ---
 
 # Hepatocellular Carcinoma
@@ -473,6 +482,9 @@ In high-risk patients (cirrhosis, HBV regardless of cirrhosis): ultrasound ± AF
 - `connects-to` → **[Alveolus](../../05-tissue/alveolus/README.md)** — Where it spreads: the lung is the commonest site of extrahepatic HCC metastasis, tumour emboli lodging in the alveolar capillary bed to seed pulmonary nodules.
 - `connects-to` → **[HIF-1alpha](../../03-molecular/hif-1alpha/README.md)** — Why it is so vascular: hypoxia stabilises HIF-1alpha, which drives the VEGF-fuelled angiogenesis behind HCC's brisk arterial enhancement on imaging and the rationale for anti-angiogenic therapy.
 - `connects-to` → **[Kidney](../../06-organ/kidney/README.md)** — Hepatorenal syndrome: advanced HCC and its underlying cirrhosis cause functional kidney failure through splanchnic vasodilation and renal vasoconstriction—the kidney failing though structurally intact.
+- `connects-to` → **[Uveal Melanoma](../uveal-melanoma/README.md)** — Liver-directed therapy unites them: like hepatocellular carcinoma, liver-confined uveal melanoma metastases are treated with hepatic perfusion, radioembolization and resection—both cancers managed by targeting the liver.
+- `connects-to` → **[Polycythemia Vera](../polycythemia-vera/README.md)** — Paraneoplastic erythrocytosis: HCC can secrete erythropoietin, raising the red-cell mass—an acquired, tumour-driven polycythaemia distinct from the JAK2-driven polycythaemia vera.
+- `connects-to` → **[Cortical Bone](../../05-tissue/cortical-bone/README.md)** — Bone metastasis: though it spreads mainly within the liver and to the lung, HCC also metastasises to bone, producing painful, often osteolytic lesions in the cortical bone.
 
 [^llovet-2008-sorafenib]: Llovet JM, Ricci S, Mazzaferro V, et al. Sorafenib in advanced hepatocellular carcinoma. *N Engl J Med.* 2008;359(4):378-390. [doi:10.1056/NEJMoa0708857](https://doi.org/10.1056/NEJMoa0708857) · [PubMed 18650514](https://pubmed.ncbi.nlm.nih.gov/18650514/)
 [^finn-2020-imbrave150]: Finn RS, Qin S, Ikeda M, et al. Atezolizumab plus bevacizumab in unresectable hepatocellular carcinoma. *N Engl J Med.* 2020;382(20):1894-1905. [doi:10.1056/NEJMoa1915745](https://doi.org/10.1056/NEJMoa1915745) · [PubMed 32402160](https://pubmed.ncbi.nlm.nih.gov/32402160/)

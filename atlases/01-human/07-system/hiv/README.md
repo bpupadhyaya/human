@@ -265,6 +265,15 @@ cross_links:
   - target: 01-human/07-system/anemia-of-chronic-disease
     relation: connects-to
     note: "Why HIV makes you anaemic: chronic inflammation, marrow infection and zidovudine suppress red-cell production, making anaemia of chronic disease the commonest cytopenia and a marker of advancing HIV."
+  - target: 01-human/07-system/dlbcl
+    relation: connects-to
+    note: "The commonest AIDS lymphoma: HIV markedly raises the risk of aggressive B-cell lymphomas, particularly diffuse large B-cell lymphoma, driven by immunosuppression and EBV co-infection."
+  - target: 01-human/07-system/hcc
+    relation: connects-to
+    note: "Liver cancer in coinfection: HIV accelerates hepatitis B/C-driven cirrhosis and hepatocellular carcinoma, liver disease now a leading non-AIDS cause of death in treated HIV."
+  - target: 01-human/05-tissue/myocardium
+    relation: connects-to
+    note: "HIV and the heart muscle: chronic HIV inflammation causes a dilated cardiomyopathy of the myocardium and accelerates heart failure, part of a cardiovascular burden that persists despite effective ART."
 ---
 
 # HIV
@@ -482,6 +491,9 @@ The **latent reservoir** — HIV integrated into quiescent resting memory CD4+ T
 - `connects-to` → **[Burkitt Lymphoma](../burkitt-lymphoma/README.md)** — An AIDS-defining lymphoma: Burkitt lymphoma arises in HIV from EBV co-infection and relentless B-cell activation amid CD4 loss, one of the aggressive lymphomas that mark immune collapse.
 - `connects-to` → **[Peripheral Nerve](../../05-tissue/peripheral-nerve/README.md)** — The commonest HIV neuropathy: distal symmetric polyneuropathy comes both from HIV itself and from older nucleoside antiretrovirals, producing painful, length-dependent sensory loss in the feet.
 - `connects-to` → **[Anemia of Chronic Disease](../anemia-of-chronic-disease/README.md)** — Why HIV makes you anaemic: chronic inflammation, marrow infection and zidovudine suppress red-cell production, making anaemia of chronic disease the commonest cytopenia and a marker of advancing HIV.
+- `connects-to` → **[DLBCL](../dlbcl/README.md)** — The commonest AIDS lymphoma: HIV markedly raises the risk of aggressive B-cell lymphomas, particularly diffuse large B-cell lymphoma, driven by immunosuppression and EBV co-infection.
+- `connects-to` → **[HCC](../hcc/README.md)** — Liver cancer in coinfection: HIV accelerates hepatitis B/C-driven cirrhosis and hepatocellular carcinoma, liver disease now a leading non-AIDS cause of death in treated HIV.
+- `connects-to` → **[Myocardium](../../05-tissue/myocardium/README.md)** — HIV and the heart muscle: chronic HIV inflammation causes a dilated cardiomyopathy of the myocardium and accelerates heart failure, part of a cardiovascular burden that persists despite effective ART.
 
 [^barre-sinoussi-1983-hiv-isolation]: Barré-Sinoussi F, Chermann JC, Rey F, et al. Isolation of a T-lymphotropic retrovirus from a patient at risk for acquired immune deficiency syndrome (AIDS). *Science.* 1983;220(4599):868-871. [doi:10.1126/science.6189183](https://doi.org/10.1126/science.6189183) · [PubMed 6189183](https://pubmed.ncbi.nlm.nih.gov/6189183/)
 [^ho-1995-viral-dynamics]: Ho DD, Neumann AU, Perelson AS, et al. Rapid turnover of plasma virions and CD4 lymphocytes in HIV-1 infection. *Nature.* 1995;373(6510):123-126. [doi:10.1038/373123a0](https://doi.org/10.1038/373123a0) · [PubMed 7816094](https://pubmed.ncbi.nlm.nih.gov/7816094/)
