@@ -271,6 +271,15 @@ cross_links:
   - target: 01-human/05-tissue/endocardium
     relation: connects-to
     note: "Valvular heart failure: diseased heart valves lined by endocardium—from calcific aortic stenosis, regurgitation or rheumatic disease—impose chronic pressure or volume overload that drives the ventricle into failure."
+  - target: 01-human/03-molecular/endothelin-1
+    relation: connects-to
+    note: "Maladaptive vasoconstriction: endothelin-1 drives vasoconstriction and cardiac fibrosis in heart failure, a neurohormonal axis that worsens afterload and remodelling."
+  - target: 01-human/03-molecular/tnf-alpha
+    relation: connects-to
+    note: "Cardiac cachexia: TNF-α and chronic inflammation drive the muscle and fat wasting of cardiac cachexia, a marker of advanced, poor-prognosis heart failure."
+  - target: 01-human/03-molecular/adiponectin
+    relation: connects-to
+    note: "The adiponectin paradox: adiponectin rises in advanced heart failure and, counter to its metabolic benefits, high levels track with disease severity and worse outcomes."
 ---
 
 # Heart Failure
@@ -428,6 +437,9 @@ Normal hearts increase stroke volume with increasing preload (Starling curve). T
 - `connects-to` → **[Trypanosoma cruzi](../../../02-pathogen/04-parasites/trypanosoma-cruzi/README.md)** — Chagas cardiomyopathy: chronic Trypanosoma cruzi infection slowly destroys the myocardium and conduction system, making Chagas disease a leading cause of heart failure and sudden death in Latin America.
 - `connects-to` → **[Breast Cancer](../breast-cancer/README.md)** — Cardio-oncology: anthracyclines and HER2-targeted trastuzumab used for breast cancer are cardiotoxic, causing a treatment-related cardiomyopathy and heart failure that is a major survivorship concern.
 - `connects-to` → **[Endocardium](../../05-tissue/endocardium/README.md)** — Valvular heart failure: diseased heart valves lined by endocardium—from calcific aortic stenosis, regurgitation or rheumatic disease—impose chronic pressure or volume overload that drives the ventricle into failure.
+- `connects-to` → **[Endothelin-1](../../03-molecular/endothelin-1/README.md)** — Maladaptive vasoconstriction: endothelin-1 drives vasoconstriction and cardiac fibrosis in heart failure, a neurohormonal axis that worsens afterload and remodelling.
+- `connects-to` → **[TNF-α](../../03-molecular/tnf-alpha/README.md)** — Cardiac cachexia: TNF-α and chronic inflammation drive the muscle and fat wasting of cardiac cachexia, a marker of advanced, poor-prognosis heart failure.
+- `connects-to` → **[Adiponectin](../../03-molecular/adiponectin/README.md)** — The adiponectin paradox: adiponectin rises in advanced heart failure and, counter to its metabolic benefits, high levels track with disease severity and worse outcomes.
 
 ## Pathology
 
