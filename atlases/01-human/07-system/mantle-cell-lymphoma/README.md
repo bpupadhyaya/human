@@ -277,6 +277,15 @@ cross_links:
   - target: 01-human/03-molecular/ezh2
     relation: connects-to
     note: "Epigenetic dependence: EZH2 overexpression contributes to mantle cell lymphoma proliferation, an emerging epigenetic vulnerability beyond the defining cyclin D1 lesion."
+  - target: 01-human/03-molecular/pik3ca
+    relation: connects-to
+    note: "PI3K dependence: chronic B-cell-receptor signalling activates PI3K in mantle cell lymphoma, sustaining survival and underlying resistance to BTK inhibitors."
+  - target: 01-human/03-molecular/hif-1alpha
+    relation: connects-to
+    note: "Metabolic adaptation: HIF-1α supports the glycolytic metabolism of proliferating mantle cell lymphoma cells in the hypoxic lymph-node and marrow niches."
+  - target: 01-human/03-molecular/vegf
+    relation: connects-to
+    note: "Nodal angiogenesis: VEGF drives the angiogenesis of involved lymph nodes in mantle cell lymphoma, supporting tumour growth and dissemination."
 ---
 
 # Mantle Cell Lymphoma
@@ -485,6 +494,9 @@ For SOX11−, mutated IGHV, non-bulky, asymptomatic nnMCL: Observation is safe; 
 - `connects-to` → **[Notch](../../03-molecular/notch/README.md)** — Recurrent driver: NOTCH1 and NOTCH2 mutations recur in mantle cell lymphoma and mark a more aggressive clinical course, a candidate therapeutic target.
 - `connects-to` → **[MYC](../../03-molecular/myc/README.md)** — Blastoid transformation: MYC amplification or translocation drives the aggressive blastoid and pleomorphic variants of mantle cell lymphoma, worsening prognosis.
 - `connects-to` → **[EZH2](../../03-molecular/ezh2/README.md)** — Epigenetic dependence: EZH2 overexpression contributes to mantle cell lymphoma proliferation, an emerging epigenetic vulnerability beyond the defining cyclin D1 lesion.
+- `connects-to` → **[PIK3CA](../../03-molecular/pik3ca/README.md)** — PI3K dependence: chronic B-cell-receptor signalling activates PI3K in mantle cell lymphoma, sustaining survival and underlying resistance to BTK inhibitors.
+- `connects-to` → **[HIF-1α](../../03-molecular/hif-1alpha/README.md)** — Metabolic adaptation: HIF-1α supports the glycolytic metabolism of proliferating mantle cell lymphoma cells in the hypoxic lymph-node and marrow niches.
+- `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — Nodal angiogenesis: VEGF drives the angiogenesis of involved lymph nodes in mantle cell lymphoma, supporting tumour growth and dissemination.
 
 ---
 

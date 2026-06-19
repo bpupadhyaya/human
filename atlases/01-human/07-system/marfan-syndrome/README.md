@@ -277,6 +277,15 @@ cross_links:
   - target: 01-human/03-molecular/vegf
     relation: connects-to
     note: "Adventitial neovessels: VEGF-driven vasa-vasorum proliferation accompanies the medial degeneration of the Marfan aorta, a feature of the remodelling aneurysmal wall."
+  - target: 01-human/03-molecular/ccl2
+    relation: connects-to
+    note: "Macrophage recruitment: CCL2 draws macrophages into the degenerating Marfan aortic wall, where their proteases accelerate the medial breakdown that drives aneurysm."
+  - target: 01-human/03-molecular/il-6
+    relation: connects-to
+    note: "Aortic inflammation: IL-6 within the Marfan aortic wall amplifies the inflammatory remodelling that weakens the media and predicts aneurysm progression."
+  - target: 01-human/03-molecular/tnf-alpha
+    relation: connects-to
+    note: "Inflammatory medial breakdown: TNF-α contributes to the smooth-muscle apoptosis and matrix degradation of the Marfan aorta, compounding the primary fibrillin defect."
 ---
 
 # Marfan Syndrome
@@ -502,6 +511,9 @@ MFS is a **multi-system disorder** defined by cardiovascular, ocular, and skelet
 - `connects-to` → **[Caspase-3](../../03-molecular/caspase-3/README.md)** — Medial degeneration: apoptosis of aortic smooth-muscle cells via caspase-3 thins and weakens the aortic media in Marfan, a core mechanism behind aneurysm and dissection.
 - `connects-to` → **[T Cytotoxic Cell](../../04-cellular/t-cytotoxic-cell/README.md)** — Wall inflammation: cytotoxic T cells infiltrate the degenerating aortic wall in Marfan and other aneurysmal aortopathies, contributing to medial breakdown.
 - `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — Adventitial neovessels: VEGF-driven vasa-vasorum proliferation accompanies the medial degeneration of the Marfan aorta, a feature of the remodelling aneurysmal wall.
+- `connects-to` → **[CCL2](../../03-molecular/ccl2/README.md)** — Macrophage recruitment: CCL2 draws macrophages into the degenerating Marfan aortic wall, where their proteases accelerate the medial breakdown that drives aneurysm.
+- `connects-to` → **[IL-6](../../03-molecular/il-6/README.md)** — Aortic inflammation: IL-6 within the Marfan aortic wall amplifies the inflammatory remodelling that weakens the media and predicts aneurysm progression.
+- `connects-to` → **[TNF-α](../../03-molecular/tnf-alpha/README.md)** — Inflammatory medial breakdown: TNF-α contributes to the smooth-muscle apoptosis and matrix degradation of the Marfan aorta, compounding the primary fibrillin defect.
 
 ---
 
