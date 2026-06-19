@@ -259,6 +259,15 @@ cross_links:
   - target: 01-human/05-tissue/cardiac-conduction-system
     relation: connects-to
     note: "Its stimulants touch the heart's rhythm: methylphenidate and amphetamines raise heart rate and blood pressure and can affect cardiac conduction, so cardiac history is screened before starting stimulant treatment for ADHD."
+  - target: 01-human/03-molecular/orexin
+    relation: connects-to
+    note: "Arousal and vigilance: orexin from the hypothalamus sustains wakefulness and attention, and the sleep-wake instability common in ADHD—and its overlap with narcolepsy—implicates this arousal system."
+  - target: 01-human/03-molecular/histamine
+    relation: connects-to
+    note: "The wakefulness amine: brain histamine acting through H3 receptors regulates attention and arousal, and H3-modulating drugs are studied in ADHD and narcolepsy."
+  - target: 01-human/07-system/anorexia-nervosa
+    relation: connects-to
+    note: "Impulse control and eating: ADHD raises the risk of disordered eating across the spectrum, and stimulant-driven appetite suppression complicates its overlap with anorexia nervosa."
 ---
 
 # Attention-Deficit/Hyperactivity Disorder
@@ -485,6 +494,9 @@ ADHD is a clinical diagnosis requiring [^biederman-2005-adhd-adults]:
 - `connects-to` → **[Axonal Transport](../../05-tissue/axonal-transport/README.md)** — Its wiring is subtly altered: ADHD shows differences in white-matter microstructure and axonal connectivity across fronto-striatal and cerebellar networks, the structural correlate of its attention and impulse-control difficulties.
 - `connects-to` → **[Parkinson's Disease](../parkinsons-disease/README.md)** — A shared dopamine thread: ADHD and Parkinson's both centre on dopamine dysregulation — one treated by boosting dopamine with stimulants, the other by replacing it — and ADHD is linked to a modestly higher later risk of Parkinson's.
 - `connects-to` → **[Cardiac Conduction System](../../05-tissue/cardiac-conduction-system/README.md)** — Its stimulants touch the heart's rhythm: methylphenidate and amphetamines raise heart rate and blood pressure and can affect cardiac conduction, so cardiac history is screened before starting stimulant treatment for ADHD.
+- `connects-to` → **[Orexin](../../03-molecular/orexin/README.md)** — Arousal and vigilance: orexin from the hypothalamus sustains wakefulness and attention, and the sleep-wake instability common in ADHD—and its overlap with narcolepsy—implicates this arousal system.
+- `connects-to` → **[Histamine](../../03-molecular/histamine/README.md)** — The wakefulness amine: brain histamine acting through H3 receptors regulates attention and arousal, and H3-modulating drugs are studied in ADHD and narcolepsy.
+- `connects-to` → **[Anorexia Nervosa](../anorexia-nervosa/README.md)** — Impulse control and eating: ADHD raises the risk of disordered eating across the spectrum, and stimulant-driven appetite suppression complicates its overlap with anorexia nervosa.
 
 [^faraone-2021-adhd-primer]: Faraone SV, Banaschewski T, Coghill D, et al. The World Federation of ADHD International Consensus Statement: 208 Evidence-based conclusions about the disorder. *Neurosci Biobehav Rev.* 2021;128:789-818. [doi:10.1016/j.neubiorev.2021.01.022](https://doi.org/10.1016/j.neubiorev.2021.01.022) · [PubMed 33549739](https://pubmed.ncbi.nlm.nih.gov/33549739/)
 [^arnsten-2009-adhd-neuroscience]: Arnsten AF. Toward a new understanding of ADHD pathophysiology: an important role for prefrontal cortex dysfunction. *CNS Drugs.* 2009;23(Suppl 1):33-41. [doi:10.2165/00023210-200923000-00005](https://doi.org/10.2165/00023210-200923000-00005) · [PubMed 19621976](https://pubmed.ncbi.nlm.nih.gov/19621976/)

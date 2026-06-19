@@ -250,6 +250,15 @@ cross_links:
   - target: 01-human/05-tissue/hippocampus
     relation: connects-to
     note: "Craniospinal radiation scars cognition: the intensive radiotherapy needed to control AT/RT, especially craniospinal irradiation in older children, injures the hippocampus and leaves survivors with lasting neurocognitive deficits."
+  - target: 01-human/05-tissue/alveolus
+    relation: connects-to
+    note: "Extracranial spread to the lung: AT/RT can disseminate beyond the CNS to seed pulmonary metastases in the alveolar capillary bed, a marker of widespread and often fatal disease."
+  - target: 01-human/05-tissue/hepatic-lobule
+    relation: connects-to
+    note: "Liver metastasis: AT/RT, one of the few brain tumours that spreads outside the nervous system, can seed the hepatic lobule as part of disseminated rhabdoid disease."
+  - target: 01-human/07-system/osteosarcoma
+    relation: connects-to
+    note: "Childhood cancers of the Li-Fraumeni spectrum: like AT/RT, osteosarcoma can arise in Li-Fraumeni syndrome from germline TP53 loss, linking a brain rhabdoid tumour and a bone sarcoma through shared tumour-suppressor failure."
 ---
 
 # Atypical Teratoid/Rhabdoid Tumor
@@ -446,6 +455,9 @@ AT/RT has no established standard of care; protocols are protocol-driven and cen
 - `connects-to` → **[CAR-T](../../../03-medicine/01-modern/13-cancer/car-t/README.md)** — Engineered cells are being aimed at it: CAR-T and related cell therapies against targets like B7-H3, delivered intrathecally for CNS tumours, are investigational for the dismal-prognosis rhabdoid tumours including AT/RT.
 - `connects-to` → **[Checkpoint Inhibitors](../../../03-medicine/01-modern/13-cancer/checkpoint-inhibitors/README.md)** — Immunotherapy has limited reach: despite a low mutational burden, some rhabdoid tumours carry immune infiltrate, so checkpoint inhibitors are explored in AT/RT, though responses so far are modest.
 - `connects-to` → **[Hippocampus](../../05-tissue/hippocampus/README.md)** — Craniospinal radiation scars cognition: the intensive radiotherapy needed to control AT/RT, especially craniospinal irradiation in older children, injures the hippocampus and leaves survivors with lasting neurocognitive deficits.
+- `connects-to` → **[Alveolus](../../05-tissue/alveolus/README.md)** — Extracranial spread to the lung: AT/RT can disseminate beyond the CNS to seed pulmonary metastases in the alveolar capillary bed, a marker of widespread and often fatal disease.
+- `connects-to` → **[Hepatic Lobule](../../05-tissue/hepatic-lobule/README.md)** — Liver metastasis: AT/RT, one of the few brain tumours that spreads outside the nervous system, can seed the hepatic lobule as part of disseminated rhabdoid disease.
+- `connects-to` → **[Osteosarcoma](../osteosarcoma/README.md)** — Childhood cancers of the Li-Fraumeni spectrum: like AT/RT, osteosarcoma can arise in Li-Fraumeni syndrome from germline TP53 loss, linking a brain rhabdoid tumour and a bone sarcoma through shared tumour-suppressor failure.
 
 ---
 
