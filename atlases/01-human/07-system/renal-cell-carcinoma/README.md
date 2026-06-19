@@ -259,6 +259,15 @@ cross_links:
   - target: 01-human/05-tissue/hepatic-lobule
     relation: connects-to
     note: "Liver metastasis: beyond the lung, RCC seeds the liver, depositing in the hepatic lobule, a poor-prognosis site of distant spread."
+  - target: 01-human/07-system/inflammatory-bowel-disease
+    relation: connects-to
+    note: "Immunotherapy's autoimmune cost: the checkpoint inhibitors central to advanced renal cell carcinoma treatment can unleash an autoimmune colitis closely resembling inflammatory bowel disease, managed with steroids and anti-TNF biologics."
+  - target: 01-human/05-tissue/arterial-wall
+    relation: connects-to
+    note: "A hypervascular tumour: VHL/HIF/VEGF make renal cell carcinoma intensely angiogenic, underlying preoperative embolization, antiangiogenic TKIs, and its hallmark growth as a tumour thrombus up the renal vein and IVC."
+  - target: 01-human/07-system/melanoma
+    relation: connects-to
+    note: "The immunotherapy-responsive pair: renal cell carcinoma and melanoma were the first solid tumours to respond to high-dose IL-2 and then checkpoint blockade, sharing an unusual immunogenicity and even spontaneous regression."
 ---
 
 # Renal Cell Carcinoma
@@ -458,6 +467,9 @@ Kidney → primary site of EPO production under hypoxia; VHL-intact renal inters
 - `connects-to` → **[Alveolus](../../05-tissue/alveolus/README.md)** — Cannonball lung metastases: RCC characteristically produces large, round 'cannonball' pulmonary metastases, seeding the alveolar bed—the lung being its commonest distant site.
 - `connects-to` → **[Wilms Tumor](../wilms-tumor/README.md)** — Two renal cancers, two ages: RCC is the adult kidney cancer arising from tubular epithelium (VHL/MET), while Wilms tumour is the childhood nephroblastoma (WT1)—the renal cancers across the lifespan.
 - `connects-to` → **[Hepatic Lobule](../../05-tissue/hepatic-lobule/README.md)** — Liver metastasis: beyond the lung, RCC seeds the liver, depositing in the hepatic lobule, a poor-prognosis site of distant spread.
+- `connects-to` → **[Inflammatory Bowel Disease](../inflammatory-bowel-disease/README.md)** — Immunotherapy's autoimmune cost: the checkpoint inhibitors central to advanced renal cell carcinoma treatment can unleash an autoimmune colitis closely resembling inflammatory bowel disease, managed with steroids and anti-TNF biologics.
+- `connects-to` → **[Arterial Wall](../../05-tissue/arterial-wall/README.md)** — A hypervascular tumour: VHL/HIF/VEGF make renal cell carcinoma intensely angiogenic, underlying preoperative embolization, antiangiogenic TKIs, and its hallmark growth as a tumour thrombus up the renal vein and IVC.
+- `connects-to` → **[Melanoma](../melanoma/README.md)** — The immunotherapy-responsive pair: renal cell carcinoma and melanoma were the first solid tumours to respond to high-dose IL-2 and then checkpoint blockade, sharing an unusual immunogenicity and even spontaneous regression.
 
 [^motzer-2018-checkmate214]: Motzer RJ, Tannir NM, McDermott DF, et al. Nivolumab plus ipilimumab versus sunitinib in advanced renal-cell carcinoma. *N Engl J Med.* 2018;378(14):1277-1290. [doi:10.1056/NEJMoa1712126](https://doi.org/10.1056/NEJMoa1712126) · [PubMed 29562145](https://pubmed.ncbi.nlm.nih.gov/29562145/)
 [^rini-2019-keynote426]: Rini BI, Plimack ER, Stus V, et al. Pembrolizumab plus axitinib versus sunitinib for advanced renal-cell carcinoma. *N Engl J Med.* 2019;380(12):1116-1127. [doi:10.1056/NEJMoa1816714](https://doi.org/10.1056/NEJMoa1816714) · [PubMed 30779529](https://pubmed.ncbi.nlm.nih.gov/30779529/)

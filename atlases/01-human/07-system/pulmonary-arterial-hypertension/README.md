@@ -265,6 +265,15 @@ cross_links:
   - target: 01-human/07-system/neurofibromatosis-type-1
     relation: connects-to
     note: "A rare NF1 association: neurofibromatosis type 1 is a recognised, often severe cause of pulmonary arterial hypertension, adding a vasculopathy to its tumour and skin features."
+  - target: 01-human/05-tissue/hepatic-lobule
+    relation: connects-to
+    note: "Portopulmonary hypertension: cirrhosis and portal hypertension arising in the hepatic lobule can drive Group 1 pulmonary arterial hypertension, a complication that critically affects candidacy for liver transplantation."
+  - target: 01-human/07-system/covid-19-disease
+    relation: connects-to
+    note: "Pulmonary vascular insult: severe COVID-19 injures the pulmonary microvasculature and strains the right heart, and established PAH patients tolerate the added load poorly, making infection especially dangerous."
+  - target: 01-human/05-tissue/glomerulus
+    relation: connects-to
+    note: "Cardiorenal backflow: the failing right ventricle of advanced PAH raises systemic venous pressure, congesting the kidney and injuring the glomerulus in a cardiorenal syndrome that worsens fluid overload."
 ---
 
 # Pulmonary Arterial Hypertension
@@ -470,6 +479,9 @@ Key variables: WHO functional class (I-IV), 6-minute walk distance (6MWD), NT-pr
 - `connects-to` → **[Alveolus](../../05-tissue/alveolus/README.md)** — The gas-exchange interface: PAH's remodelled small pulmonary arteries sit beside the alveoli, and hypoxic pulmonary vasoconstriction—the alveolar oxygen response—drives the pressure rise in lung-disease-associated PAH.
 - `connects-to` → **[Cardiac Conduction System](../../05-tissue/cardiac-conduction-system/README.md)** — Right-heart arrhythmia: progressive right-ventricular strain and dilatation in PAH cause atrial arrhythmias and conduction delay (right bundle branch block), worsening an already failing right heart.
 - `connects-to` → **[Neurofibromatosis Type 1](../neurofibromatosis-type-1/README.md)** — A rare NF1 association: neurofibromatosis type 1 is a recognised, often severe cause of pulmonary arterial hypertension, adding a vasculopathy to its tumour and skin features.
+- `connects-to` → **[Hepatic Lobule](../../05-tissue/hepatic-lobule/README.md)** — Portopulmonary hypertension: cirrhosis and portal hypertension arising in the hepatic lobule can drive Group 1 pulmonary arterial hypertension, a complication that critically affects candidacy for liver transplantation.
+- `connects-to` → **[COVID-19 Disease](../covid-19-disease/README.md)** — Pulmonary vascular insult: severe COVID-19 injures the pulmonary microvasculature and strains the right heart, and established PAH patients tolerate the added load poorly, making infection especially dangerous.
+- `connects-to` → **[Glomerulus](../../05-tissue/glomerulus/README.md)** — Cardiorenal backflow: the failing right ventricle of advanced PAH raises systemic venous pressure, congesting the kidney and injuring the glomerulus in a cardiorenal syndrome that worsens fluid overload.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
