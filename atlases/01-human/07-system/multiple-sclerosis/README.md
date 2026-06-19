@@ -271,6 +271,15 @@ cross_links:
   - target: 01-human/05-tissue/hippocampus
     relation: connects-to
     note: "Cognition in MS: demyelination and atrophy of the hippocampus contribute to the memory impairment and 'cog fog' that affect many MS patients, beyond the classic motor and sensory deficits."
+  - target: 01-human/07-system/obsessive-compulsive-disorder
+    relation: connects-to
+    note: "Lesion-driven OCD: demyelinating plaques in frontal and basal-ganglia circuits can produce secondary obsessive-compulsive symptoms, one of the neuropsychiatric manifestations of multiple sclerosis."
+  - target: 01-human/07-system/hepatitis-b
+    relation: connects-to
+    note: "Reactivation risk from anti-CD20: the B-cell-depleting therapies (ocrelizumab, rituximab) central to MS treatment can reactivate latent hepatitis B, mandating screening and antiviral prophylaxis."
+  - target: 01-human/05-tissue/intestinal-epithelium
+    relation: connects-to
+    note: "The gut-brain axis in MS: the microbiome and intestinal-barrier integrity shape MS susceptibility and relapse activity through immune signalling, an emerging influence on the demyelinating disease."
 ---
 
 # Multiple Sclerosis
@@ -465,6 +474,9 @@ MS affects approximately **2.8 million people worldwide** (~1 million in the US)
 - `connects-to` → **[COVID-19 Disease](../covid-19-disease/README.md)** — Immunotherapy meets infection: the B-cell-depleting MS therapies like ocrelizumab blunt the antibody response to COVID-19 vaccination and raise the risk of severe COVID-19, complicating treatment.
 - `connects-to` → **[Bipolar Disorder](../bipolar-disorder/README.md)** — Mood disorder in demyelinating disease: multiple sclerosis raises the risk of bipolar disorder and mania, from demyelinating lesions in mood circuits and from corticosteroid treatment of relapses.
 - `connects-to` → **[Hippocampus](../../05-tissue/hippocampus/README.md)** — Cognition in MS: demyelination and atrophy of the hippocampus contribute to the memory impairment and 'cog fog' that affect many MS patients, beyond the classic motor and sensory deficits.
+- `connects-to` → **[Obsessive-Compulsive Disorder](../obsessive-compulsive-disorder/README.md)** — Lesion-driven OCD: demyelinating plaques in frontal and basal-ganglia circuits can produce secondary obsessive-compulsive symptoms, one of the neuropsychiatric manifestations of multiple sclerosis.
+- `connects-to` → **[Hepatitis B](../hepatitis-b/README.md)** — Reactivation risk from anti-CD20: the B-cell-depleting therapies (ocrelizumab, rituximab) central to MS treatment can reactivate latent hepatitis B, mandating screening and antiviral prophylaxis.
+- `connects-to` → **[Intestinal Epithelium](../../05-tissue/intestinal-epithelium/README.md)** — The gut-brain axis in MS: the microbiome and intestinal-barrier integrity shape MS susceptibility and relapse activity through immune signalling, an emerging influence on the demyelinating disease.
 
 [^compston-2008-ms-review]: Compston A, Coles A. Multiple sclerosis. *Lancet.* 2008;372(9648):1502-1517. [doi:10.1016/S0140-6736(08)61620-7](https://doi.org/10.1016/S0140-6736(08)61620-7) · [PubMed 18970977](https://pubmed.ncbi.nlm.nih.gov/18970977/)
 [^kappos-2006-natalizumab]: Polman CH, O'Connor PW, Havrdova E, et al. A randomized, placebo-controlled trial of natalizumab for relapsing multiple sclerosis. *N Engl J Med.* 2006;354(9):899-910. [doi:10.1056/NEJMoa044397](https://doi.org/10.1056/NEJMoa044397) · [PubMed 16510744](https://pubmed.ncbi.nlm.nih.gov/16510744/)
