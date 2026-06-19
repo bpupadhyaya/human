@@ -250,6 +250,15 @@ cross_links:
   - target: 01-human/05-tissue/axonal-transport
     relation: connects-to
     note: "It crushes the neural axis: growing at the clivus or sacrum, chordoma compresses the brainstem, cranial nerves and spinal cord, and the resulting axonal injury produces its cranial neuropathies and myelopathy."
+  - target: 01-human/05-tissue/alveolus
+    relation: connects-to
+    note: "Where it spreads: although slow-growing, chordoma metastasises late—most often to the lungs—seeding the alveolar capillary bed."
+  - target: 01-human/07-system/schwannomatosis
+    relation: connects-to
+    note: "A shared SMARCB1 loss: poorly-differentiated chordoma loses the SMARCB1/INI1 tumour suppressor, the same lesion that defines rhabdoid tumours and SMARCB1-related schwannomatosis."
+  - target: 01-human/05-tissue/hepatic-lobule
+    relation: connects-to
+    note: "Late liver metastasis: advanced chordoma can spread beyond bone to the liver, seeding the hepatic lobule among its distant metastatic sites."
 ---
 
 # Chordoma
@@ -462,6 +471,9 @@ CDKN2A deletion in ~30-40% → CDK4/6 hyperactivation → RB1 phosphorylation; p
 - `connects-to` → **[Cancer Chemotherapy](../../../03-medicine/01-modern/13-cancer/cancer-chemotherapy/README.md)** — It defies conventional chemo: chordoma is largely resistant to cytotoxic chemotherapy, so treatment rests on en-bloc surgery and high-dose proton-beam radiation rather than the drugs that work in other sarcomas.
 - `connects-to` → **[Checkpoint Inhibitors](../../../03-medicine/01-modern/13-cancer/checkpoint-inhibitors/README.md)** — Immunotherapy is being tested: chordomas often express PD-L1 and the notochordal antigen brachyury, prompting trials of checkpoint inhibitors and brachyury-targeted vaccines in this hard-to-treat tumour.
 - `connects-to` → **[Axonal Transport](../../05-tissue/axonal-transport/README.md)** — It crushes the neural axis: growing at the clivus or sacrum, chordoma compresses the brainstem, cranial nerves and spinal cord, and the resulting axonal injury produces its cranial neuropathies and myelopathy.
+- `connects-to` → **[Alveolus](../../05-tissue/alveolus/README.md)** — Where it spreads: although slow-growing, chordoma metastasises late—most often to the lungs—seeding the alveolar capillary bed.
+- `connects-to` → **[Schwannomatosis](../schwannomatosis/README.md)** — A shared SMARCB1 loss: poorly-differentiated chordoma loses the SMARCB1/INI1 tumour suppressor, the same lesion that defines rhabdoid tumours and SMARCB1-related schwannomatosis.
+- `connects-to` → **[Hepatic Lobule](../../05-tissue/hepatic-lobule/README.md)** — Late liver metastasis: advanced chordoma can spread beyond bone to the liver, seeding the hepatic lobule among its distant metastatic sites.
 
 ---
 

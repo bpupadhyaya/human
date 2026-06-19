@@ -250,6 +250,15 @@ cross_links:
   - target: 01-human/07-system/aml
     relation: connects-to
     note: "A shared IDH vulnerability: IDH1 mutations occur in both cholangiocarcinoma and acute myeloid leukaemia, and the IDH1 inhibitor ivosidenib treats both — an unexpected link between a bile-duct cancer and a blood cancer."
+  - target: 01-human/05-tissue/alveolus
+    relation: connects-to
+    note: "Where it spreads: cholangiocarcinoma metastasises to the lungs, seeding tumour deposits in the alveolar capillary bed as part of advanced disease."
+  - target: 01-human/05-tissue/germinal-center
+    relation: connects-to
+    note: "When immunotherapy works: mismatch-repair-deficient and inflamed cholangiocarcinomas attract tertiary lymphoid structures with germinal centres and can respond to PD-1 checkpoint blockade."
+  - target: 01-human/03-molecular/arid1a
+    relation: connects-to
+    note: "A chromatin-remodelling driver: ARID1A, part of the SWI/SNF complex, is recurrently mutated in cholangiocarcinoma alongside IDH and FGFR, shaping its distinctive and increasingly targetable genomic landscape."
 ---
 
 # Cholangiocarcinoma
@@ -424,6 +433,9 @@ Chronic biliary injury (from PSC, fluke infection, bile acid reflux, biliary sta
 - `connects-to` → **[Checkpoint Inhibitors](../../../03-medicine/01-modern/13-cancer/checkpoint-inhibitors/README.md)** — Immunotherapy joined first-line: adding durvalumab to gemcitabine-cisplatin (the TOPAZ-1 regimen) improved survival in advanced biliary tract cancer, bringing checkpoint blockade into cholangiocarcinoma care.
 - `connects-to` → **[Hepatic Lobule](../../05-tissue/hepatic-lobule/README.md)** — It springs from the bile ductules: intrahepatic cholangiocarcinoma arises from the small bile ducts within the portal tracts of the liver lobule, and biliary obstruction causes the cholestasis and jaundice that dominate its presentation.
 - `connects-to` → **[AML](../aml/README.md)** — A shared IDH vulnerability: IDH1 mutations occur in both cholangiocarcinoma and acute myeloid leukaemia, and the IDH1 inhibitor ivosidenib treats both — an unexpected link between a bile-duct cancer and a blood cancer.
+- `connects-to` → **[Alveolus](../../05-tissue/alveolus/README.md)** — Where it spreads: cholangiocarcinoma metastasises to the lungs, seeding tumour deposits in the alveolar capillary bed as part of advanced disease.
+- `connects-to` → **[Germinal Center](../../05-tissue/germinal-center/README.md)** — When immunotherapy works: mismatch-repair-deficient and inflamed cholangiocarcinomas attract tertiary lymphoid structures with germinal centres and can respond to PD-1 checkpoint blockade.
+- `connects-to` → **[ARID1A](../../03-molecular/arid1a/README.md)** — A chromatin-remodelling driver: ARID1A, part of the SWI/SNF complex, is recurrently mutated in cholangiocarcinoma alongside IDH and FGFR, shaping its distinctive and increasingly targetable genomic landscape.
 
 ---
 
