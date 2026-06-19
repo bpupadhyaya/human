@@ -250,6 +250,15 @@ cross_links:
   - target: 01-human/05-tissue/endocardium
     relation: connects-to
     note: "The same signal builds the heart valves: TGF-β/BMP-SMAD4 signalling drives the endocardial cushion transformation that forms cardiac valves, so SMAD4 loss in juvenile polyposis can accompany the congenital valvular and septal anomalies seen in its HHT overlap."
+  - target: 01-human/05-tissue/alveolus
+    relation: connects-to
+    note: "Pulmonary AVMs of the JPS-HHT overlap: SMAD4 mutations cause combined juvenile polyposis and hereditary haemorrhagic telangiectasia, with pulmonary arteriovenous malformations in the alveolar bed that risk paradoxical embolism and hypoxaemia."
+  - target: 01-human/05-tissue/hepatic-lobule
+    relation: connects-to
+    note: "Hepatic AVMs: the JPS-HHT overlap also produces hepatic arteriovenous malformations shunting blood through the liver lobule, which can cause high-output heart failure."
+  - target: 01-human/07-system/li-fraumeni-syndrome
+    relation: connects-to
+    note: "Two germline cancer syndromes: like Li-Fraumeni, juvenile polyposis is an autosomal-dominant predisposition requiring lifelong surveillance, though JPS targets the gut while Li-Fraumeni spans many organs."
 ---
 
 # Juvenile Polyposis Syndrome
@@ -457,6 +466,9 @@ No approved chemopreventive agents specifically for JPS. Options under investiga
 - `connects-to` → **[Marfan Syndrome](../marfan-syndrome/README.md)** — Diseases of one signalling axis: juvenile polyposis arises from loss of SMAD4, the central transducer of TGF-β/BMP signalling, while Marfan syndrome stems from FBN1 loss that unleashes excess TGF-β—opposite disturbances of the same pathway.
 - `connects-to` → **[Arterial Wall](../../05-tissue/arterial-wall/README.md)** — SMAD4 keeps the vessel wall intact: SMAD4 relays the BMP9/ALK1 signals maintaining the arterial wall, so its loss in SMAD4-type juvenile polyposis yields the fragile telangiectatic vessels and AVMs of overlapping hereditary haemorrhagic telangiectasia.
 - `connects-to` → **[Endocardium](../../05-tissue/endocardium/README.md)** — The same signal builds the heart valves: TGF-β/BMP-SMAD4 signalling drives the endocardial cushion transformation that forms cardiac valves, so SMAD4 loss in juvenile polyposis can accompany the congenital valvular and septal anomalies seen in its HHT overlap.
+- `connects-to` → **[Alveolus](../../05-tissue/alveolus/README.md)** — Pulmonary AVMs of the JPS-HHT overlap: SMAD4 mutations cause combined juvenile polyposis and hereditary haemorrhagic telangiectasia, with pulmonary arteriovenous malformations in the alveolar bed that risk paradoxical embolism and hypoxaemia.
+- `connects-to` → **[Hepatic Lobule](../../05-tissue/hepatic-lobule/README.md)** — Hepatic AVMs: the JPS-HHT overlap also produces hepatic arteriovenous malformations shunting blood through the liver lobule, which can cause high-output heart failure.
+- `connects-to` → **[Li-Fraumeni Syndrome](../li-fraumeni-syndrome/README.md)** — Two germline cancer syndromes: like Li-Fraumeni, juvenile polyposis is an autosomal-dominant predisposition requiring lifelong surveillance, though JPS targets the gut while Li-Fraumeni spans many organs.
 
 [^howe-1998-smad4-jps]: Howe JR, Roth S, Ringold JC, et al. Mutations in the SMAD4/DPC4 gene in juvenile polyposis. *Science.* 1998;280(5366):1086-1088. [doi:10.1126/science.280.5366.1086](https://doi.org/10.1126/science.280.5366.1086) · [PubMed 9582123](https://pubmed.ncbi.nlm.nih.gov/9582123/)
 [^aretz-2007-jps-spectrum]: Aretz S, Stienen D, Uhlhaas S, et al. High proportion of large genomic deletions and a genotype-phenotype update in 80 unrelated families with juvenile polyposis syndrome. *J Med Genet.* 2007;44(11):702-709. [doi:10.1136/jmg.2007.051839](https://doi.org/10.1136/jmg.2007.051839) · [PubMed 17601924](https://pubmed.ncbi.nlm.nih.gov/17601924/)

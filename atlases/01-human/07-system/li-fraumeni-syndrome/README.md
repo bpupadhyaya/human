@@ -250,6 +250,15 @@ cross_links:
   - target: 01-human/07-system/synovial-sarcoma
     relation: connects-to
     note: "Part of its sarcoma spectrum: beyond osteosarcoma and rhabdomyosarcoma, Li-Fraumeni predisposes to soft-tissue sarcomas like synovial sarcoma, though synovial sarcoma's defining SS18-SSX fusion contrasts with the genome-wide instability p53 loss brings."
+  - target: 01-human/07-system/juvenile-polyposis-syndrome
+    relation: connects-to
+    note: "Autosomal-dominant cancer predisposition: like juvenile polyposis, Li-Fraumeni is inherited dominantly and demands intensive surveillance, but its germline TP53 loss spans sarcomas, breast, brain and adrenal cancers rather than the gut."
+  - target: 01-human/05-tissue/myocardium
+    relation: connects-to
+    note: "Cardiotoxicity in cancer-prone survivors: treating Li-Fraumeni's many cancers exposes the myocardium to anthracyclines, and radiation is minimised because p53 loss makes tissues radiosensitive and prone to second cancers."
+  - target: 01-human/05-tissue/hepatic-lobule
+    relation: connects-to
+    note: "Childhood liver and adrenal cancers: Li-Fraumeni predisposes to hepatoblastoma and adrenocortical carcinoma in children, and the hepatic lobule is a site of both primary tumours and metastases."
 ---
 
 # Li-Fraumeni Syndrome
@@ -478,6 +487,9 @@ Annual surveillance significantly reduces mortality in LFS carriers (Villani 201
 - `connects-to` → **[Cortical Bone](../../05-tissue/cortical-bone/README.md)** — Where its signature sarcoma grows: osteosarcoma, a defining Li-Fraumeni cancer, arises in cortical bone where p53 loss frees osteoblast precursors to proliferate—and radiotherapy adds further bone-sarcoma risk in these radiosensitive patients.
 - `connects-to` → **[Targeted Therapy](../../../03-medicine/01-modern/13-cancer/targeted-therapy/README.md)** — The hardest target is the missing guardian: Li-Fraumeni cells lack functional p53, so MDM2 inhibitors that stabilise wild-type p53 fail; targeted therapy turns instead to mutant-p53 reactivators and the downstream vulnerabilities of p53 loss.
 - `connects-to` → **[Synovial Sarcoma](../synovial-sarcoma/README.md)** — Part of its sarcoma spectrum: beyond osteosarcoma and rhabdomyosarcoma, Li-Fraumeni predisposes to soft-tissue sarcomas like synovial sarcoma, though synovial sarcoma's defining SS18-SSX fusion contrasts with the genome-wide instability p53 loss brings.
+- `connects-to` → **[Juvenile Polyposis Syndrome](../juvenile-polyposis-syndrome/README.md)** — Autosomal-dominant cancer predisposition: like juvenile polyposis, Li-Fraumeni is inherited dominantly and demands intensive surveillance, but its germline TP53 loss spans sarcomas, breast, brain and adrenal cancers rather than the gut.
+- `connects-to` → **[Myocardium](../../05-tissue/myocardium/README.md)** — Cardiotoxicity in cancer-prone survivors: treating Li-Fraumeni's many cancers exposes the myocardium to anthracyclines, and radiation is minimised because p53 loss makes tissues radiosensitive and prone to second cancers.
+- `connects-to` → **[Hepatic Lobule](../../05-tissue/hepatic-lobule/README.md)** — Childhood liver and adrenal cancers: Li-Fraumeni predisposes to hepatoblastoma and adrenocortical carcinoma in children, and the hepatic lobule is a site of both primary tumours and metastases.
 
 [^bougeard-2015-lfs-chompret]: Bougeard G, Renaux-Petel M, Flaman JM, et al. Revisiting Li-Fraumeni Syndrome From TP53 Mutation Carriers. *J Clin Oncol.* 2015;33(21):2345-2352. [doi:10.1200/JCO.2014.59.5728](https://doi.org/10.1200/JCO.2014.59.5728) · [PubMed 26014290](https://pubmed.ncbi.nlm.nih.gov/26014290/)
 [^villani-2016-lfs-surveillance]: Villani A, Shore A, Wasserman JD, et al. Biochemical and imaging surveillance in germline TP53 mutation carriers with Li-Fraumeni syndrome: 11 year follow-up of a prospective observational study. *Lancet Oncol.* 2016;17(9):1295-1305. [doi:10.1016/S1470-2045(16)30249-2](https://doi.org/10.1016/S1470-2045(16)30249-2) · [PubMed 27501770](https://pubmed.ncbi.nlm.nih.gov/27501770/)
