@@ -269,6 +269,15 @@ cross_links:
   - target: 01-human/07-system/gvhd
     relation: connects-to
     note: "The first organ of GVHD: the skin is the earliest and commonest target of graft-versus-host disease, its rash and later sclerodermatous change central to diagnosing and grading the alloimmune attack."
+  - target: 01-human/03-molecular/substance-p
+    relation: connects-to
+    note: "Neurogenic itch and inflammation: substance P released by cutaneous sensory nerves drives neurogenic inflammation and the itch sensation central to many skin diseases."
+  - target: 01-human/03-molecular/il-31
+    relation: connects-to
+    note: "The itch cytokine: IL-31 is the principal pruritogenic cytokine of the skin, the target of nemolizumab in atopic dermatitis and prurigo nodularis."
+  - target: 01-human/07-system/prurigo-nodularis
+    relation: connects-to
+    note: "Neuroimmune itch disease: prurigo nodularis is a chronic, intensely itchy skin disorder that exemplifies the neuroimmune itch circuit linking cutaneous nerves and immune cells."
 ---
 
 # Integumentary System
@@ -458,6 +467,9 @@ Wound healing is a precisely orchestrated process in four overlapping phases [^g
 - `connects-to` → **[COVID-19 Disease](../covid-19-disease/README.md)** — The skin as a window on infection: COVID-19 produces a range of cutaneous signs—chilblain-like 'COVID toes', urticarial, vesicular and maculopapular rashes—that reflect the systemic vascular and immune response.
 - `connects-to` → **[PTCL](../ptcl/README.md)** — Lymphoma born in the skin: primary cutaneous T-cell lymphomas like mycosis fungoides and Sézary syndrome arise in the integument itself, making the skin a primary site of lymphoid malignancy.
 - `connects-to` → **[GVHD](../gvhd/README.md)** — The first organ of GVHD: the skin is the earliest and commonest target of graft-versus-host disease, its rash and later sclerodermatous change central to diagnosing and grading the alloimmune attack.
+- `connects-to` → **[Substance P](../../03-molecular/substance-p/README.md)** — Neurogenic itch and inflammation: substance P released by cutaneous sensory nerves drives neurogenic inflammation and the itch sensation central to many skin diseases.
+- `connects-to` → **[IL-31](../../03-molecular/il-31/README.md)** — The itch cytokine: IL-31 is the principal pruritogenic cytokine of the skin, the target of nemolizumab in atopic dermatitis and prurigo nodularis.
+- `connects-to` → **[Prurigo Nodularis](../prurigo-nodularis/README.md)** — Neuroimmune itch disease: prurigo nodularis is a chronic, intensely itchy skin disorder that exemplifies the neuroimmune itch circuit linking cutaneous nerves and immune cells.
 
 ## Pathology
 

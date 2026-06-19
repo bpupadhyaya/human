@@ -277,6 +277,15 @@ cross_links:
   - target: 01-human/07-system/myelofibrosis
     relation: connects-to
     note: "Acquired on inherited risk: JAK2-mutant myelofibrosis is a powerful acquired prothrombotic state causing splanchnic-vein thrombosis, often unmasked or worsened when an inherited thrombophilia coexists."
+  - target: 01-human/03-molecular/il-6
+    relation: connects-to
+    note: "Inflammation-coagulation crosstalk: IL-6 induces fibrinogen and tissue factor, so inflammatory states compound an inherited thrombophilia to tip the balance toward clotting."
+  - target: 01-human/03-molecular/nlrp3-inflammasome
+    relation: connects-to
+    note: "Immunothrombosis: NLRP3-inflammasome activation links inflammation to clotting through tissue-factor expression and neutrophil traps, amplifying the risk in inherited thrombophilia."
+  - target: 01-human/03-molecular/endothelin-1
+    relation: connects-to
+    note: "Endothelial dysfunction: endothelin-1-driven endothelial activation and vasoconstriction add a vascular-wall contribution to the thrombotic tendency of inherited thrombophilia."
 ---
 
 # Inherited Thrombophilia
@@ -522,6 +531,9 @@ Antithrombin (ATIII) is the primary plasma inhibitor of thrombin, FXa, FIXa, and
 - `connects-to` → **[Myocardium](../../05-tissue/myocardium/README.md)** — Arterial events too: while inherited thrombophilias mainly cause venous clots, several contribute to arterial thrombosis and myocardial infarction in young patients, especially combined with smoking or oestrogen exposure.
 - `connects-to` → **[Thalassemia](../thalassemia/README.md)** — A hypercoagulable haemoglobinopathy: thalassaemia, especially the non-transfusion-dependent intermedia form and after splenectomy, carries a high thrombotic risk that stacks with any inherited thrombophilia.
 - `connects-to` → **[Myelofibrosis](../myelofibrosis/README.md)** — Acquired on inherited risk: JAK2-mutant myelofibrosis is a powerful acquired prothrombotic state causing splanchnic-vein thrombosis, often unmasked or worsened when an inherited thrombophilia coexists.
+- `connects-to` → **[IL-6](../../03-molecular/il-6/README.md)** — Inflammation-coagulation crosstalk: IL-6 induces fibrinogen and tissue factor, so inflammatory states compound an inherited thrombophilia to tip the balance toward clotting.
+- `connects-to` → **[NLRP3 Inflammasome](../../03-molecular/nlrp3-inflammasome/README.md)** — Immunothrombosis: NLRP3-inflammasome activation links inflammation to clotting through tissue-factor expression and neutrophil traps, amplifying the risk in inherited thrombophilia.
+- `connects-to` → **[Endothelin-1](../../03-molecular/endothelin-1/README.md)** — Endothelial dysfunction: endothelin-1-driven endothelial activation and vasoconstriction add a vascular-wall contribution to the thrombotic tendency of inherited thrombophilia.
 
 [^bertina-1994-factor-v-leiden]: Bertina RM, Koeleman BP, Koster T, et al. Mutation in blood coagulation factor V associated with resistance to activated protein C. *Nature.* 1994;369(6475):64-67. [doi:10.1038/369064a0](https://doi.org/10.1038/369064a0) · [PubMed 8164741](https://pubmed.ncbi.nlm.nih.gov/8164741/)
 [^dahlback-2008-protein-c-review]: Dahlbäck B. Advances in understanding pathogenic mechanisms of thrombophilic disorders. *Blood.* 2008;112(1):19-27. [doi:10.1182/blood-2008-01-077909](https://doi.org/10.1182/blood-2008-01-077909) · [PubMed 18574048](https://pubmed.ncbi.nlm.nih.gov/18574048/)
