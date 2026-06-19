@@ -268,6 +268,15 @@ cross_links:
   - target: 01-human/05-tissue/arterial-wall
     relation: connects-to
     note: "A paradoxical protection: the lifelong hypocoagulable state of haemophilia lowers the risk of arterial thrombosis, so atherosclerotic plaques in the arterial wall less often trigger heart attacks and ischaemic strokes."
+  - target: 01-human/07-system/breast-cancer
+    relation: connects-to
+    note: "Acquired haemophilia: autoantibodies against Factor VIII can arise paraneoplastically with solid tumours like breast cancer (and with lymphoma or postpartum), causing sudden severe bleeding in a previously normal person."
+  - target: 01-human/05-tissue/glomerulus
+    relation: connects-to
+    note: "Renal bleeding: spontaneous haematuria is common in haemophilia, blood passing from the kidney through the glomerulus and urinary tract, where antifibrinolytics are avoided lest clots obstruct the ureter."
+  - target: 01-human/07-system/covid-19-disease
+    relation: connects-to
+    note: "An anticoagulation paradox: COVID-19's prothrombotic state complicates haemophilia management, balancing thromboprophylaxis against the underlying bleeding tendency, while the pandemic disrupted factor-replacement care."
 ---
 
 # Hemophilia A
@@ -472,6 +481,9 @@ FVIII is a critical **amplifier** of the coagulation cascade at the junction bet
 - `connects-to` → **[HCC](../hcc/README.md)** — The transfusion-era legacy: hepatitis C from contaminated clotting-factor concentrates gave a generation of haemophilia patients chronic liver disease, cirrhosis and hepatocellular carcinoma, still a leading cause of death.
 - `connects-to` → **[Germinal Center](../../05-tissue/germinal-center/README.md)** — Where inhibitors are born: the anti-factor-VIII alloantibodies that defeat replacement therapy are class-switched and affinity-matured by B cells in germinal centres, the central immunological problem of haemophilia care.
 - `connects-to` → **[Arterial Wall](../../05-tissue/arterial-wall/README.md)** — A paradoxical protection: the lifelong hypocoagulable state of haemophilia lowers the risk of arterial thrombosis, so atherosclerotic plaques in the arterial wall less often trigger heart attacks and ischaemic strokes.
+- `connects-to` → **[Breast Cancer](../breast-cancer/README.md)** — Acquired haemophilia: autoantibodies against Factor VIII can arise paraneoplastically with solid tumours like breast cancer (and with lymphoma or postpartum), causing sudden severe bleeding in a previously normal person.
+- `connects-to` → **[Glomerulus](../../05-tissue/glomerulus/README.md)** — Renal bleeding: spontaneous haematuria is common in haemophilia, blood passing from the kidney through the glomerulus and urinary tract, where antifibrinolytics are avoided lest clots obstruct the ureter.
+- `connects-to` → **[COVID-19 Disease](../covid-19-disease/README.md)** — An anticoagulation paradox: COVID-19's prothrombotic state complicates haemophilia management, balancing thromboprophylaxis against the underlying bleeding tendency, while the pandemic disrupted factor-replacement care.
 
 [^oldenburg-2017-emicizumab-haven1]: Oldenburg J, Mahlangu JN, Kim B, et al. Emicizumab prophylaxis in hemophilia A with inhibitors. *N Engl J Med.* 2017;377(9):809-818. [doi:10.1056/NEJMoa1703068](https://doi.org/10.1056/NEJMoa1703068) · [PubMed 28691557](https://pubmed.ncbi.nlm.nih.gov/28691557/)
 [^mahlangu-2018-emicizumab-haven3]: Mahlangu J, Oldenburg J, Paz-Priel I, et al. Emicizumab prophylaxis in patients who have hemophilia A without inhibitors. *N Engl J Med.* 2018;379(9):811-822. [doi:10.1056/NEJMoa1803550](https://doi.org/10.1056/NEJMoa1803550) · [PubMed 30157389](https://pubmed.ncbi.nlm.nih.gov/30157389/)

@@ -268,6 +268,15 @@ cross_links:
   - target: 01-human/07-system/pancreatic-cancer
     relation: connects-to
     note: "Cancer, clots and heparin: highly thrombogenic cancers like pancreatic adenocarcinoma (Trousseau syndrome) demand heavy heparin anticoagulation, the very setting in which heparin-induced thrombocytopenia can dangerously compound the clotting."
+  - target: 01-human/03-molecular/protein-c
+    relation: connects-to
+    note: "Why warfarin is dangerous in HIT: starting warfarin during acute HIT depletes protein C faster than the procoagulant factors, tipping into venous limb gangrene—so warfarin is withheld until the platelet count recovers."
+  - target: 01-human/05-tissue/peripheral-nerve
+    relation: connects-to
+    note: "Limb-threatening ischaemia: HIT's arterial thromboses and venous limb gangrene starve the extremities, damaging peripheral nerves with ischaemic neuropathy and sometimes forcing amputation."
+  - target: 01-human/07-system/myelofibrosis
+    relation: connects-to
+    note: "Thrombosis on thrombosis: myeloproliferative neoplasms like myelofibrosis are intrinsically prothrombotic and their patients receive heparin, a setting where HIT can stack a second, antibody-driven clotting risk on top."
 ---
 
 # Heparin-Induced Thrombocytopenia
@@ -495,6 +504,9 @@ Platelet consumption → thrombocytopenia (paradox: clotting despite low platele
 - `connects-to` → **[Hepatic Lobule](../../05-tissue/hepatic-lobule/README.md)** — Splanchnic thrombosis: HIT can clot the portal and mesenteric veins, congesting the hepatic lobules and threatening bowel infarction—an under-recognised but dangerous site of HIT thrombosis.
 - `connects-to` → **[Germinal Center](../../05-tissue/germinal-center/README.md)** — An unusual antibody response: HIT's anti-PF4/heparin IgG arises within days and is short-lived, reflecting a largely extrafollicular B-cell response that bypasses durable germinal-centre memory—why the antibodies wane within months.
 - `connects-to` → **[Pancreatic Cancer](../pancreatic-cancer/README.md)** — Cancer, clots and heparin: highly thrombogenic cancers like pancreatic adenocarcinoma (Trousseau syndrome) demand heavy heparin anticoagulation, the very setting in which heparin-induced thrombocytopenia can dangerously compound the clotting.
+- `connects-to` → **[Protein C](../../03-molecular/protein-c/README.md)** — Why warfarin is dangerous in HIT: starting warfarin during acute HIT depletes protein C faster than the procoagulant factors, tipping into venous limb gangrene—so warfarin is withheld until the platelet count recovers.
+- `connects-to` → **[Peripheral Nerve](../../05-tissue/peripheral-nerve/README.md)** — Limb-threatening ischaemia: HIT's arterial thromboses and venous limb gangrene starve the extremities, damaging peripheral nerves with ischaemic neuropathy and sometimes forcing amputation.
+- `connects-to` → **[Myelofibrosis](../myelofibrosis/README.md)** — Thrombosis on thrombosis: myeloproliferative neoplasms like myelofibrosis are intrinsically prothrombotic and their patients receive heparin, a setting where HIT can stack a second, antibody-driven clotting risk on top.
 
 [^warkentin-2007-hit-review]: Warkentin TE, Greinacher A. Heparin-induced thrombocytopenia: recognition, treatment, and prevention. *Chest.* 2004;126(3 Suppl):311S-337S. [doi:10.1378/chest.126.3_suppl.311S](https://doi.org/10.1378/chest.126.3_suppl.311S) · [PubMed 15383477](https://pubmed.ncbi.nlm.nih.gov/15383477/)
 [^greinacher-2021-vitt-nejm]: Greinacher A, Thiele T, Warkentin TE, et al. Thrombotic thrombocytopenia after ChAdOx1 nCov-19 vaccination. *N Engl J Med.* 2021;384(22):2092-2101. [doi:10.1056/NEJMoa2104840](https://doi.org/10.1056/NEJMoa2104840) · [PubMed 33835769](https://pubmed.ncbi.nlm.nih.gov/33835769/)
