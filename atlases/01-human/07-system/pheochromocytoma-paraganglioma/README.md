@@ -268,6 +268,15 @@ cross_links:
   - target: 01-human/07-system/covid-19-disease
     relation: connects-to
     note: "Crisis under stress: any severe illness including COVID-19 can precipitate a catecholamine crisis in an unrecognised phaeochromocytoma, the surge causing dangerous hypertension, arrhythmia and cardiomyopathy."
+  - target: 01-human/03-molecular/ezh2
+    relation: connects-to
+    note: "Pseudohypoxic epigenetics: in SDH-deficient PPGL, accumulated succinate inhibits histone demethylases and, with EZH2/polycomb, drives the DNA/histone hypermethylator phenotype shared with IDH- and FH-mutant tumours."
+  - target: 01-human/03-molecular/kras
+    relation: connects-to
+    note: "Kinase-signalling group: alongside NF1 and RET, RAS-MAPK activation defines the kinase-signalling cluster of PPGL, with HRAS/KRAS mutations in some sporadic tumours."
+  - target: 01-human/03-molecular/pdgf
+    relation: connects-to
+    note: "Angiogenic RTK target: PDGFR and VEGFR signalling drive the rich vasculature of PPGL, the basis for multikinase inhibitors such as sunitinib in metastatic disease."
 ---
 
 # Pheochromocytoma/Paraganglioma
@@ -493,6 +502,9 @@ Active in Cluster 1 (MET/AXL co-expressed in SDH-deficient tumors); Phase 2 CABO
 - `connects-to` → **[Cortical Bone](../../05-tissue/cortical-bone/README.md)** — Metastatic bone disease: malignant paraganglioma, especially SDHB-mutated, has a striking predilection for bone metastases, often osteolytic lesions in the cortical bone that drive functional imaging and treatment.
 - `connects-to` → **[Hepatic Lobule](../../05-tissue/hepatic-lobule/README.md)** — Liver as a metastatic site: alongside bone, the liver is a leading destination for malignant phaeochromocytoma and paraganglioma, the tumour seeding the hepatic lobule in metastatic SDHB-driven disease.
 - `connects-to` → **[COVID-19 Disease](../covid-19-disease/README.md)** — Crisis under stress: any severe illness including COVID-19 can precipitate a catecholamine crisis in an unrecognised phaeochromocytoma, the surge causing dangerous hypertension, arrhythmia and cardiomyopathy.
+- `connects-to` → **[EZH2](../../03-molecular/ezh2/README.md)** — Pseudohypoxic epigenetics: in SDH-deficient PPGL, accumulated succinate inhibits histone demethylases and, with EZH2/polycomb, drives the DNA/histone hypermethylator phenotype shared with IDH- and FH-mutant tumours.
+- `connects-to` → **[KRAS](../../03-molecular/kras/README.md)** — Kinase-signalling group: alongside NF1 and RET, RAS-MAPK activation defines the kinase-signalling cluster of PPGL, with HRAS/KRAS mutations in some sporadic tumours.
+- `connects-to` → **[PDGF](../../03-molecular/pdgf/README.md)** — Angiogenic RTK target: PDGFR and VEGFR signalling drive the rich vasculature of PPGL, the basis for multikinase inhibitors such as sunitinib in metastatic disease.
 
 [^lenders-2014-pheo-guideline]: Lenders JW, Duh QY, Eisenhofer G, et al. Pheochromocytoma and paraganglioma: an endocrine society clinical practice guideline. *J Clin Endocrinol Metab.* 2014;99(6):1915-1942. [doi:10.1210/jc.2014-1498](https://doi.org/10.1210/jc.2014-1498) · [PubMed 24893135](https://pubmed.ncbi.nlm.nih.gov/24893135/)
 [^baudin-2021-firstmappp-sunitinib]: Baudin E, Goichot B, Berruti A, et al. First International Randomized Study in Malignant Progressive Pheochromocytoma and Paragangliomas (FIRSTMAPPP). *Ann Oncol.* 2021;32(10):1245-1254. [doi:10.1016/j.annonc.2021.07.009](https://doi.org/10.1016/j.annonc.2021.07.009) · [PubMed 34246769](https://pubmed.ncbi.nlm.nih.gov/34246769/)

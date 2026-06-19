@@ -268,6 +268,15 @@ cross_links:
   - target: 01-human/05-tissue/hepatic-lobule
     relation: connects-to
     note: "Metastatic endpoint: the gastrointestinal and pancreatic cancers that arise in Peutz-Jeghers spread to the liver, seeding the hepatic lobule in advanced disease."
+  - target: 01-human/03-molecular/prostaglandins
+    relation: connects-to
+    note: "COX-2 chemoprevention angle: LKB1 loss upregulates COX-2 and prostaglandins in Peutz-Jeghers hamartomas, a rationale for NSAID chemoprevention of its polyps."
+  - target: 01-human/03-molecular/tsc1-tsc2
+    relation: connects-to
+    note: "mTOR convergence: LKB1-AMPK normally restrains mTORC1 through the TSC1-TSC2 complex, so STK11 loss in Peutz-Jeghers deregulates the same mTOR pathway as tuberous sclerosis."
+  - target: 01-human/03-molecular/myc
+    relation: connects-to
+    note: "Progression to cancer: unrestrained mTOR and Wnt signalling from LKB1 loss drive MYC activation, helping push Peutz-Jeghers hamartomas toward malignancy."
 ---
 
 # Peutz-Jeghers Syndrome
@@ -475,6 +484,9 @@ Without surveillance: cumulative cancer risk reaches ~85-93% by age 70 (all canc
 - `connects-to` → **[Neuroendocrine Tumors](../neuroendocrine-tumors/README.md)** — Pancreatic neoplasia beyond adenocarcinoma: Peutz-Jeghers raises the risk of pancreatic tumours including neuroendocrine tumours, reflecting STK11/LKB1 loss in enteropancreatic tissue alongside the ductal cancers it predisposes to.
 - `connects-to` → **[MEN1 Syndrome](../men1-syndrome/README.md)** — Two syndromes, shared pancreatic surveillance: Peutz-Jeghers and MEN1 are both autosomal-dominant predispositions to pancreatic neoplasia, so both warrant lifelong imaging surveillance of the pancreas despite their different driver genes.
 - `connects-to` → **[Hepatic Lobule](../../05-tissue/hepatic-lobule/README.md)** — Metastatic endpoint: the gastrointestinal and pancreatic cancers that arise in Peutz-Jeghers spread to the liver, seeding the hepatic lobule in advanced disease.
+- `connects-to` → **[Prostaglandins](../../03-molecular/prostaglandins/README.md)** — COX-2 chemoprevention angle: LKB1 loss upregulates COX-2 and prostaglandins in Peutz-Jeghers hamartomas, a rationale for NSAID chemoprevention of its polyps.
+- `connects-to` → **[TSC1-TSC2](../../03-molecular/tsc1-tsc2/README.md)** — mTOR convergence: LKB1-AMPK normally restrains mTORC1 through the TSC1-TSC2 complex, so STK11 loss in Peutz-Jeghers deregulates the same mTOR pathway as tuberous sclerosis.
+- `connects-to` → **[MYC](../../03-molecular/myc/README.md)** — Progression to cancer: unrestrained mTOR and Wnt signalling from LKB1 loss drive MYC activation, helping push Peutz-Jeghers hamartomas toward malignancy.
 
 ---
 
