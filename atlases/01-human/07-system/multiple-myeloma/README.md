@@ -265,6 +265,15 @@ cross_links:
   - target: 01-human/05-tissue/hepatic-lobule
     relation: connects-to
     note: "Liver involvement: extramedullary myeloma and AL amyloid can deposit in the hepatic lobule, causing hepatomegaly and, with amyloid, cholestatic liver dysfunction."
+  - target: 01-human/07-system/covid-19-disease
+    relation: connects-to
+    note: "Profound immunoparesis: myeloma suppresses normal antibody production, and anti-CD38 and BCMA-directed therapies deepen the deficit, leaving patients with severe COVID-19 and poor vaccine responses."
+  - target: 01-human/07-system/aml
+    relation: connects-to
+    note: "Therapy-related leukaemia: alkylators such as melphalan and prolonged lenalidomide raise the risk of secondary myelodysplasia and acute myeloid leukaemia, a late complication in long-surviving myeloma patients."
+  - target: 01-human/07-system/stroke
+    relation: connects-to
+    note: "Thrombosis and viscosity: high paraprotein levels can cause hyperviscosity with neurological symptoms, while immunomodulatory drugs like lenalidomide markedly raise the risk of arterial and venous thrombosis including stroke."
 ---
 
 # Multiple Myeloma
@@ -476,6 +485,9 @@ MM evolves from precursor conditions through a well-defined continuum:
 - `connects-to` → **[Myocardium](../../05-tissue/myocardium/README.md)** — Cardiac amyloid and cardiotoxicity: AL amyloid from myeloma light chains infiltrates and stiffens the myocardium into a restrictive cardiomyopathy, and proteasome inhibitors like carfilzomib add further cardiotoxicity.
 - `connects-to` → **[Cytokine Storm](../cytokine-storm/README.md)** — CRS from the newest therapies: BCMA-directed CAR-T cells and bispecific antibodies, now central to relapsed myeloma, commonly trigger cytokine release syndrome managed with tocilizumab.
 - `connects-to` → **[Hepatic Lobule](../../05-tissue/hepatic-lobule/README.md)** — Liver involvement: extramedullary myeloma and AL amyloid can deposit in the hepatic lobule, causing hepatomegaly and, with amyloid, cholestatic liver dysfunction.
+- `connects-to` → **[COVID-19 Disease](../covid-19-disease/README.md)** — Profound immunoparesis: myeloma suppresses normal antibody production, and anti-CD38 and BCMA-directed therapies deepen the deficit, leaving patients with severe COVID-19 and poor vaccine responses.
+- `connects-to` → **[AML](../aml/README.md)** — Therapy-related leukaemia: alkylators such as melphalan and prolonged lenalidomide raise the risk of secondary myelodysplasia and acute myeloid leukaemia, a late complication in long-surviving myeloma patients.
+- `connects-to` → **[Stroke](../stroke/README.md)** — Thrombosis and viscosity: high paraprotein levels can cause hyperviscosity with neurological symptoms, while immunomodulatory drugs like lenalidomide markedly raise the risk of arterial and venous thrombosis including stroke.
 
 [^kumar-2022-imwg-criteria]: Kumar SK, Callander NS, Adekola K, et al. Multiple myeloma, version 3.2021, NCCN clinical practice guidelines in oncology. *J Natl Compr Canc Netw.* 2020;18(12):1685-1717. [doi:10.6004/jnccn.2020.0057](https://doi.org/10.6004/jnccn.2020.0057) · [PubMed 33285519](https://pubmed.ncbi.nlm.nih.gov/33285519/)
 [^moreau-2022-teclistamab]: Moreau P, Garfall AL, van de Donk NWCJ, et al. Teclistamab in relapsed or refractory multiple myeloma. *N Engl J Med.* 2022;387(6):495-505. [doi:10.1056/NEJMoa2203478](https://doi.org/10.1056/NEJMoa2203478) · [PubMed 35661166](https://pubmed.ncbi.nlm.nih.gov/35661166/)

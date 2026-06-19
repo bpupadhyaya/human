@@ -259,6 +259,15 @@ cross_links:
   - target: 01-human/05-tissue/axonal-transport
     relation: connects-to
     note: "It arises within a nerve: MPNST grows from a peripheral nerve (often a plexiform neurofibroma in NF1), destroying the axons it engulfs and heralded by rapid growth and new neurological deficit."
+  - target: 01-human/07-system/desmoid-tumor
+    relation: connects-to
+    note: "A fibroblastic differential: like MPNST, a desmoid tumour presents as a deep, infiltrative soft-tissue mass, and the two sit in the differential of an enlarging extremity or trunk lesion despite their very different biology and prognosis."
+  - target: 01-human/07-system/glioblastoma
+    relation: connects-to
+    note: "NF1's two malignancies: neurofibromatosis type 1 predisposes to MPNST in peripheral nerves and to high-grade gliomas including glioblastoma in the CNS, both RAS-pathway-driven cancers of the syndrome."
+  - target: 01-human/03-molecular/h3k27m
+    relation: connects-to
+    note: "Two routes to the same epigenetic loss: the H3K27M oncohistone of diffuse midline glioma and PRC2 (SUZ12/EED) inactivation in MPNST both abolish the repressive H3K27me3 mark, a convergence exploited diagnostically by loss of H3K27me3 staining."
 ---
 
 # MPNST
@@ -471,6 +480,9 @@ Wide local excision with negative margins is the only potentially curative inter
 - `connects-to` → **[Diffuse Midline Glioma](../diffuse-midline-glioma/README.md)** — Convergent loss of H3K27me3: MPNST (via PRC2/SUZ12 loss) and diffuse midline glioma (via H3K27M) both erase the H3K27me3 repressive mark—two unrelated tumours sharing an epigenetic catastrophe diagnosed by its loss on staining.
 - `connects-to` → **[Alveolus](../../05-tissue/alveolus/README.md)** — Lung is the dominant metastatic site: MPNST spreads through the blood, preferentially seeding the lungs and the alveolar capillary bed, the pattern that dictates chest surveillance.
 - `connects-to` → **[Axonal Transport](../../05-tissue/axonal-transport/README.md)** — It arises within a nerve: MPNST grows from a peripheral nerve (often a plexiform neurofibroma in NF1), destroying the axons it engulfs and heralded by rapid growth and new neurological deficit.
+- `connects-to` → **[Desmoid Tumor](../desmoid-tumor/README.md)** — A fibroblastic differential: like MPNST, a desmoid tumour presents as a deep, infiltrative soft-tissue mass, and the two sit in the differential of an enlarging extremity or trunk lesion despite their very different biology and prognosis.
+- `connects-to` → **[Glioblastoma](../glioblastoma/README.md)** — NF1's two malignancies: neurofibromatosis type 1 predisposes to MPNST in peripheral nerves and to high-grade gliomas including glioblastoma in the CNS, both RAS-pathway-driven cancers of the syndrome.
+- `connects-to` → **[H3K27M](../../03-molecular/h3k27m/README.md)** — Two routes to the same epigenetic loss: the H3K27M oncohistone of diffuse midline glioma and PRC2 (SUZ12/EED) inactivation in MPNST both abolish the repressive H3K27me3 mark, a convergence exploited diagnostically by loss of H3K27me3 staining.
 
 [^evans-2002-mpnst-nf1]: Evans DGR, Baser ME, McGaughran J, et al. Malignant peripheral nerve sheath tumours in neurofibromatosis 1. *J Med Genet.* 2002;39(5):311-314. [doi:10.1136/jmg.39.5.311](https://doi.org/10.1136/jmg.39.5.311) · [PubMed 12011145](https://pubmed.ncbi.nlm.nih.gov/12011145/)
 [^lee-2014-mpnst-prc2]: Lee W, Teckie S, Wiesner T, et al. PRC2 is recurrently inactivated through EED or SUZ12 loss in malignant peripheral nerve sheath tumors. *Nat Genet.* 2014;46(11):1227-1232. [doi:10.1038/ng.3095](https://doi.org/10.1038/ng.3095) · [PubMed 25240281](https://pubmed.ncbi.nlm.nih.gov/25240281/)
