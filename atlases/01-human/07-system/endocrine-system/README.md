@@ -266,6 +266,15 @@ cross_links:
   - target: 01-human/07-system/covid-19-disease
     relation: connects-to
     note: "Infection hits the glands: COVID-19 can trigger subacute thyroiditis, new-onset diabetes and adrenal dysfunction, the virus reaching multiple endocrine organs that express ACE2."
+  - target: 01-human/03-molecular/crh
+    relation: connects-to
+    note: "Top of the stress axis: corticotropin-releasing hormone from the hypothalamus drives ACTH and cortisol release, the apex of the hypothalamic-pituitary-adrenal endocrine cascade."
+  - target: 01-human/03-molecular/renin
+    relation: connects-to
+    note: "Blood-pressure hormone cascade: renin initiates the renin-angiotensin-aldosterone system, the endocrine loop controlling blood pressure, sodium and potassium balance."
+  - target: 01-human/03-molecular/progesterone
+    relation: connects-to
+    note: "Reproductive steroid axis: progesterone, with estrogen and testosterone, is a core gonadal steroid hormone of the endocrine system governing the menstrual cycle and pregnancy."
 ---
 
 # Endocrine System
@@ -506,6 +515,9 @@ The endocrine system coordinates fuel metabolism across multiple organs in respo
 - `connects-to` → **[Neurofibromatosis Type 1](../neurofibromatosis-type-1/README.md)** — Endocrine tumours in a neurocutaneous syndrome: neurofibromatosis type 1 predisposes to phaeochromocytoma and other endocrine tumours, linking a nerve-sheath disorder to the endocrine system.
 - `connects-to` → **[Anorexia Nervosa](../anorexia-nervosa/README.md)** — Starvation reshapes hormones: anorexia nervosa suppresses the hypothalamic-pituitary axes—amenorrhoea, low thyroid and sex hormones, high cortisol—a functional endocrine disorder driven by energy deficit.
 - `connects-to` → **[COVID-19 Disease](../covid-19-disease/README.md)** — Infection hits the glands: COVID-19 can trigger subacute thyroiditis, new-onset diabetes and adrenal dysfunction, the virus reaching multiple endocrine organs that express ACE2.
+- `connects-to` → **[CRH](../../03-molecular/crh/README.md)** — Top of the stress axis: corticotropin-releasing hormone from the hypothalamus drives ACTH and cortisol release, the apex of the hypothalamic-pituitary-adrenal endocrine cascade.
+- `connects-to` → **[Renin](../../03-molecular/renin/README.md)** — Blood-pressure hormone cascade: renin initiates the renin-angiotensin-aldosterone system, the endocrine loop controlling blood pressure, sodium and potassium balance.
+- `connects-to` → **[Progesterone](../../03-molecular/progesterone/README.md)** — Reproductive steroid axis: progesterone, with estrogen and testosterone, is a core gonadal steroid hormone of the endocrine system governing the menstrual cycle and pregnancy.
 
 ## Pathology
 

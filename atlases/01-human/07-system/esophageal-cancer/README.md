@@ -268,6 +268,15 @@ cross_links:
   - target: 01-human/05-tissue/myocardium
     relation: connects-to
     note: "Radiation's cardiac cost: chemoradiation for oesophageal cancer irradiates the adjacent heart, causing late myocardial fibrosis, coronary disease and cardiomyopathy of the myocardium."
+  - target: 01-human/03-molecular/myc
+    relation: connects-to
+    note: "MYC amplification: gains of MYC are common in both oesophageal adenocarcinoma and squamous cell carcinoma, driving the proliferation of these aggressive tumours."
+  - target: 01-human/03-molecular/kras
+    relation: connects-to
+    note: "RAS in adenocarcinoma: KRAS mutation and amplification arise in oesophageal and gastro-oesophageal junction adenocarcinoma, activating MAPK signalling that fuels growth."
+  - target: 01-human/03-molecular/yap1
+    relation: connects-to
+    note: "Hippo amplicon: YAP1 amplification on 11q22 is a recurrent driver of oesophageal squamous cell carcinoma, an oncogenic Hippo-pathway lesion promoting tumour growth."
 ---
 
 # Esophageal Cancer
@@ -489,6 +498,9 @@ T1a: Lamina propria/muscularis mucosae; T1b: Submucosa; T2: Muscularis propria; 
 - `connects-to` → **[Hepatic Lobule](../../05-tissue/hepatic-lobule/README.md)** — Liver as a metastatic site: oesophageal cancer spreads to the liver, seeding the hepatic lobules, a common site of distant metastasis that marks incurable disease.
 - `connects-to` → **[COPD](../copd/README.md)** — Shared smoking carcinogenesis: oesophageal squamous cancer and COPD both arise from tobacco and shared field injury, and COPD's hypoxia and frailty worsen surgical and chemoradiation outcomes.
 - `connects-to` → **[Myocardium](../../05-tissue/myocardium/README.md)** — Radiation's cardiac cost: chemoradiation for oesophageal cancer irradiates the adjacent heart, causing late myocardial fibrosis, coronary disease and cardiomyopathy of the myocardium.
+- `connects-to` → **[MYC](../../03-molecular/myc/README.md)** — MYC amplification: gains of MYC are common in both oesophageal adenocarcinoma and squamous cell carcinoma, driving the proliferation of these aggressive tumours.
+- `connects-to` → **[KRAS](../../03-molecular/kras/README.md)** — RAS in adenocarcinoma: KRAS mutation and amplification arise in oesophageal and gastro-oesophageal junction adenocarcinoma, activating MAPK signalling that fuels growth.
+- `connects-to` → **[YAP1](../../03-molecular/yap1/README.md)** — Hippo amplicon: YAP1 amplification on 11q22 is a recurrent driver of oesophageal squamous cell carcinoma, an oncogenic Hippo-pathway lesion promoting tumour growth.
 
 ---
 
