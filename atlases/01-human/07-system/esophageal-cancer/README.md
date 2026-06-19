@@ -277,6 +277,15 @@ cross_links:
   - target: 01-human/03-molecular/yap1
     relation: connects-to
     note: "Hippo amplicon: YAP1 amplification on 11q22 is a recurrent driver of oesophageal squamous cell carcinoma, an oncogenic Hippo-pathway lesion promoting tumour growth."
+  - target: 01-human/03-molecular/akt
+    relation: connects-to
+    note: "PI3K/AKT growth: PIK3CA mutation activates AKT in oesophageal cancer, driving survival and proliferation and contributing to resistance to chemoradiotherapy."
+  - target: 01-human/03-molecular/hif-1alpha
+    relation: connects-to
+    note: "Tumour hypoxia: HIF-1α stabilised in hypoxic oesophageal tumours drives angiogenesis and an invasive, treatment-resistant phenotype linked to poor prognosis."
+  - target: 01-human/03-molecular/ezh2
+    relation: connects-to
+    note: "Epigenetic driver: EZH2 overexpression silences tumour-suppressor genes in oesophageal cancer, promoting proliferation and invasion as a candidate therapeutic target."
 ---
 
 # Esophageal Cancer
@@ -501,6 +510,9 @@ T1a: Lamina propria/muscularis mucosae; T1b: Submucosa; T2: Muscularis propria; 
 - `connects-to` → **[MYC](../../03-molecular/myc/README.md)** — MYC amplification: gains of MYC are common in both oesophageal adenocarcinoma and squamous cell carcinoma, driving the proliferation of these aggressive tumours.
 - `connects-to` → **[KRAS](../../03-molecular/kras/README.md)** — RAS in adenocarcinoma: KRAS mutation and amplification arise in oesophageal and gastro-oesophageal junction adenocarcinoma, activating MAPK signalling that fuels growth.
 - `connects-to` → **[YAP1](../../03-molecular/yap1/README.md)** — Hippo amplicon: YAP1 amplification on 11q22 is a recurrent driver of oesophageal squamous cell carcinoma, an oncogenic Hippo-pathway lesion promoting tumour growth.
+- `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — PI3K/AKT growth: PIK3CA mutation activates AKT in oesophageal cancer, driving survival and proliferation and contributing to resistance to chemoradiotherapy.
+- `connects-to` → **[HIF-1α](../../03-molecular/hif-1alpha/README.md)** — Tumour hypoxia: HIF-1α stabilised in hypoxic oesophageal tumours drives angiogenesis and an invasive, treatment-resistant phenotype linked to poor prognosis.
+- `connects-to` → **[EZH2](../../03-molecular/ezh2/README.md)** — Epigenetic driver: EZH2 overexpression silences tumour-suppressor genes in oesophageal cancer, promoting proliferation and invasion as a candidate therapeutic target.
 
 ---
 

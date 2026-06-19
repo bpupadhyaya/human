@@ -277,6 +277,15 @@ cross_links:
   - target: 01-human/03-molecular/akt
     relation: connects-to
     note: "Downstream of JAK2: the driver mutations of essential thrombocythemia activate JAK-STAT and the parallel PI3K-AKT pathway, together sustaining clonal megakaryocyte proliferation."
+  - target: 01-human/03-molecular/tnf-alpha
+    relation: connects-to
+    note: "Clonal inflammation: TNF-α from the malignant clone gives essential thrombocythemia cells a survival advantage over normal progenitors and drives the constitutional symptoms of the MPN."
+  - target: 01-human/03-molecular/nlrp3-inflammasome
+    relation: connects-to
+    note: "Inflammasome activation: JAK2-driven NLRP3-inflammasome activation contributes to the chronic inflammatory state of essential thrombocythemia and its thrombotic risk."
+  - target: 01-human/03-molecular/vegf
+    relation: connects-to
+    note: "Marrow angiogenesis: elevated VEGF increases bone-marrow microvessel density in essential thrombocythemia, part of the proliferative MPN microenvironment."
 ---
 
 # Essential Thrombocythemia
@@ -481,6 +490,9 @@ Management:
 - `connects-to` → **[Type I Interferon](../../03-molecular/type-i-interferon/README.md)** — Clone-reducing therapy: pegylated interferon-alpha is a disease-modifying treatment for essential thrombocythemia that can shrink the JAK2- or CALR-mutant clone, unlike purely cytoreductive drugs.
 - `connects-to` → **[EZH2](../../03-molecular/ezh2/README.md)** — Epigenetic co-mutation: EZH2 and other epigenetic-regulator mutations co-occur with the driver lesions of essential thrombocythemia and contribute to progression toward myelofibrosis.
 - `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — Downstream of JAK2: the driver mutations of essential thrombocythemia activate JAK-STAT and the parallel PI3K-AKT pathway, together sustaining clonal megakaryocyte proliferation.
+- `connects-to` → **[TNF-α](../../03-molecular/tnf-alpha/README.md)** — Clonal inflammation: TNF-α from the malignant clone gives essential thrombocythemia cells a survival advantage over normal progenitors and drives the constitutional symptoms of the MPN.
+- `connects-to` → **[NLRP3 Inflammasome](../../03-molecular/nlrp3-inflammasome/README.md)** — Inflammasome activation: JAK2-driven NLRP3-inflammasome activation contributes to the chronic inflammatory state of essential thrombocythemia and its thrombotic risk.
+- `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — Marrow angiogenesis: elevated VEGF increases bone-marrow microvessel density in essential thrombocythemia, part of the proliferative MPN microenvironment.
 
 [^harrison-2005-pt1-et]: Harrison CN, Campbell PJ, Buck G, et al. Hydroxyurea compared with anagrelide in high-risk essential thrombocythemia. *N Engl J Med.* 2005;353(1):33-45. [doi:10.1056/NEJMoa043800](https://doi.org/10.1056/NEJMoa043800) · [PubMed 16000354](https://pubmed.ncbi.nlm.nih.gov/16000354/)
 [^barbui-2012-ipset]: Barbui T, Finazzi G, Carobbio A, et al. Development and validation of an International Prognostic Score of thrombosis in World Health Organization-essential thrombocythemia (IPSET-thrombosis). *Blood.* 2012;120(26):5128-5133. [doi:10.1182/blood-2012-07-444067](https://doi.org/10.1182/blood-2012-07-444067) · [PubMed 23086758](https://pubmed.ncbi.nlm.nih.gov/23086758/)
