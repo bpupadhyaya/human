@@ -277,6 +277,15 @@ cross_links:
   - target: 01-human/07-system/covid-19-disease
     relation: connects-to
     note: "Respiratory vulnerability: ALS patients with failing respiratory muscles are at high risk of severe COVID-19, and the infection can precipitate the respiratory failure that ends the disease."
+  - target: 01-human/03-molecular/bdnf
+    relation: connects-to
+    note: "Neurotrophic support: brain-derived neurotrophic factor promotes motor neuron survival, and its decline contributes to neurodegeneration in ALS—a rationale behind neurotrophin trials."
+  - target: 01-human/03-molecular/igf-1
+    relation: connects-to
+    note: "A neurotrophic candidate: insulin-like growth factor 1 supports motor neuron survival and axonal maintenance and has been trialled, with mixed results, as an ALS therapy."
+  - target: 01-human/05-tissue/intestinal-epithelium
+    relation: connects-to
+    note: "Gut-brain and feeding: progressive dysphagia in ALS often requires gastrostomy feeding, and an altered gut microbiome and intestinal barrier are increasingly implicated in disease progression."
 ---
 
 # ALS
@@ -503,6 +512,9 @@ ALS diagnosis is **clinical** — no single definitive biomarker test (though Nf
 - `connects-to` → **[Schizophrenia](../schizophrenia/README.md)** — Shared genetics with psychosis: C9orf72 and other ALS-FTD genes confer psychiatric features, with raised rates of schizophrenia in affected families—sometimes appearing years before motor symptoms.
 - `connects-to` → **[Bipolar Disorder](../bipolar-disorder/README.md)** — Mood in the ALS-FTD spectrum: the C9orf72 expansion that links ALS to frontotemporal dementia also raises rates of mood disorders including bipolar disorder, part of its broad neuropsychiatric prodrome.
 - `connects-to` → **[COVID-19 Disease](../covid-19-disease/README.md)** — Respiratory vulnerability: ALS patients with failing respiratory muscles are at high risk of severe COVID-19, and the infection can precipitate the respiratory failure that ends the disease.
+- `connects-to` → **[BDNF](../../03-molecular/bdnf/README.md)** — Neurotrophic support: brain-derived neurotrophic factor promotes motor neuron survival, and its decline contributes to neurodegeneration in ALS—a rationale behind neurotrophin trials.
+- `connects-to` → **[IGF-1](../../03-molecular/igf-1/README.md)** — A neurotrophic candidate: insulin-like growth factor 1 supports motor neuron survival and axonal maintenance and has been trialled, with mixed results, as an ALS therapy.
+- `connects-to` → **[Intestinal Epithelium](../../05-tissue/intestinal-epithelium/README.md)** — Gut-brain and feeding: progressive dysphagia in ALS often requires gastrostomy feeding, and an altered gut microbiome and intestinal barrier are increasingly implicated in disease progression.
 
 [^brown-2017-als-review]: Brown RH, Al-Chalabi A. Amyotrophic lateral sclerosis. *N Engl J Med.* 2017;377(2):162-172. [doi:10.1056/NEJMra1603471](https://doi.org/10.1056/NEJMra1603471) · [PubMed 28700839](https://pubmed.ncbi.nlm.nih.gov/28700839/)
 [^edaravone-als-2017]: Writing Group, Edaravone ALS 19 Study Group. Safety and efficacy of edaravone in well defined patients with amyotrophic lateral sclerosis. *Lancet Neurol.* 2017;16(7):505-512. [doi:10.1016/S1474-4422(17)30115-1](https://doi.org/10.1016/S1474-4422(17)30115-1) · [PubMed 28522180](https://pubmed.ncbi.nlm.nih.gov/28522180/)

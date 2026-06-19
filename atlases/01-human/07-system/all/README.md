@@ -268,6 +268,15 @@ cross_links:
   - target: 01-human/05-tissue/glomerulus
     relation: connects-to
     note: "Tumour-lysis nephropathy: the rapid blast turnover of ALL at induction floods the blood with urate and phosphate that precipitate in the glomerulus and tubules, causing acute kidney injury."
+  - target: 01-human/03-molecular/p53
+    relation: connects-to
+    note: "p53 and relapse: TP53 alterations—seen in hypodiploid and relapsed ALL and as germline Li-Fraumeni mutations—drive chemoresistance and a poor prognosis."
+  - target: 02-pathogen/01-viruses/epstein-barr-virus
+    relation: connects-to
+    note: "Post-transplant lymphoproliferation: after allogeneic stem-cell transplant for high-risk ALL, EBV can drive post-transplant lymphoproliferative disorder under immunosuppression."
+  - target: 01-human/07-system/covid-19-disease
+    relation: connects-to
+    note: "Immunosuppressed COVID: leukaemia and its chemotherapy or CAR-T immunosuppression cause severe, prolonged COVID-19 with blunted vaccine responses and reactivation risk."
 ---
 
 # Acute Lymphoblastic Leukemia
@@ -491,6 +500,9 @@ Childhood ALL survivors (now majority of patients): neurocognitive impairment (M
 - `connects-to` → **[CAR-T](../../../03-medicine/01-modern/13-cancer/car-t/README.md)** — The CAR-T breakthrough: B-cell ALL was the first cancer cured by CD19 CAR-T cells (tisagenlecleucel), engineered T cells now standard for relapsed and refractory disease.
 - `connects-to` → **[Cytokine Storm](../cytokine-storm/README.md)** — Immunotherapy's storm: CD19 CAR-T cells and the bispecific blinatumomab used for ALL trigger cytokine release syndrome, a systemic cytokine storm needing tocilizumab and intensive care.
 - `connects-to` → **[Glomerulus](../../05-tissue/glomerulus/README.md)** — Tumour-lysis nephropathy: the rapid blast turnover of ALL at induction floods the blood with urate and phosphate that precipitate in the glomerulus and tubules, causing acute kidney injury.
+- `connects-to` → **[p53](../../03-molecular/p53/README.md)** — p53 and relapse: TP53 alterations—seen in hypodiploid and relapsed ALL and as germline Li-Fraumeni mutations—drive chemoresistance and a poor prognosis.
+- `connects-to` → **[Epstein-Barr Virus](../../../02-pathogen/01-viruses/epstein-barr-virus/README.md)** — Post-transplant lymphoproliferation: after allogeneic stem-cell transplant for high-risk ALL, EBV can drive post-transplant lymphoproliferative disorder under immunosuppression.
+- `connects-to` → **[COVID-19 Disease](../covid-19-disease/README.md)** — Immunosuppressed COVID: leukaemia and its chemotherapy or CAR-T immunosuppression cause severe, prolonged COVID-19 with blunted vaccine responses and reactivation risk.
 
 [^pui-2018-all-cure]: Pui CH, Yang JJ, Bhakta N, et al. Global efforts toward the cure of childhood acute lymphoblastic leukemia. *Lancet Child Adolesc Health.* 2018;2(6):440-454. [doi:10.1016/S2352-4642(18)30066-X](https://doi.org/10.1016/S2352-4642(18)30066-X) · [PubMed 29976322](https://pubmed.ncbi.nlm.nih.gov/29976322/)
 [^maude-2018-tisagenlecleucel]: Maude SL, Laetsch TW, Buechner J, et al. Tisagenlecleucel in children and young adults with B-cell lymphoblastic leukemia. *N Engl J Med.* 2018;378(5):439-448. [doi:10.1056/NEJMoa1709866](https://doi.org/10.1056/NEJMoa1709866) · [PubMed 29385370](https://pubmed.ncbi.nlm.nih.gov/29385370/)
