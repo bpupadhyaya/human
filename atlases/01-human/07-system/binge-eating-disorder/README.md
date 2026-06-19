@@ -252,6 +252,15 @@ cross_links:
   - target: 01-human/07-system/panic-disorder
     relation: connects-to
     note: "An anxious comorbidity: binge-eating disorder commonly coexists with panic and other anxiety disorders, the bingeing serving as emotional regulation for anxiety and distress."
+  - target: 01-human/07-system/covid-19-disease
+    relation: connects-to
+    note: "Pandemic eating: COVID-19 stress, isolation and disrupted routines drove a rise in binge eating and weight gain, with emotional and boredom-driven eating worsening during lockdowns."
+  - target: 01-human/07-system/colorectal-cancer
+    relation: connects-to
+    note: "Obesity's cancer reach: the obesity that binge-eating disorder drives raises colorectal cancer risk through hyperinsulinaemia and inflammation, adding to its endometrial and oesophageal cancer links."
+  - target: 01-human/05-tissue/intestinal-epithelium
+    relation: connects-to
+    note: "Gut signals to reward: gut hormones such as ghrelin and GLP-1 released from the intestinal epithelium, along with the microbiome, modulate the satiety and reward circuits dysregulated in binge-eating disorder."
 sources:
   - id: american-psychiatric-2013-bed-dsm5
     type: clinical-guideline
@@ -491,6 +500,9 @@ BED is among the most psychiatrically comorbid of all eating disorders:
 - `connects-to` → **[Endometrial Cancer](../endometrial-cancer/README.md)** — Obesity-mediated cancer risk: the frequent obesity of binge-eating disorder raises the risk of obesity-associated cancers such as endometrial cancer, through excess oestrogen and hyperinsulinaemia.
 - `connects-to` → **[Glomerulus](../../05-tissue/glomerulus/README.md)** — Metabolic kidney strain: the obesity and metabolic syndrome of binge-eating disorder promote obesity-related glomerulopathy, hyperfiltration and FSGS injuring the glomerulus toward chronic kidney disease.
 - `connects-to` → **[Panic Disorder](../panic-disorder/README.md)** — An anxious comorbidity: binge-eating disorder commonly coexists with panic and other anxiety disorders, the bingeing serving as emotional regulation for anxiety and distress.
+- `connects-to` → **[COVID-19 Disease](../covid-19-disease/README.md)** — Pandemic eating: COVID-19 stress, isolation and disrupted routines drove a rise in binge eating and weight gain, with emotional and boredom-driven eating worsening during lockdowns.
+- `connects-to` → **[Colorectal Cancer](../colorectal-cancer/README.md)** — Obesity's cancer reach: the obesity that binge-eating disorder drives raises colorectal cancer risk through hyperinsulinaemia and inflammation, adding to its endometrial and oesophageal cancer links.
+- `connects-to` → **[Intestinal Epithelium](../../05-tissue/intestinal-epithelium/README.md)** — Gut signals to reward: gut hormones such as ghrelin and GLP-1 released from the intestinal epithelium, along with the microbiome, modulate the satiety and reward circuits dysregulated in binge-eating disorder.
 
 [^american-psychiatric-2013-bed-dsm5]: American Psychiatric Association. Binge Eating Disorder (307.51). In: *Diagnostic and Statistical Manual of Mental Disorders, 5th ed.* Arlington, VA: APA; 2013. [doi:10.1176/appi.books.9780890425596](https://doi.org/10.1176/appi.books.9780890425596)
 [^mccallum-2003-bed-review]: McCallum K, Bruton AM. Binge eating disorder: eating disorder or somatic syndrome? *Prim Care Companion J Clin Psychiatry.* 2003;5(Suppl 4):20-25. [PubMed 15213784](https://pubmed.ncbi.nlm.nih.gov/15213784/)

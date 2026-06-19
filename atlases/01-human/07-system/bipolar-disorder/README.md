@@ -274,6 +274,15 @@ cross_links:
   - target: 01-human/07-system/multiple-sclerosis
     relation: connects-to
     note: "Mood disorder in CNS disease: bipolar disorder occurs more often in multiple sclerosis, arising both from demyelinating lesions and from corticosteroid treatment, blurring primary and secondary mania."
+  - target: 01-human/03-molecular/pth
+    relation: connects-to
+    note: "Lithium and the parathyroids: long-term lithium therapy for bipolar disorder raises parathyroid hormone and causes hypercalcaemia, a recognised endocrine complication alongside its thyroid and kidney effects."
+  - target: 01-human/07-system/covid-19-disease
+    relation: connects-to
+    note: "Mood under the pandemic: COVID-19 disrupted bipolar care and sleep-wake routines that trigger episodes, while severe infection and its neuroinflammation can precipitate mania or depression."
+  - target: 01-human/05-tissue/myocardium
+    relation: connects-to
+    note: "The cardiovascular mortality gap: bipolar disorder roughly doubles cardiovascular death through metabolic, behavioural and treatment factors, straining the myocardium and shortening life expectancy."
 ---
 
 # Bipolar Disorder
@@ -489,6 +498,9 @@ During bipolar depression (often longer and more disabling than mania):
 - `connects-to` → **[Parkinson's Disease](../parkinsons-disease/README.md)** — A shared dopamine thread: bipolar disorder is associated with a higher later risk of Parkinson's disease, the dopaminergic surges of mania mirroring, in reverse, the dopamine loss of Parkinson's.
 - `connects-to` → **[Cardiac Conduction System](../../05-tissue/cardiac-conduction-system/README.md)** — Mood-stabiliser cardiac effects: lithium and the antipsychotics used in bipolar disorder can disturb the cardiac conduction system—QT prolongation, bradycardia and arrhythmia—requiring ECG monitoring.
 - `connects-to` → **[Multiple Sclerosis](../multiple-sclerosis/README.md)** — Mood disorder in CNS disease: bipolar disorder occurs more often in multiple sclerosis, arising both from demyelinating lesions and from corticosteroid treatment, blurring primary and secondary mania.
+- `connects-to` → **[PTH](../../03-molecular/pth/README.md)** — Lithium and the parathyroids: long-term lithium therapy for bipolar disorder raises parathyroid hormone and causes hypercalcaemia, a recognised endocrine complication alongside its thyroid and kidney effects.
+- `connects-to` → **[COVID-19 Disease](../covid-19-disease/README.md)** — Mood under the pandemic: COVID-19 disrupted bipolar care and sleep-wake routines that trigger episodes, while severe infection and its neuroinflammation can precipitate mania or depression.
+- `connects-to` → **[Myocardium](../../05-tissue/myocardium/README.md)** — The cardiovascular mortality gap: bipolar disorder roughly doubles cardiovascular death through metabolic, behavioural and treatment factors, straining the myocardium and shortening life expectancy.
 
 [^grande-2016-bipolar-review]: Grande I, Berk M, Birmaher B, Vieta E. Bipolar disorder. *Lancet.* 2016;387(10027):1561-1572. [doi:10.1016/S0140-6736(15)00241-X](https://doi.org/10.1016/S0140-6736(15)00241-X) · [PubMed 26388529](https://pubmed.ncbi.nlm.nih.gov/26388529/)
 [^geddes-2013-bipolar-treatment]: Geddes JR, Miklowitz DJ. Treatment of bipolar disorder. *Lancet.* 2013;381(9878):1672-1682. [doi:10.1016/S0140-6736(13)60857-0](https://doi.org/10.1016/S0140-6736(13)60857-0) · [PubMed 23663953](https://pubmed.ncbi.nlm.nih.gov/23663953/)
