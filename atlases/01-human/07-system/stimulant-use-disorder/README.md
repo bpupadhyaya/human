@@ -268,6 +268,15 @@ cross_links:
   - target: 01-human/07-system/venous-thromboembolism
     relation: connects-to
     note: "Clots from injecting: injection stimulant use causes thrombophlebitis and deep-vein thrombosis at injection sites, and the prothrombotic, vasoconstrictive drug effects raise venous thromboembolism risk."
+  - target: 01-human/07-system/anca-vasculitis
+    relation: connects-to
+    note: "Levamisole vasculitis: cocaine adulterated with levamisole triggers an ANCA-associated vasculitis with retiform purpura, agranulocytosis and a lupus-like syndrome, a distinctive drug-induced disease."
+  - target: 01-human/05-tissue/intestinal-epithelium
+    relation: connects-to
+    note: "Mesenteric ischaemia: cocaine's intense vasoconstriction can starve the gut of blood, causing intestinal ischaemia and infarction that destroys the intestinal epithelium and bowel wall."
+  - target: 01-human/07-system/musculoskeletal-system
+    relation: connects-to
+    note: "Stimulant rhabdomyolysis: cocaine and methamphetamine cause muscle breakdown through hyperthermia, vasoconstriction and seizures, releasing myoglobin that can precipitate acute kidney injury."
 ---
 
 # Stimulant Use Disorder
@@ -473,6 +482,9 @@ Unlike cocaine, methamphetamine causes **direct neurotoxic damage** to dopaminer
 - `connects-to` → **[Hepatitis B](../hepatitis-b/README.md)** — Needle-borne infection: injection stimulant use spreads hepatitis B alongside hepatitis C and HIV through shared needles, adding chronic liver disease to the harms of stimulant use.
 - `connects-to` → **[Glomerulus](../../05-tissue/glomerulus/README.md)** — Kidney injury: stimulants cause acute kidney injury through rhabdomyolysis, intense vasoconstriction and malignant hypertension, damaging the glomerulus and renal tubules.
 - `connects-to` → **[Venous Thromboembolism](../venous-thromboembolism/README.md)** — Clots from injecting: injection stimulant use causes thrombophlebitis and deep-vein thrombosis at injection sites, and the prothrombotic, vasoconstrictive drug effects raise venous thromboembolism risk.
+- `connects-to` → **[ANCA Vasculitis](../anca-vasculitis/README.md)** — Levamisole vasculitis: cocaine adulterated with levamisole triggers an ANCA-associated vasculitis with retiform purpura, agranulocytosis and a lupus-like syndrome, a distinctive drug-induced disease.
+- `connects-to` → **[Intestinal Epithelium](../../05-tissue/intestinal-epithelium/README.md)** — Mesenteric ischaemia: cocaine's intense vasoconstriction can starve the gut of blood, causing intestinal ischaemia and infarction that destroys the intestinal epithelium and bowel wall.
+- `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — Stimulant rhabdomyolysis: cocaine and methamphetamine cause muscle breakdown through hyperthermia, vasoconstriction and seizures, releasing myoglobin that can precipitate acute kidney injury.
 
 ## Treatment
 

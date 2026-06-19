@@ -271,6 +271,15 @@ cross_links:
   - target: 01-human/07-system/covid-19-disease
     relation: connects-to
     note: "Isolation and reintegration fear: the COVID-19 pandemic worsened social anxiety, with prolonged isolation and later re-entry into social settings intensifying anticipatory distress."
+  - target: 01-human/05-tissue/intestinal-epithelium
+    relation: connects-to
+    note: "Gut-brain axis: social anxiety overlaps with irritable bowel syndrome, and signalling across the intestinal epithelium and microbiome shapes the stress and fear circuits that drive it."
+  - target: 01-human/07-system/atopic-dermatitis
+    relation: connects-to
+    note: "Visible skin and avoidance: chronic, visible eczema—like psoriasis—drives appearance-related distress, embarrassment and social withdrawal that feed and worsen social anxiety."
+  - target: 01-human/07-system/parkinsons-disease
+    relation: connects-to
+    note: "Visible motor symptoms: Parkinson's tremor, reduced facial expression and gait changes commonly provoke social anxiety and withdrawal, which are core non-motor features of the disease."
 ---
 
 # Social Anxiety Disorder
@@ -485,6 +494,9 @@ The unique **dopaminergic social reward deficit** in SAD has clinical implicatio
 - `connects-to` → **[Opioid Use Disorder](../opioid-use-disorder/README.md)** — Self-medicating distress: social anxiety disorder raises the risk of substance use disorders including opioids, used to blunt anticipatory dread and the physical symptoms of social fear.
 - `connects-to` → **[Migraine](../migraine/README.md)** — Anxiety and headache: social anxiety disorder is comorbid with migraine, the two sharing serotonergic dysregulation and a stress-reactive nervous system that lowers the threshold for both.
 - `connects-to` → **[COVID-19 Disease](../covid-19-disease/README.md)** — Isolation and reintegration fear: the COVID-19 pandemic worsened social anxiety, with prolonged isolation and later re-entry into social settings intensifying anticipatory distress.
+- `connects-to` → **[Intestinal Epithelium](../../05-tissue/intestinal-epithelium/README.md)** — Gut-brain axis: social anxiety overlaps with irritable bowel syndrome, and signalling across the intestinal epithelium and microbiome shapes the stress and fear circuits that drive it.
+- `connects-to` → **[Atopic Dermatitis](../atopic-dermatitis/README.md)** — Visible skin and avoidance: chronic, visible eczema—like psoriasis—drives appearance-related distress, embarrassment and social withdrawal that feed and worsen social anxiety.
+- `connects-to` → **[Parkinson's Disease](../parkinsons-disease/README.md)** — Visible motor symptoms: Parkinson's tremor, reduced facial expression and gait changes commonly provoke social anxiety and withdrawal, which are core non-motor features of the disease.
 
 [^liebowitz-1987-sad-scale]: Liebowitz MR. Social phobia. *Mod Probl Pharmacopsychiatry.* 1987;22:141-173. [PubMed 2885745](https://pubmed.ncbi.nlm.nih.gov/2885745/)
 [^stein-2008-sad-review]: Stein MB, Stein DJ. Social anxiety disorder. *Lancet.* 2008;371(9618):1115-1125. [doi:10.1016/S0140-6736(08)60488-2](https://doi.org/10.1016/S0140-6736(08)60488-2) · [PubMed 18374843](https://pubmed.ncbi.nlm.nih.gov/18374843/)
