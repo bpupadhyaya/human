@@ -268,6 +268,15 @@ cross_links:
   - target: 01-human/07-system/type-2-diabetes
     relation: connects-to
     note: "A metabolic risk factor: type 2 diabetes and obesity (via fatty liver) raise the risk of intrahepatic cholangiocarcinoma, adding metabolic disease to its classic biliary and parasitic causes."
+  - target: 01-human/03-molecular/yap1
+    relation: connects-to
+    note: "Hippo-YAP driver: activation of the Hippo pathway effector YAP is a central oncogenic mechanism in cholangiocarcinoma, promoting biliary cell proliferation and a poor prognosis."
+  - target: 01-human/03-molecular/met
+    relation: connects-to
+    note: "MET as a target: MET amplification and overexpression occur in a subset of cholangiocarcinomas, marking another actionable receptor tyrosine kinase alongside FGFR2 fusions."
+  - target: 01-human/03-molecular/ntrk
+    relation: connects-to
+    note: "Rare actionable fusion: NTRK gene fusions, though uncommon, make some cholangiocarcinomas exquisitely sensitive to TRK inhibitors, part of its precision-oncology landscape."
 ---
 
 # Cholangiocarcinoma
@@ -448,6 +457,9 @@ Chronic biliary injury (from PSC, fluke infection, bile acid reflux, biliary sta
 - `connects-to` → **[Uveal Melanoma](../uveal-melanoma/README.md)** — BAP1 across tumours: germline BAP1 mutations predispose to cholangiocarcinoma alongside uveal melanoma, mesothelioma and renal cell carcinoma—a hereditary BAP1 tumour syndrome.
 - `connects-to` → **[Ovarian Clear Cell Carcinoma](../ovarian-clear-cell-carcinoma/README.md)** — A shared chromatin driver: cholangiocarcinoma and ovarian clear cell carcinoma both frequently mutate ARID1A of the SWI/SNF complex, two adenocarcinomas converging on chromatin dysregulation.
 - `connects-to` → **[Type 2 Diabetes](../type-2-diabetes/README.md)** — A metabolic risk factor: type 2 diabetes and obesity (via fatty liver) raise the risk of intrahepatic cholangiocarcinoma, adding metabolic disease to its classic biliary and parasitic causes.
+- `connects-to` → **[YAP1](../../03-molecular/yap1/README.md)** — Hippo-YAP driver: activation of the Hippo pathway effector YAP is a central oncogenic mechanism in cholangiocarcinoma, promoting biliary cell proliferation and a poor prognosis.
+- `connects-to` → **[MET](../../03-molecular/met/README.md)** — MET as a target: MET amplification and overexpression occur in a subset of cholangiocarcinomas, marking another actionable receptor tyrosine kinase alongside FGFR2 fusions.
+- `connects-to` → **[NTRK](../../03-molecular/ntrk/README.md)** — Rare actionable fusion: NTRK gene fusions, though uncommon, make some cholangiocarcinomas exquisitely sensitive to TRK inhibitors, part of its precision-oncology landscape.
 
 ---
 

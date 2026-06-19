@@ -268,6 +268,15 @@ cross_links:
   - target: 01-human/07-system/nsclc
     relation: connects-to
     note: "Brachyury beyond the notochord: the TBXT/brachyury transcription factor defining chordoma is reactivated in carcinomas like NSCLC to drive epithelial-mesenchymal transition and treatment resistance."
+  - target: 01-human/03-molecular/ezh2
+    relation: connects-to
+    note: "Epigenetic vulnerability: poorly differentiated, SMARCB1-deleted chordomas become dependent on EZH2, making this histone methyltransferase a rational drug target as in other rhabdoid tumours."
+  - target: 01-human/03-molecular/kit
+    relation: connects-to
+    note: "KIT and imatinib: chordomas frequently express KIT (CD117) alongside PDGFR, the rationale behind imatinib therapy that gives modest disease control in advanced chordoma."
+  - target: 01-human/03-molecular/tert
+    relation: connects-to
+    note: "Telomere maintenance: TERT activation helps chordoma cells sustain replicative immortality, a shared hallmark with other slow-growing but relentless bone and soft-tissue tumours."
 ---
 
 # Chordoma
@@ -486,6 +495,9 @@ CDKN2A deletion in ~30-40% → CDK4/6 hyperactivation → RB1 phosphorylation; p
 - `connects-to` → **[Renal Cell Carcinoma](../renal-cell-carcinoma/README.md)** — SMARCB1 loss links them: poorly differentiated chordoma loses SMARCB1, the same chromatin-remodeller deficiency that defines renal medullary carcinoma and AT/RT—a family of SMARCB1-deficient cancers.
 - `connects-to` → **[Ovarian Clear Cell Carcinoma](../ovarian-clear-cell-carcinoma/README.md)** — Chromatin-remodeller cancers: chordoma's SMARCB1 loss and ovarian clear cell carcinoma's ARID1A loss both disable the SWI/SNF complex, different subunits crippling the same machine.
 - `connects-to` → **[NSCLC](../nsclc/README.md)** — Brachyury beyond the notochord: the TBXT/brachyury transcription factor defining chordoma is reactivated in carcinomas like NSCLC to drive epithelial-mesenchymal transition and treatment resistance.
+- `connects-to` → **[EZH2](../../03-molecular/ezh2/README.md)** — Epigenetic vulnerability: poorly differentiated, SMARCB1-deleted chordomas become dependent on EZH2, making this histone methyltransferase a rational drug target as in other rhabdoid tumours.
+- `connects-to` → **[KIT](../../03-molecular/kit/README.md)** — KIT and imatinib: chordomas frequently express KIT (CD117) alongside PDGFR, the rationale behind imatinib therapy that gives modest disease control in advanced chordoma.
+- `connects-to` → **[TERT](../../03-molecular/tert/README.md)** — Telomere maintenance: TERT activation helps chordoma cells sustain replicative immortality, a shared hallmark with other slow-growing but relentless bone and soft-tissue tumours.
 
 ---
 
