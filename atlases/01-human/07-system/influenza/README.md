@@ -256,6 +256,15 @@ cross_links:
   - target: 01-human/07-system/atherosclerosis
     relation: connects-to
     note: "Why flu shots protect the heart: influenza can rupture atherosclerotic plaques and trigger myocardial infarction, and vaccination measurably lowers post-infection cardiovascular events."
+  - target: 01-human/05-tissue/germinal-center
+    relation: connects-to
+    note: "Where flu immunity is built and outpaced: antibody to influenza haemagglutinin matures in germinal centres, but the virus's antigenic drift escapes prior responses, forcing annual revaccination."
+  - target: 01-human/07-system/epilepsy
+    relation: connects-to
+    note: "Neurological influenza: influenza can cause febrile seizures, encephalopathy and rarely acute necrotising encephalitis in children, occasionally triggering or unmasking epilepsy."
+  - target: 01-human/07-system/cystic-fibrosis
+    relation: connects-to
+    note: "Dangerous in chronic lung disease: influenza causes severe exacerbations and bacterial superinfection in cystic fibrosis and other chronic lung diseases, making annual vaccination essential."
 ---
 
 # Influenza
@@ -471,3 +480,6 @@ Influenza damages mucociliary clearance and exposes basal lamina glycoproteins �
 - `connects-to` → **[Platelet](../../04-cellular/platelet/README.md)** — It tips blood toward clotting: influenza causes thrombocytopenia and a prothrombotic, inflamed endothelium, part of why heart attacks, strokes and venous thrombosis spike in the weeks after infection.
 - `connects-to` → **[Intestinal Epithelium](../../05-tissue/intestinal-epithelium/README.md)** — Not just a respiratory virus: influenza—especially avian strains and infection in children—can infect the gut epithelium, causing the vomiting and diarrhoea of so-called stomach flu.
 - `connects-to` → **[Atherosclerosis](../atherosclerosis/README.md)** — Why flu shots protect the heart: influenza can rupture atherosclerotic plaques and trigger myocardial infarction, and vaccination measurably lowers post-infection cardiovascular events.
+- `connects-to` → **[Germinal Center](../../05-tissue/germinal-center/README.md)** — Where flu immunity is built and outpaced: antibody to influenza haemagglutinin matures in germinal centres, but the virus's antigenic drift escapes prior responses, forcing annual revaccination.
+- `connects-to` → **[Epilepsy](../epilepsy/README.md)** — Neurological influenza: influenza can cause febrile seizures, encephalopathy and rarely acute necrotising encephalitis in children, occasionally triggering or unmasking epilepsy.
+- `connects-to` → **[Cystic Fibrosis](../cystic-fibrosis/README.md)** — Dangerous in chronic lung disease: influenza causes severe exacerbations and bacterial superinfection in cystic fibrosis and other chronic lung diseases, making annual vaccination essential.

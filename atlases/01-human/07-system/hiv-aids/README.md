@@ -256,6 +256,15 @@ cross_links:
   - target: 01-human/07-system/atherosclerosis
     relation: connects-to
     note: "Treated HIV still inflames arteries: persistent immune activation and antiretroviral metabolic effects accelerate atherosclerosis, making cardiovascular disease a leading cause of death in the ART era."
+  - target: 01-human/07-system/hepatitis-c
+    relation: connects-to
+    note: "Shared routes, dual infection: HIV and hepatitis C share blood-borne and sexual transmission, and HIV accelerates HCV liver fibrosis, so co-infection is common and worsens both diseases."
+  - target: 01-human/07-system/covid-19-disease
+    relation: connects-to
+    note: "Immunodeficiency meets a pandemic: advanced, untreated HIV raises the risk of severe COVID-19 and prolonged viral shedding, while blunting the antibody response to vaccination."
+  - target: 01-human/05-tissue/myocardium
+    relation: connects-to
+    note: "HIV and the heart muscle: chronic immune activation in HIV/AIDS causes a dilated cardiomyopathy of the myocardium and accelerates heart failure, persisting as a cardiovascular burden despite ART."
 ---
 
 # HIV/AIDS
@@ -450,6 +459,9 @@ HIV-1 pathogenesis is primarily driven by CD4⁺ T cell loss:
 - `connects-to` → **[Germinal Center](../../05-tissue/germinal-center/README.md)** — It dismantles the lymph node: HIV destroys the follicular dendritic networks and germinal centres where antibody responses mature, so humoral immunity decays even as the virus hides in this reservoir.
 - `connects-to` → **[Glomerulus](../../05-tissue/glomerulus/README.md)** — HIV-associated nephropathy: HIV injures glomerular cells to cause a collapsing focal segmental glomerulosclerosis, classically in people of African ancestry, a leading cause of kidney failure in untreated AIDS.
 - `connects-to` → **[Atherosclerosis](../atherosclerosis/README.md)** — Treated HIV still inflames arteries: persistent immune activation and antiretroviral metabolic effects accelerate atherosclerosis, making cardiovascular disease a leading cause of death in the ART era.
+- `connects-to` → **[Hepatitis C](../hepatitis-c/README.md)** — Shared routes, dual infection: HIV and hepatitis C share blood-borne and sexual transmission, and HIV accelerates HCV liver fibrosis, so co-infection is common and worsens both diseases.
+- `connects-to` → **[COVID-19 Disease](../covid-19-disease/README.md)** — Immunodeficiency meets a pandemic: advanced, untreated HIV raises the risk of severe COVID-19 and prolonged viral shedding, while blunting the antibody response to vaccination.
+- `connects-to` → **[Myocardium](../../05-tissue/myocardium/README.md)** — HIV and the heart muscle: chronic immune activation in HIV/AIDS causes a dilated cardiomyopathy of the myocardium and accelerates heart failure, persisting as a cardiovascular burden despite ART.
 
 ## See Also
 
