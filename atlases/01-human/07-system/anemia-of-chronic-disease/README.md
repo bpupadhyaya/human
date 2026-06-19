@@ -271,6 +271,15 @@ cross_links:
   - target: 01-human/07-system/hepatitis-b
     relation: connects-to
     note: "Chronic viral inflammation lowers haemoglobin: persistent hepatitis B drives an inflammatory, hepcidin-mediated anaemia of chronic disease, compounded in cirrhosis by hypersplenism and bleeding."
+  - target: 01-human/05-tissue/intestinal-epithelium
+    relation: connects-to
+    note: "Hepcidin gates the gut: inflammation-driven hepcidin blocks ferroportin on the duodenal enterocytes of the intestinal epithelium, trapping dietary iron and starving erythropoiesis even when body iron stores are adequate."
+  - target: 01-human/07-system/ovarian-cancer
+    relation: connects-to
+    note: "Cancer-related anaemia: solid tumours like ovarian cancer drive IL-6 and hepcidin to produce an anaemia of inflammation, compounded by chemotherapy myelosuppression and bleeding."
+  - target: 01-human/07-system/type-2-diabetes
+    relation: connects-to
+    note: "An underrecognised anaemia: the chronic low-grade inflammation and kidney disease of type 2 diabetes contribute to an anaemia of inflammation, blunting erythropoietin and restricting iron through hepcidin."
 ---
 
 # Anemia of Chronic Disease
@@ -479,6 +488,9 @@ This adaptive rationale explains why **aggressive iron supplementation during ac
 - `connects-to` → **[Giant Cell Arteritis](../giant-cell-arteritis/README.md)** — A textbook inflammatory anaemia: giant-cell arteritis produces a marked anaemia of chronic disease with very high ESR/CRP and reactive thrombocytosis, the IL-6-driven hepcidin response a clue to the diagnosis.
 - `connects-to` → **[Systemic Sclerosis](../systemic-sclerosis/README.md)** — Multifactorial anaemia of autoimmunity: systemic sclerosis causes anaemia through chronic inflammation (hepcidin) compounded by GI blood loss from gastric antral vascular ectasia and renal involvement.
 - `connects-to` → **[Hepatitis B](../hepatitis-b/README.md)** — Chronic viral inflammation lowers haemoglobin: persistent hepatitis B drives an inflammatory, hepcidin-mediated anaemia of chronic disease, compounded in cirrhosis by hypersplenism and bleeding.
+- `connects-to` → **[Intestinal Epithelium](../../05-tissue/intestinal-epithelium/README.md)** — Hepcidin gates the gut: inflammation-driven hepcidin blocks ferroportin on the duodenal enterocytes of the intestinal epithelium, trapping dietary iron and starving erythropoiesis even when body iron stores are adequate.
+- `connects-to` → **[Ovarian Cancer](../ovarian-cancer/README.md)** — Cancer-related anaemia: solid tumours like ovarian cancer drive IL-6 and hepcidin to produce an anaemia of inflammation, compounded by chemotherapy myelosuppression and bleeding.
+- `connects-to` → **[Type 2 Diabetes](../type-2-diabetes/README.md)** — An underrecognised anaemia: the chronic low-grade inflammation and kidney disease of type 2 diabetes contribute to an anaemia of inflammation, blunting erythropoietin and restricting iron through hepcidin.
 
 [^weiss-2005-acd-review]: Weiss G, Goodnough LT. Anemia of chronic disease. *N Engl J Med.* 2005;352(10):1011-1023. [doi:10.1056/NEJMra041809](https://doi.org/10.1056/NEJMra041809) · [PubMed 15758012](https://pubmed.ncbi.nlm.nih.gov/15758012/)
 [^nemeth-2004-il6-hepcidin]: Nemeth E, Rivera S, Gabayan V, et al. IL-6 mediates hypoferremia of inflammation by inducing the synthesis of the iron regulatory hormone hepcidin. *J Clin Invest.* 2004;113(9):1271-1276. [doi:10.1172/JCI200420945](https://doi.org/10.1172/JCI200420945) · [PubMed 15124018](https://pubmed.ncbi.nlm.nih.gov/15124018/)
