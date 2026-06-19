@@ -250,6 +250,15 @@ cross_links:
   - target: 01-human/07-system/fap
     relation: connects-to
     note: "Two polyposis syndromes contrasted: Cowden produces hamartomatous gastrointestinal polyps, whereas familial adenomatous polyposis carpets the colon with adenomas — different polyp biology demanding different cancer surveillance."
+  - target: 01-human/07-system/prostate-cancer
+    relation: connects-to
+    note: "A sporadic PTEN cancer: PTEN loss is among the commonest events in prostate cancer, and Cowden carriers face elevated risk—the germline syndrome mirroring a frequent somatic driver."
+  - target: 01-human/07-system/glioblastoma
+    relation: connects-to
+    note: "PTEN loss in the brain tumour too: PTEN is one of the most frequently inactivated genes in glioblastoma, the same tumour-suppressor whose germline loss defines Cowden syndrome."
+  - target: 01-human/05-tissue/hippocampus
+    relation: connects-to
+    note: "PTEN shapes the brain: loss of PTEN drives neuronal overgrowth, underlying the macrocephaly, autism-spectrum features and dysplastic cerebellar gangliocytoma (Lhermitte-Duclos disease) of Cowden syndrome."
 ---
 
 # Cowden Syndrome
@@ -507,6 +516,9 @@ cross_links:
 - `connects-to` → **[Cancer Chemotherapy](../../../03-medicine/01-modern/13-cancer/cancer-chemotherapy/README.md)** — Its many cancers need treating: Cowden syndrome's high lifetime risk of breast, endometrial and thyroid cancer means chemotherapy and cancer-directed therapy join the lifelong surveillance that defines its management.
 - `connects-to` → **[Arterial Wall](../../05-tissue/arterial-wall/README.md)** — PTEN loss malforms vessels: PTEN hamartoma tumour syndrome causes vascular anomalies including arteriovenous malformations, where disordered arterial-wall growth produces the vascular lesions seen alongside its hamartomas.
 - `connects-to` → **[FAP](../fap/README.md)** — Two polyposis syndromes contrasted: Cowden produces hamartomatous gastrointestinal polyps, whereas familial adenomatous polyposis carpets the colon with adenomas — different polyp biology demanding different cancer surveillance.
+- `connects-to` → **[Prostate Cancer](../prostate-cancer/README.md)** — A sporadic PTEN cancer: PTEN loss is among the commonest events in prostate cancer, and Cowden carriers face elevated risk—the germline syndrome mirroring a frequent somatic driver.
+- `connects-to` → **[Glioblastoma](../glioblastoma/README.md)** — PTEN loss in the brain tumour too: PTEN is one of the most frequently inactivated genes in glioblastoma, the same tumour-suppressor whose germline loss defines Cowden syndrome.
+- `connects-to` → **[Hippocampus](../../05-tissue/hippocampus/README.md)** — PTEN shapes the brain: loss of PTEN drives neuronal overgrowth, underlying the macrocephaly, autism-spectrum features and dysplastic cerebellar gangliocytoma (Lhermitte-Duclos disease) of Cowden syndrome.
 
 ---
 
