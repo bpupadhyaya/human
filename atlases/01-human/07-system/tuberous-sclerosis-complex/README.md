@@ -250,6 +250,15 @@ cross_links:
   - target: 01-human/07-system/peutz-jeghers-syndrome
     relation: connects-to
     note: "Two hamartoma syndromes converging on mTOR: tuberous sclerosis loses the TSC1/2 brake on mTOR while Peutz-Jeghers loses upstream LKB1-AMPK control of it—different lesions, one overactive growth kinase driving hamartomas."
+  - target: 01-human/07-system/neuroendocrine-tumors
+    relation: connects-to
+    note: "An under-recognised tumour: TSC's mTOR hyperactivity also predisposes to pancreatic neuroendocrine tumours, the same lesions for which mTOR inhibitors like everolimus—a TSC drug—are standard therapy."
+  - target: 01-human/05-tissue/glomerulus
+    relation: connects-to
+    note: "Contiguous-gene kidney disease: TSC2 sits immediately beside PKD1, so a large deletion removing both genes produces tuberous sclerosis with severe early polycystic kidney disease, cysts distorting the glomeruli decades ahead of schedule."
+  - target: 01-human/05-tissue/hepatic-lobule
+    relation: connects-to
+    note: "Hamartomas beyond the kidney: fat-containing angiomyolipomas in TSC are not confined to the kidney—they also stud the hepatic lobules, usually benign but part of the same systemic hamartomatosis."
 ---
 
 # Tuberous Sclerosis Complex
@@ -467,6 +476,9 @@ With modern management: life expectancy increasingly normal; major risks: renal 
 - `connects-to` → **[Myocardium](../../05-tissue/myocardium/README.md)** — Its tumour starts in the fetal heart: cardiac rhabdomyomas, mTOR-driven hamartomas of the myocardium, are often the first sign of tuberous sclerosis on prenatal ultrasound and usually regress after birth.
 - `connects-to` → **[Pulmonary Arterial Hypertension](../pulmonary-arterial-hypertension/README.md)** — Lung hamartomas can raise pulmonary pressure: tuberous sclerosis causes lymphangioleiomyomatosis (LAM), whose smooth-muscle proliferation destroys lung tissue and can lead to pulmonary arterial hypertension.
 - `connects-to` → **[Peutz-Jeghers Syndrome](../peutz-jeghers-syndrome/README.md)** — Two hamartoma syndromes converging on mTOR: tuberous sclerosis loses the TSC1/2 brake on mTOR while Peutz-Jeghers loses upstream LKB1-AMPK control of it—different lesions, one overactive growth kinase driving hamartomas.
+- `connects-to` → **[Neuroendocrine Tumors](../neuroendocrine-tumors/README.md)** — An under-recognised tumour: TSC's mTOR hyperactivity also predisposes to pancreatic neuroendocrine tumours, the same lesions for which mTOR inhibitors like everolimus—a TSC drug—are standard therapy.
+- `connects-to` → **[Glomerulus](../../05-tissue/glomerulus/README.md)** — Contiguous-gene kidney disease: TSC2 sits immediately beside PKD1, so a large deletion removing both genes produces tuberous sclerosis with severe early polycystic kidney disease, cysts distorting the glomeruli decades ahead of schedule.
+- `connects-to` → **[Hepatic Lobule](../../05-tissue/hepatic-lobule/README.md)** — Hamartomas beyond the kidney: fat-containing angiomyolipomas in TSC are not confined to the kidney—they also stud the hepatic lobules, usually benign but part of the same systemic hamartomatosis.
 
 ---
 

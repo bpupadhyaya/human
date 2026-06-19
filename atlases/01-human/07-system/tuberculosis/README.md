@@ -250,6 +250,15 @@ cross_links:
   - target: 01-human/05-tissue/glomerulus
     relation: connects-to
     note: "Beyond the cavitary kidney lesions: chronic tuberculosis can drive secondary AA amyloidosis that deposits in the glomerulus, adding nephrotic proteinuria and renal failure to genitourinary TB's destructive disease."
+  - target: 01-human/05-tissue/germinal-center
+    relation: connects-to
+    note: "Granuloma immunity: the TB granuloma is ringed by lymphoid aggregates with germinal-centre-like B-cell follicles, and BCG works by priming these adaptive responses—immunity that fades, leaving latent bacilli walled but alive."
+  - target: 01-human/06-organ/skin
+    relation: connects-to
+    note: "Cutaneous TB: lupus vulgaris and scrofuloderma are direct mycobacterial skin infections, while erythema nodosum is a hypersensitivity rash—both show TB and the immune response to it reaching the skin."
+  - target: 01-human/07-system/bladder-cancer
+    relation: connects-to
+    note: "The BCG paradox: the live attenuated TB vaccine is instilled into the bladder to treat early bladder cancer, the mycobacterial immune activation that fights cancer being the same response TB exploits and evades."
 ---
 
 # Tuberculosis
@@ -461,6 +470,9 @@ Standard **HRZE** regimen [^nahid-2016-tb-treatment]:
 - `connects-to` → **[Rheumatoid Arthritis](../rheumatoid-arthritis/README.md)** — Its biologics reawaken the bacillus: like inflammatory bowel disease, rheumatoid arthritis treated with anti-TNF agents risks reactivating latent tuberculosis, so TB screening is mandatory before starting them.
 - `connects-to` → **[Hepatic Lobule](../../05-tissue/hepatic-lobule/README.md)** — It infects the liver and its cure injures it: miliary tuberculosis seeds granulomas in the hepatic lobules, while first-line drugs—isoniazid, rifampicin, pyrazinamide—are hepatotoxic, making liver monitoring routine in treatment.
 - `connects-to` → **[Glomerulus](../../05-tissue/glomerulus/README.md)** — Beyond the cavitary kidney lesions: chronic tuberculosis can drive secondary AA amyloidosis that deposits in the glomerulus, adding nephrotic proteinuria and renal failure to genitourinary TB's destructive disease.
+- `connects-to` → **[Germinal Center](../../05-tissue/germinal-center/README.md)** — Granuloma immunity: the TB granuloma is ringed by lymphoid aggregates with germinal-centre-like B-cell follicles, and BCG works by priming these adaptive responses—immunity that fades, leaving latent bacilli walled but alive.
+- `connects-to` → **[Skin](../../06-organ/skin/README.md)** — Cutaneous TB: lupus vulgaris and scrofuloderma are direct mycobacterial skin infections, while erythema nodosum is a hypersensitivity rash—both show TB and the immune response to it reaching the skin.
+- `connects-to` → **[Bladder Cancer](../bladder-cancer/README.md)** — The BCG paradox: the live attenuated TB vaccine is instilled into the bladder to treat early bladder cancer, the mycobacterial immune activation that fights cancer being the same response TB exploits and evades.
 
 ## See Also
 
