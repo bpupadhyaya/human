@@ -265,6 +265,15 @@ cross_links:
   - target: 01-human/05-tissue/cortical-bone
     relation: connects-to
     note: "Bone metastasis: though it spreads mainly within the liver and to the lung, HCC also metastasises to bone, producing painful, often osteolytic lesions in the cortical bone."
+  - target: 01-human/05-tissue/arterial-wall
+    relation: connects-to
+    note: "A hypervascular tumour: HCC's intense arterial neovascularity from HIF and VEGF underlies its diagnostic arterial-phase enhancement, trans-arterial chemoembolisation (TACE) and antiangiogenic therapy."
+  - target: 01-human/07-system/pulmonary-arterial-hypertension
+    relation: connects-to
+    note: "Portopulmonary hypertension: the cirrhosis and portal hypertension that breed HCC can also drive pulmonary arterial hypertension, a complication that critically affects liver-transplant candidacy."
+  - target: 01-human/07-system/colorectal-cancer
+    relation: connects-to
+    note: "The focal-liver-lesion differential: the liver is the dominant metastatic site for colorectal cancer, so a liver mass raises HCC in a cirrhotic but metastasis in others—distinguishing primary from secondary is pivotal."
 ---
 
 # Hepatocellular Carcinoma
@@ -485,6 +494,9 @@ In high-risk patients (cirrhosis, HBV regardless of cirrhosis): ultrasound ± AF
 - `connects-to` → **[Uveal Melanoma](../uveal-melanoma/README.md)** — Liver-directed therapy unites them: like hepatocellular carcinoma, liver-confined uveal melanoma metastases are treated with hepatic perfusion, radioembolization and resection—both cancers managed by targeting the liver.
 - `connects-to` → **[Polycythemia Vera](../polycythemia-vera/README.md)** — Paraneoplastic erythrocytosis: HCC can secrete erythropoietin, raising the red-cell mass—an acquired, tumour-driven polycythaemia distinct from the JAK2-driven polycythaemia vera.
 - `connects-to` → **[Cortical Bone](../../05-tissue/cortical-bone/README.md)** — Bone metastasis: though it spreads mainly within the liver and to the lung, HCC also metastasises to bone, producing painful, often osteolytic lesions in the cortical bone.
+- `connects-to` → **[Arterial Wall](../../05-tissue/arterial-wall/README.md)** — A hypervascular tumour: HCC's intense arterial neovascularity from HIF and VEGF underlies its diagnostic arterial-phase enhancement, trans-arterial chemoembolisation (TACE) and antiangiogenic therapy.
+- `connects-to` → **[Pulmonary Arterial Hypertension](../pulmonary-arterial-hypertension/README.md)** — Portopulmonary hypertension: the cirrhosis and portal hypertension that breed HCC can also drive pulmonary arterial hypertension, a complication that critically affects liver-transplant candidacy.
+- `connects-to` → **[Colorectal Cancer](../colorectal-cancer/README.md)** — The focal-liver-lesion differential: the liver is the dominant metastatic site for colorectal cancer, so a liver mass raises HCC in a cirrhotic but metastasis in others—distinguishing primary from secondary is pivotal.
 
 [^llovet-2008-sorafenib]: Llovet JM, Ricci S, Mazzaferro V, et al. Sorafenib in advanced hepatocellular carcinoma. *N Engl J Med.* 2008;359(4):378-390. [doi:10.1056/NEJMoa0708857](https://doi.org/10.1056/NEJMoa0708857) · [PubMed 18650514](https://pubmed.ncbi.nlm.nih.gov/18650514/)
 [^finn-2020-imbrave150]: Finn RS, Qin S, Ikeda M, et al. Atezolizumab plus bevacizumab in unresectable hepatocellular carcinoma. *N Engl J Med.* 2020;382(20):1894-1905. [doi:10.1056/NEJMoa1915745](https://doi.org/10.1056/NEJMoa1915745) · [PubMed 32402160](https://pubmed.ncbi.nlm.nih.gov/32402160/)

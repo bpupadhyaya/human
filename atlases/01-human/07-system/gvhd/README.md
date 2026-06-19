@@ -271,6 +271,15 @@ cross_links:
   - target: 01-human/07-system/myelofibrosis
     relation: connects-to
     note: "Transplant for a marrow disease: allogeneic stem-cell transplant is the only cure for myelofibrosis, but graft-versus-host disease is a major source of its transplant-related morbidity and mortality."
+  - target: 01-human/07-system/covid-19-disease
+    relation: connects-to
+    note: "Defenceless after transplant: GVHD and its immunosuppression leave allograft recipients profoundly vulnerable to severe, prolonged COVID-19 with blunted vaccine responses."
+  - target: 01-human/07-system/thrombotic-thrombocytopenic-purpura
+    relation: connects-to
+    note: "Transplant-associated TMA: calcineurin inhibitors and the endothelial injury of the transplant setting cause a thrombotic microangiopathy overlapping with TTP and aHUS, complicating GVHD management."
+  - target: 01-human/07-system/dermatomyositis
+    relation: connects-to
+    note: "Autoimmune mimicry: chronic GVHD can produce myositis and fasciitis resembling dermatomyositis, one of several connective-tissue-disease pictures the alloimmune attack reproduces alongside its sclerodermatous and sicca forms."
 ---
 
 # Graft-Versus-Host Disease
@@ -493,6 +502,9 @@ The protective Treg/IL-10 axis is the key biological counterbalance to alloreact
 - `connects-to` → **[Alveolus](../../05-tissue/alveolus/README.md)** — Lung GVHD: chronic graft-versus-host disease attacks the small airways as bronchiolitis obliterans, scarring around the alveoli into an irreversible obstructive lung disease, a feared pulmonary complication.
 - `connects-to` → **[DLBCL](../dlbcl/README.md)** — Post-transplant lymphoma: the heavy immunosuppression needed for GVHD lets EBV-driven B cells proliferate unchecked as post-transplant lymphoproliferative disease, which can become a diffuse large B-cell lymphoma.
 - `connects-to` → **[Myelofibrosis](../myelofibrosis/README.md)** — Transplant for a marrow disease: allogeneic stem-cell transplant is the only cure for myelofibrosis, but graft-versus-host disease is a major source of its transplant-related morbidity and mortality.
+- `connects-to` → **[COVID-19 Disease](../covid-19-disease/README.md)** — Defenceless after transplant: GVHD and its immunosuppression leave allograft recipients profoundly vulnerable to severe, prolonged COVID-19 with blunted vaccine responses.
+- `connects-to` → **[Thrombotic Thrombocytopenic Purpura](../thrombotic-thrombocytopenic-purpura/README.md)** — Transplant-associated TMA: calcineurin inhibitors and the endothelial injury of the transplant setting cause a thrombotic microangiopathy overlapping with TTP and aHUS, complicating GVHD management.
+- `connects-to` → **[Dermatomyositis](../dermatomyositis/README.md)** — Autoimmune mimicry: chronic GVHD can produce myositis and fasciitis resembling dermatomyositis, one of several connective-tissue-disease pictures the alloimmune attack reproduces alongside its sclerodermatous and sicca forms.
 
 [^ferrara-2009-gvhd-review]: Ferrara JL, Levine JE, Reddy P, Holler E. Graft-versus-host disease. *Lancet.* 2009;373(9674):1550-1561. [doi:10.1016/S0140-6736(09)60237-3](https://doi.org/10.1016/S0140-6736(09)60237-3) · [PubMed 19380114](https://pubmed.ncbi.nlm.nih.gov/19380114/)
 [^zeiser-2020-ruxolitinib-gvhd-reach]: Zeiser R, von Bubnoff N, Butler J, et al. Ruxolitinib for Glucocorticoid-Refractory Acute Graft-versus-Host Disease. *N Engl J Med.* 2020;382(19):1800-1810. [doi:10.1056/NEJMoa1917635](https://doi.org/10.1056/NEJMoa1917635) · [PubMed 32374962](https://pubmed.ncbi.nlm.nih.gov/32374962/)
