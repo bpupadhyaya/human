@@ -250,6 +250,15 @@ cross_links:
   - target: 01-human/07-system/ovarian-clear-cell-carcinoma
     relation: connects-to
     note: "Two ways to break SWI/SNF: synovial sarcoma's SS18-SSX fusion hijacks the BAF (SWI/SNF) chromatin complex, while clear cell ovarian cancer disables it through ARID1A loss—different routes to the same epigenetic dysregulation."
+  - target: 01-human/07-system/desmoid-tumor
+    relation: connects-to
+    note: "Two limb soft-tissue tumours, opposite fates: desmoid is a locally aggressive Wnt-driven fibromatosis that never metastasizes, whereas synovial sarcoma's deceptively slow growth hides a lethal capacity to spread."
+  - target: 01-human/07-system/osteosarcoma
+    relation: connects-to
+    note: "Sarcomas of the young that home to lung: synovial sarcoma and osteosarcoma both strike adolescents and young adults and metastasize chiefly to the lungs, but osteosarcoma's chaotic genome contrasts with synovial sarcoma's single defining fusion."
+  - target: 01-human/05-tissue/germinal-center
+    relation: connects-to
+    note: "An immune desert: synovial sarcoma rarely forms the tertiary lymphoid structures and germinal-centre-like aggregates that mark hot tumours, explaining its poor checkpoint response and why engineered TCR cells were needed instead."
 ---
 
 # Synovial Sarcoma
@@ -453,6 +462,9 @@ SS has low TMB (~1-2 mut/Mb) and variable PD-L1 expression; ICB response rates ~
 - `connects-to` → **[Alveolus](../../05-tissue/alveolus/README.md)** — It spreads to the lungs: synovial sarcoma metastasises predominantly to the lungs, seeding the alveolar parenchyma, so chest imaging stages the disease and pulmonary metastasectomy is part of treatment.
 - `connects-to` → **[GIST](../gist/README.md)** — One driver defines each: synovial sarcoma is specified by the SS18-SSX fusion and GIST by activating KIT mutation—twin proofs that a single genetic lesion can create a sarcoma, though only GIST's is directly druggable with imatinib.
 - `connects-to` → **[Ovarian Clear Cell Carcinoma](../ovarian-clear-cell-carcinoma/README.md)** — Two ways to break SWI/SNF: synovial sarcoma's SS18-SSX fusion hijacks the BAF (SWI/SNF) chromatin complex, while clear cell ovarian cancer disables it through ARID1A loss—different routes to the same epigenetic dysregulation.
+- `connects-to` → **[Desmoid Tumor](../desmoid-tumor/README.md)** — Two limb soft-tissue tumours, opposite fates: desmoid is a locally aggressive Wnt-driven fibromatosis that never metastasizes, whereas synovial sarcoma's deceptively slow growth hides a lethal capacity to spread.
+- `connects-to` → **[Osteosarcoma](../osteosarcoma/README.md)** — Sarcomas of the young that home to lung: synovial sarcoma and osteosarcoma both strike adolescents and young adults and metastasize chiefly to the lungs, but osteosarcoma's chaotic genome contrasts with synovial sarcoma's single defining fusion.
+- `connects-to` → **[Germinal Center](../../05-tissue/germinal-center/README.md)** — An immune desert: synovial sarcoma rarely forms the tertiary lymphoid structures and germinal-centre-like aggregates that mark hot tumours, explaining its poor checkpoint response and why engineered TCR cells were needed instead.
 
 ---
 
