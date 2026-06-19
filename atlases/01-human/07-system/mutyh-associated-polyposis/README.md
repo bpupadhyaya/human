@@ -241,6 +241,15 @@ cross_links:
   - target: 03-medicine/01-modern/13-cancer/checkpoint-inhibitors
     relation: connects-to
     note: "Mostly microsatellite-stable: like FAP, MUTYH-associated colorectal cancers are usually microsatellite-stable and respond poorly to PD-1 checkpoint inhibitors, unlike Lynch tumours."
+  - target: 01-human/03-molecular/nfe2l2
+    relation: connects-to
+    note: "A disease of unrepaired oxidative damage: MUTYH-associated polyposis comes from failure to excise the 8-oxoguanine lesions oxidative stress creates—the damage the NRF2 (NFE2L2) programme limits—so its mutations are the fingerprint of reactive oxygen on DNA."
+  - target: 01-human/07-system/aml
+    relation: connects-to
+    note: "Oxidative transversions can reach the marrow: biallelic MUTYH loss raises the risk not only of colorectal cancer but of myeloid neoplasms including acute myeloid leukaemia, which can carry the same G:C→T:A signature of unrepaired oxidative damage."
+  - target: 01-human/07-system/desmoid-tumor
+    relation: connects-to
+    note: "It shares the polyposis APC/Wnt risk: MUTYH-associated polyposis drives somatic G:C→T:A hits in APC that activate Wnt, and like FAP it can spawn desmoid tumours—Wnt/β-catenin fibromatoses that complicate abdominal surgery."
 ---
 
 # MUTYH-Associated Polyposis
@@ -432,6 +441,9 @@ Because MAP is autosomal recessive: siblings of MAP patients are at **25%** risk
 - `connects-to` → **[Chronic Kidney Disease](../ckd/README.md)** — Colectomy and chemo strain the kidney: the surgery for MAP's polyp burden and any platinum chemotherapy for its colorectal cancers, plus dehydration from altered bowel anatomy, can threaten chronic kidney disease.
 - `connects-to` → **[Osteoporosis](../osteoporosis/README.md)** — Removing the colon costs the bones: colectomy and the malabsorption of calcium and vitamin D that follows, plus chronic GI losses, can leave reduced bone density in MUTYH-associated polyposis.
 - `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — Inherited cancer risk and surveillance weigh on the mind: living with a recessive polyposis syndrome, repeated colonoscopies and the prospect of colectomy carries a substantial psychological burden.
+- `connects-to` → **[NFE2L2](../../03-molecular/nfe2l2/README.md)** — A disease of unrepaired oxidative damage: MUTYH-associated polyposis comes from failure to excise the 8-oxoguanine lesions oxidative stress creates—the damage the NRF2 (NFE2L2) programme limits—so its mutations are the fingerprint of reactive oxygen on DNA.
+- `connects-to` → **[AML](../aml/README.md)** — Oxidative transversions can reach the marrow: biallelic MUTYH loss raises the risk not only of colorectal cancer but of myeloid neoplasms including acute myeloid leukaemia, which can carry the same G:C→T:A signature of unrepaired oxidative damage.
+- `connects-to` → **[Desmoid Tumor](../desmoid-tumor/README.md)** — It shares the polyposis APC/Wnt risk: MUTYH-associated polyposis drives somatic G:C→T:A hits in APC that activate Wnt, and like FAP it can spawn desmoid tumours—Wnt/β-catenin fibromatoses that complicate abdominal surgery.
 
 ---
 

@@ -241,6 +241,15 @@ cross_links:
   - target: 03-medicine/01-modern/13-cancer/cancer-chemotherapy
     relation: connects-to
     note: "Hydroxyurea cytoreduces: the oral chemotherapy hydroxyurea lowers excess blood counts in high-risk myeloproliferative neoplasms, a long-standing cytoreductive mainstay."
+  - target: 01-human/05-tissue/hepatic-lobule
+    relation: connects-to
+    note: "It clots the liver and seeds it with blood-making: myeloproliferative neoplasms are a leading cause of Budd-Chiari and portal vein thrombosis, and their excess progenitors lodge in the hepatic lobules as extramedullary haematopoiesis, enlarging the liver."
+  - target: 01-human/05-tissue/arterial-wall
+    relation: connects-to
+    note: "Thrombosis is its chief killer: JAK2-mutant blood cells inflame and adhere to the arterial wall, promoting endothelial dysfunction and the arterial thrombosis—heart attack and stroke—that drives mortality in polycythaemia vera and essential thrombocythaemia."
+  - target: 01-human/07-system/ckd
+    relation: connects-to
+    note: "It also wears down the kidney: myeloproliferative neoplasms impair renal function through hyperuricaemia, microvascular thrombosis and an MPN-associated glomerulopathy, so chronic kidney disease accumulates as the clone persists."
 ---
 
 # Myeloproliferative Neoplasms
@@ -459,6 +468,9 @@ In PV and ET, JAK2 V617F also affects myeloid progenitors → granulocytosis and
 - `connects-to` → **[Targeted Therapy](../../../03-medicine/01-modern/13-cancer/targeted-therapy/README.md)** — JAK inhibition is the targeted backbone: ruxolitinib and fedratinib block the JAK2-STAT pathway driving myeloproliferative neoplasms, shrinking the spleen and easing symptoms in myelofibrosis and polycythaemia vera.
 - `connects-to` → **[Mycobacterium tuberculosis](../../../02-pathogen/02-bacteria/mycobacterium-tuberculosis/README.md)** — JAK inhibitors reawaken latent infection: ruxolitinib suppresses immunity enough to reactivate tuberculosis and other opportunists, requiring screening before treatment.
 - `connects-to` → **[Cancer Chemotherapy](../../../03-medicine/01-modern/13-cancer/cancer-chemotherapy/README.md)** — Hydroxyurea cytoreduces: the oral chemotherapy hydroxyurea lowers excess blood counts in high-risk myeloproliferative neoplasms, a long-standing cytoreductive mainstay.
+- `connects-to` → **[Hepatic Lobule](../../05-tissue/hepatic-lobule/README.md)** — It clots the liver and seeds it with blood-making: myeloproliferative neoplasms are a leading cause of Budd-Chiari and portal vein thrombosis, and their excess progenitors lodge in the hepatic lobules as extramedullary haematopoiesis, enlarging the liver.
+- `connects-to` → **[Arterial Wall](../../05-tissue/arterial-wall/README.md)** — Thrombosis is its chief killer: JAK2-mutant blood cells inflame and adhere to the arterial wall, promoting endothelial dysfunction and the arterial thrombosis—heart attack and stroke—that drives mortality in polycythaemia vera and essential thrombocythaemia.
+- `connects-to` → **[CKD](../ckd/README.md)** — It also wears down the kidney: myeloproliferative neoplasms impair renal function through hyperuricaemia, microvascular thrombosis and an MPN-associated glomerulopathy, so chronic kidney disease accumulates as the clone persists.
 
 [^verstovsek-2012-comfort-i]: Verstovsek S, Mesa RA, Gotlib J, et al. A double-blind, placebo-controlled trial of ruxolitinib for myelofibrosis. *N Engl J Med.* 2012;366(9):799-807. [doi:10.1056/NEJMoa1110557](https://doi.org/10.1056/NEJMoa1110557) · [PubMed 22375971](https://pubmed.ncbi.nlm.nih.gov/22375971/)
 [^vannucchi-2015-response]: Vannucchi AM, Kiladjian JJ, Griesshammer M, et al. Ruxolitinib versus standard therapy for the treatment of polycythemia vera. *N Engl J Med.* 2015;372(5):426-435. [doi:10.1056/NEJMoa1409002](https://doi.org/10.1056/NEJMoa1409002) · [PubMed 25426978](https://pubmed.ncbi.nlm.nih.gov/25426978/)
