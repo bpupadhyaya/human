@@ -250,6 +250,15 @@ cross_links:
   - target: 03-medicine/01-modern/13-cancer/car-t
     relation: connects-to
     note: "Borrowing neuroblastoma's target: retinoblastoma expresses the disialoganglioside GD2, so GD2-directed CAR-T cells developed against neuroblastoma are being explored for refractory intraocular and metastatic retinoblastoma."
+  - target: 01-human/05-tissue/axonal-transport
+    relation: connects-to
+    note: "Optic nerve and CNS spread: retinoblastoma invades the optic nerve and tracks along its axons into the CNS, so optic-nerve involvement at the resection margin is the key prognostic factor and route to fatal leptomeningeal disease."
+  - target: 01-human/07-system/wilms-tumor
+    relation: connects-to
+    note: "Two embryonal childhood cancers: retinoblastoma (RB1, eye) and Wilms tumour (WT1, kidney) are both classic tumours of infancy, paradigms of inherited and developmental cancer."
+  - target: 01-human/05-tissue/hepatic-lobule
+    relation: connects-to
+    note: "Metastatic spread to the liver: extraocular retinoblastoma seeds the liver and bone marrow, depositing in the hepatic lobule in the disseminated disease that dominates late presentations in low-resource settings."
 ---
 
 # Retinoblastoma
@@ -440,6 +449,9 @@ Standard regimen: **vincristine + carboplatin + etoposide (VCE)**, 6 cycles; red
 - `connects-to` → **[Glioblastoma](../glioblastoma/README.md)** — A shared broken cell-cycle brake: retinoblastoma is defined by loss of RB1, while glioblastoma routinely inactivates the same RB pathway via CDKN2A loss or CDK4 gain—the founding tumour-suppressor circuit failing in a childhood and an adult cancer.
 - `connects-to` → **[Synapse](../../05-tissue/synapse/README.md)** — It springs from a photoreceptor precursor: retinoblastoma arises from maturing cone precursors of the retina, the neurons that wire into the retinal ribbon synapses—linking the tumour to the synaptic machinery of vision.
 - `connects-to` → **[CAR-T](../../../03-medicine/01-modern/13-cancer/car-t/README.md)** — Borrowing neuroblastoma's target: retinoblastoma expresses the disialoganglioside GD2, so GD2-directed CAR-T cells developed against neuroblastoma are being explored for refractory intraocular and metastatic retinoblastoma.
+- `connects-to` → **[Axonal Transport](../../05-tissue/axonal-transport/README.md)** — Optic nerve and CNS spread: retinoblastoma invades the optic nerve and tracks along its axons into the CNS, so optic-nerve involvement at the resection margin is the key prognostic factor and route to fatal leptomeningeal disease.
+- `connects-to` → **[Wilms Tumor](../wilms-tumor/README.md)** — Two embryonal childhood cancers: retinoblastoma (RB1, eye) and Wilms tumour (WT1, kidney) are both classic tumours of infancy, paradigms of inherited and developmental cancer.
+- `connects-to` → **[Hepatic Lobule](../../05-tissue/hepatic-lobule/README.md)** — Metastatic spread to the liver: extraocular retinoblastoma seeds the liver and bone marrow, depositing in the hepatic lobule in the disseminated disease that dominates late presentations in low-resource settings.
 
 [^knudson-1971-two-hit]: Knudson AG Jr. Mutation and cancer: statistical study of retinoblastoma. *Proc Natl Acad Sci USA.* 1971;68(4):820-823. [doi:10.1073/pnas.68.4.820](https://doi.org/10.1073/pnas.68.4.820) · [PubMed 5279523](https://pubmed.ncbi.nlm.nih.gov/5279523/)
 [^shields-2008-retinoblastoma]: Shields CL, Shields JA. Retinoblastoma management: advances in enucleation, intravenous chemoreduction, and intra-arterial chemotherapy. *Curr Opin Ophthalmol.* 2010;21(3):203-212. [doi:10.1097/ICU.0b013e328338676a](https://doi.org/10.1097/ICU.0b013e328338676a) · [PubMed 20224400](https://pubmed.ncbi.nlm.nih.gov/20224400/)
