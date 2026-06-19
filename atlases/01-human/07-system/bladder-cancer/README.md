@@ -265,6 +265,15 @@ cross_links:
   - target: 01-human/07-system/pancreatic-cancer
     relation: connects-to
     note: "Two smoking-driven cancers: tobacco carcinogens excreted in urine drive bladder cancer while the same smoking exposure is a leading risk factor for pancreatic cancer—shared chemical carcinogenesis."
+  - target: 01-human/07-system/anca-vasculitis
+    relation: connects-to
+    note: "Cyclophosphamide's bladder toll: high cumulative cyclophosphamide for ANCA-associated vasculitis (and lymphomas) causes haemorrhagic cystitis and raises bladder cancer risk years later, via the metabolite acrolein."
+  - target: 01-human/07-system/type-2-diabetes
+    relation: connects-to
+    note: "A drug-linked risk: the diabetes drug pioglitazone has been associated with a small increase in bladder cancer risk, and diabetes itself modestly raises risk through chronic inflammation."
+  - target: 01-human/05-tissue/hepatic-lobule
+    relation: connects-to
+    note: "Liver metastasis: advanced muscle-invasive bladder cancer spreads to the liver, seeding the hepatic lobules along with lung and bone, marking the shift to systemic, incurable disease."
 ---
 
 # Bladder Cancer
@@ -468,6 +477,9 @@ NMIBC and MIBC have distinct molecular landscapes:
 - `connects-to` → **[Alveolus](../../05-tissue/alveolus/README.md)** — Where it spreads: the lung is a common metastatic site for urothelial bladder cancer, tumour emboli lodging in the alveolar capillary bed to seed pulmonary nodules.
 - `connects-to` → **[Germinal Center](../../05-tissue/germinal-center/README.md)** — The oldest cancer immunotherapy: intravesical BCG provokes a strong Th1 immune response in the bladder wall, recruiting lymphoid aggregates and germinal-centre reactions that clear early urothelial cancer.
 - `connects-to` → **[Pancreatic Cancer](../pancreatic-cancer/README.md)** — Two smoking-driven cancers: tobacco carcinogens excreted in urine drive bladder cancer while the same smoking exposure is a leading risk factor for pancreatic cancer—shared chemical carcinogenesis.
+- `connects-to` → **[ANCA Vasculitis](../anca-vasculitis/README.md)** — Cyclophosphamide's bladder toll: high cumulative cyclophosphamide for ANCA-associated vasculitis (and lymphomas) causes haemorrhagic cystitis and raises bladder cancer risk years later, via the metabolite acrolein.
+- `connects-to` → **[Type 2 Diabetes](../type-2-diabetes/README.md)** — A drug-linked risk: the diabetes drug pioglitazone has been associated with a small increase in bladder cancer risk, and diabetes itself modestly raises risk through chronic inflammation.
+- `connects-to` → **[Hepatic Lobule](../../05-tissue/hepatic-lobule/README.md)** — Liver metastasis: advanced muscle-invasive bladder cancer spreads to the liver, seeding the hepatic lobules along with lung and bone, marking the shift to systemic, incurable disease.
 
 ---
 

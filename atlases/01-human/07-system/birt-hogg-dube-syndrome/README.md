@@ -259,6 +259,15 @@ cross_links:
   - target: 01-human/07-system/li-fraumeni-syndrome
     relation: connects-to
     note: "Lifelong cancer surveillance: like Li-Fraumeni syndrome, Birt-Hogg-Dubé is an autosomal-dominant tumour-predisposition syndrome whose carriers need structured multi-organ screening from early adulthood."
+  - target: 01-human/07-system/marfan-syndrome
+    relation: connects-to
+    note: "Two genetic causes of spontaneous pneumothorax: Birt-Hogg-Dubé's basal lung cysts and Marfan syndrome's apical blebs both predispose to recurrent collapsed lung, reached by different structural routes."
+  - target: 01-human/07-system/cystic-fibrosis
+    relation: connects-to
+    note: "Cystic lung and air leaks: like cystic fibrosis, Birt-Hogg-Dubé produces a cystic lung architecture prone to recurrent pneumothorax, though its thin-walled basal cysts differ from CF's bronchiectasis."
+  - target: 01-human/05-tissue/intestinal-epithelium
+    relation: connects-to
+    note: "A debated colon link: some studies tie Birt-Hogg-Dubé to colorectal polyps and cancer through FLCN loss in the intestinal epithelium, though the association remains controversial."
 ---
 
 # Birt-Hogg-Dubé Syndrome
@@ -480,6 +489,9 @@ Definite BHD: 1 major OR 2 minor criteria (European BHD Consortium definition)
 - `connects-to` → **[STK11](../../03-molecular/stk11/README.md)** — The energy-sensing axis: folliculin partners with AMPK and the LKB1/STK11 kinase to sense cellular energy, mechanistically linking Birt-Hogg-Dubé to the STK11-driven Peutz-Jeghers hamartoma syndrome.
 - `connects-to` → **[ATP](../../03-molecular/atp/README.md)** — Mitochondria-packed oncocytes: folliculin loss dysregulates mitochondrial biogenesis, so BHD renal oncocytomas and hybrid tumours are crammed with mitochondria churning out ATP—the oncocytic phenotype.
 - `connects-to` → **[Li-Fraumeni Syndrome](../li-fraumeni-syndrome/README.md)** — Lifelong cancer surveillance: like Li-Fraumeni syndrome, Birt-Hogg-Dubé is an autosomal-dominant tumour-predisposition syndrome whose carriers need structured multi-organ screening from early adulthood.
+- `connects-to` → **[Marfan Syndrome](../marfan-syndrome/README.md)** — Two genetic causes of spontaneous pneumothorax: Birt-Hogg-Dubé's basal lung cysts and Marfan syndrome's apical blebs both predispose to recurrent collapsed lung, reached by different structural routes.
+- `connects-to` → **[Cystic Fibrosis](../cystic-fibrosis/README.md)** — Cystic lung and air leaks: like cystic fibrosis, Birt-Hogg-Dubé produces a cystic lung architecture prone to recurrent pneumothorax, though its thin-walled basal cysts differ from CF's bronchiectasis.
+- `connects-to` → **[Intestinal Epithelium](../../05-tissue/intestinal-epithelium/README.md)** — A debated colon link: some studies tie Birt-Hogg-Dubé to colorectal polyps and cancer through FLCN loss in the intestinal epithelium, though the association remains controversial.
 
 ---
 
