@@ -255,6 +255,15 @@ cross_links:
   - target: 01-human/07-system/stroke
     relation: connects-to
     note: "Acquired chorea: a stroke in the subthalamic nucleus or basal ganglia causes hemiballismus and chorea, an acquired movement disorder that mimics the inherited chorea of Huntington's."
+  - target: 01-human/03-molecular/mlh1
+    relation: connects-to
+    note: "Repeat-expansion modifier: DNA mismatch-repair genes such as MLH1 and MSH3 drive somatic CAG-repeat expansion in striatal neurons, a leading genetic modifier of Huntington's age of onset."
+  - target: 01-human/03-molecular/nfe2l2
+    relation: connects-to
+    note: "Failing antioxidant defence: impaired NRF2 (NFE2L2) signalling contributes to the oxidative stress and mitochondrial dysfunction that drive neuronal death in Huntington's disease."
+  - target: 01-human/03-molecular/p53
+    relation: connects-to
+    note: "Apoptotic activation: mutant huntingtin interacts with and activates p53, promoting the mitochondrial dysfunction and neuronal apoptosis central to Huntington's neurodegeneration."
 sources:
   - id: gusella-1983-htt-locus
     type: peer-reviewed
@@ -385,3 +394,6 @@ HD disrupts multiple neural circuit functions:
 - `connects-to` → **[Alveolus](../../05-tissue/alveolus/README.md)** — Aspiration ends it: dysphagia from advanced Huntington's leads to aspiration pneumonia, seeding the alveoli with oral flora—the leading cause of death in the disease.
 - `connects-to` → **[Systemic Lupus Erythematosus](../systemic-lupus-erythematosus/README.md)** — Chorea has many causes: beyond Huntington's, chorea arises in lupus and antiphospholipid syndrome (autoimmune chorea), a treatable mimic to exclude before attributing new chorea to HD.
 - `connects-to` → **[Stroke](../stroke/README.md)** — Acquired chorea: a stroke in the subthalamic nucleus or basal ganglia causes hemiballismus and chorea, an acquired movement disorder that mimics the inherited chorea of Huntington's.
+- `connects-to` → **[MLH1](../../03-molecular/mlh1/README.md)** — Repeat-expansion modifier: DNA mismatch-repair genes such as MLH1 and MSH3 drive somatic CAG-repeat expansion in striatal neurons, a leading genetic modifier of Huntington's age of onset.
+- `connects-to` → **[NFE2L2](../../03-molecular/nfe2l2/README.md)** — Failing antioxidant defence: impaired NRF2 (NFE2L2) signalling contributes to the oxidative stress and mitochondrial dysfunction that drive neuronal death in Huntington's disease.
+- `connects-to` → **[p53](../../03-molecular/p53/README.md)** — Apoptotic activation: mutant huntingtin interacts with and activates p53, promoting the mitochondrial dysfunction and neuronal apoptosis central to Huntington's neurodegeneration.

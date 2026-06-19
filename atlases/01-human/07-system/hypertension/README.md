@@ -268,6 +268,15 @@ cross_links:
   - target: 01-human/07-system/migraine
     relation: connects-to
     note: "Shared vascular pharmacology: beta-blockers, calcium-channel blockers and ARBs (candesartan) all treat hypertension and also prevent migraine, reflecting overlapping neurovascular and autonomic mechanisms."
+  - target: 01-human/03-molecular/leptin
+    relation: connects-to
+    note: "Obesity's blood-pressure link: leptin from excess adipose tissue activates the sympathetic nervous system, a central mechanism of obesity-related hypertension."
+  - target: 01-human/03-molecular/tgf-beta
+    relation: connects-to
+    note: "Fibrosis of end organs: TGF-β drives the vascular stiffening and renal fibrosis of chronic hypertension, mediating much of its long-term damage to heart, kidney and arteries."
+  - target: 01-human/07-system/type-1-diabetes
+    relation: connects-to
+    note: "Diabetic nephropathy and pressure: type 1 diabetes commonly causes hypertension through diabetic kidney disease, and tight blood-pressure control is central to protecting the kidneys."
 ---
 
 # Hypertension
@@ -442,6 +451,9 @@ Blood pressure is determined by: BP = Cardiac Output × Peripheral Vascular Resi
 - `connects-to` → **[IgA Nephropathy](../iga-nephropathy/README.md)** — Renal cause and consequence: IgA nephropathy produces secondary hypertension through glomerular injury, while the resulting hypertension accelerates the loss of kidney function—a vicious cycle demanding tight blood-pressure control.
 - `connects-to` → **[Pulmonary Arterial Hypertension](../pulmonary-arterial-hypertension/README.md)** — Two circulations, two diseases: pulmonary arterial hypertension is the right-heart mirror of systemic hypertension, raising pressure in the lungs rather than the aorta and demanding entirely different vasodilator drugs.
 - `connects-to` → **[Migraine](../migraine/README.md)** — Shared vascular pharmacology: beta-blockers, calcium-channel blockers and ARBs (candesartan) all treat hypertension and also prevent migraine, reflecting overlapping neurovascular and autonomic mechanisms.
+- `connects-to` → **[Leptin](../../03-molecular/leptin/README.md)** — Obesity's blood-pressure link: leptin from excess adipose tissue activates the sympathetic nervous system, a central mechanism of obesity-related hypertension.
+- `connects-to` → **[TGF-β](../../03-molecular/tgf-beta/README.md)** — Fibrosis of end organs: TGF-β drives the vascular stiffening and renal fibrosis of chronic hypertension, mediating much of its long-term damage to heart, kidney and arteries.
+- `connects-to` → **[Type 1 Diabetes](../type-1-diabetes/README.md)** — Diabetic nephropathy and pressure: type 1 diabetes commonly causes hypertension through diabetic kidney disease, and tight blood-pressure control is central to protecting the kidneys.
 
 ## Pathology
 
