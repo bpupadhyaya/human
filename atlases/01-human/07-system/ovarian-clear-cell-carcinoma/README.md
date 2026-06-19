@@ -268,6 +268,15 @@ cross_links:
   - target: 01-human/07-system/mesothelioma
     relation: connects-to
     note: "A peritoneal differential: peritoneal mesothelioma produces serosal masses, effusions and ascites that overlap with the peritoneal spread of ovarian clear-cell carcinoma, a distinction made on biopsy and markers."
+  - target: 01-human/03-molecular/yap1
+    relation: connects-to
+    note: "Hippo-YAP activation: ARID1A loss in ovarian clear-cell carcinoma deregulates the Hippo-YAP pathway, contributing to its growth and treatment resistance."
+  - target: 01-human/03-molecular/notch
+    relation: connects-to
+    note: "Notch signalling: dysregulated Notch signalling participates in ovarian clear-cell carcinoma, an additional pathway alongside its ARID1A and PI3K alterations."
+  - target: 01-human/03-molecular/tert
+    relation: connects-to
+    note: "Replicative immortality: TERT reactivation maintaining telomeres supports the persistent proliferation of ovarian clear-cell carcinoma, a notably chemoresistant tumour."
 ---
 
 # Ovarian Clear Cell Carcinoma
@@ -493,6 +502,9 @@ Comprehensive surgical staging (TAH-BSO, omentectomy, pelvic/para-aortic lymphad
 - `connects-to` → **[Disseminated Intravascular Coagulation](../disseminated-intravascular-coagulation/README.md)** — The most thrombogenic ovarian cancer: clear-cell carcinoma carries the highest venous thromboembolism rate of the ovarian subtypes and can trigger Trousseau-type consumptive coagulopathy and DIC.
 - `connects-to` → **[Arterial Wall](../../05-tissue/arterial-wall/README.md)** — HIF-driven vasculature: like clear-cell renal cancer, ovarian clear-cell carcinoma is intensely angiogenic through HIF and VEGF, building abnormal tumour arterial walls that antiangiogenic drugs target.
 - `connects-to` → **[Mesothelioma](../mesothelioma/README.md)** — A peritoneal differential: peritoneal mesothelioma produces serosal masses, effusions and ascites that overlap with the peritoneal spread of ovarian clear-cell carcinoma, a distinction made on biopsy and markers.
+- `connects-to` → **[YAP1](../../03-molecular/yap1/README.md)** — Hippo-YAP activation: ARID1A loss in ovarian clear-cell carcinoma deregulates the Hippo-YAP pathway, contributing to its growth and treatment resistance.
+- `connects-to` → **[Notch](../../03-molecular/notch/README.md)** — Notch signalling: dysregulated Notch signalling participates in ovarian clear-cell carcinoma, an additional pathway alongside its ARID1A and PI3K alterations.
+- `connects-to` → **[TERT](../../03-molecular/tert/README.md)** — Replicative immortality: TERT reactivation maintaining telomeres supports the persistent proliferation of ovarian clear-cell carcinoma, a notably chemoresistant tumour.
 
 ---
 

@@ -268,6 +268,15 @@ cross_links:
   - target: 01-human/05-tissue/arterial-wall
     relation: connects-to
     note: "A vascular target: high-grade serous ovarian carcinoma is intensely angiogenic, and the anti-VEGF antibody bevacizumab attacks the tumour's arterial supply, a mainstay added to chemotherapy in advanced disease."
+  - target: 01-human/03-molecular/myc
+    relation: connects-to
+    note: "Amplified oncogene: MYC amplification is common in high-grade serous ovarian carcinoma, driving the proliferation of this genomically unstable tumour."
+  - target: 01-human/03-molecular/cdk4-6
+    relation: connects-to
+    note: "Cell-cycle dysregulation: CCNE1 amplification and CDK4/6-cyclin activity disrupt the cell cycle in a subset of ovarian cancers, an avenue for cell-cycle-targeted therapy."
+  - target: 01-human/03-molecular/notch
+    relation: connects-to
+    note: "Notch3 driver: NOTCH3 amplification and Notch signalling recur in ovarian cancer, promoting growth and contributing to platinum chemoresistance."
 ---
 
 # Ovarian Cancer
@@ -467,6 +476,9 @@ FTSEC ciliated and secretory cells line the Fallopian tube; secretory cells are 
 - `connects-to` → **[MDS](../mds/README.md)** — Late cost of treatment: platinum chemotherapy and PARP inhibitors used for ovarian cancer damage haematopoietic stem cells, raising the risk of therapy-related myelodysplasia and acute leukaemia years later.
 - `connects-to` → **[Colorectal Cancer](../colorectal-cancer/README.md)** — Differential of an ovarian mass: colorectal cancer can metastasise to the ovary (Krukenberg-type spread) and seed the peritoneum like advanced ovarian cancer, while Lynch syndrome predisposes to both tumours.
 - `connects-to` → **[Arterial Wall](../../05-tissue/arterial-wall/README.md)** — A vascular target: high-grade serous ovarian carcinoma is intensely angiogenic, and the anti-VEGF antibody bevacizumab attacks the tumour's arterial supply, a mainstay added to chemotherapy in advanced disease.
+- `connects-to` → **[MYC](../../03-molecular/myc/README.md)** — Amplified oncogene: MYC amplification is common in high-grade serous ovarian carcinoma, driving the proliferation of this genomically unstable tumour.
+- `connects-to` → **[CDK4/6](../../03-molecular/cdk4-6/README.md)** — Cell-cycle dysregulation: CCNE1 amplification and CDK4/6-cyclin activity disrupt the cell cycle in a subset of ovarian cancers, an avenue for cell-cycle-targeted therapy.
+- `connects-to` → **[Notch](../../03-molecular/notch/README.md)** — Notch3 driver: NOTCH3 amplification and Notch signalling recur in ovarian cancer, promoting growth and contributing to platinum chemoresistance.
 
 [^burger-2011-gog0218]: Burger RA, Brady MF, Bookman MA, et al. Incorporation of bevacizumab in the primary treatment of ovarian cancer. *N Engl J Med.* 2011;365(26):2473-2483. [doi:10.1056/NEJMoa1104390](https://doi.org/10.1056/NEJMoa1104390) · [PubMed 22204724](https://pubmed.ncbi.nlm.nih.gov/22204724/)
 [^moore-2018-olaparib-solo1]: Moore K, Colombo N, Scambia G, et al. Maintenance olaparib in patients with newly diagnosed advanced ovarian cancer. *N Engl J Med.* 2018;379(26):2495-2505. [doi:10.1056/NEJMoa1810858](https://doi.org/10.1056/NEJMoa1810858) · [PubMed 30345884](https://pubmed.ncbi.nlm.nih.gov/30345884/)
