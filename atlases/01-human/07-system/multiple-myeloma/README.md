@@ -283,6 +283,15 @@ cross_links:
   - target: 01-human/03-molecular/ezh2
     relation: connects-to
     note: "Epigenetic dependence: EZH2 is overexpressed in multiple myeloma and contributes to its progression, an emerging epigenetic therapeutic target."
+  - target: 01-human/03-molecular/cdk4-6
+    relation: connects-to
+    note: "Cyclin D dysregulation: nearly all myelomas dysregulate a cyclin D gene, partnering CDK4/6 to drive plasma-cell proliferation—the rationale for CDK4/6 inhibition."
+  - target: 01-human/03-molecular/tnf-alpha
+    relation: connects-to
+    note: "Marrow microenvironment: TNF-α within the bone-marrow niche supports myeloma cell survival and, with RANKL, drives the osteoclast activation behind its lytic bone disease."
+  - target: 01-human/03-molecular/hif-1alpha
+    relation: connects-to
+    note: "Hypoxic marrow: HIF-1α stabilised in the hypoxic myeloma marrow drives the VEGF angiogenesis and glycolytic metabolism that support the malignant plasma-cell clone."
 ---
 
 # Multiple Myeloma
@@ -500,6 +509,9 @@ MM evolves from precursor conditions through a well-defined continuum:
 - `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — Niche survival signal: PI3K-AKT-mTOR signalling driven by the marrow microenvironment sustains myeloma plasma-cell survival and drug resistance.
 - `connects-to` → **[Notch](../../03-molecular/notch/README.md)** — Stromal crosstalk: Notch signalling between myeloma cells and bone-marrow stroma promotes survival, drug resistance and the osteoclast activation behind lytic bone disease.
 - `connects-to` → **[EZH2](../../03-molecular/ezh2/README.md)** — Epigenetic dependence: EZH2 is overexpressed in multiple myeloma and contributes to its progression, an emerging epigenetic therapeutic target.
+- `connects-to` → **[CDK4/6](../../03-molecular/cdk4-6/README.md)** — Cyclin D dysregulation: nearly all myelomas dysregulate a cyclin D gene, partnering CDK4/6 to drive plasma-cell proliferation—the rationale for CDK4/6 inhibition.
+- `connects-to` → **[TNF-α](../../03-molecular/tnf-alpha/README.md)** — Marrow microenvironment: TNF-α within the bone-marrow niche supports myeloma cell survival and, with RANKL, drives the osteoclast activation behind its lytic bone disease.
+- `connects-to` → **[HIF-1α](../../03-molecular/hif-1alpha/README.md)** — Hypoxic marrow: HIF-1α stabilised in the hypoxic myeloma marrow drives the VEGF angiogenesis and glycolytic metabolism that support the malignant plasma-cell clone.
 
 [^kumar-2022-imwg-criteria]: Kumar SK, Callander NS, Adekola K, et al. Multiple myeloma, version 3.2021, NCCN clinical practice guidelines in oncology. *J Natl Compr Canc Netw.* 2020;18(12):1685-1717. [doi:10.6004/jnccn.2020.0057](https://doi.org/10.6004/jnccn.2020.0057) · [PubMed 33285519](https://pubmed.ncbi.nlm.nih.gov/33285519/)
 [^moreau-2022-teclistamab]: Moreau P, Garfall AL, van de Donk NWCJ, et al. Teclistamab in relapsed or refractory multiple myeloma. *N Engl J Med.* 2022;387(6):495-505. [doi:10.1056/NEJMoa2203478](https://doi.org/10.1056/NEJMoa2203478) · [PubMed 35661166](https://pubmed.ncbi.nlm.nih.gov/35661166/)

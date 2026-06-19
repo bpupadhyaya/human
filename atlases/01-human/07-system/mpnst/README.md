@@ -277,6 +277,15 @@ cross_links:
   - target: 01-human/03-molecular/braf
     relation: connects-to
     note: "MAPK amplification: NF1 loss unleashes RAS, and additional BRAF/MAPK-pathway activation further drives the RAS-RAF-MEK-ERK signalling central to MPNST."
+  - target: 01-human/03-molecular/cyclin-d1
+    relation: connects-to
+    note: "Cell-cycle drive: with CDKN2A loss frequent in MPNST, cyclin D1-CDK4/6 activity pushes these aggressive nerve-sheath tumour cells through the G1 checkpoint."
+  - target: 01-human/03-molecular/met
+    relation: connects-to
+    note: "Receptor signalling: MET activation contributes to the growth and invasion of MPNST, a candidate targetable kinase in these treatment-resistant sarcomas."
+  - target: 01-human/03-molecular/hif-1alpha
+    relation: connects-to
+    note: "Tumour hypoxia: HIF-1α stabilised in the hypoxic MPNST drives the VEGF angiogenesis and metabolic adaptation that support its rapid, infiltrative growth."
 ---
 
 # MPNST
@@ -495,6 +504,9 @@ Wide local excision with negative margins is the only potentially curative inter
 - `connects-to` → **[MYC](../../03-molecular/myc/README.md)** — Malignant transformation: MYC activation helps drive the progression of plexiform neurofibroma to MPNST, fuelling the proliferation of this aggressive sarcoma.
 - `connects-to` → **[TERT](../../03-molecular/tert/README.md)** — Replicative immortality: TERT promoter activation maintains telomeres in MPNST, supporting the unlimited division of its transformed cells.
 - `connects-to` → **[BRAF](../../03-molecular/braf/README.md)** — MAPK amplification: NF1 loss unleashes RAS, and additional BRAF/MAPK-pathway activation further drives the RAS-RAF-MEK-ERK signalling central to MPNST.
+- `connects-to` → **[Cyclin D1](../../03-molecular/cyclin-d1/README.md)** — Cell-cycle drive: with CDKN2A loss frequent in MPNST, cyclin D1-CDK4/6 activity pushes these aggressive nerve-sheath tumour cells through the G1 checkpoint.
+- `connects-to` → **[MET](../../03-molecular/met/README.md)** — Receptor signalling: MET activation contributes to the growth and invasion of MPNST, a candidate targetable kinase in these treatment-resistant sarcomas.
+- `connects-to` → **[HIF-1α](../../03-molecular/hif-1alpha/README.md)** — Tumour hypoxia: HIF-1α stabilised in the hypoxic MPNST drives the VEGF angiogenesis and metabolic adaptation that support its rapid, infiltrative growth.
 
 [^evans-2002-mpnst-nf1]: Evans DGR, Baser ME, McGaughran J, et al. Malignant peripheral nerve sheath tumours in neurofibromatosis 1. *J Med Genet.* 2002;39(5):311-314. [doi:10.1136/jmg.39.5.311](https://doi.org/10.1136/jmg.39.5.311) · [PubMed 12011145](https://pubmed.ncbi.nlm.nih.gov/12011145/)
 [^lee-2014-mpnst-prc2]: Lee W, Teckie S, Wiesner T, et al. PRC2 is recurrently inactivated through EED or SUZ12 loss in malignant peripheral nerve sheath tumors. *Nat Genet.* 2014;46(11):1227-1232. [doi:10.1038/ng.3095](https://doi.org/10.1038/ng.3095) · [PubMed 25240281](https://pubmed.ncbi.nlm.nih.gov/25240281/)
