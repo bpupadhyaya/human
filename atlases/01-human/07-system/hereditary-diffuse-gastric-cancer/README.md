@@ -259,6 +259,15 @@ cross_links:
   - target: 01-human/05-tissue/alveolus
     relation: connects-to
     note: "Lung and pleural spread: diffuse gastric cancer can disseminate to the lungs and pleura (lymphangitic carcinomatosis), seeding the alveolar bed and causing breathlessness."
+  - target: 01-human/07-system/pancreatic-cancer
+    relation: connects-to
+    note: "E-cadherin loss and diffuse growth: the CDH1/E-cadherin loss defining HDGC's signet-ring cancer also drives discohesive, infiltrative growth in other adenocarcinomas such as pancreatic cancer."
+  - target: 01-human/07-system/cholangiocarcinoma
+    relation: connects-to
+    note: "EMT in adenocarcinoma: like HDGC's CDH1-driven discohesion, loss of E-cadherin and epithelial-mesenchymal transition mark invasion and spread in biliary adenocarcinomas like cholangiocarcinoma."
+  - target: 01-human/07-system/prostate-cancer
+    relation: connects-to
+    note: "E-cadherin loss and metastasis: as in the discohesive HDGC cancer, downregulation of E-cadherin (CDH1) signals the switch to invasive, metastatic disease in cancers such as prostate cancer."
 ---
 
 # Hereditary Diffuse Gastric Cancer
@@ -447,6 +456,9 @@ Testing for CDH1 (and CTNNA1) is indicated in any of the following:
 - `connects-to` → **[Hepatic Lobule](../../05-tissue/hepatic-lobule/README.md)** — Liver metastasis: diffuse gastric cancer drains via the portal vein to seed the hepatic lobule, one of the sites—with bone and lung—that mark incurable spread.
 - `connects-to` → **[Cortical Bone](../../05-tissue/cortical-bone/README.md)** — Marrow and bone metastasis: signet-ring diffuse gastric cancer characteristically seeds diffuse osteoblastic and bone-marrow metastases, sometimes presenting as marrow failure.
 - `connects-to` → **[Alveolus](../../05-tissue/alveolus/README.md)** — Lung and pleural spread: diffuse gastric cancer can disseminate to the lungs and pleura (lymphangitic carcinomatosis), seeding the alveolar bed and causing breathlessness.
+- `connects-to` → **[Pancreatic Cancer](../pancreatic-cancer/README.md)** — E-cadherin loss and diffuse growth: the CDH1/E-cadherin loss defining HDGC's signet-ring cancer also drives discohesive, infiltrative growth in other adenocarcinomas such as pancreatic cancer.
+- `connects-to` → **[Cholangiocarcinoma](../cholangiocarcinoma/README.md)** — EMT in adenocarcinoma: like HDGC's CDH1-driven discohesion, loss of E-cadherin and epithelial-mesenchymal transition mark invasion and spread in biliary adenocarcinomas like cholangiocarcinoma.
+- `connects-to` → **[Prostate Cancer](../prostate-cancer/README.md)** — E-cadherin loss and metastasis: as in the discohesive HDGC cancer, downregulation of E-cadherin (CDH1) signals the switch to invasive, metastatic disease in cancers such as prostate cancer.
 
 [^van-der-post-2015-hdgc-guidelines]: van der Post RS, Vogelaar IP, Carneiro F, et al. Hereditary diffuse gastric cancer: updated clinical guidelines with an emphasis on germline CDH1 mutation carriers. *J Med Genet.* 2015;52(6):361-374. [doi:10.1136/jmedgenet-2015-103094](https://doi.org/10.1136/jmedgenet-2015-103094) · [PubMed 25979631](https://pubmed.ncbi.nlm.nih.gov/25979631/)
 [^hansford-2015-hdgc]: Hansford S, Kaurah P, Li-Chang H, et al. Hereditary Diffuse Gastric Cancer Syndrome: CDH1 Mutations and Beyond. *JAMA Oncol.* 2015;1(1):23-32. [doi:10.1001/jamaoncol.2014.168](https://doi.org/10.1001/jamaoncol.2014.168) · [PubMed 26182300](https://pubmed.ncbi.nlm.nih.gov/26182300/)

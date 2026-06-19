@@ -259,6 +259,15 @@ cross_links:
   - target: 01-human/05-tissue/cortical-bone
     relation: connects-to
     note: "Pancreatic osteodystrophy: fat malabsorption and vitamin-D and calcium deficiency in chronic pancreatitis thin cortical bone, causing the osteoporosis and fractures common in these patients."
+  - target: 01-human/07-system/cytokine-storm
+    relation: connects-to
+    note: "SIRS of severe pancreatitis: a severe acute attack unleashes a systemic inflammatory response with ARDS and shock, the trypsin-triggered cytokine surge mechanistically overlapping a cytokine storm."
+  - target: 01-human/05-tissue/arterial-wall
+    relation: connects-to
+    note: "Vascular complications: chronic pancreatitis erodes nearby vessels, causing splenic-artery pseudoaneurysms of the arterial wall and splenic or portal vein thrombosis—dangerous bleeding and clotting."
+  - target: 01-human/07-system/covid-19-disease
+    relation: connects-to
+    note: "Infection-triggered pancreatitis: COVID-19 is a recognised cause of acute pancreatitis through ACE2 on acinar and islet cells, which can be severe on a background hereditary predisposition."
 ---
 
 # Hereditary Pancreatitis
@@ -483,6 +492,9 @@ cross_links:
 - `connects-to` → **[Hepatic Lobule](../../05-tissue/hepatic-lobule/README.md)** — Biliary obstruction and the liver: chronic pancreatitis with head fibrosis compresses the bile duct, causing cholestasis that backs up into the hepatic lobule, while shared alcohol injures both organs.
 - `connects-to` → **[Peripheral Nerve](../../05-tissue/peripheral-nerve/README.md)** — The relentless pain: pancreatic inflammation sensitises and remodels visceral and peripheral nerves, producing the severe neuropathic pain that dominates chronic pancreatitis and drives opioid use.
 - `connects-to` → **[Cortical Bone](../../05-tissue/cortical-bone/README.md)** — Pancreatic osteodystrophy: fat malabsorption and vitamin-D and calcium deficiency in chronic pancreatitis thin cortical bone, causing the osteoporosis and fractures common in these patients.
+- `connects-to` → **[Cytokine Storm](../cytokine-storm/README.md)** — SIRS of severe pancreatitis: a severe acute attack unleashes a systemic inflammatory response with ARDS and shock, the trypsin-triggered cytokine surge mechanistically overlapping a cytokine storm.
+- `connects-to` → **[Arterial Wall](../../05-tissue/arterial-wall/README.md)** — Vascular complications: chronic pancreatitis erodes nearby vessels, causing splenic-artery pseudoaneurysms of the arterial wall and splenic or portal vein thrombosis—dangerous bleeding and clotting.
+- `connects-to` → **[COVID-19 Disease](../covid-19-disease/README.md)** — Infection-triggered pancreatitis: COVID-19 is a recognised cause of acute pancreatitis through ACE2 on acinar and islet cells, which can be severe on a background hereditary predisposition.
 
 [^whitcomb-1996-prss1]: Whitcomb DC, Gorry MC, Preston RA, et al. Hereditary pancreatitis is caused by a mutation in the cationic trypsinogen gene. *Nat Genet.* 1996;14(2):141-145. [doi:10.1038/ng1096-141](https://doi.org/10.1038/ng1096-141) · [PubMed 8841182](https://pubmed.ncbi.nlm.nih.gov/8841182/)
 [^lowenfels-2001-hp-pdac]: Lowenfels AB, Maisonneuve P, DiMagno EP, et al. Hereditary pancreatitis and the risk of pancreatic cancer. *J Natl Cancer Inst.* 2001;93(1):26-31. [doi:10.1093/jnci/93.1.26](https://doi.org/10.1093/jnci/93.1.26) · [PubMed 11136838](https://pubmed.ncbi.nlm.nih.gov/11136838/)
