@@ -270,6 +270,15 @@ cross_links:
   - target: 01-human/07-system/bulimia-nervosa
     relation: connects-to
     note: "Trauma and disordered eating: childhood trauma and PTSD strongly predispose to bulimia and binge-eating, the bingeing and purging serving as affect regulation for trauma-driven distress."
+  - target: 01-human/05-tissue/cardiac-conduction-system
+    relation: connects-to
+    note: "Autonomic toll: PTSD's chronic sympathetic overdrive reduces heart-rate variability and raises arrhythmia and sudden-cardiac-death risk, the conduction-system consequence of a perpetually activated stress response."
+  - target: 01-human/07-system/epilepsy
+    relation: connects-to
+    note: "Trauma and seizures: psychogenic nonepileptic seizures are strongly tied to trauma and PTSD and are the key differential of epilepsy, while PTSD and epilepsy are also bidirectionally associated."
+  - target: 01-human/05-tissue/intestinal-epithelium
+    relation: connects-to
+    note: "The gut-brain axis in trauma: PTSD alters the microbiome and intestinal barrier, the epithelium mediating stress-related GI symptoms and low-grade inflammation that feed back to the traumatised brain."
 ---
 
 # PTSD
@@ -489,6 +498,9 @@ Not all trauma leads to PTSD. Risk and resilience factors include:
 - `connects-to` → **[Systemic Lupus Erythematosus](../systemic-lupus-erythematosus/README.md)** — Trauma and autoimmunity: PTSD is associated with a higher later incidence of autoimmune diseases such as lupus, the chronic stress and inflammation dysregulating immune tolerance.
 - `connects-to` → **[COVID-19 Disease](../covid-19-disease/README.md)** — A pandemic mental-health toll: COVID-19 survivors—especially after ICU care—and frontline workers show high rates of PTSD, the life-threatening illness and isolation acting as traumatic stressors.
 - `connects-to` → **[Bulimia Nervosa](../bulimia-nervosa/README.md)** — Trauma and disordered eating: childhood trauma and PTSD strongly predispose to bulimia and binge-eating, the bingeing and purging serving as affect regulation for trauma-driven distress.
+- `connects-to` → **[Cardiac Conduction System](../../05-tissue/cardiac-conduction-system/README.md)** — Autonomic toll: PTSD's chronic sympathetic overdrive reduces heart-rate variability and raises arrhythmia and sudden-cardiac-death risk, the conduction-system consequence of a perpetually activated stress response.
+- `connects-to` → **[Epilepsy](../epilepsy/README.md)** — Trauma and seizures: psychogenic nonepileptic seizures are strongly tied to trauma and PTSD and are the key differential of epilepsy, while PTSD and epilepsy are also bidirectionally associated.
+- `connects-to` → **[Intestinal Epithelium](../../05-tissue/intestinal-epithelium/README.md)** — The gut-brain axis in trauma: PTSD alters the microbiome and intestinal barrier, the epithelium mediating stress-related GI symptoms and low-grade inflammation that feed back to the traumatised brain.
 
 [^yehuda-2015-ptsd-review]: Yehuda R, Hoge CW, McFarlane AC, et al. Post-traumatic stress disorder. *Nat Rev Dis Primers.* 2015;1:15057. [doi:10.1038/nrdp.2015.57](https://doi.org/10.1038/nrdp.2015.57) · [PubMed 27189040](https://pubmed.ncbi.nlm.nih.gov/27189040/)
 [^foa-2019-ptsd-treatments]: Foa EB, McLean CP. The efficacy of exposure therapy for anxiety and related disorders. *Annu Rev Clin Psychol.* 2016;12:1-28. [doi:10.1146/annurev-clinpsy-021815-093533](https://doi.org/10.1146/annurev-clinpsy-021815-093533) · [PubMed 26928206](https://pubmed.ncbi.nlm.nih.gov/26928206/)

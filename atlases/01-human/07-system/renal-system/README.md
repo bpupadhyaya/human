@@ -271,6 +271,15 @@ cross_links:
   - target: 01-human/07-system/covid-19-disease
     relation: connects-to
     note: "Acute kidney injury and collapsing GN: COVID-19 frequently causes acute kidney injury in severe disease and, in those with high-risk APOL1 variants, a collapsing glomerulopathy."
+  - target: 01-human/07-system/atherosclerosis
+    relation: connects-to
+    note: "Cardiorenal calcification: chronic kidney disease accelerates atherosclerosis through uraemia, calcium-phosphate dysregulation and FGF23, making cardiovascular disease the leading cause of death in renal patients."
+  - target: 01-human/07-system/sjogrens-syndrome
+    relation: connects-to
+    note: "Autoimmune tubular disease: Sjögren's syndrome attacks the kidney as tubulointerstitial nephritis and distal renal tubular acidosis, a tubular pattern distinct from the glomerular injury of lupus nephritis."
+  - target: 01-human/05-tissue/cardiac-conduction-system
+    relation: connects-to
+    note: "Potassium and the heartbeat: the kidney's control of potassium ties it to the cardiac conduction system, where the hyperkalaemia of renal failure peaks the T wave and can stop the heart."
 taxonomy:
   uberon: "UBERON:0001008"
 ---
@@ -450,6 +459,9 @@ Natriuretic counterpoint:
 - **Connects to:** [ANCA Vasculitis](../anca-vasculitis/README.md) — crescentic glomerulonephritis: ANCA-associated vasculitis is a leading cause of rapidly progressive glomerulonephritis, its pauci-immune necrotising injury destroying nephrons within weeks unless promptly treated.
 - **Connects to:** [Sickle Cell Disease](../sickle-cell-disease/README.md) — sickle nephropathy: sickle cell disease injures the kidney through medullary papillary necrosis, impaired urine concentration and a FSGS-like glomerulopathy, a common path to chronic kidney disease.
 - **Connects to:** [COVID-19](../covid-19-disease/README.md) — acute kidney injury and collapsing GN: COVID-19 frequently causes acute kidney injury in severe disease and, in those with high-risk APOL1 variants, a collapsing glomerulopathy.
+- **Connects to:** [Atherosclerosis](../atherosclerosis/README.md) — cardiorenal calcification: chronic kidney disease accelerates atherosclerosis through uraemia, calcium-phosphate dysregulation and FGF23, making cardiovascular disease the leading cause of death in renal patients.
+- **Connects to:** [Sjögren's Syndrome](../sjogrens-syndrome/README.md) — autoimmune tubular disease: Sjögren's syndrome attacks the kidney as tubulointerstitial nephritis and distal renal tubular acidosis, a tubular pattern distinct from the glomerular injury of lupus nephritis.
+- **Connects to:** [Cardiac Conduction System](../../05-tissue/cardiac-conduction-system/README.md) — potassium and the heartbeat: the kidney's control of potassium ties it to the cardiac conduction system, where the hyperkalaemia of renal failure peaks the T wave and can stop the heart.
 - **Treated by:** ACE inhibitors — renoprotection in CKD.
 - **Treated by:** Loop diuretics — fluid management.
 
