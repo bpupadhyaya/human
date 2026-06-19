@@ -253,6 +253,15 @@ cross_links:
   - target: 01-human/07-system/gvhd
     relation: connects-to
     note: "It steers transplant immunity: after stem-cell transplant, loss of intestinal microbial diversity worsens gut graft-versus-host disease and mortality, making the microbiome a target for protecting the new immune system."
+  - target: 01-human/07-system/epilepsy
+    relation: connects-to
+    note: "Diet, microbes and seizures: the ketogenic diet's anticonvulsant effect in drug-resistant epilepsy is partly mediated by gut-microbiome shifts that raise GABA and lower glutamate, a striking gut-brain link."
+  - target: 01-human/07-system/ankylosing-spondylitis
+    relation: connects-to
+    note: "The gut-joint axis: subclinical gut inflammation and a distinct dysbiosis are central to ankylosing spondylitis, where HLA-B27 shapes a microbiome that helps drive the spondyloarthritis."
+  - target: 01-human/07-system/sepsis
+    relation: connects-to
+    note: "The gut as motor of sepsis: a depleted microbiome and leaky epithelium let gut bacteria translocate, and the dysbiosis of critical illness worsens multi-organ failure and mortality."
 ---
 
 # Gut Microbiome
@@ -409,6 +418,9 @@ The microbiome influences CNS function via multiple pathways:
 - `connects-to` → **[Hepatic Lobule](../../05-tissue/hepatic-lobule/README.md)** — The gut-liver axis: microbial metabolites and translocated endotoxin travel up the portal vein to the hepatic lobule, driving the inflammation and fat accumulation of NAFLD/NASH and shaping bile-acid metabolism.
 - `connects-to` → **[Metformin](../../../03-medicine/01-modern/07-metabolic/metformin/README.md)** — The microbiome mediates its action: metformin reshapes gut bacterial composition, and that shift contributes both to its glucose-lowering effect and to the GI side effects that limit its use.
 - `connects-to` → **[GvHD](../gvhd/README.md)** — It steers transplant immunity: after stem-cell transplant, loss of intestinal microbial diversity worsens gut graft-versus-host disease and mortality, making the microbiome a target for protecting the new immune system.
+- `connects-to` → **[Epilepsy](../epilepsy/README.md)** — Diet, microbes and seizures: the ketogenic diet's anticonvulsant effect in drug-resistant epilepsy is partly mediated by gut-microbiome shifts that raise GABA and lower glutamate, a striking gut-brain link.
+- `connects-to` → **[Ankylosing Spondylitis](../ankylosing-spondylitis/README.md)** — The gut-joint axis: subclinical gut inflammation and a distinct dysbiosis are central to ankylosing spondylitis, where HLA-B27 shapes a microbiome that helps drive the spondyloarthritis.
+- `connects-to` → **[Sepsis](../sepsis/README.md)** — The gut as motor of sepsis: a depleted microbiome and leaky epithelium let gut bacteria translocate, and the dysbiosis of critical illness worsens multi-organ failure and mortality.
 
 ## Pathology
 

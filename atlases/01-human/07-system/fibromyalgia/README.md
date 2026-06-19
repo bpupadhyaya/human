@@ -240,6 +240,15 @@ cross_links:
   - target: 01-human/07-system/epilepsy
     relation: connects-to
     note: "Shared central hyperexcitability: fibromyalgia and epilepsy both reflect neuronal hyperexcitability with disturbed glutamate/GABA balance, and the gabapentinoids pregabalin and gabapentin treat both."
+  - target: 01-human/07-system/systemic-sclerosis
+    relation: connects-to
+    note: "A confounder in connective-tissue disease: fibromyalgia frequently coexists with systemic sclerosis, its central pain amplification inflating disease-activity scores and complicating assessment of true inflammatory burden."
+  - target: 01-human/07-system/social-anxiety-disorder
+    relation: connects-to
+    note: "The anxiety overlap: fibromyalgia is highly comorbid with anxiety disorders including social anxiety, sharing serotonergic-noradrenergic dysregulation that SNRIs like duloxetine target in both."
+  - target: 01-human/03-molecular/tnf-alpha
+    relation: connects-to
+    note: "A low-grade neuroimmune signal: though fibromyalgia lacks classic inflammation, modestly raised TNF-α and other cytokines in blood and CSF support a neuroimmune contribution to its central sensitisation."
 sources:
   - id: wolfe-2016-fibromyalgia-criteria
     type: peer-reviewed
@@ -474,6 +483,9 @@ FM is not a single-etiology disorder but a convergent syndrome resulting from th
 - `connects-to` → **[Ankylosing Spondylitis](../ankylosing-spondylitis/README.md)** — A confounding overlay on inflammatory arthritis: comorbid fibromyalgia is common in ankylosing spondylitis and inflates its disease-activity scores with widespread pain, so separating central sensitisation from active inflammation guides treatment.
 - `connects-to` → **[Narcolepsy](../narcolepsy/README.md)** — Unrefreshing sleep links them: fibromyalgia and narcolepsy both fragment sleep and cause profound daytime fatigue, with alpha-wave intrusion into deep sleep a hallmark of the non-restorative sleep of fibromyalgia.
 - `connects-to` → **[Epilepsy](../epilepsy/README.md)** — Shared central hyperexcitability: fibromyalgia and epilepsy both reflect neuronal hyperexcitability with disturbed glutamate/GABA balance, and the gabapentinoids pregabalin and gabapentin treat both.
+- `connects-to` → **[Systemic Sclerosis](../systemic-sclerosis/README.md)** — A confounder in connective-tissue disease: fibromyalgia frequently coexists with systemic sclerosis, its central pain amplification inflating disease-activity scores and complicating assessment of true inflammatory burden.
+- `connects-to` → **[Social Anxiety Disorder](../social-anxiety-disorder/README.md)** — The anxiety overlap: fibromyalgia is highly comorbid with anxiety disorders including social anxiety, sharing serotonergic-noradrenergic dysregulation that SNRIs like duloxetine target in both.
+- `connects-to` → **[TNF-alpha](../../03-molecular/tnf-alpha/README.md)** — A low-grade neuroimmune signal: though fibromyalgia lacks classic inflammation, modestly raised TNF-α and other cytokines in blood and CSF support a neuroimmune contribution to its central sensitisation.
 
 [^wolfe-2016-fibromyalgia-criteria]: Wolfe F, Clauw DJ, Fitzcharles MA, et al. 2016 Revisions to the 2010/2011 fibromyalgia diagnostic criteria. *Semin Arthritis Rheum.* 2016;46(3):319-329. [doi:10.1016/j.semarthrit.2016.08.012](https://doi.org/10.1016/j.semarthrit.2016.08.012) · [PubMed 27916278](https://pubmed.ncbi.nlm.nih.gov/27916278/)
 [^clauw-2014-fibromyalgia-review]: Clauw DJ. Fibromyalgia: a clinical review. *JAMA.* 2014;311(15):1547-1555. [doi:10.1001/jama.2014.3266](https://doi.org/10.1001/jama.2014.3266) · [PubMed 24737367](https://pubmed.ncbi.nlm.nih.gov/24737367/)
