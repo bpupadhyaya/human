@@ -265,6 +265,15 @@ cross_links:
   - target: 01-human/07-system/huntingtons-disease
     relation: connects-to
     note: "Opposite roads to wasting: anorexia nervosa loses weight from psychological appetite suppression, the mirror image of Huntington's disease, which wastes despite preserved or increased appetite from a hypermetabolic state."
+  - target: 01-human/05-tissue/glomerulus
+    relation: connects-to
+    note: "Kidney injury from starvation: chronic dehydration, hypokalaemia and laxative or diuretic misuse in anorexia injure the glomerulus and tubules, causing a hypokalaemic nephropathy and falling GFR."
+  - target: 01-human/05-tissue/arterial-wall
+    relation: connects-to
+    note: "Superior mesenteric artery syndrome: severe weight loss strips the fat pad cushioning the duodenum against the superior mesenteric artery's wall, compressing the bowel and worsening intake in a vicious cycle."
+  - target: 01-human/07-system/ptsd
+    relation: connects-to
+    note: "Trauma and restriction: childhood trauma and PTSD raise the risk of anorexia nervosa, where restriction and control can serve as coping mechanisms for trauma-related distress."
 ---
 
 # Anorexia Nervosa
@@ -488,6 +497,9 @@ In healthy individuals, food cues activate the mesolimbic reward circuit (VTA �
 - `connects-to` → **[Cortical Bone](../../05-tissue/cortical-bone/README.md)** — It thins the skeleton young: low oestrogen, low IGF-1 and hypercortisolism in anorexia nervosa drive severe osteoporosis and stress fractures, often irreversible bone loss in adolescence.
 - `connects-to` → **[Cardiac Conduction System](../../05-tissue/cardiac-conduction-system/README.md)** — The heart's rhythm becomes dangerous: starvation and electrolyte loss cause bradycardia, QT prolongation and arrhythmias, making sudden cardiac death a leading cause of mortality in anorexia nervosa.
 - `connects-to` → **[Huntington's Disease](../huntingtons-disease/README.md)** — Opposite roads to wasting: anorexia nervosa loses weight from psychological appetite suppression, the mirror image of Huntington's disease, which wastes despite preserved or increased appetite from a hypermetabolic state.
+- `connects-to` → **[Glomerulus](../../05-tissue/glomerulus/README.md)** — Kidney injury from starvation: chronic dehydration, hypokalaemia and laxative or diuretic misuse in anorexia injure the glomerulus and tubules, causing a hypokalaemic nephropathy and falling GFR.
+- `connects-to` → **[Arterial Wall](../../05-tissue/arterial-wall/README.md)** — Superior mesenteric artery syndrome: severe weight loss strips the fat pad cushioning the duodenum against the superior mesenteric artery's wall, compressing the bowel and worsening intake in a vicious cycle.
+- `connects-to` → **[PTSD](../ptsd/README.md)** — Trauma and restriction: childhood trauma and PTSD raise the risk of anorexia nervosa, where restriction and control can serve as coping mechanisms for trauma-related distress.
 
 [^treasure-2010-an-lancet]: Treasure J, Claudino AM, Zucker N. Eating disorders. *Lancet.* 2010;375(9714):583-593. [doi:10.1016/S0140-6736(09)61748-7](https://doi.org/10.1016/S0140-6736(09)61748-7) · [PubMed 19931176](https://pubmed.ncbi.nlm.nih.gov/19931176/)
 [^lock-2010-fbt-an]: Lock J, Le Grange D, Agras WS, et al. Randomized clinical trial comparing family-based treatment with adolescent-focused individual therapy for adolescents with anorexia nervosa. *Arch Gen Psychiatry.* 2010;67(10):1025-1032. [doi:10.1001/archgenpsychiatry.2010.128](https://doi.org/10.1001/archgenpsychiatry.2010.128) · [PubMed 20921118](https://pubmed.ncbi.nlm.nih.gov/20921118/)
