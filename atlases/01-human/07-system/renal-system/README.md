@@ -280,6 +280,15 @@ cross_links:
   - target: 01-human/05-tissue/cardiac-conduction-system
     relation: connects-to
     note: "Potassium and the heartbeat: the kidney's control of potassium ties it to the cardiac conduction system, where the hyperkalaemia of renal failure peaks the T wave and can stop the heart."
+  - target: 01-human/03-molecular/nitric-oxide
+    relation: connects-to
+    note: "Renal blood flow: endothelial nitric oxide dilates the afferent arteriole and tunes glomerular pressure, and its loss in renal disease promotes hypertension and progressive injury."
+  - target: 01-human/03-molecular/endothelin-1
+    relation: connects-to
+    note: "Vasoconstrictor counterweight: endothelin-1 constricts renal vessels and drives sodium retention and fibrosis, making endothelin antagonism a target in proteinuric kidney disease."
+  - target: 01-human/03-molecular/tgf-beta
+    relation: connects-to
+    note: "Fibrosis master switch: TGF-β drives the tubulointerstitial fibrosis and glomerulosclerosis that are the common final pathway of chronic kidney disease progression."
 taxonomy:
   uberon: "UBERON:0001008"
 ---
@@ -462,6 +471,9 @@ Natriuretic counterpoint:
 - **Connects to:** [Atherosclerosis](../atherosclerosis/README.md) — cardiorenal calcification: chronic kidney disease accelerates atherosclerosis through uraemia, calcium-phosphate dysregulation and FGF23, making cardiovascular disease the leading cause of death in renal patients.
 - **Connects to:** [Sjögren's Syndrome](../sjogrens-syndrome/README.md) — autoimmune tubular disease: Sjögren's syndrome attacks the kidney as tubulointerstitial nephritis and distal renal tubular acidosis, a tubular pattern distinct from the glomerular injury of lupus nephritis.
 - **Connects to:** [Cardiac Conduction System](../../05-tissue/cardiac-conduction-system/README.md) — potassium and the heartbeat: the kidney's control of potassium ties it to the cardiac conduction system, where the hyperkalaemia of renal failure peaks the T wave and can stop the heart.
+- **Connects to:** [Nitric Oxide](../../03-molecular/nitric-oxide/README.md) — renal blood flow: endothelial nitric oxide dilates the afferent arteriole and tunes glomerular pressure, and its loss in renal disease promotes hypertension and progressive injury.
+- **Connects to:** [Endothelin-1](../../03-molecular/endothelin-1/README.md) — vasoconstrictor counterweight: endothelin-1 constricts renal vessels and drives sodium retention and fibrosis, making endothelin antagonism a target in proteinuric kidney disease.
+- **Connects to:** [TGF-β](../../03-molecular/tgf-beta/README.md) — fibrosis master switch: TGF-β drives the tubulointerstitial fibrosis and glomerulosclerosis that are the common final pathway of chronic kidney disease progression.
 - **Treated by:** ACE inhibitors — renoprotection in CKD.
 - **Treated by:** Loop diuretics — fluid management.
 

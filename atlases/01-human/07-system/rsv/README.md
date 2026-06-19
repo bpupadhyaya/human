@@ -273,6 +273,15 @@ cross_links:
   - target: 01-human/05-tissue/fibrosis
     relation: connects-to
     note: "Post-viral airway scarring: severe RSV bronchiolitis can lead to bronchiolitis obliterans, where fibrosis narrows and obliterates the small airways long after the infection clears."
+  - target: 01-human/03-molecular/rig-i
+    relation: connects-to
+    note: "Viral RNA sensing: the RIG-I receptor detects RSV genomic RNA and signals through MAVS to launch the type-I interferon response that constrains the infection."
+  - target: 01-human/03-molecular/il-4
+    relation: connects-to
+    note: "Th2 skewing: RSV bronchiolitis biases the infant immune response toward IL-4-driven Th2 inflammation, a pathway linked to the later development of wheeze and asthma."
+  - target: 01-human/03-molecular/il-5
+    relation: connects-to
+    note: "Eosinophil recruitment: IL-5 mobilised during the Th2 response to RSV draws eosinophils into the airways, contributing to mucus and the post-bronchiolitis wheezing phenotype."
 ---
 
 # RSV
@@ -502,3 +511,6 @@ Radiological findings: Hyperinflation, peribronchial thickening, occasional atel
 - `connects-to` → **[Gut Microbiome](../gut-microbiome/README.md)** — Microbiome shapes the response: the early-life airway and gut microbiome modulate the severity of RSV bronchiolitis and the subsequent risk of asthma, with dysbiosis tilting the immune response toward worse disease.
 - `connects-to` → **[Sickle Cell Disease](../sickle-cell-disease/README.md)** — Acute chest syndrome trigger: RSV and other respiratory viruses precipitate acute chest syndrome in sickle cell disease, a leading cause of death, so viral lower-respiratory infection is especially dangerous in SCD.
 - `connects-to` → **[Fibrosis](../../05-tissue/fibrosis/README.md)** — Post-viral airway scarring: severe RSV bronchiolitis can lead to bronchiolitis obliterans, where fibrosis narrows and obliterates the small airways long after the infection clears.
+- `connects-to` → **[RIG-I](../../03-molecular/rig-i/README.md)** — Viral RNA sensing: the RIG-I receptor detects RSV genomic RNA and signals through MAVS to launch the type-I interferon response that constrains the infection.
+- `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — Th2 skewing: RSV bronchiolitis biases the infant immune response toward IL-4-driven Th2 inflammation, a pathway linked to the later development of wheeze and asthma.
+- `connects-to` → **[IL-5](../../03-molecular/il-5/README.md)** — Eosinophil recruitment: IL-5 mobilised during the Th2 response to RSV draws eosinophils into the airways, contributing to mucus and the post-bronchiolitis wheezing phenotype.
