@@ -274,6 +274,15 @@ cross_links:
   - target: 01-human/05-tissue/cardiac-conduction-system
     relation: connects-to
     note: "Microthrombi in the heart: platelet-rich microthrombi lodge in the myocardium and its conduction system during TTP, causing arrhythmia and sudden cardiac death—a major and often overlooked cause of acute mortality."
+  - target: 01-human/04-cellular/macrophage
+    relation: connects-to
+    note: "Splenic clearance and autoimmunity: splenic macrophages clear antibody-coated cells and contribute to the autoimmune response against ADAMTS13, the rationale for splenectomy in refractory acquired TTP."
+  - target: 01-human/03-molecular/nlrp3-inflammasome
+    relation: connects-to
+    note: "Endothelial inflammation: NLRP3-inflammasome activation in injured microvascular endothelium amplifies the inflammatory damage that accompanies the thrombotic microangiopathy of TTP."
+  - target: 01-human/03-molecular/il-1b
+    relation: connects-to
+    note: "Inflammatory amplification: IL-1β and related cytokines released during TTP's endothelial injury heighten the prothrombotic, inflammatory state of the acute episode."
 ---
 
 # Thrombotic Thrombocytopenic Purpura
@@ -514,6 +523,9 @@ In healthy individuals, ADAMTS13 (~190 kDa plasma glycoprotein; hepatic synthesi
 - `connects-to` → **[COVID-19 Disease](../covid-19-disease/README.md)** — An infectious trigger: COVID-19 can precipitate relapse of immune TTP and cause its own thrombotic microangiopathy through widespread endothelial injury, blurring the line between the two.
 - `connects-to` → **[Pancreatic Cancer](../pancreatic-cancer/README.md)** — Cancer-associated microangiopathy: mucin-producing adenocarcinomas such as pancreatic and gastric cancer cause a microangiopathic haemolytic anaemia that mimics TTP but has normal ADAMTS13 and needs treating the tumour.
 - `connects-to` → **[Cardiac Conduction System](../../05-tissue/cardiac-conduction-system/README.md)** — Microthrombi in the heart: platelet-rich microthrombi lodge in the myocardium and its conduction system during TTP, causing arrhythmia and sudden cardiac death—a major and often overlooked cause of acute mortality.
+- `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — Splenic clearance and autoimmunity: splenic macrophages clear antibody-coated cells and contribute to the autoimmune response against ADAMTS13, the rationale for splenectomy in refractory acquired TTP.
+- `connects-to` → **[NLRP3 Inflammasome](../../03-molecular/nlrp3-inflammasome/README.md)** — Endothelial inflammation: NLRP3-inflammasome activation in injured microvascular endothelium amplifies the inflammatory damage that accompanies the thrombotic microangiopathy of TTP.
+- `connects-to` → **[IL-1β](../../03-molecular/il-1b/README.md)** — Inflammatory amplification: IL-1β and related cytokines released during TTP's endothelial injury heighten the prothrombotic, inflammatory state of the acute episode.
 
 ---
 

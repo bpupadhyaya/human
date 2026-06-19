@@ -268,6 +268,15 @@ cross_links:
   - target: 01-human/05-tissue/cardiac-conduction-system
     relation: connects-to
     note: "Two routes to arrhythmia: post-thyroidectomy hypocalcaemia prolongs the QT interval, while the long-term TSH-suppressive thyroxine used after surgery raises the risk of atrial fibrillation in the conduction system."
+  - target: 01-human/03-molecular/alk
+    relation: connects-to
+    note: "Rare targetable fusion: ALK gene fusions are an uncommon but actionable driver in papillary and more aggressive thyroid cancers, treatable with ALK inhibitors."
+  - target: 01-human/03-molecular/pik3ca
+    relation: connects-to
+    note: "Progression driver: PIK3CA mutation and amplification mark the progression of thyroid cancer toward poorly differentiated and anaplastic disease."
+  - target: 01-human/03-molecular/cdkn2a
+    relation: connects-to
+    note: "Anaplastic transformation: CDKN2A loss, releasing the cell-cycle brake, accompanies the dedifferentiation of thyroid cancer into its lethal anaplastic form."
 ---
 
 # Thyroid Cancer
@@ -495,6 +504,9 @@ Calcitonin doubling time <6 months → poor prognosis → early systemic therapy
 - `connects-to` → **[PTH](../../03-molecular/pth/README.md)** — Surgical hypoparathyroidism: total thyroidectomy can inadvertently remove or devascularise the parathyroid glands, dropping PTH and causing hypocalcaemia—the commonest complication of thyroid cancer surgery.
 - `connects-to` → **[Hepatic Lobule](../../05-tissue/hepatic-lobule/README.md)** — Haematogenous spread: follicular and medullary thyroid cancers disseminate through the bloodstream to the liver, bone and lung, seeding the hepatic lobule unlike the lymph-node-spreading papillary type.
 - `connects-to` → **[Cardiac Conduction System](../../05-tissue/cardiac-conduction-system/README.md)** — Two routes to arrhythmia: post-thyroidectomy hypocalcaemia prolongs the QT interval, while the long-term TSH-suppressive thyroxine used after surgery raises the risk of atrial fibrillation in the conduction system.
+- `connects-to` → **[ALK](../../03-molecular/alk/README.md)** — Rare targetable fusion: ALK gene fusions are an uncommon but actionable driver in papillary and more aggressive thyroid cancers, treatable with ALK inhibitors.
+- `connects-to` → **[PIK3CA](../../03-molecular/pik3ca/README.md)** — Progression driver: PIK3CA mutation and amplification mark the progression of thyroid cancer toward poorly differentiated and anaplastic disease.
+- `connects-to` → **[CDKN2A](../../03-molecular/cdkn2a/README.md)** — Anaplastic transformation: CDKN2A loss, releasing the cell-cycle brake, accompanies the dedifferentiation of thyroid cancer into its lethal anaplastic form.
 
 [^schlumberger-2015-lenvatinib]: Schlumberger M, Tahara M, Wirth LJ, et al. Lenvatinib versus placebo in radioiodine-refractory differentiated thyroid cancer. *N Engl J Med.* 2015;372(7):621-630. [doi:10.1056/NEJMoa1406470](https://doi.org/10.1056/NEJMoa1406470) · [PubMed 25671254](https://pubmed.ncbi.nlm.nih.gov/25671254/)
 [^subbiah-2018-atc-dabrafenib]: Subbiah V, Kreitman RJ, Wainberg ZA, et al. Dabrafenib and trametinib treatment in patients with locally advanced or metastatic BRAF V600-mutant anaplastic thyroid cancer. *J Clin Oncol.* 2018;36(1):7-13. [doi:10.1200/JCO.2017.73.6785](https://doi.org/10.1200/JCO.2017.73.6785) · [PubMed 28892432](https://pubmed.ncbi.nlm.nih.gov/28892432/)
