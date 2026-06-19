@@ -277,6 +277,15 @@ cross_links:
   - target: 01-human/03-molecular/vegf
     relation: connects-to
     note: "Podocyte and glomerular injury: dysregulated VEGF signalling at the glomerular filtration barrier contributes to the proteinuria and podocyte injury of progressive IgA nephropathy."
+  - target: 01-human/03-molecular/tnf-alpha
+    relation: connects-to
+    note: "Inflammatory amplification: TNF-α released in the inflamed glomerulus amplifies the mesangial and tubulointerstitial injury that drives IgA nephropathy toward kidney failure."
+  - target: 01-human/03-molecular/nlrp3-inflammasome
+    relation: connects-to
+    note: "Inflammasome activation: complement and immune-complex deposition activate the NLRP3 inflammasome in IgA nephropathy, whose IL-1β output worsens glomerular inflammation."
+  - target: 01-human/03-molecular/hif-1alpha
+    relation: connects-to
+    note: "Tubulointerstitial hypoxia: as IgA nephropathy scars the kidney, HIF-1α stabilised in the hypoxic tubulointerstitium drives the fibrosis that predicts progression to renal failure."
 ---
 
 # IgA Nephropathy
@@ -447,6 +456,9 @@ IgAN is a **multi-hit disease** described by the Oxford Four-Hit Model:
 - `connects-to` → **[IL-23](../../03-molecular/il-23/README.md)** — Th17 mucosal axis: the IL-23/Th17 pathway dysregulates mucosal IgA responses and is implicated in IgA nephropathy and its overlap with spondyloarthritis and inflammatory bowel disease.
 - `connects-to` → **[PDGF](../../03-molecular/pdgf/README.md)** — Mesangial proliferation: PDGF drives the mesangial cell proliferation and matrix expansion that are the histological hallmark of IgA nephropathy.
 - `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — Podocyte and glomerular injury: dysregulated VEGF signalling at the glomerular filtration barrier contributes to the proteinuria and podocyte injury of progressive IgA nephropathy.
+- `connects-to` → **[TNF-α](../../03-molecular/tnf-alpha/README.md)** — Inflammatory amplification: TNF-α released in the inflamed glomerulus amplifies the mesangial and tubulointerstitial injury that drives IgA nephropathy toward kidney failure.
+- `connects-to` → **[NLRP3 Inflammasome](../../03-molecular/nlrp3-inflammasome/README.md)** — Inflammasome activation: complement and immune-complex deposition activate the NLRP3 inflammasome in IgA nephropathy, whose IL-1β output worsens glomerular inflammation.
+- `connects-to` → **[HIF-1α](../../03-molecular/hif-1alpha/README.md)** — Tubulointerstitial hypoxia: as IgA nephropathy scars the kidney, HIF-1α stabilised in the hypoxic tubulointerstitium drives the fibrosis that predicts progression to renal failure.
 
 ---
 

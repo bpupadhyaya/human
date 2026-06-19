@@ -285,6 +285,15 @@ cross_links:
   - target: 01-human/03-molecular/baff
     relation: connects-to
     note: "B-cell survival factor: BAFF sustains the autoreactive B cells producing anti-platelet antibodies in ITP, part of the rationale for B-cell-directed therapy."
+  - target: 01-human/03-molecular/perforin
+    relation: connects-to
+    note: "Cytotoxic platelet lysis: beyond antibody-mediated clearance, CD8 cytotoxic T cells use perforin to directly lyse platelets and megakaryocytes in ITP."
+  - target: 01-human/03-molecular/il-6
+    relation: connects-to
+    note: "Inflammatory dysregulation: IL-6 contributes to the loss of immune tolerance in ITP, supporting the autoreactive T- and B-cell responses against platelets."
+  - target: 01-human/03-molecular/tnf-alpha
+    relation: connects-to
+    note: "Immune activation: elevated TNF-α reflects the inflammatory immune dysregulation of ITP, promoting macrophage-mediated platelet destruction."
 ---
 
 # Immune Thrombocytopenia
@@ -509,6 +518,9 @@ ITP in pregnancy carries risk of neonatal thrombocytopenia (maternal IgG crosses
 - `connects-to` → **[HIV-1](../../../02-pathogen/01-viruses/hiv-1/README.md)** — HIV-associated ITP: HIV is a recognised cause of secondary immune thrombocytopenia, sometimes its presenting feature, and the platelet count often improves with antiretroviral therapy.
 - `connects-to` → **[IFN-γ](../../03-molecular/ifn-gamma/README.md)** — Th1-skewed autoimmunity: an IFN-γ-dominated cytokine profile drives the autoreactive T-cell help and macrophage activation that destroy antibody-coated platelets in ITP.
 - `connects-to` → **[BAFF](../../03-molecular/baff/README.md)** — B-cell survival factor: BAFF sustains the autoreactive B cells producing anti-platelet antibodies in ITP, part of the rationale for B-cell-directed therapy.
+- `connects-to` → **[Perforin](../../03-molecular/perforin/README.md)** — Cytotoxic platelet lysis: beyond antibody-mediated clearance, CD8 cytotoxic T cells use perforin to directly lyse platelets and megakaryocytes in ITP.
+- `connects-to` → **[IL-6](../../03-molecular/il-6/README.md)** — Inflammatory dysregulation: IL-6 contributes to the loss of immune tolerance in ITP, supporting the autoreactive T- and B-cell responses against platelets.
+- `connects-to` → **[TNF-α](../../03-molecular/tnf-alpha/README.md)** — Immune activation: elevated TNF-α reflects the inflammatory immune dysregulation of ITP, promoting macrophage-mediated platelet destruction.
 
 [^cines-2002-itp-review]: Cines DB, Blanchette VS. Immune thrombocytopenic purpura. *N Engl J Med.* 2002;346(13):995-1008. [doi:10.1056/NEJMra010532](https://doi.org/10.1056/NEJMra010532) · [PubMed 11919310](https://pubmed.ncbi.nlm.nih.gov/11919310/)
 [^neunert-2019-ash-itp-guidelines]: Neunert C, et al. American Society of Hematology 2019 guidelines for immune thrombocytopenia. *Blood Adv.* 2019;3(23):3829-3866. [doi:10.1182/bloodadvances.2019000966](https://doi.org/10.1182/bloodadvances.2019000966) · [PubMed 31794604](https://pubmed.ncbi.nlm.nih.gov/31794604/)
