@@ -286,6 +286,15 @@ cross_links:
   - target: 01-human/03-molecular/adenosine
     relation: connects-to
     note: "Caffeine and arousal: blocking adenosine receptors with caffeine—often self-administered in ADHD—disinhibits dopamine signalling and boosts alertness, loosely mirroring stimulant medication."
+  - target: 01-human/03-molecular/cortisol
+    relation: connects-to
+    note: "Blunted stress axis: ADHD is associated with a dysregulated, often blunted cortisol response, reflecting altered HPA-axis function that may relate to its arousal and emotional-regulation difficulties."
+  - target: 01-human/03-molecular/il-6
+    relation: connects-to
+    note: "Neuroinflammation link: elevated IL-6, including maternal IL-6 in pregnancy, is associated with ADHD risk, part of the emerging inflammatory contribution to neurodevelopment."
+  - target: 01-human/03-molecular/tnf-alpha
+    relation: connects-to
+    note: "Inflammatory association: raised TNF-α is reported in ADHD, consistent with the low-grade inflammation increasingly linked to neurodevelopmental and attentional disorders."
 ---
 
 # Attention-Deficit/Hyperactivity Disorder
@@ -521,6 +530,9 @@ ADHD is a clinical diagnosis requiring [^biederman-2005-adhd-adults]:
 - `connects-to` → **[Atopic Dermatitis](../atopic-dermatitis/README.md)** — Atopy and attention: atopic dermatitis is epidemiologically associated with ADHD, plausibly through chronic inflammation and the sleep disruption that relentless itch causes in childhood.
 - `connects-to` → **[Acetylcholine](../../03-molecular/acetylcholine/README.md)** — Cholinergic attention: acetylcholine modulates arousal and selective attention, and nicotinic signalling is implicated in ADHD—reflected in high smoking rates and trials of nicotinic agonists.
 - `connects-to` → **[Adenosine](../../03-molecular/adenosine/README.md)** — Caffeine and arousal: blocking adenosine receptors with caffeine—often self-administered in ADHD—disinhibits dopamine signalling and boosts alertness, loosely mirroring stimulant medication.
+- `connects-to` → **[Cortisol](../../03-molecular/cortisol/README.md)** — Blunted stress axis: ADHD is associated with a dysregulated, often blunted cortisol response, reflecting altered HPA-axis function that may relate to its arousal and emotional-regulation difficulties.
+- `connects-to` → **[IL-6](../../03-molecular/il-6/README.md)** — Neuroinflammation link: elevated IL-6, including maternal IL-6 in pregnancy, is associated with ADHD risk, part of the emerging inflammatory contribution to neurodevelopment.
+- `connects-to` → **[TNF-α](../../03-molecular/tnf-alpha/README.md)** — Inflammatory association: raised TNF-α is reported in ADHD, consistent with the low-grade inflammation increasingly linked to neurodevelopmental and attentional disorders.
 
 [^faraone-2021-adhd-primer]: Faraone SV, Banaschewski T, Coghill D, et al. The World Federation of ADHD International Consensus Statement: 208 Evidence-based conclusions about the disorder. *Neurosci Biobehav Rev.* 2021;128:789-818. [doi:10.1016/j.neubiorev.2021.01.022](https://doi.org/10.1016/j.neubiorev.2021.01.022) · [PubMed 33549739](https://pubmed.ncbi.nlm.nih.gov/33549739/)
 [^arnsten-2009-adhd-neuroscience]: Arnsten AF. Toward a new understanding of ADHD pathophysiology: an important role for prefrontal cortex dysfunction. *CNS Drugs.* 2009;23(Suppl 1):33-41. [doi:10.2165/00023210-200923000-00005](https://doi.org/10.2165/00023210-200923000-00005) · [PubMed 19621976](https://pubmed.ncbi.nlm.nih.gov/19621976/)

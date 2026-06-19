@@ -277,6 +277,15 @@ cross_links:
   - target: 01-human/07-system/type-1-diabetes
     relation: connects-to
     note: "Th2 versus Th1 axis: atopic, Th2-skewed dermatitis shows an inverse epidemiological relationship with Th1-driven type 1 diabetes, illustrating the immune system's Th1/Th2 balance."
+  - target: 01-human/03-molecular/cgrp
+    relation: connects-to
+    note: "Neurogenic itch: CGRP released from cutaneous sensory nerves drives the neurogenic inflammation and itch-scratch cycle of atopic dermatitis, linking the nervous system to the skin lesions."
+  - target: 01-human/03-molecular/tnf-alpha
+    relation: connects-to
+    note: "Chronic-phase inflammation: TNF-α contributes to the mixed inflammation of chronic, lichenified atopic dermatitis lesions, beyond the Th2 cytokines that dominate the acute phase."
+  - target: 01-human/03-molecular/il-6
+    relation: connects-to
+    note: "Inflammatory amplifier: IL-6 is elevated in atopic dermatitis and correlates with severity, contributing to systemic inflammation and the comorbidities that accompany the disease."
 ---
 
 # Atopic Dermatitis
@@ -486,6 +495,9 @@ S. aureus colonizes >90% of AD lesional skin (vs. 20% normal skin):
 - `connects-to` → **[Varicella-Zoster Virus](../../../02-pathogen/01-viruses/varicella-zoster-virus/README.md)** — Cutaneous viral spread: the broken skin barrier of atopic dermatitis predisposes to widespread cutaneous viral infection, including disseminated varicella-zoster, alongside the classic eczema herpeticum.
 - `connects-to` → **[Leptin](../../03-molecular/leptin/README.md)** — Adipokine link to obesity: leptin, a pro-inflammatory adipokine raised in obesity, helps explain the association between higher body weight and more severe atopic dermatitis.
 - `connects-to` → **[Type 1 Diabetes](../type-1-diabetes/README.md)** — Th2 versus Th1 axis: atopic, Th2-skewed dermatitis shows an inverse epidemiological relationship with Th1-driven type 1 diabetes, illustrating the immune system's Th1/Th2 balance.
+- `connects-to` → **[CGRP](../../03-molecular/cgrp/README.md)** — Neurogenic itch: CGRP released from cutaneous sensory nerves drives the neurogenic inflammation and itch-scratch cycle of atopic dermatitis, linking the nervous system to the skin lesions.
+- `connects-to` → **[TNF-α](../../03-molecular/tnf-alpha/README.md)** — Chronic-phase inflammation: TNF-α contributes to the mixed inflammation of chronic, lichenified atopic dermatitis lesions, beyond the Th2 cytokines that dominate the acute phase.
+- `connects-to` → **[IL-6](../../03-molecular/il-6/README.md)** — Inflammatory amplifier: IL-6 is elevated in atopic dermatitis and correlates with severity, contributing to systemic inflammation and the comorbidities that accompany the disease.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
