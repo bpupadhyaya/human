@@ -259,6 +259,15 @@ cross_links:
   - target: 01-human/05-tissue/germinal-center
     relation: connects-to
     note: "An immune desert: synovial sarcoma rarely forms the tertiary lymphoid structures and germinal-centre-like aggregates that mark hot tumours, explaining its poor checkpoint response and why engineered TCR cells were needed instead."
+  - target: 01-human/07-system/melanoma
+    relation: connects-to
+    note: "A shared cancer-testis target: synovial sarcoma and melanoma both express NY-ESO-1, and engineered TCR T-cell therapy against it (afami-cel) won its first approval in synovial sarcoma after melanoma trials paved the way."
+  - target: 01-human/05-tissue/cortical-bone
+    relation: connects-to
+    note: "Juxta-articular invasion: arising near joints in the limbs, synovial sarcoma can erode adjacent cortical bone and metastasise to the skeleton, shaping the extent of limb-salvage surgery."
+  - target: 01-human/05-tissue/peripheral-nerve
+    relation: connects-to
+    note: "A spindle-cell mimic near nerves: synovial sarcoma often arises beside nerves and shares a monophasic spindle-cell pattern with MPNST, the two sitting in the differential of a paraneural soft-tissue mass."
 ---
 
 # Synovial Sarcoma
@@ -465,6 +474,9 @@ SS has low TMB (~1-2 mut/Mb) and variable PD-L1 expression; ICB response rates ~
 - `connects-to` → **[Desmoid Tumor](../desmoid-tumor/README.md)** — Two limb soft-tissue tumours, opposite fates: desmoid is a locally aggressive Wnt-driven fibromatosis that never metastasizes, whereas synovial sarcoma's deceptively slow growth hides a lethal capacity to spread.
 - `connects-to` → **[Osteosarcoma](../osteosarcoma/README.md)** — Sarcomas of the young that home to lung: synovial sarcoma and osteosarcoma both strike adolescents and young adults and metastasize chiefly to the lungs, but osteosarcoma's chaotic genome contrasts with synovial sarcoma's single defining fusion.
 - `connects-to` → **[Germinal Center](../../05-tissue/germinal-center/README.md)** — An immune desert: synovial sarcoma rarely forms the tertiary lymphoid structures and germinal-centre-like aggregates that mark hot tumours, explaining its poor checkpoint response and why engineered TCR cells were needed instead.
+- `connects-to` → **[Melanoma](../melanoma/README.md)** — A shared cancer-testis target: synovial sarcoma and melanoma both express NY-ESO-1, and engineered TCR T-cell therapy against it (afami-cel) won its first approval in synovial sarcoma after melanoma trials paved the way.
+- `connects-to` → **[Cortical Bone](../../05-tissue/cortical-bone/README.md)** — Juxta-articular invasion: arising near joints in the limbs, synovial sarcoma can erode adjacent cortical bone and metastasise to the skeleton, shaping the extent of limb-salvage surgery.
+- `connects-to` → **[Peripheral Nerve](../../05-tissue/peripheral-nerve/README.md)** — A spindle-cell mimic near nerves: synovial sarcoma often arises beside nerves and shares a monophasic spindle-cell pattern with MPNST, the two sitting in the differential of a paraneural soft-tissue mass.
 
 ---
 

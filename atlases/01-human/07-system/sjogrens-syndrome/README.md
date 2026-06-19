@@ -265,6 +265,15 @@ cross_links:
   - target: 01-human/07-system/cidp
     relation: connects-to
     note: "Neurological Sjögren: beyond a sensory ganglionopathy, Sjögren's can produce a CIDP-like chronic demyelinating neuropathy, part of its peripheral and central nervous-system involvement."
+  - target: 01-human/05-tissue/cardiac-conduction-system
+    relation: connects-to
+    note: "Neonatal heart block: maternal anti-Ro/SSA antibodies in Sjögren's cross the placenta and attack the developing cardiac conduction system, causing congenital complete heart block in the fetus."
+  - target: 01-human/07-system/ptcl
+    relation: connects-to
+    note: "Lymphoma's broad reach: Sjögren's carries the highest lymphoma risk of the autoimmune diseases—mostly MALT B-cell lymphoma but also T-cell lymphomas, and angioimmunoblastic T-cell lymphoma can itself mimic Sjögren's sicca and hypergammaglobulinaemia."
+  - target: 01-human/07-system/covid-19-disease
+    relation: connects-to
+    note: "Interferon and immunosuppression: Sjögren's shares a type-I interferon signature with severe COVID-19, and the rituximab used to deplete B cells leaves treated patients vulnerable to severe infection and poor vaccine responses."
 ---
 
 # Sjögren's Syndrome
@@ -477,6 +486,9 @@ Sjögren's syndrome can occur:
 - `connects-to` → **[Alveolus](../../05-tissue/alveolus/README.md)** — Interstitial lung disease: Sjögren's lymphocytic infiltration reaches the lung, causing interstitial lung disease and cystic change around the alveoli, an underrecognised source of morbidity.
 - `connects-to` → **[Glomerulus](../../05-tissue/glomerulus/README.md)** — Renal involvement: Sjögren's causes interstitial nephritis with distal renal tubular acidosis and, less often, a cryoglobulin-driven glomerulonephritis injuring the glomerulus.
 - `connects-to` → **[CIDP](../cidp/README.md)** — Neurological Sjögren: beyond a sensory ganglionopathy, Sjögren's can produce a CIDP-like chronic demyelinating neuropathy, part of its peripheral and central nervous-system involvement.
+- `connects-to` → **[Cardiac Conduction System](../../05-tissue/cardiac-conduction-system/README.md)** — Neonatal heart block: maternal anti-Ro/SSA antibodies in Sjögren's cross the placenta and attack the developing cardiac conduction system, causing congenital complete heart block in the fetus.
+- `connects-to` → **[PTCL](../ptcl/README.md)** — Lymphoma's broad reach: Sjögren's carries the highest lymphoma risk of the autoimmune diseases—mostly MALT B-cell lymphoma but also T-cell lymphomas, and angioimmunoblastic T-cell lymphoma can itself mimic Sjögren's sicca and hypergammaglobulinaemia.
+- `connects-to` → **[COVID-19 Disease](../covid-19-disease/README.md)** — Interferon and immunosuppression: Sjögren's shares a type-I interferon signature with severe COVID-19, and the rituximab used to deplete B cells leaves treated patients vulnerable to severe infection and poor vaccine responses.
 
 ---
 
