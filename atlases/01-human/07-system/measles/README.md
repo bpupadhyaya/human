@@ -272,6 +272,15 @@ cross_links:
   - target: 01-human/07-system/glioblastoma
     relation: connects-to
     note: "An oncolytic platform: engineered measles virus that targets cancer cells (trialled in myeloma) is also studied against glioblastoma and ovarian cancer, the vaccine strain repurposed to lyse tumours."
+  - target: 01-human/05-tissue/axonal-transport
+    relation: connects-to
+    note: "SSPE, years later: subacute sclerosing panencephalitis is a fatal slow measles infection of the brain emerging years after the acute illness, a demyelinating panencephalitis destroying white-matter tracts and axons."
+  - target: 01-human/07-system/immune-thrombocytopenia
+    relation: connects-to
+    note: "Post-viral low platelets: measles (and rarely its vaccine) can trigger acute immune thrombocytopenia, antibody-mediated platelet destruction adding bleeding risk to the acute illness."
+  - target: 01-human/05-tissue/cardiac-conduction-system
+    relation: connects-to
+    note: "Measles and the heart: myocarditis is an uncommon complication of measles, inflaming the myocardium and its conduction system to cause arrhythmia during severe infection."
 ---
 
 # Measles
@@ -501,6 +510,9 @@ Beyond immune amnesia (memory B cell depletion), MV causes acute immune suppress
 - `connects-to` → **[West Nile Virus](../west-nile-virus/README.md)** — Viruses that invade the brain: like West Nile virus, measles crosses into the CNS—causing acute encephalitis and the late, fatal SSPE—two RNA viruses illustrating neuroinvasion by different routes.
 - `connects-to` → **[Guillain-Barré](../../05-tissue/guillain-barre/README.md)** — Post-infectious neurology: measles can trigger acute disseminated encephalomyelitis and Guillain-Barré-like demyelination, immune-mediated nerve injury following the acute infection.
 - `connects-to` → **[Glioblastoma](../glioblastoma/README.md)** — An oncolytic platform: engineered measles virus that targets cancer cells (trialled in myeloma) is also studied against glioblastoma and ovarian cancer, the vaccine strain repurposed to lyse tumours.
+- `connects-to` → **[Axonal Transport](../../05-tissue/axonal-transport/README.md)** — SSPE, years later: subacute sclerosing panencephalitis is a fatal slow measles infection of the brain emerging years after the acute illness, a demyelinating panencephalitis destroying white-matter tracts and axons.
+- `connects-to` → **[Immune Thrombocytopenia](../immune-thrombocytopenia/README.md)** — Post-viral low platelets: measles (and rarely its vaccine) can trigger acute immune thrombocytopenia, antibody-mediated platelet destruction adding bleeding risk to the acute illness.
+- `connects-to` → **[Cardiac Conduction System](../../05-tissue/cardiac-conduction-system/README.md)** — Measles and the heart: myocarditis is an uncommon complication of measles, inflaming the myocardium and its conduction system to cause arrhythmia during severe infection.
 
 [^panum-1847-faroe-measles]: Panum PL. Observations made during the epidemic of measles on the Faroe Islands in the year 1846. *Med Classics.* 1939;3:829-886.
 [^mina-2019-immune-amnesia]: Mina MJ, Kula T, Leng Y, et al. Measles virus infection diminishes preexisting antibodies that offer protection from other pathogens. *Science.* 2019;366(6465):599-606. [doi:10.1126/science.aay6485](https://doi.org/10.1126/science.aay6485) · [PubMed 31672891](https://pubmed.ncbi.nlm.nih.gov/31672891/)

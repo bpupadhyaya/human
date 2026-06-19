@@ -274,6 +274,15 @@ cross_links:
   - target: 01-human/07-system/covid-19-disease
     relation: connects-to
     note: "Headache of infection: headache is among the commonest COVID-19 symptoms, and the infection can trigger new daily persistent headache or worsen pre-existing migraine."
+  - target: 01-human/07-system/opioid-use-disorder
+    relation: connects-to
+    note: "Medication-overuse headache: opioids worsen migraine and transform it into chronic daily headache while risking dependence, the main reason they are avoided in headache management."
+  - target: 01-human/07-system/anorexia-nervosa
+    relation: connects-to
+    note: "A serotonergic, female-predominant overlap: migraine co-occurs with eating disorders such as anorexia nervosa, sharing serotonergic dysregulation, while meal-skipping and dehydration are potent migraine triggers."
+  - target: 01-human/05-tissue/endocardium
+    relation: connects-to
+    note: "Patent foramen ovale: migraine with aura is associated with a patent foramen ovale in the atrial septum, whose right-to-left shunt lets vasoactive substances and paradoxical emboli bypass the lungs."
 ---
 
 # Migraine
@@ -496,6 +505,9 @@ Episodic migraine (EM, <15 headache days/month) transforms to **chronic migraine
 - `connects-to` → **[Antiphospholipid Syndrome](../antiphospholipid-syndrome/README.md)** — Headache as an autoimmune clue: migraine—especially with aura—is common in antiphospholipid syndrome, where a hypercoagulable state and patent foramen ovale also raise the risk of aura-associated stroke.
 - `connects-to` → **[Narcolepsy](../narcolepsy/README.md)** — Headache and the sleep switch: migraine is markedly more common in narcolepsy and other sleep disorders, sharing hypothalamic and orexinergic dysregulation that links sleep-wake control to headache.
 - `connects-to` → **[COVID-19 Disease](../covid-19-disease/README.md)** — Headache of infection: headache is among the commonest COVID-19 symptoms, and the infection can trigger new daily persistent headache or worsen pre-existing migraine.
+- `connects-to` → **[Opioid Use Disorder](../opioid-use-disorder/README.md)** — Medication-overuse headache: opioids worsen migraine and transform it into chronic daily headache while risking dependence, the main reason they are avoided in headache management.
+- `connects-to` → **[Anorexia Nervosa](../anorexia-nervosa/README.md)** — A serotonergic, female-predominant overlap: migraine co-occurs with eating disorders such as anorexia nervosa, sharing serotonergic dysregulation, while meal-skipping and dehydration are potent migraine triggers.
+- `connects-to` → **[Endocardium](../../05-tissue/endocardium/README.md)** — Patent foramen ovale: migraine with aura is associated with a patent foramen ovale in the atrial septum, whose right-to-left shunt lets vasoactive substances and paradoxical emboli bypass the lungs.
 
 [^gbd-2016-migraine-burden]: GBD 2016 Headache Collaborators. Global, regional, and national burden of migraine and tension-type headache, 1990-2016. *Lancet Neurol.* 2018;17(11):954-976. [doi:10.1016/S1474-4422(18)30322-3](https://doi.org/10.1016/S1474-4422(18)30322-3) · [PubMed 30353868](https://pubmed.ncbi.nlm.nih.gov/30353868/)
 [^goadsby-2002-migraine-review]: Goadsby PJ, Lipton RB, Ferrari MD. Migraine — current understanding and treatment. *N Engl J Med.* 2002;346(4):257-270. [doi:10.1056/NEJMra010917](https://doi.org/10.1056/NEJMra010917) · [PubMed 11807151](https://pubmed.ncbi.nlm.nih.gov/11807151/)
