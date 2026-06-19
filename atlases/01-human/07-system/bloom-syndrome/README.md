@@ -268,6 +268,15 @@ cross_links:
   - target: 01-human/05-tissue/hepatic-lobule
     relation: connects-to
     note: "Liver tumours too: the all-cancer predisposition of Bloom syndrome extends to the liver, with hepatocellular and other tumours arising in the hepatic lobules at young ages."
+  - target: 01-human/07-system/lynch-syndrome
+    relation: connects-to
+    note: "DNA-repair predisposition: like Lynch syndrome, Bloom syndrome is a hereditary DNA-repair defect that drives early colorectal and other cancers—genome instability from BLM loss rather than mismatch-repair failure."
+  - target: 01-human/03-molecular/atrx
+    relation: connects-to
+    note: "Genome-stability partner: ATRX maintains chromatin and telomere stability and suppresses alternative lengthening of telomeres; its loss, like BLM loss, generates the replication stress and genomic instability that fuel cancer."
+  - target: 01-human/07-system/melanoma
+    relation: connects-to
+    note: "Sun-sensitive skin cancer: the photosensitivity and chromosomal instability of Bloom syndrome raise the risk of skin cancers including melanoma, alongside the basal cell carcinomas already typical of the disease."
 ---
 
 # Bloom Syndrome
@@ -489,6 +498,9 @@ BS is characterized by three cardinal features: **small body size** (the most co
 - `connects-to` → **[DLBCL](../dlbcl/README.md)** — Lymphoma in a broad spectrum: Bloom syndrome's genomic instability raises the risk of aggressive lymphomas like diffuse large B-cell lymphoma, often at unusually young ages.
 - `connects-to` → **[Osteosarcoma](../osteosarcoma/README.md)** — Sarcomas of genomic instability: like its sister helicaseopathies Werner and Rothmund-Thomson, Bloom syndrome raises the risk of osteosarcoma and other sarcomas alongside its carcinomas.
 - `connects-to` → **[Hepatic Lobule](../../05-tissue/hepatic-lobule/README.md)** — Liver tumours too: the all-cancer predisposition of Bloom syndrome extends to the liver, with hepatocellular and other tumours arising in the hepatic lobules at young ages.
+- `connects-to` → **[Lynch Syndrome](../lynch-syndrome/README.md)** — DNA-repair predisposition: like Lynch syndrome, Bloom syndrome is a hereditary DNA-repair defect that drives early colorectal and other cancers—genome instability from BLM loss rather than mismatch-repair failure.
+- `connects-to` → **[ATRX](../../03-molecular/atrx/README.md)** — Genome-stability partner: ATRX maintains chromatin and telomere stability and suppresses alternative lengthening of telomeres; its loss, like BLM loss, generates the replication stress and genomic instability that fuel cancer.
+- `connects-to` → **[Melanoma](../melanoma/README.md)** — Sun-sensitive skin cancer: the photosensitivity and chromosomal instability of Bloom syndrome raise the risk of skin cancers including melanoma, alongside the basal cell carcinomas already typical of the disease.
 
 ---
 

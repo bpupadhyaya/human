@@ -274,6 +274,15 @@ cross_links:
   - target: 01-human/05-tissue/hepatic-lobule
     relation: connects-to
     note: "Liver metastasis: advanced muscle-invasive bladder cancer spreads to the liver, seeding the hepatic lobules along with lung and bone, marking the shift to systemic, incurable disease."
+  - target: 01-human/07-system/sclc
+    relation: connects-to
+    note: "Small-cell variant: a rare neuroendocrine small-cell carcinoma of the bladder mirrors small-cell lung cancer, sharing RB1/TP53 loss, rapid growth and platinum-etoposide chemosensitivity."
+  - target: 01-human/03-molecular/kras
+    relation: connects-to
+    note: "RAS-MAPK signalling: activating RAS-family mutations switch on MAPK signalling, especially in low-grade papillary bladder tumours, working alongside FGFR3 to drive proliferation."
+  - target: 01-human/03-molecular/ezh2
+    relation: connects-to
+    note: "Epigenetic driver: the histone methyltransferase EZH2 is overexpressed in bladder cancer, silencing tumour-suppressor genes and promoting invasion—an emerging therapeutic target."
 ---
 
 # Bladder Cancer
@@ -480,6 +489,9 @@ NMIBC and MIBC have distinct molecular landscapes:
 - `connects-to` → **[ANCA Vasculitis](../anca-vasculitis/README.md)** — Cyclophosphamide's bladder toll: high cumulative cyclophosphamide for ANCA-associated vasculitis (and lymphomas) causes haemorrhagic cystitis and raises bladder cancer risk years later, via the metabolite acrolein.
 - `connects-to` → **[Type 2 Diabetes](../type-2-diabetes/README.md)** — A drug-linked risk: the diabetes drug pioglitazone has been associated with a small increase in bladder cancer risk, and diabetes itself modestly raises risk through chronic inflammation.
 - `connects-to` → **[Hepatic Lobule](../../05-tissue/hepatic-lobule/README.md)** — Liver metastasis: advanced muscle-invasive bladder cancer spreads to the liver, seeding the hepatic lobules along with lung and bone, marking the shift to systemic, incurable disease.
+- `connects-to` → **[SCLC](../sclc/README.md)** — Small-cell variant: a rare neuroendocrine small-cell carcinoma of the bladder mirrors small-cell lung cancer, sharing RB1/TP53 loss, rapid growth and platinum-etoposide chemosensitivity.
+- `connects-to` → **[KRAS](../../03-molecular/kras/README.md)** — RAS-MAPK signalling: activating RAS-family mutations switch on MAPK signalling, especially in low-grade papillary bladder tumours, working alongside FGFR3 to drive proliferation.
+- `connects-to` → **[EZH2](../../03-molecular/ezh2/README.md)** — Epigenetic driver: the histone methyltransferase EZH2 is overexpressed in bladder cancer, silencing tumour-suppressor genes and promoting invasion—an emerging therapeutic target.
 
 ---
 
