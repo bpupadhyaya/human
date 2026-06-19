@@ -259,6 +259,15 @@ cross_links:
   - target: 01-human/05-tissue/germinal-center
     relation: connects-to
     note: "Immunotherapy in an inflamed tumour: mesothelioma's chronic asbestos-driven inflammation supports tertiary lymphoid structures, and combined PD-1/CTLA-4 checkpoint blockade is now first-line for unresectable disease."
+  - target: 01-human/07-system/tuberculosis
+    relation: connects-to
+    note: "The benign mimic: tuberculous pleurisy produces pleural thickening, effusion and a rind that can closely imitate mesothelioma on imaging, a crucial differential to exclude with biopsy especially where TB is endemic."
+  - target: 01-human/05-tissue/intestinal-epithelium
+    relation: connects-to
+    note: "The peritoneal variant: about a fifth of mesotheliomas arise in the peritoneum, studding the serosal surfaces and encasing the bowel over its intestinal epithelium to cause obstruction and ascites."
+  - target: 01-human/05-tissue/cortical-bone
+    relation: connects-to
+    note: "Chest-wall invasion: pleural mesothelioma grows outward through the pleura into the chest wall, eroding ribs and cortical bone and seeding the tracts left by biopsy needles and chest drains."
 ---
 
 # Mesothelioma
@@ -458,6 +467,9 @@ Cytoreductive surgery (CRS) + hyperthermic intraperitoneal chemotherapy (HIPEC):
 - `connects-to` → **[Neurofibromatosis Type 2](../neurofibromatosis-type-2/README.md)** — Shared NF2/merlin loss: mesothelioma frequently inactivates the NF2/merlin tumour suppressor, the same gene whose germline loss defines neurofibromatosis type 2 and drives its schwannomas and meningiomas.
 - `connects-to` → **[Myocardium](../../05-tissue/myocardium/README.md)** — Pericardial mesothelioma: a rare primary mesothelioma arises from the pericardium enveloping the myocardium, causing constrictive physiology and cardiac tamponade.
 - `connects-to` → **[Germinal Center](../../05-tissue/germinal-center/README.md)** — Immunotherapy in an inflamed tumour: mesothelioma's chronic asbestos-driven inflammation supports tertiary lymphoid structures, and combined PD-1/CTLA-4 checkpoint blockade is now first-line for unresectable disease.
+- `connects-to` → **[Tuberculosis](../tuberculosis/README.md)** — The benign mimic: tuberculous pleurisy produces pleural thickening, effusion and a rind that can closely imitate mesothelioma on imaging, a crucial differential to exclude with biopsy especially where TB is endemic.
+- `connects-to` → **[Intestinal Epithelium](../../05-tissue/intestinal-epithelium/README.md)** — The peritoneal variant: about a fifth of mesotheliomas arise in the peritoneum, studding the serosal surfaces and encasing the bowel over its intestinal epithelium to cause obstruction and ascites.
+- `connects-to` → **[Cortical Bone](../../05-tissue/cortical-bone/README.md)** — Chest-wall invasion: pleural mesothelioma grows outward through the pleura into the chest wall, eroding ribs and cortical bone and seeding the tracts left by biopsy needles and chest drains.
 
 [^baas-2021-checkmate743]: Baas P, Scherpereel A, Nowak AK, et al. First-line nivolumab plus ipilimumab in unresectable malignant pleural mesothelioma (CheckMate 743). *Lancet.* 2021;397(10272):375-386. [doi:10.1016/S0140-6736(20)32714-8](https://doi.org/10.1016/S0140-6736(20)32714-8) · [PubMed 33485464](https://pubmed.ncbi.nlm.nih.gov/33485464/)
 [^vogelzang-2003-pemetrexed]: Vogelzang NJ, Rusthoven JJ, Symanowski J, et al. Phase III study of pemetrexed in combination with cisplatin versus cisplatin alone in patients with malignant pleural mesothelioma. *J Clin Oncol.* 2003;21(14):2636-2644. [doi:10.1200/JCO.2003.11.136](https://doi.org/10.1200/JCO.2003.11.136) · [PubMed 12860938](https://pubmed.ncbi.nlm.nih.gov/12860938/)

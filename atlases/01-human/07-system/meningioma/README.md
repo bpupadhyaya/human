@@ -259,6 +259,15 @@ cross_links:
   - target: 01-human/05-tissue/axonal-transport
     relation: connects-to
     note: "Compression of the neural axis: as it grows from the dura, a meningioma compresses the brain, cranial nerves and their axons, and the resulting axonal dysfunction produces its focal deficits and seizures."
+  - target: 01-human/07-system/li-fraumeni-syndrome
+    relation: connects-to
+    note: "Radiation-induced and predisposed: meningioma is the commonest radiation-induced brain tumour, and Li-Fraumeni patients given radiotherapy face a high rate of them—one reason radiation is avoided in the syndrome wherever possible."
+  - target: 01-human/07-system/nsclc
+    relation: connects-to
+    note: "The malignant mimic: lung and breast cancers commonly seed dura-based metastases that radiologically imitate a meningioma, the key malignant differential of a dural mass in a patient with known cancer."
+  - target: 01-human/05-tissue/arterial-wall
+    relation: connects-to
+    note: "A vascular tumour: meningiomas parasitise dural arterial feeders such as the middle meningeal artery, vessels often embolised before surgery to shrink the tumour and reduce intraoperative bleeding."
 ---
 
 # Meningioma
@@ -456,6 +465,9 @@ VEGF overexpression in meningioma (YAP target); Phase 2 COMBIT (Huang 2019, N=40
 - `connects-to` → **[Medulloblastoma](../medulloblastoma/README.md)** — Radiation-induced meningioma: childhood cranial radiotherapy—for medulloblastoma or leukaemia—is a leading cause of secondary meningiomas arising decades after treatment.
 - `connects-to` → **[MEN4 Syndrome](../men4-syndrome/README.md)** — An endocrine-syndrome association: MEN4 (CDKN1B loss) raises the risk of meningiomas alongside its parathyroid and pituitary tumours, one of the germline syndromes that predispose to them.
 - `connects-to` → **[Axonal Transport](../../05-tissue/axonal-transport/README.md)** — Compression of the neural axis: as it grows from the dura, a meningioma compresses the brain, cranial nerves and their axons, and the resulting axonal dysfunction produces its focal deficits and seizures.
+- `connects-to` → **[Li-Fraumeni Syndrome](../li-fraumeni-syndrome/README.md)** — Radiation-induced and predisposed: meningioma is the commonest radiation-induced brain tumour, and Li-Fraumeni patients given radiotherapy face a high rate of them—one reason radiation is avoided in the syndrome wherever possible.
+- `connects-to` → **[NSCLC](../nsclc/README.md)** — The malignant mimic: lung and breast cancers commonly seed dura-based metastases that radiologically imitate a meningioma, the key malignant differential of a dural mass in a patient with known cancer.
+- `connects-to` → **[Arterial Wall](../../05-tissue/arterial-wall/README.md)** — A vascular tumour: meningiomas parasitise dural arterial feeders such as the middle meningeal artery, vessels often embolised before surgery to shrink the tumour and reduce intraoperative bleeding.
 
 [^brastianos-2013-akt1-meningioma]: Brastianos PK, Horowitz PM, Santagata S, et al. Genomic sequencing of meningiomas identifies oncogenic SMO and AKT1 mutations. *Nat Genet.* 2013;45(3):285-289. [doi:10.1038/ng.2526](https://doi.org/10.1038/ng.2526) · [PubMed 23334667](https://pubmed.ncbi.nlm.nih.gov/23334667/)
 [^nassiri-2021-meningioma-classification]: Nassiri F, Liu J, Patil V, et al. A clinically applicable integrative molecular classification of meningiomas. *Nature.* 2021;597(7874):119-125. [doi:10.1038/s41586-021-03850-3](https://doi.org/10.1038/s41586-021-03850-3) · [PubMed 34385709](https://pubmed.ncbi.nlm.nih.gov/34385709/)
