@@ -259,6 +259,15 @@ cross_links:
   - target: 01-human/05-tissue/hepatic-lobule
     relation: connects-to
     note: "Late liver metastasis: advanced chordoma can spread beyond bone to the liver, seeding the hepatic lobule among its distant metastatic sites."
+  - target: 01-human/07-system/renal-cell-carcinoma
+    relation: connects-to
+    note: "SMARCB1 loss links them: poorly differentiated chordoma loses SMARCB1, the same chromatin-remodeller deficiency that defines renal medullary carcinoma and AT/RT—a family of SMARCB1-deficient cancers."
+  - target: 01-human/07-system/ovarian-clear-cell-carcinoma
+    relation: connects-to
+    note: "Chromatin-remodeller cancers: chordoma's SMARCB1 loss and ovarian clear cell carcinoma's ARID1A loss both disable the SWI/SNF complex, different subunits crippling the same machine."
+  - target: 01-human/07-system/nsclc
+    relation: connects-to
+    note: "Brachyury beyond the notochord: the TBXT/brachyury transcription factor defining chordoma is reactivated in carcinomas like NSCLC to drive epithelial-mesenchymal transition and treatment resistance."
 ---
 
 # Chordoma
@@ -474,6 +483,9 @@ CDKN2A deletion in ~30-40% → CDK4/6 hyperactivation → RB1 phosphorylation; p
 - `connects-to` → **[Alveolus](../../05-tissue/alveolus/README.md)** — Where it spreads: although slow-growing, chordoma metastasises late—most often to the lungs—seeding the alveolar capillary bed.
 - `connects-to` → **[Schwannomatosis](../schwannomatosis/README.md)** — A shared SMARCB1 loss: poorly-differentiated chordoma loses the SMARCB1/INI1 tumour suppressor, the same lesion that defines rhabdoid tumours and SMARCB1-related schwannomatosis.
 - `connects-to` → **[Hepatic Lobule](../../05-tissue/hepatic-lobule/README.md)** — Late liver metastasis: advanced chordoma can spread beyond bone to the liver, seeding the hepatic lobule among its distant metastatic sites.
+- `connects-to` → **[Renal Cell Carcinoma](../renal-cell-carcinoma/README.md)** — SMARCB1 loss links them: poorly differentiated chordoma loses SMARCB1, the same chromatin-remodeller deficiency that defines renal medullary carcinoma and AT/RT—a family of SMARCB1-deficient cancers.
+- `connects-to` → **[Ovarian Clear Cell Carcinoma](../ovarian-clear-cell-carcinoma/README.md)** — Chromatin-remodeller cancers: chordoma's SMARCB1 loss and ovarian clear cell carcinoma's ARID1A loss both disable the SWI/SNF complex, different subunits crippling the same machine.
+- `connects-to` → **[NSCLC](../nsclc/README.md)** — Brachyury beyond the notochord: the TBXT/brachyury transcription factor defining chordoma is reactivated in carcinomas like NSCLC to drive epithelial-mesenchymal transition and treatment resistance.
 
 ---
 

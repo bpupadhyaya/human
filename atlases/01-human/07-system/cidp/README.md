@@ -267,6 +267,15 @@ cross_links:
   - target: 01-human/07-system/inflammatory-bowel-disease
     relation: connects-to
     note: "Shared autoimmune ground: CIDP is over-represented in inflammatory bowel disease, both through shared immune dysregulation and through the demyelination that TNF inhibitors used for IBD can provoke."
+  - target: 03-medicine/01-modern/13-cancer/checkpoint-inhibitors
+    relation: connects-to
+    note: "Immunotherapy-triggered neuropathy: checkpoint-inhibitor cancer therapy can precipitate a CIDP-like immune demyelinating neuropathy, an emerging iatrogenic cause needing prompt recognition."
+  - target: 01-human/07-system/melanoma
+    relation: connects-to
+    note: "A cancer context for immune neuropathy: checkpoint-inhibitor treatment of cancers like melanoma is a growing trigger of CIDP-like neuropathy, the same immune activation that fights the tumour attacking nerves."
+  - target: 01-human/07-system/covid-19-disease
+    relation: connects-to
+    note: "Post-viral demyelination: COVID-19, like other infections, can precipitate or worsen CIDP and Guillain-Barré-spectrum neuropathies through molecular mimicry and immune activation."
 ---
 
 # CIDP
@@ -492,6 +501,9 @@ IgG4 anti-NF155 or anti-CNTN1 disrupts this complex → paranodal loop detachmen
 - `connects-to` → **[Germinal Center](../../05-tissue/germinal-center/README.md)** — Where the autoantibodies form: CIDP's myelin- and nodal-protein-targeting antibodies arise from germinal-centre B-cell responses, the rationale for B-cell-depleting and FcRn-blocking therapy.
 - `connects-to` → **[Rheumatoid Arthritis](../rheumatoid-arthritis/README.md)** — A drug-induced trigger: anti-TNF therapy given for rheumatoid arthritis can paradoxically provoke a CIDP-like demyelinating neuropathy, an iatrogenic route into the disease.
 - `connects-to` → **[Inflammatory Bowel Disease](../inflammatory-bowel-disease/README.md)** — Shared autoimmune ground: CIDP is over-represented in inflammatory bowel disease, both through shared immune dysregulation and through the demyelination that TNF inhibitors used for IBD can provoke.
+- `connects-to` → **[Checkpoint Inhibitors](../../../03-medicine/01-modern/13-cancer/checkpoint-inhibitors/README.md)** — Immunotherapy-triggered neuropathy: checkpoint-inhibitor cancer therapy can precipitate a CIDP-like immune demyelinating neuropathy, an emerging iatrogenic cause needing prompt recognition.
+- `connects-to` → **[Melanoma](../melanoma/README.md)** — A cancer context for immune neuropathy: checkpoint-inhibitor treatment of cancers like melanoma is a growing trigger of CIDP-like neuropathy, the same immune activation that fights the tumour attacking nerves.
+- `connects-to` → **[COVID-19 Disease](../covid-19-disease/README.md)** — Post-viral demyelination: COVID-19, like other infections, can precipitate or worsen CIDP and Guillain-Barré-spectrum neuropathies through molecular mimicry and immune activation.
 
 ---
 
