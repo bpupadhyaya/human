@@ -268,6 +268,15 @@ cross_links:
   - target: 01-human/05-tissue/cortical-bone
     relation: connects-to
     note: "Sclerotic bone lesions: TSC commonly produces scattered sclerotic foci (bone islands) in the cortical bone of the skull, spine and pelvis, a frequently incidental but characteristic skeletal feature."
+  - target: 01-human/03-molecular/cyclin-d1
+    relation: connects-to
+    note: "mTOR-driven proliferation: unrestrained mTORC1 from TSC1/TSC2 loss upregulates cyclin D1, driving the proliferation of the hamartomas (SEGA, angiomyolipoma) of tuberous sclerosis."
+  - target: 01-human/03-molecular/erk1-2
+    relation: connects-to
+    note: "Pathway crosstalk: ERK/MAPK signalling crosstalks with the dysregulated mTOR pathway in tuberous sclerosis, contributing to tumour growth and resistance to mTOR inhibitors."
+  - target: 01-human/04-cellular/type-ii-pneumocyte
+    relation: connects-to
+    note: "Cystic lung destruction: in TSC-associated lymphangioleiomyomatosis, proliferating smooth-muscle-like LAM cells destroy the alveolar walls and type II pneumocytes lining them, forming diffuse lung cysts."
 ---
 
 # Tuberous Sclerosis Complex
@@ -491,6 +500,9 @@ With modern management: life expectancy increasingly normal; major risks: renal 
 - `connects-to` → **[Cardiac Conduction System](../../05-tissue/cardiac-conduction-system/README.md)** — Rhabdomyomas in the fetal heart: cardiac rhabdomyomas, often the first sign of TSC on prenatal ultrasound, disrupt the conduction system to cause arrhythmias and pre-excitation before usually regressing in infancy.
 - `connects-to` → **[Arterial Wall](../../05-tissue/arterial-wall/README.md)** — Aneurysms that bleed: renal angiomyolipomas in TSC carry abnormal, fragile arterial walls prone to aneurysm formation and catastrophic retroperitoneal haemorrhage (Wunderlich syndrome) once they grow large.
 - `connects-to` → **[Cortical Bone](../../05-tissue/cortical-bone/README.md)** — Sclerotic bone lesions: TSC commonly produces scattered sclerotic foci (bone islands) in the cortical bone of the skull, spine and pelvis, a frequently incidental but characteristic skeletal feature.
+- `connects-to` → **[Cyclin D1](../../03-molecular/cyclin-d1/README.md)** — mTOR-driven proliferation: unrestrained mTORC1 from TSC1/TSC2 loss upregulates cyclin D1, driving the proliferation of the hamartomas (SEGA, angiomyolipoma) of tuberous sclerosis.
+- `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — Pathway crosstalk: ERK/MAPK signalling crosstalks with the dysregulated mTOR pathway in tuberous sclerosis, contributing to tumour growth and resistance to mTOR inhibitors.
+- `connects-to` → **[Type II Pneumocyte](../../04-cellular/type-ii-pneumocyte/README.md)** — Cystic lung destruction: in TSC-associated lymphangioleiomyomatosis, proliferating smooth-muscle-like LAM cells destroy the alveolar walls and type II pneumocytes lining them, forming diffuse lung cysts.
 
 ---
 

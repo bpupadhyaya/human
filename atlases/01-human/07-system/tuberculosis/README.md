@@ -268,6 +268,15 @@ cross_links:
   - target: 01-human/07-system/covid-19-disease
     relation: connects-to
     note: "A deadly syndemic: COVID-19 disrupted TB diagnosis and treatment programmes worldwide and reversed years of progress, while the two respiratory infections can coexist and worsen each other's outcomes."
+  - target: 01-human/04-cellular/fibroblast
+    relation: connects-to
+    note: "Building the granuloma wall: fibroblasts lay down the collagen capsule that walls off the tuberculous granuloma, and their dysregulated activity drives the cavitation and lung fibrosis of advanced TB."
+  - target: 01-human/03-molecular/nlrp3-inflammasome
+    relation: connects-to
+    note: "Inflammasome immunity: Mycobacterium tuberculosis activates the NLRP3 inflammasome to release IL-1β, central to granuloma formation but also to the immunopathology of the disease."
+  - target: 01-human/03-molecular/il-17a
+    relation: connects-to
+    note: "Th17 early defence: IL-17/Th17 responses recruit neutrophils and help organise the granuloma in early tuberculosis, complementing the dominant IFN-γ/Th1 response."
 ---
 
 # Tuberculosis
@@ -485,6 +494,9 @@ Standard **HRZE** regimen [^nahid-2016-tb-treatment]:
 - `connects-to` → **[Epilepsy](../epilepsy/README.md)** — CNS tuberculosis seizes the brain: tuberculous meningitis and tuberculomas are major causes of seizures and chronic epilepsy in endemic regions, especially in children, long after the infection is treated.
 - `connects-to` → **[Mesothelioma](../mesothelioma/README.md)** — Pleural mimics: tuberculous pleurisy and mesothelioma both produce pleural thickening, effusion and a rind, an infectious-versus-malignant differential resolved only by biopsy especially where TB is common.
 - `connects-to` → **[COVID-19 Disease](../covid-19-disease/README.md)** — A deadly syndemic: COVID-19 disrupted TB diagnosis and treatment programmes worldwide and reversed years of progress, while the two respiratory infections can coexist and worsen each other's outcomes.
+- `connects-to` → **[Fibroblast](../../04-cellular/fibroblast/README.md)** — Building the granuloma wall: fibroblasts lay down the collagen capsule that walls off the tuberculous granuloma, and their dysregulated activity drives the cavitation and lung fibrosis of advanced TB.
+- `connects-to` → **[NLRP3 Inflammasome](../../03-molecular/nlrp3-inflammasome/README.md)** — Inflammasome immunity: Mycobacterium tuberculosis activates the NLRP3 inflammasome to release IL-1β, central to granuloma formation but also to the immunopathology of the disease.
+- `connects-to` → **[IL-17A](../../03-molecular/il-17a/README.md)** — Th17 early defence: IL-17/Th17 responses recruit neutrophils and help organise the granuloma in early tuberculosis, complementing the dominant IFN-γ/Th1 response.
 
 ## See Also
 
