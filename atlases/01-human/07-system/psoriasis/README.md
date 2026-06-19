@@ -259,6 +259,15 @@ cross_links:
   - target: 01-human/07-system/hepatitis-b
     relation: connects-to
     note: "Immunosuppression reawakens the virus: TNF inhibitors and methotrexate used for psoriasis can reactivate hepatitis B and are hepatotoxic, so HBV screening precedes systemic therapy."
+  - target: 01-human/07-system/type-1-diabetes
+    relation: connects-to
+    note: "Shared autoimmune ground: psoriasis is associated with a higher risk of type 1 diabetes, the two sharing immune-regulatory susceptibility loci beyond psoriasis's better-known link to type 2 diabetes."
+  - target: 01-human/07-system/heart-failure
+    relation: connects-to
+    note: "Inflammation and the failing heart: severe psoriasis independently raises the risk of heart failure, its chronic systemic inflammation contributing beyond shared cardiovascular risk factors."
+  - target: 01-human/07-system/social-anxiety-disorder
+    relation: connects-to
+    note: "The psychosocial wound: visible psoriatic plaques carry stigma that drives social anxiety, avoidance and depression, a quality-of-life burden disproportionate to the body-surface area involved."
 ---
 
 # Psoriasis
@@ -454,6 +463,9 @@ Differential: Seborrheic dermatitis (common), pityriasis rosea (herald patch, Ch
 - `connects-to` → **[Multiple Sclerosis](../multiple-sclerosis/README.md)** — A caution for its TNF blockers: the anti-TNF biologics used for psoriasis can unmask or worsen demyelination, so multiple sclerosis contraindicates them—and paradoxically anti-TNF therapy can itself induce psoriasis.
 - `connects-to` → **[IgA Nephropathy](../iga-nephropathy/README.md)** — A skin-kidney axis: psoriasis is associated with IgA nephropathy through shared mucosal IL-17/IL-23 immunity, and its TNF-inhibitor therapy can also trigger IgAN.
 - `connects-to` → **[Hepatitis B](../hepatitis-b/README.md)** — Immunosuppression reawakens the virus: TNF inhibitors and methotrexate used for psoriasis can reactivate hepatitis B and are hepatotoxic, so HBV screening precedes systemic therapy.
+- `connects-to` → **[Type 1 Diabetes](../type-1-diabetes/README.md)** — Shared autoimmune ground: psoriasis is associated with a higher risk of type 1 diabetes, the two sharing immune-regulatory susceptibility loci beyond psoriasis's better-known link to type 2 diabetes.
+- `connects-to` → **[Heart Failure](../heart-failure/README.md)** — Inflammation and the failing heart: severe psoriasis independently raises the risk of heart failure, its chronic systemic inflammation contributing beyond shared cardiovascular risk factors.
+- `connects-to` → **[Social Anxiety Disorder](../social-anxiety-disorder/README.md)** — The psychosocial wound: visible psoriatic plaques carry stigma that drives social anxiety, avoidance and depression, a quality-of-life burden disproportionate to the body-surface area involved.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 

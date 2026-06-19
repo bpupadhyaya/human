@@ -261,6 +261,15 @@ cross_links:
   - target: 01-human/05-tissue/myocardium
     relation: connects-to
     note: "The heart pays for chronic stress: sustained catecholamine and cortisol surges in PTSD raise cardiovascular risk, and acute severe stress can stun the myocardium as Takotsubo (stress) cardiomyopathy."
+  - target: 01-human/07-system/systemic-lupus-erythematosus
+    relation: connects-to
+    note: "Trauma and autoimmunity: PTSD is associated with a higher later incidence of autoimmune diseases such as lupus, the chronic stress and inflammation dysregulating immune tolerance."
+  - target: 01-human/07-system/covid-19-disease
+    relation: connects-to
+    note: "A pandemic mental-health toll: COVID-19 survivors—especially after ICU care—and frontline workers show high rates of PTSD, the life-threatening illness and isolation acting as traumatic stressors."
+  - target: 01-human/07-system/bulimia-nervosa
+    relation: connects-to
+    note: "Trauma and disordered eating: childhood trauma and PTSD strongly predispose to bulimia and binge-eating, the bingeing and purging serving as affect regulation for trauma-driven distress."
 ---
 
 # PTSD
@@ -477,6 +486,9 @@ Not all trauma leads to PTSD. Risk and resilience factors include:
 - `connects-to` → **[Narcolepsy](../narcolepsy/README.md)** — Disordered REM connects them: PTSD fragments REM sleep with nightmares and hyperarousal, overlapping the disrupted REM regulation and daytime sleepiness of narcolepsy, and the two are comorbid.
 - `connects-to` → **[Migraine](../migraine/README.md)** — Stress and headache feed each other: PTSD and migraine are strongly comorbid, sharing stress-axis and serotonergic dysregulation and central sensitisation, so each worsens the other's course.
 - `connects-to` → **[Myocardium](../../05-tissue/myocardium/README.md)** — The heart pays for chronic stress: sustained catecholamine and cortisol surges in PTSD raise cardiovascular risk, and acute severe stress can stun the myocardium as Takotsubo (stress) cardiomyopathy.
+- `connects-to` → **[Systemic Lupus Erythematosus](../systemic-lupus-erythematosus/README.md)** — Trauma and autoimmunity: PTSD is associated with a higher later incidence of autoimmune diseases such as lupus, the chronic stress and inflammation dysregulating immune tolerance.
+- `connects-to` → **[COVID-19 Disease](../covid-19-disease/README.md)** — A pandemic mental-health toll: COVID-19 survivors—especially after ICU care—and frontline workers show high rates of PTSD, the life-threatening illness and isolation acting as traumatic stressors.
+- `connects-to` → **[Bulimia Nervosa](../bulimia-nervosa/README.md)** — Trauma and disordered eating: childhood trauma and PTSD strongly predispose to bulimia and binge-eating, the bingeing and purging serving as affect regulation for trauma-driven distress.
 
 [^yehuda-2015-ptsd-review]: Yehuda R, Hoge CW, McFarlane AC, et al. Post-traumatic stress disorder. *Nat Rev Dis Primers.* 2015;1:15057. [doi:10.1038/nrdp.2015.57](https://doi.org/10.1038/nrdp.2015.57) · [PubMed 27189040](https://pubmed.ncbi.nlm.nih.gov/27189040/)
 [^foa-2019-ptsd-treatments]: Foa EB, McLean CP. The efficacy of exposure therapy for anxiety and related disorders. *Annu Rev Clin Psychol.* 2016;12:1-28. [doi:10.1146/annurev-clinpsy-021815-093533](https://doi.org/10.1146/annurev-clinpsy-021815-093533) · [PubMed 26928206](https://pubmed.ncbi.nlm.nih.gov/26928206/)
