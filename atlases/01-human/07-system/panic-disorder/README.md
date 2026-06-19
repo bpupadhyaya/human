@@ -265,6 +265,15 @@ cross_links:
   - target: 01-human/05-tissue/peripheral-nerve
     relation: connects-to
     note: "Paraesthesiae and tetany: the respiratory alkalosis of a panic attack drops ionised calcium, hyperexciting peripheral nerves to cause the tingling, numbness and carpopedal spasm that frighten patients further."
+  - target: 01-human/07-system/atherosclerosis
+    relation: connects-to
+    note: "The acute-coronary mimic: a panic attack's chest pain, palpitations and sweating imitate a heart attack, a leading reason for emergency cardiac workups, while chronic anxiety itself modestly raises atherosclerotic cardiovascular risk."
+  - target: 01-human/07-system/venous-thromboembolism
+    relation: connects-to
+    note: "The can't-miss differential: pulmonary embolism causes sudden dyspnoea, tachycardia, chest pain and a sense of doom indistinguishable from a panic attack, the dangerous diagnosis to exclude before attributing symptoms to anxiety."
+  - target: 01-human/07-system/covid-19-disease
+    relation: connects-to
+    note: "A pandemic of anxiety: COVID-19 and its social upheaval drove a global surge in panic and anxiety disorders, and post-COVID breathlessness and palpitations can themselves trigger or mimic panic attacks."
 ---
 
 # Panic Disorder
@@ -492,6 +501,9 @@ The **interoceptive fear conditioning model** (Bouton, Mineka, Barlow) explains 
 - `connects-to` → **[Myocardium](../../05-tissue/myocardium/README.md)** — When panic mimics—and harms—the heart: panic attacks cause chest pain that mimics myocardial infarction, and extreme emotional stress can precipitate takotsubo stress cardiomyopathy of the myocardium.
 - `connects-to` → **[Alveolus](../../05-tissue/alveolus/README.md)** — Hyperventilation and the suffocation alarm: panic drives hyperventilation that blows off CO2 into respiratory alkalosis, and brain CO2-sensing underlies the 'false suffocation alarm' theory of panic.
 - `connects-to` → **[Peripheral Nerve](../../05-tissue/peripheral-nerve/README.md)** — Paraesthesiae and tetany: the respiratory alkalosis of a panic attack drops ionised calcium, hyperexciting peripheral nerves to cause the tingling, numbness and carpopedal spasm that frighten patients further.
+- `connects-to` → **[Atherosclerosis](../atherosclerosis/README.md)** — The acute-coronary mimic: a panic attack's chest pain, palpitations and sweating imitate a heart attack, a leading reason for emergency cardiac workups, while chronic anxiety itself modestly raises atherosclerotic cardiovascular risk.
+- `connects-to` → **[Venous Thromboembolism](../venous-thromboembolism/README.md)** — The can't-miss differential: pulmonary embolism causes sudden dyspnoea, tachycardia, chest pain and a sense of doom indistinguishable from a panic attack, the dangerous diagnosis to exclude before attributing symptoms to anxiety.
+- `connects-to` → **[COVID-19 Disease](../covid-19-disease/README.md)** — A pandemic of anxiety: COVID-19 and its social upheaval drove a global surge in panic and anxiety disorders, and post-COVID breathlessness and palpitations can themselves trigger or mimic panic attacks.
 
 [^gorman-2000-panic-neurobiology]: Gorman JM, Kent JM, Sullivan GM, Coplan JD. Neuroanatomical hypothesis of panic disorder, revised. *Am J Psychiatry.* 2000;157(4):493-505. [doi:10.1176/appi.ajp.157.4.493](https://doi.org/10.1176/appi.ajp.157.4.493) · [PubMed 10739407](https://pubmed.ncbi.nlm.nih.gov/10739407/)
 [^nardi-2009-clonazepam-panic]: Nardi AE, Freire RC, Zin WA. Panic disorder and control of breathing. *Respir Physiol Neurobiol.* 2009;167(1):133-143. [doi:10.1016/j.resp.2008.07.011](https://doi.org/10.1016/j.resp.2008.07.011) · [PubMed 18708168](https://pubmed.ncbi.nlm.nih.gov/18708168/)
