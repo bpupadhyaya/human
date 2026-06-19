@@ -277,6 +277,15 @@ cross_links:
   - target: 01-human/03-molecular/cyclin-d1
     relation: connects-to
     note: "SHH-driven cell cycle: Hedgehog signalling upregulates cyclin D1, partnering CDK4/6 to push SHH-subgroup medulloblastoma cells through the cell cycle."
+  - target: 01-human/03-molecular/akt
+    relation: connects-to
+    note: "PI3K/AKT survival: PI3K/AKT signalling supports medulloblastoma cell survival and is implicated in resistance to Hedgehog-pathway inhibitors in the SHH subgroup."
+  - target: 01-human/03-molecular/mtor
+    relation: connects-to
+    note: "Growth-signal hub: mTOR integrates the growth-factor signalling of medulloblastoma, driving the protein synthesis and proliferation of these embryonal tumours."
+  - target: 01-human/03-molecular/hif-1alpha
+    relation: connects-to
+    note: "Tumour hypoxia: HIF-1α stabilised in the hypoxic medulloblastoma drives the VEGF angiogenesis and metabolic adaptation that support its rapid growth."
 ---
 
 # Medulloblastoma
@@ -493,6 +502,9 @@ MB survivors face substantial late effects — inversely proportional to age at 
 - `connects-to` → **[Notch](../../03-molecular/notch/README.md)** — Stem-cell maintenance: Notch signalling sustains medulloblastoma stem-like cells, especially in Group 3/4 tumours, a candidate therapeutic target for these aggressive subgroups.
 - `connects-to` → **[EZH2](../../03-molecular/ezh2/README.md)** — Epigenetic dependence: EZH2-driven histone methylation enforces the proliferative programme of Group 3/4 medulloblastoma, an actionable epigenetic vulnerability.
 - `connects-to` → **[Cyclin D1](../../03-molecular/cyclin-d1/README.md)** — SHH-driven cell cycle: Hedgehog signalling upregulates cyclin D1, partnering CDK4/6 to push SHH-subgroup medulloblastoma cells through the cell cycle.
+- `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — PI3K/AKT survival: PI3K/AKT signalling supports medulloblastoma cell survival and is implicated in resistance to Hedgehog-pathway inhibitors in the SHH subgroup.
+- `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — Growth-signal hub: mTOR integrates the growth-factor signalling of medulloblastoma, driving the protein synthesis and proliferation of these embryonal tumours.
+- `connects-to` → **[HIF-1α](../../03-molecular/hif-1alpha/README.md)** — Tumour hypoxia: HIF-1α stabilised in the hypoxic medulloblastoma drives the VEGF angiogenesis and metabolic adaptation that support its rapid growth.
 
 [^packer-2006-std-risk-mb]: Packer RJ, Gajjar A, Vezina G, et al. Phase III study of craniospinal radiation therapy followed by adjuvant chemotherapy for newly diagnosed average-risk medulloblastoma. *J Clin Oncol.* 2006;24(25):4202-4208. [doi:10.1200/JCO.2006.06.4980](https://doi.org/10.1200/JCO.2006.06.4980) · [PubMed 16943538](https://pubmed.ncbi.nlm.nih.gov/16943538/)
 [^taylor-2012-mb-subgroups]: Taylor MD, Northcott PA, Korshunov A, et al. Molecular subgroups of medulloblastoma: the current consensus. *Acta Neuropathol.* 2012;123(4):465-472. [doi:10.1007/s00401-011-0922-z](https://doi.org/10.1007/s00401-011-0922-z) · [PubMed 22134537](https://pubmed.ncbi.nlm.nih.gov/22134537/)

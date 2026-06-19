@@ -283,6 +283,15 @@ cross_links:
   - target: 01-human/03-molecular/mtor
     relation: connects-to
     note: "Survival and resistance: PI3K-AKT-mTOR signalling from PTEN loss sustains melanoma survival and contributes to acquired resistance to BRAF/MEK-targeted therapy."
+  - target: 01-human/03-molecular/myc
+    relation: connects-to
+    note: "Amplified oncogene: MYC amplification drives the proliferation and metabolism of melanoma and is implicated in resistance to targeted therapy."
+  - target: 01-human/03-molecular/hif-1alpha
+    relation: connects-to
+    note: "Hypoxic invasion: HIF-1α stabilised in hypoxic melanoma drives angiogenesis, the invasive phenotype switch and metastasis to distant organs."
+  - target: 01-human/03-molecular/ezh2
+    relation: connects-to
+    note: "Epigenetic driver: EZH2 is frequently activated in melanoma, silencing tumour-suppressor genes and promoting metastasis and immune evasion."
 ---
 
 # Melanoma
@@ -461,6 +470,9 @@ cross_links:
 - `connects-to` → **[Wnt/β-catenin](../../03-molecular/wnt-beta-catenin/README.md)** — Phenotype switch and immune escape: Wnt/β-catenin signalling controls melanoma phenotype switching and, when active, excludes T cells from the tumour—a driver of resistance to immunotherapy.
 - `connects-to` → **[Cyclin D1](../../03-molecular/cyclin-d1/README.md)** — Cell-cycle amplification: CCND1 (cyclin D1) amplification, common in acral and mucosal melanoma, partners CDK4/6 to drive proliferation, supporting CDK4/6-inhibitor strategies.
 - `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — Survival and resistance: PI3K-AKT-mTOR signalling from PTEN loss sustains melanoma survival and contributes to acquired resistance to BRAF/MEK-targeted therapy.
+- `connects-to` → **[MYC](../../03-molecular/myc/README.md)** — Amplified oncogene: MYC amplification drives the proliferation and metabolism of melanoma and is implicated in resistance to targeted therapy.
+- `connects-to` → **[HIF-1α](../../03-molecular/hif-1alpha/README.md)** — Hypoxic invasion: HIF-1α stabilised in hypoxic melanoma drives angiogenesis, the invasive phenotype switch and metastasis to distant organs.
+- `connects-to` → **[EZH2](../../03-molecular/ezh2/README.md)** — Epigenetic driver: EZH2 is frequently activated in melanoma, silencing tumour-suppressor genes and promoting metastasis and immune evasion.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
