@@ -268,6 +268,15 @@ cross_links:
   - target: 01-human/07-system/pcnsl
     relation: connects-to
     note: "Deep brain masses on imaging: a brainstem or thalamic mass raises a differential that includes diffuse midline glioma and, in older or immunocompromised patients, primary CNS lymphoma, told apart by biopsy and steroid response."
+  - target: 01-human/03-molecular/cyclin-d1
+    relation: connects-to
+    note: "Cell-cycle amplification: CDK4/6 and cyclin D gains drive cell-cycle progression in diffuse midline glioma, a recurrent secondary lesion and the rationale for CDK4/6 inhibition."
+  - target: 01-human/03-molecular/akt
+    relation: connects-to
+    note: "PI3K-AKT survival: PIK3CA-activated AKT signalling feeds the mTOR pathway sustaining diffuse midline glioma cells, a cooperating driver alongside the defining H3K27M mutation."
+  - target: 01-human/03-molecular/igf-1
+    relation: connects-to
+    note: "Growth-factor dependence: IGF-1/IGF1R signalling supports the proliferation and survival of diffuse midline glioma cells, an investigational therapeutic vulnerability in this lethal tumour."
 ---
 
 # Diffuse Midline Glioma
@@ -490,6 +499,9 @@ Direct infusion of drugs into the pons via stereotactic catheter; bypasses BBB; 
 - `connects-to` → **[Chordoma](../chordoma/README.md)** — Midline tumours of the neuraxis: diffuse midline glioma (brainstem, thalamus, cord) and chordoma (clivus, sacrum) both arise along the body's midline axis, posing similar surgical-access challenges despite different origins.
 - `connects-to` → **[Meningioma](../meningioma/README.md)** — The CNS-tumour spectrum: against the lethal, infiltrative diffuse midline glioma, meningioma represents the benign, resectable extreme of brain tumours—two poles of neuro-oncology.
 - `connects-to` → **[PCNSL](../pcnsl/README.md)** — Deep brain masses on imaging: a brainstem or thalamic mass raises a differential that includes diffuse midline glioma and, in older or immunocompromised patients, primary CNS lymphoma, told apart by biopsy and steroid response.
+- `connects-to` → **[Cyclin D1](../../03-molecular/cyclin-d1/README.md)** — Cell-cycle amplification: CDK4/6 and cyclin D gains drive cell-cycle progression in diffuse midline glioma, a recurrent secondary lesion and the rationale for CDK4/6 inhibition.
+- `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — PI3K-AKT survival: PIK3CA-activated AKT signalling feeds the mTOR pathway sustaining diffuse midline glioma cells, a cooperating driver alongside the defining H3K27M mutation.
+- `connects-to` → **[IGF-1](../../03-molecular/igf-1/README.md)** — Growth-factor dependence: IGF-1/IGF1R signalling supports the proliferation and survival of diffuse midline glioma cells, an investigational therapeutic vulnerability in this lethal tumour.
 
 ---
 

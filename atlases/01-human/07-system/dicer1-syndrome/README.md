@@ -268,6 +268,15 @@ cross_links:
   - target: 01-human/07-system/osteosarcoma
     relation: connects-to
     note: "A mesenchymal-tumour spectrum: beyond embryonal rhabdomyosarcoma, DICER1 syndrome can produce other sarcomas including rare osteosarcoma, reflecting its broad predisposition to mesenchymal tumours."
+  - target: 01-human/03-molecular/myc
+    relation: connects-to
+    note: "Let-7 brake released: DICER1 mutations impair processing of let-7 family microRNAs, derepressing oncogenes like MYC that these microRNAs normally restrain—a core mechanism of DICER1 tumours."
+  - target: 01-human/03-molecular/pik3ca
+    relation: connects-to
+    note: "PI3K-mTOR activation: PIK3CA-driven PI3K signalling feeds the mTOR pathway active in DICER1-associated tumours, offering a targetable axis alongside the primary microRNA defect."
+  - target: 01-human/03-molecular/tert
+    relation: connects-to
+    note: "Malignant progression: TERT activation enabling replicative immortality marks the shift of DICER1 lesions from low-grade cystic tumours toward aggressive sarcomatous malignancy."
 ---
 
 # DICER1 Syndrome
@@ -466,6 +475,9 @@ When a child is found to have a thoracic cystic lesion, DICER1 syndrome should b
 - `connects-to` → **[Renal Cell Carcinoma](../renal-cell-carcinoma/README.md)** — Childhood kidney tumours: DICER1 syndrome causes cystic nephroma and anaplastic sarcoma of the kidney, paediatric renal tumours distinct from the clear cell renal carcinoma of adults.
 - `connects-to` → **[Neuroendocrine Tumors](../neuroendocrine-tumors/README.md)** — Pituitary blastoma: DICER1 syndrome causes infantile pituitary blastoma, an ACTH-secreting neuroendocrine tumour driving Cushing disease, part of its broad neuroendocrine spectrum.
 - `connects-to` → **[Osteosarcoma](../osteosarcoma/README.md)** — A mesenchymal-tumour spectrum: beyond embryonal rhabdomyosarcoma, DICER1 syndrome can produce other sarcomas including rare osteosarcoma, reflecting its broad predisposition to mesenchymal tumours.
+- `connects-to` → **[MYC](../../03-molecular/myc/README.md)** — Let-7 brake released: DICER1 mutations impair processing of let-7 family microRNAs, derepressing oncogenes like MYC that these microRNAs normally restrain—a core mechanism of DICER1 tumours.
+- `connects-to` → **[PIK3CA](../../03-molecular/pik3ca/README.md)** — PI3K-mTOR activation: PIK3CA-driven PI3K signalling feeds the mTOR pathway active in DICER1-associated tumours, offering a targetable axis alongside the primary microRNA defect.
+- `connects-to` → **[TERT](../../03-molecular/tert/README.md)** — Malignant progression: TERT activation enabling replicative immortality marks the shift of DICER1 lesions from low-grade cystic tumours toward aggressive sarcomatous malignancy.
 
 ---
 
