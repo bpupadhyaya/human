@@ -274,6 +274,15 @@ cross_links:
   - target: 01-human/05-tissue/cortical-bone
     relation: connects-to
     note: "Smoking, steroids and bone: COPD lowers bone density through smoking, systemic inflammation, inactivity and corticosteroid courses, fracturing the cortical bone and further impairing breathing."
+  - target: 01-human/03-molecular/nfe2l2
+    relation: connects-to
+    note: "Failing antioxidant defence: NRF2 (NFE2L2) drives the lung's antioxidant response, and its impairment in COPD leaves airways defenceless against cigarette-smoke oxidative stress—a therapeutic target."
+  - target: 01-human/03-molecular/wnt-beta-catenin
+    relation: connects-to
+    note: "Stalled repair: defective Wnt/β-catenin signalling blunts alveolar regeneration in emphysema, helping explain why destroyed lung tissue in COPD fails to repair."
+  - target: 01-human/04-cellular/dendritic-cell
+    relation: connects-to
+    note: "Immune orchestration: dendritic cells accumulate in COPD airways, presenting smoke-modified antigens and driving the chronic T-cell inflammation and lymphoid follicles of advanced disease."
 ---
 
 # COPD
@@ -502,6 +511,9 @@ COPD encompasses two overlapping pathological processes:
 - `connects-to` → **[Tuberculosis](../tuberculosis/README.md)** — Post-TB lung disease: prior tuberculosis is a major and under-recognised cause of COPD-like airflow obstruction worldwide, especially in high-burden regions, even in never-smokers.
 - `connects-to` → **[Polycythemia Vera](../polycythemia-vera/README.md)** — Secondary erythrocytosis: chronic hypoxia in COPD raises erythropoietin and red-cell mass, a secondary polycythaemia distinct from the JAK2-driven polycythaemia vera.
 - `connects-to` → **[Cortical Bone](../../05-tissue/cortical-bone/README.md)** — Smoking, steroids and bone: COPD lowers bone density through smoking, systemic inflammation, inactivity and corticosteroid courses, fracturing the cortical bone and further impairing breathing.
+- `connects-to` → **[NFE2L2](../../03-molecular/nfe2l2/README.md)** — Failing antioxidant defence: NRF2 (NFE2L2) drives the lung's antioxidant response, and its impairment in COPD leaves airways defenceless against cigarette-smoke oxidative stress—a therapeutic target.
+- `connects-to` → **[Wnt/β-catenin](../../03-molecular/wnt-beta-catenin/README.md)** — Stalled repair: defective Wnt/β-catenin signalling blunts alveolar regeneration in emphysema, helping explain why destroyed lung tissue in COPD fails to repair.
+- `connects-to` → **[Dendritic Cell](../../04-cellular/dendritic-cell/README.md)** — Immune orchestration: dendritic cells accumulate in COPD airways, presenting smoke-modified antigens and driving the chronic T-cell inflammation and lymphoid follicles of advanced disease.
 
 ---
 

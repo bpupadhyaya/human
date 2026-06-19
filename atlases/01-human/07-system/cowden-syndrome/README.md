@@ -268,6 +268,15 @@ cross_links:
   - target: 01-human/07-system/medulloblastoma
     relation: connects-to
     note: "Cerebellar tumours, benign vs malignant: Cowden's Lhermitte-Duclos disease is a benign dysplastic cerebellar gangliocytoma, contrasting with the malignant cerebellar medulloblastoma of children."
+  - target: 01-human/03-molecular/tsc1-tsc2
+    relation: connects-to
+    note: "Convergent mTOR control: PTEN and the TSC1-TSC2 complex are both brakes on mTORC1, making Cowden and tuberous sclerosis sister hamartoma syndromes driven by unrestrained mTOR signalling."
+  - target: 01-human/03-molecular/p53
+    relation: connects-to
+    note: "Cooperating tumour suppressors: PTEN helps stabilise p53, and combined PTEN/p53 dysfunction accelerates the tumours of the Cowden spectrum beyond PTEN loss alone."
+  - target: 01-human/04-cellular/astrocyte
+    relation: connects-to
+    note: "Glial overgrowth: PTEN loss in CNS glia including astrocytes drives the megalencephaly and dysplastic cerebellar overgrowth (Lhermitte-Duclos) characteristic of Cowden syndrome."
 ---
 
 # Cowden Syndrome
@@ -531,6 +540,9 @@ cross_links:
 - `connects-to` → **[Obesity](../obesity/README.md)** — PTEN and overgrowth: germline PTEN loss enhances PI3K-Akt signalling and drives obesity and macrocephaly, the same overgrowth pathway behind Cowden syndrome's hamartomas.
 - `connects-to` → **[Type 2 Diabetes](../type-2-diabetes/README.md)** — An insulin-signalling paradox: PTEN loss enhances insulin's PI3K-Akt signal, so Cowden patients are often obese yet paradoxically insulin-sensitive, an unusual metabolic profile that informs diabetes biology.
 - `connects-to` → **[Medulloblastoma](../medulloblastoma/README.md)** — Cerebellar tumours, benign vs malignant: Cowden's Lhermitte-Duclos disease is a benign dysplastic cerebellar gangliocytoma, contrasting with the malignant cerebellar medulloblastoma of children.
+- `connects-to` → **[TSC1-TSC2](../../03-molecular/tsc1-tsc2/README.md)** — Convergent mTOR control: PTEN and the TSC1-TSC2 complex are both brakes on mTORC1, making Cowden and tuberous sclerosis sister hamartoma syndromes driven by unrestrained mTOR signalling.
+- `connects-to` → **[p53](../../03-molecular/p53/README.md)** — Cooperating tumour suppressors: PTEN helps stabilise p53, and combined PTEN/p53 dysfunction accelerates the tumours of the Cowden spectrum beyond PTEN loss alone.
+- `connects-to` → **[Astrocyte](../../04-cellular/astrocyte/README.md)** — Glial overgrowth: PTEN loss in CNS glia including astrocytes drives the megalencephaly and dysplastic cerebellar overgrowth (Lhermitte-Duclos) characteristic of Cowden syndrome.
 
 ---
 
