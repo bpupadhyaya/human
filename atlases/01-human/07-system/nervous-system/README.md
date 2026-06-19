@@ -259,6 +259,15 @@ cross_links:
   - target: 01-human/07-system/huntingtons-disease
     relation: connects-to
     note: "A hereditary neurodegeneration of the nervous system: Huntington's disease, from a CAG-repeat expansion in HTT, destroys striatal neurons to cause chorea, cognitive decline and psychiatric change—one of the system's monogenic degenerative diseases."
+  - target: 01-human/03-molecular/bdnf
+    relation: connects-to
+    note: "The plasticity neurotrophin: brain-derived neurotrophic factor supports neuron survival and synaptic plasticity, the molecular substrate of learning and a node where exercise, stress and antidepressants converge on the nervous system."
+  - target: 01-human/05-tissue/hippocampus
+    relation: connects-to
+    note: "The seat of memory: the hippocampus encodes new memories and is one of the few sites of adult neurogenesis, selectively vulnerable to Alzheimer's, ischaemia and chronic stress."
+  - target: 01-human/07-system/neuropathic-pain
+    relation: connects-to
+    note: "When the wiring itself hurts: damage to the nervous system's own pain pathways produces neuropathic pain, a maladaptive output of an injured nervous system distinct from ordinary nociceptive pain."
 ---
 
 # Nervous System
@@ -375,6 +384,9 @@ Distributed cortical networks underlie language (Broca's area, Wernicke's area, 
 - `connects-to` → **[Peripheral Nerve](../../05-tissue/peripheral-nerve/README.md)** — Its reach beyond the brain and cord: the peripheral nerves carry the nervous system's motor commands out to muscle and sensory signals back in, and their axons—wrapped in Schwann-cell myelin—are where neuropathies and nerve injuries strike.
 - `connects-to` → **[Neuromuscular Junction](../../05-tissue/neuromuscular-junction/README.md)** — Where nerve commands muscle: the neuromuscular junction is the cholinergic synapse through which the nervous system drives every voluntary movement, the target of myasthenia gravis, botulinum toxin and curare.
 - `connects-to` → **[Huntington's Disease](../huntingtons-disease/README.md)** — A hereditary neurodegeneration of the nervous system: Huntington's disease, from a CAG-repeat expansion in HTT, destroys striatal neurons to cause chorea, cognitive decline and psychiatric change—one of the system's monogenic degenerative diseases.
+- `connects-to` → **[BDNF](../../03-molecular/bdnf/README.md)** — The plasticity neurotrophin: brain-derived neurotrophic factor supports neuron survival and synaptic plasticity, the molecular substrate of learning and a node where exercise, stress and antidepressants converge on the nervous system.
+- `connects-to` → **[Hippocampus](../../05-tissue/hippocampus/README.md)** — The seat of memory: the hippocampus encodes new memories and is one of the few sites of adult neurogenesis, selectively vulnerable to Alzheimer's, ischaemia and chronic stress.
+- `connects-to` → **[Neuropathic Pain](../neuropathic-pain/README.md)** — When the wiring itself hurts: damage to the nervous system's own pain pathways produces neuropathic pain, a maladaptive output of an injured nervous system distinct from ordinary nociceptive pain.
 
 ## Pathology
 
