@@ -256,6 +256,15 @@ cross_links:
   - target: 01-human/05-tissue/cardiac-conduction-system
     relation: connects-to
     note: "Seizures can stop the heart: ictal and post-ictal disturbances of cardiac conduction — bradyarrhythmia and asystole — are implicated in SUDEP, the leading epilepsy-specific cause of death."
+  - target: 03-medicine/01-modern/10-mental-health/fluoxetine
+    relation: connects-to
+    note: "Treating the depression that shadows seizures: depression is the commonest psychiatric comorbidity in epilepsy, and SSRIs like fluoxetine are first-line—the old fear that they meaningfully lower the seizure threshold is largely unfounded."
+  - target: 01-human/07-system/multiple-sclerosis
+    relation: connects-to
+    note: "Cortical lesions that spark seizures: epilepsy is several-fold more common in multiple sclerosis, where demyelinating plaques reaching the cerebral cortex create irritable, hyperexcitable foci that discharge as seizures."
+  - target: 01-human/07-system/systemic-lupus-erythematosus
+    relation: connects-to
+    note: "Lupus that fires the brain: neuropsychiatric SLE can present with seizures, as immune-complex vasculopathy, autoantibodies and inflammation lower the cortical seizure threshold—epilepsy as a manifestation of systemic autoimmunity."
 ---
 
 # Epilepsy
@@ -487,6 +496,9 @@ Anti-NMDAR encephalitis is the most common autoimmune encephalitis (~37% of auto
 - `connects-to` → **[Targeted Therapy](../../../03-medicine/01-modern/13-cancer/targeted-therapy/README.md)** — Precision drugs for genetic epilepsy: the mTOR inhibitor everolimus reduces seizures in tuberous sclerosis, and gene-specific therapies are emerging for channelopathies — treating the cause rather than only suppressing seizures.
 - `connects-to` → **[Cannabis Use Disorder](../cannabis-use-disorder/README.md)** — Cannabidiol became an anticonvulsant: purified cannabidiol (Epidiolex) is approved for Dravet, Lennox-Gastaut and TSC-related epilepsy, derived from the same plant whose heavy THC use causes cannabis use disorder.
 - `connects-to` → **[Cardiac Conduction System](../../05-tissue/cardiac-conduction-system/README.md)** — Seizures can stop the heart: ictal and post-ictal disturbances of cardiac conduction — bradyarrhythmia and asystole — are implicated in SUDEP, the leading epilepsy-specific cause of death.
+- `connects-to` → **[Fluoxetine](../../../03-medicine/01-modern/10-mental-health/fluoxetine/README.md)** — Treating the depression that shadows seizures: depression is the commonest psychiatric comorbidity in epilepsy, and SSRIs like fluoxetine are first-line—the old fear that they meaningfully lower the seizure threshold is largely unfounded.
+- `connects-to` → **[Multiple Sclerosis](../multiple-sclerosis/README.md)** — Cortical lesions that spark seizures: epilepsy is several-fold more common in multiple sclerosis, where demyelinating plaques reaching the cerebral cortex create irritable, hyperexcitable foci that discharge as seizures.
+- `connects-to` → **[Systemic Lupus Erythematosus](../systemic-lupus-erythematosus/README.md)** — Lupus that fires the brain: neuropsychiatric SLE can present with seizures, as immune-complex vasculopathy, autoantibodies and inflammation lower the cortical seizure threshold—epilepsy as a manifestation of systemic autoimmunity.
 
 [^fisher-2017-ilae-classification]: Fisher RS, Cross JH, D'Souza C, et al. Instruction manual for the ILAE 2017 operational classification of seizure types. *Epilepsia.* 2017;58(4):531-542. [doi:10.1111/epi.13671](https://doi.org/10.1111/epi.13671) · [PubMed 28276060](https://pubmed.ncbi.nlm.nih.gov/28276060/)
 [^devinsky-2018-epilepsy-review]: Devinsky O, Vezzani A, O'Brien TJ, et al. Epilepsy. *Nat Rev Dis Primers.* 2018;4:18024. [doi:10.1038/nrdp.2018.24](https://doi.org/10.1038/nrdp.2018.24) · [PubMed 29722352](https://pubmed.ncbi.nlm.nih.gov/29722352/)
