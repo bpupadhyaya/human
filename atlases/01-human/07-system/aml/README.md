@@ -277,6 +277,15 @@ cross_links:
   - target: 01-human/07-system/gout
     relation: connects-to
     note: "Tumour-lysis hyperuricaemia: the massive cell turnover of AML treatment releases a flood of urate that overlaps with gout's crystal disease and threatens the kidney unless pre-empted with rasburicase or allopurinol."
+  - target: 01-human/03-molecular/ezh2
+    relation: connects-to
+    note: "Epigenetic dysregulation: EZH2 and the broader epigenetic machinery (with DNMT3A, TET2 and IDH already implicated) are deranged in AML, a rationale for epigenetic therapy."
+  - target: 01-human/03-molecular/akt
+    relation: connects-to
+    note: "Survival signalling: PI3K-AKT-mTOR signalling, often downstream of FLT3, sustains the survival and proliferation of AML blasts."
+  - target: 01-human/03-molecular/hif-1alpha
+    relation: connects-to
+    note: "Protective marrow niche: HIF-1α-driven adaptation to the hypoxic bone-marrow niche shelters AML leukaemic stem cells, supporting their persistence and relapse."
 ---
 
 # AML
@@ -474,6 +483,9 @@ AML requires cooperative mutations in at least 2 functional categories (Gillilan
 - `connects-to` → **[IDH-Mutant Glioma](../idh-mutant-glioma/README.md)** — A shared oncometabolite: IDH1/IDH2-mutant AML and IDH-mutant glioma both produce 2-hydroxyglutarate that reprograms the epigenome, and both are now treated with the same IDH inhibitors—one drug class across blood and brain cancer.
 - `connects-to` → **[Stroke](../stroke/README.md)** — Leukostasis emergency: extreme blast counts in AML make the blood sludge, obstructing cerebral and pulmonary microvessels to cause stroke-like deficits and respiratory failure that demand urgent cytoreduction.
 - `connects-to` → **[Gout](../gout/README.md)** — Tumour-lysis hyperuricaemia: the massive cell turnover of AML treatment releases a flood of urate that overlaps with gout's crystal disease and threatens the kidney unless pre-empted with rasburicase or allopurinol.
+- `connects-to` → **[EZH2](../../03-molecular/ezh2/README.md)** — Epigenetic dysregulation: EZH2 and the broader epigenetic machinery (with DNMT3A, TET2 and IDH already implicated) are deranged in AML, a rationale for epigenetic therapy.
+- `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — Survival signalling: PI3K-AKT-mTOR signalling, often downstream of FLT3, sustains the survival and proliferation of AML blasts.
+- `connects-to` → **[HIF-1α](../../03-molecular/hif-1alpha/README.md)** — Protective marrow niche: HIF-1α-driven adaptation to the hypoxic bone-marrow niche shelters AML leukaemic stem cells, supporting their persistence and relapse.
 
 [^dinardo-2020-viale-a]: DiNardo CD, Jonas BA, Pullarkat V, et al. Azacitidine and venetoclax in previously untreated acute myeloid leukemia. *N Engl J Med.* 2020;383(7):617-629. [doi:10.1056/NEJMoa2012971](https://doi.org/10.1056/NEJMoa2012971) · [PubMed 32786187](https://pubmed.ncbi.nlm.nih.gov/32786187/)
 [^stone-2017-midostaurin]: Stone RM, Mandrekar SJ, Sanford BL, et al. Midostaurin plus chemotherapy for acute myeloid leukemia with a FLT3 mutation. *N Engl J Med.* 2017;377(5):454-464. [doi:10.1056/NEJMoa1614359](https://doi.org/10.1056/NEJMoa1614359) · [PubMed 28644114](https://pubmed.ncbi.nlm.nih.gov/28644114/)

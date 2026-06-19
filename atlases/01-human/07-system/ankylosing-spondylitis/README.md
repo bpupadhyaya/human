@@ -277,6 +277,15 @@ cross_links:
   - target: 01-human/05-tissue/peripheral-nerve
     relation: connects-to
     note: "Cauda equina syndrome: a rare late complication of ankylosing spondylitis is arachnoiditis and dural ectasia in the rigid lumbar spine that compresses the cauda equina nerve roots, causing bladder, bowel and leg dysfunction."
+  - target: 01-human/03-molecular/tgf-beta
+    relation: connects-to
+    note: "Pathological new bone: TGF-β and BMP signalling drive the abnormal ossification that fuses the spine in ankylosing spondylitis, forming the bridging syndesmophytes."
+  - target: 01-human/03-molecular/vegf
+    relation: connects-to
+    note: "Angiogenesis at entheses: VEGF-driven new-vessel growth accompanies the enthesitis and new bone formation of ankylosing spondylitis."
+  - target: 01-human/03-molecular/ccl2
+    relation: connects-to
+    note: "Recruiting inflammation: CCL2 draws monocytes and macrophages to the inflamed entheses and sacroiliac joints that characterise ankylosing spondylitis."
 ---
 
 # Ankylosing Spondylitis
@@ -472,6 +481,9 @@ AS originates at the **enthesis** — the site where tendons, ligaments, and joi
 - `connects-to` → **[Endocardium](../../05-tissue/endocardium/README.md)** — Aortitis and valve disease: ankylosing spondylitis inflames the aortic root and valve, causing aortic regurgitation and scarring of the endocardium alongside the conduction-system disease it is better known for.
 - `connects-to` → **[Aspergillus fumigatus](../../../02-pathogen/03-fungi/aspergillus-fumigatus/README.md)** — Apical fibrobullous disease: the upper lobes in long-standing ankylosing spondylitis develop fibrocavitary change that can become colonised by Aspergillus, forming an aspergilloma within the cavity.
 - `connects-to` → **[Peripheral Nerve](../../05-tissue/peripheral-nerve/README.md)** — Cauda equina syndrome: a rare late complication of ankylosing spondylitis is arachnoiditis and dural ectasia in the rigid lumbar spine that compresses the cauda equina nerve roots, causing bladder, bowel and leg dysfunction.
+- `connects-to` → **[TGF-β](../../03-molecular/tgf-beta/README.md)** — Pathological new bone: TGF-β and BMP signalling drive the abnormal ossification that fuses the spine in ankylosing spondylitis, forming the bridging syndesmophytes.
+- `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — Angiogenesis at entheses: VEGF-driven new-vessel growth accompanies the enthesitis and new bone formation of ankylosing spondylitis.
+- `connects-to` → **[CCL2](../../03-molecular/ccl2/README.md)** — Recruiting inflammation: CCL2 draws monocytes and macrophages to the inflamed entheses and sacroiliac joints that characterise ankylosing spondylitis.
 
 [^sieper-2015-ankylosing-spondylitis-review]: Sieper J, Poddubnyy D. Ankylosing spondylitis. *Lancet.* 2017;390(10089):73-84. [doi:10.1016/S0140-6736(16)31591-4](https://doi.org/10.1016/S0140-6736(16)31591-4) · [PubMed 28110981](https://pubmed.ncbi.nlm.nih.gov/28110981/)
 [^baeten-2015-secukinumab-as]: Baeten D, Sieper J, Braun J, et al. Secukinumab, an Interleukin-17A Inhibitor, in Ankylosing Spondylitis. *N Engl J Med.* 2015;373(26):2534-2548. [doi:10.1056/NEJMoa1505066](https://doi.org/10.1056/NEJMoa1505066) · [PubMed 26699169](https://pubmed.ncbi.nlm.nih.gov/26699169/)
