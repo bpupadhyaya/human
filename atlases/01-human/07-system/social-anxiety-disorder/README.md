@@ -253,6 +253,15 @@ cross_links:
   - target: 03-medicine/02-traditional/panax-ginseng
     relation: connects-to
     note: "An adaptogen tried for anxiety: like ashwagandha, Panax ginseng is among the traditional remedies used for the chronic stress and arousal of social anxiety, complementing rather than replacing established therapy."
+  - target: 01-human/05-tissue/cardiac-conduction-system
+    relation: connects-to
+    note: "The racing, pounding heart: social anxiety's autonomic surge drives palpitations, tachycardia and tremor through the conduction system, and beta-blockers blunt these symptoms for performance anxiety."
+  - target: 01-human/03-molecular/npy
+    relation: connects-to
+    note: "The resilience neuropeptide: NPY dampens amygdala threat reactivity and the stress response, and low NPY tone is linked to the heightened social-threat sensitivity that underlies social anxiety."
+  - target: 01-human/07-system/gambling-disorder
+    relation: connects-to
+    note: "Reward pursued in private: social anxiety can predispose to solitary behavioural addictions like gambling, undertaken to avoid social exposure and relieve anticipatory distress."
 ---
 
 # Social Anxiety Disorder
@@ -461,6 +470,9 @@ The unique **dopaminergic social reward deficit** in SAD has clinical implicatio
 - `connects-to` → **[Borderline Personality Disorder](../borderline-personality-disorder/README.md)** — Rejection sensitivity in common: social anxiety disorder and borderline personality disorder both centre on intense fear of rejection and negative evaluation, frequently coexist, and amplify each other's interpersonal distress.
 - `connects-to` → **[St John's Wort](../../../03-medicine/02-traditional/st-johns-wort/README.md)** — A herbal serotonergic option: St John's wort raises serotonin like the SSRIs that are first-line for social anxiety, and is used by some for milder symptoms, though evidence is limited and interactions are common.
 - `connects-to` → **[Panax Ginseng](../../../03-medicine/02-traditional/panax-ginseng/README.md)** — An adaptogen tried for anxiety: like ashwagandha, Panax ginseng is among the traditional remedies used for the chronic stress and arousal of social anxiety, complementing rather than replacing established therapy.
+- `connects-to` → **[Cardiac Conduction System](../../05-tissue/cardiac-conduction-system/README.md)** — The racing, pounding heart: social anxiety's autonomic surge drives palpitations, tachycardia and tremor through the conduction system, and beta-blockers blunt these symptoms for performance anxiety.
+- `connects-to` → **[NPY](../../03-molecular/npy/README.md)** — The resilience neuropeptide: NPY dampens amygdala threat reactivity and the stress response, and low NPY tone is linked to the heightened social-threat sensitivity that underlies social anxiety.
+- `connects-to` → **[Gambling Disorder](../gambling-disorder/README.md)** — Reward pursued in private: social anxiety can predispose to solitary behavioural addictions like gambling, undertaken to avoid social exposure and relieve anticipatory distress.
 
 [^liebowitz-1987-sad-scale]: Liebowitz MR. Social phobia. *Mod Probl Pharmacopsychiatry.* 1987;22:141-173. [PubMed 2885745](https://pubmed.ncbi.nlm.nih.gov/2885745/)
 [^stein-2008-sad-review]: Stein MB, Stein DJ. Social anxiety disorder. *Lancet.* 2008;371(9618):1115-1125. [doi:10.1016/S0140-6736(08)60488-2](https://doi.org/10.1016/S0140-6736(08)60488-2) · [PubMed 18374843](https://pubmed.ncbi.nlm.nih.gov/18374843/)

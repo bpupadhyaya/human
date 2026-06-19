@@ -250,6 +250,15 @@ cross_links:
   - target: 01-human/07-system/anorexia-nervosa
     relation: connects-to
     note: "Stimulants serve weight control: their potent appetite suppression is exploited in eating disorders, where stimulant and appetite-suppressant misuse overlaps with anorexia nervosa and drives stimulant use disorder."
+  - target: 01-human/05-tissue/cardiac-conduction-system
+    relation: connects-to
+    note: "Stimulant sudden death: cocaine and methamphetamine block cardiac sodium and potassium channels and flood the heart with catecholamines, causing the arrhythmias and QRS/QT changes behind sudden cardiac death."
+  - target: 01-human/05-tissue/endocardium
+    relation: connects-to
+    note: "Injection endocarditis: intravenous stimulant use seeds the endocardium and heart valves with skin bacteria, causing right-sided infective endocarditis and septic emboli to the lungs."
+  - target: 01-human/05-tissue/alveolus
+    relation: connects-to
+    note: "'Crack lung': inhaled cocaine causes acute lung injury within hours—alveolar haemorrhage, oedema and eosinophilic pneumonitis flooding the gas-exchange surface."
 ---
 
 # Stimulant Use Disorder
@@ -449,6 +458,9 @@ Unlike cocaine, methamphetamine causes **direct neurotoxic damage** to dopaminer
 - `connects-to` → **[Myocardium](../../05-tissue/myocardium/README.md)** — It poisons the heart muscle: cocaine and methamphetamine cause myocardial infarction through coronary vasospasm and thrombosis, plus a dilated cardiomyopathy and arrhythmias — cardiac disease is a leading cause of stimulant death.
 - `connects-to` → **[Arterial Wall](../../05-tissue/arterial-wall/README.md)** — It ravages the arteries: stimulants cause vasospasm, hypertensive surges, accelerated atherosclerosis and aortic dissection, driving the strokes and vascular catastrophes seen with cocaine and amphetamine use.
 - `connects-to` → **[Anorexia Nervosa](../anorexia-nervosa/README.md)** — Stimulants serve weight control: their potent appetite suppression is exploited in eating disorders, where stimulant and appetite-suppressant misuse overlaps with anorexia nervosa and drives stimulant use disorder.
+- `connects-to` → **[Cardiac Conduction System](../../05-tissue/cardiac-conduction-system/README.md)** — Stimulant sudden death: cocaine and methamphetamine block cardiac sodium and potassium channels and flood the heart with catecholamines, causing the arrhythmias and QRS/QT changes behind sudden cardiac death.
+- `connects-to` → **[Endocardium](../../05-tissue/endocardium/README.md)** — Injection endocarditis: intravenous stimulant use seeds the endocardium and heart valves with skin bacteria, causing right-sided infective endocarditis and septic emboli to the lungs.
+- `connects-to` → **[Alveolus](../../05-tissue/alveolus/README.md)** — 'Crack lung': inhaled cocaine causes acute lung injury within hours—alveolar haemorrhage, oedema and eosinophilic pneumonitis flooding the gas-exchange surface.
 
 ## Treatment
 
