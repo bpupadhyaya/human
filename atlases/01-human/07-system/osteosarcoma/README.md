@@ -259,6 +259,15 @@ cross_links:
   - target: 01-human/05-tissue/hepatic-lobule
     relation: connects-to
     note: "Beyond the lungs: while osteosarcoma metastasises chiefly to the lungs, advanced disease can also seed the liver, depositing in the hepatic lobule."
+  - target: 01-human/07-system/multiple-myeloma
+    relation: connects-to
+    note: "Opposite ways to destroy bone: osteosarcoma is bone-forming, laying down malignant osteoid, whereas multiple myeloma is bone-lytic, activating osteoclasts—two primary bone-resident malignancies that bracket the differential of a destructive bone lesion."
+  - target: 01-human/07-system/aml
+    relation: connects-to
+    note: "Therapy-related leukaemia: the alkylating agents and etoposide in osteosarcoma chemotherapy damage haematopoietic stem cells, occasionally causing secondary myelodysplasia and acute myeloid leukaemia in long-term survivors."
+  - target: 01-human/03-molecular/wnt-beta-catenin
+    relation: connects-to
+    note: "Hijacked bone-building signal: Wnt/beta-catenin normally commits stem cells to the osteoblast lineage, and its dysregulation in osteosarcoma drives the tumour's aberrant differentiation and metastatic spread."
 ---
 
 # Osteosarcoma
@@ -470,6 +479,9 @@ OS is relatively radiation-resistant (high-dose radiation ~70+ Gy may achieve lo
 - `connects-to` → **[Werner Syndrome](../werner-syndrome/README.md)** — A RecQ-helicase predisposition: like Rothmund-Thomson, Werner syndrome's RecQ-helicase defect raises osteosarcoma risk, one of the genome-instability syndromes that spawn this bone cancer.
 - `connects-to` → **[Bloom Syndrome](../bloom-syndrome/README.md)** — Another genome-instability syndrome: Bloom syndrome, a RecQ-helicase disorder with extreme chromosomal instability, predisposes to osteosarcoma among its many early-onset cancers.
 - `connects-to` → **[Hepatic Lobule](../../05-tissue/hepatic-lobule/README.md)** — Beyond the lungs: while osteosarcoma metastasises chiefly to the lungs, advanced disease can also seed the liver, depositing in the hepatic lobule.
+- `connects-to` → **[Multiple Myeloma](../multiple-myeloma/README.md)** — Opposite ways to destroy bone: osteosarcoma is bone-forming, laying down malignant osteoid, whereas multiple myeloma is bone-lytic, activating osteoclasts—two primary bone-resident malignancies that bracket the differential of a destructive bone lesion.
+- `connects-to` → **[AML](../aml/README.md)** — Therapy-related leukaemia: the alkylating agents and etoposide in osteosarcoma chemotherapy damage haematopoietic stem cells, occasionally causing secondary myelodysplasia and acute myeloid leukaemia in long-term survivors.
+- `connects-to` → **[Wnt/β-catenin](../../03-molecular/wnt-beta-catenin/README.md)** — Hijacked bone-building signal: Wnt/beta-catenin normally commits stem cells to the osteoblast lineage, and its dysregulation in osteosarcoma drives the tumour's aberrant differentiation and metastatic spread.
 
 [^bielack-2002-coss-osteosarcoma]: Bielack SS, Kempf-Bielack B, Delling G, et al. Prognostic factors in high-grade osteosarcoma of the extremities or trunk: an analysis of 1,702 patients treated on neoadjuvant Cooperative Osteosarcoma Study Group protocols. *J Clin Oncol.* 2002;20(3):776-790. [doi:10.1200/JCO.2002.20.3.776](https://doi.org/10.1200/JCO.2002.20.3.776) · [PubMed 11821461](https://pubmed.ncbi.nlm.nih.gov/11821461/)
 [^marina-2016-euramos1-osteosarcoma]: Marina NM, Smeland S, Bielack SS, et al. Comparison of MAPIE versus MAP in patients with a poor response to preoperative chemotherapy for newly diagnosed high-grade osteosarcoma (EURAMOS-1). *Lancet Oncol.* 2016;17(10):1396-1408. [doi:10.1016/S1470-2045(16)30214-5](https://doi.org/10.1016/S1470-2045(16)30214-5) · [PubMed 27569442](https://pubmed.ncbi.nlm.nih.gov/27569442/)

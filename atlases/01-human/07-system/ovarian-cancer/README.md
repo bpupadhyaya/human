@@ -259,6 +259,15 @@ cross_links:
   - target: 01-human/03-molecular/wt1
     relation: connects-to
     note: "A diagnostic marker: high-grade serous ovarian carcinoma characteristically expresses WT1, an immunohistochemical marker that helps confirm its tubal/serous origin over other gynaecological cancers."
+  - target: 01-human/07-system/mds
+    relation: connects-to
+    note: "Late cost of treatment: platinum chemotherapy and PARP inhibitors used for ovarian cancer damage haematopoietic stem cells, raising the risk of therapy-related myelodysplasia and acute leukaemia years later."
+  - target: 01-human/07-system/colorectal-cancer
+    relation: connects-to
+    note: "Differential of an ovarian mass: colorectal cancer can metastasise to the ovary (Krukenberg-type spread) and seed the peritoneum like advanced ovarian cancer, while Lynch syndrome predisposes to both tumours."
+  - target: 01-human/05-tissue/arterial-wall
+    relation: connects-to
+    note: "A vascular target: high-grade serous ovarian carcinoma is intensely angiogenic, and the anti-VEGF antibody bevacizumab attacks the tumour's arterial supply, a mainstay added to chemotherapy in advanced disease."
 ---
 
 # Ovarian Cancer
@@ -455,6 +464,9 @@ FTSEC ciliated and secretory cells line the Fallopian tube; secretory cells are 
 - `connects-to` → **[Intestinal Epithelium](../../05-tissue/intestinal-epithelium/README.md)** — Peritoneal spread and bowel obstruction: ovarian cancer disseminates across the peritoneum, encasing the bowel ('omental caking') and infiltrating the intestinal epithelium, so bowel obstruction becomes a leading cause of death.
 - `connects-to` → **[Hepatic Lobule](../../05-tissue/hepatic-lobule/README.md)** — Liver and capsular involvement: ovarian cancer studs the liver capsule with perihepatic implants and metastasises to the hepatic lobule in advanced disease.
 - `connects-to` → **[WT1](../../03-molecular/wt1/README.md)** — A diagnostic marker: high-grade serous ovarian carcinoma characteristically expresses WT1, an immunohistochemical marker that helps confirm its tubal/serous origin over other gynaecological cancers.
+- `connects-to` → **[MDS](../mds/README.md)** — Late cost of treatment: platinum chemotherapy and PARP inhibitors used for ovarian cancer damage haematopoietic stem cells, raising the risk of therapy-related myelodysplasia and acute leukaemia years later.
+- `connects-to` → **[Colorectal Cancer](../colorectal-cancer/README.md)** — Differential of an ovarian mass: colorectal cancer can metastasise to the ovary (Krukenberg-type spread) and seed the peritoneum like advanced ovarian cancer, while Lynch syndrome predisposes to both tumours.
+- `connects-to` → **[Arterial Wall](../../05-tissue/arterial-wall/README.md)** — A vascular target: high-grade serous ovarian carcinoma is intensely angiogenic, and the anti-VEGF antibody bevacizumab attacks the tumour's arterial supply, a mainstay added to chemotherapy in advanced disease.
 
 [^burger-2011-gog0218]: Burger RA, Brady MF, Bookman MA, et al. Incorporation of bevacizumab in the primary treatment of ovarian cancer. *N Engl J Med.* 2011;365(26):2473-2483. [doi:10.1056/NEJMoa1104390](https://doi.org/10.1056/NEJMoa1104390) · [PubMed 22204724](https://pubmed.ncbi.nlm.nih.gov/22204724/)
 [^moore-2018-olaparib-solo1]: Moore K, Colombo N, Scambia G, et al. Maintenance olaparib in patients with newly diagnosed advanced ovarian cancer. *N Engl J Med.* 2018;379(26):2495-2505. [doi:10.1056/NEJMoa1810858](https://doi.org/10.1056/NEJMoa1810858) · [PubMed 30345884](https://pubmed.ncbi.nlm.nih.gov/30345884/)
