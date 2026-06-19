@@ -264,6 +264,15 @@ cross_links:
   - target: 01-human/03-molecular/p53
     relation: connects-to
     note: "Apoptotic activation: mutant huntingtin interacts with and activates p53, promoting the mitochondrial dysfunction and neuronal apoptosis central to Huntington's neurodegeneration."
+  - target: 01-human/03-molecular/il-6
+    relation: connects-to
+    note: "Inflammatory progression: elevated IL-6 appears years before symptom onset in Huntington's disease, part of the systemic and central inflammation tracking with its course."
+  - target: 01-human/03-molecular/il-1b
+    relation: connects-to
+    note: "Microglial cytokine: IL-1β from microglia activated by mutant huntingtin amplifies the neuroinflammation that contributes to striatal neuronal loss in Huntington's disease."
+  - target: 01-human/03-molecular/norepinephrine
+    relation: connects-to
+    note: "Noradrenergic disruption: degeneration of brainstem noradrenergic neurons in Huntington's disease alters norepinephrine signalling, contributing to its mood and autonomic symptoms."
 sources:
   - id: gusella-1983-htt-locus
     type: peer-reviewed
@@ -397,3 +406,6 @@ HD disrupts multiple neural circuit functions:
 - `connects-to` → **[MLH1](../../03-molecular/mlh1/README.md)** — Repeat-expansion modifier: DNA mismatch-repair genes such as MLH1 and MSH3 drive somatic CAG-repeat expansion in striatal neurons, a leading genetic modifier of Huntington's age of onset.
 - `connects-to` → **[NFE2L2](../../03-molecular/nfe2l2/README.md)** — Failing antioxidant defence: impaired NRF2 (NFE2L2) signalling contributes to the oxidative stress and mitochondrial dysfunction that drive neuronal death in Huntington's disease.
 - `connects-to` → **[p53](../../03-molecular/p53/README.md)** — Apoptotic activation: mutant huntingtin interacts with and activates p53, promoting the mitochondrial dysfunction and neuronal apoptosis central to Huntington's neurodegeneration.
+- `connects-to` → **[IL-6](../../03-molecular/il-6/README.md)** — Inflammatory progression: elevated IL-6 appears years before symptom onset in Huntington's disease, part of the systemic and central inflammation tracking with its course.
+- `connects-to` → **[IL-1β](../../03-molecular/il-1b/README.md)** — Microglial cytokine: IL-1β from microglia activated by mutant huntingtin amplifies the neuroinflammation that contributes to striatal neuronal loss in Huntington's disease.
+- `connects-to` → **[Norepinephrine](../../03-molecular/norepinephrine/README.md)** — Noradrenergic disruption: degeneration of brainstem noradrenergic neurons in Huntington's disease alters norepinephrine signalling, contributing to its mood and autonomic symptoms.

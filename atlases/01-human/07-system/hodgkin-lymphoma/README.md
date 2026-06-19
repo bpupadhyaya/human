@@ -277,6 +277,15 @@ cross_links:
   - target: 01-human/07-system/gastric-cancer
     relation: connects-to
     note: "Late radiation cancer: survivors who received subdiaphragmatic radiation for Hodgkin lymphoma face an increased long-term risk of gastric cancer, a delayed treatment complication."
+  - target: 01-human/03-molecular/tnf-alpha
+    relation: connects-to
+    note: "Microenvironment cytokine: Reed-Sternberg cells secrete TNF-α to recruit and sustain the reactive inflammatory infiltrate that surrounds and protects them."
+  - target: 01-human/03-molecular/ccl2
+    relation: connects-to
+    note: "Macrophage recruitment: Reed-Sternberg cells release CCL2 to draw in tumour-associated macrophages, whose abundance is an adverse prognostic marker in Hodgkin lymphoma."
+  - target: 01-human/03-molecular/vegf
+    relation: connects-to
+    note: "Nodal angiogenesis: VEGF drives the angiogenesis of the involved lymph nodes in Hodgkin lymphoma, supporting tumour growth within the reactive microenvironment."
 ---
 
 # Hodgkin Lymphoma
@@ -485,6 +494,9 @@ Modern protocols minimize RT fields and doses (ISRT replacing extended-field RT)
 - `connects-to` → **[HIV-1](../../../02-pathogen/01-viruses/hiv-1/README.md)** — Raised risk despite ART: unlike most cancers, Hodgkin lymphoma incidence is markedly increased in HIV infection, often EBV-driven, making it a key non-AIDS-defining malignancy.
 - `connects-to` → **[Plasma Cell](../../04-cellular/plasma-cell/README.md)** — Reactive microenvironment: Hodgkin lymphoma is dominated by a reactive infiltrate of plasma cells, T cells and eosinophils surrounding the rare malignant Reed-Sternberg cells.
 - `connects-to` → **[Gastric Cancer](../gastric-cancer/README.md)** — Late radiation cancer: survivors who received subdiaphragmatic radiation for Hodgkin lymphoma face an increased long-term risk of gastric cancer, a delayed treatment complication.
+- `connects-to` → **[TNF-α](../../03-molecular/tnf-alpha/README.md)** — Microenvironment cytokine: Reed-Sternberg cells secrete TNF-α to recruit and sustain the reactive inflammatory infiltrate that surrounds and protects them.
+- `connects-to` → **[CCL2](../../03-molecular/ccl2/README.md)** — Macrophage recruitment: Reed-Sternberg cells release CCL2 to draw in tumour-associated macrophages, whose abundance is an adverse prognostic marker in Hodgkin lymphoma.
+- `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — Nodal angiogenesis: VEGF drives the angiogenesis of the involved lymph nodes in Hodgkin lymphoma, supporting tumour growth within the reactive microenvironment.
 
 [^connors-2018-echelon1]: Connors JM, Jurczak W, Straus DJ, et al. Brentuximab vedotin with chemotherapy for stage III or IV Hodgkin's lymphoma. *N Engl J Med.* 2018;378(4):331-344. [doi:10.1056/NEJMoa1708984](https://doi.org/10.1056/NEJMoa1708984) · [PubMed 29360494](https://pubmed.ncbi.nlm.nih.gov/29360494/)
 [^armand-2018-nivo-hl]: Armand P, Engert A, Younes A, et al. Nivolumab for relapsed/refractory classic Hodgkin lymphoma after failure of autologous hematopoietic cell transplantation: extended follow-up of the multicohort single-arm phase II CheckMate 205 trial. *J Clin Oncol.* 2018;36(14):1428-1439. [doi:10.1200/JCO.2017.77.6717](https://doi.org/10.1200/JCO.2017.77.6717) · [PubMed 29584546](https://pubmed.ncbi.nlm.nih.gov/29584546/)
