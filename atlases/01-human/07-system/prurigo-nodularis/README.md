@@ -274,6 +274,15 @@ cross_links:
   - target: 01-human/07-system/covid-19-disease
     relation: connects-to
     note: "Stress and post-viral itch: pandemic stress worsened the itch-scratch cycle, and chronic pruritus has been reported as a post-COVID symptom, flaring prurigo nodularis."
+  - target: 01-human/03-molecular/periostin
+    relation: connects-to
+    note: "Type-2 matrix signal: periostin, induced by IL-4 and IL-13, deposits in the dermis of prurigo nodularis and directly activates sensory neurons to amplify the itch-scratch cycle."
+  - target: 01-human/03-molecular/tnf-alpha
+    relation: connects-to
+    note: "Mixed inflammation: TNF-α contributes to the mixed Th2/Th17/Th22 inflammatory milieu of prurigo nodularis lesions, sustaining the chronic skin inflammation behind the nodules."
+  - target: 01-human/03-molecular/il-6
+    relation: connects-to
+    note: "Fibrosis and itch: IL-6 promotes the dermal fibrosis and neural proliferation of prurigo nodularis nodules, linking chronic inflammation to the thickened, intensely itchy lesions."
 ---
 
 # Prurigo Nodularis
@@ -442,6 +451,9 @@ PN affects approximately **72,000 patients** in the US; true prevalence is likel
 - `connects-to` → **[PTCL](../ptcl/README.md)** — A malignant itch to exclude: cutaneous T-cell lymphoma (mycosis fungoides) is intensely pruritic and can produce prurigo-like nodules, a malignant mimic of prurigo nodularis warranting biopsy in atypical cases.
 - `connects-to` → **[Social Anxiety Disorder](../social-anxiety-disorder/README.md)** — The visible, stigmatising lesions: the excoriated nodules of prurigo nodularis are disfiguring and carry social stigma, driving social anxiety and avoidance much as other visible skin diseases do.
 - `connects-to` → **[COVID-19 Disease](../covid-19-disease/README.md)** — Stress and post-viral itch: pandemic stress worsened the itch-scratch cycle, and chronic pruritus has been reported as a post-COVID symptom, flaring prurigo nodularis.
+- `connects-to` → **[Periostin](../../03-molecular/periostin/README.md)** — Type-2 matrix signal: periostin, induced by IL-4 and IL-13, deposits in the dermis of prurigo nodularis and directly activates sensory neurons to amplify the itch-scratch cycle.
+- `connects-to` → **[TNF-α](../../03-molecular/tnf-alpha/README.md)** — Mixed inflammation: TNF-α contributes to the mixed Th2/Th17/Th22 inflammatory milieu of prurigo nodularis lesions, sustaining the chronic skin inflammation behind the nodules.
+- `connects-to` → **[IL-6](../../03-molecular/il-6/README.md)** — Fibrosis and itch: IL-6 promotes the dermal fibrosis and neural proliferation of prurigo nodularis nodules, linking chronic inflammation to the thickened, intensely itchy lesions.
 
 [^stander-2020-nemolizumab-pn]: Ständer S, Yosipovitch G, Legat FJ, et al. Trial of nemolizumab in moderate-to-severe prurigo nodularis. *N Engl J Med.* 2020;382(8):706-716. [doi:10.1056/NEJMoa1908316](https://doi.org/10.1056/NEJMoa1908316) · [PubMed 32053299](https://pubmed.ncbi.nlm.nih.gov/32053299/)
 [^briggs-2022-dupilumab-pn-liberty]: Briggs JN, Cho YY, Khanna R, et al. Dupilumab for prurigo nodularis: the LIBERTY-PN PRIME and PRIME2 trials. *N Engl J Med.* 2022;387(18):1683-1693. [doi:10.1056/NEJMoa2205093](https://doi.org/10.1056/NEJMoa2205093) · [PubMed 36300905](https://pubmed.ncbi.nlm.nih.gov/36300905/)

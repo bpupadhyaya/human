@@ -280,6 +280,15 @@ cross_links:
   - target: 01-human/07-system/men1-syndrome
     relation: connects-to
     note: "Hyperparathyroid bone loss: primary hyperparathyroidism—as in MEN1—raises PTH that resorbs bone, causing osteoporosis and the classic subperiosteal resorption of excess parathyroid activity."
+  - target: 01-human/03-molecular/igf-1
+    relation: connects-to
+    note: "Bone anabolism: IGF-1, driven by growth hormone, stimulates osteoblast bone formation, and its decline with age contributes to the failure to maintain bone mass in osteoporosis."
+  - target: 01-human/03-molecular/tnf-alpha
+    relation: connects-to
+    note: "Inflammatory resorption: TNF-α promotes osteoclast differentiation and activity, the mechanism by which chronic inflammation and oestrogen loss accelerate the bone loss of osteoporosis."
+  - target: 01-human/03-molecular/il-1b
+    relation: connects-to
+    note: "Osteoclast activation: IL-1β stimulates RANKL-driven osteoclastogenesis, a key inflammatory cytokine linking immune activation and oestrogen deficiency to bone resorption."
 ---
 
 # Osteoporosis
@@ -475,6 +484,9 @@ All newly diagnosed osteoporosis should be evaluated for secondary causes: CBC (
 - `connects-to` → **[Thalassemia](../thalassemia/README.md)** — Thalassaemia bone disease: marrow expansion, hypogonadism, iron overload and chelation cause a severe osteoporosis, one of the commonest non-haematologic complications of transfusion-dependent thalassaemia.
 - `connects-to` → **[Intestinal Epithelium](../../05-tissue/intestinal-epithelium/README.md)** — Where calcium enters: the intestinal epithelium absorbs dietary calcium under vitamin D control, so malabsorption from coeliac or bariatric surgery starves the skeleton and drives osteoporosis.
 - `connects-to` → **[MEN1 Syndrome](../men1-syndrome/README.md)** — Hyperparathyroid bone loss: primary hyperparathyroidism—as in MEN1—raises PTH that resorbs bone, causing osteoporosis and the classic subperiosteal resorption of excess parathyroid activity.
+- `connects-to` → **[IGF-1](../../03-molecular/igf-1/README.md)** — Bone anabolism: IGF-1, driven by growth hormone, stimulates osteoblast bone formation, and its decline with age contributes to the failure to maintain bone mass in osteoporosis.
+- `connects-to` → **[TNF-α](../../03-molecular/tnf-alpha/README.md)** — Inflammatory resorption: TNF-α promotes osteoclast differentiation and activity, the mechanism by which chronic inflammation and oestrogen loss accelerate the bone loss of osteoporosis.
+- `connects-to` → **[IL-1β](../../03-molecular/il-1b/README.md)** — Osteoclast activation: IL-1β stimulates RANKL-driven osteoclastogenesis, a key inflammatory cytokine linking immune activation and oestrogen deficiency to bone resorption.
 
 [^kanis-2019-who-osteoporosis]: Kanis JA, Cooper C, Rizzoli R, Reginster JY. European guidance for the diagnosis and management of osteoporosis in postmenopausal women. *Osteoporos Int.* 2019;30(1):3-44. [doi:10.1007/s00198-018-4704-5](https://doi.org/10.1007/s00198-018-4704-5) · [PubMed 30324412](https://pubmed.ncbi.nlm.nih.gov/30324412/)
 [^cosman-2016-romosozumab]: Cosman F, Crittenden DB, Adachi JD, et al. Romosozumab treatment in postmenopausal women with osteoporosis. *N Engl J Med.* 2016;375(16):1532-1543. [doi:10.1056/NEJMoa1607948](https://doi.org/10.1056/NEJMoa1607948) · [PubMed 27641143](https://pubmed.ncbi.nlm.nih.gov/27641143/)
