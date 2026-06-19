@@ -277,6 +277,15 @@ cross_links:
   - target: 01-human/03-molecular/tert
     relation: connects-to
     note: "Replicative immortality: TERT reactivation maintaining telomeres accompanies the malignant progression of MUTYH-associated polyps toward invasive cancer."
+  - target: 01-human/03-molecular/akt
+    relation: connects-to
+    note: "PI3K/AKT cooperation: AKT signalling cooperates with the KRAS and Wnt activation of MUTYH-associated polyps to drive their growth toward colorectal cancer."
+  - target: 01-human/03-molecular/cdk4-6
+    relation: connects-to
+    note: "Cell-cycle drive: cyclin D-CDK4/6 activity propels MUTYH-associated adenoma cells through the G1 checkpoint as they progress along the polyp-to-carcinoma sequence."
+  - target: 01-human/03-molecular/hif-1alpha
+    relation: connects-to
+    note: "Polyp hypoxia: as MUTYH-associated adenomas grow, HIF-1α stabilised in their hypoxic cores drives the VEGF angiogenesis supporting progression toward carcinoma."
 ---
 
 # MUTYH-Associated Polyposis
@@ -480,6 +489,9 @@ Because MAP is autosomal recessive: siblings of MAP patients are at **25%** risk
 - `connects-to` → **[MYC](../../03-molecular/myc/README.md)** — Wnt-driven oncogene: the G:C→T:A transversions of MUTYH deficiency activate Wnt signalling and MYC, driving the adenoma-to-carcinoma progression of its colorectal polyps.
 - `connects-to` → **[EGFR](../../03-molecular/egfr/README.md)** — KRAS and anti-EGFR resistance: MUTYH-associated tumours characteristically carry KRAS G12C transversions, which activate EGFR-MAPK signalling and confer resistance to anti-EGFR antibodies.
 - `connects-to` → **[TERT](../../03-molecular/tert/README.md)** — Replicative immortality: TERT reactivation maintaining telomeres accompanies the malignant progression of MUTYH-associated polyps toward invasive cancer.
+- `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — PI3K/AKT cooperation: AKT signalling cooperates with the KRAS and Wnt activation of MUTYH-associated polyps to drive their growth toward colorectal cancer.
+- `connects-to` → **[CDK4/6](../../03-molecular/cdk4-6/README.md)** — Cell-cycle drive: cyclin D-CDK4/6 activity propels MUTYH-associated adenoma cells through the G1 checkpoint as they progress along the polyp-to-carcinoma sequence.
+- `connects-to` → **[HIF-1α](../../03-molecular/hif-1alpha/README.md)** — Polyp hypoxia: as MUTYH-associated adenomas grow, HIF-1α stabilised in their hypoxic cores drives the VEGF angiogenesis supporting progression toward carcinoma.
 
 ---
 

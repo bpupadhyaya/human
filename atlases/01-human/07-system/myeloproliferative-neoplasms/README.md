@@ -277,6 +277,15 @@ cross_links:
   - target: 01-human/03-molecular/il-1b
     relation: connects-to
     note: "Inflammatory niche: IL-1β secreted by the mutant clone damages the bone-marrow stroma, promoting the fibrosis and clonal advantage that mark myeloproliferative neoplasm progression."
+  - target: 01-human/03-molecular/tnf-alpha
+    relation: connects-to
+    note: "Clonal advantage: TNF-α from the JAK2-mutant clone is preferentially tolerated by the mutant cells while suppressing normal haematopoiesis, helping the neoplastic clone dominate the marrow."
+  - target: 01-human/03-molecular/nlrp3-inflammasome
+    relation: connects-to
+    note: "Inflammasome activation: JAK2-driven NLRP3-inflammasome activation amplifies the chronic inflammation of myeloproliferative neoplasms, contributing to their symptoms and thrombotic risk."
+  - target: 01-human/03-molecular/hif-1alpha
+    relation: connects-to
+    note: "Marrow hypoxia: HIF-1α stabilised in the hypercellular, hypoxic MPN marrow supports the survival and angiogenic signalling of the expanded clone."
 ---
 
 # Myeloproliferative Neoplasms
@@ -507,6 +516,9 @@ In PV and ET, JAK2 V617F also affects myeloid progenitors → granulocytosis and
 - `connects-to` → **[Type I Interferon](../../03-molecular/type-i-interferon/README.md)** — Clone-reducing therapy: pegylated interferon-alpha is a disease-modifying treatment for myeloproliferative neoplasms that can shrink the JAK2/CALR-mutant clone and induce molecular responses.
 - `connects-to` → **[EZH2](../../03-molecular/ezh2/README.md)** — Epigenetic progression: EZH2 and other epigenetic-regulator mutations accumulate in myeloproliferative neoplasms and drive progression toward myelofibrosis and acute leukaemia.
 - `connects-to` → **[IL-1β](../../03-molecular/il-1b/README.md)** — Inflammatory niche: IL-1β secreted by the mutant clone damages the bone-marrow stroma, promoting the fibrosis and clonal advantage that mark myeloproliferative neoplasm progression.
+- `connects-to` → **[TNF-α](../../03-molecular/tnf-alpha/README.md)** — Clonal advantage: TNF-α from the JAK2-mutant clone is preferentially tolerated by the mutant cells while suppressing normal haematopoiesis, helping the neoplastic clone dominate the marrow.
+- `connects-to` → **[NLRP3 Inflammasome](../../03-molecular/nlrp3-inflammasome/README.md)** — Inflammasome activation: JAK2-driven NLRP3-inflammasome activation amplifies the chronic inflammation of myeloproliferative neoplasms, contributing to their symptoms and thrombotic risk.
+- `connects-to` → **[HIF-1α](../../03-molecular/hif-1alpha/README.md)** — Marrow hypoxia: HIF-1α stabilised in the hypercellular, hypoxic MPN marrow supports the survival and angiogenic signalling of the expanded clone.
 
 [^verstovsek-2012-comfort-i]: Verstovsek S, Mesa RA, Gotlib J, et al. A double-blind, placebo-controlled trial of ruxolitinib for myelofibrosis. *N Engl J Med.* 2012;366(9):799-807. [doi:10.1056/NEJMoa1110557](https://doi.org/10.1056/NEJMoa1110557) · [PubMed 22375971](https://pubmed.ncbi.nlm.nih.gov/22375971/)
 [^vannucchi-2015-response]: Vannucchi AM, Kiladjian JJ, Griesshammer M, et al. Ruxolitinib versus standard therapy for the treatment of polycythemia vera. *N Engl J Med.* 2015;372(5):426-435. [doi:10.1056/NEJMoa1409002](https://doi.org/10.1056/NEJMoa1409002) · [PubMed 25426978](https://pubmed.ncbi.nlm.nih.gov/25426978/)
