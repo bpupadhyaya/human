@@ -274,6 +274,15 @@ cross_links:
   - target: 01-human/07-system/cystic-fibrosis
     relation: connects-to
     note: "CFTR and the pancreas: cystic fibrosis chronically damages the exocrine pancreas, and CFTR carriers and patients carry a modestly raised lifetime risk of pancreatic cancer."
+  - target: 01-human/03-molecular/myc
+    relation: connects-to
+    note: "Cooperating oncogene: MYC amplification cooperates with mutant KRAS to drive the proliferation and metabolic rewiring of pancreatic cancer."
+  - target: 01-human/03-molecular/hif-1alpha
+    relation: connects-to
+    note: "Hypoxic stroma: the dense, poorly perfused desmoplastic stroma of pancreatic cancer stabilises HIF-1α, driving metabolic adaptation and resistance to chemotherapy."
+  - target: 01-human/03-molecular/ntrk
+    relation: connects-to
+    note: "Rare actionable fusion: NTRK gene fusions, though uncommon, offer one of the few targeted-therapy options in otherwise treatment-resistant pancreatic cancer."
 ---
 
 # Pancreatic Cancer
@@ -479,6 +488,9 @@ cross_links:
 - `connects-to` → **[Arterial Wall](../../05-tissue/arterial-wall/README.md)** — The line between operable and not: pancreatic cancer's tendency to encase the celiac axis and superior mesenteric artery defines borderline-resectable and unresectable disease, making arterial-wall involvement the key surgical decision point.
 - `connects-to` → **[Stroke](../stroke/README.md)** — Trousseau's hypercoagulability: pancreatic cancer is among the most thrombogenic tumours, causing migratory thrombophlebitis, VTE and nonbacterial thrombotic endocarditis that can throw emboli to the brain and cause stroke.
 - `connects-to` → **[Cystic Fibrosis](../cystic-fibrosis/README.md)** — CFTR and the pancreas: cystic fibrosis chronically damages the exocrine pancreas, and CFTR carriers and patients carry a modestly raised lifetime risk of pancreatic cancer.
+- `connects-to` → **[MYC](../../03-molecular/myc/README.md)** — Cooperating oncogene: MYC amplification cooperates with mutant KRAS to drive the proliferation and metabolic rewiring of pancreatic cancer.
+- `connects-to` → **[HIF-1α](../../03-molecular/hif-1alpha/README.md)** — Hypoxic stroma: the dense, poorly perfused desmoplastic stroma of pancreatic cancer stabilises HIF-1α, driving metabolic adaptation and resistance to chemotherapy.
+- `connects-to` → **[NTRK](../../03-molecular/ntrk/README.md)** — Rare actionable fusion: NTRK gene fusions, though uncommon, offer one of the few targeted-therapy options in otherwise treatment-resistant pancreatic cancer.
 
 ---
 

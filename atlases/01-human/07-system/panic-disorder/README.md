@@ -274,6 +274,15 @@ cross_links:
   - target: 01-human/07-system/covid-19-disease
     relation: connects-to
     note: "A pandemic of anxiety: COVID-19 and its social upheaval drove a global surge in panic and anxiety disorders, and post-COVID breathlessness and palpitations can themselves trigger or mimic panic attacks."
+  - target: 01-human/03-molecular/npy
+    relation: connects-to
+    note: "Resilience neuropeptide: neuropeptide Y dampens the stress and fear response, and reduced NPY signalling is associated with vulnerability to panic and anxiety."
+  - target: 01-human/03-molecular/substance-p
+    relation: connects-to
+    note: "Fear circuit signalling: substance P acting on NK1 receptors in the amygdala modulates fear and panic responses, an explored anxiolytic target."
+  - target: 01-human/05-tissue/intestinal-epithelium
+    relation: connects-to
+    note: "Gut-brain axis: panic disorder overlaps with irritable bowel syndrome, and signalling across the intestinal epithelium and microbiome feeds the fear and arousal circuits behind it."
 ---
 
 # Panic Disorder
@@ -504,6 +513,9 @@ The **interoceptive fear conditioning model** (Bouton, Mineka, Barlow) explains 
 - `connects-to` → **[Atherosclerosis](../atherosclerosis/README.md)** — The acute-coronary mimic: a panic attack's chest pain, palpitations and sweating imitate a heart attack, a leading reason for emergency cardiac workups, while chronic anxiety itself modestly raises atherosclerotic cardiovascular risk.
 - `connects-to` → **[Venous Thromboembolism](../venous-thromboembolism/README.md)** — The can't-miss differential: pulmonary embolism causes sudden dyspnoea, tachycardia, chest pain and a sense of doom indistinguishable from a panic attack, the dangerous diagnosis to exclude before attributing symptoms to anxiety.
 - `connects-to` → **[COVID-19 Disease](../covid-19-disease/README.md)** — A pandemic of anxiety: COVID-19 and its social upheaval drove a global surge in panic and anxiety disorders, and post-COVID breathlessness and palpitations can themselves trigger or mimic panic attacks.
+- `connects-to` → **[NPY](../../03-molecular/npy/README.md)** — Resilience neuropeptide: neuropeptide Y dampens the stress and fear response, and reduced NPY signalling is associated with vulnerability to panic and anxiety.
+- `connects-to` → **[Substance P](../../03-molecular/substance-p/README.md)** — Fear circuit signalling: substance P acting on NK1 receptors in the amygdala modulates fear and panic responses, an explored anxiolytic target.
+- `connects-to` → **[Intestinal Epithelium](../../05-tissue/intestinal-epithelium/README.md)** — Gut-brain axis: panic disorder overlaps with irritable bowel syndrome, and signalling across the intestinal epithelium and microbiome feeds the fear and arousal circuits behind it.
 
 [^gorman-2000-panic-neurobiology]: Gorman JM, Kent JM, Sullivan GM, Coplan JD. Neuroanatomical hypothesis of panic disorder, revised. *Am J Psychiatry.* 2000;157(4):493-505. [doi:10.1176/appi.ajp.157.4.493](https://doi.org/10.1176/appi.ajp.157.4.493) · [PubMed 10739407](https://pubmed.ncbi.nlm.nih.gov/10739407/)
 [^nardi-2009-clonazepam-panic]: Nardi AE, Freire RC, Zin WA. Panic disorder and control of breathing. *Respir Physiol Neurobiol.* 2009;167(1):133-143. [doi:10.1016/j.resp.2008.07.011](https://doi.org/10.1016/j.resp.2008.07.011) · [PubMed 18708168](https://pubmed.ncbi.nlm.nih.gov/18708168/)
