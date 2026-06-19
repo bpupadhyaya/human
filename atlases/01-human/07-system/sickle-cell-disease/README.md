@@ -253,6 +253,15 @@ cross_links:
   - target: 01-human/05-tissue/cortical-bone
     relation: connects-to
     note: "Vaso-occlusion infarcts bone: sickling blocks the bone microcirculation, causing dactylitis, painful bone infarcts, avascular necrosis of the femoral head and a predisposition to Salmonella osteomyelitis."
+  - target: 01-human/05-tissue/alveolus
+    relation: connects-to
+    note: "Acute chest syndrome: vaso-occlusion and fat embolism in the pulmonary alveoli cause acute chest syndrome with hypoxaemia and infiltrates, the leading cause of death in sickle cell disease."
+  - target: 01-human/05-tissue/glomerulus
+    relation: connects-to
+    note: "Sickle nephropathy: sickling in the renal medulla and chronic hyperfiltration injure the glomerulus, causing proteinuria, papillary necrosis and progression to chronic kidney disease."
+  - target: 01-human/06-organ/placenta
+    relation: connects-to
+    note: "Sickling in pregnancy: vaso-occlusion and poor oxygen delivery damage the placenta, raising the risk of miscarriage, growth restriction and pre-eclampsia in sickle cell pregnancies."
 ---
 
 # Sickle Cell Disease
@@ -490,6 +499,9 @@ SCD vaso-occlusion is not just from sickled RBCs mechanically blocking vessels �
 - `connects-to` → **[Cancer Chemotherapy](../../../03-medicine/01-modern/13-cancer/cancer-chemotherapy/README.md)** — Hydroxyurea is the cornerstone: the chemotherapy agent hydroxyurea raises fetal haemoglobin in sickle cell disease, reducing the painful crises, acute chest syndrome and need for transfusion — its first disease-modifying drug.
 - `connects-to` → **[Targeted Therapy](../../../03-medicine/01-modern/13-cancer/targeted-therapy/README.md)** — New molecular and gene therapies: crizanlizumab against P-selectin and voxelotor stabilising oxygenated haemoglobin reduce crises, while CRISPR (exa-cel) and lentiviral gene therapies now offer a one-time cure by reactivating fetal haemoglobin.
 - `connects-to` → **[Cortical Bone](../../05-tissue/cortical-bone/README.md)** — Vaso-occlusion infarcts bone: sickling blocks the bone microcirculation, causing dactylitis, painful bone infarcts, avascular necrosis of the femoral head and a predisposition to Salmonella osteomyelitis.
+- `connects-to` → **[Alveolus](../../05-tissue/alveolus/README.md)** — Acute chest syndrome: vaso-occlusion and fat embolism in the pulmonary alveoli cause acute chest syndrome with hypoxaemia and infiltrates, the leading cause of death in sickle cell disease.
+- `connects-to` → **[Glomerulus](../../05-tissue/glomerulus/README.md)** — Sickle nephropathy: sickling in the renal medulla and chronic hyperfiltration injure the glomerulus, causing proteinuria, papillary necrosis and progression to chronic kidney disease.
+- `connects-to` → **[Placenta](../../06-organ/placenta/README.md)** — Sickling in pregnancy: vaso-occlusion and poor oxygen delivery damage the placenta, raising the risk of miscarriage, growth restriction and pre-eclampsia in sickle cell pregnancies.
 
 [^steinberg-1999-scd-management]: Steinberg MH. Management of sickle cell disease. *N Engl J Med.* 1999;340(13):1021-1030. [doi:10.1056/NEJM199904013401307](https://doi.org/10.1056/NEJM199904013401307) · [PubMed 10099145](https://pubmed.ncbi.nlm.nih.gov/10099145/)
 [^vichinsky-2000-acs-scd]: Vichinsky EP, Neumayr LD, Earles AN, et al. Causes and outcomes of the acute chest syndrome in sickle cell disease. *N Engl J Med.* 2000;342(25):1855-1865. [doi:10.1056/NEJM200006223422502](https://doi.org/10.1056/NEJM200006223422502) · [PubMed 10861320](https://pubmed.ncbi.nlm.nih.gov/10861320/)
