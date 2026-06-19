@@ -256,6 +256,15 @@ cross_links:
   - target: 01-human/07-system/systemic-sclerosis
     relation: connects-to
     note: "A fellow autoantibody connective-tissue disease: like systemic sclerosis, pemphigus vulgaris is an HLA-associated autoimmune disorder defined by pathogenic autoantibodies, though PV blisters the skin while scleroderma fibroses it."
+  - target: 01-human/05-tissue/intestinal-epithelium
+    relation: connects-to
+    note: "Mucosal erosions beyond the mouth: pemphigus can erode the oesophageal and other gastrointestinal epithelia—the gut counterpart of desmoglein-joined skin keratinocytes—causing painful erosions and dysphagia."
+  - target: 01-human/05-tissue/alveolus
+    relation: connects-to
+    note: "Paraneoplastic pemphigus and the lung: the paraneoplastic variant attacks respiratory epithelium too, causing a fatal bronchiolitis obliterans that obstructs airflow toward the alveoli."
+  - target: 01-human/07-system/follicular-lymphoma
+    relation: connects-to
+    note: "Paraneoplastic pemphigus: indolent B-cell lymphomas like follicular lymphoma (and CLL and Castleman disease) can trigger paraneoplastic pemphigus, where anti-plakin and anti-desmoglein antibodies blister skin and mucosa."
 ---
 
 # Pemphigus Vulgaris
@@ -479,6 +488,9 @@ Pemphigus belongs to the **pemphigus group of autoimmune bullous diseases** (AIB
 - `connects-to` → **[Germinal Center](../../05-tissue/germinal-center/README.md)** — Where its autoantibody is born: pemphigus vulgaris arises from autoreactive B cells and plasma cells in germinal centres that secrete anti-desmoglein-3 IgG, which is why rituximab—depleting CD20+ B cells—has become first-line therapy.
 - `connects-to` → **[Psoriasis](../psoriasis/README.md)** — Two immune skin diseases, opposite mechanisms: pemphigus vulgaris is an antibody/B-cell-driven blistering disease that splits the epidermis, while psoriasis is a T-cell and IL-17-driven hyperproliferation—autoantibody versus cytokine immunopathology.
 - `connects-to` → **[Systemic Sclerosis](../systemic-sclerosis/README.md)** — A fellow autoantibody connective-tissue disease: like systemic sclerosis, pemphigus vulgaris is an HLA-associated autoimmune disorder defined by pathogenic autoantibodies, though PV blisters the skin while scleroderma fibroses it.
+- `connects-to` → **[Intestinal Epithelium](../../05-tissue/intestinal-epithelium/README.md)** — Mucosal erosions beyond the mouth: pemphigus can erode the oesophageal and other gastrointestinal epithelia—the gut counterpart of desmoglein-joined skin keratinocytes—causing painful erosions and dysphagia.
+- `connects-to` → **[Alveolus](../../05-tissue/alveolus/README.md)** — Paraneoplastic pemphigus and the lung: the paraneoplastic variant attacks respiratory epithelium too, causing a fatal bronchiolitis obliterans that obstructs airflow toward the alveoli.
+- `connects-to` → **[Follicular Lymphoma](../follicular-lymphoma/README.md)** — Paraneoplastic pemphigus: indolent B-cell lymphomas like follicular lymphoma (and CLL and Castleman disease) can trigger paraneoplastic pemphigus, where anti-plakin and anti-desmoglein antibodies blister skin and mucosa.
 
 ---
 
