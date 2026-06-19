@@ -253,6 +253,15 @@ cross_links:
   - target: 01-human/07-system/uveal-melanoma
     relation: connects-to
     note: "A shared splicing-factor mutation: SF3B1, which defines MDS with ring sideroblasts, is the same spliceosome gene mutated in a subset of uveal melanomas—one splicing defect across a marrow and an eye cancer."
+  - target: 01-human/07-system/breast-cancer
+    relation: connects-to
+    note: "Therapy-related MDS: the alkylators and radiation used to cure solid tumours such as breast cancer can damage the marrow's stem cells, seeding a secondary, poor-prognosis MDS that often progresses to AML."
+  - target: 01-human/07-system/anca-vasculitis
+    relation: connects-to
+    note: "Myeloid clone meets autoinflammation: MDS associates with systemic autoinflammatory and autoimmune syndromes—including VEXAS and vasculitis—where the mutant clone drives inflammation overlapping ANCA-associated disease."
+  - target: 01-human/05-tissue/cardiac-conduction-system
+    relation: connects-to
+    note: "Transfusional iron and the heart: years of red-cell transfusions for MDS deposit iron in the heart, injuring the myocardium and cardiac conduction system into cardiomyopathy and arrhythmia unless iron is chelated."
 ---
 
 # Myelodysplastic Syndromes
@@ -442,6 +451,9 @@ MDS → AML transformation rate: ~10% at 1 year for very-low risk; ~40-50% at 2 
 - `connects-to` → **[Hepatic Lobule](../../05-tissue/hepatic-lobule/README.md)** — Transfusions overload the liver with iron: transfusion-dependent MDS accumulates iron in the hepatic lobule as haemosiderosis, adding liver iron toxicity to the cardiac loading that chelation therapy aims to prevent.
 - `connects-to` → **[Multiple Myeloma](../multiple-myeloma/README.md)** — Its therapy can cause it: alkylating chemotherapy and autologous transplant for multiple myeloma raise the risk of therapy-related myelodysplastic syndrome years later, a feared late complication of cure.
 - `connects-to` → **[Uveal Melanoma](../uveal-melanoma/README.md)** — A shared splicing-factor mutation: SF3B1, which defines MDS with ring sideroblasts, is the same spliceosome gene mutated in a subset of uveal melanomas—one splicing defect across a marrow and an eye cancer.
+- `connects-to` → **[Breast Cancer](../breast-cancer/README.md)** — Therapy-related MDS: the alkylators and radiation used to cure solid tumours such as breast cancer can damage the marrow's stem cells, seeding a secondary, poor-prognosis MDS that often progresses to AML.
+- `connects-to` → **[ANCA Vasculitis](../anca-vasculitis/README.md)** — Myeloid clone meets autoinflammation: MDS associates with systemic autoinflammatory and autoimmune syndromes—including VEXAS and vasculitis—where the mutant clone drives inflammation overlapping ANCA-associated disease.
+- `connects-to` → **[Cardiac Conduction System](../../05-tissue/cardiac-conduction-system/README.md)** — Transfusional iron and the heart: years of red-cell transfusions for MDS deposit iron in the heart, injuring the myocardium and cardiac conduction system into cardiomyopathy and arrhythmia unless iron is chelated.
 
 [^fenaux-2009-aza001]: Fenaux P, Mufti GJ, Hellstrom-Lindberg E, et al. Efficacy of azacitidine compared with conventional care regimens in patients with higher-risk myelodysplastic syndromes. *Lancet Oncol.* 2009;10(3):223-232. [doi:10.1016/S1470-2045(09)70003-8](https://doi.org/10.1016/S1470-2045(09)70003-8) · [PubMed 19230772](https://pubmed.ncbi.nlm.nih.gov/19230772/)
 [^fenaux-2020-medalist]: Fenaux P, Platzbecker U, Mufti GJ, et al. Luspatercept in patients with lower-risk myelodysplastic syndromes. *N Engl J Med.* 2020;382(2):140-151. [doi:10.1056/NEJMoa1908892](https://doi.org/10.1056/NEJMoa1908892) · [PubMed 31914241](https://pubmed.ncbi.nlm.nih.gov/31914241/)

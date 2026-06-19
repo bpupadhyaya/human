@@ -258,6 +258,15 @@ cross_links:
   - target: 01-human/05-tissue/germinal-center
     relation: connects-to
     note: "Chronic infection over-activates B cells: repeated malaria drives intense polyclonal B-cell activation and germinal-centre expansion with hypergammaglobulinaemia, the immune over-stimulation that, with EBV, underlies endemic Burkitt lymphoma."
+  - target: 01-human/07-system/thrombotic-thrombocytopenic-purpura
+    relation: connects-to
+    note: "A thrombotic microangiopathy mimic: severe falciparum malaria's microvascular obstruction, thrombocytopenia and haemolysis can resemble thrombotic thrombocytopenic purpura in a returning traveller, a key differential."
+  - target: 01-human/05-tissue/arterial-wall
+    relation: connects-to
+    note: "Cytoadherence to the vessel: P. falciparum-infected red cells bind endothelial receptors (ICAM-1, EPCR) on small-vessel walls, and this sequestration drives the obstruction behind cerebral and placental malaria."
+  - target: 01-human/03-molecular/erythropoietin
+    relation: connects-to
+    note: "Why anaemia outlasts the parasite: malaria blunts the erythropoietin response and causes dyserythropoiesis in the marrow, so the anaemia persists for weeks after the parasites are cleared."
 ---
 
 # Malaria
@@ -496,6 +505,9 @@ cross_links:
 - `connects-to` → **[Hepatic Lobule](../../05-tissue/hepatic-lobule/README.md)** — The silent liver stage comes first: injected Plasmodium sporozoites invade hepatocytes in the hepatic lobule to multiply before the blood stage, and vivax and ovale leave dormant hypnozoites there that cause relapses.
 - `connects-to` → **[Alveolus](../../05-tissue/alveolus/README.md)** — It can flood the lungs: severe falciparum malaria causes acute lung injury and ARDS, with inflammatory alveolar-capillary leak filling the alveoli even as parasitaemia is being cleared.
 - `connects-to` → **[Germinal Center](../../05-tissue/germinal-center/README.md)** — Chronic infection over-activates B cells: repeated malaria drives intense polyclonal B-cell activation and germinal-centre expansion with hypergammaglobulinaemia, the immune over-stimulation that, with EBV, underlies endemic Burkitt lymphoma.
+- `connects-to` → **[Thrombotic Thrombocytopenic Purpura](../thrombotic-thrombocytopenic-purpura/README.md)** — A thrombotic microangiopathy mimic: severe falciparum malaria's microvascular obstruction, thrombocytopenia and haemolysis can resemble thrombotic thrombocytopenic purpura in a returning traveller, a key differential.
+- `connects-to` → **[Arterial Wall](../../05-tissue/arterial-wall/README.md)** — Cytoadherence to the vessel: P. falciparum-infected red cells bind endothelial receptors (ICAM-1, EPCR) on small-vessel walls, and this sequestration drives the obstruction behind cerebral and placental malaria.
+- `connects-to` → **[Erythropoietin](../../03-molecular/erythropoietin/README.md)** — Why anaemia outlasts the parasite: malaria blunts the erythropoietin response and causes dyserythropoiesis in the marrow, so the anaemia persists for weeks after the parasites are cleared.
 
 [^who-malaria-report-2023]: World Health Organization. World Malaria Report 2023. WHO; 2023.
 [^white-2014-malaria-lancet]: White NJ, Pukrittayakamee S, Hien TT, et al. Malaria. *Lancet.* 2014;383(9918):723-735. [doi:10.1016/S0140-6736(13)60024-0](https://doi.org/10.1016/S0140-6736(13)60024-0) · [PubMed 23953767](https://pubmed.ncbi.nlm.nih.gov/23953767/)
