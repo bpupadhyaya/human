@@ -277,6 +277,15 @@ cross_links:
   - target: 01-human/03-molecular/yap1
     relation: connects-to
     note: "Hippo activation: nuclear YAP from deregulated Hippo signalling contributes to synovial sarcoma growth and its mesenchymal phenotype."
+  - target: 01-human/03-molecular/pdgf
+    relation: connects-to
+    note: "Autocrine growth: PDGF signalling, an output of the SS18-SSX-driven transcriptional programme, supports the proliferation of synovial sarcoma."
+  - target: 01-human/03-molecular/fgfr
+    relation: connects-to
+    note: "Growth-factor signalling: FGFR signalling contributes to synovial sarcoma proliferation, a candidate targetable receptor in this fusion-driven sarcoma."
+  - target: 01-human/03-molecular/met
+    relation: connects-to
+    note: "Receptor activation: MET signalling promotes the growth and invasion of synovial sarcoma, part of the receptor-tyrosine-kinase landscape of the tumour."
 ---
 
 # Synovial Sarcoma
@@ -489,6 +498,9 @@ SS has low TMB (~1-2 mut/Mb) and variable PD-L1 expression; ICB response rates ~
 - `connects-to` → **[MYC](../../03-molecular/myc/README.md)** — Fusion-driven oncogene: the SS18-SSX fusion retargets the BAF complex and activates MYC, driving the proliferation of synovial sarcoma.
 - `connects-to` → **[Cyclin D1](../../03-molecular/cyclin-d1/README.md)** — Cell-cycle drive: cyclin D1 upregulation, with CDKN2A loss, propels synovial sarcoma cells through the cell cycle, supporting CDK4/6-directed strategies.
 - `connects-to` → **[YAP1](../../03-molecular/yap1/README.md)** — Hippo activation: nuclear YAP from deregulated Hippo signalling contributes to synovial sarcoma growth and its mesenchymal phenotype.
+- `connects-to` → **[PDGF](../../03-molecular/pdgf/README.md)** — Autocrine growth: PDGF signalling, an output of the SS18-SSX-driven transcriptional programme, supports the proliferation of synovial sarcoma.
+- `connects-to` → **[FGFR](../../03-molecular/fgfr/README.md)** — Growth-factor signalling: FGFR signalling contributes to synovial sarcoma proliferation, a candidate targetable receptor in this fusion-driven sarcoma.
+- `connects-to` → **[MET](../../03-molecular/met/README.md)** — Receptor activation: MET signalling promotes the growth and invasion of synovial sarcoma, part of the receptor-tyrosine-kinase landscape of the tumour.
 
 ---
 

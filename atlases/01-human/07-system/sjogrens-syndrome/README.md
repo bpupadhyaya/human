@@ -283,6 +283,15 @@ cross_links:
   - target: 01-human/03-molecular/aquaporin-4
     relation: connects-to
     note: "Aquaporin overlap: anti-aquaporin-4 antibodies link Sjögren's to neuromyelitis optica, and aquaporin water channels in exocrine glands are central to the secretory failure causing sicca."
+  - target: 01-human/03-molecular/tnf-alpha
+    relation: connects-to
+    note: "Glandular inflammation: TNF-α within the lymphocytic infiltrate of the salivary and lacrimal glands contributes to the inflammation and secretory destruction of Sjögren's syndrome."
+  - target: 01-human/03-molecular/il-1b
+    relation: connects-to
+    note: "Inflammatory amplification: IL-1β from activated macrophages in the inflamed exocrine glands amplifies the tissue damage of Sjögren's syndrome."
+  - target: 01-human/03-molecular/nlrp3-inflammasome
+    relation: connects-to
+    note: "Inflammasome activation: NLRP3-inflammasome activation in the salivary glands matures the IL-1β that drives the chronic glandular inflammation of Sjögren's syndrome."
 ---
 
 # Sjögren's Syndrome
@@ -501,6 +510,9 @@ Sjögren's syndrome can occur:
 - `connects-to` → **[IFN-γ](../../03-molecular/ifn-gamma/README.md)** — Th1 glandular attack: alongside the type I interferon signature, IFN-γ-driven Th1 inflammation fuels the lymphocytic infiltration that destroys salivary and lacrimal glands in Sjögren's.
 - `connects-to` → **[IL-17A](../../03-molecular/il-17a/README.md)** — Th17 contribution: the IL-17/Th17 axis participates in the glandular inflammation and ectopic lymphoid structures of Sjögren's syndrome.
 - `connects-to` → **[Aquaporin-4](../../03-molecular/aquaporin-4/README.md)** — Aquaporin overlap: anti-aquaporin-4 antibodies link Sjögren's to neuromyelitis optica, and aquaporin water channels in exocrine glands are central to the secretory failure causing sicca.
+- `connects-to` → **[TNF-α](../../03-molecular/tnf-alpha/README.md)** — Glandular inflammation: TNF-α within the lymphocytic infiltrate of the salivary and lacrimal glands contributes to the inflammation and secretory destruction of Sjögren's syndrome.
+- `connects-to` → **[IL-1β](../../03-molecular/il-1b/README.md)** — Inflammatory amplification: IL-1β from activated macrophages in the inflamed exocrine glands amplifies the tissue damage of Sjögren's syndrome.
+- `connects-to` → **[NLRP3 Inflammasome](../../03-molecular/nlrp3-inflammasome/README.md)** — Inflammasome activation: NLRP3-inflammasome activation in the salivary glands matures the IL-1β that drives the chronic glandular inflammation of Sjögren's syndrome.
 
 ---
 
