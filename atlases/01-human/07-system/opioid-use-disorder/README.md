@@ -274,6 +274,15 @@ cross_links:
   - target: 01-human/07-system/covid-19-disease
     relation: connects-to
     note: "A pandemic of overdose: opioid overdose deaths surged during COVID-19 from disrupted services and isolation, while opioid respiratory depression compounds the lung injury of severe infection."
+  - target: 01-human/07-system/tuberculosis
+    relation: connects-to
+    note: "Injection, homelessness and TB: injection drug use, congregate housing and HIV coinfection raise the risk of tuberculosis and complicate adherence to its long treatment."
+  - target: 01-human/05-tissue/glomerulus
+    relation: connects-to
+    note: "Heroin nephropathy: chronic injection drug use causes a collapsing FSGS-like glomerulopathy and, with skin-popping, AA amyloidosis—both injuring the glomerulus toward kidney failure."
+  - target: 01-human/07-system/stroke
+    relation: connects-to
+    note: "Emboli and hypoxia: septic emboli from injection-related endocarditis cause ischaemic and mycotic-aneurysm strokes, while opioid overdose can leave hypoxic-ischaemic brain injury."
 ---
 
 # Opioid Use Disorder
@@ -514,6 +523,9 @@ The primary mechanism by which opioids produce euphoria:
 - `connects-to` → **[Hepatitis B](../hepatitis-b/README.md)** — Needle-borne infection: injection opioid use spreads hepatitis B alongside hepatitis C and HIV through shared needles, so chronic HBV and its liver disease are common in this population.
 - `connects-to` → **[Cortical Bone](../../05-tissue/cortical-bone/README.md)** — Deep infections of bone: injection drug use seeds vertebral osteomyelitis, discitis and septic arthritis, infections that erode the cortical bone and are notoriously hard to clear.
 - `connects-to` → **[COVID-19 Disease](../covid-19-disease/README.md)** — A pandemic of overdose: opioid overdose deaths surged during COVID-19 from disrupted services and isolation, while opioid respiratory depression compounds the lung injury of severe infection.
+- `connects-to` → **[Tuberculosis](../tuberculosis/README.md)** — Injection, homelessness and TB: injection drug use, congregate housing and HIV coinfection raise the risk of tuberculosis and complicate adherence to its long treatment.
+- `connects-to` → **[Glomerulus](../../05-tissue/glomerulus/README.md)** — Heroin nephropathy: chronic injection drug use causes a collapsing FSGS-like glomerulopathy and, with skin-popping, AA amyloidosis—both injuring the glomerulus toward kidney failure.
+- `connects-to` → **[Stroke](../stroke/README.md)** — Emboli and hypoxia: septic emboli from injection-related endocarditis cause ischaemic and mycotic-aneurysm strokes, while opioid overdose can leave hypoxic-ischaemic brain injury.
 
 [^volkow-2016-opioid-crisis]: Volkow ND, Collins FS. The role of science in addressing the opioid crisis. *N Engl J Med.* 2017;377(4):391-394. [doi:10.1056/NEJMsr1706626](https://doi.org/10.1056/NEJMsr1706626) · [PubMed 28723324](https://pubmed.ncbi.nlm.nih.gov/28723324/)
 [^mattick-2009-bupe-meta]: Mattick RP, Breen C, Kimber J, Davoli M. Buprenorphine maintenance versus placebo or methadone maintenance for opioid dependence. *Cochrane Database Syst Rev.* 2014;2:CD002207. [doi:10.1002/14651858.CD002207.pub4](https://doi.org/10.1002/14651858.CD002207.pub4) · [PubMed 24500948](https://pubmed.ncbi.nlm.nih.gov/24500948/)

@@ -271,6 +271,15 @@ cross_links:
   - target: 01-human/07-system/werner-syndrome
     relation: connects-to
     note: "Premature bone loss: Werner syndrome and other progeroid disorders cause early osteoporosis as part of accelerated ageing, the skeleton thinning decades ahead of schedule."
+  - target: 01-human/07-system/thalassemia
+    relation: connects-to
+    note: "Thalassaemia bone disease: marrow expansion, hypogonadism, iron overload and chelation cause a severe osteoporosis, one of the commonest non-haematologic complications of transfusion-dependent thalassaemia."
+  - target: 01-human/05-tissue/intestinal-epithelium
+    relation: connects-to
+    note: "Where calcium enters: the intestinal epithelium absorbs dietary calcium under vitamin D control, so malabsorption from coeliac or bariatric surgery starves the skeleton and drives osteoporosis."
+  - target: 01-human/07-system/men1-syndrome
+    relation: connects-to
+    note: "Hyperparathyroid bone loss: primary hyperparathyroidism—as in MEN1—raises PTH that resorbs bone, causing osteoporosis and the classic subperiosteal resorption of excess parathyroid activity."
 ---
 
 # Osteoporosis
@@ -463,6 +472,9 @@ All newly diagnosed osteoporosis should be evaluated for secondary causes: CBC (
 - `connects-to` → **[Alcohol Use Disorder](../alcohol-use-disorder/README.md)** — Alcohol thins and breaks bone: chronic heavy drinking suppresses osteoblasts, impairs calcium and vitamin D handling and raises fall risk, making alcohol a major modifiable cause of osteoporosis and fractures.
 - `connects-to` → **[Parkinson's Disease](../parkinsons-disease/README.md)** — Immobility meets falls: Parkinson's disease lowers bone density through immobility, low vitamin D and weight loss, and its falls turn that osteoporosis into hip and vertebral fractures.
 - `connects-to` → **[Werner Syndrome](../werner-syndrome/README.md)** — Premature bone loss: Werner syndrome and other progeroid disorders cause early osteoporosis as part of accelerated ageing, the skeleton thinning decades ahead of schedule.
+- `connects-to` → **[Thalassemia](../thalassemia/README.md)** — Thalassaemia bone disease: marrow expansion, hypogonadism, iron overload and chelation cause a severe osteoporosis, one of the commonest non-haematologic complications of transfusion-dependent thalassaemia.
+- `connects-to` → **[Intestinal Epithelium](../../05-tissue/intestinal-epithelium/README.md)** — Where calcium enters: the intestinal epithelium absorbs dietary calcium under vitamin D control, so malabsorption from coeliac or bariatric surgery starves the skeleton and drives osteoporosis.
+- `connects-to` → **[MEN1 Syndrome](../men1-syndrome/README.md)** — Hyperparathyroid bone loss: primary hyperparathyroidism—as in MEN1—raises PTH that resorbs bone, causing osteoporosis and the classic subperiosteal resorption of excess parathyroid activity.
 
 [^kanis-2019-who-osteoporosis]: Kanis JA, Cooper C, Rizzoli R, Reginster JY. European guidance for the diagnosis and management of osteoporosis in postmenopausal women. *Osteoporos Int.* 2019;30(1):3-44. [doi:10.1007/s00198-018-4704-5](https://doi.org/10.1007/s00198-018-4704-5) · [PubMed 30324412](https://pubmed.ncbi.nlm.nih.gov/30324412/)
 [^cosman-2016-romosozumab]: Cosman F, Crittenden DB, Adachi JD, et al. Romosozumab treatment in postmenopausal women with osteoporosis. *N Engl J Med.* 2016;375(16):1532-1543. [doi:10.1056/NEJMoa1607948](https://doi.org/10.1056/NEJMoa1607948) · [PubMed 27641143](https://pubmed.ncbi.nlm.nih.gov/27641143/)
