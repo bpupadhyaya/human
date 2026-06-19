@@ -274,6 +274,15 @@ cross_links:
   - target: 01-human/07-system/tuberculosis
     relation: connects-to
     note: "The benign mimic: pulmonary tuberculosis produces masses, cavities and lymphadenopathy that imitate lung cancer, the two coexist in smokers, and old TB scars can themselves seed scar carcinoma."
+  - target: 01-human/03-molecular/ntrk
+    relation: connects-to
+    note: "Rare actionable fusion: NTRK gene fusions are uncommon but highly targetable drivers in NSCLC, treated with TRK inhibitors as part of its precision-oncology landscape."
+  - target: 01-human/03-molecular/pik3ca
+    relation: connects-to
+    note: "Squamous PI3K activation: PIK3CA mutation and amplification activate PI3K signalling, especially in squamous NSCLC, a candidate therapeutic target."
+  - target: 01-human/03-molecular/myc
+    relation: connects-to
+    note: "Amplified aggression: MYC amplification drives proliferation and immune evasion in NSCLC and is associated with more aggressive, treatment-resistant disease."
 ---
 
 # NSCLC
@@ -460,6 +469,9 @@ cross_links:
 - `connects-to` → **[Neuroblastoma](../neuroblastoma/README.md)** — A shared druggable kinase: ALK rearrangements in NSCLC and activating ALK mutations in neuroblastoma make the same target actionable across adult and paediatric cancer, so ALK inhibitors like lorlatinib cross between the two.
 - `connects-to` → **[Epilepsy](../epilepsy/README.md)** — Seizures from brain spread: NSCLC is a leading source of brain metastases, and these lesions are a common cause of new-onset seizures and secondary epilepsy in patients with advanced disease.
 - `connects-to` → **[Tuberculosis](../tuberculosis/README.md)** — The benign mimic: pulmonary tuberculosis produces masses, cavities and lymphadenopathy that imitate lung cancer, the two coexist in smokers, and old TB scars can themselves seed scar carcinoma.
+- `connects-to` → **[NTRK](../../03-molecular/ntrk/README.md)** — Rare actionable fusion: NTRK gene fusions are uncommon but highly targetable drivers in NSCLC, treated with TRK inhibitors as part of its precision-oncology landscape.
+- `connects-to` → **[PIK3CA](../../03-molecular/pik3ca/README.md)** — Squamous PI3K activation: PIK3CA mutation and amplification activate PI3K signalling, especially in squamous NSCLC, a candidate therapeutic target.
+- `connects-to` → **[MYC](../../03-molecular/myc/README.md)** — Amplified aggression: MYC amplification drives proliferation and immune evasion in NSCLC and is associated with more aggressive, treatment-resistant disease.
 
 [^soria-2018-osimertinib-flaura]: Soria JC, Ohe Y, Vansteenkiste J, et al. Osimertinib in untreated EGFR-mutated advanced non-small-cell lung cancer. *N Engl J Med.* 2018;378(2):113-125. [doi:10.1056/NEJMoa1713137](https://doi.org/10.1056/NEJMoa1713137) · [PubMed 29151359](https://pubmed.ncbi.nlm.nih.gov/29151359/)
 [^reck-2016-pembrolizumab-keynote024]: Reck M, Rodríguez-Abreu D, Robinson AG, et al. Pembrolizumab versus chemotherapy for PD-L1-positive non-small-cell lung cancer. *N Engl J Med.* 2016;375(19):1823-1833. [doi:10.1056/NEJMoa1606774](https://doi.org/10.1056/NEJMoa1606774) · [PubMed 27718347](https://pubmed.ncbi.nlm.nih.gov/27718347/)
