@@ -277,6 +277,15 @@ cross_links:
   - target: 01-human/03-molecular/yap1
     relation: connects-to
     note: "Squamous oncogene: FAT1 loss and 11q22 amplification activate the Hippo effector YAP in HNSCC, driving the proliferation and stemness of these squamous tumours."
+  - target: 01-human/03-molecular/myc
+    relation: connects-to
+    note: "Amplified oncogene: MYC amplification drives the proliferation and biosynthetic programme of head and neck squamous cell carcinoma."
+  - target: 01-human/03-molecular/hif-1alpha
+    relation: connects-to
+    note: "Tumour hypoxia: HIF-1α stabilised in hypoxic HNSCC drives angiogenesis and radioresistance, a major adverse prognostic factor in these tumours."
+  - target: 01-human/03-molecular/ezh2
+    relation: connects-to
+    note: "Epigenetic driver: EZH2 overexpression silences tumour-suppressor genes in HNSCC, promoting invasion and an emerging epigenetic therapeutic target."
 ---
 
 # HNSCC
@@ -478,6 +487,9 @@ HPV+ oropharyngeal: Node staging based on number (not laterality); HPV-negative 
 - `connects-to` → **[Notch](../../03-molecular/notch/README.md)** — Frequent tumour-suppressor loss: NOTCH1 is among the most commonly mutated genes in head and neck squamous cell carcinoma, usually inactivated to release its differentiation-promoting brake.
 - `connects-to` → **[FGFR](../../03-molecular/fgfr/README.md)** — Targetable amplification: FGFR1 amplification and FGFR3 mutations occur in HNSCC, especially HPV-negative disease, marking a druggable receptor tyrosine kinase.
 - `connects-to` → **[YAP1](../../03-molecular/yap1/README.md)** — Squamous oncogene: FAT1 loss and 11q22 amplification activate the Hippo effector YAP in HNSCC, driving the proliferation and stemness of these squamous tumours.
+- `connects-to` → **[MYC](../../03-molecular/myc/README.md)** — Amplified oncogene: MYC amplification drives the proliferation and biosynthetic programme of head and neck squamous cell carcinoma.
+- `connects-to` → **[HIF-1α](../../03-molecular/hif-1alpha/README.md)** — Tumour hypoxia: HIF-1α stabilised in hypoxic HNSCC drives angiogenesis and radioresistance, a major adverse prognostic factor in these tumours.
+- `connects-to` → **[EZH2](../../03-molecular/ezh2/README.md)** — Epigenetic driver: EZH2 overexpression silences tumour-suppressor genes in HNSCC, promoting invasion and an emerging epigenetic therapeutic target.
 
 [^burtness-2019-keynote048]: Burtness B, Harrington KJ, Greil R, et al. Pembrolizumab alone or with chemotherapy versus cetuximab with chemotherapy for recurrent or metastatic squamous cell carcinoma of the head and neck (KEYNOTE-048). *Lancet.* 2019;394(10212):1915-1928. [doi:10.1016/S0140-6736(19)32591-7](https://doi.org/10.1016/S0140-6736(19)32591-7) · [PubMed 31679945](https://pubmed.ncbi.nlm.nih.gov/31679945/)
 [^vermorken-2008-extreme]: Vermorken JB, Mesia R, Rivera F, et al. Platinum-based chemotherapy plus cetuximab in head and neck cancer. *N Engl J Med.* 2008;359(11):1116-1127. [doi:10.1056/NEJMoa0802656](https://doi.org/10.1056/NEJMoa0802656) · [PubMed 18784101](https://pubmed.ncbi.nlm.nih.gov/18784101/)

@@ -277,6 +277,15 @@ cross_links:
   - target: 01-human/03-molecular/ezh2
     relation: connects-to
     note: "Reinforced silencing: the histone hypermethylation driven by fumarate, together with polycomb/EZH2 activity, locks in the repressed, dedifferentiated state of HLRCC tumour cells."
+  - target: 01-human/03-molecular/myc
+    relation: connects-to
+    note: "Metabolic-oncogene cooperation: the pseudohypoxic, fumarate-driven state of HLRCC upregulates MYC, fuelling the biosynthesis and proliferation of its aggressive type-2 papillary renal tumours."
+  - target: 01-human/03-molecular/cyclin-d1
+    relation: connects-to
+    note: "Cell-cycle drive: HIF-driven and growth-factor signalling in FH-deficient HLRCC upregulates cyclin D1, pushing the renal tumour cells through the G1 checkpoint."
+  - target: 01-human/03-molecular/tert
+    relation: connects-to
+    note: "Replicative immortality: TERT reactivation maintains telomeres in HLRCC renal tumours, enabling the limitless proliferation of this notably aggressive hereditary kidney cancer."
 ---
 
 # Hereditary Leiomyomatosis and Renal Cell Carcinoma
@@ -495,6 +504,9 @@ Cutaneous:
 - `connects-to` → **[TET2](../../03-molecular/tet2/README.md)** — Oncometabolite epigenetics: fumarate accumulating from FH loss inhibits TET DNA-demethylases, causing the DNA hypermethylation that silences tumour-suppressor genes in HLRCC.
 - `connects-to` → **[IDH1](../../03-molecular/idh1/README.md)** — Shared oncometabolite mechanism: like IDH-mutant cancers making 2-hydroxyglutarate, FH-deficient HLRCC accumulates fumarate—both oncometabolites that inhibit the same α-ketoglutarate-dependent enzymes.
 - `connects-to` → **[EZH2](../../03-molecular/ezh2/README.md)** — Reinforced silencing: the histone hypermethylation driven by fumarate, together with polycomb/EZH2 activity, locks in the repressed, dedifferentiated state of HLRCC tumour cells.
+- `connects-to` → **[MYC](../../03-molecular/myc/README.md)** — Metabolic-oncogene cooperation: the pseudohypoxic, fumarate-driven state of HLRCC upregulates MYC, fuelling the biosynthesis and proliferation of its aggressive type-2 papillary renal tumours.
+- `connects-to` → **[Cyclin D1](../../03-molecular/cyclin-d1/README.md)** — Cell-cycle drive: HIF-driven and growth-factor signalling in FH-deficient HLRCC upregulates cyclin D1, pushing the renal tumour cells through the G1 checkpoint.
+- `connects-to` → **[TERT](../../03-molecular/tert/README.md)** — Replicative immortality: TERT reactivation maintains telomeres in HLRCC renal tumours, enabling the limitless proliferation of this notably aggressive hereditary kidney cancer.
 
 [^tomlinson-2002-fh]: Tomlinson IP, Alam NA, Rowan AJ, et al. Germline mutations in FH predispose to dominantly inherited uterine fibroids, skin leiomyomata and papillary renal cell cancer. *Nat Genet.* 2002;30(4):406-410. [doi:10.1038/ng849](https://doi.org/10.1038/ng849) · [PubMed 11865300](https://pubmed.ncbi.nlm.nih.gov/11865300/)
 [^linehan-2013-fh-review]: Linehan WM, Rouault TA. Molecular pathways: fumarate hydratase-deficient kidney cancer — targeting the Warburg effect in cancer. *Clin Cancer Res.* 2013;19(13):3345-3352. [doi:10.1158/1078-0432.CCR-13-0304](https://doi.org/10.1158/1078-0432.CCR-13-0304) · [PubMed 23836472](https://pubmed.ncbi.nlm.nih.gov/23836472/)
