@@ -259,6 +259,15 @@ cross_links:
   - target: 01-human/03-molecular/arid1a
     relation: connects-to
     note: "A chromatin-remodelling driver: ARID1A, part of the SWI/SNF complex, is recurrently mutated in cholangiocarcinoma alongside IDH and FGFR, shaping its distinctive and increasingly targetable genomic landscape."
+  - target: 01-human/07-system/uveal-melanoma
+    relation: connects-to
+    note: "BAP1 across tumours: germline BAP1 mutations predispose to cholangiocarcinoma alongside uveal melanoma, mesothelioma and renal cell carcinoma—a hereditary BAP1 tumour syndrome."
+  - target: 01-human/07-system/ovarian-clear-cell-carcinoma
+    relation: connects-to
+    note: "A shared chromatin driver: cholangiocarcinoma and ovarian clear cell carcinoma both frequently mutate ARID1A of the SWI/SNF complex, two adenocarcinomas converging on chromatin dysregulation."
+  - target: 01-human/07-system/type-2-diabetes
+    relation: connects-to
+    note: "A metabolic risk factor: type 2 diabetes and obesity (via fatty liver) raise the risk of intrahepatic cholangiocarcinoma, adding metabolic disease to its classic biliary and parasitic causes."
 ---
 
 # Cholangiocarcinoma
@@ -436,6 +445,9 @@ Chronic biliary injury (from PSC, fluke infection, bile acid reflux, biliary sta
 - `connects-to` → **[Alveolus](../../05-tissue/alveolus/README.md)** — Where it spreads: cholangiocarcinoma metastasises to the lungs, seeding tumour deposits in the alveolar capillary bed as part of advanced disease.
 - `connects-to` → **[Germinal Center](../../05-tissue/germinal-center/README.md)** — When immunotherapy works: mismatch-repair-deficient and inflamed cholangiocarcinomas attract tertiary lymphoid structures with germinal centres and can respond to PD-1 checkpoint blockade.
 - `connects-to` → **[ARID1A](../../03-molecular/arid1a/README.md)** — A chromatin-remodelling driver: ARID1A, part of the SWI/SNF complex, is recurrently mutated in cholangiocarcinoma alongside IDH and FGFR, shaping its distinctive and increasingly targetable genomic landscape.
+- `connects-to` → **[Uveal Melanoma](../uveal-melanoma/README.md)** — BAP1 across tumours: germline BAP1 mutations predispose to cholangiocarcinoma alongside uveal melanoma, mesothelioma and renal cell carcinoma—a hereditary BAP1 tumour syndrome.
+- `connects-to` → **[Ovarian Clear Cell Carcinoma](../ovarian-clear-cell-carcinoma/README.md)** — A shared chromatin driver: cholangiocarcinoma and ovarian clear cell carcinoma both frequently mutate ARID1A of the SWI/SNF complex, two adenocarcinomas converging on chromatin dysregulation.
+- `connects-to` → **[Type 2 Diabetes](../type-2-diabetes/README.md)** — A metabolic risk factor: type 2 diabetes and obesity (via fatty liver) raise the risk of intrahepatic cholangiocarcinoma, adding metabolic disease to its classic biliary and parasitic causes.
 
 ---
 

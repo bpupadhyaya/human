@@ -259,6 +259,15 @@ cross_links:
   - target: 01-human/03-molecular/her2
     relation: connects-to
     note: "An emerging target: HER2 amplification occurs in a subset of cervical and other gynaecological cancers, making HER2-directed antibody-drug conjugates a developing treatment option."
+  - target: 01-human/07-system/gvhd
+    relation: connects-to
+    note: "Immunosuppression and HPV cancer: transplant recipients and those on GVHD-related immunosuppression have markedly higher rates of HPV-driven cervical and other anogenital cancers."
+  - target: 01-human/07-system/colorectal-cancer
+    relation: connects-to
+    note: "Radiation's late cancer risk: pelvic radiotherapy for cervical cancer slightly raises the risk of second cancers in the radiation field, including rectal and colorectal cancer years later."
+  - target: 01-human/07-system/covid-19-disease
+    relation: connects-to
+    note: "Screening disrupted: COVID-19 sharply cut cervical screening and HPV vaccination uptake, projected to raise cervical cancer incidence and stage at diagnosis in coming years."
 ---
 
 # Cervical Cancer
@@ -462,6 +471,9 @@ The cervical transformation zone (TZ) — the area between the original and new 
 - `connects-to` → **[Alveolus](../../05-tissue/alveolus/README.md)** — Where it spreads: advanced cervical cancer metastasises through the blood to the lungs, seeding tumour deposits in the alveolar capillary bed.
 - `connects-to` → **[Germinal Center](../../05-tissue/germinal-center/README.md)** — Immune evasion and immunotherapy: HPV-driven cervical cancer draws tertiary lymphoid structures and responds to PD-1 checkpoint blockade, the immune dimension of an infection-driven cancer.
 - `connects-to` → **[HER2](../../03-molecular/her2/README.md)** — An emerging target: HER2 amplification occurs in a subset of cervical and other gynaecological cancers, making HER2-directed antibody-drug conjugates a developing treatment option.
+- `connects-to` → **[GVHD](../gvhd/README.md)** — Immunosuppression and HPV cancer: transplant recipients and those on GVHD-related immunosuppression have markedly higher rates of HPV-driven cervical and other anogenital cancers.
+- `connects-to` → **[Colorectal Cancer](../colorectal-cancer/README.md)** — Radiation's late cancer risk: pelvic radiotherapy for cervical cancer slightly raises the risk of second cancers in the radiation field, including rectal and colorectal cancer years later.
+- `connects-to` → **[COVID-19 Disease](../covid-19-disease/README.md)** — Screening disrupted: COVID-19 sharply cut cervical screening and HPV vaccination uptake, projected to raise cervical cancer incidence and stage at diagnosis in coming years.
 
 ---
 
