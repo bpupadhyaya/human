@@ -259,6 +259,15 @@ cross_links:
   - target: 01-human/07-system/neurofibromatosis-type-1
     relation: connects-to
     note: "Shared phaeochromocytoma risk: VHL and neurofibromatosis type 1 both predispose to phaeochromocytoma, two of the hereditary syndromes—with MEN2 and SDHx—behind catecholamine-secreting adrenal tumours."
+  - target: 01-human/05-tissue/peripheral-nerve
+    relation: connects-to
+    note: "Hemangioblastomas on the nerve roots: VHL's vascular tumours stud not only the cerebellum and retina but the spinal cord and its nerve roots, compressing them to cause pain and neurological deficits."
+  - target: 01-human/05-tissue/cortical-bone
+    relation: connects-to
+    note: "Metastatic renal cancer in bone: the clear-cell renal carcinomas of VHL metastasise to the skeleton, producing the highly vascular, osteolytic cortical-bone lesions typical of renal cell carcinoma."
+  - target: 01-human/07-system/men4-syndrome
+    relation: connects-to
+    note: "Hereditary endocrine-tumour syndromes: like MEN1 and MEN4, VHL predisposes to pancreatic neuroendocrine tumours, one of several germline syndromes demanding lifelong surveillance of multiple endocrine organs."
 ---
 
 # VHL Disease
@@ -461,6 +470,9 @@ The genotype-phenotype correlation reflects the degree of pVHL function retained
 - `connects-to` → **[Diabetic Retinopathy](../diabetic-retinopathy/README.md)** — Two VEGF-driven retinal diseases: VHL retinal haemangioblastomas, like diabetic retinopathy, leak and proliferate under HIF-driven VEGF and are managed with laser photocoagulation and anti-VEGF therapy.
 - `connects-to` → **[Glioblastoma](../glioblastoma/README.md)** — Vascularity, opposite fates: VHL haemangioblastomas and glioblastoma are both intensely VEGF-driven, microvascular-rich CNS tumours, but the haemangioblastoma is benign and curable by resection while glioblastoma is relentlessly malignant.
 - `connects-to` → **[Neurofibromatosis Type 1](../neurofibromatosis-type-1/README.md)** — Shared phaeochromocytoma risk: VHL and neurofibromatosis type 1 both predispose to phaeochromocytoma, two of the hereditary syndromes—with MEN2 and SDHx—behind catecholamine-secreting adrenal tumours.
+- `connects-to` → **[Peripheral Nerve](../../05-tissue/peripheral-nerve/README.md)** — Hemangioblastomas on the nerve roots: VHL's vascular tumours stud not only the cerebellum and retina but the spinal cord and its nerve roots, compressing them to cause pain and neurological deficits.
+- `connects-to` → **[Cortical Bone](../../05-tissue/cortical-bone/README.md)** — Metastatic renal cancer in bone: the clear-cell renal carcinomas of VHL metastasise to the skeleton, producing the highly vascular, osteolytic cortical-bone lesions typical of renal cell carcinoma.
+- `connects-to` → **[MEN4 Syndrome](../men4-syndrome/README.md)** — Hereditary endocrine-tumour syndromes: like MEN1 and MEN4, VHL predisposes to pancreatic neuroendocrine tumours, one of several germline syndromes demanding lifelong surveillance of multiple endocrine organs.
 
 [^lonser-2003-vhl-disease]: Lonser RR, Glenn GM, Walther M, et al. von Hippel-Lindau disease. *Lancet.* 2003;361(9374):2059-2067. [doi:10.1016/S0140-6736(03)13643-4](https://doi.org/10.1016/S0140-6736(03)13643-4) · [PubMed 12814730](https://pubmed.ncbi.nlm.nih.gov/12814730/)
 [^choueiri-2020-hif2-rcc]: Choueiri TK, Kaelin WG Jr. Targeting the HIF2-VEGF axis in renal cell carcinoma. *Nat Med.* 2020;26(10):1519-1530. [doi:10.1038/s41591-020-1093-z](https://doi.org/10.1038/s41591-020-1093-z) · [PubMed 33020650](https://pubmed.ncbi.nlm.nih.gov/33020650/)

@@ -259,6 +259,15 @@ cross_links:
   - target: 01-human/07-system/breast-cancer
     relation: connects-to
     note: "The choroid as a target: uveal melanoma is the commonest primary intraocular tumour in adults, but the choroid is also the commonest site of intraocular metastasis—classically from breast cancer—a key differential."
+  - target: 01-human/07-system/cll
+    relation: connects-to
+    note: "A shared splicing-factor mutation: SF3B1 mutations recur across uveal melanoma, myelodysplasia and a subset of chronic lymphocytic leukaemia, an unexpected molecular thread linking an eye cancer to blood cancers."
+  - target: 01-human/05-tissue/alveolus
+    relation: connects-to
+    note: "Beyond the liver: while uveal melanoma overwhelmingly metastasises to the liver, the lung is its second site, the tumour seeding the alveolar bed in later disseminated disease."
+  - target: 01-human/05-tissue/cortical-bone
+    relation: connects-to
+    note: "Late skeletal spread: in advanced uveal melanoma, metastases reach the bone, depositing in the cortical skeleton alongside the dominant hepatic and pulmonary disease."
 ---
 
 # Uveal Melanoma
@@ -476,6 +485,9 @@ Uveal melanocytes are neural crest-derived, residing in the uveal stroma and mai
 - `connects-to` → **[Arterial Wall](../../05-tissue/arterial-wall/README.md)** — Vasculogenic mimicry: uveal melanoma cells form their own PAS-positive vascular channels that imitate the arterial wall, a pattern predicting metastasis and helping explain its resistance to anti-angiogenic therapy.
 - `connects-to` → **[Synovial Sarcoma](../synovial-sarcoma/README.md)** — Engineered T-cells for cold tumours: uveal melanoma (treated with the gp100 ImmTAC tebentafusp) and synovial sarcoma (treated with NY-ESO-1 TCR cells) both resist checkpoint blockade and instead yield to HLA-restricted redirected T-cells.
 - `connects-to` → **[Breast Cancer](../breast-cancer/README.md)** — The choroid as a target: uveal melanoma is the commonest primary intraocular tumour in adults, but the choroid is also the commonest site of intraocular metastasis—classically from breast cancer—a key differential.
+- `connects-to` → **[CLL](../cll/README.md)** — A shared splicing-factor mutation: SF3B1 mutations recur across uveal melanoma, myelodysplasia and a subset of chronic lymphocytic leukaemia, an unexpected molecular thread linking an eye cancer to blood cancers.
+- `connects-to` → **[Alveolus](../../05-tissue/alveolus/README.md)** — Beyond the liver: while uveal melanoma overwhelmingly metastasises to the liver, the lung is its second site, the tumour seeding the alveolar bed in later disseminated disease.
+- `connects-to` → **[Cortical Bone](../../05-tissue/cortical-bone/README.md)** — Late skeletal spread: in advanced uveal melanoma, metastases reach the bone, depositing in the cortical skeleton alongside the dominant hepatic and pulmonary disease.
 
 ---
 
