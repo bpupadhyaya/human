@@ -276,6 +276,15 @@ cross_links:
   - target: 01-human/07-system/alzheimers-disease
     relation: connects-to
     note: "Interferon in neurodegeneration: as a pure type-I-interferonopathy of the brain driven by cGAS-STING sensing of self-DNA, Aicardi-Goutières informs the emerging role of the same innate-immune pathway in Alzheimer's neuroinflammation."
+  - target: 01-human/03-molecular/tbk1
+    relation: connects-to
+    note: "Interferon switch: TBK1 sits downstream of the cGAS-STING and RIG-I sensors that are dysregulated in Aicardi-Goutières, phosphorylating IRF3 to drive the chronic type-I interferon production that defines the disease."
+  - target: 01-human/03-molecular/il-1b
+    relation: connects-to
+    note: "Neuroinflammatory amplification: the chronic innate-immune activation of Aicardi-Goutières recruits microglia that release IL-1β, adding to the inflammatory injury of the developing brain."
+  - target: 01-human/03-molecular/nlrp3-inflammasome
+    relation: connects-to
+    note: "Nucleic-acid-driven inflammasome: the self-DNA and self-RNA that accumulate in Aicardi-Goutières can also engage the NLRP3 inflammasome, broadening the innate response beyond the interferon axis."
 ---
 
 # Aicardi-Goutières Syndrome
@@ -456,6 +465,9 @@ Severe early-onset AGS (TREX1 homozygous, RNASEH2A): death in childhood from res
 - `connects-to` → **[Axonal Transport](../../05-tissue/axonal-transport/README.md)** — A genetic leukodystrophy: chronic type-I interferon in Aicardi-Goutières damages cerebral white matter and the oligodendrocytes that myelinate it, disrupting the myelinated axons and their transport across the developing brain.
 - `connects-to` → **[CLL](../cll/README.md)** — One gene, two diseases: SAMHD1, an Aicardi-Goutières gene, is also a recurrently mutated tumour suppressor in chronic lymphocytic leukaemia, so the same DNA-metabolism enzyme links an interferonopathy to a B-cell cancer.
 - `connects-to` → **[Alzheimer's Disease](../alzheimers-disease/README.md)** — Interferon in neurodegeneration: as a pure type-I-interferonopathy of the brain driven by cGAS-STING sensing of self-DNA, Aicardi-Goutières informs the emerging role of the same innate-immune pathway in Alzheimer's neuroinflammation.
+- `connects-to` → **[TBK1](../../03-molecular/tbk1/README.md)** — Interferon switch: TBK1 sits downstream of the cGAS-STING and RIG-I sensors that are dysregulated in Aicardi-Goutières, phosphorylating IRF3 to drive the chronic type-I interferon production that defines the disease.
+- `connects-to` → **[IL-1β](../../03-molecular/il-1b/README.md)** — Neuroinflammatory amplification: the chronic innate-immune activation of Aicardi-Goutières recruits microglia that release IL-1β, adding to the inflammatory injury of the developing brain.
+- `connects-to` → **[NLRP3 Inflammasome](../../03-molecular/nlrp3-inflammasome/README.md)** — Nucleic-acid-driven inflammasome: the self-DNA and self-RNA that accumulate in Aicardi-Goutières can also engage the NLRP3 inflammasome, broadening the innate response beyond the interferon axis.
 
 ---
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*

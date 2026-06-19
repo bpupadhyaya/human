@@ -280,6 +280,15 @@ cross_links:
   - target: 01-human/05-tissue/cardiac-conduction-system
     relation: connects-to
     note: "Microthrombi in the heart: the complement-driven microangiopathy of aHUS lodges platelet-rich thrombi in the myocardium and its conduction system, causing arrhythmia and cardiac injury as extrarenal complications."
+  - target: 01-human/03-molecular/nitric-oxide
+    relation: connects-to
+    note: "Endothelial dysfunction: complement injury to the endothelium in aHUS cuts nitric oxide production, removing the vessel's vasodilator and antithrombotic brake and worsening the microangiopathy."
+  - target: 01-human/03-molecular/endothelin-1
+    relation: connects-to
+    note: "Vasoconstrictor surge: injured endothelium in aHUS releases endothelin-1, whose vasoconstriction aggravates the renal ischaemia and severe hypertension of the thrombotic microangiopathy."
+  - target: 01-human/03-molecular/angiotensin-ii
+    relation: connects-to
+    note: "Malignant hypertension: renal microangiopathy in aHUS activates the renin-angiotensin system, and the resulting angiotensin-II-driven hypertension can itself drive a self-perpetuating TMA."
 ---
 
 # Atypical HUS
@@ -529,6 +538,9 @@ Repeated TMA episodes → glomerular fibrosis → CKD → ESRD
 - `connects-to` → **[Intestinal Epithelium](../../05-tissue/intestinal-epithelium/README.md)** — The STEC-HUS differential: typical HUS follows Shiga-toxin E. coli colitis that damages the intestinal epithelium with bloody diarrhoea, the key diagnosis to distinguish from complement-driven, often diarrhoea-negative aHUS.
 - `connects-to` → **[Pancreatic Cancer](../pancreatic-cancer/README.md)** — Cancer-associated TMA: mucin-producing adenocarcinomas like pancreatic cancer and chemotherapies such as gemcitabine and mitomycin cause a secondary thrombotic microangiopathy that mimics aHUS but needs treating the cause.
 - `connects-to` → **[Cardiac Conduction System](../../05-tissue/cardiac-conduction-system/README.md)** — Microthrombi in the heart: the complement-driven microangiopathy of aHUS lodges platelet-rich thrombi in the myocardium and its conduction system, causing arrhythmia and cardiac injury as extrarenal complications.
+- `connects-to` → **[Nitric Oxide](../../03-molecular/nitric-oxide/README.md)** — Endothelial dysfunction: complement injury to the endothelium in aHUS cuts nitric oxide production, removing the vessel's vasodilator and antithrombotic brake and worsening the microangiopathy.
+- `connects-to` → **[Endothelin-1](../../03-molecular/endothelin-1/README.md)** — Vasoconstrictor surge: injured endothelium in aHUS releases endothelin-1, whose vasoconstriction aggravates the renal ischaemia and severe hypertension of the thrombotic microangiopathy.
+- `connects-to` → **[Angiotensin II](../../03-molecular/angiotensin-ii/README.md)** — Malignant hypertension: renal microangiopathy in aHUS activates the renin-angiotensin system, and the resulting angiotensin-II-driven hypertension can itself drive a self-perpetuating TMA.
 
 [^fakhouri-2017-ahus-lancet]: Fakhouri F, Zuber J, Frémeaux-Bacchi V, Loirat C. Haemolytic uraemic syndrome. *Lancet.* 2017;390(10095):681-696. [doi:10.1016/S0140-6736(17)30062-4](https://doi.org/10.1016/S0140-6736(17)30062-4) · [PubMed 28242109](https://pubmed.ncbi.nlm.nih.gov/28242109/)
 [^legendre-2013-eculizumab-ahus-nejm]: Legendre CM, Licht C, Muus P, et al. Terminal complement inhibitor eculizumab in atypical hemolytic-uremic syndrome. *N Engl J Med.* 2013;368(23):2169-2181. [doi:10.1056/NEJMoa1208981](https://doi.org/10.1056/NEJMoa1208981) · [PubMed 23738544](https://pubmed.ncbi.nlm.nih.gov/23738544/)
