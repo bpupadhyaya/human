@@ -250,6 +250,15 @@ cross_links:
   - target: 01-human/05-tissue/islet-of-langerhans
     relation: connects-to
     note: "It destroys the islets too: progressive pancreatic fibrosis and fatty replacement damage the islets of Langerhans, causing cystic-fibrosis-related diabetes — the commonest CF comorbidity, with features of both type 1 and type 2."
+  - target: 01-human/05-tissue/hepatic-lobule
+    relation: connects-to
+    note: "CF liver disease: thick bile from CFTR loss in cholangiocytes obstructs the bile ductules of the hepatic lobule, causing focal biliary cirrhosis and portal hypertension—a leading non-pulmonary cause of death."
+  - target: 01-human/07-system/anemia-of-chronic-disease
+    relation: connects-to
+    note: "Anaemia of chronic infection: persistent airway infection and inflammation in CF raise hepcidin and blunt erythropoiesis, causing an anaemia of chronic disease despite adequate iron stores."
+  - target: 01-human/05-tissue/cortical-bone
+    relation: connects-to
+    note: "CF bone disease: malabsorption of vitamin D and calcium, chronic inflammation and steroids thin cortical bone, causing the early osteoporosis and fractures common in CF adults."
 ---
 
 # Cystic Fibrosis
@@ -455,6 +464,9 @@ AND
 - `connects-to` → **[Targeted Therapy](../../../03-medicine/01-modern/13-cancer/targeted-therapy/README.md)** — CFTR modulators transformed it: small-molecule correctors and potentiators — culminating in elexacaftor-tezacaftor-ivacaftor (Trikafta) — restore mutant CFTR function and dramatically improve lung function and survival in cystic fibrosis.
 - `connects-to` → **[Lung Slice](../../05-tissue/lung-slice/README.md)** — It destroys the airways: thick CFTR-deficient mucus plugs the bronchi, breeding chronic Pseudomonas and Staphylococcus infection that scar the lung into bronchiectasis — the airway destruction that drives most CF mortality.
 - `connects-to` → **[Islet of Langerhans](../../05-tissue/islet-of-langerhans/README.md)** — It destroys the islets too: progressive pancreatic fibrosis and fatty replacement damage the islets of Langerhans, causing cystic-fibrosis-related diabetes — the commonest CF comorbidity, with features of both type 1 and type 2.
+- `connects-to` → **[Hepatic Lobule](../../05-tissue/hepatic-lobule/README.md)** — CF liver disease: thick bile from CFTR loss in cholangiocytes obstructs the bile ductules of the hepatic lobule, causing focal biliary cirrhosis and portal hypertension—a leading non-pulmonary cause of death.
+- `connects-to` → **[Anemia of Chronic Disease](../anemia-of-chronic-disease/README.md)** — Anaemia of chronic infection: persistent airway infection and inflammation in CF raise hepcidin and blunt erythropoiesis, causing an anaemia of chronic disease despite adequate iron stores.
+- `connects-to` → **[Cortical Bone](../../05-tissue/cortical-bone/README.md)** — CF bone disease: malabsorption of vitamin D and calcium, chronic inflammation and steroids thin cortical bone, causing the early osteoporosis and fractures common in CF adults.
 
 ---
 

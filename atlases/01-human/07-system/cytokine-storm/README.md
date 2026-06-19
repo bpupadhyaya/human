@@ -250,6 +250,15 @@ cross_links:
   - target: 01-human/05-tissue/myocardium
     relation: connects-to
     note: "Cytokines stun the heart: high circulating IL-6 and TNF directly depress myocardial contractility, so cytokine storm — in sepsis, CRS or COVID — causes a reversible cardiomyopathy that deepens the shock."
+  - target: 01-human/05-tissue/alveolus
+    relation: connects-to
+    note: "ARDS at the gas-exchange surface: the cytokine flood makes alveolar capillaries leak and flood the air sacs, causing the acute respiratory distress syndrome that is the commonest fatal endpoint."
+  - target: 01-human/05-tissue/glomerulus
+    relation: connects-to
+    note: "Cytokine acute kidney injury: systemic inflammation and microvascular injury impair the glomerulus, a major contributor to the multi-organ failure of cytokine storm."
+  - target: 01-human/05-tissue/hepatic-lobule
+    relation: connects-to
+    note: "Hepatitis of the storm: in HLH and macrophage-activation syndrome the cytokine surge inflames the hepatic lobule, causing hepatitis, hepatosplenomegaly and extreme hyperferritinaemia."
 ---
 
 # Cytokine Storm
@@ -418,6 +427,9 @@ CS drives a **consumptive coagulopathy (DIC)**:
 - `connects-to` → **[Targeted Therapy](../../../03-medicine/01-modern/13-cancer/targeted-therapy/README.md)** — Cytokine-blocking biologics quench it: tocilizumab against IL-6, anakinra against IL-1, emapalumab against IFN-γ and JAK inhibitors directly interrupt the cytokine cascade of CAR-T CRS, COVID and HLH.
 - `connects-to` → **[Cancer Chemotherapy](../../../03-medicine/01-modern/13-cancer/cancer-chemotherapy/README.md)** — Etoposide tames the macrophage storm: in HLH and macrophage activation syndrome the chemotherapy agent etoposide depletes the hyperactivated macrophages and T cells, a cornerstone of the HLH-94 protocol for that lethal cytokine storm.
 - `connects-to` → **[Myocardium](../../05-tissue/myocardium/README.md)** — Cytokines stun the heart: high circulating IL-6 and TNF directly depress myocardial contractility, so cytokine storm — in sepsis, CRS or COVID — causes a reversible cardiomyopathy that deepens the shock.
+- `connects-to` → **[Alveolus](../../05-tissue/alveolus/README.md)** — ARDS at the gas-exchange surface: the cytokine flood makes alveolar capillaries leak and flood the air sacs, causing the acute respiratory distress syndrome that is the commonest fatal endpoint.
+- `connects-to` → **[Glomerulus](../../05-tissue/glomerulus/README.md)** — Cytokine acute kidney injury: systemic inflammation and microvascular injury impair the glomerulus, a major contributor to the multi-organ failure of cytokine storm.
+- `connects-to` → **[Hepatic Lobule](../../05-tissue/hepatic-lobule/README.md)** — Hepatitis of the storm: in HLH and macrophage-activation syndrome the cytokine surge inflames the hepatic lobule, causing hepatitis, hepatosplenomegaly and extreme hyperferritinaemia.
 
 ## Pathology
 
