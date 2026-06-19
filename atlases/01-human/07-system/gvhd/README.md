@@ -262,6 +262,15 @@ cross_links:
   - target: 01-human/05-tissue/germinal-center
     relation: connects-to
     note: "Chronic GVHD's autoimmune face: alloreactive germinal-centre reactions and B-cell help generate the autoantibodies and the sclerotic, Sjögren- and scleroderma-like features of chronic graft-versus-host disease."
+  - target: 01-human/05-tissue/alveolus
+    relation: connects-to
+    note: "Lung GVHD: chronic graft-versus-host disease attacks the small airways as bronchiolitis obliterans, scarring around the alveoli into an irreversible obstructive lung disease, a feared pulmonary complication."
+  - target: 01-human/07-system/dlbcl
+    relation: connects-to
+    note: "Post-transplant lymphoma: the heavy immunosuppression needed for GVHD lets EBV-driven B cells proliferate unchecked as post-transplant lymphoproliferative disease, which can become a diffuse large B-cell lymphoma."
+  - target: 01-human/07-system/myelofibrosis
+    relation: connects-to
+    note: "Transplant for a marrow disease: allogeneic stem-cell transplant is the only cure for myelofibrosis, but graft-versus-host disease is a major source of its transplant-related morbidity and mortality."
 ---
 
 # Graft-Versus-Host Disease
@@ -481,6 +490,9 @@ The protective Treg/IL-10 axis is the key biological counterbalance to alloreact
 - `connects-to` → **[Aplastic Anemia](../aplastic-anemia/README.md)** — The cure that can turn hostile: allogeneic stem-cell transplant is curative for severe aplastic anaemia, and GVHD is its principal transplant-related danger—the same donor graft that rebuilds the marrow can attack the host.
 - `connects-to` → **[Hepatic Lobule](../../05-tissue/hepatic-lobule/README.md)** — Hepatic GVHD strikes the bile ducts: donor T cells attack the small bile ducts within the hepatic lobule, causing cholestatic jaundice and a rising bilirubin that grades liver involvement.
 - `connects-to` → **[Germinal Center](../../05-tissue/germinal-center/README.md)** — Chronic GVHD's autoimmune face: alloreactive germinal-centre reactions and B-cell help generate the autoantibodies and the sclerotic, Sjögren- and scleroderma-like features of chronic graft-versus-host disease.
+- `connects-to` → **[Alveolus](../../05-tissue/alveolus/README.md)** — Lung GVHD: chronic graft-versus-host disease attacks the small airways as bronchiolitis obliterans, scarring around the alveoli into an irreversible obstructive lung disease, a feared pulmonary complication.
+- `connects-to` → **[DLBCL](../dlbcl/README.md)** — Post-transplant lymphoma: the heavy immunosuppression needed for GVHD lets EBV-driven B cells proliferate unchecked as post-transplant lymphoproliferative disease, which can become a diffuse large B-cell lymphoma.
+- `connects-to` → **[Myelofibrosis](../myelofibrosis/README.md)** — Transplant for a marrow disease: allogeneic stem-cell transplant is the only cure for myelofibrosis, but graft-versus-host disease is a major source of its transplant-related morbidity and mortality.
 
 [^ferrara-2009-gvhd-review]: Ferrara JL, Levine JE, Reddy P, Holler E. Graft-versus-host disease. *Lancet.* 2009;373(9674):1550-1561. [doi:10.1016/S0140-6736(09)60237-3](https://doi.org/10.1016/S0140-6736(09)60237-3) · [PubMed 19380114](https://pubmed.ncbi.nlm.nih.gov/19380114/)
 [^zeiser-2020-ruxolitinib-gvhd-reach]: Zeiser R, von Bubnoff N, Butler J, et al. Ruxolitinib for Glucocorticoid-Refractory Acute Graft-versus-Host Disease. *N Engl J Med.* 2020;382(19):1800-1810. [doi:10.1056/NEJMoa1917635](https://doi.org/10.1056/NEJMoa1917635) · [PubMed 32374962](https://pubmed.ncbi.nlm.nih.gov/32374962/)
