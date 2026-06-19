@@ -277,6 +277,15 @@ cross_links:
   - target: 01-human/03-molecular/il-2
     relation: connects-to
     note: "T-cell growth axis: IL-2 and its receptor subunit CD25 drive the proliferation of malignant T cells in peripheral T-cell lymphoma, and CD25 is exploited by targeted antibody-drug conjugates."
+  - target: 01-human/03-molecular/tnf-alpha
+    relation: connects-to
+    note: "Inflammatory milieu: TNF-α within the peripheral T-cell lymphoma microenvironment drives the B symptoms and supports the malignant T-cell clone."
+  - target: 01-human/03-molecular/cyclin-d1
+    relation: connects-to
+    note: "Cell-cycle drive: cyclin D-CDK4/6 activity propels malignant T cells through the G1 checkpoint in peripheral T-cell lymphoma, fuelling its proliferation."
+  - target: 01-human/03-molecular/hif-1alpha
+    relation: connects-to
+    note: "Tumour hypoxia: HIF-1α stabilised in the hypoxic nodal microenvironment supports the metabolism and angiogenesis of peripheral T-cell lymphoma."
 ---
 
 # Peripheral T-cell Lymphoma
@@ -508,6 +517,9 @@ Aggressive presentation; generalized lymphadenopathy; extranodal involvement (~6
 - `connects-to` → **[EZH2](../../03-molecular/ezh2/README.md)** — Epigenetic dysregulation: EZH2 and the broader epigenetic machinery (with TET2, DNMT3A and IDH2) are deranged in angioimmunoblastic and other peripheral T-cell lymphomas, a rationale for epigenetic therapy.
 - `connects-to` → **[IFN-γ](../../03-molecular/ifn-gamma/README.md)** — Inflammatory microenvironment: an IFN-γ-rich, cytotoxic-skewed microenvironment characterises many peripheral T-cell lymphomas, driving the B symptoms and immune dysregulation of the disease.
 - `connects-to` → **[IL-2](../../03-molecular/il-2/README.md)** — T-cell growth axis: IL-2 and its receptor subunit CD25 drive the proliferation of malignant T cells in peripheral T-cell lymphoma, and CD25 is exploited by targeted antibody-drug conjugates.
+- `connects-to` → **[TNF-α](../../03-molecular/tnf-alpha/README.md)** — Inflammatory milieu: TNF-α within the peripheral T-cell lymphoma microenvironment drives the B symptoms and supports the malignant T-cell clone.
+- `connects-to` → **[Cyclin D1](../../03-molecular/cyclin-d1/README.md)** — Cell-cycle drive: cyclin D-CDK4/6 activity propels malignant T cells through the G1 checkpoint in peripheral T-cell lymphoma, fuelling its proliferation.
+- `connects-to` → **[HIF-1α](../../03-molecular/hif-1alpha/README.md)** — Tumour hypoxia: HIF-1α stabilised in the hypoxic nodal microenvironment supports the metabolism and angiogenesis of peripheral T-cell lymphoma.
 
 ---
 

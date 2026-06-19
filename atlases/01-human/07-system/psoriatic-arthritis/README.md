@@ -285,6 +285,15 @@ cross_links:
   - target: 01-human/03-molecular/vegf
     relation: connects-to
     note: "Distinctive synovial vasculature: VEGF-driven angiogenesis produces the tortuous, bushy synovial vessels characteristic of psoriatic arthritis, differing from the pattern in rheumatoid arthritis."
+  - target: 01-human/03-molecular/il-1b
+    relation: connects-to
+    note: "Innate inflammation: IL-1β contributes to the enthesitis and joint inflammation of psoriatic arthritis, part of the innate immune activation upstream of the IL-23/IL-17 axis."
+  - target: 01-human/03-molecular/nlrp3-inflammasome
+    relation: connects-to
+    note: "Inflammasome activation: NLRP3-inflammasome activation matures the IL-1β that drives the enthesitis and synovitis of psoriatic arthritis."
+  - target: 01-human/03-molecular/ifn-gamma
+    relation: connects-to
+    note: "Th1 component: IFN-γ from Th1 cells adds to the mixed cytokine milieu of psoriatic arthritis alongside the dominant Th17/IL-17 response."
 ---
 
 # Psoriatic Arthritis
@@ -521,6 +530,9 @@ Risankizumab (anti-IL-23p19) **failed primary endpoints** in the SURPASS trial f
 - `connects-to` → **[IL-6](../../03-molecular/il-6/README.md)** — Systemic inflammation: IL-6 contributes to the synovitis of psoriatic arthritis and to its comorbid cardiovascular and metabolic disease burden.
 - `connects-to` → **[Prostaglandins](../../03-molecular/prostaglandins/README.md)** — Eicosanoid pain pathway: COX-derived prostaglandins drive the joint pain and inflammation of psoriatic arthritis, the target of NSAIDs used for first-line symptom relief.
 - `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — Distinctive synovial vasculature: VEGF-driven angiogenesis produces the tortuous, bushy synovial vessels characteristic of psoriatic arthritis, differing from the pattern in rheumatoid arthritis.
+- `connects-to` → **[IL-1β](../../03-molecular/il-1b/README.md)** — Innate inflammation: IL-1β contributes to the enthesitis and joint inflammation of psoriatic arthritis, part of the innate immune activation upstream of the IL-23/IL-17 axis.
+- `connects-to` → **[NLRP3 Inflammasome](../../03-molecular/nlrp3-inflammasome/README.md)** — Inflammasome activation: NLRP3-inflammasome activation matures the IL-1β that drives the enthesitis and synovitis of psoriatic arthritis.
+- `connects-to` → **[IFN-γ](../../03-molecular/ifn-gamma/README.md)** — Th1 component: IFN-γ from Th1 cells adds to the mixed cytokine milieu of psoriatic arthritis alongside the dominant Th17/IL-17 response.
 
 [^ritchlin-2017-psa-review]: Ritchlin CT, Colbert RA, Gladman DD. Psoriatic arthritis. *N Engl J Med.* 2017;376(10):957-970. [doi:10.1056/NEJMra1505557](https://doi.org/10.1056/NEJMra1505557) · [PubMed 28273019](https://pubmed.ncbi.nlm.nih.gov/28273019/)
 [^mease-2015-secukinumab-psa-future2]: Mease PJ, et al. Secukinumab inhibition of interleukin-17A in patients with psoriatic arthritis. *N Engl J Med.* 2015;373(14):1329-1339. [doi:10.1056/NEJMoa1503317](https://doi.org/10.1056/NEJMoa1503317) · [PubMed 26422723](https://pubmed.ncbi.nlm.nih.gov/26422723/)
