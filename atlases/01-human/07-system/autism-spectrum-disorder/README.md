@@ -274,6 +274,15 @@ cross_links:
   - target: 01-human/05-tissue/cortical-bone
     relation: connects-to
     note: "Lower bone density: restricted diets, reduced weight-bearing activity and SSRI use leave many autistic individuals with reduced cortical-bone density and a higher fracture risk."
+  - target: 01-human/07-system/covid-19-disease
+    relation: connects-to
+    note: "Maternal immune activation and disrupted care: maternal COVID-19 (like influenza) joins the infections studied for neurodevelopmental risk in offspring, while the pandemic disrupted autism diagnosis and therapy services."
+  - target: 01-human/07-system/borderline-personality-disorder
+    relation: connects-to
+    note: "An overlapping differential: autism and borderline personality disorder share emotional dysregulation and social difficulty and are frequently confused, especially in autistic women diagnosed late."
+  - target: 01-human/07-system/internet-gaming-disorder
+    relation: connects-to
+    note: "Screens as refuge and risk: autistic individuals have markedly higher rates of problematic internet and gaming use, the predictable, controllable digital world offering both comfort and a route to dependence."
 ---
 
 # Autism Spectrum Disorder
@@ -496,6 +505,9 @@ The neural basis of ASD social deficits involves dysfunction of the **social bra
 - `connects-to` → **[Germinal Center](../../05-tissue/germinal-center/README.md)** — Maternal immune activation: prenatal infection and maternal autoantibodies—made by germinal-centre B cells—are linked to autism risk, implicating the maternal adaptive immune response in fetal brain development.
 - `connects-to` → **[Narcolepsy](../narcolepsy/README.md)** — Pervasive sleep disruption: autism features high rates of insomnia and circadian/REM sleep abnormalities that overlap the sleep-wake dysregulation of narcolepsy, and melatonin helps the disturbed sleep in both.
 - `connects-to` → **[Cortical Bone](../../05-tissue/cortical-bone/README.md)** — Lower bone density: restricted diets, reduced weight-bearing activity and SSRI use leave many autistic individuals with reduced cortical-bone density and a higher fracture risk.
+- `connects-to` → **[COVID-19 Disease](../covid-19-disease/README.md)** — Maternal immune activation and disrupted care: maternal COVID-19 (like influenza) joins the infections studied for neurodevelopmental risk in offspring, while the pandemic disrupted autism diagnosis and therapy services.
+- `connects-to` → **[Borderline Personality Disorder](../borderline-personality-disorder/README.md)** — An overlapping differential: autism and borderline personality disorder share emotional dysregulation and social difficulty and are frequently confused, especially in autistic women diagnosed late.
+- `connects-to` → **[Internet Gaming Disorder](../internet-gaming-disorder/README.md)** — Screens as refuge and risk: autistic individuals have markedly higher rates of problematic internet and gaming use, the predictable, controllable digital world offering both comfort and a route to dependence.
 
 [^maenner-2023-asd-prevalence]: Maenner MJ, Warren Z, Williams AR, et al. Prevalence and characteristics of autism spectrum disorder among children aged 8 years — ADDM Network, 2020. *MMWR Surveill Summ.* 2023;72(2):1-14. [doi:10.15585/mmwr.ss7202a1](https://doi.org/10.15585/mmwr.ss7202a1) · [PubMed 36952216](https://pubmed.ncbi.nlm.nih.gov/36952216/)
 [^lord-2020-asd-review]: Lord C, Elsabbagh M, Baird G, Veenstra-Vanderweele J. Autism spectrum disorder. *Lancet.* 2018;392(10146):508-520. [doi:10.1016/S0140-6736(18)31129-2](https://doi.org/10.1016/S0140-6736(18)31129-2) · [PubMed 30078460](https://pubmed.ncbi.nlm.nih.gov/30078460/)

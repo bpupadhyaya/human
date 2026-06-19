@@ -265,6 +265,15 @@ cross_links:
   - target: 01-human/07-system/nmo
     relation: connects-to
     note: "Clustering autoimmunity: antiphospholipid syndrome co-occurs with other autoantibody diseases including neuromyelitis optica and lupus, reflecting a shared tendency to break B-cell tolerance."
+  - target: 01-human/07-system/polycythemia-vera
+    relation: connects-to
+    note: "Unusual-site thrombosis workup: antiphospholipid syndrome and JAK2-mutant myeloproliferative neoplasms like polycythaemia vera are both sought in Budd-Chiari and cerebral-vein thrombosis, two acquired causes of clots in odd places."
+  - target: 01-human/05-tissue/cortical-bone
+    relation: connects-to
+    note: "Osteonecrosis: antiphospholipid microthrombi—and the corticosteroids often used with it—starve the blood supply to bone, causing avascular necrosis (osteonecrosis) of the femoral head and other cortical bone."
+  - target: 01-human/07-system/systemic-sclerosis
+    relation: connects-to
+    note: "Overlapping connective-tissue autoimmunity: antiphospholipid antibodies and a thrombotic vasculopathy occur in systemic sclerosis and other connective-tissue diseases, compounding their own microvascular injury."
 ---
 
 # Antiphospholipid Syndrome
@@ -493,6 +502,9 @@ In APS, anti-B2GPI IgG bound to B2GPI on phospholipid surfaces converts this ant
 - `connects-to` → **[Myocardium](../../05-tissue/myocardium/README.md)** — It clots the coronary arteries: antiphospholipid syndrome causes myocardial infarction in young patients and microthrombi within the myocardium, a cardiac face beyond its Libman-Sacks valve disease.
 - `connects-to` → **[Germinal Center](../../05-tissue/germinal-center/README.md)** — Where the autoantibodies form: the anti-β2-glycoprotein-I and anticardiolipin antibodies driving APS arise from germinal-centre B-cell responses, which is why B-cell depletion is tried in refractory disease.
 - `connects-to` → **[NMO](../nmo/README.md)** — Clustering autoimmunity: antiphospholipid syndrome co-occurs with other autoantibody diseases including neuromyelitis optica and lupus, reflecting a shared tendency to break B-cell tolerance.
+- `connects-to` → **[Polycythemia Vera](../polycythemia-vera/README.md)** — Unusual-site thrombosis workup: antiphospholipid syndrome and JAK2-mutant myeloproliferative neoplasms like polycythaemia vera are both sought in Budd-Chiari and cerebral-vein thrombosis, two acquired causes of clots in odd places.
+- `connects-to` → **[Cortical Bone](../../05-tissue/cortical-bone/README.md)** — Osteonecrosis: antiphospholipid microthrombi—and the corticosteroids often used with it—starve the blood supply to bone, causing avascular necrosis (osteonecrosis) of the femoral head and other cortical bone.
+- `connects-to` → **[Systemic Sclerosis](../systemic-sclerosis/README.md)** — Overlapping connective-tissue autoimmunity: antiphospholipid antibodies and a thrombotic vasculopathy occur in systemic sclerosis and other connective-tissue diseases, compounding their own microvascular injury.
 
 [^miyakis-2006-sydney-aps]: Miyakis S, Lockshin MD, Atsumi T, et al. International consensus statement on an update of the classification criteria for definite antiphospholipid syndrome (APS). *J Thromb Haemost.* 2006;4(2):295-306. [doi:10.1111/j.1538-7836.2006.01753.x](https://doi.org/10.1111/j.1538-7836.2006.01753.x) · [PubMed 16420554](https://pubmed.ncbi.nlm.nih.gov/16420554/)
 [^barbhaiya-2023-acreular-aps]: Barbhaiya M, Zuily S, Naden R, et al. The 2023 ACR/EULAR antiphospholipid syndrome classification criteria. *Ann Rheum Dis.* 2023;82(10):1258-1270. [doi:10.1136/ard-2023-224609](https://doi.org/10.1136/ard-2023-224609) · [PubMed 37643823](https://pubmed.ncbi.nlm.nih.gov/37643823/)
