@@ -268,6 +268,15 @@ cross_links:
   - target: 01-human/07-system/rheumatoid-arthritis
     relation: connects-to
     note: "Immunosuppression and skin cancer: long-term immunosuppressants for rheumatoid arthritis (azathioprine and, to a lesser degree, biologics) raise the risk of basal and other skin cancers, demanding surveillance."
+  - target: 01-human/03-molecular/sufu
+    relation: connects-to
+    note: "Hedgehog brake released: SUFU negatively regulates Hedgehog signalling downstream of SMO, and germline SUFU mutations predispose to basal cell carcinoma and medulloblastoma, overlapping Gorlin syndrome."
+  - target: 01-human/03-molecular/yap1
+    relation: connects-to
+    note: "Hippo-YAP cooperation: nuclear YAP from a deregulated Hippo pathway drives basal cell carcinoma proliferation and cooperates with Hedgehog signalling to sustain tumour growth."
+  - target: 01-human/03-molecular/pten
+    relation: connects-to
+    note: "PI3K-AKT crosstalk: loss of the PTEN tumour suppressor activates PI3K-AKT-mTOR signalling that cooperates with Hedgehog in basal cell carcinoma and is implicated in resistance to SMO inhibitors."
 ---
 
 # Basal Cell Carcinoma
@@ -473,6 +482,9 @@ BCC has a complex immune microenvironment:
 - `connects-to` → **[Bloom Syndrome](../bloom-syndrome/README.md)** — DNA-repair genodermatoses: like Bloom syndrome, defects in DNA repair leave skin unable to fix UV damage, raising basal cell and other skin cancers from sun exposure.
 - `connects-to` → **[Werner Syndrome](../werner-syndrome/README.md)** — Premature ageing and skin cancer: the progeroid Werner syndrome, through WRN-helicase loss and accelerated cellular ageing, raises the risk of skin and other cancers including non-melanoma types.
 - `connects-to` → **[Rheumatoid Arthritis](../rheumatoid-arthritis/README.md)** — Immunosuppression and skin cancer: long-term immunosuppressants for rheumatoid arthritis (azathioprine and, to a lesser degree, biologics) raise the risk of basal and other skin cancers, demanding surveillance.
+- `connects-to` → **[SUFU](../../03-molecular/sufu/README.md)** — Hedgehog brake released: SUFU negatively regulates Hedgehog signalling downstream of SMO, and germline SUFU mutations predispose to basal cell carcinoma and medulloblastoma, overlapping Gorlin syndrome.
+- `connects-to` → **[YAP1](../../03-molecular/yap1/README.md)** — Hippo-YAP cooperation: nuclear YAP from a deregulated Hippo pathway drives basal cell carcinoma proliferation and cooperates with Hedgehog signalling to sustain tumour growth.
+- `connects-to` → **[PTEN](../../03-molecular/pten/README.md)** — PI3K-AKT crosstalk: loss of the PTEN tumour suppressor activates PI3K-AKT-mTOR signalling that cooperates with Hedgehog in basal cell carcinoma and is implicated in resistance to SMO inhibitors.
 
 ---
 

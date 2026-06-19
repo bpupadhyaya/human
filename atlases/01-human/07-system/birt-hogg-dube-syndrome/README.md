@@ -268,6 +268,15 @@ cross_links:
   - target: 01-human/05-tissue/intestinal-epithelium
     relation: connects-to
     note: "A debated colon link: some studies tie Birt-Hogg-Dubé to colorectal polyps and cancer through FLCN loss in the intestinal epithelium, though the association remains controversial."
+  - target: 01-human/03-molecular/tsc1-tsc2
+    relation: connects-to
+    note: "mTOR convergence: FLCN and the TSC1-TSC2 complex both regulate mTORC1, and the two hamartoma syndromes share cystic lung disease and renal lesions, framing BHD as a sister mTOR-pathway disorder."
+  - target: 01-human/03-molecular/yap1
+    relation: connects-to
+    note: "Hippo dysregulation: FLCN loss can deregulate the Hippo-YAP pathway, an additional driver implicated in the oncocytic and chromophobe renal tumours characteristic of Birt-Hogg-Dubé."
+  - target: 01-human/07-system/pheochromocytoma-paraganglioma
+    relation: connects-to
+    note: "Pseudohypoxic overlap: like SDH- and VHL-driven pheochromocytoma-paraganglioma, FLCN-deficient BHD tumours show HIF-1α-driven pseudohypoxic, angiogenic signalling within the inherited renal/endocrine tumour spectrum."
 ---
 
 # Birt-Hogg-Dubé Syndrome
@@ -492,6 +501,9 @@ Definite BHD: 1 major OR 2 minor criteria (European BHD Consortium definition)
 - `connects-to` → **[Marfan Syndrome](../marfan-syndrome/README.md)** — Two genetic causes of spontaneous pneumothorax: Birt-Hogg-Dubé's basal lung cysts and Marfan syndrome's apical blebs both predispose to recurrent collapsed lung, reached by different structural routes.
 - `connects-to` → **[Cystic Fibrosis](../cystic-fibrosis/README.md)** — Cystic lung and air leaks: like cystic fibrosis, Birt-Hogg-Dubé produces a cystic lung architecture prone to recurrent pneumothorax, though its thin-walled basal cysts differ from CF's bronchiectasis.
 - `connects-to` → **[Intestinal Epithelium](../../05-tissue/intestinal-epithelium/README.md)** — A debated colon link: some studies tie Birt-Hogg-Dubé to colorectal polyps and cancer through FLCN loss in the intestinal epithelium, though the association remains controversial.
+- `connects-to` → **[TSC1-TSC2](../../03-molecular/tsc1-tsc2/README.md)** — mTOR convergence: FLCN and the TSC1-TSC2 complex both regulate mTORC1, and the two hamartoma syndromes share cystic lung disease and renal lesions, framing BHD as a sister mTOR-pathway disorder.
+- `connects-to` → **[YAP1](../../03-molecular/yap1/README.md)** — Hippo dysregulation: FLCN loss can deregulate the Hippo-YAP pathway, an additional driver implicated in the oncocytic and chromophobe renal tumours characteristic of Birt-Hogg-Dubé.
+- `connects-to` → **[Pheochromocytoma-Paraganglioma](../pheochromocytoma-paraganglioma/README.md)** — Pseudohypoxic overlap: like SDH- and VHL-driven pheochromocytoma-paraganglioma, FLCN-deficient BHD tumours show HIF-1α-driven pseudohypoxic, angiogenic signalling within the inherited renal/endocrine tumour spectrum.
 
 ---
 
