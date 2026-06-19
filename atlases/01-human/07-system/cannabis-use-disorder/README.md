@@ -258,6 +258,15 @@ cross_links:
   - target: 01-human/07-system/atherosclerosis
     relation: connects-to
     note: "Cannabis arteritis and vascular events: heavy cannabis use can cause a Buerger-like peripheral arteritis and accelerate vascular events, adding atherosclerotic and thrombotic risk to the cardiovascular toll."
+  - target: 01-human/03-molecular/mu-opioid-receptor
+    relation: connects-to
+    note: "Cannabinoid-opioid crosstalk: the CB1 endocannabinoid and mu-opioid reward systems interact closely, so cannabis modulates opioid reward and is studied in the context of opioid use."
+  - target: 01-human/03-molecular/oxytocin
+    relation: connects-to
+    note: "Treatment target: oxytocin, which tempers reward and social stress, is being studied as a therapy to reduce craving and withdrawal in cannabis use disorder."
+  - target: 01-human/03-molecular/orexin
+    relation: connects-to
+    note: "Arousal and sleep: orexin signalling interacts with the endocannabinoid system in arousal and appetite, relevant to the sleep disruption and appetite changes of cannabis use and withdrawal."
 sources:
   - id: hasin-2015-cannabis-disorder
     type: peer-reviewed
@@ -493,6 +502,9 @@ Paradoxical syndrome in heavy long-term users: cyclic vomiting relieved by hot b
 - `connects-to` → **[Myocardium](../../05-tissue/myocardium/README.md)** — Cannabis and the heart muscle: cannabis use, especially high-potency and synthetic cannabinoids, is linked to myocardial infarction, arrhythmia and a stress-type cardiomyopathy, injuring the myocardium even in young users.
 - `connects-to` → **[Intestinal Epithelium](../../05-tissue/intestinal-epithelium/README.md)** — Cannabinoid hyperemesis: CB1 receptors throughout the gut's intestinal epithelium normally curb nausea, but chronic heavy use paradoxically flips this into cyclic vomiting relieved oddly by hot showers.
 - `connects-to` → **[Atherosclerosis](../atherosclerosis/README.md)** — Cannabis arteritis and vascular events: heavy cannabis use can cause a Buerger-like peripheral arteritis and accelerate vascular events, adding atherosclerotic and thrombotic risk to the cardiovascular toll.
+- `connects-to` → **[Mu-Opioid Receptor](../../03-molecular/mu-opioid-receptor/README.md)** — Cannabinoid-opioid crosstalk: the CB1 endocannabinoid and mu-opioid reward systems interact closely, so cannabis modulates opioid reward and is studied in the context of opioid use.
+- `connects-to` → **[Oxytocin](../../03-molecular/oxytocin/README.md)** — Treatment target: oxytocin, which tempers reward and social stress, is being studied as a therapy to reduce craving and withdrawal in cannabis use disorder.
+- `connects-to` → **[Orexin](../../03-molecular/orexin/README.md)** — Arousal and sleep: orexin signalling interacts with the endocannabinoid system in arousal and appetite, relevant to the sleep disruption and appetite changes of cannabis use and withdrawal.
 
 [^hasin-2015-cannabis-disorder]: Hasin DS, Saha TD, Kerridge BT, et al. Prevalence of marijuana use disorders in the United States between 2001-2002 and 2012-2013. *JAMA Psychiatry.* 2015;72(12):1235-1242. [doi:10.1001/jamapsychiatry.2015.1858](https://doi.org/10.1001/jamapsychiatry.2015.1858) · [PubMed 26502112](https://pubmed.ncbi.nlm.nih.gov/26502112/)
 [^budney-2004-cannabis-withdrawal]: Budney AJ, Moore BA, Vandrey RG, Hughes JR. The time course and significance of cannabis withdrawal. *J Abnorm Psychol.* 2003;112(3):393-402. [doi:10.1037/0021-843X.112.3.393](https://doi.org/10.1037/0021-843X.112.3.393) · [PubMed 12943018](https://pubmed.ncbi.nlm.nih.gov/12943018/)

@@ -277,6 +277,15 @@ cross_links:
   - target: 01-human/07-system/ovarian-cancer
     relation: connects-to
     note: "Peritoneal and Lynch links: colorectal cancer can metastasise to the ovary (Krukenberg-type) and seed the peritoneum like ovarian cancer, while Lynch syndrome predisposes to both tumours."
+  - target: 01-human/03-molecular/prostaglandins
+    relation: connects-to
+    note: "COX-2 chemoprevention: COX-2-derived prostaglandins drive colorectal carcinogenesis, and aspirin/NSAID inhibition of this pathway reduces colorectal cancer risk."
+  - target: 01-human/03-molecular/myc
+    relation: connects-to
+    note: "Wnt's oncogene: APC loss and constitutive Wnt signalling activate MYC, a central driver of proliferation in colorectal cancer."
+  - target: 01-human/03-molecular/tgf-beta
+    relation: connects-to
+    note: "Adenoma-to-carcinoma switch: loss of TGF-β/SMAD4 tumour-suppressor signalling drives the progression of colorectal adenomas to invasive, metastatic carcinoma."
 ---
 
 # Colorectal Cancer
@@ -479,6 +488,9 @@ The step-wise genetic progression from normal epithelium to carcinoma in CRC was
 - `connects-to` → **[Melanoma](../melanoma/README.md)** — Same mutation, different drug response: BRAF V600E drives a colorectal cancer subset and melanoma, yet BRAF inhibitors alone fail in colon cancer because EGFR feedback reactivates the pathway—so combinations with anti-EGFR are needed.
 - `connects-to` → **[Gastric Cancer](../gastric-cancer/README.md)** — Shared GI adenocarcinoma biology: colorectal and gastric cancers overlap in HER2-targeted therapy, microsatellite-instability immunotherapy and Lynch-syndrome predisposition, two adenocarcinomas of the gut tube.
 - `connects-to` → **[Ovarian Cancer](../ovarian-cancer/README.md)** — Peritoneal and Lynch links: colorectal cancer can metastasise to the ovary (Krukenberg-type) and seed the peritoneum like ovarian cancer, while Lynch syndrome predisposes to both tumours.
+- `connects-to` → **[Prostaglandins](../../03-molecular/prostaglandins/README.md)** — COX-2 chemoprevention: COX-2-derived prostaglandins drive colorectal carcinogenesis, and aspirin/NSAID inhibition of this pathway reduces colorectal cancer risk.
+- `connects-to` → **[MYC](../../03-molecular/myc/README.md)** — Wnt's oncogene: APC loss and constitutive Wnt signalling activate MYC, a central driver of proliferation in colorectal cancer.
+- `connects-to` → **[TGF-β](../../03-molecular/tgf-beta/README.md)** — Adenoma-to-carcinoma switch: loss of TGF-β/SMAD4 tumour-suppressor signalling drives the progression of colorectal adenomas to invasive, metastatic carcinoma.
 
 ---
 
