@@ -268,6 +268,15 @@ cross_links:
   - target: 01-human/07-system/colorectal-cancer
     relation: connects-to
     note: "Wnt/beta-catenin in common: CTNNB1-activating mutations drive a subset of Wilms tumours just as constitutive Wnt/beta-catenin signalling drives colorectal cancer, the same pathway hijacked in very different tissues."
+  - target: 01-human/03-molecular/myc
+    relation: connects-to
+    note: "Amplified oncogene: MYC, alongside MYCN, drives the proliferation of Wilms tumour, particularly its undifferentiated blastemal component."
+  - target: 01-human/03-molecular/ezh2
+    relation: connects-to
+    note: "Blastemal epigenetics: EZH2/polycomb activity helps maintain the undifferentiated blastemal cells of Wilms tumour, a candidate epigenetic vulnerability."
+  - target: 01-human/03-molecular/tert
+    relation: connects-to
+    note: "Telomere maintenance: TERT activation supports replicative immortality and marks higher-risk, relapse-prone Wilms tumour."
 ---
 
 # Wilms Tumor
@@ -480,6 +489,9 @@ Wilms tumor survivors face late effects proportional to treatment intensity:
 - `connects-to` → **[Ovarian Cancer](../ovarian-cancer/README.md)** — A shared diagnostic marker: WT1, the gene behind Wilms tumour, is a key immunohistochemical marker also expressed by serous ovarian carcinoma and mesothelioma, tying an embryonal kidney cancer to adult tumours.
 - `connects-to` → **[MDS](../mds/README.md)** — WT1 in the marrow: WT1 is overexpressed in acute myeloid leukaemia and myelodysplasia, where it serves as a minimal-residual-disease marker—the same gene whose loss drives Wilms tumour acting as an oncogene in myeloid cells.
 - `connects-to` → **[Colorectal Cancer](../colorectal-cancer/README.md)** — Wnt/beta-catenin in common: CTNNB1-activating mutations drive a subset of Wilms tumours just as constitutive Wnt/beta-catenin signalling drives colorectal cancer, the same pathway hijacked in very different tissues.
+- `connects-to` → **[MYC](../../03-molecular/myc/README.md)** — Amplified oncogene: MYC, alongside MYCN, drives the proliferation of Wilms tumour, particularly its undifferentiated blastemal component.
+- `connects-to` → **[EZH2](../../03-molecular/ezh2/README.md)** — Blastemal epigenetics: EZH2/polycomb activity helps maintain the undifferentiated blastemal cells of Wilms tumour, a candidate epigenetic vulnerability.
+- `connects-to` → **[TERT](../../03-molecular/tert/README.md)** — Telomere maintenance: TERT activation supports replicative immortality and marks higher-risk, relapse-prone Wilms tumour.
 
 [^dome-2015-wilms]: Dome JS, Graf N, Geller JI, et al. Advances in Wilms tumor treatment and biology: progress through international collaboration. *J Clin Oncol.* 2015;33(27):2999-3007. [doi:10.1200/JCO.2015.62.1888](https://doi.org/10.1200/JCO.2015.62.1888) · [PubMed 26261251](https://pubmed.ncbi.nlm.nih.gov/26261251/)
 [^dix-2006-arenl0002]: Dix DB, Bhatt SM, Geller JI, et al. Treatment of Stage IV favorable histology Wilms tumor with incomplete lung metastasis response after chemotherapy: a report from Children's Oncology Group Study AREN0533. *J Clin Oncol.* 2018;36(16):1564-1570. [doi:10.1200/JCO.2017.77.1877](https://doi.org/10.1200/JCO.2017.77.1877) · [PubMed 29584550](https://pubmed.ncbi.nlm.nih.gov/29584550/)

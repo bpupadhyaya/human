@@ -274,6 +274,15 @@ cross_links:
   - target: 01-human/03-molecular/fgfr
     relation: connects-to
     note: "Growth-factor drive: FGF signalling through FGFR spurs the keratinocyte proliferation, angiogenesis and fibroblast activation of wound repair, one of the core pathways re-epithelialising and rebuilding injured tissue."
+  - target: 01-human/03-molecular/egfr
+    relation: connects-to
+    note: "Re-epithelialisation: EGF signalling through EGFR drives the keratinocyte proliferation and migration that resurface a wound, the phase whose failure leaves a chronic ulcer."
+  - target: 01-human/03-molecular/il-1b
+    relation: connects-to
+    note: "Inflammatory phase: IL-1β orchestrates the early inflammatory response to injury, but its persistence in chronic wounds stalls them in a non-healing inflammatory state."
+  - target: 01-human/03-molecular/igf-1
+    relation: connects-to
+    note: "Proliferative repair: IGF-1 stimulates fibroblast proliferation, collagen synthesis and granulation tissue, and its deficiency contributes to impaired healing in diabetes and ageing."
 ---
 
 # Wound Healing
@@ -478,6 +487,9 @@ cross_links:
 - `connects-to` → **[Arterial Wall](../../05-tissue/arterial-wall/README.md)** — Granulation needs new vessels: wound healing depends on VEGF-driven angiogenesis to build the capillary-rich granulation tissue, and poor arterial perfusion as in peripheral artery disease stalls repair into chronic non-healing wounds.
 - `connects-to` → **[Hepatic Lobule](../../05-tissue/hepatic-lobule/README.md)** — The regeneration paradigm: the liver is the body's premier regenerating organ, and the same wound-healing programmes that restore the hepatic lobule after injury, when chronic, lay down the scar of cirrhosis.
 - `connects-to` → **[FGFR](../../03-molecular/fgfr/README.md)** — Growth-factor drive: FGF signalling through FGFR spurs the keratinocyte proliferation, angiogenesis and fibroblast activation of wound repair, one of the core pathways re-epithelialising and rebuilding injured tissue.
+- `connects-to` → **[EGFR](../../03-molecular/egfr/README.md)** — Re-epithelialisation: EGF signalling through EGFR drives the keratinocyte proliferation and migration that resurface a wound, the phase whose failure leaves a chronic ulcer.
+- `connects-to` → **[IL-1β](../../03-molecular/il-1b/README.md)** — Inflammatory phase: IL-1β orchestrates the early inflammatory response to injury, but its persistence in chronic wounds stalls them in a non-healing inflammatory state.
+- `connects-to` → **[IGF-1](../../03-molecular/igf-1/README.md)** — Proliferative repair: IGF-1 stimulates fibroblast proliferation, collagen synthesis and granulation tissue, and its deficiency contributes to impaired healing in diabetes and ageing.
 
 [^singer-1999-wound-healing-review]: Singer AJ, Clark RA. Cutaneous wound healing. *N Engl J Med.* 1999;341(10):738-746. [doi:10.1056/NEJM199909023411006](https://doi.org/10.1056/NEJM199909023411006) · [PubMed 10471461](https://pubmed.ncbi.nlm.nih.gov/10471461/)
 [^gurtner-2008-wound-repair-regeneration]: Gurtner GC, Werner S, Barrandon Y, Longaker MT. Wound repair and regeneration. *Nature.* 2008;453(7193):314-321. [doi:10.1038/nature07039](https://doi.org/10.1038/nature07039) · [PubMed 18480812](https://pubmed.ncbi.nlm.nih.gov/18480812/)
