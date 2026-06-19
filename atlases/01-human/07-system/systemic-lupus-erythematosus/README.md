@@ -259,6 +259,15 @@ cross_links:
   - target: 01-human/07-system/nmo
     relation: connects-to
     note: "An associated neuro-autoimmunity: neuromyelitis optica occurs more often in people with SLE and Sjögren's, the systemic autoimmunity overlapping with the aquaporin-4 antibody attack on the central nervous system."
+  - target: 01-human/07-system/dlbcl
+    relation: connects-to
+    note: "Chronic activation and lymphoma: SLE's persistent B-cell hyperactivity modestly raises the risk of non-Hodgkin lymphoma, particularly diffuse large B-cell lymphoma, on top of immunosuppression effects."
+  - target: 01-human/07-system/dermatomyositis
+    relation: connects-to
+    note: "Overlapping connective-tissue disease: SLE and dermatomyositis can coexist in overlap and mixed connective-tissue syndromes, sharing interferon-driven autoimmunity though they target different organs."
+  - target: 01-human/05-tissue/myocardium
+    relation: connects-to
+    note: "Lupus inflames the heart muscle: beyond Libman-Sacks endocarditis, SLE causes a myocarditis of the myocardium with reduced contractility and arrhythmia, part of its broad cardiac involvement."
 ---
 
 # Systemic Lupus Erythematosus
@@ -463,6 +472,9 @@ Highly polygenic disease with >100 susceptibility loci; heritability ~66%:
 - `connects-to` → **[Germinal Center](../../05-tissue/germinal-center/README.md)** — Where its autoantibodies are born: SLE arises from loss of B-cell tolerance with autoreactive plasma cells maturing in germinal centres to make anti-dsDNA and anti-Sm, the source targeted by belimumab (anti-BAFF) and rituximab.
 - `connects-to` → **[Endocardium](../../05-tissue/endocardium/README.md)** — Libman-Sacks endocarditis: SLE deposits sterile verrucous vegetations on the heart valves and endocardium, worsened by antiphospholipid antibodies and a source of emboli and valve dysfunction.
 - `connects-to` → **[NMO](../nmo/README.md)** — An associated neuro-autoimmunity: neuromyelitis optica occurs more often in people with SLE and Sjögren's, the systemic autoimmunity overlapping with the aquaporin-4 antibody attack on the central nervous system.
+- `connects-to` → **[DLBCL](../dlbcl/README.md)** — Chronic activation and lymphoma: SLE's persistent B-cell hyperactivity modestly raises the risk of non-Hodgkin lymphoma, particularly diffuse large B-cell lymphoma, on top of immunosuppression effects.
+- `connects-to` → **[Dermatomyositis](../dermatomyositis/README.md)** — Overlapping connective-tissue disease: SLE and dermatomyositis can coexist in overlap and mixed connective-tissue syndromes, sharing interferon-driven autoimmunity though they target different organs.
+- `connects-to` → **[Myocardium](../../05-tissue/myocardium/README.md)** — Lupus inflames the heart muscle: beyond Libman-Sacks endocarditis, SLE causes a myocarditis of the myocardium with reduced contractility and arrhythmia, part of its broad cardiac involvement.
 
 [^tsokos-2011-sle-review]: Tsokos GC. Systemic lupus erythematosus. *N Engl J Med.* 2011;365(22):2110-2121. [doi:10.1056/NEJMra1100359](https://doi.org/10.1056/NEJMra1100359) · [PubMed 22129253](https://pubmed.ncbi.nlm.nih.gov/22129253/)
 [^furie-2011-belimumab]: Furie R, Petri M, Zamani O, et al. A phase III, randomized, placebo-controlled study of belimumab, a monoclonal antibody that inhibits B lymphocyte stimulator, in patients with systemic lupus erythematosus. *Arthritis Rheum.* 2011;63(12):3918-3930. [doi:10.1002/art.30613](https://doi.org/10.1002/art.30613) · [PubMed 22127708](https://pubmed.ncbi.nlm.nih.gov/22127708/)

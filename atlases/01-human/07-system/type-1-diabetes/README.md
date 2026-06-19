@@ -259,6 +259,15 @@ cross_links:
   - target: 01-human/07-system/covid-19-disease
     relation: connects-to
     note: "It can be precipitated by infection: COVID-19 and other viral infections are linked to new-onset type 1 diabetes, with viral injury and molecular mimicry implicated in triggering islet autoimmunity in susceptible children."
+  - target: 01-human/07-system/psoriasis
+    relation: connects-to
+    note: "Shared autoimmune ground: type 1 diabetes and psoriasis cluster together, the two sharing immune-regulatory susceptibility loci that tilt toward autoimmunity across organs."
+  - target: 01-human/07-system/cystic-fibrosis
+    relation: connects-to
+    note: "A different route to insulin lack: cystic-fibrosis-related diabetes arises from progressive pancreatic destruction, a hybrid of the insulin deficiency of type 1 and resistance—the commonest CF comorbidity in adults."
+  - target: 01-human/05-tissue/myocardium
+    relation: connects-to
+    note: "Diabetic cardiomyopathy from youth: lifelong type 1 diabetes stiffens and scars the myocardium through AGE deposition and microvascular disease, raising heart-failure risk independent of coronary disease."
 ---
 
 # Type 1 Diabetes
@@ -435,6 +444,9 @@ cross_links:
 - `connects-to` → **[Arterial Wall](../../05-tissue/arterial-wall/README.md)** — Macrovascular disease shortens it: type 1 diabetes accelerates atherosclerosis and arterial stiffening, so cardiovascular disease is the leading cause of death in long-standing T1D despite good glucose control.
 - `connects-to` → **[Germinal Center](../../05-tissue/germinal-center/README.md)** — Its autoantibodies signal the autoimmunity: type 1 diabetes is a T-cell attack on beta cells, but islet autoantibodies (anti-GAD, anti-IA2) made with germinal-centre B-cell help mark the loss of tolerance and predict onset.
 - `connects-to` → **[COVID-19 Disease](../covid-19-disease/README.md)** — It can be precipitated by infection: COVID-19 and other viral infections are linked to new-onset type 1 diabetes, with viral injury and molecular mimicry implicated in triggering islet autoimmunity in susceptible children.
+- `connects-to` → **[Psoriasis](../psoriasis/README.md)** — Shared autoimmune ground: type 1 diabetes and psoriasis cluster together, the two sharing immune-regulatory susceptibility loci that tilt toward autoimmunity across organs.
+- `connects-to` → **[Cystic Fibrosis](../cystic-fibrosis/README.md)** — A different route to insulin lack: cystic-fibrosis-related diabetes arises from progressive pancreatic destruction, a hybrid of the insulin deficiency of type 1 and resistance—the commonest CF comorbidity in adults.
+- `connects-to` → **[Myocardium](../../05-tissue/myocardium/README.md)** — Diabetic cardiomyopathy from youth: lifelong type 1 diabetes stiffens and scars the myocardium through AGE deposition and microvascular disease, raising heart-failure risk independent of coronary disease.
 
 [^atkinson-2014-t1d-lancet]: Atkinson MA, Eisenbarth GS, Michels AW. Type 1 diabetes. *Lancet.* 2014;383(9911):69-82. [doi:10.1016/S0140-6736(13)60591-7](https://doi.org/10.1016/S0140-6736(13)60591-7) · [PubMed 23890997](https://pubmed.ncbi.nlm.nih.gov/23890997/)
 [^herold-2019-teplizumab-t1d]: Herold KC, Bundy BN, Long SA, et al. An anti-CD3 antibody, teplizumab, in relatives at risk for type 1 diabetes. *N Engl J Med.* 2019;381(7):603-613. [doi:10.1056/NEJMoa1905155](https://doi.org/10.1056/NEJMoa1905155) · [PubMed 31180675](https://pubmed.ncbi.nlm.nih.gov/31180675/)
