@@ -259,6 +259,15 @@ cross_links:
   - target: 01-human/07-system/wilms-tumor
     relation: connects-to
     note: "Another childhood small-cell tumour: Wilms tumour and Ewing sarcoma are both paediatric malignancies treated on cooperative-group protocols, differentiated by site (kidney vs bone) and molecular markers."
+  - target: 01-human/05-tissue/alveolus
+    relation: connects-to
+    note: "Lung-predominant metastasis: Ewing sarcoma spreads chiefly to the lungs and bone, seeding the alveolar parenchyma—isolated pulmonary metastases carry a better prognosis than bone spread."
+  - target: 01-human/05-tissue/myocardium
+    relation: connects-to
+    note: "Chemotherapy cardiotoxicity: the anthracycline-heavy regimens (doxorubicin) that cure Ewing sarcoma can leave childhood survivors with a late cardiomyopathy of the myocardium."
+  - target: 01-human/07-system/breast-cancer
+    relation: connects-to
+    note: "Late second cancers: childhood Ewing survivors treated with radiation face raised risks of second malignancies, including breast cancer after chest irradiation and therapy-related leukaemia."
 ---
 
 # Ewing Sarcoma
@@ -462,6 +471,9 @@ After induction → surgical specimen assessed for percent tumor necrosis (Salze
 - `connects-to` → **[Axonal Transport](../../05-tissue/axonal-transport/README.md)** — Neuroectodermal character: Ewing sarcoma (once called PNET) shows neural differentiation and expresses neuronal markers, reflecting a neuroectodermal lineage despite arising in bone.
 - `connects-to` → **[Burkitt Lymphoma](../burkitt-lymphoma/README.md)** — A small-round-blue-cell mimic: Ewing sarcoma joins Burkitt lymphoma, neuroblastoma and rhabdomyosarcoma in the small-round-blue-cell tumour differential of childhood, distinguished by EWSR1 rearrangement.
 - `connects-to` → **[Wilms Tumor](../wilms-tumor/README.md)** — Another childhood small-cell tumour: Wilms tumour and Ewing sarcoma are both paediatric malignancies treated on cooperative-group protocols, differentiated by site (kidney vs bone) and molecular markers.
+- `connects-to` → **[Alveolus](../../05-tissue/alveolus/README.md)** — Lung-predominant metastasis: Ewing sarcoma spreads chiefly to the lungs and bone, seeding the alveolar parenchyma—isolated pulmonary metastases carry a better prognosis than bone spread.
+- `connects-to` → **[Myocardium](../../05-tissue/myocardium/README.md)** — Chemotherapy cardiotoxicity: the anthracycline-heavy regimens (doxorubicin) that cure Ewing sarcoma can leave childhood survivors with a late cardiomyopathy of the myocardium.
+- `connects-to` → **[Breast Cancer](../breast-cancer/README.md)** — Late second cancers: childhood Ewing survivors treated with radiation face raised risks of second malignancies, including breast cancer after chest irradiation and therapy-related leukaemia.
 
 ---
 

@@ -259,6 +259,15 @@ cross_links:
   - target: 01-human/07-system/li-fraumeni-syndrome
     relation: connects-to
     note: "Childhood-and-adult tumour syndromes: like Li-Fraumeni, FAP is an autosomal-dominant predisposition striking from childhood (hepatoblastoma, medulloblastoma) into adulthood, demanding lifelong multi-organ surveillance."
+  - target: 01-human/07-system/cholangiocarcinoma
+    relation: connects-to
+    note: "Hepatobiliary tumours: beyond colorectal cancer, FAP raises the risk of ampullary, biliary and pancreatic adenocarcinomas, including cholangiocarcinoma of the bile ducts."
+  - target: 01-human/07-system/hcc
+    relation: connects-to
+    note: "Childhood liver cancer: FAP raises the risk of hepatoblastoma in young children, a primary liver tumour distinct from adult hepatocellular carcinoma but reflecting APC/Wnt's role in the liver."
+  - target: 01-human/07-system/bladder-cancer
+    relation: connects-to
+    note: "Urinary-tract tumours: FAP can produce adenomatous polyps and rare carcinomas of the urinary tract, an uncommon extracolonic manifestation of widespread APC loss."
 ---
 
 # Familial Adenomatous Polyposis
@@ -479,6 +488,9 @@ With modern surveillance and prophylactic colectomy: FAP is no longer an inevita
 - `connects-to` → **[Gorlin Syndrome](../gorlin-syndrome/README.md)** — Two syndromes, two medulloblastomas: FAP (via Turcot) predisposes to WNT-subgroup medulloblastoma while Gorlin syndrome causes the SHH subgroup—two inherited routes to the same childhood brain tumour through different pathways.
 - `connects-to` → **[Neuroendocrine Tumors](../neuroendocrine-tumors/README.md)** — Duodenal neuroendocrine tumours: beyond adenomas, FAP raises the risk of duodenal and ampullary neuroendocrine tumours, adding to the upper-GI surveillance burden after colectomy.
 - `connects-to` → **[Li-Fraumeni Syndrome](../li-fraumeni-syndrome/README.md)** — Childhood-and-adult tumour syndromes: like Li-Fraumeni, FAP is an autosomal-dominant predisposition striking from childhood (hepatoblastoma, medulloblastoma) into adulthood, demanding lifelong multi-organ surveillance.
+- `connects-to` → **[Cholangiocarcinoma](../cholangiocarcinoma/README.md)** — Hepatobiliary tumours: beyond colorectal cancer, FAP raises the risk of ampullary, biliary and pancreatic adenocarcinomas, including cholangiocarcinoma of the bile ducts.
+- `connects-to` → **[HCC](../hcc/README.md)** — Childhood liver cancer: FAP raises the risk of hepatoblastoma in young children, a primary liver tumour distinct from adult hepatocellular carcinoma but reflecting APC/Wnt's role in the liver.
+- `connects-to` → **[Bladder Cancer](../bladder-cancer/README.md)** — Urinary-tract tumours: FAP can produce adenomatous polyps and rare carcinomas of the urinary tract, an uncommon extracolonic manifestation of widespread APC loss.
 
 [^kinzler-1991-apc]: Kinzler KW, Nilbert MC, Su LK, et al. Identification of FAP locus genes from chromosome 5q21. *Science.* 1991;253(5020):661-665. [doi:10.1126/science.1651562](https://doi.org/10.1126/science.1651562) · [PubMed 1651562](https://pubmed.ncbi.nlm.nih.gov/1651562/)
 [^fearon-1990-vogelstein]: Fearon ER, Vogelstein B. A genetic model for colorectal tumorigenesis. *Cell.* 1990;61(5):759-767. [doi:10.1016/0092-8674(90)90186-i](https://doi.org/10.1016/0092-8674(90)90186-i) · [PubMed 2188735](https://pubmed.ncbi.nlm.nih.gov/2188735/)
