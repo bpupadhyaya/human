@@ -241,6 +241,15 @@ cross_links:
   - target: 01-human/07-system/inflammatory-bowel-disease
     relation: connects-to
     note: "Abdominal TB mimics Crohn's: intestinal tuberculosis produces ileocaecal ulceration, strictures and granulomas almost indistinguishable from Crohn's disease — a critical distinction, since the anti-TNF drugs used for IBD reactivate latent TB."
+  - target: 01-human/07-system/rheumatoid-arthritis
+    relation: connects-to
+    note: "Its biologics reawaken the bacillus: like inflammatory bowel disease, rheumatoid arthritis treated with anti-TNF agents risks reactivating latent tuberculosis, so TB screening is mandatory before starting them."
+  - target: 01-human/05-tissue/hepatic-lobule
+    relation: connects-to
+    note: "It infects the liver and its cure injures it: miliary tuberculosis seeds granulomas in the hepatic lobules, while first-line drugs—isoniazid, rifampicin, pyrazinamide—are hepatotoxic, making liver monitoring routine in treatment."
+  - target: 01-human/05-tissue/glomerulus
+    relation: connects-to
+    note: "Beyond the cavitary kidney lesions: chronic tuberculosis can drive secondary AA amyloidosis that deposits in the glomerulus, adding nephrotic proteinuria and renal failure to genitourinary TB's destructive disease."
 ---
 
 # Tuberculosis
@@ -449,6 +458,9 @@ Standard **HRZE** regimen [^nahid-2016-tb-treatment]:
 - `connects-to` → **[Rifampicin](../../../03-medicine/01-modern/06-antimicrobial/rifampicin/README.md)** — The cornerstone of cure: rifampicin anchors the multi-drug RIPE regimen that sterilises tuberculosis over months; a potent CYP450 inducer that turns secretions orange, its loss to resistance defines multidrug-resistant TB.
 - `connects-to` → **[Cortical Bone](../../05-tissue/cortical-bone/README.md)** — Pott's disease destroys the spine: skeletal tuberculosis, especially tuberculous spondylitis of the thoracolumbar vertebrae, erodes bone and intervertebral discs, causing gibbus deformity, cold abscesses and spinal-cord compression.
 - `connects-to` → **[Inflammatory Bowel Disease](../inflammatory-bowel-disease/README.md)** — Abdominal TB mimics Crohn's: intestinal tuberculosis produces ileocaecal ulceration, strictures and granulomas almost indistinguishable from Crohn's disease — a critical distinction, since the anti-TNF drugs used for IBD reactivate latent TB.
+- `connects-to` → **[Rheumatoid Arthritis](../rheumatoid-arthritis/README.md)** — Its biologics reawaken the bacillus: like inflammatory bowel disease, rheumatoid arthritis treated with anti-TNF agents risks reactivating latent tuberculosis, so TB screening is mandatory before starting them.
+- `connects-to` → **[Hepatic Lobule](../../05-tissue/hepatic-lobule/README.md)** — It infects the liver and its cure injures it: miliary tuberculosis seeds granulomas in the hepatic lobules, while first-line drugs—isoniazid, rifampicin, pyrazinamide—are hepatotoxic, making liver monitoring routine in treatment.
+- `connects-to` → **[Glomerulus](../../05-tissue/glomerulus/README.md)** — Beyond the cavitary kidney lesions: chronic tuberculosis can drive secondary AA amyloidosis that deposits in the glomerulus, adding nephrotic proteinuria and renal failure to genitourinary TB's destructive disease.
 
 ## See Also
 

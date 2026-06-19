@@ -241,6 +241,15 @@ cross_links:
   - target: 01-human/05-tissue/cortical-bone
     relation: connects-to
     note: "Follicular cancer seeds bone: follicular thyroid carcinoma characteristically spreads to bone as osteolytic metastases that take up radioiodine, allowing both imaging detection and radioiodine treatment of the skeletal deposits."
+  - target: 01-human/07-system/nsclc
+    relation: connects-to
+    note: "Shared targetable fusions: RET, NTRK and BRAF alterations drive both thyroid cancer and non-small-cell lung cancer, so selpercatinib, larotrectinib and dabrafenib cross over between the two—one druggable lesion, two organs."
+  - target: 01-human/07-system/melanoma
+    relation: connects-to
+    note: "A BRAF V600E partnership: papillary thyroid cancer and melanoma both frequently carry BRAF V600E, and the BRAF/MEK inhibitors developed for melanoma now treat BRAF-mutant (including anaplastic) thyroid cancer."
+  - target: 01-human/05-tissue/alveolus
+    relation: connects-to
+    note: "Follicular thyroid cancer reaches the lung: differentiated thyroid cancers spread haematogenously to the lungs, seeding miliary or nodular deposits in the alveolar parenchyma that often still take up radioactive iodine for treatment."
 ---
 
 # Thyroid Cancer
@@ -459,6 +468,9 @@ Calcitonin doubling time <6 months → poor prognosis → early systemic therapy
 - `connects-to` → **[Cancer Chemotherapy](../../../03-medicine/01-modern/13-cancer/cancer-chemotherapy/README.md)** — Mostly chemoresistant except anaplastic: differentiated thyroid cancer responds poorly to cytotoxic chemotherapy, relying on surgery and radioiodine, whereas aggressive anaplastic thyroid cancer is treated with chemotherapy alongside radiation and targeted agents.
 - `connects-to` → **[Checkpoint Inhibitors](../../../03-medicine/01-modern/13-cancer/checkpoint-inhibitors/README.md)** — Immunotherapy for anaplastic disease: the high mutational burden and immune infiltrate of anaplastic thyroid cancer make PD-1 inhibitors like pembrolizumab active, increasingly combined with BRAF/MEK-targeted therapy in this rapidly fatal tumour.
 - `connects-to` → **[Cortical Bone](../../05-tissue/cortical-bone/README.md)** — Follicular cancer seeds bone: follicular thyroid carcinoma characteristically spreads to bone as osteolytic metastases that take up radioiodine, allowing both imaging detection and radioiodine treatment of the skeletal deposits.
+- `connects-to` → **[NSCLC](../nsclc/README.md)** — Shared targetable fusions: RET, NTRK and BRAF alterations drive both thyroid cancer and non-small-cell lung cancer, so selpercatinib, larotrectinib and dabrafenib cross over between the two—one druggable lesion, two organs.
+- `connects-to` → **[Melanoma](../melanoma/README.md)** — A BRAF V600E partnership: papillary thyroid cancer and melanoma both frequently carry BRAF V600E, and the BRAF/MEK inhibitors developed for melanoma now treat BRAF-mutant (including anaplastic) thyroid cancer.
+- `connects-to` → **[Alveolus](../../05-tissue/alveolus/README.md)** — Follicular thyroid cancer reaches the lung: differentiated thyroid cancers spread haematogenously to the lungs, seeding miliary or nodular deposits in the alveolar parenchyma that often still take up radioactive iodine for treatment.
 
 [^schlumberger-2015-lenvatinib]: Schlumberger M, Tahara M, Wirth LJ, et al. Lenvatinib versus placebo in radioiodine-refractory differentiated thyroid cancer. *N Engl J Med.* 2015;372(7):621-630. [doi:10.1056/NEJMoa1406470](https://doi.org/10.1056/NEJMoa1406470) · [PubMed 25671254](https://pubmed.ncbi.nlm.nih.gov/25671254/)
 [^subbiah-2018-atc-dabrafenib]: Subbiah V, Kreitman RJ, Wainberg ZA, et al. Dabrafenib and trametinib treatment in patients with locally advanced or metastatic BRAF V600-mutant anaplastic thyroid cancer. *J Clin Oncol.* 2018;36(1):7-13. [doi:10.1200/JCO.2017.73.6785](https://doi.org/10.1200/JCO.2017.73.6785) · [PubMed 28892432](https://pubmed.ncbi.nlm.nih.gov/28892432/)
