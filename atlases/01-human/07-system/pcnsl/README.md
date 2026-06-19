@@ -241,6 +241,15 @@ cross_links:
   - target: 03-medicine/01-modern/13-cancer/checkpoint-inhibitors
     relation: connects-to
     note: "Uniquely PD-L1-rich among lymphomas: 9p24.1 alterations raise PD-L1 in primary CNS lymphoma, and PD-1 inhibitors such as nivolumab have shown activity in relapsed disease."
+  - target: 01-human/07-system/follicular-lymphoma
+    relation: connects-to
+    note: "Opposite ends of the B-cell spectrum: primary CNS lymphoma is an aggressive ABC-type diffuse large B-cell lymphoma (MYD88/CD79B), whereas follicular lymphoma is an indolent germinal-centre-derived B-cell lymphoma—same lineage, opposite tempo and biology."
+  - target: 01-human/07-system/cll
+    relation: connects-to
+    note: "A shared dependence on BTK: primary CNS lymphoma's MYD88-driven NF-κB and CLL's B-cell-receptor signalling both run through Bruton tyrosine kinase, so BTK inhibitors like ibrutinib are active against both."
+  - target: 01-human/07-system/rheumatoid-arthritis
+    relation: connects-to
+    note: "Immunosuppression can seed it: methotrexate and other immunosuppressants used in rheumatoid arthritis can trigger EBV-driven lymphoproliferative disease, including CNS lymphoma that may regress when the drug is withdrawn."
 ---
 
 # Primary CNS Lymphoma
@@ -429,6 +438,9 @@ Score 0-1: 2-year OS ~80%; Score 2-3: ~48%; Score 4-5: ~15%
 - `connects-to` → **[Cancer Chemotherapy](../../../03-medicine/01-modern/13-cancer/cancer-chemotherapy/README.md)** — High-dose methotrexate is the backbone: HD-MTX-based chemoimmunotherapy, which crosses the blood-brain barrier, is the curative-intent treatment for primary CNS lymphoma, often consolidated with autologous transplant.
 - `connects-to` → **[CAR-T](../../../03-medicine/01-modern/13-cancer/car-t/README.md)** — Cell therapy crosses into the brain: CD19 CAR-T cells produce responses in relapsed primary CNS lymphoma, showing engineered T cells can reach and clear disease behind the blood-brain barrier.
 - `connects-to` → **[Checkpoint Inhibitors](../../../03-medicine/01-modern/13-cancer/checkpoint-inhibitors/README.md)** — Uniquely PD-L1-rich among lymphomas: 9p24.1 alterations raise PD-L1 in primary CNS lymphoma, and PD-1 inhibitors such as nivolumab have shown activity in relapsed disease.
+- `connects-to` → **[Follicular Lymphoma](../follicular-lymphoma/README.md)** — Opposite ends of the B-cell spectrum: primary CNS lymphoma is an aggressive ABC-type diffuse large B-cell lymphoma (MYD88/CD79B), whereas follicular lymphoma is an indolent germinal-centre-derived B-cell lymphoma—same lineage, opposite tempo and biology.
+- `connects-to` → **[CLL](../cll/README.md)** — A shared dependence on BTK: primary CNS lymphoma's MYD88-driven NF-κB and CLL's B-cell-receptor signalling both run through Bruton tyrosine kinase, so BTK inhibitors like ibrutinib are active against both.
+- `connects-to` → **[Rheumatoid Arthritis](../rheumatoid-arthritis/README.md)** — Immunosuppression can seed it: methotrexate and other immunosuppressants used in rheumatoid arthritis can trigger EBV-driven lymphoproliferative disease, including CNS lymphoma that may regress when the drug is withdrawn.
 
 [^bromberg-2019-hovon105]: Bromberg JE, Issa S, Bakunina K, et al. Rituximab in patients with primary CNS lymphoma (HOVON 105/ALLG NHL 24): a randomised, open-label, phase 3 intergroup study. *Lancet Oncol.* 2019;20(2):216-228. [doi:10.1016/S1470-2045(18)30747-2](https://doi.org/10.1016/S1470-2045(18)30747-2) · [PubMed 30528440](https://pubmed.ncbi.nlm.nih.gov/30528440/)
 [^grommes-2017-ibrutinib-pcnsl]: Grommes C, Pastore A, Palaskas N, et al. Ibrutinib unmasks critical role of Bruton tyrosine kinase in primary CNS lymphoma. *Cancer Cell.* 2017;31(6):833-843. [doi:10.1016/j.ccell.2017.04.012](https://doi.org/10.1016/j.ccell.2017.04.012) · [PubMed 28552327](https://pubmed.ncbi.nlm.nih.gov/28552327/)

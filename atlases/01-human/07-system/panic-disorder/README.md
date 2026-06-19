@@ -247,6 +247,15 @@ cross_links:
   - target: 01-human/07-system/borderline-personality-disorder
     relation: connects-to
     note: "Panic rides with emotional dysregulation: panic attacks are frequent in borderline personality disorder, where affective instability and hyperarousal lower the threshold for acute anxiety surges."
+  - target: 01-human/07-system/epilepsy
+    relation: connects-to
+    note: "Panic mimics and overlaps seizures: temporal-lobe epilepsy can produce fear and autonomic surges indistinguishable from a panic attack, and the two share limbic (amygdala-hippocampal) hyperexcitability and GABAergic dysfunction—an important diagnostic crossover."
+  - target: 01-human/05-tissue/cardiac-conduction-system
+    relation: connects-to
+    note: "Its symptoms feel cardiac: a panic attack floods the heart with adrenaline, causing palpitations, tachycardia and chest pain that mimic a supraventricular arrhythmia and send patients to the emergency room fearing a heart attack."
+  - target: 01-human/07-system/binge-eating-disorder
+    relation: connects-to
+    note: "Anxiety can drive the binge: panic disorder and other anxiety disorders frequently co-occur with binge-eating disorder, where acute distress and emotional dysregulation trigger loss-of-control eating as a maladaptive coping response."
 ---
 
 # Panic Disorder
@@ -468,6 +477,9 @@ The **interoceptive fear conditioning model** (Bouton, Mineka, Barlow) explains 
 - `connects-to` → **[Fibromyalgia](../fibromyalgia/README.md)** — Anxiety and bodily symptoms overlap: panic disorder is markedly more common in fibromyalgia, the two sharing central sensitisation, autonomic dysregulation and a heavy symptom burden.
 - `connects-to` → **[Omega-3 Fatty Acids](../../../03-medicine/03-food/omega-3-fatty-acids/README.md)** — Diet offers a modest adjunct: omega-3 supplementation shows small anxiolytic effects in trials, used alongside but not instead of established treatment for panic disorder.
 - `connects-to` → **[Borderline Personality Disorder](../borderline-personality-disorder/README.md)** — Panic rides with emotional dysregulation: panic attacks are frequent in borderline personality disorder, where affective instability and hyperarousal lower the threshold for acute anxiety surges.
+- `connects-to` → **[Epilepsy](../epilepsy/README.md)** — Panic mimics and overlaps seizures: temporal-lobe epilepsy can produce fear and autonomic surges indistinguishable from a panic attack, and the two share limbic (amygdala-hippocampal) hyperexcitability and GABAergic dysfunction—an important diagnostic crossover.
+- `connects-to` → **[Cardiac Conduction System](../../05-tissue/cardiac-conduction-system/README.md)** — Its symptoms feel cardiac: a panic attack floods the heart with adrenaline, causing palpitations, tachycardia and chest pain that mimic a supraventricular arrhythmia and send patients to the emergency room fearing a heart attack.
+- `connects-to` → **[Binge-Eating Disorder](../binge-eating-disorder/README.md)** — Anxiety can drive the binge: panic disorder and other anxiety disorders frequently co-occur with binge-eating disorder, where acute distress and emotional dysregulation trigger loss-of-control eating as a maladaptive coping response.
 
 [^gorman-2000-panic-neurobiology]: Gorman JM, Kent JM, Sullivan GM, Coplan JD. Neuroanatomical hypothesis of panic disorder, revised. *Am J Psychiatry.* 2000;157(4):493-505. [doi:10.1176/appi.ajp.157.4.493](https://doi.org/10.1176/appi.ajp.157.4.493) · [PubMed 10739407](https://pubmed.ncbi.nlm.nih.gov/10739407/)
 [^nardi-2009-clonazepam-panic]: Nardi AE, Freire RC, Zin WA. Panic disorder and control of breathing. *Respir Physiol Neurobiol.* 2009;167(1):133-143. [doi:10.1016/j.resp.2008.07.011](https://doi.org/10.1016/j.resp.2008.07.011) · [PubMed 18708168](https://pubmed.ncbi.nlm.nih.gov/18708168/)
