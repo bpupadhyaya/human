@@ -259,6 +259,15 @@ cross_links:
   - target: 01-human/07-system/psoriatic-arthritis
     relation: connects-to
     note: "The spondyloarthropathy link: IgA nephropathy is over-represented in spondyloarthropathies such as psoriatic arthritis and ankylosing spondylitis, reflecting shared mucosal-immune dysregulation."
+  - target: 01-human/07-system/covid-19-disease
+    relation: connects-to
+    note: "A mucosal trigger: SARS-CoV-2 infection and, less often, its vaccines can provoke episodes of gross-haematuria IgA nephropathy, a striking example of mucosal immune activation flaring the disease."
+  - target: 01-human/07-system/sjogrens-syndrome
+    relation: connects-to
+    note: "B-cell autoimmunity overlap: Sjogren's syndrome shares the polyclonal B-cell activation and hypergammaglobulinaemia of IgA nephropathy and can itself cause glomerulonephritis, reflecting common mucosal autoimmune drivers."
+  - target: 01-human/07-system/hepatitis-c
+    relation: connects-to
+    note: "Cirrhotic glomerulonephritis: chronic hepatitis C and the cirrhosis it causes impair hepatic clearance of IgA immune complexes, producing secondary IgA deposition in the glomerulus that mimics primary IgA nephropathy."
 ---
 
 # IgA Nephropathy
@@ -423,6 +432,9 @@ IgAN is a **multi-hit disease** described by the Oxford Four-Hit Model:
 - `connects-to` → **[Endothelin-1](../../03-molecular/endothelin-1/README.md)** — A new drug target: endothelin-1 drives proteinuria and fibrosis in IgA nephropathy, and the dual endothelin/angiotensin blocker sparsentan reduces proteinuria—a recent therapeutic advance.
 - `connects-to` → **[Hepatic Lobule](../../05-tissue/hepatic-lobule/README.md)** — Secondary IgA nephropathy: a cirrhotic, failing liver cannot clear IgA immune complexes, so they deposit in the kidney—the gut-liver-kidney axis producing IgAN as a complication of liver disease.
 - `connects-to` → **[Psoriatic Arthritis](../psoriatic-arthritis/README.md)** — The spondyloarthropathy link: IgA nephropathy is over-represented in spondyloarthropathies such as psoriatic arthritis and ankylosing spondylitis, reflecting shared mucosal-immune dysregulation.
+- `connects-to` → **[COVID-19 Disease](../covid-19-disease/README.md)** — A mucosal trigger: SARS-CoV-2 infection and, less often, its vaccines can provoke episodes of gross-haematuria IgA nephropathy, a striking example of mucosal immune activation flaring the disease.
+- `connects-to` → **[Sjögren's Syndrome](../sjogrens-syndrome/README.md)** — B-cell autoimmunity overlap: Sjogren's syndrome shares the polyclonal B-cell activation and hypergammaglobulinaemia of IgA nephropathy and can itself cause glomerulonephritis, reflecting common mucosal autoimmune drivers.
+- `connects-to` → **[Hepatitis C](../hepatitis-c/README.md)** — Cirrhotic glomerulonephritis: chronic hepatitis C and the cirrhosis it causes impair hepatic clearance of IgA immune complexes, producing secondary IgA deposition in the glomerulus that mimics primary IgA nephropathy.
 
 ---
 

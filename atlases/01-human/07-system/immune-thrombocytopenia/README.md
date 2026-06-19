@@ -267,6 +267,15 @@ cross_links:
   - target: 01-human/05-tissue/hepatic-lobule
     relation: connects-to
     note: "Where thrombopoietin is made: TPO, the platelet growth factor that is inappropriately low relative to need in ITP, is produced constitutively by the hepatic lobule, so liver disease lowers platelet counts."
+  - target: 01-human/07-system/myelofibrosis
+    relation: connects-to
+    note: "Central versus peripheral: myelofibrosis crowds out megakaryocytes for a production-failure low platelet count, the marrow-failure differential to distinguish from the peripheral antibody-mediated platelet destruction of ITP."
+  - target: 01-human/07-system/dengue-fever
+    relation: connects-to
+    note: "Infection-driven thrombocytopenia: dengue causes profound platelet falls through immune-mediated destruction and marrow suppression, a leading infectious mimic of ITP in endemic regions."
+  - target: 01-human/07-system/waldenstrom-macroglobulinemia
+    relation: connects-to
+    note: "Secondary ITP from lymphoma: low-grade B-cell malignancies like Waldenstrom macroglobulinaemia can drive autoimmune platelet destruction, so a new ITP in an older adult warrants screening for an underlying lymphoproliferative disorder."
 ---
 
 # Immune Thrombocytopenia
@@ -485,6 +494,9 @@ ITP in pregnancy carries risk of neonatal thrombocytopenia (maternal IgG crosses
 - `connects-to` → **[MDS](../mds/README.md)** — A mimic to exclude: isolated thrombocytopenia in myelodysplastic syndrome can mimic ITP, and the two are distinguished by marrow examination—essential before immunosuppressing a presumed ITP.
 - `connects-to` → **[Follicular Lymphoma](../follicular-lymphoma/README.md)** — Secondary ITP: indolent B-cell lymphomas like follicular lymphoma (and CLL) can trigger secondary immune thrombocytopenia through dysregulated antibody-producing B cells.
 - `connects-to` → **[Hepatic Lobule](../../05-tissue/hepatic-lobule/README.md)** — Where thrombopoietin is made: TPO, the platelet growth factor that is inappropriately low relative to need in ITP, is produced constitutively by the hepatic lobule, so liver disease lowers platelet counts.
+- `connects-to` → **[Myelofibrosis](../myelofibrosis/README.md)** — Central versus peripheral: myelofibrosis crowds out megakaryocytes for a production-failure low platelet count, the marrow-failure differential to distinguish from the peripheral antibody-mediated platelet destruction of ITP.
+- `connects-to` → **[Dengue Fever](../dengue-fever/README.md)** — Infection-driven thrombocytopenia: dengue causes profound platelet falls through immune-mediated destruction and marrow suppression, a leading infectious mimic of ITP in endemic regions.
+- `connects-to` → **[Waldenström Macroglobulinemia](../waldenstrom-macroglobulinemia/README.md)** — Secondary ITP from lymphoma: low-grade B-cell malignancies like Waldenstrom macroglobulinaemia can drive autoimmune platelet destruction, so a new ITP in an older adult warrants screening for an underlying lymphoproliferative disorder.
 
 [^cines-2002-itp-review]: Cines DB, Blanchette VS. Immune thrombocytopenic purpura. *N Engl J Med.* 2002;346(13):995-1008. [doi:10.1056/NEJMra010532](https://doi.org/10.1056/NEJMra010532) · [PubMed 11919310](https://pubmed.ncbi.nlm.nih.gov/11919310/)
 [^neunert-2019-ash-itp-guidelines]: Neunert C, et al. American Society of Hematology 2019 guidelines for immune thrombocytopenia. *Blood Adv.* 2019;3(23):3829-3866. [doi:10.1182/bloodadvances.2019000966](https://doi.org/10.1182/bloodadvances.2019000966) · [PubMed 31794604](https://pubmed.ncbi.nlm.nih.gov/31794604/)
