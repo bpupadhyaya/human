@@ -268,6 +268,15 @@ cross_links:
   - target: 01-human/07-system/narcolepsy
     relation: connects-to
     note: "Sleep and REM dysregulation: borderline personality disorder features fragmented sleep, frequent nightmares and REM abnormalities, overlapping with the REM-boundary instability that characterises narcolepsy."
+  - target: 01-human/07-system/gut-microbiome
+    relation: connects-to
+    note: "The gut-brain axis in emotion: microbiome alterations communicate with the brain via the vagus and immune signalling, increasingly implicated in the impulsivity and emotional dysregulation of borderline personality disorder."
+  - target: 01-human/07-system/covid-19-disease
+    relation: connects-to
+    note: "Pandemic strain: COVID-19 isolation, disrupted dialectical behaviour therapy and loss of routine sharply worsened self-harm and crises in borderline personality disorder, exposing its sensitivity to social disruption."
+  - target: 01-human/05-tissue/cardiac-conduction-system
+    relation: connects-to
+    note: "Drug and stress effects on rhythm: the polypharmacy common in borderline personality disorder (antipsychotics, antidepressants) can prolong the QT interval, while chronic stress and autonomic dysregulation add arrhythmia risk."
 ---
 
 # Borderline Personality Disorder
@@ -491,6 +500,9 @@ This model directly informs DBT treatment: validate emotional experience (the bi
 - `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — Impulsive aggression and hormones: a higher testosterone-to-cortisol balance has been linked to the impulsivity and reactive aggression of borderline personality disorder, part of its neuroendocrine profile.
 - `connects-to` → **[Substance P](../../03-molecular/substance-p/README.md)** — Stress, pain and the NK1 system: substance P signalling—raised in chronic stress and tied to aggression and emotional pain—is among the neuropeptide systems implicated in borderline personality disorder's distress.
 - `connects-to` → **[Narcolepsy](../narcolepsy/README.md)** — Sleep and REM dysregulation: borderline personality disorder features fragmented sleep, frequent nightmares and REM abnormalities, overlapping with the REM-boundary instability that characterises narcolepsy.
+- `connects-to` → **[Gut Microbiome](../gut-microbiome/README.md)** — The gut-brain axis in emotion: microbiome alterations communicate with the brain via the vagus and immune signalling, increasingly implicated in the impulsivity and emotional dysregulation of borderline personality disorder.
+- `connects-to` → **[COVID-19 Disease](../covid-19-disease/README.md)** — Pandemic strain: COVID-19 isolation, disrupted dialectical behaviour therapy and loss of routine sharply worsened self-harm and crises in borderline personality disorder, exposing its sensitivity to social disruption.
+- `connects-to` → **[Cardiac Conduction System](../../05-tissue/cardiac-conduction-system/README.md)** — Drug and stress effects on rhythm: the polypharmacy common in borderline personality disorder (antipsychotics, antidepressants) can prolong the QT interval, while chronic stress and autonomic dysregulation add arrhythmia risk.
 
 [^linehan-1993-dbt]: Linehan MM. *Cognitive-Behavioral Treatment of Borderline Personality Disorder.* Guilford; 1993. [PubMed 8192506](https://pubmed.ncbi.nlm.nih.gov/8192506/)
 [^skodol-2002-bpd-neurobiology]: Siever LJ, Davis KL. A psychobiological perspective on the personality disorders. *Am J Psychiatry.* 1991;148(12):1647-1658. [doi:10.1176/ajp.148.12.1647](https://doi.org/10.1176/ajp.148.12.1647) · [PubMed 1957927](https://pubmed.ncbi.nlm.nih.gov/1957927/)

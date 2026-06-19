@@ -249,6 +249,15 @@ cross_links:
   - target: 01-human/07-system/autism-spectrum-disorder
     relation: connects-to
     note: "Prenatal exposure and the developing brain: maternal cannabis crosses the placenta and is linked to attention, cognitive and behavioural problems in offspring, with debated associations to neurodevelopmental conditions like autism."
+  - target: 01-human/05-tissue/myocardium
+    relation: connects-to
+    note: "Cannabis and the heart muscle: cannabis use, especially high-potency and synthetic cannabinoids, is linked to myocardial infarction, arrhythmia and a stress-type cardiomyopathy, injuring the myocardium even in young users."
+  - target: 01-human/05-tissue/intestinal-epithelium
+    relation: connects-to
+    note: "Cannabinoid hyperemesis: CB1 receptors throughout the gut's intestinal epithelium normally curb nausea, but chronic heavy use paradoxically flips this into cyclic vomiting relieved oddly by hot showers."
+  - target: 01-human/07-system/atherosclerosis
+    relation: connects-to
+    note: "Cannabis arteritis and vascular events: heavy cannabis use can cause a Buerger-like peripheral arteritis and accelerate vascular events, adding atherosclerotic and thrombotic risk to the cardiovascular toll."
 sources:
   - id: hasin-2015-cannabis-disorder
     type: peer-reviewed
@@ -481,6 +490,9 @@ Paradoxical syndrome in heavy long-term users: cyclic vomiting relieved by hot b
 - `connects-to` → **[Arterial Wall](../../05-tissue/arterial-wall/README.md)** — Cannabis and the vessels: heavy cannabis use can trigger reversible cerebral vasoconstriction and a Buerger-like cannabis arteritis of the arterial wall, an under-recognised cause of stroke and limb ischaemia in young users.
 - `connects-to` → **[Osteoporosis](../osteoporosis/README.md)** — Cannabinoids and bone: CB1 and CB2 receptors help regulate bone remodelling, and heavy cannabis use is associated with lower bone mineral density and a higher fracture risk.
 - `connects-to` → **[Autism Spectrum Disorder](../autism-spectrum-disorder/README.md)** — Prenatal exposure and the developing brain: maternal cannabis crosses the placenta and is linked to attention, cognitive and behavioural problems in offspring, with debated associations to neurodevelopmental conditions like autism.
+- `connects-to` → **[Myocardium](../../05-tissue/myocardium/README.md)** — Cannabis and the heart muscle: cannabis use, especially high-potency and synthetic cannabinoids, is linked to myocardial infarction, arrhythmia and a stress-type cardiomyopathy, injuring the myocardium even in young users.
+- `connects-to` → **[Intestinal Epithelium](../../05-tissue/intestinal-epithelium/README.md)** — Cannabinoid hyperemesis: CB1 receptors throughout the gut's intestinal epithelium normally curb nausea, but chronic heavy use paradoxically flips this into cyclic vomiting relieved oddly by hot showers.
+- `connects-to` → **[Atherosclerosis](../atherosclerosis/README.md)** — Cannabis arteritis and vascular events: heavy cannabis use can cause a Buerger-like peripheral arteritis and accelerate vascular events, adding atherosclerotic and thrombotic risk to the cardiovascular toll.
 
 [^hasin-2015-cannabis-disorder]: Hasin DS, Saha TD, Kerridge BT, et al. Prevalence of marijuana use disorders in the United States between 2001-2002 and 2012-2013. *JAMA Psychiatry.* 2015;72(12):1235-1242. [doi:10.1001/jamapsychiatry.2015.1858](https://doi.org/10.1001/jamapsychiatry.2015.1858) · [PubMed 26502112](https://pubmed.ncbi.nlm.nih.gov/26502112/)
 [^budney-2004-cannabis-withdrawal]: Budney AJ, Moore BA, Vandrey RG, Hughes JR. The time course and significance of cannabis withdrawal. *J Abnorm Psychol.* 2003;112(3):393-402. [doi:10.1037/0021-843X.112.3.393](https://doi.org/10.1037/0021-843X.112.3.393) · [PubMed 12943018](https://pubmed.ncbi.nlm.nih.gov/12943018/)
