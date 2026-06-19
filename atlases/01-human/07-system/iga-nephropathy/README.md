@@ -268,6 +268,15 @@ cross_links:
   - target: 01-human/07-system/hepatitis-c
     relation: connects-to
     note: "Cirrhotic glomerulonephritis: chronic hepatitis C and the cirrhosis it causes impair hepatic clearance of IgA immune complexes, producing secondary IgA deposition in the glomerulus that mimics primary IgA nephropathy."
+  - target: 01-human/03-molecular/il-23
+    relation: connects-to
+    note: "Th17 mucosal axis: the IL-23/Th17 pathway dysregulates mucosal IgA responses and is implicated in IgA nephropathy and its overlap with spondyloarthritis and inflammatory bowel disease."
+  - target: 01-human/03-molecular/pdgf
+    relation: connects-to
+    note: "Mesangial proliferation: PDGF drives the mesangial cell proliferation and matrix expansion that are the histological hallmark of IgA nephropathy."
+  - target: 01-human/03-molecular/vegf
+    relation: connects-to
+    note: "Podocyte and glomerular injury: dysregulated VEGF signalling at the glomerular filtration barrier contributes to the proteinuria and podocyte injury of progressive IgA nephropathy."
 ---
 
 # IgA Nephropathy
@@ -435,6 +444,9 @@ IgAN is a **multi-hit disease** described by the Oxford Four-Hit Model:
 - `connects-to` → **[COVID-19 Disease](../covid-19-disease/README.md)** — A mucosal trigger: SARS-CoV-2 infection and, less often, its vaccines can provoke episodes of gross-haematuria IgA nephropathy, a striking example of mucosal immune activation flaring the disease.
 - `connects-to` → **[Sjögren's Syndrome](../sjogrens-syndrome/README.md)** — B-cell autoimmunity overlap: Sjogren's syndrome shares the polyclonal B-cell activation and hypergammaglobulinaemia of IgA nephropathy and can itself cause glomerulonephritis, reflecting common mucosal autoimmune drivers.
 - `connects-to` → **[Hepatitis C](../hepatitis-c/README.md)** — Cirrhotic glomerulonephritis: chronic hepatitis C and the cirrhosis it causes impair hepatic clearance of IgA immune complexes, producing secondary IgA deposition in the glomerulus that mimics primary IgA nephropathy.
+- `connects-to` → **[IL-23](../../03-molecular/il-23/README.md)** — Th17 mucosal axis: the IL-23/Th17 pathway dysregulates mucosal IgA responses and is implicated in IgA nephropathy and its overlap with spondyloarthritis and inflammatory bowel disease.
+- `connects-to` → **[PDGF](../../03-molecular/pdgf/README.md)** — Mesangial proliferation: PDGF drives the mesangial cell proliferation and matrix expansion that are the histological hallmark of IgA nephropathy.
+- `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — Podocyte and glomerular injury: dysregulated VEGF signalling at the glomerular filtration barrier contributes to the proteinuria and podocyte injury of progressive IgA nephropathy.
 
 ---
 

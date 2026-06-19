@@ -268,6 +268,15 @@ cross_links:
   - target: 01-human/05-tissue/arterial-wall
     relation: connects-to
     note: "Tumour vasculature on transformation: high-grade progression of IDH-mutant glioma brings microvascular proliferation, the abnormal leaky arterial walls of tumour angiogenesis driven by VEGF and hypoxia."
+  - target: 01-human/03-molecular/ezh2
+    relation: connects-to
+    note: "Locked-in hypermethylation: the 2-hydroxyglutarate-driven CpG-island methylator phenotype, reinforced by polycomb/EZH2 activity, blocks differentiation in IDH-mutant glioma."
+  - target: 01-human/03-molecular/akt
+    relation: connects-to
+    note: "PI3K-AKT progression: activation of PI3K-AKT-mTOR signalling contributes to the malignant progression of IDH-mutant glioma to higher grades."
+  - target: 01-human/03-molecular/myc
+    relation: connects-to
+    note: "Oncogenic transcription: MYC programmes become activated during the transformation of IDH-mutant glioma, driving the proliferation that marks high-grade disease."
 ---
 
 # IDH-Mutant Glioma
@@ -483,6 +492,9 @@ IDH-mutant glioma with MGMT methylation shows strong alkylating agent sensitivit
 - `connects-to` → **[Pheochromocytoma & Paraganglioma](../pheochromocytoma-paraganglioma/README.md)** — Oncometabolite paradigm: the 2-hydroxyglutarate of IDH-mutant glioma parallels the succinate of SDH-mutant paraganglioma and the fumarate of HLRCC—each oncometabolite inhibits alpha-ketoglutarate dioxygenases and drives DNA hypermethylation.
 - `connects-to` → **[Colorectal Cancer](../colorectal-cancer/README.md)** — Methylator phenotypes converge: the IDH-driven hypermethylation (G-CIMP) of IDH-mutant glioma mirrors the CpG-island methylator phenotype (CIMP) of a colorectal cancer subset, both silencing tumour suppressors epigenetically.
 - `connects-to` → **[Arterial Wall](../../05-tissue/arterial-wall/README.md)** — Tumour vasculature on transformation: high-grade progression of IDH-mutant glioma brings microvascular proliferation, the abnormal leaky arterial walls of tumour angiogenesis driven by VEGF and hypoxia.
+- `connects-to` → **[EZH2](../../03-molecular/ezh2/README.md)** — Locked-in hypermethylation: the 2-hydroxyglutarate-driven CpG-island methylator phenotype, reinforced by polycomb/EZH2 activity, blocks differentiation in IDH-mutant glioma.
+- `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — PI3K-AKT progression: activation of PI3K-AKT-mTOR signalling contributes to the malignant progression of IDH-mutant glioma to higher grades.
+- `connects-to` → **[MYC](../../03-molecular/myc/README.md)** — Oncogenic transcription: MYC programmes become activated during the transformation of IDH-mutant glioma, driving the proliferation that marks high-grade disease.
 
 [^mellinghoff-2023-vorasidenib-lgg]: Mellinghoff IK, van den Bent MJ, Blumenthal DT, et al. Vorasidenib in IDH1- or IDH2-mutant low-grade glioma. *N Engl J Med.* 2023;389(7):589-601. [doi:10.1056/NEJMoa2304194](https://doi.org/10.1056/NEJMoa2304194) · [PubMed 37272530](https://pubmed.ncbi.nlm.nih.gov/37272530/)
 [^jiao-2012-atrx-glioma]: Jiao Y, Killela PJ, Reitman ZJ, et al. Frequent ATRX, CIC, FUBP1 and IDH mutations refine the classification of malignant gliomas. *Oncotarget.* 2012;3(7):709-722. [doi:10.18632/oncotarget.588](https://doi.org/10.18632/oncotarget.588) · [PubMed 22869205](https://pubmed.ncbi.nlm.nih.gov/22869205/)
