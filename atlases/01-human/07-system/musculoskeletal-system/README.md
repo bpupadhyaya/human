@@ -260,6 +260,15 @@ cross_links:
   - target: 01-human/07-system/synovial-sarcoma
     relation: connects-to
     note: "A soft-tissue cancer near the joints: synovial sarcoma arises in the limbs around joints and tendons (despite its name, not from synovium), a malignant counterpart to the system's many benign soft-tissue tumours."
+  - target: 01-human/07-system/prostate-cancer
+    relation: connects-to
+    note: "Bone as a metastatic home: the skeleton is the dominant site of prostate cancer spread, forming characteristic osteoblastic lesions and skeletal-related events—pain, fractures and cord compression—that define the disease's course."
+  - target: 01-human/07-system/breast-cancer
+    relation: connects-to
+    note: "Lytic bone metastases: breast cancer seeds the skeleton with osteolytic and mixed lesions that fracture and release calcium, making bone a sanctuary site and a major source of morbidity treated with bone-targeted agents."
+  - target: 01-human/07-system/covid-19-disease
+    relation: connects-to
+    note: "Muscle and the virus: COVID-19 causes myalgia, occasional rhabdomyolysis and post-viral myositis, and the prolonged muscle weakness and pain of long COVID are a notable musculoskeletal legacy."
 ---
 
 # Musculoskeletal System
@@ -477,6 +486,9 @@ Chronic exercise drives profound musculoskeletal remodelling [^guyton-hall]:
 - `connects-to` → **[Sickle Cell Disease](../sickle-cell-disease/README.md)** — Bone as a target of sickling: vaso-occlusion causes painful bone infarcts, avascular necrosis of the femoral head and childhood dactylitis, and raises the risk of Salmonella osteomyelitis in the skeleton.
 - `connects-to` → **[Hemophilia A](../hemophilia-a/README.md)** — Bleeding into the joints: recurrent haemarthrosis in haemophilia A destroys cartilage and synovium, producing a crippling chronic arthropathy that is a major musculoskeletal burden of the disease.
 - `connects-to` → **[Synovial Sarcoma](../synovial-sarcoma/README.md)** — A soft-tissue cancer near the joints: synovial sarcoma arises in the limbs around joints and tendons (despite its name, not from synovium), a malignant counterpart to the system's many benign soft-tissue tumours.
+- `connects-to` → **[Prostate Cancer](../prostate-cancer/README.md)** — Bone as a metastatic home: the skeleton is the dominant site of prostate cancer spread, forming characteristic osteoblastic lesions and skeletal-related events—pain, fractures and cord compression—that define the disease's course.
+- `connects-to` → **[Breast Cancer](../breast-cancer/README.md)** — Lytic bone metastases: breast cancer seeds the skeleton with osteolytic and mixed lesions that fracture and release calcium, making bone a sanctuary site and a major source of morbidity treated with bone-targeted agents.
+- `connects-to` → **[COVID-19 Disease](../covid-19-disease/README.md)** — Muscle and the virus: COVID-19 causes myalgia, occasional rhabdomyolysis and post-viral myositis, and the prolonged muscle weakness and pain of long COVID are a notable musculoskeletal legacy.
 
 ## Pathology
 

@@ -262,6 +262,15 @@ cross_links:
   - target: 01-human/05-tissue/cardiac-conduction-system
     relation: connects-to
     note: "Transfusional iron and the heart: years of red-cell transfusions for MDS deposit iron in the heart, injuring the myocardium and cardiac conduction system into cardiomyopathy and arrhythmia unless iron is chelated."
+  - target: 01-human/07-system/atherosclerosis
+    relation: connects-to
+    note: "Clonal haematopoiesis and the artery: the TET2 and DNMT3A clones underlying MDS and CHIP spawn inflammatory monocytes that accelerate atherosclerosis, linking clonal marrow disease to heart attacks and strokes."
+  - target: 01-human/07-system/idh-mutant-glioma
+    relation: connects-to
+    note: "A shared oncometabolite: IDH1/IDH2-mutant MDS and IDH-mutant glioma both generate 2-hydroxyglutarate that reprograms the epigenome and respond to the same IDH inhibitors, one drug class across blood and brain."
+  - target: 01-human/07-system/type-2-diabetes
+    relation: connects-to
+    note: "Iron-driven diabetes: transfusional iron overload in MDS deposits in the pancreas, impairing insulin secretion and causing a secondary 'bronze' diabetes alongside the cardiac and hepatic iron loading."
 ---
 
 # Myelodysplastic Syndromes
@@ -454,6 +463,9 @@ MDS → AML transformation rate: ~10% at 1 year for very-low risk; ~40-50% at 2 
 - `connects-to` → **[Breast Cancer](../breast-cancer/README.md)** — Therapy-related MDS: the alkylators and radiation used to cure solid tumours such as breast cancer can damage the marrow's stem cells, seeding a secondary, poor-prognosis MDS that often progresses to AML.
 - `connects-to` → **[ANCA Vasculitis](../anca-vasculitis/README.md)** — Myeloid clone meets autoinflammation: MDS associates with systemic autoinflammatory and autoimmune syndromes—including VEXAS and vasculitis—where the mutant clone drives inflammation overlapping ANCA-associated disease.
 - `connects-to` → **[Cardiac Conduction System](../../05-tissue/cardiac-conduction-system/README.md)** — Transfusional iron and the heart: years of red-cell transfusions for MDS deposit iron in the heart, injuring the myocardium and cardiac conduction system into cardiomyopathy and arrhythmia unless iron is chelated.
+- `connects-to` → **[Atherosclerosis](../atherosclerosis/README.md)** — Clonal haematopoiesis and the artery: the TET2 and DNMT3A clones underlying MDS and CHIP spawn inflammatory monocytes that accelerate atherosclerosis, linking clonal marrow disease to heart attacks and strokes.
+- `connects-to` → **[IDH-Mutant Glioma](../idh-mutant-glioma/README.md)** — A shared oncometabolite: IDH1/IDH2-mutant MDS and IDH-mutant glioma both generate 2-hydroxyglutarate that reprograms the epigenome and respond to the same IDH inhibitors, one drug class across blood and brain.
+- `connects-to` → **[Type 2 Diabetes](../type-2-diabetes/README.md)** — Iron-driven diabetes: transfusional iron overload in MDS deposits in the pancreas, impairing insulin secretion and causing a secondary 'bronze' diabetes alongside the cardiac and hepatic iron loading.
 
 [^fenaux-2009-aza001]: Fenaux P, Mufti GJ, Hellstrom-Lindberg E, et al. Efficacy of azacitidine compared with conventional care regimens in patients with higher-risk myelodysplastic syndromes. *Lancet Oncol.* 2009;10(3):223-232. [doi:10.1016/S1470-2045(09)70003-8](https://doi.org/10.1016/S1470-2045(09)70003-8) · [PubMed 19230772](https://pubmed.ncbi.nlm.nih.gov/19230772/)
 [^fenaux-2020-medalist]: Fenaux P, Platzbecker U, Mufti GJ, et al. Luspatercept in patients with lower-risk myelodysplastic syndromes. *N Engl J Med.* 2020;382(2):140-151. [doi:10.1056/NEJMoa1908892](https://doi.org/10.1056/NEJMoa1908892) · [PubMed 31914241](https://pubmed.ncbi.nlm.nih.gov/31914241/)
