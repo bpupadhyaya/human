@@ -250,6 +250,15 @@ cross_links:
   - target: 01-human/07-system/systemic-sclerosis
     relation: connects-to
     note: "Two faces of fibroblast overgrowth: desmoid is a clonal neoplastic proliferation of myofibroblasts laying down collagen, whereas systemic sclerosis is autoimmune-driven fibroblast activation — different triggers converging on excess fibrous tissue."
+  - target: 01-human/07-system/medulloblastoma
+    relation: connects-to
+    note: "The FAP/Turcot connection: APC-mutant familial adenomatous polyposis predisposes to both desmoid tumours and medulloblastoma (Turcot syndrome), two Wnt-pathway lesions of one germline defect."
+  - target: 01-human/05-tissue/arterial-wall
+    relation: connects-to
+    note: "It encases the great vessels: intra-abdominal desmoids in FAP infiltrate the mesentery, encasing and compressing the mesenteric arteries and causing the bowel ischaemia that makes them lethal."
+  - target: 01-human/05-tissue/glomerulus
+    relation: connects-to
+    note: "Obstruction backs up to the kidney: a mesenteric or pelvic desmoid can compress the ureters, and the resulting hydronephrosis backs pressure up to the glomerulus, threatening renal function."
 ---
 
 # Desmoid Tumor
@@ -461,6 +470,9 @@ Standard initial approach for newly diagnosed desmoid without symptoms or rapid 
 - `connects-to` → **[Intestinal Epithelium](../../05-tissue/intestinal-epithelium/README.md)** — It strangles the bowel: in FAP/Gardner syndrome, mesenteric desmoid tumours encase and obstruct the small intestine and its vessels, a leading cause of death after colectomy despite being histologically benign.
 - `connects-to` → **[Cortical Bone](../../05-tissue/cortical-bone/README.md)** — It erodes adjacent bone: though non-metastasising, aggressive desmoid fibromatosis infiltrates muscle and fascia and can scallop and erode the cortical bone it abuts, driving pain and local destruction.
 - `connects-to` → **[Systemic Sclerosis](../systemic-sclerosis/README.md)** — Two faces of fibroblast overgrowth: desmoid is a clonal neoplastic proliferation of myofibroblasts laying down collagen, whereas systemic sclerosis is autoimmune-driven fibroblast activation — different triggers converging on excess fibrous tissue.
+- `connects-to` → **[Medulloblastoma](../medulloblastoma/README.md)** — The FAP/Turcot connection: APC-mutant familial adenomatous polyposis predisposes to both desmoid tumours and medulloblastoma (Turcot syndrome), two Wnt-pathway lesions of one germline defect.
+- `connects-to` → **[Arterial Wall](../../05-tissue/arterial-wall/README.md)** — It encases the great vessels: intra-abdominal desmoids in FAP infiltrate the mesentery, encasing and compressing the mesenteric arteries and causing the bowel ischaemia that makes them lethal.
+- `connects-to` → **[Glomerulus](../../05-tissue/glomerulus/README.md)** — Obstruction backs up to the kidney: a mesenteric or pelvic desmoid can compress the ureters, and the resulting hydronephrosis backs pressure up to the glomerulus, threatening renal function.
 
 ---
 

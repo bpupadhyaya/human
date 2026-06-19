@@ -250,6 +250,15 @@ cross_links:
   - target: 02-pathogen/01-viruses/ebola-virus
     relation: connects-to
     note: "A fellow viral haemorrhagic fever: like Ebola, severe dengue is a viral haemorrhagic fever where endothelial leak, thrombocytopenia and coagulopathy cause bleeding and shock, though dengue's plasma leak dominates over frank haemorrhage."
+  - target: 01-human/05-tissue/glomerulus
+    relation: connects-to
+    note: "Dengue acute kidney injury: capillary leak, rhabdomyolysis and immune-complex deposition injure the glomerulus, and AKI marks severe dengue and predicts mortality."
+  - target: 01-human/05-tissue/alveolus
+    relation: connects-to
+    note: "Plasma leak floods the lungs: severe dengue's vascular leak fills the pleura and alveoli, and pulmonary haemorrhage and ARDS at the gas-exchange surface mark its most dangerous form."
+  - target: 01-human/05-tissue/germinal-center
+    relation: connects-to
+    note: "Antibody-dependent enhancement: cross-reactive antibodies from a prior serotype, made in germinal centres, can paradoxically worsen a second dengue infection by ferrying virus into macrophages."
 ---
 
 # Dengue Fever
@@ -439,3 +448,6 @@ No approved antiviral therapy for dengue. Management is entirely supportive:
 - `connects-to` → **[Hepatic Lobule](../../05-tissue/hepatic-lobule/README.md)** — It injures the liver lobule: severe dengue causes midzonal hepatocellular necrosis with Councilman bodies in the liver lobule, and the steep transaminase rise it produces is a warning sign of progression to severe disease.
 - `connects-to` → **[Myocardium](../../05-tissue/myocardium/README.md)** — It can inflame the heart: dengue myocarditis depresses myocardial function and causes arrhythmia in severe disease, contributing — alongside plasma leak — to the shock of dengue haemorrhagic fever.
 - `connects-to` → **[Ebola Virus](../../../02-pathogen/01-viruses/ebola-virus/README.md)** — A fellow viral haemorrhagic fever: like Ebola, severe dengue is a viral haemorrhagic fever where endothelial leak, thrombocytopenia and coagulopathy cause bleeding and shock, though dengue's plasma leak dominates over frank haemorrhage.
+- `connects-to` → **[Glomerulus](../../05-tissue/glomerulus/README.md)** — Dengue acute kidney injury: capillary leak, rhabdomyolysis and immune-complex deposition injure the glomerulus, and AKI marks severe dengue and predicts mortality.
+- `connects-to` → **[Alveolus](../../05-tissue/alveolus/README.md)** — Plasma leak floods the lungs: severe dengue's vascular leak fills the pleura and alveoli, and pulmonary haemorrhage and ARDS at the gas-exchange surface mark its most dangerous form.
+- `connects-to` → **[Germinal Center](../../05-tissue/germinal-center/README.md)** — Antibody-dependent enhancement: cross-reactive antibodies from a prior serotype, made in germinal centres, can paradoxically worsen a second dengue infection by ferrying virus into macrophages.
