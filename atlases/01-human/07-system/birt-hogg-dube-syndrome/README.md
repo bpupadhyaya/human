@@ -250,6 +250,15 @@ cross_links:
   - target: 03-medicine/01-modern/13-cancer/checkpoint-inhibitors
     relation: connects-to
     note: "Less immunotherapy-responsive than clear cell: unlike VHL-driven clear-cell kidney cancer, the chromophobe/oncocytic tumours of Birt-Hogg-Dubé have low mutational burden and respond poorly to checkpoint blockade."
+  - target: 01-human/03-molecular/stk11
+    relation: connects-to
+    note: "The energy-sensing axis: folliculin partners with AMPK and the LKB1/STK11 kinase to sense cellular energy, mechanistically linking Birt-Hogg-Dubé to the STK11-driven Peutz-Jeghers hamartoma syndrome."
+  - target: 01-human/03-molecular/atp
+    relation: connects-to
+    note: "Mitochondria-packed oncocytes: folliculin loss dysregulates mitochondrial biogenesis, so BHD renal oncocytomas and hybrid tumours are crammed with mitochondria churning out ATP—the oncocytic phenotype."
+  - target: 01-human/07-system/li-fraumeni-syndrome
+    relation: connects-to
+    note: "Lifelong cancer surveillance: like Li-Fraumeni syndrome, Birt-Hogg-Dubé is an autosomal-dominant tumour-predisposition syndrome whose carriers need structured multi-organ screening from early adulthood."
 ---
 
 # Birt-Hogg-Dubé Syndrome
@@ -468,6 +477,9 @@ Definite BHD: 1 major OR 2 minor criteria (European BHD Consortium definition)
 - `connects-to` → **[Lung Slice](../../05-tissue/lung-slice/README.md)** — It riddles the lung with cysts: folliculin loss produces basal, subpleural lung cysts that rupture as recurrent spontaneous pneumothorax — often the first clue to Birt-Hogg-Dubé, seen as cystic change on a lung slice.
 - `connects-to` → **[Cancer Chemotherapy](../../../03-medicine/01-modern/13-cancer/cancer-chemotherapy/README.md)** — Its kidney tumours resist chemo: the chromophobe and hybrid oncocytic renal carcinomas of Birt-Hogg-Dubé are indolent and chemoresistant, managed by surveillance and nephron-sparing surgery rather than cytotoxic chemotherapy.
 - `connects-to` → **[Checkpoint Inhibitors](../../../03-medicine/01-modern/13-cancer/checkpoint-inhibitors/README.md)** — Less immunotherapy-responsive than clear cell: unlike VHL-driven clear-cell kidney cancer, the chromophobe/oncocytic tumours of Birt-Hogg-Dubé have low mutational burden and respond poorly to checkpoint blockade.
+- `connects-to` → **[STK11](../../03-molecular/stk11/README.md)** — The energy-sensing axis: folliculin partners with AMPK and the LKB1/STK11 kinase to sense cellular energy, mechanistically linking Birt-Hogg-Dubé to the STK11-driven Peutz-Jeghers hamartoma syndrome.
+- `connects-to` → **[ATP](../../03-molecular/atp/README.md)** — Mitochondria-packed oncocytes: folliculin loss dysregulates mitochondrial biogenesis, so BHD renal oncocytomas and hybrid tumours are crammed with mitochondria churning out ATP—the oncocytic phenotype.
+- `connects-to` → **[Li-Fraumeni Syndrome](../li-fraumeni-syndrome/README.md)** — Lifelong cancer surveillance: like Li-Fraumeni syndrome, Birt-Hogg-Dubé is an autosomal-dominant tumour-predisposition syndrome whose carriers need structured multi-organ screening from early adulthood.
 
 ---
 

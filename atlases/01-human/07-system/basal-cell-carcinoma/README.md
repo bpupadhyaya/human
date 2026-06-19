@@ -250,6 +250,15 @@ cross_links:
   - target: 01-human/05-tissue/lung-slice
     relation: connects-to
     note: "Rare metastasis seeks the lung: although basal cell carcinoma almost never spreads, the exceptional metastasising BCC seeds the lungs and bones, marking the small subset with lethal potential."
+  - target: 01-human/07-system/rhabdomyosarcoma
+    relation: connects-to
+    note: "Shared hedgehog activation: like BCC and medulloblastoma, a subset of rhabdomyosarcoma is driven by aberrant Sonic-hedgehog/GLI signalling, the pathway blocked by SMO inhibitors."
+  - target: 01-human/03-molecular/notch
+    relation: connects-to
+    note: "A tumour suppressor in skin: NOTCH signalling normally restrains keratinocyte proliferation, and its loss cooperates with hedgehog pathway activation to drive basal cell carcinoma."
+  - target: 01-human/03-molecular/tert
+    relation: connects-to
+    note: "Telomerase reactivation: UV-signature TERT-promoter mutations reactivate telomerase in basal cell carcinoma, granting the replicative immortality that lets the tumour grow indefinitely."
 ---
 
 # Basal Cell Carcinoma
@@ -449,6 +458,9 @@ BCC has a complex immune microenvironment:
 - `connects-to` → **[Cancer Chemotherapy](../../../03-medicine/01-modern/13-cancer/cancer-chemotherapy/README.md)** — Topical chemotherapy, not systemic: superficial basal cell carcinoma is treated with topical 5-fluorouracil, but the tumour is otherwise chemoresistant, relying on surgery, Hedgehog inhibitors and immunotherapy rather than systemic cytotoxics.
 - `connects-to` → **[Cortical Bone](../../05-tissue/cortical-bone/README.md)** — It invades bone, and Gorlin deforms it: neglected aggressive basal cell carcinoma erodes into underlying cartilage and bone, while the Gorlin syndrome that spawns multiple BCCs also causes jaw keratocysts and skeletal anomalies.
 - `connects-to` → **[Lung Slice](../../05-tissue/lung-slice/README.md)** — Rare metastasis seeks the lung: although basal cell carcinoma almost never spreads, the exceptional metastasising BCC seeds the lungs and bones, marking the small subset with lethal potential.
+- `connects-to` → **[Rhabdomyosarcoma](../rhabdomyosarcoma/README.md)** — Shared hedgehog activation: like BCC and medulloblastoma, a subset of rhabdomyosarcoma is driven by aberrant Sonic-hedgehog/GLI signalling, the pathway blocked by SMO inhibitors.
+- `connects-to` → **[Notch](../../03-molecular/notch/README.md)** — A tumour suppressor in skin: NOTCH signalling normally restrains keratinocyte proliferation, and its loss cooperates with hedgehog pathway activation to drive basal cell carcinoma.
+- `connects-to` → **[TERT](../../03-molecular/tert/README.md)** — Telomerase reactivation: UV-signature TERT-promoter mutations reactivate telomerase in basal cell carcinoma, granting the replicative immortality that lets the tumour grow indefinitely.
 
 ---
 
