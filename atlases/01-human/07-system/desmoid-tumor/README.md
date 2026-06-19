@@ -259,6 +259,15 @@ cross_links:
   - target: 01-human/05-tissue/glomerulus
     relation: connects-to
     note: "Obstruction backs up to the kidney: a mesenteric or pelvic desmoid can compress the ureters, and the resulting hydronephrosis backs pressure up to the glomerulus, threatening renal function."
+  - target: 01-human/07-system/mutyh-associated-polyposis
+    relation: connects-to
+    note: "Polyposis and desmoids: desmoid tumours are a hallmark of APC-driven FAP/Gardner syndrome; MUTYH-associated polyposis phenocopies FAP's colorectal polyposis but rarely produces desmoids, a distinguishing feature."
+  - target: 01-human/07-system/hcc
+    relation: connects-to
+    note: "Shared Wnt activation: desmoid tumours and a subset of hepatocellular carcinomas are both driven by activating CTNNB1 (β-catenin) mutations, the same Wnt pathway producing very different tumours."
+  - target: 01-human/07-system/mpnst
+    relation: connects-to
+    note: "Benign-but-aggressive vs malignant: desmoid fibromatosis invades locally but never metastasizes, contrasting with malignant soft-tissue sarcomas like MPNST that both invade and spread distantly."
 ---
 
 # Desmoid Tumor
@@ -473,6 +482,9 @@ Standard initial approach for newly diagnosed desmoid without symptoms or rapid 
 - `connects-to` → **[Medulloblastoma](../medulloblastoma/README.md)** — The FAP/Turcot connection: APC-mutant familial adenomatous polyposis predisposes to both desmoid tumours and medulloblastoma (Turcot syndrome), two Wnt-pathway lesions of one germline defect.
 - `connects-to` → **[Arterial Wall](../../05-tissue/arterial-wall/README.md)** — It encases the great vessels: intra-abdominal desmoids in FAP infiltrate the mesentery, encasing and compressing the mesenteric arteries and causing the bowel ischaemia that makes them lethal.
 - `connects-to` → **[Glomerulus](../../05-tissue/glomerulus/README.md)** — Obstruction backs up to the kidney: a mesenteric or pelvic desmoid can compress the ureters, and the resulting hydronephrosis backs pressure up to the glomerulus, threatening renal function.
+- `connects-to` → **[MUTYH-Associated Polyposis](../mutyh-associated-polyposis/README.md)** — Polyposis and desmoids: desmoid tumours are a hallmark of APC-driven FAP/Gardner syndrome; MUTYH-associated polyposis phenocopies FAP's colorectal polyposis but rarely produces desmoids, a distinguishing feature.
+- `connects-to` → **[HCC](../hcc/README.md)** — Shared Wnt activation: desmoid tumours and a subset of hepatocellular carcinomas are both driven by activating CTNNB1 (β-catenin) mutations, the same Wnt pathway producing very different tumours.
+- `connects-to` → **[MPNST](../mpnst/README.md)** — Benign-but-aggressive vs malignant: desmoid fibromatosis invades locally but never metastasizes, contrasting with malignant soft-tissue sarcomas like MPNST that both invade and spread distantly.
 
 ---
 

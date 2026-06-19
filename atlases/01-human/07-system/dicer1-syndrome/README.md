@@ -259,6 +259,15 @@ cross_links:
   - target: 01-human/07-system/hereditary-breast-ovarian-cancer
     relation: connects-to
     note: "A different kind of ovarian cancer: DICER1 drives sex-cord-stromal ovarian tumours of the young, biologically distinct from the BRCA-driven epithelial ovarian cancer of hereditary breast-ovarian syndrome."
+  - target: 01-human/07-system/renal-cell-carcinoma
+    relation: connects-to
+    note: "Childhood kidney tumours: DICER1 syndrome causes cystic nephroma and anaplastic sarcoma of the kidney, paediatric renal tumours distinct from the clear cell renal carcinoma of adults."
+  - target: 01-human/07-system/neuroendocrine-tumors
+    relation: connects-to
+    note: "Pituitary blastoma: DICER1 syndrome causes infantile pituitary blastoma, an ACTH-secreting neuroendocrine tumour driving Cushing disease, part of its broad neuroendocrine spectrum."
+  - target: 01-human/07-system/osteosarcoma
+    relation: connects-to
+    note: "A mesenchymal-tumour spectrum: beyond embryonal rhabdomyosarcoma, DICER1 syndrome can produce other sarcomas including rare osteosarcoma, reflecting its broad predisposition to mesenchymal tumours."
 ---
 
 # DICER1 Syndrome
@@ -454,6 +463,9 @@ When a child is found to have a thoracic cystic lesion, DICER1 syndrome should b
 - `connects-to` → **[Glomerulus](../../05-tissue/glomerulus/README.md)** — Renal tumours of childhood: DICER1 causes cystic nephroma and a subset of Wilms tumours, developmental kidney tumours arising in the nephron near the glomerulus.
 - `connects-to` → **[Peutz-Jeghers Syndrome](../peutz-jeghers-syndrome/README.md)** — Shared ovarian sex-cord tumours: DICER1's Sertoli-Leydig tumours and the sex-cord tumours with annular tubules of Peutz-Jeghers both arise in the ovary, two germline syndromes converging on this rare tumour family.
 - `connects-to` → **[Hereditary Breast-Ovarian Cancer](../hereditary-breast-ovarian-cancer/README.md)** — A different kind of ovarian cancer: DICER1 drives sex-cord-stromal ovarian tumours of the young, biologically distinct from the BRCA-driven epithelial ovarian cancer of hereditary breast-ovarian syndrome.
+- `connects-to` → **[Renal Cell Carcinoma](../renal-cell-carcinoma/README.md)** — Childhood kidney tumours: DICER1 syndrome causes cystic nephroma and anaplastic sarcoma of the kidney, paediatric renal tumours distinct from the clear cell renal carcinoma of adults.
+- `connects-to` → **[Neuroendocrine Tumors](../neuroendocrine-tumors/README.md)** — Pituitary blastoma: DICER1 syndrome causes infantile pituitary blastoma, an ACTH-secreting neuroendocrine tumour driving Cushing disease, part of its broad neuroendocrine spectrum.
+- `connects-to` → **[Osteosarcoma](../osteosarcoma/README.md)** — A mesenchymal-tumour spectrum: beyond embryonal rhabdomyosarcoma, DICER1 syndrome can produce other sarcomas including rare osteosarcoma, reflecting its broad predisposition to mesenchymal tumours.
 
 ---
 
