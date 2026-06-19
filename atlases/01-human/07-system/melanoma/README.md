@@ -274,6 +274,15 @@ cross_links:
   - target: 01-human/07-system/epilepsy
     relation: connects-to
     note: "Seizures from brain spread: melanoma is among the cancers most prone to forming brain metastases, often haemorrhagic, making it a notable cause of secondary seizures and epilepsy in advanced disease."
+  - target: 01-human/03-molecular/wnt-beta-catenin
+    relation: connects-to
+    note: "Phenotype switch and immune escape: Wnt/β-catenin signalling controls melanoma phenotype switching and, when active, excludes T cells from the tumour—a driver of resistance to immunotherapy."
+  - target: 01-human/03-molecular/cyclin-d1
+    relation: connects-to
+    note: "Cell-cycle amplification: CCND1 (cyclin D1) amplification, common in acral and mucosal melanoma, partners CDK4/6 to drive proliferation, supporting CDK4/6-inhibitor strategies."
+  - target: 01-human/03-molecular/mtor
+    relation: connects-to
+    note: "Survival and resistance: PI3K-AKT-mTOR signalling from PTEN loss sustains melanoma survival and contributes to acquired resistance to BRAF/MEK-targeted therapy."
 ---
 
 # Melanoma
@@ -449,6 +458,9 @@ cross_links:
 - `connects-to` → **[Colorectal Cancer](../colorectal-cancer/README.md)** — Same mutation, different response: BRAF V600E drives both melanoma and a colorectal cancer subset, yet BRAF inhibitors alone work in melanoma but fail in colon cancer because EGFR feedback reactivates the pathway—a lesson in context-dependent oncogene targeting.
 - `connects-to` → **[Inflammatory Bowel Disease](../inflammatory-bowel-disease/README.md)** — Immunotherapy's autoimmune cost: the checkpoint inhibitors that revolutionised melanoma treatment unleash an autoimmune colitis closely resembling inflammatory bowel disease, managed with the same steroids and anti-TNF biologics.
 - `connects-to` → **[Epilepsy](../epilepsy/README.md)** — Seizures from brain spread: melanoma is among the cancers most prone to forming brain metastases, often haemorrhagic, making it a notable cause of secondary seizures and epilepsy in advanced disease.
+- `connects-to` → **[Wnt/β-catenin](../../03-molecular/wnt-beta-catenin/README.md)** — Phenotype switch and immune escape: Wnt/β-catenin signalling controls melanoma phenotype switching and, when active, excludes T cells from the tumour—a driver of resistance to immunotherapy.
+- `connects-to` → **[Cyclin D1](../../03-molecular/cyclin-d1/README.md)** — Cell-cycle amplification: CCND1 (cyclin D1) amplification, common in acral and mucosal melanoma, partners CDK4/6 to drive proliferation, supporting CDK4/6-inhibitor strategies.
+- `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — Survival and resistance: PI3K-AKT-mTOR signalling from PTEN loss sustains melanoma survival and contributes to acquired resistance to BRAF/MEK-targeted therapy.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 

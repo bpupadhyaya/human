@@ -268,6 +268,15 @@ cross_links:
   - target: 01-human/05-tissue/endocardium
     relation: connects-to
     note: "Carcinoid heart disease: serotonin from liver-metastatic MEN1 carcinoids deposits fibrous plaque on the right-sided heart valves and endocardium, scarring them into the tricuspid and pulmonary lesions of carcinoid heart disease."
+  - target: 01-human/03-molecular/cyclin-d1
+    relation: connects-to
+    note: "Derepressed proliferation: loss of menin removes its restraint on cyclin D1, driving the cell-cycle entry of the parathyroid, pancreatic and pituitary tumours of MEN1."
+  - target: 01-human/03-molecular/akt
+    relation: connects-to
+    note: "PI3K-mTOR target: PI3K-AKT-mTOR signalling is active in MEN1 pancreatic neuroendocrine tumours, the rationale for everolimus therapy in advanced disease."
+  - target: 01-human/03-molecular/hif-1alpha
+    relation: connects-to
+    note: "Angiogenic neuroendocrine tumours: HIF-1α-driven, VEGF-rich angiogenesis makes MEN1 neuroendocrine tumours highly vascular, underpinning the use of anti-angiogenic agents like sunitinib."
 ---
 
 # MEN1 Syndrome
@@ -471,6 +480,9 @@ Menin haploinsufficiency (one functional allele) creates susceptibility: cells a
 - `connects-to` → **[Serotonin](../../03-molecular/serotonin/README.md)** — Carcinoid hormone: the foregut, thymic and bronchial carcinoids of MEN1 can secrete serotonin, and once they metastasise the hormone overflow produces the flushing and diarrhoea of carcinoid syndrome.
 - `connects-to` → **[Hepatic Lobule](../../05-tissue/hepatic-lobule/README.md)** — Where the tumours turn lethal: the pancreatic and duodenal neuroendocrine tumours of MEN1 metastasise preferentially to the liver, and this hepatic spread through the lobule is the leading cause of death in the syndrome.
 - `connects-to` → **[Endocardium](../../05-tissue/endocardium/README.md)** — Carcinoid heart disease: serotonin from liver-metastatic MEN1 carcinoids deposits fibrous plaque on the right-sided heart valves and endocardium, scarring them into the tricuspid and pulmonary lesions of carcinoid heart disease.
+- `connects-to` → **[Cyclin D1](../../03-molecular/cyclin-d1/README.md)** — Derepressed proliferation: loss of menin removes its restraint on cyclin D1, driving the cell-cycle entry of the parathyroid, pancreatic and pituitary tumours of MEN1.
+- `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — PI3K-mTOR target: PI3K-AKT-mTOR signalling is active in MEN1 pancreatic neuroendocrine tumours, the rationale for everolimus therapy in advanced disease.
+- `connects-to` → **[HIF-1α](../../03-molecular/hif-1alpha/README.md)** — Angiogenic neuroendocrine tumours: HIF-1α-driven, VEGF-rich angiogenesis makes MEN1 neuroendocrine tumours highly vascular, underpinning the use of anti-angiogenic agents like sunitinib.
 
 ---
 
