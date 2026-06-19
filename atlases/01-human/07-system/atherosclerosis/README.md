@@ -265,6 +265,15 @@ cross_links:
   - target: 01-human/05-tissue/cardiac-conduction-system
     relation: connects-to
     note: "Ischaemia and arrhythmia: coronary atherosclerosis starves the conduction system, and infarction scars it, causing the heart block and ventricular arrhythmias of ischaemic heart disease."
+  - target: 01-human/07-system/hiv-aids
+    relation: connects-to
+    note: "Accelerated arterial disease: HIV/AIDS speeds atherosclerosis through chronic immune activation, inflammation and antiretroviral metabolic effects, making cardiovascular disease a leading cause of death in treated HIV."
+  - target: 01-human/07-system/inflammatory-bowel-disease
+    relation: connects-to
+    note: "Inflammation injures arteries: chronic inflammatory diseases like inflammatory bowel disease accelerate atherosclerosis, the systemic inflammation damaging the arterial wall beyond traditional risk factors."
+  - target: 01-human/07-system/covid-19-disease
+    relation: connects-to
+    note: "Infection that ruptures plaques: COVID-19's hyperinflammatory, prothrombotic state can rupture atherosclerotic plaques and trigger heart attacks and strokes, with lasting cardiovascular risk after recovery."
 ---
 
 # Atherosclerosis
@@ -461,6 +470,9 @@ The process begins in childhood with **fatty streaks** and progresses silently o
 - `connects-to` → **[Gout](../gout/README.md)** — Urate and inflamed arteries: hyperuricaemia and gout are independently associated with atherosclerosis and cardiovascular events, sharing the NLRP3-inflammasome-driven inflammation that destabilises plaque.
 - `connects-to` → **[Glomerulus](../../05-tissue/glomerulus/README.md)** — Ischaemic nephropathy: atherosclerosis of the renal arteries and intrarenal vessels starves the glomerulus, causing renovascular hypertension and ischaemic chronic kidney disease.
 - `connects-to` → **[Cardiac Conduction System](../../05-tissue/cardiac-conduction-system/README.md)** — Ischaemia and arrhythmia: coronary atherosclerosis starves the conduction system, and infarction scars it, causing the heart block and ventricular arrhythmias of ischaemic heart disease.
+- `connects-to` → **[HIV/AIDS](../hiv-aids/README.md)** — Accelerated arterial disease: HIV/AIDS speeds atherosclerosis through chronic immune activation, inflammation and antiretroviral metabolic effects, making cardiovascular disease a leading cause of death in treated HIV.
+- `connects-to` → **[Inflammatory Bowel Disease](../inflammatory-bowel-disease/README.md)** — Inflammation injures arteries: chronic inflammatory diseases like inflammatory bowel disease accelerate atherosclerosis, the systemic inflammation damaging the arterial wall beyond traditional risk factors.
+- `connects-to` → **[COVID-19 Disease](../covid-19-disease/README.md)** — Infection that ruptures plaques: COVID-19's hyperinflammatory, prothrombotic state can rupture atherosclerotic plaques and trigger heart attacks and strokes, with lasting cardiovascular risk after recovery.
 
 ---
 

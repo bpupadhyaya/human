@@ -259,6 +259,15 @@ cross_links:
   - target: 01-human/07-system/sickle-cell-disease
     relation: connects-to
     note: "Parvovirus aplastic crisis: parvovirus B19 transiently shuts down red-cell production, causing a sudden severe anaemia in sickle cell disease—a focused red-cell aplasia distinct from the global marrow failure of aplastic anaemia."
+  - target: 01-human/07-system/hiv
+    relation: connects-to
+    note: "Viral marrow suppression: HIV directly and indirectly suppresses the bone marrow, causing pancytopenia and occasionally an aplastic-anaemia-like picture in advanced infection."
+  - target: 01-human/07-system/epilepsy
+    relation: connects-to
+    note: "Drug-induced marrow failure: anticonvulsants such as carbamazepine and felbamate are among the drugs that can trigger idiosyncratic aplastic anaemia, linking epilepsy treatment to marrow failure."
+  - target: 01-human/05-tissue/cortical-bone
+    relation: connects-to
+    note: "An empty marrow cavity: aplastic anaemia leaves the cortical-bone-encased marrow hypocellular and fatty, the hallmark biopsy finding that distinguishes it from infiltrative marrow failure."
 ---
 
 # Aplastic Anemia
@@ -452,6 +461,9 @@ In >80% of acquired AA cases, the disease is **immune-mediated**: autoreactive *
 - `connects-to` → **[Iron Deficiency Anemia](../iron-deficiency-anemia/README.md)** — Opposite anaemias: aplastic anaemia fails to make blood cells (pancytopenia) while iron-deficiency anaemia lacks the iron to build haemoglobin—and repeated transfusions for aplastic anaemia ironically cause iron overload.
 - `connects-to` → **[Intestinal Epithelium](../../05-tissue/intestinal-epithelium/README.md)** — Neutropenic gut infection: profound neutropenia in aplastic anaemia lets gut bacteria invade the bowel wall, causing typhlitis and a major route of life-threatening sepsis.
 - `connects-to` → **[Sickle Cell Disease](../sickle-cell-disease/README.md)** — Parvovirus aplastic crisis: parvovirus B19 transiently shuts down red-cell production, causing a sudden severe anaemia in sickle cell disease—a focused red-cell aplasia distinct from the global marrow failure of aplastic anaemia.
+- `connects-to` → **[HIV](../hiv/README.md)** — Viral marrow suppression: HIV directly and indirectly suppresses the bone marrow, causing pancytopenia and occasionally an aplastic-anaemia-like picture in advanced infection.
+- `connects-to` → **[Epilepsy](../epilepsy/README.md)** — Drug-induced marrow failure: anticonvulsants such as carbamazepine and felbamate are among the drugs that can trigger idiosyncratic aplastic anaemia, linking epilepsy treatment to marrow failure.
+- `connects-to` → **[Cortical Bone](../../05-tissue/cortical-bone/README.md)** — An empty marrow cavity: aplastic anaemia leaves the cortical-bone-encased marrow hypocellular and fatty, the hallmark biopsy finding that distinguishes it from infiltrative marrow failure.
 
 ---
 
