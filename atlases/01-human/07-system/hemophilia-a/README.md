@@ -259,6 +259,15 @@ cross_links:
   - target: 01-human/07-system/dlbcl
     relation: connects-to
     note: "New bleeding can flag a hidden cancer: acquired haemophilia A from anti-factor-VIII autoantibodies is often paraneoplastic, classically with lymphoproliferative disorders like diffuse large B-cell lymphoma, so unexplained bleeding in an older adult warrants a malignancy search."
+  - target: 01-human/07-system/hcc
+    relation: connects-to
+    note: "The transfusion-era legacy: hepatitis C from contaminated clotting-factor concentrates gave a generation of haemophilia patients chronic liver disease, cirrhosis and hepatocellular carcinoma, still a leading cause of death."
+  - target: 01-human/05-tissue/germinal-center
+    relation: connects-to
+    note: "Where inhibitors are born: the anti-factor-VIII alloantibodies that defeat replacement therapy are class-switched and affinity-matured by B cells in germinal centres, the central immunological problem of haemophilia care."
+  - target: 01-human/05-tissue/arterial-wall
+    relation: connects-to
+    note: "A paradoxical protection: the lifelong hypocoagulable state of haemophilia lowers the risk of arterial thrombosis, so atherosclerotic plaques in the arterial wall less often trigger heart attacks and ischaemic strokes."
 ---
 
 # Hemophilia A
@@ -460,6 +469,9 @@ FVIII is a critical **amplifier** of the coagulation cascade at the junction bet
 - `connects-to` → **[Heparin-Induced Thrombocytopenia](../heparin-induced-thrombocytopenia/README.md)** — Opposite poles of haemostasis: haemophilia A bleeds from absent factor VIII, while heparin-induced thrombocytopenia paradoxically clots despite falling platelets—two disorders that frame the balance between bleeding and thrombosis.
 - `connects-to` → **[Rheumatoid Arthritis](../rheumatoid-arthritis/README.md)** — Acquired haemophilia is autoimmune: autoantibodies against factor VIII can arise in autoimmune disease such as rheumatoid arthritis (and postpartum), causing sudden bleeding distinct from the inherited X-linked deficiency.
 - `connects-to` → **[DLBCL](../dlbcl/README.md)** — New bleeding can flag a hidden cancer: acquired haemophilia A from anti-factor-VIII autoantibodies is often paraneoplastic, classically with lymphoproliferative disorders like diffuse large B-cell lymphoma, so unexplained bleeding in an older adult warrants a malignancy search.
+- `connects-to` → **[HCC](../hcc/README.md)** — The transfusion-era legacy: hepatitis C from contaminated clotting-factor concentrates gave a generation of haemophilia patients chronic liver disease, cirrhosis and hepatocellular carcinoma, still a leading cause of death.
+- `connects-to` → **[Germinal Center](../../05-tissue/germinal-center/README.md)** — Where inhibitors are born: the anti-factor-VIII alloantibodies that defeat replacement therapy are class-switched and affinity-matured by B cells in germinal centres, the central immunological problem of haemophilia care.
+- `connects-to` → **[Arterial Wall](../../05-tissue/arterial-wall/README.md)** — A paradoxical protection: the lifelong hypocoagulable state of haemophilia lowers the risk of arterial thrombosis, so atherosclerotic plaques in the arterial wall less often trigger heart attacks and ischaemic strokes.
 
 [^oldenburg-2017-emicizumab-haven1]: Oldenburg J, Mahlangu JN, Kim B, et al. Emicizumab prophylaxis in hemophilia A with inhibitors. *N Engl J Med.* 2017;377(9):809-818. [doi:10.1056/NEJMoa1703068](https://doi.org/10.1056/NEJMoa1703068) · [PubMed 28691557](https://pubmed.ncbi.nlm.nih.gov/28691557/)
 [^mahlangu-2018-emicizumab-haven3]: Mahlangu J, Oldenburg J, Paz-Priel I, et al. Emicizumab prophylaxis in patients who have hemophilia A without inhibitors. *N Engl J Med.* 2018;379(9):811-822. [doi:10.1056/NEJMoa1803550](https://doi.org/10.1056/NEJMoa1803550) · [PubMed 30157389](https://pubmed.ncbi.nlm.nih.gov/30157389/)

@@ -253,6 +253,15 @@ cross_links:
   - target: 01-human/07-system/multiple-myeloma
     relation: connects-to
     note: "A treatable cause hides in the marrow: AL (light-chain) amyloidosis from a plasma-cell clone deposits in the myocardium as a restrictive cardiomyopathy, so unexplained heart failure with thick walls warrants a myeloma workup."
+  - target: 01-human/07-system/copd
+    relation: connects-to
+    note: "Cor pulmonale: COPD raises pulmonary vascular resistance and right-heart afterload, driving right-sided heart failure, and the two diseases share smoking and systemic inflammation."
+  - target: 01-human/05-tissue/arterial-wall
+    relation: connects-to
+    note: "Afterload and stiffness: stiffening of the arterial wall raises the load the heart pumps against and is central to heart failure with preserved ejection fraction, coupling vascular ageing to cardiac failure."
+  - target: 01-human/05-tissue/bone-marrow
+    relation: connects-to
+    note: "Marrow links to the failing heart: heart failure drives a cardio-renal-anaemia syndrome, and age-related clonal haematopoiesis (CHIP) from the bone marrow fuels inflammation that accelerates its progression."
 ---
 
 # Heart Failure
@@ -404,6 +413,9 @@ Normal hearts increase stroke volume with increasing preload (Starling curve). T
 - `connects-to` → **[Alveolus](../../05-tissue/alveolus/README.md)** — It floods the air sacs: left heart failure raises pulmonary venous pressure until fluid leaks into the alveoli, causing the pulmonary oedema, orthopnoea and breathlessness of acute decompensation.
 - `connects-to` → **[Glomerulus](../../05-tissue/glomerulus/README.md)** — Cardiorenal syndrome strains the filter: falling cardiac output and venous congestion reduce glomerular perfusion and filtration, the kidney dysfunction that complicates heart failure and limits diuresis.
 - `connects-to` → **[Multiple Myeloma](../multiple-myeloma/README.md)** — A treatable cause hides in the marrow: AL (light-chain) amyloidosis from a plasma-cell clone deposits in the myocardium as a restrictive cardiomyopathy, so unexplained heart failure with thick walls warrants a myeloma workup.
+- `connects-to` → **[COPD](../copd/README.md)** — Cor pulmonale: COPD raises pulmonary vascular resistance and right-heart afterload, driving right-sided heart failure, and the two diseases share smoking and systemic inflammation.
+- `connects-to` → **[Arterial Wall](../../05-tissue/arterial-wall/README.md)** — Afterload and stiffness: stiffening of the arterial wall raises the load the heart pumps against and is central to heart failure with preserved ejection fraction, coupling vascular ageing to cardiac failure.
+- `connects-to` → **[Bone Marrow](../../05-tissue/bone-marrow/README.md)** — Marrow links to the failing heart: heart failure drives a cardio-renal-anaemia syndrome, and age-related clonal haematopoiesis (CHIP) from the bone marrow fuels inflammation that accelerates its progression.
 
 ## Pathology
 
