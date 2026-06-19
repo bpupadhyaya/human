@@ -274,6 +274,16 @@ cross_links:
   - target: 03-medicine/01-modern/13-cancer/checkpoint-inhibitors
     relation: connects-to
     note: "Immunotherapy can mimic it: checkpoint-inhibitor cancer therapy can trigger an immune-related myositis—sometimes with myocarditis—that clinically resembles dermatomyositis, an emerging iatrogenic cause."
+  - target: 01-human/07-system/covid-19-disease
+    relation: connects-to
+    note: "MDA5 in common: MDA5 is the viral RNA sensor, and anti-MDA5 dermatomyositis produces a rapidly progressive interstitial lung disease and hyperinflammation strikingly reminiscent of severe COVID-19, with infection studied as a trigger."
+  - target: 01-human/07-system/endometrial-cancer
+    relation: connects-to
+    note: "Paraneoplastic cancer search: anti-TIF1-gamma dermatomyositis is strongly cancer-associated, so a new diagnosis prompts screening for occult malignancy including the gynaecological cancers—ovarian, breast and endometrial."
+  - target: 01-human/05-tissue/neuromuscular-junction
+    relation: connects-to
+    note: "Localising the weakness: dermatomyositis is a myopathy whereas myasthenia gravis is a neuromuscular-junction disease, and both present with proximal weakness—distinguishing the lesion site is central to diagnosis."
+---
 ---
 
 # Dermatomyositis
@@ -484,6 +494,9 @@ DM carries a ~3–7× elevated cancer risk overall. Anti-TIF1γ (TRIM33) suppres
 - `connects-to` → **[Arterial Wall](../../05-tissue/arterial-wall/README.md)** — A vasculopathy at its core: juvenile dermatomyositis is fundamentally a small-vessel disease, with complement-mediated injury to the arterial wall and capillaries causing the muscle ischaemia, skin ulcers and gut infarction.
 - `connects-to` → **[HNSCC](../hnscc/README.md)** — The signature paraneoplastic cancer in Asia: nasopharyngeal carcinoma is the malignancy most strongly tied to dermatomyositis in East Asian populations, a key target of the cancer search every new diagnosis prompts.
 - `connects-to` → **[Checkpoint Inhibitors](../../../03-medicine/01-modern/13-cancer/checkpoint-inhibitors/README.md)** — Immunotherapy can mimic it: checkpoint-inhibitor cancer therapy can trigger an immune-related myositis—sometimes with myocarditis—that clinically resembles dermatomyositis, an emerging iatrogenic cause.
+- `connects-to` → **[COVID-19 Disease](../covid-19-disease/README.md)** — MDA5 in common: MDA5 is the viral RNA sensor, and anti-MDA5 dermatomyositis produces a rapidly progressive interstitial lung disease and hyperinflammation strikingly reminiscent of severe COVID-19, with infection studied as a trigger.
+- `connects-to` → **[Endometrial Cancer](../endometrial-cancer/README.md)** — Paraneoplastic cancer search: anti-TIF1-gamma dermatomyositis is strongly cancer-associated, so a new diagnosis prompts screening for occult malignancy including the gynaecological cancers—ovarian, breast and endometrial.
+- `connects-to` → **[Neuromuscular Junction](../../05-tissue/neuromuscular-junction/README.md)** — Localising the weakness: dermatomyositis is a myopathy whereas myasthenia gravis is a neuromuscular-junction disease, and both present with proximal weakness—distinguishing the lesion site is central to diagnosis.
 
 [^bohan-peter-1975-dm-criteria]: Bohan A, Peter JB. Polymyositis and dermatomyositis. *N Engl J Med.* 1975;292(7):344-347. [doi:10.1056/NEJM197502132920706](https://doi.org/10.1056/NEJM197502132920706) · [PubMed 1090839](https://pubmed.ncbi.nlm.nih.gov/1090839/)
 [^lundberg-2021-iim-classification]: Lundberg IE, et al. 2017 EULAR/ACR classification criteria for adult and juvenile idiopathic inflammatory myopathies. *Arthritis Rheumatol.* 2017;69(12):2271-2282. [doi:10.1002/art.40320](https://doi.org/10.1002/art.40320) · [PubMed 29106061](https://pubmed.ncbi.nlm.nih.gov/29106061/)
