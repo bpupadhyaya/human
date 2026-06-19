@@ -259,6 +259,15 @@ cross_links:
   - target: 01-human/07-system/type-1-diabetes
     relation: connects-to
     note: "It can precipitate diabetes: COVID-19 raises the risk of new-onset diabetes, both stress-driven type 2 and autoimmune-pattern type 1, with ACE2 on pancreatic islets implicated in beta-cell injury."
+  - target: 01-human/05-tissue/germinal-center
+    relation: connects-to
+    note: "Disrupted germinal centres: severe COVID-19 can ablate lymph-node germinal centres, blunting durable antibody maturation, whereas mRNA vaccines instead drive robust, long-lived germinal-centre responses."
+  - target: 01-human/07-system/obesity
+    relation: connects-to
+    note: "A leading severity risk: obesity was among the strongest predictors of severe COVID-19, through impaired ventilation, a pro-inflammatory adipose milieu and underlying endothelial dysfunction."
+  - target: 01-human/05-tissue/bone-marrow
+    relation: connects-to
+    note: "Marrow under strain: severe COVID-19 drives profound lymphopenia and emergency myelopoiesis, releasing immature, dysfunctional neutrophils from the bone marrow that amplify the inflammatory response."
 ---
 
 # COVID-19 Disease
@@ -404,6 +413,9 @@ Symptoms persisting >4 weeks: fatigue (most common), cognitive impairment ("brai
 - `connects-to` → **[Glomerulus](../../05-tissue/glomerulus/README.md)** — It injures the kidney's filter: COVID-19 causes acute kidney injury and a collapsing glomerulopathy (especially with APOL1 risk variants), with ACE2 expression making the glomerulus a target of SARS-CoV-2.
 - `connects-to` → **[Fibromyalgia](../fibromyalgia/README.md)** — Long COVID overlaps chronic-fatigue syndromes: persistent post-COVID fatigue, widespread pain and autonomic dysfunction overlap heavily with fibromyalgia and ME/CFS, a post-viral chronic-symptom state.
 - `connects-to` → **[Type 1 Diabetes](../type-1-diabetes/README.md)** — It can precipitate diabetes: COVID-19 raises the risk of new-onset diabetes, both stress-driven type 2 and autoimmune-pattern type 1, with ACE2 on pancreatic islets implicated in beta-cell injury.
+- `connects-to` → **[Germinal Center](../../05-tissue/germinal-center/README.md)** — Disrupted germinal centres: severe COVID-19 can ablate lymph-node germinal centres, blunting durable antibody maturation, whereas mRNA vaccines instead drive robust, long-lived germinal-centre responses.
+- `connects-to` → **[Obesity](../obesity/README.md)** — A leading severity risk: obesity was among the strongest predictors of severe COVID-19, through impaired ventilation, a pro-inflammatory adipose milieu and underlying endothelial dysfunction.
+- `connects-to` → **[Bone Marrow](../../05-tissue/bone-marrow/README.md)** — Marrow under strain: severe COVID-19 drives profound lymphopenia and emergency myelopoiesis, releasing immature, dysfunctional neutrophils from the bone marrow that amplify the inflammatory response.
 
 ## Pathology
 

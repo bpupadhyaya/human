@@ -265,6 +265,15 @@ cross_links:
   - target: 01-human/07-system/anca-vasculitis
     relation: connects-to
     note: "Autoimmune diseases that scar the lung: like ANCA-associated vasculitis, dermatomyositis (notably anti-MDA5) causes interstitial lung disease, though one attacks muscle and skin via interferon and the other small vessels via ANCA."
+  - target: 01-human/05-tissue/arterial-wall
+    relation: connects-to
+    note: "A vasculopathy at its core: juvenile dermatomyositis is fundamentally a small-vessel disease, with complement-mediated injury to the arterial wall and capillaries causing the muscle ischaemia, skin ulcers and gut infarction."
+  - target: 01-human/07-system/hnscc
+    relation: connects-to
+    note: "The signature paraneoplastic cancer in Asia: nasopharyngeal carcinoma is the malignancy most strongly tied to dermatomyositis in East Asian populations, a key target of the cancer search every new diagnosis prompts."
+  - target: 03-medicine/01-modern/13-cancer/checkpoint-inhibitors
+    relation: connects-to
+    note: "Immunotherapy can mimic it: checkpoint-inhibitor cancer therapy can trigger an immune-related myositis—sometimes with myocarditis—that clinically resembles dermatomyositis, an emerging iatrogenic cause."
 ---
 
 # Dermatomyositis
@@ -472,6 +481,9 @@ DM carries a ~3–7× elevated cancer risk overall. Anti-TIF1γ (TRIM33) suppres
 - `connects-to` → **[Alveolus](../../05-tissue/alveolus/README.md)** — Its lungs can fail fast: interstitial lung disease—especially the rapidly progressive form with anti-MDA5 antibodies—scars the alveolar units and is a leading cause of death in dermatomyositis.
 - `connects-to` → **[Myocardium](../../05-tissue/myocardium/README.md)** — It can inflame the heart muscle: the immune attack on striated muscle in dermatomyositis extends to the myocardium, causing myocarditis, conduction disease and heart failure that drive mortality.
 - `connects-to` → **[ANCA Vasculitis](../anca-vasculitis/README.md)** — Autoimmune diseases that scar the lung: like ANCA-associated vasculitis, dermatomyositis (notably anti-MDA5) causes interstitial lung disease, though one attacks muscle and skin via interferon and the other small vessels via ANCA.
+- `connects-to` → **[Arterial Wall](../../05-tissue/arterial-wall/README.md)** — A vasculopathy at its core: juvenile dermatomyositis is fundamentally a small-vessel disease, with complement-mediated injury to the arterial wall and capillaries causing the muscle ischaemia, skin ulcers and gut infarction.
+- `connects-to` → **[HNSCC](../hnscc/README.md)** — The signature paraneoplastic cancer in Asia: nasopharyngeal carcinoma is the malignancy most strongly tied to dermatomyositis in East Asian populations, a key target of the cancer search every new diagnosis prompts.
+- `connects-to` → **[Checkpoint Inhibitors](../../../03-medicine/01-modern/13-cancer/checkpoint-inhibitors/README.md)** — Immunotherapy can mimic it: checkpoint-inhibitor cancer therapy can trigger an immune-related myositis—sometimes with myocarditis—that clinically resembles dermatomyositis, an emerging iatrogenic cause.
 
 [^bohan-peter-1975-dm-criteria]: Bohan A, Peter JB. Polymyositis and dermatomyositis. *N Engl J Med.* 1975;292(7):344-347. [doi:10.1056/NEJM197502132920706](https://doi.org/10.1056/NEJM197502132920706) · [PubMed 1090839](https://pubmed.ncbi.nlm.nih.gov/1090839/)
 [^lundberg-2021-iim-classification]: Lundberg IE, et al. 2017 EULAR/ACR classification criteria for adult and juvenile idiopathic inflammatory myopathies. *Arthritis Rheumatol.* 2017;69(12):2271-2282. [doi:10.1002/art.40320](https://doi.org/10.1002/art.40320) · [PubMed 29106061](https://pubmed.ncbi.nlm.nih.gov/29106061/)
