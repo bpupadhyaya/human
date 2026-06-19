@@ -250,6 +250,15 @@ cross_links:
   - target: 01-human/07-system/gastric-cancer
     relation: connects-to
     note: "The source of a Krukenberg tumour: metastatic gastric and other GI signet-ring carcinomas seed the ovaries as Krukenberg tumours, a classic ovarian metastasis that mimics primary ovarian cancer and must be distinguished from it."
+  - target: 01-human/05-tissue/intestinal-epithelium
+    relation: connects-to
+    note: "Peritoneal spread and bowel obstruction: ovarian cancer disseminates across the peritoneum, encasing the bowel ('omental caking') and infiltrating the intestinal epithelium, so bowel obstruction becomes a leading cause of death."
+  - target: 01-human/05-tissue/hepatic-lobule
+    relation: connects-to
+    note: "Liver and capsular involvement: ovarian cancer studs the liver capsule with perihepatic implants and metastasises to the hepatic lobule in advanced disease."
+  - target: 01-human/03-molecular/wt1
+    relation: connects-to
+    note: "A diagnostic marker: high-grade serous ovarian carcinoma characteristically expresses WT1, an immunohistochemical marker that helps confirm its tubal/serous origin over other gynaecological cancers."
 ---
 
 # Ovarian Cancer
@@ -443,6 +452,9 @@ FTSEC ciliated and secretory cells line the Fallopian tube; secretory cells are 
 - `connects-to` → **[Prostate Cancer](../prostate-cancer/README.md)** — Shared BRCA vulnerability across the sexes: like high-grade serous ovarian cancer, BRCA-mutant prostate cancer carries homologous-recombination deficiency and responds to PARP inhibitors, placing both in the HBOC spectrum despite opposite organs.
 - `connects-to` → **[Germinal Center](../../05-tissue/germinal-center/README.md)** — B-cell islands sharpen the prognosis: high-grade serous ovarian cancers that build tertiary lymphoid structures with germinal-centre B cells and plasma cells show stronger antitumour immunity and better survival than those with T cells alone.
 - `connects-to` → **[Gastric Cancer](../gastric-cancer/README.md)** — The source of a Krukenberg tumour: metastatic gastric and other GI signet-ring carcinomas seed the ovaries as Krukenberg tumours, a classic ovarian metastasis that mimics primary ovarian cancer and must be distinguished from it.
+- `connects-to` → **[Intestinal Epithelium](../../05-tissue/intestinal-epithelium/README.md)** — Peritoneal spread and bowel obstruction: ovarian cancer disseminates across the peritoneum, encasing the bowel ('omental caking') and infiltrating the intestinal epithelium, so bowel obstruction becomes a leading cause of death.
+- `connects-to` → **[Hepatic Lobule](../../05-tissue/hepatic-lobule/README.md)** — Liver and capsular involvement: ovarian cancer studs the liver capsule with perihepatic implants and metastasises to the hepatic lobule in advanced disease.
+- `connects-to` → **[WT1](../../03-molecular/wt1/README.md)** — A diagnostic marker: high-grade serous ovarian carcinoma characteristically expresses WT1, an immunohistochemical marker that helps confirm its tubal/serous origin over other gynaecological cancers.
 
 [^burger-2011-gog0218]: Burger RA, Brady MF, Bookman MA, et al. Incorporation of bevacizumab in the primary treatment of ovarian cancer. *N Engl J Med.* 2011;365(26):2473-2483. [doi:10.1056/NEJMoa1104390](https://doi.org/10.1056/NEJMoa1104390) · [PubMed 22204724](https://pubmed.ncbi.nlm.nih.gov/22204724/)
 [^moore-2018-olaparib-solo1]: Moore K, Colombo N, Scambia G, et al. Maintenance olaparib in patients with newly diagnosed advanced ovarian cancer. *N Engl J Med.* 2018;379(26):2495-2505. [doi:10.1056/NEJMoa1810858](https://doi.org/10.1056/NEJMoa1810858) · [PubMed 30345884](https://pubmed.ncbi.nlm.nih.gov/30345884/)

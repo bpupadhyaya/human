@@ -250,6 +250,15 @@ cross_links:
   - target: 01-human/07-system/colorectal-cancer
     relation: connects-to
     note: "Driven by the same oncogenes: clear cell ovarian cancers frequently carry KRAS and PIK3CA mutations that also drive colorectal cancer, so the RAS-PI3K signalling these tumours share guides targeted-therapy thinking across both."
+  - target: 01-human/05-tissue/intestinal-epithelium
+    relation: connects-to
+    note: "Peritoneal and bowel spread: like other ovarian cancers, clear-cell carcinoma seeds the peritoneum and infiltrates the bowel wall, though it more often presents as an early-stage pelvic mass arising from endometriosis."
+  - target: 01-human/07-system/hlrcc
+    relation: connects-to
+    note: "Clear cells and HIF across organs: OCCC, like HLRCC's renal cancer and clear-cell RCC, shows glycogen-rich clear cytoplasm and constitutive HIF/pseudohypoxia—a convergent clear-cell phenotype in different organs."
+  - target: 01-human/05-tissue/alveolus
+    relation: connects-to
+    note: "Lung and pleural metastasis: clear-cell ovarian carcinoma can spread to the lungs and pleura, seeding the alveolar bed in its chemoresistant advanced course."
 ---
 
 # Ovarian Clear Cell Carcinoma
@@ -469,6 +478,9 @@ Comprehensive surgical staging (TAH-BSO, omentectomy, pelvic/para-aortic lymphad
 - `connects-to` → **[Germinal Center](../../05-tissue/germinal-center/README.md)** — B-cell islands beyond the T cells: clear cell ovarian cancers that organise tertiary lymphoid structures with germinal-centre B cells mount a broader antitumour response and tend to fare better, adding to the T-cell infiltrate that already shapes ovarian-cancer outcome.
 - `connects-to` → **[HCC](../hcc/README.md)** — A shared chromatin-remodeller defect: ARID1A, the SWI/SNF subunit mutated in roughly half of clear cell ovarian cancers, is also among the commonest mutations in hepatocellular carcinoma—one epigenetic machinery failing across two organs.
 - `connects-to` → **[Colorectal Cancer](../colorectal-cancer/README.md)** — Driven by the same oncogenes: clear cell ovarian cancers frequently carry KRAS and PIK3CA mutations that also drive colorectal cancer, so the RAS-PI3K signalling these tumours share guides targeted-therapy thinking across both.
+- `connects-to` → **[Intestinal Epithelium](../../05-tissue/intestinal-epithelium/README.md)** — Peritoneal and bowel spread: like other ovarian cancers, clear-cell carcinoma seeds the peritoneum and infiltrates the bowel wall, though it more often presents as an early-stage pelvic mass arising from endometriosis.
+- `connects-to` → **[HLRCC](../hlrcc/README.md)** — Clear cells and HIF across organs: OCCC, like HLRCC's renal cancer and clear-cell RCC, shows glycogen-rich clear cytoplasm and constitutive HIF/pseudohypoxia—a convergent clear-cell phenotype in different organs.
+- `connects-to` → **[Alveolus](../../05-tissue/alveolus/README.md)** — Lung and pleural metastasis: clear-cell ovarian carcinoma can spread to the lungs and pleura, seeding the alveolar bed in its chemoresistant advanced course.
 
 ---
 
