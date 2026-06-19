@@ -259,6 +259,15 @@ cross_links:
   - target: 01-human/04-cellular/plasma-cell
     relation: connects-to
     note: "The IgE factory: plasma cells differentiating from atopic B cells secrete the allergen-specific IgE that arms mast cells, sustaining the allergic inflammation of atopic dermatitis."
+  - target: 01-human/07-system/rsv
+    relation: connects-to
+    note: "The atopic march begins early: severe infant RSV bronchiolitis is linked to later recurrent wheeze and asthma, part of the atopic march that often starts with atopic dermatitis."
+  - target: 01-human/07-system/autism-spectrum-disorder
+    relation: connects-to
+    note: "Skin-brain comorbidity: atopic dermatitis is associated with higher rates of ADHD and autism spectrum disorder, possibly through chronic itch, sleep loss and shared inflammatory pathways."
+  - target: 01-human/07-system/osteoporosis
+    relation: connects-to
+    note: "Steroids and bone: long courses of systemic corticosteroids for severe atopic dermatitis, plus chronic inflammation, can lower bone mineral density and raise fracture risk."
 ---
 
 # Atopic Dermatitis
@@ -462,6 +471,9 @@ S. aureus colonizes >90% of AD lesional skin (vs. 20% normal skin):
 - `connects-to` → **[Germinal Center](../../05-tissue/germinal-center/README.md)** — Making the allergic antibody: IgE class-switching in the germinal centres of lymphoid tissue produces the allergen-specific IgE that drives the atopic march from eczema to asthma.
 - `connects-to` → **[Synapse](../../05-tissue/synapse/README.md)** — Itch that rewires the cord: chronic scratching in atopic dermatitis sensitises itch-processing synapses in the spinal cord and brain, so the itch outlasts the rash—central sensitisation of pruritus.
 - `connects-to` → **[Plasma Cell](../../04-cellular/plasma-cell/README.md)** — The IgE factory: plasma cells differentiating from atopic B cells secrete the allergen-specific IgE that arms mast cells, sustaining the allergic inflammation of atopic dermatitis.
+- `connects-to` → **[RSV](../rsv/README.md)** — The atopic march begins early: severe infant RSV bronchiolitis is linked to later recurrent wheeze and asthma, part of the atopic march that often starts with atopic dermatitis.
+- `connects-to` → **[Autism Spectrum Disorder](../autism-spectrum-disorder/README.md)** — Skin-brain comorbidity: atopic dermatitis is associated with higher rates of ADHD and autism spectrum disorder, possibly through chronic itch, sleep loss and shared inflammatory pathways.
+- `connects-to` → **[Osteoporosis](../osteoporosis/README.md)** — Steroids and bone: long courses of systemic corticosteroids for severe atopic dermatitis, plus chronic inflammation, can lower bone mineral density and raise fracture risk.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 

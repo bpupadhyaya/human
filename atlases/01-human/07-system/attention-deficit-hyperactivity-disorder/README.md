@@ -268,6 +268,15 @@ cross_links:
   - target: 01-human/07-system/anorexia-nervosa
     relation: connects-to
     note: "Impulse control and eating: ADHD raises the risk of disordered eating across the spectrum, and stimulant-driven appetite suppression complicates its overlap with anorexia nervosa."
+  - target: 01-human/07-system/tuberous-sclerosis-complex
+    relation: connects-to
+    note: "ADHD in genetic syndromes: tuberous sclerosis, like neurofibromatosis type 1, carries very high rates of ADHD, linking single-gene neurodevelopmental disorders to attention dysfunction."
+  - target: 01-human/07-system/alzheimers-disease
+    relation: connects-to
+    note: "A later dementia link: adult ADHD is associated with a higher later risk of dementia including Alzheimer's, possibly through shared catecholaminergic vulnerability and accumulated lifestyle risk."
+  - target: 01-human/07-system/covid-19-disease
+    relation: connects-to
+    note: "Attention after the pandemic: COVID-19 disruption worsened ADHD symptoms and access to care, and long-COVID 'brain fog' can mimic or aggravate attention deficits."
 ---
 
 # Attention-Deficit/Hyperactivity Disorder
@@ -497,6 +506,9 @@ ADHD is a clinical diagnosis requiring [^biederman-2005-adhd-adults]:
 - `connects-to` → **[Orexin](../../03-molecular/orexin/README.md)** — Arousal and vigilance: orexin from the hypothalamus sustains wakefulness and attention, and the sleep-wake instability common in ADHD—and its overlap with narcolepsy—implicates this arousal system.
 - `connects-to` → **[Histamine](../../03-molecular/histamine/README.md)** — The wakefulness amine: brain histamine acting through H3 receptors regulates attention and arousal, and H3-modulating drugs are studied in ADHD and narcolepsy.
 - `connects-to` → **[Anorexia Nervosa](../anorexia-nervosa/README.md)** — Impulse control and eating: ADHD raises the risk of disordered eating across the spectrum, and stimulant-driven appetite suppression complicates its overlap with anorexia nervosa.
+- `connects-to` → **[Tuberous Sclerosis Complex](../tuberous-sclerosis-complex/README.md)** — ADHD in genetic syndromes: tuberous sclerosis, like neurofibromatosis type 1, carries very high rates of ADHD, linking single-gene neurodevelopmental disorders to attention dysfunction.
+- `connects-to` → **[Alzheimer's Disease](../alzheimers-disease/README.md)** — A later dementia link: adult ADHD is associated with a higher later risk of dementia including Alzheimer's, possibly through shared catecholaminergic vulnerability and accumulated lifestyle risk.
+- `connects-to` → **[COVID-19 Disease](../covid-19-disease/README.md)** — Attention after the pandemic: COVID-19 disruption worsened ADHD symptoms and access to care, and long-COVID 'brain fog' can mimic or aggravate attention deficits.
 
 [^faraone-2021-adhd-primer]: Faraone SV, Banaschewski T, Coghill D, et al. The World Federation of ADHD International Consensus Statement: 208 Evidence-based conclusions about the disorder. *Neurosci Biobehav Rev.* 2021;128:789-818. [doi:10.1016/j.neubiorev.2021.01.022](https://doi.org/10.1016/j.neubiorev.2021.01.022) · [PubMed 33549739](https://pubmed.ncbi.nlm.nih.gov/33549739/)
 [^arnsten-2009-adhd-neuroscience]: Arnsten AF. Toward a new understanding of ADHD pathophysiology: an important role for prefrontal cortex dysfunction. *CNS Drugs.* 2009;23(Suppl 1):33-41. [doi:10.2165/00023210-200923000-00005](https://doi.org/10.2165/00023210-200923000-00005) · [PubMed 19621976](https://pubmed.ncbi.nlm.nih.gov/19621976/)
