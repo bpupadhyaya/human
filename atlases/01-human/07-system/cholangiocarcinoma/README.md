@@ -277,6 +277,15 @@ cross_links:
   - target: 01-human/03-molecular/ntrk
     relation: connects-to
     note: "Rare actionable fusion: NTRK gene fusions, though uncommon, make some cholangiocarcinomas exquisitely sensitive to TRK inhibitors, part of its precision-oncology landscape."
+  - target: 01-human/03-molecular/pik3ca
+    relation: connects-to
+    note: "PI3K activation: PIK3CA mutations activate the PI3K/AKT pathway in a subset of cholangiocarcinomas, driving growth and contributing to therapy resistance."
+  - target: 01-human/03-molecular/hif-1alpha
+    relation: connects-to
+    note: "Desmoplastic hypoxia: the dense, poorly vascularised stroma of cholangiocarcinoma is hypoxic, stabilising HIF-1α to drive angiogenesis, invasion and chemoresistance."
+  - target: 01-human/03-molecular/myc
+    relation: connects-to
+    note: "Oncogenic amplification: MYC activation downstream of growth-factor signalling drives the proliferation and metabolic reprogramming of cholangiocarcinoma."
 ---
 
 # Cholangiocarcinoma
@@ -460,6 +469,9 @@ Chronic biliary injury (from PSC, fluke infection, bile acid reflux, biliary sta
 - `connects-to` → **[YAP1](../../03-molecular/yap1/README.md)** — Hippo-YAP driver: activation of the Hippo pathway effector YAP is a central oncogenic mechanism in cholangiocarcinoma, promoting biliary cell proliferation and a poor prognosis.
 - `connects-to` → **[MET](../../03-molecular/met/README.md)** — MET as a target: MET amplification and overexpression occur in a subset of cholangiocarcinomas, marking another actionable receptor tyrosine kinase alongside FGFR2 fusions.
 - `connects-to` → **[NTRK](../../03-molecular/ntrk/README.md)** — Rare actionable fusion: NTRK gene fusions, though uncommon, make some cholangiocarcinomas exquisitely sensitive to TRK inhibitors, part of its precision-oncology landscape.
+- `connects-to` → **[PIK3CA](../../03-molecular/pik3ca/README.md)** — PI3K activation: PIK3CA mutations activate the PI3K/AKT pathway in a subset of cholangiocarcinomas, driving growth and contributing to therapy resistance.
+- `connects-to` → **[HIF-1α](../../03-molecular/hif-1alpha/README.md)** — Desmoplastic hypoxia: the dense, poorly vascularised stroma of cholangiocarcinoma is hypoxic, stabilising HIF-1α to drive angiogenesis, invasion and chemoresistance.
+- `connects-to` → **[MYC](../../03-molecular/myc/README.md)** — Oncogenic amplification: MYC activation downstream of growth-factor signalling drives the proliferation and metabolic reprogramming of cholangiocarcinoma.
 
 ---
 

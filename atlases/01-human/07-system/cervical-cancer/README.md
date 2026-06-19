@@ -277,6 +277,15 @@ cross_links:
   - target: 01-human/05-tissue/intestinal-epithelium
     relation: connects-to
     note: "Local rectal invasion: advanced cervical cancer can invade the rectum and create rectovaginal fistulas, breaching the intestinal epithelium—a debilitating feature of locally advanced disease."
+  - target: 01-human/03-molecular/akt
+    relation: connects-to
+    note: "PI3K/AKT signalling: PIK3CA mutation is among the commonest events in cervical cancer, activating AKT to drive growth and survival and offering a targeted therapeutic node."
+  - target: 01-human/03-molecular/hif-1alpha
+    relation: connects-to
+    note: "Hypoxia and radioresistance: HIF-1α stabilised in hypoxic cervical tumours drives angiogenesis and resistance to radiotherapy, a key adverse prognostic factor."
+  - target: 01-human/03-molecular/ezh2
+    relation: connects-to
+    note: "Epigenetic driver: HPV E7 upregulates EZH2, whose PRC2 silencing of tumour-suppressor genes promotes the progression of HPV-driven cervical cancer."
 ---
 
 # Cervical Cancer
@@ -486,6 +495,9 @@ The cervical transformation zone (TZ) — the area between the original and new 
 - `connects-to` → **[MYC](../../03-molecular/myc/README.md)** — MYC amplification: gain of the 3q26 region amplifying MYC is a common driver of cervical cancer progression, cooperating with HPV E6/E7 to fuel proliferation.
 - `connects-to` → **[Notch](../../03-molecular/notch/README.md)** — Context-dependent Notch: NOTCH1 is recurrently mutated in cervical cancer, where Notch signalling can act as either tumour suppressor or oncogene depending on stage and context.
 - `connects-to` → **[Intestinal Epithelium](../../05-tissue/intestinal-epithelium/README.md)** — Local rectal invasion: advanced cervical cancer can invade the rectum and create rectovaginal fistulas, breaching the intestinal epithelium—a debilitating feature of locally advanced disease.
+- `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — PI3K/AKT signalling: PIK3CA mutation is among the commonest events in cervical cancer, activating AKT to drive growth and survival and offering a targeted therapeutic node.
+- `connects-to` → **[HIF-1α](../../03-molecular/hif-1alpha/README.md)** — Hypoxia and radioresistance: HIF-1α stabilised in hypoxic cervical tumours drives angiogenesis and resistance to radiotherapy, a key adverse prognostic factor.
+- `connects-to` → **[EZH2](../../03-molecular/ezh2/README.md)** — Epigenetic driver: HPV E7 upregulates EZH2, whose PRC2 silencing of tumour-suppressor genes promotes the progression of HPV-driven cervical cancer.
 
 ---
 
