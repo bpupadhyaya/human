@@ -252,6 +252,15 @@ cross_links:
   - target: 01-human/07-system/opioid-use-disorder
     relation: connects-to
     note: "A common reward pathway: bulimia nervosa frequently co-occurs with substance use, and the mu-opioid reward system it shares with opioid use disorder is why the antagonist naltrexone is studied for binge-purge behaviour."
+  - target: 01-human/05-tissue/cardiac-conduction-system
+    relation: connects-to
+    note: "Purging and fatal arrhythmia: vomiting and laxative abuse cause hypokalaemia and hypomagnesaemia that prolong the QT interval, the electrolyte derangement behind sudden cardiac death in bulimia."
+  - target: 01-human/05-tissue/intestinal-epithelium
+    relation: connects-to
+    note: "Cathartic colon: chronic stimulant-laxative abuse for purging injures the colonic epithelium and myenteric nerves, leaving a poorly contractile, dilated 'cathartic colon'."
+  - target: 01-human/03-molecular/insulin
+    relation: connects-to
+    note: "Insulin as a purge ('diabulimia'): people with type 1 diabetes and bulimia may deliberately omit insulin to lose weight through glycosuria, a dangerous purging behaviour driving ketoacidosis and complications."
 ---
 
 # Bulimia Nervosa
@@ -459,6 +468,9 @@ All of the following must be met:
 - `connects-to` → **[Myocardium](../../05-tissue/myocardium/README.md)** — Purging poisons the heart: repeated vomiting and laxative abuse cause hypokalaemia and (historically) ipecac cardiotoxicity, triggering the arrhythmias and cardiomyopathy behind sudden cardiac death in bulimia nervosa.
 - `connects-to` → **[Internet Gaming Disorder](../internet-gaming-disorder/README.md)** — Shared impulsivity and loss of control: bulimia nervosa and internet gaming disorder both feature binge-like loss of control and reward-circuit dysregulation, on the spectrum of impulsive and behavioural-addiction disorders.
 - `connects-to` → **[Opioid Use Disorder](../opioid-use-disorder/README.md)** — A common reward pathway: bulimia nervosa frequently co-occurs with substance use, and the mu-opioid reward system it shares with opioid use disorder is why the antagonist naltrexone is studied for binge-purge behaviour.
+- `connects-to` → **[Cardiac Conduction System](../../05-tissue/cardiac-conduction-system/README.md)** — Purging and fatal arrhythmia: vomiting and laxative abuse cause hypokalaemia and hypomagnesaemia that prolong the QT interval, the electrolyte derangement behind sudden cardiac death in bulimia.
+- `connects-to` → **[Intestinal Epithelium](../../05-tissue/intestinal-epithelium/README.md)** — Cathartic colon: chronic stimulant-laxative abuse for purging injures the colonic epithelium and myenteric nerves, leaving a poorly contractile, dilated 'cathartic colon'.
+- `connects-to` → **[Insulin](../../03-molecular/insulin/README.md)** — Insulin as a purge ('diabulimia'): people with type 1 diabetes and bulimia may deliberately omit insulin to lose weight through glycosuria, a dangerous purging behaviour driving ketoacidosis and complications.
 
 ## Treatment
 

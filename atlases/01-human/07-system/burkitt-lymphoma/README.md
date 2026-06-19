@@ -250,6 +250,15 @@ cross_links:
   - target: 01-human/05-tissue/intestinal-epithelium
     relation: connects-to
     note: "Sporadic Burkitt fills the abdomen: outside the endemic belt, Burkitt lymphoma typically presents as a bulky ileocaecal mass in the bowel wall, causing obstruction or intussusception from the intestinal lining."
+  - target: 01-human/05-tissue/glomerulus
+    relation: connects-to
+    note: "Tumour lysis nephropathy: Burkitt's explosive growth causes tumour lysis syndrome, whose urate and phosphate crystals obstruct the glomerulus and tubules, triggering acute kidney injury at presentation."
+  - target: 01-human/07-system/cll
+    relation: connects-to
+    note: "Opposite tempos of B-cell cancer: Burkitt is the fastest-growing human tumour, MYC-driven and doubling within a day, whereas chronic lymphocytic leukaemia is the most indolent—the extremes of mature B-cell malignancy."
+  - target: 01-human/07-system/pcnsl
+    relation: connects-to
+    note: "Aggressive B-cell lymphomas that seek sanctuary sites: Burkitt readily seeds the CNS and meninges, requiring intrathecal prophylaxis, a behaviour it shares with primary CNS lymphoma."
 ---
 
 # Burkitt Lymphoma
@@ -462,6 +471,9 @@ FISH for MYC, BCL2, and BCL6 is essential; if BCL2 FISH negative and Ki-67 ~100%
 - `connects-to` → **[Targeted Therapy](../../../03-medicine/01-modern/13-cancer/targeted-therapy/README.md)** — Rituximab cemented the cure: adding the anti-CD20 antibody rituximab to intensive chemotherapy markedly improved survival in Burkitt lymphoma, and its MYC-driven biology is a target of ongoing precision approaches.
 - `connects-to` → **[Cortical Bone](../../05-tissue/cortical-bone/README.md)** — Endemic Burkitt deforms the jaw: in equatorial Africa, EBV- and malaria-associated Burkitt lymphoma classically presents as a rapidly growing jaw or facial-bone mass in children, distorting the cortical bone.
 - `connects-to` → **[Intestinal Epithelium](../../05-tissue/intestinal-epithelium/README.md)** — Sporadic Burkitt fills the abdomen: outside the endemic belt, Burkitt lymphoma typically presents as a bulky ileocaecal mass in the bowel wall, causing obstruction or intussusception from the intestinal lining.
+- `connects-to` → **[Glomerulus](../../05-tissue/glomerulus/README.md)** — Tumour lysis nephropathy: Burkitt's explosive growth causes tumour lysis syndrome, whose urate and phosphate crystals obstruct the glomerulus and tubules, triggering acute kidney injury at presentation.
+- `connects-to` → **[CLL](../cll/README.md)** — Opposite tempos of B-cell cancer: Burkitt is the fastest-growing human tumour, MYC-driven and doubling within a day, whereas chronic lymphocytic leukaemia is the most indolent—the extremes of mature B-cell malignancy.
+- `connects-to` → **[PCNSL](../pcnsl/README.md)** — Aggressive B-cell lymphomas that seek sanctuary sites: Burkitt readily seeds the CNS and meninges, requiring intrathecal prophylaxis, a behaviour it shares with primary CNS lymphoma.
 
 ---
 
