@@ -246,6 +246,15 @@ cross_links:
   - target: 03-medicine/02-traditional/milk-thistle
     relation: connects-to
     note: "A popular hepatoprotective herb: silymarin from milk thistle is widely taken by people with chronic hepatitis B for its antioxidant, liver-supportive reputation, though it does not clear the virus and the evidence for benefit is weak."
+  - target: 01-human/05-tissue/arterial-wall
+    relation: connects-to
+    note: "It can inflame the arteries: hepatitis B is a classic cause of polyarteritis nodosa, where viral immune complexes deposit in medium-sized artery walls and produce a necrotising vasculitis with aneurysms and organ infarcts."
+  - target: 01-human/07-system/inflammatory-bowel-disease
+    relation: connects-to
+    note: "Immunosuppression reawakens it: anti-TNF biologics and other immunosuppressants used for inflammatory bowel disease can reactivate hepatitis B, so HBV screening and antiviral prophylaxis precede treatment."
+  - target: 01-human/07-system/follicular-lymphoma
+    relation: connects-to
+    note: "Rituximab can reactivate it: B-cell-depleting therapy for follicular and other lymphomas reactivates hepatitis B (sometimes fatally), and chronic HBV itself modestly raises non-Hodgkin lymphoma risk."
 ---
 
 # Hepatitis B
@@ -457,3 +466,6 @@ HDV is a satellite RNA virus that requires HBsAg for virion assembly:
 - `connects-to` → **[Hepatic Lobule](../../05-tissue/hepatic-lobule/README.md)** — It lives in the liver lobule: hepatitis B replicates in hepatocytes, producing ground-glass cells and lobular necroinflammation whose chronic cycles of damage and repair drive the fibrosis, cirrhosis and cancer of the liver.
 - `connects-to` → **[Checkpoint Inhibitors](../../../03-medicine/01-modern/13-cancer/checkpoint-inhibitors/README.md)** — Immunotherapy treats its cancer: HBV-related hepatocellular carcinoma is treated with checkpoint inhibitors such as atezolizumab with bevacizumab, though viral reactivation under immunotherapy must be guarded against with antivirals.
 - `connects-to` → **[Milk Thistle](../../../03-medicine/02-traditional/milk-thistle/README.md)** — A popular hepatoprotective herb: silymarin from milk thistle is widely taken by people with chronic hepatitis B for its antioxidant, liver-supportive reputation, though it does not clear the virus and the evidence for benefit is weak.
+- `connects-to` → **[Arterial Wall](../../05-tissue/arterial-wall/README.md)** — It can inflame the arteries: hepatitis B is a classic cause of polyarteritis nodosa, where viral immune complexes deposit in medium-sized artery walls and produce a necrotising vasculitis with aneurysms and organ infarcts.
+- `connects-to` → **[Inflammatory Bowel Disease](../inflammatory-bowel-disease/README.md)** — Immunosuppression reawakens it: anti-TNF biologics and other immunosuppressants used for inflammatory bowel disease can reactivate hepatitis B, so HBV screening and antiviral prophylaxis precede treatment.
+- `connects-to` → **[Follicular Lymphoma](../follicular-lymphoma/README.md)** — Rituximab can reactivate it: B-cell-depleting therapy for follicular and other lymphomas reactivates hepatitis B (sometimes fatally), and chronic HBV itself modestly raises non-Hodgkin lymphoma risk.

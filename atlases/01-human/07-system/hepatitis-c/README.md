@@ -246,6 +246,15 @@ cross_links:
   - target: 03-medicine/01-modern/13-cancer/checkpoint-inhibitors
     relation: connects-to
     note: "Immunotherapy for its liver cancer: HCV-related hepatocellular carcinoma, even after viral cure, is treated with checkpoint inhibitors such as atezolizumab with bevacizumab when it reaches the advanced stage."
+  - target: 01-human/05-tissue/peripheral-nerve
+    relation: connects-to
+    note: "It attacks the nerves through cryoglobulins: chronic hepatitis C generates cryoglobulin immune complexes that inflame small vessels supplying peripheral nerves, causing a painful sensorimotor neuropathy or mononeuritis multiplex."
+  - target: 01-human/07-system/anca-vasculitis
+    relation: connects-to
+    note: "Two routes to small-vessel vasculitis: hepatitis C causes an immune-complex (cryoglobulinemic) vasculitis, contrasting with the pauci-immune ANCA-associated vasculitides—different mechanisms damaging the same small vessels."
+  - target: 01-human/05-tissue/arterial-wall
+    relation: connects-to
+    note: "Beyond the liver, it injures vessels: hepatitis C cryoglobulinemic vasculitis inflames small and medium artery walls, and chronic HCV also accelerates atherosclerosis, raising cardiovascular as well as hepatic risk."
 ---
 
 # Hepatitis C
@@ -448,3 +457,6 @@ HCV cirrhosis → HCC risk 1–5% per year (annual ultrasound surveillance ± AF
 - `connects-to` → **[Hepatic Lobule](../../05-tissue/hepatic-lobule/README.md)** — It quietly scars the lobule: hepatitis C smoulders in hepatocytes for decades, with lobular inflammation and (in genotype 3) steatosis driving the fibrosis and cirrhosis that precede liver failure and cancer.
 - `connects-to` → **[Cancer Chemotherapy](../../../03-medicine/01-modern/13-cancer/cancer-chemotherapy/README.md)** — It seeds B-cell lymphomas: chronic HCV antigen stimulation drives B-cell non-Hodgkin lymphomas treated with chemotherapy — and clearing the virus with antivirals can itself regress indolent HCV-associated lymphoma.
 - `connects-to` → **[Checkpoint Inhibitors](../../../03-medicine/01-modern/13-cancer/checkpoint-inhibitors/README.md)** — Immunotherapy for its liver cancer: HCV-related hepatocellular carcinoma, even after viral cure, is treated with checkpoint inhibitors such as atezolizumab with bevacizumab when it reaches the advanced stage.
+- `connects-to` → **[Peripheral Nerve](../../05-tissue/peripheral-nerve/README.md)** — It attacks the nerves through cryoglobulins: chronic hepatitis C generates cryoglobulin immune complexes that inflame small vessels supplying peripheral nerves, causing a painful sensorimotor neuropathy or mononeuritis multiplex.
+- `connects-to` → **[ANCA Vasculitis](../anca-vasculitis/README.md)** — Two routes to small-vessel vasculitis: hepatitis C causes an immune-complex (cryoglobulinemic) vasculitis, contrasting with the pauci-immune ANCA-associated vasculitides—different mechanisms damaging the same small vessels.
+- `connects-to` → **[Arterial Wall](../../05-tissue/arterial-wall/README.md)** — Beyond the liver, it injures vessels: hepatitis C cryoglobulinemic vasculitis inflames small and medium artery walls, and chronic HCV also accelerates atherosclerosis, raising cardiovascular as well as hepatic risk.
