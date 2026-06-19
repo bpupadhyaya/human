@@ -256,6 +256,15 @@ cross_links:
   - target: 01-human/05-tissue/axonal-transport
     relation: connects-to
     note: "White-matter wiring is disturbed: bipolar disorder shows reduced white-matter integrity and altered axonal connectivity between mood-regulating regions, part of the neuroprogression seen over repeated episodes."
+  - target: 01-human/07-system/epilepsy
+    relation: connects-to
+    note: "Shared drugs and excitability: valproate, lamotrigine and carbamazepine are anticonvulsants that double as mood stabilisers, reflecting overlapping neuronal-excitability and kindling models of bipolar disorder and epilepsy."
+  - target: 01-human/05-tissue/glomerulus
+    relation: connects-to
+    note: "Lithium taxes the kidney: long-term lithium for bipolar disorder causes chronic interstitial nephropathy and nephrogenic diabetes insipidus, slowly impairing the kidney and scarring the glomeruli over decades of use."
+  - target: 01-human/07-system/obsessive-compulsive-disorder
+    relation: connects-to
+    note: "A comorbid mood-anxiety overlap: bipolar disorder and obsessive-compulsive disorder co-occur often, and antidepressants for OCD can destabilise mood into mania, complicating treatment of the pair."
 ---
 
 # Bipolar Disorder
@@ -465,6 +474,9 @@ During bipolar depression (often longer and more disabling than mania):
 - `connects-to` → **[Alzheimer's Disease](../alzheimers-disease/README.md)** — It raises later dementia risk: bipolar disorder is linked to a higher incidence of dementia including Alzheimer's, and intriguingly its mainstay lithium is studied as a neuroprotective agent that may lower that risk.
 - `connects-to` → **[Stimulant Use Disorder](../stimulant-use-disorder/README.md)** — Stimulants and mania entangle: substance and stimulant use is highly comorbid with bipolar disorder, can precipitate or mimic manic episodes, and worsens its course and treatment response.
 - `connects-to` → **[Axonal Transport](../../05-tissue/axonal-transport/README.md)** — White-matter wiring is disturbed: bipolar disorder shows reduced white-matter integrity and altered axonal connectivity between mood-regulating regions, part of the neuroprogression seen over repeated episodes.
+- `connects-to` → **[Epilepsy](../epilepsy/README.md)** — Shared drugs and excitability: valproate, lamotrigine and carbamazepine are anticonvulsants that double as mood stabilisers, reflecting overlapping neuronal-excitability and kindling models of bipolar disorder and epilepsy.
+- `connects-to` → **[Glomerulus](../../05-tissue/glomerulus/README.md)** — Lithium taxes the kidney: long-term lithium for bipolar disorder causes chronic interstitial nephropathy and nephrogenic diabetes insipidus, slowly impairing the kidney and scarring the glomeruli over decades of use.
+- `connects-to` → **[Obsessive-Compulsive Disorder](../obsessive-compulsive-disorder/README.md)** — A comorbid mood-anxiety overlap: bipolar disorder and obsessive-compulsive disorder co-occur often, and antidepressants for OCD can destabilise mood into mania, complicating treatment of the pair.
 
 [^grande-2016-bipolar-review]: Grande I, Berk M, Birmaher B, Vieta E. Bipolar disorder. *Lancet.* 2016;387(10027):1561-1572. [doi:10.1016/S0140-6736(15)00241-X](https://doi.org/10.1016/S0140-6736(15)00241-X) · [PubMed 26388529](https://pubmed.ncbi.nlm.nih.gov/26388529/)
 [^geddes-2013-bipolar-treatment]: Geddes JR, Miklowitz DJ. Treatment of bipolar disorder. *Lancet.* 2013;381(9878):1672-1682. [doi:10.1016/S0140-6736(13)60857-0](https://doi.org/10.1016/S0140-6736(13)60857-0) · [PubMed 23663953](https://pubmed.ncbi.nlm.nih.gov/23663953/)
