@@ -247,6 +247,15 @@ cross_links:
   - target: 01-human/07-system/heparin-induced-thrombocytopenia
     relation: connects-to
     note: "Thrombocytopenia with thrombosis: like HIT, TTP is a syndrome where platelets fall yet clotting paradoxically increases — TTP from ADAMTS13 deficiency seeding VWF-platelet microthrombi, HIT from anti-PF4 antibodies activating platelets."
+  - target: 01-human/05-tissue/glomerulus
+    relation: connects-to
+    note: "Microthrombi clog the kidney's filters: the VWF-platelet microthrombi of TTP lodge in glomerular and arteriolar capillaries causing renal impairment, though kidney injury is typically milder than in its cousin aHUS."
+  - target: 01-human/05-tissue/myocardium
+    relation: connects-to
+    note: "Its clots stop the heart: microvascular thrombi in the myocardium during acute TTP cause troponin rise, arrhythmia and sudden cardiac death—a leading cause of mortality that justifies urgent plasma exchange."
+  - target: 01-human/07-system/systemic-sclerosis
+    relation: connects-to
+    note: "Another thrombotic microangiopathy: scleroderma renal crisis causes microangiopathic haemolysis and thrombocytopenia resembling TTP but with normal ADAMTS13, so systemic sclerosis sits in the differential of an unexplained TMA."
 ---
 
 # Thrombotic Thrombocytopenic Purpura
@@ -478,6 +487,9 @@ In healthy individuals, ADAMTS13 (~190 kDa plasma glycoprotein; hepatic synthesi
 - `connects-to` → **[Targeted Therapy](../../../03-medicine/01-modern/13-cancer/targeted-therapy/README.md)** — Targeted agents transformed it: caplacizumab, an anti-von Willebrand factor nanobody, blocks platelet-VWF binding to halt microthrombi acutely, while recombinant ADAMTS13 replaces the missing enzyme in congenital TTP.
 - `connects-to` → **[Cancer Chemotherapy](../../../03-medicine/01-modern/13-cancer/cancer-chemotherapy/README.md)** — Both rescue and cause: cytotoxic immunosuppressants like cyclophosphamide and vincristine salvage refractory immune TTP, yet certain chemotherapies such as gemcitabine and mitomycin can themselves trigger a drug-induced thrombotic microangiopathy.
 - `connects-to` → **[Heparin-induced Thrombocytopenia](../heparin-induced-thrombocytopenia/README.md)** — Thrombocytopenia with thrombosis: like HIT, TTP is a syndrome where platelets fall yet clotting paradoxically increases — TTP from ADAMTS13 deficiency seeding VWF-platelet microthrombi, HIT from anti-PF4 antibodies activating platelets.
+- `connects-to` → **[Glomerulus](../../05-tissue/glomerulus/README.md)** — Microthrombi clog the kidney's filters: the VWF-platelet microthrombi of TTP lodge in glomerular and arteriolar capillaries causing renal impairment, though kidney injury is typically milder than in its cousin aHUS.
+- `connects-to` → **[Myocardium](../../05-tissue/myocardium/README.md)** — Its clots stop the heart: microvascular thrombi in the myocardium during acute TTP cause troponin rise, arrhythmia and sudden cardiac death—a leading cause of mortality that justifies urgent plasma exchange.
+- `connects-to` → **[Systemic Sclerosis](../systemic-sclerosis/README.md)** — Another thrombotic microangiopathy: scleroderma renal crisis causes microangiopathic haemolysis and thrombocytopenia resembling TTP but with normal ADAMTS13, so systemic sclerosis sits in the differential of an unexplained TMA.
 
 ---
 

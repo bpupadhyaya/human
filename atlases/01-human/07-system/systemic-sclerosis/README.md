@@ -247,6 +247,15 @@ cross_links:
   - target: 01-human/05-tissue/arterial-wall
     relation: connects-to
     note: "A vasculopathy as much as a fibrosis: systemic sclerosis remodels small arteries with intimal proliferation and luminal narrowing — the onion-skin lesions of scleroderma renal crisis and the digital-artery disease behind Raynaud's and digital ulcers."
+  - target: 01-human/05-tissue/myocardium
+    relation: connects-to
+    note: "It silently scars the heart muscle: systemic sclerosis lays down primary myocardial fibrosis and microvascular ischaemia that cause arrhythmias, conduction block and heart failure—often clinically silent until advanced, and a leading cause of death."
+  - target: 01-human/05-tissue/glomerulus
+    relation: connects-to
+    note: "Scleroderma renal crisis starves the filter: renin-driven malignant hypertension and arteriolar thrombotic microangiopathy cut blood flow to the glomeruli, causing acute kidney injury that prompt ACE inhibition can reverse."
+  - target: 01-human/07-system/thrombotic-thrombocytopenic-purpura
+    relation: connects-to
+    note: "A thrombotic microangiopathy of its own: scleroderma renal crisis produces microangiopathic haemolysis and thrombocytopenia that mimic thrombotic thrombocytopenic purpura, but with normal ADAMTS13—a key distinction in the TMA differential."
 ---
 
 # Systemic Sclerosis
@@ -437,6 +446,9 @@ Identical to IPAH: medial hypertrophy, intimal fibrosis, concentric laminar inti
 - `connects-to` → **[Cancer Chemotherapy](../../../03-medicine/01-modern/13-cancer/cancer-chemotherapy/README.md)** — Cyclophosphamide and transplant for severe disease: cyclophosphamide is used for progressive scleroderma lung and skin fibrosis, and autologous haematopoietic stem-cell transplant can halt rapidly diffuse disease by resetting the autoimmune system.
 - `connects-to` → **[Targeted Therapy](../../../03-medicine/01-modern/13-cancer/targeted-therapy/README.md)** — Antifibrotics and cytokine blockade: nintedanib, an anti-fibrotic multikinase inhibitor, slows scleroderma-associated interstitial lung disease, while tocilizumab against IL-6 and rituximab against B cells temper the fibrosing inflammation.
 - `connects-to` → **[Arterial Wall](../../05-tissue/arterial-wall/README.md)** — A vasculopathy as much as a fibrosis: systemic sclerosis remodels small arteries with intimal proliferation and luminal narrowing — the onion-skin lesions of scleroderma renal crisis and the digital-artery disease behind Raynaud's and digital ulcers.
+- `connects-to` → **[Myocardium](../../05-tissue/myocardium/README.md)** — It silently scars the heart muscle: systemic sclerosis lays down primary myocardial fibrosis and microvascular ischaemia that cause arrhythmias, conduction block and heart failure—often clinically silent until advanced, and a leading cause of death.
+- `connects-to` → **[Glomerulus](../../05-tissue/glomerulus/README.md)** — Scleroderma renal crisis starves the filter: renin-driven malignant hypertension and arteriolar thrombotic microangiopathy cut blood flow to the glomeruli, causing acute kidney injury that prompt ACE inhibition can reverse.
+- `connects-to` → **[Thrombotic Thrombocytopenic Purpura](../thrombotic-thrombocytopenic-purpura/README.md)** — A thrombotic microangiopathy of its own: scleroderma renal crisis produces microangiopathic haemolysis and thrombocytopenia that mimic thrombotic thrombocytopenic purpura, but with normal ADAMTS13—a key distinction in the TMA differential.
 
 [^denton-2017-ssc-review]: Denton CP, Khanna D. Systemic sclerosis. *Lancet.* 2017;390(10103):1685-1699. [doi:10.1016/S0140-6736(17)30933-9](https://doi.org/10.1016/S0140-6736(17)30933-9) · [PubMed 28413064](https://pubmed.ncbi.nlm.nih.gov/28413064/)
 [^distler-2019-nintedanib-senscis]: Distler O, Highland KB, Gahlemann M, et al. Nintedanib for Systemic Sclerosis-Associated Interstitial Lung Disease. *N Engl J Med.* 2019;380(26):2518-2528. [doi:10.1056/NEJMoa1903076](https://doi.org/10.1056/NEJMoa1903076) · [PubMed 31112379](https://pubmed.ncbi.nlm.nih.gov/31112379/)
