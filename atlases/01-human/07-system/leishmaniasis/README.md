@@ -244,6 +244,15 @@ cross_links:
   - target: 02-pathogen/04-parasites/trypanosoma-cruzi
     relation: connects-to
     note: "A related kinetoplastid parasite: Leishmania and Trypanosoma cruzi are both vector-borne kinetoplastid protozoa that survive inside host cells, sharing biology that makes both notoriously hard to drug."
+  - target: 01-human/05-tissue/hepatic-lobule
+    relation: connects-to
+    note: "It parasitizes the liver's macrophages: visceral leishmaniasis fills the Kupffer cells of the hepatic lobule with amastigotes, driving the granulomatous response and massive hepatomegaly of kala-azar."
+  - target: 01-human/05-tissue/glomerulus
+    relation: connects-to
+    note: "It immune-complexes the kidney: chronic visceral leishmaniasis deposits immune complexes in the glomerulus, causing glomerulonephritis and proteinuria as part of its multi-organ disease."
+  - target: 01-human/07-system/myelofibrosis
+    relation: connects-to
+    note: "A great mimic of blood cancer: visceral leishmaniasis causes massive splenomegaly, pancytopenia and marrow infiltration that mimic myelofibrosis and other haematological malignancies, delaying diagnosis in non-endemic areas."
 ---
 
 # Leishmaniasis
@@ -421,3 +430,6 @@ HIV-VL co-infection: CD4+ depletion → loss of IFN-γ production → *Leishmani
 - `connects-to` → **[Cancer Chemotherapy](../../../03-medicine/01-modern/13-cancer/cancer-chemotherapy/README.md)** — An oncology drug repurposed: miltefosine, the first oral drug for visceral leishmaniasis, began as an anticancer alkylphosphocholine, and conversely chemotherapy-induced immunosuppression can reactivate latent Leishmania.
 - `connects-to` → **[Germinal Center](../../05-tissue/germinal-center/README.md)** — It drives massive antibody output: visceral leishmaniasis hyperactivates B cells in germinal centres, producing the striking polyclonal hypergammaglobulinaemia and reactive lymphoid hyperplasia that accompany the parasite burden.
 - `connects-to` → **[Trypanosoma cruzi](../../../02-pathogen/04-parasites/trypanosoma-cruzi/README.md)** — A related kinetoplastid parasite: Leishmania and Trypanosoma cruzi are both vector-borne kinetoplastid protozoa that survive inside host cells, sharing biology that makes both notoriously hard to drug.
+- `connects-to` → **[Hepatic Lobule](../../05-tissue/hepatic-lobule/README.md)** — It parasitizes the liver's macrophages: visceral leishmaniasis fills the Kupffer cells of the hepatic lobule with amastigotes, driving the granulomatous response and massive hepatomegaly of kala-azar.
+- `connects-to` → **[Glomerulus](../../05-tissue/glomerulus/README.md)** — It immune-complexes the kidney: chronic visceral leishmaniasis deposits immune complexes in the glomerulus, causing glomerulonephritis and proteinuria as part of its multi-organ disease.
+- `connects-to` → **[Myelofibrosis](../myelofibrosis/README.md)** — A great mimic of blood cancer: visceral leishmaniasis causes massive splenomegaly, pancytopenia and marrow infiltration that mimic myelofibrosis and other haematological malignancies, delaying diagnosis in non-endemic areas.

@@ -249,6 +249,15 @@ cross_links:
   - target: 03-medicine/02-traditional/berberine
     relation: connects-to
     note: "A plant alkaloid with antiplasmodial activity: berberine, from Berberis and related plants used in traditional medicine, shows antimalarial activity in the laboratory, echoing how the wormwood-derived artemisinins became frontline therapy."
+  - target: 01-human/05-tissue/hepatic-lobule
+    relation: connects-to
+    note: "The silent liver stage comes first: injected Plasmodium sporozoites invade hepatocytes in the hepatic lobule to multiply before the blood stage, and vivax and ovale leave dormant hypnozoites there that cause relapses."
+  - target: 01-human/05-tissue/alveolus
+    relation: connects-to
+    note: "It can flood the lungs: severe falciparum malaria causes acute lung injury and ARDS, with inflammatory alveolar-capillary leak filling the alveoli even as parasitaemia is being cleared."
+  - target: 01-human/05-tissue/germinal-center
+    relation: connects-to
+    note: "Chronic infection over-activates B cells: repeated malaria drives intense polyclonal B-cell activation and germinal-centre expansion with hypergammaglobulinaemia, the immune over-stimulation that, with EBV, underlies endemic Burkitt lymphoma."
 ---
 
 # Malaria
@@ -484,6 +493,9 @@ cross_links:
 - `connects-to` → **[Glomerulus](../../05-tissue/glomerulus/README.md)** — It scars the kidney filter: Plasmodium malariae deposits immune complexes in the glomerulus causing quartan malarial nephropathy, while severe falciparum brings blackwater fever and acute tubular injury — major contributors to malarial death.
 - `connects-to` → **[Toxoplasma gondii](../../../02-pathogen/04-parasites/toxoplasma-gondii/README.md)** — A fellow apicomplexan: Plasmodium and Toxoplasma are both apicomplexan parasites with an apicoplast organelle, the shared vulnerability that antifolates and other antiparasitics exploit against both.
 - `connects-to` → **[Berberine](../../../03-medicine/02-traditional/berberine/README.md)** — A plant alkaloid with antiplasmodial activity: berberine, from Berberis and related plants used in traditional medicine, shows antimalarial activity in the laboratory, echoing how the wormwood-derived artemisinins became frontline therapy.
+- `connects-to` → **[Hepatic Lobule](../../05-tissue/hepatic-lobule/README.md)** — The silent liver stage comes first: injected Plasmodium sporozoites invade hepatocytes in the hepatic lobule to multiply before the blood stage, and vivax and ovale leave dormant hypnozoites there that cause relapses.
+- `connects-to` → **[Alveolus](../../05-tissue/alveolus/README.md)** — It can flood the lungs: severe falciparum malaria causes acute lung injury and ARDS, with inflammatory alveolar-capillary leak filling the alveoli even as parasitaemia is being cleared.
+- `connects-to` → **[Germinal Center](../../05-tissue/germinal-center/README.md)** — Chronic infection over-activates B cells: repeated malaria drives intense polyclonal B-cell activation and germinal-centre expansion with hypergammaglobulinaemia, the immune over-stimulation that, with EBV, underlies endemic Burkitt lymphoma.
 
 [^who-malaria-report-2023]: World Health Organization. World Malaria Report 2023. WHO; 2023.
 [^white-2014-malaria-lancet]: White NJ, Pukrittayakamee S, Hien TT, et al. Malaria. *Lancet.* 2014;383(9918):723-735. [doi:10.1016/S0140-6736(13)60024-0](https://doi.org/10.1016/S0140-6736(13)60024-0) · [PubMed 23953767](https://pubmed.ncbi.nlm.nih.gov/23953767/)
