@@ -259,6 +259,15 @@ cross_links:
   - target: 01-human/05-tissue/myocardium
     relation: connects-to
     note: "Hippo-YAP and heart regeneration: the merlin-Hippo-YAP pathway that NF2 disrupts is a leading target to coax the adult myocardium to regenerate after infarction, a striking spin-off from a nerve-tumour gene."
+  - target: 01-human/07-system/mpnst
+    relation: connects-to
+    note: "The nerve-sheath-tumour family: NF2 produces benign Schwann-cell schwannomas while NF1 produces neurofibromas that can transform into MPNST, the two neurofibromatoses bracketing the spectrum of peripheral-nerve-sheath tumours."
+  - target: 01-human/05-tissue/neuromuscular-junction
+    relation: connects-to
+    note: "A disease of Schwann cells: NF2 tumours arise from the Schwann cells that ensheath peripheral nerves down to the neuromuscular junction, merlin loss driving their relentless proliferation along the nerve."
+  - target: 01-human/07-system/li-fraumeni-syndrome
+    relation: connects-to
+    note: "Meningioma-predisposing syndromes: NF2 is the leading germline cause of multiple meningiomas, while Li-Fraumeni patients develop them after radiotherapy—two inherited routes to the same intracranial tumour."
 ---
 
 # Neurofibromatosis Type 2
@@ -459,6 +468,9 @@ Merlin has an N-terminal FERM domain (α, β, γ lobes) that binds membrane lipi
 - `connects-to` → **[Axonal Transport](../../05-tissue/axonal-transport/README.md)** — Bilateral vestibular schwannomas: NF2's hallmark tumours arise from the Schwann cells of cranial nerve VIII, compressing the nerve and its axons to cause the progressive hearing loss and imbalance that define the syndrome.
 - `connects-to` → **[Fibrosis](../../05-tissue/fibrosis/README.md)** — Dense fibrous tumour stroma: NF2 schwannomas and meningiomas lay down a collagen-rich, fibroblastic matrix—the firm Antoni-A texture of schwannoma—and merlin loss promotes this profibrotic phenotype.
 - `connects-to` → **[Myocardium](../../05-tissue/myocardium/README.md)** — Hippo-YAP and heart regeneration: the merlin-Hippo-YAP pathway that NF2 disrupts is a leading target to coax the adult myocardium to regenerate after infarction, a striking spin-off from a nerve-tumour gene.
+- `connects-to` → **[MPNST](../mpnst/README.md)** — The nerve-sheath-tumour family: NF2 produces benign Schwann-cell schwannomas while NF1 produces neurofibromas that can transform into MPNST, the two neurofibromatoses bracketing the spectrum of peripheral-nerve-sheath tumours.
+- `connects-to` → **[Neuromuscular Junction](../../05-tissue/neuromuscular-junction/README.md)** — A disease of Schwann cells: NF2 tumours arise from the Schwann cells that ensheath peripheral nerves down to the neuromuscular junction, merlin loss driving their relentless proliferation along the nerve.
+- `connects-to` → **[Li-Fraumeni Syndrome](../li-fraumeni-syndrome/README.md)** — Meningioma-predisposing syndromes: NF2 is the leading germline cause of multiple meningiomas, while Li-Fraumeni patients develop them after radiotherapy—two inherited routes to the same intracranial tumour.
 
 [^asthagiri-2009-nf2-lancet]: Asthagiri AR, Parry DM, Butman JA, et al. Neurofibromatosis type 2. *Lancet.* 2009;373(9679):1974-1986. [doi:10.1016/S0140-6736(09)60259-2](https://doi.org/10.1016/S0140-6736(09)60259-2) · [PubMed 19476995](https://pubmed.ncbi.nlm.nih.gov/19476995/)
 [^plotkin-2009-nf2-bevacizumab]: Plotkin SR, Stemmer-Rachamimov AO, Barker FG 2nd, et al. Hearing improvement after bevacizumab in patients with neurofibromatosis type 2. *N Engl J Med.* 2009;361(4):358-367. [doi:10.1056/NEJMoa0902579](https://doi.org/10.1056/NEJMoa0902579) · [PubMed 19587327](https://pubmed.ncbi.nlm.nih.gov/19587327/)

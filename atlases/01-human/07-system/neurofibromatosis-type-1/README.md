@@ -259,6 +259,15 @@ cross_links:
   - target: 01-human/05-tissue/myocardium
     relation: connects-to
     note: "RASopathy cardiac involvement: NF1 carries congenital heart disease (pulmonary stenosis) and a vasculopathy, and dysregulated RAS signalling underlies the cardiomyopathies of the RASopathies it overlaps."
+  - target: 01-human/07-system/lynch-syndrome
+    relation: connects-to
+    note: "The café-au-lait mimic: constitutional mismatch-repair deficiency (biallelic Lynch genes) produces café-au-lait macules and childhood cancers that closely imitate NF1, a critical distinction since the two demand entirely different surveillance."
+  - target: 01-human/07-system/vhl-disease
+    relation: connects-to
+    note: "Two phakomatoses, one shared tumour: NF1 and von Hippel-Lindau are both neurocutaneous tumour-suppressor syndromes that predispose to pheochromocytoma, though NF1 dysregulates RAS while VHL drives HIF and angiogenesis."
+  - target: 01-human/05-tissue/synapse
+    relation: connects-to
+    note: "The learning gene: neurofibromin restrains RAS at the synapse, and its loss raises GABAergic inhibition and impairs synaptic plasticity, underlying the learning disabilities and attention problems common in NF1."
 ---
 
 # Neurofibromatosis Type 1
@@ -452,6 +461,9 @@ In glioma and MPNST: additional alterations required — MPNST requires CDKN2A/2
 - `connects-to` → **[Hippocampus](../../05-tissue/hippocampus/README.md)** — Learning and cognition: NF1 causes learning disabilities, ADHD and autism features, as excess RAS-driven GABAergic signalling impairs hippocampal long-term potentiation and memory.
 - `connects-to` → **[Diffuse Midline Glioma](../diffuse-midline-glioma/README.md)** — NF1 gliomas: NF1 predisposes to optic-pathway and other childhood gliomas, some high-grade and midline, RAS-driven counterparts to the H3K27M-driven sporadic diffuse midline glioma.
 - `connects-to` → **[Myocardium](../../05-tissue/myocardium/README.md)** — RASopathy cardiac involvement: NF1 carries congenital heart disease (pulmonary stenosis) and a vasculopathy, and dysregulated RAS signalling underlies the cardiomyopathies of the RASopathies it overlaps.
+- `connects-to` → **[Lynch Syndrome](../lynch-syndrome/README.md)** — The café-au-lait mimic: constitutional mismatch-repair deficiency (biallelic Lynch genes) produces café-au-lait macules and childhood cancers that closely imitate NF1, a critical distinction since the two demand entirely different surveillance.
+- `connects-to` → **[VHL Disease](../vhl-disease/README.md)** — Two phakomatoses, one shared tumour: NF1 and von Hippel-Lindau are both neurocutaneous tumour-suppressor syndromes that predispose to pheochromocytoma, though NF1 dysregulates RAS while VHL drives HIF and angiogenesis.
+- `connects-to` → **[Synapse](../../05-tissue/synapse/README.md)** — The learning gene: neurofibromin restrains RAS at the synapse, and its loss raises GABAergic inhibition and impairs synaptic plasticity, underlying the learning disabilities and attention problems common in NF1.
 
 [^gutmann-2017-nf1-primer]: Gutmann DH, Ferner RE, Listernick RH, et al. Neurofibromatosis type 1. *Nat Rev Dis Primers.* 2017;3:17004. [doi:10.1038/nrdp.2017.4](https://doi.org/10.1038/nrdp.2017.4) · [PubMed 28230061](https://pubmed.ncbi.nlm.nih.gov/28230061/)
 [^dombi-2016-selumetinib]: Dombi E, Baldwin A, Marcus LJ, et al. Activity of Selumetinib in Neurofibromatosis Type 1-Related Plexiform Neurofibromas. *N Engl J Med.* 2016;375(26):2550-2560. [doi:10.1056/NEJMoa1605943](https://doi.org/10.1056/NEJMoa1605943) · [PubMed 28029918](https://pubmed.ncbi.nlm.nih.gov/28029918/)
