@@ -265,6 +265,15 @@ cross_links:
   - target: 01-human/05-tissue/cardiac-conduction-system
     relation: connects-to
     note: "When an ion channel links heart and brain: Timothy syndrome's CACNA1C calcium-channel mutation causes long-QT arrhythmia with autism, and antipsychotics used in ASD prolong the QT, tying ASD to cardiac conduction."
+  - target: 01-human/05-tissue/germinal-center
+    relation: connects-to
+    note: "Maternal immune activation: prenatal infection and maternal autoantibodies—made by germinal-centre B cells—are linked to autism risk, implicating the maternal adaptive immune response in fetal brain development."
+  - target: 01-human/07-system/narcolepsy
+    relation: connects-to
+    note: "Pervasive sleep disruption: autism features high rates of insomnia and circadian/REM sleep abnormalities that overlap the sleep-wake dysregulation of narcolepsy, and melatonin helps the disturbed sleep in both."
+  - target: 01-human/05-tissue/cortical-bone
+    relation: connects-to
+    note: "Lower bone density: restricted diets, reduced weight-bearing activity and SSRI use leave many autistic individuals with reduced cortical-bone density and a higher fracture risk."
 ---
 
 # Autism Spectrum Disorder
@@ -484,6 +493,9 @@ The neural basis of ASD social deficits involves dysfunction of the **social bra
 - `connects-to` → **[Cowden Syndrome](../cowden-syndrome/README.md)** — A PTEN route to autism: germline PTEN loss causes macrocephaly with autism spectrum disorder, linking ASD to Cowden syndrome's PTEN-hamartoma-tumour predisposition—one gene bridging neurodevelopment and cancer.
 - `connects-to` → **[Noonan Syndrome](../noonan-syndrome/README.md)** — RASopathies raise autism traits: like other RAS-MAPK developmental syndromes, Noonan syndrome carries an increased rate of autism spectrum features, implicating RAS signalling in social-cognitive development.
 - `connects-to` → **[Cardiac Conduction System](../../05-tissue/cardiac-conduction-system/README.md)** — When an ion channel links heart and brain: Timothy syndrome's CACNA1C calcium-channel mutation causes long-QT arrhythmia with autism, and antipsychotics used in ASD prolong the QT, tying ASD to cardiac conduction.
+- `connects-to` → **[Germinal Center](../../05-tissue/germinal-center/README.md)** — Maternal immune activation: prenatal infection and maternal autoantibodies—made by germinal-centre B cells—are linked to autism risk, implicating the maternal adaptive immune response in fetal brain development.
+- `connects-to` → **[Narcolepsy](../narcolepsy/README.md)** — Pervasive sleep disruption: autism features high rates of insomnia and circadian/REM sleep abnormalities that overlap the sleep-wake dysregulation of narcolepsy, and melatonin helps the disturbed sleep in both.
+- `connects-to` → **[Cortical Bone](../../05-tissue/cortical-bone/README.md)** — Lower bone density: restricted diets, reduced weight-bearing activity and SSRI use leave many autistic individuals with reduced cortical-bone density and a higher fracture risk.
 
 [^maenner-2023-asd-prevalence]: Maenner MJ, Warren Z, Williams AR, et al. Prevalence and characteristics of autism spectrum disorder among children aged 8 years — ADDM Network, 2020. *MMWR Surveill Summ.* 2023;72(2):1-14. [doi:10.15585/mmwr.ss7202a1](https://doi.org/10.15585/mmwr.ss7202a1) · [PubMed 36952216](https://pubmed.ncbi.nlm.nih.gov/36952216/)
 [^lord-2020-asd-review]: Lord C, Elsabbagh M, Baird G, Veenstra-Vanderweele J. Autism spectrum disorder. *Lancet.* 2018;392(10146):508-520. [doi:10.1016/S0140-6736(18)31129-2](https://doi.org/10.1016/S0140-6736(18)31129-2) · [PubMed 30078460](https://pubmed.ncbi.nlm.nih.gov/30078460/)

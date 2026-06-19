@@ -243,6 +243,15 @@ cross_links:
   - target: 01-human/05-tissue/myocardium
     relation: connects-to
     note: "Obesity strains the heart muscle: the visceral adiposity of binge-eating disorder promotes a metabolic cardiomyopathy and, with hypertension and diabetes, thickens and stresses the myocardium toward heart failure."
+  - target: 01-human/07-system/endometrial-cancer
+    relation: connects-to
+    note: "Obesity-mediated cancer risk: the frequent obesity of binge-eating disorder raises the risk of obesity-associated cancers such as endometrial cancer, through excess oestrogen and hyperinsulinaemia."
+  - target: 01-human/05-tissue/glomerulus
+    relation: connects-to
+    note: "Metabolic kidney strain: the obesity and metabolic syndrome of binge-eating disorder promote obesity-related glomerulopathy, hyperfiltration and FSGS injuring the glomerulus toward chronic kidney disease."
+  - target: 01-human/07-system/panic-disorder
+    relation: connects-to
+    note: "An anxious comorbidity: binge-eating disorder commonly coexists with panic and other anxiety disorders, the bingeing serving as emotional regulation for anxiety and distress."
 sources:
   - id: american-psychiatric-2013-bed-dsm5
     type: clinical-guideline
@@ -479,6 +488,9 @@ BED is among the most psychiatrically comorbid of all eating disorders:
 - `connects-to` → **[Arterial Wall](../../05-tissue/arterial-wall/README.md)** — Its weight gain hits the arteries: the obesity and metabolic syndrome driven by binge-eating disorder accelerate atherosclerosis and arterial stiffening, raising cardiovascular risk.
 - `connects-to` → **[Obsessive-Compulsive Disorder](../obsessive-compulsive-disorder/README.md)** — Compulsion drives the binge: binge-eating disorder shares the reward-circuit and compulsivity dysregulation of obsessive-compulsive disorder, with loss-of-control eating as a compulsive behaviour.
 - `connects-to` → **[Myocardium](../../05-tissue/myocardium/README.md)** — Obesity strains the heart muscle: the visceral adiposity of binge-eating disorder promotes a metabolic cardiomyopathy and, with hypertension and diabetes, thickens and stresses the myocardium toward heart failure.
+- `connects-to` → **[Endometrial Cancer](../endometrial-cancer/README.md)** — Obesity-mediated cancer risk: the frequent obesity of binge-eating disorder raises the risk of obesity-associated cancers such as endometrial cancer, through excess oestrogen and hyperinsulinaemia.
+- `connects-to` → **[Glomerulus](../../05-tissue/glomerulus/README.md)** — Metabolic kidney strain: the obesity and metabolic syndrome of binge-eating disorder promote obesity-related glomerulopathy, hyperfiltration and FSGS injuring the glomerulus toward chronic kidney disease.
+- `connects-to` → **[Panic Disorder](../panic-disorder/README.md)** — An anxious comorbidity: binge-eating disorder commonly coexists with panic and other anxiety disorders, the bingeing serving as emotional regulation for anxiety and distress.
 
 [^american-psychiatric-2013-bed-dsm5]: American Psychiatric Association. Binge Eating Disorder (307.51). In: *Diagnostic and Statistical Manual of Mental Disorders, 5th ed.* Arlington, VA: APA; 2013. [doi:10.1176/appi.books.9780890425596](https://doi.org/10.1176/appi.books.9780890425596)
 [^mccallum-2003-bed-review]: McCallum K, Bruton AM. Binge eating disorder: eating disorder or somatic syndrome? *Prim Care Companion J Clin Psychiatry.* 2003;5(Suppl 4):20-25. [PubMed 15213784](https://pubmed.ncbi.nlm.nih.gov/15213784/)
