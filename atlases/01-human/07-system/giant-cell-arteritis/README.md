@@ -268,6 +268,15 @@ cross_links:
   - target: 01-human/07-system/covid-19-disease
     relation: connects-to
     note: "Shared IL-6 biology: COVID-19 and giant-cell arteritis both feature IL-6-driven inflammation (both treated with tocilizumab), and de novo GCA and flares have been reported after infection or vaccination."
+  - target: 01-human/03-molecular/endothelin-1
+    relation: connects-to
+    note: "Ischaemia from vasoconstriction: endothelin-1 released by the inflamed vessel wall drives the vasoconstriction underlying the ischaemic blindness and jaw claudication of giant-cell arteritis."
+  - target: 01-human/03-molecular/notch
+    relation: connects-to
+    note: "Notch-driven vasculitis: Notch signalling activates the pathogenic Th1 and Th17 vascular T cells and promotes the vessel-wall remodelling central to giant-cell arteritis."
+  - target: 01-human/04-cellular/t-cytotoxic-cell
+    relation: connects-to
+    note: "CD8 T-cell infiltrate: cytotoxic and tissue-resident memory CD8 T cells populate the inflamed arterial wall in giant-cell arteritis, contributing to vessel damage and relapse."
 ---
 
 # Giant Cell Arteritis
@@ -466,6 +475,9 @@ The temporal arteries supply scalp, temporalis muscle, and dura. In GCA, transmu
 - `connects-to` → **[MDS](../mds/README.md)** — Clonal inflammation in older men: VEXAS syndrome and other clonal myeloid diseases (MDS) can present with a giant-cell-arteritis-like large-vessel vasculitis, blurring autoinflammation and myeloid neoplasia.
 - `connects-to` → **[Varicella-Zoster Virus](../../../02-pathogen/01-viruses/varicella-zoster-virus/README.md)** — A debated trigger and a treatment risk: varicella-zoster virus has been controversially implicated in giant-cell arteritis, and the steroid/IL-6 immunosuppression that treats it reactivates VZV as shingles.
 - `connects-to` → **[COVID-19 Disease](../covid-19-disease/README.md)** — Shared IL-6 biology: COVID-19 and giant-cell arteritis both feature IL-6-driven inflammation (both treated with tocilizumab), and de novo GCA and flares have been reported after infection or vaccination.
+- `connects-to` → **[Endothelin-1](../../03-molecular/endothelin-1/README.md)** — Ischaemia from vasoconstriction: endothelin-1 released by the inflamed vessel wall drives the vasoconstriction underlying the ischaemic blindness and jaw claudication of giant-cell arteritis.
+- `connects-to` → **[Notch](../../03-molecular/notch/README.md)** — Notch-driven vasculitis: Notch signalling activates the pathogenic Th1 and Th17 vascular T cells and promotes the vessel-wall remodelling central to giant-cell arteritis.
+- `connects-to` → **[T Cytotoxic Cell](../../04-cellular/t-cytotoxic-cell/README.md)** — CD8 T-cell infiltrate: cytotoxic and tissue-resident memory CD8 T cells populate the inflamed arterial wall in giant-cell arteritis, contributing to vessel damage and relapse.
 
 [^stone-2017-giact]: Stone JH, Tuckwell K, Dimonaco S, et al. Trial of tocilizumab in giant-cell arteritis. *N Engl J Med.* 2017;377(4):317-328. [doi:10.1056/NEJMoa1613849](https://doi.org/10.1056/NEJMoa1613849) · [PubMed 28745999](https://pubmed.ncbi.nlm.nih.gov/28745999/)
 [^weyand-2014-gca-review]: Weyand CM, Goronzy JJ. Clinical practice. Giant-cell arteritis and polymyalgia rheumatica. *N Engl J Med.* 2014;371(1):50-57. [doi:10.1056/NEJMcp1214926](https://doi.org/10.1056/NEJMcp1214926) · [PubMed 24988557](https://pubmed.ncbi.nlm.nih.gov/24988557/)

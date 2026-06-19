@@ -268,6 +268,15 @@ cross_links:
   - target: 01-human/07-system/obesity
     relation: connects-to
     note: "Obesity and the upper stomach: obesity and its reflux raise the risk of cardia and gastro-oesophageal junction adenocarcinoma, a rising subtype distinct from H. pylori-driven distal cancer."
+  - target: 01-human/07-system/peutz-jeghers-syndrome
+    relation: connects-to
+    note: "Hamartoma-syndrome risk: Peutz-Jeghers syndrome (STK11) carries a markedly raised risk of gastric cancer among its broad spectrum of gastrointestinal malignancies."
+  - target: 01-human/07-system/juvenile-polyposis-syndrome
+    relation: connects-to
+    note: "Polyposis predisposition: juvenile polyposis syndrome (SMAD4/BMPR1A) produces gastric hamartomatous polyps and a substantially increased risk of gastric cancer."
+  - target: 01-human/03-molecular/wnt-beta-catenin
+    relation: connects-to
+    note: "Intestinal-type carcinogenesis: aberrant Wnt/β-catenin activation drives the intestinal-type gastric cancers that arise through the chronic gastritis-to-carcinoma Correa cascade."
 ---
 
 # Gastric Cancer
@@ -498,6 +507,9 @@ H. pylori eradication: Reduces GC incidence by ~35-40% (meta-analyses); most ben
 - `connects-to` → **[DLBCL](../dlbcl/README.md)** — Lymphoma in the stomach: chronic Helicobacter inflammation causes gastric MALT lymphoma that can transform into diffuse large B-cell lymphoma, a non-epithelial gastric cancer treated very differently.
 - `connects-to` → **[Neuroendocrine Tumors](../neuroendocrine-tumors/README.md)** — Gastric carcinoids: atrophic gastritis and the hypergastrinaemia it causes drive gastric neuroendocrine tumours, a distinct cancer arising from the same chronically inflamed stomach.
 - `connects-to` → **[Obesity](../obesity/README.md)** — Obesity and the upper stomach: obesity and its reflux raise the risk of cardia and gastro-oesophageal junction adenocarcinoma, a rising subtype distinct from H. pylori-driven distal cancer.
+- `connects-to` → **[Peutz-Jeghers Syndrome](../peutz-jeghers-syndrome/README.md)** — Hamartoma-syndrome risk: Peutz-Jeghers syndrome (STK11) carries a markedly raised risk of gastric cancer among its broad spectrum of gastrointestinal malignancies.
+- `connects-to` → **[Juvenile Polyposis Syndrome](../juvenile-polyposis-syndrome/README.md)** — Polyposis predisposition: juvenile polyposis syndrome (SMAD4/BMPR1A) produces gastric hamartomatous polyps and a substantially increased risk of gastric cancer.
+- `connects-to` → **[Wnt/β-catenin](../../03-molecular/wnt-beta-catenin/README.md)** — Intestinal-type carcinogenesis: aberrant Wnt/β-catenin activation drives the intestinal-type gastric cancers that arise through the chronic gastritis-to-carcinoma Correa cascade.
 
 [^bang-2010-toga]: Bang YJ, Van Cutsem E, Feyereislova A, et al. Trastuzumab in combination with chemotherapy versus chemotherapy alone for treatment of HER2-positive advanced gastric or gastro-oesophageal junction cancer (ToGA): a phase 3, open-label, randomised controlled trial. *Lancet.* 2010;376(9742):687-697. [doi:10.1016/S0140-6736(10)61121-X](https://doi.org/10.1016/S0140-6736(10)61121-X) · [PubMed 20728210](https://pubmed.ncbi.nlm.nih.gov/20728210/)
 [^janjigian-2021-checkmate649]: Janjigian YY, Shitara K, Moehler M, et al. First-line nivolumab plus chemotherapy versus chemotherapy alone for advanced gastric, gastro-oesophageal junction, and oesophageal adenocarcinoma (CheckMate 649). *Lancet.* 2021;398(10294):27-40. [doi:10.1016/S0140-6736(21)00797-2](https://doi.org/10.1016/S0140-6736(21)00797-2) · [PubMed 34102137](https://pubmed.ncbi.nlm.nih.gov/34102137/)
