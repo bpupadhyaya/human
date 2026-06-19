@@ -246,6 +246,15 @@ cross_links:
   - target: 01-human/07-system/cystic-fibrosis
     relation: connects-to
     note: "A high-risk chronic airway disease: children with cystic fibrosis suffer more severe and prolonged RSV infections that accelerate their airway damage, making RSV prevention important in this group."
+  - target: 01-human/07-system/measles
+    relation: connects-to
+    note: "A fellow paramyxovirus: respiratory syncytial virus and measles are related enveloped RNA viruses, but RSV (a pneumovirus) causes bronchiolitis in infants while measles causes a systemic rash and immune amnesia—contrasting outcomes of related viruses."
+  - target: 01-human/05-tissue/myocardium
+    relation: connects-to
+    note: "It can strain and inflame the heart: severe RSV causes myocarditis in infants and triggers acute cardiac events such as ischaemia and heart failure in older adults, so cardiac involvement adds to its respiratory toll."
+  - target: 01-human/05-tissue/germinal-center
+    relation: connects-to
+    note: "Where protective antibody is made: neutralizing antibody to the RSV prefusion-F protein is generated in germinal centres, the response boosted by the maternal RSV vaccine—while nirsevimab supplies it passively."
 ---
 
 # RSV
@@ -466,3 +475,6 @@ Radiological findings: Hyperinflation, peribronchial thickening, occasional atel
 - `connects-to` → **[Targeted Therapy](../../../03-medicine/01-modern/13-cancer/targeted-therapy/README.md)** — Monoclonal antibodies prevent it: palivizumab and the long-acting nirsevimab are anti-RSV-F monoclonal antibodies given to infants for passive immunoprophylaxis, blocking the fusion protein the virus uses to enter cells.
 - `connects-to` → **[Lung Slice](../../05-tissue/lung-slice/README.md)** — It plugs the small airways: RSV bronchiolitis sloughs necrotic airway epithelium that, with mucus and inflammatory debris, obstructs the bronchioles, causing the air-trapping and wheeze of severe infection.
 - `connects-to` → **[Cystic Fibrosis](../cystic-fibrosis/README.md)** — A high-risk chronic airway disease: children with cystic fibrosis suffer more severe and prolonged RSV infections that accelerate their airway damage, making RSV prevention important in this group.
+- `connects-to` → **[Measles](../measles/README.md)** — A fellow paramyxovirus: respiratory syncytial virus and measles are related enveloped RNA viruses, but RSV (a pneumovirus) causes bronchiolitis in infants while measles causes a systemic rash and immune amnesia—contrasting outcomes of related viruses.
+- `connects-to` → **[Myocardium](../../05-tissue/myocardium/README.md)** — It can strain and inflame the heart: severe RSV causes myocarditis in infants and triggers acute cardiac events such as ischaemia and heart failure in older adults, so cardiac involvement adds to its respiratory toll.
+- `connects-to` → **[Germinal Center](../../05-tissue/germinal-center/README.md)** — Where protective antibody is made: neutralizing antibody to the RSV prefusion-F protein is generated in germinal centres, the response boosted by the maternal RSV vaccine—while nirsevimab supplies it passively.

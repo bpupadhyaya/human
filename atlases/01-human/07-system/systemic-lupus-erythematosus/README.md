@@ -250,6 +250,15 @@ cross_links:
   - target: 01-human/05-tissue/arterial-wall
     relation: connects-to
     note: "It ages the arteries early: chronic inflammation and antiphospholipid antibodies accelerate atherosclerosis of the arterial wall in SLE, so premature myocardial infarction and stroke are leading causes of late death."
+  - target: 01-human/05-tissue/germinal-center
+    relation: connects-to
+    note: "Where its autoantibodies are born: SLE arises from loss of B-cell tolerance with autoreactive plasma cells maturing in germinal centres to make anti-dsDNA and anti-Sm, the source targeted by belimumab (anti-BAFF) and rituximab."
+  - target: 01-human/05-tissue/endocardium
+    relation: connects-to
+    note: "Libman-Sacks endocarditis: SLE deposits sterile verrucous vegetations on the heart valves and endocardium, worsened by antiphospholipid antibodies and a source of emboli and valve dysfunction."
+  - target: 01-human/07-system/nmo
+    relation: connects-to
+    note: "An associated neuro-autoimmunity: neuromyelitis optica occurs more often in people with SLE and Sjögren's, the systemic autoimmunity overlapping with the aquaporin-4 antibody attack on the central nervous system."
 ---
 
 # Systemic Lupus Erythematosus
@@ -451,6 +460,9 @@ Highly polygenic disease with >100 susceptibility loci; heritability ~66%:
 - `connects-to` → **[Cancer Chemotherapy](../../../03-medicine/01-modern/13-cancer/cancer-chemotherapy/README.md)** — Cytotoxics control severe disease: cyclophosphamide, mycophenolate and azathioprine — chemotherapy-derived immunosuppressants — are mainstays for lupus nephritis and major organ involvement, sparing the high-dose steroids that cause long-term harm.
 - `connects-to` → **[Targeted Therapy](../../../03-medicine/01-modern/13-cancer/targeted-therapy/README.md)** — Biologics target its drivers: belimumab against BAFF and anifrolumab against the type-I interferon receptor, with rituximab, treat refractory SLE by hitting the B-cell and interferon pathways central to its autoimmunity.
 - `connects-to` → **[Arterial Wall](../../05-tissue/arterial-wall/README.md)** — It ages the arteries early: chronic inflammation and antiphospholipid antibodies accelerate atherosclerosis of the arterial wall in SLE, so premature myocardial infarction and stroke are leading causes of late death.
+- `connects-to` → **[Germinal Center](../../05-tissue/germinal-center/README.md)** — Where its autoantibodies are born: SLE arises from loss of B-cell tolerance with autoreactive plasma cells maturing in germinal centres to make anti-dsDNA and anti-Sm, the source targeted by belimumab (anti-BAFF) and rituximab.
+- `connects-to` → **[Endocardium](../../05-tissue/endocardium/README.md)** — Libman-Sacks endocarditis: SLE deposits sterile verrucous vegetations on the heart valves and endocardium, worsened by antiphospholipid antibodies and a source of emboli and valve dysfunction.
+- `connects-to` → **[NMO](../nmo/README.md)** — An associated neuro-autoimmunity: neuromyelitis optica occurs more often in people with SLE and Sjögren's, the systemic autoimmunity overlapping with the aquaporin-4 antibody attack on the central nervous system.
 
 [^tsokos-2011-sle-review]: Tsokos GC. Systemic lupus erythematosus. *N Engl J Med.* 2011;365(22):2110-2121. [doi:10.1056/NEJMra1100359](https://doi.org/10.1056/NEJMra1100359) · [PubMed 22129253](https://pubmed.ncbi.nlm.nih.gov/22129253/)
 [^furie-2011-belimumab]: Furie R, Petri M, Zamani O, et al. A phase III, randomized, placebo-controlled study of belimumab, a monoclonal antibody that inhibits B lymphocyte stimulator, in patients with systemic lupus erythematosus. *Arthritis Rheum.* 2011;63(12):3918-3930. [doi:10.1002/art.30613](https://doi.org/10.1002/art.30613) · [PubMed 22127708](https://pubmed.ncbi.nlm.nih.gov/22127708/)
