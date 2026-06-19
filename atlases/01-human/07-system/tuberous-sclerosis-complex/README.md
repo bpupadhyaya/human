@@ -241,6 +241,15 @@ cross_links:
   - target: 01-human/05-tissue/hippocampus
     relation: connects-to
     note: "It drives early, hard-to-control epilepsy: cortical tubers make TSC a leading genetic cause of infantile spasms and refractory seizures, and the disrupted hippocampal networks underlie much of the memory and cognitive impairment of TSC-associated neuropsychiatric disorders."
+  - target: 01-human/05-tissue/myocardium
+    relation: connects-to
+    note: "Its tumour starts in the fetal heart: cardiac rhabdomyomas, mTOR-driven hamartomas of the myocardium, are often the first sign of tuberous sclerosis on prenatal ultrasound and usually regress after birth."
+  - target: 01-human/07-system/pulmonary-arterial-hypertension
+    relation: connects-to
+    note: "Lung hamartomas can raise pulmonary pressure: tuberous sclerosis causes lymphangioleiomyomatosis (LAM), whose smooth-muscle proliferation destroys lung tissue and can lead to pulmonary arterial hypertension."
+  - target: 01-human/07-system/peutz-jeghers-syndrome
+    relation: connects-to
+    note: "Two hamartoma syndromes converging on mTOR: tuberous sclerosis loses the TSC1/2 brake on mTOR while Peutz-Jeghers loses upstream LKB1-AMPK control of it—different lesions, one overactive growth kinase driving hamartomas."
 ---
 
 # Tuberous Sclerosis Complex
@@ -455,6 +464,9 @@ With modern management: life expectancy increasingly normal; major risks: renal 
 - `connects-to` → **[Neurofibromatosis Type 2](../neurofibromatosis-type-2/README.md)** — A fellow neurocutaneous syndrome: TSC and NF2 are both phakomatoses — dominantly inherited tumour-suppressor disorders causing nervous-system tumours, though TSC drives mTOR-fuelled hamartomas across many organs while NF2 causes schwannomas and meningiomas.
 - `connects-to` → **[Lung Slice](../../05-tissue/lung-slice/README.md)** — It cystically destroys the lung: women with TSC develop lymphangioleiomyomatosis, in which mTOR-driven smooth-muscle proliferation riddles the lung with cysts, causing recurrent pneumothorax and progressive breathlessness treated with sirolimus.
 - `connects-to` → **[Hippocampus](../../05-tissue/hippocampus/README.md)** — It drives early, hard-to-control epilepsy: cortical tubers make TSC a leading genetic cause of infantile spasms and refractory seizures, and the disrupted hippocampal networks underlie much of the memory and cognitive impairment of TSC-associated neuropsychiatric disorders.
+- `connects-to` → **[Myocardium](../../05-tissue/myocardium/README.md)** — Its tumour starts in the fetal heart: cardiac rhabdomyomas, mTOR-driven hamartomas of the myocardium, are often the first sign of tuberous sclerosis on prenatal ultrasound and usually regress after birth.
+- `connects-to` → **[Pulmonary Arterial Hypertension](../pulmonary-arterial-hypertension/README.md)** — Lung hamartomas can raise pulmonary pressure: tuberous sclerosis causes lymphangioleiomyomatosis (LAM), whose smooth-muscle proliferation destroys lung tissue and can lead to pulmonary arterial hypertension.
+- `connects-to` → **[Peutz-Jeghers Syndrome](../peutz-jeghers-syndrome/README.md)** — Two hamartoma syndromes converging on mTOR: tuberous sclerosis loses the TSC1/2 brake on mTOR while Peutz-Jeghers loses upstream LKB1-AMPK control of it—different lesions, one overactive growth kinase driving hamartomas.
 
 ---
 

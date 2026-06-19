@@ -247,6 +247,15 @@ cross_links:
   - target: 01-human/07-system/type-1-diabetes
     relation: connects-to
     note: "Two diseases, one hyperglycaemia: type 2 diabetes arises from insulin resistance with relative insulin deficiency, whereas type 1 is autoimmune destruction of beta cells causing absolute deficiency — distinct causes converging on high glucose and shared complications."
+  - target: 01-human/05-tissue/islet-of-langerhans
+    relation: connects-to
+    note: "The beta cell finally fails: type 2 diabetes begins with insulin resistance but progresses as the islets of Langerhans exhaust and lose beta cells—with islet amyloid (IAPP) deposition—so insulin output falls and hyperglycaemia worsens."
+  - target: 01-human/05-tissue/arterial-wall
+    relation: connects-to
+    note: "It hardens the arteries: type 2 diabetes accelerates atherosclerosis and stiffens the arterial wall through hyperglycaemia, AGEs and dyslipidaemia, making macrovascular disease—heart attack and stroke—the leading cause of diabetic death."
+  - target: 01-human/07-system/gout
+    relation: connects-to
+    note: "Insulin resistance raises urate: type 2 diabetes and gout cluster within the metabolic syndrome, as hyperinsulinaemia reduces renal uric-acid excretion and shared obesity drives both."
 ---
 
 # Type 2 Diabetes
@@ -426,6 +435,9 @@ T2DM, CKD, heart failure, and obesity form the **cardiorenal metabolic (CRM) syn
 - `connects-to` → **[Statins](../../../03-medicine/01-modern/04-cardio/statins/README.md)** — A cardiovascular risk equivalent: type 2 diabetes accelerates atherosclerosis so much that most patients over 40 are offered a statin for primary prevention, lipid-lowering being as central to outcomes as glucose control.
 - `connects-to` → **[Glomerulus](../../05-tissue/glomerulus/README.md)** — It scars the filtering unit: chronic hyperglycaemia thickens the glomerular basement membrane and expands the mesangium, producing the Kimmelstiel-Wilson nodules and hyperfiltration that precede the proteinuria of diabetic nephropathy.
 - `connects-to` → **[Type 1 Diabetes](../type-1-diabetes/README.md)** — Two diseases, one hyperglycaemia: type 2 diabetes arises from insulin resistance with relative insulin deficiency, whereas type 1 is autoimmune destruction of beta cells causing absolute deficiency — distinct causes converging on high glucose and shared complications.
+- `connects-to` → **[Islet of Langerhans](../../05-tissue/islet-of-langerhans/README.md)** — The beta cell finally fails: type 2 diabetes begins with insulin resistance but progresses as the islets of Langerhans exhaust and lose beta cells—with islet amyloid (IAPP) deposition—so insulin output falls and hyperglycaemia worsens.
+- `connects-to` → **[Arterial Wall](../../05-tissue/arterial-wall/README.md)** — It hardens the arteries: type 2 diabetes accelerates atherosclerosis and stiffens the arterial wall through hyperglycaemia, AGEs and dyslipidaemia, making macrovascular disease—heart attack and stroke—the leading cause of diabetic death.
+- `connects-to` → **[Gout](../gout/README.md)** — Insulin resistance raises urate: type 2 diabetes and gout cluster within the metabolic syndrome, as hyperinsulinaemia reduces renal uric-acid excretion and shared obesity drives both.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
