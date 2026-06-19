@@ -255,6 +255,15 @@ cross_links:
   - target: 01-human/05-tissue/germinal-center
     relation: connects-to
     note: "Where protective antibody is made: neutralizing antibody to the RSV prefusion-F protein is generated in germinal centres, the response boosted by the maternal RSV vaccine—while nirsevimab supplies it passively."
+  - target: 01-human/07-system/atopic-dermatitis
+    relation: connects-to
+    note: "Early infection and the atopic march: severe infant RSV bronchiolitis is linked to later recurrent wheeze and asthma within the broader atopic march that begins with atopic dermatitis."
+  - target: 01-human/07-system/cytokine-storm
+    relation: connects-to
+    note: "Inflammation injures the lung: severe RSV bronchiolitis and pneumonia drive an exaggerated cytokine response that, like other cytokine storms, damages airways and alveoli beyond direct viral cytopathic effect."
+  - target: 01-human/07-system/epilepsy
+    relation: connects-to
+    note: "Neurological complications: severe RSV in infants can cause apnoea, seizures and encephalopathy, occasionally leaving lasting neurological sequelae beyond the airway disease itself."
 ---
 
 # RSV
@@ -478,3 +487,6 @@ Radiological findings: Hyperinflation, peribronchial thickening, occasional atel
 - `connects-to` → **[Measles](../measles/README.md)** — A fellow paramyxovirus: respiratory syncytial virus and measles are related enveloped RNA viruses, but RSV (a pneumovirus) causes bronchiolitis in infants while measles causes a systemic rash and immune amnesia—contrasting outcomes of related viruses.
 - `connects-to` → **[Myocardium](../../05-tissue/myocardium/README.md)** — It can strain and inflame the heart: severe RSV causes myocarditis in infants and triggers acute cardiac events such as ischaemia and heart failure in older adults, so cardiac involvement adds to its respiratory toll.
 - `connects-to` → **[Germinal Center](../../05-tissue/germinal-center/README.md)** — Where protective antibody is made: neutralizing antibody to the RSV prefusion-F protein is generated in germinal centres, the response boosted by the maternal RSV vaccine—while nirsevimab supplies it passively.
+- `connects-to` → **[Atopic Dermatitis](../atopic-dermatitis/README.md)** — Early infection and the atopic march: severe infant RSV bronchiolitis is linked to later recurrent wheeze and asthma within the broader atopic march that begins with atopic dermatitis.
+- `connects-to` → **[Cytokine Storm](../cytokine-storm/README.md)** — Inflammation injures the lung: severe RSV bronchiolitis and pneumonia drive an exaggerated cytokine response that, like other cytokine storms, damages airways and alveoli beyond direct viral cytopathic effect.
+- `connects-to` → **[Epilepsy](../epilepsy/README.md)** — Neurological complications: severe RSV in infants can cause apnoea, seizures and encephalopathy, occasionally leaving lasting neurological sequelae beyond the airway disease itself.

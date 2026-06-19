@@ -262,6 +262,15 @@ cross_links:
   - target: 01-human/07-system/vhl-disease
     relation: connects-to
     note: "Inherited renal cysts and cancer: von Hippel-Lindau disease fills the kidneys with cysts and multiple clear cell renal cell carcinomas, the leading cause of death in VHL and a model of hereditary kidney cancer."
+  - target: 01-human/07-system/anca-vasculitis
+    relation: connects-to
+    note: "Crescentic glomerulonephritis: ANCA-associated vasculitis is a leading cause of rapidly progressive glomerulonephritis, its pauci-immune necrotising injury destroying nephrons within weeks unless promptly treated."
+  - target: 01-human/07-system/sickle-cell-disease
+    relation: connects-to
+    note: "Sickle nephropathy: sickle cell disease injures the kidney through medullary papillary necrosis, impaired urine concentration and a FSGS-like glomerulopathy, a common path to chronic kidney disease."
+  - target: 01-human/07-system/covid-19-disease
+    relation: connects-to
+    note: "Acute kidney injury and collapsing GN: COVID-19 frequently causes acute kidney injury in severe disease and, in those with high-risk APOL1 variants, a collapsing glomerulopathy."
 taxonomy:
   uberon: "UBERON:0001008"
 ---
@@ -438,6 +447,9 @@ Natriuretic counterpoint:
 - **Connects to:** [Arterial Wall](../../05-tissue/arterial-wall/README.md) — it governs blood pressure through the arteries: the kidney's renin-angiotensin system tunes arterial-wall tone and volume, while renal-artery atherosclerosis or stenosis drives secondary hypertension—a two-way axis between kidney and vessel.
 - **Connects to:** [Tuberous Sclerosis Complex](../tuberous-sclerosis-complex/README.md) — a hereditary cause of kidney lesions: tuberous sclerosis studs the kidneys with angiomyolipomas (fat-and-vessel hamartomas that can haemorrhage) and cysts, a leading source of its morbidity treated with mTOR inhibitors.
 - **Connects to:** [VHL Disease](../vhl-disease/README.md) — inherited renal cysts and cancer: von Hippel-Lindau disease fills the kidneys with cysts and multiple clear cell renal cell carcinomas, the leading cause of death in VHL and a model of hereditary kidney cancer.
+- **Connects to:** [ANCA Vasculitis](../anca-vasculitis/README.md) — crescentic glomerulonephritis: ANCA-associated vasculitis is a leading cause of rapidly progressive glomerulonephritis, its pauci-immune necrotising injury destroying nephrons within weeks unless promptly treated.
+- **Connects to:** [Sickle Cell Disease](../sickle-cell-disease/README.md) — sickle nephropathy: sickle cell disease injures the kidney through medullary papillary necrosis, impaired urine concentration and a FSGS-like glomerulopathy, a common path to chronic kidney disease.
+- **Connects to:** [COVID-19](../covid-19-disease/README.md) — acute kidney injury and collapsing GN: COVID-19 frequently causes acute kidney injury in severe disease and, in those with high-risk APOL1 variants, a collapsing glomerulopathy.
 - **Treated by:** ACE inhibitors — renoprotection in CKD.
 - **Treated by:** Loop diuretics — fluid management.
 
