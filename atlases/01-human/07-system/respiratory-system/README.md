@@ -270,6 +270,15 @@ cross_links:
   - target: 01-human/07-system/dermatomyositis
     relation: connects-to
     note: "Autoimmune lung scarring: dermatomyositis (notably anti-MDA5) causes a rapidly progressive interstitial lung disease, one of the connective-tissue diseases that fibrose the respiratory system."
+  - target: 01-human/07-system/rheumatoid-arthritis
+    relation: connects-to
+    note: "The commonest CTD lung disease: rheumatoid arthritis causes interstitial lung disease, pleuritis, nodules and bronchiectasis, making it the leading connective-tissue cause of chronic lung involvement."
+  - target: 01-human/07-system/gvhd
+    relation: connects-to
+    note: "Bronchiolitis obliterans: chronic lung graft-versus-host disease after stem-cell transplant scars and obliterates the small airways, a major and often irreversible late respiratory complication."
+  - target: 01-human/07-system/marfan-syndrome
+    relation: connects-to
+    note: "Spontaneous pneumothorax: connective-tissue disorders such as Marfan form apical lung blebs that rupture, making spontaneous pneumothorax a structural respiratory complication of the syndrome."
 taxonomy:
   uberon: "UBERON:0001004"
   fma: "FMA:7161"
@@ -430,6 +439,9 @@ The mucociliary escalator (ciliated cells + goblet cell mucus) continuously clea
 - **Connects-to** → [ANCA Vasculitis](../anca-vasculitis/README.md): Vasculitis of the airways: ANCA-associated vasculitis (granulomatosis with polyangiitis) attacks the upper and lower respiratory tract, causing sinus destruction, lung nodules and alveolar haemorrhage.
 - **Connects-to** → [HIV/AIDS](../hiv-aids/README.md): Immunodeficiency and the lung: HIV/AIDS predisposes to Pneumocystis pneumonia, tuberculosis and other respiratory infections, the lung a frequent battleground of failing immunity.
 - **Connects-to** → [Dermatomyositis](../dermatomyositis/README.md): Autoimmune lung scarring: dermatomyositis (notably anti-MDA5) causes a rapidly progressive interstitial lung disease, one of the connective-tissue diseases that fibrose the respiratory system.
+- **Connects-to** → [Rheumatoid Arthritis](../rheumatoid-arthritis/README.md): The commonest CTD lung disease: rheumatoid arthritis causes interstitial lung disease, pleuritis, nodules and bronchiectasis, making it the leading connective-tissue cause of chronic lung involvement.
+- **Connects-to** → [GVHD](../gvhd/README.md): Bronchiolitis obliterans: chronic lung graft-versus-host disease after stem-cell transplant scars and obliterates the small airways, a major and often irreversible late respiratory complication.
+- **Connects-to** → [Marfan Syndrome](../marfan-syndrome/README.md): Spontaneous pneumothorax: connective-tissue disorders such as Marfan form apical lung blebs that rupture, making spontaneous pneumothorax a structural respiratory complication of the syndrome.
 - **Connects-to** → [Vitamin D](../../../03-medicine/03-food/vitamin-d/README.md): Nutrition shapes lung defence: vitamin D supports airway immunity, and deficiency is associated with more frequent respiratory infections and worse asthma control.
 - **Connects-to** → [ACE Inhibitors](../../../03-medicine/01-modern/04-cardio/ace-inhibitors/README.md): A heart drug heard in the chest: ACE inhibitors raise bradykinin in the airway, causing the dry cough and rare angioedema that are among the commonest reasons patients stop them.
 - **Connects-to** → [Lung Slice](../../05-tissue/lung-slice/README.md): The working tissue of breathing: the lung's conducting airways and alveolar parenchyma — seen on a lung slice — humidify, conduct and exchange air, the tissue-level substrate of every respiratory disease from asthma to fibrosis.

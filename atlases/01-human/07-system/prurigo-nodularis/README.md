@@ -265,6 +265,15 @@ cross_links:
   - target: 01-human/07-system/ptsd
     relation: connects-to
     note: "The psychodermatology link: prurigo nodularis is strongly tied to anxiety, depression and trauma (PTSD), the itch-scratch cycle both worsened by and worsening psychological distress."
+  - target: 01-human/07-system/ptcl
+    relation: connects-to
+    note: "A malignant itch to exclude: cutaneous T-cell lymphoma (mycosis fungoides) is intensely pruritic and can produce prurigo-like nodules, a malignant mimic of prurigo nodularis warranting biopsy in atypical cases."
+  - target: 01-human/07-system/social-anxiety-disorder
+    relation: connects-to
+    note: "The visible, stigmatising lesions: the excoriated nodules of prurigo nodularis are disfiguring and carry social stigma, driving social anxiety and avoidance much as other visible skin diseases do."
+  - target: 01-human/07-system/covid-19-disease
+    relation: connects-to
+    note: "Stress and post-viral itch: pandemic stress worsened the itch-scratch cycle, and chronic pruritus has been reported as a post-COVID symptom, flaring prurigo nodularis."
 ---
 
 # Prurigo Nodularis
@@ -430,6 +439,9 @@ PN affects approximately **72,000 patients** in the US; true prevalence is likel
 - `connects-to` → **[Myelofibrosis](../myelofibrosis/README.md)** — Myeloproliferative itch: like polycythaemia vera, myelofibrosis causes severe aquagenic and chronic pruritus that can drive prurigo nodularis, the itch a clue to an underlying myeloproliferative neoplasm.
 - `connects-to` → **[Pancreatic Cancer](../pancreatic-cancer/README.md)** — Cholestatic and paraneoplastic itch: a pancreatic head cancer obstructing the bile duct causes intense cholestatic pruritus, and generalised itch can be a paraneoplastic clue presenting as prurigo nodularis.
 - `connects-to` → **[PTSD](../ptsd/README.md)** — The psychodermatology link: prurigo nodularis is strongly tied to anxiety, depression and trauma (PTSD), the itch-scratch cycle both worsened by and worsening psychological distress.
+- `connects-to` → **[PTCL](../ptcl/README.md)** — A malignant itch to exclude: cutaneous T-cell lymphoma (mycosis fungoides) is intensely pruritic and can produce prurigo-like nodules, a malignant mimic of prurigo nodularis warranting biopsy in atypical cases.
+- `connects-to` → **[Social Anxiety Disorder](../social-anxiety-disorder/README.md)** — The visible, stigmatising lesions: the excoriated nodules of prurigo nodularis are disfiguring and carry social stigma, driving social anxiety and avoidance much as other visible skin diseases do.
+- `connects-to` → **[COVID-19 Disease](../covid-19-disease/README.md)** — Stress and post-viral itch: pandemic stress worsened the itch-scratch cycle, and chronic pruritus has been reported as a post-COVID symptom, flaring prurigo nodularis.
 
 [^stander-2020-nemolizumab-pn]: Ständer S, Yosipovitch G, Legat FJ, et al. Trial of nemolizumab in moderate-to-severe prurigo nodularis. *N Engl J Med.* 2020;382(8):706-716. [doi:10.1056/NEJMoa1908316](https://doi.org/10.1056/NEJMoa1908316) · [PubMed 32053299](https://pubmed.ncbi.nlm.nih.gov/32053299/)
 [^briggs-2022-dupilumab-pn-liberty]: Briggs JN, Cho YY, Khanna R, et al. Dupilumab for prurigo nodularis: the LIBERTY-PN PRIME and PRIME2 trials. *N Engl J Med.* 2022;387(18):1683-1693. [doi:10.1056/NEJMoa2205093](https://doi.org/10.1056/NEJMoa2205093) · [PubMed 36300905](https://pubmed.ncbi.nlm.nih.gov/36300905/)
