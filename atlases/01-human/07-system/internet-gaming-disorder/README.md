@@ -258,6 +258,15 @@ cross_links:
   - target: 01-human/05-tissue/myocardium
     relation: connects-to
     note: "The sedentary heart: marathon gaming sessions impose prolonged immobility and cardiometabolic strain on the myocardium, with rare reports of fatal arrhythmia during extreme, sleepless play."
+  - target: 01-human/03-molecular/npy
+    relation: connects-to
+    note: "Reward and stress: neuropeptide Y, which tunes stress and reward circuits, is implicated in behavioural addictions including internet gaming disorder."
+  - target: 01-human/03-molecular/acetylcholine
+    relation: connects-to
+    note: "Attention and reward: cholinergic and nicotinic signalling modulate the attention and reward circuits engaged by compulsive gaming, overlapping with substance-addiction biology."
+  - target: 01-human/03-molecular/il-6
+    relation: connects-to
+    note: "Sedentary inflammation: the prolonged inactivity, poor sleep and stress of internet gaming disorder raise IL-6 and low-grade inflammation, linking the behaviour to mood and metabolic risk."
 sources:
   - id: kuss-2012-gaming-disorder-review
     type: peer-reviewed
@@ -512,6 +521,9 @@ A pattern of persistent or recurrent gaming behavior characterized by:
 - `connects-to` → **[COVID-19 Disease](../covid-19-disease/README.md)** — A pandemic accelerant: COVID-19 lockdowns and isolation drove a sharp rise in gaming and screen time, accelerating problematic use and formalising internet gaming disorder as a public-health concern.
 - `connects-to` → **[CRH](../../03-molecular/crh/README.md)** — Stress-axis dysregulation: the craving and withdrawal of internet gaming disorder engage the HPA stress axis through CRH and cortisol, the same neuroendocrine stress circuitry seen across the addictions.
 - `connects-to` → **[Myocardium](../../05-tissue/myocardium/README.md)** — The sedentary heart: marathon gaming sessions impose prolonged immobility and cardiometabolic strain on the myocardium, with rare reports of fatal arrhythmia during extreme, sleepless play.
+- `connects-to` → **[NPY](../../03-molecular/npy/README.md)** — Reward and stress: neuropeptide Y, which tunes stress and reward circuits, is implicated in behavioural addictions including internet gaming disorder.
+- `connects-to` → **[Acetylcholine](../../03-molecular/acetylcholine/README.md)** — Attention and reward: cholinergic and nicotinic signalling modulate the attention and reward circuits engaged by compulsive gaming, overlapping with substance-addiction biology.
+- `connects-to` → **[IL-6](../../03-molecular/il-6/README.md)** — Sedentary inflammation: the prolonged inactivity, poor sleep and stress of internet gaming disorder raise IL-6 and low-grade inflammation, linking the behaviour to mood and metabolic risk.
 
 [^kuss-2012-gaming-disorder-review]: Kuss DJ, Griffiths MD. Internet gaming addiction: a systematic review of empirical research. *Int J Ment Health Addict.* 2012;10(2):278-296. [doi:10.1007/s11469-011-9318-5](https://doi.org/10.1007/s11469-011-9318-5)
 [^who-icd11-gaming-disorder]: World Health Organization. ICD-11: Gaming Disorder (6C51). Geneva: WHO; 2019. [icd.who.int](https://icd.who.int/browse/2025-01/mms/en#1448597234)

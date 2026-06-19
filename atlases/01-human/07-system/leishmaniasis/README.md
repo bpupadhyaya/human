@@ -271,6 +271,15 @@ cross_links:
   - target: 01-human/07-system/covid-19-disease
     relation: connects-to
     note: "Opportunism and disruption: the immunosuppression of severe COVID-19 and its treatments can unmask visceral leishmaniasis, while the pandemic disrupted control of this neglected disease in endemic regions."
+  - target: 01-human/03-molecular/stat1
+    relation: connects-to
+    note: "Macrophage killing switch: IFN-γ signals through STAT1 to arm macrophages with nitric oxide against intracellular Leishmania, the core of the protective Th1 response."
+  - target: 01-human/03-molecular/nlrp3-inflammasome
+    relation: connects-to
+    note: "Double-edged inflammasome: NLRP3-inflammasome activation and IL-1β shape the macrophage response to Leishmania, contributing to both parasite control and immunopathology."
+  - target: 01-human/03-molecular/type-i-interferon
+    relation: connects-to
+    note: "Detrimental interferon: type I interferon can impair host defence in visceral leishmaniasis, skewing macrophages away from effective parasite killing."
 ---
 
 # Leishmaniasis
@@ -457,3 +466,6 @@ HIV-VL co-infection: CD4+ depletion → loss of IFN-γ production → *Leishmani
 - `connects-to` → **[Cytokine Storm](../cytokine-storm/README.md)** — A trigger of HLH: visceral leishmaniasis is a classic infectious cause of secondary haemophagocytic lymphohistiocytosis, a cytokine storm of activated macrophages devouring blood cells, with fever, cytopenias and organ failure.
 - `connects-to` → **[Trypanosoma brucei](../../../02-pathogen/04-parasites/trypanosoma-brucei/README.md)** — Fellow kinetoplastid: like Leishmania and Trypanosoma cruzi, Trypanosoma brucei is a kinetoplastid protozoan causing a major neglected tropical disease (sleeping sickness), sharing antigenic-variation immune evasion.
 - `connects-to` → **[COVID-19 Disease](../covid-19-disease/README.md)** — Opportunism and disruption: the immunosuppression of severe COVID-19 and its treatments can unmask visceral leishmaniasis, while the pandemic disrupted control of this neglected disease in endemic regions.
+- `connects-to` → **[STAT1](../../03-molecular/stat1/README.md)** — Macrophage killing switch: IFN-γ signals through STAT1 to arm macrophages with nitric oxide against intracellular Leishmania, the core of the protective Th1 response.
+- `connects-to` → **[NLRP3 Inflammasome](../../03-molecular/nlrp3-inflammasome/README.md)** — Double-edged inflammasome: NLRP3-inflammasome activation and IL-1β shape the macrophage response to Leishmania, contributing to both parasite control and immunopathology.
+- `connects-to` → **[Type I Interferon](../../03-molecular/type-i-interferon/README.md)** — Detrimental interferon: type I interferon can impair host defence in visceral leishmaniasis, skewing macrophages away from effective parasite killing.
