@@ -268,6 +268,15 @@ cross_links:
   - target: 01-human/05-tissue/myocardium
     relation: connects-to
     note: "High-output strain: large hepatic and pulmonary arteriovenous malformations in SMAD4-mutant JPS-HHT shunt blood and force the myocardium into chronic high-output work, a route to heart failure."
+  - target: 01-human/03-molecular/prostaglandins
+    relation: connects-to
+    note: "COX-2 chemoprevention angle: juvenile polyps overexpress COX-2 and prostaglandins, suggesting NSAID chemoprevention may help reduce polyp burden as it does in other polyposis syndromes."
+  - target: 01-human/03-molecular/il-6
+    relation: connects-to
+    note: "Inflamed stroma: the abundant inflammatory, IL-6-rich lamina propria of juvenile polyps fuels chronic inflammation that contributes to their progression toward cancer."
+  - target: 01-human/04-cellular/smooth-muscle-cell
+    relation: connects-to
+    note: "Hamartoma and vessel walls: smooth muscle within the polyp stroma and the malformed vessel walls of associated HHT reflect the SMAD4/BMP control of mesenchymal and vascular cells."
 ---
 
 # Juvenile Polyposis Syndrome
@@ -481,6 +490,9 @@ No approved chemopreventive agents specifically for JPS. Options under investiga
 - `connects-to` → **[Tuberous Sclerosis Complex](../tuberous-sclerosis-complex/README.md)** — The hamartoma family: like the juvenile polyps of JPS, the lesions of tuberous sclerosis are hamartomas—disorganised overgrowths of native tissue—linking these syndromes through dysregulated growth-factor and mTOR signalling rather than a single oncogene.
 - `connects-to` → **[Angiopoietin](../../03-molecular/angiopoietin/README.md)** — Vascular morphogenesis gone wrong: SMAD4 loss in JPS-HHT disrupts the BMP/TGF-beta control of angiogenesis that works alongside angiopoietin-Tie2 signalling, producing the arteriovenous malformations of the combined syndrome.
 - `connects-to` → **[Myocardium](../../05-tissue/myocardium/README.md)** — High-output strain: large hepatic and pulmonary arteriovenous malformations in SMAD4-mutant JPS-HHT shunt blood and force the myocardium into chronic high-output work, a route to heart failure.
+- `connects-to` → **[Prostaglandins](../../03-molecular/prostaglandins/README.md)** — COX-2 chemoprevention angle: juvenile polyps overexpress COX-2 and prostaglandins, suggesting NSAID chemoprevention may help reduce polyp burden as it does in other polyposis syndromes.
+- `connects-to` → **[IL-6](../../03-molecular/il-6/README.md)** — Inflamed stroma: the abundant inflammatory, IL-6-rich lamina propria of juvenile polyps fuels chronic inflammation that contributes to their progression toward cancer.
+- `connects-to` → **[Smooth Muscle Cell](../../04-cellular/smooth-muscle-cell/README.md)** — Hamartoma and vessel walls: smooth muscle within the polyp stroma and the malformed vessel walls of associated HHT reflect the SMAD4/BMP control of mesenchymal and vascular cells.
 
 [^howe-1998-smad4-jps]: Howe JR, Roth S, Ringold JC, et al. Mutations in the SMAD4/DPC4 gene in juvenile polyposis. *Science.* 1998;280(5366):1086-1088. [doi:10.1126/science.280.5366.1086](https://doi.org/10.1126/science.280.5366.1086) · [PubMed 9582123](https://pubmed.ncbi.nlm.nih.gov/9582123/)
 [^aretz-2007-jps-spectrum]: Aretz S, Stienen D, Uhlhaas S, et al. High proportion of large genomic deletions and a genotype-phenotype update in 80 unrelated families with juvenile polyposis syndrome. *J Med Genet.* 2007;44(11):702-709. [doi:10.1136/jmg.2007.051839](https://doi.org/10.1136/jmg.2007.051839) · [PubMed 17601924](https://pubmed.ncbi.nlm.nih.gov/17601924/)

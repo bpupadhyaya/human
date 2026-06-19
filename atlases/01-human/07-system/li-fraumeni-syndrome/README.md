@@ -268,6 +268,15 @@ cross_links:
   - target: 01-human/07-system/meningioma
     relation: connects-to
     note: "Radiation's late cost: Li-Fraumeni patients given radiotherapy face a high rate of radiation-induced second tumours including meningioma, one reason surgery is preferred over radiation whenever possible in the syndrome."
+  - target: 01-human/03-molecular/cdk4-6
+    relation: connects-to
+    note: "Released cell-cycle brake: loss of p53 removes the p21-mediated restraint on CDK4/6, unleashing the cyclin-driven cell cycle that fuels the diverse tumours of Li-Fraumeni syndrome."
+  - target: 01-human/03-molecular/tert
+    relation: connects-to
+    note: "Immortalization partner: telomerase reactivation cooperates with p53 loss to grant unlimited replicative capacity to Li-Fraumeni tumour cells."
+  - target: 01-human/03-molecular/akt
+    relation: connects-to
+    note: "Survival signalling: PI3K-AKT-mTOR activation cooperates with p53 deficiency to drive the proliferation and survival of Li-Fraumeni-associated cancers."
 ---
 
 # Li-Fraumeni Syndrome
@@ -502,6 +511,9 @@ Annual surveillance significantly reduces mortality in LFS carriers (Villani 201
 - `connects-to` → **[Retinoblastoma](../retinoblastoma/README.md)** — Two paradigms of inherited childhood cancer: like germline RB1 in retinoblastoma, germline TP53 in Li-Fraumeni follows Knudson's two-hit model, and both predispose survivors to radiation-induced second tumours such as osteosarcoma.
 - `connects-to` → **[Cowden Syndrome](../cowden-syndrome/README.md)** — A rival multi-cancer syndrome: Cowden syndrome (germline PTEN) mirrors Li-Fraumeni as an autosomal-dominant predisposition to breast, thyroid and other cancers, distinguishing a PTEN/mTOR-driven spectrum from the p53-driven one.
 - `connects-to` → **[Meningioma](../meningioma/README.md)** — Radiation's late cost: Li-Fraumeni patients given radiotherapy face a high rate of radiation-induced second tumours including meningioma, one reason surgery is preferred over radiation whenever possible in the syndrome.
+- `connects-to` → **[CDK4/6](../../03-molecular/cdk4-6/README.md)** — Released cell-cycle brake: loss of p53 removes the p21-mediated restraint on CDK4/6, unleashing the cyclin-driven cell cycle that fuels the diverse tumours of Li-Fraumeni syndrome.
+- `connects-to` → **[TERT](../../03-molecular/tert/README.md)** — Immortalization partner: telomerase reactivation cooperates with p53 loss to grant unlimited replicative capacity to Li-Fraumeni tumour cells.
+- `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — Survival signalling: PI3K-AKT-mTOR activation cooperates with p53 deficiency to drive the proliferation and survival of Li-Fraumeni-associated cancers.
 
 [^bougeard-2015-lfs-chompret]: Bougeard G, Renaux-Petel M, Flaman JM, et al. Revisiting Li-Fraumeni Syndrome From TP53 Mutation Carriers. *J Clin Oncol.* 2015;33(21):2345-2352. [doi:10.1200/JCO.2014.59.5728](https://doi.org/10.1200/JCO.2014.59.5728) · [PubMed 26014290](https://pubmed.ncbi.nlm.nih.gov/26014290/)
 [^villani-2016-lfs-surveillance]: Villani A, Shore A, Wasserman JD, et al. Biochemical and imaging surveillance in germline TP53 mutation carriers with Li-Fraumeni syndrome: 11 year follow-up of a prospective observational study. *Lancet Oncol.* 2016;17(9):1295-1305. [doi:10.1016/S1470-2045(16)30249-2](https://doi.org/10.1016/S1470-2045(16)30249-2) · [PubMed 27501770](https://pubmed.ncbi.nlm.nih.gov/27501770/)
