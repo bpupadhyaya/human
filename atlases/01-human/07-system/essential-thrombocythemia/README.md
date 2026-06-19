@@ -268,6 +268,15 @@ cross_links:
   - target: 01-human/07-system/covid-19-disease
     relation: connects-to
     note: "Compounded thrombosis risk: the prothrombotic state of essential thrombocythemia adds to the hypercoagulability of COVID-19, raising the risk of arterial and venous clots during infection."
+  - target: 01-human/03-molecular/type-i-interferon
+    relation: connects-to
+    note: "Clone-reducing therapy: pegylated interferon-alpha is a disease-modifying treatment for essential thrombocythemia that can shrink the JAK2- or CALR-mutant clone, unlike purely cytoreductive drugs."
+  - target: 01-human/03-molecular/ezh2
+    relation: connects-to
+    note: "Epigenetic co-mutation: EZH2 and other epigenetic-regulator mutations co-occur with the driver lesions of essential thrombocythemia and contribute to progression toward myelofibrosis."
+  - target: 01-human/03-molecular/akt
+    relation: connects-to
+    note: "Downstream of JAK2: the driver mutations of essential thrombocythemia activate JAK-STAT and the parallel PI3K-AKT pathway, together sustaining clonal megakaryocyte proliferation."
 ---
 
 # Essential Thrombocythemia
@@ -469,6 +478,9 @@ Management:
 - `connects-to` → **[Hemophilia A](../hemophilia-a/README.md)** — Paradoxical bleeding: extreme thrombocytosis in ET adsorbs and clears von Willebrand factor, causing an acquired von Willebrand syndrome—a bleeding tendency despite high platelets, reached differently than in haemophilia.
 - `connects-to` → **[Peripheral Nerve](../../05-tissue/peripheral-nerve/README.md)** — Erythromelalgia: platelet microthrombi in small vessels cause burning, red, painful extremities and acrocyanosis—a microvascular and small-fibre disturbance dramatically relieved by aspirin.
 - `connects-to` → **[COVID-19 Disease](../covid-19-disease/README.md)** — Compounded thrombosis risk: the prothrombotic state of essential thrombocythemia adds to the hypercoagulability of COVID-19, raising the risk of arterial and venous clots during infection.
+- `connects-to` → **[Type I Interferon](../../03-molecular/type-i-interferon/README.md)** — Clone-reducing therapy: pegylated interferon-alpha is a disease-modifying treatment for essential thrombocythemia that can shrink the JAK2- or CALR-mutant clone, unlike purely cytoreductive drugs.
+- `connects-to` → **[EZH2](../../03-molecular/ezh2/README.md)** — Epigenetic co-mutation: EZH2 and other epigenetic-regulator mutations co-occur with the driver lesions of essential thrombocythemia and contribute to progression toward myelofibrosis.
+- `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — Downstream of JAK2: the driver mutations of essential thrombocythemia activate JAK-STAT and the parallel PI3K-AKT pathway, together sustaining clonal megakaryocyte proliferation.
 
 [^harrison-2005-pt1-et]: Harrison CN, Campbell PJ, Buck G, et al. Hydroxyurea compared with anagrelide in high-risk essential thrombocythemia. *N Engl J Med.* 2005;353(1):33-45. [doi:10.1056/NEJMoa043800](https://doi.org/10.1056/NEJMoa043800) · [PubMed 16000354](https://pubmed.ncbi.nlm.nih.gov/16000354/)
 [^barbui-2012-ipset]: Barbui T, Finazzi G, Carobbio A, et al. Development and validation of an International Prognostic Score of thrombosis in World Health Organization-essential thrombocythemia (IPSET-thrombosis). *Blood.* 2012;120(26):5128-5133. [doi:10.1182/blood-2012-07-444067](https://doi.org/10.1182/blood-2012-07-444067) · [PubMed 23086758](https://pubmed.ncbi.nlm.nih.gov/23086758/)

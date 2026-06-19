@@ -268,6 +268,15 @@ cross_links:
   - target: 01-human/07-system/breast-cancer
     relation: connects-to
     note: "Late second cancers: childhood Ewing survivors treated with radiation face raised risks of second malignancies, including breast cancer after chest irradiation and therapy-related leukaemia."
+  - target: 01-human/03-molecular/ezh2
+    relation: connects-to
+    note: "EWS-FLI1's epigenetic effector: the EWS-FLI1 fusion upregulates EZH2 to enforce the oncogenic, anti-differentiation chromatin programme of Ewing sarcoma, a candidate therapeutic target."
+  - target: 01-human/03-molecular/myc
+    relation: connects-to
+    note: "Fusion-driven oncogene: EWS-FLI1 activates MYC, whose proliferative transcriptional programme is essential to the rapid growth of Ewing sarcoma cells."
+  - target: 01-human/03-molecular/wnt-beta-catenin
+    relation: connects-to
+    note: "Plasticity and spread: Wnt/β-catenin signalling modulates EWS-FLI1 activity and promotes the phenotypic plasticity and metastasis that drive aggressive Ewing sarcoma."
 ---
 
 # Ewing Sarcoma
@@ -474,6 +483,9 @@ After induction → surgical specimen assessed for percent tumor necrosis (Salze
 - `connects-to` → **[Alveolus](../../05-tissue/alveolus/README.md)** — Lung-predominant metastasis: Ewing sarcoma spreads chiefly to the lungs and bone, seeding the alveolar parenchyma—isolated pulmonary metastases carry a better prognosis than bone spread.
 - `connects-to` → **[Myocardium](../../05-tissue/myocardium/README.md)** — Chemotherapy cardiotoxicity: the anthracycline-heavy regimens (doxorubicin) that cure Ewing sarcoma can leave childhood survivors with a late cardiomyopathy of the myocardium.
 - `connects-to` → **[Breast Cancer](../breast-cancer/README.md)** — Late second cancers: childhood Ewing survivors treated with radiation face raised risks of second malignancies, including breast cancer after chest irradiation and therapy-related leukaemia.
+- `connects-to` → **[EZH2](../../03-molecular/ezh2/README.md)** — EWS-FLI1's epigenetic effector: the EWS-FLI1 fusion upregulates EZH2 to enforce the oncogenic, anti-differentiation chromatin programme of Ewing sarcoma, a candidate therapeutic target.
+- `connects-to` → **[MYC](../../03-molecular/myc/README.md)** — Fusion-driven oncogene: EWS-FLI1 activates MYC, whose proliferative transcriptional programme is essential to the rapid growth of Ewing sarcoma cells.
+- `connects-to` → **[Wnt/β-catenin](../../03-molecular/wnt-beta-catenin/README.md)** — Plasticity and spread: Wnt/β-catenin signalling modulates EWS-FLI1 activity and promotes the phenotypic plasticity and metastasis that drive aggressive Ewing sarcoma.
 
 ---
 
