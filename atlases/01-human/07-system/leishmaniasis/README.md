@@ -262,6 +262,15 @@ cross_links:
   - target: 01-human/07-system/iga-nephropathy
     relation: connects-to
     note: "Immune-complex kidney injury: the enormous antibody load of visceral leishmaniasis deposits immune complexes in the glomeruli, causing a glomerulonephritis that can include mesangial IgA deposition."
+  - target: 01-human/07-system/cytokine-storm
+    relation: connects-to
+    note: "A trigger of HLH: visceral leishmaniasis is a classic infectious cause of secondary haemophagocytic lymphohistiocytosis, a cytokine storm of activated macrophages devouring blood cells, with fever, cytopenias and organ failure."
+  - target: 02-pathogen/04-parasites/trypanosoma-brucei
+    relation: connects-to
+    note: "Fellow kinetoplastid: like Leishmania and Trypanosoma cruzi, Trypanosoma brucei is a kinetoplastid protozoan causing a major neglected tropical disease (sleeping sickness), sharing antigenic-variation immune evasion."
+  - target: 01-human/07-system/covid-19-disease
+    relation: connects-to
+    note: "Opportunism and disruption: the immunosuppression of severe COVID-19 and its treatments can unmask visceral leishmaniasis, while the pandemic disrupted control of this neglected disease in endemic regions."
 ---
 
 # Leishmaniasis
@@ -445,3 +454,6 @@ HIV-VL co-infection: CD4+ depletion → loss of IFN-γ production → *Leishmani
 - `connects-to` → **[Hodgkin Lymphoma](../hodgkin-lymphoma/README.md)** — A lymphoma mimic: visceral leishmaniasis causes fever, weight loss and massive splenomegaly that closely mimic Hodgkin lymphoma, and immunosuppression for lymphoma can in turn unmask latent infection.
 - `connects-to` → **[Multiple Myeloma](../multiple-myeloma/README.md)** — Polyclonal gammopathy, not myeloma: visceral leishmaniasis floods the blood with polyclonal IgG, a benign hypergammaglobulinaemia that must be distinguished from the monoclonal paraprotein spike of multiple myeloma.
 - `connects-to` → **[IgA Nephropathy](../iga-nephropathy/README.md)** — Immune-complex kidney injury: the enormous antibody load of visceral leishmaniasis deposits immune complexes in the glomeruli, causing a glomerulonephritis that can include mesangial IgA deposition.
+- `connects-to` → **[Cytokine Storm](../cytokine-storm/README.md)** — A trigger of HLH: visceral leishmaniasis is a classic infectious cause of secondary haemophagocytic lymphohistiocytosis, a cytokine storm of activated macrophages devouring blood cells, with fever, cytopenias and organ failure.
+- `connects-to` → **[Trypanosoma brucei](../../../02-pathogen/04-parasites/trypanosoma-brucei/README.md)** — Fellow kinetoplastid: like Leishmania and Trypanosoma cruzi, Trypanosoma brucei is a kinetoplastid protozoan causing a major neglected tropical disease (sleeping sickness), sharing antigenic-variation immune evasion.
+- `connects-to` → **[COVID-19 Disease](../covid-19-disease/README.md)** — Opportunism and disruption: the immunosuppression of severe COVID-19 and its treatments can unmask visceral leishmaniasis, while the pandemic disrupted control of this neglected disease in endemic regions.

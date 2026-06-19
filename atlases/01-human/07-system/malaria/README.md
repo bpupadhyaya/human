@@ -267,6 +267,15 @@ cross_links:
   - target: 01-human/03-molecular/erythropoietin
     relation: connects-to
     note: "Why anaemia outlasts the parasite: malaria blunts the erythropoietin response and causes dyserythropoiesis in the marrow, so the anaemia persists for weeks after the parasites are cleared."
+  - target: 01-human/07-system/covid-19-disease
+    relation: connects-to
+    note: "Overlapping fevers and a syndemic: COVID-19 and malaria present with similar acute febrile illness, risking misdiagnosis, and the pandemic disrupted malaria control programmes across endemic regions."
+  - target: 01-human/05-tissue/cardiac-conduction-system
+    relation: connects-to
+    note: "Antimalarials and the QT interval: quinine, chloroquine and related drugs prolong cardiac repolarisation and can trigger arrhythmia, so the conduction system is watched closely during treatment of severe malaria."
+  - target: 01-human/05-tissue/myocardium
+    relation: connects-to
+    note: "The heart in severe malaria: cytokines and microvascular sequestration can depress myocardial function in severe disease, a strain compounded by the cardiotoxicity of high-dose antimalarials."
 ---
 
 # Malaria
@@ -508,6 +517,9 @@ cross_links:
 - `connects-to` → **[Thrombotic Thrombocytopenic Purpura](../thrombotic-thrombocytopenic-purpura/README.md)** — A thrombotic microangiopathy mimic: severe falciparum malaria's microvascular obstruction, thrombocytopenia and haemolysis can resemble thrombotic thrombocytopenic purpura in a returning traveller, a key differential.
 - `connects-to` → **[Arterial Wall](../../05-tissue/arterial-wall/README.md)** — Cytoadherence to the vessel: P. falciparum-infected red cells bind endothelial receptors (ICAM-1, EPCR) on small-vessel walls, and this sequestration drives the obstruction behind cerebral and placental malaria.
 - `connects-to` → **[Erythropoietin](../../03-molecular/erythropoietin/README.md)** — Why anaemia outlasts the parasite: malaria blunts the erythropoietin response and causes dyserythropoiesis in the marrow, so the anaemia persists for weeks after the parasites are cleared.
+- `connects-to` → **[COVID-19 Disease](../covid-19-disease/README.md)** — Overlapping fevers and a syndemic: COVID-19 and malaria present with similar acute febrile illness, risking misdiagnosis, and the pandemic disrupted malaria control programmes across endemic regions.
+- `connects-to` → **[Cardiac Conduction System](../../05-tissue/cardiac-conduction-system/README.md)** — Antimalarials and the QT interval: quinine, chloroquine and related drugs prolong cardiac repolarisation and can trigger arrhythmia, so the conduction system is watched closely during treatment of severe malaria.
+- `connects-to` → **[Myocardium](../../05-tissue/myocardium/README.md)** — The heart in severe malaria: cytokines and microvascular sequestration can depress myocardial function in severe disease, a strain compounded by the cardiotoxicity of high-dose antimalarials.
 
 [^who-malaria-report-2023]: World Health Organization. World Malaria Report 2023. WHO; 2023.
 [^white-2014-malaria-lancet]: White NJ, Pukrittayakamee S, Hien TT, et al. Malaria. *Lancet.* 2014;383(9918):723-735. [doi:10.1016/S0140-6736(13)60024-0](https://doi.org/10.1016/S0140-6736(13)60024-0) · [PubMed 23953767](https://pubmed.ncbi.nlm.nih.gov/23953767/)
