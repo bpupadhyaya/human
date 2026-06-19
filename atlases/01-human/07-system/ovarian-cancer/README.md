@@ -241,6 +241,15 @@ cross_links:
   - target: 01-human/07-system/immune-system
     relation: connects-to
     note: "Its immune infiltrate predicts survival: the density of tumour-infiltrating lymphocytes strongly predicts outcome in ovarian cancer, yet regulatory T cells and an immunosuppressive milieu blunt the antitumour response."
+  - target: 01-human/07-system/prostate-cancer
+    relation: connects-to
+    note: "Shared BRCA vulnerability across the sexes: like high-grade serous ovarian cancer, BRCA-mutant prostate cancer carries homologous-recombination deficiency and responds to PARP inhibitors, placing both in the HBOC spectrum despite opposite organs."
+  - target: 01-human/05-tissue/germinal-center
+    relation: connects-to
+    note: "B-cell islands sharpen the prognosis: high-grade serous ovarian cancers that build tertiary lymphoid structures with germinal-centre B cells and plasma cells show stronger antitumour immunity and better survival than those with T cells alone."
+  - target: 01-human/07-system/gastric-cancer
+    relation: connects-to
+    note: "The source of a Krukenberg tumour: metastatic gastric and other GI signet-ring carcinomas seed the ovaries as Krukenberg tumours, a classic ovarian metastasis that mimics primary ovarian cancer and must be distinguished from it."
 ---
 
 # Ovarian Cancer
@@ -431,6 +440,9 @@ FTSEC ciliated and secretory cells line the Fallopian tube; secretory cells are 
 - `connects-to` → **[Cancer Chemotherapy](../../../03-medicine/01-modern/13-cancer/cancer-chemotherapy/README.md)** — Platinum-taxane is the backbone: carboplatin with paclitaxel after debulking surgery is the chemotherapy foundation, and platinum sensitivity guides treatment at relapse.
 - `connects-to` → **[Checkpoint Inhibitors](../../../03-medicine/01-modern/13-cancer/checkpoint-inhibitors/README.md)** — Largely resistant despite immune cells: although ovarian cancer harbours tumour-infiltrating lymphocytes that predict prognosis, its immunosuppressive microenvironment has left checkpoint inhibitors mostly ineffective.
 - `connects-to` → **[Immune System](../immune-system/README.md)** — Its immune infiltrate predicts survival: the density of tumour-infiltrating lymphocytes strongly predicts outcome in ovarian cancer, yet regulatory T cells and an immunosuppressive milieu blunt the antitumour response.
+- `connects-to` → **[Prostate Cancer](../prostate-cancer/README.md)** — Shared BRCA vulnerability across the sexes: like high-grade serous ovarian cancer, BRCA-mutant prostate cancer carries homologous-recombination deficiency and responds to PARP inhibitors, placing both in the HBOC spectrum despite opposite organs.
+- `connects-to` → **[Germinal Center](../../05-tissue/germinal-center/README.md)** — B-cell islands sharpen the prognosis: high-grade serous ovarian cancers that build tertiary lymphoid structures with germinal-centre B cells and plasma cells show stronger antitumour immunity and better survival than those with T cells alone.
+- `connects-to` → **[Gastric Cancer](../gastric-cancer/README.md)** — The source of a Krukenberg tumour: metastatic gastric and other GI signet-ring carcinomas seed the ovaries as Krukenberg tumours, a classic ovarian metastasis that mimics primary ovarian cancer and must be distinguished from it.
 
 [^burger-2011-gog0218]: Burger RA, Brady MF, Bookman MA, et al. Incorporation of bevacizumab in the primary treatment of ovarian cancer. *N Engl J Med.* 2011;365(26):2473-2483. [doi:10.1056/NEJMoa1104390](https://doi.org/10.1056/NEJMoa1104390) · [PubMed 22204724](https://pubmed.ncbi.nlm.nih.gov/22204724/)
 [^moore-2018-olaparib-solo1]: Moore K, Colombo N, Scambia G, et al. Maintenance olaparib in patients with newly diagnosed advanced ovarian cancer. *N Engl J Med.* 2018;379(26):2495-2505. [doi:10.1056/NEJMoa1810858](https://doi.org/10.1056/NEJMoa1810858) · [PubMed 30345884](https://pubmed.ncbi.nlm.nih.gov/30345884/)

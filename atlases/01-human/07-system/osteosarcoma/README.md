@@ -241,6 +241,15 @@ cross_links:
   - target: 03-medicine/01-modern/13-cancer/checkpoint-inhibitors
     relation: connects-to
     note: "An immunologically cold sarcoma: osteosarcoma has few mutations and an immunosuppressive microenvironment, so PD-1 checkpoint inhibitors have shown little benefit despite trials."
+  - target: 01-human/05-tissue/alveolus
+    relation: connects-to
+    note: "Its metastases home to the lungs: osteosarcoma spreads almost exclusively to the lungs, seeding nodules in the alveolar parenchyma, and surgically removing these pulmonary metastases is central to achieving cure."
+  - target: 01-human/05-tissue/myocardium
+    relation: connects-to
+    note: "Its cure threatens the heart: doxorubicin, a backbone of osteosarcoma chemotherapy, is cardiotoxic and damages the myocardium dose-dependently, so survivors carry a lifelong risk of cardiomyopathy and heart failure."
+  - target: 01-human/07-system/rhabdomyosarcoma
+    relation: connects-to
+    note: "Two sarcomas of the young, different roots: osteosarcoma arises in bone with a chaotic, p53/RB-driven genome, while rhabdomyosarcoma arises in skeletal-muscle lineage often from a PAX-FOXO1 fusion—distinct origins guiding distinct chemotherapy."
 ---
 
 # Osteosarcoma
@@ -446,6 +455,9 @@ OS is relatively radiation-resistant (high-dose radiation ~70+ Gy may achieve lo
 - `connects-to` → **[Cancer Chemotherapy](../../../03-medicine/01-modern/13-cancer/cancer-chemotherapy/README.md)** — The MAP regimen is curative: methotrexate, doxorubicin and cisplatin around limb-salvage surgery cure most localised osteosarcoma, the chemotherapy backbone since the 1980s.
 - `connects-to` → **[Cortical Bone](../../05-tissue/cortical-bone/README.md)** — It arises in and destroys bone: osteosarcoma is a malignant bone-forming tumour of the metaphysis that breaks through the cortical bone, producing the Codman triangle and sunburst pattern on imaging.
 - `connects-to` → **[Checkpoint Inhibitors](../../../03-medicine/01-modern/13-cancer/checkpoint-inhibitors/README.md)** — An immunologically cold sarcoma: osteosarcoma has few mutations and an immunosuppressive microenvironment, so PD-1 checkpoint inhibitors have shown little benefit despite trials.
+- `connects-to` → **[Alveolus](../../05-tissue/alveolus/README.md)** — Its metastases home to the lungs: osteosarcoma spreads almost exclusively to the lungs, seeding nodules in the alveolar parenchyma, and surgically removing these pulmonary metastases is central to achieving cure.
+- `connects-to` → **[Myocardium](../../05-tissue/myocardium/README.md)** — Its cure threatens the heart: doxorubicin, a backbone of osteosarcoma chemotherapy, is cardiotoxic and damages the myocardium dose-dependently, so survivors carry a lifelong risk of cardiomyopathy and heart failure.
+- `connects-to` → **[Rhabdomyosarcoma](../rhabdomyosarcoma/README.md)** — Two sarcomas of the young, different roots: osteosarcoma arises in bone with a chaotic, p53/RB-driven genome, while rhabdomyosarcoma arises in skeletal-muscle lineage often from a PAX-FOXO1 fusion—distinct origins guiding distinct chemotherapy.
 
 [^bielack-2002-coss-osteosarcoma]: Bielack SS, Kempf-Bielack B, Delling G, et al. Prognostic factors in high-grade osteosarcoma of the extremities or trunk: an analysis of 1,702 patients treated on neoadjuvant Cooperative Osteosarcoma Study Group protocols. *J Clin Oncol.* 2002;20(3):776-790. [doi:10.1200/JCO.2002.20.3.776](https://doi.org/10.1200/JCO.2002.20.3.776) · [PubMed 11821461](https://pubmed.ncbi.nlm.nih.gov/11821461/)
 [^marina-2016-euramos1-osteosarcoma]: Marina NM, Smeland S, Bielack SS, et al. Comparison of MAPIE versus MAP in patients with a poor response to preoperative chemotherapy for newly diagnosed high-grade osteosarcoma (EURAMOS-1). *Lancet Oncol.* 2016;17(10):1396-1408. [doi:10.1016/S1470-2045(16)30214-5](https://doi.org/10.1016/S1470-2045(16)30214-5) · [PubMed 27569442](https://pubmed.ncbi.nlm.nih.gov/27569442/)
