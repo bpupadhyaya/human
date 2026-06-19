@@ -248,6 +248,15 @@ cross_links:
   - target: 01-human/03-molecular/nitric-oxide
     relation: connects-to
     note: "The molecule behind erection and uterine blood flow: nitric oxide relaxes vascular and smooth muscle to drive penile erection (the PDE5/cGMP pathway sildenafil targets) and to widen the blood supply of the uterus and placenta."
+  - target: 01-human/07-system/dicer1-syndrome
+    relation: connects-to
+    note: "Inherited reproductive tumours: DICER1 predisposes to ovarian sex-cord-stromal tumours such as Sertoli-Leydig tumours, one of the germline syndromes that strike the reproductive system."
+  - target: 01-human/03-molecular/vegf
+    relation: connects-to
+    note: "Angiogenesis in reproduction: VEGF drives the cyclical vessel growth of the corpus luteum, endometrium and placenta, the controlled angiogenesis on which the menstrual cycle and pregnancy depend."
+  - target: 01-human/05-tissue/arterial-wall
+    relation: connects-to
+    note: "Vessels of pregnancy and protection: the reproductive system remodels the spiral arteries of the endometrium and placenta, and oestrogen protects the arterial wall—lost at menopause when cardiovascular risk climbs."
 ---
 
 # Reproductive System
@@ -440,6 +449,9 @@ Testosterone binds androgen receptor (AR, nuclear receptor NR3C4) → AR dimeriz
 - `connects-to` → **[Ovarian Clear Cell Carcinoma](../ovarian-clear-cell-carcinoma/README.md)** — A gynaecological cancer born of endometriosis: ovarian clear cell carcinoma arises from endometriotic cysts of the reproductive tract, an ARID1A-driven, chemoresistant tumour that ties the reproductive system to oncology.
 - `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — A trace element male fertility needs: selenium is built into selenoproteins essential for sperm maturation and flagellar function, so selenium deficiency impairs sperm motility and male fertility.
 - `connects-to` → **[Nitric Oxide](../../03-molecular/nitric-oxide/README.md)** — The molecule behind erection and uterine blood flow: nitric oxide relaxes vascular and smooth muscle to drive penile erection (the PDE5/cGMP pathway sildenafil targets) and to widen the blood supply of the uterus and placenta.
+- `connects-to` → **[DICER1 Syndrome](../dicer1-syndrome/README.md)** — Inherited reproductive tumours: DICER1 predisposes to ovarian sex-cord-stromal tumours such as Sertoli-Leydig tumours, one of the germline syndromes that strike the reproductive system.
+- `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — Angiogenesis in reproduction: VEGF drives the cyclical vessel growth of the corpus luteum, endometrium and placenta, the controlled angiogenesis on which the menstrual cycle and pregnancy depend.
+- `connects-to` → **[Arterial Wall](../../05-tissue/arterial-wall/README.md)** — Vessels of pregnancy and protection: the reproductive system remodels the spiral arteries of the endometrium and placenta, and oestrogen protects the arterial wall—lost at menopause when cardiovascular risk climbs.
 
 ## Pathology
 
