@@ -275,6 +275,15 @@ cross_links:
   - target: 02-pathogen/02-bacteria/escherichia-coli
     relation: connects-to
     note: "Ascending genitourinary infection: uropathogenic E. coli ascends the genital and urinary tract to cause epididymo-orchitis, prostatitis and pelvic infection, threatening fertility."
+  - target: 01-human/03-molecular/melatonin
+    relation: connects-to
+    note: "Reproductive timing: melatonin signals daylength to the reproductive axis, modulating GnRH and the timing of puberty and seasonal fertility."
+  - target: 01-human/03-molecular/vasopressin
+    relation: connects-to
+    note: "Behaviour and parturition: vasopressin, alongside oxytocin, shapes pair-bonding and reproductive behaviour and contributes to the neurohypophyseal signalling of labour."
+  - target: 01-human/03-molecular/serotonin
+    relation: connects-to
+    note: "Libido and ejaculation: serotonin modulates sexual desire and ejaculatory control, which is why SSRIs commonly cause sexual dysfunction affecting reproductive function."
 ---
 ---
 
@@ -477,6 +486,9 @@ Testosterone binds androgen receptor (AR, nuclear receptor NR3C4) → AR dimeriz
 - `connects-to` → **[CRH](../../03-molecular/crh/README.md)** — Stress suppresses fertility: corticotropin-releasing hormone, the apex of the stress axis, inhibits GnRH and the reproductive axis, the mechanism behind stress- and illness-related amenorrhoea.
 - `connects-to` → **[Growth Hormone](../../03-molecular/growth-hormone/README.md)** — Growth axis and gonads: growth hormone and IGF-1 support gonadal steroidogenesis and gametogenesis, so GH deficiency or excess can impair fertility and reproductive function.
 - `connects-to` → **[Escherichia coli](../../../02-pathogen/02-bacteria/escherichia-coli/README.md)** — Ascending genitourinary infection: uropathogenic E. coli ascends the genital and urinary tract to cause epididymo-orchitis, prostatitis and pelvic infection, threatening fertility.
+- `connects-to` → **[Melatonin](../../03-molecular/melatonin/README.md)** — Reproductive timing: melatonin signals daylength to the reproductive axis, modulating GnRH and the timing of puberty and seasonal fertility.
+- `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — Behaviour and parturition: vasopressin, alongside oxytocin, shapes pair-bonding and reproductive behaviour and contributes to the neurohypophyseal signalling of labour.
+- `connects-to` → **[Serotonin](../../03-molecular/serotonin/README.md)** — Libido and ejaculation: serotonin modulates sexual desire and ejaculatory control, which is why SSRIs commonly cause sexual dysfunction affecting reproductive function.
 
 ## Pathology
 

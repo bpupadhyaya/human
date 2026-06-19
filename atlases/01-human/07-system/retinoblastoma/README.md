@@ -277,6 +277,15 @@ cross_links:
   - target: 01-human/03-molecular/ezh2
     relation: connects-to
     note: "Epigenetic dependence: EZH2/polycomb activity helps maintain the proliferative, dedifferentiated state of retinoblastoma, a candidate epigenetic vulnerability."
+  - target: 01-human/03-molecular/akt
+    relation: connects-to
+    note: "Survival signalling: PI3K/AKT activation helps retinoblastoma cells survive and proliferate downstream of RB1 loss, a candidate combination target."
+  - target: 01-human/03-molecular/mtor
+    relation: connects-to
+    note: "Growth-signal hub: mTOR drives the protein synthesis and growth of retinoblastoma cells, integrating the proliferative signalling unleashed by RB1 inactivation."
+  - target: 01-human/03-molecular/hif-1alpha
+    relation: connects-to
+    note: "Tumour hypoxia: HIF-1α stabilised in the hypoxic intraocular retinoblastoma drives the VEGF angiogenesis that supports its growth within the eye."
 ---
 
 # Retinoblastoma
@@ -476,6 +485,9 @@ Standard regimen: **vincristine + carboplatin + etoposide (VCE)**, 6 cycles; red
 - `connects-to` → **[MYC](../../03-molecular/myc/README.md)** — Amplified aggression: MYC and MYCN amplification mark aggressive retinoblastomas, including rare RB1-wild-type tumours driven by MYCN amplification alone.
 - `connects-to` → **[BCL-2](../../03-molecular/bcl-2/README.md)** — Apoptosis-resistant origin: the cone-precursor cell of origin highly expresses anti-apoptotic BCL-2 and MDM2, helping retinoblastoma cells survive despite RB1 loss.
 - `connects-to` → **[EZH2](../../03-molecular/ezh2/README.md)** — Epigenetic dependence: EZH2/polycomb activity helps maintain the proliferative, dedifferentiated state of retinoblastoma, a candidate epigenetic vulnerability.
+- `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — Survival signalling: PI3K/AKT activation helps retinoblastoma cells survive and proliferate downstream of RB1 loss, a candidate combination target.
+- `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — Growth-signal hub: mTOR drives the protein synthesis and growth of retinoblastoma cells, integrating the proliferative signalling unleashed by RB1 inactivation.
+- `connects-to` → **[HIF-1α](../../03-molecular/hif-1alpha/README.md)** — Tumour hypoxia: HIF-1α stabilised in the hypoxic intraocular retinoblastoma drives the VEGF angiogenesis that supports its growth within the eye.
 
 [^knudson-1971-two-hit]: Knudson AG Jr. Mutation and cancer: statistical study of retinoblastoma. *Proc Natl Acad Sci USA.* 1971;68(4):820-823. [doi:10.1073/pnas.68.4.820](https://doi.org/10.1073/pnas.68.4.820) · [PubMed 5279523](https://pubmed.ncbi.nlm.nih.gov/5279523/)
 [^shields-2008-retinoblastoma]: Shields CL, Shields JA. Retinoblastoma management: advances in enucleation, intravenous chemoreduction, and intra-arterial chemotherapy. *Curr Opin Ophthalmol.* 2010;21(3):203-212. [doi:10.1097/ICU.0b013e328338676a](https://doi.org/10.1097/ICU.0b013e328338676a) · [PubMed 20224400](https://pubmed.ncbi.nlm.nih.gov/20224400/)
