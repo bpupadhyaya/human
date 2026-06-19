@@ -262,6 +262,15 @@ cross_links:
   - target: 01-human/07-system/sepsis
     relation: connects-to
     note: "The gut as motor of sepsis: a depleted microbiome and leaky epithelium let gut bacteria translocate, and the dysbiosis of critical illness worsens multi-organ failure and mortality."
+  - target: 01-human/07-system/covid-19-disease
+    relation: connects-to
+    note: "Dysbiosis and COVID: the gut microbiome is altered in acute COVID-19 and shapes its severity, and persistent dysbiosis is implicated in the gastrointestinal and fatigue symptoms of long COVID."
+  - target: 01-human/07-system/schizophrenia
+    relation: connects-to
+    note: "Gut-brain axis in psychosis: microbiome alterations communicate with the brain via immune, metabolic and vagal routes and are increasingly implicated in schizophrenia, extending the gut's reach into psychotic illness."
+  - target: 01-human/07-system/hcc
+    relation: connects-to
+    note: "The gut-liver axis to cancer: dysbiosis and bacterial-product translocation through the portal vein inflame the liver and, via NASH and cirrhosis, contribute to hepatocellular carcinoma."
 ---
 
 # Gut Microbiome
@@ -421,6 +430,9 @@ The microbiome influences CNS function via multiple pathways:
 - `connects-to` → **[Epilepsy](../epilepsy/README.md)** — Diet, microbes and seizures: the ketogenic diet's anticonvulsant effect in drug-resistant epilepsy is partly mediated by gut-microbiome shifts that raise GABA and lower glutamate, a striking gut-brain link.
 - `connects-to` → **[Ankylosing Spondylitis](../ankylosing-spondylitis/README.md)** — The gut-joint axis: subclinical gut inflammation and a distinct dysbiosis are central to ankylosing spondylitis, where HLA-B27 shapes a microbiome that helps drive the spondyloarthritis.
 - `connects-to` → **[Sepsis](../sepsis/README.md)** — The gut as motor of sepsis: a depleted microbiome and leaky epithelium let gut bacteria translocate, and the dysbiosis of critical illness worsens multi-organ failure and mortality.
+- `connects-to` → **[COVID-19 Disease](../covid-19-disease/README.md)** — Dysbiosis and COVID: the gut microbiome is altered in acute COVID-19 and shapes its severity, and persistent dysbiosis is implicated in the gastrointestinal and fatigue symptoms of long COVID.
+- `connects-to` → **[Schizophrenia](../schizophrenia/README.md)** — Gut-brain axis in psychosis: microbiome alterations communicate with the brain via immune, metabolic and vagal routes and are increasingly implicated in schizophrenia, extending the gut's reach into psychotic illness.
+- `connects-to` → **[HCC](../hcc/README.md)** — The gut-liver axis to cancer: dysbiosis and bacterial-product translocation through the portal vein inflame the liver and, via NASH and cirrhosis, contribute to hepatocellular carcinoma.
 
 ## Pathology
 
