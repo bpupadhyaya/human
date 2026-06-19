@@ -277,6 +277,15 @@ cross_links:
   - target: 01-human/03-molecular/hif-1alpha
     relation: connects-to
     note: "Hypoxia and spread: HIF-1α-driven angiogenesis and adaptation to the hypoxic bone tumour microenvironment promote osteosarcoma growth and metastasis to the lungs."
+  - target: 01-human/03-molecular/cyclin-d1
+    relation: connects-to
+    note: "Cell-cycle drive: with RB1 and CDKN2A loss frequent in osteosarcoma, cyclin D1-CDK4/6 activity propels its cells through the G1 checkpoint."
+  - target: 01-human/03-molecular/notch
+    relation: connects-to
+    note: "Developmental signalling: dysregulated Notch signalling promotes osteosarcoma proliferation, invasion and metastasis, an emerging therapeutic target."
+  - target: 01-human/03-molecular/fgfr
+    relation: connects-to
+    note: "Growth-factor signalling: FGFR signalling contributes to osteosarcoma proliferation and is a candidate targetable receptor in this aggressive bone cancer."
 ---
 
 # Osteosarcoma
@@ -494,6 +503,9 @@ OS is relatively radiation-resistant (high-dose radiation ~70+ Gy may achieve lo
 - `connects-to` → **[PDGF](../../03-molecular/pdgf/README.md)** — Kinase target: PDGFR signalling supports osteosarcoma growth and angiogenesis, the basis for multikinase inhibitors such as regorafenib and cabozantinib in advanced disease.
 - `connects-to` → **[YAP1](../../03-molecular/yap1/README.md)** — Hippo activation: nuclear YAP from a deregulated Hippo pathway drives osteosarcoma proliferation and is associated with poor prognosis.
 - `connects-to` → **[HIF-1α](../../03-molecular/hif-1alpha/README.md)** — Hypoxia and spread: HIF-1α-driven angiogenesis and adaptation to the hypoxic bone tumour microenvironment promote osteosarcoma growth and metastasis to the lungs.
+- `connects-to` → **[Cyclin D1](../../03-molecular/cyclin-d1/README.md)** — Cell-cycle drive: with RB1 and CDKN2A loss frequent in osteosarcoma, cyclin D1-CDK4/6 activity propels its cells through the G1 checkpoint.
+- `connects-to` → **[Notch](../../03-molecular/notch/README.md)** — Developmental signalling: dysregulated Notch signalling promotes osteosarcoma proliferation, invasion and metastasis, an emerging therapeutic target.
+- `connects-to` → **[FGFR](../../03-molecular/fgfr/README.md)** — Growth-factor signalling: FGFR signalling contributes to osteosarcoma proliferation and is a candidate targetable receptor in this aggressive bone cancer.
 
 [^bielack-2002-coss-osteosarcoma]: Bielack SS, Kempf-Bielack B, Delling G, et al. Prognostic factors in high-grade osteosarcoma of the extremities or trunk: an analysis of 1,702 patients treated on neoadjuvant Cooperative Osteosarcoma Study Group protocols. *J Clin Oncol.* 2002;20(3):776-790. [doi:10.1200/JCO.2002.20.3.776](https://doi.org/10.1200/JCO.2002.20.3.776) · [PubMed 11821461](https://pubmed.ncbi.nlm.nih.gov/11821461/)
 [^marina-2016-euramos1-osteosarcoma]: Marina NM, Smeland S, Bielack SS, et al. Comparison of MAPIE versus MAP in patients with a poor response to preoperative chemotherapy for newly diagnosed high-grade osteosarcoma (EURAMOS-1). *Lancet Oncol.* 2016;17(10):1396-1408. [doi:10.1016/S1470-2045(16)30214-5](https://doi.org/10.1016/S1470-2045(16)30214-5) · [PubMed 27569442](https://pubmed.ncbi.nlm.nih.gov/27569442/)
