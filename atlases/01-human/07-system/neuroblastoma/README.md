@@ -277,6 +277,15 @@ cross_links:
   - target: 01-human/03-molecular/ezh2
     relation: connects-to
     note: "MYCN's epigenetic effector: MYCN upregulates EZH2 to enforce the repressive, anti-differentiation chromatin programme of high-risk neuroblastoma."
+  - target: 01-human/03-molecular/myc
+    relation: connects-to
+    note: "MYC-family alternative: in MYCN-non-amplified neuroblastoma, c-MYC drives a similar high-risk transcriptional programme, the two MYC-family oncogenes converging on aggressive disease."
+  - target: 01-human/03-molecular/mtor
+    relation: connects-to
+    note: "Growth-signal hub: PI3K/AKT/mTOR signalling stabilises MYCN and drives the protein synthesis that fuels neuroblastoma growth, a rationale for mTOR-pathway inhibition."
+  - target: 01-human/03-molecular/hif-1alpha
+    relation: connects-to
+    note: "Tumour hypoxia: HIF-1α stabilised in the hypoxic neuroblastoma drives angiogenesis and an undifferentiated, aggressive phenotype linked to poor outcome."
 ---
 
 # Neuroblastoma
@@ -500,6 +509,9 @@ Stage MS (metastatic, <18 months, skin/liver/bone marrow only, MYCN wild-type): 
 - `connects-to` → **[BCL-2](../../03-molecular/bcl-2/README.md)** — Apoptosis evasion: neuroblastoma depends on anti-apoptotic BCL-2 family proteins for survival, a vulnerability targeted by BH3-mimetic drugs.
 - `connects-to` → **[CDK4/6](../../03-molecular/cdk4-6/README.md)** — Cell-cycle drive: CDK4/6-cyclin D activity, amplified by MYCN, propels neuroblastoma proliferation, making CDK4/6 inhibition an investigational strategy.
 - `connects-to` → **[EZH2](../../03-molecular/ezh2/README.md)** — MYCN's epigenetic effector: MYCN upregulates EZH2 to enforce the repressive, anti-differentiation chromatin programme of high-risk neuroblastoma.
+- `connects-to` → **[MYC](../../03-molecular/myc/README.md)** — MYC-family alternative: in MYCN-non-amplified neuroblastoma, c-MYC drives a similar high-risk transcriptional programme, the two MYC-family oncogenes converging on aggressive disease.
+- `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — Growth-signal hub: PI3K/AKT/mTOR signalling stabilises MYCN and drives the protein synthesis that fuels neuroblastoma growth, a rationale for mTOR-pathway inhibition.
+- `connects-to` → **[HIF-1α](../../03-molecular/hif-1alpha/README.md)** — Tumour hypoxia: HIF-1α stabilised in the hypoxic neuroblastoma drives angiogenesis and an undifferentiated, aggressive phenotype linked to poor outcome.
 
 [^yu-2010-dinutuximab-nb]: Yu AL, Gilman AL, Ozkaynak MF, et al. Anti-GD2 antibody with GM-CSF, interleukin-2, and isotretinoin for neuroblastoma. *N Engl J Med.* 2010;363(14):1324-1334. [doi:10.1056/NEJMoa0911123](https://doi.org/10.1056/NEJMoa0911123) · [PubMed 20879881](https://pubmed.ncbi.nlm.nih.gov/20879881/)
 [^park-2019-tandem-sct-nb]: Park JR, Kreissman SG, London WB, et al. Effect of tandem autologous stem cell transplant vs single transplant on event-free survival in patients with high-risk neuroblastoma: a randomized clinical trial. *JAMA.* 2019;322(8):746-755. [doi:10.1001/jama.2019.11642](https://doi.org/10.1001/jama.2019.11642) · [PubMed 31454023](https://pubmed.ncbi.nlm.nih.gov/31454023/)
