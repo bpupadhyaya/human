@@ -271,6 +271,15 @@ cross_links:
   - target: 01-human/07-system/melanoma
     relation: connects-to
     note: "A shared BRCA2 spectrum: germline BRCA2 raises the risk of breast cancer alongside ovarian, prostate, pancreatic cancer and melanoma, a hereditary cancer cluster that guides cascade genetic testing."
+  - target: 01-human/07-system/epilepsy
+    relation: connects-to
+    note: "Seizures from brain spread: breast cancer (especially HER2-positive and triple-negative) is a leading cause of brain metastases and leptomeningeal disease, producing seizures and secondary epilepsy."
+  - target: 01-human/05-tissue/peripheral-nerve
+    relation: connects-to
+    note: "Nerve and cord compromise: bone-tropic breast cancer can collapse vertebrae and compress the spinal cord and nerve roots, while tumour or radiation can injure the brachial plexus—threatening permanent deficits."
+  - target: 01-human/07-system/inflammatory-bowel-disease
+    relation: connects-to
+    note: "Immunotherapy's autoimmune cost: checkpoint inhibitors now used for triple-negative breast cancer can unleash an autoimmune colitis resembling inflammatory bowel disease, managed with steroids and anti-TNF biologics."
 ---
 
 # Breast Cancer
@@ -461,6 +470,9 @@ cross_links:
 - `connects-to` → **[Hepatic Lobule](../../05-tissue/hepatic-lobule/README.md)** — Liver as a metastatic site: breast cancer commonly spreads to the liver, seeding the hepatic lobules, and luminal subtypes can present with liver-dominant metastatic disease years after the primary.
 - `connects-to` → **[AML](../aml/README.md)** — Therapy-related leukaemia: the alkylators, anthracyclines and radiation that cure breast cancer can seed a secondary, poor-prognosis AML or MDS years later, a late cost of cytotoxic treatment.
 - `connects-to` → **[Melanoma](../melanoma/README.md)** — A shared BRCA2 spectrum: germline BRCA2 raises the risk of breast cancer alongside ovarian, prostate, pancreatic cancer and melanoma, a hereditary cancer cluster that guides cascade genetic testing.
+- `connects-to` → **[Epilepsy](../epilepsy/README.md)** — Seizures from brain spread: breast cancer (especially HER2-positive and triple-negative) is a leading cause of brain metastases and leptomeningeal disease, producing seizures and secondary epilepsy.
+- `connects-to` → **[Peripheral Nerve](../../05-tissue/peripheral-nerve/README.md)** — Nerve and cord compromise: bone-tropic breast cancer can collapse vertebrae and compress the spinal cord and nerve roots, while tumour or radiation can injure the brachial plexus—threatening permanent deficits.
+- `connects-to` → **[Inflammatory Bowel Disease](../inflammatory-bowel-disease/README.md)** — Immunotherapy's autoimmune cost: checkpoint inhibitors now used for triple-negative breast cancer can unleash an autoimmune colitis resembling inflammatory bowel disease, managed with steroids and anti-TNF biologics.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 

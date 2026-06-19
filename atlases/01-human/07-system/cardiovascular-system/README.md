@@ -276,6 +276,15 @@ cross_links:
   - target: 01-human/07-system/venous-thromboembolism
     relation: connects-to
     note: "The venous side of circulation: deep-vein thrombosis and pulmonary embolism are the cardiovascular system's venous failure, clots forming in stagnant veins and lodging in the lungs."
+  - target: 01-human/07-system/pulmonary-arterial-hypertension
+    relation: connects-to
+    note: "The right-heart circulation: pulmonary arterial hypertension is the cardiovascular system's pulmonary-vascular disease, raising pressure in the lungs and failing the right ventricle—distinct from systemic hypertension and left heart disease."
+  - target: 02-pathogen/01-viruses/coxsackievirus-b
+    relation: connects-to
+    note: "Viral myocarditis: enteroviruses like Coxsackie B directly infect the heart muscle, a leading cause of acute myocarditis and dilated cardiomyopathy in young, previously healthy people."
+  - target: 01-human/07-system/marfan-syndrome
+    relation: connects-to
+    note: "Heritable aortopathy: Marfan and related connective-tissue disorders weaken the aortic wall, causing root dilatation, aneurysm and dissection—a genetic cardiovascular disease demanding lifelong aortic surveillance."
 taxonomy:
   uberon: "UBERON:0004535"
   fma: "FMA:7161"
@@ -444,6 +453,9 @@ Each major vascular bed has **autoregulation** — a local mechanism that holds 
 - `connects-to` → **[Hypertension](../hypertension/README.md)** — The dominant modifiable risk: chronic hypertension is the single biggest driver of cardiovascular disease, accelerating atherosclerosis, hypertrophying the heart and damaging vessels throughout the circulation.
 - `connects-to` → **[Stroke](../stroke/README.md)** — The brain end of vascular disease: stroke is cardiovascular disease striking the brain—atherosclerosis, atrial fibrillation and hypertension throwing clots or rupturing vessels that supply neural tissue.
 - `connects-to` → **[Venous Thromboembolism](../venous-thromboembolism/README.md)** — The venous side of circulation: deep-vein thrombosis and pulmonary embolism are the cardiovascular system's venous failure, clots forming in stagnant veins and lodging in the lungs.
+- `connects-to` → **[Pulmonary Arterial Hypertension](../pulmonary-arterial-hypertension/README.md)** — The right-heart circulation: pulmonary arterial hypertension is the cardiovascular system's pulmonary-vascular disease, raising pressure in the lungs and failing the right ventricle—distinct from systemic hypertension and left heart disease.
+- `connects-to` → **[Coxsackievirus B](../../../02-pathogen/01-viruses/coxsackievirus-b/README.md)** — Viral myocarditis: enteroviruses like Coxsackie B directly infect the heart muscle, a leading cause of acute myocarditis and dilated cardiomyopathy in young, previously healthy people.
+- `connects-to` → **[Marfan Syndrome](../marfan-syndrome/README.md)** — Heritable aortopathy: Marfan and related connective-tissue disorders weaken the aortic wall, causing root dilatation, aneurysm and dissection—a genetic cardiovascular disease demanding lifelong aortic surveillance.
 
 ## Pathology
 
