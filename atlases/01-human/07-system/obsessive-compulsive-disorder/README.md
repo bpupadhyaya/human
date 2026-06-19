@@ -260,6 +260,15 @@ cross_links:
   - target: 03-medicine/02-traditional/panax-ginseng
     relation: connects-to
     note: "An adaptogen for the anxiety burden: Panax ginseng is among the traditional remedies used for the chronic stress and anxiety accompanying OCD, an adjunct to the established SSRI and exposure therapy."
+  - target: 01-human/05-tissue/cardiac-conduction-system
+    relation: connects-to
+    note: "Its drugs watch the QT interval: high-dose SSRIs and especially clomipramine used for obsessive-compulsive disorder prolong the QT interval and can disturb cardiac conduction, requiring ECG monitoring at higher doses."
+  - target: 01-human/07-system/type-2-diabetes
+    relation: connects-to
+    note: "Augmentation carries metabolic cost: antipsychotics added to SSRIs in treatment-resistant OCD cause weight gain and insulin resistance, raising the risk of type 2 diabetes over time."
+  - target: 01-human/07-system/stimulant-use-disorder
+    relation: connects-to
+    note: "Shared striatal-dopamine dysregulation: obsessive-compulsive disorder and stimulant use disorder both involve dysregulated reward and habit circuits of the striatum, and stimulants can exacerbate compulsions and tics."
 ---
 
 # Obsessive-Compulsive Disorder
@@ -465,6 +474,9 @@ OCD is often underdiagnosed due to shame and secrecy. Mean time from symptom ons
 - `connects-to` → **[Gambling Disorder](../gambling-disorder/README.md)** — Two ends of compulsivity: OCD compulsions are anxiety-driven and ego-dystonic while gambling is reward-driven, yet both engage dysfunctional cortico-striatal circuits, placing them on a shared obsessive-compulsive and impulsive spectrum.
 - `connects-to` → **[St John's Wort](../../../03-medicine/02-traditional/st-johns-wort/README.md)** — A herbal serotonergic adjunct: St John's wort, which raises serotonin like the SSRIs that treat OCD, is tried for comorbid depression and anxiety — though OCD-specific evidence is weak and interactions are a concern.
 - `connects-to` → **[Panax Ginseng](../../../03-medicine/02-traditional/panax-ginseng/README.md)** — An adaptogen for the anxiety burden: Panax ginseng is among the traditional remedies used for the chronic stress and anxiety accompanying OCD, an adjunct to the established SSRI and exposure therapy.
+- `connects-to` → **[Cardiac Conduction System](../../05-tissue/cardiac-conduction-system/README.md)** — Its drugs watch the QT interval: high-dose SSRIs and especially clomipramine used for obsessive-compulsive disorder prolong the QT interval and can disturb cardiac conduction, requiring ECG monitoring at higher doses.
+- `connects-to` → **[Type 2 Diabetes](../type-2-diabetes/README.md)** — Augmentation carries metabolic cost: antipsychotics added to SSRIs in treatment-resistant OCD cause weight gain and insulin resistance, raising the risk of type 2 diabetes over time.
+- `connects-to` → **[Stimulant Use Disorder](../stimulant-use-disorder/README.md)** — Shared striatal-dopamine dysregulation: obsessive-compulsive disorder and stimulant use disorder both involve dysregulated reward and habit circuits of the striatum, and stimulants can exacerbate compulsions and tics.
 
 [^abramowitz-2009-ocd-review]: Abramowitz JS, Taylor S, McKay D. Obsessive-compulsive disorder. *Lancet.* 2009;374(9688):491-499. [doi:10.1016/S0140-6736(09)60240-3](https://doi.org/10.1016/S0140-6736(09)60240-3) · [PubMed 19665647](https://pubmed.ncbi.nlm.nih.gov/19665647/)
 [^chamberlain-2008-ocd-neuroscience]: Chamberlain SR, Menzies L, Hampshire A, et al. Orbitofrontal dysfunction in patients with OCD and their unaffected relatives. *Science.* 2008;321(5887):421-422. [doi:10.1126/science.1154433](https://doi.org/10.1126/science.1154433) · [PubMed 18635808](https://pubmed.ncbi.nlm.nih.gov/18635808/)

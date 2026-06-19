@@ -253,6 +253,15 @@ cross_links:
   - target: 01-human/07-system/hcc
     relation: connects-to
     note: "It now drives liver cancer: through fatty liver and steatohepatitis, obesity has become a leading cause of hepatocellular carcinoma, which can even arise before frank cirrhosis in metabolic liver disease."
+  - target: 01-human/07-system/binge-eating-disorder
+    relation: connects-to
+    note: "The commonest eating disorder behind it: binge-eating disorder, with recurrent loss-of-control overeating, is a major driver of weight gain and obesity, and treating it (CBT, lisdexamfetamine) aids weight control."
+  - target: 01-human/05-tissue/arterial-wall
+    relation: connects-to
+    note: "It hardens the arteries: obesity accelerates atherosclerosis and arterial stiffening through chronic low-grade inflammation, insulin resistance and dyslipidaemia, the vascular path to its cardiovascular disease."
+  - target: 01-human/05-tissue/glomerulus
+    relation: connects-to
+    note: "It overworks the kidney's filter: obesity causes glomerular hyperfiltration and a secondary focal segmental glomerulosclerosis—obesity-related glomerulopathy—an under-recognised cause of proteinuria and chronic kidney disease."
 ---
 
 # Obesity
@@ -471,6 +480,9 @@ This **metainflammation** mechanistically links obesity to type 2 diabetes, athe
 - `connects-to` → **[Islet of Langerhans](../../05-tissue/islet-of-langerhans/README.md)** — It overworks the islets: obesity-driven insulin resistance forces pancreatic islet beta cells into chronic hyperinsulinaemia, and their eventual compensatory failure is the tipping point from obesity into type 2 diabetes.
 - `connects-to` → **[Myocardium](../../05-tissue/myocardium/README.md)** — It remodels the heart muscle: obesity causes left-ventricular hypertrophy, diastolic dysfunction and fatty infiltration — an obesity cardiomyopathy that, with the raised volume load, predisposes to heart failure and atrial fibrillation.
 - `connects-to` → **[HCC](../hcc/README.md)** — It now drives liver cancer: through fatty liver and steatohepatitis, obesity has become a leading cause of hepatocellular carcinoma, which can even arise before frank cirrhosis in metabolic liver disease.
+- `connects-to` → **[Binge-Eating Disorder](../binge-eating-disorder/README.md)** — The commonest eating disorder behind it: binge-eating disorder, with recurrent loss-of-control overeating, is a major driver of weight gain and obesity, and treating it (CBT, lisdexamfetamine) aids weight control.
+- `connects-to` → **[Arterial Wall](../../05-tissue/arterial-wall/README.md)** — It hardens the arteries: obesity accelerates atherosclerosis and arterial stiffening through chronic low-grade inflammation, insulin resistance and dyslipidaemia, the vascular path to its cardiovascular disease.
+- `connects-to` → **[Glomerulus](../../05-tissue/glomerulus/README.md)** — It overworks the kidney's filter: obesity causes glomerular hyperfiltration and a secondary focal segmental glomerulosclerosis—obesity-related glomerulopathy—an under-recognised cause of proteinuria and chronic kidney disease.
 
 [^bluher-2019-obesity-review]: Blüher M. Obesity: global epidemiology and pathogenesis. *Nat Rev Endocrinol.* 2019;15(5):288-298. [doi:10.1038/s41574-019-0176-8](https://doi.org/10.1038/s41574-019-0176-8) · [PubMed 30814686](https://pubmed.ncbi.nlm.nih.gov/30814686/)
 [^wilding-2021-semaglutide-step1]: Wilding JPH, Batterham RL, Calanna S, et al. Once-weekly semaglutide in adults with overweight or obesity. *N Engl J Med.* 2021;384(11):989-1002. [doi:10.1056/NEJMoa2032183](https://doi.org/10.1056/NEJMoa2032183) · [PubMed 33567185](https://pubmed.ncbi.nlm.nih.gov/33567185/)
