@@ -241,6 +241,15 @@ cross_links:
   - target: 01-human/05-tissue/cortical-bone
     relation: connects-to
     note: "It seeds destructive bone metastases: RCC frequently spreads to bone as hypervascular osteolytic lesions causing pain and pathological fractures that can bleed briskly, sometimes needing embolisation before surgery."
+  - target: 01-human/07-system/mesothelioma
+    relation: connects-to
+    note: "Two BAP1-spectrum cancers: germline BAP1 loss predisposes to clear cell renal carcinoma alongside mesothelioma and uveal melanoma, so a BAP1 family history links a kidney cancer to a pleural one."
+  - target: 01-human/05-tissue/endocardium
+    relation: connects-to
+    note: "It can grow into the heart: renal cell carcinoma characteristically extends as a tumour thrombus up the renal vein and inferior vena cava, sometimes reaching the right atrial endocardium and demanding cardiac surgery to remove."
+  - target: 01-human/07-system/hcc
+    relation: connects-to
+    note: "Twin hypervascular, antiangiogenic-treated cancers: renal cell carcinoma and hepatocellular carcinoma are both richly vascular tumours driven by VEGF, treated with multikinase angiogenesis inhibitors (sorafenib, lenvatinib) and now immunotherapy combinations."
 ---
 
 # Renal Cell Carcinoma
@@ -434,6 +443,9 @@ Kidney → primary site of EPO production under hypoxia; VHL-intact renal inters
 - `connects-to` → **[Checkpoint Inhibitors](../../../03-medicine/01-modern/13-cancer/checkpoint-inhibitors/README.md)** — A highly immunogenic tumour: clear-cell RCC responds to checkpoint blockade — nivolumab plus ipilimumab or pembrolizumab with a VEGF TKI is now first-line for advanced disease, exploiting its heavy immune infiltrate.
 - `connects-to` → **[Cancer Chemotherapy](../../../03-medicine/01-modern/13-cancer/cancer-chemotherapy/README.md)** — Classically chemoresistant: conventional cytotoxic chemotherapy barely touches renal cell carcinoma owing to high P-glycoprotein drug efflux, which is why treatment moved to cytokines, then VEGF TKIs and immunotherapy.
 - `connects-to` → **[Cortical Bone](../../05-tissue/cortical-bone/README.md)** — It seeds destructive bone metastases: RCC frequently spreads to bone as hypervascular osteolytic lesions causing pain and pathological fractures that can bleed briskly, sometimes needing embolisation before surgery.
+- `connects-to` → **[Mesothelioma](../mesothelioma/README.md)** — Two BAP1-spectrum cancers: germline BAP1 loss predisposes to clear cell renal carcinoma alongside mesothelioma and uveal melanoma, so a BAP1 family history links a kidney cancer to a pleural one.
+- `connects-to` → **[Endocardium](../../05-tissue/endocardium/README.md)** — It can grow into the heart: renal cell carcinoma characteristically extends as a tumour thrombus up the renal vein and inferior vena cava, sometimes reaching the right atrial endocardium and demanding cardiac surgery to remove.
+- `connects-to` → **[HCC](../hcc/README.md)** — Twin hypervascular, antiangiogenic-treated cancers: renal cell carcinoma and hepatocellular carcinoma are both richly vascular tumours driven by VEGF, treated with multikinase angiogenesis inhibitors (sorafenib, lenvatinib) and now immunotherapy combinations.
 
 [^motzer-2018-checkmate214]: Motzer RJ, Tannir NM, McDermott DF, et al. Nivolumab plus ipilimumab versus sunitinib in advanced renal-cell carcinoma. *N Engl J Med.* 2018;378(14):1277-1290. [doi:10.1056/NEJMoa1712126](https://doi.org/10.1056/NEJMoa1712126) · [PubMed 29562145](https://pubmed.ncbi.nlm.nih.gov/29562145/)
 [^rini-2019-keynote426]: Rini BI, Plimack ER, Stus V, et al. Pembrolizumab plus axitinib versus sunitinib for advanced renal-cell carcinoma. *N Engl J Med.* 2019;380(12):1116-1127. [doi:10.1056/NEJMoa1816714](https://doi.org/10.1056/NEJMoa1816714) · [PubMed 30779529](https://pubmed.ncbi.nlm.nih.gov/30779529/)

@@ -247,6 +247,15 @@ cross_links:
   - target: 01-human/07-system/polycythemia-vera
     relation: connects-to
     note: "Myeloproliferative disease can drive it: polycythaemia vera and related MPNs cause group-5 pulmonary hypertension through hyperviscosity, splenomegaly, and chronic thromboembolic obstruction of the pulmonary vasculature."
+  - target: 01-human/05-tissue/myocardium
+    relation: connects-to
+    note: "It kills through the right heart: pulmonary arterial hypertension forces the right ventricle to pump against high resistance, driving RV hypertrophy then dilatation and failure (cor pulmonale)—the myocardial decline that determines survival."
+  - target: 01-human/05-tissue/endocardium
+    relation: connects-to
+    note: "It loosens the tricuspid valve: as the right ventricle dilates under pulmonary arterial hypertension, the tricuspid annulus stretches and the valve leaks, and the severity of this functional regurgitation tracks the pressure overload."
+  - target: 01-human/07-system/tuberous-sclerosis-complex
+    relation: connects-to
+    note: "A rare route to PAH: tuberous sclerosis causes lymphangioleiomyomatosis (LAM), whose smooth-muscle proliferation destroys lung tissue and can produce pulmonary hypertension, linking the mTOR-driven syndrome to the pulmonary vasculature."
 ---
 
 # Pulmonary Arterial Hypertension
@@ -446,6 +455,9 @@ Key variables: WHO functional class (I-IV), 6-minute walk distance (6MWD), NT-pr
 - `connects-to` → **[Arterial Wall](../../05-tissue/arterial-wall/README.md)** — It is a disease of the arterial wall: PAH remodels small pulmonary arteries with intimal fibrosis, medial smooth-muscle hypertrophy, and plexiform lesions that progressively narrow the lumen and raise pulmonary pressures.
 - `connects-to` → **[Polycythemia Vera](../polycythemia-vera/README.md)** — Myeloproliferative disease can drive it: polycythaemia vera and related MPNs cause group-5 pulmonary hypertension through hyperviscosity, splenomegaly, and chronic thromboembolic obstruction of the pulmonary vasculature.
 - `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — Breathlessness wastes the muscles: severe PAH causes profound exercise limitation and peripheral muscle deconditioning, and advanced right-heart failure brings cardiac cachexia.
+- `connects-to` → **[Myocardium](../../05-tissue/myocardium/README.md)** — It kills through the right heart: pulmonary arterial hypertension forces the right ventricle to pump against high resistance, driving RV hypertrophy then dilatation and failure (cor pulmonale)—the myocardial decline that determines survival.
+- `connects-to` → **[Endocardium](../../05-tissue/endocardium/README.md)** — It loosens the tricuspid valve: as the right ventricle dilates under pulmonary arterial hypertension, the tricuspid annulus stretches and the valve leaks, and the severity of this functional regurgitation tracks the pressure overload.
+- `connects-to` → **[Tuberous Sclerosis Complex](../tuberous-sclerosis-complex/README.md)** — A rare route to PAH: tuberous sclerosis causes lymphangioleiomyomatosis (LAM), whose smooth-muscle proliferation destroys lung tissue and can produce pulmonary hypertension, linking the mTOR-driven syndrome to the pulmonary vasculature.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
