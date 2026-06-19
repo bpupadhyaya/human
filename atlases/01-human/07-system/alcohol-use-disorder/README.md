@@ -259,6 +259,15 @@ cross_links:
   - target: 03-medicine/01-modern/13-cancer/cancer-chemotherapy
     relation: connects-to
     note: "Alcohol is a carcinogen: it causes cancers of the mouth, throat, oesophagus, liver, colon and breast — malignancies treated with chemotherapy — making alcohol use disorder a major and preventable cancer risk."
+  - target: 01-human/05-tissue/cardiac-conduction-system
+    relation: connects-to
+    note: "'Holiday heart': binge and chronic drinking trigger atrial fibrillation and other arrhythmias through the conduction system, on top of alcoholic cardiomyopathy."
+  - target: 01-human/07-system/epilepsy
+    relation: connects-to
+    note: "Withdrawal seizures: abrupt cessation in alcohol dependence unmasks GABA-rebound hyperexcitability, causing withdrawal seizures and status epilepticus—a medical emergency."
+  - target: 01-human/07-system/gout
+    relation: connects-to
+    note: "Alcohol and urate: beer and spirits raise serum uric acid and precipitate gout attacks, a classic dietary trigger of the disease in heavy drinkers."
 ---
 
 # Alcohol Use Disorder
@@ -519,6 +528,9 @@ Prenatal alcohol exposure → leading preventable cause of intellectual disabili
 - `connects-to` → **[Hepatic Lobule](../../05-tissue/hepatic-lobule/README.md)** — It scars the liver lobule: chronic alcohol drives steatosis, alcoholic hepatitis and pericentral fibrosis in the hepatic lobule, progressing to cirrhosis — the classic and often fatal organ damage of alcohol use disorder.
 - `connects-to` → **[Myocardium](../../05-tissue/myocardium/README.md)** — It weakens the heart muscle: sustained heavy drinking causes a dilated alcoholic cardiomyopathy and, acutely, atrial fibrillation ('holiday heart'), adding cardiac failure to the harms of alcohol use disorder.
 - `connects-to` → **[Cancer Chemotherapy](../../../03-medicine/01-modern/13-cancer/cancer-chemotherapy/README.md)** — Alcohol is a carcinogen: it causes cancers of the mouth, throat, oesophagus, liver, colon and breast — malignancies treated with chemotherapy — making alcohol use disorder a major and preventable cancer risk.
+- `connects-to` → **[Cardiac Conduction System](../../05-tissue/cardiac-conduction-system/README.md)** — 'Holiday heart': binge and chronic drinking trigger atrial fibrillation and other arrhythmias through the conduction system, on top of alcoholic cardiomyopathy.
+- `connects-to` → **[Epilepsy](../epilepsy/README.md)** — Withdrawal seizures: abrupt cessation in alcohol dependence unmasks GABA-rebound hyperexcitability, causing withdrawal seizures and status epilepticus—a medical emergency.
+- `connects-to` → **[Gout](../gout/README.md)** — Alcohol and urate: beer and spirits raise serum uric acid and precipitate gout attacks, a classic dietary trigger of the disease in heavy drinkers.
 
 [^koob-2013-addiction-neuroscience]: Koob GF, Volkow ND. Neurocircuitry of addiction. *Neuropsychopharmacology.* 2010;35(1):217-238. [doi:10.1038/npp.2009.110](https://doi.org/10.1038/npp.2009.110) · [PubMed 19710631](https://pubmed.ncbi.nlm.nih.gov/19710631/)
 [^anton-2006-combine]: Anton RF, O'Malley SS, Ciraulo DA, et al. Combined pharmacotherapies and behavioral interventions for alcohol dependence: the COMBINE study. *JAMA.* 2006;295(17):2003-2017. [doi:10.1001/jama.295.17.2003](https://doi.org/10.1001/jama.295.17.2003) · [PubMed 16670409](https://pubmed.ncbi.nlm.nih.gov/16670409/)

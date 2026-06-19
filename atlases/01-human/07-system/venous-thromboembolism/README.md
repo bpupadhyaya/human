@@ -253,6 +253,15 @@ cross_links:
   - target: 01-human/07-system/essential-thrombocythemia
     relation: connects-to
     note: "Too many platelets clot the veins: essential thrombocythemia and other myeloproliferative neoplasms cause venous thromboembolism, including unusual-site clots like splanchnic and cerebral vein thrombosis, despite the high platelet count."
+  - target: 01-human/05-tissue/alveolus
+    relation: connects-to
+    note: "Pulmonary embolism at the gas-exchange unit: a clot lodging in the pulmonary arteries creates alveolar dead space—ventilated but not perfused—causing the hypoxaemia and, occasionally, pulmonary infarction of PE."
+  - target: 01-human/07-system/thalassemia
+    relation: connects-to
+    note: "A prothrombotic anaemia: thalassaemia, especially after splenectomy, carries a hypercoagulable state with procoagulant red-cell membranes and thrombocytosis that raises venous thrombosis risk."
+  - target: 01-human/07-system/renal-cell-carcinoma
+    relation: connects-to
+    note: "Tumour thrombus in the vein: renal cell carcinoma characteristically grows as a tumour thrombus up the renal vein and inferior vena cava, and its cancer-associated hypercoagulability adds to VTE risk."
 ---
 
 # Venous Thromboembolism
@@ -450,6 +459,9 @@ cross_links:
 - `connects-to` → **[Myocardium](../../05-tissue/myocardium/README.md)** — A large PE fails the right heart: pulmonary embolism abruptly raises pulmonary pressure, straining and dilating the right ventricle — acute RV failure is the mechanism of death in massive PE, tracked by troponin and echo.
 - `connects-to` → **[Cancer Chemotherapy](../../../03-medicine/01-modern/13-cancer/cancer-chemotherapy/README.md)** — Chemo adds to the clot risk: beyond the cancer's own hypercoagulability, agents like cisplatin and thalidomide-class drugs are prothrombotic, so cancer-associated VTE is managed with LMWH or direct oral anticoagulants.
 - `connects-to` → **[Essential Thrombocythemia](../essential-thrombocythemia/README.md)** — Too many platelets clot the veins: essential thrombocythemia and other myeloproliferative neoplasms cause venous thromboembolism, including unusual-site clots like splanchnic and cerebral vein thrombosis, despite the high platelet count.
+- `connects-to` → **[Alveolus](../../05-tissue/alveolus/README.md)** — Pulmonary embolism at the gas-exchange unit: a clot lodging in the pulmonary arteries creates alveolar dead space—ventilated but not perfused—causing the hypoxaemia and, occasionally, pulmonary infarction of PE.
+- `connects-to` → **[Thalassemia](../thalassemia/README.md)** — A prothrombotic anaemia: thalassaemia, especially after splenectomy, carries a hypercoagulable state with procoagulant red-cell membranes and thrombocytosis that raises venous thrombosis risk.
+- `connects-to` → **[Renal Cell Carcinoma](../renal-cell-carcinoma/README.md)** — Tumour thrombus in the vein: renal cell carcinoma characteristically grows as a tumour thrombus up the renal vein and inferior vena cava, and its cancer-associated hypercoagulability adds to VTE risk.
 
 [^agnelli-2013-amplify-apixaban-vte]: Agnelli G, Buller HR, Cohen A, et al. Oral apixaban for the treatment of acute venous thromboembolism. *N Engl J Med.* 2013;369(9):799-808. [doi:10.1056/NEJMoa1302507](https://doi.org/10.1056/NEJMoa1302507) · [PubMed 23808982](https://pubmed.ncbi.nlm.nih.gov/23808982/)
 [^bauersachs-2010-einstein-rivaroxaban]: EINSTEIN Investigators. Oral rivaroxaban for symptomatic venous thromboembolism. *N Engl J Med.* 2010;363(26):2499-2510. [doi:10.1056/NEJMoa1007903](https://doi.org/10.1056/NEJMoa1007903) · [PubMed 21128814](https://pubmed.ncbi.nlm.nih.gov/21128814/)
