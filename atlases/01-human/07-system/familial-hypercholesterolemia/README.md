@@ -289,6 +289,15 @@ cross_links:
   - target: 01-human/03-molecular/endothelin-1
     relation: connects-to
     note: "Vascular tone imbalance: the endothelial dysfunction of familial hypercholesterolaemia shifts the balance toward endothelin-1 vasoconstriction, compounding the atherosclerotic narrowing of the arteries."
+  - target: 01-human/03-molecular/nlrp3-inflammasome
+    relation: connects-to
+    note: "Cholesterol-crystal inflammasome: cholesterol crystals in plaque macrophages activate the NLRP3 inflammasome, releasing IL-1β that propels the accelerated atherosclerosis of familial hypercholesterolaemia."
+  - target: 01-human/03-molecular/hif-1alpha
+    relation: connects-to
+    note: "Intraplaque hypoxia: as the lipid-rich plaques of familial hypercholesterolaemia thicken, their cores turn hypoxic and stabilise HIF-1α, driving the neovascularisation and necrotic-core expansion that destabilise them."
+  - target: 01-human/03-molecular/s100a8-a9
+    relation: connects-to
+    note: "Myeloid alarmin: S100A8/A9 from activated plaque neutrophils and monocytes amplifies arterial inflammation and is a circulating biomarker of the high cardiovascular risk of familial hypercholesterolaemia."
 ---
 
 # Familial Hypercholesterolemia
@@ -487,6 +496,9 @@ FH is a **monogenic autosomal dominant disorder** caused by mutations in three g
 - `connects-to` → **[Nitric Oxide](../../03-molecular/nitric-oxide/README.md)** — Early endothelial injury: lifelong high LDL in familial hypercholesterolaemia impairs endothelial nitric oxide production from childhood, the first step toward the premature atherosclerosis that defines the disease.
 - `connects-to` → **[CCL2](../../03-molecular/ccl2/README.md)** — Monocyte recruitment: oxidised LDL accumulating in the arterial wall induces CCL2, drawing in the monocytes that become the foam cells of the accelerated plaques of familial hypercholesterolaemia.
 - `connects-to` → **[Endothelin-1](../../03-molecular/endothelin-1/README.md)** — Vascular tone imbalance: the endothelial dysfunction of familial hypercholesterolaemia shifts the balance toward endothelin-1 vasoconstriction, compounding the atherosclerotic narrowing of the arteries.
+- `connects-to` → **[NLRP3 Inflammasome](../../03-molecular/nlrp3-inflammasome/README.md)** — Cholesterol-crystal inflammasome: cholesterol crystals in plaque macrophages activate the NLRP3 inflammasome, releasing IL-1β that propels the accelerated atherosclerosis of familial hypercholesterolaemia.
+- `connects-to` → **[HIF-1α](../../03-molecular/hif-1alpha/README.md)** — Intraplaque hypoxia: as the lipid-rich plaques of familial hypercholesterolaemia thicken, their cores turn hypoxic and stabilise HIF-1α, driving the neovascularisation and necrotic-core expansion that destabilise them.
+- `connects-to` → **[S100A8/A9](../../03-molecular/s100a8-a9/README.md)** — Myeloid alarmin: S100A8/A9 from activated plaque neutrophils and monocytes amplifies arterial inflammation and is a circulating biomarker of the high cardiovascular risk of familial hypercholesterolaemia.
 
 [^goldstein-1985-ldlr-nobel]: Goldstein JL, Brown MS. The LDL receptor. *Arterioscler Thromb Vasc Biol.* 2009;29(4):431-438. [doi:10.1161/ATVBAHA.108.179564](https://doi.org/10.1161/ATVBAHA.108.179564) · [PubMed 19299327](https://pubmed.ncbi.nlm.nih.gov/19299327/)
 [^raal-2020-inclisiran-fh]: Raal FJ, Kallend D, Ray KK, et al. Inclisiran for the Treatment of Heterozygous Familial Hypercholesterolemia. *N Engl J Med.* 2020;382(16):1520-1530. [doi:10.1056/NEJMoa1913805](https://doi.org/10.1056/NEJMoa1913805) · [PubMed 32197277](https://pubmed.ncbi.nlm.nih.gov/32197277/)

@@ -292,6 +292,15 @@ cross_links:
   - target: 01-human/03-molecular/acetylcholine
     relation: connects-to
     note: "Cholinergic seizures: excess cholinergic activity, as in organophosphate poisoning or autosomal-dominant nocturnal frontal-lobe epilepsy, can trigger seizures and status epilepticus."
+  - target: 01-human/03-molecular/ccl2
+    relation: connects-to
+    note: "Neuroinflammatory recruitment: CCL2 released after seizures recruits monocytes and helps breach the blood-brain barrier, part of the neuroinflammation that lowers seizure threshold and drives epileptogenesis."
+  - target: 01-human/03-molecular/vegf
+    relation: connects-to
+    note: "Barrier breakdown: VEGF surges after seizures, opening the blood-brain barrier and driving aberrant angiogenesis, a vascular contribution to the epileptogenic remodelling of the brain."
+  - target: 01-human/03-molecular/crh
+    relation: connects-to
+    note: "Stress and seizures: CRH is a proconvulsant neuropeptide in the developing brain, part of why stress lowers seizure threshold and underlies the early-life seizures of conditions like infantile spasms."
 ---
 
 # Epilepsy
@@ -535,6 +544,9 @@ Anti-NMDAR encephalitis is the most common autoimmune encephalitis (~37% of auto
 - `connects-to` → **[IL-1β](../../03-molecular/il-1b/README.md)** — Pro-seizure cytokine: IL-1β released by activated glia lowers seizure threshold and promotes epileptogenesis, a central mediator of the neuroinflammation that sustains chronic epilepsy.
 - `connects-to` → **[TNF-α](../../03-molecular/tnf-alpha/README.md)** — Inflammatory excitability: TNF-α modulates glutamate and GABA receptor trafficking to enhance neuronal excitability, linking brain inflammation to seizure generation.
 - `connects-to` → **[Acetylcholine](../../03-molecular/acetylcholine/README.md)** — Cholinergic seizures: excess cholinergic activity, as in organophosphate poisoning or autosomal-dominant nocturnal frontal-lobe epilepsy, can trigger seizures and status epilepticus.
+- `connects-to` → **[CCL2](../../03-molecular/ccl2/README.md)** — Neuroinflammatory recruitment: CCL2 released after seizures recruits monocytes and helps breach the blood-brain barrier, part of the neuroinflammation that lowers seizure threshold and drives epileptogenesis.
+- `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — Barrier breakdown: VEGF surges after seizures, opening the blood-brain barrier and driving aberrant angiogenesis, a vascular contribution to the epileptogenic remodelling of the brain.
+- `connects-to` → **[CRH](../../03-molecular/crh/README.md)** — Stress and seizures: CRH is a proconvulsant neuropeptide in the developing brain, part of why stress lowers seizure threshold and underlies the early-life seizures of conditions like infantile spasms.
 
 [^fisher-2017-ilae-classification]: Fisher RS, Cross JH, D'Souza C, et al. Instruction manual for the ILAE 2017 operational classification of seizure types. *Epilepsia.* 2017;58(4):531-542. [doi:10.1111/epi.13671](https://doi.org/10.1111/epi.13671) · [PubMed 28276060](https://pubmed.ncbi.nlm.nih.gov/28276060/)
 [^devinsky-2018-epilepsy-review]: Devinsky O, Vezzani A, O'Brien TJ, et al. Epilepsy. *Nat Rev Dis Primers.* 2018;4:18024. [doi:10.1038/nrdp.2018.24](https://doi.org/10.1038/nrdp.2018.24) · [PubMed 29722352](https://pubmed.ncbi.nlm.nih.gov/29722352/)
