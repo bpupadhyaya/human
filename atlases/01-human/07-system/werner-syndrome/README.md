@@ -277,6 +277,15 @@ cross_links:
   - target: 01-human/03-molecular/akt
     relation: connects-to
     note: "Metabolism and growth: PI3K-AKT-mTOR signalling links Werner syndrome's insulin resistance and diabetes to the growth signalling of its cancers."
+  - target: 01-human/03-molecular/vegf
+    relation: connects-to
+    note: "Angiogenesis: VEGF drives the tumour angiogenesis of the sarcomas that arise in Werner syndrome and contributes to its accelerated atherosclerosis."
+  - target: 01-human/03-molecular/pdgf
+    relation: connects-to
+    note: "Fibroblast and vessel signalling: PDGF acting on the prematurely senescent fibroblasts and vascular smooth muscle of Werner syndrome contributes to its fibrosis and atherosclerosis."
+  - target: 01-human/03-molecular/hif-1alpha
+    relation: connects-to
+    note: "Tumour hypoxia: HIF-1α stabilised in the cancers of Werner syndrome drives the angiogenesis and metabolic adaptation that support their growth."
 ---
 
 # Werner Syndrome
@@ -526,6 +535,9 @@ cross_links:
 - `connects-to` → **[Cyclin D1](../../03-molecular/cyclin-d1/README.md)** — Cell-cycle in cancer: the genomic instability of WRN loss with cell-cycle dysregulation (CDKN2A, cyclin D1) drives the diverse, often mesenchymal cancers of Werner syndrome.
 - `connects-to` → **[MYC](../../03-molecular/myc/README.md)** — Oncogene activation: MYC activation contributes to the sarcomas and other malignancies that arise from the genomic instability of Werner syndrome.
 - `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — Metabolism and growth: PI3K-AKT-mTOR signalling links Werner syndrome's insulin resistance and diabetes to the growth signalling of its cancers.
+- `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — Angiogenesis: VEGF drives the tumour angiogenesis of the sarcomas that arise in Werner syndrome and contributes to its accelerated atherosclerosis.
+- `connects-to` → **[PDGF](../../03-molecular/pdgf/README.md)** — Fibroblast and vessel signalling: PDGF acting on the prematurely senescent fibroblasts and vascular smooth muscle of Werner syndrome contributes to its fibrosis and atherosclerosis.
+- `connects-to` → **[HIF-1α](../../03-molecular/hif-1alpha/README.md)** — Tumour hypoxia: HIF-1α stabilised in the cancers of Werner syndrome drives the angiogenesis and metabolic adaptation that support their growth.
 
 [^yu-1996-wrn]: Yu CE, Oshima J, Fu YH, et al. Positional cloning of the Werner's syndrome gene. *Science.* 1996;272(5259):258-262. [doi:10.1126/science.272.5259.258](https://doi.org/10.1126/science.272.5259.258) · [PubMed 8602509](https://pubmed.ncbi.nlm.nih.gov/8602509/)
 [^lauper-2013-wrn-neoplasia]: Lauper JM, Krause A, Vaughan TL, Monnat RJ Jr. Spectrum and risk of neoplasia in Werner syndrome: a systematic review. *PLoS One.* 2013;8(4):e59709. [doi:10.1371/journal.pone.0059709](https://doi.org/10.1371/journal.pone.0059709) · [PubMed 23579047](https://pubmed.ncbi.nlm.nih.gov/23579047/)

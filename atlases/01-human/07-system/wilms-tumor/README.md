@@ -277,6 +277,15 @@ cross_links:
   - target: 01-human/03-molecular/tert
     relation: connects-to
     note: "Telomere maintenance: TERT activation supports replicative immortality and marks higher-risk, relapse-prone Wilms tumour."
+  - target: 01-human/03-molecular/cyclin-d1
+    relation: connects-to
+    note: "Cell-cycle drive: cyclin D1, upregulated downstream of Wnt/β-catenin and IGF signalling, propels Wilms tumour blastemal cells through the G1 checkpoint."
+  - target: 01-human/03-molecular/cdk4-6
+    relation: connects-to
+    note: "Checkpoint bypass: CDK4/6 activity partnering cyclin D drives the proliferation of Wilms tumour, a candidate cell-cycle therapeutic target."
+  - target: 01-human/03-molecular/hif-1alpha
+    relation: connects-to
+    note: "Tumour hypoxia: HIF-1α stabilised in the hypoxic Wilms tumour drives the VEGF angiogenesis and erythropoietin production that can cause its polycythaemia."
 ---
 
 # Wilms Tumor
@@ -492,6 +501,9 @@ Wilms tumor survivors face late effects proportional to treatment intensity:
 - `connects-to` → **[MYC](../../03-molecular/myc/README.md)** — Amplified oncogene: MYC, alongside MYCN, drives the proliferation of Wilms tumour, particularly its undifferentiated blastemal component.
 - `connects-to` → **[EZH2](../../03-molecular/ezh2/README.md)** — Blastemal epigenetics: EZH2/polycomb activity helps maintain the undifferentiated blastemal cells of Wilms tumour, a candidate epigenetic vulnerability.
 - `connects-to` → **[TERT](../../03-molecular/tert/README.md)** — Telomere maintenance: TERT activation supports replicative immortality and marks higher-risk, relapse-prone Wilms tumour.
+- `connects-to` → **[Cyclin D1](../../03-molecular/cyclin-d1/README.md)** — Cell-cycle drive: cyclin D1, upregulated downstream of Wnt/β-catenin and IGF signalling, propels Wilms tumour blastemal cells through the G1 checkpoint.
+- `connects-to` → **[CDK4/6](../../03-molecular/cdk4-6/README.md)** — Checkpoint bypass: CDK4/6 activity partnering cyclin D drives the proliferation of Wilms tumour, a candidate cell-cycle therapeutic target.
+- `connects-to` → **[HIF-1α](../../03-molecular/hif-1alpha/README.md)** — Tumour hypoxia: HIF-1α stabilised in the hypoxic Wilms tumour drives the VEGF angiogenesis and erythropoietin production that can cause its polycythaemia.
 
 [^dome-2015-wilms]: Dome JS, Graf N, Geller JI, et al. Advances in Wilms tumor treatment and biology: progress through international collaboration. *J Clin Oncol.* 2015;33(27):2999-3007. [doi:10.1200/JCO.2015.62.1888](https://doi.org/10.1200/JCO.2015.62.1888) · [PubMed 26261251](https://pubmed.ncbi.nlm.nih.gov/26261251/)
 [^dix-2006-arenl0002]: Dix DB, Bhatt SM, Geller JI, et al. Treatment of Stage IV favorable histology Wilms tumor with incomplete lung metastasis response after chemotherapy: a report from Children's Oncology Group Study AREN0533. *J Clin Oncol.* 2018;36(16):1564-1570. [doi:10.1200/JCO.2017.77.1877](https://doi.org/10.1200/JCO.2017.77.1877) · [PubMed 29584550](https://pubmed.ncbi.nlm.nih.gov/29584550/)
