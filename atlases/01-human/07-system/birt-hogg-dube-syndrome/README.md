@@ -286,6 +286,15 @@ cross_links:
   - target: 01-human/03-molecular/wnt-beta-catenin
     relation: connects-to
     note: "Wnt dysregulation: FLCN loss perturbs Wnt/β-catenin signalling, an additional oncogenic pathway contributing to the renal tumours of Birt-Hogg-Dubé."
+  - target: 01-human/03-molecular/foxo1
+    relation: connects-to
+    note: "Metabolic stress axis: the FLCN-FNIP-AMPK complex regulates FoxO transcription factors, so FLCN loss disturbs the FoxO-controlled oxidative-stress and metabolic programme of Birt-Hogg-Dubé cells."
+  - target: 01-human/03-molecular/erk1-2
+    relation: connects-to
+    note: "MAPK in renal tumours: ERK/MAPK signalling is activated downstream of FLCN loss and contributes to the proliferation of the chromophobe and oncocytic renal tumours of Birt-Hogg-Dubé."
+  - target: 01-human/03-molecular/egln1
+    relation: connects-to
+    note: "HIF metabolic shift: FLCN loss perturbs the EGLN1 (PHD2)-HIF axis, stabilising HIF to drive the glycolytic, Warburg-like metabolism characteristic of Birt-Hogg-Dubé renal tumours."
 ---
 
 # Birt-Hogg-Dubé Syndrome
@@ -516,6 +525,9 @@ Definite BHD: 1 major OR 2 minor criteria (European BHD Consortium definition)
 - `connects-to` → **[MYC](../../03-molecular/myc/README.md)** — TFE3-driven MYC: FLCN loss in BHD releases the transcription factor TFE3 to the nucleus, where it upregulates MYC and the biosynthetic programme fuelling tumour growth.
 - `connects-to` → **[NFE2L2](../../03-molecular/nfe2l2/README.md)** — Antioxidant reprogramming: FLCN-deficient BHD cells show constitutive NRF2 (NFE2L2) activation, driving the metabolic and antioxidant programme that supports their survival.
 - `connects-to` → **[Wnt/β-catenin](../../03-molecular/wnt-beta-catenin/README.md)** — Wnt dysregulation: FLCN loss perturbs Wnt/β-catenin signalling, an additional oncogenic pathway contributing to the renal tumours of Birt-Hogg-Dubé.
+- `connects-to` → **[FoxO1](../../03-molecular/foxo1/README.md)** — Metabolic stress axis: the FLCN-FNIP-AMPK complex regulates FoxO transcription factors, so FLCN loss disturbs the FoxO-controlled oxidative-stress and metabolic programme of Birt-Hogg-Dubé cells.
+- `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — MAPK in renal tumours: ERK/MAPK signalling is activated downstream of FLCN loss and contributes to the proliferation of the chromophobe and oncocytic renal tumours of Birt-Hogg-Dubé.
+- `connects-to` → **[EGLN1](../../03-molecular/egln1/README.md)** — HIF metabolic shift: FLCN loss perturbs the EGLN1 (PHD2)-HIF axis, stabilising HIF to drive the glycolytic, Warburg-like metabolism characteristic of Birt-Hogg-Dubé renal tumours.
 
 ---
 

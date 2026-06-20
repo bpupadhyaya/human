@@ -286,6 +286,15 @@ cross_links:
   - target: 01-human/03-molecular/fgfr
     relation: connects-to
     note: "Alternative growth signal: FGFR signalling contributes to basal cell carcinoma proliferation and is among the bypass pathways implicated in resistance to Hedgehog-pathway inhibitors."
+  - target: 01-human/03-molecular/akt
+    relation: connects-to
+    note: "PI3K survival crosstalk: PI3K-AKT signalling cooperates with the driving Hedgehog pathway to sustain basal cell carcinoma growth and survival, a parallel axis active in the tumour."
+  - target: 01-human/03-molecular/mtor
+    relation: connects-to
+    note: "Growth and translation: mTOR signalling downstream of PI3K-AKT drives the protein synthesis and proliferation of basal cell carcinoma, an actionable node in advanced disease."
+  - target: 01-human/03-molecular/ccl2
+    relation: connects-to
+    note: "Stromal macrophages: CCL2 recruits tumour-associated macrophages into the basal cell carcinoma stroma, shaping an immunosuppressive microenvironment around the slowly invasive tumour."
 ---
 
 # Basal Cell Carcinoma
@@ -497,6 +506,9 @@ BCC has a complex immune microenvironment:
 - `connects-to` → **[MYC](../../03-molecular/myc/README.md)** — Hedgehog target: GLI-driven Hedgehog signalling upregulates MYC in basal cell carcinoma, coupling the pathway's activation to the proliferative drive of the tumour.
 - `connects-to` → **[EZH2](../../03-molecular/ezh2/README.md)** — Epigenetic silencing: EZH2-containing PRC2 represses tumour-suppressor genes in basal cell carcinoma, an epigenetic mechanism cooperating with Hedgehog activation.
 - `connects-to` → **[FGFR](../../03-molecular/fgfr/README.md)** — Alternative growth signal: FGFR signalling contributes to basal cell carcinoma proliferation and is among the bypass pathways implicated in resistance to Hedgehog-pathway inhibitors.
+- `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — PI3K survival crosstalk: PI3K-AKT signalling cooperates with the driving Hedgehog pathway to sustain basal cell carcinoma growth and survival, a parallel axis active in the tumour.
+- `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — Growth and translation: mTOR signalling downstream of PI3K-AKT drives the protein synthesis and proliferation of basal cell carcinoma, an actionable node in advanced disease.
+- `connects-to` → **[CCL2](../../03-molecular/ccl2/README.md)** — Stromal macrophages: CCL2 recruits tumour-associated macrophages into the basal cell carcinoma stroma, shaping an immunosuppressive microenvironment around the slowly invasive tumour.
 
 ---
 
