@@ -292,6 +292,15 @@ cross_links:
   - target: 01-human/03-molecular/dopamine
     relation: connects-to
     note: "Threat and reward: dopaminergic signalling shapes the uncertainty and threat appraisal that drive anxiety, and its dysregulation contributes to the avoidance and anticipatory worry of GAD."
+  - target: 01-human/03-molecular/progesterone
+    relation: connects-to
+    note: "Neurosteroid anxiolysis: the progesterone metabolite allopregnanolone is a positive GABA-A modulator, so its fluctuations shape anxiety and underlie the neurosteroid drugs developed for anxiety and depression."
+  - target: 01-human/03-molecular/vasopressin
+    relation: connects-to
+    note: "Stress-axis amplifier: vasopressin synergises with CRH to drive the HPA-axis hyperactivity of generalised anxiety, sustaining the heightened stress reactivity central to the disorder."
+  - target: 01-human/03-molecular/ccl2
+    relation: connects-to
+    note: "Neuroinflammatory link: CCL2 recruits monocytes to the brain and is among the chemokines tied to the low-grade neuroinflammation increasingly implicated in chronic anxiety."
 ---
 
 # Generalized Anxiety Disorder
@@ -521,6 +530,9 @@ Allow **4-8 weeks** for onset of anxiolytic effect. Continue treatment ≥12 mon
 - `connects-to` → **[IL-1β](../../03-molecular/il-1b/README.md)** — Inflammatory anxiety: IL-1β from activated microglia is implicated in the neuroinflammation increasingly linked to anxiety, with chronic stress raising this innate cytokine.
 - `connects-to` → **[TNF-α](../../03-molecular/tnf-alpha/README.md)** — Stress cytokine: elevated TNF-α is among the inflammatory markers found in generalised anxiety, part of the bidirectional link between chronic stress and systemic inflammation.
 - `connects-to` → **[Dopamine](../../03-molecular/dopamine/README.md)** — Threat and reward: dopaminergic signalling shapes the uncertainty and threat appraisal that drive anxiety, and its dysregulation contributes to the avoidance and anticipatory worry of GAD.
+- `connects-to` → **[Progesterone](../../03-molecular/progesterone/README.md)** — Neurosteroid anxiolysis: the progesterone metabolite allopregnanolone is a positive GABA-A modulator, so its fluctuations shape anxiety and underlie the neurosteroid drugs developed for anxiety and depression.
+- `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — Stress-axis amplifier: vasopressin synergises with CRH to drive the HPA-axis hyperactivity of generalised anxiety, sustaining the heightened stress reactivity central to the disorder.
+- `connects-to` → **[CCL2](../../03-molecular/ccl2/README.md)** — Neuroinflammatory link: CCL2 recruits monocytes to the brain and is among the chemokines tied to the low-grade neuroinflammation increasingly implicated in chronic anxiety.
 
 [^kessler-2005-gad-prevalence]: Kessler RC, Berglund P, Demler O, et al. Lifetime prevalence and age-of-onset distributions of DSM-IV disorders in the NCS Replication. *Arch Gen Psychiatry.* 2005;62(6):593-602. [doi:10.1001/archpsyc.62.6.593](https://doi.org/10.1001/archpsyc.62.6.593) · [PubMed 15939837](https://pubmed.ncbi.nlm.nih.gov/15939837/)
 [^bandelow-2015-anxiety-biology]: Bandelow B, Michaelis S. Epidemiology of anxiety disorders in the 21st century. *Dialogues Clin Neurosci.* 2015;17(3):327-335. [doi:10.31887/DCNS.2015.17.3/bbandelow](https://doi.org/10.31887/DCNS.2015.17.3/bbandelow) · [PubMed 26487812](https://pubmed.ncbi.nlm.nih.gov/26487812/)

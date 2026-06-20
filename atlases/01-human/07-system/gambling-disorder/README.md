@@ -270,6 +270,15 @@ cross_links:
   - target: 01-human/03-molecular/il-6
     relation: connects-to
     note: "Addiction inflammation: behavioural addictions including gambling are associated with elevated IL-6, reflecting the chronic stress and low-grade inflammation that accompany the disorder."
+  - target: 01-human/03-molecular/serotonin-transporter
+    relation: connects-to
+    note: "Impulsivity and treatment: serotonin-transporter function underlies the impulse-control deficits of gambling disorder, and SSRIs are among the agents trialled for the condition and its frequent comorbid depression."
+  - target: 01-human/03-molecular/adenosine
+    relation: connects-to
+    note: "Arousal and dopamine modulation: adenosine builds the sleep pressure overridden during long gambling sessions and tunes striatal dopamine through A2A-D2 interactions, linking arousal and reward in the disorder."
+  - target: 01-human/03-molecular/vasopressin
+    relation: connects-to
+    note: "Stress-arousal peptide: vasopressin amplifies HPA-axis stress reactivity and arousal, a system engaged during the anticipation and craving that drive the compulsive betting of gambling disorder."
 sources:
   - id: grant-2016-gambling-review
     type: peer-reviewed
@@ -500,6 +509,9 @@ Persistent and recurrent problematic gambling behavior causing distress (≥4 of
 - `connects-to` → **[GLP-1](../../03-molecular/glp-1/README.md)** — Reward modulation: GLP-1 acts on brain reward circuits as well as the gut, and GLP-1 receptor agonists are being explored to dampen the craving and reward signalling of behavioural addictions like gambling.
 - `connects-to` → **[Acetylcholine](../../03-molecular/acetylcholine/README.md)** — Cholinergic reward and impulsivity: acetylcholine modulates the striatal reward and impulse-control circuits implicated in gambling disorder, shaping decision-making and habit formation.
 - `connects-to` → **[IL-6](../../03-molecular/il-6/README.md)** — Addiction inflammation: behavioural addictions including gambling are associated with elevated IL-6, reflecting the chronic stress and low-grade inflammation that accompany the disorder.
+- `connects-to` → **[Serotonin Transporter](../../03-molecular/serotonin-transporter/README.md)** — Impulsivity and treatment: serotonin-transporter function underlies the impulse-control deficits of gambling disorder, and SSRIs are among the agents trialled for the condition and its frequent comorbid depression.
+- `connects-to` → **[Adenosine](../../03-molecular/adenosine/README.md)** — Arousal and dopamine modulation: adenosine builds the sleep pressure overridden during long gambling sessions and tunes striatal dopamine through A2A-D2 interactions, linking arousal and reward in the disorder.
+- `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — Stress-arousal peptide: vasopressin amplifies HPA-axis stress reactivity and arousal, a system engaged during the anticipation and craving that drive the compulsive betting of gambling disorder.
 
 [^potenza-2014-gambling-neuroscience]: Potenza MN. The neurobiology of pathological gambling and drug addiction: an overview and new findings. *Philos Trans R Soc Lond B Biol Sci.* 2008;363(1507):3181-3189. [doi:10.1098/rstb.2008.0100](https://doi.org/10.1098/rstb.2008.0100) · [PubMed 18640909](https://pubmed.ncbi.nlm.nih.gov/18640909/)
 [^grant-2016-gambling-review]: Grant JE, Chamberlain SR. Gambling disorder and its relationship with substance use disorders. *Am J Addict.* 2015;24(2):126-131. [doi:10.1111/ajad.12112](https://doi.org/10.1111/ajad.12112) · [PubMed 25376793](https://pubmed.ncbi.nlm.nih.gov/25376793/)
