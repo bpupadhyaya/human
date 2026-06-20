@@ -278,6 +278,15 @@ cross_links:
   - target: 01-human/07-system/prurigo-nodularis
     relation: connects-to
     note: "Neuroimmune itch disease: prurigo nodularis is a chronic, intensely itchy skin disorder that exemplifies the neuroimmune itch circuit linking cutaneous nerves and immune cells."
+  - target: 01-human/03-molecular/egfr
+    relation: connects-to
+    note: "Epidermal renewal: EGFR signalling drives keratinocyte proliferation and re-epithelialisation, which is why anti-EGFR cancer drugs cause the characteristic acneiform rash and skin toxicity."
+  - target: 01-human/03-molecular/vegf
+    relation: connects-to
+    note: "Dermal vasculature: VEGF-driven angiogenesis supplies the skin's microcirculation and granulation tissue in wound healing, and its overactivity feeds the dilated vessels of psoriatic and inflamed skin."
+  - target: 01-human/03-molecular/tslp
+    relation: connects-to
+    note: "Barrier alarmin: damaged keratinocytes release TSLP, the epithelial alarm signal that initiates the type 2 immune response and itch underlying atopic dermatitis and the atopic march."
 ---
 
 # Integumentary System
@@ -470,6 +479,9 @@ Wound healing is a precisely orchestrated process in four overlapping phases [^g
 - `connects-to` → **[Substance P](../../03-molecular/substance-p/README.md)** — Neurogenic itch and inflammation: substance P released by cutaneous sensory nerves drives neurogenic inflammation and the itch sensation central to many skin diseases.
 - `connects-to` → **[IL-31](../../03-molecular/il-31/README.md)** — The itch cytokine: IL-31 is the principal pruritogenic cytokine of the skin, the target of nemolizumab in atopic dermatitis and prurigo nodularis.
 - `connects-to` → **[Prurigo Nodularis](../prurigo-nodularis/README.md)** — Neuroimmune itch disease: prurigo nodularis is a chronic, intensely itchy skin disorder that exemplifies the neuroimmune itch circuit linking cutaneous nerves and immune cells.
+- `connects-to` → **[EGFR](../../03-molecular/egfr/README.md)** — Epidermal renewal: EGFR signalling drives keratinocyte proliferation and re-epithelialisation, which is why anti-EGFR cancer drugs cause the characteristic acneiform rash and skin toxicity.
+- `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — Dermal vasculature: VEGF-driven angiogenesis supplies the skin's microcirculation and granulation tissue in wound healing, and its overactivity feeds the dilated vessels of psoriatic and inflamed skin.
+- `connects-to` → **[TSLP](../../03-molecular/tslp/README.md)** — Barrier alarmin: damaged keratinocytes release TSLP, the epithelial alarm signal that initiates the type 2 immune response and itch underlying atopic dermatitis and the atopic march.
 
 ## Pathology
 

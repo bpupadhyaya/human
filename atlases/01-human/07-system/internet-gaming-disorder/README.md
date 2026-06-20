@@ -267,6 +267,15 @@ cross_links:
   - target: 01-human/03-molecular/il-6
     relation: connects-to
     note: "Sedentary inflammation: the prolonged inactivity, poor sleep and stress of internet gaming disorder raise IL-6 and low-grade inflammation, linking the behaviour to mood and metabolic risk."
+  - target: 01-human/03-molecular/serotonin-transporter
+    relation: connects-to
+    note: "Impulsivity and comorbidity: serotonin-transporter function underlies the impulse-control deficits and the depression and anxiety that frequently accompany internet gaming disorder, the rationale for trialling SSRIs."
+  - target: 01-human/03-molecular/insulin
+    relation: connects-to
+    note: "Metabolic consequence: the prolonged sitting and disrupted eating of heavy gaming promote insulin resistance, a pathway linking internet gaming disorder to the obesity and type 2 diabetes seen with the behaviour."
+  - target: 01-human/03-molecular/testosterone
+    relation: connects-to
+    note: "Sex-skewed reward: internet gaming disorder is markedly male-predominant, and androgens modulate the dopaminergic reward and sensation-seeking circuits engaged by compulsive gaming."
 sources:
   - id: kuss-2012-gaming-disorder-review
     type: peer-reviewed
@@ -524,6 +533,9 @@ A pattern of persistent or recurrent gaming behavior characterized by:
 - `connects-to` → **[NPY](../../03-molecular/npy/README.md)** — Reward and stress: neuropeptide Y, which tunes stress and reward circuits, is implicated in behavioural addictions including internet gaming disorder.
 - `connects-to` → **[Acetylcholine](../../03-molecular/acetylcholine/README.md)** — Attention and reward: cholinergic and nicotinic signalling modulate the attention and reward circuits engaged by compulsive gaming, overlapping with substance-addiction biology.
 - `connects-to` → **[IL-6](../../03-molecular/il-6/README.md)** — Sedentary inflammation: the prolonged inactivity, poor sleep and stress of internet gaming disorder raise IL-6 and low-grade inflammation, linking the behaviour to mood and metabolic risk.
+- `connects-to` → **[Serotonin Transporter](../../03-molecular/serotonin-transporter/README.md)** — Impulsivity and comorbidity: serotonin-transporter function underlies the impulse-control deficits and the depression and anxiety that frequently accompany internet gaming disorder, the rationale for trialling SSRIs.
+- `connects-to` → **[Insulin](../../03-molecular/insulin/README.md)** — Metabolic consequence: the prolonged sitting and disrupted eating of heavy gaming promote insulin resistance, a pathway linking internet gaming disorder to the obesity and type 2 diabetes seen with the behaviour.
+- `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — Sex-skewed reward: internet gaming disorder is markedly male-predominant, and androgens modulate the dopaminergic reward and sensation-seeking circuits engaged by compulsive gaming.
 
 [^kuss-2012-gaming-disorder-review]: Kuss DJ, Griffiths MD. Internet gaming addiction: a systematic review of empirical research. *Int J Ment Health Addict.* 2012;10(2):278-296. [doi:10.1007/s11469-011-9318-5](https://doi.org/10.1007/s11469-011-9318-5)
 [^who-icd11-gaming-disorder]: World Health Organization. ICD-11: Gaming Disorder (6C51). Geneva: WHO; 2019. [icd.who.int](https://icd.who.int/browse/2025-01/mms/en#1448597234)
