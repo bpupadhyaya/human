@@ -286,6 +286,15 @@ cross_links:
   - target: 01-human/03-molecular/flt3
     relation: connects-to
     note: "Marrow-failure signal: FLT3 ligand rises markedly in aplastic anaemia as the body tries to stimulate the failing stem-cell pool, a useful marker of the depth of marrow failure."
+  - target: 01-human/03-molecular/kit
+    relation: connects-to
+    note: "Stem-cell survival: KIT and its ligand stem-cell factor sustain haematopoietic stem cells, the very cells the autoreactive T-cell attack of aplastic anaemia destroys, collapsing trilineage production."
+  - target: 01-human/03-molecular/caspase-3
+    relation: connects-to
+    note: "Apoptotic destruction: autoreactive T cells kill stem and progenitor cells through Fas and IFN-γ that converge on caspase-3-mediated apoptosis, the executioner step of immune marrow failure."
+  - target: 01-human/03-molecular/nlrp3-inflammasome
+    relation: connects-to
+    note: "Innate inflammation: NLRP3-inflammasome activation contributes to the inflammatory bone-marrow microenvironment that accompanies the immune-mediated stem-cell destruction of aplastic anaemia."
 ---
 
 # Aplastic Anemia
@@ -488,6 +497,9 @@ In >80% of acquired AA cases, the disease is **immune-mediated**: autoreactive *
 - `connects-to` → **[IL-17A](../../03-molecular/il-17a/README.md)** — Th17 marrow attack: IL-17-producing T-helper cells contribute to the autoimmune destruction of haematopoietic stem cells in aplastic anaemia, alongside the dominant Th1 response.
 - `connects-to` → **[IL-6](../../03-molecular/il-6/README.md)** — Inflammatory milieu: IL-6 is elevated in aplastic anaemia, part of the cytokine environment that suppresses haematopoiesis and supports the autoreactive immune response.
 - `connects-to` → **[FLT3](../../03-molecular/flt3/README.md)** — Marrow-failure signal: FLT3 ligand rises markedly in aplastic anaemia as the body tries to stimulate the failing stem-cell pool, a useful marker of the depth of marrow failure.
+- `connects-to` → **[KIT](../../03-molecular/kit/README.md)** — Stem-cell survival: KIT and its ligand stem-cell factor sustain haematopoietic stem cells, the very cells the autoreactive T-cell attack of aplastic anaemia destroys, collapsing trilineage production.
+- `connects-to` → **[Caspase-3](../../03-molecular/caspase-3/README.md)** — Apoptotic destruction: autoreactive T cells kill stem and progenitor cells through Fas and IFN-γ that converge on caspase-3-mediated apoptosis, the executioner step of immune marrow failure.
+- `connects-to` → **[NLRP3 Inflammasome](../../03-molecular/nlrp3-inflammasome/README.md)** — Innate inflammation: NLRP3-inflammasome activation contributes to the inflammatory bone-marrow microenvironment that accompanies the immune-mediated stem-cell destruction of aplastic anaemia.
 
 ---
 
