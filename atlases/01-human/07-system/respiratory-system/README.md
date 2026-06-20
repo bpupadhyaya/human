@@ -288,6 +288,15 @@ cross_links:
   - target: 01-human/04-cellular/dendritic-cell
     relation: connects-to
     note: "Airway sentinels: dendritic cells lining the airway epithelium sample inhaled antigens and orchestrate the immune responses—protective and allergic—of the respiratory mucosa."
+  - target: 01-human/03-molecular/angiotensin-ii
+    relation: connects-to
+    note: "Non-respiratory endocrine role: the pulmonary capillary endothelium is the body's main site of angiotensin-converting enzyme, converting angiotensin I to the vasopressor angiotensin II as blood transits the lung."
+  - target: 01-human/03-molecular/vegf
+    relation: connects-to
+    note: "Alveolar-capillary maintenance: VEGF sustains the dense pulmonary capillary network of the gas-exchange surface, and its loss contributes to the alveolar destruction of emphysema."
+  - target: 01-human/03-molecular/tslp
+    relation: connects-to
+    note: "Airway alarmin: airway epithelium releases TSLP on injury or allergen exposure, the upstream alarm signal that initiates the type 2 inflammation of asthma and is targeted by tezepelumab."
 taxonomy:
   uberon: "UBERON:0001004"
   fma: "FMA:7161"
@@ -459,6 +468,9 @@ The mucociliary escalator (ciliated cells + goblet cell mucus) continuously clea
 - **Connects-to** → [IL-6](../../03-molecular/il-6/README.md): Airway inflammation: IL-6 is a central cytokine of respiratory inflammation, elevated in asthma, COPD and the pneumonias and ARDS that injure the lung.
 - **Connects-to** → [TNF-α](../../03-molecular/tnf-alpha/README.md): Inflammatory lung injury: TNF-α drives the neutrophilic inflammation of acute lung injury and chronic airway disease, a key mediator of respiratory pathology.
 - **Connects-to** → [Dendritic Cell](../../04-cellular/dendritic-cell/README.md): Airway sentinels: dendritic cells lining the airway epithelium sample inhaled antigens and orchestrate the immune responses—protective and allergic—of the respiratory mucosa.
+- **Connects-to** → [Angiotensin II](../../03-molecular/angiotensin-ii/README.md): Non-respiratory endocrine role: the pulmonary capillary endothelium is the body's main site of angiotensin-converting enzyme, converting angiotensin I to the vasopressor angiotensin II as blood transits the lung.
+- **Connects-to** → [VEGF](../../03-molecular/vegf/README.md): Alveolar-capillary maintenance: VEGF sustains the dense pulmonary capillary network of the gas-exchange surface, and its loss contributes to the alveolar destruction of emphysema.
+- **Connects-to** → [TSLP](../../03-molecular/tslp/README.md): Airway alarmin: airway epithelium releases TSLP on injury or allergen exposure, the upstream alarm signal that initiates the type 2 inflammation of asthma and is targeted by tezepelumab.
 - `prevented-by` → **[PCV13 (Prevnar 13)](../../../../04-vaccine/08-conjugate/pcv13/README.md)** — CAPiTA RCT (N=84,496 adults ≥65): PCV13 achieved 45.6% VE against vaccine-type CAP and 75% VE against invasive pneumococcal disease; prevents pneumococcal pneumonia, the leading infectious cause of respiratory hospitalisation in older adults.
 
 ## Pathology

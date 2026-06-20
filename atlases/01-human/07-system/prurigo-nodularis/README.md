@@ -283,6 +283,15 @@ cross_links:
   - target: 01-human/03-molecular/il-6
     relation: connects-to
     note: "Fibrosis and itch: IL-6 promotes the dermal fibrosis and neural proliferation of prurigo nodularis nodules, linking chronic inflammation to the thickened, intensely itchy lesions."
+  - target: 01-human/03-molecular/ccl2
+    relation: connects-to
+    note: "Myeloid recruitment: CCL2 draws monocytes and macrophages into prurigo nodularis lesions, sustaining the dermal inflammatory infiltrate that feeds the itch-scratch cycle and nodule formation."
+  - target: 01-human/03-molecular/pdgf
+    relation: connects-to
+    note: "Nodule fibroblasts: PDGF drives the dermal fibroblast proliferation that builds the firm, hyperplastic nodules of prurigo nodularis, the structural correlate of the chronic scratching."
+  - target: 01-human/03-molecular/serotonin
+    relation: connects-to
+    note: "Systemic pruritus pathway: serotonin contributes to the itch of the uraemic and cholestatic conditions that underlie many cases of prurigo nodularis, the rationale for 5-HT3-antagonist antipruritics."
 ---
 
 # Prurigo Nodularis
@@ -454,6 +463,9 @@ PN affects approximately **72,000 patients** in the US; true prevalence is likel
 - `connects-to` → **[Periostin](../../03-molecular/periostin/README.md)** — Type-2 matrix signal: periostin, induced by IL-4 and IL-13, deposits in the dermis of prurigo nodularis and directly activates sensory neurons to amplify the itch-scratch cycle.
 - `connects-to` → **[TNF-α](../../03-molecular/tnf-alpha/README.md)** — Mixed inflammation: TNF-α contributes to the mixed Th2/Th17/Th22 inflammatory milieu of prurigo nodularis lesions, sustaining the chronic skin inflammation behind the nodules.
 - `connects-to` → **[IL-6](../../03-molecular/il-6/README.md)** — Fibrosis and itch: IL-6 promotes the dermal fibrosis and neural proliferation of prurigo nodularis nodules, linking chronic inflammation to the thickened, intensely itchy lesions.
+- `connects-to` → **[CCL2](../../03-molecular/ccl2/README.md)** — Myeloid recruitment: CCL2 draws monocytes and macrophages into prurigo nodularis lesions, sustaining the dermal inflammatory infiltrate that feeds the itch-scratch cycle and nodule formation.
+- `connects-to` → **[PDGF](../../03-molecular/pdgf/README.md)** — Nodule fibroblasts: PDGF drives the dermal fibroblast proliferation that builds the firm, hyperplastic nodules of prurigo nodularis, the structural correlate of the chronic scratching.
+- `connects-to` → **[Serotonin](../../03-molecular/serotonin/README.md)** — Systemic pruritus pathway: serotonin contributes to the itch of the uraemic and cholestatic conditions that underlie many cases of prurigo nodularis, the rationale for 5-HT3-antagonist antipruritics.
 
 [^stander-2020-nemolizumab-pn]: Ständer S, Yosipovitch G, Legat FJ, et al. Trial of nemolizumab in moderate-to-severe prurigo nodularis. *N Engl J Med.* 2020;382(8):706-716. [doi:10.1056/NEJMoa1908316](https://doi.org/10.1056/NEJMoa1908316) · [PubMed 32053299](https://pubmed.ncbi.nlm.nih.gov/32053299/)
 [^briggs-2022-dupilumab-pn-liberty]: Briggs JN, Cho YY, Khanna R, et al. Dupilumab for prurigo nodularis: the LIBERTY-PN PRIME and PRIME2 trials. *N Engl J Med.* 2022;387(18):1683-1693. [doi:10.1056/NEJMoa2205093](https://doi.org/10.1056/NEJMoa2205093) · [PubMed 36300905](https://pubmed.ncbi.nlm.nih.gov/36300905/)
