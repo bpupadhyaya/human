@@ -282,6 +282,15 @@ cross_links:
   - target: 01-human/07-system/immune-thrombocytopenia
     relation: connects-to
     note: "Platelet-loss bleeding: the mucocutaneous and menstrual bleeding of immune thrombocytopenia can drain iron stores, layering iron-deficiency anaemia onto the underlying low platelet count."
+  - target: 01-human/03-molecular/dopamine
+    relation: connects-to
+    note: "Restless legs and cognition: iron is a cofactor for tyrosine hydroxylase in dopamine synthesis, so iron deficiency disrupts dopaminergic signalling, causing restless legs syndrome and the attention deficits of low iron."
+  - target: 01-human/03-molecular/atp
+    relation: connects-to
+    note: "Bioenergetic failure: iron is essential to the cytochromes and iron-sulfur clusters of oxidative phosphorylation, so iron deficiency impairs cellular ATP production, a molecular basis for the fatigue of the anaemia."
+  - target: 01-human/03-molecular/thrombopoietin
+    relation: connects-to
+    note: "Reactive thrombocytosis: iron deficiency commonly raises platelet counts, with thrombopoietin and erythropoietin cross-signalling implicated in the reactive thrombocytosis that accompanies the anaemia."
 ---
 
 # Iron Deficiency Anemia
@@ -490,6 +499,9 @@ Iron is essential for:
 - `connects-to` → **[Von Willebrand Factor](../../03-molecular/von-willebrand-factor/README.md)** — Bleeding-driven loss: von Willebrand disease, from defective von Willebrand factor, causes mucosal bleeding and heavy menstruation that is a common occult cause of iron-deficiency anaemia.
 - `connects-to` → **[Hemophilia A](../hemophilia-a/README.md)** — Chronic blood loss: recurrent bleeding in haemophilia A depletes body iron over time, a coagulation-disorder route to iron-deficiency anaemia distinct from the more common GI and menstrual losses.
 - `connects-to` → **[Immune Thrombocytopenia](../immune-thrombocytopenia/README.md)** — Platelet-loss bleeding: the mucocutaneous and menstrual bleeding of immune thrombocytopenia can drain iron stores, layering iron-deficiency anaemia onto the underlying low platelet count.
+- `connects-to` → **[Dopamine](../../03-molecular/dopamine/README.md)** — Restless legs and cognition: iron is a cofactor for tyrosine hydroxylase in dopamine synthesis, so iron deficiency disrupts dopaminergic signalling, causing restless legs syndrome and the attention deficits of low iron.
+- `connects-to` → **[ATP](../../03-molecular/atp/README.md)** — Bioenergetic failure: iron is essential to the cytochromes and iron-sulfur clusters of oxidative phosphorylation, so iron deficiency impairs cellular ATP production, a molecular basis for the fatigue of the anaemia.
+- `connects-to` → **[Thrombopoietin](../../03-molecular/thrombopoietin/README.md)** — Reactive thrombocytosis: iron deficiency commonly raises platelet counts, with thrombopoietin and erythropoietin cross-signalling implicated in the reactive thrombocytosis that accompanies the anaemia.
 
 [^camaschella-2015-iron-deficiency]: Camaschella C. Iron-deficiency anemia. *N Engl J Med.* 2015;372(19):1832-1843. [doi:10.1056/NEJMra1401038](https://doi.org/10.1056/NEJMra1401038) · [PubMed 25946282](https://pubmed.ncbi.nlm.nih.gov/25946282/)
 [^who-ferritin-guideline-2020]: World Health Organization. WHO guideline on use of ferritin concentrations to assess iron status in individuals and populations. WHO; 2020. [WHO publication](https://www.who.int/publications/i/item/9789240000124)
