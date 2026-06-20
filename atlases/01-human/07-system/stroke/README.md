@@ -289,6 +289,15 @@ cross_links:
   - target: 01-human/03-molecular/il-6
     relation: connects-to
     note: "Post-stroke inflammation: IL-6 surges after stroke, both reflecting infarct size and contributing to the systemic inflammatory response that worsens outcome."
+  - target: 01-human/03-molecular/nlrp3-inflammasome
+    relation: connects-to
+    note: "Ischaemic inflammasome: NLRP3 inflammasome activation in microglia after ischaemia matures IL-1β and drives pyroptotic cell death, expanding the infarct in the hours after stroke onset."
+  - target: 01-human/03-molecular/ccl2
+    relation: connects-to
+    note: "Monocyte infiltration: CCL2 released from the ischaemic brain recruits blood monocytes across the disrupted blood-brain barrier, shaping the secondary inflammatory injury and repair after stroke."
+  - target: 01-human/03-molecular/vegf
+    relation: connects-to
+    note: "Repair and barrier: VEGF drives post-stroke angiogenesis and neurovascular repair but also opens the blood-brain barrier acutely, a double-edged contributor to oedema and recovery."
 ---
 
 # Stroke
@@ -483,6 +492,9 @@ Normal brain maintains CBF constant (50-150 mmHg MAP range) via autoregulation (
 - `connects-to` → **[HIF-1α](../../03-molecular/hif-1alpha/README.md)** — Ischaemic response: HIF-1α stabilised in the hypoxic penumbra after stroke drives both protective angiogenesis and harmful inflammation, shaping the fate of salvageable brain tissue.
 - `connects-to` → **[IL-1β](../../03-molecular/il-1b/README.md)** — Neuroinflammatory injury: IL-1β released by activated microglia after ischaemia expands the infarct, and IL-1 blockade is under investigation to limit post-stroke brain damage.
 - `connects-to` → **[IL-6](../../03-molecular/il-6/README.md)** — Post-stroke inflammation: IL-6 surges after stroke, both reflecting infarct size and contributing to the systemic inflammatory response that worsens outcome.
+- `connects-to` → **[NLRP3 Inflammasome](../../03-molecular/nlrp3-inflammasome/README.md)** — Ischaemic inflammasome: NLRP3 inflammasome activation in microglia after ischaemia matures IL-1β and drives pyroptotic cell death, expanding the infarct in the hours after stroke onset.
+- `connects-to` → **[CCL2](../../03-molecular/ccl2/README.md)** — Monocyte infiltration: CCL2 released from the ischaemic brain recruits blood monocytes across the disrupted blood-brain barrier, shaping the secondary inflammatory injury and repair after stroke.
+- `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — Repair and barrier: VEGF drives post-stroke angiogenesis and neurovascular repair but also opens the blood-brain barrier acutely, a double-edged contributor to oedema and recovery.
 
 [^powers-2019-aha-stroke]: Powers WJ, Rabinstein AA, Ackerson T, et al. Guidelines for the Early Management of Patients With Acute Ischemic Stroke: 2019 Update to the 2018 Guidelines. *Stroke.* 2019;50(12):e344-e418. [doi:10.1161/STR.0000000000000211](https://doi.org/10.1161/STR.0000000000000211) · [PubMed 31662037](https://pubmed.ncbi.nlm.nih.gov/31662037/)
 [^feigin-2021-gbd-stroke]: Feigin VL, Krishnamurthi RV, Parmar P, et al. Update on the Global Burden of Ischemic and Hemorrhagic Stroke in 1990-2013. *Neuroepidemiology.* 2015;45(3):161-176. [doi:10.1159/000441085](https://doi.org/10.1159/000441085) · [PubMed 26505981](https://pubmed.ncbi.nlm.nih.gov/26505981/)

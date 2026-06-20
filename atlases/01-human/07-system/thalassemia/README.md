@@ -288,6 +288,15 @@ cross_links:
   - target: 01-human/03-molecular/tnf-alpha
     relation: connects-to
     note: "Marrow inflammation: TNF-α from the chronically stressed, expanded marrow of thalassemia contributes to its ineffective erythropoiesis and the inflammatory disturbance of iron handling."
+  - target: 01-human/03-molecular/tlr4
+    relation: connects-to
+    note: "Heme danger signal: chronic haemolysis and ineffective erythropoiesis in thalassemia release free heme that engages TLR4, driving the sterile inflammation that compounds tissue and endothelial injury."
+  - target: 01-human/03-molecular/rankl
+    relation: connects-to
+    note: "Thalassemic bone disease: marrow expansion and endocrine dysfunction drive RANKL-mediated osteoclast activation, causing the osteoporosis and fractures that are a major morbidity of thalassemia."
+  - target: 01-human/03-molecular/bnp
+    relation: connects-to
+    note: "Iron cardiomyopathy: transfusional iron overload damages the myocardium, and natriuretic peptides like BNP rise as the resulting cardiomyopathy and heart failure develop — the leading cause of death in thalassemia."
 ---
 
 # Thalassemia
@@ -522,6 +531,9 @@ Untransfused or undertransfused β-thal major:
 - `connects-to` → **[HIF-1α](../../03-molecular/hif-1alpha/README.md)** — Erythropoietic drive: chronic anaemia and hypoxia stabilise HIF-1α in thalassemia, driving the erythropoietin surge and marrow expansion behind its skeletal deformities and extramedullary haematopoiesis.
 - `connects-to` → **[Endothelin-1](../../03-molecular/endothelin-1/README.md)** — Vascular complication: haemolysis and endothelial dysfunction raise endothelin-1 in thalassemia, contributing to the pulmonary hypertension that complicates the chronic anaemia.
 - `connects-to` → **[TNF-α](../../03-molecular/tnf-alpha/README.md)** — Marrow inflammation: TNF-α from the chronically stressed, expanded marrow of thalassemia contributes to its ineffective erythropoiesis and the inflammatory disturbance of iron handling.
+- `connects-to` → **[TLR4](../../03-molecular/tlr4/README.md)** — Heme danger signal: chronic haemolysis and ineffective erythropoiesis in thalassemia release free heme that engages TLR4, driving the sterile inflammation that compounds tissue and endothelial injury.
+- `connects-to` → **[RANKL](../../03-molecular/rankl/README.md)** — Thalassemic bone disease: marrow expansion and endocrine dysfunction drive RANKL-mediated osteoclast activation, causing the osteoporosis and fractures that are a major morbidity of thalassemia.
+- `connects-to` → **[BNP](../../03-molecular/bnp/README.md)** — Iron cardiomyopathy: transfusional iron overload damages the myocardium, and natriuretic peptides like BNP rise as the resulting cardiomyopathy and heart failure develop — the leading cause of death in thalassemia.
 
 [^weatherall-2008-thalassemia-review]: Weatherall DJ. The inherited diseases of hemoglobin are an emerging global health burden. *Blood.* 2010;115(22):4331-4336. [doi:10.1182/blood-2010-01-251348](https://doi.org/10.1182/blood-2010-01-251348) · [PubMed 20233970](https://pubmed.ncbi.nlm.nih.gov/20233970/)
 [^cappellini-2014-thalassemia-guidelines]: Cappellini MD, Cohen A, Porter J, et al. (eds). Guidelines for the Management of Transfusion Dependent Thalassaemia (TDT). 3rd ed. Thalassaemia International Federation; 2014.
