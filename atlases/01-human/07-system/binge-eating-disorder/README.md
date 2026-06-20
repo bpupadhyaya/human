@@ -270,6 +270,15 @@ cross_links:
   - target: 01-human/03-molecular/adiponectin
     relation: connects-to
     note: "Adipose hormone: adiponectin falls with the visceral adiposity common in binge-eating disorder, contributing to the insulin resistance and cardiometabolic risk that accompany it."
+  - target: 01-human/03-molecular/serotonin-transporter
+    relation: connects-to
+    note: "Serotonergic impulse control: serotonin-transporter function underlies the impulsivity of binge-eating disorder, and SSRIs are among the medications used to reduce binge frequency."
+  - target: 01-human/03-molecular/glutamate
+    relation: connects-to
+    note: "Cortical control of bingeing: glutamatergic signalling in cortico-striatal circuits governs inhibitory control over eating, the system topiramate dampens to reduce binge episodes."
+  - target: 01-human/03-molecular/crh
+    relation: connects-to
+    note: "Stress-driven bingeing: CRH-mediated HPA-axis activation by stress is a major trigger of binge episodes, linking the stress response to the loss of control that defines the disorder."
 sources:
   - id: american-psychiatric-2013-bed-dsm5
     type: clinical-guideline
@@ -515,6 +524,9 @@ BED is among the most psychiatrically comorbid of all eating disorders:
 - `connects-to` → **[Neuropeptide Y](../../03-molecular/npy/README.md)** — Appetite drive: neuropeptide Y is a powerful orexigenic signal whose dysregulation contributes to the intense hunger and loss-of-control eating that characterise binge-eating disorder.
 - `connects-to` → **[TNF-α](../../03-molecular/tnf-alpha/README.md)** — Metabolic inflammation: the obesity that frequently accompanies binge-eating disorder raises TNF-α from adipose tissue, fuelling the insulin resistance and low-grade inflammation of the metabolic syndrome.
 - `connects-to` → **[Adiponectin](../../03-molecular/adiponectin/README.md)** — Adipose hormone: adiponectin falls with the visceral adiposity common in binge-eating disorder, contributing to the insulin resistance and cardiometabolic risk that accompany it.
+- `connects-to` → **[Serotonin Transporter](../../03-molecular/serotonin-transporter/README.md)** — Serotonergic impulse control: serotonin-transporter function underlies the impulsivity of binge-eating disorder, and SSRIs are among the medications used to reduce binge frequency.
+- `connects-to` → **[Glutamate](../../03-molecular/glutamate/README.md)** — Cortical control of bingeing: glutamatergic signalling in cortico-striatal circuits governs inhibitory control over eating, the system topiramate dampens to reduce binge episodes.
+- `connects-to` → **[CRH](../../03-molecular/crh/README.md)** — Stress-driven bingeing: CRH-mediated HPA-axis activation by stress is a major trigger of binge episodes, linking the stress response to the loss of control that defines the disorder.
 
 [^american-psychiatric-2013-bed-dsm5]: American Psychiatric Association. Binge Eating Disorder (307.51). In: *Diagnostic and Statistical Manual of Mental Disorders, 5th ed.* Arlington, VA: APA; 2013. [doi:10.1176/appi.books.9780890425596](https://doi.org/10.1176/appi.books.9780890425596)
 [^mccallum-2003-bed-review]: McCallum K, Bruton AM. Binge eating disorder: eating disorder or somatic syndrome? *Prim Care Companion J Clin Psychiatry.* 2003;5(Suppl 4):20-25. [PubMed 15213784](https://pubmed.ncbi.nlm.nih.gov/15213784/)

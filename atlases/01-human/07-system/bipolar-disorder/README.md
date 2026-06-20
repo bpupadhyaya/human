@@ -292,6 +292,15 @@ cross_links:
   - target: 01-human/03-molecular/acetylcholine
     relation: connects-to
     note: "Cholinergic-aminergic balance: the classic theory of bipolar disorder pits cholinergic against adrenergic tone, with cholinergic excess favouring depression and aminergic dominance favouring mania."
+  - target: 01-human/03-molecular/calcineurin
+    relation: connects-to
+    note: "Calcium-signalling risk: the CACNA1C calcium-channel variant is the strongest genetic hit in bipolar disorder, dysregulating the calcium-calcineurin signalling that controls neuronal excitability and plasticity."
+  - target: 01-human/03-molecular/serotonin-transporter
+    relation: connects-to
+    note: "Serotonergic vulnerability: serotonin-transporter function shapes the depressive pole of bipolar disorder and antidepressant response, though SSRIs risk triggering mania without a mood stabiliser."
+  - target: 01-human/03-molecular/mtor
+    relation: connects-to
+    note: "Neuroplasticity signalling: mTOR-dependent synaptic plasticity is implicated in bipolar mood switching, and rapid-acting agents like ketamine act partly through this pathway."
 ---
 
 # Bipolar Disorder
@@ -513,6 +522,9 @@ During bipolar depression (often longer and more disabling than mania):
 - `connects-to` → **[IL-1β](../../03-molecular/il-1b/README.md)** — Inflammatory mood: IL-1β rises during mood episodes in bipolar disorder, part of the neuroinflammatory signature increasingly tied to its episodic, progressive course.
 - `connects-to` → **[NLRP3 Inflammasome](../../03-molecular/nlrp3-inflammasome/README.md)** — Inflammasome activation: stress and metabolic dysfunction activate the NLRP3 inflammasome in bipolar disorder, releasing IL-1β to drive the low-grade neuroinflammation linked to the illness.
 - `connects-to` → **[Acetylcholine](../../03-molecular/acetylcholine/README.md)** — Cholinergic-aminergic balance: the classic theory of bipolar disorder pits cholinergic against adrenergic tone, with cholinergic excess favouring depression and aminergic dominance favouring mania.
+- `connects-to` → **[Calcineurin](../../03-molecular/calcineurin/README.md)** — Calcium-signalling risk: the CACNA1C calcium-channel variant is the strongest genetic hit in bipolar disorder, dysregulating the calcium-calcineurin signalling that controls neuronal excitability and plasticity.
+- `connects-to` → **[Serotonin Transporter](../../03-molecular/serotonin-transporter/README.md)** — Serotonergic vulnerability: serotonin-transporter function shapes the depressive pole of bipolar disorder and antidepressant response, though SSRIs risk triggering mania without a mood stabiliser.
+- `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — Neuroplasticity signalling: mTOR-dependent synaptic plasticity is implicated in bipolar mood switching, and rapid-acting agents like ketamine act partly through this pathway.
 
 [^grande-2016-bipolar-review]: Grande I, Berk M, Birmaher B, Vieta E. Bipolar disorder. *Lancet.* 2016;387(10027):1561-1572. [doi:10.1016/S0140-6736(15)00241-X](https://doi.org/10.1016/S0140-6736(15)00241-X) · [PubMed 26388529](https://pubmed.ncbi.nlm.nih.gov/26388529/)
 [^geddes-2013-bipolar-treatment]: Geddes JR, Miklowitz DJ. Treatment of bipolar disorder. *Lancet.* 2013;381(9878):1672-1682. [doi:10.1016/S0140-6736(13)60857-0](https://doi.org/10.1016/S0140-6736(13)60857-0) · [PubMed 23663953](https://pubmed.ncbi.nlm.nih.gov/23663953/)
