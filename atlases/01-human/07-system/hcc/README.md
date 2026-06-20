@@ -283,6 +283,15 @@ cross_links:
   - target: 01-human/03-molecular/cyclin-d1
     relation: connects-to
     note: "Cell-cycle drive: cyclin D1, often amplified downstream of Wnt/β-catenin signalling, pushes hepatocytes through the G1 checkpoint to drive the proliferation of hepatocellular carcinoma."
+  - target: 01-human/03-molecular/met
+    relation: connects-to
+    note: "Invasive RTK: c-MET signalling drives HCC proliferation, invasion and angiogenesis, and is one of the kinases blocked by the multi-target inhibitor cabozantinib used in advanced disease."
+  - target: 01-human/03-molecular/fgfr
+    relation: connects-to
+    note: "FGF19-FGFR4 axis: amplification of the FGF19-FGFR4 signalling axis defines a subset of hepatocellular carcinomas and is a targetable driver under investigation with selective FGFR4 inhibitors."
+  - target: 01-human/03-molecular/ccl2
+    relation: connects-to
+    note: "Immunosuppressive niche: CCL2 secreted by HCC recruits tumour-associated macrophages and myeloid-derived suppressor cells, building the immunosuppressive microenvironment that blunts response to immunotherapy."
 ---
 
 # Hepatocellular Carcinoma
@@ -509,6 +518,9 @@ In high-risk patients (cirrhosis, HBV regardless of cirrhosis): ultrasound ± AF
 - `connects-to` → **[MYC](../../03-molecular/myc/README.md)** — Amplified oncogene: MYC amplification is a frequent driver of hepatocellular carcinoma, fuelling the ribosome biogenesis and proliferation that mark its more aggressive tumours.
 - `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — PI3K/AKT survival: AKT activation, often through PTEN loss, cooperates with mTOR to drive HCC growth and survival, part of the pathway exploited by targeted and combination therapy.
 - `connects-to` → **[Cyclin D1](../../03-molecular/cyclin-d1/README.md)** — Cell-cycle drive: cyclin D1, often amplified downstream of Wnt/β-catenin signalling, pushes hepatocytes through the G1 checkpoint to drive the proliferation of hepatocellular carcinoma.
+- `connects-to` → **[MET](../../03-molecular/met/README.md)** — Invasive RTK: c-MET signalling drives HCC proliferation, invasion and angiogenesis, and is one of the kinases blocked by the multi-target inhibitor cabozantinib used in advanced disease.
+- `connects-to` → **[FGFR](../../03-molecular/fgfr/README.md)** — FGF19-FGFR4 axis: amplification of the FGF19-FGFR4 signalling axis defines a subset of hepatocellular carcinomas and is a targetable driver under investigation with selective FGFR4 inhibitors.
+- `connects-to` → **[CCL2](../../03-molecular/ccl2/README.md)** — Immunosuppressive niche: CCL2 secreted by HCC recruits tumour-associated macrophages and myeloid-derived suppressor cells, building the immunosuppressive microenvironment that blunts response to immunotherapy.
 
 [^llovet-2008-sorafenib]: Llovet JM, Ricci S, Mazzaferro V, et al. Sorafenib in advanced hepatocellular carcinoma. *N Engl J Med.* 2008;359(4):378-390. [doi:10.1056/NEJMoa0708857](https://doi.org/10.1056/NEJMoa0708857) · [PubMed 18650514](https://pubmed.ncbi.nlm.nih.gov/18650514/)
 [^finn-2020-imbrave150]: Finn RS, Qin S, Ikeda M, et al. Atezolizumab plus bevacizumab in unresectable hepatocellular carcinoma. *N Engl J Med.* 2020;382(20):1894-1905. [doi:10.1056/NEJMoa1915745](https://doi.org/10.1056/NEJMoa1915745) · [PubMed 32402160](https://pubmed.ncbi.nlm.nih.gov/32402160/)

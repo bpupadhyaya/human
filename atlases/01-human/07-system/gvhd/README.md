@@ -289,6 +289,15 @@ cross_links:
   - target: 01-human/03-molecular/nlrp3-inflammasome
     relation: connects-to
     note: "Innate priming: damage-associated signals after transplant activate the NLRP3 inflammasome in host antigen-presenting cells, maturing IL-1β to intensify the alloreactive attack of GVHD."
+  - target: 01-human/03-molecular/mtor
+    relation: connects-to
+    note: "Prophylaxis target: mTOR drives the metabolism and proliferation of alloreactive donor T cells, so mTOR inhibitors like sirolimus are used in GVHD prophylaxis while sparing regulatory T cells."
+  - target: 01-human/03-molecular/tlr4
+    relation: connects-to
+    note: "Microbial trigger: conditioning damages the gut barrier, letting bacterial LPS engage TLR4 on host antigen-presenting cells, the innate signal that ignites the cytokine storm of acute gut GVHD."
+  - target: 01-human/03-molecular/s100a8-a9
+    relation: connects-to
+    note: "Gut-GVHD biomarker: S100A8/A9 released by damaged intestinal epithelium and neutrophils amplifies GVHD inflammation, and faecal calprotectin tracks the activity of gastrointestinal GVHD."
 ---
 
 # Graft-Versus-Host Disease
@@ -517,6 +526,9 @@ The protective Treg/IL-10 axis is the key biological counterbalance to alloreact
 - `connects-to` → **[TGF-β](../../03-molecular/tgf-beta/README.md)** — Fibrotic driver: TGF-β orchestrates the tissue fibrosis of chronic GVHD, scarring skin, lung and gut in the sclerodermatous and bronchiolitis-obliterans forms of the disease.
 - `connects-to` → **[IL-1β](../../03-molecular/il-1b/README.md)** — Conditioning damage: tissue injury from the conditioning regimen releases IL-1β, an innate alarm signal that primes donor T cells and amplifies the cytokine storm of acute GVHD.
 - `connects-to` → **[NLRP3 Inflammasome](../../03-molecular/nlrp3-inflammasome/README.md)** — Innate priming: damage-associated signals after transplant activate the NLRP3 inflammasome in host antigen-presenting cells, maturing IL-1β to intensify the alloreactive attack of GVHD.
+- `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — Prophylaxis target: mTOR drives the metabolism and proliferation of alloreactive donor T cells, so mTOR inhibitors like sirolimus are used in GVHD prophylaxis while sparing regulatory T cells.
+- `connects-to` → **[TLR4](../../03-molecular/tlr4/README.md)** — Microbial trigger: conditioning damages the gut barrier, letting bacterial LPS engage TLR4 on host antigen-presenting cells, the innate signal that ignites the cytokine storm of acute gut GVHD.
+- `connects-to` → **[S100A8/A9](../../03-molecular/s100a8-a9/README.md)** — Gut-GVHD biomarker: S100A8/A9 released by damaged intestinal epithelium and neutrophils amplifies GVHD inflammation, and faecal calprotectin tracks the activity of gastrointestinal GVHD.
 
 [^ferrara-2009-gvhd-review]: Ferrara JL, Levine JE, Reddy P, Holler E. Graft-versus-host disease. *Lancet.* 2009;373(9674):1550-1561. [doi:10.1016/S0140-6736(09)60237-3](https://doi.org/10.1016/S0140-6736(09)60237-3) · [PubMed 19380114](https://pubmed.ncbi.nlm.nih.gov/19380114/)
 [^zeiser-2020-ruxolitinib-gvhd-reach]: Zeiser R, von Bubnoff N, Butler J, et al. Ruxolitinib for Glucocorticoid-Refractory Acute Graft-versus-Host Disease. *N Engl J Med.* 2020;382(19):1800-1810. [doi:10.1056/NEJMoa1917635](https://doi.org/10.1056/NEJMoa1917635) · [PubMed 32374962](https://pubmed.ncbi.nlm.nih.gov/32374962/)
