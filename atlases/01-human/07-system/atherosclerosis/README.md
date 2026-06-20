@@ -292,6 +292,15 @@ cross_links:
   - target: 01-human/03-molecular/hif-1alpha
     relation: connects-to
     note: "Plaque hypoxia: the thickening, metabolically active plaque outgrows its oxygen supply, stabilising HIF-1α to drive the intraplaque angiogenesis and inflammation that destabilise it."
+  - target: 01-human/03-molecular/tlr4
+    relation: connects-to
+    note: "OxLDL sensing: TLR4 on plaque macrophages recognises oxidised LDL and other danger signals, igniting the NF-κB inflammation that converts lipid uptake into the chronic immune disease of atherosclerosis."
+  - target: 01-human/03-molecular/s100a8-a9
+    relation: connects-to
+    note: "Myeloid alarmin: S100A8/A9 from activated plaque neutrophils and monocytes amplifies vascular inflammation and circulates as a biomarker predicting atherosclerotic cardiovascular events."
+  - target: 01-human/03-molecular/ifn-gamma
+    relation: connects-to
+    note: "Th1 plaque immunity: IFN-γ from plaque T cells activates macrophages and suppresses smooth-muscle collagen synthesis, thinning the fibrous cap and predisposing the plaque to rupture."
 ---
 
 # Atherosclerosis
@@ -497,6 +506,9 @@ The process begins in childhood with **fatty streaks** and progresses silently o
 - `connects-to` → **[IL-1β](../../03-molecular/il-1b/README.md)** — Inflammation hypothesis confirmed: IL-1β drives plaque inflammation, and the CANTOS trial showed that blocking it with canakinumab cuts cardiovascular events—proving inflammation as a causal, treatable driver of atherosclerosis.
 - `connects-to` → **[TNF-α](../../03-molecular/tnf-alpha/README.md)** — Endothelial activation: TNF-α upregulates adhesion molecules and CCL2 on the endothelium, recruiting the monocytes that become the foam cells of the atherosclerotic plaque.
 - `connects-to` → **[HIF-1α](../../03-molecular/hif-1alpha/README.md)** — Plaque hypoxia: the thickening, metabolically active plaque outgrows its oxygen supply, stabilising HIF-1α to drive the intraplaque angiogenesis and inflammation that destabilise it.
+- `connects-to` → **[TLR4](../../03-molecular/tlr4/README.md)** — OxLDL sensing: TLR4 on plaque macrophages recognises oxidised LDL and other danger signals, igniting the NF-κB inflammation that converts lipid uptake into the chronic immune disease of atherosclerosis.
+- `connects-to` → **[S100A8/A9](../../03-molecular/s100a8-a9/README.md)** — Myeloid alarmin: S100A8/A9 from activated plaque neutrophils and monocytes amplifies vascular inflammation and circulates as a biomarker predicting atherosclerotic cardiovascular events.
+- `connects-to` → **[IFN-γ](../../03-molecular/ifn-gamma/README.md)** — Th1 plaque immunity: IFN-γ from plaque T cells activates macrophages and suppresses smooth-muscle collagen synthesis, thinning the fibrous cap and predisposing the plaque to rupture.
 
 ---
 

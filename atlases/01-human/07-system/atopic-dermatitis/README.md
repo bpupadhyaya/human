@@ -286,6 +286,15 @@ cross_links:
   - target: 01-human/03-molecular/il-6
     relation: connects-to
     note: "Inflammatory amplifier: IL-6 is elevated in atopic dermatitis and correlates with severity, contributing to systemic inflammation and the comorbidities that accompany the disease."
+  - target: 01-human/03-molecular/egfr
+    relation: connects-to
+    note: "Barrier and proliferation: EGFR signalling drives keratinocyte proliferation and barrier repair, and the type 2 cytokines of atopic dermatitis disrupt this and the differentiation that maintains the skin barrier."
+  - target: 01-human/03-molecular/vegf
+    relation: connects-to
+    note: "Dermal vascularity: VEGF rises in atopic dermatitis lesions, driving the dermal angiogenesis and vascular leak that accompany the chronic inflammation of eczematous skin."
+  - target: 01-human/03-molecular/ccl2
+    relation: connects-to
+    note: "Monocyte recruitment: CCL2 helps recruit monocytes and inflammatory cells into atopic dermatitis lesions, supporting the cellular infiltrate that sustains chronic eczema."
 ---
 
 # Atopic Dermatitis
@@ -498,6 +507,9 @@ S. aureus colonizes >90% of AD lesional skin (vs. 20% normal skin):
 - `connects-to` → **[CGRP](../../03-molecular/cgrp/README.md)** — Neurogenic itch: CGRP released from cutaneous sensory nerves drives the neurogenic inflammation and itch-scratch cycle of atopic dermatitis, linking the nervous system to the skin lesions.
 - `connects-to` → **[TNF-α](../../03-molecular/tnf-alpha/README.md)** — Chronic-phase inflammation: TNF-α contributes to the mixed inflammation of chronic, lichenified atopic dermatitis lesions, beyond the Th2 cytokines that dominate the acute phase.
 - `connects-to` → **[IL-6](../../03-molecular/il-6/README.md)** — Inflammatory amplifier: IL-6 is elevated in atopic dermatitis and correlates with severity, contributing to systemic inflammation and the comorbidities that accompany the disease.
+- `connects-to` → **[EGFR](../../03-molecular/egfr/README.md)** — Barrier and proliferation: EGFR signalling drives keratinocyte proliferation and barrier repair, and the type 2 cytokines of atopic dermatitis disrupt this and the differentiation that maintains the skin barrier.
+- `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — Dermal vascularity: VEGF rises in atopic dermatitis lesions, driving the dermal angiogenesis and vascular leak that accompany the chronic inflammation of eczematous skin.
+- `connects-to` → **[CCL2](../../03-molecular/ccl2/README.md)** — Monocyte recruitment: CCL2 helps recruit monocytes and inflammatory cells into atopic dermatitis lesions, supporting the cellular infiltrate that sustains chronic eczema.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
