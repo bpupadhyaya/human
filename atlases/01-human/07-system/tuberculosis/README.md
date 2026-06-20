@@ -277,6 +277,15 @@ cross_links:
   - target: 01-human/03-molecular/il-17a
     relation: connects-to
     note: "Th17 early defence: IL-17/Th17 responses recruit neutrophils and help organise the granuloma in early tuberculosis, complementing the dominant IFN-γ/Th1 response."
+  - target: 01-human/03-molecular/perforin
+    relation: connects-to
+    note: "Cytotoxic killing: CD8 cytotoxic T cells use perforin and granulysin to kill Mtb-infected macrophages, a key arm of immunity against tuberculosis."
+  - target: 01-human/03-molecular/ccl2
+    relation: connects-to
+    note: "Monocyte recruitment: CCL2 draws monocytes into the lung to form the granuloma, the organised immune structure that walls off Mycobacterium tuberculosis."
+  - target: 01-human/03-molecular/hif-1alpha
+    relation: connects-to
+    note: "Granuloma hypoxia: the necrotic core of the TB granuloma is hypoxic, stabilising HIF-1α in macrophages, which shapes their metabolism and bactericidal capacity."
 ---
 
 # Tuberculosis
@@ -497,6 +506,9 @@ Standard **HRZE** regimen [^nahid-2016-tb-treatment]:
 - `connects-to` → **[Fibroblast](../../04-cellular/fibroblast/README.md)** — Building the granuloma wall: fibroblasts lay down the collagen capsule that walls off the tuberculous granuloma, and their dysregulated activity drives the cavitation and lung fibrosis of advanced TB.
 - `connects-to` → **[NLRP3 Inflammasome](../../03-molecular/nlrp3-inflammasome/README.md)** — Inflammasome immunity: Mycobacterium tuberculosis activates the NLRP3 inflammasome to release IL-1β, central to granuloma formation but also to the immunopathology of the disease.
 - `connects-to` → **[IL-17A](../../03-molecular/il-17a/README.md)** — Th17 early defence: IL-17/Th17 responses recruit neutrophils and help organise the granuloma in early tuberculosis, complementing the dominant IFN-γ/Th1 response.
+- `connects-to` → **[Perforin](../../03-molecular/perforin/README.md)** — Cytotoxic killing: CD8 cytotoxic T cells use perforin and granulysin to kill Mtb-infected macrophages, a key arm of immunity against tuberculosis.
+- `connects-to` → **[CCL2](../../03-molecular/ccl2/README.md)** — Monocyte recruitment: CCL2 draws monocytes into the lung to form the granuloma, the organised immune structure that walls off Mycobacterium tuberculosis.
+- `connects-to` → **[HIF-1α](../../03-molecular/hif-1alpha/README.md)** — Granuloma hypoxia: the necrotic core of the TB granuloma is hypoxic, stabilising HIF-1α in macrophages, which shapes their metabolism and bactericidal capacity.
 
 ## See Also
 

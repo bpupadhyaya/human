@@ -277,6 +277,15 @@ cross_links:
   - target: 01-human/03-molecular/cdkn2a
     relation: connects-to
     note: "Anaplastic transformation: CDKN2A loss, releasing the cell-cycle brake, accompanies the dedifferentiation of thyroid cancer into its lethal anaplastic form."
+  - target: 01-human/03-molecular/cyclin-d1
+    relation: connects-to
+    note: "Cell-cycle drive: with CDKN2A loss in anaplastic disease, cyclin D1-CDK4/6 activity propels thyroid cancer cells through the G1 checkpoint."
+  - target: 01-human/03-molecular/myc
+    relation: connects-to
+    note: "Dedifferentiation oncogene: MYC activation drives the proliferation and dedifferentiation of poorly differentiated and anaplastic thyroid cancer."
+  - target: 01-human/03-molecular/hif-1alpha
+    relation: connects-to
+    note: "Tumour hypoxia: HIF-1α stabilised in hypoxic thyroid tumours drives the VEGF angiogenesis and invasive phenotype of more aggressive disease."
 ---
 
 # Thyroid Cancer
@@ -507,6 +516,9 @@ Calcitonin doubling time <6 months → poor prognosis → early systemic therapy
 - `connects-to` → **[ALK](../../03-molecular/alk/README.md)** — Rare targetable fusion: ALK gene fusions are an uncommon but actionable driver in papillary and more aggressive thyroid cancers, treatable with ALK inhibitors.
 - `connects-to` → **[PIK3CA](../../03-molecular/pik3ca/README.md)** — Progression driver: PIK3CA mutation and amplification mark the progression of thyroid cancer toward poorly differentiated and anaplastic disease.
 - `connects-to` → **[CDKN2A](../../03-molecular/cdkn2a/README.md)** — Anaplastic transformation: CDKN2A loss, releasing the cell-cycle brake, accompanies the dedifferentiation of thyroid cancer into its lethal anaplastic form.
+- `connects-to` → **[Cyclin D1](../../03-molecular/cyclin-d1/README.md)** — Cell-cycle drive: with CDKN2A loss in anaplastic disease, cyclin D1-CDK4/6 activity propels thyroid cancer cells through the G1 checkpoint.
+- `connects-to` → **[MYC](../../03-molecular/myc/README.md)** — Dedifferentiation oncogene: MYC activation drives the proliferation and dedifferentiation of poorly differentiated and anaplastic thyroid cancer.
+- `connects-to` → **[HIF-1α](../../03-molecular/hif-1alpha/README.md)** — Tumour hypoxia: HIF-1α stabilised in hypoxic thyroid tumours drives the VEGF angiogenesis and invasive phenotype of more aggressive disease.
 
 [^schlumberger-2015-lenvatinib]: Schlumberger M, Tahara M, Wirth LJ, et al. Lenvatinib versus placebo in radioiodine-refractory differentiated thyroid cancer. *N Engl J Med.* 2015;372(7):621-630. [doi:10.1056/NEJMoa1406470](https://doi.org/10.1056/NEJMoa1406470) · [PubMed 25671254](https://pubmed.ncbi.nlm.nih.gov/25671254/)
 [^subbiah-2018-atc-dabrafenib]: Subbiah V, Kreitman RJ, Wainberg ZA, et al. Dabrafenib and trametinib treatment in patients with locally advanced or metastatic BRAF V600-mutant anaplastic thyroid cancer. *J Clin Oncol.* 2018;36(1):7-13. [doi:10.1200/JCO.2017.73.6785](https://doi.org/10.1200/JCO.2017.73.6785) · [PubMed 28892432](https://pubmed.ncbi.nlm.nih.gov/28892432/)
