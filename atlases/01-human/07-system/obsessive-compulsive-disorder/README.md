@@ -296,6 +296,15 @@ cross_links:
   - target: 01-human/03-molecular/nlrp3-inflammasome
     relation: connects-to
     note: "Inflammasome link: NLRP3-driven IL-1β release from activated microglia is a proposed mechanism connecting innate immune activation to the neurocircuit dysfunction of OCD."
+  - target: 01-human/03-molecular/serotonin-transporter
+    relation: connects-to
+    note: "First-line drug target: high-dose SSRIs blocking the serotonin transporter are the cornerstone of OCD pharmacotherapy, and SERT-gene variation is among the most studied genetic factors in the disorder."
+  - target: 01-human/03-molecular/crh
+    relation: connects-to
+    note: "Stress-axis dysregulation: altered CRH-driven HPA-axis reactivity accompanies OCD, linking chronic stress to symptom exacerbation in the cortico-striatal circuits underlying compulsions."
+  - target: 01-human/03-molecular/il-17a
+    relation: connects-to
+    note: "Th17 and the blood-brain barrier: IL-17A from Th17 cells is implicated in the PANDAS subtype of OCD, where post-streptococcal autoimmunity and barrier disruption let anti-neuronal antibodies reach the basal ganglia."
 ---
 
 # Obsessive-Compulsive Disorder
@@ -513,6 +522,9 @@ OCD is often underdiagnosed due to shame and secrecy. Mean time from symptom ons
 - `connects-to` → **[IL-1β](../../03-molecular/il-1b/README.md)** — Neuroinflammation: elevated IL-1β and microglial activation in cortico-striatal circuits are increasingly implicated in OCD, linking immune signalling to symptom severity.
 - `connects-to` → **[TNF-α](../../03-molecular/tnf-alpha/README.md)** — Inflammatory cytokine: raised TNF-α in OCD supports an immune-mediated component to the disorder, consistent with its overlap with autoimmune and PANDAS-type presentations.
 - `connects-to` → **[NLRP3 Inflammasome](../../03-molecular/nlrp3-inflammasome/README.md)** — Inflammasome link: NLRP3-driven IL-1β release from activated microglia is a proposed mechanism connecting innate immune activation to the neurocircuit dysfunction of OCD.
+- `connects-to` → **[Serotonin Transporter](../../03-molecular/serotonin-transporter/README.md)** — First-line drug target: high-dose SSRIs blocking the serotonin transporter are the cornerstone of OCD pharmacotherapy, and SERT-gene variation is among the most studied genetic factors in the disorder.
+- `connects-to` → **[CRH](../../03-molecular/crh/README.md)** — Stress-axis dysregulation: altered CRH-driven HPA-axis reactivity accompanies OCD, linking chronic stress to symptom exacerbation in the cortico-striatal circuits underlying compulsions.
+- `connects-to` → **[IL-17A](../../03-molecular/il-17a/README.md)** — Th17 and the blood-brain barrier: IL-17A from Th17 cells is implicated in the PANDAS subtype of OCD, where post-streptococcal autoimmunity and barrier disruption let anti-neuronal antibodies reach the basal ganglia.
 
 [^abramowitz-2009-ocd-review]: Abramowitz JS, Taylor S, McKay D. Obsessive-compulsive disorder. *Lancet.* 2009;374(9688):491-499. [doi:10.1016/S0140-6736(09)60240-3](https://doi.org/10.1016/S0140-6736(09)60240-3) · [PubMed 19665647](https://pubmed.ncbi.nlm.nih.gov/19665647/)
 [^chamberlain-2008-ocd-neuroscience]: Chamberlain SR, Menzies L, Hampshire A, et al. Orbitofrontal dysfunction in patients with OCD and their unaffected relatives. *Science.* 2008;321(5887):421-422. [doi:10.1126/science.1154433](https://doi.org/10.1126/science.1154433) · [PubMed 18635808](https://pubmed.ncbi.nlm.nih.gov/18635808/)

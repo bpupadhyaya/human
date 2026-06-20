@@ -289,6 +289,15 @@ cross_links:
   - target: 01-human/03-molecular/ampk
     relation: connects-to
     note: "Energy gauge: AMPK, the cell's low-energy sensor, is blunted in obesity, reducing fat oxidation and glucose uptake—its reactivation is a key target of metformin and exercise."
+  - target: 01-human/03-molecular/ccl2
+    relation: connects-to
+    note: "Adipose macrophage recruitment: CCL2 released by stressed adipocytes draws monocytes into expanding fat, where they become the crown-like macrophages that drive obesity's chronic low-grade inflammation."
+  - target: 01-human/03-molecular/nlrp3-inflammasome
+    relation: connects-to
+    note: "Metabolic inflammasome: excess lipids and danger signals activate the NLRP3 inflammasome in adipose macrophages, releasing IL-1β that impairs insulin signalling and links obesity to type 2 diabetes."
+  - target: 01-human/03-molecular/insulin-receptor
+    relation: connects-to
+    note: "Receptor-level resistance: inflammatory and lipid signals impair insulin-receptor signalling in obese liver, muscle and fat, the molecular core of the insulin resistance that defines metabolic obesity."
 ---
 
 # Obesity
@@ -519,6 +528,9 @@ This **metainflammation** mechanistically links obesity to type 2 diabetes, athe
 - `connects-to` → **[HIF-1α](../../03-molecular/hif-1alpha/README.md)** — Adipose hypoxia: as fat mass outgrows its blood supply, HIF-1α activation in hypoxic adipose tissue drives the inflammation and fibrosis central to obesity's metabolic dysfunction.
 - `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — Nutrient sensing: chronic overnutrition keeps mTOR signalling active in adipose and muscle, promoting fat storage and contributing to the insulin resistance of obesity.
 - `connects-to` → **[AMPK](../../03-molecular/ampk/README.md)** — Energy gauge: AMPK, the cell's low-energy sensor, is blunted in obesity, reducing fat oxidation and glucose uptake—its reactivation is a key target of metformin and exercise.
+- `connects-to` → **[CCL2](../../03-molecular/ccl2/README.md)** — Adipose macrophage recruitment: CCL2 released by stressed adipocytes draws monocytes into expanding fat, where they become the crown-like macrophages that drive obesity's chronic low-grade inflammation.
+- `connects-to` → **[NLRP3 Inflammasome](../../03-molecular/nlrp3-inflammasome/README.md)** — Metabolic inflammasome: excess lipids and danger signals activate the NLRP3 inflammasome in adipose macrophages, releasing IL-1β that impairs insulin signalling and links obesity to type 2 diabetes.
+- `connects-to` → **[Insulin Receptor](../../03-molecular/insulin-receptor/README.md)** — Receptor-level resistance: inflammatory and lipid signals impair insulin-receptor signalling in obese liver, muscle and fat, the molecular core of the insulin resistance that defines metabolic obesity.
 
 [^bluher-2019-obesity-review]: Blüher M. Obesity: global epidemiology and pathogenesis. *Nat Rev Endocrinol.* 2019;15(5):288-298. [doi:10.1038/s41574-019-0176-8](https://doi.org/10.1038/s41574-019-0176-8) · [PubMed 30814686](https://pubmed.ncbi.nlm.nih.gov/30814686/)
 [^wilding-2021-semaglutide-step1]: Wilding JPH, Batterham RL, Calanna S, et al. Once-weekly semaglutide in adults with overweight or obesity. *N Engl J Med.* 2021;384(11):989-1002. [doi:10.1056/NEJMoa2032183](https://doi.org/10.1056/NEJMoa2032183) · [PubMed 33567185](https://pubmed.ncbi.nlm.nih.gov/33567185/)
