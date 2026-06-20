@@ -286,6 +286,15 @@ cross_links:
   - target: 01-human/03-molecular/cyclin-d1
     relation: connects-to
     note: "Cell-cycle drive: the chromosomal instability of Bloom syndrome readily amplifies cyclin D1 and other cell-cycle drivers, pushing damaged cells through the G1 checkpoint into proliferation."
+  - target: 01-human/03-molecular/recql4
+    relation: connects-to
+    note: "RecQ-helicase family: BLM is one of five human RecQ helicases, and its loss in Bloom syndrome parallels the genomic instability and cancer predisposition of RECQL4 (Rothmund-Thomson) and WRN (Werner) disease."
+  - target: 01-human/03-molecular/palb2
+    relation: connects-to
+    note: "Homologous recombination: BLM cooperates with the BRCA-PALB2 homologous-recombination machinery to resolve recombination intermediates, so its loss raises sister-chromatid exchange and cancer risk."
+  - target: 01-human/03-molecular/cdkn2a
+    relation: connects-to
+    note: "Tumour-suppressor loss: the rampant chromosomal instability of Bloom syndrome readily inactivates tumour suppressors like CDKN2A, contributing to the exceptionally broad early-onset cancer spectrum."
 ---
 
 # Bloom Syndrome
@@ -513,6 +522,9 @@ BS is characterized by three cardinal features: **small body size** (the most co
 - `connects-to` → **[MYC](../../03-molecular/myc/README.md)** — Amplification-prone oncogene: the genomic instability of Bloom syndrome favours oncogene amplifications such as MYC, helping drive the broad spectrum of cancers that develop at young ages.
 - `connects-to` → **[TERT](../../03-molecular/tert/README.md)** — Telomere maintenance: BLM helicase normally helps resolve telomeric replication, and its loss stresses telomere maintenance, where TERT reactivation is one route the resulting tumours take to immortality.
 - `connects-to` → **[Cyclin D1](../../03-molecular/cyclin-d1/README.md)** — Cell-cycle drive: the chromosomal instability of Bloom syndrome readily amplifies cyclin D1 and other cell-cycle drivers, pushing damaged cells through the G1 checkpoint into proliferation.
+- `connects-to` → **[RECQL4](../../03-molecular/recql4/README.md)** — RecQ-helicase family: BLM is one of five human RecQ helicases, and its loss in Bloom syndrome parallels the genomic instability and cancer predisposition of RECQL4 (Rothmund-Thomson) and WRN (Werner) disease.
+- `connects-to` → **[PALB2](../../03-molecular/palb2/README.md)** — Homologous recombination: BLM cooperates with the BRCA-PALB2 homologous-recombination machinery to resolve recombination intermediates, so its loss raises sister-chromatid exchange and cancer risk.
+- `connects-to` → **[CDKN2A](../../03-molecular/cdkn2a/README.md)** — Tumour-suppressor loss: the rampant chromosomal instability of Bloom syndrome readily inactivates tumour suppressors like CDKN2A, contributing to the exceptionally broad early-onset cancer spectrum.
 
 ---
 

@@ -292,6 +292,15 @@ cross_links:
   - target: 01-human/03-molecular/hif-1alpha
     relation: connects-to
     note: "Tumour hypoxia: HIF-1α stabilised in hypoxic bladder tumours drives the VEGF angiogenesis and invasive, treatment-resistant phenotype of muscle-invasive disease."
+  - target: 01-human/03-molecular/myc
+    relation: connects-to
+    note: "Amplified oncogene: MYC amplification helps drive the proliferation of muscle-invasive bladder cancer, cooperating with the RTK and cell-cycle lesions of the disease."
+  - target: 01-human/03-molecular/mtor
+    relation: connects-to
+    note: "PI3K-mTOR axis: mTOR signalling downstream of frequent PIK3CA and AKT activation sustains bladder cancer growth, an actionable node in the heavily PI3K-mutated luminal subtype."
+  - target: 01-human/03-molecular/ccl2
+    relation: connects-to
+    note: "Macrophage recruitment: CCL2 draws tumour-associated macrophages into the bladder cancer microenvironment, promoting immune evasion and influencing response to BCG and checkpoint immunotherapy."
 ---
 
 # Bladder Cancer
@@ -504,6 +513,9 @@ NMIBC and MIBC have distinct molecular landscapes:
 - `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — PI3K/AKT activation: PIK3CA mutation and PTEN loss converge on AKT in bladder cancer, driving growth and survival in the luminal molecular subtype.
 - `connects-to` → **[Cyclin D1](../../03-molecular/cyclin-d1/README.md)** — Cell-cycle drive: cyclin D1, often amplified alongside RB1 and CDKN2A loss, pushes bladder cancer cells through the G1 checkpoint to fuel proliferation.
 - `connects-to` → **[HIF-1α](../../03-molecular/hif-1alpha/README.md)** — Tumour hypoxia: HIF-1α stabilised in hypoxic bladder tumours drives the VEGF angiogenesis and invasive, treatment-resistant phenotype of muscle-invasive disease.
+- `connects-to` → **[MYC](../../03-molecular/myc/README.md)** — Amplified oncogene: MYC amplification helps drive the proliferation of muscle-invasive bladder cancer, cooperating with the RTK and cell-cycle lesions of the disease.
+- `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — PI3K-mTOR axis: mTOR signalling downstream of frequent PIK3CA and AKT activation sustains bladder cancer growth, an actionable node in the heavily PI3K-mutated luminal subtype.
+- `connects-to` → **[CCL2](../../03-molecular/ccl2/README.md)** — Macrophage recruitment: CCL2 draws tumour-associated macrophages into the bladder cancer microenvironment, promoting immune evasion and influencing response to BCG and checkpoint immunotherapy.
 
 ---
 
