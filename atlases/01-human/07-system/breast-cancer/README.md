@@ -289,6 +289,15 @@ cross_links:
   - target: 01-human/03-molecular/vegf
     relation: connects-to
     note: "Tumour angiogenesis: VEGF drives the new-vessel growth that feeds breast tumour expansion and metastasis, a hallmark exploited by anti-angiogenic therapy."
+  - target: 01-human/03-molecular/cyclin-d1
+    relation: connects-to
+    note: "Amplified cell-cycle driver: CCND1 (cyclin D1) is amplified in many ER-positive breast cancers, partnering CDK4/6 to push proliferation and underpinning sensitivity to CDK4/6 inhibitors."
+  - target: 01-human/03-molecular/tgf-beta
+    relation: connects-to
+    note: "Metastatic switch: TGF-beta turns from tumour suppressor to driver of epithelial-mesenchymal transition, immune evasion and bone-metastatic spread in advancing breast cancer."
+  - target: 01-human/03-molecular/ccl2
+    relation: connects-to
+    note: "Macrophage recruitment: CCL2 secreted by breast tumours draws tumour-associated macrophages that promote angiogenesis, immune suppression and metastatic seeding of the lung."
 ---
 
 # Breast Cancer
@@ -485,6 +494,9 @@ cross_links:
 - `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — PI3K/AKT axis: AKT, activated downstream of PIK3CA and HER2, drives breast cancer growth and survival and underlies resistance to endocrine therapy, making AKT inhibitors a targeted option.
 - `connects-to` → **[HIF-1α](../../03-molecular/hif-1alpha/README.md)** — Hypoxic aggression: HIF-1α stabilised in hypoxic breast tumours promotes angiogenesis, metastasis and treatment resistance, and marks the more aggressive triple-negative subtypes.
 - `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — Tumour angiogenesis: VEGF drives the new-vessel growth that feeds breast tumour expansion and metastasis, a hallmark exploited by anti-angiogenic therapy.
+- `connects-to` → **[Cyclin D1](../../03-molecular/cyclin-d1/README.md)** — Amplified cell-cycle driver: CCND1 (cyclin D1) is amplified in many ER-positive breast cancers, partnering CDK4/6 to push proliferation and underpinning sensitivity to CDK4/6 inhibitors.
+- `connects-to` → **[TGF-beta](../../03-molecular/tgf-beta/README.md)** — Metastatic switch: TGF-beta turns from tumour suppressor to driver of epithelial-mesenchymal transition, immune evasion and bone-metastatic spread in advancing breast cancer.
+- `connects-to` → **[CCL2](../../03-molecular/ccl2/README.md)** — Macrophage recruitment: CCL2 secreted by breast tumours draws tumour-associated macrophages that promote angiogenesis, immune suppression and metastatic seeding of the lung.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 

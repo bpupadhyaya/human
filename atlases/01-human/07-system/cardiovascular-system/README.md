@@ -294,6 +294,15 @@ cross_links:
   - target: 01-human/03-molecular/il-6
     relation: connects-to
     note: "Vascular inflammation: IL-6 is a central mediator of the inflammation that drives atherosclerosis, and trials targeting the IL-6/CRP axis confirm inflammation as a modifiable cardiovascular risk."
+  - target: 01-human/03-molecular/bnp
+    relation: connects-to
+    note: "Cardiac endocrine hormone: stretched ventricles release BNP to promote natriuresis and vasodilation, opposing the renin-angiotensin system and serving as the key biomarker of heart failure."
+  - target: 01-human/03-molecular/aldosterone
+    relation: connects-to
+    note: "RAAS and remodelling: aldosterone drives sodium retention and direct cardiac and vascular fibrosis, which is why mineralocorticoid-receptor antagonists improve outcomes in heart failure and hypertension."
+  - target: 01-human/03-molecular/pcsk9
+    relation: connects-to
+    note: "Cholesterol and risk: PCSK9 sets circulating LDL by controlling hepatic LDL-receptor turnover, and PCSK9 inhibitors sharply lower LDL and cardiovascular events in the vasculature."
 taxonomy:
   uberon: "UBERON:0004535"
   fma: "FMA:7161"
@@ -468,6 +477,9 @@ Each major vascular bed has **autoregulation** — a local mechanism that holds 
 - `connects-to` → **[Endothelin-1](../../03-molecular/endothelin-1/README.md)** — Vascular tone: endothelin-1, the body's most potent vasoconstrictor, sets vascular resistance against the nitric oxide that opposes it, and its excess drives hypertension and vascular remodelling.
 - `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — Vessel growth: VEGF directs the angiogenesis that builds and repairs the vasculature, governing collateral formation after ischaemia and the neovascularisation of atherosclerotic plaque.
 - `connects-to` → **[IL-6](../../03-molecular/il-6/README.md)** — Vascular inflammation: IL-6 is a central mediator of the inflammation that drives atherosclerosis, and trials targeting the IL-6/CRP axis confirm inflammation as a modifiable cardiovascular risk.
+- `connects-to` → **[BNP](../../03-molecular/bnp/README.md)** — Cardiac endocrine hormone: stretched ventricles release BNP to promote natriuresis and vasodilation, opposing the renin-angiotensin system and serving as the key biomarker of heart failure.
+- `connects-to` → **[Aldosterone](../../03-molecular/aldosterone/README.md)** — RAAS and remodelling: aldosterone drives sodium retention and direct cardiac and vascular fibrosis, which is why mineralocorticoid-receptor antagonists improve outcomes in heart failure and hypertension.
+- `connects-to` → **[PCSK9](../../03-molecular/pcsk9/README.md)** — Cholesterol and risk: PCSK9 sets circulating LDL by controlling hepatic LDL-receptor turnover, and PCSK9 inhibitors sharply lower LDL and cardiovascular events in the vasculature.
 
 ## Pathology
 
