@@ -289,6 +289,15 @@ cross_links:
   - target: 01-human/03-molecular/fibrinogen
     relation: connects-to
     note: "Consumptive coagulopathy: sepsis activates coagulation that consumes fibrinogen into microthrombi, the disseminated intravascular coagulation that drives organ failure and bleeding."
+  - target: 01-human/03-molecular/s100a8-a9
+    relation: connects-to
+    note: "Alarmin amplifier: S100A8/A9 released by activated neutrophils and monocytes is a major DAMP in sepsis, amplifying TLR4-driven inflammation and serving as a biomarker of sepsis severity."
+  - target: 01-human/03-molecular/pd-1
+    relation: connects-to
+    note: "Sepsis immunoparalysis: persistent antigen and inflammation upregulate PD-1, exhausting T cells in the immunosuppressive phase of sepsis that leaves patients vulnerable to secondary infection."
+  - target: 01-human/03-molecular/ccl2
+    relation: connects-to
+    note: "Monocyte mobilisation: CCL2 mobilises and recruits monocytes during sepsis, fuelling the systemic inflammatory response while contributing to tissue infiltration and organ injury."
 ---
 
 # Sepsis
@@ -485,6 +494,9 @@ Sepsis is not localized to one system — it manifests as dysfunction across mul
 - `connects-to` → **[IL-1β](../../03-molecular/il-1b/README.md)** — Pyrogenic alarm: IL-1β released through inflammasome activation drives the fever, vasodilation and endothelial activation of the early hyperinflammatory phase of sepsis.
 - `connects-to` → **[IFN-γ](../../03-molecular/ifn-gamma/README.md)** — Macrophage activation: IFN-γ amplifies the macrophage response in sepsis, and its dysregulation can tip into the macrophage-activation syndrome of overwhelming infection.
 - `connects-to` → **[Fibrinogen](../../03-molecular/fibrinogen/README.md)** — Consumptive coagulopathy: sepsis activates coagulation that consumes fibrinogen into microthrombi, the disseminated intravascular coagulation that drives organ failure and bleeding.
+- `connects-to` → **[S100A8/A9](../../03-molecular/s100a8-a9/README.md)** — Alarmin amplifier: S100A8/A9 released by activated neutrophils and monocytes is a major DAMP in sepsis, amplifying TLR4-driven inflammation and serving as a biomarker of sepsis severity.
+- `connects-to` → **[PD-1](../../03-molecular/pd-1/README.md)** — Sepsis immunoparalysis: persistent antigen and inflammation upregulate PD-1, exhausting T cells in the immunosuppressive phase of sepsis that leaves patients vulnerable to secondary infection.
+- `connects-to` → **[CCL2](../../03-molecular/ccl2/README.md)** — Monocyte mobilisation: CCL2 mobilises and recruits monocytes during sepsis, fuelling the systemic inflammatory response while contributing to tissue infiltration and organ injury.
 - `treated-by` → **[Vancomycin](../../../03-medicine/01-modern/06-antimicrobial/vancomycin/README.md)** — First-line empiric IV therapy for MRSA bacteremia and gram-positive sepsis; added to beta-lactam empiric regimens when MRSA risk is elevated; AUC/MIC-guided dosing (IDSA 2021); MIC ≤1 mg/L required for endocarditis; daptomycin alternative for high MIC.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*

@@ -289,6 +289,15 @@ cross_links:
   - target: 01-human/03-molecular/hif-1alpha
     relation: connects-to
     note: "Hypoxic response: tissue hypoxia from vaso-occlusion stabilises HIF-1α, driving the erythropoietin surge and angiogenic and inflammatory responses of sickle cell disease."
+  - target: 01-human/03-molecular/tlr4
+    relation: connects-to
+    note: "Heme danger signal: free heme released by intravascular haemolysis acts as a TLR4 agonist, driving the sterile inflammation and endothelial activation that initiate vaso-occlusive crises."
+  - target: 01-human/03-molecular/s100a8-a9
+    relation: connects-to
+    note: "Neutrophil alarmin: S100A8/A9 from activated neutrophils amplifies the inflammation and adhesion of sickle cell disease, contributing to the leukocyte-driven vaso-occlusion of painful crises."
+  - target: 01-human/03-molecular/vegf
+    relation: connects-to
+    note: "Ischaemic angiogenesis: chronic hypoxia drives VEGF-mediated neovascularisation, underlying the proliferative sickle retinopathy and aberrant vessel growth that threaten vision in the disease."
 ---
 
 # Sickle Cell Disease
@@ -538,6 +547,9 @@ SCD vaso-occlusion is not just from sickled RBCs mechanically blocking vessels �
 - `connects-to` → **[Endothelin-1](../../03-molecular/endothelin-1/README.md)** — Vaso-occlusive vasoconstriction: free haemoglobin and endothelial injury raise endothelin-1 in sickle cell disease, whose vasoconstriction aggravates vaso-occlusion and pulmonary hypertension.
 - `connects-to` → **[TNF-α](../../03-molecular/tnf-alpha/README.md)** — Inflammatory adhesion: TNF-α from the chronic inflammation of sickle cell disease upregulates endothelial adhesion molecules, promoting the sickle-cell and leukocyte adhesion that triggers vaso-occlusion.
 - `connects-to` → **[HIF-1α](../../03-molecular/hif-1alpha/README.md)** — Hypoxic response: tissue hypoxia from vaso-occlusion stabilises HIF-1α, driving the erythropoietin surge and angiogenic and inflammatory responses of sickle cell disease.
+- `connects-to` → **[TLR4](../../03-molecular/tlr4/README.md)** — Heme danger signal: free heme released by intravascular haemolysis acts as a TLR4 agonist, driving the sterile inflammation and endothelial activation that initiate vaso-occlusive crises.
+- `connects-to` → **[S100A8/A9](../../03-molecular/s100a8-a9/README.md)** — Neutrophil alarmin: S100A8/A9 from activated neutrophils amplifies the inflammation and adhesion of sickle cell disease, contributing to the leukocyte-driven vaso-occlusion of painful crises.
+- `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — Ischaemic angiogenesis: chronic hypoxia drives VEGF-mediated neovascularisation, underlying the proliferative sickle retinopathy and aberrant vessel growth that threaten vision in the disease.
 
 [^steinberg-1999-scd-management]: Steinberg MH. Management of sickle cell disease. *N Engl J Med.* 1999;340(13):1021-1030. [doi:10.1056/NEJM199904013401307](https://doi.org/10.1056/NEJM199904013401307) · [PubMed 10099145](https://pubmed.ncbi.nlm.nih.gov/10099145/)
 [^vichinsky-2000-acs-scd]: Vichinsky EP, Neumayr LD, Earles AN, et al. Causes and outcomes of the acute chest syndrome in sickle cell disease. *N Engl J Med.* 2000;342(25):1855-1865. [doi:10.1056/NEJM200006223422502](https://doi.org/10.1056/NEJM200006223422502) · [PubMed 10861320](https://pubmed.ncbi.nlm.nih.gov/10861320/)
