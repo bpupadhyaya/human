@@ -278,6 +278,15 @@ cross_links:
   - target: 01-human/03-molecular/tgf-beta
     relation: connects-to
     note: "Matrix coupling factor: TGF-β stored in bone matrix couples resorption to formation and orchestrates the repair of muscle, tendon and bone after injury."
+  - target: 01-human/03-molecular/osteopontin
+    relation: connects-to
+    note: "Bone matrix glue: osteopontin in the mineralised matrix anchors osteoclasts to bone for resorption and regulates mineralisation, a key non-collagenous protein of skeletal remodelling."
+  - target: 01-human/03-molecular/thyroid-hormones
+    relation: connects-to
+    note: "Turnover and muscle tone: thyroid hormones set the pace of bone remodelling and skeletal-muscle metabolism, so thyroid excess accelerates bone loss and causes myopathy across the musculoskeletal system."
+  - target: 01-human/03-molecular/vegf
+    relation: connects-to
+    note: "Skeletal angiogenesis: VEGF couples blood-vessel growth to endochondral ossification and fracture repair, and supplies the capillary network that sustains skeletal muscle."
 ---
 
 # Musculoskeletal System
@@ -501,6 +510,9 @@ Chronic exercise drives profound musculoskeletal remodelling [^guyton-hall]:
 - `connects-to` → **[FGF23](../../03-molecular/fgf23/README.md)** — Bone's phosphate hormone: FGF23 secreted by bone osteocytes is the master regulator of phosphate balance, linking the skeleton to the kidney and disturbed in chronic kidney-mineral-bone disease.
 - `connects-to` → **[Leptin](../../03-molecular/leptin/README.md)** — Fat-bone-muscle crosstalk: leptin from adipose tissue regulates bone mass and muscle through central and peripheral pathways, linking adiposity to musculoskeletal health.
 - `connects-to` → **[TGF-β](../../03-molecular/tgf-beta/README.md)** — Matrix coupling factor: TGF-β stored in bone matrix couples resorption to formation and orchestrates the repair of muscle, tendon and bone after injury.
+- `connects-to` → **[Osteopontin](../../03-molecular/osteopontin/README.md)** — Bone matrix glue: osteopontin in the mineralised matrix anchors osteoclasts to bone for resorption and regulates mineralisation, a key non-collagenous protein of skeletal remodelling.
+- `connects-to` → **[Thyroid Hormones](../../03-molecular/thyroid-hormones/README.md)** — Turnover and muscle tone: thyroid hormones set the pace of bone remodelling and skeletal-muscle metabolism, so thyroid excess accelerates bone loss and causes myopathy across the musculoskeletal system.
+- `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — Skeletal angiogenesis: VEGF couples blood-vessel growth to endochondral ossification and fracture repair, and supplies the capillary network that sustains skeletal muscle.
 
 ## Pathology
 
