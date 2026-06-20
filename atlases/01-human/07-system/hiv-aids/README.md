@@ -283,6 +283,15 @@ cross_links:
   - target: 01-human/03-molecular/tnf-alpha
     relation: connects-to
     note: "Wasting and activation: TNF-α from the chronic immune activation of advanced HIV drives the cachexia, fever and systemic inflammation that mark the AIDS-defining state."
+  - target: 01-human/03-molecular/ifn-gamma
+    relation: connects-to
+    note: "Collapse of Th1 defence: loss of CD4 T helper cells cripples IFN-γ-dependent macrophage activation, removing the control of intracellular pathogens and opening the door to the opportunistic infections that define AIDS."
+  - target: 01-human/03-molecular/nlrp3-inflammasome
+    relation: connects-to
+    note: "Pyroptotic depletion: abortive HIV infection of resting CD4 cells triggers inflammasome-driven caspase-1 pyroptosis, the dominant mechanism of CD4 T-cell loss driving progression to AIDS."
+  - target: 01-human/03-molecular/cgas-sting
+    relation: connects-to
+    note: "DNA sensing of the virus: cGAS-STING detection of HIV reverse-transcription intermediates fuels the chronic type-I-interferon response and immune activation that accelerate immune exhaustion in AIDS."
 ---
 
 # HIV/AIDS
@@ -486,6 +495,9 @@ HIV-1 pathogenesis is primarily driven by CD4⁺ T cell loss:
 - `connects-to` → **[Perforin](../../03-molecular/perforin/README.md)** — Failing cytotoxicity: CD8 cytotoxic T cells kill HIV-infected cells with perforin, but as the disease advances toward AIDS this response becomes exhausted and the virus escapes control.
 - `connects-to` → **[Type I Interferon](../../03-molecular/type-i-interferon/README.md)** — Chronic interferon: persistent type-I interferon signalling in untreated HIV paradoxically drives immune exhaustion and activation rather than clearing the virus, contributing to progression to AIDS.
 - `connects-to` → **[TNF-α](../../03-molecular/tnf-alpha/README.md)** — Wasting and activation: TNF-α from the chronic immune activation of advanced HIV drives the cachexia, fever and systemic inflammation that mark the AIDS-defining state.
+- `connects-to` → **[IFN-γ](../../03-molecular/ifn-gamma/README.md)** — Collapse of Th1 defence: loss of CD4 T helper cells cripples IFN-γ-dependent macrophage activation, removing the control of intracellular pathogens and opening the door to the opportunistic infections that define AIDS.
+- `connects-to` → **[NLRP3 Inflammasome](../../03-molecular/nlrp3-inflammasome/README.md)** — Pyroptotic depletion: abortive HIV infection of resting CD4 cells triggers inflammasome-driven caspase-1 pyroptosis, the dominant mechanism of CD4 T-cell loss driving progression to AIDS.
+- `connects-to` → **[cGAS-STING](../../03-molecular/cgas-sting/README.md)** — DNA sensing of the virus: cGAS-STING detection of HIV reverse-transcription intermediates fuels the chronic type-I-interferon response and immune activation that accelerate immune exhaustion in AIDS.
 
 ## See Also
 

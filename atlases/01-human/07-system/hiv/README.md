@@ -292,6 +292,15 @@ cross_links:
   - target: 01-human/03-molecular/il-1b
     relation: connects-to
     note: "Inflammasome and reservoir: IL-1β from infected and bystander myeloid cells fuels the chronic inflammation of HIV, and pyroptotic IL-1β release drives the CD4 T-cell loss of the infection."
+  - target: 01-human/03-molecular/tlr4
+    relation: connects-to
+    note: "Microbial translocation: HIV destruction of the gut barrier lets bacterial LPS reach the circulation and engage TLR4, a major driver of the chronic immune activation that persists even on antiretroviral therapy."
+  - target: 01-human/03-molecular/ccl2
+    relation: connects-to
+    note: "Neuroinvasion: CCL2 recruits HIV-infected monocytes across the blood-brain barrier, seeding the CNS reservoir and the microglial inflammation behind HIV-associated neurocognitive disorder."
+  - target: 01-human/03-molecular/cxcl12
+    relation: connects-to
+    note: "Coreceptor tropism: CXCL12 is the ligand of CXCR4, the alternative HIV coreceptor whose use marks the X4-tropic switch associated with faster CD4 decline and disease progression."
 ---
 
 # HIV
@@ -518,6 +527,9 @@ The **latent reservoir** — HIV integrated into quiescent resting memory CD4+ T
 - `connects-to` → **[Perforin](../../03-molecular/perforin/README.md)** — Cytotoxic control: CD8 T cells use perforin and granzyme to kill HIV-infected cells, the immune response that contains viraemia and whose exhaustion accompanies disease progression.
 - `connects-to` → **[TNF-α](../../03-molecular/tnf-alpha/README.md)** — Chronic immune activation: persistently elevated TNF-α drives the systemic inflammation of HIV that underlies its accelerated cardiovascular disease and frailty even on effective therapy.
 - `connects-to` → **[IL-1β](../../03-molecular/il-1b/README.md)** — Inflammasome and reservoir: IL-1β from infected and bystander myeloid cells fuels the chronic inflammation of HIV, and pyroptotic IL-1β release drives the CD4 T-cell loss of the infection.
+- `connects-to` → **[TLR4](../../03-molecular/tlr4/README.md)** — Microbial translocation: HIV destruction of the gut barrier lets bacterial LPS reach the circulation and engage TLR4, a major driver of the chronic immune activation that persists even on antiretroviral therapy.
+- `connects-to` → **[CCL2](../../03-molecular/ccl2/README.md)** — Neuroinvasion: CCL2 recruits HIV-infected monocytes across the blood-brain barrier, seeding the CNS reservoir and the microglial inflammation behind HIV-associated neurocognitive disorder.
+- `connects-to` → **[CXCL12](../../03-molecular/cxcl12/README.md)** — Coreceptor tropism: CXCL12 is the ligand of CXCR4, the alternative HIV coreceptor whose use marks the X4-tropic switch associated with faster CD4 decline and disease progression.
 
 [^barre-sinoussi-1983-hiv-isolation]: Barré-Sinoussi F, Chermann JC, Rey F, et al. Isolation of a T-lymphotropic retrovirus from a patient at risk for acquired immune deficiency syndrome (AIDS). *Science.* 1983;220(4599):868-871. [doi:10.1126/science.6189183](https://doi.org/10.1126/science.6189183) · [PubMed 6189183](https://pubmed.ncbi.nlm.nih.gov/6189183/)
 [^ho-1995-viral-dynamics]: Ho DD, Neumann AU, Perelson AS, et al. Rapid turnover of plasma virions and CD4 lymphocytes in HIV-1 infection. *Nature.* 1995;373(6510):123-126. [doi:10.1038/373123a0](https://doi.org/10.1038/373123a0) · [PubMed 7816094](https://pubmed.ncbi.nlm.nih.gov/7816094/)
