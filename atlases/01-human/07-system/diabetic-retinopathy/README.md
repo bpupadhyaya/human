@@ -286,6 +286,15 @@ cross_links:
   - target: 01-human/03-molecular/il-1b
     relation: connects-to
     note: "Inflammatory capillary loss: IL-1β and inflammasome activation drive the chronic low-grade inflammation and capillary degeneration underlying diabetic retinopathy."
+  - target: 01-human/03-molecular/ccl2
+    relation: connects-to
+    note: "Leukostasis: CCL2 recruits monocytes that adhere to retinal capillaries (leukostasis), occluding them and contributing to the ischaemia of diabetic retinopathy."
+  - target: 01-human/03-molecular/nlrp3-inflammasome
+    relation: connects-to
+    note: "Inflammasome activation: hyperglycaemia activates the retinal NLRP3 inflammasome, whose IL-1β output drives the inflammation and capillary loss of diabetic retinopathy."
+  - target: 01-human/03-molecular/akt
+    relation: connects-to
+    note: "Pro-survival angiogenesis: VEGF-driven AKT signalling promotes the endothelial proliferation and pathological neovascularisation of proliferative diabetic retinopathy."
 ---
 
 # Diabetic Retinopathy
@@ -485,6 +494,9 @@ DR encompasses a spectrum from subtle vascular changes to sight-threatening neov
 - `connects-to` → **[Angiotensin II](../../03-molecular/angiotensin-ii/README.md)** — Local RAS in the retina: the retinal renin-angiotensin system contributes to diabetic retinopathy, and systemic RAS blockade with ACE inhibitors or ARBs slows its progression.
 - `connects-to` → **[Endothelin-1](../../03-molecular/endothelin-1/README.md)** — Vasoconstriction and ischaemia: endothelin-1-driven vasoconstriction and endothelial dysfunction worsen the retinal ischaemia that drives neovascular diabetic retinopathy.
 - `connects-to` → **[IL-1β](../../03-molecular/il-1b/README.md)** — Inflammatory capillary loss: IL-1β and inflammasome activation drive the chronic low-grade inflammation and capillary degeneration underlying diabetic retinopathy.
+- `connects-to` → **[CCL2](../../03-molecular/ccl2/README.md)** — Leukostasis: CCL2 recruits monocytes that adhere to retinal capillaries (leukostasis), occluding them and contributing to the ischaemia of diabetic retinopathy.
+- `connects-to` → **[NLRP3 Inflammasome](../../03-molecular/nlrp3-inflammasome/README.md)** — Inflammasome activation: hyperglycaemia activates the retinal NLRP3 inflammasome, whose IL-1β output drives the inflammation and capillary loss of diabetic retinopathy.
+- `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — Pro-survival angiogenesis: VEGF-driven AKT signalling promotes the endothelial proliferation and pathological neovascularisation of proliferative diabetic retinopathy.
 
 [^fong-2004-dr-review]: Fong DS, Aiello L, Gardner TW, et al. Diabetic retinopathy. *Diabetes Care.* 2004;27(10):2540-2553. [doi:10.2337/diacare.27.10.2540](https://doi.org/10.2337/diacare.27.10.2540) · [PubMed 15451934](https://pubmed.ncbi.nlm.nih.gov/15451934/)
 [^brown-2015-aflibercept-protocol-t]: Diabetic Retinopathy Clinical Research Network; Wells JA, Glassman AR, et al. Aflibercept, Bevacizumab, or Ranibizumab for Diabetic Macular Edema. *N Engl J Med.* 2015;372(13):1193-1203. [doi:10.1056/NEJMoa1414264](https://doi.org/10.1056/NEJMoa1414264) · [PubMed 25692915](https://pubmed.ncbi.nlm.nih.gov/25692915/)

@@ -292,6 +292,15 @@ cross_links:
   - target: 01-human/03-molecular/il-1b
     relation: connects-to
     note: "Inflammatory amplification: IL-1β participates in the muscle and skin inflammation of dermatomyositis, adding to its interferon-dominated cytokine milieu."
+  - target: 01-human/03-molecular/tnf-alpha
+    relation: connects-to
+    note: "Inflammatory cytokine: TNF-α contributes to the muscle and skin inflammation of dermatomyositis and to the systemic features of the disease."
+  - target: 01-human/03-molecular/il-17a
+    relation: connects-to
+    note: "Th17 contribution: IL-17 participates in the inflammatory infiltrate of dermatomyositis muscle and skin, adding to the dominant interferon response."
+  - target: 01-human/03-molecular/nlrp3-inflammasome
+    relation: connects-to
+    note: "Inflammasome activation: NLRP3-inflammasome activation matures the IL-1β that amplifies the muscle inflammation of dermatomyositis."
 ---
 ---
 
@@ -509,6 +518,9 @@ DM carries a ~3–7× elevated cancer risk overall. Anti-TIF1γ (TRIM33) suppres
 - `connects-to` → **[MHC Class II](../../03-molecular/mhc-class-ii/README.md)** — HLA risk and presentation: specific MHC class II (HLA) alleles predispose to dermatomyositis, and antigen presentation drives the autoimmune attack on muscle and skin.
 - `connects-to` → **[IFN-γ](../../03-molecular/ifn-gamma/README.md)** — Interferon-driven myopathy: alongside the dominant type I interferon signature, IFN-γ contributes to the immune-mediated muscle inflammation of dermatomyositis.
 - `connects-to` → **[IL-1β](../../03-molecular/il-1b/README.md)** — Inflammatory amplification: IL-1β participates in the muscle and skin inflammation of dermatomyositis, adding to its interferon-dominated cytokine milieu.
+- `connects-to` → **[TNF-α](../../03-molecular/tnf-alpha/README.md)** — Inflammatory cytokine: TNF-α contributes to the muscle and skin inflammation of dermatomyositis and to the systemic features of the disease.
+- `connects-to` → **[IL-17A](../../03-molecular/il-17a/README.md)** — Th17 contribution: IL-17 participates in the inflammatory infiltrate of dermatomyositis muscle and skin, adding to the dominant interferon response.
+- `connects-to` → **[NLRP3 Inflammasome](../../03-molecular/nlrp3-inflammasome/README.md)** — Inflammasome activation: NLRP3-inflammasome activation matures the IL-1β that amplifies the muscle inflammation of dermatomyositis.
 
 [^bohan-peter-1975-dm-criteria]: Bohan A, Peter JB. Polymyositis and dermatomyositis. *N Engl J Med.* 1975;292(7):344-347. [doi:10.1056/NEJM197502132920706](https://doi.org/10.1056/NEJM197502132920706) · [PubMed 1090839](https://pubmed.ncbi.nlm.nih.gov/1090839/)
 [^lundberg-2021-iim-classification]: Lundberg IE, et al. 2017 EULAR/ACR classification criteria for adult and juvenile idiopathic inflammatory myopathies. *Arthritis Rheumatol.* 2017;69(12):2271-2282. [doi:10.1002/art.40320](https://doi.org/10.1002/art.40320) · [PubMed 29106061](https://pubmed.ncbi.nlm.nih.gov/29106061/)
