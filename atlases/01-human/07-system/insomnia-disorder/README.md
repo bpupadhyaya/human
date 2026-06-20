@@ -292,6 +292,15 @@ cross_links:
   - target: 01-human/03-molecular/tnf-alpha
     relation: connects-to
     note: "Sleep-regulatory inflammation: TNF-α normally promotes sleep, and its disruption in chronic insomnia both reflects and feeds the low-grade inflammation that raises cardiometabolic risk."
+  - target: 01-human/03-molecular/glutamate
+    relation: connects-to
+    note: "Cortical hyperarousal: elevated glutamatergic tone underlies the cortical hyperarousal central to insomnia, keeping the brain in a wake-like state and opposing the inhibitory drive that initiates sleep."
+  - target: 01-human/03-molecular/dopamine
+    relation: connects-to
+    note: "Wake drive: dopaminergic signalling promotes wakefulness and arousal, and its tone in the evening contributes to the difficulty falling asleep that characterises insomnia."
+  - target: 01-human/03-molecular/ghrelin
+    relation: connects-to
+    note: "Sleep-loss metabolism: the curtailed sleep of insomnia raises ghrelin and lowers satiety signalling, driving the appetite and weight changes that link poor sleep to metabolic disease."
 ---
 
 # Insomnia Disorder
@@ -520,6 +529,9 @@ CBT-I directly targets perpetuating factors.
 - `connects-to` → **[CRH](../../03-molecular/crh/README.md)** — Hyperarousal axis: insomnia is a disorder of hyperarousal driven by overactive CRH and HPA-axis signalling, the stress hormone keeping the brain alert when it should sleep.
 - `connects-to` → **[IL-1β](../../03-molecular/il-1b/README.md)** — Somnogenic cytokine: IL-1β is a physiological sleep regulator, and the dysregulated immune signalling of chronic insomnia disturbs the cytokine balance that normally promotes restorative sleep.
 - `connects-to` → **[TNF-α](../../03-molecular/tnf-alpha/README.md)** — Sleep-regulatory inflammation: TNF-α normally promotes sleep, and its disruption in chronic insomnia both reflects and feeds the low-grade inflammation that raises cardiometabolic risk.
+- `connects-to` → **[Glutamate](../../03-molecular/glutamate/README.md)** — Cortical hyperarousal: elevated glutamatergic tone underlies the cortical hyperarousal central to insomnia, keeping the brain in a wake-like state and opposing the inhibitory drive that initiates sleep.
+- `connects-to` → **[Dopamine](../../03-molecular/dopamine/README.md)** — Wake drive: dopaminergic signalling promotes wakefulness and arousal, and its tone in the evening contributes to the difficulty falling asleep that characterises insomnia.
+- `connects-to` → **[Ghrelin](../../03-molecular/ghrelin/README.md)** — Sleep-loss metabolism: the curtailed sleep of insomnia raises ghrelin and lowers satiety signalling, driving the appetite and weight changes that link poor sleep to metabolic disease.
 
 [^riemann-2017-insomnia-lancet]: Riemann D, Baglioni C, Bassetti C, et al. European guideline for the diagnosis and treatment of insomnia. *J Sleep Res.* 2017;26(6):675-700. [doi:10.1111/jsr.12594](https://doi.org/10.1111/jsr.12594) · [PubMed 28875581](https://pubmed.ncbi.nlm.nih.gov/28875581/)
 [^trauer-2015-cbti-meta]: Trauer JM, Qian MY, Doyle JS, et al. Cognitive behavioral therapy for chronic insomnia. *Ann Intern Med.* 2015;163(3):191-204. [doi:10.7326/M14-2841](https://doi.org/10.7326/M14-2841) · [PubMed 26054060](https://pubmed.ncbi.nlm.nih.gov/26054060/)

@@ -283,6 +283,15 @@ cross_links:
   - target: 01-human/03-molecular/il-1b
     relation: connects-to
     note: "Inflammasome response: NLRP3-driven IL-1β release amplifies airway inflammation and fever in influenza, balancing protective antiviral immunity against lung injury."
+  - target: 01-human/03-molecular/ccl2
+    relation: connects-to
+    note: "Monocyte influx: CCL2 recruits inflammatory monocytes into the influenza-infected lung, where they aid clearance but in severe disease drive the immunopathology behind viral pneumonia and ARDS."
+  - target: 01-human/03-molecular/perforin
+    relation: connects-to
+    note: "Cytotoxic clearance: CD8 T cells eliminate influenza-infected airway cells through perforin and granzyme, essential for recovery but a source of the epithelial damage in severe infection."
+  - target: 01-human/03-molecular/il-17a
+    relation: connects-to
+    note: "Neutrophilic lung injury: IL-17A drives neutrophil recruitment to the influenza-infected airway, contributing to the excessive inflammation and tissue damage of severe and secondary-bacterial pneumonia."
 ---
 
 # Influenza
@@ -507,3 +516,6 @@ Influenza damages mucociliary clearance and exposes basal lamina glycoproteins �
 - `connects-to` → **[TNF-α](../../03-molecular/tnf-alpha/README.md)** — Cytokine storm: TNF-α is a leading driver of the hyperinflammatory cytokine storm that, in severe influenza, injures the lung and causes the systemic illness beyond direct viral damage.
 - `connects-to` → **[IFN-γ](../../03-molecular/ifn-gamma/README.md)** — Antiviral T-cell signal: IFN-γ from T and NK cells activates macrophages and supports viral clearance in influenza, while contributing to the immunopathology of severe infection.
 - `connects-to` → **[IL-1β](../../03-molecular/il-1b/README.md)** — Inflammasome response: NLRP3-driven IL-1β release amplifies airway inflammation and fever in influenza, balancing protective antiviral immunity against lung injury.
+- `connects-to` → **[CCL2](../../03-molecular/ccl2/README.md)** — Monocyte influx: CCL2 recruits inflammatory monocytes into the influenza-infected lung, where they aid clearance but in severe disease drive the immunopathology behind viral pneumonia and ARDS.
+- `connects-to` → **[Perforin](../../03-molecular/perforin/README.md)** — Cytotoxic clearance: CD8 T cells eliminate influenza-infected airway cells through perforin and granzyme, essential for recovery but a source of the epithelial damage in severe infection.
+- `connects-to` → **[IL-17A](../../03-molecular/il-17a/README.md)** — Neutrophilic lung injury: IL-17A drives neutrophil recruitment to the influenza-infected airway, contributing to the excessive inflammation and tissue damage of severe and secondary-bacterial pneumonia.
