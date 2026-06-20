@@ -286,6 +286,15 @@ cross_links:
   - target: 01-human/03-molecular/ccl2
     relation: connects-to
     note: "Recruiting inflammation: CCL2 draws monocytes and macrophages to the inflamed entheses and sacroiliac joints that characterise ankylosing spondylitis."
+  - target: 01-human/03-molecular/il-1b
+    relation: connects-to
+    note: "Innate enthesitis: IL-1β contributes to the innate immune activation at entheses that drives the inflammation and new bone formation of ankylosing spondylitis."
+  - target: 01-human/03-molecular/nlrp3-inflammasome
+    relation: connects-to
+    note: "Inflammasome activation: NLRP3-inflammasome activation matures the IL-1β that adds to the IL-23/IL-17-driven inflammation of ankylosing spondylitis."
+  - target: 01-human/03-molecular/ifn-gamma
+    relation: connects-to
+    note: "Th1 contribution: IFN-γ from Th1 cells participates in the mixed cytokine milieu of the inflamed sacroiliac joints and spine in ankylosing spondylitis."
 ---
 
 # Ankylosing Spondylitis
@@ -484,6 +493,9 @@ AS originates at the **enthesis** — the site where tendons, ligaments, and joi
 - `connects-to` → **[TGF-β](../../03-molecular/tgf-beta/README.md)** — Pathological new bone: TGF-β and BMP signalling drive the abnormal ossification that fuses the spine in ankylosing spondylitis, forming the bridging syndesmophytes.
 - `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — Angiogenesis at entheses: VEGF-driven new-vessel growth accompanies the enthesitis and new bone formation of ankylosing spondylitis.
 - `connects-to` → **[CCL2](../../03-molecular/ccl2/README.md)** — Recruiting inflammation: CCL2 draws monocytes and macrophages to the inflamed entheses and sacroiliac joints that characterise ankylosing spondylitis.
+- `connects-to` → **[IL-1β](../../03-molecular/il-1b/README.md)** — Innate enthesitis: IL-1β contributes to the innate immune activation at entheses that drives the inflammation and new bone formation of ankylosing spondylitis.
+- `connects-to` → **[NLRP3 Inflammasome](../../03-molecular/nlrp3-inflammasome/README.md)** — Inflammasome activation: NLRP3-inflammasome activation matures the IL-1β that adds to the IL-23/IL-17-driven inflammation of ankylosing spondylitis.
+- `connects-to` → **[IFN-γ](../../03-molecular/ifn-gamma/README.md)** — Th1 contribution: IFN-γ from Th1 cells participates in the mixed cytokine milieu of the inflamed sacroiliac joints and spine in ankylosing spondylitis.
 
 [^sieper-2015-ankylosing-spondylitis-review]: Sieper J, Poddubnyy D. Ankylosing spondylitis. *Lancet.* 2017;390(10089):73-84. [doi:10.1016/S0140-6736(16)31591-4](https://doi.org/10.1016/S0140-6736(16)31591-4) · [PubMed 28110981](https://pubmed.ncbi.nlm.nih.gov/28110981/)
 [^baeten-2015-secukinumab-as]: Baeten D, Sieper J, Braun J, et al. Secukinumab, an Interleukin-17A Inhibitor, in Ankylosing Spondylitis. *N Engl J Med.* 2015;373(26):2534-2548. [doi:10.1056/NEJMoa1505066](https://doi.org/10.1056/NEJMoa1505066) · [PubMed 26699169](https://pubmed.ncbi.nlm.nih.gov/26699169/)

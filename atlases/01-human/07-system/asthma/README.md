@@ -286,6 +286,15 @@ cross_links:
   - target: 01-human/03-molecular/il-1b
     relation: connects-to
     note: "Neutrophilic axis: IL-1β and inflammasome activation characterise the neutrophilic, non-Th2, steroid-resistant form of severe asthma, distinct from eosinophilic disease."
+  - target: 01-human/03-molecular/tnf-alpha
+    relation: connects-to
+    note: "Severe-asthma inflammation: TNF-α drives the neutrophilic inflammation and airway hyperresponsiveness of severe, steroid-resistant asthma."
+  - target: 01-human/03-molecular/ccl2
+    relation: connects-to
+    note: "Cell recruitment: CCL2 draws monocytes and other inflammatory cells into the asthmatic airway, contributing to the chronic inflammation and remodelling."
+  - target: 01-human/03-molecular/ifn-gamma
+    relation: connects-to
+    note: "Th1/neutrophilic asthma: IFN-γ from Th1 cells characterises the non-eosinophilic, often steroid-resistant asthma endotype, contrasting with the Th2 form."
 ---
 
 # Asthma
@@ -484,6 +493,9 @@ Asthma affects approximately **339 million people worldwide** (WHO 2019) and is 
 - `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — Airway remodelling: VEGF drives the angiogenesis and vascular remodelling of the chronically inflamed asthmatic airway wall, contributing to fixed airflow obstruction.
 - `connects-to` → **[Leptin](../../03-molecular/leptin/README.md)** — Obese-asthma phenotype: leptin from excess adipose tissue promotes airway inflammation and links obesity to a distinct, often steroid-resistant asthma phenotype.
 - `connects-to` → **[IL-1β](../../03-molecular/il-1b/README.md)** — Neutrophilic axis: IL-1β and inflammasome activation characterise the neutrophilic, non-Th2, steroid-resistant form of severe asthma, distinct from eosinophilic disease.
+- `connects-to` → **[TNF-α](../../03-molecular/tnf-alpha/README.md)** — Severe-asthma inflammation: TNF-α drives the neutrophilic inflammation and airway hyperresponsiveness of severe, steroid-resistant asthma.
+- `connects-to` → **[CCL2](../../03-molecular/ccl2/README.md)** — Cell recruitment: CCL2 draws monocytes and other inflammatory cells into the asthmatic airway, contributing to the chronic inflammation and remodelling.
+- `connects-to` → **[IFN-γ](../../03-molecular/ifn-gamma/README.md)** — Th1/neutrophilic asthma: IFN-γ from Th1 cells characterises the non-eosinophilic, often steroid-resistant asthma endotype, contrasting with the Th2 form.
 
 [^gina-2023-asthma]: Global Initiative for Asthma. Global Strategy for Asthma Management and Prevention. 2023. [ginasthma.org](https://ginasthma.org/2023-gina-main-report/)
 [^wenzel-2012-asthma-phenotypes]: Wenzel SE. Asthma phenotypes: the evolution from clinical to molecular approaches. *Nat Med.* 2012;18(5):716-725. [doi:10.1038/nm.2678](https://doi.org/10.1038/nm.2678) · [PubMed 22561835](https://pubmed.ncbi.nlm.nih.gov/22561835/)
