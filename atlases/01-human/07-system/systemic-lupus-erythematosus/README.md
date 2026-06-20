@@ -286,6 +286,15 @@ cross_links:
   - target: 01-human/04-cellular/natural-killer-cell
     relation: connects-to
     note: "Defective clearance: NK-cell number and cytotoxic function are reduced in lupus, impairing the clearance of apoptotic cells and contributing to the autoantigen exposure that drives autoimmunity."
+  - target: 01-human/03-molecular/s100a8-a9
+    relation: connects-to
+    note: "NETosis and biomarker: low-density granulocytes in lupus release neutrophil extracellular traps rich in S100A8/A9, exposing self-DNA that drives the type-I interferon response, with calprotectin tracking disease activity."
+  - target: 01-human/03-molecular/il-17a
+    relation: connects-to
+    note: "Th17 tissue injury: IL-17A-producing T cells expand in lupus and infiltrate the kidney, contributing to the inflammation of lupus nephritis alongside the dominant interferon and antibody mechanisms."
+  - target: 01-human/03-molecular/mhc-class-ii
+    relation: connects-to
+    note: "Autoantigen presentation: HLA class II molecules present nucleosome and other self-peptides to CD4 T cells, the genetic-risk-linked step that licenses autoreactive B-cell help in systemic lupus."
 ---
 
 # Systemic Lupus Erythematosus
@@ -499,6 +508,9 @@ Highly polygenic disease with >100 susceptibility loci; heritability ~66%:
 - `connects-to` → **[IL-6](../../03-molecular/il-6/README.md)** — Inflammatory amplifier: IL-6 drives B-cell help, autoantibody production and acute-phase inflammation in lupus, and is among the cytokines targeted to control disease activity.
 - `connects-to` → **[IFN-γ](../../03-molecular/ifn-gamma/README.md)** — Th1 axis: IFN-γ complements the type-I interferon signature of lupus, promoting macrophage activation and the tissue inflammation of nephritis and other organ involvement.
 - `connects-to` → **[Natural Killer Cell](../../04-cellular/natural-killer-cell/README.md)** — Defective clearance: NK-cell number and cytotoxic function are reduced in lupus, impairing the clearance of apoptotic cells and contributing to the autoantigen exposure that drives autoimmunity.
+- `connects-to` → **[S100A8/A9](../../03-molecular/s100a8-a9/README.md)** — NETosis and biomarker: low-density granulocytes in lupus release neutrophil extracellular traps rich in S100A8/A9, exposing self-DNA that drives the type-I interferon response, with calprotectin tracking disease activity.
+- `connects-to` → **[IL-17A](../../03-molecular/il-17a/README.md)** — Th17 tissue injury: IL-17A-producing T cells expand in lupus and infiltrate the kidney, contributing to the inflammation of lupus nephritis alongside the dominant interferon and antibody mechanisms.
+- `connects-to` → **[MHC Class II](../../03-molecular/mhc-class-ii/README.md)** — Autoantigen presentation: HLA class II molecules present nucleosome and other self-peptides to CD4 T cells, the genetic-risk-linked step that licenses autoreactive B-cell help in systemic lupus.
 
 [^tsokos-2011-sle-review]: Tsokos GC. Systemic lupus erythematosus. *N Engl J Med.* 2011;365(22):2110-2121. [doi:10.1056/NEJMra1100359](https://doi.org/10.1056/NEJMra1100359) · [PubMed 22129253](https://pubmed.ncbi.nlm.nih.gov/22129253/)
 [^furie-2011-belimumab]: Furie R, Petri M, Zamani O, et al. A phase III, randomized, placebo-controlled study of belimumab, a monoclonal antibody that inhibits B lymphocyte stimulator, in patients with systemic lupus erythematosus. *Arthritis Rheum.* 2011;63(12):3918-3930. [doi:10.1002/art.30613](https://doi.org/10.1002/art.30613) · [PubMed 22127708](https://pubmed.ncbi.nlm.nih.gov/22127708/)

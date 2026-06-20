@@ -282,6 +282,15 @@ cross_links:
   - target: 01-human/03-molecular/il-5
     relation: connects-to
     note: "Eosinophil recruitment: IL-5 mobilised during the Th2 response to RSV draws eosinophils into the airways, contributing to mucus and the post-bronchiolitis wheezing phenotype."
+  - target: 01-human/03-molecular/nlrp3-inflammasome
+    relation: connects-to
+    note: "Inflammasome activation: RSV viroporin SH and other viral proteins trigger the NLRP3 inflammasome in airway cells, releasing IL-1β that amplifies the inflammation of severe bronchiolitis."
+  - target: 01-human/03-molecular/il-17a
+    relation: connects-to
+    note: "Neutrophilic airways: IL-17A drives the neutrophil-dominated airway inflammation and mucus hypersecretion that mark severe RSV bronchiolitis, distinct from the eosinophilic Th2 arm."
+  - target: 01-human/03-molecular/ccl2
+    relation: connects-to
+    note: "Inflammatory recruitment: CCL2 produced by infected airway epithelium draws monocytes and macrophages into the lung, fuelling the immunopathology that obstructs the small airways in RSV bronchiolitis."
 ---
 
 # RSV
@@ -514,3 +523,6 @@ Radiological findings: Hyperinflation, peribronchial thickening, occasional atel
 - `connects-to` → **[RIG-I](../../03-molecular/rig-i/README.md)** — Viral RNA sensing: the RIG-I receptor detects RSV genomic RNA and signals through MAVS to launch the type-I interferon response that constrains the infection.
 - `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — Th2 skewing: RSV bronchiolitis biases the infant immune response toward IL-4-driven Th2 inflammation, a pathway linked to the later development of wheeze and asthma.
 - `connects-to` → **[IL-5](../../03-molecular/il-5/README.md)** — Eosinophil recruitment: IL-5 mobilised during the Th2 response to RSV draws eosinophils into the airways, contributing to mucus and the post-bronchiolitis wheezing phenotype.
+- `connects-to` → **[NLRP3 Inflammasome](../../03-molecular/nlrp3-inflammasome/README.md)** — Inflammasome activation: RSV viroporin SH and other viral proteins trigger the NLRP3 inflammasome in airway cells, releasing IL-1β that amplifies the inflammation of severe bronchiolitis.
+- `connects-to` → **[IL-17A](../../03-molecular/il-17a/README.md)** — Neutrophilic airways: IL-17A drives the neutrophil-dominated airway inflammation and mucus hypersecretion that mark severe RSV bronchiolitis, distinct from the eosinophilic Th2 arm.
+- `connects-to` → **[CCL2](../../03-molecular/ccl2/README.md)** — Inflammatory recruitment: CCL2 produced by infected airway epithelium draws monocytes and macrophages into the lung, fuelling the immunopathology that obstructs the small airways in RSV bronchiolitis.
