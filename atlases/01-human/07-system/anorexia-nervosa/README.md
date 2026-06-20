@@ -292,6 +292,15 @@ cross_links:
   - target: 01-human/03-molecular/adiponectin
     relation: connects-to
     note: "Adipose paradox: despite minimal fat mass, adiponectin is often paradoxically elevated in anorexia nervosa, part of the metabolic adaptation to chronic starvation."
+  - target: 01-human/03-molecular/insulin
+    relation: connects-to
+    note: "Refeeding driver: the insulin surge when carbohydrate is reintroduced after starvation drives potassium, phosphate and magnesium into cells, the mechanism of the potentially fatal refeeding syndrome in anorexia nervosa."
+  - target: 01-human/03-molecular/serotonin-transporter
+    relation: connects-to
+    note: "Serotonergic trait: altered serotonin-transporter function is linked to the anxiety, perfectionism and harm-avoidance of anorexia nervosa, and underlies the SSRIs trialled (with limited efficacy at low weight)."
+  - target: 01-human/03-molecular/tnf-alpha
+    relation: connects-to
+    note: "Starvation cytokines: TNF-α and other pro-inflammatory cytokines are altered in anorexia nervosa despite low fat mass, contributing to the appetite suppression and cachexia-like wasting of the illness."
 ---
 
 # Anorexia Nervosa
@@ -524,6 +533,9 @@ In healthy individuals, food cues activate the mesolimbic reward circuit (VTA �
 - `connects-to` → **[Neuropeptide Y](../../03-molecular/npy/README.md)** — Hunger signal overridden: neuropeptide Y, the brain's most potent orexigenic peptide, rises in the starved anorexic state yet fails to restore eating, highlighting the disorder's disrupted appetite regulation.
 - `connects-to` → **[Oxytocin](../../03-molecular/oxytocin/README.md)** — Social and feeding peptide: oxytocin signalling is altered in anorexia nervosa, linked to its disturbed social cognition, anxiety and the abnormal processing of food and body-image cues.
 - `connects-to` → **[Adiponectin](../../03-molecular/adiponectin/README.md)** — Adipose paradox: despite minimal fat mass, adiponectin is often paradoxically elevated in anorexia nervosa, part of the metabolic adaptation to chronic starvation.
+- `connects-to` → **[Insulin](../../03-molecular/insulin/README.md)** — Refeeding driver: the insulin surge when carbohydrate is reintroduced after starvation drives potassium, phosphate and magnesium into cells, the mechanism of the potentially fatal refeeding syndrome in anorexia nervosa.
+- `connects-to` → **[Serotonin Transporter](../../03-molecular/serotonin-transporter/README.md)** — Serotonergic trait: altered serotonin-transporter function is linked to the anxiety, perfectionism and harm-avoidance of anorexia nervosa, and underlies the SSRIs trialled (with limited efficacy at low weight).
+- `connects-to` → **[TNF-α](../../03-molecular/tnf-alpha/README.md)** — Starvation cytokines: TNF-α and other pro-inflammatory cytokines are altered in anorexia nervosa despite low fat mass, contributing to the appetite suppression and cachexia-like wasting of the illness.
 
 [^treasure-2010-an-lancet]: Treasure J, Claudino AM, Zucker N. Eating disorders. *Lancet.* 2010;375(9714):583-593. [doi:10.1016/S0140-6736(09)61748-7](https://doi.org/10.1016/S0140-6736(09)61748-7) · [PubMed 19931176](https://pubmed.ncbi.nlm.nih.gov/19931176/)
 [^lock-2010-fbt-an]: Lock J, Le Grange D, Agras WS, et al. Randomized clinical trial comparing family-based treatment with adolescent-focused individual therapy for adolescents with anorexia nervosa. *Arch Gen Psychiatry.* 2010;67(10):1025-1032. [doi:10.1001/archgenpsychiatry.2010.128](https://doi.org/10.1001/archgenpsychiatry.2010.128) · [PubMed 20921118](https://pubmed.ncbi.nlm.nih.gov/20921118/)

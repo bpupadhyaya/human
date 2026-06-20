@@ -289,6 +289,15 @@ cross_links:
   - target: 01-human/07-system/anca-vasculitis
     relation: connects-to
     note: "Vasculitic anaemia: the systemic inflammation of ANCA-associated vasculitis drives an anaemia of chronic disease, often compounded by renal failure and alveolar haemorrhage."
+  - target: 01-human/03-molecular/activin-a
+    relation: connects-to
+    note: "Hepcidin and erythroid block: activin/BMP signalling induces hepcidin and impairs erythroid maturation, a pathway distinct from IL-6 that activin ligand-traps (luspatercept) target to relieve inflammatory anaemia."
+  - target: 01-human/03-molecular/tlr4
+    relation: connects-to
+    note: "Microbial hepcidin induction: TLR4 sensing of bacterial products directly drives hepatocyte hepcidin in infection, locking away iron as part of the host iron-withholding defence that produces anaemia of inflammation."
+  - target: 01-human/03-molecular/s100a8-a9
+    relation: connects-to
+    note: "Nutritional immunity: S100A8/A9 (calprotectin) sequesters iron and other metals from pathogens during inflammation, part of the same metal-withholding host response whose chronic activation causes anaemia of chronic disease."
 ---
 
 # Anemia of Chronic Disease
@@ -503,6 +512,9 @@ This adaptive rationale explains why **aggressive iron supplementation during ac
 - `connects-to` → **[IL-1β](../../03-molecular/il-1b/README.md)** — Hepcidin inducer: IL-1β from activated macrophages stimulates hepcidin production and suppresses erythropoiesis, a key inflammatory driver of the iron-restricted anaemia of inflammation.
 - `connects-to` → **[NLRP3 Inflammasome](../../03-molecular/nlrp3-inflammasome/README.md)** — Inflammasome source: NLRP3-inflammasome activation matures the IL-1β that, with IL-6, sustains the hepcidin-driven iron sequestration of anaemia of chronic disease.
 - `connects-to` → **[ANCA Vasculitis](../anca-vasculitis/README.md)** — Vasculitic anaemia: the systemic inflammation of ANCA-associated vasculitis drives an anaemia of chronic disease, often compounded by renal failure and alveolar haemorrhage.
+- `connects-to` → **[Activin A](../../03-molecular/activin-a/README.md)** — Hepcidin and erythroid block: activin/BMP signalling induces hepcidin and impairs erythroid maturation, a pathway distinct from IL-6 that activin ligand-traps (luspatercept) target to relieve inflammatory anaemia.
+- `connects-to` → **[TLR4](../../03-molecular/tlr4/README.md)** — Microbial hepcidin induction: TLR4 sensing of bacterial products directly drives hepatocyte hepcidin in infection, locking away iron as part of the host iron-withholding defence that produces anaemia of inflammation.
+- `connects-to` → **[S100A8/A9](../../03-molecular/s100a8-a9/README.md)** — Nutritional immunity: S100A8/A9 (calprotectin) sequesters iron and other metals from pathogens during inflammation, part of the same metal-withholding host response whose chronic activation causes anaemia of chronic disease.
 
 [^weiss-2005-acd-review]: Weiss G, Goodnough LT. Anemia of chronic disease. *N Engl J Med.* 2005;352(10):1011-1023. [doi:10.1056/NEJMra041809](https://doi.org/10.1056/NEJMra041809) · [PubMed 15758012](https://pubmed.ncbi.nlm.nih.gov/15758012/)
 [^nemeth-2004-il6-hepcidin]: Nemeth E, Rivera S, Gabayan V, et al. IL-6 mediates hypoferremia of inflammation by inducing the synthesis of the iron regulatory hormone hepcidin. *J Clin Invest.* 2004;113(9):1271-1276. [doi:10.1172/JCI200420945](https://doi.org/10.1172/JCI200420945) · [PubMed 15124018](https://pubmed.ncbi.nlm.nih.gov/15124018/)
