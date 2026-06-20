@@ -280,6 +280,15 @@ cross_links:
   - target: 01-human/03-molecular/adiponectin
     relation: connects-to
     note: "The adiponectin paradox: adiponectin rises in advanced heart failure and, counter to its metabolic benefits, high levels track with disease severity and worse outcomes."
+  - target: 01-human/03-molecular/il-6
+    relation: connects-to
+    note: "Inflammatory prognosis: circulating IL-6 is elevated in heart failure and predicts severity and mortality, reflecting the chronic inflammation that contributes to myocardial remodelling and cachexia."
+  - target: 01-human/03-molecular/nlrp3-inflammasome
+    relation: connects-to
+    note: "Sterile inflammation: NLRP3 inflammasome activation in cardiac macrophages and fibroblasts drives IL-1β release after injury, promoting adverse remodelling and fibrosis in heart failure — an emerging therapeutic target."
+  - target: 01-human/03-molecular/mtor
+    relation: connects-to
+    note: "Hypertrophic growth: chronic mTOR signalling drives pathological cardiomyocyte hypertrophy and maladaptive remodelling, while its modulation is studied to limit progression to heart failure."
 ---
 
 # Heart Failure
@@ -440,6 +449,9 @@ Normal hearts increase stroke volume with increasing preload (Starling curve). T
 - `connects-to` → **[Endothelin-1](../../03-molecular/endothelin-1/README.md)** — Maladaptive vasoconstriction: endothelin-1 drives vasoconstriction and cardiac fibrosis in heart failure, a neurohormonal axis that worsens afterload and remodelling.
 - `connects-to` → **[TNF-α](../../03-molecular/tnf-alpha/README.md)** — Cardiac cachexia: TNF-α and chronic inflammation drive the muscle and fat wasting of cardiac cachexia, a marker of advanced, poor-prognosis heart failure.
 - `connects-to` → **[Adiponectin](../../03-molecular/adiponectin/README.md)** — The adiponectin paradox: adiponectin rises in advanced heart failure and, counter to its metabolic benefits, high levels track with disease severity and worse outcomes.
+- `connects-to` → **[Interleukin-6](../../03-molecular/il-6/README.md)** — Inflammatory prognosis: circulating IL-6 is elevated in heart failure and predicts severity and mortality, reflecting the chronic inflammation that contributes to myocardial remodelling and cachexia.
+- `connects-to` → **[NLRP3 Inflammasome](../../03-molecular/nlrp3-inflammasome/README.md)** — Sterile inflammation: NLRP3 inflammasome activation in cardiac macrophages and fibroblasts drives IL-1β release after injury, promoting adverse remodelling and fibrosis in heart failure — an emerging therapeutic target.
+- `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — Hypertrophic growth: chronic mTOR signalling drives pathological cardiomyocyte hypertrophy and maladaptive remodelling, while its modulation is studied to limit progression to heart failure.
 
 ## Pathology
 

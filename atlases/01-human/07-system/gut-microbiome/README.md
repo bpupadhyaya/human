@@ -280,6 +280,15 @@ cross_links:
   - target: 01-human/07-system/fibromyalgia
     relation: connects-to
     note: "Gut-brain pain axis: gut dysbiosis is increasingly implicated in fibromyalgia, with altered microbiome composition linked to its central pain and fatigue through the gut-brain axis."
+  - target: 01-human/03-molecular/il-17a
+    relation: connects-to
+    note: "Th17 induction: segmented filamentous and other commensal bacteria drive intestinal Th17 cells and IL-17A, a microbiome-tuned arm of mucosal defence that, when dysregulated, fuels autoimmune and inflammatory disease."
+  - target: 01-human/03-molecular/bdnf
+    relation: connects-to
+    note: "Gut-brain signalling: germ-free and dysbiotic states alter hippocampal BDNF expression, one molecular link by which the microbiome shapes mood, anxiety and cognition along the gut-brain axis."
+  - target: 01-human/03-molecular/leptin
+    relation: connects-to
+    note: "Metabolic crosstalk: microbial composition and short-chain fatty acids modulate leptin levels and central leptin sensitivity, tying the gut microbiome to appetite regulation and obesity."
 ---
 
 # Gut Microbiome
@@ -445,6 +454,9 @@ The microbiome influences CNS function via multiple pathways:
 - `connects-to` → **[GLP-1](../../03-molecular/glp-1/README.md)** — SCFA-driven incretin: short-chain fatty acids produced by gut bacteria stimulate enteroendocrine GLP-1 secretion, linking the microbiome to appetite and glucose control.
 - `connects-to` → **[B Cell](../../04-cellular/b-cell/README.md)** — Shaping mucosal antibodies: the gut microbiome drives the development of mucosal B cells and their secretory IgA, tuning the antibody repertoire that polices the gut.
 - `connects-to` → **[Fibromyalgia](../fibromyalgia/README.md)** — Gut-brain pain axis: gut dysbiosis is increasingly implicated in fibromyalgia, with altered microbiome composition linked to its central pain and fatigue through the gut-brain axis.
+- `connects-to` → **[IL-17A](../../03-molecular/il-17a/README.md)** — Th17 induction: segmented filamentous and other commensal bacteria drive intestinal Th17 cells and IL-17A, a microbiome-tuned arm of mucosal defence that, when dysregulated, fuels autoimmune and inflammatory disease.
+- `connects-to` → **[BDNF](../../03-molecular/bdnf/README.md)** — Gut-brain signalling: germ-free and dysbiotic states alter hippocampal BDNF expression, one molecular link by which the microbiome shapes mood, anxiety and cognition along the gut-brain axis.
+- `connects-to` → **[Leptin](../../03-molecular/leptin/README.md)** — Metabolic crosstalk: microbial composition and short-chain fatty acids modulate leptin levels and central leptin sensitivity, tying the gut microbiome to appetite regulation and obesity.
 
 ## Pathology
 
