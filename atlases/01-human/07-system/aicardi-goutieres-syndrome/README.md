@@ -285,6 +285,15 @@ cross_links:
   - target: 01-human/03-molecular/nlrp3-inflammasome
     relation: connects-to
     note: "Nucleic-acid-driven inflammasome: the self-DNA and self-RNA that accumulate in Aicardi-Goutières can also engage the NLRP3 inflammasome, broadening the innate response beyond the interferon axis."
+  - target: 01-human/03-molecular/ccl2
+    relation: connects-to
+    note: "Interferon-induced chemokine: the sustained type I interferon of Aicardi-Goutières drives CCL2 that recruits monocytes and lymphocytes into the brain, contributing to the white-matter injury and calcification."
+  - target: 01-human/03-molecular/perforin
+    relation: connects-to
+    note: "Cytotoxic neuroinflammation: CD8 T cells activated by the chronic interferon milieu use perforin-mediated cytotoxicity within the Aicardi-Goutières brain, adding adaptive injury to the innate-driven damage."
+  - target: 01-human/03-molecular/autophagy
+    relation: connects-to
+    note: "Defective nucleic-acid clearance: autophagy normally degrades cytosolic DNA and damaged organelles that activate cGAS-STING, so impaired autophagic clearance amplifies the self-nucleic-acid sensing central to Aicardi-Goutières."
 ---
 
 # Aicardi-Goutières Syndrome
@@ -468,6 +477,9 @@ Severe early-onset AGS (TREX1 homozygous, RNASEH2A): death in childhood from res
 - `connects-to` → **[TBK1](../../03-molecular/tbk1/README.md)** — Interferon switch: TBK1 sits downstream of the cGAS-STING and RIG-I sensors that are dysregulated in Aicardi-Goutières, phosphorylating IRF3 to drive the chronic type-I interferon production that defines the disease.
 - `connects-to` → **[IL-1β](../../03-molecular/il-1b/README.md)** — Neuroinflammatory amplification: the chronic innate-immune activation of Aicardi-Goutières recruits microglia that release IL-1β, adding to the inflammatory injury of the developing brain.
 - `connects-to` → **[NLRP3 Inflammasome](../../03-molecular/nlrp3-inflammasome/README.md)** — Nucleic-acid-driven inflammasome: the self-DNA and self-RNA that accumulate in Aicardi-Goutières can also engage the NLRP3 inflammasome, broadening the innate response beyond the interferon axis.
+- `connects-to` → **[CCL2](../../03-molecular/ccl2/README.md)** — Interferon-induced chemokine: the sustained type I interferon of Aicardi-Goutières drives CCL2 that recruits monocytes and lymphocytes into the brain, contributing to the white-matter injury and calcification.
+- `connects-to` → **[Perforin](../../03-molecular/perforin/README.md)** — Cytotoxic neuroinflammation: CD8 T cells activated by the chronic interferon milieu use perforin-mediated cytotoxicity within the Aicardi-Goutières brain, adding adaptive injury to the innate-driven damage.
+- `connects-to` → **[Autophagy](../../03-molecular/autophagy/README.md)** — Defective nucleic-acid clearance: autophagy normally degrades cytosolic DNA and damaged organelles that activate cGAS-STING, so impaired autophagic clearance amplifies the self-nucleic-acid sensing central to Aicardi-Goutières.
 
 ---
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*

@@ -289,6 +289,15 @@ cross_links:
   - target: 01-human/03-molecular/hif-1alpha
     relation: connects-to
     note: "Vascular hypoxia: cerebral hypoperfusion in Alzheimer's stabilises HIF-1α, linking the vascular contribution to dementia with amyloid processing and neuronal stress responses."
+  - target: 01-human/03-molecular/cgas-sting
+    relation: connects-to
+    note: "DNA-sensing neuroinflammation: leaked mitochondrial DNA activates the cGAS-STING pathway in microglia and neurons in Alzheimer's, an emerging driver of the type-I-interferon response and tau pathology."
+  - target: 01-human/03-molecular/ccl2
+    relation: connects-to
+    note: "Monocyte recruitment: CCL2 produced in the Alzheimer's brain recruits peripheral monocytes and activates microglia around plaques, amplifying the neuroinflammation linked to cognitive decline."
+  - target: 01-human/03-molecular/mtor
+    relation: connects-to
+    note: "Impaired clearance: overactive mTOR suppresses the autophagy needed to clear amyloid-β and tau aggregates, and its inhibition (rapamycin) is neuroprotective in Alzheimer's models."
 ---
 
 # Alzheimer's Disease
@@ -478,6 +487,9 @@ Microglia play a central, dual role in AD:
 - `connects-to` → **[TNF-α](../../03-molecular/tnf-alpha/README.md)** — Neuroinflammation: TNF-α released by activated microglia around amyloid plaques amplifies the chronic inflammation that accelerates synaptic loss and neurodegeneration in Alzheimer's.
 - `connects-to` → **[IL-1β](../../03-molecular/il-1b/README.md)** — Microglial driver: IL-1β from plaque-associated microglia is a central inflammatory mediator in Alzheimer's, promoting tau phosphorylation and the neurotoxic glial response.
 - `connects-to` → **[HIF-1α](../../03-molecular/hif-1alpha/README.md)** — Vascular hypoxia: cerebral hypoperfusion in Alzheimer's stabilises HIF-1α, linking the vascular contribution to dementia with amyloid processing and neuronal stress responses.
+- `connects-to` → **[cGAS-STING](../../03-molecular/cgas-sting/README.md)** — DNA-sensing neuroinflammation: leaked mitochondrial DNA activates the cGAS-STING pathway in microglia and neurons in Alzheimer's, an emerging driver of the type-I-interferon response and tau pathology.
+- `connects-to` → **[CCL2](../../03-molecular/ccl2/README.md)** — Monocyte recruitment: CCL2 produced in the Alzheimer's brain recruits peripheral monocytes and activates microglia around plaques, amplifying the neuroinflammation linked to cognitive decline.
+- `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — Impaired clearance: overactive mTOR suppresses the autophagy needed to clear amyloid-β and tau aggregates, and its inhibition (rapamycin) is neuroprotective in Alzheimer's models.
 
 [^selkoe-2016-alzheimer]: Selkoe DJ, Hardy J. The amyloid hypothesis of Alzheimer's disease at 25 years. *EMBO Mol Med.* 2016;8(6):595-608. [doi:10.15252/emmm.201606210](https://doi.org/10.15252/emmm.201606210) · [PubMed 27025652](https://pubmed.ncbi.nlm.nih.gov/27025652/)
 [^jack-2018-nia-aa]: Jack CR Jr, Bennett DA, Blennow K, et al. NIA-AA Research Framework: Toward a biological definition of Alzheimer's disease. *Alzheimers Dement.* 2018;14(4):535-562. [doi:10.1016/j.jalz.2018.02.018](https://doi.org/10.1016/j.jalz.2018.02.018) · [PubMed 29653606](https://pubmed.ncbi.nlm.nih.gov/29653606/)
