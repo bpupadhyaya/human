@@ -282,6 +282,15 @@ cross_links:
   - target: 01-human/03-molecular/nlrp3-inflammasome
     relation: connects-to
     note: "Inflammasome sensing: the NLRP3 inflammasome detects West Nile virus and matures IL-1β, a double-edged response that restrains the virus yet aggravates CNS inflammation."
+  - target: 01-human/03-molecular/ccr5
+    relation: connects-to
+    note: "Leukocyte trafficking to the brain: CCR5 directs protective leukocytes into the West Nile-infected CNS, and the CCR5-Δ32 loss-of-function variant markedly raises the risk of symptomatic and fatal neuroinvasive disease."
+  - target: 01-human/03-molecular/ccl2
+    relation: connects-to
+    note: "Monocyte recruitment: CCL2 draws inflammatory monocytes across the blood-brain barrier in West Nile encephalitis, aiding viral clearance while contributing to the immunopathology of the infection."
+  - target: 01-human/03-molecular/perforin
+    relation: connects-to
+    note: "Cytotoxic clearance: CD8 T cells use perforin and granzyme to eliminate West Nile virus from infected neurons, a defence essential for survival that can also injure the neurons it protects."
 ---
 
 # West Nile Virus
@@ -490,3 +499,6 @@ WNV has evolved a multilayered strategy to evade innate immunity:
 - `connects-to` → **[IFN-γ](../../03-molecular/ifn-gamma/README.md)** — Antiviral defence: IFN-γ from T and NK cells is critical for controlling West Nile virus and clearing it from the CNS, with deficiency predisposing to severe neuroinvasive disease.
 - `connects-to` → **[IL-1β](../../03-molecular/il-1b/README.md)** — Neuroinflammation: IL-1β from activated microglia drives the inflammatory response to West Nile encephalitis, contributing both to viral control and to bystander neuronal injury.
 - `connects-to` → **[NLRP3 Inflammasome](../../03-molecular/nlrp3-inflammasome/README.md)** — Inflammasome sensing: the NLRP3 inflammasome detects West Nile virus and matures IL-1β, a double-edged response that restrains the virus yet aggravates CNS inflammation.
+- `connects-to` → **[CCR5](../../03-molecular/ccr5/README.md)** — Leukocyte trafficking to the brain: CCR5 directs protective leukocytes into the West Nile-infected CNS, and the CCR5-Δ32 loss-of-function variant markedly raises the risk of symptomatic and fatal neuroinvasive disease.
+- `connects-to` → **[CCL2](../../03-molecular/ccl2/README.md)** — Monocyte recruitment: CCL2 draws inflammatory monocytes across the blood-brain barrier in West Nile encephalitis, aiding viral clearance while contributing to the immunopathology of the infection.
+- `connects-to` → **[Perforin](../../03-molecular/perforin/README.md)** — Cytotoxic clearance: CD8 T cells use perforin and granzyme to eliminate West Nile virus from infected neurons, a defence essential for survival that can also injure the neurons it protects.

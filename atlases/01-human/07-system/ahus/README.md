@@ -289,6 +289,15 @@ cross_links:
   - target: 01-human/03-molecular/angiotensin-ii
     relation: connects-to
     note: "Malignant hypertension: renal microangiopathy in aHUS activates the renin-angiotensin system, and the resulting angiotensin-II-driven hypertension can itself drive a self-perpetuating TMA."
+  - target: 01-human/03-molecular/pf4
+    relation: connects-to
+    note: "Platelet microthrombi: complement attack on the aHUS endothelium activates platelets to release PF4 and form the platelet-rich microthrombi that consume platelets and occlude the renal microvasculature."
+  - target: 01-human/03-molecular/s100a8-a9
+    relation: connects-to
+    note: "Neutrophil thromboinflammation: S100A8/A9 and neutrophil extracellular traps released in aHUS further activate complement and the endothelium, amplifying the thrombotic microangiopathy."
+  - target: 01-human/03-molecular/tlr4
+    relation: connects-to
+    note: "Heme danger signal: free heme from the intravascular haemolysis of aHUS acts as a TLR4 agonist, driving endothelial inflammation that compounds the complement-mediated microvascular injury."
 ---
 
 # Atypical HUS
@@ -541,6 +550,9 @@ Repeated TMA episodes → glomerular fibrosis → CKD → ESRD
 - `connects-to` → **[Nitric Oxide](../../03-molecular/nitric-oxide/README.md)** — Endothelial dysfunction: complement injury to the endothelium in aHUS cuts nitric oxide production, removing the vessel's vasodilator and antithrombotic brake and worsening the microangiopathy.
 - `connects-to` → **[Endothelin-1](../../03-molecular/endothelin-1/README.md)** — Vasoconstrictor surge: injured endothelium in aHUS releases endothelin-1, whose vasoconstriction aggravates the renal ischaemia and severe hypertension of the thrombotic microangiopathy.
 - `connects-to` → **[Angiotensin II](../../03-molecular/angiotensin-ii/README.md)** — Malignant hypertension: renal microangiopathy in aHUS activates the renin-angiotensin system, and the resulting angiotensin-II-driven hypertension can itself drive a self-perpetuating TMA.
+- `connects-to` → **[PF4](../../03-molecular/pf4/README.md)** — Platelet microthrombi: complement attack on the aHUS endothelium activates platelets to release PF4 and form the platelet-rich microthrombi that consume platelets and occlude the renal microvasculature.
+- `connects-to` → **[S100A8/A9](../../03-molecular/s100a8-a9/README.md)** — Neutrophil thromboinflammation: S100A8/A9 and neutrophil extracellular traps released in aHUS further activate complement and the endothelium, amplifying the thrombotic microangiopathy.
+- `connects-to` → **[TLR4](../../03-molecular/tlr4/README.md)** — Heme danger signal: free heme from the intravascular haemolysis of aHUS acts as a TLR4 agonist, driving endothelial inflammation that compounds the complement-mediated microvascular injury.
 
 [^fakhouri-2017-ahus-lancet]: Fakhouri F, Zuber J, Frémeaux-Bacchi V, Loirat C. Haemolytic uraemic syndrome. *Lancet.* 2017;390(10095):681-696. [doi:10.1016/S0140-6736(17)30062-4](https://doi.org/10.1016/S0140-6736(17)30062-4) · [PubMed 28242109](https://pubmed.ncbi.nlm.nih.gov/28242109/)
 [^legendre-2013-eculizumab-ahus-nejm]: Legendre CM, Licht C, Muus P, et al. Terminal complement inhibitor eculizumab in atypical hemolytic-uremic syndrome. *N Engl J Med.* 2013;368(23):2169-2181. [doi:10.1056/NEJMoa1208981](https://doi.org/10.1056/NEJMoa1208981) · [PubMed 23738544](https://pubmed.ncbi.nlm.nih.gov/23738544/)
