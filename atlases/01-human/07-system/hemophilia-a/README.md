@@ -286,6 +286,15 @@ cross_links:
   - target: 01-human/03-molecular/vegf
     relation: connects-to
     note: "Synovial neovascularisation: VEGF-driven new-vessel growth in the iron-laden hemophilic synovium creates fragile vessels that rebleed, perpetuating the cycle of joint destruction."
+  - target: 01-human/03-molecular/il-1b
+    relation: connects-to
+    note: "Cartilage breakdown: IL-1β released after recurrent hemarthrosis drives chondrocyte matrix-metalloproteinase production, degrading articular cartilage in hemophilic arthropathy independent of the synovial inflammation."
+  - target: 01-human/03-molecular/pdgf
+    relation: connects-to
+    note: "Synovial hyperplasia: PDGF from activated platelets and macrophages after joint bleeds stimulates fibroblast and synoviocyte proliferation, thickening the hemophilic synovium toward chronic destructive disease."
+  - target: 01-human/03-molecular/tgf-beta
+    relation: connects-to
+    note: "Joint fibrosis: TGF-beta drives the fibrotic remodelling and contracture of chronically bled hemophilic joints, converting recurrent hemarthrosis into fixed deformity and stiffness."
 ---
 
 # Hemophilia A
@@ -496,6 +505,9 @@ FVIII is a critical **amplifier** of the coagulation cascade at the junction bet
 - `connects-to` → **[RANKL](../../03-molecular/rankl/README.md)** — Joint destruction: recurrent haemarthrosis in haemophilia drives RANKL-mediated bone and cartilage resorption, the basis of the crippling hemophilic arthropathy.
 - `connects-to` → **[TNF-α](../../03-molecular/tnf-alpha/README.md)** — Iron-driven synovitis: blood and iron deposited in joints by repeated bleeds trigger TNF-α-rich synovial inflammation that perpetuates hemophilic joint damage.
 - `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — Synovial neovascularisation: VEGF-driven new-vessel growth in the iron-laden hemophilic synovium creates fragile vessels that rebleed, perpetuating the cycle of joint destruction.
+- `connects-to` → **[IL-1β](../../03-molecular/il-1b/README.md)** — Cartilage breakdown: IL-1β released after recurrent hemarthrosis drives chondrocyte matrix-metalloproteinase production, degrading articular cartilage in hemophilic arthropathy independent of the synovial inflammation.
+- `connects-to` → **[PDGF](../../03-molecular/pdgf/README.md)** — Synovial hyperplasia: PDGF from activated platelets and macrophages after joint bleeds stimulates fibroblast and synoviocyte proliferation, thickening the hemophilic synovium toward chronic destructive disease.
+- `connects-to` → **[TGF-beta](../../03-molecular/tgf-beta/README.md)** — Joint fibrosis: TGF-beta drives the fibrotic remodelling and contracture of chronically bled hemophilic joints, converting recurrent hemarthrosis into fixed deformity and stiffness.
 
 [^oldenburg-2017-emicizumab-haven1]: Oldenburg J, Mahlangu JN, Kim B, et al. Emicizumab prophylaxis in hemophilia A with inhibitors. *N Engl J Med.* 2017;377(9):809-818. [doi:10.1056/NEJMoa1703068](https://doi.org/10.1056/NEJMoa1703068) · [PubMed 28691557](https://pubmed.ncbi.nlm.nih.gov/28691557/)
 [^mahlangu-2018-emicizumab-haven3]: Mahlangu J, Oldenburg J, Paz-Priel I, et al. Emicizumab prophylaxis in patients who have hemophilia A without inhibitors. *N Engl J Med.* 2018;379(9):811-822. [doi:10.1056/NEJMoa1803550](https://doi.org/10.1056/NEJMoa1803550) · [PubMed 30157389](https://pubmed.ncbi.nlm.nih.gov/30157389/)
