@@ -286,6 +286,15 @@ cross_links:
   - target: 01-human/03-molecular/hif-1alpha
     relation: connects-to
     note: "Glycolytic metabolism: MYC and HIF-1α together drive the aerobic glycolysis (Warburg effect) that fuels the extreme proliferative rate of Burkitt lymphoma."
+  - target: 01-human/03-molecular/pik3ca
+    relation: connects-to
+    note: "Tonic BCR-PI3K: chronic tonic B-cell-receptor signalling through PI3K cooperates with MYC in Burkitt lymphoma, a recurrently mutated pathway essential for the malignant B cells' survival."
+  - target: 01-human/03-molecular/xanthine-oxidase
+    relation: connects-to
+    note: "Tumour lysis syndrome: the explosive cell turnover of Burkitt lymphoma floods the blood with purines that xanthine oxidase converts to uric acid, causing the tumour lysis syndrome that rasburicase and allopurinol prevent."
+  - target: 01-human/03-molecular/caspase-3
+    relation: connects-to
+    note: "Apoptotic priming: high MYC primes Burkitt cells for apoptosis, so chemotherapy readily triggers caspase-3-mediated cell death — the basis of the tumour's striking chemosensitivity and curability."
 ---
 
 # Burkitt Lymphoma
@@ -510,6 +519,9 @@ FISH for MYC, BCL2, and BCL6 is essential; if BCL2 FISH negative and Ki-67 ~100%
 - `connects-to` → **[Cyclin D1](../../03-molecular/cyclin-d1/README.md)** — Cell-cycle acceleration: MYC translocation in Burkitt lymphoma drives cyclin D and the cell-cycle machinery, producing the near-100% proliferative fraction that defines the disease.
 - `connects-to` → **[TERT](../../03-molecular/tert/README.md)** — Replicative immortality: TERT activation maintains telomeres in the explosively dividing Burkitt cells, sustaining the limitless proliferation MYC unleashes.
 - `connects-to` → **[HIF-1α](../../03-molecular/hif-1alpha/README.md)** — Glycolytic metabolism: MYC and HIF-1α together drive the aerobic glycolysis (Warburg effect) that fuels the extreme proliferative rate of Burkitt lymphoma.
+- `connects-to` → **[PIK3CA](../../03-molecular/pik3ca/README.md)** — Tonic BCR-PI3K: chronic tonic B-cell-receptor signalling through PI3K cooperates with MYC in Burkitt lymphoma, a recurrently mutated pathway essential for the malignant B cells' survival.
+- `connects-to` → **[Xanthine Oxidase](../../03-molecular/xanthine-oxidase/README.md)** — Tumour lysis syndrome: the explosive cell turnover of Burkitt lymphoma floods the blood with purines that xanthine oxidase converts to uric acid, causing the tumour lysis syndrome that rasburicase and allopurinol prevent.
+- `connects-to` → **[Caspase-3](../../03-molecular/caspase-3/README.md)** — Apoptotic priming: high MYC primes Burkitt cells for apoptosis, so chemotherapy readily triggers caspase-3-mediated cell death — the basis of the tumour's striking chemosensitivity and curability.
 
 ---
 

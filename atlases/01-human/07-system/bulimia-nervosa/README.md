@@ -288,6 +288,15 @@ cross_links:
   - target: 01-human/03-molecular/melatonin
     relation: connects-to
     note: "Circadian disruption: disturbed melatonin and circadian rhythm in bulimia relate to the night-time bingeing and sleep disruption common in the disorder."
+  - target: 01-human/03-molecular/mu-opioid-receptor
+    relation: connects-to
+    note: "Binge reward: mu-opioid signalling mediates the rewarding, relieving quality of binge eating in bulimia, and opioid antagonists like naltrexone are studied to reduce binge-purge behaviour."
+  - target: 01-human/03-molecular/glutamate
+    relation: connects-to
+    note: "Impulse control: glutamatergic cortico-striatal circuits govern the inhibitory control that fails during binge episodes, the system the anticonvulsant topiramate dampens to reduce bingeing in bulimia."
+  - target: 01-human/03-molecular/aldosterone
+    relation: connects-to
+    note: "Purging pseudo-Bartter: repeated vomiting and laxative abuse cause volume depletion that activates aldosterone, producing the secondary hyperaldosteronism and hypokalaemia that endanger bulimia patients."
 ---
 
 # Bulimia Nervosa
@@ -507,6 +516,9 @@ All of the following must be met:
 - `connects-to` → **[Serotonin Transporter](../../03-molecular/serotonin-transporter/README.md)** — SSRI target: the serotonin transporter is the target of fluoxetine, the only drug approved for bulimia nervosa, and altered serotonin reuptake is central to its appetite and mood dysregulation.
 - `connects-to` → **[CRH](../../03-molecular/crh/README.md)** — Stress-axis dysregulation: CRH-driven HPA-axis overactivity in bulimia links chronic stress to the binge-purge cycle and the disturbed appetite and mood that characterise the disorder.
 - `connects-to` → **[Melatonin](../../03-molecular/melatonin/README.md)** — Circadian disruption: disturbed melatonin and circadian rhythm in bulimia relate to the night-time bingeing and sleep disruption common in the disorder.
+- `connects-to` → **[Mu-Opioid Receptor](../../03-molecular/mu-opioid-receptor/README.md)** — Binge reward: mu-opioid signalling mediates the rewarding, relieving quality of binge eating in bulimia, and opioid antagonists like naltrexone are studied to reduce binge-purge behaviour.
+- `connects-to` → **[Glutamate](../../03-molecular/glutamate/README.md)** — Impulse control: glutamatergic cortico-striatal circuits govern the inhibitory control that fails during binge episodes, the system the anticonvulsant topiramate dampens to reduce bingeing in bulimia.
+- `connects-to` → **[Aldosterone](../../03-molecular/aldosterone/README.md)** — Purging pseudo-Bartter: repeated vomiting and laxative abuse cause volume depletion that activates aldosterone, producing the secondary hyperaldosteronism and hypokalaemia that endanger bulimia patients.
 
 ## Treatment
 
