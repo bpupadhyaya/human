@@ -289,6 +289,15 @@ cross_links:
   - target: 01-human/03-molecular/nlrp3-inflammasome
     relation: connects-to
     note: "Innate priming: NLRP3-inflammasome activation and the IL-1β it releases help drive the Th17 response increasingly implicated in the autoimmunity of myasthenia gravis."
+  - target: 01-human/03-molecular/calcineurin
+    relation: connects-to
+    note: "Immunosuppressant target: calcineurin inhibitors such as tacrolimus and ciclosporin suppress the autoreactive T-cell help that drives anti-AChR antibody production, a mainstay of myasthenia gravis therapy."
+  - target: 01-human/03-molecular/il-2
+    relation: connects-to
+    note: "Regulatory T-cell axis: defective IL-2-dependent regulatory T-cell function permits the autoreactivity of myasthenia gravis, and low-dose IL-2 to expand Tregs is under investigation as therapy."
+  - target: 01-human/03-molecular/ccl2
+    relation: connects-to
+    note: "Thymic recruitment: CCL2 draws inflammatory monocytes into the hyperplastic thymus and neuromuscular tissue of myasthenia gravis, supporting the germinal-centre autoimmunity against the acetylcholine receptor."
 ---
 
 # Myasthenia Gravis
@@ -490,6 +499,9 @@ cross_links:
 - `connects-to` → **[IFN-γ](../../03-molecular/ifn-gamma/README.md)** — Th1 help: IFN-γ from autoreactive T-helper cells promotes the germinal-centre reactions in the hyperplastic thymus that generate the anti-AChR antibodies of myasthenia gravis.
 - `connects-to` → **[TNF-α](../../03-molecular/tnf-alpha/README.md)** — Inflammatory milieu: TNF-α within the thymic and neuromuscular environment supports the autoimmune response of myasthenia gravis, and its levels track with disease activity.
 - `connects-to` → **[NLRP3 Inflammasome](../../03-molecular/nlrp3-inflammasome/README.md)** — Innate priming: NLRP3-inflammasome activation and the IL-1β it releases help drive the Th17 response increasingly implicated in the autoimmunity of myasthenia gravis.
+- `connects-to` → **[Calcineurin](../../03-molecular/calcineurin/README.md)** — Immunosuppressant target: calcineurin inhibitors such as tacrolimus and ciclosporin suppress the autoreactive T-cell help that drives anti-AChR antibody production, a mainstay of myasthenia gravis therapy.
+- `connects-to` → **[IL-2](../../03-molecular/il-2/README.md)** — Regulatory T-cell axis: defective IL-2-dependent regulatory T-cell function permits the autoreactivity of myasthenia gravis, and low-dose IL-2 to expand Tregs is under investigation as therapy.
+- `connects-to` → **[CCL2](../../03-molecular/ccl2/README.md)** — Thymic recruitment: CCL2 draws inflammatory monocytes into the hyperplastic thymus and neuromuscular tissue of myasthenia gravis, supporting the germinal-centre autoimmunity against the acetylcholine receptor.
 
 [^gilhus-2016-mg-review]: Gilhus NE. Myasthenia Gravis. *N Engl J Med.* 2016;375(26):2570-2581. [doi:10.1056/NEJMra1602678](https://doi.org/10.1056/NEJMra1602678) · [PubMed 28029925](https://pubmed.ncbi.nlm.nih.gov/28029925/)
 [^howard-2021-efgartigimod-adapt]: Howard JF Jr, Bril V, Vu T, et al. Safety, efficacy, and tolerability of efgartigimod in patients with generalised myasthenia gravis (ADAPT). *Lancet Neurol.* 2021;20(7):526-536. [doi:10.1016/S1474-4422(21)00159-9](https://doi.org/10.1016/S1474-4422(21)00159-9) · [PubMed 34146511](https://pubmed.ncbi.nlm.nih.gov/34146511/)

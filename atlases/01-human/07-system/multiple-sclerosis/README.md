@@ -289,6 +289,15 @@ cross_links:
   - target: 01-human/03-molecular/osteopontin
     relation: connects-to
     note: "Relapse biomarker: osteopontin is elevated in MS lesions and CSF, promoting the survival of autoreactive T cells and tracking with relapse and disease activity."
+  - target: 01-human/03-molecular/baff
+    relation: connects-to
+    note: "B-cell survival: BAFF supports the autoreactive B cells and meningeal lymphoid follicles increasingly recognised in MS, part of the rationale behind the dramatic efficacy of anti-CD20 B-cell depletion."
+  - target: 01-human/03-molecular/il-6
+    relation: connects-to
+    note: "Th17 differentiation: IL-6 with TGF-beta drives the pathogenic Th17 cells that breach the blood-brain barrier and orchestrate the demyelinating attacks of multiple sclerosis."
+  - target: 01-human/03-molecular/ccl2
+    relation: connects-to
+    note: "CNS trafficking: CCL2 helps recruit monocytes and autoreactive leukocytes across the blood-brain barrier into MS lesions, contributing to the inflammatory demyelination."
 ---
 
 # Multiple Sclerosis
@@ -489,6 +498,9 @@ MS affects approximately **2.8 million people worldwide** (~1 million in the US)
 - `connects-to` → **[IFN-γ](../../03-molecular/ifn-gamma/README.md)** — Th1 demyelination: IFN-γ from autoreactive T-helper cells activates microglia and macrophages to attack myelin, a central cytokine of the inflammatory lesions of multiple sclerosis.
 - `connects-to` → **[TNF-α](../../03-molecular/tnf-alpha/README.md)** — Inflammatory injury: TNF-α contributes to the oligodendrocyte damage and blood-brain-barrier breakdown of MS lesions, though paradoxically anti-TNF therapy worsens the disease.
 - `connects-to` → **[Osteopontin](../../03-molecular/osteopontin/README.md)** — Relapse biomarker: osteopontin is elevated in MS lesions and CSF, promoting the survival of autoreactive T cells and tracking with relapse and disease activity.
+- `connects-to` → **[BAFF](../../03-molecular/baff/README.md)** — B-cell survival: BAFF supports the autoreactive B cells and meningeal lymphoid follicles increasingly recognised in MS, part of the rationale behind the dramatic efficacy of anti-CD20 B-cell depletion.
+- `connects-to` → **[Interleukin-6](../../03-molecular/il-6/README.md)** — Th17 differentiation: IL-6 with TGF-beta drives the pathogenic Th17 cells that breach the blood-brain barrier and orchestrate the demyelinating attacks of multiple sclerosis.
+- `connects-to` → **[CCL2](../../03-molecular/ccl2/README.md)** — CNS trafficking: CCL2 helps recruit monocytes and autoreactive leukocytes across the blood-brain barrier into MS lesions, contributing to the inflammatory demyelination.
 
 [^compston-2008-ms-review]: Compston A, Coles A. Multiple sclerosis. *Lancet.* 2008;372(9648):1502-1517. [doi:10.1016/S0140-6736(08)61620-7](https://doi.org/10.1016/S0140-6736(08)61620-7) · [PubMed 18970977](https://pubmed.ncbi.nlm.nih.gov/18970977/)
 [^kappos-2006-natalizumab]: Polman CH, O'Connor PW, Havrdova E, et al. A randomized, placebo-controlled trial of natalizumab for relapsing multiple sclerosis. *N Engl J Med.* 2006;354(9):899-910. [doi:10.1056/NEJMoa044397](https://doi.org/10.1056/NEJMoa044397) · [PubMed 16510744](https://pubmed.ncbi.nlm.nih.gov/16510744/)
