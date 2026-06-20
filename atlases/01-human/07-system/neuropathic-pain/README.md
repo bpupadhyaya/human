@@ -267,6 +267,15 @@ cross_links:
   - target: 01-human/03-molecular/npy
     relation: connects-to
     note: "Injured-neuron signal: neuropeptide Y is strongly upregulated in injured sensory neurons and modulates the abnormal signalling underlying neuropathic pain."
+  - target: 01-human/03-molecular/ccl2
+    relation: connects-to
+    note: "Microglial recruitment: nerve injury drives CCL2 release that recruits and activates spinal microglia and monocytes through CCR2, a key chemokine axis initiating the neuroinflammation behind neuropathic pain."
+  - target: 01-human/03-molecular/tlr4
+    relation: connects-to
+    note: "Danger-signal sensing: TLR4 on glia detects DAMPs released by injured nerves, triggering the microglial activation and cytokine release that establish central sensitisation in neuropathic pain."
+  - target: 01-human/03-molecular/serotonin-transporter
+    relation: connects-to
+    note: "Descending modulation: serotonin-transporter activity sets serotonergic tone in descending pain pathways, the target of SNRIs like duloxetine that are first-line drugs for neuropathic pain."
 sources:
   - id: jensen-2011-neuropathic-pain-review
     type: peer-reviewed
@@ -513,6 +522,9 @@ Chronic neuropathic pain carries significant psychological burden:
 - `connects-to` → **[NLRP3 Inflammasome](../../03-molecular/nlrp3-inflammasome/README.md)** — Glial inflammasome: NLRP3-inflammasome activation in microglia and macrophages around injured nerves sustains the neuroinflammation that drives neuropathic pain.
 - `connects-to` → **[IL-1β](../../03-molecular/il-1b/README.md)** — Neuronal sensitisation: IL-1β released by activated glia sensitises nociceptive neurons, lowering their firing threshold to produce the hypersensitivity of neuropathic pain.
 - `connects-to` → **[Neuropeptide Y](../../03-molecular/npy/README.md)** — Injured-neuron signal: neuropeptide Y is strongly upregulated in injured sensory neurons and modulates the abnormal signalling underlying neuropathic pain.
+- `connects-to` → **[CCL2](../../03-molecular/ccl2/README.md)** — Microglial recruitment: nerve injury drives CCL2 release that recruits and activates spinal microglia and monocytes through CCR2, a key chemokine axis initiating the neuroinflammation behind neuropathic pain.
+- `connects-to` → **[TLR4](../../03-molecular/tlr4/README.md)** — Danger-signal sensing: TLR4 on glia detects DAMPs released by injured nerves, triggering the microglial activation and cytokine release that establish central sensitisation in neuropathic pain.
+- `connects-to` → **[Serotonin Transporter](../../03-molecular/serotonin-transporter/README.md)** — Descending modulation: serotonin-transporter activity sets serotonergic tone in descending pain pathways, the target of SNRIs like duloxetine that are first-line drugs for neuropathic pain.
 
 [^jensen-2011-neuropathic-pain-review]: Jensen TS, Baron R, Haanpää M, et al. A new definition of neuropathic pain. *Pain.* 2011;152(10):2204-2205. [doi:10.1016/j.pain.2011.06.017](https://doi.org/10.1016/j.pain.2011.06.017) · [PubMed 21764514](https://pubmed.ncbi.nlm.nih.gov/21764514/)
 [^dworkin-2010-neuropathic-pain-treatment]: Dworkin RH, O'Connor AB, Audette J, et al. Recommendations for the pharmacological management of neuropathic pain. *Mayo Clin Proc.* 2010;85(3 Suppl):S3-14. [doi:10.4065/mcp.2009.0649](https://doi.org/10.4065/mcp.2009.0649) · [PubMed 20194146](https://pubmed.ncbi.nlm.nih.gov/20194146/)

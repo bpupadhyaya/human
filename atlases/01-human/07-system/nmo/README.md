@@ -292,6 +292,15 @@ cross_links:
   - target: 01-human/03-molecular/nlrp3-inflammasome
     relation: connects-to
     note: "Glial inflammasome: NLRP3-inflammasome activation in microglia and macrophages within NMO lesions amplifies IL-1β-driven neuroinflammation and tissue damage."
+  - target: 01-human/03-molecular/il-5
+    relation: connects-to
+    note: "Eosinophilic lesions: IL-5 recruits eosinophils, whose granule proteins are a distinctive feature of NMO lesions, adding eosinophil-mediated astrocyte injury that helps distinguish NMO from multiple sclerosis."
+  - target: 01-human/03-molecular/tgf-beta
+    relation: connects-to
+    note: "Th17/Treg imbalance: a TGF-beta- and IL-6-shaped shift away from regulatory T cells toward pathogenic Th17 responses helps license the AQP4-reactive autoimmunity that drives NMO."
+  - target: 01-human/03-molecular/mhc-class-ii
+    relation: connects-to
+    note: "Autoantigen presentation: MHC class II presentation of aquaporin-4 peptides primes the CD4 helper T cells that provide help for the pathogenic AQP4-IgG response in NMO."
 ---
 
 # NMOSD
@@ -529,6 +538,9 @@ NMOSD impairs CNS function through three attack-related mechanisms:
 - `connects-to` → **[IFN-γ](../../03-molecular/ifn-gamma/README.md)** — Th1 cytokine: IFN-γ from pathogenic T-helper cells amplifies the inflammatory, complement-fixing environment that drives the astrocyte destruction of NMO lesions.
 - `connects-to` → **[Perforin](../../03-molecular/perforin/README.md)** — Cytotoxic killing: AQP4-IgG recruits NK cells and CD8 T cells whose perforin-mediated antibody-dependent cellular cytotoxicity adds to complement in destroying astrocytes.
 - `connects-to` → **[NLRP3 Inflammasome](../../03-molecular/nlrp3-inflammasome/README.md)** — Glial inflammasome: NLRP3-inflammasome activation in microglia and macrophages within NMO lesions amplifies IL-1β-driven neuroinflammation and tissue damage.
+- `connects-to` → **[IL-5](../../03-molecular/il-5/README.md)** — Eosinophilic lesions: IL-5 recruits eosinophils, whose granule proteins are a distinctive feature of NMO lesions, adding eosinophil-mediated astrocyte injury that helps distinguish NMO from multiple sclerosis.
+- `connects-to` → **[TGF-β](../../03-molecular/tgf-beta/README.md)** — Th17/Treg imbalance: a TGF-beta- and IL-6-shaped shift away from regulatory T cells toward pathogenic Th17 responses helps license the AQP4-reactive autoimmunity that drives NMO.
+- `connects-to` → **[MHC Class II](../../03-molecular/mhc-class-ii/README.md)** — Autoantigen presentation: MHC class II presentation of aquaporin-4 peptides primes the CD4 helper T cells that provide help for the pathogenic AQP4-IgG response in NMO.
 
 [^wingerchuk-2015-nmosd-criteria]: Wingerchuk DM, Banwell B, Bennett JL, et al. International consensus diagnostic criteria for neuromyelitis optica spectrum disorders. *Neurology.* 2015;85(2):177-189. [doi:10.1212/WNL.0000000000001729](https://doi.org/10.1212/WNL.0000000000001729) · [PubMed 26092914](https://pubmed.ncbi.nlm.nih.gov/26092914/)
 [^pittock-2019-eculizumab-prevent]: Pittock SJ, Berthele A, Fujihara K, et al. Eculizumab in Aquaporin-4-Positive Neuromyelitis Optica Spectrum Disorder. *N Engl J Med.* 2019;381(7):614-625. [doi:10.1056/NEJMoa1900866](https://doi.org/10.1056/NEJMoa1900866) · [PubMed 31050279](https://pubmed.ncbi.nlm.nih.gov/31050279/)
