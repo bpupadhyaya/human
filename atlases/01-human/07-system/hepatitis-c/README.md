@@ -282,6 +282,15 @@ cross_links:
   - target: 01-human/03-molecular/myc
     relation: connects-to
     note: "Oncogenic progression: MYC activation contributes to the hepatocellular carcinoma that can arise from HCV-driven cirrhosis even after viral clearance."
+  - target: 01-human/03-molecular/pdgf
+    relation: connects-to
+    note: "Stellate-cell fibrosis: PDGF released in the chronically infected liver activates hepatic stellate cells into collagen-secreting myofibroblasts, the engine of HCV-driven fibrosis and cirrhosis."
+  - target: 01-human/03-molecular/tnf-alpha
+    relation: connects-to
+    note: "Insulin resistance and injury: HCV core protein and TNF-α impair hepatic insulin signalling and drive hepatocyte injury, explaining the steatosis and type 2 diabetes strongly associated with chronic hepatitis C."
+  - target: 01-human/03-molecular/tert
+    relation: connects-to
+    note: "Telomerase reactivation: TERT promoter mutation is the commonest genetic event in the hepatocellular carcinoma arising from HCV cirrhosis, immortalising transformed hepatocytes."
 ---
 
 # Hepatitis C
@@ -496,3 +505,6 @@ HCV cirrhosis → HCC risk 1–5% per year (annual ultrasound surveillance ± AF
 - `connects-to` → **[RIG-I](../../03-molecular/rig-i/README.md)** — Sensing and evasion: RIG-I detects HCV RNA and signals through MAVS to induce interferon, but the HCV NS3/4A protease cleaves both sensor and adaptor to blunt the antiviral response.
 - `connects-to` → **[PD-1](../../03-molecular/pd-1/README.md)** — T-cell exhaustion: chronic hepatitis C drives PD-1-mediated exhaustion of antiviral T cells, contributing to viral persistence before direct-acting antivirals achieve cure.
 - `connects-to` → **[MYC](../../03-molecular/myc/README.md)** — Oncogenic progression: MYC activation contributes to the hepatocellular carcinoma that can arise from HCV-driven cirrhosis even after viral clearance.
+- `connects-to` → **[PDGF](../../03-molecular/pdgf/README.md)** — Stellate-cell fibrosis: PDGF released in the chronically infected liver activates hepatic stellate cells into collagen-secreting myofibroblasts, the engine of HCV-driven fibrosis and cirrhosis.
+- `connects-to` → **[TNF-α](../../03-molecular/tnf-alpha/README.md)** — Insulin resistance and injury: HCV core protein and TNF-α impair hepatic insulin signalling and drive hepatocyte injury, explaining the steatosis and type 2 diabetes strongly associated with chronic hepatitis C.
+- `connects-to` → **[TERT](../../03-molecular/tert/README.md)** — Telomerase reactivation: TERT promoter mutation is the commonest genetic event in the hepatocellular carcinoma arising from HCV cirrhosis, immortalising transformed hepatocytes.

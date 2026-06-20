@@ -282,6 +282,15 @@ cross_links:
   - target: 01-human/03-molecular/il-6
     relation: connects-to
     note: "Inflammation to fibrosis: IL-6 drives the chronic hepatic inflammation of hepatitis B, fuelling the fibrosis and carcinogenesis of long-standing disease."
+  - target: 01-human/03-molecular/pdgf
+    relation: connects-to
+    note: "Stellate-cell fibrosis: PDGF is the dominant mitogen activating hepatic stellate cells in chronic hepatitis B, driving their proliferation and collagen deposition toward cirrhosis."
+  - target: 01-human/03-molecular/tnf-alpha
+    relation: connects-to
+    note: "Hepatocyte injury: TNF-α from activated Kupffer cells and cytotoxic T cells mediates the hepatocyte apoptosis and necroinflammation that cause the liver damage of chronic hepatitis B."
+  - target: 01-human/03-molecular/ccl2
+    relation: connects-to
+    note: "Monocyte recruitment: CCL2 draws inflammatory monocytes and macrophages into the HBV-infected liver, sustaining the intrahepatic inflammation that perpetuates injury and fibrosis."
 ---
 
 # Hepatitis B
@@ -505,3 +514,6 @@ HDV is a satellite RNA virus that requires HBsAg for virion assembly:
 - `connects-to` → **[PD-1](../../03-molecular/pd-1/README.md)** — T-cell exhaustion: chronic hepatitis B exhausts antiviral T cells via PD-1, allowing viral persistence—a brake that checkpoint reinvigoration aims to release in functional-cure strategies.
 - `connects-to` → **[MYC](../../03-molecular/myc/README.md)** — Integration-driven oncogene: HBV DNA integration and the HBx protein activate MYC, contributing to the hepatocellular carcinoma that complicates chronic infection.
 - `connects-to` → **[IL-6](../../03-molecular/il-6/README.md)** — Inflammation to fibrosis: IL-6 drives the chronic hepatic inflammation of hepatitis B, fuelling the fibrosis and carcinogenesis of long-standing disease.
+- `connects-to` → **[PDGF](../../03-molecular/pdgf/README.md)** — Stellate-cell fibrosis: PDGF is the dominant mitogen activating hepatic stellate cells in chronic hepatitis B, driving their proliferation and collagen deposition toward cirrhosis.
+- `connects-to` → **[TNF-α](../../03-molecular/tnf-alpha/README.md)** — Hepatocyte injury: TNF-α from activated Kupffer cells and cytotoxic T cells mediates the hepatocyte apoptosis and necroinflammation that cause the liver damage of chronic hepatitis B.
+- `connects-to` → **[CCL2](../../03-molecular/ccl2/README.md)** — Monocyte recruitment: CCL2 draws inflammatory monocytes and macrophages into the HBV-infected liver, sustaining the intrahepatic inflammation that perpetuates injury and fibrosis.
