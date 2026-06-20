@@ -286,6 +286,15 @@ cross_links:
   - target: 01-human/03-molecular/tert
     relation: connects-to
     note: "Replicative immortality: TERT reactivation maintains telomeres in ATRT cells, granting the limitless proliferation needed to sustain this fast-growing embryonal tumour."
+  - target: 01-human/03-molecular/smo
+    relation: connects-to
+    note: "SHH subgroup: the ATRT-SHH molecular subgroup shows active sonic-hedgehog signalling through Smoothened, one of the distinct lineage programmes that SMARCB1 loss unleashes in these tumours."
+  - target: 01-human/03-molecular/notch
+    relation: connects-to
+    note: "Lineage signalling: Notch pathway activation features in ATRT subgroups, contributing to the aberrant neural-developmental programmes driving the tumour after loss of SWI/SNF repression."
+  - target: 01-human/03-molecular/ccl2
+    relation: connects-to
+    note: "Immunosuppressive niche: CCL2 recruits tumour-associated macrophages into the ATRT microenvironment, building the immunosuppressive milieu that hampers immune control of this aggressive infant tumour."
 ---
 
 # Atypical Teratoid/Rhabdoid Tumor
@@ -494,6 +503,9 @@ AT/RT has no established standard of care; protocols are protocol-driven and cen
 - `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — Growth signalling: SMARCB1 loss in ATRT activates PI3K/AKT signalling, driving the survival and proliferation that make this aggressive infant brain tumour so rapidly fatal.
 - `connects-to` → **[HIF-1α](../../03-molecular/hif-1alpha/README.md)** — Tumour hypoxia: HIF-1α stabilised in the rapidly growing, hypoxic ATRT promotes the VEGF angiogenesis that feeds its aggressive expansion.
 - `connects-to` → **[TERT](../../03-molecular/tert/README.md)** — Replicative immortality: TERT reactivation maintains telomeres in ATRT cells, granting the limitless proliferation needed to sustain this fast-growing embryonal tumour.
+- `connects-to` → **[SMO](../../03-molecular/smo/README.md)** — SHH subgroup: the ATRT-SHH molecular subgroup shows active sonic-hedgehog signalling through Smoothened, one of the distinct lineage programmes that SMARCB1 loss unleashes in these tumours.
+- `connects-to` → **[Notch](../../03-molecular/notch/README.md)** — Lineage signalling: Notch pathway activation features in ATRT subgroups, contributing to the aberrant neural-developmental programmes driving the tumour after loss of SWI/SNF repression.
+- `connects-to` → **[CCL2](../../03-molecular/ccl2/README.md)** — Immunosuppressive niche: CCL2 recruits tumour-associated macrophages into the ATRT microenvironment, building the immunosuppressive milieu that hampers immune control of this aggressive infant tumour.
 
 ---
 
