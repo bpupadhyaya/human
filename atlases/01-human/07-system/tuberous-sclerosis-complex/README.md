@@ -277,6 +277,15 @@ cross_links:
   - target: 01-human/04-cellular/type-ii-pneumocyte
     relation: connects-to
     note: "Cystic lung destruction: in TSC-associated lymphangioleiomyomatosis, proliferating smooth-muscle-like LAM cells destroy the alveolar walls and type II pneumocytes lining them, forming diffuse lung cysts."
+  - target: 01-human/03-molecular/myc
+    relation: connects-to
+    note: "mTOR-driven oncogene: unrestrained mTOR signalling from TSC1/TSC2 loss upregulates MYC, driving the proliferation of the hamartomas and tumours of tuberous sclerosis."
+  - target: 01-human/03-molecular/igf-1
+    relation: connects-to
+    note: "Growth-factor input: IGF-1 signalling feeds the PI3K/AKT/mTOR pathway that is constitutively active in tuberous sclerosis, reinforcing tumour growth."
+  - target: 01-human/03-molecular/pdgf
+    relation: connects-to
+    note: "Tumour stroma: PDGF signalling supports the growth and vascularisation of the angiomyolipomas and other mesenchymal tumours of tuberous sclerosis."
 ---
 
 # Tuberous Sclerosis Complex
@@ -503,6 +512,9 @@ With modern management: life expectancy increasingly normal; major risks: renal 
 - `connects-to` → **[Cyclin D1](../../03-molecular/cyclin-d1/README.md)** — mTOR-driven proliferation: unrestrained mTORC1 from TSC1/TSC2 loss upregulates cyclin D1, driving the proliferation of the hamartomas (SEGA, angiomyolipoma) of tuberous sclerosis.
 - `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — Pathway crosstalk: ERK/MAPK signalling crosstalks with the dysregulated mTOR pathway in tuberous sclerosis, contributing to tumour growth and resistance to mTOR inhibitors.
 - `connects-to` → **[Type II Pneumocyte](../../04-cellular/type-ii-pneumocyte/README.md)** — Cystic lung destruction: in TSC-associated lymphangioleiomyomatosis, proliferating smooth-muscle-like LAM cells destroy the alveolar walls and type II pneumocytes lining them, forming diffuse lung cysts.
+- `connects-to` → **[MYC](../../03-molecular/myc/README.md)** — mTOR-driven oncogene: unrestrained mTOR signalling from TSC1/TSC2 loss upregulates MYC, driving the proliferation of the hamartomas and tumours of tuberous sclerosis.
+- `connects-to` → **[IGF-1](../../03-molecular/igf-1/README.md)** — Growth-factor input: IGF-1 signalling feeds the PI3K/AKT/mTOR pathway that is constitutively active in tuberous sclerosis, reinforcing tumour growth.
+- `connects-to` → **[PDGF](../../03-molecular/pdgf/README.md)** — Tumour stroma: PDGF signalling supports the growth and vascularisation of the angiomyolipomas and other mesenchymal tumours of tuberous sclerosis.
 
 ---
 
