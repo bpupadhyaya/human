@@ -292,6 +292,15 @@ cross_links:
   - target: 01-human/03-molecular/igf-1
     relation: connects-to
     note: "Synaptic growth factor: IGF-1 promotes synapse maturation and has been trialled in autism-related disorders such as Rett and Phelan-McDermid syndromes for its neurodevelopmental effects."
+  - target: 01-human/03-molecular/serotonin-transporter
+    relation: connects-to
+    note: "Hyperserotonemia: elevated whole-blood serotonin tied to serotonin-transporter function is the oldest and most replicated biomarker in autism, implicating serotonergic development in the disorder."
+  - target: 01-human/03-molecular/tsc1-tsc2
+    relation: connects-to
+    note: "mTOR-pathway autism: loss of the TSC1-TSC2 complex in tuberous sclerosis unleashes mTOR and causes a high rate of autism, a defining example of the synaptic-overgrowth mechanism in syndromic ASD."
+  - target: 01-human/03-molecular/arid1a
+    relation: connects-to
+    note: "Chromatin-remodeling risk: de novo mutations in chromatin regulators like ARID1A are a leading genetic class in autism, disrupting the gene-expression programmes that build neural circuits."
 ---
 
 # Autism Spectrum Disorder
@@ -520,6 +529,9 @@ The neural basis of ASD social deficits involves dysfunction of the **social bra
 - `connects-to` → **[IL-1β](../../03-molecular/il-1b/README.md)** — Maternal immune activation: IL-1β is a key cytokine of the maternal immune activation linked to autism risk, and elevated IL-1β features in the neuroinflammation seen in autistic brains.
 - `connects-to` → **[TNF-α](../../03-molecular/tnf-alpha/README.md)** — Neuroimmune signature: raised TNF-α is among the inflammatory markers reported in autism, reflecting the microglial activation and immune dysregulation implicated in its neurodevelopment.
 - `connects-to` → **[IGF-1](../../03-molecular/igf-1/README.md)** — Synaptic growth factor: IGF-1 promotes synapse maturation and has been trialled in autism-related disorders such as Rett and Phelan-McDermid syndromes for its neurodevelopmental effects.
+- `connects-to` → **[Serotonin Transporter](../../03-molecular/serotonin-transporter/README.md)** — Hyperserotonemia: elevated whole-blood serotonin tied to serotonin-transporter function is the oldest and most replicated biomarker in autism, implicating serotonergic development in the disorder.
+- `connects-to` → **[TSC1-TSC2](../../03-molecular/tsc1-tsc2/README.md)** — mTOR-pathway autism: loss of the TSC1-TSC2 complex in tuberous sclerosis unleashes mTOR and causes a high rate of autism, a defining example of the synaptic-overgrowth mechanism in syndromic ASD.
+- `connects-to` → **[ARID1A](../../03-molecular/arid1a/README.md)** — Chromatin-remodeling risk: de novo mutations in chromatin regulators like ARID1A are a leading genetic class in autism, disrupting the gene-expression programmes that build neural circuits.
 
 [^maenner-2023-asd-prevalence]: Maenner MJ, Warren Z, Williams AR, et al. Prevalence and characteristics of autism spectrum disorder among children aged 8 years — ADDM Network, 2020. *MMWR Surveill Summ.* 2023;72(2):1-14. [doi:10.15585/mmwr.ss7202a1](https://doi.org/10.15585/mmwr.ss7202a1) · [PubMed 36952216](https://pubmed.ncbi.nlm.nih.gov/36952216/)
 [^lord-2020-asd-review]: Lord C, Elsabbagh M, Baird G, Veenstra-Vanderweele J. Autism spectrum disorder. *Lancet.* 2018;392(10146):508-520. [doi:10.1016/S0140-6736(18)31129-2](https://doi.org/10.1016/S0140-6736(18)31129-2) · [PubMed 30078460](https://pubmed.ncbi.nlm.nih.gov/30078460/)
