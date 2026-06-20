@@ -283,6 +283,15 @@ cross_links:
   - target: 01-human/03-molecular/hif-1alpha
     relation: connects-to
     note: "Tumour hypoxia: HIF-1α stabilised in hypoxic endometrial tumours promotes the VEGF angiogenesis, glycolysis and invasion that mark the more aggressive, higher-grade disease."
+  - target: 01-human/03-molecular/myc
+    relation: connects-to
+    note: "Serous-subtype oncogene: MYC amplification helps drive the copy-number-high, p53-mutant serous endometrial cancers, the most aggressive molecular subtype with the poorest prognosis."
+  - target: 01-human/03-molecular/tert
+    relation: connects-to
+    note: "Telomerase reactivation: TERT activation immortalises endometrial cancer cells, sustaining the unlimited proliferation that complements the PI3K and mismatch-repair lesions of the disease."
+  - target: 01-human/03-molecular/ccl2
+    relation: connects-to
+    note: "Tumour microenvironment: CCL2 secreted by endometrial tumours recruits tumour-associated macrophages that promote angiogenesis and immune evasion, linked to obesity-driven inflammation in the disease."
 ---
 
 # Endometrial Cancer
@@ -496,6 +505,9 @@ cross_links:
 - `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — PI3K/AKT engine: with PTEN loss and PIK3CA mutation near-universal in endometrioid tumours, AKT is constitutively active to drive growth and survival, making the PI3K/AKT/mTOR axis a key target.
 - `connects-to` → **[CDK4/6](../../03-molecular/cdk4-6/README.md)** — Cell-cycle drive: oestrogen-driven endometrial cancer relies on cyclin D-CDK4/6 to pass the G1 checkpoint, and CDK4/6 inhibition with endocrine therapy is under active investigation.
 - `connects-to` → **[HIF-1α](../../03-molecular/hif-1alpha/README.md)** — Tumour hypoxia: HIF-1α stabilised in hypoxic endometrial tumours promotes the VEGF angiogenesis, glycolysis and invasion that mark the more aggressive, higher-grade disease.
+- `connects-to` → **[MYC](../../03-molecular/myc/README.md)** — Serous-subtype oncogene: MYC amplification helps drive the copy-number-high, p53-mutant serous endometrial cancers, the most aggressive molecular subtype with the poorest prognosis.
+- `connects-to` → **[TERT](../../03-molecular/tert/README.md)** — Telomerase reactivation: TERT activation immortalises endometrial cancer cells, sustaining the unlimited proliferation that complements the PI3K and mismatch-repair lesions of the disease.
+- `connects-to` → **[CCL2](../../03-molecular/ccl2/README.md)** — Tumour microenvironment: CCL2 secreted by endometrial tumours recruits tumour-associated macrophages that promote angiogenesis and immune evasion, linked to obesity-driven inflammation in the disease.
 
 [^konstantinopoulos-2019-dostarlimab]: Konstantinopoulos PA, Lheureux S, Moore KN. PARP inhibitors for ovarian and endometrial cancers: state of the art and clinical perspectives. *J Clin Oncol.* 2020;38(25):2896-2909. [doi:10.1200/JCO.20.00571](https://doi.org/10.1200/JCO.20.00571) · [PubMed 32706635](https://pubmed.ncbi.nlm.nih.gov/32706635/)
 [^eskander-2023-ruby]: Eskander RN, Sill MW, Beffa L, et al. Pembrolizumab plus chemotherapy in advanced endometrial cancer. *N Engl J Med.* 2023;388(23):2159-2170. [doi:10.1056/NEJMoa2302312](https://doi.org/10.1056/NEJMoa2302312) · [PubMed 37166384](https://pubmed.ncbi.nlm.nih.gov/37166384/)

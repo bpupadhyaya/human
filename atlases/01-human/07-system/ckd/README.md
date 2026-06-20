@@ -288,6 +288,15 @@ cross_links:
   - target: 01-human/03-molecular/tnf-alpha
     relation: connects-to
     note: "Uraemic inflammation: TNF-α is a key cytokine of the chronic low-grade inflammation of CKD, contributing to its anaemia, muscle wasting and high cardiovascular risk."
+  - target: 01-human/03-molecular/ccl2
+    relation: connects-to
+    note: "Interstitial fibrosis: CCL2 recruits monocytes into the kidney interstitium, where they become macrophages driving the tubulointerstitial inflammation and fibrosis that progress chronic kidney disease."
+  - target: 01-human/03-molecular/vegf
+    relation: connects-to
+    note: "Glomerular maintenance: podocyte-derived VEGF preserves the glomerular capillary endothelium, and its dysregulation contributes to the glomerulosclerosis and capillary rarefaction of CKD."
+  - target: 01-human/03-molecular/complement-c3
+    relation: connects-to
+    note: "Complement injury: C3 and the alternative pathway drive glomerular damage across many CKD aetiologies, from C3 glomerulopathy to immune-complex glomerulonephritis, an emerging therapeutic target."
 ---
 
 # Chronic Kidney Disease
@@ -454,6 +463,9 @@ As nephron mass decreases, impaired renal functions accumulate:
 - `connects-to` → **[Nitric Oxide](../../03-molecular/nitric-oxide/README.md)** — Endothelial dysfunction: uraemic toxins and the accumulation of the eNOS inhibitor ADMA cut nitric oxide in CKD, driving the hypertension and accelerated vascular disease of kidney failure.
 - `connects-to` → **[Endothelin-1](../../03-molecular/endothelin-1/README.md)** — Vasoconstrictor and fibrosis: endothelin-1 rises in CKD to constrict renal vessels, retain sodium and promote tubulointerstitial fibrosis, a target of endothelin antagonists in proteinuric disease.
 - `connects-to` → **[TNF-α](../../03-molecular/tnf-alpha/README.md)** — Uraemic inflammation: TNF-α is a key cytokine of the chronic low-grade inflammation of CKD, contributing to its anaemia, muscle wasting and high cardiovascular risk.
+- `connects-to` → **[CCL2](../../03-molecular/ccl2/README.md)** — Interstitial fibrosis: CCL2 recruits monocytes into the kidney interstitium, where they become macrophages driving the tubulointerstitial inflammation and fibrosis that progress chronic kidney disease.
+- `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — Glomerular maintenance: podocyte-derived VEGF preserves the glomerular capillary endothelium, and its dysregulation contributes to the glomerulosclerosis and capillary rarefaction of CKD.
+- `connects-to` → **[Complement C3](../../03-molecular/complement-c3/README.md)** — Complement injury: C3 and the alternative pathway drive glomerular damage across many CKD aetiologies, from C3 glomerulopathy to immune-complex glomerulonephritis, an emerging therapeutic target.
 
 ## Pathology
 
