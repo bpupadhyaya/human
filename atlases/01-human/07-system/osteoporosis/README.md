@@ -289,6 +289,15 @@ cross_links:
   - target: 01-human/03-molecular/il-1b
     relation: connects-to
     note: "Osteoclast activation: IL-1β stimulates RANKL-driven osteoclastogenesis, a key inflammatory cytokine linking immune activation and oestrogen deficiency to bone resorption."
+  - target: 01-human/03-molecular/glucocorticoid-receptor
+    relation: connects-to
+    note: "Steroid-induced bone loss: glucocorticoids acting through their receptor suppress osteoblasts and promote osteoclast survival, making glucocorticoid-induced osteoporosis the commonest drug-related secondary cause."
+  - target: 01-human/03-molecular/osteopontin
+    relation: connects-to
+    note: "Matrix and resorption: osteopontin anchors osteoclasts to the bone surface and regulates mineralisation, so its role in bone remodelling ties into the resorption-formation imbalance of osteoporosis."
+  - target: 01-human/03-molecular/vegf
+    relation: connects-to
+    note: "Angiogenesis-osteogenesis coupling: VEGF links blood-vessel growth to bone formation, and the decline in skeletal angiogenesis with ageing contributes to the impaired bone renewal of osteoporosis."
 ---
 
 # Osteoporosis
@@ -487,6 +496,9 @@ All newly diagnosed osteoporosis should be evaluated for secondary causes: CBC (
 - `connects-to` → **[IGF-1](../../03-molecular/igf-1/README.md)** — Bone anabolism: IGF-1, driven by growth hormone, stimulates osteoblast bone formation, and its decline with age contributes to the failure to maintain bone mass in osteoporosis.
 - `connects-to` → **[TNF-α](../../03-molecular/tnf-alpha/README.md)** — Inflammatory resorption: TNF-α promotes osteoclast differentiation and activity, the mechanism by which chronic inflammation and oestrogen loss accelerate the bone loss of osteoporosis.
 - `connects-to` → **[IL-1β](../../03-molecular/il-1b/README.md)** — Osteoclast activation: IL-1β stimulates RANKL-driven osteoclastogenesis, a key inflammatory cytokine linking immune activation and oestrogen deficiency to bone resorption.
+- `connects-to` → **[Glucocorticoid Receptor](../../03-molecular/glucocorticoid-receptor/README.md)** — Steroid-induced bone loss: glucocorticoids acting through their receptor suppress osteoblasts and promote osteoclast survival, making glucocorticoid-induced osteoporosis the commonest drug-related secondary cause.
+- `connects-to` → **[Osteopontin](../../03-molecular/osteopontin/README.md)** — Matrix and resorption: osteopontin anchors osteoclasts to the bone surface and regulates mineralisation, so its role in bone remodelling ties into the resorption-formation imbalance of osteoporosis.
+- `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — Angiogenesis-osteogenesis coupling: VEGF links blood-vessel growth to bone formation, and the decline in skeletal angiogenesis with ageing contributes to the impaired bone renewal of osteoporosis.
 
 [^kanis-2019-who-osteoporosis]: Kanis JA, Cooper C, Rizzoli R, Reginster JY. European guidance for the diagnosis and management of osteoporosis in postmenopausal women. *Osteoporos Int.* 2019;30(1):3-44. [doi:10.1007/s00198-018-4704-5](https://doi.org/10.1007/s00198-018-4704-5) · [PubMed 30324412](https://pubmed.ncbi.nlm.nih.gov/30324412/)
 [^cosman-2016-romosozumab]: Cosman F, Crittenden DB, Adachi JD, et al. Romosozumab treatment in postmenopausal women with osteoporosis. *N Engl J Med.* 2016;375(16):1532-1543. [doi:10.1056/NEJMoa1607948](https://doi.org/10.1056/NEJMoa1607948) · [PubMed 27641143](https://pubmed.ncbi.nlm.nih.gov/27641143/)
