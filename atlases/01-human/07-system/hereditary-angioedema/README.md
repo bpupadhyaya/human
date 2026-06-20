@@ -286,6 +286,15 @@ cross_links:
   - target: 01-human/03-molecular/von-willebrand-factor
     relation: connects-to
     note: "Endothelial activation marker: angioedema attacks activate the endothelium to release von Willebrand factor from Weibel-Palade bodies, reflecting the vascular disturbance driving the swelling."
+  - target: 01-human/04-cellular/platelet
+    relation: connects-to
+    note: "Contact-system amplifier: activated platelets release inorganic polyphosphate that triggers factor XII autoactivation, feeding the kallikrein-kinin cascade that generates the bradykinin driving HAE swelling."
+  - target: 01-human/03-molecular/ige
+    relation: connects-to
+    note: "Distinguishing mechanism: HAE is bradykinin-mediated, not IgE/mast-cell-mediated like allergic angioedema, which is why antihistamines, epinephrine and steroids fail and B2R/kallikrein-targeted drugs are needed."
+  - target: 01-human/03-molecular/glucocorticoid-receptor
+    relation: connects-to
+    note: "Why steroids fail: corticosteroids acting through the glucocorticoid receptor relieve histaminergic angioedema but not bradykinin-mediated HAE attacks, a key clinical contrast underscoring the disease's distinct pathophysiology."
 ---
 
 # Hereditary Angioedema
@@ -510,6 +519,9 @@ Fluid extravasation → ANGIOEDEMA
 - `connects-to` → **[Angiopoietin](../../03-molecular/angiopoietin/README.md)** — Endothelial barrier control: the angiopoietin-Tie2 axis governs endothelial junction stability, and its dysregulation contributes to the vascular leak that produces angioedema swelling.
 - `connects-to` → **[Fibrinogen](../../03-molecular/fibrinogen/README.md)** — Contact-system crosstalk: activated factor XII in hereditary angioedema triggers both bradykinin generation and the coagulation cascade, so fibrinogen turnover and D-dimer rise during attacks.
 - `connects-to` → **[Von Willebrand Factor](../../03-molecular/von-willebrand-factor/README.md)** — Endothelial activation marker: angioedema attacks activate the endothelium to release von Willebrand factor from Weibel-Palade bodies, reflecting the vascular disturbance driving the swelling.
+- `connects-to` → **[Platelet](../../04-cellular/platelet/README.md)** — Contact-system amplifier: activated platelets release inorganic polyphosphate that triggers factor XII autoactivation, feeding the kallikrein-kinin cascade that generates the bradykinin driving HAE swelling.
+- `connects-to` → **[IgE](../../03-molecular/ige/README.md)** — Distinguishing mechanism: HAE is bradykinin-mediated, not IgE/mast-cell-mediated like allergic angioedema, which is why antihistamines, epinephrine and steroids fail and B2R/kallikrein-targeted drugs are needed.
+- `connects-to` → **[Glucocorticoid Receptor](../../03-molecular/glucocorticoid-receptor/README.md)** — Why steroids fail: corticosteroids acting through the glucocorticoid receptor relieve histaminergic angioedema but not bradykinin-mediated HAE attacks, a key clinical contrast underscoring the disease's distinct pathophysiology.
 
 [^cicardi-2010-icatibant-nejm]: Cicardi M, Banerji A, Bracho F, et al. Icatibant, a new bradykinin-receptor antagonist, in hereditary angioedema. *N Engl J Med.* 2010;363(6):532-541. [doi:10.1056/NEJMoa0906393](https://doi.org/10.1056/NEJMoa0906393) · [PubMed 20818873](https://pubmed.ncbi.nlm.nih.gov/20818873/)
 [^maurer-2018-lanadelumab-help]: Banerji A, Riedl MA, Bernstein JA, et al. Effect of lanadelumab compared with placebo on prevention of hereditary angioedema attacks. *JAMA.* 2018;320(20):2108-2121. [doi:10.1001/jama.2018.16773](https://doi.org/10.1001/jama.2018.16773) · [PubMed 30480729](https://pubmed.ncbi.nlm.nih.gov/30480729/)

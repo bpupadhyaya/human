@@ -286,6 +286,15 @@ cross_links:
   - target: 01-human/03-molecular/endothelin-1
     relation: connects-to
     note: "Endothelial dysfunction: endothelin-1-driven endothelial activation and vasoconstriction add a vascular-wall contribution to the thrombotic tendency of inherited thrombophilia."
+  - target: 01-human/03-molecular/nitric-oxide
+    relation: connects-to
+    note: "Lost antithrombotic tone: endothelial nitric oxide normally inhibits platelet aggregation and adhesion, so reduced NO bioavailability removes a key brake and compounds the prothrombotic state of inherited thrombophilia."
+  - target: 01-human/03-molecular/pf4
+    relation: connects-to
+    note: "Platelet activation: platelet factor 4 released from activated platelets neutralises heparin-like glycosaminoglycans on the endothelium, locally favouring coagulation atop the inherited procoagulant defect."
+  - target: 01-human/03-molecular/fibronectin
+    relation: connects-to
+    note: "Thrombus scaffold: plasma fibronectin is cross-linked into the fibrin meshwork of forming clots, stabilising the thrombi that arise more readily in inherited thrombophilia."
 ---
 
 # Inherited Thrombophilia
@@ -534,6 +543,9 @@ Antithrombin (ATIII) is the primary plasma inhibitor of thrombin, FXa, FIXa, and
 - `connects-to` → **[IL-6](../../03-molecular/il-6/README.md)** — Inflammation-coagulation crosstalk: IL-6 induces fibrinogen and tissue factor, so inflammatory states compound an inherited thrombophilia to tip the balance toward clotting.
 - `connects-to` → **[NLRP3 Inflammasome](../../03-molecular/nlrp3-inflammasome/README.md)** — Immunothrombosis: NLRP3-inflammasome activation links inflammation to clotting through tissue-factor expression and neutrophil traps, amplifying the risk in inherited thrombophilia.
 - `connects-to` → **[Endothelin-1](../../03-molecular/endothelin-1/README.md)** — Endothelial dysfunction: endothelin-1-driven endothelial activation and vasoconstriction add a vascular-wall contribution to the thrombotic tendency of inherited thrombophilia.
+- `connects-to` → **[Nitric Oxide](../../03-molecular/nitric-oxide/README.md)** — Lost antithrombotic tone: endothelial nitric oxide normally inhibits platelet aggregation and adhesion, so reduced NO bioavailability removes a key brake and compounds the prothrombotic state of inherited thrombophilia.
+- `connects-to` → **[PF4](../../03-molecular/pf4/README.md)** — Platelet activation: platelet factor 4 released from activated platelets neutralises heparin-like glycosaminoglycans on the endothelium, locally favouring coagulation atop the inherited procoagulant defect.
+- `connects-to` → **[Fibronectin](../../03-molecular/fibronectin/README.md)** — Thrombus scaffold: plasma fibronectin is cross-linked into the fibrin meshwork of forming clots, stabilising the thrombi that arise more readily in inherited thrombophilia.
 
 [^bertina-1994-factor-v-leiden]: Bertina RM, Koeleman BP, Koster T, et al. Mutation in blood coagulation factor V associated with resistance to activated protein C. *Nature.* 1994;369(6475):64-67. [doi:10.1038/369064a0](https://doi.org/10.1038/369064a0) · [PubMed 8164741](https://pubmed.ncbi.nlm.nih.gov/8164741/)
 [^dahlback-2008-protein-c-review]: Dahlbäck B. Advances in understanding pathogenic mechanisms of thrombophilic disorders. *Blood.* 2008;112(1):19-27. [doi:10.1182/blood-2008-01-077909](https://doi.org/10.1182/blood-2008-01-077909) · [PubMed 18574048](https://pubmed.ncbi.nlm.nih.gov/18574048/)
