@@ -289,6 +289,15 @@ cross_links:
   - target: 01-human/03-molecular/tgf-beta
     relation: connects-to
     note: "Fibrosis master switch: TGF-β drives the tubulointerstitial fibrosis and glomerulosclerosis that are the common final pathway of chronic kidney disease progression."
+  - target: 01-human/03-molecular/vegf
+    relation: connects-to
+    note: "Filtration-barrier maintenance: podocyte-derived VEGF sustains the fenestrated glomerular endothelium, which is why anti-VEGF cancer therapy causes proteinuria, hypertension and thrombotic microangiopathy."
+  - target: 01-human/03-molecular/complement-c3
+    relation: connects-to
+    note: "Glomerular complement: C3 and the alternative pathway drive immune injury in glomerulonephritis and C3 glomerulopathy, a major mechanism of kidney damage targeted by emerging complement inhibitors."
+  - target: 01-human/03-molecular/bnp
+    relation: connects-to
+    note: "Natriuretic counter-regulation: natriuretic peptides like BNP act on the kidney to promote sodium and water excretion, opposing the renin-angiotensin system in the cardiorenal control of volume."
 taxonomy:
   uberon: "UBERON:0001008"
 ---
@@ -474,6 +483,9 @@ Natriuretic counterpoint:
 - **Connects to:** [Nitric Oxide](../../03-molecular/nitric-oxide/README.md) — renal blood flow: endothelial nitric oxide dilates the afferent arteriole and tunes glomerular pressure, and its loss in renal disease promotes hypertension and progressive injury.
 - **Connects to:** [Endothelin-1](../../03-molecular/endothelin-1/README.md) — vasoconstrictor counterweight: endothelin-1 constricts renal vessels and drives sodium retention and fibrosis, making endothelin antagonism a target in proteinuric kidney disease.
 - **Connects to:** [TGF-β](../../03-molecular/tgf-beta/README.md) — fibrosis master switch: TGF-β drives the tubulointerstitial fibrosis and glomerulosclerosis that are the common final pathway of chronic kidney disease progression.
+- **Connects to:** [VEGF](../../03-molecular/vegf/README.md) — filtration-barrier maintenance: podocyte-derived VEGF sustains the fenestrated glomerular endothelium, which is why anti-VEGF cancer therapy causes proteinuria, hypertension and thrombotic microangiopathy.
+- **Connects to:** [Complement C3](../../03-molecular/complement-c3/README.md) — glomerular complement: C3 and the alternative pathway drive immune injury in glomerulonephritis and C3 glomerulopathy, a major mechanism of kidney damage targeted by emerging complement inhibitors.
+- **Connects to:** [BNP](../../03-molecular/bnp/README.md) — natriuretic counter-regulation: natriuretic peptides like BNP act on the kidney to promote sodium and water excretion, opposing the renin-angiotensin system in the cardiorenal control of volume.
 - **Treated by:** ACE inhibitors — renoprotection in CKD.
 - **Treated by:** Loop diuretics — fluid management.
 

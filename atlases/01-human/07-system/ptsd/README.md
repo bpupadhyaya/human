@@ -288,6 +288,15 @@ cross_links:
   - target: 01-human/03-molecular/nlrp3-inflammasome
     relation: connects-to
     note: "Stress inflammasome: chronic stress activates the NLRP3 inflammasome, and its IL-1β output is increasingly implicated in the neuroinflammatory component of PTSD."
+  - target: 01-human/03-molecular/serotonin-transporter
+    relation: connects-to
+    note: "Treatment and gene-environment risk: SSRIs blocking the serotonin transporter are first-line for PTSD, and the 5-HTTLPR transporter polymorphism is among the most studied gene-by-trauma interactions in the disorder."
+  - target: 01-human/03-molecular/beta1-adrenergic-receptor
+    relation: connects-to
+    note: "Fear-memory reconsolidation: noradrenaline acting on β-adrenergic receptors strengthens traumatic memory consolidation, the rationale for propranolol to blunt reconsolidation and the hyperarousal of PTSD."
+  - target: 01-human/03-molecular/ccl2
+    relation: connects-to
+    note: "Neuroinflammatory recruitment: elevated CCL2 in PTSD recruits monocytes that traffic to the brain, contributing to the microglial activation and inflammation linked to its stress-related neuropathology."
 ---
 
 # PTSD
@@ -513,6 +522,9 @@ Not all trauma leads to PTSD. Risk and resilience factors include:
 - `connects-to` → **[IL-1β](../../03-molecular/il-1b/README.md)** — Neuroinflammation: elevated IL-1β from activated microglia is linked to the fear-circuit dysfunction and memory consolidation abnormalities of PTSD.
 - `connects-to` → **[TNF-α](../../03-molecular/tnf-alpha/README.md)** — Inflammatory signature: raised TNF-α is among the peripheral inflammatory markers consistently found in PTSD, tying chronic stress to systemic low-grade inflammation.
 - `connects-to` → **[NLRP3 Inflammasome](../../03-molecular/nlrp3-inflammasome/README.md)** — Stress inflammasome: chronic stress activates the NLRP3 inflammasome, and its IL-1β output is increasingly implicated in the neuroinflammatory component of PTSD.
+- `connects-to` → **[Serotonin Transporter](../../03-molecular/serotonin-transporter/README.md)** — Treatment and gene-environment risk: SSRIs blocking the serotonin transporter are first-line for PTSD, and the 5-HTTLPR transporter polymorphism is among the most studied gene-by-trauma interactions in the disorder.
+- `connects-to` → **[β1-Adrenergic Receptor](../../03-molecular/beta1-adrenergic-receptor/README.md)** — Fear-memory reconsolidation: noradrenaline acting on β-adrenergic receptors strengthens traumatic memory consolidation, the rationale for propranolol to blunt reconsolidation and the hyperarousal of PTSD.
+- `connects-to` → **[CCL2](../../03-molecular/ccl2/README.md)** — Neuroinflammatory recruitment: elevated CCL2 in PTSD recruits monocytes that traffic to the brain, contributing to the microglial activation and inflammation linked to its stress-related neuropathology.
 
 [^yehuda-2015-ptsd-review]: Yehuda R, Hoge CW, McFarlane AC, et al. Post-traumatic stress disorder. *Nat Rev Dis Primers.* 2015;1:15057. [doi:10.1038/nrdp.2015.57](https://doi.org/10.1038/nrdp.2015.57) · [PubMed 27189040](https://pubmed.ncbi.nlm.nih.gov/27189040/)
 [^foa-2019-ptsd-treatments]: Foa EB, McLean CP. The efficacy of exposure therapy for anxiety and related disorders. *Annu Rev Clin Psychol.* 2016;12:1-28. [doi:10.1146/annurev-clinpsy-021815-093533](https://doi.org/10.1146/annurev-clinpsy-021815-093533) · [PubMed 26928206](https://pubmed.ncbi.nlm.nih.gov/26928206/)
