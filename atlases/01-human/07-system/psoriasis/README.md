@@ -286,6 +286,15 @@ cross_links:
   - target: 01-human/03-molecular/hif-1alpha
     relation: connects-to
     note: "Hypoxic plaques: thickened, hyperproliferative psoriatic epidermis becomes hypoxic, stabilising HIF-1α to drive the VEGF angiogenesis and metabolic shift of the lesions."
+  - target: 01-human/03-molecular/type-i-interferon
+    relation: connects-to
+    note: "Disease initiation: plasmacytoid dendritic cells sensing LL-37–self-DNA complexes pour out type I interferon, the early event that ignites the dendritic-cell activation launching the psoriasis cascade."
+  - target: 01-human/03-molecular/s100a8-a9
+    relation: connects-to
+    note: "Keratinocyte alarmin: S100A8/A9 (calprotectin) is massively upregulated in psoriatic keratinocytes, amplifying neutrophil recruitment and inflammation and serving as a biomarker of disease activity."
+  - target: 01-human/03-molecular/egfr
+    relation: connects-to
+    note: "Epidermal hyperproliferation: EGFR signalling drives the rapid keratinocyte proliferation that thickens psoriatic plaques, the cellular basis of the scaling and accelerated epidermal turnover."
 ---
 
 # Psoriasis
@@ -490,6 +499,9 @@ Differential: Seborrheic dermatitis (common), pityriasis rosea (herald patch, Ch
 - `connects-to` → **[IL-1β](../../03-molecular/il-1b/README.md)** — Innate amplifier: IL-1β released by keratinocytes and myeloid cells helps ignite the IL-23/IL-17 axis, linking innate immune activation to the inflammatory loop of psoriasis.
 - `connects-to` → **[NLRP3 Inflammasome](../../03-molecular/nlrp3-inflammasome/README.md)** — Inflammasome trigger: NLRP3-inflammasome activation in psoriatic skin drives IL-1β maturation, with the autoantigen LL-37 among the signals that prime this innate response.
 - `connects-to` → **[HIF-1α](../../03-molecular/hif-1alpha/README.md)** — Hypoxic plaques: thickened, hyperproliferative psoriatic epidermis becomes hypoxic, stabilising HIF-1α to drive the VEGF angiogenesis and metabolic shift of the lesions.
+- `connects-to` → **[Type I Interferon](../../03-molecular/type-i-interferon/README.md)** — Disease initiation: plasmacytoid dendritic cells sensing LL-37–self-DNA complexes pour out type I interferon, the early event that ignites the dendritic-cell activation launching the psoriasis cascade.
+- `connects-to` → **[S100A8/A9](../../03-molecular/s100a8-a9/README.md)** — Keratinocyte alarmin: S100A8/A9 (calprotectin) is massively upregulated in psoriatic keratinocytes, amplifying neutrophil recruitment and inflammation and serving as a biomarker of disease activity.
+- `connects-to` → **[EGFR](../../03-molecular/egfr/README.md)** — Epidermal hyperproliferation: EGFR signalling drives the rapid keratinocyte proliferation that thickens psoriatic plaques, the cellular basis of the scaling and accelerated epidermal turnover.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
