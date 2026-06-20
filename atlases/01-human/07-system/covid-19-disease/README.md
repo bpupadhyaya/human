@@ -286,6 +286,15 @@ cross_links:
   - target: 01-human/03-molecular/tnf-alpha
     relation: connects-to
     note: "Cytokine storm component: TNF-α contributes to the systemic cytokine storm of severe COVID-19, alongside IL-6 in driving its hyperinflammatory state."
+  - target: 01-human/03-molecular/ifn-gamma
+    relation: connects-to
+    note: "Antiviral and immunopathic: IFN-γ from T and NK cells helps clear SARS-CoV-2 but, when dysregulated, drives the macrophage activation and hyperinflammation of severe COVID-19."
+  - target: 01-human/03-molecular/ccl2
+    relation: connects-to
+    note: "Monocyte recruitment: CCL2 draws monocytes into the infected lung in COVID-19, where they fuel the alveolar inflammation and damage of severe disease."
+  - target: 01-human/03-molecular/hif-1alpha
+    relation: connects-to
+    note: "Hypoxic amplification: the profound hypoxia of COVID-19 pneumonia stabilises HIF-1α, which further amplifies inflammation and the prothrombotic state in a vicious cycle."
 ---
 
 # COVID-19 Disease
@@ -440,6 +449,9 @@ Symptoms persisting >4 weeks: fatigue (most common), cognitive impairment ("brai
 - `connects-to` → **[Complement C5](../../03-molecular/complement-c5/README.md)** — Complement-driven injury: complement activation, especially C5a, drives the endothelial damage and microthrombosis of severe COVID-19, prompting trials of anti-complement therapy.
 - `connects-to` → **[IL-1β](../../03-molecular/il-1b/README.md)** — Inflammasome cytokine: IL-1β from inflammasome activation fuels the hyperinflammation of severe COVID-19, the target of IL-1 blockade such as anakinra.
 - `connects-to` → **[TNF-α](../../03-molecular/tnf-alpha/README.md)** — Cytokine storm component: TNF-α contributes to the systemic cytokine storm of severe COVID-19, alongside IL-6 in driving its hyperinflammatory state.
+- `connects-to` → **[IFN-γ](../../03-molecular/ifn-gamma/README.md)** — Antiviral and immunopathic: IFN-γ from T and NK cells helps clear SARS-CoV-2 but, when dysregulated, drives the macrophage activation and hyperinflammation of severe COVID-19.
+- `connects-to` → **[CCL2](../../03-molecular/ccl2/README.md)** — Monocyte recruitment: CCL2 draws monocytes into the infected lung in COVID-19, where they fuel the alveolar inflammation and damage of severe disease.
+- `connects-to` → **[HIF-1α](../../03-molecular/hif-1alpha/README.md)** — Hypoxic amplification: the profound hypoxia of COVID-19 pneumonia stabilises HIF-1α, which further amplifies inflammation and the prothrombotic state in a vicious cycle.
 
 ## Pathology
 

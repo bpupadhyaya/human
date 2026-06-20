@@ -286,6 +286,15 @@ cross_links:
   - target: 01-human/03-molecular/tgf-beta
     relation: connects-to
     note: "Adenoma-to-carcinoma switch: loss of TGF-β/SMAD4 tumour-suppressor signalling drives the progression of colorectal adenomas to invasive, metastatic carcinoma."
+  - target: 01-human/03-molecular/akt
+    relation: connects-to
+    note: "PI3K/AKT survival: PIK3CA mutation activates AKT in colorectal cancer, driving growth and survival and contributing to resistance to anti-EGFR therapy."
+  - target: 01-human/03-molecular/cyclin-d1
+    relation: connects-to
+    note: "Cell-cycle drive: Wnt-driven cyclin D1 with CDK4/6 propels colorectal cancer cells through the G1 checkpoint along the adenoma-carcinoma sequence."
+  - target: 01-human/03-molecular/hif-1alpha
+    relation: connects-to
+    note: "Tumour hypoxia: HIF-1α stabilised in hypoxic colorectal tumours drives the VEGF angiogenesis and invasive, metastatic phenotype linked to poor prognosis."
 ---
 
 # Colorectal Cancer
@@ -491,6 +500,9 @@ The step-wise genetic progression from normal epithelium to carcinoma in CRC was
 - `connects-to` → **[Prostaglandins](../../03-molecular/prostaglandins/README.md)** — COX-2 chemoprevention: COX-2-derived prostaglandins drive colorectal carcinogenesis, and aspirin/NSAID inhibition of this pathway reduces colorectal cancer risk.
 - `connects-to` → **[MYC](../../03-molecular/myc/README.md)** — Wnt's oncogene: APC loss and constitutive Wnt signalling activate MYC, a central driver of proliferation in colorectal cancer.
 - `connects-to` → **[TGF-β](../../03-molecular/tgf-beta/README.md)** — Adenoma-to-carcinoma switch: loss of TGF-β/SMAD4 tumour-suppressor signalling drives the progression of colorectal adenomas to invasive, metastatic carcinoma.
+- `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — PI3K/AKT survival: PIK3CA mutation activates AKT in colorectal cancer, driving growth and survival and contributing to resistance to anti-EGFR therapy.
+- `connects-to` → **[Cyclin D1](../../03-molecular/cyclin-d1/README.md)** — Cell-cycle drive: Wnt-driven cyclin D1 with CDK4/6 propels colorectal cancer cells through the G1 checkpoint along the adenoma-carcinoma sequence.
+- `connects-to` → **[HIF-1α](../../03-molecular/hif-1alpha/README.md)** — Tumour hypoxia: HIF-1α stabilised in hypoxic colorectal tumours drives the VEGF angiogenesis and invasive, metastatic phenotype linked to poor prognosis.
 
 ---
 
