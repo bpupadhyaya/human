@@ -298,6 +298,15 @@ cross_links:
   - target: 02-pathogen/02-bacteria/staphylococcus-aureus
     relation: connects-to
     note: "Toxin food poisoning: preformed staphylococcal enterotoxin causes rapid-onset vomiting and diarrhoea, a classic toxin-mediated gastroenteritis of the digestive tract."
+  - target: 01-human/03-molecular/secretory-iga
+    relation: connects-to
+    note: "Mucosal defence: dimeric secretory IgA transcytosed across gut epithelium coats luminal microbes and toxins, shaping the microbiota and protecting the digestive mucosal surface from invasion."
+  - target: 01-human/03-molecular/leptin
+    relation: connects-to
+    note: "Satiety signalling: leptin from adipose and gastric chief cells acts on the gut-brain axis and enteric neurons to curb appetite and modulate motility, linking digestion to energy balance."
+  - target: 01-human/03-molecular/tgf-beta
+    relation: connects-to
+    note: "Barrier homeostasis: TGF-beta drives intestinal epithelial repair and oral tolerance, inducing regulatory T cells that restrain immune responses to food antigens and commensal flora in the gut."
 taxonomy:
   uberon: "UBERON:0001007"
 ---
@@ -480,6 +489,9 @@ The ENS can function autonomously without extrinsic innervation (Hirschsprung's 
 - **Connects to:** [Acetylcholine](../../03-molecular/acetylcholine/README.md) — parasympathetic drive: acetylcholine is the principal enteric and vagal neurotransmitter stimulating gut motility, secretion and sphincter function throughout the digestive tract.
 - **Connects to:** [Nitric Oxide](../../03-molecular/nitric-oxide/README.md) — inhibitory neurotransmission: nitric oxide from enteric inhibitory neurons relaxes gut smooth muscle for peristalsis and sphincter opening, with its loss causing achalasia and pyloric stenosis.
 - **Connects to:** [Staphylococcus aureus](../../../02-pathogen/02-bacteria/staphylococcus-aureus/README.md) — toxin food poisoning: preformed staphylococcal enterotoxin causes rapid-onset vomiting and diarrhoea, a classic toxin-mediated gastroenteritis of the digestive tract.
+- **Connects to:** [Secretory IgA](../../03-molecular/secretory-iga/README.md) — mucosal defence: dimeric secretory IgA transcytosed across gut epithelium coats luminal microbes and toxins, shaping the microbiota and protecting the digestive mucosal surface from invasion.
+- **Connects to:** [Leptin](../../03-molecular/leptin/README.md) — satiety signalling: leptin from adipose and gastric chief cells acts on the gut-brain axis and enteric neurons to curb appetite and modulate motility, linking digestion to energy balance.
+- **Connects to:** [TGF-beta](../../03-molecular/tgf-beta/README.md) — barrier homeostasis: TGF-beta drives intestinal epithelial repair and oral tolerance, inducing regulatory T cells that restrain immune responses to food antigens and commensal flora in the gut.
 
 ## Pathology
 

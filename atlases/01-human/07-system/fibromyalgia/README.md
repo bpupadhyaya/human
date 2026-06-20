@@ -267,6 +267,15 @@ cross_links:
   - target: 01-human/03-molecular/il-1b
     relation: connects-to
     note: "Neuroinflammation: IL-1β and inflammasome activation contribute to the central neuroinflammation increasingly implicated in fibromyalgia."
+  - target: 01-human/03-molecular/serotonin-transporter
+    relation: connects-to
+    note: "Descending pain control: serotonin-transporter polymorphisms and reduced serotonergic reuptake modulation underlie blunted descending inhibition in fibromyalgia, the rationale for SNRI and tricyclic therapy."
+  - target: 01-human/03-molecular/oxytocin
+    relation: connects-to
+    note: "Endogenous analgesia: oxytocin dampens nociception and stress reactivity, and lower oxytocinergic tone is linked to greater pain and distress in fibromyalgia, an emerging therapeutic target."
+  - target: 01-human/03-molecular/nitric-oxide
+    relation: connects-to
+    note: "Oxidative stress: dysregulated nitric oxide and peroxynitrite formation drive the mitochondrial oxidative stress and central sensitisation reported in fibromyalgia muscle and CNS."
 sources:
   - id: wolfe-2016-fibromyalgia-criteria
     type: peer-reviewed
@@ -510,6 +519,9 @@ FM is not a single-etiology disorder but a convergent syndrome resulting from th
 - `connects-to` → **[NPY](../../03-molecular/npy/README.md)** — Pain and autonomic dysregulation: altered neuropeptide Y signalling is implicated in the pain processing and autonomic dysfunction of fibromyalgia.
 - `connects-to` → **[Leptin](../../03-molecular/leptin/README.md)** — Adiposity and pain: leptin, elevated in obesity, correlates with fibromyalgia pain severity, linking adipose-driven inflammation to central sensitisation.
 - `connects-to` → **[IL-1β](../../03-molecular/il-1b/README.md)** — Neuroinflammation: IL-1β and inflammasome activation contribute to the central neuroinflammation increasingly implicated in fibromyalgia.
+- `connects-to` → **[Serotonin Transporter](../../03-molecular/serotonin-transporter/README.md)** — Descending pain control: serotonin-transporter polymorphisms and reduced serotonergic reuptake modulation underlie blunted descending inhibition in fibromyalgia, the rationale for SNRI and tricyclic therapy.
+- `connects-to` → **[Oxytocin](../../03-molecular/oxytocin/README.md)** — Endogenous analgesia: oxytocin dampens nociception and stress reactivity, and lower oxytocinergic tone is linked to greater pain and distress in fibromyalgia, an emerging therapeutic target.
+- `connects-to` → **[Nitric Oxide](../../03-molecular/nitric-oxide/README.md)** — Oxidative stress: dysregulated nitric oxide and peroxynitrite formation drive the mitochondrial oxidative stress and central sensitisation reported in fibromyalgia muscle and CNS.
 
 [^wolfe-2016-fibromyalgia-criteria]: Wolfe F, Clauw DJ, Fitzcharles MA, et al. 2016 Revisions to the 2010/2011 fibromyalgia diagnostic criteria. *Semin Arthritis Rheum.* 2016;46(3):319-329. [doi:10.1016/j.semarthrit.2016.08.012](https://doi.org/10.1016/j.semarthrit.2016.08.012) · [PubMed 27916278](https://pubmed.ncbi.nlm.nih.gov/27916278/)
 [^clauw-2014-fibromyalgia-review]: Clauw DJ. Fibromyalgia: a clinical review. *JAMA.* 2014;311(15):1547-1555. [doi:10.1001/jama.2014.3266](https://doi.org/10.1001/jama.2014.3266) · [PubMed 24737367](https://pubmed.ncbi.nlm.nih.gov/24737367/)
