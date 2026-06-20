@@ -280,6 +280,15 @@ cross_links:
   - target: 01-human/07-system/polycythemia-vera
     relation: connects-to
     note: "Unusual-site clots: like polycythaemia vera, PNH is a clonal blood disorder routinely screened for in Budd-Chiari and splanchnic-vein thrombosis presentations."
+  - target: 01-human/03-molecular/pf4
+    relation: connects-to
+    note: "Complement-driven thrombosis: complement attack on GPI-deficient platelets activates them to release PF4 and procoagulant microparticles, a key driver of the thrombosis that is PNH's leading cause of death."
+  - target: 01-human/03-molecular/ferroportin
+    relation: connects-to
+    note: "Urinary iron loss: chronic intravascular haemolysis spills haemoglobin into the urine, and the resulting hemosiderinuria depletes body iron despite the haemolysis, often causing iron deficiency in PNH."
+  - target: 01-human/03-molecular/tlr4
+    relation: connects-to
+    note: "Heme as a danger signal: free heme released by intravascular haemolysis acts as a TLR4 agonist, driving sterile inflammation and endothelial activation that compound the thrombo-inflammation of PNH."
 ---
 
 # Paroxysmal Nocturnal Hemoglobinuria
@@ -459,6 +468,9 @@ When PIGA is mutated in an HSC → all progeny cells (RBCs, WBCs, platelets) of 
 - `connects-to` → **[Fibrinogen](../../03-molecular/fibrinogen/README.md)** — Thrombotic engine: complement activation, NO depletion and platelet activation in PNH create a prothrombotic, fibrinogen-rich state, and thrombosis is the leading cause of death in the disease.
 - `connects-to` → **[Myelofibrosis](../myelofibrosis/README.md)** — Clonal marrow spectrum: PNH and JAK2-mutant myelofibrosis both arise from clonal haematopoiesis and are sought together in unusual-site thrombosis and marrow-failure workups.
 - `connects-to` → **[Polycythemia Vera](../polycythemia-vera/README.md)** — Unusual-site clots: like polycythaemia vera, PNH is a clonal blood disorder routinely screened for in Budd-Chiari and splanchnic-vein thrombosis presentations.
+- `connects-to` → **[PF4](../../03-molecular/pf4/README.md)** — Complement-driven thrombosis: complement attack on GPI-deficient platelets activates them to release PF4 and procoagulant microparticles, a key driver of the thrombosis that is PNH's leading cause of death.
+- `connects-to` → **[Ferroportin](../../03-molecular/ferroportin/README.md)** — Urinary iron loss: chronic intravascular haemolysis spills haemoglobin into the urine, and the resulting hemosiderinuria depletes body iron despite the haemolysis, often causing iron deficiency in PNH.
+- `connects-to` → **[TLR4](../../03-molecular/tlr4/README.md)** — Heme as a danger signal: free heme released by intravascular haemolysis acts as a TLR4 agonist, driving sterile inflammation and endothelial activation that compound the thrombo-inflammation of PNH.
 
 ---
 
