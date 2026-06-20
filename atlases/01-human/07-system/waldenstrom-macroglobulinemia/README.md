@@ -280,6 +280,15 @@ cross_links:
   - target: 01-human/03-molecular/hif-1alpha
     relation: connects-to
     note: "Hypoxic marrow: HIF-1α stabilised in the crowded, hypoxic Waldenström marrow promotes the VEGF-driven angiogenesis and survival signalling of the tumour niche."
+  - target: 01-human/03-molecular/baff
+    relation: connects-to
+    note: "B-cell survival factor: BAFF from the marrow microenvironment supports the survival and expansion of the malignant lymphoplasmacytic clone in Waldenström, sustaining IgM-secreting cells."
+  - target: 01-human/03-molecular/mtor
+    relation: connects-to
+    note: "PI3K-mTOR survival: mTOR signalling downstream of MYD88 and the B-cell receptor drives Waldenström cell growth, and the mTOR inhibitor everolimus has clinical activity in the disease."
+  - target: 01-human/03-molecular/complement-c5
+    relation: connects-to
+    note: "Complement-mediated hemolysis: monoclonal IgM with cold-agglutinin or cryoglobulin activity fixes complement, so terminal C5-driven haemolysis contributes to the anaemia of some Waldenström patients."
 ---
 
 # Waldenström Macroglobulinemia
@@ -485,6 +494,9 @@ For symptomatic hyperviscosity → removes IgM immediately; does not treat under
 - `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — Marrow angiogenesis: VEGF is elevated in Waldenström and drives the increased bone-marrow microvessel density that supports the lymphoplasmacytic clone.
 - `connects-to` → **[TNF-α](../../03-molecular/tnf-alpha/README.md)** — Inflammatory niche: TNF-α within the bone-marrow microenvironment helps sustain the malignant B-cell clone and contributes to the cytopenias and constitutional symptoms of Waldenström.
 - `connects-to` → **[HIF-1α](../../03-molecular/hif-1alpha/README.md)** — Hypoxic marrow: HIF-1α stabilised in the crowded, hypoxic Waldenström marrow promotes the VEGF-driven angiogenesis and survival signalling of the tumour niche.
+- `connects-to` → **[BAFF](../../03-molecular/baff/README.md)** — B-cell survival factor: BAFF from the marrow microenvironment supports the survival and expansion of the malignant lymphoplasmacytic clone in Waldenström, sustaining IgM-secreting cells.
+- `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — PI3K-mTOR survival: mTOR signalling downstream of MYD88 and the B-cell receptor drives Waldenström cell growth, and the mTOR inhibitor everolimus has clinical activity in the disease.
+- `connects-to` → **[Complement C5](../../03-molecular/complement-c5/README.md)** — Complement-mediated hemolysis: monoclonal IgM with cold-agglutinin or cryoglobulin activity fixes complement, so terminal C5-driven haemolysis contributes to the anaemia of some Waldenström patients.
 
 [^treon-2015-ibrutinib-wm]: Treon SP, Tripsas CK, Meid K, et al. Ibrutinib in previously treated Waldenström's macroglobulinemia. *N Engl J Med.* 2015;373(18):1765-1774. [doi:10.1056/NEJMoa1501548](https://doi.org/10.1056/NEJMoa1501548) · [PubMed 26352686](https://pubmed.ncbi.nlm.nih.gov/26352686/)
 [^tam-2020-aspen]: Tam CS, Opat S, D'Sa S, et al. A randomized phase 3 trial of zanubrutinib vs ibrutinib in symptomatic Waldenström macroglobulinemia: the ASPEN study. *Blood.* 2020;136(18):2038-2050. [doi:10.1182/blood.2020006844](https://doi.org/10.1182/blood.2020006844) · [PubMed 32828187](https://pubmed.ncbi.nlm.nih.gov/32828187/)
