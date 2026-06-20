@@ -285,6 +285,15 @@ cross_links:
   - target: 01-human/03-molecular/complement-c5
     relation: connects-to
     note: "Complement in severe disease: complement activation, including C5a, contributes to the malarial anaemia and microvascular injury of severe malaria."
+  - target: 01-human/03-molecular/angiopoietin
+    relation: connects-to
+    note: "Endothelial dysfunction: a high angiopoietin-2 to angiopoietin-1 ratio destabilises the Tie2-regulated endothelium in severe and cerebral malaria, a key biomarker and mediator of vascular leak and poor outcome."
+  - target: 01-human/03-molecular/von-willebrand-factor
+    relation: connects-to
+    note: "Microvascular thrombosis: parasite sequestration activates the endothelium to release ultra-large von Willebrand factor multimers, promoting platelet adhesion and microthrombi in cerebral malaria."
+  - target: 01-human/03-molecular/il-1b
+    relation: connects-to
+    note: "Inflammasome fever: hemozoin and parasite products trigger IL-1β release downstream of inflammasome activation, driving the paroxysmal fevers and inflammatory injury of malaria."
 ---
 
 # Malaria
@@ -532,6 +541,9 @@ cross_links:
 - `connects-to` → **[NLRP3 Inflammasome](../../03-molecular/nlrp3-inflammasome/README.md)** — Hemozoin-driven fevers: malaria pigment (hemozoin) and parasite products activate the NLRP3 inflammasome to release IL-1β, driving the cyclical fevers and inflammation of malaria.
 - `connects-to` → **[IFN-γ](../../03-molecular/ifn-gamma/README.md)** — Protective but double-edged: IFN-γ-driven Th1 immunity controls blood-stage malaria yet contributes to the immunopathology of cerebral malaria.
 - `connects-to` → **[Complement C5](../../03-molecular/complement-c5/README.md)** — Complement in severe disease: complement activation, including C5a, contributes to the malarial anaemia and microvascular injury of severe malaria.
+- `connects-to` → **[Angiopoietin](../../03-molecular/angiopoietin/README.md)** — Endothelial dysfunction: a high angiopoietin-2 to angiopoietin-1 ratio destabilises the Tie2-regulated endothelium in severe and cerebral malaria, a key biomarker and mediator of vascular leak and poor outcome.
+- `connects-to` → **[Von Willebrand Factor](../../03-molecular/von-willebrand-factor/README.md)** — Microvascular thrombosis: parasite sequestration activates the endothelium to release ultra-large von Willebrand factor multimers, promoting platelet adhesion and microthrombi in cerebral malaria.
+- `connects-to` → **[IL-1β](../../03-molecular/il-1b/README.md)** — Inflammasome fever: hemozoin and parasite products trigger IL-1β release downstream of inflammasome activation, driving the paroxysmal fevers and inflammatory injury of malaria.
 
 [^who-malaria-report-2023]: World Health Organization. World Malaria Report 2023. WHO; 2023.
 [^white-2014-malaria-lancet]: White NJ, Pukrittayakamee S, Hien TT, et al. Malaria. *Lancet.* 2014;383(9918):723-735. [doi:10.1016/S0140-6736(13)60024-0](https://doi.org/10.1016/S0140-6736(13)60024-0) · [PubMed 23953767](https://pubmed.ncbi.nlm.nih.gov/23953767/)

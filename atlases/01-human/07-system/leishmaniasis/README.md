@@ -280,6 +280,15 @@ cross_links:
   - target: 01-human/03-molecular/type-i-interferon
     relation: connects-to
     note: "Detrimental interferon: type I interferon can impair host defence in visceral leishmaniasis, skewing macrophages away from effective parasite killing."
+  - target: 01-human/03-molecular/ccl2
+    relation: connects-to
+    note: "Monocyte recruitment: CCL2 draws inflammatory monocytes to sites of Leishmania infection, replenishing the macrophage pool the parasite exploits as its replicative niche while contributing to granuloma formation."
+  - target: 01-human/03-molecular/il-17a
+    relation: connects-to
+    note: "Th17 balance: IL-17A from Th17 cells modulates outcome in leishmaniasis, contributing to neutrophil-driven protection in some settings and to lesion immunopathology in cutaneous disease."
+  - target: 01-human/03-molecular/perforin
+    relation: connects-to
+    note: "Cytotoxic immunopathology: CD8 T-cell perforin-mediated cytotoxicity drives much of the tissue destruction in cutaneous leishmaniasis, damaging infected and bystander skin cells rather than clearing the parasite."
 ---
 
 # Leishmaniasis
@@ -469,3 +478,6 @@ HIV-VL co-infection: CD4+ depletion → loss of IFN-γ production → *Leishmani
 - `connects-to` → **[STAT1](../../03-molecular/stat1/README.md)** — Macrophage killing switch: IFN-γ signals through STAT1 to arm macrophages with nitric oxide against intracellular Leishmania, the core of the protective Th1 response.
 - `connects-to` → **[NLRP3 Inflammasome](../../03-molecular/nlrp3-inflammasome/README.md)** — Double-edged inflammasome: NLRP3-inflammasome activation and IL-1β shape the macrophage response to Leishmania, contributing to both parasite control and immunopathology.
 - `connects-to` → **[Type I Interferon](../../03-molecular/type-i-interferon/README.md)** — Detrimental interferon: type I interferon can impair host defence in visceral leishmaniasis, skewing macrophages away from effective parasite killing.
+- `connects-to` → **[CCL2](../../03-molecular/ccl2/README.md)** — Monocyte recruitment: CCL2 draws inflammatory monocytes to sites of Leishmania infection, replenishing the macrophage pool the parasite exploits as its replicative niche while contributing to granuloma formation.
+- `connects-to` → **[IL-17A](../../03-molecular/il-17a/README.md)** — Th17 balance: IL-17A from Th17 cells modulates outcome in leishmaniasis, contributing to neutrophil-driven protection in some settings and to lesion immunopathology in cutaneous disease.
+- `connects-to` → **[Perforin](../../03-molecular/perforin/README.md)** — Cytotoxic immunopathology: CD8 T-cell perforin-mediated cytotoxicity drives much of the tissue destruction in cutaneous leishmaniasis, damaging infected and bystander skin cells rather than clearing the parasite.
