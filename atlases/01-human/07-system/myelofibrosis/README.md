@@ -280,6 +280,15 @@ cross_links:
   - target: 01-human/03-molecular/hif-1alpha
     relation: connects-to
     note: "Hypoxic fibrotic niche: HIF-1α-driven angiogenesis and hypoxia characterise the densely fibrotic, neovascularised marrow of myelofibrosis."
+  - target: 01-human/03-molecular/il-1b
+    relation: connects-to
+    note: "Niche-damaging cytokine: IL-1β secreted by the mutant clone injures the bone-marrow mesenchymal niche and drives the inflammatory cytokine milieu that promotes fibrosis in myelofibrosis."
+  - target: 01-human/03-molecular/tnf-alpha
+    relation: connects-to
+    note: "Clonal selective advantage: TNF-α in the myelofibrosis marrow suppresses normal progenitors while JAK2-mutant cells resist it, giving the malignant clone a growth edge amid chronic inflammation."
+  - target: 01-human/03-molecular/osteopontin
+    relation: connects-to
+    note: "Matrix and osteosclerosis: osteopontin released by megakaryocytes and stroma contributes to the marrow fibrosis and the osteosclerosis that thickens trabecular bone in advanced myelofibrosis."
 ---
 
 # Myelofibrosis
@@ -495,6 +504,9 @@ Abrupt ruxolitinib cessation → cytokine rebound → fever, splenomegaly surge,
 - `connects-to` → **[Type I Interferon](../../03-molecular/type-i-interferon/README.md)** — Disease-modifying therapy: pegylated interferon-alpha can reduce the JAK2/CALR-mutant clone and even reverse marrow fibrosis in early myelofibrosis, unlike purely palliative JAK inhibitors.
 - `connects-to` → **[EZH2](../../03-molecular/ezh2/README.md)** — High-risk mutation: loss-of-function EZH2 mutations are recurrent in myelofibrosis and mark a poorer prognosis among its epigenetic driver lesions.
 - `connects-to` → **[HIF-1α](../../03-molecular/hif-1alpha/README.md)** — Hypoxic fibrotic niche: HIF-1α-driven angiogenesis and hypoxia characterise the densely fibrotic, neovascularised marrow of myelofibrosis.
+- `connects-to` → **[IL-1β](../../03-molecular/il-1b/README.md)** — Niche-damaging cytokine: IL-1β secreted by the mutant clone injures the bone-marrow mesenchymal niche and drives the inflammatory cytokine milieu that promotes fibrosis in myelofibrosis.
+- `connects-to` → **[TNF-α](../../03-molecular/tnf-alpha/README.md)** — Clonal selective advantage: TNF-α in the myelofibrosis marrow suppresses normal progenitors while JAK2-mutant cells resist it, giving the malignant clone a growth edge amid chronic inflammation.
+- `connects-to` → **[Osteopontin](../../03-molecular/osteopontin/README.md)** — Matrix and osteosclerosis: osteopontin released by megakaryocytes and stroma contributes to the marrow fibrosis and the osteosclerosis that thickens trabecular bone in advanced myelofibrosis.
 
 ---
 

@@ -286,6 +286,15 @@ cross_links:
   - target: 01-human/03-molecular/endothelin-1
     relation: connects-to
     note: "Stellate-cell activation: endothelin-1 contracts hepatic stellate cells and contributes to the portal hypertension and fibrosis of advancing NASH."
+  - target: 01-human/03-molecular/pdgf
+    relation: connects-to
+    note: "Fibrogenic mitogen: PDGF is the strongest proliferative signal transdifferentiating hepatic stellate cells into collagen-producing myofibroblasts, the central driver of progressive NASH fibrosis."
+  - target: 01-human/03-molecular/il-1b
+    relation: connects-to
+    note: "Inflammasome injury: IL-1β released downstream of NLRP3 inflammasome activation by lipotoxic hepatocytes amplifies hepatic inflammation and stellate-cell activation in the transition from steatosis to NASH."
+  - target: 01-human/03-molecular/cgas-sting
+    relation: connects-to
+    note: "Innate DNA sensing: leaked mitochondrial DNA from stressed hepatocytes engages the cGAS-STING pathway in liver macrophages, driving the inflammation and fibrosis that characterise NASH."
 ---
 
 # NASH
@@ -464,6 +473,9 @@ NASH pathogenesis is driven by multiple simultaneous and sequential hits, not a 
 - `connects-to` → **[HIF-1α](../../03-molecular/hif-1alpha/README.md)** — Hepatic hypoxia: HIF-1α activated in the fatty, poorly perfused liver promotes lipogenesis, inflammation and fibrosis, helping drive the progression of NASH.
 - `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — Pathological angiogenesis: VEGF-driven aberrant angiogenesis accompanies NASH fibrosis as it advances toward cirrhosis and hepatocellular carcinoma.
 - `connects-to` → **[Endothelin-1](../../03-molecular/endothelin-1/README.md)** — Stellate-cell activation: endothelin-1 contracts hepatic stellate cells and contributes to the portal hypertension and fibrosis of advancing NASH.
+- `connects-to` → **[PDGF](../../03-molecular/pdgf/README.md)** — Fibrogenic mitogen: PDGF is the strongest proliferative signal transdifferentiating hepatic stellate cells into collagen-producing myofibroblasts, the central driver of progressive NASH fibrosis.
+- `connects-to` → **[IL-1β](../../03-molecular/il-1b/README.md)** — Inflammasome injury: IL-1β released downstream of NLRP3 inflammasome activation by lipotoxic hepatocytes amplifies hepatic inflammation and stellate-cell activation in the transition from steatosis to NASH.
+- `connects-to` → **[cGAS-STING](../../03-molecular/cgas-sting/README.md)** — Innate DNA sensing: leaked mitochondrial DNA from stressed hepatocytes engages the cGAS-STING pathway in liver macrophages, driving the inflammation and fibrosis that characterise NASH.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
