@@ -283,6 +283,15 @@ cross_links:
   - target: 01-human/03-molecular/igf-1
     relation: connects-to
     note: "Proliferative repair: IGF-1 stimulates fibroblast proliferation, collagen synthesis and granulation tissue, and its deficiency contributes to impaired healing in diabetes and ageing."
+  - target: 01-human/03-molecular/ccl2
+    relation: connects-to
+    note: "Macrophage recruitment: CCL2 draws monocytes into the wound, where they mature into the macrophages that clear debris and orchestrate the transition from inflammation to repair."
+  - target: 01-human/03-molecular/il-10
+    relation: connects-to
+    note: "Resolution phase: IL-10 dampens the inflammatory phase and promotes scarless, regenerative healing, and its deficiency biases wounds toward excessive scarring."
+  - target: 01-human/03-molecular/wnt-beta-catenin
+    relation: connects-to
+    note: "Re-epithelialisation: Wnt/β-catenin signalling drives the keratinocyte proliferation and migration that resurface the wound and regenerate skin appendages."
 ---
 
 # Wound Healing
@@ -490,6 +499,9 @@ cross_links:
 - `connects-to` → **[EGFR](../../03-molecular/egfr/README.md)** — Re-epithelialisation: EGF signalling through EGFR drives the keratinocyte proliferation and migration that resurface a wound, the phase whose failure leaves a chronic ulcer.
 - `connects-to` → **[IL-1β](../../03-molecular/il-1b/README.md)** — Inflammatory phase: IL-1β orchestrates the early inflammatory response to injury, but its persistence in chronic wounds stalls them in a non-healing inflammatory state.
 - `connects-to` → **[IGF-1](../../03-molecular/igf-1/README.md)** — Proliferative repair: IGF-1 stimulates fibroblast proliferation, collagen synthesis and granulation tissue, and its deficiency contributes to impaired healing in diabetes and ageing.
+- `connects-to` → **[CCL2](../../03-molecular/ccl2/README.md)** — Macrophage recruitment: CCL2 draws monocytes into the wound, where they mature into the macrophages that clear debris and orchestrate the transition from inflammation to repair.
+- `connects-to` → **[IL-10](../../03-molecular/il-10/README.md)** — Resolution phase: IL-10 dampens the inflammatory phase and promotes scarless, regenerative healing, and its deficiency biases wounds toward excessive scarring.
+- `connects-to` → **[Wnt/β-catenin](../../03-molecular/wnt-beta-catenin/README.md)** — Re-epithelialisation: Wnt/β-catenin signalling drives the keratinocyte proliferation and migration that resurface the wound and regenerate skin appendages.
 
 [^singer-1999-wound-healing-review]: Singer AJ, Clark RA. Cutaneous wound healing. *N Engl J Med.* 1999;341(10):738-746. [doi:10.1056/NEJM199909023411006](https://doi.org/10.1056/NEJM199909023411006) · [PubMed 10471461](https://pubmed.ncbi.nlm.nih.gov/10471461/)
 [^gurtner-2008-wound-repair-regeneration]: Gurtner GC, Werner S, Barrandon Y, Longaker MT. Wound repair and regeneration. *Nature.* 2008;453(7193):314-321. [doi:10.1038/nature07039](https://doi.org/10.1038/nature07039) · [PubMed 18480812](https://pubmed.ncbi.nlm.nih.gov/18480812/)

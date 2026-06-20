@@ -286,6 +286,15 @@ cross_links:
   - target: 01-human/03-molecular/hif-1alpha
     relation: connects-to
     note: "Protective marrow niche: HIF-1α-driven adaptation to the hypoxic bone-marrow niche shelters AML leukaemic stem cells, supporting their persistence and relapse."
+  - target: 01-human/03-molecular/cdk4-6
+    relation: connects-to
+    note: "Cell-cycle drive: cyclin D-CDK4/6 activity propels AML blasts through the G1 checkpoint, a candidate cell-cycle target alongside the disease's mutational drivers."
+  - target: 01-human/03-molecular/vegf
+    relation: connects-to
+    note: "Marrow angiogenesis: VEGF raises bone-marrow microvessel density in AML, an autocrine and paracrine signal supporting the leukaemic clone."
+  - target: 01-human/03-molecular/tnf-alpha
+    relation: connects-to
+    note: "Inflammatory niche: TNF-α in the AML marrow microenvironment suppresses normal haematopoiesis while supporting the survival of the leukaemic clone."
 ---
 
 # AML
@@ -486,6 +495,9 @@ AML requires cooperative mutations in at least 2 functional categories (Gillilan
 - `connects-to` → **[EZH2](../../03-molecular/ezh2/README.md)** — Epigenetic dysregulation: EZH2 and the broader epigenetic machinery (with DNMT3A, TET2 and IDH already implicated) are deranged in AML, a rationale for epigenetic therapy.
 - `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — Survival signalling: PI3K-AKT-mTOR signalling, often downstream of FLT3, sustains the survival and proliferation of AML blasts.
 - `connects-to` → **[HIF-1α](../../03-molecular/hif-1alpha/README.md)** — Protective marrow niche: HIF-1α-driven adaptation to the hypoxic bone-marrow niche shelters AML leukaemic stem cells, supporting their persistence and relapse.
+- `connects-to` → **[CDK4/6](../../03-molecular/cdk4-6/README.md)** — Cell-cycle drive: cyclin D-CDK4/6 activity propels AML blasts through the G1 checkpoint, a candidate cell-cycle target alongside the disease's mutational drivers.
+- `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — Marrow angiogenesis: VEGF raises bone-marrow microvessel density in AML, an autocrine and paracrine signal supporting the leukaemic clone.
+- `connects-to` → **[TNF-α](../../03-molecular/tnf-alpha/README.md)** — Inflammatory niche: TNF-α in the AML marrow microenvironment suppresses normal haematopoiesis while supporting the survival of the leukaemic clone.
 
 [^dinardo-2020-viale-a]: DiNardo CD, Jonas BA, Pullarkat V, et al. Azacitidine and venetoclax in previously untreated acute myeloid leukemia. *N Engl J Med.* 2020;383(7):617-629. [doi:10.1056/NEJMoa2012971](https://doi.org/10.1056/NEJMoa2012971) · [PubMed 32786187](https://pubmed.ncbi.nlm.nih.gov/32786187/)
 [^stone-2017-midostaurin]: Stone RM, Mandrekar SJ, Sanford BL, et al. Midostaurin plus chemotherapy for acute myeloid leukemia with a FLT3 mutation. *N Engl J Med.* 2017;377(5):454-464. [doi:10.1056/NEJMoa1614359](https://doi.org/10.1056/NEJMoa1614359) · [PubMed 28644114](https://pubmed.ncbi.nlm.nih.gov/28644114/)
