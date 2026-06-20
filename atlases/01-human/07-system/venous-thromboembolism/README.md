@@ -289,6 +289,15 @@ cross_links:
   - target: 01-human/03-molecular/hif-1alpha
     relation: connects-to
     note: "Stasis hypoxia: venous stasis creates local hypoxia that stabilises HIF-1α and upregulates procoagulant factors, part of why immobility and stasis precipitate deep-vein thrombosis."
+  - target: 01-human/03-molecular/s100a8-a9
+    relation: connects-to
+    note: "NETosis initiation: neutrophil extracellular traps rich in S100A8/A9 provide the scaffold and trigger for venous thrombus formation, a core mechanism of immunothrombosis behind deep-vein thrombosis."
+  - target: 01-human/03-molecular/pf4
+    relation: connects-to
+    note: "Platelet activation: PF4 released from activated platelets within the forming venous thrombus promotes aggregation and, in HIT and VITT, drives the antibody-mediated thrombosis that VTE workups must exclude."
+  - target: 01-human/03-molecular/fibronectin
+    relation: connects-to
+    note: "Thrombus scaffold: plasma fibronectin is cross-linked into the fibrin meshwork of venous clots, stabilising the thrombus that obstructs the vein or embolises to the lung."
 ---
 
 # Venous Thromboembolism
@@ -498,6 +507,9 @@ cross_links:
 - `connects-to` → **[IL-6](../../03-molecular/il-6/README.md)** — Immunothrombosis: IL-6 drives the inflammation-coagulation crosstalk that raises VTE risk in infection, cancer and inflammatory disease, linking acute illness to clot formation.
 - `connects-to` → **[TNF-α](../../03-molecular/tnf-alpha/README.md)** — Prothrombotic inflammation: TNF-α activates endothelium to express tissue factor and downregulate anticoagulant pathways, a mechanism connecting systemic inflammation to venous thrombosis.
 - `connects-to` → **[HIF-1α](../../03-molecular/hif-1alpha/README.md)** — Stasis hypoxia: venous stasis creates local hypoxia that stabilises HIF-1α and upregulates procoagulant factors, part of why immobility and stasis precipitate deep-vein thrombosis.
+- `connects-to` → **[S100A8/A9](../../03-molecular/s100a8-a9/README.md)** — NETosis initiation: neutrophil extracellular traps rich in S100A8/A9 provide the scaffold and trigger for venous thrombus formation, a core mechanism of immunothrombosis behind deep-vein thrombosis.
+- `connects-to` → **[PF4](../../03-molecular/pf4/README.md)** — Platelet activation: PF4 released from activated platelets within the forming venous thrombus promotes aggregation and, in HIT and VITT, drives the antibody-mediated thrombosis that VTE workups must exclude.
+- `connects-to` → **[Fibronectin](../../03-molecular/fibronectin/README.md)** — Thrombus scaffold: plasma fibronectin is cross-linked into the fibrin meshwork of venous clots, stabilising the thrombus that obstructs the vein or embolises to the lung.
 
 [^agnelli-2013-amplify-apixaban-vte]: Agnelli G, Buller HR, Cohen A, et al. Oral apixaban for the treatment of acute venous thromboembolism. *N Engl J Med.* 2013;369(9):799-808. [doi:10.1056/NEJMoa1302507](https://doi.org/10.1056/NEJMoa1302507) · [PubMed 23808982](https://pubmed.ncbi.nlm.nih.gov/23808982/)
 [^bauersachs-2010-einstein-rivaroxaban]: EINSTEIN Investigators. Oral rivaroxaban for symptomatic venous thromboembolism. *N Engl J Med.* 2010;363(26):2499-2510. [doi:10.1056/NEJMoa1007903](https://doi.org/10.1056/NEJMoa1007903) · [PubMed 21128814](https://pubmed.ncbi.nlm.nih.gov/21128814/)
