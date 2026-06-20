@@ -286,6 +286,15 @@ cross_links:
   - target: 01-human/03-molecular/ezh2
     relation: connects-to
     note: "Epigenetic dependency: EZH2 and the PRC2 complex enforce the repressive chromatin state of leukaemic blasts, an epigenetic vulnerability particularly in T-cell ALL."
+  - target: 01-human/03-molecular/cdkn2a
+    relation: connects-to
+    note: "Lost cell-cycle brake: deletion of the CDKN2A tumour suppressor is among the most frequent lesions in ALL, removing the p16-mediated restraint on CDK4/6 and unleashing lymphoblast proliferation."
+  - target: 01-human/03-molecular/cxcl12
+    relation: connects-to
+    note: "Marrow-niche refuge: CXCL12 from bone-marrow stroma signals through CXCR4 to home and shelter leukaemic blasts in the protective niche, a mechanism of chemoresistance and minimal residual disease in ALL."
+  - target: 01-human/03-molecular/akt
+    relation: connects-to
+    note: "Survival signalling: PI3K-AKT activation, often via PTEN loss in T-cell ALL, drives the growth and survival of lymphoblasts and contributes to glucocorticoid resistance."
 ---
 
 # Acute Lymphoblastic Leukemia
@@ -515,6 +524,9 @@ Childhood ALL survivors (now majority of patients): neurocognitive impairment (M
 - `connects-to` → **[JAK1/2](../../03-molecular/jak1-2/README.md)** — Ph-like ALL: a high-risk subtype of B-ALL carries kinase fusions that activate JAK-STAT signalling, making JAK inhibitors a targeted strategy in this aggressive disease.
 - `connects-to` → **[CDK4/6](../../03-molecular/cdk4-6/README.md)** — Cell-cycle target: cyclin D-CDK4/6 drives the proliferation of lymphoblasts, and CDK4/6 inhibitors are being explored to restore cell-cycle control in acute lymphoblastic leukaemia.
 - `connects-to` → **[EZH2](../../03-molecular/ezh2/README.md)** — Epigenetic dependency: EZH2 and the PRC2 complex enforce the repressive chromatin state of leukaemic blasts, an epigenetic vulnerability particularly in T-cell ALL.
+- `connects-to` → **[CDKN2A](../../03-molecular/cdkn2a/README.md)** — Lost cell-cycle brake: deletion of the CDKN2A tumour suppressor is among the most frequent lesions in ALL, removing the p16-mediated restraint on CDK4/6 and unleashing lymphoblast proliferation.
+- `connects-to` → **[CXCL12](../../03-molecular/cxcl12/README.md)** — Marrow-niche refuge: CXCL12 from bone-marrow stroma signals through CXCR4 to home and shelter leukaemic blasts in the protective niche, a mechanism of chemoresistance and minimal residual disease in ALL.
+- `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — Survival signalling: PI3K-AKT activation, often via PTEN loss in T-cell ALL, drives the growth and survival of lymphoblasts and contributes to glucocorticoid resistance.
 
 [^pui-2018-all-cure]: Pui CH, Yang JJ, Bhakta N, et al. Global efforts toward the cure of childhood acute lymphoblastic leukemia. *Lancet Child Adolesc Health.* 2018;2(6):440-454. [doi:10.1016/S2352-4642(18)30066-X](https://doi.org/10.1016/S2352-4642(18)30066-X) · [PubMed 29976322](https://pubmed.ncbi.nlm.nih.gov/29976322/)
 [^maude-2018-tisagenlecleucel]: Maude SL, Laetsch TW, Buechner J, et al. Tisagenlecleucel in children and young adults with B-cell lymphoblastic leukemia. *N Engl J Med.* 2018;378(5):439-448. [doi:10.1056/NEJMoa1709866](https://doi.org/10.1056/NEJMoa1709866) · [PubMed 29385370](https://pubmed.ncbi.nlm.nih.gov/29385370/)

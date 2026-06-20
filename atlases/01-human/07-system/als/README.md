@@ -295,6 +295,15 @@ cross_links:
   - target: 01-human/03-molecular/il-6
     relation: connects-to
     note: "Inflammatory progression: elevated IL-6 reflects the neuroinflammatory and systemic inflammatory activity that tracks with faster decline in ALS."
+  - target: 01-human/03-molecular/ccl2
+    relation: connects-to
+    note: "Monocyte recruitment: CCL2 is elevated in ALS CSF and recruits inflammatory monocytes to degenerating motor pathways, part of the neuroinflammation driving disease progression."
+  - target: 01-human/03-molecular/type-i-interferon
+    relation: connects-to
+    note: "TDP-43-driven interferon: cytoplasmic TDP-43 aggregates and leaked nucleic acids activate cGAS-STING to trigger a type-I-interferon response, an inflammatory driver of motor-neuron degeneration in ALS."
+  - target: 01-human/03-molecular/complement-c3
+    relation: connects-to
+    note: "Complement-mediated denervation: complement activation including C3 deposits at the neuromuscular junction and on motor neurons in ALS, contributing to synapse loss and denervation."
 ---
 
 # ALS
@@ -527,6 +536,9 @@ ALS diagnosis is **clinical** — no single definitive biomarker test (though Nf
 - `connects-to` → **[cGAS-STING](../../03-molecular/cgas-sting/README.md)** — Innate sensing of mislocalised DNA: TDP-43 pathology in ALS releases mitochondrial DNA that activates the cGAS-STING pathway, driving the type-I interferon neuroinflammation of the disease.
 - `connects-to` → **[IL-1β](../../03-molecular/il-1b/README.md)** — Microglial cytokine: IL-1β from activated microglia around degenerating motor neurons amplifies the neuroinflammation that accelerates motor-neuron loss in ALS.
 - `connects-to` → **[IL-6](../../03-molecular/il-6/README.md)** — Inflammatory progression: elevated IL-6 reflects the neuroinflammatory and systemic inflammatory activity that tracks with faster decline in ALS.
+- `connects-to` → **[CCL2](../../03-molecular/ccl2/README.md)** — Monocyte recruitment: CCL2 is elevated in ALS CSF and recruits inflammatory monocytes to degenerating motor pathways, part of the neuroinflammation driving disease progression.
+- `connects-to` → **[Type I Interferon](../../03-molecular/type-i-interferon/README.md)** — TDP-43-driven interferon: cytoplasmic TDP-43 aggregates and leaked nucleic acids activate cGAS-STING to trigger a type-I-interferon response, an inflammatory driver of motor-neuron degeneration in ALS.
+- `connects-to` → **[Complement C3](../../03-molecular/complement-c3/README.md)** — Complement-mediated denervation: complement activation including C3 deposits at the neuromuscular junction and on motor neurons in ALS, contributing to synapse loss and denervation.
 
 [^brown-2017-als-review]: Brown RH, Al-Chalabi A. Amyotrophic lateral sclerosis. *N Engl J Med.* 2017;377(2):162-172. [doi:10.1056/NEJMra1603471](https://doi.org/10.1056/NEJMra1603471) · [PubMed 28700839](https://pubmed.ncbi.nlm.nih.gov/28700839/)
 [^edaravone-als-2017]: Writing Group, Edaravone ALS 19 Study Group. Safety and efficacy of edaravone in well defined patients with amyotrophic lateral sclerosis. *Lancet Neurol.* 2017;16(7):505-512. [doi:10.1016/S1474-4422(17)30115-1](https://doi.org/10.1016/S1474-4422(17)30115-1) · [PubMed 28522180](https://pubmed.ncbi.nlm.nih.gov/28522180/)
