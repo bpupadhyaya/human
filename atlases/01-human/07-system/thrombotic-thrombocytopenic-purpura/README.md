@@ -283,6 +283,15 @@ cross_links:
   - target: 01-human/03-molecular/il-1b
     relation: connects-to
     note: "Inflammatory amplification: IL-1β and related cytokines released during TTP's endothelial injury heighten the prothrombotic, inflammatory state of the acute episode."
+  - target: 01-human/03-molecular/nitric-oxide
+    relation: connects-to
+    note: "Endothelial dysfunction: the microvascular endothelial injury of TTP cuts nitric oxide production, removing its vasodilator and antithrombotic brake and worsening microthrombosis."
+  - target: 01-human/03-molecular/endothelin-1
+    relation: connects-to
+    note: "Vasoconstrictor imbalance: injured endothelium in TTP releases endothelin-1, whose vasoconstriction aggravates the organ ischaemia of the thrombotic microangiopathy."
+  - target: 01-human/03-molecular/fibrinogen
+    relation: connects-to
+    note: "Platelet-rich microthrombi: the VWF-driven platelet aggregates of TTP, with fibrinogen-mediated cross-linking, form the microthrombi that shear red cells and occlude small vessels."
 ---
 
 # Thrombotic Thrombocytopenic Purpura
@@ -526,6 +535,9 @@ In healthy individuals, ADAMTS13 (~190 kDa plasma glycoprotein; hepatic synthesi
 - `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — Splenic clearance and autoimmunity: splenic macrophages clear antibody-coated cells and contribute to the autoimmune response against ADAMTS13, the rationale for splenectomy in refractory acquired TTP.
 - `connects-to` → **[NLRP3 Inflammasome](../../03-molecular/nlrp3-inflammasome/README.md)** — Endothelial inflammation: NLRP3-inflammasome activation in injured microvascular endothelium amplifies the inflammatory damage that accompanies the thrombotic microangiopathy of TTP.
 - `connects-to` → **[IL-1β](../../03-molecular/il-1b/README.md)** — Inflammatory amplification: IL-1β and related cytokines released during TTP's endothelial injury heighten the prothrombotic, inflammatory state of the acute episode.
+- `connects-to` → **[Nitric Oxide](../../03-molecular/nitric-oxide/README.md)** — Endothelial dysfunction: the microvascular endothelial injury of TTP cuts nitric oxide production, removing its vasodilator and antithrombotic brake and worsening microthrombosis.
+- `connects-to` → **[Endothelin-1](../../03-molecular/endothelin-1/README.md)** — Vasoconstrictor imbalance: injured endothelium in TTP releases endothelin-1, whose vasoconstriction aggravates the organ ischaemia of the thrombotic microangiopathy.
+- `connects-to` → **[Fibrinogen](../../03-molecular/fibrinogen/README.md)** — Platelet-rich microthrombi: the VWF-driven platelet aggregates of TTP, with fibrinogen-mediated cross-linking, form the microthrombi that shear red cells and occlude small vessels.
 
 ---
 
