@@ -286,6 +286,15 @@ cross_links:
   - target: 01-human/03-molecular/il-6
     relation: connects-to
     note: "Inflammatory signalling: chronic stimulant use raises IL-6, part of the immune activation and vascular inflammation that accompany dependence and its cardiovascular harms."
+  - target: 01-human/03-molecular/serotonin-transporter
+    relation: connects-to
+    note: "Reverse transport: amphetamines and MDMA hijack the serotonin transporter to run it in reverse, dumping monoamines into the synapse — the molecular mechanism of the rush and the serotonergic toxicity of stimulants."
+  - target: 01-human/03-molecular/nitric-oxide
+    relation: connects-to
+    note: "Endothelial dysfunction: cocaine impairs nitric-oxide signalling and provokes coronary vasospasm, a key mechanism of the myocardial infarction and stroke that complicate stimulant use."
+  - target: 01-human/03-molecular/adenosine
+    relation: connects-to
+    note: "Purinergic reward modulation: adenosine A2A receptors antagonise dopamine D2 signalling in the striatum, a brake on stimulant reward that caffeine and other stimulants engage to amplify dopaminergic drive."
 ---
 
 # Stimulant Use Disorder
@@ -497,6 +506,9 @@ Unlike cocaine, methamphetamine causes **direct neurotoxic damage** to dopaminer
 - `connects-to` → **[Endothelin-1](../../03-molecular/endothelin-1/README.md)** — Vasoconstrictor surge: cocaine and methamphetamine raise endothelin-1 and sympathetic tone, the intense vasoconstriction behind their strokes, myocardial infarctions and mesenteric ischaemia.
 - `connects-to` → **[TNF-α](../../03-molecular/tnf-alpha/README.md)** — Glial neuroinflammation: stimulants activate microglia to release TNF-α, neuroinflammation that contributes to the neurotoxicity and cognitive deficits of chronic stimulant use.
 - `connects-to` → **[IL-6](../../03-molecular/il-6/README.md)** — Inflammatory signalling: chronic stimulant use raises IL-6, part of the immune activation and vascular inflammation that accompany dependence and its cardiovascular harms.
+- `connects-to` → **[Serotonin Transporter](../../03-molecular/serotonin-transporter/README.md)** — Reverse transport: amphetamines and MDMA hijack the serotonin transporter to run it in reverse, dumping monoamines into the synapse — the molecular mechanism of the rush and the serotonergic toxicity of stimulants.
+- `connects-to` → **[Nitric Oxide](../../03-molecular/nitric-oxide/README.md)** — Endothelial dysfunction: cocaine impairs nitric-oxide signalling and provokes coronary vasospasm, a key mechanism of the myocardial infarction and stroke that complicate stimulant use.
+- `connects-to` → **[Adenosine](../../03-molecular/adenosine/README.md)** — Purinergic reward modulation: adenosine A2A receptors antagonise dopamine D2 signalling in the striatum, a brake on stimulant reward that caffeine and other stimulants engage to amplify dopaminergic drive.
 
 ## Treatment
 
