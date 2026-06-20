@@ -290,6 +290,15 @@ cross_links:
   - target: 01-human/03-molecular/tnf-alpha
     relation: connects-to
     note: "Inflammatory mediator: TNF-α contributes to the systemic inflammation and tissue injury of severe measles, including its pneumonia and encephalitis complications."
+  - target: 01-human/03-molecular/perforin
+    relation: connects-to
+    note: "Cytotoxic clearance: CD8 T cells use perforin and granzyme to clear measles-infected cells, the response required for recovery whose recruitment of cytotoxic immunity also mediates the rash."
+  - target: 01-human/03-molecular/il-10
+    relation: connects-to
+    note: "Immune amnesia and suppression: measles induces IL-10 and depletes memory lymphocytes, producing the prolonged immunosuppression and 'immune amnesia' that leaves survivors vulnerable to other infections."
+  - target: 01-human/03-molecular/ccl2
+    relation: connects-to
+    note: "Monocyte recruitment: CCL2 draws monocytes and macrophages into measles-infected tissues, contributing to the giant-cell pneumonia and the inflammatory response of the systemic infection."
 ---
 
 # Measles
@@ -525,6 +534,9 @@ Beyond immune amnesia (memory B cell depletion), MV causes acute immune suppress
 - `connects-to` → **[IFN-γ](../../03-molecular/ifn-gamma/README.md)** — Cell-mediated clearance: IFN-γ from T cells is essential for clearing measles virus, and the cellular immune response it drives produces the characteristic rash as the virus is eliminated.
 - `connects-to` → **[IL-6](../../03-molecular/il-6/README.md)** — Acute inflammation: IL-6 rises in acute measles to drive the fever and acute-phase response, part of the cytokine surge of the systemic viral illness.
 - `connects-to` → **[TNF-α](../../03-molecular/tnf-alpha/README.md)** — Inflammatory mediator: TNF-α contributes to the systemic inflammation and tissue injury of severe measles, including its pneumonia and encephalitis complications.
+- `connects-to` → **[Perforin](../../03-molecular/perforin/README.md)** — Cytotoxic clearance: CD8 T cells use perforin and granzyme to clear measles-infected cells, the response required for recovery whose recruitment of cytotoxic immunity also mediates the rash.
+- `connects-to` → **[IL-10](../../03-molecular/il-10/README.md)** — Immune amnesia and suppression: measles induces IL-10 and depletes memory lymphocytes, producing the prolonged immunosuppression and 'immune amnesia' that leaves survivors vulnerable to other infections.
+- `connects-to` → **[CCL2](../../03-molecular/ccl2/README.md)** — Monocyte recruitment: CCL2 draws monocytes and macrophages into measles-infected tissues, contributing to the giant-cell pneumonia and the inflammatory response of the systemic infection.
 
 [^panum-1847-faroe-measles]: Panum PL. Observations made during the epidemic of measles on the Faroe Islands in the year 1846. *Med Classics.* 1939;3:829-886.
 [^mina-2019-immune-amnesia]: Mina MJ, Kula T, Leng Y, et al. Measles virus infection diminishes preexisting antibodies that offer protection from other pathogens. *Science.* 2019;366(6465):599-606. [doi:10.1126/science.aay6485](https://doi.org/10.1126/science.aay6485) · [PubMed 31672891](https://pubmed.ncbi.nlm.nih.gov/31672891/)

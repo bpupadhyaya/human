@@ -292,6 +292,15 @@ cross_links:
   - target: 01-human/03-molecular/norepinephrine
     relation: connects-to
     note: "Brainstem modulation: noradrenergic signalling from the locus coeruleus modulates cerebral blood flow and pain processing in migraine, and its dysregulation features in the autonomic symptoms of attacks."
+  - target: 01-human/03-molecular/prostaglandins
+    relation: connects-to
+    note: "Neurogenic inflammation: prostaglandins sensitise and excite trigeminal nociceptors and dilate meningeal vessels during migraine, which is why NSAIDs that block their synthesis abort attacks."
+  - target: 01-human/03-molecular/endothelin-1
+    relation: connects-to
+    note: "Vascular dysregulation: endothelin-1 contributes to the meningeal and cerebral vascular tone changes of migraine, part of the neurovascular dysfunction underlying the headache and aura."
+  - target: 01-human/03-molecular/serotonin-transporter
+    relation: connects-to
+    note: "Serotonergic comorbidity: serotonin-transporter function links migraine to its frequent depression and anxiety comorbidity and shapes the serotonergic descending pain modulation triptans engage."
 ---
 
 # Migraine
@@ -520,6 +529,9 @@ Episodic migraine (EM, <15 headache days/month) transforms to **chronic migraine
 - `connects-to` → **[IL-6](../../03-molecular/il-6/README.md)** — Neurogenic inflammation: IL-6 released during the sterile neurogenic inflammation around meningeal vessels contributes to the sensitisation and pain of a migraine attack.
 - `connects-to` → **[TNF-α](../../03-molecular/tnf-alpha/README.md)** — Inflammatory sensitisation: TNF-α is elevated during migraine and helps sensitise trigeminal nociceptors, part of the inflammatory cascade that sustains the headache.
 - `connects-to` → **[Norepinephrine](../../03-molecular/norepinephrine/README.md)** — Brainstem modulation: noradrenergic signalling from the locus coeruleus modulates cerebral blood flow and pain processing in migraine, and its dysregulation features in the autonomic symptoms of attacks.
+- `connects-to` → **[Prostaglandins](../../03-molecular/prostaglandins/README.md)** — Neurogenic inflammation: prostaglandins sensitise and excite trigeminal nociceptors and dilate meningeal vessels during migraine, which is why NSAIDs that block their synthesis abort attacks.
+- `connects-to` → **[Endothelin-1](../../03-molecular/endothelin-1/README.md)** — Vascular dysregulation: endothelin-1 contributes to the meningeal and cerebral vascular tone changes of migraine, part of the neurovascular dysfunction underlying the headache and aura.
+- `connects-to` → **[Serotonin Transporter](../../03-molecular/serotonin-transporter/README.md)** — Serotonergic comorbidity: serotonin-transporter function links migraine to its frequent depression and anxiety comorbidity and shapes the serotonergic descending pain modulation triptans engage.
 
 [^gbd-2016-migraine-burden]: GBD 2016 Headache Collaborators. Global, regional, and national burden of migraine and tension-type headache, 1990-2016. *Lancet Neurol.* 2018;17(11):954-976. [doi:10.1016/S1474-4422(18)30322-3](https://doi.org/10.1016/S1474-4422(18)30322-3) · [PubMed 30353868](https://pubmed.ncbi.nlm.nih.gov/30353868/)
 [^goadsby-2002-migraine-review]: Goadsby PJ, Lipton RB, Ferrari MD. Migraine — current understanding and treatment. *N Engl J Med.* 2002;346(4):257-270. [doi:10.1056/NEJMra010917](https://doi.org/10.1056/NEJMra010917) · [PubMed 11807151](https://pubmed.ncbi.nlm.nih.gov/11807151/)
