@@ -277,6 +277,15 @@ cross_links:
   - target: 01-human/03-molecular/myc
     relation: connects-to
     note: "Amplified aggression: MYC amplification (chromosome 8q gain) marks high-risk, metastasis-prone uveal melanoma."
+  - target: 01-human/03-molecular/met
+    relation: connects-to
+    note: "Hepatic tropism: MET (c-Met) signalling drives the striking liver tropism of uveal melanoma metastasis, the dominant and usually fatal site of spread."
+  - target: 01-human/03-molecular/pdgf
+    relation: connects-to
+    note: "Stromal growth: PDGF signalling supports the proliferation and angiogenesis of uveal melanoma, part of its receptor-tyrosine-kinase landscape."
+  - target: 01-human/03-molecular/ccl2
+    relation: connects-to
+    note: "Macrophage infiltration: CCL2 recruits tumour-associated macrophages whose abundance, paradoxically, marks the more aggressive uveal melanomas."
 ---
 
 # Uveal Melanoma
@@ -500,6 +509,9 @@ Uveal melanocytes are neural crest-derived, residing in the uveal stroma and mai
 - `connects-to` → **[EZH2](../../03-molecular/ezh2/README.md)** — BAP1-linked epigenetics: BAP1 loss in high-risk uveal melanoma creates a dependence on EZH2, paralleling the BAP1-EZH2 synthetic lethality seen in mesothelioma.
 - `connects-to` → **[Cyclin D1](../../03-molecular/cyclin-d1/README.md)** — Cell-cycle drive: cyclin D1 with CDK4/6 propels uveal melanoma proliferation downstream of GNAQ/GNA11-driven MAPK signalling.
 - `connects-to` → **[MYC](../../03-molecular/myc/README.md)** — Amplified aggression: MYC amplification (chromosome 8q gain) marks high-risk, metastasis-prone uveal melanoma.
+- `connects-to` → **[MET](../../03-molecular/met/README.md)** — Hepatic tropism: MET (c-Met) signalling drives the striking liver tropism of uveal melanoma metastasis, the dominant and usually fatal site of spread.
+- `connects-to` → **[PDGF](../../03-molecular/pdgf/README.md)** — Stromal growth: PDGF signalling supports the proliferation and angiogenesis of uveal melanoma, part of its receptor-tyrosine-kinase landscape.
+- `connects-to` → **[CCL2](../../03-molecular/ccl2/README.md)** — Macrophage infiltration: CCL2 recruits tumour-associated macrophages whose abundance, paradoxically, marks the more aggressive uveal melanomas.
 
 ---
 
