@@ -294,6 +294,15 @@ cross_links:
   - target: 01-human/03-molecular/il-1b
     relation: connects-to
     note: "Inflammasome fever: hemozoin and parasite products trigger IL-1β release downstream of inflammasome activation, driving the paroxysmal fevers and inflammatory injury of malaria."
+  - target: 01-human/03-molecular/tlr4
+    relation: connects-to
+    note: "PAMP sensing: Plasmodium GPI anchors and hemozoin engage TLR4 (and TLR2/TLR9) on macrophages, triggering the NF-κB-driven cytokine surge that produces the paroxysmal fever and systemic inflammation of malaria."
+  - target: 01-human/03-molecular/perforin
+    relation: connects-to
+    note: "Cerebral malaria pathology: CD8 T cells deploy perforin against the parasite-sequestered brain endothelium, disrupting the blood-brain barrier in the immunopathology that underlies fatal cerebral malaria."
+  - target: 01-human/03-molecular/cgas-sting
+    relation: connects-to
+    note: "DNA sensing: Plasmodium DNA and hemozoin-bound DNA reaching the cytosol activate cGAS-STING, contributing the type-I-interferon response that modulates immunity and immunopathology during blood-stage malaria."
 ---
 
 # Malaria
@@ -544,6 +553,9 @@ cross_links:
 - `connects-to` → **[Angiopoietin](../../03-molecular/angiopoietin/README.md)** — Endothelial dysfunction: a high angiopoietin-2 to angiopoietin-1 ratio destabilises the Tie2-regulated endothelium in severe and cerebral malaria, a key biomarker and mediator of vascular leak and poor outcome.
 - `connects-to` → **[Von Willebrand Factor](../../03-molecular/von-willebrand-factor/README.md)** — Microvascular thrombosis: parasite sequestration activates the endothelium to release ultra-large von Willebrand factor multimers, promoting platelet adhesion and microthrombi in cerebral malaria.
 - `connects-to` → **[IL-1β](../../03-molecular/il-1b/README.md)** — Inflammasome fever: hemozoin and parasite products trigger IL-1β release downstream of inflammasome activation, driving the paroxysmal fevers and inflammatory injury of malaria.
+- `connects-to` → **[TLR4](../../03-molecular/tlr4/README.md)** — Plasmodium GPI anchors and hemozoin engage TLR4 (with TLR2 and TLR9) on macrophages, triggering the NF-κB-driven cytokine surge that produces the paroxysmal fever and systemic inflammation of malaria.
+- `connects-to` → **[Perforin](../../03-molecular/perforin/README.md)** — CD8 T cells deploy perforin against the parasite-sequestered brain endothelium, disrupting the blood-brain barrier in the immunopathology that underlies fatal cerebral malaria—where the host response, not the parasite alone, kills.
+- `connects-to` → **[cGAS-STING](../../03-molecular/cgas-sting/README.md)** — Plasmodium DNA and hemozoin-bound DNA reaching the cytosol activate cGAS-STING, contributing the type-I-interferon response that modulates both protective immunity and the immunopathology of blood-stage malaria.
 
 [^who-malaria-report-2023]: World Health Organization. World Malaria Report 2023. WHO; 2023.
 [^white-2014-malaria-lancet]: White NJ, Pukrittayakamee S, Hien TT, et al. Malaria. *Lancet.* 2014;383(9918):723-735. [doi:10.1016/S0140-6736(13)60024-0](https://doi.org/10.1016/S0140-6736(13)60024-0) · [PubMed 23953767](https://pubmed.ncbi.nlm.nih.gov/23953767/)

@@ -289,6 +289,15 @@ cross_links:
   - target: 01-human/03-molecular/thrombopoietin
     relation: connects-to
     note: "Thrombopoiesis support: thrombopoietin-receptor agonists are used to raise platelet counts in the thrombocytopenia of lower-risk MDS, addressing the bleeding risk of ineffective megakaryopoiesis."
+  - target: 01-human/03-molecular/il-1b
+    relation: connects-to
+    note: "Pyroptotic output: IL-1β matured by the NLRP3 inflammasome in MDS progenitors drives the inflammatory, pyroptotic cell death that produces the ineffective haematopoiesis and cytopenias central to the disease."
+  - target: 01-human/03-molecular/hepcidin
+    relation: connects-to
+    note: "Iron overload: the ineffective erythropoiesis of MDS suppresses hepcidin, and chronic red-cell transfusion compounds the resulting parenchymal iron loading that damages heart and liver and is treated with chelation."
+  - target: 01-human/03-molecular/ifn-gamma
+    relation: connects-to
+    note: "Immune-mediated suppression: in hypocellular MDS, T-cell IFN-γ suppresses haematopoietic progenitors, the rationale for immunosuppressive therapy that can restore counts in this subset overlapping with aplastic anaemia."
 ---
 
 # Myelodysplastic Syndromes
@@ -490,6 +499,9 @@ MDS → AML transformation rate: ~10% at 1 year for very-low risk; ~40-50% at 2 
 - `connects-to` → **[SRSF2](../../03-molecular/srsf2/README.md)** — Spliceosome mutation: SRSF2 is one of the recurrently mutated splicing factors in MDS, corrupting mRNA splicing across the genome and a hallmark driver alongside SF3B1 of the dysplastic clone.
 - `connects-to` → **[S100A8/A9](../../03-molecular/s100a8-a9/README.md)** — Alarmin-driven dysplasia: S100A8/A9 released in the MDS marrow activates the NLRP3 inflammasome in progenitors, driving the chronic inflammation and pyroptotic cell death behind ineffective haematopoiesis.
 - `connects-to` → **[Thrombopoietin](../../03-molecular/thrombopoietin/README.md)** — Thrombopoiesis support: thrombopoietin-receptor agonists are used to raise platelet counts in the thrombocytopenia of lower-risk MDS, addressing the bleeding risk of ineffective megakaryopoiesis.
+- `connects-to` → **[IL-1β](../../03-molecular/il-1b/README.md)** — IL-1β matured by the NLRP3 inflammasome in MDS progenitors drives the inflammatory, pyroptotic cell death that produces the ineffective hematopoiesis and the cytopenias central to the disease despite a hypercellular marrow.
+- `connects-to` → **[Hepcidin](../../03-molecular/hepcidin/README.md)** — The ineffective erythropoiesis of MDS suppresses hepcidin, and chronic red-cell transfusion compounds the resulting parenchymal iron loading that damages heart and liver—the reason transfusion-dependent patients need iron chelation.
+- `connects-to` → **[IFN-γ](../../03-molecular/ifn-gamma/README.md)** — In hypocellular MDS, T-cell IFN-γ suppresses hematopoietic progenitors—the rationale for immunosuppressive therapy that can restore counts in this subset, which overlaps biologically with aplastic anemia.
 
 [^fenaux-2009-aza001]: Fenaux P, Mufti GJ, Hellstrom-Lindberg E, et al. Efficacy of azacitidine compared with conventional care regimens in patients with higher-risk myelodysplastic syndromes. *Lancet Oncol.* 2009;10(3):223-232. [doi:10.1016/S1470-2045(09)70003-8](https://doi.org/10.1016/S1470-2045(09)70003-8) · [PubMed 19230772](https://pubmed.ncbi.nlm.nih.gov/19230772/)
 [^fenaux-2020-medalist]: Fenaux P, Platzbecker U, Mufti GJ, et al. Luspatercept in patients with lower-risk myelodysplastic syndromes. *N Engl J Med.* 2020;382(2):140-151. [doi:10.1056/NEJMoa1908892](https://doi.org/10.1056/NEJMoa1908892) · [PubMed 31914241](https://pubmed.ncbi.nlm.nih.gov/31914241/)
