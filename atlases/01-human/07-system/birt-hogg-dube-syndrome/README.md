@@ -295,6 +295,15 @@ cross_links:
   - target: 01-human/03-molecular/egln1
     relation: connects-to
     note: "HIF metabolic shift: FLCN loss perturbs the EGLN1 (PHD2)-HIF axis, stabilising HIF to drive the glycolytic, Warburg-like metabolism characteristic of Birt-Hogg-Dubé renal tumours."
+  - target: 01-human/03-molecular/cdh1
+    relation: connects-to
+    note: "Lung-cyst adhesion: FLCN regulates E-cadherin-dependent cell-cell adhesion, and impaired adhesion in the alveolar wall underlies the lung cysts and recurrent spontaneous pneumothorax that characterise Birt-Hogg-Dubé syndrome."
+  - target: 01-human/03-molecular/sdhb
+    relation: connects-to
+    note: "Mitochondria-rich tumours: FLCN loss boosts mitochondrial biogenesis, giving the oncocytic and chromophobe renal tumours of Birt-Hogg-Dubé a mitochondria-packed phenotype that parallels the mitochondria-rich tumours of SDH deficiency."
+  - target: 01-human/03-molecular/tert
+    relation: connects-to
+    note: "Renal-tumour immortalisation: TERT reactivation maintains telomeres in the renal cell carcinomas that Birt-Hogg-Dubé predisposes to, granting the replicative immortality that lets the FLCN-deficient clone proliferate."
 ---
 
 # Birt-Hogg-Dubé Syndrome
@@ -528,6 +537,9 @@ Definite BHD: 1 major OR 2 minor criteria (European BHD Consortium definition)
 - `connects-to` → **[FoxO1](../../03-molecular/foxo1/README.md)** — Metabolic stress axis: the FLCN-FNIP-AMPK complex regulates FoxO transcription factors, so FLCN loss disturbs the FoxO-controlled oxidative-stress and metabolic programme of Birt-Hogg-Dubé cells.
 - `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — MAPK in renal tumours: ERK/MAPK signalling is activated downstream of FLCN loss and contributes to the proliferation of the chromophobe and oncocytic renal tumours of Birt-Hogg-Dubé.
 - `connects-to` → **[EGLN1](../../03-molecular/egln1/README.md)** — HIF metabolic shift: FLCN loss perturbs the EGLN1 (PHD2)-HIF axis, stabilising HIF to drive the glycolytic, Warburg-like metabolism characteristic of Birt-Hogg-Dubé renal tumours.
+- `connects-to` → **[E-cadherin (CDH1)](../../03-molecular/cdh1/README.md)** — FLCN regulates E-cadherin-dependent cell-cell adhesion, and impaired adhesion in the alveolar wall underlies the lung cysts and recurrent spontaneous pneumothorax that are often the first clue to Birt-Hogg-Dubé syndrome.
+- `connects-to` → **[SDHB](../../03-molecular/sdhb/README.md)** — FLCN loss boosts mitochondrial biogenesis, giving the oncocytic and chromophobe renal tumors of Birt-Hogg-Dubé a mitochondria-packed phenotype that parallels the mitochondria-rich renal tumors of SDH deficiency.
+- `connects-to` → **[TERT](../../03-molecular/tert/README.md)** — TERT reactivation maintains telomeres in the renal cell carcinomas that Birt-Hogg-Dubé predisposes to, granting the replicative immortality that lets the FLCN-deficient clone proliferate into the syndrome's hybrid oncocytic tumors.
 
 ---
 

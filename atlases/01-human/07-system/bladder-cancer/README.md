@@ -301,6 +301,15 @@ cross_links:
   - target: 01-human/03-molecular/ccl2
     relation: connects-to
     note: "Macrophage recruitment: CCL2 draws tumour-associated macrophages into the bladder cancer microenvironment, promoting immune evasion and influencing response to BCG and checkpoint immunotherapy."
+  - target: 01-human/03-molecular/tlr4
+    relation: connects-to
+    note: "BCG innate immunotherapy: intravesical BCG activates innate immunity through Toll-like receptors including TLR4 on urothelial and immune cells, the mechanism behind the mainstay immunotherapy for non-muscle-invasive bladder cancer."
+  - target: 01-human/03-molecular/cgas-sting
+    relation: connects-to
+    note: "Mutational immunogenicity: the high tobacco- and APOBEC-driven mutational burden of bladder cancer generates cytosolic DNA and neoantigens that engage cGAS-STING, underlying its strong responsiveness to checkpoint inhibitors."
+  - target: 01-human/03-molecular/cxcl12
+    relation: connects-to
+    note: "Invasion and metastasis: the CXCL12-CXCR4 axis promotes the muscle invasion and nodal/distant metastasis of urothelial bladder cancer, the transition that converts curable disease into a lethal one."
 ---
 
 # Bladder Cancer
@@ -516,6 +525,9 @@ NMIBC and MIBC have distinct molecular landscapes:
 - `connects-to` → **[MYC](../../03-molecular/myc/README.md)** — Amplified oncogene: MYC amplification helps drive the proliferation of muscle-invasive bladder cancer, cooperating with the RTK and cell-cycle lesions of the disease.
 - `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — PI3K-mTOR axis: mTOR signalling downstream of frequent PIK3CA and AKT activation sustains bladder cancer growth, an actionable node in the heavily PI3K-mutated luminal subtype.
 - `connects-to` → **[CCL2](../../03-molecular/ccl2/README.md)** — Macrophage recruitment: CCL2 draws tumour-associated macrophages into the bladder cancer microenvironment, promoting immune evasion and influencing response to BCG and checkpoint immunotherapy.
+- `connects-to` → **[TLR4](../../03-molecular/tlr4/README.md)** — Intravesical BCG activates innate immunity through Toll-like receptors including TLR4 on urothelial and immune cells—the mechanism behind the mainstay immunotherapy that prevents recurrence of non-muscle-invasive bladder cancer.
+- `connects-to` → **[cGAS-STING](../../03-molecular/cgas-sting/README.md)** — The high tobacco- and APOBEC-driven mutational burden of bladder cancer generates cytosolic DNA and neoantigens that engage cGAS-STING, underlying the disease's strong responsiveness to checkpoint-inhibitor immunotherapy.
+- `connects-to` → **[CXCL12](../../03-molecular/cxcl12/README.md)** — The CXCL12-CXCR4 axis promotes the muscle invasion and the nodal and distant metastasis of urothelial bladder cancer, the transition that converts curable superficial disease into a lethal one.
 
 ---
 
