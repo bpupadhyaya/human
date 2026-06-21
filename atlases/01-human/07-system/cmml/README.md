@@ -295,6 +295,15 @@ cross_links:
   - target: 01-human/03-molecular/s100a8-a9
     relation: connects-to
     note: "Myeloid alarmin: S100A8/A9 from the expanded monocytes and neutrophils amplifies the inflammatory bone-marrow milieu of CMML, contributing to its dysplasia and systemic symptoms."
+  - target: 01-human/03-molecular/ccl2
+    relation: connects-to
+    note: "Monocyte expansion: CCL2 drives the recruitment and accumulation of monocytes that produce the persistent peripheral monocytosis defining CMML, a chemokine output of the malignant myelomonocytic clone."
+  - target: 01-human/03-molecular/jak1-2
+    relation: connects-to
+    note: "JAK-STAT hypersensitivity: the GM-CSF hypersensitivity of CMML monocytes signals through JAK-STAT, the rationale for testing JAK inhibitors like ruxolitinib to dampen the cytokine-driven proliferation."
+  - target: 01-human/03-molecular/kit
+    relation: connects-to
+    note: "Mast-cell overlap: KIT-expressing mast cells are increased in some CMML, reflecting the close relationship between CMML and systemic mastocytosis in the spectrum of myeloid neoplasms."
 ---
 
 # Chronic Myelomonocytic Leukemia
@@ -513,6 +522,9 @@ CMML → AML transformation (~15-30% at 5 years): Treat as secondary AML; CPX-35
 - `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — GM-CSF hypersensitivity: RAS-RAF-ERK hyperactivation makes CMML progenitors hypersensitive to GM-CSF, the signalling lesion behind the monocytic proliferation that defines the disease.
 - `connects-to` → **[PTPN11](../../03-molecular/ptpn11/README.md)** — RAS-pathway mutation: PTPN11 (SHP2) and other RAS-pathway mutations are recurrent in CMML, driving the ERK signalling that fuels its myelomonocytic expansion.
 - `connects-to` → **[S100A8/A9](../../03-molecular/s100a8-a9/README.md)** — Myeloid alarmin: S100A8/A9 from the expanded monocytes and neutrophils amplifies the inflammatory bone-marrow milieu of CMML, contributing to its dysplasia and systemic symptoms.
+- `connects-to` → **[CCL2](../../03-molecular/ccl2/README.md)** — CCL2 drives the recruitment and accumulation of monocytes that produce the persistent peripheral monocytosis defining CMML, a chemokine output of the malignant myelomonocytic clone.
+- `connects-to` → **[JAK1/2](../../03-molecular/jak1-2/README.md)** — The GM-CSF hypersensitivity of CMML monocytes signals through JAK-STAT, the rationale for testing JAK inhibitors like ruxolitinib to dampen the cytokine-driven proliferation and splenomegaly of the disease.
+- `connects-to` → **[KIT](../../03-molecular/kit/README.md)** — KIT-expressing mast cells are increased in some cases of CMML, reflecting the close biological relationship between CMML and systemic mastocytosis within the spectrum of myeloid neoplasms.
 
 ---
 

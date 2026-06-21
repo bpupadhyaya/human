@@ -301,6 +301,15 @@ cross_links:
   - target: 01-human/03-molecular/s100a8-a9
     relation: connects-to
     note: "Neutrophil alarmin: S100A8/A9 released by the neutrophils flooding the COPD airway amplifies inflammation and serves as a biomarker of disease activity and exacerbation."
+  - target: 01-human/03-molecular/egfr
+    relation: connects-to
+    note: "Mucus hypersecretion: cigarette smoke activates EGFR on airway epithelium to drive goblet-cell metaplasia and MUC5AC overproduction, the mechanism of the chronic mucus hypersecretion of the chronic-bronchitis phenotype."
+  - target: 01-human/03-molecular/caspase-3
+    relation: connects-to
+    note: "Emphysematous apoptosis: loss of VEGF survival signalling and oxidative injury trigger caspase-3-mediated apoptosis of alveolar endothelial and epithelial cells, the cell death that destroys alveoli in emphysema."
+  - target: 01-human/03-molecular/tlr4
+    relation: connects-to
+    note: "Smoke-driven innate inflammation: cigarette smoke and released DAMPs activate TLR4 on airway cells and macrophages, igniting the NF-κB-driven innate inflammation that sustains and amplifies COPD airway disease."
 ---
 
 # COPD
@@ -538,6 +547,9 @@ COPD encompasses two overlapping pathological processes:
 - `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — Alveolar maintenance: VEGF sustains the alveolar-capillary network, and its loss drives the endothelial and epithelial apoptosis behind emphysematous alveolar destruction in COPD.
 - `connects-to` → **[IL-17A](../../03-molecular/il-17a/README.md)** — Neutrophilic airways: IL-17A drives the neutrophil recruitment and mucus hypersecretion of the chronic bronchitis phenotype of COPD, sustaining its corticosteroid-resistant airway inflammation.
 - `connects-to` → **[S100A8/A9](../../03-molecular/s100a8-a9/README.md)** — Neutrophil alarmin: S100A8/A9 released by the neutrophils flooding the COPD airway amplifies inflammation and serves as a biomarker of disease activity and exacerbation.
+- `connects-to` → **[EGFR](../../03-molecular/egfr/README.md)** — Cigarette smoke activates EGFR on airway epithelium to drive goblet-cell metaplasia and MUC5AC overproduction, the mechanism behind the chronic mucus hypersecretion that defines the chronic-bronchitis phenotype of COPD.
+- `connects-to` → **[Caspase-3](../../03-molecular/caspase-3/README.md)** — Loss of VEGF survival signaling and oxidative injury trigger caspase-3-mediated apoptosis of alveolar endothelial and epithelial cells—the cell death that progressively destroys alveolar walls to produce emphysema.
+- `connects-to` → **[TLR4](../../03-molecular/tlr4/README.md)** — Cigarette smoke and released DAMPs activate TLR4 on airway cells and macrophages, igniting the NF-κB-driven innate inflammation that sustains COPD airway disease and amplifies exacerbations triggered by infection.
 
 ---
 
