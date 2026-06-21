@@ -286,6 +286,15 @@ cross_links:
   - target: 01-human/03-molecular/met
     relation: connects-to
     note: "Receptor activation: MET signalling promotes the growth and invasion of synovial sarcoma, part of the receptor-tyrosine-kinase landscape of the tumour."
+  - target: 01-human/03-molecular/notch
+    relation: connects-to
+    note: "Developmental reactivation: the SS18-SSX fusion reactivates Notch alongside Wnt signalling in synovial sarcoma, redeploying a developmental programme to sustain the proliferation of this monomorphic blue-cell tumour."
+  - target: 01-human/03-molecular/tgf-beta
+    relation: connects-to
+    note: "Immunosuppressive stroma: TGF-β in the synovial-sarcoma microenvironment promotes an EMT-like invasive phenotype and excludes T cells, a barrier relevant to the engineered NY-ESO-1 TCR T-cell therapies now used in the disease."
+  - target: 01-human/03-molecular/cxcl12
+    relation: connects-to
+    note: "Pulmonary homing: CXCR4 on synovial-sarcoma cells responds to CXCL12 gradients toward the lung, contributing to the pulmonary metastases that are the principal cause of death in this sarcoma."
 ---
 
 # Synovial Sarcoma
@@ -501,6 +510,9 @@ SS has low TMB (~1-2 mut/Mb) and variable PD-L1 expression; ICB response rates ~
 - `connects-to` → **[PDGF](../../03-molecular/pdgf/README.md)** — Autocrine growth: PDGF signalling, an output of the SS18-SSX-driven transcriptional programme, supports the proliferation of synovial sarcoma.
 - `connects-to` → **[FGFR](../../03-molecular/fgfr/README.md)** — Growth-factor signalling: FGFR signalling contributes to synovial sarcoma proliferation, a candidate targetable receptor in this fusion-driven sarcoma.
 - `connects-to` → **[MET](../../03-molecular/met/README.md)** — Receptor activation: MET signalling promotes the growth and invasion of synovial sarcoma, part of the receptor-tyrosine-kinase landscape of the tumour.
+- `connects-to` → **[Notch](../../03-molecular/notch/README.md)** — The SS18-SSX fusion reactivates Notch alongside Wnt signaling in synovial sarcoma, redeploying a developmental program to sustain the proliferation of this monomorphic blue-cell tumor—part of the aberrant transcriptional state the fusion creates.
+- `connects-to` → **[TGF-β](../../03-molecular/tgf-beta/README.md)** — TGF-β in the synovial-sarcoma microenvironment promotes an EMT-like invasive phenotype and excludes T cells—a barrier directly relevant to the engineered NY-ESO-1 TCR T-cell therapies (afami-cel) now approved for the disease.
+- `connects-to` → **[CXCL12](../../03-molecular/cxcl12/README.md)** — CXCR4 on synovial-sarcoma cells responds to CXCL12 gradients toward the lung, contributing to the pulmonary metastases that are the principal cause of death in this otherwise often slow-growing sarcoma.
 
 ---
 

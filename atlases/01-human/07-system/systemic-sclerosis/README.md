@@ -292,6 +292,15 @@ cross_links:
   - target: 01-human/03-molecular/hif-1alpha
     relation: connects-to
     note: "Vascular hypoxia: the obliterative vasculopathy of systemic sclerosis creates tissue hypoxia that stabilises HIF-1α, paradoxically failing to restore perfusion while driving fibrosis."
+  - target: 01-human/03-molecular/cd20
+    relation: connects-to
+    note: "B-cell depletion: rituximab targets CD20+ B cells in systemic sclerosis, reducing skin and lung fibrosis — evidence that autoreactive B cells and their autoantibodies (anti-Scl70, anti-RNA-pol III) drive the disease, not just fibroblasts."
+  - target: 01-human/03-molecular/jak1-2
+    relation: connects-to
+    note: "Signalling convergence: the IFN and IL-6 signatures of systemic sclerosis act through JAK-STAT, making JAK1/2 inhibitors (tofacitinib) a candidate to dampen both the inflammatory and profibrotic arms of the disease."
+  - target: 01-human/03-molecular/serotonin
+    relation: connects-to
+    note: "Serotonergic fibrosis: platelet-derived serotonin acting on 5-HT2B receptors stimulates dermal fibroblasts to make collagen and contributes to the vasoconstriction of Raynaud's, linking platelet activation to scleroderma fibrosis."
 ---
 
 # Systemic Sclerosis
@@ -497,6 +506,9 @@ Identical to IPAH: medial hypertrophy, intimal fibrosis, concentric laminar inti
 - `connects-to` → **[CCL2](../../03-molecular/ccl2/README.md)** — Monocyte recruitment: CCL2 draws monocytes and profibrotic macrophages into the skin and lung of systemic sclerosis, fuelling the inflammation that precedes fibrosis.
 - `connects-to` → **[IL-17A](../../03-molecular/il-17a/README.md)** — Th17 fibrosis: IL-17 from Th17 cells contributes to the inflammatory and profibrotic response of systemic sclerosis, modulating fibroblast activation.
 - `connects-to` → **[HIF-1α](../../03-molecular/hif-1alpha/README.md)** — Vascular hypoxia: the obliterative vasculopathy of systemic sclerosis creates tissue hypoxia that stabilises HIF-1α, paradoxically failing to restore perfusion while driving fibrosis.
+- `connects-to` → **[CD20](../../03-molecular/cd20/README.md)** — Rituximab targets CD20+ B cells in systemic sclerosis, reducing skin and lung fibrosis—evidence that autoreactive B cells and their autoantibodies (anti-Scl70, anti-RNA-pol III), not just activated fibroblasts, drive the disease.
+- `connects-to` → **[JAK1/2](../../03-molecular/jak1-2/README.md)** — The interferon and IL-6 signatures of systemic sclerosis act through JAK-STAT, making JAK1/2 inhibitors such as tofacitinib a candidate to dampen both the inflammatory and the profibrotic arms of the disease at once.
+- `connects-to` → **[Serotonin](../../03-molecular/serotonin/README.md)** — Platelet-derived serotonin acting on 5-HT2B receptors stimulates dermal fibroblasts to produce collagen and contributes to the vasoconstriction of Raynaud's phenomenon—linking the platelet activation of SSc vasculopathy directly to its fibrosis.
 
 [^denton-2017-ssc-review]: Denton CP, Khanna D. Systemic sclerosis. *Lancet.* 2017;390(10103):1685-1699. [doi:10.1016/S0140-6736(17)30933-9](https://doi.org/10.1016/S0140-6736(17)30933-9) · [PubMed 28413064](https://pubmed.ncbi.nlm.nih.gov/28413064/)
 [^distler-2019-nintedanib-senscis]: Distler O, Highland KB, Gahlemann M, et al. Nintedanib for Systemic Sclerosis-Associated Interstitial Lung Disease. *N Engl J Med.* 2019;380(26):2518-2528. [doi:10.1056/NEJMoa1903076](https://doi.org/10.1056/NEJMoa1903076) · [PubMed 31112379](https://pubmed.ncbi.nlm.nih.gov/31112379/)
