@@ -289,6 +289,15 @@ cross_links:
   - target: 01-human/03-molecular/perforin
     relation: connects-to
     note: "Cytotoxic immunopathology: CD8 T-cell perforin-mediated cytotoxicity drives much of the tissue destruction in cutaneous leishmaniasis, damaging infected and bystander skin cells rather than clearing the parasite."
+  - target: 01-human/03-molecular/mhc-class-ii
+    relation: connects-to
+    note: "Antigen-presentation evasion: Leishmania amastigotes downregulate MHC class II on the infected macrophage and degrade loaded peptides, blunting CD4 T-cell recognition so the parasite survives within the very cell meant to present it."
+  - target: 01-human/03-molecular/ferroportin
+    relation: connects-to
+    note: "Iron tug-of-war: Leishmania scavenges iron inside the macrophage, and host control via ferroportin and the NRAMP1 transporter that withholds iron from the phagosome is a key determinant of resistance to infection."
+  - target: 01-human/03-molecular/cgas-sting
+    relation: connects-to
+    note: "Cytosolic sensing: parasite DNA reaching the cytosol activates cGAS-STING, an innate sensing pathway that shapes the type-I-interferon response which can paradoxically favour Leishmania persistence in visceral disease."
 ---
 
 # Leishmaniasis
@@ -481,3 +490,6 @@ HIV-VL co-infection: CD4+ depletion → loss of IFN-γ production → *Leishmani
 - `connects-to` → **[CCL2](../../03-molecular/ccl2/README.md)** — Monocyte recruitment: CCL2 draws inflammatory monocytes to sites of Leishmania infection, replenishing the macrophage pool the parasite exploits as its replicative niche while contributing to granuloma formation.
 - `connects-to` → **[IL-17A](../../03-molecular/il-17a/README.md)** — Th17 balance: IL-17A from Th17 cells modulates outcome in leishmaniasis, contributing to neutrophil-driven protection in some settings and to lesion immunopathology in cutaneous disease.
 - `connects-to` → **[Perforin](../../03-molecular/perforin/README.md)** — Cytotoxic immunopathology: CD8 T-cell perforin-mediated cytotoxicity drives much of the tissue destruction in cutaneous leishmaniasis, damaging infected and bystander skin cells rather than clearing the parasite.
+- `connects-to` → **[MHC class II](../../03-molecular/mhc-class-ii/README.md)** — Leishmania amastigotes downregulate MHC class II on the infected macrophage and degrade loaded peptides, blunting CD4 T-cell recognition so the parasite survives within the very cell meant to present its antigens.
+- `connects-to` → **[Ferroportin](../../03-molecular/ferroportin/README.md)** — Leishmania scavenges iron inside the macrophage, and host control via ferroportin and the NRAMP1 (SLC11A1) transporter that withholds iron from the phagosome is a key genetic determinant of resistance to infection.
+- `connects-to` → **[cGAS-STING](../../03-molecular/cgas-sting/README.md)** — Parasite DNA reaching the cytosol activates cGAS-STING, an innate sensing pathway that shapes the type-I-interferon response which can paradoxically favor Leishmania persistence in visceral disease rather than clearing it.

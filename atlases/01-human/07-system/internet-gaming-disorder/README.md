@@ -276,6 +276,15 @@ cross_links:
   - target: 01-human/03-molecular/testosterone
     relation: connects-to
     note: "Sex-skewed reward: internet gaming disorder is markedly male-predominant, and androgens modulate the dopaminergic reward and sensation-seeking circuits engaged by compulsive gaming."
+  - target: 01-human/03-molecular/gsk-3b
+    relation: connects-to
+    note: "Reward signalling node: dopamine D2-receptor signalling converges on GSK-3β, a kinase governing the synaptic plasticity of reward learning that is implicated in the habit formation of behavioural addictions including internet gaming disorder."
+  - target: 01-human/03-molecular/histamine
+    relation: connects-to
+    note: "Arousal and sleep loss: the histaminergic wakefulness system, working with orexin, sustains the prolonged late-night gaming sessions whose disruption of this arousal-sleep balance underlies the chronic sleep deprivation of the disorder."
+  - target: 01-human/03-molecular/tnf-alpha
+    relation: connects-to
+    note: "Inflammation from screen overuse: the sleep deprivation, sedentary behaviour and stress of heavy gaming raise inflammatory cytokines such as TNF-α, a peripheral correlate of the physical-health toll of internet gaming disorder."
 sources:
   - id: kuss-2012-gaming-disorder-review
     type: peer-reviewed
@@ -536,6 +545,9 @@ A pattern of persistent or recurrent gaming behavior characterized by:
 - `connects-to` → **[Serotonin Transporter](../../03-molecular/serotonin-transporter/README.md)** — Impulsivity and comorbidity: serotonin-transporter function underlies the impulse-control deficits and the depression and anxiety that frequently accompany internet gaming disorder, the rationale for trialling SSRIs.
 - `connects-to` → **[Insulin](../../03-molecular/insulin/README.md)** — Metabolic consequence: the prolonged sitting and disrupted eating of heavy gaming promote insulin resistance, a pathway linking internet gaming disorder to the obesity and type 2 diabetes seen with the behaviour.
 - `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — Sex-skewed reward: internet gaming disorder is markedly male-predominant, and androgens modulate the dopaminergic reward and sensation-seeking circuits engaged by compulsive gaming.
+- `connects-to` → **[GSK-3β](../../03-molecular/gsk-3b/README.md)** — Dopamine D2-receptor signaling converges on GSK-3β, a kinase governing the synaptic plasticity of reward learning that is implicated in the habit formation and compulsivity of behavioral addictions including internet gaming disorder.
+- `connects-to` → **[Histamine](../../03-molecular/histamine/README.md)** — The histaminergic wakefulness system, working with orexin, sustains the prolonged late-night gaming sessions whose disruption of the arousal-sleep balance underlies the chronic sleep deprivation that compounds the disorder.
+- `connects-to` → **[TNF-α](../../03-molecular/tnf-alpha/README.md)** — The sleep deprivation, sedentary behavior, and stress of heavy gaming raise inflammatory cytokines such as TNF-α, a peripheral correlate of the physical-health toll—metabolic and cardiovascular—that accompanies internet gaming disorder.
 
 [^kuss-2012-gaming-disorder-review]: Kuss DJ, Griffiths MD. Internet gaming addiction: a systematic review of empirical research. *Int J Ment Health Addict.* 2012;10(2):278-296. [doi:10.1007/s11469-011-9318-5](https://doi.org/10.1007/s11469-011-9318-5)
 [^who-icd11-gaming-disorder]: World Health Organization. ICD-11: Gaming Disorder (6C51). Geneva: WHO; 2019. [icd.who.int](https://icd.who.int/browse/2025-01/mms/en#1448597234)
