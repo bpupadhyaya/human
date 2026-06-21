@@ -286,6 +286,15 @@ cross_links:
   - target: 01-human/03-molecular/tgf-beta
     relation: connects-to
     note: "Fibrosis and EMT: TGF-β signalling promotes the epithelial-mesenchymal transition and stromal remodelling that aid the invasion of ovarian clear-cell carcinoma."
+  - target: 01-human/03-molecular/ccl2
+    relation: connects-to
+    note: "Endometriosis-derived TAMs: OCCC arises in an endometriotic, inflamed niche where CCL2 recruits monocytes that become the M2 tumour-associated macrophages sustaining this chemoresistant tumour."
+  - target: 01-human/03-molecular/il-1b
+    relation: connects-to
+    note: "Inflammatory origin: chronic IL-1β signalling in endometriotic cysts drives the inflammatory microenvironment from which ovarian clear-cell carcinoma emerges, linking benign endometriosis to malignant transformation."
+  - target: 01-human/03-molecular/cgas-sting
+    relation: connects-to
+    note: "ARID1A and immunity: ARID1A loss in OCCC impairs mismatch repair and DNA-damage handling, raising mutational burden and cytosolic DNA that engage cGAS-STING — a rationale for checkpoint blockade in this typically immunotherapy-responsive subtype."
 ---
 
 # Ovarian Clear Cell Carcinoma
@@ -517,6 +526,9 @@ Comprehensive surgical staging (TAH-BSO, omentectomy, pelvic/para-aortic lymphad
 - `connects-to` → **[MYC](../../03-molecular/myc/README.md)** — Proliferative oncogene: MYC activation drives the proliferation of ovarian clear-cell carcinoma, cooperating with its ARID1A and PIK3CA lesions.
 - `connects-to` → **[CDK4/6](../../03-molecular/cdk4-6/README.md)** — Cell-cycle drive: cyclin D-CDK4/6 activity propels ovarian clear-cell carcinoma cells through the G1 checkpoint, a candidate vulnerability in this chemoresistant tumour.
 - `connects-to` → **[TGF-β](../../03-molecular/tgf-beta/README.md)** — Fibrosis and EMT: TGF-β signalling promotes the epithelial-mesenchymal transition and stromal remodelling that aid the invasion of ovarian clear-cell carcinoma.
+- `connects-to` → **[CCL2](../../03-molecular/ccl2/README.md)** — OCCC arises in an endometriotic, inflamed niche where CCL2 recruits monocytes that become the M2 tumor-associated macrophages sustaining this chemoresistant tumor—an immune-microenvironment driver beyond its ARID1A/PIK3CA genetics.
+- `connects-to` → **[IL-1β](../../03-molecular/il-1b/README.md)** — Chronic IL-1β signaling in endometriotic cysts drives the inflammatory microenvironment from which ovarian clear-cell carcinoma emerges, linking benign endometriosis to the malignant transformation that seeds this cancer.
+- `connects-to` → **[cGAS-STING](../../03-molecular/cgas-sting/README.md)** — ARID1A loss in OCCC impairs mismatch repair and DNA-damage handling, raising mutational burden and cytosolic DNA that engage cGAS-STING—a rationale for the checkpoint blockade to which this subtype is relatively responsive.
 
 ---
 

@@ -286,6 +286,15 @@ cross_links:
   - target: 01-human/03-molecular/ezh2
     relation: connects-to
     note: "Epigenetic driver: EZH2 overexpression silences tumour-suppressor genes in ovarian cancer, promoting proliferation and an emerging epigenetic therapeutic target."
+  - target: 01-human/03-molecular/il-6
+    relation: connects-to
+    note: "Malignant ascites: IL-6 is abundant in ovarian-cancer ascites, where it drives JAK-STAT3 signalling that sustains tumour-cell survival, spheroid formation and the cachexia that marks advanced peritoneal disease."
+  - target: 01-human/03-molecular/tgf-beta
+    relation: connects-to
+    note: "Peritoneal spread: TGF-β in the omental microenvironment drives the mesothelial-to-mesenchymal transition that prepares the peritoneum for ovarian-cancer implantation, while excluding T cells to blunt immunotherapy."
+  - target: 01-human/03-molecular/cgas-sting
+    relation: connects-to
+    note: "HRD immunogenicity: BRCA-mutant, homologous-recombination-deficient ovarian cancers accumulate cytosolic DNA that activates cGAS-STING, the innate-immune basis for combining PARP inhibitors with checkpoint blockade."
 ---
 
 # Ovarian Cancer
@@ -491,6 +500,9 @@ FTSEC ciliated and secretory cells line the Fallopian tube; secretory cells are 
 - `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — PI3K/AKT survival: AKT-pathway activation drives ovarian cancer growth and survival and contributes to chemoresistance, a targetable node in combination therapy.
 - `connects-to` → **[HIF-1α](../../03-molecular/hif-1alpha/README.md)** — Ascites and hypoxia: HIF-1α stabilised in the hypoxic ovarian tumour and its ascitic spheroids drives angiogenesis and the peritoneal spread of high-grade serous cancer.
 - `connects-to` → **[EZH2](../../03-molecular/ezh2/README.md)** — Epigenetic driver: EZH2 overexpression silences tumour-suppressor genes in ovarian cancer, promoting proliferation and an emerging epigenetic therapeutic target.
+- `connects-to` → **[IL-6](../../03-molecular/il-6/README.md)** — IL-6 is abundant in ovarian-cancer ascites, where it drives JAK-STAT3 signaling that sustains tumor-cell survival and spheroid formation and fuels the cachexia that marks advanced peritoneal disease—an inflammatory axis layered on the HRD genetics.
+- `connects-to` → **[TGF-β](../../03-molecular/tgf-beta/README.md)** — TGF-β in the omental microenvironment drives the mesothelial-to-mesenchymal transition that prepares the peritoneum for ovarian-cancer implantation, while excluding T cells from the tumor to blunt immunotherapy in this otherwise "cold" cancer.
+- `connects-to` → **[cGAS-STING](../../03-molecular/cgas-sting/README.md)** — BRCA-mutant, homologous-recombination-deficient ovarian cancers accumulate cytosolic DNA that activates cGAS-STING, generating type-I interferon—the innate-immune rationale for combining PARP inhibitors with checkpoint blockade in HRD disease.
 
 [^burger-2011-gog0218]: Burger RA, Brady MF, Bookman MA, et al. Incorporation of bevacizumab in the primary treatment of ovarian cancer. *N Engl J Med.* 2011;365(26):2473-2483. [doi:10.1056/NEJMoa1104390](https://doi.org/10.1056/NEJMoa1104390) · [PubMed 22204724](https://pubmed.ncbi.nlm.nih.gov/22204724/)
 [^moore-2018-olaparib-solo1]: Moore K, Colombo N, Scambia G, et al. Maintenance olaparib in patients with newly diagnosed advanced ovarian cancer. *N Engl J Med.* 2018;379(26):2495-2505. [doi:10.1056/NEJMoa1810858](https://doi.org/10.1056/NEJMoa1810858) · [PubMed 30345884](https://pubmed.ncbi.nlm.nih.gov/30345884/)
