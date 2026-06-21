@@ -301,6 +301,15 @@ cross_links:
   - target: 01-human/03-molecular/cgas-sting
     relation: connects-to
     note: "DNA-sensing inflammation: mitochondrial DNA leaked from stressed neurons activates cGAS-STING in microglia, an emerging driver of the neuroinflammatory response to α-synuclein pathology."
+  - target: 01-human/03-molecular/tlr4
+    relation: connects-to
+    note: "α-Synuclein sensing: aggregated α-synuclein released from dying neurons activates microglial TLR4, propagating the chronic neuroinflammation that spreads Lewy pathology through the cortex in Lewy-body dementia."
+  - target: 01-human/03-molecular/ferroportin
+    relation: connects-to
+    note: "Iron accumulation: dysregulated ferroportin-controlled iron handling lets iron accumulate in vulnerable neurons of Lewy-body dementia, sensitising them to the oxidative and ferroptotic death that accompanies synuclein pathology."
+  - target: 01-human/03-molecular/caspase-3
+    relation: connects-to
+    note: "Neuronal apoptosis: caspase-3 executes the apoptotic death of cortical and brainstem neurons in Lewy-body dementia, the cell-loss endpoint of α-synuclein toxicity, mitochondrial failure and neuroinflammation."
 ---
 
 # Lewy Body Dementia
@@ -521,6 +530,9 @@ Approximately 25-50% of clinically diagnosed DLB cases have significant AD co-pa
 - `connects-to` → **[ApoE](../../03-molecular/apoe/README.md)** — Shared genetic risk: the APOE4 allele raises risk not only for Alzheimer's but also for Lewy-body dementia, linking lipid handling and amyloid co-pathology to the synucleinopathy.
 - `connects-to` → **[CCL2](../../03-molecular/ccl2/README.md)** — Microglial recruitment: CCL2 released in the synuclein-burdened brain draws monocytes and amplifies the microglial neuroinflammation that accelerates neurodegeneration in Lewy-body dementia.
 - `connects-to` → **[cGAS-STING](../../03-molecular/cgas-sting/README.md)** — DNA-sensing inflammation: mitochondrial DNA leaked from stressed neurons activates cGAS-STING in microglia, an emerging driver of the neuroinflammatory response to α-synuclein pathology.
+- `connects-to` → **[TLR4](../../03-molecular/tlr4/README.md)** — Aggregated α-synuclein released from dying neurons activates microglial TLR4, propagating the chronic neuroinflammation that helps spread Lewy pathology through the cortex in Lewy-body dementia.
+- `connects-to` → **[Ferroportin](../../03-molecular/ferroportin/README.md)** — Dysregulated ferroportin-controlled iron handling lets iron accumulate in vulnerable neurons of Lewy-body dementia, sensitizing them to the oxidative and ferroptotic death that accompanies synuclein pathology.
+- `connects-to` → **[Caspase-3](../../03-molecular/caspase-3/README.md)** — Caspase-3 executes the apoptotic death of cortical and brainstem neurons in Lewy-body dementia, the cell-loss endpoint of α-synuclein toxicity, mitochondrial failure, and chronic neuroinflammation.
 
 [^mckeith-2017-dlb-criteria]: McKeith IG, Boeve BF, Dickson DW, et al. Diagnosis and management of dementia with Lewy bodies: Fourth consensus report of the DLB Consortium. *Neurology.* 2017;89(1):88-100. [doi:10.1212/WNL.0000000000004058](https://doi.org/10.1212/WNL.0000000000004058) · [PubMed 28592453](https://pubmed.ncbi.nlm.nih.gov/28592453/)
 [^spillantini-1997-lewy-body]: Spillantini MG, Schmidt ML, Lee VM, Trojanowski JQ, Jakes R, Goedert M. Alpha-synuclein in Lewy bodies. *Nature.* 1997;388(6645):839-840. [doi:10.1038/42166](https://doi.org/10.1038/42166) · [PubMed 9278044](https://pubmed.ncbi.nlm.nih.gov/9278044/)

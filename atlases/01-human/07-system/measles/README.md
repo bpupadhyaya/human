@@ -299,6 +299,15 @@ cross_links:
   - target: 01-human/03-molecular/ccl2
     relation: connects-to
     note: "Monocyte recruitment: CCL2 draws monocytes and macrophages into measles-infected tissues, contributing to the giant-cell pneumonia and the inflammatory response of the systemic infection."
+  - target: 01-human/03-molecular/il-12
+    relation: connects-to
+    note: "Th1 suppression: measles infection of dendritic cells suppresses IL-12 production, crippling the Th1 response and contributing to the profound, weeks-long immunosuppression that follows acute measles."
+  - target: 01-human/03-molecular/stat1
+    relation: connects-to
+    note: "Interferon evasion: the measles V and P proteins bind and block STAT1, shutting down interferon signal transduction so the virus evades the type-I-interferon response during acute infection."
+  - target: 01-human/03-molecular/mhc-class-ii
+    relation: connects-to
+    note: "Immune amnesia: by infecting antigen-presenting cells via SLAM and depleting memory lymphocytes, measles erodes the MHC-class-II-restricted memory repertoire, the basis of the 'immune amnesia' that erases prior immunity."
 ---
 
 # Measles
@@ -537,6 +546,9 @@ Beyond immune amnesia (memory B cell depletion), MV causes acute immune suppress
 - `connects-to` → **[Perforin](../../03-molecular/perforin/README.md)** — Cytotoxic clearance: CD8 T cells use perforin and granzyme to clear measles-infected cells, the response required for recovery whose recruitment of cytotoxic immunity also mediates the rash.
 - `connects-to` → **[IL-10](../../03-molecular/il-10/README.md)** — Immune amnesia and suppression: measles induces IL-10 and depletes memory lymphocytes, producing the prolonged immunosuppression and 'immune amnesia' that leaves survivors vulnerable to other infections.
 - `connects-to` → **[CCL2](../../03-molecular/ccl2/README.md)** — Monocyte recruitment: CCL2 draws monocytes and macrophages into measles-infected tissues, contributing to the giant-cell pneumonia and the inflammatory response of the systemic infection.
+- `connects-to` → **[IL-12](../../03-molecular/il-12/README.md)** — Measles infection of dendritic cells suppresses IL-12 production, crippling the Th1 response and contributing to the profound, weeks-long immunosuppression that follows acute measles and predisposes to secondary infection.
+- `connects-to` → **[STAT1](../../03-molecular/stat1/README.md)** — The measles V and P proteins bind and block STAT1, shutting down interferon signal transduction so the virus evades the type-I-interferon response that would otherwise restrain its replication during acute infection.
+- `connects-to` → **[MHC class II](../../03-molecular/mhc-class-ii/README.md)** — By infecting antigen-presenting cells via the SLAM receptor and depleting memory lymphocytes, measles erodes the MHC-class-II-restricted memory repertoire—the basis of the "immune amnesia" that erases years of accumulated immunity.
 
 [^panum-1847-faroe-measles]: Panum PL. Observations made during the epidemic of measles on the Faroe Islands in the year 1846. *Med Classics.* 1939;3:829-886.
 [^mina-2019-immune-amnesia]: Mina MJ, Kula T, Leng Y, et al. Measles virus infection diminishes preexisting antibodies that offer protection from other pathogens. *Science.* 2019;366(6465):599-606. [doi:10.1126/science.aay6485](https://doi.org/10.1126/science.aay6485) · [PubMed 31672891](https://pubmed.ncbi.nlm.nih.gov/31672891/)
