@@ -298,6 +298,15 @@ cross_links:
   - target: 01-human/03-molecular/s100a8-a9
     relation: connects-to
     note: "Nutritional immunity: S100A8/A9 (calprotectin) sequesters iron and other metals from pathogens during inflammation, part of the same metal-withholding host response whose chronic activation causes anaemia of chronic disease."
+  - target: 01-human/03-molecular/tgf-beta
+    relation: connects-to
+    note: "Erythroid maturation block: TGF-β superfamily signalling (alongside activin) suppresses late-stage erythroid maturation in anaemia of chronic disease, contributing to the ineffective erythropoiesis that ligand traps like luspatercept relieve."
+  - target: 01-human/03-molecular/caspase-3
+    relation: connects-to
+    note: "Eryptosis: inflammatory cytokines and oxidative stress in chronic disease trigger caspase-mediated eryptosis (red-cell suicidal death), shortening erythrocyte survival and compounding the anaemia beyond iron restriction."
+  - target: 01-human/03-molecular/type-i-interferon
+    relation: connects-to
+    note: "Interferon marrow suppression: in chronic viral and autoimmune disease, type I interferon directly suppresses erythroid progenitors, an interferon-driven arm of anaemia of chronic disease distinct from the hepcidin-iron axis."
 ---
 
 # Anemia of Chronic Disease
@@ -515,6 +524,9 @@ This adaptive rationale explains why **aggressive iron supplementation during ac
 - `connects-to` → **[Activin A](../../03-molecular/activin-a/README.md)** — Hepcidin and erythroid block: activin/BMP signalling induces hepcidin and impairs erythroid maturation, a pathway distinct from IL-6 that activin ligand-traps (luspatercept) target to relieve inflammatory anaemia.
 - `connects-to` → **[TLR4](../../03-molecular/tlr4/README.md)** — Microbial hepcidin induction: TLR4 sensing of bacterial products directly drives hepatocyte hepcidin in infection, locking away iron as part of the host iron-withholding defence that produces anaemia of inflammation.
 - `connects-to` → **[S100A8/A9](../../03-molecular/s100a8-a9/README.md)** — Nutritional immunity: S100A8/A9 (calprotectin) sequesters iron and other metals from pathogens during inflammation, part of the same metal-withholding host response whose chronic activation causes anaemia of chronic disease.
+- `connects-to` → **[TGF-β](../../03-molecular/tgf-beta/README.md)** — TGF-β superfamily signaling (alongside activin) suppresses late-stage erythroid maturation in anemia of chronic disease, contributing to the ineffective erythropoiesis that ligand traps like luspatercept relieve.
+- `connects-to` → **[Caspase-3](../../03-molecular/caspase-3/README.md)** — Inflammatory cytokines and oxidative stress trigger caspase-mediated eryptosis (red-cell suicidal death), shortening erythrocyte survival and compounding anemia of chronic disease beyond the hepcidin-driven iron restriction.
+- `connects-to` → **[Type I interferon](../../03-molecular/type-i-interferon/README.md)** — In chronic viral and autoimmune disease, type I interferon directly suppresses erythroid progenitors—an interferon-driven arm of anemia of chronic disease distinct from the dominant hepcidin-iron-sequestration axis.
 
 [^weiss-2005-acd-review]: Weiss G, Goodnough LT. Anemia of chronic disease. *N Engl J Med.* 2005;352(10):1011-1023. [doi:10.1056/NEJMra041809](https://doi.org/10.1056/NEJMra041809) · [PubMed 15758012](https://pubmed.ncbi.nlm.nih.gov/15758012/)
 [^nemeth-2004-il6-hepcidin]: Nemeth E, Rivera S, Gabayan V, et al. IL-6 mediates hypoferremia of inflammation by inducing the synthesis of the iron regulatory hormone hepcidin. *J Clin Invest.* 2004;113(9):1271-1276. [doi:10.1172/JCI200420945](https://doi.org/10.1172/JCI200420945) · [PubMed 15124018](https://pubmed.ncbi.nlm.nih.gov/15124018/)

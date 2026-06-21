@@ -298,6 +298,15 @@ cross_links:
   - target: 01-human/03-molecular/mtor
     relation: connects-to
     note: "Impaired clearance: overactive mTOR suppresses the autophagy needed to clear amyloid-β and tau aggregates, and its inhibition (rapamycin) is neuroprotective in Alzheimer's models."
+  - target: 01-human/03-molecular/tlr4
+    relation: connects-to
+    note: "Microglial amyloid sensing: aggregated amyloid-β engages microglial TLR4, triggering the NF-κB-driven neuroinflammatory cytokine response that contributes to the synaptic and neuronal injury of Alzheimer's disease."
+  - target: 01-human/03-molecular/caspase-3
+    relation: connects-to
+    note: "Neuronal death and tau cleavage: caspase-3 executes the neuronal apoptosis of Alzheimer's and cleaves tau into aggregation-prone fragments, coupling cell death directly to the spread of tau pathology."
+  - target: 01-human/03-molecular/vegf
+    relation: connects-to
+    note: "Vascular contribution: dysregulated VEGF and cerebral amyloid angiopathy impair the neurovascular unit in Alzheimer's, the vascular arm that worsens amyloid clearance and accelerates cognitive decline."
 ---
 
 # Alzheimer's Disease
@@ -490,6 +499,9 @@ Microglia play a central, dual role in AD:
 - `connects-to` → **[cGAS-STING](../../03-molecular/cgas-sting/README.md)** — DNA-sensing neuroinflammation: leaked mitochondrial DNA activates the cGAS-STING pathway in microglia and neurons in Alzheimer's, an emerging driver of the type-I-interferon response and tau pathology.
 - `connects-to` → **[CCL2](../../03-molecular/ccl2/README.md)** — Monocyte recruitment: CCL2 produced in the Alzheimer's brain recruits peripheral monocytes and activates microglia around plaques, amplifying the neuroinflammation linked to cognitive decline.
 - `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — Impaired clearance: overactive mTOR suppresses the autophagy needed to clear amyloid-β and tau aggregates, and its inhibition (rapamycin) is neuroprotective in Alzheimer's models.
+- `connects-to` → **[TLR4](../../03-molecular/tlr4/README.md)** — Aggregated amyloid-β engages microglial TLR4, triggering the NF-κB-driven neuroinflammatory cytokine response that contributes to the synaptic and neuronal injury driving cognitive decline in Alzheimer's disease.
+- `connects-to` → **[Caspase-3](../../03-molecular/caspase-3/README.md)** — Caspase-3 executes the neuronal apoptosis of Alzheimer's and cleaves tau into aggregation-prone fragments, coupling neuronal death directly to the propagation of tau pathology through the brain.
+- `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — Dysregulated VEGF and cerebral amyloid angiopathy impair the neurovascular unit in Alzheimer's, the vascular arm that worsens amyloid clearance across the blood-brain barrier and accelerates cognitive decline.
 
 [^selkoe-2016-alzheimer]: Selkoe DJ, Hardy J. The amyloid hypothesis of Alzheimer's disease at 25 years. *EMBO Mol Med.* 2016;8(6):595-608. [doi:10.15252/emmm.201606210](https://doi.org/10.15252/emmm.201606210) · [PubMed 27025652](https://pubmed.ncbi.nlm.nih.gov/27025652/)
 [^jack-2018-nia-aa]: Jack CR Jr, Bennett DA, Blennow K, et al. NIA-AA Research Framework: Toward a biological definition of Alzheimer's disease. *Alzheimers Dement.* 2018;14(4):535-562. [doi:10.1016/j.jalz.2018.02.018](https://doi.org/10.1016/j.jalz.2018.02.018) · [PubMed 29653606](https://pubmed.ncbi.nlm.nih.gov/29653606/)
