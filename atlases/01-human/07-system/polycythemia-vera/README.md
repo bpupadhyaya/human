@@ -286,6 +286,15 @@ cross_links:
   - target: 01-human/03-molecular/vegf
     relation: connects-to
     note: "Marrow angiogenesis: elevated VEGF increases bone-marrow microvessel density in polycythaemia vera, part of the proliferative MPN microenvironment."
+  - target: 01-human/03-molecular/pf4
+    relation: connects-to
+    note: "Thrombotic risk: the expanded, hyperreactive platelets of polycythaemia vera release platelet factor 4 on activation, contributing to the arterial and venous thrombosis that is the leading cause of morbidity in the disease."
+  - target: 01-human/03-molecular/xanthine-oxidase
+    relation: connects-to
+    note: "High cell turnover: the massive haematopoietic turnover of polycythaemia vera floods purine catabolism through xanthine oxidase, raising urate and causing the secondary hyperuricaemia and gout that complicate the MPN."
+  - target: 01-human/03-molecular/pdgf
+    relation: connects-to
+    note: "Fibrotic progression: PDGF released by the clonal megakaryocytes stimulates marrow fibroblasts, driving the reticulin fibrosis of post-polycythaemia-vera myelofibrosis as the disease evolves."
 ---
 
 # Polycythemia Vera
@@ -497,6 +506,9 @@ PV must be distinguished from secondary erythrocytosis (elevated EPO, JAK2 wild-
 - `connects-to` → **[IL-6](../../03-molecular/il-6/README.md)** — Clonal inflammation: IL-6 from the JAK2-mutant clone fuels the chronic inflammation of polycythaemia vera, contributing to its symptoms and thrombotic risk.
 - `connects-to` → **[IL-1β](../../03-molecular/il-1b/README.md)** — Inflammatory marrow: IL-1β secreted by the mutant clone damages the bone-marrow niche, promoting the clonal advantage and progression of polycythaemia vera.
 - `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — Marrow angiogenesis: elevated VEGF increases bone-marrow microvessel density in polycythaemia vera, part of the proliferative MPN microenvironment.
+- `connects-to` → **[PF4](../../03-molecular/pf4/README.md)** — The expanded, hyperreactive platelets of polycythemia vera release platelet factor 4 on activation, contributing to the arterial and venous thrombosis that is the leading cause of morbidity—the reason cytoreduction and aspirin anchor treatment.
+- `connects-to` → **[Xanthine oxidase](../../03-molecular/xanthine-oxidase/README.md)** — The massive hematopoietic turnover of polycythemia vera floods purine catabolism through xanthine oxidase, raising urate and causing the secondary hyperuricemia and gout that complicate the MPN and warrant allopurinol.
+- `connects-to` → **[PDGF](../../03-molecular/pdgf/README.md)** — PDGF released by the clonal megakaryocytes stimulates marrow fibroblasts, driving the reticulin fibrosis of post-polycythemia-vera myelofibrosis—the spent-phase transformation that marks disease progression.
 
 [^vannucchi-2015-response]: Vannucchi AM, Kiladjian JJ, Griesshammer M, et al. Ruxolitinib versus standard therapy for the treatment of polycythemia vera. *N Engl J Med.* 2015;372(5):426-435. [doi:10.1056/NEJMoa1409630](https://doi.org/10.1056/NEJMoa1409630) · [PubMed 25577388](https://pubmed.ncbi.nlm.nih.gov/25577388/)
 [^gisslinger-2020-proud-pv]: Gisslinger H, Gotic M, Holowiecki J, et al. Ropeginterferon alfa-2b versus standard therapy for polycythaemia vera (PROUD-PV and CONTINUATION-PV): a randomised, non-inferiority, phase 3 trial and its extension study. *Lancet Haematol.* 2020;7(3):e196-e208. [doi:10.1016/S2352-3026(19)30236-4](https://doi.org/10.1016/S2352-3026(19)30236-4) · [PubMed 32046833](https://pubmed.ncbi.nlm.nih.gov/32046833/)

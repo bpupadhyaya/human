@@ -294,6 +294,15 @@ cross_links:
   - target: 01-human/03-molecular/ifn-gamma
     relation: connects-to
     note: "Th1 component: IFN-γ from Th1 cells adds to the mixed cytokine milieu of psoriatic arthritis alongside the dominant Th17/IL-17 response."
+  - target: 01-human/03-molecular/s100a8-a9
+    relation: connects-to
+    note: "Alarmin biomarker: calprotectin (S100A8/A9) released by activated neutrophils and monocytes amplifies synovial and skin inflammation in psoriatic arthritis and serves as a circulating marker of disease activity."
+  - target: 01-human/03-molecular/ctla-4
+    relation: connects-to
+    note: "T-cell costimulation: abatacept (CTLA-4-Ig) blocks the CD28 costimulation that activates the autoreactive T cells of psoriatic arthritis, an approved mechanism distinct from the dominant cytokine-blocking biologics."
+  - target: 01-human/03-molecular/ccl2
+    relation: connects-to
+    note: "Monocyte recruitment: CCL2 draws monocytes into the inflamed synovium and entheses of psoriatic arthritis, where they differentiate into macrophages and RANKL-responsive osteoclast precursors that drive joint erosion."
 ---
 
 # Psoriatic Arthritis
@@ -533,6 +542,9 @@ Risankizumab (anti-IL-23p19) **failed primary endpoints** in the SURPASS trial f
 - `connects-to` → **[IL-1β](../../03-molecular/il-1b/README.md)** — Innate inflammation: IL-1β contributes to the enthesitis and joint inflammation of psoriatic arthritis, part of the innate immune activation upstream of the IL-23/IL-17 axis.
 - `connects-to` → **[NLRP3 Inflammasome](../../03-molecular/nlrp3-inflammasome/README.md)** — Inflammasome activation: NLRP3-inflammasome activation matures the IL-1β that drives the enthesitis and synovitis of psoriatic arthritis.
 - `connects-to` → **[IFN-γ](../../03-molecular/ifn-gamma/README.md)** — Th1 component: IFN-γ from Th1 cells adds to the mixed cytokine milieu of psoriatic arthritis alongside the dominant Th17/IL-17 response.
+- `connects-to` → **[S100A8/A9](../../03-molecular/s100a8-a9/README.md)** — Calprotectin (S100A8/A9) released by activated neutrophils and monocytes amplifies synovial and skin inflammation in psoriatic arthritis and serves as a circulating biomarker of disease activity that tracks treatment response.
+- `connects-to` → **[CTLA-4](../../03-molecular/ctla-4/README.md)** — Abatacept (CTLA-4-Ig) blocks the CD28 costimulation that activates the autoreactive T cells of psoriatic arthritis—an approved mechanism distinct from the cytokine-blocking biologics that dominate treatment, useful when those fail.
+- `connects-to` → **[CCL2](../../03-molecular/ccl2/README.md)** — CCL2 draws monocytes into the inflamed synovium and entheses of psoriatic arthritis, where they differentiate into macrophages and RANKL-responsive osteoclast precursors that drive the bone erosion characteristic of the disease.
 
 [^ritchlin-2017-psa-review]: Ritchlin CT, Colbert RA, Gladman DD. Psoriatic arthritis. *N Engl J Med.* 2017;376(10):957-970. [doi:10.1056/NEJMra1505557](https://doi.org/10.1056/NEJMra1505557) · [PubMed 28273019](https://pubmed.ncbi.nlm.nih.gov/28273019/)
 [^mease-2015-secukinumab-psa-future2]: Mease PJ, et al. Secukinumab inhibition of interleukin-17A in patients with psoriatic arthritis. *N Engl J Med.* 2015;373(14):1329-1339. [doi:10.1056/NEJMoa1503317](https://doi.org/10.1056/NEJMoa1503317) · [PubMed 26422723](https://pubmed.ncbi.nlm.nih.gov/26422723/)
