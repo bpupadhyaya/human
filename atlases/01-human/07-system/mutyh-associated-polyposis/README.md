@@ -286,6 +286,15 @@ cross_links:
   - target: 01-human/03-molecular/hif-1alpha
     relation: connects-to
     note: "Polyp hypoxia: as MUTYH-associated adenomas grow, HIF-1α stabilised in their hypoxic cores drives the VEGF angiogenesis supporting progression toward carcinoma."
+  - target: 01-human/03-molecular/smad4
+    relation: connects-to
+    note: "TGF-β escape: loss of SMAD4-mediated TGF-β growth suppression is a step in the adenoma-carcinoma progression of MUTYH-associated polyps, beyond the initiating base-excision-repair defect."
+  - target: 01-human/03-molecular/braf
+    relation: connects-to
+    note: "Serrated pathway: the G:C→T:A transversions caused by MUTYH loss can hit BRAF, contributing to the serrated route of colorectal carcinogenesis alongside the classic KRAS-driven adenoma sequence."
+  - target: 01-human/03-molecular/ccl2
+    relation: connects-to
+    note: "Tumour macrophages: CCL2 recruits macrophages into the stroma of MUTYH-associated colorectal tumours, part of the inflammatory microenvironment that accompanies their progression."
 ---
 
 # MUTYH-Associated Polyposis
@@ -492,6 +501,9 @@ Because MAP is autosomal recessive: siblings of MAP patients are at **25%** risk
 - `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — PI3K/AKT cooperation: AKT signalling cooperates with the KRAS and Wnt activation of MUTYH-associated polyps to drive their growth toward colorectal cancer.
 - `connects-to` → **[CDK4/6](../../03-molecular/cdk4-6/README.md)** — Cell-cycle drive: cyclin D-CDK4/6 activity propels MUTYH-associated adenoma cells through the G1 checkpoint as they progress along the polyp-to-carcinoma sequence.
 - `connects-to` → **[HIF-1α](../../03-molecular/hif-1alpha/README.md)** — Polyp hypoxia: as MUTYH-associated adenomas grow, HIF-1α stabilised in their hypoxic cores drives the VEGF angiogenesis supporting progression toward carcinoma.
+- `connects-to` → **[SMAD4](../../03-molecular/smad4/README.md)** — TGF-β escape: loss of SMAD4-mediated TGF-β growth suppression is a step in the adenoma-carcinoma progression of MUTYH-associated polyps, beyond the initiating base-excision-repair defect.
+- `connects-to` → **[BRAF](../../03-molecular/braf/README.md)** — Serrated pathway: the G:C→T:A transversions caused by MUTYH loss can hit BRAF, contributing to the serrated route of colorectal carcinogenesis alongside the classic KRAS-driven adenoma sequence.
+- `connects-to` → **[CCL2](../../03-molecular/ccl2/README.md)** — Tumour macrophages: CCL2 recruits macrophages into the stroma of MUTYH-associated colorectal tumours, part of the inflammatory microenvironment that accompanies their progression.
 
 ---
 

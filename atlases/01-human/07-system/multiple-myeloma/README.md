@@ -292,6 +292,15 @@ cross_links:
   - target: 01-human/03-molecular/hif-1alpha
     relation: connects-to
     note: "Hypoxic marrow: HIF-1α stabilised in the hypoxic myeloma marrow drives the VEGF angiogenesis and glycolytic metabolism that support the malignant plasma-cell clone."
+  - target: 01-human/03-molecular/baff
+    relation: connects-to
+    note: "Plasma-cell survival: BAFF and APRIL from the marrow microenvironment sustain malignant plasma cells through BCMA, the survival axis now targeted by anti-BCMA CAR-T and bispecific antibodies in myeloma."
+  - target: 01-human/03-molecular/caspase-3
+    relation: connects-to
+    note: "Proteostatic apoptosis: the heavy immunoglobulin output of myeloma cells makes them dependent on the proteasome, so bortezomib triggers terminal ER stress and caspase-3-mediated apoptosis."
+  - target: 01-human/03-molecular/ccl2
+    relation: connects-to
+    note: "Marrow macrophage support: CCL2 recruits macrophages into the myeloma marrow niche, where they protect the plasma-cell clone and contribute to drug resistance."
 ---
 
 # Multiple Myeloma
@@ -512,6 +521,9 @@ MM evolves from precursor conditions through a well-defined continuum:
 - `connects-to` → **[CDK4/6](../../03-molecular/cdk4-6/README.md)** — Cyclin D dysregulation: nearly all myelomas dysregulate a cyclin D gene, partnering CDK4/6 to drive plasma-cell proliferation—the rationale for CDK4/6 inhibition.
 - `connects-to` → **[TNF-α](../../03-molecular/tnf-alpha/README.md)** — Marrow microenvironment: TNF-α within the bone-marrow niche supports myeloma cell survival and, with RANKL, drives the osteoclast activation behind its lytic bone disease.
 - `connects-to` → **[HIF-1α](../../03-molecular/hif-1alpha/README.md)** — Hypoxic marrow: HIF-1α stabilised in the hypoxic myeloma marrow drives the VEGF angiogenesis and glycolytic metabolism that support the malignant plasma-cell clone.
+- `connects-to` → **[BAFF](../../03-molecular/baff/README.md)** — Plasma-cell survival: BAFF and APRIL from the marrow microenvironment sustain malignant plasma cells through BCMA, the survival axis now targeted by anti-BCMA CAR-T and bispecific antibodies in myeloma.
+- `connects-to` → **[Caspase-3](../../03-molecular/caspase-3/README.md)** — Proteostatic apoptosis: the heavy immunoglobulin output of myeloma cells makes them dependent on the proteasome, so bortezomib triggers terminal ER stress and caspase-3-mediated apoptosis.
+- `connects-to` → **[CCL2](../../03-molecular/ccl2/README.md)** — Marrow macrophage support: CCL2 recruits macrophages into the myeloma marrow niche, where they protect the plasma-cell clone and contribute to drug resistance.
 
 [^kumar-2022-imwg-criteria]: Kumar SK, Callander NS, Adekola K, et al. Multiple myeloma, version 3.2021, NCCN clinical practice guidelines in oncology. *J Natl Compr Canc Netw.* 2020;18(12):1685-1717. [doi:10.6004/jnccn.2020.0057](https://doi.org/10.6004/jnccn.2020.0057) · [PubMed 33285519](https://pubmed.ncbi.nlm.nih.gov/33285519/)
 [^moreau-2022-teclistamab]: Moreau P, Garfall AL, van de Donk NWCJ, et al. Teclistamab in relapsed or refractory multiple myeloma. *N Engl J Med.* 2022;387(6):495-505. [doi:10.1056/NEJMoa2203478](https://doi.org/10.1056/NEJMoa2203478) · [PubMed 35661166](https://pubmed.ncbi.nlm.nih.gov/35661166/)
