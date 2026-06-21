@@ -295,6 +295,15 @@ cross_links:
   - target: 01-human/03-molecular/autophagy
     relation: connects-to
     note: "Suppressed autophagy: PTEN loss hyperactivates mTOR, which suppresses autophagy and shifts the balance toward growth — the rationale for trialling mTOR inhibitors (rapalogs) in Cowden syndrome."
+  - target: 01-human/03-molecular/cdkn1b
+    relation: connects-to
+    note: "Lost cell-cycle brake: PTEN normally stabilises the cell-cycle inhibitor p27 (CDKN1B), so PTEN loss in Cowden syndrome removes this restraint, contributing to the hamartomatous overgrowth and cancer risk."
+  - target: 01-human/03-molecular/caspase-3
+    relation: connects-to
+    note: "Apoptosis evasion: PTEN loss unleashes PI3K-AKT survival signalling that suppresses caspase-3-mediated apoptosis, giving Cowden cells the survival advantage that underlies their hamartomas and tumours."
+  - target: 01-human/03-molecular/bdnf
+    relation: connects-to
+    note: "Neurodevelopmental PTEN: PTEN restrains neuronal growth via the PI3K-mTOR pathway that BDNF activates, so its loss causes the macrocephaly and the autism/neurodevelopmental features of the PTEN hamartoma spectrum."
 ---
 
 # Cowden Syndrome
@@ -567,6 +576,9 @@ cross_links:
 - `connects-to` → **[Thyroid Hormones](../../03-molecular/thyroid-hormones/README.md)** — Thyroid neoplasia: Cowden syndrome carries a high risk of follicular thyroid carcinoma and benign thyroid disease, one of the defining components of the PTEN hamartoma tumour syndrome.
 - `connects-to` → **[Estrogen](../../03-molecular/estrogen/README.md)** — Hormone-driven cancers: the markedly elevated breast and endometrial cancer risk of Cowden syndrome is driven by oestrogen-responsive epithelium proliferating under unrestrained PI3K-AKT signalling.
 - `connects-to` → **[Autophagy](../../03-molecular/autophagy/README.md)** — Suppressed autophagy: PTEN loss hyperactivates mTOR, which suppresses autophagy and shifts the balance toward growth — the rationale for trialling mTOR inhibitors (rapalogs) in Cowden syndrome.
+- `connects-to` → **[p27 (CDKN1B)](../../03-molecular/cdkn1b/README.md)** — PTEN normally stabilizes the cell-cycle inhibitor p27, so PTEN loss in Cowden syndrome removes this restraint—contributing to the hamartomatous overgrowth and the broadly elevated cancer risk of the syndrome.
+- `connects-to` → **[Caspase-3](../../03-molecular/caspase-3/README.md)** — PTEN loss unleashes PI3K-AKT survival signaling that suppresses caspase-3-mediated apoptosis, giving Cowden cells the survival advantage that underlies their multiple hamartomas and predisposition to cancer.
+- `connects-to` → **[BDNF](../../03-molecular/bdnf/README.md)** — PTEN restrains neuronal growth via the same PI3K-mTOR pathway that BDNF activates, so its loss causes the macrocephaly and the autism and neurodevelopmental features that characterize the PTEN hamartoma tumor spectrum.
 
 ---
 

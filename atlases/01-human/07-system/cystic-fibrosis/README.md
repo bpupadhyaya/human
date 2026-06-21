@@ -295,6 +295,15 @@ cross_links:
   - target: 01-human/03-molecular/rankl
     relation: connects-to
     note: "CF bone disease: chronic inflammation, malabsorption and corticosteroid use drive RANKL-mediated bone resorption, causing the osteoporosis and fractures common in adults with cystic fibrosis."
+  - target: 01-human/03-molecular/tlr4
+    relation: connects-to
+    note: "Pseudomonas sensing: TLR4 recognition of the lipopolysaccharide of chronically colonising Pseudomonas drives the relentless NF-κB-mediated neutrophilic airway inflammation that destroys the cystic-fibrosis lung."
+  - target: 01-human/03-molecular/egfr
+    relation: connects-to
+    note: "Mucin overproduction: EGFR signalling in the CF airway drives goblet-cell metaplasia and MUC5AC mucin secretion that compounds the dehydrated, viscous mucus already caused by defective CFTR chloride transport."
+  - target: 01-human/03-molecular/nitric-oxide
+    relation: connects-to
+    note: "Reduced airway NO: cystic-fibrosis airways paradoxically show low nitric oxide, impairing ciliary function and antimicrobial defence and contributing to the susceptibility to chronic bacterial infection."
 ---
 
 # Cystic Fibrosis
@@ -515,6 +524,9 @@ AND
 - `connects-to` → **[S100A8/A9](../../03-molecular/s100a8-a9/README.md)** — Neutrophil alarmin: S100A8/A9 from the neutrophils flooding cystic-fibrosis airways amplifies inflammation, and sputum calprotectin tracks the burden of airway disease and exacerbations.
 - `connects-to` → **[Autophagy](../../03-molecular/autophagy/README.md)** — Misfolded-CFTR proteostasis: the ΔF508 CFTR mutant is cleared by autophagy and ERAD, and impaired autophagy in cystic fibrosis lets the misfolded protein and aggregates accumulate, worsening inflammation.
 - `connects-to` → **[RANKL](../../03-molecular/rankl/README.md)** — CF bone disease: chronic inflammation, malabsorption and corticosteroid use drive RANKL-mediated bone resorption, causing the osteoporosis and fractures common in adults with cystic fibrosis.
+- `connects-to` → **[TLR4](../../03-molecular/tlr4/README.md)** — TLR4 recognition of the lipopolysaccharide of chronically colonizing Pseudomonas aeruginosa drives the relentless NF-κB-mediated neutrophilic airway inflammation that progressively destroys the cystic-fibrosis lung.
+- `connects-to` → **[EGFR](../../03-molecular/egfr/README.md)** — EGFR signaling in the CF airway drives goblet-cell metaplasia and MUC5AC mucin secretion that compounds the dehydrated, viscous mucus already produced by defective CFTR chloride and bicarbonate transport.
+- `connects-to` → **[Nitric oxide](../../03-molecular/nitric-oxide/README.md)** — Cystic-fibrosis airways paradoxically show low nitric oxide, impairing ciliary function and the antimicrobial defense of the epithelium and contributing to the chronic bacterial infection that defines the disease.
 
 ---
 
