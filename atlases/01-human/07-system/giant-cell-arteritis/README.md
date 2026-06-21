@@ -286,6 +286,15 @@ cross_links:
   - target: 01-human/03-molecular/hif-1alpha
     relation: connects-to
     note: "Ischaemic wall: the inflamed, thickened artery in giant-cell arteritis becomes hypoxic, stabilising HIF-1α to drive the VEGF angiogenesis of neovascularisation in the vessel wall."
+  - target: 01-human/03-molecular/mhc-class-ii
+    relation: connects-to
+    note: "Genetic risk and presentation: the strong HLA-DRB1 association of giant-cell arteritis points to MHC class II presentation of arterial-wall antigens to the CD4 T cells that orchestrate the granulomatous attack."
+  - target: 01-human/03-molecular/s100a8-a9
+    relation: connects-to
+    note: "Myeloid alarmin: S100A8/A9 from the monocytes and neutrophils infiltrating the temporal artery amplifies inflammation in giant-cell arteritis and circulates as a marker of disease activity."
+  - target: 01-human/03-molecular/tgf-beta
+    relation: connects-to
+    note: "Treg failure and remodelling: defective TGF-beta-dependent regulatory T cells permit the autoreactive vascular inflammation of giant-cell arteritis, while TGF-beta also drives the intimal fibrotic remodelling."
 ---
 
 # Giant Cell Arteritis
@@ -490,6 +499,9 @@ The temporal arteries supply scalp, temporalis muscle, and dura. In GCA, transmu
 - `connects-to` → **[NLRP3 Inflammasome](../../03-molecular/nlrp3-inflammasome/README.md)** — Innate vasculitis: NLRP3-inflammasome activation in vessel-wall macrophages matures the IL-1β that amplifies the granulomatous inflammation of giant-cell arteritis.
 - `connects-to` → **[CCL2](../../03-molecular/ccl2/README.md)** — Monocyte recruitment: CCL2 draws monocytes into the arterial wall in giant-cell arteritis, where they fuse into the multinucleated giant cells that name the disease.
 - `connects-to` → **[HIF-1α](../../03-molecular/hif-1alpha/README.md)** — Ischaemic wall: the inflamed, thickened artery in giant-cell arteritis becomes hypoxic, stabilising HIF-1α to drive the VEGF angiogenesis of neovascularisation in the vessel wall.
+- `connects-to` → **[MHC Class II](../../03-molecular/mhc-class-ii/README.md)** — Genetic risk and presentation: the strong HLA-DRB1 association of giant-cell arteritis points to MHC class II presentation of arterial-wall antigens to the CD4 T cells that orchestrate the granulomatous attack.
+- `connects-to` → **[S100A8/A9](../../03-molecular/s100a8-a9/README.md)** — Myeloid alarmin: S100A8/A9 from the monocytes and neutrophils infiltrating the temporal artery amplifies inflammation in giant-cell arteritis and circulates as a marker of disease activity.
+- `connects-to` → **[TGF-beta](../../03-molecular/tgf-beta/README.md)** — Treg failure and remodelling: defective TGF-beta-dependent regulatory T cells permit the autoreactive vascular inflammation of giant-cell arteritis, while TGF-beta also drives the intimal fibrotic remodelling.
 
 [^stone-2017-giact]: Stone JH, Tuckwell K, Dimonaco S, et al. Trial of tocilizumab in giant-cell arteritis. *N Engl J Med.* 2017;377(4):317-328. [doi:10.1056/NEJMoa1613849](https://doi.org/10.1056/NEJMoa1613849) · [PubMed 28745999](https://pubmed.ncbi.nlm.nih.gov/28745999/)
 [^weyand-2014-gca-review]: Weyand CM, Goronzy JJ. Clinical practice. Giant-cell arteritis and polymyalgia rheumatica. *N Engl J Med.* 2014;371(1):50-57. [doi:10.1056/NEJMcp1214926](https://doi.org/10.1056/NEJMcp1214926) · [PubMed 24988557](https://pubmed.ncbi.nlm.nih.gov/24988557/)

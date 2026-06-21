@@ -286,6 +286,15 @@ cross_links:
   - target: 01-human/03-molecular/hif-1alpha
     relation: connects-to
     note: "Tumour hypoxia: HIF-1α stabilised in hypoxic gastric tumours drives angiogenesis and an invasive, chemoresistant phenotype linked to peritoneal spread."
+  - target: 01-human/03-molecular/tgf-beta
+    relation: connects-to
+    note: "EMT and desmoplasia: TGF-beta drives the epithelial-mesenchymal transition and desmoplastic stroma of diffuse-type gastric cancer, the signet-ring histology that spreads through the stomach wall and peritoneum."
+  - target: 01-human/03-molecular/tert
+    relation: connects-to
+    note: "Telomerase immortalisation: TERT reactivation maintains telomeres in gastric cancer cells, granting the replicative immortality that complements its p53 and RTK driver lesions."
+  - target: 01-human/03-molecular/ccl2
+    relation: connects-to
+    note: "Macrophage recruitment: CCL2 draws tumour-associated macrophages into gastric cancer, building the immunosuppressive microenvironment that promotes invasion and blunts immunotherapy."
 ---
 
 # Gastric Cancer
@@ -522,6 +531,9 @@ H. pylori eradication: Reduces GC incidence by ~35-40% (meta-analyses); most ben
 - `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — PI3K/AKT activation: PIK3CA mutation activates AKT in gastric cancer, driving growth and survival, especially in the EBV-associated molecular subtype.
 - `connects-to` → **[MYC](../../03-molecular/myc/README.md)** — Amplified oncogene: MYC amplification is common in gastric cancer, driving the proliferation and metabolic reprogramming of the tumour.
 - `connects-to` → **[HIF-1α](../../03-molecular/hif-1alpha/README.md)** — Tumour hypoxia: HIF-1α stabilised in hypoxic gastric tumours drives angiogenesis and an invasive, chemoresistant phenotype linked to peritoneal spread.
+- `connects-to` → **[TGF-beta](../../03-molecular/tgf-beta/README.md)** — EMT and desmoplasia: TGF-beta drives the epithelial-mesenchymal transition and desmoplastic stroma of diffuse-type gastric cancer, the signet-ring histology that spreads through the stomach wall and peritoneum.
+- `connects-to` → **[TERT](../../03-molecular/tert/README.md)** — Telomerase immortalisation: TERT reactivation maintains telomeres in gastric cancer cells, granting the replicative immortality that complements its p53 and RTK driver lesions.
+- `connects-to` → **[CCL2](../../03-molecular/ccl2/README.md)** — Macrophage recruitment: CCL2 draws tumour-associated macrophages into gastric cancer, building the immunosuppressive microenvironment that promotes invasion and blunts immunotherapy.
 
 [^bang-2010-toga]: Bang YJ, Van Cutsem E, Feyereislova A, et al. Trastuzumab in combination with chemotherapy versus chemotherapy alone for treatment of HER2-positive advanced gastric or gastro-oesophageal junction cancer (ToGA): a phase 3, open-label, randomised controlled trial. *Lancet.* 2010;376(9742):687-697. [doi:10.1016/S0140-6736(10)61121-X](https://doi.org/10.1016/S0140-6736(10)61121-X) · [PubMed 20728210](https://pubmed.ncbi.nlm.nih.gov/20728210/)
 [^janjigian-2021-checkmate649]: Janjigian YY, Shitara K, Moehler M, et al. First-line nivolumab plus chemotherapy versus chemotherapy alone for advanced gastric, gastro-oesophageal junction, and oesophageal adenocarcinoma (CheckMate 649). *Lancet.* 2021;398(10294):27-40. [doi:10.1016/S0140-6736(21)00797-2](https://doi.org/10.1016/S0140-6736(21)00797-2) · [PubMed 34102137](https://pubmed.ncbi.nlm.nih.gov/34102137/)
