@@ -286,6 +286,15 @@ cross_links:
   - target: 01-human/03-molecular/ezh2
     relation: connects-to
     note: "Epigenetic driver: HPV E7 upregulates EZH2, whose PRC2 silencing of tumour-suppressor genes promotes the progression of HPV-driven cervical cancer."
+  - target: 01-human/03-molecular/mtor
+    relation: connects-to
+    note: "PI3K-mTOR axis: frequent PIK3CA mutations and PI3K-AKT-mTOR activation drive cervical cancer growth, an actionable pathway downstream of the loss of tumour-suppressor control by HPV oncoproteins."
+  - target: 01-human/03-molecular/tgf-beta
+    relation: connects-to
+    note: "Immune evasion and EMT: TGF-beta in the cervical tumour microenvironment suppresses anti-tumour immunity and promotes epithelial-mesenchymal transition and invasion in advancing disease."
+  - target: 01-human/03-molecular/ccl2
+    relation: connects-to
+    note: "Macrophage recruitment: CCL2 draws tumour-associated macrophages into cervical cancer, building an immunosuppressive microenvironment that abets HPV-driven tumour progression."
 ---
 
 # Cervical Cancer
@@ -498,6 +507,9 @@ The cervical transformation zone (TZ) — the area between the original and new 
 - `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — PI3K/AKT signalling: PIK3CA mutation is among the commonest events in cervical cancer, activating AKT to drive growth and survival and offering a targeted therapeutic node.
 - `connects-to` → **[HIF-1α](../../03-molecular/hif-1alpha/README.md)** — Hypoxia and radioresistance: HIF-1α stabilised in hypoxic cervical tumours drives angiogenesis and resistance to radiotherapy, a key adverse prognostic factor.
 - `connects-to` → **[EZH2](../../03-molecular/ezh2/README.md)** — Epigenetic driver: HPV E7 upregulates EZH2, whose PRC2 silencing of tumour-suppressor genes promotes the progression of HPV-driven cervical cancer.
+- `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — PI3K-mTOR axis: frequent PIK3CA mutations and PI3K-AKT-mTOR activation drive cervical cancer growth, an actionable pathway downstream of the loss of tumour-suppressor control by HPV oncoproteins.
+- `connects-to` → **[TGF-beta](../../03-molecular/tgf-beta/README.md)** — Immune evasion and EMT: TGF-beta in the cervical tumour microenvironment suppresses anti-tumour immunity and promotes epithelial-mesenchymal transition and invasion in advancing disease.
+- `connects-to` → **[CCL2](../../03-molecular/ccl2/README.md)** — Macrophage recruitment: CCL2 draws tumour-associated macrophages into cervical cancer, building an immunosuppressive microenvironment that abets HPV-driven tumour progression.
 
 ---
 

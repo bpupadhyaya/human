@@ -286,6 +286,15 @@ cross_links:
   - target: 01-human/03-molecular/hif-1alpha
     relation: connects-to
     note: "Hypoxic signalling: HIF-1α stabilised in the growing tumours of Carney complex drives the VEGF angiogenesis and metabolic adaptation that support their expansion."
+  - target: 01-human/03-molecular/thyroid-hormones
+    relation: connects-to
+    note: "Thyroid neoplasia: PKA hyperactivity from PRKAR1A loss predisposes to thyroid nodules and follicular thyroid carcinoma, part of the multi-endocrine tumour spectrum of Carney complex."
+  - target: 01-human/03-molecular/kit
+    relation: connects-to
+    note: "Melanocytic lesions: KIT signalling underlies melanocyte biology, relevant to the spotty lentiginous pigmentation and blue naevi that are diagnostic hallmarks of Carney complex."
+  - target: 01-human/03-molecular/activin-a
+    relation: connects-to
+    note: "Gonadal tumours: the activin-inhibin axis of Sertoli cells is engaged by the large-cell calcifying Sertoli cell tumours that are a characteristic gonadal manifestation of Carney complex."
 ---
 
 # Carney Complex
@@ -497,6 +506,9 @@ PRKAR1A somatic LOH occurs in ~15-20% of sporadic adrenocortical adenomas and ca
 - `connects-to` → **[MYC](../../03-molecular/myc/README.md)** — PKA-driven MYC: unrestrained PKA-CREB signalling from PRKAR1A loss upregulates MYC, contributing to the proliferation of the endocrine and myxomatous tumours of Carney complex.
 - `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — Tumour angiogenesis: VEGF supports the vascularisation of the multiple endocrine tumours and cardiac myxomas of Carney complex, sustaining their growth.
 - `connects-to` → **[HIF-1α](../../03-molecular/hif-1alpha/README.md)** — Hypoxic signalling: HIF-1α stabilised in the growing tumours of Carney complex drives the VEGF angiogenesis and metabolic adaptation that support their expansion.
+- `connects-to` → **[Thyroid Hormones](../../03-molecular/thyroid-hormones/README.md)** — Thyroid neoplasia: PKA hyperactivity from PRKAR1A loss predisposes to thyroid nodules and follicular thyroid carcinoma, part of the multi-endocrine tumour spectrum of Carney complex.
+- `connects-to` → **[KIT](../../03-molecular/kit/README.md)** — Melanocytic lesions: KIT signalling underlies melanocyte biology, relevant to the spotty lentiginous pigmentation and blue naevi that are diagnostic hallmarks of Carney complex.
+- `connects-to` → **[Activin A](../../03-molecular/activin-a/README.md)** — Gonadal tumours: the activin-inhibin axis of Sertoli cells is engaged by the large-cell calcifying Sertoli cell tumours that are a characteristic gonadal manifestation of Carney complex.
 
 ---
 
