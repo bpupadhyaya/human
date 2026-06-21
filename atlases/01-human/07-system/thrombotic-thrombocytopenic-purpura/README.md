@@ -292,6 +292,15 @@ cross_links:
   - target: 01-human/03-molecular/fibrinogen
     relation: connects-to
     note: "Platelet-rich microthrombi: the VWF-driven platelet aggregates of TTP, with fibrinogen-mediated cross-linking, form the microthrombi that shear red cells and occlude small vessels."
+  - target: 01-human/03-molecular/pf4
+    relation: connects-to
+    note: "Platelet activation: platelets caught in the VWF-rich microthrombi of TTP degranulate and release platelet factor 4, a marker of the platelet consumption that produces the profound thrombocytopenia of the disease."
+  - target: 01-human/03-molecular/baff
+    relation: connects-to
+    note: "Autoantibody drive: in immune TTP, BAFF supports the autoreactive B cells that produce the anti-ADAMTS13 IgG autoantibodies, the rationale behind B-cell-directed therapy alongside rituximab."
+  - target: 01-human/03-molecular/tlr4
+    relation: connects-to
+    note: "Inflammatory trigger: infection-driven TLR4 signalling on endothelium promotes Weibel-Palade-body release of VWF, helping explain why infections and inflammation precipitate acute TTP episodes and relapses."
 ---
 
 # Thrombotic Thrombocytopenic Purpura
@@ -538,6 +547,9 @@ In healthy individuals, ADAMTS13 (~190 kDa plasma glycoprotein; hepatic synthesi
 - `connects-to` → **[Nitric Oxide](../../03-molecular/nitric-oxide/README.md)** — Endothelial dysfunction: the microvascular endothelial injury of TTP cuts nitric oxide production, removing its vasodilator and antithrombotic brake and worsening microthrombosis.
 - `connects-to` → **[Endothelin-1](../../03-molecular/endothelin-1/README.md)** — Vasoconstrictor imbalance: injured endothelium in TTP releases endothelin-1, whose vasoconstriction aggravates the organ ischaemia of the thrombotic microangiopathy.
 - `connects-to` → **[Fibrinogen](../../03-molecular/fibrinogen/README.md)** — Platelet-rich microthrombi: the VWF-driven platelet aggregates of TTP, with fibrinogen-mediated cross-linking, form the microthrombi that shear red cells and occlude small vessels.
+- `connects-to` → **[PF4](../../03-molecular/pf4/README.md)** — Platelets caught in the VWF-rich microthrombi of TTP degranulate and release platelet factor 4, a marker of the platelet consumption that produces the profound thrombocytopenia central to the diagnosis.
+- `connects-to` → **[BAFF](../../03-molecular/baff/README.md)** — In immune TTP, BAFF supports the autoreactive B cells that produce the anti-ADAMTS13 IgG autoantibodies—the autoimmune mechanism underlying the acquired form and the rationale for B-cell-directed therapy alongside rituximab.
+- `connects-to` → **[TLR4](../../03-molecular/tlr4/README.md)** — Infection-driven TLR4 signaling on endothelium promotes Weibel-Palade-body release of ultra-large VWF multimers, helping explain why infections and inflammation so often precipitate acute TTP episodes and relapses in susceptible patients.
 
 ---
 
