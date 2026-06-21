@@ -286,6 +286,15 @@ cross_links:
   - target: 01-human/03-molecular/tnf-alpha
     relation: connects-to
     note: "Inflammatory medial breakdown: TNF-α contributes to the smooth-muscle apoptosis and matrix degradation of the Marfan aorta, compounding the primary fibrillin defect."
+  - target: 01-human/03-molecular/aldosterone
+    relation: connects-to
+    note: "Mineralocorticoid remodelling: aldosterone and mineralocorticoid-receptor signalling promote aortic fibrosis and stiffening, and MR antagonists are studied alongside ARBs to slow aortic dilatation in Marfan syndrome."
+  - target: 01-human/03-molecular/rankl
+    relation: connects-to
+    note: "Reduced bone density: Marfan syndrome is associated with low bone mineral density, with RANKL-driven osteoclast activity contributing to the osteopenia that adds to its skeletal manifestations."
+  - target: 01-human/03-molecular/adrenomedullin
+    relation: connects-to
+    note: "Vascular peptide: adrenomedullin, a fibrillin-associated vasodilator peptide, is dysregulated in Marfan syndrome, contributing to the abnormal vascular tone and wall homeostasis of the dilating aorta."
 ---
 
 # Marfan Syndrome
@@ -514,6 +523,9 @@ MFS is a **multi-system disorder** defined by cardiovascular, ocular, and skelet
 - `connects-to` → **[CCL2](../../03-molecular/ccl2/README.md)** — Macrophage recruitment: CCL2 draws macrophages into the degenerating Marfan aortic wall, where their proteases accelerate the medial breakdown that drives aneurysm.
 - `connects-to` → **[IL-6](../../03-molecular/il-6/README.md)** — Aortic inflammation: IL-6 within the Marfan aortic wall amplifies the inflammatory remodelling that weakens the media and predicts aneurysm progression.
 - `connects-to` → **[TNF-α](../../03-molecular/tnf-alpha/README.md)** — Inflammatory medial breakdown: TNF-α contributes to the smooth-muscle apoptosis and matrix degradation of the Marfan aorta, compounding the primary fibrillin defect.
+- `connects-to` → **[Aldosterone](../../03-molecular/aldosterone/README.md)** — Mineralocorticoid remodelling: aldosterone and mineralocorticoid-receptor signalling promote aortic fibrosis and stiffening, and MR antagonists are studied alongside ARBs to slow aortic dilatation in Marfan syndrome.
+- `connects-to` → **[RANKL](../../03-molecular/rankl/README.md)** — Reduced bone density: Marfan syndrome is associated with low bone mineral density, with RANKL-driven osteoclast activity contributing to the osteopenia that adds to its skeletal manifestations.
+- `connects-to` → **[Adrenomedullin](../../03-molecular/adrenomedullin/README.md)** — Vascular peptide: adrenomedullin, a fibrillin-associated vasodilator peptide, is dysregulated in Marfan syndrome, contributing to the abnormal vascular tone and wall homeostasis of the dilating aorta.
 
 ---
 

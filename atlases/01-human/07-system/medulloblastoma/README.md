@@ -286,6 +286,15 @@ cross_links:
   - target: 01-human/03-molecular/hif-1alpha
     relation: connects-to
     note: "Tumour hypoxia: HIF-1α stabilised in the hypoxic medulloblastoma drives the VEGF angiogenesis and metabolic adaptation that support its rapid growth."
+  - target: 01-human/03-molecular/caspase-3
+    relation: connects-to
+    note: "Apoptotic chemosensitivity: high MYC in Group 3 medulloblastoma primes cells for caspase-3-mediated apoptosis, part of why these embryonal tumours respond initially to cytotoxic chemotherapy and radiation."
+  - target: 01-human/03-molecular/ccl2
+    relation: connects-to
+    note: "Microglial microenvironment: CCL2 recruits microglia and macrophages into the medulloblastoma microenvironment, shaping the immunosuppressive niche of this childhood cerebellar tumour."
+  - target: 01-human/03-molecular/erk1-2
+    relation: connects-to
+    note: "MAPK proliferation: RAS-RAF-ERK signalling contributes to medulloblastoma proliferation, cooperating with the SHH, WNT and MYC programmes that define its molecular subgroups."
 ---
 
 # Medulloblastoma
@@ -505,6 +514,9 @@ MB survivors face substantial late effects — inversely proportional to age at 
 - `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — PI3K/AKT survival: PI3K/AKT signalling supports medulloblastoma cell survival and is implicated in resistance to Hedgehog-pathway inhibitors in the SHH subgroup.
 - `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — Growth-signal hub: mTOR integrates the growth-factor signalling of medulloblastoma, driving the protein synthesis and proliferation of these embryonal tumours.
 - `connects-to` → **[HIF-1α](../../03-molecular/hif-1alpha/README.md)** — Tumour hypoxia: HIF-1α stabilised in the hypoxic medulloblastoma drives the VEGF angiogenesis and metabolic adaptation that support its rapid growth.
+- `connects-to` → **[Caspase-3](../../03-molecular/caspase-3/README.md)** — Apoptotic chemosensitivity: high MYC in Group 3 medulloblastoma primes cells for caspase-3-mediated apoptosis, part of why these embryonal tumours respond initially to cytotoxic chemotherapy and radiation.
+- `connects-to` → **[CCL2](../../03-molecular/ccl2/README.md)** — Microglial microenvironment: CCL2 recruits microglia and macrophages into the medulloblastoma microenvironment, shaping the immunosuppressive niche of this childhood cerebellar tumour.
+- `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — MAPK proliferation: RAS-RAF-ERK signalling contributes to medulloblastoma proliferation, cooperating with the SHH, WNT and MYC programmes that define its molecular subgroups.
 
 [^packer-2006-std-risk-mb]: Packer RJ, Gajjar A, Vezina G, et al. Phase III study of craniospinal radiation therapy followed by adjuvant chemotherapy for newly diagnosed average-risk medulloblastoma. *J Clin Oncol.* 2006;24(25):4202-4208. [doi:10.1200/JCO.2006.06.4980](https://doi.org/10.1200/JCO.2006.06.4980) · [PubMed 16943538](https://pubmed.ncbi.nlm.nih.gov/16943538/)
 [^taylor-2012-mb-subgroups]: Taylor MD, Northcott PA, Korshunov A, et al. Molecular subgroups of medulloblastoma: the current consensus. *Acta Neuropathol.* 2012;123(4):465-472. [doi:10.1007/s00401-011-0922-z](https://doi.org/10.1007/s00401-011-0922-z) · [PubMed 22134537](https://pubmed.ncbi.nlm.nih.gov/22134537/)
