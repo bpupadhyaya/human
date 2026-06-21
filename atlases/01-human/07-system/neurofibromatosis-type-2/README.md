@@ -286,6 +286,15 @@ cross_links:
   - target: 01-human/03-molecular/hif-1alpha
     relation: connects-to
     note: "Tumour hypoxia: HIF-1α stabilised in the growing NF2 tumours drives the VEGF angiogenesis that supplies vestibular schwannomas and meningiomas."
+  - target: 01-human/03-molecular/ccl2
+    relation: connects-to
+    note: "Tumour-associated macrophages: NF2 schwannomas are heavily macrophage-infiltrated, and CCL2 secreted by the Schwann tumour cells recruits the monocytes whose growth factors sustain schwannoma volume."
+  - target: 01-human/03-molecular/src-kinase
+    relation: connects-to
+    note: "Lost merlin restraint: merlin normally inhibits Src/FAK at the membrane, so NF2 loss disinhibits Src signalling, contributing to the loss of contact inhibition that lets schwannoma and meningioma cells proliferate."
+  - target: 01-human/03-molecular/sstr2
+    relation: connects-to
+    note: "Somatostatin-receptor imaging: NF2 meningiomas express SSTR2, the basis for DOTATATE PET to map tumour burden and for peptide-receptor radionuclide therapy in refractory progressive meningiomas."
 ---
 
 # Neurofibromatosis Type 2
@@ -423,6 +432,9 @@ Merlin has an N-terminal FERM domain (α, β, γ lobes) that binds membrane lipi
 - `connects-to` → **[Glioblastoma](../glioblastoma/README.md)** — NF2 and glioblastoma intersect through merlin: NF2 patients develop gliomas from biallelic NF2/merlin loss, and merlin is also inactivated in some sporadic glioblastomas—linking an inherited schwannoma/meningioma syndrome to malignant glioma.
 - `connects-to` → **[VHL Disease](../vhl-disease/README.md)** — NF2 and von Hippel-Lindau are both dominant tumor-suppressor syndromes: NF2 (merlin loss) gives bilateral vestibular schwannomas and meningiomas, VHL gives hemangioblastomas and renal cancer—each one gene seeding a distinct tumor constellation.
 - `connects-to` → **[Eye](../../06-organ/eye/README.md)** — The eye carries diagnostic clues to NF2: posterior subcapsular cataracts and retinal hamartomas are characteristic, often appearing before the bilateral vestibular schwannomas that define NF2—so an early cataract in a young person can prompt NF2 evaluation.
+- `connects-to` → **[CCL2](../../03-molecular/ccl2/README.md)** — NF2 schwannomas are heavily macrophage-infiltrated, and CCL2 secreted by the Schwann tumor cells recruits the monocytes whose growth factors sustain schwannoma volume—making the immune microenvironment, not just merlin loss, a driver of tumor growth.
+- `connects-to` → **[Src kinase](../../03-molecular/src-kinase/README.md)** — Merlin normally inhibits Src/FAK at the membrane, so NF2 loss disinhibits Src signaling, contributing to the loss of contact inhibition that lets schwannoma and meningioma cells keep proliferating despite cell-cell contact.
+- `connects-to` → **[SSTR2](../../03-molecular/sstr2/README.md)** — NF2 meningiomas express somatostatin receptor 2, the basis for DOTATATE PET to map multifocal tumor burden and for peptide-receptor radionuclide therapy in refractory progressive meningiomas where surgery and radiation are exhausted.
 - `connects-to` → **[Neuron](../../04-cellular/neuron/README.md)** — NF2 is defined by tumors on the hearing nerve: bilateral vestibular schwannomas grow on cranial nerve VIII, compressing the neurons that carry sound and balance, so progressive deafness and imbalance in a young person are the hallmark of neurofibromatosis type 2.
 - `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — Radiation is used cautiously in NF2: stereotactic radiosurgery can control vestibular schwannomas, but in NF2's tumor-prone, merlin-deficient tissue it risks inducing new tumors or malignant transformation—so timing and dose are weighed carefully against surgery.
 - `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — Merlin loss in NF2 deranges growth signaling including mTOR: NF2's merlin normally restrains the Hippo pathway and mTOR-linked proliferation, so its loss drives schwannoma growth—making mTOR and VEGF (bevacizumab) inhibition rational targeted approaches.

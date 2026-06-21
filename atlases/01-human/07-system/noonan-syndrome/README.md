@@ -286,6 +286,15 @@ cross_links:
   - target: 01-human/03-molecular/pdgf
     relation: connects-to
     note: "Growth-factor signalling: PDGF acts through the RAS-MAPK pathway dysregulated in Noonan syndrome, feeding into the developmental and proliferative abnormalities of the disorder."
+  - target: 01-human/03-molecular/gsk-3b
+    relation: connects-to
+    note: "Convergent hypertrophy node: chronic RAS-MAPK and PI3K-AKT signalling in Noonan syndrome inactivates GSK-3β, removing its anti-hypertrophic brake on cardiomyocytes and contributing to the hypertrophic cardiomyopathy seen in the disorder."
+  - target: 01-human/03-molecular/serca2a
+    relation: connects-to
+    note: "Diastolic dysfunction: SERCA2a-mediated SR calcium reuptake is impaired in the hypertrophied Noonan myocardium, slowing relaxation and contributing to the diastolic dysfunction that complicates the syndrome's hypertrophic cardiomyopathy."
+  - target: 01-human/03-molecular/angiopoietin
+    relation: connects-to
+    note: "Lymphatic dysplasia: Noonan and the broader RASopathy spectrum cause lymphedema and central conducting lymphatic anomalies, where dysregulated angiopoietin-Tie2 signalling underlies the malformed, leaky lymphatic channels."
 ---
 
 # Noonan Syndrome
@@ -429,6 +438,9 @@ NS is characterized by four cardinal features: **(1) short stature** (below 3rd 
 - `connects-to` → **[LZTR1](../../03-molecular/lztr1/README.md)** — PTPN11 and LZTR1 are both RASopathy genes causing Noonan syndrome: PTPN11 GOF hyperactivates SHP2/RAS signaling; LZTR1 LOF prevents CUL3-mediated RAS ubiquitination → RAS accumulation; both disorders share short stature, pulmonary stenosis, and HCM features.
 - `connects-to` → **[KRAS](../../03-molecular/kras/README.md)** — KRAS mutations cause ~5% of Noonan syndrome; KRAS GOF → constitutive RAS-MAPK activation even without upstream SHP2 signal; Noonan syndrome with KRAS mutations tends to have more severe intellectual disability; KRAS G12D drives JMML in Noonan-associated leukemia.
 - `connects-to` → **[NF1](../../03-molecular/nf1/README.md)** — Noonan syndrome and neurofibromatosis type 1 (NF1) are both RASopathies with overlapping features (café-au-lait spots, pulmonary stenosis, learning differences, short stature); NF1 LOF → RAS-GTP accumulation via GAP loss; PTPN11 GOF → RAS-GTP accumulation via SHP2 activation.
+- `connects-to` → **[GSK-3β](../../03-molecular/gsk-3b/README.md)** — Chronic RAS-MAPK and PI3K-AKT signaling in Noonan syndrome inactivates GSK-3β, removing its anti-hypertrophic brake on cardiomyocytes—a convergent signaling node contributing to the hypertrophic cardiomyopathy that drives much of the syndrome's cardiac morbidity.
+- `connects-to` → **[SERCA2a](../../03-molecular/serca2a/README.md)** — SERCA2a-mediated sarcoplasmic-reticulum calcium reuptake is impaired in the hypertrophied Noonan myocardium, slowing relaxation and contributing to the diastolic dysfunction that complicates the disorder's hypertrophic cardiomyopathy beyond the systolic obstruction.
+- `connects-to` → **[Angiopoietin](../../03-molecular/angiopoietin/README.md)** — Noonan and the broader RASopathy spectrum cause lymphedema and central conducting lymphatic anomalies, where dysregulated angiopoietin-Tie2 signaling underlies the malformed, leaky lymphatic channels—linking the RAS pathway to the syndrome's lymphatic phenotype.
 - `connects-to` → **[Heart](../../06-organ/heart/README.md)** — Congenital heart disease affects ~80% of Noonan syndrome: a dysplastic, thickened pulmonary valve causes stenosis in ~50-60% (often balloon-resistant), while RAF1 mutations drive hypertrophic cardiomyopathy in ~20-30%, which MEK inhibitors can reverse.
 - `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — Every Noonan gene — PTPN11, SOS1, RAF1, KRAS, RIT1, LZTR1 — converges on ERK1/2 hyperactivation during embryogenesis, and the degree of ERK activity grades severity; because MEK1/2 sits just upstream of ERK, MEK inhibitors (trametinib) can normalize signaling and reverse HCM.
 - `connects-to` → **[Schwannomatosis](../schwannomatosis/README.md)** — LZTR1 links Noonan syndrome to schwannomatosis through opposite effects of the same gene: dominant LZTR1 mutations cause Noonan (RAS accumulation, developmental phenotype), whereas biallelic LOF or dominant-negative LZTR1 causes schwannomatosis (multiple painful schwannomas).
