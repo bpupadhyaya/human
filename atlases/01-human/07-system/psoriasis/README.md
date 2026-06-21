@@ -295,6 +295,15 @@ cross_links:
   - target: 01-human/03-molecular/egfr
     relation: connects-to
     note: "Epidermal hyperproliferation: EGFR signalling drives the rapid keratinocyte proliferation that thickens psoriatic plaques, the cellular basis of the scaling and accelerated epidermal turnover."
+  - target: 01-human/03-molecular/ccl2
+    relation: connects-to
+    note: "Myeloid recruitment: CCL2 produced in psoriatic skin draws monocytes and dendritic-cell precursors into the plaque, replenishing the antigen-presenting cells that sustain the IL-23/IL-17 inflammatory loop."
+  - target: 01-human/03-molecular/cgas-sting
+    relation: connects-to
+    note: "Self-DNA sensing: keratinocyte and dendritic-cell cGAS-STING activation by self-DNA amplifies the type-I-interferon response, reinforcing the innate ignition phase that initiates and perpetuates psoriatic inflammation."
+  - target: 01-human/03-molecular/tgf-beta
+    relation: connects-to
+    note: "Keratinocyte dysregulation: TGF-β1 is overexpressed in psoriatic skin where, alongside its angiogenic effects, it contributes paradoxically to the abnormal keratinocyte proliferation and inflammatory milieu of the plaque."
 ---
 
 # Psoriasis
@@ -502,6 +511,9 @@ Differential: Seborrheic dermatitis (common), pityriasis rosea (herald patch, Ch
 - `connects-to` → **[Type I Interferon](../../03-molecular/type-i-interferon/README.md)** — Disease initiation: plasmacytoid dendritic cells sensing LL-37–self-DNA complexes pour out type I interferon, the early event that ignites the dendritic-cell activation launching the psoriasis cascade.
 - `connects-to` → **[S100A8/A9](../../03-molecular/s100a8-a9/README.md)** — Keratinocyte alarmin: S100A8/A9 (calprotectin) is massively upregulated in psoriatic keratinocytes, amplifying neutrophil recruitment and inflammation and serving as a biomarker of disease activity.
 - `connects-to` → **[EGFR](../../03-molecular/egfr/README.md)** — Epidermal hyperproliferation: EGFR signalling drives the rapid keratinocyte proliferation that thickens psoriatic plaques, the cellular basis of the scaling and accelerated epidermal turnover.
+- `connects-to` → **[CCL2](../../03-molecular/ccl2/README.md)** — CCL2 produced in psoriatic skin draws monocytes and dendritic-cell precursors into the plaque, replenishing the antigen-presenting cells that sustain the IL-23/IL-17 inflammatory loop driving the disease.
+- `connects-to` → **[cGAS-STING](../../03-molecular/cgas-sting/README.md)** — Keratinocyte and dendritic-cell cGAS-STING activation by self-DNA amplifies the type-I-interferon response, reinforcing the innate ignition phase (with LL-37–DNA complexes) that initiates and perpetuates psoriatic inflammation.
+- `connects-to` → **[TGF-β](../../03-molecular/tgf-beta/README.md)** — TGF-β1 is overexpressed in psoriatic skin where, alongside its angiogenic effects, it contributes paradoxically to the abnormal keratinocyte proliferation and the inflammatory milieu of the plaque rather than its usual growth-suppressive role.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 

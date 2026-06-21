@@ -297,6 +297,15 @@ cross_links:
   - target: 01-human/03-molecular/ccl2
     relation: connects-to
     note: "Neuroinflammatory recruitment: elevated CCL2 in PTSD recruits monocytes that traffic to the brain, contributing to the microglial activation and inflammation linked to its stress-related neuropathology."
+  - target: 01-human/03-molecular/mu-opioid-receptor
+    relation: connects-to
+    note: "Peritraumatic protection: opioid analgesia given soon after trauma lowers later PTSD risk, and endogenous opioid signalling shapes fear extinction — implicating the μ-opioid system in the consolidation of traumatic memory."
+  - target: 01-human/03-molecular/progesterone
+    relation: connects-to
+    note: "Neurosteroid deficit: reduced allopregnanolone, a progesterone metabolite and positive GABA-A modulator, is found in PTSD, weakening the inhibitory tone that normally restrains the fear and arousal circuits."
+  - target: 01-human/03-molecular/substance-p
+    relation: connects-to
+    note: "Stress tachykinin: substance P is elevated in PTSD and acts on NK1 receptors in the amygdala to heighten anxiety and the stress response, a neuropeptide arm of the disorder's hyperarousal."
 ---
 
 # PTSD
@@ -525,6 +534,9 @@ Not all trauma leads to PTSD. Risk and resilience factors include:
 - `connects-to` → **[Serotonin Transporter](../../03-molecular/serotonin-transporter/README.md)** — Treatment and gene-environment risk: SSRIs blocking the serotonin transporter are first-line for PTSD, and the 5-HTTLPR transporter polymorphism is among the most studied gene-by-trauma interactions in the disorder.
 - `connects-to` → **[β1-Adrenergic Receptor](../../03-molecular/beta1-adrenergic-receptor/README.md)** — Fear-memory reconsolidation: noradrenaline acting on β-adrenergic receptors strengthens traumatic memory consolidation, the rationale for propranolol to blunt reconsolidation and the hyperarousal of PTSD.
 - `connects-to` → **[CCL2](../../03-molecular/ccl2/README.md)** — Neuroinflammatory recruitment: elevated CCL2 in PTSD recruits monocytes that traffic to the brain, contributing to the microglial activation and inflammation linked to its stress-related neuropathology.
+- `connects-to` → **[μ-opioid receptor](../../03-molecular/mu-opioid-receptor/README.md)** — Opioid analgesia given soon after trauma lowers later PTSD risk, and endogenous opioid signaling shapes fear extinction—implicating the μ-opioid system in the consolidation of traumatic memory and in resilience.
+- `connects-to` → **[Progesterone](../../03-molecular/progesterone/README.md)** — Reduced allopregnanolone, a progesterone metabolite and positive GABA-A modulator, is found in PTSD, weakening the inhibitory tone that normally restrains the fear and arousal circuits and offering a neurosteroid treatment target.
+- `connects-to` → **[Substance P](../../03-molecular/substance-p/README.md)** — Substance P is elevated in PTSD and acts on NK1 receptors in the amygdala to heighten anxiety and the stress response, a neuropeptide arm of the hyperarousal that complements the noradrenergic surge.
 
 [^yehuda-2015-ptsd-review]: Yehuda R, Hoge CW, McFarlane AC, et al. Post-traumatic stress disorder. *Nat Rev Dis Primers.* 2015;1:15057. [doi:10.1038/nrdp.2015.57](https://doi.org/10.1038/nrdp.2015.57) · [PubMed 27189040](https://pubmed.ncbi.nlm.nih.gov/27189040/)
 [^foa-2019-ptsd-treatments]: Foa EB, McLean CP. The efficacy of exposure therapy for anxiety and related disorders. *Annu Rev Clin Psychol.* 2016;12:1-28. [doi:10.1146/annurev-clinpsy-021815-093533](https://doi.org/10.1146/annurev-clinpsy-021815-093533) · [PubMed 26928206](https://pubmed.ncbi.nlm.nih.gov/26928206/)
