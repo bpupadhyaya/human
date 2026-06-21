@@ -301,6 +301,15 @@ cross_links:
   - target: 01-human/03-molecular/ccl2
     relation: connects-to
     note: "Neuroinflammatory link: CCL2 recruits monocytes to the brain and is among the chemokines tied to the low-grade neuroinflammation increasingly implicated in chronic anxiety."
+  - target: 01-human/03-molecular/estrogen
+    relation: connects-to
+    note: "Hormonal modulation: estrogen tunes serotonergic and GABAergic tone, and anxiety in women often worsens during the perimenstrual and perimenopausal low-estrogen windows, implicating ovarian hormones in generalised anxiety."
+  - target: 01-human/03-molecular/substance-p
+    relation: connects-to
+    note: "Tachykinin fear circuit: substance P acting on NK1 receptors in the amygdala drives anxiety and the stress response, the rationale behind NK1-antagonist anxiolytics tested for generalised anxiety disorder."
+  - target: 01-human/03-molecular/histamine
+    relation: connects-to
+    note: "Histaminergic arousal: central H1 histamine signalling drives the wakeful arousal that anxiety heightens, which is why the H1 antihistamine hydroxyzine is an established non-addictive anxiolytic for the disorder."
 ---
 
 # Generalized Anxiety Disorder
@@ -533,6 +542,9 @@ Allow **4-8 weeks** for onset of anxiolytic effect. Continue treatment ≥12 mon
 - `connects-to` → **[Progesterone](../../03-molecular/progesterone/README.md)** — Neurosteroid anxiolysis: the progesterone metabolite allopregnanolone is a positive GABA-A modulator, so its fluctuations shape anxiety and underlie the neurosteroid drugs developed for anxiety and depression.
 - `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — Stress-axis amplifier: vasopressin synergises with CRH to drive the HPA-axis hyperactivity of generalised anxiety, sustaining the heightened stress reactivity central to the disorder.
 - `connects-to` → **[CCL2](../../03-molecular/ccl2/README.md)** — Neuroinflammatory link: CCL2 recruits monocytes to the brain and is among the chemokines tied to the low-grade neuroinflammation increasingly implicated in chronic anxiety.
+- `connects-to` → **[Estrogen](../../03-molecular/estrogen/README.md)** — Estrogen tunes serotonergic and GABAergic tone, and anxiety in women often worsens during the perimenstrual and perimenopausal low-estrogen windows, implicating ovarian hormones in the course of generalized anxiety disorder.
+- `connects-to` → **[Substance P](../../03-molecular/substance-p/README.md)** — Substance P acting on NK1 receptors in the amygdala drives anxiety and the stress response, the rationale behind the NK1-antagonist anxiolytics tested (with mixed results) for generalized anxiety disorder.
+- `connects-to` → **[Histamine](../../03-molecular/histamine/README.md)** — Central H1 histamine signaling drives the wakeful arousal that anxiety heightens, which is why the H1 antihistamine hydroxyzine is an established non-addictive anxiolytic option for generalized anxiety disorder.
 
 [^kessler-2005-gad-prevalence]: Kessler RC, Berglund P, Demler O, et al. Lifetime prevalence and age-of-onset distributions of DSM-IV disorders in the NCS Replication. *Arch Gen Psychiatry.* 2005;62(6):593-602. [doi:10.1001/archpsyc.62.6.593](https://doi.org/10.1001/archpsyc.62.6.593) · [PubMed 15939837](https://pubmed.ncbi.nlm.nih.gov/15939837/)
 [^bandelow-2015-anxiety-biology]: Bandelow B, Michaelis S. Epidemiology of anxiety disorders in the 21st century. *Dialogues Clin Neurosci.* 2015;17(3):327-335. [doi:10.31887/DCNS.2015.17.3/bbandelow](https://doi.org/10.31887/DCNS.2015.17.3/bbandelow) · [PubMed 26487812](https://pubmed.ncbi.nlm.nih.gov/26487812/)
