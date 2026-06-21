@@ -295,6 +295,15 @@ cross_links:
   - target: 01-human/03-molecular/ifn-gamma
     relation: connects-to
     note: "Immune dysregulation: altered IFN-γ signalling is among the inflammatory changes reported in borderline personality disorder, tying chronic stress to immune activation."
+  - target: 01-human/03-molecular/progesterone
+    relation: connects-to
+    note: "Neurosteroid instability: fluctuations in progesterone and its metabolite allopregnanolone, a GABA-A modulator, contribute to the premenstrual worsening of affective instability and self-harm urges reported in borderline personality disorder."
+  - target: 01-human/03-molecular/tlr4
+    relation: connects-to
+    note: "Trauma-primed neuroimmunity: the early-life maltreatment near-universal in borderline personality disorder primes TLR4-driven innate immune and microglial reactivity, a proposed mechanism linking childhood trauma to the low-grade neuroinflammation of the disorder."
+  - target: 01-human/03-molecular/cholesterol
+    relation: connects-to
+    note: "Impulsivity marker: low serum cholesterol is repeatedly associated with impulsive aggression and suicidality, a peripheral correlate of the impulsive self-destructive behaviour that characterises borderline personality disorder."
 ---
 
 # Borderline Personality Disorder
@@ -527,6 +536,9 @@ This model directly informs DBT treatment: validate emotional experience (the bi
 - `connects-to` → **[Glucocorticoid Receptor](../../03-molecular/glucocorticoid-receptor/README.md)** — HPA dysregulation: altered glucocorticoid-receptor feedback, shaped by early-life trauma, underlies the disturbed cortisol stress response of borderline personality disorder.
 - `connects-to` → **[NLRP3 Inflammasome](../../03-molecular/nlrp3-inflammasome/README.md)** — Inflammasome activation: chronic stress activates the NLRP3 inflammasome, whose IL-1β output contributes to the neuroinflammation linked to borderline personality disorder.
 - `connects-to` → **[IFN-γ](../../03-molecular/ifn-gamma/README.md)** — Immune dysregulation: altered IFN-γ signalling is among the inflammatory changes reported in borderline personality disorder, tying chronic stress to immune activation.
+- `connects-to` → **[Progesterone](../../03-molecular/progesterone/README.md)** — Fluctuations in progesterone and its metabolite allopregnanolone, a GABA-A receptor modulator, contribute to the premenstrual worsening of affective instability and self-harm urges that many women with borderline personality disorder report.
+- `connects-to` → **[TLR4](../../03-molecular/tlr4/README.md)** — The early-life maltreatment near-universal in borderline personality disorder primes TLR4-driven innate immune and microglial reactivity—a proposed mechanism linking childhood trauma to the low-grade neuroinflammation increasingly described in the disorder.
+- `connects-to` → **[Cholesterol](../../03-molecular/cholesterol/README.md)** — Low serum cholesterol is repeatedly associated with impulsive aggression and suicidality, a peripheral biological correlate of the impulsive, self-destructive behavior that is a core diagnostic feature of borderline personality disorder.
 
 [^linehan-1993-dbt]: Linehan MM. *Cognitive-Behavioral Treatment of Borderline Personality Disorder.* Guilford; 1993. [PubMed 8192506](https://pubmed.ncbi.nlm.nih.gov/8192506/)
 [^skodol-2002-bpd-neurobiology]: Siever LJ, Davis KL. A psychobiological perspective on the personality disorders. *Am J Psychiatry.* 1991;148(12):1647-1658. [doi:10.1176/ajp.148.12.1647](https://doi.org/10.1176/ajp.148.12.1647) · [PubMed 1957927](https://pubmed.ncbi.nlm.nih.gov/1957927/)

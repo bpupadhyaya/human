@@ -295,6 +295,15 @@ cross_links:
   - target: 01-human/03-molecular/ifn-gamma
     relation: connects-to
     note: "Th1/neutrophilic asthma: IFN-γ from Th1 cells characterises the non-eosinophilic, often steroid-resistant asthma endotype, contrasting with the Th2 form."
+  - target: 01-human/03-molecular/kit
+    relation: connects-to
+    note: "Mast-cell effector: stem-cell factor signalling through KIT maintains the airway mast cells whose IgE-triggered degranulation releases the histamine and leukotrienes driving the acute bronchoconstriction of allergic asthma."
+  - target: 01-human/03-molecular/jak1-2
+    relation: connects-to
+    note: "Cytokine signalling: the Th2 cytokines IL-4, IL-5 and IL-13 signal through JAK-STAT, making JAK inhibitors an emerging strategy to block multiple type-2 pathways at once in asthma."
+  - target: 01-human/03-molecular/substance-p
+    relation: connects-to
+    note: "Neurogenic inflammation: substance P released from airway sensory nerves causes bronchoconstriction, mucus secretion and plasma extravasation, the neural arm of asthmatic airway inflammation and cough."
 ---
 
 # Asthma
@@ -496,6 +505,9 @@ Asthma affects approximately **339 million people worldwide** (WHO 2019) and is 
 - `connects-to` → **[TNF-α](../../03-molecular/tnf-alpha/README.md)** — Severe-asthma inflammation: TNF-α drives the neutrophilic inflammation and airway hyperresponsiveness of severe, steroid-resistant asthma.
 - `connects-to` → **[CCL2](../../03-molecular/ccl2/README.md)** — Cell recruitment: CCL2 draws monocytes and other inflammatory cells into the asthmatic airway, contributing to the chronic inflammation and remodelling.
 - `connects-to` → **[IFN-γ](../../03-molecular/ifn-gamma/README.md)** — Th1/neutrophilic asthma: IFN-γ from Th1 cells characterises the non-eosinophilic, often steroid-resistant asthma endotype, contrasting with the Th2 form.
+- `connects-to` → **[KIT](../../03-molecular/kit/README.md)** — Stem-cell factor signaling through KIT maintains the airway mast cells whose IgE-triggered degranulation releases the histamine and leukotrienes driving the acute bronchoconstriction of allergic asthma—the effector cell behind the immediate response.
+- `connects-to` → **[JAK1/2](../../03-molecular/jak1-2/README.md)** — The type-2 cytokines IL-4, IL-5, and IL-13 all signal through JAK-STAT, making JAK inhibitors an emerging strategy to block multiple type-2 pathways at once rather than neutralizing a single cytokine as current biologics do.
+- `connects-to` → **[Substance P](../../03-molecular/substance-p/README.md)** — Substance P released from airway sensory nerves causes bronchoconstriction, mucus secretion, and plasma extravasation—the neurogenic arm of asthmatic airway inflammation that contributes to cough and hyperresponsiveness.
 
 [^gina-2023-asthma]: Global Initiative for Asthma. Global Strategy for Asthma Management and Prevention. 2023. [ginasthma.org](https://ginasthma.org/2023-gina-main-report/)
 [^wenzel-2012-asthma-phenotypes]: Wenzel SE. Asthma phenotypes: the evolution from clinical to molecular approaches. *Nat Med.* 2012;18(5):716-725. [doi:10.1038/nm.2678](https://doi.org/10.1038/nm.2678) · [PubMed 22561835](https://pubmed.ncbi.nlm.nih.gov/22561835/)
