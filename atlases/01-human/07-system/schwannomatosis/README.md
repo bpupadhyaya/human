@@ -286,6 +286,15 @@ cross_links:
   - target: 01-human/03-molecular/hif-1alpha
     relation: connects-to
     note: "Tumour hypoxia: HIF-1α stabilised in the growing schwannomas drives the VEGF angiogenesis that supplies these nerve-sheath tumours."
+  - target: 01-human/03-molecular/ntrk
+    relation: connects-to
+    note: "Nociceptor sensitisation: NGF signalling through TrkA sensitises the sensory nerve fibres entangled by schwannomatosis tumours, contributing to the chronic, often severe pain that dominates this syndrome."
+  - target: 01-human/03-molecular/cgrp
+    relation: connects-to
+    note: "Neurogenic pain: CGRP released from the peri-tumoural sensory nerves mediates the neurogenic inflammation and chronic pain that is the defining clinical feature of schwannomatosis, distinguishing it from NF2."
+  - target: 01-human/03-molecular/ccl2
+    relation: connects-to
+    note: "Macrophages and pain: schwannomatosis tumours recruit CCL2-driven macrophages that both sustain tumour growth and release mediators that sensitise nociceptors, linking the immune infiltrate to the pain phenotype."
 ---
 
 # Schwannomatosis
@@ -477,6 +486,9 @@ Both NF2 (22q12.2), SMARCB1 (22q11.23), and LZTR1 (22q11.21) are on chromosome 2
 - `connects-to` → **[Cyclin D1](../../03-molecular/cyclin-d1/README.md)** — G1 progression: cyclin D1, upregulated by SMARCB1/LZTR1 loss, partners CDK4/6 to push schwannoma cells through the G1 checkpoint in schwannomatosis.
 - `connects-to` → **[MYC](../../03-molecular/myc/README.md)** — Proliferative oncogene: MYC activation downstream of the dysregulated Hippo and growth-factor pathways drives the proliferation of schwannomatosis tumours.
 - `connects-to` → **[HIF-1α](../../03-molecular/hif-1alpha/README.md)** — Tumour hypoxia: HIF-1α stabilised in the growing schwannomas drives the VEGF angiogenesis that supplies these nerve-sheath tumours.
+- `connects-to` → **[NTRK / TrkA](../../03-molecular/ntrk/README.md)** — NGF signaling through TrkA sensitizes the sensory nerve fibers entangled by schwannomatosis tumors, contributing to the chronic, often severe pain that dominates this syndrome more than the tumor mass itself.
+- `connects-to` → **[CGRP](../../03-molecular/cgrp/README.md)** — CGRP released from the peri-tumoral sensory nerves mediates the neurogenic inflammation and chronic pain that is the defining clinical feature of schwannomatosis—the symptom that, more than tumor burden, distinguishes it from NF2.
+- `connects-to` → **[CCL2](../../03-molecular/ccl2/README.md)** — Schwannomatosis tumors recruit CCL2-driven macrophages that both sustain tumor growth and release mediators sensitizing nociceptors, linking the immune infiltrate directly to the pain phenotype that defines the disease.
 
 [^merker-2012-schwannomatosis]: Merker VL, Esparza S, Smith MJ, Stemmer-Rachamimov A, Plotkin SR. Clinical features of schwannomatosis: a retrospective analysis of 87 patients. *Oncologist.* 2012;17(10):1317-1322. [doi:10.1634/theoncologist.2012-0162](https://doi.org/10.1634/theoncologist.2012-0162) · [PubMed 22927469](https://pubmed.ncbi.nlm.nih.gov/22927469/)
 [^piotrowski-2014-lztr1]: Piotrowski A, Xie J, Liu YF, et al. Germline loss-of-function mutations in LZTR1 predispose to an inherited disorder of multiple schwannomas. *Nat Genet.* 2014;46(2):182-187. [doi:10.1038/ng.2855](https://doi.org/10.1038/ng.2855) · [PubMed 24362817](https://pubmed.ncbi.nlm.nih.gov/24362817/)

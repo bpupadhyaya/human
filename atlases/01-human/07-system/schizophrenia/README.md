@@ -295,6 +295,15 @@ cross_links:
   - target: 01-human/03-molecular/norepinephrine
     relation: connects-to
     note: "Noradrenergic arousal: noradrenergic dysregulation contributes to the arousal, attention and stress-response abnormalities seen in schizophrenia alongside the dopamine hypothesis."
+  - target: 01-human/03-molecular/nitric-oxide
+    relation: connects-to
+    note: "Nitrergic signalling: the schizophrenia risk gene NOS1AP regulates neuronal nitric-oxide synthase, tying NO signalling at the NMDA-receptor synapse to the glutamatergic dysfunction implicated in the disorder."
+  - target: 01-human/03-molecular/gsk-3b
+    relation: connects-to
+    note: "DISC1-GSK3 axis: dopamine D2 and DISC1 signalling converge on GSK-3β, a kinase governing neurodevelopment and synaptic plasticity whose dysregulation is implicated in schizophrenia and is inhibited by mood stabilisers."
+  - target: 01-human/03-molecular/type-i-interferon
+    relation: connects-to
+    note: "Maternal immune activation: prenatal type-I-interferon responses to infection raise schizophrenia risk, a key strand of the neurodevelopmental immune hypothesis linking gestational inflammation to later psychosis."
 ---
 
 # Schizophrenia
@@ -551,6 +560,9 @@ Notably, schizophrenia shares genetic loci with bipolar disorder, ASD, ADHD, maj
 - `connects-to` → **[IL-1β](../../03-molecular/il-1b/README.md)** — Maternal immune activation: IL-1β is a key cytokine of the maternal immune activation linked to schizophrenia risk, and features in the neuroinflammation of the disorder.
 - `connects-to` → **[IFN-γ](../../03-molecular/ifn-gamma/README.md)** — Immune dysregulation: altered IFN-γ signalling is part of the immune dysregulation increasingly tied to schizophrenia, linking infection and inflammation to its neurodevelopment.
 - `connects-to` → **[Norepinephrine](../../03-molecular/norepinephrine/README.md)** — Noradrenergic arousal: noradrenergic dysregulation contributes to the arousal, attention and stress-response abnormalities seen in schizophrenia alongside the dopamine hypothesis.
+- `connects-to` → **[Nitric oxide](../../03-molecular/nitric-oxide/README.md)** — The schizophrenia risk gene NOS1AP regulates neuronal nitric-oxide synthase, tying NO signaling at the NMDA-receptor synapse to the glutamatergic dysfunction implicated in the disorder—a molecular bridge between a genetic locus and the NMDA-hypofunction model.
+- `connects-to` → **[GSK-3β](../../03-molecular/gsk-3b/README.md)** — Dopamine D2 and DISC1 signaling converge on GSK-3β, a kinase governing neurodevelopment and synaptic plasticity whose dysregulation is implicated in schizophrenia and which is inhibited by lithium and other mood stabilizers.
+- `connects-to` → **[Type I interferon](../../03-molecular/type-i-interferon/README.md)** — Prenatal type-I-interferon responses to maternal infection raise schizophrenia risk, a key strand of the neurodevelopmental immune hypothesis linking gestational inflammation to psychosis emerging decades later.
 
 [^howes-2009-dopamine-hypothesis]: Howes OD, Kapur S. The dopamine hypothesis of schizophrenia: version III—the final common pathway. *Schizophr Bull.* 2009;35(3):549-562. [doi:10.1093/schbul/sbp006](https://doi.org/10.1093/schbul/sbp006) · [PubMed 19325164](https://pubmed.ncbi.nlm.nih.gov/19325164/)
 [^moghaddam-2012-glutamate]: Moghaddam B, Javitt D. From revolution to evolution: the glutamate hypothesis of schizophrenia and its implication for treatment. *Neuropsychopharmacology.* 2012;37(1):4-15. [doi:10.1038/npp.2011.181](https://doi.org/10.1038/npp.2011.181) · [PubMed 21956446](https://pubmed.ncbi.nlm.nih.gov/21956446/)
