@@ -295,6 +295,15 @@ cross_links:
   - target: 01-human/03-molecular/nlrp3-inflammasome
     relation: connects-to
     note: "Innate inflammation: NLRP3-inflammasome activation contributes to the inflammatory bone-marrow microenvironment that accompanies the immune-mediated stem-cell destruction of aplastic anaemia."
+  - target: 01-human/03-molecular/mpl
+    relation: connects-to
+    note: "TPO-receptor rescue: eltrombopag stimulates the thrombopoietin receptor MPL on surviving haematopoietic stem cells to restore trilineage production in aplastic anaemia, a therapy that works even though the defect is immune."
+  - target: 01-human/03-molecular/stat1
+    relation: connects-to
+    note: "IFN-γ signalling: the IFN-γ that drives immune marrow failure in aplastic anaemia signals through STAT1 to suppress and kill haematopoietic stem cells, the intracellular transducer of the T-cell attack."
+  - target: 01-human/03-molecular/tgf-beta
+    relation: connects-to
+    note: "Progenitor suppression: TGF-β is among the inhibitory cytokines that suppress haematopoietic progenitor proliferation in the aplastic marrow, adding to the IFN-γ- and TNF-driven destruction of stem cells."
 ---
 
 # Aplastic Anemia
@@ -500,6 +509,9 @@ In >80% of acquired AA cases, the disease is **immune-mediated**: autoreactive *
 - `connects-to` → **[KIT](../../03-molecular/kit/README.md)** — Stem-cell survival: KIT and its ligand stem-cell factor sustain haematopoietic stem cells, the very cells the autoreactive T-cell attack of aplastic anaemia destroys, collapsing trilineage production.
 - `connects-to` → **[Caspase-3](../../03-molecular/caspase-3/README.md)** — Apoptotic destruction: autoreactive T cells kill stem and progenitor cells through Fas and IFN-γ that converge on caspase-3-mediated apoptosis, the executioner step of immune marrow failure.
 - `connects-to` → **[NLRP3 Inflammasome](../../03-molecular/nlrp3-inflammasome/README.md)** — Innate inflammation: NLRP3-inflammasome activation contributes to the inflammatory bone-marrow microenvironment that accompanies the immune-mediated stem-cell destruction of aplastic anaemia.
+- `connects-to` → **[MPL](../../03-molecular/mpl/README.md)** — Eltrombopag stimulates the thrombopoietin receptor MPL on surviving haematopoietic stem cells to restore trilineage production in aplastic anaemia—a therapy that works even though the underlying defect is immune-mediated destruction.
+- `connects-to` → **[STAT1](../../03-molecular/stat1/README.md)** — The IFN-γ that drives immune marrow failure in aplastic anaemia signals through STAT1 to suppress and kill haematopoietic stem cells, the intracellular transducer through which the autoreactive T-cell attack collapses haematopoiesis.
+- `connects-to` → **[TGF-β](../../03-molecular/tgf-beta/README.md)** — TGF-β is among the inhibitory cytokines that suppress haematopoietic progenitor proliferation in the aplastic marrow, adding to the IFN-γ- and TNF-driven destruction that empties the bone marrow.
 
 ---
 

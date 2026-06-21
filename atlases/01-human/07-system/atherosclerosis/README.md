@@ -301,6 +301,15 @@ cross_links:
   - target: 01-human/03-molecular/ifn-gamma
     relation: connects-to
     note: "Th1 plaque immunity: IFN-γ from plaque T cells activates macrophages and suppresses smooth-muscle collagen synthesis, thinning the fibrous cap and predisposing the plaque to rupture."
+  - target: 01-human/03-molecular/rage
+    relation: connects-to
+    note: "AGE/oxLDL signalling: RAGE on endothelium and macrophages senses advanced glycation end-products and oxidised LDL, amplifying NF-κB-driven plaque inflammation and explaining the accelerated atherosclerosis of diabetes."
+  - target: 01-human/03-molecular/caspase-3
+    relation: connects-to
+    note: "Necrotic-core formation: caspase-3-mediated apoptosis of plaque macrophages and smooth-muscle cells, when clearance fails, builds the lipid-rich necrotic core that makes an atherosclerotic plaque unstable and rupture-prone."
+  - target: 01-human/03-molecular/von-willebrand-factor
+    relation: connects-to
+    note: "Rupture thrombosis: when an atherosclerotic plaque ruptures, exposed subendothelium and released von Willebrand factor mediate the platelet adhesion that nucleates the occlusive thrombus of myocardial infarction and stroke."
 ---
 
 # Atherosclerosis
@@ -509,6 +518,9 @@ The process begins in childhood with **fatty streaks** and progresses silently o
 - `connects-to` → **[TLR4](../../03-molecular/tlr4/README.md)** — OxLDL sensing: TLR4 on plaque macrophages recognises oxidised LDL and other danger signals, igniting the NF-κB inflammation that converts lipid uptake into the chronic immune disease of atherosclerosis.
 - `connects-to` → **[S100A8/A9](../../03-molecular/s100a8-a9/README.md)** — Myeloid alarmin: S100A8/A9 from activated plaque neutrophils and monocytes amplifies vascular inflammation and circulates as a biomarker predicting atherosclerotic cardiovascular events.
 - `connects-to` → **[IFN-γ](../../03-molecular/ifn-gamma/README.md)** — Th1 plaque immunity: IFN-γ from plaque T cells activates macrophages and suppresses smooth-muscle collagen synthesis, thinning the fibrous cap and predisposing the plaque to rupture.
+- `connects-to` → **[RAGE](../../03-molecular/rage/README.md)** — RAGE on endothelium and macrophages senses advanced glycation end-products and oxidized LDL, amplifying the NF-κB-driven plaque inflammation that explains the accelerated, diffuse atherosclerosis of diabetes mellitus.
+- `connects-to` → **[Caspase-3](../../03-molecular/caspase-3/README.md)** — Caspase-3-mediated apoptosis of plaque macrophages and smooth-muscle cells, when efferocytic clearance fails, builds the lipid-rich necrotic core that makes an atherosclerotic plaque unstable and prone to rupture.
+- `connects-to` → **[von Willebrand factor](../../03-molecular/von-willebrand-factor/README.md)** — When an atherosclerotic plaque ruptures, exposed subendothelium and released von Willebrand factor mediate the platelet adhesion that nucleates the occlusive thrombus of myocardial infarction and ischemic stroke.
 
 ---
 
