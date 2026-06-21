@@ -286,6 +286,15 @@ cross_links:
   - target: 01-human/03-molecular/hif-1alpha
     relation: connects-to
     note: "Tumour hypoxia: HIF-1α stabilised in the hypoxic Wilms tumour drives the VEGF angiogenesis and erythropoietin production that can cause its polycythaemia."
+  - target: 01-human/03-molecular/cxcl12
+    relation: connects-to
+    note: "Pulmonary metastasis: CXCR4 on Wilms tumour cells follows CXCL12 gradients toward the lung, the dominant site of metastatic relapse that drives the staging and intensity of Wilms-tumour chemotherapy."
+  - target: 01-human/03-molecular/tgf-beta
+    relation: connects-to
+    note: "Blastemal stroma: TGF-β drives the mesenchymal-epithelial transitions and stromal differentiation of the triphasic Wilms tumour, shaping the blastemal, stromal and epithelial components that define its histology."
+  - target: 01-human/03-molecular/notch
+    relation: connects-to
+    note: "Reactivated nephrogenesis: Notch signalling, essential in normal kidney development, is reactivated in the blastemal cells of Wilms tumour, reflecting its origin as arrested, persistent embryonic nephrogenic tissue."
 ---
 
 # Wilms Tumor
@@ -504,6 +513,9 @@ Wilms tumor survivors face late effects proportional to treatment intensity:
 - `connects-to` → **[Cyclin D1](../../03-molecular/cyclin-d1/README.md)** — Cell-cycle drive: cyclin D1, upregulated downstream of Wnt/β-catenin and IGF signalling, propels Wilms tumour blastemal cells through the G1 checkpoint.
 - `connects-to` → **[CDK4/6](../../03-molecular/cdk4-6/README.md)** — Checkpoint bypass: CDK4/6 activity partnering cyclin D drives the proliferation of Wilms tumour, a candidate cell-cycle therapeutic target.
 - `connects-to` → **[HIF-1α](../../03-molecular/hif-1alpha/README.md)** — Tumour hypoxia: HIF-1α stabilised in the hypoxic Wilms tumour drives the VEGF angiogenesis and erythropoietin production that can cause its polycythaemia.
+- `connects-to` → **[CXCL12](../../03-molecular/cxcl12/README.md)** — CXCR4 on Wilms tumor cells follows CXCL12 gradients toward the lung, the dominant site of metastatic relapse that drives the staging and the intensity of the chemotherapy used in this otherwise highly curable childhood cancer.
+- `connects-to` → **[TGF-β](../../03-molecular/tgf-beta/README.md)** — TGF-β drives the mesenchymal-epithelial transitions and stromal differentiation of the triphasic Wilms tumor, shaping the blastemal, stromal, and epithelial components whose proportions define its histology and prognosis.
+- `connects-to` → **[Notch](../../03-molecular/notch/README.md)** — Notch signaling, essential in normal kidney development, is reactivated in the blastemal cells of Wilms tumor—reflecting its origin as arrested, persistent embryonic nephrogenic tissue (nephrogenic rests) that failed to mature.
 
 [^dome-2015-wilms]: Dome JS, Graf N, Geller JI, et al. Advances in Wilms tumor treatment and biology: progress through international collaboration. *J Clin Oncol.* 2015;33(27):2999-3007. [doi:10.1200/JCO.2015.62.1888](https://doi.org/10.1200/JCO.2015.62.1888) · [PubMed 26261251](https://pubmed.ncbi.nlm.nih.gov/26261251/)
 [^dix-2006-arenl0002]: Dix DB, Bhatt SM, Geller JI, et al. Treatment of Stage IV favorable histology Wilms tumor with incomplete lung metastasis response after chemotherapy: a report from Children's Oncology Group Study AREN0533. *J Clin Oncol.* 2018;36(16):1564-1570. [doi:10.1200/JCO.2017.77.1877](https://doi.org/10.1200/JCO.2017.77.1877) · [PubMed 29584550](https://pubmed.ncbi.nlm.nih.gov/29584550/)

@@ -292,6 +292,15 @@ cross_links:
   - target: 01-human/03-molecular/wnt-beta-catenin
     relation: connects-to
     note: "Re-epithelialisation: Wnt/β-catenin signalling drives the keratinocyte proliferation and migration that resurface the wound and regenerate skin appendages."
+  - target: 01-human/03-molecular/prostaglandins
+    relation: connects-to
+    note: "Inflammatory phase: prostaglandins produced at the wound drive the vasodilation, increased permeability and pain of the early inflammatory phase, which is why NSAIDs that block them can blunt the inflammation needed for normal healing."
+  - target: 01-human/03-molecular/periostin
+    relation: connects-to
+    note: "Matricellular remodelling: periostin secreted by activated fibroblasts organises collagen cross-linking and myofibroblast differentiation in the proliferative and remodelling phases, supporting wound contraction and matrix maturation."
+  - target: 01-human/03-molecular/substance-p
+    relation: connects-to
+    note: "Neurogenic healing: sensory-nerve-derived substance P promotes the angiogenesis and inflammatory cell recruitment of healing, and its loss in denervated or diabetic skin is a key reason those wounds heal poorly."
 ---
 
 # Wound Healing
@@ -502,6 +511,9 @@ cross_links:
 - `connects-to` → **[CCL2](../../03-molecular/ccl2/README.md)** — Macrophage recruitment: CCL2 draws monocytes into the wound, where they mature into the macrophages that clear debris and orchestrate the transition from inflammation to repair.
 - `connects-to` → **[IL-10](../../03-molecular/il-10/README.md)** — Resolution phase: IL-10 dampens the inflammatory phase and promotes scarless, regenerative healing, and its deficiency biases wounds toward excessive scarring.
 - `connects-to` → **[Wnt/β-catenin](../../03-molecular/wnt-beta-catenin/README.md)** — Re-epithelialisation: Wnt/β-catenin signalling drives the keratinocyte proliferation and migration that resurface the wound and regenerate skin appendages.
+- `connects-to` → **[Prostaglandins](../../03-molecular/prostaglandins/README.md)** — Prostaglandins produced at the wound drive the vasodilation, increased permeability, and pain of the early inflammatory phase—which is why NSAIDs that block their synthesis can blunt the controlled inflammation that normal healing requires.
+- `connects-to` → **[Periostin](../../03-molecular/periostin/README.md)** — Periostin secreted by activated fibroblasts organizes collagen cross-linking and myofibroblast differentiation in the proliferative and remodeling phases, supporting the wound contraction and matrix maturation that restore tissue strength.
+- `connects-to` → **[Substance P](../../03-molecular/substance-p/README.md)** — Sensory-nerve-derived substance P promotes the angiogenesis and inflammatory-cell recruitment of healing, and its loss in denervated or diabetic skin is a key reason those wounds become chronic and heal so poorly.
 
 [^singer-1999-wound-healing-review]: Singer AJ, Clark RA. Cutaneous wound healing. *N Engl J Med.* 1999;341(10):738-746. [doi:10.1056/NEJM199909023411006](https://doi.org/10.1056/NEJM199909023411006) · [PubMed 10471461](https://pubmed.ncbi.nlm.nih.gov/10471461/)
 [^gurtner-2008-wound-repair-regeneration]: Gurtner GC, Werner S, Barrandon Y, Longaker MT. Wound repair and regeneration. *Nature.* 2008;453(7193):314-321. [doi:10.1038/nature07039](https://doi.org/10.1038/nature07039) · [PubMed 18480812](https://pubmed.ncbi.nlm.nih.gov/18480812/)
