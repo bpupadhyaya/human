@@ -286,6 +286,15 @@ cross_links:
   - target: 01-human/03-molecular/ntrk
     relation: connects-to
     note: "Rare actionable fusion: NTRK fusions, though uncommon, render some diffuse midline gliomas sensitive to TRK inhibitors, a precision-oncology option for this otherwise untreatable tumour."
+  - target: 01-human/03-molecular/ccl2
+    relation: connects-to
+    note: "Myeloid microenvironment: CCL2 recruits microglia and monocyte-derived macrophages that dominate the diffuse midline glioma microenvironment, supporting an immunosuppressive niche resistant to immunotherapy."
+  - target: 01-human/03-molecular/erk1-2
+    relation: connects-to
+    note: "RTK-MAPK signalling: RAS-RAF-ERK signalling downstream of PDGFRA and EGFR amplification drives proliferation in diffuse midline glioma, complementing its defining H3K27M epigenetic reprogramming."
+  - target: 01-human/03-molecular/e2f1
+    relation: connects-to
+    note: "Cell-cycle deregulation: CDKN2A loss and CDK4/6 activity unleash E2F1-driven cell-cycle entry in diffuse midline glioma, sustaining the relentless proliferation of this lethal tumour."
 ---
 
 # Diffuse Midline Glioma
@@ -514,6 +523,9 @@ Direct infusion of drugs into the pons via stereotactic catheter; bypasses BBB; 
 - `connects-to` → **[HIF-1α](../../03-molecular/hif-1alpha/README.md)** — Hypoxic pons: HIF-1α stabilised in the hypoxic, infiltrative diffuse midline glioma drives the VEGF angiogenesis and metabolic adaptation that support its growth in the brainstem.
 - `connects-to` → **[MET](../../03-molecular/met/README.md)** — Receptor amplification: MET amplification occurs in a subset of diffuse midline gliomas, marking an actionable receptor tyrosine kinase alongside the defining H3K27M epigenetic lesion.
 - `connects-to` → **[NTRK](../../03-molecular/ntrk/README.md)** — Rare actionable fusion: NTRK fusions, though uncommon, render some diffuse midline gliomas sensitive to TRK inhibitors, a precision-oncology option for this otherwise untreatable tumour.
+- `connects-to` → **[CCL2](../../03-molecular/ccl2/README.md)** — Myeloid microenvironment: CCL2 recruits microglia and monocyte-derived macrophages that dominate the diffuse midline glioma microenvironment, supporting an immunosuppressive niche resistant to immunotherapy.
+- `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — RTK-MAPK signalling: RAS-RAF-ERK signalling downstream of PDGFRA and EGFR amplification drives proliferation in diffuse midline glioma, complementing its defining H3K27M epigenetic reprogramming.
+- `connects-to` → **[E2F1](../../03-molecular/e2f1/README.md)** — Cell-cycle deregulation: CDKN2A loss and CDK4/6 activity unleash E2F1-driven cell-cycle entry in diffuse midline glioma, sustaining the relentless proliferation of this lethal tumour.
 
 ---
 

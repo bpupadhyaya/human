@@ -286,6 +286,15 @@ cross_links:
   - target: 01-human/03-molecular/ezh2
     relation: connects-to
     note: "Epigenetic dysregulation: disrupted microRNA processing in DICER1 syndrome derepresses EZH2 and other chromatin regulators, contributing to the embryonal tumour phenotype."
+  - target: 01-human/03-molecular/activin-a
+    relation: connects-to
+    note: "Sex-cord stromal tumours: the activin-inhibin axis of gonadal stromal cells underlies the Sertoli-Leydig cell tumours of DICER1 syndrome, whose inhibin secretion serves as a tumour biomarker."
+  - target: 01-human/03-molecular/thyroid-hormones
+    relation: connects-to
+    note: "Thyroid neoplasia: DICER1 syndrome predisposes to multinodular goitre and differentiated thyroid carcinoma, one of the most common and earliest manifestations of the disorder."
+  - target: 01-human/03-molecular/akt
+    relation: connects-to
+    note: "Survival signalling: PI3K-AKT activation cooperates with the microRNA-processing defect of DICER1 syndrome to support the growth and survival of its diverse embryonal and stromal tumours."
 ---
 
 # DICER1 Syndrome
@@ -490,6 +499,9 @@ When a child is found to have a thoracic cystic lesion, DICER1 syndrome should b
 - `connects-to` → **[Cyclin D1](../../03-molecular/cyclin-d1/README.md)** — Cell-cycle drive: loss of let-7 microRNA control from DICER1 dysfunction derepresses cyclin D and the cell-cycle machinery, accelerating proliferation in DICER1-associated tumours.
 - `connects-to` → **[HIF-1α](../../03-molecular/hif-1alpha/README.md)** — Tumour hypoxia: HIF-1α stabilised in growing DICER1-associated tumours such as pleuropulmonary blastoma drives the VEGF angiogenesis that supports their expansion.
 - `connects-to` → **[EZH2](../../03-molecular/ezh2/README.md)** — Epigenetic dysregulation: disrupted microRNA processing in DICER1 syndrome derepresses EZH2 and other chromatin regulators, contributing to the embryonal tumour phenotype.
+- `connects-to` → **[Activin A](../../03-molecular/activin-a/README.md)** — Sex-cord stromal tumours: the activin-inhibin axis of gonadal stromal cells underlies the Sertoli-Leydig cell tumours of DICER1 syndrome, whose inhibin secretion serves as a tumour biomarker.
+- `connects-to` → **[Thyroid Hormones](../../03-molecular/thyroid-hormones/README.md)** — Thyroid neoplasia: DICER1 syndrome predisposes to multinodular goitre and differentiated thyroid carcinoma, one of the most common and earliest manifestations of the disorder.
+- `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — Survival signalling: PI3K-AKT activation cooperates with the microRNA-processing defect of DICER1 syndrome to support the growth and survival of its diverse embryonal and stromal tumours.
 
 ---
 
