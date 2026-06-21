@@ -295,6 +295,15 @@ cross_links:
   - target: 01-human/03-molecular/ccl2
     relation: connects-to
     note: "Nurse-like cells: CLL cells secrete CCL2 that recruits and polarises the nurse-like macrophages of the lymph-node niche, which in turn protect the leukaemic cells from apoptosis."
+  - target: 01-human/03-molecular/sf3b1
+    relation: connects-to
+    note: "Splicing-factor mutation: recurrent SF3B1 mutations corrupt mRNA splicing across the genome in CLL and mark a more aggressive, adverse-prognosis subset of the disease."
+  - target: 01-human/03-molecular/src-kinase
+    relation: connects-to
+    note: "BCR-proximal kinase: Src-family kinases such as LYN transduce the chronic B-cell-receptor signal upstream of BTK that drives CLL survival, the proximal node of the pathway BTK inhibitors target downstream."
+  - target: 01-human/03-molecular/tert
+    relation: connects-to
+    note: "Telomere dynamics: short telomeres and telomerase reactivation mark the genomically unstable, rapidly proliferating CLL clones and correlate with the adverse outcomes of the disease."
 ---
 
 # CLL
@@ -500,6 +509,9 @@ BCR cross-linking → LYN (SRC kinase) phosphorylates CD79a/b ITAMs → SYK recr
 - `connects-to` → **[PIK3CA](../../03-molecular/pik3ca/README.md)** — PI3Kδ signalling: chronic B-cell-receptor signalling through PI3K (especially the δ isoform) sustains CLL cell survival, the target of idelalisib and duvelisib in the disease.
 - `connects-to` → **[MYC](../../03-molecular/myc/README.md)** — Richter transformation: MYC activation drives the transformation of CLL into aggressive diffuse large B-cell lymphoma (Richter syndrome), a feared and poor-prognosis evolution of the disease.
 - `connects-to` → **[CCL2](../../03-molecular/ccl2/README.md)** — Nurse-like cells: CLL cells secrete CCL2 that recruits and polarises the nurse-like macrophages of the lymph-node niche, which in turn protect the leukaemic cells from apoptosis.
+- `connects-to` → **[SF3B1](../../03-molecular/sf3b1/README.md)** — Recurrent SF3B1 mutations corrupt mRNA splicing across the genome in CLL and mark a more aggressive, adverse-prognosis subset—one of the recurrently mutated drivers that refine risk beyond the classic cytogenetic markers.
+- `connects-to` → **[Src kinase](../../03-molecular/src-kinase/README.md)** — Src-family kinases such as LYN transduce the chronic B-cell-receptor signal upstream of BTK that drives CLL survival, the proximal node of the very pathway that BTK inhibitors block further downstream.
+- `connects-to` → **[TERT](../../03-molecular/tert/README.md)** — Short telomeres and telomerase reactivation mark the genomically unstable, rapidly proliferating CLL clones and correlate with the adverse outcomes and richter-transformation risk of the disease.
 
 ---
 

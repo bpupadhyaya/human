@@ -295,6 +295,15 @@ cross_links:
   - target: 01-human/03-molecular/runx1
     relation: connects-to
     note: "Blast-crisis transformation: acquired RUNX1 alterations contribute to the progression of chronic-phase CML to the aggressive, treatment-resistant blast crisis."
+  - target: 01-human/03-molecular/smo
+    relation: connects-to
+    note: "Stem-cell maintenance: Hedgehog signalling through Smoothened sustains the leukaemic stem cells that persist beneath TKI therapy in CML, the reservoir responsible for relapse after treatment discontinuation."
+  - target: 01-human/03-molecular/caspase-3
+    relation: connects-to
+    note: "TKI-induced apoptosis: imatinib and later BCR-ABL inhibitors kill CML cells by relieving the fusion kinase's block on caspase-3-mediated apoptosis, restoring the cell-death programme the oncoprotein suppresses."
+  - target: 01-human/03-molecular/tert
+    relation: connects-to
+    note: "Telomere shortening: progressive telomere attrition and telomerase changes accompany the evolution of chronic-phase CML toward blast crisis, reflecting the genomic instability of disease progression."
 ---
 
 # Chronic Myeloid Leukemia
@@ -500,6 +509,9 @@ Following the imatinib revolution, the current frontier is achieving **deep mole
 - `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — RAS-ERK signalling: BCR-ABL constitutively activates the RAS-RAF-ERK cascade, a key proliferative output of the fusion kinase driving the myeloid expansion of chronic myeloid leukaemia.
 - `connects-to` → **[CXCL12](../../03-molecular/cxcl12/README.md)** — Stem-cell niche: CXCL12-CXCR4 signalling anchors leukaemic stem cells in the protective marrow niche, a sanctuary that shelters quiescent CML cells from tyrosine-kinase inhibitors.
 - `connects-to` → **[RUNX1](../../03-molecular/runx1/README.md)** — Blast-crisis transformation: acquired RUNX1 alterations contribute to the progression of chronic-phase CML to the aggressive, treatment-resistant blast crisis.
+- `connects-to` → **[SMO](../../03-molecular/smo/README.md)** — Hedgehog signaling through Smoothened sustains the leukemic stem cells that persist beneath TKI therapy in CML, the quiescent reservoir responsible for molecular relapse after treatment-free-remission attempts.
+- `connects-to` → **[Caspase-3](../../03-molecular/caspase-3/README.md)** — Imatinib and later BCR-ABL inhibitors kill CML cells by relieving the fusion kinase's block on caspase-3-mediated apoptosis, restoring the cell-death program the oncoprotein suppresses to drive the leukemia.
+- `connects-to` → **[TERT](../../03-molecular/tert/README.md)** — Progressive telomere attrition and telomerase changes accompany the evolution of chronic-phase CML toward blast crisis, reflecting the accumulating genomic instability of disease progression.
 
 ---
 
