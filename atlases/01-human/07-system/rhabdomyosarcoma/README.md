@@ -286,6 +286,15 @@ cross_links:
   - target: 01-human/03-molecular/hif-1alpha
     relation: connects-to
     note: "Tumour hypoxia: HIF-1α stabilised in the hypoxic rhabdomyosarcoma drives angiogenesis and an aggressive, metastatic phenotype."
+  - target: 01-human/03-molecular/ezh2
+    relation: connects-to
+    note: "Epigenetic block: EZH2, a PAX3-FOXO1 target, is overexpressed in rhabdomyosarcoma where it silences the myogenic-differentiation genes that would otherwise mature the cells out of the cycle — an emerging epigenetic target."
+  - target: 01-human/03-molecular/cxcl12
+    relation: connects-to
+    note: "Bone-marrow metastasis: PAX3-FOXO1 induces CXCR4, so alveolar rhabdomyosarcoma cells follow CXCL12 gradients to the bone marrow, explaining the marrow involvement that marks the disseminated disease of fusion-positive tumours."
+  - target: 01-human/03-molecular/myostatin
+    relation: connects-to
+    note: "Arrested myogenesis: rhabdomyosarcoma is skeletal-muscle differentiation frozen mid-programme, and myostatin signalling — a normal brake on muscle growth — is part of the myogenic regulatory network dysregulated in these tumours."
 ---
 
 # Rhabdomyosarcoma
@@ -503,6 +512,9 @@ Maximal safe resection with negative margins (R0) wherever achievable without mu
 - `connects-to` → **[Cyclin D1](../../03-molecular/cyclin-d1/README.md)** — Cell-cycle drive: with CDKN2A loss in many tumours, cyclin D-CDK4/6 activity propels rhabdomyosarcoma cells through the G1 checkpoint.
 - `connects-to` → **[PDGF](../../03-molecular/pdgf/README.md)** — Growth-factor signalling: PDGFR, a target of the PAX3-FOXO1 fusion, drives the proliferation of alveolar rhabdomyosarcoma, a candidate therapeutic axis.
 - `connects-to` → **[HIF-1α](../../03-molecular/hif-1alpha/README.md)** — Tumour hypoxia: HIF-1α stabilised in the hypoxic rhabdomyosarcoma drives angiogenesis and an aggressive, metastatic phenotype.
+- `connects-to` → **[EZH2](../../03-molecular/ezh2/README.md)** — EZH2, a PAX3-FOXO1 target, is overexpressed in rhabdomyosarcoma where it silences the myogenic-differentiation genes that would otherwise mature cells out of the cycle—an emerging epigenetic target to release the differentiation block.
+- `connects-to` → **[CXCL12](../../03-molecular/cxcl12/README.md)** — PAX3-FOXO1 induces CXCR4, so alveolar rhabdomyosarcoma cells follow CXCL12 gradients to the bone marrow—explaining the marrow involvement that marks the disseminated, poor-prognosis disease of fusion-positive tumors.
+- `connects-to` → **[Myostatin](../../03-molecular/myostatin/README.md)** — Rhabdomyosarcoma is skeletal-muscle differentiation frozen mid-program, and myostatin signaling—a normal brake on muscle growth—is part of the myogenic regulatory network dysregulated in these tumors of striated-muscle lineage.
 
 [^crist-2001-irs4-rms]: Crist WM, Anderson JR, Meza JL, et al. Intergroup rhabdomyosarcoma study-IV: results for patients with nonmetastatic disease. *J Clin Oncol.* 2001;19(12):3091-3102. [doi:10.1200/JCO.2001.19.12.3091](https://doi.org/10.1200/JCO.2001.19.12.3091) · [PubMed 11408506](https://pubmed.ncbi.nlm.nih.gov/11408506/)
 [^oberlin-2012-mmt95-rms]: Oberlin O, Rey A, Sanchez de Toledo J, et al. Randomized comparison of intensified six-drug versus standard three-drug chemotherapy for high-risk nonmetastatic rhabdomyosarcoma and other chemotherapy-sensitive childhood soft tissue sarcomas. *J Clin Oncol.* 2012;30(19):2457-2465. [doi:10.1200/JCO.2011.39.3538](https://doi.org/10.1200/JCO.2011.39.3538) · [PubMed 22665546](https://pubmed.ncbi.nlm.nih.gov/22665546/)

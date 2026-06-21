@@ -286,6 +286,15 @@ cross_links:
   - target: 01-human/03-molecular/hif-1alpha
     relation: connects-to
     note: "Tumour hypoxia: HIF-1α stabilised in the hypoxic intraocular retinoblastoma drives the VEGF angiogenesis that supports its growth within the eye."
+  - target: 01-human/03-molecular/caspase-3
+    relation: connects-to
+    note: "Apoptotic evasion: retinoblastoma resists caspase-3-mediated apoptosis through high BCL-2 and survivin, the basis for chemoresistance and the rationale for pro-apoptotic agents added to intra-arterial chemotherapy."
+  - target: 01-human/03-molecular/cxcl12
+    relation: connects-to
+    note: "CNS dissemination: CXCR4 on retinoblastoma cells responds to CXCL12 gradients along the optic nerve and meninges, contributing to the extraocular and central-nervous-system spread that worsens prognosis."
+  - target: 01-human/03-molecular/osteopontin
+    relation: connects-to
+    note: "Invasion marker: osteopontin is upregulated in retinoblastoma and correlates with optic-nerve invasion, the key histological feature that signals high-risk disease and the need for adjuvant chemotherapy."
 ---
 
 # Retinoblastoma
@@ -488,6 +497,9 @@ Standard regimen: **vincristine + carboplatin + etoposide (VCE)**, 6 cycles; red
 - `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — Survival signalling: PI3K/AKT activation helps retinoblastoma cells survive and proliferate downstream of RB1 loss, a candidate combination target.
 - `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — Growth-signal hub: mTOR drives the protein synthesis and growth of retinoblastoma cells, integrating the proliferative signalling unleashed by RB1 inactivation.
 - `connects-to` → **[HIF-1α](../../03-molecular/hif-1alpha/README.md)** — Tumour hypoxia: HIF-1α stabilised in the hypoxic intraocular retinoblastoma drives the VEGF angiogenesis that supports its growth within the eye.
+- `connects-to` → **[Caspase-3](../../03-molecular/caspase-3/README.md)** — Retinoblastoma resists caspase-3-mediated apoptosis through high BCL-2 and survivin expression, the basis for its chemoresistance and the rationale for pro-apoptotic agents added to the intra-arterial chemotherapy used to salvage eyes.
+- `connects-to` → **[CXCL12](../../03-molecular/cxcl12/README.md)** — CXCR4 on retinoblastoma cells responds to CXCL12 gradients along the optic nerve and meninges, contributing to the extraocular and central-nervous-system spread that transforms a curable intraocular tumor into life-threatening disease.
+- `connects-to` → **[Osteopontin](../../03-molecular/osteopontin/README.md)** — Osteopontin is upregulated in retinoblastoma and correlates with optic-nerve invasion—the key histological feature that signals high-risk disease and dictates whether adjuvant chemotherapy is needed after enucleation.
 
 [^knudson-1971-two-hit]: Knudson AG Jr. Mutation and cancer: statistical study of retinoblastoma. *Proc Natl Acad Sci USA.* 1971;68(4):820-823. [doi:10.1073/pnas.68.4.820](https://doi.org/10.1073/pnas.68.4.820) · [PubMed 5279523](https://pubmed.ncbi.nlm.nih.gov/5279523/)
 [^shields-2008-retinoblastoma]: Shields CL, Shields JA. Retinoblastoma management: advances in enucleation, intravenous chemoreduction, and intra-arterial chemotherapy. *Curr Opin Ophthalmol.* 2010;21(3):203-212. [doi:10.1097/ICU.0b013e328338676a](https://doi.org/10.1097/ICU.0b013e328338676a) · [PubMed 20224400](https://pubmed.ncbi.nlm.nih.gov/20224400/)
