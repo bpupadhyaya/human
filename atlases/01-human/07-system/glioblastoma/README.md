@@ -286,6 +286,15 @@ cross_links:
   - target: 01-human/03-molecular/ezh2
     relation: connects-to
     note: "Epigenetic stemness: EZH2 enforces the repressive chromatin state of glioblastoma stem cells, an epigenetic dependency promoting self-renewal and therapy resistance."
+  - target: 01-human/03-molecular/ccl2
+    relation: connects-to
+    note: "Myeloid dominance: CCL2 recruits microglia and monocyte-derived macrophages that make up much of the glioblastoma mass, building the profoundly immunosuppressive microenvironment that defeats immunotherapy."
+  - target: 01-human/03-molecular/tgf-beta
+    relation: connects-to
+    note: "Immunosuppression and invasion: TGF-beta secreted by glioblastoma suppresses anti-tumour T cells and promotes the diffuse infiltration that makes the tumour impossible to fully resect."
+  - target: 01-human/03-molecular/erk1-2
+    relation: connects-to
+    note: "RTK-RAS-MAPK: ERK signalling downstream of EGFR amplification and PDGFRA drives glioblastoma proliferation, a core mitogenic output of its receptor-tyrosine-kinase lesions."
 ---
 
 # Glioblastoma
@@ -505,6 +514,9 @@ The blood-brain barrier (BBB) creates a pharmacological challenge:
 - `connects-to` → **[MYC](../../03-molecular/myc/README.md)** — Stemness oncogene: MYC sustains the glioblastoma stem cells and their biosynthetic, proliferative programme, a downstream hub of its many growth-factor pathways.
 - `connects-to` → **[Cyclin D1](../../03-molecular/cyclin-d1/README.md)** — Cell-cycle drive: with CDKN2A loss and CDK4 amplification frequent in glioblastoma, cyclin D-CDK4/6 activity drives unrestrained passage through the G1 checkpoint.
 - `connects-to` → **[EZH2](../../03-molecular/ezh2/README.md)** — Epigenetic stemness: EZH2 enforces the repressive chromatin state of glioblastoma stem cells, an epigenetic dependency promoting self-renewal and therapy resistance.
+- `connects-to` → **[CCL2](../../03-molecular/ccl2/README.md)** — Myeloid dominance: CCL2 recruits microglia and monocyte-derived macrophages that make up much of the glioblastoma mass, building the profoundly immunosuppressive microenvironment that defeats immunotherapy.
+- `connects-to` → **[TGF-beta](../../03-molecular/tgf-beta/README.md)** — Immunosuppression and invasion: TGF-beta secreted by glioblastoma suppresses anti-tumour T cells and promotes the diffuse infiltration that makes the tumour impossible to fully resect.
+- `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — RTK-RAS-MAPK: ERK signalling downstream of EGFR amplification and PDGFRA drives glioblastoma proliferation, a core mitogenic output of its receptor-tyrosine-kinase lesions.
 
 ---
 

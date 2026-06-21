@@ -286,6 +286,15 @@ cross_links:
   - target: 01-human/03-molecular/tert
     relation: connects-to
     note: "Malignant progression: TERT promoter mutations and reactivation mark the progression of GIST toward higher-grade, metastatic behaviour."
+  - target: 01-human/03-molecular/cdkn2a
+    relation: connects-to
+    note: "Progression and resistance: CDKN2A deletion releases the cell-cycle brake in GIST, marking malignant progression and contributing to resistance to KIT-targeted imatinib therapy."
+  - target: 01-human/03-molecular/p53
+    relation: connects-to
+    note: "High-risk transformation: TP53 alterations accumulate as GIST progresses from low-risk to high-grade, metastatic disease, beyond the initiating KIT or PDGFRA mutation."
+  - target: 01-human/03-molecular/ccl2
+    relation: connects-to
+    note: "Macrophage microenvironment: CCL2 recruits tumour-associated macrophages into the GIST stroma, shaping a microenvironment that supports tumour growth and modulates response to therapy."
 ---
 
 # GIST
@@ -506,6 +515,9 @@ No approved targeted therapy; sunitinib may have modest activity; clinical trial
 - `connects-to` → **[EZH2](../../03-molecular/ezh2/README.md)** — Epigenetic silencing: EZH2-mediated PRC2 repression of tumour-suppressor genes contributes to GIST progression, an epigenetic vulnerability under study.
 - `connects-to` → **[MYC](../../03-molecular/myc/README.md)** — Downstream oncogene: KIT/PDGFRA signalling activates MYC in GIST, driving the biosynthetic and proliferative programme of the tumour.
 - `connects-to` → **[TERT](../../03-molecular/tert/README.md)** — Malignant progression: TERT promoter mutations and reactivation mark the progression of GIST toward higher-grade, metastatic behaviour.
+- `connects-to` → **[CDKN2A](../../03-molecular/cdkn2a/README.md)** — Progression and resistance: CDKN2A deletion releases the cell-cycle brake in GIST, marking malignant progression and contributing to resistance to KIT-targeted imatinib therapy.
+- `connects-to` → **[p53](../../03-molecular/p53/README.md)** — High-risk transformation: TP53 alterations accumulate as GIST progresses from low-risk to high-grade, metastatic disease, beyond the initiating KIT or PDGFRA mutation.
+- `connects-to` → **[CCL2](../../03-molecular/ccl2/README.md)** — Macrophage microenvironment: CCL2 recruits tumour-associated macrophages into the GIST stroma, shaping a microenvironment that supports tumour growth and modulates response to therapy.
 
 ---
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
