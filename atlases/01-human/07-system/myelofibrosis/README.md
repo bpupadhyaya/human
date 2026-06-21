@@ -289,6 +289,15 @@ cross_links:
   - target: 01-human/03-molecular/osteopontin
     relation: connects-to
     note: "Matrix and osteosclerosis: osteopontin released by megakaryocytes and stroma contributes to the marrow fibrosis and the osteosclerosis that thickens trabecular bone in advanced myelofibrosis."
+  - target: 01-human/03-molecular/pf4
+    relation: connects-to
+    note: "Profibrotic chemokine: platelet factor 4 (CXCL4) released by the abnormal megakaryocytes of myelofibrosis is a direct driver of fibroblast activation and collagen deposition, central to the reticulin and collagen marrow fibrosis."
+  - target: 01-human/03-molecular/bcl-2
+    relation: connects-to
+    note: "Apoptotic dependency: the malignant clone of myelofibrosis depends on BCL-xL/BCL-2 for survival, the rationale for adding the BCL-2/BCL-xL inhibitor navitoclax to ruxolitinib in JAK-inhibitor-refractory disease."
+  - target: 01-human/03-molecular/rankl
+    relation: connects-to
+    note: "Osteosclerosis: dysregulated RANKL-driven osteoclast and osteoblast activity contributes to the osteosclerosis that thickens and remodels trabecular bone in advanced myelofibrosis, narrowing the marrow space."
 ---
 
 # Myelofibrosis
@@ -507,6 +516,9 @@ Abrupt ruxolitinib cessation → cytokine rebound → fever, splenomegaly surge,
 - `connects-to` → **[IL-1β](../../03-molecular/il-1b/README.md)** — Niche-damaging cytokine: IL-1β secreted by the mutant clone injures the bone-marrow mesenchymal niche and drives the inflammatory cytokine milieu that promotes fibrosis in myelofibrosis.
 - `connects-to` → **[TNF-α](../../03-molecular/tnf-alpha/README.md)** — Clonal selective advantage: TNF-α in the myelofibrosis marrow suppresses normal progenitors while JAK2-mutant cells resist it, giving the malignant clone a growth edge amid chronic inflammation.
 - `connects-to` → **[Osteopontin](../../03-molecular/osteopontin/README.md)** — Matrix and osteosclerosis: osteopontin released by megakaryocytes and stroma contributes to the marrow fibrosis and the osteosclerosis that thickens trabecular bone in advanced myelofibrosis.
+- `connects-to` → **[PF4](../../03-molecular/pf4/README.md)** — Platelet factor 4 (CXCL4) released by the abnormal megakaryocytes of myelofibrosis is a direct driver of fibroblast activation and collagen deposition—a key megakaryocyte-to-stroma signal behind the reticulin and collagen marrow fibrosis that defines the disease.
+- `connects-to` → **[BCL-2](../../03-molecular/bcl-2/README.md)** — The malignant clone of myelofibrosis depends on BCL-xL/BCL-2 for survival, the rationale for adding the BCL-2/BCL-xL inhibitor navitoclax to ruxolitinib in patients whose disease progresses on JAK inhibition alone.
+- `connects-to` → **[RANKL](../../03-molecular/rankl/README.md)** — Dysregulated RANKL-driven osteoclast and osteoblast activity contributes to the osteosclerosis that thickens and remodels trabecular bone in advanced myelofibrosis, further narrowing the marrow space and worsening cytopenias.
 
 ---
 

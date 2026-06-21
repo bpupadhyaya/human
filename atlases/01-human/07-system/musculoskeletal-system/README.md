@@ -287,6 +287,15 @@ cross_links:
   - target: 01-human/03-molecular/vegf
     relation: connects-to
     note: "Skeletal angiogenesis: VEGF couples blood-vessel growth to endochondral ossification and fracture repair, and supplies the capillary network that sustains skeletal muscle."
+  - target: 01-human/03-molecular/calcitonin
+    relation: connects-to
+    note: "Osteoclast brake: calcitonin from thyroid C cells directly inhibits osteoclast bone resorption and lowers serum calcium, a counterweight to PTH in the calcium and bone-remodelling balance of the skeleton."
+  - target: 01-human/03-molecular/prostaglandins
+    relation: connects-to
+    note: "Remodelling and repair: prostaglandins (PGE2) regulate bone formation and resorption and are essential for fracture healing, which is why NSAIDs that block their synthesis can impair bone union."
+  - target: 01-human/03-molecular/nitric-oxide
+    relation: connects-to
+    note: "Mechanotransduction: osteocytes release nitric oxide in response to mechanical loading, the signal that translates weight-bearing exercise into the bone formation that maintains skeletal strength."
 ---
 
 # Musculoskeletal System
@@ -513,6 +522,9 @@ Chronic exercise drives profound musculoskeletal remodelling [^guyton-hall]:
 - `connects-to` → **[Osteopontin](../../03-molecular/osteopontin/README.md)** — Bone matrix glue: osteopontin in the mineralised matrix anchors osteoclasts to bone for resorption and regulates mineralisation, a key non-collagenous protein of skeletal remodelling.
 - `connects-to` → **[Thyroid Hormones](../../03-molecular/thyroid-hormones/README.md)** — Turnover and muscle tone: thyroid hormones set the pace of bone remodelling and skeletal-muscle metabolism, so thyroid excess accelerates bone loss and causes myopathy across the musculoskeletal system.
 - `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — Skeletal angiogenesis: VEGF couples blood-vessel growth to endochondral ossification and fracture repair, and supplies the capillary network that sustains skeletal muscle.
+- `connects-to` → **[Calcitonin](../../03-molecular/calcitonin/README.md)** — Calcitonin from thyroid C cells directly inhibits osteoclast bone resorption and lowers serum calcium, the physiological counterweight to PTH in the calcium and bone-remodeling balance that maintains the skeleton.
+- `connects-to` → **[Prostaglandins](../../03-molecular/prostaglandins/README.md)** — Prostaglandins (PGE2) regulate bone formation and resorption and are essential for fracture healing, which is why NSAIDs that block their synthesis can impair bone union and are used cautiously after fractures.
+- `connects-to` → **[Nitric oxide](../../03-molecular/nitric-oxide/README.md)** — Osteocytes release nitric oxide in response to mechanical loading, the signal that translates weight-bearing exercise into the bone formation maintaining skeletal strength—and whose loss with disuse drives bone loss.
 
 ## Pathology
 
