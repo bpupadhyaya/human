@@ -286,6 +286,15 @@ cross_links:
   - target: 01-human/03-molecular/vegf
     relation: connects-to
     note: "Bronchial angiogenesis: chronic inflammation in cystic fibrosis raises VEGF, expanding tortuous bronchial vessels that are the source of the life-threatening haemoptysis of advanced disease."
+  - target: 01-human/03-molecular/s100a8-a9
+    relation: connects-to
+    note: "Neutrophil alarmin: S100A8/A9 from the neutrophils flooding cystic-fibrosis airways amplifies inflammation, and sputum calprotectin tracks the burden of airway disease and exacerbations."
+  - target: 01-human/03-molecular/autophagy
+    relation: connects-to
+    note: "Misfolded-CFTR proteostasis: the ΔF508 CFTR mutant is cleared by autophagy and ERAD, and impaired autophagy in cystic fibrosis lets the misfolded protein and aggregates accumulate, worsening inflammation."
+  - target: 01-human/03-molecular/rankl
+    relation: connects-to
+    note: "CF bone disease: chronic inflammation, malabsorption and corticosteroid use drive RANKL-mediated bone resorption, causing the osteoporosis and fractures common in adults with cystic fibrosis."
 ---
 
 # Cystic Fibrosis
@@ -503,6 +512,9 @@ AND
 - `connects-to` → **[CCL2](../../03-molecular/ccl2/README.md)** — Inflammatory cell recruitment: CCL2 draws monocytes into cystic-fibrosis airways, adding to the relentless neutrophil-dominated inflammation that destroys the lung.
 - `connects-to` → **[HIF-1α](../../03-molecular/hif-1alpha/README.md)** — Mucus-plug hypoxia: thick mucus and Pseudomonas biofilms create steep oxygen gradients in cystic-fibrosis airways, stabilising HIF-1α in epithelial and immune cells.
 - `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — Bronchial angiogenesis: chronic inflammation in cystic fibrosis raises VEGF, expanding tortuous bronchial vessels that are the source of the life-threatening haemoptysis of advanced disease.
+- `connects-to` → **[S100A8/A9](../../03-molecular/s100a8-a9/README.md)** — Neutrophil alarmin: S100A8/A9 from the neutrophils flooding cystic-fibrosis airways amplifies inflammation, and sputum calprotectin tracks the burden of airway disease and exacerbations.
+- `connects-to` → **[Autophagy](../../03-molecular/autophagy/README.md)** — Misfolded-CFTR proteostasis: the ΔF508 CFTR mutant is cleared by autophagy and ERAD, and impaired autophagy in cystic fibrosis lets the misfolded protein and aggregates accumulate, worsening inflammation.
+- `connects-to` → **[RANKL](../../03-molecular/rankl/README.md)** — CF bone disease: chronic inflammation, malabsorption and corticosteroid use drive RANKL-mediated bone resorption, causing the osteoporosis and fractures common in adults with cystic fibrosis.
 
 ---
 

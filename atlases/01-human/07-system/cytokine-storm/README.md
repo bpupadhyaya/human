@@ -286,6 +286,15 @@ cross_links:
   - target: 01-human/03-molecular/hif-1alpha
     relation: connects-to
     note: "Shock and hypoxia: the circulatory collapse and tissue hypoxia of severe cytokine storm stabilise HIF-1α, which further amplifies inflammatory gene expression in a vicious cycle."
+  - target: 01-human/03-molecular/ccl2
+    relation: connects-to
+    note: "Monocyte mobilisation: CCL2 floods the circulation in cytokine storm, recruiting and activating monocytes and macrophages that pour out IL-6 and TNF in the self-amplifying inflammatory cascade."
+  - target: 01-human/03-molecular/tlr4
+    relation: connects-to
+    note: "Ignition by DAMPs and PAMPs: TLR4 sensing of bacterial LPS and host damage signals is a key trigger that ignites the NF-κB-driven cytokine release initiating the storm."
+  - target: 01-human/03-molecular/s100a8-a9
+    relation: connects-to
+    note: "Alarmin feed-forward: S100A8/A9 released by activated myeloid cells acts on TLR4 to further amplify cytokine production, a feed-forward alarmin loop that sustains the cytokine storm."
 ---
 
 # Cytokine Storm
@@ -466,6 +475,9 @@ CS drives a **consumptive coagulopathy (DIC)**:
 - `connects-to` → **[C5aR1](../../03-molecular/c5ar1/README.md)** — Complement amplification: C5a signalling through C5aR1 activates neutrophils and macrophages in the cytokine storm, a complement-driven feed-forward loop targeted by anti-C5 therapy.
 - `connects-to` → **[IL-17A](../../03-molecular/il-17a/README.md)** — Th17 contribution: IL-17 from activated T cells adds neutrophil-recruiting inflammation to the cytokine storm, broadening tissue injury beyond the dominant IL-6/TNF axis.
 - `connects-to` → **[HIF-1α](../../03-molecular/hif-1alpha/README.md)** — Shock and hypoxia: the circulatory collapse and tissue hypoxia of severe cytokine storm stabilise HIF-1α, which further amplifies inflammatory gene expression in a vicious cycle.
+- `connects-to` → **[CCL2](../../03-molecular/ccl2/README.md)** — Monocyte mobilisation: CCL2 floods the circulation in cytokine storm, recruiting and activating monocytes and macrophages that pour out IL-6 and TNF in the self-amplifying inflammatory cascade.
+- `connects-to` → **[TLR4](../../03-molecular/tlr4/README.md)** — Ignition by DAMPs and PAMPs: TLR4 sensing of bacterial LPS and host damage signals is a key trigger that ignites the NF-κB-driven cytokine release initiating the storm.
+- `connects-to` → **[S100A8/A9](../../03-molecular/s100a8-a9/README.md)** — Alarmin feed-forward: S100A8/A9 released by activated myeloid cells acts on TLR4 to further amplify cytokine production, a feed-forward alarmin loop that sustains the cytokine storm.
 
 ## Pathology
 
