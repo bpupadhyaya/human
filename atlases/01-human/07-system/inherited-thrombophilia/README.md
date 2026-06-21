@@ -295,6 +295,15 @@ cross_links:
   - target: 01-human/03-molecular/fibronectin
     relation: connects-to
     note: "Thrombus scaffold: plasma fibronectin is cross-linked into the fibrin meshwork of forming clots, stabilising the thrombi that arise more readily in inherited thrombophilia."
+  - target: 01-human/03-molecular/hif-1alpha
+    relation: connects-to
+    note: "Stasis to thrombosis: hypoxia in the low-flow valve pockets of veins stabilises endothelial HIF-1α, which upregulates procoagulant factors — the molecular link between Virchow's stasis and the venous thrombi that inherited thrombophilia accelerates."
+  - target: 01-human/03-molecular/ccl2
+    relation: connects-to
+    note: "Monocyte tissue factor: CCL2 recruits monocytes to the forming venous thrombus, where their tissue-factor expression amplifies thrombin generation, tying inflammation to the clot propagation that compounds an inherited procoagulant state."
+  - target: 01-human/03-molecular/prostaglandins
+    relation: connects-to
+    note: "Eicosanoid balance: the platelet thromboxane A2/endothelial prostacyclin balance governs platelet aggregation, and a shift toward thromboxane favours the clot propagation that worsens thrombotic risk in inherited thrombophilia."
 ---
 
 # Inherited Thrombophilia
@@ -546,6 +555,9 @@ Antithrombin (ATIII) is the primary plasma inhibitor of thrombin, FXa, FIXa, and
 - `connects-to` → **[Nitric Oxide](../../03-molecular/nitric-oxide/README.md)** — Lost antithrombotic tone: endothelial nitric oxide normally inhibits platelet aggregation and adhesion, so reduced NO bioavailability removes a key brake and compounds the prothrombotic state of inherited thrombophilia.
 - `connects-to` → **[PF4](../../03-molecular/pf4/README.md)** — Platelet activation: platelet factor 4 released from activated platelets neutralises heparin-like glycosaminoglycans on the endothelium, locally favouring coagulation atop the inherited procoagulant defect.
 - `connects-to` → **[Fibronectin](../../03-molecular/fibronectin/README.md)** — Thrombus scaffold: plasma fibronectin is cross-linked into the fibrin meshwork of forming clots, stabilising the thrombi that arise more readily in inherited thrombophilia.
+- `connects-to` → **[HIF-1α](../../03-molecular/hif-1alpha/README.md)** — Hypoxia in the low-flow valve pockets of veins stabilizes endothelial HIF-1α, which upregulates procoagulant factors—the molecular link between Virchow's stasis and the venous thrombi that an inherited procoagulant defect accelerates.
+- `connects-to` → **[CCL2](../../03-molecular/ccl2/README.md)** — CCL2 recruits monocytes to the forming venous thrombus, where their tissue-factor expression amplifies thrombin generation, tying inflammation to the clot propagation that compounds an inherited procoagulant state into clinical thrombosis.
+- `connects-to` → **[Prostaglandins](../../03-molecular/prostaglandins/README.md)** — The platelet thromboxane A2/endothelial prostacyclin balance governs platelet aggregation, and a shift toward thromboxane favors the platelet recruitment and clot propagation that worsen thrombotic risk in inherited thrombophilia.
 
 [^bertina-1994-factor-v-leiden]: Bertina RM, Koeleman BP, Koster T, et al. Mutation in blood coagulation factor V associated with resistance to activated protein C. *Nature.* 1994;369(6475):64-67. [doi:10.1038/369064a0](https://doi.org/10.1038/369064a0) · [PubMed 8164741](https://pubmed.ncbi.nlm.nih.gov/8164741/)
 [^dahlback-2008-protein-c-review]: Dahlbäck B. Advances in understanding pathogenic mechanisms of thrombophilic disorders. *Blood.* 2008;112(1):19-27. [doi:10.1182/blood-2008-01-077909](https://doi.org/10.1182/blood-2008-01-077909) · [PubMed 18574048](https://pubmed.ncbi.nlm.nih.gov/18574048/)

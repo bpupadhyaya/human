@@ -287,6 +287,15 @@ cross_links:
   - target: 01-human/03-molecular/tslp
     relation: connects-to
     note: "Barrier alarmin: damaged keratinocytes release TSLP, the epithelial alarm signal that initiates the type 2 immune response and itch underlying atopic dermatitis and the atopic march."
+  - target: 01-human/03-molecular/androgen-receptor
+    relation: connects-to
+    note: "Skin appendages: androgens acting through the androgen receptor drive sebaceous-gland activity and hair-follicle patterning, the basis of acne, androgenetic alopecia and hirsutism among the most common dermatologic complaints."
+  - target: 01-human/03-molecular/igf-1
+    relation: connects-to
+    note: "Keratinocyte growth: IGF-1 promotes keratinocyte proliferation and hair-follicle growth, linking the endocrine and nutritional state to epidermal turnover and contributing to the skin manifestations of acromegaly and acne."
+  - target: 01-human/03-molecular/prostaglandins
+    relation: connects-to
+    note: "Cutaneous eicosanoids: prostaglandins mediate the erythema, oedema and pain of sunburn and skin inflammation, and prostaglandin analogues both drive eyelash growth and are implicated in the hair-cycle changes of alopecia."
 ---
 
 # Integumentary System
@@ -482,6 +491,9 @@ Wound healing is a precisely orchestrated process in four overlapping phases [^g
 - `connects-to` → **[EGFR](../../03-molecular/egfr/README.md)** — Epidermal renewal: EGFR signalling drives keratinocyte proliferation and re-epithelialisation, which is why anti-EGFR cancer drugs cause the characteristic acneiform rash and skin toxicity.
 - `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — Dermal vasculature: VEGF-driven angiogenesis supplies the skin's microcirculation and granulation tissue in wound healing, and its overactivity feeds the dilated vessels of psoriatic and inflamed skin.
 - `connects-to` → **[TSLP](../../03-molecular/tslp/README.md)** — Barrier alarmin: damaged keratinocytes release TSLP, the epithelial alarm signal that initiates the type 2 immune response and itch underlying atopic dermatitis and the atopic march.
+- `connects-to` → **[Androgen receptor](../../03-molecular/androgen-receptor/README.md)** — Androgens acting through the androgen receptor drive sebaceous-gland activity and hair-follicle patterning, the basis of acne, androgenetic alopecia, and hirsutism—among the most common dermatologic complaints and the target of anti-androgen therapy.
+- `connects-to` → **[IGF-1](../../03-molecular/igf-1/README.md)** — IGF-1 promotes keratinocyte proliferation and hair-follicle growth, linking endocrine and nutritional state to epidermal turnover and contributing to the skin tags and coarse skin of acromegaly as well as to acne pathogenesis.
+- `connects-to` → **[Prostaglandins](../../03-molecular/prostaglandins/README.md)** — Prostaglandins mediate the erythema, edema, and pain of sunburn and inflammatory skin disease, and prostaglandin analogues both stimulate eyelash growth and are implicated in the hair-cycle changes of androgenetic alopecia.
 
 ## Pathology
 
