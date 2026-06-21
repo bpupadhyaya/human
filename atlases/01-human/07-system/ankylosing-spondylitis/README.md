@@ -295,6 +295,15 @@ cross_links:
   - target: 01-human/03-molecular/ifn-gamma
     relation: connects-to
     note: "Th1 contribution: IFN-γ from Th1 cells participates in the mixed cytokine milieu of the inflamed sacroiliac joints and spine in ankylosing spondylitis."
+  - target: 01-human/03-molecular/s100a8-a9
+    relation: connects-to
+    note: "Alarmin biomarker: calprotectin (S100A8/A9) from activated neutrophils is elevated in both the gut and joints of ankylosing spondylitis, serving as a biomarker that tracks disease activity and the subclinical bowel inflammation common in the disease."
+  - target: 01-human/03-molecular/tlr4
+    relation: connects-to
+    note: "Gut-joint axis: TLR4 sensing of a dysbiotic microbiome in the subclinically inflamed gut is proposed to seed the IL-23/IL-17 response that drives the spinal and sacroiliac inflammation of ankylosing spondylitis."
+  - target: 01-human/03-molecular/osteopontin
+    relation: connects-to
+    note: "Inflammation-to-bone link: osteopontin is elevated in ankylosing spondylitis and connects the entheseal inflammation to the abnormal new-bone formation (syndesmophytes) that fuses the spine, correlating with radiographic progression."
 ---
 
 # Ankylosing Spondylitis
@@ -496,6 +505,9 @@ AS originates at the **enthesis** — the site where tendons, ligaments, and joi
 - `connects-to` → **[IL-1β](../../03-molecular/il-1b/README.md)** — Innate enthesitis: IL-1β contributes to the innate immune activation at entheses that drives the inflammation and new bone formation of ankylosing spondylitis.
 - `connects-to` → **[NLRP3 Inflammasome](../../03-molecular/nlrp3-inflammasome/README.md)** — Inflammasome activation: NLRP3-inflammasome activation matures the IL-1β that adds to the IL-23/IL-17-driven inflammation of ankylosing spondylitis.
 - `connects-to` → **[IFN-γ](../../03-molecular/ifn-gamma/README.md)** — Th1 contribution: IFN-γ from Th1 cells participates in the mixed cytokine milieu of the inflamed sacroiliac joints and spine in ankylosing spondylitis.
+- `connects-to` → **[S100A8/A9](../../03-molecular/s100a8-a9/README.md)** — Calprotectin (S100A8/A9) from activated neutrophils is elevated in both the gut and the joints of ankylosing spondylitis, a biomarker that tracks disease activity and reflects the subclinical bowel inflammation present in most patients.
+- `connects-to` → **[TLR4](../../03-molecular/tlr4/README.md)** — TLR4 sensing of a dysbiotic microbiome in the subclinically inflamed gut is proposed to seed the IL-23/IL-17 response that drives the spinal and sacroiliac inflammation of ankylosing spondylitis—the molecular core of the gut-joint axis.
+- `connects-to` → **[Osteopontin](../../03-molecular/osteopontin/README.md)** — Osteopontin is elevated in ankylosing spondylitis and links the entheseal inflammation to the abnormal new-bone formation (syndesmophytes) that progressively fuses the spine, correlating with the radiographic progression that defines structural damage.
 
 [^sieper-2015-ankylosing-spondylitis-review]: Sieper J, Poddubnyy D. Ankylosing spondylitis. *Lancet.* 2017;390(10089):73-84. [doi:10.1016/S0140-6736(16)31591-4](https://doi.org/10.1016/S0140-6736(16)31591-4) · [PubMed 28110981](https://pubmed.ncbi.nlm.nih.gov/28110981/)
 [^baeten-2015-secukinumab-as]: Baeten D, Sieper J, Braun J, et al. Secukinumab, an Interleukin-17A Inhibitor, in Ankylosing Spondylitis. *N Engl J Med.* 2015;373(26):2534-2548. [doi:10.1056/NEJMoa1505066](https://doi.org/10.1056/NEJMoa1505066) · [PubMed 26699169](https://pubmed.ncbi.nlm.nih.gov/26699169/)

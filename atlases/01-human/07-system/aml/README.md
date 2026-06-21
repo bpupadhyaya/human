@@ -295,6 +295,15 @@ cross_links:
   - target: 01-human/03-molecular/tnf-alpha
     relation: connects-to
     note: "Inflammatory niche: TNF-α in the AML marrow microenvironment suppresses normal haematopoiesis while supporting the survival of the leukaemic clone."
+  - target: 01-human/03-molecular/men1
+    relation: connects-to
+    note: "Menin-MLL dependency: KMT2A-rearranged and NPM1-mutant AML depend on the menin-MLL interaction to maintain HOX/MEIS leukaemic transcription, the target of menin inhibitors (revumenib) now approved in this disease."
+  - target: 01-human/03-molecular/smo
+    relation: connects-to
+    note: "Hedgehog signalling: aberrant Hedgehog pathway activity supports AML stem-cell maintenance, the rationale for the SMO inhibitor glasdegib combined with low-dose cytarabine in older AML patients."
+  - target: 01-human/03-molecular/mdm2
+    relation: connects-to
+    note: "p53 reactivation: most AML retains wild-type TP53 but keeps p53 restrained by high MDM2, making MDM2 inhibitors a strategy to restore p53-driven apoptosis in TP53-wild-type leukaemia."
 ---
 
 # AML
@@ -498,6 +507,9 @@ AML requires cooperative mutations in at least 2 functional categories (Gillilan
 - `connects-to` → **[CDK4/6](../../03-molecular/cdk4-6/README.md)** — Cell-cycle drive: cyclin D-CDK4/6 activity propels AML blasts through the G1 checkpoint, a candidate cell-cycle target alongside the disease's mutational drivers.
 - `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — Marrow angiogenesis: VEGF raises bone-marrow microvessel density in AML, an autocrine and paracrine signal supporting the leukaemic clone.
 - `connects-to` → **[TNF-α](../../03-molecular/tnf-alpha/README.md)** — Inflammatory niche: TNF-α in the AML marrow microenvironment suppresses normal haematopoiesis while supporting the survival of the leukaemic clone.
+- `connects-to` → **[Menin (MEN1)](../../03-molecular/men1/README.md)** — KMT2A-rearranged and NPM1-mutant AML depend on the menin-MLL interaction to maintain HOX/MEIS leukemic transcription—the target of menin inhibitors (revumenib) now approved, a rare instance of drugging a transcriptional dependency directly.
+- `connects-to` → **[SMO](../../03-molecular/smo/README.md)** — Aberrant Hedgehog pathway activity supports AML stem-cell maintenance, the rationale for the SMO inhibitor glasdegib combined with low-dose cytarabine as a lower-intensity option for older AML patients unfit for chemotherapy.
+- `connects-to` → **[MDM2](../../03-molecular/mdm2/README.md)** — Most AML retains wild-type TP53 but keeps p53 restrained by high MDM2, making MDM2 inhibitors a strategy to restore p53-driven apoptosis in TP53-wild-type leukemia—complementary to the BCL-2 inhibition of venetoclax.
 
 [^dinardo-2020-viale-a]: DiNardo CD, Jonas BA, Pullarkat V, et al. Azacitidine and venetoclax in previously untreated acute myeloid leukemia. *N Engl J Med.* 2020;383(7):617-629. [doi:10.1056/NEJMoa2012971](https://doi.org/10.1056/NEJMoa2012971) · [PubMed 32786187](https://pubmed.ncbi.nlm.nih.gov/32786187/)
 [^stone-2017-midostaurin]: Stone RM, Mandrekar SJ, Sanford BL, et al. Midostaurin plus chemotherapy for acute myeloid leukemia with a FLT3 mutation. *N Engl J Med.* 2017;377(5):454-464. [doi:10.1056/NEJMoa1614359](https://doi.org/10.1056/NEJMoa1614359) · [PubMed 28644114](https://pubmed.ncbi.nlm.nih.gov/28644114/)
