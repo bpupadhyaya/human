@@ -301,6 +301,15 @@ cross_links:
   - target: 01-human/03-molecular/mtor
     relation: connects-to
     note: "Neuroplasticity signalling: mTOR-dependent synaptic plasticity is implicated in bipolar mood switching, and rapid-acting agents like ketamine act partly through this pathway."
+  - target: 01-human/03-molecular/orexin
+    relation: connects-to
+    note: "Circadian triggering: orexin-driven sleep-wake and circadian dysregulation is central to bipolar disorder, where sleep loss reliably precipitates mania and circadian disruption tracks mood episodes."
+  - target: 01-human/03-molecular/ntrk
+    relation: connects-to
+    note: "Neurotrophic plasticity: BDNF signalling through TrkB mediates the synaptic plasticity disrupted in bipolar disorder, and the neurotrophic action of lithium and valproate works partly through this BDNF-TrkB axis."
+  - target: 01-human/03-molecular/estrogen
+    relation: connects-to
+    note: "Hormonal mood modulation: estrogen influences monoaminergic systems, and bipolar mood episodes cluster around postpartum, perimenstrual and perimenopausal hormonal shifts, especially in rapid-cycling disease."
 ---
 
 # Bipolar Disorder
@@ -525,6 +534,9 @@ During bipolar depression (often longer and more disabling than mania):
 - `connects-to` → **[Calcineurin](../../03-molecular/calcineurin/README.md)** — Calcium-signalling risk: the CACNA1C calcium-channel variant is the strongest genetic hit in bipolar disorder, dysregulating the calcium-calcineurin signalling that controls neuronal excitability and plasticity.
 - `connects-to` → **[Serotonin Transporter](../../03-molecular/serotonin-transporter/README.md)** — Serotonergic vulnerability: serotonin-transporter function shapes the depressive pole of bipolar disorder and antidepressant response, though SSRIs risk triggering mania without a mood stabiliser.
 - `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — Neuroplasticity signalling: mTOR-dependent synaptic plasticity is implicated in bipolar mood switching, and rapid-acting agents like ketamine act partly through this pathway.
+- `connects-to` → **[Orexin](../../03-molecular/orexin/README.md)** — Orexin-driven sleep-wake and circadian dysregulation is central to bipolar disorder, where sleep loss reliably precipitates mania and circadian disruption tracks mood episodes—making sleep stabilization a cornerstone of management.
+- `connects-to` → **[NTRK / TrkB](../../03-molecular/ntrk/README.md)** — BDNF signaling through TrkB mediates the synaptic plasticity disrupted in bipolar disorder, and the neurotrophic action of lithium and valproate works partly through this BDNF-TrkB axis to protect neurons.
+- `connects-to` → **[Estrogen](../../03-molecular/estrogen/README.md)** — Estrogen influences monoaminergic systems, and bipolar mood episodes cluster around postpartum, perimenstrual, and perimenopausal hormonal shifts, especially in the rapid-cycling form more common in women.
 
 [^grande-2016-bipolar-review]: Grande I, Berk M, Birmaher B, Vieta E. Bipolar disorder. *Lancet.* 2016;387(10027):1561-1572. [doi:10.1016/S0140-6736(15)00241-X](https://doi.org/10.1016/S0140-6736(15)00241-X) · [PubMed 26388529](https://pubmed.ncbi.nlm.nih.gov/26388529/)
 [^geddes-2013-bipolar-treatment]: Geddes JR, Miklowitz DJ. Treatment of bipolar disorder. *Lancet.* 2013;381(9878):1672-1682. [doi:10.1016/S0140-6736(13)60857-0](https://doi.org/10.1016/S0140-6736(13)60857-0) · [PubMed 23663953](https://pubmed.ncbi.nlm.nih.gov/23663953/)

@@ -298,6 +298,15 @@ cross_links:
   - target: 01-human/03-molecular/ccl2
     relation: connects-to
     note: "Macrophage recruitment: CCL2 secreted by breast tumours draws tumour-associated macrophages that promote angiogenesis, immune suppression and metastatic seeding of the lung."
+  - target: 01-human/03-molecular/cdh1
+    relation: connects-to
+    note: "Lobular subtype: loss of E-cadherin (CDH1) defines invasive lobular carcinoma, producing its single-file infiltrative growth and the discohesive cells that make it hard to detect on imaging and prone to diffuse spread."
+  - target: 01-human/03-molecular/rad51
+    relation: connects-to
+    note: "HR repair and PARP: BRCA-mutant and HRD breast cancers depend on RAD51-mediated homologous recombination, whose deficiency confers the synthetic-lethal sensitivity to PARP inhibitors (olaparib, talazoparib)."
+  - target: 01-human/03-molecular/androgen-receptor
+    relation: connects-to
+    note: "AR-driven subtype: the androgen receptor is expressed in many breast cancers and defines the luminal-androgen-receptor triple-negative subtype, where AR-targeted therapy is under investigation."
 ---
 
 # Breast Cancer
@@ -497,6 +506,9 @@ cross_links:
 - `connects-to` → **[Cyclin D1](../../03-molecular/cyclin-d1/README.md)** — Amplified cell-cycle driver: CCND1 (cyclin D1) is amplified in many ER-positive breast cancers, partnering CDK4/6 to push proliferation and underpinning sensitivity to CDK4/6 inhibitors.
 - `connects-to` → **[TGF-beta](../../03-molecular/tgf-beta/README.md)** — Metastatic switch: TGF-beta turns from tumour suppressor to driver of epithelial-mesenchymal transition, immune evasion and bone-metastatic spread in advancing breast cancer.
 - `connects-to` → **[CCL2](../../03-molecular/ccl2/README.md)** — Macrophage recruitment: CCL2 secreted by breast tumours draws tumour-associated macrophages that promote angiogenesis, immune suppression and metastatic seeding of the lung.
+- `connects-to` → **[E-cadherin (CDH1)](../../03-molecular/cdh1/README.md)** — Loss of E-cadherin (CDH1) defines invasive lobular carcinoma, producing its single-file infiltrative growth and discohesive cells that make it hard to detect on imaging and prone to diffuse, late-presenting spread.
+- `connects-to` → **[RAD51](../../03-molecular/rad51/README.md)** — BRCA-mutant and homologous-recombination-deficient breast cancers depend on RAD51-mediated repair, whose deficiency confers the synthetic-lethal sensitivity to PARP inhibitors (olaparib, talazoparib) now used in germline-BRCA disease.
+- `connects-to` → **[Androgen receptor](../../03-molecular/androgen-receptor/README.md)** — The androgen receptor is expressed in many breast cancers and defines the luminal-androgen-receptor triple-negative subtype, where AR-targeted therapy is being investigated as an alternative to chemotherapy.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
