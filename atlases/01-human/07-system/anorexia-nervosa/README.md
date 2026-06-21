@@ -301,6 +301,15 @@ cross_links:
   - target: 01-human/03-molecular/tnf-alpha
     relation: connects-to
     note: "Starvation cytokines: TNF-α and other pro-inflammatory cytokines are altered in anorexia nervosa despite low fat mass, contributing to the appetite suppression and cachexia-like wasting of the illness."
+  - target: 01-human/03-molecular/crh
+    relation: connects-to
+    note: "HPA hyperactivity: starvation activates CRH, which both suppresses appetite centrally and drives the hypercortisolism of anorexia nervosa, reinforcing food restriction and contributing to bone and mood effects."
+  - target: 01-human/03-molecular/rankl
+    relation: connects-to
+    note: "Severe osteoporosis: hypoestrogenism, hypercortisolism and low IGF-1 in anorexia uncouple bone remodelling toward RANKL-driven resorption, producing the early, often irreversible osteoporosis that is a major complication."
+  - target: 01-human/03-molecular/endocannabinoid
+    relation: connects-to
+    note: "Reward and appetite: the endocannabinoid system regulating appetite and food reward is dysregulated in anorexia nervosa, part of the disturbed reward processing that sustains the drive to restrict despite starvation."
 ---
 
 # Anorexia Nervosa
@@ -536,6 +545,9 @@ In healthy individuals, food cues activate the mesolimbic reward circuit (VTA �
 - `connects-to` → **[Insulin](../../03-molecular/insulin/README.md)** — Refeeding driver: the insulin surge when carbohydrate is reintroduced after starvation drives potassium, phosphate and magnesium into cells, the mechanism of the potentially fatal refeeding syndrome in anorexia nervosa.
 - `connects-to` → **[Serotonin Transporter](../../03-molecular/serotonin-transporter/README.md)** — Serotonergic trait: altered serotonin-transporter function is linked to the anxiety, perfectionism and harm-avoidance of anorexia nervosa, and underlies the SSRIs trialled (with limited efficacy at low weight).
 - `connects-to` → **[TNF-α](../../03-molecular/tnf-alpha/README.md)** — Starvation cytokines: TNF-α and other pro-inflammatory cytokines are altered in anorexia nervosa despite low fat mass, contributing to the appetite suppression and cachexia-like wasting of the illness.
+- `connects-to` → **[CRH](../../03-molecular/crh/README.md)** — Starvation activates CRH, which both suppresses appetite centrally and drives the hypercortisolism of anorexia nervosa—reinforcing food restriction while contributing to the bone loss and mood disturbance of the illness.
+- `connects-to` → **[RANKL](../../03-molecular/rankl/README.md)** — Hypoestrogenism, hypercortisolism, and low IGF-1 in anorexia uncouple bone remodeling toward RANKL-driven resorption, producing the early and often irreversible osteoporosis that is a major long-term complication.
+- `connects-to` → **[Endocannabinoid](../../03-molecular/endocannabinoid/README.md)** — The endocannabinoid system regulating appetite and food reward is dysregulated in anorexia nervosa, part of the disturbed reward processing that sustains the drive to restrict food intake despite life-threatening starvation.
 
 [^treasure-2010-an-lancet]: Treasure J, Claudino AM, Zucker N. Eating disorders. *Lancet.* 2010;375(9714):583-593. [doi:10.1016/S0140-6736(09)61748-7](https://doi.org/10.1016/S0140-6736(09)61748-7) · [PubMed 19931176](https://pubmed.ncbi.nlm.nih.gov/19931176/)
 [^lock-2010-fbt-an]: Lock J, Le Grange D, Agras WS, et al. Randomized clinical trial comparing family-based treatment with adolescent-focused individual therapy for adolescents with anorexia nervosa. *Arch Gen Psychiatry.* 2010;67(10):1025-1032. [doi:10.1001/archgenpsychiatry.2010.128](https://doi.org/10.1001/archgenpsychiatry.2010.128) · [PubMed 20921118](https://pubmed.ncbi.nlm.nih.gov/20921118/)
