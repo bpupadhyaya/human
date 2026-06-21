@@ -286,6 +286,15 @@ cross_links:
   - target: 01-human/03-molecular/hif-1alpha
     relation: connects-to
     note: "Polyp hypoxia: the inflamed, growing juvenile polyps become hypoxic, stabilising HIF-1α to drive the VEGF angiogenesis that feeds their expansion."
+  - target: 01-human/03-molecular/kras
+    relation: connects-to
+    note: "Oncogenic progression: acquired KRAS mutations drive the progression of juvenile polyps toward gastrointestinal carcinoma, a key step beyond the germline SMAD4/BMPR1A loss that initiates the polyps."
+  - target: 01-human/03-molecular/tert
+    relation: connects-to
+    note: "Telomerase immortalisation: TERT reactivation maintains telomeres as juvenile polyps progress to carcinoma, granting the replicative capacity of the gastric and colorectal cancers of the syndrome."
+  - target: 01-human/03-molecular/ccl2
+    relation: connects-to
+    note: "Inflammatory polyp stroma: CCL2 recruits macrophages into the characteristically inflamed, oedematous stroma of juvenile polyps, sustaining the microenvironment that drives their growth."
 ---
 
 # Juvenile Polyposis Syndrome
@@ -505,6 +514,9 @@ No approved chemopreventive agents specifically for JPS. Options under investiga
 - `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — PI3K/AKT cooperation: loss of SMAD4-mediated growth control activates PI3K/AKT signalling that helps drive the epithelial overgrowth of juvenile polyps toward cancer.
 - `connects-to` → **[MYC](../../03-molecular/myc/README.md)** — Proliferative oncogene: as juvenile polyps acquire Wnt and other oncogenic hits, MYC activation drives the proliferation that underlies their malignant progression.
 - `connects-to` → **[HIF-1α](../../03-molecular/hif-1alpha/README.md)** — Polyp hypoxia: the inflamed, growing juvenile polyps become hypoxic, stabilising HIF-1α to drive the VEGF angiogenesis that feeds their expansion.
+- `connects-to` → **[KRAS](../../03-molecular/kras/README.md)** — Oncogenic progression: acquired KRAS mutations drive the progression of juvenile polyps toward gastrointestinal carcinoma, a key step beyond the germline SMAD4/BMPR1A loss that initiates the polyps.
+- `connects-to` → **[TERT](../../03-molecular/tert/README.md)** — Telomerase immortalisation: TERT reactivation maintains telomeres as juvenile polyps progress to carcinoma, granting the replicative capacity of the gastric and colorectal cancers of the syndrome.
+- `connects-to` → **[CCL2](../../03-molecular/ccl2/README.md)** — Inflammatory polyp stroma: CCL2 recruits macrophages into the characteristically inflamed, oedematous stroma of juvenile polyps, sustaining the microenvironment that drives their growth.
 
 [^howe-1998-smad4-jps]: Howe JR, Roth S, Ringold JC, et al. Mutations in the SMAD4/DPC4 gene in juvenile polyposis. *Science.* 1998;280(5366):1086-1088. [doi:10.1126/science.280.5366.1086](https://doi.org/10.1126/science.280.5366.1086) · [PubMed 9582123](https://pubmed.ncbi.nlm.nih.gov/9582123/)
 [^aretz-2007-jps-spectrum]: Aretz S, Stienen D, Uhlhaas S, et al. High proportion of large genomic deletions and a genotype-phenotype update in 80 unrelated families with juvenile polyposis syndrome. *J Med Genet.* 2007;44(11):702-709. [doi:10.1136/jmg.2007.051839](https://doi.org/10.1136/jmg.2007.051839) · [PubMed 17601924](https://pubmed.ncbi.nlm.nih.gov/17601924/)

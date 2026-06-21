@@ -286,6 +286,15 @@ cross_links:
   - target: 01-human/03-molecular/vegf
     relation: connects-to
     note: "Angiogenic drive: loss of p53's anti-angiogenic restraint raises VEGF, promoting the neovascularisation that supports tumour growth across the Li-Fraumeni spectrum."
+  - target: 01-human/03-molecular/rad51
+    relation: connects-to
+    note: "Genomic instability: loss of p53's regulation of homologous recombination leaves RAD51-dependent repair unchecked and error-prone, fuelling the chromosomal instability behind the diverse Li-Fraumeni cancers."
+  - target: 01-human/03-molecular/ampk
+    relation: connects-to
+    note: "Metabolic checkpoint: p53 normally activates AMPK to enforce a metabolic stress checkpoint, so its loss in Li-Fraumeni removes a brake on the anabolic, growth-favouring metabolism of cancer cells."
+  - target: 01-human/03-molecular/ccl2
+    relation: connects-to
+    note: "Tumour microenvironment: CCL2 recruits tumour-associated macrophages into the wide range of Li-Fraumeni tumours, shaping a microenvironment that supports their growth and progression."
 ---
 
 # Li-Fraumeni Syndrome
@@ -526,6 +535,9 @@ Annual surveillance significantly reduces mortality in LFS carriers (Villani 201
 - `connects-to` → **[MYC](../../03-molecular/myc/README.md)** — Unrestrained oncogene: with p53's brake removed, MYC amplification drives the proliferation of the diverse Li-Fraumeni tumours, from sarcomas to breast and brain cancers.
 - `connects-to` → **[HIF-1α](../../03-molecular/hif-1alpha/README.md)** — Tumour hypoxia: p53 loss enhances HIF-1α activity, driving the angiogenesis and glycolytic metabolism that feed the broad spectrum of Li-Fraumeni cancers.
 - `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — Angiogenic drive: loss of p53's anti-angiogenic restraint raises VEGF, promoting the neovascularisation that supports tumour growth across the Li-Fraumeni spectrum.
+- `connects-to` → **[RAD51](../../03-molecular/rad51/README.md)** — Genomic instability: loss of p53's regulation of homologous recombination leaves RAD51-dependent repair unchecked and error-prone, fuelling the chromosomal instability behind the diverse Li-Fraumeni cancers.
+- `connects-to` → **[AMPK](../../03-molecular/ampk/README.md)** — Metabolic checkpoint: p53 normally activates AMPK to enforce a metabolic stress checkpoint, so its loss in Li-Fraumeni removes a brake on the anabolic, growth-favouring metabolism of cancer cells.
+- `connects-to` → **[CCL2](../../03-molecular/ccl2/README.md)** — Tumour microenvironment: CCL2 recruits tumour-associated macrophages into the wide range of Li-Fraumeni tumours, shaping a microenvironment that supports their growth and progression.
 
 [^bougeard-2015-lfs-chompret]: Bougeard G, Renaux-Petel M, Flaman JM, et al. Revisiting Li-Fraumeni Syndrome From TP53 Mutation Carriers. *J Clin Oncol.* 2015;33(21):2345-2352. [doi:10.1200/JCO.2014.59.5728](https://doi.org/10.1200/JCO.2014.59.5728) · [PubMed 26014290](https://pubmed.ncbi.nlm.nih.gov/26014290/)
 [^villani-2016-lfs-surveillance]: Villani A, Shore A, Wasserman JD, et al. Biochemical and imaging surveillance in germline TP53 mutation carriers with Li-Fraumeni syndrome: 11 year follow-up of a prospective observational study. *Lancet Oncol.* 2016;17(9):1295-1305. [doi:10.1016/S1470-2045(16)30249-2](https://doi.org/10.1016/S1470-2045(16)30249-2) · [PubMed 27501770](https://pubmed.ncbi.nlm.nih.gov/27501770/)
