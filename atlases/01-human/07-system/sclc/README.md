@@ -286,6 +286,15 @@ cross_links:
   - target: 01-human/03-molecular/hif-1alpha
     relation: connects-to
     note: "Tumour hypoxia: HIF-1α stabilised in the rapidly growing, hypoxic SCLC drives angiogenesis and the aggressive, metastatic phenotype that defines the disease."
+  - target: 01-human/03-molecular/tert
+    relation: connects-to
+    note: "Replicative immortality: SCLC reactivates telomerase (TERT) to maintain telomeres through its breakneck proliferation, granting the unlimited replicative capacity that complements its RB1 and TP53 loss."
+  - target: 01-human/03-molecular/kit
+    relation: connects-to
+    note: "Neuroendocrine RTK: SCLC commonly expresses c-KIT (CD117), a receptor tyrosine kinase reflecting its neuroendocrine lineage; although imatinib trials failed, KIT marks the stem-like, treatment-resistant biology of the tumour."
+  - target: 01-human/03-molecular/cgas-sting
+    relation: connects-to
+    note: "Replication-stress immunity: the high replication stress and DNA damage of SCLC generate cytosolic DNA that activates cGAS-STING, the innate-immune rationale for combining PARP inhibitors or chemotherapy with checkpoint blockade."
 ---
 
 # Small Cell Lung Cancer
@@ -485,6 +494,9 @@ SCLC has highest rate of brain metastases among solid tumors (~50% at 2 years); 
 - `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — PI3K/AKT survival: PI3K/AKT activation sustains the survival of small-cell lung cancer cells, contributing to its rapid relapse after initial chemosensitivity.
 - `connects-to` → **[CDK4/6](../../03-molecular/cdk4-6/README.md)** — Unrestrained cell cycle: with RB1 loss near-universal in SCLC, the cell cycle runs unchecked, and the MYC-driven proliferation makes it one of the fastest-growing cancers.
 - `connects-to` → **[HIF-1α](../../03-molecular/hif-1alpha/README.md)** — Tumour hypoxia: HIF-1α stabilised in the rapidly growing, hypoxic SCLC drives angiogenesis and the aggressive, metastatic phenotype that defines the disease.
+- `connects-to` → **[TERT](../../03-molecular/tert/README.md)** — SCLC reactivates telomerase to maintain telomeres through its breakneck proliferation, granting the unlimited replicative capacity that complements the universal RB1 and TP53 loss—an immortality switch fundamental to its aggressive course.
+- `connects-to` → **[KIT](../../03-molecular/kit/README.md)** — SCLC commonly expresses c-KIT (CD117), a receptor tyrosine kinase reflecting its neuroendocrine lineage; although imatinib trials failed, KIT marks the stem-like, treatment-resistant biology that makes the cancer so prone to relapse.
+- `connects-to` → **[cGAS-STING](../../03-molecular/cgas-sting/README.md)** — The high replication stress and DNA damage of SCLC generate cytosolic DNA that activates cGAS-STING, the innate-immune rationale for combining PARP inhibitors or chemotherapy with the checkpoint blockade now standard in extensive-stage disease.
 
 [^horn-2018-impower133]: Horn L, Mansfield AS, Szczęsna A, et al. First-line atezolizumab plus chemotherapy in extensive-stage small-cell lung cancer. *N Engl J Med.* 2018;379(23):2220-2229. [doi:10.1056/NEJMoa1809064](https://doi.org/10.1056/NEJMoa1809064) · [PubMed 30280641](https://pubmed.ncbi.nlm.nih.gov/30280641/)
 [^paz-ares-2019-caspian]: Paz-Ares L, Dvorkin M, Chen Y, et al. Durvalumab plus platinum-etoposide versus platinum-etoposide in first-line treatment of extensive-stage small-cell lung cancer (CASPIAN). *Lancet.* 2019;394(10212):1929-1939. [doi:10.1016/S0140-6736(19)32222-6](https://doi.org/10.1016/S0140-6736(19)32222-6) · [PubMed 31590988](https://pubmed.ncbi.nlm.nih.gov/31590988/)

@@ -292,6 +292,15 @@ cross_links:
   - target: 01-human/03-molecular/nlrp3-inflammasome
     relation: connects-to
     note: "Inflammasome activation: NLRP3-inflammasome activation in the salivary glands matures the IL-1β that drives the chronic glandular inflammation of Sjögren's syndrome."
+  - target: 01-human/03-molecular/btk
+    relation: connects-to
+    note: "B-cell signalling: BTK transduces the B-cell-receptor signals driving the autoreactive B-cell expansion of Sjögren's, the target of BTK inhibitors in trials and a node relevant to the elevated risk of MALT lymphoma."
+  - target: 01-human/03-molecular/ctla-4
+    relation: connects-to
+    note: "T-cell costimulation: abatacept (CTLA-4-Ig) blocks the CD28 costimulation activating the glandular T cells of Sjögren's syndrome, a costimulation-blockade strategy tested to interrupt the autoimmune attack on exocrine tissue."
+  - target: 01-human/03-molecular/ccl2
+    relation: connects-to
+    note: "Glandular infiltration: CCL2 recruits monocytes into the inflamed salivary and lacrimal glands of Sjögren's, building the macrophage component of the lymphocytic infiltrate that destroys secretory tissue."
 ---
 
 # Sjögren's Syndrome
@@ -513,6 +522,9 @@ Sjögren's syndrome can occur:
 - `connects-to` → **[TNF-α](../../03-molecular/tnf-alpha/README.md)** — Glandular inflammation: TNF-α within the lymphocytic infiltrate of the salivary and lacrimal glands contributes to the inflammation and secretory destruction of Sjögren's syndrome.
 - `connects-to` → **[IL-1β](../../03-molecular/il-1b/README.md)** — Inflammatory amplification: IL-1β from activated macrophages in the inflamed exocrine glands amplifies the tissue damage of Sjögren's syndrome.
 - `connects-to` → **[NLRP3 Inflammasome](../../03-molecular/nlrp3-inflammasome/README.md)** — Inflammasome activation: NLRP3-inflammasome activation in the salivary glands matures the IL-1β that drives the chronic glandular inflammation of Sjögren's syndrome.
+- `connects-to` → **[BTK](../../03-molecular/btk/README.md)** — BTK transduces the B-cell-receptor signals driving the autoreactive B-cell expansion of Sjögren's—the target of BTK inhibitors in trials and a node relevant to the markedly elevated risk of MALT lymphoma that distinguishes this disease.
+- `connects-to` → **[CTLA-4](../../03-molecular/ctla-4/README.md)** — Abatacept (CTLA-4-Ig) blocks the CD28 costimulation activating the glandular T cells of Sjögren's syndrome, a costimulation-blockade strategy tested to interrupt the autoimmune attack on the exocrine tissue.
+- `connects-to` → **[CCL2](../../03-molecular/ccl2/README.md)** — CCL2 recruits monocytes into the inflamed salivary and lacrimal glands of Sjögren's, building the macrophage component of the lymphocytic infiltrate that progressively destroys the secretory tissue and causes the sicca symptoms.
 
 ---
 
