@@ -295,6 +295,15 @@ cross_links:
   - target: 01-human/03-molecular/il-17a
     relation: connects-to
     note: "Th17 islet inflammation: IL-17A-producing T cells infiltrate the islets and amplify the inflammatory beta-cell injury that accompanies the dominant cytotoxic response in type 1 diabetes."
+  - target: 01-human/03-molecular/cd20
+    relation: connects-to
+    note: "B-cell antigen presentation: B cells present islet autoantigens and produce autoantibodies in type 1 diabetes, and anti-CD20 (rituximab) delays beta-cell decline in new-onset disease — evidence B cells help drive the T-cell attack."
+  - target: 01-human/03-molecular/tnf-alpha
+    relation: connects-to
+    note: "Cytokine beta-cell injury: TNF-α contributes to islet inflammation and beta-cell dysfunction, and the anti-TNF agent golimumab preserves endogenous insulin production in newly diagnosed type 1 diabetes."
+  - target: 01-human/03-molecular/caspase-3
+    relation: connects-to
+    note: "Beta-cell apoptosis: caspase-3-mediated apoptosis is the final death pathway through which cytokine and cytotoxic-T-cell attack destroy insulin-producing beta cells in type 1 diabetes."
 ---
 
 # Type 1 Diabetes
@@ -483,6 +492,9 @@ cross_links:
 - `connects-to` → **[CTLA-4](../../03-molecular/ctla-4/README.md)** — Tolerance checkpoint and risk gene: CTLA-4 polymorphisms predispose to type 1 diabetes by weakening T-cell restraint, and CTLA4-Ig (abatacept) slows beta-cell loss in early disease.
 - `connects-to` → **[PD-1](../../03-molecular/pd-1/README.md)** — Peripheral tolerance: PD-1 restrains autoreactive T cells against beta cells, and checkpoint-inhibitor cancer therapy that blocks it can precipitate fulminant autoimmune type 1 diabetes.
 - `connects-to` → **[IL-17A](../../03-molecular/il-17a/README.md)** — Th17 islet inflammation: IL-17A-producing T cells infiltrate the islets and amplify the inflammatory beta-cell injury that accompanies the dominant cytotoxic response in type 1 diabetes.
+- `connects-to` → **[CD20](../../03-molecular/cd20/README.md)** — B cells present islet autoantigens and produce autoantibodies in type 1 diabetes, and anti-CD20 (rituximab) delays beta-cell decline in new-onset disease—evidence that B cells, not only T cells, help drive the autoimmune attack.
+- `connects-to` → **[TNF-α](../../03-molecular/tnf-alpha/README.md)** — TNF-α contributes to islet inflammation and beta-cell dysfunction, and the anti-TNF agent golimumab preserves endogenous insulin production in newly diagnosed type 1 diabetes—a disease-modifying cytokine target.
+- `connects-to` → **[Caspase-3](../../03-molecular/caspase-3/README.md)** — Caspase-3-mediated apoptosis is the final common death pathway through which cytokine signaling and cytotoxic-T-cell attack destroy the insulin-producing beta cells, the cellular endpoint of type 1 diabetes.
 
 [^atkinson-2014-t1d-lancet]: Atkinson MA, Eisenbarth GS, Michels AW. Type 1 diabetes. *Lancet.* 2014;383(9911):69-82. [doi:10.1016/S0140-6736(13)60591-7](https://doi.org/10.1016/S0140-6736(13)60591-7) · [PubMed 23890997](https://pubmed.ncbi.nlm.nih.gov/23890997/)
 [^herold-2019-teplizumab-t1d]: Herold KC, Bundy BN, Long SA, et al. An anti-CD3 antibody, teplizumab, in relatives at risk for type 1 diabetes. *N Engl J Med.* 2019;381(7):603-613. [doi:10.1056/NEJMoa1905155](https://doi.org/10.1056/NEJMoa1905155) · [PubMed 31180675](https://pubmed.ncbi.nlm.nih.gov/31180675/)

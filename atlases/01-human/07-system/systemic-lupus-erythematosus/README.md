@@ -295,6 +295,15 @@ cross_links:
   - target: 01-human/03-molecular/mhc-class-ii
     relation: connects-to
     note: "Autoantigen presentation: HLA class II molecules present nucleosome and other self-peptides to CD4 T cells, the genetic-risk-linked step that licenses autoreactive B-cell help in systemic lupus."
+  - target: 01-human/03-molecular/cd20
+    relation: connects-to
+    note: "B-cell depletion: anti-CD20 antibodies (rituximab, obinutuzumab) deplete the autoreactive B cells producing lupus autoantibodies, a therapeutic strategy especially pursued in refractory lupus nephritis."
+  - target: 01-human/03-molecular/ccl2
+    relation: connects-to
+    note: "Lupus nephritis: CCL2 recruits monocytes into the inflamed kidney in lupus nephritis, and urinary CCL2 (MCP-1) serves as a non-invasive biomarker of renal disease activity and flare."
+  - target: 01-human/03-molecular/rig-i
+    relation: connects-to
+    note: "Self-RNA sensing: RIG-I and related cytosolic RNA sensors detect endogenous nucleic acids in lupus, feeding the type-I-interferon loop alongside cGAS-STING that defines the disease's interferon signature."
 ---
 
 # Systemic Lupus Erythematosus
@@ -511,6 +520,9 @@ Highly polygenic disease with >100 susceptibility loci; heritability ~66%:
 - `connects-to` → **[S100A8/A9](../../03-molecular/s100a8-a9/README.md)** — NETosis and biomarker: low-density granulocytes in lupus release neutrophil extracellular traps rich in S100A8/A9, exposing self-DNA that drives the type-I interferon response, with calprotectin tracking disease activity.
 - `connects-to` → **[IL-17A](../../03-molecular/il-17a/README.md)** — Th17 tissue injury: IL-17A-producing T cells expand in lupus and infiltrate the kidney, contributing to the inflammation of lupus nephritis alongside the dominant interferon and antibody mechanisms.
 - `connects-to` → **[MHC Class II](../../03-molecular/mhc-class-ii/README.md)** — Autoantigen presentation: HLA class II molecules present nucleosome and other self-peptides to CD4 T cells, the genetic-risk-linked step that licenses autoreactive B-cell help in systemic lupus.
+- `connects-to` → **[CD20](../../03-molecular/cd20/README.md)** — Anti-CD20 antibodies (rituximab, obinutuzumab) deplete the autoreactive B cells producing lupus autoantibodies, a strategy pursued especially in refractory lupus nephritis where standard immunosuppression fails.
+- `connects-to` → **[CCL2](../../03-molecular/ccl2/README.md)** — CCL2 recruits monocytes into the inflamed kidney in lupus nephritis, and urinary CCL2 (MCP-1) serves as a non-invasive biomarker of renal disease activity and impending flare in lupus patients.
+- `connects-to` → **[RIG-I](../../03-molecular/rig-i/README.md)** — RIG-I and related cytosolic RNA sensors detect endogenous nucleic acids in lupus, feeding the type-I-interferon loop alongside cGAS-STING that produces the interferon signature central to the disease's pathogenesis.
 
 [^tsokos-2011-sle-review]: Tsokos GC. Systemic lupus erythematosus. *N Engl J Med.* 2011;365(22):2110-2121. [doi:10.1056/NEJMra1100359](https://doi.org/10.1056/NEJMra1100359) · [PubMed 22129253](https://pubmed.ncbi.nlm.nih.gov/22129253/)
 [^furie-2011-belimumab]: Furie R, Petri M, Zamani O, et al. A phase III, randomized, placebo-controlled study of belimumab, a monoclonal antibody that inhibits B lymphocyte stimulator, in patients with systemic lupus erythematosus. *Arthritis Rheum.* 2011;63(12):3918-3930. [doi:10.1002/art.30613](https://doi.org/10.1002/art.30613) · [PubMed 22127708](https://pubmed.ncbi.nlm.nih.gov/22127708/)
