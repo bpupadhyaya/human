@@ -286,6 +286,15 @@ cross_links:
   - target: 01-human/03-molecular/hif-1alpha
     relation: connects-to
     note: "Germinal-centre hypoxia: the physiologically hypoxic germinal centre stabilises HIF-1α, shaping the metabolism and survival of the follicular lymphoma cells that arise there."
+  - target: 01-human/03-molecular/ccl2
+    relation: connects-to
+    note: "Prognostic macrophages: CCL2 recruits tumour-associated macrophages into follicular lymphoma, whose abundance in the microenvironment carries prognostic weight—this lymphoma's biology is unusually microenvironment-dependent."
+  - target: 01-human/03-molecular/tgf-beta
+    relation: connects-to
+    note: "Immunosuppressive niche: TGF-beta from the Treg-rich follicular lymphoma microenvironment dampens anti-tumour immunity, helping the malignant B cells evade the immune system."
+  - target: 01-human/03-molecular/tert
+    relation: connects-to
+    note: "Transformation to DLBCL: TERT activation and telomere maintenance accompany the histological transformation of indolent follicular lymphoma into aggressive diffuse large B-cell lymphoma."
 ---
 
 # Follicular Lymphoma
@@ -501,6 +510,9 @@ High-risk subset (progression within 24 months of first chemoimmunotherapy): Con
 - `connects-to` → **[CDK4/6](../../03-molecular/cdk4-6/README.md)** — Cell-cycle drive: cyclin D-CDK4/6 activity propels follicular lymphoma B cells through the G1 checkpoint, the proliferative engine that accelerates as the indolent disease transforms.
 - `connects-to` → **[IL-6](../../03-molecular/il-6/README.md)** — Supportive niche: IL-6 from the follicular dendritic cells and T-helper cells of the germinal-centre microenvironment sustains follicular lymphoma cell survival.
 - `connects-to` → **[HIF-1α](../../03-molecular/hif-1alpha/README.md)** — Germinal-centre hypoxia: the physiologically hypoxic germinal centre stabilises HIF-1α, shaping the metabolism and survival of the follicular lymphoma cells that arise there.
+- `connects-to` → **[CCL2](../../03-molecular/ccl2/README.md)** — Prognostic macrophages: CCL2 recruits tumour-associated macrophages into follicular lymphoma, whose abundance in the microenvironment carries prognostic weight—this lymphoma's biology is unusually microenvironment-dependent.
+- `connects-to` → **[TGF-beta](../../03-molecular/tgf-beta/README.md)** — Immunosuppressive niche: TGF-beta from the Treg-rich follicular lymphoma microenvironment dampens anti-tumour immunity, helping the malignant B cells evade the immune system.
+- `connects-to` → **[TERT](../../03-molecular/tert/README.md)** — Transformation to DLBCL: TERT activation and telomere maintenance accompany the histological transformation of indolent follicular lymphoma into aggressive diffuse large B-cell lymphoma.
 
 ---
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*

@@ -286,6 +286,15 @@ cross_links:
   - target: 01-human/03-molecular/hif-1alpha
     relation: connects-to
     note: "Polyp hypoxia: as FAP adenomas grow, HIF-1α stabilised in their hypoxic cores drives the VEGF angiogenesis that supports progression toward carcinoma."
+  - target: 01-human/03-molecular/tert
+    relation: connects-to
+    note: "Telomerase in progression: TERT reactivation immortalises cells along the adenoma-to-carcinoma sequence of FAP, one of the late events converting benign polyps into invasive colorectal cancer."
+  - target: 01-human/03-molecular/pdgf
+    relation: connects-to
+    note: "Desmoid driver: PDGF-driven fibroblast proliferation underlies the desmoid tumours that arise in FAP, a leading cause of death after prophylactic colectomy removes the cancer risk."
+  - target: 01-human/03-molecular/smad4
+    relation: connects-to
+    note: "TGF-β escape: loss of SMAD4-mediated TGF-β growth suppression is a key step in the adenoma-carcinoma progression of FAP polyps, freeing them from a major antiproliferative brake."
 ---
 
 # Familial Adenomatous Polyposis
@@ -515,6 +524,9 @@ With modern surveillance and prophylactic colectomy: FAP is no longer an inevita
 - `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — PI3K/AKT cooperation: AKT signalling cooperates with Wnt activation from APC loss to drive the growth of the adenomatous polyps that carpet the colon in FAP.
 - `connects-to` → **[EZH2](../../03-molecular/ezh2/README.md)** — Epigenetic progression: EZH2-mediated silencing of tumour-suppressor genes accompanies the adenoma-to-carcinoma progression of FAP polyps.
 - `connects-to` → **[HIF-1α](../../03-molecular/hif-1alpha/README.md)** — Polyp hypoxia: as FAP adenomas grow, HIF-1α stabilised in their hypoxic cores drives the VEGF angiogenesis that supports progression toward carcinoma.
+- `connects-to` → **[TERT](../../03-molecular/tert/README.md)** — Telomerase in progression: TERT reactivation immortalises cells along the adenoma-to-carcinoma sequence of FAP, one of the late events converting benign polyps into invasive colorectal cancer.
+- `connects-to` → **[PDGF](../../03-molecular/pdgf/README.md)** — Desmoid driver: PDGF-driven fibroblast proliferation underlies the desmoid tumours that arise in FAP, a leading cause of death after prophylactic colectomy removes the cancer risk.
+- `connects-to` → **[SMAD4](../../03-molecular/smad4/README.md)** — TGF-β escape: loss of SMAD4-mediated TGF-β growth suppression is a key step in the adenoma-carcinoma progression of FAP polyps, freeing them from a major antiproliferative brake.
 
 [^kinzler-1991-apc]: Kinzler KW, Nilbert MC, Su LK, et al. Identification of FAP locus genes from chromosome 5q21. *Science.* 1991;253(5020):661-665. [doi:10.1126/science.1651562](https://doi.org/10.1126/science.1651562) · [PubMed 1651562](https://pubmed.ncbi.nlm.nih.gov/1651562/)
 [^fearon-1990-vogelstein]: Fearon ER, Vogelstein B. A genetic model for colorectal tumorigenesis. *Cell.* 1990;61(5):759-767. [doi:10.1016/0092-8674(90)90186-i](https://doi.org/10.1016/0092-8674(90)90186-i) · [PubMed 2188735](https://pubmed.ncbi.nlm.nih.gov/2188735/)
