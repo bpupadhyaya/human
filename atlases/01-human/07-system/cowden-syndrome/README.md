@@ -286,6 +286,15 @@ cross_links:
   - target: 01-human/03-molecular/hif-1alpha
     relation: connects-to
     note: "Hypoxic and angiogenic: AKT/mTOR activation from PTEN loss stabilises HIF-1α, promoting the angiogenesis that supports the vascular hamartomas and tumours of the syndrome."
+  - target: 01-human/03-molecular/thyroid-hormones
+    relation: connects-to
+    note: "Thyroid neoplasia: Cowden syndrome carries a high risk of follicular thyroid carcinoma and benign thyroid disease, one of the defining components of the PTEN hamartoma tumour syndrome."
+  - target: 01-human/03-molecular/estrogen
+    relation: connects-to
+    note: "Hormone-driven cancers: the markedly elevated breast and endometrial cancer risk of Cowden syndrome is driven by oestrogen-responsive epithelium proliferating under unrestrained PI3K-AKT signalling."
+  - target: 01-human/03-molecular/autophagy
+    relation: connects-to
+    note: "Suppressed autophagy: PTEN loss hyperactivates mTOR, which suppresses autophagy and shifts the balance toward growth — the rationale for trialling mTOR inhibitors (rapalogs) in Cowden syndrome."
 ---
 
 # Cowden Syndrome
@@ -555,6 +564,9 @@ cross_links:
 - `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — MAPK crosstalk: PTEN loss in Cowden syndrome also potentiates RAS-ERK signalling, which cooperates with the PI3K/AKT pathway to drive the hamartomas and tumours.
 - `connects-to` → **[MYC](../../03-molecular/myc/README.md)** — Downstream proliferation: unrestrained PI3K/AKT/mTOR signalling from PTEN loss upregulates MYC, helping drive the cell growth and tumour predisposition of Cowden syndrome.
 - `connects-to` → **[HIF-1α](../../03-molecular/hif-1alpha/README.md)** — Hypoxic and angiogenic: AKT/mTOR activation from PTEN loss stabilises HIF-1α, promoting the angiogenesis that supports the vascular hamartomas and tumours of the syndrome.
+- `connects-to` → **[Thyroid Hormones](../../03-molecular/thyroid-hormones/README.md)** — Thyroid neoplasia: Cowden syndrome carries a high risk of follicular thyroid carcinoma and benign thyroid disease, one of the defining components of the PTEN hamartoma tumour syndrome.
+- `connects-to` → **[Estrogen](../../03-molecular/estrogen/README.md)** — Hormone-driven cancers: the markedly elevated breast and endometrial cancer risk of Cowden syndrome is driven by oestrogen-responsive epithelium proliferating under unrestrained PI3K-AKT signalling.
+- `connects-to` → **[Autophagy](../../03-molecular/autophagy/README.md)** — Suppressed autophagy: PTEN loss hyperactivates mTOR, which suppresses autophagy and shifts the balance toward growth — the rationale for trialling mTOR inhibitors (rapalogs) in Cowden syndrome.
 
 ---
 

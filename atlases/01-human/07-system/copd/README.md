@@ -292,6 +292,15 @@ cross_links:
   - target: 01-human/03-molecular/perforin
     relation: connects-to
     note: "Cytotoxic alveolar damage: CD8 T cells accumulating in COPD use perforin and granzyme to kill alveolar cells, contributing to the emphysematous loss of lung tissue."
+  - target: 01-human/03-molecular/vegf
+    relation: connects-to
+    note: "Alveolar maintenance: VEGF sustains the alveolar-capillary network, and its loss drives the endothelial and epithelial apoptosis behind emphysematous alveolar destruction in COPD."
+  - target: 01-human/03-molecular/il-17a
+    relation: connects-to
+    note: "Neutrophilic airways: IL-17A drives the neutrophil recruitment and mucus hypersecretion of the chronic bronchitis phenotype of COPD, sustaining its corticosteroid-resistant airway inflammation."
+  - target: 01-human/03-molecular/s100a8-a9
+    relation: connects-to
+    note: "Neutrophil alarmin: S100A8/A9 released by the neutrophils flooding the COPD airway amplifies inflammation and serves as a biomarker of disease activity and exacerbation."
 ---
 
 # COPD
@@ -526,6 +535,9 @@ COPD encompasses two overlapping pathological processes:
 - `connects-to` → **[NLRP3 Inflammasome](../../03-molecular/nlrp3-inflammasome/README.md)** — Inflammasome activation: cigarette smoke activates the NLRP3 inflammasome in airway cells, releasing IL-1β to amplify the chronic neutrophilic inflammation of COPD.
 - `connects-to` → **[CCL2](../../03-molecular/ccl2/README.md)** — Monocyte recruitment: CCL2 draws monocytes and macrophages into the COPD lung, where their proteases and cytokines drive the alveolar destruction of emphysema.
 - `connects-to` → **[Perforin](../../03-molecular/perforin/README.md)** — Cytotoxic alveolar damage: CD8 T cells accumulating in COPD use perforin and granzyme to kill alveolar cells, contributing to the emphysematous loss of lung tissue.
+- `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — Alveolar maintenance: VEGF sustains the alveolar-capillary network, and its loss drives the endothelial and epithelial apoptosis behind emphysematous alveolar destruction in COPD.
+- `connects-to` → **[IL-17A](../../03-molecular/il-17a/README.md)** — Neutrophilic airways: IL-17A drives the neutrophil recruitment and mucus hypersecretion of the chronic bronchitis phenotype of COPD, sustaining its corticosteroid-resistant airway inflammation.
+- `connects-to` → **[S100A8/A9](../../03-molecular/s100a8-a9/README.md)** — Neutrophil alarmin: S100A8/A9 released by the neutrophils flooding the COPD airway amplifies inflammation and serves as a biomarker of disease activity and exacerbation.
 
 ---
 
