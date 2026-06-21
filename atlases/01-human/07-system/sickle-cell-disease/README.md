@@ -298,6 +298,15 @@ cross_links:
   - target: 01-human/03-molecular/vegf
     relation: connects-to
     note: "Ischaemic angiogenesis: chronic hypoxia drives VEGF-mediated neovascularisation, underlying the proliferative sickle retinopathy and aberrant vessel growth that threaten vision in the disease."
+  - target: 01-human/03-molecular/von-willebrand-factor
+    relation: connects-to
+    note: "Adhesive vaso-occlusion: endothelial activation in sickle cell disease releases ultra-large von Willebrand factor multimers that, with relatively reduced ADAMTS13, promote platelet and sickle-cell adhesion in the microvasculature."
+  - target: 01-human/03-molecular/pf4
+    relation: connects-to
+    note: "Platelet thromboinflammation: chronically activated platelets in sickle cell disease release platelet factor 4 and procoagulant mediators that contribute to the thrombo-inflammation driving vaso-occlusive crises."
+  - target: 01-human/03-molecular/hepcidin
+    relation: connects-to
+    note: "Transfusional iron overload: repeated red-cell transfusions load the body with iron, and the resulting parenchymal iron deposition (with dysregulated hepcidin) damages heart, liver and endocrine organs unless chelated."
 ---
 
 # Sickle Cell Disease
@@ -550,6 +559,9 @@ SCD vaso-occlusion is not just from sickled RBCs mechanically blocking vessels �
 - `connects-to` → **[TLR4](../../03-molecular/tlr4/README.md)** — Heme danger signal: free heme released by intravascular haemolysis acts as a TLR4 agonist, driving the sterile inflammation and endothelial activation that initiate vaso-occlusive crises.
 - `connects-to` → **[S100A8/A9](../../03-molecular/s100a8-a9/README.md)** — Neutrophil alarmin: S100A8/A9 from activated neutrophils amplifies the inflammation and adhesion of sickle cell disease, contributing to the leukocyte-driven vaso-occlusion of painful crises.
 - `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — Ischaemic angiogenesis: chronic hypoxia drives VEGF-mediated neovascularisation, underlying the proliferative sickle retinopathy and aberrant vessel growth that threaten vision in the disease.
+- `connects-to` → **[von Willebrand factor](../../03-molecular/von-willebrand-factor/README.md)** — Endothelial activation in sickle cell disease releases ultra-large von Willebrand factor multimers that, with relatively reduced ADAMTS13 activity, promote the platelet and sickle-cell adhesion that occludes the microvasculature.
+- `connects-to` → **[PF4](../../03-molecular/pf4/README.md)** — Chronically activated platelets in sickle cell disease release platelet factor 4 and procoagulant mediators that contribute to the thrombo-inflammation and hypercoagulability driving vaso-occlusive crises and stroke risk.
+- `connects-to` → **[Hepcidin](../../03-molecular/hepcidin/README.md)** — Repeated red-cell transfusions load the body with iron, and the resulting parenchymal iron deposition damages the heart, liver, and endocrine organs unless removed by chelation—a major long-term complication of transfusion-dependent disease.
 
 [^steinberg-1999-scd-management]: Steinberg MH. Management of sickle cell disease. *N Engl J Med.* 1999;340(13):1021-1030. [doi:10.1056/NEJM199904013401307](https://doi.org/10.1056/NEJM199904013401307) · [PubMed 10099145](https://pubmed.ncbi.nlm.nih.gov/10099145/)
 [^vichinsky-2000-acs-scd]: Vichinsky EP, Neumayr LD, Earles AN, et al. Causes and outcomes of the acute chest syndrome in sickle cell disease. *N Engl J Med.* 2000;342(25):1855-1865. [doi:10.1056/NEJM200006223422502](https://doi.org/10.1056/NEJM200006223422502) · [PubMed 10861320](https://pubmed.ncbi.nlm.nih.gov/10861320/)

@@ -298,6 +298,15 @@ cross_links:
   - target: 01-human/03-molecular/testosterone
     relation: connects-to
     note: "Dominance and submission: testosterone shifts social approach and threat vigilance, and lower testosterone tone is linked to the submissive, avoidant behaviour characteristic of social anxiety disorder."
+  - target: 01-human/03-molecular/mu-opioid-receptor
+    relation: connects-to
+    note: "Social reward and rejection: the μ-opioid system mediates the pleasure of social affiliation and the pain of rejection, and blunted μ-opioid signalling is linked to the rejection sensitivity central to social anxiety disorder."
+  - target: 01-human/03-molecular/estrogen
+    relation: connects-to
+    note: "Hormonal modulation: estrogen tunes the serotonergic and fear-circuit systems underlying anxiety, contributing to sex differences and the perimenstrual fluctuation in symptom severity in social anxiety disorder."
+  - target: 01-human/03-molecular/il-1b
+    relation: connects-to
+    note: "Social-stress neuroinflammation: social-defeat stress raises IL-1β in fear and reward circuits, part of the neuroimmune response that links chronic social stress to the heightened threat reactivity of social anxiety."
 ---
 
 # Social Anxiety Disorder
@@ -521,6 +530,9 @@ The unique **dopaminergic social reward deficit** in SAD has clinical implicatio
 - `connects-to` → **[Progesterone](../../03-molecular/progesterone/README.md)** — Neurosteroid tone: the progesterone metabolite allopregnanolone potentiates GABA-A receptors, so fluctuations in this anxiolytic neurosteroid modulate the threat reactivity of social anxiety disorder.
 - `connects-to` → **[Substance P](../../03-molecular/substance-p/README.md)** — Fear neuropeptide: substance P acting at NK1 receptors in the amygdala amplifies fear and stress responses, a pathway implicated in anxiety disorders including social anxiety.
 - `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — Dominance and submission: testosterone shifts social approach and threat vigilance, and lower testosterone tone is linked to the submissive, avoidant behaviour characteristic of social anxiety disorder.
+- `connects-to` → **[μ-opioid receptor](../../03-molecular/mu-opioid-receptor/README.md)** — The μ-opioid system mediates the pleasure of social affiliation and the pain of rejection, and blunted μ-opioid signaling is linked to the rejection sensitivity that is central to social anxiety disorder.
+- `connects-to` → **[Estrogen](../../03-molecular/estrogen/README.md)** — Estrogen tunes the serotonergic and fear-circuit systems underlying anxiety, contributing to the sex differences and the perimenstrual fluctuation in symptom severity seen in social anxiety disorder.
+- `connects-to` → **[IL-1β](../../03-molecular/il-1b/README.md)** — Social-defeat stress raises IL-1β in fear and reward circuits, part of the neuroimmune response that links chronic social stress to the heightened threat reactivity and avoidance of social anxiety disorder.
 
 [^liebowitz-1987-sad-scale]: Liebowitz MR. Social phobia. *Mod Probl Pharmacopsychiatry.* 1987;22:141-173. [PubMed 2885745](https://pubmed.ncbi.nlm.nih.gov/2885745/)
 [^stein-2008-sad-review]: Stein MB, Stein DJ. Social anxiety disorder. *Lancet.* 2008;371(9618):1115-1125. [doi:10.1016/S0140-6736(08)60488-2](https://doi.org/10.1016/S0140-6736(08)60488-2) · [PubMed 18374843](https://pubmed.ncbi.nlm.nih.gov/18374843/)
