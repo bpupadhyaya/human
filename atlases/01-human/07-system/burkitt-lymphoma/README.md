@@ -295,6 +295,15 @@ cross_links:
   - target: 01-human/03-molecular/caspase-3
     relation: connects-to
     note: "Apoptotic priming: high MYC primes Burkitt cells for apoptosis, so chemotherapy readily triggers caspase-3-mediated cell death — the basis of the tumour's striking chemosensitivity and curability."
+  - target: 01-human/03-molecular/btk
+    relation: connects-to
+    note: "Tonic BCR signalling: BTK transduces the tonic B-cell-receptor signal that, with PI3K, sustains Burkitt lymphoma — a tonic (rather than chronic-active) BCR dependency distinct from that of other aggressive lymphomas."
+  - target: 01-human/03-molecular/cxcl12
+    relation: connects-to
+    note: "Marrow and CNS spread: CXCR4 on Burkitt cells follows CXCL12 gradients into the bone marrow and central nervous system, the dissemination pattern that mandates intensive CNS-directed prophylaxis in treatment."
+  - target: 01-human/03-molecular/mdm2
+    relation: connects-to
+    note: "p53 restraint: MDM2 restrains the strong pro-apoptotic p53 response that MYC overexpression provokes, so the MDM2-p53 balance shapes how readily Burkitt cells die — relevant when TP53 is intact."
 ---
 
 # Burkitt Lymphoma
@@ -522,6 +531,9 @@ FISH for MYC, BCL2, and BCL6 is essential; if BCL2 FISH negative and Ki-67 ~100%
 - `connects-to` → **[PIK3CA](../../03-molecular/pik3ca/README.md)** — Tonic BCR-PI3K: chronic tonic B-cell-receptor signalling through PI3K cooperates with MYC in Burkitt lymphoma, a recurrently mutated pathway essential for the malignant B cells' survival.
 - `connects-to` → **[Xanthine Oxidase](../../03-molecular/xanthine-oxidase/README.md)** — Tumour lysis syndrome: the explosive cell turnover of Burkitt lymphoma floods the blood with purines that xanthine oxidase converts to uric acid, causing the tumour lysis syndrome that rasburicase and allopurinol prevent.
 - `connects-to` → **[Caspase-3](../../03-molecular/caspase-3/README.md)** — Apoptotic priming: high MYC primes Burkitt cells for apoptosis, so chemotherapy readily triggers caspase-3-mediated cell death — the basis of the tumour's striking chemosensitivity and curability.
+- `connects-to` → **[BTK](../../03-molecular/btk/README.md)** — BTK transduces the tonic B-cell-receptor signal that, with PI3K, sustains Burkitt lymphoma—a tonic rather than chronic-active BCR dependency that distinguishes its signaling from other aggressive B-cell lymphomas.
+- `connects-to` → **[CXCL12](../../03-molecular/cxcl12/README.md)** — CXCR4 on Burkitt cells follows CXCL12 gradients into the bone marrow and central nervous system, the dissemination pattern that makes intensive CNS-directed prophylaxis essential in Burkitt-lymphoma therapy.
+- `connects-to` → **[MDM2](../../03-molecular/mdm2/README.md)** — MDM2 restrains the strong pro-apoptotic p53 response that MYC overexpression provokes, so the MDM2-p53 balance shapes how readily Burkitt cells undergo apoptosis when their TP53 is still intact.
 
 ---
 

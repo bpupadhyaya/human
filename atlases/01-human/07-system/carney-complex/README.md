@@ -295,6 +295,15 @@ cross_links:
   - target: 01-human/03-molecular/activin-a
     relation: connects-to
     note: "Gonadal tumours: the activin-inhibin axis of Sertoli cells is engaged by the large-cell calcifying Sertoli cell tumours that are a characteristic gonadal manifestation of Carney complex."
+  - target: 01-human/03-molecular/gsk-3b
+    relation: connects-to
+    note: "PKA-Wnt crosstalk: unrestrained PKA from PRKAR1A loss phosphorylates and inhibits GSK-3β, stabilising β-catenin to drive the proliferation of the adrenal and other tumours of Carney complex."
+  - target: 01-human/03-molecular/foxo1
+    relation: connects-to
+    note: "Dysregulated transcriptional output: constitutive PKA and AKT signalling in PRKAR1A-deficient cells alters FOXO transcription factors governing proliferation and survival, part of the growth dysregulation of Carney complex."
+  - target: 01-human/03-molecular/tgf-beta
+    relation: connects-to
+    note: "Myxoma matrix: TGF-β drives the myxoid extracellular-matrix deposition of the cardiac and cutaneous myxomas of Carney complex, the gelatinous tumours whose embolisation and obstruction are a leading cause of morbidity."
 ---
 
 # Carney Complex
@@ -509,6 +518,9 @@ PRKAR1A somatic LOH occurs in ~15-20% of sporadic adrenocortical adenomas and ca
 - `connects-to` → **[Thyroid Hormones](../../03-molecular/thyroid-hormones/README.md)** — Thyroid neoplasia: PKA hyperactivity from PRKAR1A loss predisposes to thyroid nodules and follicular thyroid carcinoma, part of the multi-endocrine tumour spectrum of Carney complex.
 - `connects-to` → **[KIT](../../03-molecular/kit/README.md)** — Melanocytic lesions: KIT signalling underlies melanocyte biology, relevant to the spotty lentiginous pigmentation and blue naevi that are diagnostic hallmarks of Carney complex.
 - `connects-to` → **[Activin A](../../03-molecular/activin-a/README.md)** — Gonadal tumours: the activin-inhibin axis of Sertoli cells is engaged by the large-cell calcifying Sertoli cell tumours that are a characteristic gonadal manifestation of Carney complex.
+- `connects-to` → **[GSK-3β](../../03-molecular/gsk-3b/README.md)** — Unrestrained PKA from PRKAR1A loss phosphorylates and inhibits GSK-3β, stabilizing β-catenin to drive the proliferation of the adrenal (PPNAD) and other tumors of Carney complex—linking the cAMP-PKA defect to Wnt signaling.
+- `connects-to` → **[FOXO1](../../03-molecular/foxo1/README.md)** — Constitutive PKA and AKT signaling in PRKAR1A-deficient cells alters FOXO transcription factors governing proliferation and survival, part of the broad growth dysregulation underlying the multiple tumors of Carney complex.
+- `connects-to` → **[TGF-β](../../03-molecular/tgf-beta/README.md)** — TGF-β drives the myxoid extracellular-matrix deposition of the cardiac and cutaneous myxomas of Carney complex—the gelatinous tumors whose embolization and intracardiac obstruction are a leading cause of morbidity and death.
 
 ---
 
