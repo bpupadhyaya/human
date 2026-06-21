@@ -292,6 +292,15 @@ cross_links:
   - target: 01-human/03-molecular/hif-1alpha
     relation: connects-to
     note: "Tumour hypoxia: HIF-1α stabilised in hypoxic NSCLC drives angiogenesis and a treatment-resistant, metastatic phenotype linked to poor prognosis."
+  - target: 01-human/03-molecular/ccl2
+    relation: connects-to
+    note: "Immunosuppressive microenvironment: NSCLC tumours secrete CCL2 to recruit monocytes that become tumour-associated macrophages, building the myeloid niche that blunts T-cell responses and dampens checkpoint-inhibitor efficacy."
+  - target: 01-human/03-molecular/tgf-beta
+    relation: connects-to
+    note: "EMT and immune exclusion: TGF-β in the NSCLC stroma drives epithelial-mesenchymal transition that fuels invasion and TKI resistance, while excluding T cells from the tumour to create an immunotherapy-resistant 'cold' phenotype."
+  - target: 01-human/03-molecular/cgas-sting
+    relation: connects-to
+    note: "Innate-immune sensing: radiation and chemotherapy in NSCLC release cytosolic DNA that activates cGAS-STING, generating type-I interferon that can prime anti-tumour T cells — the rationale for STING agonists combined with checkpoint blockade."
 ---
 
 # NSCLC
@@ -484,6 +493,9 @@ cross_links:
 - `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — PI3K/AKT survival: AKT, activated downstream of EGFR and PIK3CA, drives NSCLC survival and underlies resistance to EGFR-targeted therapy.
 - `connects-to` → **[Cyclin D1](../../03-molecular/cyclin-d1/README.md)** — Cell-cycle drive: with CDKN2A loss common in NSCLC, cyclin D1-CDK4/6 activity pushes tumour cells through the G1 checkpoint, a candidate therapeutic vulnerability.
 - `connects-to` → **[HIF-1α](../../03-molecular/hif-1alpha/README.md)** — Tumour hypoxia: HIF-1α stabilised in hypoxic NSCLC drives angiogenesis and a treatment-resistant, metastatic phenotype linked to poor prognosis.
+- `connects-to` → **[CCL2](../../03-molecular/ccl2/README.md)** — NSCLC tumors secrete CCL2 to recruit monocytes that become tumor-associated macrophages, building the myeloid niche that blunts T-cell responses and dampens checkpoint-inhibitor efficacy—an immunosuppressive arm orthogonal to the oncogene drivers.
+- `connects-to` → **[TGF-β](../../03-molecular/tgf-beta/README.md)** — TGF-β in the NSCLC stroma drives the epithelial-mesenchymal transition that fuels invasion and TKI resistance, while excluding T cells from the tumor to create the immunotherapy-resistant "cold" phenotype that limits checkpoint-inhibitor benefit.
+- `connects-to` → **[cGAS-STING](../../03-molecular/cgas-sting/README.md)** — Radiation and chemotherapy in NSCLC release cytosolic DNA that activates cGAS-STING, generating type-I interferon that can prime anti-tumor T cells—the mechanistic rationale for combining STING agonists or radiation with checkpoint blockade.
 
 [^soria-2018-osimertinib-flaura]: Soria JC, Ohe Y, Vansteenkiste J, et al. Osimertinib in untreated EGFR-mutated advanced non-small-cell lung cancer. *N Engl J Med.* 2018;378(2):113-125. [doi:10.1056/NEJMoa1713137](https://doi.org/10.1056/NEJMoa1713137) · [PubMed 29151359](https://pubmed.ncbi.nlm.nih.gov/29151359/)
 [^reck-2016-pembrolizumab-keynote024]: Reck M, Rodríguez-Abreu D, Robinson AG, et al. Pembrolizumab versus chemotherapy for PD-L1-positive non-small-cell lung cancer. *N Engl J Med.* 2016;375(19):1823-1833. [doi:10.1056/NEJMoa1606774](https://doi.org/10.1056/NEJMoa1606774) · [PubMed 27718347](https://pubmed.ncbi.nlm.nih.gov/27718347/)
