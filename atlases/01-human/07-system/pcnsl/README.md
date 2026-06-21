@@ -286,6 +286,15 @@ cross_links:
   - target: 01-human/03-molecular/hif-1alpha
     relation: connects-to
     note: "Tumour hypoxia: HIF-1α stabilised in the hypoxic CNS lymphoma drives the metabolic adaptation and angiogenesis that support its growth within the brain."
+  - target: 01-human/03-molecular/jak1-2
+    relation: connects-to
+    note: "Cytokine survival loop: autocrine IL-6 in PCNSL signals through JAK1/2-STAT3 to sustain the malignant B cells, an axis layered on the MYD88-driven NF-κB activation that defines this ABC-type lymphoma."
+  - target: 01-human/03-molecular/mtor
+    relation: connects-to
+    note: "PI3K-AKT-mTOR drive: constitutive BCR and MYD88 signalling converge on PI3K-AKT-mTOR in PCNSL, driving the protein synthesis and proliferation that fuel its rapid intracerebral growth."
+  - target: 01-human/03-molecular/mhc-class-ii
+    relation: connects-to
+    note: "Immune escape: PCNSL frequently deletes the 6p21 HLA region and loses MHC class II expression, blunting antigen presentation so the tumour evades immune surveillance within the immune-privileged CNS."
 ---
 
 # Primary CNS Lymphoma
@@ -489,6 +498,9 @@ Score 0-1: 2-year OS ~80%; Score 2-3: ~48%; Score 4-5: ~15%
 - `connects-to` → **[Cyclin D1](../../03-molecular/cyclin-d1/README.md)** — Cell-cycle drive: with CDKN2A loss frequent in PCNSL, cyclin D-CDK4/6 activity propels the lymphoma cells through the G1 checkpoint.
 - `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — CNS angiogenesis: VEGF drives the angiogenesis of these brain lymphomas, whose angiocentric growth pattern wraps proliferating B cells around cerebral vessels.
 - `connects-to` → **[HIF-1α](../../03-molecular/hif-1alpha/README.md)** — Tumour hypoxia: HIF-1α stabilised in the hypoxic CNS lymphoma drives the metabolic adaptation and angiogenesis that support its growth within the brain.
+- `connects-to` → **[JAK1/2](../../03-molecular/jak1-2/README.md)** — Autocrine IL-6 in PCNSL signals through JAK1/2-STAT3 to sustain the malignant B cells, a cytokine survival loop layered on the MYD88-driven NF-κB activation that defines this ABC-type CNS lymphoma.
+- `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — Constitutive B-cell-receptor and MYD88 signaling converge on PI3K-AKT-mTOR in PCNSL, driving the protein synthesis and proliferation that fuel its rapid intracerebral growth and underpin trials of mTOR-pathway inhibitors.
+- `connects-to` → **[MHC class II](../../03-molecular/mhc-class-ii/README.md)** — PCNSL frequently deletes the 6p21 HLA region and loses MHC class II expression, blunting antigen presentation so the tumor evades immune surveillance within the already immune-privileged central nervous system.
 
 [^bromberg-2019-hovon105]: Bromberg JE, Issa S, Bakunina K, et al. Rituximab in patients with primary CNS lymphoma (HOVON 105/ALLG NHL 24): a randomised, open-label, phase 3 intergroup study. *Lancet Oncol.* 2019;20(2):216-228. [doi:10.1016/S1470-2045(18)30747-2](https://doi.org/10.1016/S1470-2045(18)30747-2) · [PubMed 30528440](https://pubmed.ncbi.nlm.nih.gov/30528440/)
 [^grommes-2017-ibrutinib-pcnsl]: Grommes C, Pastore A, Palaskas N, et al. Ibrutinib unmasks critical role of Bruton tyrosine kinase in primary CNS lymphoma. *Cancer Cell.* 2017;31(6):833-843. [doi:10.1016/j.ccell.2017.04.012](https://doi.org/10.1016/j.ccell.2017.04.012) · [PubMed 28552327](https://pubmed.ncbi.nlm.nih.gov/28552327/)

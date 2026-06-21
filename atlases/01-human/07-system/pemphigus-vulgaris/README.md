@@ -292,6 +292,15 @@ cross_links:
   - target: 01-human/04-cellular/macrophage
     relation: connects-to
     note: "Lesional infiltrate: macrophages recruited to pemphigus lesions secrete cytokines and proteases that contribute to the inflammation around the blistering epidermis."
+  - target: 01-human/03-molecular/src-kinase
+    relation: connects-to
+    note: "Acantholytic signalling: anti-desmoglein-3 antibody binding triggers Src and EGFR phosphorylation in keratinocytes, the intracellular signalling cascade that drives the cell-cell detachment (acantholysis) of pemphigus blistering."
+  - target: 01-human/03-molecular/caspase-3
+    relation: connects-to
+    note: "Apoptolysis: pemphigus autoantibodies activate caspase-3-mediated apoptotic pathways in keratinocytes, the 'apoptolysis' that contributes to cell shrinkage and detachment alongside direct desmosomal disruption."
+  - target: 01-human/03-molecular/ctla-4
+    relation: connects-to
+    note: "T-cell costimulation: autoreactive desmoglein-specific T-helper cells provide the help for autoantibody production in pemphigus, the rationale for CTLA-4-Ig (abatacept) costimulation blockade under study in the disease."
 ---
 
 # Pemphigus Vulgaris
@@ -527,6 +536,9 @@ Pemphigus belongs to the **pemphigus group of autoimmune bullous diseases** (AIB
 - `connects-to` → **[IL-10](../../03-molecular/il-10/README.md)** — Regulatory imbalance: defective IL-10 and regulatory T-cell function in pemphigus vulgaris fails to restrain the autoreactive B cells producing anti-desmoglein antibodies.
 - `connects-to` → **[NLRP3 Inflammasome](../../03-molecular/nlrp3-inflammasome/README.md)** — Inflammasome activation: NLRP3-inflammasome activation in pemphigus skin matures IL-1β, amplifying the inflammation that accompanies acantholytic blistering.
 - `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — Lesional infiltrate: macrophages recruited to pemphigus lesions secrete cytokines and proteases that contribute to the inflammation around the blistering epidermis.
+- `connects-to` → **[Src kinase](../../03-molecular/src-kinase/README.md)** — Anti-desmoglein-3 antibody binding triggers Src and EGFR phosphorylation in keratinocytes, the intracellular signaling cascade that drives the cell-cell detachment (acantholysis) of pemphigus blistering beyond simple steric disruption of desmosomes.
+- `connects-to` → **[Caspase-3](../../03-molecular/caspase-3/README.md)** — Pemphigus autoantibodies activate caspase-3-mediated apoptotic pathways in keratinocytes—the "apoptolysis" that contributes to cell shrinkage and detachment alongside the direct desmosomal disruption that produces the suprabasal split.
+- `connects-to` → **[CTLA-4](../../03-molecular/ctla-4/README.md)** — Autoreactive desmoglein-specific T-helper cells provide the help that licenses autoantibody production in pemphigus, the rationale for CTLA-4-Ig (abatacept) costimulation blockade being explored to switch off the autoreactive response.
 
 ---
 
