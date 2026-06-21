@@ -298,6 +298,15 @@ cross_links:
   - target: 01-human/03-molecular/vegf
     relation: connects-to
     note: "Angiogenesis-osteogenesis coupling: VEGF links blood-vessel growth to bone formation, and the decline in skeletal angiogenesis with ageing contributes to the impaired bone renewal of osteoporosis."
+  - target: 01-human/03-molecular/caspase-3
+    relation: connects-to
+    note: "Osteocyte apoptosis: oestrogen deficiency and glucocorticoids trigger caspase-3-mediated apoptosis of osteocytes, disrupting the mechanosensory network that directs bone repair and weakening bone in osteoporosis."
+  - target: 01-human/03-molecular/prostaglandins
+    relation: connects-to
+    note: "Remodelling mediator: prostaglandin E2 modulates both bone formation and resorption and participates in the response to mechanical loading, part of the eicosanoid control of the remodelling balance lost in osteoporosis."
+  - target: 01-human/03-molecular/nitric-oxide
+    relation: connects-to
+    note: "Mechanotransduction: osteocytes release nitric oxide in response to mechanical load to stimulate bone formation, so the loss of this signal during disuse and immobilisation accelerates bone loss in osteoporosis."
 ---
 
 # Osteoporosis
@@ -499,6 +508,9 @@ All newly diagnosed osteoporosis should be evaluated for secondary causes: CBC (
 - `connects-to` → **[Glucocorticoid Receptor](../../03-molecular/glucocorticoid-receptor/README.md)** — Steroid-induced bone loss: glucocorticoids acting through their receptor suppress osteoblasts and promote osteoclast survival, making glucocorticoid-induced osteoporosis the commonest drug-related secondary cause.
 - `connects-to` → **[Osteopontin](../../03-molecular/osteopontin/README.md)** — Matrix and resorption: osteopontin anchors osteoclasts to the bone surface and regulates mineralisation, so its role in bone remodelling ties into the resorption-formation imbalance of osteoporosis.
 - `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — Angiogenesis-osteogenesis coupling: VEGF links blood-vessel growth to bone formation, and the decline in skeletal angiogenesis with ageing contributes to the impaired bone renewal of osteoporosis.
+- `connects-to` → **[Caspase-3](../../03-molecular/caspase-3/README.md)** — Estrogen deficiency and glucocorticoids trigger caspase-3-mediated apoptosis of osteocytes, disrupting the mechanosensory network that directs targeted bone repair and weakening bone independent of changes in bone density.
+- `connects-to` → **[Prostaglandins](../../03-molecular/prostaglandins/README.md)** — Prostaglandin E2 modulates both bone formation and resorption and participates in the skeletal response to mechanical loading, part of the eicosanoid control of the remodeling balance that tips toward loss in osteoporosis.
+- `connects-to` → **[Nitric oxide](../../03-molecular/nitric-oxide/README.md)** — Osteocytes release nitric oxide in response to mechanical load to stimulate bone formation, so the loss of this signal during disuse, immobilization, and spaceflight accelerates the bone loss of osteoporosis.
 
 [^kanis-2019-who-osteoporosis]: Kanis JA, Cooper C, Rizzoli R, Reginster JY. European guidance for the diagnosis and management of osteoporosis in postmenopausal women. *Osteoporos Int.* 2019;30(1):3-44. [doi:10.1007/s00198-018-4704-5](https://doi.org/10.1007/s00198-018-4704-5) · [PubMed 30324412](https://pubmed.ncbi.nlm.nih.gov/30324412/)
 [^cosman-2016-romosozumab]: Cosman F, Crittenden DB, Adachi JD, et al. Romosozumab treatment in postmenopausal women with osteoporosis. *N Engl J Med.* 2016;375(16):1532-1543. [doi:10.1056/NEJMoa1607948](https://doi.org/10.1056/NEJMoa1607948) · [PubMed 27641143](https://pubmed.ncbi.nlm.nih.gov/27641143/)
