@@ -295,6 +295,15 @@ cross_links:
   - target: 01-human/03-molecular/s100a8-a9
     relation: connects-to
     note: "Alarmin feed-forward: S100A8/A9 released by activated myeloid cells acts on TLR4 to further amplify cytokine production, a feed-forward alarmin loop that sustains the cytokine storm."
+  - target: 01-human/03-molecular/fibrinogen
+    relation: connects-to
+    note: "Consumptive coagulopathy: the cytokine storm of HLH/MAS consumes fibrinogen into disseminated coagulation, so falling fibrinogen alongside soaring ferritin is a diagnostic hallmark of the hyperinflammatory state."
+  - target: 01-human/03-molecular/rage
+    relation: connects-to
+    note: "HMGB1 sustainer: HMGB1 released by dying and activated cells signals through RAGE as a late mediator that perpetuates the cytokine storm, sustaining inflammation beyond the initial trigger."
+  - target: 01-human/03-molecular/cgas-sting
+    relation: connects-to
+    note: "Mitochondrial-DNA amplification: mitochondrial DNA and other DAMPs released during the cytokine storm activate cGAS-STING, adding a type-I-interferon arm to the runaway innate-immune activation."
 ---
 
 # Cytokine Storm
@@ -478,6 +487,9 @@ CS drives a **consumptive coagulopathy (DIC)**:
 - `connects-to` → **[CCL2](../../03-molecular/ccl2/README.md)** — Monocyte mobilisation: CCL2 floods the circulation in cytokine storm, recruiting and activating monocytes and macrophages that pour out IL-6 and TNF in the self-amplifying inflammatory cascade.
 - `connects-to` → **[TLR4](../../03-molecular/tlr4/README.md)** — Ignition by DAMPs and PAMPs: TLR4 sensing of bacterial LPS and host damage signals is a key trigger that ignites the NF-κB-driven cytokine release initiating the storm.
 - `connects-to` → **[S100A8/A9](../../03-molecular/s100a8-a9/README.md)** — Alarmin feed-forward: S100A8/A9 released by activated myeloid cells acts on TLR4 to further amplify cytokine production, a feed-forward alarmin loop that sustains the cytokine storm.
+- `connects-to` → **[Fibrinogen](../../03-molecular/fibrinogen/README.md)** — The cytokine storm of HLH/MAS consumes fibrinogen into disseminated coagulation, so falling fibrinogen alongside soaring ferritin is a diagnostic hallmark of the hyperinflammatory state and a marker of severity.
+- `connects-to` → **[RAGE](../../03-molecular/rage/README.md)** — HMGB1 released by dying and activated cells signals through RAGE as a late mediator that perpetuates the cytokine storm, sustaining the inflammatory cascade well beyond the initial infectious or therapeutic trigger.
+- `connects-to` → **[cGAS-STING](../../03-molecular/cgas-sting/README.md)** — Mitochondrial DNA and other DAMPs released during the cytokine storm activate cGAS-STING, adding a type-I-interferon arm to the runaway innate-immune activation that defines the hyperinflammatory state.
 
 ## Pathology
 

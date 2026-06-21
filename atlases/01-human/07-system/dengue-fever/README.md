@@ -295,6 +295,15 @@ cross_links:
   - target: 01-human/03-molecular/ccl2
     relation: connects-to
     note: "Monocyte target and recruitment: CCL2 recruits the monocytes that are dengue's principal host cell, amplifying infection and the inflammatory response that drives vascular leak."
+  - target: 01-human/03-molecular/von-willebrand-factor
+    relation: connects-to
+    note: "Endothelial activation: dengue activates the endothelium to release von Willebrand factor, contributing to the platelet consumption and vascular dysfunction behind the bleeding and plasma leak of severe disease."
+  - target: 01-human/03-molecular/thrombopoietin
+    relation: connects-to
+    note: "Thrombocytopenia: dengue causes marrow suppression and peripheral platelet consumption, and the thrombopoietin-driven recovery of platelet counts tracks the resolution of the thrombocytopenia central to the disease."
+  - target: 01-human/03-molecular/perforin
+    relation: connects-to
+    note: "T-cell immunopathology: in secondary dengue infection, cross-reactive CD8 T cells deploy perforin in a way that injures the endothelium, contributing to the immunopathological plasma leak of severe dengue."
 ---
 
 # Dengue Fever
@@ -499,3 +508,6 @@ No approved antiviral therapy for dengue. Management is entirely supportive:
 - `connects-to` → **[Angiopoietin](../../03-molecular/angiopoietin/README.md)** — Endothelial destabilisation: a surge in angiopoietin-2 over angiopoietin-1 disrupts the Tie2-stabilised endothelium in severe dengue, a key driver of the plasma leak that causes dengue shock syndrome.
 - `connects-to` → **[Complement C5](../../03-molecular/complement-c5/README.md)** — Terminal complement: complement activation through to C5 contributes to the endothelial injury and vascular permeability of severe dengue, part of the immunopathology of haemorrhagic disease.
 - `connects-to` → **[CCL2](../../03-molecular/ccl2/README.md)** — Monocyte target and recruitment: CCL2 recruits the monocytes that are dengue's principal host cell, amplifying infection and the inflammatory response that drives vascular leak.
+- `connects-to` → **[von Willebrand factor](../../03-molecular/von-willebrand-factor/README.md)** — Dengue activates the endothelium to release von Willebrand factor, contributing to the platelet consumption and microvascular dysfunction behind the bleeding and plasma leak of severe dengue.
+- `connects-to` → **[Thrombopoietin](../../03-molecular/thrombopoietin/README.md)** — Dengue causes both marrow suppression and peripheral platelet consumption, and thrombopoietin-driven recovery of platelet counts tracks the resolution of the thrombocytopenia that is a defining laboratory feature and bleeding risk.
+- `connects-to` → **[Perforin](../../03-molecular/perforin/README.md)** — In secondary dengue infection, cross-reactive CD8 T cells deploy perforin in a way that injures the endothelium, contributing to the immunopathological plasma leak that drives dengue hemorrhagic fever and shock.
