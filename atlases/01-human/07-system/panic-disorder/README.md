@@ -292,6 +292,15 @@ cross_links:
   - target: 01-human/03-molecular/tnf-alpha
     relation: connects-to
     note: "Stress cytokine: raised TNF-α accompanies panic disorder, reflecting the neuroimmune activation increasingly implicated in anxiety disorders."
+  - target: 01-human/03-molecular/serotonin-transporter
+    relation: connects-to
+    note: "First-line drug target: SSRIs that block the serotonin transporter are the pharmacological mainstay of panic disorder, and the 5-HTTLPR transporter polymorphism modulates susceptibility and treatment response."
+  - target: 01-human/03-molecular/mu-opioid-receptor
+    relation: connects-to
+    note: "Suffocation alarm: the opioidergic-deficit hypothesis holds that blunted endogenous opioid tone leaves the brainstem suffocation alarm hypersensitive to CO2, helping explain the spontaneous panic attacks of panic disorder."
+  - target: 01-human/03-molecular/il-1b
+    relation: connects-to
+    note: "Neuroinflammation: IL-1β is among the inflammatory cytokines elevated in panic disorder, contributing to the HPA-axis activation and neuroimmune signalling that accompany recurrent panic."
 ---
 
 # Panic Disorder
@@ -528,6 +537,9 @@ The **interoceptive fear conditioning model** (Bouton, Mineka, Barlow) explains 
 - `connects-to` → **[Acetylcholine](../../03-molecular/acetylcholine/README.md)** — Cholinergic provocation: cholinergic agents can provoke panic-like attacks, and the cholinergic system modulates the respiratory and arousal circuits implicated in panic disorder.
 - `connects-to` → **[IL-6](../../03-molecular/il-6/README.md)** — Inflammatory anxiety: elevated IL-6 is found in panic disorder, part of the bidirectional link between chronic anxiety and low-grade systemic inflammation.
 - `connects-to` → **[TNF-α](../../03-molecular/tnf-alpha/README.md)** — Stress cytokine: raised TNF-α accompanies panic disorder, reflecting the neuroimmune activation increasingly implicated in anxiety disorders.
+- `connects-to` → **[Serotonin transporter](../../03-molecular/serotonin-transporter/README.md)** — SSRIs that block the serotonin transporter are the pharmacological mainstay of panic disorder, and the 5-HTTLPR transporter polymorphism modulates both susceptibility to panic and the response to treatment.
+- `connects-to` → **[μ-opioid receptor](../../03-molecular/mu-opioid-receptor/README.md)** — The opioidergic-deficit hypothesis holds that blunted endogenous opioid tone leaves the brainstem suffocation alarm hypersensitive to CO2, helping explain the spontaneous, unprovoked panic attacks that distinguish panic disorder from situational anxiety.
+- `connects-to` → **[IL-1β](../../03-molecular/il-1b/README.md)** — IL-1β is among the inflammatory cytokines elevated in panic disorder, contributing to the HPA-axis activation and neuroimmune signaling that accompany recurrent panic and tie anxiety to systemic inflammation.
 
 [^gorman-2000-panic-neurobiology]: Gorman JM, Kent JM, Sullivan GM, Coplan JD. Neuroanatomical hypothesis of panic disorder, revised. *Am J Psychiatry.* 2000;157(4):493-505. [doi:10.1176/appi.ajp.157.4.493](https://doi.org/10.1176/appi.ajp.157.4.493) · [PubMed 10739407](https://pubmed.ncbi.nlm.nih.gov/10739407/)
 [^nardi-2009-clonazepam-panic]: Nardi AE, Freire RC, Zin WA. Panic disorder and control of breathing. *Respir Physiol Neurobiol.* 2009;167(1):133-143. [doi:10.1016/j.resp.2008.07.011](https://doi.org/10.1016/j.resp.2008.07.011) · [PubMed 18708168](https://pubmed.ncbi.nlm.nih.gov/18708168/)

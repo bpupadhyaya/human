@@ -292,6 +292,15 @@ cross_links:
   - target: 01-human/03-molecular/ezh2
     relation: connects-to
     note: "Epigenetic driver: EZH2 overexpression silences tumour-suppressor genes in pancreatic cancer, promoting proliferation and metastasis as an epigenetic target."
+  - target: 01-human/03-molecular/ccl2
+    relation: connects-to
+    note: "Myeloid immunosuppression: pancreatic cancer secretes CCL2 to recruit CCR2+ monocytes that become tumour-associated macrophages, a dominant arm of the immunosuppressive desmoplastic stroma that keeps PDAC resistant to checkpoint therapy."
+  - target: 01-human/03-molecular/il-6
+    relation: connects-to
+    note: "Cachexia and inflammation: tumour- and stroma-derived IL-6 drives the JAK-STAT3 signalling behind PDAC's profound cachexia and links chronic pancreatitis to pancreatic carcinogenesis."
+  - target: 01-human/03-molecular/smo
+    relation: connects-to
+    note: "Hedgehog desmoplasia: tumour SHH signals through stromal SMO to drive the dense fibrotic stroma that walls off PDAC, raising interstitial pressure and impeding chemotherapy delivery."
 ---
 
 # Pancreatic Cancer
@@ -503,6 +512,9 @@ cross_links:
 - `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — PI3K/AKT survival: AKT signalling downstream of KRAS sustains pancreatic cancer cell survival and metabolism, contributing to its profound treatment resistance.
 - `connects-to` → **[Cyclin D1](../../03-molecular/cyclin-d1/README.md)** — Cell-cycle drive: with CDKN2A loss near-universal in pancreatic cancer, cyclin D-CDK4/6 activity drives unrestrained passage through the G1 checkpoint.
 - `connects-to` → **[EZH2](../../03-molecular/ezh2/README.md)** — Epigenetic driver: EZH2 overexpression silences tumour-suppressor genes in pancreatic cancer, promoting proliferation and metastasis as an epigenetic target.
+- `connects-to` → **[CCL2](../../03-molecular/ccl2/README.md)** — Pancreatic cancer secretes CCL2 to recruit CCR2+ monocytes that become tumor-associated macrophages, a dominant arm of the immunosuppressive desmoplastic stroma that keeps PDAC resistant to checkpoint therapy despite high stromal content.
+- `connects-to` → **[IL-6](../../03-molecular/il-6/README.md)** — Tumor- and stroma-derived IL-6 drives the JAK-STAT3 signaling behind PDAC's profound cachexia, and chronic IL-6 inflammation links long-standing pancreatitis to the carcinogenesis that initiates the disease.
+- `connects-to` → **[SMO](../../03-molecular/smo/README.md)** — Tumor Sonic hedgehog signals through stromal SMO to drive the dense fibrotic stroma that walls off PDAC, raising interstitial pressure and impeding the chemotherapy delivery that makes this cancer so treatment-refractory.
 
 ---
 
