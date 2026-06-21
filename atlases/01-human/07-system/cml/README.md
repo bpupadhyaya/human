@@ -286,6 +286,15 @@ cross_links:
   - target: 01-human/03-molecular/vegf
     relation: connects-to
     note: "Marrow angiogenesis: BCR-ABL raises VEGF, increasing bone-marrow microvessel density to support the expanded leukaemic population of CML."
+  - target: 01-human/03-molecular/erk1-2
+    relation: connects-to
+    note: "RAS-ERK signalling: BCR-ABL constitutively activates the RAS-RAF-ERK cascade, a key proliferative output of the fusion kinase driving the myeloid expansion of chronic myeloid leukaemia."
+  - target: 01-human/03-molecular/cxcl12
+    relation: connects-to
+    note: "Stem-cell niche: CXCL12-CXCR4 signalling anchors leukaemic stem cells in the protective marrow niche, a sanctuary that shelters quiescent CML cells from tyrosine-kinase inhibitors."
+  - target: 01-human/03-molecular/runx1
+    relation: connects-to
+    note: "Blast-crisis transformation: acquired RUNX1 alterations contribute to the progression of chronic-phase CML to the aggressive, treatment-resistant blast crisis."
 ---
 
 # Chronic Myeloid Leukemia
@@ -488,6 +497,9 @@ Following the imatinib revolution, the current frontier is achieving **deep mole
 - `connects-to` → **[EZH2](../../03-molecular/ezh2/README.md)** — Blast-crisis epigenetics: EZH2 and PRC2 enforce a repressive chromatin state that contributes to the progression of CML from chronic phase to aggressive blast crisis.
 - `connects-to` → **[Cyclin D1](../../03-molecular/cyclin-d1/README.md)** — Cell-cycle drive: BCR-ABL signalling upregulates cyclin D and the cell-cycle machinery, pushing myeloid progenitors into the expanded proliferation of chronic myeloid leukaemia.
 - `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — Marrow angiogenesis: BCR-ABL raises VEGF, increasing bone-marrow microvessel density to support the expanded leukaemic population of CML.
+- `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — RAS-ERK signalling: BCR-ABL constitutively activates the RAS-RAF-ERK cascade, a key proliferative output of the fusion kinase driving the myeloid expansion of chronic myeloid leukaemia.
+- `connects-to` → **[CXCL12](../../03-molecular/cxcl12/README.md)** — Stem-cell niche: CXCL12-CXCR4 signalling anchors leukaemic stem cells in the protective marrow niche, a sanctuary that shelters quiescent CML cells from tyrosine-kinase inhibitors.
+- `connects-to` → **[RUNX1](../../03-molecular/runx1/README.md)** — Blast-crisis transformation: acquired RUNX1 alterations contribute to the progression of chronic-phase CML to the aggressive, treatment-resistant blast crisis.
 
 ---
 

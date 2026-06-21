@@ -286,6 +286,15 @@ cross_links:
   - target: 01-human/03-molecular/vegf
     relation: connects-to
     note: "Marrow angiogenesis: elevated VEGF increases bone-marrow microvessel density in CMML, part of the proliferative microenvironment of the disease."
+  - target: 01-human/03-molecular/erk1-2
+    relation: connects-to
+    note: "GM-CSF hypersensitivity: RAS-RAF-ERK hyperactivation makes CMML progenitors hypersensitive to GM-CSF, the signalling lesion behind the monocytic proliferation that defines the disease."
+  - target: 01-human/03-molecular/ptpn11
+    relation: connects-to
+    note: "RAS-pathway mutation: PTPN11 (SHP2) and other RAS-pathway mutations are recurrent in CMML, driving the ERK signalling that fuels its myelomonocytic expansion."
+  - target: 01-human/03-molecular/s100a8-a9
+    relation: connects-to
+    note: "Myeloid alarmin: S100A8/A9 from the expanded monocytes and neutrophils amplifies the inflammatory bone-marrow milieu of CMML, contributing to its dysplasia and systemic symptoms."
 ---
 
 # Chronic Myelomonocytic Leukemia
@@ -501,6 +510,9 @@ CMML → AML transformation (~15-30% at 5 years): Treat as secondary AML; CPX-35
 - `connects-to` → **[IL-1β](../../03-molecular/il-1b/README.md)** — Inflammatory cytokine: IL-1β from the dysplastic myeloid clone drives the inflammatory bone-marrow milieu of CMML, with IL-1 blockade explored to ease its symptoms.
 - `connects-to` → **[HIF-1α](../../03-molecular/hif-1alpha/README.md)** — Marrow hypoxia: HIF-1α stabilised in the crowded, hypoxic CMML marrow supports the survival and angiogenic signalling of the dysplastic clone.
 - `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — Marrow angiogenesis: elevated VEGF increases bone-marrow microvessel density in CMML, part of the proliferative microenvironment of the disease.
+- `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — GM-CSF hypersensitivity: RAS-RAF-ERK hyperactivation makes CMML progenitors hypersensitive to GM-CSF, the signalling lesion behind the monocytic proliferation that defines the disease.
+- `connects-to` → **[PTPN11](../../03-molecular/ptpn11/README.md)** — RAS-pathway mutation: PTPN11 (SHP2) and other RAS-pathway mutations are recurrent in CMML, driving the ERK signalling that fuels its myelomonocytic expansion.
+- `connects-to` → **[S100A8/A9](../../03-molecular/s100a8-a9/README.md)** — Myeloid alarmin: S100A8/A9 from the expanded monocytes and neutrophils amplifies the inflammatory bone-marrow milieu of CMML, contributing to its dysplasia and systemic symptoms.
 
 ---
 
