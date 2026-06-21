@@ -303,6 +303,15 @@ cross_links:
   - target: 01-human/03-molecular/tgf-beta
     relation: connects-to
     note: "Regulatory failure: impaired TGF-beta-dependent regulatory T-cell function permits the sustained autoreactivity against peripheral myelin that distinguishes chronic CIDP from self-limited Guillain-Barré."
+  - target: 01-human/03-molecular/tlr4
+    relation: connects-to
+    note: "Innate macrophage activation: TLR4 signalling primes the macrophages that, directed by autoantibody and complement, strip myelin from peripheral nerves in CIDP, the innate arm of the demyelinating attack."
+  - target: 01-human/03-molecular/cxcl12
+    relation: connects-to
+    note: "Blood-nerve trafficking: CXCL12 helps direct autoreactive leukocytes across the blood-nerve barrier into peripheral nerve in CIDP, a step in establishing the endoneurial inflammation that demyelinates."
+  - target: 01-human/03-molecular/ntrk
+    relation: connects-to
+    note: "Neurotrophic repair: NGF and BDNF signalling through Trk receptors supports the Schwann-cell remyelination and axonal repair that determine functional recovery between the relapses of CIDP."
 ---
 
 # CIDP
@@ -540,6 +549,9 @@ IgG4 anti-NF155 or anti-CNTN1 disrupts this complex → paranodal loop detachmen
 - `connects-to` → **[CCL2](../../03-molecular/ccl2/README.md)** — Macrophage recruitment: CCL2 draws the macrophages that strip myelin from peripheral nerves in CIDP, the chemokine axis behind the macrophage-mediated demyelination that is its histological hallmark.
 - `connects-to` → **[MHC Class II](../../03-molecular/mhc-class-ii/README.md)** — Antigen presentation: MHC class II presentation of peripheral-nerve myelin antigens to CD4 T cells initiates the autoimmune response that drives the demyelination of CIDP.
 - `connects-to` → **[TGF-beta](../../03-molecular/tgf-beta/README.md)** — Regulatory failure: impaired TGF-beta-dependent regulatory T-cell function permits the sustained autoreactivity against peripheral myelin that distinguishes chronic CIDP from self-limited Guillain-Barré.
+- `connects-to` → **[TLR4](../../03-molecular/tlr4/README.md)** — TLR4 signaling primes the macrophages that, directed by autoantibody and complement deposition, strip myelin from peripheral nerves in CIDP—the innate arm of the demyelinating attack alongside the adaptive response.
+- `connects-to` → **[CXCL12](../../03-molecular/cxcl12/README.md)** — CXCL12 helps direct autoreactive leukocytes across the blood-nerve barrier into peripheral nerve in CIDP, a trafficking step in establishing the endoneurial inflammation that drives demyelination.
+- `connects-to` → **[NTRK / TrkB](../../03-molecular/ntrk/README.md)** — NGF and BDNF signaling through Trk receptors supports the Schwann-cell remyelination and axonal repair that determine the functional recovery achieved between relapses of CIDP, and whose failure leads to fixed disability.
 
 ---
 

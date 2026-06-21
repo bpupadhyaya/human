@@ -295,6 +295,15 @@ cross_links:
   - target: 01-human/03-molecular/ccl2
     relation: connects-to
     note: "Macrophage microenvironment: CCL2 recruits tumour-associated macrophages into the chordoma stroma, shaping the immunosuppressive niche of this slow-growing but treatment-resistant tumour."
+  - target: 01-human/03-molecular/cxcl12
+    relation: connects-to
+    note: "Invasion and spread: the CXCL12-CXCR4 axis drives the local bone and soft-tissue invasion of chordoma and contributes to the late metastases that arise in a minority of these axial-skeleton tumours."
+  - target: 01-human/03-molecular/notch
+    relation: connects-to
+    note: "Notochordal programme: Notch signalling is active in chordoma and, with the master regulator brachyury, sustains the notochordal stem-like phenotype that defines this tumour of embryonic-notochord remnants."
+  - target: 01-human/03-molecular/caspase-3
+    relation: connects-to
+    note: "Radioresistance: chordoma resists caspase-3-mediated apoptosis, a key reason it is notoriously radioresistant and requires the high doses delivered by proton or carbon-ion therapy for local control."
 ---
 
 # Chordoma
@@ -522,6 +531,9 @@ CDKN2A deletion in ~30-40% → CDK4/6 hyperactivation → RB1 phosphorylation; p
 - `connects-to` → **[RANKL](../../03-molecular/rankl/README.md)** — Osteolytic bone invasion: chordoma destroys the clival and sacral bone it arises in by driving RANKL-mediated osteoclast activation, a key mechanism of its locally aggressive growth.
 - `connects-to` → **[IGF-1](../../03-molecular/igf-1/README.md)** — IGF-1R signalling: insulin-like growth factor signalling is active in chordoma and supports its survival and proliferation, a studied therapeutic target alongside its brachyury dependence.
 - `connects-to` → **[CCL2](../../03-molecular/ccl2/README.md)** — Macrophage microenvironment: CCL2 recruits tumour-associated macrophages into the chordoma stroma, shaping the immunosuppressive niche of this slow-growing but treatment-resistant tumour.
+- `connects-to` → **[CXCL12](../../03-molecular/cxcl12/README.md)** — The CXCL12-CXCR4 axis drives the local bone and soft-tissue invasion of chordoma and contributes to the late metastases that arise in a minority of these slow-growing axial-skeleton tumors.
+- `connects-to` → **[Notch](../../03-molecular/notch/README.md)** — Notch signaling is active in chordoma and, with the master regulator brachyury, sustains the notochordal stem-like phenotype that defines this tumor arising from embryonic-notochord remnants.
+- `connects-to` → **[Caspase-3](../../03-molecular/caspase-3/README.md)** — Chordoma resists caspase-3-mediated apoptosis, a key reason it is notoriously radioresistant and requires the high doses delivered by proton or carbon-ion therapy to achieve durable local control.
 
 ---
 
