@@ -286,6 +286,15 @@ cross_links:
   - target: 01-human/03-molecular/ifn-gamma
     relation: connects-to
     note: "Antiviral and immunopathic: IFN-γ from T and NK cells helps control dengue but, in secondary infection, contributes to the cytokine surge behind severe disease."
+  - target: 01-human/03-molecular/angiopoietin
+    relation: connects-to
+    note: "Endothelial destabilisation: a surge in angiopoietin-2 over angiopoietin-1 disrupts the Tie2-stabilised endothelium in severe dengue, a key driver of the plasma leak that causes dengue shock syndrome."
+  - target: 01-human/03-molecular/complement-c5
+    relation: connects-to
+    note: "Terminal complement: complement activation through to C5 contributes to the endothelial injury and vascular permeability of severe dengue, part of the immunopathology of haemorrhagic disease."
+  - target: 01-human/03-molecular/ccl2
+    relation: connects-to
+    note: "Monocyte target and recruitment: CCL2 recruits the monocytes that are dengue's principal host cell, amplifying infection and the inflammatory response that drives vascular leak."
 ---
 
 # Dengue Fever
@@ -487,3 +496,6 @@ No approved antiviral therapy for dengue. Management is entirely supportive:
 - `connects-to` → **[IL-1β](../../03-molecular/il-1b/README.md)** — Vascular leak cytokine: IL-1β from inflammasome-activated monocytes contributes to the endothelial permeability and plasma leakage of severe dengue.
 - `connects-to` → **[NLRP3 Inflammasome](../../03-molecular/nlrp3-inflammasome/README.md)** — Inflammasome activation: dengue virus and platelet activation trigger the NLRP3 inflammasome, whose IL-1β release drives the vascular leak of dengue haemorrhagic fever.
 - `connects-to` → **[IFN-γ](../../03-molecular/ifn-gamma/README.md)** — Antiviral and immunopathic: IFN-γ from T and NK cells helps control dengue but, in secondary infection, contributes to the cytokine surge behind severe disease.
+- `connects-to` → **[Angiopoietin](../../03-molecular/angiopoietin/README.md)** — Endothelial destabilisation: a surge in angiopoietin-2 over angiopoietin-1 disrupts the Tie2-stabilised endothelium in severe dengue, a key driver of the plasma leak that causes dengue shock syndrome.
+- `connects-to` → **[Complement C5](../../03-molecular/complement-c5/README.md)** — Terminal complement: complement activation through to C5 contributes to the endothelial injury and vascular permeability of severe dengue, part of the immunopathology of haemorrhagic disease.
+- `connects-to` → **[CCL2](../../03-molecular/ccl2/README.md)** — Monocyte target and recruitment: CCL2 recruits the monocytes that are dengue's principal host cell, amplifying infection and the inflammatory response that drives vascular leak.

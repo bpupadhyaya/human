@@ -286,6 +286,15 @@ cross_links:
   - target: 01-human/03-molecular/hif-1alpha
     relation: connects-to
     note: "Hypoxic stroma: the dense, poorly vascularised desmoid matrix becomes hypoxic, stabilising HIF-1α to drive the VEGF angiogenesis that supports continued expansion."
+  - target: 01-human/03-molecular/igf-1
+    relation: connects-to
+    note: "Fibroblast growth signal: IGF-1/IGF-1R signalling supports the proliferation and survival of the myofibroblasts that make up desmoid tumours, cooperating with the driving Wnt-β-catenin pathway."
+  - target: 01-human/03-molecular/erk1-2
+    relation: connects-to
+    note: "MAPK proliferation: RAF-MEK-ERK signalling drives desmoid fibroblast proliferation, part of why the multi-kinase inhibitor sorafenib produces durable responses in aggressive fibromatosis."
+  - target: 01-human/03-molecular/ccl2
+    relation: connects-to
+    note: "Stromal macrophages: CCL2 recruits macrophages into the desmoid stroma, contributing to the inflammatory, matrix-remodelling microenvironment of these locally aggressive fibrous tumours."
 ---
 
 # Desmoid Tumor
@@ -509,6 +518,9 @@ Standard initial approach for newly diagnosed desmoid without symptoms or rapid 
 - `connects-to` → **[MYC](../../03-molecular/myc/README.md)** — Wnt target oncogene: nuclear β-catenin in desmoid tumours drives transcription of MYC, helping sustain the proliferative, locally aggressive fibromatosis.
 - `connects-to` → **[CDK4/6](../../03-molecular/cdk4-6/README.md)** — Cell-cycle entry: β-catenin-driven cyclin D1 activates CDK4/6 to push desmoid fibroblasts through the G1 checkpoint, the engine of their relentless growth.
 - `connects-to` → **[HIF-1α](../../03-molecular/hif-1alpha/README.md)** — Hypoxic stroma: the dense, poorly vascularised desmoid matrix becomes hypoxic, stabilising HIF-1α to drive the VEGF angiogenesis that supports continued expansion.
+- `connects-to` → **[IGF-1](../../03-molecular/igf-1/README.md)** — Fibroblast growth signal: IGF-1/IGF-1R signalling supports the proliferation and survival of the myofibroblasts that make up desmoid tumours, cooperating with the driving Wnt-β-catenin pathway.
+- `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — MAPK proliferation: RAF-MEK-ERK signalling drives desmoid fibroblast proliferation, part of why the multi-kinase inhibitor sorafenib produces durable responses in aggressive fibromatosis.
+- `connects-to` → **[CCL2](../../03-molecular/ccl2/README.md)** — Stromal macrophages: CCL2 recruits macrophages into the desmoid stroma, contributing to the inflammatory, matrix-remodelling microenvironment of these locally aggressive fibrous tumours.
 
 ---
 
