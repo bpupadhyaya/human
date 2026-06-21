@@ -286,6 +286,15 @@ cross_links:
   - target: 01-human/03-molecular/cyclin-d1
     relation: connects-to
     note: "Cell-cycle progression: with CDKN2A loss common in chordoma, cyclin D1-CDK4/6 activity drives cells through the G1 checkpoint, a rationale for CDK4/6 inhibition."
+  - target: 01-human/03-molecular/rankl
+    relation: connects-to
+    note: "Osteolytic bone invasion: chordoma destroys the clival and sacral bone it arises in by driving RANKL-mediated osteoclast activation, a key mechanism of its locally aggressive growth."
+  - target: 01-human/03-molecular/igf-1
+    relation: connects-to
+    note: "IGF-1R signalling: insulin-like growth factor signalling is active in chordoma and supports its survival and proliferation, a studied therapeutic target alongside its brachyury dependence."
+  - target: 01-human/03-molecular/ccl2
+    relation: connects-to
+    note: "Macrophage microenvironment: CCL2 recruits tumour-associated macrophages into the chordoma stroma, shaping the immunosuppressive niche of this slow-growing but treatment-resistant tumour."
 ---
 
 # Chordoma
@@ -510,6 +519,9 @@ CDKN2A deletion in ~30-40% → CDK4/6 hyperactivation → RB1 phosphorylation; p
 - `connects-to` → **[HIF-1α](../../03-molecular/hif-1alpha/README.md)** — Hypoxic skull-base niche: HIF-1α stabilised in the poorly vascularised chordoma promotes the VEGF angiogenesis and metabolic adaptation that sustain its slow but relentless growth.
 - `connects-to` → **[MYC](../../03-molecular/myc/README.md)** — Proliferative drive: MYC activation, downstream of growth-factor receptor signalling, contributes to the biosynthesis and proliferation of chordoma cells.
 - `connects-to` → **[Cyclin D1](../../03-molecular/cyclin-d1/README.md)** — Cell-cycle progression: with CDKN2A loss common in chordoma, cyclin D1-CDK4/6 activity drives cells through the G1 checkpoint, a rationale for CDK4/6 inhibition.
+- `connects-to` → **[RANKL](../../03-molecular/rankl/README.md)** — Osteolytic bone invasion: chordoma destroys the clival and sacral bone it arises in by driving RANKL-mediated osteoclast activation, a key mechanism of its locally aggressive growth.
+- `connects-to` → **[IGF-1](../../03-molecular/igf-1/README.md)** — IGF-1R signalling: insulin-like growth factor signalling is active in chordoma and supports its survival and proliferation, a studied therapeutic target alongside its brachyury dependence.
+- `connects-to` → **[CCL2](../../03-molecular/ccl2/README.md)** — Macrophage microenvironment: CCL2 recruits tumour-associated macrophages into the chordoma stroma, shaping the immunosuppressive niche of this slow-growing but treatment-resistant tumour.
 
 ---
 

@@ -286,6 +286,15 @@ cross_links:
   - target: 01-human/03-molecular/myc
     relation: connects-to
     note: "Oncogenic amplification: MYC activation downstream of growth-factor signalling drives the proliferation and metabolic reprogramming of cholangiocarcinoma."
+  - target: 01-human/03-molecular/pdgf
+    relation: connects-to
+    note: "Desmoplastic CAFs: PDGF from tumour cells activates cancer-associated fibroblasts that build the dense desmoplastic stroma characteristic of cholangiocarcinoma, supporting growth and drug resistance."
+  - target: 01-human/03-molecular/ccl2
+    relation: connects-to
+    note: "Macrophage recruitment: CCL2 draws tumour-associated macrophages into the cholangiocarcinoma stroma, fostering the immunosuppressive, pro-tumour microenvironment of this hard-to-treat cancer."
+  - target: 01-human/03-molecular/akt
+    relation: connects-to
+    note: "PI3K survival: PI3K-AKT signalling, often through PIK3CA mutation or PTEN loss, sustains cholangiocarcinoma growth and survival alongside its FGFR and IDH driver lesions."
 ---
 
 # Cholangiocarcinoma
@@ -472,6 +481,9 @@ Chronic biliary injury (from PSC, fluke infection, bile acid reflux, biliary sta
 - `connects-to` → **[PIK3CA](../../03-molecular/pik3ca/README.md)** — PI3K activation: PIK3CA mutations activate the PI3K/AKT pathway in a subset of cholangiocarcinomas, driving growth and contributing to therapy resistance.
 - `connects-to` → **[HIF-1α](../../03-molecular/hif-1alpha/README.md)** — Desmoplastic hypoxia: the dense, poorly vascularised stroma of cholangiocarcinoma is hypoxic, stabilising HIF-1α to drive angiogenesis, invasion and chemoresistance.
 - `connects-to` → **[MYC](../../03-molecular/myc/README.md)** — Oncogenic amplification: MYC activation downstream of growth-factor signalling drives the proliferation and metabolic reprogramming of cholangiocarcinoma.
+- `connects-to` → **[PDGF](../../03-molecular/pdgf/README.md)** — Desmoplastic CAFs: PDGF from tumour cells activates cancer-associated fibroblasts that build the dense desmoplastic stroma characteristic of cholangiocarcinoma, supporting growth and drug resistance.
+- `connects-to` → **[CCL2](../../03-molecular/ccl2/README.md)** — Macrophage recruitment: CCL2 draws tumour-associated macrophages into the cholangiocarcinoma stroma, fostering the immunosuppressive, pro-tumour microenvironment of this hard-to-treat cancer.
+- `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — PI3K survival: PI3K-AKT signalling, often through PIK3CA mutation or PTEN loss, sustains cholangiocarcinoma growth and survival alongside its FGFR and IDH driver lesions.
 
 ---
 
