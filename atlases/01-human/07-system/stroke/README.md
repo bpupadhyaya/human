@@ -298,6 +298,15 @@ cross_links:
   - target: 01-human/03-molecular/vegf
     relation: connects-to
     note: "Repair and barrier: VEGF drives post-stroke angiogenesis and neurovascular repair but also opens the blood-brain barrier acutely, a double-edged contributor to oedema and recovery."
+  - target: 01-human/03-molecular/caspase-3
+    relation: connects-to
+    note: "Penumbral apoptosis: in the salvageable ischaemic penumbra, neurons die more slowly by caspase-3-mediated apoptosis rather than core necrosis, the delayed cell death that neuroprotective strategies aim to interrupt."
+  - target: 01-human/03-molecular/tlr4
+    relation: connects-to
+    note: "Reperfusion neuroinflammation: DAMPs released by ischaemic brain tissue engage microglial TLR4, igniting the NF-κB-driven inflammation that worsens ischaemia-reperfusion injury after stroke and recanalisation."
+  - target: 01-human/03-molecular/fibrinogen
+    relation: connects-to
+    note: "Thromboembolic substrate: fibrinogen is converted by thrombin into the fibrin clot of ischaemic stroke, the target of thrombolysis with tPA that cleaves fibrin to restore cerebral perfusion."
 ---
 
 # Stroke
@@ -495,6 +504,9 @@ Normal brain maintains CBF constant (50-150 mmHg MAP range) via autoregulation (
 - `connects-to` → **[NLRP3 Inflammasome](../../03-molecular/nlrp3-inflammasome/README.md)** — Ischaemic inflammasome: NLRP3 inflammasome activation in microglia after ischaemia matures IL-1β and drives pyroptotic cell death, expanding the infarct in the hours after stroke onset.
 - `connects-to` → **[CCL2](../../03-molecular/ccl2/README.md)** — Monocyte infiltration: CCL2 released from the ischaemic brain recruits blood monocytes across the disrupted blood-brain barrier, shaping the secondary inflammatory injury and repair after stroke.
 - `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — Repair and barrier: VEGF drives post-stroke angiogenesis and neurovascular repair but also opens the blood-brain barrier acutely, a double-edged contributor to oedema and recovery.
+- `connects-to` → **[Caspase-3](../../03-molecular/caspase-3/README.md)** — In the salvageable ischemic penumbra, neurons die more slowly by caspase-3-mediated apoptosis rather than the necrosis of the core—the delayed, potentially interruptible cell death that neuroprotection strategies target.
+- `connects-to` → **[TLR4](../../03-molecular/tlr4/README.md)** — DAMPs released by ischemic brain tissue engage microglial TLR4, igniting the NF-κB-driven inflammation that worsens ischemia-reperfusion injury after stroke and after the recanalization of thrombectomy.
+- `connects-to` → **[Fibrinogen](../../03-molecular/fibrinogen/README.md)** — Fibrinogen is converted by thrombin into the fibrin clot of ischemic stroke, the substrate of thrombolysis with tPA that cleaves fibrin to dissolve the occlusion and restore cerebral perfusion within the treatment window.
 
 [^powers-2019-aha-stroke]: Powers WJ, Rabinstein AA, Ackerson T, et al. Guidelines for the Early Management of Patients With Acute Ischemic Stroke: 2019 Update to the 2018 Guidelines. *Stroke.* 2019;50(12):e344-e418. [doi:10.1161/STR.0000000000000211](https://doi.org/10.1161/STR.0000000000000211) · [PubMed 31662037](https://pubmed.ncbi.nlm.nih.gov/31662037/)
 [^feigin-2021-gbd-stroke]: Feigin VL, Krishnamurthi RV, Parmar P, et al. Update on the Global Burden of Ischemic and Hemorrhagic Stroke in 1990-2013. *Neuroepidemiology.* 2015;45(3):161-176. [doi:10.1159/000441085](https://doi.org/10.1159/000441085) · [PubMed 26505981](https://pubmed.ncbi.nlm.nih.gov/26505981/)

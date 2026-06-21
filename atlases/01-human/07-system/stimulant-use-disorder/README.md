@@ -295,6 +295,15 @@ cross_links:
   - target: 01-human/03-molecular/adenosine
     relation: connects-to
     note: "Purinergic reward modulation: adenosine A2A receptors antagonise dopamine D2 signalling in the striatum, a brake on stimulant reward that caffeine and other stimulants engage to amplify dopaminergic drive."
+  - target: 01-human/03-molecular/orexin
+    relation: connects-to
+    note: "Craving and arousal: hypothalamic orexin drives the arousal and cue-induced craving central to stimulant use disorder, making orexin-receptor antagonists a candidate to reduce relapse and drug-seeking."
+  - target: 01-human/03-molecular/gsk-3b
+    relation: connects-to
+    note: "Reward-plasticity node: dopamine D2-receptor signalling converges on GSK-3β, a kinase mediating the synaptic plasticity of stimulant reward and sensitisation that underlies the compulsive use of cocaine and amphetamines."
+  - target: 01-human/03-molecular/tlr4
+    relation: connects-to
+    note: "Neuroinflammatory neurotoxicity: methamphetamine and cocaine activate microglial TLR4, driving the neuroinflammation that contributes both to reward potentiation and to the dopaminergic neurotoxicity of chronic stimulant use."
 ---
 
 # Stimulant Use Disorder
@@ -509,6 +518,9 @@ Unlike cocaine, methamphetamine causes **direct neurotoxic damage** to dopaminer
 - `connects-to` → **[Serotonin Transporter](../../03-molecular/serotonin-transporter/README.md)** — Reverse transport: amphetamines and MDMA hijack the serotonin transporter to run it in reverse, dumping monoamines into the synapse — the molecular mechanism of the rush and the serotonergic toxicity of stimulants.
 - `connects-to` → **[Nitric Oxide](../../03-molecular/nitric-oxide/README.md)** — Endothelial dysfunction: cocaine impairs nitric-oxide signalling and provokes coronary vasospasm, a key mechanism of the myocardial infarction and stroke that complicate stimulant use.
 - `connects-to` → **[Adenosine](../../03-molecular/adenosine/README.md)** — Purinergic reward modulation: adenosine A2A receptors antagonise dopamine D2 signalling in the striatum, a brake on stimulant reward that caffeine and other stimulants engage to amplify dopaminergic drive.
+- `connects-to` → **[Orexin](../../03-molecular/orexin/README.md)** — Hypothalamic orexin drives the arousal and cue-induced craving central to stimulant use disorder, making orexin-receptor antagonists a candidate strategy to reduce relapse and drug-seeking behavior.
+- `connects-to` → **[GSK-3β](../../03-molecular/gsk-3b/README.md)** — Dopamine D2-receptor signaling converges on GSK-3β, a kinase mediating the synaptic plasticity of stimulant reward and sensitization that underlies the compulsive use of cocaine and amphetamines.
+- `connects-to` → **[TLR4](../../03-molecular/tlr4/README.md)** — Methamphetamine and cocaine activate microglial TLR4, driving the neuroinflammation that contributes both to reward potentiation and to the dopaminergic neurotoxicity of chronic stimulant use.
 
 ## Treatment
 
