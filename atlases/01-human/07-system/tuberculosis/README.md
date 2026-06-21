@@ -286,6 +286,15 @@ cross_links:
   - target: 01-human/03-molecular/hif-1alpha
     relation: connects-to
     note: "Granuloma hypoxia: the necrotic core of the TB granuloma is hypoxic, stabilising HIF-1α in macrophages, which shapes their metabolism and bactericidal capacity."
+  - target: 01-human/03-molecular/tlr4
+    relation: connects-to
+    note: "Innate recognition: Toll-like receptors including TLR4 (with TLR2) sense Mycobacterium tuberculosis cell-wall lipids on macrophages, triggering the NF-κB-driven cytokine response that initiates the anti-mycobacterial defence."
+  - target: 01-human/03-molecular/cgas-sting
+    relation: connects-to
+    note: "Cytosolic sensing: the Mtb ESX-1 system permeabilises the phagosome, exposing bacterial DNA to cGAS-STING, which drives both protective autophagy and the type-I interferon that can paradoxically worsen disease."
+  - target: 01-human/03-molecular/mhc-class-ii
+    relation: connects-to
+    note: "Antigen presentation: macrophages and dendritic cells present Mtb antigens on MHC class II to prime the CD4 Th1 cells whose IFN-γ is indispensable for controlling tuberculosis — the basis of its vulnerability in HIV."
 ---
 
 # Tuberculosis
@@ -509,6 +518,9 @@ Standard **HRZE** regimen [^nahid-2016-tb-treatment]:
 - `connects-to` → **[Perforin](../../03-molecular/perforin/README.md)** — Cytotoxic killing: CD8 cytotoxic T cells use perforin and granulysin to kill Mtb-infected macrophages, a key arm of immunity against tuberculosis.
 - `connects-to` → **[CCL2](../../03-molecular/ccl2/README.md)** — Monocyte recruitment: CCL2 draws monocytes into the lung to form the granuloma, the organised immune structure that walls off Mycobacterium tuberculosis.
 - `connects-to` → **[HIF-1α](../../03-molecular/hif-1alpha/README.md)** — Granuloma hypoxia: the necrotic core of the TB granuloma is hypoxic, stabilising HIF-1α in macrophages, which shapes their metabolism and bactericidal capacity.
+- `connects-to` → **[TLR4](../../03-molecular/tlr4/README.md)** — Toll-like receptors including TLR4 (with TLR2) sense Mycobacterium tuberculosis cell-wall lipids on macrophages, triggering the NF-κB-driven cytokine response that initiates the anti-mycobacterial defense at first contact.
+- `connects-to` → **[cGAS-STING](../../03-molecular/cgas-sting/README.md)** — The Mtb ESX-1 secretion system permeabilizes the phagosome, exposing bacterial DNA to cGAS-STING, which drives both protective autophagy and the type-I interferon that can paradoxically worsen disease—a double-edged innate response.
+- `connects-to` → **[MHC class II](../../03-molecular/mhc-class-ii/README.md)** — Macrophages and dendritic cells present Mtb antigens on MHC class II to prime the CD4 Th1 cells whose IFN-γ is indispensable for controlling tuberculosis—explaining why CD4 depletion in HIV so dramatically raises TB risk.
 
 ## See Also
 

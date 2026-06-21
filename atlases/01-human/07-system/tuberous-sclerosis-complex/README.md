@@ -286,6 +286,15 @@ cross_links:
   - target: 01-human/03-molecular/pdgf
     relation: connects-to
     note: "Tumour stroma: PDGF signalling supports the growth and vascularisation of the angiomyolipomas and other mesenchymal tumours of tuberous sclerosis."
+  - target: 01-human/03-molecular/bdnf
+    relation: connects-to
+    note: "Synaptic dysregulation: mTOR hyperactivation in tuberous sclerosis distorts BDNF-dependent synaptic plasticity and dendritic growth, contributing to the epilepsy and the autism/neuropsychiatric features (TAND) of the disorder."
+  - target: 01-human/03-molecular/cdkn1b
+    relation: connects-to
+    note: "Cell-cycle release: mTORC1-S6K signalling drives degradation of the cell-cycle inhibitor p27 (CDKN1B), and in TSC1/2-deficient cells the loss of this brake contributes to the hamartomatous overgrowth."
+  - target: 01-human/03-molecular/tgf-beta
+    relation: connects-to
+    note: "Hamartoma fibrosis: TGF-β drives the fibrotic, matrix-rich stroma of the renal angiomyolipomas and the lymphangioleiomyomatosis (LAM) lung lesions of tuberous sclerosis, beyond the direct mTOR-driven proliferation."
 ---
 
 # Tuberous Sclerosis Complex
@@ -515,6 +524,9 @@ With modern management: life expectancy increasingly normal; major risks: renal 
 - `connects-to` → **[MYC](../../03-molecular/myc/README.md)** — mTOR-driven oncogene: unrestrained mTOR signalling from TSC1/TSC2 loss upregulates MYC, driving the proliferation of the hamartomas and tumours of tuberous sclerosis.
 - `connects-to` → **[IGF-1](../../03-molecular/igf-1/README.md)** — Growth-factor input: IGF-1 signalling feeds the PI3K/AKT/mTOR pathway that is constitutively active in tuberous sclerosis, reinforcing tumour growth.
 - `connects-to` → **[PDGF](../../03-molecular/pdgf/README.md)** — Tumour stroma: PDGF signalling supports the growth and vascularisation of the angiomyolipomas and other mesenchymal tumours of tuberous sclerosis.
+- `connects-to` → **[BDNF](../../03-molecular/bdnf/README.md)** — mTOR hyperactivation in tuberous sclerosis distorts BDNF-dependent synaptic plasticity and dendritic growth, contributing to the epilepsy and the autism and neuropsychiatric features (TAND) that often cause more disability than the tumors.
+- `connects-to` → **[p27 (CDKN1B)](../../03-molecular/cdkn1b/README.md)** — mTORC1-S6K signaling drives degradation of the cell-cycle inhibitor p27, and in TSC1/2-deficient cells the loss of this brake contributes to the hamartomatous overgrowth—linking the pathway's growth signal to unchecked cell-cycle entry.
+- `connects-to` → **[TGF-β](../../03-molecular/tgf-beta/README.md)** — TGF-β drives the fibrotic, matrix-rich stroma of the renal angiomyolipomas and the lymphangioleiomyomatosis (LAM) lung lesions of tuberous sclerosis, a fibrotic component layered on the direct mTOR-driven proliferation of the tumor cells.
 
 ---
 
