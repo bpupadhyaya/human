@@ -292,6 +292,15 @@ cross_links:
   - target: 01-human/03-molecular/ezh2
     relation: connects-to
     note: "Epigenetic driver: EZH2 is frequently activated in melanoma, silencing tumour-suppressor genes and promoting metastasis and immune evasion."
+  - target: 01-human/03-molecular/ifn-gamma
+    relation: connects-to
+    note: "Immune response and resistance: an IFN-γ-driven T-cell signature predicts melanoma's response to checkpoint inhibitors, while loss of IFN-γ signalling (JAK/STAT) is a key route to immunotherapy resistance."
+  - target: 01-human/03-molecular/tgf-beta
+    relation: connects-to
+    note: "Immunosuppression and invasion: TGF-beta dampens anti-tumour immunity and drives the phenotype switch toward an invasive, mesenchymal melanoma state that resists therapy."
+  - target: 01-human/03-molecular/ccl2
+    relation: connects-to
+    note: "Macrophage recruitment: CCL2 draws tumour-associated macrophages into melanoma, building an immunosuppressive microenvironment that supports growth and metastasis."
 ---
 
 # Melanoma
@@ -473,6 +482,9 @@ cross_links:
 - `connects-to` → **[MYC](../../03-molecular/myc/README.md)** — Amplified oncogene: MYC amplification drives the proliferation and metabolism of melanoma and is implicated in resistance to targeted therapy.
 - `connects-to` → **[HIF-1α](../../03-molecular/hif-1alpha/README.md)** — Hypoxic invasion: HIF-1α stabilised in hypoxic melanoma drives angiogenesis, the invasive phenotype switch and metastasis to distant organs.
 - `connects-to` → **[EZH2](../../03-molecular/ezh2/README.md)** — Epigenetic driver: EZH2 is frequently activated in melanoma, silencing tumour-suppressor genes and promoting metastasis and immune evasion.
+- `connects-to` → **[IFN-γ](../../03-molecular/ifn-gamma/README.md)** — Immune response and resistance: an IFN-γ-driven T-cell signature predicts melanoma's response to checkpoint inhibitors, while loss of IFN-γ signalling (JAK/STAT) is a key route to immunotherapy resistance.
+- `connects-to` → **[TGF-beta](../../03-molecular/tgf-beta/README.md)** — Immunosuppression and invasion: TGF-beta dampens anti-tumour immunity and drives the phenotype switch toward an invasive, mesenchymal melanoma state that resists therapy.
+- `connects-to` → **[CCL2](../../03-molecular/ccl2/README.md)** — Macrophage recruitment: CCL2 draws tumour-associated macrophages into melanoma, building an immunosuppressive microenvironment that supports growth and metastasis.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 

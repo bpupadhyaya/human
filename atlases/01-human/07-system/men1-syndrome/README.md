@@ -286,6 +286,15 @@ cross_links:
   - target: 01-human/03-molecular/tert
     relation: connects-to
     note: "Replicative immortality: TERT reactivation maintains telomeres in MEN1-associated neuroendocrine tumours, sustaining their proliferation."
+  - target: 01-human/03-molecular/dopamine
+    relation: connects-to
+    note: "Prolactinoma therapy: dopamine agonists are first-line for the prolactin-secreting pituitary adenomas of MEN1, exploiting dopamine's tonic inhibition of pituitary prolactin release."
+  - target: 01-human/03-molecular/histamine
+    relation: connects-to
+    note: "Gastrinoma acid: the gastrinomas of MEN1 drive gastrin-stimulated histamine release from ECL cells, causing the gastric acid hypersecretion and ulcers of Zollinger-Ellison syndrome."
+  - target: 01-human/03-molecular/rankl
+    relation: connects-to
+    note: "Hyperparathyroid bone loss: primary hyperparathyroidism, the commonest MEN1 manifestation, drives PTH-stimulated RANKL-mediated osteoclast activity that resorbs bone."
 ---
 
 # MEN1 Syndrome
@@ -495,6 +504,9 @@ Menin haploinsufficiency (one functional allele) creates susceptibility: cells a
 - `connects-to` → **[MYC](../../03-molecular/myc/README.md)** — Menin-MLL target: menin normally restrains MYC-driven transcription, so MEN1 loss derepresses MYC, contributing to the proliferation of its endocrine tumours.
 - `connects-to` → **[CDK4/6](../../03-molecular/cdk4-6/README.md)** — Cell-cycle drive: with cyclin D1 upregulated, CDK4/6 propels MEN1 endocrine tumour cells through the G1 checkpoint, a rationale for CDK4/6 inhibition.
 - `connects-to` → **[TERT](../../03-molecular/tert/README.md)** — Replicative immortality: TERT reactivation maintains telomeres in MEN1-associated neuroendocrine tumours, sustaining their proliferation.
+- `connects-to` → **[Dopamine](../../03-molecular/dopamine/README.md)** — Prolactinoma therapy: dopamine agonists are first-line for the prolactin-secreting pituitary adenomas of MEN1, exploiting dopamine's tonic inhibition of pituitary prolactin release.
+- `connects-to` → **[Histamine](../../03-molecular/histamine/README.md)** — Gastrinoma acid: the gastrinomas of MEN1 drive gastrin-stimulated histamine release from ECL cells, causing the gastric acid hypersecretion and ulcers of Zollinger-Ellison syndrome.
+- `connects-to` → **[RANKL](../../03-molecular/rankl/README.md)** — Hyperparathyroid bone loss: primary hyperparathyroidism, the commonest MEN1 manifestation, drives PTH-stimulated RANKL-mediated osteoclast activity that resorbs bone.
 
 ---
 
