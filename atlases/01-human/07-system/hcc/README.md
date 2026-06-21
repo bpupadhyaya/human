@@ -292,6 +292,15 @@ cross_links:
   - target: 01-human/03-molecular/ccl2
     relation: connects-to
     note: "Immunosuppressive niche: CCL2 secreted by HCC recruits tumour-associated macrophages and myeloid-derived suppressor cells, building the immunosuppressive microenvironment that blunts response to immunotherapy."
+  - target: 01-human/03-molecular/arid1a
+    relation: connects-to
+    note: "Chromatin-remodeler driver: inactivating mutations in the SWI/SNF subunit ARID1A are recurrent in hepatocellular carcinoma, disrupting chromatin regulation of tumour-suppressor and differentiation genes."
+  - target: 01-human/03-molecular/axl-receptor
+    relation: connects-to
+    note: "Invasion and resistance: GAS6-AXL signalling promotes the epithelial-mesenchymal transition and invasion of HCC and drives resistance to sorafenib and immunotherapy, an emerging combination target."
+  - target: 01-human/03-molecular/tlr4
+    relation: connects-to
+    note: "Gut-liver carcinogenesis: gut-derived LPS reaching the cirrhotic liver via the portal vein activates TLR4 on Kupffer cells, sustaining the inflammation that promotes hepatocarcinogenesis on a background of chronic liver disease."
 ---
 
 # Hepatocellular Carcinoma
@@ -521,6 +530,9 @@ In high-risk patients (cirrhosis, HBV regardless of cirrhosis): ultrasound ± AF
 - `connects-to` → **[MET](../../03-molecular/met/README.md)** — Invasive RTK: c-MET signalling drives HCC proliferation, invasion and angiogenesis, and is one of the kinases blocked by the multi-target inhibitor cabozantinib used in advanced disease.
 - `connects-to` → **[FGFR](../../03-molecular/fgfr/README.md)** — FGF19-FGFR4 axis: amplification of the FGF19-FGFR4 signalling axis defines a subset of hepatocellular carcinomas and is a targetable driver under investigation with selective FGFR4 inhibitors.
 - `connects-to` → **[CCL2](../../03-molecular/ccl2/README.md)** — Immunosuppressive niche: CCL2 secreted by HCC recruits tumour-associated macrophages and myeloid-derived suppressor cells, building the immunosuppressive microenvironment that blunts response to immunotherapy.
+- `connects-to` → **[ARID1A](../../03-molecular/arid1a/README.md)** — Inactivating mutations in the SWI/SNF subunit ARID1A are recurrent in hepatocellular carcinoma, disrupting chromatin regulation of tumor-suppressor and differentiation genes—one of the chromatin-remodeler lesions defining HCC genomics.
+- `connects-to` → **[AXL receptor](../../03-molecular/axl-receptor/README.md)** — GAS6-AXL signaling promotes the epithelial-mesenchymal transition and invasion of HCC and drives resistance to sorafenib and immunotherapy, making AXL an emerging combination target in advanced disease.
+- `connects-to` → **[TLR4](../../03-molecular/tlr4/README.md)** — Gut-derived LPS reaching the cirrhotic liver through the portal vein activates TLR4 on Kupffer cells, sustaining the chronic inflammation that promotes hepatocarcinogenesis on the background of cirrhosis from which most HCC arises.
 
 [^llovet-2008-sorafenib]: Llovet JM, Ricci S, Mazzaferro V, et al. Sorafenib in advanced hepatocellular carcinoma. *N Engl J Med.* 2008;359(4):378-390. [doi:10.1056/NEJMoa0708857](https://doi.org/10.1056/NEJMoa0708857) · [PubMed 18650514](https://pubmed.ncbi.nlm.nih.gov/18650514/)
 [^finn-2020-imbrave150]: Finn RS, Qin S, Ikeda M, et al. Atezolizumab plus bevacizumab in unresectable hepatocellular carcinoma. *N Engl J Med.* 2020;382(20):1894-1905. [doi:10.1056/NEJMoa1915745](https://doi.org/10.1056/NEJMoa1915745) · [PubMed 32402160](https://pubmed.ncbi.nlm.nih.gov/32402160/)

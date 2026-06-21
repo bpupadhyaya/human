@@ -301,6 +301,15 @@ cross_links:
   - target: 01-human/03-molecular/cxcl12
     relation: connects-to
     note: "Coreceptor tropism: CXCL12 is the ligand of CXCR4, the alternative HIV coreceptor whose use marks the X4-tropic switch associated with faster CD4 decline and disease progression."
+  - target: 01-human/03-molecular/nlrp3-inflammasome
+    relation: connects-to
+    note: "Pyroptotic CD4 loss: abortive HIV infection of resting CD4 T cells triggers the inflammasome and caspase-1-driven pyroptosis, the dominant mechanism of CD4 depletion and the inflammatory engine of progression to AIDS."
+  - target: 01-human/03-molecular/pd-1
+    relation: connects-to
+    note: "T-cell exhaustion: chronic antigen exposure drives high PD-1 on HIV-specific T cells, the exhaustion that cripples viral control and marks the latently infected cells sustaining the reservoir."
+  - target: 01-human/03-molecular/ifn-gamma
+    relation: connects-to
+    note: "Cytotoxic control: IFN-γ from HIV-specific CD8 and Th1 cells is central to the partial immune control of viraemia, the response whose breadth correlates with the slower progression seen in elite controllers."
 ---
 
 # HIV
@@ -530,6 +539,9 @@ The **latent reservoir** — HIV integrated into quiescent resting memory CD4+ T
 - `connects-to` → **[TLR4](../../03-molecular/tlr4/README.md)** — Microbial translocation: HIV destruction of the gut barrier lets bacterial LPS reach the circulation and engage TLR4, a major driver of the chronic immune activation that persists even on antiretroviral therapy.
 - `connects-to` → **[CCL2](../../03-molecular/ccl2/README.md)** — Neuroinvasion: CCL2 recruits HIV-infected monocytes across the blood-brain barrier, seeding the CNS reservoir and the microglial inflammation behind HIV-associated neurocognitive disorder.
 - `connects-to` → **[CXCL12](../../03-molecular/cxcl12/README.md)** — Coreceptor tropism: CXCL12 is the ligand of CXCR4, the alternative HIV coreceptor whose use marks the X4-tropic switch associated with faster CD4 decline and disease progression.
+- `connects-to` → **[NLRP3 Inflammasome](../../03-molecular/nlrp3-inflammasome/README.md)** — Abortive HIV infection of resting CD4 T cells triggers the inflammasome and caspase-1-driven pyroptosis—the dominant mechanism of CD4 depletion and the inflammatory engine that converts infection into progression toward AIDS.
+- `connects-to` → **[PD-1](../../03-molecular/pd-1/README.md)** — Chronic antigen exposure drives high PD-1 on HIV-specific T cells, the exhaustion that cripples viral control and marks the latently infected memory cells sustaining the reservoir that prevents cure.
+- `connects-to` → **[IFN-γ](../../03-molecular/ifn-gamma/README.md)** — IFN-γ from HIV-specific CD8 and Th1 cells is central to the partial immune control of viremia, the response whose breadth and quality correlate with the slower progression seen in elite controllers.
 
 [^barre-sinoussi-1983-hiv-isolation]: Barré-Sinoussi F, Chermann JC, Rey F, et al. Isolation of a T-lymphotropic retrovirus from a patient at risk for acquired immune deficiency syndrome (AIDS). *Science.* 1983;220(4599):868-871. [doi:10.1126/science.6189183](https://doi.org/10.1126/science.6189183) · [PubMed 6189183](https://pubmed.ncbi.nlm.nih.gov/6189183/)
 [^ho-1995-viral-dynamics]: Ho DD, Neumann AU, Perelson AS, et al. Rapid turnover of plasma virions and CD4 lymphocytes in HIV-1 infection. *Nature.* 1995;373(6510):123-126. [doi:10.1038/373123a0](https://doi.org/10.1038/373123a0) · [PubMed 7816094](https://pubmed.ncbi.nlm.nih.gov/7816094/)
