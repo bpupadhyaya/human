@@ -301,6 +301,15 @@ cross_links:
   - target: 01-human/03-molecular/ghrelin
     relation: connects-to
     note: "Sleep-loss metabolism: the curtailed sleep of insomnia raises ghrelin and lowers satiety signalling, driving the appetite and weight changes that link poor sleep to metabolic disease."
+  - target: 01-human/03-molecular/prostaglandins
+    relation: connects-to
+    note: "Sleep-promoting prostanoid: prostaglandin D2 is among the most potent endogenous sleep-inducing substances, acting on the basal forebrain to promote non-REM sleep, a system whose deficiency contributes to insomnia."
+  - target: 01-human/03-molecular/progesterone
+    relation: connects-to
+    note: "Neurosteroid sedation: the progesterone metabolite allopregnanolone is a positive GABA-A modulator with sedative effects, and falling progesterone in the luteal phase and menopause is linked to the insomnia common at those times."
+  - target: 01-human/03-molecular/endocannabinoid
+    relation: connects-to
+    note: "Sleep architecture: endocannabinoid signalling through CB1 receptors modulates sleep-wake regulation and slow-wave sleep, part of the circuitry whose dysregulation contributes to disturbed sleep in insomnia."
 ---
 
 # Insomnia Disorder
@@ -532,6 +541,9 @@ CBT-I directly targets perpetuating factors.
 - `connects-to` → **[Glutamate](../../03-molecular/glutamate/README.md)** — Cortical hyperarousal: elevated glutamatergic tone underlies the cortical hyperarousal central to insomnia, keeping the brain in a wake-like state and opposing the inhibitory drive that initiates sleep.
 - `connects-to` → **[Dopamine](../../03-molecular/dopamine/README.md)** — Wake drive: dopaminergic signalling promotes wakefulness and arousal, and its tone in the evening contributes to the difficulty falling asleep that characterises insomnia.
 - `connects-to` → **[Ghrelin](../../03-molecular/ghrelin/README.md)** — Sleep-loss metabolism: the curtailed sleep of insomnia raises ghrelin and lowers satiety signalling, driving the appetite and weight changes that link poor sleep to metabolic disease.
+- `connects-to` → **[Prostaglandins](../../03-molecular/prostaglandins/README.md)** — Prostaglandin D2 is among the most potent endogenous sleep-inducing substances, acting on the basal forebrain to promote non-REM sleep—a sleep-promoting system whose insufficiency contributes to the difficulty achieving restorative sleep in insomnia.
+- `connects-to` → **[Progesterone](../../03-molecular/progesterone/README.md)** — The progesterone metabolite allopregnanolone is a positive GABA-A modulator with sedative effects, and the falling progesterone of the late luteal phase and menopause is linked to the insomnia that commonly emerges at those times.
+- `connects-to` → **[Endocannabinoid](../../03-molecular/endocannabinoid/README.md)** — Endocannabinoid signaling through CB1 receptors modulates sleep-wake regulation and slow-wave sleep, part of the circuitry whose dysregulation contributes to the disturbed sleep architecture of insomnia disorder.
 
 [^riemann-2017-insomnia-lancet]: Riemann D, Baglioni C, Bassetti C, et al. European guideline for the diagnosis and treatment of insomnia. *J Sleep Res.* 2017;26(6):675-700. [doi:10.1111/jsr.12594](https://doi.org/10.1111/jsr.12594) · [PubMed 28875581](https://pubmed.ncbi.nlm.nih.gov/28875581/)
 [^trauer-2015-cbti-meta]: Trauer JM, Qian MY, Doyle JS, et al. Cognitive behavioral therapy for chronic insomnia. *Ann Intern Med.* 2015;163(3):191-204. [doi:10.7326/M14-2841](https://doi.org/10.7326/M14-2841) · [PubMed 26054060](https://pubmed.ncbi.nlm.nih.gov/26054060/)

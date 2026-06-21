@@ -291,6 +291,15 @@ cross_links:
   - target: 01-human/03-molecular/thrombopoietin
     relation: connects-to
     note: "Reactive thrombocytosis: iron deficiency commonly raises platelet counts, with thrombopoietin and erythropoietin cross-signalling implicated in the reactive thrombocytosis that accompanies the anaemia."
+  - target: 01-human/03-molecular/epas1
+    relation: connects-to
+    note: "Iron-absorption master switch: HIF-2α (EPAS1) is stabilised in the iron-starved duodenal enterocyte, where it transcriptionally upregulates DMT1 and ferroportin to maximise dietary iron absorption in iron deficiency."
+  - target: 01-human/03-molecular/thyroid-hormones
+    relation: connects-to
+    note: "Iron-dependent thyroid synthesis: thyroid peroxidase is a haem enzyme, so iron deficiency impairs thyroid hormone synthesis, the basis for the overlap between iron-deficiency anaemia and hypothyroid symptoms like fatigue and cold intolerance."
+  - target: 01-human/03-molecular/serotonin
+    relation: connects-to
+    note: "Monoamine cofactor: iron is a cofactor for tryptophan hydroxylase in serotonin synthesis, so iron deficiency lowers serotonergic signalling, contributing to the mood disturbance and fatigue that accompany the anaemia."
 ---
 
 # Iron Deficiency Anemia
@@ -502,6 +511,9 @@ Iron is essential for:
 - `connects-to` → **[Dopamine](../../03-molecular/dopamine/README.md)** — Restless legs and cognition: iron is a cofactor for tyrosine hydroxylase in dopamine synthesis, so iron deficiency disrupts dopaminergic signalling, causing restless legs syndrome and the attention deficits of low iron.
 - `connects-to` → **[ATP](../../03-molecular/atp/README.md)** — Bioenergetic failure: iron is essential to the cytochromes and iron-sulfur clusters of oxidative phosphorylation, so iron deficiency impairs cellular ATP production, a molecular basis for the fatigue of the anaemia.
 - `connects-to` → **[Thrombopoietin](../../03-molecular/thrombopoietin/README.md)** — Reactive thrombocytosis: iron deficiency commonly raises platelet counts, with thrombopoietin and erythropoietin cross-signalling implicated in the reactive thrombocytosis that accompanies the anaemia.
+- `connects-to` → **[EPAS1 (HIF-2α)](../../03-molecular/epas1/README.md)** — HIF-2α is stabilized in the iron-starved duodenal enterocyte, where it transcriptionally upregulates DMT1 and ferroportin to maximize dietary iron absorption—the master switch the body uses to compensate for iron deficiency.
+- `connects-to` → **[Thyroid hormones](../../03-molecular/thyroid-hormones/README.md)** — Thyroid peroxidase is a haem enzyme, so iron deficiency impairs thyroid hormone synthesis—the basis for the overlap between iron-deficiency anemia and hypothyroid symptoms like fatigue and cold intolerance.
+- `connects-to` → **[Serotonin](../../03-molecular/serotonin/README.md)** — Iron is a cofactor for tryptophan hydroxylase in serotonin synthesis, so iron deficiency lowers serotonergic signaling, contributing to the mood disturbance and fatigue that accompany the anemia beyond the lack of oxygen delivery.
 
 [^camaschella-2015-iron-deficiency]: Camaschella C. Iron-deficiency anemia. *N Engl J Med.* 2015;372(19):1832-1843. [doi:10.1056/NEJMra1401038](https://doi.org/10.1056/NEJMra1401038) · [PubMed 25946282](https://pubmed.ncbi.nlm.nih.gov/25946282/)
 [^who-ferritin-guideline-2020]: World Health Organization. WHO guideline on use of ferritin concentrations to assess iron status in individuals and populations. WHO; 2020. [WHO publication](https://www.who.int/publications/i/item/9789240000124)
