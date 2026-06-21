@@ -286,6 +286,15 @@ cross_links:
   - target: 01-human/03-molecular/hif-1alpha
     relation: connects-to
     note: "Tumour hypoxia: HIF-1α stabilised in the growing tumours of Gorlin syndrome drives the VEGF angiogenesis that supports their expansion."
+  - target: 01-human/03-molecular/pdgf
+    relation: connects-to
+    note: "Fibroma fibroblasts: PDGF-driven fibroblast proliferation underlies the cardiac and ovarian fibromas characteristic of Gorlin syndrome, the benign mesenchymal tumours beyond its Hedgehog-driven cancers."
+  - target: 01-human/03-molecular/erk1-2
+    relation: connects-to
+    note: "MAPK crosstalk: RAS-RAF-ERK signalling cross-talks with the Hedgehog pathway in Gorlin tumours and is a bypass route to resistance when SMO inhibitors are used for its basal cell carcinomas."
+  - target: 01-human/03-molecular/igf-1
+    relation: connects-to
+    note: "Growth-factor cooperation: IGF-1 signalling cooperates with Hedgehog activation in the SHH-subgroup medulloblastomas of Gorlin syndrome, supporting their proliferation."
 ---
 
 # Gorlin Syndrome
@@ -486,6 +495,9 @@ Both are two-hit tumor suppressors: germline heterozygous LOF + somatic second h
 - `connects-to` → **[MYC](../../03-molecular/myc/README.md)** — Hedgehog target: GLI-driven Hedgehog signalling from PTCH1 loss upregulates MYC (and MYCN), driving the proliferation of the basal cell carcinomas and medulloblastomas of Gorlin syndrome.
 - `connects-to` → **[EZH2](../../03-molecular/ezh2/README.md)** — Epigenetic cooperation: EZH2-mediated PRC2 silencing of tumour-suppressor genes cooperates with Hedgehog activation in the tumours of Gorlin syndrome.
 - `connects-to` → **[HIF-1α](../../03-molecular/hif-1alpha/README.md)** — Tumour hypoxia: HIF-1α stabilised in the growing tumours of Gorlin syndrome drives the VEGF angiogenesis that supports their expansion.
+- `connects-to` → **[PDGF](../../03-molecular/pdgf/README.md)** — Fibroma fibroblasts: PDGF-driven fibroblast proliferation underlies the cardiac and ovarian fibromas characteristic of Gorlin syndrome, the benign mesenchymal tumours beyond its Hedgehog-driven cancers.
+- `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — MAPK crosstalk: RAS-RAF-ERK signalling cross-talks with the Hedgehog pathway in Gorlin tumours and is a bypass route to resistance when SMO inhibitors are used for its basal cell carcinomas.
+- `connects-to` → **[IGF-1](../../03-molecular/igf-1/README.md)** — Growth-factor cooperation: IGF-1 signalling cooperates with Hedgehog activation in the SHH-subgroup medulloblastomas of Gorlin syndrome, supporting their proliferation.
 
 ---
 

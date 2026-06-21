@@ -292,6 +292,15 @@ cross_links:
   - target: 01-human/03-molecular/tgf-beta
     relation: connects-to
     note: "Tophus and fibrosis: TGF-β contributes to the chronic granulomatous tophus and to the renal fibrosis of chronic urate nephropathy in long-standing gout."
+  - target: 01-human/03-molecular/s100a8-a9
+    relation: connects-to
+    note: "Neutrophil flare and resolution: S100A8/A9 from the neutrophils flooding the gouty joint amplifies the acute flare, while aggregated neutrophil extracellular traps also drive its spontaneous resolution."
+  - target: 01-human/03-molecular/complement-c5
+    relation: connects-to
+    note: "Crystal complement activation: monosodium urate crystals directly activate complement through to C5, generating chemoattractants that recruit the neutrophils igniting the acute gout attack."
+  - target: 01-human/03-molecular/prostaglandins
+    relation: connects-to
+    note: "Inflammatory mediators: prostaglandins generated in the urate-inflamed joint drive the pain, vasodilation and swelling of an acute gout flare, the target of the NSAIDs used to treat it."
 ---
 
 # Gout
@@ -476,6 +485,9 @@ The central mechanism linking MSU crystals to acute gouty arthritis is **NLRP3 i
 - `connects-to` → **[SGLT2](../../03-molecular/sglt2/README.md)** — Urate-lowering bonus: SGLT2 inhibitors increase urinary urate excretion and lower serum urate, reducing gout flares—an unexpected benefit of these diabetes and heart drugs.
 - `connects-to` → **[HIF-1α](../../03-molecular/hif-1alpha/README.md)** — Inflamed-joint hypoxia: the acutely inflamed gouty joint becomes hypoxic, stabilising HIF-1α in infiltrating cells and amplifying the inflammatory response to urate crystals.
 - `connects-to` → **[TGF-β](../../03-molecular/tgf-beta/README.md)** — Tophus and fibrosis: TGF-β contributes to the chronic granulomatous tophus and to the renal fibrosis of chronic urate nephropathy in long-standing gout.
+- `connects-to` → **[S100A8/A9](../../03-molecular/s100a8-a9/README.md)** — Neutrophil flare and resolution: S100A8/A9 from the neutrophils flooding the gouty joint amplifies the acute flare, while aggregated neutrophil extracellular traps also drive its spontaneous resolution.
+- `connects-to` → **[Complement C5](../../03-molecular/complement-c5/README.md)** — Crystal complement activation: monosodium urate crystals directly activate complement through to C5, generating chemoattractants that recruit the neutrophils igniting the acute gout attack.
+- `connects-to` → **[Prostaglandins](../../03-molecular/prostaglandins/README.md)** — Inflammatory mediators: prostaglandins generated in the urate-inflamed joint drive the pain, vasodilation and swelling of an acute gout flare, the target of the NSAIDs used to treat it.
 
 [^dalbeth-2019-gout-primer]: Dalbeth N, Choi HK, Joosten LAB, et al. Gout. *Nat Rev Dis Primers.* 2019;5(1):69. [doi:10.1038/s41572-019-0115-y](https://doi.org/10.1038/s41572-019-0115-y) · [PubMed 31558729](https://pubmed.ncbi.nlm.nih.gov/31558729/)
 [^martinon-2006-nlrp3-gout]: Martinon F, Pétrilli V, Mayor A, Tardivel A, Tschopp J. Gout-associated uric acid crystals activate the NALP3 inflammasome. *Nature.* 2006;440(7081):237-241. [doi:10.1038/nature04516](https://doi.org/10.1038/nature04516) · [PubMed 16407889](https://pubmed.ncbi.nlm.nih.gov/16407889/)
