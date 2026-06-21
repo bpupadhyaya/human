@@ -286,6 +286,15 @@ cross_links:
   - target: 01-human/03-molecular/hif-1alpha
     relation: connects-to
     note: "Tumour hypoxia: HIF-1α stabilised in growing NF1 tumours drives the angiogenesis and metabolic adaptation that accompany their transformation to MPNST."
+  - target: 01-human/03-molecular/kit
+    relation: connects-to
+    note: "Mast-cell recruitment: KIT-driven mast cells recruited to NF1 neurofibromas secrete factors that promote Schwann-cell proliferation, a microenvironmental engine of neurofibroma growth."
+  - target: 01-human/03-molecular/gaba
+    relation: connects-to
+    note: "Cognitive deficits: excess RAS signalling from neurofibromin loss raises GABA-mediated inhibition in the brain, the mechanism behind the learning disabilities common in NF1."
+  - target: 01-human/03-molecular/rankl
+    relation: connects-to
+    note: "Bone dysplasia: NF1 loss dysregulates RANKL-driven osteoclast activity, contributing to the tibial pseudarthrosis, scoliosis and low bone density of neurofibromatosis type 1."
 ---
 
 # Neurofibromatosis Type 1
@@ -488,6 +497,9 @@ In glioma and MPNST: additional alterations required — MPNST requires CDKN2A/2
 - `connects-to` → **[MYC](../../03-molecular/myc/README.md)** — RAS-driven oncogene: unrestrained RAS signalling from NF1 loss upregulates MYC, driving the proliferation behind neurofibroma growth and malignant transformation.
 - `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — Plexiform angiogenesis: VEGF drives the rich vascularisation of the plexiform neurofibromas of NF1, supporting their growth and the bleeding risk of these tumours.
 - `connects-to` → **[HIF-1α](../../03-molecular/hif-1alpha/README.md)** — Tumour hypoxia: HIF-1α stabilised in growing NF1 tumours drives the angiogenesis and metabolic adaptation that accompany their transformation to MPNST.
+- `connects-to` → **[KIT](../../03-molecular/kit/README.md)** — Mast-cell recruitment: KIT-driven mast cells recruited to NF1 neurofibromas secrete factors that promote Schwann-cell proliferation, a microenvironmental engine of neurofibroma growth.
+- `connects-to` → **[GABA](../../03-molecular/gaba/README.md)** — Cognitive deficits: excess RAS signalling from neurofibromin loss raises GABA-mediated inhibition in the brain, the mechanism behind the learning disabilities common in NF1.
+- `connects-to` → **[RANKL](../../03-molecular/rankl/README.md)** — Bone dysplasia: NF1 loss dysregulates RANKL-driven osteoclast activity, contributing to the tibial pseudarthrosis, scoliosis and low bone density of neurofibromatosis type 1.
 
 [^gutmann-2017-nf1-primer]: Gutmann DH, Ferner RE, Listernick RH, et al. Neurofibromatosis type 1. *Nat Rev Dis Primers.* 2017;3:17004. [doi:10.1038/nrdp.2017.4](https://doi.org/10.1038/nrdp.2017.4) · [PubMed 28230061](https://pubmed.ncbi.nlm.nih.gov/28230061/)
 [^dombi-2016-selumetinib]: Dombi E, Baldwin A, Marcus LJ, et al. Activity of Selumetinib in Neurofibromatosis Type 1-Related Plexiform Neurofibromas. *N Engl J Med.* 2016;375(26):2550-2560. [doi:10.1056/NEJMoa1605943](https://doi.org/10.1056/NEJMoa1605943) · [PubMed 28029918](https://pubmed.ncbi.nlm.nih.gov/28029918/)

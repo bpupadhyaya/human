@@ -286,6 +286,15 @@ cross_links:
   - target: 01-human/03-molecular/ezh2
     relation: connects-to
     note: "Epigenetic progression: EZH2 overexpression contributes to the dedifferentiation and progression of neuroendocrine tumours, an epigenetic therapeutic candidate."
+  - target: 01-human/03-molecular/men1
+    relation: connects-to
+    note: "Menin loss: inactivation of the MEN1 tumour suppressor is the commonest genetic lesion in pancreatic neuroendocrine tumours, linking sporadic NETs to the MEN1 hereditary syndrome."
+  - target: 01-human/03-molecular/ret
+    relation: connects-to
+    note: "RET oncogene: activating RET mutations drive medullary thyroid carcinoma, the calcitonin-secreting neuroendocrine tumour of MEN2, targeted by selective RET inhibitors."
+  - target: 01-human/03-molecular/ccl2
+    relation: connects-to
+    note: "Macrophage microenvironment: CCL2 recruits tumour-associated macrophages into neuroendocrine tumours, shaping a stroma that supports growth and modulates therapy response."
 ---
 
 # Neuroendocrine Tumors
@@ -480,6 +489,9 @@ Treatment identical to SCLC: cisplatin (or carboplatin) + etoposide (4-6 cycles)
 - `connects-to` → **[MYC](../../03-molecular/myc/README.md)** — Proliferative drive: MYC activation drives the higher proliferative rate of poorly differentiated neuroendocrine carcinomas, marking their aggressive behaviour.
 - `connects-to` → **[Cyclin D1](../../03-molecular/cyclin-d1/README.md)** — Cell-cycle control: with CDKN2A loss in higher-grade tumours, cyclin D-CDK4/6 activity propels neuroendocrine tumour cells through the G1 checkpoint.
 - `connects-to` → **[EZH2](../../03-molecular/ezh2/README.md)** — Epigenetic progression: EZH2 overexpression contributes to the dedifferentiation and progression of neuroendocrine tumours, an epigenetic therapeutic candidate.
+- `connects-to` → **[MEN1](../../03-molecular/men1/README.md)** — Menin loss: inactivation of the MEN1 tumour suppressor is the commonest genetic lesion in pancreatic neuroendocrine tumours, linking sporadic NETs to the MEN1 hereditary syndrome.
+- `connects-to` → **[RET](../../03-molecular/ret/README.md)** — RET oncogene: activating RET mutations drive medullary thyroid carcinoma, the calcitonin-secreting neuroendocrine tumour of MEN2, targeted by selective RET inhibitors.
+- `connects-to` → **[CCL2](../../03-molecular/ccl2/README.md)** — Macrophage microenvironment: CCL2 recruits tumour-associated macrophages into neuroendocrine tumours, shaping a stroma that supports growth and modulates therapy response.
 
 [^yao-2011-radiant3]: Yao JC, Shah MH, Ito T, et al. Everolimus for advanced pancreatic neuroendocrine tumors. *N Engl J Med.* 2011;364(6):514-523. [doi:10.1056/NEJMoa1009290](https://doi.org/10.1056/NEJMoa1009290) · [PubMed 21306237](https://pubmed.ncbi.nlm.nih.gov/21306237/)
 [^raymond-2011-sunitinib-pnet]: Raymond E, Dahan L, Raoul JL, et al. Sunitinib malate for the treatment of pancreatic neuroendocrine tumors. *N Engl J Med.* 2011;364(6):501-513. [doi:10.1056/NEJMoa1003825](https://doi.org/10.1056/NEJMoa1003825) · [PubMed 21306236](https://pubmed.ncbi.nlm.nih.gov/21306236/)
