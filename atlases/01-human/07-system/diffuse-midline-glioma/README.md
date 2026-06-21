@@ -295,6 +295,15 @@ cross_links:
   - target: 01-human/03-molecular/e2f1
     relation: connects-to
     note: "Cell-cycle deregulation: CDKN2A loss and CDK4/6 activity unleash E2F1-driven cell-cycle entry in diffuse midline glioma, sustaining the relentless proliferation of this lethal tumour."
+  - target: 01-human/03-molecular/cxcl12
+    relation: connects-to
+    note: "White-matter infiltration: CXCR4 on diffuse midline glioma cells follows CXCL12 gradients along white-matter tracts, driving the diffuse brainstem infiltration that makes the tumour inoperable."
+  - target: 01-human/03-molecular/caspase-3
+    relation: connects-to
+    note: "Radiation response: radiotherapy — the only treatment that helps in DIPG — kills tumour cells through caspase-3-mediated apoptosis, but apoptosis resistance underlies the inevitable relapse after the transient response."
+  - target: 01-human/03-molecular/rad51
+    relation: connects-to
+    note: "Radioresistance: RAD51-mediated homologous-recombination repair helps diffuse midline glioma survive radiation-induced DNA damage, a mechanism of the radioresistance that limits the durability of treatment."
 ---
 
 # Diffuse Midline Glioma
@@ -526,6 +535,9 @@ Direct infusion of drugs into the pons via stereotactic catheter; bypasses BBB; 
 - `connects-to` → **[CCL2](../../03-molecular/ccl2/README.md)** — Myeloid microenvironment: CCL2 recruits microglia and monocyte-derived macrophages that dominate the diffuse midline glioma microenvironment, supporting an immunosuppressive niche resistant to immunotherapy.
 - `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — RTK-MAPK signalling: RAS-RAF-ERK signalling downstream of PDGFRA and EGFR amplification drives proliferation in diffuse midline glioma, complementing its defining H3K27M epigenetic reprogramming.
 - `connects-to` → **[E2F1](../../03-molecular/e2f1/README.md)** — Cell-cycle deregulation: CDKN2A loss and CDK4/6 activity unleash E2F1-driven cell-cycle entry in diffuse midline glioma, sustaining the relentless proliferation of this lethal tumour.
+- `connects-to` → **[CXCL12](../../03-molecular/cxcl12/README.md)** — CXCR4 on diffuse midline glioma cells follows CXCL12 gradients along white-matter tracts, driving the diffuse brainstem infiltration that makes the tumor inoperable and defines its lethal natural history.
+- `connects-to` → **[Caspase-3](../../03-molecular/caspase-3/README.md)** — Radiotherapy—the only treatment that meaningfully helps in DIPG—kills tumor cells through caspase-3-mediated apoptosis, but apoptosis resistance underlies the inevitable relapse after the transient clinical response.
+- `connects-to` → **[RAD51](../../03-molecular/rad51/README.md)** — RAD51-mediated homologous-recombination repair helps diffuse midline glioma survive radiation-induced DNA damage, a mechanism of the radioresistance that limits the durability of the only effective treatment.
 
 ---
 

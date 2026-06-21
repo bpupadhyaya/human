@@ -301,6 +301,15 @@ cross_links:
   - target: 01-human/03-molecular/pf4
     relation: connects-to
     note: "Platelet consumption: PF4 released from the platelets massively activated and consumed in DIC marks the platelet activation that, with coagulation-factor depletion, produces the bleeding-thrombosis paradox."
+  - target: 01-human/03-molecular/ccl2
+    relation: connects-to
+    note: "Monocyte tissue factor: CCL2 recruits and activates the monocytes whose tissue-factor expression is the principal initiator of the systemic coagulation activation that drives sepsis-induced DIC."
+  - target: 01-human/03-molecular/rage
+    relation: connects-to
+    note: "HMGB1 thromboinflammation: HMGB1 signalling through RAGE sustains the thromboinflammation of DIC, a late DAMP mediator that perpetuates the coagulation activation beyond the initial sepsis or trauma."
+  - target: 01-human/03-molecular/cgas-sting
+    relation: connects-to
+    note: "Mitochondrial-DNA trigger: mitochondrial DNA released in sepsis and trauma activates cGAS-STING, contributing the innate-immune signalling that feeds the immunothrombosis underlying DIC."
 ---
 
 # Disseminated Intravascular Coagulation
@@ -526,6 +535,9 @@ DIC is always **secondary** — it does not occur in isolation but as a conseque
 - `connects-to` → **[S100A8/A9](../../03-molecular/s100a8-a9/README.md)** — Immunothrombosis: S100A8/A9-rich neutrophil extracellular traps provide a scaffold and trigger for the widespread microthrombi of DIC, linking the innate immune response of sepsis to its consumptive coagulopathy.
 - `connects-to` → **[TLR4](../../03-molecular/tlr4/README.md)** — Endotoxin trigger: TLR4 sensing of bacterial LPS in sepsis induces tissue factor on monocytes and endothelium, the initiating signal that unleashes the systemic coagulation of DIC.
 - `connects-to` → **[PF4](../../03-molecular/pf4/README.md)** — Platelet consumption: PF4 released from the platelets massively activated and consumed in DIC marks the platelet activation that, with coagulation-factor depletion, produces the bleeding-thrombosis paradox.
+- `connects-to` → **[CCL2](../../03-molecular/ccl2/README.md)** — CCL2 recruits and activates the monocytes whose tissue-factor expression is the principal initiator of the systemic coagulation activation that drives sepsis-induced DIC—linking the chemokine response to the coagulopathy.
+- `connects-to` → **[RAGE](../../03-molecular/rage/README.md)** — HMGB1 signaling through RAGE sustains the thromboinflammation of DIC, a late DAMP mediator that perpetuates the coagulation activation beyond the initial sepsis, trauma, or obstetric trigger.
+- `connects-to` → **[cGAS-STING](../../03-molecular/cgas-sting/README.md)** — Mitochondrial DNA released in sepsis and trauma activates cGAS-STING, contributing the innate-immune signaling that feeds the immunothrombosis underlying the microvascular clotting of DIC.
 
 ---
 
