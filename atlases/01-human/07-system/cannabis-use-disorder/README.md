@@ -276,6 +276,15 @@ cross_links:
   - target: 01-human/03-molecular/il-1b
     relation: connects-to
     note: "Glial signalling: IL-1β from activated microglia is implicated in the neuroadaptations of chronic cannabis exposure and the withdrawal syndrome."
+  - target: 01-human/03-molecular/npy
+    relation: connects-to
+    note: "Withdrawal anxiety: cannabis withdrawal dysregulates the anxiolytic neuropeptide Y system, contributing to the anxiety, irritability and stress reactivity that drive relapse during abstinence."
+  - target: 01-human/03-molecular/substance-p
+    relation: connects-to
+    note: "Cannabinoid hyperemesis: substance P acting on NK1 receptors mediates the cyclic vomiting of cannabinoid hyperemesis syndrome, a complication of heavy chronic use for which NK1 antagonists like aprepitant can help."
+  - target: 01-human/03-molecular/adenosine
+    relation: connects-to
+    note: "Sleep and reward: CB1 and adenosine A2A receptors interact in the striatum and sleep circuits, and disrupted adenosine signalling underlies the prominent insomnia of the cannabis-withdrawal syndrome."
 sources:
   - id: hasin-2015-cannabis-disorder
     type: peer-reviewed
@@ -517,6 +526,9 @@ Paradoxical syndrome in heavy long-term users: cyclic vomiting relieved by hot b
 - `connects-to` → **[CRH](../../03-molecular/crh/README.md)** — Withdrawal stress axis: CRH-driven HPA activation surges during cannabis withdrawal, driving the irritability, anxiety and craving that sustain the use disorder.
 - `connects-to` → **[IL-6](../../03-molecular/il-6/README.md)** — Neuroinflammation: chronic cannabis use alters IL-6 and other inflammatory cytokines, part of the immune dysregulation accompanying dependence.
 - `connects-to` → **[IL-1β](../../03-molecular/il-1b/README.md)** — Glial signalling: IL-1β from activated microglia is implicated in the neuroadaptations of chronic cannabis exposure and the withdrawal syndrome.
+- `connects-to` → **[NPY](../../03-molecular/npy/README.md)** — Cannabis withdrawal dysregulates the anxiolytic neuropeptide Y system, contributing to the anxiety, irritability, and stress reactivity that mark the withdrawal syndrome and drive relapse during attempts at abstinence.
+- `connects-to` → **[Substance P](../../03-molecular/substance-p/README.md)** — Substance P acting on NK1 receptors mediates the cyclic vomiting of cannabinoid hyperemesis syndrome, a paradoxical complication of heavy chronic cannabis use for which NK1 antagonists such as aprepitant can provide relief.
+- `connects-to` → **[Adenosine](../../03-molecular/adenosine/README.md)** — CB1 and adenosine A2A receptors interact in the striatal reward and sleep circuits, and disrupted adenosine signaling underlies the prominent insomnia and vivid dreams of the cannabis-withdrawal syndrome.
 
 [^hasin-2015-cannabis-disorder]: Hasin DS, Saha TD, Kerridge BT, et al. Prevalence of marijuana use disorders in the United States between 2001-2002 and 2012-2013. *JAMA Psychiatry.* 2015;72(12):1235-1242. [doi:10.1001/jamapsychiatry.2015.1858](https://doi.org/10.1001/jamapsychiatry.2015.1858) · [PubMed 26502112](https://pubmed.ncbi.nlm.nih.gov/26502112/)
 [^budney-2004-cannabis-withdrawal]: Budney AJ, Moore BA, Vandrey RG, Hughes JR. The time course and significance of cannabis withdrawal. *J Abnorm Psychol.* 2003;112(3):393-402. [doi:10.1037/0021-843X.112.3.393](https://doi.org/10.1037/0021-843X.112.3.393) · [PubMed 12943018](https://pubmed.ncbi.nlm.nih.gov/12943018/)

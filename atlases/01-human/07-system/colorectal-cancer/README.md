@@ -295,6 +295,15 @@ cross_links:
   - target: 01-human/03-molecular/hif-1alpha
     relation: connects-to
     note: "Tumour hypoxia: HIF-1α stabilised in hypoxic colorectal tumours drives the VEGF angiogenesis and invasive, metastatic phenotype linked to poor prognosis."
+  - target: 01-human/03-molecular/mlh1
+    relation: connects-to
+    note: "Mismatch repair and immunotherapy: MLH1 loss (germline in Lynch syndrome, or sporadic via promoter hypermethylation) creates the microsatellite-instable, hypermutated CRC subtype that responds to checkpoint inhibitors like pembrolizumab."
+  - target: 01-human/03-molecular/cxcl12
+    relation: connects-to
+    note: "Hepatic metastasis: CXCR4 on colorectal-cancer cells follows CXCL12 gradients toward the liver via the portal circulation, helping explain why the liver is the dominant site of CRC metastatic spread."
+  - target: 01-human/03-molecular/il-6
+    relation: connects-to
+    note: "Inflammation-driven cancer: IL-6 signalling through STAT3 links chronic colonic inflammation to carcinogenesis, the basis of the elevated colorectal-cancer risk in inflammatory bowel disease (colitis-associated cancer)."
 ---
 
 # Colorectal Cancer
@@ -503,6 +512,9 @@ The step-wise genetic progression from normal epithelium to carcinoma in CRC was
 - `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — PI3K/AKT survival: PIK3CA mutation activates AKT in colorectal cancer, driving growth and survival and contributing to resistance to anti-EGFR therapy.
 - `connects-to` → **[Cyclin D1](../../03-molecular/cyclin-d1/README.md)** — Cell-cycle drive: Wnt-driven cyclin D1 with CDK4/6 propels colorectal cancer cells through the G1 checkpoint along the adenoma-carcinoma sequence.
 - `connects-to` → **[HIF-1α](../../03-molecular/hif-1alpha/README.md)** — Tumour hypoxia: HIF-1α stabilised in hypoxic colorectal tumours drives the VEGF angiogenesis and invasive, metastatic phenotype linked to poor prognosis.
+- `connects-to` → **[MLH1](../../03-molecular/mlh1/README.md)** — MLH1 loss—germline in Lynch syndrome or sporadic via promoter hypermethylation—creates the microsatellite-instable, hypermutated CRC subtype that, uniquely among colorectal cancers, responds dramatically to checkpoint inhibitors like pembrolizumab.
+- `connects-to` → **[CXCL12](../../03-molecular/cxcl12/README.md)** — CXCR4 on colorectal-cancer cells follows CXCL12 gradients toward the liver through the portal circulation, helping explain why the liver is the dominant site of CRC metastasis and the focus of metastasectomy.
+- `connects-to` → **[IL-6](../../03-molecular/il-6/README.md)** — IL-6 signaling through STAT3 links chronic colonic inflammation to carcinogenesis, the molecular basis of the elevated colorectal-cancer risk in inflammatory bowel disease that defines colitis-associated cancer.
 
 ---
 
