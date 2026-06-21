@@ -297,6 +297,15 @@ cross_links:
   - target: 01-human/03-molecular/tslp
     relation: connects-to
     note: "Airway alarmin: airway epithelium releases TSLP on injury or allergen exposure, the upstream alarm signal that initiates the type 2 inflammation of asthma and is targeted by tezepelumab."
+  - target: 01-human/03-molecular/bradykinin
+    relation: connects-to
+    note: "Kinin metabolism: the pulmonary endothelium is the principal site of ACE-mediated bradykinin degradation, so ACE inhibitors raise airway bradykinin and cause the dry cough that is their hallmark side effect."
+  - target: 01-human/03-molecular/prostaglandins
+    relation: connects-to
+    note: "Airway and vascular tone: prostaglandins and related eicosanoids set bronchial tone (PGE2 dilating, leukotrienes constricting) and modulate the pulmonary circulation, central mediators of airway physiology and asthma."
+  - target: 01-human/03-molecular/endothelin-1
+    relation: connects-to
+    note: "Pulmonary vascular tone: endothelin-1 is the dominant constrictor of the pulmonary circulation and the mediator of hypoxic pulmonary vasoconstriction, the basis for endothelin antagonists in pulmonary hypertension."
 taxonomy:
   uberon: "UBERON:0001004"
   fma: "FMA:7161"
@@ -471,6 +480,9 @@ The mucociliary escalator (ciliated cells + goblet cell mucus) continuously clea
 - **Connects-to** → [Angiotensin II](../../03-molecular/angiotensin-ii/README.md): Non-respiratory endocrine role: the pulmonary capillary endothelium is the body's main site of angiotensin-converting enzyme, converting angiotensin I to the vasopressor angiotensin II as blood transits the lung.
 - **Connects-to** → [VEGF](../../03-molecular/vegf/README.md): Alveolar-capillary maintenance: VEGF sustains the dense pulmonary capillary network of the gas-exchange surface, and its loss contributes to the alveolar destruction of emphysema.
 - **Connects-to** → [TSLP](../../03-molecular/tslp/README.md): Airway alarmin: airway epithelium releases TSLP on injury or allergen exposure, the upstream alarm signal that initiates the type 2 inflammation of asthma and is targeted by tezepelumab.
+- **Connects-to** → [Bradykinin](../../03-molecular/bradykinin/README.md): Kinin metabolism: the pulmonary endothelium is the principal site of ACE-mediated bradykinin degradation, so ACE inhibitors raise airway bradykinin and cause the dry cough that is their hallmark side effect.
+- **Connects-to** → [Prostaglandins](../../03-molecular/prostaglandins/README.md): Airway and vascular tone: prostaglandins and related eicosanoids set bronchial tone (PGE2 dilating, leukotrienes constricting) and modulate the pulmonary circulation, central mediators of airway physiology and asthma.
+- **Connects-to** → [Endothelin-1](../../03-molecular/endothelin-1/README.md): Pulmonary vascular tone: endothelin-1 is the dominant constrictor of the pulmonary circulation and the mediator of hypoxic pulmonary vasoconstriction, the basis for endothelin antagonists in pulmonary hypertension.
 - `prevented-by` → **[PCV13 (Prevnar 13)](../../../../04-vaccine/08-conjugate/pcv13/README.md)** — CAPiTA RCT (N=84,496 adults ≥65): PCV13 achieved 45.6% VE against vaccine-type CAP and 75% VE against invasive pneumococcal disease; prevents pneumococcal pneumonia, the leading infectious cause of respiratory hospitalisation in older adults.
 
 ## Pathology

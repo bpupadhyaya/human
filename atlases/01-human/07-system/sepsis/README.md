@@ -298,6 +298,15 @@ cross_links:
   - target: 01-human/03-molecular/ccl2
     relation: connects-to
     note: "Monocyte mobilisation: CCL2 mobilises and recruits monocytes during sepsis, fuelling the systemic inflammatory response while contributing to tissue infiltration and organ injury."
+  - target: 01-human/03-molecular/thrombin
+    relation: connects-to
+    note: "DIC engine: tissue-factor-driven thrombin generation in sepsis converts fibrinogen to the microvascular fibrin of disseminated intravascular coagulation, against which the protein C anticoagulant pathway is overwhelmed."
+  - target: 01-human/03-molecular/rage
+    relation: connects-to
+    note: "HMGB1 late mediator: HMGB1 released by dying and activated cells signals through RAGE as a key late mediator of sepsis lethality, sustaining the inflammation long after the initial PAMP signal."
+  - target: 01-human/03-molecular/cgas-sting
+    relation: connects-to
+    note: "Mitochondrial-DNA DAMP: mitochondrial DNA released from damaged cells in sepsis activates cGAS-STING, contributing the type-I-interferon and inflammatory signalling that amplify the dysregulated host response."
 ---
 
 # Sepsis
@@ -497,6 +506,9 @@ Sepsis is not localized to one system — it manifests as dysfunction across mul
 - `connects-to` → **[S100A8/A9](../../03-molecular/s100a8-a9/README.md)** — Alarmin amplifier: S100A8/A9 released by activated neutrophils and monocytes is a major DAMP in sepsis, amplifying TLR4-driven inflammation and serving as a biomarker of sepsis severity.
 - `connects-to` → **[PD-1](../../03-molecular/pd-1/README.md)** — Sepsis immunoparalysis: persistent antigen and inflammation upregulate PD-1, exhausting T cells in the immunosuppressive phase of sepsis that leaves patients vulnerable to secondary infection.
 - `connects-to` → **[CCL2](../../03-molecular/ccl2/README.md)** — Monocyte mobilisation: CCL2 mobilises and recruits monocytes during sepsis, fuelling the systemic inflammatory response while contributing to tissue infiltration and organ injury.
+- `connects-to` → **[Thrombin](../../03-molecular/thrombin/README.md)** — Tissue-factor-driven thrombin generation in sepsis converts fibrinogen to the microvascular fibrin of disseminated intravascular coagulation, against which the protein C anticoagulant pathway is overwhelmed—a core driver of organ failure.
+- `connects-to` → **[RAGE](../../03-molecular/rage/README.md)** — HMGB1 released by dying and activated cells signals through RAGE as a key late mediator of sepsis lethality, sustaining the inflammatory response long after the initial pathogen signal and offering a therapeutic window.
+- `connects-to` → **[cGAS-STING](../../03-molecular/cgas-sting/README.md)** — Mitochondrial DNA released from damaged cells in sepsis activates cGAS-STING, contributing the type-I-interferon and inflammatory signaling that amplify the dysregulated host response underlying multi-organ failure.
 - `treated-by` → **[Vancomycin](../../../03-medicine/01-modern/06-antimicrobial/vancomycin/README.md)** — First-line empiric IV therapy for MRSA bacteremia and gram-positive sepsis; added to beta-lactam empiric regimens when MRSA risk is elevated; AUC/MIC-guided dosing (IDSA 2021); MIC ≤1 mg/L required for endocarditis; daptomycin alternative for high MIC.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
