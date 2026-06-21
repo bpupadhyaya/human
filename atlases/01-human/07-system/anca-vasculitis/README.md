@@ -307,6 +307,15 @@ cross_links:
   - target: 01-human/03-molecular/fibrinogen
     relation: connects-to
     note: "Fibrinoid necrosis: vessel-wall injury in ANCA-associated vasculitis exposes tissue factor and converts fibrinogen to the fibrin of fibrinoid necrosis and the crescents of pauci-immune glomerulonephritis."
+  - target: 01-human/03-molecular/btk
+    relation: connects-to
+    note: "B-cell and neutrophil signalling: BTK transduces B-cell-receptor and Fc-receptor signals in the autoreactive B cells and ANCA-activated neutrophils of the disease, making BTK inhibitors a candidate therapy in AAV."
+  - target: 01-human/03-molecular/tlr4
+    relation: connects-to
+    note: "Infection-primed flares: TLR-mediated priming of neutrophils (as during infection) is required for ANCA to trigger the respiratory burst and NETosis, helping explain why infections precipitate flares of ANCA-associated vasculitis."
+  - target: 01-human/03-molecular/thrombin
+    relation: connects-to
+    note: "Hypercoagulability: active ANCA-associated vasculitis markedly raises venous-thromboembolism risk, with NET- and tissue-factor-driven thrombin generation underlying the thrombotic tendency during disease flares."
 ---
 
 # ANCA Vasculitis
@@ -535,6 +544,9 @@ EGPA is mechanistically distinct — eosinophils, not neutrophils, mediate tissu
 - `connects-to` → **[S100A8/A9](../../03-molecular/s100a8-a9/README.md)** — NETosis driver: ANCA-activated neutrophils release extracellular traps rich in S100A8/A9 that expose PR3 and MPO autoantigens and directly injure vessel walls, a central mechanism of ANCA-associated vasculitis.
 - `connects-to` → **[CCL2](../../03-molecular/ccl2/README.md)** — Monocyte recruitment: CCL2 draws monocytes into vasculitic lesions, where they become the macrophages of the granulomatous and necrotising inflammation of ANCA-associated vasculitis.
 - `connects-to` → **[Fibrinogen](../../03-molecular/fibrinogen/README.md)** — Fibrinoid necrosis: vessel-wall injury in ANCA-associated vasculitis exposes tissue factor and converts fibrinogen to the fibrin of fibrinoid necrosis and the crescents of pauci-immune glomerulonephritis.
+- `connects-to` → **[BTK](../../03-molecular/btk/README.md)** — BTK transduces B-cell-receptor and Fc-receptor signals in the autoreactive B cells and ANCA-activated neutrophils of the disease, making BTK inhibitors a candidate therapy complementing the established B-cell depletion of rituximab.
+- `connects-to` → **[TLR4](../../03-molecular/tlr4/README.md)** — TLR-mediated priming of neutrophils (as during infection) is required for ANCA to trigger the respiratory burst and NETosis, helping explain why infections precipitate flares of ANCA-associated vasculitis.
+- `connects-to` → **[Thrombin](../../03-molecular/thrombin/README.md)** — Active ANCA-associated vasculitis markedly raises venous-thromboembolism risk, with NET- and tissue-factor-driven thrombin generation underlying the thrombotic tendency that accompanies disease flares.
 
 [^yates-2022-anca-review]: Yates M, Watts RA, Bajema IM, et al. EULAR/ERA-EDTA recommendations for the management of ANCA-associated vasculitis. *Ann Rheum Dis.* 2016;75(9):1583-1594. [doi:10.1136/annrheumdis-2016-209133](https://doi.org/10.1136/annrheumdis-2016-209133) · [PubMed 27338776](https://pubmed.ncbi.nlm.nih.gov/27338776/)
 [^stone-2010-rituximab-gpa-rave]: Stone JH, Merkel PA, Spiera R, et al. Rituximab versus cyclophosphamide for ANCA-associated vasculitis. *N Engl J Med.* 2010;363(3):221-232. [doi:10.1056/NEJMoa0909905](https://doi.org/10.1056/NEJMoa0909905) · [PubMed 20647199](https://pubmed.ncbi.nlm.nih.gov/20647199/)

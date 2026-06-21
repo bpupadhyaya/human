@@ -304,6 +304,15 @@ cross_links:
   - target: 01-human/03-molecular/complement-c3
     relation: connects-to
     note: "Complement-mediated denervation: complement activation including C3 deposits at the neuromuscular junction and on motor neurons in ALS, contributing to synapse loss and denervation."
+  - target: 01-human/03-molecular/caspase-3
+    relation: connects-to
+    note: "Motor-neuron apoptosis: caspase-3 executes the apoptotic death of motor neurons in ALS, the final common pathway through which excitotoxicity, oxidative stress and protein aggregation kill the cells."
+  - target: 01-human/03-molecular/nitric-oxide
+    relation: connects-to
+    note: "Oxidative injury: excess nitric oxide reacts with superoxide to form peroxynitrite that damages motor-neuron proteins and mitochondria, a central oxidative mechanism especially in SOD1-mutant ALS."
+  - target: 01-human/03-molecular/tlr4
+    relation: connects-to
+    note: "Microglial activation: aggregated proteins and DAMPs released by dying motor neurons engage microglial TLR4, driving the neuroinflammation that accelerates motor-neuron loss in ALS."
 ---
 
 # ALS
@@ -539,6 +548,9 @@ ALS diagnosis is **clinical** — no single definitive biomarker test (though Nf
 - `connects-to` → **[CCL2](../../03-molecular/ccl2/README.md)** — Monocyte recruitment: CCL2 is elevated in ALS CSF and recruits inflammatory monocytes to degenerating motor pathways, part of the neuroinflammation driving disease progression.
 - `connects-to` → **[Type I Interferon](../../03-molecular/type-i-interferon/README.md)** — TDP-43-driven interferon: cytoplasmic TDP-43 aggregates and leaked nucleic acids activate cGAS-STING to trigger a type-I-interferon response, an inflammatory driver of motor-neuron degeneration in ALS.
 - `connects-to` → **[Complement C3](../../03-molecular/complement-c3/README.md)** — Complement-mediated denervation: complement activation including C3 deposits at the neuromuscular junction and on motor neurons in ALS, contributing to synapse loss and denervation.
+- `connects-to` → **[Caspase-3](../../03-molecular/caspase-3/README.md)** — Caspase-3 executes the apoptotic death of motor neurons in ALS, the final common pathway through which excitotoxicity, oxidative stress, and protein aggregation converge to kill upper and lower motor neurons.
+- `connects-to` → **[Nitric oxide](../../03-molecular/nitric-oxide/README.md)** — Excess nitric oxide reacts with superoxide to form peroxynitrite that damages motor-neuron proteins, lipids, and mitochondria—a central oxidative mechanism especially in the SOD1-mutant form of ALS.
+- `connects-to` → **[TLR4](../../03-molecular/tlr4/README.md)** — Aggregated proteins and DAMPs released by dying motor neurons engage microglial TLR4, driving the neuroinflammation that shifts microglia to a neurotoxic phenotype and accelerates motor-neuron loss in ALS.
 
 [^brown-2017-als-review]: Brown RH, Al-Chalabi A. Amyotrophic lateral sclerosis. *N Engl J Med.* 2017;377(2):162-172. [doi:10.1056/NEJMra1603471](https://doi.org/10.1056/NEJMra1603471) · [PubMed 28700839](https://pubmed.ncbi.nlm.nih.gov/28700839/)
 [^edaravone-als-2017]: Writing Group, Edaravone ALS 19 Study Group. Safety and efficacy of edaravone in well defined patients with amyotrophic lateral sclerosis. *Lancet Neurol.* 2017;16(7):505-512. [doi:10.1016/S1474-4422(17)30115-1](https://doi.org/10.1016/S1474-4422(17)30115-1) · [PubMed 28522180](https://pubmed.ncbi.nlm.nih.gov/28522180/)
