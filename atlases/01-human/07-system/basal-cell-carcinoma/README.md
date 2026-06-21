@@ -295,6 +295,15 @@ cross_links:
   - target: 01-human/03-molecular/ccl2
     relation: connects-to
     note: "Stromal macrophages: CCL2 recruits tumour-associated macrophages into the basal cell carcinoma stroma, shaping an immunosuppressive microenvironment around the slowly invasive tumour."
+  - target: 01-human/03-molecular/cgas-sting
+    relation: connects-to
+    note: "UV-mutational immunogenicity: chronic UV damage gives basal cell carcinoma one of the highest mutational burdens of any cancer, generating cytosolic DNA and neoantigens that engage cGAS-STING — the basis for cemiplimab response in advanced disease."
+  - target: 01-human/03-molecular/caspase-3
+    relation: connects-to
+    note: "Apoptosis evasion: Hedgehog-driven BCL-2 expression lets basal cell carcinoma evade the caspase-3-mediated apoptosis that normally eliminates UV-damaged keratinocytes, allowing the mutated cells to persist and proliferate."
+  - target: 01-human/03-molecular/pdgf
+    relation: connects-to
+    note: "Hedgehog-stroma signalling: Hedgehog activation in basal cell carcinoma drives PDGF-mediated crosstalk with the tumour stroma, supporting the fibrovascular microenvironment that sustains the locally invasive tumour."
 ---
 
 # Basal Cell Carcinoma
@@ -509,6 +518,9 @@ BCC has a complex immune microenvironment:
 - `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — PI3K survival crosstalk: PI3K-AKT signalling cooperates with the driving Hedgehog pathway to sustain basal cell carcinoma growth and survival, a parallel axis active in the tumour.
 - `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — Growth and translation: mTOR signalling downstream of PI3K-AKT drives the protein synthesis and proliferation of basal cell carcinoma, an actionable node in advanced disease.
 - `connects-to` → **[CCL2](../../03-molecular/ccl2/README.md)** — Stromal macrophages: CCL2 recruits tumour-associated macrophages into the basal cell carcinoma stroma, shaping an immunosuppressive microenvironment around the slowly invasive tumour.
+- `connects-to` → **[cGAS-STING](../../03-molecular/cgas-sting/README.md)** — Chronic UV damage gives basal cell carcinoma one of the highest mutational burdens of any cancer, generating cytosolic DNA and neoantigens that engage cGAS-STING—the immunogenicity behind cemiplimab response in advanced BCC.
+- `connects-to` → **[Caspase-3](../../03-molecular/caspase-3/README.md)** — Hedgehog-driven BCL-2 expression lets basal cell carcinoma evade the caspase-3-mediated apoptosis that normally eliminates UV-damaged keratinocytes, allowing the mutated basal cells to persist and proliferate into tumor.
+- `connects-to` → **[PDGF](../../03-molecular/pdgf/README.md)** — Hedgehog activation in basal cell carcinoma drives PDGF-mediated crosstalk with the tumor stroma, supporting the fibrovascular microenvironment that sustains the characteristically locally invasive growth.
 
 ---
 
