@@ -291,6 +291,15 @@ cross_links:
   - target: 01-human/03-molecular/ccl2
     relation: connects-to
     note: "Inflammatory recruitment: CCL2 produced by infected airway epithelium draws monocytes and macrophages into the lung, fuelling the immunopathology that obstructs the small airways in RSV bronchiolitis."
+  - target: 01-human/03-molecular/tlr4
+    relation: connects-to
+    note: "F-protein sensing: the RSV fusion (F) protein engages TLR4 on airway and immune cells, triggering the NF-κB-driven cytokine response that contributes to the innate inflammation of RSV infection."
+  - target: 01-human/03-molecular/ifn-gamma
+    relation: connects-to
+    note: "Th1 balance: IFN-γ from Th1 cells counterbalances the Th2 skew that predisposes infants to severe RSV bronchiolitis, and a weak Th1 response is associated with worse disease and later wheezing."
+  - target: 01-human/03-molecular/perforin
+    relation: connects-to
+    note: "Cytotoxic clearance: perforin-mediated CD8 T-cell killing of infected airway epithelium clears RSV but also contributes to the lung injury, the double-edged cytotoxic response central to recovery and to immunopathology."
 ---
 
 # RSV
@@ -526,3 +535,6 @@ Radiological findings: Hyperinflation, peribronchial thickening, occasional atel
 - `connects-to` → **[NLRP3 Inflammasome](../../03-molecular/nlrp3-inflammasome/README.md)** — Inflammasome activation: RSV viroporin SH and other viral proteins trigger the NLRP3 inflammasome in airway cells, releasing IL-1β that amplifies the inflammation of severe bronchiolitis.
 - `connects-to` → **[IL-17A](../../03-molecular/il-17a/README.md)** — Neutrophilic airways: IL-17A drives the neutrophil-dominated airway inflammation and mucus hypersecretion that mark severe RSV bronchiolitis, distinct from the eosinophilic Th2 arm.
 - `connects-to` → **[CCL2](../../03-molecular/ccl2/README.md)** — Inflammatory recruitment: CCL2 produced by infected airway epithelium draws monocytes and macrophages into the lung, fuelling the immunopathology that obstructs the small airways in RSV bronchiolitis.
+- `connects-to` → **[TLR4](../../03-molecular/tlr4/README.md)** — The RSV fusion (F) protein engages TLR4 on airway and immune cells, triggering the NF-κB-driven cytokine response that contributes to the innate inflammation of infection—linking the vaccine-target protein to disease pathogenesis.
+- `connects-to` → **[IFN-γ](../../03-molecular/ifn-gamma/README.md)** — IFN-γ from Th1 cells counterbalances the Th2 skew that predisposes infants to severe RSV bronchiolitis, and a weak Th1 response is associated with worse acute disease and the later development of recurrent wheezing.
+- `connects-to` → **[Perforin](../../03-molecular/perforin/README.md)** — Perforin-mediated CD8 T-cell killing of infected airway epithelium clears RSV but also contributes to the lung injury—the double-edged cytotoxic response central to both viral recovery and the immunopathology of severe bronchiolitis.

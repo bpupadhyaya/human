@@ -298,6 +298,15 @@ cross_links:
   - target: 01-human/03-molecular/bnp
     relation: connects-to
     note: "Natriuretic counter-regulation: natriuretic peptides like BNP act on the kidney to promote sodium and water excretion, opposing the renin-angiotensin system in the cardiorenal control of volume."
+  - target: 01-human/03-molecular/prostaglandins
+    relation: connects-to
+    note: "Renal hemodynamics: prostaglandins (PGE2, prostacyclin) dilate the afferent arteriole and stimulate renin release to protect renal blood flow under stress, which is why NSAIDs that block them precipitate acute kidney injury."
+  - target: 01-human/03-molecular/adenosine
+    relation: connects-to
+    note: "Tubuloglomerular feedback: adenosine released at the macula densa in response to high tubular sodium constricts the afferent arteriole through A1 receptors, the feedback loop that stabilises single-nephron GFR."
+  - target: 01-human/03-molecular/bradykinin
+    relation: connects-to
+    note: "Kallikrein-kinin balance: the renal kallikrein-kinin system generates bradykinin that promotes vasodilation and natriuresis, a counter-regulatory arm to angiotensin II in the kidney's control of blood pressure and volume."
 taxonomy:
   uberon: "UBERON:0001008"
 ---
@@ -486,6 +495,9 @@ Natriuretic counterpoint:
 - **Connects to:** [VEGF](../../03-molecular/vegf/README.md) — filtration-barrier maintenance: podocyte-derived VEGF sustains the fenestrated glomerular endothelium, which is why anti-VEGF cancer therapy causes proteinuria, hypertension and thrombotic microangiopathy.
 - **Connects to:** [Complement C3](../../03-molecular/complement-c3/README.md) — glomerular complement: C3 and the alternative pathway drive immune injury in glomerulonephritis and C3 glomerulopathy, a major mechanism of kidney damage targeted by emerging complement inhibitors.
 - **Connects to:** [BNP](../../03-molecular/bnp/README.md) — natriuretic counter-regulation: natriuretic peptides like BNP act on the kidney to promote sodium and water excretion, opposing the renin-angiotensin system in the cardiorenal control of volume.
+- **Connects to:** [Prostaglandins](../../03-molecular/prostaglandins/README.md) — renal hemodynamics: prostaglandins (PGE2, prostacyclin) dilate the afferent arteriole and stimulate renin release to protect renal blood flow under stress, which is why NSAIDs that block them precipitate acute kidney injury.
+- **Connects to:** [Adenosine](../../03-molecular/adenosine/README.md) — tubuloglomerular feedback: adenosine released at the macula densa in response to high tubular sodium constricts the afferent arteriole through A1 receptors, the feedback loop that stabilises single-nephron GFR.
+- **Connects to:** [Bradykinin](../../03-molecular/bradykinin/README.md) — kallikrein-kinin balance: the renal kallikrein-kinin system generates bradykinin that promotes vasodilation and natriuresis, a counter-regulatory arm to angiotensin II in the kidney's control of blood pressure and volume.
 - **Treated by:** ACE inhibitors — renoprotection in CKD.
 - **Treated by:** Loop diuretics — fluid management.
 
