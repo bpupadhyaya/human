@@ -292,6 +292,15 @@ cross_links:
   - target: 01-human/03-molecular/cgas-sting
     relation: connects-to
     note: "DNA sensing of the virus: cGAS-STING detection of HIV reverse-transcription intermediates fuels the chronic type-I-interferon response and immune activation that accelerate immune exhaustion in AIDS."
+  - target: 01-human/03-molecular/cxcl12
+    relation: connects-to
+    note: "X4 tropism in late disease: emergence of CXCR4-using (X4) HIV, whose ligand is CXCL12, marks advanced infection and accelerates the CD4 collapse that ushers in the AIDS-defining stage."
+  - target: 01-human/03-molecular/pd-1
+    relation: connects-to
+    note: "Terminal exhaustion: profound PD-1-marked T-cell exhaustion in AIDS leaves the few remaining T cells unable to control HIV or opportunistic pathogens, the functional endpoint of the immune collapse."
+  - target: 01-human/03-molecular/mhc-class-ii
+    relation: connects-to
+    note: "Helper-cell collapse: the destruction of CD4 T cells in AIDS dismantles MHC-class-II-restricted T-helper responses, removing the help that B cells and CD8 cells need and explaining the broad immunodeficiency."
 ---
 
 # HIV/AIDS
@@ -498,6 +507,9 @@ HIV-1 pathogenesis is primarily driven by CD4⁺ T cell loss:
 - `connects-to` → **[IFN-γ](../../03-molecular/ifn-gamma/README.md)** — Collapse of Th1 defence: loss of CD4 T helper cells cripples IFN-γ-dependent macrophage activation, removing the control of intracellular pathogens and opening the door to the opportunistic infections that define AIDS.
 - `connects-to` → **[NLRP3 Inflammasome](../../03-molecular/nlrp3-inflammasome/README.md)** — Pyroptotic depletion: abortive HIV infection of resting CD4 cells triggers inflammasome-driven caspase-1 pyroptosis, the dominant mechanism of CD4 T-cell loss driving progression to AIDS.
 - `connects-to` → **[cGAS-STING](../../03-molecular/cgas-sting/README.md)** — DNA sensing of the virus: cGAS-STING detection of HIV reverse-transcription intermediates fuels the chronic type-I-interferon response and immune activation that accelerate immune exhaustion in AIDS.
+- `connects-to` → **[CXCL12](../../03-molecular/cxcl12/README.md)** — Emergence of CXCR4-using (X4) HIV, whose ligand is CXCL12, marks advanced infection and accelerates the CD4 collapse that ushers in the AIDS-defining stage with its opportunistic infections.
+- `connects-to` → **[PD-1](../../03-molecular/pd-1/README.md)** — Profound PD-1-marked T-cell exhaustion in AIDS leaves the few remaining T cells unable to control HIV or opportunistic pathogens, the functional endpoint of the immune collapse that defines the syndrome.
+- `connects-to` → **[MHC class II](../../03-molecular/mhc-class-ii/README.md)** — The destruction of CD4 T cells in AIDS dismantles MHC-class-II-restricted T-helper responses, removing the help that B cells and CD8 cells require—the immunological core of the broad immunodeficiency.
 
 ## See Also
 

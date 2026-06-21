@@ -292,6 +292,15 @@ cross_links:
   - target: 01-human/03-molecular/il-17a
     relation: connects-to
     note: "Neutrophilic lung injury: IL-17A drives neutrophil recruitment to the influenza-infected airway, contributing to the excessive inflammation and tissue damage of severe and secondary-bacterial pneumonia."
+  - target: 01-human/03-molecular/tlr4
+    relation: connects-to
+    note: "DAMP-driven lung injury: oxidised phospholipids and HMGB1 from influenza-damaged lung engage TLR4 on innate cells, a pathway driving the acute lung injury of severe influenza that TLR4 antagonism mitigates in models."
+  - target: 01-human/03-molecular/tbk1
+    relation: connects-to
+    note: "Interferon-induction node: RIG-I sensing of influenza RNA signals through MAVS to TBK1, the kinase that phosphorylates IRF3 to launch the type-I-interferon response central to antiviral defence against the virus."
+  - target: 01-human/03-molecular/il-10
+    relation: connects-to
+    note: "Regulatory restraint: IL-10 dampens the influenza immune response to limit immunopathology, a protective brake whose balance with effector cytokines determines whether the host clears the virus or suffers a damaging cytokine storm."
 ---
 
 # Influenza
@@ -519,3 +528,6 @@ Influenza damages mucociliary clearance and exposes basal lamina glycoproteins �
 - `connects-to` → **[CCL2](../../03-molecular/ccl2/README.md)** — Monocyte influx: CCL2 recruits inflammatory monocytes into the influenza-infected lung, where they aid clearance but in severe disease drive the immunopathology behind viral pneumonia and ARDS.
 - `connects-to` → **[Perforin](../../03-molecular/perforin/README.md)** — Cytotoxic clearance: CD8 T cells eliminate influenza-infected airway cells through perforin and granzyme, essential for recovery but a source of the epithelial damage in severe infection.
 - `connects-to` → **[IL-17A](../../03-molecular/il-17a/README.md)** — Neutrophilic lung injury: IL-17A drives neutrophil recruitment to the influenza-infected airway, contributing to the excessive inflammation and tissue damage of severe and secondary-bacterial pneumonia.
+- `connects-to` → **[TLR4](../../03-molecular/tlr4/README.md)** — Oxidized phospholipids and HMGB1 from influenza-damaged lung engage TLR4 on innate cells, a pathway driving the acute lung injury of severe influenza that TLR4 antagonism mitigates in animal models.
+- `connects-to` → **[TBK1](../../03-molecular/tbk1/README.md)** — RIG-I sensing of influenza RNA signals through MAVS to TBK1, the kinase that phosphorylates IRF3 to launch the type-I-interferon response central to antiviral defence—a node the virus's NS1 protein works to suppress.
+- `connects-to` → **[IL-10](../../03-molecular/il-10/README.md)** — IL-10 dampens the influenza immune response to limit immunopathology, a protective brake whose balance with effector cytokines determines whether the host clears the virus or suffers the damaging cytokine storm of severe disease.
