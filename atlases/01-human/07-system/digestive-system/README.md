@@ -307,6 +307,15 @@ cross_links:
   - target: 01-human/03-molecular/tgf-beta
     relation: connects-to
     note: "Barrier homeostasis: TGF-beta drives intestinal epithelial repair and oral tolerance, inducing regulatory T cells that restrain immune responses to food antigens and commensal flora in the gut."
+  - target: 01-human/03-molecular/prostaglandins
+    relation: connects-to
+    note: "Mucosal cytoprotection: prostaglandins (PGE2) maintain the gastric mucus-bicarbonate barrier and mucosal blood flow, which is why NSAIDs that block their synthesis predispose to gastric and duodenal ulcers."
+  - target: 01-human/03-molecular/substance-p
+    relation: connects-to
+    note: "Enteric peristalsis: substance P from enteric neurons is an excitatory tachykinin that contracts gut smooth muscle, helping coordinate the peristaltic reflex that propels contents through the digestive tract."
+  - target: 01-human/03-molecular/cgrp
+    relation: connects-to
+    note: "Sensory gastroprotection: CGRP released from gut sensory afferents increases mucosal blood flow and defends the stomach lining against acid and injury, a neural protective reflex of the gastrointestinal mucosa."
 taxonomy:
   uberon: "UBERON:0001007"
 ---
@@ -492,6 +501,9 @@ The ENS can function autonomously without extrinsic innervation (Hirschsprung's 
 - **Connects to:** [Secretory IgA](../../03-molecular/secretory-iga/README.md) — mucosal defence: dimeric secretory IgA transcytosed across gut epithelium coats luminal microbes and toxins, shaping the microbiota and protecting the digestive mucosal surface from invasion.
 - **Connects to:** [Leptin](../../03-molecular/leptin/README.md) — satiety signalling: leptin from adipose and gastric chief cells acts on the gut-brain axis and enteric neurons to curb appetite and modulate motility, linking digestion to energy balance.
 - **Connects to:** [TGF-beta](../../03-molecular/tgf-beta/README.md) — barrier homeostasis: TGF-beta drives intestinal epithelial repair and oral tolerance, inducing regulatory T cells that restrain immune responses to food antigens and commensal flora in the gut.
+- **Connects to:** [Prostaglandins](../../03-molecular/prostaglandins/README.md) — mucosal cytoprotection: prostaglandins (PGE2) maintain the gastric mucus-bicarbonate barrier and mucosal blood flow, which is why NSAIDs that block their synthesis predispose to gastric and duodenal ulcers.
+- **Connects to:** [Substance P](../../03-molecular/substance-p/README.md) — enteric peristalsis: substance P from enteric neurons is an excitatory tachykinin that contracts gut smooth muscle, helping coordinate the peristaltic reflex that propels contents through the digestive tract.
+- **Connects to:** [CGRP](../../03-molecular/cgrp/README.md) — sensory gastroprotection: CGRP released from gut sensory afferents increases mucosal blood flow and defends the stomach lining against acid and injury, a neural protective reflex of the gastrointestinal mucosa.
 
 ## Pathology
 

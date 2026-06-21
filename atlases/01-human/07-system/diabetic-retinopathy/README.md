@@ -295,6 +295,15 @@ cross_links:
   - target: 01-human/03-molecular/akt
     relation: connects-to
     note: "Pro-survival angiogenesis: VEGF-driven AKT signalling promotes the endothelial proliferation and pathological neovascularisation of proliferative diabetic retinopathy."
+  - target: 01-human/03-molecular/igf-1
+    relation: connects-to
+    note: "Proliferative drive: IGF-1 accumulates in the vitreous of proliferative diabetic retinopathy, synergising with VEGF to drive the retinal neovascularisation that threatens vision through traction and haemorrhage."
+  - target: 01-human/03-molecular/cxcl12
+    relation: connects-to
+    note: "Neovascular recruitment: SDF-1 (CXCL12) in the ischaemic retina recruits CXCR4+ endothelial progenitor cells to sites of neovascularisation, an angiogenic axis that persists even when VEGF is blocked."
+  - target: 01-human/03-molecular/bradykinin
+    relation: connects-to
+    note: "Macular oedema: the plasma kallikrein-kinin system generates bradykinin that increases retinal vascular permeability, a VEGF-independent driver of diabetic macular oedema targeted by kallikrein inhibitors."
 ---
 
 # Diabetic Retinopathy
@@ -497,6 +506,9 @@ DR encompasses a spectrum from subtle vascular changes to sight-threatening neov
 - `connects-to` → **[CCL2](../../03-molecular/ccl2/README.md)** — Leukostasis: CCL2 recruits monocytes that adhere to retinal capillaries (leukostasis), occluding them and contributing to the ischaemia of diabetic retinopathy.
 - `connects-to` → **[NLRP3 Inflammasome](../../03-molecular/nlrp3-inflammasome/README.md)** — Inflammasome activation: hyperglycaemia activates the retinal NLRP3 inflammasome, whose IL-1β output drives the inflammation and capillary loss of diabetic retinopathy.
 - `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — Pro-survival angiogenesis: VEGF-driven AKT signalling promotes the endothelial proliferation and pathological neovascularisation of proliferative diabetic retinopathy.
+- `connects-to` → **[IGF-1](../../03-molecular/igf-1/README.md)** — IGF-1 accumulates in the vitreous of proliferative diabetic retinopathy, synergizing with VEGF to drive the retinal neovascularization that threatens vision through tractional detachment and vitreous hemorrhage.
+- `connects-to` → **[CXCL12](../../03-molecular/cxcl12/README.md)** — SDF-1 (CXCL12) in the ischemic retina recruits CXCR4+ endothelial progenitor cells to sites of neovascularization, an angiogenic axis that persists even when VEGF is blocked—a proposed mechanism of incomplete anti-VEGF response.
+- `connects-to` → **[Bradykinin](../../03-molecular/bradykinin/README.md)** — The plasma kallikrein-kinin system generates bradykinin that increases retinal vascular permeability, a VEGF-independent driver of diabetic macular edema now targeted by plasma kallikrein inhibitors for eyes that resist anti-VEGF therapy.
 
 [^fong-2004-dr-review]: Fong DS, Aiello L, Gardner TW, et al. Diabetic retinopathy. *Diabetes Care.* 2004;27(10):2540-2553. [doi:10.2337/diacare.27.10.2540](https://doi.org/10.2337/diacare.27.10.2540) · [PubMed 15451934](https://pubmed.ncbi.nlm.nih.gov/15451934/)
 [^brown-2015-aflibercept-protocol-t]: Diabetic Retinopathy Clinical Research Network; Wells JA, Glassman AR, et al. Aflibercept, Bevacizumab, or Ranibizumab for Diabetic Macular Edema. *N Engl J Med.* 2015;372(13):1193-1203. [doi:10.1056/NEJMoa1414264](https://doi.org/10.1056/NEJMoa1414264) · [PubMed 25692915](https://pubmed.ncbi.nlm.nih.gov/25692915/)
