@@ -286,6 +286,15 @@ cross_links:
   - target: 01-human/03-molecular/pdgf
     relation: connects-to
     note: "Autocrine growth: mesothelioma cells secrete PDGF that acts in an autocrine loop, driving the proliferation and desmoplastic stroma of these pleural tumours."
+  - target: 01-human/03-molecular/il-1b
+    relation: connects-to
+    note: "Asbestos inflammasome carcinogenesis: asbestos fibres activate the NLRP3 inflammasome in mesothelial cells and macrophages to release IL-1β, the chronic inflammation that drives mesothelioma over decades."
+  - target: 01-human/03-molecular/tgf-beta
+    relation: connects-to
+    note: "Immunosuppressive desmoplasia: TGF-beta drives the desmoplastic stroma and suppresses anti-tumour immunity in mesothelioma, contributing to its poor response to therapy."
+  - target: 01-human/03-molecular/ccl2
+    relation: connects-to
+    note: "Macrophage recruitment: CCL2 draws the abundant tumour-associated macrophages of mesothelioma into the pleural tumour, building an immunosuppressive microenvironment."
 ---
 
 # Mesothelioma
@@ -494,6 +503,9 @@ Cytoreductive surgery (CRS) + hyperthermic intraperitoneal chemotherapy (HIPEC):
 - `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — PI3K/AKT survival: PTEN loss and PI3K/AKT activation sustain mesothelioma cell survival, cooperating with the NF2-Hippo and BAP1 lesions that define the disease.
 - `connects-to` → **[Cyclin D1](../../03-molecular/cyclin-d1/README.md)** — Cell-cycle drive: CDKN2A deletion—near-universal in mesothelioma—unleashes cyclin D-CDK4/6, accelerating the cell cycle and marking poor prognosis.
 - `connects-to` → **[PDGF](../../03-molecular/pdgf/README.md)** — Autocrine growth: mesothelioma cells secrete PDGF that acts in an autocrine loop, driving the proliferation and desmoplastic stroma of these pleural tumours.
+- `connects-to` → **[IL-1β](../../03-molecular/il-1b/README.md)** — Asbestos inflammasome carcinogenesis: asbestos fibres activate the NLRP3 inflammasome in mesothelial cells and macrophages to release IL-1β, the chronic inflammation that drives mesothelioma over decades.
+- `connects-to` → **[TGF-beta](../../03-molecular/tgf-beta/README.md)** — Immunosuppressive desmoplasia: TGF-beta drives the desmoplastic stroma and suppresses anti-tumour immunity in mesothelioma, contributing to its poor response to therapy.
+- `connects-to` → **[CCL2](../../03-molecular/ccl2/README.md)** — Macrophage recruitment: CCL2 draws the abundant tumour-associated macrophages of mesothelioma into the pleural tumour, building an immunosuppressive microenvironment.
 
 [^baas-2021-checkmate743]: Baas P, Scherpereel A, Nowak AK, et al. First-line nivolumab plus ipilimumab in unresectable malignant pleural mesothelioma (CheckMate 743). *Lancet.* 2021;397(10272):375-386. [doi:10.1016/S0140-6736(20)32714-8](https://doi.org/10.1016/S0140-6736(20)32714-8) · [PubMed 33485464](https://pubmed.ncbi.nlm.nih.gov/33485464/)
 [^vogelzang-2003-pemetrexed]: Vogelzang NJ, Rusthoven JJ, Symanowski J, et al. Phase III study of pemetrexed in combination with cisplatin versus cisplatin alone in patients with malignant pleural mesothelioma. *J Clin Oncol.* 2003;21(14):2636-2644. [doi:10.1200/JCO.2003.11.136](https://doi.org/10.1200/JCO.2003.11.136) · [PubMed 12860938](https://pubmed.ncbi.nlm.nih.gov/12860938/)

@@ -286,6 +286,15 @@ cross_links:
   - target: 01-human/03-molecular/hif-1alpha
     relation: connects-to
     note: "Tumour hypoxia: HIF-1α stabilised in the hypoxic MPNST drives the VEGF angiogenesis and metabolic adaptation that support its rapid, infiltrative growth."
+  - target: 01-human/03-molecular/rb1
+    relation: connects-to
+    note: "Cell-cycle escape: RB1-pathway inactivation, with CDKN2A loss, marks the malignant transformation of plexiform neurofibroma to MPNST, releasing the brake on the cell cycle."
+  - target: 01-human/03-molecular/ccl2
+    relation: connects-to
+    note: "Macrophage microenvironment: CCL2 recruits tumour-associated macrophages into MPNST, building the immunosuppressive stroma of this aggressive nerve-sheath sarcoma."
+  - target: 01-human/03-molecular/caspase-3
+    relation: connects-to
+    note: "Apoptosis resistance: MPNST cells evade caspase-3-mediated apoptosis, contributing to the chemoresistance that makes these sarcomas so difficult to treat."
 ---
 
 # MPNST
@@ -507,6 +516,9 @@ Wide local excision with negative margins is the only potentially curative inter
 - `connects-to` → **[Cyclin D1](../../03-molecular/cyclin-d1/README.md)** — Cell-cycle drive: with CDKN2A loss frequent in MPNST, cyclin D1-CDK4/6 activity pushes these aggressive nerve-sheath tumour cells through the G1 checkpoint.
 - `connects-to` → **[MET](../../03-molecular/met/README.md)** — Receptor signalling: MET activation contributes to the growth and invasion of MPNST, a candidate targetable kinase in these treatment-resistant sarcomas.
 - `connects-to` → **[HIF-1α](../../03-molecular/hif-1alpha/README.md)** — Tumour hypoxia: HIF-1α stabilised in the hypoxic MPNST drives the VEGF angiogenesis and metabolic adaptation that support its rapid, infiltrative growth.
+- `connects-to` → **[RB1](../../03-molecular/rb1/README.md)** — Cell-cycle escape: RB1-pathway inactivation, with CDKN2A loss, marks the malignant transformation of plexiform neurofibroma to MPNST, releasing the brake on the cell cycle.
+- `connects-to` → **[CCL2](../../03-molecular/ccl2/README.md)** — Macrophage microenvironment: CCL2 recruits tumour-associated macrophages into MPNST, building the immunosuppressive stroma of this aggressive nerve-sheath sarcoma.
+- `connects-to` → **[Caspase-3](../../03-molecular/caspase-3/README.md)** — Apoptosis resistance: MPNST cells evade caspase-3-mediated apoptosis, contributing to the chemoresistance that makes these sarcomas so difficult to treat.
 
 [^evans-2002-mpnst-nf1]: Evans DGR, Baser ME, McGaughran J, et al. Malignant peripheral nerve sheath tumours in neurofibromatosis 1. *J Med Genet.* 2002;39(5):311-314. [doi:10.1136/jmg.39.5.311](https://doi.org/10.1136/jmg.39.5.311) · [PubMed 12011145](https://pubmed.ncbi.nlm.nih.gov/12011145/)
 [^lee-2014-mpnst-prc2]: Lee W, Teckie S, Wiesner T, et al. PRC2 is recurrently inactivated through EED or SUZ12 loss in malignant peripheral nerve sheath tumors. *Nat Genet.* 2014;46(11):1227-1232. [doi:10.1038/ng.3095](https://doi.org/10.1038/ng.3095) · [PubMed 25240281](https://pubmed.ncbi.nlm.nih.gov/25240281/)
