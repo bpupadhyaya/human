@@ -286,6 +286,15 @@ cross_links:
   - target: 01-human/03-molecular/pik3ca
     relation: connects-to
     note: "PI3K activation: PIK3CA mutations activate the PI3K/AKT/mTOR pathway in a subset of renal cell carcinomas, reinforcing the mTOR signalling targeted in therapy."
+  - target: 01-human/03-molecular/axl-receptor
+    relation: connects-to
+    note: "TKI-resistance receptor: AXL upregulation drives resistance to VEGFR tyrosine-kinase inhibitors in RCC, which is why cabozantinib — targeting AXL and MET alongside VEGFR — outperforms pure VEGFR inhibitors in advanced disease."
+  - target: 01-human/03-molecular/cxcl12
+    relation: connects-to
+    note: "Metastatic homing: VHL loss in RCC upregulates the CXCR4 receptor for CXCL12, directing tumour cells toward the bone, lung and brain that are the common sites of RCC metastasis."
+  - target: 01-human/03-molecular/tert
+    relation: connects-to
+    note: "Telomere maintenance: TERT promoter mutations reactivate telomerase in renal cell carcinoma, granting the replicative immortality that lets the tumour clone proliferate indefinitely."
 ---
 
 # Renal Cell Carcinoma
@@ -494,6 +503,9 @@ Kidney → primary site of EPO production under hypoxia; VHL-intact renal inters
 - `connects-to` → **[MYC](../../03-molecular/myc/README.md)** — Metabolic-oncogene cooperation: the pseudohypoxic, HIF-driven state of clear-cell RCC upregulates MYC, fuelling the biosynthesis and proliferation of the tumour.
 - `connects-to` → **[Cyclin D1](../../03-molecular/cyclin-d1/README.md)** — HIF target and cell cycle: HIF-driven cyclin D1 upregulation in VHL-deficient RCC propels tumour cells through the G1 checkpoint, a hallmark of clear-cell disease.
 - `connects-to` → **[PIK3CA](../../03-molecular/pik3ca/README.md)** — PI3K activation: PIK3CA mutations activate the PI3K/AKT/mTOR pathway in a subset of renal cell carcinomas, reinforcing the mTOR signalling targeted in therapy.
+- `connects-to` → **[AXL receptor](../../03-molecular/axl-receptor/README.md)** — AXL upregulation drives resistance to VEGFR tyrosine-kinase inhibitors in RCC, which is why cabozantinib—targeting AXL and MET alongside VEGFR—outperforms pure VEGFR inhibitors in advanced clear-cell disease.
+- `connects-to` → **[CXCL12](../../03-molecular/cxcl12/README.md)** — VHL loss in RCC upregulates the CXCR4 receptor for CXCL12, directing tumor cells toward the bone, lung, and brain that are the characteristic sites of RCC metastasis—linking the founding genetic lesion to the metastatic pattern.
+- `connects-to` → **[TERT](../../03-molecular/tert/README.md)** — TERT promoter mutations reactivate telomerase in renal cell carcinoma, granting the replicative immortality that lets the tumor clone proliferate indefinitely past the telomere-attrition limit that constrains normal cells.
 
 [^motzer-2018-checkmate214]: Motzer RJ, Tannir NM, McDermott DF, et al. Nivolumab plus ipilimumab versus sunitinib in advanced renal-cell carcinoma. *N Engl J Med.* 2018;378(14):1277-1290. [doi:10.1056/NEJMoa1712126](https://doi.org/10.1056/NEJMoa1712126) · [PubMed 29562145](https://pubmed.ncbi.nlm.nih.gov/29562145/)
 [^rini-2019-keynote426]: Rini BI, Plimack ER, Stus V, et al. Pembrolizumab plus axitinib versus sunitinib for advanced renal-cell carcinoma. *N Engl J Med.* 2019;380(12):1116-1127. [doi:10.1056/NEJMoa1816714](https://doi.org/10.1056/NEJMoa1816714) · [PubMed 30779529](https://pubmed.ncbi.nlm.nih.gov/30779529/)

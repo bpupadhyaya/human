@@ -284,6 +284,15 @@ cross_links:
   - target: 01-human/03-molecular/serotonin
     relation: connects-to
     note: "Libido and ejaculation: serotonin modulates sexual desire and ejaculatory control, which is why SSRIs commonly cause sexual dysfunction affecting reproductive function."
+  - target: 01-human/03-molecular/prostaglandins
+    relation: connects-to
+    note: "Ovulation to parturition: prostaglandins rupture the ovarian follicle at ovulation, trigger the menstrual shedding of the endometrium, and ripen the cervix and drive uterine contractions at labour — central mediators across the reproductive cycle."
+  - target: 01-human/03-molecular/androgen-receptor
+    relation: connects-to
+    note: "Androgen action: the androgen receptor transduces testosterone and DHT signals that drive male sexual differentiation, spermatogenesis and secondary sexual characteristics — the molecular endpoint of the reproductive endocrine axis in males."
+  - target: 01-human/03-molecular/activin-a
+    relation: connects-to
+    note: "Gonadotropin feedback: the activin-inhibin system from the gonads tunes pituitary FSH secretion and regulates folliculogenesis and spermatogenesis, a peptide-feedback loop layered on the steroid-hormone axis of reproduction."
 ---
 ---
 
@@ -489,6 +498,9 @@ Testosterone binds androgen receptor (AR, nuclear receptor NR3C4) → AR dimeriz
 - `connects-to` → **[Melatonin](../../03-molecular/melatonin/README.md)** — Reproductive timing: melatonin signals daylength to the reproductive axis, modulating GnRH and the timing of puberty and seasonal fertility.
 - `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — Behaviour and parturition: vasopressin, alongside oxytocin, shapes pair-bonding and reproductive behaviour and contributes to the neurohypophyseal signalling of labour.
 - `connects-to` → **[Serotonin](../../03-molecular/serotonin/README.md)** — Libido and ejaculation: serotonin modulates sexual desire and ejaculatory control, which is why SSRIs commonly cause sexual dysfunction affecting reproductive function.
+- `connects-to` → **[Prostaglandins](../../03-molecular/prostaglandins/README.md)** — Prostaglandins rupture the ovarian follicle at ovulation, trigger the menstrual shedding of the endometrium, and ripen the cervix and drive uterine contractions at labor—central mediators acting across the entire reproductive cycle from ovulation to parturition.
+- `connects-to` → **[Androgen receptor](../../03-molecular/androgen-receptor/README.md)** — The androgen receptor transduces testosterone and DHT signals that drive male sexual differentiation, spermatogenesis, and secondary sexual characteristics—the molecular endpoint of the reproductive endocrine axis, mutations of which cause androgen insensitivity.
+- `connects-to` → **[Activin A](../../03-molecular/activin-a/README.md)** — The activin-inhibin system from the gonads tunes pituitary FSH secretion and regulates folliculogenesis and spermatogenesis, a peptide-feedback loop layered on the steroid-hormone axis that fine-tunes gametogenesis in both sexes.
 
 ## Pathology
 
