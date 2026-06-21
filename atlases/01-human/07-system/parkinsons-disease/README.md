@@ -295,6 +295,15 @@ cross_links:
   - target: 01-human/03-molecular/glp-1
     relation: connects-to
     note: "Neuroprotective repurposing: GLP-1 receptor agonists developed for diabetes show neuroprotective signals in Parkinson's trials, reflecting a metabolic-neurodegeneration link and brain insulin signalling."
+  - target: 01-human/03-molecular/tlr4
+    relation: connects-to
+    note: "α-Synuclein sensing: aggregated α-synuclein released from dying neurons activates microglial TLR4, triggering the chronic neuroinflammation that propagates dopaminergic neurodegeneration in Parkinson's disease."
+  - target: 01-human/03-molecular/ferroportin
+    relation: connects-to
+    note: "Nigral iron and ferroptosis: iron accumulates in the substantia nigra of Parkinson's disease, and dysregulated ferroportin-controlled iron export sensitises dopaminergic neurons to ferroptotic, oxidative cell death."
+  - target: 01-human/03-molecular/cgas-sting
+    relation: connects-to
+    note: "Mitochondrial-DNA sensing: failed PINK1/Parkin mitophagy lets damaged mitochondria leak DNA that activates cGAS-STING, driving the type-I-interferon neuroinflammation now implicated in Parkinson's neurodegeneration."
 ---
 
 # Parkinson's Disease
@@ -526,6 +535,9 @@ PD is primarily a disease of aging (mean onset ~60 years), but **~10–15% of ca
 - `connects-to` → **[CCL2](../../03-molecular/ccl2/README.md)** — Microglial recruitment: CCL2 released in the inflamed substantia nigra draws monocytes and amplifies the microglial activation that contributes to dopaminergic neurodegeneration in Parkinson's.
 - `connects-to` → **[IFN-γ](../../03-molecular/ifn-gamma/README.md)** — Adaptive autoimmunity: IFN-γ from T cells recognising α-synuclein epitopes infiltrates the Parkinson's brain, evidence that an adaptive immune attack on dopaminergic neurons contributes to the disease.
 - `connects-to` → **[GLP-1](../../03-molecular/glp-1/README.md)** — Neuroprotective repurposing: GLP-1 receptor agonists developed for diabetes show neuroprotective signals in Parkinson's trials, reflecting a metabolic-neurodegeneration link and brain insulin signalling.
+- `connects-to` → **[TLR4](../../03-molecular/tlr4/README.md)** — Aggregated α-synuclein released from dying neurons activates microglial TLR4, triggering the chronic neuroinflammation that propagates dopaminergic neurodegeneration—linking the disease's defining protein to its inflammatory engine.
+- `connects-to` → **[Ferroportin](../../03-molecular/ferroportin/README.md)** — Iron accumulates in the substantia nigra of Parkinson's disease, and dysregulated ferroportin-controlled iron export sensitizes dopaminergic neurons to ferroptotic, oxidative cell death—the rationale for iron-chelation trials.
+- `connects-to` → **[cGAS-STING](../../03-molecular/cgas-sting/README.md)** — Failed PINK1/Parkin mitophagy lets damaged mitochondria leak DNA that activates cGAS-STING, driving the type-I-interferon neuroinflammation now implicated in the neurodegeneration of both familial and sporadic Parkinson's.
 
 [^kalia-2015-pd-review]: Kalia LV, Lang AE. Parkinson's disease. *Lancet.* 2015;386(9996):896-912. [doi:10.1016/S0140-6736(14)61393-3](https://doi.org/10.1016/S0140-6736(14)61393-3) · [PubMed 25904081](https://pubmed.ncbi.nlm.nih.gov/25904081/)
 [^spillantini-1997-lewy-body]: Spillantini MG, Schmidt ML, Lee VM, Trojanowski JQ, Jakes R, Goedert M. Alpha-synuclein in Lewy bodies. *Nature.* 1997;388(6645):839-840. [doi:10.1038/42166](https://doi.org/10.1038/42166) · [PubMed 9278044](https://pubmed.ncbi.nlm.nih.gov/9278044/)
