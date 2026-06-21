@@ -292,6 +292,15 @@ cross_links:
   - target: 01-human/03-molecular/ccl2
     relation: connects-to
     note: "Monocyte recruitment: CCL2 draws monocytes and macrophages into the remodelling pulmonary-artery wall in PAH, fuelling the inflammation that drives vascular narrowing."
+  - target: 01-human/03-molecular/adrenomedullin
+    relation: connects-to
+    note: "Compensatory vasodilator: adrenomedullin rises in PAH as a counter-regulatory pulmonary vasodilator and anti-proliferative peptide, and its levels track right-ventricular strain and disease severity."
+  - target: 01-human/03-molecular/aldosterone
+    relation: connects-to
+    note: "Neurohormonal activation: RAAS-driven aldosterone excess in PAH promotes pulmonary-vascular and right-ventricular fibrosis and impairs endothelial function, the rationale for mineralocorticoid-receptor antagonists in the disease."
+  - target: 01-human/03-molecular/hepcidin
+    relation: connects-to
+    note: "Iron deficiency: inflammation-driven hepcidin elevation causes the functional iron deficiency common in PAH, which independently predicts worse exercise capacity and survival regardless of anaemia."
 ---
 
 # Pulmonary Arterial Hypertension
@@ -506,6 +515,9 @@ Key variables: WHO functional class (I-IV), 6-minute walk distance (6MWD), NT-pr
 - `connects-to` → **[TNF-α](../../03-molecular/tnf-alpha/README.md)** — Vascular inflammation: TNF-α contributes to the perivascular inflammation and pulmonary-artery remodelling that narrow the vessels in PAH.
 - `connects-to` → **[IL-1β](../../03-molecular/il-1b/README.md)** — Inflammasome-driven remodelling: IL-1β from the activated NLRP3 inflammasome promotes the pulmonary-arterial inflammation and remodelling of PAH, an emerging therapeutic target.
 - `connects-to` → **[CCL2](../../03-molecular/ccl2/README.md)** — Monocyte recruitment: CCL2 draws monocytes and macrophages into the remodelling pulmonary-artery wall in PAH, fuelling the inflammation that drives vascular narrowing.
+- `connects-to` → **[Adrenomedullin](../../03-molecular/adrenomedullin/README.md)** — Adrenomedullin rises in PAH as a counter-regulatory pulmonary vasodilator and anti-proliferative peptide, and its circulating levels track right-ventricular strain and disease severity—making it both a compensatory mediator and a prognostic marker.
+- `connects-to` → **[Aldosterone](../../03-molecular/aldosterone/README.md)** — RAAS-driven aldosterone excess in PAH promotes pulmonary-vascular and right-ventricular fibrosis and impairs endothelial nitric-oxide signaling, the rationale for mineralocorticoid-receptor antagonists being studied in the disease.
+- `connects-to` → **[Hepcidin](../../03-molecular/hepcidin/README.md)** — Inflammation-driven hepcidin elevation causes the functional iron deficiency common in PAH, which independently predicts worse exercise capacity and survival regardless of anemia—linking the disease's inflammatory state to a treatable comorbidity.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 

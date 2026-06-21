@@ -286,6 +286,15 @@ cross_links:
   - target: 01-human/03-molecular/hif-1alpha
     relation: connects-to
     note: "Tumour hypoxia: HIF-1α stabilised in the hypoxic nodal microenvironment supports the metabolism and angiogenesis of peripheral T-cell lymphoma."
+  - target: 01-human/03-molecular/jak1-2
+    relation: connects-to
+    note: "JAK-STAT activation: recurrent JAK1/JAK2 and STAT3 mutations drive constitutive JAK-STAT signalling in several PTCL subtypes, the rationale for testing ruxolitinib and other JAK inhibitors in this hard-to-treat lymphoma."
+  - target: 01-human/03-molecular/tgf-beta
+    relation: connects-to
+    note: "Immunosuppressive milieu: TGF-β in the PTCL microenvironment dampens cytotoxic responses and shapes the reactive infiltrate, especially in angioimmunoblastic T-cell lymphoma where the tumour cells are a minority among bystander cells."
+  - target: 01-human/03-molecular/ccl2
+    relation: connects-to
+    note: "Reactive infiltrate: CCL2 secreted within PTCL nodes recruits monocytes and macrophages into the prominent inflammatory background that characterises angioimmunoblastic and other peripheral T-cell lymphomas."
 ---
 
 # Peripheral T-cell Lymphoma
@@ -520,6 +529,9 @@ Aggressive presentation; generalized lymphadenopathy; extranodal involvement (~6
 - `connects-to` → **[TNF-α](../../03-molecular/tnf-alpha/README.md)** — Inflammatory milieu: TNF-α within the peripheral T-cell lymphoma microenvironment drives the B symptoms and supports the malignant T-cell clone.
 - `connects-to` → **[Cyclin D1](../../03-molecular/cyclin-d1/README.md)** — Cell-cycle drive: cyclin D-CDK4/6 activity propels malignant T cells through the G1 checkpoint in peripheral T-cell lymphoma, fuelling its proliferation.
 - `connects-to` → **[HIF-1α](../../03-molecular/hif-1alpha/README.md)** — Tumour hypoxia: HIF-1α stabilised in the hypoxic nodal microenvironment supports the metabolism and angiogenesis of peripheral T-cell lymphoma.
+- `connects-to` → **[JAK1/2](../../03-molecular/jak1-2/README.md)** — Recurrent JAK1/JAK2 and STAT3 mutations drive constitutive JAK-STAT signaling in several PTCL subtypes, the rationale for testing ruxolitinib and other JAK inhibitors in this lymphoma where conventional chemotherapy often fails.
+- `connects-to` → **[TGF-β](../../03-molecular/tgf-beta/README.md)** — TGF-β in the PTCL microenvironment dampens cytotoxic responses and shapes the reactive infiltrate—especially in angioimmunoblastic T-cell lymphoma, where the malignant TFH cells are a minority among an inflamed bystander background.
+- `connects-to` → **[CCL2](../../03-molecular/ccl2/README.md)** — CCL2 secreted within PTCL nodes recruits monocytes and macrophages into the prominent inflammatory background that characterizes angioimmunoblastic and other peripheral T-cell lymphomas, where reactive cells outnumber tumor cells.
 
 ---
 
