@@ -276,6 +276,15 @@ cross_links:
   - target: 01-human/03-molecular/serotonin-transporter
     relation: connects-to
     note: "Descending modulation: serotonin-transporter activity sets serotonergic tone in descending pain pathways, the target of SNRIs like duloxetine that are first-line drugs for neuropathic pain."
+  - target: 01-human/03-molecular/ntrk
+    relation: connects-to
+    note: "NGF sensitisation: nerve growth factor signalling through TrkA sensitises and upregulates nociceptors after nerve injury, the mechanism that anti-NGF antibodies (tanezumab) target to relieve chronic pain."
+  - target: 01-human/03-molecular/nitric-oxide
+    relation: connects-to
+    note: "Central amplification: NMDA-receptor activation in the dorsal horn drives nNOS-derived nitric oxide that potentiates synaptic transmission, a positive-feedback loop reinforcing the central sensitisation of neuropathic pain."
+  - target: 01-human/03-molecular/cxcl12
+    relation: connects-to
+    note: "Chemokine sensitisation: CXCL12 acting on CXCR4 in the dorsal-root ganglia and spinal cord directly excites and sensitises nociceptive neurons, a neuro-glial signal sustaining chronic neuropathic pain after nerve injury."
 sources:
   - id: jensen-2011-neuropathic-pain-review
     type: peer-reviewed
@@ -525,6 +534,9 @@ Chronic neuropathic pain carries significant psychological burden:
 - `connects-to` → **[CCL2](../../03-molecular/ccl2/README.md)** — Microglial recruitment: nerve injury drives CCL2 release that recruits and activates spinal microglia and monocytes through CCR2, a key chemokine axis initiating the neuroinflammation behind neuropathic pain.
 - `connects-to` → **[TLR4](../../03-molecular/tlr4/README.md)** — Danger-signal sensing: TLR4 on glia detects DAMPs released by injured nerves, triggering the microglial activation and cytokine release that establish central sensitisation in neuropathic pain.
 - `connects-to` → **[Serotonin Transporter](../../03-molecular/serotonin-transporter/README.md)** — Descending modulation: serotonin-transporter activity sets serotonergic tone in descending pain pathways, the target of SNRIs like duloxetine that are first-line drugs for neuropathic pain.
+- `connects-to` → **[NTRK / TrkA](../../03-molecular/ntrk/README.md)** — Nerve growth factor signaling through TrkA sensitizes and upregulates nociceptors after nerve injury, the peripheral mechanism that anti-NGF antibodies such as tanezumab target to relieve chronic neuropathic and osteoarthritic pain.
+- `connects-to` → **[Nitric oxide](../../03-molecular/nitric-oxide/README.md)** — NMDA-receptor activation in the dorsal horn drives nNOS-derived nitric oxide that potentiates synaptic transmission, a positive-feedback loop reinforcing the central sensitization that makes neuropathic pain self-sustaining.
+- `connects-to` → **[CXCL12](../../03-molecular/cxcl12/README.md)** — CXCL12 acting on CXCR4 in the dorsal-root ganglia and spinal cord directly excites and sensitizes nociceptive neurons, a neuro-glial chemokine signal that sustains chronic neuropathic pain long after the initial nerve injury.
 
 [^jensen-2011-neuropathic-pain-review]: Jensen TS, Baron R, Haanpää M, et al. A new definition of neuropathic pain. *Pain.* 2011;152(10):2204-2205. [doi:10.1016/j.pain.2011.06.017](https://doi.org/10.1016/j.pain.2011.06.017) · [PubMed 21764514](https://pubmed.ncbi.nlm.nih.gov/21764514/)
 [^dworkin-2010-neuropathic-pain-treatment]: Dworkin RH, O'Connor AB, Audette J, et al. Recommendations for the pharmacological management of neuropathic pain. *Mayo Clin Proc.* 2010;85(3 Suppl):S3-14. [doi:10.4065/mcp.2009.0649](https://doi.org/10.4065/mcp.2009.0649) · [PubMed 20194146](https://pubmed.ncbi.nlm.nih.gov/20194146/)

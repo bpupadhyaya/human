@@ -295,6 +295,15 @@ cross_links:
   - target: 01-human/03-molecular/cgas-sting
     relation: connects-to
     note: "Innate DNA sensing: leaked mitochondrial DNA from stressed hepatocytes engages the cGAS-STING pathway in liver macrophages, driving the inflammation and fibrosis that characterise NASH."
+  - target: 01-human/03-molecular/tlr4
+    relation: connects-to
+    note: "Gut-liver axis: a leaky gut delivers bacterial LPS through the portal vein to Kupffer-cell TLR4, igniting the NF-κB-driven inflammation that helps convert simple steatosis into steatohepatitis."
+  - target: 01-human/03-molecular/galectin-3
+    relation: connects-to
+    note: "Profibrotic target: galectin-3 from activated macrophages promotes hepatic stellate-cell activation and fibrosis in NASH, the rationale for galectin-3 inhibitors (belapectin) tested to halt progression to cirrhosis."
+  - target: 01-human/03-molecular/caspase-3
+    relation: connects-to
+    note: "Hepatocyte apoptosis: caspase-mediated hepatocyte apoptosis underlies the ballooning degeneration and cytokeratin-18 release that mark NASH, the basis for pan-caspase inhibitors (emricasan) trialed in the disease."
 ---
 
 # NASH
@@ -476,6 +485,9 @@ NASH pathogenesis is driven by multiple simultaneous and sequential hits, not a 
 - `connects-to` → **[PDGF](../../03-molecular/pdgf/README.md)** — Fibrogenic mitogen: PDGF is the strongest proliferative signal transdifferentiating hepatic stellate cells into collagen-producing myofibroblasts, the central driver of progressive NASH fibrosis.
 - `connects-to` → **[IL-1β](../../03-molecular/il-1b/README.md)** — Inflammasome injury: IL-1β released downstream of NLRP3 inflammasome activation by lipotoxic hepatocytes amplifies hepatic inflammation and stellate-cell activation in the transition from steatosis to NASH.
 - `connects-to` → **[cGAS-STING](../../03-molecular/cgas-sting/README.md)** — Innate DNA sensing: leaked mitochondrial DNA from stressed hepatocytes engages the cGAS-STING pathway in liver macrophages, driving the inflammation and fibrosis that characterise NASH.
+- `connects-to` → **[TLR4](../../03-molecular/tlr4/README.md)** — A leaky gut delivers bacterial LPS through the portal vein to Kupffer-cell TLR4, igniting the NF-κB-driven inflammation that helps convert simple steatosis into steatohepatitis—the gut-liver axis of NASH pathogenesis.
+- `connects-to` → **[Galectin-3](../../03-molecular/galectin-3/README.md)** — Galectin-3 from activated macrophages promotes hepatic stellate-cell activation and fibrosis in NASH, the rationale for galectin-3 inhibitors such as belapectin tested to halt the progression toward cirrhosis and portal hypertension.
+- `connects-to` → **[Caspase-3](../../03-molecular/caspase-3/README.md)** — Caspase-mediated hepatocyte apoptosis underlies the ballooning degeneration and cytokeratin-18 release that mark NASH histologically, the basis for the pan-caspase inhibitors (emricasan) trialed to slow hepatocyte loss and fibrosis.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
