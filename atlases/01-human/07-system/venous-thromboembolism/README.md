@@ -298,6 +298,15 @@ cross_links:
   - target: 01-human/03-molecular/fibronectin
     relation: connects-to
     note: "Thrombus scaffold: plasma fibronectin is cross-linked into the fibrin meshwork of venous clots, stabilising the thrombus that obstructs the vein or embolises to the lung."
+  - target: 01-human/03-molecular/ccl2
+    relation: connects-to
+    note: "Monocyte immunothrombosis: CCL2 recruits monocytes to the forming venous thrombus, where their tissue-factor expression amplifies thrombin generation — the inflammation arm of the immunothrombosis that initiates deep-vein thrombosis."
+  - target: 01-human/03-molecular/tlr4
+    relation: connects-to
+    note: "Innate thrombus trigger: TLR4 sensing of DAMPs on the activated venous endothelium and leukocytes promotes the tissue-factor and NET release that nucleate venous thrombi, linking sterile inflammation to clotting."
+  - target: 01-human/03-molecular/prostaglandins
+    relation: connects-to
+    note: "Platelet eicosanoid balance: the platelet thromboxane A2/endothelial prostacyclin balance governs the platelet activation that propagates a venous thrombus, the balance aspirin shifts to lower recurrent VTE risk."
 ---
 
 # Venous Thromboembolism
@@ -510,6 +519,9 @@ cross_links:
 - `connects-to` → **[S100A8/A9](../../03-molecular/s100a8-a9/README.md)** — NETosis initiation: neutrophil extracellular traps rich in S100A8/A9 provide the scaffold and trigger for venous thrombus formation, a core mechanism of immunothrombosis behind deep-vein thrombosis.
 - `connects-to` → **[PF4](../../03-molecular/pf4/README.md)** — Platelet activation: PF4 released from activated platelets within the forming venous thrombus promotes aggregation and, in HIT and VITT, drives the antibody-mediated thrombosis that VTE workups must exclude.
 - `connects-to` → **[Fibronectin](../../03-molecular/fibronectin/README.md)** — Thrombus scaffold: plasma fibronectin is cross-linked into the fibrin meshwork of venous clots, stabilising the thrombus that obstructs the vein or embolises to the lung.
+- `connects-to` → **[CCL2](../../03-molecular/ccl2/README.md)** — CCL2 recruits monocytes to the forming venous thrombus, where their tissue-factor expression amplifies thrombin generation—the inflammation arm of the immunothrombosis that initiates deep-vein thrombosis in the low-flow valve pockets.
+- `connects-to` → **[TLR4](../../03-molecular/tlr4/README.md)** — TLR4 sensing of DAMPs on activated venous endothelium and leukocytes promotes the tissue-factor and neutrophil-extracellular-trap release that nucleate venous thrombi, linking sterile inflammation to clotting.
+- `connects-to` → **[Prostaglandins](../../03-molecular/prostaglandins/README.md)** — The platelet thromboxane A2/endothelial prostacyclin balance governs the platelet activation that propagates a venous thrombus, the balance that low-dose aspirin shifts to reduce recurrent VTE risk after anticoagulation ends.
 
 [^agnelli-2013-amplify-apixaban-vte]: Agnelli G, Buller HR, Cohen A, et al. Oral apixaban for the treatment of acute venous thromboembolism. *N Engl J Med.* 2013;369(9):799-808. [doi:10.1056/NEJMoa1302507](https://doi.org/10.1056/NEJMoa1302507) · [PubMed 23808982](https://pubmed.ncbi.nlm.nih.gov/23808982/)
 [^bauersachs-2010-einstein-rivaroxaban]: EINSTEIN Investigators. Oral rivaroxaban for symptomatic venous thromboembolism. *N Engl J Med.* 2010;363(26):2499-2510. [doi:10.1056/NEJMoa1007903](https://doi.org/10.1056/NEJMoa1007903) · [PubMed 21128814](https://pubmed.ncbi.nlm.nih.gov/21128814/)

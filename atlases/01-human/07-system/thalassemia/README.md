@@ -297,6 +297,15 @@ cross_links:
   - target: 01-human/03-molecular/bnp
     relation: connects-to
     note: "Iron cardiomyopathy: transfusional iron overload damages the myocardium, and natriuretic peptides like BNP rise as the resulting cardiomyopathy and heart failure develop — the leading cause of death in thalassemia."
+  - target: 01-human/03-molecular/caspase-3
+    relation: connects-to
+    note: "Ineffective erythropoiesis: unpaired globin chains precipitate in maturing erythroblasts, triggering caspase-3-mediated apoptosis in the marrow — the ineffective erythropoiesis that, more than haemolysis, drives the anaemia of thalassemia."
+  - target: 01-human/03-molecular/vegf
+    relation: connects-to
+    note: "Extramedullary haematopoiesis: the erythropoietic drive of thalassemia expands marrow and seeds extramedullary haematopoiesis, with VEGF-driven angiogenesis supporting these masses and the skeletal expansion that deforms bone."
+  - target: 01-human/03-molecular/von-willebrand-factor
+    relation: connects-to
+    note: "Thrombophilia: thalassemia, especially after splenectomy, is a hypercoagulable state in which abnormal red cells and endothelial activation with von Willebrand factor promote the venous and pulmonary thrombosis of the disease."
 ---
 
 # Thalassemia
@@ -534,6 +543,9 @@ Untransfused or undertransfused β-thal major:
 - `connects-to` → **[TLR4](../../03-molecular/tlr4/README.md)** — Heme danger signal: chronic haemolysis and ineffective erythropoiesis in thalassemia release free heme that engages TLR4, driving the sterile inflammation that compounds tissue and endothelial injury.
 - `connects-to` → **[RANKL](../../03-molecular/rankl/README.md)** — Thalassemic bone disease: marrow expansion and endocrine dysfunction drive RANKL-mediated osteoclast activation, causing the osteoporosis and fractures that are a major morbidity of thalassemia.
 - `connects-to` → **[BNP](../../03-molecular/bnp/README.md)** — Iron cardiomyopathy: transfusional iron overload damages the myocardium, and natriuretic peptides like BNP rise as the resulting cardiomyopathy and heart failure develop — the leading cause of death in thalassemia.
+- `connects-to` → **[Caspase-3](../../03-molecular/caspase-3/README.md)** — Unpaired globin chains precipitate in maturing erythroblasts, triggering caspase-3-mediated apoptosis in the marrow—the ineffective erythropoiesis that, more than peripheral hemolysis, drives the anemia of thalassemia.
+- `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — The erythropoietic drive of thalassemia expands the marrow and seeds extramedullary hematopoiesis, with VEGF-driven angiogenesis supporting these masses and the skeletal expansion that deforms the skull and face.
+- `connects-to` → **[von Willebrand factor](../../03-molecular/von-willebrand-factor/README.md)** — Thalassemia, especially after splenectomy, is a hypercoagulable state in which abnormal red cells and endothelial activation with von Willebrand factor promote the venous and pulmonary thrombosis that complicates the disease.
 
 [^weatherall-2008-thalassemia-review]: Weatherall DJ. The inherited diseases of hemoglobin are an emerging global health burden. *Blood.* 2010;115(22):4331-4336. [doi:10.1182/blood-2010-01-251348](https://doi.org/10.1182/blood-2010-01-251348) · [PubMed 20233970](https://pubmed.ncbi.nlm.nih.gov/20233970/)
 [^cappellini-2014-thalassemia-guidelines]: Cappellini MD, Cohen A, Porter J, et al. (eds). Guidelines for the Management of Transfusion Dependent Thalassaemia (TDT). 3rd ed. Thalassaemia International Federation; 2014.
