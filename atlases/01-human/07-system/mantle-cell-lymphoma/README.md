@@ -286,6 +286,15 @@ cross_links:
   - target: 01-human/03-molecular/vegf
     relation: connects-to
     note: "Nodal angiogenesis: VEGF drives the angiogenesis of involved lymph nodes in mantle cell lymphoma, supporting tumour growth and dissemination."
+  - target: 01-human/03-molecular/cxcl12
+    relation: connects-to
+    note: "Niche homing: CXCL12-CXCR4 signalling anchors mantle cell lymphoma cells in the protective marrow and nodal niche, and BTK inhibitors mobilise them out of it, causing the transient treatment-related lymphocytosis."
+  - target: 01-human/03-molecular/tert
+    relation: connects-to
+    note: "Telomerase immortalisation: TERT activation maintains telomeres in mantle cell lymphoma cells, granting the replicative capacity that complements the cyclin D1 overexpression driving the disease."
+  - target: 01-human/03-molecular/ccl2
+    relation: connects-to
+    note: "Macrophage microenvironment: CCL2 recruits tumour-associated macrophages into the mantle cell lymphoma niche, supporting the malignant B cells and shaping response to therapy."
 ---
 
 # Mantle Cell Lymphoma
@@ -497,6 +506,9 @@ For SOX11−, mutated IGHV, non-bulky, asymptomatic nnMCL: Observation is safe; 
 - `connects-to` → **[PIK3CA](../../03-molecular/pik3ca/README.md)** — PI3K dependence: chronic B-cell-receptor signalling activates PI3K in mantle cell lymphoma, sustaining survival and underlying resistance to BTK inhibitors.
 - `connects-to` → **[HIF-1α](../../03-molecular/hif-1alpha/README.md)** — Metabolic adaptation: HIF-1α supports the glycolytic metabolism of proliferating mantle cell lymphoma cells in the hypoxic lymph-node and marrow niches.
 - `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — Nodal angiogenesis: VEGF drives the angiogenesis of involved lymph nodes in mantle cell lymphoma, supporting tumour growth and dissemination.
+- `connects-to` → **[CXCL12](../../03-molecular/cxcl12/README.md)** — Niche homing: CXCL12-CXCR4 signalling anchors mantle cell lymphoma cells in the protective marrow and nodal niche, and BTK inhibitors mobilise them out of it, causing the transient treatment-related lymphocytosis.
+- `connects-to` → **[TERT](../../03-molecular/tert/README.md)** — Telomerase immortalisation: TERT activation maintains telomeres in mantle cell lymphoma cells, granting the replicative capacity that complements the cyclin D1 overexpression driving the disease.
+- `connects-to` → **[CCL2](../../03-molecular/ccl2/README.md)** — Macrophage microenvironment: CCL2 recruits tumour-associated macrophages into the mantle cell lymphoma niche, supporting the malignant B cells and shaping response to therapy.
 
 ---
 

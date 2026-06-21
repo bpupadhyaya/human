@@ -295,6 +295,15 @@ cross_links:
   - target: 01-human/03-molecular/ifn-gamma
     relation: connects-to
     note: "Inflammatory depression: IFN-γ and interferon therapy can precipitate depression by diverting tryptophan from serotonin toward neurotoxic kynurenines, part of the cytokine model of MDD."
+  - target: 01-human/03-molecular/mtor
+    relation: connects-to
+    note: "Rapid antidepressant target: ketamine's fast antidepressant action depends on mTOR-driven synaptogenesis in the prefrontal cortex, reversing the synaptic loss seen in depression."
+  - target: 01-human/03-molecular/endocannabinoid
+    relation: connects-to
+    note: "Mood and stress buffering: endocannabinoid CB1 signalling regulates stress reactivity and emotional tone, and deficient endocannabinoid tone is implicated in the anhedonia and stress sensitivity of depression."
+  - target: 01-human/03-molecular/ccl2
+    relation: connects-to
+    note: "Neuroinflammatory trafficking: CCL2 recruits monocytes to the brain in depression, part of the low-grade neuroinflammation increasingly tied to the disorder's pathophysiology."
 ---
 
 # Major Depressive Disorder
@@ -544,6 +553,9 @@ Approximately 30–40% of MDD patients have elevated inflammatory markers:
 - `connects-to` → **[Serotonin Transporter](../../03-molecular/serotonin-transporter/README.md)** — SSRI target: the serotonin transporter is blocked by the SSRIs that are first-line for depression, and its gene variants modulate stress-related depression risk.
 - `connects-to` → **[Glucocorticoid Receptor](../../03-molecular/glucocorticoid-receptor/README.md)** — HPA dysregulation: impaired glucocorticoid-receptor feedback underlies the cortisol hypersecretion of melancholic depression, a core stress-axis abnormality of the disorder.
 - `connects-to` → **[IFN-γ](../../03-molecular/ifn-gamma/README.md)** — Inflammatory depression: IFN-γ and interferon therapy can precipitate depression by diverting tryptophan from serotonin toward neurotoxic kynurenines, part of the cytokine model of MDD.
+- `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — Rapid antidepressant target: ketamine's fast antidepressant action depends on mTOR-driven synaptogenesis in the prefrontal cortex, reversing the synaptic loss seen in depression.
+- `connects-to` → **[Endocannabinoid System](../../03-molecular/endocannabinoid/README.md)** — Mood and stress buffering: endocannabinoid CB1 signalling regulates stress reactivity and emotional tone, and deficient endocannabinoid tone is implicated in the anhedonia and stress sensitivity of depression.
+- `connects-to` → **[CCL2](../../03-molecular/ccl2/README.md)** — Neuroinflammatory trafficking: CCL2 recruits monocytes to the brain in depression, part of the low-grade neuroinflammation increasingly tied to the disorder's pathophysiology.
 
 [^cipriani-2018-antidepressants-meta]: Cipriani A, Furukawa TA, Salanti G, et al. Comparative efficacy and acceptability of 21 antidepressant drugs for acute treatment of adults with major depressive disorder. *Lancet.* 2018;391(10128):1357-1366. [doi:10.1016/S0140-6736(17)32802-7](https://doi.org/10.1016/S0140-6736(17)32802-7) · [PubMed 29477251](https://pubmed.ncbi.nlm.nih.gov/29477251/)
 [^zarate-2006-ketamine-rapid]: Zarate CA Jr, Singh JB, Carlson PJ, et al. A randomized trial of an N-methyl-D-aspartate antagonist in treatment-resistant major depression. *Arch Gen Psychiatry.* 2006;63(8):856-864. [doi:10.1001/archpsyc.63.8.856](https://doi.org/10.1001/archpsyc.63.8.856) · [PubMed 16894061](https://pubmed.ncbi.nlm.nih.gov/16894061/)
