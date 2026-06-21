@@ -298,6 +298,15 @@ cross_links:
   - target: 01-human/03-molecular/ccl2
     relation: connects-to
     note: "CNS trafficking: CCL2 helps recruit monocytes and autoreactive leukocytes across the blood-brain barrier into MS lesions, contributing to the inflammatory demyelination."
+  - target: 01-human/03-molecular/btk
+    relation: connects-to
+    note: "B-cell and microglial signalling: BTK transduces B-cell-receptor and Fc-receptor signals in the B cells and microglia driving MS, the target of CNS-penetrant BTK inhibitors (tolebrutinib) developed for progressive disease."
+  - target: 01-human/03-molecular/perforin
+    relation: connects-to
+    note: "Cytotoxic plaque injury: CD8 T cells, which actually outnumber CD4 cells in MS lesions, use perforin-mediated cytotoxicity to injure oligodendrocytes and axons, contributing to the irreversible damage of progression."
+  - target: 01-human/03-molecular/il-2
+    relation: connects-to
+    note: "Treg and genetic risk: IL2RA (CD25) is an established MS susceptibility gene, and impaired IL-2-dependent regulatory-T-cell function lets autoreactive T cells escape control, a basis for low-dose IL-2 approaches."
 ---
 
 # Multiple Sclerosis
@@ -501,6 +510,9 @@ MS affects approximately **2.8 million people worldwide** (~1 million in the US)
 - `connects-to` → **[BAFF](../../03-molecular/baff/README.md)** — B-cell survival: BAFF supports the autoreactive B cells and meningeal lymphoid follicles increasingly recognised in MS, part of the rationale behind the dramatic efficacy of anti-CD20 B-cell depletion.
 - `connects-to` → **[Interleukin-6](../../03-molecular/il-6/README.md)** — Th17 differentiation: IL-6 with TGF-beta drives the pathogenic Th17 cells that breach the blood-brain barrier and orchestrate the demyelinating attacks of multiple sclerosis.
 - `connects-to` → **[CCL2](../../03-molecular/ccl2/README.md)** — CNS trafficking: CCL2 helps recruit monocytes and autoreactive leukocytes across the blood-brain barrier into MS lesions, contributing to the inflammatory demyelination.
+- `connects-to` → **[BTK](../../03-molecular/btk/README.md)** — BTK transduces B-cell-receptor and Fc-receptor signals in the B cells and microglia driving MS, the target of CNS-penetrant BTK inhibitors (tolebrutinib) developed to address the smouldering inflammation of progressive disease.
+- `connects-to` → **[Perforin](../../03-molecular/perforin/README.md)** — CD8 T cells, which actually outnumber CD4 cells in MS plaques, use perforin-mediated cytotoxicity to injure oligodendrocytes and transect axons, contributing to the irreversible neurodegeneration of disease progression.
+- `connects-to` → **[IL-2](../../03-molecular/il-2/README.md)** — IL2RA (CD25) is an established MS susceptibility gene, and impaired IL-2-dependent regulatory-T-cell function lets autoreactive T cells escape control—a genetic and mechanistic basis for low-dose IL-2 strategies in MS.
 
 [^compston-2008-ms-review]: Compston A, Coles A. Multiple sclerosis. *Lancet.* 2008;372(9648):1502-1517. [doi:10.1016/S0140-6736(08)61620-7](https://doi.org/10.1016/S0140-6736(08)61620-7) · [PubMed 18970977](https://pubmed.ncbi.nlm.nih.gov/18970977/)
 [^kappos-2006-natalizumab]: Polman CH, O'Connor PW, Havrdova E, et al. A randomized, placebo-controlled trial of natalizumab for relapsing multiple sclerosis. *N Engl J Med.* 2006;354(9):899-910. [doi:10.1056/NEJMoa044397](https://doi.org/10.1056/NEJMoa044397) · [PubMed 16510744](https://pubmed.ncbi.nlm.nih.gov/16510744/)

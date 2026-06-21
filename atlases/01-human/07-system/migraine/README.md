@@ -301,6 +301,15 @@ cross_links:
   - target: 01-human/03-molecular/serotonin-transporter
     relation: connects-to
     note: "Serotonergic comorbidity: serotonin-transporter function links migraine to its frequent depression and anxiety comorbidity and shapes the serotonergic descending pain modulation triptans engage."
+  - target: 01-human/03-molecular/progesterone
+    relation: connects-to
+    note: "Hormonal triggering: the estrogen-progesterone fluctuations of the menstrual cycle drive menstrual migraine, with the perimenstrual estrogen withdrawal (and shifting progesterone) precipitating attacks in many women."
+  - target: 01-human/03-molecular/bradykinin
+    relation: connects-to
+    note: "Trigeminovascular sensitisation: bradykinin generated in the meninges sensitises and excites trigeminal nociceptors, part of the neurogenic inflammation that produces the throbbing pain of migraine."
+  - target: 01-human/03-molecular/atp
+    relation: connects-to
+    note: "Bioenergetic deficit: the mitochondrial-energy-deficit hypothesis links migraine susceptibility to impaired ATP production in neurons, the rationale behind riboflavin and coenzyme Q10 as preventives."
 ---
 
 # Migraine
@@ -532,6 +541,9 @@ Episodic migraine (EM, <15 headache days/month) transforms to **chronic migraine
 - `connects-to` → **[Prostaglandins](../../03-molecular/prostaglandins/README.md)** — Neurogenic inflammation: prostaglandins sensitise and excite trigeminal nociceptors and dilate meningeal vessels during migraine, which is why NSAIDs that block their synthesis abort attacks.
 - `connects-to` → **[Endothelin-1](../../03-molecular/endothelin-1/README.md)** — Vascular dysregulation: endothelin-1 contributes to the meningeal and cerebral vascular tone changes of migraine, part of the neurovascular dysfunction underlying the headache and aura.
 - `connects-to` → **[Serotonin Transporter](../../03-molecular/serotonin-transporter/README.md)** — Serotonergic comorbidity: serotonin-transporter function links migraine to its frequent depression and anxiety comorbidity and shapes the serotonergic descending pain modulation triptans engage.
+- `connects-to` → **[Progesterone](../../03-molecular/progesterone/README.md)** — The estrogen-progesterone fluctuations of the menstrual cycle drive menstrual migraine, with the perimenstrual estrogen withdrawal and shifting progesterone precipitating the attacks that cluster around menses in many women.
+- `connects-to` → **[Bradykinin](../../03-molecular/bradykinin/README.md)** — Bradykinin generated in the meninges sensitizes and excites trigeminal nociceptors, part of the neurogenic inflammation that produces the throbbing pain of migraine alongside CGRP and substance P.
+- `connects-to` → **[ATP](../../03-molecular/atp/README.md)** — The mitochondrial-energy-deficit hypothesis links migraine susceptibility to impaired neuronal ATP production, the rationale behind riboflavin and coenzyme Q10—mitochondrial cofactors—as evidence-based migraine preventives.
 
 [^gbd-2016-migraine-burden]: GBD 2016 Headache Collaborators. Global, regional, and national burden of migraine and tension-type headache, 1990-2016. *Lancet Neurol.* 2018;17(11):954-976. [doi:10.1016/S1474-4422(18)30322-3](https://doi.org/10.1016/S1474-4422(18)30322-3) · [PubMed 30353868](https://pubmed.ncbi.nlm.nih.gov/30353868/)
 [^goadsby-2002-migraine-review]: Goadsby PJ, Lipton RB, Ferrari MD. Migraine — current understanding and treatment. *N Engl J Med.* 2002;346(4):257-270. [doi:10.1056/NEJMra010917](https://doi.org/10.1056/NEJMra010917) · [PubMed 11807151](https://pubmed.ncbi.nlm.nih.gov/11807151/)
