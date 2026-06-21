@@ -286,6 +286,15 @@ cross_links:
   - target: 01-human/03-molecular/hif-1alpha
     relation: connects-to
     note: "Tumour hypoxia: HIF-1α stabilised in the cancers of Werner syndrome drives the angiogenesis and metabolic adaptation that support their growth."
+  - target: 01-human/03-molecular/blm
+    relation: connects-to
+    note: "RecQ helicase family: WRN and BLM (Bloom syndrome) are sister RecQ helicases, so the loss of WRN in Werner syndrome parallels BLM loss — both cause genomic instability and cancer predisposition from failed replication-fork and recombination repair."
+  - target: 01-human/03-molecular/cdkn1a
+    relation: connects-to
+    note: "Accelerated senescence: WRN loss leaves replication stress unresolved, triggering p21 (CDKN1A)-driven cell-cycle arrest and premature replicative senescence — a core mechanism of the accelerated-ageing phenotype of Werner syndrome."
+  - target: 01-human/03-molecular/rankl
+    relation: connects-to
+    note: "Premature osteoporosis: severe osteoporosis, especially of the limbs, is a hallmark of Werner syndrome, reflecting the RANKL-driven osteoclast activity that outpaces bone formation in this accelerated-ageing disorder."
 ---
 
 # Werner Syndrome
@@ -538,6 +547,9 @@ cross_links:
 - `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — Angiogenesis: VEGF drives the tumour angiogenesis of the sarcomas that arise in Werner syndrome and contributes to its accelerated atherosclerosis.
 - `connects-to` → **[PDGF](../../03-molecular/pdgf/README.md)** — Fibroblast and vessel signalling: PDGF acting on the prematurely senescent fibroblasts and vascular smooth muscle of Werner syndrome contributes to its fibrosis and atherosclerosis.
 - `connects-to` → **[HIF-1α](../../03-molecular/hif-1alpha/README.md)** — Tumour hypoxia: HIF-1α stabilised in the cancers of Werner syndrome drives the angiogenesis and metabolic adaptation that support their growth.
+- `connects-to` → **[BLM](../../03-molecular/blm/README.md)** — WRN and BLM (Bloom syndrome) are sister RecQ helicases, so the loss of WRN in Werner syndrome parallels BLM loss—both cause genomic instability and cancer predisposition from failed replication-fork and homologous-recombination repair.
+- `connects-to` → **[p21 (CDKN1A)](../../03-molecular/cdkn1a/README.md)** — WRN loss leaves replication stress unresolved, triggering p21-driven cell-cycle arrest and premature replicative senescence—a core mechanism of the accelerated-aging phenotype, where cells exhaust their replicative capacity early.
+- `connects-to` → **[RANKL](../../03-molecular/rankl/README.md)** — Severe osteoporosis, especially of the distal limbs, is a hallmark of Werner syndrome, reflecting the RANKL-driven osteoclast activity that outpaces bone formation in this accelerated-aging disorder long before normal old age.
 
 [^yu-1996-wrn]: Yu CE, Oshima J, Fu YH, et al. Positional cloning of the Werner's syndrome gene. *Science.* 1996;272(5259):258-262. [doi:10.1126/science.272.5259.258](https://doi.org/10.1126/science.272.5259.258) · [PubMed 8602509](https://pubmed.ncbi.nlm.nih.gov/8602509/)
 [^lauper-2013-wrn-neoplasia]: Lauper JM, Krause A, Vaughan TL, Monnat RJ Jr. Spectrum and risk of neoplasia in Werner syndrome: a systematic review. *PLoS One.* 2013;8(4):e59709. [doi:10.1371/journal.pone.0059709](https://doi.org/10.1371/journal.pone.0059709) · [PubMed 23579047](https://pubmed.ncbi.nlm.nih.gov/23579047/)

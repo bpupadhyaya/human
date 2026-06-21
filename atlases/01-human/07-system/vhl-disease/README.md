@@ -286,6 +286,15 @@ cross_links:
   - target: 01-human/03-molecular/pik3ca
     relation: connects-to
     note: "PI3K activation: PI3K/AKT/mTOR signalling, reinforced in VHL-deficient tumours, drives the growth of clear-cell renal carcinoma and hemangioblastoma."
+  - target: 01-human/03-molecular/cxcl12
+    relation: connects-to
+    note: "HIF-driven migration: loss of VHL stabilises HIF, which transcriptionally upregulates the CXCR4 receptor for CXCL12, promoting the invasive and metastatic behaviour of VHL-associated clear-cell renal carcinoma."
+  - target: 01-human/03-molecular/sstr2
+    relation: connects-to
+    note: "Neuroendocrine receptor: the pancreatic neuroendocrine tumours of VHL disease express somatostatin receptor 2, enabling DOTATATE PET surveillance and peptide-receptor radionuclide therapy of progressive lesions."
+  - target: 01-human/03-molecular/adrenomedullin
+    relation: connects-to
+    note: "Hemangioblastoma peptide: adrenomedullin is a HIF target strongly expressed in VHL hemangioblastomas, where it contributes to the vascular permeability and cyst formation that produce the symptomatic mass effect."
 ---
 
 # VHL Disease
@@ -497,6 +506,9 @@ The genotype-phenotype correlation reflects the degree of pVHL function retained
 - `connects-to` → **[CDK4/6](../../03-molecular/cdk4-6/README.md)** — Cell-cycle drive: HIF-driven cyclin D1 with CDK4/6 propels the clear-cell renal carcinoma cells of VHL disease through the G1 checkpoint.
 - `connects-to` → **[TERT](../../03-molecular/tert/README.md)** — Replicative immortality: TERT reactivation maintains telomeres in the renal carcinomas of VHL disease, sustaining their proliferation.
 - `connects-to` → **[PIK3CA](../../03-molecular/pik3ca/README.md)** — PI3K activation: PI3K/AKT/mTOR signalling, reinforced in VHL-deficient tumours, drives the growth of clear-cell renal carcinoma and hemangioblastoma.
+- `connects-to` → **[CXCL12](../../03-molecular/cxcl12/README.md)** — Loss of VHL stabilizes HIF, which transcriptionally upregulates the CXCR4 receptor for CXCL12, promoting the invasive and metastatic behavior of VHL-associated clear-cell renal carcinoma—tying the founding lesion directly to metastatic potential.
+- `connects-to` → **[SSTR2](../../03-molecular/sstr2/README.md)** — The pancreatic neuroendocrine tumors of VHL disease express somatostatin receptor 2, enabling DOTATATE PET surveillance of this multifocal tumor syndrome and peptide-receptor radionuclide therapy of progressive pancreatic lesions.
+- `connects-to` → **[Adrenomedullin](../../03-molecular/adrenomedullin/README.md)** — Adrenomedullin is a HIF target strongly expressed in VHL hemangioblastomas, where it contributes to the vascular permeability and peritumoral cyst formation that produce the symptomatic mass effect in the cerebellum and spinal cord.
 
 [^lonser-2003-vhl-disease]: Lonser RR, Glenn GM, Walther M, et al. von Hippel-Lindau disease. *Lancet.* 2003;361(9374):2059-2067. [doi:10.1016/S0140-6736(03)13643-4](https://doi.org/10.1016/S0140-6736(03)13643-4) · [PubMed 12814730](https://pubmed.ncbi.nlm.nih.gov/12814730/)
 [^choueiri-2020-hif2-rcc]: Choueiri TK, Kaelin WG Jr. Targeting the HIF2-VEGF axis in renal cell carcinoma. *Nat Med.* 2020;26(10):1519-1530. [doi:10.1038/s41591-020-1093-z](https://doi.org/10.1038/s41591-020-1093-z) · [PubMed 33020650](https://pubmed.ncbi.nlm.nih.gov/33020650/)
