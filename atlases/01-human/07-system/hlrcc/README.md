@@ -286,6 +286,15 @@ cross_links:
   - target: 01-human/03-molecular/tert
     relation: connects-to
     note: "Replicative immortality: TERT reactivation maintains telomeres in HLRCC renal tumours, enabling the limitless proliferation of this notably aggressive hereditary kidney cancer."
+  - target: 01-human/03-molecular/egln1
+    relation: connects-to
+    note: "Pseudohypoxia mechanism: fumarate accumulating from FH loss competitively inhibits the EGLN/PHD prolyl hydroxylases, blocking HIF degradation to create the pseudohypoxic, angiogenic state that drives HLRCC."
+  - target: 01-human/03-molecular/erk1-2
+    relation: connects-to
+    note: "MAPK proliferation: RAS-RAF-ERK signalling, alongside the MET pathway, drives the proliferation of the aggressive type 2 papillary renal cancer of HLRCC."
+  - target: 01-human/03-molecular/ccl2
+    relation: connects-to
+    note: "Macrophage microenvironment: CCL2 recruits tumour-associated macrophages into HLRCC renal tumours, shaping the microenvironment of this metabolically reprogrammed, immunologically active cancer."
 ---
 
 # Hereditary Leiomyomatosis and Renal Cell Carcinoma
@@ -507,6 +516,9 @@ Cutaneous:
 - `connects-to` → **[MYC](../../03-molecular/myc/README.md)** — Metabolic-oncogene cooperation: the pseudohypoxic, fumarate-driven state of HLRCC upregulates MYC, fuelling the biosynthesis and proliferation of its aggressive type-2 papillary renal tumours.
 - `connects-to` → **[Cyclin D1](../../03-molecular/cyclin-d1/README.md)** — Cell-cycle drive: HIF-driven and growth-factor signalling in FH-deficient HLRCC upregulates cyclin D1, pushing the renal tumour cells through the G1 checkpoint.
 - `connects-to` → **[TERT](../../03-molecular/tert/README.md)** — Replicative immortality: TERT reactivation maintains telomeres in HLRCC renal tumours, enabling the limitless proliferation of this notably aggressive hereditary kidney cancer.
+- `connects-to` → **[EGLN1](../../03-molecular/egln1/README.md)** — Pseudohypoxia mechanism: fumarate accumulating from FH loss competitively inhibits the EGLN/PHD prolyl hydroxylases, blocking HIF degradation to create the pseudohypoxic, angiogenic state that drives HLRCC.
+- `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — MAPK proliferation: RAS-RAF-ERK signalling, alongside the MET pathway, drives the proliferation of the aggressive type 2 papillary renal cancer of HLRCC.
+- `connects-to` → **[CCL2](../../03-molecular/ccl2/README.md)** — Macrophage microenvironment: CCL2 recruits tumour-associated macrophages into HLRCC renal tumours, shaping the microenvironment of this metabolically reprogrammed, immunologically active cancer.
 
 [^tomlinson-2002-fh]: Tomlinson IP, Alam NA, Rowan AJ, et al. Germline mutations in FH predispose to dominantly inherited uterine fibroids, skin leiomyomata and papillary renal cell cancer. *Nat Genet.* 2002;30(4):406-410. [doi:10.1038/ng849](https://doi.org/10.1038/ng849) · [PubMed 11865300](https://pubmed.ncbi.nlm.nih.gov/11865300/)
 [^linehan-2013-fh-review]: Linehan WM, Rouault TA. Molecular pathways: fumarate hydratase-deficient kidney cancer — targeting the Warburg effect in cancer. *Clin Cancer Res.* 2013;19(13):3345-3352. [doi:10.1158/1078-0432.CCR-13-0304](https://doi.org/10.1158/1078-0432.CCR-13-0304) · [PubMed 23836472](https://pubmed.ncbi.nlm.nih.gov/23836472/)

@@ -286,6 +286,15 @@ cross_links:
   - target: 01-human/03-molecular/hif-1alpha
     relation: connects-to
     note: "Ischaemic fibrosis: HIF-1α stabilised in the poorly perfused, fibrotic pancreas of chronic hereditary pancreatitis drives the stellate-cell activation that scars the gland."
+  - target: 01-human/03-molecular/pdgf
+    relation: connects-to
+    note: "Stellate-cell mitogen: PDGF is the dominant proliferative signal expanding pancreatic stellate cells into collagen-secreting myofibroblasts, the engine of the progressive fibrosis of chronic hereditary pancreatitis."
+  - target: 01-human/03-molecular/s100a8-a9
+    relation: connects-to
+    note: "Acute-attack alarmin: S100A8/A9 from the neutrophils flooding the inflamed gland amplifies each acute pancreatitis flare in hereditary pancreatitis and tracks the severity of the attack."
+  - target: 01-human/03-molecular/tert
+    relation: connects-to
+    note: "Cancer-risk progression: TERT reactivation immortalises cells along the path to pancreatic ductal adenocarcinoma, the markedly elevated cancer risk that follows decades of hereditary pancreatitis."
 ---
 
 # Hereditary Pancreatitis
@@ -519,6 +528,9 @@ cross_links:
 - `connects-to` → **[IL-1β](../../03-molecular/il-1b/README.md)** — Inflammasome injury: premature trypsin activation triggers NLRP3-driven IL-1β release in hereditary pancreatitis, amplifying the acinar inflammation of each recurrent attack.
 - `connects-to` → **[CCL2](../../03-molecular/ccl2/README.md)** — Monocyte recruitment: CCL2 draws monocytes and macrophages into the injured pancreas, sustaining the chronic inflammation that progresses to fibrosis in hereditary pancreatitis.
 - `connects-to` → **[HIF-1α](../../03-molecular/hif-1alpha/README.md)** — Ischaemic fibrosis: HIF-1α stabilised in the poorly perfused, fibrotic pancreas of chronic hereditary pancreatitis drives the stellate-cell activation that scars the gland.
+- `connects-to` → **[PDGF](../../03-molecular/pdgf/README.md)** — Stellate-cell mitogen: PDGF is the dominant proliferative signal expanding pancreatic stellate cells into collagen-secreting myofibroblasts, the engine of the progressive fibrosis of chronic hereditary pancreatitis.
+- `connects-to` → **[S100A8/A9](../../03-molecular/s100a8-a9/README.md)** — Acute-attack alarmin: S100A8/A9 from the neutrophils flooding the inflamed gland amplifies each acute pancreatitis flare in hereditary pancreatitis and tracks the severity of the attack.
+- `connects-to` → **[TERT](../../03-molecular/tert/README.md)** — Cancer-risk progression: TERT reactivation immortalises cells along the path to pancreatic ductal adenocarcinoma, the markedly elevated cancer risk that follows decades of hereditary pancreatitis.
 
 [^whitcomb-1996-prss1]: Whitcomb DC, Gorry MC, Preston RA, et al. Hereditary pancreatitis is caused by a mutation in the cationic trypsinogen gene. *Nat Genet.* 1996;14(2):141-145. [doi:10.1038/ng1096-141](https://doi.org/10.1038/ng1096-141) · [PubMed 8841182](https://pubmed.ncbi.nlm.nih.gov/8841182/)
 [^lowenfels-2001-hp-pdac]: Lowenfels AB, Maisonneuve P, DiMagno EP, et al. Hereditary pancreatitis and the risk of pancreatic cancer. *J Natl Cancer Inst.* 2001;93(1):26-31. [doi:10.1093/jnci/93.1.26](https://doi.org/10.1093/jnci/93.1.26) · [PubMed 11136838](https://pubmed.ncbi.nlm.nih.gov/11136838/)
