@@ -286,6 +286,15 @@ cross_links:
   - target: 01-human/03-molecular/ezh2
     relation: connects-to
     note: "Epigenetic progression: EZH2-mediated PRC2 silencing of tumour-suppressor genes contributes to the development of MEN4-associated neuroendocrine tumours."
+  - target: 01-human/03-molecular/dopamine
+    relation: connects-to
+    note: "Prolactinoma therapy: dopamine agonists treat the prolactin-secreting pituitary adenomas of the MEN4 spectrum, exploiting dopamine's tonic inhibition of pituitary prolactin release."
+  - target: 01-human/03-molecular/histamine
+    relation: connects-to
+    note: "Gastrinoma acid: gastrinomas in the MEN4 spectrum drive gastrin-stimulated histamine release from gastric ECL cells, causing the acid hypersecretion of Zollinger-Ellison syndrome."
+  - target: 01-human/03-molecular/rankl
+    relation: connects-to
+    note: "Hyperparathyroid bone loss: primary hyperparathyroidism, the most frequent MEN4 manifestation, drives PTH-stimulated RANKL-mediated osteoclast activity and bone resorption."
 ---
 
 # MEN4 Syndrome
@@ -487,6 +496,9 @@ When clinical MEN features are present:
 - `connects-to` → **[MYC](../../03-molecular/myc/README.md)** — Proliferative oncogene: loss of the p27 (CDKN1B) brake in MEN4 permits unrestrained cell-cycle entry, with MYC driving the proliferation of its endocrine tumours.
 - `connects-to` → **[Wnt/β-catenin](../../03-molecular/wnt-beta-catenin/README.md)** — Endocrine tumour signalling: aberrant Wnt/β-catenin activation contributes to the parathyroid and pituitary tumours of the MEN4 spectrum.
 - `connects-to` → **[EZH2](../../03-molecular/ezh2/README.md)** — Epigenetic progression: EZH2-mediated PRC2 silencing of tumour-suppressor genes contributes to the development of MEN4-associated neuroendocrine tumours.
+- `connects-to` → **[Dopamine](../../03-molecular/dopamine/README.md)** — Prolactinoma therapy: dopamine agonists treat the prolactin-secreting pituitary adenomas of the MEN4 spectrum, exploiting dopamine's tonic inhibition of pituitary prolactin release.
+- `connects-to` → **[Histamine](../../03-molecular/histamine/README.md)** — Gastrinoma acid: gastrinomas in the MEN4 spectrum drive gastrin-stimulated histamine release from gastric ECL cells, causing the acid hypersecretion of Zollinger-Ellison syndrome.
+- `connects-to` → **[RANKL](../../03-molecular/rankl/README.md)** — Hyperparathyroid bone loss: primary hyperparathyroidism, the most frequent MEN4 manifestation, drives PTH-stimulated RANKL-mediated osteoclast activity and bone resorption.
 
 [^alrezk-2017-men4]: Alrezk R, Hannah-Shmouni F, Stratakis CA. MEN4 and CDKN1B mutations: the latest of the MEN syndromes. *Endocr Relat Cancer.* 2017;24(10):T195-T208. [doi:10.1530/ERC-17-0243](https://doi.org/10.1530/ERC-17-0243) · [PubMed 28894007](https://pubmed.ncbi.nlm.nih.gov/28894007/)
 [^pellegata-2006-cdkn1b-men4]: Pellegata NS, Quintanilla-Martinez L, Siggelkow H, et al. Germ-line mutations in p27Kip1 cause a multiple endocrine neoplasia syndrome in rats and humans. *Proc Natl Acad Sci USA.* 2006;103(42):15558-15563. [doi:10.1073/pnas.0603306103](https://doi.org/10.1073/pnas.0603306103) · [PubMed 17030811](https://pubmed.ncbi.nlm.nih.gov/17030811/)

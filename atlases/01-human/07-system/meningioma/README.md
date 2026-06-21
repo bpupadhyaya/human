@@ -286,6 +286,15 @@ cross_links:
   - target: 01-human/03-molecular/hif-1alpha
     relation: connects-to
     note: "Tumour hypoxia: HIF-1α stabilised in the highly vascular meningioma drives the VEGF angiogenesis that supplies these dural-based tumours and the peritumoural oedema they cause."
+  - target: 01-human/03-molecular/erk1-2
+    relation: connects-to
+    note: "MAPK-pathway meningiomas: RAF-MEK-ERK signalling downstream of TRAF7/KLF4 and AKT1 mutations drives the proliferation of a major non-NF2 molecular subgroup of meningiomas."
+  - target: 01-human/03-molecular/igf-1
+    relation: connects-to
+    note: "Growth-factor signalling: IGF-1/IGF-1R signalling supports meningioma proliferation and survival, contributing to the growth of these slow but recurrence-prone dural tumours."
+  - target: 01-human/03-molecular/ccl2
+    relation: connects-to
+    note: "Macrophage microenvironment: CCL2 recruits tumour-associated macrophages into meningiomas, which make up a substantial fraction of the tumour mass and shape its growth."
 ---
 
 # Meningioma
@@ -492,6 +501,9 @@ VEGF overexpression in meningioma (YAP target); Phase 2 COMBIT (Huang 2019, N=40
 - `connects-to` → **[Cyclin D1](../../03-molecular/cyclin-d1/README.md)** — Cell-cycle drive: with CDKN2A loss marking higher-grade tumours, cyclin D1-CDK4/6 activity pushes meningioma cells through the G1 checkpoint.
 - `connects-to` → **[MYC](../../03-molecular/myc/README.md)** — Proliferative oncogene: MYC activation drives the proliferation of atypical and anaplastic meningiomas, contributing to their aggressive, recurrent behaviour.
 - `connects-to` → **[HIF-1α](../../03-molecular/hif-1alpha/README.md)** — Tumour hypoxia: HIF-1α stabilised in the highly vascular meningioma drives the VEGF angiogenesis that supplies these dural-based tumours and the peritumoural oedema they cause.
+- `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — MAPK-pathway meningiomas: RAF-MEK-ERK signalling downstream of TRAF7/KLF4 and AKT1 mutations drives the proliferation of a major non-NF2 molecular subgroup of meningiomas.
+- `connects-to` → **[IGF-1](../../03-molecular/igf-1/README.md)** — Growth-factor signalling: IGF-1/IGF-1R signalling supports meningioma proliferation and survival, contributing to the growth of these slow but recurrence-prone dural tumours.
+- `connects-to` → **[CCL2](../../03-molecular/ccl2/README.md)** — Macrophage microenvironment: CCL2 recruits tumour-associated macrophages into meningiomas, which make up a substantial fraction of the tumour mass and shape its growth.
 
 [^brastianos-2013-akt1-meningioma]: Brastianos PK, Horowitz PM, Santagata S, et al. Genomic sequencing of meningiomas identifies oncogenic SMO and AKT1 mutations. *Nat Genet.* 2013;45(3):285-289. [doi:10.1038/ng.2526](https://doi.org/10.1038/ng.2526) · [PubMed 23334667](https://pubmed.ncbi.nlm.nih.gov/23334667/)
 [^nassiri-2021-meningioma-classification]: Nassiri F, Liu J, Patil V, et al. A clinically applicable integrative molecular classification of meningiomas. *Nature.* 2021;597(7874):119-125. [doi:10.1038/s41586-021-03850-3](https://doi.org/10.1038/s41586-021-03850-3) · [PubMed 34385709](https://pubmed.ncbi.nlm.nih.gov/34385709/)
