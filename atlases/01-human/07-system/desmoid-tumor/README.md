@@ -295,6 +295,15 @@ cross_links:
   - target: 01-human/03-molecular/ccl2
     relation: connects-to
     note: "Stromal macrophages: CCL2 recruits macrophages into the desmoid stroma, contributing to the inflammatory, matrix-remodelling microenvironment of these locally aggressive fibrous tumours."
+  - target: 01-human/03-molecular/gsk-3b
+    relation: connects-to
+    note: "Destruction-complex escape: GSK-3β, with APC and Axin, normally phosphorylates β-catenin for degradation, so the CTNNB1 and APC mutations of desmoid tumours evade this control to lock in the Wnt signalling that drives them."
+  - target: 01-human/03-molecular/caspase-3
+    relation: connects-to
+    note: "Spontaneous regression: a subset of desmoid tumours spontaneously regress through caspase-3-mediated apoptosis, the biological basis for the active-surveillance strategy now favoured over immediate resection."
+  - target: 01-human/03-molecular/fgfr
+    relation: connects-to
+    note: "Fibroblast growth signalling: FGF-FGFR signalling supports the proliferation of the myofibroblasts that constitute desmoid tumours, an additional growth-factor input to the Wnt-driven fibromatosis."
 ---
 
 # Desmoid Tumor
@@ -521,6 +530,9 @@ Standard initial approach for newly diagnosed desmoid without symptoms or rapid 
 - `connects-to` → **[IGF-1](../../03-molecular/igf-1/README.md)** — Fibroblast growth signal: IGF-1/IGF-1R signalling supports the proliferation and survival of the myofibroblasts that make up desmoid tumours, cooperating with the driving Wnt-β-catenin pathway.
 - `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — MAPK proliferation: RAF-MEK-ERK signalling drives desmoid fibroblast proliferation, part of why the multi-kinase inhibitor sorafenib produces durable responses in aggressive fibromatosis.
 - `connects-to` → **[CCL2](../../03-molecular/ccl2/README.md)** — Stromal macrophages: CCL2 recruits macrophages into the desmoid stroma, contributing to the inflammatory, matrix-remodelling microenvironment of these locally aggressive fibrous tumours.
+- `connects-to` → **[GSK-3β](../../03-molecular/gsk-3b/README.md)** — GSK-3β, with APC and Axin, normally phosphorylates β-catenin for degradation, so the CTNNB1 and APC mutations of desmoid tumors evade this destruction complex to lock in the Wnt signaling that drives the fibromatosis.
+- `connects-to` → **[Caspase-3](../../03-molecular/caspase-3/README.md)** — A substantial subset of desmoid tumors spontaneously regress through caspase-3-mediated apoptosis, the biological basis for the active-surveillance strategy now favored over immediate surgery for these non-metastasizing tumors.
+- `connects-to` → **[FGFR](../../03-molecular/fgfr/README.md)** — FGF-FGFR signaling supports the proliferation of the myofibroblasts that constitute desmoid tumors, an additional growth-factor input layered on the Wnt-β-catenin pathway that fundamentally drives them.
 
 ---
 

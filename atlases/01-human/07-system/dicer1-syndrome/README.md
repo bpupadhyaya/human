@@ -295,6 +295,15 @@ cross_links:
   - target: 01-human/03-molecular/akt
     relation: connects-to
     note: "Survival signalling: PI3K-AKT activation cooperates with the microRNA-processing defect of DICER1 syndrome to support the growth and survival of its diverse embryonal and stromal tumours."
+  - target: 01-human/03-molecular/rb1
+    relation: connects-to
+    note: "Pineoblastoma: DICER1 syndrome predisposes to pineoblastoma, an aggressive RB-pathway-driven embryonal brain tumour that joins pleuropulmonary blastoma in the syndrome's intracranial tumour spectrum."
+  - target: 01-human/03-molecular/fgfr
+    relation: connects-to
+    note: "Embryonal proliferation: loss of DICER1-processed microRNAs derepresses growth-factor pathways including FGFR signalling, driving the proliferation of the embryonal tumours such as pleuropulmonary blastoma."
+  - target: 01-human/03-molecular/cdkn2a
+    relation: connects-to
+    note: "Tumour progression: CDKN2A loss accompanies the progression of pleuropulmonary blastoma from the early cystic type I to the solid, sarcomatous type III, a key step in the malignant evolution of DICER1 tumours."
 ---
 
 # DICER1 Syndrome
@@ -502,6 +511,9 @@ When a child is found to have a thoracic cystic lesion, DICER1 syndrome should b
 - `connects-to` → **[Activin A](../../03-molecular/activin-a/README.md)** — Sex-cord stromal tumours: the activin-inhibin axis of gonadal stromal cells underlies the Sertoli-Leydig cell tumours of DICER1 syndrome, whose inhibin secretion serves as a tumour biomarker.
 - `connects-to` → **[Thyroid Hormones](../../03-molecular/thyroid-hormones/README.md)** — Thyroid neoplasia: DICER1 syndrome predisposes to multinodular goitre and differentiated thyroid carcinoma, one of the most common and earliest manifestations of the disorder.
 - `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — Survival signalling: PI3K-AKT activation cooperates with the microRNA-processing defect of DICER1 syndrome to support the growth and survival of its diverse embryonal and stromal tumours.
+- `connects-to` → **[RB1](../../03-molecular/rb1/README.md)** — DICER1 syndrome predisposes to pineoblastoma, an aggressive RB-pathway-driven embryonal brain tumor that joins pleuropulmonary blastoma in the syndrome's intracranial tumor spectrum and shares biology with retinoblastoma.
+- `connects-to` → **[FGFR](../../03-molecular/fgfr/README.md)** — Loss of DICER1-processed microRNAs derepresses growth-factor pathways including FGFR signaling, driving the proliferation of the embryonal tumors such as pleuropulmonary blastoma and embryonal rhabdomyosarcoma.
+- `connects-to` → **[CDKN2A](../../03-molecular/cdkn2a/README.md)** — CDKN2A loss accompanies the progression of pleuropulmonary blastoma from the early cystic type I to the solid, sarcomatous type III—a key cell-cycle lesion in the malignant evolution of DICER1 tumors.
 
 ---
 
