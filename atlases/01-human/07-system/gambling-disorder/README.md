@@ -279,6 +279,15 @@ cross_links:
   - target: 01-human/03-molecular/vasopressin
     relation: connects-to
     note: "Stress-arousal peptide: vasopressin amplifies HPA-axis stress reactivity and arousal, a system engaged during the anticipation and craving that drive the compulsive betting of gambling disorder."
+  - target: 01-human/03-molecular/gsk-3b
+    relation: connects-to
+    note: "Reward-signalling node: dopamine D2-receptor signalling converges on GSK-3β, a kinase governing the synaptic plasticity of reward learning implicated in the habit formation and compulsivity of gambling disorder."
+  - target: 01-human/03-molecular/il-1b
+    relation: connects-to
+    note: "Neuroinflammation: low-grade elevation of IL-1β and related cytokines is reported in behavioural addictions including gambling disorder, part of the neuroimmune changes accompanying chronic reward-circuit dysregulation."
+  - target: 01-human/03-molecular/histamine
+    relation: connects-to
+    note: "Arousal and wakefulness: the histaminergic arousal system sustains the prolonged, high-arousal gambling sessions whose disruption of the sleep-wake balance contributes to the sleep loss seen in the disorder."
 sources:
   - id: grant-2016-gambling-review
     type: peer-reviewed
@@ -512,6 +521,9 @@ Persistent and recurrent problematic gambling behavior causing distress (≥4 of
 - `connects-to` → **[Serotonin Transporter](../../03-molecular/serotonin-transporter/README.md)** — Impulsivity and treatment: serotonin-transporter function underlies the impulse-control deficits of gambling disorder, and SSRIs are among the agents trialled for the condition and its frequent comorbid depression.
 - `connects-to` → **[Adenosine](../../03-molecular/adenosine/README.md)** — Arousal and dopamine modulation: adenosine builds the sleep pressure overridden during long gambling sessions and tunes striatal dopamine through A2A-D2 interactions, linking arousal and reward in the disorder.
 - `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — Stress-arousal peptide: vasopressin amplifies HPA-axis stress reactivity and arousal, a system engaged during the anticipation and craving that drive the compulsive betting of gambling disorder.
+- `connects-to` → **[GSK-3β](../../03-molecular/gsk-3b/README.md)** — Dopamine D2-receptor signaling converges on GSK-3β, a kinase governing the synaptic plasticity of reward learning implicated in the habit formation and compulsivity that characterize gambling disorder as a behavioral addiction.
+- `connects-to` → **[IL-1β](../../03-molecular/il-1b/README.md)** — Low-grade elevation of IL-1β and related cytokines is reported in behavioral addictions including gambling disorder, part of the neuroimmune changes accompanying chronic dysregulation of the brain's reward circuitry.
+- `connects-to` → **[Histamine](../../03-molecular/histamine/README.md)** — The histaminergic arousal system sustains the prolonged, high-arousal gambling sessions whose disruption of the sleep-wake balance contributes to the sleep loss and fatigue that accompany the disorder.
 
 [^potenza-2014-gambling-neuroscience]: Potenza MN. The neurobiology of pathological gambling and drug addiction: an overview and new findings. *Philos Trans R Soc Lond B Biol Sci.* 2008;363(1507):3181-3189. [doi:10.1098/rstb.2008.0100](https://doi.org/10.1098/rstb.2008.0100) · [PubMed 18640909](https://pubmed.ncbi.nlm.nih.gov/18640909/)
 [^grant-2016-gambling-review]: Grant JE, Chamberlain SR. Gambling disorder and its relationship with substance use disorders. *Am J Addict.* 2015;24(2):126-131. [doi:10.1111/ajad.12112](https://doi.org/10.1111/ajad.12112) · [PubMed 25376793](https://pubmed.ncbi.nlm.nih.gov/25376793/)

@@ -298,6 +298,15 @@ cross_links:
   - target: 01-human/03-molecular/s100a8-a9
     relation: connects-to
     note: "Myeloid alarmin: S100A8/A9 from activated plaque neutrophils and monocytes amplifies arterial inflammation and is a circulating biomarker of the high cardiovascular risk of familial hypercholesterolaemia."
+  - target: 01-human/03-molecular/rage
+    relation: connects-to
+    note: "Oxidised-LDL inflammation: oxidised LDL and AGEs signalling through RAGE on endothelium and macrophages amplify the NF-κB-driven arterial inflammation that accelerates atherosclerosis in familial hypercholesterolaemia."
+  - target: 01-human/03-molecular/thrombin
+    relation: connects-to
+    note: "Atherothrombosis: rupture of the lipid-rich plaques of familial hypercholesterolaemia exposes tissue factor that generates thrombin, the coagulation step that converts a plaque into the occlusive clot of an early myocardial infarction."
+  - target: 01-human/03-molecular/complement-c3
+    relation: connects-to
+    note: "Complement in plaque: C3 and the complement cascade are activated within the atherosclerotic lesions of familial hypercholesterolaemia, contributing to the chronic vascular inflammation that drives plaque progression."
 ---
 
 # Familial Hypercholesterolemia
@@ -499,6 +508,9 @@ FH is a **monogenic autosomal dominant disorder** caused by mutations in three g
 - `connects-to` → **[NLRP3 Inflammasome](../../03-molecular/nlrp3-inflammasome/README.md)** — Cholesterol-crystal inflammasome: cholesterol crystals in plaque macrophages activate the NLRP3 inflammasome, releasing IL-1β that propels the accelerated atherosclerosis of familial hypercholesterolaemia.
 - `connects-to` → **[HIF-1α](../../03-molecular/hif-1alpha/README.md)** — Intraplaque hypoxia: as the lipid-rich plaques of familial hypercholesterolaemia thicken, their cores turn hypoxic and stabilise HIF-1α, driving the neovascularisation and necrotic-core expansion that destabilise them.
 - `connects-to` → **[S100A8/A9](../../03-molecular/s100a8-a9/README.md)** — Myeloid alarmin: S100A8/A9 from activated plaque neutrophils and monocytes amplifies arterial inflammation and is a circulating biomarker of the high cardiovascular risk of familial hypercholesterolaemia.
+- `connects-to` → **[RAGE](../../03-molecular/rage/README.md)** — Oxidized LDL and AGEs signaling through RAGE on endothelium and macrophages amplify the NF-κB-driven arterial inflammation that accelerates the atherosclerosis of familial hypercholesterolemia beyond the LDL burden alone.
+- `connects-to` → **[Thrombin](../../03-molecular/thrombin/README.md)** — Rupture of the lipid-rich plaques of familial hypercholesterolemia exposes tissue factor that generates thrombin, the coagulation step converting a plaque into the occlusive clot of the premature myocardial infarctions that define the disease.
+- `connects-to` → **[Complement C3](../../03-molecular/complement-c3/README.md)** — C3 and the complement cascade are activated within the atherosclerotic lesions of familial hypercholesterolemia, contributing to the chronic vascular inflammation that drives plaque progression alongside the lipid and myeloid mechanisms.
 
 [^goldstein-1985-ldlr-nobel]: Goldstein JL, Brown MS. The LDL receptor. *Arterioscler Thromb Vasc Biol.* 2009;29(4):431-438. [doi:10.1161/ATVBAHA.108.179564](https://doi.org/10.1161/ATVBAHA.108.179564) · [PubMed 19299327](https://pubmed.ncbi.nlm.nih.gov/19299327/)
 [^raal-2020-inclisiran-fh]: Raal FJ, Kallend D, Ray KK, et al. Inclisiran for the Treatment of Heterozygous Familial Hypercholesterolemia. *N Engl J Med.* 2020;382(16):1520-1530. [doi:10.1056/NEJMoa1913805](https://doi.org/10.1056/NEJMoa1913805) · [PubMed 32197277](https://pubmed.ncbi.nlm.nih.gov/32197277/)
