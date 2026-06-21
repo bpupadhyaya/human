@@ -297,6 +297,15 @@ cross_links:
   - target: 01-human/03-molecular/aldosterone
     relation: connects-to
     note: "Purging pseudo-Bartter: repeated vomiting and laxative abuse cause volume depletion that activates aldosterone, producing the secondary hyperaldosteronism and hypokalaemia that endanger bulimia patients."
+  - target: 01-human/03-molecular/histamine
+    relation: connects-to
+    note: "Histaminergic appetite: central H1 histamine signalling restrains appetite, and its modulation influences binge eating — the same axis whose blockade by some psychiatric drugs provokes overeating relevant to bulimia."
+  - target: 01-human/03-molecular/progesterone
+    relation: connects-to
+    note: "Cyclic modulation: binge-purge frequency in bulimia fluctuates across the menstrual cycle, with high-progesterone/low-estrogen phases associated with more bingeing, implicating ovarian-hormone modulation of appetite and reward."
+  - target: 01-human/03-molecular/thyroid-hormones
+    relation: connects-to
+    note: "Metabolic dysregulation: the binge-purge-restrict cycle of bulimia disturbs thyroid-hormone economy (often a low-T3 adaptation), and surreptitious thyroid-hormone misuse for weight control is a recognised complication."
 ---
 
 # Bulimia Nervosa
@@ -519,6 +528,9 @@ All of the following must be met:
 - `connects-to` → **[Mu-Opioid Receptor](../../03-molecular/mu-opioid-receptor/README.md)** — Binge reward: mu-opioid signalling mediates the rewarding, relieving quality of binge eating in bulimia, and opioid antagonists like naltrexone are studied to reduce binge-purge behaviour.
 - `connects-to` → **[Glutamate](../../03-molecular/glutamate/README.md)** — Impulse control: glutamatergic cortico-striatal circuits govern the inhibitory control that fails during binge episodes, the system the anticonvulsant topiramate dampens to reduce bingeing in bulimia.
 - `connects-to` → **[Aldosterone](../../03-molecular/aldosterone/README.md)** — Purging pseudo-Bartter: repeated vomiting and laxative abuse cause volume depletion that activates aldosterone, producing the secondary hyperaldosteronism and hypokalaemia that endanger bulimia patients.
+- `connects-to` → **[Histamine](../../03-molecular/histamine/README.md)** — Central H1 histamine signaling restrains appetite, and its modulation influences binge eating—the same axis whose blockade by some psychiatric drugs provokes the overeating relevant to the appetite dysregulation of bulimia.
+- `connects-to` → **[Progesterone](../../03-molecular/progesterone/README.md)** — Binge-purge frequency in bulimia fluctuates across the menstrual cycle, with the high-progesterone/low-estrogen phases associated with more bingeing—implicating ovarian-hormone modulation of appetite and reward in the disorder.
+- `connects-to` → **[Thyroid hormones](../../03-molecular/thyroid-hormones/README.md)** — The binge-purge-restrict cycle of bulimia disturbs thyroid-hormone economy (often a low-T3 adaptation to erratic intake), and surreptitious thyroid-hormone misuse for weight control is a recognized and dangerous complication.
 
 ## Treatment
 

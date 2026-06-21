@@ -295,6 +295,15 @@ cross_links:
   - target: 01-human/03-molecular/cdkn2a
     relation: connects-to
     note: "Tumour-suppressor loss: the rampant chromosomal instability of Bloom syndrome readily inactivates tumour suppressors like CDKN2A, contributing to the exceptionally broad early-onset cancer spectrum."
+  - target: 01-human/03-molecular/cdkn1a
+    relation: connects-to
+    note: "Checkpoint engagement: the persistent DNA damage and unresolved recombination intermediates of BLM-deficient cells chronically activate the p53-p21 (CDKN1A) checkpoint, arresting cells and contributing to the growth deficiency of Bloom syndrome."
+  - target: 01-human/03-molecular/caspase-3
+    relation: connects-to
+    note: "Apoptotic elimination: cells in Bloom syndrome that accumulate irreparable DNA damage undergo caspase-3-mediated apoptosis, a cell-loss mechanism that compounds the impaired growth alongside the cancer-prone surviving clones."
+  - target: 01-human/03-molecular/mdm2
+    relation: connects-to
+    note: "p53 setpoint: the MDM2-p53 axis governs the heightened p53 response that BLM-deficient cells mount against their constant DNA damage, balancing tumour suppression against the cell loss that limits growth in Bloom syndrome."
 ---
 
 # Bloom Syndrome
@@ -525,6 +534,9 @@ BS is characterized by three cardinal features: **small body size** (the most co
 - `connects-to` → **[RECQL4](../../03-molecular/recql4/README.md)** — RecQ-helicase family: BLM is one of five human RecQ helicases, and its loss in Bloom syndrome parallels the genomic instability and cancer predisposition of RECQL4 (Rothmund-Thomson) and WRN (Werner) disease.
 - `connects-to` → **[PALB2](../../03-molecular/palb2/README.md)** — Homologous recombination: BLM cooperates with the BRCA-PALB2 homologous-recombination machinery to resolve recombination intermediates, so its loss raises sister-chromatid exchange and cancer risk.
 - `connects-to` → **[CDKN2A](../../03-molecular/cdkn2a/README.md)** — Tumour-suppressor loss: the rampant chromosomal instability of Bloom syndrome readily inactivates tumour suppressors like CDKN2A, contributing to the exceptionally broad early-onset cancer spectrum.
+- `connects-to` → **[p21 (CDKN1A)](../../03-molecular/cdkn1a/README.md)** — The persistent DNA damage and unresolved recombination intermediates of BLM-deficient cells chronically activate the p53-p21 checkpoint, arresting cells and contributing to the growth deficiency characteristic of Bloom syndrome.
+- `connects-to` → **[Caspase-3](../../03-molecular/caspase-3/README.md)** — Cells in Bloom syndrome that accumulate irreparable DNA damage undergo caspase-3-mediated apoptosis, a cell-loss mechanism that compounds the impaired growth alongside the cancer-prone surviving clones.
+- `connects-to` → **[MDM2](../../03-molecular/mdm2/README.md)** — The MDM2-p53 axis governs the heightened p53 response that BLM-deficient cells mount against constant DNA damage, balancing the tumor suppression against the cell loss that limits growth in Bloom syndrome.
 
 ---
 
