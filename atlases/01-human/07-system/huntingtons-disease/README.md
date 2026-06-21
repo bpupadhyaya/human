@@ -273,6 +273,15 @@ cross_links:
   - target: 01-human/03-molecular/norepinephrine
     relation: connects-to
     note: "Noradrenergic disruption: degeneration of brainstem noradrenergic neurons in Huntington's disease alters norepinephrine signalling, contributing to its mood and autonomic symptoms."
+  - target: 01-human/03-molecular/ccl2
+    relation: connects-to
+    note: "Neuroinflammatory recruitment: CCL2 is elevated in Huntington's disease and recruits monocytes and activates microglia, contributing to the neuroinflammation that accompanies striatal degeneration."
+  - target: 01-human/03-molecular/cgas-sting
+    relation: connects-to
+    note: "DNA-sensing inflammation: mitochondrial dysfunction in Huntington's disease releases DNA that activates cGAS-STING, an emerging driver of the chronic neuroinflammatory response to mutant huntingtin."
+  - target: 01-human/03-molecular/igf-1
+    relation: connects-to
+    note: "Neurotrophic support: IGF-1 signalling is dysregulated in Huntington's disease and supports neuronal survival, an axis explored for neuroprotection alongside the loss of BDNF support to the striatum."
 sources:
   - id: gusella-1983-htt-locus
     type: peer-reviewed
@@ -409,3 +418,6 @@ HD disrupts multiple neural circuit functions:
 - `connects-to` → **[IL-6](../../03-molecular/il-6/README.md)** — Inflammatory progression: elevated IL-6 appears years before symptom onset in Huntington's disease, part of the systemic and central inflammation tracking with its course.
 - `connects-to` → **[IL-1β](../../03-molecular/il-1b/README.md)** — Microglial cytokine: IL-1β from microglia activated by mutant huntingtin amplifies the neuroinflammation that contributes to striatal neuronal loss in Huntington's disease.
 - `connects-to` → **[Norepinephrine](../../03-molecular/norepinephrine/README.md)** — Noradrenergic disruption: degeneration of brainstem noradrenergic neurons in Huntington's disease alters norepinephrine signalling, contributing to its mood and autonomic symptoms.
+- `connects-to` → **[CCL2](../../03-molecular/ccl2/README.md)** — Neuroinflammatory recruitment: CCL2 is elevated in Huntington's disease and recruits monocytes and activates microglia, contributing to the neuroinflammation that accompanies striatal degeneration.
+- `connects-to` → **[cGAS-STING](../../03-molecular/cgas-sting/README.md)** — DNA-sensing inflammation: mitochondrial dysfunction in Huntington's disease releases DNA that activates cGAS-STING, an emerging driver of the chronic neuroinflammatory response to mutant huntingtin.
+- `connects-to` → **[IGF-1](../../03-molecular/igf-1/README.md)** — Neurotrophic support: IGF-1 signalling is dysregulated in Huntington's disease and supports neuronal survival, an axis explored for neuroprotection alongside the loss of BDNF support to the striatum.

@@ -286,6 +286,15 @@ cross_links:
   - target: 01-human/03-molecular/ccl2
     relation: connects-to
     note: "Monocyte recruitment: CCL2 draws monocytes into the vessel wall and kidney in hypertension, fuelling the perivascular inflammation that stiffens arteries and raises pressure."
+  - target: 01-human/03-molecular/il-17a
+    relation: connects-to
+    note: "Th17 vascular inflammation: IL-17A from Th17 cells promotes vascular stiffening and renal sodium retention, a specific arm of the T-cell-driven immune contribution to hypertension."
+  - target: 01-human/03-molecular/adrenomedullin
+    relation: connects-to
+    note: "Counter-regulatory vasodilator: adrenomedullin is a potent vasodilator peptide that rises in hypertension as a compensatory brake on rising pressure and endothelial dysfunction."
+  - target: 01-human/03-molecular/prostaglandins
+    relation: connects-to
+    note: "Renal pressure-natriuresis: renal prostaglandins promote sodium excretion and vasodilation, which is why NSAIDs that block them raise blood pressure and blunt antihypertensive drugs."
 ---
 
 # Hypertension
@@ -466,6 +475,9 @@ Blood pressure is determined by: BP = Cardiac Output × Peripheral Vascular Resi
 - `connects-to` → **[IL-6](../../03-molecular/il-6/README.md)** — Vascular inflammation: IL-6 contributes to the immune and vascular inflammation increasingly recognised as a driver of hypertension and its end-organ damage.
 - `connects-to` → **[TNF-α](../../03-molecular/tnf-alpha/README.md)** — Immune hypertension: TNF-α from activated T cells and macrophages promotes vascular dysfunction and renal sodium retention, central to the emerging immune theory of hypertension.
 - `connects-to` → **[CCL2](../../03-molecular/ccl2/README.md)** — Monocyte recruitment: CCL2 draws monocytes into the vessel wall and kidney in hypertension, fuelling the perivascular inflammation that stiffens arteries and raises pressure.
+- `connects-to` → **[IL-17A](../../03-molecular/il-17a/README.md)** — Th17 vascular inflammation: IL-17A from Th17 cells promotes vascular stiffening and renal sodium retention, a specific arm of the T-cell-driven immune contribution to hypertension.
+- `connects-to` → **[Adrenomedullin](../../03-molecular/adrenomedullin/README.md)** — Counter-regulatory vasodilator: adrenomedullin is a potent vasodilator peptide that rises in hypertension as a compensatory brake on rising pressure and endothelial dysfunction.
+- `connects-to` → **[Prostaglandins](../../03-molecular/prostaglandins/README.md)** — Renal pressure-natriuresis: renal prostaglandins promote sodium excretion and vasodilation, which is why NSAIDs that block them raise blood pressure and blunt antihypertensive drugs.
 
 ## Pathology
 
