@@ -289,6 +289,15 @@ cross_links:
   - target: 01-human/03-molecular/tlr4
     relation: connects-to
     note: "Heme as a danger signal: free heme released by intravascular haemolysis acts as a TLR4 agonist, driving sterile inflammation and endothelial activation that compound the thrombo-inflammation of PNH."
+  - target: 01-human/03-molecular/ifn-gamma
+    relation: connects-to
+    note: "Immune-escape origin: PNH clones expand under the IFN-γ-driven autoimmune marrow attack of aplastic anaemia, where the GPI-anchor-deficient clone evades a T-cell assault that targets GPI-positive progenitors."
+  - target: 01-human/03-molecular/perforin
+    relation: connects-to
+    note: "Cytotoxic clonal selection: perforin-mediated CD8 T-cell killing of GPI-positive haematopoietic progenitors in the failing marrow gives the GPI-negative PNH clone its survival advantage, linking PNH to aplastic anaemia."
+  - target: 01-human/03-molecular/protein-c
+    relation: connects-to
+    note: "Hypercoagulable state: complement-driven platelet activation and impaired fibrinolysis create the PNH prothrombotic state, against which the anticoagulant protein C pathway is overwhelmed — the basis for thrombosis prophylaxis."
 ---
 
 # Paroxysmal Nocturnal Hemoglobinuria
@@ -471,6 +480,9 @@ When PIGA is mutated in an HSC → all progeny cells (RBCs, WBCs, platelets) of 
 - `connects-to` → **[PF4](../../03-molecular/pf4/README.md)** — Complement-driven thrombosis: complement attack on GPI-deficient platelets activates them to release PF4 and procoagulant microparticles, a key driver of the thrombosis that is PNH's leading cause of death.
 - `connects-to` → **[Ferroportin](../../03-molecular/ferroportin/README.md)** — Urinary iron loss: chronic intravascular haemolysis spills haemoglobin into the urine, and the resulting hemosiderinuria depletes body iron despite the haemolysis, often causing iron deficiency in PNH.
 - `connects-to` → **[TLR4](../../03-molecular/tlr4/README.md)** — Heme as a danger signal: free heme released by intravascular haemolysis acts as a TLR4 agonist, driving sterile inflammation and endothelial activation that compound the thrombo-inflammation of PNH.
+- `connects-to` → **[IFN-γ](../../03-molecular/ifn-gamma/README.md)** — PNH clones expand under the IFN-γ-driven autoimmune marrow attack of aplastic anemia, where the GPI-anchor-deficient clone evades a T-cell assault directed at GPI-positive progenitors—the immune-escape model explaining why PNH and aplastic anemia overlap.
+- `connects-to` → **[Perforin](../../03-molecular/perforin/README.md)** — Perforin-mediated CD8 T-cell killing of GPI-positive hematopoietic progenitors in the failing marrow gives the GPI-negative PNH clone its survival advantage, the cytotoxic mechanism behind the clonal selection that produces PNH.
+- `connects-to` → **[Protein C](../../03-molecular/protein-c/README.md)** — Complement-driven platelet activation and impaired fibrinolysis create the PNH prothrombotic state against which the anticoagulant protein C pathway is overwhelmed—the rationale for anticoagulation and complement blockade to prevent the thrombosis that kills.
 
 ---
 

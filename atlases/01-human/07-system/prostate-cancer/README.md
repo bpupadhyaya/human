@@ -295,6 +295,15 @@ cross_links:
   - target: 01-human/03-molecular/ccl2
     relation: connects-to
     note: "Macrophage homing: CCL2 secreted by prostate tumours recruits tumour-associated macrophages and supports metastatic seeding of bone, where it amplifies osteoclast activity and tumour growth."
+  - target: 01-human/03-molecular/cxcl12
+    relation: connects-to
+    note: "Osteotropic homing: CXCR4 on prostate-cancer cells follows CXCL12 gradients to the bone marrow, a key mechanism behind the bone-dominant metastatic pattern that defines advanced prostate cancer."
+  - target: 01-human/03-molecular/rad51
+    relation: connects-to
+    note: "HR repair and PARP: prostate cancers with BRCA/ATM mutations are homologous-recombination deficient, engaging RAD51-mediated repair whose loss confers synthetic-lethal sensitivity to PARP inhibitors like olaparib."
+  - target: 01-human/03-molecular/igf-1
+    relation: connects-to
+    note: "Growth-axis driver: IGF-1 signalling promotes prostate epithelial proliferation and survival, and higher circulating IGF-1 is associated with prostate-cancer risk and progression independent of androgens."
 ---
 
 # Prostate Cancer
@@ -514,6 +523,9 @@ cross_links:
 - `connects-to` → **[Endothelin-1](../../03-molecular/endothelin-1/README.md)** — Osteoblastic bone metastasis: prostate cancer cells secrete endothelin-1 that stimulates osteoblasts, driving the dense sclerotic bone metastases that distinguish it from most other cancers' lytic lesions.
 - `connects-to` → **[TERT](../../03-molecular/tert/README.md)** — Telomerase immortalisation: TERT reactivation maintains telomeres in prostate cancer cells, granting the unlimited replicative capacity that underlies progression to castration-resistant disease.
 - `connects-to` → **[CCL2](../../03-molecular/ccl2/README.md)** — Macrophage homing: CCL2 secreted by prostate tumours recruits tumour-associated macrophages and supports metastatic seeding of bone, where it amplifies osteoclast activity and tumour growth.
+- `connects-to` → **[CXCL12](../../03-molecular/cxcl12/README.md)** — CXCR4 on prostate-cancer cells follows CXCL12 gradients to the bone marrow, a key homing mechanism behind the bone-dominant metastatic pattern that defines advanced prostate cancer and drives its skeletal morbidity.
+- `connects-to` → **[RAD51](../../03-molecular/rad51/README.md)** — Prostate cancers with BRCA2 or ATM mutations are homologous-recombination deficient, engaging RAD51-mediated repair whose loss confers the synthetic-lethal sensitivity to PARP inhibitors (olaparib) now used in metastatic disease.
+- `connects-to` → **[IGF-1](../../03-molecular/igf-1/README.md)** — IGF-1 signaling promotes prostate epithelial proliferation and survival, and higher circulating IGF-1 is associated with prostate-cancer risk and progression independent of androgens—an alternate growth axis sustaining castration-resistant disease.
 
 [^beer-2014-prevail]: Beer TM, Armstrong AJ, Rathkopf D, et al. Enzalutamide in metastatic prostate cancer before chemotherapy. *N Engl J Med.* 2014;371(5):424-433. [doi:10.1056/NEJMoa1405095](https://doi.org/10.1056/NEJMoa1405095) · [PubMed 24881730](https://pubmed.ncbi.nlm.nih.gov/24881730/)
 [^sartor-2021-vision]: Sartor O, de Bono J, Chi KN, et al. Lutetium-PSMA-617 for metastatic castration-resistant prostate cancer. *N Engl J Med.* 2021;385(12):1091-1103. [doi:10.1056/NEJMoa2107322](https://doi.org/10.1056/NEJMoa2107322) · [PubMed 34161051](https://pubmed.ncbi.nlm.nih.gov/34161051/)
