@@ -284,6 +284,15 @@ cross_links:
   - target: 01-human/03-molecular/erythropoietin
     relation: connects-to
     note: "Renal endocrine hormone: erythropoietin from the kidney shows the endocrine system extends beyond classic glands, the hormone tying oxygen sensing to red-cell production."
+  - target: 01-human/03-molecular/angiotensin-ii
+    relation: connects-to
+    note: "RAAS effector hormone: angiotensin II is the active hormone of the renin-angiotensin-aldosterone system, raising blood pressure and driving aldosterone release in the endocrine control of fluid and salt."
+  - target: 01-human/03-molecular/adiponectin
+    relation: connects-to
+    note: "Adipose endocrine organ: adiponectin from fat exemplifies adipose tissue as an endocrine organ, its hormones signalling insulin sensitivity and energy balance to the rest of the body."
+  - target: 01-human/03-molecular/bnp
+    relation: connects-to
+    note: "Cardiac endocrine hormone: BNP secreted by the stretched heart shows even the cardiovascular system is endocrine, the natriuretic hormone that signals volume status to the kidney."
 ---
 
 # Endocrine System
@@ -530,6 +539,9 @@ The endocrine system coordinates fuel metabolism across multiple organs in respo
 - `connects-to` → **[Epinephrine](../../03-molecular/epinephrine/README.md)** — Adrenal medulla hormone: epinephrine is the endocrine system's fast-response hormone, released from the adrenal medulla to drive the fight-or-flight metabolic and cardiovascular surge.
 - `connects-to` → **[Dopamine](../../03-molecular/dopamine/README.md)** — Prolactin brake: hypothalamic dopamine tonically inhibits pituitary prolactin release, an endocrine control point whose loss—or dopamine-blocking drugs—causes hyperprolactinaemia.
 - `connects-to` → **[Erythropoietin](../../03-molecular/erythropoietin/README.md)** — Renal endocrine hormone: erythropoietin from the kidney shows the endocrine system extends beyond classic glands, the hormone tying oxygen sensing to red-cell production.
+- `connects-to` → **[Angiotensin II](../../03-molecular/angiotensin-ii/README.md)** — RAAS effector hormone: angiotensin II is the active hormone of the renin-angiotensin-aldosterone system, raising blood pressure and driving aldosterone release in the endocrine control of fluid and salt.
+- `connects-to` → **[Adiponectin](../../03-molecular/adiponectin/README.md)** — Adipose endocrine organ: adiponectin from fat exemplifies adipose tissue as an endocrine organ, its hormones signalling insulin sensitivity and energy balance to the rest of the body.
+- `connects-to` → **[BNP](../../03-molecular/bnp/README.md)** — Cardiac endocrine hormone: BNP secreted by the stretched heart shows even the cardiovascular system is endocrine, the natriuretic hormone that signals volume status to the kidney.
 
 ## Pathology
 

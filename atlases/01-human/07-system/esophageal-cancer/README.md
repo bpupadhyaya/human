@@ -286,6 +286,15 @@ cross_links:
   - target: 01-human/03-molecular/ezh2
     relation: connects-to
     note: "Epigenetic driver: EZH2 overexpression silences tumour-suppressor genes in oesophageal cancer, promoting proliferation and invasion as a candidate therapeutic target."
+  - target: 01-human/03-molecular/tert
+    relation: connects-to
+    note: "Telomerase immortalisation: TERT reactivation maintains telomeres in oesophageal cancer cells, granting the limitless replicative capacity that complements its p53 and cell-cycle lesions."
+  - target: 01-human/03-molecular/tgf-beta
+    relation: connects-to
+    note: "EMT and stroma: TGF-beta drives epithelial-mesenchymal transition and a desmoplastic, immunosuppressive stroma in oesophageal cancer, promoting the invasion and spread of advanced disease."
+  - target: 01-human/03-molecular/ccl2
+    relation: connects-to
+    note: "Macrophage recruitment: CCL2 draws tumour-associated macrophages into the oesophageal cancer microenvironment, supporting angiogenesis and immune evasion in this aggressive cancer."
 ---
 
 # Esophageal Cancer
@@ -513,6 +522,9 @@ T1a: Lamina propria/muscularis mucosae; T1b: Submucosa; T2: Muscularis propria; 
 - `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — PI3K/AKT growth: PIK3CA mutation activates AKT in oesophageal cancer, driving survival and proliferation and contributing to resistance to chemoradiotherapy.
 - `connects-to` → **[HIF-1α](../../03-molecular/hif-1alpha/README.md)** — Tumour hypoxia: HIF-1α stabilised in hypoxic oesophageal tumours drives angiogenesis and an invasive, treatment-resistant phenotype linked to poor prognosis.
 - `connects-to` → **[EZH2](../../03-molecular/ezh2/README.md)** — Epigenetic driver: EZH2 overexpression silences tumour-suppressor genes in oesophageal cancer, promoting proliferation and invasion as a candidate therapeutic target.
+- `connects-to` → **[TERT](../../03-molecular/tert/README.md)** — Telomerase immortalisation: TERT reactivation maintains telomeres in oesophageal cancer cells, granting the limitless replicative capacity that complements its p53 and cell-cycle lesions.
+- `connects-to` → **[TGF-beta](../../03-molecular/tgf-beta/README.md)** — EMT and stroma: TGF-beta drives epithelial-mesenchymal transition and a desmoplastic, immunosuppressive stroma in oesophageal cancer, promoting the invasion and spread of advanced disease.
+- `connects-to` → **[CCL2](../../03-molecular/ccl2/README.md)** — Macrophage recruitment: CCL2 draws tumour-associated macrophages into the oesophageal cancer microenvironment, supporting angiogenesis and immune evasion in this aggressive cancer.
 
 ---
 
