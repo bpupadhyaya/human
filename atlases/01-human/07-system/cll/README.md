@@ -286,6 +286,15 @@ cross_links:
   - target: 01-human/03-molecular/tnf-alpha
     relation: connects-to
     note: "Microenvironment cytokine: TNF-α produced within the CLL microenvironment acts as an autocrine and paracrine growth factor sustaining the malignant B-cell clone."
+  - target: 01-human/03-molecular/pik3ca
+    relation: connects-to
+    note: "PI3Kδ signalling: chronic B-cell-receptor signalling through PI3K (especially the δ isoform) sustains CLL cell survival, the target of idelalisib and duvelisib in the disease."
+  - target: 01-human/03-molecular/myc
+    relation: connects-to
+    note: "Richter transformation: MYC activation drives the transformation of CLL into aggressive diffuse large B-cell lymphoma (Richter syndrome), a feared and poor-prognosis evolution of the disease."
+  - target: 01-human/03-molecular/ccl2
+    relation: connects-to
+    note: "Nurse-like cells: CLL cells secrete CCL2 that recruits and polarises the nurse-like macrophages of the lymph-node niche, which in turn protect the leukaemic cells from apoptosis."
 ---
 
 # CLL
@@ -488,6 +497,9 @@ BCR cross-linking → LYN (SRC kinase) phosphorylates CD79a/b ITAMs → SYK recr
 - `connects-to` → **[EZH2](../../03-molecular/ezh2/README.md)** — Epigenetic driver: EZH2 overexpression silences tumour-suppressor genes in CLL and is implicated in its aggressive Richter transformation to diffuse large B-cell lymphoma.
 - `connects-to` → **[IL-6](../../03-molecular/il-6/README.md)** — Supportive microenvironment: IL-6 from the lymph-node and marrow niche supports CLL cell survival and proliferation, part of the protective stromal milieu the cells depend on.
 - `connects-to` → **[TNF-α](../../03-molecular/tnf-alpha/README.md)** — Microenvironment cytokine: TNF-α produced within the CLL microenvironment acts as an autocrine and paracrine growth factor sustaining the malignant B-cell clone.
+- `connects-to` → **[PIK3CA](../../03-molecular/pik3ca/README.md)** — PI3Kδ signalling: chronic B-cell-receptor signalling through PI3K (especially the δ isoform) sustains CLL cell survival, the target of idelalisib and duvelisib in the disease.
+- `connects-to` → **[MYC](../../03-molecular/myc/README.md)** — Richter transformation: MYC activation drives the transformation of CLL into aggressive diffuse large B-cell lymphoma (Richter syndrome), a feared and poor-prognosis evolution of the disease.
+- `connects-to` → **[CCL2](../../03-molecular/ccl2/README.md)** — Nurse-like cells: CLL cells secrete CCL2 that recruits and polarises the nurse-like macrophages of the lymph-node niche, which in turn protect the leukaemic cells from apoptosis.
 
 ---
 

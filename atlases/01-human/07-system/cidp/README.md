@@ -294,6 +294,15 @@ cross_links:
   - target: 01-human/03-molecular/nlrp3-inflammasome
     relation: connects-to
     note: "Innate amplification: NLRP3-inflammasome activation in macrophages matures the IL-1β that intensifies the autoimmune attack on peripheral myelin in CIDP."
+  - target: 01-human/03-molecular/ccl2
+    relation: connects-to
+    note: "Macrophage recruitment: CCL2 draws the macrophages that strip myelin from peripheral nerves in CIDP, the chemokine axis behind the macrophage-mediated demyelination that is its histological hallmark."
+  - target: 01-human/03-molecular/mhc-class-ii
+    relation: connects-to
+    note: "Antigen presentation: MHC class II presentation of peripheral-nerve myelin antigens to CD4 T cells initiates the autoimmune response that drives the demyelination of CIDP."
+  - target: 01-human/03-molecular/tgf-beta
+    relation: connects-to
+    note: "Regulatory failure: impaired TGF-beta-dependent regulatory T-cell function permits the sustained autoreactivity against peripheral myelin that distinguishes chronic CIDP from self-limited Guillain-Barré."
 ---
 
 # CIDP
@@ -528,6 +537,9 @@ IgG4 anti-NF155 or anti-CNTN1 disrupts this complex → paranodal loop detachmen
 - `connects-to` → **[IFN-γ](../../03-molecular/ifn-gamma/README.md)** — Th1 demyelination: IFN-γ from autoreactive T-helper cells activates macrophages that strip myelin from peripheral nerves, a central driver of the demyelination in CIDP.
 - `connects-to` → **[IL-1β](../../03-molecular/il-1b/README.md)** — Macrophage inflammation: IL-1β released by the activated macrophages that invade CIDP nerves amplifies the inflammatory demyelination of the disease.
 - `connects-to` → **[NLRP3 Inflammasome](../../03-molecular/nlrp3-inflammasome/README.md)** — Innate amplification: NLRP3-inflammasome activation in macrophages matures the IL-1β that intensifies the autoimmune attack on peripheral myelin in CIDP.
+- `connects-to` → **[CCL2](../../03-molecular/ccl2/README.md)** — Macrophage recruitment: CCL2 draws the macrophages that strip myelin from peripheral nerves in CIDP, the chemokine axis behind the macrophage-mediated demyelination that is its histological hallmark.
+- `connects-to` → **[MHC Class II](../../03-molecular/mhc-class-ii/README.md)** — Antigen presentation: MHC class II presentation of peripheral-nerve myelin antigens to CD4 T cells initiates the autoimmune response that drives the demyelination of CIDP.
+- `connects-to` → **[TGF-beta](../../03-molecular/tgf-beta/README.md)** — Regulatory failure: impaired TGF-beta-dependent regulatory T-cell function permits the sustained autoreactivity against peripheral myelin that distinguishes chronic CIDP from self-limited Guillain-Barré.
 
 ---
 
