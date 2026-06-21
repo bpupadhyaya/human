@@ -298,6 +298,15 @@ cross_links:
   - target: 01-human/03-molecular/insulin-receptor
     relation: connects-to
     note: "Receptor-level resistance: inflammatory and lipid signals impair insulin-receptor signalling in obese liver, muscle and fat, the molecular core of the insulin resistance that defines metabolic obesity."
+  - target: 01-human/03-molecular/endocannabinoid
+    relation: connects-to
+    note: "Appetite drive: an overactive endocannabinoid system stimulates CB1 receptors in the hypothalamus and adipose tissue to promote feeding and fat storage, the target of the CB1 antagonist rimonabant once used for obesity."
+  - target: 01-human/03-molecular/orexin
+    relation: connects-to
+    note: "Feeding and expenditure: hypothalamic orexin integrates arousal with feeding behaviour and energy expenditure, part of the central circuitry whose dysregulation contributes to the disordered appetite control of obesity."
+  - target: 01-human/03-molecular/tlr4
+    relation: connects-to
+    note: "Lipid-induced inflammation: saturated fatty acids directly activate TLR4 on adipocytes and macrophages, igniting the NF-κB-driven metaflammation that mechanistically links obesity to insulin resistance."
 ---
 
 # Obesity
@@ -531,6 +540,9 @@ This **metainflammation** mechanistically links obesity to type 2 diabetes, athe
 - `connects-to` → **[CCL2](../../03-molecular/ccl2/README.md)** — Adipose macrophage recruitment: CCL2 released by stressed adipocytes draws monocytes into expanding fat, where they become the crown-like macrophages that drive obesity's chronic low-grade inflammation.
 - `connects-to` → **[NLRP3 Inflammasome](../../03-molecular/nlrp3-inflammasome/README.md)** — Metabolic inflammasome: excess lipids and danger signals activate the NLRP3 inflammasome in adipose macrophages, releasing IL-1β that impairs insulin signalling and links obesity to type 2 diabetes.
 - `connects-to` → **[Insulin Receptor](../../03-molecular/insulin-receptor/README.md)** — Receptor-level resistance: inflammatory and lipid signals impair insulin-receptor signalling in obese liver, muscle and fat, the molecular core of the insulin resistance that defines metabolic obesity.
+- `connects-to` → **[Endocannabinoid](../../03-molecular/endocannabinoid/README.md)** — An overactive endocannabinoid system stimulates CB1 receptors in the hypothalamus and adipose tissue to promote feeding and fat storage—the target of the CB1 antagonist rimonabant, withdrawn for psychiatric effects but validating the pathway in obesity.
+- `connects-to` → **[Orexin](../../03-molecular/orexin/README.md)** — Hypothalamic orexin integrates arousal with feeding behavior and energy expenditure, part of the central circuitry whose dysregulation contributes to the disordered appetite control and reduced spontaneous activity of obesity.
+- `connects-to` → **[TLR4](../../03-molecular/tlr4/README.md)** — Saturated fatty acids directly activate TLR4 on adipocytes and macrophages, igniting the NF-κB-driven "metaflammation" that mechanistically links the excess lipid of obesity to systemic insulin resistance and type 2 diabetes.
 
 [^bluher-2019-obesity-review]: Blüher M. Obesity: global epidemiology and pathogenesis. *Nat Rev Endocrinol.* 2019;15(5):288-298. [doi:10.1038/s41574-019-0176-8](https://doi.org/10.1038/s41574-019-0176-8) · [PubMed 30814686](https://pubmed.ncbi.nlm.nih.gov/30814686/)
 [^wilding-2021-semaglutide-step1]: Wilding JPH, Batterham RL, Calanna S, et al. Once-weekly semaglutide in adults with overweight or obesity. *N Engl J Med.* 2021;384(11):989-1002. [doi:10.1056/NEJMoa2032183](https://doi.org/10.1056/NEJMoa2032183) · [PubMed 33567185](https://pubmed.ncbi.nlm.nih.gov/33567185/)

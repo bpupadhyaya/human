@@ -301,6 +301,15 @@ cross_links:
   - target: 01-human/03-molecular/mhc-class-ii
     relation: connects-to
     note: "Autoantigen presentation: MHC class II presentation of aquaporin-4 peptides primes the CD4 helper T cells that provide help for the pathogenic AQP4-IgG response in NMO."
+  - target: 01-human/03-molecular/ccl2
+    relation: connects-to
+    note: "Monocyte recruitment: CCL2 draws monocytes and macrophages into the AQP4-targeted astrocytic lesions of NMO, amplifying the inflammatory injury beyond the initial complement-mediated astrocyte destruction."
+  - target: 01-human/03-molecular/il-1b
+    relation: connects-to
+    note: "Granulocytic inflammation: IL-1β released by activated myeloid cells and the inflammasome recruits the neutrophils and eosinophils that give NMO lesions their characteristic granulocyte-rich pathology, distinct from MS."
+  - target: 01-human/03-molecular/tnf-alpha
+    relation: connects-to
+    note: "Astrocyte injury amplifier: TNF-α from activated microglia and macrophages compounds the astrocyte and oligodendrocyte damage in NMO lesions, contributing to the severe, often necrotic tissue destruction of the disease."
 ---
 
 # NMOSD
@@ -541,6 +550,9 @@ NMOSD impairs CNS function through three attack-related mechanisms:
 - `connects-to` → **[IL-5](../../03-molecular/il-5/README.md)** — Eosinophilic lesions: IL-5 recruits eosinophils, whose granule proteins are a distinctive feature of NMO lesions, adding eosinophil-mediated astrocyte injury that helps distinguish NMO from multiple sclerosis.
 - `connects-to` → **[TGF-β](../../03-molecular/tgf-beta/README.md)** — Th17/Treg imbalance: a TGF-beta- and IL-6-shaped shift away from regulatory T cells toward pathogenic Th17 responses helps license the AQP4-reactive autoimmunity that drives NMO.
 - `connects-to` → **[MHC Class II](../../03-molecular/mhc-class-ii/README.md)** — Autoantigen presentation: MHC class II presentation of aquaporin-4 peptides primes the CD4 helper T cells that provide help for the pathogenic AQP4-IgG response in NMO.
+- `connects-to` → **[CCL2](../../03-molecular/ccl2/README.md)** — CCL2 draws monocytes and macrophages into the AQP4-targeted astrocytic lesions of NMO, amplifying the inflammatory injury beyond the initial complement-mediated astrocyte destruction that defines the disease.
+- `connects-to` → **[IL-1β](../../03-molecular/il-1b/README.md)** — IL-1β released by activated myeloid cells and the inflammasome recruits the neutrophils and eosinophils that give NMO lesions their characteristic granulocyte-rich pathology, a feature distinguishing them from the lesions of multiple sclerosis.
+- `connects-to` → **[TNF-α](../../03-molecular/tnf-alpha/README.md)** — TNF-α from activated microglia and macrophages compounds the astrocyte and oligodendrocyte damage in NMO lesions, contributing to the severe, often necrotic tissue destruction that drives the disabling attacks.
 
 [^wingerchuk-2015-nmosd-criteria]: Wingerchuk DM, Banwell B, Bennett JL, et al. International consensus diagnostic criteria for neuromyelitis optica spectrum disorders. *Neurology.* 2015;85(2):177-189. [doi:10.1212/WNL.0000000000001729](https://doi.org/10.1212/WNL.0000000000001729) · [PubMed 26092914](https://pubmed.ncbi.nlm.nih.gov/26092914/)
 [^pittock-2019-eculizumab-prevent]: Pittock SJ, Berthele A, Fujihara K, et al. Eculizumab in Aquaporin-4-Positive Neuromyelitis Optica Spectrum Disorder. *N Engl J Med.* 2019;381(7):614-625. [doi:10.1056/NEJMoa1900866](https://doi.org/10.1056/NEJMoa1900866) · [PubMed 31050279](https://pubmed.ncbi.nlm.nih.gov/31050279/)
