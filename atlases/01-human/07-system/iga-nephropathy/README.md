@@ -286,6 +286,15 @@ cross_links:
   - target: 01-human/03-molecular/hif-1alpha
     relation: connects-to
     note: "Tubulointerstitial hypoxia: as IgA nephropathy scars the kidney, HIF-1α stabilised in the hypoxic tubulointerstitium drives the fibrosis that predicts progression to renal failure."
+  - target: 01-human/03-molecular/factor-h
+    relation: connects-to
+    note: "Alternative-pathway complement: factor H regulates the alternative complement pathway that is activated by mesangial IgA1 deposits, and CFH-region variants are genetic modifiers of IgA nephropathy."
+  - target: 01-human/03-molecular/mhc-class-ii
+    relation: connects-to
+    note: "HLA genetic risk: MHC class II (HLA-DQ/DR) loci are the strongest genetic associations of IgA nephropathy, linking antigen presentation to the dysregulated mucosal immunity behind the disease."
+  - target: 01-human/03-molecular/s100a8-a9
+    relation: connects-to
+    note: "Neutrophil alarmin: S100A8/A9 from neutrophils infiltrating the inflamed glomerulus amplifies the mesangioproliferative injury of IgA nephropathy and serves as a marker of activity."
 ---
 
 # IgA Nephropathy
@@ -459,6 +468,9 @@ IgAN is a **multi-hit disease** described by the Oxford Four-Hit Model:
 - `connects-to` → **[TNF-α](../../03-molecular/tnf-alpha/README.md)** — Inflammatory amplification: TNF-α released in the inflamed glomerulus amplifies the mesangial and tubulointerstitial injury that drives IgA nephropathy toward kidney failure.
 - `connects-to` → **[NLRP3 Inflammasome](../../03-molecular/nlrp3-inflammasome/README.md)** — Inflammasome activation: complement and immune-complex deposition activate the NLRP3 inflammasome in IgA nephropathy, whose IL-1β output worsens glomerular inflammation.
 - `connects-to` → **[HIF-1α](../../03-molecular/hif-1alpha/README.md)** — Tubulointerstitial hypoxia: as IgA nephropathy scars the kidney, HIF-1α stabilised in the hypoxic tubulointerstitium drives the fibrosis that predicts progression to renal failure.
+- `connects-to` → **[Factor H](../../03-molecular/factor-h/README.md)** — Alternative-pathway complement: factor H regulates the alternative complement pathway that is activated by mesangial IgA1 deposits, and CFH-region variants are genetic modifiers of IgA nephropathy.
+- `connects-to` → **[MHC Class II](../../03-molecular/mhc-class-ii/README.md)** — HLA genetic risk: MHC class II (HLA-DQ/DR) loci are the strongest genetic associations of IgA nephropathy, linking antigen presentation to the dysregulated mucosal immunity behind the disease.
+- `connects-to` → **[S100A8/A9](../../03-molecular/s100a8-a9/README.md)** — Neutrophil alarmin: S100A8/A9 from neutrophils infiltrating the inflamed glomerulus amplifies the mesangioproliferative injury of IgA nephropathy and serves as a marker of activity.
 
 ---
 

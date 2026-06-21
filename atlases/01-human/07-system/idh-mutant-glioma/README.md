@@ -286,6 +286,15 @@ cross_links:
   - target: 01-human/03-molecular/pdgf
     relation: connects-to
     note: "Glioma growth factor: PDGF signalling supports the proliferation and stromal recruitment of IDH-mutant gliomas, an autocrine driver of these astrocytic and oligodendroglial tumours."
+  - target: 01-human/03-molecular/rad51
+    relation: connects-to
+    note: "Oncometabolite BRCAness: 2-hydroxyglutarate from mutant IDH impairs homologous-recombination repair (a RAD51-dependent 'BRCAness'), creating sensitivity to PARP inhibitors and DNA-damaging therapy."
+  - target: 01-human/03-molecular/ccl2
+    relation: connects-to
+    note: "Myeloid recruitment: CCL2 recruits microglia and macrophages into IDH-mutant gliomas, though the 2-HG-rich microenvironment is less myeloid-inflamed than IDH-wildtype glioblastoma."
+  - target: 01-human/03-molecular/erk1-2
+    relation: connects-to
+    note: "RTK-MAPK proliferation: RAS-RAF-ERK signalling downstream of growth-factor receptors contributes to IDH-mutant glioma proliferation and intensifies with malignant transformation."
 ---
 
 # IDH-Mutant Glioma
@@ -507,6 +516,9 @@ IDH-mutant glioma with MGMT methylation shows strong alkylating agent sensitivit
 - `connects-to` → **[CDK4/6](../../03-molecular/cdk4-6/README.md)** — Cell-cycle drive: CDKN2A/B homozygous deletion—a marker of grade-4 IDH-mutant glioma—unleashes CDK4/6, accelerating the cell cycle and worsening prognosis.
 - `connects-to` → **[Cyclin D1](../../03-molecular/cyclin-d1/README.md)** — G1 progression: cyclin D1-CDK4/6 activity drives IDH-mutant glioma cells through the G1 checkpoint, the proliferative output that intensifies with malignant progression.
 - `connects-to` → **[PDGF](../../03-molecular/pdgf/README.md)** — Glioma growth factor: PDGF signalling supports the proliferation and stromal recruitment of IDH-mutant gliomas, an autocrine driver of these astrocytic and oligodendroglial tumours.
+- `connects-to` → **[RAD51](../../03-molecular/rad51/README.md)** — Oncometabolite BRCAness: 2-hydroxyglutarate from mutant IDH impairs homologous-recombination repair (a RAD51-dependent 'BRCAness'), creating sensitivity to PARP inhibitors and DNA-damaging therapy.
+- `connects-to` → **[CCL2](../../03-molecular/ccl2/README.md)** — Myeloid recruitment: CCL2 recruits microglia and macrophages into IDH-mutant gliomas, though the 2-HG-rich microenvironment is less myeloid-inflamed than IDH-wildtype glioblastoma.
+- `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — RTK-MAPK proliferation: RAS-RAF-ERK signalling downstream of growth-factor receptors contributes to IDH-mutant glioma proliferation and intensifies with malignant transformation.
 
 [^mellinghoff-2023-vorasidenib-lgg]: Mellinghoff IK, van den Bent MJ, Blumenthal DT, et al. Vorasidenib in IDH1- or IDH2-mutant low-grade glioma. *N Engl J Med.* 2023;389(7):589-601. [doi:10.1056/NEJMoa2304194](https://doi.org/10.1056/NEJMoa2304194) · [PubMed 37272530](https://pubmed.ncbi.nlm.nih.gov/37272530/)
 [^jiao-2012-atrx-glioma]: Jiao Y, Killela PJ, Reitman ZJ, et al. Frequent ATRX, CIC, FUBP1 and IDH mutations refine the classification of malignant gliomas. *Oncotarget.* 2012;3(7):709-722. [doi:10.18632/oncotarget.588](https://doi.org/10.18632/oncotarget.588) · [PubMed 22869205](https://pubmed.ncbi.nlm.nih.gov/22869205/)
