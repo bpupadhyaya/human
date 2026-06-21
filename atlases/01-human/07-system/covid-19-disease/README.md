@@ -295,6 +295,15 @@ cross_links:
   - target: 01-human/03-molecular/hif-1alpha
     relation: connects-to
     note: "Hypoxic amplification: the profound hypoxia of COVID-19 pneumonia stabilises HIF-1α, which further amplifies inflammation and the prothrombotic state in a vicious cycle."
+  - target: 01-human/03-molecular/jak1-2
+    relation: connects-to
+    note: "Cytokine-signalling blockade: the hyperinflammatory cytokines of severe COVID-19 signal through JAK-STAT, the rationale for baricitinib (a JAK1/2 inhibitor) which reduces mortality in hospitalised patients."
+  - target: 01-human/03-molecular/von-willebrand-factor
+    relation: connects-to
+    note: "Endotheliopathy: SARS-CoV-2 injury to endothelium releases ultra-large von Willebrand factor multimers, driving the platelet-rich microthrombosis that underlies the characteristic COVID-19 coagulopathy."
+  - target: 01-human/03-molecular/tlr4
+    relation: connects-to
+    note: "Innate hyperactivation: the SARS-CoV-2 spike protein can engage TLR4 on innate immune cells, triggering the NF-κB-driven cytokine output that contributes to the hyperinflammation of severe COVID-19."
 ---
 
 # COVID-19 Disease
@@ -452,6 +461,9 @@ Symptoms persisting >4 weeks: fatigue (most common), cognitive impairment ("brai
 - `connects-to` → **[IFN-γ](../../03-molecular/ifn-gamma/README.md)** — Antiviral and immunopathic: IFN-γ from T and NK cells helps clear SARS-CoV-2 but, when dysregulated, drives the macrophage activation and hyperinflammation of severe COVID-19.
 - `connects-to` → **[CCL2](../../03-molecular/ccl2/README.md)** — Monocyte recruitment: CCL2 draws monocytes into the infected lung in COVID-19, where they fuel the alveolar inflammation and damage of severe disease.
 - `connects-to` → **[HIF-1α](../../03-molecular/hif-1alpha/README.md)** — Hypoxic amplification: the profound hypoxia of COVID-19 pneumonia stabilises HIF-1α, which further amplifies inflammation and the prothrombotic state in a vicious cycle.
+- `connects-to` → **[JAK1/2](../../03-molecular/jak1-2/README.md)** — The hyperinflammatory cytokines of severe COVID-19 signal through JAK-STAT, the rationale for baricitinib—a JAK1/2 inhibitor that reduces mortality in hospitalized patients, validating cytokine-signaling blockade in the disease.
+- `connects-to` → **[von Willebrand factor](../../03-molecular/von-willebrand-factor/README.md)** — SARS-CoV-2 injury to the endothelium releases ultra-large von Willebrand factor multimers, driving the platelet-rich microthrombosis that underlies the characteristic COVID-19 coagulopathy and elevated thrombotic risk.
+- `connects-to` → **[TLR4](../../03-molecular/tlr4/README.md)** — The SARS-CoV-2 spike protein can engage TLR4 on innate immune cells, triggering the NF-κB-driven cytokine output that contributes to the hyperinflammation distinguishing severe COVID-19 from mild infection.
 
 ## Pathology
 

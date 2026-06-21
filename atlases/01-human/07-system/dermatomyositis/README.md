@@ -301,6 +301,15 @@ cross_links:
   - target: 01-human/03-molecular/nlrp3-inflammasome
     relation: connects-to
     note: "Inflammasome activation: NLRP3-inflammasome activation matures the IL-1β that amplifies the muscle inflammation of dermatomyositis."
+  - target: 01-human/03-molecular/cd20
+    relation: connects-to
+    note: "B-cell depletion: rituximab targets CD20+ B cells in refractory dermatomyositis, cutting production of the myositis-specific autoantibodies and antigen presentation that sustain the autoimmune attack on muscle and skin."
+  - target: 01-human/03-molecular/fcrn
+    relation: connects-to
+    note: "Antibody recycling: the neonatal Fc receptor protects pathogenic IgG from degradation, the mechanism by which high-dose IVIG (approved for dermatomyositis) saturates FcRn and accelerates autoantibody clearance."
+  - target: 01-human/03-molecular/ccl2
+    relation: connects-to
+    note: "Muscle infiltration: CCL2 recruits monocytes into the perivascular and perifascicular regions of dermatomyositis muscle, building the inflammatory infiltrate that accompanies the complement-mediated capillary injury."
 ---
 ---
 
@@ -521,6 +530,9 @@ DM carries a ~3–7× elevated cancer risk overall. Anti-TIF1γ (TRIM33) suppres
 - `connects-to` → **[TNF-α](../../03-molecular/tnf-alpha/README.md)** — Inflammatory cytokine: TNF-α contributes to the muscle and skin inflammation of dermatomyositis and to the systemic features of the disease.
 - `connects-to` → **[IL-17A](../../03-molecular/il-17a/README.md)** — Th17 contribution: IL-17 participates in the inflammatory infiltrate of dermatomyositis muscle and skin, adding to the dominant interferon response.
 - `connects-to` → **[NLRP3 Inflammasome](../../03-molecular/nlrp3-inflammasome/README.md)** — Inflammasome activation: NLRP3-inflammasome activation matures the IL-1β that amplifies the muscle inflammation of dermatomyositis.
+- `connects-to` → **[CD20](../../03-molecular/cd20/README.md)** — Rituximab targets CD20+ B cells in refractory dermatomyositis, cutting the production of myositis-specific autoantibodies and the antigen presentation that sustain the autoimmune attack on muscle capillaries and skin.
+- `connects-to` → **[FcRn](../../03-molecular/fcrn/README.md)** — The neonatal Fc receptor protects pathogenic IgG from degradation, the mechanism by which high-dose IVIG—an approved dermatomyositis therapy—saturates FcRn to accelerate autoantibody clearance, now also targeted directly by FcRn antagonists.
+- `connects-to` → **[CCL2](../../03-molecular/ccl2/README.md)** — CCL2 recruits monocytes into the perivascular and perifascicular regions of dermatomyositis muscle, building the inflammatory infiltrate that accompanies the complement-mediated capillary injury characteristic of the disease.
 
 [^bohan-peter-1975-dm-criteria]: Bohan A, Peter JB. Polymyositis and dermatomyositis. *N Engl J Med.* 1975;292(7):344-347. [doi:10.1056/NEJM197502132920706](https://doi.org/10.1056/NEJM197502132920706) · [PubMed 1090839](https://pubmed.ncbi.nlm.nih.gov/1090839/)
 [^lundberg-2021-iim-classification]: Lundberg IE, et al. 2017 EULAR/ACR classification criteria for adult and juvenile idiopathic inflammatory myopathies. *Arthritis Rheumatol.* 2017;69(12):2271-2282. [doi:10.1002/art.40320](https://doi.org/10.1002/art.40320) · [PubMed 29106061](https://pubmed.ncbi.nlm.nih.gov/29106061/)
