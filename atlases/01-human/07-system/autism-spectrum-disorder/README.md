@@ -301,6 +301,15 @@ cross_links:
   - target: 01-human/03-molecular/arid1a
     relation: connects-to
     note: "Chromatin-remodeling risk: de novo mutations in chromatin regulators like ARID1A are a leading genetic class in autism, disrupting the gene-expression programmes that build neural circuits."
+  - target: 01-human/03-molecular/tlr4
+    relation: connects-to
+    note: "Maternal immune activation: gestational infection signalling through TLR4 raises offspring autism risk in human studies and animal models, the innate-immune trigger of the maternal-immune-activation hypothesis of ASD."
+  - target: 01-human/03-molecular/gsk-3b
+    relation: connects-to
+    note: "Convergent signalling node: GSK-3β is dysregulated in Fragile X syndrome and other syndromic autism, a kinase governing synaptic plasticity whose inhibition (e.g. by lithium) rescues phenotypes in ASD models."
+  - target: 01-human/03-molecular/ntrk
+    relation: connects-to
+    note: "Synaptic neurotrophin signalling: BDNF acting through its TrkB receptor shapes the synapse formation and plasticity disrupted in autism, linking neurotrophin signalling to the connectivity differences of the disorder."
 ---
 
 # Autism Spectrum Disorder
@@ -532,6 +541,9 @@ The neural basis of ASD social deficits involves dysfunction of the **social bra
 - `connects-to` → **[Serotonin Transporter](../../03-molecular/serotonin-transporter/README.md)** — Hyperserotonemia: elevated whole-blood serotonin tied to serotonin-transporter function is the oldest and most replicated biomarker in autism, implicating serotonergic development in the disorder.
 - `connects-to` → **[TSC1-TSC2](../../03-molecular/tsc1-tsc2/README.md)** — mTOR-pathway autism: loss of the TSC1-TSC2 complex in tuberous sclerosis unleashes mTOR and causes a high rate of autism, a defining example of the synaptic-overgrowth mechanism in syndromic ASD.
 - `connects-to` → **[ARID1A](../../03-molecular/arid1a/README.md)** — Chromatin-remodeling risk: de novo mutations in chromatin regulators like ARID1A are a leading genetic class in autism, disrupting the gene-expression programmes that build neural circuits.
+- `connects-to` → **[TLR4](../../03-molecular/tlr4/README.md)** — Gestational infection signaling through TLR4 raises offspring autism risk in both human studies and animal models—the innate-immune trigger central to the maternal-immune-activation hypothesis that links prenatal inflammation to ASD.
+- `connects-to` → **[GSK-3β](../../03-molecular/gsk-3b/README.md)** — GSK-3β is dysregulated in Fragile X syndrome and other syndromic autism, a kinase governing synaptic plasticity whose inhibition (e.g. by lithium) rescues phenotypes in ASD models—a convergent signaling node across genetic causes.
+- `connects-to` → **[NTRK / TrkB](../../03-molecular/ntrk/README.md)** — BDNF acting through its TrkB receptor shapes the synapse formation and plasticity disrupted in autism, linking neurotrophin signaling to the altered brain connectivity that underlies the disorder's core features.
 
 [^maenner-2023-asd-prevalence]: Maenner MJ, Warren Z, Williams AR, et al. Prevalence and characteristics of autism spectrum disorder among children aged 8 years — ADDM Network, 2020. *MMWR Surveill Summ.* 2023;72(2):1-14. [doi:10.15585/mmwr.ss7202a1](https://doi.org/10.15585/mmwr.ss7202a1) · [PubMed 36952216](https://pubmed.ncbi.nlm.nih.gov/36952216/)
 [^lord-2020-asd-review]: Lord C, Elsabbagh M, Baird G, Veenstra-Vanderweele J. Autism spectrum disorder. *Lancet.* 2018;392(10146):508-520. [doi:10.1016/S0140-6736(18)31129-2](https://doi.org/10.1016/S0140-6736(18)31129-2) · [PubMed 30078460](https://pubmed.ncbi.nlm.nih.gov/30078460/)

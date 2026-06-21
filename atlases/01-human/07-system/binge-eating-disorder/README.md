@@ -279,6 +279,15 @@ cross_links:
   - target: 01-human/03-molecular/crh
     relation: connects-to
     note: "Stress-driven bingeing: CRH-mediated HPA-axis activation by stress is a major trigger of binge episodes, linking the stress response to the loss of control that defines the disorder."
+  - target: 01-human/03-molecular/estrogen
+    relation: connects-to
+    note: "Cyclic modulation: binge frequency varies across the menstrual cycle, with low-estrogen/high-progesterone phases associated with more bingeing, implicating ovarian-hormone modulation of reward and appetite in binge eating disorder."
+  - target: 01-human/03-molecular/histamine
+    relation: connects-to
+    note: "Histaminergic appetite: central H1 histamine signalling suppresses appetite, and its blockade (as by some antipsychotics) provokes binge-like overeating, implicating the histaminergic system in the appetite dysregulation of the disorder."
+  - target: 01-human/03-molecular/gaba
+    relation: connects-to
+    note: "Inhibitory control: GABAergic tone in the prefrontal-striatal circuits underlies impulse control over eating, and its deficiency contributes to the loss of control that defines a binge episode."
 sources:
   - id: american-psychiatric-2013-bed-dsm5
     type: clinical-guideline
@@ -527,6 +536,9 @@ BED is among the most psychiatrically comorbid of all eating disorders:
 - `connects-to` → **[Serotonin Transporter](../../03-molecular/serotonin-transporter/README.md)** — Serotonergic impulse control: serotonin-transporter function underlies the impulsivity of binge-eating disorder, and SSRIs are among the medications used to reduce binge frequency.
 - `connects-to` → **[Glutamate](../../03-molecular/glutamate/README.md)** — Cortical control of bingeing: glutamatergic signalling in cortico-striatal circuits governs inhibitory control over eating, the system topiramate dampens to reduce binge episodes.
 - `connects-to` → **[CRH](../../03-molecular/crh/README.md)** — Stress-driven bingeing: CRH-mediated HPA-axis activation by stress is a major trigger of binge episodes, linking the stress response to the loss of control that defines the disorder.
+- `connects-to` → **[Estrogen](../../03-molecular/estrogen/README.md)** — Binge frequency varies across the menstrual cycle, with low-estrogen/high-progesterone phases associated with more bingeing—implicating ovarian-hormone modulation of reward and appetite in binge eating disorder.
+- `connects-to` → **[Histamine](../../03-molecular/histamine/README.md)** — Central H1 histamine signaling suppresses appetite, and its blockade (as by some antipsychotics) provokes binge-like overeating, implicating the histaminergic system in the appetite dysregulation underlying the disorder.
+- `connects-to` → **[GABA](../../03-molecular/gaba/README.md)** — GABAergic tone in the prefrontal-striatal circuits underlies impulse control over eating, and reduced inhibitory signaling contributes to the loss of control that defines a binge episode despite the intent to stop.
 
 [^american-psychiatric-2013-bed-dsm5]: American Psychiatric Association. Binge Eating Disorder (307.51). In: *Diagnostic and Statistical Manual of Mental Disorders, 5th ed.* Arlington, VA: APA; 2013. [doi:10.1176/appi.books.9780890425596](https://doi.org/10.1176/appi.books.9780890425596)
 [^mccallum-2003-bed-review]: McCallum K, Bruton AM. Binge eating disorder: eating disorder or somatic syndrome? *Prim Care Companion J Clin Psychiatry.* 2003;5(Suppl 4):20-25. [PubMed 15213784](https://pubmed.ncbi.nlm.nih.gov/15213784/)
