@@ -292,6 +292,15 @@ cross_links:
   - target: 01-human/03-molecular/ccl2
     relation: connects-to
     note: "Monocyte recruitment: CCL2 draws monocytes into the inflamed gut wall in IBD, replenishing the macrophages that sustain chronic intestinal inflammation."
+  - target: 01-human/03-molecular/mhc-class-ii
+    relation: connects-to
+    note: "HLA genetic risk: MHC class II HLA loci are major genetic associations of IBD, presenting gut microbial and self antigens to the CD4 T cells that drive the chronic mucosal immune response."
+  - target: 01-human/03-molecular/pdgf
+    relation: connects-to
+    note: "Stricturing fibrosis: PDGF drives the intestinal fibroblast and myofibroblast proliferation behind the fibrotic strictures that complicate Crohn's disease and require surgery."
+  - target: 01-human/03-molecular/secretory-iga
+    relation: connects-to
+    note: "Mucosal antibody barrier: dysregulated secretory IgA at the gut surface alters the microbiota and barrier homeostasis whose breakdown underlies the aberrant immune response of IBD."
 ---
 
 # Inflammatory Bowel Disease
@@ -511,6 +520,9 @@ IBD is a complex polygenic disease with >240 susceptibility loci (GWAS):
 - `connects-to` → **[IFN-γ](../../03-molecular/ifn-gamma/README.md)** — Th1 transmural inflammation: IFN-γ from Th1 cells drives the transmural, granulomatous inflammation characteristic of Crohn's disease, damaging the intestinal wall.
 - `connects-to` → **[IL-1β](../../03-molecular/il-1b/README.md)** — Inflammasome injury: IL-1β from inflammasome-activated macrophages amplifies the mucosal inflammation of IBD, with the IL-1/IL-1β axis an emerging therapeutic target.
 - `connects-to` → **[CCL2](../../03-molecular/ccl2/README.md)** — Monocyte recruitment: CCL2 draws monocytes into the inflamed gut wall in IBD, replenishing the macrophages that sustain chronic intestinal inflammation.
+- `connects-to` → **[MHC Class II](../../03-molecular/mhc-class-ii/README.md)** — HLA genetic risk: MHC class II HLA loci are major genetic associations of IBD, presenting gut microbial and self antigens to the CD4 T cells that drive the chronic mucosal immune response.
+- `connects-to` → **[PDGF](../../03-molecular/pdgf/README.md)** — Stricturing fibrosis: PDGF drives the intestinal fibroblast and myofibroblast proliferation behind the fibrotic strictures that complicate Crohn's disease and require surgery.
+- `connects-to` → **[Secretory IgA](../../03-molecular/secretory-iga/README.md)** — Mucosal antibody barrier: dysregulated secretory IgA at the gut surface alters the microbiota and barrier homeostasis whose breakdown underlies the aberrant immune response of IBD.
 
 [^ng-2017-ibd-epidemiology]: Ng SC, Shi HY, Hamidi N, et al. Worldwide incidence and prevalence of inflammatory bowel disease in the 21st century: a systematic review of population-based studies. *Lancet.* 2018;390(10114):2769-2778. [doi:10.1016/S0140-6736(17)32448-0](https://doi.org/10.1016/S0140-6736(17)32448-0) · [PubMed 29050646](https://pubmed.ncbi.nlm.nih.gov/29050646/)
 [^sandborn-2012-vedolizumab]: Feagan BG, Rutgeerts P, Sands BE, et al. Vedolizumab as induction and maintenance therapy for ulcerative colitis. *N Engl J Med.* 2013;369(8):699-710. [doi:10.1056/NEJMoa1215734](https://doi.org/10.1056/NEJMoa1215734) · [PubMed 23964932](https://pubmed.ncbi.nlm.nih.gov/23964932/)

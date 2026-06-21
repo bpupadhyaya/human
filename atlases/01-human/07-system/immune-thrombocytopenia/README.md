@@ -294,6 +294,15 @@ cross_links:
   - target: 01-human/03-molecular/tnf-alpha
     relation: connects-to
     note: "Immune activation: elevated TNF-α reflects the inflammatory immune dysregulation of ITP, promoting macrophage-mediated platelet destruction."
+  - target: 01-human/03-molecular/pf4
+    relation: connects-to
+    note: "Platelet activation and antigen: PF4 from activated platelets marks the platelet activation in ITP and anchors the antigenic overlap with PF4-driven HIT and VITT that the disorder is distinguished from."
+  - target: 01-human/03-molecular/il-2
+    relation: connects-to
+    note: "Regulatory T-cell deficit: defective IL-2-dependent regulatory T cells permit the antiplatelet autoimmunity of ITP, and low-dose IL-2 to expand Tregs is under investigation as therapy."
+  - target: 01-human/03-molecular/mhc-class-ii
+    relation: connects-to
+    note: "Autoantigen presentation: MHC class II presentation of platelet-glycoprotein peptides to CD4 T cells licenses the B cells that make the anti-GPIIb/IIIa autoantibodies of ITP."
 ---
 
 # Immune Thrombocytopenia
@@ -521,6 +530,9 @@ ITP in pregnancy carries risk of neonatal thrombocytopenia (maternal IgG crosses
 - `connects-to` → **[Perforin](../../03-molecular/perforin/README.md)** — Cytotoxic platelet lysis: beyond antibody-mediated clearance, CD8 cytotoxic T cells use perforin to directly lyse platelets and megakaryocytes in ITP.
 - `connects-to` → **[IL-6](../../03-molecular/il-6/README.md)** — Inflammatory dysregulation: IL-6 contributes to the loss of immune tolerance in ITP, supporting the autoreactive T- and B-cell responses against platelets.
 - `connects-to` → **[TNF-α](../../03-molecular/tnf-alpha/README.md)** — Immune activation: elevated TNF-α reflects the inflammatory immune dysregulation of ITP, promoting macrophage-mediated platelet destruction.
+- `connects-to` → **[PF4](../../03-molecular/pf4/README.md)** — Platelet activation and antigen: PF4 from activated platelets marks the platelet activation in ITP and anchors the antigenic overlap with PF4-driven HIT and VITT that the disorder is distinguished from.
+- `connects-to` → **[IL-2](../../03-molecular/il-2/README.md)** — Regulatory T-cell deficit: defective IL-2-dependent regulatory T cells permit the antiplatelet autoimmunity of ITP, and low-dose IL-2 to expand Tregs is under investigation as therapy.
+- `connects-to` → **[MHC Class II](../../03-molecular/mhc-class-ii/README.md)** — Autoantigen presentation: MHC class II presentation of platelet-glycoprotein peptides to CD4 T cells licenses the B cells that make the anti-GPIIb/IIIa autoantibodies of ITP.
 
 [^cines-2002-itp-review]: Cines DB, Blanchette VS. Immune thrombocytopenic purpura. *N Engl J Med.* 2002;346(13):995-1008. [doi:10.1056/NEJMra010532](https://doi.org/10.1056/NEJMra010532) · [PubMed 11919310](https://pubmed.ncbi.nlm.nih.gov/11919310/)
 [^neunert-2019-ash-itp-guidelines]: Neunert C, et al. American Society of Hematology 2019 guidelines for immune thrombocytopenia. *Blood Adv.* 2019;3(23):3829-3866. [doi:10.1182/bloodadvances.2019000966](https://doi.org/10.1182/bloodadvances.2019000966) · [PubMed 31794604](https://pubmed.ncbi.nlm.nih.gov/31794604/)
