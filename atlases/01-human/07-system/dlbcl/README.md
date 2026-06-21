@@ -286,6 +286,15 @@ cross_links:
   - target: 01-human/03-molecular/hif-1alpha
     relation: connects-to
     note: "Metabolic adaptation: HIF-1α and MYC drive the glycolytic metabolism of the rapidly proliferating DLBCL, supporting growth in the hypoxic lymph-node microenvironment."
+  - target: 01-human/03-molecular/pik3ca
+    relation: connects-to
+    note: "BCR-PI3K signalling: chronic active B-cell-receptor signalling through PI3K sustains the ABC subtype of DLBCL, cooperating with MYD88 and NF-κB activation to drive survival."
+  - target: 01-human/03-molecular/tert
+    relation: connects-to
+    note: "Telomerase immortalisation: TERT activation maintains telomeres in DLBCL cells, granting the limitless replicative capacity that underlies the rapid growth of this aggressive lymphoma."
+  - target: 01-human/03-molecular/ccl2
+    relation: connects-to
+    note: "Tumour macrophages: CCL2 recruits tumour-associated macrophages into the DLBCL microenvironment, whose abundance carries prognostic weight and shapes response to immunochemotherapy."
 ---
 
 # Diffuse Large B-Cell Lymphoma
@@ -497,6 +506,9 @@ DLBCL is an aggressive malignancy of mature B cells. The normal equivalents are 
 - `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — PI3K/AKT survival: chronic active B-cell-receptor signalling activates the PI3K/AKT pathway in DLBCL, sustaining survival and proliferation alongside the NF-κB axis.
 - `connects-to` → **[CDK4/6](../../03-molecular/cdk4-6/README.md)** — Cell-cycle drive: cyclin D-CDK4/6 activity propels DLBCL cells through the G1 checkpoint, the proliferative engine downstream of its oncogenic signalling.
 - `connects-to` → **[HIF-1α](../../03-molecular/hif-1alpha/README.md)** — Metabolic adaptation: HIF-1α and MYC drive the glycolytic metabolism of the rapidly proliferating DLBCL, supporting growth in the hypoxic lymph-node microenvironment.
+- `connects-to` → **[PIK3CA](../../03-molecular/pik3ca/README.md)** — BCR-PI3K signalling: chronic active B-cell-receptor signalling through PI3K sustains the ABC subtype of DLBCL, cooperating with MYD88 and NF-κB activation to drive survival.
+- `connects-to` → **[TERT](../../03-molecular/tert/README.md)** — Telomerase immortalisation: TERT activation maintains telomeres in DLBCL cells, granting the limitless replicative capacity that underlies the rapid growth of this aggressive lymphoma.
+- `connects-to` → **[CCL2](../../03-molecular/ccl2/README.md)** — Tumour macrophages: CCL2 recruits tumour-associated macrophages into the DLBCL microenvironment, whose abundance carries prognostic weight and shapes response to immunochemotherapy.
 
 ---
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*

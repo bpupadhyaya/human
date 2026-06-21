@@ -292,6 +292,15 @@ cross_links:
   - target: 01-human/03-molecular/endothelin-1
     relation: connects-to
     note: "Microvascular constriction: injured endothelium in DIC releases endothelin-1, whose vasoconstriction compounds the microthrombi to drive the ischaemic organ failure of the syndrome."
+  - target: 01-human/03-molecular/s100a8-a9
+    relation: connects-to
+    note: "Immunothrombosis: S100A8/A9-rich neutrophil extracellular traps provide a scaffold and trigger for the widespread microthrombi of DIC, linking the innate immune response of sepsis to its consumptive coagulopathy."
+  - target: 01-human/03-molecular/tlr4
+    relation: connects-to
+    note: "Endotoxin trigger: TLR4 sensing of bacterial LPS in sepsis induces tissue factor on monocytes and endothelium, the initiating signal that unleashes the systemic coagulation of DIC."
+  - target: 01-human/03-molecular/pf4
+    relation: connects-to
+    note: "Platelet consumption: PF4 released from the platelets massively activated and consumed in DIC marks the platelet activation that, with coagulation-factor depletion, produces the bleeding-thrombosis paradox."
 ---
 
 # Disseminated Intravascular Coagulation
@@ -514,6 +523,9 @@ DIC is always **secondary** — it does not occur in isolation but as a conseque
 - `connects-to` → **[IL-1β](../../03-molecular/il-1b/README.md)** — Tissue-factor induction: IL-1β from activated monocytes upregulates endothelial and monocyte tissue factor, a key inflammatory trigger of the systemic coagulation in DIC.
 - `connects-to` → **[Nitric Oxide](../../03-molecular/nitric-oxide/README.md)** — Endothelial collapse: the widespread endothelial injury of DIC cuts protective nitric oxide, removing its antithrombotic brake and worsening microvascular thrombosis.
 - `connects-to` → **[Endothelin-1](../../03-molecular/endothelin-1/README.md)** — Microvascular constriction: injured endothelium in DIC releases endothelin-1, whose vasoconstriction compounds the microthrombi to drive the ischaemic organ failure of the syndrome.
+- `connects-to` → **[S100A8/A9](../../03-molecular/s100a8-a9/README.md)** — Immunothrombosis: S100A8/A9-rich neutrophil extracellular traps provide a scaffold and trigger for the widespread microthrombi of DIC, linking the innate immune response of sepsis to its consumptive coagulopathy.
+- `connects-to` → **[TLR4](../../03-molecular/tlr4/README.md)** — Endotoxin trigger: TLR4 sensing of bacterial LPS in sepsis induces tissue factor on monocytes and endothelium, the initiating signal that unleashes the systemic coagulation of DIC.
+- `connects-to` → **[PF4](../../03-molecular/pf4/README.md)** — Platelet consumption: PF4 released from the platelets massively activated and consumed in DIC marks the platelet activation that, with coagulation-factor depletion, produces the bleeding-thrombosis paradox.
 
 ---
 
