@@ -291,6 +291,15 @@ cross_links:
   - target: 01-human/03-molecular/perforin
     relation: connects-to
     note: "Cytotoxic clearance: CD8 T cells use perforin and granzyme to eliminate West Nile virus from infected neurons, a defence essential for survival that can also injure the neurons it protects."
+  - target: 01-human/03-molecular/il-12
+    relation: connects-to
+    note: "Th1 induction: IL-12 from activated dendritic cells drives the Th1 and IFN-γ response that controls West Nile virus, biasing immunity toward the cell-mediated clearance the infection requires."
+  - target: 01-human/03-molecular/il-10
+    relation: connects-to
+    note: "Immunoregulatory brake: IL-10 tempers the antiviral response in West Nile infection, and excess IL-10 is associated with worse outcomes by blunting the immunity needed to clear the virus from the CNS."
+  - target: 01-human/03-molecular/cxcl12
+    relation: connects-to
+    note: "Blood-brain barrier gatekeeping: CXCL12 at the blood-brain barrier retains CXCR4+ leukocytes in the perivascular space, and CXCR4 antagonism improves West Nile outcomes by letting protective T cells enter the brain parenchyma."
 ---
 
 # West Nile Virus
@@ -502,3 +511,6 @@ WNV has evolved a multilayered strategy to evade innate immunity:
 - `connects-to` → **[CCR5](../../03-molecular/ccr5/README.md)** — Leukocyte trafficking to the brain: CCR5 directs protective leukocytes into the West Nile-infected CNS, and the CCR5-Δ32 loss-of-function variant markedly raises the risk of symptomatic and fatal neuroinvasive disease.
 - `connects-to` → **[CCL2](../../03-molecular/ccl2/README.md)** — Monocyte recruitment: CCL2 draws inflammatory monocytes across the blood-brain barrier in West Nile encephalitis, aiding viral clearance while contributing to the immunopathology of the infection.
 - `connects-to` → **[Perforin](../../03-molecular/perforin/README.md)** — Cytotoxic clearance: CD8 T cells use perforin and granzyme to eliminate West Nile virus from infected neurons, a defence essential for survival that can also injure the neurons it protects.
+- `connects-to` → **[IL-12](../../03-molecular/il-12/README.md)** — IL-12 from activated dendritic cells drives the Th1 and IFN-γ response that controls West Nile virus, biasing immunity toward the cell-mediated clearance the neuroinvasive infection requires for survival.
+- `connects-to` → **[IL-10](../../03-molecular/il-10/README.md)** — IL-10 tempers the antiviral response in West Nile infection, and excess IL-10 is associated with worse outcomes by blunting the immunity needed to clear the virus from the central nervous system.
+- `connects-to` → **[CXCL12](../../03-molecular/cxcl12/README.md)** — CXCL12 at the blood-brain barrier retains CXCR4+ leukocytes in the perivascular space, and CXCR4 antagonism improves West Nile outcomes in models by releasing protective T cells into the infected brain parenchyma.

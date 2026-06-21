@@ -289,6 +289,15 @@ cross_links:
   - target: 01-human/03-molecular/complement-c5
     relation: connects-to
     note: "Complement-mediated hemolysis: monoclonal IgM with cold-agglutinin or cryoglobulin activity fixes complement, so terminal C5-driven haemolysis contributes to the anaemia of some Waldenström patients."
+  - target: 01-human/03-molecular/tlr4
+    relation: connects-to
+    note: "Hijacked TLR adaptor: MYD88 is the signalling adaptor for TLR4 and related receptors, so the MYD88 L265P mutation of Waldenström drives constitutive NF-κB as if the cell were chronically TLR-stimulated."
+  - target: 01-human/03-molecular/pik3ca
+    relation: connects-to
+    note: "PI3K survival arm: PI3K signalling downstream of MYD88 and the B-cell receptor sustains the Waldenström clone in parallel with BTK, contributing to resistance when BTK alone is inhibited."
+  - target: 01-human/03-molecular/kit
+    relation: connects-to
+    note: "Mast-cell support: Waldenström marrow is characteristically infiltrated by KIT-expressing mast cells that nurture the lymphoplasmacytic clone through CD40L and APRIL, a distinctive feature of the disease's microenvironment."
 ---
 
 # Waldenström Macroglobulinemia
@@ -497,6 +506,9 @@ For symptomatic hyperviscosity → removes IgM immediately; does not treat under
 - `connects-to` → **[BAFF](../../03-molecular/baff/README.md)** — B-cell survival factor: BAFF from the marrow microenvironment supports the survival and expansion of the malignant lymphoplasmacytic clone in Waldenström, sustaining IgM-secreting cells.
 - `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — PI3K-mTOR survival: mTOR signalling downstream of MYD88 and the B-cell receptor drives Waldenström cell growth, and the mTOR inhibitor everolimus has clinical activity in the disease.
 - `connects-to` → **[Complement C5](../../03-molecular/complement-c5/README.md)** — Complement-mediated hemolysis: monoclonal IgM with cold-agglutinin or cryoglobulin activity fixes complement, so terminal C5-driven haemolysis contributes to the anaemia of some Waldenström patients.
+- `connects-to` → **[TLR4](../../03-molecular/tlr4/README.md)** — MYD88 is the signaling adaptor for TLR4 and related innate receptors, so the MYD88 L265P mutation that defines Waldenström drives constitutive NF-κB as if the cell were chronically TLR-stimulated—the mechanistic basis for BTK-inhibitor sensitivity.
+- `connects-to` → **[PIK3CA](../../03-molecular/pik3ca/README.md)** — PI3K signaling downstream of MYD88 and the B-cell receptor sustains the Waldenström clone in parallel with BTK, contributing to the resistance that emerges when BTK is inhibited alone and supporting combination approaches.
+- `connects-to` → **[KIT](../../03-molecular/kit/README.md)** — Waldenström marrow is characteristically infiltrated by KIT-expressing mast cells that nurture the lymphoplasmacytic clone through CD40L and APRIL—a distinctive microenvironmental feature distinguishing it from other indolent lymphomas.
 
 [^treon-2015-ibrutinib-wm]: Treon SP, Tripsas CK, Meid K, et al. Ibrutinib in previously treated Waldenström's macroglobulinemia. *N Engl J Med.* 2015;373(18):1765-1774. [doi:10.1056/NEJMoa1501548](https://doi.org/10.1056/NEJMoa1501548) · [PubMed 26352686](https://pubmed.ncbi.nlm.nih.gov/26352686/)
 [^tam-2020-aspen]: Tam CS, Opat S, D'Sa S, et al. A randomized phase 3 trial of zanubrutinib vs ibrutinib in symptomatic Waldenström macroglobulinemia: the ASPEN study. *Blood.* 2020;136(18):2038-2050. [doi:10.1182/blood.2020006844](https://doi.org/10.1182/blood.2020006844) · [PubMed 32828187](https://pubmed.ncbi.nlm.nih.gov/32828187/)
