@@ -292,6 +292,15 @@ cross_links:
   - target: 01-human/03-molecular/ccl2
     relation: connects-to
     note: "Tumour microenvironment: CCL2 secreted by endometrial tumours recruits tumour-associated macrophages that promote angiogenesis and immune evasion, linked to obesity-driven inflammation in the disease."
+  - target: 01-human/03-molecular/cgas-sting
+    relation: connects-to
+    note: "Hypermutation immunogenicity: the mismatch-repair-deficient and POLE-ultramutated endometrial cancers accumulate cytosolic DNA that activates cGAS-STING, the innate-immune basis for their strong response to checkpoint inhibitors."
+  - target: 01-human/03-molecular/leptin
+    relation: connects-to
+    note: "Obesity link: leptin from excess adipose tissue stimulates endometrial epithelial proliferation through JAK-STAT and PI3K signalling, a key mechanism connecting obesity — the dominant risk factor — to endometrial carcinogenesis."
+  - target: 01-human/03-molecular/tgf-beta
+    relation: connects-to
+    note: "Invasion and EMT: TGF-β drives the epithelial-mesenchymal transition and stromal remodelling that enable myometrial invasion, the depth of which is the key determinant of stage and prognosis in endometrial cancer."
 ---
 
 # Endometrial Cancer
@@ -508,6 +517,9 @@ cross_links:
 - `connects-to` → **[MYC](../../03-molecular/myc/README.md)** — Serous-subtype oncogene: MYC amplification helps drive the copy-number-high, p53-mutant serous endometrial cancers, the most aggressive molecular subtype with the poorest prognosis.
 - `connects-to` → **[TERT](../../03-molecular/tert/README.md)** — Telomerase reactivation: TERT activation immortalises endometrial cancer cells, sustaining the unlimited proliferation that complements the PI3K and mismatch-repair lesions of the disease.
 - `connects-to` → **[CCL2](../../03-molecular/ccl2/README.md)** — Tumour microenvironment: CCL2 secreted by endometrial tumours recruits tumour-associated macrophages that promote angiogenesis and immune evasion, linked to obesity-driven inflammation in the disease.
+- `connects-to` → **[cGAS-STING](../../03-molecular/cgas-sting/README.md)** — The mismatch-repair-deficient and POLE-ultramutated endometrial cancers accumulate cytosolic DNA that activates cGAS-STING, the innate-immune basis for the strong response of these subtypes to checkpoint inhibitors like dostarlimab.
+- `connects-to` → **[Leptin](../../03-molecular/leptin/README.md)** — Leptin from excess adipose tissue stimulates endometrial epithelial proliferation through JAK-STAT and PI3K signaling, a key mechanism connecting obesity—the dominant modifiable risk factor—to endometrial carcinogenesis.
+- `connects-to` → **[TGF-β](../../03-molecular/tgf-beta/README.md)** — TGF-β drives the epithelial-mesenchymal transition and stromal remodeling that enable myometrial invasion, the depth of which is the key determinant of stage and prognosis in endometrial cancer.
 
 [^konstantinopoulos-2019-dostarlimab]: Konstantinopoulos PA, Lheureux S, Moore KN. PARP inhibitors for ovarian and endometrial cancers: state of the art and clinical perspectives. *J Clin Oncol.* 2020;38(25):2896-2909. [doi:10.1200/JCO.20.00571](https://doi.org/10.1200/JCO.20.00571) · [PubMed 32706635](https://pubmed.ncbi.nlm.nih.gov/32706635/)
 [^eskander-2023-ruby]: Eskander RN, Sill MW, Beffa L, et al. Pembrolizumab plus chemotherapy in advanced endometrial cancer. *N Engl J Med.* 2023;388(23):2159-2170. [doi:10.1056/NEJMoa2302312](https://doi.org/10.1056/NEJMoa2302312) · [PubMed 37166384](https://pubmed.ncbi.nlm.nih.gov/37166384/)
