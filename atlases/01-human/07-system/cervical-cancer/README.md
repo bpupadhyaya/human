@@ -295,6 +295,15 @@ cross_links:
   - target: 01-human/03-molecular/ccl2
     relation: connects-to
     note: "Macrophage recruitment: CCL2 draws tumour-associated macrophages into cervical cancer, building an immunosuppressive microenvironment that abets HPV-driven tumour progression."
+  - target: 01-human/03-molecular/cgas-sting
+    relation: connects-to
+    note: "HPV innate evasion: HPV oncoproteins antagonise the cGAS-STING DNA-sensing pathway to evade innate immunity, while viral genome integration generates the cytosolic DNA and instability this pathway would otherwise detect."
+  - target: 01-human/03-molecular/perforin
+    relation: connects-to
+    note: "Cytotoxic clearance: CD8 T cells use perforin to eliminate HPV-infected cells, the response that prophylactic and therapeutic HPV vaccines harness and whose evasion permits progression to cervical cancer."
+  - target: 01-human/03-molecular/cxcl12
+    relation: connects-to
+    note: "Metastatic homing: the CXCL12-CXCR4 axis drives the parametrial invasion and lymph-node metastasis of cervical cancer, the spread that governs staging and the need for chemoradiation."
 ---
 
 # Cervical Cancer
@@ -510,6 +519,9 @@ The cervical transformation zone (TZ) — the area between the original and new 
 - `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — PI3K-mTOR axis: frequent PIK3CA mutations and PI3K-AKT-mTOR activation drive cervical cancer growth, an actionable pathway downstream of the loss of tumour-suppressor control by HPV oncoproteins.
 - `connects-to` → **[TGF-beta](../../03-molecular/tgf-beta/README.md)** — Immune evasion and EMT: TGF-beta in the cervical tumour microenvironment suppresses anti-tumour immunity and promotes epithelial-mesenchymal transition and invasion in advancing disease.
 - `connects-to` → **[CCL2](../../03-molecular/ccl2/README.md)** — Macrophage recruitment: CCL2 draws tumour-associated macrophages into cervical cancer, building an immunosuppressive microenvironment that abets HPV-driven tumour progression.
+- `connects-to` → **[cGAS-STING](../../03-molecular/cgas-sting/README.md)** — HPV oncoproteins antagonize the cGAS-STING DNA-sensing pathway to evade innate immunity, while viral genome integration generates the cytosolic DNA and chromosomal instability this pathway would otherwise detect and act on.
+- `connects-to` → **[Perforin](../../03-molecular/perforin/README.md)** — CD8 T cells use perforin to eliminate HPV-infected cells, the response that prophylactic and therapeutic HPV vaccines harness—and whose evasion by persistent high-risk HPV permits progression to cervical cancer.
+- `connects-to` → **[CXCL12](../../03-molecular/cxcl12/README.md)** — The CXCL12-CXCR4 axis drives the parametrial invasion and lymph-node metastasis of cervical cancer, the spread that governs FIGO staging and the decision to use concurrent chemoradiation.
 
 ---
 

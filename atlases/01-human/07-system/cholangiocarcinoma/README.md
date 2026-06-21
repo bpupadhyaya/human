@@ -295,6 +295,15 @@ cross_links:
   - target: 01-human/03-molecular/akt
     relation: connects-to
     note: "PI3K survival: PI3K-AKT signalling, often through PIK3CA mutation or PTEN loss, sustains cholangiocarcinoma growth and survival alongside its FGFR and IDH driver lesions."
+  - target: 01-human/03-molecular/bap1
+    relation: connects-to
+    note: "Chromatin tumour suppressor: inactivating BAP1 mutations are recurrent in cholangiocarcinoma, disrupting the deubiquitinase's chromatin and DNA-repair functions—one of the defining tumour-suppressor lesions of the disease."
+  - target: 01-human/03-molecular/cxcl12
+    relation: connects-to
+    note: "Stromal CXCL12 axis: cancer-associated fibroblasts in the dense desmoplastic stroma secrete CXCL12 that signals through CXCR4 to drive cholangiocarcinoma invasion and the chemoresistance conferred by the stromal niche."
+  - target: 01-human/03-molecular/tlr4
+    relation: connects-to
+    note: "Inflammation-driven carcinogenesis: TLR4 sensing of gut- and biliary-derived bacterial products sustains the chronic biliary inflammation — from liver fluke or primary sclerosing cholangitis — that drives cholangiocarcinogenesis."
 ---
 
 # Cholangiocarcinoma
@@ -484,6 +493,9 @@ Chronic biliary injury (from PSC, fluke infection, bile acid reflux, biliary sta
 - `connects-to` → **[PDGF](../../03-molecular/pdgf/README.md)** — Desmoplastic CAFs: PDGF from tumour cells activates cancer-associated fibroblasts that build the dense desmoplastic stroma characteristic of cholangiocarcinoma, supporting growth and drug resistance.
 - `connects-to` → **[CCL2](../../03-molecular/ccl2/README.md)** — Macrophage recruitment: CCL2 draws tumour-associated macrophages into the cholangiocarcinoma stroma, fostering the immunosuppressive, pro-tumour microenvironment of this hard-to-treat cancer.
 - `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — PI3K survival: PI3K-AKT signalling, often through PIK3CA mutation or PTEN loss, sustains cholangiocarcinoma growth and survival alongside its FGFR and IDH driver lesions.
+- `connects-to` → **[BAP1](../../03-molecular/bap1/README.md)** — Inactivating BAP1 mutations are recurrent in cholangiocarcinoma, disrupting the deubiquitinase's chromatin-remodeling and DNA-repair functions—one of the defining tumor-suppressor lesions alongside IDH1 and FGFR2 alterations.
+- `connects-to` → **[CXCL12](../../03-molecular/cxcl12/README.md)** — Cancer-associated fibroblasts in the dense desmoplastic stroma secrete CXCL12 that signals through CXCR4 to drive cholangiocarcinoma invasion and the chemoresistance conferred by the protective stromal niche.
+- `connects-to` → **[TLR4](../../03-molecular/tlr4/README.md)** — TLR4 sensing of gut- and biliary-derived bacterial products sustains the chronic biliary inflammation—from liver-fluke infection or primary sclerosing cholangitis—that is the dominant driver of cholangiocarcinogenesis.
 
 ---
 
