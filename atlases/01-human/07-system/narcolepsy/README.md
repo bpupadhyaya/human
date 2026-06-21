@@ -273,6 +273,15 @@ cross_links:
   - target: 01-human/03-molecular/nlrp3-inflammasome
     relation: connects-to
     note: "Innate amplification: NLRP3-inflammasome activation and its IL-1β output may amplify the immune response that destroys orexin neurons in narcolepsy."
+  - target: 01-human/03-molecular/il-17a
+    relation: connects-to
+    note: "Th17 autoimmunity: IL-17A from Th17 cells is implicated in the autoimmune attack on hypocretin (orexin) neurons in narcolepsy type 1, complementing the CD8 cytotoxic response."
+  - target: 01-human/03-molecular/ccl2
+    relation: connects-to
+    note: "Hypothalamic recruitment: CCL2 recruits monocytes and T cells toward the hypothalamus, part of the immune trafficking that targets the orexin-producing neurons in narcolepsy."
+  - target: 01-human/03-molecular/insulin
+    relation: connects-to
+    note: "Metabolic consequence: loss of orexin disrupts energy balance, contributing to the weight gain and insulin resistance commonly seen in narcolepsy type 1 despite reduced appetite."
 sources:
   - id: scammell-2015-narcolepsy-review
     type: peer-reviewed
@@ -498,6 +507,9 @@ Cataplexy is the **pathognomonic** feature of NT1 — sudden, bilateral loss of 
 - `connects-to` → **[Perforin](../../03-molecular/perforin/README.md)** — Cytotoxic neuron loss: autoreactive CD8 T cells use perforin to destroy the hypothalamic orexin (hypocretin) neurons, the cytotoxic mechanism behind type 1 narcolepsy.
 - `connects-to` → **[IL-1β](../../03-molecular/il-1b/README.md)** — Hypothalamic inflammation: IL-1β from activated microglia contributes to the neuroinflammation accompanying the autoimmune attack on orexin neurons in narcolepsy.
 - `connects-to` → **[NLRP3 Inflammasome](../../03-molecular/nlrp3-inflammasome/README.md)** — Innate amplification: NLRP3-inflammasome activation and its IL-1β output may amplify the immune response that destroys orexin neurons in narcolepsy.
+- `connects-to` → **[IL-17A](../../03-molecular/il-17a/README.md)** — Th17 autoimmunity: IL-17A from Th17 cells is implicated in the autoimmune attack on hypocretin (orexin) neurons in narcolepsy type 1, complementing the CD8 cytotoxic response.
+- `connects-to` → **[CCL2](../../03-molecular/ccl2/README.md)** — Hypothalamic recruitment: CCL2 recruits monocytes and T cells toward the hypothalamus, part of the immune trafficking that targets the orexin-producing neurons in narcolepsy.
+- `connects-to` → **[Insulin](../../03-molecular/insulin/README.md)** — Metabolic consequence: loss of orexin disrupts energy balance, contributing to the weight gain and insulin resistance commonly seen in narcolepsy type 1 despite reduced appetite.
 
 [^scammell-2015-narcolepsy-review]: Scammell TE. Narcolepsy. *N Engl J Med.* 2015;373(27):2654-2662. [doi:10.1056/NEJMra1500587](https://doi.org/10.1056/NEJMra1500587) · [PubMed 26716917](https://pubmed.ncbi.nlm.nih.gov/26716917/)
 [^dauvilliers-2007-narcolepsy-clinical]: Dauvilliers Y, Arnulf I, Mignot E. Narcolepsy with cataplexy. *Lancet.* 2007;369(9560):499-511. [doi:10.1016/S0140-6736(07)60237-2](https://doi.org/10.1016/S0140-6736(07)60237-2) · [PubMed 17292770](https://pubmed.ncbi.nlm.nih.gov/17292770/)
