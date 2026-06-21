@@ -295,6 +295,15 @@ cross_links:
   - target: 01-human/03-molecular/cxcl12
     relation: connects-to
     note: "Platelet chemokine: CXCL12 released from activated platelets reinforces the procoagulant, prothrombotic platelet phenotype amplified during HIT."
+  - target: 01-human/03-molecular/prostaglandins
+    relation: connects-to
+    note: "Thromboxane amplification: FcγRIIa-activated platelets in HIT generate thromboxane A2, a prostanoid that recruits and aggregates further platelets, amplifying the prothrombotic cascade beyond the initial immune trigger."
+  - target: 01-human/03-molecular/ccl2
+    relation: connects-to
+    note: "Monocyte procoagulant activation: PF4–heparin immune complexes engage monocyte FcγRIIa and CCL2-driven recruitment, inducing the tissue-factor expression that fuels the intense thrombin generation characteristic of HIT."
+  - target: 01-human/03-molecular/nitric-oxide
+    relation: connects-to
+    note: "Endothelial tipping point: HIT antibodies activate endothelium and reduce its nitric-oxide output, removing a key antithrombotic brake and shifting the vessel wall toward the thrombosis that defines the syndrome."
 ---
 
 # Heparin-Induced Thrombocytopenia
@@ -531,6 +540,9 @@ Platelet consumption → thrombocytopenia (paradox: clotting despite low platele
 - `connects-to` → **[PDGF](../../03-molecular/pdgf/README.md)** — Platelet activation product: FcγRIIa crosslinking by PF4–heparin–IgG immune complexes triggers platelet α-granule release of PDGF, a marker of the intense platelet activation that drives thrombosis in HIT.
 - `connects-to` → **[Fibronectin](../../03-molecular/fibronectin/README.md)** — Thrombus scaffold: plasma and platelet α-granule fibronectin is incorporated into the platelet-rich arterial and venous clots characteristic of HIT, stabilising the prothrombotic aggregates.
 - `connects-to` → **[CXCL12](../../03-molecular/cxcl12/README.md)** — Platelet chemokine: CXCL12 released from activated platelets reinforces the procoagulant, prothrombotic platelet phenotype amplified during HIT.
+- `connects-to` → **[Prostaglandins](../../03-molecular/prostaglandins/README.md)** — FcγRIIa-activated platelets in HIT generate thromboxane A2, a prostanoid that recruits and aggregates further platelets, amplifying the prothrombotic cascade well beyond the initial PF4–heparin–IgG immune trigger.
+- `connects-to` → **[CCL2](../../03-molecular/ccl2/README.md)** — PF4–heparin immune complexes engage monocyte FcγRIIa alongside CCL2-driven recruitment, inducing the tissue-factor expression that fuels the intense thrombin generation underlying the paradoxical thrombosis of HIT.
+- `connects-to` → **[Nitric oxide](../../03-molecular/nitric-oxide/README.md)** — HIT antibodies activate endothelium and reduce its nitric-oxide output, removing a key antithrombotic brake and shifting the vessel wall toward the venous and arterial thrombosis that defines the dangerous form of the syndrome.
 
 [^warkentin-2007-hit-review]: Warkentin TE, Greinacher A. Heparin-induced thrombocytopenia: recognition, treatment, and prevention. *Chest.* 2004;126(3 Suppl):311S-337S. [doi:10.1378/chest.126.3_suppl.311S](https://doi.org/10.1378/chest.126.3_suppl.311S) · [PubMed 15383477](https://pubmed.ncbi.nlm.nih.gov/15383477/)
 [^greinacher-2021-vitt-nejm]: Greinacher A, Thiele T, Warkentin TE, et al. Thrombotic thrombocytopenia after ChAdOx1 nCov-19 vaccination. *N Engl J Med.* 2021;384(22):2092-2101. [doi:10.1056/NEJMoa2104840](https://doi.org/10.1056/NEJMoa2104840) · [PubMed 33835769](https://pubmed.ncbi.nlm.nih.gov/33835769/)

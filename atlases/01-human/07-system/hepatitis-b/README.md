@@ -291,6 +291,15 @@ cross_links:
   - target: 01-human/03-molecular/ccl2
     relation: connects-to
     note: "Monocyte recruitment: CCL2 draws inflammatory monocytes and macrophages into the HBV-infected liver, sustaining the intrahepatic inflammation that perpetuates injury and fibrosis."
+  - target: 01-human/03-molecular/ifn-gamma
+    relation: connects-to
+    note: "Non-cytolytic clearance: IFN-γ from HBV-specific Th1 and CD8 cells can purge virus from hepatocytes without killing them, the non-cytolytic control that distinguishes resolved from chronic infection."
+  - target: 01-human/03-molecular/perforin
+    relation: connects-to
+    note: "Cytotoxic killing: perforin-mediated CD8 T-cell lysis of infected hepatocytes both clears HBV and causes the hepatocyte destruction behind the flares and necroinflammation of hepatitis B."
+  - target: 01-human/03-molecular/rig-i
+    relation: connects-to
+    note: "Evaded innate sensing: RIG-I can detect HBV pregenomic RNA, but the virus actively suppresses this sensor — a key reason HBV behaves as a 'stealth' pathogen establishing chronic infection."
 ---
 
 # Hepatitis B
@@ -517,3 +526,6 @@ HDV is a satellite RNA virus that requires HBsAg for virion assembly:
 - `connects-to` → **[PDGF](../../03-molecular/pdgf/README.md)** — Stellate-cell fibrosis: PDGF is the dominant mitogen activating hepatic stellate cells in chronic hepatitis B, driving their proliferation and collagen deposition toward cirrhosis.
 - `connects-to` → **[TNF-α](../../03-molecular/tnf-alpha/README.md)** — Hepatocyte injury: TNF-α from activated Kupffer cells and cytotoxic T cells mediates the hepatocyte apoptosis and necroinflammation that cause the liver damage of chronic hepatitis B.
 - `connects-to` → **[CCL2](../../03-molecular/ccl2/README.md)** — Monocyte recruitment: CCL2 draws inflammatory monocytes and macrophages into the HBV-infected liver, sustaining the intrahepatic inflammation that perpetuates injury and fibrosis.
+- `connects-to` → **[IFN-γ](../../03-molecular/ifn-gamma/README.md)** — IFN-γ from HBV-specific Th1 and CD8 cells can purge virus from hepatocytes without killing them—the non-cytolytic clearance that distinguishes resolved from chronic infection and is the goal of functional-cure strategies.
+- `connects-to` → **[Perforin](../../03-molecular/perforin/README.md)** — Perforin-mediated CD8 T-cell lysis of infected hepatocytes both clears HBV and causes the hepatocyte destruction behind the flares and necroinflammation—the immunopathology by which the host response, not the virus directly, damages the liver.
+- `connects-to` → **[RIG-I](../../03-molecular/rig-i/README.md)** — RIG-I can detect HBV pregenomic RNA, but the virus actively suppresses this sensor—a key reason HBV behaves as a "stealth" pathogen that establishes chronic infection by minimizing innate immune alarm.
