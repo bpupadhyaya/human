@@ -293,6 +293,15 @@ cross_links:
   - target: 01-human/03-molecular/bnp
     relation: connects-to
     note: "Cardiac endocrine hormone: BNP secreted by the stretched heart shows even the cardiovascular system is endocrine, the natriuretic hormone that signals volume status to the kidney."
+  - target: 01-human/03-molecular/glucocorticoid-receptor
+    relation: connects-to
+    note: "Steroid signal transduction: the glucocorticoid receptor is the intracellular receptor through which cortisol exerts its wide-ranging metabolic, immune and stress effects — the effector arm of the HPA endocrine axis."
+  - target: 01-human/03-molecular/androgen-receptor
+    relation: connects-to
+    note: "Androgen signal transduction: the androgen receptor mediates the actions of testosterone and DHT across reproductive and somatic tissues, the nuclear-receptor endpoint of the male endocrine axis."
+  - target: 01-human/03-molecular/sstr2
+    relation: connects-to
+    note: "Inhibitory regulation: somatostatin acting on SSTR2 broadly suppresses the secretion of growth hormone, insulin, glucagon and gut hormones — the basis for octreotide's use across endocrine tumours and acromegaly."
 ---
 
 # Endocrine System
@@ -542,6 +551,9 @@ The endocrine system coordinates fuel metabolism across multiple organs in respo
 - `connects-to` → **[Angiotensin II](../../03-molecular/angiotensin-ii/README.md)** — RAAS effector hormone: angiotensin II is the active hormone of the renin-angiotensin-aldosterone system, raising blood pressure and driving aldosterone release in the endocrine control of fluid and salt.
 - `connects-to` → **[Adiponectin](../../03-molecular/adiponectin/README.md)** — Adipose endocrine organ: adiponectin from fat exemplifies adipose tissue as an endocrine organ, its hormones signalling insulin sensitivity and energy balance to the rest of the body.
 - `connects-to` → **[BNP](../../03-molecular/bnp/README.md)** — Cardiac endocrine hormone: BNP secreted by the stretched heart shows even the cardiovascular system is endocrine, the natriuretic hormone that signals volume status to the kidney.
+- `connects-to` → **[Glucocorticoid receptor](../../03-molecular/glucocorticoid-receptor/README.md)** — The glucocorticoid receptor is the intracellular receptor through which cortisol exerts its wide-ranging metabolic, immune, and stress effects—the effector arm of the HPA endocrine axis and the target of all glucocorticoid drugs.
+- `connects-to` → **[Androgen receptor](../../03-molecular/androgen-receptor/README.md)** — The androgen receptor mediates the actions of testosterone and DHT across reproductive and somatic tissues, the nuclear-receptor endpoint of the male endocrine axis and the target of anti-androgen therapy.
+- `connects-to` → **[SSTR2](../../03-molecular/sstr2/README.md)** — Somatostatin acting on SSTR2 broadly suppresses the secretion of growth hormone, insulin, glucagon, and gut hormones—the inhibitory regulator of the endocrine system and the basis for octreotide in acromegaly and neuroendocrine tumors.
 
 ## Pathology
 

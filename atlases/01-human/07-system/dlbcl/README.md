@@ -295,6 +295,15 @@ cross_links:
   - target: 01-human/03-molecular/ccl2
     relation: connects-to
     note: "Tumour macrophages: CCL2 recruits tumour-associated macrophages into the DLBCL microenvironment, whose abundance carries prognostic weight and shapes response to immunochemotherapy."
+  - target: 01-human/03-molecular/jak1-2
+    relation: connects-to
+    note: "Autocrine JAK-STAT: autocrine IL-6 and IL-10 signal through JAK-STAT to sustain the ABC subtype of DLBCL, a cytokine survival loop layered on the chronic-active BCR and MYD88-driven NF-κB activation."
+  - target: 01-human/03-molecular/cxcl12
+    relation: connects-to
+    note: "Dissemination: CXCR4 on DLBCL cells follows CXCL12 gradients to the bone marrow and central nervous system, the spread that underlies marrow involvement and the feared CNS relapse of high-risk disease."
+  - target: 01-human/03-molecular/mdm2
+    relation: connects-to
+    note: "p53 restraint: MDM2 keeps wild-type p53 in check in TP53-intact DLBCL, making MDM2 inhibitors a strategy to restore p53-driven apoptosis in this subset of the lymphoma."
 ---
 
 # Diffuse Large B-Cell Lymphoma
@@ -509,6 +518,9 @@ DLBCL is an aggressive malignancy of mature B cells. The normal equivalents are 
 - `connects-to` → **[PIK3CA](../../03-molecular/pik3ca/README.md)** — BCR-PI3K signalling: chronic active B-cell-receptor signalling through PI3K sustains the ABC subtype of DLBCL, cooperating with MYD88 and NF-κB activation to drive survival.
 - `connects-to` → **[TERT](../../03-molecular/tert/README.md)** — Telomerase immortalisation: TERT activation maintains telomeres in DLBCL cells, granting the limitless replicative capacity that underlies the rapid growth of this aggressive lymphoma.
 - `connects-to` → **[CCL2](../../03-molecular/ccl2/README.md)** — Tumour macrophages: CCL2 recruits tumour-associated macrophages into the DLBCL microenvironment, whose abundance carries prognostic weight and shapes response to immunochemotherapy.
+- `connects-to` → **[JAK1/2](../../03-molecular/jak1-2/README.md)** — Autocrine IL-6 and IL-10 signal through JAK-STAT to sustain the ABC subtype of DLBCL, a cytokine survival loop layered on the chronic-active B-cell-receptor and MYD88-driven NF-κB activation of that subtype.
+- `connects-to` → **[CXCL12](../../03-molecular/cxcl12/README.md)** — CXCR4 on DLBCL cells follows CXCL12 gradients to the bone marrow and central nervous system, the spread that underlies marrow involvement and the feared CNS relapse that prophylaxis aims to prevent.
+- `connects-to` → **[MDM2](../../03-molecular/mdm2/README.md)** — MDM2 keeps wild-type p53 in check in TP53-intact DLBCL, making MDM2 inhibitors that reactivate p53 a strategy to restore apoptosis in the subset of cases without TP53 mutation.
 
 ---
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
