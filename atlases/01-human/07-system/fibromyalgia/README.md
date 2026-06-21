@@ -276,6 +276,15 @@ cross_links:
   - target: 01-human/03-molecular/nitric-oxide
     relation: connects-to
     note: "Oxidative stress: dysregulated nitric oxide and peroxynitrite formation drive the mitochondrial oxidative stress and central sensitisation reported in fibromyalgia muscle and CNS."
+  - target: 01-human/03-molecular/igf-1
+    relation: connects-to
+    note: "Growth-axis disruption: many fibromyalgia patients have low IGF-1, reflecting the blunted growth-hormone secretion of disrupted deep sleep, which may impair muscle microtrauma repair and contribute to chronic myalgia."
+  - target: 01-human/03-molecular/tlr4
+    relation: connects-to
+    note: "Glial priming: TLR4 signalling on microglia and astrocytes promotes the central sensitisation of fibromyalgia, part of the neuroinflammatory amplification of pain processing in the spinal cord and brain."
+  - target: 01-human/03-molecular/ntrk
+    relation: connects-to
+    note: "Nociceptor sensitisation: elevated nerve growth factor signalling through TrkA sensitises peripheral nociceptors and is linked to the small-fibre neuropathy found in a substantial subset of fibromyalgia patients."
 sources:
   - id: wolfe-2016-fibromyalgia-criteria
     type: peer-reviewed
@@ -522,6 +531,9 @@ FM is not a single-etiology disorder but a convergent syndrome resulting from th
 - `connects-to` → **[Serotonin Transporter](../../03-molecular/serotonin-transporter/README.md)** — Descending pain control: serotonin-transporter polymorphisms and reduced serotonergic reuptake modulation underlie blunted descending inhibition in fibromyalgia, the rationale for SNRI and tricyclic therapy.
 - `connects-to` → **[Oxytocin](../../03-molecular/oxytocin/README.md)** — Endogenous analgesia: oxytocin dampens nociception and stress reactivity, and lower oxytocinergic tone is linked to greater pain and distress in fibromyalgia, an emerging therapeutic target.
 - `connects-to` → **[Nitric Oxide](../../03-molecular/nitric-oxide/README.md)** — Oxidative stress: dysregulated nitric oxide and peroxynitrite formation drive the mitochondrial oxidative stress and central sensitisation reported in fibromyalgia muscle and CNS.
+- `connects-to` → **[IGF-1](../../03-molecular/igf-1/README.md)** — Many fibromyalgia patients have low IGF-1, reflecting the blunted growth-hormone secretion of disrupted deep sleep, which may impair muscle microtrauma repair and contribute to the chronic myalgia and the rationale once explored for GH supplementation.
+- `connects-to` → **[NTRK / TrkA](../../03-molecular/ntrk/README.md)** — Elevated nerve growth factor signaling through TrkA sensitizes peripheral nociceptors and is linked to the small-fiber neuropathy found in a substantial subset of fibromyalgia patients—evidence of a peripheral contribution to a centrally amplified syndrome.
+- `connects-to` → **[TLR4](../../03-molecular/tlr4/README.md)** — TLR4 signaling on microglia and astrocytes promotes the central sensitization of fibromyalgia, part of the neuroinflammatory amplification of pain processing in the spinal cord and brain that underlies the diffuse, persistent pain.
 
 [^wolfe-2016-fibromyalgia-criteria]: Wolfe F, Clauw DJ, Fitzcharles MA, et al. 2016 Revisions to the 2010/2011 fibromyalgia diagnostic criteria. *Semin Arthritis Rheum.* 2016;46(3):319-329. [doi:10.1016/j.semarthrit.2016.08.012](https://doi.org/10.1016/j.semarthrit.2016.08.012) · [PubMed 27916278](https://pubmed.ncbi.nlm.nih.gov/27916278/)
 [^clauw-2014-fibromyalgia-review]: Clauw DJ. Fibromyalgia: a clinical review. *JAMA.* 2014;311(15):1547-1555. [doi:10.1001/jama.2014.3266](https://doi.org/10.1001/jama.2014.3266) · [PubMed 24737367](https://pubmed.ncbi.nlm.nih.gov/24737367/)

@@ -289,6 +289,15 @@ cross_links:
   - target: 01-human/03-molecular/leptin
     relation: connects-to
     note: "Metabolic crosstalk: microbial composition and short-chain fatty acids modulate leptin levels and central leptin sensitivity, tying the gut microbiome to appetite regulation and obesity."
+  - target: 01-human/03-molecular/tlr4
+    relation: connects-to
+    note: "Innate interface: TLR4 sensing of bacterial LPS is the principal microbiome-innate-immune interface, and leakage of LPS across a compromised barrier drives the 'metabolic endotoxemia' linking dysbiosis to systemic inflammation."
+  - target: 01-human/03-molecular/tgf-beta
+    relation: connects-to
+    note: "Tolerance induction: commensal bacteria and their short-chain fatty acids drive TGF-β-dependent differentiation of intestinal regulatory T cells, the mechanism by which the microbiome teaches the immune system tolerance to harmless antigens."
+  - target: 01-human/03-molecular/nlrp3-inflammasome
+    relation: connects-to
+    note: "Reciprocal regulation: the NLRP3 and related inflammasomes both shape microbiota composition and are activated by microbial signals, a feedback loop whose disruption promotes the dysbiosis underlying inflammatory bowel and metabolic disease."
 ---
 
 # Gut Microbiome
@@ -457,6 +466,9 @@ The microbiome influences CNS function via multiple pathways:
 - `connects-to` → **[IL-17A](../../03-molecular/il-17a/README.md)** — Th17 induction: segmented filamentous and other commensal bacteria drive intestinal Th17 cells and IL-17A, a microbiome-tuned arm of mucosal defence that, when dysregulated, fuels autoimmune and inflammatory disease.
 - `connects-to` → **[BDNF](../../03-molecular/bdnf/README.md)** — Gut-brain signalling: germ-free and dysbiotic states alter hippocampal BDNF expression, one molecular link by which the microbiome shapes mood, anxiety and cognition along the gut-brain axis.
 - `connects-to` → **[Leptin](../../03-molecular/leptin/README.md)** — Metabolic crosstalk: microbial composition and short-chain fatty acids modulate leptin levels and central leptin sensitivity, tying the gut microbiome to appetite regulation and obesity.
+- `connects-to` → **[TLR4](../../03-molecular/tlr4/README.md)** — TLR4 sensing of bacterial LPS is the principal microbiome-innate-immune interface, and leakage of LPS across a compromised gut barrier drives the "metabolic endotoxemia" that links dysbiosis to systemic, low-grade inflammation.
+- `connects-to` → **[TGF-β](../../03-molecular/tgf-beta/README.md)** — Commensal bacteria and their short-chain fatty acids drive TGF-β-dependent differentiation of intestinal regulatory T cells—the mechanism by which the microbiome teaches the developing immune system tolerance to harmless food and microbial antigens.
+- `connects-to` → **[NLRP3 Inflammasome](../../03-molecular/nlrp3-inflammasome/README.md)** — The NLRP3 and related inflammasomes both shape microbiota composition and are activated by microbial signals, a feedback loop whose disruption promotes the dysbiosis underlying inflammatory bowel disease and metabolic syndrome.
 
 ## Pathology
 
