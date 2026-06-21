@@ -286,6 +286,15 @@ cross_links:
   - target: 01-human/03-molecular/ccl2
     relation: connects-to
     note: "Macrophage infiltration: CCL2 recruits tumour-associated macrophages whose abundance, paradoxically, marks the more aggressive uveal melanomas."
+  - target: 01-human/03-molecular/mdm2
+    relation: connects-to
+    note: "Wild-type p53 restraint: uveal melanoma rarely mutates TP53 and instead keeps p53 suppressed through high MDM2, making MDM2 inhibitors that reactivate p53 a rational therapeutic strategy in this otherwise treatment-resistant tumour."
+  - target: 01-human/03-molecular/cxcl12
+    relation: connects-to
+    note: "Hepatic tropism: CXCR4 on uveal-melanoma cells follows CXCL12 gradients to the liver, explaining the near-exclusive hepatic pattern of metastasis that dominates uveal-melanoma mortality."
+  - target: 01-human/03-molecular/axl-receptor
+    relation: connects-to
+    note: "Invasion signalling: GAS6-AXL signalling promotes the migration and epithelial-mesenchymal-like invasion of uveal melanoma, contributing to the early micrometastatic spread that precedes clinical detection."
 ---
 
 # Uveal Melanoma
@@ -512,6 +521,9 @@ Uveal melanocytes are neural crest-derived, residing in the uveal stroma and mai
 - `connects-to` → **[MET](../../03-molecular/met/README.md)** — Hepatic tropism: MET (c-Met) signalling drives the striking liver tropism of uveal melanoma metastasis, the dominant and usually fatal site of spread.
 - `connects-to` → **[PDGF](../../03-molecular/pdgf/README.md)** — Stromal growth: PDGF signalling supports the proliferation and angiogenesis of uveal melanoma, part of its receptor-tyrosine-kinase landscape.
 - `connects-to` → **[CCL2](../../03-molecular/ccl2/README.md)** — Macrophage infiltration: CCL2 recruits tumour-associated macrophages whose abundance, paradoxically, marks the more aggressive uveal melanomas.
+- `connects-to` → **[MDM2](../../03-molecular/mdm2/README.md)** — Uveal melanoma rarely mutates TP53 and instead keeps p53 suppressed through high MDM2, making MDM2 inhibitors that reactivate wild-type p53 a rational strategy in a tumor with few other actionable targets and poor response to checkpoint blockade.
+- `connects-to` → **[CXCL12](../../03-molecular/cxcl12/README.md)** — CXCR4 on uveal-melanoma cells follows CXCL12 gradients to the liver, explaining the near-exclusive hepatic pattern of metastasis that dominates uveal-melanoma mortality and drives liver-directed therapies.
+- `connects-to` → **[AXL receptor](../../03-molecular/axl-receptor/README.md)** — GAS6-AXL signaling promotes the migration and epithelial-mesenchymal-like invasion of uveal melanoma, contributing to the early micrometastatic seeding of the liver that often precedes diagnosis of the primary by years.
 
 ---
 

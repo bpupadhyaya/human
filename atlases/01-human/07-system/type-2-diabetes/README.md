@@ -292,6 +292,15 @@ cross_links:
   - target: 01-human/03-molecular/hif-1alpha
     relation: connects-to
     note: "Adipose hypoxia: as fat mass expands beyond its blood supply, HIF-1α stabilised in hypoxic adipose tissue drives the inflammation underlying insulin resistance in type 2 diabetes."
+  - target: 01-human/03-molecular/foxo1
+    relation: connects-to
+    note: "Hepatic glucose output: insulin normally inactivates FOXO1 to switch off gluconeogenesis, so the insulin resistance of type 2 diabetes leaves FOXO1 active in the liver, driving the inappropriate fasting glucose production behind morning hyperglycaemia."
+  - target: 01-human/03-molecular/galectin-3
+    relation: connects-to
+    note: "Insulin-resistance mediator: galectin-3 secreted by adipose-tissue macrophages binds the insulin receptor and impairs its signalling, a direct molecular link between the chronic inflammation of obesity and systemic insulin resistance."
+  - target: 01-human/03-molecular/nitric-oxide
+    relation: connects-to
+    note: "Endothelial dysfunction: hyperglycaemia and insulin resistance reduce endothelial nitric-oxide bioavailability, the early vascular lesion that underlies the macro- and microvascular complications of type 2 diabetes."
 ---
 
 # Type 2 Diabetes
@@ -486,6 +495,9 @@ T2DM, CKD, heart failure, and obesity form the **cardiorenal metabolic (CRM) syn
 - `connects-to` → **[IL-1β](../../03-molecular/il-1b/README.md)** — Islet inflammation: islet amyloid and glucotoxicity activate IL-1β, which damages beta cells—the rationale for IL-1 blockade trials in type 2 diabetes.
 - `connects-to` → **[NLRP3 Inflammasome](../../03-molecular/nlrp3-inflammasome/README.md)** — Metabolic inflammasome: the NLRP3 inflammasome, activated by excess glucose, lipids and islet amyloid, matures the IL-1β that drives the beta-cell dysfunction of type 2 diabetes.
 - `connects-to` → **[HIF-1α](../../03-molecular/hif-1alpha/README.md)** — Adipose hypoxia: as fat mass expands beyond its blood supply, HIF-1α stabilised in hypoxic adipose tissue drives the inflammation underlying insulin resistance in type 2 diabetes.
+- `connects-to` → **[FOXO1](../../03-molecular/foxo1/README.md)** — Insulin normally inactivates FOXO1 to switch off gluconeogenesis, so the insulin resistance of type 2 diabetes leaves FOXO1 active in the liver—driving the inappropriate fasting glucose output behind the morning hyperglycemia that metformin targets.
+- `connects-to` → **[Galectin-3](../../03-molecular/galectin-3/README.md)** — Galectin-3 secreted by adipose-tissue macrophages binds the insulin receptor and impairs its signaling—a direct molecular link between the chronic low-grade inflammation of obesity and the systemic insulin resistance that defines type 2 diabetes.
+- `connects-to` → **[Nitric oxide](../../03-molecular/nitric-oxide/README.md)** — Hyperglycemia and insulin resistance reduce endothelial nitric-oxide bioavailability, the early vascular lesion that underlies both the macrovascular (coronary, stroke) and microvascular (retinopathy, nephropathy) complications of type 2 diabetes.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
