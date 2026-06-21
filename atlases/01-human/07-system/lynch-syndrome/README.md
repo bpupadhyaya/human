@@ -286,6 +286,15 @@ cross_links:
   - target: 01-human/03-molecular/hif-1alpha
     relation: connects-to
     note: "Tumour hypoxia: HIF-1α stabilised in growing Lynch-associated tumours drives the angiogenesis that supports their expansion, complementing their high immunogenicity."
+  - target: 01-human/03-molecular/ifn-gamma
+    relation: connects-to
+    note: "Immunogenic MSI tumours: the frameshift neoantigens of mismatch-repair-deficient Lynch tumours provoke a brisk IFN-γ-driven T-cell infiltrate, the basis of their exceptional response to checkpoint immunotherapy."
+  - target: 01-human/03-molecular/cdkn2a
+    relation: connects-to
+    note: "Tumour-suppressor loss: CDKN2A inactivation accompanies progression of Lynch-associated adenomas to carcinoma, releasing the cell-cycle brake in these mismatch-repair-deficient tumours."
+  - target: 01-human/03-molecular/ccl2
+    relation: connects-to
+    note: "Macrophage recruitment: CCL2 draws tumour-associated macrophages into Lynch tumours, part of the rich immune microenvironment that shapes their response to immunotherapy."
 ---
 
 # Lynch Syndrome
@@ -515,6 +524,9 @@ MSI-H stage II CRC: adjuvant 5-FU/leucovorin does NOT improve OS (may be harmful
 - `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — PI3K/AKT activation: frameshift and PIK3CA mutations in the hypermutated Lynch tumours activate AKT, driving growth alongside the mismatch-repair defect.
 - `connects-to` → **[MYC](../../03-molecular/myc/README.md)** — Wnt-driven oncogene: APC/Wnt activation common in Lynch colorectal cancers upregulates MYC, driving the proliferation of these mismatch-repair-deficient tumours.
 - `connects-to` → **[HIF-1α](../../03-molecular/hif-1alpha/README.md)** — Tumour hypoxia: HIF-1α stabilised in growing Lynch-associated tumours drives the angiogenesis that supports their expansion, complementing their high immunogenicity.
+- `connects-to` → **[IFN-γ](../../03-molecular/ifn-gamma/README.md)** — Immunogenic MSI tumours: the frameshift neoantigens of mismatch-repair-deficient Lynch tumours provoke a brisk IFN-γ-driven T-cell infiltrate, the basis of their exceptional response to checkpoint immunotherapy.
+- `connects-to` → **[CDKN2A](../../03-molecular/cdkn2a/README.md)** — Tumour-suppressor loss: CDKN2A inactivation accompanies progression of Lynch-associated adenomas to carcinoma, releasing the cell-cycle brake in these mismatch-repair-deficient tumours.
+- `connects-to` → **[CCL2](../../03-molecular/ccl2/README.md)** — Macrophage recruitment: CCL2 draws tumour-associated macrophages into Lynch tumours, part of the rich immune microenvironment that shapes their response to immunotherapy.
 
 [^bonadona-2011-lynch-risks]: Bonadona V, Bonaïti B, Olschwang S, et al. Cancer risks associated with germline mutations in MLH1, MSH2, and MSH6 genes in Lynch syndrome. *JAMA.* 2011;305(22):2304-2310. [doi:10.1001/jama.2011.743](https://doi.org/10.1001/jama.2011.743) · [PubMed 21642683](https://pubmed.ncbi.nlm.nih.gov/21642683/)
 [^lynch-2015-lynch-review]: Lynch HT, Snyder CL, Shaw TG, et al. Milestones of Lynch syndrome: 1895-2015. *Nat Rev Cancer.* 2015;15(3):181-194. [doi:10.1038/nrc3878](https://doi.org/10.1038/nrc3878) · [PubMed 25673086](https://pubmed.ncbi.nlm.nih.gov/25673086/)

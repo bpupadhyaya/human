@@ -284,6 +284,15 @@ cross_links:
   - target: 01-human/03-molecular/il-6
     relation: connects-to
     note: "Germinal-centre signalling: IL-6 within lymph nodes supports T-follicular-helper and B-cell responses, and its excess drives lymphadenopathy in conditions like Castleman disease."
+  - target: 01-human/03-molecular/angiopoietin
+    relation: connects-to
+    note: "Lymphangiogenesis: the angiopoietin-Tie2 axis, with VEGF-C, builds and remodels lymphatic vessels, and its dysregulation underlies the failed vessel formation of primary lymphoedema."
+  - target: 01-human/03-molecular/complement-c3
+    relation: connects-to
+    note: "Lymph-node immunity: complement C3 opsonises antigens trafficked to lymph nodes and is retained on follicular dendritic cells, focusing the humoral immune responses the lymphatic system orchestrates."
+  - target: 01-human/03-molecular/apoe
+    relation: connects-to
+    note: "Dietary-lipid transport: intestinal lacteals absorb dietary fat as ApoE-bearing chylomicrons into the lymph (chyle), the lymphatic system's distinctive role in carrying fat to the bloodstream."
 ---
 
 # Lymphatic System
@@ -482,6 +491,9 @@ Enterocytes package dietary triglycerides + cholesterol + apoB-48 into chylomicr
 - `connects-to` → **[TNF-α](../../03-molecular/tnf-alpha/README.md)** — Lymphoid organogenesis: TNF-family signalling builds and maintains the secondary lymphoid organs, and excess TNF-α drives the reactive lymph-node enlargement of infection and inflammation.
 - `connects-to` → **[BAFF](../../03-molecular/baff/README.md)** — B-cell follicles: BAFF sustains the B cells of lymph-node and splenic follicles, organising the germinal-centre reactions at the heart of the lymphatic system's adaptive immunity.
 - `connects-to` → **[IL-6](../../03-molecular/il-6/README.md)** — Germinal-centre signalling: IL-6 within lymph nodes supports T-follicular-helper and B-cell responses, and its excess drives lymphadenopathy in conditions like Castleman disease.
+- `connects-to` → **[Angiopoietin](../../03-molecular/angiopoietin/README.md)** — Lymphangiogenesis: the angiopoietin-Tie2 axis, with VEGF-C, builds and remodels lymphatic vessels, and its dysregulation underlies the failed vessel formation of primary lymphoedema.
+- `connects-to` → **[Complement C3](../../03-molecular/complement-c3/README.md)** — Lymph-node immunity: complement C3 opsonises antigens trafficked to lymph nodes and is retained on follicular dendritic cells, focusing the humoral immune responses the lymphatic system orchestrates.
+- `connects-to` → **[ApoE](../../03-molecular/apoe/README.md)** — Dietary-lipid transport: intestinal lacteals absorb dietary fat as ApoE-bearing chylomicrons into the lymph (chyle), the lymphatic system's distinctive role in carrying fat to the bloodstream.
 
 ## Pathology
 
