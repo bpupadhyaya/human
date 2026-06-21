@@ -286,6 +286,15 @@ cross_links:
   - target: 01-human/03-molecular/tert
     relation: connects-to
     note: "Replicative immortality: TERT reactivation maintains telomeres in the genomically unstable BRCA-mutant tumours, enabling the limitless proliferation of HBOC cancers."
+  - target: 01-human/03-molecular/pd-1
+    relation: connects-to
+    note: "Immunogenic HRD tumours: homologous-recombination-deficient BRCA-mutant cancers carry a high neoantigen load that, with their genomic scarring, makes them more responsive to PD-1 checkpoint immunotherapy."
+  - target: 01-human/03-molecular/cdkn2a
+    relation: connects-to
+    note: "Cooperating tumour suppressor: CDKN2A loss accompanies BRCA mutation in HBOC tumours, releasing the cell-cycle brake to accelerate the proliferation of genomically unstable cells."
+  - target: 01-human/03-molecular/ccl2
+    relation: connects-to
+    note: "Macrophage microenvironment: CCL2 recruits tumour-associated macrophages into HBOC breast and ovarian tumours, contributing to the stroma that shapes growth and immunotherapy response."
 ---
 
 # Hereditary Breast and Ovarian Cancer
@@ -511,6 +520,9 @@ BRCA-mutant cells (HRD):
 - `connects-to` → **[HIF-1α](../../03-molecular/hif-1alpha/README.md)** — Hypoxic aggression: HIF-1α stabilised in the often hypoxic, triple-negative BRCA1-associated tumours drives angiogenesis and a metastatic, treatment-resistant phenotype.
 - `connects-to` → **[EZH2](../../03-molecular/ezh2/README.md)** — Epigenetic driver: EZH2 overexpression cooperates with BRCA loss in HBOC tumours, silencing tumour-suppressor genes and offering an epigenetic therapeutic target.
 - `connects-to` → **[TERT](../../03-molecular/tert/README.md)** — Replicative immortality: TERT reactivation maintains telomeres in the genomically unstable BRCA-mutant tumours, enabling the limitless proliferation of HBOC cancers.
+- `connects-to` → **[PD-1](../../03-molecular/pd-1/README.md)** — Immunogenic HRD tumours: homologous-recombination-deficient BRCA-mutant cancers carry a high neoantigen load that, with their genomic scarring, makes them more responsive to PD-1 checkpoint immunotherapy.
+- `connects-to` → **[CDKN2A](../../03-molecular/cdkn2a/README.md)** — Cooperating tumour suppressor: CDKN2A loss accompanies BRCA mutation in HBOC tumours, releasing the cell-cycle brake to accelerate the proliferation of genomically unstable cells.
+- `connects-to` → **[CCL2](../../03-molecular/ccl2/README.md)** — Macrophage microenvironment: CCL2 recruits tumour-associated macrophages into HBOC breast and ovarian tumours, contributing to the stroma that shapes growth and immunotherapy response.
 
 ---
 
