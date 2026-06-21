@@ -297,6 +297,15 @@ cross_links:
   - target: 01-human/03-molecular/complement-c3
     relation: connects-to
     note: "Complement injury: C3 and the alternative pathway drive glomerular damage across many CKD aetiologies, from C3 glomerulopathy to immune-complex glomerulonephritis, an emerging therapeutic target."
+  - target: 01-human/03-molecular/hif-1alpha
+    relation: connects-to
+    note: "Anemia therapy target: HIF-prolyl-hydroxylase inhibitors (roxadustat) stabilise HIF-1α to boost endogenous erythropoietin and improve iron handling, an oral treatment for the renal anaemia of CKD."
+  - target: 01-human/03-molecular/il-6
+    relation: connects-to
+    note: "Chronic inflammation: persistently elevated IL-6 in CKD drives hepcidin-mediated anaemia and is a major contributor to the accelerated cardiovascular risk and protein-energy wasting of advanced kidney disease."
+  - target: 01-human/03-molecular/cholesterol
+    relation: connects-to
+    note: "Dyslipidaemia and CV risk: CKD causes an atherogenic dyslipidaemia, and the resulting accelerated atherosclerosis makes cardiovascular disease — not kidney failure itself — the leading cause of death in CKD."
 ---
 
 # Chronic Kidney Disease
@@ -466,6 +475,9 @@ As nephron mass decreases, impaired renal functions accumulate:
 - `connects-to` → **[CCL2](../../03-molecular/ccl2/README.md)** — Interstitial fibrosis: CCL2 recruits monocytes into the kidney interstitium, where they become macrophages driving the tubulointerstitial inflammation and fibrosis that progress chronic kidney disease.
 - `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — Glomerular maintenance: podocyte-derived VEGF preserves the glomerular capillary endothelium, and its dysregulation contributes to the glomerulosclerosis and capillary rarefaction of CKD.
 - `connects-to` → **[Complement C3](../../03-molecular/complement-c3/README.md)** — Complement injury: C3 and the alternative pathway drive glomerular damage across many CKD aetiologies, from C3 glomerulopathy to immune-complex glomerulonephritis, an emerging therapeutic target.
+- `connects-to` → **[HIF-1α](../../03-molecular/hif-1alpha/README.md)** — HIF-prolyl-hydroxylase inhibitors (roxadustat) stabilize HIF-1α to boost endogenous erythropoietin production and improve iron handling, an oral alternative to injectable ESAs for the renal anemia of CKD.
+- `connects-to` → **[IL-6](../../03-molecular/il-6/README.md)** — Persistently elevated IL-6 in CKD drives hepcidin-mediated anemia and is a major contributor to the accelerated cardiovascular risk and the protein-energy wasting that characterize advanced kidney disease.
+- `connects-to` → **[Cholesterol](../../03-molecular/cholesterol/README.md)** — CKD causes an atherogenic dyslipidemia, and the resulting accelerated atherosclerosis makes cardiovascular disease—not progression to kidney failure—the leading cause of death in most patients with chronic kidney disease.
 
 ## Pathology
 

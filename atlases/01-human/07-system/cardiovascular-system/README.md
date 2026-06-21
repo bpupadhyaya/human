@@ -303,6 +303,15 @@ cross_links:
   - target: 01-human/03-molecular/pcsk9
     relation: connects-to
     note: "Cholesterol and risk: PCSK9 sets circulating LDL by controlling hepatic LDL-receptor turnover, and PCSK9 inhibitors sharply lower LDL and cardiovascular events in the vasculature."
+  - target: 01-human/03-molecular/serca2a
+    relation: connects-to
+    note: "Cardiac relaxation: SERCA2a pumps calcium back into the sarcoplasmic reticulum after each beat, setting the rate of cardiomyocyte relaxation and refilling the store for the next contraction, central to both systole and diastole."
+  - target: 01-human/03-molecular/beta1-adrenergic-receptor
+    relation: connects-to
+    note: "Adrenergic control: the β1-adrenergic receptor transduces sympathetic noradrenaline into faster, stronger heartbeats, the target of the beta-blockers that are foundational drugs across heart failure, arrhythmia and ischaemic heart disease."
+  - target: 01-human/03-molecular/cholesterol
+    relation: connects-to
+    note: "Atherogenic substrate: cholesterol carried in LDL accumulates in the arterial wall to seed atherosclerotic plaque, the lipid foundation of the coronary and cerebrovascular disease that dominates cardiovascular mortality."
 taxonomy:
   uberon: "UBERON:0004535"
   fma: "FMA:7161"
@@ -480,6 +489,9 @@ Each major vascular bed has **autoregulation** — a local mechanism that holds 
 - `connects-to` → **[BNP](../../03-molecular/bnp/README.md)** — Cardiac endocrine hormone: stretched ventricles release BNP to promote natriuresis and vasodilation, opposing the renin-angiotensin system and serving as the key biomarker of heart failure.
 - `connects-to` → **[Aldosterone](../../03-molecular/aldosterone/README.md)** — RAAS and remodelling: aldosterone drives sodium retention and direct cardiac and vascular fibrosis, which is why mineralocorticoid-receptor antagonists improve outcomes in heart failure and hypertension.
 - `connects-to` → **[PCSK9](../../03-molecular/pcsk9/README.md)** — Cholesterol and risk: PCSK9 sets circulating LDL by controlling hepatic LDL-receptor turnover, and PCSK9 inhibitors sharply lower LDL and cardiovascular events in the vasculature.
+- `connects-to` → **[SERCA2a](../../03-molecular/serca2a/README.md)** — SERCA2a pumps calcium back into the sarcoplasmic reticulum after each beat, setting the rate of cardiomyocyte relaxation and refilling the store for the next contraction—central to both systolic force and diastolic filling.
+- `connects-to` → **[β1-adrenergic receptor](../../03-molecular/beta1-adrenergic-receptor/README.md)** — The β1-adrenergic receptor transduces sympathetic noradrenaline into faster, stronger heartbeats, the target of the beta-blockers that are foundational drugs across heart failure, arrhythmia, and ischemic heart disease.
+- `connects-to` → **[Cholesterol](../../03-molecular/cholesterol/README.md)** — Cholesterol carried in LDL accumulates in the arterial wall to seed atherosclerotic plaque, the lipid foundation of the coronary and cerebrovascular disease that dominates cardiovascular mortality worldwide.
 
 ## Pathology
 
