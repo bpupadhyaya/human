@@ -286,6 +286,15 @@ cross_links:
   - target: 01-human/03-molecular/hif-1alpha
     relation: connects-to
     note: "Metabolic adaptation: loss of LKB1-AMPK energy sensing stabilises HIF-1α, shifting Peutz-Jeghers cells toward the glycolytic metabolism that supports their growth."
+  - target: 01-human/03-molecular/cdkn1a
+    relation: connects-to
+    note: "Lost cell-cycle brake: LKB1 normally induces p21 (CDKN1A) to arrest the cell cycle, so STK11 loss in Peutz-Jeghers removes a checkpoint restraint that contributes to hamartomatous overgrowth and elevated cancer risk."
+  - target: 01-human/03-molecular/foxo1
+    relation: connects-to
+    note: "Metabolic/stress control: LKB1-AMPK signalling regulates FOXO transcription factors governing gluconeogenesis and stress resistance, an axis disrupted when STK11 is lost in Peutz-Jeghers syndrome."
+  - target: 01-human/03-molecular/pten
+    relation: connects-to
+    note: "Parallel hamartoma suppressor: Peutz-Jeghers (LKB1) and Cowden syndrome (PTEN) are distinct hamartomatous-polyposis syndromes that converge on mTOR disinhibition, illustrating how two tumour suppressors feed the same growth pathway."
 ---
 
 # Peutz-Jeghers Syndrome
@@ -499,6 +508,9 @@ Without surveillance: cumulative cancer risk reaches ~85-93% by age 70 (all canc
 - `connects-to` → **[Cyclin D1](../../03-molecular/cyclin-d1/README.md)** — Cell-cycle drive: mTOR-driven cyclin D1 upregulation from LKB1 loss propels Peutz-Jeghers polyp cells through the G1 checkpoint, fuelling hamartoma growth.
 - `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — MAPK crosstalk: LKB1 loss in Peutz-Jeghers also enhances RAS-ERK signalling, cooperating with mTOR activation to drive the hamartomatous overgrowth.
 - `connects-to` → **[HIF-1α](../../03-molecular/hif-1alpha/README.md)** — Metabolic adaptation: loss of LKB1-AMPK energy sensing stabilises HIF-1α, shifting Peutz-Jeghers cells toward the glycolytic metabolism that supports their growth.
+- `connects-to` → **[p21 (CDKN1A)](../../03-molecular/cdkn1a/README.md)** — LKB1 normally induces p21 to arrest the cell cycle, so STK11 loss in Peutz-Jeghers removes a checkpoint restraint—contributing to the hamartomatous overgrowth and the broadly elevated cancer risk that defines the syndrome.
+- `connects-to` → **[FOXO1](../../03-molecular/foxo1/README.md)** — LKB1-AMPK signaling regulates FOXO transcription factors governing gluconeogenesis and stress resistance, an axis disrupted when STK11 is lost in Peutz-Jeghers, linking the syndrome's tumor-suppressor gene to metabolic dysregulation.
+- `connects-to` → **[PTEN](../../03-molecular/pten/README.md)** — Peutz-Jeghers (LKB1) and Cowden syndrome (PTEN) are distinct hamartomatous-polyposis syndromes that converge on mTOR disinhibition—illustrating how two different tumor suppressors funnel into the same growth pathway and overlapping GI-polyp and cancer phenotypes.
 
 ---
 

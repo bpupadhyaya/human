@@ -286,6 +286,15 @@ cross_links:
   - target: 01-human/03-molecular/cyclin-d1
     relation: connects-to
     note: "Cell-cycle drive: cyclin D1-CDK4/6 activity propels PPGL tumour cells through the G1 checkpoint, the proliferative output of their driver pathways."
+  - target: 01-human/03-molecular/egln1
+    relation: connects-to
+    note: "Oxygen-sensor pseudohypoxia: germline EGLN1/PHD2 mutations cause a pseudohypoxic PPGL subtype (sometimes with polycythaemia) by failing to hydroxylate HIF, locking in the hypoxia-response programme that drives these tumours."
+  - target: 01-human/03-molecular/wnt-beta-catenin
+    relation: connects-to
+    note: "Wnt-altered subtype: somatic MAML3 fusions and CSDE1 mutations define a Wnt-signalling PPGL cluster distinct from the pseudohypoxia and kinase groups, associated with more aggressive behaviour."
+  - target: 01-human/03-molecular/atrx
+    relation: connects-to
+    note: "Telomere maintenance and metastasis: ATRX mutations in PPGL engage the alternative-lengthening-of-telomeres pathway and mark the aggressive, metastasis-prone tumours, often co-occurring with SDHB-related disease."
 ---
 
 # Pheochromocytoma/Paraganglioma
@@ -517,6 +526,9 @@ Active in Cluster 1 (MET/AXL co-expressed in SDH-deficient tumors); Phase 2 CABO
 - `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — MAPK output: the RET, NF1 and RAS lesions of the kinase-signalling PPGL cluster converge on ERK1/2, driving the proliferation of these neuroendocrine tumours.
 - `connects-to` → **[MYC](../../03-molecular/myc/README.md)** — Proliferative oncogene: MYC activation downstream of the kinase and pseudohypoxic pathways helps drive the growth of pheochromocytoma-paraganglioma.
 - `connects-to` → **[Cyclin D1](../../03-molecular/cyclin-d1/README.md)** — Cell-cycle drive: cyclin D1-CDK4/6 activity propels PPGL tumour cells through the G1 checkpoint, the proliferative output of their driver pathways.
+- `connects-to` → **[EGLN1 (PHD2)](../../03-molecular/egln1/README.md)** — Germline EGLN1/PHD2 mutations cause a pseudohypoxic PPGL subtype (sometimes with polycythemia) by failing to hydroxylate HIF, locking in the hypoxia-response program that drives these tumors—placing the oxygen sensor itself among the susceptibility genes.
+- `connects-to` → **[Wnt/β-catenin](../../03-molecular/wnt-beta-catenin/README.md)** — Somatic MAML3 fusions and CSDE1 mutations define a Wnt-signaling PPGL cluster distinct from the pseudohypoxia and kinase-signaling groups, associated with more aggressive behavior and metastatic potential.
+- `connects-to` → **[ATRX](../../03-molecular/atrx/README.md)** — ATRX mutations in PPGL engage the alternative-lengthening-of-telomeres pathway and mark the aggressive, metastasis-prone tumors, often co-occurring with SDHB-related disease where they compound an already high metastatic risk.
 
 [^lenders-2014-pheo-guideline]: Lenders JW, Duh QY, Eisenhofer G, et al. Pheochromocytoma and paraganglioma: an endocrine society clinical practice guideline. *J Clin Endocrinol Metab.* 2014;99(6):1915-1942. [doi:10.1210/jc.2014-1498](https://doi.org/10.1210/jc.2014-1498) · [PubMed 24893135](https://pubmed.ncbi.nlm.nih.gov/24893135/)
 [^baudin-2021-firstmappp-sunitinib]: Baudin E, Goichot B, Berruti A, et al. First International Randomized Study in Malignant Progressive Pheochromocytoma and Paragangliomas (FIRSTMAPPP). *Ann Oncol.* 2021;32(10):1245-1254. [doi:10.1016/j.annonc.2021.07.009](https://doi.org/10.1016/j.annonc.2021.07.009) · [PubMed 34246769](https://pubmed.ncbi.nlm.nih.gov/34246769/)
