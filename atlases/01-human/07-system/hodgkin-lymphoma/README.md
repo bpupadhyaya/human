@@ -286,6 +286,15 @@ cross_links:
   - target: 01-human/03-molecular/vegf
     relation: connects-to
     note: "Nodal angiogenesis: VEGF drives the angiogenesis of the involved lymph nodes in Hodgkin lymphoma, supporting tumour growth within the reactive microenvironment."
+  - target: 01-human/03-molecular/hif-1alpha
+    relation: connects-to
+    note: "Glycolytic Reed-Sternberg cells: HIF-1α drives the avid glycolytic metabolism of Hodgkin lymphoma cells, the basis of its intense FDG-PET avidity used for staging and response assessment."
+  - target: 01-human/03-molecular/ifn-gamma
+    relation: connects-to
+    note: "Interferon-driven PD-L1: IFN-γ in the Hodgkin microenvironment, with 9p24 amplification, upregulates PD-L1 on Reed-Sternberg cells, the basis of Hodgkin lymphoma's exquisite sensitivity to PD-1 blockade."
+  - target: 01-human/03-molecular/baff
+    relation: connects-to
+    note: "B-cell survival rescue: BAFF supports the survival of the crippled germinal-centre B cells from which Reed-Sternberg cells derive, helping them escape the apoptosis their defective B-cell receptor should trigger."
 ---
 
 # Hodgkin Lymphoma
@@ -497,6 +506,9 @@ Modern protocols minimize RT fields and doses (ISRT replacing extended-field RT)
 - `connects-to` → **[TNF-α](../../03-molecular/tnf-alpha/README.md)** — Microenvironment cytokine: Reed-Sternberg cells secrete TNF-α to recruit and sustain the reactive inflammatory infiltrate that surrounds and protects them.
 - `connects-to` → **[CCL2](../../03-molecular/ccl2/README.md)** — Macrophage recruitment: Reed-Sternberg cells release CCL2 to draw in tumour-associated macrophages, whose abundance is an adverse prognostic marker in Hodgkin lymphoma.
 - `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — Nodal angiogenesis: VEGF drives the angiogenesis of the involved lymph nodes in Hodgkin lymphoma, supporting tumour growth within the reactive microenvironment.
+- `connects-to` → **[HIF-1α](../../03-molecular/hif-1alpha/README.md)** — Glycolytic Reed-Sternberg cells: HIF-1α drives the avid glycolytic metabolism of Hodgkin lymphoma cells, the basis of its intense FDG-PET avidity used for staging and response assessment.
+- `connects-to` → **[IFN-γ](../../03-molecular/ifn-gamma/README.md)** — Interferon-driven PD-L1: IFN-γ in the Hodgkin microenvironment, with 9p24 amplification, upregulates PD-L1 on Reed-Sternberg cells, the basis of Hodgkin lymphoma's exquisite sensitivity to PD-1 blockade.
+- `connects-to` → **[BAFF](../../03-molecular/baff/README.md)** — B-cell survival rescue: BAFF supports the survival of the crippled germinal-centre B cells from which Reed-Sternberg cells derive, helping them escape the apoptosis their defective B-cell receptor should trigger.
 
 [^connors-2018-echelon1]: Connors JM, Jurczak W, Straus DJ, et al. Brentuximab vedotin with chemotherapy for stage III or IV Hodgkin's lymphoma. *N Engl J Med.* 2018;378(4):331-344. [doi:10.1056/NEJMoa1708984](https://doi.org/10.1056/NEJMoa1708984) · [PubMed 29360494](https://pubmed.ncbi.nlm.nih.gov/29360494/)
 [^armand-2018-nivo-hl]: Armand P, Engert A, Younes A, et al. Nivolumab for relapsed/refractory classic Hodgkin lymphoma after failure of autologous hematopoietic cell transplantation: extended follow-up of the multicohort single-arm phase II CheckMate 205 trial. *J Clin Oncol.* 2018;36(14):1428-1439. [doi:10.1200/JCO.2017.77.6717](https://doi.org/10.1200/JCO.2017.77.6717) · [PubMed 29584546](https://pubmed.ncbi.nlm.nih.gov/29584546/)
