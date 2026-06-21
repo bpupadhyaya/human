@@ -294,6 +294,15 @@ cross_links:
   - target: 01-human/03-molecular/autophagy
     relation: connects-to
     note: "Defective nucleic-acid clearance: autophagy normally degrades cytosolic DNA and damaged organelles that activate cGAS-STING, so impaired autophagic clearance amplifies the self-nucleic-acid sensing central to Aicardi-Goutières."
+  - target: 01-human/03-molecular/caspase-3
+    relation: connects-to
+    note: "Interferon neurotoxicity: chronic type I interferon is directly toxic to neurons and oligodendrocytes, driving caspase-3-mediated apoptosis that underlies the progressive microcephaly and white-matter loss of Aicardi-Goutières."
+  - target: 01-human/03-molecular/vegf
+    relation: connects-to
+    note: "Cerebral vasculopathy: the interferon-driven small-vessel disease of Aicardi-Goutières — especially SAMHD1-related cerebral vasculopathy and aneurysms — involves dysregulated VEGF-dependent angiogenesis in the brain."
+  - target: 01-human/03-molecular/mhc-class-ii
+    relation: connects-to
+    note: "Autoimmune bridging: sustained type I interferon upregulates MHC class II and primes adaptive autoimmunity, consistent with the chilblain lupus and SLE-overlap features that accompany Aicardi-Goutières."
 ---
 
 # Aicardi-Goutières Syndrome
@@ -480,6 +489,9 @@ Severe early-onset AGS (TREX1 homozygous, RNASEH2A): death in childhood from res
 - `connects-to` → **[CCL2](../../03-molecular/ccl2/README.md)** — Interferon-induced chemokine: the sustained type I interferon of Aicardi-Goutières drives CCL2 that recruits monocytes and lymphocytes into the brain, contributing to the white-matter injury and calcification.
 - `connects-to` → **[Perforin](../../03-molecular/perforin/README.md)** — Cytotoxic neuroinflammation: CD8 T cells activated by the chronic interferon milieu use perforin-mediated cytotoxicity within the Aicardi-Goutières brain, adding adaptive injury to the innate-driven damage.
 - `connects-to` → **[Autophagy](../../03-molecular/autophagy/README.md)** — Defective nucleic-acid clearance: autophagy normally degrades cytosolic DNA and damaged organelles that activate cGAS-STING, so impaired autophagic clearance amplifies the self-nucleic-acid sensing central to Aicardi-Goutières.
+- `connects-to` → **[Caspase-3](../../03-molecular/caspase-3/README.md)** — Chronic type I interferon is directly toxic to neurons and oligodendrocytes, driving caspase-3-mediated apoptosis that underlies the progressive microcephaly and white-matter loss defining the neurological devastation of Aicardi-Goutières.
+- `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — The interferon-driven small-vessel disease of Aicardi-Goutières—especially the SAMHD1-related cerebral vasculopathy and intracranial aneurysms—involves dysregulated VEGF-dependent angiogenesis contributing to the characteristic intracranial calcification.
+- `connects-to` → **[MHC class II](../../03-molecular/mhc-class-ii/README.md)** — Sustained type I interferon upregulates MHC class II and primes adaptive autoimmunity, consistent with the chilblain lupus and systemic-lupus-overlap features that frequently accompany the interferonopathy of Aicardi-Goutières.
 
 ---
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
