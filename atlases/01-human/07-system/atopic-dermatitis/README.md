@@ -295,6 +295,15 @@ cross_links:
   - target: 01-human/03-molecular/ccl2
     relation: connects-to
     note: "Monocyte recruitment: CCL2 helps recruit monocytes and inflammatory cells into atopic dermatitis lesions, supporting the cellular infiltrate that sustains chronic eczema."
+  - target: 01-human/03-molecular/ntrk
+    relation: connects-to
+    note: "Neural sensitisation: nerve growth factor signalling through TrkA drives the cutaneous nerve sprouting and sensitisation of atopic dermatitis, lowering the itch threshold and perpetuating the itch-scratch cycle."
+  - target: 01-human/03-molecular/kit
+    relation: connects-to
+    note: "Mast-cell itch: KIT-dependent mast cells accumulate in atopic dermatitis lesions, releasing histamine and type-2 mediators that drive itch and amplify the allergic inflammation of the disease."
+  - target: 01-human/03-molecular/cholesterol
+    relation: connects-to
+    note: "Barrier lipid deficiency: the skin barrier depends on lamellar lipids — ceramides, cholesterol and free fatty acids — and their deficiency in atopic dermatitis impairs the permeability barrier, driving transepidermal water loss and allergen entry."
 ---
 
 # Atopic Dermatitis
@@ -510,6 +519,9 @@ S. aureus colonizes >90% of AD lesional skin (vs. 20% normal skin):
 - `connects-to` → **[EGFR](../../03-molecular/egfr/README.md)** — Barrier and proliferation: EGFR signalling drives keratinocyte proliferation and barrier repair, and the type 2 cytokines of atopic dermatitis disrupt this and the differentiation that maintains the skin barrier.
 - `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — Dermal vascularity: VEGF rises in atopic dermatitis lesions, driving the dermal angiogenesis and vascular leak that accompany the chronic inflammation of eczematous skin.
 - `connects-to` → **[CCL2](../../03-molecular/ccl2/README.md)** — Monocyte recruitment: CCL2 helps recruit monocytes and inflammatory cells into atopic dermatitis lesions, supporting the cellular infiltrate that sustains chronic eczema.
+- `connects-to` → **[NTRK / TrkA](../../03-molecular/ntrk/README.md)** — Nerve growth factor signaling through TrkA drives the cutaneous nerve sprouting and sensitization of atopic dermatitis, lowering the itch threshold and perpetuating the itch-scratch cycle that thickens lichenified skin.
+- `connects-to` → **[KIT](../../03-molecular/kit/README.md)** — KIT-dependent mast cells accumulate in atopic dermatitis lesions, releasing histamine and type-2 mediators that drive itch and amplify the allergic inflammation underlying the eczematous response.
+- `connects-to` → **[Cholesterol](../../03-molecular/cholesterol/README.md)** — The skin barrier depends on lamellar lipids—ceramides, cholesterol, and free fatty acids—and their deficiency in atopic dermatitis impairs the permeability barrier, driving the transepidermal water loss and allergen entry that initiate disease.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 

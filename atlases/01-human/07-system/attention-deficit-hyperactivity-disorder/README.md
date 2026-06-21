@@ -304,6 +304,15 @@ cross_links:
   - target: 01-human/03-molecular/testosterone
     relation: connects-to
     note: "Prenatal androgen influence: prenatal testosterone exposure is implicated in the marked male predominance of ADHD and in shaping the developing attention and impulse-control circuits."
+  - target: 01-human/03-molecular/estrogen
+    relation: connects-to
+    note: "Hormonal symptom fluctuation: estrogen enhances dopaminergic tone, so ADHD symptoms in women fluctuate across the menstrual cycle and often worsen in the low-estrogen perimenopausal years, affecting treatment response."
+  - target: 01-human/03-molecular/ntrk
+    relation: connects-to
+    note: "Neurotrophin development: BDNF signalling through TrkB shapes the prefrontal circuit maturation implicated in ADHD, linking neurotrophin signalling to the delayed cortical development underlying the disorder."
+  - target: 01-human/03-molecular/ccl2
+    relation: connects-to
+    note: "Neuroinflammation link: elevated inflammatory chemokines such as CCL2 are increasingly associated with ADHD, consistent with the maternal-immune-activation and inflammation contributions to its neurodevelopmental risk."
 ---
 
 # Attention-Deficit/Hyperactivity Disorder
@@ -545,6 +554,9 @@ ADHD is a clinical diagnosis requiring [^biederman-2005-adhd-adults]:
 - `connects-to` → **[Serotonin Transporter](../../03-molecular/serotonin-transporter/README.md)** — Impulsivity and comorbidity: serotonin-transporter function shapes the impulsivity of ADHD and its frequent comorbid anxiety and depression, intersecting with the dopamine-noradrenaline circuits stimulants target.
 - `connects-to` → **[IGF-1](../../03-molecular/igf-1/README.md)** — Neurodevelopmental growth: IGF-1 supports the brain maturation that is delayed in ADHD, fitting the model of the disorder as a maturational lag in prefrontal network development.
 - `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — Prenatal androgen influence: prenatal testosterone exposure is implicated in the marked male predominance of ADHD and in shaping the developing attention and impulse-control circuits.
+- `connects-to` → **[Estrogen](../../03-molecular/estrogen/README.md)** — Estrogen enhances dopaminergic tone, so ADHD symptoms in women fluctuate across the menstrual cycle and often worsen in the low-estrogen perimenopausal years—a frequently overlooked influence on diagnosis and treatment response.
+- `connects-to` → **[NTRK / TrkB](../../03-molecular/ntrk/README.md)** — BDNF signaling through TrkB shapes the prefrontal circuit maturation implicated in ADHD, linking neurotrophin signaling to the delayed cortical development that underlies the disorder's maturational-lag model.
+- `connects-to` → **[CCL2](../../03-molecular/ccl2/README.md)** — Elevated inflammatory chemokines such as CCL2 are increasingly associated with ADHD, consistent with the maternal-immune-activation and inflammation contributions to its neurodevelopmental risk profile.
 
 [^faraone-2021-adhd-primer]: Faraone SV, Banaschewski T, Coghill D, et al. The World Federation of ADHD International Consensus Statement: 208 Evidence-based conclusions about the disorder. *Neurosci Biobehav Rev.* 2021;128:789-818. [doi:10.1016/j.neubiorev.2021.01.022](https://doi.org/10.1016/j.neubiorev.2021.01.022) · [PubMed 33549739](https://pubmed.ncbi.nlm.nih.gov/33549739/)
 [^arnsten-2009-adhd-neuroscience]: Arnsten AF. Toward a new understanding of ADHD pathophysiology: an important role for prefrontal cortex dysfunction. *CNS Drugs.* 2009;23(Suppl 1):33-41. [doi:10.2165/00023210-200923000-00005](https://doi.org/10.2165/00023210-200923000-00005) · [PubMed 19621976](https://pubmed.ncbi.nlm.nih.gov/19621976/)
