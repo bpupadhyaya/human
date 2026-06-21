@@ -304,6 +304,15 @@ cross_links:
   - target: 01-human/03-molecular/adenosine
     relation: connects-to
     note: "Acute intoxication and tolerance: alcohol raises extracellular adenosine, contributing to its sedative and motor-incoordinating effects, while adaptation in adenosine signalling features in tolerance and withdrawal."
+  - target: 01-human/03-molecular/orexin
+    relation: connects-to
+    note: "Craving and arousal: hypothalamic orexin drives the cue- and stress-induced craving and the hyperarousal of alcohol withdrawal, making orexin-receptor antagonists a candidate to reduce relapse in alcohol use disorder."
+  - target: 01-human/03-molecular/ghrelin
+    relation: connects-to
+    note: "Appetitive craving: ghrelin enhances the rewarding value of alcohol and promotes alcohol seeking, a gut-brain hunger signal repurposed in addiction whose blockade reduces drinking in trials."
+  - target: 01-human/03-molecular/acetylcholine
+    relation: connects-to
+    note: "Cholinergic reward: nicotinic acetylcholine receptors modulate alcohol's dopaminergic reward, the mechanistic basis for the nicotinic partial agonist varenicline reducing alcohol consumption in alcohol use disorder."
 ---
 
 # Alcohol Use Disorder
@@ -579,6 +588,9 @@ Prenatal alcohol exposure → leading preventable cause of intellectual disabili
 - `connects-to` → **[TLR4](../../03-molecular/tlr4/README.md)** — Gut-brain endotoxin axis: alcohol increases gut permeability, letting bacterial LPS engage TLR4 on Kupffer cells and microglia, a central trigger of alcoholic liver injury and neuroinflammation.
 - `connects-to` → **[Endocannabinoid System](../../03-molecular/endocannabinoid/README.md)** — Reward and craving: the endocannabinoid system modulates alcohol's rewarding effects and craving through CB1 signalling in the mesolimbic circuit, an emerging therapeutic target in alcohol use disorder.
 - `connects-to` → **[Adenosine](../../03-molecular/adenosine/README.md)** — Acute intoxication and tolerance: alcohol raises extracellular adenosine, contributing to its sedative and motor-incoordinating effects, while adaptation in adenosine signalling features in tolerance and withdrawal.
+- `connects-to` → **[Orexin](../../03-molecular/orexin/README.md)** — Hypothalamic orexin drives the cue- and stress-induced craving and the hyperarousal of alcohol withdrawal, making orexin-receptor antagonists a candidate strategy to reduce relapse in alcohol use disorder.
+- `connects-to` → **[Ghrelin](../../03-molecular/ghrelin/README.md)** — Ghrelin enhances the rewarding value of alcohol and promotes alcohol seeking, a gut-brain hunger signal repurposed in addiction whose pharmacological blockade reduces drinking in early trials.
+- `connects-to` → **[Acetylcholine](../../03-molecular/acetylcholine/README.md)** — Nicotinic acetylcholine receptors modulate alcohol's dopaminergic reward, the mechanistic basis for the nicotinic partial agonist varenicline reducing alcohol consumption and the frequent co-occurrence of alcohol and tobacco use.
 
 [^koob-2013-addiction-neuroscience]: Koob GF, Volkow ND. Neurocircuitry of addiction. *Neuropsychopharmacology.* 2010;35(1):217-238. [doi:10.1038/npp.2009.110](https://doi.org/10.1038/npp.2009.110) · [PubMed 19710631](https://pubmed.ncbi.nlm.nih.gov/19710631/)
 [^anton-2006-combine]: Anton RF, O'Malley SS, Ciraulo DA, et al. Combined pharmacotherapies and behavioral interventions for alcohol dependence: the COMBINE study. *JAMA.* 2006;295(17):2003-2017. [doi:10.1001/jama.295.17.2003](https://doi.org/10.1001/jama.295.17.2003) · [PubMed 16670409](https://pubmed.ncbi.nlm.nih.gov/16670409/)

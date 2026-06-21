@@ -295,6 +295,15 @@ cross_links:
   - target: 01-human/03-molecular/akt
     relation: connects-to
     note: "Survival signalling: PI3K-AKT activation, often via PTEN loss in T-cell ALL, drives the growth and survival of lymphoblasts and contributes to glucocorticoid resistance."
+  - target: 01-human/03-molecular/men1
+    relation: connects-to
+    note: "Menin-MLL dependency: KMT2A (MLL)-rearranged ALL, common in infants, depends on the menin-MLL interaction to maintain leukaemic HOX transcription, the target of menin inhibitors (revumenib) entering ALL therapy."
+  - target: 01-human/03-molecular/flt3
+    relation: connects-to
+    note: "Targetable kinase: FLT3 is overexpressed or activated in KMT2A-rearranged and hyperdiploid ALL, a receptor tyrosine kinase under investigation as a therapeutic target in these subtypes."
+  - target: 01-human/03-molecular/caspase-3
+    relation: connects-to
+    note: "Glucocorticoid apoptosis: glucocorticoids and chemotherapy kill lymphoblasts by triggering caspase-3-mediated apoptosis, and the early apoptotic response to steroids is one of the strongest prognostic markers in ALL."
 ---
 
 # Acute Lymphoblastic Leukemia
@@ -527,6 +536,9 @@ Childhood ALL survivors (now majority of patients): neurocognitive impairment (M
 - `connects-to` → **[CDKN2A](../../03-molecular/cdkn2a/README.md)** — Lost cell-cycle brake: deletion of the CDKN2A tumour suppressor is among the most frequent lesions in ALL, removing the p16-mediated restraint on CDK4/6 and unleashing lymphoblast proliferation.
 - `connects-to` → **[CXCL12](../../03-molecular/cxcl12/README.md)** — Marrow-niche refuge: CXCL12 from bone-marrow stroma signals through CXCR4 to home and shelter leukaemic blasts in the protective niche, a mechanism of chemoresistance and minimal residual disease in ALL.
 - `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — Survival signalling: PI3K-AKT activation, often via PTEN loss in T-cell ALL, drives the growth and survival of lymphoblasts and contributes to glucocorticoid resistance.
+- `connects-to` → **[Menin (MEN1)](../../03-molecular/men1/README.md)** — KMT2A (MLL)-rearranged ALL, common and aggressive in infants, depends on the menin-MLL interaction to maintain leukemic HOX transcription—the target of menin inhibitors (revumenib) now entering ALL therapy.
+- `connects-to` → **[FLT3](../../03-molecular/flt3/README.md)** — FLT3 is overexpressed or activated in KMT2A-rearranged and hyperdiploid ALL, a receptor tyrosine kinase under investigation as a therapeutic target in these high-risk and infant subtypes.
+- `connects-to` → **[Caspase-3](../../03-molecular/caspase-3/README.md)** — Glucocorticoids and chemotherapy kill lymphoblasts by triggering caspase-3-mediated apoptosis, and the speed of the early apoptotic response to prednisone is one of the strongest prognostic markers in childhood ALL.
 
 [^pui-2018-all-cure]: Pui CH, Yang JJ, Bhakta N, et al. Global efforts toward the cure of childhood acute lymphoblastic leukemia. *Lancet Child Adolesc Health.* 2018;2(6):440-454. [doi:10.1016/S2352-4642(18)30066-X](https://doi.org/10.1016/S2352-4642(18)30066-X) · [PubMed 29976322](https://pubmed.ncbi.nlm.nih.gov/29976322/)
 [^maude-2018-tisagenlecleucel]: Maude SL, Laetsch TW, Buechner J, et al. Tisagenlecleucel in children and young adults with B-cell lymphoblastic leukemia. *N Engl J Med.* 2018;378(5):439-448. [doi:10.1056/NEJMoa1709866](https://doi.org/10.1056/NEJMoa1709866) · [PubMed 29385370](https://pubmed.ncbi.nlm.nih.gov/29385370/)
