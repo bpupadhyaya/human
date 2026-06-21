@@ -295,6 +295,15 @@ cross_links:
   - target: 01-human/03-molecular/adenosine
     relation: connects-to
     note: "Sleep and inhibition: adenosine accumulates with neural activity to promote sleep pressure and dampen neurotransmission, the brake that caffeine blocks to sustain wakefulness."
+  - target: 01-human/03-molecular/melatonin
+    relation: connects-to
+    note: "Circadian output: the pineal gland of the nervous system secretes melatonin under suprachiasmatic-nucleus control, the hormonal signal that entrains the body's circadian rhythm to the light-dark cycle."
+  - target: 01-human/03-molecular/atp
+    relation: connects-to
+    note: "Purinergic signalling and energy: ATP serves both as the brain's principal energy currency and as a fast purinergic co-transmitter and glial signalling molecule across the nervous system."
+  - target: 01-human/03-molecular/vegf
+    relation: connects-to
+    note: "Neurovascular unit: VEGF couples blood-vessel growth to the nervous system, maintaining the cerebral microvasculature and blood-brain barrier and supporting adult neurogenesis."
 ---
 
 # Nervous System
@@ -423,6 +432,9 @@ Distributed cortical networks underlie language (Broca's area, Wernicke's area, 
 - `connects-to` → **[Substance P](../../03-molecular/substance-p/README.md)** — Pain neurotransmission: substance P is a key neuropeptide of nociceptive signalling in the nervous system, transmitting pain from sensory neurons to the spinal cord and brain.
 - `connects-to` → **[CGRP](../../03-molecular/cgrp/README.md)** — Sensory neuropeptide: CGRP, released by sensory neurons, mediates pain and neurogenic vasodilation, a nervous-system signal central to migraine and now targeted by CGRP-blocking drugs.
 - `connects-to` → **[Adenosine](../../03-molecular/adenosine/README.md)** — Sleep and inhibition: adenosine accumulates with neural activity to promote sleep pressure and dampen neurotransmission, the brake that caffeine blocks to sustain wakefulness.
+- `connects-to` → **[Melatonin](../../03-molecular/melatonin/README.md)** — Circadian output: the pineal gland of the nervous system secretes melatonin under suprachiasmatic-nucleus control, the hormonal signal that entrains the body's circadian rhythm to the light-dark cycle.
+- `connects-to` → **[ATP](../../03-molecular/atp/README.md)** — Purinergic signalling and energy: ATP serves both as the brain's principal energy currency and as a fast purinergic co-transmitter and glial signalling molecule across the nervous system.
+- `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — Neurovascular unit: VEGF couples blood-vessel growth to the nervous system, maintaining the cerebral microvasculature and blood-brain barrier and supporting adult neurogenesis.
 
 ## Pathology
 
