@@ -291,6 +291,15 @@ cross_links:
   - target: 01-human/03-molecular/tert
     relation: connects-to
     note: "Telomerase reactivation: TERT promoter mutation is the commonest genetic event in the hepatocellular carcinoma arising from HCV cirrhosis, immortalising transformed hepatocytes."
+  - target: 01-human/03-molecular/ifn-gamma
+    relation: connects-to
+    note: "Th1 clearance: IFN-γ from HCV-specific CD4 and CD8 T cells drives the non-cytolytic and effector responses that achieve spontaneous clearance in the minority who clear the virus, while a weak response permits chronicity."
+  - target: 01-human/03-molecular/perforin
+    relation: connects-to
+    note: "Cytotoxic immunopathology: perforin-mediated CD8 killing of infected hepatocytes clears HCV but also drives the necroinflammation, so the host T-cell response — not the virus directly — causes much of the liver injury."
+  - target: 01-human/03-molecular/cgas-sting
+    relation: connects-to
+    note: "Dual innate evasion: HCV NS3/4A protease cleaves STING as well as MAVS, disabling both the cytosolic DNA and RNA sensing pathways — a key mechanism by which the virus blunts interferon induction to persist."
 ---
 
 # Hepatitis C
@@ -508,3 +517,6 @@ HCV cirrhosis → HCC risk 1–5% per year (annual ultrasound surveillance ± AF
 - `connects-to` → **[PDGF](../../03-molecular/pdgf/README.md)** — Stellate-cell fibrosis: PDGF released in the chronically infected liver activates hepatic stellate cells into collagen-secreting myofibroblasts, the engine of HCV-driven fibrosis and cirrhosis.
 - `connects-to` → **[TNF-α](../../03-molecular/tnf-alpha/README.md)** — Insulin resistance and injury: HCV core protein and TNF-α impair hepatic insulin signalling and drive hepatocyte injury, explaining the steatosis and type 2 diabetes strongly associated with chronic hepatitis C.
 - `connects-to` → **[TERT](../../03-molecular/tert/README.md)** — Telomerase reactivation: TERT promoter mutation is the commonest genetic event in the hepatocellular carcinoma arising from HCV cirrhosis, immortalising transformed hepatocytes.
+- `connects-to` → **[IFN-γ](../../03-molecular/ifn-gamma/README.md)** — IFN-γ from HCV-specific CD4 and CD8 T cells drives the responses that achieve spontaneous clearance in the minority who clear the virus, while a weak or exhausted T-cell response permits the chronicity seen in most.
+- `connects-to` → **[Perforin](../../03-molecular/perforin/README.md)** — Perforin-mediated CD8 killing of infected hepatocytes clears HCV but also drives the necroinflammation—so the host T-cell response, not the virus directly, causes much of the liver injury that progresses to fibrosis and cirrhosis.
+- `connects-to` → **[cGAS-STING](../../03-molecular/cgas-sting/README.md)** — HCV NS3/4A protease cleaves STING as well as MAVS, disabling both the cytosolic DNA and RNA sensing pathways—a key mechanism by which the virus blunts interferon induction to establish persistent infection.
