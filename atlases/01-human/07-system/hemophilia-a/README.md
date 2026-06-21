@@ -295,6 +295,15 @@ cross_links:
   - target: 01-human/03-molecular/tgf-beta
     relation: connects-to
     note: "Joint fibrosis: TGF-beta drives the fibrotic remodelling and contracture of chronically bled hemophilic joints, converting recurrent hemarthrosis into fixed deformity and stiffness."
+  - target: 01-human/03-molecular/ccl2
+    relation: connects-to
+    note: "Synovitis recruitment: CCL2 released after hemarthrosis draws monocytes and macrophages into the hemophilic synovium, building the inflammatory infiltrate that perpetuates the proliferative synovitis of target joints."
+  - target: 01-human/03-molecular/hif-1alpha
+    relation: connects-to
+    note: "Synovial angiogenesis: the hypertrophic, iron-laden hemophilic synovium becomes hypoxic, stabilising HIF-1α to drive the fragile neovascularisation that predisposes the target joint to repeated rebleeding."
+  - target: 01-human/03-molecular/tlr4
+    relation: connects-to
+    note: "Heme-driven inflammation: heme and iron from repeated joint bleeds act as DAMPs on TLR4, igniting the innate inflammatory cascade that converts hemarthrosis into the chronic synovitis of hemophilic arthropathy."
 ---
 
 # Hemophilia A
@@ -508,6 +517,9 @@ FVIII is a critical **amplifier** of the coagulation cascade at the junction bet
 - `connects-to` → **[IL-1β](../../03-molecular/il-1b/README.md)** — Cartilage breakdown: IL-1β released after recurrent hemarthrosis drives chondrocyte matrix-metalloproteinase production, degrading articular cartilage in hemophilic arthropathy independent of the synovial inflammation.
 - `connects-to` → **[PDGF](../../03-molecular/pdgf/README.md)** — Synovial hyperplasia: PDGF from activated platelets and macrophages after joint bleeds stimulates fibroblast and synoviocyte proliferation, thickening the hemophilic synovium toward chronic destructive disease.
 - `connects-to` → **[TGF-beta](../../03-molecular/tgf-beta/README.md)** — Joint fibrosis: TGF-beta drives the fibrotic remodelling and contracture of chronically bled hemophilic joints, converting recurrent hemarthrosis into fixed deformity and stiffness.
+- `connects-to` → **[CCL2](../../03-molecular/ccl2/README.md)** — CCL2 released after hemarthrosis draws monocytes and macrophages into the hemophilic synovium, building the inflammatory infiltrate that perpetuates the proliferative synovitis of target joints between bleeds.
+- `connects-to` → **[HIF-1α](../../03-molecular/hif-1alpha/README.md)** — The hypertrophic, iron-laden hemophilic synovium becomes hypoxic, stabilizing HIF-1α to drive the fragile neovascularization that predisposes the target joint to the repeated rebleeding that perpetuates the arthropathy.
+- `connects-to` → **[TLR4](../../03-molecular/tlr4/README.md)** — Heme and iron from repeated joint bleeds act as DAMPs on TLR4, igniting the innate inflammatory cascade that converts an acute hemarthrosis into the self-sustaining chronic synovitis of hemophilic arthropathy.
 
 [^oldenburg-2017-emicizumab-haven1]: Oldenburg J, Mahlangu JN, Kim B, et al. Emicizumab prophylaxis in hemophilia A with inhibitors. *N Engl J Med.* 2017;377(9):809-818. [doi:10.1056/NEJMoa1703068](https://doi.org/10.1056/NEJMoa1703068) · [PubMed 28691557](https://pubmed.ncbi.nlm.nih.gov/28691557/)
 [^mahlangu-2018-emicizumab-haven3]: Mahlangu J, Oldenburg J, Paz-Priel I, et al. Emicizumab prophylaxis in patients who have hemophilia A without inhibitors. *N Engl J Med.* 2018;379(9):811-822. [doi:10.1056/NEJMoa1803550](https://doi.org/10.1056/NEJMoa1803550) · [PubMed 30157389](https://pubmed.ncbi.nlm.nih.gov/30157389/)

@@ -289,6 +289,15 @@ cross_links:
   - target: 01-human/03-molecular/mtor
     relation: connects-to
     note: "Hypertrophic growth: chronic mTOR signalling drives pathological cardiomyocyte hypertrophy and maladaptive remodelling, while its modulation is studied to limit progression to heart failure."
+  - target: 01-human/03-molecular/serca2a
+    relation: connects-to
+    note: "Impaired calcium reuptake: SERCA2a expression and activity fall in the failing heart, slowing sarcoplasmic-reticulum calcium reuptake to produce the depressed contractility and impaired relaxation central to systolic and diastolic heart failure."
+  - target: 01-human/03-molecular/beta1-adrenergic-receptor
+    relation: connects-to
+    note: "Adrenergic desensitisation: chronic sympathetic overdrive in heart failure downregulates and uncouples β1-adrenergic receptors, the maladaptation that beta-blockers reverse to improve survival."
+  - target: 01-human/03-molecular/myostatin
+    relation: connects-to
+    note: "Cardiac cachexia: the failing heart releases myostatin that, with systemic inflammation, drives the skeletal-muscle wasting and cardiac cachexia marking advanced heart failure and predicting poor outcome."
 ---
 
 # Heart Failure
@@ -452,6 +461,9 @@ Normal hearts increase stroke volume with increasing preload (Starling curve). T
 - `connects-to` → **[Interleukin-6](../../03-molecular/il-6/README.md)** — Inflammatory prognosis: circulating IL-6 is elevated in heart failure and predicts severity and mortality, reflecting the chronic inflammation that contributes to myocardial remodelling and cachexia.
 - `connects-to` → **[NLRP3 Inflammasome](../../03-molecular/nlrp3-inflammasome/README.md)** — Sterile inflammation: NLRP3 inflammasome activation in cardiac macrophages and fibroblasts drives IL-1β release after injury, promoting adverse remodelling and fibrosis in heart failure — an emerging therapeutic target.
 - `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — Hypertrophic growth: chronic mTOR signalling drives pathological cardiomyocyte hypertrophy and maladaptive remodelling, while its modulation is studied to limit progression to heart failure.
+- `connects-to` → **[SERCA2a](../../03-molecular/serca2a/README.md)** — SERCA2a expression and activity fall in the failing heart, slowing sarcoplasmic-reticulum calcium reuptake to produce the depressed contractility and impaired relaxation central to both systolic and diastolic heart failure—a long-standing gene-therapy target.
+- `connects-to` → **[β1-adrenergic receptor](../../03-molecular/beta1-adrenergic-receptor/README.md)** — Chronic sympathetic overdrive in heart failure downregulates and uncouples β1-adrenergic receptors, the maladaptive desensitization that beta-blockers reverse to produce one of the few mortality benefits in the disease.
+- `connects-to` → **[Myostatin](../../03-molecular/myostatin/README.md)** — The failing heart releases myostatin that, together with systemic inflammation, drives the skeletal-muscle wasting and cardiac cachexia marking advanced heart failure and independently predicting poor survival.
 
 ## Pathology
 
