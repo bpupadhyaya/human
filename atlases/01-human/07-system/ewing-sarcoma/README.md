@@ -286,6 +286,15 @@ cross_links:
   - target: 01-human/03-molecular/hif-1alpha
     relation: connects-to
     note: "Hypoxic aggression: HIF-1α stabilised in the hypoxic Ewing sarcoma enhances EWS-FLI1 activity and drives the angiogenesis and metastasis of more aggressive disease."
+  - target: 01-human/03-molecular/rad51
+    relation: connects-to
+    note: "BRCAness and PARP sensitivity: EWS-FLI1 impairs homologous recombination and RAD51 function, creating the 'BRCAness' that makes Ewing sarcoma sensitive to PARP inhibitors and DNA-damaging therapy."
+  - target: 01-human/03-molecular/rankl
+    relation: connects-to
+    note: "Osteolytic destruction: Ewing sarcoma drives RANKL-mediated osteoclast activation to destroy the bone it arises in, the mechanism of the lytic lesions and pain of the disease."
+  - target: 01-human/03-molecular/ccl2
+    relation: connects-to
+    note: "Macrophage microenvironment: CCL2 recruits tumour-associated macrophages into the immunologically cold Ewing sarcoma, shaping a microenvironment that supports growth and resists immunotherapy."
 ---
 
 # Ewing Sarcoma
@@ -498,6 +507,9 @@ After induction → surgical specimen assessed for percent tumor necrosis (Salze
 - `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — Survival signalling: IGF-1R-driven PI3K/AKT signalling sustains Ewing sarcoma cell survival, cooperating with EWS-FLI1 and offering a combination therapeutic target.
 - `connects-to` → **[PDGF](../../03-molecular/pdgf/README.md)** — Stromal growth factor: PDGF signalling, an EWS-FLI1 target, supports the autocrine growth and angiogenesis of Ewing sarcoma.
 - `connects-to` → **[HIF-1α](../../03-molecular/hif-1alpha/README.md)** — Hypoxic aggression: HIF-1α stabilised in the hypoxic Ewing sarcoma enhances EWS-FLI1 activity and drives the angiogenesis and metastasis of more aggressive disease.
+- `connects-to` → **[RAD51](../../03-molecular/rad51/README.md)** — BRCAness and PARP sensitivity: EWS-FLI1 impairs homologous recombination and RAD51 function, creating the 'BRCAness' that makes Ewing sarcoma sensitive to PARP inhibitors and DNA-damaging therapy.
+- `connects-to` → **[RANKL](../../03-molecular/rankl/README.md)** — Osteolytic destruction: Ewing sarcoma drives RANKL-mediated osteoclast activation to destroy the bone it arises in, the mechanism of the lytic lesions and pain of the disease.
+- `connects-to` → **[CCL2](../../03-molecular/ccl2/README.md)** — Macrophage microenvironment: CCL2 recruits tumour-associated macrophages into the immunologically cold Ewing sarcoma, shaping a microenvironment that supports growth and resists immunotherapy.
 
 ---
 

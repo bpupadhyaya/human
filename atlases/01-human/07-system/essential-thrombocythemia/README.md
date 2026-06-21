@@ -286,6 +286,15 @@ cross_links:
   - target: 01-human/03-molecular/vegf
     relation: connects-to
     note: "Marrow angiogenesis: elevated VEGF increases bone-marrow microvessel density in essential thrombocythemia, part of the proliferative MPN microenvironment."
+  - target: 01-human/03-molecular/pf4
+    relation: connects-to
+    note: "Platelet activation: PF4 released from the markedly expanded, activated platelet mass of essential thrombocythemia marks the platelet hyperreactivity behind its characteristic thrombotic risk."
+  - target: 01-human/03-molecular/s100a8-a9
+    relation: connects-to
+    note: "MPN inflammation: S100A8/A9 from the expanded myeloid compartment amplifies the chronic inflammation of essential thrombocythemia, contributing to its thrombotic and constitutional symptoms."
+  - target: 01-human/03-molecular/runx1
+    relation: connects-to
+    note: "Leukaemic transformation: acquired RUNX1 mutations mark the progression of essential thrombocythemia toward myelofibrosis and acute myeloid leukaemia, a feared late evolution."
 ---
 
 # Essential Thrombocythemia
@@ -493,6 +502,9 @@ Management:
 - `connects-to` → **[TNF-α](../../03-molecular/tnf-alpha/README.md)** — Clonal inflammation: TNF-α from the malignant clone gives essential thrombocythemia cells a survival advantage over normal progenitors and drives the constitutional symptoms of the MPN.
 - `connects-to` → **[NLRP3 Inflammasome](../../03-molecular/nlrp3-inflammasome/README.md)** — Inflammasome activation: JAK2-driven NLRP3-inflammasome activation contributes to the chronic inflammatory state of essential thrombocythemia and its thrombotic risk.
 - `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — Marrow angiogenesis: elevated VEGF increases bone-marrow microvessel density in essential thrombocythemia, part of the proliferative MPN microenvironment.
+- `connects-to` → **[PF4](../../03-molecular/pf4/README.md)** — Platelet activation: PF4 released from the markedly expanded, activated platelet mass of essential thrombocythemia marks the platelet hyperreactivity behind its characteristic thrombotic risk.
+- `connects-to` → **[S100A8/A9](../../03-molecular/s100a8-a9/README.md)** — MPN inflammation: S100A8/A9 from the expanded myeloid compartment amplifies the chronic inflammation of essential thrombocythemia, contributing to its thrombotic and constitutional symptoms.
+- `connects-to` → **[RUNX1](../../03-molecular/runx1/README.md)** — Leukaemic transformation: acquired RUNX1 mutations mark the progression of essential thrombocythemia toward myelofibrosis and acute myeloid leukaemia, a feared late evolution.
 
 [^harrison-2005-pt1-et]: Harrison CN, Campbell PJ, Buck G, et al. Hydroxyurea compared with anagrelide in high-risk essential thrombocythemia. *N Engl J Med.* 2005;353(1):33-45. [doi:10.1056/NEJMoa043800](https://doi.org/10.1056/NEJMoa043800) · [PubMed 16000354](https://pubmed.ncbi.nlm.nih.gov/16000354/)
 [^barbui-2012-ipset]: Barbui T, Finazzi G, Carobbio A, et al. Development and validation of an International Prognostic Score of thrombosis in World Health Organization-essential thrombocythemia (IPSET-thrombosis). *Blood.* 2012;120(26):5128-5133. [doi:10.1182/blood-2012-07-444067](https://doi.org/10.1182/blood-2012-07-444067) · [PubMed 23086758](https://pubmed.ncbi.nlm.nih.gov/23086758/)
