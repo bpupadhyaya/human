@@ -286,6 +286,15 @@ cross_links:
   - target: 01-human/03-molecular/hif-1alpha
     relation: connects-to
     note: "Tumour hypoxia: HIF-1α stabilised in the bone and skin tumours of Rothmund-Thomson drives the angiogenesis that supports their growth."
+  - target: 01-human/03-molecular/cdkn1a
+    relation: connects-to
+    note: "Checkpoint engagement: the genomic instability of RECQL4-deficient Rothmund-Thomson cells triggers the p53-p21 (CDKN1A) checkpoint, arresting cells with unresolved replication damage and contributing to the syndrome's growth deficiency."
+  - target: 01-human/03-molecular/rankl
+    relation: connects-to
+    note: "Bone predisposition: Rothmund-Thomson carries a high osteosarcoma risk and skeletal dysplasia, and RANKL-driven osteoclast activity shapes the abnormal bone remodelling that underlies both the dysplasia and the tumours."
+  - target: 01-human/03-molecular/caspase-3
+    relation: connects-to
+    note: "Apoptotic clearance: cells in Rothmund-Thomson that accumulate irreparable DNA damage from RECQL4 loss undergo caspase-3-mediated apoptosis, the cell-loss that contributes to the poikiloderma and tissue atrophy of the syndrome."
 ---
 
 # Rothmund-Thomson Syndrome
@@ -512,6 +521,9 @@ The cardinal features of RTS type II are: (1) **poikiloderma** — the defining 
 - `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — Survival signalling: PI3K/AKT activation supports the survival of the genomically unstable cells of Rothmund-Thomson, cooperating with its DNA-repair defect in tumorigenesis.
 - `connects-to` → **[Cyclin D1](../../03-molecular/cyclin-d1/README.md)** — Cell-cycle drive: the genomic instability of Rothmund-Thomson readily amplifies cyclin D1 and other cell-cycle drivers, fuelling the osteosarcomas and skin cancers it predisposes to.
 - `connects-to` → **[HIF-1α](../../03-molecular/hif-1alpha/README.md)** — Tumour hypoxia: HIF-1α stabilised in the bone and skin tumours of Rothmund-Thomson drives the angiogenesis that supports their growth.
+- `connects-to` → **[p21 (CDKN1A)](../../03-molecular/cdkn1a/README.md)** — The genomic instability of RECQL4-deficient Rothmund-Thomson cells triggers the p53-p21 checkpoint, arresting cells with unresolved replication damage—a brake that protects against cancer but also contributes to the syndrome's growth deficiency.
+- `connects-to` → **[RANKL](../../03-molecular/rankl/README.md)** — Rothmund-Thomson carries a high osteosarcoma risk and skeletal dysplasia, and RANKL-driven osteoclast activity shapes the abnormal bone remodeling that underlies both the radial-ray and skeletal defects and the bone tumors.
+- `connects-to` → **[Caspase-3](../../03-molecular/caspase-3/README.md)** — Cells in Rothmund-Thomson that accumulate irreparable DNA damage from RECQL4 loss undergo caspase-3-mediated apoptosis—the cell loss that contributes to the poikiloderma and tissue atrophy characteristic of the syndrome.
 
 [^kitao-1999-recql4-rts]: Kitao S, Shimamoto A, Goto M, et al. Mutations in RECQL4 cause a subset of cases of Rothmund-Thomson syndrome. *Nat Genet.* 1999;22(1):82-84. [doi:10.1038/8788](https://doi.org/10.1038/8788) · [PubMed 10319867](https://pubmed.ncbi.nlm.nih.gov/10319867/)
 [^wang-2003-rts-cancer]: Wang LL, Gannavarapu A, Kozinetz CA, et al. Association between osteosarcoma and deleterious mutations in the RECQL4 gene in Rothmund-Thomson syndrome. *J Natl Cancer Inst.* 2003;95(9):669-674. [doi:10.1093/jnci/95.9.669](https://doi.org/10.1093/jnci/95.9.669) · [PubMed 12734318](https://pubmed.ncbi.nlm.nih.gov/12734318/)

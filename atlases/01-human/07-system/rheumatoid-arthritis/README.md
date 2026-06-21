@@ -292,6 +292,15 @@ cross_links:
   - target: 01-human/03-molecular/pdgf
     relation: connects-to
     note: "Synovial proliferation: PDGF drives the proliferation of the synovial fibroblasts that form the destructive pannus invading cartilage and bone in rheumatoid arthritis."
+  - target: 01-human/03-molecular/cd20
+    relation: connects-to
+    note: "B-cell depletion: rituximab depletes CD20+ B cells in rheumatoid arthritis, cutting autoantibody production and antigen presentation — proof that B cells, not just T cells and cytokines, drive the disease."
+  - target: 01-human/03-molecular/s100a8-a9
+    relation: connects-to
+    note: "Alarmin biomarker: calprotectin (S100A8/A9) released by activated synovial neutrophils and monocytes amplifies joint inflammation through TLR4 and serves as a sensitive serum marker of rheumatoid disease activity."
+  - target: 01-human/03-molecular/fibronectin
+    relation: connects-to
+    note: "Citrullinated autoantigen: citrullinated fibronectin in the rheumatoid synovium is a target of anti-citrullinated-protein antibodies, and fibronectin fragments stimulate the matrix-degrading enzymes that erode cartilage."
 ---
 
 # Rheumatoid Arthritis
@@ -525,6 +534,9 @@ RA patients have:
 - `connects-to` → **[IFN-γ](../../03-molecular/ifn-gamma/README.md)** — Th1 contribution: IFN-γ from Th1 cells participates in the mixed cytokine milieu of the rheumatoid synovium, activating macrophages that drive joint destruction.
 - `connects-to` → **[HIF-1α](../../03-molecular/hif-1alpha/README.md)** — Pannus hypoxia: the hyperplastic, poorly perfused rheumatoid synovium becomes hypoxic, stabilising HIF-1α to drive the VEGF angiogenesis that feeds the invasive pannus.
 - `connects-to` → **[PDGF](../../03-molecular/pdgf/README.md)** — Synovial proliferation: PDGF drives the proliferation of the synovial fibroblasts that form the destructive pannus invading cartilage and bone in rheumatoid arthritis.
+- `connects-to` → **[CD20](../../03-molecular/cd20/README.md)** — Rituximab depletes CD20+ B cells in rheumatoid arthritis, cutting autoantibody production and antigen presentation—clinical proof that B cells, not just T cells and cytokines, are central drivers of the disease.
+- `connects-to` → **[S100A8/A9](../../03-molecular/s100a8-a9/README.md)** — Calprotectin (S100A8/A9) released by activated synovial neutrophils and monocytes amplifies joint inflammation through TLR4 and serves as a sensitive serum marker of rheumatoid disease activity that tracks subclinical synovitis.
+- `connects-to` → **[Fibronectin](../../03-molecular/fibronectin/README.md)** — Citrullinated fibronectin in the rheumatoid synovium is a target of anti-citrullinated-protein antibodies (ACPA), and fibronectin fragments stimulate the matrix-degrading enzymes that erode cartilage—linking autoimmunity to joint destruction.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
