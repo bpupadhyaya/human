@@ -304,6 +304,15 @@ cross_links:
   - target: 01-human/03-molecular/fgfr
     relation: connects-to
     note: "Fibroblast growth signalling: FGF-FGFR signalling supports the proliferation of the myofibroblasts that constitute desmoid tumours, an additional growth-factor input to the Wnt-driven fibromatosis."
+  - target: 01-human/03-molecular/periostin
+    relation: connects-to
+    note: "Matricellular matrix: periostin produced by the desmoid myofibroblasts organises the dense collagenous extracellular matrix that gives these tumours their firm, infiltrative consistency and supports the fibroblast invasion into surrounding tissue."
+  - target: 01-human/03-molecular/galectin-3
+    relation: connects-to
+    note: "Fibroblast activation: galectin-3 promotes the activation and survival of the myofibroblasts that drive desmoid fibromatosis, a profibrotic lectin contributing to the relentless local growth of these Wnt-driven tumours."
+  - target: 01-human/03-molecular/smad4
+    relation: connects-to
+    note: "Fibrogenic signalling: TGF-β signalling through SMAD4 sustains the myofibroblast phenotype and collagen production of desmoid tumours, the fibrogenic transcriptional arm cooperating with Wnt/β-catenin to build the fibromatosis."
 ---
 
 # Desmoid Tumor
@@ -533,6 +542,9 @@ Standard initial approach for newly diagnosed desmoid without symptoms or rapid 
 - `connects-to` → **[GSK-3β](../../03-molecular/gsk-3b/README.md)** — GSK-3β, with APC and Axin, normally phosphorylates β-catenin for degradation, so the CTNNB1 and APC mutations of desmoid tumors evade this destruction complex to lock in the Wnt signaling that drives the fibromatosis.
 - `connects-to` → **[Caspase-3](../../03-molecular/caspase-3/README.md)** — A substantial subset of desmoid tumors spontaneously regress through caspase-3-mediated apoptosis, the biological basis for the active-surveillance strategy now favored over immediate surgery for these non-metastasizing tumors.
 - `connects-to` → **[FGFR](../../03-molecular/fgfr/README.md)** — FGF-FGFR signaling supports the proliferation of the myofibroblasts that constitute desmoid tumors, an additional growth-factor input layered on the Wnt-β-catenin pathway that fundamentally drives them.
+- `connects-to` → **[Periostin](../../03-molecular/periostin/README.md)** — Periostin produced by the desmoid myofibroblasts organizes the dense collagenous extracellular matrix that gives these tumors their firm, infiltrative consistency and supports the fibroblast invasion into surrounding tissue.
+- `connects-to` → **[Galectin-3](../../03-molecular/galectin-3/README.md)** — Galectin-3 promotes the activation and survival of the myofibroblasts that drive desmoid fibromatosis, a profibrotic lectin contributing to the relentless local growth of these Wnt-driven tumors.
+- `connects-to` → **[SMAD4](../../03-molecular/smad4/README.md)** — TGF-β signaling through SMAD4 sustains the myofibroblast phenotype and collagen production of desmoid tumors, the fibrogenic transcriptional arm cooperating with Wnt/β-catenin to build the fibromatosis.
 
 ---
 

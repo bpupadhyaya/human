@@ -304,6 +304,15 @@ cross_links:
   - target: 01-human/03-molecular/perforin
     relation: connects-to
     note: "T-cell immunopathology: in secondary dengue infection, cross-reactive CD8 T cells deploy perforin in a way that injures the endothelium, contributing to the immunopathological plasma leak of severe dengue."
+  - target: 01-human/03-molecular/fcrn
+    relation: connects-to
+    note: "Maternal-antibody enhancement: FcRn transfers maternal anti-dengue IgG across the placenta, and as it wanes to sub-neutralising levels it can enhance rather than protect, explaining the peak of severe dengue in infants of previously infected mothers."
+  - target: 01-human/03-molecular/fibrinogen
+    relation: connects-to
+    note: "Consumptive coagulopathy: severe dengue activates and consumes the coagulation system, lowering fibrinogen and producing the disseminated intravascular coagulation that, with thrombocytopenia, drives the bleeding of dengue haemorrhagic fever."
+  - target: 01-human/03-molecular/bradykinin
+    relation: connects-to
+    note: "Vascular permeability: kinin-system activation generating bradykinin increases endothelial permeability in severe dengue, contributing alongside the viral NS1 protein to the plasma leak that defines dengue shock syndrome."
 ---
 
 # Dengue Fever
@@ -511,3 +520,6 @@ No approved antiviral therapy for dengue. Management is entirely supportive:
 - `connects-to` → **[von Willebrand factor](../../03-molecular/von-willebrand-factor/README.md)** — Dengue activates the endothelium to release von Willebrand factor, contributing to the platelet consumption and microvascular dysfunction behind the bleeding and plasma leak of severe dengue.
 - `connects-to` → **[Thrombopoietin](../../03-molecular/thrombopoietin/README.md)** — Dengue causes both marrow suppression and peripheral platelet consumption, and thrombopoietin-driven recovery of platelet counts tracks the resolution of the thrombocytopenia that is a defining laboratory feature and bleeding risk.
 - `connects-to` → **[Perforin](../../03-molecular/perforin/README.md)** — In secondary dengue infection, cross-reactive CD8 T cells deploy perforin in a way that injures the endothelium, contributing to the immunopathological plasma leak that drives dengue hemorrhagic fever and shock.
+- `connects-to` → **[FcRn](../../03-molecular/fcrn/README.md)** — FcRn transfers maternal anti-dengue IgG across the placenta, and as it wanes to sub-neutralizing levels it can enhance rather than protect, explaining the peak of severe dengue in infants of previously infected mothers.
+- `connects-to` → **[Fibrinogen](../../03-molecular/fibrinogen/README.md)** — Severe dengue activates and consumes the coagulation system, lowering fibrinogen and producing the disseminated intravascular coagulation that, with thrombocytopenia, drives the bleeding of dengue hemorrhagic fever.
+- `connects-to` → **[Bradykinin](../../03-molecular/bradykinin/README.md)** — Kinin-system activation generating bradykinin increases endothelial permeability in severe dengue, contributing alongside the viral NS1 protein to the plasma leak that defines dengue shock syndrome.
