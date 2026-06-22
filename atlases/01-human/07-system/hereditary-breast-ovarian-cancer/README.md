@@ -304,6 +304,15 @@ cross_links:
   - target: 01-human/03-molecular/cxcl12
     relation: connects-to
     note: "Metastatic homing: the CXCL12-CXCR4 axis drives the metastasis of the triple-negative breast and high-grade serous ovarian cancers that BRCA carriers develop, a chemokine route to their characteristic spread."
+  - target: 01-human/03-molecular/caspase-3
+    relation: connects-to
+    note: "Synthetic-lethal apoptosis: PARP inhibitors and platinum exploit the homologous-recombination defect of BRCA-mutant tumours to drive lethal DNA damage and caspase-3-mediated apoptosis, the synthetic-lethal killing central to treating HBOC cancers."
+  - target: 01-human/03-molecular/perforin
+    relation: connects-to
+    note: "Immunotherapy: the high genomic instability of BRCA-mutant, homologous-recombination-deficient tumours makes them more immunogenic, and checkpoint blockade unleashing perforin-mediated cytotoxic killing is active in triple-negative breast cancer."
+  - target: 01-human/03-molecular/androgen-receptor
+    relation: connects-to
+    note: "Subtype heterogeneity: a fraction of the triple-negative breast cancers BRCA carriers develop are of the luminal-androgen-receptor subtype, where AR-targeted therapy is being explored, reflecting the molecular diversity within the disease."
 ---
 
 # Hereditary Breast and Ovarian Cancer
@@ -535,6 +544,9 @@ BRCA-mutant cells (HRD):
 - `connects-to` → **[RANKL](../../03-molecular/rankl/README.md)** — RANK/RANKL signaling drives the proliferation of BRCA1-mutant mammary progenitor cells, the cells of origin of basal-like breast cancer—the basis for testing denosumab as a chemoprevention strategy in BRCA1 carriers.
 - `connects-to` → **[cGAS-STING](../../03-molecular/cgas-sting/README.md)** — The homologous-recombination deficiency of BRCA-mutant cancers produces micronuclei and cytosolic DNA that activate cGAS-STING, the innate-immune mechanism underlying the synergy of combining PARP inhibitors with immunotherapy.
 - `connects-to` → **[CXCL12](../../03-molecular/cxcl12/README.md)** — The CXCL12-CXCR4 axis drives the metastasis of the triple-negative breast and high-grade serous ovarian cancers that BRCA carriers develop, a chemokine route to the characteristic spread of these aggressive tumors.
+- `connects-to` → **[Caspase-3](../../03-molecular/caspase-3/README.md)** — PARP inhibitors and platinum exploit the homologous-recombination defect of BRCA-mutant tumors to drive lethal DNA damage and caspase-3-mediated apoptosis, the synthetic-lethal killing central to treating HBOC cancers.
+- `connects-to` → **[Perforin](../../03-molecular/perforin/README.md)** — The high genomic instability of BRCA-mutant, homologous-recombination-deficient tumors makes them more immunogenic, and checkpoint blockade unleashing perforin-mediated cytotoxic killing is active in triple-negative breast cancer.
+- `connects-to` → **[Androgen receptor](../../03-molecular/androgen-receptor/README.md)** — A fraction of the triple-negative breast cancers BRCA carriers develop are of the luminal-androgen-receptor subtype, where AR-targeted therapy is being explored, reflecting the molecular diversity within the disease.
 
 ---
 

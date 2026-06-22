@@ -304,6 +304,15 @@ cross_links:
   - target: 01-human/03-molecular/cxcl12
     relation: connects-to
     note: "Peritoneal spread: the CXCL12-CXCR4 axis directs the discohesive cells of diffuse gastric cancer to the peritoneum, the transcoelomic dissemination behind the linitis plastica and peritoneal carcinomatosis that the syndrome causes."
+  - target: 01-human/03-molecular/collagen
+    relation: connects-to
+    note: "Desmoplastic linitis plastica: the discohesive signet-ring cells of hereditary diffuse gastric cancer infiltrate diffusely and provoke a dense collagenous desmoplastic reaction, the fibrosis that stiffens the stomach wall into the classic 'leather-bottle' linitis plastica."
+  - target: 01-human/03-molecular/perforin
+    relation: connects-to
+    note: "Immunotherapy targets: diffuse gastric cancers often express Claudin-18.2, and CAR-T and bispecific approaches against it aim to direct perforin-mediated cytotoxic killing at a tumour otherwise poorly responsive to checkpoint blockade."
+  - target: 01-human/03-molecular/vegf
+    relation: connects-to
+    note: "Angiogenesis: VEGF-driven angiogenesis supports the growth and peritoneal spread of diffuse gastric cancer, the basis for the anti-VEGFR2 antibody ramucirumab used in advanced gastric cancer."
 ---
 
 # Hereditary Diffuse Gastric Cancer
@@ -507,6 +516,9 @@ Testing for CDH1 (and CTNNA1) is indicated in any of the following:
 - `connects-to` → **[Caspase-3](../../03-molecular/caspase-3/README.md)** — E-cadherin loss confers resistance to anoikis—the caspase-3-mediated apoptosis that normally kills cells detached from their neighbors—letting the discohesive signet-ring cells of HDGC survive and disseminate freely.
 - `connects-to` → **[YAP1](../../03-molecular/yap1/README.md)** — Loss of E-cadherin-dependent contact inhibition frees YAP from Hippo-pathway restraint, driving the proliferative transcriptional program in hereditary diffuse gastric cancer cells beyond the loss of adhesion itself.
 - `connects-to` → **[CXCL12](../../03-molecular/cxcl12/README.md)** — The CXCL12-CXCR4 axis directs the discohesive cells of diffuse gastric cancer to the peritoneum, the transcoelomic dissemination behind the linitis plastica and peritoneal carcinomatosis that the syndrome causes.
+- `connects-to` → **[Collagen](../../03-molecular/collagen/README.md)** — The discohesive signet-ring cells of hereditary diffuse gastric cancer infiltrate diffusely and provoke a dense collagenous desmoplastic reaction, the fibrosis that stiffens the stomach wall into the classic "leather-bottle" linitis plastica.
+- `connects-to` → **[Perforin](../../03-molecular/perforin/README.md)** — Diffuse gastric cancers often express Claudin-18.2, and CAR-T and bispecific approaches against it aim to direct perforin-mediated cytotoxic killing at a tumor otherwise poorly responsive to checkpoint blockade.
+- `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — VEGF-driven angiogenesis supports the growth and peritoneal spread of diffuse gastric cancer, the basis for the anti-VEGFR2 antibody ramucirumab used in advanced gastric cancer.
 
 [^van-der-post-2015-hdgc-guidelines]: van der Post RS, Vogelaar IP, Carneiro F, et al. Hereditary diffuse gastric cancer: updated clinical guidelines with an emphasis on germline CDH1 mutation carriers. *J Med Genet.* 2015;52(6):361-374. [doi:10.1136/jmedgenet-2015-103094](https://doi.org/10.1136/jmedgenet-2015-103094) · [PubMed 25979631](https://pubmed.ncbi.nlm.nih.gov/25979631/)
 [^hansford-2015-hdgc]: Hansford S, Kaurah P, Li-Chang H, et al. Hereditary Diffuse Gastric Cancer Syndrome: CDH1 Mutations and Beyond. *JAMA Oncol.* 2015;1(1):23-32. [doi:10.1001/jamaoncol.2014.168](https://doi.org/10.1001/jamaoncol.2014.168) · [PubMed 26182300](https://pubmed.ncbi.nlm.nih.gov/26182300/)
