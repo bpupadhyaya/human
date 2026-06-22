@@ -304,6 +304,15 @@ cross_links:
   - target: 01-human/03-molecular/perforin
     relation: connects-to
     note: "Cytotoxic HPV immunity: CD8 perforin-mediated killing of HPV-transformed cells underlies the better prognosis and immunotherapy sensitivity of HPV-positive HNSCC, the response that the virus must evade to persist."
+  - target: 01-human/03-molecular/e2f1
+    relation: connects-to
+    note: "HPV oncogene mechanism: in HPV-positive HNSCC the viral E7 protein inactivates Rb, freeing E2F to drive the cell cycle, while E6 degrades p53 — the viral pair that transforms the oropharyngeal cell, distinct from the TP53-mutant smoking-driven disease."
+  - target: 01-human/03-molecular/caspase-3
+    relation: connects-to
+    note: "Chemoradiation apoptosis: cisplatin-based chemoradiation, the organ-preserving standard for locally advanced HNSCC, kills tumour cells through caspase-3-mediated apoptosis, the death pathway whose evasion underlies radioresistance."
+  - target: 01-human/03-molecular/immunoglobulin-g
+    relation: connects-to
+    note: "Vaccine prevention: HPV vaccines induce neutralising IgG that blocks the oral HPV infection driving the rising epidemic of oropharyngeal HNSCC, extending cervical-cancer prevention to head-and-neck cancer."
 ---
 
 # HNSCC
@@ -514,6 +523,9 @@ HPV+ oropharyngeal: Node staging based on number (not laterality); HPV-negative 
 - `connects-to` → **[cGAS-STING](../../03-molecular/cgas-sting/README.md)** — HPV oncoproteins antagonize cGAS-STING in HPV-positive HNSCC, while the high tobacco mutational burden of HPV-negative tumors generates cytosolic DNA—both shaping the responsiveness to checkpoint-inhibitor immunotherapy.
 - `connects-to` → **[CXCL12](../../03-molecular/cxcl12/README.md)** — The CXCL12-CXCR4 axis drives the cervical lymph-node metastasis that dominates HNSCC staging and prognosis, the spread that frequently presents as a neck mass before the primary tumor is found.
 - `connects-to` → **[Perforin](../../03-molecular/perforin/README.md)** — CD8 perforin-mediated killing of HPV-transformed cells underlies the markedly better prognosis and immunotherapy sensitivity of HPV-positive HNSCC, the cytotoxic response the virus must evade to establish persistent infection.
+- `connects-to` → **[E2F1](../../03-molecular/e2f1/README.md)** — In HPV-positive HNSCC the viral E7 protein inactivates Rb, freeing E2F to drive the cell cycle, while E6 degrades p53—the viral pair that transforms the oropharyngeal cell, distinct from the TP53-mutant smoking-driven disease.
+- `connects-to` → **[Caspase-3](../../03-molecular/caspase-3/README.md)** — Cisplatin-based chemoradiation, the organ-preserving standard for locally advanced HNSCC, kills tumor cells through caspase-3-mediated apoptosis, the death pathway whose evasion underlies radioresistance.
+- `connects-to` → **[Immunoglobulin G](../../03-molecular/immunoglobulin-g/README.md)** — HPV vaccines induce neutralizing IgG that blocks the oral HPV infection driving the rising epidemic of oropharyngeal HNSCC, extending cervical-cancer prevention to head-and-neck cancer.
 
 [^burtness-2019-keynote048]: Burtness B, Harrington KJ, Greil R, et al. Pembrolizumab alone or with chemotherapy versus cetuximab with chemotherapy for recurrent or metastatic squamous cell carcinoma of the head and neck (KEYNOTE-048). *Lancet.* 2019;394(10212):1915-1928. [doi:10.1016/S0140-6736(19)32591-7](https://doi.org/10.1016/S0140-6736(19)32591-7) · [PubMed 31679945](https://pubmed.ncbi.nlm.nih.gov/31679945/)
 [^vermorken-2008-extreme]: Vermorken JB, Mesia R, Rivera F, et al. Platinum-based chemotherapy plus cetuximab in head and neck cancer. *N Engl J Med.* 2008;359(11):1116-1127. [doi:10.1056/NEJMoa0802656](https://doi.org/10.1056/NEJMoa0802656) · [PubMed 18784101](https://pubmed.ncbi.nlm.nih.gov/18784101/)

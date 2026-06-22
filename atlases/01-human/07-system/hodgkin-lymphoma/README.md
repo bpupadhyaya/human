@@ -304,6 +304,15 @@ cross_links:
   - target: 01-human/03-molecular/perforin
     relation: connects-to
     note: "Reinvigorated cytotoxicity: the CD8 T cells surrounding Reed-Sternberg cells are exhausted, and PD-1 blockade restores their perforin-mediated killing — the mechanism of Hodgkin lymphoma's remarkable response to checkpoint inhibitors."
+  - target: 01-human/03-molecular/caspase-3
+    relation: connects-to
+    note: "Chemotherapy apoptosis: ABVD and escalated-BEACOPP chemotherapy kill Reed-Sternberg cells through caspase-3-mediated apoptosis, the cytotoxic backbone that cures the majority of Hodgkin lymphoma."
+  - target: 01-human/03-molecular/mhc-class-ii
+    relation: connects-to
+    note: "Immune evasion: Reed-Sternberg cells often downregulate MHC class I and II to escape T-cell recognition, an antigen-presentation defect that, with their PD-L1 amplification, shapes the immunosuppressed niche they build around themselves."
+  - target: 01-human/03-molecular/collagen
+    relation: connects-to
+    note: "Nodular sclerosis: the commonest Hodgkin subtype, nodular sclerosis, is defined by broad collagen bands that divide the node into nodules, a fibrotic stromal reaction orchestrated by the cytokine-secreting Reed-Sternberg cells."
 ---
 
 # Hodgkin Lymphoma
@@ -521,6 +530,9 @@ Modern protocols minimize RT fields and doses (ISRT replacing extended-field RT)
 - `connects-to` → **[LMP1](../../03-molecular/lmp1/README.md)** — In EBV-positive classical Hodgkin lymphoma, the viral protein LMP1 mimics a constitutively active CD40 receptor to drive the NF-κB signaling on which the Reed-Sternberg cells depend for survival—the viral route to the disease's defining pathway.
 - `connects-to` → **[JAK1/2](../../03-molecular/jak1-2/README.md)** — The 9p24.1 amplification of Hodgkin lymphoma co-amplifies JAK2 with PD-L1, driving JAK-STAT signaling and the PD-L1 expression behind both JAK-inhibitor interest and the disease's exquisite sensitivity to PD-1 blockade.
 - `connects-to` → **[Perforin](../../03-molecular/perforin/README.md)** — The CD8 T cells surrounding Reed-Sternberg cells are exhausted, and PD-1 blockade restores their perforin-mediated killing—the mechanism behind Hodgkin lymphoma's remarkable, often durable response to checkpoint inhibitors.
+- `connects-to` → **[Caspase-3](../../03-molecular/caspase-3/README.md)** — ABVD and escalated-BEACOPP chemotherapy kill Reed-Sternberg cells through caspase-3-mediated apoptosis, the cytotoxic backbone that cures the majority of Hodgkin lymphoma.
+- `connects-to` → **[MHC class II](../../03-molecular/mhc-class-ii/README.md)** — Reed-Sternberg cells often downregulate MHC class I and II to escape T-cell recognition, an antigen-presentation defect that, with their PD-L1 amplification, shapes the immunosuppressed niche they build around themselves.
+- `connects-to` → **[Collagen](../../03-molecular/collagen/README.md)** — The commonest Hodgkin subtype, nodular sclerosis, is defined by broad collagen bands that divide the node into nodules, a fibrotic stromal reaction orchestrated by the cytokine-secreting Reed-Sternberg cells.
 
 [^connors-2018-echelon1]: Connors JM, Jurczak W, Straus DJ, et al. Brentuximab vedotin with chemotherapy for stage III or IV Hodgkin's lymphoma. *N Engl J Med.* 2018;378(4):331-344. [doi:10.1056/NEJMoa1708984](https://doi.org/10.1056/NEJMoa1708984) · [PubMed 29360494](https://pubmed.ncbi.nlm.nih.gov/29360494/)
 [^armand-2018-nivo-hl]: Armand P, Engert A, Younes A, et al. Nivolumab for relapsed/refractory classic Hodgkin lymphoma after failure of autologous hematopoietic cell transplantation: extended follow-up of the multicohort single-arm phase II CheckMate 205 trial. *J Clin Oncol.* 2018;36(14):1428-1439. [doi:10.1200/JCO.2017.77.6717](https://doi.org/10.1200/JCO.2017.77.6717) · [PubMed 29584546](https://pubmed.ncbi.nlm.nih.gov/29584546/)
