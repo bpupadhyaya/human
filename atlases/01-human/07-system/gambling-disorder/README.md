@@ -288,6 +288,15 @@ cross_links:
   - target: 01-human/03-molecular/histamine
     relation: connects-to
     note: "Arousal and wakefulness: the histaminergic arousal system sustains the prolonged, high-arousal gambling sessions whose disruption of the sleep-wake balance contributes to the sleep loss seen in the disorder."
+  - target: 01-human/03-molecular/tnf-alpha
+    relation: connects-to
+    note: "Stress inflammation: the chronic stress, sleep loss and sedentary sessions of gambling disorder raise inflammatory cytokines including TNF-α, a peripheral correlate of the cardiovascular and metabolic health toll that accompanies the behavioural addiction."
+  - target: 01-human/03-molecular/estrogen
+    relation: connects-to
+    note: "Sex-dependent reward: estrogen modulates dopaminergic reward circuitry, part of why gambling disorder shows sex differences in onset and course, with women tending to develop problems later but progress faster (telescoping)."
+  - target: 01-human/03-molecular/prolactin
+    relation: connects-to
+    note: "Neuroendocrine probe: serotonergic and dopaminergic challenge tests in pathological gambling use the prolactin response as a readout of monoaminergic function, revealing the altered serotonin signalling linked to its impulsivity."
 sources:
   - id: grant-2016-gambling-review
     type: peer-reviewed
@@ -524,6 +533,9 @@ Persistent and recurrent problematic gambling behavior causing distress (≥4 of
 - `connects-to` → **[GSK-3β](../../03-molecular/gsk-3b/README.md)** — Dopamine D2-receptor signaling converges on GSK-3β, a kinase governing the synaptic plasticity of reward learning implicated in the habit formation and compulsivity that characterize gambling disorder as a behavioral addiction.
 - `connects-to` → **[IL-1β](../../03-molecular/il-1b/README.md)** — Low-grade elevation of IL-1β and related cytokines is reported in behavioral addictions including gambling disorder, part of the neuroimmune changes accompanying chronic dysregulation of the brain's reward circuitry.
 - `connects-to` → **[Histamine](../../03-molecular/histamine/README.md)** — The histaminergic arousal system sustains the prolonged, high-arousal gambling sessions whose disruption of the sleep-wake balance contributes to the sleep loss and fatigue that accompany the disorder.
+- `connects-to` → **[TNF-α](../../03-molecular/tnf-alpha/README.md)** — The chronic stress, sleep loss and sedentary sessions of gambling disorder raise inflammatory cytokines including TNF-α, a peripheral correlate of the cardiovascular and metabolic health toll that accompanies the behavioral addiction.
+- `connects-to` → **[Estrogen](../../03-molecular/estrogen/README.md)** — Estrogen modulates dopaminergic reward circuitry, part of why gambling disorder shows sex differences in onset and course, with women tending to develop problems later but progress faster (telescoping).
+- `connects-to` → **[Prolactin](../../03-molecular/prolactin/README.md)** — Serotonergic and dopaminergic challenge tests in pathological gambling use the prolactin response as a readout of monoaminergic function, revealing the altered serotonin signaling linked to its impulsivity.
 
 [^potenza-2014-gambling-neuroscience]: Potenza MN. The neurobiology of pathological gambling and drug addiction: an overview and new findings. *Philos Trans R Soc Lond B Biol Sci.* 2008;363(1507):3181-3189. [doi:10.1098/rstb.2008.0100](https://doi.org/10.1098/rstb.2008.0100) · [PubMed 18640909](https://pubmed.ncbi.nlm.nih.gov/18640909/)
 [^grant-2016-gambling-review]: Grant JE, Chamberlain SR. Gambling disorder and its relationship with substance use disorders. *Am J Addict.* 2015;24(2):126-131. [doi:10.1111/ajad.12112](https://doi.org/10.1111/ajad.12112) · [PubMed 25376793](https://pubmed.ncbi.nlm.nih.gov/25376793/)

@@ -310,6 +310,15 @@ cross_links:
   - target: 01-human/03-molecular/histamine
     relation: connects-to
     note: "Histaminergic arousal: central H1 histamine signalling drives the wakeful arousal that anxiety heightens, which is why the H1 antihistamine hydroxyzine is an established non-addictive anxiolytic for the disorder."
+  - target: 01-human/03-molecular/cgrp
+    relation: connects-to
+    note: "Anxiogenic neuropeptide: CGRP released from the parabrachial nucleus into the amygdala signals threat and heightens anxiety, a neuropeptide arm of the fear circuitry implicated in generalized anxiety and its comorbidity with migraine."
+  - target: 01-human/03-molecular/orexin
+    relation: connects-to
+    note: "Hyperarousal: orexin signalling that drives wakefulness and stress responses is elevated in anxiety, contributing to the persistent hyperarousal, tension and disturbed sleep that characterise generalized anxiety disorder."
+  - target: 01-human/03-molecular/acetylcholine
+    relation: connects-to
+    note: "Autonomic anxiety: cholinergic signalling shapes the autonomic and arousal responses of anxiety, and an imbalance between cholinergic and adrenergic tone contributes to the somatic symptoms — restlessness, palpitations — of generalized anxiety disorder."
 ---
 
 # Generalized Anxiety Disorder
@@ -545,6 +554,9 @@ Allow **4-8 weeks** for onset of anxiolytic effect. Continue treatment ≥12 mon
 - `connects-to` → **[Estrogen](../../03-molecular/estrogen/README.md)** — Estrogen tunes serotonergic and GABAergic tone, and anxiety in women often worsens during the perimenstrual and perimenopausal low-estrogen windows, implicating ovarian hormones in the course of generalized anxiety disorder.
 - `connects-to` → **[Substance P](../../03-molecular/substance-p/README.md)** — Substance P acting on NK1 receptors in the amygdala drives anxiety and the stress response, the rationale behind the NK1-antagonist anxiolytics tested (with mixed results) for generalized anxiety disorder.
 - `connects-to` → **[Histamine](../../03-molecular/histamine/README.md)** — Central H1 histamine signaling drives the wakeful arousal that anxiety heightens, which is why the H1 antihistamine hydroxyzine is an established non-addictive anxiolytic option for generalized anxiety disorder.
+- `connects-to` → **[CGRP](../../03-molecular/cgrp/README.md)** — CGRP released from the parabrachial nucleus into the amygdala signals threat and heightens anxiety, a neuropeptide arm of the fear circuitry implicated in generalized anxiety and its comorbidity with migraine.
+- `connects-to` → **[Orexin](../../03-molecular/orexin/README.md)** — Orexin signaling that drives wakefulness and stress responses is elevated in anxiety, contributing to the persistent hyperarousal, tension and disturbed sleep that characterize generalized anxiety disorder.
+- `connects-to` → **[Acetylcholine](../../03-molecular/acetylcholine/README.md)** — Cholinergic signaling shapes the autonomic and arousal responses of anxiety, and an imbalance between cholinergic and adrenergic tone contributes to the somatic symptoms—restlessness, palpitations—of generalized anxiety disorder.
 
 [^kessler-2005-gad-prevalence]: Kessler RC, Berglund P, Demler O, et al. Lifetime prevalence and age-of-onset distributions of DSM-IV disorders in the NCS Replication. *Arch Gen Psychiatry.* 2005;62(6):593-602. [doi:10.1001/archpsyc.62.6.593](https://doi.org/10.1001/archpsyc.62.6.593) · [PubMed 15939837](https://pubmed.ncbi.nlm.nih.gov/15939837/)
 [^bandelow-2015-anxiety-biology]: Bandelow B, Michaelis S. Epidemiology of anxiety disorders in the 21st century. *Dialogues Clin Neurosci.* 2015;17(3):327-335. [doi:10.31887/DCNS.2015.17.3/bbandelow](https://doi.org/10.31887/DCNS.2015.17.3/bbandelow) · [PubMed 26487812](https://pubmed.ncbi.nlm.nih.gov/26487812/)
