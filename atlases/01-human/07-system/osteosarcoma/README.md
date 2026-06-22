@@ -295,6 +295,15 @@ cross_links:
   - target: 01-human/03-molecular/rad51
     relation: connects-to
     note: "Genomic instability: osteosarcoma genomes show chromothripsis and homologous-recombination defects that engage RAD51-mediated repair, underpinning the rationale for PARP inhibitors in HRD-bearing tumours."
+  - target: 01-human/03-molecular/caspase-3
+    relation: connects-to
+    note: "Chemotherapy apoptosis: the MAP regimen (methotrexate, doxorubicin, cisplatin) kills osteosarcoma cells through caspase-3-mediated apoptosis, and defects in this death programme underlie the chemoresistance that limits survival in metastatic disease."
+  - target: 01-human/03-molecular/osteopontin
+    relation: connects-to
+    note: "Bone-matrix metastasis: osteosarcoma cells secrete osteopontin, the bone-matrix phosphoprotein that promotes their migration and seeding of the lungs, the metastatic site that determines prognosis in this aggressive bone tumour."
+  - target: 01-human/03-molecular/ccl2
+    relation: connects-to
+    note: "Macrophage immunotherapy: CCL2 recruits the tumour-associated macrophages of osteosarcoma, the cells reprogrammed by mifamurtide (liposomal MTP-PE), the macrophage-activating immunotherapy added to chemotherapy in non-metastatic disease."
 ---
 
 # Osteosarcoma
@@ -518,6 +527,9 @@ OS is relatively radiation-resistant (high-dose radiation ~70+ Gy may achieve lo
 - `connects-to` → **[Src kinase](../../03-molecular/src-kinase/README.md)** — SRC is hyperactive in osteosarcoma, driving the migration and invasion that seed lung metastases—the rationale for testing SRC inhibitors such as dasatinib in this aggressive bone cancer where metastatic spread dominates mortality.
 - `connects-to` → **[CXCL12](../../03-molecular/cxcl12/README.md)** — The CXCL12-CXCR4 axis directs osteosarcoma cells toward the lung and bone marrow, and high CXCR4 expression predicts the pulmonary metastases that dominate osteosarcoma mortality—linking a chemokine gradient to the disease's lethal endpoint.
 - `connects-to` → **[RAD51](../../03-molecular/rad51/README.md)** — Osteosarcoma genomes show chromothripsis and homologous-recombination defects that engage RAD51-mediated repair, underpinning the rationale for PARP inhibitors in the subset of HRD-bearing tumors with this BRCA-like signature.
+- `connects-to` → **[Caspase-3](../../03-molecular/caspase-3/README.md)** — The MAP regimen (methotrexate, doxorubicin, cisplatin) kills osteosarcoma cells through caspase-3-mediated apoptosis, and defects in this death program underlie the chemoresistance that limits survival in metastatic disease.
+- `connects-to` → **[Osteopontin](../../03-molecular/osteopontin/README.md)** — Osteosarcoma cells secrete osteopontin, the bone-matrix phosphoprotein that promotes their migration and seeding of the lungs, the metastatic site that determines prognosis in this aggressive bone tumor.
+- `connects-to` → **[CCL2](../../03-molecular/ccl2/README.md)** — CCL2 recruits the tumor-associated macrophages of osteosarcoma, the cells reprogrammed by mifamurtide (liposomal MTP-PE), the macrophage-activating immunotherapy added to chemotherapy in non-metastatic disease.
 
 [^bielack-2002-coss-osteosarcoma]: Bielack SS, Kempf-Bielack B, Delling G, et al. Prognostic factors in high-grade osteosarcoma of the extremities or trunk: an analysis of 1,702 patients treated on neoadjuvant Cooperative Osteosarcoma Study Group protocols. *J Clin Oncol.* 2002;20(3):776-790. [doi:10.1200/JCO.2002.20.3.776](https://doi.org/10.1200/JCO.2002.20.3.776) · [PubMed 11821461](https://pubmed.ncbi.nlm.nih.gov/11821461/)
 [^marina-2016-euramos1-osteosarcoma]: Marina NM, Smeland S, Bielack SS, et al. Comparison of MAPIE versus MAP in patients with a poor response to preoperative chemotherapy for newly diagnosed high-grade osteosarcoma (EURAMOS-1). *Lancet Oncol.* 2016;17(10):1396-1408. [doi:10.1016/S1470-2045(16)30214-5](https://doi.org/10.1016/S1470-2045(16)30214-5) · [PubMed 27569442](https://pubmed.ncbi.nlm.nih.gov/27569442/)

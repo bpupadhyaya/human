@@ -295,6 +295,15 @@ cross_links:
   - target: 01-human/03-molecular/cgas-sting
     relation: connects-to
     note: "HRD immunogenicity: BRCA-mutant, homologous-recombination-deficient ovarian cancers accumulate cytosolic DNA that activates cGAS-STING, the innate-immune basis for combining PARP inhibitors with checkpoint blockade."
+  - target: 01-human/03-molecular/caspase-3
+    relation: connects-to
+    note: "Platinum-induced apoptosis: carboplatin-paclitaxel kills ovarian carcinoma through caspase-3-mediated apoptosis, and the eventual evasion of this death programme defines the platinum-resistant relapse that is the lethal phase of high-grade serous disease."
+  - target: 01-human/03-molecular/pten
+    relation: connects-to
+    note: "Histotype-specific driver: PTEN loss activates PI3K-AKT signalling in the endometriosis-associated endometrioid and clear-cell ovarian carcinomas, the histotypes distinct from BRCA-driven high-grade serous disease."
+  - target: 01-human/03-molecular/mlh1
+    relation: connects-to
+    note: "Mismatch-repair deficiency: MLH1 silencing produces the microsatellite-instable endometrioid and clear-cell ovarian cancers seen in Lynch syndrome, a DNA-repair defect distinct from BRCA-related homologous-recombination loss and a basis for checkpoint blockade."
 ---
 
 # Ovarian Cancer
@@ -503,6 +512,9 @@ FTSEC ciliated and secretory cells line the Fallopian tube; secretory cells are 
 - `connects-to` → **[IL-6](../../03-molecular/il-6/README.md)** — IL-6 is abundant in ovarian-cancer ascites, where it drives JAK-STAT3 signaling that sustains tumor-cell survival and spheroid formation and fuels the cachexia that marks advanced peritoneal disease—an inflammatory axis layered on the HRD genetics.
 - `connects-to` → **[TGF-β](../../03-molecular/tgf-beta/README.md)** — TGF-β in the omental microenvironment drives the mesothelial-to-mesenchymal transition that prepares the peritoneum for ovarian-cancer implantation, while excluding T cells from the tumor to blunt immunotherapy in this otherwise "cold" cancer.
 - `connects-to` → **[cGAS-STING](../../03-molecular/cgas-sting/README.md)** — BRCA-mutant, homologous-recombination-deficient ovarian cancers accumulate cytosolic DNA that activates cGAS-STING, generating type-I interferon—the innate-immune rationale for combining PARP inhibitors with checkpoint blockade in HRD disease.
+- `connects-to` → **[Caspase-3](../../03-molecular/caspase-3/README.md)** — Carboplatin-paclitaxel kills ovarian carcinoma through caspase-3-mediated apoptosis, and the eventual evasion of this death program defines the platinum-resistant relapse that is the lethal phase of high-grade serous disease.
+- `connects-to` → **[PTEN](../../03-molecular/pten/README.md)** — PTEN loss activates PI3K-AKT signaling in the endometriosis-associated endometrioid and clear-cell ovarian carcinomas, the histotypes distinct from BRCA-driven high-grade serous disease.
+- `connects-to` → **[MLH1](../../03-molecular/mlh1/README.md)** — MLH1 silencing produces the microsatellite-instable endometrioid and clear-cell ovarian cancers seen in Lynch syndrome, a DNA-repair defect distinct from BRCA-related homologous-recombination loss and a basis for checkpoint blockade.
 
 [^burger-2011-gog0218]: Burger RA, Brady MF, Bookman MA, et al. Incorporation of bevacizumab in the primary treatment of ovarian cancer. *N Engl J Med.* 2011;365(26):2473-2483. [doi:10.1056/NEJMoa1104390](https://doi.org/10.1056/NEJMoa1104390) · [PubMed 22204724](https://pubmed.ncbi.nlm.nih.gov/22204724/)
 [^moore-2018-olaparib-solo1]: Moore K, Colombo N, Scambia G, et al. Maintenance olaparib in patients with newly diagnosed advanced ovarian cancer. *N Engl J Med.* 2018;379(26):2495-2505. [doi:10.1056/NEJMoa1810858](https://doi.org/10.1056/NEJMoa1810858) · [PubMed 30345884](https://pubmed.ncbi.nlm.nih.gov/30345884/)
