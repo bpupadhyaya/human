@@ -298,6 +298,15 @@ cross_links:
   - target: 01-human/03-molecular/rankl
     relation: connects-to
     note: "Osteosclerosis: dysregulated RANKL-driven osteoclast and osteoblast activity contributes to the osteosclerosis that thickens and remodels trabecular bone in advanced myelofibrosis, narrowing the marrow space."
+  - target: 01-human/03-molecular/sf3b1
+    relation: connects-to
+    note: "High-risk comutations: spliceosome mutations such as SF3B1, U2AF1 and SRSF2, acquired alongside the JAK2/CALR/MPL driver, mark the higher-risk myelofibrosis more likely to progress to leukaemia and inform prognostic scoring."
+  - target: 01-human/03-molecular/fgfr
+    relation: connects-to
+    note: "Fibrogenic growth factor: clonal megakaryocytes release basic FGF that, with PDGF and TGF-β, signals through FGFR on marrow fibroblasts to drive the reticulin and collagen fibrosis that progressively replaces the haematopoietic marrow."
+  - target: 01-human/03-molecular/s100a8-a9
+    relation: connects-to
+    note: "Inflammatory niche: S100A8/A9 alarmins released in the myelofibrotic marrow amplify the chronic inflammation that both drives the constitutional symptoms and feeds the fibrotic, cytokine-rich niche supporting the malignant clone."
 ---
 
 # Myelofibrosis
@@ -519,6 +528,9 @@ Abrupt ruxolitinib cessation → cytokine rebound → fever, splenomegaly surge,
 - `connects-to` → **[PF4](../../03-molecular/pf4/README.md)** — Platelet factor 4 (CXCL4) released by the abnormal megakaryocytes of myelofibrosis is a direct driver of fibroblast activation and collagen deposition—a key megakaryocyte-to-stroma signal behind the reticulin and collagen marrow fibrosis that defines the disease.
 - `connects-to` → **[BCL-2](../../03-molecular/bcl-2/README.md)** — The malignant clone of myelofibrosis depends on BCL-xL/BCL-2 for survival, the rationale for adding the BCL-2/BCL-xL inhibitor navitoclax to ruxolitinib in patients whose disease progresses on JAK inhibition alone.
 - `connects-to` → **[RANKL](../../03-molecular/rankl/README.md)** — Dysregulated RANKL-driven osteoclast and osteoblast activity contributes to the osteosclerosis that thickens and remodels trabecular bone in advanced myelofibrosis, further narrowing the marrow space and worsening cytopenias.
+- `connects-to` → **[SF3B1](../../03-molecular/sf3b1/README.md)** — Spliceosome mutations such as SF3B1, U2AF1 and SRSF2, acquired alongside the JAK2/CALR/MPL driver, mark the higher-risk myelofibrosis more likely to progress to leukemia and inform prognostic scoring.
+- `connects-to` → **[FGFR](../../03-molecular/fgfr/README.md)** — Clonal megakaryocytes release basic FGF that, with PDGF and TGF-β, signals through FGFR on marrow fibroblasts to drive the reticulin and collagen fibrosis that progressively replaces the hematopoietic marrow.
+- `connects-to` → **[S100A8/A9](../../03-molecular/s100a8-a9/README.md)** — S100A8/A9 alarmins released in the myelofibrotic marrow amplify the chronic inflammation that both drives the constitutional symptoms and feeds the fibrotic, cytokine-rich niche supporting the malignant clone.
 
 ---
 

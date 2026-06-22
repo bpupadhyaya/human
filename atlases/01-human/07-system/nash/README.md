@@ -304,6 +304,15 @@ cross_links:
   - target: 01-human/03-molecular/caspase-3
     relation: connects-to
     note: "Hepatocyte apoptosis: caspase-mediated hepatocyte apoptosis underlies the ballooning degeneration and cytokeratin-18 release that mark NASH, the basis for pan-caspase inhibitors (emricasan) trialed in the disease."
+  - target: 01-human/03-molecular/fgfr
+    relation: connects-to
+    note: "FGF21 analogue therapy: FGF21 acting through FGFR1c with β-Klotho improves hepatic fat handling and insulin sensitivity, the rationale for the FGF21-analogue drugs (efruxifermin, pegozafermin) that reduce liver fat and fibrosis in NASH trials."
+  - target: 01-human/03-molecular/hepcidin
+    relation: connects-to
+    note: "Dysmetabolic iron overload: many NASH patients accumulate hepatic iron with raised ferritin, and the hepcidin-controlled iron loading adds oxidative stress that aggravates lipotoxic injury and fibrosis, the basis for venesection trials in the disease."
+  - target: 01-human/03-molecular/xanthine-oxidase
+    relation: connects-to
+    note: "Oxidative and urate stress: xanthine-oxidase activity in the steatotic liver generates reactive oxygen species and the hyperuricaemia associated with NAFLD, both contributing to the lipotoxic, pro-inflammatory milieu that drives progression to NASH."
 ---
 
 # NASH
@@ -488,6 +497,9 @@ NASH pathogenesis is driven by multiple simultaneous and sequential hits, not a 
 - `connects-to` → **[TLR4](../../03-molecular/tlr4/README.md)** — A leaky gut delivers bacterial LPS through the portal vein to Kupffer-cell TLR4, igniting the NF-κB-driven inflammation that helps convert simple steatosis into steatohepatitis—the gut-liver axis of NASH pathogenesis.
 - `connects-to` → **[Galectin-3](../../03-molecular/galectin-3/README.md)** — Galectin-3 from activated macrophages promotes hepatic stellate-cell activation and fibrosis in NASH, the rationale for galectin-3 inhibitors such as belapectin tested to halt the progression toward cirrhosis and portal hypertension.
 - `connects-to` → **[Caspase-3](../../03-molecular/caspase-3/README.md)** — Caspase-mediated hepatocyte apoptosis underlies the ballooning degeneration and cytokeratin-18 release that mark NASH histologically, the basis for the pan-caspase inhibitors (emricasan) trialed to slow hepatocyte loss and fibrosis.
+- `connects-to` → **[FGFR](../../03-molecular/fgfr/README.md)** — FGF21 acting through FGFR1c with β-Klotho improves hepatic fat handling and insulin sensitivity, the rationale for the FGF21-analogue drugs (efruxifermin, pegozafermin) that reduce liver fat and fibrosis in NASH trials.
+- `connects-to` → **[Hepcidin](../../03-molecular/hepcidin/README.md)** — Many NASH patients accumulate hepatic iron with raised ferritin, and the hepcidin-controlled iron loading adds oxidative stress that aggravates lipotoxic injury and fibrosis, the basis for venesection trials in the disease.
+- `connects-to` → **[Xanthine Oxidase](../../03-molecular/xanthine-oxidase/README.md)** — Xanthine-oxidase activity in the steatotic liver generates reactive oxygen species and the hyperuricemia associated with NAFLD, both contributing to the lipotoxic, pro-inflammatory milieu that drives progression to NASH.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
