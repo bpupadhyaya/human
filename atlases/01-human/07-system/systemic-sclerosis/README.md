@@ -301,6 +301,15 @@ cross_links:
   - target: 01-human/03-molecular/serotonin
     relation: connects-to
     note: "Serotonergic fibrosis: platelet-derived serotonin acting on 5-HT2B receptors stimulates dermal fibroblasts to make collagen and contributes to the vasoconstriction of Raynaud's, linking platelet activation to scleroderma fibrosis."
+  - target: 01-human/03-molecular/periostin
+    relation: connects-to
+    note: "Matricellular fibrosis: periostin is upregulated in the skin and lung of systemic sclerosis, where this matricellular protein crosslinks collagen and amplifies TGF-β-driven fibroblast activation, and serum periostin tracks the extent of fibrosis."
+  - target: 01-human/03-molecular/angiopoietin
+    relation: connects-to
+    note: "Vasculopathy: an imbalance of angiopoietin-Tie2 signalling destabilises the microvasculature of systemic sclerosis, contributing to the capillary loss, digital ulcers and pulmonary arterial hypertension that mark its obliterative vasculopathy."
+  - target: 01-human/03-molecular/il-33
+    relation: connects-to
+    note: "Profibrotic alarmin: IL-33 released from damaged endothelium and epithelium in systemic sclerosis activates type-2 innate lymphoid cells and amplifies the IL-13/IL-4 axis, driving the Th2-skewed fibrotic response in skin and lung."
 ---
 
 # Systemic Sclerosis
@@ -509,6 +518,9 @@ Identical to IPAH: medial hypertrophy, intimal fibrosis, concentric laminar inti
 - `connects-to` → **[CD20](../../03-molecular/cd20/README.md)** — Rituximab targets CD20+ B cells in systemic sclerosis, reducing skin and lung fibrosis—evidence that autoreactive B cells and their autoantibodies (anti-Scl70, anti-RNA-pol III), not just activated fibroblasts, drive the disease.
 - `connects-to` → **[JAK1/2](../../03-molecular/jak1-2/README.md)** — The interferon and IL-6 signatures of systemic sclerosis act through JAK-STAT, making JAK1/2 inhibitors such as tofacitinib a candidate to dampen both the inflammatory and the profibrotic arms of the disease at once.
 - `connects-to` → **[Serotonin](../../03-molecular/serotonin/README.md)** — Platelet-derived serotonin acting on 5-HT2B receptors stimulates dermal fibroblasts to produce collagen and contributes to the vasoconstriction of Raynaud's phenomenon—linking the platelet activation of SSc vasculopathy directly to its fibrosis.
+- `connects-to` → **[Periostin](../../03-molecular/periostin/README.md)** — Periostin is upregulated in the skin and lung of systemic sclerosis, where this matricellular protein crosslinks collagen and amplifies TGF-β-driven fibroblast activation, and serum periostin tracks the extent of fibrosis.
+- `connects-to` → **[Angiopoietin](../../03-molecular/angiopoietin/README.md)** — An imbalance of angiopoietin-Tie2 signaling destabilizes the microvasculature of systemic sclerosis, contributing to the capillary loss, digital ulcers and pulmonary arterial hypertension that mark its obliterative vasculopathy.
+- `connects-to` → **[IL-33](../../03-molecular/il-33/README.md)** — IL-33 released from damaged endothelium and epithelium in systemic sclerosis activates type-2 innate lymphoid cells and amplifies the IL-13/IL-4 axis, driving the Th2-skewed fibrotic response in skin and lung.
 
 [^denton-2017-ssc-review]: Denton CP, Khanna D. Systemic sclerosis. *Lancet.* 2017;390(10103):1685-1699. [doi:10.1016/S0140-6736(17)30933-9](https://doi.org/10.1016/S0140-6736(17)30933-9) · [PubMed 28413064](https://pubmed.ncbi.nlm.nih.gov/28413064/)
 [^distler-2019-nintedanib-senscis]: Distler O, Highland KB, Gahlemann M, et al. Nintedanib for Systemic Sclerosis-Associated Interstitial Lung Disease. *N Engl J Med.* 2019;380(26):2518-2528. [doi:10.1056/NEJMoa1903076](https://doi.org/10.1056/NEJMoa1903076) · [PubMed 31112379](https://pubmed.ncbi.nlm.nih.gov/31112379/)

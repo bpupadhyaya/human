@@ -301,6 +301,15 @@ cross_links:
   - target: 01-human/03-molecular/tlr4
     relation: connects-to
     note: "Inflammatory trigger: infection-driven TLR4 signalling on endothelium promotes Weibel-Palade-body release of VWF, helping explain why infections and inflammation precipitate acute TTP episodes and relapses."
+  - target: 01-human/03-molecular/mhc-class-ii
+    relation: connects-to
+    note: "Genetic predisposition: the HLA-DRB1*11 allele predisposes to acquired TTP by favouring presentation of ADAMTS13 peptides to T cells, helping break tolerance and license the autoantibodies that inhibit the enzyme."
+  - target: 01-human/03-molecular/bcl-2
+    relation: connects-to
+    note: "Refractory plasma cells: long-lived anti-ADAMTS13 plasma cells survive on BCL-2 and escape rituximab, the rationale for proteasome-inhibitor or anti-CD38 plasma-cell-directed therapy in relapsing or refractory acquired TTP."
+  - target: 01-human/03-molecular/s100a8-a9
+    relation: connects-to
+    note: "Neutrophil thrombo-inflammation: neutrophils releasing S100A8/A9 and extracellular traps (NETs) within the microvasculature amplify the platelet-VWF microthrombi of TTP, adding an innate-immune layer to the ADAMTS13-deficient thrombotic process."
 ---
 
 # Thrombotic Thrombocytopenic Purpura
@@ -550,6 +559,9 @@ In healthy individuals, ADAMTS13 (~190 kDa plasma glycoprotein; hepatic synthesi
 - `connects-to` → **[PF4](../../03-molecular/pf4/README.md)** — Platelets caught in the VWF-rich microthrombi of TTP degranulate and release platelet factor 4, a marker of the platelet consumption that produces the profound thrombocytopenia central to the diagnosis.
 - `connects-to` → **[BAFF](../../03-molecular/baff/README.md)** — In immune TTP, BAFF supports the autoreactive B cells that produce the anti-ADAMTS13 IgG autoantibodies—the autoimmune mechanism underlying the acquired form and the rationale for B-cell-directed therapy alongside rituximab.
 - `connects-to` → **[TLR4](../../03-molecular/tlr4/README.md)** — Infection-driven TLR4 signaling on endothelium promotes Weibel-Palade-body release of ultra-large VWF multimers, helping explain why infections and inflammation so often precipitate acute TTP episodes and relapses in susceptible patients.
+- `connects-to` → **[MHC class II](../../03-molecular/mhc-class-ii/README.md)** — The HLA-DRB1*11 allele predisposes to acquired TTP by favoring presentation of ADAMTS13 peptides to T cells, helping break tolerance and license the autoantibodies that inhibit the enzyme.
+- `connects-to` → **[BCL-2](../../03-molecular/bcl-2/README.md)** — Long-lived anti-ADAMTS13 plasma cells survive on BCL-2 and escape rituximab, the rationale for proteasome-inhibitor or anti-CD38 plasma-cell-directed therapy in relapsing or refractory acquired TTP.
+- `connects-to` → **[S100A8/A9](../../03-molecular/s100a8-a9/README.md)** — Neutrophils releasing S100A8/A9 and extracellular traps (NETs) within the microvasculature amplify the platelet-VWF microthrombi of TTP, adding an innate-immune layer to the ADAMTS13-deficient thrombotic process.
 
 ---
 
