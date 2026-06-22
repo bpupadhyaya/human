@@ -301,6 +301,15 @@ cross_links:
   - target: 01-human/03-molecular/il-1b
     relation: connects-to
     note: "Innate amplification: IL-1β from activated keratinocytes and myeloid cells adds an innate inflammatory arm to the dominant type-2 cytokine response in prurigo nodularis lesions, reinforcing the chronic inflammation."
+  - target: 01-human/03-molecular/tgf-beta
+    relation: connects-to
+    note: "Nodule fibrosis: TGF-β drives the dermal fibroblast activation and collagen deposition that build the firm, hyperkeratotic nodules of prurigo nodularis, the fibrotic remodelling that distinguishes its lesions from ordinary eczema."
+  - target: 01-human/03-molecular/glutamate
+    relation: connects-to
+    note: "Central itch sensitisation: glutamatergic transmission in the spinal dorsal horn relays and amplifies itch, and central sensitisation of these pathways helps explain the intractable, self-perpetuating itch-scratch cycle of prurigo nodularis."
+  - target: 01-human/03-molecular/prostaglandins
+    relation: connects-to
+    note: "Pruritogenic eicosanoids: prostaglandins released in inflamed skin sensitise sensory nerve endings and lower the itch threshold, an eicosanoid contributor to the relentless pruritus that drives the scratching behind prurigo nodularis."
 ---
 
 # Prurigo Nodularis
@@ -478,6 +487,9 @@ PN affects approximately **72,000 patients** in the US; true prevalence is likel
 - `connects-to` → **[NTRK / TrkA](../../03-molecular/ntrk/README.md)** — Nerve growth factor signaling through TrkA drives the dermal nerve-fiber proliferation characteristic of prurigo nodularis, sensitizing the skin and perpetuating the chronic itch-scratch cycle that builds the nodules.
 - `connects-to` → **[KIT](../../03-molecular/kit/README.md)** — KIT-dependent mast cells accumulate in prurigo nodularis lesions, releasing pruritogens and neuropeptides that feed the neuroimmune itch and contribute to the dermal inflammatory infiltrate of the nodules.
 - `connects-to` → **[IL-1β](../../03-molecular/il-1b/README.md)** — IL-1β from activated keratinocytes and myeloid cells adds an innate inflammatory arm to the dominant type-2 cytokine response in prurigo nodularis, reinforcing the chronic inflammation that sustains the lesions.
+- `connects-to` → **[TGF-β](../../03-molecular/tgf-beta/README.md)** — TGF-β drives the dermal fibroblast activation and collagen deposition that build the firm, hyperkeratotic nodules of prurigo nodularis, the fibrotic remodeling that distinguishes its lesions from ordinary eczema.
+- `connects-to` → **[Glutamate](../../03-molecular/glutamate/README.md)** — Glutamatergic transmission in the spinal dorsal horn relays and amplifies itch, and central sensitization of these pathways helps explain the intractable, self-perpetuating itch-scratch cycle of prurigo nodularis.
+- `connects-to` → **[Prostaglandins](../../03-molecular/prostaglandins/README.md)** — Prostaglandins released in inflamed skin sensitize sensory nerve endings and lower the itch threshold, an eicosanoid contributor to the relentless pruritus that drives the scratching behind prurigo nodularis.
 
 [^stander-2020-nemolizumab-pn]: Ständer S, Yosipovitch G, Legat FJ, et al. Trial of nemolizumab in moderate-to-severe prurigo nodularis. *N Engl J Med.* 2020;382(8):706-716. [doi:10.1056/NEJMoa1908316](https://doi.org/10.1056/NEJMoa1908316) · [PubMed 32053299](https://pubmed.ncbi.nlm.nih.gov/32053299/)
 [^briggs-2022-dupilumab-pn-liberty]: Briggs JN, Cho YY, Khanna R, et al. Dupilumab for prurigo nodularis: the LIBERTY-PN PRIME and PRIME2 trials. *N Engl J Med.* 2022;387(18):1683-1693. [doi:10.1056/NEJMoa2205093](https://doi.org/10.1056/NEJMoa2205093) · [PubMed 36300905](https://pubmed.ncbi.nlm.nih.gov/36300905/)

@@ -306,6 +306,15 @@ cross_links:
   - target: 01-human/03-molecular/endothelin-1
     relation: connects-to
     note: "Pulmonary vascular tone: endothelin-1 is the dominant constrictor of the pulmonary circulation and the mediator of hypoxic pulmonary vasoconstriction, the basis for endothelin antagonists in pulmonary hypertension."
+  - target: 01-human/03-molecular/secretory-iga
+    relation: connects-to
+    note: "Mucosal defence: secretory IgA coating the airway epithelium neutralises inhaled pathogens at the mucosal surface, the first line of respiratory immune defence that protects the vast air-tissue interface of the lungs from constant microbial exposure."
+  - target: 01-human/03-molecular/epas1
+    relation: connects-to
+    note: "Oxygen sensing: HIF-2α (EPAS1) is the master oxygen sensor of the pulmonary circulation and carotid body, driving hypoxic pulmonary vasoconstriction and the ventilatory and erythropoietic responses that adapt the respiratory system to low oxygen."
+  - target: 01-human/03-molecular/epinephrine
+    relation: connects-to
+    note: "Bronchodilation: epinephrine acting on β2-adrenergic receptors relaxes airway smooth muscle to widen the bronchi, the basis of the β2-agonist inhalers that are the mainstay of relieving acute airflow obstruction."
 taxonomy:
   uberon: "UBERON:0001004"
   fma: "FMA:7161"
@@ -483,6 +492,9 @@ The mucociliary escalator (ciliated cells + goblet cell mucus) continuously clea
 - **Connects-to** → [Bradykinin](../../03-molecular/bradykinin/README.md): Kinin metabolism: the pulmonary endothelium is the principal site of ACE-mediated bradykinin degradation, so ACE inhibitors raise airway bradykinin and cause the dry cough that is their hallmark side effect.
 - **Connects-to** → [Prostaglandins](../../03-molecular/prostaglandins/README.md): Airway and vascular tone: prostaglandins and related eicosanoids set bronchial tone (PGE2 dilating, leukotrienes constricting) and modulate the pulmonary circulation, central mediators of airway physiology and asthma.
 - **Connects-to** → [Endothelin-1](../../03-molecular/endothelin-1/README.md): Pulmonary vascular tone: endothelin-1 is the dominant constrictor of the pulmonary circulation and the mediator of hypoxic pulmonary vasoconstriction, the basis for endothelin antagonists in pulmonary hypertension.
+- **Connects-to** → [Secretory IgA](../../03-molecular/secretory-iga/README.md): mucosal defense: secretory IgA coating the airway epithelium neutralizes inhaled pathogens at the mucosal surface, the first line of respiratory immune defense that protects the vast air-tissue interface of the lungs from constant microbial exposure.
+- **Connects-to** → [EPAS1](../../03-molecular/epas1/README.md): oxygen sensing: HIF-2α (EPAS1) is the master oxygen sensor of the pulmonary circulation and carotid body, driving hypoxic pulmonary vasoconstriction and the ventilatory and erythropoietic responses that adapt the respiratory system to low oxygen.
+- **Connects-to** → [Epinephrine](../../03-molecular/epinephrine/README.md): bronchodilation: epinephrine acting on β2-adrenergic receptors relaxes airway smooth muscle to widen the bronchi, the basis of the β2-agonist inhalers that are the mainstay of relieving acute airflow obstruction.
 - `prevented-by` → **[PCV13 (Prevnar 13)](../../../../04-vaccine/08-conjugate/pcv13/README.md)** — CAPiTA RCT (N=84,496 adults ≥65): PCV13 achieved 45.6% VE against vaccine-type CAP and 75% VE against invasive pneumococcal disease; prevents pneumococcal pneumonia, the leading infectious cause of respiratory hospitalisation in older adults.
 
 ## Pathology
