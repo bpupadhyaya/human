@@ -304,6 +304,15 @@ cross_links:
   - target: 01-human/03-molecular/substance-p
     relation: connects-to
     note: "Neurogenic inflammation: substance P released from airway sensory nerves causes bronchoconstriction, mucus secretion and plasma extravasation, the neural arm of asthmatic airway inflammation and cough."
+  - target: 01-human/03-molecular/s100a8-a9
+    relation: connects-to
+    note: "Neutrophilic endotype: S100A8/A9 from airway neutrophils marks the non-type-2, neutrophilic asthma that responds poorly to corticosteroids and eosinophil-targeted biologics, defining a distinct endotype that needs different therapeutic strategies."
+  - target: 01-human/03-molecular/endothelin-1
+    relation: connects-to
+    note: "Smooth-muscle remodelling: endothelin-1 from airway epithelium is a potent bronchoconstrictor and mitogen for airway smooth muscle, contributing to the smooth-muscle hyperplasia and subepithelial fibrosis of asthmatic airway remodelling."
+  - target: 01-human/03-molecular/adiponectin
+    relation: connects-to
+    note: "Obese-asthma phenotype: low adiponectin in obesity removes an anti-inflammatory brake on the airways, part of why the obese-asthma phenotype is more severe and steroid-resistant, complementing the pro-inflammatory leptin of the same metabolic axis."
 ---
 
 # Asthma
@@ -508,6 +517,9 @@ Asthma affects approximately **339 million people worldwide** (WHO 2019) and is 
 - `connects-to` → **[KIT](../../03-molecular/kit/README.md)** — Stem-cell factor signaling through KIT maintains the airway mast cells whose IgE-triggered degranulation releases the histamine and leukotrienes driving the acute bronchoconstriction of allergic asthma—the effector cell behind the immediate response.
 - `connects-to` → **[JAK1/2](../../03-molecular/jak1-2/README.md)** — The type-2 cytokines IL-4, IL-5, and IL-13 all signal through JAK-STAT, making JAK inhibitors an emerging strategy to block multiple type-2 pathways at once rather than neutralizing a single cytokine as current biologics do.
 - `connects-to` → **[Substance P](../../03-molecular/substance-p/README.md)** — Substance P released from airway sensory nerves causes bronchoconstriction, mucus secretion, and plasma extravasation—the neurogenic arm of asthmatic airway inflammation that contributes to cough and hyperresponsiveness.
+- `connects-to` → **[S100A8/A9](../../03-molecular/s100a8-a9/README.md)** — S100A8/A9 from airway neutrophils marks the non-type-2, neutrophilic asthma that responds poorly to corticosteroids and eosinophil-targeted biologics, defining a distinct endotype that needs different therapeutic strategies.
+- `connects-to` → **[Endothelin-1](../../03-molecular/endothelin-1/README.md)** — Endothelin-1 from airway epithelium is a potent bronchoconstrictor and mitogen for airway smooth muscle, contributing to the smooth-muscle hyperplasia and subepithelial fibrosis of asthmatic airway remodeling.
+- `connects-to` → **[Adiponectin](../../03-molecular/adiponectin/README.md)** — Low adiponectin in obesity removes an anti-inflammatory brake on the airways, part of why the obese-asthma phenotype is more severe and steroid-resistant, complementing the pro-inflammatory leptin of the same metabolic axis.
 
 [^gina-2023-asthma]: Global Initiative for Asthma. Global Strategy for Asthma Management and Prevention. 2023. [ginasthma.org](https://ginasthma.org/2023-gina-main-report/)
 [^wenzel-2012-asthma-phenotypes]: Wenzel SE. Asthma phenotypes: the evolution from clinical to molecular approaches. *Nat Med.* 2012;18(5):716-725. [doi:10.1038/nm.2678](https://doi.org/10.1038/nm.2678) · [PubMed 22561835](https://pubmed.ncbi.nlm.nih.gov/22561835/)
