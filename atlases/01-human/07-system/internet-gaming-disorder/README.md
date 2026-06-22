@@ -285,6 +285,15 @@ cross_links:
   - target: 01-human/03-molecular/tnf-alpha
     relation: connects-to
     note: "Inflammation from screen overuse: the sleep deprivation, sedentary behaviour and stress of heavy gaming raise inflammatory cytokines such as TNF-α, a peripheral correlate of the physical-health toll of internet gaming disorder."
+  - target: 01-human/03-molecular/vasopressin
+    relation: connects-to
+    note: "Social-affiliative reward: vasopressin, with oxytocin, mediates social bonding, and the intense online social affiliation of multiplayer gaming engages this system, part of why guild and team belonging make the behaviour so reinforcing and hard to quit."
+  - target: 01-human/03-molecular/growth-hormone
+    relation: connects-to
+    note: "Sleep-disruption neuroendocrine: late-night gaming suppresses the deep-sleep-dependent nocturnal pulse of growth hormone, a developmental concern in the adolescents most prone to internet gaming disorder whose bodies still depend on that secretion."
+  - target: 01-human/03-molecular/il-1b
+    relation: connects-to
+    note: "Sleep-regulatory cytokine: IL-1β is a physiological sleep-regulating cytokine, and the chronic sleep loss of compulsive gaming dysregulates it, linking disrupted sleep to the mood and cognitive impairment that accompany internet gaming disorder."
 sources:
   - id: kuss-2012-gaming-disorder-review
     type: peer-reviewed
@@ -548,6 +557,9 @@ A pattern of persistent or recurrent gaming behavior characterized by:
 - `connects-to` → **[GSK-3β](../../03-molecular/gsk-3b/README.md)** — Dopamine D2-receptor signaling converges on GSK-3β, a kinase governing the synaptic plasticity of reward learning that is implicated in the habit formation and compulsivity of behavioral addictions including internet gaming disorder.
 - `connects-to` → **[Histamine](../../03-molecular/histamine/README.md)** — The histaminergic wakefulness system, working with orexin, sustains the prolonged late-night gaming sessions whose disruption of the arousal-sleep balance underlies the chronic sleep deprivation that compounds the disorder.
 - `connects-to` → **[TNF-α](../../03-molecular/tnf-alpha/README.md)** — The sleep deprivation, sedentary behavior, and stress of heavy gaming raise inflammatory cytokines such as TNF-α, a peripheral correlate of the physical-health toll—metabolic and cardiovascular—that accompanies internet gaming disorder.
+- `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — Vasopressin, with oxytocin, mediates social bonding, and the intense online social affiliation of multiplayer gaming engages this system, part of why guild and team belonging make the behavior so reinforcing and hard to quit.
+- `connects-to` → **[Growth hormone](../../03-molecular/growth-hormone/README.md)** — Late-night gaming suppresses the deep-sleep-dependent nocturnal pulse of growth hormone, a developmental concern in the adolescents most prone to internet gaming disorder whose bodies still depend on that secretion.
+- `connects-to` → **[IL-1β](../../03-molecular/il-1b/README.md)** — IL-1β is a physiological sleep-regulating cytokine, and the chronic sleep loss of compulsive gaming dysregulates it, linking disrupted sleep to the mood and cognitive impairment that accompany internet gaming disorder.
 
 [^kuss-2012-gaming-disorder-review]: Kuss DJ, Griffiths MD. Internet gaming addiction: a systematic review of empirical research. *Int J Ment Health Addict.* 2012;10(2):278-296. [doi:10.1007/s11469-011-9318-5](https://doi.org/10.1007/s11469-011-9318-5)
 [^who-icd11-gaming-disorder]: World Health Organization. ICD-11: Gaming Disorder (6C51). Geneva: WHO; 2019. [icd.who.int](https://icd.who.int/browse/2025-01/mms/en#1448597234)

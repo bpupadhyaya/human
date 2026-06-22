@@ -296,6 +296,15 @@ cross_links:
   - target: 01-human/03-molecular/prostaglandins
     relation: connects-to
     note: "Cutaneous eicosanoids: prostaglandins mediate the erythema, oedema and pain of sunburn and skin inflammation, and prostaglandin analogues both drive eyelash growth and are implicated in the hair-cycle changes of alopecia."
+  - target: 01-human/03-molecular/wnt-beta-catenin
+    relation: connects-to
+    note: "Appendage regeneration: Wnt/β-catenin signalling drives the cyclical regeneration of hair follicles and the self-renewal of epidermal stem cells, the developmental pathway that patterns skin appendages and whose dysregulation contributes to alopecia and skin tumours."
+  - target: 01-human/02-atomic/calcium
+    relation: connects-to
+    note: "Barrier differentiation: a calcium gradient rising from the basal to the outer epidermis drives keratinocytes through their differentiation programme into the cornified barrier, the ionic signal that builds the skin's waterproof outer layer."
+  - target: 01-human/03-molecular/glucocorticoid-receptor
+    relation: connects-to
+    note: "Topical anti-inflammatory: corticosteroids acting through the glucocorticoid receptor are the mainstay anti-inflammatory therapy across dermatology, suppressing the cutaneous immune response in eczema, psoriasis and dermatitis."
 ---
 
 # Integumentary System
@@ -494,6 +503,9 @@ Wound healing is a precisely orchestrated process in four overlapping phases [^g
 - `connects-to` → **[Androgen receptor](../../03-molecular/androgen-receptor/README.md)** — Androgens acting through the androgen receptor drive sebaceous-gland activity and hair-follicle patterning, the basis of acne, androgenetic alopecia, and hirsutism—among the most common dermatologic complaints and the target of anti-androgen therapy.
 - `connects-to` → **[IGF-1](../../03-molecular/igf-1/README.md)** — IGF-1 promotes keratinocyte proliferation and hair-follicle growth, linking endocrine and nutritional state to epidermal turnover and contributing to the skin tags and coarse skin of acromegaly as well as to acne pathogenesis.
 - `connects-to` → **[Prostaglandins](../../03-molecular/prostaglandins/README.md)** — Prostaglandins mediate the erythema, edema, and pain of sunburn and inflammatory skin disease, and prostaglandin analogues both stimulate eyelash growth and are implicated in the hair-cycle changes of androgenetic alopecia.
+- `connects-to` → **[Wnt/β-catenin](../../03-molecular/wnt-beta-catenin/README.md)** — Wnt/β-catenin signaling drives the cyclical regeneration of hair follicles and the self-renewal of epidermal stem cells, the developmental pathway that patterns skin appendages and whose dysregulation contributes to alopecia and skin tumors.
+- `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — A calcium gradient rising from the basal to the outer epidermis drives keratinocytes through their differentiation program into the cornified barrier, the ionic signal that builds the skin's waterproof outer layer.
+- `connects-to` → **[Glucocorticoid receptor](../../03-molecular/glucocorticoid-receptor/README.md)** — Corticosteroids acting through the glucocorticoid receptor are the mainstay anti-inflammatory therapy across dermatology, suppressing the cutaneous immune response in eczema, psoriasis and dermatitis.
 
 ## Pathology
 
