@@ -295,6 +295,15 @@ cross_links:
   - target: 01-human/03-molecular/ccl2
     relation: connects-to
     note: "Macrophage microenvironment: CCL2 recruits tumour-associated macrophages into neuroblastoma, contributing to the immunosuppressive niche of this often immunologically cold childhood tumour."
+  - target: 01-human/03-molecular/cxcl12
+    relation: connects-to
+    note: "Marrow and bone metastasis: CXCR4 on neuroblastoma cells follows CXCL12 gradients to the bone marrow and bone, the hallmark metastatic sites whose involvement defines high-risk, metastatic (stage M) disease."
+  - target: 01-human/03-molecular/perforin
+    relation: connects-to
+    note: "Antibody-directed killing: anti-GD2 antibody (dinutuximab) directs NK cells and macrophages to kill neuroblastoma, with NK perforin-mediated cytotoxicity a key effector of this immunotherapy that improved high-risk survival."
+  - target: 01-human/03-molecular/cgas-sting
+    relation: connects-to
+    note: "Cold-tumour innate immunity: MYCN-amplified neuroblastoma is immunologically cold with suppressed cGAS-STING signalling, and restoring this innate pathway is explored to inflame the tumour for immunotherapy."
 ---
 
 # Neuroblastoma
@@ -524,6 +533,9 @@ Stage MS (metastatic, <18 months, skin/liver/bone marrow only, MYCN wild-type): 
 - `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — ALK-RAS-MAPK: activating ALK mutations signal through RAS-RAF-ERK to drive neuroblastoma proliferation, the rationale for ALK inhibitors in the ALK-mutant subset.
 - `connects-to` → **[Caspase-3](../../03-molecular/caspase-3/README.md)** — Differentiation and apoptosis: retinoic acid and chemotherapy drive neuroblastoma cells toward caspase-3-mediated apoptosis and differentiation, the basis of maintenance therapy in high-risk disease.
 - `connects-to` → **[CCL2](../../03-molecular/ccl2/README.md)** — Macrophage microenvironment: CCL2 recruits tumour-associated macrophages into neuroblastoma, contributing to the immunosuppressive niche of this often immunologically cold childhood tumour.
+- `connects-to` → **[CXCL12](../../03-molecular/cxcl12/README.md)** — CXCR4 on neuroblastoma cells follows CXCL12 gradients to the bone marrow and bone, the hallmark metastatic sites whose involvement defines the high-risk metastatic (stage M) disease that drives most neuroblastoma mortality.
+- `connects-to` → **[Perforin](../../03-molecular/perforin/README.md)** — Anti-GD2 antibody (dinutuximab) directs NK cells and macrophages to kill neuroblastoma, with NK perforin-mediated cytotoxicity a key effector of the immunotherapy that meaningfully improved survival in high-risk disease.
+- `connects-to` → **[cGAS-STING](../../03-molecular/cgas-sting/README.md)** — MYCN-amplified neuroblastoma is immunologically cold with suppressed cGAS-STING signaling, and restoring this innate DNA-sensing pathway is being explored to inflame the tumor and make it responsive to immunotherapy.
 
 [^yu-2010-dinutuximab-nb]: Yu AL, Gilman AL, Ozkaynak MF, et al. Anti-GD2 antibody with GM-CSF, interleukin-2, and isotretinoin for neuroblastoma. *N Engl J Med.* 2010;363(14):1324-1334. [doi:10.1056/NEJMoa0911123](https://doi.org/10.1056/NEJMoa0911123) · [PubMed 20879881](https://pubmed.ncbi.nlm.nih.gov/20879881/)
 [^park-2019-tandem-sct-nb]: Park JR, Kreissman SG, London WB, et al. Effect of tandem autologous stem cell transplant vs single transplant on event-free survival in patients with high-risk neuroblastoma: a randomized clinical trial. *JAMA.* 2019;322(8):746-755. [doi:10.1001/jama.2019.11642](https://doi.org/10.1001/jama.2019.11642) · [PubMed 31454023](https://pubmed.ncbi.nlm.nih.gov/31454023/)

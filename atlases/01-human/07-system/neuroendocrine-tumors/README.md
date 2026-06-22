@@ -295,6 +295,15 @@ cross_links:
   - target: 01-human/03-molecular/ccl2
     relation: connects-to
     note: "Macrophage microenvironment: CCL2 recruits tumour-associated macrophages into neuroendocrine tumours, shaping a stroma that supports growth and modulates therapy response."
+  - target: 01-human/03-molecular/cxcl12
+    relation: connects-to
+    note: "Hepatic metastasis: CXCR4 on neuroendocrine tumour cells follows CXCL12 gradients to the liver, the dominant metastatic site whose tumour burden drives the carcinoid syndrome and much of NET mortality."
+  - target: 01-human/03-molecular/caspase-3
+    relation: connects-to
+    note: "Radionuclide-induced apoptosis: peptide-receptor radionuclide therapy (Lutathera) delivers SSTR2-targeted radiation that kills NET cells through DNA-damage-driven caspase-3 apoptosis, a mainstay for progressive somatostatin-receptor-positive tumours."
+  - target: 01-human/03-molecular/tgf-beta
+    relation: connects-to
+    note: "Carcinoid fibrosis: serotonin from carcinoid tumours drives TGF-β-mediated fibrosis, producing the desmoplastic mesenteric fibrosis and the right-sided carcinoid heart disease that complicate the syndrome."
 ---
 
 # Neuroendocrine Tumors
@@ -492,6 +501,9 @@ Treatment identical to SCLC: cisplatin (or carboplatin) + etoposide (4-6 cycles)
 - `connects-to` → **[MEN1](../../03-molecular/men1/README.md)** — Menin loss: inactivation of the MEN1 tumour suppressor is the commonest genetic lesion in pancreatic neuroendocrine tumours, linking sporadic NETs to the MEN1 hereditary syndrome.
 - `connects-to` → **[RET](../../03-molecular/ret/README.md)** — RET oncogene: activating RET mutations drive medullary thyroid carcinoma, the calcitonin-secreting neuroendocrine tumour of MEN2, targeted by selective RET inhibitors.
 - `connects-to` → **[CCL2](../../03-molecular/ccl2/README.md)** — Macrophage microenvironment: CCL2 recruits tumour-associated macrophages into neuroendocrine tumours, shaping a stroma that supports growth and modulates therapy response.
+- `connects-to` → **[CXCL12](../../03-molecular/cxcl12/README.md)** — CXCR4 on neuroendocrine tumor cells follows CXCL12 gradients to the liver, the dominant metastatic site whose tumor burden drives the carcinoid syndrome and accounts for much of NET mortality.
+- `connects-to` → **[Caspase-3](../../03-molecular/caspase-3/README.md)** — Peptide-receptor radionuclide therapy (Lutathera) delivers SSTR2-targeted radiation that kills NET cells through DNA-damage-driven caspase-3 apoptosis, a mainstay treatment for progressive somatostatin-receptor-positive tumors.
+- `connects-to` → **[TGF-β](../../03-molecular/tgf-beta/README.md)** — Serotonin from carcinoid tumors drives TGF-β-mediated fibrosis, producing the desmoplastic mesenteric fibrosis and the right-sided carcinoid heart disease (plaque on the tricuspid and pulmonary valves) that complicate the syndrome.
 
 [^yao-2011-radiant3]: Yao JC, Shah MH, Ito T, et al. Everolimus for advanced pancreatic neuroendocrine tumors. *N Engl J Med.* 2011;364(6):514-523. [doi:10.1056/NEJMoa1009290](https://doi.org/10.1056/NEJMoa1009290) · [PubMed 21306237](https://pubmed.ncbi.nlm.nih.gov/21306237/)
 [^raymond-2011-sunitinib-pnet]: Raymond E, Dahan L, Raoul JL, et al. Sunitinib malate for the treatment of pancreatic neuroendocrine tumors. *N Engl J Med.* 2011;364(6):501-513. [doi:10.1056/NEJMoa1003825](https://doi.org/10.1056/NEJMoa1003825) · [PubMed 21306236](https://pubmed.ncbi.nlm.nih.gov/21306236/)
