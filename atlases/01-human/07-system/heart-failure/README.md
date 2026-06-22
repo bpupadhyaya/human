@@ -298,6 +298,15 @@ cross_links:
   - target: 01-human/03-molecular/myostatin
     relation: connects-to
     note: "Cardiac cachexia: the failing heart releases myostatin that, with systemic inflammation, drives the skeletal-muscle wasting and cardiac cachexia marking advanced heart failure and predicting poor outcome."
+  - target: 01-human/03-molecular/hepcidin
+    relation: connects-to
+    note: "Iron deficiency: inflammation-driven hepcidin elevation causes functional iron deficiency in heart failure, impairing exercise capacity independent of anaemia and reversed by intravenous iron, which improves symptoms and reduces admissions."
+  - target: 01-human/03-molecular/nitric-oxide
+    relation: connects-to
+    note: "NO-cGMP signalling: impaired nitric-oxide-cGMP signalling drives the myocardial stiffness and microvascular dysfunction of heart failure, especially HFpEF, the pathway targeted by the soluble-guanylate-cyclase stimulator vericiguat."
+  - target: 01-human/03-molecular/glp-1
+    relation: connects-to
+    note: "Obesity-HFpEF: GLP-1 receptor agonists (semaglutide) improve symptoms and exercise capacity in the obesity phenotype of heart failure with preserved ejection fraction, linking the metabolic axis to a major and growing HF subtype."
 ---
 
 # Heart Failure
@@ -464,6 +473,9 @@ Normal hearts increase stroke volume with increasing preload (Starling curve). T
 - `connects-to` → **[SERCA2a](../../03-molecular/serca2a/README.md)** — SERCA2a expression and activity fall in the failing heart, slowing sarcoplasmic-reticulum calcium reuptake to produce the depressed contractility and impaired relaxation central to both systolic and diastolic heart failure—a long-standing gene-therapy target.
 - `connects-to` → **[β1-adrenergic receptor](../../03-molecular/beta1-adrenergic-receptor/README.md)** — Chronic sympathetic overdrive in heart failure downregulates and uncouples β1-adrenergic receptors, the maladaptive desensitization that beta-blockers reverse to produce one of the few mortality benefits in the disease.
 - `connects-to` → **[Myostatin](../../03-molecular/myostatin/README.md)** — The failing heart releases myostatin that, together with systemic inflammation, drives the skeletal-muscle wasting and cardiac cachexia marking advanced heart failure and independently predicting poor survival.
+- `connects-to` → **[Hepcidin](../../03-molecular/hepcidin/README.md)** — Inflammation-driven hepcidin elevation causes functional iron deficiency in heart failure, impairing exercise capacity independent of anemia and reversed by intravenous iron, which improves symptoms and reduces admissions.
+- `connects-to` → **[Nitric oxide](../../03-molecular/nitric-oxide/README.md)** — Impaired nitric-oxide-cGMP signaling drives the myocardial stiffness and microvascular dysfunction of heart failure, especially HFpEF, the pathway targeted by the soluble-guanylate-cyclase stimulator vericiguat.
+- `connects-to` → **[GLP-1](../../03-molecular/glp-1/README.md)** — GLP-1 receptor agonists (semaglutide) improve symptoms and exercise capacity in the obesity phenotype of heart failure with preserved ejection fraction, linking the metabolic axis to a major and growing HF subtype.
 
 ## Pathology
 

@@ -298,6 +298,15 @@ cross_links:
   - target: 01-human/03-molecular/nlrp3-inflammasome
     relation: connects-to
     note: "Reciprocal regulation: the NLRP3 and related inflammasomes both shape microbiota composition and are activated by microbial signals, a feedback loop whose disruption promotes the dysbiosis underlying inflammatory bowel and metabolic disease."
+  - target: 01-human/03-molecular/cholesterol
+    relation: connects-to
+    note: "Bile-acid metabolism: gut bacteria deconjugate and transform host bile acids made from cholesterol into secondary bile acids that signal through FXR and TGR5, a microbial arm of cholesterol and metabolic regulation linking the microbiome to host lipid handling."
+  - target: 01-human/03-molecular/il-10
+    relation: connects-to
+    note: "Commensal tolerance: commensal bacteria and their metabolites induce IL-10-producing regulatory T cells in the gut, the tolerogenic response that keeps the immune system from attacking the resident microbiota and whose failure underlies inflammatory bowel disease."
+  - target: 01-human/03-molecular/acetylcholine
+    relation: connects-to
+    note: "Gut-brain vagal axis: microbial metabolites signal to vagal afferents that use acetylcholine, a neural limb of the microbiota-gut-brain axis through which the microbiome influences mood, appetite and the cholinergic anti-inflammatory reflex."
 ---
 
 # Gut Microbiome
@@ -469,6 +478,9 @@ The microbiome influences CNS function via multiple pathways:
 - `connects-to` → **[TLR4](../../03-molecular/tlr4/README.md)** — TLR4 sensing of bacterial LPS is the principal microbiome-innate-immune interface, and leakage of LPS across a compromised gut barrier drives the "metabolic endotoxemia" that links dysbiosis to systemic, low-grade inflammation.
 - `connects-to` → **[TGF-β](../../03-molecular/tgf-beta/README.md)** — Commensal bacteria and their short-chain fatty acids drive TGF-β-dependent differentiation of intestinal regulatory T cells—the mechanism by which the microbiome teaches the developing immune system tolerance to harmless food and microbial antigens.
 - `connects-to` → **[NLRP3 Inflammasome](../../03-molecular/nlrp3-inflammasome/README.md)** — The NLRP3 and related inflammasomes both shape microbiota composition and are activated by microbial signals, a feedback loop whose disruption promotes the dysbiosis underlying inflammatory bowel disease and metabolic syndrome.
+- `connects-to` → **[Cholesterol](../../03-molecular/cholesterol/README.md)** — Gut bacteria deconjugate and transform host bile acids made from cholesterol into secondary bile acids that signal through FXR and TGR5, a microbial arm of cholesterol and metabolic regulation linking the microbiome to host lipid handling.
+- `connects-to` → **[IL-10](../../03-molecular/il-10/README.md)** — Commensal bacteria and their metabolites induce IL-10-producing regulatory T cells in the gut, the tolerogenic response that keeps the immune system from attacking the resident microbiota and whose failure underlies inflammatory bowel disease.
+- `connects-to` → **[Acetylcholine](../../03-molecular/acetylcholine/README.md)** — Microbial metabolites signal to vagal afferents that use acetylcholine, a neural limb of the microbiota-gut-brain axis through which the microbiome influences mood, appetite and the cholinergic anti-inflammatory reflex.
 
 ## Pathology
 
