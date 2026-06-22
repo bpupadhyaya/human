@@ -301,6 +301,15 @@ cross_links:
   - target: 01-human/03-molecular/cgas-sting
     relation: connects-to
     note: "Innate-immune sensing: radiation and chemotherapy in NSCLC release cytosolic DNA that activates cGAS-STING, generating type-I interferon that can prime anti-tumour T cells — the rationale for STING agonists combined with checkpoint blockade."
+  - target: 01-human/03-molecular/fgfr
+    relation: connects-to
+    note: "Squamous-cell driver: FGFR1 amplification is a recurrent oncogenic event in squamous NSCLC, the histology that lacks the EGFR/ALK targets of adenocarcinoma, making FGFR inhibitors one of the few precision options in lung squamous-cell carcinoma."
+  - target: 01-human/03-molecular/cxcl12
+    relation: connects-to
+    note: "Metastatic homing: CXCR4-CXCL12 signalling directs NSCLC metastasis to CXCL12-rich bone marrow, brain and adrenal niches, and sustains an immunosuppressive microenvironment that excludes T cells from the tumour."
+  - target: 01-human/03-molecular/jak1-2
+    relation: connects-to
+    note: "Checkpoint resistance: acquired loss-of-function mutations in JAK1/JAK2 render NSCLC cells unresponsive to interferon-γ, abolishing PD-L1 induction and antigen presentation — a key mechanism of acquired resistance to PD-1 blockade."
 ---
 
 # NSCLC
@@ -496,6 +505,9 @@ cross_links:
 - `connects-to` → **[CCL2](../../03-molecular/ccl2/README.md)** — NSCLC tumors secrete CCL2 to recruit monocytes that become tumor-associated macrophages, building the myeloid niche that blunts T-cell responses and dampens checkpoint-inhibitor efficacy—an immunosuppressive arm orthogonal to the oncogene drivers.
 - `connects-to` → **[TGF-β](../../03-molecular/tgf-beta/README.md)** — TGF-β in the NSCLC stroma drives the epithelial-mesenchymal transition that fuels invasion and TKI resistance, while excluding T cells from the tumor to create the immunotherapy-resistant "cold" phenotype that limits checkpoint-inhibitor benefit.
 - `connects-to` → **[cGAS-STING](../../03-molecular/cgas-sting/README.md)** — Radiation and chemotherapy in NSCLC release cytosolic DNA that activates cGAS-STING, generating type-I interferon that can prime anti-tumor T cells—the mechanistic rationale for combining STING agonists or radiation with checkpoint blockade.
+- `connects-to` → **[FGFR](../../03-molecular/fgfr/README.md)** — FGFR1 amplification is a recurrent oncogenic event in squamous NSCLC, the histology that lacks the EGFR/ALK targets of adenocarcinoma, making FGFR inhibitors one of the few precision options in lung squamous-cell carcinoma.
+- `connects-to` → **[CXCL12](../../03-molecular/cxcl12/README.md)** — CXCR4-CXCL12 signaling directs NSCLC metastasis to CXCL12-rich bone marrow, brain and adrenal niches, and sustains an immunosuppressive microenvironment that excludes T cells from the tumor.
+- `connects-to` → **[JAK1/2](../../03-molecular/jak1-2/README.md)** — Acquired loss-of-function mutations in JAK1/JAK2 render NSCLC cells unresponsive to interferon-γ, abolishing PD-L1 induction and antigen presentation—a key mechanism of acquired resistance to PD-1 blockade.
 
 [^soria-2018-osimertinib-flaura]: Soria JC, Ohe Y, Vansteenkiste J, et al. Osimertinib in untreated EGFR-mutated advanced non-small-cell lung cancer. *N Engl J Med.* 2018;378(2):113-125. [doi:10.1056/NEJMoa1713137](https://doi.org/10.1056/NEJMoa1713137) · [PubMed 29151359](https://pubmed.ncbi.nlm.nih.gov/29151359/)
 [^reck-2016-pembrolizumab-keynote024]: Reck M, Rodríguez-Abreu D, Robinson AG, et al. Pembrolizumab versus chemotherapy for PD-L1-positive non-small-cell lung cancer. *N Engl J Med.* 2016;375(19):1823-1833. [doi:10.1056/NEJMoa1606774](https://doi.org/10.1056/NEJMoa1606774) · [PubMed 27718347](https://pubmed.ncbi.nlm.nih.gov/27718347/)
