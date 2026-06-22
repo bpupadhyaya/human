@@ -301,6 +301,15 @@ cross_links:
   - target: 01-human/03-molecular/secretory-iga
     relation: connects-to
     note: "Mucosal antibody barrier: dysregulated secretory IgA at the gut surface alters the microbiota and barrier homeostasis whose breakdown underlies the aberrant immune response of IBD."
+  - target: 01-human/03-molecular/tlr4
+    relation: connects-to
+    note: "Microbial sensing: TLR4 and related innate receptors sensing a dysbiotic microbiota across a breached epithelial barrier drive the loss of tolerance central to the gene-environment-microbiome model of IBD."
+  - target: 01-human/03-molecular/il-13
+    relation: connects-to
+    note: "Ulcerative colitis Th2 arm: IL-13 from natural killer T and innate lymphoid cells damages the epithelial barrier and impairs tight junctions in ulcerative colitis, the type-2-skewed cytokine distinguishing it from Crohn's."
+  - target: 01-human/03-molecular/cgas-sting
+    relation: connects-to
+    note: "Innate DNA sensing: cytosolic and microbial DNA activating cGAS-STING in gut epithelium and myeloid cells amplifies intestinal inflammation, and STING gain-of-function causes an autoinflammatory enteropathy overlapping IBD."
 ---
 
 # Inflammatory Bowel Disease
@@ -523,6 +532,9 @@ IBD is a complex polygenic disease with >240 susceptibility loci (GWAS):
 - `connects-to` → **[MHC Class II](../../03-molecular/mhc-class-ii/README.md)** — HLA genetic risk: MHC class II HLA loci are major genetic associations of IBD, presenting gut microbial and self antigens to the CD4 T cells that drive the chronic mucosal immune response.
 - `connects-to` → **[PDGF](../../03-molecular/pdgf/README.md)** — Stricturing fibrosis: PDGF drives the intestinal fibroblast and myofibroblast proliferation behind the fibrotic strictures that complicate Crohn's disease and require surgery.
 - `connects-to` → **[Secretory IgA](../../03-molecular/secretory-iga/README.md)** — Mucosal antibody barrier: dysregulated secretory IgA at the gut surface alters the microbiota and barrier homeostasis whose breakdown underlies the aberrant immune response of IBD.
+- `connects-to` → **[TLR4](../../03-molecular/tlr4/README.md)** — TLR4 and related innate receptors sensing a dysbiotic microbiota across a breached epithelial barrier drive the loss of immune tolerance central to the gene-environment-microbiome model of inflammatory bowel disease.
+- `connects-to` → **[IL-13](../../03-molecular/il-13/README.md)** — IL-13 from natural killer T and innate lymphoid cells damages the epithelial barrier and impairs tight junctions in ulcerative colitis, the type-2-skewed cytokine arm that distinguishes UC from the Th1/Th17-driven Crohn's disease.
+- `connects-to` → **[cGAS-STING](../../03-molecular/cgas-sting/README.md)** — Cytosolic and microbial DNA activating cGAS-STING in gut epithelium and myeloid cells amplifies intestinal inflammation, and STING gain-of-function causes an autoinflammatory enteropathy that overlaps with IBD.
 
 [^ng-2017-ibd-epidemiology]: Ng SC, Shi HY, Hamidi N, et al. Worldwide incidence and prevalence of inflammatory bowel disease in the 21st century: a systematic review of population-based studies. *Lancet.* 2018;390(10114):2769-2778. [doi:10.1016/S0140-6736(17)32448-0](https://doi.org/10.1016/S0140-6736(17)32448-0) · [PubMed 29050646](https://pubmed.ncbi.nlm.nih.gov/29050646/)
 [^sandborn-2012-vedolizumab]: Feagan BG, Rutgeerts P, Sands BE, et al. Vedolizumab as induction and maintenance therapy for ulcerative colitis. *N Engl J Med.* 2013;369(8):699-710. [doi:10.1056/NEJMoa1215734](https://doi.org/10.1056/NEJMoa1215734) · [PubMed 23964932](https://pubmed.ncbi.nlm.nih.gov/23964932/)

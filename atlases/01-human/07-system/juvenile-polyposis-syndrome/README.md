@@ -295,6 +295,15 @@ cross_links:
   - target: 01-human/03-molecular/ccl2
     relation: connects-to
     note: "Inflammatory polyp stroma: CCL2 recruits macrophages into the characteristically inflamed, oedematous stroma of juvenile polyps, sustaining the microenvironment that drives their growth."
+  - target: 01-human/03-molecular/nitric-oxide
+    relation: connects-to
+    note: "HHT vascular overlap: SMAD4 loss impairs BMP9-ALK1-SMAD4 signalling that normally restrains endothelial nitric oxide, causing the arteriovenous malformations and telangiectasias of the hereditary haemorrhagic telangiectasia seen in SMAD4-juvenile polyposis."
+  - target: 01-human/03-molecular/egfr
+    relation: connects-to
+    note: "Epithelial proliferation: EGFR-driven proliferation of the polyp epithelium contributes to the growth of the hamartomatous juvenile polyps once the BMP/SMAD4 brake on epithelial homeostasis is lost."
+  - target: 01-human/03-molecular/caspase-3
+    relation: connects-to
+    note: "Lost apoptotic control: BMP/SMAD4 signalling normally promotes apoptosis in the gut epithelium, so its loss in juvenile polyposis impairs caspase-3-mediated cell death, contributing to polyp formation and the elevated cancer risk."
 ---
 
 # Juvenile Polyposis Syndrome
@@ -517,6 +526,9 @@ No approved chemopreventive agents specifically for JPS. Options under investiga
 - `connects-to` → **[KRAS](../../03-molecular/kras/README.md)** — Oncogenic progression: acquired KRAS mutations drive the progression of juvenile polyps toward gastrointestinal carcinoma, a key step beyond the germline SMAD4/BMPR1A loss that initiates the polyps.
 - `connects-to` → **[TERT](../../03-molecular/tert/README.md)** — Telomerase immortalisation: TERT reactivation maintains telomeres as juvenile polyps progress to carcinoma, granting the replicative capacity of the gastric and colorectal cancers of the syndrome.
 - `connects-to` → **[CCL2](../../03-molecular/ccl2/README.md)** — Inflammatory polyp stroma: CCL2 recruits macrophages into the characteristically inflamed, oedematous stroma of juvenile polyps, sustaining the microenvironment that drives their growth.
+- `connects-to` → **[Nitric oxide](../../03-molecular/nitric-oxide/README.md)** — SMAD4 loss impairs the BMP9-ALK1-SMAD4 signaling that restrains endothelial nitric oxide, causing the arteriovenous malformations and telangiectasias of the hereditary hemorrhagic telangiectasia seen in SMAD4-juvenile polyposis overlap.
+- `connects-to` → **[EGFR](../../03-molecular/egfr/README.md)** — EGFR-driven proliferation of the polyp epithelium contributes to the growth of the hamartomatous juvenile polyps once the BMP/SMAD4 brake on epithelial homeostasis is lost in the syndrome.
+- `connects-to` → **[Caspase-3](../../03-molecular/caspase-3/README.md)** — BMP/SMAD4 signaling normally promotes apoptosis in the gut epithelium, so its loss in juvenile polyposis impairs caspase-3-mediated cell death—contributing to polyp formation and the substantially elevated gastrointestinal cancer risk.
 
 [^howe-1998-smad4-jps]: Howe JR, Roth S, Ringold JC, et al. Mutations in the SMAD4/DPC4 gene in juvenile polyposis. *Science.* 1998;280(5366):1086-1088. [doi:10.1126/science.280.5366.1086](https://doi.org/10.1126/science.280.5366.1086) · [PubMed 9582123](https://pubmed.ncbi.nlm.nih.gov/9582123/)
 [^aretz-2007-jps-spectrum]: Aretz S, Stienen D, Uhlhaas S, et al. High proportion of large genomic deletions and a genotype-phenotype update in 80 unrelated families with juvenile polyposis syndrome. *J Med Genet.* 2007;44(11):702-709. [doi:10.1136/jmg.2007.051839](https://doi.org/10.1136/jmg.2007.051839) · [PubMed 17601924](https://pubmed.ncbi.nlm.nih.gov/17601924/)
