@@ -307,6 +307,15 @@ cross_links:
   - target: 01-human/03-molecular/cgas-sting
     relation: connects-to
     note: "Mitochondrial-DNA DAMP: mitochondrial DNA released from damaged cells in sepsis activates cGAS-STING, contributing the type-I-interferon and inflammatory signalling that amplify the dysregulated host response."
+  - target: 01-human/03-molecular/glucocorticoid-receptor
+    relation: connects-to
+    note: "Corticosteroid therapy: hydrocortisone acting through the glucocorticoid receptor is used in vasopressor-refractory septic shock, supporting vascular tone and dampening inflammation amid the critical-illness-related corticosteroid insufficiency of sepsis."
+  - target: 01-human/03-molecular/caspase-3
+    relation: connects-to
+    note: "Immunoparalysis: sepsis drives massive caspase-3-mediated apoptosis of lymphocytes, depleting T and B cells and producing the immunosuppressive 'immunoparalysis' phase that leaves survivors vulnerable to secondary infections."
+  - target: 01-human/03-molecular/vegf
+    relation: connects-to
+    note: "Vascular leak: VEGF released in sepsis increases endothelial permeability, contributing to the capillary leak, tissue oedema and hypotension that characterise the circulatory failure of septic shock."
 ---
 
 # Sepsis
@@ -509,6 +518,9 @@ Sepsis is not localized to one system — it manifests as dysfunction across mul
 - `connects-to` → **[Thrombin](../../03-molecular/thrombin/README.md)** — Tissue-factor-driven thrombin generation in sepsis converts fibrinogen to the microvascular fibrin of disseminated intravascular coagulation, against which the protein C anticoagulant pathway is overwhelmed—a core driver of organ failure.
 - `connects-to` → **[RAGE](../../03-molecular/rage/README.md)** — HMGB1 released by dying and activated cells signals through RAGE as a key late mediator of sepsis lethality, sustaining the inflammatory response long after the initial pathogen signal and offering a therapeutic window.
 - `connects-to` → **[cGAS-STING](../../03-molecular/cgas-sting/README.md)** — Mitochondrial DNA released from damaged cells in sepsis activates cGAS-STING, contributing the type-I-interferon and inflammatory signaling that amplify the dysregulated host response underlying multi-organ failure.
+- `connects-to` → **[Glucocorticoid receptor](../../03-molecular/glucocorticoid-receptor/README.md)** — Hydrocortisone acting through the glucocorticoid receptor is used in vasopressor-refractory septic shock, supporting vascular tone and dampening inflammation amid the critical-illness-related corticosteroid insufficiency of sepsis.
+- `connects-to` → **[Caspase-3](../../03-molecular/caspase-3/README.md)** — Sepsis drives massive caspase-3-mediated apoptosis of lymphocytes, depleting T and B cells and producing the immunosuppressive "immunoparalysis" phase that leaves survivors vulnerable to secondary infections.
+- `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — VEGF released in sepsis increases endothelial permeability, contributing to the capillary leak, tissue edema and hypotension that characterize the circulatory failure of septic shock.
 - `treated-by` → **[Vancomycin](../../../03-medicine/01-modern/06-antimicrobial/vancomycin/README.md)** — First-line empiric IV therapy for MRSA bacteremia and gram-positive sepsis; added to beta-lactam empiric regimens when MRSA risk is elevated; AUC/MIC-guided dosing (IDSA 2021); MIC ≤1 mg/L required for endocarditis; daptomycin alternative for high MIC.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
