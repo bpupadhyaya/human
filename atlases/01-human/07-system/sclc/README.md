@@ -295,6 +295,15 @@ cross_links:
   - target: 01-human/03-molecular/cgas-sting
     relation: connects-to
     note: "Replication-stress immunity: the high replication stress and DNA damage of SCLC generate cytosolic DNA that activates cGAS-STING, the innate-immune rationale for combining PARP inhibitors or chemotherapy with checkpoint blockade."
+  - target: 01-human/03-molecular/rad51
+    relation: connects-to
+    note: "DNA-repair dependence: the genomic instability of RB1/TP53-null SCLC leaves it reliant on homologous-recombination and replication-stress repair, the basis for the high PARP expression that makes SCLC a leading candidate for PARP inhibition."
+  - target: 01-human/03-molecular/sstr2
+    relation: connects-to
+    note: "Neuroendocrine receptor: as a high-grade neuroendocrine tumour SCLC can express somatostatin receptor SSTR2, the target for DOTATATE imaging and a rationale for peptide-receptor radionuclide approaches in the neuroendocrine fraction of these tumours."
+  - target: 01-human/03-molecular/acetylcholine
+    relation: connects-to
+    note: "Lambert-Eaton syndrome: SCLC is the classic trigger of Lambert-Eaton myasthenic syndrome, where antibodies against presynaptic P/Q-type calcium channels reduce acetylcholine release at the neuromuscular junction, causing the paraneoplastic proximal weakness."
 ---
 
 # Small Cell Lung Cancer
@@ -497,6 +506,9 @@ SCLC has highest rate of brain metastases among solid tumors (~50% at 2 years); 
 - `connects-to` → **[TERT](../../03-molecular/tert/README.md)** — SCLC reactivates telomerase to maintain telomeres through its breakneck proliferation, granting the unlimited replicative capacity that complements the universal RB1 and TP53 loss—an immortality switch fundamental to its aggressive course.
 - `connects-to` → **[KIT](../../03-molecular/kit/README.md)** — SCLC commonly expresses c-KIT (CD117), a receptor tyrosine kinase reflecting its neuroendocrine lineage; although imatinib trials failed, KIT marks the stem-like, treatment-resistant biology that makes the cancer so prone to relapse.
 - `connects-to` → **[cGAS-STING](../../03-molecular/cgas-sting/README.md)** — The high replication stress and DNA damage of SCLC generate cytosolic DNA that activates cGAS-STING, the innate-immune rationale for combining PARP inhibitors or chemotherapy with the checkpoint blockade now standard in extensive-stage disease.
+- `connects-to` → **[RAD51](../../03-molecular/rad51/README.md)** — The genomic instability of RB1/TP53-null SCLC leaves it reliant on homologous-recombination and replication-stress repair, the basis for the high PARP expression that makes SCLC a leading candidate for PARP inhibition.
+- `connects-to` → **[SSTR2](../../03-molecular/sstr2/README.md)** — As a high-grade neuroendocrine tumor SCLC can express somatostatin receptor SSTR2, the target for DOTATATE imaging and a rationale for peptide-receptor radionuclide approaches in the neuroendocrine fraction of these tumors.
+- `connects-to` → **[Acetylcholine](../../03-molecular/acetylcholine/README.md)** — SCLC is the classic trigger of Lambert-Eaton myasthenic syndrome, where antibodies against presynaptic P/Q-type calcium channels reduce acetylcholine release at the neuromuscular junction, causing the paraneoplastic proximal weakness.
 
 [^horn-2018-impower133]: Horn L, Mansfield AS, Szczęsna A, et al. First-line atezolizumab plus chemotherapy in extensive-stage small-cell lung cancer. *N Engl J Med.* 2018;379(23):2220-2229. [doi:10.1056/NEJMoa1809064](https://doi.org/10.1056/NEJMoa1809064) · [PubMed 30280641](https://pubmed.ncbi.nlm.nih.gov/30280641/)
 [^paz-ares-2019-caspian]: Paz-Ares L, Dvorkin M, Chen Y, et al. Durvalumab plus platinum-etoposide versus platinum-etoposide in first-line treatment of extensive-stage small-cell lung cancer (CASPIAN). *Lancet.* 2019;394(10212):1929-1939. [doi:10.1016/S0140-6736(19)32222-6](https://doi.org/10.1016/S0140-6736(19)32222-6) · [PubMed 31590988](https://pubmed.ncbi.nlm.nih.gov/31590988/)
