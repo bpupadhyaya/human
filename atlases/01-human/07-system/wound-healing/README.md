@@ -301,6 +301,15 @@ cross_links:
   - target: 01-human/03-molecular/substance-p
     relation: connects-to
     note: "Neurogenic healing: sensory-nerve-derived substance P promotes the angiogenesis and inflammatory cell recruitment of healing, and its loss in denervated or diabetic skin is a key reason those wounds heal poorly."
+  - target: 01-human/03-molecular/il-4
+    relation: connects-to
+    note: "Reparative macrophages: IL-4 polarises wound macrophages to the M2 phenotype that resolves inflammation and drives the proliferative phase, secreting growth factors for fibroblasts and angiogenesis — the switch from clearing debris to rebuilding tissue."
+  - target: 01-human/03-molecular/rage
+    relation: connects-to
+    note: "Diabetic non-healing: advanced glycation end-products signalling through RAGE sustains a chronic inflammatory, pro-oxidant state in diabetic skin that stalls wounds in the inflammatory phase, a central reason diabetic foot ulcers fail to heal."
+  - target: 01-human/03-molecular/s100a8-a9
+    relation: connects-to
+    note: "Neutrophil amplification: S100A8/A9 (calprotectin) released by the neutrophils of the early wound amplifies inflammation, and its persistence marks the stalled, neutrophil-dominated inflammatory phase of chronic non-healing wounds."
 ---
 
 # Wound Healing
@@ -514,6 +523,9 @@ cross_links:
 - `connects-to` → **[Prostaglandins](../../03-molecular/prostaglandins/README.md)** — Prostaglandins produced at the wound drive the vasodilation, increased permeability, and pain of the early inflammatory phase—which is why NSAIDs that block their synthesis can blunt the controlled inflammation that normal healing requires.
 - `connects-to` → **[Periostin](../../03-molecular/periostin/README.md)** — Periostin secreted by activated fibroblasts organizes collagen cross-linking and myofibroblast differentiation in the proliferative and remodeling phases, supporting the wound contraction and matrix maturation that restore tissue strength.
 - `connects-to` → **[Substance P](../../03-molecular/substance-p/README.md)** — Sensory-nerve-derived substance P promotes the angiogenesis and inflammatory-cell recruitment of healing, and its loss in denervated or diabetic skin is a key reason those wounds become chronic and heal so poorly.
+- `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — IL-4 polarizes wound macrophages to the M2 phenotype that resolves inflammation and drives the proliferative phase, secreting growth factors for fibroblasts and angiogenesis—the switch from clearing debris to rebuilding tissue.
+- `connects-to` → **[RAGE](../../03-molecular/rage/README.md)** — Advanced glycation end-products signaling through RAGE sustains a chronic inflammatory, pro-oxidant state in diabetic skin that stalls wounds in the inflammatory phase, a central reason diabetic foot ulcers fail to heal.
+- `connects-to` → **[S100A8/A9](../../03-molecular/s100a8-a9/README.md)** — S100A8/A9 (calprotectin) released by the neutrophils of the early wound amplifies inflammation, and its persistence marks the stalled, neutrophil-dominated inflammatory phase of chronic non-healing wounds.
 
 [^singer-1999-wound-healing-review]: Singer AJ, Clark RA. Cutaneous wound healing. *N Engl J Med.* 1999;341(10):738-746. [doi:10.1056/NEJM199909023411006](https://doi.org/10.1056/NEJM199909023411006) · [PubMed 10471461](https://pubmed.ncbi.nlm.nih.gov/10471461/)
 [^gurtner-2008-wound-repair-regeneration]: Gurtner GC, Werner S, Barrandon Y, Longaker MT. Wound repair and regeneration. *Nature.* 2008;453(7193):314-321. [doi:10.1038/nature07039](https://doi.org/10.1038/nature07039) · [PubMed 18480812](https://pubmed.ncbi.nlm.nih.gov/18480812/)

@@ -304,6 +304,15 @@ cross_links:
   - target: 01-human/03-molecular/mdm2
     relation: connects-to
     note: "p53 reactivation: most AML retains wild-type TP53 but keeps p53 restrained by high MDM2, making MDM2 inhibitors a strategy to restore p53-driven apoptosis in TP53-wild-type leukaemia."
+  - target: 01-human/03-molecular/srsf2
+    relation: connects-to
+    note: "Splicing-factor class: SRSF2 mutations define the secondary, MDS-related AML that arises from a preceding myelodysplasia, a poor-prognosis subgroup distinct from de-novo disease and a target for splicing-modulator therapy."
+  - target: 01-human/03-molecular/foxo
+    relation: connects-to
+    note: "Stem-cell paradox: although a tumour suppressor elsewhere, FOXO transcription factors are paradoxically active in many AMLs, maintaining the quiescent leukaemic stem cells that survive chemotherapy and seed relapse."
+  - target: 01-human/03-molecular/perforin
+    relation: connects-to
+    note: "Graft-versus-leukaemia: the curative power of allogeneic stem-cell transplant in AML comes from donor T and NK cells killing residual leukaemia through perforin and granzyme, the immunological effect that underlies long-term remission after transplant."
 ---
 
 # AML
@@ -510,6 +519,9 @@ AML requires cooperative mutations in at least 2 functional categories (Gillilan
 - `connects-to` → **[Menin (MEN1)](../../03-molecular/men1/README.md)** — KMT2A-rearranged and NPM1-mutant AML depend on the menin-MLL interaction to maintain HOX/MEIS leukemic transcription—the target of menin inhibitors (revumenib) now approved, a rare instance of drugging a transcriptional dependency directly.
 - `connects-to` → **[SMO](../../03-molecular/smo/README.md)** — Aberrant Hedgehog pathway activity supports AML stem-cell maintenance, the rationale for the SMO inhibitor glasdegib combined with low-dose cytarabine as a lower-intensity option for older AML patients unfit for chemotherapy.
 - `connects-to` → **[MDM2](../../03-molecular/mdm2/README.md)** — Most AML retains wild-type TP53 but keeps p53 restrained by high MDM2, making MDM2 inhibitors a strategy to restore p53-driven apoptosis in TP53-wild-type leukemia—complementary to the BCL-2 inhibition of venetoclax.
+- `connects-to` → **[SRSF2](../../03-molecular/srsf2/README.md)** — SRSF2 mutations define the secondary, MDS-related AML that arises from a preceding myelodysplasia, a poor-prognosis subgroup distinct from de-novo disease and a target for splicing-modulator therapy.
+- `connects-to` → **[FOXO](../../03-molecular/foxo/README.md)** — Although a tumor suppressor elsewhere, FOXO transcription factors are paradoxically active in many AMLs, maintaining the quiescent leukemic stem cells that survive chemotherapy and seed relapse.
+- `connects-to` → **[Perforin](../../03-molecular/perforin/README.md)** — The curative power of allogeneic stem-cell transplant in AML comes from donor T and NK cells killing residual leukemia through perforin and granzyme, the graft-versus-leukemia effect that underlies long-term remission after transplant.
 
 [^dinardo-2020-viale-a]: DiNardo CD, Jonas BA, Pullarkat V, et al. Azacitidine and venetoclax in previously untreated acute myeloid leukemia. *N Engl J Med.* 2020;383(7):617-629. [doi:10.1056/NEJMoa2012971](https://doi.org/10.1056/NEJMoa2012971) · [PubMed 32786187](https://pubmed.ncbi.nlm.nih.gov/32786187/)
 [^stone-2017-midostaurin]: Stone RM, Mandrekar SJ, Sanford BL, et al. Midostaurin plus chemotherapy for acute myeloid leukemia with a FLT3 mutation. *N Engl J Med.* 2017;377(5):454-464. [doi:10.1056/NEJMoa1614359](https://doi.org/10.1056/NEJMoa1614359) · [PubMed 28644114](https://pubmed.ncbi.nlm.nih.gov/28644114/)
