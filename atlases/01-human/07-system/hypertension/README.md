@@ -295,6 +295,15 @@ cross_links:
   - target: 01-human/03-molecular/prostaglandins
     relation: connects-to
     note: "Renal pressure-natriuresis: renal prostaglandins promote sodium excretion and vasodilation, which is why NSAIDs that block them raise blood pressure and blunt antihypertensive drugs."
+  - target: 01-human/03-molecular/bradykinin
+    relation: connects-to
+    note: "Kallikrein-kinin vasodilation: bradykinin promotes endothelial vasodilation and natriuresis, and ACE inhibitors lower blood pressure partly by raising bradykinin — the same mechanism behind their characteristic dry cough."
+  - target: 01-human/03-molecular/sglt2
+    relation: connects-to
+    note: "Natriuretic blood-pressure lowering: SGLT2 inhibition in the proximal tubule produces a natriuresis and osmotic diuresis that lower blood pressure, a newer antihypertensive action with cardiorenal benefit."
+  - target: 01-human/03-molecular/rage
+    relation: connects-to
+    note: "Arterial stiffening: AGE-RAGE signalling cross-links arterial collagen and drives vascular inflammation, stiffening large arteries to raise systolic and pulse pressure, especially in diabetic and ageing hypertension."
 ---
 
 # Hypertension
@@ -478,6 +487,9 @@ Blood pressure is determined by: BP = Cardiac Output × Peripheral Vascular Resi
 - `connects-to` → **[IL-17A](../../03-molecular/il-17a/README.md)** — Th17 vascular inflammation: IL-17A from Th17 cells promotes vascular stiffening and renal sodium retention, a specific arm of the T-cell-driven immune contribution to hypertension.
 - `connects-to` → **[Adrenomedullin](../../03-molecular/adrenomedullin/README.md)** — Counter-regulatory vasodilator: adrenomedullin is a potent vasodilator peptide that rises in hypertension as a compensatory brake on rising pressure and endothelial dysfunction.
 - `connects-to` → **[Prostaglandins](../../03-molecular/prostaglandins/README.md)** — Renal pressure-natriuresis: renal prostaglandins promote sodium excretion and vasodilation, which is why NSAIDs that block them raise blood pressure and blunt antihypertensive drugs.
+- `connects-to` → **[Bradykinin](../../03-molecular/bradykinin/README.md)** — Bradykinin promotes endothelial vasodilation and natriuresis, and ACE inhibitors lower blood pressure partly by raising bradykinin levels—the same mechanism behind the characteristic dry cough that limits their use.
+- `connects-to` → **[SGLT2](../../03-molecular/sglt2/README.md)** — SGLT2 inhibition in the proximal tubule produces a natriuresis and osmotic diuresis that lower blood pressure, a newer antihypertensive action that comes with substantial cardiorenal benefit beyond glucose control.
+- `connects-to` → **[RAGE](../../03-molecular/rage/README.md)** — AGE-RAGE signaling cross-links arterial collagen and drives vascular inflammation, stiffening the large arteries to raise systolic and pulse pressure—a key mechanism of the isolated systolic hypertension of aging and diabetes.
 
 ## Pathology
 
