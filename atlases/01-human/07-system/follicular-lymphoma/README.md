@@ -295,6 +295,15 @@ cross_links:
   - target: 01-human/03-molecular/tert
     relation: connects-to
     note: "Transformation to DLBCL: TERT activation and telomere maintenance accompany the histological transformation of indolent follicular lymphoma into aggressive diffuse large B-cell lymphoma."
+  - target: 01-human/03-molecular/caspase-3
+    relation: connects-to
+    note: "Apoptosis blockade: the defining t(14;18) translocation overexpresses BCL-2, which blocks caspase-3-mediated apoptosis and lets germinal-centre B cells survive that should have died — the founding lesion of follicular lymphoma."
+  - target: 01-human/03-molecular/btk
+    relation: connects-to
+    note: "BCR survival signalling: B-cell-receptor signalling through BTK supports the survival of follicular lymphoma cells, a therapeutic node targeted by BTK inhibitors in relapsed disease."
+  - target: 01-human/03-molecular/jak1-2
+    relation: connects-to
+    note: "Microenvironment cytokines: IL-4 and IL-21 from the supportive follicular-helper-T-cell niche signal through JAK-STAT to nurture follicular lymphoma cells, reflecting the disease's unusual dependence on its microenvironment."
 ---
 
 # Follicular Lymphoma
@@ -513,6 +522,9 @@ High-risk subset (progression within 24 months of first chemoimmunotherapy): Con
 - `connects-to` → **[CCL2](../../03-molecular/ccl2/README.md)** — Prognostic macrophages: CCL2 recruits tumour-associated macrophages into follicular lymphoma, whose abundance in the microenvironment carries prognostic weight—this lymphoma's biology is unusually microenvironment-dependent.
 - `connects-to` → **[TGF-beta](../../03-molecular/tgf-beta/README.md)** — Immunosuppressive niche: TGF-beta from the Treg-rich follicular lymphoma microenvironment dampens anti-tumour immunity, helping the malignant B cells evade the immune system.
 - `connects-to` → **[TERT](../../03-molecular/tert/README.md)** — Transformation to DLBCL: TERT activation and telomere maintenance accompany the histological transformation of indolent follicular lymphoma into aggressive diffuse large B-cell lymphoma.
+- `connects-to` → **[Caspase-3](../../03-molecular/caspase-3/README.md)** — The defining t(14;18) translocation overexpresses BCL-2, which blocks caspase-3-mediated apoptosis and lets germinal-center B cells survive that should have died—the founding molecular lesion of follicular lymphoma.
+- `connects-to` → **[BTK](../../03-molecular/btk/README.md)** — B-cell-receptor signaling through BTK supports the survival of follicular lymphoma cells, a therapeutic node targeted by BTK inhibitors in relapsed disease alongside the PI3K and BCL-2 pathways.
+- `connects-to` → **[JAK1/2](../../03-molecular/jak1-2/README.md)** — IL-4 and IL-21 from the supportive follicular-helper-T-cell niche signal through JAK-STAT to nurture follicular lymphoma cells, reflecting the disease's unusual dependence on its surrounding microenvironment.
 
 ---
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*

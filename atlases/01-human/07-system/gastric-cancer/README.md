@@ -295,6 +295,15 @@ cross_links:
   - target: 01-human/03-molecular/ccl2
     relation: connects-to
     note: "Macrophage recruitment: CCL2 draws tumour-associated macrophages into gastric cancer, building the immunosuppressive microenvironment that promotes invasion and blunts immunotherapy."
+  - target: 01-human/03-molecular/tlr4
+    relation: connects-to
+    note: "Helicobacter carcinogenesis: TLR4 sensing of Helicobacter pylori products drives the chronic gastritis that initiates the Correa cascade — atrophy, metaplasia, dysplasia — underlying most intestinal-type gastric cancer."
+  - target: 01-human/03-molecular/cgas-sting
+    relation: connects-to
+    note: "Subtype immunogenicity: the EBV-positive and microsatellite-instable gastric cancers carry high mutational and viral-antigen burdens that engage cGAS-STING, the innate basis for their strong response to checkpoint inhibitors."
+  - target: 01-human/03-molecular/cxcl12
+    relation: connects-to
+    note: "Peritoneal metastasis: the CXCL12-CXCR4 axis directs gastric cancer cells to the peritoneum and ovary (Krukenberg tumours), the transcoelomic spread that dominates the mortality of advanced disease."
 ---
 
 # Gastric Cancer
@@ -534,6 +543,9 @@ H. pylori eradication: Reduces GC incidence by ~35-40% (meta-analyses); most ben
 - `connects-to` → **[TGF-beta](../../03-molecular/tgf-beta/README.md)** — EMT and desmoplasia: TGF-beta drives the epithelial-mesenchymal transition and desmoplastic stroma of diffuse-type gastric cancer, the signet-ring histology that spreads through the stomach wall and peritoneum.
 - `connects-to` → **[TERT](../../03-molecular/tert/README.md)** — Telomerase immortalisation: TERT reactivation maintains telomeres in gastric cancer cells, granting the replicative immortality that complements its p53 and RTK driver lesions.
 - `connects-to` → **[CCL2](../../03-molecular/ccl2/README.md)** — Macrophage recruitment: CCL2 draws tumour-associated macrophages into gastric cancer, building the immunosuppressive microenvironment that promotes invasion and blunts immunotherapy.
+- `connects-to` → **[TLR4](../../03-molecular/tlr4/README.md)** — TLR4 sensing of Helicobacter pylori products drives the chronic gastritis that initiates the Correa cascade—atrophy, intestinal metaplasia, dysplasia—underlying most intestinal-type gastric cancer worldwide.
+- `connects-to` → **[cGAS-STING](../../03-molecular/cgas-sting/README.md)** — The EBV-positive and microsatellite-instable gastric cancers carry high mutational and viral-antigen burdens that engage cGAS-STING, the innate-immune basis for their strong response to checkpoint inhibitors.
+- `connects-to` → **[CXCL12](../../03-molecular/cxcl12/README.md)** — The CXCL12-CXCR4 axis directs gastric cancer cells to the peritoneum and ovary (Krukenberg tumors), the transcoelomic spread that dominates the morbidity and mortality of advanced diffuse-type disease.
 
 [^bang-2010-toga]: Bang YJ, Van Cutsem E, Feyereislova A, et al. Trastuzumab in combination with chemotherapy versus chemotherapy alone for treatment of HER2-positive advanced gastric or gastro-oesophageal junction cancer (ToGA): a phase 3, open-label, randomised controlled trial. *Lancet.* 2010;376(9742):687-697. [doi:10.1016/S0140-6736(10)61121-X](https://doi.org/10.1016/S0140-6736(10)61121-X) · [PubMed 20728210](https://pubmed.ncbi.nlm.nih.gov/20728210/)
 [^janjigian-2021-checkmate649]: Janjigian YY, Shitara K, Moehler M, et al. First-line nivolumab plus chemotherapy versus chemotherapy alone for advanced gastric, gastro-oesophageal junction, and oesophageal adenocarcinoma (CheckMate 649). *Lancet.* 2021;398(10294):27-40. [doi:10.1016/S0140-6736(21)00797-2](https://doi.org/10.1016/S0140-6736(21)00797-2) · [PubMed 34102137](https://pubmed.ncbi.nlm.nih.gov/34102137/)
