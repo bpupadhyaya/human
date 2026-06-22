@@ -295,6 +295,15 @@ cross_links:
   - target: 01-human/03-molecular/ccl2
     relation: connects-to
     note: "Macrophage microenvironment: CCL2 recruits tumour-associated macrophages into the mantle cell lymphoma niche, supporting the malignant B cells and shaping response to therapy."
+  - target: 01-human/03-molecular/src-kinase
+    relation: connects-to
+    note: "BCR-proximal kinase: Src-family kinases such as LYN transduce the chronic-active B-cell-receptor signal upstream of BTK that drives mantle cell lymphoma, the proximal node of the pathway BTK inhibitors block downstream."
+  - target: 01-human/03-molecular/caspase-3
+    relation: connects-to
+    note: "Apoptosis blockade: BCL-2 dependency lets mantle cell lymphoma evade caspase-3-mediated apoptosis, the basis for the dramatic activity of the BCL-2 inhibitor venetoclax that restores the cell-death program."
+  - target: 01-human/03-molecular/rad51
+    relation: connects-to
+    note: "ATM-loss instability: frequent ATM loss in mantle cell lymphoma impairs the DNA-damage response and leaves RAD51-dependent repair under strain, driving the genomic instability that fuels its aggressive course."
 ---
 
 # Mantle Cell Lymphoma
@@ -509,6 +518,9 @@ For SOX11−, mutated IGHV, non-bulky, asymptomatic nnMCL: Observation is safe; 
 - `connects-to` → **[CXCL12](../../03-molecular/cxcl12/README.md)** — Niche homing: CXCL12-CXCR4 signalling anchors mantle cell lymphoma cells in the protective marrow and nodal niche, and BTK inhibitors mobilise them out of it, causing the transient treatment-related lymphocytosis.
 - `connects-to` → **[TERT](../../03-molecular/tert/README.md)** — Telomerase immortalisation: TERT activation maintains telomeres in mantle cell lymphoma cells, granting the replicative capacity that complements the cyclin D1 overexpression driving the disease.
 - `connects-to` → **[CCL2](../../03-molecular/ccl2/README.md)** — Macrophage microenvironment: CCL2 recruits tumour-associated macrophages into the mantle cell lymphoma niche, supporting the malignant B cells and shaping response to therapy.
+- `connects-to` → **[Src kinase](../../03-molecular/src-kinase/README.md)** — Src-family kinases such as LYN transduce the chronic-active B-cell-receptor signal upstream of BTK that drives mantle cell lymphoma, the proximal signaling node of the very pathway that BTK inhibitors block further downstream.
+- `connects-to` → **[Caspase-3](../../03-molecular/caspase-3/README.md)** — BCL-2 dependency lets mantle cell lymphoma evade caspase-3-mediated apoptosis, the basis for the dramatic activity of the BCL-2 inhibitor venetoclax that restores the cell-death program in this otherwise relapse-prone lymphoma.
+- `connects-to` → **[RAD51](../../03-molecular/rad51/README.md)** — Frequent ATM loss in mantle cell lymphoma impairs the DNA-damage response and leaves RAD51-dependent repair under strain, driving the genomic instability that fuels its aggressive, treatment-resistant course.
 
 ---
 

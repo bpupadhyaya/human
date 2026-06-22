@@ -295,6 +295,15 @@ cross_links:
   - target: 01-human/03-molecular/adrenomedullin
     relation: connects-to
     note: "Vascular peptide: adrenomedullin, a fibrillin-associated vasodilator peptide, is dysregulated in Marfan syndrome, contributing to the abnormal vascular tone and wall homeostasis of the dilating aorta."
+  - target: 01-human/03-molecular/beta1-adrenergic-receptor
+    relation: connects-to
+    note: "Hemodynamic protection: beta-blockers acting on β1-adrenergic receptors lower heart rate and the rate of aortic-pressure rise (dP/dt), reducing wall stress to slow aortic-root dilation — the longstanding mainstay of Marfan aortic protection."
+  - target: 01-human/03-molecular/estrogen
+    relation: connects-to
+    note: "Pregnancy aortic risk: pregnancy markedly raises the risk of aortic dissection in Marfan syndrome through combined hemodynamic and hormonal effects on the already weakened aortic wall, demanding intensive cardiac surveillance."
+  - target: 01-human/03-molecular/il-1b
+    relation: connects-to
+    note: "Inflammatory medial degeneration: IL-1β and inflammatory signalling contribute to the medial degeneration and matrix breakdown of the Marfan aorta, an inflammatory arm of aneurysm formation layered on the excess TGF-β signalling."
 ---
 
 # Marfan Syndrome
@@ -526,6 +535,9 @@ MFS is a **multi-system disorder** defined by cardiovascular, ocular, and skelet
 - `connects-to` → **[Aldosterone](../../03-molecular/aldosterone/README.md)** — Mineralocorticoid remodelling: aldosterone and mineralocorticoid-receptor signalling promote aortic fibrosis and stiffening, and MR antagonists are studied alongside ARBs to slow aortic dilatation in Marfan syndrome.
 - `connects-to` → **[RANKL](../../03-molecular/rankl/README.md)** — Reduced bone density: Marfan syndrome is associated with low bone mineral density, with RANKL-driven osteoclast activity contributing to the osteopenia that adds to its skeletal manifestations.
 - `connects-to` → **[Adrenomedullin](../../03-molecular/adrenomedullin/README.md)** — Vascular peptide: adrenomedullin, a fibrillin-associated vasodilator peptide, is dysregulated in Marfan syndrome, contributing to the abnormal vascular tone and wall homeostasis of the dilating aorta.
+- `connects-to` → **[β1-adrenergic receptor](../../03-molecular/beta1-adrenergic-receptor/README.md)** — Beta-blockers acting on β1-adrenergic receptors lower heart rate and the rate of aortic-pressure rise (dP/dt), reducing wall stress to slow aortic-root dilation—the longstanding mainstay of aortic protection in Marfan syndrome.
+- `connects-to` → **[Estrogen](../../03-molecular/estrogen/README.md)** — Pregnancy markedly raises the risk of aortic dissection in Marfan syndrome through combined hemodynamic and hormonal effects on the already weakened aortic wall, demanding intensive cardiac surveillance through gestation.
+- `connects-to` → **[IL-1β](../../03-molecular/il-1b/README.md)** — IL-1β and inflammatory signaling contribute to the medial degeneration and matrix breakdown of the Marfan aorta, an inflammatory arm of aneurysm formation layered on the excess TGF-β signaling that fibrillin loss unleashes.
 
 ---
 
