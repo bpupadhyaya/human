@@ -304,6 +304,15 @@ cross_links:
   - target: 01-human/03-molecular/caspase-3
     relation: connects-to
     note: "Radioresistance: chordoma resists caspase-3-mediated apoptosis, a key reason it is notoriously radioresistant and requires the high doses delivered by proton or carbon-ion therapy for local control."
+  - target: 01-human/03-molecular/perforin
+    relation: connects-to
+    note: "Brachyury immunotherapy: because brachyury (TBXT) is the lineage-defining oncogenic dependency of chordoma, brachyury-targeted cancer vaccines aim to direct cytotoxic T cells to kill tumour cells through perforin and granzyme, an immunotherapeutic strategy unique to this tumour."
+  - target: 01-human/03-molecular/wnt-beta-catenin
+    relation: connects-to
+    note: "Notochordal development: brachyury sits within the Wnt/β-catenin developmental programme that builds the notochord, the embryonic structure whose persistent remnants give rise to chordoma along the axial skeleton."
+  - target: 01-human/03-molecular/tgf-beta
+    relation: connects-to
+    note: "Myxoid stroma: TGF-β drives the production of the abundant myxoid, chondroid extracellular matrix that gives chordoma its characteristic gelatinous histology and supports the physaliphorous tumour cells embedded within it."
 ---
 
 # Chordoma
@@ -534,6 +543,9 @@ CDKN2A deletion in ~30-40% → CDK4/6 hyperactivation → RB1 phosphorylation; p
 - `connects-to` → **[CXCL12](../../03-molecular/cxcl12/README.md)** — The CXCL12-CXCR4 axis drives the local bone and soft-tissue invasion of chordoma and contributes to the late metastases that arise in a minority of these slow-growing axial-skeleton tumors.
 - `connects-to` → **[Notch](../../03-molecular/notch/README.md)** — Notch signaling is active in chordoma and, with the master regulator brachyury, sustains the notochordal stem-like phenotype that defines this tumor arising from embryonic-notochord remnants.
 - `connects-to` → **[Caspase-3](../../03-molecular/caspase-3/README.md)** — Chordoma resists caspase-3-mediated apoptosis, a key reason it is notoriously radioresistant and requires the high doses delivered by proton or carbon-ion therapy to achieve durable local control.
+- `connects-to` → **[Perforin](../../03-molecular/perforin/README.md)** — Because brachyury (TBXT) is the lineage-defining oncogenic dependency of chordoma, brachyury-targeted cancer vaccines aim to direct cytotoxic T cells to kill tumor cells through perforin and granzyme, an immunotherapeutic strategy unique to this tumor.
+- `connects-to` → **[Wnt/β-catenin](../../03-molecular/wnt-beta-catenin/README.md)** — Brachyury sits within the Wnt/β-catenin developmental program that builds the notochord, the embryonic structure whose persistent remnants give rise to chordoma along the axial skeleton.
+- `connects-to` → **[TGF-β](../../03-molecular/tgf-beta/README.md)** — TGF-β drives the production of the abundant myxoid, chondroid extracellular matrix that gives chordoma its characteristic gelatinous histology and supports the physaliphorous tumor cells embedded within it.
 
 ---
 

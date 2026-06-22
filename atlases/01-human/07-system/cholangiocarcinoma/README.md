@@ -304,6 +304,15 @@ cross_links:
   - target: 01-human/03-molecular/tlr4
     relation: connects-to
     note: "Inflammation-driven carcinogenesis: TLR4 sensing of gut- and biliary-derived bacterial products sustains the chronic biliary inflammation — from liver fluke or primary sclerosing cholangitis — that drives cholangiocarcinogenesis."
+  - target: 01-human/03-molecular/cgas-sting
+    relation: connects-to
+    note: "Immunotherapy rationale: genomic instability in cholangiocarcinoma generates cytosolic DNA that activates cGAS-STING, part of the innate-immune context behind adding the PD-L1 inhibitor durvalumab to gemcitabine-cisplatin, now first-line in advanced biliary cancer."
+  - target: 01-human/03-molecular/caspase-3
+    relation: connects-to
+    note: "Chemotherapy apoptosis: gemcitabine-cisplatin, the cytotoxic backbone of advanced cholangiocarcinoma treatment, kills tumour cells through caspase-3-mediated apoptosis, the death pathway whose evasion underlies the chemoresistance of this aggressive cancer."
+  - target: 01-human/03-molecular/cholesterol
+    relation: connects-to
+    note: "Bile-acid carcinogenesis: retained bile acids in chronic cholestasis activate signalling that promotes cholangiocyte proliferation and survival, a metabolic limb of the inflammation-and-cholestasis milieu from which cholangiocarcinoma arises."
 ---
 
 # Cholangiocarcinoma
@@ -496,6 +505,9 @@ Chronic biliary injury (from PSC, fluke infection, bile acid reflux, biliary sta
 - `connects-to` → **[BAP1](../../03-molecular/bap1/README.md)** — Inactivating BAP1 mutations are recurrent in cholangiocarcinoma, disrupting the deubiquitinase's chromatin-remodeling and DNA-repair functions—one of the defining tumor-suppressor lesions alongside IDH1 and FGFR2 alterations.
 - `connects-to` → **[CXCL12](../../03-molecular/cxcl12/README.md)** — Cancer-associated fibroblasts in the dense desmoplastic stroma secrete CXCL12 that signals through CXCR4 to drive cholangiocarcinoma invasion and the chemoresistance conferred by the protective stromal niche.
 - `connects-to` → **[TLR4](../../03-molecular/tlr4/README.md)** — TLR4 sensing of gut- and biliary-derived bacterial products sustains the chronic biliary inflammation—from liver-fluke infection or primary sclerosing cholangitis—that is the dominant driver of cholangiocarcinogenesis.
+- `connects-to` → **[cGAS-STING](../../03-molecular/cgas-sting/README.md)** — Genomic instability in cholangiocarcinoma generates cytosolic DNA that activates cGAS-STING, part of the innate-immune context behind adding the PD-L1 inhibitor durvalumab to gemcitabine-cisplatin, now first-line in advanced biliary cancer.
+- `connects-to` → **[Caspase-3](../../03-molecular/caspase-3/README.md)** — Gemcitabine-cisplatin, the cytotoxic backbone of advanced cholangiocarcinoma treatment, kills tumor cells through caspase-3-mediated apoptosis, the death pathway whose evasion underlies the chemoresistance of this aggressive cancer.
+- `connects-to` → **[Cholesterol](../../03-molecular/cholesterol/README.md)** — Retained bile acids in chronic cholestasis activate signaling that promotes cholangiocyte proliferation and survival, a metabolic limb of the inflammation-and-cholestasis milieu from which cholangiocarcinoma arises.
 
 ---
 
