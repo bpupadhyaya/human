@@ -301,6 +301,15 @@ cross_links:
   - target: 01-human/03-molecular/hepcidin
     relation: connects-to
     note: "Iron deficiency: inflammation-driven hepcidin elevation causes the functional iron deficiency common in PAH, which independently predicts worse exercise capacity and survival regardless of anaemia."
+  - target: 01-human/03-molecular/serca2a
+    relation: connects-to
+    note: "Right-ventricular failure: as the pressure-loaded right ventricle decompensates in PAH, SERCA2a is downregulated and calcium reuptake fails, impairing RV contractility and relaxation — the maladaptive remodelling that ultimately determines survival in the disease."
+  - target: 01-human/03-molecular/xanthine-oxidase
+    relation: connects-to
+    note: "Oxidative stress: xanthine oxidase activity is raised in PAH, generating reactive oxygen species and the hyperuricaemia whose serum urate level correlates with pulmonary haemodynamic severity and prognosis."
+  - target: 01-human/03-molecular/von-willebrand-factor
+    relation: connects-to
+    note: "Endothelial dysfunction: the diseased pulmonary endothelium of PAH releases von Willebrand factor and supports the in-situ thrombosis of small pulmonary arteries, with raised vWF levels marking endothelial injury and adverse outcome."
 ---
 
 # Pulmonary Arterial Hypertension
@@ -518,6 +527,9 @@ Key variables: WHO functional class (I-IV), 6-minute walk distance (6MWD), NT-pr
 - `connects-to` → **[Adrenomedullin](../../03-molecular/adrenomedullin/README.md)** — Adrenomedullin rises in PAH as a counter-regulatory pulmonary vasodilator and anti-proliferative peptide, and its circulating levels track right-ventricular strain and disease severity—making it both a compensatory mediator and a prognostic marker.
 - `connects-to` → **[Aldosterone](../../03-molecular/aldosterone/README.md)** — RAAS-driven aldosterone excess in PAH promotes pulmonary-vascular and right-ventricular fibrosis and impairs endothelial nitric-oxide signaling, the rationale for mineralocorticoid-receptor antagonists being studied in the disease.
 - `connects-to` → **[Hepcidin](../../03-molecular/hepcidin/README.md)** — Inflammation-driven hepcidin elevation causes the functional iron deficiency common in PAH, which independently predicts worse exercise capacity and survival regardless of anemia—linking the disease's inflammatory state to a treatable comorbidity.
+- `connects-to` → **[SERCA2a](../../03-molecular/serca2a/README.md)** — As the pressure-loaded right ventricle decompensates in PAH, SERCA2a is downregulated and calcium reuptake fails, impairing RV contractility and relaxation—the maladaptive remodeling that ultimately determines survival in the disease.
+- `connects-to` → **[Xanthine Oxidase](../../03-molecular/xanthine-oxidase/README.md)** — Xanthine oxidase activity is raised in PAH, generating reactive oxygen species and the hyperuricemia whose serum urate level correlates with pulmonary hemodynamic severity and prognosis.
+- `connects-to` → **[von Willebrand Factor](../../03-molecular/von-willebrand-factor/README.md)** — The diseased pulmonary endothelium of PAH releases von Willebrand factor and supports the in-situ thrombosis of small pulmonary arteries, with raised vWF levels marking endothelial injury and adverse outcome.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 

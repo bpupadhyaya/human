@@ -295,6 +295,15 @@ cross_links:
   - target: 01-human/03-molecular/tert
     relation: connects-to
     note: "Telomere maintenance: TERT promoter mutations reactivate telomerase in renal cell carcinoma, granting the replicative immortality that lets the tumour clone proliferate indefinitely."
+  - target: 01-human/03-molecular/fh
+    relation: connects-to
+    note: "Oncometabolite RCC: germline fumarate-hydratase loss causes hereditary leiomyomatosis and renal cell cancer (HLRCC), an aggressive papillary type-2 RCC where accumulated fumarate stabilises HIF and inactivates the KEAP1-NRF2 antioxidant pathway."
+  - target: 01-human/03-molecular/flcn
+    relation: connects-to
+    note: "Birt-Hogg-Dubé RCC: germline folliculin loss causes the Birt-Hogg-Dubé syndrome that predisposes to chromophobe renal carcinoma and hybrid oncocytic tumours, acting through dysregulated AMPK-mTOR and TFE3/TFEB signalling distinct from the VHL-HIF axis."
+  - target: 01-human/03-molecular/cdkn2a
+    relation: connects-to
+    note: "Progression marker: somatic CDKN2A loss, releasing the brake on the CDK4/6-cyclin-D cell cycle, is associated with sarcomatoid dedifferentiation and aggressive, poor-prognosis clear-cell renal carcinoma."
 ---
 
 # Renal Cell Carcinoma
@@ -506,6 +515,9 @@ Kidney → primary site of EPO production under hypoxia; VHL-intact renal inters
 - `connects-to` → **[AXL receptor](../../03-molecular/axl-receptor/README.md)** — AXL upregulation drives resistance to VEGFR tyrosine-kinase inhibitors in RCC, which is why cabozantinib—targeting AXL and MET alongside VEGFR—outperforms pure VEGFR inhibitors in advanced clear-cell disease.
 - `connects-to` → **[CXCL12](../../03-molecular/cxcl12/README.md)** — VHL loss in RCC upregulates the CXCR4 receptor for CXCL12, directing tumor cells toward the bone, lung, and brain that are the characteristic sites of RCC metastasis—linking the founding genetic lesion to the metastatic pattern.
 - `connects-to` → **[TERT](../../03-molecular/tert/README.md)** — TERT promoter mutations reactivate telomerase in renal cell carcinoma, granting the replicative immortality that lets the tumor clone proliferate indefinitely past the telomere-attrition limit that constrains normal cells.
+- `connects-to` → **[FH](../../03-molecular/fh/README.md)** — Germline fumarate-hydratase loss causes hereditary leiomyomatosis and renal cell cancer (HLRCC), an aggressive papillary type-2 RCC where accumulated fumarate stabilizes HIF and inactivates the KEAP1-NRF2 antioxidant pathway.
+- `connects-to` → **[FLCN](../../03-molecular/flcn/README.md)** — Germline folliculin loss causes Birt-Hogg-Dubé syndrome, predisposing to chromophobe renal carcinoma and hybrid oncocytic tumors through dysregulated AMPK-mTOR and TFE3/TFEB signaling distinct from the VHL-HIF axis.
+- `connects-to` → **[CDKN2A](../../03-molecular/cdkn2a/README.md)** — Somatic CDKN2A loss, releasing the brake on the CDK4/6-cyclin-D cell cycle, is associated with sarcomatoid dedifferentiation and aggressive, poor-prognosis clear-cell renal carcinoma.
 
 [^motzer-2018-checkmate214]: Motzer RJ, Tannir NM, McDermott DF, et al. Nivolumab plus ipilimumab versus sunitinib in advanced renal-cell carcinoma. *N Engl J Med.* 2018;378(14):1277-1290. [doi:10.1056/NEJMoa1712126](https://doi.org/10.1056/NEJMoa1712126) · [PubMed 29562145](https://pubmed.ncbi.nlm.nih.gov/29562145/)
 [^rini-2019-keynote426]: Rini BI, Plimack ER, Stus V, et al. Pembrolizumab plus axitinib versus sunitinib for advanced renal-cell carcinoma. *N Engl J Med.* 2019;380(12):1116-1127. [doi:10.1056/NEJMoa1816714](https://doi.org/10.1056/NEJMoa1816714) · [PubMed 30779529](https://pubmed.ncbi.nlm.nih.gov/30779529/)
