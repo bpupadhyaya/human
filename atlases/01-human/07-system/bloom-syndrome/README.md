@@ -304,6 +304,15 @@ cross_links:
   - target: 01-human/03-molecular/mdm2
     relation: connects-to
     note: "p53 setpoint: the MDM2-p53 axis governs the heightened p53 response that BLM-deficient cells mount against their constant DNA damage, balancing tumour suppression against the cell loss that limits growth in Bloom syndrome."
+  - target: 01-human/03-molecular/cgas-sting
+    relation: connects-to
+    note: "Genomic-instability inflammaging: BLM-deficient cells accumulate micronuclei and cytosolic DNA from their excess chromosomal breakage, activating cGAS-STING and a chronic type-I-interferon inflammation that accompanies the genomic instability of Bloom syndrome."
+  - target: 01-human/03-molecular/xanthine-oxidase
+    relation: connects-to
+    note: "Oxidative DNA damage: xanthine-oxidase-derived reactive oxygen species add oxidative lesions to the already unstable BLM-deficient genome, compounding the DNA damage that drives the cancer predisposition and sun-sensitive skin of Bloom syndrome."
+  - target: 01-human/03-molecular/secretory-iga
+    relation: connects-to
+    note: "Immunodeficiency: Bloom syndrome features low immunoglobulins, including secretory IgA, and the resulting impaired mucosal immunity underlies the recurrent respiratory and gastrointestinal infections that complicate the disorder."
 ---
 
 # Bloom Syndrome
@@ -537,6 +546,9 @@ BS is characterized by three cardinal features: **small body size** (the most co
 - `connects-to` → **[p21 (CDKN1A)](../../03-molecular/cdkn1a/README.md)** — The persistent DNA damage and unresolved recombination intermediates of BLM-deficient cells chronically activate the p53-p21 checkpoint, arresting cells and contributing to the growth deficiency characteristic of Bloom syndrome.
 - `connects-to` → **[Caspase-3](../../03-molecular/caspase-3/README.md)** — Cells in Bloom syndrome that accumulate irreparable DNA damage undergo caspase-3-mediated apoptosis, a cell-loss mechanism that compounds the impaired growth alongside the cancer-prone surviving clones.
 - `connects-to` → **[MDM2](../../03-molecular/mdm2/README.md)** — The MDM2-p53 axis governs the heightened p53 response that BLM-deficient cells mount against constant DNA damage, balancing the tumor suppression against the cell loss that limits growth in Bloom syndrome.
+- `connects-to` → **[cGAS-STING](../../03-molecular/cgas-sting/README.md)** — BLM-deficient cells accumulate micronuclei and cytosolic DNA from their excess chromosomal breakage, activating cGAS-STING and a chronic type-I-interferon inflammation that accompanies the genomic instability of Bloom syndrome.
+- `connects-to` → **[Xanthine Oxidase](../../03-molecular/xanthine-oxidase/README.md)** — Xanthine-oxidase-derived reactive oxygen species add oxidative lesions to the already unstable BLM-deficient genome, compounding the DNA damage that drives the cancer predisposition and sun-sensitive skin of Bloom syndrome.
+- `connects-to` → **[Secretory IgA](../../03-molecular/secretory-iga/README.md)** — Bloom syndrome features low immunoglobulins, including secretory IgA, and the resulting impaired mucosal immunity underlies the recurrent respiratory and gastrointestinal infections that complicate the disorder.
 
 ---
 

@@ -310,6 +310,15 @@ cross_links:
   - target: 01-human/03-molecular/cxcl12
     relation: connects-to
     note: "Invasion and metastasis: the CXCL12-CXCR4 axis promotes the muscle invasion and nodal/distant metastasis of urothelial bladder cancer, the transition that converts curable disease into a lethal one."
+  - target: 01-human/03-molecular/ifn-gamma
+    relation: connects-to
+    note: "BCG immunotherapy: intravesical BCG for non-muscle-invasive bladder cancer works by provoking a Th1, IFN-γ-driven immune response against the urothelium, the oldest and still standard cancer immunotherapy, predating checkpoint blockade by decades."
+  - target: 01-human/03-molecular/caspase-3
+    relation: connects-to
+    note: "Chemotherapy apoptosis: cisplatin-based regimens (gemcitabine-cisplatin) kill urothelial-cancer cells through caspase-3-mediated apoptosis, the cytotoxic backbone of neoadjuvant and metastatic bladder-cancer treatment whose evasion drives platinum resistance."
+  - target: 01-human/03-molecular/cdh1
+    relation: connects-to
+    note: "EMT and invasion: loss of E-cadherin during epithelial-mesenchymal transition releases urothelial-cancer cells from their junctions, a step in the progression from papillary non-invasive tumour to the muscle-invasive disease that metastasises."
 ---
 
 # Bladder Cancer
@@ -528,6 +537,9 @@ NMIBC and MIBC have distinct molecular landscapes:
 - `connects-to` → **[TLR4](../../03-molecular/tlr4/README.md)** — Intravesical BCG activates innate immunity through Toll-like receptors including TLR4 on urothelial and immune cells—the mechanism behind the mainstay immunotherapy that prevents recurrence of non-muscle-invasive bladder cancer.
 - `connects-to` → **[cGAS-STING](../../03-molecular/cgas-sting/README.md)** — The high tobacco- and APOBEC-driven mutational burden of bladder cancer generates cytosolic DNA and neoantigens that engage cGAS-STING, underlying the disease's strong responsiveness to checkpoint-inhibitor immunotherapy.
 - `connects-to` → **[CXCL12](../../03-molecular/cxcl12/README.md)** — The CXCL12-CXCR4 axis promotes the muscle invasion and the nodal and distant metastasis of urothelial bladder cancer, the transition that converts curable superficial disease into a lethal one.
+- `connects-to` → **[IFN-γ](../../03-molecular/ifn-gamma/README.md)** — Intravesical BCG for non-muscle-invasive bladder cancer works by provoking a Th1, IFN-γ-driven immune response against the urothelium, the oldest and still standard cancer immunotherapy, predating checkpoint blockade by decades.
+- `connects-to` → **[Caspase-3](../../03-molecular/caspase-3/README.md)** — Cisplatin-based regimens (gemcitabine-cisplatin) kill urothelial-cancer cells through caspase-3-mediated apoptosis, the cytotoxic backbone of neoadjuvant and metastatic bladder-cancer treatment whose evasion drives platinum resistance.
+- `connects-to` → **[E-cadherin](../../03-molecular/cdh1/README.md)** — Loss of E-cadherin during epithelial-mesenchymal transition releases urothelial-cancer cells from their junctions, a step in the progression from papillary non-invasive tumor to the muscle-invasive disease that metastasizes.
 
 ---
 
