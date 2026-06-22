@@ -304,6 +304,15 @@ cross_links:
   - target: 01-human/03-molecular/rad51
     relation: connects-to
     note: "ATM-loss instability: frequent ATM loss in mantle cell lymphoma impairs the DNA-damage response and leaves RAD51-dependent repair under strain, driving the genomic instability that fuels its aggressive course."
+  - target: 01-human/03-molecular/perforin
+    relation: connects-to
+    note: "Cellular immunotherapy: CD19 CAR-T (brexucabtagene) and CD20-CD3 bispecific antibodies redirect cytotoxic T cells to kill mantle-cell lymphoma through perforin and granzyme, achieving durable remissions after chemotherapy and BTK inhibitors fail."
+  - target: 01-human/03-molecular/complement-c3
+    relation: connects-to
+    note: "Complement-dependent killing: anti-CD20 antibodies (rituximab, obinutuzumab), a backbone of mantle-cell therapy, kill cells partly through complement-dependent cytotoxicity, fixing C3 and the membrane-attack complex on the lymphoma cells."
+  - target: 01-human/03-molecular/immunoglobulin-g
+    relation: connects-to
+    note: "Translocation and BCR: the defining t(11;14) places cyclin D1 under the immunoglobulin heavy-chain enhancer, driving its overexpression, while tonic B-cell-receptor signalling sustains the cell — the dependence that BTK inhibitors exploit."
 ---
 
 # Mantle Cell Lymphoma
@@ -521,6 +530,9 @@ For SOX11−, mutated IGHV, non-bulky, asymptomatic nnMCL: Observation is safe; 
 - `connects-to` → **[Src kinase](../../03-molecular/src-kinase/README.md)** — Src-family kinases such as LYN transduce the chronic-active B-cell-receptor signal upstream of BTK that drives mantle cell lymphoma, the proximal signaling node of the very pathway that BTK inhibitors block further downstream.
 - `connects-to` → **[Caspase-3](../../03-molecular/caspase-3/README.md)** — BCL-2 dependency lets mantle cell lymphoma evade caspase-3-mediated apoptosis, the basis for the dramatic activity of the BCL-2 inhibitor venetoclax that restores the cell-death program in this otherwise relapse-prone lymphoma.
 - `connects-to` → **[RAD51](../../03-molecular/rad51/README.md)** — Frequent ATM loss in mantle cell lymphoma impairs the DNA-damage response and leaves RAD51-dependent repair under strain, driving the genomic instability that fuels its aggressive, treatment-resistant course.
+- `connects-to` → **[Perforin](../../03-molecular/perforin/README.md)** — CD19 CAR-T (brexucabtagene) and CD20-CD3 bispecific antibodies redirect cytotoxic T cells to kill mantle-cell lymphoma through perforin and granzyme, achieving durable remissions after chemotherapy and BTK inhibitors fail.
+- `connects-to` → **[Complement C3](../../03-molecular/complement-c3/README.md)** — Anti-CD20 antibodies (rituximab, obinutuzumab), a backbone of mantle-cell therapy, kill cells partly through complement-dependent cytotoxicity, fixing C3 and the membrane-attack complex on the lymphoma cells.
+- `connects-to` → **[Immunoglobulin G](../../03-molecular/immunoglobulin-g/README.md)** — The defining t(11;14) places cyclin D1 under the immunoglobulin heavy-chain enhancer, driving its overexpression, while tonic B-cell-receptor signaling sustains the cell—the dependence that BTK inhibitors exploit.
 
 ---
 

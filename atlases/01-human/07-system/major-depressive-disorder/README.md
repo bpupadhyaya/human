@@ -313,6 +313,15 @@ cross_links:
   - target: 01-human/03-molecular/tlr4
     relation: connects-to
     note: "Neuroinflammatory hypothesis: microglial TLR4-driven innate immune activation is a key strand of the inflammatory hypothesis of depression, linking chronic stress and infection to the disorder's neuroinflammation."
+  - target: 01-human/03-molecular/orexin
+    relation: connects-to
+    note: "Arousal and anhedonia: orexin signalling that governs wakefulness, reward and motivation is dysregulated in depression, contributing to the disturbed sleep, fatigue and anhedonia that are core symptoms beyond low mood."
+  - target: 01-human/03-molecular/ghrelin
+    relation: connects-to
+    note: "Stress hormone: ghrelin rises with chronic stress and has antidepressant-like central effects, a gut-derived hormone linking appetite, the stress response and mood in the metabolic-psychiatric overlap of depression."
+  - target: 01-human/03-molecular/xanthine-oxidase
+    relation: connects-to
+    note: "Oxidative stress: markers of oxidative stress, partly from xanthine-oxidase activity, are raised in depression, the redox imbalance that — with neuroinflammation — is increasingly implicated in the neurobiology of the disorder."
 ---
 
 # Major Depressive Disorder
@@ -568,6 +577,9 @@ Approximately 30–40% of MDD patients have elevated inflammatory markers:
 - `connects-to` → **[NTRK / TrkB](../../03-molecular/ntrk/README.md)** — BDNF signaling through its TrkB receptor mediates the rapid synaptogenesis that underlies ketamine's fast antidepressant effect, the neurotrophin axis whose impairment is a core feature of the neurobiology of depression.
 - `connects-to` → **[μ-opioid receptor](../../03-molecular/mu-opioid-receptor/README.md)** — The endogenous μ-opioid system mediates social reward and connection, and its dysfunction contributes to anhedonia—the rationale for low-dose buprenorphine and related opioid-modulating agents in treatment-resistant depression.
 - `connects-to` → **[TLR4](../../03-molecular/tlr4/README.md)** — Microglial TLR4-driven innate immune activation is a key strand of the inflammatory hypothesis of depression, linking chronic stress, infection, and a leaky gut to the neuroinflammation found in a subset of depressed patients.
+- `connects-to` → **[Orexin](../../03-molecular/orexin/README.md)** — Orexin signaling that governs wakefulness, reward and motivation is dysregulated in depression, contributing to the disturbed sleep, fatigue and anhedonia that are core symptoms beyond low mood.
+- `connects-to` → **[Ghrelin](../../03-molecular/ghrelin/README.md)** — Ghrelin rises with chronic stress and has antidepressant-like central effects, a gut-derived hormone linking appetite, the stress response and mood in the metabolic-psychiatric overlap of depression.
+- `connects-to` → **[Xanthine Oxidase](../../03-molecular/xanthine-oxidase/README.md)** — Markers of oxidative stress, partly from xanthine-oxidase activity, are raised in depression, the redox imbalance that—with neuroinflammation—is increasingly implicated in the neurobiology of the disorder.
 
 [^cipriani-2018-antidepressants-meta]: Cipriani A, Furukawa TA, Salanti G, et al. Comparative efficacy and acceptability of 21 antidepressant drugs for acute treatment of adults with major depressive disorder. *Lancet.* 2018;391(10128):1357-1366. [doi:10.1016/S0140-6736(17)32802-7](https://doi.org/10.1016/S0140-6736(17)32802-7) · [PubMed 29477251](https://pubmed.ncbi.nlm.nih.gov/29477251/)
 [^zarate-2006-ketamine-rapid]: Zarate CA Jr, Singh JB, Carlson PJ, et al. A randomized trial of an N-methyl-D-aspartate antagonist in treatment-resistant major depression. *Arch Gen Psychiatry.* 2006;63(8):856-864. [doi:10.1001/archpsyc.63.8.856](https://doi.org/10.1001/archpsyc.63.8.856) · [PubMed 16894061](https://pubmed.ncbi.nlm.nih.gov/16894061/)
