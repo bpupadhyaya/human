@@ -304,6 +304,15 @@ cross_links:
   - target: 01-human/03-molecular/cxcl12
     relation: connects-to
     note: "Peritoneal metastasis: the CXCL12-CXCR4 axis directs gastric cancer cells to the peritoneum and ovary (Krukenberg tumours), the transcoelomic spread that dominates the mortality of advanced disease."
+  - target: 01-human/03-molecular/lmp1
+    relation: connects-to
+    note: "EBV-positive subtype: about a tenth of gastric cancers are driven by Epstein-Barr virus, a molecularly distinct subtype with PD-L1 amplification and dense immune infiltration that is especially responsive to checkpoint blockade."
+  - target: 01-human/03-molecular/caspase-3
+    relation: connects-to
+    note: "Chemotherapy apoptosis: perioperative FLOT and platinum-based regimens kill gastric-cancer cells through caspase-3-mediated apoptosis, the cytotoxic backbone whose effect on the resected tumour predicts outcome."
+  - target: 01-human/03-molecular/perforin
+    relation: connects-to
+    note: "Immunotherapy killing: checkpoint inhibitors and emerging CAR-T against targets like Claudin18.2 work by unleashing cytotoxic T cells that kill gastric-cancer cells through perforin and granzyme, especially in the EBV-positive and MSI-high subtypes."
 ---
 
 # Gastric Cancer
@@ -546,6 +555,9 @@ H. pylori eradication: Reduces GC incidence by ~35-40% (meta-analyses); most ben
 - `connects-to` → **[TLR4](../../03-molecular/tlr4/README.md)** — TLR4 sensing of Helicobacter pylori products drives the chronic gastritis that initiates the Correa cascade—atrophy, intestinal metaplasia, dysplasia—underlying most intestinal-type gastric cancer worldwide.
 - `connects-to` → **[cGAS-STING](../../03-molecular/cgas-sting/README.md)** — The EBV-positive and microsatellite-instable gastric cancers carry high mutational and viral-antigen burdens that engage cGAS-STING, the innate-immune basis for their strong response to checkpoint inhibitors.
 - `connects-to` → **[CXCL12](../../03-molecular/cxcl12/README.md)** — The CXCL12-CXCR4 axis directs gastric cancer cells to the peritoneum and ovary (Krukenberg tumors), the transcoelomic spread that dominates the morbidity and mortality of advanced diffuse-type disease.
+- `connects-to` → **[LMP1](../../03-molecular/lmp1/README.md)** — About a tenth of gastric cancers are driven by Epstein-Barr virus, a molecularly distinct subtype with PD-L1 amplification and dense immune infiltration that is especially responsive to checkpoint blockade.
+- `connects-to` → **[Caspase-3](../../03-molecular/caspase-3/README.md)** — Perioperative FLOT and platinum-based regimens kill gastric-cancer cells through caspase-3-mediated apoptosis, the cytotoxic backbone whose effect on the resected tumor predicts outcome.
+- `connects-to` → **[Perforin](../../03-molecular/perforin/README.md)** — Checkpoint inhibitors and emerging CAR-T against targets like Claudin18.2 work by unleashing cytotoxic T cells that kill gastric-cancer cells through perforin and granzyme, especially in the EBV-positive and MSI-high subtypes.
 
 [^bang-2010-toga]: Bang YJ, Van Cutsem E, Feyereislova A, et al. Trastuzumab in combination with chemotherapy versus chemotherapy alone for treatment of HER2-positive advanced gastric or gastro-oesophageal junction cancer (ToGA): a phase 3, open-label, randomised controlled trial. *Lancet.* 2010;376(9742):687-697. [doi:10.1016/S0140-6736(10)61121-X](https://doi.org/10.1016/S0140-6736(10)61121-X) · [PubMed 20728210](https://pubmed.ncbi.nlm.nih.gov/20728210/)
 [^janjigian-2021-checkmate649]: Janjigian YY, Shitara K, Moehler M, et al. First-line nivolumab plus chemotherapy versus chemotherapy alone for advanced gastric, gastro-oesophageal junction, and oesophageal adenocarcinoma (CheckMate 649). *Lancet.* 2021;398(10294):27-40. [doi:10.1016/S0140-6736(21)00797-2](https://doi.org/10.1016/S0140-6736(21)00797-2) · [PubMed 34102137](https://pubmed.ncbi.nlm.nih.gov/34102137/)

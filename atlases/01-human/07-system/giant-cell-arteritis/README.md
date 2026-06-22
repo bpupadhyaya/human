@@ -304,6 +304,15 @@ cross_links:
   - target: 01-human/03-molecular/cxcl12
     relation: connects-to
     note: "Immune-cell recruitment: chemokines including CXCL12 draw T cells and monocytes into the inflamed artery wall in giant-cell arteritis, building the transmural infiltrate that defines the granulomatous vasculitis."
+  - target: 01-human/03-molecular/glucocorticoid-receptor
+    relation: connects-to
+    note: "Sight-saving therapy: high-dose glucocorticoids acting through the glucocorticoid receptor are started urgently in giant-cell arteritis to prevent the irreversible blindness of ophthalmic-artery occlusion, with tocilizumab now allowing steroid sparing."
+  - target: 01-human/03-molecular/angiopoietin
+    relation: connects-to
+    note: "Vascular remodelling: angiopoietin- and VEGF-driven neovascularisation of the inflamed arterial wall feeds the intimal hyperplasia that narrows the lumen in giant-cell arteritis, the occlusive remodelling behind the ischaemic complications."
+  - target: 01-human/03-molecular/prostaglandins
+    relation: connects-to
+    note: "Antiplatelet prevention: low-dose aspirin, by shifting the platelet thromboxane-prostacyclin balance, is used in giant-cell arteritis to reduce the cranial-ischaemic events — visual loss and stroke — that complicate the occlusive vasculitis."
 ---
 
 # Giant Cell Arteritis
@@ -514,6 +523,9 @@ The temporal arteries supply scalp, temporalis muscle, and dura. In GCA, transmu
 - `connects-to` → **[TLR4](../../03-molecular/tlr4/README.md)** — TLR-mediated activation of the vascular dendritic cells guarding the adventitia breaks the immune privilege of the artery wall, the initiating event that licenses the granulomatous attack of giant-cell arteritis.
 - `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — mTOR signaling drives the proliferation of the myofibroblasts that thicken the intima and occlude the lumen in giant-cell arteritis, the remodeling process behind the irreversible ischemic blindness the disease can cause.
 - `connects-to` → **[CXCL12](../../03-molecular/cxcl12/README.md)** — Chemokines including CXCL12 draw T cells and monocytes into the inflamed artery wall in giant-cell arteritis, building the transmural infiltrate of CD4 T cells, macrophages, and giant cells that defines the vasculitis.
+- `connects-to` → **[Glucocorticoid receptor](../../03-molecular/glucocorticoid-receptor/README.md)** — High-dose glucocorticoids acting through the glucocorticoid receptor are started urgently in giant-cell arteritis to prevent the irreversible blindness of ophthalmic-artery occlusion, with tocilizumab now allowing steroid sparing.
+- `connects-to` → **[Angiopoietin](../../03-molecular/angiopoietin/README.md)** — Angiopoietin- and VEGF-driven neovascularization of the inflamed arterial wall feeds the intimal hyperplasia that narrows the lumen in giant-cell arteritis, the occlusive remodeling behind the ischemic complications.
+- `connects-to` → **[Prostaglandins](../../03-molecular/prostaglandins/README.md)** — Low-dose aspirin, by shifting the platelet thromboxane-prostacyclin balance, is used in giant-cell arteritis to reduce the cranial-ischemic events—visual loss and stroke—that complicate the occlusive vasculitis.
 
 [^stone-2017-giact]: Stone JH, Tuckwell K, Dimonaco S, et al. Trial of tocilizumab in giant-cell arteritis. *N Engl J Med.* 2017;377(4):317-328. [doi:10.1056/NEJMoa1613849](https://doi.org/10.1056/NEJMoa1613849) · [PubMed 28745999](https://pubmed.ncbi.nlm.nih.gov/28745999/)
 [^weyand-2014-gca-review]: Weyand CM, Goronzy JJ. Clinical practice. Giant-cell arteritis and polymyalgia rheumatica. *N Engl J Med.* 2014;371(1):50-57. [doi:10.1056/NEJMcp1214926](https://doi.org/10.1056/NEJMcp1214926) · [PubMed 24988557](https://pubmed.ncbi.nlm.nih.gov/24988557/)
