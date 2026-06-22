@@ -295,6 +295,15 @@ cross_links:
   - target: 01-human/03-molecular/rankl
     relation: connects-to
     note: "Premature osteoporosis: severe osteoporosis, especially of the limbs, is a hallmark of Werner syndrome, reflecting the RANKL-driven osteoclast activity that outpaces bone formation in this accelerated-ageing disorder."
+  - target: 01-human/03-molecular/cgas-sting
+    relation: connects-to
+    note: "Inflammaging: WRN-deficient cells accumulate micronuclei and cytosolic DNA that activate cGAS-STING, generating the chronic senescence-associated inflammatory secretome (SASP) that helps drive the accelerated tissue ageing of Werner syndrome."
+  - target: 01-human/03-molecular/cholesterol
+    relation: connects-to
+    note: "Premature atherosclerosis: severe, early atherosclerosis is a leading cause of death in Werner syndrome, the cholesterol-laden arterial disease appearing decades early and compounded by the syndrome's dyslipidaemia and insulin resistance."
+  - target: 01-human/03-molecular/adiponectin
+    relation: connects-to
+    note: "Metabolic syndrome: Werner syndrome is a classic model of hypoadiponectinaemia, where the loss of insulin-sensitising adiponectin from dysfunctional visceral fat underlies its severe insulin resistance and early type-2 diabetes."
 ---
 
 # Werner Syndrome
@@ -550,6 +559,9 @@ cross_links:
 - `connects-to` → **[BLM](../../03-molecular/blm/README.md)** — WRN and BLM (Bloom syndrome) are sister RecQ helicases, so the loss of WRN in Werner syndrome parallels BLM loss—both cause genomic instability and cancer predisposition from failed replication-fork and homologous-recombination repair.
 - `connects-to` → **[p21 (CDKN1A)](../../03-molecular/cdkn1a/README.md)** — WRN loss leaves replication stress unresolved, triggering p21-driven cell-cycle arrest and premature replicative senescence—a core mechanism of the accelerated-aging phenotype, where cells exhaust their replicative capacity early.
 - `connects-to` → **[RANKL](../../03-molecular/rankl/README.md)** — Severe osteoporosis, especially of the distal limbs, is a hallmark of Werner syndrome, reflecting the RANKL-driven osteoclast activity that outpaces bone formation in this accelerated-aging disorder long before normal old age.
+- `connects-to` → **[cGAS-STING](../../03-molecular/cgas-sting/README.md)** — WRN-deficient cells accumulate micronuclei and cytosolic DNA that activate cGAS-STING, generating the chronic senescence-associated inflammatory secretome (SASP) that helps drive the accelerated tissue aging of Werner syndrome.
+- `connects-to` → **[Cholesterol](../../03-molecular/cholesterol/README.md)** — Severe, early atherosclerosis is a leading cause of death in Werner syndrome, the cholesterol-laden arterial disease appearing decades early and compounded by the syndrome's dyslipidemia and insulin resistance.
+- `connects-to` → **[Adiponectin](../../03-molecular/adiponectin/README.md)** — Werner syndrome is a classic model of hypoadiponectinemia, where the loss of insulin-sensitizing adiponectin from dysfunctional visceral fat underlies its severe insulin resistance and early type-2 diabetes.
 
 [^yu-1996-wrn]: Yu CE, Oshima J, Fu YH, et al. Positional cloning of the Werner's syndrome gene. *Science.* 1996;272(5259):258-262. [doi:10.1126/science.272.5259.258](https://doi.org/10.1126/science.272.5259.258) · [PubMed 8602509](https://pubmed.ncbi.nlm.nih.gov/8602509/)
 [^lauper-2013-wrn-neoplasia]: Lauper JM, Krause A, Vaughan TL, Monnat RJ Jr. Spectrum and risk of neoplasia in Werner syndrome: a systematic review. *PLoS One.* 2013;8(4):e59709. [doi:10.1371/journal.pone.0059709](https://doi.org/10.1371/journal.pone.0059709) · [PubMed 23579047](https://pubmed.ncbi.nlm.nih.gov/23579047/)

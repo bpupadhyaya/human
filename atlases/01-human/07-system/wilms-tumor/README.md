@@ -295,6 +295,15 @@ cross_links:
   - target: 01-human/03-molecular/notch
     relation: connects-to
     note: "Reactivated nephrogenesis: Notch signalling, essential in normal kidney development, is reactivated in the blastemal cells of Wilms tumour, reflecting its origin as arrested, persistent embryonic nephrogenic tissue."
+  - target: 01-human/03-molecular/caspase-3
+    relation: connects-to
+    note: "Chemosensitivity: Wilms tumour is among the most chemocurable solid cancers, and vincristine, actinomycin-D and doxorubicin kill its cells through caspase-3-mediated apoptosis — the basis for the high cure rates achieved with relatively modest therapy."
+  - target: 01-human/03-molecular/ccl2
+    relation: connects-to
+    note: "Tumour-associated macrophages: CCL2 recruits monocytes into the Wilms-tumour microenvironment, where the resulting macrophages support angiogenesis and an immunosuppressive niche around the triphasic blastemal, epithelial and stromal components."
+  - target: 01-human/03-molecular/fgfr
+    relation: connects-to
+    note: "Nephron-progenitor signalling: FGF signalling that normally sustains self-renewal of the cap-mesenchyme nephron progenitors is co-opted in Wilms-tumour blastema, part of the developmental programme reactivated in this embryonal kidney cancer."
 ---
 
 # Wilms Tumor
@@ -516,6 +525,9 @@ Wilms tumor survivors face late effects proportional to treatment intensity:
 - `connects-to` → **[CXCL12](../../03-molecular/cxcl12/README.md)** — CXCR4 on Wilms tumor cells follows CXCL12 gradients toward the lung, the dominant site of metastatic relapse that drives the staging and the intensity of the chemotherapy used in this otherwise highly curable childhood cancer.
 - `connects-to` → **[TGF-β](../../03-molecular/tgf-beta/README.md)** — TGF-β drives the mesenchymal-epithelial transitions and stromal differentiation of the triphasic Wilms tumor, shaping the blastemal, stromal, and epithelial components whose proportions define its histology and prognosis.
 - `connects-to` → **[Notch](../../03-molecular/notch/README.md)** — Notch signaling, essential in normal kidney development, is reactivated in the blastemal cells of Wilms tumor—reflecting its origin as arrested, persistent embryonic nephrogenic tissue (nephrogenic rests) that failed to mature.
+- `connects-to` → **[Caspase-3](../../03-molecular/caspase-3/README.md)** — Wilms tumor is among the most chemocurable solid cancers, and vincristine, actinomycin-D and doxorubicin kill its cells through caspase-3-mediated apoptosis—the basis for the high cure rates achieved with relatively modest therapy.
+- `connects-to` → **[CCL2](../../03-molecular/ccl2/README.md)** — CCL2 recruits monocytes into the Wilms-tumor microenvironment, where the resulting macrophages support angiogenesis and an immunosuppressive niche around the triphasic blastemal, epithelial and stromal components.
+- `connects-to` → **[FGFR](../../03-molecular/fgfr/README.md)** — FGF signaling that normally sustains self-renewal of the cap-mesenchyme nephron progenitors is co-opted in Wilms-tumor blastema, part of the developmental program reactivated in this embryonal kidney cancer.
 
 [^dome-2015-wilms]: Dome JS, Graf N, Geller JI, et al. Advances in Wilms tumor treatment and biology: progress through international collaboration. *J Clin Oncol.* 2015;33(27):2999-3007. [doi:10.1200/JCO.2015.62.1888](https://doi.org/10.1200/JCO.2015.62.1888) · [PubMed 26261251](https://pubmed.ncbi.nlm.nih.gov/26261251/)
 [^dix-2006-arenl0002]: Dix DB, Bhatt SM, Geller JI, et al. Treatment of Stage IV favorable histology Wilms tumor with incomplete lung metastasis response after chemotherapy: a report from Children's Oncology Group Study AREN0533. *J Clin Oncol.* 2018;36(16):1564-1570. [doi:10.1200/JCO.2017.77.1877](https://doi.org/10.1200/JCO.2017.77.1877) · [PubMed 29584550](https://pubmed.ncbi.nlm.nih.gov/29584550/)
