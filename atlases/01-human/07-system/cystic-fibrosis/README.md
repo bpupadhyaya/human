@@ -304,6 +304,15 @@ cross_links:
   - target: 01-human/03-molecular/nitric-oxide
     relation: connects-to
     note: "Reduced airway NO: cystic-fibrosis airways paradoxically show low nitric oxide, impairing ciliary function and antimicrobial defence and contributing to the susceptibility to chronic bacterial infection."
+  - target: 01-human/03-molecular/secretory-iga
+    relation: connects-to
+    note: "Mucosal defence: the dehydrated, viscous airway surface liquid of cystic fibrosis impairs mucociliary clearance and the function of secretory IgA, weakening the first-line mucosal barrier and helping the chronic Pseudomonas and Staphylococcus infections take hold."
+  - target: 01-human/03-molecular/xanthine-oxidase
+    relation: connects-to
+    note: "Oxidative airway injury: the massive neutrophil infiltrate of the cystic-fibrosis airway, with xanthine-oxidase activity, generates reactive oxygen species that damage the epithelium, compounding the oxidative stress worsened by depleted antioxidant glutathione."
+  - target: 01-human/03-molecular/caspase-3
+    relation: connects-to
+    note: "Failed inflammation resolution: airway neutrophils in cystic fibrosis show delayed caspase-3-mediated apoptosis, so they persist and necrose rather than being cleared, perpetuating the self-amplifying inflammation that destroys the lung."
 ---
 
 # Cystic Fibrosis
@@ -527,6 +536,9 @@ AND
 - `connects-to` → **[TLR4](../../03-molecular/tlr4/README.md)** — TLR4 recognition of the lipopolysaccharide of chronically colonizing Pseudomonas aeruginosa drives the relentless NF-κB-mediated neutrophilic airway inflammation that progressively destroys the cystic-fibrosis lung.
 - `connects-to` → **[EGFR](../../03-molecular/egfr/README.md)** — EGFR signaling in the CF airway drives goblet-cell metaplasia and MUC5AC mucin secretion that compounds the dehydrated, viscous mucus already produced by defective CFTR chloride and bicarbonate transport.
 - `connects-to` → **[Nitric oxide](../../03-molecular/nitric-oxide/README.md)** — Cystic-fibrosis airways paradoxically show low nitric oxide, impairing ciliary function and the antimicrobial defense of the epithelium and contributing to the chronic bacterial infection that defines the disease.
+- `connects-to` → **[Secretory IgA](../../03-molecular/secretory-iga/README.md)** — The dehydrated, viscous airway surface liquid of cystic fibrosis impairs mucociliary clearance and the function of secretory IgA, weakening the first-line mucosal barrier and helping the chronic Pseudomonas and Staphylococcus infections take hold.
+- `connects-to` → **[Xanthine Oxidase](../../03-molecular/xanthine-oxidase/README.md)** — The massive neutrophil infiltrate of the cystic-fibrosis airway, with xanthine-oxidase activity, generates reactive oxygen species that damage the epithelium, compounding the oxidative stress worsened by depleted antioxidant glutathione.
+- `connects-to` → **[Caspase-3](../../03-molecular/caspase-3/README.md)** — Airway neutrophils in cystic fibrosis show delayed caspase-3-mediated apoptosis, so they persist and necrose rather than being cleared, perpetuating the self-amplifying inflammation that destroys the lung.
 
 ---
 

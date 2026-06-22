@@ -304,6 +304,15 @@ cross_links:
   - target: 01-human/03-molecular/cgas-sting
     relation: connects-to
     note: "Mitochondrial-DNA amplification: mitochondrial DNA and other DAMPs released during the cytokine storm activate cGAS-STING, adding a type-I-interferon arm to the runaway innate-immune activation."
+  - target: 01-human/03-molecular/hepcidin
+    relation: connects-to
+    note: "Hyperferritinaemia: the cytokine storm of macrophage activation syndrome and HLH drives extreme hyperferritinaemia through IL-6-stimulated hepcidin and macrophage ferritin release, a striking biomarker that helps diagnose and grade the hyperinflammatory state."
+  - target: 01-human/03-molecular/glucocorticoid-receptor
+    relation: connects-to
+    note: "Corticosteroid suppression: high-dose glucocorticoids acting through the glucocorticoid receptor are a first-line therapy for cytokine storm, broadly suppressing the runaway cytokine production, used alongside targeted blockers like anti-IL-6 and JAK inhibitors."
+  - target: 01-human/03-molecular/thrombin
+    relation: connects-to
+    note: "Consumptive coagulopathy: the cytokine storm activates coagulation through tissue factor and thrombin generation, producing the disseminated intravascular coagulation and microthrombi that drive the multi-organ failure of severe hyperinflammation."
 ---
 
 # Cytokine Storm
@@ -490,6 +499,9 @@ CS drives a **consumptive coagulopathy (DIC)**:
 - `connects-to` → **[Fibrinogen](../../03-molecular/fibrinogen/README.md)** — The cytokine storm of HLH/MAS consumes fibrinogen into disseminated coagulation, so falling fibrinogen alongside soaring ferritin is a diagnostic hallmark of the hyperinflammatory state and a marker of severity.
 - `connects-to` → **[RAGE](../../03-molecular/rage/README.md)** — HMGB1 released by dying and activated cells signals through RAGE as a late mediator that perpetuates the cytokine storm, sustaining the inflammatory cascade well beyond the initial infectious or therapeutic trigger.
 - `connects-to` → **[cGAS-STING](../../03-molecular/cgas-sting/README.md)** — Mitochondrial DNA and other DAMPs released during the cytokine storm activate cGAS-STING, adding a type-I-interferon arm to the runaway innate-immune activation that defines the hyperinflammatory state.
+- `connects-to` → **[Hepcidin](../../03-molecular/hepcidin/README.md)** — The cytokine storm of macrophage activation syndrome and HLH drives extreme hyperferritinemia through IL-6-stimulated hepcidin and macrophage ferritin release, a striking biomarker that helps diagnose and grade the hyperinflammatory state.
+- `connects-to` → **[Glucocorticoid receptor](../../03-molecular/glucocorticoid-receptor/README.md)** — High-dose glucocorticoids acting through the glucocorticoid receptor are a first-line therapy for cytokine storm, broadly suppressing the runaway cytokine production, used alongside targeted blockers like anti-IL-6 and JAK inhibitors.
+- `connects-to` → **[Thrombin](../../03-molecular/thrombin/README.md)** — The cytokine storm activates coagulation through tissue factor and thrombin generation, producing the disseminated intravascular coagulation and microthrombi that drive the multi-organ failure of severe hyperinflammation.
 
 ## Pathology
 
