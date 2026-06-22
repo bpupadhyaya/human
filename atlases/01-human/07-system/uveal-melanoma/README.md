@@ -295,6 +295,15 @@ cross_links:
   - target: 01-human/03-molecular/axl-receptor
     relation: connects-to
     note: "Invasion signalling: GAS6-AXL signalling promotes the migration and epithelial-mesenchymal-like invasion of uveal melanoma, contributing to the early micrometastatic spread that precedes clinical detection."
+  - target: 01-human/03-molecular/perforin
+    relation: connects-to
+    note: "Tebentafusp killing: the gp100-HLA-A*02/CD3 bispecific tebentafusp — the first therapy to extend survival in metastatic uveal melanoma — redirects cytotoxic T cells to kill tumour cells through perforin and granzyme, despite this tumour's low mutational burden."
+  - target: 01-human/03-molecular/igf-1
+    relation: connects-to
+    note: "Hepatotropism: uveal melanoma cells strongly express IGF-1R, and the liver's abundant IGF-1 helps explain the near-exclusive hepatic homing of metastases, making IGF-1R a candidate target against the liver disease that dominates outcome."
+  - target: 01-human/03-molecular/endothelin-1
+    relation: connects-to
+    note: "Melanocyte GPCR: uveal melanoma cells express the endothelin-B receptor inherited from their melanocyte lineage, an EDNRB signalling axis that supports proliferation and survival and is being explored as a therapeutic vulnerability."
 ---
 
 # Uveal Melanoma
@@ -524,6 +533,9 @@ Uveal melanocytes are neural crest-derived, residing in the uveal stroma and mai
 - `connects-to` → **[MDM2](../../03-molecular/mdm2/README.md)** — Uveal melanoma rarely mutates TP53 and instead keeps p53 suppressed through high MDM2, making MDM2 inhibitors that reactivate wild-type p53 a rational strategy in a tumor with few other actionable targets and poor response to checkpoint blockade.
 - `connects-to` → **[CXCL12](../../03-molecular/cxcl12/README.md)** — CXCR4 on uveal-melanoma cells follows CXCL12 gradients to the liver, explaining the near-exclusive hepatic pattern of metastasis that dominates uveal-melanoma mortality and drives liver-directed therapies.
 - `connects-to` → **[AXL receptor](../../03-molecular/axl-receptor/README.md)** — GAS6-AXL signaling promotes the migration and epithelial-mesenchymal-like invasion of uveal melanoma, contributing to the early micrometastatic seeding of the liver that often precedes diagnosis of the primary by years.
+- `connects-to` → **[Perforin](../../03-molecular/perforin/README.md)** — The gp100-HLA-A*02/CD3 bispecific tebentafusp—the first therapy to extend survival in metastatic uveal melanoma—redirects cytotoxic T cells to kill tumor cells through perforin and granzyme, despite this tumor's low mutational burden.
+- `connects-to` → **[IGF-1](../../03-molecular/igf-1/README.md)** — Uveal melanoma cells strongly express IGF-1R, and the liver's abundant IGF-1 helps explain the near-exclusive hepatic homing of metastases, making IGF-1R a candidate target against the liver disease that dominates outcome.
+- `connects-to` → **[Endothelin-1](../../03-molecular/endothelin-1/README.md)** — Uveal melanoma cells express the endothelin-B receptor inherited from their melanocyte lineage, an EDNRB signaling axis that supports proliferation and survival and is being explored as a therapeutic vulnerability.
 
 ---
 

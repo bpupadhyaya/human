@@ -295,6 +295,15 @@ cross_links:
   - target: 01-human/03-molecular/adrenomedullin
     relation: connects-to
     note: "Hemangioblastoma peptide: adrenomedullin is a HIF target strongly expressed in VHL hemangioblastomas, where it contributes to the vascular permeability and cyst formation that produce the symptomatic mass effect."
+  - target: 01-human/03-molecular/fh
+    relation: connects-to
+    note: "Pseudohypoxia parallel: VHL loss stabilises HIF directly, whereas fumarate-hydratase loss does so via accumulated fumarate — convergent pseudohypoxic routes that both cause hereditary phaeochromocytoma-paraganglioma and renal tumours through the same HIF endpoint."
+  - target: 01-human/03-molecular/angiopoietin
+    relation: connects-to
+    note: "Tumour vasculature: angiopoietin-Tie2 signalling, driven downstream of the constitutive HIF activation in VHL, helps build the strikingly vascular hemangioblastomas and clear-cell renal carcinomas that characterise the syndrome."
+  - target: 01-human/03-molecular/norepinephrine
+    relation: connects-to
+    note: "Noradrenergic phaeochromocytoma: VHL adrenal phaeochromocytomas secrete predominantly norepinephrine because they lack PNMT, a biochemical phenotype distinct from the epinephrine-producing RET/MEN2 tumours, useful in directing genetic testing."
 ---
 
 # VHL Disease
@@ -509,6 +518,9 @@ The genotype-phenotype correlation reflects the degree of pVHL function retained
 - `connects-to` → **[CXCL12](../../03-molecular/cxcl12/README.md)** — Loss of VHL stabilizes HIF, which transcriptionally upregulates the CXCR4 receptor for CXCL12, promoting the invasive and metastatic behavior of VHL-associated clear-cell renal carcinoma—tying the founding lesion directly to metastatic potential.
 - `connects-to` → **[SSTR2](../../03-molecular/sstr2/README.md)** — The pancreatic neuroendocrine tumors of VHL disease express somatostatin receptor 2, enabling DOTATATE PET surveillance of this multifocal tumor syndrome and peptide-receptor radionuclide therapy of progressive pancreatic lesions.
 - `connects-to` → **[Adrenomedullin](../../03-molecular/adrenomedullin/README.md)** — Adrenomedullin is a HIF target strongly expressed in VHL hemangioblastomas, where it contributes to the vascular permeability and peritumoral cyst formation that produce the symptomatic mass effect in the cerebellum and spinal cord.
+- `connects-to` → **[FH](../../03-molecular/fh/README.md)** — VHL loss stabilizes HIF directly, whereas fumarate-hydratase loss does so via accumulated fumarate—convergent pseudohypoxic routes that both cause hereditary pheochromocytoma-paraganglioma and renal tumors through the same HIF endpoint.
+- `connects-to` → **[Angiopoietin](../../03-molecular/angiopoietin/README.md)** — Angiopoietin-Tie2 signaling, driven downstream of the constitutive HIF activation in VHL, helps build the strikingly vascular hemangioblastomas and clear-cell renal carcinomas that characterize the syndrome.
+- `connects-to` → **[Norepinephrine](../../03-molecular/norepinephrine/README.md)** — VHL adrenal pheochromocytomas secrete predominantly norepinephrine because they lack PNMT, a biochemical phenotype distinct from the epinephrine-producing RET/MEN2 tumors, useful in directing genetic testing.
 
 [^lonser-2003-vhl-disease]: Lonser RR, Glenn GM, Walther M, et al. von Hippel-Lindau disease. *Lancet.* 2003;361(9374):2059-2067. [doi:10.1016/S0140-6736(03)13643-4](https://doi.org/10.1016/S0140-6736(03)13643-4) · [PubMed 12814730](https://pubmed.ncbi.nlm.nih.gov/12814730/)
 [^choueiri-2020-hif2-rcc]: Choueiri TK, Kaelin WG Jr. Targeting the HIF2-VEGF axis in renal cell carcinoma. *Nat Med.* 2020;26(10):1519-1530. [doi:10.1038/s41591-020-1093-z](https://doi.org/10.1038/s41591-020-1093-z) · [PubMed 33020650](https://pubmed.ncbi.nlm.nih.gov/33020650/)
