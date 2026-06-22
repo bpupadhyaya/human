@@ -304,6 +304,15 @@ cross_links:
   - target: 01-human/03-molecular/rage
     relation: connects-to
     note: "Arterial stiffening: AGE-RAGE signalling cross-links arterial collagen and drives vascular inflammation, stiffening large arteries to raise systolic and pulse pressure, especially in diabetic and ageing hypertension."
+  - target: 01-human/02-atomic/calcium
+    relation: connects-to
+    note: "Vascular tone: calcium influx through L-type channels triggers vascular-smooth-muscle contraction that sets peripheral resistance, the mechanism blocked by the calcium-channel-blocker drugs (amlodipine) that are a first-line treatment for hypertension."
+  - target: 01-human/03-molecular/dopamine
+    relation: connects-to
+    note: "Renal natriuresis: locally produced renal dopamine acts on proximal-tubule D1 receptors to promote sodium excretion, an intrarenal natriuretic system whose impairment contributes to the salt retention behind salt-sensitive hypertension."
+  - target: 01-human/03-molecular/xanthine-oxidase
+    relation: connects-to
+    note: "Urate and oxidative stress: xanthine-oxidase activity raises uric acid and generates reactive oxygen species that impair endothelial nitric oxide, and elevated serum urate is an independent associate of hypertension, especially in the young."
 ---
 
 # Hypertension
@@ -490,6 +499,9 @@ Blood pressure is determined by: BP = Cardiac Output × Peripheral Vascular Resi
 - `connects-to` → **[Bradykinin](../../03-molecular/bradykinin/README.md)** — Bradykinin promotes endothelial vasodilation and natriuresis, and ACE inhibitors lower blood pressure partly by raising bradykinin levels—the same mechanism behind the characteristic dry cough that limits their use.
 - `connects-to` → **[SGLT2](../../03-molecular/sglt2/README.md)** — SGLT2 inhibition in the proximal tubule produces a natriuresis and osmotic diuresis that lower blood pressure, a newer antihypertensive action that comes with substantial cardiorenal benefit beyond glucose control.
 - `connects-to` → **[RAGE](../../03-molecular/rage/README.md)** — AGE-RAGE signaling cross-links arterial collagen and drives vascular inflammation, stiffening the large arteries to raise systolic and pulse pressure—a key mechanism of the isolated systolic hypertension of aging and diabetes.
+- `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — Calcium influx through L-type channels triggers vascular-smooth-muscle contraction that sets peripheral resistance, the mechanism blocked by the calcium-channel-blocker drugs (amlodipine) that are a first-line treatment for hypertension.
+- `connects-to` → **[Dopamine](../../03-molecular/dopamine/README.md)** — Locally produced renal dopamine acts on proximal-tubule D1 receptors to promote sodium excretion, an intrarenal natriuretic system whose impairment contributes to the salt retention behind salt-sensitive hypertension.
+- `connects-to` → **[Xanthine Oxidase](../../03-molecular/xanthine-oxidase/README.md)** — Xanthine-oxidase activity raises uric acid and generates reactive oxygen species that impair endothelial nitric oxide, and elevated serum urate is an independent associate of hypertension, especially in the young.
 
 ## Pathology
 

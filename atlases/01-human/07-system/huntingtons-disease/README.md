@@ -291,6 +291,15 @@ cross_links:
   - target: 01-human/03-molecular/tlr4
     relation: connects-to
     note: "Microglial neuroinflammation: mutant huntingtin and DAMPs activate microglial TLR4, driving the neuroinflammation that accompanies and accelerates the striatal neurodegeneration of Huntington's disease."
+  - target: 01-human/02-atomic/calcium
+    relation: connects-to
+    note: "Excitotoxic calcium: mutant huntingtin sensitises striatal NMDA receptors and disrupts mitochondrial calcium handling, so glutamate excitotoxicity floods medium spiny neurons with calcium — a central mechanism of their selective vulnerability in Huntington's."
+  - target: 01-human/03-molecular/galectin-3
+    relation: connects-to
+    note: "Microglial driver: galectin-3 released by activated microglia in the Huntington's striatum amplifies the neuroinflammatory response, a microglial signal increasingly implicated as a driver of the neurodegeneration alongside the cell-autonomous huntingtin toxicity."
+  - target: 01-human/03-molecular/xanthine-oxidase
+    relation: connects-to
+    note: "Oxidative stress: mitochondrial dysfunction and xanthine-oxidase-derived reactive oxygen species add an oxidative burden to the striatal neurons in Huntington's, compounding the energy failure that the NRF2 antioxidant response struggles to offset."
 sources:
   - id: gusella-1983-htt-locus
     type: peer-reviewed
@@ -433,3 +442,6 @@ HD disrupts multiple neural circuit functions:
 - `connects-to` → **[MSH2](../../03-molecular/msh2/README.md)** — DNA mismatch-repair genes including MSH2 (with MSH3 and MLH1) drive the somatic expansion of the CAG repeat within neurons, the modifier process that genome-wide studies show governs the age of onset of Huntington's disease.
 - `connects-to` → **[NTRK / TrkB](../../03-molecular/ntrk/README.md)** — Mutant huntingtin impairs the cortical production and axonal transport of BDNF to the striatum, depriving striatal neurons of the TrkB-mediated trophic support whose loss drives their selective vulnerability and death.
 - `connects-to` → **[TLR4](../../03-molecular/tlr4/README.md)** — Mutant huntingtin and released DAMPs activate microglial TLR4, driving the neuroinflammation that accompanies and accelerates the striatal neurodegeneration underlying the movement, cognitive, and psychiatric decline of Huntington's disease.
+- `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — Mutant huntingtin sensitizes striatal NMDA receptors and disrupts mitochondrial calcium handling, so glutamate excitotoxicity floods medium spiny neurons with calcium—a central mechanism of their selective vulnerability in Huntington's.
+- `connects-to` → **[Galectin-3](../../03-molecular/galectin-3/README.md)** — Galectin-3 released by activated microglia in the Huntington's striatum amplifies the neuroinflammatory response, a microglial signal increasingly implicated as a driver of the neurodegeneration alongside the cell-autonomous huntingtin toxicity.
+- `connects-to` → **[Xanthine Oxidase](../../03-molecular/xanthine-oxidase/README.md)** — Mitochondrial dysfunction and xanthine-oxidase-derived reactive oxygen species add an oxidative burden to the striatal neurons in Huntington's, compounding the energy failure that the NRF2 antioxidant response struggles to offset.
