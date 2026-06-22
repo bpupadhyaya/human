@@ -295,6 +295,15 @@ cross_links:
   - target: 01-human/03-molecular/ccl2
     relation: connects-to
     note: "Macrophage recruitment: CCL2 draws tumour-associated macrophages into the oesophageal cancer microenvironment, supporting angiogenesis and immune evasion in this aggressive cancer."
+  - target: 01-human/03-molecular/il-6
+    relation: connects-to
+    note: "Reflux inflammation: chronic IL-6/STAT3 inflammation from gastro-oesophageal reflux and Barrett's oesophagus drives the metaplasia-dysplasia-carcinoma sequence behind oesophageal adenocarcinoma."
+  - target: 01-human/03-molecular/cxcl12
+    relation: connects-to
+    note: "Nodal metastasis: CXCR4 on oesophageal cancer cells follows CXCL12 gradients to lymph nodes and distant organs, driving the early nodal spread that makes the cancer so often incurable at diagnosis."
+  - target: 01-human/03-molecular/cgas-sting
+    relation: connects-to
+    note: "Mutational immunogenicity: the high tobacco- and reflux-driven mutational burden of oesophageal cancer generates cytosolic DNA and neoantigens that engage cGAS-STING, underlying its responsiveness to checkpoint inhibitors."
 ---
 
 # Esophageal Cancer
@@ -525,6 +534,9 @@ T1a: Lamina propria/muscularis mucosae; T1b: Submucosa; T2: Muscularis propria; 
 - `connects-to` → **[TERT](../../03-molecular/tert/README.md)** — Telomerase immortalisation: TERT reactivation maintains telomeres in oesophageal cancer cells, granting the limitless replicative capacity that complements its p53 and cell-cycle lesions.
 - `connects-to` → **[TGF-beta](../../03-molecular/tgf-beta/README.md)** — EMT and stroma: TGF-beta drives epithelial-mesenchymal transition and a desmoplastic, immunosuppressive stroma in oesophageal cancer, promoting the invasion and spread of advanced disease.
 - `connects-to` → **[CCL2](../../03-molecular/ccl2/README.md)** — Macrophage recruitment: CCL2 draws tumour-associated macrophages into the oesophageal cancer microenvironment, supporting angiogenesis and immune evasion in this aggressive cancer.
+- `connects-to` → **[IL-6](../../03-molecular/il-6/README.md)** — Chronic IL-6/STAT3 inflammation from gastro-esophageal reflux and Barrett's esophagus drives the metaplasia-dysplasia-carcinoma sequence behind esophageal adenocarcinoma, linking acid injury to malignant transformation.
+- `connects-to` → **[CXCL12](../../03-molecular/cxcl12/README.md)** — CXCR4 on esophageal cancer cells follows CXCL12 gradients to lymph nodes and distant organs, driving the early nodal spread that makes this cancer so often incurable by the time of diagnosis.
+- `connects-to` → **[cGAS-STING](../../03-molecular/cgas-sting/README.md)** — The high tobacco- and reflux-driven mutational burden of esophageal cancer generates cytosolic DNA and neoantigens that engage cGAS-STING, underlying the responsiveness of the disease to checkpoint-inhibitor immunotherapy.
 
 ---
 
