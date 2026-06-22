@@ -304,6 +304,15 @@ cross_links:
   - target: 01-human/03-molecular/caspase-3
     relation: connects-to
     note: "Chemotherapy apoptosis: Ewing sarcoma's intensive multi-agent chemotherapy kills tumour cells through caspase-3-mediated apoptosis, the effector step whose evasion underlies the relapses that follow initial response."
+  - target: 01-human/03-molecular/perforin
+    relation: connects-to
+    note: "Immunotherapy: Ewing sarcoma expresses GD2 and other surface antigens, and GD2-directed CAR-T and other cellular therapies aim to kill the tumour through perforin and granzyme, an emerging approach against this immunologically cold sarcoma."
+  - target: 01-human/03-molecular/dnmt3a
+    relation: connects-to
+    note: "Epigenetic reprogramming: the EWS-FLI1 fusion acts as a neomorphic transcription factor at GGAA microsatellites, reshaping the chromatin and DNA-methylation landscape — an epigenetic dependency that makes Ewing sarcoma a target for epigenetic therapy."
+  - target: 01-human/03-molecular/mdm2
+    relation: connects-to
+    note: "p53 restraint: Ewing sarcoma usually retains wild-type TP53 held in check by MDM2, so MDM2 inhibitors that reactivate p53 are a strategy to restore apoptosis in this genomically quiet, fusion-driven tumour."
 ---
 
 # Ewing Sarcoma
@@ -522,6 +531,9 @@ After induction → surgical specimen assessed for percent tumor necrosis (Salze
 - `connects-to` → **[CXCL12](../../03-molecular/cxcl12/README.md)** — CXCR4 on Ewing sarcoma cells follows CXCL12 gradients to the lung and bone, the principal sites of the metastasis whose presence at diagnosis is the single dominant adverse prognostic factor in the disease.
 - `connects-to` → **[cGAS-STING](../../03-molecular/cgas-sting/README.md)** — The EWS-FLI1 fusion generates R-loops and replication stress that release cytosolic DNA capable of engaging cGAS-STING, biology intertwined with the "BRCAness" that confers the PARP-inhibitor sensitivity of Ewing sarcoma.
 - `connects-to` → **[Caspase-3](../../03-molecular/caspase-3/README.md)** — Ewing sarcoma's intensive multi-agent chemotherapy kills tumor cells through caspase-3-mediated apoptosis, the effector step whose evasion underlies the relapses that follow an initially good response.
+- `connects-to` → **[Perforin](../../03-molecular/perforin/README.md)** — Ewing sarcoma expresses GD2 and other surface antigens, and GD2-directed CAR-T and other cellular therapies aim to kill the tumor through perforin and granzyme, an emerging approach against this immunologically cold sarcoma.
+- `connects-to` → **[DNMT3A](../../03-molecular/dnmt3a/README.md)** — The EWS-FLI1 fusion acts as a neomorphic transcription factor at GGAA microsatellites, reshaping the chromatin and DNA-methylation landscape—an epigenetic dependency that makes Ewing sarcoma a target for epigenetic therapy.
+- `connects-to` → **[MDM2](../../03-molecular/mdm2/README.md)** — Ewing sarcoma usually retains wild-type TP53 held in check by MDM2, so MDM2 inhibitors that reactivate p53 are a strategy to restore apoptosis in this genomically quiet, fusion-driven tumor.
 
 ---
 

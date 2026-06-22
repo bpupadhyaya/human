@@ -304,6 +304,15 @@ cross_links:
   - target: 01-human/03-molecular/xanthine-oxidase
     relation: connects-to
     note: "High cell turnover: the increased haematopoietic turnover of essential thrombocythemia raises urate through xanthine oxidase, causing the secondary hyperuricaemia and gout that can complicate the MPN."
+  - target: 01-human/03-molecular/sf3b1
+    relation: connects-to
+    note: "Transformation risk: spliceosome mutations such as SF3B1, acquired alongside the JAK2/CALR/MPL driver, mark the essential thrombocythemia more likely to progress to myelofibrosis or acute leukaemia, refining its otherwise indolent prognosis."
+  - target: 01-human/03-molecular/bcl-2
+    relation: connects-to
+    note: "Apoptotic resistance: should essential thrombocythemia transform to acute leukaemia, the blasts become dependent on anti-apoptotic BCL-2, a vulnerability targeted by venetoclax in the otherwise dismal post-MPN leukaemia."
+  - target: 01-human/03-molecular/complement-c3
+    relation: connects-to
+    note: "Thrombo-inflammation: complement activation generating C3 fragments amplifies the platelet and neutrophil activation of essential thrombocythemia, an inflammatory limb of the prothrombotic state that drives its arterial and venous thrombosis."
 ---
 
 # Essential Thrombocythemia
@@ -517,6 +526,9 @@ Management:
 - `connects-to` → **[Prostaglandins](../../03-molecular/prostaglandins/README.md)** — The hyperreactive platelets of essential thrombocythemia generate thromboxane A2, the target of the low-dose aspirin used to reduce the arterial thrombosis and the burning erythromelalgia characteristic of the disease.
 - `connects-to` → **[PDGF](../../03-molecular/pdgf/README.md)** — PDGF released by the clonal megakaryocytes stimulates marrow fibroblasts, driving the reticulin fibrosis of post-ET myelofibrosis—the fibrotic transformation that marks disease progression in a subset of patients.
 - `connects-to` → **[Xanthine oxidase](../../03-molecular/xanthine-oxidase/README.md)** — The increased hematopoietic turnover of essential thrombocythemia raises urate through xanthine oxidase, causing the secondary hyperuricemia and gout that can complicate this myeloproliferative neoplasm.
+- `connects-to` → **[SF3B1](../../03-molecular/sf3b1/README.md)** — Spliceosome mutations such as SF3B1, acquired alongside the JAK2/CALR/MPL driver, mark the essential thrombocythemia more likely to progress to myelofibrosis or acute leukemia, refining its otherwise indolent prognosis.
+- `connects-to` → **[BCL-2](../../03-molecular/bcl-2/README.md)** — Should essential thrombocythemia transform to acute leukemia, the blasts become dependent on anti-apoptotic BCL-2, a vulnerability targeted by venetoclax in the otherwise dismal post-MPN leukemia.
+- `connects-to` → **[Complement C3](../../03-molecular/complement-c3/README.md)** — Complement activation generating C3 fragments amplifies the platelet and neutrophil activation of essential thrombocythemia, an inflammatory limb of the prothrombotic state that drives its arterial and venous thrombosis.
 
 [^harrison-2005-pt1-et]: Harrison CN, Campbell PJ, Buck G, et al. Hydroxyurea compared with anagrelide in high-risk essential thrombocythemia. *N Engl J Med.* 2005;353(1):33-45. [doi:10.1056/NEJMoa043800](https://doi.org/10.1056/NEJMoa043800) · [PubMed 16000354](https://pubmed.ncbi.nlm.nih.gov/16000354/)
 [^barbui-2012-ipset]: Barbui T, Finazzi G, Carobbio A, et al. Development and validation of an International Prognostic Score of thrombosis in World Health Organization-essential thrombocythemia (IPSET-thrombosis). *Blood.* 2012;120(26):5128-5133. [doi:10.1182/blood-2012-07-444067](https://doi.org/10.1182/blood-2012-07-444067) · [PubMed 23086758](https://pubmed.ncbi.nlm.nih.gov/23086758/)
