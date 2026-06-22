@@ -304,6 +304,15 @@ cross_links:
   - target: 01-human/03-molecular/caspase-3
     relation: connects-to
     note: "Chemoprevention target: COX-2-derived prostaglandins suppress caspase-3-mediated apoptosis in FAP adenomas, so NSAIDs and COX-2 inhibitors restore polyp apoptosis — the basis of chemoprevention in the syndrome."
+  - target: 01-human/03-molecular/mutyh
+    relation: connects-to
+    note: "Polyposis differential: FAP (dominant APC loss) must be distinguished from MUTYH-associated polyposis, a recessive base-excision-repair defect that produces a similar but usually milder adenomatous polyposis, a key distinction for genetic counselling and family screening."
+  - target: 01-human/03-molecular/mlh1
+    relation: connects-to
+    note: "Hereditary-CRC differential: FAP and Lynch syndrome (MLH1 and other mismatch-repair genes) are the two major hereditary colorectal-cancer syndromes, distinguished by FAP's florid adenomatous polyposis versus Lynch's few polyps but high per-polyp cancer risk."
+  - target: 01-human/03-molecular/fgfr
+    relation: connects-to
+    note: "Desmoid signalling: FAP patients develop desmoid tumours, especially after abdominal surgery, in which FGFR and Wnt signalling drive the myofibroblast proliferation, a leading cause of FAP morbidity after the colon is removed."
 ---
 
 # Familial Adenomatous Polyposis
@@ -539,6 +548,9 @@ With modern surveillance and prophylactic colectomy: FAP is no longer an inevita
 - `connects-to` → **[GSK-3β](../../03-molecular/gsk-3b/README.md)** — APC scaffolds the GSK-3β destruction complex that degrades β-catenin, so the germline APC loss of FAP disables this control and locks in the Wnt signaling that initiates every one of the syndrome's adenomas.
 - `connects-to` → **[Notch](../../03-molecular/notch/README.md)** — Notch signaling cooperates with Wnt in the intestinal crypt to maintain the stem-cell compartment, contributing to the adenoma formation that fills the FAP colon with hundreds to thousands of polyps.
 - `connects-to` → **[Caspase-3](../../03-molecular/caspase-3/README.md)** — COX-2-derived prostaglandins suppress caspase-3-mediated apoptosis in FAP adenomas, so NSAIDs and COX-2 inhibitors (sulindac, celecoxib) restore polyp apoptosis—the molecular basis of chemoprevention in the syndrome.
+- `connects-to` → **[MUTYH](../../03-molecular/mutyh/README.md)** — FAP (dominant APC loss) must be distinguished from MUTYH-associated polyposis, a recessive base-excision-repair defect that produces a similar but usually milder adenomatous polyposis, a key distinction for genetic counseling and family screening.
+- `connects-to` → **[MLH1](../../03-molecular/mlh1/README.md)** — FAP and Lynch syndrome (MLH1 and other mismatch-repair genes) are the two major hereditary colorectal-cancer syndromes, distinguished by FAP's florid adenomatous polyposis versus Lynch's few polyps but high per-polyp cancer risk.
+- `connects-to` → **[FGFR](../../03-molecular/fgfr/README.md)** — FAP patients develop desmoid tumors, especially after abdominal surgery, in which FGFR and Wnt signaling drive the myofibroblast proliferation, a leading cause of FAP morbidity after the colon is removed.
 
 [^kinzler-1991-apc]: Kinzler KW, Nilbert MC, Su LK, et al. Identification of FAP locus genes from chromosome 5q21. *Science.* 1991;253(5020):661-665. [doi:10.1126/science.1651562](https://doi.org/10.1126/science.1651562) · [PubMed 1651562](https://pubmed.ncbi.nlm.nih.gov/1651562/)
 [^fearon-1990-vogelstein]: Fearon ER, Vogelstein B. A genetic model for colorectal tumorigenesis. *Cell.* 1990;61(5):759-767. [doi:10.1016/0092-8674(90)90186-i](https://doi.org/10.1016/0092-8674(90)90186-i) · [PubMed 2188735](https://pubmed.ncbi.nlm.nih.gov/2188735/)

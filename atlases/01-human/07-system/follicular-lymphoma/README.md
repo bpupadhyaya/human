@@ -304,6 +304,15 @@ cross_links:
   - target: 01-human/03-molecular/jak1-2
     relation: connects-to
     note: "Microenvironment cytokines: IL-4 and IL-21 from the supportive follicular-helper-T-cell niche signal through JAK-STAT to nurture follicular lymphoma cells, reflecting the disease's unusual dependence on its microenvironment."
+  - target: 01-human/03-molecular/perforin
+    relation: connects-to
+    note: "Cellular immunotherapy: CD20-CD3 bispecific antibodies (mosunetuzumab) and CD19 CAR-T cells redirect cytotoxic T cells to kill follicular-lymphoma cells through perforin and granzyme, highly active options in relapsed disease."
+  - target: 01-human/03-molecular/complement-c3
+    relation: connects-to
+    note: "Complement-dependent killing: anti-CD20 antibodies (rituximab, obinutuzumab), the backbone of follicular-lymphoma therapy, kill cells partly through complement-dependent cytotoxicity, fixing C3 and the membrane-attack complex on the malignant B cells."
+  - target: 01-human/03-molecular/dnmt3a
+    relation: connects-to
+    note: "Epigenetic dysregulation: follicular lymphoma is driven heavily by mutations in chromatin modifiers (CREBBP, KMT2D, EZH2) that, with altered DNA methylation, lock the cell in a germinal-centre programme — the epigenetic basis for EZH2-inhibitor therapy."
 ---
 
 # Follicular Lymphoma
@@ -525,6 +534,9 @@ High-risk subset (progression within 24 months of first chemoimmunotherapy): Con
 - `connects-to` → **[Caspase-3](../../03-molecular/caspase-3/README.md)** — The defining t(14;18) translocation overexpresses BCL-2, which blocks caspase-3-mediated apoptosis and lets germinal-center B cells survive that should have died—the founding molecular lesion of follicular lymphoma.
 - `connects-to` → **[BTK](../../03-molecular/btk/README.md)** — B-cell-receptor signaling through BTK supports the survival of follicular lymphoma cells, a therapeutic node targeted by BTK inhibitors in relapsed disease alongside the PI3K and BCL-2 pathways.
 - `connects-to` → **[JAK1/2](../../03-molecular/jak1-2/README.md)** — IL-4 and IL-21 from the supportive follicular-helper-T-cell niche signal through JAK-STAT to nurture follicular lymphoma cells, reflecting the disease's unusual dependence on its surrounding microenvironment.
+- `connects-to` → **[Perforin](../../03-molecular/perforin/README.md)** — CD20-CD3 bispecific antibodies (mosunetuzumab) and CD19 CAR-T cells redirect cytotoxic T cells to kill follicular-lymphoma cells through perforin and granzyme, highly active options in relapsed disease.
+- `connects-to` → **[Complement C3](../../03-molecular/complement-c3/README.md)** — Anti-CD20 antibodies (rituximab, obinutuzumab), the backbone of follicular-lymphoma therapy, kill cells partly through complement-dependent cytotoxicity, fixing C3 and the membrane-attack complex on the malignant B cells.
+- `connects-to` → **[DNMT3A](../../03-molecular/dnmt3a/README.md)** — Follicular lymphoma is driven heavily by mutations in chromatin modifiers (CREBBP, KMT2D, EZH2) that, with altered DNA methylation, lock the cell in a germinal-center program—the epigenetic basis for EZH2-inhibitor therapy.
 
 ---
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
