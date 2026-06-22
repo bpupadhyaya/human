@@ -293,7 +293,15 @@ cross_links:
   - target: 01-human/03-molecular/activin-a
     relation: connects-to
     note: "Gonadotropin feedback: the activin-inhibin system from the gonads tunes pituitary FSH secretion and regulates folliculogenesis and spermatogenesis, a peptide-feedback loop layered on the steroid-hormone axis of reproduction."
----
+  - target: 01-human/03-molecular/igf-1
+    relation: connects-to
+    note: "Growth-reproduction coupling: IGF-1 acts on ovarian granulosa cells and testicular Sertoli cells to amplify gonadotropin-driven folliculogenesis and spermatogenesis, coupling somatic growth status to the maturation of the reproductive axis at puberty."
+  - target: 01-human/03-molecular/wnt-beta-catenin
+    relation: connects-to
+    note: "Sexual development switch: WNT4/β-catenin signalling directs the bipotential gonad toward ovarian fate and patterns the Müllerian ducts, the developmental molecular pathway that builds the female reproductive tract opposite the SRY-driven testicular programme."
+  - target: 01-human/03-molecular/ghrelin
+    relation: connects-to
+    note: "Energy-deficit gating: ghrelin, the fasting hunger signal, suppresses GnRH pulsatility and gonadotropin release, the counterpart to leptin's sufficiency signal — together coupling nutritional state to fertility so reproduction pauses during starvation."
 ---
 
 # Reproductive System
@@ -501,6 +509,9 @@ Testosterone binds androgen receptor (AR, nuclear receptor NR3C4) → AR dimeriz
 - `connects-to` → **[Prostaglandins](../../03-molecular/prostaglandins/README.md)** — Prostaglandins rupture the ovarian follicle at ovulation, trigger the menstrual shedding of the endometrium, and ripen the cervix and drive uterine contractions at labor—central mediators acting across the entire reproductive cycle from ovulation to parturition.
 - `connects-to` → **[Androgen receptor](../../03-molecular/androgen-receptor/README.md)** — The androgen receptor transduces testosterone and DHT signals that drive male sexual differentiation, spermatogenesis, and secondary sexual characteristics—the molecular endpoint of the reproductive endocrine axis, mutations of which cause androgen insensitivity.
 - `connects-to` → **[Activin A](../../03-molecular/activin-a/README.md)** — The activin-inhibin system from the gonads tunes pituitary FSH secretion and regulates folliculogenesis and spermatogenesis, a peptide-feedback loop layered on the steroid-hormone axis that fine-tunes gametogenesis in both sexes.
+- `connects-to` → **[IGF-1](../../03-molecular/igf-1/README.md)** — IGF-1 acts on ovarian granulosa cells and testicular Sertoli cells to amplify gonadotropin-driven folliculogenesis and spermatogenesis, coupling somatic growth status to the maturation of the reproductive axis at puberty.
+- `connects-to` → **[Wnt/β-catenin](../../03-molecular/wnt-beta-catenin/README.md)** — WNT4/β-catenin signaling directs the bipotential gonad toward ovarian fate and patterns the Müllerian ducts, the developmental pathway that builds the female reproductive tract opposite the SRY-driven testicular program.
+- `connects-to` → **[Ghrelin](../../03-molecular/ghrelin/README.md)** — Ghrelin, the fasting hunger signal, suppresses GnRH pulsatility and gonadotropin release, the counterpart to leptin's sufficiency signal—together coupling nutritional state to fertility so reproduction pauses during starvation.
 
 ## Pathology
 

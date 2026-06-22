@@ -295,6 +295,15 @@ cross_links:
   - target: 01-human/03-molecular/osteopontin
     relation: connects-to
     note: "Invasion marker: osteopontin is upregulated in retinoblastoma and correlates with optic-nerve invasion, the key histological feature that signals high-risk disease and the need for adjuvant chemotherapy."
+  - target: 01-human/03-molecular/notch
+    relation: connects-to
+    note: "Cell of origin: retinoblastoma arises from a cone-precursor cell whose fate and proliferation are patterned by Notch signalling during retinal development, the developmental context in which RB1 loss unleashes uncontrolled division."
+  - target: 01-human/03-molecular/ccl2
+    relation: connects-to
+    note: "Tumour-associated macrophages: CCL2 recruits the macrophages found within retinoblastoma, a myeloid infiltrate that supports angiogenesis and invasion and is being studied as part of the tumour microenvironment beyond the malignant cells themselves."
+  - target: 01-human/03-molecular/bdnf
+    relation: connects-to
+    note: "Neurotrophin survival: retinoblastoma cells express TrkB and respond to BDNF with pro-survival signalling, a neurotrophic dependency inherited from their neural-retina origin that helps the tumour resist apoptosis."
 ---
 
 # Retinoblastoma
@@ -500,6 +509,9 @@ Standard regimen: **vincristine + carboplatin + etoposide (VCE)**, 6 cycles; red
 - `connects-to` → **[Caspase-3](../../03-molecular/caspase-3/README.md)** — Retinoblastoma resists caspase-3-mediated apoptosis through high BCL-2 and survivin expression, the basis for its chemoresistance and the rationale for pro-apoptotic agents added to the intra-arterial chemotherapy used to salvage eyes.
 - `connects-to` → **[CXCL12](../../03-molecular/cxcl12/README.md)** — CXCR4 on retinoblastoma cells responds to CXCL12 gradients along the optic nerve and meninges, contributing to the extraocular and central-nervous-system spread that transforms a curable intraocular tumor into life-threatening disease.
 - `connects-to` → **[Osteopontin](../../03-molecular/osteopontin/README.md)** — Osteopontin is upregulated in retinoblastoma and correlates with optic-nerve invasion—the key histological feature that signals high-risk disease and dictates whether adjuvant chemotherapy is needed after enucleation.
+- `connects-to` → **[Notch](../../03-molecular/notch/README.md)** — Retinoblastoma arises from a cone-precursor cell whose fate and proliferation are patterned by Notch signaling during retinal development, the developmental context in which RB1 loss unleashes uncontrolled division.
+- `connects-to` → **[CCL2](../../03-molecular/ccl2/README.md)** — CCL2 recruits the macrophages found within retinoblastoma, a myeloid infiltrate that supports angiogenesis and invasion and is being studied as part of the tumor microenvironment beyond the malignant cells themselves.
+- `connects-to` → **[BDNF](../../03-molecular/bdnf/README.md)** — Retinoblastoma cells express TrkB and respond to BDNF with pro-survival signaling, a neurotrophic dependency inherited from their neural-retina origin that helps the tumor resist apoptosis.
 
 [^knudson-1971-two-hit]: Knudson AG Jr. Mutation and cancer: statistical study of retinoblastoma. *Proc Natl Acad Sci USA.* 1971;68(4):820-823. [doi:10.1073/pnas.68.4.820](https://doi.org/10.1073/pnas.68.4.820) · [PubMed 5279523](https://pubmed.ncbi.nlm.nih.gov/5279523/)
 [^shields-2008-retinoblastoma]: Shields CL, Shields JA. Retinoblastoma management: advances in enucleation, intravenous chemoreduction, and intra-arterial chemotherapy. *Curr Opin Ophthalmol.* 2010;21(3):203-212. [doi:10.1097/ICU.0b013e328338676a](https://doi.org/10.1097/ICU.0b013e328338676a) · [PubMed 20224400](https://pubmed.ncbi.nlm.nih.gov/20224400/)
