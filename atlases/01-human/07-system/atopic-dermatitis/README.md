@@ -304,6 +304,15 @@ cross_links:
   - target: 01-human/03-molecular/cholesterol
     relation: connects-to
     note: "Barrier lipid deficiency: the skin barrier depends on lamellar lipids — ceramides, cholesterol and free fatty acids — and their deficiency in atopic dermatitis impairs the permeability barrier, driving transepidermal water loss and allergen entry."
+  - target: 01-human/03-molecular/glucocorticoid-receptor
+    relation: connects-to
+    note: "Topical mainstay: corticosteroids acting through the glucocorticoid receptor are the first-line topical anti-inflammatory for atopic dermatitis, broadly suppressing the type-2 immune response of the eczematous skin lesion."
+  - target: 01-human/02-atomic/calcium
+    relation: connects-to
+    note: "Barrier differentiation: the epidermal calcium gradient that drives keratinocyte differentiation into the cornified barrier is disordered in atopic dermatitis, contributing to the defective barrier that lets allergens and microbes penetrate the skin."
+  - target: 01-human/03-molecular/acetylcholine
+    relation: connects-to
+    note: "Cholinergic itch: in atopic skin, acetylcholine provokes itch rather than the pain it evokes in normal skin, a switched neural response that contributes to the intense, treatment-resistant pruritus of atopic dermatitis."
 ---
 
 # Atopic Dermatitis
@@ -522,6 +531,9 @@ S. aureus colonizes >90% of AD lesional skin (vs. 20% normal skin):
 - `connects-to` → **[NTRK / TrkA](../../03-molecular/ntrk/README.md)** — Nerve growth factor signaling through TrkA drives the cutaneous nerve sprouting and sensitization of atopic dermatitis, lowering the itch threshold and perpetuating the itch-scratch cycle that thickens lichenified skin.
 - `connects-to` → **[KIT](../../03-molecular/kit/README.md)** — KIT-dependent mast cells accumulate in atopic dermatitis lesions, releasing histamine and type-2 mediators that drive itch and amplify the allergic inflammation underlying the eczematous response.
 - `connects-to` → **[Cholesterol](../../03-molecular/cholesterol/README.md)** — The skin barrier depends on lamellar lipids—ceramides, cholesterol, and free fatty acids—and their deficiency in atopic dermatitis impairs the permeability barrier, driving the transepidermal water loss and allergen entry that initiate disease.
+- `connects-to` → **[Glucocorticoid receptor](../../03-molecular/glucocorticoid-receptor/README.md)** — Corticosteroids acting through the glucocorticoid receptor are the first-line topical anti-inflammatory for atopic dermatitis, broadly suppressing the type-2 immune response of the eczematous skin lesion.
+- `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — The epidermal calcium gradient that drives keratinocyte differentiation into the cornified barrier is disordered in atopic dermatitis, contributing to the defective barrier that lets allergens and microbes penetrate the skin.
+- `connects-to` → **[Acetylcholine](../../03-molecular/acetylcholine/README.md)** — In atopic skin, acetylcholine provokes itch rather than the pain it evokes in normal skin, a switched neural response that contributes to the intense, treatment-resistant pruritus of atopic dermatitis.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 

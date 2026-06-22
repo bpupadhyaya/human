@@ -310,6 +310,15 @@ cross_links:
   - target: 01-human/03-molecular/von-willebrand-factor
     relation: connects-to
     note: "Rupture thrombosis: when an atherosclerotic plaque ruptures, exposed subendothelium and released von Willebrand factor mediate the platelet adhesion that nucleates the occlusive thrombus of myocardial infarction and stroke."
+  - target: 01-human/02-atomic/calcium
+    relation: connects-to
+    note: "Plaque calcification: advanced atherosclerotic plaques calcify as smooth-muscle cells transdifferentiate toward an osteoblast-like phenotype, the calcium deposition measured by coronary-artery-calcium scoring to quantify plaque burden and refine cardiovascular risk."
+  - target: 01-human/03-molecular/xanthine-oxidase
+    relation: connects-to
+    note: "LDL oxidation: xanthine-oxidase-derived reactive oxygen species oxidise LDL trapped in the arterial wall, and it is this oxidised LDL — not native LDL — that macrophages devour to become the foam cells at the heart of the plaque."
+  - target: 01-human/03-molecular/galectin-3
+    relation: connects-to
+    note: "Foam-cell marker: galectin-3 is highly expressed by the lipid-laden macrophages of the atherosclerotic plaque, promoting their inflammatory activation and serving as a circulating biomarker of plaque burden and cardiovascular risk."
 ---
 
 # Atherosclerosis
@@ -521,6 +530,9 @@ The process begins in childhood with **fatty streaks** and progresses silently o
 - `connects-to` → **[RAGE](../../03-molecular/rage/README.md)** — RAGE on endothelium and macrophages senses advanced glycation end-products and oxidized LDL, amplifying the NF-κB-driven plaque inflammation that explains the accelerated, diffuse atherosclerosis of diabetes mellitus.
 - `connects-to` → **[Caspase-3](../../03-molecular/caspase-3/README.md)** — Caspase-3-mediated apoptosis of plaque macrophages and smooth-muscle cells, when efferocytic clearance fails, builds the lipid-rich necrotic core that makes an atherosclerotic plaque unstable and prone to rupture.
 - `connects-to` → **[von Willebrand factor](../../03-molecular/von-willebrand-factor/README.md)** — When an atherosclerotic plaque ruptures, exposed subendothelium and released von Willebrand factor mediate the platelet adhesion that nucleates the occlusive thrombus of myocardial infarction and ischemic stroke.
+- `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — Advanced atherosclerotic plaques calcify as smooth-muscle cells transdifferentiate toward an osteoblast-like phenotype, the calcium deposition measured by coronary-artery-calcium scoring to quantify plaque burden and refine cardiovascular risk.
+- `connects-to` → **[Xanthine Oxidase](../../03-molecular/xanthine-oxidase/README.md)** — Xanthine-oxidase-derived reactive oxygen species oxidize LDL trapped in the arterial wall, and it is this oxidized LDL—not native LDL—that macrophages devour to become the foam cells at the heart of the plaque.
+- `connects-to` → **[Galectin-3](../../03-molecular/galectin-3/README.md)** — Galectin-3 is highly expressed by the lipid-laden macrophages of the atherosclerotic plaque, promoting their inflammatory activation and serving as a circulating biomarker of plaque burden and cardiovascular risk.
 
 ---
 
