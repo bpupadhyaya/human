@@ -307,6 +307,15 @@ cross_links:
   - target: 01-human/03-molecular/vegf
     relation: connects-to
     note: "Vascular contribution: dysregulated VEGF and cerebral amyloid angiopathy impair the neurovascular unit in Alzheimer's, the vascular arm that worsens amyloid clearance and accelerates cognitive decline."
+  - target: 01-human/03-molecular/rage
+    relation: connects-to
+    note: "Amyloid influx: RAGE transports circulating amyloid-β across the blood-brain barrier into the brain, the influx counterpart to LRP1-mediated efflux, so RAGE upregulation tips the balance toward the amyloid accumulation of Alzheimer's."
+  - target: 01-human/03-molecular/galectin-3
+    relation: connects-to
+    note: "Microglial driver: galectin-3 released by activated microglia around amyloid plaques amplifies the neuroinflammatory response, a microglial signal increasingly seen as a driver of Alzheimer's neurodegeneration and a candidate therapeutic target."
+  - target: 01-human/03-molecular/norepinephrine
+    relation: connects-to
+    note: "Locus-coeruleus origin: the noradrenergic locus coeruleus is one of the earliest sites of tau pathology in Alzheimer's, and its degeneration depletes norepinephrine, removing a neuroprotective, anti-inflammatory signal and contributing to early cognitive symptoms."
 ---
 
 # Alzheimer's Disease
@@ -502,6 +511,9 @@ Microglia play a central, dual role in AD:
 - `connects-to` → **[TLR4](../../03-molecular/tlr4/README.md)** — Aggregated amyloid-β engages microglial TLR4, triggering the NF-κB-driven neuroinflammatory cytokine response that contributes to the synaptic and neuronal injury driving cognitive decline in Alzheimer's disease.
 - `connects-to` → **[Caspase-3](../../03-molecular/caspase-3/README.md)** — Caspase-3 executes the neuronal apoptosis of Alzheimer's and cleaves tau into aggregation-prone fragments, coupling neuronal death directly to the propagation of tau pathology through the brain.
 - `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — Dysregulated VEGF and cerebral amyloid angiopathy impair the neurovascular unit in Alzheimer's, the vascular arm that worsens amyloid clearance across the blood-brain barrier and accelerates cognitive decline.
+- `connects-to` → **[RAGE](../../03-molecular/rage/README.md)** — RAGE transports circulating amyloid-β across the blood-brain barrier into the brain, the influx counterpart to LRP1-mediated efflux, so RAGE upregulation tips the balance toward the amyloid accumulation of Alzheimer's.
+- `connects-to` → **[Galectin-3](../../03-molecular/galectin-3/README.md)** — Galectin-3 released by activated microglia around amyloid plaques amplifies the neuroinflammatory response, a microglial signal increasingly seen as a driver of Alzheimer's neurodegeneration and a candidate therapeutic target.
+- `connects-to` → **[Norepinephrine](../../03-molecular/norepinephrine/README.md)** — The noradrenergic locus coeruleus is one of the earliest sites of tau pathology in Alzheimer's, and its degeneration depletes norepinephrine, removing a neuroprotective, anti-inflammatory signal and contributing to early cognitive symptoms.
 
 [^selkoe-2016-alzheimer]: Selkoe DJ, Hardy J. The amyloid hypothesis of Alzheimer's disease at 25 years. *EMBO Mol Med.* 2016;8(6):595-608. [doi:10.15252/emmm.201606210](https://doi.org/10.15252/emmm.201606210) · [PubMed 27025652](https://pubmed.ncbi.nlm.nih.gov/27025652/)
 [^jack-2018-nia-aa]: Jack CR Jr, Bennett DA, Blennow K, et al. NIA-AA Research Framework: Toward a biological definition of Alzheimer's disease. *Alzheimers Dement.* 2018;14(4):535-562. [doi:10.1016/j.jalz.2018.02.018](https://doi.org/10.1016/j.jalz.2018.02.018) · [PubMed 29653606](https://pubmed.ncbi.nlm.nih.gov/29653606/)

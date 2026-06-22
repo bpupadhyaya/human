@@ -303,6 +303,15 @@ cross_links:
   - target: 01-human/03-molecular/mhc-class-ii
     relation: connects-to
     note: "Autoimmune bridging: sustained type I interferon upregulates MHC class II and primes adaptive autoimmunity, consistent with the chilblain lupus and SLE-overlap features that accompany Aicardi-Goutières."
+  - target: 01-human/02-atomic/calcium
+    relation: connects-to
+    note: "Intracranial calcification: bilateral basal-ganglia and white-matter calcification is a radiological hallmark of Aicardi-Goutières, calcium deposition in the chronically interferon-inflamed brain that helps distinguish it from acquired congenital infection."
+  - target: 01-human/03-molecular/complement-c3
+    relation: connects-to
+    note: "Lupus overlap: the sustained type-I-interferon state of Aicardi-Goutières drives complement activation and the chilblain-lupus and SLE-overlap autoimmunity that mark the disorder as a monogenic interferonopathy bridging to lupus."
+  - target: 01-human/03-molecular/s100a8-a9
+    relation: connects-to
+    note: "Inflammatory amplification: S100A8/A9 released by activated myeloid cells in the interferon-driven inflammation of Aicardi-Goutières feeds the chronic neuroinflammation injuring the developing brain."
 ---
 
 # Aicardi-Goutières Syndrome
@@ -492,6 +501,9 @@ Severe early-onset AGS (TREX1 homozygous, RNASEH2A): death in childhood from res
 - `connects-to` → **[Caspase-3](../../03-molecular/caspase-3/README.md)** — Chronic type I interferon is directly toxic to neurons and oligodendrocytes, driving caspase-3-mediated apoptosis that underlies the progressive microcephaly and white-matter loss defining the neurological devastation of Aicardi-Goutières.
 - `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — The interferon-driven small-vessel disease of Aicardi-Goutières—especially the SAMHD1-related cerebral vasculopathy and intracranial aneurysms—involves dysregulated VEGF-dependent angiogenesis contributing to the characteristic intracranial calcification.
 - `connects-to` → **[MHC class II](../../03-molecular/mhc-class-ii/README.md)** — Sustained type I interferon upregulates MHC class II and primes adaptive autoimmunity, consistent with the chilblain lupus and systemic-lupus-overlap features that frequently accompany the interferonopathy of Aicardi-Goutières.
+- `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — Bilateral basal-ganglia and white-matter calcification is a radiological hallmark of Aicardi-Goutières, calcium deposition in the chronically interferon-inflamed brain that helps distinguish it from acquired congenital infection.
+- `connects-to` → **[Complement C3](../../03-molecular/complement-c3/README.md)** — The sustained type-I-interferon state of Aicardi-Goutières drives complement activation and the chilblain-lupus and SLE-overlap autoimmunity that mark the disorder as a monogenic interferonopathy bridging to lupus.
+- `connects-to` → **[S100A8/A9](../../03-molecular/s100a8-a9/README.md)** — S100A8/A9 released by activated myeloid cells in the interferon-driven inflammation of Aicardi-Goutières feeds the chronic neuroinflammation injuring the developing brain.
 
 ---
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
