@@ -316,6 +316,15 @@ cross_links:
   - target: 01-human/03-molecular/cgrp
     relation: connects-to
     note: "Sensory gastroprotection: CGRP released from gut sensory afferents increases mucosal blood flow and defends the stomach lining against acid and injury, a neural protective reflex of the gastrointestinal mucosa."
+  - target: 01-human/03-molecular/sstr2
+    relation: connects-to
+    note: "Universal inhibitory hormone: somatostatin from gut D cells acts through SSTR2 to brake acid secretion, gastrin release and motility, the master off-switch of the gastrointestinal tract exploited therapeutically by octreotide in bleeding and secretory diarrhoea."
+  - target: 01-human/03-molecular/cholesterol
+    relation: connects-to
+    note: "Bile-acid digestion: the liver converts cholesterol into bile acids that emulsify dietary fat into micelles for pancreatic-lipase digestion and absorption, then recovers them through the enterohepatic circulation, the GI tract's fat-handling system."
+  - target: 01-human/03-molecular/aldosterone
+    relation: connects-to
+    note: "Colonic fluid recovery: aldosterone drives sodium and water reabsorption across the distal colonic epithelium, the final electrolyte- and fluid-conserving step of the gastrointestinal tract that hardens stool and prevents dehydration."
 taxonomy:
   uberon: "UBERON:0001007"
 ---
@@ -504,6 +513,9 @@ The ENS can function autonomously without extrinsic innervation (Hirschsprung's 
 - **Connects to:** [Prostaglandins](../../03-molecular/prostaglandins/README.md) — mucosal cytoprotection: prostaglandins (PGE2) maintain the gastric mucus-bicarbonate barrier and mucosal blood flow, which is why NSAIDs that block their synthesis predispose to gastric and duodenal ulcers.
 - **Connects to:** [Substance P](../../03-molecular/substance-p/README.md) — enteric peristalsis: substance P from enteric neurons is an excitatory tachykinin that contracts gut smooth muscle, helping coordinate the peristaltic reflex that propels contents through the digestive tract.
 - **Connects to:** [CGRP](../../03-molecular/cgrp/README.md) — sensory gastroprotection: CGRP released from gut sensory afferents increases mucosal blood flow and defends the stomach lining against acid and injury, a neural protective reflex of the gastrointestinal mucosa.
+- **Connects to:** [SSTR2](../../03-molecular/sstr2/README.md) — universal inhibitory hormone: somatostatin from gut D cells acts through SSTR2 to brake acid secretion, gastrin release and motility, the master off-switch of the gastrointestinal tract exploited therapeutically by octreotide in bleeding and secretory diarrhea.
+- **Connects to:** [Cholesterol](../../03-molecular/cholesterol/README.md) — bile-acid digestion: the liver converts cholesterol into bile acids that emulsify dietary fat into micelles for pancreatic-lipase digestion and absorption, then recovers them through the enterohepatic circulation, the GI tract's fat-handling system.
+- **Connects to:** [Aldosterone](../../03-molecular/aldosterone/README.md) — colonic fluid recovery: aldosterone drives sodium and water reabsorption across the distal colonic epithelium, the final electrolyte- and fluid-conserving step of the gastrointestinal tract that hardens stool and prevents dehydration.
 
 ## Pathology
 

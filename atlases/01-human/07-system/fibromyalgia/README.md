@@ -285,6 +285,15 @@ cross_links:
   - target: 01-human/03-molecular/ntrk
     relation: connects-to
     note: "Nociceptor sensitisation: elevated nerve growth factor signalling through TrkA sensitises peripheral nociceptors and is linked to the small-fibre neuropathy found in a substantial subset of fibromyalgia patients."
+  - target: 01-human/03-molecular/orexin
+    relation: connects-to
+    note: "Non-restorative sleep: orexin signalling that stabilises sleep-wake states and modulates descending pain control is dysregulated in fibromyalgia, contributing to the unrefreshing sleep and arousal disturbance that worsen the pain and fatigue."
+  - target: 01-human/03-molecular/histamine
+    relation: connects-to
+    note: "Mast-cell involvement: increased dermal mast cells releasing histamine are found in fibromyalgia skin, a peripheral neuroinflammatory contributor to the sensory symptoms and one proposed link to its frequent overlap with mast-cell-activation conditions."
+  - target: 01-human/03-molecular/acetylcholine
+    relation: connects-to
+    note: "Autonomic dysfunction: fibromyalgia features reduced vagal tone and a blunted cholinergic anti-inflammatory reflex, an autonomic imbalance that leaves inflammation unchecked and contributes to the dysautonomia accompanying the chronic pain."
 sources:
   - id: wolfe-2016-fibromyalgia-criteria
     type: peer-reviewed
@@ -534,6 +543,9 @@ FM is not a single-etiology disorder but a convergent syndrome resulting from th
 - `connects-to` → **[IGF-1](../../03-molecular/igf-1/README.md)** — Many fibromyalgia patients have low IGF-1, reflecting the blunted growth-hormone secretion of disrupted deep sleep, which may impair muscle microtrauma repair and contribute to the chronic myalgia and the rationale once explored for GH supplementation.
 - `connects-to` → **[NTRK / TrkA](../../03-molecular/ntrk/README.md)** — Elevated nerve growth factor signaling through TrkA sensitizes peripheral nociceptors and is linked to the small-fiber neuropathy found in a substantial subset of fibromyalgia patients—evidence of a peripheral contribution to a centrally amplified syndrome.
 - `connects-to` → **[TLR4](../../03-molecular/tlr4/README.md)** — TLR4 signaling on microglia and astrocytes promotes the central sensitization of fibromyalgia, part of the neuroinflammatory amplification of pain processing in the spinal cord and brain that underlies the diffuse, persistent pain.
+- `connects-to` → **[Orexin](../../03-molecular/orexin/README.md)** — Orexin signaling that stabilizes sleep-wake states and modulates descending pain control is dysregulated in fibromyalgia, contributing to the unrefreshing sleep and arousal disturbance that worsen the pain and fatigue.
+- `connects-to` → **[Histamine](../../03-molecular/histamine/README.md)** — Increased dermal mast cells releasing histamine are found in fibromyalgia skin, a peripheral neuroinflammatory contributor to the sensory symptoms and one proposed link to its frequent overlap with mast-cell-activation conditions.
+- `connects-to` → **[Acetylcholine](../../03-molecular/acetylcholine/README.md)** — Fibromyalgia features reduced vagal tone and a blunted cholinergic anti-inflammatory reflex, an autonomic imbalance that leaves inflammation unchecked and contributes to the dysautonomia accompanying the chronic pain.
 
 [^wolfe-2016-fibromyalgia-criteria]: Wolfe F, Clauw DJ, Fitzcharles MA, et al. 2016 Revisions to the 2010/2011 fibromyalgia diagnostic criteria. *Semin Arthritis Rheum.* 2016;46(3):319-329. [doi:10.1016/j.semarthrit.2016.08.012](https://doi.org/10.1016/j.semarthrit.2016.08.012) · [PubMed 27916278](https://pubmed.ncbi.nlm.nih.gov/27916278/)
 [^clauw-2014-fibromyalgia-review]: Clauw DJ. Fibromyalgia: a clinical review. *JAMA.* 2014;311(15):1547-1555. [doi:10.1001/jama.2014.3266](https://doi.org/10.1001/jama.2014.3266) · [PubMed 24737367](https://pubmed.ncbi.nlm.nih.gov/24737367/)
