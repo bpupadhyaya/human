@@ -295,6 +295,15 @@ cross_links:
   - target: 01-human/03-molecular/caspase-3
     relation: connects-to
     note: "Apoptosis resistance: MPNST cells evade caspase-3-mediated apoptosis, contributing to the chemoresistance that makes these sarcomas so difficult to treat."
+  - target: 01-human/03-molecular/cxcl12
+    relation: connects-to
+    note: "Lung metastasis: CXCR4 on MPNST cells follows CXCL12 gradients to the lung, the dominant site of the metastasis that is the principal cause of death in these aggressive nerve-sheath sarcomas."
+  - target: 01-human/03-molecular/kit
+    relation: connects-to
+    note: "Mast-cell niche: the plexiform neurofibromas from which MPNST arises are rich in KIT-dependent mast cells whose stem-cell-factor signalling supports the Schwann-cell tumour microenvironment and its progression to malignancy."
+  - target: 01-human/03-molecular/pten
+    relation: connects-to
+    note: "PI3K activation: PTEN loss activates PI3K-AKT signalling during the progression of plexiform neurofibroma to MPNST, cooperating with the NF1-driven RAS hyperactivation to drive malignant transformation."
 ---
 
 # MPNST
@@ -519,6 +528,9 @@ Wide local excision with negative margins is the only potentially curative inter
 - `connects-to` → **[RB1](../../03-molecular/rb1/README.md)** — Cell-cycle escape: RB1-pathway inactivation, with CDKN2A loss, marks the malignant transformation of plexiform neurofibroma to MPNST, releasing the brake on the cell cycle.
 - `connects-to` → **[CCL2](../../03-molecular/ccl2/README.md)** — Macrophage microenvironment: CCL2 recruits tumour-associated macrophages into MPNST, building the immunosuppressive stroma of this aggressive nerve-sheath sarcoma.
 - `connects-to` → **[Caspase-3](../../03-molecular/caspase-3/README.md)** — Apoptosis resistance: MPNST cells evade caspase-3-mediated apoptosis, contributing to the chemoresistance that makes these sarcomas so difficult to treat.
+- `connects-to` → **[CXCL12](../../03-molecular/cxcl12/README.md)** — CXCR4 on MPNST cells follows CXCL12 gradients to the lung, the dominant site of the metastasis that is the principal cause of death in these aggressive nerve-sheath sarcomas arising in neurofibromatosis type 1.
+- `connects-to` → **[KIT](../../03-molecular/kit/README.md)** — The plexiform neurofibromas from which MPNST arises are rich in KIT-dependent mast cells whose stem-cell-factor signaling supports the Schwann-cell tumor microenvironment and its progression toward malignancy.
+- `connects-to` → **[PTEN](../../03-molecular/pten/README.md)** — PTEN loss activates PI3K-AKT signaling during the progression of plexiform neurofibroma to MPNST, cooperating with the NF1-driven RAS hyperactivation and CDKN2A loss to drive the malignant transformation.
 
 [^evans-2002-mpnst-nf1]: Evans DGR, Baser ME, McGaughran J, et al. Malignant peripheral nerve sheath tumours in neurofibromatosis 1. *J Med Genet.* 2002;39(5):311-314. [doi:10.1136/jmg.39.5.311](https://doi.org/10.1136/jmg.39.5.311) · [PubMed 12011145](https://pubmed.ncbi.nlm.nih.gov/12011145/)
 [^lee-2014-mpnst-prc2]: Lee W, Teckie S, Wiesner T, et al. PRC2 is recurrently inactivated through EED or SUZ12 loss in malignant peripheral nerve sheath tumors. *Nat Genet.* 2014;46(11):1227-1232. [doi:10.1038/ng.3095](https://doi.org/10.1038/ng.3095) · [PubMed 25240281](https://pubmed.ncbi.nlm.nih.gov/25240281/)

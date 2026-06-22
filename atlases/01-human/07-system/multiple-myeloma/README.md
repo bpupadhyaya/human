@@ -301,6 +301,15 @@ cross_links:
   - target: 01-human/03-molecular/ccl2
     relation: connects-to
     note: "Marrow macrophage support: CCL2 recruits macrophages into the myeloma marrow niche, where they protect the plasma-cell clone and contribute to drug resistance."
+  - target: 01-human/03-molecular/fgfr
+    relation: connects-to
+    note: "t(4;14) translocation: the t(4;14) translocation of multiple myeloma overexpresses FGFR3, a recurrent high-risk cytogenetic event that drives a more aggressive disease course and is a candidate therapeutic target."
+  - target: 01-human/03-molecular/il-1b
+    relation: connects-to
+    note: "Smouldering-to-active drive: IL-1β from the marrow microenvironment induces the IL-6 that fuels plasma-cell growth and bone disease, and blocking it slows the progression of smouldering to active multiple myeloma."
+  - target: 01-human/03-molecular/hepcidin
+    relation: connects-to
+    note: "Anaemia of myeloma: inflammation-driven hepcidin elevation, alongside marrow infiltration, causes the functional iron-restricted anaemia that is among the most common presenting features of multiple myeloma."
 ---
 
 # Multiple Myeloma
@@ -524,6 +533,9 @@ MM evolves from precursor conditions through a well-defined continuum:
 - `connects-to` → **[BAFF](../../03-molecular/baff/README.md)** — Plasma-cell survival: BAFF and APRIL from the marrow microenvironment sustain malignant plasma cells through BCMA, the survival axis now targeted by anti-BCMA CAR-T and bispecific antibodies in myeloma.
 - `connects-to` → **[Caspase-3](../../03-molecular/caspase-3/README.md)** — Proteostatic apoptosis: the heavy immunoglobulin output of myeloma cells makes them dependent on the proteasome, so bortezomib triggers terminal ER stress and caspase-3-mediated apoptosis.
 - `connects-to` → **[CCL2](../../03-molecular/ccl2/README.md)** — Marrow macrophage support: CCL2 recruits macrophages into the myeloma marrow niche, where they protect the plasma-cell clone and contribute to drug resistance.
+- `connects-to` → **[FGFR](../../03-molecular/fgfr/README.md)** — The t(4;14) translocation of multiple myeloma overexpresses FGFR3, a recurrent high-risk cytogenetic event that drives a more aggressive disease course and is a candidate target for FGFR-directed therapy.
+- `connects-to` → **[IL-1β](../../03-molecular/il-1b/README.md)** — IL-1β from the marrow microenvironment induces the IL-6 that fuels plasma-cell growth and osteolytic bone disease, and blocking it slows the progression of smoldering to active multiple myeloma in trials.
+- `connects-to` → **[Hepcidin](../../03-molecular/hepcidin/README.md)** — Inflammation-driven hepcidin elevation, alongside marrow infiltration by plasma cells, causes the functional iron-restricted anemia that is among the most common presenting features of multiple myeloma.
 
 [^kumar-2022-imwg-criteria]: Kumar SK, Callander NS, Adekola K, et al. Multiple myeloma, version 3.2021, NCCN clinical practice guidelines in oncology. *J Natl Compr Canc Netw.* 2020;18(12):1685-1717. [doi:10.6004/jnccn.2020.0057](https://doi.org/10.6004/jnccn.2020.0057) · [PubMed 33285519](https://pubmed.ncbi.nlm.nih.gov/33285519/)
 [^moreau-2022-teclistamab]: Moreau P, Garfall AL, van de Donk NWCJ, et al. Teclistamab in relapsed or refractory multiple myeloma. *N Engl J Med.* 2022;387(6):495-505. [doi:10.1056/NEJMoa2203478](https://doi.org/10.1056/NEJMoa2203478) · [PubMed 35661166](https://pubmed.ncbi.nlm.nih.gov/35661166/)
