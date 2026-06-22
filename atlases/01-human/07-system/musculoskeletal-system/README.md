@@ -296,6 +296,15 @@ cross_links:
   - target: 01-human/03-molecular/nitric-oxide
     relation: connects-to
     note: "Mechanotransduction: osteocytes release nitric oxide in response to mechanical loading, the signal that translates weight-bearing exercise into the bone formation that maintains skeletal strength."
+  - target: 01-human/02-atomic/calcium
+    relation: connects-to
+    note: "Shared currency of bone and muscle: calcium is the mineral stored as hydroxyapatite that gives bone its rigidity and the ion that triggers skeletal-muscle contraction through troponin, linking the skeleton's structural and the muscle's contractile roles."
+  - target: 01-human/03-molecular/hif-1alpha
+    relation: connects-to
+    note: "Avascular cartilage: articular cartilage has no blood supply, so its chondrocytes survive on HIF-1α-driven anaerobic glycolysis, the hypoxic adaptation that maintains the joint surface and whose failure contributes to osteoarthritis."
+  - target: 01-human/03-molecular/adiponectin
+    relation: connects-to
+    note: "Bone-muscle-fat axis: adipose-derived adiponectin signals to bone and muscle, part of the endocrine crosstalk by which fat mass, bone remodelling and muscle metabolism are coordinated, integrating the musculoskeletal system with whole-body energy balance."
 ---
 
 # Musculoskeletal System
@@ -525,6 +534,9 @@ Chronic exercise drives profound musculoskeletal remodelling [^guyton-hall]:
 - `connects-to` → **[Calcitonin](../../03-molecular/calcitonin/README.md)** — Calcitonin from thyroid C cells directly inhibits osteoclast bone resorption and lowers serum calcium, the physiological counterweight to PTH in the calcium and bone-remodeling balance that maintains the skeleton.
 - `connects-to` → **[Prostaglandins](../../03-molecular/prostaglandins/README.md)** — Prostaglandins (PGE2) regulate bone formation and resorption and are essential for fracture healing, which is why NSAIDs that block their synthesis can impair bone union and are used cautiously after fractures.
 - `connects-to` → **[Nitric oxide](../../03-molecular/nitric-oxide/README.md)** — Osteocytes release nitric oxide in response to mechanical loading, the signal that translates weight-bearing exercise into the bone formation maintaining skeletal strength—and whose loss with disuse drives bone loss.
+- `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — Calcium is the mineral stored as hydroxyapatite that gives bone its rigidity and the ion that triggers skeletal-muscle contraction through troponin, linking the skeleton's structural and the muscle's contractile roles.
+- `connects-to` → **[HIF-1α](../../03-molecular/hif-1alpha/README.md)** — Articular cartilage has no blood supply, so its chondrocytes survive on HIF-1α-driven anaerobic glycolysis, the hypoxic adaptation that maintains the joint surface and whose failure contributes to osteoarthritis.
+- `connects-to` → **[Adiponectin](../../03-molecular/adiponectin/README.md)** — Adipose-derived adiponectin signals to bone and muscle, part of the endocrine crosstalk by which fat mass, bone remodeling and muscle metabolism are coordinated, integrating the musculoskeletal system with whole-body energy balance.
 
 ## Pathology
 

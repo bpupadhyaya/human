@@ -298,6 +298,15 @@ cross_links:
   - target: 01-human/03-molecular/ifn-gamma
     relation: connects-to
     note: "Immune-mediated suppression: in hypocellular MDS, T-cell IFN-γ suppresses haematopoietic progenitors, the rationale for immunosuppressive therapy that can restore counts in this subset overlapping with aplastic anaemia."
+  - target: 01-human/03-molecular/bcl-2
+    relation: connects-to
+    note: "Apoptotic therapy: higher-risk MDS evolving toward AML becomes dependent on anti-apoptotic BCL-2, the rationale for adding venetoclax to hypomethylating agents to push the dysplastic clone back into the apoptosis it has been evading."
+  - target: 01-human/03-molecular/mdm2
+    relation: connects-to
+    note: "p53 restraint: in TP53-wild-type MDS, high MDM2 holds p53 in check, so MDM2 inhibitors are a strategy to reactivate p53-driven apoptosis — distinct from the dismal-prognosis TP53-mutant MDS where the protein itself is lost."
+  - target: 01-human/03-molecular/cxcl12
+    relation: connects-to
+    note: "Niche dependence: CXCL12 from marrow stromal cells anchors the MDS clone in its bone-marrow niche, and a disordered, inflammatory niche both supports the dysplastic clone and contributes to the ineffective haematopoiesis that defines the disease."
 ---
 
 # Myelodysplastic Syndromes
@@ -502,6 +511,9 @@ MDS → AML transformation rate: ~10% at 1 year for very-low risk; ~40-50% at 2 
 - `connects-to` → **[IL-1β](../../03-molecular/il-1b/README.md)** — IL-1β matured by the NLRP3 inflammasome in MDS progenitors drives the inflammatory, pyroptotic cell death that produces the ineffective hematopoiesis and the cytopenias central to the disease despite a hypercellular marrow.
 - `connects-to` → **[Hepcidin](../../03-molecular/hepcidin/README.md)** — The ineffective erythropoiesis of MDS suppresses hepcidin, and chronic red-cell transfusion compounds the resulting parenchymal iron loading that damages heart and liver—the reason transfusion-dependent patients need iron chelation.
 - `connects-to` → **[IFN-γ](../../03-molecular/ifn-gamma/README.md)** — In hypocellular MDS, T-cell IFN-γ suppresses hematopoietic progenitors—the rationale for immunosuppressive therapy that can restore counts in this subset, which overlaps biologically with aplastic anemia.
+- `connects-to` → **[BCL-2](../../03-molecular/bcl-2/README.md)** — Higher-risk MDS evolving toward AML becomes dependent on anti-apoptotic BCL-2, the rationale for adding venetoclax to hypomethylating agents to push the dysplastic clone back into the apoptosis it has been evading.
+- `connects-to` → **[MDM2](../../03-molecular/mdm2/README.md)** — In TP53-wild-type MDS, high MDM2 holds p53 in check, so MDM2 inhibitors are a strategy to reactivate p53-driven apoptosis—distinct from the dismal-prognosis TP53-mutant MDS where the protein itself is lost.
+- `connects-to` → **[CXCL12](../../03-molecular/cxcl12/README.md)** — CXCL12 from marrow stromal cells anchors the MDS clone in its bone-marrow niche, and a disordered, inflammatory niche both supports the dysplastic clone and contributes to the ineffective hematopoiesis that defines the disease.
 
 [^fenaux-2009-aza001]: Fenaux P, Mufti GJ, Hellstrom-Lindberg E, et al. Efficacy of azacitidine compared with conventional care regimens in patients with higher-risk myelodysplastic syndromes. *Lancet Oncol.* 2009;10(3):223-232. [doi:10.1016/S1470-2045(09)70003-8](https://doi.org/10.1016/S1470-2045(09)70003-8) · [PubMed 19230772](https://pubmed.ncbi.nlm.nih.gov/19230772/)
 [^fenaux-2020-medalist]: Fenaux P, Platzbecker U, Mufti GJ, et al. Luspatercept in patients with lower-risk myelodysplastic syndromes. *N Engl J Med.* 2020;382(2):140-151. [doi:10.1056/NEJMoa1908892](https://doi.org/10.1056/NEJMoa1908892) · [PubMed 31914241](https://pubmed.ncbi.nlm.nih.gov/31914241/)
