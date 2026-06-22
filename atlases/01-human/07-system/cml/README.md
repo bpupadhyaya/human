@@ -304,6 +304,15 @@ cross_links:
   - target: 01-human/03-molecular/tert
     relation: connects-to
     note: "Telomere shortening: progressive telomere attrition and telomerase changes accompany the evolution of chronic-phase CML toward blast crisis, reflecting the genomic instability of disease progression."
+  - target: 01-human/03-molecular/perforin
+    relation: connects-to
+    note: "Graft-versus-leukaemia: CML was the disease in which donor T- and NK-cell perforin-mediated killing of leukaemic cells — graft-versus-leukaemia, the basis of donor lymphocyte infusion — was first proven curative, the paradigm of cellular immunotherapy."
+  - target: 01-human/03-molecular/dnmt3a
+    relation: connects-to
+    note: "Clonal evolution: additional mutations such as DNMT3A acquired on the BCR-ABL background drive the progression of chronic-phase CML to accelerated phase and blast crisis, the transformation that TKIs do not by themselves prevent."
+  - target: 01-human/03-molecular/mdm2
+    relation: connects-to
+    note: "Blast-crisis p53: TP53 inactivation, often through MDM2 overexpression, accompanies the transformation of CML to blast crisis, removing the apoptotic brake and conferring the resistance that makes advanced-phase disease so hard to treat."
 ---
 
 # Chronic Myeloid Leukemia
@@ -512,6 +521,9 @@ Following the imatinib revolution, the current frontier is achieving **deep mole
 - `connects-to` → **[SMO](../../03-molecular/smo/README.md)** — Hedgehog signaling through Smoothened sustains the leukemic stem cells that persist beneath TKI therapy in CML, the quiescent reservoir responsible for molecular relapse after treatment-free-remission attempts.
 - `connects-to` → **[Caspase-3](../../03-molecular/caspase-3/README.md)** — Imatinib and later BCR-ABL inhibitors kill CML cells by relieving the fusion kinase's block on caspase-3-mediated apoptosis, restoring the cell-death program the oncoprotein suppresses to drive the leukemia.
 - `connects-to` → **[TERT](../../03-molecular/tert/README.md)** — Progressive telomere attrition and telomerase changes accompany the evolution of chronic-phase CML toward blast crisis, reflecting the accumulating genomic instability of disease progression.
+- `connects-to` → **[Perforin](../../03-molecular/perforin/README.md)** — CML was the disease in which donor T- and NK-cell perforin-mediated killing of leukemic cells—graft-versus-leukemia, the basis of donor lymphocyte infusion—was first proven curative, the paradigm of cellular immunotherapy.
+- `connects-to` → **[DNMT3A](../../03-molecular/dnmt3a/README.md)** — Additional mutations such as DNMT3A acquired on the BCR-ABL background drive the progression of chronic-phase CML to accelerated phase and blast crisis, the transformation that TKIs do not by themselves prevent.
+- `connects-to` → **[MDM2](../../03-molecular/mdm2/README.md)** — TP53 inactivation, often through MDM2 overexpression, accompanies the transformation of CML to blast crisis, removing the apoptotic brake and conferring the resistance that makes advanced-phase disease so hard to treat.
 
 ---
 

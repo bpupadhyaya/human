@@ -304,6 +304,15 @@ cross_links:
   - target: 01-human/03-molecular/kit
     relation: connects-to
     note: "Mast-cell overlap: KIT-expressing mast cells are increased in some CMML, reflecting the close relationship between CMML and systemic mastocytosis in the spectrum of myeloid neoplasms."
+  - target: 01-human/03-molecular/bcl-2
+    relation: connects-to
+    note: "Apoptotic therapy: CMML, like the AML it can transform into, depends on anti-apoptotic BCL-2, the rationale for adding venetoclax to hypomethylating agents to push the dysplastic monocytic clone into apoptosis."
+  - target: 01-human/03-molecular/cxcl12
+    relation: connects-to
+    note: "Marrow-niche dependence: CXCL12 from stromal cells anchors the CMML clone in its bone-marrow niche, an inflammatory microenvironment that both supports the abnormal monocytic proliferation and contributes to the ineffective haematopoiesis of the disease."
+  - target: 01-human/03-molecular/perforin
+    relation: connects-to
+    note: "Curative transplant: allogeneic stem-cell transplant is the only curative therapy for CMML, working through donor T- and NK-cell graft-versus-leukaemia killing of the clone via perforin and granzyme."
 ---
 
 # Chronic Myelomonocytic Leukemia
@@ -525,6 +534,9 @@ CMML → AML transformation (~15-30% at 5 years): Treat as secondary AML; CPX-35
 - `connects-to` → **[CCL2](../../03-molecular/ccl2/README.md)** — CCL2 drives the recruitment and accumulation of monocytes that produce the persistent peripheral monocytosis defining CMML, a chemokine output of the malignant myelomonocytic clone.
 - `connects-to` → **[JAK1/2](../../03-molecular/jak1-2/README.md)** — The GM-CSF hypersensitivity of CMML monocytes signals through JAK-STAT, the rationale for testing JAK inhibitors like ruxolitinib to dampen the cytokine-driven proliferation and splenomegaly of the disease.
 - `connects-to` → **[KIT](../../03-molecular/kit/README.md)** — KIT-expressing mast cells are increased in some cases of CMML, reflecting the close biological relationship between CMML and systemic mastocytosis within the spectrum of myeloid neoplasms.
+- `connects-to` → **[BCL-2](../../03-molecular/bcl-2/README.md)** — CMML, like the AML it can transform into, depends on anti-apoptotic BCL-2, the rationale for adding venetoclax to hypomethylating agents to push the dysplastic monocytic clone into apoptosis.
+- `connects-to` → **[CXCL12](../../03-molecular/cxcl12/README.md)** — CXCL12 from stromal cells anchors the CMML clone in its bone-marrow niche, an inflammatory microenvironment that both supports the abnormal monocytic proliferation and contributes to the ineffective hematopoiesis of the disease.
+- `connects-to` → **[Perforin](../../03-molecular/perforin/README.md)** — Allogeneic stem-cell transplant is the only curative therapy for CMML, working through donor T- and NK-cell graft-versus-leukemia killing of the clone via perforin and granzyme.
 
 ---
 
