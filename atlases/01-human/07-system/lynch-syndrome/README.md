@@ -295,6 +295,15 @@ cross_links:
   - target: 01-human/03-molecular/ccl2
     relation: connects-to
     note: "Macrophage recruitment: CCL2 draws tumour-associated macrophages into Lynch tumours, part of the rich immune microenvironment that shapes their response to immunotherapy."
+  - target: 01-human/03-molecular/cgas-sting
+    relation: connects-to
+    note: "Innate immune sensing: the microsatellite-instable tumours of Lynch accumulate cytosolic DNA from their genomic instability, engaging cGAS-STING — an innate-immune arm of the immunogenicity behind their dramatic checkpoint-inhibitor response."
+  - target: 01-human/03-molecular/perforin
+    relation: connects-to
+    note: "Cytotoxic clearance: the frameshift neoantigens of dMMR Lynch tumours drive CD8 T cells to deploy perforin against them, the cytotoxic killing that checkpoint blockade unleashes in microsatellite-instable cancers."
+  - target: 01-human/03-molecular/cxcl12
+    relation: connects-to
+    note: "Metastatic homing: CXCR4-CXCL12 signalling drives the metastasis of the colorectal, endometrial and other Lynch-spectrum cancers, the chemokine route to spread when these tumours are not caught early by surveillance."
 ---
 
 # Lynch Syndrome
@@ -527,6 +536,9 @@ MSI-H stage II CRC: adjuvant 5-FU/leucovorin does NOT improve OS (may be harmful
 - `connects-to` → **[IFN-γ](../../03-molecular/ifn-gamma/README.md)** — Immunogenic MSI tumours: the frameshift neoantigens of mismatch-repair-deficient Lynch tumours provoke a brisk IFN-γ-driven T-cell infiltrate, the basis of their exceptional response to checkpoint immunotherapy.
 - `connects-to` → **[CDKN2A](../../03-molecular/cdkn2a/README.md)** — Tumour-suppressor loss: CDKN2A inactivation accompanies progression of Lynch-associated adenomas to carcinoma, releasing the cell-cycle brake in these mismatch-repair-deficient tumours.
 - `connects-to` → **[CCL2](../../03-molecular/ccl2/README.md)** — Macrophage recruitment: CCL2 draws tumour-associated macrophages into Lynch tumours, part of the rich immune microenvironment that shapes their response to immunotherapy.
+- `connects-to` → **[cGAS-STING](../../03-molecular/cgas-sting/README.md)** — The microsatellite-instable tumors of Lynch accumulate cytosolic DNA from their genomic instability, engaging cGAS-STING—an innate-immune arm of the immunogenicity that, with their neoantigen load, drives the dramatic checkpoint-inhibitor response.
+- `connects-to` → **[Perforin](../../03-molecular/perforin/README.md)** — The frameshift neoantigens of mismatch-repair-deficient Lynch tumors drive CD8 T cells to deploy perforin against them, the cytotoxic killing that checkpoint blockade unleashes to such effect in microsatellite-instable cancers.
+- `connects-to` → **[CXCL12](../../03-molecular/cxcl12/README.md)** — CXCR4-CXCL12 signaling drives the metastasis of the colorectal, endometrial, and other Lynch-spectrum cancers, the chemokine route to spread when these tumors escape the intensive surveillance that defines Lynch management.
 
 [^bonadona-2011-lynch-risks]: Bonadona V, Bonaïti B, Olschwang S, et al. Cancer risks associated with germline mutations in MLH1, MSH2, and MSH6 genes in Lynch syndrome. *JAMA.* 2011;305(22):2304-2310. [doi:10.1001/jama.2011.743](https://doi.org/10.1001/jama.2011.743) · [PubMed 21642683](https://pubmed.ncbi.nlm.nih.gov/21642683/)
 [^lynch-2015-lynch-review]: Lynch HT, Snyder CL, Shaw TG, et al. Milestones of Lynch syndrome: 1895-2015. *Nat Rev Cancer.* 2015;15(3):181-194. [doi:10.1038/nrc3878](https://doi.org/10.1038/nrc3878) · [PubMed 25673086](https://pubmed.ncbi.nlm.nih.gov/25673086/)

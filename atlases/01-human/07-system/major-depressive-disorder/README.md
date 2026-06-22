@@ -304,6 +304,15 @@ cross_links:
   - target: 01-human/03-molecular/ccl2
     relation: connects-to
     note: "Neuroinflammatory trafficking: CCL2 recruits monocytes to the brain in depression, part of the low-grade neuroinflammation increasingly tied to the disorder's pathophysiology."
+  - target: 01-human/03-molecular/ntrk
+    relation: connects-to
+    note: "Synaptogenic mechanism: BDNF signalling through its TrkB receptor mediates the rapid synaptogenesis that underlies ketamine's fast antidepressant effect, the neurotrophin axis whose impairment characterises depression."
+  - target: 01-human/03-molecular/mu-opioid-receptor
+    relation: connects-to
+    note: "Reward and anhedonia: the endogenous μ-opioid system mediates social reward and its loss contributes to anhedonia, the rationale for low-dose buprenorphine in treatment-resistant depression."
+  - target: 01-human/03-molecular/tlr4
+    relation: connects-to
+    note: "Neuroinflammatory hypothesis: microglial TLR4-driven innate immune activation is a key strand of the inflammatory hypothesis of depression, linking chronic stress and infection to the disorder's neuroinflammation."
 ---
 
 # Major Depressive Disorder
@@ -556,6 +565,9 @@ Approximately 30–40% of MDD patients have elevated inflammatory markers:
 - `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — Rapid antidepressant target: ketamine's fast antidepressant action depends on mTOR-driven synaptogenesis in the prefrontal cortex, reversing the synaptic loss seen in depression.
 - `connects-to` → **[Endocannabinoid System](../../03-molecular/endocannabinoid/README.md)** — Mood and stress buffering: endocannabinoid CB1 signalling regulates stress reactivity and emotional tone, and deficient endocannabinoid tone is implicated in the anhedonia and stress sensitivity of depression.
 - `connects-to` → **[CCL2](../../03-molecular/ccl2/README.md)** — Neuroinflammatory trafficking: CCL2 recruits monocytes to the brain in depression, part of the low-grade neuroinflammation increasingly tied to the disorder's pathophysiology.
+- `connects-to` → **[NTRK / TrkB](../../03-molecular/ntrk/README.md)** — BDNF signaling through its TrkB receptor mediates the rapid synaptogenesis that underlies ketamine's fast antidepressant effect, the neurotrophin axis whose impairment is a core feature of the neurobiology of depression.
+- `connects-to` → **[μ-opioid receptor](../../03-molecular/mu-opioid-receptor/README.md)** — The endogenous μ-opioid system mediates social reward and connection, and its dysfunction contributes to anhedonia—the rationale for low-dose buprenorphine and related opioid-modulating agents in treatment-resistant depression.
+- `connects-to` → **[TLR4](../../03-molecular/tlr4/README.md)** — Microglial TLR4-driven innate immune activation is a key strand of the inflammatory hypothesis of depression, linking chronic stress, infection, and a leaky gut to the neuroinflammation found in a subset of depressed patients.
 
 [^cipriani-2018-antidepressants-meta]: Cipriani A, Furukawa TA, Salanti G, et al. Comparative efficacy and acceptability of 21 antidepressant drugs for acute treatment of adults with major depressive disorder. *Lancet.* 2018;391(10128):1357-1366. [doi:10.1016/S0140-6736(17)32802-7](https://doi.org/10.1016/S0140-6736(17)32802-7) · [PubMed 29477251](https://pubmed.ncbi.nlm.nih.gov/29477251/)
 [^zarate-2006-ketamine-rapid]: Zarate CA Jr, Singh JB, Carlson PJ, et al. A randomized trial of an N-methyl-D-aspartate antagonist in treatment-resistant major depression. *Arch Gen Psychiatry.* 2006;63(8):856-864. [doi:10.1001/archpsyc.63.8.856](https://doi.org/10.1001/archpsyc.63.8.856) · [PubMed 16894061](https://pubmed.ncbi.nlm.nih.gov/16894061/)
