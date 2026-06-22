@@ -295,6 +295,15 @@ cross_links:
   - target: 01-human/03-molecular/smad4
     relation: connects-to
     note: "TGF-β escape: loss of SMAD4-mediated TGF-β growth suppression is a key step in the adenoma-carcinoma progression of FAP polyps, freeing them from a major antiproliferative brake."
+  - target: 01-human/03-molecular/gsk-3b
+    relation: connects-to
+    note: "Destruction-complex failure: APC scaffolds the GSK-3β destruction complex that degrades β-catenin, so the germline APC loss of FAP disables this control and locks in the Wnt signalling that initiates every adenoma."
+  - target: 01-human/03-molecular/notch
+    relation: connects-to
+    note: "Crypt stem-cell expansion: Notch signalling cooperates with Wnt in the intestinal crypt to maintain the stem-cell compartment, contributing to the adenoma formation that fills the FAP colon with thousands of polyps."
+  - target: 01-human/03-molecular/caspase-3
+    relation: connects-to
+    note: "Chemoprevention target: COX-2-derived prostaglandins suppress caspase-3-mediated apoptosis in FAP adenomas, so NSAIDs and COX-2 inhibitors restore polyp apoptosis — the basis of chemoprevention in the syndrome."
 ---
 
 # Familial Adenomatous Polyposis
@@ -527,6 +536,9 @@ With modern surveillance and prophylactic colectomy: FAP is no longer an inevita
 - `connects-to` → **[TERT](../../03-molecular/tert/README.md)** — Telomerase in progression: TERT reactivation immortalises cells along the adenoma-to-carcinoma sequence of FAP, one of the late events converting benign polyps into invasive colorectal cancer.
 - `connects-to` → **[PDGF](../../03-molecular/pdgf/README.md)** — Desmoid driver: PDGF-driven fibroblast proliferation underlies the desmoid tumours that arise in FAP, a leading cause of death after prophylactic colectomy removes the cancer risk.
 - `connects-to` → **[SMAD4](../../03-molecular/smad4/README.md)** — TGF-β escape: loss of SMAD4-mediated TGF-β growth suppression is a key step in the adenoma-carcinoma progression of FAP polyps, freeing them from a major antiproliferative brake.
+- `connects-to` → **[GSK-3β](../../03-molecular/gsk-3b/README.md)** — APC scaffolds the GSK-3β destruction complex that degrades β-catenin, so the germline APC loss of FAP disables this control and locks in the Wnt signaling that initiates every one of the syndrome's adenomas.
+- `connects-to` → **[Notch](../../03-molecular/notch/README.md)** — Notch signaling cooperates with Wnt in the intestinal crypt to maintain the stem-cell compartment, contributing to the adenoma formation that fills the FAP colon with hundreds to thousands of polyps.
+- `connects-to` → **[Caspase-3](../../03-molecular/caspase-3/README.md)** — COX-2-derived prostaglandins suppress caspase-3-mediated apoptosis in FAP adenomas, so NSAIDs and COX-2 inhibitors (sulindac, celecoxib) restore polyp apoptosis—the molecular basis of chemoprevention in the syndrome.
 
 [^kinzler-1991-apc]: Kinzler KW, Nilbert MC, Su LK, et al. Identification of FAP locus genes from chromosome 5q21. *Science.* 1991;253(5020):661-665. [doi:10.1126/science.1651562](https://doi.org/10.1126/science.1651562) · [PubMed 1651562](https://pubmed.ncbi.nlm.nih.gov/1651562/)
 [^fearon-1990-vogelstein]: Fearon ER, Vogelstein B. A genetic model for colorectal tumorigenesis. *Cell.* 1990;61(5):759-767. [doi:10.1016/0092-8674(90)90186-i](https://doi.org/10.1016/0092-8674(90)90186-i) · [PubMed 2188735](https://pubmed.ncbi.nlm.nih.gov/2188735/)

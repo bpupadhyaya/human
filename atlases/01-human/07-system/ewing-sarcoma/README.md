@@ -295,6 +295,15 @@ cross_links:
   - target: 01-human/03-molecular/ccl2
     relation: connects-to
     note: "Macrophage microenvironment: CCL2 recruits tumour-associated macrophages into the immunologically cold Ewing sarcoma, shaping a microenvironment that supports growth and resists immunotherapy."
+  - target: 01-human/03-molecular/cxcl12
+    relation: connects-to
+    note: "Metastatic homing: CXCR4 on Ewing sarcoma cells follows CXCL12 gradients to the lung and bone, the principal sites of the metastasis whose presence at diagnosis is the dominant adverse prognostic factor."
+  - target: 01-human/03-molecular/cgas-sting
+    relation: connects-to
+    note: "Replication-stress immunity: the EWS-FLI1 fusion generates R-loops and replication stress that release cytosolic DNA capable of engaging cGAS-STING, intertwined with the 'BRCAness' that confers PARP-inhibitor sensitivity."
+  - target: 01-human/03-molecular/caspase-3
+    relation: connects-to
+    note: "Chemotherapy apoptosis: Ewing sarcoma's intensive multi-agent chemotherapy kills tumour cells through caspase-3-mediated apoptosis, the effector step whose evasion underlies the relapses that follow initial response."
 ---
 
 # Ewing Sarcoma
@@ -510,6 +519,9 @@ After induction → surgical specimen assessed for percent tumor necrosis (Salze
 - `connects-to` → **[RAD51](../../03-molecular/rad51/README.md)** — BRCAness and PARP sensitivity: EWS-FLI1 impairs homologous recombination and RAD51 function, creating the 'BRCAness' that makes Ewing sarcoma sensitive to PARP inhibitors and DNA-damaging therapy.
 - `connects-to` → **[RANKL](../../03-molecular/rankl/README.md)** — Osteolytic destruction: Ewing sarcoma drives RANKL-mediated osteoclast activation to destroy the bone it arises in, the mechanism of the lytic lesions and pain of the disease.
 - `connects-to` → **[CCL2](../../03-molecular/ccl2/README.md)** — Macrophage microenvironment: CCL2 recruits tumour-associated macrophages into the immunologically cold Ewing sarcoma, shaping a microenvironment that supports growth and resists immunotherapy.
+- `connects-to` → **[CXCL12](../../03-molecular/cxcl12/README.md)** — CXCR4 on Ewing sarcoma cells follows CXCL12 gradients to the lung and bone, the principal sites of the metastasis whose presence at diagnosis is the single dominant adverse prognostic factor in the disease.
+- `connects-to` → **[cGAS-STING](../../03-molecular/cgas-sting/README.md)** — The EWS-FLI1 fusion generates R-loops and replication stress that release cytosolic DNA capable of engaging cGAS-STING, biology intertwined with the "BRCAness" that confers the PARP-inhibitor sensitivity of Ewing sarcoma.
+- `connects-to` → **[Caspase-3](../../03-molecular/caspase-3/README.md)** — Ewing sarcoma's intensive multi-agent chemotherapy kills tumor cells through caspase-3-mediated apoptosis, the effector step whose evasion underlies the relapses that follow an initially good response.
 
 ---
 
