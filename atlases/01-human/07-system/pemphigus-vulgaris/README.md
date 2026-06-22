@@ -301,6 +301,15 @@ cross_links:
   - target: 01-human/03-molecular/ctla-4
     relation: connects-to
     note: "T-cell costimulation: autoreactive desmoglein-specific T-helper cells provide the help for autoantibody production in pemphigus, the rationale for CTLA-4-Ig (abatacept) costimulation blockade under study in the disease."
+  - target: 01-human/03-molecular/jak1-2
+    relation: connects-to
+    note: "Cytokine-signalling blockade: the Th2 and Th1 cytokines driving desmoglein autoantibody production signal through JAK-STAT, and JAK inhibitors are being explored in refractory pemphigus to switch off the cytokine circuits sustaining the autoreactive response."
+  - target: 01-human/03-molecular/il-2
+    relation: connects-to
+    note: "Regulatory-T restoration: pemphigus features a deficit of desmoglein-specific regulatory T cells, and low-dose IL-2 — which preferentially expands Tregs over effector cells — is a tolerance-restoring strategy under investigation in the disease."
+  - target: 01-human/03-molecular/bcl-2
+    relation: connects-to
+    note: "Plasma-cell persistence: long-lived autoreactive plasma cells survive on BCL-2 and lack CD20, so they escape rituximab — the basis for the relapses that follow B-cell depletion and the rationale for plasma-cell-directed therapy in pemphigus."
 ---
 
 # Pemphigus Vulgaris
@@ -539,6 +548,9 @@ Pemphigus belongs to the **pemphigus group of autoimmune bullous diseases** (AIB
 - `connects-to` → **[Src kinase](../../03-molecular/src-kinase/README.md)** — Anti-desmoglein-3 antibody binding triggers Src and EGFR phosphorylation in keratinocytes, the intracellular signaling cascade that drives the cell-cell detachment (acantholysis) of pemphigus blistering beyond simple steric disruption of desmosomes.
 - `connects-to` → **[Caspase-3](../../03-molecular/caspase-3/README.md)** — Pemphigus autoantibodies activate caspase-3-mediated apoptotic pathways in keratinocytes—the "apoptolysis" that contributes to cell shrinkage and detachment alongside the direct desmosomal disruption that produces the suprabasal split.
 - `connects-to` → **[CTLA-4](../../03-molecular/ctla-4/README.md)** — Autoreactive desmoglein-specific T-helper cells provide the help that licenses autoantibody production in pemphigus, the rationale for CTLA-4-Ig (abatacept) costimulation blockade being explored to switch off the autoreactive response.
+- `connects-to` → **[JAK1/2](../../03-molecular/jak1-2/README.md)** — The Th2 and Th1 cytokines driving desmoglein autoantibody production signal through JAK-STAT, and JAK inhibitors are being explored in refractory pemphigus to switch off the cytokine circuits sustaining the autoreactive response.
+- `connects-to` → **[IL-2](../../03-molecular/il-2/README.md)** — Pemphigus features a deficit of desmoglein-specific regulatory T cells, and low-dose IL-2—which preferentially expands Tregs over effector cells—is a tolerance-restoring strategy under investigation in the disease.
+- `connects-to` → **[BCL-2](../../03-molecular/bcl-2/README.md)** — Long-lived autoreactive plasma cells survive on BCL-2 and lack CD20, so they escape rituximab—the basis for the relapses that follow B-cell depletion and the rationale for plasma-cell-directed therapy in pemphigus.
 
 ---
 

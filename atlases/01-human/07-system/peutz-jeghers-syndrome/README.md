@@ -295,6 +295,15 @@ cross_links:
   - target: 01-human/03-molecular/pten
     relation: connects-to
     note: "Parallel hamartoma suppressor: Peutz-Jeghers (LKB1) and Cowden syndrome (PTEN) are distinct hamartomatous-polyposis syndromes that converge on mTOR disinhibition, illustrating how two tumour suppressors feed the same growth pathway."
+  - target: 01-human/03-molecular/kras
+    relation: connects-to
+    note: "Malignant progression: the benign LKB1-driven hamartomas of Peutz-Jeghers acquire somatic driver mutations such as KRAS as they transform into the gastrointestinal adenocarcinomas behind the syndrome's markedly elevated GI-cancer risk."
+  - target: 01-human/03-molecular/smad4
+    relation: connects-to
+    note: "Hamartomatous-polyposis differential: Peutz-Jeghers (LKB1) sits beside juvenile polyposis (SMAD4/BMPR1A) among the inherited hamartomatous-polyposis syndromes, distinct BMP-versus-LKB1 lesions that share GI polyps and cancer predisposition."
+  - target: 01-human/03-molecular/caspase-3
+    relation: connects-to
+    note: "Apoptosis-resistant growth: LKB1 loss leaves polyp cells with unrestrained mTOR-driven survival signalling that resists caspase-3 apoptosis, the biology that rapalogs (everolimus, rapamycin) reverse to shrink polyps in Peutz-Jeghers models."
 ---
 
 # Peutz-Jeghers Syndrome
@@ -511,6 +520,9 @@ Without surveillance: cumulative cancer risk reaches ~85-93% by age 70 (all canc
 - `connects-to` → **[p21 (CDKN1A)](../../03-molecular/cdkn1a/README.md)** — LKB1 normally induces p21 to arrest the cell cycle, so STK11 loss in Peutz-Jeghers removes a checkpoint restraint—contributing to the hamartomatous overgrowth and the broadly elevated cancer risk that defines the syndrome.
 - `connects-to` → **[FOXO1](../../03-molecular/foxo1/README.md)** — LKB1-AMPK signaling regulates FOXO transcription factors governing gluconeogenesis and stress resistance, an axis disrupted when STK11 is lost in Peutz-Jeghers, linking the syndrome's tumor-suppressor gene to metabolic dysregulation.
 - `connects-to` → **[PTEN](../../03-molecular/pten/README.md)** — Peutz-Jeghers (LKB1) and Cowden syndrome (PTEN) are distinct hamartomatous-polyposis syndromes that converge on mTOR disinhibition—illustrating how two different tumor suppressors funnel into the same growth pathway and overlapping GI-polyp and cancer phenotypes.
+- `connects-to` → **[KRAS](../../03-molecular/kras/README.md)** — The benign LKB1-driven hamartomas of Peutz-Jeghers acquire somatic driver mutations such as KRAS as they transform into the gastrointestinal adenocarcinomas behind the syndrome's markedly elevated GI-cancer risk.
+- `connects-to` → **[SMAD4](../../03-molecular/smad4/README.md)** — Peutz-Jeghers (LKB1) sits beside juvenile polyposis (SMAD4/BMPR1A) among the inherited hamartomatous-polyposis syndromes, distinct BMP-versus-LKB1 lesions that share GI polyps and cancer predisposition.
+- `connects-to` → **[Caspase-3](../../03-molecular/caspase-3/README.md)** — LKB1 loss leaves polyp cells with unrestrained mTOR-driven survival signaling that resists caspase-3 apoptosis, the biology that rapalogs (everolimus, rapamycin) reverse to shrink polyps in Peutz-Jeghers models.
 
 ---
 
