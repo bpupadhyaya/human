@@ -300,6 +300,15 @@ cross_links:
   - target: 01-human/03-molecular/cgas-sting
     relation: connects-to
     note: "Dual innate evasion: HCV NS3/4A protease cleaves STING as well as MAVS, disabling both the cytosolic DNA and RNA sensing pathways — a key mechanism by which the virus blunts interferon induction to persist."
+  - target: 01-human/03-molecular/baff
+    relation: connects-to
+    note: "B-cell lymphoproliferation: chronic HCV stimulation of B cells, supported by BAFF, drives the clonal expansion behind mixed cryoglobulinaemia, its vasculitis and membranoproliferative glomerulonephritis, and the raised risk of B-cell non-Hodgkin lymphoma."
+  - target: 01-human/03-molecular/collagen
+    relation: connects-to
+    note: "Hepatic fibrosis: persistent HCV inflammation activates hepatic stellate cells to deposit collagen, the progressive fibrosis that over decades builds the cirrhosis on which most HCV hepatocellular carcinoma arises."
+  - target: 01-human/03-molecular/vegf
+    relation: connects-to
+    note: "Hepatocellular carcinoma: HCV cirrhosis is a major cause of HCC, and although direct-acting antivirals now cure the infection, the residual cirrhotic liver still grows VEGF-driven vascular tumours that require ongoing surveillance."
 ---
 
 # Hepatitis C
@@ -520,3 +529,6 @@ HCV cirrhosis → HCC risk 1–5% per year (annual ultrasound surveillance ± AF
 - `connects-to` → **[IFN-γ](../../03-molecular/ifn-gamma/README.md)** — IFN-γ from HCV-specific CD4 and CD8 T cells drives the responses that achieve spontaneous clearance in the minority who clear the virus, while a weak or exhausted T-cell response permits the chronicity seen in most.
 - `connects-to` → **[Perforin](../../03-molecular/perforin/README.md)** — Perforin-mediated CD8 killing of infected hepatocytes clears HCV but also drives the necroinflammation—so the host T-cell response, not the virus directly, causes much of the liver injury that progresses to fibrosis and cirrhosis.
 - `connects-to` → **[cGAS-STING](../../03-molecular/cgas-sting/README.md)** — HCV NS3/4A protease cleaves STING as well as MAVS, disabling both the cytosolic DNA and RNA sensing pathways—a key mechanism by which the virus blunts interferon induction to establish persistent infection.
+- `connects-to` → **[BAFF](../../03-molecular/baff/README.md)** — Chronic HCV stimulation of B cells, supported by BAFF, drives the clonal expansion behind mixed cryoglobulinemia, its vasculitis and membranoproliferative glomerulonephritis, and the raised risk of B-cell non-Hodgkin lymphoma.
+- `connects-to` → **[Collagen](../../03-molecular/collagen/README.md)** — Persistent HCV inflammation activates hepatic stellate cells to deposit collagen, the progressive fibrosis that over decades builds the cirrhosis on which most HCV hepatocellular carcinoma arises.
+- `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — HCV cirrhosis is a major cause of HCC, and although direct-acting antivirals now cure the infection, the residual cirrhotic liver still grows VEGF-driven vascular tumors that require ongoing surveillance.

@@ -300,6 +300,15 @@ cross_links:
   - target: 01-human/03-molecular/rig-i
     relation: connects-to
     note: "Evaded innate sensing: RIG-I can detect HBV pregenomic RNA, but the virus actively suppresses this sensor — a key reason HBV behaves as a 'stealth' pathogen establishing chronic infection."
+  - target: 01-human/03-molecular/vegf
+    relation: connects-to
+    note: "Hepatocellular carcinoma: HBV-driven cirrhosis and viral integration produce one of the world's leading causes of HCC, an intensely vascular tumour whose VEGF-driven angiogenesis is the target of bevacizumab and the multikinase inhibitors used against it."
+  - target: 01-human/03-molecular/caspase-3
+    relation: connects-to
+    note: "Immune-mediated injury: HBV is largely non-cytopathic, so the liver damage comes from cytotoxic T cells driving caspase-3-mediated apoptosis of infected hepatocytes — the immune attack, not the virus itself, that causes the hepatitis and fibrosis."
+  - target: 01-human/03-molecular/il-10
+    relation: connects-to
+    note: "T-cell exhaustion: chronic HBV induces IL-10 and an exhausted, PD-1-high T-cell state that fails to clear the virus, the immunological tolerance underlying lifelong persistence and a target for immune-restoring functional-cure strategies."
 ---
 
 # Hepatitis B
@@ -529,3 +538,6 @@ HDV is a satellite RNA virus that requires HBsAg for virion assembly:
 - `connects-to` → **[IFN-γ](../../03-molecular/ifn-gamma/README.md)** — IFN-γ from HBV-specific Th1 and CD8 cells can purge virus from hepatocytes without killing them—the non-cytolytic clearance that distinguishes resolved from chronic infection and is the goal of functional-cure strategies.
 - `connects-to` → **[Perforin](../../03-molecular/perforin/README.md)** — Perforin-mediated CD8 T-cell lysis of infected hepatocytes both clears HBV and causes the hepatocyte destruction behind the flares and necroinflammation—the immunopathology by which the host response, not the virus directly, damages the liver.
 - `connects-to` → **[RIG-I](../../03-molecular/rig-i/README.md)** — RIG-I can detect HBV pregenomic RNA, but the virus actively suppresses this sensor—a key reason HBV behaves as a "stealth" pathogen that establishes chronic infection by minimizing innate immune alarm.
+- `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — HBV-driven cirrhosis and viral integration produce one of the world's leading causes of HCC, an intensely vascular tumor whose VEGF-driven angiogenesis is the target of bevacizumab and the multikinase inhibitors used against it.
+- `connects-to` → **[Caspase-3](../../03-molecular/caspase-3/README.md)** — HBV is largely non-cytopathic, so the liver damage comes from cytotoxic T cells driving caspase-3-mediated apoptosis of infected hepatocytes—the immune attack, not the virus itself, that causes the hepatitis and fibrosis.
+- `connects-to` → **[IL-10](../../03-molecular/il-10/README.md)** — Chronic HBV induces IL-10 and an exhausted, PD-1-high T-cell state that fails to clear the virus, the immunological tolerance underlying lifelong persistence and a target for immune-restoring functional-cure strategies.
