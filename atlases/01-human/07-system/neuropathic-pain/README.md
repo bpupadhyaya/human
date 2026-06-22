@@ -285,6 +285,15 @@ cross_links:
   - target: 01-human/03-molecular/cxcl12
     relation: connects-to
     note: "Chemokine sensitisation: CXCL12 acting on CXCR4 in the dorsal-root ganglia and spinal cord directly excites and sensitises nociceptive neurons, a neuro-glial signal sustaining chronic neuropathic pain after nerve injury."
+  - target: 01-human/03-molecular/oxytocin
+    relation: connects-to
+    note: "Descending analgesia: oxytocinergic projections from the hypothalamic paraventricular nucleus to the spinal dorsal horn inhibit nociceptive transmission, an endogenous analgesic pathway being explored therapeutically for neuropathic pain."
+  - target: 01-human/03-molecular/rage
+    relation: connects-to
+    note: "Diabetic neuropathy: advanced glycation end-products signalling through RAGE injure peripheral nerves and sensitise nociceptors, a central mechanism of the painful diabetic neuropathy that is among the commonest causes of neuropathic pain."
+  - target: 01-human/03-molecular/perforin
+    relation: connects-to
+    note: "Adaptive-immune pain: infiltrating CD8 T cells releasing perforin and granzyme contribute to the maintenance of neuropathic pain after nerve injury, a T-cell arm of neuroimmune sensitisation distinct from the better-known microglial component."
 sources:
   - id: jensen-2011-neuropathic-pain-review
     type: peer-reviewed
@@ -537,6 +546,9 @@ Chronic neuropathic pain carries significant psychological burden:
 - `connects-to` → **[NTRK / TrkA](../../03-molecular/ntrk/README.md)** — Nerve growth factor signaling through TrkA sensitizes and upregulates nociceptors after nerve injury, the peripheral mechanism that anti-NGF antibodies such as tanezumab target to relieve chronic neuropathic and osteoarthritic pain.
 - `connects-to` → **[Nitric oxide](../../03-molecular/nitric-oxide/README.md)** — NMDA-receptor activation in the dorsal horn drives nNOS-derived nitric oxide that potentiates synaptic transmission, a positive-feedback loop reinforcing the central sensitization that makes neuropathic pain self-sustaining.
 - `connects-to` → **[CXCL12](../../03-molecular/cxcl12/README.md)** — CXCL12 acting on CXCR4 in the dorsal-root ganglia and spinal cord directly excites and sensitizes nociceptive neurons, a neuro-glial chemokine signal that sustains chronic neuropathic pain long after the initial nerve injury.
+- `connects-to` → **[Oxytocin](../../03-molecular/oxytocin/README.md)** — Oxytocinergic projections from the hypothalamic paraventricular nucleus to the spinal dorsal horn inhibit nociceptive transmission, an endogenous analgesic pathway being explored therapeutically for neuropathic pain.
+- `connects-to` → **[RAGE](../../03-molecular/rage/README.md)** — Advanced glycation end-products signaling through RAGE injure peripheral nerves and sensitize nociceptors, a central mechanism of the painful diabetic neuropathy that is among the commonest causes of neuropathic pain.
+- `connects-to` → **[Perforin](../../03-molecular/perforin/README.md)** — Infiltrating CD8 T cells releasing perforin and granzyme contribute to the maintenance of neuropathic pain after nerve injury, a T-cell arm of neuroimmune sensitization distinct from the better-known microglial component.
 
 [^jensen-2011-neuropathic-pain-review]: Jensen TS, Baron R, Haanpää M, et al. A new definition of neuropathic pain. *Pain.* 2011;152(10):2204-2205. [doi:10.1016/j.pain.2011.06.017](https://doi.org/10.1016/j.pain.2011.06.017) · [PubMed 21764514](https://pubmed.ncbi.nlm.nih.gov/21764514/)
 [^dworkin-2010-neuropathic-pain-treatment]: Dworkin RH, O'Connor AB, Audette J, et al. Recommendations for the pharmacological management of neuropathic pain. *Mayo Clin Proc.* 2010;85(3 Suppl):S3-14. [doi:10.4065/mcp.2009.0649](https://doi.org/10.4065/mcp.2009.0649) · [PubMed 20194146](https://pubmed.ncbi.nlm.nih.gov/20194146/)
