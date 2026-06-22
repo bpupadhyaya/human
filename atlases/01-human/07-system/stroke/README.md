@@ -307,6 +307,15 @@ cross_links:
   - target: 01-human/03-molecular/fibrinogen
     relation: connects-to
     note: "Thromboembolic substrate: fibrinogen is converted by thrombin into the fibrin clot of ischaemic stroke, the target of thrombolysis with tPA that cleaves fibrin to restore cerebral perfusion."
+  - target: 01-human/02-atomic/calcium
+    relation: connects-to
+    note: "Excitotoxic death: glutamate flooding the ischaemic core opens NMDA channels to a lethal calcium influx, and the resulting calcium overload activates proteases and destroys mitochondria — the final common pathway of neuronal death in the stroke penumbra."
+  - target: 01-human/03-molecular/xanthine-oxidase
+    relation: connects-to
+    note: "Reperfusion injury: when blood flow is restored by thrombolysis or thrombectomy, xanthine-oxidase-derived reactive oxygen species burst into the reoxygenated tissue, the oxidative reperfusion injury that can extend the damage the clot began."
+  - target: 01-human/03-molecular/endothelin-1
+    relation: connects-to
+    note: "Cerebral vasospasm: endothelin-1 released after subarachnoid haemorrhage is a key driver of the delayed cerebral vasospasm that causes secondary ischaemic stroke days after the initial bleed, a major cause of poor outcome."
 ---
 
 # Stroke
@@ -507,6 +516,9 @@ Normal brain maintains CBF constant (50-150 mmHg MAP range) via autoregulation (
 - `connects-to` → **[Caspase-3](../../03-molecular/caspase-3/README.md)** — In the salvageable ischemic penumbra, neurons die more slowly by caspase-3-mediated apoptosis rather than the necrosis of the core—the delayed, potentially interruptible cell death that neuroprotection strategies target.
 - `connects-to` → **[TLR4](../../03-molecular/tlr4/README.md)** — DAMPs released by ischemic brain tissue engage microglial TLR4, igniting the NF-κB-driven inflammation that worsens ischemia-reperfusion injury after stroke and after the recanalization of thrombectomy.
 - `connects-to` → **[Fibrinogen](../../03-molecular/fibrinogen/README.md)** — Fibrinogen is converted by thrombin into the fibrin clot of ischemic stroke, the substrate of thrombolysis with tPA that cleaves fibrin to dissolve the occlusion and restore cerebral perfusion within the treatment window.
+- `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — Glutamate flooding the ischemic core opens NMDA channels to a lethal calcium influx, and the resulting calcium overload activates proteases and destroys mitochondria—the final common pathway of neuronal death in the stroke penumbra.
+- `connects-to` → **[Xanthine Oxidase](../../03-molecular/xanthine-oxidase/README.md)** — When blood flow is restored by thrombolysis or thrombectomy, xanthine-oxidase-derived reactive oxygen species burst into the reoxygenated tissue, the oxidative reperfusion injury that can extend the damage the clot began.
+- `connects-to` → **[Endothelin-1](../../03-molecular/endothelin-1/README.md)** — Endothelin-1 released after subarachnoid hemorrhage is a key driver of the delayed cerebral vasospasm that causes secondary ischemic stroke days after the initial bleed, a major cause of poor outcome.
 
 [^powers-2019-aha-stroke]: Powers WJ, Rabinstein AA, Ackerson T, et al. Guidelines for the Early Management of Patients With Acute Ischemic Stroke: 2019 Update to the 2018 Guidelines. *Stroke.* 2019;50(12):e344-e418. [doi:10.1161/STR.0000000000000211](https://doi.org/10.1161/STR.0000000000000211) · [PubMed 31662037](https://pubmed.ncbi.nlm.nih.gov/31662037/)
 [^feigin-2021-gbd-stroke]: Feigin VL, Krishnamurthi RV, Parmar P, et al. Update on the Global Burden of Ischemic and Hemorrhagic Stroke in 1990-2013. *Neuroepidemiology.* 2015;45(3):161-176. [doi:10.1159/000441085](https://doi.org/10.1159/000441085) · [PubMed 26505981](https://pubmed.ncbi.nlm.nih.gov/26505981/)

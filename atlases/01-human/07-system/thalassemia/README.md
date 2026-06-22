@@ -306,6 +306,15 @@ cross_links:
   - target: 01-human/03-molecular/von-willebrand-factor
     relation: connects-to
     note: "Thrombophilia: thalassemia, especially after splenectomy, is a hypercoagulable state in which abnormal red cells and endothelial activation with von Willebrand factor promote the venous and pulmonary thrombosis of the disease."
+  - target: 01-human/03-molecular/bcl-2
+    relation: connects-to
+    note: "Ineffective erythropoiesis: the apoptosis of maturing erythroid precursors, governed by the balance of BCL-2-family survival proteins, is the core of the ineffective erythropoiesis of thalassemia, where most red-cell precursors die in the marrow before reaching the circulation."
+  - target: 01-human/03-molecular/xanthine-oxidase
+    relation: connects-to
+    note: "Oxidative haemolysis: unpaired globin chains and free iron in thalassemic red cells generate reactive oxygen species, compounded by xanthine-oxidase activity, the oxidative damage that destabilises membranes and drives the chronic haemolysis."
+  - target: 01-human/03-molecular/rage
+    relation: connects-to
+    note: "Iron-DAMP inflammation: chronic haemolysis and iron overload in thalassemia release free haem that signals through RAGE as a DAMP, sustaining the vascular inflammation that contributes to the endothelial dysfunction and thrombotic risk of the disease."
 ---
 
 # Thalassemia
@@ -546,6 +555,9 @@ Untransfused or undertransfused β-thal major:
 - `connects-to` → **[Caspase-3](../../03-molecular/caspase-3/README.md)** — Unpaired globin chains precipitate in maturing erythroblasts, triggering caspase-3-mediated apoptosis in the marrow—the ineffective erythropoiesis that, more than peripheral hemolysis, drives the anemia of thalassemia.
 - `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — The erythropoietic drive of thalassemia expands the marrow and seeds extramedullary hematopoiesis, with VEGF-driven angiogenesis supporting these masses and the skeletal expansion that deforms the skull and face.
 - `connects-to` → **[von Willebrand factor](../../03-molecular/von-willebrand-factor/README.md)** — Thalassemia, especially after splenectomy, is a hypercoagulable state in which abnormal red cells and endothelial activation with von Willebrand factor promote the venous and pulmonary thrombosis that complicates the disease.
+- `connects-to` → **[BCL-2](../../03-molecular/bcl-2/README.md)** — The apoptosis of maturing erythroid precursors, governed by the balance of BCL-2-family survival proteins, is the core of the ineffective erythropoiesis of thalassemia, where most red-cell precursors die in the marrow before reaching the circulation.
+- `connects-to` → **[Xanthine Oxidase](../../03-molecular/xanthine-oxidase/README.md)** — Unpaired globin chains and free iron in thalassemic red cells generate reactive oxygen species, compounded by xanthine-oxidase activity, the oxidative damage that destabilizes membranes and drives the chronic hemolysis.
+- `connects-to` → **[RAGE](../../03-molecular/rage/README.md)** — Chronic hemolysis and iron overload in thalassemia release free heme that signals through RAGE as a DAMP, sustaining the vascular inflammation that contributes to the endothelial dysfunction and thrombotic risk of the disease.
 
 [^weatherall-2008-thalassemia-review]: Weatherall DJ. The inherited diseases of hemoglobin are an emerging global health burden. *Blood.* 2010;115(22):4331-4336. [doi:10.1182/blood-2010-01-251348](https://doi.org/10.1182/blood-2010-01-251348) · [PubMed 20233970](https://pubmed.ncbi.nlm.nih.gov/20233970/)
 [^cappellini-2014-thalassemia-guidelines]: Cappellini MD, Cohen A, Porter J, et al. (eds). Guidelines for the Management of Transfusion Dependent Thalassaemia (TDT). 3rd ed. Thalassaemia International Federation; 2014.
