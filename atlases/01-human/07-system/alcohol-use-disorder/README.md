@@ -313,6 +313,15 @@ cross_links:
   - target: 01-human/03-molecular/acetylcholine
     relation: connects-to
     note: "Cholinergic reward: nicotinic acetylcholine receptors modulate alcohol's dopaminergic reward, the mechanistic basis for the nicotinic partial agonist varenicline reducing alcohol consumption in alcohol use disorder."
+  - target: 01-human/03-molecular/glp-1
+    relation: connects-to
+    note: "Anti-craving target: GLP-1 receptor agonists like semaglutide reduce alcohol craving and consumption by acting on the mesolimbic reward circuit, an emerging metabolic-pathway therapy generating strong interest for alcohol use disorder."
+  - target: 01-human/03-molecular/tgf-beta
+    relation: connects-to
+    note: "Alcoholic liver fibrosis: chronic alcohol activates hepatic stellate cells through TGF-β to deposit collagen, driving the progression from steatosis to the alcoholic cirrhosis that is a leading cause of death in alcohol use disorder."
+  - target: 01-human/03-molecular/oxytocin
+    relation: connects-to
+    note: "Withdrawal and craving: oxytocin dampens stress and craving and can ease alcohol-withdrawal severity in studies, an endogenous social-bonding system being explored as an adjunct to reduce relapse in alcohol use disorder."
 ---
 
 # Alcohol Use Disorder
@@ -591,6 +600,9 @@ Prenatal alcohol exposure → leading preventable cause of intellectual disabili
 - `connects-to` → **[Orexin](../../03-molecular/orexin/README.md)** — Hypothalamic orexin drives the cue- and stress-induced craving and the hyperarousal of alcohol withdrawal, making orexin-receptor antagonists a candidate strategy to reduce relapse in alcohol use disorder.
 - `connects-to` → **[Ghrelin](../../03-molecular/ghrelin/README.md)** — Ghrelin enhances the rewarding value of alcohol and promotes alcohol seeking, a gut-brain hunger signal repurposed in addiction whose pharmacological blockade reduces drinking in early trials.
 - `connects-to` → **[Acetylcholine](../../03-molecular/acetylcholine/README.md)** — Nicotinic acetylcholine receptors modulate alcohol's dopaminergic reward, the mechanistic basis for the nicotinic partial agonist varenicline reducing alcohol consumption and the frequent co-occurrence of alcohol and tobacco use.
+- `connects-to` → **[GLP-1](../../03-molecular/glp-1/README.md)** — GLP-1 receptor agonists like semaglutide reduce alcohol craving and consumption by acting on the mesolimbic reward circuit, an emerging metabolic-pathway therapy generating strong interest for alcohol use disorder.
+- `connects-to` → **[TGF-β](../../03-molecular/tgf-beta/README.md)** — Chronic alcohol activates hepatic stellate cells through TGF-β to deposit collagen, driving the progression from steatosis to the alcoholic cirrhosis that is a leading cause of death in alcohol use disorder.
+- `connects-to` → **[Oxytocin](../../03-molecular/oxytocin/README.md)** — Oxytocin dampens stress and craving and can ease alcohol-withdrawal severity in studies, an endogenous social-bonding system being explored as an adjunct to reduce relapse in alcohol use disorder.
 
 [^koob-2013-addiction-neuroscience]: Koob GF, Volkow ND. Neurocircuitry of addiction. *Neuropsychopharmacology.* 2010;35(1):217-238. [doi:10.1038/npp.2009.110](https://doi.org/10.1038/npp.2009.110) · [PubMed 19710631](https://pubmed.ncbi.nlm.nih.gov/19710631/)
 [^anton-2006-combine]: Anton RF, O'Malley SS, Ciraulo DA, et al. Combined pharmacotherapies and behavioral interventions for alcohol dependence: the COMBINE study. *JAMA.* 2006;295(17):2003-2017. [doi:10.1001/jama.295.17.2003](https://doi.org/10.1001/jama.295.17.2003) · [PubMed 16670409](https://pubmed.ncbi.nlm.nih.gov/16670409/)

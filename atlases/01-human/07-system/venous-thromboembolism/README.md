@@ -307,6 +307,15 @@ cross_links:
   - target: 01-human/03-molecular/prostaglandins
     relation: connects-to
     note: "Platelet eicosanoid balance: the platelet thromboxane A2/endothelial prostacyclin balance governs the platelet activation that propagates a venous thrombus, the balance aspirin shifts to lower recurrent VTE risk."
+  - target: 01-human/03-molecular/bradykinin
+    relation: connects-to
+    note: "Contact-pathway thrombosis: the intrinsic contact system — factor XII and kallikrein, which also generates bradykinin — feeds venous thrombus growth, making factor XI/XII the targets of the new anticoagulants that aim to block clotting without causing bleeding."
+  - target: 01-human/03-molecular/complement-c3
+    relation: connects-to
+    note: "Complement-coagulation crosstalk: complement activation generating C3 fragments amplifies platelet activation and tissue factor, an inflammatory limb of immunothrombosis that compounds the stasis and hypercoagulability driving venous thromboembolism."
+  - target: 01-human/03-molecular/rage
+    relation: connects-to
+    note: "Thrombo-inflammation: DAMPs such as HMGB1 signalling through RAGE on endothelium and leukocytes promote the tissue-factor expression and NET formation that knit together the immunothrombosis of venous clot."
 ---
 
 # Venous Thromboembolism
@@ -522,6 +531,9 @@ cross_links:
 - `connects-to` → **[CCL2](../../03-molecular/ccl2/README.md)** — CCL2 recruits monocytes to the forming venous thrombus, where their tissue-factor expression amplifies thrombin generation—the inflammation arm of the immunothrombosis that initiates deep-vein thrombosis in the low-flow valve pockets.
 - `connects-to` → **[TLR4](../../03-molecular/tlr4/README.md)** — TLR4 sensing of DAMPs on activated venous endothelium and leukocytes promotes the tissue-factor and neutrophil-extracellular-trap release that nucleate venous thrombi, linking sterile inflammation to clotting.
 - `connects-to` → **[Prostaglandins](../../03-molecular/prostaglandins/README.md)** — The platelet thromboxane A2/endothelial prostacyclin balance governs the platelet activation that propagates a venous thrombus, the balance that low-dose aspirin shifts to reduce recurrent VTE risk after anticoagulation ends.
+- `connects-to` → **[Bradykinin](../../03-molecular/bradykinin/README.md)** — The intrinsic contact system—factor XII and kallikrein, which also generates bradykinin—feeds venous thrombus growth, making factor XI/XII the targets of the new anticoagulants that aim to block clotting without causing bleeding.
+- `connects-to` → **[Complement C3](../../03-molecular/complement-c3/README.md)** — Complement activation generating C3 fragments amplifies platelet activation and tissue factor, an inflammatory limb of immunothrombosis that compounds the stasis and hypercoagulability driving venous thromboembolism.
+- `connects-to` → **[RAGE](../../03-molecular/rage/README.md)** — DAMPs such as HMGB1 signaling through RAGE on endothelium and leukocytes promote the tissue-factor expression and NET formation that knit together the immunothrombosis of venous clot.
 
 [^agnelli-2013-amplify-apixaban-vte]: Agnelli G, Buller HR, Cohen A, et al. Oral apixaban for the treatment of acute venous thromboembolism. *N Engl J Med.* 2013;369(9):799-808. [doi:10.1056/NEJMoa1302507](https://doi.org/10.1056/NEJMoa1302507) · [PubMed 23808982](https://pubmed.ncbi.nlm.nih.gov/23808982/)
 [^bauersachs-2010-einstein-rivaroxaban]: EINSTEIN Investigators. Oral rivaroxaban for symptomatic venous thromboembolism. *N Engl J Med.* 2010;363(26):2499-2510. [doi:10.1056/NEJMoa1007903](https://doi.org/10.1056/NEJMoa1007903) · [PubMed 21128814](https://pubmed.ncbi.nlm.nih.gov/21128814/)
