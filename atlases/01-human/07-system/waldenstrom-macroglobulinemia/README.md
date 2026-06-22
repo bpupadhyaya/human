@@ -298,6 +298,15 @@ cross_links:
   - target: 01-human/03-molecular/kit
     relation: connects-to
     note: "Mast-cell support: Waldenström marrow is characteristically infiltrated by KIT-expressing mast cells that nurture the lymphoplasmacytic clone through CD40L and APRIL, a distinctive feature of the disease's microenvironment."
+  - target: 01-human/03-molecular/caspase-3
+    relation: connects-to
+    note: "Therapy apoptosis: bendamustine-rituximab and BTK inhibitors ultimately kill Waldenström cells through caspase-3 apoptosis, and the anti-apoptotic BCL-2 these cells express both limits responses and motivates adding venetoclax."
+  - target: 01-human/03-molecular/erythropoietin
+    relation: connects-to
+    note: "Anaemia at presentation: marrow infiltration by the lymphoplasmacytic clone and IL-6-driven hepcidin blunt erythropoietin-driven red-cell production, making anaemia the commonest presenting feature and the usual trigger to start treatment."
+  - target: 01-human/03-molecular/ccl2
+    relation: connects-to
+    note: "Macrophage microenvironment: CCL2 recruits monocytes and macrophages into the Waldenström marrow, part of the supportive niche that — alongside the mast cells — feeds the lymphoplasmacytic clone with survival signals."
 ---
 
 # Waldenström Macroglobulinemia
@@ -509,6 +518,9 @@ For symptomatic hyperviscosity → removes IgM immediately; does not treat under
 - `connects-to` → **[TLR4](../../03-molecular/tlr4/README.md)** — MYD88 is the signaling adaptor for TLR4 and related innate receptors, so the MYD88 L265P mutation that defines Waldenström drives constitutive NF-κB as if the cell were chronically TLR-stimulated—the mechanistic basis for BTK-inhibitor sensitivity.
 - `connects-to` → **[PIK3CA](../../03-molecular/pik3ca/README.md)** — PI3K signaling downstream of MYD88 and the B-cell receptor sustains the Waldenström clone in parallel with BTK, contributing to the resistance that emerges when BTK is inhibited alone and supporting combination approaches.
 - `connects-to` → **[KIT](../../03-molecular/kit/README.md)** — Waldenström marrow is characteristically infiltrated by KIT-expressing mast cells that nurture the lymphoplasmacytic clone through CD40L and APRIL—a distinctive microenvironmental feature distinguishing it from other indolent lymphomas.
+- `connects-to` → **[Caspase-3](../../03-molecular/caspase-3/README.md)** — Bendamustine-rituximab and BTK inhibitors ultimately kill Waldenström cells through caspase-3 apoptosis, and the anti-apoptotic BCL-2 these cells express both limits responses and motivates adding venetoclax.
+- `connects-to` → **[Erythropoietin](../../03-molecular/erythropoietin/README.md)** — Marrow infiltration by the lymphoplasmacytic clone and IL-6-driven hepcidin blunt erythropoietin-driven red-cell production, making anemia the commonest presenting feature and the usual trigger to start treatment.
+- `connects-to` → **[CCL2](../../03-molecular/ccl2/README.md)** — CCL2 recruits monocytes and macrophages into the Waldenström marrow, part of the supportive niche that—alongside the mast cells—feeds the lymphoplasmacytic clone with survival signals.
 
 [^treon-2015-ibrutinib-wm]: Treon SP, Tripsas CK, Meid K, et al. Ibrutinib in previously treated Waldenström's macroglobulinemia. *N Engl J Med.* 2015;373(18):1765-1774. [doi:10.1056/NEJMoa1501548](https://doi.org/10.1056/NEJMoa1501548) · [PubMed 26352686](https://pubmed.ncbi.nlm.nih.gov/26352686/)
 [^tam-2020-aspen]: Tam CS, Opat S, D'Sa S, et al. A randomized phase 3 trial of zanubrutinib vs ibrutinib in symptomatic Waldenström macroglobulinemia: the ASPEN study. *Blood.* 2020;136(18):2038-2050. [doi:10.1182/blood.2020006844](https://doi.org/10.1182/blood.2020006844) · [PubMed 32828187](https://pubmed.ncbi.nlm.nih.gov/32828187/)

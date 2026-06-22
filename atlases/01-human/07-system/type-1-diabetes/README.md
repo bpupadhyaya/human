@@ -304,6 +304,15 @@ cross_links:
   - target: 01-human/03-molecular/caspase-3
     relation: connects-to
     note: "Beta-cell apoptosis: caspase-3-mediated apoptosis is the final death pathway through which cytokine and cytotoxic-T-cell attack destroy insulin-producing beta cells in type 1 diabetes."
+  - target: 01-human/03-molecular/jak1-2
+    relation: connects-to
+    note: "Cytokine-signalling preservation: interferon and cytokine signals stressing beta cells run through JAK-STAT, and the JAK inhibitor baricitinib has been shown to preserve residual beta-cell function in new-onset type 1 diabetes, a disease-modifying strategy."
+  - target: 01-human/03-molecular/gaba
+    relation: connects-to
+    note: "Islet GABA: beta cells co-secrete GABA, which acts in a paracrine loop to promote beta-cell survival and regeneration and to dampen islet inflammation, an endogenous protective signalling axis explored as a type 1 diabetes therapy."
+  - target: 01-human/03-molecular/baff
+    relation: connects-to
+    note: "B-cell autoimmunity: although T-cell-mediated, type 1 diabetes depends on autoreactive B cells presenting islet antigens and making islet autoantibodies, the BAFF-supported B-cell arm targeted by the anti-CD20 therapy that can slow progression."
 ---
 
 # Type 1 Diabetes
@@ -495,6 +504,9 @@ cross_links:
 - `connects-to` → **[CD20](../../03-molecular/cd20/README.md)** — B cells present islet autoantigens and produce autoantibodies in type 1 diabetes, and anti-CD20 (rituximab) delays beta-cell decline in new-onset disease—evidence that B cells, not only T cells, help drive the autoimmune attack.
 - `connects-to` → **[TNF-α](../../03-molecular/tnf-alpha/README.md)** — TNF-α contributes to islet inflammation and beta-cell dysfunction, and the anti-TNF agent golimumab preserves endogenous insulin production in newly diagnosed type 1 diabetes—a disease-modifying cytokine target.
 - `connects-to` → **[Caspase-3](../../03-molecular/caspase-3/README.md)** — Caspase-3-mediated apoptosis is the final common death pathway through which cytokine signaling and cytotoxic-T-cell attack destroy the insulin-producing beta cells, the cellular endpoint of type 1 diabetes.
+- `connects-to` → **[JAK1/2](../../03-molecular/jak1-2/README.md)** — Interferon and cytokine signals stressing beta cells run through JAK-STAT, and the JAK inhibitor baricitinib has been shown to preserve residual beta-cell function in new-onset type 1 diabetes, a disease-modifying strategy.
+- `connects-to` → **[GABA](../../03-molecular/gaba/README.md)** — Beta cells co-secrete GABA, which acts in a paracrine loop to promote beta-cell survival and regeneration and to dampen islet inflammation, an endogenous protective signaling axis explored as a type 1 diabetes therapy.
+- `connects-to` → **[BAFF](../../03-molecular/baff/README.md)** — Although T-cell-mediated, type 1 diabetes depends on autoreactive B cells presenting islet antigens and making islet autoantibodies, the BAFF-supported B-cell arm targeted by the anti-CD20 therapy that can slow progression.
 
 [^atkinson-2014-t1d-lancet]: Atkinson MA, Eisenbarth GS, Michels AW. Type 1 diabetes. *Lancet.* 2014;383(9911):69-82. [doi:10.1016/S0140-6736(13)60591-7](https://doi.org/10.1016/S0140-6736(13)60591-7) · [PubMed 23890997](https://pubmed.ncbi.nlm.nih.gov/23890997/)
 [^herold-2019-teplizumab-t1d]: Herold KC, Bundy BN, Long SA, et al. An anti-CD3 antibody, teplizumab, in relatives at risk for type 1 diabetes. *N Engl J Med.* 2019;381(7):603-613. [doi:10.1056/NEJMoa1905155](https://doi.org/10.1056/NEJMoa1905155) · [PubMed 31180675](https://pubmed.ncbi.nlm.nih.gov/31180675/)
