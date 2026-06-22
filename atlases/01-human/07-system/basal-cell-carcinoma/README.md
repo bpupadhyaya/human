@@ -304,6 +304,15 @@ cross_links:
   - target: 01-human/03-molecular/pdgf
     relation: connects-to
     note: "Hedgehog-stroma signalling: Hedgehog activation in basal cell carcinoma drives PDGF-mediated crosstalk with the tumour stroma, supporting the fibrovascular microenvironment that sustains the locally invasive tumour."
+  - target: 01-human/02-atomic/calcium
+    relation: connects-to
+    note: "Gorlin calcification: the PTCH1-driven Gorlin (basal-cell-naevus) syndrome that predisposes to multiple BCCs features ectopic calcification, classically lamellar calcification of the falx cerebri, a diagnostic clue to the hereditary form."
+  - target: 01-human/03-molecular/perforin
+    relation: connects-to
+    note: "Immunotherapy killing: the heavy ultraviolet mutation load of basal cell carcinoma makes it visible to T cells, and the PD-1 inhibitor cemiplimab unleashes perforin-mediated cytotoxic killing in advanced tumours resistant to Hedgehog inhibitors."
+  - target: 01-human/03-molecular/igf-1
+    relation: connects-to
+    note: "Growth signalling: IGF-1R signalling promotes the proliferation and survival of basal keratinocytes and the basal-cell carcinomas arising from them, a growth-factor axis cooperating with Hedgehog activation to drive tumour growth."
 ---
 
 # Basal Cell Carcinoma
@@ -521,6 +530,9 @@ BCC has a complex immune microenvironment:
 - `connects-to` → **[cGAS-STING](../../03-molecular/cgas-sting/README.md)** — Chronic UV damage gives basal cell carcinoma one of the highest mutational burdens of any cancer, generating cytosolic DNA and neoantigens that engage cGAS-STING—the immunogenicity behind cemiplimab response in advanced BCC.
 - `connects-to` → **[Caspase-3](../../03-molecular/caspase-3/README.md)** — Hedgehog-driven BCL-2 expression lets basal cell carcinoma evade the caspase-3-mediated apoptosis that normally eliminates UV-damaged keratinocytes, allowing the mutated basal cells to persist and proliferate into tumor.
 - `connects-to` → **[PDGF](../../03-molecular/pdgf/README.md)** — Hedgehog activation in basal cell carcinoma drives PDGF-mediated crosstalk with the tumor stroma, supporting the fibrovascular microenvironment that sustains the characteristically locally invasive growth.
+- `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — The PTCH1-driven Gorlin (basal-cell-nevus) syndrome that predisposes to multiple BCCs features ectopic calcification, classically lamellar calcification of the falx cerebri, a diagnostic clue to the hereditary form.
+- `connects-to` → **[Perforin](../../03-molecular/perforin/README.md)** — The heavy ultraviolet mutation load of basal cell carcinoma makes it visible to T cells, and the PD-1 inhibitor cemiplimab unleashes perforin-mediated cytotoxic killing in advanced tumors resistant to Hedgehog inhibitors.
+- `connects-to` → **[IGF-1](../../03-molecular/igf-1/README.md)** — IGF-1R signaling promotes the proliferation and survival of basal keratinocytes and the basal-cell carcinomas arising from them, a growth-factor axis cooperating with Hedgehog activation to drive tumor growth.
 
 ---
 

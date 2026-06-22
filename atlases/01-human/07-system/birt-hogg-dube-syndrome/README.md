@@ -304,6 +304,15 @@ cross_links:
   - target: 01-human/03-molecular/tert
     relation: connects-to
     note: "Renal-tumour immortalisation: TERT reactivation maintains telomeres in the renal cell carcinomas that Birt-Hogg-Dubé predisposes to, granting the replicative immortality that lets the FLCN-deficient clone proliferate."
+  - target: 01-human/03-molecular/fh
+    relation: connects-to
+    note: "Hereditary-RCC differential: Birt-Hogg-Dubé (FLCN) sits among the inherited renal-cancer syndromes alongside VHL, SDHB and fumarate-hydratase-driven HLRCC, each producing a characteristic histology — BHD the chromophobe and hybrid oncocytic tumours."
+  - target: 01-human/03-molecular/igf-1
+    relation: connects-to
+    note: "Growth-factor support: IGF-1R signalling, converging on the same AKT-mTOR axis dysregulated by folliculin loss, supports the proliferation of the renal tumours of Birt-Hogg-Dubé syndrome."
+  - target: 01-human/03-molecular/caspase-3
+    relation: connects-to
+    note: "Cytostatic mTOR therapy: folliculin loss disinhibits mTOR and suppresses caspase-3 apoptosis, so mTOR inhibitors restrain rather than kill BHD tumour cells — a cytostatic effect that mirrors their action in the related mTOR-driven hamartoma syndromes."
 ---
 
 # Birt-Hogg-Dubé Syndrome
@@ -540,6 +549,9 @@ Definite BHD: 1 major OR 2 minor criteria (European BHD Consortium definition)
 - `connects-to` → **[E-cadherin (CDH1)](../../03-molecular/cdh1/README.md)** — FLCN regulates E-cadherin-dependent cell-cell adhesion, and impaired adhesion in the alveolar wall underlies the lung cysts and recurrent spontaneous pneumothorax that are often the first clue to Birt-Hogg-Dubé syndrome.
 - `connects-to` → **[SDHB](../../03-molecular/sdhb/README.md)** — FLCN loss boosts mitochondrial biogenesis, giving the oncocytic and chromophobe renal tumors of Birt-Hogg-Dubé a mitochondria-packed phenotype that parallels the mitochondria-rich renal tumors of SDH deficiency.
 - `connects-to` → **[TERT](../../03-molecular/tert/README.md)** — TERT reactivation maintains telomeres in the renal cell carcinomas that Birt-Hogg-Dubé predisposes to, granting the replicative immortality that lets the FLCN-deficient clone proliferate into the syndrome's hybrid oncocytic tumors.
+- `connects-to` → **[FH](../../03-molecular/fh/README.md)** — Birt-Hogg-Dubé (FLCN) sits among the inherited renal-cancer syndromes alongside VHL, SDHB and fumarate-hydratase-driven HLRCC, each producing a characteristic histology—BHD the chromophobe and hybrid oncocytic tumors.
+- `connects-to` → **[IGF-1](../../03-molecular/igf-1/README.md)** — IGF-1R signaling, converging on the same AKT-mTOR axis dysregulated by folliculin loss, supports the proliferation of the renal tumors of Birt-Hogg-Dubé syndrome.
+- `connects-to` → **[Caspase-3](../../03-molecular/caspase-3/README.md)** — Folliculin loss disinhibits mTOR and suppresses caspase-3 apoptosis, so mTOR inhibitors restrain rather than kill BHD tumor cells—a cytostatic effect that mirrors their action in the related mTOR-driven hamartoma syndromes.
 
 ---
 
