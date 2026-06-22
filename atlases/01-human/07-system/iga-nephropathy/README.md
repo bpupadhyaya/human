@@ -304,6 +304,15 @@ cross_links:
   - target: 01-human/03-molecular/fcrn
     relation: connects-to
     note: "Autoantibody recycling: the neonatal Fc receptor protects the anti-glycan IgG autoantibodies that bind galactose-deficient IgA1 to form pathogenic immune complexes, the rationale for FcRn antagonists tested in IgA nephropathy."
+  - target: 01-human/03-molecular/glucocorticoid-receptor
+    relation: connects-to
+    note: "Gut-targeted steroid: the targeted-release budesonide Nefecon acts through the glucocorticoid receptor on the gut-associated lymphoid tissue of the distal ileum, reducing production of the galactose-deficient IgA1 at its mucosal source — a first targeted IgA-nephropathy therapy."
+  - target: 01-human/03-molecular/collagen
+    relation: connects-to
+    note: "Glomerulosclerosis: chronic mesangial immune-complex deposition drives matrix expansion and collagen deposition, the glomerulosclerosis and tubulointerstitial fibrosis that progress to the end-stage kidney failure of advanced IgA nephropathy."
+  - target: 01-human/03-molecular/galectin-3
+    relation: connects-to
+    note: "Fibrosis driver: galectin-3 released by infiltrating macrophages promotes the renal interstitial fibrosis of progressive IgA nephropathy, a profibrotic lectin that helps convert the immune injury into irreversible scarring."
 ---
 
 # IgA Nephropathy
@@ -483,6 +492,9 @@ IgAN is a **multi-hit disease** described by the Oxford Four-Hit Model:
 - `connects-to` → **[BTK](../../03-molecular/btk/README.md)** — BTK transduces the B-cell-receptor signals in the mucosal B cells that produce galactose-deficient IgA1, the founding abnormality of IgA nephropathy and an emerging target of B-cell-directed therapy.
 - `connects-to` → **[TLR4](../../03-molecular/tlr4/README.md)** — TLR sensing of mucosal infection drives the IgA response that elevates galactose-deficient IgA1, explaining the synpharyngitic hematuria in which visible bleeding flares concurrently with respiratory or gut infections.
 - `connects-to` → **[FcRn](../../03-molecular/fcrn/README.md)** — The neonatal Fc receptor protects the anti-glycan IgG autoantibodies that bind galactose-deficient IgA1 to form the pathogenic mesangial immune complexes—the rationale for FcRn antagonists now being tested in IgA nephropathy.
+- `connects-to` → **[Glucocorticoid receptor](../../03-molecular/glucocorticoid-receptor/README.md)** — The targeted-release budesonide Nefecon acts through the glucocorticoid receptor on the gut-associated lymphoid tissue of the distal ileum, reducing production of the galactose-deficient IgA1 at its mucosal source—a first targeted IgA-nephropathy therapy.
+- `connects-to` → **[Collagen](../../03-molecular/collagen/README.md)** — Chronic mesangial immune-complex deposition drives matrix expansion and collagen deposition, the glomerulosclerosis and tubulointerstitial fibrosis that progress to the end-stage kidney failure of advanced IgA nephropathy.
+- `connects-to` → **[Galectin-3](../../03-molecular/galectin-3/README.md)** — Galectin-3 released by infiltrating macrophages promotes the renal interstitial fibrosis of progressive IgA nephropathy, a profibrotic lectin that helps convert the immune injury into irreversible scarring.
 
 ---
 

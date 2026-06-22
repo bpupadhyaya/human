@@ -304,6 +304,15 @@ cross_links:
   - target: 01-human/03-molecular/caspase-3
     relation: connects-to
     note: "Treatment-responsive apoptosis: IDH-mutant gliomas are more sensitive to radiation and temozolomide than IDH-wildtype tumours, engaging caspase-3-mediated apoptosis more readily — part of why they carry a markedly better prognosis."
+  - target: 01-human/03-molecular/perforin
+    relation: connects-to
+    note: "Neoantigen vaccine: the uniform IDH1 R132H mutation creates a shared neoantigen, and IDH vaccines aim to direct cytotoxic T cells to kill the tumour through perforin and granzyme, an immunotherapy strategy unique to this molecularly defined glioma."
+  - target: 01-human/03-molecular/cgas-sting
+    relation: connects-to
+    note: "Immune-cold metabolism: the oncometabolite 2-hydroxyglutarate suppresses innate immune signalling including the STING-interferon axis and impairs T-cell function, helping make IDH-mutant glioma an immunologically cold tumour that IDH inhibitors may help thaw."
+  - target: 01-human/03-molecular/galectin-3
+    relation: connects-to
+    note: "Microglial response: galectin-3 from activated microglia contributes to the neuroinflammatory microenvironment of IDH-mutant glioma, a microglial signal increasingly studied as a modifier of glioma progression."
 ---
 
 # IDH-Mutant Glioma
@@ -531,6 +540,9 @@ IDH-mutant glioma with MGMT methylation shows strong alkylating agent sensitivit
 - `connects-to` → **[EGLN1 (PHD2)](../../03-molecular/egln1/README.md)** — The 2-hydroxyglutarate produced by mutant IDH competitively inhibits α-ketoglutarate-dependent dioxygenases including the EGLN/PHD prolyl hydroxylases and the TET and histone demethylases—the broad epigenetic dysregulation (the G-CIMP phenotype) that defines these tumors.
 - `connects-to` → **[CXCL12](../../03-molecular/cxcl12/README.md)** — CXCR4 on IDH-mutant glioma cells follows CXCL12 gradients to drive the diffuse white-matter infiltration that makes even these lower-grade gliomas impossible to fully resect and dooms them to eventual recurrence.
 - `connects-to` → **[Caspase-3](../../03-molecular/caspase-3/README.md)** — IDH-mutant gliomas are more sensitive to radiation and temozolomide than IDH-wildtype tumors, engaging caspase-3-mediated apoptosis more readily—part of why they carry a markedly better prognosis than glioblastoma.
+- `connects-to` → **[Perforin](../../03-molecular/perforin/README.md)** — The uniform IDH1 R132H mutation creates a shared neoantigen, and IDH vaccines aim to direct cytotoxic T cells to kill the tumor through perforin and granzyme, an immunotherapy strategy unique to this molecularly defined glioma.
+- `connects-to` → **[cGAS-STING](../../03-molecular/cgas-sting/README.md)** — The oncometabolite 2-hydroxyglutarate suppresses innate immune signaling including the STING-interferon axis and impairs T-cell function, helping make IDH-mutant glioma an immunologically cold tumor that IDH inhibitors may help thaw.
+- `connects-to` → **[Galectin-3](../../03-molecular/galectin-3/README.md)** — Galectin-3 from activated microglia contributes to the neuroinflammatory microenvironment of IDH-mutant glioma, a microglial signal increasingly studied as a modifier of glioma progression.
 
 [^mellinghoff-2023-vorasidenib-lgg]: Mellinghoff IK, van den Bent MJ, Blumenthal DT, et al. Vorasidenib in IDH1- or IDH2-mutant low-grade glioma. *N Engl J Med.* 2023;389(7):589-601. [doi:10.1056/NEJMoa2304194](https://doi.org/10.1056/NEJMoa2304194) · [PubMed 37272530](https://pubmed.ncbi.nlm.nih.gov/37272530/)
 [^jiao-2012-atrx-glioma]: Jiao Y, Killela PJ, Reitman ZJ, et al. Frequent ATRX, CIC, FUBP1 and IDH mutations refine the classification of malignant gliomas. *Oncotarget.* 2012;3(7):709-722. [doi:10.18632/oncotarget.588](https://doi.org/10.18632/oncotarget.588) · [PubMed 22869205](https://pubmed.ncbi.nlm.nih.gov/22869205/)
