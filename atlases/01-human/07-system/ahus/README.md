@@ -307,6 +307,15 @@ cross_links:
   - target: 01-human/03-molecular/ccl2
     relation: connects-to
     note: "Renal inflammation: CCL2 released by the injured glomerular endothelium recruits monocytes that amplify the inflammatory damage of the thrombotic microangiopathy in the aHUS kidney."
+  - target: 01-human/03-molecular/rage
+    relation: connects-to
+    note: "Free-heme amplification: the microangiopathic haemolysis of aHUS releases free haem that, as a DAMP signalling through RAGE, further activates complement and endothelium — a vicious cycle in which haemolysis feeds the complement-driven injury that caused it."
+  - target: 01-human/03-molecular/erythropoietin
+    relation: connects-to
+    note: "Microangiopathic anaemia: mechanical fragmentation of red cells across the complement-damaged glomerular microvasculature produces the Coombs-negative haemolytic anaemia of aHUS, outpacing the erythropoietin-driven marrow response."
+  - target: 01-human/03-molecular/caspase-3
+    relation: connects-to
+    note: "Endothelial apoptosis: sublytic membrane-attack-complex deposition on glomerular endothelium triggers caspase-3-mediated apoptosis as well as activation, the endothelial cell death that exposes prothrombotic surfaces and seeds the renal microthrombi of aHUS."
 ---
 
 # Atypical HUS
@@ -565,6 +574,9 @@ Repeated TMA episodes → glomerular fibrosis → CKD → ESRD
 - `connects-to` → **[Protein C](../../03-molecular/protein-c/README.md)** — THBD (thrombomodulin) mutations cause a subset of aHUS by impairing the thrombomodulin-protein C anticoagulant pathway and its complement regulation, tipping the renal microvasculature toward the thrombosis that defines the disease.
 - `connects-to` → **[Angiopoietin](../../03-molecular/angiopoietin/README.md)** — Complement injury to the aHUS endothelium raises the angiopoietin-2/angiopoietin-1 ratio, destabilizing the Tie2-regulated vascular barrier and promoting the leak and thrombosis of the thrombotic microangiopathy.
 - `connects-to` → **[CCL2](../../03-molecular/ccl2/README.md)** — CCL2 released by the injured glomerular endothelium recruits monocytes that amplify the inflammatory damage of the thrombotic microangiopathy in the aHUS kidney, compounding the complement-driven injury.
+- `connects-to` → **[RAGE](../../03-molecular/rage/README.md)** — The microangiopathic hemolysis of aHUS releases free heme that, as a DAMP signaling through RAGE, further activates complement and endothelium—a vicious cycle in which hemolysis feeds the complement-driven injury that caused it.
+- `connects-to` → **[Erythropoietin](../../03-molecular/erythropoietin/README.md)** — Mechanical fragmentation of red cells across the complement-damaged glomerular microvasculature produces the Coombs-negative hemolytic anemia of aHUS, outpacing the erythropoietin-driven marrow response.
+- `connects-to` → **[Caspase-3](../../03-molecular/caspase-3/README.md)** — Sublytic membrane-attack-complex deposition on glomerular endothelium triggers caspase-3-mediated apoptosis as well as activation, the endothelial cell death that exposes prothrombotic surfaces and seeds the renal microthrombi of aHUS.
 
 [^fakhouri-2017-ahus-lancet]: Fakhouri F, Zuber J, Frémeaux-Bacchi V, Loirat C. Haemolytic uraemic syndrome. *Lancet.* 2017;390(10095):681-696. [doi:10.1016/S0140-6736(17)30062-4](https://doi.org/10.1016/S0140-6736(17)30062-4) · [PubMed 28242109](https://pubmed.ncbi.nlm.nih.gov/28242109/)
 [^legendre-2013-eculizumab-ahus-nejm]: Legendre CM, Licht C, Muus P, et al. Terminal complement inhibitor eculizumab in atypical hemolytic-uremic syndrome. *N Engl J Med.* 2013;368(23):2169-2181. [doi:10.1056/NEJMoa1208981](https://doi.org/10.1056/NEJMoa1208981) · [PubMed 23738544](https://pubmed.ncbi.nlm.nih.gov/23738544/)

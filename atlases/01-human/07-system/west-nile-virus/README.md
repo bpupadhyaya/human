@@ -300,6 +300,15 @@ cross_links:
   - target: 01-human/03-molecular/cxcl12
     relation: connects-to
     note: "Blood-brain barrier gatekeeping: CXCL12 at the blood-brain barrier retains CXCR4+ leukocytes in the perivascular space, and CXCR4 antagonism improves West Nile outcomes by letting protective T cells enter the brain parenchyma."
+  - target: 01-human/03-molecular/myd88
+    relation: connects-to
+    note: "Innate adaptor: MyD88-dependent Toll-like-receptor signalling is essential for controlling West Nile virus, organising leukocyte positioning in the brain, and MyD88-deficient hosts suffer markedly higher viral burden and neuroinvasion."
+  - target: 01-human/03-molecular/fcrn
+    relation: connects-to
+    note: "Antibody protection: neutralising IgG against the viral envelope is the key correlate of protection from West Nile encephalitis, and FcRn recycling sustains the circulating antibody and the half-life of therapeutic monoclonals and immune globulin under study."
+  - target: 01-human/03-molecular/mhc-class-ii
+    relation: connects-to
+    note: "CD4 help: presentation of West Nile antigens on MHC class II primes the CD4 T-cell help needed for durable antibody responses and for supporting the CD8 T cells that clear virus from infected neurons."
 ---
 
 # West Nile Virus
@@ -514,3 +523,6 @@ WNV has evolved a multilayered strategy to evade innate immunity:
 - `connects-to` → **[IL-12](../../03-molecular/il-12/README.md)** — IL-12 from activated dendritic cells drives the Th1 and IFN-γ response that controls West Nile virus, biasing immunity toward the cell-mediated clearance the neuroinvasive infection requires for survival.
 - `connects-to` → **[IL-10](../../03-molecular/il-10/README.md)** — IL-10 tempers the antiviral response in West Nile infection, and excess IL-10 is associated with worse outcomes by blunting the immunity needed to clear the virus from the central nervous system.
 - `connects-to` → **[CXCL12](../../03-molecular/cxcl12/README.md)** — CXCL12 at the blood-brain barrier retains CXCR4+ leukocytes in the perivascular space, and CXCR4 antagonism improves West Nile outcomes in models by releasing protective T cells into the infected brain parenchyma.
+- `connects-to` → **[MyD88](../../03-molecular/myd88/README.md)** — MyD88-dependent Toll-like-receptor signaling is essential for controlling West Nile virus, organizing leukocyte positioning in the brain, and MyD88-deficient hosts suffer markedly higher viral burden and neuroinvasion.
+- `connects-to` → **[FcRn](../../03-molecular/fcrn/README.md)** — Neutralizing IgG against the viral envelope is the key correlate of protection from West Nile encephalitis, and FcRn recycling sustains the circulating antibody and the half-life of therapeutic monoclonals and immune globulin under study.
+- `connects-to` → **[MHC class II](../../03-molecular/mhc-class-ii/README.md)** — Presentation of West Nile antigens on MHC class II primes the CD4 T-cell help needed for durable antibody responses and for supporting the CD8 T cells that clear virus from infected neurons.
