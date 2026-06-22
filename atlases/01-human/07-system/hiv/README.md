@@ -310,6 +310,15 @@ cross_links:
   - target: 01-human/03-molecular/ifn-gamma
     relation: connects-to
     note: "Cytotoxic control: IFN-γ from HIV-specific CD8 and Th1 cells is central to the partial immune control of viraemia, the response whose breadth correlates with the slower progression seen in elite controllers."
+  - target: 01-human/03-molecular/bcl-2
+    relation: connects-to
+    note: "Latent reservoir survival: latently HIV-infected memory CD4 T cells persist because they upregulate anti-apoptotic BCL-2, the survival signal that keeps the reservoir alive despite antiretroviral therapy and a target of 'shock-and-kill' cure strategies."
+  - target: 01-human/03-molecular/il-10
+    relation: connects-to
+    note: "Immune exhaustion: chronic HIV drives IL-10 and an exhausted, PD-1-high T-cell state that blunts antiviral immunity, an immunosuppressive brake that helps the virus persist and a target for immune-restoring approaches."
+  - target: 01-human/03-molecular/baff
+    relation: connects-to
+    note: "B-cell dysregulation: HIV raises BAFF and chronically hyperactivates B cells, producing the hypergammaglobulinaemia and impaired vaccine responses of infection and the heightened risk of B-cell lymphoma."
 ---
 
 # HIV
@@ -542,6 +551,9 @@ The **latent reservoir** — HIV integrated into quiescent resting memory CD4+ T
 - `connects-to` → **[NLRP3 Inflammasome](../../03-molecular/nlrp3-inflammasome/README.md)** — Abortive HIV infection of resting CD4 T cells triggers the inflammasome and caspase-1-driven pyroptosis—the dominant mechanism of CD4 depletion and the inflammatory engine that converts infection into progression toward AIDS.
 - `connects-to` → **[PD-1](../../03-molecular/pd-1/README.md)** — Chronic antigen exposure drives high PD-1 on HIV-specific T cells, the exhaustion that cripples viral control and marks the latently infected memory cells sustaining the reservoir that prevents cure.
 - `connects-to` → **[IFN-γ](../../03-molecular/ifn-gamma/README.md)** — IFN-γ from HIV-specific CD8 and Th1 cells is central to the partial immune control of viremia, the response whose breadth and quality correlate with the slower progression seen in elite controllers.
+- `connects-to` → **[BCL-2](../../03-molecular/bcl-2/README.md)** — Latently HIV-infected memory CD4 T cells persist because they upregulate anti-apoptotic BCL-2, the survival signal that keeps the reservoir alive despite antiretroviral therapy and a target of "shock-and-kill" cure strategies.
+- `connects-to` → **[IL-10](../../03-molecular/il-10/README.md)** — Chronic HIV drives IL-10 and an exhausted, PD-1-high T-cell state that blunts antiviral immunity, an immunosuppressive brake that helps the virus persist and a target for immune-restoring approaches.
+- `connects-to` → **[BAFF](../../03-molecular/baff/README.md)** — HIV raises BAFF and chronically hyperactivates B cells, producing the hypergammaglobulinemia and impaired vaccine responses of infection and the heightened risk of B-cell lymphoma.
 
 [^barre-sinoussi-1983-hiv-isolation]: Barré-Sinoussi F, Chermann JC, Rey F, et al. Isolation of a T-lymphotropic retrovirus from a patient at risk for acquired immune deficiency syndrome (AIDS). *Science.* 1983;220(4599):868-871. [doi:10.1126/science.6189183](https://doi.org/10.1126/science.6189183) · [PubMed 6189183](https://pubmed.ncbi.nlm.nih.gov/6189183/)
 [^ho-1995-viral-dynamics]: Ho DD, Neumann AU, Perelson AS, et al. Rapid turnover of plasma virions and CD4 lymphocytes in HIV-1 infection. *Nature.* 1995;373(6510):123-126. [doi:10.1038/373123a0](https://doi.org/10.1038/373123a0) · [PubMed 7816094](https://pubmed.ncbi.nlm.nih.gov/7816094/)

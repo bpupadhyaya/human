@@ -301,6 +301,15 @@ cross_links:
   - target: 01-human/03-molecular/mhc-class-ii
     relation: connects-to
     note: "Helper-cell collapse: the destruction of CD4 T cells in AIDS dismantles MHC-class-II-restricted T-helper responses, removing the help that B cells and CD8 cells need and explaining the broad immunodeficiency."
+  - target: 01-human/03-molecular/caspase-3
+    relation: connects-to
+    note: "CD4 cell death: HIV destroys CD4 T cells both by caspase-3 apoptosis of infected cells and by abortive-infection-triggered inflammatory death of bystander cells, the depletion that drives the progression to AIDS-defining immunodeficiency."
+  - target: 01-human/03-molecular/il-2
+    relation: connects-to
+    note: "Homeostasis collapse: loss of CD4 T cells in AIDS removes a major source of IL-2 needed to sustain T-cell proliferation and survival, deepening the lymphopenia in a self-reinforcing failure of the adaptive immune compartment."
+  - target: 01-human/03-molecular/il-10
+    relation: connects-to
+    note: "Immunosuppressive milieu: the IL-10-skewed, exhausted immune state of advanced AIDS suppresses the residual cellular immunity, helping explain the susceptibility to the opportunistic infections that define the syndrome."
 ---
 
 # HIV/AIDS
@@ -510,6 +519,9 @@ HIV-1 pathogenesis is primarily driven by CD4⁺ T cell loss:
 - `connects-to` → **[CXCL12](../../03-molecular/cxcl12/README.md)** — Emergence of CXCR4-using (X4) HIV, whose ligand is CXCL12, marks advanced infection and accelerates the CD4 collapse that ushers in the AIDS-defining stage with its opportunistic infections.
 - `connects-to` → **[PD-1](../../03-molecular/pd-1/README.md)** — Profound PD-1-marked T-cell exhaustion in AIDS leaves the few remaining T cells unable to control HIV or opportunistic pathogens, the functional endpoint of the immune collapse that defines the syndrome.
 - `connects-to` → **[MHC class II](../../03-molecular/mhc-class-ii/README.md)** — The destruction of CD4 T cells in AIDS dismantles MHC-class-II-restricted T-helper responses, removing the help that B cells and CD8 cells require—the immunological core of the broad immunodeficiency.
+- `connects-to` → **[Caspase-3](../../03-molecular/caspase-3/README.md)** — HIV destroys CD4 T cells both by caspase-3 apoptosis of infected cells and by abortive-infection-triggered inflammatory death of bystander cells, the depletion that drives the progression to AIDS-defining immunodeficiency.
+- `connects-to` → **[IL-2](../../03-molecular/il-2/README.md)** — Loss of CD4 T cells in AIDS removes a major source of IL-2 needed to sustain T-cell proliferation and survival, deepening the lymphopenia in a self-reinforcing failure of the adaptive immune compartment.
+- `connects-to` → **[IL-10](../../03-molecular/il-10/README.md)** — The IL-10-skewed, exhausted immune state of advanced AIDS suppresses the residual cellular immunity, helping explain the susceptibility to the opportunistic infections that define the syndrome.
 
 ## See Also
 
