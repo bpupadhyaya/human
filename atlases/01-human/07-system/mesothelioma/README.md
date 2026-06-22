@@ -295,6 +295,15 @@ cross_links:
   - target: 01-human/03-molecular/ccl2
     relation: connects-to
     note: "Macrophage recruitment: CCL2 draws the abundant tumour-associated macrophages of mesothelioma into the pleural tumour, building an immunosuppressive microenvironment."
+  - target: 01-human/03-molecular/rage
+    relation: connects-to
+    note: "HMGB1-RAGE carcinogenesis: asbestos fibres cause mesothelial-cell necrosis that releases HMGB1, which signals through RAGE to sustain the chronic inflammation central to asbestos-induced mesothelial carcinogenesis."
+  - target: 01-human/03-molecular/cxcl12
+    relation: connects-to
+    note: "Pleural spread: CXCR4-CXCL12 signalling drives the diffuse pleural and peritoneal spread of mesothelioma, the rind-like encasement of the lung that defines the disease and resists surgical control."
+  - target: 01-human/03-molecular/caspase-3
+    relation: connects-to
+    note: "Apoptosis evasion: mesothelioma resists caspase-3-mediated apoptosis through high anti-apoptotic protein expression, a key reason for its notorious chemoresistance and the modest benefit of cytotoxic therapy."
 ---
 
 # Mesothelioma
@@ -506,6 +515,9 @@ Cytoreductive surgery (CRS) + hyperthermic intraperitoneal chemotherapy (HIPEC):
 - `connects-to` → **[IL-1β](../../03-molecular/il-1b/README.md)** — Asbestos inflammasome carcinogenesis: asbestos fibres activate the NLRP3 inflammasome in mesothelial cells and macrophages to release IL-1β, the chronic inflammation that drives mesothelioma over decades.
 - `connects-to` → **[TGF-beta](../../03-molecular/tgf-beta/README.md)** — Immunosuppressive desmoplasia: TGF-beta drives the desmoplastic stroma and suppresses anti-tumour immunity in mesothelioma, contributing to its poor response to therapy.
 - `connects-to` → **[CCL2](../../03-molecular/ccl2/README.md)** — Macrophage recruitment: CCL2 draws the abundant tumour-associated macrophages of mesothelioma into the pleural tumour, building an immunosuppressive microenvironment.
+- `connects-to` → **[RAGE](../../03-molecular/rage/README.md)** — Asbestos fibers cause mesothelial-cell necrosis that releases HMGB1, which signals through RAGE to sustain the chronic inflammation central to asbestos-induced mesothelial carcinogenesis over the decades-long latency.
+- `connects-to` → **[CXCL12](../../03-molecular/cxcl12/README.md)** — CXCR4-CXCL12 signaling drives the diffuse pleural and peritoneal spread of mesothelioma, the rind-like encasement of the lung that defines the disease and makes complete surgical resection nearly impossible.
+- `connects-to` → **[Caspase-3](../../03-molecular/caspase-3/README.md)** — Mesothelioma resists caspase-3-mediated apoptosis through high anti-apoptotic protein expression, a key reason for its notorious chemoresistance and the only modest survival benefit of cytotoxic therapy.
 
 [^baas-2021-checkmate743]: Baas P, Scherpereel A, Nowak AK, et al. First-line nivolumab plus ipilimumab in unresectable malignant pleural mesothelioma (CheckMate 743). *Lancet.* 2021;397(10272):375-386. [doi:10.1016/S0140-6736(20)32714-8](https://doi.org/10.1016/S0140-6736(20)32714-8) · [PubMed 33485464](https://pubmed.ncbi.nlm.nih.gov/33485464/)
 [^vogelzang-2003-pemetrexed]: Vogelzang NJ, Rusthoven JJ, Symanowski J, et al. Phase III study of pemetrexed in combination with cisplatin versus cisplatin alone in patients with malignant pleural mesothelioma. *J Clin Oncol.* 2003;21(14):2636-2644. [doi:10.1200/JCO.2003.11.136](https://doi.org/10.1200/JCO.2003.11.136) · [PubMed 12860938](https://pubmed.ncbi.nlm.nih.gov/12860938/)

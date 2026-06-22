@@ -295,6 +295,15 @@ cross_links:
   - target: 01-human/03-molecular/ccl2
     relation: connects-to
     note: "Macrophage microenvironment: CCL2 recruits tumour-associated macrophages into meningiomas, which make up a substantial fraction of the tumour mass and shape its growth."
+  - target: 01-human/03-molecular/cxcl12
+    relation: connects-to
+    note: "Invasion and recurrence: CXCR4-CXCL12 signalling promotes the brain and bone invasion of higher-grade meningiomas, the infiltrative growth that drives the recurrences which dominate meningioma morbidity."
+  - target: 01-human/03-molecular/rankl
+    relation: connects-to
+    note: "Hyperostosis: meningiomas invading the adjacent skull stimulate RANKL-driven bone remodelling, producing the reactive bony thickening (hyperostosis) that is a characteristic radiological sign of the tumour."
+  - target: 01-human/03-molecular/caspase-3
+    relation: connects-to
+    note: "Radiation response: stereotactic radiosurgery and radiotherapy for residual or high-grade meningiomas kill tumour cells through caspase-3-mediated apoptosis, whose evasion contributes to the recurrence of aggressive tumours."
 ---
 
 # Meningioma
@@ -504,6 +513,9 @@ VEGF overexpression in meningioma (YAP target); Phase 2 COMBIT (Huang 2019, N=40
 - `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — MAPK-pathway meningiomas: RAF-MEK-ERK signalling downstream of TRAF7/KLF4 and AKT1 mutations drives the proliferation of a major non-NF2 molecular subgroup of meningiomas.
 - `connects-to` → **[IGF-1](../../03-molecular/igf-1/README.md)** — Growth-factor signalling: IGF-1/IGF-1R signalling supports meningioma proliferation and survival, contributing to the growth of these slow but recurrence-prone dural tumours.
 - `connects-to` → **[CCL2](../../03-molecular/ccl2/README.md)** — Macrophage microenvironment: CCL2 recruits tumour-associated macrophages into meningiomas, which make up a substantial fraction of the tumour mass and shape its growth.
+- `connects-to` → **[CXCL12](../../03-molecular/cxcl12/README.md)** — CXCR4-CXCL12 signaling promotes the brain and bone invasion of higher-grade meningiomas, the infiltrative growth that drives the recurrences dominating the morbidity of these otherwise often-benign dural tumors.
+- `connects-to` → **[RANKL](../../03-molecular/rankl/README.md)** — Meningiomas invading the adjacent skull stimulate RANKL-driven bone remodeling, producing the reactive bony thickening (hyperostosis) that is a characteristic radiological sign and a route of local spread.
+- `connects-to` → **[Caspase-3](../../03-molecular/caspase-3/README.md)** — Stereotactic radiosurgery and radiotherapy for residual or high-grade meningiomas kill tumor cells through caspase-3-mediated apoptosis, whose evasion contributes to the recurrence of the aggressive grade 2 and 3 tumors.
 
 [^brastianos-2013-akt1-meningioma]: Brastianos PK, Horowitz PM, Santagata S, et al. Genomic sequencing of meningiomas identifies oncogenic SMO and AKT1 mutations. *Nat Genet.* 2013;45(3):285-289. [doi:10.1038/ng.2526](https://doi.org/10.1038/ng.2526) · [PubMed 23334667](https://pubmed.ncbi.nlm.nih.gov/23334667/)
 [^nassiri-2021-meningioma-classification]: Nassiri F, Liu J, Patil V, et al. A clinically applicable integrative molecular classification of meningiomas. *Nature.* 2021;597(7874):119-125. [doi:10.1038/s41586-021-03850-3](https://doi.org/10.1038/s41586-021-03850-3) · [PubMed 34385709](https://pubmed.ncbi.nlm.nih.gov/34385709/)
