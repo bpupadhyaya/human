@@ -304,6 +304,15 @@ cross_links:
   - target: 01-human/03-molecular/mdm2
     relation: connects-to
     note: "p53 restraint: MDM2 keeps wild-type p53 in check in TP53-intact DLBCL, making MDM2 inhibitors a strategy to restore p53-driven apoptosis in this subset of the lymphoma."
+  - target: 01-human/03-molecular/perforin
+    relation: connects-to
+    note: "Cellular immunotherapy: CD19 CAR-T cells and CD20-CD3 bispecific antibodies redirect cytotoxic T cells to kill DLBCL through perforin and granzyme, transforming the outlook for relapsed and refractory disease."
+  - target: 01-human/03-molecular/complement-c3
+    relation: connects-to
+    note: "Complement-dependent killing: the anti-CD20 antibody rituximab — the R of R-CHOP — kills DLBCL cells partly through complement-dependent cytotoxicity, fixing C3 and the membrane-attack complex alongside antibody-dependent cellular cytotoxicity."
+  - target: 01-human/03-molecular/caspase-3
+    relation: connects-to
+    note: "Chemotherapy apoptosis: R-CHOP chemoimmunotherapy kills DLBCL cells through caspase-3-mediated apoptosis, and the BCL-2-driven apoptotic resistance of double-hit lymphoma underlies its poor response to standard treatment."
 ---
 
 # Diffuse Large B-Cell Lymphoma
@@ -521,6 +530,9 @@ DLBCL is an aggressive malignancy of mature B cells. The normal equivalents are 
 - `connects-to` → **[JAK1/2](../../03-molecular/jak1-2/README.md)** — Autocrine IL-6 and IL-10 signal through JAK-STAT to sustain the ABC subtype of DLBCL, a cytokine survival loop layered on the chronic-active B-cell-receptor and MYD88-driven NF-κB activation of that subtype.
 - `connects-to` → **[CXCL12](../../03-molecular/cxcl12/README.md)** — CXCR4 on DLBCL cells follows CXCL12 gradients to the bone marrow and central nervous system, the spread that underlies marrow involvement and the feared CNS relapse that prophylaxis aims to prevent.
 - `connects-to` → **[MDM2](../../03-molecular/mdm2/README.md)** — MDM2 keeps wild-type p53 in check in TP53-intact DLBCL, making MDM2 inhibitors that reactivate p53 a strategy to restore apoptosis in the subset of cases without TP53 mutation.
+- `connects-to` → **[Perforin](../../03-molecular/perforin/README.md)** — CD19 CAR-T cells and CD20-CD3 bispecific antibodies redirect cytotoxic T cells to kill DLBCL through perforin and granzyme, transforming the outlook for relapsed and refractory disease.
+- `connects-to` → **[Complement C3](../../03-molecular/complement-c3/README.md)** — The anti-CD20 antibody rituximab—the R of R-CHOP—kills DLBCL cells partly through complement-dependent cytotoxicity, fixing C3 and the membrane-attack complex alongside antibody-dependent cellular cytotoxicity.
+- `connects-to` → **[Caspase-3](../../03-molecular/caspase-3/README.md)** — R-CHOP chemoimmunotherapy kills DLBCL cells through caspase-3-mediated apoptosis, and the BCL-2-driven apoptotic resistance of double-hit lymphoma underlies its poor response to standard treatment.
 
 ---
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*

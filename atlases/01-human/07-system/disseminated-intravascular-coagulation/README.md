@@ -310,6 +310,15 @@ cross_links:
   - target: 01-human/03-molecular/cgas-sting
     relation: connects-to
     note: "Mitochondrial-DNA trigger: mitochondrial DNA released in sepsis and trauma activates cGAS-STING, contributing the innate-immune signalling that feeds the immunothrombosis underlying DIC."
+  - target: 01-human/03-molecular/adamts13
+    relation: connects-to
+    note: "VWF-cleaving deficiency: the inflammatory consumption of ADAMTS13 in sepsis leaves uncleaved ultra-large von Willebrand factor multimers that capture platelets, adding a microvascular thrombotic mechanism to the tissue-factor-driven coagulopathy of DIC."
+  - target: 01-human/03-molecular/caspase-3
+    relation: connects-to
+    note: "Endothelial apoptosis: inflammatory injury drives caspase-3-mediated apoptosis of endothelial cells, exposing the procoagulant tissue factor and basement membrane that ignite and sustain the disseminated clotting of DIC."
+  - target: 01-human/03-molecular/xanthine-oxidase
+    relation: connects-to
+    note: "Oxidative endothelial injury: xanthine-oxidase-derived reactive oxygen species damage the endothelium in the systemic inflammation that triggers DIC, shifting the vessel wall to a procoagulant state that feeds the microvascular thrombosis."
 ---
 
 # Disseminated Intravascular Coagulation
@@ -538,6 +547,9 @@ DIC is always **secondary** — it does not occur in isolation but as a conseque
 - `connects-to` → **[CCL2](../../03-molecular/ccl2/README.md)** — CCL2 recruits and activates the monocytes whose tissue-factor expression is the principal initiator of the systemic coagulation activation that drives sepsis-induced DIC—linking the chemokine response to the coagulopathy.
 - `connects-to` → **[RAGE](../../03-molecular/rage/README.md)** — HMGB1 signaling through RAGE sustains the thromboinflammation of DIC, a late DAMP mediator that perpetuates the coagulation activation beyond the initial sepsis, trauma, or obstetric trigger.
 - `connects-to` → **[cGAS-STING](../../03-molecular/cgas-sting/README.md)** — Mitochondrial DNA released in sepsis and trauma activates cGAS-STING, contributing the innate-immune signaling that feeds the immunothrombosis underlying the microvascular clotting of DIC.
+- `connects-to` → **[ADAMTS13](../../03-molecular/adamts13/README.md)** — The inflammatory consumption of ADAMTS13 in sepsis leaves uncleaved ultra-large von Willebrand factor multimers that capture platelets, adding a microvascular thrombotic mechanism to the tissue-factor-driven coagulopathy of DIC.
+- `connects-to` → **[Caspase-3](../../03-molecular/caspase-3/README.md)** — Inflammatory injury drives caspase-3-mediated apoptosis of endothelial cells, exposing the procoagulant tissue factor and basement membrane that ignite and sustain the disseminated clotting of DIC.
+- `connects-to` → **[Xanthine Oxidase](../../03-molecular/xanthine-oxidase/README.md)** — Xanthine-oxidase-derived reactive oxygen species damage the endothelium in the systemic inflammation that triggers DIC, shifting the vessel wall to a procoagulant state that feeds the microvascular thrombosis.
 
 ---
 
