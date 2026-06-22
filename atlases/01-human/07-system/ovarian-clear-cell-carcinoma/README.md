@@ -295,6 +295,15 @@ cross_links:
   - target: 01-human/03-molecular/cgas-sting
     relation: connects-to
     note: "ARID1A and immunity: ARID1A loss in OCCC impairs mismatch repair and DNA-damage handling, raising mutational burden and cytosolic DNA that engage cGAS-STING — a rationale for checkpoint blockade in this typically immunotherapy-responsive subtype."
+  - target: 01-human/03-molecular/caspase-3
+    relation: connects-to
+    note: "Intrinsic chemoresistance: OCCC resists the platinum chemotherapy that controls high-grade serous disease, evading caspase-3-mediated apoptosis — the biological basis for its notoriously poor response and the search for non-cytotoxic strategies."
+  - target: 01-human/03-molecular/pth
+    relation: connects-to
+    note: "Paraneoplastic hypercalcaemia: OCCC is the gynaecological cancer most associated with humoral hypercalcaemia of malignancy, secreting PTHrP that mimics parathyroid hormone to drive the elevated calcium seen at presentation."
+  - target: 01-human/03-molecular/thrombin
+    relation: connects-to
+    note: "Venous thromboembolism: OCCC carries the highest rate of venous thromboembolism among ovarian histotypes, its tissue-factor-rich tumour cells triggering thrombin generation and the deep-vein thromboses and pulmonary emboli that complicate the disease."
 ---
 
 # Ovarian Clear Cell Carcinoma
@@ -529,6 +538,9 @@ Comprehensive surgical staging (TAH-BSO, omentectomy, pelvic/para-aortic lymphad
 - `connects-to` → **[CCL2](../../03-molecular/ccl2/README.md)** — OCCC arises in an endometriotic, inflamed niche where CCL2 recruits monocytes that become the M2 tumor-associated macrophages sustaining this chemoresistant tumor—an immune-microenvironment driver beyond its ARID1A/PIK3CA genetics.
 - `connects-to` → **[IL-1β](../../03-molecular/il-1b/README.md)** — Chronic IL-1β signaling in endometriotic cysts drives the inflammatory microenvironment from which ovarian clear-cell carcinoma emerges, linking benign endometriosis to the malignant transformation that seeds this cancer.
 - `connects-to` → **[cGAS-STING](../../03-molecular/cgas-sting/README.md)** — ARID1A loss in OCCC impairs mismatch repair and DNA-damage handling, raising mutational burden and cytosolic DNA that engage cGAS-STING—a rationale for the checkpoint blockade to which this subtype is relatively responsive.
+- `connects-to` → **[Caspase-3](../../03-molecular/caspase-3/README.md)** — OCCC resists the platinum chemotherapy that controls high-grade serous disease, evading caspase-3-mediated apoptosis—the biological basis for its notoriously poor response and the search for non-cytotoxic strategies.
+- `connects-to` → **[PTH](../../03-molecular/pth/README.md)** — OCCC is the gynecological cancer most associated with humoral hypercalcemia of malignancy, secreting PTHrP that mimics parathyroid hormone to drive the elevated calcium seen at presentation.
+- `connects-to` → **[Thrombin](../../03-molecular/thrombin/README.md)** — OCCC carries the highest rate of venous thromboembolism among ovarian histotypes, its tissue-factor-rich tumor cells triggering thrombin generation and the deep-vein thromboses and pulmonary emboli that complicate the disease.
 
 ---
 

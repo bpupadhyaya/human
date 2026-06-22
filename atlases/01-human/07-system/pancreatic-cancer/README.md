@@ -301,6 +301,15 @@ cross_links:
   - target: 01-human/03-molecular/smo
     relation: connects-to
     note: "Hedgehog desmoplasia: tumour SHH signals through stromal SMO to drive the dense fibrotic stroma that walls off PDAC, raising interstitial pressure and impeding chemotherapy delivery."
+  - target: 01-human/03-molecular/atm
+    relation: connects-to
+    note: "DNA-repair predisposition: germline ATM mutations are among the commonest familial pancreatic-cancer alleles, and ATM-deficient tumours, like BRCA-mutant ones, accumulate the homologous-recombination defects that sensitise PDAC to platinum and PARP inhibitors."
+  - target: 01-human/03-molecular/prss1
+    relation: connects-to
+    note: "Hereditary pancreatitis: gain-of-function PRSS1 mutations cause recurrent trypsin-driven pancreatitis from childhood, and the lifelong inflammation of hereditary pancreatitis carries one of the highest known risks of progression to pancreatic adenocarcinoma."
+  - target: 01-human/03-molecular/caspase-3
+    relation: connects-to
+    note: "Apoptosis evasion: gemcitabine and FOLFIRINOX kill PDAC cells through caspase-3-mediated apoptosis, but the apoptotic resistance conferred by KRAS-driven survival signalling underlies the chemoresistance that makes this one of the deadliest cancers."
 ---
 
 # Pancreatic Cancer
@@ -515,6 +524,9 @@ cross_links:
 - `connects-to` → **[CCL2](../../03-molecular/ccl2/README.md)** — Pancreatic cancer secretes CCL2 to recruit CCR2+ monocytes that become tumor-associated macrophages, a dominant arm of the immunosuppressive desmoplastic stroma that keeps PDAC resistant to checkpoint therapy despite high stromal content.
 - `connects-to` → **[IL-6](../../03-molecular/il-6/README.md)** — Tumor- and stroma-derived IL-6 drives the JAK-STAT3 signaling behind PDAC's profound cachexia, and chronic IL-6 inflammation links long-standing pancreatitis to the carcinogenesis that initiates the disease.
 - `connects-to` → **[SMO](../../03-molecular/smo/README.md)** — Tumor Sonic hedgehog signals through stromal SMO to drive the dense fibrotic stroma that walls off PDAC, raising interstitial pressure and impeding the chemotherapy delivery that makes this cancer so treatment-refractory.
+- `connects-to` → **[ATM](../../03-molecular/atm/README.md)** — Germline ATM mutations are among the commonest familial pancreatic-cancer alleles, and ATM-deficient tumors, like BRCA-mutant ones, accumulate the homologous-recombination defects that sensitize PDAC to platinum and PARP inhibitors.
+- `connects-to` → **[PRSS1](../../03-molecular/prss1/README.md)** — Gain-of-function PRSS1 mutations cause recurrent trypsin-driven pancreatitis from childhood, and the lifelong inflammation of hereditary pancreatitis carries one of the highest known risks of progression to pancreatic adenocarcinoma.
+- `connects-to` → **[Caspase-3](../../03-molecular/caspase-3/README.md)** — Gemcitabine and FOLFIRINOX kill PDAC cells through caspase-3-mediated apoptosis, but the apoptotic resistance conferred by KRAS-driven survival signaling underlies the chemoresistance that makes this one of the deadliest cancers.
 
 ---
 
