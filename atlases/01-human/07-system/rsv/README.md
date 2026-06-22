@@ -300,6 +300,15 @@ cross_links:
   - target: 01-human/03-molecular/perforin
     relation: connects-to
     note: "Cytotoxic clearance: perforin-mediated CD8 T-cell killing of infected airway epithelium clears RSV but also contributes to the lung injury, the double-edged cytotoxic response central to recovery and to immunopathology."
+  - target: 01-human/03-molecular/fcrn
+    relation: connects-to
+    note: "Monoclonal prophylaxis: the anti-F-protein antibody nirsevimab carries an FcRn-binding (YTE) modification that extends its half-life to protect infants across a whole RSV season with one dose, the passive-immunisation strategy that has transformed prevention."
+  - target: 01-human/03-molecular/secretory-iga
+    relation: connects-to
+    note: "Mucosal defence: secretory IgA on the airway surface neutralises RSV at the portal of entry, the first-line mucosal antibody whose relative immaturity in infancy is one reason the very young suffer the most severe bronchiolitis."
+  - target: 01-human/03-molecular/substance-p
+    relation: connects-to
+    note: "Neurogenic inflammation: RSV upregulates substance P and its NK1 receptor in the airways, driving neurogenic inflammation, mucus secretion and the airway hyper-reactivity that contributes to the wheeze of bronchiolitis and post-RSV wheezing."
 ---
 
 # RSV
@@ -538,3 +547,6 @@ Radiological findings: Hyperinflation, peribronchial thickening, occasional atel
 - `connects-to` → **[TLR4](../../03-molecular/tlr4/README.md)** — The RSV fusion (F) protein engages TLR4 on airway and immune cells, triggering the NF-κB-driven cytokine response that contributes to the innate inflammation of infection—linking the vaccine-target protein to disease pathogenesis.
 - `connects-to` → **[IFN-γ](../../03-molecular/ifn-gamma/README.md)** — IFN-γ from Th1 cells counterbalances the Th2 skew that predisposes infants to severe RSV bronchiolitis, and a weak Th1 response is associated with worse acute disease and the later development of recurrent wheezing.
 - `connects-to` → **[Perforin](../../03-molecular/perforin/README.md)** — Perforin-mediated CD8 T-cell killing of infected airway epithelium clears RSV but also contributes to the lung injury—the double-edged cytotoxic response central to both viral recovery and the immunopathology of severe bronchiolitis.
+- `connects-to` → **[FcRn](../../03-molecular/fcrn/README.md)** — The anti-F-protein antibody nirsevimab carries an FcRn-binding (YTE) modification that extends its half-life to protect infants across a whole RSV season with one dose, the passive-immunization strategy that has transformed prevention.
+- `connects-to` → **[Secretory IgA](../../03-molecular/secretory-iga/README.md)** — Secretory IgA on the airway surface neutralizes RSV at the portal of entry, the first-line mucosal antibody whose relative immaturity in infancy is one reason the very young suffer the most severe bronchiolitis.
+- `connects-to` → **[Substance P](../../03-molecular/substance-p/README.md)** — RSV upregulates substance P and its NK1 receptor in the airways, driving neurogenic inflammation, mucus secretion and the airway hyper-reactivity that contributes to the wheeze of bronchiolitis and post-RSV wheezing.

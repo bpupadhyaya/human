@@ -304,6 +304,15 @@ cross_links:
   - target: 01-human/03-molecular/rig-i
     relation: connects-to
     note: "Self-RNA sensing: RIG-I and related cytosolic RNA sensors detect endogenous nucleic acids in lupus, feeding the type-I-interferon loop alongside cGAS-STING that defines the disease's interferon signature."
+  - target: 01-human/03-molecular/il-2
+    relation: connects-to
+    note: "Regulatory-T deficit: lupus features an IL-2 deficiency and failure of regulatory T cells, and low-dose IL-2 that preferentially expands Tregs is a tolerance-restoring therapy under investigation to rebalance the autoreactive immune response."
+  - target: 01-human/03-molecular/glucocorticoid-receptor
+    relation: connects-to
+    note: "Corticosteroid mainstay: glucocorticoids acting through the glucocorticoid receptor remain central to controlling lupus flares, broadly suppressing the cytokine and immune-complex inflammation, though their long-term toxicity drives the search for steroid-sparing agents."
+  - target: 01-human/03-molecular/dnmt3a
+    relation: connects-to
+    note: "Epigenetic dysregulation: lupus CD4 T cells show DNA hypomethylation that overexpresses autoimmune genes, and DNMT-inhibiting drugs like hydralazine and procainamide can trigger drug-induced lupus, implicating DNA methylation in the disease."
 ---
 
 # Systemic Lupus Erythematosus
@@ -523,6 +532,9 @@ Highly polygenic disease with >100 susceptibility loci; heritability ~66%:
 - `connects-to` → **[CD20](../../03-molecular/cd20/README.md)** — Anti-CD20 antibodies (rituximab, obinutuzumab) deplete the autoreactive B cells producing lupus autoantibodies, a strategy pursued especially in refractory lupus nephritis where standard immunosuppression fails.
 - `connects-to` → **[CCL2](../../03-molecular/ccl2/README.md)** — CCL2 recruits monocytes into the inflamed kidney in lupus nephritis, and urinary CCL2 (MCP-1) serves as a non-invasive biomarker of renal disease activity and impending flare in lupus patients.
 - `connects-to` → **[RIG-I](../../03-molecular/rig-i/README.md)** — RIG-I and related cytosolic RNA sensors detect endogenous nucleic acids in lupus, feeding the type-I-interferon loop alongside cGAS-STING that produces the interferon signature central to the disease's pathogenesis.
+- `connects-to` → **[IL-2](../../03-molecular/il-2/README.md)** — Lupus features an IL-2 deficiency and failure of regulatory T cells, and low-dose IL-2 that preferentially expands Tregs is a tolerance-restoring therapy under investigation to rebalance the autoreactive immune response.
+- `connects-to` → **[Glucocorticoid receptor](../../03-molecular/glucocorticoid-receptor/README.md)** — Glucocorticoids acting through the glucocorticoid receptor remain central to controlling lupus flares, broadly suppressing the cytokine and immune-complex inflammation, though their long-term toxicity drives the search for steroid-sparing agents.
+- `connects-to` → **[DNMT3A](../../03-molecular/dnmt3a/README.md)** — Lupus CD4 T cells show DNA hypomethylation that overexpresses autoimmune genes, and DNMT-inhibiting drugs like hydralazine and procainamide can trigger drug-induced lupus, implicating DNA methylation in the disease.
 
 [^tsokos-2011-sle-review]: Tsokos GC. Systemic lupus erythematosus. *N Engl J Med.* 2011;365(22):2110-2121. [doi:10.1056/NEJMra1100359](https://doi.org/10.1056/NEJMra1100359) · [PubMed 22129253](https://pubmed.ncbi.nlm.nih.gov/22129253/)
 [^furie-2011-belimumab]: Furie R, Petri M, Zamani O, et al. A phase III, randomized, placebo-controlled study of belimumab, a monoclonal antibody that inhibits B lymphocyte stimulator, in patients with systemic lupus erythematosus. *Arthritis Rheum.* 2011;63(12):3918-3930. [doi:10.1002/art.30613](https://doi.org/10.1002/art.30613) · [PubMed 22127708](https://pubmed.ncbi.nlm.nih.gov/22127708/)
