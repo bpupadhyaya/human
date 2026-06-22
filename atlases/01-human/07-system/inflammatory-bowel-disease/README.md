@@ -310,6 +310,15 @@ cross_links:
   - target: 01-human/03-molecular/cgas-sting
     relation: connects-to
     note: "Innate DNA sensing: cytosolic and microbial DNA activating cGAS-STING in gut epithelium and myeloid cells amplifies intestinal inflammation, and STING gain-of-function causes an autoinflammatory enteropathy overlapping IBD."
+  - target: 01-human/03-molecular/glucocorticoid-receptor
+    relation: connects-to
+    note: "Flare therapy: corticosteroids acting through the glucocorticoid receptor — systemic prednisone or gut-targeted budesonide — induce remission of IBD flares, though their toxicity and the failure to heal mucosa long-term make them bridging rather than maintenance therapy."
+  - target: 01-human/03-molecular/collagen
+    relation: connects-to
+    note: "Fibrostenotic strictures: chronic transmural inflammation in Crohn's disease drives myofibroblast collagen deposition that forms the fibrotic strictures causing bowel obstruction, a fibrotic complication that immunosuppression does not reverse and that often needs surgery."
+  - target: 01-human/03-molecular/il-33
+    relation: connects-to
+    note: "Epithelial alarmin: IL-33 released from damaged intestinal epithelium acts as an alarmin on innate lymphoid cells and mast cells, an upstream amplifier of the mucosal inflammation that has both pro-inflammatory and reparative roles in IBD."
 ---
 
 # Inflammatory Bowel Disease
@@ -535,6 +544,9 @@ IBD is a complex polygenic disease with >240 susceptibility loci (GWAS):
 - `connects-to` → **[TLR4](../../03-molecular/tlr4/README.md)** — TLR4 and related innate receptors sensing a dysbiotic microbiota across a breached epithelial barrier drive the loss of immune tolerance central to the gene-environment-microbiome model of inflammatory bowel disease.
 - `connects-to` → **[IL-13](../../03-molecular/il-13/README.md)** — IL-13 from natural killer T and innate lymphoid cells damages the epithelial barrier and impairs tight junctions in ulcerative colitis, the type-2-skewed cytokine arm that distinguishes UC from the Th1/Th17-driven Crohn's disease.
 - `connects-to` → **[cGAS-STING](../../03-molecular/cgas-sting/README.md)** — Cytosolic and microbial DNA activating cGAS-STING in gut epithelium and myeloid cells amplifies intestinal inflammation, and STING gain-of-function causes an autoinflammatory enteropathy that overlaps with IBD.
+- `connects-to` → **[Glucocorticoid receptor](../../03-molecular/glucocorticoid-receptor/README.md)** — Corticosteroids acting through the glucocorticoid receptor—systemic prednisone or gut-targeted budesonide—induce remission of IBD flares, though their toxicity and failure to heal mucosa long-term make them bridging rather than maintenance therapy.
+- `connects-to` → **[Collagen](../../03-molecular/collagen/README.md)** — Chronic transmural inflammation in Crohn's disease drives myofibroblast collagen deposition that forms the fibrotic strictures causing bowel obstruction, a complication that immunosuppression does not reverse and that often needs surgery.
+- `connects-to` → **[IL-33](../../03-molecular/il-33/README.md)** — IL-33 released from damaged intestinal epithelium acts as an alarmin on innate lymphoid cells and mast cells, an upstream amplifier of the mucosal inflammation that has both pro-inflammatory and reparative roles in IBD.
 
 [^ng-2017-ibd-epidemiology]: Ng SC, Shi HY, Hamidi N, et al. Worldwide incidence and prevalence of inflammatory bowel disease in the 21st century: a systematic review of population-based studies. *Lancet.* 2018;390(10114):2769-2778. [doi:10.1016/S0140-6736(17)32448-0](https://doi.org/10.1016/S0140-6736(17)32448-0) · [PubMed 29050646](https://pubmed.ncbi.nlm.nih.gov/29050646/)
 [^sandborn-2012-vedolizumab]: Feagan BG, Rutgeerts P, Sands BE, et al. Vedolizumab as induction and maintenance therapy for ulcerative colitis. *N Engl J Med.* 2013;369(8):699-710. [doi:10.1056/NEJMoa1215734](https://doi.org/10.1056/NEJMoa1215734) · [PubMed 23964932](https://pubmed.ncbi.nlm.nih.gov/23964932/)

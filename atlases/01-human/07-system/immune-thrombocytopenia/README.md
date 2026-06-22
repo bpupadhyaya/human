@@ -312,6 +312,15 @@ cross_links:
   - target: 01-human/03-molecular/ccl2
     relation: connects-to
     note: "Splenic clearance: CCL2 helps recruit the splenic macrophages that phagocytose antibody-opsonised platelets through their Fcγ receptors, the principal site of the accelerated platelet destruction in ITP."
+  - target: 01-human/03-molecular/glucocorticoid-receptor
+    relation: connects-to
+    note: "First-line therapy: corticosteroids acting through the glucocorticoid receptor are first-line for immune thrombocytopenia, dampening autoantibody production and macrophage Fcγ-receptor-mediated platelet phagocytosis to raise the platelet count."
+  - target: 01-human/03-molecular/bcl-2
+    relation: connects-to
+    note: "Plasma-cell persistence: long-lived anti-platelet plasma cells survive on BCL-2 and lack CD20, so they escape rituximab — the basis for relapses after B-cell depletion in ITP and the rationale for plasma-cell-directed approaches."
+  - target: 01-human/03-molecular/src-kinase
+    relation: connects-to
+    note: "FcγR signalling: macrophage Fcγ-receptor engagement by antibody-coated platelets signals through Src-family and Syk kinases to trigger phagocytosis, the pathway the Syk inhibitor fostamatinib blocks to reduce platelet destruction in ITP."
 ---
 
 # Immune Thrombocytopenia
@@ -545,6 +554,9 @@ ITP in pregnancy carries risk of neonatal thrombocytopenia (maternal IgG crosses
 - `connects-to` → **[MPL](../../03-molecular/mpl/README.md)** — Thrombopoietin-receptor agonists (eltrombopag, romiplostim) stimulate MPL on megakaryocytes to raise platelet production in ITP—a paradigm shift from suppressing platelet destruction to driving production that transformed second-line therapy.
 - `connects-to` → **[Caspase-3](../../03-molecular/caspase-3/README.md)** — Antiplatelet antibodies also impair megakaryocyte platelet release and trigger caspase-3-mediated platelet apoptosis, so the thrombocytopenia of ITP reflects underproduction as well as accelerated destruction.
 - `connects-to` → **[CCL2](../../03-molecular/ccl2/README.md)** — CCL2 helps recruit the splenic macrophages that phagocytose antibody-opsonized platelets through their Fcγ receptors, the principal site of the accelerated platelet destruction that splenectomy historically addressed.
+- `connects-to` → **[Glucocorticoid receptor](../../03-molecular/glucocorticoid-receptor/README.md)** — Corticosteroids acting through the glucocorticoid receptor are first-line for immune thrombocytopenia, dampening autoantibody production and macrophage Fcγ-receptor-mediated platelet phagocytosis to raise the platelet count.
+- `connects-to` → **[BCL-2](../../03-molecular/bcl-2/README.md)** — Long-lived anti-platelet plasma cells survive on BCL-2 and lack CD20, so they escape rituximab—the basis for relapses after B-cell depletion in ITP and the rationale for plasma-cell-directed approaches.
+- `connects-to` → **[Src kinase](../../03-molecular/src-kinase/README.md)** — Macrophage Fcγ-receptor engagement by antibody-coated platelets signals through Src-family and Syk kinases to trigger phagocytosis, the pathway the Syk inhibitor fostamatinib blocks to reduce platelet destruction in ITP.
 
 [^cines-2002-itp-review]: Cines DB, Blanchette VS. Immune thrombocytopenic purpura. *N Engl J Med.* 2002;346(13):995-1008. [doi:10.1056/NEJMra010532](https://doi.org/10.1056/NEJMra010532) · [PubMed 11919310](https://pubmed.ncbi.nlm.nih.gov/11919310/)
 [^neunert-2019-ash-itp-guidelines]: Neunert C, et al. American Society of Hematology 2019 guidelines for immune thrombocytopenia. *Blood Adv.* 2019;3(23):3829-3866. [doi:10.1182/bloodadvances.2019000966](https://doi.org/10.1182/bloodadvances.2019000966) · [PubMed 31794604](https://pubmed.ncbi.nlm.nih.gov/31794604/)
