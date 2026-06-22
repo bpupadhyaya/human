@@ -304,6 +304,15 @@ cross_links:
   - target: 01-human/03-molecular/cxcl12
     relation: connects-to
     note: "Metastatic homing: the CXCL12-CXCR4 axis drives the parametrial invasion and lymph-node metastasis of cervical cancer, the spread that governs staging and the need for chemoradiation."
+  - target: 01-human/03-molecular/e2f1
+    relation: connects-to
+    note: "E7-Rb-E2F release: the HPV E7 oncoprotein inactivates Rb, freeing E2F transcription factors to drive the cell cycle — the second arm of viral transformation alongside E6's degradation of p53, the pair that immortalises the infected cervical cell."
+  - target: 01-human/03-molecular/caspase-3
+    relation: connects-to
+    note: "Chemoradiation apoptosis: concurrent cisplatin chemoradiation, the standard for locally advanced cervical cancer, kills tumour cells through caspase-3-mediated apoptosis, the death pathway whose evasion underlies radioresistance."
+  - target: 01-human/03-molecular/immunoglobulin-g
+    relation: connects-to
+    note: "Vaccine prevention: HPV vaccines induce neutralising IgG against the L1 capsid that blocks infection, the primary-prevention strategy that is now driving cervical cancer toward elimination where vaccination is widespread."
 ---
 
 # Cervical Cancer
@@ -522,6 +531,9 @@ The cervical transformation zone (TZ) — the area between the original and new 
 - `connects-to` → **[cGAS-STING](../../03-molecular/cgas-sting/README.md)** — HPV oncoproteins antagonize the cGAS-STING DNA-sensing pathway to evade innate immunity, while viral genome integration generates the cytosolic DNA and chromosomal instability this pathway would otherwise detect and act on.
 - `connects-to` → **[Perforin](../../03-molecular/perforin/README.md)** — CD8 T cells use perforin to eliminate HPV-infected cells, the response that prophylactic and therapeutic HPV vaccines harness—and whose evasion by persistent high-risk HPV permits progression to cervical cancer.
 - `connects-to` → **[CXCL12](../../03-molecular/cxcl12/README.md)** — The CXCL12-CXCR4 axis drives the parametrial invasion and lymph-node metastasis of cervical cancer, the spread that governs FIGO staging and the decision to use concurrent chemoradiation.
+- `connects-to` → **[E2F1](../../03-molecular/e2f1/README.md)** — The HPV E7 oncoprotein inactivates Rb, freeing E2F transcription factors to drive the cell cycle—the second arm of viral transformation alongside E6's degradation of p53, the pair that immortalizes the infected cervical cell.
+- `connects-to` → **[Caspase-3](../../03-molecular/caspase-3/README.md)** — Concurrent cisplatin chemoradiation, the standard for locally advanced cervical cancer, kills tumor cells through caspase-3-mediated apoptosis, the death pathway whose evasion underlies radioresistance.
+- `connects-to` → **[Immunoglobulin G](../../03-molecular/immunoglobulin-g/README.md)** — HPV vaccines induce neutralizing IgG against the L1 capsid that blocks infection, the primary-prevention strategy now driving cervical cancer toward elimination where vaccination is widespread.
 
 ---
 

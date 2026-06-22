@@ -304,6 +304,15 @@ cross_links:
   - target: 01-human/03-molecular/tgf-beta
     relation: connects-to
     note: "Myxoma matrix: TGF-β drives the myxoid extracellular-matrix deposition of the cardiac and cutaneous myxomas of Carney complex, the gelatinous tumours whose embolisation and obstruction are a leading cause of morbidity."
+  - target: 01-human/03-molecular/glucocorticoid-receptor
+    relation: connects-to
+    note: "PPNAD Cushing: Carney complex causes primary pigmented nodular adrenocortical disease, an ACTH-independent cortisol excess whose glucocorticoid-receptor-mediated effects produce the Cushing syndrome that is a hallmark endocrine manifestation."
+  - target: 01-human/03-molecular/androgen-receptor
+    relation: connects-to
+    note: "Gonadal tumours: the large-cell calcifying Sertoli cell tumours and other sex-steroid-producing gonadal tumours of Carney complex disturb androgen-receptor and oestrogen signalling, causing precocious puberty and gynaecomastia."
+  - target: 01-human/02-atomic/calcium
+    relation: connects-to
+    note: "Tumoral calcification: the large-cell CALCIFYING Sertoli cell tumours that typify Carney complex deposit calcium, the characteristic calcification visible on imaging that helps identify these testicular tumours in affected boys."
 ---
 
 # Carney Complex
@@ -521,6 +530,9 @@ PRKAR1A somatic LOH occurs in ~15-20% of sporadic adrenocortical adenomas and ca
 - `connects-to` → **[GSK-3β](../../03-molecular/gsk-3b/README.md)** — Unrestrained PKA from PRKAR1A loss phosphorylates and inhibits GSK-3β, stabilizing β-catenin to drive the proliferation of the adrenal (PPNAD) and other tumors of Carney complex—linking the cAMP-PKA defect to Wnt signaling.
 - `connects-to` → **[FOXO1](../../03-molecular/foxo1/README.md)** — Constitutive PKA and AKT signaling in PRKAR1A-deficient cells alters FOXO transcription factors governing proliferation and survival, part of the broad growth dysregulation underlying the multiple tumors of Carney complex.
 - `connects-to` → **[TGF-β](../../03-molecular/tgf-beta/README.md)** — TGF-β drives the myxoid extracellular-matrix deposition of the cardiac and cutaneous myxomas of Carney complex—the gelatinous tumors whose embolization and intracardiac obstruction are a leading cause of morbidity and death.
+- `connects-to` → **[Glucocorticoid receptor](../../03-molecular/glucocorticoid-receptor/README.md)** — Carney complex causes primary pigmented nodular adrenocortical disease, an ACTH-independent cortisol excess whose glucocorticoid-receptor-mediated effects produce the Cushing syndrome that is a hallmark endocrine manifestation.
+- `connects-to` → **[Androgen receptor](../../03-molecular/androgen-receptor/README.md)** — The large-cell calcifying Sertoli cell tumors and other sex-steroid-producing gonadal tumors of Carney complex disturb androgen-receptor and estrogen signaling, causing precocious puberty and gynecomastia.
+- `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — The large-cell CALCIFYING Sertoli cell tumors that typify Carney complex deposit calcium, the characteristic calcification visible on imaging that helps identify these testicular tumors in affected boys.
 
 ---
 
