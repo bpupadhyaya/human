@@ -304,6 +304,15 @@ cross_links:
   - target: 01-human/03-molecular/il-6
     relation: connects-to
     note: "Inflammation-driven cancer: IL-6 signalling through STAT3 links chronic colonic inflammation to carcinogenesis, the basis of the elevated colorectal-cancer risk in inflammatory bowel disease (colitis-associated cancer)."
+  - target: 01-human/03-molecular/msh2
+    relation: connects-to
+    note: "Lynch-syndrome repair: germline MSH2 mutations, alongside MLH1, cause Lynch syndrome and the microsatellite-instable colorectal cancers, the mismatch-repair defect that both drives hereditary risk and predicts response to checkpoint blockade."
+  - target: 01-human/03-molecular/cgas-sting
+    relation: connects-to
+    note: "MSI immunogenicity: mismatch-repair-deficient colorectal cancers accumulate mutations and cytosolic DNA that engage cGAS-STING, the innate-immune basis for the striking sensitivity of MSI-high tumours to PD-1 blockade, unlike the immune-cold MSS majority."
+  - target: 01-human/03-molecular/ccl2
+    relation: connects-to
+    note: "Myeloid microenvironment: CCL2 recruits tumour-associated macrophages into colorectal cancer, building the immunosuppressive myeloid niche that helps explain why the microsatellite-stable majority resist immunotherapy."
 ---
 
 # Colorectal Cancer
@@ -515,6 +524,9 @@ The step-wise genetic progression from normal epithelium to carcinoma in CRC was
 - `connects-to` → **[MLH1](../../03-molecular/mlh1/README.md)** — MLH1 loss—germline in Lynch syndrome or sporadic via promoter hypermethylation—creates the microsatellite-instable, hypermutated CRC subtype that, uniquely among colorectal cancers, responds dramatically to checkpoint inhibitors like pembrolizumab.
 - `connects-to` → **[CXCL12](../../03-molecular/cxcl12/README.md)** — CXCR4 on colorectal-cancer cells follows CXCL12 gradients toward the liver through the portal circulation, helping explain why the liver is the dominant site of CRC metastasis and the focus of metastasectomy.
 - `connects-to` → **[IL-6](../../03-molecular/il-6/README.md)** — IL-6 signaling through STAT3 links chronic colonic inflammation to carcinogenesis, the molecular basis of the elevated colorectal-cancer risk in inflammatory bowel disease that defines colitis-associated cancer.
+- `connects-to` → **[MSH2](../../03-molecular/msh2/README.md)** — Germline MSH2 mutations, alongside MLH1, cause Lynch syndrome and the microsatellite-instable colorectal cancers, the mismatch-repair defect that both drives hereditary risk and predicts response to checkpoint blockade.
+- `connects-to` → **[cGAS-STING](../../03-molecular/cgas-sting/README.md)** — Mismatch-repair-deficient colorectal cancers accumulate mutations and cytosolic DNA that engage cGAS-STING, the innate-immune basis for the striking sensitivity of MSI-high tumors to PD-1 blockade, unlike the immune-cold MSS majority.
+- `connects-to` → **[CCL2](../../03-molecular/ccl2/README.md)** — CCL2 recruits tumor-associated macrophages into colorectal cancer, building the immunosuppressive myeloid niche that helps explain why the microsatellite-stable majority resist immunotherapy.
 
 ---
 

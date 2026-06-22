@@ -304,6 +304,15 @@ cross_links:
   - target: 01-human/03-molecular/tlr4
     relation: connects-to
     note: "Innate hyperactivation: the SARS-CoV-2 spike protein can engage TLR4 on innate immune cells, triggering the NF-κB-driven cytokine output that contributes to the hyperinflammation of severe COVID-19."
+  - target: 01-human/03-molecular/glucocorticoid-receptor
+    relation: connects-to
+    note: "Landmark therapy: dexamethasone acting through the glucocorticoid receptor was the first treatment shown to cut mortality in severe COVID-19, broadly suppressing the NF-κB-driven cytokine programme that injures the lungs in the hyperinflammatory phase."
+  - target: 01-human/03-molecular/rig-i
+    relation: connects-to
+    note: "Viral RNA sensing: the cytosolic sensor RIG-I detects SARS-CoV-2 RNA to trigger the type-I-interferon response, and the virus's active antagonism of this pathway explains the blunted, delayed interferon that permits early uncontrolled replication."
+  - target: 01-human/03-molecular/thrombin
+    relation: connects-to
+    note: "Immunothrombosis: endothelial injury and neutrophil activation in severe COVID-19 drive excess thrombin generation, producing the pulmonary microthrombi and venous thromboembolism that are a major cause of death and the rationale for anticoagulation."
 ---
 
 # COVID-19 Disease
@@ -464,6 +473,9 @@ Symptoms persisting >4 weeks: fatigue (most common), cognitive impairment ("brai
 - `connects-to` → **[JAK1/2](../../03-molecular/jak1-2/README.md)** — The hyperinflammatory cytokines of severe COVID-19 signal through JAK-STAT, the rationale for baricitinib—a JAK1/2 inhibitor that reduces mortality in hospitalized patients, validating cytokine-signaling blockade in the disease.
 - `connects-to` → **[von Willebrand factor](../../03-molecular/von-willebrand-factor/README.md)** — SARS-CoV-2 injury to the endothelium releases ultra-large von Willebrand factor multimers, driving the platelet-rich microthrombosis that underlies the characteristic COVID-19 coagulopathy and elevated thrombotic risk.
 - `connects-to` → **[TLR4](../../03-molecular/tlr4/README.md)** — The SARS-CoV-2 spike protein can engage TLR4 on innate immune cells, triggering the NF-κB-driven cytokine output that contributes to the hyperinflammation distinguishing severe COVID-19 from mild infection.
+- `connects-to` → **[Glucocorticoid receptor](../../03-molecular/glucocorticoid-receptor/README.md)** — Dexamethasone acting through the glucocorticoid receptor was the first treatment shown to cut mortality in severe COVID-19, broadly suppressing the NF-κB-driven cytokine program that injures the lungs in the hyperinflammatory phase.
+- `connects-to` → **[RIG-I](../../03-molecular/rig-i/README.md)** — The cytosolic sensor RIG-I detects SARS-CoV-2 RNA to trigger the type-I-interferon response, and the virus's active antagonism of this pathway explains the blunted, delayed interferon that permits early uncontrolled replication.
+- `connects-to` → **[Thrombin](../../03-molecular/thrombin/README.md)** — Endothelial injury and neutrophil activation in severe COVID-19 drive excess thrombin generation, producing the pulmonary microthrombi and venous thromboembolism that are a major cause of death and the rationale for anticoagulation.
 
 ## Pathology
 
