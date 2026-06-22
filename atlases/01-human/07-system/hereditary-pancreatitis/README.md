@@ -304,6 +304,15 @@ cross_links:
   - target: 01-human/03-molecular/bradykinin
     relation: connects-to
     note: "Kallikrein-kinin activation: prematurely activated trypsin also activates the kallikrein-kinin system, generating bradykinin that drives the pain, vascular leak and hypotension of a severe pancreatitis attack."
+  - target: 01-human/02-atomic/calcium
+    relation: connects-to
+    note: "Acinar calcium overload: a sustained rise in acinar-cell cytosolic calcium is the trigger that prematurely activates trypsin and causes acinar necrosis, the central initiating event of pancreatitis; chronic disease then deposits the ductal calcium of pancreatic calcification."
+  - target: 01-human/03-molecular/collagen
+    relation: connects-to
+    note: "Pancreatic fibrosis: recurrent attacks in hereditary pancreatitis activate pancreatic stellate cells to lay down collagen, the progressive fibrosis that destroys the gland and produces the exocrine insufficiency and diabetes of chronic pancreatitis."
+  - target: 01-human/03-molecular/xanthine-oxidase
+    relation: connects-to
+    note: "Oxidative acinar injury: xanthine-oxidase-derived reactive oxygen species generated during an attack amplify acinar-cell injury and inflammation, the oxidative stress that worsens the necrosis of severe pancreatitis."
 ---
 
 # Hereditary Pancreatitis
@@ -543,6 +552,9 @@ cross_links:
 - `connects-to` → **[Caspase-3](../../03-molecular/caspase-3/README.md)** — Whether injured acinar cells die by caspase-3-mediated apoptosis or by necrosis determines the severity of each attack—apoptosis is protective, while a shift toward necrosis drives the severe, systemic pancreatitis.
 - `connects-to` → **[TLR4](../../03-molecular/tlr4/README.md)** — DAMPs released by necrotic acinar cells engage TLR4 on innate immune cells, driving the systemic inflammatory response that makes severe acute attacks of hereditary pancreatitis life-threatening beyond the local gland injury.
 - `connects-to` → **[Bradykinin](../../03-molecular/bradykinin/README.md)** — Prematurely activated trypsin also activates the kallikrein-kinin system, generating bradykinin that drives the abdominal pain, vascular leak, and hypotension of a severe pancreatitis attack.
+- `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — A sustained rise in acinar-cell cytosolic calcium is the trigger that prematurely activates trypsin and causes acinar necrosis, the central initiating event of pancreatitis; chronic disease then deposits the ductal calcium of pancreatic calcification.
+- `connects-to` → **[Collagen](../../03-molecular/collagen/README.md)** — Recurrent attacks in hereditary pancreatitis activate pancreatic stellate cells to lay down collagen, the progressive fibrosis that destroys the gland and produces the exocrine insufficiency and diabetes of chronic pancreatitis.
+- `connects-to` → **[Xanthine Oxidase](../../03-molecular/xanthine-oxidase/README.md)** — Xanthine-oxidase-derived reactive oxygen species generated during an attack amplify acinar-cell injury and inflammation, the oxidative stress that worsens the necrosis of severe pancreatitis.
 
 [^whitcomb-1996-prss1]: Whitcomb DC, Gorry MC, Preston RA, et al. Hereditary pancreatitis is caused by a mutation in the cationic trypsinogen gene. *Nat Genet.* 1996;14(2):141-145. [doi:10.1038/ng1096-141](https://doi.org/10.1038/ng1096-141) · [PubMed 8841182](https://pubmed.ncbi.nlm.nih.gov/8841182/)
 [^lowenfels-2001-hp-pdac]: Lowenfels AB, Maisonneuve P, DiMagno EP, et al. Hereditary pancreatitis and the risk of pancreatic cancer. *J Natl Cancer Inst.* 2001;93(1):26-31. [doi:10.1093/jnci/93.1.26](https://doi.org/10.1093/jnci/93.1.26) · [PubMed 11136838](https://pubmed.ncbi.nlm.nih.gov/11136838/)

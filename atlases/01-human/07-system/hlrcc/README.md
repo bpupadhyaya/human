@@ -304,6 +304,15 @@ cross_links:
   - target: 01-human/03-molecular/caspase-3
     relation: connects-to
     note: "Apoptosis resistance: the metabolic reprogramming of FH-deficient HLRCC cells confers resistance to caspase-3-mediated apoptosis, part of the survival advantage that makes these tumours so aggressive and treatment-resistant."
+  - target: 01-human/03-molecular/dnmt3a
+    relation: connects-to
+    note: "Hypermethylator phenotype: accumulated fumarate in FH-deficient HLRCC inhibits the TET DNA-demethylases, producing a globally hypermethylated genome that silences tumour-suppressor genes — the epigenetic consequence of the oncometabolite."
+  - target: 01-human/03-molecular/egfr
+    relation: connects-to
+    note: "Targeted regimen: the combination of the anti-VEGF antibody bevacizumab with the EGFR inhibitor erlotinib is an effective regimen for HLRCC-associated papillary renal cell carcinoma, hitting the angiogenic and growth-factor arms of these aggressive tumours."
+  - target: 01-human/03-molecular/estrogen
+    relation: connects-to
+    note: "Uterine leiomyomas: HLRCC causes oestrogen-dependent uterine fibroids that are typically numerous, early-onset and symptomatic, often the first manifestation of the syndrome in affected women and a clue to the FH mutation."
 ---
 
 # Hereditary Leiomyomatosis and Renal Cell Carcinoma
@@ -531,6 +540,9 @@ Cutaneous:
 - `connects-to` → **[RAD51](../../03-molecular/rad51/README.md)** — Accumulating fumarate suppresses homologous-recombination repair by impairing RAD51-pathway function, creating a "BRCAness"-like state in FH-deficient HLRCC tumors that may confer sensitivity to PARP inhibitors.
 - `connects-to` → **[CXCL12](../../03-molecular/cxcl12/README.md)** — CXCR4 on the type 2 papillary renal cancer of HLRCC follows CXCL12 gradients to drive the early, aggressive metastasis that distinguishes this hereditary kidney cancer from the indolent tumors of other syndromes.
 - `connects-to` → **[Caspase-3](../../03-molecular/caspase-3/README.md)** — The metabolic reprogramming of FH-deficient HLRCC cells confers resistance to caspase-3-mediated apoptosis, part of the survival advantage that makes these tumors so aggressive and treatment-resistant.
+- `connects-to` → **[DNMT3A](../../03-molecular/dnmt3a/README.md)** — Accumulated fumarate in FH-deficient HLRCC inhibits the TET DNA-demethylases, producing a globally hypermethylated genome that silences tumor-suppressor genes—the epigenetic consequence of the oncometabolite.
+- `connects-to` → **[EGFR](../../03-molecular/egfr/README.md)** — The combination of the anti-VEGF antibody bevacizumab with the EGFR inhibitor erlotinib is an effective regimen for HLRCC-associated papillary renal cell carcinoma, hitting the angiogenic and growth-factor arms of these aggressive tumors.
+- `connects-to` → **[Estrogen](../../03-molecular/estrogen/README.md)** — HLRCC causes estrogen-dependent uterine fibroids that are typically numerous, early-onset and symptomatic, often the first manifestation of the syndrome in affected women and a clue to the FH mutation.
 
 [^tomlinson-2002-fh]: Tomlinson IP, Alam NA, Rowan AJ, et al. Germline mutations in FH predispose to dominantly inherited uterine fibroids, skin leiomyomata and papillary renal cell cancer. *Nat Genet.* 2002;30(4):406-410. [doi:10.1038/ng849](https://doi.org/10.1038/ng849) · [PubMed 11865300](https://pubmed.ncbi.nlm.nih.gov/11865300/)
 [^linehan-2013-fh-review]: Linehan WM, Rouault TA. Molecular pathways: fumarate hydratase-deficient kidney cancer — targeting the Warburg effect in cancer. *Clin Cancer Res.* 2013;19(13):3345-3352. [doi:10.1158/1078-0432.CCR-13-0304](https://doi.org/10.1158/1078-0432.CCR-13-0304) · [PubMed 23836472](https://pubmed.ncbi.nlm.nih.gov/23836472/)
