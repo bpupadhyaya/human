@@ -310,6 +310,15 @@ cross_links:
   - target: 01-human/03-molecular/cholesterol
     relation: connects-to
     note: "Metabolic clustering: gout clusters with the dyslipidaemia and insulin resistance of metabolic syndrome, the shared physiology behind the high cardiovascular risk that accompanies chronic hyperuricaemia."
+  - target: 01-human/03-molecular/glucocorticoid-receptor
+    relation: connects-to
+    note: "Flare therapy: glucocorticoids acting through the glucocorticoid receptor are a mainstay for acute gout flares, especially when NSAIDs and colchicine are contraindicated, broadly suppressing the urate-crystal-triggered inflammation."
+  - target: 01-human/02-atomic/calcium
+    relation: connects-to
+    note: "Crystal-arthropathy differential: gout (monosodium urate crystals) must be distinguished from pseudogout, in which calcium pyrophosphate crystals provoke a similar acute crystal arthritis — a key distinction made on polarised-light microscopy of joint fluid."
+  - target: 01-human/03-molecular/rage
+    relation: connects-to
+    note: "DAMP amplification: monosodium urate crystals and the DAMPs of crystal-induced cell injury signal through RAGE to amplify the NF-κB-driven inflammation, adding to the NLRP3-IL-1β axis that drives the intense pain of a gout flare."
 ---
 
 # Gout
@@ -500,6 +509,9 @@ The central mechanism linking MSU crystals to acute gouty arthritis is **NLRP3 i
 - `connects-to` → **[TLR4](../../03-molecular/tlr4/README.md)** — Monosodium urate crystals engage TLR2/TLR4 to provide the "signal 1" that primes the NLRP3 inflammasome, licensing the IL-1β release that drives the explosive, exquisitely painful acute gout flare.
 - `connects-to` → **[Nitric oxide](../../03-molecular/nitric-oxide/README.md)** — Hyperuricemia reduces endothelial nitric-oxide bioavailability, a vascular mechanism linking gout to its strong epidemiological association with hypertension, chronic kidney disease, and cardiovascular events.
 - `connects-to` → **[Cholesterol](../../03-molecular/cholesterol/README.md)** — Gout clusters with the dyslipidemia and insulin resistance of metabolic syndrome, the shared physiology behind the high cardiovascular risk that accompanies chronic hyperuricemia beyond the joint disease itself.
+- `connects-to` → **[Glucocorticoid receptor](../../03-molecular/glucocorticoid-receptor/README.md)** — Glucocorticoids acting through the glucocorticoid receptor are a mainstay for acute gout flares, especially when NSAIDs and colchicine are contraindicated, broadly suppressing the urate-crystal-triggered inflammation.
+- `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — Gout (monosodium urate crystals) must be distinguished from pseudogout, in which calcium pyrophosphate crystals provoke a similar acute crystal arthritis—a key distinction made on polarized-light microscopy of joint fluid.
+- `connects-to` → **[RAGE](../../03-molecular/rage/README.md)** — Monosodium urate crystals and the DAMPs of crystal-induced cell injury signal through RAGE to amplify the NF-κB-driven inflammation, adding to the NLRP3-IL-1β axis that drives the intense pain of a gout flare.
 
 [^dalbeth-2019-gout-primer]: Dalbeth N, Choi HK, Joosten LAB, et al. Gout. *Nat Rev Dis Primers.* 2019;5(1):69. [doi:10.1038/s41572-019-0115-y](https://doi.org/10.1038/s41572-019-0115-y) · [PubMed 31558729](https://pubmed.ncbi.nlm.nih.gov/31558729/)
 [^martinon-2006-nlrp3-gout]: Martinon F, Pétrilli V, Mayor A, Tardivel A, Tschopp J. Gout-associated uric acid crystals activate the NALP3 inflammasome. *Nature.* 2006;440(7081):237-241. [doi:10.1038/nature04516](https://doi.org/10.1038/nature04516) · [PubMed 16407889](https://pubmed.ncbi.nlm.nih.gov/16407889/)

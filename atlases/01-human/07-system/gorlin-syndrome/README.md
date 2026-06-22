@@ -304,6 +304,15 @@ cross_links:
   - target: 01-human/03-molecular/egfr
     relation: connects-to
     note: "Keratocyst epithelium: EGFR-driven epithelial proliferation underlies the odontogenic keratocysts of the jaw that are an early and characteristic manifestation of Gorlin syndrome, alongside its basal cell carcinomas."
+  - target: 01-human/02-atomic/calcium
+    relation: connects-to
+    note: "Ectopic calcification: lamellar calcification of the falx cerebri and other ectopic calcification, along with skeletal anomalies like bifid ribs, are diagnostic features of Gorlin syndrome, reflecting the role of Hedgehog signalling in skeletal patterning."
+  - target: 01-human/03-molecular/perforin
+    relation: connects-to
+    note: "Immunotherapy for BCC: when the multiple basal cell carcinomas of Gorlin syndrome become advanced or Hedgehog-inhibitor-resistant, the PD-1 inhibitor cemiplimab unleashes perforin-mediated cytotoxic T-cell killing of the UV-mutated tumours."
+  - target: 01-human/03-molecular/rankl
+    relation: connects-to
+    note: "Jaw bone remodelling: the odontogenic keratocysts of Gorlin syndrome expand by RANKL-driven osteoclastic resorption of the surrounding jaw bone, the bone destruction that makes them locally aggressive and prone to recurrence."
 ---
 
 # Gorlin Syndrome
@@ -510,6 +519,9 @@ Both are two-hit tumor suppressors: germline heterozygous LOF + somatic second h
 - `connects-to` → **[Caspase-3](../../03-molecular/caspase-3/README.md)** — Hedgehog-driven BCL-2 suppresses caspase-3 apoptosis in Gorlin tumors, and radiotherapy is specifically avoided because it paradoxically induces hundreds of new basal cell carcinomas within the irradiated field.
 - `connects-to` → **[RB1](../../03-molecular/rb1/README.md)** — The SHH-subgroup medulloblastomas of Gorlin children engage the RB cell-cycle pathway, the proliferative machinery downstream of the constitutive Hedgehog signaling that germline PTCH1 loss unleashes in the cerebellum.
 - `connects-to` → **[EGFR](../../03-molecular/egfr/README.md)** — EGFR-driven epithelial proliferation underlies the odontogenic keratocysts of the jaw that are an early and characteristic manifestation of Gorlin syndrome, often preceding the basal cell carcinomas.
+- `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — Lamellar calcification of the falx cerebri and other ectopic calcification, along with skeletal anomalies like bifid ribs, are diagnostic features of Gorlin syndrome, reflecting the role of Hedgehog signaling in skeletal patterning.
+- `connects-to` → **[Perforin](../../03-molecular/perforin/README.md)** — When the multiple basal cell carcinomas of Gorlin syndrome become advanced or Hedgehog-inhibitor-resistant, the PD-1 inhibitor cemiplimab unleashes perforin-mediated cytotoxic T-cell killing of the UV-mutated tumors.
+- `connects-to` → **[RANKL](../../03-molecular/rankl/README.md)** — The odontogenic keratocysts of Gorlin syndrome expand by RANKL-driven osteoclastic resorption of the surrounding jaw bone, the bone destruction that makes them locally aggressive and prone to recurrence.
 
 ---
 
