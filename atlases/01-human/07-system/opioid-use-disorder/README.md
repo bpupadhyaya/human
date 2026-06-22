@@ -310,6 +310,15 @@ cross_links:
   - target: 01-human/03-molecular/npy
     relation: connects-to
     note: "Withdrawal stress: the anxiolytic neuropeptide Y system is dysregulated in opioid withdrawal, contributing to the anxiety, dysphoria and stress reactivity that drive relapse during abstinence."
+  - target: 01-human/03-molecular/oxytocin
+    relation: connects-to
+    note: "Anti-craving neuropeptide: oxytocin dampens stress and reward signalling and reduces drug craving and withdrawal severity in models, an endogenous social-bonding system being studied as an adjunct to reduce relapse in opioid use disorder."
+  - target: 01-human/03-molecular/prolactin
+    relation: connects-to
+    note: "Endocrine effect: opioids suppress GnRH and raise prolactin, producing the hyperprolactinaemia and hypogonadism — low testosterone, reduced libido, menstrual disruption — that are common, under-recognised complications of chronic opioid use."
+  - target: 01-human/03-molecular/ghrelin
+    relation: connects-to
+    note: "Reward enhancement: ghrelin amplifies the dopaminergic reward response to opioids and other drugs, a gut-derived hormone that increases drug reward and relapse vulnerability, linking appetite and addiction circuitry."
 ---
 
 # Opioid Use Disorder
@@ -562,6 +571,9 @@ The primary mechanism by which opioids produce euphoria:
 - `connects-to` → **[CCL2](../../03-molecular/ccl2/README.md)** — CCL2 recruits monocytes and activates microglia during opioid exposure, part of the neuroinflammation that, alongside TLR4 signaling, drives the opioid tolerance and dependence that escalate use over time.
 - `connects-to` → **[GSK-3β](../../03-molecular/gsk-3b/README.md)** — Dopamine D2-receptor signaling converges on GSK-3β, a kinase governing the synaptic plasticity of reward learning implicated in the compulsive, craving-driven drug-seeking that defines opioid use disorder.
 - `connects-to` → **[NPY](../../03-molecular/npy/README.md)** — The anxiolytic neuropeptide Y system is dysregulated in opioid withdrawal, contributing to the anxiety, dysphoria, and stress reactivity that drive relapse during abstinence and undermine recovery.
+- `connects-to` → **[Oxytocin](../../03-molecular/oxytocin/README.md)** — Oxytocin dampens stress and reward signaling and reduces drug craving and withdrawal severity in models, an endogenous social-bonding system being studied as an adjunct to reduce relapse in opioid use disorder.
+- `connects-to` → **[Prolactin](../../03-molecular/prolactin/README.md)** — Opioids suppress GnRH and raise prolactin, producing the hyperprolactinemia and hypogonadism—low testosterone, reduced libido, menstrual disruption—that are common, under-recognized complications of chronic opioid use.
+- `connects-to` → **[Ghrelin](../../03-molecular/ghrelin/README.md)** — Ghrelin amplifies the dopaminergic reward response to opioids and other drugs, a gut-derived hormone that increases drug reward and relapse vulnerability, linking appetite and addiction circuitry.
 
 [^volkow-2016-opioid-crisis]: Volkow ND, Collins FS. The role of science in addressing the opioid crisis. *N Engl J Med.* 2017;377(4):391-394. [doi:10.1056/NEJMsr1706626](https://doi.org/10.1056/NEJMsr1706626) · [PubMed 28723324](https://pubmed.ncbi.nlm.nih.gov/28723324/)
 [^mattick-2009-bupe-meta]: Mattick RP, Breen C, Kimber J, Davoli M. Buprenorphine maintenance versus placebo or methadone maintenance for opioid dependence. *Cochrane Database Syst Rev.* 2014;2:CD002207. [doi:10.1002/14651858.CD002207.pub4](https://doi.org/10.1002/14651858.CD002207.pub4) · [PubMed 24500948](https://pubmed.ncbi.nlm.nih.gov/24500948/)
