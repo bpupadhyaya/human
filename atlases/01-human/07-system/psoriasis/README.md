@@ -304,6 +304,15 @@ cross_links:
   - target: 01-human/03-molecular/tgf-beta
     relation: connects-to
     note: "Keratinocyte dysregulation: TGF-β1 is overexpressed in psoriatic skin where, alongside its angiogenic effects, it contributes paradoxically to the abnormal keratinocyte proliferation and inflammatory milieu of the plaque."
+  - target: 01-human/03-molecular/glucocorticoid-receptor
+    relation: connects-to
+    note: "Topical mainstay: corticosteroids acting through the glucocorticoid receptor are the most widely used topical therapy for psoriasis, broadly suppressing the keratinocyte and immune inflammation of the plaque, often combined with vitamin-D analogues."
+  - target: 01-human/02-atomic/calcium
+    relation: connects-to
+    note: "Differentiation therapy: vitamin-D analogues like calcipotriol act on the keratinocyte calcium-differentiation programme that is disordered in psoriasis, normalising the abnormal proliferation and maturation of the epidermis in the plaque."
+  - target: 01-human/03-molecular/leptin
+    relation: connects-to
+    note: "Metabolic comorbidity: leptin is elevated in psoriasis and promotes Th17 responses, mechanistically tying the disease to the obesity, metabolic syndrome and cardiovascular risk that are its major systemic comorbidities."
 ---
 
 # Psoriasis
@@ -514,6 +523,9 @@ Differential: Seborrheic dermatitis (common), pityriasis rosea (herald patch, Ch
 - `connects-to` → **[CCL2](../../03-molecular/ccl2/README.md)** — CCL2 produced in psoriatic skin draws monocytes and dendritic-cell precursors into the plaque, replenishing the antigen-presenting cells that sustain the IL-23/IL-17 inflammatory loop driving the disease.
 - `connects-to` → **[cGAS-STING](../../03-molecular/cgas-sting/README.md)** — Keratinocyte and dendritic-cell cGAS-STING activation by self-DNA amplifies the type-I-interferon response, reinforcing the innate ignition phase (with LL-37–DNA complexes) that initiates and perpetuates psoriatic inflammation.
 - `connects-to` → **[TGF-β](../../03-molecular/tgf-beta/README.md)** — TGF-β1 is overexpressed in psoriatic skin where, alongside its angiogenic effects, it contributes paradoxically to the abnormal keratinocyte proliferation and the inflammatory milieu of the plaque rather than its usual growth-suppressive role.
+- `connects-to` → **[Glucocorticoid receptor](../../03-molecular/glucocorticoid-receptor/README.md)** — Corticosteroids acting through the glucocorticoid receptor are the most widely used topical therapy for psoriasis, broadly suppressing the keratinocyte and immune inflammation of the plaque, often combined with vitamin-D analogues.
+- `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — Vitamin-D analogues like calcipotriol act on the keratinocyte calcium-differentiation program that is disordered in psoriasis, normalizing the abnormal proliferation and maturation of the epidermis in the plaque.
+- `connects-to` → **[Leptin](../../03-molecular/leptin/README.md)** — Leptin is elevated in psoriasis and promotes Th17 responses, mechanistically tying the disease to the obesity, metabolic syndrome and cardiovascular risk that are its major systemic comorbidities.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 

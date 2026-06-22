@@ -304,6 +304,15 @@ cross_links:
   - target: 01-human/03-molecular/igf-1
     relation: connects-to
     note: "Growth-axis driver: IGF-1 signalling promotes prostate epithelial proliferation and survival, and higher circulating IGF-1 is associated with prostate-cancer risk and progression independent of androgens."
+  - target: 01-human/03-molecular/glucocorticoid-receptor
+    relation: connects-to
+    note: "Resistance bypass: upregulation of the glucocorticoid receptor lets prostate-cancer cells drive an AR-like transcriptional programme despite AR blockade, a key mechanism of resistance to enzalutamide in castration-resistant disease."
+  - target: 01-human/03-molecular/sstr2
+    relation: connects-to
+    note: "Neuroendocrine transition: under potent AR-pathway inhibition some prostate cancers transdifferentiate into aggressive neuroendocrine tumours that lose AR and express neuroendocrine markers like SSTR2, a lethal, treatment-induced phenotype switch."
+  - target: 01-human/03-molecular/cgas-sting
+    relation: connects-to
+    note: "HRD immunogenicity: BRCA/ATM-mutant, homologous-recombination-deficient prostate cancers accumulate cytosolic DNA that activates cGAS-STING, the innate-immune rationale for combining PARP inhibitors with checkpoint blockade in this molecular subset."
 ---
 
 # Prostate Cancer
@@ -526,6 +535,9 @@ cross_links:
 - `connects-to` → **[CXCL12](../../03-molecular/cxcl12/README.md)** — CXCR4 on prostate-cancer cells follows CXCL12 gradients to the bone marrow, a key homing mechanism behind the bone-dominant metastatic pattern that defines advanced prostate cancer and drives its skeletal morbidity.
 - `connects-to` → **[RAD51](../../03-molecular/rad51/README.md)** — Prostate cancers with BRCA2 or ATM mutations are homologous-recombination deficient, engaging RAD51-mediated repair whose loss confers the synthetic-lethal sensitivity to PARP inhibitors (olaparib) now used in metastatic disease.
 - `connects-to` → **[IGF-1](../../03-molecular/igf-1/README.md)** — IGF-1 signaling promotes prostate epithelial proliferation and survival, and higher circulating IGF-1 is associated with prostate-cancer risk and progression independent of androgens—an alternate growth axis sustaining castration-resistant disease.
+- `connects-to` → **[Glucocorticoid receptor](../../03-molecular/glucocorticoid-receptor/README.md)** — Upregulation of the glucocorticoid receptor lets prostate-cancer cells drive an AR-like transcriptional program despite AR blockade, a key mechanism of resistance to enzalutamide in castration-resistant disease.
+- `connects-to` → **[SSTR2](../../03-molecular/sstr2/README.md)** — Under potent AR-pathway inhibition some prostate cancers transdifferentiate into aggressive neuroendocrine tumors that lose AR and express neuroendocrine markers like SSTR2, a lethal, treatment-induced phenotype switch.
+- `connects-to` → **[cGAS-STING](../../03-molecular/cgas-sting/README.md)** — BRCA/ATM-mutant, homologous-recombination-deficient prostate cancers accumulate cytosolic DNA that activates cGAS-STING, the innate-immune rationale for combining PARP inhibitors with checkpoint blockade in this molecular subset.
 
 [^beer-2014-prevail]: Beer TM, Armstrong AJ, Rathkopf D, et al. Enzalutamide in metastatic prostate cancer before chemotherapy. *N Engl J Med.* 2014;371(5):424-433. [doi:10.1056/NEJMoa1405095](https://doi.org/10.1056/NEJMoa1405095) · [PubMed 24881730](https://pubmed.ncbi.nlm.nih.gov/24881730/)
 [^sartor-2021-vision]: Sartor O, de Bono J, Chi KN, et al. Lutetium-PSMA-617 for metastatic castration-resistant prostate cancer. *N Engl J Med.* 2021;385(12):1091-1103. [doi:10.1056/NEJMoa2107322](https://doi.org/10.1056/NEJMoa2107322) · [PubMed 34161051](https://pubmed.ncbi.nlm.nih.gov/34161051/)
