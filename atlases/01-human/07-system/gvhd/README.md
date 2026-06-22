@@ -307,6 +307,15 @@ cross_links:
   - target: 01-human/03-molecular/caspase-3
     relation: connects-to
     note: "Apoptotic hallmark: donor cytotoxic T cells drive caspase-3-mediated apoptosis of host epithelial cells — the crypt-cell and keratinocyte apoptosis that is the defining histological lesion of acute GVHD."
+  - target: 01-human/03-molecular/il-33
+    relation: connects-to
+    note: "Refractory biomarker: the IL-33/ST2 alarmin axis is activated by conditioning-induced tissue damage, and a high soluble ST2 level is a validated biomarker predicting steroid-refractory, lethal acute graft-versus-host disease."
+  - target: 01-human/03-molecular/baff
+    relation: connects-to
+    note: "B-cell chronic GVHD: excess BAFF after transplant rescues alloreactive and autoreactive B cells, driving the antibody-mediated, sclerodermatous chronic graft-versus-host disease that B-cell-directed therapies like rituximab and ibrutinib target."
+  - target: 01-human/03-molecular/periostin
+    relation: connects-to
+    note: "Fibrotic remodelling: periostin and other matricellular proteins drive the tissue fibrosis of chronic GVHD, the sclerodermatous skin, fasciitis and bronchiolitis-obliterans lung disease that make advanced chronic GVHD so disabling."
 ---
 
 # Graft-Versus-Host Disease
@@ -541,6 +550,9 @@ The protective Treg/IL-10 axis is the key biological counterbalance to alloreact
 - `connects-to` → **[BTK](../../03-molecular/btk/README.md)** — BTK signaling in donor B and T cells drives the autoreactive, fibrotic chronic GVHD, the basis for ibrutinib being approved for steroid-refractory chronic graft-versus-host disease—a B-cell-directed strategy distinct from T-cell immunosuppression.
 - `connects-to` → **[CCL2](../../03-molecular/ccl2/README.md)** — CCL2 draws donor monocytes and macrophages into the skin, gut, and liver of acute GVHD, amplifying the inflammatory tissue destruction that the alloreactive donor T-cell attack initiates in these target organs.
 - `connects-to` → **[Caspase-3](../../03-molecular/caspase-3/README.md)** — Donor cytotoxic T cells drive caspase-3-mediated apoptosis of host epithelial cells—the crypt-cell and keratinocyte apoptosis that is the defining histological lesion of acute GVHD on biopsy.
+- `connects-to` → **[IL-33](../../03-molecular/il-33/README.md)** — The IL-33/ST2 alarmin axis is activated by conditioning-induced tissue damage, and a high soluble ST2 level is a validated biomarker predicting steroid-refractory, lethal acute graft-versus-host disease.
+- `connects-to` → **[BAFF](../../03-molecular/baff/README.md)** — Excess BAFF after transplant rescues alloreactive and autoreactive B cells, driving the antibody-mediated, sclerodermatous chronic graft-versus-host disease that B-cell-directed therapies like rituximab and ibrutinib target.
+- `connects-to` → **[Periostin](../../03-molecular/periostin/README.md)** — Periostin and other matricellular proteins drive the tissue fibrosis of chronic GVHD, the sclerodermatous skin, fasciitis and bronchiolitis-obliterans lung disease that make advanced chronic GVHD so disabling.
 
 [^ferrara-2009-gvhd-review]: Ferrara JL, Levine JE, Reddy P, Holler E. Graft-versus-host disease. *Lancet.* 2009;373(9674):1550-1561. [doi:10.1016/S0140-6736(09)60237-3](https://doi.org/10.1016/S0140-6736(09)60237-3) · [PubMed 19380114](https://pubmed.ncbi.nlm.nih.gov/19380114/)
 [^zeiser-2020-ruxolitinib-gvhd-reach]: Zeiser R, von Bubnoff N, Butler J, et al. Ruxolitinib for Glucocorticoid-Refractory Acute Graft-versus-Host Disease. *N Engl J Med.* 2020;382(19):1800-1810. [doi:10.1056/NEJMoa1917635](https://doi.org/10.1056/NEJMoa1917635) · [PubMed 32374962](https://pubmed.ncbi.nlm.nih.gov/32374962/)

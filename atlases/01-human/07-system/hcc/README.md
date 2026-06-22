@@ -301,6 +301,15 @@ cross_links:
   - target: 01-human/03-molecular/tlr4
     relation: connects-to
     note: "Gut-liver carcinogenesis: gut-derived LPS reaching the cirrhotic liver via the portal vein activates TLR4 on Kupffer cells, sustaining the inflammation that promotes hepatocarcinogenesis on a background of chronic liver disease."
+  - target: 01-human/03-molecular/cgas-sting
+    relation: connects-to
+    note: "Immunogenic instability: the chromosomal instability of HCC generates cytosolic DNA that activates cGAS-STING, part of the innate-immune context behind the responses to atezolizumab-bevacizumab and other checkpoint-based regimens now standard in advanced disease."
+  - target: 01-human/03-molecular/androgen-receptor
+    relation: connects-to
+    note: "Male predominance: hepatocellular carcinoma is two-to-four times commoner in men, and androgen-receptor signalling promotes hepatocarcinogenesis, a hormonal contributor to the striking sex bias of the disease beyond differences in risk-factor exposure."
+  - target: 01-human/03-molecular/hepcidin
+    relation: connects-to
+    note: "Iron-overload carcinogenesis: hepatic iron loading — in hereditary haemochromatosis and dysmetabolic overload — generates oxidative stress that drives hepatocarcinogenesis, with hepcidin dysregulation central to the iron accumulation that raises HCC risk."
 ---
 
 # Hepatocellular Carcinoma
@@ -533,6 +542,9 @@ In high-risk patients (cirrhosis, HBV regardless of cirrhosis): ultrasound ± AF
 - `connects-to` → **[ARID1A](../../03-molecular/arid1a/README.md)** — Inactivating mutations in the SWI/SNF subunit ARID1A are recurrent in hepatocellular carcinoma, disrupting chromatin regulation of tumor-suppressor and differentiation genes—one of the chromatin-remodeler lesions defining HCC genomics.
 - `connects-to` → **[AXL receptor](../../03-molecular/axl-receptor/README.md)** — GAS6-AXL signaling promotes the epithelial-mesenchymal transition and invasion of HCC and drives resistance to sorafenib and immunotherapy, making AXL an emerging combination target in advanced disease.
 - `connects-to` → **[TLR4](../../03-molecular/tlr4/README.md)** — Gut-derived LPS reaching the cirrhotic liver through the portal vein activates TLR4 on Kupffer cells, sustaining the chronic inflammation that promotes hepatocarcinogenesis on the background of cirrhosis from which most HCC arises.
+- `connects-to` → **[cGAS-STING](../../03-molecular/cgas-sting/README.md)** — The chromosomal instability of HCC generates cytosolic DNA that activates cGAS-STING, part of the innate-immune context behind the responses to atezolizumab-bevacizumab and other checkpoint-based regimens now standard in advanced disease.
+- `connects-to` → **[Androgen receptor](../../03-molecular/androgen-receptor/README.md)** — Hepatocellular carcinoma is two-to-four times commoner in men, and androgen-receptor signaling promotes hepatocarcinogenesis, a hormonal contributor to the striking sex bias of the disease beyond differences in risk-factor exposure.
+- `connects-to` → **[Hepcidin](../../03-molecular/hepcidin/README.md)** — Hepatic iron loading—in hereditary hemochromatosis and dysmetabolic overload—generates oxidative stress that drives hepatocarcinogenesis, with hepcidin dysregulation central to the iron accumulation that raises HCC risk.
 
 [^llovet-2008-sorafenib]: Llovet JM, Ricci S, Mazzaferro V, et al. Sorafenib in advanced hepatocellular carcinoma. *N Engl J Med.* 2008;359(4):378-390. [doi:10.1056/NEJMoa0708857](https://doi.org/10.1056/NEJMoa0708857) · [PubMed 18650514](https://pubmed.ncbi.nlm.nih.gov/18650514/)
 [^finn-2020-imbrave150]: Finn RS, Qin S, Ikeda M, et al. Atezolizumab plus bevacizumab in unresectable hepatocellular carcinoma. *N Engl J Med.* 2020;382(20):1894-1905. [doi:10.1056/NEJMoa1915745](https://doi.org/10.1056/NEJMoa1915745) · [PubMed 32402160](https://pubmed.ncbi.nlm.nih.gov/32402160/)
