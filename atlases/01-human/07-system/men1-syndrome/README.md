@@ -295,6 +295,15 @@ cross_links:
   - target: 01-human/03-molecular/rankl
     relation: connects-to
     note: "Hyperparathyroid bone loss: primary hyperparathyroidism, the commonest MEN1 manifestation, drives PTH-stimulated RANKL-mediated osteoclast activity that resorbs bone."
+  - target: 01-human/03-molecular/cdkn1a
+    relation: connects-to
+    note: "Menin-regulated cell-cycle brake: menin transcriptionally activates the CDK inhibitors p21 (CDKN1A) and p27, so MEN1 loss removes these brakes on proliferation in the endocrine cells that form the syndrome's tumours."
+  - target: 01-human/03-molecular/foxo
+    relation: connects-to
+    note: "FOXO interaction: menin interacts with FOXO transcription factors to restrain endocrine-cell proliferation, an antiproliferative axis lost when the MEN1 tumour suppressor is inactivated."
+  - target: 01-human/03-molecular/smad4
+    relation: connects-to
+    note: "TGF-β co-factor: menin potentiates TGF-β/SMAD growth-suppressive signalling, so MEN1 loss disables this antiproliferative pathway in parathyroid, pituitary and pancreatic endocrine cells."
 ---
 
 # MEN1 Syndrome
@@ -507,6 +516,9 @@ Menin haploinsufficiency (one functional allele) creates susceptibility: cells a
 - `connects-to` → **[Dopamine](../../03-molecular/dopamine/README.md)** — Prolactinoma therapy: dopamine agonists are first-line for the prolactin-secreting pituitary adenomas of MEN1, exploiting dopamine's tonic inhibition of pituitary prolactin release.
 - `connects-to` → **[Histamine](../../03-molecular/histamine/README.md)** — Gastrinoma acid: the gastrinomas of MEN1 drive gastrin-stimulated histamine release from ECL cells, causing the gastric acid hypersecretion and ulcers of Zollinger-Ellison syndrome.
 - `connects-to` → **[RANKL](../../03-molecular/rankl/README.md)** — Hyperparathyroid bone loss: primary hyperparathyroidism, the commonest MEN1 manifestation, drives PTH-stimulated RANKL-mediated osteoclast activity that resorbs bone.
+- `connects-to` → **[p21 (CDKN1A)](../../03-molecular/cdkn1a/README.md)** — Menin transcriptionally activates the CDK inhibitors p21 and p27, so MEN1 loss removes these cell-cycle brakes in the endocrine cells that form the parathyroid, pituitary, and pancreatic tumors of the syndrome.
+- `connects-to` → **[FOXO](../../03-molecular/foxo/README.md)** — Menin interacts with FOXO transcription factors to restrain endocrine-cell proliferation, an antiproliferative axis lost when the MEN1 tumor suppressor is inactivated and the endocrine glands become tumor-prone.
+- `connects-to` → **[SMAD4](../../03-molecular/smad4/README.md)** — Menin potentiates TGF-β/SMAD growth-suppressive signaling, so MEN1 loss disables this antiproliferative pathway in parathyroid, pituitary, and pancreatic endocrine cells—one of the tumor-suppressor functions of menin.
 
 ---
 

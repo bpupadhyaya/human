@@ -295,6 +295,15 @@ cross_links:
   - target: 01-human/03-molecular/rankl
     relation: connects-to
     note: "Hyperparathyroid bone loss: primary hyperparathyroidism, the most frequent MEN4 manifestation, drives PTH-stimulated RANKL-mediated osteoclast activity and bone resorption."
+  - target: 01-human/03-molecular/foxo1
+    relation: connects-to
+    note: "p27 transcriptional input: FOXO1 transcriptionally induces p27 (CDKN1B), the very CDK inhibitor whose germline loss defines MEN4 — so the FOXO-p27 axis is the regulatory pathway short-circuited in the syndrome."
+  - target: 01-human/03-molecular/calcitonin
+    relation: connects-to
+    note: "Calcium counter-regulation: with primary hyperparathyroidism the most frequent MEN4 feature, calcitonin from thyroid C cells acts as the physiological counterweight to the PTH-driven hypercalcaemia that results."
+  - target: 01-human/03-molecular/cxcl12
+    relation: connects-to
+    note: "Neuroendocrine metastasis: CXCR4-CXCL12 signalling drives the metastasis of the pancreatic neuroendocrine tumours of the MEN4 spectrum, the spread that worsens prognosis when these tumours progress."
 ---
 
 # MEN4 Syndrome
@@ -499,6 +508,9 @@ When clinical MEN features are present:
 - `connects-to` → **[Dopamine](../../03-molecular/dopamine/README.md)** — Prolactinoma therapy: dopamine agonists treat the prolactin-secreting pituitary adenomas of the MEN4 spectrum, exploiting dopamine's tonic inhibition of pituitary prolactin release.
 - `connects-to` → **[Histamine](../../03-molecular/histamine/README.md)** — Gastrinoma acid: gastrinomas in the MEN4 spectrum drive gastrin-stimulated histamine release from gastric ECL cells, causing the acid hypersecretion of Zollinger-Ellison syndrome.
 - `connects-to` → **[RANKL](../../03-molecular/rankl/README.md)** — Hyperparathyroid bone loss: primary hyperparathyroidism, the most frequent MEN4 manifestation, drives PTH-stimulated RANKL-mediated osteoclast activity and bone resorption.
+- `connects-to` → **[FOXO1](../../03-molecular/foxo1/README.md)** — FOXO1 transcriptionally induces p27 (CDKN1B), the very CDK inhibitor whose germline loss defines MEN4—so the FOXO-p27 axis is the precise regulatory pathway short-circuited in the syndrome's endocrine tumors.
+- `connects-to` → **[Calcitonin](../../03-molecular/calcitonin/README.md)** — With primary hyperparathyroidism the most frequent MEN4 feature, calcitonin from thyroid C cells acts as the physiological counterweight to the PTH-driven hypercalcemia that results from the parathyroid tumors.
+- `connects-to` → **[CXCL12](../../03-molecular/cxcl12/README.md)** — CXCR4-CXCL12 signaling drives the metastasis of the pancreatic neuroendocrine tumors of the MEN4 spectrum, the spread that worsens prognosis when these otherwise indolent tumors progress.
 
 [^alrezk-2017-men4]: Alrezk R, Hannah-Shmouni F, Stratakis CA. MEN4 and CDKN1B mutations: the latest of the MEN syndromes. *Endocr Relat Cancer.* 2017;24(10):T195-T208. [doi:10.1530/ERC-17-0243](https://doi.org/10.1530/ERC-17-0243) · [PubMed 28894007](https://pubmed.ncbi.nlm.nih.gov/28894007/)
 [^pellegata-2006-cdkn1b-men4]: Pellegata NS, Quintanilla-Martinez L, Siggelkow H, et al. Germ-line mutations in p27Kip1 cause a multiple endocrine neoplasia syndrome in rats and humans. *Proc Natl Acad Sci USA.* 2006;103(42):15558-15563. [doi:10.1073/pnas.0603306103](https://doi.org/10.1073/pnas.0603306103) · [PubMed 17030811](https://pubmed.ncbi.nlm.nih.gov/17030811/)
