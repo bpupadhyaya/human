@@ -295,6 +295,15 @@ cross_links:
   - target: 01-human/03-molecular/ccl2
     relation: connects-to
     note: "Tumour-associated macrophages: CCL2 recruits monocytes that become the dense macrophage infiltrate of papillary and especially anaplastic thyroid cancer, where high TAM density correlates with invasion and poor prognosis."
+  - target: 01-human/03-molecular/galectin-3
+    relation: connects-to
+    note: "Diagnostic marker: galectin-3 is strongly expressed in malignant thyroid follicular cells but not benign ones, making its immunohistochemistry a key adjunct for distinguishing papillary and follicular carcinoma from benign nodules on indeterminate biopsies."
+  - target: 01-human/03-molecular/wnt-beta-catenin
+    relation: connects-to
+    note: "Anaplastic dedifferentiation: aberrant Wnt/β-catenin activation accompanies the progression of differentiated thyroid cancer to anaplastic carcinoma, contributing to the loss of iodine-handling differentiation that makes anaplastic disease radioiodine-refractory."
+  - target: 01-human/03-molecular/tgf-beta
+    relation: connects-to
+    note: "Invasion and EMT: TGF-β drives the epithelial-mesenchymal transition that underlies extrathyroidal extension and nodal metastasis in papillary thyroid cancer, while also shaping the immunosuppressive stroma of aggressive tumours."
 ---
 
 # Thyroid Cancer
@@ -531,6 +540,9 @@ Calcitonin doubling time <6 months → poor prognosis → early systemic therapy
 - `connects-to` → **[SSTR2](../../03-molecular/sstr2/README.md)** — Medullary thyroid cancer expresses somatostatin receptor 2, enabling DOTATATE PET to stage disease and peptide-receptor radionuclide therapy in progressive metastatic cases not controlled by RET-targeted kinase inhibitors.
 - `connects-to` → **[EZH2](../../03-molecular/ezh2/README.md)** — EZH2 is upregulated in anaplastic thyroid cancer, where its epigenetic silencing of differentiation and tumor-suppressor genes drives the loss of thyroid identity—including the sodium-iodide symporter—and the explosive growth that makes anaplastic disease nearly uniformly fatal.
 - `connects-to` → **[CCL2](../../03-molecular/ccl2/README.md)** — CCL2 recruits monocytes that become the dense macrophage infiltrate of papillary and especially anaplastic thyroid cancer, where high tumor-associated-macrophage density correlates with extrathyroidal invasion and poor prognosis.
+- `connects-to` → **[Galectin-3](../../03-molecular/galectin-3/README.md)** — Galectin-3 is strongly expressed in malignant thyroid follicular cells but not benign ones, making its immunohistochemistry a key adjunct for distinguishing papillary and follicular carcinoma from benign nodules on indeterminate biopsies.
+- `connects-to` → **[Wnt/β-catenin](../../03-molecular/wnt-beta-catenin/README.md)** — Aberrant Wnt/β-catenin activation accompanies the progression of differentiated thyroid cancer to anaplastic carcinoma, contributing to the loss of iodine-handling differentiation that makes anaplastic disease radioiodine-refractory.
+- `connects-to` → **[TGF-β](../../03-molecular/tgf-beta/README.md)** — TGF-β drives the epithelial-mesenchymal transition that underlies extrathyroidal extension and nodal metastasis in papillary thyroid cancer, while also shaping the immunosuppressive stroma of aggressive tumors.
 
 [^schlumberger-2015-lenvatinib]: Schlumberger M, Tahara M, Wirth LJ, et al. Lenvatinib versus placebo in radioiodine-refractory differentiated thyroid cancer. *N Engl J Med.* 2015;372(7):621-630. [doi:10.1056/NEJMoa1406470](https://doi.org/10.1056/NEJMoa1406470) · [PubMed 25671254](https://pubmed.ncbi.nlm.nih.gov/25671254/)
 [^subbiah-2018-atc-dabrafenib]: Subbiah V, Kreitman RJ, Wainberg ZA, et al. Dabrafenib and trametinib treatment in patients with locally advanced or metastatic BRAF V600-mutant anaplastic thyroid cancer. *J Clin Oncol.* 2018;36(1):7-13. [doi:10.1200/JCO.2017.73.6785](https://doi.org/10.1200/JCO.2017.73.6785) · [PubMed 28892432](https://pubmed.ncbi.nlm.nih.gov/28892432/)

@@ -295,6 +295,15 @@ cross_links:
   - target: 01-human/03-molecular/mhc-class-ii
     relation: connects-to
     note: "Antigen presentation: macrophages and dendritic cells present Mtb antigens on MHC class II to prime the CD4 Th1 cells whose IFN-γ is indispensable for controlling tuberculosis — the basis of its vulnerability in HIV."
+  - target: 01-human/03-molecular/prostaglandins
+    relation: connects-to
+    note: "Macrophage death mode: the balance between prostaglandin E2 and lipoxin A4 in infected macrophages decides whether they die by protective apoptosis, which contains Mtb, or by necrosis, which releases viable bacilli — a host-directed-therapy target in tuberculosis."
+  - target: 01-human/03-molecular/vegf
+    relation: connects-to
+    note: "Granuloma angiogenesis: VEGF drives the abnormal vascularisation of the tuberculous granuloma, and the resulting leaky vessels limit drug penetration, the rationale for VEGF-blocking host-directed therapy to normalise granuloma vasculature."
+  - target: 01-human/03-molecular/hepcidin
+    relation: connects-to
+    note: "Iron nutritional immunity: infection-driven hepcidin sequesters iron inside macrophages to starve Mtb, but this also produces the anaemia of chronic disease common in active tuberculosis, a double-edged host strategy in the fight for iron."
 ---
 
 # Tuberculosis
@@ -521,6 +530,9 @@ Standard **HRZE** regimen [^nahid-2016-tb-treatment]:
 - `connects-to` → **[TLR4](../../03-molecular/tlr4/README.md)** — Toll-like receptors including TLR4 (with TLR2) sense Mycobacterium tuberculosis cell-wall lipids on macrophages, triggering the NF-κB-driven cytokine response that initiates the anti-mycobacterial defense at first contact.
 - `connects-to` → **[cGAS-STING](../../03-molecular/cgas-sting/README.md)** — The Mtb ESX-1 secretion system permeabilizes the phagosome, exposing bacterial DNA to cGAS-STING, which drives both protective autophagy and the type-I interferon that can paradoxically worsen disease—a double-edged innate response.
 - `connects-to` → **[MHC class II](../../03-molecular/mhc-class-ii/README.md)** — Macrophages and dendritic cells present Mtb antigens on MHC class II to prime the CD4 Th1 cells whose IFN-γ is indispensable for controlling tuberculosis—explaining why CD4 depletion in HIV so dramatically raises TB risk.
+- `connects-to` → **[Prostaglandins](../../03-molecular/prostaglandins/README.md)** — The balance between prostaglandin E2 and lipoxin A4 in infected macrophages decides whether they die by protective apoptosis, which contains Mtb, or by necrosis, which releases viable bacilli—a host-directed-therapy target in tuberculosis.
+- `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — VEGF drives the abnormal vascularization of the tuberculous granuloma, and the resulting leaky vessels limit drug penetration, the rationale for VEGF-blocking host-directed therapy to normalize granuloma vasculature.
+- `connects-to` → **[Hepcidin](../../03-molecular/hepcidin/README.md)** — Infection-driven hepcidin sequesters iron inside macrophages to starve Mtb, but this also produces the anemia of chronic disease common in active tuberculosis, a double-edged host strategy in the fight for iron.
 
 ## See Also
 
