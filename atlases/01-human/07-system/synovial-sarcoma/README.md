@@ -295,6 +295,15 @@ cross_links:
   - target: 01-human/03-molecular/cxcl12
     relation: connects-to
     note: "Pulmonary homing: CXCR4 on synovial-sarcoma cells responds to CXCL12 gradients toward the lung, contributing to the pulmonary metastases that are the principal cause of death in this sarcoma."
+  - target: 01-human/03-molecular/cdk4-6
+    relation: connects-to
+    note: "Cell-cycle target: CDKN2A loss is common in synovial sarcoma, releasing CDK4/6-cyclin-D to drive the cell cycle and providing a rationale for CDK4/6 inhibitors in tumours that have deleted their p16 brake."
+  - target: 01-human/03-molecular/ccl2
+    relation: connects-to
+    note: "Immunosuppressive niche: CCL2 recruits tumour-associated macrophages into synovial sarcoma, building a myeloid-rich immunosuppressive microenvironment that helps explain the limited efficacy of checkpoint blockade despite the tumour's NY-ESO-1 antigen."
+  - target: 01-human/03-molecular/caspase-3
+    relation: connects-to
+    note: "Chemotherapy apoptosis: synovial sarcoma is one of the more chemosensitive soft-tissue sarcomas, and doxorubicin and ifosfamide kill its cells through caspase-3-mediated apoptosis, the cytotoxic backbone of treatment alongside surgery."
 ---
 
 # Synovial Sarcoma
@@ -513,6 +522,9 @@ SS has low TMB (~1-2 mut/Mb) and variable PD-L1 expression; ICB response rates ~
 - `connects-to` → **[Notch](../../03-molecular/notch/README.md)** — The SS18-SSX fusion reactivates Notch alongside Wnt signaling in synovial sarcoma, redeploying a developmental program to sustain the proliferation of this monomorphic blue-cell tumor—part of the aberrant transcriptional state the fusion creates.
 - `connects-to` → **[TGF-β](../../03-molecular/tgf-beta/README.md)** — TGF-β in the synovial-sarcoma microenvironment promotes an EMT-like invasive phenotype and excludes T cells—a barrier directly relevant to the engineered NY-ESO-1 TCR T-cell therapies (afami-cel) now approved for the disease.
 - `connects-to` → **[CXCL12](../../03-molecular/cxcl12/README.md)** — CXCR4 on synovial-sarcoma cells responds to CXCL12 gradients toward the lung, contributing to the pulmonary metastases that are the principal cause of death in this otherwise often slow-growing sarcoma.
+- `connects-to` → **[CDK4/6](../../03-molecular/cdk4-6/README.md)** — CDKN2A loss is common in synovial sarcoma, releasing CDK4/6-cyclin-D to drive the cell cycle and providing a rationale for CDK4/6 inhibitors in tumors that have deleted their p16 brake.
+- `connects-to` → **[CCL2](../../03-molecular/ccl2/README.md)** — CCL2 recruits tumor-associated macrophages into synovial sarcoma, building a myeloid-rich immunosuppressive microenvironment that helps explain the limited efficacy of checkpoint blockade despite the tumor's NY-ESO-1 antigen.
+- `connects-to` → **[Caspase-3](../../03-molecular/caspase-3/README.md)** — Synovial sarcoma is one of the more chemosensitive soft-tissue sarcomas, and doxorubicin and ifosfamide kill its cells through caspase-3-mediated apoptosis, the cytotoxic backbone of treatment alongside surgery.
 
 ---
 

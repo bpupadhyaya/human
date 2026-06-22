@@ -301,6 +301,15 @@ cross_links:
   - target: 01-human/03-molecular/ccl2
     relation: connects-to
     note: "Glandular infiltration: CCL2 recruits monocytes into the inflamed salivary and lacrimal glands of Sjögren's, building the macrophage component of the lymphocytic infiltrate that destroys secretory tissue."
+  - target: 01-human/03-molecular/cxcl12
+    relation: connects-to
+    note: "Ectopic lymphoid neogenesis: CXCL12 helps organise the tertiary lymphoid structures with germinal centres that form within Sjögren's salivary glands, the ectopic B-cell follicles that drive local autoantibody production and mark lymphoma-prone disease."
+  - target: 01-human/03-molecular/bcl-2
+    relation: connects-to
+    note: "Lymphomagenesis: chronic BAFF-driven B-cell survival via anti-apoptotic BCL-2 underlies Sjögren's uniquely high risk of MALT lymphoma, the transformation of the persistently stimulated glandular B-cell clones into malignancy."
+  - target: 01-human/03-molecular/il-33
+    relation: connects-to
+    note: "Epithelial alarmin: IL-33 released from stressed salivary-gland epithelium is elevated in Sjögren's, acting as an alarmin that amplifies the innate and type-2 inflammation injuring the secretory tissue."
 ---
 
 # Sjögren's Syndrome
@@ -525,6 +534,9 @@ Sjögren's syndrome can occur:
 - `connects-to` → **[BTK](../../03-molecular/btk/README.md)** — BTK transduces the B-cell-receptor signals driving the autoreactive B-cell expansion of Sjögren's—the target of BTK inhibitors in trials and a node relevant to the markedly elevated risk of MALT lymphoma that distinguishes this disease.
 - `connects-to` → **[CTLA-4](../../03-molecular/ctla-4/README.md)** — Abatacept (CTLA-4-Ig) blocks the CD28 costimulation activating the glandular T cells of Sjögren's syndrome, a costimulation-blockade strategy tested to interrupt the autoimmune attack on the exocrine tissue.
 - `connects-to` → **[CCL2](../../03-molecular/ccl2/README.md)** — CCL2 recruits monocytes into the inflamed salivary and lacrimal glands of Sjögren's, building the macrophage component of the lymphocytic infiltrate that progressively destroys the secretory tissue and causes the sicca symptoms.
+- `connects-to` → **[CXCL12](../../03-molecular/cxcl12/README.md)** — CXCL12 helps organize the tertiary lymphoid structures with germinal centers that form within Sjögren's salivary glands, the ectopic B-cell follicles that drive local autoantibody production and mark lymphoma-prone disease.
+- `connects-to` → **[BCL-2](../../03-molecular/bcl-2/README.md)** — Chronic BAFF-driven B-cell survival via anti-apoptotic BCL-2 underlies Sjögren's uniquely high risk of MALT lymphoma, the transformation of persistently stimulated glandular B-cell clones into malignancy.
+- `connects-to` → **[IL-33](../../03-molecular/il-33/README.md)** — IL-33 released from stressed salivary-gland epithelium is elevated in Sjögren's, acting as an alarmin that amplifies the innate and type-2 inflammation injuring the secretory tissue.
 
 ---
 
