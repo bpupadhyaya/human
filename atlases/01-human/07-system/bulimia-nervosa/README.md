@@ -306,6 +306,15 @@ cross_links:
   - target: 01-human/03-molecular/thyroid-hormones
     relation: connects-to
     note: "Metabolic dysregulation: the binge-purge-restrict cycle of bulimia disturbs thyroid-hormone economy (often a low-T3 adaptation), and surreptitious thyroid-hormone misuse for weight control is a recognised complication."
+  - target: 01-human/03-molecular/fgfr
+    relation: connects-to
+    note: "Sweet-binge regulation: FGF21 signalling through FGFR1c with β-Klotho suppresses the preference for sugar and sweet foods, a metabolic appetite axis relevant to the carbohydrate-rich binges that characterise bulimia nervosa."
+  - target: 01-human/03-molecular/acetylcholine
+    relation: connects-to
+    note: "Satiety signal: acetylcholine from accumbens cholinergic interneurons signals meal termination, and dysfunction of this striatal off-switch is implicated in the loss-of-control overeating that defines a bulimic binge."
+  - target: 01-human/03-molecular/vasopressin
+    relation: connects-to
+    note: "Fluid dysregulation: repeated vomiting and laxative abuse activate vasopressin and the renin-angiotensin system, and the rebound fluid retention on stopping purging — pseudo-Bartter syndrome with oedema — is a distressing complication of bulimia recovery."
 ---
 
 # Bulimia Nervosa
@@ -531,6 +540,9 @@ All of the following must be met:
 - `connects-to` → **[Histamine](../../03-molecular/histamine/README.md)** — Central H1 histamine signaling restrains appetite, and its modulation influences binge eating—the same axis whose blockade by some psychiatric drugs provokes the overeating relevant to the appetite dysregulation of bulimia.
 - `connects-to` → **[Progesterone](../../03-molecular/progesterone/README.md)** — Binge-purge frequency in bulimia fluctuates across the menstrual cycle, with the high-progesterone/low-estrogen phases associated with more bingeing—implicating ovarian-hormone modulation of appetite and reward in the disorder.
 - `connects-to` → **[Thyroid hormones](../../03-molecular/thyroid-hormones/README.md)** — The binge-purge-restrict cycle of bulimia disturbs thyroid-hormone economy (often a low-T3 adaptation to erratic intake), and surreptitious thyroid-hormone misuse for weight control is a recognized and dangerous complication.
+- `connects-to` → **[FGFR](../../03-molecular/fgfr/README.md)** — FGF21 signaling through FGFR1c with β-Klotho suppresses the preference for sugar and sweet foods, a metabolic appetite axis relevant to the carbohydrate-rich binges that characterize bulimia nervosa.
+- `connects-to` → **[Acetylcholine](../../03-molecular/acetylcholine/README.md)** — Acetylcholine from accumbens cholinergic interneurons signals meal termination, and dysfunction of this striatal off-switch is implicated in the loss-of-control overeating that defines a bulimic binge.
+- `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — Repeated vomiting and laxative abuse activate vasopressin and the renin-angiotensin system, and the rebound fluid retention on stopping purging—pseudo-Bartter syndrome with edema—is a distressing complication of bulimia recovery.
 
 ## Treatment
 

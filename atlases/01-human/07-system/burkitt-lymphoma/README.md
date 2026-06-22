@@ -304,6 +304,15 @@ cross_links:
   - target: 01-human/03-molecular/mdm2
     relation: connects-to
     note: "p53 restraint: MDM2 restrains the strong pro-apoptotic p53 response that MYC overexpression provokes, so the MDM2-p53 balance shapes how readily Burkitt cells die — relevant when TP53 is intact."
+  - target: 01-human/03-molecular/lmp1
+    relation: connects-to
+    note: "EBV cofactor: endemic Burkitt lymphoma is driven by Epstein-Barr virus together with chronic malaria, and the EBV-infected germinal-centre B cell is the cell of origin in which the MYC translocation arises in the African childhood form."
+  - target: 01-human/03-molecular/immunoglobulin-g
+    relation: connects-to
+    note: "Translocation and BCR: the defining t(8;14) places MYC under the control of the immunoglobulin heavy-chain enhancer, driving its overexpression, and tonic B-cell-receptor signalling further sustains the Burkitt cell — the basis for BTK and PI3K targeting."
+  - target: 01-human/03-molecular/perforin
+    relation: connects-to
+    note: "Immunotherapy: CD19-directed CAR-T cells and the CD19-CD3 bispecific blinatumomab redirect cytotoxic T cells to kill Burkitt cells through perforin and granzyme, an emerging option in relapsed or refractory disease."
 ---
 
 # Burkitt Lymphoma
@@ -534,6 +543,9 @@ FISH for MYC, BCL2, and BCL6 is essential; if BCL2 FISH negative and Ki-67 ~100%
 - `connects-to` → **[BTK](../../03-molecular/btk/README.md)** — BTK transduces the tonic B-cell-receptor signal that, with PI3K, sustains Burkitt lymphoma—a tonic rather than chronic-active BCR dependency that distinguishes its signaling from other aggressive B-cell lymphomas.
 - `connects-to` → **[CXCL12](../../03-molecular/cxcl12/README.md)** — CXCR4 on Burkitt cells follows CXCL12 gradients into the bone marrow and central nervous system, the dissemination pattern that makes intensive CNS-directed prophylaxis essential in Burkitt-lymphoma therapy.
 - `connects-to` → **[MDM2](../../03-molecular/mdm2/README.md)** — MDM2 restrains the strong pro-apoptotic p53 response that MYC overexpression provokes, so the MDM2-p53 balance shapes how readily Burkitt cells undergo apoptosis when their TP53 is still intact.
+- `connects-to` → **[LMP1](../../03-molecular/lmp1/README.md)** — Endemic Burkitt lymphoma is driven by Epstein-Barr virus together with chronic malaria, and the EBV-infected germinal-center B cell is the cell of origin in which the MYC translocation arises in the African childhood form.
+- `connects-to` → **[Immunoglobulin G](../../03-molecular/immunoglobulin-g/README.md)** — The defining t(8;14) places MYC under the control of the immunoglobulin heavy-chain enhancer, driving its overexpression, and tonic B-cell-receptor signaling further sustains the Burkitt cell—the basis for BTK and PI3K targeting.
+- `connects-to` → **[Perforin](../../03-molecular/perforin/README.md)** — CD19-directed CAR-T cells and the CD19-CD3 bispecific blinatumomab redirect cytotoxic T cells to kill Burkitt cells through perforin and granzyme, an emerging option in relapsed or refractory disease.
 
 ---
 
