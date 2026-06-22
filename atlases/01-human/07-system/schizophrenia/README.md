@@ -304,6 +304,15 @@ cross_links:
   - target: 01-human/03-molecular/type-i-interferon
     relation: connects-to
     note: "Maternal immune activation: prenatal type-I-interferon responses to infection raise schizophrenia risk, a key strand of the neurodevelopmental immune hypothesis linking gestational inflammation to later psychosis."
+  - target: 01-human/03-molecular/mhc-class-ii
+    relation: connects-to
+    note: "Strongest risk locus: the MHC region on chromosome 6 holds schizophrenia's largest genetic signal, driven largely by complement C4 alleles that increase synaptic pruning — tying the immune-gene locus to the loss of cortical synapses seen in the disease."
+  - target: 01-human/03-molecular/adenosine
+    relation: connects-to
+    note: "Purinergic modulation: the adenosine hypothesis holds that deficient adenosine signalling disinhibits dopamine and glutamate transmission, and adenosine A2A receptors that heteromerise with dopamine D2 receptors are an emerging antipsychotic target."
+  - target: 01-human/03-molecular/calcineurin
+    relation: connects-to
+    note: "Synaptic-signalling risk gene: the calcineurin subunit gene PPP3CC is associated with schizophrenia, and calcineurin-knockout mice show schizophrenia-like deficits — implicating this NMDA-coupled phosphatase in the synaptic dysfunction of psychosis."
 ---
 
 # Schizophrenia
@@ -563,6 +572,9 @@ Notably, schizophrenia shares genetic loci with bipolar disorder, ASD, ADHD, maj
 - `connects-to` → **[Nitric oxide](../../03-molecular/nitric-oxide/README.md)** — The schizophrenia risk gene NOS1AP regulates neuronal nitric-oxide synthase, tying NO signaling at the NMDA-receptor synapse to the glutamatergic dysfunction implicated in the disorder—a molecular bridge between a genetic locus and the NMDA-hypofunction model.
 - `connects-to` → **[GSK-3β](../../03-molecular/gsk-3b/README.md)** — Dopamine D2 and DISC1 signaling converge on GSK-3β, a kinase governing neurodevelopment and synaptic plasticity whose dysregulation is implicated in schizophrenia and which is inhibited by lithium and other mood stabilizers.
 - `connects-to` → **[Type I interferon](../../03-molecular/type-i-interferon/README.md)** — Prenatal type-I-interferon responses to maternal infection raise schizophrenia risk, a key strand of the neurodevelopmental immune hypothesis linking gestational inflammation to psychosis emerging decades later.
+- `connects-to` → **[MHC class II](../../03-molecular/mhc-class-ii/README.md)** — The MHC region on chromosome 6 holds schizophrenia's largest genetic signal, driven largely by complement C4 alleles that increase synaptic pruning—tying the immune-gene locus to the loss of cortical synapses seen in the disease.
+- `connects-to` → **[Adenosine](../../03-molecular/adenosine/README.md)** — The adenosine hypothesis holds that deficient adenosine signaling disinhibits dopamine and glutamate transmission, and adenosine A2A receptors that heteromerize with dopamine D2 receptors are an emerging antipsychotic target.
+- `connects-to` → **[Calcineurin](../../03-molecular/calcineurin/README.md)** — The calcineurin subunit gene PPP3CC is associated with schizophrenia, and calcineurin-knockout mice show schizophrenia-like deficits—implicating this NMDA-coupled phosphatase in the synaptic dysfunction of psychosis.
 
 [^howes-2009-dopamine-hypothesis]: Howes OD, Kapur S. The dopamine hypothesis of schizophrenia: version III—the final common pathway. *Schizophr Bull.* 2009;35(3):549-562. [doi:10.1093/schbul/sbp006](https://doi.org/10.1093/schbul/sbp006) · [PubMed 19325164](https://pubmed.ncbi.nlm.nih.gov/19325164/)
 [^moghaddam-2012-glutamate]: Moghaddam B, Javitt D. From revolution to evolution: the glutamate hypothesis of schizophrenia and its implication for treatment. *Neuropsychopharmacology.* 2012;37(1):4-15. [doi:10.1038/npp.2011.181](https://doi.org/10.1038/npp.2011.181) · [PubMed 21956446](https://pubmed.ncbi.nlm.nih.gov/21956446/)

@@ -295,6 +295,15 @@ cross_links:
   - target: 01-human/03-molecular/caspase-3
     relation: connects-to
     note: "Apoptotic clearance: cells in Rothmund-Thomson that accumulate irreparable DNA damage from RECQL4 loss undergo caspase-3-mediated apoptosis, the cell-loss that contributes to the poikiloderma and tissue atrophy of the syndrome."
+  - target: 01-human/03-molecular/xanthine-oxidase
+    relation: connects-to
+    note: "Oxidative stress: RECQL4 has a mitochondrial role beyond nuclear DNA repair, and its loss raises reactive-oxygen-species production from sources such as xanthine oxidase, compounding the oxidative DNA damage that drives the premature cellular ageing of Rothmund-Thomson."
+  - target: 01-human/03-molecular/cgas-sting
+    relation: connects-to
+    note: "Inflammaging: RECQL4-deficient cells accumulate micronuclei and cytosolic DNA that activate cGAS-STING, generating the chronic type-I-interferon inflammation characteristic of progeroid genome-instability syndromes."
+  - target: 01-human/03-molecular/pdgf
+    relation: connects-to
+    note: "Osteosarcoma predisposition: Rothmund-Thomson confers a markedly raised risk of osteosarcoma, the bone tumour whose growth and angiogenesis are sustained by PDGFR signalling — linking the RECQL4 DNA-repair defect to its characteristic malignancy."
 ---
 
 # Rothmund-Thomson Syndrome
@@ -524,6 +533,9 @@ The cardinal features of RTS type II are: (1) **poikiloderma** — the defining 
 - `connects-to` → **[p21 (CDKN1A)](../../03-molecular/cdkn1a/README.md)** — The genomic instability of RECQL4-deficient Rothmund-Thomson cells triggers the p53-p21 checkpoint, arresting cells with unresolved replication damage—a brake that protects against cancer but also contributes to the syndrome's growth deficiency.
 - `connects-to` → **[RANKL](../../03-molecular/rankl/README.md)** — Rothmund-Thomson carries a high osteosarcoma risk and skeletal dysplasia, and RANKL-driven osteoclast activity shapes the abnormal bone remodeling that underlies both the radial-ray and skeletal defects and the bone tumors.
 - `connects-to` → **[Caspase-3](../../03-molecular/caspase-3/README.md)** — Cells in Rothmund-Thomson that accumulate irreparable DNA damage from RECQL4 loss undergo caspase-3-mediated apoptosis—the cell loss that contributes to the poikiloderma and tissue atrophy characteristic of the syndrome.
+- `connects-to` → **[Xanthine Oxidase](../../03-molecular/xanthine-oxidase/README.md)** — RECQL4 has a mitochondrial role beyond nuclear DNA repair, and its loss raises reactive-oxygen-species production from sources such as xanthine oxidase, compounding the oxidative DNA damage that drives the premature cellular aging of Rothmund-Thomson.
+- `connects-to` → **[cGAS-STING](../../03-molecular/cgas-sting/README.md)** — RECQL4-deficient cells accumulate micronuclei and cytosolic DNA that activate cGAS-STING, generating the chronic type-I-interferon inflammation characteristic of progeroid genome-instability syndromes.
+- `connects-to` → **[PDGF](../../03-molecular/pdgf/README.md)** — Rothmund-Thomson confers a markedly raised risk of osteosarcoma, the bone tumor whose growth and angiogenesis are sustained by PDGFR signaling—linking the RECQL4 DNA-repair defect to its characteristic malignancy.
 
 [^kitao-1999-recql4-rts]: Kitao S, Shimamoto A, Goto M, et al. Mutations in RECQL4 cause a subset of cases of Rothmund-Thomson syndrome. *Nat Genet.* 1999;22(1):82-84. [doi:10.1038/8788](https://doi.org/10.1038/8788) · [PubMed 10319867](https://pubmed.ncbi.nlm.nih.gov/10319867/)
 [^wang-2003-rts-cancer]: Wang LL, Gannavarapu A, Kozinetz CA, et al. Association between osteosarcoma and deleterious mutations in the RECQL4 gene in Rothmund-Thomson syndrome. *J Natl Cancer Inst.* 2003;95(9):669-674. [doi:10.1093/jnci/95.9.669](https://doi.org/10.1093/jnci/95.9.669) · [PubMed 12734318](https://pubmed.ncbi.nlm.nih.gov/12734318/)
