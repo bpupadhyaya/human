@@ -304,6 +304,15 @@ cross_links:
   - target: 01-human/03-molecular/nitric-oxide
     relation: connects-to
     note: "Endothelial tipping point: HIT antibodies activate endothelium and reduce its nitric-oxide output, removing a key antithrombotic brake and shifting the vessel wall toward the thrombosis that defines the syndrome."
+  - target: 01-human/03-molecular/s100a8-a9
+    relation: connects-to
+    note: "NET amplification: activated neutrophils releasing S100A8/A9 and extracellular traps (NETs) scaffold and amplify the immunothrombosis of HIT, adding an innate-immune amplifier to the platelet-driven clotting that makes the syndrome so prothrombotic."
+  - target: 01-human/03-molecular/baff
+    relation: connects-to
+    note: "Transient antibody response: BAFF-supported B cells generate the anti-PF4/heparin IgG that drives HIT, an unusually rapid and transient antibody response without lasting memory, explaining why the antibodies wane and re-exposure can sometimes be tolerated."
+  - target: 01-human/03-molecular/tlr4
+    relation: connects-to
+    note: "Innate priming: PF4-heparin immune complexes engage innate receptors including TLR4 on monocytes, driving the tissue-factor expression and inflammatory state that couples the immune response to the thrombin generation behind HIT thrombosis."
 ---
 
 # Heparin-Induced Thrombocytopenia
@@ -543,6 +552,9 @@ Platelet consumption → thrombocytopenia (paradox: clotting despite low platele
 - `connects-to` → **[Prostaglandins](../../03-molecular/prostaglandins/README.md)** — FcγRIIa-activated platelets in HIT generate thromboxane A2, a prostanoid that recruits and aggregates further platelets, amplifying the prothrombotic cascade well beyond the initial PF4–heparin–IgG immune trigger.
 - `connects-to` → **[CCL2](../../03-molecular/ccl2/README.md)** — PF4–heparin immune complexes engage monocyte FcγRIIa alongside CCL2-driven recruitment, inducing the tissue-factor expression that fuels the intense thrombin generation underlying the paradoxical thrombosis of HIT.
 - `connects-to` → **[Nitric oxide](../../03-molecular/nitric-oxide/README.md)** — HIT antibodies activate endothelium and reduce its nitric-oxide output, removing a key antithrombotic brake and shifting the vessel wall toward the venous and arterial thrombosis that defines the dangerous form of the syndrome.
+- `connects-to` → **[S100A8/A9](../../03-molecular/s100a8-a9/README.md)** — Activated neutrophils releasing S100A8/A9 and extracellular traps (NETs) scaffold and amplify the immunothrombosis of HIT, adding an innate-immune amplifier to the platelet-driven clotting that makes the syndrome so prothrombotic.
+- `connects-to` → **[BAFF](../../03-molecular/baff/README.md)** — BAFF-supported B cells generate the anti-PF4/heparin IgG that drives HIT, an unusually rapid and transient antibody response without lasting memory, explaining why the antibodies wane and re-exposure can sometimes be tolerated.
+- `connects-to` → **[TLR4](../../03-molecular/tlr4/README.md)** — PF4-heparin immune complexes engage innate receptors including TLR4 on monocytes, driving the tissue-factor expression and inflammatory state that couples the immune response to the thrombin generation behind HIT thrombosis.
 
 [^warkentin-2007-hit-review]: Warkentin TE, Greinacher A. Heparin-induced thrombocytopenia: recognition, treatment, and prevention. *Chest.* 2004;126(3 Suppl):311S-337S. [doi:10.1378/chest.126.3_suppl.311S](https://doi.org/10.1378/chest.126.3_suppl.311S) · [PubMed 15383477](https://pubmed.ncbi.nlm.nih.gov/15383477/)
 [^greinacher-2021-vitt-nejm]: Greinacher A, Thiele T, Warkentin TE, et al. Thrombotic thrombocytopenia after ChAdOx1 nCov-19 vaccination. *N Engl J Med.* 2021;384(22):2092-2101. [doi:10.1056/NEJMoa2104840](https://doi.org/10.1056/NEJMoa2104840) · [PubMed 33835769](https://pubmed.ncbi.nlm.nih.gov/33835769/)
