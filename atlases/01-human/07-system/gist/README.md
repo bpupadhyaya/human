@@ -295,6 +295,15 @@ cross_links:
   - target: 01-human/03-molecular/ccl2
     relation: connects-to
     note: "Macrophage microenvironment: CCL2 recruits tumour-associated macrophages into the GIST stroma, shaping a microenvironment that supports tumour growth and modulates response to therapy."
+  - target: 01-human/03-molecular/caspase-3
+    relation: connects-to
+    note: "Imatinib apoptosis: imatinib kills GIST cells by relieving the anti-apoptotic signal of the mutant KIT receptor, restoring caspase-3-mediated apoptosis — the basis for the dramatic responses that transformed GIST therapy."
+  - target: 01-human/03-molecular/cxcl12
+    relation: connects-to
+    note: "Metastatic homing: CXCR4 on GIST cells follows CXCL12 gradients to the liver and peritoneum, the dominant sites of the metastatic spread that determines prognosis in the disease."
+  - target: 01-human/03-molecular/egln1
+    relation: connects-to
+    note: "Pseudohypoxia in SDH-deficient GIST: in wild-type GIST with SDH deficiency, accumulating succinate inhibits the EGLN1/PHD prolyl hydroxylases that mark HIF for degradation, locking in a pseudohypoxic programme shared with SDH-mutant paraganglioma."
 ---
 
 # GIST
@@ -518,6 +527,9 @@ No approved targeted therapy; sunitinib may have modest activity; clinical trial
 - `connects-to` → **[CDKN2A](../../03-molecular/cdkn2a/README.md)** — Progression and resistance: CDKN2A deletion releases the cell-cycle brake in GIST, marking malignant progression and contributing to resistance to KIT-targeted imatinib therapy.
 - `connects-to` → **[p53](../../03-molecular/p53/README.md)** — High-risk transformation: TP53 alterations accumulate as GIST progresses from low-risk to high-grade, metastatic disease, beyond the initiating KIT or PDGFRA mutation.
 - `connects-to` → **[CCL2](../../03-molecular/ccl2/README.md)** — Macrophage microenvironment: CCL2 recruits tumour-associated macrophages into the GIST stroma, shaping a microenvironment that supports tumour growth and modulates response to therapy.
+- `connects-to` → **[Caspase-3](../../03-molecular/caspase-3/README.md)** — Imatinib kills GIST cells by relieving the anti-apoptotic signal of the mutant KIT receptor, restoring caspase-3-mediated apoptosis—the basis for the dramatic responses that made GIST the paradigm of targeted therapy in solid tumors.
+- `connects-to` → **[CXCL12](../../03-molecular/cxcl12/README.md)** — CXCR4 on GIST cells follows CXCL12 gradients to the liver and peritoneum, the dominant sites of the metastatic spread that, more than the primary tumor, determines prognosis in the disease.
+- `connects-to` → **[EGLN1 (PHD2)](../../03-molecular/egln1/README.md)** — In wild-type GIST with SDH deficiency, accumulating succinate inhibits the EGLN1/PHD prolyl hydroxylases that mark HIF for degradation, locking in a pseudohypoxic program shared with SDH-mutant paraganglioma and pheochromocytoma.
 
 ---
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
