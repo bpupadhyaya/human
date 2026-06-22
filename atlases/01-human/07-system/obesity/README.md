@@ -307,6 +307,15 @@ cross_links:
   - target: 01-human/03-molecular/tlr4
     relation: connects-to
     note: "Lipid-induced inflammation: saturated fatty acids directly activate TLR4 on adipocytes and macrophages, igniting the NF-κB-driven metaflammation that mechanistically links obesity to insulin resistance."
+  - target: 01-human/03-molecular/bdnf
+    relation: connects-to
+    note: "Central appetite control: BDNF signalling through TrkB sits downstream of the hypothalamic melanocortin (MC4R) pathway controlling energy balance, and rare BDNF/TrkB mutations cause severe early-onset human obesity, marking it as a core appetite regulator."
+  - target: 01-human/03-molecular/fgfr
+    relation: connects-to
+    note: "Energy-expenditure signalling: FGF21 acting through FGFR1c with β-Klotho promotes fat oxidation, browning of white adipose tissue and energy expenditure, an endocrine axis being targeted by FGF21 analogues for obesity and its metabolic complications."
+  - target: 01-human/03-molecular/vegf
+    relation: connects-to
+    note: "Adipose angiogenesis: expanding fat depots require VEGF-driven angiogenesis to vascularise, and when adipose growth outstrips its blood supply the resulting hypoxia drives the inflammation and fibrosis of dysfunctional obese adipose tissue."
 ---
 
 # Obesity
@@ -543,6 +552,9 @@ This **metainflammation** mechanistically links obesity to type 2 diabetes, athe
 - `connects-to` → **[Endocannabinoid](../../03-molecular/endocannabinoid/README.md)** — An overactive endocannabinoid system stimulates CB1 receptors in the hypothalamus and adipose tissue to promote feeding and fat storage—the target of the CB1 antagonist rimonabant, withdrawn for psychiatric effects but validating the pathway in obesity.
 - `connects-to` → **[Orexin](../../03-molecular/orexin/README.md)** — Hypothalamic orexin integrates arousal with feeding behavior and energy expenditure, part of the central circuitry whose dysregulation contributes to the disordered appetite control and reduced spontaneous activity of obesity.
 - `connects-to` → **[TLR4](../../03-molecular/tlr4/README.md)** — Saturated fatty acids directly activate TLR4 on adipocytes and macrophages, igniting the NF-κB-driven "metaflammation" that mechanistically links the excess lipid of obesity to systemic insulin resistance and type 2 diabetes.
+- `connects-to` → **[BDNF](../../03-molecular/bdnf/README.md)** — BDNF signaling through TrkB sits downstream of the hypothalamic melanocortin (MC4R) pathway controlling energy balance, and rare BDNF/TrkB mutations cause severe early-onset human obesity, marking it as a core appetite regulator.
+- `connects-to` → **[FGFR](../../03-molecular/fgfr/README.md)** — FGF21 acting through FGFR1c with β-Klotho promotes fat oxidation, browning of white adipose tissue and energy expenditure, an endocrine axis being targeted by FGF21 analogues for obesity and its metabolic complications.
+- `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — Expanding fat depots require VEGF-driven angiogenesis to vascularize, and when adipose growth outstrips its blood supply the resulting hypoxia drives the inflammation and fibrosis of dysfunctional obese adipose tissue.
 
 [^bluher-2019-obesity-review]: Blüher M. Obesity: global epidemiology and pathogenesis. *Nat Rev Endocrinol.* 2019;15(5):288-298. [doi:10.1038/s41574-019-0176-8](https://doi.org/10.1038/s41574-019-0176-8) · [PubMed 30814686](https://pubmed.ncbi.nlm.nih.gov/30814686/)
 [^wilding-2021-semaglutide-step1]: Wilding JPH, Batterham RL, Calanna S, et al. Once-weekly semaglutide in adults with overweight or obesity. *N Engl J Med.* 2021;384(11):989-1002. [doi:10.1056/NEJMoa2032183](https://doi.org/10.1056/NEJMoa2032183) · [PubMed 33567185](https://pubmed.ncbi.nlm.nih.gov/33567185/)

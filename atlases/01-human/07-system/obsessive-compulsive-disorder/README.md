@@ -314,6 +314,15 @@ cross_links:
   - target: 01-human/03-molecular/mu-opioid-receptor
     relation: connects-to
     note: "Striatal reward: opioid signalling in the striatum shapes the sense of reward and 'completeness' whose disturbance drives compulsions, and opioid-modulating agents have been explored in treatment-resistant OCD."
+  - target: 01-human/03-molecular/acetylcholine
+    relation: connects-to
+    note: "Striatal cholinergic tone: striatal cholinergic interneurons modulate the cortico-striato-thalamo-cortical circuit central to OCD, and their dysfunction is part of the overlap between OCD and the tic disorders that often co-occur with it."
+  - target: 01-human/03-molecular/substance-p
+    relation: connects-to
+    note: "Basal-ganglia peptide: substance P and its NK1 receptor are richly expressed in the basal-ganglia circuits implicated in OCD, a neuropeptide modulator of the striatal pathways whose dysregulation contributes to repetitive, compulsive behaviour."
+  - target: 01-human/03-molecular/nitric-oxide
+    relation: connects-to
+    note: "Nitrergic signalling: neuronal nitric-oxide synthase shapes glutamatergic transmission and synaptic plasticity in the cortico-striatal circuit, and nNOS gene variants have been associated with OCD, implicating the nitrergic system in its pathophysiology."
 ---
 
 # Obsessive-Compulsive Disorder
@@ -537,6 +546,9 @@ OCD is often underdiagnosed due to shame and secrecy. Mean time from symptom ons
 - `connects-to` → **[Estrogen](../../03-molecular/estrogen/README.md)** — OCD onset and symptom severity fluctuate with reproductive events—pregnancy, postpartum, and the premenstrual phase—implicating estrogen's modulation of the serotonergic circuits that underlie the disorder and its treatment response.
 - `connects-to` → **[TLR4](../../03-molecular/tlr4/README.md)** — Imaging shows microglial activation in the cortico-striatal circuits of OCD, and TLR4-driven innate immune signaling is a candidate mechanism linking infection and inflammation (as in PANDAS) to symptom flares.
 - `connects-to` → **[μ-opioid receptor](../../03-molecular/mu-opioid-receptor/README.md)** — Opioid signaling in the striatum shapes the sense of reward and "completeness" whose disturbance drives the need to repeat compulsions, and opioid-modulating agents have been explored in treatment-resistant OCD.
+- `connects-to` → **[Acetylcholine](../../03-molecular/acetylcholine/README.md)** — Striatal cholinergic interneurons modulate the cortico-striato-thalamo-cortical circuit central to OCD, and their dysfunction is part of the overlap between OCD and the tic disorders that often co-occur with it.
+- `connects-to` → **[Substance P](../../03-molecular/substance-p/README.md)** — Substance P and its NK1 receptor are richly expressed in the basal-ganglia circuits implicated in OCD, a neuropeptide modulator of the striatal pathways whose dysregulation contributes to repetitive, compulsive behavior.
+- `connects-to` → **[Nitric oxide](../../03-molecular/nitric-oxide/README.md)** — Neuronal nitric-oxide synthase shapes glutamatergic transmission and synaptic plasticity in the cortico-striatal circuit, and nNOS gene variants have been associated with OCD, implicating the nitrergic system in its pathophysiology.
 
 [^abramowitz-2009-ocd-review]: Abramowitz JS, Taylor S, McKay D. Obsessive-compulsive disorder. *Lancet.* 2009;374(9688):491-499. [doi:10.1016/S0140-6736(09)60240-3](https://doi.org/10.1016/S0140-6736(09)60240-3) · [PubMed 19665647](https://pubmed.ncbi.nlm.nih.gov/19665647/)
 [^chamberlain-2008-ocd-neuroscience]: Chamberlain SR, Menzies L, Hampshire A, et al. Orbitofrontal dysfunction in patients with OCD and their unaffected relatives. *Science.* 2008;321(5887):421-422. [doi:10.1126/science.1154433](https://doi.org/10.1126/science.1154433) · [PubMed 18635808](https://pubmed.ncbi.nlm.nih.gov/18635808/)
