@@ -304,6 +304,15 @@ cross_links:
   - target: 01-human/03-molecular/caspase-3
     relation: connects-to
     note: "Chemoradiation apoptosis: the intensive chemotherapy and radiation used against ATRT kill tumour cells through caspase-3-mediated apoptosis, the effector step whose evasion underlies treatment resistance and relapse."
+  - target: 01-human/03-molecular/cgas-sting
+    relation: connects-to
+    note: "Viral-mimicry immunogenicity: SMARCB1 (SWI/SNF) loss can derepress endogenous retroelements whose double-stranded RNA and DNA activate innate sensing including cGAS-STING, a 'viral mimicry' that EZH2 inhibition enhances to make ATRT more immunogenic."
+  - target: 01-human/03-molecular/dnmt3a
+    relation: connects-to
+    note: "Methylation subgroups: ATRT is epigenetically driven and divides into distinct DNA-methylation subgroups (TYR, SHH, MYC) with different biology and outcome, making DNA methylation both a classifier and a therapeutic axis in this SWI/SNF-deficient tumour."
+  - target: 01-human/03-molecular/fgfr
+    relation: connects-to
+    note: "Growth-factor dependency: a subset of rhabdoid tumours upregulate FGFR signalling as SMARCB1 loss reshapes the enhancer landscape, an oncogenic pathway under study as a targetable vulnerability in ATRT."
 ---
 
 # Atypical Teratoid/Rhabdoid Tumor
@@ -518,6 +527,9 @@ AT/RT has no established standard of care; protocols are protocol-driven and cen
 - `connects-to` → **[PTCH1](../../03-molecular/ptch1/README.md)** — In the ATRT-SHH subgroup the Hedgehog pathway is active at the PTCH1-SMO receptor level, the lineage program that SMARCB1 loss derepresses and a potential target for Hedgehog pathway inhibitors in this subgroup.
 - `connects-to` → **[CXCL12](../../03-molecular/cxcl12/README.md)** — CXCR4 on ATRT cells follows CXCL12 gradients in the cerebrospinal fluid, contributing to the leptomeningeal dissemination that worsens the already dismal prognosis of these aggressive infant brain tumors.
 - `connects-to` → **[Caspase-3](../../03-molecular/caspase-3/README.md)** — The intensive chemotherapy and radiation used against ATRT kill tumor cells through caspase-3-mediated apoptosis, the effector step whose evasion underlies the treatment resistance and frequent relapse of this tumor.
+- `connects-to` → **[cGAS-STING](../../03-molecular/cgas-sting/README.md)** — SMARCB1 (SWI/SNF) loss can derepress endogenous retroelements whose double-stranded RNA and DNA activate innate sensing including cGAS-STING, a "viral mimicry" that EZH2 inhibition enhances to make ATRT more immunogenic.
+- `connects-to` → **[DNMT3A](../../03-molecular/dnmt3a/README.md)** — ATRT is epigenetically driven and divides into distinct DNA-methylation subgroups (TYR, SHH, MYC) with different biology and outcome, making DNA methylation both a classifier and a therapeutic axis in this SWI/SNF-deficient tumor.
+- `connects-to` → **[FGFR](../../03-molecular/fgfr/README.md)** — A subset of rhabdoid tumors upregulate FGFR signaling as SMARCB1 loss reshapes the enhancer landscape, an oncogenic pathway under study as a targetable vulnerability in ATRT.
 
 ---
 

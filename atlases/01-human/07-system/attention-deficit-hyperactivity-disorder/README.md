@@ -313,6 +313,15 @@ cross_links:
   - target: 01-human/03-molecular/ccl2
     relation: connects-to
     note: "Neuroinflammation link: elevated inflammatory chemokines such as CCL2 are increasingly associated with ADHD, consistent with the maternal-immune-activation and inflammation contributions to its neurodevelopmental risk."
+  - target: 01-human/03-molecular/transferrin
+    relation: connects-to
+    note: "Iron-dopamine link: iron is a cofactor for tyrosine hydroxylase in dopamine synthesis, and low iron stores (ferritin) are associated with ADHD severity and restless legs, a basis for checking and replacing iron in affected children."
+  - target: 01-human/02-atomic/calcium
+    relation: connects-to
+    note: "Cross-disorder genetics: calcium-channel genes such as CACNA1C are shared risk loci across ADHD and other psychiatric disorders, implicating dysregulated neuronal calcium signalling in the activity-dependent synaptic processes underlying attention."
+  - target: 01-human/03-molecular/nitric-oxide
+    relation: connects-to
+    note: "Nitrergic signalling: neuronal nitric-oxide synthase shapes dopaminergic and glutamatergic transmission in the prefrontal circuits governing attention, and nNOS gene variants have been associated with ADHD and impulsivity."
 ---
 
 # Attention-Deficit/Hyperactivity Disorder
@@ -557,6 +566,9 @@ ADHD is a clinical diagnosis requiring [^biederman-2005-adhd-adults]:
 - `connects-to` → **[Estrogen](../../03-molecular/estrogen/README.md)** — Estrogen enhances dopaminergic tone, so ADHD symptoms in women fluctuate across the menstrual cycle and often worsen in the low-estrogen perimenopausal years—a frequently overlooked influence on diagnosis and treatment response.
 - `connects-to` → **[NTRK / TrkB](../../03-molecular/ntrk/README.md)** — BDNF signaling through TrkB shapes the prefrontal circuit maturation implicated in ADHD, linking neurotrophin signaling to the delayed cortical development that underlies the disorder's maturational-lag model.
 - `connects-to` → **[CCL2](../../03-molecular/ccl2/README.md)** — Elevated inflammatory chemokines such as CCL2 are increasingly associated with ADHD, consistent with the maternal-immune-activation and inflammation contributions to its neurodevelopmental risk profile.
+- `connects-to` → **[Transferrin](../../03-molecular/transferrin/README.md)** — Iron is a cofactor for tyrosine hydroxylase in dopamine synthesis, and low iron stores (ferritin) are associated with ADHD severity and restless legs, a basis for checking and replacing iron in affected children.
+- `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — Calcium-channel genes such as CACNA1C are shared risk loci across ADHD and other psychiatric disorders, implicating dysregulated neuronal calcium signaling in the activity-dependent synaptic processes underlying attention.
+- `connects-to` → **[Nitric oxide](../../03-molecular/nitric-oxide/README.md)** — Neuronal nitric-oxide synthase shapes dopaminergic and glutamatergic transmission in the prefrontal circuits governing attention, and nNOS gene variants have been associated with ADHD and impulsivity.
 
 [^faraone-2021-adhd-primer]: Faraone SV, Banaschewski T, Coghill D, et al. The World Federation of ADHD International Consensus Statement: 208 Evidence-based conclusions about the disorder. *Neurosci Biobehav Rev.* 2021;128:789-818. [doi:10.1016/j.neubiorev.2021.01.022](https://doi.org/10.1016/j.neubiorev.2021.01.022) · [PubMed 33549739](https://pubmed.ncbi.nlm.nih.gov/33549739/)
 [^arnsten-2009-adhd-neuroscience]: Arnsten AF. Toward a new understanding of ADHD pathophysiology: an important role for prefrontal cortex dysfunction. *CNS Drugs.* 2009;23(Suppl 1):33-41. [doi:10.2165/00023210-200923000-00005](https://doi.org/10.2165/00023210-200923000-00005) · [PubMed 19621976](https://pubmed.ncbi.nlm.nih.gov/19621976/)
