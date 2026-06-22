@@ -282,6 +282,15 @@ cross_links:
   - target: 01-human/03-molecular/insulin
     relation: connects-to
     note: "Metabolic consequence: loss of orexin disrupts energy balance, contributing to the weight gain and insulin resistance commonly seen in narcolepsy type 1 despite reduced appetite."
+  - target: 01-human/03-molecular/influenza-ha
+    relation: connects-to
+    note: "Molecular mimicry: H1N1 influenza hemagglutinin shares epitopes with hypocretin, and the surge of narcolepsy after 2009 H1N1 infection and Pandemrix vaccination implicates this mimicry in triggering the autoimmune attack on orexin neurons."
+  - target: 01-human/03-molecular/il-2
+    relation: connects-to
+    note: "Autoreactive T cells: IL-2-dependent autoreactive CD4 and CD8 T cells, restricted by HLA-DQB1*06:02, mediate the immune destruction of the hypocretin neurons that causes narcolepsy type 1."
+  - target: 01-human/03-molecular/tlr4
+    relation: connects-to
+    note: "Innate trigger: TLR4 sensing of the H1N1 infection and vaccine adjuvant provides the innate immune activation that, with molecular mimicry, helps break tolerance to hypocretin neurons in susceptible carriers."
 sources:
   - id: scammell-2015-narcolepsy-review
     type: peer-reviewed
@@ -510,6 +519,9 @@ Cataplexy is the **pathognomonic** feature of NT1 — sudden, bilateral loss of 
 - `connects-to` → **[IL-17A](../../03-molecular/il-17a/README.md)** — Th17 autoimmunity: IL-17A from Th17 cells is implicated in the autoimmune attack on hypocretin (orexin) neurons in narcolepsy type 1, complementing the CD8 cytotoxic response.
 - `connects-to` → **[CCL2](../../03-molecular/ccl2/README.md)** — Hypothalamic recruitment: CCL2 recruits monocytes and T cells toward the hypothalamus, part of the immune trafficking that targets the orexin-producing neurons in narcolepsy.
 - `connects-to` → **[Insulin](../../03-molecular/insulin/README.md)** — Metabolic consequence: loss of orexin disrupts energy balance, contributing to the weight gain and insulin resistance commonly seen in narcolepsy type 1 despite reduced appetite.
+- `connects-to` → **[Influenza HA](../../03-molecular/influenza-ha/README.md)** — H1N1 influenza hemagglutinin shares epitopes with hypocretin, and the surge of narcolepsy after 2009 H1N1 infection and Pandemrix vaccination implicates this molecular mimicry in triggering the autoimmune attack on orexin neurons.
+- `connects-to` → **[IL-2](../../03-molecular/il-2/README.md)** — IL-2-dependent autoreactive CD4 and CD8 T cells, restricted by the HLA-DQB1*06:02 allele present in nearly all patients, mediate the immune destruction of the hypocretin neurons that causes narcolepsy type 1.
+- `connects-to` → **[TLR4](../../03-molecular/tlr4/README.md)** — TLR4 sensing of the H1N1 infection and vaccine adjuvant provides the innate immune activation that, together with molecular mimicry, helps break tolerance to hypocretin neurons in genetically susceptible carriers.
 
 [^scammell-2015-narcolepsy-review]: Scammell TE. Narcolepsy. *N Engl J Med.* 2015;373(27):2654-2662. [doi:10.1056/NEJMra1500587](https://doi.org/10.1056/NEJMra1500587) · [PubMed 26716917](https://pubmed.ncbi.nlm.nih.gov/26716917/)
 [^dauvilliers-2007-narcolepsy-clinical]: Dauvilliers Y, Arnulf I, Mignot E. Narcolepsy with cataplexy. *Lancet.* 2007;369(9560):499-511. [doi:10.1016/S0140-6736(07)60237-2](https://doi.org/10.1016/S0140-6736(07)60237-2) · [PubMed 17292770](https://pubmed.ncbi.nlm.nih.gov/17292770/)

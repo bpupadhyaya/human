@@ -304,6 +304,15 @@ cross_links:
   - target: 01-human/03-molecular/vegf
     relation: connects-to
     note: "Neurovascular unit: VEGF couples blood-vessel growth to the nervous system, maintaining the cerebral microvasculature and blood-brain barrier and supporting adult neurogenesis."
+  - target: 01-human/03-molecular/ntrk
+    relation: connects-to
+    note: "Neurotrophin receptors: the Trk family of receptors transduces BDNF, NGF and other neurotrophin signals that govern neuronal survival, differentiation and synaptic plasticity throughout the developing and adult nervous system."
+  - target: 01-human/03-molecular/oxytocin
+    relation: connects-to
+    note: "Central neuropeptide: oxytocin acts as a neuromodulator in the brain shaping social behaviour, bonding and stress responses, alongside its classic neurohypophyseal hormonal release, a window onto the nervous system's endocrine reach."
+  - target: 01-human/03-molecular/complement-c3
+    relation: connects-to
+    note: "Synaptic pruning: complement C3 tags weak synapses for elimination by microglia, the developmental sculpting of neural circuits whose reactivation contributes to the synapse loss of neurodegenerative disease."
 ---
 
 # Nervous System
@@ -435,6 +444,9 @@ Distributed cortical networks underlie language (Broca's area, Wernicke's area, 
 - `connects-to` → **[Melatonin](../../03-molecular/melatonin/README.md)** — Circadian output: the pineal gland of the nervous system secretes melatonin under suprachiasmatic-nucleus control, the hormonal signal that entrains the body's circadian rhythm to the light-dark cycle.
 - `connects-to` → **[ATP](../../03-molecular/atp/README.md)** — Purinergic signalling and energy: ATP serves both as the brain's principal energy currency and as a fast purinergic co-transmitter and glial signalling molecule across the nervous system.
 - `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — Neurovascular unit: VEGF couples blood-vessel growth to the nervous system, maintaining the cerebral microvasculature and blood-brain barrier and supporting adult neurogenesis.
+- `connects-to` → **[NTRK / Trk](../../03-molecular/ntrk/README.md)** — The Trk family of receptors transduces BDNF, NGF, and other neurotrophin signals that govern neuronal survival, differentiation, and synaptic plasticity throughout the developing and adult nervous system.
+- `connects-to` → **[Oxytocin](../../03-molecular/oxytocin/README.md)** — Oxytocin acts as a neuromodulator in the brain shaping social behavior, bonding, and stress responses, alongside its classic neurohypophyseal hormonal release—a window onto the nervous system's endocrine reach.
+- `connects-to` → **[Complement C3](../../03-molecular/complement-c3/README.md)** — Complement C3 tags weak synapses for elimination by microglia, the developmental synaptic pruning that sculpts neural circuits—and whose pathological reactivation contributes to the synapse loss of neurodegenerative disease.
 
 ## Pathology
 
