@@ -310,6 +310,15 @@ cross_links:
   - target: 01-human/03-molecular/caspase-3
     relation: connects-to
     note: "Neuronal apoptosis: caspase-3 executes the apoptotic death of cortical and brainstem neurons in Lewy-body dementia, the cell-loss endpoint of α-synuclein toxicity, mitochondrial failure and neuroinflammation."
+  - target: 01-human/02-atomic/calcium
+    relation: connects-to
+    note: "Calcium dyshomeostasis: α-synuclein aggregates form membrane pores and disrupt calcium handling, and the resulting calcium overload stresses mitochondria — a mechanism of neuronal vulnerability shared with the substantia-nigra neurons lost in Parkinson's."
+  - target: 01-human/03-molecular/galectin-3
+    relation: connects-to
+    note: "Microglial driver: galectin-3 released by microglia activated around Lewy pathology amplifies the neuroinflammatory response, a microglial signal increasingly implicated as a driver of α-synucleinopathy neurodegeneration."
+  - target: 01-human/03-molecular/bdnf
+    relation: connects-to
+    note: "Lost trophic support: declining BDNF removes neurotrophic support for the cortical and brainstem neurons targeted in Lewy-body dementia, contributing to the synaptic loss behind the fluctuating cognition and visual hallucinations."
 ---
 
 # Lewy Body Dementia
@@ -533,6 +542,9 @@ Approximately 25-50% of clinically diagnosed DLB cases have significant AD co-pa
 - `connects-to` → **[TLR4](../../03-molecular/tlr4/README.md)** — Aggregated α-synuclein released from dying neurons activates microglial TLR4, propagating the chronic neuroinflammation that helps spread Lewy pathology through the cortex in Lewy-body dementia.
 - `connects-to` → **[Ferroportin](../../03-molecular/ferroportin/README.md)** — Dysregulated ferroportin-controlled iron handling lets iron accumulate in vulnerable neurons of Lewy-body dementia, sensitizing them to the oxidative and ferroptotic death that accompanies synuclein pathology.
 - `connects-to` → **[Caspase-3](../../03-molecular/caspase-3/README.md)** — Caspase-3 executes the apoptotic death of cortical and brainstem neurons in Lewy-body dementia, the cell-loss endpoint of α-synuclein toxicity, mitochondrial failure, and chronic neuroinflammation.
+- `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — α-Synuclein aggregates form membrane pores and disrupt calcium handling, and the resulting calcium overload stresses mitochondria—a mechanism of neuronal vulnerability shared with the substantia-nigra neurons lost in Parkinson's.
+- `connects-to` → **[Galectin-3](../../03-molecular/galectin-3/README.md)** — Galectin-3 released by microglia activated around Lewy pathology amplifies the neuroinflammatory response, a microglial signal increasingly implicated as a driver of α-synucleinopathy neurodegeneration.
+- `connects-to` → **[BDNF](../../03-molecular/bdnf/README.md)** — Declining BDNF removes neurotrophic support for the cortical and brainstem neurons targeted in Lewy-body dementia, contributing to the synaptic loss behind the fluctuating cognition and visual hallucinations.
 
 [^mckeith-2017-dlb-criteria]: McKeith IG, Boeve BF, Dickson DW, et al. Diagnosis and management of dementia with Lewy bodies: Fourth consensus report of the DLB Consortium. *Neurology.* 2017;89(1):88-100. [doi:10.1212/WNL.0000000000004058](https://doi.org/10.1212/WNL.0000000000004058) · [PubMed 28592453](https://pubmed.ncbi.nlm.nih.gov/28592453/)
 [^spillantini-1997-lewy-body]: Spillantini MG, Schmidt ML, Lee VM, Trojanowski JQ, Jakes R, Goedert M. Alpha-synuclein in Lewy bodies. *Nature.* 1997;388(6645):839-840. [doi:10.1038/42166](https://doi.org/10.1038/42166) · [PubMed 9278044](https://pubmed.ncbi.nlm.nih.gov/9278044/)

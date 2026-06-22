@@ -300,6 +300,15 @@ cross_links:
   - target: 01-human/03-molecular/serotonin
     relation: connects-to
     note: "Monoamine cofactor: iron is a cofactor for tryptophan hydroxylase in serotonin synthesis, so iron deficiency lowers serotonergic signalling, contributing to the mood disturbance and fatigue that accompany the anaemia."
+  - target: 01-human/03-molecular/norepinephrine
+    relation: connects-to
+    note: "Catecholamine synthesis: iron is the cofactor for tyrosine hydroxylase, the rate-limiting enzyme for noradrenaline and dopamine, so iron deficiency blunts catecholamine signalling — a basis for the poor concentration, fatigue and attention problems beyond the anaemia."
+  - target: 01-human/02-atomic/calcium
+    relation: connects-to
+    note: "Absorption interaction: dietary calcium competitively inhibits non-heme iron uptake at the enterocyte, a clinically important interaction explaining why calcium supplements and dairy taken with meals can worsen iron deficiency."
+  - target: 01-human/03-molecular/vegf
+    relation: connects-to
+    note: "Hypoxic compensation: the tissue hypoxia of anaemia stabilises HIF and drives VEGF release, the angiogenic and erythropoietic compensatory response that the body mounts to the reduced oxygen-carrying capacity of iron-deficient blood."
 ---
 
 # Iron Deficiency Anemia
@@ -514,6 +523,9 @@ Iron is essential for:
 - `connects-to` → **[EPAS1 (HIF-2α)](../../03-molecular/epas1/README.md)** — HIF-2α is stabilized in the iron-starved duodenal enterocyte, where it transcriptionally upregulates DMT1 and ferroportin to maximize dietary iron absorption—the master switch the body uses to compensate for iron deficiency.
 - `connects-to` → **[Thyroid hormones](../../03-molecular/thyroid-hormones/README.md)** — Thyroid peroxidase is a haem enzyme, so iron deficiency impairs thyroid hormone synthesis—the basis for the overlap between iron-deficiency anemia and hypothyroid symptoms like fatigue and cold intolerance.
 - `connects-to` → **[Serotonin](../../03-molecular/serotonin/README.md)** — Iron is a cofactor for tryptophan hydroxylase in serotonin synthesis, so iron deficiency lowers serotonergic signaling, contributing to the mood disturbance and fatigue that accompany the anemia beyond the lack of oxygen delivery.
+- `connects-to` → **[Norepinephrine](../../03-molecular/norepinephrine/README.md)** — Iron is the cofactor for tyrosine hydroxylase, the rate-limiting enzyme for noradrenaline and dopamine, so iron deficiency blunts catecholamine signaling—a basis for the poor concentration, fatigue and attention problems beyond the anemia.
+- `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — Dietary calcium competitively inhibits non-heme iron uptake at the enterocyte, a clinically important interaction explaining why calcium supplements and dairy taken with meals can worsen iron deficiency.
+- `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — The tissue hypoxia of anemia stabilizes HIF and drives VEGF release, the angiogenic and erythropoietic compensatory response that the body mounts to the reduced oxygen-carrying capacity of iron-deficient blood.
 
 [^camaschella-2015-iron-deficiency]: Camaschella C. Iron-deficiency anemia. *N Engl J Med.* 2015;372(19):1832-1843. [doi:10.1056/NEJMra1401038](https://doi.org/10.1056/NEJMra1401038) · [PubMed 25946282](https://pubmed.ncbi.nlm.nih.gov/25946282/)
 [^who-ferritin-guideline-2020]: World Health Organization. WHO guideline on use of ferritin concentrations to assess iron status in individuals and populations. WHO; 2020. [WHO publication](https://www.who.int/publications/i/item/9789240000124)
