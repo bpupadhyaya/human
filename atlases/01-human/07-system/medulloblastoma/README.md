@@ -295,6 +295,15 @@ cross_links:
   - target: 01-human/03-molecular/erk1-2
     relation: connects-to
     note: "MAPK proliferation: RAS-RAF-ERK signalling contributes to medulloblastoma proliferation, cooperating with the SHH, WNT and MYC programmes that define its molecular subgroups."
+  - target: 01-human/03-molecular/ctnnb1
+    relation: connects-to
+    note: "WNT subgroup driver: activating CTNNB1 (β-catenin) mutations define the WNT subgroup of medulloblastoma, the best-prognosis molecular subgroup with cure rates above 90% in children."
+  - target: 01-human/03-molecular/cxcl12
+    relation: connects-to
+    note: "Leptomeningeal dissemination: CXCR4 on medulloblastoma cells follows CXCL12 gradients to seed the cerebrospinal fluid, the leptomeningeal spread that mandates craniospinal irradiation in all but the lowest-risk cases."
+  - target: 01-human/03-molecular/rad51
+    relation: connects-to
+    note: "Radioresistance: RAD51-mediated homologous-recombination repair helps high-risk medulloblastomas survive radiation-induced DNA damage, a mechanism of the radioresistance that limits cure in the aggressive Group 3 and TP53-mutant SHH tumours."
 ---
 
 # Medulloblastoma
@@ -517,6 +526,9 @@ MB survivors face substantial late effects — inversely proportional to age at 
 - `connects-to` → **[Caspase-3](../../03-molecular/caspase-3/README.md)** — Apoptotic chemosensitivity: high MYC in Group 3 medulloblastoma primes cells for caspase-3-mediated apoptosis, part of why these embryonal tumours respond initially to cytotoxic chemotherapy and radiation.
 - `connects-to` → **[CCL2](../../03-molecular/ccl2/README.md)** — Microglial microenvironment: CCL2 recruits microglia and macrophages into the medulloblastoma microenvironment, shaping the immunosuppressive niche of this childhood cerebellar tumour.
 - `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — MAPK proliferation: RAS-RAF-ERK signalling contributes to medulloblastoma proliferation, cooperating with the SHH, WNT and MYC programmes that define its molecular subgroups.
+- `connects-to` → **[CTNNB1](../../03-molecular/ctnnb1/README.md)** — Activating CTNNB1 (β-catenin) mutations define the WNT subgroup of medulloblastoma, the best-prognosis molecular subgroup whose cure rates exceed 90%—driving efforts to de-escalate therapy and spare these children long-term toxicity.
+- `connects-to` → **[CXCL12](../../03-molecular/cxcl12/README.md)** — CXCR4 on medulloblastoma cells follows CXCL12 gradients to seed the cerebrospinal fluid, the leptomeningeal dissemination that mandates craniospinal irradiation in all but the lowest-risk cases of this cerebellar tumor.
+- `connects-to` → **[RAD51](../../03-molecular/rad51/README.md)** — RAD51-mediated homologous-recombination repair helps high-risk medulloblastomas survive radiation-induced DNA damage, a mechanism of the radioresistance that limits cure in the aggressive Group 3 and TP53-mutant SHH tumors.
 
 [^packer-2006-std-risk-mb]: Packer RJ, Gajjar A, Vezina G, et al. Phase III study of craniospinal radiation therapy followed by adjuvant chemotherapy for newly diagnosed average-risk medulloblastoma. *J Clin Oncol.* 2006;24(25):4202-4208. [doi:10.1200/JCO.2006.06.4980](https://doi.org/10.1200/JCO.2006.06.4980) · [PubMed 16943538](https://pubmed.ncbi.nlm.nih.gov/16943538/)
 [^taylor-2012-mb-subgroups]: Taylor MD, Northcott PA, Korshunov A, et al. Molecular subgroups of medulloblastoma: the current consensus. *Acta Neuropathol.* 2012;123(4):465-472. [doi:10.1007/s00401-011-0922-z](https://doi.org/10.1007/s00401-011-0922-z) · [PubMed 22134537](https://pubmed.ncbi.nlm.nih.gov/22134537/)

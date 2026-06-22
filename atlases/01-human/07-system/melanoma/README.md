@@ -301,6 +301,15 @@ cross_links:
   - target: 01-human/03-molecular/ccl2
     relation: connects-to
     note: "Macrophage recruitment: CCL2 draws tumour-associated macrophages into melanoma, building an immunosuppressive microenvironment that supports growth and metastasis."
+  - target: 01-human/03-molecular/cgas-sting
+    relation: connects-to
+    note: "UV-mutational immunogenicity: the high UV-driven mutational burden of melanoma generates cytosolic DNA and neoantigens that engage cGAS-STING — central to why melanoma is the paradigm immunotherapy-responsive cancer and the rationale for intratumoral STING agonists."
+  - target: 01-human/03-molecular/cxcl12
+    relation: connects-to
+    note: "Widespread metastasis: the CXCL12-CXCR4 axis drives the broad metastatic spread of melanoma, including its notorious dissemination to the brain, the pattern that historically made advanced melanoma so lethal."
+  - target: 01-human/03-molecular/caspase-3
+    relation: connects-to
+    note: "Targeted-therapy apoptosis: BRAF and MEK inhibitors kill melanoma cells by relieving the mutant-BRAF block on caspase-3-mediated apoptosis, the mechanism behind the rapid responses to targeted therapy in BRAF-mutant disease."
 ---
 
 # Melanoma
@@ -485,6 +494,9 @@ cross_links:
 - `connects-to` → **[IFN-γ](../../03-molecular/ifn-gamma/README.md)** — Immune response and resistance: an IFN-γ-driven T-cell signature predicts melanoma's response to checkpoint inhibitors, while loss of IFN-γ signalling (JAK/STAT) is a key route to immunotherapy resistance.
 - `connects-to` → **[TGF-beta](../../03-molecular/tgf-beta/README.md)** — Immunosuppression and invasion: TGF-beta dampens anti-tumour immunity and drives the phenotype switch toward an invasive, mesenchymal melanoma state that resists therapy.
 - `connects-to` → **[CCL2](../../03-molecular/ccl2/README.md)** — Macrophage recruitment: CCL2 draws tumour-associated macrophages into melanoma, building an immunosuppressive microenvironment that supports growth and metastasis.
+- `connects-to` → **[cGAS-STING](../../03-molecular/cgas-sting/README.md)** — The high UV-driven mutational burden of melanoma generates cytosolic DNA and neoantigens that engage cGAS-STING—central to why melanoma is the paradigm immunotherapy-responsive cancer and the rationale for intratumoral STING agonists.
+- `connects-to` → **[CXCL12](../../03-molecular/cxcl12/README.md)** — The CXCL12-CXCR4 axis drives the broad metastatic spread of melanoma, including its notorious dissemination to the brain—the pattern that historically made advanced melanoma one of the most lethal solid tumors.
+- `connects-to` → **[Caspase-3](../../03-molecular/caspase-3/README.md)** — BRAF and MEK inhibitors kill melanoma cells by relieving the mutant-BRAF block on caspase-3-mediated apoptosis, the mechanism behind the rapid, dramatic responses to targeted therapy in BRAF-V600-mutant disease.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
