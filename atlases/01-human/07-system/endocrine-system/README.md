@@ -302,6 +302,15 @@ cross_links:
   - target: 01-human/03-molecular/sstr2
     relation: connects-to
     note: "Inhibitory regulation: somatostatin acting on SSTR2 broadly suppresses the secretion of growth hormone, insulin, glucagon and gut hormones — the basis for octreotide's use across endocrine tumours and acromegaly."
+  - target: 01-human/02-atomic/calcium
+    relation: connects-to
+    note: "Mineral homeostasis: serum calcium is the regulated variable of a dedicated endocrine axis — parathyroid hormone and vitamin D raise it, calcitonin lowers it — the tightly controlled ion essential for nerve, muscle and bone whose dysregulation causes endocrine disease."
+  - target: 01-human/03-molecular/activin-a
+    relation: connects-to
+    note: "Peptide gonadal feedback: the activin-inhibin system provides a peptide feedback loop, distinct from the steroid hormones, that tunes pituitary FSH secretion and gonadal function, layered onto the classic steroid-hormone axes of the endocrine system."
+  - target: 01-human/03-molecular/adrenomedullin
+    relation: connects-to
+    note: "Vasoactive endocrine peptide: adrenomedullin, secreted widely including by the adrenal medulla and endothelium, is a potent vasodilator and part of the endocrine control of vascular tone and fluid balance, integrating the hormonal and cardiovascular systems."
 ---
 
 # Endocrine System
@@ -554,6 +563,9 @@ The endocrine system coordinates fuel metabolism across multiple organs in respo
 - `connects-to` → **[Glucocorticoid receptor](../../03-molecular/glucocorticoid-receptor/README.md)** — The glucocorticoid receptor is the intracellular receptor through which cortisol exerts its wide-ranging metabolic, immune, and stress effects—the effector arm of the HPA endocrine axis and the target of all glucocorticoid drugs.
 - `connects-to` → **[Androgen receptor](../../03-molecular/androgen-receptor/README.md)** — The androgen receptor mediates the actions of testosterone and DHT across reproductive and somatic tissues, the nuclear-receptor endpoint of the male endocrine axis and the target of anti-androgen therapy.
 - `connects-to` → **[SSTR2](../../03-molecular/sstr2/README.md)** — Somatostatin acting on SSTR2 broadly suppresses the secretion of growth hormone, insulin, glucagon, and gut hormones—the inhibitory regulator of the endocrine system and the basis for octreotide in acromegaly and neuroendocrine tumors.
+- `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — Serum calcium is the regulated variable of a dedicated endocrine axis—parathyroid hormone and vitamin D raise it, calcitonin lowers it—the tightly controlled ion essential for nerve, muscle and bone whose dysregulation causes endocrine disease.
+- `connects-to` → **[Activin A](../../03-molecular/activin-a/README.md)** — The activin-inhibin system provides a peptide feedback loop, distinct from the steroid hormones, that tunes pituitary FSH secretion and gonadal function, layered onto the classic steroid-hormone axes of the endocrine system.
+- `connects-to` → **[Adrenomedullin](../../03-molecular/adrenomedullin/README.md)** — Adrenomedullin, secreted widely including by the adrenal medulla and endothelium, is a potent vasodilator and part of the endocrine control of vascular tone and fluid balance, integrating the hormonal and cardiovascular systems.
 
 ## Pathology
 

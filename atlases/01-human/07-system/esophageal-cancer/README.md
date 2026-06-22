@@ -304,6 +304,15 @@ cross_links:
   - target: 01-human/03-molecular/cgas-sting
     relation: connects-to
     note: "Mutational immunogenicity: the high tobacco- and reflux-driven mutational burden of oesophageal cancer generates cytosolic DNA and neoantigens that engage cGAS-STING, underlying its responsiveness to checkpoint inhibitors."
+  - target: 01-human/03-molecular/cholesterol
+    relation: connects-to
+    note: "Bile-acid reflux: chronic reflux of acid and bile acids, which derive from cholesterol, into the lower oesophagus drives the Barrett's metaplasia-dysplasia sequence behind oesophageal adenocarcinoma, the histology rising sharply in Western countries."
+  - target: 01-human/03-molecular/caspase-3
+    relation: connects-to
+    note: "Chemoradiation apoptosis: neoadjuvant chemoradiation and perioperative chemotherapy kill oesophageal-cancer cells through caspase-3-mediated apoptosis, the cytotoxic backbone whose effect on the primary tumour predicts surgical outcome."
+  - target: 01-human/03-molecular/leptin
+    relation: connects-to
+    note: "Obesity-driven risk: central obesity raises both mechanical reflux and leptin, which promotes oesophageal epithelial proliferation, two ways the obesity epidemic drives the rising incidence of oesophageal adenocarcinoma."
 ---
 
 # Esophageal Cancer
@@ -537,6 +546,9 @@ T1a: Lamina propria/muscularis mucosae; T1b: Submucosa; T2: Muscularis propria; 
 - `connects-to` → **[IL-6](../../03-molecular/il-6/README.md)** — Chronic IL-6/STAT3 inflammation from gastro-esophageal reflux and Barrett's esophagus drives the metaplasia-dysplasia-carcinoma sequence behind esophageal adenocarcinoma, linking acid injury to malignant transformation.
 - `connects-to` → **[CXCL12](../../03-molecular/cxcl12/README.md)** — CXCR4 on esophageal cancer cells follows CXCL12 gradients to lymph nodes and distant organs, driving the early nodal spread that makes this cancer so often incurable by the time of diagnosis.
 - `connects-to` → **[cGAS-STING](../../03-molecular/cgas-sting/README.md)** — The high tobacco- and reflux-driven mutational burden of esophageal cancer generates cytosolic DNA and neoantigens that engage cGAS-STING, underlying the responsiveness of the disease to checkpoint-inhibitor immunotherapy.
+- `connects-to` → **[Cholesterol](../../03-molecular/cholesterol/README.md)** — Chronic reflux of acid and bile acids, which derive from cholesterol, into the lower esophagus drives the Barrett's metaplasia-dysplasia sequence behind esophageal adenocarcinoma, the histology rising sharply in Western countries.
+- `connects-to` → **[Caspase-3](../../03-molecular/caspase-3/README.md)** — Neoadjuvant chemoradiation and perioperative chemotherapy kill esophageal-cancer cells through caspase-3-mediated apoptosis, the cytotoxic backbone whose effect on the primary tumor predicts surgical outcome.
+- `connects-to` → **[Leptin](../../03-molecular/leptin/README.md)** — Central obesity raises both mechanical reflux and leptin, which promotes esophageal epithelial proliferation, two ways the obesity epidemic drives the rising incidence of esophageal adenocarcinoma.
 
 ---
 
