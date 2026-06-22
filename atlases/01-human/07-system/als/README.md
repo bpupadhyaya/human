@@ -313,6 +313,15 @@ cross_links:
   - target: 01-human/03-molecular/tlr4
     relation: connects-to
     note: "Microglial activation: aggregated proteins and DAMPs released by dying motor neurons engage microglial TLR4, driving the neuroinflammation that accelerates motor-neuron loss in ALS."
+  - target: 01-human/02-atomic/calcium
+    relation: connects-to
+    note: "Excitotoxic vulnerability: motor neurons express calcium-permeable AMPA receptors and have low calcium-buffering capacity, so glutamate excitotoxicity floods them with calcium that destroys mitochondria — a selective vulnerability central to ALS neurodegeneration."
+  - target: 01-human/03-molecular/xanthine-oxidase
+    relation: connects-to
+    note: "Oxidative stress: xanthine-oxidase-derived reactive oxygen species add to the oxidative burden killing motor neurons in ALS, the free-radical injury that the antioxidant edaravone targets to slow functional decline."
+  - target: 01-human/03-molecular/galectin-3
+    relation: connects-to
+    note: "Microglial biomarker: galectin-3 released by activated microglia rises in ALS as a marker of the neuroinflammatory, neurotoxic microglial state, increasingly viewed as both a disease biomarker and a driver of motor-neuron loss."
 ---
 
 # ALS
@@ -551,6 +560,9 @@ ALS diagnosis is **clinical** — no single definitive biomarker test (though Nf
 - `connects-to` → **[Caspase-3](../../03-molecular/caspase-3/README.md)** — Caspase-3 executes the apoptotic death of motor neurons in ALS, the final common pathway through which excitotoxicity, oxidative stress, and protein aggregation converge to kill upper and lower motor neurons.
 - `connects-to` → **[Nitric oxide](../../03-molecular/nitric-oxide/README.md)** — Excess nitric oxide reacts with superoxide to form peroxynitrite that damages motor-neuron proteins, lipids, and mitochondria—a central oxidative mechanism especially in the SOD1-mutant form of ALS.
 - `connects-to` → **[TLR4](../../03-molecular/tlr4/README.md)** — Aggregated proteins and DAMPs released by dying motor neurons engage microglial TLR4, driving the neuroinflammation that shifts microglia to a neurotoxic phenotype and accelerates motor-neuron loss in ALS.
+- `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — Motor neurons express calcium-permeable AMPA receptors and have low calcium-buffering capacity, so glutamate excitotoxicity floods them with calcium that destroys mitochondria—a selective vulnerability central to ALS neurodegeneration.
+- `connects-to` → **[Xanthine Oxidase](../../03-molecular/xanthine-oxidase/README.md)** — Xanthine-oxidase-derived reactive oxygen species add to the oxidative burden killing motor neurons in ALS, the free-radical injury that the antioxidant edaravone targets to slow functional decline.
+- `connects-to` → **[Galectin-3](../../03-molecular/galectin-3/README.md)** — Galectin-3 released by activated microglia rises in ALS as a marker of the neuroinflammatory, neurotoxic microglial state, increasingly viewed as both a disease biomarker and a driver of motor-neuron loss.
 
 [^brown-2017-als-review]: Brown RH, Al-Chalabi A. Amyotrophic lateral sclerosis. *N Engl J Med.* 2017;377(2):162-172. [doi:10.1056/NEJMra1603471](https://doi.org/10.1056/NEJMra1603471) · [PubMed 28700839](https://pubmed.ncbi.nlm.nih.gov/28700839/)
 [^edaravone-als-2017]: Writing Group, Edaravone ALS 19 Study Group. Safety and efficacy of edaravone in well defined patients with amyotrophic lateral sclerosis. *Lancet Neurol.* 2017;16(7):505-512. [doi:10.1016/S1474-4422(17)30115-1](https://doi.org/10.1016/S1474-4422(17)30115-1) · [PubMed 28522180](https://pubmed.ncbi.nlm.nih.gov/28522180/)

@@ -304,6 +304,15 @@ cross_links:
   - target: 01-human/03-molecular/caspase-3
     relation: connects-to
     note: "Glucocorticoid apoptosis: glucocorticoids and chemotherapy kill lymphoblasts by triggering caspase-3-mediated apoptosis, and the early apoptotic response to steroids is one of the strongest prognostic markers in ALL."
+  - target: 01-human/03-molecular/perforin
+    relation: connects-to
+    note: "Immunotherapy killing: the CD19-CD3 bispecific blinatumomab and CD19 CAR-T cells redirect cytotoxic T cells to destroy B-ALL blasts through perforin and granzyme, the immune effector mechanism that has transformed relapsed and refractory disease."
+  - target: 01-human/03-molecular/igf-1
+    relation: connects-to
+    note: "Growth dependency: lymphoblasts depend on IGF-1R signalling for proliferation and survival, a growth-factor axis that supports leukaemic growth and is being explored as a therapeutic target in ALL."
+  - target: 01-human/03-molecular/foxo
+    relation: connects-to
+    note: "Stem-cell quiescence: FOXO transcription factors maintain quiescent leukaemia-initiating cells that survive chemotherapy in the marrow niche, a reservoir that seeds the relapse which remains the main cause of treatment failure in ALL."
 ---
 
 # Acute Lymphoblastic Leukemia
@@ -539,6 +548,9 @@ Childhood ALL survivors (now majority of patients): neurocognitive impairment (M
 - `connects-to` → **[Menin (MEN1)](../../03-molecular/men1/README.md)** — KMT2A (MLL)-rearranged ALL, common and aggressive in infants, depends on the menin-MLL interaction to maintain leukemic HOX transcription—the target of menin inhibitors (revumenib) now entering ALL therapy.
 - `connects-to` → **[FLT3](../../03-molecular/flt3/README.md)** — FLT3 is overexpressed or activated in KMT2A-rearranged and hyperdiploid ALL, a receptor tyrosine kinase under investigation as a therapeutic target in these high-risk and infant subtypes.
 - `connects-to` → **[Caspase-3](../../03-molecular/caspase-3/README.md)** — Glucocorticoids and chemotherapy kill lymphoblasts by triggering caspase-3-mediated apoptosis, and the speed of the early apoptotic response to prednisone is one of the strongest prognostic markers in childhood ALL.
+- `connects-to` → **[Perforin](../../03-molecular/perforin/README.md)** — The CD19-CD3 bispecific blinatumomab and CD19 CAR-T cells redirect cytotoxic T cells to destroy B-ALL blasts through perforin and granzyme, the immune effector mechanism that has transformed relapsed and refractory disease.
+- `connects-to` → **[IGF-1](../../03-molecular/igf-1/README.md)** — Lymphoblasts depend on IGF-1R signaling for proliferation and survival, a growth-factor axis that supports leukemic growth and is being explored as a therapeutic target in ALL.
+- `connects-to` → **[FOXO](../../03-molecular/foxo/README.md)** — FOXO transcription factors maintain quiescent leukemia-initiating cells that survive chemotherapy in the marrow niche, a reservoir that seeds the relapse which remains the main cause of treatment failure in ALL.
 
 [^pui-2018-all-cure]: Pui CH, Yang JJ, Bhakta N, et al. Global efforts toward the cure of childhood acute lymphoblastic leukemia. *Lancet Child Adolesc Health.* 2018;2(6):440-454. [doi:10.1016/S2352-4642(18)30066-X](https://doi.org/10.1016/S2352-4642(18)30066-X) · [PubMed 29976322](https://pubmed.ncbi.nlm.nih.gov/29976322/)
 [^maude-2018-tisagenlecleucel]: Maude SL, Laetsch TW, Buechner J, et al. Tisagenlecleucel in children and young adults with B-cell lymphoblastic leukemia. *N Engl J Med.* 2018;378(5):439-448. [doi:10.1056/NEJMoa1709866](https://doi.org/10.1056/NEJMoa1709866) · [PubMed 29385370](https://pubmed.ncbi.nlm.nih.gov/29385370/)
