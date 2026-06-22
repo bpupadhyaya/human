@@ -308,6 +308,15 @@ cross_links:
   - target: 01-human/03-molecular/mhc-class-ii
     relation: connects-to
     note: "Immune amnesia: by infecting antigen-presenting cells via SLAM and depleting memory lymphocytes, measles erodes the MHC-class-II-restricted memory repertoire, the basis of the 'immune amnesia' that erases prior immunity."
+  - target: 01-human/03-molecular/secretory-iga
+    relation: connects-to
+    note: "Mucosal neutralisation: secretory IgA on the respiratory epithelium neutralises measles at its airway portal of entry, and the durable mucosal and systemic antibody induced by vaccination is what makes measles immunity so long-lasting."
+  - target: 01-human/03-molecular/myd88
+    relation: connects-to
+    note: "Endosomal sensing: plasmacytoid dendritic cells sense measles RNA through TLR7 signalling via MyD88 to produce type-I interferon, the endosomal innate arm complementing the cytosolic RIG-I pathway the virus's V protein antagonises."
+  - target: 01-human/03-molecular/caspase-3
+    relation: connects-to
+    note: "Lymphocyte depletion: measles drives caspase-3-mediated apoptosis of infected and bystander lymphocytes, the cell loss that produces the transient lymphopenia and contributes to the immune amnesia leaving children vulnerable to other infections."
 ---
 
 # Measles
@@ -549,6 +558,9 @@ Beyond immune amnesia (memory B cell depletion), MV causes acute immune suppress
 - `connects-to` → **[IL-12](../../03-molecular/il-12/README.md)** — Measles infection of dendritic cells suppresses IL-12 production, crippling the Th1 response and contributing to the profound, weeks-long immunosuppression that follows acute measles and predisposes to secondary infection.
 - `connects-to` → **[STAT1](../../03-molecular/stat1/README.md)** — The measles V and P proteins bind and block STAT1, shutting down interferon signal transduction so the virus evades the type-I-interferon response that would otherwise restrain its replication during acute infection.
 - `connects-to` → **[MHC class II](../../03-molecular/mhc-class-ii/README.md)** — By infecting antigen-presenting cells via the SLAM receptor and depleting memory lymphocytes, measles erodes the MHC-class-II-restricted memory repertoire—the basis of the "immune amnesia" that erases years of accumulated immunity.
+- `connects-to` → **[Secretory IgA](../../03-molecular/secretory-iga/README.md)** — Secretory IgA on the respiratory epithelium neutralizes measles at its airway portal of entry, and the durable mucosal and systemic antibody induced by vaccination is what makes measles immunity so long-lasting.
+- `connects-to` → **[MyD88](../../03-molecular/myd88/README.md)** — Plasmacytoid dendritic cells sense measles RNA through TLR7 signaling via MyD88 to produce type-I interferon, the endosomal innate arm complementing the cytosolic RIG-I pathway the virus's V protein antagonizes.
+- `connects-to` → **[Caspase-3](../../03-molecular/caspase-3/README.md)** — Measles drives caspase-3-mediated apoptosis of infected and bystander lymphocytes, the cell loss that produces the transient lymphopenia and contributes to the immune amnesia leaving children vulnerable to other infections.
 
 [^panum-1847-faroe-measles]: Panum PL. Observations made during the epidemic of measles on the Faroe Islands in the year 1846. *Med Classics.* 1939;3:829-886.
 [^mina-2019-immune-amnesia]: Mina MJ, Kula T, Leng Y, et al. Measles virus infection diminishes preexisting antibodies that offer protection from other pathogens. *Science.* 2019;366(6465):599-606. [doi:10.1126/science.aay6485](https://doi.org/10.1126/science.aay6485) · [PubMed 31672891](https://pubmed.ncbi.nlm.nih.gov/31672891/)
