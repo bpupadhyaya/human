@@ -304,6 +304,15 @@ cross_links:
   - target: 01-human/03-molecular/cgas-sting
     relation: connects-to
     note: "Mitochondrial-DNA sensing: failed PINK1/Parkin mitophagy lets damaged mitochondria leak DNA that activates cGAS-STING, driving the type-I-interferon neuroinflammation now implicated in Parkinson's neurodegeneration."
+  - target: 01-human/02-atomic/calcium
+    relation: connects-to
+    note: "Pacemaking calcium stress: substantia-nigra dopaminergic neurons use L-type Cav1.3 calcium channels for autonomous pacemaking, and the resulting chronic calcium load stresses mitochondria — a selective vulnerability that motivated the isradipine trials in Parkinson's."
+  - target: 01-human/03-molecular/xanthine-oxidase
+    relation: connects-to
+    note: "Urate and oxidative stress: xanthine oxidase produces urate, and higher urate levels are associated with lower Parkinson's risk and slower progression, suggesting that antioxidant urate partly offsets the oxidative stress damaging dopaminergic neurons."
+  - target: 01-human/03-molecular/bdnf
+    relation: connects-to
+    note: "Lost trophic support: BDNF normally sustains the survival of substantia-nigra dopaminergic neurons, and its reduction in Parkinson's removes a key neurotrophic support, contributing to the progressive degeneration of the nigrostriatal pathway."
 ---
 
 # Parkinson's Disease
@@ -538,6 +547,9 @@ PD is primarily a disease of aging (mean onset ~60 years), but **~10–15% of ca
 - `connects-to` → **[TLR4](../../03-molecular/tlr4/README.md)** — Aggregated α-synuclein released from dying neurons activates microglial TLR4, triggering the chronic neuroinflammation that propagates dopaminergic neurodegeneration—linking the disease's defining protein to its inflammatory engine.
 - `connects-to` → **[Ferroportin](../../03-molecular/ferroportin/README.md)** — Iron accumulates in the substantia nigra of Parkinson's disease, and dysregulated ferroportin-controlled iron export sensitizes dopaminergic neurons to ferroptotic, oxidative cell death—the rationale for iron-chelation trials.
 - `connects-to` → **[cGAS-STING](../../03-molecular/cgas-sting/README.md)** — Failed PINK1/Parkin mitophagy lets damaged mitochondria leak DNA that activates cGAS-STING, driving the type-I-interferon neuroinflammation now implicated in the neurodegeneration of both familial and sporadic Parkinson's.
+- `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — Substantia-nigra dopaminergic neurons use L-type Cav1.3 calcium channels for autonomous pacemaking, and the resulting chronic calcium load stresses mitochondria—a selective vulnerability that motivated the isradipine trials in Parkinson's.
+- `connects-to` → **[Xanthine Oxidase](../../03-molecular/xanthine-oxidase/README.md)** — Xanthine oxidase produces urate, and higher urate levels are associated with lower Parkinson's risk and slower progression, suggesting that antioxidant urate partly offsets the oxidative stress damaging dopaminergic neurons.
+- `connects-to` → **[BDNF](../../03-molecular/bdnf/README.md)** — BDNF normally sustains the survival of substantia-nigra dopaminergic neurons, and its reduction in Parkinson's removes a key neurotrophic support, contributing to the progressive degeneration of the nigrostriatal pathway.
 
 [^kalia-2015-pd-review]: Kalia LV, Lang AE. Parkinson's disease. *Lancet.* 2015;386(9996):896-912. [doi:10.1016/S0140-6736(14)61393-3](https://doi.org/10.1016/S0140-6736(14)61393-3) · [PubMed 25904081](https://pubmed.ncbi.nlm.nih.gov/25904081/)
 [^spillantini-1997-lewy-body]: Spillantini MG, Schmidt ML, Lee VM, Trojanowski JQ, Jakes R, Goedert M. Alpha-synuclein in Lewy bodies. *Nature.* 1997;388(6645):839-840. [doi:10.1038/42166](https://doi.org/10.1038/42166) · [PubMed 9278044](https://pubmed.ncbi.nlm.nih.gov/9278044/)

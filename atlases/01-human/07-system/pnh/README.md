@@ -298,6 +298,15 @@ cross_links:
   - target: 01-human/03-molecular/protein-c
     relation: connects-to
     note: "Hypercoagulable state: complement-driven platelet activation and impaired fibrinolysis create the PNH prothrombotic state, against which the anticoagulant protein C pathway is overwhelmed — the basis for thrombosis prophylaxis."
+  - target: 01-human/03-molecular/thrombopoietin
+    relation: connects-to
+    note: "Marrow-failure overlap: PNH arises from a PIGA-mutant clone expanding on a background of bone-marrow failure, and thrombopoietin-receptor agonists like eltrombopag can stimulate trilineage recovery in the aplastic-anaemia/PNH overlap syndromes."
+  - target: 01-human/03-molecular/s100a8-a9
+    relation: connects-to
+    note: "NET thrombosis: complement-activated neutrophils releasing S100A8/A9 and extracellular traps contribute to the venous thrombosis — often at unusual sites like the hepatic veins — that is the leading cause of death in PNH."
+  - target: 01-human/03-molecular/rage
+    relation: connects-to
+    note: "Free-heme inflammation: chronic intravascular haemolysis releases free haem that, as a DAMP signalling through RAGE, sustains a pro-inflammatory, pro-thrombotic vascular state beyond the nitric-oxide scavenging that drives the dystonic symptoms."
 ---
 
 # Paroxysmal Nocturnal Hemoglobinuria
@@ -483,6 +492,9 @@ When PIGA is mutated in an HSC → all progeny cells (RBCs, WBCs, platelets) of 
 - `connects-to` → **[IFN-γ](../../03-molecular/ifn-gamma/README.md)** — PNH clones expand under the IFN-γ-driven autoimmune marrow attack of aplastic anemia, where the GPI-anchor-deficient clone evades a T-cell assault directed at GPI-positive progenitors—the immune-escape model explaining why PNH and aplastic anemia overlap.
 - `connects-to` → **[Perforin](../../03-molecular/perforin/README.md)** — Perforin-mediated CD8 T-cell killing of GPI-positive hematopoietic progenitors in the failing marrow gives the GPI-negative PNH clone its survival advantage, the cytotoxic mechanism behind the clonal selection that produces PNH.
 - `connects-to` → **[Protein C](../../03-molecular/protein-c/README.md)** — Complement-driven platelet activation and impaired fibrinolysis create the PNH prothrombotic state against which the anticoagulant protein C pathway is overwhelmed—the rationale for anticoagulation and complement blockade to prevent the thrombosis that kills.
+- `connects-to` → **[Thrombopoietin](../../03-molecular/thrombopoietin/README.md)** — PNH arises from a PIGA-mutant clone expanding on a background of bone-marrow failure, and thrombopoietin-receptor agonists like eltrombopag can stimulate trilineage recovery in the aplastic-anemia/PNH overlap syndromes.
+- `connects-to` → **[S100A8/A9](../../03-molecular/s100a8-a9/README.md)** — Complement-activated neutrophils releasing S100A8/A9 and extracellular traps contribute to the venous thrombosis—often at unusual sites like the hepatic veins—that is the leading cause of death in PNH.
+- `connects-to` → **[RAGE](../../03-molecular/rage/README.md)** — Chronic intravascular hemolysis releases free heme that, as a DAMP signaling through RAGE, sustains a pro-inflammatory, pro-thrombotic vascular state beyond the nitric-oxide scavenging that drives the dystonic symptoms.
 
 ---
 
