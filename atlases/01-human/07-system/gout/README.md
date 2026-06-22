@@ -301,6 +301,15 @@ cross_links:
   - target: 01-human/03-molecular/prostaglandins
     relation: connects-to
     note: "Inflammatory mediators: prostaglandins generated in the urate-inflamed joint drive the pain, vasodilation and swelling of an acute gout flare, the target of the NSAIDs used to treat it."
+  - target: 01-human/03-molecular/tlr4
+    relation: connects-to
+    note: "Inflammasome priming: monosodium urate crystals engage TLR2/TLR4 to provide the 'signal 1' that primes the NLRP3 inflammasome, licensing the IL-1β release that drives the explosive gout flare."
+  - target: 01-human/03-molecular/nitric-oxide
+    relation: connects-to
+    note: "Endothelial dysfunction: hyperuricaemia reduces endothelial nitric-oxide bioavailability, a vascular mechanism linking gout to its strong association with hypertension and cardiovascular disease."
+  - target: 01-human/03-molecular/cholesterol
+    relation: connects-to
+    note: "Metabolic clustering: gout clusters with the dyslipidaemia and insulin resistance of metabolic syndrome, the shared physiology behind the high cardiovascular risk that accompanies chronic hyperuricaemia."
 ---
 
 # Gout
@@ -488,6 +497,9 @@ The central mechanism linking MSU crystals to acute gouty arthritis is **NLRP3 i
 - `connects-to` → **[S100A8/A9](../../03-molecular/s100a8-a9/README.md)** — Neutrophil flare and resolution: S100A8/A9 from the neutrophils flooding the gouty joint amplifies the acute flare, while aggregated neutrophil extracellular traps also drive its spontaneous resolution.
 - `connects-to` → **[Complement C5](../../03-molecular/complement-c5/README.md)** — Crystal complement activation: monosodium urate crystals directly activate complement through to C5, generating chemoattractants that recruit the neutrophils igniting the acute gout attack.
 - `connects-to` → **[Prostaglandins](../../03-molecular/prostaglandins/README.md)** — Inflammatory mediators: prostaglandins generated in the urate-inflamed joint drive the pain, vasodilation and swelling of an acute gout flare, the target of the NSAIDs used to treat it.
+- `connects-to` → **[TLR4](../../03-molecular/tlr4/README.md)** — Monosodium urate crystals engage TLR2/TLR4 to provide the "signal 1" that primes the NLRP3 inflammasome, licensing the IL-1β release that drives the explosive, exquisitely painful acute gout flare.
+- `connects-to` → **[Nitric oxide](../../03-molecular/nitric-oxide/README.md)** — Hyperuricemia reduces endothelial nitric-oxide bioavailability, a vascular mechanism linking gout to its strong epidemiological association with hypertension, chronic kidney disease, and cardiovascular events.
+- `connects-to` → **[Cholesterol](../../03-molecular/cholesterol/README.md)** — Gout clusters with the dyslipidemia and insulin resistance of metabolic syndrome, the shared physiology behind the high cardiovascular risk that accompanies chronic hyperuricemia beyond the joint disease itself.
 
 [^dalbeth-2019-gout-primer]: Dalbeth N, Choi HK, Joosten LAB, et al. Gout. *Nat Rev Dis Primers.* 2019;5(1):69. [doi:10.1038/s41572-019-0115-y](https://doi.org/10.1038/s41572-019-0115-y) · [PubMed 31558729](https://pubmed.ncbi.nlm.nih.gov/31558729/)
 [^martinon-2006-nlrp3-gout]: Martinon F, Pétrilli V, Mayor A, Tardivel A, Tschopp J. Gout-associated uric acid crystals activate the NALP3 inflammasome. *Nature.* 2006;440(7081):237-241. [doi:10.1038/nature04516](https://doi.org/10.1038/nature04516) · [PubMed 16407889](https://pubmed.ncbi.nlm.nih.gov/16407889/)

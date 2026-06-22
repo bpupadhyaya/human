@@ -295,6 +295,15 @@ cross_links:
   - target: 01-human/03-molecular/ccl2
     relation: connects-to
     note: "Macrophage microenvironment: CCL2 recruits tumour-associated macrophages into HBOC breast and ovarian tumours, contributing to the stroma that shapes growth and immunotherapy response."
+  - target: 01-human/03-molecular/rankl
+    relation: connects-to
+    note: "BRCA1-RANKL axis: RANK/RANKL signalling drives the proliferation of BRCA1-mutant mammary progenitor cells, the cells of origin of basal-like breast cancer — the basis for testing denosumab as chemoprevention in BRCA1 carriers."
+  - target: 01-human/03-molecular/cgas-sting
+    relation: connects-to
+    note: "HRD cytosolic DNA: the homologous-recombination deficiency of BRCA-mutant cancers produces micronuclei and cytosolic DNA that activate cGAS-STING, an innate-immune mechanism behind combining PARP inhibitors with immunotherapy."
+  - target: 01-human/03-molecular/cxcl12
+    relation: connects-to
+    note: "Metastatic homing: the CXCL12-CXCR4 axis drives the metastasis of the triple-negative breast and high-grade serous ovarian cancers that BRCA carriers develop, a chemokine route to their characteristic spread."
 ---
 
 # Hereditary Breast and Ovarian Cancer
@@ -523,6 +532,9 @@ BRCA-mutant cells (HRD):
 - `connects-to` → **[PD-1](../../03-molecular/pd-1/README.md)** — Immunogenic HRD tumours: homologous-recombination-deficient BRCA-mutant cancers carry a high neoantigen load that, with their genomic scarring, makes them more responsive to PD-1 checkpoint immunotherapy.
 - `connects-to` → **[CDKN2A](../../03-molecular/cdkn2a/README.md)** — Cooperating tumour suppressor: CDKN2A loss accompanies BRCA mutation in HBOC tumours, releasing the cell-cycle brake to accelerate the proliferation of genomically unstable cells.
 - `connects-to` → **[CCL2](../../03-molecular/ccl2/README.md)** — Macrophage microenvironment: CCL2 recruits tumour-associated macrophages into HBOC breast and ovarian tumours, contributing to the stroma that shapes growth and immunotherapy response.
+- `connects-to` → **[RANKL](../../03-molecular/rankl/README.md)** — RANK/RANKL signaling drives the proliferation of BRCA1-mutant mammary progenitor cells, the cells of origin of basal-like breast cancer—the basis for testing denosumab as a chemoprevention strategy in BRCA1 carriers.
+- `connects-to` → **[cGAS-STING](../../03-molecular/cgas-sting/README.md)** — The homologous-recombination deficiency of BRCA-mutant cancers produces micronuclei and cytosolic DNA that activate cGAS-STING, the innate-immune mechanism underlying the synergy of combining PARP inhibitors with immunotherapy.
+- `connects-to` → **[CXCL12](../../03-molecular/cxcl12/README.md)** — The CXCL12-CXCR4 axis drives the metastasis of the triple-negative breast and high-grade serous ovarian cancers that BRCA carriers develop, a chemokine route to the characteristic spread of these aggressive tumors.
 
 ---
 
