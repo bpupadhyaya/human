@@ -295,6 +295,15 @@ cross_links:
   - target: 01-human/03-molecular/ccl2
     relation: connects-to
     note: "Tumour macrophages: CCL2 recruits macrophages into the stroma of MUTYH-associated colorectal tumours, part of the inflammatory microenvironment that accompanies their progression."
+  - target: 01-human/03-molecular/gsk-3b
+    relation: connects-to
+    note: "Destruction-complex disruption: the APC mutations that MUTYH deficiency generates through G:C→T:A transversions disable the GSK-3β destruction complex, unleashing the Wnt signalling that drives the adenomas of the syndrome."
+  - target: 01-human/03-molecular/notch
+    relation: connects-to
+    note: "Crypt stem-cell expansion: Notch signalling cooperates with the unleashed Wnt pathway in the intestinal crypt to expand the stem-cell compartment, contributing to the polyp formation of MUTYH-associated polyposis."
+  - target: 01-human/03-molecular/caspase-3
+    relation: connects-to
+    note: "Apoptosis evasion: MUTYH-associated adenomas evade caspase-3-mediated apoptosis, the cell-death pathway that NSAID and COX-2-inhibitor chemoprevention works to restore in colorectal polyposis syndromes."
 ---
 
 # MUTYH-Associated Polyposis
@@ -504,6 +513,9 @@ Because MAP is autosomal recessive: siblings of MAP patients are at **25%** risk
 - `connects-to` → **[SMAD4](../../03-molecular/smad4/README.md)** — TGF-β escape: loss of SMAD4-mediated TGF-β growth suppression is a step in the adenoma-carcinoma progression of MUTYH-associated polyps, beyond the initiating base-excision-repair defect.
 - `connects-to` → **[BRAF](../../03-molecular/braf/README.md)** — Serrated pathway: the G:C→T:A transversions caused by MUTYH loss can hit BRAF, contributing to the serrated route of colorectal carcinogenesis alongside the classic KRAS-driven adenoma sequence.
 - `connects-to` → **[CCL2](../../03-molecular/ccl2/README.md)** — Tumour macrophages: CCL2 recruits macrophages into the stroma of MUTYH-associated colorectal tumours, part of the inflammatory microenvironment that accompanies their progression.
+- `connects-to` → **[GSK-3β](../../03-molecular/gsk-3b/README.md)** — The APC mutations that MUTYH deficiency generates through its signature G:C→T:A transversions disable the GSK-3β destruction complex, unleashing the Wnt signaling that drives the adenomas of MUTYH-associated polyposis.
+- `connects-to` → **[Notch](../../03-molecular/notch/README.md)** — Notch signaling cooperates with the unleashed Wnt pathway in the intestinal crypt to expand the stem-cell compartment, contributing to the polyp formation that defines MUTYH-associated polyposis.
+- `connects-to` → **[Caspase-3](../../03-molecular/caspase-3/README.md)** — MUTYH-associated adenomas evade caspase-3-mediated apoptosis, the cell-death pathway that NSAID and COX-2-inhibitor chemoprevention works to restore in the colorectal polyposis syndromes.
 
 ---
 

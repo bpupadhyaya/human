@@ -295,6 +295,15 @@ cross_links:
   - target: 01-human/03-molecular/runx1
     relation: connects-to
     note: "Leukaemic transformation: acquired RUNX1 mutations mark the progression of myeloproliferative neoplasms toward acute myeloid leukaemia, a feared terminal evolution."
+  - target: 01-human/03-molecular/pdgf
+    relation: connects-to
+    note: "Marrow fibrosis: PDGF released by the clonal megakaryocytes of myeloproliferative neoplasms stimulates marrow fibroblasts, driving the reticulin and collagen fibrosis of primary and secondary myelofibrosis."
+  - target: 01-human/03-molecular/prostaglandins
+    relation: connects-to
+    note: "Thromboxane and aspirin: the hyperreactive platelets of myeloproliferative neoplasms generate thromboxane A2, the target of the low-dose aspirin used to reduce the thrombosis that is their leading cause of morbidity."
+  - target: 01-human/03-molecular/xanthine-oxidase
+    relation: connects-to
+    note: "High cell turnover: the massive haematopoietic turnover of myeloproliferative neoplasms floods purine catabolism through xanthine oxidase, raising urate and causing the secondary hyperuricaemia and gout that complicate them."
 ---
 
 # Myeloproliferative Neoplasms
@@ -531,6 +540,9 @@ In PV and ET, JAK2 V617F also affects myeloid progenitors → granulocytosis and
 - `connects-to` → **[PF4](../../03-molecular/pf4/README.md)** — Thrombotic risk: PF4 released from the expanded, activated platelet mass of myeloproliferative neoplasms marks the platelet hyperreactivity behind their characteristic arterial and venous thrombosis.
 - `connects-to` → **[S100A8/A9](../../03-molecular/s100a8-a9/README.md)** — Myeloid alarmin: S100A8/A9 from the expanded myeloid compartment amplifies the chronic inflammation of myeloproliferative neoplasms, driving constitutional symptoms and disease progression.
 - `connects-to` → **[RUNX1](../../03-molecular/runx1/README.md)** — Leukaemic transformation: acquired RUNX1 mutations mark the progression of myeloproliferative neoplasms toward acute myeloid leukaemia, a feared terminal evolution.
+- `connects-to` → **[PDGF](../../03-molecular/pdgf/README.md)** — PDGF released by the clonal megakaryocytes of myeloproliferative neoplasms stimulates marrow fibroblasts, driving the reticulin and collagen fibrosis of primary and post-PV/ET myelofibrosis as the disease evolves.
+- `connects-to` → **[Prostaglandins](../../03-molecular/prostaglandins/README.md)** — The hyperreactive platelets of myeloproliferative neoplasms generate thromboxane A2, the target of the low-dose aspirin used to reduce the arterial and venous thrombosis that is their leading cause of morbidity.
+- `connects-to` → **[Xanthine oxidase](../../03-molecular/xanthine-oxidase/README.md)** — The massive hematopoietic turnover of myeloproliferative neoplasms floods purine catabolism through xanthine oxidase, raising urate and causing the secondary hyperuricemia and gout that frequently complicate these disorders.
 
 [^verstovsek-2012-comfort-i]: Verstovsek S, Mesa RA, Gotlib J, et al. A double-blind, placebo-controlled trial of ruxolitinib for myelofibrosis. *N Engl J Med.* 2012;366(9):799-807. [doi:10.1056/NEJMoa1110557](https://doi.org/10.1056/NEJMoa1110557) · [PubMed 22375971](https://pubmed.ncbi.nlm.nih.gov/22375971/)
 [^vannucchi-2015-response]: Vannucchi AM, Kiladjian JJ, Griesshammer M, et al. Ruxolitinib versus standard therapy for the treatment of polycythemia vera. *N Engl J Med.* 2015;372(5):426-435. [doi:10.1056/NEJMoa1409002](https://doi.org/10.1056/NEJMoa1409002) · [PubMed 25426978](https://pubmed.ncbi.nlm.nih.gov/25426978/)
