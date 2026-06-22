@@ -302,6 +302,15 @@ cross_links:
   - target: 01-human/03-molecular/histamine
     relation: connects-to
     note: "Inflammatory drainage: histamine and other inflammatory mediators increase lymphatic permeability and modulate lymphatic contractility, coupling local inflammation to the lymph drainage and immune-cell transport the system provides."
+  - target: 01-human/02-atomic/calcium
+    relation: connects-to
+    note: "Lymphangion pumping: rhythmic calcium transients in lymphatic-vessel smooth muscle drive the spontaneous contractions of each lymphangion that actively pump lymph against gravity, the intrinsic pacemaker mechanism propelling lymph back to the bloodstream."
+  - target: 01-human/03-molecular/norepinephrine
+    relation: connects-to
+    note: "Sympathetic regulation: sympathetic norepinephrine acting on lymphatic-muscle adrenergic receptors modulates the frequency and force of lymphatic contractions, the neural control of lymph flow that adjusts drainage to the body's needs."
+  - target: 01-human/03-molecular/mhc-class-ii
+    relation: connects-to
+    note: "Lymph-node immunity: lymph carries antigen-presenting cells to the lymph nodes, where MHC-class-II presentation to T cells launches the adaptive immune response — the immune-surveillance function that is the lymphatic system's defining role."
 ---
 
 # Lymphatic System
@@ -506,6 +515,9 @@ Enterocytes package dietary triglycerides + cholesterol + apoB-48 into chylomicr
 - `connects-to` → **[Adrenomedullin](../../03-molecular/adrenomedullin/README.md)** — Adrenomedullin signaling through RAMP2 is essential for lymphatic vessel formation and for maintaining the integrity of the lymphatic endothelium, so its disruption causes severe developmental lymphatic defects and edema.
 - `connects-to` → **[Prostaglandins](../../03-molecular/prostaglandins/README.md)** — Prostaglandins regulate the rhythmic intrinsic contractions of collecting lymphatics that actively propel lymph against gravity, the pumping mechanism that returns interstitial fluid and protein to the bloodstream.
 - `connects-to` → **[Histamine](../../03-molecular/histamine/README.md)** — Histamine and other inflammatory mediators increase lymphatic permeability and modulate lymphatic contractility, coupling local inflammation to the lymph drainage and immune-cell transport that the lymphatic system provides.
+- `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — Rhythmic calcium transients in lymphatic-vessel smooth muscle drive the spontaneous contractions of each lymphangion that actively pump lymph against gravity, the intrinsic pacemaker mechanism propelling lymph back to the bloodstream.
+- `connects-to` → **[Norepinephrine](../../03-molecular/norepinephrine/README.md)** — Sympathetic norepinephrine acting on lymphatic-muscle adrenergic receptors modulates the frequency and force of lymphatic contractions, the neural control of lymph flow that adjusts drainage to the body's needs.
+- `connects-to` → **[MHC class II](../../03-molecular/mhc-class-ii/README.md)** — Lymph carries antigen-presenting cells to the lymph nodes, where MHC-class-II presentation to T cells launches the adaptive immune response—the immune-surveillance function that is the lymphatic system's defining role.
 
 ## Pathology
 
