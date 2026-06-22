@@ -301,6 +301,15 @@ cross_links:
   - target: 01-human/03-molecular/il-1b
     relation: connects-to
     note: "Neuroinflammation: IL-1β is among the inflammatory cytokines elevated in panic disorder, contributing to the HPA-axis activation and neuroimmune signalling that accompany recurrent panic."
+  - target: 01-human/03-molecular/endocannabinoid
+    relation: connects-to
+    note: "Fear extinction: endocannabinoid signalling at amygdala CB1 receptors is essential for extinguishing conditioned fear, and a deficient endocannabinoid tone impairs the extinction learning whose failure perpetuates panic and anticipatory anxiety."
+  - target: 01-human/03-molecular/cgrp
+    relation: connects-to
+    note: "Panicogenic peptide: CGRP released from the parabrachial nucleus into the amygdala signals threat and arousal, and CGRP infusion provokes panic-like anxiety — a neuropeptide pathway linking panic disorder to the migraine with which it is comorbid."
+  - target: 01-human/03-molecular/vasopressin
+    relation: connects-to
+    note: "HPA amplification: arginine vasopressin co-secreted with CRH synergistically drives ACTH release at the V1b receptor, and this AVP arm of the stress axis is implicated in the heightened neuroendocrine reactivity of panic disorder."
 ---
 
 # Panic Disorder
@@ -540,6 +549,9 @@ The **interoceptive fear conditioning model** (Bouton, Mineka, Barlow) explains 
 - `connects-to` → **[Serotonin transporter](../../03-molecular/serotonin-transporter/README.md)** — SSRIs that block the serotonin transporter are the pharmacological mainstay of panic disorder, and the 5-HTTLPR transporter polymorphism modulates both susceptibility to panic and the response to treatment.
 - `connects-to` → **[μ-opioid receptor](../../03-molecular/mu-opioid-receptor/README.md)** — The opioidergic-deficit hypothesis holds that blunted endogenous opioid tone leaves the brainstem suffocation alarm hypersensitive to CO2, helping explain the spontaneous, unprovoked panic attacks that distinguish panic disorder from situational anxiety.
 - `connects-to` → **[IL-1β](../../03-molecular/il-1b/README.md)** — IL-1β is among the inflammatory cytokines elevated in panic disorder, contributing to the HPA-axis activation and neuroimmune signaling that accompany recurrent panic and tie anxiety to systemic inflammation.
+- `connects-to` → **[Endocannabinoid](../../03-molecular/endocannabinoid/README.md)** — Endocannabinoid signaling at amygdala CB1 receptors is essential for extinguishing conditioned fear, and a deficient endocannabinoid tone impairs the extinction learning whose failure perpetuates panic and anticipatory anxiety.
+- `connects-to` → **[CGRP](../../03-molecular/cgrp/README.md)** — CGRP released from the parabrachial nucleus into the amygdala signals threat and arousal, and CGRP infusion provokes panic-like anxiety—a neuropeptide pathway linking panic disorder to the migraine with which it is comorbid.
+- `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — Arginine vasopressin co-secreted with CRH synergistically drives ACTH release at the V1b receptor, and this AVP arm of the stress axis is implicated in the heightened neuroendocrine reactivity of panic disorder.
 
 [^gorman-2000-panic-neurobiology]: Gorman JM, Kent JM, Sullivan GM, Coplan JD. Neuroanatomical hypothesis of panic disorder, revised. *Am J Psychiatry.* 2000;157(4):493-505. [doi:10.1176/appi.ajp.157.4.493](https://doi.org/10.1176/appi.ajp.157.4.493) · [PubMed 10739407](https://pubmed.ncbi.nlm.nih.gov/10739407/)
 [^nardi-2009-clonazepam-panic]: Nardi AE, Freire RC, Zin WA. Panic disorder and control of breathing. *Respir Physiol Neurobiol.* 2009;167(1):133-143. [doi:10.1016/j.resp.2008.07.011](https://doi.org/10.1016/j.resp.2008.07.011) · [PubMed 18708168](https://pubmed.ncbi.nlm.nih.gov/18708168/)

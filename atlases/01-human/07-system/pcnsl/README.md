@@ -295,6 +295,15 @@ cross_links:
   - target: 01-human/03-molecular/mhc-class-ii
     relation: connects-to
     note: "Immune escape: PCNSL frequently deletes the 6p21 HLA region and loses MHC class II expression, blunting antigen presentation so the tumour evades immune surveillance within the immune-privileged CNS."
+  - target: 01-human/03-molecular/caspase-3
+    relation: connects-to
+    note: "Chemotherapy apoptosis: high-dose methotrexate that crosses the blood-brain barrier kills PCNSL cells through caspase-3-mediated apoptosis, and the BCL-2-driven apoptotic resistance of this lymphoma underlies the relapses that follow initial response."
+  - target: 01-human/03-molecular/il-10
+    relation: connects-to
+    note: "Diagnostic biomarker: PCNSL cells secrete IL-10, and an elevated cerebrospinal-fluid IL-10 level (and high IL-10/IL-6 ratio) is a diagnostic and prognostic marker that also serves as autocrine survival signalling for the tumour."
+  - target: 01-human/03-molecular/pten
+    relation: connects-to
+    note: "PI3K-pathway loss: PCNSL frequently deletes PTEN on 9p alongside CDKN2A, releasing the brake on PI3K-AKT-mTOR signalling that drives proliferation and supports the dependence on the same pathway targeted by mTOR and PI3K inhibitors."
 ---
 
 # Primary CNS Lymphoma
@@ -501,6 +510,9 @@ Score 0-1: 2-year OS ~80%; Score 2-3: ~48%; Score 4-5: ~15%
 - `connects-to` → **[JAK1/2](../../03-molecular/jak1-2/README.md)** — Autocrine IL-6 in PCNSL signals through JAK1/2-STAT3 to sustain the malignant B cells, a cytokine survival loop layered on the MYD88-driven NF-κB activation that defines this ABC-type CNS lymphoma.
 - `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — Constitutive B-cell-receptor and MYD88 signaling converge on PI3K-AKT-mTOR in PCNSL, driving the protein synthesis and proliferation that fuel its rapid intracerebral growth and underpin trials of mTOR-pathway inhibitors.
 - `connects-to` → **[MHC class II](../../03-molecular/mhc-class-ii/README.md)** — PCNSL frequently deletes the 6p21 HLA region and loses MHC class II expression, blunting antigen presentation so the tumor evades immune surveillance within the already immune-privileged central nervous system.
+- `connects-to` → **[Caspase-3](../../03-molecular/caspase-3/README.md)** — High-dose methotrexate that crosses the blood-brain barrier kills PCNSL cells through caspase-3-mediated apoptosis, and the BCL-2-driven apoptotic resistance of this lymphoma underlies the relapses that follow initial response.
+- `connects-to` → **[IL-10](../../03-molecular/il-10/README.md)** — PCNSL cells secrete IL-10, and an elevated cerebrospinal-fluid IL-10 level (and high IL-10/IL-6 ratio) is a diagnostic and prognostic marker that also serves as autocrine survival signaling for the tumor.
+- `connects-to` → **[PTEN](../../03-molecular/pten/README.md)** — PCNSL frequently deletes PTEN on 9p alongside CDKN2A, releasing the brake on PI3K-AKT-mTOR signaling that drives proliferation and supports the dependence on the same pathway targeted by mTOR and PI3K inhibitors.
 
 [^bromberg-2019-hovon105]: Bromberg JE, Issa S, Bakunina K, et al. Rituximab in patients with primary CNS lymphoma (HOVON 105/ALLG NHL 24): a randomised, open-label, phase 3 intergroup study. *Lancet Oncol.* 2019;20(2):216-228. [doi:10.1016/S1470-2045(18)30747-2](https://doi.org/10.1016/S1470-2045(18)30747-2) · [PubMed 30528440](https://pubmed.ncbi.nlm.nih.gov/30528440/)
 [^grommes-2017-ibrutinib-pcnsl]: Grommes C, Pastore A, Palaskas N, et al. Ibrutinib unmasks critical role of Bruton tyrosine kinase in primary CNS lymphoma. *Cancer Cell.* 2017;31(6):833-843. [doi:10.1016/j.ccell.2017.04.012](https://doi.org/10.1016/j.ccell.2017.04.012) · [PubMed 28552327](https://pubmed.ncbi.nlm.nih.gov/28552327/)
