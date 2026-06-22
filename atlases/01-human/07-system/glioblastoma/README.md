@@ -295,6 +295,15 @@ cross_links:
   - target: 01-human/03-molecular/erk1-2
     relation: connects-to
     note: "RTK-RAS-MAPK: ERK signalling downstream of EGFR amplification and PDGFRA drives glioblastoma proliferation, a core mitogenic output of its receptor-tyrosine-kinase lesions."
+  - target: 01-human/03-molecular/cxcl12
+    relation: connects-to
+    note: "Stem-cell niche and invasion: CXCL12-CXCR4 signalling anchors glioblastoma stem cells in the perivascular niche and drives the diffuse white-matter invasion that makes the tumour impossible to cure surgically."
+  - target: 01-human/03-molecular/cgas-sting
+    relation: connects-to
+    note: "Cold-tumour innate immunity: the chromosomal instability of glioblastoma generates micronuclei and cytosolic DNA, and STING agonists are being explored to ignite an innate immune response in this immunologically cold tumour."
+  - target: 01-human/03-molecular/rad51
+    relation: connects-to
+    note: "Treatment resistance: RAD51-mediated homologous-recombination repair helps glioblastoma survive the DNA damage of radiation and temozolomide, a mechanism of the therapy resistance behind its near-universal recurrence."
 ---
 
 # Glioblastoma
@@ -517,6 +526,9 @@ The blood-brain barrier (BBB) creates a pharmacological challenge:
 - `connects-to` → **[CCL2](../../03-molecular/ccl2/README.md)** — Myeloid dominance: CCL2 recruits microglia and monocyte-derived macrophages that make up much of the glioblastoma mass, building the profoundly immunosuppressive microenvironment that defeats immunotherapy.
 - `connects-to` → **[TGF-beta](../../03-molecular/tgf-beta/README.md)** — Immunosuppression and invasion: TGF-beta secreted by glioblastoma suppresses anti-tumour T cells and promotes the diffuse infiltration that makes the tumour impossible to fully resect.
 - `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — RTK-RAS-MAPK: ERK signalling downstream of EGFR amplification and PDGFRA drives glioblastoma proliferation, a core mitogenic output of its receptor-tyrosine-kinase lesions.
+- `connects-to` → **[CXCL12](../../03-molecular/cxcl12/README.md)** — CXCL12-CXCR4 signaling anchors glioblastoma stem cells in the perivascular niche and drives the diffuse white-matter invasion that makes the tumor impossible to fully resect and dooms it to recurrence.
+- `connects-to` → **[cGAS-STING](../../03-molecular/cgas-sting/README.md)** — The chromosomal instability of glioblastoma generates micronuclei and cytosolic DNA, and STING agonists are being explored to ignite an innate immune response in this immunologically "cold" tumor that resists checkpoint blockade.
+- `connects-to` → **[RAD51](../../03-molecular/rad51/README.md)** — RAD51-mediated homologous-recombination repair helps glioblastoma survive the DNA damage of radiation and temozolomide, a mechanism of the treatment resistance that underlies its near-universal recurrence and lethality.
 
 ---
 

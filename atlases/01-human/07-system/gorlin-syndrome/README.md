@@ -295,6 +295,15 @@ cross_links:
   - target: 01-human/03-molecular/igf-1
     relation: connects-to
     note: "Growth-factor cooperation: IGF-1 signalling cooperates with Hedgehog activation in the SHH-subgroup medulloblastomas of Gorlin syndrome, supporting their proliferation."
+  - target: 01-human/03-molecular/caspase-3
+    relation: connects-to
+    note: "Radiation paradox: Hedgehog-driven BCL-2 suppresses caspase-3 apoptosis in Gorlin tumours, and radiotherapy is avoided because it paradoxically induces hundreds of new basal cell carcinomas within the radiation field."
+  - target: 01-human/03-molecular/rb1
+    relation: connects-to
+    note: "Medulloblastoma RB pathway: the SHH-subgroup medulloblastomas of Gorlin children engage the RB cell-cycle pathway, the proliferative machinery downstream of the constitutive Hedgehog signalling that PTCH1 loss unleashes."
+  - target: 01-human/03-molecular/egfr
+    relation: connects-to
+    note: "Keratocyst epithelium: EGFR-driven epithelial proliferation underlies the odontogenic keratocysts of the jaw that are an early and characteristic manifestation of Gorlin syndrome, alongside its basal cell carcinomas."
 ---
 
 # Gorlin Syndrome
@@ -498,6 +507,9 @@ Both are two-hit tumor suppressors: germline heterozygous LOF + somatic second h
 - `connects-to` → **[PDGF](../../03-molecular/pdgf/README.md)** — Fibroma fibroblasts: PDGF-driven fibroblast proliferation underlies the cardiac and ovarian fibromas characteristic of Gorlin syndrome, the benign mesenchymal tumours beyond its Hedgehog-driven cancers.
 - `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — MAPK crosstalk: RAS-RAF-ERK signalling cross-talks with the Hedgehog pathway in Gorlin tumours and is a bypass route to resistance when SMO inhibitors are used for its basal cell carcinomas.
 - `connects-to` → **[IGF-1](../../03-molecular/igf-1/README.md)** — Growth-factor cooperation: IGF-1 signalling cooperates with Hedgehog activation in the SHH-subgroup medulloblastomas of Gorlin syndrome, supporting their proliferation.
+- `connects-to` → **[Caspase-3](../../03-molecular/caspase-3/README.md)** — Hedgehog-driven BCL-2 suppresses caspase-3 apoptosis in Gorlin tumors, and radiotherapy is specifically avoided because it paradoxically induces hundreds of new basal cell carcinomas within the irradiated field.
+- `connects-to` → **[RB1](../../03-molecular/rb1/README.md)** — The SHH-subgroup medulloblastomas of Gorlin children engage the RB cell-cycle pathway, the proliferative machinery downstream of the constitutive Hedgehog signaling that germline PTCH1 loss unleashes in the cerebellum.
+- `connects-to` → **[EGFR](../../03-molecular/egfr/README.md)** — EGFR-driven epithelial proliferation underlies the odontogenic keratocysts of the jaw that are an early and characteristic manifestation of Gorlin syndrome, often preceding the basal cell carcinomas.
 
 ---
 
