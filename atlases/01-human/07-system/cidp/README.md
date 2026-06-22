@@ -312,6 +312,15 @@ cross_links:
   - target: 01-human/03-molecular/ntrk
     relation: connects-to
     note: "Neurotrophic repair: NGF and BDNF signalling through Trk receptors supports the Schwann-cell remyelination and axonal repair that determine functional recovery between the relapses of CIDP."
+  - target: 01-human/03-molecular/glucocorticoid-receptor
+    relation: connects-to
+    note: "First-line therapy: corticosteroids acting through the glucocorticoid receptor are a first-line treatment for CIDP, broadly suppressing the autoreactive immune attack on peripheral myelin, used alongside IVIG and plasma exchange."
+  - target: 01-human/03-molecular/bcl-2
+    relation: connects-to
+    note: "Plasma-cell persistence: long-lived plasma cells making the anti-nodal and anti-myelin antibodies of CIDP survive on BCL-2 and escape CD20-targeted depletion, the basis for relapse after rituximab in the autoimmune-nodopathy subset."
+  - target: 01-human/03-molecular/perforin
+    relation: connects-to
+    note: "Cell-mediated demyelination: macrophages and cytotoxic T cells strip myelin from peripheral nerves in CIDP, with perforin-based cytotoxicity contributing to the segmental demyelination that slows nerve conduction."
 ---
 
 # CIDP
@@ -552,6 +561,9 @@ IgG4 anti-NF155 or anti-CNTN1 disrupts this complex → paranodal loop detachmen
 - `connects-to` → **[TLR4](../../03-molecular/tlr4/README.md)** — TLR4 signaling primes the macrophages that, directed by autoantibody and complement deposition, strip myelin from peripheral nerves in CIDP—the innate arm of the demyelinating attack alongside the adaptive response.
 - `connects-to` → **[CXCL12](../../03-molecular/cxcl12/README.md)** — CXCL12 helps direct autoreactive leukocytes across the blood-nerve barrier into peripheral nerve in CIDP, a trafficking step in establishing the endoneurial inflammation that drives demyelination.
 - `connects-to` → **[NTRK / TrkB](../../03-molecular/ntrk/README.md)** — NGF and BDNF signaling through Trk receptors supports the Schwann-cell remyelination and axonal repair that determine the functional recovery achieved between relapses of CIDP, and whose failure leads to fixed disability.
+- `connects-to` → **[Glucocorticoid receptor](../../03-molecular/glucocorticoid-receptor/README.md)** — Corticosteroids acting through the glucocorticoid receptor are a first-line treatment for CIDP, broadly suppressing the autoreactive immune attack on peripheral myelin, used alongside IVIG and plasma exchange.
+- `connects-to` → **[BCL-2](../../03-molecular/bcl-2/README.md)** — Long-lived plasma cells making the anti-nodal and anti-myelin antibodies of CIDP survive on BCL-2 and escape CD20-targeted depletion, the basis for relapse after rituximab in the autoimmune-nodopathy subset.
+- `connects-to` → **[Perforin](../../03-molecular/perforin/README.md)** — Macrophages and cytotoxic T cells strip myelin from peripheral nerves in CIDP, with perforin-based cytotoxicity contributing to the segmental demyelination that slows nerve conduction.
 
 ---
 

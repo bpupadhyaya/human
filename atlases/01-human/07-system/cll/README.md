@@ -304,6 +304,15 @@ cross_links:
   - target: 01-human/03-molecular/tert
     relation: connects-to
     note: "Telomere dynamics: short telomeres and telomerase reactivation mark the genomically unstable, rapidly proliferating CLL clones and correlate with the adverse outcomes of the disease."
+  - target: 01-human/03-molecular/complement-c3
+    relation: connects-to
+    note: "Complement-dependent killing: anti-CD20 antibodies (rituximab, obinutuzumab) kill CLL cells partly through complement-dependent cytotoxicity, fixing C3 and the membrane-attack complex, one of the immune effector mechanisms of antibody therapy in the disease."
+  - target: 01-human/03-molecular/perforin
+    relation: connects-to
+    note: "Cellular immunotherapy: NK-cell antibody-dependent cytotoxicity against anti-CD20-coated cells and CD19 CAR-T cells both kill CLL through perforin and granzyme, the cellular effector arm complementing antibody and small-molecule therapy."
+  - target: 01-human/03-molecular/foxo
+    relation: connects-to
+    note: "Survival signalling: tonic B-cell-receptor signalling through PI3K-AKT inactivates FOXO transcription factors to promote CLL-cell survival, part of the BCR-dependence that BTK and PI3K inhibitors exploit."
 ---
 
 # CLL
@@ -512,6 +521,9 @@ BCR cross-linking → LYN (SRC kinase) phosphorylates CD79a/b ITAMs → SYK recr
 - `connects-to` → **[SF3B1](../../03-molecular/sf3b1/README.md)** — Recurrent SF3B1 mutations corrupt mRNA splicing across the genome in CLL and mark a more aggressive, adverse-prognosis subset—one of the recurrently mutated drivers that refine risk beyond the classic cytogenetic markers.
 - `connects-to` → **[Src kinase](../../03-molecular/src-kinase/README.md)** — Src-family kinases such as LYN transduce the chronic B-cell-receptor signal upstream of BTK that drives CLL survival, the proximal node of the very pathway that BTK inhibitors block further downstream.
 - `connects-to` → **[TERT](../../03-molecular/tert/README.md)** — Short telomeres and telomerase reactivation mark the genomically unstable, rapidly proliferating CLL clones and correlate with the adverse outcomes and richter-transformation risk of the disease.
+- `connects-to` → **[Complement C3](../../03-molecular/complement-c3/README.md)** — Anti-CD20 antibodies (rituximab, obinutuzumab) kill CLL cells partly through complement-dependent cytotoxicity, fixing C3 and the membrane-attack complex, one of the immune effector mechanisms of antibody therapy in the disease.
+- `connects-to` → **[Perforin](../../03-molecular/perforin/README.md)** — NK-cell antibody-dependent cytotoxicity against anti-CD20-coated cells and CD19 CAR-T cells both kill CLL through perforin and granzyme, the cellular effector arm complementing antibody and small-molecule therapy.
+- `connects-to` → **[FOXO](../../03-molecular/foxo/README.md)** — Tonic B-cell-receptor signaling through PI3K-AKT inactivates FOXO transcription factors to promote CLL-cell survival, part of the BCR-dependence that BTK and PI3K inhibitors exploit.
 
 ---
 
