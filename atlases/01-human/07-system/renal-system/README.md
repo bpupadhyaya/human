@@ -307,6 +307,15 @@ cross_links:
   - target: 01-human/03-molecular/bradykinin
     relation: connects-to
     note: "Kallikrein-kinin balance: the renal kallikrein-kinin system generates bradykinin that promotes vasodilation and natriuresis, a counter-regulatory arm to angiotensin II in the kidney's control of blood pressure and volume."
+  - target: 01-human/02-atomic/calcium
+    relation: connects-to
+    note: "Mineral homeostasis: the kidney is central to calcium balance, filtering it and reabsorbing it under PTH and vitamin-D control through channels like TRPV5 in the distal tubule, linking renal function to bone health and the disturbances of chronic kidney disease."
+  - target: 01-human/03-molecular/dopamine
+    relation: connects-to
+    note: "Intrarenal natriuresis: locally produced dopamine acts on proximal-tubule D1 receptors to inhibit sodium reabsorption and promote its excretion, an intrarenal natriuretic system that helps regulate blood pressure independent of the systemic circulation."
+  - target: 01-human/03-molecular/glp-1
+    relation: connects-to
+    note: "Metabolic renoprotection: GLP-1 receptor agonists exert direct renal effects that reduce albuminuria and slow the decline of kidney function in diabetic kidney disease, linking the incretin axis to renal outcomes."
 taxonomy:
   uberon: "UBERON:0001008"
 ---
@@ -498,6 +507,9 @@ Natriuretic counterpoint:
 - **Connects to:** [Prostaglandins](../../03-molecular/prostaglandins/README.md) — renal hemodynamics: prostaglandins (PGE2, prostacyclin) dilate the afferent arteriole and stimulate renin release to protect renal blood flow under stress, which is why NSAIDs that block them precipitate acute kidney injury.
 - **Connects to:** [Adenosine](../../03-molecular/adenosine/README.md) — tubuloglomerular feedback: adenosine released at the macula densa in response to high tubular sodium constricts the afferent arteriole through A1 receptors, the feedback loop that stabilises single-nephron GFR.
 - **Connects to:** [Bradykinin](../../03-molecular/bradykinin/README.md) — kallikrein-kinin balance: the renal kallikrein-kinin system generates bradykinin that promotes vasodilation and natriuresis, a counter-regulatory arm to angiotensin II in the kidney's control of blood pressure and volume.
+- **Connects to:** [Calcium](../../02-atomic/calcium/README.md) — mineral homeostasis: the kidney is central to calcium balance, filtering it and reabsorbing it under PTH and vitamin-D control through channels like TRPV5 in the distal tubule, linking renal function to bone health and the disturbances of chronic kidney disease.
+- **Connects to:** [Dopamine](../../03-molecular/dopamine/README.md) — intrarenal natriuresis: locally produced dopamine acts on proximal-tubule D1 receptors to inhibit sodium reabsorption and promote its excretion, an intrarenal natriuretic system that helps regulate blood pressure independent of the systemic circulation.
+- **Connects to:** [GLP-1](../../03-molecular/glp-1/README.md) — metabolic renoprotection: GLP-1 receptor agonists exert direct renal effects that reduce albuminuria and slow the decline of kidney function in diabetic kidney disease, linking the incretin axis to renal outcomes.
 - **Treated by:** ACE inhibitors — renoprotection in CKD.
 - **Treated by:** Loop diuretics — fluid management.
 

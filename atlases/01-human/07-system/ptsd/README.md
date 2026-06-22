@@ -306,6 +306,15 @@ cross_links:
   - target: 01-human/03-molecular/substance-p
     relation: connects-to
     note: "Stress tachykinin: substance P is elevated in PTSD and acts on NK1 receptors in the amygdala to heighten anxiety and the stress response, a neuropeptide arm of the disorder's hyperarousal."
+  - target: 01-human/03-molecular/orexin
+    relation: connects-to
+    note: "Hyperarousal and nightmares: elevated orexin signalling drives the chronic hyperarousal, fragmented sleep and nightmares of PTSD, the wake-promoting system whose overactivity underlies the disorder's prominent sleep disturbance."
+  - target: 01-human/03-molecular/ghrelin
+    relation: connects-to
+    note: "Fear-memory consolidation: ghrelin enhances fear learning and the persistence of traumatic memories, a stress-responsive hormone that potentiates amygdala fear circuits and is implicated in the over-consolidated fear memory at the core of PTSD."
+  - target: 01-human/03-molecular/acetylcholine
+    relation: connects-to
+    note: "Autonomic startle: cholinergic signalling contributes to the exaggerated startle response and autonomic hyperreactivity of PTSD, the parasympathetic-sympathetic imbalance that accompanies the noradrenergic hyperarousal."
 ---
 
 # PTSD
@@ -537,6 +546,9 @@ Not all trauma leads to PTSD. Risk and resilience factors include:
 - `connects-to` → **[μ-opioid receptor](../../03-molecular/mu-opioid-receptor/README.md)** — Opioid analgesia given soon after trauma lowers later PTSD risk, and endogenous opioid signaling shapes fear extinction—implicating the μ-opioid system in the consolidation of traumatic memory and in resilience.
 - `connects-to` → **[Progesterone](../../03-molecular/progesterone/README.md)** — Reduced allopregnanolone, a progesterone metabolite and positive GABA-A modulator, is found in PTSD, weakening the inhibitory tone that normally restrains the fear and arousal circuits and offering a neurosteroid treatment target.
 - `connects-to` → **[Substance P](../../03-molecular/substance-p/README.md)** — Substance P is elevated in PTSD and acts on NK1 receptors in the amygdala to heighten anxiety and the stress response, a neuropeptide arm of the hyperarousal that complements the noradrenergic surge.
+- `connects-to` → **[Orexin](../../03-molecular/orexin/README.md)** — Elevated orexin signaling drives the chronic hyperarousal, fragmented sleep and nightmares of PTSD, the wake-promoting system whose overactivity underlies the disorder's prominent sleep disturbance.
+- `connects-to` → **[Ghrelin](../../03-molecular/ghrelin/README.md)** — Ghrelin enhances fear learning and the persistence of traumatic memories, a stress-responsive hormone that potentiates amygdala fear circuits and is implicated in the over-consolidated fear memory at the core of PTSD.
+- `connects-to` → **[Acetylcholine](../../03-molecular/acetylcholine/README.md)** — Cholinergic signaling contributes to the exaggerated startle response and autonomic hyperreactivity of PTSD, the parasympathetic-sympathetic imbalance that accompanies the noradrenergic hyperarousal.
 
 [^yehuda-2015-ptsd-review]: Yehuda R, Hoge CW, McFarlane AC, et al. Post-traumatic stress disorder. *Nat Rev Dis Primers.* 2015;1:15057. [doi:10.1038/nrdp.2015.57](https://doi.org/10.1038/nrdp.2015.57) · [PubMed 27189040](https://pubmed.ncbi.nlm.nih.gov/27189040/)
 [^foa-2019-ptsd-treatments]: Foa EB, McLean CP. The efficacy of exposure therapy for anxiety and related disorders. *Annu Rev Clin Psychol.* 2016;12:1-28. [doi:10.1146/annurev-clinpsy-021815-093533](https://doi.org/10.1146/annurev-clinpsy-021815-093533) · [PubMed 26928206](https://pubmed.ncbi.nlm.nih.gov/26928206/)
