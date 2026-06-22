@@ -304,6 +304,15 @@ cross_links:
   - target: 01-human/03-molecular/egln1
     relation: connects-to
     note: "Pseudohypoxia in SDH-deficient GIST: in wild-type GIST with SDH deficiency, accumulating succinate inhibits the EGLN1/PHD prolyl hydroxylases that mark HIF for degradation, locking in a pseudohypoxic programme shared with SDH-mutant paraganglioma."
+  - target: 01-human/03-molecular/dnmt3a
+    relation: connects-to
+    note: "DNA hypermethylation: in SDH-deficient wild-type GIST, accumulated succinate also inhibits the TET DNA-demethylases, producing a globally hypermethylated genome that drives a distinct epigenetic subtype of the disease."
+  - target: 01-human/03-molecular/bcl-2
+    relation: connects-to
+    note: "Apoptotic response: imatinib's killing of KIT-driven GIST depends on tipping the BCL-2-family balance toward apoptosis, and persistent anti-apoptotic signalling leaves a residual drug-tolerant cell population that underlies relapse on therapy."
+  - target: 01-human/03-molecular/foxo
+    relation: connects-to
+    note: "Survival signalling: oncogenic KIT signals through AKT to inactivate FOXO transcription factors, removing a pro-apoptotic brake — part of the survival programme that imatinib reverses by restoring FOXO activity in GIST cells."
 ---
 
 # GIST
@@ -530,6 +539,9 @@ No approved targeted therapy; sunitinib may have modest activity; clinical trial
 - `connects-to` → **[Caspase-3](../../03-molecular/caspase-3/README.md)** — Imatinib kills GIST cells by relieving the anti-apoptotic signal of the mutant KIT receptor, restoring caspase-3-mediated apoptosis—the basis for the dramatic responses that made GIST the paradigm of targeted therapy in solid tumors.
 - `connects-to` → **[CXCL12](../../03-molecular/cxcl12/README.md)** — CXCR4 on GIST cells follows CXCL12 gradients to the liver and peritoneum, the dominant sites of the metastatic spread that, more than the primary tumor, determines prognosis in the disease.
 - `connects-to` → **[EGLN1 (PHD2)](../../03-molecular/egln1/README.md)** — In wild-type GIST with SDH deficiency, accumulating succinate inhibits the EGLN1/PHD prolyl hydroxylases that mark HIF for degradation, locking in a pseudohypoxic program shared with SDH-mutant paraganglioma and pheochromocytoma.
+- `connects-to` → **[DNMT3A](../../03-molecular/dnmt3a/README.md)** — In SDH-deficient wild-type GIST, accumulated succinate also inhibits the TET DNA-demethylases, producing a globally hypermethylated genome that drives a distinct epigenetic subtype of the disease.
+- `connects-to` → **[BCL-2](../../03-molecular/bcl-2/README.md)** — Imatinib's killing of KIT-driven GIST depends on tipping the BCL-2-family balance toward apoptosis, and persistent anti-apoptotic signaling leaves a residual drug-tolerant cell population that underlies relapse on therapy.
+- `connects-to` → **[FOXO](../../03-molecular/foxo/README.md)** — Oncogenic KIT signals through AKT to inactivate FOXO transcription factors, removing a pro-apoptotic brake—part of the survival program that imatinib reverses by restoring FOXO activity in GIST cells.
 
 ---
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*

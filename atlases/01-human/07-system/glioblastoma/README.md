@@ -304,6 +304,15 @@ cross_links:
   - target: 01-human/03-molecular/rad51
     relation: connects-to
     note: "Treatment resistance: RAD51-mediated homologous-recombination repair helps glioblastoma survive the DNA damage of radiation and temozolomide, a mechanism of the therapy resistance behind its near-universal recurrence."
+  - target: 01-human/02-atomic/calcium
+    relation: connects-to
+    note: "Neuron-glioma networks: glioblastoma cells form electrical and AMPA-receptor synapses with neurons and connect to each other through gap junctions, and the resulting calcium-mediated network activity drives invasion and proliferation."
+  - target: 01-human/03-molecular/dnmt3a
+    relation: connects-to
+    note: "MGMT methylation: methylation of the MGMT DNA-repair-gene promoter silences it and predicts response to temozolomide, the single most important predictive epigenetic biomarker in glioblastoma and an example of DNA methylation determining therapy."
+  - target: 01-human/03-molecular/perforin
+    relation: connects-to
+    note: "Immunotherapy: EGFRvIII- and other-targeted CAR-T cells aim to kill glioblastoma through perforin and granzyme, though the immunosuppressive microenvironment of this 'cold' tumour has so far limited durable responses."
 ---
 
 # Glioblastoma
@@ -529,6 +538,9 @@ The blood-brain barrier (BBB) creates a pharmacological challenge:
 - `connects-to` → **[CXCL12](../../03-molecular/cxcl12/README.md)** — CXCL12-CXCR4 signaling anchors glioblastoma stem cells in the perivascular niche and drives the diffuse white-matter invasion that makes the tumor impossible to fully resect and dooms it to recurrence.
 - `connects-to` → **[cGAS-STING](../../03-molecular/cgas-sting/README.md)** — The chromosomal instability of glioblastoma generates micronuclei and cytosolic DNA, and STING agonists are being explored to ignite an innate immune response in this immunologically "cold" tumor that resists checkpoint blockade.
 - `connects-to` → **[RAD51](../../03-molecular/rad51/README.md)** — RAD51-mediated homologous-recombination repair helps glioblastoma survive the DNA damage of radiation and temozolomide, a mechanism of the treatment resistance that underlies its near-universal recurrence and lethality.
+- `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — Glioblastoma cells form electrical and AMPA-receptor synapses with neurons and connect to each other through gap junctions, and the resulting calcium-mediated network activity drives invasion and proliferation.
+- `connects-to` → **[DNMT3A](../../03-molecular/dnmt3a/README.md)** — Methylation of the MGMT DNA-repair-gene promoter silences it and predicts response to temozolomide, the single most important predictive epigenetic biomarker in glioblastoma and an example of DNA methylation determining therapy.
+- `connects-to` → **[Perforin](../../03-molecular/perforin/README.md)** — EGFRvIII- and other-targeted CAR-T cells aim to kill glioblastoma through perforin and granzyme, though the immunosuppressive microenvironment of this "cold" tumor has so far limited durable responses.
 
 ---
 
