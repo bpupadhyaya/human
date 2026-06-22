@@ -310,6 +310,15 @@ cross_links:
   - target: 01-human/03-molecular/estrogen
     relation: connects-to
     note: "Hormonal mood modulation: estrogen influences monoaminergic systems, and bipolar mood episodes cluster around postpartum, perimenstrual and perimenopausal hormonal shifts, especially in rapid-cycling disease."
+  - target: 01-human/02-atomic/calcium
+    relation: connects-to
+    note: "Calcium-channel genetics: the L-type calcium channel gene CACNA1C is among the strongest and most replicated genetic risk factors for bipolar disorder, implicating dysregulated neuronal calcium signalling in the disease's pathophysiology."
+  - target: 01-human/03-molecular/wnt-beta-catenin
+    relation: connects-to
+    note: "Lithium signalling: lithium inhibits GSK-3β, disinhibiting Wnt/β-catenin signalling, and this pathway is one proposed route by which the prototypical mood stabiliser exerts its neuroprotective and mood-balancing effects in bipolar disorder."
+  - target: 01-human/03-molecular/insulin
+    relation: connects-to
+    note: "Metabolic comorbidity: insulin resistance is common in bipolar disorder and associated with a more chronic, treatment-resistant course, part of the bidirectional link between metabolic dysfunction and mood that shapes long-term outcome."
 ---
 
 # Bipolar Disorder
@@ -537,6 +546,9 @@ During bipolar depression (often longer and more disabling than mania):
 - `connects-to` → **[Orexin](../../03-molecular/orexin/README.md)** — Orexin-driven sleep-wake and circadian dysregulation is central to bipolar disorder, where sleep loss reliably precipitates mania and circadian disruption tracks mood episodes—making sleep stabilization a cornerstone of management.
 - `connects-to` → **[NTRK / TrkB](../../03-molecular/ntrk/README.md)** — BDNF signaling through TrkB mediates the synaptic plasticity disrupted in bipolar disorder, and the neurotrophic action of lithium and valproate works partly through this BDNF-TrkB axis to protect neurons.
 - `connects-to` → **[Estrogen](../../03-molecular/estrogen/README.md)** — Estrogen influences monoaminergic systems, and bipolar mood episodes cluster around postpartum, perimenstrual, and perimenopausal hormonal shifts, especially in the rapid-cycling form more common in women.
+- `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — The L-type calcium channel gene CACNA1C is among the strongest and most replicated genetic risk factors for bipolar disorder, implicating dysregulated neuronal calcium signaling in the disease's pathophysiology.
+- `connects-to` → **[Wnt/β-catenin](../../03-molecular/wnt-beta-catenin/README.md)** — Lithium inhibits GSK-3β, disinhibiting Wnt/β-catenin signaling, and this pathway is one proposed route by which the prototypical mood stabilizer exerts its neuroprotective and mood-balancing effects in bipolar disorder.
+- `connects-to` → **[Insulin](../../03-molecular/insulin/README.md)** — Insulin resistance is common in bipolar disorder and associated with a more chronic, treatment-resistant course, part of the bidirectional link between metabolic dysfunction and mood that shapes long-term outcome.
 
 [^grande-2016-bipolar-review]: Grande I, Berk M, Birmaher B, Vieta E. Bipolar disorder. *Lancet.* 2016;387(10027):1561-1572. [doi:10.1016/S0140-6736(15)00241-X](https://doi.org/10.1016/S0140-6736(15)00241-X) · [PubMed 26388529](https://pubmed.ncbi.nlm.nih.gov/26388529/)
 [^geddes-2013-bipolar-treatment]: Geddes JR, Miklowitz DJ. Treatment of bipolar disorder. *Lancet.* 2013;381(9878):1672-1682. [doi:10.1016/S0140-6736(13)60857-0](https://doi.org/10.1016/S0140-6736(13)60857-0) · [PubMed 23663953](https://pubmed.ncbi.nlm.nih.gov/23663953/)

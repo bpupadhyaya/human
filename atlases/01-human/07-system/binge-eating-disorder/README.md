@@ -288,6 +288,15 @@ cross_links:
   - target: 01-human/03-molecular/gaba
     relation: connects-to
     note: "Inhibitory control: GABAergic tone in the prefrontal-striatal circuits underlies impulse control over eating, and its deficiency contributes to the loss of control that defines a binge episode."
+  - target: 01-human/03-molecular/fgfr
+    relation: connects-to
+    note: "Sweet-intake regulation: FGF21 signalling through FGFR1c with β-Klotho specifically suppresses the preference for sugar and sweet foods, a metabolic appetite axis relevant to the carbohydrate-rich binges characteristic of binge-eating disorder."
+  - target: 01-human/03-molecular/acetylcholine
+    relation: connects-to
+    note: "Striatal satiety signal: acetylcholine from accumbens cholinergic interneurons signals meal termination and modulates dopaminergic food reward, a striatal off-switch whose dysfunction can let a meal escalate into a binge."
+  - target: 01-human/03-molecular/adenosine
+    relation: connects-to
+    note: "Reward modulation: adenosine A2A receptors that form heteromers with dopamine D2 receptors tune striatal reward signalling, part of the purinergic modulation of the food-reward circuitry dysregulated in binge-eating disorder."
 sources:
   - id: american-psychiatric-2013-bed-dsm5
     type: clinical-guideline
@@ -539,6 +548,9 @@ BED is among the most psychiatrically comorbid of all eating disorders:
 - `connects-to` → **[Estrogen](../../03-molecular/estrogen/README.md)** — Binge frequency varies across the menstrual cycle, with low-estrogen/high-progesterone phases associated with more bingeing—implicating ovarian-hormone modulation of reward and appetite in binge eating disorder.
 - `connects-to` → **[Histamine](../../03-molecular/histamine/README.md)** — Central H1 histamine signaling suppresses appetite, and its blockade (as by some antipsychotics) provokes binge-like overeating, implicating the histaminergic system in the appetite dysregulation underlying the disorder.
 - `connects-to` → **[GABA](../../03-molecular/gaba/README.md)** — GABAergic tone in the prefrontal-striatal circuits underlies impulse control over eating, and reduced inhibitory signaling contributes to the loss of control that defines a binge episode despite the intent to stop.
+- `connects-to` → **[FGFR](../../03-molecular/fgfr/README.md)** — FGF21 signaling through FGFR1c with β-Klotho specifically suppresses the preference for sugar and sweet foods, a metabolic appetite axis relevant to the carbohydrate-rich binges characteristic of binge-eating disorder.
+- `connects-to` → **[Acetylcholine](../../03-molecular/acetylcholine/README.md)** — Acetylcholine from accumbens cholinergic interneurons signals meal termination and modulates dopaminergic food reward, a striatal off-switch whose dysfunction can let a meal escalate into a binge.
+- `connects-to` → **[Adenosine](../../03-molecular/adenosine/README.md)** — Adenosine A2A receptors that form heteromers with dopamine D2 receptors tune striatal reward signaling, part of the purinergic modulation of the food-reward circuitry dysregulated in binge-eating disorder.
 
 [^american-psychiatric-2013-bed-dsm5]: American Psychiatric Association. Binge Eating Disorder (307.51). In: *Diagnostic and Statistical Manual of Mental Disorders, 5th ed.* Arlington, VA: APA; 2013. [doi:10.1176/appi.books.9780890425596](https://doi.org/10.1176/appi.books.9780890425596)
 [^mccallum-2003-bed-review]: McCallum K, Bruton AM. Binge eating disorder: eating disorder or somatic syndrome? *Prim Care Companion J Clin Psychiatry.* 2003;5(Suppl 4):20-25. [PubMed 15213784](https://pubmed.ncbi.nlm.nih.gov/15213784/)
