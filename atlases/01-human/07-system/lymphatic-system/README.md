@@ -293,6 +293,15 @@ cross_links:
   - target: 01-human/03-molecular/apoe
     relation: connects-to
     note: "Dietary-lipid transport: intestinal lacteals absorb dietary fat as ApoE-bearing chylomicrons into the lymph (chyle), the lymphatic system's distinctive role in carrying fat to the bloodstream."
+  - target: 01-human/03-molecular/adrenomedullin
+    relation: connects-to
+    note: "Lymphatic development: adrenomedullin signalling through RAMP2 is essential for lymphatic vessel formation and maintaining the integrity of the lymphatic endothelium, so its loss causes severe lymphatic defects."
+  - target: 01-human/03-molecular/prostaglandins
+    relation: connects-to
+    note: "Lymphatic pumping: prostaglandins regulate the rhythmic intrinsic contractions of collecting lymphatics that actively propel lymph against gravity, the pumping mechanism that drains tissue fluid back to the circulation."
+  - target: 01-human/03-molecular/histamine
+    relation: connects-to
+    note: "Inflammatory drainage: histamine and other inflammatory mediators increase lymphatic permeability and modulate lymphatic contractility, coupling local inflammation to the lymph drainage and immune-cell transport the system provides."
 ---
 
 # Lymphatic System
@@ -494,6 +503,9 @@ Enterocytes package dietary triglycerides + cholesterol + apoB-48 into chylomicr
 - `connects-to` → **[Angiopoietin](../../03-molecular/angiopoietin/README.md)** — Lymphangiogenesis: the angiopoietin-Tie2 axis, with VEGF-C, builds and remodels lymphatic vessels, and its dysregulation underlies the failed vessel formation of primary lymphoedema.
 - `connects-to` → **[Complement C3](../../03-molecular/complement-c3/README.md)** — Lymph-node immunity: complement C3 opsonises antigens trafficked to lymph nodes and is retained on follicular dendritic cells, focusing the humoral immune responses the lymphatic system orchestrates.
 - `connects-to` → **[ApoE](../../03-molecular/apoe/README.md)** — Dietary-lipid transport: intestinal lacteals absorb dietary fat as ApoE-bearing chylomicrons into the lymph (chyle), the lymphatic system's distinctive role in carrying fat to the bloodstream.
+- `connects-to` → **[Adrenomedullin](../../03-molecular/adrenomedullin/README.md)** — Adrenomedullin signaling through RAMP2 is essential for lymphatic vessel formation and for maintaining the integrity of the lymphatic endothelium, so its disruption causes severe developmental lymphatic defects and edema.
+- `connects-to` → **[Prostaglandins](../../03-molecular/prostaglandins/README.md)** — Prostaglandins regulate the rhythmic intrinsic contractions of collecting lymphatics that actively propel lymph against gravity, the pumping mechanism that returns interstitial fluid and protein to the bloodstream.
+- `connects-to` → **[Histamine](../../03-molecular/histamine/README.md)** — Histamine and other inflammatory mediators increase lymphatic permeability and modulate lymphatic contractility, coupling local inflammation to the lymph drainage and immune-cell transport that the lymphatic system provides.
 
 ## Pathology
 
