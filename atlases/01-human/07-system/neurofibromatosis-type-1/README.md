@@ -295,6 +295,15 @@ cross_links:
   - target: 01-human/03-molecular/rankl
     relation: connects-to
     note: "Bone dysplasia: NF1 loss dysregulates RANKL-driven osteoclast activity, contributing to the tibial pseudarthrosis, scoliosis and low bone density of neurofibromatosis type 1."
+  - target: 01-human/03-molecular/ccl2
+    relation: connects-to
+    note: "Macrophage-rich niche: NF1 neurofibromas are heavily infiltrated by CCL2-recruited macrophages whose growth factors sustain the Schwann-cell tumour, the inflammatory niche from which plexiform neurofibromas can progress to MPNST."
+  - target: 01-human/03-molecular/cxcl12
+    relation: connects-to
+    note: "MPNST spread: CXCR4-CXCL12 signalling drives the metastasis of the malignant peripheral nerve sheath tumours that arise from NF1 plexiform neurofibromas, the leading cause of NF1-related death."
+  - target: 01-human/03-molecular/substance-p
+    relation: connects-to
+    note: "Neurofibroma pain: substance P from the sensory nerve fibres entangled within plexiform neurofibromas mediates the chronic neurogenic pain that is a major source of morbidity in neurofibromatosis type 1."
 ---
 
 # Neurofibromatosis Type 1
@@ -500,6 +509,9 @@ In glioma and MPNST: additional alterations required — MPNST requires CDKN2A/2
 - `connects-to` → **[KIT](../../03-molecular/kit/README.md)** — Mast-cell recruitment: KIT-driven mast cells recruited to NF1 neurofibromas secrete factors that promote Schwann-cell proliferation, a microenvironmental engine of neurofibroma growth.
 - `connects-to` → **[GABA](../../03-molecular/gaba/README.md)** — Cognitive deficits: excess RAS signalling from neurofibromin loss raises GABA-mediated inhibition in the brain, the mechanism behind the learning disabilities common in NF1.
 - `connects-to` → **[RANKL](../../03-molecular/rankl/README.md)** — Bone dysplasia: NF1 loss dysregulates RANKL-driven osteoclast activity, contributing to the tibial pseudarthrosis, scoliosis and low bone density of neurofibromatosis type 1.
+- `connects-to` → **[CCL2](../../03-molecular/ccl2/README.md)** — NF1 neurofibromas are heavily infiltrated by CCL2-recruited macrophages whose growth factors sustain the Schwann-cell tumor—the inflammatory niche from which plexiform neurofibromas can progress to malignant peripheral nerve sheath tumor.
+- `connects-to` → **[CXCL12](../../03-molecular/cxcl12/README.md)** — CXCR4-CXCL12 signaling drives the metastasis of the malignant peripheral nerve sheath tumors that arise from NF1 plexiform neurofibromas, the transformation that is the leading cause of NF1-related death.
+- `connects-to` → **[Substance P](../../03-molecular/substance-p/README.md)** — Substance P from the sensory nerve fibers entangled within plexiform neurofibromas mediates the chronic neurogenic pain that is a major and under-treated source of morbidity in neurofibromatosis type 1.
 
 [^gutmann-2017-nf1-primer]: Gutmann DH, Ferner RE, Listernick RH, et al. Neurofibromatosis type 1. *Nat Rev Dis Primers.* 2017;3:17004. [doi:10.1038/nrdp.2017.4](https://doi.org/10.1038/nrdp.2017.4) · [PubMed 28230061](https://pubmed.ncbi.nlm.nih.gov/28230061/)
 [^dombi-2016-selumetinib]: Dombi E, Baldwin A, Marcus LJ, et al. Activity of Selumetinib in Neurofibromatosis Type 1-Related Plexiform Neurofibromas. *N Engl J Med.* 2016;375(26):2550-2560. [doi:10.1056/NEJMoa1605943](https://doi.org/10.1056/NEJMoa1605943) · [PubMed 28029918](https://pubmed.ncbi.nlm.nih.gov/28029918/)
