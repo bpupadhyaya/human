@@ -304,6 +304,15 @@ cross_links:
   - target: 01-human/03-molecular/tlr4
     relation: connects-to
     note: "Neuroinflammatory neurotoxicity: methamphetamine and cocaine activate microglial TLR4, driving the neuroinflammation that contributes both to reward potentiation and to the dopaminergic neurotoxicity of chronic stimulant use."
+  - target: 01-human/03-molecular/glp-1
+    relation: connects-to
+    note: "Anti-craving target: GLP-1 receptor agonists reduce the dopaminergic reward response to cocaine and methamphetamine in models, an emerging metabolic-pathway approach to dampening craving and relapse in stimulant use disorder."
+  - target: 01-human/03-molecular/caspase-3
+    relation: connects-to
+    note: "Dopaminergic neurotoxicity: methamphetamine drives caspase-3-mediated apoptosis of dopaminergic neurons and terminals, the cell death behind the lasting cognitive and motor deficits and Parkinson's-disease risk of chronic heavy use."
+  - target: 01-human/03-molecular/troponin-complex
+    relation: connects-to
+    note: "Cardiotoxicity: cocaine causes coronary vasospasm, accelerated atherosclerosis and direct myocardial injury, producing the troponin-positive myocardial infarction and cardiomyopathy that make stimulant use a major cardiovascular hazard."
 ---
 
 # Stimulant Use Disorder
@@ -521,6 +530,9 @@ Unlike cocaine, methamphetamine causes **direct neurotoxic damage** to dopaminer
 - `connects-to` → **[Orexin](../../03-molecular/orexin/README.md)** — Hypothalamic orexin drives the arousal and cue-induced craving central to stimulant use disorder, making orexin-receptor antagonists a candidate strategy to reduce relapse and drug-seeking behavior.
 - `connects-to` → **[GSK-3β](../../03-molecular/gsk-3b/README.md)** — Dopamine D2-receptor signaling converges on GSK-3β, a kinase mediating the synaptic plasticity of stimulant reward and sensitization that underlies the compulsive use of cocaine and amphetamines.
 - `connects-to` → **[TLR4](../../03-molecular/tlr4/README.md)** — Methamphetamine and cocaine activate microglial TLR4, driving the neuroinflammation that contributes both to reward potentiation and to the dopaminergic neurotoxicity of chronic stimulant use.
+- `connects-to` → **[GLP-1](../../03-molecular/glp-1/README.md)** — GLP-1 receptor agonists reduce the dopaminergic reward response to cocaine and methamphetamine in models, an emerging metabolic-pathway approach to dampening craving and relapse in stimulant use disorder.
+- `connects-to` → **[Caspase-3](../../03-molecular/caspase-3/README.md)** — Methamphetamine drives caspase-3-mediated apoptosis of dopaminergic neurons and terminals, the cell death behind the lasting cognitive and motor deficits and Parkinson's-disease risk of chronic heavy use.
+- `connects-to` → **[Troponin complex](../../03-molecular/troponin-complex/README.md)** — Cocaine causes coronary vasospasm, accelerated atherosclerosis and direct myocardial injury, producing the troponin-positive myocardial infarction and cardiomyopathy that make stimulant use a major cardiovascular hazard.
 
 ## Treatment
 

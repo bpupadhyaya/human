@@ -307,6 +307,15 @@ cross_links:
   - target: 01-human/03-molecular/il-1b
     relation: connects-to
     note: "Social-stress neuroinflammation: social-defeat stress raises IL-1β in fear and reward circuits, part of the neuroimmune response that links chronic social stress to the heightened threat reactivity of social anxiety."
+  - target: 01-human/03-molecular/orexin
+    relation: connects-to
+    note: "Hyperarousal: orexin signalling that drives wakefulness and stress reactivity is implicated in anxiety, contributing to the physiological hyperarousal — racing heart, sweating, trembling — that anticipatory social fear triggers."
+  - target: 01-human/03-molecular/cgrp
+    relation: connects-to
+    note: "Amygdala fear peptide: CGRP projecting from the parabrachial nucleus into the amygdala signals threat and amplifies fear and avoidance, a neuropeptide arm of the threat circuitry overactive in social anxiety disorder."
+  - target: 01-human/03-molecular/ghrelin
+    relation: connects-to
+    note: "Social-stress hormone: chronic social-defeat stress dysregulates ghrelin, which potentiates fear-memory consolidation, a gut-derived stress hormone linking the social adversity that often precedes social anxiety to its persistent fear learning."
 ---
 
 # Social Anxiety Disorder
@@ -533,6 +542,9 @@ The unique **dopaminergic social reward deficit** in SAD has clinical implicatio
 - `connects-to` → **[μ-opioid receptor](../../03-molecular/mu-opioid-receptor/README.md)** — The μ-opioid system mediates the pleasure of social affiliation and the pain of rejection, and blunted μ-opioid signaling is linked to the rejection sensitivity that is central to social anxiety disorder.
 - `connects-to` → **[Estrogen](../../03-molecular/estrogen/README.md)** — Estrogen tunes the serotonergic and fear-circuit systems underlying anxiety, contributing to the sex differences and the perimenstrual fluctuation in symptom severity seen in social anxiety disorder.
 - `connects-to` → **[IL-1β](../../03-molecular/il-1b/README.md)** — Social-defeat stress raises IL-1β in fear and reward circuits, part of the neuroimmune response that links chronic social stress to the heightened threat reactivity and avoidance of social anxiety disorder.
+- `connects-to` → **[Orexin](../../03-molecular/orexin/README.md)** — Orexin signaling that drives wakefulness and stress reactivity is implicated in anxiety, contributing to the physiological hyperarousal—racing heart, sweating, trembling—that anticipatory social fear triggers.
+- `connects-to` → **[CGRP](../../03-molecular/cgrp/README.md)** — CGRP projecting from the parabrachial nucleus into the amygdala signals threat and amplifies fear and avoidance, a neuropeptide arm of the threat circuitry overactive in social anxiety disorder.
+- `connects-to` → **[Ghrelin](../../03-molecular/ghrelin/README.md)** — Chronic social-defeat stress dysregulates ghrelin, which potentiates fear-memory consolidation, a gut-derived stress hormone linking the social adversity that often precedes social anxiety to its persistent fear learning.
 
 [^liebowitz-1987-sad-scale]: Liebowitz MR. Social phobia. *Mod Probl Pharmacopsychiatry.* 1987;22:141-173. [PubMed 2885745](https://pubmed.ncbi.nlm.nih.gov/2885745/)
 [^stein-2008-sad-review]: Stein MB, Stein DJ. Social anxiety disorder. *Lancet.* 2008;371(9618):1115-1125. [doi:10.1016/S0140-6736(08)60488-2](https://doi.org/10.1016/S0140-6736(08)60488-2) · [PubMed 18374843](https://pubmed.ncbi.nlm.nih.gov/18374843/)
