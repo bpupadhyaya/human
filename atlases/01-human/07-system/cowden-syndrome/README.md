@@ -304,6 +304,15 @@ cross_links:
   - target: 01-human/03-molecular/bdnf
     relation: connects-to
     note: "Neurodevelopmental PTEN: PTEN restrains neuronal growth via the PI3K-mTOR pathway that BDNF activates, so its loss causes the macrocephaly and the autism/neurodevelopmental features of the PTEN hamartoma spectrum."
+  - target: 01-human/03-molecular/stk11
+    relation: connects-to
+    note: "Hamartomatous-polyposis differential: Cowden (PTEN) sits beside Peutz-Jeghers (LKB1/STK11) and juvenile polyposis among the hamartomatous-polyposis syndromes, distinct tumour suppressors that converge on mTOR to produce overlapping GI-polyp and cancer phenotypes."
+  - target: 01-human/03-molecular/wnt-beta-catenin
+    relation: connects-to
+    note: "Colorectal risk: the gastrointestinal hamartomas of Cowden carry an elevated colorectal-cancer risk, and malignant progression engages Wnt/β-catenin signalling, the canonical driver of colorectal carcinogenesis, prompting colonoscopic surveillance."
+  - target: 01-human/03-molecular/mlh1
+    relation: connects-to
+    note: "Endometrial-cancer differential: Cowden's high endometrial-cancer risk overlaps clinically with Lynch syndrome's mismatch-repair-deficient endometrial cancer, two distinct hereditary routes to the same tumour that genetic testing must distinguish."
 ---
 
 # Cowden Syndrome
@@ -579,6 +588,9 @@ cross_links:
 - `connects-to` → **[p27 (CDKN1B)](../../03-molecular/cdkn1b/README.md)** — PTEN normally stabilizes the cell-cycle inhibitor p27, so PTEN loss in Cowden syndrome removes this restraint—contributing to the hamartomatous overgrowth and the broadly elevated cancer risk of the syndrome.
 - `connects-to` → **[Caspase-3](../../03-molecular/caspase-3/README.md)** — PTEN loss unleashes PI3K-AKT survival signaling that suppresses caspase-3-mediated apoptosis, giving Cowden cells the survival advantage that underlies their multiple hamartomas and predisposition to cancer.
 - `connects-to` → **[BDNF](../../03-molecular/bdnf/README.md)** — PTEN restrains neuronal growth via the same PI3K-mTOR pathway that BDNF activates, so its loss causes the macrocephaly and the autism and neurodevelopmental features that characterize the PTEN hamartoma tumor spectrum.
+- `connects-to` → **[STK11](../../03-molecular/stk11/README.md)** — Cowden (PTEN) sits beside Peutz-Jeghers (LKB1/STK11) and juvenile polyposis among the hamartomatous-polyposis syndromes, distinct tumor suppressors that converge on mTOR to produce overlapping GI-polyp and cancer phenotypes.
+- `connects-to` → **[Wnt/β-catenin](../../03-molecular/wnt-beta-catenin/README.md)** — The gastrointestinal hamartomas of Cowden carry an elevated colorectal-cancer risk, and malignant progression engages Wnt/β-catenin signaling, the canonical driver of colorectal carcinogenesis, prompting colonoscopic surveillance.
+- `connects-to` → **[MLH1](../../03-molecular/mlh1/README.md)** — Cowden's high endometrial-cancer risk overlaps clinically with Lynch syndrome's mismatch-repair-deficient endometrial cancer, two distinct hereditary routes to the same tumor that genetic testing must distinguish.
 
 ---
 

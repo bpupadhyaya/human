@@ -310,6 +310,15 @@ cross_links:
   - target: 01-human/03-molecular/tlr4
     relation: connects-to
     note: "Smoke-driven innate inflammation: cigarette smoke and released DAMPs activate TLR4 on airway cells and macrophages, igniting the NF-κB-driven innate inflammation that sustains and amplifies COPD airway disease."
+  - target: 01-human/03-molecular/acetylcholine
+    relation: connects-to
+    note: "Cholinergic bronchoconstriction: vagal acetylcholine acting on airway muscarinic receptors is the dominant reversible component of airflow obstruction in COPD, the target of the long-acting muscarinic antagonist (LAMA) bronchodilators central to its treatment."
+  - target: 01-human/03-molecular/epinephrine
+    relation: connects-to
+    note: "Adrenergic bronchodilation: epinephrine and β2-agonist drugs relax airway smooth muscle through β2-adrenergic receptors, the long-acting β-agonist (LABA) inhalers that, with LAMAs, form the bronchodilator backbone of COPD therapy."
+  - target: 01-human/03-molecular/glucocorticoid-receptor
+    relation: connects-to
+    note: "Inhaled corticosteroids: glucocorticoids acting through the glucocorticoid receptor reduce exacerbations in the eosinophilic, exacerbation-prone subset of COPD, though steroid resistance limits their benefit in the predominantly neutrophilic disease."
 ---
 
 # COPD
@@ -550,6 +559,9 @@ COPD encompasses two overlapping pathological processes:
 - `connects-to` → **[EGFR](../../03-molecular/egfr/README.md)** — Cigarette smoke activates EGFR on airway epithelium to drive goblet-cell metaplasia and MUC5AC overproduction, the mechanism behind the chronic mucus hypersecretion that defines the chronic-bronchitis phenotype of COPD.
 - `connects-to` → **[Caspase-3](../../03-molecular/caspase-3/README.md)** — Loss of VEGF survival signaling and oxidative injury trigger caspase-3-mediated apoptosis of alveolar endothelial and epithelial cells—the cell death that progressively destroys alveolar walls to produce emphysema.
 - `connects-to` → **[TLR4](../../03-molecular/tlr4/README.md)** — Cigarette smoke and released DAMPs activate TLR4 on airway cells and macrophages, igniting the NF-κB-driven innate inflammation that sustains COPD airway disease and amplifies exacerbations triggered by infection.
+- `connects-to` → **[Acetylcholine](../../03-molecular/acetylcholine/README.md)** — Vagal acetylcholine acting on airway muscarinic receptors is the dominant reversible component of airflow obstruction in COPD, the target of the long-acting muscarinic antagonist (LAMA) bronchodilators central to its treatment.
+- `connects-to` → **[Epinephrine](../../03-molecular/epinephrine/README.md)** — Epinephrine and β2-agonist drugs relax airway smooth muscle through β2-adrenergic receptors, the long-acting β-agonist (LABA) inhalers that, with LAMAs, form the bronchodilator backbone of COPD therapy.
+- `connects-to` → **[Glucocorticoid receptor](../../03-molecular/glucocorticoid-receptor/README.md)** — Glucocorticoids acting through the glucocorticoid receptor reduce exacerbations in the eosinophilic, exacerbation-prone subset of COPD, though steroid resistance limits their benefit in the predominantly neutrophilic disease.
 
 ---
 
