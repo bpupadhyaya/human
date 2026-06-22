@@ -304,6 +304,15 @@ cross_links:
   - target: 01-human/03-molecular/rad51
     relation: connects-to
     note: "Radioresistance: RAD51-mediated homologous-recombination repair helps diffuse midline glioma survive radiation-induced DNA damage, a mechanism of the radioresistance that limits the durability of treatment."
+  - target: 01-human/02-atomic/calcium
+    relation: connects-to
+    note: "Neuron-glioma synapses: diffuse midline glioma cells form functional AMPA-receptor synapses with neurons, and the resulting calcium-mediated electrical activity drives tumour proliferation — a striking dependence on neuronal activity that opens new therapeutic angles."
+  - target: 01-human/03-molecular/perforin
+    relation: connects-to
+    note: "GD2 CAR-T therapy: GD2-directed CAR-T cells, the first immunotherapy to show responses in diffuse midline glioma, kill the GD2-expressing tumour cells through perforin and granzyme, a breakthrough against this previously untreatable cancer."
+  - target: 01-human/03-molecular/dnmt3a
+    relation: connects-to
+    note: "Epigenome reprogramming: the H3K27M mutation globally reshapes the epigenome, redistributing DNA methylation alongside the loss of PRC2-mediated H3K27 trimethylation, the epigenetic catastrophe at the root of diffuse midline glioma."
 ---
 
 # Diffuse Midline Glioma
@@ -538,6 +547,9 @@ Direct infusion of drugs into the pons via stereotactic catheter; bypasses BBB; 
 - `connects-to` → **[CXCL12](../../03-molecular/cxcl12/README.md)** — CXCR4 on diffuse midline glioma cells follows CXCL12 gradients along white-matter tracts, driving the diffuse brainstem infiltration that makes the tumor inoperable and defines its lethal natural history.
 - `connects-to` → **[Caspase-3](../../03-molecular/caspase-3/README.md)** — Radiotherapy—the only treatment that meaningfully helps in DIPG—kills tumor cells through caspase-3-mediated apoptosis, but apoptosis resistance underlies the inevitable relapse after the transient clinical response.
 - `connects-to` → **[RAD51](../../03-molecular/rad51/README.md)** — RAD51-mediated homologous-recombination repair helps diffuse midline glioma survive radiation-induced DNA damage, a mechanism of the radioresistance that limits the durability of the only effective treatment.
+- `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — Diffuse midline glioma cells form functional AMPA-receptor synapses with neurons, and the resulting calcium-mediated electrical activity drives tumor proliferation—a striking dependence on neuronal activity that opens new therapeutic angles.
+- `connects-to` → **[Perforin](../../03-molecular/perforin/README.md)** — GD2-directed CAR-T cells, the first immunotherapy to show responses in diffuse midline glioma, kill the GD2-expressing tumor cells through perforin and granzyme, a breakthrough against this previously untreatable cancer.
+- `connects-to` → **[DNMT3A](../../03-molecular/dnmt3a/README.md)** — The H3K27M mutation globally reshapes the epigenome, redistributing DNA methylation alongside the loss of PRC2-mediated H3K27 trimethylation, the epigenetic catastrophe at the root of diffuse midline glioma.
 
 ---
 

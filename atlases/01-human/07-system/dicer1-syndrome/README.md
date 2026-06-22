@@ -304,6 +304,15 @@ cross_links:
   - target: 01-human/03-molecular/cdkn2a
     relation: connects-to
     note: "Tumour progression: CDKN2A loss accompanies the progression of pleuropulmonary blastoma from the early cystic type I to the solid, sarcomatous type III, a key step in the malignant evolution of DICER1 tumours."
+  - target: 01-human/03-molecular/androgen-receptor
+    relation: connects-to
+    note: "Sex-cord tumours: DICER1 causes ovarian Sertoli-Leydig cell tumours that secrete androgens, producing the virilisation — hirsutism, deepening voice — that often brings these young patients to attention and declares the syndrome."
+  - target: 01-human/03-molecular/caspase-3
+    relation: connects-to
+    note: "Chemotherapy apoptosis: the embryonal tumours of DICER1 syndrome, especially pleuropulmonary blastoma, are treated with intensive chemotherapy that kills cells through caspase-3-mediated apoptosis, the effector step underlying treatment response."
+  - target: 01-human/03-molecular/wnt-beta-catenin
+    relation: connects-to
+    note: "Developmental signalling: loss of DICER1-dependent microRNA regulation derepresses developmental pathways including Wnt/β-catenin in the embryonal DICER1 tumours, reflecting their origin in dysregulated organ development."
 ---
 
 # DICER1 Syndrome
@@ -514,6 +523,9 @@ When a child is found to have a thoracic cystic lesion, DICER1 syndrome should b
 - `connects-to` → **[RB1](../../03-molecular/rb1/README.md)** — DICER1 syndrome predisposes to pineoblastoma, an aggressive RB-pathway-driven embryonal brain tumor that joins pleuropulmonary blastoma in the syndrome's intracranial tumor spectrum and shares biology with retinoblastoma.
 - `connects-to` → **[FGFR](../../03-molecular/fgfr/README.md)** — Loss of DICER1-processed microRNAs derepresses growth-factor pathways including FGFR signaling, driving the proliferation of the embryonal tumors such as pleuropulmonary blastoma and embryonal rhabdomyosarcoma.
 - `connects-to` → **[CDKN2A](../../03-molecular/cdkn2a/README.md)** — CDKN2A loss accompanies the progression of pleuropulmonary blastoma from the early cystic type I to the solid, sarcomatous type III—a key cell-cycle lesion in the malignant evolution of DICER1 tumors.
+- `connects-to` → **[Androgen receptor](../../03-molecular/androgen-receptor/README.md)** — DICER1 causes ovarian Sertoli-Leydig cell tumors that secrete androgens, producing the virilization—hirsutism, deepening voice—that often brings these young patients to attention and declares the syndrome.
+- `connects-to` → **[Caspase-3](../../03-molecular/caspase-3/README.md)** — The embryonal tumors of DICER1 syndrome, especially pleuropulmonary blastoma, are treated with intensive chemotherapy that kills cells through caspase-3-mediated apoptosis, the effector step underlying treatment response.
+- `connects-to` → **[Wnt/β-catenin](../../03-molecular/wnt-beta-catenin/README.md)** — Loss of DICER1-dependent microRNA regulation derepresses developmental pathways including Wnt/β-catenin in the embryonal DICER1 tumors, reflecting their origin in dysregulated organ development.
 
 ---
 
