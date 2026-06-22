@@ -303,6 +303,15 @@ cross_links:
   - target: 01-human/03-molecular/ccl2
     relation: connects-to
     note: "Monocyte recruitment: CCL2 draws monocytes into the inflamed synovium and entheses of psoriatic arthritis, where they differentiate into macrophages and RANKL-responsive osteoclast precursors that drive joint erosion."
+  - target: 01-human/03-molecular/sclerostin
+    relation: connects-to
+    note: "Pathological new bone: unlike the pure erosion of rheumatoid arthritis, psoriatic arthritis also forms new bone at entheses (enthesophytes, periostitis), and low sclerostin — releasing the Wnt brake on osteoblasts — drives this osteoproliferation."
+  - target: 01-human/03-molecular/il-33
+    relation: connects-to
+    note: "Entheseal alarmin: IL-33 released from stressed stromal cells at the enthesis activates innate lymphoid cells and γδ T cells to produce IL-17, an upstream alarmin feeding the IL-23/IL-17 axis that drives psoriatic enthesitis."
+  - target: 01-human/03-molecular/leptin
+    relation: connects-to
+    note: "Adipokine link to comorbidity: obesity-associated leptin is elevated in psoriatic disease and promotes Th17 differentiation, mechanistically tying the metabolic syndrome and cardiovascular risk of psoriatic arthritis to its joint and skin inflammation."
 ---
 
 # Psoriatic Arthritis
@@ -545,6 +554,9 @@ Risankizumab (anti-IL-23p19) **failed primary endpoints** in the SURPASS trial f
 - `connects-to` → **[S100A8/A9](../../03-molecular/s100a8-a9/README.md)** — Calprotectin (S100A8/A9) released by activated neutrophils and monocytes amplifies synovial and skin inflammation in psoriatic arthritis and serves as a circulating biomarker of disease activity that tracks treatment response.
 - `connects-to` → **[CTLA-4](../../03-molecular/ctla-4/README.md)** — Abatacept (CTLA-4-Ig) blocks the CD28 costimulation that activates the autoreactive T cells of psoriatic arthritis—an approved mechanism distinct from the cytokine-blocking biologics that dominate treatment, useful when those fail.
 - `connects-to` → **[CCL2](../../03-molecular/ccl2/README.md)** — CCL2 draws monocytes into the inflamed synovium and entheses of psoriatic arthritis, where they differentiate into macrophages and RANKL-responsive osteoclast precursors that drive the bone erosion characteristic of the disease.
+- `connects-to` → **[Sclerostin](../../03-molecular/sclerostin/README.md)** — Unlike the pure erosion of rheumatoid arthritis, psoriatic arthritis also forms new bone at entheses (enthesophytes, periostitis), and low sclerostin—releasing the Wnt brake on osteoblasts—drives this osteoproliferation.
+- `connects-to` → **[IL-33](../../03-molecular/il-33/README.md)** — IL-33 released from stressed stromal cells at the enthesis activates innate lymphoid cells and γδ T cells to produce IL-17, an upstream alarmin feeding the IL-23/IL-17 axis that drives psoriatic enthesitis.
+- `connects-to` → **[Leptin](../../03-molecular/leptin/README.md)** — Obesity-associated leptin is elevated in psoriatic disease and promotes Th17 differentiation, mechanistically tying the metabolic syndrome and cardiovascular risk of psoriatic arthritis to its joint and skin inflammation.
 
 [^ritchlin-2017-psa-review]: Ritchlin CT, Colbert RA, Gladman DD. Psoriatic arthritis. *N Engl J Med.* 2017;376(10):957-970. [doi:10.1056/NEJMra1505557](https://doi.org/10.1056/NEJMra1505557) · [PubMed 28273019](https://pubmed.ncbi.nlm.nih.gov/28273019/)
 [^mease-2015-secukinumab-psa-future2]: Mease PJ, et al. Secukinumab inhibition of interleukin-17A in patients with psoriatic arthritis. *N Engl J Med.* 2015;373(14):1329-1339. [doi:10.1056/NEJMoa1503317](https://doi.org/10.1056/NEJMoa1503317) · [PubMed 26422723](https://pubmed.ncbi.nlm.nih.gov/26422723/)

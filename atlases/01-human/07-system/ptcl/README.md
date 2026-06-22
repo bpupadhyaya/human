@@ -295,6 +295,15 @@ cross_links:
   - target: 01-human/03-molecular/ccl2
     relation: connects-to
     note: "Reactive infiltrate: CCL2 secreted within PTCL nodes recruits monocytes and macrophages into the prominent inflammatory background that characterises angioimmunoblastic and other peripheral T-cell lymphomas."
+  - target: 01-human/03-molecular/pik3ca
+    relation: connects-to
+    note: "PI3K dependence: peripheral T-cell lymphomas frequently depend on PI3K signalling, the rationale for the dual PI3K-δ/γ inhibitor duvelisib, which targets both the malignant T cells and the supportive tumour-microenvironment cells."
+  - target: 01-human/03-molecular/bcl-2
+    relation: connects-to
+    note: "Apoptotic resistance: anti-apoptotic BCL-2-family proteins help PTCL cells evade the death programme, underlying the chemoresistance of these aggressive lymphomas and motivating BH3-mimetic combinations under study."
+  - target: 01-human/03-molecular/perforin
+    relation: connects-to
+    note: "Cytotoxic cell of origin: a subset of peripheral T-cell lymphomas derive from cytotoxic T or NK cells and express perforin and granzyme, the cytotoxic-molecule phenotype that defines extranodal NK/T-cell and hepatosplenic lymphomas with their aggressive course."
 ---
 
 # Peripheral T-cell Lymphoma
@@ -532,6 +541,9 @@ Aggressive presentation; generalized lymphadenopathy; extranodal involvement (~6
 - `connects-to` → **[JAK1/2](../../03-molecular/jak1-2/README.md)** — Recurrent JAK1/JAK2 and STAT3 mutations drive constitutive JAK-STAT signaling in several PTCL subtypes, the rationale for testing ruxolitinib and other JAK inhibitors in this lymphoma where conventional chemotherapy often fails.
 - `connects-to` → **[TGF-β](../../03-molecular/tgf-beta/README.md)** — TGF-β in the PTCL microenvironment dampens cytotoxic responses and shapes the reactive infiltrate—especially in angioimmunoblastic T-cell lymphoma, where the malignant TFH cells are a minority among an inflamed bystander background.
 - `connects-to` → **[CCL2](../../03-molecular/ccl2/README.md)** — CCL2 secreted within PTCL nodes recruits monocytes and macrophages into the prominent inflammatory background that characterizes angioimmunoblastic and other peripheral T-cell lymphomas, where reactive cells outnumber tumor cells.
+- `connects-to` → **[PIK3CA](../../03-molecular/pik3ca/README.md)** — Peripheral T-cell lymphomas frequently depend on PI3K signaling, the rationale for the dual PI3K-δ/γ inhibitor duvelisib, which targets both the malignant T cells and the supportive tumor-microenvironment cells.
+- `connects-to` → **[BCL-2](../../03-molecular/bcl-2/README.md)** — Anti-apoptotic BCL-2-family proteins help PTCL cells evade the death program, underlying the chemoresistance of these aggressive lymphomas and motivating BH3-mimetic combinations under study.
+- `connects-to` → **[Perforin](../../03-molecular/perforin/README.md)** — A subset of peripheral T-cell lymphomas derive from cytotoxic T or NK cells and express perforin and granzyme, the cytotoxic-molecule phenotype that defines extranodal NK/T-cell and hepatosplenic lymphomas with their aggressive course.
 
 ---
 
