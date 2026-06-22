@@ -310,6 +310,15 @@ cross_links:
   - target: 01-human/03-molecular/ccl2
     relation: connects-to
     note: "Muscle infiltration: CCL2 recruits monocytes into the perivascular and perifascicular regions of dermatomyositis muscle, building the inflammatory infiltrate that accompanies the complement-mediated capillary injury."
+  - target: 01-human/03-molecular/rig-i
+    relation: connects-to
+    note: "Autoantigen sensor: MDA5 (IFIH1), a RIG-I-like cytosolic RNA sensor, is itself a major dermatomyositis autoantigen — anti-MDA5 antibodies define the clinically-amyopathic subset with rapidly progressive interstitial lung disease and a vasculopathic, ulcerating skin phenotype."
+  - target: 01-human/03-molecular/baff
+    relation: connects-to
+    note: "Autoantibody survival: BAFF supports the autoreactive B cells producing the myositis-specific antibodies (anti-Mi-2, TIF1-γ, NXP2, MDA5), part of the humoral arm that rituximab targets in refractory dermatomyositis."
+  - target: 01-human/03-molecular/endothelin-1
+    relation: connects-to
+    note: "Capillary vasculopathy: endothelin-1-driven vasoconstriction contributes to the capillary dropout and ischaemia that underlie the perifascicular atrophy of dermatomyositis muscle and the nailfold capillary changes of its vasculopathy."
 ---
 ---
 
@@ -533,6 +542,9 @@ DM carries a ~3–7× elevated cancer risk overall. Anti-TIF1γ (TRIM33) suppres
 - `connects-to` → **[CD20](../../03-molecular/cd20/README.md)** — Rituximab targets CD20+ B cells in refractory dermatomyositis, cutting the production of myositis-specific autoantibodies and the antigen presentation that sustain the autoimmune attack on muscle capillaries and skin.
 - `connects-to` → **[FcRn](../../03-molecular/fcrn/README.md)** — The neonatal Fc receptor protects pathogenic IgG from degradation, the mechanism by which high-dose IVIG—an approved dermatomyositis therapy—saturates FcRn to accelerate autoantibody clearance, now also targeted directly by FcRn antagonists.
 - `connects-to` → **[CCL2](../../03-molecular/ccl2/README.md)** — CCL2 recruits monocytes into the perivascular and perifascicular regions of dermatomyositis muscle, building the inflammatory infiltrate that accompanies the complement-mediated capillary injury characteristic of the disease.
+- `connects-to` → **[RIG-I](../../03-molecular/rig-i/README.md)** — MDA5 (IFIH1), a RIG-I-like cytosolic RNA sensor, is itself a major dermatomyositis autoantigen—anti-MDA5 antibodies define the clinically-amyopathic subset with rapidly progressive interstitial lung disease and a vasculopathic, ulcerating skin phenotype.
+- `connects-to` → **[BAFF](../../03-molecular/baff/README.md)** — BAFF supports the autoreactive B cells producing the myositis-specific antibodies (anti-Mi-2, TIF1-γ, NXP2, MDA5), part of the humoral arm that rituximab targets in refractory dermatomyositis.
+- `connects-to` → **[Endothelin-1](../../03-molecular/endothelin-1/README.md)** — Endothelin-1-driven vasoconstriction contributes to the capillary dropout and ischemia that underlie the perifascicular atrophy of dermatomyositis muscle and the nailfold capillary changes of its vasculopathy.
 
 [^bohan-peter-1975-dm-criteria]: Bohan A, Peter JB. Polymyositis and dermatomyositis. *N Engl J Med.* 1975;292(7):344-347. [doi:10.1056/NEJM197502132920706](https://doi.org/10.1056/NEJM197502132920706) · [PubMed 1090839](https://pubmed.ncbi.nlm.nih.gov/1090839/)
 [^lundberg-2021-iim-classification]: Lundberg IE, et al. 2017 EULAR/ACR classification criteria for adult and juvenile idiopathic inflammatory myopathies. *Arthritis Rheumatol.* 2017;69(12):2271-2282. [doi:10.1002/art.40320](https://doi.org/10.1002/art.40320) · [PubMed 29106061](https://pubmed.ncbi.nlm.nih.gov/29106061/)
