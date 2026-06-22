@@ -304,6 +304,15 @@ cross_links:
   - target: 01-human/03-molecular/il-1b
     relation: connects-to
     note: "Inflammatory medial degeneration: IL-1β and inflammatory signalling contribute to the medial degeneration and matrix breakdown of the Marfan aorta, an inflammatory arm of aneurysm formation layered on the excess TGF-β signalling."
+  - target: 01-human/03-molecular/periostin
+    relation: connects-to
+    note: "Aortic remodelling: periostin is upregulated in the Marfan aortic wall, where this matricellular protein participates in the maladaptive medial remodelling and matrix disorganisation that weaken the aorta and predispose it to aneurysm and dissection."
+  - target: 01-human/03-molecular/galectin-3
+    relation: connects-to
+    note: "Aortic fibrosis: galectin-3 promotes the inflammation and fibrosis of the degenerating Marfan aortic media, a profibrotic lectin studied as a biomarker of aortic-wall disease and risk of aneurysm progression."
+  - target: 01-human/03-molecular/renin
+    relation: connects-to
+    note: "RAAS-TGF-β crosstalk: angiotensin signalling downstream of renin amplifies aortic TGF-β activity, the rationale for the angiotensin-receptor blocker losartan, which slows aortic-root dilatation in Marfan beyond simple blood-pressure lowering."
 ---
 
 # Marfan Syndrome
@@ -538,6 +547,9 @@ MFS is a **multi-system disorder** defined by cardiovascular, ocular, and skelet
 - `connects-to` → **[β1-adrenergic receptor](../../03-molecular/beta1-adrenergic-receptor/README.md)** — Beta-blockers acting on β1-adrenergic receptors lower heart rate and the rate of aortic-pressure rise (dP/dt), reducing wall stress to slow aortic-root dilation—the longstanding mainstay of aortic protection in Marfan syndrome.
 - `connects-to` → **[Estrogen](../../03-molecular/estrogen/README.md)** — Pregnancy markedly raises the risk of aortic dissection in Marfan syndrome through combined hemodynamic and hormonal effects on the already weakened aortic wall, demanding intensive cardiac surveillance through gestation.
 - `connects-to` → **[IL-1β](../../03-molecular/il-1b/README.md)** — IL-1β and inflammatory signaling contribute to the medial degeneration and matrix breakdown of the Marfan aorta, an inflammatory arm of aneurysm formation layered on the excess TGF-β signaling that fibrillin loss unleashes.
+- `connects-to` → **[Periostin](../../03-molecular/periostin/README.md)** — Periostin is upregulated in the Marfan aortic wall, where this matricellular protein participates in the maladaptive medial remodeling and matrix disorganization that weaken the aorta and predispose it to aneurysm and dissection.
+- `connects-to` → **[Galectin-3](../../03-molecular/galectin-3/README.md)** — Galectin-3 promotes the inflammation and fibrosis of the degenerating Marfan aortic media, a profibrotic lectin studied as a biomarker of aortic-wall disease and risk of aneurysm progression.
+- `connects-to` → **[Renin](../../03-molecular/renin/README.md)** — Angiotensin signaling downstream of renin amplifies aortic TGF-β activity, the rationale for the angiotensin-receptor blocker losartan, which slows aortic-root dilatation in Marfan beyond simple blood-pressure lowering.
 
 ---
 

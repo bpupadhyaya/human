@@ -304,6 +304,15 @@ cross_links:
   - target: 01-human/03-molecular/rad51
     relation: connects-to
     note: "Radioresistance: RAD51-mediated homologous-recombination repair helps high-risk medulloblastomas survive radiation-induced DNA damage, a mechanism of the radioresistance that limits cure in the aggressive Group 3 and TP53-mutant SHH tumours."
+  - target: 01-human/03-molecular/dnmt3a
+    relation: connects-to
+    note: "Methylation classification: medulloblastoma is now defined by its DNA-methylation profile, which separates the WNT, SHH, Group 3 and Group 4 subgroups with their different biology, prognosis and therapy — making the methylome the basis of modern diagnosis."
+  - target: 01-human/03-molecular/perforin
+    relation: connects-to
+    note: "GD2 immunotherapy: Group 3 medulloblastomas express GD2, and GD2-directed CAR-T cells aim to kill them through perforin and granzyme, an emerging immunotherapy for the highest-risk subgroup that responds poorly to standard treatment."
+  - target: 01-human/03-molecular/ntrk
+    relation: connects-to
+    note: "Granule-precursor origin: SHH-subgroup medulloblastoma arises from cerebellar granule-neuron precursors, whose normal proliferation and differentiation are shaped by neurotrophin-Trk signalling, the developmental context the tumour hijacks."
 ---
 
 # Medulloblastoma
@@ -529,6 +538,9 @@ MB survivors face substantial late effects — inversely proportional to age at 
 - `connects-to` → **[CTNNB1](../../03-molecular/ctnnb1/README.md)** — Activating CTNNB1 (β-catenin) mutations define the WNT subgroup of medulloblastoma, the best-prognosis molecular subgroup whose cure rates exceed 90%—driving efforts to de-escalate therapy and spare these children long-term toxicity.
 - `connects-to` → **[CXCL12](../../03-molecular/cxcl12/README.md)** — CXCR4 on medulloblastoma cells follows CXCL12 gradients to seed the cerebrospinal fluid, the leptomeningeal dissemination that mandates craniospinal irradiation in all but the lowest-risk cases of this cerebellar tumor.
 - `connects-to` → **[RAD51](../../03-molecular/rad51/README.md)** — RAD51-mediated homologous-recombination repair helps high-risk medulloblastomas survive radiation-induced DNA damage, a mechanism of the radioresistance that limits cure in the aggressive Group 3 and TP53-mutant SHH tumors.
+- `connects-to` → **[DNMT3A](../../03-molecular/dnmt3a/README.md)** — Medulloblastoma is now defined by its DNA-methylation profile, which separates the WNT, SHH, Group 3 and Group 4 subgroups with their different biology, prognosis and therapy—making the methylome the basis of modern diagnosis.
+- `connects-to` → **[Perforin](../../03-molecular/perforin/README.md)** — Group 3 medulloblastomas express GD2, and GD2-directed CAR-T cells aim to kill them through perforin and granzyme, an emerging immunotherapy for the highest-risk subgroup that responds poorly to standard treatment.
+- `connects-to` → **[NTRK](../../03-molecular/ntrk/README.md)** — SHH-subgroup medulloblastoma arises from cerebellar granule-neuron precursors, whose normal proliferation and differentiation are shaped by neurotrophin-Trk signaling, the developmental context the tumor hijacks.
 
 [^packer-2006-std-risk-mb]: Packer RJ, Gajjar A, Vezina G, et al. Phase III study of craniospinal radiation therapy followed by adjuvant chemotherapy for newly diagnosed average-risk medulloblastoma. *J Clin Oncol.* 2006;24(25):4202-4208. [doi:10.1200/JCO.2006.06.4980](https://doi.org/10.1200/JCO.2006.06.4980) · [PubMed 16943538](https://pubmed.ncbi.nlm.nih.gov/16943538/)
 [^taylor-2012-mb-subgroups]: Taylor MD, Northcott PA, Korshunov A, et al. Molecular subgroups of medulloblastoma: the current consensus. *Acta Neuropathol.* 2012;123(4):465-472. [doi:10.1007/s00401-011-0922-z](https://doi.org/10.1007/s00401-011-0922-z) · [PubMed 22134537](https://pubmed.ncbi.nlm.nih.gov/22134537/)
