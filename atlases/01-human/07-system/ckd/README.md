@@ -306,6 +306,15 @@ cross_links:
   - target: 01-human/03-molecular/cholesterol
     relation: connects-to
     note: "Dyslipidaemia and CV risk: CKD causes an atherogenic dyslipidaemia, and the resulting accelerated atherosclerosis makes cardiovascular disease — not kidney failure itself — the leading cause of death in CKD."
+  - target: 01-human/02-atomic/calcium
+    relation: connects-to
+    note: "Mineral-bone disorder: failing kidneys lose phosphate and calcium control, and the resulting hyperphosphataemia and secondary hyperparathyroidism drive both renal bone disease and the vascular calcification that worsens CKD cardiovascular mortality."
+  - target: 01-human/03-molecular/glp-1
+    relation: connects-to
+    note: "Metabolic renoprotection: GLP-1 receptor agonists reduce albuminuria and slow eGFR decline in diabetic chronic kidney disease, adding a metabolic-pathway renoprotective therapy alongside RAAS blockade and SGLT2 inhibition."
+  - target: 01-human/03-molecular/xanthine-oxidase
+    relation: connects-to
+    note: "Urate retention: failing renal clearance raises serum urate, and xanthine-oxidase-generated uric acid contributes both to the gout common in CKD and, debated, to progression itself, the rationale behind urate-lowering trials in kidney disease."
 ---
 
 # Chronic Kidney Disease
@@ -478,6 +487,9 @@ As nephron mass decreases, impaired renal functions accumulate:
 - `connects-to` → **[HIF-1α](../../03-molecular/hif-1alpha/README.md)** — HIF-prolyl-hydroxylase inhibitors (roxadustat) stabilize HIF-1α to boost endogenous erythropoietin production and improve iron handling, an oral alternative to injectable ESAs for the renal anemia of CKD.
 - `connects-to` → **[IL-6](../../03-molecular/il-6/README.md)** — Persistently elevated IL-6 in CKD drives hepcidin-mediated anemia and is a major contributor to the accelerated cardiovascular risk and the protein-energy wasting that characterize advanced kidney disease.
 - `connects-to` → **[Cholesterol](../../03-molecular/cholesterol/README.md)** — CKD causes an atherogenic dyslipidemia, and the resulting accelerated atherosclerosis makes cardiovascular disease—not progression to kidney failure—the leading cause of death in most patients with chronic kidney disease.
+- `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — Failing kidneys lose phosphate and calcium control, and the resulting hyperphosphatemia and secondary hyperparathyroidism drive both renal bone disease and the vascular calcification that worsens CKD cardiovascular mortality.
+- `connects-to` → **[GLP-1](../../03-molecular/glp-1/README.md)** — GLP-1 receptor agonists reduce albuminuria and slow eGFR decline in diabetic chronic kidney disease, adding a metabolic-pathway renoprotective therapy alongside RAAS blockade and SGLT2 inhibition.
+- `connects-to` → **[Xanthine Oxidase](../../03-molecular/xanthine-oxidase/README.md)** — Failing renal clearance raises serum urate, and xanthine-oxidase-generated uric acid contributes both to the gout common in CKD and, debated, to progression itself, the rationale behind urate-lowering trials in kidney disease.
 
 ## Pathology
 
