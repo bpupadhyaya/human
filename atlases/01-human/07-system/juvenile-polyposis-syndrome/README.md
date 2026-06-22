@@ -304,6 +304,15 @@ cross_links:
   - target: 01-human/03-molecular/caspase-3
     relation: connects-to
     note: "Lost apoptotic control: BMP/SMAD4 signalling normally promotes apoptosis in the gut epithelium, so its loss in juvenile polyposis impairs caspase-3-mediated cell death, contributing to polyp formation and the elevated cancer risk."
+  - target: 01-human/03-molecular/endothelin-1
+    relation: connects-to
+    note: "HHT vascular overlap: SMAD4-mutant juvenile polyposis overlaps with hereditary haemorrhagic telangiectasia, where the same BMP/TGF-β defect produces arteriovenous malformations and the endothelial dysfunction reflected in endothelin signalling, causing epistaxis and GI bleeding."
+  - target: 01-human/03-molecular/mlh1
+    relation: connects-to
+    note: "Hereditary-cancer differential: juvenile polyposis (SMAD4/BMPR1A) sits among the hereditary gastrointestinal-cancer syndromes that must be distinguished from Lynch syndrome (MLH1 and other mismatch-repair genes), each with its own surveillance and risk profile."
+  - target: 01-human/03-molecular/mutyh
+    relation: connects-to
+    note: "Polyposis differential: the hamartomatous polyps of juvenile polyposis must be distinguished histologically and genetically from the adenomatous polyposis of FAP and MUTYH-associated polyposis, a distinction that determines cancer risk and management."
 ---
 
 # Juvenile Polyposis Syndrome
@@ -529,6 +538,9 @@ No approved chemopreventive agents specifically for JPS. Options under investiga
 - `connects-to` → **[Nitric oxide](../../03-molecular/nitric-oxide/README.md)** — SMAD4 loss impairs the BMP9-ALK1-SMAD4 signaling that restrains endothelial nitric oxide, causing the arteriovenous malformations and telangiectasias of the hereditary hemorrhagic telangiectasia seen in SMAD4-juvenile polyposis overlap.
 - `connects-to` → **[EGFR](../../03-molecular/egfr/README.md)** — EGFR-driven proliferation of the polyp epithelium contributes to the growth of the hamartomatous juvenile polyps once the BMP/SMAD4 brake on epithelial homeostasis is lost in the syndrome.
 - `connects-to` → **[Caspase-3](../../03-molecular/caspase-3/README.md)** — BMP/SMAD4 signaling normally promotes apoptosis in the gut epithelium, so its loss in juvenile polyposis impairs caspase-3-mediated cell death—contributing to polyp formation and the substantially elevated gastrointestinal cancer risk.
+- `connects-to` → **[Endothelin-1](../../03-molecular/endothelin-1/README.md)** — SMAD4-mutant juvenile polyposis overlaps with hereditary hemorrhagic telangiectasia, where the same BMP/TGF-β defect produces arteriovenous malformations and the endothelial dysfunction reflected in endothelin signaling, causing epistaxis and GI bleeding.
+- `connects-to` → **[MLH1](../../03-molecular/mlh1/README.md)** — Juvenile polyposis (SMAD4/BMPR1A) sits among the hereditary gastrointestinal-cancer syndromes that must be distinguished from Lynch syndrome (MLH1 and other mismatch-repair genes), each with its own surveillance and risk profile.
+- `connects-to` → **[MUTYH](../../03-molecular/mutyh/README.md)** — The hamartomatous polyps of juvenile polyposis must be distinguished histologically and genetically from the adenomatous polyposis of FAP and MUTYH-associated polyposis, a distinction that determines cancer risk and management.
 
 [^howe-1998-smad4-jps]: Howe JR, Roth S, Ringold JC, et al. Mutations in the SMAD4/DPC4 gene in juvenile polyposis. *Science.* 1998;280(5366):1086-1088. [doi:10.1126/science.280.5366.1086](https://doi.org/10.1126/science.280.5366.1086) · [PubMed 9582123](https://pubmed.ncbi.nlm.nih.gov/9582123/)
 [^aretz-2007-jps-spectrum]: Aretz S, Stienen D, Uhlhaas S, et al. High proportion of large genomic deletions and a genotype-phenotype update in 80 unrelated families with juvenile polyposis syndrome. *J Med Genet.* 2007;44(11):702-709. [doi:10.1136/jmg.2007.051839](https://doi.org/10.1136/jmg.2007.051839) · [PubMed 17601924](https://pubmed.ncbi.nlm.nih.gov/17601924/)

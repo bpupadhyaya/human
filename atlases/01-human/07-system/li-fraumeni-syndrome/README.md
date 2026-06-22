@@ -304,6 +304,15 @@ cross_links:
   - target: 01-human/03-molecular/cxcl12
     relation: connects-to
     note: "Metastatic homing: CXCR4-CXCL12 signalling drives the metastasis of the sarcomas and other tumours of Li-Fraumeni syndrome, the chemokine route to the spread that worsens their prognosis."
+  - target: 01-human/03-molecular/cortisol
+    relation: connects-to
+    note: "Adrenocortical carcinoma: a near-pathognomonic childhood tumour of Li-Fraumeni is adrenocortical carcinoma, which often secretes cortisol and androgens, so unexplained Cushing's or virilisation in a child can be the first clue to a germline TP53 mutation."
+  - target: 01-human/03-molecular/xanthine-oxidase
+    relation: connects-to
+    note: "Radiation sensitivity: with p53 lost, Li-Fraumeni cells handle radiation-induced oxidative DNA damage poorly and readily form radiation-induced second cancers, the basis for avoiding radiotherapy whenever possible in these patients."
+  - target: 01-human/03-molecular/dnmt3a
+    relation: connects-to
+    note: "Therapy-related leukaemia: the genotoxic chemotherapy and radiation used to treat Li-Fraumeni cancers select for clonal haematopoiesis with mutations such as DNMT3A, raising the risk of therapy-related myelodysplasia and leukaemia in these multiply-treated patients."
 ---
 
 # Li-Fraumeni Syndrome
@@ -550,6 +559,9 @@ Annual surveillance significantly reduces mortality in LFS carriers (Villani 201
 - `connects-to` → **[cGAS-STING](../../03-molecular/cgas-sting/README.md)** — The chromosomal instability unleashed by germline p53 loss generates micronuclei and cytosolic DNA that engage cGAS-STING, an innate-immune consequence of the genomic chaos that defines Li-Fraumeni tumors.
 - `connects-to` → **[Autophagy](../../03-molecular/autophagy/README.md)** — p53 is a master regulator of autophagy, so its germline loss in Li-Fraumeni dysregulates the autophagic balance governing cell survival and metabolism, contributing to tumorigenesis across the syndrome's broad cancer spectrum.
 - `connects-to` → **[CXCL12](../../03-molecular/cxcl12/README.md)** — CXCR4-CXCL12 signaling drives the metastasis of the sarcomas and other tumors of Li-Fraumeni syndrome, the chemokine route to the spread that worsens the prognosis of these early-onset cancers.
+- `connects-to` → **[Cortisol](../../03-molecular/cortisol/README.md)** — A near-pathognomonic childhood tumor of Li-Fraumeni is adrenocortical carcinoma, which often secretes cortisol and androgens, so unexplained Cushing's or virilization in a child can be the first clue to a germline TP53 mutation.
+- `connects-to` → **[Xanthine Oxidase](../../03-molecular/xanthine-oxidase/README.md)** — With p53 lost, Li-Fraumeni cells handle radiation-induced oxidative DNA damage poorly and readily form radiation-induced second cancers, the basis for avoiding radiotherapy whenever possible in these patients.
+- `connects-to` → **[DNMT3A](../../03-molecular/dnmt3a/README.md)** — The genotoxic chemotherapy and radiation used to treat Li-Fraumeni cancers select for clonal hematopoiesis with mutations such as DNMT3A, raising the risk of therapy-related myelodysplasia and leukemia in these multiply-treated patients.
 
 [^bougeard-2015-lfs-chompret]: Bougeard G, Renaux-Petel M, Flaman JM, et al. Revisiting Li-Fraumeni Syndrome From TP53 Mutation Carriers. *J Clin Oncol.* 2015;33(21):2345-2352. [doi:10.1200/JCO.2014.59.5728](https://doi.org/10.1200/JCO.2014.59.5728) · [PubMed 26014290](https://pubmed.ncbi.nlm.nih.gov/26014290/)
 [^villani-2016-lfs-surveillance]: Villani A, Shore A, Wasserman JD, et al. Biochemical and imaging surveillance in germline TP53 mutation carriers with Li-Fraumeni syndrome: 11 year follow-up of a prospective observational study. *Lancet Oncol.* 2016;17(9):1295-1305. [doi:10.1016/S1470-2045(16)30249-2](https://doi.org/10.1016/S1470-2045(16)30249-2) · [PubMed 27501770](https://pubmed.ncbi.nlm.nih.gov/27501770/)
