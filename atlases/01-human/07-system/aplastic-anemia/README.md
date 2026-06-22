@@ -304,6 +304,15 @@ cross_links:
   - target: 01-human/03-molecular/tgf-beta
     relation: connects-to
     note: "Progenitor suppression: TGF-β is among the inhibitory cytokines that suppress haematopoietic progenitor proliferation in the aplastic marrow, adding to the IFN-γ- and TNF-driven destruction of stem cells."
+  - target: 01-human/03-molecular/mhc-class-ii
+    relation: connects-to
+    note: "Immune predisposition: HLA-DR15 is over-represented in acquired aplastic anaemia, where MHC-class-II presentation of stem-cell antigens primes the autoreactive T cells that attack the marrow — explaining its response to immunosuppression."
+  - target: 01-human/03-molecular/glucocorticoid-receptor
+    relation: connects-to
+    note: "Immunosuppressive therapy: corticosteroids acting through the glucocorticoid receptor accompany antithymocyte globulin and ciclosporin in the immunosuppression that rescues the marrow from the autoreactive T-cell attack of aplastic anaemia."
+  - target: 01-human/03-molecular/dnmt3a
+    relation: connects-to
+    note: "Clonal evolution: surviving stem cells in aplastic anaemia can acquire mutations such as DNMT3A, and a subset of patients progress to myelodysplastic syndrome or acute leukaemia, the late clonal transformation that shadows the disease."
 ---
 
 # Aplastic Anemia
@@ -512,6 +521,9 @@ In >80% of acquired AA cases, the disease is **immune-mediated**: autoreactive *
 - `connects-to` → **[MPL](../../03-molecular/mpl/README.md)** — Eltrombopag stimulates the thrombopoietin receptor MPL on surviving haematopoietic stem cells to restore trilineage production in aplastic anaemia—a therapy that works even though the underlying defect is immune-mediated destruction.
 - `connects-to` → **[STAT1](../../03-molecular/stat1/README.md)** — The IFN-γ that drives immune marrow failure in aplastic anaemia signals through STAT1 to suppress and kill haematopoietic stem cells, the intracellular transducer through which the autoreactive T-cell attack collapses haematopoiesis.
 - `connects-to` → **[TGF-β](../../03-molecular/tgf-beta/README.md)** — TGF-β is among the inhibitory cytokines that suppress haematopoietic progenitor proliferation in the aplastic marrow, adding to the IFN-γ- and TNF-driven destruction that empties the bone marrow.
+- `connects-to` → **[MHC class II](../../03-molecular/mhc-class-ii/README.md)** — HLA-DR15 is over-represented in acquired aplastic anemia, where MHC-class-II presentation of stem-cell antigens primes the autoreactive T cells that attack the marrow—explaining its response to immunosuppression.
+- `connects-to` → **[Glucocorticoid receptor](../../03-molecular/glucocorticoid-receptor/README.md)** — Corticosteroids acting through the glucocorticoid receptor accompany antithymocyte globulin and ciclosporin in the immunosuppression that rescues the marrow from the autoreactive T-cell attack of aplastic anemia.
+- `connects-to` → **[DNMT3A](../../03-molecular/dnmt3a/README.md)** — Surviving stem cells in aplastic anemia can acquire mutations such as DNMT3A, and a subset of patients progress to myelodysplastic syndrome or acute leukemia, the late clonal transformation that shadows the disease.
 
 ---
 

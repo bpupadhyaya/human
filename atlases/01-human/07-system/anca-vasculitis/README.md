@@ -316,6 +316,15 @@ cross_links:
   - target: 01-human/03-molecular/thrombin
     relation: connects-to
     note: "Hypercoagulability: active ANCA-associated vasculitis markedly raises venous-thromboembolism risk, with NET- and tissue-factor-driven thrombin generation underlying the thrombotic tendency during disease flares."
+  - target: 01-human/03-molecular/glucocorticoid-receptor
+    relation: connects-to
+    note: "Induction therapy: high-dose glucocorticoids acting through the glucocorticoid receptor are the backbone of remission induction in ANCA vasculitis, rapidly suppressing the neutrophil-driven inflammation, with the C5aR antagonist avacopan now allowing steroid sparing."
+  - target: 01-human/03-molecular/fcrn
+    relation: connects-to
+    note: "Pathogenic-IgG removal: because ANCA are pathogenic IgG autoantibodies, plasma exchange and FcRn-blocking agents that accelerate IgG clearance are used to lower autoantibody levels in severe ANCA vasculitis with rapidly progressive kidney or lung disease."
+  - target: 01-human/03-molecular/mhc-class-ii
+    relation: connects-to
+    note: "Genetic predisposition: distinct HLA class II alleles predispose to anti-PR3 (HLA-DP) versus anti-MPO disease, favouring presentation of the neutrophil-autoantigen peptides to T cells that license ANCA production."
 ---
 
 # ANCA Vasculitis
@@ -547,6 +556,9 @@ EGPA is mechanistically distinct — eosinophils, not neutrophils, mediate tissu
 - `connects-to` → **[BTK](../../03-molecular/btk/README.md)** — BTK transduces B-cell-receptor and Fc-receptor signals in the autoreactive B cells and ANCA-activated neutrophils of the disease, making BTK inhibitors a candidate therapy complementing the established B-cell depletion of rituximab.
 - `connects-to` → **[TLR4](../../03-molecular/tlr4/README.md)** — TLR-mediated priming of neutrophils (as during infection) is required for ANCA to trigger the respiratory burst and NETosis, helping explain why infections precipitate flares of ANCA-associated vasculitis.
 - `connects-to` → **[Thrombin](../../03-molecular/thrombin/README.md)** — Active ANCA-associated vasculitis markedly raises venous-thromboembolism risk, with NET- and tissue-factor-driven thrombin generation underlying the thrombotic tendency that accompanies disease flares.
+- `connects-to` → **[Glucocorticoid receptor](../../03-molecular/glucocorticoid-receptor/README.md)** — High-dose glucocorticoids acting through the glucocorticoid receptor are the backbone of remission induction in ANCA vasculitis, rapidly suppressing the neutrophil-driven inflammation, with the C5aR antagonist avacopan now allowing steroid sparing.
+- `connects-to` → **[FcRn](../../03-molecular/fcrn/README.md)** — Because ANCA are pathogenic IgG autoantibodies, plasma exchange and FcRn-blocking agents that accelerate IgG clearance are used to lower autoantibody levels in severe ANCA vasculitis with rapidly progressive kidney or lung disease.
+- `connects-to` → **[MHC class II](../../03-molecular/mhc-class-ii/README.md)** — Distinct HLA class II alleles predispose to anti-PR3 (HLA-DP) versus anti-MPO disease, favoring presentation of the neutrophil-autoantigen peptides to T cells that license ANCA production.
 
 [^yates-2022-anca-review]: Yates M, Watts RA, Bajema IM, et al. EULAR/ERA-EDTA recommendations for the management of ANCA-associated vasculitis. *Ann Rheum Dis.* 2016;75(9):1583-1594. [doi:10.1136/annrheumdis-2016-209133](https://doi.org/10.1136/annrheumdis-2016-209133) · [PubMed 27338776](https://pubmed.ncbi.nlm.nih.gov/27338776/)
 [^stone-2010-rituximab-gpa-rave]: Stone JH, Merkel PA, Spiera R, et al. Rituximab versus cyclophosphamide for ANCA-associated vasculitis. *N Engl J Med.* 2010;363(3):221-232. [doi:10.1056/NEJMoa0909905](https://doi.org/10.1056/NEJMoa0909905) · [PubMed 20647199](https://pubmed.ncbi.nlm.nih.gov/20647199/)
